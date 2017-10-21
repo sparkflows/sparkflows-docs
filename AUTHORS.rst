@@ -1,7 +1,7 @@
 Authors
 -------
 
-* Eric (New contributor)
-* Anthony 
+* Jayant Shekhar
+* Sunil Sharma
 
 

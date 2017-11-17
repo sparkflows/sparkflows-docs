@@ -9,13 +9,17 @@ Welcome to Sparkflows documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :glob:
 
    *
    install
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Subsections Testing
 
+   org/index
 
 Indices and tables
 ==================

@@ -1,25 +1,24 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Getting Started with Sparkflows Resources
+=========================================
 
-Welcome to Sparkflows documentation!
-====================================
+Sparkflows makes it incredibly easy for anyone to do Big Data Analytics, Data Prep, Machine Learning, NLP, OCR, Dedup. It also allows you to extend the capabilities with your own operators.
 
-Contents:
+Architecture & Deployment
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
-   :glob:
 
-   *
-   install
+   architecture-deployment/index
+
+Installation and Upgrading
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
-   :caption: Subsections Testing
 
-   org/index
+   installation-upgrading/index
+
 
 Indices and tables
 ==================

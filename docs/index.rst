@@ -19,6 +19,18 @@ Installation and Upgrading
 
    installation-upgrading/index
 
+Frequently Asked Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+
+   faq.rst
+
+Troubleshooting
+~~~~~~~~~~~~~~~
+.. toctree::
+
+   troubleshooting.rst
+
 
 Indices and tables
 ==================

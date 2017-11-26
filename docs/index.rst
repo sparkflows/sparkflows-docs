@@ -19,6 +19,14 @@ Installation and Upgrading
 
    installation-upgrading/index
 
+Two Level
+=========
+
+.. toctree::
+   :maxdepth: 2
+
+   twolevel/index
+
 Frequently Asked Questions
 ==========================
 .. toctree::

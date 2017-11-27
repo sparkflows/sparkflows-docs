@@ -1,32 +1,10 @@
 Installation
 ------------
 
-Fire is built to be lightweight, secure and powerful. It can be setup to run in :
-
-Standalone mode on a MacOS, Linux or Windows.
-On an edge node of an Apache Spark cluster
-​
-Fire stores its metadata in a Relational Store. It can be H2 or MySQL.
-
-Installing Fire
+Dataset nodes enable reading various structured and unstructured datasets. TSV, CSV, Parquet, Avro, JSON, Text and PDF file formats are supported. The files can reside on HDFS or Amazon S3 or local file system.  Can also read streaming data using Kafka, Flume and Sockets.
 
 .. toctree::
    :maxdepth: 2
 
    mac-install
 
-Install on Windows OS
-
-Connecting Fire to a Spark Cluster
-
-
-Database
-
-Fire runs with H2 database by default but can easily be set up to run with MySQL as well. Below are the steps to install H2 and MySQL Databases. Fire stores the users, workflows, dataset definitions, dashboard definition and history of workflow executions into the database.
-
-H2 Database Install
-MySQL Database Install
-
-Configuring Fire
-​
-More details on configuring Fire is available at : Configuring Fire

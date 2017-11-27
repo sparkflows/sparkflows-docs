@@ -27,6 +27,22 @@ Administration
 
    administration/index
 
+Dataset Processors
+==================
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-dataset/index
+
+ETL Processors
+==============
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-etl/index
+
 Frequently Asked Questions
 ==========================
 .. toctree::

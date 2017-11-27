@@ -1,11 +1,9 @@
-
-Dataset Processors
-
-Dataset Processors
-==================
+Installation and Upgrading
+==========================
 
 .. toctree::
    :maxdepth: 2
 
-   user-administration.rst
-   faq.rst
+   structured-dataset/index
+   unstructured-dataset/index
+   save/index

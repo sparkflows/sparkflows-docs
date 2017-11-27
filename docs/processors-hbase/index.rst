@@ -1,8 +1,8 @@
 
-Dataset Processors
+HBase Processors
 
-Dataset Processors
-==================
+HBase Processors
+================
 
 .. toctree::
    :maxdepth: 2

@@ -1,8 +1,8 @@
 
-Dataset Processors
+Machine Learning Processors
 
-Dataset Processors
-==================
+Machine Learning Processors
+===========================
 
 .. toctree::
    :maxdepth: 2

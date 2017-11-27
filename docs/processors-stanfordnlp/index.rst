@@ -1,8 +1,8 @@
 
-Dataset Processors
+Stanford CoreNLP Processors
 
-Dataset Processors
-==================
+Stanford CoreNLP Processors
+===========================
 
 .. toctree::
    :maxdepth: 2

@@ -1,7 +1,7 @@
 
-Dataset Processors
+OpenNLP Processors
 
-Dataset Processors
+OpenNLP Processors
 ==================
 
 .. toctree::

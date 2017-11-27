@@ -1,5 +1,5 @@
-Installation and Upgrading
-==========================
+Dataset Processors
+==================
 
 .. toctree::
    :maxdepth: 2

@@ -6,5 +6,5 @@ Dataset nodes enable reading various structured and unstructured datasets. TSV, 
 .. toctree::
    :maxdepth: 2
 
-   mac-install
+   structured-dataset
 

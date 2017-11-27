@@ -43,6 +43,38 @@ ETL Processors
 
    processors-etl/index
 
+Machine Learning Processors
+===========================
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-machinelearning/index
+
+OpenNLP Processors
+==================
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-opennlp/index
+
+Stanford CoreNLP Processors
+===========================
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-stanfordnlp/index
+
+HBase Processors
+================
+
+.. toctree::
+   :maxdepth: 2
+
+   processors-hbase/index
+
 Frequently Asked Questions
 ==========================
 .. toctree::

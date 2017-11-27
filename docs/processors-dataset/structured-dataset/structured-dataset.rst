@@ -11,3 +11,13 @@ This node reads in data from HIVE, HDFS and creates a DataFrame from it.
 **Output**
 
   * Dataframe : Creates a new Dataframe from data on HDFS/HIVE based on the schema specified.
+
+**Parameters**
+
++---------+---------+------------------+
+| Name    | Title   | Description      |
++---------+---------+------------------+
+| dataset | Dataset | Selected Dataset |
++---------+---------+------------------+
+
+

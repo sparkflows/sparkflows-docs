@@ -9,4 +9,3 @@ Dataset Processors
 
    user-administration.rst
    faq.rst
-   troubleshooting.rst

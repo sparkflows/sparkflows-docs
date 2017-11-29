@@ -1,8 +1,5 @@
-
-HBase Processors
-
-HBase Processors
-================
+Processors - HBase
+==================
 
 .. toctree::
    :maxdepth: 2

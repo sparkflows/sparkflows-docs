@@ -14,6 +14,7 @@ Installing Fire
    :maxdepth: 2
 
    mac-install
+   windows-install
 
 Install on Windows OS
 

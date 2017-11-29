@@ -1,8 +1,6 @@
 
-Administration
-
-Administration
-==============
+User Guide
+==========
 
 .. toctree::
    :maxdepth: 2

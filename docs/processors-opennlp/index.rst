@@ -1,8 +1,5 @@
-
-OpenNLP Processors
-
-OpenNLP Processors
-==================
+Processors - OpenNLP 
+====================
 
 .. toctree::
    :maxdepth: 2

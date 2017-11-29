@@ -10,5 +10,7 @@ Configuring Fire
 
    running-on-different-port
    connecting-spark-cluster
+   mapr-specific-details
+   configuring-kerberos
 
 

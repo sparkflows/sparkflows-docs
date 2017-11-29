@@ -82,6 +82,14 @@ HBase Processors
    :maxdepth: 2
 
    processors-hbase/index
+   
+Developer Guide
+===============
+
+.. toctree::
+   :maxdepth: 2
+
+   developer-guide/index    
 
 Frequently Asked Questions
 ==========================

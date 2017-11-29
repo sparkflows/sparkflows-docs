@@ -26,6 +26,14 @@ Administration
    :maxdepth: 2
 
    administration/index
+   
+User Guide
+==========
+
+.. toctree::
+   :maxdepth: 2
+
+   user-guide/index   
 
 Dataset Processors
 ==================

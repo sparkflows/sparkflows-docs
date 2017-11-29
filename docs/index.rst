@@ -35,6 +35,27 @@ User Guide
 
    user-guide/index   
 
+Developer Guide
+===============
+
+.. toctree::
+   :maxdepth: 2
+
+   developer-guide/index    
+
+Frequently Asked Questions
+==========================
+.. toctree::
+
+   faq.rst
+
+Troubleshooting
+===============
+
+.. toctree::
+
+   troubleshooting.rst
+
 Dataset Processors
 ==================
 
@@ -83,28 +104,6 @@ HBase Processors
 
    processors-hbase/index
    
-Developer Guide
-===============
-
-.. toctree::
-   :maxdepth: 2
-
-   developer-guide/index    
-
-Frequently Asked Questions
-==========================
-.. toctree::
-
-   faq.rst
-
-Troubleshooting
-===============
-
-.. toctree::
-
-   troubleshooting.rst
-
-
 Indices and tables
 ==================
 

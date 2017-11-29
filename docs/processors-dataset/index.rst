@@ -1,4 +1,4 @@
-Dataset Processors
+Processors - Dataset
 ==================
 
 .. toctree::

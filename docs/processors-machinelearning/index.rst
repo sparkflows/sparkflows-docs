@@ -1,8 +1,6 @@
 
-Machine Learning Processors
-
-Machine Learning Processors
-===========================
+Processors - Machine Learning
+=============================
 
 .. toctree::
    :maxdepth: 2

@@ -1,8 +1,6 @@
 
-Stanford CoreNLP Processors
-
-Stanford CoreNLP Processors
-===========================
+Processors - Stanford CoreNLP 
+=============================
 
 .. toctree::
    :maxdepth: 2

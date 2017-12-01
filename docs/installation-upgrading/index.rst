@@ -6,4 +6,4 @@ Installation and Upgrading
 
    installation/index
    configuration/index
-   upgrading
+   upgrading.rst

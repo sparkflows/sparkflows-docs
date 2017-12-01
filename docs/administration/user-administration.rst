@@ -29,4 +29,9 @@ Roles
 Permissions
 ===========
 
-Sparkflows has the following permission defined.
+Sparkflows has the following permissions defined.
+
+.. figure:: ../../_assets/user-guide/user-permissions.png
+   :scale: 100%
+   :alt: User Permissions
+   :align: center

@@ -1,5 +1,5 @@
-Install on Linux/Mac OS
-^^^^^^^^^^^^^^^^^^^^^^^
+Install on Windows OS
+^^^^^^^^^^^^^^^^^^^^^
 
 Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
 ​
@@ -13,18 +13,18 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
   * 3GB+ of RAM.
 
 
-**​Quick Installation Steps of Fire with H2 DB**
+**Quick Installation Steps of Fire with H2 DB**
 
   * Download and unpack  :  fire-1.4.2.tgz
   * Create H2 DB
 
       cd <fire install_dir>
-      ./create-h2-db.sh
+      .\create-h2-db.bat
 
   * Launch fire server
 
       cd <fire install_dir>
-      ./run-fire-server.sh start
+      .\run-fire-server.bat start
 
   * Open your web browser and navigate to: <machine_name>:8080/index.html.
 
@@ -43,7 +43,7 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
   * Download and unzip the sparkflows tgz file
 
     * Download the fire tgz file
-    * Unzip it : tar xvf fire-1.4.2.tgz
+    * Unzip the file fire-1.4.3.tgz
 
 
   * Set up H2 or MySQL DB
@@ -56,10 +56,9 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
       * MySQL Configuration
 
 **Launching Fire after Installation**
-​
 
   * cd <install_dir>/fire-1.4.2
-  * Execute ./run-fire-server.sh
+  * Execute .\run-fire-server.bat
   * Test by opening your web browser and going to:
     localhost:8080/index.html
 
@@ -82,4 +81,4 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 
 **Stopping the Fire Server:**
 
-  * ./run-fire-server.sh stop
+  * .\run-fire-server.bat stop

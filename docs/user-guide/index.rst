@@ -6,5 +6,5 @@ User Guide
    :maxdepth: 2
 
    defining-datasets.rst
-   faq.rst
+   creating-workflows.rst
    troubleshooting.rst

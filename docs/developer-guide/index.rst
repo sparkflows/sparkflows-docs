@@ -5,6 +5,6 @@ Developer Guide
 .. toctree::
    :maxdepth: 2
 
-   user-administration.rst
+   custom-node-development.rst
    faq.rst
    troubleshooting.rst

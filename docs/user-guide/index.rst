@@ -7,4 +7,4 @@ User Guide
 
    defining-datasets.rst
    creating-workflows.rst
-   troubleshooting.rst
+   executing-workflows.rst

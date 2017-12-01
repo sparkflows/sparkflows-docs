@@ -3,7 +3,7 @@ Configuration
 
 Below are the details of configuring Fire for various requirements:
 
-Configuring Fire
+Configuring Fire:
 
 .. toctree::
    :maxdepth: 2

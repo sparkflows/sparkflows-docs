@@ -8,3 +8,4 @@ User Guide
    defining-datasets.rst
    creating-workflows.rst
    executing-workflows.rst
+   working-with-dashboards.rst

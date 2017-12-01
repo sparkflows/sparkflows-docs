@@ -5,4 +5,5 @@ Installation and Upgrading
    :maxdepth: 2
 
    installation/index
+   configuration/index
    upgrading.rst

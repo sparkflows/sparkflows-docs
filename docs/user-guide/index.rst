@@ -5,6 +5,6 @@ User Guide
 .. toctree::
    :maxdepth: 2
 
-   user-administration.rst
+   defining-datasets.rst
    faq.rst
    troubleshooting.rst

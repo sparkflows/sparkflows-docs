@@ -7,4 +7,4 @@ Developer Guide
 
    custom-node-development.rst
    executing-workflows.rst
-   troubleshooting.rst
+   passing-parameters-to-workflows.rst

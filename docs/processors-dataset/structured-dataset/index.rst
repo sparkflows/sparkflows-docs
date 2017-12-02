@@ -5,4 +5,5 @@ Structured Dataset Processors
    :maxdepth: 2
 
    structured-dataset
+   jdbc
 

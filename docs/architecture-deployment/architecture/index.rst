@@ -22,4 +22,4 @@ Fire consists of three core components:
   * **Apache Spark** cluster on which the workflows are executed as Spark jobs
 
     * Workflows are saved in a JSON string.
-    * Workflows can also be submitted on the spark cluster through spark-submit via a command line interface
+    * Workflows can also be submitted on the spark cluster through **spark-submit** via a command line interface

@@ -1,5 +1,5 @@
-Fire Architecture
------------------
+Creating Workflows
+------------------
 
 .. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
    :scale: 100%

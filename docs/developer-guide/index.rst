@@ -5,6 +5,7 @@ Developer Guide
 .. toctree::
    :maxdepth: 2
 
-   user-administration.rst
-   faq.rst
-   troubleshooting.rst
+   custom-node-development.rst
+   executing-workflows.rst
+   passing-parameters-to-workflows.rst
+   rest-api.rst

@@ -5,6 +5,7 @@ User Guide
 .. toctree::
    :maxdepth: 2
 
-   user-administration.rst
-   faq.rst
-   troubleshooting.rst
+   defining-datasets.rst
+   creating-workflows.rst
+   executing-workflows.rst
+   working-with-dashboards.rst

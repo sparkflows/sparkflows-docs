@@ -19,12 +19,12 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
   * Create H2 DB
 
       cd <fire install_dir>
-      .\create-h2-db.bat
+      .\\create-h2-db.bat
 
   * Launch fire server
 
       cd <fire install_dir>
-      .\run-fire-server.bat start
+      .\\run-fire-server.bat start
 
   * Open your web browser and navigate to: <machine_name>:8080/index.html.
 
@@ -51,14 +51,13 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 
     Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-​
       * H2 DB Configuration
       * MySQL Configuration
 
 **Launching Fire after Installation**
 
   * cd <install_dir>/fire-1.4.2
-  * Execute .\run-fire-server.bat
+  * Execute .\\run-fire-server.bat
   * Test by opening your web browser and going to:
     localhost:8080/index.html
 
@@ -81,4 +80,4 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 
 **Stopping the Fire Server:**
 
-  * .\run-fire-server.bat stop
+  * .\\run-fire-server.bat stop

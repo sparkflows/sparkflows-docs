@@ -23,19 +23,20 @@ In your core-site.xml file for Hadoop, allow sparkflows user to impersonate othe
  
 Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
 
-In the following example snippet, user “sparkflows” is allowed to impersonate users from hosts “host1” and host2”.  The users being impersonated belong to the groups hive,hfs,hadoop,spark. Your permissions are likely going to be different and more restrictive. This is just an example.
+In the following example snippet, user “sparkflows” is allowed to impersonate users from hosts “host1” and host2”.  The users being impersonated belong to the groups hive,hfs,hadoop,spark. Your permissions are likely going to be different and more restrictive. This is just an example.::
 
-``
-<property>
+
+  <property>
      <name>hadoop.proxyuser.sparkflows.hosts</name>
      <value>host1,host2</value>
-</property>
+  </property>
 
-<property>
+  <property>
      <name>hadoop.proxyuser.sparkflows.groups</name>
      <value>hive,hfs,hadoop,spark</value>
- </property>
- ``
+   </property>
+ 
+ 
  
  
  

@@ -38,8 +38,15 @@ Below is an example::
      <value>hive,hfs,hadoop,spark</value>
    </property>
  
- 
- 
+
+**Cloudera Manager**
+
+If you are using Cloudera Manager, you can set the above settings in HDFS/Configuration.
+
+**Ambari**
+
+If you are using Ambari, you can set the above settings in HDFS/Configuration under Custom core-site
+
  
  
 

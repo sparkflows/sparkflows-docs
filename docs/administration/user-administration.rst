@@ -3,9 +3,9 @@ User Administration
 
 Sparkflows allows you to create and manage
 
-  * users
-  * groups
-  * roles
+* users
+* groups
+* roles
 
 Users
 -----

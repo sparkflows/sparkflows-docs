@@ -25,6 +25,7 @@ Also, allow the appropriate groups that the sparkflows users will be able to imp
 
 In the following example snippet, user “sparkflows” is allowed to impersonate users from hosts “host1” and host2”.  The users being impersonated belong to the groups hive,hfs,hadoop,spark. Your permissions are likely going to be different and more restrictive. This is just an example.
 
+```
 <property>
      <name>hadoop.proxyuser.sparkflows.hosts</name>
      <value>host1,host2</value>
@@ -34,6 +35,7 @@ In the following example snippet, user “sparkflows” is allowed to impersonat
      <name>hadoop.proxyuser.sparkflows.groups</name>
      <value>hive,hfs,hadoop,spark</value>
  </property>
+ ```
  
  
 

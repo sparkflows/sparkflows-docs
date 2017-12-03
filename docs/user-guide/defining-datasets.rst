@@ -7,8 +7,8 @@ Sparkflows allows you to define your DataSets. These DataSets are then used in W
 
 **Schema**
  
-DataSets have Schema defined for them. This allows Sparkflows to create a Spark DataFrame from them in the workflows.
+  *DataSets have Schema defined for them. This allows Sparkflows to create a Spark DataFrame from them in the workflows.
  
-File formats
+**File formats**
  
-Sparkflows support various File formats and is able to infer the schema. These include text files, Parquet files, HIVE etc.
+  *Sparkflows support various File formats and is able to infer the schema. These include text files, Parquet files, HIVE etc.

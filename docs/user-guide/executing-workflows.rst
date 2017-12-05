@@ -30,19 +30,26 @@ Specific nodes make use of the variables by substituting $name with the value pr
  
 
 Workflow JSON
+--------------
  
 In Sparkflows, there are 2 json representations of the workflow.
  
-One is used in the Sparkflows UI
-The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions.  
+  *One is used in the Sparkflows UI
+  *The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions.  
  
 Scheduling Workflow execution with Scheduler of choice
+----------------------------------------------------------
  
 Since sparkflows workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduler the execution of the workflows.
  
 These include Oozie, crontab etc.
  
-The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit:
+Viewing Results of Workflow Execution
+--------------------------------------
+ 
+The results of Workflow Execution are streamed into the Browser as they are executed and displayed in Rich Format. A workflow may run for a very long time.
+
+The results of past executions can also be viewed in the Workflow Executions page.
  
 
 

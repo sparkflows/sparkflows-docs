@@ -12,7 +12,8 @@ Interactively within the User Interface
 
 Workflows can be executed from the Browser by going into the Execute page of the workflow.
 
-**Executing Workflows with spark-submit**
+Executing Workflows with spark-submit
+--------------------------------------
  
 Workflows can be submitted to be run on the cluster with spark-submit
  

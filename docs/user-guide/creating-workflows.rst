@@ -6,15 +6,15 @@ Sparkflows enables users to define end-to-end workflows for data pipelining leve
 Selecting Nodes for Workflow Steps
 -----------------------------------
  
-  *Workflows editor has a list of Nodes menu. Clicking on any of the Nodes creates it in the workspace.
+  * Workflows editor has a list of Nodes menu. Clicking on any of the Nodes creates it in the workspace.
  
 Creating Edges
 ---------------
  
-  *Nodes can be connected by edges.
+  * Nodes can be connected by edges.
  
 Deleting Edges
 ---------------
  
-  *Nodes can be deleted by double clicking on them.
+  * Nodes can be deleted by double clicking on them.
 

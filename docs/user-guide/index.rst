@@ -9,4 +9,4 @@ User Guide
    creating-workflows.rst
    executing-workflows.rst
    working-with-dashboards.rst
-   images-with-userguide.rst
+  

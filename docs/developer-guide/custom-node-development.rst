@@ -28,8 +28,8 @@ Deploying the Custom node in fire-ui
   * Restart the fire server.
   * The new node would be picked up by the UI framework.
   
-  Using the custom node in spark submit when running on the Spark cluster
-  --------------------------------------------------------------------------
+Using the custom node in spark submit when running on the Spark cluster
+-------------------------------------------------------------------------  
  
   * Include the custom node with --jars <...> when running the workflow on the cluster
 

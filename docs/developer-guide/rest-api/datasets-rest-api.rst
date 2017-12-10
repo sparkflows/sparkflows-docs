@@ -55,3 +55,18 @@ if id value is not passed, new dataset will be created.
 }
 
  **curl-X POST --header 'Content-Type: application/json' --header 'Accept: /' -d '{"id":13,"version":0,"name":"spam","header":true,"path":"data/spam.csv","delimiter":",","schemaModel":{"schemaColList":[{"colName":"label","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"},{"colName":"message","colType":"STRING","colFormat":"","colMLType":"TEXT"},{"colName":"id","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"}]}}' localhost:8080/dataset/save -b /tmp/cookies.txt**
+ 
+ Delete Dataset
+ -------------------
+ 
+  "id": "36"
+
+   **curl   -X GET --header 'Accept: application/json' --header 'id: 13' 'localhost:8080/getSelDataset' -b /tmp/cookies.txt**
+ 
+Get Hive sample data from given DB and Table
+-----------------------------------------------
+ 
+  "db": "default",
+  "table": "sample_07"
+
+         **curl -X GET --header 'Accept: application/json' --header 'db: default' --header 'table: sample_07' localhost:8080/hiveSampleData -b /tmp/cookies.txt**

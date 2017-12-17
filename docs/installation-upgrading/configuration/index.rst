@@ -6,7 +6,7 @@ Below are the details of configuring Fire for various requirements:
 Configuring Fire:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    running-different-port.rst
    connecting-spark-cluster.rst

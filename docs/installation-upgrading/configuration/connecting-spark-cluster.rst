@@ -15,9 +15,11 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
    :alt: Infer Hadoop Configs
    :align: center
 
+
 **Configurations for connecting Fire to an Apache Spark Cluster**
 
 Below are the configuration details for connecting Fire to an Apache Spark Cluster.
+
 
 **Update core-site.xml of Hadoop to allow sparkflows user to impersonate**
 

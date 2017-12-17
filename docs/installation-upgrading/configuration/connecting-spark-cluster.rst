@@ -1,5 +1,38 @@
-Connecting Fire with Apache Spark Cluster
------------------------------------------
+===============
+ Section Title
+===============
+
+---------------
+ Section Title
+---------------
+
+Section Title
+=============
+
+Section Title
+-------------
+
+Section Title
+`````````````
+
+Section Title
+'''''''''''''
+
+Section Title
+.............
+
+Section Title
+~~~~~~~~~~~~~
+
+Section Title
+*************
+
+Section Title
++++++++++++++
+
+Section Title
+^^^^^^^^^^^^^
+
 
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
  
@@ -56,30 +89,6 @@ If you are using Ambari, you can set the above settings in HDFS/Configuration un
 
  
  
-
-Section Title
--------------
-
-Section Title
-`````````````
-
-Section Title
-'''''''''''''
-
-Section Title
-.............
-
-Section Title
-~~~~~~~~~~~~~
-
-Section Title
-*************
-
-Section Title
-+++++++++++++
-
-Section Title
-^^^^^^^^^^^^^
 
 
 

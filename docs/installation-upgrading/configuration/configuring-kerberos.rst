@@ -20,3 +20,17 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 * **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire**
 
 
++-------------------------+-------+------------------------------------------------------+
+| Configuration           | Value | Details                                              |
++-------------------------+-------+------------------------------------------------------+
+| kerberos.enabled        | true  | Set it to true to enable Kerberos for Sparkflows     |
++-------------------------+-------+------------------------------------------------------+
+| kerberos.keytab         |       | Absolute path of the keytab generated for Sparkflows |
++-------------------------+-------+------------------------------------------------------+
+| kerberos.principal      |       | Kerberos Principal of the keytab of Sparkflows       |
++-------------------------+-------+------------------------------------------------------+
+| kerberos.KERBEROS_REALM |       | Kerberos Realm                                       |
++-------------------------+-------+------------------------------------------------------+
+| kerberos.KERBEROS_KDC   |       | KDC Server                                           |
++-------------------------+-------+------------------------------------------------------+
+

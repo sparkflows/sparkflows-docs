@@ -1,1 +1,11 @@
+Run your Sparkflows Workflows on Databricks
+-------------------------------------------
 
+**Sparkflows is integrated with Databricks. Below are the key integration points:**
+  *Sparkflows can be configured to talk with the Databricks endpoint.
+  *Datasets can be created in Sparkflows pointing to your tables in Databricks.
+  *Workflows can be created in Sparkflows with these datasets.
+  *Workflows from Sparkflows are run on the Databricks cluster.
+  *As the workflow is running, the summary results from the nodes are streamed back to Sparkflows and displayed.
+
+**Note:** In order to create certain results from Sparkflows, and be able to use it in your Databricks Notebooks, create a temp table from the result with RegisterTempTable Node in Sparkflows.

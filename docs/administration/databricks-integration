@@ -9,3 +9,5 @@ Run your Sparkflows Workflows on Databricks
   *As the workflow is running, the summary results from the nodes are streamed back to Sparkflows and displayed.
 
 **Note:** In order to create certain results from Sparkflows, and be able to use it in your Databricks Notebooks, create a temp table from the result with RegisterTempTable Node in Sparkflows.
+
+

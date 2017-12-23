@@ -18,3 +18,32 @@ Sparkflows Fire 1.4.3
   *Support for more widget types
   *Fixes to Node Correlation Matrix
 
+Sparkflows Fire 1.4.2
+--------------------------------------
+
+**Release Date:** 10/22/2017
+
+**Download TGZ name:** sparkflows-fire-1.4.2.tgz
+
+**TGZ Size:** 516 MB
+
+**Contents of this release:**
+ 
+  *Ability to pass name/value pairs to the next Nodes when writing Custom Nodes
+  *Improved Workflow Imports
+  
+  Sparkflows Fire 1.4.1
+  ------------------------------------
+
+**Release Date:** 08/08/2017
+
+**Download TGZ name:** sparkflows-fire-1.4.1.tgz
+
+**TGZ Size:** 516 MB
+
+**Contents of this release:**
+ 
+  *Split by Multiple Expressions Node
+  *Ability to Refresh a field of a Node powered by a method of the Node
+  *Handle < > tags when displaying output results of executions of a workflow
+Display * in title for fields which are required in the dialog box of the node in the workflow editor

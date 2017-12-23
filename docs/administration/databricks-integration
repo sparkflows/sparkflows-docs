@@ -29,12 +29,15 @@ In Administration/Configuration tab within the Fire UI,
    :align: center
    
    Configure the Databricks Endpoint in Sparkflows
-   ------------------------------------------
+   ----------------------------------------------------
  
 In Databricks/Configuration, configure the Databricks Endpoint. The Databricks username, password and endpoint are needed to set up the endpoint. 
 For security reasons, nothing gets saved, and just stays in memory only. So when logging back in, the endpoint configuration has to be done again.
 
 .. figure:: ../../_assets/administration/databricks-configuration.png
+   :scale: 100%
+   :alt: Sparkflows Databricks Configuration
+   :align: center.. figure:: ../../_assets/administration/databricks-configuration.png
    :scale: 100%
    :alt: Sparkflows Databricks Configuration
    :align: center
@@ -53,7 +56,12 @@ Upload the fire jar file with dependencies to Databricks as a New Library : fire
    :align: center
    
 Create a table on Databricks or use an existing table you have created on Databricks
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+.. figure:: ../../_assets/administration/create-table.png
+   :scale: 100%
+   :alt: Sparkflows Create Table 
+   :align: center
  
  
 

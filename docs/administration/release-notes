@@ -104,9 +104,25 @@ Sparkflows Fire 1.1.0
   *Support for Jython and Scala within the workflow
   *Integration with Databricks
   *Many new Machine Learning Workflows added
-Many User Interface Improvements
+  *Many User Interface Improvements
 
-TGZ Size: 481 MB
+Sparkflows Fire 1.0.0 
+----------------------------
 
+**Release Date:** 10/29/2016
+
+**Download TGZ name:** sparkflows-fire-1.0.0.tgz
+
+**TGZ Size:** 431 MB
+
+**Contents of this release:**
+
+  *Defining DataSets
+  *Creating Workflows
+  *Executing Workflows
+  *Viewing the results of workflow execution
+  *ETL Nodes
+  *Machine Learning Nodes
+  *Nodes for producing graphs
   
   

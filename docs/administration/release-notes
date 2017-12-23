@@ -1,21 +1,20 @@
 Sparkflows Fire 1.4.3
 ----------------------------------
------------------------------------------------------------------
 
-Release Date: 11/29/2017
-​
-Download TGZ name: sparkflows-fire-1.4.3.tgz
-​
-TGZ Size: 485 MB
-​
-Contents of this release:
+**Release Date:** 11/29/2017
+
+**Download TGZ name:** sparkflows-fire-1.4.3.tgz
+
+**TGZ Size:** 485 MB
+
+**Contents of this release:**
  
-Scheduling Workflows
-REST API's
-Support for ORC files
-Support for Elasticsearch
-Running in YARN cluster mode
-Better browsing experience
-Support for more widget types
-Fixes to Node Correlation Matrix
-​
+  *Scheduling Workflows
+  *REST API's
+  *Support for ORC files
+  *Support for Elasticsearch
+  *Running in YARN cluster mode
+  *Better browsing experience
+  *Support for more widget types
+  *Fixes to Node Correlation Matrix
+

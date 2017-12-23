@@ -46,4 +46,21 @@ Sparkflows Fire 1.4.2
   *Split by Multiple Expressions Node
   *Ability to Refresh a field of a Node powered by a method of the Node
   *Handle < > tags when displaying output results of executions of a workflow
-Display * in title for fields which are required in the dialog box of the node in the workflow editor
+  *Display in title for fields which are required in the dialog box of the node in the workflow editor
+  Sparkflows Fire 1.4.0
+
+Release Date: 02/09/2017
+----------------------------
+
+**Download TGZ name:** sparkflows-fire-1.4.0.tgz
+
+**TGZ Size:** 516 MB
+
+**Contents of this release:**
+ 
+  *Solr & Elastic Search Integration
+  *LDAP Integration
+  *CSV/HIVE Nodes - enable reading data without having to define a dataset
+  *Dedup Node for Entity Resolution
+  *Support for OpenNLP
+  

@@ -7,7 +7,7 @@ Architecture & Deployment
 =========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    architecture-deployment/index
 
@@ -15,7 +15,7 @@ Installation and Upgrading
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 0
 
    installation-upgrading/index
 

@@ -46,7 +46,8 @@ Developer Guide
 Frequently Asked Questions
 ==========================
 .. toctree::
-
+   :maxdepth: 1
+   
    faq.rst
 
 Troubleshooting
@@ -64,45 +65,6 @@ Dataset Processors
 
    processors-dataset/index
 
-ETL Processors
-==============
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-etl/index
-
-Machine Learning Processors
-===========================
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-machinelearning/index
-
-OpenNLP Processors
-==================
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-opennlp/index
-
-Stanford CoreNLP Processors
-===========================
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-stanfordnlp/index
-
-HBase Processors
-================
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-hbase/index
    
 Indices and tables
 ==================

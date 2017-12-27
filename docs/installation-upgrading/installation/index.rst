@@ -11,7 +11,7 @@ Fire stores its metadata in a Relational Store. It can be H2 or MySQL.
 Installing Fire
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    mac-install
    windows-install

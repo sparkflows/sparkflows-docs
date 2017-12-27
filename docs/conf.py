@@ -34,6 +34,11 @@ html_theme = "sphinx_rtd_theme"
 
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+html_context = {
+    'css_files': ['_static/custom.css'],
+}
+
+html_logo = '_assets/logo.png';
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.

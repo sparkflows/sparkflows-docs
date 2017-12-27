@@ -2,7 +2,7 @@ Installation and Upgrading
 ==========================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    installation/index
    configuration/index

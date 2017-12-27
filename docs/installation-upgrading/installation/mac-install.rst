@@ -5,8 +5,7 @@ Fire can run independently on any machine, since we package Apache Spark along w
 ​
 If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node has the hadoop binaries and spark configs.
 
-Prerequisites
-*************
+**​Prerequisites**​
 
   * JDK 1.7+ installed.
   * java and jar have to be in the PATH

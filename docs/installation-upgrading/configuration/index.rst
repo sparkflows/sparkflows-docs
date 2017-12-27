@@ -10,6 +10,7 @@ Configuring Fire:
 
    connecting-spark-cluster.rst
    yarn-configuration.rst
+   configuring-https.rst
    running-different-port.rst
    mapr-specific-details.rst
    configuring-kerberos.rst

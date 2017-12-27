@@ -12,7 +12,8 @@ Configuring Fire:
    yarn-configuration.rst
    configuring-https.rst
    running-different-port.rst
-   mapr-specific-details.rst
    configuring-kerberos.rst
+   mapr-specific-details.rst
+   
 
 

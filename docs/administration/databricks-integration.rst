@@ -28,8 +28,8 @@ In Administration/Configuration tab within the Fire UI,
    :alt: Sparkflows Workflow Execution
    :align: center
    
-   Configure the Databricks Endpoint in Sparkflows
-   ----------------------------------------------------
+Configure the Databricks Endpoint in Sparkflows
+----------------------------------------------------
  
 In Databricks/Configuration, configure the Databricks Endpoint. The Databricks username, password and endpoint are needed to set up the endpoint. 
 For security reasons, nothing gets saved, and just stays in memory only. So when logging back in, the endpoint configuration has to be done again.
@@ -42,8 +42,8 @@ For security reasons, nothing gets saved, and just stays in memory only. So when
    :alt: Sparkflows Databricks Configuration
    :align: center
    
-   Create a library on Databricks with fire jar
-   -----------------------------------------------
+Create a library on Databricks with fire jar
+-----------------------------------------------
  
  
 The workflows from Sparkflows are powered by the code in the fire jar file contained in the directory sparkflows-x.y.z/fire-lib

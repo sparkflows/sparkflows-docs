@@ -15,6 +15,7 @@ Configuring Fire:
    configuring-kerberos.rst
    increasing-memory-of-fire-server.rst
    configuring-ldap.rst
+   different-default-values-startup.rst
    mapr-specific-details.rst
    
 

@@ -34,3 +34,31 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 | kerberos.KERBEROS_KDC   |       | KDC Server                                           |
 +-------------------------+-------+------------------------------------------------------+
 
+Steps for generating the keytab for Fire
+========================================
+ 
+root@venice ~]# kadmin.local
+ 
+**Create the sparkflows principal (can be a different name but be consistent in the next steps with whatever username you use)**
+ 
+kadmin.local: addprinc -randkey sparkflows@VENICE.HADOOP
+                                ------------------------            
+
+
+WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
+Principal "sparkflows@VENICE.HADOOP" created.
+
+Create sparkflows key tab file
+
+kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
+
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab WRFILE:sparkflows.keytab.
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab WRFILE:sparkflows.keytab.
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab WRFILE:sparkflows.keytab.
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+
+kadmin.local: exit
+ 
+​

@@ -3,11 +3,11 @@ Run your Sparkflows Workflows on Databricks
 
 **Sparkflows is integrated with Databricks. Below are the key integration points:**
 
-  *Sparkflows can be configured to talk with the Databricks endpoint.
-  *Datasets can be created in Sparkflows pointing to your tables in Databricks.
-  *Workflows can be created in Sparkflows with these datasets.
-  *Workflows from Sparkflows are run on the Databricks cluster.
-  *As the workflow is running, the summary results from the nodes are streamed back to Sparkflows and displayed.
+  * Sparkflows can be configured to talk with the Databricks endpoint.
+  * Datasets can be created in Sparkflows pointing to your tables in Databricks.
+  * Workflows can be created in Sparkflows with these datasets.
+  * Workflows from Sparkflows are run on the Databricks cluster.
+  * As the workflow is running, the summary results from the nodes are streamed back to Sparkflows and displayed.
 
 **Note:** In order to create certain results from Sparkflows, and be able to use it in your Databricks Notebooks, create a temp table from the result with RegisterTempTable Node in Sparkflows.
 
@@ -21,8 +21,8 @@ Enable Databricks in Sparkflows
  
 In Administration/Configuration tab within the Fire UI,
 
-  *Set databricks.enabled to true. 
-  *Set the app.postMessageURL to point to the public IP/hostname of the machine on which Sparkflows is installed. Results from the Sparkflows jobs running in Databricks is streamed back to this URL.
+  * Set databricks.enabled to true. 
+  * Set the app.postMessageURL to point to the public IP/hostname of the machine on which Sparkflows is installed. Results from the Sparkflows jobs running in Databricks is streamed back to this URL.
 
 .. figure:: ../../_assets/administration/workflow-execution.png
    :scale: 100%

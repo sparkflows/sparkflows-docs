@@ -30,6 +30,11 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
   border-right: 0;
 }
 
+.wy-menu-vertical li a{
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
 .wy-menu-vertical a{
   color: #fff;
 }

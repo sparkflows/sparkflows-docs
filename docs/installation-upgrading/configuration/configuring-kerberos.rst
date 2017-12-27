@@ -51,12 +51,19 @@ Create sparkflows key tab file
 kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
 
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
+
 WRFILE:sparkflows.keytab.
+
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
+
 WRFILE:sparkflows.keytab.
+
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab WRFILE:sparkflows.keytab.
+
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
 
 kadmin.local: exit

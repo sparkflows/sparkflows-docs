@@ -13,6 +13,8 @@ Configuring Fire:
    configuring-https.rst
    running-different-port.rst
    configuring-kerberos.rst
+   increasing-memory-of-fire-server.rst
+   configuring-ldap.rst
    mapr-specific-details.rst
    
 

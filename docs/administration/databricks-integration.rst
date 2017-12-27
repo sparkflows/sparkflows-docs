@@ -2,6 +2,7 @@ Run your Sparkflows Workflows on Databricks
 -------------------------------------------
 
 **Sparkflows is integrated with Databricks. Below are the key integration points:**
+
   *Sparkflows can be configured to talk with the Databricks endpoint.
   *Datasets can be created in Sparkflows pointing to your tables in Databricks.
   *Workflows can be created in Sparkflows with these datasets.
@@ -15,8 +16,8 @@ Run your Sparkflows Workflows on Databricks
    :alt: Sparkflows Databricks Integration
    :align: center
    
-   Enable Databricks in Sparkflows
-   -------------------------------------
+Enable Databricks in Sparkflows
+-------------------------------
  
 In Administration/Configuration tab within the Fire UI,
 

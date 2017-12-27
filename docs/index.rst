@@ -15,7 +15,7 @@ Installation and Upgrading
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    installation-upgrading/index
 
@@ -26,14 +26,14 @@ Administration
    :maxdepth: 2
 
    administration/index
-   
+
 User Guide
 ==========
 
 .. toctree::
    :maxdepth: 2
 
-   user-guide/index   
+   user-guide/index
 
 Developer Guide
 ===============
@@ -41,14 +41,14 @@ Developer Guide
 .. toctree::
    :maxdepth: 2
 
-   developer-guide/index    
+   developer-guide/index
 
 Frequently Asked Questions
 ==========================
 
 .. toctree::
    :maxdepth: 1
-   
+
    faq.rst
 
 Troubleshooting
@@ -66,7 +66,7 @@ Dataset Processors
 
    processors-dataset/index
 
-   
+
 Indices and tables
 ==================
 

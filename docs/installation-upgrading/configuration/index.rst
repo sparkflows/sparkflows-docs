@@ -8,8 +8,9 @@ Configuring Fire:
 .. toctree::
    :maxdepth: 1
 
-   running-different-port.rst
    connecting-spark-cluster.rst
+   yarn-configuration.rst
+   running-different-port.rst
    mapr-specific-details.rst
    configuring-kerberos.rst
 

@@ -11,8 +11,7 @@ The following configurations have to be set appropriately.
    :alt: Sparkflows Ldap Order
    :align: center
    
-   
-\begin{table}[]
+   \begin{table}[]
 \centering
 \caption{My caption}
 \label{my-label}

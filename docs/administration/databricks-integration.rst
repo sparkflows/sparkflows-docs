@@ -24,7 +24,7 @@ In Administration/Configuration tab within the Fire UI,
   * Set databricks.enabled to true. 
   * Set the app.postMessageURL to point to the public IP/hostname of the machine on which Sparkflows is installed. Results from the Sparkflows jobs running in Databricks is streamed back to this URL.
 
-.. figure:: ../../_assets/administration/workflow-execution.png
+.. figure:: ../_assets/administration/workflow-execution.png
    :scale: 100%
    :alt: Sparkflows Workflow Execution
    :align: center

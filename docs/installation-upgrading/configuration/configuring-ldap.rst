@@ -13,10 +13,18 @@ The following configurations have to be set appropriately.
 
 
 
+
+
+
 .. figure:: ../../_assets/installation/ldap-order.png
    :scale: 100%
    :alt: Sparkflows Ldap Order
    :align: center
+   
+   
+   
+   
+   
    
    
    

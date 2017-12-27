@@ -8,6 +8,10 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
 
 **Note: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details are below in the page. For the rest of the documentation on this page, we assume that it has been installed as the user 'sparkflows'.**
 
+
+Infer Hadoop Configs
+--------------------
+
 **Infer Hadoop Configs** button under Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
 
 .. figure:: ../../_assets/installation/infer-hadoop-configs.png

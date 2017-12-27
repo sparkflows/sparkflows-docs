@@ -1,5 +1,5 @@
 Connecting to Apache Spark Cluster
-----------------------------------
+==================================
 
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
  

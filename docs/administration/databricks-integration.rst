@@ -11,7 +11,7 @@ Run your Sparkflows Workflows on Databricks
 
 **Note:** In order to create certain results from Sparkflows, and be able to use it in your Databricks Notebooks, create a temp table from the result with RegisterTempTable Node in Sparkflows.
 
-.. figure:: ../../_assets/administration/databricks-integration.png
+.. figure:: ../_assets/administration/databricks-integration.png
    :scale: 100%
    :alt: Sparkflows Databricks Integration
    :align: center

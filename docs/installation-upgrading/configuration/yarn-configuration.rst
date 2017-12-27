@@ -26,7 +26,7 @@ In this mode, the spark driver runs on the spark cluster. The workflow json file
 The spark job is able to read the workflow json file from HDFS.
 
 Note :
-======
+------
 
  * The logged in user into Fire should exist on HDFS.
  * Normally **app.impersonateUsers** is set to **true** so that the jobs are run as the logged in user.

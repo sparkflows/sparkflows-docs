@@ -36,7 +36,7 @@ Quick Installation Steps of Fire with H2 DB
 Detailed Installation Steps
 ---------------------------
 
-  * ***Glossary***
+  * **Glossary**
 
     * <install_dir> : location where you unzipped fire tgz file. For example this can be your home directory.
     * <machine_name> : hostname where your installed Fire

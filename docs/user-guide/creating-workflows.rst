@@ -32,5 +32,3 @@ Sparkflows enables users to define end-to-end workflows for data pipelining leve
    :alt: Sparkflows Define Workflows
    :align: center
 
-
-

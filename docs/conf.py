@@ -61,8 +61,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Sparkflows'
-copyright = '2017, Jayant Shekhar'
-author = 'Jayant Shekhar'
+copyright = '2017, Sparkflows Inc.'
+author = 'Sparkflows'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'Sparkflows.tex', 'Sparkflows Documentation',
-     'Jayant Shekhar', 'manual'),
+     'Sparkflows', 'manual'),
 ]
 
 

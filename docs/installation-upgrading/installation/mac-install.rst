@@ -2,10 +2,11 @@ Install on Linux/Mac OS
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
-​
+
 If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node has the hadoop binaries and spark configs.
 
-**​Prerequisites**​
+Prerequisites
+-------------
 
   * JDK 1.7+ installed.
   * java and jar have to be in the PATH
@@ -13,7 +14,8 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
   * 3GB+ of RAM.
 
 
-**​Quick Installation Steps of Fire with H2 DB**
+Quick Installation Steps of Fire with H2 DB
+-------------------------------------------
 
   * Download and unpack  :  fire-1.4.2.tgz
   * Create H2 DB
@@ -31,7 +33,8 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
       Login with admin/admin or test/test
 
 
-**Detailed Installation Steps**
+Detailed Installation Steps
+---------------------------
 
   * ***Glossary***
 
@@ -55,8 +58,8 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
       * H2 DB Configuration
       * MySQL Configuration
 
-**Launching Fire after Installation**
-​
+Launching Fire after Installation
+---------------------------------
 
   * cd <install_dir>/fire-1.4.2
   * Execute ./run-fire-server.sh
@@ -76,10 +79,10 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 
     Note: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
-​
     `Connecting Fire to a Spark cluster`_
 
 
-**Stopping the Fire Server:**
+Stopping the Fire Server
+------------------------
 
   * ./run-fire-server.sh stop

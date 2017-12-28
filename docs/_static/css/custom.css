@@ -87,6 +87,16 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     margin: auto;
 }
 
-.wy-breadcrumbs li a:visited,.wy-breadcrumbs li a{
+
+.wy-breadcrumbs li a:visited,.wy-breadcrumbs li a,a:visited{
   color: #305a82;
+}
+
+.wy-nav-side [class*='toctree']>a {
+    background: #305a82 !important;
+}
+
+.fa-plus-square-o:before, .wy-menu-vertical li span.toctree-expand:before {
+    content: "\f139";
+    color: #fff;
 }

@@ -17,7 +17,7 @@ Sparkflows allows you to define your DataSets. These DataSets are then used in W
 **Review Existing Datasets:**
 
 
-.. figure:: ../../_assets/user-guide/datasets.png
+.. figure:: ../../_assets/ user-guide/ datasets.png
    :scale: 100%
    :alt: Sparkflows Datasets
    :align: center

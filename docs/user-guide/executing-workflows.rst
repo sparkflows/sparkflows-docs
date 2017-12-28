@@ -13,7 +13,7 @@ Interactively within the User Interface
 Workflows can be executed from the Browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../_assets/user-guide/execute-workflow.png
+.. figure:: ../../_assets/userguide/execute-workflow.png
    :scale: 100%
    :alt: Sparkflows Execute Workflow
    :align: center

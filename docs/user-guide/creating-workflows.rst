@@ -15,3 +15,4 @@ Sparkflows enables users to define end-to-end workflows for data pipelining leve
  
   * Nodes can be deleted by double clicking on them.
 
+**View, Edit, Execute Existing Worklows**

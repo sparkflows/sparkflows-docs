@@ -88,7 +88,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 }
 
 
-.wy-breadcrumbs li a:visited,.wy-breadcrumbs li a,a:visited{
+.wy-breadcrumbs li a:visited,.wy-breadcrumbs li a,.wy-nav-content a:visited{
   color: #305a82;
 }
 

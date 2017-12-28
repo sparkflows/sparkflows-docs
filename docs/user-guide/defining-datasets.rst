@@ -12,3 +12,39 @@ Sparkflows allows you to define your DataSets. These DataSets are then used in W
 **File formats**
  
   * Sparkflows support various File formats and is able to infer the schema. These include text files, Parquet files, HIVE etc.
+
+
+**Review Existing Datasets:**
+
+
+.. figure:: ../../_assets/user-guide/datasets.png
+   :scale: 100%
+   :alt: Sparkflows Datasets
+   :align: center
+   
+
+
+ 
+**Create New Datasets**
+ 
+ .. figure:: ../../_assets/user-guide/create-new-datasets.png
+   :scale: 100%
+   :alt: Sparkflows Create New Datasets
+   :align: center
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

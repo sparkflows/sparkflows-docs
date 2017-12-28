@@ -2,7 +2,7 @@ Different Default Values on Startup
 ===================================
 
 Administration / Configuration
-===============================
+------------------------------
 
  
 Fire has a number of properties under Administration / Configuration.

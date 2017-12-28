@@ -1,5 +1,5 @@
 Connecting to Apache Spark Cluster
-----------------------------------
+==================================
 
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
  
@@ -7,6 +7,10 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
 * Update the below configurations under the menu, Administration/Configuration 
 
 **Note: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details are below in the page. For the rest of the documentation on this page, we assume that it has been installed as the user 'sparkflows'.**
+
+
+Infer Hadoop Configs
+--------------------
 
 **Infer Hadoop Configs** button under Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
 
@@ -16,7 +20,8 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
    :align: center
 
 
-**Configurations for connecting Fire to an Apache Spark Cluster**
+Configurations for connecting Fire to an Apache Spark Cluster
+-------------------------------------------------------------
 
 Below are the configuration details for connecting Fire to an Apache Spark Cluster.
 
@@ -45,7 +50,9 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-**Update core-site.xml of Hadoop to allow sparkflows user to impersonate**
+Update core-site.xml of Hadoop to allow sparkflows user to impersonate
+----------------------------------------------------------------------
+
 
 https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html
 
@@ -70,7 +77,8 @@ Below is an example::
    </property>
  
 
-**Cloudera Manager**
+Cloudera Manager
+-----------------
 
 If you are using Cloudera Manager, you can set the above settings in HDFS/Configuration.
 
@@ -80,7 +88,8 @@ If you are using Cloudera Manager, you can set the above settings in HDFS/Config
    :align: center
    
    
-**Ambari**
+Ambari
+------
 
 If you are using Ambari, you can set the above settings in HDFS/Configuration under Custom core-site
 

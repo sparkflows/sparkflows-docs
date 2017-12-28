@@ -5,7 +5,7 @@ Fire can submit jobs to a YARN cluster. It can submit the spark jobs to run on Y
 
 
 Client Mode
-============
+-----------
 
 For configuring to run in client mode, the below configurations apply:
 
@@ -15,7 +15,8 @@ In this mode, the spark driver runs on the same machine on which Fire is running
 
 
 Cluster Mode
-=============
+------------
+
 For configuring to run in cluster mode, the below configurations apply:
 
  * **spark.deploy-mode : cluster**
@@ -25,7 +26,7 @@ In this mode, the spark driver runs on the spark cluster. The workflow json file
 The spark job is able to read the workflow json file from HDFS.
 
 Note :
-======
+------
 
  * The logged in user into Fire should exist on HDFS.
  * Normally **app.impersonateUsers** is set to **true** so that the jobs are run as the logged in user.

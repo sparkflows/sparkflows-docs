@@ -1,16 +1,18 @@
 Upgrading
----------
+=========
 
-**Stop Fire if it is running**
+Stop Fire if it is running
+--------------------------
 
-**Download and unzip the Fire tgz file**
+Download and unzip the Fire tgz file
+------------------------------------
 
   * Download the fire tgz file
 
-  * Unzip it : ***tar xvf fire-1.4.2.tgz***
+  * Unzip it : **tar xvf fire-1.4.2.tgz**
 
-​
-**Upgrade the H2 or MySQL database**
+Upgrade the H2 or MySQL database
+--------------------------------
 
   * If you have updated the conf/db.properties file, copy it from your old location to the new directory
   * Backup your existing H2 db files. By default they are in your home directory as firedb.mv.db
@@ -24,6 +26,7 @@ Upgrading
     
         (the above command creates or updates the existing db if one already exists)​
 
-​
 
-**Restart Fire**
+Restart Fire
+-------------
+

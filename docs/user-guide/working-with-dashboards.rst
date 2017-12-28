@@ -26,7 +26,7 @@ Streaming Dashboards
   * In this case, the output in the Dashboards get updated every 30 seconds as new data comes in.
 
 
-   .. figure:: ../../_assets/user-guide/streaming-dashboards.png
-      :scale: 100%
-      :alt: Sparkflows Streaming Dashboards
-      :align: center
+.. figure:: ../../_assets/user-guide/streaming-dashboards.png
+   :scale: 100%
+   :alt: Sparkflows Streaming Dashboards
+   :align: center

@@ -13,7 +13,7 @@ Interactively within the User Interface
 Workflows can be executed from the Browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../_assets/user-guide/execute-workflow.png
+.. figure:: ../_assets/user-guide/execute-workflow.png
    :scale: 100%
    :alt: Sparkflows Execute Workflow
    :align: center
@@ -64,7 +64,7 @@ The View JSON Workflow page of the Workflow displays both the JSON representatio
 
 
 
-.. figure:: ../../_assets/user-guide/json-workflow.png
+.. figure:: ../_assets/user-guide/json-workflow.png
    :scale: 100%
    :alt: Sparkflows Json Workflow
    :align: center
@@ -83,7 +83,7 @@ The results of Workflow Execution are streamed into the Browser as they are exec
 
 The results of past executions can also be viewed in the Workflow Executions page.
  
-.. figure:: ../../_assets/user-guide/workflow-execution.png
+.. figure:: ../_assets/user-guide/workflow-execution.png
    :scale: 100%
    :alt: SparkflowsWorkflow Execution
    :align: center

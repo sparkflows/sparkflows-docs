@@ -1,10 +1,6 @@
 Frequently Asked Questions
 ==========================
 
-:red:`this is in red`
-
-:green:`this is in green`
-
 Q1. Does Sparkflows allow me to create my own custom nodes?
 -----------------------------------------------------------
 

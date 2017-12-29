@@ -5,5 +5,6 @@ Installation and Upgrading
    :maxdepth: 2
 
    installation/index
+   connecting-spark-cluster.rst
    configuration/index
    upgrading.rst

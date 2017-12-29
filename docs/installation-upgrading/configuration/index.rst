@@ -8,7 +8,6 @@ Configuring Fire:
 .. toctree::
    :maxdepth: 1
 
-   connecting-spark-cluster.rst
    yarn-configuration.rst
    configuring-https.rst
    running-different-port.rst

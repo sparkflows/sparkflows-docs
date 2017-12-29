@@ -1,8 +1,8 @@
 Datasets REST API
------------------
+=================
 
 Overview
------
+--------
  
   The Dataset REST API's, allow you to manage the Datasets.
 
@@ -12,7 +12,7 @@ Overview
   
   
 Get List of Datasets for the user
------------------------------------------
+---------------------------------
  
   Returns the list of Datasets for the logged in user.
 

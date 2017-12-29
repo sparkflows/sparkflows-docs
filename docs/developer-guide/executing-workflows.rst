@@ -1,5 +1,5 @@
 Executing Workflows
--------------------
+===================
 
 Sparkflows Workflows can be executed in the following ways:
 ------------------------------------------------------------

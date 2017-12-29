@@ -27,7 +27,7 @@ Sparkflows enables users to define end-to-end workflows for data pipelining leve
 **Define New Workflows**
 
 
-.. figure:: ../_assets/user-guide/define-workflow.png
+.. figure:: ../_assets/user-guide/define-workflows.png
    :scale: 100%
    :alt: Sparkflows Define Workflows
    :align: center

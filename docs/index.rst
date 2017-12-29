@@ -57,6 +57,14 @@ Troubleshooting
 .. toctree::
 
    troubleshooting.rst
+   
+Processors
+==========
+
+.. toctree::
+   :maxdepth: 2
+
+   processors/index   
 
 Dataset Processors
 ==================

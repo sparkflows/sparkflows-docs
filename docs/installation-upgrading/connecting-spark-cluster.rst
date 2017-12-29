@@ -82,7 +82,7 @@ Cloudera Manager
 
 If you are using Cloudera Manager, you can set the above settings in HDFS/Configuration.
 
-.. figure:: ../../_assets/installation/cloudera-manager-hdfs-configuration.png
+.. figure:: ../_assets/installation/cloudera-manager-hdfs-configuration.png
    :scale: 100%
    :alt: Infer Hadoop Configs
    :align: center
@@ -93,7 +93,7 @@ Ambari
 
 If you are using Ambari, you can set the above settings in HDFS/Configuration under Custom core-site
 
-.. figure:: ../../_assets/installation/ambari-hdfs-configuration.png
+.. figure:: ../_assets/installation/ambari-hdfs-configuration.png
    :scale: 100%
    :alt: Infer Hadoop Configs
    :align: center

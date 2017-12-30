@@ -14,7 +14,7 @@ Infer Hadoop Configs
 
 **Infer Hadoop Configs** button under Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
 
-.. figure:: ../../_assets/installation/infer-hadoop-configs.png
+.. figure:: ../_assets/installation/infer-hadoop-configs.png
    :scale: 100%
    :alt: Infer Hadoop Configs
    :align: center

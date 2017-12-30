@@ -4,7 +4,7 @@ Getting Started with Sparkflows Resources
 Sparkflows makes it incredibly easy for anyone to do Big Data Analytics, Data Prep, Machine Learning, NLP, OCR, Dedup. It also allows you to extend the capabilities with your own operators.
 
 Architecture & Deployment
-=========================
+-------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +12,7 @@ Architecture & Deployment
    architecture-deployment/index
 
 Installation and Upgrading
-==========================
+--------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -20,7 +20,7 @@ Installation and Upgrading
    installation-upgrading/index
 
 Administration
-==============
+--------------
 
 .. toctree::
    :maxdepth: 2
@@ -28,7 +28,7 @@ Administration
    administration/index
 
 User Guide
-==========
+----------
 
 .. toctree::
    :maxdepth: 2
@@ -36,7 +36,7 @@ User Guide
    user-guide/index
 
 Developer Guide
-===============
+---------------
 
 .. toctree::
    :maxdepth: 2
@@ -44,7 +44,7 @@ Developer Guide
    developer-guide/index
 
 Frequently Asked Questions
-==========================
+--------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -52,14 +52,14 @@ Frequently Asked Questions
    faq.rst
 
 Troubleshooting
-===============
+---------------
 
 .. toctree::
 
    troubleshooting.rst
    
 Processors
-==========
+----------
 
 .. toctree::
    :maxdepth: 2
@@ -67,7 +67,7 @@ Processors
    processors/index   
 
 Dataset Processors
-==================
+------------------
 
 .. toctree::
    :maxdepth: 2
@@ -76,7 +76,7 @@ Dataset Processors
 
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

@@ -29,6 +29,7 @@ Quick Installation Steps of Fire with H2 DB
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
   
+  
 * Unpack it::
 
     tar xvf fire-1.4.3.tgz
@@ -67,6 +68,7 @@ Detailed Installation Steps
 
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
+  
   
 * Unzip it::
 

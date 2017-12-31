@@ -117,16 +117,16 @@ Get the list of files/directories in the given path
 Get  Dataset Count
 ----------------------
 
-  Returns the count of datasets available
+Returns the count of datasets available
 
-  **curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt**
+    curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
   
 Get  Latest Datasets
 ------------------------------
  
-  Returns the latest updated datasets
+Returns the latest updated datasets::
 
-  **curl   --X GET --header 'Accept: application/json' http://localhost:8080/getLatestDatasets -b /tmp/cookies.txt**
+    curl   --X GET --header 'Accept: application/json' http://localhost:8080/getLatestDatasets -b /tmp/cookies.txt
   
   
  

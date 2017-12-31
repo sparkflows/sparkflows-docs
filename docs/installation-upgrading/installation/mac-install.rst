@@ -52,38 +52,43 @@ Detailed Installation Steps
   
 * Unzip the sparkflows tgz file::
 
-    Unzip it : tar xvf fire-1.4.2.tgz
+    tar xvf fire-1.4.2.tgz
 
 
 * Set up H2 or MySQL DB
 
 Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-      * H2 DB Configuration
-      * MySQL Configuration
+    * H2 DB Configuration
+    * MySQL Configuration
 
 Launching Fire after Installation
 ---------------------------------
 
-Below are the steps for launching Fire after installation::
+cd to the install directory::
 
-* cd <install_dir>/fire-1.4.2
-* Execute ./run-fire-server.sh
-* Test by opening your web browser and going to:
+    cd <install_dir>/fire-1.4.2
+  
+Start fire server::
+
+    ./run-fire-server.sh start
+    
+Test by opening your web browser and going to::
+
     localhost:8080/index.html
 
     OR
 
     <machine_name>:8080/index.html
 
-* When you see the login window, enter username: admin and password: admin.
+When you see the login window, enter username: admin and password: admin.
 
 Note: You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
 
         admin/admin
         test/test
 
-    Note: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
+Note: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
     `Connecting Fire to a Spark cluster`_
 

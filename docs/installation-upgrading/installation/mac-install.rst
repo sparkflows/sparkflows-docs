@@ -55,7 +55,7 @@ Detailed Installation Steps
     * ``#`` : used for comments and documentation
 
 
-* Download ``fire-1.4.3.tgz`` from Download_
+* Download ``fire-1.4.3.tgz`` from https://www.sparkflows.io/download
   
 * Unzip it::
 

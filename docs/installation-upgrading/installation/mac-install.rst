@@ -66,8 +66,8 @@ Detailed Installation Steps
 
 Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-    * H2 DB Configuration
-    * MySQL Configuration
+    * :doc:`../configuration/h2-db.html`
+    * :doc:`../configuration/mysql-db.html`
     
 
 Launching Fire after Installation
@@ -119,5 +119,6 @@ Now that you have Fire installed, you may want to connect it to your Apache Spar
 
 
 .. _Download: https://www.sparkflows.io/download
+
 
 

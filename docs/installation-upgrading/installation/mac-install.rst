@@ -10,10 +10,10 @@ Prerequisites
 
 Below are the Prerequisites for installing Fire on a machine::
 
-* JDK 1.7+ installed.
-* java and jar have to be in the PATH
-* If running on a Spark cluster, Spark 1.6+ is needed on the cluster.
-* 3GB+ of RAM.
+- JDK 1.7+ installed.
+- java and jar have to be in the PATH
+- If running on a Spark cluster, Spark 1.6+ is needed on the cluster.
+- 3GB+ of RAM.
 
 
 Quick Installation Steps of Fire with H2 DB

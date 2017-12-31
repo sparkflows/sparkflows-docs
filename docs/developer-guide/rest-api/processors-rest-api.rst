@@ -39,6 +39,8 @@ This provides the rules associated with the nodes::
 Get Node Count
 ---------------
  
+The below gets the count of all Nodes::
+
     curl -X GET --header 'Accept: application/json'   http://localhost:8080/getNodeCount   -b /tmp/cookies.txt
   
   

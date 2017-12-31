@@ -40,7 +40,7 @@ Quick Installation Steps of Fire with H2 DB
       cd <fire install_dir>
       ./create-h2-db.sh
 
-* Launch fire server::
+* Launch Fire Server::
 
     cd <fire install_dir>
     ./run-fire-server.sh start
@@ -83,15 +83,9 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     * :doc:`../configuration/mysql-db`
     
 
-Launching Fire after Installation
----------------------------------
+* Launch Fire Server::
 
-* cd to the install directory::
-
-    cd <install_dir>/fire-1.4.3
-  
-* Start fire server::
-
+    cd <fire install_dir>
     ./run-fire-server.sh start
     
 * Test by opening your web browser and going to::

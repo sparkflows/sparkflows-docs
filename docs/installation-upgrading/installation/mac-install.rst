@@ -45,10 +45,11 @@ Detailed Installation Steps
     * # : used for comments and documentation
 
 
-  * Download and unzip the sparkflows tgz file
+  * Download the sparkflows tgz file
+  
+  * Unzip the sparkflows tgz file::
 
-    * Download the fire tgz file
-    * Unzip it : tar xvf fire-1.4.2.tgz
+    Unzip it : tar xvf fire-1.4.2.tgz
 
 
   * Set up H2 or MySQL DB
@@ -61,6 +62,8 @@ Detailed Installation Steps
 
 Launching Fire after Installation
 ---------------------------------
+
+Below are the steps for launching Fire after installation::
 
   * cd <install_dir>/fire-1.4.2
   * Execute ./run-fire-server.sh
@@ -86,4 +89,4 @@ Launching Fire after Installation
 Stopping the Fire Server
 ------------------------
 
-  * ./run-fire-server.sh stop
+    ``./run-fire-server.sh stop``

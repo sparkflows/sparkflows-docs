@@ -43,9 +43,9 @@ Detailed Installation Steps
 
 * Glossary
 
-    * <install_dir> : location where you unzipped fire tgz file. For example this can be your home directory.
-    * <machine_name> : hostname where your installed Fire
-    * # : used for comments and documentation
+    * ``<install_dir>`` : location where you unzipped fire tgz file. For example this can be your home directory.
+    * ``<machine_name>`` : hostname where your installed Fire
+    * ``#`` : used for comments and documentation
 
 
 * Download the sparkflows tgz file
@@ -65,15 +65,15 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
 Launching Fire after Installation
 ---------------------------------
 
-cd to the install directory::
+* cd to the install directory::
 
     cd <install_dir>/fire-1.4.2
   
-Start fire server::
+* Start fire server::
 
     ./run-fire-server.sh start
     
-Test by opening your web browser and going to::
+* Test by opening your web browser and going to::
 
     localhost:8080/index.html
 

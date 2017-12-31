@@ -1,0 +1,15 @@
+{
+  "id": "7",
+  "name": "PolynominalExpansion",
+  "type": "ml-transformer",
+  "description": "Perform feature expansion in a polynomial space",
+  "nodeClass": "fire.nodes.ml.NodePolynominalExpansion",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column", "description": "The input column name", "datatypes":["vectorudt"]},
+
+    {"name":"outputCol", "value":"", "widget": "textfield", "title": "Output Column", "description": "The output column name", "datatypes":["vectorudt"]},
+
+    {"name":"degree", "value":"2", "widget": "textfield", "title": "Degree", "description": "The polynomial degree to expand, which should be >= 1. A value of 1 means no expansion.", "datatypes":["integer"]}
+
+  ]
+}

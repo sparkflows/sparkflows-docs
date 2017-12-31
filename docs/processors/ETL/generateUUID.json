@@ -1,0 +1,16 @@
+{
+  "id": "11",
+  "name": "GenerateUUID",
+  "description": "This node Generates a universally unique ID",
+  "input": "It accepts a DataFrame as input",
+  "output": "It adds a new column for UUID to the input DataFrame. This new DataFrame is sent to the output.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeGenerateUUID",
+  "fields" : [
+
+    {"name":"prefix", "value": "0", "widget": "textfield", "title": "Prefix","description": "Prefix to add in UUID"},
+	{"name":"postfix", "value": "0", "widget": "textfield", "title": "Postfix","description": "Postfix to add in UUID"},
+	{"name":"outputCol", "value": " ", "widget": "textfield", "title": "Output Column", "description": "Output Column Name"}
+
+	]
+}

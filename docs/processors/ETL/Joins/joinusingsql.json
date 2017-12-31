@@ -1,0 +1,16 @@
+{
+  "id": "1",
+  "name": "Join Using SQL",
+  "description": "This node registers the incoming DataFrames as temporary tables and executes the SQL provided",
+  "type": "join",
+  "nodeClass": "fire.nodes.etl.NodeJoinUsingSQL",
+  "fields" : [
+    {"name":"tempTable1", "value":"fire_temp_table1", "widget": "textfield", "title": "Temp Table1", "description": "Temp Table Name to be used"},
+    {"name":"tempTable2", "value":"fire_temp_table2", "widget": "textfield", "title": "Temp Table2", "description": "Temp Table Name to be used"},
+    {"name":"sql", "value":"", "widget": "textarea_large", "title": "SQL", "description": "SQL to be run"},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names for the CSV", "description": "New Output Columns of the SQL"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types for the CSV", "description": "Data Type of the Output Columns"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats for the CSV", "description": "Format of the Output Columns"}
+  ]
+}

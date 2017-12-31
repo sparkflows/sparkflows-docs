@@ -1,0 +1,17 @@
+{
+  "id": "7",
+  "name": "StandardScaler",
+  "type": "ml-transformer",
+  "description": "StandardScaler transforms a dataset of Vector rows, normalizing each feature to have unit standard deviation and/or zero mean.",
+  "nodeClass": "fire.nodes.ml.NodeStandardScaler",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column", "required": true, "datatypes":["vectorudt"], "description": "The input column name"},
+
+    {"name": "outputCol", "value":"", "widget": "textfield", "title": "Output Column", "required": true, "datatypes":["vectorudt"], "description": "The output column name"},
+
+    {"name":"withMean", "value":"false", "widget": "array","optionsArray": ["true","false"], "title": "With Mean","datatypes":["boolean"], "description": "Centers the data with mean before scaling."},
+
+    {"name":"withStd", "value":"true", "widget": "array", "optionsArray": ["true","false"], "title": "With Standard Dev","datatypes":["boolean"], "description": "Scales the data to unit standard deviation"}
+
+  ]
+}

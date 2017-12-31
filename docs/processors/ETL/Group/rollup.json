@@ -1,0 +1,15 @@
+{
+  "id": "6",
+  "name": "Rollup",
+  "description": "Rollup Node generates a result set that shows aggregates for a hierarchy of values in the selected columns.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeRollup",
+  "fields" : [
+    {"name": "rollupCols", "value":"[]", "widget": "variables", "title": "Rollup Columns", "description": ""},
+
+    {"name": "aggregateCols", "value":"[]", "widget": "variables_list_select", "title": "Aggregate Columns", "description": "Aggregate Columns"},
+    {"name": "aggregateOperations", "value":"[]", "widget": "variables_list_array",
+      "optionsArray": ["sum", "avg", "min", "max"], "title": "Aggregate Operation to use", "description": "Aggregate Operation"}
+
+  ]
+}

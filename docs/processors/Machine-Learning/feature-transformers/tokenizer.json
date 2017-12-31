@@ -1,0 +1,13 @@
+{
+  "id": "7",
+  "name": "Tokenizer",
+  "description":"A tokenizer that converts the input string to lowercase and then splits it by white spaces.",
+  "type": "ml-transformer",
+  "nodeClass": "fire.nodes.ml.NodeTokenizer",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column",
+     "description": "Column containing text (such as sentence)", "datatypes":["string"]
+    },
+    {"name":"outputCol", "value":"tok", "widget": "textfield", "title": "Output Column", "description": "Output column name"}
+  ]
+}

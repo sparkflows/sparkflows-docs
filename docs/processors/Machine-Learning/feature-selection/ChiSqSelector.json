@@ -1,0 +1,17 @@
+{
+  "id": "7",
+  "name": "ChiSqSelector",
+  "type": "ml-transformer",
+  "description": "Chi-Squared feature selection, which selects categorical features to use for predicting a categorical label.",
+  "nodeClass": "fire.nodes.ml.NodeChiSqSelector",
+  "fields" : [
+    {"name":"featuresCol", "value":"", "widget": "variable", "title": "Features Column ","required": true, "datatypes":["vectorudt"], "description": "The features column name"},
+
+    {"name":"outputCol", "value":"", "widget": "textfield", "title": "Output Column", "required": true, "datatypes":["vectorudt"], "description": "The output column name"},
+
+    {"name":"labelCol", "value":"", "widget": "variable", "title": "Label Column", "required": true, "datatypes":["double"], "description": "The label column name"},
+
+    {"name":"numTopFeatures", "value":"50", "widget": "textfield", "title": "NumTopFeatures", "required": true, "datatypes":["int"], "description": "Number of features that selector will select (ordered by statistic value descending)."}
+
+  ]
+}

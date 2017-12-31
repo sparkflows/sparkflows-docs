@@ -1,0 +1,43 @@
+{
+  "id": "4",
+  "name": "DecisionTreeClassifier",
+  "description": "It supports both binary and multiclass labels, as well as both continuous and categorical features.",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeDecisionTreeClassifier",
+  "fields" : [
+
+    {"name": "featuresCol", "value":"", "widget": "variable", "title": "Features Column", "description": "Features column of type vectorUDT for model fitting", "datatypes":["vectorudt"]},
+    {"name": "labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting", "datatypes":["double"]},
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Columns", "description": "The prediction column created during model scoring."},
+    {"name": "probabilityCol", "value":"", "widget": "textfield", "title": "Probability Column", "description": "The column name for predicted class conditional probabilities"},
+    {"name": "rawPredictionCol", "value":"", "widget": "textfield", "title": "Raw Prediction Column", "description": "The raw prediction (a.k.a. confidence) column name"},
+
+    {"name": "impurity", "value":"gini", "widget": "array", "title": "Impurity", "optionsArray": ["gini","entropy"], "description": "The Criterion used for information gain calculation"},
+
+    {"name": "maxBins", "value":32, "widget": "textfield", "title": "Max Bins", "description": "The maximum number of bins used for discretizing continuous features.Must be >= 2 and >= number of categories in any categorical feature.", "datatypes":["integer"]},
+
+    {"name": "maxDepth", "value":5, "widget": "textfield", "title": "Max Depth", "description": "The Maximum depth of a tree", "datatypes":["integer"]},
+
+    {"name": "minInfoGain", "value":0.0, "widget": "textfield", "title": "Min Information Gain", "description": "The Minimum information gain for a split to be considered at a tree node", "datatypes":["double"]},
+
+    {"name": "minInstancesPerNode", "value":1, "widget": "textfield", "title": "Min Instances Per Node", "description": "The Minimum number of instances each child must have after split", "datatypes":["integer"]},
+
+    {"name": "seed", "value":"", "widget": "textfield", "title": "Seed", "description": "The random seed" ,"datatypes":["long"]},
+
+    {"name": "cacheNodeIds", "value":"false", "widget": "array", "title": "Cache Node Ids", "optionsArray": ["false","true"], "description": "The caching nodes IDs. Can speed up training of deeper trees." ,"datatypes":["boolean"]},
+
+    {"name": "checkpointInterval", "value":10, "widget": "textfield", "title": "Checkpoint Interval", "description": "The checkpoint interval. E.g. 10 means that the cache will get checkpointed every 10 iterations.Set checkpoint interval (>= 1) or disable checkpoint (-1)", "datatypes":["integer"]},
+
+    {"name": "maxMemoryInMB", "value":256, "widget": "textfield", "title": "Max memory", "description": "Maximum memory in MB allocated to histogram aggregation." ,"datatypes":["integer"]},
+
+    {"name": "gridSearch", "value":"", "widget": "tab", "title": "Grid Search"},
+
+    {"name": "minInfoGainGrid", "value":"", "widget": "textfield", "title": "Min Information Gain Param Grid Search", "description": "Min Information Gain Parameters for Grid Search"},
+
+    {"name": "maxBinsGrid", "value":"", "widget": "textfield", "title": "Max Bins Param Grid Search", "description": "Max Bins Parameters for Grid Search"},
+
+    {"name": "maxDepthGrid", "value":"", "widget": "textfield", "title": "Max Depth Param Grid Search", "description": "Max Depth Parameters for Grid Search"}
+
+
+  ]
+}

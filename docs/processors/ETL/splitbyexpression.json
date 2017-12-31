@@ -1,0 +1,10 @@
+{
+  "id": "4",
+  "name": "Split By Expression",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeSplitByExpression",
+  "fields" : [
+    {"name":"conditionExpr", "value":"", "widget": "textfield", "title": "Conditional Expression to split the Data on",
+     "description": "Conditional Expression to be used for Splitting the Dataset into two"}
+  ]
+}

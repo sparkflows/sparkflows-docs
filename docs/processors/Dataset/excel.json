@@ -1,0 +1,19 @@
+{
+  "id": "11",
+  "name": "ReadExcel",
+  "description": "Dataset Node for reading Excel files",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetExcel",
+  "fields" : [
+    {"name":"path", "value":"", "widget": "textfield", "title": "Path", "description": "Path of the Excel file"},
+    {"name":"sheetName", "value":"", "widget": "textfield", "title": "Sheetname", "description": "Excel Sheet Name"},
+    {"name": "header", "value":"false", "widget": "array", "title": "Header", "optionsArray": ["true","false"],
+            "description": "Does the file have a header row", "datatypes":["boolean"]},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names for the Excel", "description": "New Output Columns of the SQL"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types for the Excel", "description": "Data Type of the Output Columns"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats for the Excel", "description": "Format of the Output Columns"}
+            
+
+  ]
+}

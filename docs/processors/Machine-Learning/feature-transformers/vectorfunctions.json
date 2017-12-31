@@ -1,0 +1,20 @@
+{
+  "id": "7",
+  "name": "VectorFunctions",
+  "type": "ml-transformer",
+  "description": "Vector Functions for transforming Vectors",
+  "nodeClass": "fire.nodes.ml.NodeVectorFunctions",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column", "description": "The Input column name", "datatypes":["vectorudt"]},
+
+    {"name":"vectorFunction", "value":"topNIndexes", "widget": "array",
+      "optionsArray": ["topNIndexes"], "title": "Vector Function",
+      "description": "Vector Function Name"},
+
+    {"name": "parameter", "value":2, "widget": "textfield","title": "Parameter", "description": "Parameter for the Function", "datatypes":["integer"]},
+
+    {"name":"outputCol", "value":"", "widget": "textfield", "title": "Output Column", "description": "Output column name", "datatypes":["vectorudt"]}
+
+  ]
+
+}

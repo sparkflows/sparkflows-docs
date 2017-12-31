@@ -1,0 +1,10 @@
+{
+  "id": "10",
+  "name": "PrintNRows",
+  "description": "Prints the specified number of records in the DataFrame",
+  "type": "transform",
+  "nodeClass": "fire.nodes.util.NodePrintFirstNRows",
+  "fields" : [
+    {"name":"n", "value":"10", "widget": "textfield", "title": "Num Rows to Print","description":"number of rows to be printed"}
+  ]
+}

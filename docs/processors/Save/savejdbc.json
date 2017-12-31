@@ -1,0 +1,30 @@
+{
+  "id": "11",
+  "name": "Save JDBC",
+  "description": "This node writes data to databases using JDBC.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.save.NodeSaveJDBC",
+  "fields" : [
+    {"name":"url", "value":"jdbc:mysql://localhost:3306/data", "widget": "textfield", "title": "URL", "description": "The JDBC URL to connect to"},
+
+    {"name":"table", "value":"", "widget": "textfield", "title": "DB Table",
+      "description": "The JDBC table to write to"},
+
+    {"name":"driver", "value":"com.mysql.jdbc.Driver", "widget": "textfield", "title": "Driver",
+      "description": "The class name of the JDBC driver needed to connect to the URL"},
+
+    {"name":"user", "value":"", "widget": "textfield", "title": "User",
+      "description":"Username with which to connect to the DB"},
+
+    {"name":"password", "value":"", "widget": "textfield", "title": "Password",
+      "description":"Password with which to connect to the DB"},
+
+    {"name":"saveMode", "value":"Append", "widget": "array","optionsArray": ["Append","Overwrite", "ErrorIfExists", "Ignore"],
+      "title": "Save Mode", "description":"Whether to Append, Overwrite or Error if the table Exists"}
+
+  ]
+}
+
+
+
+

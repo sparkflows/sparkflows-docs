@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "name": "Unix Shell Commands",
+  "description": "This node execute shell command",
+  "type": "shellcommand",
+  "nodeClass": "fire.nodes.etl.NodeShellCommand",
+  "fields" : [
+    {"name":"shellCommand", "widget": "textfield", "title": "shell Command", "description": "Unix Shell Command"}
+
+  ]
+}

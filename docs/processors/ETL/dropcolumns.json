@@ -1,0 +1,10 @@
+{
+  "id": "15",
+  "name": "DropColumns",
+  "description": "This node creates a new DataFrame by deleting columns specified as an input",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeDropColumns",
+  "fields" : [
+    {"name":"dropCols", "value": "[]", "widget": "variables", "title": "Columns", "description": "The columns to be excluded from the output DataFrame"}
+  ]
+}

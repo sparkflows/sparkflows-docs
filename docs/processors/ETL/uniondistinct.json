@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "name": "UnionDistinct",
+  "description": "This node creates a new DataFrame by performing a DISTINCT on the result set, eliminating any duplicate rows",
+  "type": "join",
+  "nodeClass": "fire.nodes.etl.NodeUnionDistinct"
+ }

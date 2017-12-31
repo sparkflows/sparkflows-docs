@@ -1,0 +1,23 @@
+{
+  "id": "5",
+  "name": "NavieBayes",
+  "description": "Creates a NavieBayes model. It supports both Multinomial NB which can handle finitely supported discrete data. For example, by converting documents into TF-IDF vectors, it can be used for document classification. By making every vector a binary (0/1) data, it can also be used as Bernoulli NB.The input feature values must be nonnegative",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeNaiveBayes",
+  "fields" : [
+    {"name": "featuresCol", "value":"", "widget": "variable", "title": "Features Column", "description": "Features column of type vectorUDT for model fitting", "datatypes":["vectorudt"]},
+
+    {"name": "labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting", "datatypes":["double"]},
+
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Columns", "description": "The prediction column created during model scoring"},
+
+    {"name": "rawPredictionCol", "value":"", "widget": "textfield", "title": "Raw Prediction Column", "description": "The raw prediction (a.k.a. confidence) column name"},
+
+    {"name": "modelType", "value":"multinomial", "widget": "array", "title": "modelType", "optionsArray": ["multinomial","bernoulli"], "description": "The model type. Supported options: multinomial and bernoulli. (default = multinomial)"},
+
+    {"name": "smoothing", "value":1.0, "widget": "textfield", "title": "Smoothing", "description": "The smoothing parameter."}
+
+    //{"name": "threshold", "value":, "widget": "textfield", "title": "Threshold", "description": ""},
+
+  ]
+}

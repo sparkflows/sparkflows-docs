@@ -1,0 +1,27 @@
+{
+  "id": "11",
+  "name": "AWSRedshift",
+  "description": "This node reads data from Redshift using JDBC.",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetRedshift",
+  "fields" : [
+    {"name":"url", "value":"", "widget": "textfield", "title": "URL", "description": "The JDBC URL to connect to"},
+
+    {"name":"dbtable", "value":"", "widget": "textfield", "title": "Redshift Table",
+      "description": "The Redshift table that should be read. Note that anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table you could also use a subquery in parentheses."},
+
+    {"name":"awsAccessKeyId", "value":"", "widget": "textfield", "title": "AWS Access Key Id",
+      "description":"AWS Access Key Id"},
+
+    {"name":"awsSecretAccessKey", "value":"", "widget": "textfield", "title": "AWS Secret Access Key",
+      "description":"AWS Secret Access Key"},
+
+    {"name":"tempS3Dir", "value":"", "widget": "textfield", "title": "Temporary S3 directory",
+      "description":"Temporary S3 directory"},
+
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names of the Table", "description": "Output Columns Names of the Table"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types of the Table", "description": "Output Column Types of the Table"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats", "description": "Output Column Formats"}
+  ]
+}

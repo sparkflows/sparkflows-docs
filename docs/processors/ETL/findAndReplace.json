@@ -1,0 +1,13 @@
+{
+  "id": "11",
+  "name": "FindAndReplaceUsingRegex",
+  "description": "This node finds and replaces text in a column containing string",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeFindAndReplaceUsingRegex",
+  "fields" : [
+    {"name":"inputCols", "value": "[]", "widget": "variables", "title": "Input Columns", "datatypes":["string"], "required": true, "description": "Columns on which to apply Regex"},
+  	{"name":"searchPattern", "value": "", "widget": "textfield", "title": "find", "description": "Enter Search Pattern"},
+  	{"name":"replacePattern", "value": "", "widget": "textfield", "title": "Replace", "description": "Enter replacement Value"}
+    
+  ]
+}

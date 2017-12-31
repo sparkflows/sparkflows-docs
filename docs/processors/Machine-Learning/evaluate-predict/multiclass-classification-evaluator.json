@@ -1,0 +1,17 @@
+{
+  "id": "5",
+  "name": "MulticlassClassificationEvaluator",
+  "description": "Evaluator for multiclass classification, which expects two input columns: score and label.",
+  "type": "ml-evaluator",
+  "nodeClass": "fire.nodes.ml.NodeMulticlassClassificationEvaluator",
+  "fields" : [
+    {"name":"labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting.", "datatypes":["double"]},
+
+    {"name":"predictionCol", "value":"", "widget": "variable", "title": "Prediction Column", "description": "The prediction column.", "datatypes":["double"]},
+
+    {"name":"metricName", "value":"f1", "widget": "array", "title": "Metric Name", "description": "The metric used in evaluation.",
+     "optionsArray": ["f1", "precision", "recall", "weightedPrecision", "weightedRecall"]
+    }
+
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9999",
+  "name": "DB2 JDBC",
+  "description": "This node reads data from other databases using JDBC.",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetJDBC",
+  "fields" : [
+    {"name":"url", "value":"jdbc:db2://mmkusum100-master-2.domain.xxx.com:32051/BIGSQL", "widget": "textfield", "title": "DB2 URL", "description": "The JDBC URL to connect to"},
+    {"name":"user", "value":"", "widget": "textfield", "title": "User", "description": "User for connecting to the DB"},
+    {"name":"password", "value":"", "widget": "password", "title": "Password", "description": "Password for connecting to the DB"},
+
+    {"name":"dbtable", "value":"", "widget": "textfield", "title": "DB2 Table",
+      "description": "The JDBC table that should be read. Note that anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table you could also use a subquery in parentheses."},
+
+    {"name":"driver", "value":"com.ibm.db2.jcc.DB2Driver", "widget": "textfield", "title": "DB2 Driver",
+            "description": "The class name of the JDBC driver needed to connect to this URL"},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names of the Table", "description": "Output Columns Names of the Table"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types of the Table", "description": "Output Column Types of the Table"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats", "description": "Output Column Formats"}
+  ]
+}

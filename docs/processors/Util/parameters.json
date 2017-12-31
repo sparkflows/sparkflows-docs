@@ -1,0 +1,27 @@
+{
+  "id": "10",
+  "name": "Parameters",
+  "description": "Provide Parameters to the workflow. When running with spark-submit, parameters can be given on the command line also.",
+  "type": "doc",
+  "nodeClass": "fire.nodes.util.NodeParameters",
+  "fields" : [
+    {"name":"name1", "value":"", "widget": "textfield", "title": "Name 1", "description": "Name of first parameter"},
+    {"name":"val1", "value":"", "widget": "textfield", "title": "Value 1", "description": "Value of first parameter"},
+
+    {"name":"name2", "value":"", "widget": "textfield", "title": "Name 2", "description": "Name of second parameter"},
+    {"name":"val2", "value":"", "widget": "textfield", "title": "Value 2", "description": "Value of second parameter"},
+
+    {"name":"name3", "value":"", "widget": "textfield", "title": "Name 3", "description": "Name of third parameter"},
+    {"name":"val3", "value":"", "widget": "textfield", "title": "Value 3", "description": "Value of third parameter"},
+
+    {"name":"name4", "value":"", "widget": "textfield", "title": "Name 4", "description": "Name of fourth parameter"},
+    {"name":"val4", "value":"", "widget": "textfield", "title": "Value 4", "description": "Value of fourth parameter"},
+
+    {"name":"name5", "value":"", "widget": "textfield", "title": "Name 5", "description": "Name of fifth parameter"},
+    {"name":"val5", "value":"", "widget": "textfield", "title": "Value 5", "description": "Value of fifth parameter"},
+
+    {"name":"name6", "value":"", "widget": "textfield", "title": "Name 6", "description": "Name of sixth parameter"},
+    {"name":"val6", "value":"", "widget": "textfield", "title": "Value 6", "description": "Value of sixth parameter"}
+
+  ]
+}

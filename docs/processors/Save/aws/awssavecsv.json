@@ -1,0 +1,20 @@
+{
+  "id": "7",
+  "name": "S3SaveCSV",
+  "description": "Saves the DataFrame into the specified S3 location in CSV Format",
+  "type": "transform",
+  "nodeClass": "fire.nodes.save.aws.NodeS3SaveCSV",
+  "fields" : [
+    {"name":"path", "value":"", "widget": "textfield", "title": "Path",
+      "description":"Path where to save the CSV files"},
+
+    {"name":"awsAccessKeyId", "value":"", "widget": "textfield", "title": "AWS Access Key Id",
+      "description":"AWS Access Key Id"},
+
+    {"name":"awsSecretAccessKey", "value":"", "widget": "textfield", "title": "AWS Secret Access Key",
+      "description":"AWS Secret Access Key"},
+
+    {"name":"saveMode", "value":"Append", "widget": "array","optionsArray": ["Append","Overwrite", "ErrorIfExists", "Ignore"],
+      "title": "Save Mode", "description":"Whether to Append, Overwrite or Error if the path Exists"}
+  ]
+}

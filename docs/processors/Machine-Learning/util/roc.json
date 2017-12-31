@@ -1,0 +1,12 @@
+{
+  "id": "11",
+  "name": "ROC",
+  "description": "",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeROC",
+  "fields" : [
+    {"name":"probabilityCol", "value": "", "widget": "variable", "title": "Probability Column", "description": ""},
+
+    {"name": "labelCol", "value":"", "widget": "variable","title": "Label Column", "description": ""}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "7",
+  "name": "SVD",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeSVD",
+  "fields" : [
+    {"name":"columnName", "value":"", "widget": "variable", "title": "Column Name"},
+    {"name":"k", "value":"0", "widget": "textfield", "title": "k"}
+  ]
+}

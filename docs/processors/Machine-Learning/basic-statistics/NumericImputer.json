@@ -1,0 +1,10 @@
+{
+  "id": "7",
+  "name": "ImputingWithMeanValue",
+  "type": "transform",
+  "description": "Imputing the continuous variables by mean.",
+  "nodeClass": "fire.nodes.ml.NodeNumericImputer",
+  "fields" : [
+    {"name":"inputCols", "value":"[]", "widget": "variables", "title": "Column Names", "description": "Columns type should be continuous", "datatypes":["integer", "long", "double", "float"]}
+  ]
+}

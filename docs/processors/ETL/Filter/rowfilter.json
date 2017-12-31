@@ -1,0 +1,15 @@
+{
+  "id": "1",
+  "name": "RowFilter",
+  "description": "This node creates a new DataFrame containing only rows satisfying given condition",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeRowFilter",
+  "fields" : [
+    {"name":"conditionExpr", "value":"", "widget": "textfield", "title": "Conditional Expression", "description": "The filtering condition. Rows not satisfying given condition will be excluded from output DataFrame"}
+  ]
+}
+
+
+
+
+

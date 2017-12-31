@@ -1,0 +1,15 @@
+{
+  "id": "6",
+  "name": "Cube",
+  "description": "Cube Node generates a result set that shows aggregates for all combinations of values in the selected columns.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeCube",
+  "fields" : [
+    {"name": "cubeCols", "value":"[]", "widget": "variables", "title": "Cube Columns", "description": ""},
+
+    {"name": "aggregateCols", "value":"[]", "widget": "variables_list_select", "title": "Aggregate Columns", "description": "Aggregate Columns"},
+    {"name": "aggregateOperations", "value":"[]", "widget": "variables_list_array",
+      "optionsArray": ["sum", "avg", "min", "max"], "title": "Aggregate Operation to use", "description": "Aggregate Operation"}
+
+  ]
+}

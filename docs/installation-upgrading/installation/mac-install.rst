@@ -21,10 +21,8 @@ Quick Installation Steps of Fire with H2 DB
 
 * Download and unpack ``fire-1.4.3.tgz`` from::
 
-    `Download`_
+    Download_
     
-.. _Download: https://www.sparkflows.io/download   
-
 
 * Create H2 DB::
 
@@ -116,5 +114,7 @@ Now that you have Fire installed, you may want to connect it to your Apache Spar
 
 * :doc:`../connecting-spark-cluster`
 
+
+.. _Download: https://www.sparkflows.io/download
 
 

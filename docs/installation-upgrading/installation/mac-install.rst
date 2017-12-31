@@ -81,7 +81,9 @@ Launching Fire after Installation
 
     <machine_name>:8080/index.html
 
-When you see the login window, enter username: admin and password: admin.
+* Login with:
+
+    username: admin and password: admin.
 
 Note: You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
 

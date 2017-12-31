@@ -1,0 +1,16 @@
+{
+  "id": "3",
+  "name": "GraphValues",
+  "type": "transform",
+  "nodeClass": "fire.nodes.graph.NodeGraphValues",
+  "fields" : [
+    {"name":"title", "value":"Graph", "widget": "textfield", "title": "Title"},
+    {"name":"xlabel", "value":"X axis", "widget": "textfield", "title": "X Label"},
+    {"name":"ylabel", "value":"Y axis", "widget": "textfield", "title": "Y Label"},
+    {"name":"graphType", "value":"1", "widget": "enum", "title": "Chart Type",
+          "optionsMap":{"LINECHART":"Line Chart","COLUMNCHART":"Side by Side Bar Chart",
+                       "BARCHART":"Stacked Bar Chart", "PIE":"Pie Chart", "SCATTERCHART": "Scatter Chart"}},
+    {"name":"xCol", "value":"", "widget": "variable", "title": "X Column"},
+    {"name":"yCols", "value":"[]", "widget": "variables", "datatypes":["integer", "long", "double", "float"], "title": "Y Columns"}
+  ]
+}

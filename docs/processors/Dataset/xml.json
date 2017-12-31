@@ -1,0 +1,16 @@
+{
+  "id": "11",
+  "name": "XML",
+  "description": "Dataset Node for reading XML file",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetXML",
+  "fields" : [
+    {"name":"path", "value":"", "widget": "textfield", "title": "Path", "description": "Path of the Text file/directory"},
+    {"name":"rowTag", "value":"", "widget": "textfield", "title": "Row Tag", "description": "Row Tag"},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names for the CSV", "description": "New Output Columns of the SQL"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types for the CSV", "description": "Data Type of the Output Columns"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats for the CSV", "description": "Format of the Output Columns"}
+
+  ]
+}

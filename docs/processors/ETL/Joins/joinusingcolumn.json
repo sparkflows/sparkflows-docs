@@ -1,0 +1,10 @@
+{
+  "id": "1",
+  "name": "JoinUsingColumn",
+  "description": "This node joins the incoming dataframes on a joinCol",
+  "type": "join",
+  "nodeClass": "fire.nodes.etl.NodeJoinUsingColumn",
+  "fields" : [
+    {"name":"joinCol", "value":"", "widget": "textfield", "title": "Join Column","description": "column on which to join"}
+  ]
+}

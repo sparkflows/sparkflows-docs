@@ -1,0 +1,17 @@
+{
+  "id": "5",
+  "name": "RegressionEvaluator",
+  "description": "Evaluator for regression, which expects two input columns: prediction and label.",
+  "type": "ml-evaluator",
+  "nodeClass": "fire.nodes.ml.NodeRegressionEvaluator",
+  "fields" : [
+    {"name":"labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting.", "datatypes":["double"]},
+
+    {"name":"predictionCol", "value":"", "widget": "variable", "title": "Prediction Column", "description": "The prediction column.", "datatypes":["double"]},
+
+    {"name":"metricName", "value":"rmse", "widget": "array", "title": "Metric Name", "description": "The metric used in evaluation.",
+     "optionsArray": ["rmse", "mse", "r2", "mae"]
+    }
+
+  ]
+}

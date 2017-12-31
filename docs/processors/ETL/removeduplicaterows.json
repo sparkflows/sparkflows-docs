@@ -1,0 +1,10 @@
+{
+  "id": "15",
+  "name": "RemoveDuplicateRows",
+  "description": "This node take an array of fields, compare rows on those fields. If they full match then its a match. From the matches it would randomly take one row and drop the rest.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeRemoveDuplicateRows",
+  "fields" : [
+    {"name":"inputCols", "value": "[]", "widget": "variables", "title": "Columns", "description": "The columns to be selected for match"}
+  ]
+}

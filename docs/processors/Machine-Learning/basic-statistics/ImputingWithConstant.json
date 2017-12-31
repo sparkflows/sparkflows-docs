@@ -1,0 +1,13 @@
+{
+  "id": "11",
+  "name": "ImputingWithConstant",
+  "description": "Imputing with constant",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeReplaceMissingValueWithConstant",
+  "fields" : [
+    {"name":"colNames", "value":"[]", "widget": "variables_map", "title": "Columns", "description": "Columns to be processed for missing values"},
+
+    {"name":"constants", "value":"[]", "widget": "variables_map_edit", "title": "Constants", "description": "Missing value will be replaced with constant"}
+
+  ]
+}

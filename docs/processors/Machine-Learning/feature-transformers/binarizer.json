@@ -1,0 +1,14 @@
+{
+  "id": "4",
+  "name": "Binarizer",
+  "description": "Binarize a column of continuous features given a threshold.",
+  "type": "ml-transformer",
+  "nodeClass": "fire.nodes.ml.NodeBinarizer",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column", "datatypes":["double"], "required": true,"description": "The input column name"},
+
+    {"name": "outputCol", "value":"", "widget": "textfield", "title": "Output Column", "datatypes":["double"], "required": true, "description": "The output column name"},
+
+    {"name": "threshold", "value":"0.0", "widget": "textfield", "title": "Threshold", "datatypes":["double"], "required": true, "description": "The features greater than the threshold, will be binarized to 1.0.The features equal to or less than the threshold, will be binarized to 0.0."}
+  ]
+}

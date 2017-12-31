@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "name": "Split",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeSplit",
+  "fields" : [
+    {"name":"fraction1", "value":".5", "widget": "textfield", "dataType": "double", "title": "Fraction 1"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "name": "GeoIP",
+  "description": "This node converts IP to geo location",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeGeoIP",
+  "fields" : [
+    {"name":"ipCol", "value":"", "widget": "variable", "title": "IP Column", "description": "IP Column in the DataFrame", "datatypes":["string"]},
+    {"name":"databaseFilePath", "value":"data/geoip/GeoIPCity.dat", "widget": "textfield", "title": "Database File Path", "description": "Database File Path"}
+  ]
+}

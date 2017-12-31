@@ -1,0 +1,12 @@
+{
+  "id": "9",
+  "name": "OCR",
+  "description": "Performs Optical Character Recognition using the Tesseract Library. Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your 'tessdata' directory. Download the tessdata directory with git clone https://github.com/tesseract-ocr/tessdata.git",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ocr.NodeOCRTesseract",
+  "fields" : [
+    {"name":"imageNameCol", "value":"col1", "widget": "variable", "title": "Image Name Column" ,"description" :"input image column name"},
+    {"name":"imageCol", "value":"col1", "widget": "variable", "title": "Image Column", "description" :"input image column name"},
+    {"name":"outputCol", "value":"ocrcol", "widget": "textfield", "title": "Output OCR Column","description" :"output column name"}
+  ]
+}

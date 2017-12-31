@@ -1,0 +1,44 @@
+{
+  "id": "5",
+  "name": "LogisticRegression",
+  "description": "Logistic regression. Currently, this class only supports binary classification.",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeLogisticRegression",
+  "fields" : [
+    {"name": "featuresCol", "value":"", "widget": "variable", "title": "Features Column", "description": "Features column of type vectorUDT for model fitting", "datatypes":["vectorudt"]},
+
+    {"name": "labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting", "datatypes":["double"]},
+
+    {"name": "probabilityCol", "value":"", "widget": "textfield", "title": "Probability Column", "description": "The column name for predicted class conditional probabilities"},
+
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Columns", "description": "The prediction column created during model scoring"},
+
+    {"name": "rawPredictionCol", "value":"", "widget": "textfield", "title": "Raw Prediction Column", "description": "The raw prediction (a.k.a. confidence) column name"},
+
+    {"name": "maxIter", "value":100, "widget": "textfield", "title": "Maximum Iterations", "description": "Maximum number of iterations (>= 0)", "datatypes":["integer"]},
+
+    {"name": "fitIntercept", "value":"true", "widget": "array", "title": "Fit Intercept", "optionsArray": ["true","false"], "description": "Whether to fit an intercept term", "datatypes":["boolean"]},
+
+    {"name": "regParam", "value":0.0, "widget": "textfield", "title": "Regularization Param", "description": "The regularization parameter", "datatypes":["double"]},
+
+    {"name": "standardization", "value":"true", "widget": "array", "title": "Standardization","optionsArray": ["true","false"], "description": "Whether to standardize the training features before fitting the model", "datatypes":["boolean"]},
+
+    {"name": "threshold", "value":0.5, "widget": "textfield", "title": "Threshold", "description": "The threshold in binary classification prediction", "datatypes":["double"]},
+
+    {"name": "tol", "value":1E-6, "widget": "textfield", "title": "Tolerance", "description": "The convergence tolerance for iterative algorithms", "datatypes":["double"]},
+
+    {"name": "elasticNetParam", "value":0.0, "widget": "textfield", "title": "ElasticNet Param", "description": "The ElasticNet mixing parameter. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty", "datatypes":["double"]},
+
+    {"name": "weightCol", "value":"", "widget": "textfield", "title": "Weight Column", "description": "If the 'weight column' is not specified, all instances are treated equally with a weight 1.0"},
+
+
+
+
+    {"name": "gridSearch", "value":"", "widget": "tab", "title": "Grid Search"},
+
+    {"name": "regParamGrid", "value":"", "widget": "textfield", "title": "Regularization Param Grid Search", "description": "Regularization Parameters for Grid Search"},
+
+    {"name": "elasticNetGrid", "value":"", "widget": "textfield", "title": "ElasticNet Param Grid Search", "description": "ElasticNet Parameters for Grid Search"}
+
+  ]
+}

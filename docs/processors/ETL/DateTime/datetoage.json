@@ -1,0 +1,14 @@
+{
+  "id": "1",
+  "name": "DateToAge",
+  "description": "This node converts a date-column into columns of age (both in years and in days).",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeDateToAge",
+  "fields" : [
+    {"name":"inputColName", "value":"", "widget": "variable", "title": "Input Column Name",
+      "description": "Input Column Name" , "datatypes":["date", "timestamp"]},
+    {"name":"yearsOutputColName", "value": " ", "widget": "textfield", "title": "Years Output Column Name", "description": "Num Years Output Column Name"},
+    {"name":"daysOutputColName", "value": " ", "widget": "textfield", "title": "Days Output Column Name", "description": "Num Days Output Column Name"}
+
+  ]
+}

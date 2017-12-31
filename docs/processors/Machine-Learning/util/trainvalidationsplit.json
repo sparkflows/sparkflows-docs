@@ -1,0 +1,10 @@
+{
+"id": "4",
+"name": "Train Validation Split",
+"description": "This node represents Train Validation Split from Spark ML",
+"type": "ml-trainvalidationsplit",
+"nodeClass": "fire.nodes.ml.NodeTrainValidationSplit",
+"fields" : [
+    {"name": "trainRatio", "value": "0.8", "widget": "textfield", "title": "Train Ratio", "description": "Training Ratio", "datatypes":["double"]}
+  ]
+}

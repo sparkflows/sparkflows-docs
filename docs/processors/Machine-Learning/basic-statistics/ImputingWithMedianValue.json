@@ -1,0 +1,13 @@
+{
+  "id": "11",
+  "name": "ImputingWithMedian",
+  "description": "Imputing with median",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeReplaceMissingValueWithMedian",
+  "fields" : [
+    {"name":"colNames", "value":"[]", "widget": "variables_map", "title": "Columns", "description": "Columns to be processed for missing values", "datatypes":["integer", "long", "double", "float"]},
+
+    {"name":"colType", "value":"[]", "widget": "variables_map_edit", "title": "Columns DataType", "description": "Enter the column type i.e double or integer or float or long"}
+
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "5",
+  "name": "LinearRegression",
+  "description": "",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeLinearRegression",
+  "fields" : [
+    {"name": "featuresCol", "value":"", "widget": "variable", "title": "Features Column", "description": "Features column of type vectorUDT for model fitting", "datatypes":["vectorudt"]},
+
+    {"name": "labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting", "datatypes":["double"]},
+
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Column", "description": "The prediction column created during model scoring"},
+
+    {"name": "fitIntercept", "value":"true", "widget": "array", "title": "Fit Intercept", "optionsArray": ["true","false"], "description": "Whether to fit an intercept term", "datatypes":["boolean"]},
+
+    {"name": "maxIter", "value":100, "widget": "textfield", "title": "Maximum Iterations", "description": "Maximum number of iterations (>= 0)", "datatypes":["integer"]},
+
+    {"name": "regParam", "value":0.0, "widget": "textfield", "title": "Regularization Param", "description": "The regularization parameter", "datatypes":["double"]},
+
+    {"name": "elasticNetParam", "value":0.0, "widget": "textfield", "title": "ElasticNet Param", "description": "The ElasticNet mixing parameter. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty", "datatypes":["double"]},
+
+    {"name": "solver", "value":"auto", "widget": "array", "title": "Solver", "optionsArray": ["auto", "l-bfgs", "normal"], "description": "The solver algorithm for optimization"},
+
+    {"name": "standardization", "value":"true", "widget": "array", "title": "Standardization","optionsArray": ["true","false"], "description": "Whether to standardize the training features before fitting the model", "datatypes":["boolean"]},
+
+    {"name": "tol", "value":1E-6, "widget": "textfield", "title": "Tolerance", "description": "The convergence tolerance for iterative algorithms", "datatypes":["double"]},
+
+    {"name": "weightCol", "value":"", "widget": "textfield", "title": "Weight Column", "description": "If the 'weight column' is not specified, all instances are treated equally with a weight 1.0"},
+
+
+
+
+
+    {"name": "gridSearch", "value":"", "widget": "tab", "title": "Grid Search"},
+
+    {"name": "regParamGrid", "value":"", "widget": "textfield", "title": "Regularization Param Grid Search", "description": "Regularization Parameters for Grid Search"},
+
+    {"name": "elasticNetGrid", "value":"", "widget": "textfield", "title": "ElasticNet Param Grid Search", "description": "ElasticNet Parameters for Grid Search"},
+
+    {"name": "maxIterGrid", "value":"", "widget": "textfield", "title": "MaxIter Param Grid Search", "description": "Maximum iteration Parameters for Grid Search"}
+
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "4",
+  "name": "ALS",
+  "description": "Alternating Least Squares (ALS) matrix factorization.",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeALS",
+  "fields" : [
+    {"name":"userCol", "value":"", "widget": "variable", "title": "User Column", "description": "The column name for user ids."},
+    {"name":"itemCol", "value":"", "widget": "variable", "title": "Item Column", "description": "The column name for item ids."},
+    {"name":"ratingCol", "value":"", "widget": "variable", "title": "Rating Column", "description": "The column name for ratings."},
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Column", "description": "The prediction column created during model scoring"},
+
+    {"name": "maxIter", "value":"10", "widget": "textfield","title": "Max iterations", "description": "The maximum number of iterations.", "datatypes":["integer"]},
+    {"name": "regParam", "value":"0.1", "widget": "textfield", "title": "Regularization Param", "description": "The regularization parameter.(>=0)","datatypes":["double"] },
+
+    {"name": "alpha", "value":"1.0", "widget": "textfield", "title": "Alpha", "description": "The alpha parameter in the implicit preference formulation.(>=0)","datatypes":["double"] },
+
+    {"name": "checkpointInterval", "value":"10", "widget": "textfield","title": "CheckpointInterval", "description": "The checkpoint interval.", "datatypes":["integer"]},
+
+    {"name": "nonnegative", "value":"false", "widget": "array", "title": "Nonnegative","optionsArray": ["true","false"], "description": "Whether to apply nonnegativity constraints.", "datatypes":["boolean"]},
+
+    {"name": "numItemBlocks", "value":"10", "widget": "textfield","title": "numItemBlocks", "description": "The number of item blocks.", "datatypes":["integer"]},
+
+    {"name": "numUserBlocks", "value":"10", "widget": "textfield","title": "numUserBlocks", "description": "The number of user blocks.", "datatypes":["integer"]},
+
+    {"name": "rank", "value":"10", "widget": "textfield","title": "Rank", "description": "The rank of the matrix factorization.", "datatypes":["integer"]},
+
+    {"name": "seed", "value":"", "widget": "textfield", "title": "Seed", "description": "Random Seed.", "datatypes":["long"]},
+
+    {"name": "implicitPrefs", "value":"false", "widget": "array", "title": "ImplicitPrefs","optionsArray": ["true","false"], "description": "whether to use implicit preference", "datatypes":["boolean"]}
+
+  ]
+}

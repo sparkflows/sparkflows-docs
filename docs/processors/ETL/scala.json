@@ -1,0 +1,15 @@
+{
+  "id": "11",
+  "name": "Scala",
+  "description": "This node runs any given Scala code. The input dataframe is passed in the variable inDF. The output dataframe is passed back by registering it as a temporary table.",
+  "type": "scala",
+  "nodeClass": "fire.nodes.etl.NodeScala",
+  "fields" : [
+    {"name":"code", "value":"", "widget": "textarea_large", "title": "Scala", "description": "Scala code to be run. Input dataframe : \"inDF\", SparkContext : \"sc\", SQLContext : \"sqlContext\",  Output/Result dataframe should be registered as a temporary table - df.registerTempTable(\"outDF\")"},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names for the CSV", "description": "New Output Columns of the SQL"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types for the CSV", "description": "Data Type of the Output Columns"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats for the CSV", "description": "Format of the Output Columns"}
+
+  ]
+}

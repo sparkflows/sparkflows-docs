@@ -1,0 +1,10 @@
+{
+  "id": "4",
+  "name": "ML Model Save",
+  "type": "ml-modelsave",
+  "nodeClass": "fire.nodes.ml.NodeModelSave",
+  "fields" : [
+    {"name":"path", "value":"modelsavepath", "widget": "textfield", "title": "Path to save the ML Model"},
+    {"name":"overwrite", "value":"false", "widget": "boolean","title": "Overwrite Output"}
+  ]
+}

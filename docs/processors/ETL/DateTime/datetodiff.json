@@ -1,0 +1,28 @@
+{
+  "id": "1",
+  "name": "DateDifference",
+  "description": "This node finds difference between two dates",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeDateDiff",
+  "fields" : [
+
+    {"name":"fromDate", "value":"", "widget": "variable", "title": "FromDate", "description": "From date column name", "datatypes":["timestamp", "date"]},
+
+    {"name":"toDate", "value":"", "widget": "variable", "title": "Todate", "description": "To date column name", "datatypes":["timestamp", "date"]},
+
+    {"name": "useCurrentDateAsToDateCol", "value":"false", "widget": "array", "title": "useCurrentDateAsToCol", "optionsArray": ["true","false"],
+      "description": "Current Date As ToDate", "datatypes":["boolean"]},
+
+    {"name": "days", "value":"false", "widget": "array", "title": "Days", "optionsArray": ["true","false"],
+      "description": "Days difference", "datatypes":["boolean"]},
+
+    {"name": "hours", "value":"false", "widget": "array", "title": "Hours", "optionsArray": ["true","false"],
+      "description": "Hours difference", "datatypes":["boolean"]},
+
+    {"name": "minutes", "value":"false", "widget": "array", "title": "Minutes", "optionsArray": ["true","false"],
+      "description": "Minutes difference", "datatypes":["boolean"]},
+
+    {"name": "seconds", "value":"false", "widget": "array", "title": "Seconds", "optionsArray": ["true","false"],
+      "description": "Seconds difference", "datatypes":["boolean"]}
+  ]
+}

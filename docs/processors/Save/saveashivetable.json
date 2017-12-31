@@ -1,0 +1,22 @@
+{
+  "id": "7",
+  "name": "SaveAsHIVETable",
+  "description": "Saves the DataFrame into a HIVE Table",
+  "type": "transform",
+  "nodeClass": "fire.nodes.save.NodeSaveAsTable",
+  "fields" : [
+
+    {"name":"database", "value":"", "widget": "textfield", "title": "HIVE Database",
+          "description":"Name of the HIVE Database"},
+    {"name":"table", "value":"", "widget": "textfield", "title": "HIVE Table",
+      "description":"Name of the HIVE table"},
+    {"name":"partitionBy", "value":"", "widget": "textfield", "title": "Partition By",
+          "description":"List of columns to partition by - separated by space"},
+
+    {"name":"format", "value":"", "widget": "array","optionsArray": ["", "csv", "json", "orc", "parquet"],
+      "title": "Format", "description":"File format when saving to HIVE Table"},
+
+    {"name":"saveMode", "value":"Append", "widget": "array","optionsArray": ["Append","Overwrite", "ErrorIfExists", "Ignore"],
+      "title": "Save Mode", "description":"Whether to Append, Overwrite or Error if the path Exists"}
+  ]
+}

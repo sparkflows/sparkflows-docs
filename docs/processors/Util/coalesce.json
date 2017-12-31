@@ -1,0 +1,10 @@
+{
+  "id": "11",
+  "name": "Coalesce",
+  "description": "This node coalesces the DataFrame into specified number of Partitions",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeCoalesce",
+  "fields" : [
+    {"name":"numPartitions", "value":"8", "widget": "textfield", "title": "Number of Partitions","description":"input for number of partitions"}
+  ]
+}

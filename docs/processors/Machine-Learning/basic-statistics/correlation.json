@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "name": "Correlation",
+  "type": "transform",
+  "description": "calculates the correlation between two series of data.",
+  "nodeClass": "fire.nodes.ml.NodeCorrelation",
+  "fields" : [
+    {"name":"inputCols", "value":"[]", "widget": "variables", "title": "Input Column for Correlation",
+     "description": "Column Names to check correlation ", "datatypes":["integer", "long", "double", "float"]}
+  ]
+}

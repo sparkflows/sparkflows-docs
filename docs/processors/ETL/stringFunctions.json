@@ -1,0 +1,19 @@
+{
+  "id": "11",
+  "name": "StringFuntions",
+  "description": "This node performs specified String function on a row",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeStringFunctions",
+  "fields" : [
+
+    {"name":"inputCols", "value": "[]", "widget": "variables", "title": "Input Column Name", "description": "input column name",
+      "datatypes":["string"]},
+    {"name":"stringFunction", "value":"upper", "widget": "array",
+        "optionsArray": ["trim", "upper", "lower", "lefttrim","righttrim","removewhitespace"], "title": "String Function",
+      "description": "String Function Name"},
+
+    {"name":"replaceExistingCols", "value": "true", "widget": "textfield", "title": "ReplaceExistingCols", "description": "replaceExistingCols"}
+
+
+  ]
+}

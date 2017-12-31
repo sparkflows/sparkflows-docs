@@ -1,0 +1,10 @@
+{
+  "id": "11",
+  "name": "BarChart",
+  "description": "Distribution of categorical data",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeBarChartCal",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "ColumnName", "description": "Name of column", "required": true}
+  ]
+}

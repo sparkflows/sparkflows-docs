@@ -1,0 +1,16 @@
+{
+  "id": "6",
+  "name": "Dedup",
+  "description": "Performs Dedup",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeDedup",
+  "fields" : [
+    {"name": "confidenceScore", "value":"confidenceScore", "widget": "textfield", "title": "Confidence Score", "description": "Confidence Score"},
+    {"name": "lhsCols", "value":"[]", "widget": "variables_map", "title": "LHS Variables", "description": "LHS columns for matching"},
+    {"name": "rhsCols", "value":"[]", "widget": "variables_map_select", "title": "RHS Variables", "description": "RHS columns for matching"},
+    {"name": "matchingAlgorithms", "value":"[]", "widget": "variables_map_array", "optionsArray": ["fullmatch", "levenshtein", "jarowinkler", "jaccard(3 gram)", "longestCommonSubsequence","notionalDistance","dateDifference"], "title": "Algorithm to use", "description": "Algorithm to use for matching"},
+    {"name": "matchingWeights", "value":"[]", "widget": "variables_map_edit", "title": "Weights for matches", "description": "Weights for matches"},
+    {"name": "outputCols", "value":"[]", "widget": "variables_map_edit", "title": "Output Column", "description": "Output Column"}
+
+  ]
+}

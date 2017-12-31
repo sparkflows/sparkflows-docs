@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "name": "WordCount",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeWordCount",
+  "fields" : [
+    {"name":"delimiter", "value":",", "widget": "textfield", "title": "Input Columns"}
+  ]
+}

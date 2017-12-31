@@ -1,0 +1,15 @@
+{
+  "id": "11",
+  "name": "UnixTimeToString",
+  "description": "This node converts Unix Time to String",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeUnixTimeToString",
+  "fields" : [
+
+    {"name":"inputColName", "value": "", "widget": "variable", "title": "Input Column Name", "description": "input column name", "datatypes":["long"]},
+    {"name":"outputColName", "value": " ", "widget": "textfield", "title": "Output Column Format", "description": "Output Column Format"},
+    {"name":"outputColFormat", "value": "", "widget": "textfield", "title": "Output Column Format",
+      "description": "Output Column Format (eg: yyyy-MM-dd HH:mm:ss)"}
+
+  ]
+}

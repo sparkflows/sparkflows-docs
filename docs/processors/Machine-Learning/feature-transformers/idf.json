@@ -1,0 +1,16 @@
+{
+  "id": "7",
+  "name": "IDF",
+  "type": "ml-transformer",
+  "description":"Compute the Inverse Document Frequency (IDF) given a collection of documents.",
+  "nodeClass": "fire.nodes.ml.NodeIDF",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "title": "Input Column", "description": "Input Column Name",
+     "datatypes":["vectorudt"]
+    },
+    {"name":"outputCol", "value":"ner", "widget": "textfield", "title": "Output Column", "description": "Output column name"},
+
+
+    {"name":"minDocFreq", "value":"0", "widget": "textfield", "title": "MinDocFreq", "description": "The minimum of documents in which a term should appear.", "datatypes":["integer"]}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "2",
+  "name": "TextFiles",
+  "description": "Reads in Text Files from a given path and load each line as a separate Row",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetTextFiles",
+  "fields" : [
+    {"name":"path", "value":"path", "widget": "textfield", "title": "Path", "description": "Path of the Text file/directory"},
+    {"name":"outputCol", "value":"lines", "widget": "textfield", "title": "Output Column Name",
+     "description": "Text Lines Column in the Output DataFrame"
+    }
+  ]
+}

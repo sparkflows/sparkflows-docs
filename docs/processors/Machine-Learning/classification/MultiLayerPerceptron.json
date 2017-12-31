@@ -1,0 +1,18 @@
+{
+  "id": "6",
+  "name": "MultiLayerPerceptron",
+  "description": "It supports creation of full connected neural network.",
+  "type": "ml-estimator",
+  "nodeClass": "fire.nodes.ml.NodeMultilayerPerceptron",
+  "fields" : [
+
+    {"name": "featuresCol", "value":"", "widget": "variable", "title": "Features Column", "description": "Features column of type vectorUDT for model fitting", "datatypes":["vectorudt"]},
+    {"name": "labelCol", "value":"", "widget": "variable", "title": "Label Column", "description": "The label column for model fitting", "datatypes":["double"]},
+    {"name": "predictionCol", "value":"", "widget": "textfield", "title": "Prediction Columns", "description": "The prediction column created during model scoring."},
+    {"name": "layers", "value":"", "widget": "textfield", "title": "Layers - comma separated list of integers", "description": "The integer array specifying the number of activation units in each layer"},
+    {"name": "maxIter", "value":"", "widget": "textfield", "title": "Max number of iterations", "description": "Number of iterations to train the Neural network","datatypes":["integer"]},
+    {"name": "blockSize", "value":"", "widget": "textfield", "title": "Block Size", "description": "Block size", "datatypes":["integer"]},
+    {"name": "seed", "value":"", "widget": "textfield", "title": "Seed", "description": "The initial seed to initialise the neural network.", "datatypes":["integer"]}
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "11",
+  "name": "ReadCSV",
+  "description": "Dataset Node for reading CSV files",
+  "type": "dataset",
+  "nodeClass": "fire.nodes.dataset.NodeDatasetCSV",
+  "fields" : [
+    {"name":"path", "value":"", "widget": "textfield", "title": "Path", "description": "Path of the Text file/directory"},
+    {"name":"separator", "value":",", "widget": "textfield", "title": "Separator", "description": "CSV Separator"},
+    {"name": "header", "value":"false", "widget": "array", "title": "Header", "optionsArray": ["true","false"],
+            "description": "Does the file have a header row", "datatypes":["boolean"]},
+
+    {"name":"outputColNames", "value":"[]", "widget": "schema_col_names", "title": "Column Names for the CSV", "description": "New Output Columns of the SQL"},
+    {"name":"outputColTypes", "value":"[]", "widget": "schema_col_types", "title": "Column Types for the CSV", "description": "Data Type of the Output Columns"},
+    {"name":"outputColFormats", "value":"[]", "widget": "schema_col_formats", "title": "Column Formats for the CSV", "description": "Format of the Output Columns"}
+
+  ]
+}

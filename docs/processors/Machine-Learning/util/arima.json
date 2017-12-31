@@ -1,0 +1,18 @@
+{
+  "id": "11",
+  "name": "ARIMA",
+  "description": "",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeARIMA",
+  "fields" : [
+    {"name":"inputCol", "value": "", "widget": "variable", "title": "Input Series Column", "description": "Input Series Column Name",
+      "datatypes":["integer", "double"]},
+    {"name": "p", "value":1, "widget": "textfield","title": "P", "description": "", "datatypes":["integer"]},
+
+    {"name": "d", "value":0, "widget": "textfield","title": "D", "description": "", "datatypes":["integer"]},
+
+    {"name": "q", "value":1, "widget": "textfield","title": "Q", "description": "", "datatypes":["integer"]},
+
+    {"name": "numFuture", "value":20, "widget": "textfield","title": "Future Forecast", "description": "", "datatypes":["integer"]}
+  ]
+}

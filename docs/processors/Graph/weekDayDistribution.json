@@ -1,0 +1,13 @@
+{
+  "id": "3",
+  "name": "WeekDayDistribution",
+  "description":"This node Finds the distribution of Week Days from Date values" ,
+  "type": "transform",
+  "nodeClass": "fire.nodes.graph.NodeWeekDayDistribution",
+  "fields" : [
+    {"name":"graphType", "value":"1", "widget": "enum", "title": "Chart Type",
+          "optionsMap":{"LINECHART":"Line Chart","COLUMNCHART":"Side by Side Bar Chart",
+                       "BARCHART":"Stacked Bar Chart", "PIE":"Pie Chart"}, "description" : "input graph type"},
+    {"name":"yCols", "value":"[]", "widget": "variables", "title": "Y Columns","datatypes":["date", "timestamp"],"description":"input to y axis"}
+  ]
+}

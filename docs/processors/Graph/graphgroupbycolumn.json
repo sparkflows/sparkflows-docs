@@ -1,0 +1,15 @@
+{
+  "id": "3",
+  "name": "GraphGroupByColumn",
+  "type": "transform",
+  "nodeClass": "fire.nodes.graph.NodeGraphGroupByColumn",
+  "fields" : [
+    {"name":"title", "value":"Graph Grouped by Column", "widget": "textfield", "title": "Title"},
+    {"name":"xlabel", "value":"X axis", "widget": "textfield", "title": "X Label"},
+    {"name":"ylabel", "value":"Y axis", "widget": "textfield", "title": "Y Label"},
+    {"name":"groupByColumn", "value":"col1", "widget": "variable", "title": "Group By Column"},
+    {"name":"graphType", "value":"1", "widget": "enum", "title": "Chart Type",
+     "optionsMap":{"COLUMNCHART":"Column Chart","BARCHART":"Bar Chart",
+                  "LINECHART":"Line Chart", "HISTOGRAM":"Histogram Chart"}}
+  ]
+}

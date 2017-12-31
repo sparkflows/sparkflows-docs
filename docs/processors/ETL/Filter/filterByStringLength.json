@@ -1,0 +1,14 @@
+{
+  "id": "11",
+  "name": "FilterByStringLength",
+  "description": "This node filters the Rows within the given string length",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeFilterByStringLength",
+  "fields" : [
+
+    {"name":"inputCol", "value": "", "widget": "variable", "title": "Input Column Name","required": true, "description": "input column name"},
+    {"name":"minLength", "value": "0", "widget": "textfield", "title": "Minimum length", "datatypes":["int"], "required": true, "description": "Minimum length of String"},
+	{"name":"maxLength", "value": "0", "widget": "textfield", "title": "Maximum length", "datatypes":["int"], "required": true, "description": "Maximum length of String"}
+
+	]
+}

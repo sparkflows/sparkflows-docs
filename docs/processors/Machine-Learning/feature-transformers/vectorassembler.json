@@ -1,0 +1,12 @@
+{
+  "id": "7",
+  "name": "VectorAssembler",
+  "type": "ml-transformer",
+  "description" : "Merges multiple columns into a vector column",
+  "nodeClass": "fire.nodes.ml.NodeVectorAssembler",
+  "fields" : [
+    {"name":"inputCols", "value":"[]", "widget": "variables", "title": "Input Columns",
+     "description": "Input column of type - all numeric, boolean and vector", "datatypes":["integer", "long", "double", "float", "vectorudt"]},
+    {"name":"outputCol", "value":"", "widget": "textfield", "title": "Output Column", "description": "Output column name"}
+  ]
+}

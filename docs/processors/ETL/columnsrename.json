@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "name": "ColumnsRename",
+  "description": "This node creates a new DataFrame by renaming existing columns with new name",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeColumnsRename",
+  "fields" : [
+    {"name":"currentColNames", "value":"[]", "widget": "variables_map", "title": "Current Column Names", "description": "Current Column Names"},
+    {"name":"newColNames", "value":"[]", "widget": "variables_map_edit", "title": "Columns New Name", "description": "New name for existing columns"}
+  ]
+}

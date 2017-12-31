@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "name": "Repartition",
+  "description": "This node repartitions incoming dataframes into a specified number of partitions",
+  "type": "transform",
+  "nodeClass": "fire.nodes.etl.NodeRepartition",
+  "fields" : [
+    {"name":"numPartitions", "value":"", "widget": "textfield", "title": "Number of Partitions", "description": "Number of Partitions"}
+
+  ]
+}

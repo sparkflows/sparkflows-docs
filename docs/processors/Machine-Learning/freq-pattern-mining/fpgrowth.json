@@ -1,0 +1,12 @@
+{
+  "id": "4",
+  "name": "FPGrowth",
+  "description": "Does Pattern Mining using FPGrowth Algorithm",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeFPGrowth",
+  "fields" : [
+    {"name": "transactionCol", "value":"text", "widget": "variable", "title": "Transaction Column", "description": "Input data set, each element contains a transaction"},
+    {"name": "minSupport", "value":"0.2", "widget": "textfield", "title": "Min Support", "description": "The minimum support for an itemset to be identified as frequent"},
+    {"name": "numPartitions", "value":"10", "widget": "textfield", "title": "Number of Partitions", "description": "The number of partitions used to distribute the work"}
+  ]
+}

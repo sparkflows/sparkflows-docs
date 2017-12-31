@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "name": "HistoGram",
+  "description": "Computes a histogram of the data using number of bins evenly spaced between the minimum and maximum of the RDD.",
+  "type": "transform",
+  "nodeClass": "fire.nodes.ml.NodeHistoGramCal",
+  "fields" : [
+    {"name":"inputCols", "value":"", "widget": "variable", "title": "ColumnName", "description": "Name of column", "datatypes":["double", "integer"]},
+    {"name":"bins", "value":"", "widget": "textfield", "title": "Bins", "description": "Number of bins", "datatypes":["integer"]}
+  ]
+}

@@ -8,51 +8,51 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 Prerequisites
 -------------
 
-  * JDK 1.7+ installed.
-  * java and jar have to be in the PATH
-  * If running on a Spark cluster, Spark 1.6+ is needed on the cluster.
-  * 3GB+ of RAM.
+* JDK 1.7+ installed.
+* java and jar have to be in the PATH
+* If running on a Spark cluster, Spark 1.6+ is needed on the cluster.
+* 3GB+ of RAM.
 
 
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-  * Download and unpack  :  ``fire-1.4.2.tgz``
-  * Create H2 DB::
+* Download and unpack  :  ``fire-1.4.2.tgz``
+* Create H2 DB::
 
       cd <fire install_dir>
       ./create-h2-db.sh
 
-  * Launch fire server::
+* Launch fire server::
 
-      cd <fire install_dir>
-      ./run-fire-server.sh start
+    cd <fire install_dir>
+    ./run-fire-server.sh start
 
-  * Open your web browser and navigate to:: 
+* Open your web browser and navigate to:: 
   
-      <machine_name>:8080/index.html
+    <machine_name>:8080/index.html
 
-      Login with admin/admin or test/test
+    Login with admin/admin or test/test
 
 
 Detailed Installation Steps
 ---------------------------
 
-  * **Glossary**
+* Glossary
 
     * <install_dir> : location where you unzipped fire tgz file. For example this can be your home directory.
     * <machine_name> : hostname where your installed Fire
     * # : used for comments and documentation
 
 
-  * Download the sparkflows tgz file
+* Download the sparkflows tgz file
   
-  * Unzip the sparkflows tgz file::
+* Unzip the sparkflows tgz file::
 
     Unzip it : tar xvf fire-1.4.2.tgz
 
 
-  * Set up H2 or MySQL DB
+* Set up H2 or MySQL DB
 
 
     Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
@@ -65,18 +65,18 @@ Launching Fire after Installation
 
 Below are the steps for launching Fire after installation::
 
-  * cd <install_dir>/fire-1.4.2
-  * Execute ./run-fire-server.sh
-  * Test by opening your web browser and going to:
+* cd <install_dir>/fire-1.4.2
+* Execute ./run-fire-server.sh
+* Test by opening your web browser and going to:
     localhost:8080/index.html
 
     OR
 
     <machine_name>:8080/index.html
 
-  * When you see the login window, enter username: admin and password: admin.
+* When you see the login window, enter username: admin and password: admin.
 
-    Note: You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
+Note: You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
 
         admin/admin
         test/test

@@ -101,11 +101,14 @@ Returns schema of the files in the given path using the given delimiter
 
   **curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'path: data/spam.csv' -d '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' localhost:8080/schemaForPathJSON -b /tmp/cookies.txt**
   
-  Get Dataset by Id
-  -----------------------
+  
+Get Dataset by Id
+-----------------------
+
   "id": "13"
 
   ** curl   -X GET --header 'Accept: application/json' --header 'id: 13'   localhost:8080/getSelDataset   -b /tmp/cookies.txt**
+  
   
 Get the list of files/directories in the given path
 ---------------------------------------------------
@@ -117,7 +120,7 @@ Get the list of files/directories in the given path
 Get  Dataset Count
 ----------------------
 
-Returns the count of datasets available
+Returns the count of datasets available::
 
     curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
   

@@ -1,4 +1,4 @@
-nodes/Machine-Learning/feature-scaler
+feature-scaler
 ============
 
 .. toctree::

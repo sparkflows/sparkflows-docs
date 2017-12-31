@@ -1,4 +1,4 @@
-nodes/Save/aws
+aws
 ============
 
 .. toctree::

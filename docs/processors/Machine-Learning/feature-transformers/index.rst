@@ -1,4 +1,4 @@
-nodes/Machine-Learning/feature-transformers
+feature-transformers
 ============
 
 .. toctree::

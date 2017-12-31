@@ -1,4 +1,4 @@
-nodes/ETL/Group
+Group
 ============
 
 .. toctree::

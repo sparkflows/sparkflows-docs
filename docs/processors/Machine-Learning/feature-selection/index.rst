@@ -1,4 +1,4 @@
-nodes/Machine-Learning/feature-selection
+feature-selection
 ============
 
 .. toctree::

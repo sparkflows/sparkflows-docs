@@ -1,4 +1,4 @@
-nodes/HIVE
+HIVE
 ============
 
 .. toctree::

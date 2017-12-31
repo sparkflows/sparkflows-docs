@@ -1,4 +1,4 @@
-nodes/OpenNLP
+OpenNLP
 ============
 
 .. toctree::

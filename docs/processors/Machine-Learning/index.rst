@@ -1,4 +1,4 @@
-nodes/Machine-Learning
+Machine-Learning
 ============
 
 .. toctree::

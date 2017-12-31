@@ -1,4 +1,4 @@
-nodes/Graph
+Graph
 ============
 
 .. toctree::

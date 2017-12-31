@@ -1,4 +1,4 @@
-nodes/OCR
+OCR
 ============
 
 .. toctree::

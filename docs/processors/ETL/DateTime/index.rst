@@ -1,4 +1,4 @@
-nodes/ETL/DateTime
+DateTime
 ============
 
 .. toctree::

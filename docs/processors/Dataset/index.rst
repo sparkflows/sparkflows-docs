@@ -1,4 +1,4 @@
-nodes/Dataset
+Dataset
 ============
 
 .. toctree::

@@ -1,4 +1,4 @@
-nodes/Machine-Learning/regression
+regression
 ============
 
 .. toctree::

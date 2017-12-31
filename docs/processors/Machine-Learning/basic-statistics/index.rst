@@ -1,4 +1,4 @@
-nodes/Machine-Learning/basic-statistics
+basic-statistics
 ============
 
 .. toctree::

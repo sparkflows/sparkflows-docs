@@ -1,4 +1,4 @@
-nodes/Machine-Learning/freq-pattern-mining
+freq-pattern-mining
 ============
 
 .. toctree::

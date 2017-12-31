@@ -1,4 +1,4 @@
-nodes/Machine-Learning/feature-extraction
+feature-extraction
 ============
 
 .. toctree::

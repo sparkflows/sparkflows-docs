@@ -1,4 +1,4 @@
-nodes/Machine-Learning/collaborative-filtering
+collaborative-filtering
 ============
 
 .. toctree::

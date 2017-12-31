@@ -1,4 +1,4 @@
-nodes/ElasticSearch
+ElasticSearch
 ============
 
 .. toctree::

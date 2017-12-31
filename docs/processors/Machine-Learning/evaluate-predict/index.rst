@@ -1,4 +1,4 @@
-nodes/Machine-Learning/evaluate-predict
+evaluate-predict
 ============
 
 .. toctree::

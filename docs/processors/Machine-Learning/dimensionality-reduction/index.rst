@@ -1,4 +1,4 @@
-nodes/Machine-Learning/dimensionality-reduction
+dimensionality-reduction
 ============
 
 .. toctree::

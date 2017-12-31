@@ -1,4 +1,4 @@
-nodes/ETL/Filter
+Filter
 ============
 
 .. toctree::

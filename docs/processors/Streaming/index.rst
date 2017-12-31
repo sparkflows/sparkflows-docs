@@ -1,4 +1,4 @@
-nodes/Streaming
+Streaming
 ============
 
 .. toctree::

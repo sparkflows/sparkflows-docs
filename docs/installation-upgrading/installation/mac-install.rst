@@ -81,9 +81,10 @@ Launching Fire after Installation
 
     <machine_name>:8080/index.html
 
-* Login with:
+* Login with::
 
     username: admin and password: admin.
+
 
 .. note::  You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
 
@@ -98,4 +99,6 @@ Launching Fire after Installation
 Stopping the Fire Server
 ------------------------
 
-    ``./run-fire-server.sh stop``
+Stop the Fire Server with the below::
+
+    ./run-fire-server.sh stop

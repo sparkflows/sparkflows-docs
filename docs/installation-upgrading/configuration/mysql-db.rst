@@ -12,12 +12,12 @@ Create the DB for Sparkflows in MySQL
 * Create the database for Sparkflows in MySQL (assuming we call it firedb)
 
 
-Create the User for Sparkflows in MySQL and grant it Permissions
+Create the User for Sparkflows in MySQL and grant it Permissions::
 -----------------------------------------------------------------
  
-#CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
+    #CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
 
-#GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
+    #GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
 
  
 In CREATE user, the user we are creating is "fire" who is allowed to access from anywhere "%" and his password is "fire".
@@ -27,10 +27,10 @@ Next, this user has been granted all permissions. This, of course can be further
 Configure Fire to connect to MySQL
 ----------------------------------
 
-Copy db.properties.mysql file into the conf directory as db.properties.
+Copy db.properties.mysql file into the conf directory as db.properties::
 
-* cd   fire-1.4.2
-* cp   conf.orig/db.properties.mysql   conf/db.properties
+    cd   fire-1.4.2
+    cp   conf.orig/db.properties.mysql   conf/db.properties
 
  
 
@@ -48,6 +48,7 @@ Update the following fields in conf/db.properties based on the values you used i
     # Username and password
 
     spring.datasource.username=fire
+    
 
 Install the MySQL Connector Jar file
 -------------------------------------
@@ -64,12 +65,12 @@ Install the MySQL Connector Jar file
 * cp /usr/share/java/mysql-connector-java.jar      user-lib
 
 
-Create the Tables for Fire in MySQL
+Create the Tables for Fire in MySQL::
 ----------------------------------- 
 
-cd fire-1.4.2      (if you are not already in that directory)
+    cd fire-1.4.2      (if you are not already in that directory)
 
-./create-mysql-db.sh
+    ./create-mysql-db.sh
 
 
 Troubleshooting

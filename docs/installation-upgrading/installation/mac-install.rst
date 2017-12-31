@@ -94,12 +94,20 @@ Launching Fire after Installation
 .. note:: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
 
-:doc:`../connecting-spark-cluster`
-
-
 Stopping the Fire Server
 ------------------------
 
 Stop the Fire Server with the below::
 
     ./run-fire-server.sh stop
+    
+    
+Connecting to Apache Spark Cluster
+----------------------------------
+
+Now that you have Fire installed, you may want to connect it to your Apache Spark Cluster.
+
+:doc:`../connecting-spark-cluster`
+
+
+

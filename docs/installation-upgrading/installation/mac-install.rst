@@ -19,7 +19,7 @@ Below are the Prerequisites for installing Fire on a machine::
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-* Download and unpack  :  ``fire-1.4.2.tgz``
+* Download and unpack  :  ``fire-1.4.3.tgz``
 
 * Create H2 DB::
 
@@ -54,7 +54,7 @@ Detailed Installation Steps
   
 * Unzip the sparkflows tgz file::
 
-    tar xvf fire-1.4.2.tgz
+    tar xvf fire-1.4.3.tgz
 
 
 * Set up H2 or MySQL DB
@@ -69,7 +69,7 @@ Launching Fire after Installation
 
 * cd to the install directory::
 
-    cd <install_dir>/fire-1.4.2
+    cd <install_dir>/fire-1.4.3
   
 * Start fire server::
 

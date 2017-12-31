@@ -1,7 +1,0 @@
-{
-  "id": "11",
-  "name": "DropRowsWithNull",
-  "description": "This node creates a new DataFrame by dropping rows containing null values",
-  "type": "transform",
-  "nodeClass": "fire.nodes.etl.NodeDropRowsWithNull"
-}

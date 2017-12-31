@@ -1,7 +1,0 @@
-{
-  "id": "1",
-  "name": "NumberOfPartitions",
-  "description": "This node will get the number partitions in input dataframe.",
-  "type": "transform",
-  "nodeClass": "fire.nodes.util.NodeGetNumberOfPartitions"
-}

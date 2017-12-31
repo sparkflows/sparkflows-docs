@@ -1,9 +1,0 @@
-{
-  "id": "1",
-  "name": "DatasetStructured",
-  "type": "dataset",
-  "nodeClass": "fire.nodes.dataset.NodeDatasetStructured",
-  "fields" : [
-    {"name":"dataset", "display":true, "value":"", "widget": "dataset", "title": "Dataset", "description": "Selected Dataset"}
-  ]
-}

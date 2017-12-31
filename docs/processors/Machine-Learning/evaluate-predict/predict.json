@@ -1,8 +1,0 @@
-{
-  "id": "5",
-  "name": "Predict",
-  "type": "ml-predict",
-  "nodeClass": "fire.nodes.ml.NodePredict",
-  "fields" : [
-  ]
-}

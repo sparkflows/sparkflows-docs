@@ -1,7 +1,0 @@
-{
-  "id": "1",
-  "name": "UnionAll",
-  "description": "This node creates a new DataFrame by merging all the rows without removing the duplicates",
-  "type": "join",
-  "nodeClass": "fire.nodes.etl.NodeUnionAll"
-}

@@ -16,6 +16,8 @@ Configuring Fire:
    configuring-ldap.rst
    different-default-values-startup.rst
    mapr-specific-details.rst
+   h2-db.rst
+   mysql-db.rst
    
 
 

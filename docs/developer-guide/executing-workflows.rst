@@ -16,17 +16,16 @@ Workflows can be executed from the Browser by going into the Execute page of the
 Executing Workflows with spark-submit
 ----------------------------------------
  
-Workflows can be submitted to be run on the cluster with spark-submit
- 
 Workflows are saved as text files in JSON format.
- 
-**spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf**
+Workflows can be submitted to be run on the cluster with spark-submit::
+  
+    spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf
 
-For providing extra variables to the workflow, the following parameters can be added to spark-submit:
+For providing extra variables to the workflow, the following parameters can be added to spark-submit::
  
-  * --var name1=value1   --var name2=value2    --var name3=value3
+    --var name1=value1   --var name2=value2    --var name3=value3
  
-In the workflow, these variables can be used with $name1    $name2
+In the workflow, these variables can be used with ``$name1    $name2``
 Specific nodes make use of the variables by substituting $name with the value provided for the name.
  
 
@@ -35,8 +34,8 @@ Workflow JSON
  
 In Sparkflows, there are 2 json representations of the workflow.
  
-  *One is used in the Sparkflows UI
-  *The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions. 
+  * One is used in the Sparkflows UI
+  * The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions. 
   
   The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit:
  

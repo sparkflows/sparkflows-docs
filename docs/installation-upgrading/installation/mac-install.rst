@@ -68,8 +68,8 @@ Detailed Installation Steps
 
 Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-    * :doc:`../configuration/h2-db.rst`
-    * :doc:`../configuration/mysql-db.rst`
+    * :doc:`../configuration/h2-db`
+    * :doc:`../configuration/mysql-db`
     
 
 Launching Fire after Installation

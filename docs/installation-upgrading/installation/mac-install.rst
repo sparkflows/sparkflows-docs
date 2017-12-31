@@ -24,8 +24,10 @@ If Fire would be connected to an Apache Spark Cluster::
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-* Download the fire tgz file from https://www.sparkflows.io/download  OR   https://www.sparkflows.io/archives
-    
+* Download the fire tgz file from:
+  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/archives
+  
 * Unpack it::
 
     tar xvf fire-1.4.3.tgz
@@ -60,7 +62,9 @@ Detailed Installation Steps
     * ``#`` : used for comments and documentation
 
 
-* Download the fire tgz file from https://www.sparkflows.io/download  OR   https://www.sparkflows.io/archives
+* Download the fire tgz file from:
+  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/archives
   
 * Unzip it::
 

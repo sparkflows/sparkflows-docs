@@ -14,14 +14,16 @@ Overview
 Get List of Datasets for the user
 ---------------------------------
  
-  Returns the list of Datasets for the logged in user.
+Returns the list of Datasets for the logged in user::
 
-  **curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/datasetsJSON**
+    curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/datasetsJSON
   
   
 Create New Dataset / Save Dataset
 ---------------------------------
  
+The below creates a New Dataset::
+
 if id value is not passed, new dataset will be created.
 {
 "id":13,

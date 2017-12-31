@@ -19,9 +19,7 @@ Below are the Prerequisites for installing Fire on a machine::
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-* Download and unpack ``fire-1.4.3.tgz`` from::
-
-    Download_
+* Download and unpack ``fire-1.4.3.tgz`` from Download_
     
 
 * Create H2 DB::

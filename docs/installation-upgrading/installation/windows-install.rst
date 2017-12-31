@@ -2,7 +2,7 @@ Install on Windows OS
 ^^^^^^^^^^^^^^^^^^^^^
 
 Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
-​
+
 If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node has the hadoop binaries and spark configs.
 
 Prerequisites
@@ -17,20 +17,20 @@ Prerequisites
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-  * Download and unpack  :  fire-1.4.2.tgz
-  * Create H2 DB
+  * Download and unpack  :  ``fire-1.4.2.tgz``
+  * Create H2 DB::
 
       cd <fire install_dir>
       .\\create-h2-db.bat
 
-  * Launch fire server
+  * Launch fire server::
 
       cd <fire install_dir>
       .\\run-fire-server.bat start
 
   * Open your web browser and navigate to: <machine_name>:8080/index.html.
 
-      Login with admin/admin or test/test
+      ``Login with admin/admin or test/test``
 
 
 Detailed Installation Steps
@@ -78,7 +78,7 @@ Launching Fire after Installation
 
     Note: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
-​
+
     `Connecting Fire to a Spark cluster`_
 
 

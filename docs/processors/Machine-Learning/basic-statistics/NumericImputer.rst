@@ -14,8 +14,8 @@ fire.nodes.ml.NodeNumericImputer
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCols | Column Names | Columns type should be continuous | 
-+----------------+------------------+------------------------------------+
++-----------+--------------+-----------------------------------+
+| inputCols | Column Names | Columns type should be continuous |
++===========+==============+===================================+
+| inputCols | Column Names | Columns type should be continuous |
++-----------+--------------+-----------------------------------+

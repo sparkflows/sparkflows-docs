@@ -14,12 +14,12 @@ fire.nodes.etl.NodeFilterByStringLength
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column Name | input column name | 
-+----------------+------------------+------------------------------------+
-| minLength | Minimum length | Minimum length of String | 
-+----------------+------------------+------------------------------------+
-| maxLength | Maximum length | Maximum length of String | 
-+----------------+------------------+------------------------------------+
++-----------+-------------------+--------------------------+
+| maxLength | Maximum length    | Maximum length of String |
++===========+===================+==========================+
+| inputCol  | Input Column Name | input column name        |
++-----------+-------------------+--------------------------+
+| minLength | Minimum length    | Minimum length of String |
++-----------+-------------------+--------------------------+
+| maxLength | Maximum length    | Maximum length of String |
++-----------+-------------------+--------------------------+

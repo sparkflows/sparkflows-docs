@@ -14,8 +14,8 @@ fire.nodes.etl.NodeDropColumns
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| dropCols | Columns | The columns to be excluded from the output DataFrame | 
-+----------------+------------------+------------------------------------+
++----------+---------+------------------------------------------------------+
+| dropCols | Columns | The columns to be excluded from the output DataFrame |
++==========+=========+======================================================+
+| dropCols | Columns | The columns to be excluded from the output DataFrame |
++----------+---------+------------------------------------------------------+

@@ -14,12 +14,12 @@ fire.nodes.etl.NodeDateToString
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputColName | Input Column Name | Input Column Name | 
-+----------------+------------------+------------------------------------+
-| outputColFormat | Output Column Format | Output Column Format | 
-+----------------+------------------+------------------------------------+
-| outputColName | Output Column Name | Output Column Name | 
-+----------------+------------------+------------------------------------+
++-----------------+----------------------+----------------------+
+| outputColName   | Output Column Name   | Output Column Name   |
++=================+======================+======================+
+| inputColName    | Input Column Name    | Input Column Name    |
++-----------------+----------------------+----------------------+
+| outputColFormat | Output Column Format | Output Column Format |
++-----------------+----------------------+----------------------+
+| outputColName   | Output Column Name   | Output Column Name   |
++-----------------+----------------------+----------------------+

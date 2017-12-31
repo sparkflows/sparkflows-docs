@@ -14,8 +14,8 @@ fire.nodes.etl.NodeColumnFilter
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| outputCols | Columns | Columns to be included in the output DataFrame | 
-+----------------+------------------+------------------------------------+
++------------+---------+------------------------------------------------+
+| outputCols | Columns | Columns to be included in the output DataFrame |
++============+=========+================================================+
+| outputCols | Columns | Columns to be included in the output DataFrame |
++------------+---------+------------------------------------------------+

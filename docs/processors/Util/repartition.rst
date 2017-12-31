@@ -14,8 +14,8 @@ fire.nodes.etl.NodeRepartition
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| numPartitions | Number of Partitions | Number of Partitions | 
-+----------------+------------------+------------------------------------+
++---------------+----------------------+----------------------+
+| numPartitions | Number of Partitions | Number of Partitions |
++===============+======================+======================+
+| numPartitions | Number of Partitions | Number of Partitions |
++---------------+----------------------+----------------------+

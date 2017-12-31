@@ -14,14 +14,14 @@ fire.nodes.ml.NodeStopWordsRemover
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column | Column containing the array text from which the stop words have to be removed | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | Contains array of text by dropping list of stop words | 
-+----------------+------------------+------------------------------------+
-| caseSensitive | Case Sensitive | Case Sensitive | 
-+----------------+------------------+------------------------------------+
-| stopWords | Comma Separated List of Custom Stop Words. If not provided, the default list of stop words would be used. | Custom List of Stop Words | 
-+----------------+------------------+------------------------------------+
++---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| stopWords     | Comma Separated List of Custom Stop Words. If not provided, the default list of stop words would be used. | Custom List of Stop Words                                                     |
++===============+===========================================================================================================+===============================================================================+
+| inputCol      | Input Column                                                                                              | Column containing the array text from which the stop words have to be removed |
++---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| outputCol     | Output Column                                                                                             | Contains array of text by dropping list of stop words                         |
++---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| caseSensitive | Case Sensitive                                                                                            | Case Sensitive                                                                |
++---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| stopWords     | Comma Separated List of Custom Stop Words. If not provided, the default list of stop words would be used. | Custom List of Stop Words                                                     |
++---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+

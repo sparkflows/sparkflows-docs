@@ -14,14 +14,14 @@ fire.nodes.etl.NodeRegexTokenizer
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Column | input column for tokenizing | 
-+----------------+------------------+------------------------------------+
-| outputCol | Tokenized Column | New output column after tokenization | 
-+----------------+------------------+------------------------------------+
-| pattern | Pattern | The regex pattern used to match delimiters | 
-+----------------+------------------+------------------------------------+
-| gaps | Gaps | Indicates whether the regex splits on gaps | 
-+----------------+------------------+------------------------------------+
++-----------+------------------+--------------------------------------------+
+| gaps      | Gaps             | Indicates whether the regex splits on gaps |
++===========+==================+============================================+
+| inputCol  | Column           | input column for tokenizing                |
++-----------+------------------+--------------------------------------------+
+| outputCol | Tokenized Column | New output column after tokenization       |
++-----------+------------------+--------------------------------------------+
+| pattern   | Pattern          | The regex pattern used to match delimiters |
++-----------+------------------+--------------------------------------------+
+| gaps      | Gaps             | Indicates whether the regex splits on gaps |
++-----------+------------------+--------------------------------------------+

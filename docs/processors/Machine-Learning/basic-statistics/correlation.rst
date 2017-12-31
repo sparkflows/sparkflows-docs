@@ -14,8 +14,8 @@ fire.nodes.ml.NodeCorrelation
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCols | Input Column for Correlation | Column Names to check correlation  | 
-+----------------+------------------+------------------------------------+
++-----------+------------------------------+------------------------------------+
+| inputCols | Input Column for Correlation | Column Names to check correlation  |
++===========+==============================+====================================+
+| inputCols | Input Column for Correlation | Column Names to check correlation  |
++-----------+------------------------------+------------------------------------+

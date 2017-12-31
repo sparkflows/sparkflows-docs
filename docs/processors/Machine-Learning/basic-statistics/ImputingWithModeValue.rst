@@ -14,8 +14,8 @@ fire.nodes.ml.NodeReplaceMissingValueWithMode
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| colNames | Columns | Columns to be processed for imputing the missing values. | 
-+----------------+------------------+------------------------------------+
++----------+---------+----------------------------------------------------------+
+| colNames | Columns | Columns to be processed for imputing the missing values. |
++==========+=========+==========================================================+
+| colNames | Columns | Columns to be processed for imputing the missing values. |
++----------+---------+----------------------------------------------------------+

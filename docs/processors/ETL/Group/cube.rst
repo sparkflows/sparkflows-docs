@@ -14,12 +14,12 @@ fire.nodes.etl.NodeCube
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| cubeCols | Cube Columns |  | 
-+----------------+------------------+------------------------------------+
-| aggregateCols | Aggregate Columns | Aggregate Columns | 
-+----------------+------------------+------------------------------------+
-| aggregateOperations | Aggregate Operation to use | Aggregate Operation | 
-+----------------+------------------+------------------------------------+
++---------------------+----------------------------+---------------------+
+| aggregateOperations | Aggregate Operation to use | Aggregate Operation |
++=====================+============================+=====================+
+| cubeCols            | Cube Columns               |                     |
++---------------------+----------------------------+---------------------+
+| aggregateCols       | Aggregate Columns          | Aggregate Columns   |
++---------------------+----------------------------+---------------------+
+| aggregateOperations | Aggregate Operation to use | Aggregate Operation |
++---------------------+----------------------------+---------------------+

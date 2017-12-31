@@ -14,12 +14,12 @@ fire.nodes.opennlp.NodeOpenNLPDocumentCategorizer
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| model | Model | Path to the model file (on HDFS when running on the cluster) | 
-+----------------+------------------+------------------------------------+
-| inputCol | Input Text Column | input cpulmn name | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | Output Column containing the results | 
-+----------------+------------------+------------------------------------+
++-----------+-------------------+--------------------------------------------------------------+
+| outputCol | Output Column     | Output Column containing the results                         |
++===========+===================+==============================================================+
+| model     | Model             | Path to the model file (on HDFS when running on the cluster) |
++-----------+-------------------+--------------------------------------------------------------+
+| inputCol  | Input Text Column | input cpulmn name                                            |
++-----------+-------------------+--------------------------------------------------------------+
+| outputCol | Output Column     | Output Column containing the results                         |
++-----------+-------------------+--------------------------------------------------------------+

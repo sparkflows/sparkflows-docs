@@ -14,12 +14,12 @@ fire.nodes.ml.NodeVectorIndexer
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column | The Input column name | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | Output column name | 
-+----------------+------------------+------------------------------------+
-| maxCategories | Maximum Categories | Threshold for the number of values a categorical feature can take. If a feature is found to have > maxCategories values, then it is declared continuous. Must be >= 2 | 
-+----------------+------------------+------------------------------------+
++---------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| maxCategories | Maximum Categories | Threshold for the number of values a categorical feature can take. If a feature is found to have > maxCategories values, then it is declared continuous. Must be >= 2 |
++===============+====================+=======================================================================================================================================================================+
+| inputCol      | Input Column       | The Input column name                                                                                                                                                 |
++---------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| outputCol     | Output Column      | Output column name                                                                                                                                                    |
++---------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| maxCategories | Maximum Categories | Threshold for the number of values a categorical feature can take. If a feature is found to have > maxCategories values, then it is declared continuous. Must be >= 2 |
++---------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+

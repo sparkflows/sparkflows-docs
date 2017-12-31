@@ -14,12 +14,12 @@ fire.nodes.ml.NodeMulticlassClassificationEvaluator
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| labelCol | Label Column | The label column for model fitting. | 
-+----------------+------------------+------------------------------------+
-| predictionCol | Prediction Column | The prediction column. | 
-+----------------+------------------+------------------------------------+
-| metricName | Metric Name | The metric used in evaluation. | 
-+----------------+------------------+------------------------------------+
++---------------+-------------------+-------------------------------------+
+| metricName    | Metric Name       | The metric used in evaluation.      |
++===============+===================+=====================================+
+| labelCol      | Label Column      | The label column for model fitting. |
++---------------+-------------------+-------------------------------------+
+| predictionCol | Prediction Column | The prediction column.              |
++---------------+-------------------+-------------------------------------+
+| metricName    | Metric Name       | The metric used in evaluation.      |
++---------------+-------------------+-------------------------------------+

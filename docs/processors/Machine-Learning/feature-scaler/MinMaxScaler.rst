@@ -14,14 +14,14 @@ fire.nodes.ml.NodeMinMaxScaler
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column  | The input column name | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | The output column name | 
-+----------------+------------------+------------------------------------+
-| max | Max | The upper bound after transformation, shared by all features | 
-+----------------+------------------+------------------------------------+
-| min | Min | The lower bound after transformation, shared by all features | 
-+----------------+------------------+------------------------------------+
++-----------+---------------+--------------------------------------------------------------+
+| min       | Min           | The lower bound after transformation, shared by all features |
++===========+===============+==============================================================+
+| inputCol  | Input Column  | The input column name                                        |
++-----------+---------------+--------------------------------------------------------------+
+| outputCol | Output Column | The output column name                                       |
++-----------+---------------+--------------------------------------------------------------+
+| max       | Max           | The upper bound after transformation, shared by all features |
++-----------+---------------+--------------------------------------------------------------+
+| min       | Min           | The lower bound after transformation, shared by all features |
++-----------+---------------+--------------------------------------------------------------+

@@ -14,14 +14,14 @@ fire.nodes.ml.NodeNGramTransformer
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column | Contains sequence of strings | 
-+----------------+------------------+------------------------------------+
-| inputColStringArrCol | List of Words | Sequence of words | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | Consist of a sequence of n-grams where each n-gram is represented by a space-delimited string of n consecutive words | 
-+----------------+------------------+------------------------------------+
-| numberOfGrams | Number of Grams | Sequence of 'string array' for integer 'Number of Grams' | 
-+----------------+------------------+------------------------------------+
++----------------------+-----------------+----------------------------------------------------------------------------------------------------------------------+
+| numberOfGrams        | Number of Grams | Sequence of 'string array' for integer 'Number of Grams'                                                             |
++======================+=================+======================================================================================================================+
+| inputCol             | Input Column    | Contains sequence of strings                                                                                         |
++----------------------+-----------------+----------------------------------------------------------------------------------------------------------------------+
+| inputColStringArrCol | List of Words   | Sequence of words                                                                                                    |
++----------------------+-----------------+----------------------------------------------------------------------------------------------------------------------+
+| outputCol            | Output Column   | Consist of a sequence of n-grams where each n-gram is represented by a space-delimited string of n consecutive words |
++----------------------+-----------------+----------------------------------------------------------------------------------------------------------------------+
+| numberOfGrams        | Number of Grams | Sequence of 'string array' for integer 'Number of Grams'                                                             |
++----------------------+-----------------+----------------------------------------------------------------------------------------------------------------------+

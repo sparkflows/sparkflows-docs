@@ -14,12 +14,12 @@ fire.nodes.etl.NodeConcatColumns
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCols | Columns | Columns to be concatenated | 
-+----------------+------------------+------------------------------------+
-| outputCol | Concatenated Column Name | Column name for the concatenated columns | 
-+----------------+------------------+------------------------------------+
-| sep | Separator | Separator to be used when concatenating the columns | 
-+----------------+------------------+------------------------------------+
++-----------+--------------------------+-----------------------------------------------------+
+| sep       | Separator                | Separator to be used when concatenating the columns |
++===========+==========================+=====================================================+
+| inputCols | Columns                  | Columns to be concatenated                          |
++-----------+--------------------------+-----------------------------------------------------+
+| outputCol | Concatenated Column Name | Column name for the concatenated columns            |
++-----------+--------------------------+-----------------------------------------------------+
+| sep       | Separator                | Separator to be used when concatenating the columns |
++-----------+--------------------------+-----------------------------------------------------+

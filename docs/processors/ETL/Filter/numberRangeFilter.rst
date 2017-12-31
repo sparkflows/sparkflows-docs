@@ -14,12 +14,12 @@ fire.nodes.etl.NodeFilterByNumberRange
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column Name | input column name | 
-+----------------+------------------+------------------------------------+
-| lowestValue | Lowest Value | input lowest value | 
-+----------------+------------------+------------------------------------+
-| highestValue | Highest Value | input highest value | 
-+----------------+------------------+------------------------------------+
++--------------+-------------------+---------------------+
+| highestValue | Highest Value     | input highest value |
++==============+===================+=====================+
+| inputCol     | Input Column Name | input column name   |
++--------------+-------------------+---------------------+
+| lowestValue  | Lowest Value      | input lowest value  |
++--------------+-------------------+---------------------+
+| highestValue | Highest Value     | input highest value |
++--------------+-------------------+---------------------+

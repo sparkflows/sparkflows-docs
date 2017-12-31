@@ -14,12 +14,12 @@ fire.nodes.ml.NodeBinaryClassificationEvaluator
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| labelCol | Label Column | The label column for model fitting. | 
-+----------------+------------------+------------------------------------+
-| rawPredictionCol | RawPrediction Column | The raw prediction (confidence) column. | 
-+----------------+------------------+------------------------------------+
-| metricName | Metric Name | The metric used in evaluation. | 
-+----------------+------------------+------------------------------------+
++------------------+----------------------+-----------------------------------------+
+| metricName       | Metric Name          | The metric used in evaluation.          |
++==================+======================+=========================================+
+| labelCol         | Label Column         | The label column for model fitting.     |
++------------------+----------------------+-----------------------------------------+
+| rawPredictionCol | RawPrediction Column | The raw prediction (confidence) column. |
++------------------+----------------------+-----------------------------------------+
+| metricName       | Metric Name          | The metric used in evaluation.          |
++------------------+----------------------+-----------------------------------------+

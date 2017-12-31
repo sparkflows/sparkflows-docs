@@ -14,10 +14,10 @@ fire.nodes.etl.NodeColumnsRename
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| currentColNames | Current Column Names | Current Column Names | 
-+----------------+------------------+------------------------------------+
-| newColNames | Columns New Name | New name for existing columns | 
-+----------------+------------------+------------------------------------+
++-----------------+----------------------+-------------------------------+
+| newColNames     | Columns New Name     | New name for existing columns |
++=================+======================+===============================+
+| currentColNames | Current Column Names | Current Column Names          |
++-----------------+----------------------+-------------------------------+
+| newColNames     | Columns New Name     | New name for existing columns |
++-----------------+----------------------+-------------------------------+

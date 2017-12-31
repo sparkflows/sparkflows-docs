@@ -14,12 +14,12 @@ fire.nodes.etl.NodeDateToAge
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputColName | Input Column Name | Input Column Name | 
-+----------------+------------------+------------------------------------+
-| yearsOutputColName | Years Output Column Name | Num Years Output Column Name | 
-+----------------+------------------+------------------------------------+
-| daysOutputColName | Days Output Column Name | Num Days Output Column Name | 
-+----------------+------------------+------------------------------------+
++--------------------+--------------------------+------------------------------+
+| daysOutputColName  | Days Output Column Name  | Num Days Output Column Name  |
++====================+==========================+==============================+
+| inputColName       | Input Column Name        | Input Column Name            |
++--------------------+--------------------------+------------------------------+
+| yearsOutputColName | Years Output Column Name | Num Years Output Column Name |
++--------------------+--------------------------+------------------------------+
+| daysOutputColName  | Days Output Column Name  | Num Days Output Column Name  |
++--------------------+--------------------------+------------------------------+

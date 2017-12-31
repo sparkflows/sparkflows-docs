@@ -14,12 +14,12 @@ fire.nodes.ml.NodeIDF
 
 Fields
 
-+----------------+------------------+------------------------------------+
-|      Name      |       Title      |             Description            |
-+----------------+------------------+------------------------------------+
-| inputCol | Input Column | Input Column Name | 
-+----------------+------------------+------------------------------------+
-| outputCol | Output Column | Output column name | 
-+----------------+------------------+------------------------------------+
-| minDocFreq | MinDocFreq | The minimum of documents in which a term should appear. | 
-+----------------+------------------+------------------------------------+
++------------+---------------+---------------------------------------------------------+
+| minDocFreq | MinDocFreq    | The minimum of documents in which a term should appear. |
++============+===============+=========================================================+
+| inputCol   | Input Column  | Input Column Name                                       |
++------------+---------------+---------------------------------------------------------+
+| outputCol  | Output Column | Output column name                                      |
++------------+---------------+---------------------------------------------------------+
+| minDocFreq | MinDocFreq    | The minimum of documents in which a term should appear. |
++------------+---------------+---------------------------------------------------------+

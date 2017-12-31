@@ -14,10 +14,12 @@ fire.nodes.ocr.NodeOCRTesseract
 
 Fields
 
-+--------------+-------------------+-------------------------+
-|     Name     |       Title       |       Description       |
-+--------------+-------------------+-------------------------+
-| imageNameCol | Image Name Column | input image column name |
-|   imageCol   |    Image Column   | input image column name |
-|  outputCol   | Output OCR Column |    output column name   |
-+--------------+-------------------+-------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| imageNameCol | Image Name Column | input image column name | 
++----------------+------------------+------------------------------------+
+| imageCol | Image Column | input image column name | 
++----------------+------------------+------------------------------------+
+| outputCol | Output OCR Column | output column name | 
++----------------+------------------+------------------------------------+

@@ -14,9 +14,10 @@ fire.nodes.ml.NodeTokenizer
 
 Fields
 
-+-----------+---------------+-------------------------------------------+
-|    Name   |     Title     |                Description                |
-+-----------+---------------+-------------------------------------------+
-|  inputCol |  Input Column | Column containing text (such as sentence) |
-| outputCol | Output Column |             Output column name            |
-+-----------+---------------+-------------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| inputCol | Input Column | Column containing text (such as sentence) | 
++----------------+------------------+------------------------------------+
+| outputCol | Output Column | Output column name | 
++----------------+------------------+------------------------------------+

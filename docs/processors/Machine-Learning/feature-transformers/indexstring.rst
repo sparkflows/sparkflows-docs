@@ -14,9 +14,10 @@ fire.nodes.ml.NodeIndexString
 
 Fields
 
-+-----------+---------------+---------------------------------+
-|    Name   |     Title     |           Description           |
-+-----------+---------------+---------------------------------+
-|  inputCol |  Input Column | Column containing label indices |
-| outputCol | Output Column |        Output column name       |
-+-----------+---------------+---------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| inputCol | Input Column | Column containing label indices | 
++----------------+------------------+------------------------------------+
+| outputCol | Output Column | Output column name | 
++----------------+------------------+------------------------------------+

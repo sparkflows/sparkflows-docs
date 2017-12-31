@@ -14,9 +14,10 @@ fire.nodes.ml.NodeHashingTF
 
 Fields
 
-+-----------+---------------+--------------------------------------------------------------------------------------+
-|    Name   |     Title     |                                     Description                                      |
-+-----------+---------------+--------------------------------------------------------------------------------------+
-|  inputCol |  Input Column | Contains sets of terms. In text processing, a 'set of terms' might be a bag of words |
-| outputCol | Output Column |                                  Output column name                                  |
-+-----------+---------------+--------------------------------------------------------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| inputCol | Input Column | Contains sets of terms. In text processing, a 'set of terms' might be a bag of words | 
++----------------+------------------+------------------------------------+
+| outputCol | Output Column | Output column name | 
++----------------+------------------+------------------------------------+

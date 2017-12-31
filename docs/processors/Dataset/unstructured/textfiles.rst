@@ -14,9 +14,10 @@ fire.nodes.dataset.NodeDatasetTextFiles
 
 Fields
 
-+-----------+--------------------+-------------------------------------------+
-|    Name   |       Title        |                Description                |
-+-----------+--------------------+-------------------------------------------+
-|    path   |        Path        |      Path of the Text file/directory      |
-| outputCol | Output Column Name | Text Lines Column in the Output DataFrame |
-+-----------+--------------------+-------------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| path | Path | Path of the Text file/directory | 
++----------------+------------------+------------------------------------+
+| outputCol | Output Column Name | Text Lines Column in the Output DataFrame | 
++----------------+------------------+------------------------------------+

@@ -14,10 +14,12 @@ fire.nodes.streaming.NodeStreamingFlume
 
 Fields
 
-+---------------+---------------------------+----------------------------+
-|      Name     |           Title           |        Description         |
-+---------------+---------------------------+----------------------------+
-| batchDuration | Batch Duration in Seconds | Batch Duration in Seconds  |
-|      host     |          Hostname         | chosen machine's hostname  |
-|      port     |            Port           | chosen port on the machine |
-+---------------+---------------------------+----------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| batchDuration | Batch Duration in Seconds | Batch Duration in Seconds | 
++----------------+------------------+------------------------------------+
+| host | Hostname | chosen machine's hostname | 
++----------------+------------------+------------------------------------+
+| port | Port | chosen port on the machine | 
++----------------+------------------+------------------------------------+

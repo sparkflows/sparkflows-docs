@@ -14,10 +14,12 @@ fire.nodes.etl.NodeRollup
 
 Fields
 
-+---------------------+----------------------------+---------------------+
-|         Name        |           Title            |     Description     |
-+---------------------+----------------------------+---------------------+
-|      rollupCols     |       Rollup Columns       |                     |
-|    aggregateCols    |     Aggregate Columns      |  Aggregate Columns  |
-| aggregateOperations | Aggregate Operation to use | Aggregate Operation |
-+---------------------+----------------------------+---------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| rollupCols | Rollup Columns |  | 
++----------------+------------------+------------------------------------+
+| aggregateCols | Aggregate Columns | Aggregate Columns | 
++----------------+------------------+------------------------------------+
+| aggregateOperations | Aggregate Operation to use | Aggregate Operation | 
++----------------+------------------+------------------------------------+

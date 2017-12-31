@@ -14,9 +14,10 @@ fire.nodes.etl.NodeCastColumnType
 
 Fields
 
-+---------------+---------------+-----------------------------------------------------+
-|      Name     |     Title     |                     Description                     |
-+---------------+---------------+-----------------------------------------------------+
-|   inputCols   |    Columns    |         Columns to be cast to new data type         |
-| outputColType | New Data Type | New data type(INTEGER, DOUBLE, STRING, LONG, SHORT) |
-+---------------+---------------+-----------------------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| inputCols | Columns | Columns to be cast to new data type | 
++----------------+------------------+------------------------------------+
+| outputColType | New Data Type | New data type(INTEGER, DOUBLE, STRING, LONG, SHORT) | 
++----------------+------------------+------------------------------------+

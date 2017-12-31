@@ -14,12 +14,16 @@ fire.nodes.ml.NodeWord2Vec
 
 Fields
 
-+----------------------+-------------------+-----------------------------------------+
-|         Name         |       Title       |               Description               |
-+----------------------+-------------------+-----------------------------------------+
-|       inputCol       |    Input Column   |       Contains sequences of words       |
-| inputColStringArrCol | Text Array Column | The text array column which is produced |
-|      outputCol       |   Output Column   |            Output column name           |
-|      vectorSize      |    Vector Size    |               Vector Size               |
-|       minCount       |     Min Count     |                Min Count                |
-+----------------------+-------------------+-----------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| inputCol | Input Column | Contains sequences of words | 
++----------------+------------------+------------------------------------+
+| inputColStringArrCol | Text Array Column | The text array column which is produced | 
++----------------+------------------+------------------------------------+
+| outputCol | Output Column | Output column name | 
++----------------+------------------+------------------------------------+
+| vectorSize | Vector Size | Vector Size | 
++----------------+------------------+------------------------------------+
+| minCount | Min Count | Min Count | 
++----------------+------------------+------------------------------------+

@@ -14,10 +14,12 @@ fire.nodes.ml.NodeStringIndexer
 
 Fields
 
-+---------------+----------------+-----------------------------------------------+
-|      Name     |     Title      |                  Description                  |
-+---------------+----------------+-----------------------------------------------+
-| handleInvalid | Handle Invalid | Invalid entries to be skipped or thrown error |
-|   inputCols   | Input Columns  |            Column containing labels           |
-|   outputCols  | Output Columns |                Output  columns                |
-+---------------+----------------+-----------------------------------------------+
++----------------+------------------+------------------------------------+
+|      Name      |       Title      |             Description            |
++----------------+------------------+------------------------------------+
+| handleInvalid | Handle Invalid | Invalid entries to be skipped or thrown error | 
++----------------+------------------+------------------------------------+
+| inputCols | Input Columns | Column containing labels | 
++----------------+------------------+------------------------------------+
+| outputCols | Output Columns | Output  columns | 
++----------------+------------------+------------------------------------+

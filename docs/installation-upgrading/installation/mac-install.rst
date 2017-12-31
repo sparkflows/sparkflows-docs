@@ -55,9 +55,9 @@ Detailed Installation Steps
     * ``#`` : used for comments and documentation
 
 
-* Download and unpack ``fire-1.4.3.tgz`` from Download_
+* Download ``fire-1.4.3.tgz`` from Download_
   
-* Unzip the sparkflows tgz file::
+* Unzip it::
 
     tar xvf fire-1.4.3.tgz
 

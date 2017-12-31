@@ -17,18 +17,20 @@ Prerequisites
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-  * Download and unpack  :  fire-1.4.2.tgz
-  * Create H2 DB
+  * Download and unpack  :  ``fire-1.4.2.tgz``
+  * Create H2 DB::
 
       cd <fire install_dir>
       ./create-h2-db.sh
 
-  * Launch fire server
+  * Launch fire server::
 
       cd <fire install_dir>
       ./run-fire-server.sh start
 
-  * Open your web browser and navigate to: <machine_name>:8080/index.html.
+  * Open your web browser and navigate to:: 
+  
+      <machine_name>:8080/index.html
 
       Login with admin/admin or test/test
 
@@ -54,7 +56,6 @@ Detailed Installation Steps
 
     Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-​
       * H2 DB Configuration
       * MySQL Configuration
 

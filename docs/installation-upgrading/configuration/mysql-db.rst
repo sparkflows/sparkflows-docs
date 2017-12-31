@@ -75,18 +75,18 @@ cd fire-1.4.2      (if you are not already in that directory)
 Troubleshooting
 ---------------
 
-MySQL has a problem where one of the default users in the user table is '' @ localhost, which winds up denying all localhost users later in the table. If you are accessing mysql from localhost, assuming Fire and MySQL on same machine, then you need to delete this entry in mysql.user table.
+MySQL has a problem where one of the default users in the user table is '' @ localhost, which winds up denying all localhost users later in the table. If you are accessing mysql from localhost, assuming Fire and MySQL on same machine, then you need to delete this entry in mysql.user table::
 
 
-select user, host from user where user = ''          
+    select user, host from user where user = ''          
 
-#you should see an entry for this and host equals localhost.
+    #you should see an entry for this and host equals localhost.
 
-DELETE from user WHERE user = '' AND host = 'localhost';
+    DELETE from user WHERE user = '' AND host = 'localhost';
 
-flush privileges;
+    flush privileges;
 
-#this reloads privileges - important step. otherwise you will get access denied error even though you log in with the correct user.
+    #this reloads privileges - important step. otherwise you will get access denied error even though you log in with the correct user.
 
 
 Here is a link on stackoverflow that talks about this:

@@ -1,4 +1,4 @@
-Processors
+nodes
 ============
 
 .. toctree::

@@ -7,4 +7,5 @@ REST API
 
    processors-rest-api.rst
    datasets-rest-api.rst
+   workflows-rest-api.rst
 

@@ -19,6 +19,15 @@ Installation and Upgrading
 
    installation-upgrading/index
 
+Troubleshooting
+---------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   troubleshooting/index
+   
+   
 Administration
 --------------
 
@@ -51,13 +60,6 @@ Frequently Asked Questions
 
    faq.rst
 
-Troubleshooting
----------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   troubleshooting/index
    
 Processors
 ----------

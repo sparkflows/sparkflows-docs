@@ -3,7 +3,7 @@ Upgrade
 
 
 Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION
------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After I upgrade to the latest Fire Release I get the error : Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION
 

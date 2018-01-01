@@ -28,6 +28,7 @@ This is probably because there is some configuration error. Sparkflows uses spar
 
 
 Getting Exception: org.apache.hadoop.security.AccessControlException: Permission:denied :user=admin :
+-----------------------------------------------------------------------------------------------------
 
   When running on the Cluster, you are running into the exception below:
 

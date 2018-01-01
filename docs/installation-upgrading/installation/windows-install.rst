@@ -1,5 +1,5 @@
-Install on Windows OS
-^^^^^^^^^^^^^^^^^^^^^
+Install on Linux/Mac OS
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
 
@@ -8,81 +8,121 @@ If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an ed
 Prerequisites
 -------------
 
-  * JDK 1.7+ installed.
-  * java and jar have to be in the PATH
-  * If running on a Spark cluster, Spark 1.6+ is needed on the cluster.
-  * 3GB+ of RAM.
+Below are the Prerequisites for installing Fire on a machine::
+
+  - JDK 1.7+ installed.
+  - java and jar have to be in the PATH
+  - 3GB+ of RAM.
+
+
+If Fire would be connected to an Apache Spark Cluster::
+
+  - Spark 1.6+ is needed on the cluster
+  - Fire has to be installed on an Edge node of the Spark Cluster
 
 
 Quick Installation Steps of Fire with H2 DB
 -------------------------------------------
 
-  * Download and unpack  :  ``fire-1.4.2.tgz``
-  * Create H2 DB::
+* Download the fire tgz file from:
+
+  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/archives
+  
+  
+* Unpack it
+
+
+
+* Create H2 DB::
 
       cd <fire install_dir>
-      .\\create-h2-db.bat
+      .\create-h2-db.bat
 
-  * Launch fire server::
+* Launch Fire Server::
 
-      cd <fire install_dir>
-      .\\run-fire-server.bat start
+    cd <fire install_dir>
+    .\run-fire-server.bat start
 
-  * Open your web browser and navigate to: <machine_name>:8080/index.html.
+* Open your web browser and navigate to:: 
+  
+    <machine_name>:8080/index.html
 
-      ``Login with admin/admin or test/test``
+* Login with:: 
+
+    admin/admin or test/test
 
 
 Detailed Installation Steps
 ---------------------------
 
-  * **Glossary**
+* Glossary
 
-    * <install_dir> : location where you unzipped fire tgz file. For example this can be your home directory.
-    * <machine_name> : hostname where your installed Fire
-    * # : used for comments and documentation
-
-
-  * Download and unzip the sparkflows tgz file
-
-    * Download the fire tgz file
-    * Unzip the file fire-1.4.3.tgz
+    * ``<install_dir>`` : location where you unzipped fire tgz file. For example this can be your home directory.
+    * ``<machine_name>`` : hostname where your installed Fire
+    * ``#`` : used for comments and documentation
 
 
-  * Set up H2 or MySQL DB
+* Download the fire tgz file from:
+
+  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/archives
+  
+  
+* Unzip it
 
 
-    Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
+* Set up H2 or MySQL DB
 
-      * H2 DB Configuration
-      * MySQL Configuration
+Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
 
-Launching Fire after Installation
----------------------------------
+    * :doc:`../configuration/h2-db`
+    * :doc:`../configuration/mysql-db`
+    
 
-  * cd <install_dir>/fire-1.4.2
-  * Execute .\\run-fire-server.bat
-  * Test by opening your web browser and going to:
+* Launch Fire Server::
+
+    cd <fire install_dir>
+    .\run-fire-server.bat start
+    
+* Test by opening your web browser and going to::
+
     localhost:8080/index.html
 
     OR
 
     <machine_name>:8080/index.html
 
-  * When you see the login window, enter username: admin and password: admin.
+* Login with::
 
-    Note: You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
-
-        admin/admin
-        test/test
-
-    Note: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
+    username: admin and password: admin.
 
 
-    `Connecting Fire to a Spark cluster`_
+.. note::  You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
+
+    admin/admin
+    test/test
+
+.. note:: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
 
 Stopping the Fire Server
 ------------------------
 
-  * .\\run-fire-server.bat stop
+Stop the Fire Server with the below::
+
+    .\run-fire-server.bat stop
+    
+    
+Connecting to Apache Spark Cluster
+----------------------------------
+
+Now that you have Fire installed, you may want to connect it to your Apache Spark Cluster.
+
+* :doc:`../connecting-spark-cluster`
+
+
+.. _Download: https://www.sparkflows.io/download
+
+
+

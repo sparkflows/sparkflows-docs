@@ -27,10 +27,10 @@ This is probably because there is some configuration error. Sparkflows uses spar
 * Under Administration/Configuration, there is the config app.postMessageURL. It determines the Fire URL to which the results from the spark driver are posted. Ensure that it is set up correctly.
 
 
-Getting Exception: org.apache.hadoop.security.AccessControlException: Permission:denied :user=admin :
+Getting Exception: org.apache.hadoop.security.AccessControlException: Permission:denied : user=admin 
 -----------------------------------------------------------------------------------------------------
 
-  When running on the Cluster, you are running into the exception below:
+When running on the Cluster, you are running into the exception below::
 
   org.apache.hadoop.security.AccessControlException: Permission denied: user=admin, access=WRITE, inode="/user":hdfs:supergroup:drwxr-xr-x
 
@@ -39,3 +39,5 @@ Getting Exception: org.apache.hadoop.security.AccessControlException: Permission
   In the above case, the user is logged into Fire as 'admin'. So the jobs submitted by Fire on the cluster is as the user 'admin'. But the user 'admin' does not exist on HDFS.
 
   Please make sure to log into Fire as a user which exists on HDFS.
+
+  

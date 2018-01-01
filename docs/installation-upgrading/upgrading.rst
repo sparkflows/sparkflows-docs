@@ -14,8 +14,9 @@ Download the fire tgz file
 
 Download Fire tgz file from::
 
-  * https://www.sparkflows.io/download  OR   
-  * https://www.sparkflows.io/archives
+  - https://www.sparkflows.io/download  OR  
+  
+  - https://www.sparkflows.io/archives
   
 Unpack it
 -----------

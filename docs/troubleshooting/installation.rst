@@ -26,3 +26,16 @@ If Fire needs to be connected with a Spark cluster the below is needed:
 
 More Details are available here : https://www.sparkflows.io/connecting-sparkflows-with-spark-cl
 
+
+
+I do not see anything in my browser after I start Sparkflows
+------------------------------------------------------------
+
+Do check in the logs for exceptions and the root cause. On Linux and Mac, the log files are in nohup.out.
+
+Possible causes are:
+
+* The H2 database was not created and it is failing to the find the table.
+* The server did not start properly because some other Application is running on the configured port. The default configured port for Sparkflows is :8080
+
+The http and https ports for Fire can be updated in conf/application.properties.

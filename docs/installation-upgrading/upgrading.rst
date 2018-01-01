@@ -9,8 +9,8 @@ Stop Fire with the below command from the directory in it installed in::
     run-fire-server.sh stop
 
 
-Download the fire tgz file from
-----------------------------------
+Download the fire tgz file
+---------------------------
 
 Download Fire tgz file from::
 

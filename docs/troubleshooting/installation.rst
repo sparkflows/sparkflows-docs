@@ -1,5 +1,5 @@
-Troubleshooting Installation
-=============================
+Installation
+============
 
 I do not see anything in my browser after I start Sparkflows.
 -------------------------------------------------------------

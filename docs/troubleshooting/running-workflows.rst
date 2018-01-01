@@ -85,3 +85,13 @@ When submitting jobs to the cluster from Fire, you are running into the exceptio
   The machine name/IP is wrong.
 
   The port number of wrong. Fire server is running on another port on the machine.
+  
+  
+Getting Exception : java.lang.ClassNotFoundException: fire.execute.WorkflowExecuteFromFile
+------------------------------------------------------------------------------------------
+
+When running the jobs on the cluster, you are running into this exception::
+
+  The reason for it is that the app.sparkSubmitJar is not set up correctly. You can go under Administration/Configuration to set it up correctly.
+
+  Warning: Local jar /home/ec2-user/fire-1.4.3/fire-lib/fire-spark_1_6-core-1.4.3-jar-with-dependencies.jar does not exist, skipping.     java.lang.ClassNotFoundException: fire.execute.WorkflowExecuteFromFile at java.net.URLClassLoader.findClass(URLClassLoader.java:381) at java.lang.ClassLoader.loadClass(ClassLoader.java:424) at java.lang.ClassLoader.loadClass(ClassLoader.java:357) at           java.lang.Class.forName0(Native Method) at java.lang.Class.forName(Class.java:348) at              org.apache.spark.util.Utils$.classForName(Utils.scala:177) at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:688) at org.apache.spark.deploy.SparkSubmit$$anon$1.run(SparkSubmit.scala:163) at org.apache.spark.deploy.SparkSubmit$$anon$1.run(SparkSubmit.scala:161) at java.security.AccessController.doPrivileged(Native Method) at javax.security.auth.Subject.doAs(Subject.java:422) at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1917) at  org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:161) at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:206) at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:121) at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)

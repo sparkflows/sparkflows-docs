@@ -9,9 +9,9 @@ Sparkflows impersonates the logged in user when submitting the jobs onto the Clu
 
 So, the user with which Sparkflows is running has to be configured on HDFS as a proxy user.
 
-Details for allowing the sparkflows user to impersonate other users is available at::
+Details for allowing the sparkflows user to impersonate other users is available at:
 
-    :doc:`../installation-upgrading/connecting-spark-cluster`
+* **:doc:`../installation-upgrading/connecting-spark-cluster`**
 
 
 

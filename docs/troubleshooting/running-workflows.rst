@@ -39,5 +39,21 @@ When running on the Cluster, you are running into the exception below::
   In the above case, the user is logged into Fire as 'admin'. So the jobs submitted by Fire on the cluster is as the user 'admin'. But the user 'admin' does not exist on HDFS.
 
   Please make sure to log into Fire as a user which exists on HDFS.
+  
+  
+When running the example workflows on the Spark Cluster it is not able to find the input files
+-----------------------------------------------------------------------------------------------
 
+The example workflows read in input files::
+
+  They have to be on HDFS in the home directory of the logged in user. 
+   
+  The data directory which comes with Sparkflows has to be uploaded onto HDFS.
+
+  For example, if the logged in user is 'john', then the data directory would be on HDFS in the directory /user/john
+  
+  They have to be on HDFS in the home directory of the logged in user. The data directory which comes with Sparkflows has to be uploaded onto HDFS.
+
+  For example, if the logged in user is 'john', then the data directory would be on HDFS in the directory /user/john
+  
   

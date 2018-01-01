@@ -103,8 +103,8 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
 
 .. note::  Two user accounts come preconfigured with Fire.
 
-    admin/admin
-    test/test
+           * admin/admin
+           * test/test
     
     You may change these usernames and passwords in Fire under the menu Administration/Users
     

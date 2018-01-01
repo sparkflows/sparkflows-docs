@@ -101,11 +101,14 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     username: admin and password: admin.
 
 
-.. note::  You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
+.. note::  Two user accounts come preconfigured with Fire.
 
     admin/admin
     test/test
-
+    
+    You may change these usernames and passwords in Fire under the menu Administration/Users
+    
+    
 .. note:: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
 

@@ -33,8 +33,9 @@ Upgrade the H2 or MySQL database
 * Execute the following commands on the Command Line to upgrade the Fire database::
 
 
-    * cd <install_dir>/fire-1.4.2
-    * ./create-h2-db.sh      OR     ./create-mysql-db.sh
+    cd <install_dir>/fire-1.4.2
+    
+    ./create-h2-db.sh      OR     ./create-mysql-db.sh
     
 (the above command creates or updates the existing db if one already exists)
 

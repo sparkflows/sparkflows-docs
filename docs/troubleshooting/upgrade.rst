@@ -1,10 +1,8 @@
 Upgrade
 =======
 
-H2
 --
 
-H3
 ^^
 
 Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION

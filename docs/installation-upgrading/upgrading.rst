@@ -1,20 +1,26 @@
 Upgrading
 =========
 
-Stop Fire if it is running::
-----------------------------
+Stop Fire if it is running
+--------------------------
+
+Stop Fire with the below command from the directory in it installed in::
 
     run-fire-server.sh stop
 
 
-Download the fire tgz file from::
+Download the fire tgz file from
 ----------------------------------
+
+Download Fire tgz file from::
 
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
   
 Unpack it::
 -----------
+
+Unpack the tgz file with below on unix/linux::
 
   *tar xvf fire-1.4.2.tgz
 
@@ -36,5 +42,7 @@ Upgrade the H2 or MySQL database
 
 Restart Fire::
 -------------
+
+Restart the Fire Server with the below::
 
   run-fire-server.sh start

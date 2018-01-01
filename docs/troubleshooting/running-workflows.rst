@@ -56,7 +56,7 @@ The example workflows read in input files::
 Getting Exception : Server returned HTTP response code: 405 for URL: http://10.125.221.72:8080/ messageFromSparkJob
 --------------------------------------------------------------------------------------------------------------------
   
-  When submitting jobs to the cluster from Fire, you are running into the exception below::
+When submitting jobs to the cluster from Fire, you are running into the exception below::
 
   Sending 'POST' request to URL : http://10.125.221.72:8080/messageFromSparkJob
 

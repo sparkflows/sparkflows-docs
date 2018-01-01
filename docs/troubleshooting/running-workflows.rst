@@ -96,11 +96,14 @@ There could be following issues with the URL::
 Getting Exception : java.lang.ClassNotFoundException: fire.execute.WorkflowExecuteFromFile
 ------------------------------------------------------------------------------------------
 
-When running the jobs on the cluster, you are running into this exception::
+When running the jobs on the cluster, you are running into this exception below.
 
-  The reason for it is that the app.sparkSubmitJar is not set up correctly.
+* The reason for it is that the app.sparkSubmitJar is not set up correctly.
   
-  You can go under Administration/Configuration to set it up correctly.
+* You can go under Administration/Configuration to set it up correctly.
+
+
+Exception::
 
   Warning: Local jar /home/ec2-user/fire-1.4.3/fire-lib/fire-spark_1_6-core-1.4.3-jar-with-dependencies.jar does not exist, skipping.
   java.lang.ClassNotFoundException: fire.execute.WorkflowExecuteFromFile at java.net.URLClassLoader.findClass(URLClassLoader.java:381) at 

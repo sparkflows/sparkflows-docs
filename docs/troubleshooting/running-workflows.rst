@@ -11,7 +11,7 @@ So, the user with which Sparkflows is running has to be configured on HDFS as a 
 
 Details for allowing the sparkflows user to impersonate other users is available at:
 
-* **:doc:`../installation-upgrading/connecting-spark-cluster`**
+* :doc:`../installation-upgrading/connecting-spark-cluster`
 
 
 

@@ -1,5 +1,5 @@
-Upgrading
-=========
+Upgrading Fire
+==============
 
 Stop Fire if it is running
 --------------------------
@@ -17,7 +17,7 @@ Download Fire tgz file from::
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
   
-Unpack it::
+Unpack it
 -----------
 
 Unpack the tgz file with below on unix/linux::
@@ -40,7 +40,7 @@ Upgrade the H2 or MySQL database
         (the above command creates or updates the existing db if one already exists)​
 
 
-Restart Fire::
+Restart Fire
 -------------
 
 Restart the Fire Server with the below::

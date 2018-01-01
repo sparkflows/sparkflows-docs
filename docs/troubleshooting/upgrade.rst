@@ -1,10 +1,6 @@
 Upgrade
 =======
 
---
-
-^^
-
 Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

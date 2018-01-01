@@ -55,8 +55,9 @@ Troubleshooting
 ---------------
 
 .. toctree::
-
-   troubleshooting.rst
+   :maxdepth: 2
+   
+   troubleshooting/index
    
 Processors
 ----------

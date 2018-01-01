@@ -10,7 +10,7 @@ Where do I find the logs of the Fire Server
 Where do I find the logs of the workflows when running on my Cluster
 ---------------------------------------------------------------------
 
-The logs are in the directory /tmp/fire/workflowlogs on the machine on which the Fire server is running::
+The logs are in the directory ``/tmp/fire/workflowlogs`` on the machine on which the Fire server is running::
 
   Each workflow execution has its own log file.
 

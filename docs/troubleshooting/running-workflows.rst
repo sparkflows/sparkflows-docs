@@ -56,4 +56,36 @@ The example workflows read in input files::
 
   For example, if the logged in user is 'john', then the data directory would be on HDFS in the directory /user/john
   
+ 
+  Getting Exception : Server returned HTTP response code: 405 for URL: http://10.125.221.72:8080/ messageFromSparkJob
+  ---------------------------------------------------------------------------------------------------------------------
   
+  When submitting jobs to the cluster from Fire, you are running into the exception below::
+
+  Sending 'POST' request to URL : http://10.125.221.72:8080/messageFromSparkJob
+
+Response Code : 405
+
+java.io.IOException: Server returned HTTP response code: 405 for URL: http://10.125.221.72:8080/messageFromSparkJob
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+
+at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+
+Fire submits Spark jobs to the cluster. The spark driver, posts certain results back to the Fire server to be displayed to the user.
+
+The cause of this error is that the postback-url has been set incorrectly - http://10.125.221.72:8080/messageFromSparkJob
+
+There could be following issues with the URL:
+
+The machine name/IP is wrong.
+
+The port number of wrong. Fire server is running on another port on the machine.

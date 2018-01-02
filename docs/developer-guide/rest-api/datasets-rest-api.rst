@@ -69,21 +69,26 @@ Delete Dataset with id = 13::
  
 Get Hive sample data from given DB and Table
 -----------------------------------------------
- 
-  "db": "default",
-  "table": "sample_07"
 
-   **curl -X GET --header 'Accept: application/json' --header 'db: default' --header 'table: sample_07' localhost:8080/hiveSampleData -b /tmp/cookies.txt**
-   
- Get Datasets with UUID
- --------------------------
+Get HIVE Sample data from the given database and table::
+
+    "db": "default",
+    "table": "sample_07"
+
+    curl -X GET --header 'Accept: application/json' --header 'db: default' --header 'table: sample_07' localhost:8080/hiveSampleData -b /tmp/cookies.txt
+
+
+List all Datasets
+-----------------
  
-**curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt**
+List all Datasets::
+
+    curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt
 
 Get Sample Data from a Dataset
 ------------------------------
  
-  Rdelimiter and header are optional values
+  Delimiter and header are optional values
   path: data/spam.csv
   schema: {"colNames":["0.0","this is not a spam","3.0"],"colTypes":
   ["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}

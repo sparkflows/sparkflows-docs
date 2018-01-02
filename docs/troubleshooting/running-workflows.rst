@@ -29,7 +29,7 @@ This is probably because there is some configuration error. Sparkflows uses spar
   
 * If the Spark job is running successfully (according to the logs), but the results are still not showing up in the Browser, it could be because the fire spark job is unable to post results back to the Fire web server. You should see these failures in the logs.
 
-* Under Administration/Configuration, there is the config app.postMessageURL. It determines the Fire URL to which the results from the spark driver are posted. Ensure that it is set up correctly.
+  * Under Administration/Configuration, there is the config ``app.postMessageURL``. It determines the Fire URL to which the results from the spark driver are posted back to the fire server. Ensure that it is set up correctly.
 
 
 Getting Exception: org.apache.hadoop.security.AccessControlException: Permission:denied : user=admin 

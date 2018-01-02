@@ -69,14 +69,6 @@ Processors
 
    processors/index   
 
-Dataset Processors
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   processors-dataset/index
-
 
 Indices and tables
 ------------------

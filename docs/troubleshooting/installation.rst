@@ -36,14 +36,14 @@ Do check in the logs for exceptions and the root cause. On Linux and Mac, the lo
 Possible causes are:
 
 * The H2 database was not created and it is failing to the find the table.
-* The server did not start properly because some other Application is running on the configured port. The default configured port for Sparkflows is :8080
+* The server did not start properly because some other Application is running on the configured port. The default configured port for Sparkflows is ``:8080``
 
-The http and https ports for Fire can be updated in conf/application.properties.
+The http and https ports for Fire can be updated in ``conf/application.properties``.
 
 
 Sparkflows UI does not get displayed when I go to :8080. Some other UI is displayed
 -----------------------------------------------------------------------------------
 
-Sparkflows by default runs on port 8080. It is possible that you have some other application running on port 8080, and you are seeing its output.In this case, the solution is to run the Fire server on some other port which is not being used by any other application.Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
+Sparkflows by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output.In this case, the solution is to ``run the Fire server on some other por``t which is not being used by any other application. Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
 
 

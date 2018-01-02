@@ -1,5 +1,5 @@
 
-Sparkflows makes it incredibly easy for anyone to do Big Data Analytics, Data Prep, Machine Learning, NLP, OCR, Dedup. It also allows you to extend the capabilities with your own operators.
+Sparkflows can be deployed on the Edge node of a Hadoop/Spark Cluster.
 
 Architecture & Deployment
 =========================

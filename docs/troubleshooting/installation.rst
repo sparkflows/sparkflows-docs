@@ -44,6 +44,6 @@ The http and https ports for Fire can be updated in ``conf/application.propertie
 Sparkflows UI does not get displayed when I go to :8080. Some other UI is displayed
 -----------------------------------------------------------------------------------
 
-Sparkflows by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output.In this case, the solution is to ``run the Fire server on some other por``t which is not being used by any other application. Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
+Sparkflows by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output. In this case, the solution is to ``run the Fire server on some other port`` which is not being used by any other application. Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
 
 

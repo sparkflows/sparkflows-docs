@@ -1,7 +1,7 @@
 Running Sparkflows Fire on a Another Port
 -----------------------------------------
 
-If you choose to run the FIRE project on a port other than the default 8080 (http) and 8443 (https), please follow the following instructions for ``configuring http and https ports``::
+If you choose to run the FIRE project on a port other than the ``default 8080 (http) and 8443 (https)``, please follow the following instructions for ``configuring http and https ports``::
 
     - Navigate to the conf folder under Sparkflows install directory 
     - Open application.properties file:

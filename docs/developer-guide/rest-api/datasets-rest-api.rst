@@ -24,7 +24,7 @@ Create New Dataset / Save Dataset
  
 The below creates a New Dataset::
 
-if id value is not passed, new dataset will be created.
+if id value is not passed, new dataset will be created::
 
     {
     "id":13,
@@ -57,11 +57,11 @@ if id value is not passed, new dataset will be created.
     }
     }
 
-     **curl-X POST --header 'Content-Type: application/json' --header 'Accept: /' -d     '{"id":13,"version":0,"name":"spam","header":true,"path":"data/spam.csv","delimiter":",","schemaModel":{"schemaColList":    [{"colName":"label","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"},{"colName":"message","colType":"STRING","colFormat":"","colMLType":"TEXT"},{"colName":"id","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"}]}}' localhost:8080/dataset/save -b /tmp/cookies.txt**
+     curl-X POST --header 'Content-Type: application/json' --header 'Accept: /' -d     '{"id":13,"version":0,"name":"spam","header":true,"path":"data/spam.csv","delimiter":",","schemaModel":{"schemaColList":    [{"colName":"label","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"},{"colName":"message","colType":"STRING","colFormat":"","colMLType":"TEXT"},{"colName":"id","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"}]}}' localhost:8080/dataset/save -b /tmp/cookies.txt
  
  
- Delete Dataset
- -------------------
+Delete Dataset
+--------------
  
 Delete Dataset with id = 13::
 

@@ -1,3 +1,5 @@
+Architecture & Deployment
+=========================
 
 Sparkflows can be installed in one of two ways:
 
@@ -9,8 +11,7 @@ Sparkflows can be installed in one of two ways:
 
   * In this case, the jobs for processing would be submitted to the Hadoop/Spark Cluster.
   
-Architecture & Deployment
-=========================
+
 
 .. toctree::
    :maxdepth: 2

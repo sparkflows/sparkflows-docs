@@ -41,7 +41,7 @@ If you would like to use different values for the db, username, password, update
 
  
 
-Note: firedb is created in the users home directory and the name is firedb.mv.db
+.. note::  firedb is created in the users home directory and the name is firedb.mv.db
 
 
 

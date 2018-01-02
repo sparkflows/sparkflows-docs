@@ -34,14 +34,12 @@ Note: Any cluster with Apache Spark 1.6+ will work fine with Sparkflows.
 
 Sparkflows supports various user types and enables users to easily share datasets and workflows with each other to foster collaboration.
 
-``Do Sparkflows workflow nodes write to an audit log that is accessible by users of the system?``
-
 
 ``How does one export/import workflows between instances?``
 
-Sparkflows allows users to view workflows as JSON. They can be  copied and pasted into the workflow JSON editor of another instance.
+Sparkflows allows workflows to be exported and imported. Workflows are represented as JSON files and hence can also be checked into github etc. for versioning.
 
-A more automated way to export and import the workflows is on the roadmap.
+Sparkflows also maintains the version history of the workflows.
 
 
 ``How does one define a new data source and establish a connection?``

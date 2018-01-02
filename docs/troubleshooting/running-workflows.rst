@@ -25,7 +25,7 @@ This is probably because there is some configuration error. Sparkflows uses spar
 * It is also useful to ensure Spark jobs can be submitted to the Cluster from the machine on which Sparkflows is running with spark-submit. Submit the ``SparkPi`` job from ``spark-examples.jar`` to test it.
 
   * ``SparkPi`` can be run with a command like : ``spark-submit --class org.apache.spark.examples.SparkPi --master yarn --deploy-mode client spark-examples.jar 10``
-  * ``spark-examples.jar is in your Apache Spark install direction on the machine.
+  * ``spark-examples.jar`` is in your Apache Spark install direction on the machine.
   
 * If the Spark job is running successfully (according to the logs), but the results are still not showing up in the Browser, it could be because the fire spark job is unable to post results back to the Fire web server. You should see these failures in the logs.
 

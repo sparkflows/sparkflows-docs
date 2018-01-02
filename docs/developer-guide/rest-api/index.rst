@@ -10,4 +10,8 @@ REST API
    workflows-rest-api.rst
    workflow-execution-rest-api.rst
    dashboards-rest-api.rst
+   hdfs-rest-api.rst
+   hive-rest-api.rst
+   scheduler-rest-api.rst
+   
 

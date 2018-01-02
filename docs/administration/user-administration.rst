@@ -7,6 +7,8 @@ Sparkflows allows you to create and manage
 * groups
 * roles
 
+These are accessible under the Administration Menu.
+
 Users
 -----
 

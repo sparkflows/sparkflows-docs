@@ -10,6 +10,7 @@ Below is from run-fire-server.sh::
 * In order to increase the amount of memory for the Sparkflows web server, ``increase the value of -Xmx`` based on the amount of memory available on your server.
 
 * For example, you could raise it to 5 GB or 10 GB or more up to 25 GB.
+
   * -Xmx5g
   * -Xmx10g
   * -Xmx25g

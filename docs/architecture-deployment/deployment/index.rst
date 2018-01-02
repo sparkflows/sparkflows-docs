@@ -1,7 +1,14 @@
 Fire Deployment Options
 -----------------------
 
-Sparkflows Fire can easily be deployed on a personal machine or your company's on-premise or cloud based Hadoop clusters including Apache Spark. The clusters could be based on the Apache Hadoop distribution from Cloudera, Hortonworks, MapR or any other Hadoop Cluster distributors, Sparkflows can also be installed on a Databricks cluster.
+Sparkflows Fire can easily be deployed:
+
+* On a personal machine or 
+* On a Hadoop/Spark Cluster. 
+
+The clusters could be based on the Apache Hadoop distribution from Cloudera, Hortonworks, MapR or any other Hadoop Cluster distributors.
+
+The cluster can be on-premise or on the cloud.
 
 .. figure:: ../../_assets/architecture/cloud-and-personal-machine.png
    :scale: 100%

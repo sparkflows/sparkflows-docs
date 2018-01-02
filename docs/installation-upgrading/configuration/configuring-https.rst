@@ -31,9 +31,9 @@ keystore password
 The keystore password is in the file ``conf/keystore.properties``
  
  
-.. note: When the keystore is updated, the password also has to be updated in case it changes. 
+.. note::  When the keystore is updated, the password also has to be updated in case it changes. 
 
-         The Sparkflows web server would also have to be restarted for the changes to take effect.
+           The Sparkflows web server would also have to be restarted for the changes to take effect.
  
  
  

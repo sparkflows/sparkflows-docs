@@ -12,7 +12,7 @@ When running on a MapR cluster, the below are important:
     
 * Set ``http port` to be different in `conf/application.properties`` if there are other processes using the specified ports
 
-* Fire has to be installed as a user which can submit jobs to the MapR cluster. Say we installed Fire as user 'mapr'::
+* Fire has to be installed as a user which can submit jobs to the MapR cluster. Say we installed Fire as user ``mapr``::
 
     Create a mapr user in sparkflows and log in as that user
     Start using Sparkflows

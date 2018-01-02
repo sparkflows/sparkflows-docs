@@ -107,17 +107,21 @@ Returns schema of the files in the given path using the given delimiter
 Get Dataset by Id
 -----------------------
 
-  "id": "13"
+Get the details of a given dataset::
 
-  ** curl   -X GET --header 'Accept: application/json' --header 'id: 13'   localhost:8080/getSelDataset   -b /tmp/cookies.txt**
+    "id": "13"
+
+    curl   -X GET --header 'Accept: application/json' --header 'id: 13'   localhost:8080/getSelDataset   -b /tmp/cookies.txt
   
   
 Get the list of files/directories in the given path
 ---------------------------------------------------
  
-  path:data/transaction.csv
+Gets the list of files in the given path::
+
+    path:data/transaction.csv
          
-**curl   -X GET --header 'Content-Type: application/json' --header 'Accept: application/json' -d 'data/transaction.csv' http://localhost:8080/filesInPathJSON -b /tmp/cookies.txt**
+    curl   -X GET --header 'Content-Type: application/json' --header 'Accept: application/json' -d 'data/transaction.csv' http://localhost:8080/filesInPathJSON -b /tmp/cookies.txt
 
 Get  Dataset Count
 ----------------------

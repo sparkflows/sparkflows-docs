@@ -72,7 +72,7 @@ Install the MySQL Connector Jar file
 Create the Tables for Fire in MySQL
 ----------------------------------- 
 
-Create the tables for Fire in MySQL by executing the ``create-mysql-db.s``h script::
+Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::
 
     cd fire-1.4.3      (if you are not already in that directory)
 

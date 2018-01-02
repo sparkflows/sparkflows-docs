@@ -42,7 +42,7 @@ In the above:
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
- For providing extra variables to the workflow, the following parameters can be added to spark-submit:
+ For providing extra variables to the workflow, the following parameters can be added to spark-submit::
  
     --var name1=value1   --var name2=value2    --var name3=value3
  
@@ -67,6 +67,7 @@ The View JSON Workflow page of the Workflow displays both the JSON representatio
    :scale: 100%
    :alt: Sparkflows Json Workflow
    :align: center
+ 
  
 Scheduling Workflow execution with Scheduler of choice
 ----------------------------------------------------------

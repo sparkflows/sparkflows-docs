@@ -80,8 +80,8 @@ Get Hive sample data from given DB and Table
  
 **curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt**
 
-Returns sample data
-----------------------------
+Get Sample Data from a Dataset
+------------------------------
  
   Rdelimiter and header are optional values
   path: data/spam.csv
@@ -91,7 +91,8 @@ Returns sample data
 
    **curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'path: data/spam.csv' -d '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' localhost:8080/sampleData -b /tmp/cookies.txt**
 
-Returns schema of the files in the given path using the given delimiter
+
+Get the Schema of the files in the given path using the given delimiter
 -----------------------------------------------------------------------------
 
   delimiter and header are optional values

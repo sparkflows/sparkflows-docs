@@ -10,17 +10,14 @@ Yes, new Nodes can be easily to added to SparkFlows. Develop nodes in Java or in
 
 Sparkflows saves workflow definitions as JSON files. These workflows are executed through spark-submit.
 
-Sparkflows platform does not have its own scheduling capabilities implemented at this time but its on our roadmap. As of now, users can schedule Sparkflows workflows using their preferred scheduling systems.
+Sparkflows has a scheduler which allows Workflows to be scheduled at regular intervals.
 
+Since the workflows are submitted with spark-submit, they can also be easily scheduled with Oozie, crontab etc.
+\
 
 ``Can I run Sparkflows on my Amazon AWS cluster or Microsoft Azure or Google Cloud?``
 
 Yes, all Sparkflows needs for successful deployment is a Apache Spark cluster. Sparkflows is deployed on the edge node of the cluster.
-
-
-``Can I invoke a workflow from within another workflow?``
-
-No, Sparkflows at this time does not allow triggering one workflow from another. But stayput, this capability will be added to the product during one of the new few iterations. 
 
 
 ``What distributions or platforms are supported with Sparkflows?``

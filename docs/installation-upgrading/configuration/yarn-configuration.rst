@@ -30,8 +30,5 @@ Impersonation
 
  * Normally ``app.impersonateUsers` is set to ``true`` so that the jobs are run as the logged in user.
 
-Note :
-------
-
- * The logged in user into Fire should exist on HDFS.
+.. note::  The logged in user into Fire should exist on HDFS
 

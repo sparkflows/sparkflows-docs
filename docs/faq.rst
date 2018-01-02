@@ -25,7 +25,7 @@ No, Sparkflows at this time does not allow triggering one workflow from another.
 
 ``What distributions or platforms are supported with Sparkflows?``
 
-Sparkflows Fire has been tested with CDH, AWS EMR, Databricks Apache Spark distributions.
+Sparkflows Fire has been tested with CDH, Hortonworks, MapR, AWS EMR, Apache Spark distributions.
  
 Note: Any cluster with Apache Spark 1.6+ will work fine with Sparkflows.
 
@@ -51,4 +51,4 @@ Sparkflows workflow execution writes a summary of its output to MySQL/Oracle/H2 
 
 ``When running on a Spark cluster how does Sparkflows submit the spark jobs?``
  
-Sparkflows uses spark-submit to submit the Spark jobs to the cluster. Hence it is important that spark-submit work from the maching on which Sparkflows is installed.
+Sparkflows uses spark-submit to submit the Spark jobs to the cluster. Hence it is important that spark-submit work from the machine on which Sparkflows is installed.

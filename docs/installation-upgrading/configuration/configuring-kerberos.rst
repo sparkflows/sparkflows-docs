@@ -9,9 +9,9 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
  
 * **Place it in .../fire-1.x.y/conf directory**::
  
-    This is not required as keytab directory is configurable although this is the recommended location.
+    This is not required as keytab directory in Fire is configurable although this is the recommended location.
  
-* **Make sure only the user running fire application has access to the keytab**. For example:
+* **Make sure only the user running fire application has access to the keytab**. For example::
  
     **-rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab**
  
@@ -36,37 +36,39 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 
 Steps for generating the keytab for Fire
 ----------------------------------------
+
+Below are the steps for generating the keytab file:
+
+    $ kadmin.local
  
-$ kadmin.local
+    **Create the sparkflows principal (can be a different name but be consistent in the next steps with whatever username you use)**
  
-**Create the sparkflows principal (can be a different name but be consistent in the next steps with whatever username you use)**
- 
-kadmin.local: addprinc -randkey sparkflows@VENICE.HADOOP
+    kadmin.local: addprinc -randkey sparkflows@VENICE.HADOOP
                                          
-WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
-Principal "sparkflows@VENICE.HADOOP" created.
+    WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
+    Principal "sparkflows@VENICE.HADOOP" created.
 
-Create sparkflows key tab file
+    Create sparkflows key tab file
 
-kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
+    kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
 
-WRFILE:sparkflows.keytab.
+    WRFILE:sparkflows.keytab.
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
 
-WRFILE:sparkflows.keytab.
+    WRFILE:sparkflows.keytab.
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab     WRFILE:sparkflows.keytab.
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
 
-Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
 
-kadmin.local: exit
+    kadmin.local: exit
  
  
  

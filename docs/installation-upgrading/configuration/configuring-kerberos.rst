@@ -1,5 +1,5 @@
 Configuring Kerberos
---------------------
+====================
 
 Fire runs with a kerberized Spark cluster. Below are the steps for configuring it:
  
@@ -22,7 +22,7 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 
 +-------------------------+-------+------------------------------------------------------+
 | Configuration           | Value | Details                                              |
-+-------------------------+-------+------------------------------------------------------+
++=========================+=======+======================================================+
 | kerberos.enabled        | true  | Set it to true to enable Kerberos for Sparkflows     |
 +-------------------------+-------+------------------------------------------------------+
 | kerberos.keytab         |       | Absolute path of the keytab generated for Sparkflows |
@@ -35,7 +35,7 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 +-------------------------+-------+------------------------------------------------------+
 
 Steps for generating the keytab for Fire
-========================================
+----------------------------------------
  
 root@venice ~]# kadmin.local
  
@@ -69,29 +69,31 @@ Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cb
 kadmin.local: exit
  
 Verifying that the keytab file was correctly created
-======================================================
+----------------------------------------------------
 
-[root@venice ~]# **ls -l sparkflows.keytab**
--rw------- 1 root root 382 Jul 24 17:55 sparkflows.keytab
+Below are the steps for verifying the keytab file::
+
+    $ ls -l sparkflows.keytab
+    -rw------- 1 root root 382 Jul 24 17:55 sparkflows.keytab
  
-Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this
+    Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this
  
-[root@venice ~]# **klist -e -k -t sparkflows.keytab**
+    $ klist -e -k -t sparkflows.keytab
 
-Keytab name: FILE:sparkflows.keytab
+    Keytab name: FILE:sparkflows.keytab
 
-KVNO Timestamp Principal
-.....................................................................................................................................................
-1 07/24/16 17:55:07 sparkflows@VENICE.HADOOP (aes256-cts-hmac-sha1-96)
+    KVNO Timestamp Principal
+    .....................................................................................................................................................
+    1 07/24/16 17:55:07 sparkflows@VENICE.HADOOP (aes256-cts-hmac-sha1-96)
 
-1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (aes128-cts-hmac-sha1-96)
+    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (aes128-cts-hmac-sha1-96)
 
-1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des3-cbc-sha1)
+    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des3-cbc-sha1)
 
-1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (arcfour-hmac)
+    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (arcfour-hmac)
 
-1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-hmac-sha1)
+    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-hmac-sha1)
 
-1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-cbc-md5)
+    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-cbc-md5)
 
 

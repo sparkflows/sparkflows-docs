@@ -37,18 +37,18 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 Steps for generating the keytab for Fire
 ----------------------------------------
 
-Below are the steps for generating the keytab file::
+Below are the steps for generating the keytab file. **We have chosen sparkflows as the principal name. But you can have it as any user you are running Sparkflows Fire with**.
+
+* Start kadmin.local and add the new principal ``sparkflows@VENICE.HADOOP``::
 
     $ kadmin.local
- 
-    **Create the sparkflows principal (can be a different name but be consistent in the next steps with whatever username you use)**
  
     kadmin.local: addprinc -randkey sparkflows@VENICE.HADOOP
                                          
     WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
     Principal "sparkflows@VENICE.HADOOP" created.
 
-    Create sparkflows key tab file
+* Create sparkflows key tab file
 
     kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
 
@@ -67,6 +67,8 @@ Below are the steps for generating the keytab file::
     Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
 
     Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+
+* Exit kadmin.local::
 
     kadmin.local: exit
  

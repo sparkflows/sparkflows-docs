@@ -1,7 +1,10 @@
 Configuring Kerberos
 ====================
 
-Fire runs with a kerberized Spark cluster. Below are the steps for configuring it:
+Fire runs with a kerberized Spark cluster. 
+
+Steps for configuring Kerberos on Fire
+---------------------------------------
  
 * **Generate a keytab for Fire**
  

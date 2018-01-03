@@ -41,9 +41,9 @@ When running on the Cluster, you are running into the exception below::
 
 * If the above exception is coming up when running the workflow, then it means that the logged in user does not exist on HDFS.
 
-* In the above case, the user is logged into Fire as 'admin'. So the jobs submitted by Fire on the cluster is as the user 'admin'. But the user 'admin' does not exist on HDFS.
+* In the above case, the user is logged into Fire as ``admin``. So the jobs submitted by Fire on the cluster is as the user ``admin``. But the user 'admin' does not exist on HDFS.
 
-* Please make sure to log into Fire as a user which exists on HDFS.
+* Please make sure to ``log into Fire as a user which exists on HDFS``.
   
   
 When running the example workflows on the Spark Cluster it is not able to find the input files

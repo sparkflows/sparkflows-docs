@@ -13,7 +13,7 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
  
 * **Make sure only the user running fire application has access to the keytab**. For example::
  
-    **-rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab**
+    -rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab
  
     Ideally, take away the write access too, as no one should be able to modify a keytab once its been generated.
  

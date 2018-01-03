@@ -119,8 +119,7 @@ Id : 1::
   curl -X GET --header 'Accept: text/html' 'http://localhost:8080/workflowFireById/1' -b /tmp/cookies.txt
   
 Model Schema of workflow::
-------------------------
- 
+
   {
   "name": "string",
   "category": "string",
@@ -129,37 +128,37 @@ Model Schema of workflow::
   {
   "id": "string",
   "name": "string",
-"description": "string",
-"nodeClass": "string",
-"path": "string",
-"type": "string",
-"x": "string",
-"y": "string"
-"fields": [
-{
-"datatypes": [
-"string"
-],
-"description": "string",
-"display": true,
-"name": "string",
-"optionsArray": [
-"string"
-],
-"optionsMap": {},
-"required": true,
-"title": "string",
-"value": "string",
-"widget": "string"
-}
-],
-},
-],
-"edges": [
-{
-"id": 0,
-"source": "string",
-"target": "string"
-},
-]
-}
+  "description": "string",
+  "nodeClass": "string",
+  "path": "string",
+  "type": "string",
+  "x": "string",
+  "y": "string"
+  "fields": [
+  {
+  "datatypes": [
+  "string"
+  ],
+  "description": "string",
+  "display": true,
+  "name": "string",
+  "optionsArray": [
+  "string"
+  ],
+  "optionsMap": {},
+  "required": true,
+  "title": "string",
+  "value": "string",
+  "widget": "string"
+  }
+  ], 
+  },
+  ],
+  "edges": [ 
+  {
+  "id": 0,
+  "source": "string",
+  "target": "string"
+  }, 
+  ]
+  }

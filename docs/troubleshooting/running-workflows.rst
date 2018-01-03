@@ -55,7 +55,7 @@ The example workflows read in input files.
    
 * The data directory which comes with Sparkflows has to be uploaded onto HDFS.
 
-* For example, if the logged in user is 'john', then the data directory would be on HDFS in the directory /user/john
+* For example, if the logged in user is ``john``, then the data directory would be on HDFS in the directory ``/user/john``
   
   
 Getting Exception : Server returned HTTP response code: 405 for URL: http://10.125.221.72:8080/ messageFromSparkJob

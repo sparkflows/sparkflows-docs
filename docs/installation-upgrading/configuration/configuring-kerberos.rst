@@ -39,7 +39,7 @@ Steps for generating the keytab for Fire
 
 Below are the steps for generating the keytab file. **We have chosen sparkflows as the principal name. But you can have it as any user you are running Sparkflows Fire with**.
 
-* Start kadmin.local and add the new principal ``sparkflows@VENICE.HADOOP``::
+* **Start kadmin.local and add the new principal ``sparkflows@VENICE.HADOOP``**::
 
     $ kadmin.local
  
@@ -48,7 +48,7 @@ Below are the steps for generating the keytab file. **We have chosen sparkflows 
     WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
     Principal "sparkflows@VENICE.HADOOP" created.
 
-* Create sparkflows key tab file::
+* **Create sparkflows key tab file**::
 
     kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
 
@@ -69,7 +69,7 @@ Below are the steps for generating the keytab file. **We have chosen sparkflows 
     Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
 
 
-* Exit kadmin.local::
+* **Exit kadmin.local**::
 
     kadmin.local: exit
  

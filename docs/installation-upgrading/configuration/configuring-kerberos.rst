@@ -37,7 +37,7 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 Steps for generating the keytab for Fire
 ----------------------------------------
 
-Below are the steps for generating the keytab file:
+Below are the steps for generating the keytab file::
 
     $ kadmin.local
  

@@ -19,38 +19,34 @@ Header: sortPara:asc/desc::
 
   curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/workflowsJSON
 
-
-
 Save A Workflow
-​
+----------------
+
 Creates a new Workflow or updates an existing one.
  
-For creating new AnalysisFlow set analysisFlowId = null
-​
-curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "analysisFlowId:null" -X POST -b /tmp/cookies.txt -d '{"name": "Workflow123","uuid": "","category": null,"description": null,"nodes": [],"edges": []}' localhost:8080/saveWorkflow
-​
-​
+For creating new AnalysisFlow set analysisFlowId = null::
+
+  curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "analysisFlowId:null" -X POST -b /tmp/cookies.txt -d '{"name": "Workflow123","uuid": "","category": null,"description": null,"nodes": [],"edges": []}' localhost:8080/saveWorkflow
+
 Delete the workflow
-​
-id: 1
-​
-curl -X GET --header 'Accept: text/html' --header 'analysisFlowId: 1' 'http://localhost:8080/deleteWorkflow' -b /tmp/cookies.txt
-​
-​
+-------------------
+
+id: 1::
+
+  curl -X GET --header 'Accept: text/html' --header 'analysisFlowId: 1' 'http://localhost:8080/deleteWorkflow' -b /tmp/cookies.txt
+
 Execute Workflow Locally Synchronous
-​
-nodeId : 1
-​
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/executeWorkflowLocallySynchronous' -b /tmp/cookies.txt
-​
-​
+-------------------------------------
+nodeId : 1::
+
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/executeWorkflowLocallySynchronous' -b /tmp/cookies.txt
+
 Get Latest WorkFlows
+---------------------
  
-​
-​
-curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestWorkflows' -b /tmp/cookies.txt
-​
-​
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestWorkflows' -b /tmp/cookies.txt
+
+
 Return the value of a given field in a Node of a Workflow
  
 "nodeId": "2",

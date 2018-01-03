@@ -1,15 +1,10 @@
 Configuring Kerberos
 ====================
 
-.. role:: red
-
-An example of using :red:`interpreted text`
-
-Fire runs with a kerberized Spark cluster. :red:`Below are the steps for configuring it`:
+Fire runs with a kerberized Spark cluster. Below are the steps for configuring it:
  
 * **Generate a keytab for Fire**
  
-        
  
 * **Place it in .../fire-1.x.y/conf directory**::
  
@@ -82,12 +77,14 @@ Below are the steps for generating the keytab file. **We have chosen sparkflows 
 Verifying that the keytab file was correctly created
 ----------------------------------------------------
 
-Below are the steps for verifying the keytab file::
+Below are the steps for verifying the keytab file.
+
+* **Check out the keytab file and ensure you have the right permissions for it**
 
     $ ls -l sparkflows.keytab
     -rw------- 1 root root 382 Jul 24 17:55 sparkflows.keytab
  
-    Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this
+* **Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this**::
  
     $ klist -e -k -t sparkflows.keytab
 

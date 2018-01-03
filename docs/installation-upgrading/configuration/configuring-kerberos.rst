@@ -1,7 +1,11 @@
 Configuring Kerberos
 ====================
 
-Fire runs with a kerberized Spark cluster. Below are the steps for configuring it:
+.. role:: red
+
+An example of using :red:`interpreted text`
+
+Fire runs with a kerberized Spark cluster. :red:`Below are the steps for configuring it`:
  
 * **Generate a keytab for Fire**
  

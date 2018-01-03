@@ -64,10 +64,12 @@ message=test::
  
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080//messageFromSparkJob ?jobId=1&message=test' -b /tmp/cookies.txt
   
+  
  Returns the list of jar files under the fire-lib directory
 -----------------------------------------------------------
 
    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' 'http://localhost:8080/libJars' -b /tmp/cookies.txt
+   
 
 Returns the Spark Configuration for the username
 ------------------------------------------------

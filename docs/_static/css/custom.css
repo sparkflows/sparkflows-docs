@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
-
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
-  font-family: "Open Sans";
+  font-family: "Source Sans Pro";
+
+}
+.wy-nav-content h1{
+  font-weight: 300;
+  font-size: 45px;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6{
+  font-weight: 600;
 }
 .wy-side-nav-search, .wy-nav-side {
     background-color: #3d709f;
@@ -86,7 +95,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     max-width: 100%;
     margin: auto;
 }
-
 
 .wy-breadcrumbs li a:visited,.wy-breadcrumbs li a,.wy-nav-content a:visited{
   color: #305a82;

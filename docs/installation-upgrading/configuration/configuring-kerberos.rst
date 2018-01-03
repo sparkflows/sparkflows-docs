@@ -48,7 +48,7 @@ Below are the steps for generating the keytab file. **We have chosen sparkflows 
     WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
     Principal "sparkflows@VENICE.HADOOP" created.
 
-* Create sparkflows key tab file
+* Create sparkflows key tab file::
 
     kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
 
@@ -67,6 +67,7 @@ Below are the steps for generating the keytab file. **We have chosen sparkflows 
     Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
 
     Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+
 
 * Exit kadmin.local::
 

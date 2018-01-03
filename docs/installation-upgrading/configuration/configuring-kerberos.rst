@@ -9,9 +9,9 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
  
 * **Place it in .../fire-1.x.y/conf directory**::
  
-    This is not required as keytab directory is configurable although this is a good place to put it.
+    This is not required as keytab directory is configurable although this is the recommended location.
  
-    Make sure only the user running fire application has access to the keytab. For example:
+* **Make sure only the user running fire application has access to the keytab**. For example:
  
     **-rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab**
  

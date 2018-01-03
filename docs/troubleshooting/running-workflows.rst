@@ -98,9 +98,9 @@ Getting Exception : java.lang.ClassNotFoundException: fire.execute.WorkflowExecu
 
 When running the jobs on the cluster, you are running into the exception below.
 
-* The reason for it is that the app.sparkSubmitJar is not set up correctly. Fire comes with a jar file which gets submitted to the cluster with spark-submit. app.sparkSubmitJar has to correctly point to this jar file.
+* The reason for it is that the ``app.sparkSubmitJar`` is not set up correctly. Fire comes with a jar file which gets submitted to the cluster with spark-submit. app.sparkSubmitJar has to correctly point to this jar file.
   
-* You can go under Administration/Configuration to set it up correctly.
+* You can go under ``Administration/Configuratio``n to set it up correctly.
 
 
 Exception::

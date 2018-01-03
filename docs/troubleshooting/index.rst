@@ -10,5 +10,3 @@ Troubleshooting
    logs.rst
    kerberos.rst
    dataset.rst
-   
-   

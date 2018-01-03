@@ -108,3 +108,11 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6{
     content: "\f139";
     color: #fff;
 }
+
+.wy-menu-vertical .toctree-l1.current{
+    border-bottom: solid 1px #019CDC;
+}
+
+.section {
+    padding-bottom: 30px;
+}

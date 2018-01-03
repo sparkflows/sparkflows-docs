@@ -75,3 +75,25 @@ Returns the Spark Configuration for the username
 ------------------------------------------------
  
    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/retrieveSparkConfig/admin' -b /tmp/cookies.txt 
+   
+ Delete Workflow Executions by days
+ -----------------------------------
+ 
+"days": "3"::
+ 
+  curl -X GET --header 'Accept: text/html' --header 'days: 3' 'http://localhost:8080/deleteWorkflowExecutionByDays' -b /tmp/cookies.txt
+
+List all the workflow executions by all users
+--------------------------------------------- 
+ 
+   curl -X GET --header 'Accept: text/html' 'http://localhost:8080/executionsByAllUsers' -b /tmp/cookies.txt
+
+Get Executed Task Count
+-----------------------
+ 
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getExecutedTaskCount' -b /tmp/cookies.txt
+
+Get Latest Executions
+---------------------
+ 
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestExecutions' -b /tmp/cookies.txt

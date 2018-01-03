@@ -10,7 +10,7 @@ The clusters could be based on the Apache Hadoop distribution from Cloudera, Hor
 
 The cluster can be on-premise or on the cloud.
 
-.. figure:: ../../_assets/architecture/cloud-and-personal-machine.png
+.. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
    :scale: 100%
-   :alt: On-Premise or Public/Private Cloud and Personal Machine
+   :alt: Sparkflows Fire Deployment
    :align: center

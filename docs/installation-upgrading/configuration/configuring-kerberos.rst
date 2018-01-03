@@ -7,15 +7,15 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
  
         
  
-* **Place it in .../fire-1.x.y/conf directory**
+* **Place it in .../fire-1.x.y/conf directory**::
  
-         This is not required as keytab directory is configurable although this is a good place to put it.
+    This is not required as keytab directory is configurable although this is a good place to put it.
  
-         Make sure only the user running fire application has access to the keytab. For example:
+    Make sure only the user running fire application has access to the keytab. For example:
  
-         **-rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab**
+    **-rw------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab**
  
-         Ideally, take away the write access too, as no one should be able to modify a keytab once its been generated.
+    Ideally, take away the write access too, as no one should be able to modify a keytab once its been generated.
  
 * **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire**
 
@@ -37,7 +37,7 @@ Fire runs with a kerberized Spark cluster. Below are the steps for configuring i
 Steps for generating the keytab for Fire
 ----------------------------------------
  
-root@venice ~]# kadmin.local
+$ kadmin.local
  
 **Create the sparkflows principal (can be a different name but be consistent in the next steps with whatever username you use)**
  
@@ -67,6 +67,8 @@ Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hm
 Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
 
 kadmin.local: exit
+ 
+ 
  
 Verifying that the keytab file was correctly created
 ----------------------------------------------------

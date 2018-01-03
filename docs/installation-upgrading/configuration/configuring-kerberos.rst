@@ -79,10 +79,12 @@ Verifying that the keytab file was correctly created
 
 Below are the steps for verifying the keytab file.
 
-* **Check out the keytab file and ensure you have the right permissions for it**
+* **Ensure that the keytab file was created and it has the right permissions**::
 
     $ ls -l sparkflows.keytab
+    
     -rw------- 1 root root 382 Jul 24 17:55 sparkflows.keytab
+ 
  
 * **Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this**::
  

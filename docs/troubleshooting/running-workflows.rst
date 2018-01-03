@@ -84,11 +84,11 @@ When submitting jobs to the cluster from Fire, you are running into the exceptio
 
 Fire submits Spark jobs to the cluster. The spark driver, posts certain results back to the Fire server to be displayed to the user.
 
-The cause of this error is that the postback-url has been set incorrectly - http://10.125.221.72:8080/messageFromSparkJob
+The cause of this error is that the postback-url has not been set correctly - ``http://10.125.221.72:8080/messageFromSparkJob``
 
 There could be following issues with the URL::
 
-  The machine name/IP is wrong.
+  The machine name/IP is wrong. It has to be the machine on which Fire is running.
 
   The port number is wrong. Fire server is running on another port on the machine.
   

@@ -30,7 +30,7 @@ Set dashboardId value null to create new dashboard::
 Get Dashboard by Id
 --------------------
 
-id:10(Url Parameter)
+id:10(Url Parameter)::
 
   curl - X GET --header 'Accept: application/json' 'http://localhost:8080/dashboardById/10' -b /tmp/cookies.txt
 

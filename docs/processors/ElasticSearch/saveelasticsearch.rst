@@ -1,5 +1,5 @@
 
-ElasticSearchLoad
+SaveElasticSearch
 ========== 
 
 Stores the rows of the incoming DataFrame into Elastic Search
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.elasticsearch.NodeElasticSearchLoad
+fire.nodes.elasticsearch.NodeSaveElasticSearch
 
 Fields
 ---------- 

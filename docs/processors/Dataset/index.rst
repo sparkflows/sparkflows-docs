@@ -6,6 +6,7 @@ Dataset
 
    unstructured/index
    db2.rst
+   readsalesforce.rst
    jdbc.rst
    avro.rst
    url.rst
@@ -13,7 +14,6 @@ Dataset
    structured.rst
    excel.rst
    parquet.rst
-   salesforce.rst
    json.rst
    xml.rst
    redshift.rst

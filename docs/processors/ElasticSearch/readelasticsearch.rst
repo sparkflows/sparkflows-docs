@@ -1,5 +1,5 @@
 
-ElasticSearchRead
+ReadElasticSearch
 ========== 
 
 Reads data from Elastic Search
@@ -12,7 +12,7 @@ dataset
 Class
 ---------- 
 
-fire.nodes.elasticsearch.NodeElasticSearchRead
+fire.nodes.elasticsearch.NodeReadElasticSearch
 
 Fields
 ---------- 

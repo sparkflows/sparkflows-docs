@@ -1,7 +1,7 @@
-HBase
+Sftp
 ============
 
 .. toctree::
    :maxdepth: 2
 
-   savehbase.rst
+   sftp.rst

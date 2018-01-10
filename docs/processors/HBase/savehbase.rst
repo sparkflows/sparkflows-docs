@@ -1,8 +1,8 @@
 
-HBaseLoad
+SaveHBase
 ========== 
 
-Loads all the rows in the incoming DataFrame onto HBase using the specific field mapping
+Saves all the rows in the incoming DataFrame onto HBase using the specific field mapping
 
 Type
 ---------- 
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.hbase.NodeHBaseLoad
+fire.nodes.hbase.NodeSaveHBase
 
 Fields
 ---------- 

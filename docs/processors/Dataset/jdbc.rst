@@ -2,7 +2,7 @@
 JDBC
 ========== 
 
-This node reads data from other databases using JDBC.
+This node reads data from Relational Databases using JDBC
 
 Type
 ---------- 

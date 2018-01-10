@@ -4,6 +4,16 @@ JDBC
 
 This node reads data from Relational Databases using JDBC
 
+Input
+---------- 
+
+It reads data from Relational Databases
+
+Output
+---------- 
+
+It creates a DataFrame from the data read and sends it to its output
+
 Type
 ---------- 
 

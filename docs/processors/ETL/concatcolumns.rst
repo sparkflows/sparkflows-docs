@@ -4,6 +4,16 @@ ConcatColumns
 
 This node creates a new DataFrame by concatenating the specified columns of the input DataFrame
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
+Output
+---------- 
+
+A new column is added to the incoming DataFrame by concatenating the specified columns. The new DataFrame is sent to the output of this Node.
+
 Type
 ---------- 
 

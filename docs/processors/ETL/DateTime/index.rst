@@ -5,9 +5,9 @@ DateTime
    :maxdepth: 2
 
    datetimefieldextract.rst
-   stringtodate.rst
    datetoage.rst
+   datetodiff.rst
    datetostring.rst
+   stringtodate.rst
    stringtounixtime.rst
    unixtimetostring.rst
-   datetodiff.rst

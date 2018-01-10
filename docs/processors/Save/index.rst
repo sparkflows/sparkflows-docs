@@ -5,11 +5,11 @@ Save
    :maxdepth: 2
 
    aws/index
-   saveashivetable.rst
    kafkaproducer.rst
-   saveparquet.rst
-   savejdbc.rst
-   saveorc.rst
+   saveashivetable.rst
    saveavro.rst
    savecsv.rst
+   savejdbc.rst
    savejson.rst
+   saveorc.rst
+   saveparquet.rst

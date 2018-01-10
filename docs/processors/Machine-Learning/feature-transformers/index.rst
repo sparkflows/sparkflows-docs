@@ -4,19 +4,19 @@ feature-transformers
 .. toctree::
    :maxdepth: 2
 
-   stopwordsremover.rst
-   indexstring.rst
-   tokenizer.rst
-   normalizer.rst
-   QuantileDiscretizer.rst
-   onehotencoder.rst
-   binarizer.rst
-   stringindexer.rst
-   idf.rst
    PolynominalExpansion.rst
-   vectorindexer.rst
-   ngram.rst
-   sqltransformer.rst
-   vectorfunctions.rst
-   vectorassembler.rst
+   QuantileDiscretizer.rst
    WordToScoreMapping.rst
+   binarizer.rst
+   idf.rst
+   indexstring.rst
+   ngram.rst
+   normalizer.rst
+   onehotencoder.rst
+   sqltransformer.rst
+   stopwordsremover.rst
+   stringindexer.rst
+   tokenizer.rst
+   vectorassembler.rst
+   vectorfunctions.rst
+   vectorindexer.rst

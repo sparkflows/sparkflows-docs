@@ -4,20 +4,20 @@ Processors
 .. toctree::
    :maxdepth: 2
 
-   Logs/index
-   Machine-Learning/index
-   Sftp/index
-   Dataset/index
-   ElasticSearch/index
-   OCR/index
-   Streaming/index
-   ETL/index
-   Save/index
-   Util/index
    Cassandra/index
-   OpenNLP/index
-   Marketo/index
+   Dataset/index
+   ETL/index
+   ElasticSearch/index
    Graph/index
    HBase/index
    HIVE/index
+   Logs/index
+   Machine-Learning/index
+   Marketo/index
+   OCR/index
+   OpenNLP/index
+   Save/index
+   Sftp/index
+   Streaming/index
+   Util/index
    doclarge.rst

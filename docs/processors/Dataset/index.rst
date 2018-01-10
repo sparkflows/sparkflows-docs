@@ -5,15 +5,15 @@ Dataset
    :maxdepth: 2
 
    unstructured/index
-   db2.rst
-   readsalesforce.rst
-   jdbc.rst
    avro.rst
-   url.rst
    csv.rst
-   structured.rst
+   db2.rst
    excel.rst
-   parquet.rst
+   jdbc.rst
    json.rst
-   xml.rst
+   parquet.rst
+   readsalesforce.rst
    redshift.rst
+   structured.rst
+   url.rst
+   xml.rst

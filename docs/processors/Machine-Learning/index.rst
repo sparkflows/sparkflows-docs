@@ -4,16 +4,16 @@ Machine-Learning
 .. toctree::
    :maxdepth: 2
 
-   feature-selection/index
-   freq-pattern-mining/index
-   feature-extraction/index
-   util/index
-   feature-scaler/index
-   classification/index
-   collaborative-filtering/index
    basic-statistics/index
-   feature-transformers/index
+   classification/index
    clustering/index
+   collaborative-filtering/index
    dimensionality-reduction/index
-   regression/index
    evaluate-predict/index
+   feature-extraction/index
+   feature-scaler/index
+   feature-selection/index
+   feature-transformers/index
+   freq-pattern-mining/index
+   regression/index
+   util/index

@@ -6,7 +6,7 @@ classification
 
    DecisionTreeClassifier.rst
    GBTClassifier.rst
-   logisticregression.rst
    MultiLayerPerceptron.rst
    NavieBayes.rst
    RandomForestClassifier.rst
+   logisticregression.rst

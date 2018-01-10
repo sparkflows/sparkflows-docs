@@ -4,9 +4,9 @@ Graph
 .. toctree::
    :maxdepth: 2
 
-   yearDistribution.rst
-   weekDayDistribution.rst
-   monthDistribution.rst
-   graphvalues.rst
    graphgroupbycolumn.rst
+   graphvalues.rst
+   monthDistribution.rst
    regionGeoGraph.rst
+   weekDayDistribution.rst
+   yearDistribution.rst

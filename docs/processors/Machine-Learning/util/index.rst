@@ -4,13 +4,13 @@ util
 .. toctree::
    :maxdepth: 2
 
-   trainvalidationsplit.rst
-   crossvalidator.rst
-   split.rst
    arima.rst
-   roc.rst
+   crossvalidator.rst
    mlmodelload.rst
    mlmodelsave.rst
-   wordcount.rst
    pipeline.rst
+   roc.rst
+   split.rst
    svd.rst
+   trainvalidationsplit.rst
+   wordcount.rst

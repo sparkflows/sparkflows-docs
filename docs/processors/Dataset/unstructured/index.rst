@@ -4,8 +4,8 @@ unstructured
 .. toctree::
    :maxdepth: 2
 
-   tika.rst
+   binaryfiles.rst
+   pdf.rst
    pdfimageocr.rst
    textfiles.rst
-   pdf.rst
-   binaryfiles.rst
+   tika.rst

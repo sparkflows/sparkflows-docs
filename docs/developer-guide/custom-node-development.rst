@@ -61,8 +61,8 @@ Fire supports various widgets types for capturing the details of the fields from
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
 
 
-Deploy the Custom Node in fire-ui
----------------------------------
+Deploy the Custom Node in the Fire Server
+-----------------------------------------
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
   

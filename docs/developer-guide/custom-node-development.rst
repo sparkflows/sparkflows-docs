@@ -31,7 +31,7 @@ Code the Custom nodes
  
   * Write the new Node extending the ``Node`` class.
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
-  * In case this Node creates a new DataFrame by reading some data, the incoming DataFrame would be null and this Node would create a new DataFrame from the Data in the store.
+  * In case this Node creates a new DataFrame by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read from the Data Source.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
  
 Create the Node JSON file
@@ -48,8 +48,8 @@ Deploy the Custom node in fire-ui
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
   * Place the JSON file for the new node under the ``nodes`` directory.
-  * Restart the fire server.
-  * The new node would be picked up by the UI framework.
+  * Restart the Fire Server.
+  * The new node would be picked up by the Fire Server.
   
 Use the custom node in spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 

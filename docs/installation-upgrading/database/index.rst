@@ -1,7 +1,7 @@
 Database Setup
 --------------
 
-Fire stores metadata in a Relational Database. These include:
+**Fire stores metadata in a Relational Database. These include:**
 
   * Dataset Definitions
   * Workflows
@@ -11,7 +11,7 @@ Fire stores metadata in a Relational Database. These include:
   * Dashboards
   
  
-Below are the details for setting up a database for Fire:
+**Below are the details for setting up a database for Fire:**
 
 .. toctree::
    :maxdepth: 1

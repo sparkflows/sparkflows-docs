@@ -12,8 +12,8 @@ Sparkflows follows an open and extensible architecture allowing developers to ad
 
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
  
-Start with the writing-new-node repo
-------------------------------------
+Start with cloning the github repo : writing-new-node
+-----------------------------------------------------
 
 The easiest way to start writing a new Node/Processor for Fire is to clone the ``writing-new-node`` repo::
 

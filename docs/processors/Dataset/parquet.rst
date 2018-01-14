@@ -4,6 +4,16 @@ Parquet
 
 Dataset Node for reading Parquet files
 
+Input
+---------- 
+
+It reads in Parquet files
+
+Output
+---------- 
+
+It creates a DataFrame from the data read and sends it to its output
+
 Type
 ---------- 
 

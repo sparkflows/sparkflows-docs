@@ -4,7 +4,6 @@ Save
 .. toctree::
    :maxdepth: 2
 
-   aws/index
    kafkaproducer.rst
    saveashivetable.rst
    saveavro.rst

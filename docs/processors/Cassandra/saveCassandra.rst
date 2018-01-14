@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.save.NodeSaveCassandra
+fire.nodes.cassandra.NodeSaveCassandra
 
 Fields
 ---------- 

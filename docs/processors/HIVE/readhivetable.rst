@@ -2,7 +2,17 @@
 Read HIVE Table
 ========== 
 
-This node reads data HIVE
+This node reads data from HIVE table and creates a DataFrame from it
+
+Input
+---------- 
+
+It reads in CSV text files
+
+Output
+---------- 
+
+It creates a DataFrame from the data read and sends it to its output
 
 Type
 ---------- 

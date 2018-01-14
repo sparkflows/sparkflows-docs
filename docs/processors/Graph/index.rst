@@ -6,7 +6,7 @@ Graph
 
    graphgroupbycolumn.rst
    graphvalues.rst
-   monthDistribution.rst
+   monthDistributionGraph.rst
    regionGeoGraph.rst
-   weekDayDistribution.rst
-   yearDistribution.rst
+   weekDayDistributionGraph.rst
+   yearDistributionGraph.rst

@@ -1,4 +1,4 @@
-unstructured
+Unstructured
 ============
 
 .. toctree::

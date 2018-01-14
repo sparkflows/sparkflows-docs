@@ -1,8 +1,8 @@
 
-WeekDayDistribution
+MonthDistribution
 ========== 
 
-This node Finds the distribution of Week Days from Date values
+This node Finds the distribution of months from Date values
 
 Type
 ---------- 
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.graph.NodeWeekDayDistribution
+fire.nodes.graph.NodeGraphMonthDistribution
 
 Fields
 ---------- 

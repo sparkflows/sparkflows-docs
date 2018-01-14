@@ -1,5 +1,5 @@
 
-AWSRedshift
+ReadRedshift-AWS
 ========== 
 
 This node reads data from Redshift using JDBC.
@@ -12,7 +12,7 @@ dataset
 Class
 ---------- 
 
-fire.nodes.dataset.NodeDatasetRedshift
+fire.nodes.aws.NodeReadRedshift
 
 Fields
 ---------- 

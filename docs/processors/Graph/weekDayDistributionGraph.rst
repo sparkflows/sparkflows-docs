@@ -1,8 +1,8 @@
 
-YearDistribution
+WeekDayDistribution
 ========== 
 
-This node Finds the distribution of Years from Date values
+This node Finds the distribution of Week Days from Date values
 
 Type
 ---------- 
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.graph.NodeYearDistribution
+fire.nodes.graph.NodeGraphWeekDayDistribution
 
 Fields
 ---------- 

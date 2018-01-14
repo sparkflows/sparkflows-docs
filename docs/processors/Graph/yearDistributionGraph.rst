@@ -1,8 +1,8 @@
 
-MonthDistribution
+YearDistribution
 ========== 
 
-This node Finds the distribution of months from Date values
+This node Finds the distribution of Years from Date values
 
 Type
 ---------- 
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.graph.NodeMonthDistribution
+fire.nodes.graph.NodeGraphYearDistribution
 
 Fields
 ---------- 

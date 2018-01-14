@@ -1,5 +1,5 @@
 
-S3SaveCSV
+S3SaveCSV-AWS
 ========== 
 
 Saves the DataFrame into the specified S3 location in CSV Format
@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.save.aws.NodeS3SaveCSV
+fire.nodes.aws.NodeS3SaveCSV
 
 Fields
 ---------- 

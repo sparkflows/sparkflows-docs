@@ -2,7 +2,7 @@
 JDBC
 ========== 
 
-This node reads data from Relational Databases using JDBC
+This node reads data from Relational Databases using JDBC and creates a DataFrame from it
 
 Input
 ---------- 

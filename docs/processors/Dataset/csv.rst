@@ -1,28 +1,28 @@
 
-Join Using SQL
+ReadCSV
 ========== 
 
-This node registers the incoming DataFrames as temporary tables and executes the SQL provided
+It reads in CSV files and creates a DataFrame from it
 
 Input
 ---------- 
 
-It takes in 2 DataFrames as input and produces one DataFrame as output by executing the provided SQL.
+It reads in CSV text files
 
 Output
 ---------- 
 
-The DataFrame created as a result of executing the join SQL
+It creates a DataFrame from the data read and sends it to its output
 
 Type
 ---------- 
 
-join
+dataset
 
 Class
 ---------- 
 
-fire.nodes.etl.NodeJoinUsingSQL
+fire.nodes.dataset.NodeDatasetCSV
 
 Fields
 ---------- 
@@ -30,11 +30,11 @@ Fields
 +------------------+----------------------------+---------------------------------+
 | Name             | Title                      | Description                     |
 +==================+============================+=================================+
-| tempTable1       | Temp Table1                | Temp Table Name to be used      |
+| path             | Path                       | Path of the Text file/directory |
 +------------------+----------------------------+---------------------------------+
-| tempTable2       | Temp Table2                | Temp Table Name to be used      |
+| separator        | Separator                  | CSV Separator                   |
 +------------------+----------------------------+---------------------------------+
-| sql              | SQL                        | SQL to be run                   |
+| header           | Header                     | Does the file have a header row |
 +------------------+----------------------------+---------------------------------+
 | outputColNames   | Column Names for the CSV   | New Output Columns of the SQL   |
 +------------------+----------------------------+---------------------------------+

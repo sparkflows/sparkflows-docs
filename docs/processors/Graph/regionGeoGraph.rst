@@ -12,7 +12,7 @@ transform
 Class
 ---------- 
 
-fire.nodes.graph.NodeRegionGeoGraph
+fire.nodes.graph.NodeGraphRegionGeo
 
 Fields
 ---------- 

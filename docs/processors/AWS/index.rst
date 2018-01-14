@@ -1,7 +1,8 @@
-Sftp
+AWS
 ============
 
 .. toctree::
    :maxdepth: 2
 
-   sftp.rst
+   readredshift.rst
+   s3savecsv.rst

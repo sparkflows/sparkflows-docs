@@ -12,7 +12,7 @@ dataset
 Class
 ---------- 
 
-fire.nodes.read.NodeReadCassandra
+fire.nodes.cassandra.NodeReadCassandra
 
 Fields
 ---------- 

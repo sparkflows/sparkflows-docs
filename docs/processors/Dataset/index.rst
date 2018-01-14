@@ -4,7 +4,7 @@ Dataset
 .. toctree::
    :maxdepth: 2
 
-   unstructured/index
+   Unstructured/index
    avro.rst
    csv.rst
    db2.rst
@@ -12,8 +12,6 @@ Dataset
    jdbc.rst
    json.rst
    parquet.rst
-   readsalesforce.rst
-   redshift.rst
    structured.rst
    url.rst
    xml.rst

@@ -34,7 +34,7 @@ Code the New Custom Node
   * In case this Node creates a new DataFrame by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read from the Data Source.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
   
-Examples of Custom Nodes:
+**Examples of Custom Nodes:**
 
   * https://github.com/sparkflows/writing-new-node/tree/master/src/main/java/fire/nodes/examples
   * https://github.com/sparkflows/writing-new-node/tree/spark-2.x/src/main/java/fire/nodes/examples
@@ -53,7 +53,7 @@ Fire supports various widgets types for capturing the details of the fields from
 
 * https://github.com/sparkflows/writing-new-node/blob/master/docs/README_Processor_JSON.md
 
-Examples of Node JSON:
+**Examples of Node JSON:**
 
 * https://github.com/sparkflows/writing-new-node/blob/master/testprintnrows.json
 

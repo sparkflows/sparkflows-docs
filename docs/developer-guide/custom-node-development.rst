@@ -20,6 +20,13 @@ Coding the Custom nodes
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
  
+Creating the Node JSON file
+---------------------------
+
+Fire supports various widgets. Their details are available at:
+
+* https://github.com/sparkflows/writing-new-node/blob/master/docs/README_widgets.md
+
 Deploying the Custom node in fire-ui
 -------------------------------------
  

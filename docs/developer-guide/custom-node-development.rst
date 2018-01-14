@@ -58,6 +58,8 @@ Fire supports various widgets types for capturing the details of the fields from
 **Examples of Node JSON:**
 
 * https://github.com/sparkflows/writing-new-node/blob/master/testprintnrows.json
+* https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
+
 
 Deploy the Custom Node in fire-ui
 ---------------------------------

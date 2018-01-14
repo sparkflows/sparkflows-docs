@@ -16,9 +16,9 @@ Coding the Custom nodes
 ------------------------
  
   * Include the fire jar file in your Java/Scala project.
-  * Write the new Node extending the 'Node' class.
-  * Implement/Override the ``execute`` method.
-  * If the node is changing the incoming schema, also implement/override the ``getOutputSchema`` method.
+  * Write the new Node extending the ``Node`` class.
+  * Implement/Override the ``execute()`` method.
+  * If the node is changing the incoming schema, also implement/override the ``getOutputSchema()`` method.
  
 Deploying the Custom node in fire-ui
 -------------------------------------

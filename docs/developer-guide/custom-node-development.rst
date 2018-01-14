@@ -33,6 +33,16 @@ Code the New Custom Node
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
   * In case this Node creates a new DataFrame by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read from the Data Source.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
+  
+Examples of Custom Nodes:
+
+  * https://github.com/sparkflows/writing-new-node/tree/master/src/main/java/fire/nodes/examples
+  * https://github.com/sparkflows/writing-new-node/tree/spark-2.x/src/main/java/fire/nodes/examples
+  * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
+  
+There is minor difference between the code for Spark 1.6.X and Spark 2.X.
+
+DataFrames are used for Spark 1.6.X, while Dataset<Row> is used for Spark 2.X.
  
 Create the Node JSON file
 -------------------------

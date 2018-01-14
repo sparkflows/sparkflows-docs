@@ -9,8 +9,8 @@ Stop Fire with the below command from the directory in it installed in::
     run-fire-server.sh stop
 
 
-Download the fire tgz file
----------------------------
+Download the new fire tgz file
+------------------------------
 
 Download Fire tgz file from::
 
@@ -23,7 +23,7 @@ Unpack it
 
 Unpack the tgz file with below on unix/linux::
 
-    tar xvf fire-1.4.2.tgz
+    tar xvf fire-1.4.3.tgz
 
 Upgrade the H2 or MySQL database
 --------------------------------
@@ -34,11 +34,11 @@ Upgrade the H2 or MySQL database
 * Execute the following commands on the Command Line to upgrade the Fire database::
 
 
-    cd <install_dir>/fire-1.4.2
+    cd <install_dir>/fire-1.4.3
     
     ./create-h2-db.sh      OR     ./create-mysql-db.sh
     
-(the above command creates or updates the existing db if one already exists)
+``the above command creates or updates the existing db if one already exists``
 
 
 Restart Fire

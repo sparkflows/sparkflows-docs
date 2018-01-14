@@ -31,7 +31,7 @@ Code the Custom nodes
  
   * Write the new Node extending the ``Node`` class.
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
-    * In case this Node creates a new DataFrame by reading some data, the incoming DataFrame would be null and this Node would create a new DataFrame from the Data in the store.
+  * In case this Node creates a new DataFrame by reading some data, the incoming DataFrame would be null and this Node would create a new DataFrame from the Data in the store.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
  
 Create the Node JSON file

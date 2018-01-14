@@ -19,10 +19,11 @@ The easiest way to start writing a new Node/Processor for Fire is to clone the `
 
     git clone https://github.com/sparkflows/writing-new-node.git
 
-Use the appropriate branch based on your requirements:
+Use the appropriate branch based on your requirements::
 
-  * master branch for Spark 1.6.X
-  * spark-2.x for Spark 2.X
+    master branch for Spark 1.6.X
+    
+    spark-2.x for Spark 2.X
   
 
 Code the Custom nodes

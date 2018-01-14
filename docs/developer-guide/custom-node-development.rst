@@ -4,18 +4,18 @@ Custom Node Development & Deployment
 Sparkflows follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in the UI and embedded into workflows.
  
  
-Examples of Custom  nodes
---------------------------
+The details for building New Nodes are available at:
  
   * https://github.com/sparkflows/writing-new-node
+  
+Examples of more complex Nodes are at:
+
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
- 
  
 
 Coding the Custom nodes
 ------------------------
  
-  * Include the fire jar file in your Java/Scala project.
   * Write the new Node extending the ``Node`` class.
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.

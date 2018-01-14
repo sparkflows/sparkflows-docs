@@ -3,8 +3,8 @@ MapR specific details
 
 When running on a MapR cluster, the below are important:
 
-* Download MapR specific binary.
-* Administration / Configuration of Sparkflows::
+* Download MapR specific binary from : https://www.sparkflows.io/archives
+* In Administration / Configuration of Sparkflows::
 
     Turn off impersonation : Set app.impersonateUsers = false
     Set maprfs : hdfs.namenodeURI = maprfs:///

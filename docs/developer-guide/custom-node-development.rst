@@ -4,11 +4,11 @@ Custom Node Development & Deployment
 Sparkflows follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in the UI and embedded into workflows.
  
  
-The details for building New Nodes are available at:
+**The details for building New Nodes are available at:**
  
   * https://github.com/sparkflows/writing-new-node
   
-Examples of more complex Nodes are at:
+**Examples of more complex Nodes are at:**
 
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
  

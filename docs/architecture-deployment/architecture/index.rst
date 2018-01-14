@@ -10,7 +10,7 @@ Fire consists of three core components:
 
   * **Web Browser** for defining end-to-end workflows for building data products and applications
 
-    * The users interact with the web based drag and drop user interface for creating Datasets and Workflows
+    * Users interact with the web based drag and drop user interface for creating Datasets and Workflows
     * Workflows leverage the exhaustive set of functional and operational nodes such as Data Profiling, Data Cleaning, ETL, NLP, OCR, Machine Learning etc. displayed in the user interface.
 
   * **Web Server** running on an Edge node in a Apache Spark Cluster

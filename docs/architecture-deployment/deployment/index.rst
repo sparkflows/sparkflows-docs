@@ -3,8 +3,9 @@ Fire Deployment Options
 
 Sparkflows Fire can easily be deployed:
 
-* On a standalone machine or 
-* On a Hadoop/Spark Cluster. 
+* On a Hadoop/Spark Cluster or
+* On a standalone machine
+
 
 Deployment on a Hadoop/Spark Cluster
 -------------------------------------
@@ -21,6 +22,13 @@ The cluster can be on-premise or on the cloud.
 
 Deployment on a Standalone Machine
 ----------------------------------
+
+In this mode, Fire is installed on a mac/windows/linux machine. All the executions happen on that machine, in the web server.
+
+This mode can be used for:
+
+* Designing Workflows to be finally deployed on a larger Apache Spark Cluster
+* For analysing smaller sets of data
 
 .. figure:: ../../_assets/architecture/personal-machine.png
    :scale: 100%

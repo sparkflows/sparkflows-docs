@@ -37,7 +37,9 @@ Code the Custom nodes
 Create the Node JSON file
 -------------------------
 
-Fire supports various widgets. Their details are available at:
+Create the JSON file for the new Node. Fire server uses it for displaying the displaying it in the User Interface and capturing the details of it fields through a Dialog box.
+
+Fire supports various widgets types for capturing the details of the fields from the user. Their details of the various widget types is available at:
 
 * https://github.com/sparkflows/writing-new-node/blob/master/docs/README_widgets.md
 

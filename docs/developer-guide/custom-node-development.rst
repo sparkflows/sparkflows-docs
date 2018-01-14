@@ -42,7 +42,7 @@ Code the New Custom Node
   
 There is minor difference between the code for Spark 1.6.X and Spark 2.X.
 
-DataFrames are used for Spark 1.6.X, while Dataset<Row> is used for Spark 2.X.
+``DataFrames`` are used for Spark 1.6.X, while ``Dataset<Row>`` is used for Spark 2.X.
  
 Create the Node JSON file
 -------------------------

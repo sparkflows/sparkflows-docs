@@ -15,7 +15,7 @@ Sparkflows follows an open and extensible architecture allowing developers to ad
 Start with the writing-new-node repo
 ------------------------------------
 
-The easiest way to start writing a new Node/Processor for Fire is to clone the ``writing-new-node`` repo:
+The easiest way to start writing a new Node/Processor for Fire is to clone the ``writing-new-node`` repo::
 
     git clone https://github.com/sparkflows/writing-new-node.git
 

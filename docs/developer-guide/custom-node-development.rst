@@ -37,7 +37,7 @@ Code the Custom nodes
 Create the Node JSON file
 -------------------------
 
-Create the JSON file for the new Node. Fire server uses it for displaying the displaying it in the User Interface and capturing the details of it fields through a Dialog box.
+Create the JSON file for the new Node. Fire server uses it for displaying it in the User Interface and capturing the details of it fields through a Dialog box. It also captures the Java/Scala class which has the implementation code for the Node.
 
 Fire supports various widgets types for capturing the details of the fields from the user. Their details of the various widget types is available at:
 
@@ -47,7 +47,7 @@ Deploy the Custom node in fire-ui
 ---------------------------------
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
-  * Create a json for the new node and place it under the ``nodes`` directory. The json file defines the fields that the user can edit in the UI and also the class file for the node.
+  * Place the JSON file for the new node under the ``nodes`` directory.
   * Restart the fire server.
   * The new node would be picked up by the UI framework.
   

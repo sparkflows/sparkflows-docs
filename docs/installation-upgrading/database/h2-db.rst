@@ -18,12 +18,12 @@ Execute the following steps on your CLI:
 
 * Mac/Linux::
 
-    cd <install_dir>/sparkflows-fire-1.4.1
+    cd <install_dir>/sparkflows-fire-1.x.y
     ./create-h2-db.sh
 
 * Windows::
 
-    cd <install_dir>\sparkflows-fire-1.4.1
+    cd <install_dir>\sparkflows-fire-1.x.y
     .\create-h2-db.bat
 
  

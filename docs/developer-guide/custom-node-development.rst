@@ -26,8 +26,8 @@ Use the appropriate branch based on your requirements::
     spark-2.x branch for Spark 2.X
   
 
-Code the Custom nodes
----------------------
+Code the New Custom Node
+------------------------
  
   * Write the new Node extending the ``Node`` class.
   * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
@@ -43,7 +43,7 @@ Fire supports various widgets types for capturing the details of the fields from
 
 * https://github.com/sparkflows/writing-new-node/blob/master/docs/README_Processor_JSON.md
 
-Deploy the Custom node in fire-ui
+Deploy the Custom Node in fire-ui
 ---------------------------------
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
@@ -52,7 +52,7 @@ Deploy the Custom node in fire-ui
   * Restart the Fire Server.
   * The new node would be picked up by the Fire Server and be visible in the Workflow Editor.
   
-Use the custom node in spark submit when running on the Spark cluster
+Use the Custom Node in spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 
  
   * Include the custom node with ``--jars <...>`` when running the workflow on the cluster

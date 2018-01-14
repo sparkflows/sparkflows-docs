@@ -1,20 +1,22 @@
 Executing Workflows
 ===================
 
-Sparkflows Workflows can be executed in the following ways:
-------------------------------------------------------------
+Various ways for executing the Workflows
+----------------------------------------
+
+Fire Workflows can be executed in the following ways:
  
   * Interactively within the User Interface
   * Submitting the workflows using spark-submit through the command line
   * Scheduling for execution with your scheduler of choice
   
- Interactively within the User Interface
- ----------------------------------------
+Interactively within the User Interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 Workflows can be executed from the Browser by going into the Execute page of the workflow.
 
 Executing Workflows with spark-submit
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 Workflows are saved as text files in JSON format.
 Workflows can be submitted to be run on the cluster with spark-submit::
@@ -30,7 +32,7 @@ Specific nodes make use of the variables by substituting $name with the value pr
  
 
 Workflow JSON
--------------------------
+^^^^^^^^^^^^^
  
 In Sparkflows, there are 2 json representations of the workflow.
  
@@ -40,14 +42,14 @@ In Sparkflows, there are 2 json representations of the workflow.
   The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit:
  
 Scheduling Workflow execution with Scheduler of choice
-----------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 Since sparkflows workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduler the execution of the workflows.
  
 These include Oozie, crontab etc.
  
 Viewing Results of Workflow Execution
----------------------------------------------
+-------------------------------------
  
 The results of Workflow Execution are streamed into the Browser as they are executed and displayed in Rich Format. A workflow may run for a very long time.
 

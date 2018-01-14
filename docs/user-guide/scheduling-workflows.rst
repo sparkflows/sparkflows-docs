@@ -13,5 +13,5 @@ Scheduling New Workflow
 
 The workflows page displays the list of various workflows.
 
-Under ``Action`` column, the is an icon to schedule the workflow.
+Under ``Action`` column, there is an icon to schedule any given workflow.
 

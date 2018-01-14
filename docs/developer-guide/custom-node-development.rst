@@ -23,7 +23,7 @@ Use the appropriate branch based on your requirements::
 
     master branch for Spark 1.6.X
     
-    spark-2.x for Spark 2.X
+    spark-2.x branch for Spark 2.X
   
 
 Code the Custom nodes

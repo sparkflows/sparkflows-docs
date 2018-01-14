@@ -30,16 +30,13 @@ For providing extra variables to the workflow, the following parameters can be a
 In the workflow, these variables can be used with ``$name1    $name2``
 Specific nodes make use of the variables by substituting $name with the value provided for the name.
  
+.. note::  In Fire, there are 2 json representations of the workflow.
 
-Workflow JSON
-^^^^^^^^^^^^^
- 
-In Sparkflows, there are 2 json representations of the workflow.
- 
-  * One is used in the Sparkflows UI
-  * The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions. 
+           * One is used in the Sparkflows UI
+           * The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions. 
   
-  The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit:
+           * The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit.
+
  
 Scheduling Workflow execution with Scheduler of choice
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

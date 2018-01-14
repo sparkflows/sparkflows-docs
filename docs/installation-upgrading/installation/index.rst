@@ -23,4 +23,4 @@ Database
 
 Fire runs with H2 database by default but can easily be set up to run with MySQL as well.
 
-More details on configuring Fire is available at : Configuring Fire
+More details on configuring Fire is available at : :doc:`../configuration`

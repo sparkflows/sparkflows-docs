@@ -17,18 +17,10 @@ Installing Fire
    mac-install
    windows-install
 
-Install on Windows OS
-
-Connecting Fire to a Spark Cluster
-
 
 Database
+----------
 
-Fire runs with H2 database by default but can easily be set up to run with MySQL as well. Below are the steps to install H2 and MySQL Databases. Fire stores the users, workflows, dataset definitions, dashboard definition and history of workflow executions into the database.
+Fire runs with H2 database by default but can easily be set up to run with MySQL as well.
 
-H2 Database Install
-MySQL Database Install
-
-Configuring Fire
-​
 More details on configuring Fire is available at : Configuring Fire

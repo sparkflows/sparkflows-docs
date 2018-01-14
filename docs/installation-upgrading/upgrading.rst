@@ -44,6 +44,6 @@ Upgrade the H2 or MySQL database
 Restart Fire
 -------------
 
-Restart the Fire Server with the below::
+Restart the Fire Server::
 
   run-fire-server.sh start

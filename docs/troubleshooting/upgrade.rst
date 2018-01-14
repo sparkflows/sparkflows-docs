@@ -8,7 +8,7 @@ After I upgrade to the latest Fire Release I get the error : ``Missing column: a
 
 After upgrading the Fire Server, it is important to ``upgrade the Database Schema``.
 
-* Upgrade it by running create-h2-db.sh or create-mysql-db.sh from the Fire install directory.
+* Upgrade it by running ``create-h2-db.sh`` or ``create-mysql-db.sh`` from the Fire install directory.
 * This would upgrade your DB schema to the latest.
 
 Otherwise you can run into an error like below, when you start the Fire Server::

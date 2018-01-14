@@ -30,8 +30,16 @@ Code the New Custom Node
 ------------------------
  
   * Write the new Node extending the ``Node`` class.
-  * Implement/Override the ``execute()`` method. It would transform the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
-  * In case this Node creates a new DataFrame by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read from the Data Source.
+  * Implement/Override the ``execute()`` method. It would ``transform`` the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
+  * In case this Node creates a ``new DataFrame`` by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read directory from the Data Source. Example of Data Sources could be:
+  
+    * Files on HDFS
+    * HIVE tables
+    * HBase tables
+    * Cassandra
+    * MongoDB
+    * Salesforce / Marketo
+    * etc.
   * If the node is updating the incoming schema, also implement/override the ``getOutputSchema()`` method.
   
 **Examples of Custom Nodes:**

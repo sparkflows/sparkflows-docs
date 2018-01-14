@@ -3,9 +3,9 @@ User Administration
 
 Sparkflows allows you to create and manage
 
-* users
-* groups
-* roles
+* Users
+* Groups
+* Roles
 
 These are accessible under the Administration Menu.
 
@@ -20,13 +20,13 @@ Groups
 ------
 
 * Sparkflows allows you to create and edit groups
-* Groups allow users to share Datasets and Workflows with other groups
+* Groups allow users to share Datasets, Workflows and Dashboards with other groups
  
 Roles
 -----
 
 * Sparkflows allows you to create and edit roles.
-* A role can have various permissions.
+* A role has various permissions associated with it.
 
 Permissions
 -----------

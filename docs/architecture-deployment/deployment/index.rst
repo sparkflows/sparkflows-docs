@@ -28,7 +28,7 @@ In this mode, Fire is installed on a mac/windows/linux machine. All the executio
 This mode can be used for:
 
 * Designing Workflows to be finally deployed on a larger Apache Spark Cluster
-* For analysing smaller sets of data
+* For analyzing smaller sets of data
 
 .. figure:: ../../_assets/architecture/personal-machine.png
    :scale: 50%

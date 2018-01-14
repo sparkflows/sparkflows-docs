@@ -47,9 +47,10 @@ Deploy the Custom node in fire-ui
 ---------------------------------
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
+    * ``mvn clean package``
   * Place the JSON file for the new node under the ``nodes`` directory.
   * Restart the Fire Server.
-  * The new node would be picked up by the Fire Server.
+  * The new node would be picked up by the Fire Server and be visible in the Workflow Editor.
   
 Use the custom node in spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 

@@ -31,7 +31,7 @@ Code the New Custom Node
  
   * Write the new Node extending the ``Node`` class.
   * Implement/Override the ``execute()`` method. It would ``transform`` the incoming DataFrame and and then pass on the resulting DataFrame to its output Nodes.
-  * In case this Node creates a ``new DataFrame`` by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read directory from the Data Source. Example of Data Sources could be:
+  * In case this Node creates a ``new DataFrame`` by reading data from a Data Source, the incoming DataFrame to this Node would be null. This Node would create a new DataFrame from the Data read directory from the Data Source. Example of Data Sources include:
   
     * Files on HDFS
     * HIVE tables
@@ -76,8 +76,8 @@ Deploy the Custom Node in the Fire Server
   
     * ``mvn clean package``
   * Place the JSON file for the new node under the ``nodes`` directory.
-  * Restart the Fire Server.
-  * The new node would be picked up by the Fire Server and be visible in the Workflow Editor.
+  * ``Restart`` the Fire Server.
+  * The new node would be picked up by the Fire Server and be visible in the ``Workflow Editor``.
   
 Use the Custom Node in spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 

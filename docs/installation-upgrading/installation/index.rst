@@ -1,5 +1,5 @@
 Installation
-------------
+============
 
 Fire is built to be lightweight, secure and powerful. It can be setup to run:
 
@@ -9,6 +9,7 @@ Fire is built to be lightweight, secure and powerful. It can be setup to run:
 Fire stores its metadata in a Relational Store. It can be H2 or MySQL.
 
 Installing Fire
+---------------
 
 .. toctree::
    :maxdepth: 2

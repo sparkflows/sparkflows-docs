@@ -15,6 +15,6 @@ The logs are in the directory ``/tmp/fire/workflowlogs`` on the machine on which
 
   Each workflow execution has its own log file.
 
-The json representation of the workflow is in ``/tmp/fire/workflows`` when running in YARN client mode. They are in ``.fireStaging`` directory under the users home directory on HDFS when running in YARN cluster mode.
+The json representation of the workflow is in ``/tmp/fire/workflows`` when running in ``YARN client mode``. They are in ``.fireStaging`` directory under the ``users home directory on HDFS`` when running in ``YARN cluster mode``.
 
 

@@ -47,6 +47,7 @@ Deploy the Custom Node in fire-ui
 ---------------------------------
  
   * Create a jar file and place it in the ``user-lib`` directory of sparkflows
+  
     * ``mvn clean package``
   * Place the JSON file for the new node under the ``nodes`` directory.
   * Restart the Fire Server.

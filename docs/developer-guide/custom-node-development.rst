@@ -55,7 +55,7 @@ There is minor difference between the code for Spark 1.6.X and Spark 2.X.
 Create the Node JSON file
 -------------------------
 
-Create the JSON file for the new Node. Fire server uses it for displaying it in the ``Workflow Editor`` and capturing the user inputs of the various fields of the Node through a ``Dialog box``. It also captures the name of the Java/Scala class which has the implementation code for the Node.
+Create the JSON file for the new Node. Fire server uses it for displaying it in the ``Workflow Editor`` and capturing the user inputs of the various fields of the Node through a ``Dialog box``. It also captures the name of the ``Java/Scala class`` which has the implementation code for the Node.
 
 Fire supports various ``widgets types`` for capturing the details of the fields from the user through the`` Node Dialog Box``. 
 

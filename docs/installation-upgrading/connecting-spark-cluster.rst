@@ -50,6 +50,13 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
 | spark.spark-submit | spark-submit                                                               | Spark Submit command for submitting the Spark jobs to the cluster. It can be spark2-submit for Spark2 CDH clusters. Make sure to provide the full path or spark-submit should be in the path.                                     |
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Create Users in Fire
+--------------------
+
+Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` who would be building and running workflows.
+
+``These users have to exist on HDFS. So ensure that these users exist on HDFS``
+
 
 Update core-site.xml of Hadoop to allow sparkflows user to impersonate
 ----------------------------------------------------------------------

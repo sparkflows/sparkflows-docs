@@ -53,6 +53,10 @@ Fire supports various widgets types for capturing the details of the fields from
 
 * https://github.com/sparkflows/writing-new-node/blob/master/docs/README_Processor_JSON.md
 
+Examples of Node JSON:
+
+* https://github.com/sparkflows/writing-new-node/blob/master/testprintnrows.json
+
 Deploy the Custom Node in fire-ui
 ---------------------------------
  

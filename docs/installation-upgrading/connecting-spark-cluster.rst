@@ -21,7 +21,7 @@ Infer Hadoop Configs
    :align: center
 
 
-Configurations for connecting Fire to an Apache Spark Cluster
+Fire Configurations for connecting to an Apache Spark Cluster
 -------------------------------------------------------------
 
 Below are the configuration details for connecting Fire to an Apache Spark Cluster.

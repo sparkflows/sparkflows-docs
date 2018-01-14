@@ -9,4 +9,5 @@ User Guide
    creating-workflows.rst
    executing-workflows.rst
    working-with-dashboards.rst
+   scheduling-workflows.rst
   

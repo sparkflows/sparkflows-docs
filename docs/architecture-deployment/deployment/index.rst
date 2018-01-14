@@ -31,7 +31,7 @@ This mode can be used for:
 * For analysing smaller sets of data
 
 .. figure:: ../../_assets/architecture/personal-machine.png
-   :scale: 100%
+   :scale: 50%
    :alt: Sparkflows Fire Deployment on Standalone Machine
    :align: center
    

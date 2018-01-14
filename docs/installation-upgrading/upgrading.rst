@@ -4,7 +4,7 @@ Upgrading Fire
 Stop Fire if it is running
 --------------------------
 
-Stop Fire with the below command from the directory in it installed in::
+Stop Fire with the below command from the directory in which it is installed::
 
     run-fire-server.sh stop
 
@@ -23,7 +23,7 @@ Unpack it
 
 Unpack the tgz file with below on unix/linux::
 
-    tar xvf fire-1.4.3.tgz
+    tar xvf fire-1.x.y.tgz
 
 Upgrade the H2 or MySQL database
 --------------------------------
@@ -34,7 +34,7 @@ Upgrade the H2 or MySQL database
 * Execute the following commands on the Command Line to upgrade the Fire database::
 
 
-    cd <install_dir>/fire-1.4.3
+    cd <install_dir>/fire-1.x.y
     
     ./create-h2-db.sh      OR     ./create-mysql-db.sh
     

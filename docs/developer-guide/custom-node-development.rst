@@ -41,7 +41,7 @@ Create the JSON file for the new Node. Fire server uses it for displaying the di
 
 Fire supports various widgets types for capturing the details of the fields from the user. Their details of the various widget types is available at:
 
-* https://github.com/sparkflows/writing-new-node/blob/master/docs/README_widgets.md
+* https://github.com/sparkflows/writing-new-node/blob/master/docs/README_Processor_JSON.md
 
 Deploy the Custom node in fire-ui
 ---------------------------------

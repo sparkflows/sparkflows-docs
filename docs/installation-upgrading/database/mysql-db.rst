@@ -20,7 +20,7 @@ Create the DB for Fire in MySQL
 Create the User for Fire in MySQL and grant it Permissions
 ----------------------------------------------------------
 
-Create the User for Fire in MySQL::
+* Create the User for Fire in MySQL::
 
     CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
 

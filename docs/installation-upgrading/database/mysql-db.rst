@@ -20,16 +20,16 @@ Create the DB for Fire in MySQL
 Create the User for Fire in MySQL and grant it Permissions
 ----------------------------------------------------------
 
-* Create the User for Fire in MySQL::
+Create the User for Fire in MySQL::
 
     CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
 
     GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
 
  
-In ``CREATE`` user, the user we are creating is ``fire`` who is allowed to access from anywhere ``%`` and his password is ``fire``.
+* In ``CREATE`` user, the user we are creating is ``fire`` who is allowed to access from anywhere ``%`` and his password is ``fire``.
 
-Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
+* Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
 
 Configure Fire to connect to MySQL
 ----------------------------------

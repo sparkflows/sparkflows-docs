@@ -87,7 +87,7 @@ Create the Tables for Fire in MySQL
 
 * Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::
 
-    cd fire-1.x.y      (if you are not already in that directory)
+    cd fire-1.x.y
 
     ./create-mysql-db.sh
 

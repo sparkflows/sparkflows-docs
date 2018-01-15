@@ -34,14 +34,14 @@ Next, this user has been granted all ``permissions``. This, of course can be fur
 Configure Fire to connect to MySQL
 ----------------------------------
 
-Copy db.properties.mysql file into the conf directory as db.properties::
+Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
 
     cd   fire-1.x.y
     cp   conf.orig/db.properties.mysql   conf/db.properties
 
  
 
-Update the following fields in conf/db.properties based on the values you used in creating the DB for fire::
+Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire::
 
 
     # Connection url for the database "firedb"

@@ -5,11 +5,15 @@ Fire can easily be setup up to run with MySQL
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 
+Install MySQL
+-------------
+
+* Install MySQL on a machine
+
 Create the DB for Sparkflows in MySQL
 ------------------------------------- 
 
-* Install MySQL
-* Create the database for Sparkflows in MySQL (assuming we call it firedb)
+* Create the database for Fire in MySQL (assuming we call it firedb)
 
 
 Create the User for Sparkflows in MySQL and grant it Permissions::

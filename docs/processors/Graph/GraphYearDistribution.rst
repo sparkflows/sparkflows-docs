@@ -1,5 +1,5 @@
 
-YearDistribution
+GraphYearDistribution
 ========== 
 
 This node Finds the distribution of Years from Date values

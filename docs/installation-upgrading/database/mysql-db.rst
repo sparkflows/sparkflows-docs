@@ -8,7 +8,8 @@ More details of the MySQL database can be found here : https://www.mysql.com/
 Install MySQL
 -------------
 
-* Install MySQL on a machine
+* Install MySQL on a machine.
+* It might be easier to install it on the same machine you are installing Fire on.
 
 Create the DB for Fire in MySQL
 -------------------------------
@@ -43,7 +44,7 @@ Configure Fire to connect to MySQL
 
  
 
-* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire. The below assumes that the database name you created for Fire is ``firedb``::
+* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire. The below assumes that the database name you created for Fire is ``firedb``. It also assumes that MySQL has been installed on the same machine as Fire::
 
 
     # Connection url for the database "firedb"

@@ -10,10 +10,11 @@ Install MySQL
 
 * Install MySQL on a machine
 
-Create the DB for Sparkflows in MySQL
-------------------------------------- 
+Create the DB for Fire in MySQL
+-------------------------------
 
-* Create the database for Fire in MySQL (assuming we call it firedb)
+* Create the database for Fire in MySQL
+* Let us call it `firedb``
 
 
 Create the User for Sparkflows in MySQL and grant it Permissions

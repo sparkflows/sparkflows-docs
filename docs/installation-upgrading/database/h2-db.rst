@@ -52,6 +52,6 @@ If you need to recreate the H2 database, follow the steps below to create a new 
     
     Move the existing firedb files to another temp location on your disk
     
-    Recreate the H2 DB using the steps in the above section for creating a brand new install
+    Recreate the H2 DB using the steps in the above section for creating a brand new empty H2 DB for Fire
 
 

@@ -1,7 +1,7 @@
 H2 Database
 ===========
 
-Fire can be setup up to easily run with H2 database. Fire runs H2 in embedded mode.
+Fire can be setup up to easily run with H2 database. Fire runs H2 in embedded mode. The H2 database is used for storing the metadata of the DataSets, Workflows, Dashboards, Users, Groups, Roles etc.
 
 More details of the H2 database can be found here : http://www.h2database.com/html/main.html
 
@@ -10,8 +10,6 @@ If you are want to run multiple instances of Fire for high availability, configu
 
 Creating/Upgrading the H2 database
 ----------------------------------
-
-The H2 database is used for storing the metadata of the DataSets, Workflows, Users, Groups, Roles etc.
 
 Execute the following steps on your CLI:
 

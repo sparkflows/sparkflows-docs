@@ -43,7 +43,7 @@ Configure Fire to connect to MySQL
 
  
 
-* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire::
+* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire. The below assumes that the database name you created for Fire is ``firedb``::
 
 
     # Connection url for the database "firedb"

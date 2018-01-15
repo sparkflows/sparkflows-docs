@@ -14,7 +14,9 @@ Create the DB for Fire in MySQL
 -------------------------------
 
 * Create the database for Fire in MySQL
-* Let us call it ``firedb``
+* Let us call it ``firedb``::
+
+    create database firedb;
 
 
 Create the User for Fire in MySQL and grant it Permissions

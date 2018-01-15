@@ -16,9 +16,11 @@ Create the DB for Sparkflows in MySQL
 * Create the database for Fire in MySQL (assuming we call it firedb)
 
 
-Create the User for Sparkflows in MySQL and grant it Permissions::
+Create the User for Sparkflows in MySQL and grant it Permissions
 -----------------------------------------------------------------
- 
+
+Create the User::
+
     #CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
 
     #GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;

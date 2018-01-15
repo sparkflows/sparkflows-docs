@@ -96,7 +96,7 @@ Create the Tables for Fire in MySQL
 Troubleshooting
 ---------------
 
-MySQL has a problem where one of the default users in the user table is '' @ localhost, which winds up denying all localhost users later in the table. If you are accessing mysql from localhost, assuming Fire and MySQL on same machine, then you need to delete this entry in mysql.user table::
+MySQL has a problem where one of the default users in the user table is ``'' @ localhost``, which winds up denying all localhost users later in the table. If you are accessing mysql from localhost, assuming Fire and MySQL have been installed on the same machine, then you need to delete this entry in ``mysql.user`` table::
 
 
     select user, host from user where user = ''          

@@ -6,7 +6,7 @@ You can choose to run the FIRE project either on http or https connection. The o
 The ports for http and https are configured in the file ``conf/application.properties``::
 
     http.port=8080
-    https.port=844
+    https.port=8443
 
  
 HTTP

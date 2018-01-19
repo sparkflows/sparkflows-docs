@@ -65,11 +65,11 @@ Update core-site.xml of Hadoop to allow sparkflows user to impersonate
 https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html
 
 
-In your core-site.xml file for Hadoop, allow sparkflows user to impersonate other users. Without impersonation enabled for this user, your Sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so. 
+* In your core-site.xml file for Hadoop, allow sparkflows user to impersonate other users. Without impersonation enabled for this user, your Sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so. 
  
-Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
+* Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
 
-In the following example snippet, user “sparkflows” is allowed to impersonate users from hosts “host1” and host2”.  The users being impersonated belong to the groups hive,hfs,hadoop,spark. Your permissions are likely going to be different and more restrictive. 
+* In the following example snippet, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``.  The users being impersonated belong to the groups ``hive,hfs,hadoop,spark``. Your permissions are likely going to be different and more restrictive. 
 
 Below is an example::
 
@@ -88,7 +88,7 @@ Below is an example::
 Cloudera Manager
 ^^^^^^^^^^^^^^^^
 
-If you are using Cloudera Manager, you can set the above settings in HDFS/Configuration.
+If you are using Cloudera Manager, you can set the above settings for impersonation in HDFS/Configuration.
 
 .. figure:: ../_assets/installation/cloudera-manager-hdfs-configuration.png
    :scale: 100%
@@ -99,7 +99,7 @@ If you are using Cloudera Manager, you can set the above settings in HDFS/Config
 Ambari
 ^^^^^^
 
-If you are using Ambari, you can set the above settings in HDFS/Configuration under Custom core-site
+If you are using Ambari, you can set the above settings for impersonation in HDFS/Configuration under Custom core-site
 
 .. figure:: ../_assets/installation/ambari-hdfs-configuration.png
    :scale: 100%

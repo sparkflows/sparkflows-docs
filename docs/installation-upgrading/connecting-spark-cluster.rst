@@ -2,11 +2,11 @@ Connecting to Apache Spark Cluster
 ==================================
 
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
- 
+
 * **Install Fire on an edge node of your Apache Spark Cluster.**
     * The edge node has the hadoop/hive/spark configuration files set up.
     * Make sure that you are already able to run your spark jobs from this node using **spark-submit**.
-* **Update the below configurations under the menu, ``Administration/Configuration``** 
+* **Update the below configurations under the menu, ``Administration/Configuration``**
 
 
 .. note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details are below in the page. For the rest of the documentation on this page, we assume that it has been installed as the user ``sparkflows``.
@@ -37,9 +37,11 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | app.sparkSubmitJar | /user/centos/fire-1.4.3/fire-lib/fire-core-1.4.3-jar-with-dependencies.jar | fire-lib directory of the Sparkflows install contains the fire core jar used in submitting the workflows to the Spark cluster. Set it correctly to be the absolute path of the fire core jar.                                     |
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| hdfs.namenodeURI   | hdfs://localhost:8020                                                      | Update the hdfs namenode URI. Set localhost to the machine on which the namenode is running. Set it to maprfs:/// for mapr                                                                                                        |
+| hdfs.namenodeURI   | hdfs://localhost:8020                                                      | Update the hdfs namenode URI. Set localhost to the machine on which the namenode is running.                                                                                                                                      |
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | hdfs.namenodeURI   | file://                                                                    | Set it to file:// when the files are on the local filesystem. This can be the case when HDFS is not there.                                                                                                                        |
++--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| hdfs.namenodeURI   | maprfs:///                                                                 | Set it to maprfs:/// for mapr.                                                                                                                                                                                                    |
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | hive.JDBC_DB_URL   | jdbc:hive2://localhost:10000                                               | Update the hive JDBC DB URL if you would be accessing HIVE from Sparkflows. This is the URL of the HiveServer 2 server.                                                                                                           |
 +--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -67,11 +69,11 @@ Update core-site.xml of Hadoop to allow sparkflows user to impersonate
 https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html
 
 
-* In your core-site.xml file for Hadoop, allow sparkflows user to impersonate other users. Without impersonation enabled for this user, your Sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so. 
- 
+* In your core-site.xml file for Hadoop, allow sparkflows user to impersonate other users. Without impersonation enabled for this user, your Sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so.
+
 * Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
 
-* In the following example snippet, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``.  The users being impersonated belong to the groups ``hive,hfs,hadoop,spark``. Your permissions are likely going to be different and more restrictive. 
+* In the following example snippet, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``.  The users being impersonated belong to the groups ``hive,hfs,hadoop,spark``. Your permissions are likely going to be different and more restrictive.
 
 Below is an example::
 
@@ -85,7 +87,7 @@ Below is an example::
      <name>hadoop.proxyuser.sparkflows.groups</name>
      <value>hive,hfs,hadoop,spark</value>
    </property>
- 
+
 
 Cloudera Manager
 ^^^^^^^^^^^^^^^^
@@ -96,8 +98,8 @@ If you are using Cloudera Manager, you can set the above settings for impersonat
    :scale: 100%
    :alt: Cloudera Configs
    :align: center
-   
-   
+
+
 Ambari
 ^^^^^^
 
@@ -107,10 +109,5 @@ If you are using Ambari, you can set the above settings for impersonation in ``H
    :scale: 100%
    :alt: Ambari Configs
    :align: center
-   
-   
- 
- 
-
 
 

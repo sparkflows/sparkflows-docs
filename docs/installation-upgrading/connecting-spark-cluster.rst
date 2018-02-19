@@ -3,7 +3,9 @@ Connecting to Apache Spark Cluster
 
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
  
-* **Install Fire on an edge node of your Apache Spark Cluster. The edge node has the hadoop/hive/spark configuration files set up. You should already be able to run your spark jobs from this node using spark-submit.**
+* **Install Fire on an edge node of your Apache Spark Cluster.**
+    * The edge node has the hadoop/hive/spark configuration files set up.
+    * Make sure that you are already able to run your spark jobs from this node using **spark-submit**.
 * **Update the below configurations under the menu, ``Administration/Configuration``** 
 
 

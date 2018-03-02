@@ -5,7 +5,7 @@ Tutorials
 .. toctree::
    :maxdepth: 2
 
-   defining-datasets.rst
+   housing-dataset.rst
    etl-workflow.rst
 
   

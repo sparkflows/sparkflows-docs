@@ -43,6 +43,14 @@ User Guide
    :maxdepth: 2
 
    user-guide/index
+   
+Tutorials
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   tutorials/index
 
 Developer Guide
 ---------------

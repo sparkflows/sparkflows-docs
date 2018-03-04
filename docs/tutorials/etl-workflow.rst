@@ -7,6 +7,14 @@ We would take the transaction dataset, clean it and then join it with other dime
 
 We would finally save the results into CSV files.
 
+The steps involved in creating a workflow are:
+
+- Go to Create New Workflow
+- Click on the nodes on the LHS to create them in the workflow canvas
+- Connect the nodes
+- Save the workflow
+
+
 Workflow
 ========
 

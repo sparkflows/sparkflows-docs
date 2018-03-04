@@ -35,8 +35,6 @@ Go to the Dataset page and click on 'Create New Dataset'.
 
 Enter the fields below into the form.
  
-**Create New Datasets**
- 
  .. figure:: ../_assets/tutorials/create-new-dataset.png
    :scale: 100%
    :alt: Sparkflows Create New Datasets

@@ -3,6 +3,16 @@ Creating Fact Dataset
 
 In this tutorial we would create a dataset over facts data.
 
+The steps involved in creating a dataset are:
+
+- Go to Create New Dataset
+- Enter the fields in the dialog for the file for which we are creating the Dataset
+- Update the schema of the Dataset
+- Save the Dataset
+
+Data
+====
+
 The data is is CSV format.
 
 Below are a few records from the data.
@@ -15,13 +25,6 @@ GEO1,200,002,00B,567890,00001.00
 GEO3,200,003,00B,101010,00002.22
 GEO1,300,001,00R,234234,00033;10
 GEO1,300,002,00G,001000,00044.88
-
-The steps involved in creating a dataset are:
-
-- Go to Create New Dataset
-- Enter the fields in the dialog for the file for which we are creating the Dataset
-- Update the schema of the Dataset
-- Save the Dataset
 
 
 Create New Dataset

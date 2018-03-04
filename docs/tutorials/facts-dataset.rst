@@ -15,7 +15,7 @@ Data
 
 The data is is CSV format.
 
-Below are a few records from the data.
+Below are a few records from the data::
 
 
     GEO1,100,001,00R,000002,00003.45

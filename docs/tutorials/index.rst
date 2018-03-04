@@ -7,5 +7,8 @@ Tutorials
 
    transaction-dataset.rst
    etl-workflow.rst
+   dashboard.rst
+   
+   
 
   

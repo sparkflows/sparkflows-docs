@@ -1,7 +1,7 @@
 Creating Fact Dataset
 ------------------------
 
-In this tutorial we would create a dataset over facts data.
+In this tutorial we would create a dataset over facts data. Creating a Dataset allows us to define it once and use it various workflows.
 
 The steps involved in creating a dataset are:
 

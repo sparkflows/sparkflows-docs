@@ -7,6 +7,7 @@ Tutorials
 
    facts-dataset.rst
    etl-workflow.rst
+   executing-workflow.rst
    dashboard.rst
    
    

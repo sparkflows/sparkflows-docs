@@ -19,7 +19,7 @@ Workflow
 ========
 
 
-.. figure:: ../_assets/tutorials/etl-workflow.png
+.. figure:: ../_assets/tutorials/02/etl-workflow.png
    :scale: 100%
    :alt: ETL Workflow
    :align: center

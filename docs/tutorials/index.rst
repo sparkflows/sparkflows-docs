@@ -5,10 +5,10 @@ Tutorials
 .. toctree::
    :maxdepth: 2
 
-   facts-dataset.rst
-   etl-workflow.rst
-   executing-workflow.rst
-   dashboard.rst
+   01-facts-dataset.rst
+   02-etl-workflow.rst
+   03-executing-workflow.rst
+   04-dashboard.rst
    
    
 

@@ -11,8 +11,8 @@ The steps involved in creating a dataset are:
 - Update the schema of the Dataset
 - Save the Dataset with a new name
 
-Data
-====
+Customer Transaction Data
+=========================
 
 The data is is CSV format.
 

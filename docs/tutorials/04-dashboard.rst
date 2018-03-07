@@ -14,6 +14,11 @@ The steps involved in creating a dashboard are:
 Go to Dashboards page
 =====================
 
+.. figure:: ../_assets/tutorials/04/dashboard-listings.png
+   :scale: 100%
+   :alt: Dashboards Page
+   :align: center
+
 Click on Create New Dashboard
 =============================
 

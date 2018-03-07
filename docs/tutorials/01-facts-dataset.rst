@@ -1,14 +1,15 @@
-Creating Fact Dataset
-------------------------
+Creating Dataset over Customer Transactions Data
+------------------------------------------------
 
-In this tutorial we would create a dataset over facts data. Creating a Dataset allows us to define it once and use it various workflows.
+In this tutorial we would create a dataset over customers transactions data. Creating a Dataset allows us to define it once and use it various workflows.
 
 The steps involved in creating a dataset are:
 
-- Go to Create New Dataset
+- Go to the Dataset Listing Page
+- Click on Create New Dataset
 - Enter the fields in the dialog for the file for which we are creating the Dataset
 - Update the schema of the Dataset
-- Save the Dataset
+- Save the Dataset with a new name
 
 Data
 ====
@@ -28,7 +29,17 @@ Below are a few records from the data::
     GEO1,300,002,00G,001000,00044.88
 
 
-Create New Dataset
+Go to the Dataset Listing Page
+==============================
+
+
+Click on Create New Dataset
+===========================
+
+Click on the Create New Dataset link to get started with creating the new dataset.
+
+
+Enter the fields in the dialog for the file for which we are creating the Dataset
 ==================
 
 Go to the Dataset page and click on 'Create New Dataset'.
@@ -41,8 +52,13 @@ Enter the fields below into the form.
    :align: center
  
  
- 
- 
+Update the schema of the Dataset
+================================
+
+
+Save the Dataset with a new name
+================================
+
  
  
  

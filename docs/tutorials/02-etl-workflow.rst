@@ -16,14 +16,27 @@ The steps involved in creating a workflow are:
 - Name and workflow and Save it
 
 
-Workflow
-========
+Go to Workflow Listings Page
+============================
 
+
+Click on Create New Workflow to go to the Workflow Designer Page
+================================================================
+
+
+Click on the nodes on the LHS to create them in the Workflow Canvas
+===================================================================
+
+Connect the nodes with Links
 
 .. figure:: ../_assets/tutorials/02/etl-workflow.png
    :scale: 100%
    :alt: ETL Workflow
    :align: center
+
+
+Name and workflow and Save it
+=============================
 
 
 

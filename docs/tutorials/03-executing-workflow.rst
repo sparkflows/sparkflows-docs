@@ -21,15 +21,23 @@ Go to Workflow Listings page
    :align: center
 
 
-Click on the play button for executing the workflow
-===================================================
+Click on the Play Button
+========================
+
+Against each workflow there are a list of icons for performing various actions on the workflow.
+
+Click on the play button for executing the workflow.
 
 
-This would bring up the Execute workflow page
-=============================================
+Execute workflow page
+======================
+
+The previous step brings you to the Execute Workflow Page. 
 
 
 Click on Execute to execute the workflow
 ========================================
+
+Now click on the Execute button for executing the workflow.
 
 

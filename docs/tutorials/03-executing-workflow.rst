@@ -34,6 +34,11 @@ Execute workflow page
 
 The previous step brings you to the Execute Workflow Page. 
 
+.. figure:: ../_assets/tutorials/03/workflow-execute.png
+   :scale: 100%
+   :alt: Workflow Execute
+   :align: center
+
 
 Click on Execute to execute the workflow
 ========================================

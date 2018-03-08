@@ -40,9 +40,10 @@ The previous step brings you to the Execute Workflow Page.
    :align: center
 
 
-Click on Execute to execute the workflow
-========================================
+Execute Workflow
+================
 
-Now click on the Execute button for executing the workflow.
+Now click on the Execute button for executing the workflow. The results of execution is streamed back into the Browser for viewing them.
+
 
 

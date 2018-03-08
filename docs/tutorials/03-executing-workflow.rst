@@ -1,5 +1,5 @@
-Executing Workflow
--------------------
+Executing the Workflow
+----------------------
 
 In this tutorial we would execute the workflow we built earlier.
 

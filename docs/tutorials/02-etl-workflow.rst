@@ -19,6 +19,10 @@ The steps involved in creating a workflow are:
 Go to Workflow Listings Page
 ============================
 
+.. figure:: ../_assets/tutorials/02/workflow-listings.png
+   :scale: 100%
+   :alt: Workflow Listings
+   :align: center
 
 Click on Create New Workflow to go to the Workflow Designer Page
 ================================================================

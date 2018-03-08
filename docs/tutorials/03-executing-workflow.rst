@@ -15,9 +15,9 @@ Go to Workflow Listings page
 ============================
 
 
-.. figure:: ../_assets/tutorials/etl-workflow.png
+.. figure:: ../_assets/tutorials/02/workflow-listings.png
    :scale: 100%
-   :alt: ETL Workflow
+   :alt: Workflow Listings
    :align: center
 
 

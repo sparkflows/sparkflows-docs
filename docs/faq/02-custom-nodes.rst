@@ -7,13 +7,6 @@ Does Sparkflows allow me to create my own custom nodes?
 Yes, new Nodes can be easily to added to SparkFlows. Develop nodes in Java or in Scala and dop the definition JSON for the node on the server. The newly added nodes will become visible in the Sparkflows User Interface.
 
 
-
-Can I run Sparkflows on my Amazon AWS cluster or Microsoft Azure or Google Cloud?
-===========
-
-Yes, all Sparkflows needs for successful deployment is a Apache Spark cluster. Sparkflows is deployed on the edge node of the cluster.
-
-
 How does the Sparkflows platform handle multi-user support (i.e. Can user 1 see or edit user 2’s data sources, pipelines, etc)
 ===========
 

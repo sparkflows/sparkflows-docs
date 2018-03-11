@@ -6,9 +6,8 @@ Troubleshooting
 
    installation.rst
    upgrade.rst
+   dataset.rst
    running-workflows.rst
    logs.rst
-   kerberos.rst
-   dataset.rst
    dashboard.rst
-   
+   kerberos.rst

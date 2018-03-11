@@ -67,6 +67,11 @@ The Dashboard shows the content from the latest execution of the Workflow.
 
 If the workflow has never been executed, the Dashboard would show empty content.
 
+.. figure:: ../_assets/tutorials/04/dashboard-view-1.png
+   :scale: 100%
+   :alt: Dashboard Designer
+   :align: center
+   
  
  
  

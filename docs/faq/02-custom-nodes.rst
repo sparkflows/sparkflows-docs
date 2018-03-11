@@ -1,5 +1,5 @@
-FAQ
----
+Custom Nodes
+-------------
 
 Does Sparkflows allow me to create my own custom nodes?
 ===========

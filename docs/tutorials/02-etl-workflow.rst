@@ -30,10 +30,16 @@ Click on Create Workflow
 Click on ``Create Workflow`` for creating a new workflow. It would take you to the Workflow Designer Page.
 
 
-Click on the nodes on the LHS to create them in the Workflow Canvas
-===================================================================
+Create the Workflow
+===================
 
-Connect the nodes with Links
+Click on the nodes in the LHS to create them. Connect them with Links. Links can be connected between 2 Nodes by clicking on the yellow box in the from node, dragging the mouse and connecting to the second Node.
+
+
+.. figure:: ../_assets/tutorials/02/etl-workflow.png
+   :scale: 100%
+   :alt: ETL Workflow
+   :align: center
 
 .. figure:: ../_assets/tutorials/02/etl-workflow.png
    :scale: 100%

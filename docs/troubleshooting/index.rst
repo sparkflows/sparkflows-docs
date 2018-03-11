@@ -10,3 +10,5 @@ Troubleshooting
    logs.rst
    kerberos.rst
    dataset.rst
+   dashboard.rst
+   

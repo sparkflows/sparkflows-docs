@@ -67,6 +67,9 @@ Update the Schema of the Dataset
 
 Now click on ``Update`` to update the Schema of the Dataset. It would also display sample data for the dataset followed by the Schema.
 
+In this case, the data file did not have a header row. So Fire gave it standard column names of ``C0, C1`` etc.
+
+You can update the column names in the schema based on your data.
  
  .. figure:: ../_assets/tutorials/01/dataset-schema.png
    :scale: 100%
@@ -77,7 +80,7 @@ Now click on ``Update`` to update the Schema of the Dataset. It would also displ
 Save the Dataset with a new name
 ================================
 
- 
+Now click on ``Save`` to save the new Dataset created.
  
  
  

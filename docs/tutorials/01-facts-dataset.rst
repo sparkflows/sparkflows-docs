@@ -62,8 +62,11 @@ Enter the fields below into the form. Below are the details of the fields:
    :align: center
  
  
-Update the schema of the Dataset
+Update the Schema of the Dataset
 ================================
+
+Now click on ``Update`` to update the Schema of the Dataset. It would also display sample data for the dataset followed by the Schema.
+
 
 
 Save the Dataset with a new name

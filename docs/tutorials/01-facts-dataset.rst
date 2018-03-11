@@ -67,7 +67,12 @@ Update the Schema of the Dataset
 
 Now click on ``Update`` to update the Schema of the Dataset. It would also display sample data for the dataset followed by the Schema.
 
-
+ 
+ .. figure:: ../_assets/tutorials/01/dataset-schema.png
+   :scale: 100%
+   :alt: Dataset Schema
+   :align: center
+   
 
 Save the Dataset with a new name
 ================================

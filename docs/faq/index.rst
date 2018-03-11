@@ -10,6 +10,7 @@ FAQ
    03-distributions-supported.rst
    04-workflow-export-import.rst
    05-submit-jobs.rst
+   06-multi-user.rst
    
    
 

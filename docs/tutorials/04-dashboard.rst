@@ -33,11 +33,15 @@ This would open up the Dashboard Designer Page.
 Name the Dashboard
 ==================
 
-Give a name to your Dashboard.
+Give a name to your Dashboard. You can all add a description for the New Dashboard.
 
 
 Drag and drop selected Nodes from the workflows into the Dashboard canvas
 ===================================
+
+On the LHS of the Dashboard Designer, the list of workflows would show up. With each Workflow, the Nodes inside the Workflow would be displayed.
+
+Nodes inside the workflow can be dragged and dropped onto the Dashboard to make them part of the Dashboard.
 
 
 Save the Dashboard

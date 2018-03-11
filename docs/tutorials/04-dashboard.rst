@@ -52,6 +52,15 @@ Finally Save the Dashboard.
 In order to view the Dashboard, click on the 'View' button.
  
  
+View the Dashboard
+==================
+
+Click on the ``View`` button to view the dashboard.
+
+The Dashboard shows the content from the latest execution of the Workflow.
+
+If the workflow has never been executed, the Dashboard would show empty content.
+
  
  
  

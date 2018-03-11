@@ -48,7 +48,9 @@ Click on the nodes in the LHS to create them. Connect them with Links. Links can
 Save the Workflow
 =================
 
-Finally Save the Workflow.
+Finally Save the Workflow by clicking on the ``Save`` button.
+
+Each time the workflow is saved with new values, a new version of the Workflow gets created.
 
 
 

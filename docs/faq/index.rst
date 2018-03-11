@@ -11,6 +11,8 @@ FAQ
    04-workflow-export-import.rst
    05-submit-jobs.rst
    06-multi-user.rst
+   07-data-sources.rst
+   
    
    
 

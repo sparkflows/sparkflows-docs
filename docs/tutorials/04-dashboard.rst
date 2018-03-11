@@ -43,6 +43,12 @@ On the LHS of the Dashboard Designer, the list of workflows would show up. With 
 
 Nodes inside the workflow can be dragged and dropped onto the Dashboard to make them part of the Dashboard.
 
+In the Dashboard below we have added 2 nodes to the Dashboard.
+
+.. figure:: ../_assets/tutorials/04/dashboard-designer-1.png
+   :scale: 100%
+   :alt: Dashboard Designer
+   :align: center
 
 Save the Dashboard
 ==================

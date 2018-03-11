@@ -6,7 +6,7 @@ FAQ
    :maxdepth: 2
 
    01-scheduling-workflows.rst
-   01-custom-nodes.rst
+   02-custom-nodes.rst
 
    
    

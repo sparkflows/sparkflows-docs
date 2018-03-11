@@ -48,11 +48,11 @@ Enter the fields in the dialog for the file for which we are creating the Datase
 
 Enter the fields below into the form. Below are the details of the fields:
 
-- NAME : Name of the New Dataset we are creating.
-- DESCRIPTION : Description of the New Dataset.
-- HAS HEADER ROW : This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not.
-- DELMITER : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the columns in the data.
-- PATH : Path for the location of the file or directory containing the data files for the Dataset.
+- **NAME** : Name of the New Dataset we are creating.
+- **DESCRIPTION** : Description of the New Dataset.
+- **HAS HEADER ROW** : This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not.
+- **DELMITER** : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the columns in the data.
+- **PATH** : Path for the location of the file or directory containing the data files for the Dataset.
 
 
  

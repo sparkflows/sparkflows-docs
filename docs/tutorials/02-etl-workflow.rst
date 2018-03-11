@@ -29,6 +29,8 @@ Click on Create Workflow
 
 Click on ``Create Workflow`` for creating a new workflow. It would take you to the Workflow Designer Page.
 
+In the Workflow Designer Page, give a Name, Category and Description to the Workflow.
+
 
 Create the Workflow
 ===================
@@ -43,8 +45,12 @@ Click on the nodes in the LHS to create them. Connect them with Links. Links can
 
 
 
-Name and workflow and Save it
-=============================
+Save the Workflow
+=================
+
+Finally Save the Workflow.
+
+
 
 
 

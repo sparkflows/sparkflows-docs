@@ -33,7 +33,7 @@ This would open up the Dashboard Designer Page.
 Name the Dashboard
 ==================
 
-Give a name to your Dashboard. You can all add a description for the New Dashboard.
+Give a name to your Dashboard. You can also add a description for the New Dashboard.
 
 
 Drag and drop selected Nodes from the workflows into the Dashboard canvas

@@ -46,7 +46,12 @@ Click on the ``Create Dataset`` link to get started with creating the new datase
 Enter the fields in the dialog for the file for which we are creating the Dataset
 ==================
 
-Enter the fields below into the form.
+Enter the fields below into the form. Below are the details of the fields:
+
+- Name : Name of the New Dataset we are creating
+- Description : Description of the New Dataset
+- Has Header Row : This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not
+- Delimiter : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the columns in the data.
  
  .. figure:: ../_assets/tutorials/01/create-new-dataset.png
    :scale: 100%

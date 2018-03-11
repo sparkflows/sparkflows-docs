@@ -5,11 +5,11 @@ In this tutorial we would create a dataset over customers transactions data. Cre
 
 The steps involved in creating a dataset are:
 
-- Go to the Dataset Listing Page
-- Click on Create New Dataset
-- Enter the fields in the dialog for the file for which we are creating the Dataset
-- Update the schema of the Dataset
-- Save the Dataset with a new name
+- *Go to the Dataset Listing Page*
+- *Click on Create New Dataset*
+- *Enter the fields in the dialog for the file for which we are creating the Dataset*
+- *Update the schema of the Dataset*
+- *Save the Dataset with a new name*
 
 Customer Transaction Data
 =========================

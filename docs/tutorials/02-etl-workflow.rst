@@ -41,10 +41,6 @@ Click on the nodes in the LHS to create them. Connect them with Links. Links can
    :alt: ETL Workflow
    :align: center
 
-.. figure:: ../_assets/tutorials/02/etl-workflow.png
-   :scale: 100%
-   :alt: ETL Workflow
-   :align: center
 
 
 Name and workflow and Save it

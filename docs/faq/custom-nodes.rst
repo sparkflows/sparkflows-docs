@@ -7,16 +7,6 @@ Does Sparkflows allow me to create my own custom nodes?
 Yes, new Nodes can be easily to added to SparkFlows. Develop nodes in Java or in Scala and dop the definition JSON for the node on the server. The newly added nodes will become visible in the Sparkflows User Interface.
 
 
-How can I schedule the workflows I create ?
-===========
-
-Sparkflows saves workflow definitions as JSON files. These workflows are executed through spark-submit.
-
-Sparkflows has a scheduler which allows Workflows to be scheduled at regular intervals.
-
-Since the workflows are submitted with spark-submit, they can also be easily scheduled with Oozie, crontab etc.
-\
-
 
 Can I run Sparkflows on my Amazon AWS cluster or Microsoft Azure or Google Cloud?
 ===========

@@ -32,6 +32,10 @@ Below are a few records from the data::
 Go to the Dataset Listing Page
 ==============================
 
+ .. figure:: ../_assets/tutorials/01/dataset-listings.png
+   :scale: 100%
+   :alt: Dataset Listings
+   :align: center
 
 Click on Create New Dataset
 ===========================

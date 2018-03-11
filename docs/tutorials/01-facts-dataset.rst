@@ -46,8 +46,6 @@ Click on the ``Create Dataset`` link to get started with creating the new datase
 Enter the fields in the dialog for the file for which we are creating the Dataset
 ==================
 
-Go to the Dataset page and click on 'Create New Dataset'.
-
 Enter the fields below into the form.
  
  .. figure:: ../_assets/tutorials/01/create-new-dataset.png

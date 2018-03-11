@@ -21,7 +21,3 @@ For all other structured or unstructured datasets on HDFS or CloudBricks, Sparkf
 Sparkflows workflow execution writes a summary of its output to MySQL/Oracle/H2 which is accessible by the users of the system.
 
 
-When running on a Spark cluster how does Sparkflows submit the spark jobs?
-=============
- 
-Sparkflows uses spark-submit to submit the Spark jobs to the cluster. Hence it is important that spark-submit work from the machine on which Sparkflows is installed.

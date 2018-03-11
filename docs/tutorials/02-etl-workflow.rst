@@ -27,7 +27,7 @@ Go to Workflow Listings Page
 Click on Create Workflow
 ========================
 
-Click on 'Create Workflow' for creating a new workflow. It would take you to the Workflow Designer Page.
+Click on ``Create Workflow`` for creating a new workflow. It would take you to the Workflow Designer Page.
 
 
 Click on the nodes on the LHS to create them in the Workflow Canvas

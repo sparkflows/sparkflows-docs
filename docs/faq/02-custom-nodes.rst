@@ -7,12 +7,6 @@ Does Sparkflows allow me to create my own custom nodes?
 Yes, new Nodes can be easily to added to SparkFlows. Develop nodes in Java or in Scala and dop the definition JSON for the node on the server. The newly added nodes will become visible in the Sparkflows User Interface.
 
 
-How does the Sparkflows platform handle multi-user support (i.e. Can user 1 see or edit user 2’s data sources, pipelines, etc)
-===========
-
-Sparkflows supports various user types and enables users to easily share datasets and workflows with each other to foster collaboration.
-
-
 How does one define a new data source and establish a connection?
 =============
  

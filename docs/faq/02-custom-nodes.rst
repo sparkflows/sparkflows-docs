@@ -13,14 +13,6 @@ How does the Sparkflows platform handle multi-user support (i.e. Can user 1 see 
 Sparkflows supports various user types and enables users to easily share datasets and workflows with each other to foster collaboration.
 
 
-How does one export/import workflows between instances?
-===========
-
-Sparkflows allows workflows to be exported and imported. Workflows are represented as JSON files and hence can also be checked into github etc. for versioning.
-
-Sparkflows also maintains the version history of the workflows.
-
-
 How does one define a new data source and establish a connection?
 =============
  

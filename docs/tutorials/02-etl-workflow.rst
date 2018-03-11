@@ -9,11 +9,11 @@ We would finally save the results into CSV files.
 
 The steps involved in creating a workflow are:
 
-- Go to Workflow Listings Page
-- Click on Create New Workflow to go to the Workflow Designer Page
-- Click on the nodes on the LHS to create them in the Workflow Canvas
-- Connect the nodes with Links
-- Name and workflow and Save it
+- **Go to Workflow Listings Page**
+- **Click on Create New Workflow to go to the Workflow Designer Page**
+- **Click on the nodes on the LHS to create them in the Workflow Canvas**
+- **Connect the nodes with Links**
+- **Name and workflow and Save it**
 
 
 Go to Workflow Listings Page

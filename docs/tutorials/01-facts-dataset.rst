@@ -37,8 +37,8 @@ Go to the Dataset Listing Page
    :alt: Dataset Listings
    :align: center
 
-Click on Create New Dataset
-===========================
+Click on Create Dataset
+=======================
 
 Click on the ``Create Dataset`` link to get started with creating the new dataset.
 

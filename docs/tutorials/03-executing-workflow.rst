@@ -24,9 +24,9 @@ Go to Workflow Listings page
 Click on the Play Button
 ========================
 
-Against each workflow there are a list of icons for performing various actions on the workflow.
+Against each workflow there are a list of icons for performing various ``ACTIONS`` on the workflow.
 
-Click on the play button for executing the workflow.
+Click on the ``Play`` button under ``ACTIONS`` for executing the workflow.
 
 
 Execute workflow page

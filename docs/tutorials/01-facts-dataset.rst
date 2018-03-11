@@ -51,7 +51,7 @@ Enter the fields below into the form. Below are the details of the fields:
 - **NAME** : Name of the New Dataset we are creating.
 - **DESCRIPTION** : Description of the New Dataset.
 - **HAS HEADER ROW** : This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not.
-- **DELIMITER** : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the columns in the data.
+- **DELIMITER** : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the fields in the data.
 - **PATH** : Path for the location of the file or directory containing the data files for the Dataset.
 
 
@@ -65,7 +65,7 @@ Enter the fields below into the form. Below are the details of the fields:
 Update the Schema of the Dataset
 ================================
 
-Now click on ``Update`` to update the Schema of the Dataset. It would also display sample data for the dataset followed by the Schema.
+Now click on ``Update`` to update the Schema of the Dataset. It would display sample data for the dataset followed by the Schema.
 
 In this case, the data file did not have a header row. So Fire gave it standard column names of ``C0, C1`` etc.
 

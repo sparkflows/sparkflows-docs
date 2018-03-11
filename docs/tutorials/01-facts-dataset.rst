@@ -77,8 +77,8 @@ You can update the column names in the schema based on your data.
    :align: center
    
 
-Save the Dataset with a new name
-================================
+Save the New Dataset
+====================
 
 Now click on ``Save`` to save the new Dataset created.
  

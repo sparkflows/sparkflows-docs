@@ -32,7 +32,7 @@ The Dataset Listing Page displays all the Datasets created in Fire.
 Create New Datasets
 ===================
  
-You can define a New Dataset by clicking on the ``Create Dataset`` link.
+You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
 
 Enter the Field Details

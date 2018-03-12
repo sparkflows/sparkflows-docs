@@ -77,10 +77,10 @@ Install the MySQL Connector Jar file
 
     sudo mkdir -p /usr/share/java/
   
-* Also copy the mysql JDBC driver JAR file to the ``user-lib`` directory of ``fire-1.x.y``::
+* Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``::
 
-    cd fire-1.x.y
-    cp /usr/share/java/mysql-connector-java.jar      user-lib
+    cd fire-2.x.y
+    cp /usr/share/java/mysql-connector-java.jar      fire-server-lib
   
   
 Create the Tables for Fire in MySQL
@@ -88,7 +88,7 @@ Create the Tables for Fire in MySQL
 
 * Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::
 
-    cd fire-1.x.y
+    cd fire-2.x.y
 
     ./create-mysql-db.sh
 

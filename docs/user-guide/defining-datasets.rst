@@ -26,23 +26,14 @@ The Dataset Listing Page displays all the Datasets created in Fire.
    :scale: 100%
    :alt: Dataset Listings
    :align: center
-   
-
-Review Existing Datasets
-========================
-
-
-.. figure:: ../_assets/user-guide/datasets.png
-   :scale: 100%
-   :alt: Sparkflows Datasets
-   :align: center
-   
-
+  
 
  
 Create New Datasets
 ===================
  
+You can define a New Dataset by clicking on the ``Create Dataset`` link.
+
  .. figure:: ../_assets/user-guide/create-new-datasets.png
    :scale: 100%
    :alt: Sparkflows Create New Datasets

@@ -32,13 +32,18 @@ Quick Installation Steps of Fire with H2 DB
   
 * Unpack it
 
-
+Unpack the tgz file.
 
 * Create H2 DB::
 
       cd <fire install_dir>
       .\create-h2-db.bat
 
+* Launch Fire Server::
+
+    cd <fire install_dir>
+    .\run-fire.bat start
+    
 * Launch Fire Server::
 
     cd <fire install_dir>
@@ -79,7 +84,11 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     * :doc:`../database/h2-db`
     * :doc:`../database/mysql-db`
     
+* Launch Fire::
 
+    cd <fire install_dir>
+    .\run-fire.bat start
+    
 * Launch Fire Server::
 
     cd <fire install_dir>
@@ -105,7 +114,14 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
 
 .. note:: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
+Stopping Fire
+-------------
 
+Stop Fire with the below::
+
+    .\run-fire.bat stop
+    
+    
 Stopping the Fire Server
 ------------------------
 

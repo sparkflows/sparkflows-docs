@@ -105,7 +105,7 @@ When running the jobs on the cluster, you are running into the exception below.
 
 Exception::
 
-  Warning: Local jar /home/ec2-user/fire-1.4.3/fire-lib/fire-spark_1_6-core-1.4.3-jar-with-dependencies.jar does not exist, skipping.
+  Warning: Local jar /home/ec2-user/fire-2.1.0/fire-lib/fire-spark_1_6-core-2.1.0-jar-with-dependencies.jar does not exist, skipping.
   java.lang.ClassNotFoundException: fire.execute.WorkflowExecuteFromFile at java.net.URLClassLoader.findClass(URLClassLoader.java:381) at 
   java.lang.ClassLoader.loadClass(ClassLoader.java:424) at java.lang.ClassLoader.loadClass(ClassLoader.java:357) at
   java.lang.Class.forName0(Native Method) at java.lang.Class.forName(Class.java:348) at

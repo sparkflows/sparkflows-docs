@@ -35,10 +35,10 @@ Create New Datasets
 You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
 
-Enter the Field Details
+Entering Field Details
 =======================
 
-Enter the fields below into the form. Below are the details of the fields:
+Below are the details of the fields in the ``Create Dataset`` page:
 
 - **NAME** : Name of the New Dataset we are creating.
 - **DESCRIPTION** : Description of the New Dataset.

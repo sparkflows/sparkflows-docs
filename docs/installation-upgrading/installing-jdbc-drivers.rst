@@ -21,7 +21,7 @@ Copy it into fire-user-lib
 
 Under the Fire installation directory, there is ``fire-user-lib`` directory.
 
-Copy the jar file into it.
+Copy the downloaded JDBC jar file into it.
 
 Restart Fire
 ------------

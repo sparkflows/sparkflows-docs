@@ -36,7 +36,7 @@ You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
 
 Entering Field Details
-=======================
+^^^^^^^^^^^^^^^^^^^^
 
 Below are the details of the fields in the ``Create Dataset`` page:
 
@@ -54,8 +54,8 @@ Below are the details of the fields in the ``Create Dataset`` page:
    :align: center
 
 
-Update the Schema of the Dataset
-================================
+Updating the Schema of the Dataset
+^^^^^^^^^^^^^^^^^^^^
 
 You can update the Schema of the Dataset by clicking on ``Update``. It would display sample data for the dataset followed by the inferred Schema.
 
@@ -69,8 +69,8 @@ You can update the column names in the schema based on your data.
    :align: center
    
 
-Save the New Dataset
-====================
+Saving the New Dataset
+^^^^^^^^^^^^^^^^^^^^
 
 You can click on ``Save`` to save the new Dataset created.
  

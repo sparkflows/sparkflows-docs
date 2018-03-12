@@ -1,7 +1,7 @@
 Installing JDBC Drivers
 =======================
 
-Fire has a JDBC Processor for reading and writing from JDBC sources and sinks.
+Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
 In order to connect to a JDBC source like Oracle/DB2 etc. the JDBC driver needs to be installed in Fire.
 

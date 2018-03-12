@@ -8,7 +8,7 @@ In order to connect to a JDBC source like Oracle/DB2 etc. the JDBC driver needs 
 Below are the steps for installing the JDBC driver into Fire:
 
 - *Download the JDBC jar file*
-- *Copy it into ``fire-user-lib`` directory under the Fire installation*
+- *Copy it into `fire-user-lib` directory under the Fire installation*
 - *Restart fire*
 
 Download the JDBC jar file

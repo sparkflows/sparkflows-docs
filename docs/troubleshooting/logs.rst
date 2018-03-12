@@ -5,7 +5,7 @@ Fire Server & Workflow Execution Logs
 Where do I find the logs of the Fire Server
 -------------------------------------------
 
-When running on linux or mac the logs of the Fire Web Server are in the file ``nohup.out`` under the directory where Fire has been installed. It would be something like ``...../fire-1.4.3``
+When running on linux or mac the logs of the Fire Process are in the file ``fire.log``. Logs of the Fire Web Server are in the file ``fireserver.log`` under the directory where Fire has been installed. It would be something like ``...../fire-2.1.0``
 
 
 Where do I find the logs of the workflows when running on my Cluster

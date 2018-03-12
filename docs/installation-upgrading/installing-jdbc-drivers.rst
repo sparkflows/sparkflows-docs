@@ -28,4 +28,6 @@ Restart Fire
 
 Restart Fire with ``./run-fire.sh restart``
 
+Fire Server does not need to be restarted.
+
 

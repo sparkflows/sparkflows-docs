@@ -31,9 +31,9 @@ Click on ``Create Workflow`` for creating a new workflow. It would take you to t
 
 In the Workflow Designer Page, give a ``Name, Category and Description`` to the Workflow.
 
-- **Name** : Name of the New Workflow
-- **Category** : Category is used to group various workflows. For example if we have various Workflows for Customer Reports, the Category could be ``Customer Reports``.
-- **Description** : Description of the New Workflow
+- **NAME** : Name of the New Workflow
+- **CATEGORY** : Category is used to group various workflows. For example if we have various Workflows for Customer Reports, the Category could be ``Customer Reports``.
+- **DESCRIPTION** : Description of the New Workflow
 
 
 Create the Workflow

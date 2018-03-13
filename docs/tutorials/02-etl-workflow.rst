@@ -39,7 +39,7 @@ In the Workflow Designer Page, give a ``Name, Category and Description`` to the 
 Create the Workflow
 ===================
 
-Click on the nodes in the LHS to create them. Connect them with Links. Links can be connected between 2 Nodes by clicking on the yellow box in the from node, dragging the mouse and connecting to the second Node.
+Click on the nodes in the LHS to create them. Connect them with Links. Links can be connected between 2 Nodes by clicking on the yellow box in the first node, dragging the mouse and connecting to the second Node.
 
 
 .. figure:: ../_assets/tutorials/02/etl-workflow.png

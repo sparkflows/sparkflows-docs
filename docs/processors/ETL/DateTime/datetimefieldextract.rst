@@ -4,6 +4,16 @@ DateTimeFieldExtract
 
 creates a new DataFrame by extracting Date and Time fields.
 
+Input
+---------- 
+
+It takes in a DataFrame as Input
+
+Output
+---------- 
+
+Node to extract year/month/dayofmonth/hour/minute/seconad values from TimeStamp
+
 Type
 ---------- 
 

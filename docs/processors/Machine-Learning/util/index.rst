@@ -5,6 +5,7 @@ util
    :maxdepth: 2
 
    arima.rst
+   arimatest.rst
    crossvalidator.rst
    mlmodelload.rst
    mlmodelsave.rst

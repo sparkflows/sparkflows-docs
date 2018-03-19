@@ -4,6 +4,11 @@ Repartition
 
 This node repartitions incoming dataframes into a specified number of partitions
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

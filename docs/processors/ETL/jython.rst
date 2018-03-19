@@ -4,6 +4,16 @@ Jython
 
 This node runs any given Python code. The input dataframe is passed in the variable inDF. The output dataframe should be placed in the variable outDF
 
+Input
+---------- 
+
+The input dataframe is passed in the variable in DF
+
+Output
+---------- 
+
+The output dataframe should be placed in the variable outDF
+
 Type
 ---------- 
 

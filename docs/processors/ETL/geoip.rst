@@ -4,6 +4,16 @@ GeoIP
 
 This node converts IP to geo location
 
+Input
+---------- 
+
+The input dataframe is passed in the variable inDF
+
+Output
+---------- 
+
+Transforms the IP to Geo location
+
 Type
 ---------- 
 

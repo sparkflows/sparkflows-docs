@@ -4,6 +4,16 @@ Coalesce
 
 This node coalesces the DataFrame into specified number of Partitions
 
+Input
+---------- 
+
+This type of node takes in a DataFrame and transforms it to another DataFrame.
+
+Output
+---------- 
+
+The output DataFrame has the specified number of partitions
+
 Type
 ---------- 
 

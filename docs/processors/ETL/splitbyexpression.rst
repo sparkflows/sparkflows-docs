@@ -4,6 +4,11 @@ Split By Expression
 
 None
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

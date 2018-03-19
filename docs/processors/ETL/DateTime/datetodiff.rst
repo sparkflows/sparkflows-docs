@@ -4,6 +4,11 @@ DateDifference
 
 This node finds difference between two dates
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

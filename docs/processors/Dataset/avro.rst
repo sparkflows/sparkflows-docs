@@ -1,8 +1,18 @@
 
-Avro
+ReadAvro
 ========== 
 
 Dataset Node for reading Avro files
+
+Input
+---------- 
+
+It reads in Avro files
+
+Output
+---------- 
+
+It creates a DataFrame from the data read and sends it to its output
 
 Type
 ---------- 

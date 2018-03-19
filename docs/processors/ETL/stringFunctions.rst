@@ -4,6 +4,11 @@ StringFuntions
 
 This node performs specified String function on a row
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

@@ -13,12 +13,15 @@ ETL
    concatcolumns.rst
    datawrangling.rst
    dropcolumns.rst
+   dropduplicaterows.rst
    droprowswithnull.rst
    fieldsplitter.rst
+   fieldsplittertest.rst
    findAndReplace.rst
    fixedlength.rst
    generateUUID.rst
    geoip.rst
+   geopoint.rst
    jython.rst
    mathfunctions.rst
    regextokenizer.rst

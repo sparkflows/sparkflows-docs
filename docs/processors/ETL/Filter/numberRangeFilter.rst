@@ -4,6 +4,11 @@ FilterByNumberRange
 
 This node filter Rows in the given Number Range
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

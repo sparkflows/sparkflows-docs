@@ -1,5 +1,5 @@
 
-Parquet
+ReadParquet
 ========== 
 
 Dataset Node for reading Parquet files

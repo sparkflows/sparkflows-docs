@@ -4,6 +4,16 @@ Dedup
 
 Performs Dedup
 
+Input
+---------- 
+
+It takes in a DataFrame as input
+
+Output
+---------- 
+
+Dataframe with confidence score field and other selected scores for entities
+
 Type
 ---------- 
 

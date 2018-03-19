@@ -4,6 +4,16 @@ JoinUsingColumns
 
 This node joins the incoming dataframes on 1 or more columns
 
+Input
+---------- 
+
+It takes in 2 DataFrames as input and produces one DataFrame as output by joining on the specified columns
+
+Output
+---------- 
+
+The output DataFrame produced as a result of joining the incoming DataFrames on the specified columns
+
 Type
 ---------- 
 

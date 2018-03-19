@@ -4,6 +4,16 @@ CastColumnType
 
 This node creates a new DataFrame by casting input columns with a new data type
 
+Input
+---------- 
+
+This type of node takes in a DataFrame and transforms it to another DataFrame
+
+Output
+---------- 
+
+This node casts the data type of columns as specified
+
 Type
 ---------- 
 

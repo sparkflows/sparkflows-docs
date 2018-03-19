@@ -4,6 +4,16 @@ FieldSplitter
 
 This node splits the string at specified delimiter
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
+Output
+---------- 
+
+New columns are added to the incoming DataFrame with values from the result of splitting the value in the input column
+
 Type
 ---------- 
 

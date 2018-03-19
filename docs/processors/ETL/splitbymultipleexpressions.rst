@@ -4,6 +4,11 @@ Split By Multiple Expressions
 
 Splits the incoming DataFrame into multiple output DataFrames by applying the conditional logic
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

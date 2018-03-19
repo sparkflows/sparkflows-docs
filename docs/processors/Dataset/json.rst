@@ -1,5 +1,5 @@
 
-JSON
+ReadJSON
 ========== 
 
 Dataset Node for reading JSON files

@@ -4,6 +4,16 @@ RowFilter
 
 This node creates a new DataFrame containing only rows satisfying given condition
 
+Input
+---------- 
+
+It accepts DataFrame as input from the previous Node
+
+Output
+---------- 
+
+This node filters the rows based on the conditional expression to generate the output DataFrame
+
 Type
 ---------- 
 

@@ -4,6 +4,16 @@ SQL
 
 This node runs the given SQL on the incoming DataFrame
 
+Input
+---------- 
+
+This type of node takes in a DataFrame and transforms it to another DataFrame
+
+Output
+---------- 
+
+This node runs the given SQL on the incoming DataFrame to generate the output DataFrame
+
 Type
 ---------- 
 

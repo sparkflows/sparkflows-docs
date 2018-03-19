@@ -4,6 +4,11 @@ RemoveUnwantedCharacters
 
 This node removes unwanted characters
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

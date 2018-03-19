@@ -28,7 +28,9 @@ Fields
 +-------------------+---------------------------+---------------------------------------+
 | topics            | Kafka Topics              | List of Topics separated by , (comma) |
 +-------------------+---------------------------+---------------------------------------+
-| numThreads        | Number of Threads         | Number of Threads                     |
+| autoOffsetReset   | auto.offset.reset         | Auto Offset Reset                     |
++-------------------+---------------------------+---------------------------------------+
+| enableAutoCommit  | enable.auto.commit        | Enable Auto Commit                    |
 +-------------------+---------------------------+---------------------------------------+
 | kafkaParamsKeys   | Params Key/Value Pairs    | More Config Values                    |
 +-------------------+---------------------------+---------------------------------------+

@@ -4,6 +4,16 @@ Scala
 
 This node runs any given Scala code. The input dataframe is passed in the variable inDF. The output dataframe is passed back by registering it as a temporary table.
 
+Input
+---------- 
+
+The input dataframe is passed in the variable inDF.
+
+Output
+---------- 
+
+The output dataframe is passed back by registering it as a temporary table
+
 Type
 ---------- 
 

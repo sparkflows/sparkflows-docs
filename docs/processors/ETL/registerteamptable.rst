@@ -4,6 +4,16 @@ RegisterTempTable
 
 This node registers a temporary table in Spark
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
+Output
+---------- 
+
+The incoming DataFrame is output without any changes
+
 Type
 ---------- 
 

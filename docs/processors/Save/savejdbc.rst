@@ -1,5 +1,5 @@
 
-Save JDBC
+SaveJDBC
 ========== 
 
 This node writes data to databases using JDBC.

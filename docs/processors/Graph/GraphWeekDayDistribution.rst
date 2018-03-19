@@ -20,6 +20,8 @@ Fields
 +-----------+------------+------------------+
 | Name      | Title      | Description      |
 +===========+============+==================+
+| title     | Title      | None             |
++-----------+------------+------------------+
 | graphType | Chart Type | input graph type |
 +-----------+------------+------------------+
 | yCols     | Y Columns  | input to y axis  |

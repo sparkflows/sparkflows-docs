@@ -4,6 +4,16 @@ ColumnsRename
 
 This node creates a new DataFrame by renaming existing columns with new name
 
+Input
+---------- 
+
+This type of node takes in a DataFrame and transforms it to another DataFrame.
+
+Output
+---------- 
+
+The specified columns are renamed to have the new names.
+
 Type
 ---------- 
 

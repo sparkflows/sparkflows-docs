@@ -4,6 +4,11 @@ FilterByStringLength
 
 This node filters the Rows within the given string length
 
+Input
+---------- 
+
+It accepts a DataFrame as input from the previous Node
+
 Type
 ---------- 
 

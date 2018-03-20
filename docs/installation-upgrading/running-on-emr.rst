@@ -87,7 +87,8 @@ Steps
     Under Administration/Configuration add the ``hadoop`` user
     Logout and login with the ``hadoop`` user
     
-## Running Example Workflows
+Running Example Workflows
+-------------------------
 
 * Upload the Fire examples data onto HDFS::
 

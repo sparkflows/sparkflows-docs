@@ -33,6 +33,8 @@ Steps
        OR   
   * https://www.sparkflows.io/archives
   
+  * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-2.1.0/2/fire-2.1.0.tgz
+  
   
 * Unpack it::
 

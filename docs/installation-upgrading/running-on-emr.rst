@@ -18,10 +18,10 @@ Steps
 
     Start your EMR cluster on AWS if you do not already have it running.
 
-* Update the inbound rules for the master node::
+* Update the inbound rules for the Master Node::
 
-    We would have Fire listening on port 8085
-    Update the inbound rules to allow port 8085
+    We would have Fire listening on port 8085 and 8086
+    Update the inbound rules for the Master Node to allow ports 8085 and 8086
 
 * ssh into the Master EMR node as the ``hadoop`` user::
 

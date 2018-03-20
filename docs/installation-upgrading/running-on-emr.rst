@@ -23,9 +23,9 @@ Steps
     We would have Fire listening on port 8085
     Update the inbound rules to allow port 8085
 
-* ssh into the Master EMR node::
+* ssh into the Master EMR node as the ``hadoop`` user::
 
-    ssh -i my.pem ec2-user@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
+    ssh -i my.pem hadoop@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
 
 * Download the fire tgz file from:
 
@@ -37,9 +37,11 @@ Steps
 * Unpack it::
 
     tar xvf fire-2.1.0.tgz
+    
 
 * Change the port on which to start Fire::
 
+    cd <fire install_dir>
     Edit conf/application.properties
     Update the last two lines to below:
         http.port=8085
@@ -62,7 +64,7 @@ Steps
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080/index.html
+    <machine_name>:8085/index.html
 
 * Login with:: 
 

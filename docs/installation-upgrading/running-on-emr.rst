@@ -77,6 +77,14 @@ Steps
 
     admin/admin
     
+* Connect Fire with the EMR Cluster::
+
+    Go to Administration/Configuration
+    Click on ``Infer Hadoop Configs``
+    Save
+    
+    If your EMR cluster is not running HIVE, update ``spark.sql-context = SQLContext``
+    
 * Create the ``hadoop`` user in Fire::
 
     Under Administration/Configuration add the ``hadoop`` user

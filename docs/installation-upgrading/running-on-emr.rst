@@ -40,11 +40,6 @@ Steps
 
     tar xvf fire-2.1.0.tgz
     
-* Upload the Fire examples data onto HDFS::
-
-    cd <fire install_dir>
-    hadoop fs -put data
-    
     
 * Change the port on which to start Fire::
 
@@ -91,6 +86,14 @@ Steps
 
     Under Administration/Configuration add the ``hadoop`` user
     Logout and login with the ``hadoop`` user
+    
+## Running Example Workflows
+
+* Upload the Fire examples data onto HDFS::
+
+    cd <fire install_dir>
+    hadoop fs -put data
+    
     
 * Start off with executing the example workflows::
 

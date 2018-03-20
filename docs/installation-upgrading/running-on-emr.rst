@@ -11,28 +11,43 @@ Below are the steps for installing Fire on EMR.
 - *Create H2 Database*
 - *Start Fire*
 
-ssh into the Master Node
---------------------------
+Steps
+------
+
+* ssh into the Master EMR node
 
 
+* Download the fire tgz file from:
 
-Download Fire
---------------------------
+  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/archives
+  
+  
+* Unpack it::
 
-wget 
+    tar xvf fire-2.1.0.tgz
 
-Copy it into fire-user-lib
---------------------------
 
-Under the Fire installation directory, there is ``fire-user-lib`` directory.
+* Create H2 DB::
 
-Copy the downloaded JDBC jar file into it.
+      cd <fire install_dir>
+      ./create-h2-db.sh
 
-Start Fire
-------------
+* Launch Fire::
 
-Restart Fire with ``./run-fire.sh restart``
+    cd <fire install_dir>
+    ./run-fire.sh start
+    
+* Launch Fire Server::
 
-Fire Server does not need to be restarted.
+    cd <fire install_dir>
+    ./run-fire-server.sh start
 
+* Open your web browser and navigate to:: 
+  
+    <machine_name>:8080/index.html
+
+* Login with:: 
+
+    admin/admin or test/test
 

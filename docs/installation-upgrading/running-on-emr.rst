@@ -75,5 +75,18 @@ Fire stores its metadata into the embedded H2 database. You can also connect it 
 
 * Login with:: 
 
-    admin/admin or test/test
+    admin/admin
+    
+* Create the ``hadoop`` user in Fire::
+
+    Under Administration/Configuration add the ``hadoop`` user
+    Logout and login with the ``hadoop`` user
+    
+* Start off with executing the example workflows::
+
+    Fire comes pre-packaged with a number of example workflows
+    You can install them by clicking on the ``Install example workflows`` link in the landing page when logged in as the ``admin`` user.
+    
+    Execute the workflows
+    
 

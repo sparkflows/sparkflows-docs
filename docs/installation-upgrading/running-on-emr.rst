@@ -54,6 +54,8 @@ Steps
 
 * Create H2 DB::
 
+Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database.
+
       cd <fire install_dir>
       ./create-h2-db.sh
 

@@ -38,7 +38,12 @@ Steps
 
     tar xvf fire-2.1.0.tgz
     
+* Upload the Fire examples data onto HDFS::
 
+    cd <fire install_dir>
+    hadoop fs -put data
+    
+    
 * Change the port on which to start Fire::
 
     cd <fire install_dir>

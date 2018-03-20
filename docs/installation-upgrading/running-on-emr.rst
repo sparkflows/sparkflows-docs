@@ -14,6 +14,15 @@ Below are the steps for installing Fire on EMR.
 Steps
 ------
 
+* Start your EMR cluster on AWS
+
+Start your EMR cluster on AWS if you do not already have it running.
+
+* Update the inbound rules for the master node
+
+    We would have Fire listening on port 8085
+    Update the inbound rules to allow port 8085
+
 * ssh into the Master EMR node
 
 
@@ -27,6 +36,12 @@ Steps
 
     tar xvf fire-2.1.0.tgz
 
+* Change the port on which to start Fire
+
+    Edit conf/application.properties
+    Update the last two lines to below:
+        http.port=8085
+        https.port=8086
 
 * Create H2 DB::
 

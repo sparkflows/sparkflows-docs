@@ -1,4 +1,4 @@
-Running on EMR
+Running on AWS EMR
 =======================
 
 Fire can be easily installed on an AWS EMR Cluster.
@@ -14,21 +14,23 @@ Below are the steps for installing Fire on EMR.
 Steps
 ------
 
-* Start your EMR cluster on AWS
+* Start your EMR cluster on AWS::
 
-Start your EMR cluster on AWS if you do not already have it running.
+    Start your EMR cluster on AWS if you do not already have it running.
 
-* Update the inbound rules for the master node
+* Update the inbound rules for the master node::
 
     We would have Fire listening on port 8085
     Update the inbound rules to allow port 8085
 
-* ssh into the Master EMR node
+* ssh into the Master EMR node::
 
+    ssh -i my.pem ec2-user@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
 
 * Download the fire tgz file from:
 
-  * https://www.sparkflows.io/download  OR   
+  * https://www.sparkflows.io/download    
+       OR   
   * https://www.sparkflows.io/archives
   
   
@@ -36,7 +38,7 @@ Start your EMR cluster on AWS if you do not already have it running.
 
     tar xvf fire-2.1.0.tgz
 
-* Change the port on which to start Fire
+* Change the port on which to start Fire::
 
     Edit conf/application.properties
     Update the last two lines to below:

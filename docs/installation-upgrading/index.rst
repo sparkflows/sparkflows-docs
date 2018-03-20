@@ -10,4 +10,5 @@ Installation and Upgrading
    configuration/index
    upgrading.rst
    installing-jdbc-drivers.rst
+   running-on-emr.rst
    

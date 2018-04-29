@@ -15,21 +15,21 @@ Using JDBC Procesor
 
 Below is a workflow which reads data from MySQL and saves to a CSV file.
 
-.. figure:: ../../_assets/user-guide/jdbc-workflow.png
+.. figure:: ../_assets/user-guide/jdbc-workflow.png
    :scale: 100%
    :alt: JDBC Workflow
    :align: center
    
 Below are the configuration details of the JDBC Processor
 
-.. figure:: ../../_assets/user-guide/jdbc-dialog.png
+.. figure:: ../_assets/user-guide/jdbc-dialog.png
    :scale: 100%
    :alt: JDBC Processor Dialog
    :align: center
    
 The below screenshot displays some of the records read from the MySQL table.
 
-.. figure:: ../../_assets/user-guide/jdbc-read-results.png
+.. figure:: ../_assets/user-guide/jdbc-read-results.png
    :scale: 100%
    :alt: JDBC Read Results
    :align: center

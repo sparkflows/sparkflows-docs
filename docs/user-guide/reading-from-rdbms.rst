@@ -10,8 +10,8 @@ Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 - http://sparkflows.readthedocs.io/en/latest/installation-upgrading/installing-jdbc-drivers.html
 
 
-Using JDBC Procesor
--------------------
+Workflow for reading from MySQL
+--------------------------------
 
 Below is a workflow which reads data from MySQL and saves to a CSV file.
 
@@ -20,6 +20,9 @@ Below is a workflow which reads data from MySQL and saves to a CSV file.
    :alt: JDBC Workflow
    :align: center
    
+JDBC Processor Configuration
+----------------------------
+
 Below are the configuration details of the JDBC Processor
 
 .. figure:: ../_assets/user-guide/jdbc-dialog.png
@@ -27,7 +30,10 @@ Below are the configuration details of the JDBC Processor
    :alt: JDBC Processor Dialog
    :align: center
    
-The below screenshot displays some of the records read from the MySQL table.
+Results of reading from MySQL table
+-----------------------------------
+
+The below screenshot displays some of the records read from the MySQL table by Fire.
 
 .. figure:: ../_assets/user-guide/jdbc-read-results.png
    :scale: 100%

@@ -12,4 +12,4 @@ User Guide
    visualizations.rst
    working-with-dashboards.rst
    scheduling-workflows.rst
-   connecting-to-rdbms.rst
+   reading-from-rdbms.rst

@@ -1,4 +1,4 @@
-Connecting to RDBMS
+Reading from RDBMS
 =======================
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.

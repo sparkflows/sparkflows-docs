@@ -72,9 +72,9 @@ Fire supports various ``widgets types`` for capturing the details of the fields 
 Deploy the Custom Node in the Fire Server
 -----------------------------------------
  
-  * Create a jar file and place it in the ``user-lib`` directory of sparkflows
-  
+  * Create a jar file
     * ``mvn clean package``
+  * Copy the jar file create above into ``user-lib`` directory of sparkflows
   * Place the JSON file for the new node under the ``nodes`` directory.
   * ``Restart`` the Fire Server.
   * The new node would be picked up by the Fire Server and be visible in the ``Workflow Editor``.

@@ -21,7 +21,7 @@ If you choose to run the FIRE project on a port other than the ``default 8080 (h
         - https.port=8443
     - In the Fire UI, under Administration/Configuration update the below property with the right port number.
         - app.postMessageURL
-    - Restart Fire Server using run-fire-server.sh or run-fire-server.bat depending on the environment (Unix/Linux or Windows)
+    - Restart Fire Server using ``run-fire-server.sh start`` or ``run-fire-server.bat`` depending on the environment (Unix/Linux or Windows)
 
 
 Running Fire on Another Port
@@ -36,6 +36,6 @@ In order to run Fire on another port:
     
     - Configure the http port
     - fire.http.port=8081
-- Restart Fire using ./run-fire.sh
+- Restart Fire using ``./run-fire.sh start``
 
 

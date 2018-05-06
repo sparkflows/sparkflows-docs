@@ -1,12 +1,14 @@
 Running on Another Port
 =======================
 
-There are 2 processes involved:
+There are 2 processes involved when running Fire.
 
 - fire server
 - fire
 
-Both fire server and fire can be configured to listen on different ports.
+Users Browser talks with ``fire server``, and in turn ``fire server`` talks with ``fire``.
+
+Both ``fire server`` and ``fire`` processes can be configured to listen on different ports.
 
 Running Fire Server on Another Port
 -----------------------------------------
@@ -21,7 +23,7 @@ If you choose to run the FIRE project on a port other than the ``default 8080 (h
         - https.port=8443
     - In the Fire UI, under Administration/Configuration update the below property with the right port number.
         - app.postMessageURL
-    - Restart Fire Server using ``run-fire-server.sh start`` or ``run-fire-server.bat`` depending on the environment (Unix/Linux or Windows)
+    - Restart Fire Server using **run-fire-server.sh start** or **run-fire-server.bat** depending on the environment (Unix/Linux or Windows)
 
 
 Running Fire on Another Port

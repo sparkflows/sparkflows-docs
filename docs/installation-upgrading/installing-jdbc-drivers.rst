@@ -40,3 +40,8 @@ Downloading MySQL Connector
 - After untaring the jdbc jar file is available in the directory
 - Use the jar file (mysql-connector-java-5.1.46.jar) for installation in Fire
 
+Running Workflows depending on the jars added
+---------------------------
+
+When running workflows which depend on the jar file, select the checkbox for that jar file in the Workflow Execution Page. 
+

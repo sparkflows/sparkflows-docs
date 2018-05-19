@@ -21,7 +21,6 @@ Create New Dataset
 if id value is not passed, new dataset will be created::
 
 ```
-
 {
 "id":13,
 "version":0,
@@ -52,7 +51,6 @@ if id value is not passed, new dataset will be created::
 ]
 }
 }
-
 ```
 
 Curl

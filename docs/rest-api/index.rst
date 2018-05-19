@@ -20,6 +20,12 @@ In the below examples, the Sparkflows Fire server is running on the local machin
 You can replace it with your own machine name and port.
 
 
+REST API Details
+---------------- 
+
+There are various categories of REST API's available:
+
+
 .. toctree::
    :maxdepth: 2
 

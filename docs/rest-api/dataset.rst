@@ -7,7 +7,15 @@ Below are the various Dataset API's available in Sparkflows
 
 They should be executed after you have logged into Sparkflows
 
+.. code-block:: json
 
+    {
+      "id": 13,
+      "version": 0,
+      "name": "spam"
+    }
+    
+    
 Get List of Datasets for the user
 ---------------------------------
 
@@ -52,7 +60,7 @@ Below is the json::
           }
         ]
       }
-}
+    }
 
 
 Curl

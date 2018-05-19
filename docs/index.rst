@@ -77,6 +77,13 @@ Processors
 
    processors/index   
 
+REST API's
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   rest-api/index   
 
 Indices and tables
 ------------------

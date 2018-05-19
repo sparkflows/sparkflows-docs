@@ -7,15 +7,6 @@ Below are the various Dataset API's available in Sparkflows
 
 They should be executed after you have logged into Sparkflows
 
-.. code-block:: json
-
-    {
-        "id": 13,
-        "version": 0,
-        "name": "spam",
-        "header": true
-    }
-
 
 Get List of Datasets for the user
 ---------------------------------
@@ -32,36 +23,36 @@ if id value is not passed, new dataset will be created::
 
 .. code-block:: json
 
-{
-"id":13,
-"version":0,
-"name":"spam",
-"header":true,
-"path":"data/spam.csv",
-"delimiter":",",
-"schemaModel":{
-"schemaColList":[
-{
-"colName":"label",
-"colType":"DOUBLE",
-"colFormat":"",
-"colMLType":"NUMERIC"
-},
-{
-"colName":"message",
-"colType":"STRING",
-"colFormat":"",
-"colMLType":"TEXT"
-},
-{
-"colName":"id",
-"colType":"DOUBLE",
-"colFormat":"",
-"colMLType":"NUMERIC"
-}
-]
-}
-}
+  {
+  "id": 13,
+  "version": 0,
+  "name": "spam",
+  "header": true,
+  "path": "data\/spam.csv",
+  "delimiter": ",",
+  "schemaModel": {
+    "schemaColList": [
+      {
+        "colName": "label",
+        "colType": "DOUBLE",
+        "colFormat": "",
+        "colMLType": "NUMERIC"
+      },
+      {
+        "colName": "message",
+        "colType": "STRING",
+        "colFormat": "",
+        "colMLType": "TEXT"
+      },
+      {
+        "colName": "id",
+        "colType": "DOUBLE",
+        "colFormat": "",
+        "colMLType": "NUMERIC"
+      }
+    ]
+  }
+  }
 
 
 Curl

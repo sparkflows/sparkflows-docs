@@ -29,7 +29,7 @@ Create New Dataset
 
 if id value is not passed, new dataset will be created::
 
-.. code-block:: json
+JSON::
 
     {
       "id": 13,

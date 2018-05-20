@@ -43,7 +43,7 @@ sheetId:0::
 Delete Dashboard
 ----------------
 
- id:9::
+ id:9 ::
  
    curl -X GET --header 'Accept: /' --header 'id: 9' 'http://localhost:8080/deleteDashboard' -b /tmp/cookies.txt
 

@@ -100,6 +100,20 @@ Returns the count of datasets available::
 
     curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
          
+
+Returns sample data
+------------------ 
+
+Delimiter and header are optional values
+
+* path: data/spam.csv
+* schema: {"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}
+
+CURL::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'path: data/spam.csv' -d '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' localhost:8080/sampleData -b /tmp/cookies.txt
+
+
 Returns schema of the files in the given path using the given delimiter
 -----------------------------------------------
 

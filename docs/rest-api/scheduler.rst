@@ -18,21 +18,24 @@ Curl
 
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: /' --header 'id: 1' -d '{
   
+JSON
+++++
+
 ::
 
-   "analysisFlowId": 0,
-   "cronPattern": "",
-   "dateCreated": "2017-11-20T00:47:37.351Z",
-   "dateLastUpdated": "2017-11-20T00:47:37.351Z",
-   "day": "",
-   "dayOfTheMonth": 0,
-   "description": "",
-   "endTime": "2017-11-20T00:47:37.351Z",
-   "fireEvery": "",
-   "firedTime": "2017-11-20T00:47:37.352Z",
-   "hour": 0,
-   "id": 0,
-   "minute": 0,
+    "analysisFlowId": 0,
+    "cronPattern": "",
+    "dateCreated": "2017-11-20T00:47:37.351Z",
+    "dateLastUpdated": "2017-11-20T00:47:37.351Z",
+    "day": "",
+    "dayOfTheMonth": 0,
+    "description": "",
+    "endTime": "2017-11-20T00:47:37.351Z",
+    "fireEvery": "",
+    "firedTime": "2017-11-20T00:47:37.352Z",
+    "hour": 0,
+    "id": 0,
+    "minute": 0,
    "name": "",
    "sparkSubmitOptions": "",
    "startTime": "2017-11-20T00:47:37.352Z",

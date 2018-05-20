@@ -38,15 +38,20 @@ Upload file
 -----------
 
 Uploads selected file at specified path
-File name:test.txt
-path:/home/ec2-user::
 
-  curl -X POST --header 'Content-Type: multipart/form-data' --header 'Accept: text/plain' --header 'path: /home/ec2-user/' -F 'file=@test.txt' 'http://localhost:8080/uploadFile' -b /tmp/cookies.txt
+* File name:test.txt
+* path:/home/ec2-user
+
+::
+
+    curl -X POST --header 'Content-Type: multipart/form-data' --header 'Accept: text/plain' --header 'path: /home/ec2-user/' -F 'file=@test.txt' 'http://localhost:8080/uploadFile' -b /tmp/cookies.txt
   
 Get Users home directory
 ------------------------
 
-  curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/userHomeDir' -b /tmp/cookies.txt
+::
+
+    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/userHomeDir' -b /tmp/cookies.txt
 
 
 

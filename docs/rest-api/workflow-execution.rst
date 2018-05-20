@@ -52,3 +52,12 @@ Return the list of Executions for given Analysis Flow Id.
 Workflow Execution Id = 1::
 
   curl -X GET --header 'Accept: text/html' --header 'workflowExecutionId: 1' 'http://localhost:8080/stopWorkflowExecution' -b /tmp/cookies.txt
+  
+View Spark Log of a workflow execution
+--------------------------------------
+ 
+Return the logs of a given workflow execution
+
+Workflow Execution Id = 81::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowExecutionId: 81' 'http://localhost:8080/viewLogs' -b /tmp/cookies.txt

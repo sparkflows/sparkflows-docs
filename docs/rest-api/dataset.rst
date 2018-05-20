@@ -11,8 +11,8 @@ Below are the various Dataset API's available in Sparkflows
 They should be executed after you have logged into Sparkflows
     
     
-Get List of Datasets for the user
----------------------------------
+Get List of Datasets
+--------------------
 
 Returns the list of Datasets for the logged in user::
 

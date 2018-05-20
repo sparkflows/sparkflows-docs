@@ -24,7 +24,10 @@ Create / Update Dataset
 
 If id value is not passed, new dataset will be created::
 
-JSON::
+JSON
+----
+
+::
 
     {
       "id": 13,
@@ -58,7 +61,10 @@ JSON::
     }
 
 
-Curl::
+Curl
+----
+
+::
 
     curl-X POST --header 'Content-Type: application/json' --header 'Accept: /' -d     '{"id":13,"version":0,"name":"spam","header":true,"path":"data/spam.csv","delimiter":",","schemaModel":{"schemaColList":[{"colName":"label","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"},{"colName":"message","colType":"STRING","colFormat":"","colMLType":"TEXT"},{"colName":"id","colType":"DOUBLE","colFormat":"","colMLType":"NUMERIC"}]}}' localhost:8080/dataset/save -b /tmp/cookies.txt
        
@@ -71,7 +77,7 @@ Deletes a given Dataset::
     curl   -X GET --header 'Accept: application/json' --header 'id: 13' 'localhost:8080/getSelDataset' -b /tmp/cookies.txt
             
 Get Datasets with given UUID
---------------------
+----------------------------
 
 Returns the Datasets with the given UUID's::
 

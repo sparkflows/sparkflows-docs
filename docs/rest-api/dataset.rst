@@ -70,5 +70,14 @@ Deletes a given Dataset::
 
     curl   -X GET --header 'Accept: application/json' --header 'id: 13' 'localhost:8080/getSelDataset' -b /tmp/cookies.txt
             
+Get Datasets with given UUID
+--------------------
+
+Returns the Datasets with the given UUID's::
+
+    curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt
+
+
+            
             
          

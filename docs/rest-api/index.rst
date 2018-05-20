@@ -18,5 +18,7 @@ There are various categories of REST API's available:
    dataset.rst
    workflow.rst
    workflow-execution.rst
+   dashboard.rst
+   
    
 

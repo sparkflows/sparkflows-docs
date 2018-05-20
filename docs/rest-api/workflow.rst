@@ -50,3 +50,12 @@ Execute Workflow Locally Synchronous
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/executeWorkflowLocallySynchronous' -b /tmp/cookies.txt
 
+
+Get Latest WorkFlows
+-------------------- 
+
+::
+
+    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestWorkflows' -b /tmp/cookies.txt
+
+

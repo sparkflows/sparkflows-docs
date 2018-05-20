@@ -84,3 +84,13 @@ Load Example Datasets And Workflows
 
     curl -X GET --header 'Accept: text/html' 'http://localhost:8080/loadExampleDatasetAndWorkflow' -b /tmp/cookies.txt
 
+
+Get the updated values for a node in the workflow
+----------------------------------------------------
+
+* nodeId: 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}' 'http://localhost:8080/nodeWithUpdatedValuesJSON' -b /tmp/cookies.txt
+

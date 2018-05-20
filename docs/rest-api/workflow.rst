@@ -135,3 +135,12 @@ Get output schema of a Node
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
 ' 'http://localhost:8080/schemaOutputForNodeJSON' -b /tmp/cookies.txt
 
+Get workflow by Id
+------------------
+
+* Id : 1
+
+::
+
+    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/workflowById/1' -b /tmp/cookies.txt
+

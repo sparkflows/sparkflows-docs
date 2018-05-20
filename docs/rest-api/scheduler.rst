@@ -17,21 +17,21 @@ Schedule new Workflow
 
    "analysisFlowId": 0,
    "cronPattern": "",
-"dateCreated": "2017-11-20T00:47:37.351Z",
-"dateLastUpdated": "2017-11-20T00:47:37.351Z",
-"day": "",
-"dayOfTheMonth": 0,
-"description": "",
-"endTime": "2017-11-20T00:47:37.351Z",
-"fireEvery": "",
-"firedTime": "2017-11-20T00:47:37.352Z",
-"hour": 0,
-"id": 0,
-"minute": 0,
-"name": "",
-"sparkSubmitOptions": "",
-"startTime": "2017-11-20T00:47:37.352Z",
-}'    http://localhost:8080/scheduleNewWorkflow  -b /tmp/cookies.txt
+   "dateCreated": "2017-11-20T00:47:37.351Z",
+   "dateLastUpdated": "2017-11-20T00:47:37.351Z",
+   "day": "",
+   "dayOfTheMonth": 0,
+   "description": "",
+   "endTime": "2017-11-20T00:47:37.351Z",
+   "fireEvery": "",
+   "firedTime": "2017-11-20T00:47:37.352Z",
+   "hour": 0,
+   "id": 0,
+   "minute": 0,
+   "name": "",
+   "sparkSubmitOptions": "",
+   "startTime": "2017-11-20T00:47:37.352Z",
+   }'    http://localhost:8080/scheduleNewWorkflow  -b /tmp/cookies.txt
 
 
 Delete Scheduled Workflow

@@ -83,6 +83,15 @@ Returns the Datasets with the given UUID's::
 
     curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt
 
+Get  Dataset Count
+------------------
+
+Returns the count of datasets available
+
+::
+
+    curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
+         
 
 Get  Latest Datasets
 -------------------- 

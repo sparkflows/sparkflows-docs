@@ -114,7 +114,7 @@ Get the workflow versions
 
 
 
-Get schema For a Node
+Get input schema For a Node
 ------------------
  
 * nodeId: 1
@@ -123,4 +123,15 @@ Get schema For a Node
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
 ' 'http://localhost:8080/schemaForNodeJSON' -b /tmp/cookies.txt
+
+
+Get output schema of a Node
+---------------------------
+
+* nodeId: 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/schemaOutputForNodeJSON' -b /tmp/cookies.txt
 

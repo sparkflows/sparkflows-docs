@@ -35,6 +35,24 @@ Type = 2::
 
   curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "analysisFlowExecutionId:79" -H "type:2" -X GET -X GET -b /tmp/cookies.txt localhost:8080/viewExecutionResult
   
+View Spark Log of a workflow execution 
+--------------------------------------
+
+Return the logs of a given workflow execution
+
+Workflow Execution Id = 81::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowExecutionId: 81' 'http://localhost:8080/viewLogs' -b /tmp/cookies.txt
+
+Consume the message sent from YarnRestWorkflowContext
+-----------------------------------------------------
+ 
+jobId=1
+
+message=test::
+
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080//messageFromSparkJob ?jobId=1&message=test' -b /tmp/cookies.txt
+  
 View executions of a Workflow
 ------------------------------
  

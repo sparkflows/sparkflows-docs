@@ -104,3 +104,11 @@ Get the list of nodes that are in an inconsistent state - mainly with regard to 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' -d '{"name":"Elastic Search","nodes":[],"edges":[]}' 'http://localhost:8080/nodesInconsistentStateJSON' -b /tmp/cookies.txt
 
 
+
+Get the workflow versions
+------------------------------ 
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'analysisflowId: 1' 'http://localhost:8080/retrieveWorkflowVersions' -b /tmp/cookies.txt 
+

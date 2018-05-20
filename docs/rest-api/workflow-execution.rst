@@ -61,3 +61,12 @@ Return the logs of a given workflow execution
 Workflow Execution Id = 81::
 
   curl -X GET --header 'Accept: text/html' --header 'workflowExecutionId: 81' 'http://localhost:8080/viewLogs' -b /tmp/cookies.txt
+  
+Consume the message sent from YarnRestWorkflowContext
+-----------------------------------------------------
+ 
+jobId=1
+
+message=test::
+
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080//messageFromSparkJob ?jobId=1&message=test' -b /tmp/cookies.txt

@@ -7,10 +7,7 @@ In the below examples, the Sparkflows Fire server is running on the local machin
 
 You can replace it with your own machine name and port.
 
-CURL
-----
-
-::
+**CURL**::
 
     curl -i -X POST -d username=admin -d password=admin -c /tmp/cookies.txt localhost:8080/login
     

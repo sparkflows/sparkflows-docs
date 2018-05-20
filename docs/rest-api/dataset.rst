@@ -101,7 +101,7 @@ Returns the count of datasets available::
     curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
          
 
-Returns sample data
+Get sample data
 ------------------ 
 
 Delimiter and header are optional values

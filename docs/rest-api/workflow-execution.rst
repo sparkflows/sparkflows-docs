@@ -70,3 +70,56 @@ jobId=1
 message=test::
 
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080//messageFromSparkJob ?jobId=1&message=test' -b /tmp/cookies.txt
+  
+Returns the list of jar files under the fire-lib directory
+----------------------------------------------------------
+
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' 'http://localhost:8080/libJars' -b /tmp/cookies.txt
+  
+Returns the Spark Configuration for the username
+------------------------------------------------
+
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/retrieveSparkConfig/admin' -b /tmp/cookies.txt
+  
+Delete Workflow Executions by days
+----------------------------------
+ 
+"days": "3"::
+
+  curl -X GET --header 'Accept: text/html' --header 'days: 3' 'http://localhost:8080/deleteWorkflowExecutionByDays' -b /tmp/cookies.txt
+  
+List all the workflow executions by all users
+---------------------------------------------
+ 
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/executionsByAllUsers' -b /tmp/cookies.txt
+  
+Get Executed Task Count
+-----------------------
+ 
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getExecutedTaskCount' -b /tmp/cookies.txt
+  
+Get Latest Executions
+---------------------
+ 
+  curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestExecutions' -b /tmp/cookies.txt
+  
+View the latest execution result of workflow
+--------------------------------------------
+ 
+"workflowId": "1",
+
+"nodeId": "1"::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowId: 1' --header 'nodeId: 1' 'http://localhost:8080/recentExecutionResult' -b /tmp/cookies.txt
+
+
+View  the execution result for specific node
+--------------------------------------------
+ 
+"workflowId": "1",
+
+"nodeId": "1"::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowId: 1' --header 'nodeId: 1' 'http://localhost:8080/viewExecutionResultsForNode' -b /tmp/cookies.txt
+   
+

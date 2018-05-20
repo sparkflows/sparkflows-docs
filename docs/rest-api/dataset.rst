@@ -84,6 +84,16 @@ Returns the Datasets with the given UUID's::
     curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt
 
 
-            
+Get  Latest Datasets
+-------------------- 
+
+Returns the latest updated datasets
+
+::
+
+    curl   --X GET --header 'Accept: application/json' http://localhost:8080/getLatestDatasets -b /tmp/cookies.txt
+    
+         
+         
             
          

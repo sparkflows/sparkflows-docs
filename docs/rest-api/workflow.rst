@@ -41,4 +41,12 @@ Deletes a workflow with the given id.
 
     curl -X GET --header 'Accept: text/html' --header 'analysisFlowId: 1' 'http://localhost:8080/deleteWorkflow' -b /tmp/cookies.txt
 
+Execute Workflow Locally Synchronous
+------------------------------------
+
+* nodeId : 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/executeWorkflowLocallySynchronous' -b /tmp/cookies.txt
 

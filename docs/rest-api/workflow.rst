@@ -77,3 +77,10 @@ Get Workflow Count
     curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getWorkflowCount' -b /tmp/cookies.txt
 
 
+Load Example Datasets And Workflows
+---------------------------------
+
+::
+
+    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/loadExampleDatasetAndWorkflow' -b /tmp/cookies.txt
+

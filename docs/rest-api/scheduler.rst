@@ -15,8 +15,8 @@ Schedule new Workflow
   
 ::
 
-  "analysisFlowId": 0,
-"cronPattern": "",
+   "analysisFlowId": 0,
+   "cronPattern": "",
 "dateCreated": "2017-11-20T00:47:37.351Z",
 "dateLastUpdated": "2017-11-20T00:47:37.351Z",
 "day": "",

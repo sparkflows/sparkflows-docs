@@ -25,7 +25,7 @@ Create / Update Dataset
 If id value is not passed, new dataset will be created::
 
 JSON
-----
+++++
 
 ::
 
@@ -62,7 +62,7 @@ JSON
 
 
 Curl
-----
+++++
 
 ::
 

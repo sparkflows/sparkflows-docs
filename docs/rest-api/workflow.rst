@@ -112,3 +112,15 @@ Get the workflow versions
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'analysisflowId: 1' 'http://localhost:8080/retrieveWorkflowVersions' -b /tmp/cookies.txt 
 
+
+
+Get schema For a Node
+------------------
+ 
+* nodeId: 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/schemaForNodeJSON' -b /tmp/cookies.txt
+

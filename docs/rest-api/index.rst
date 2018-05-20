@@ -14,6 +14,7 @@ There are various categories of REST API's available:
    :maxdepth: 2
 
    login.rst
+   processors.rst
    dataset.rst
    workflow.rst
 

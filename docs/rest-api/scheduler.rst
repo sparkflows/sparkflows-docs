@@ -11,6 +11,8 @@ analysisflowId = 1::
 Schedule new Workflow
 ---------------------
 
+Curl::
+
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: /' --header 'id: 1' -d '{
   
 ::

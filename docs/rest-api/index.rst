@@ -13,6 +13,7 @@ There are various categories of REST API's available:
 .. toctree::
    :maxdepth: 2
 
+   login.rst
    workflow.rst
    dataset.rst
 

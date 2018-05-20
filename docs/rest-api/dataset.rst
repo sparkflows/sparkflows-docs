@@ -19,10 +19,10 @@ Returns the list of Datasets for the logged in user::
     curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/datasetsJSON
          
          
-Create New Dataset
-------------------
+Create / Update Dataset
+-----------------------
 
-if id value is not passed, new dataset will be created::
+If id value is not passed, new dataset will be created::
 
 JSON::
 

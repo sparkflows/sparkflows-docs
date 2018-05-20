@@ -22,7 +22,6 @@ Browse Users Home Directory on HDFS
 -----------------------------------
 
 Gets all the files and folders in the users home directory::
-
   curl -i --header "Accept:application/json" -X GET -b /tmp/cookies.txt localhost:8080/hdfs
 
 Open HDFS file

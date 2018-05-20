@@ -34,3 +34,21 @@ AnalysisFlowExecutionId = 79
 Type = 2::
 
   curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "analysisFlowExecutionId:79" -H "type:2" -X GET -X GET -b /tmp/cookies.txt localhost:8080/viewExecutionResult
+  
+View executions of a Workflow
+------------------------------
+ 
+Return the list of Executions for given Analysis Flow Id.
+
+workflowId = 81::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowId: 81' 'http://localhost:8080/workflowExecutions' -b /tmp/cookies.txt
+  
+Stop Executing a Workflow
+-------------------------
+ 
+Return the list of Executions for given Analysis Flow Id.
+
+Workflow Execution Id = 1::
+
+  curl -X GET --header 'Accept: text/html' --header 'workflowExecutionId: 1' 'http://localhost:8080/stopWorkflowExecution' -b /tmp/cookies.txt

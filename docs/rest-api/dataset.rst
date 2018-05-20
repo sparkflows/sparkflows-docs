@@ -136,5 +136,16 @@ Returns the latest updated datasets::
     
          
          
+Get the list of files/directories in the given path
+--------------------------------------------------- 
+
+* path:data/transaction.csv
+  
+CURL::
+
+    curl   -X GET --header 'Content-Type: application/json' --header 'Accept: application/json' -d 'data/transaction.csv' http://localhost:8080/filesInPathJSON -b /tmp/cookies.txt
+    
+    
+
             
          

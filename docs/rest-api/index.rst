@@ -17,5 +17,6 @@ There are various categories of REST API's available:
    processors.rst
    dataset.rst
    workflow.rst
-
+   workflow-execution.rst
+   
 

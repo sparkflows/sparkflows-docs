@@ -30,3 +30,15 @@ For creating new Workflow set analysisFlowId = null
     curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "analysisFlowId:null" -X POST -b /tmp/cookies.txt -d '{"name": "Workflow123","uuid": "","category": null,"description": null,"nodes": [],"edges": []}' localhost:8080/saveWorkflow
     
     
+Delete the workflow
+-------------------
+
+Deletes a workflow with the given id.
+
+* id: 1
+
+::
+
+    curl -X GET --header 'Accept: text/html' --header 'analysisFlowId: 1' 'http://localhost:8080/deleteWorkflow' -b /tmp/cookies.txt
+
+

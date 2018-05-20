@@ -19,6 +19,10 @@ There are various categories of REST API's available:
    workflow.rst
    workflow-execution.rst
    dashboard.rst
+   hdfs.rst
+   hive.rst
+   scheduler.rst
+   
    
    
 

@@ -38,7 +38,4 @@ This provides the rules associated with the nodes::
 Get Node Count
 --------------
  
-curl::
-
-
-  curl -X GET --header 'Accept: application/json'   http://localhost:8080/getNodeCount   -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json'   http://localhost:8080/getNodeCount   -b /tmp/cookies.txt

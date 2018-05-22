@@ -61,6 +61,8 @@ Fire allows creating multiple users. Create the users in Fire under ``Administra
 
 ``These users have to exist on HDFS. So ensure that these users exist on HDFS``
 
+Create the home directory for the user on HDFS.
+
 
 Update core-site.xml of Hadoop to allow sparkflows user to impersonate
 ----------------------------------------------------------------------

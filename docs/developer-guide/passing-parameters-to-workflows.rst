@@ -35,7 +35,7 @@ In the above **$id** would be replaced with **3**.
  
  
 
-Specifying --var parameters for all in Sparkflows User Interface
+Specifying ``--var`` parameters for all in Sparkflows User Interface
 -----------------------------------------------------------------
  
 Sparkflows also allows specifying the **--var** parameters to be passed to all the jobs submitted through Sparkflows. Below is the screen under Administration/Configuration.

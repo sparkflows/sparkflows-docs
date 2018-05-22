@@ -13,7 +13,7 @@ Through a Parameter Node in the Workflow
  
 A Parameter Node can be added to the workflow. It allows passing key/value pairs to the workflow.
 
-Through --var parameters with spark-submit
+Through ``--var`` parameters with spark-submit
 --------------------------------------------------
  
 Workflows can be submitted to be run on the cluster with spark-submit. Extra parameters can be passed with ``--var``::

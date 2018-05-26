@@ -8,7 +8,7 @@ Below are the steps for configuring Fire with your keystore and certificates.
 Generate a Keystore
 -------------------
 
-As an example you can use the following command for generating the Keystore:
+You can use the following command for generating the Keystore:
 
 * keytool ....
 

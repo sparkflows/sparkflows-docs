@@ -14,8 +14,8 @@ keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keysto
 
 You will be prompted with the following questions and enter something similar to the SAMPLE answers:
 
-Enter keystore password: fireServer2018
-Re-enter new password: fireServer2018
+Enter keystore password: 
+Re-enter new password: 
 What is your first and last name?
   [Unknown]:  Ashok Rajan
 What is the name of your organizational unit?

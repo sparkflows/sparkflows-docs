@@ -1,5 +1,5 @@
-Configuring HTTPS
-=================
+Configuring HTTPS for Fire Server
+=================================
 
 You can choose to run the FIRE project either on http or https connection. The only difference would be the port used in the url.
 

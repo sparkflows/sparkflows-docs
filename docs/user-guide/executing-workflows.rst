@@ -80,5 +80,19 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
 These include Oozie, crontab etc.
  
 
+ 
+Debugging Workflows
+-------------------
+ 
+Many times it is helpful to be able to debug the workflows. One easy way is to check the debug checkbox in the UI when executing the workflow.
+ 
+Running in debug mode does a few things:
+
+* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Sparkflows lazy execution from the picture.
+* Displays the number of records processed at each stage.
+* Display more information, for each SQL etc. which are being executed.
+
+
+
 
 

@@ -1,9 +1,9 @@
 Configuring HTTPS for Fire
 ==========================
 
-The Fire server can listen on HTTPS.
+The Fire server can listen on HTTPS. Fire Server comes with a pre-configured keystore.
 
-Below are the steps for configuring Fire for HTTPS.
+Below are the steps for configuring Fire with your keystore and certificates.
 
 Generate a Keystore
 -------------------

@@ -15,10 +15,13 @@ As an example you can use the following command for generating the Keystore:
 Configure Keystore and Password for Fire Server
 -----------------------------------------------
 
-Configure it in the file fire.conf
+Configure it in the file ``fire.conf``
+
 
 Configure the Certificate into Fire Web Server
 ----------------------------------------------
 
-Configure it in applications.conf
+Configure the certificate into the Fire Web Server too.
+
+Configure it in ``applications.conf``
 

@@ -8,6 +8,9 @@ Below are the steps for configuring Fire for HTTPS.
 Generate a Keystore
 -------------------
 
+As an example you can use the following command for generating the Keystore:
+
+* keytool ....
 
 Configure Keystore and Password for Fire Server
 -----------------------------------------------

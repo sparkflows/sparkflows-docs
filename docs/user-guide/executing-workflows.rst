@@ -49,6 +49,10 @@ In the above:
 In the workflow, these variables can be used with $name1    $name2
 Specific nodes make use of the variables by substituting $name with the value provided for the name.
  
+For running the workflow in debug mode, add the following parameters::
+
+    --debug true
+    
 
 Workflow JSON
 --------------

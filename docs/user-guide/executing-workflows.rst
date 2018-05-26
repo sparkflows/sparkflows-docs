@@ -26,10 +26,7 @@ Workflows can be submitted to be run on the cluster with spark-submit::
   
     spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf
 
-For providing extra variables to the workflow, the following parameters can be added to spark-submit::
 
-    --var name1=value1   --var name2=value2    --var name3=value3
-    
 In the above:
 
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

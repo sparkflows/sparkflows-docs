@@ -10,7 +10,7 @@ Generate a Keystore
 
 You can use the following command for generating the Keystore:
 
-keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
+* keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
 
 You will be prompted with the following questions and enter something similar to the SAMPLE answers:
 
@@ -44,9 +44,8 @@ Reference Code Details
 
 Server Code is available in the package file fire.httpserver.ssl.FireHttpsServer. Recommend to place the keystore file under this package for easy reference from the server code. This location of keystore can also be externalized in a config file so that in production scenarios, the keystore from customers can be used. Use the following command to run the SSL based FireServer:
 
-java FireHttpsServer fire.httpserver.service.HadoopService /hadoop 
+* java FireHttpsServer fire.httpserver.service.HadoopService /hadoop 
 
 The client side of code to create a SSL communication is available in fire.httpserver.ssl.HttpsClient. 
 
-Its recommended to modularize the code into a separate class that implements IService, similar to fire.httpserver.service.HadoopService and use the implementation class in the Server code to keep the Server code de-coupled from business logic.
 

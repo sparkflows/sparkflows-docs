@@ -39,13 +39,6 @@ Copy the keystore into Fire project
 
 Copy the generated keystore.jks file into the src folder and place it in a classpath to reference it from the .java server or client codes.
 
-Reference Code Details
--------------------
 
-Server Code is available in the package file fire.httpserver.ssl.FireHttpsServer. Recommend to place the keystore file under this package for easy reference from the server code. This location of keystore can also be externalized in a config file so that in production scenarios, the keystore from customers can be used. Use the following command to run the SSL based FireServer:
-
-* java FireHttpsServer fire.httpserver.service.HadoopService /hadoop 
-
-The client side of code to create a SSL communication is available in fire.httpserver.ssl.HttpsClient. 
 
 

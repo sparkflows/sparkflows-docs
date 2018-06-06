@@ -116,3 +116,12 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6{
 .section {
     padding-bottom: 30px;
 }
+
+.wy-nav-content {
+    background: #fff;
+}
+
+.highlight {
+    background: #f1f1f1;
+}
+

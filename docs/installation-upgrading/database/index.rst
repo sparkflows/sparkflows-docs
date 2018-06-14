@@ -18,5 +18,8 @@ Database Setup
 
    h2-db.rst
    mysql-db.rst
+   sql-server.rst
+   
+   
 
 

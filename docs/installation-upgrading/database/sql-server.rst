@@ -39,7 +39,7 @@ Configure Fire to connect to Microsoft SQL Server
 
 * Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
 
-    cd   fire-1.x.y
+    cd   fire-2.x.y
     cp   conf.orig/db.properties.sqlserver   conf/db.properties
 
  

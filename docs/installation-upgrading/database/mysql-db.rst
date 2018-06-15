@@ -59,6 +59,7 @@ Configure Fire to connect to MySQL
 
     spring.datasource.username=fire
     
+    spring.datasource.password=fire
 
 Install the MySQL Connector Jar file
 -------------------------------------

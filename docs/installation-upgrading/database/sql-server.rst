@@ -3,7 +3,7 @@ Microsoft SQL Server Database
 
 Fire can easily be setup up to run with Microsoft SQL Server.
 
-More details of the MySQL database can be found here : https://www.microsoft.com/en-us/sql-server/default.aspx
+More details of the Microsoft SQL Server database can be found here : https://www.microsoft.com/en-us/sql-server/default.aspx
 
 Install Microsoft SQL Server
 -------------
@@ -37,7 +37,7 @@ Create the User for Fire in Microsoft SQL Server::
 Configure Fire to connect to Microsoft SQL Server
 ----------------------------------
 
-* Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
+* Copy ``db.properties.sqlserver`` file into the ``conf`` directory as ``db.properties``::
 
     cd   fire-2.x.y
     cp   conf.orig/db.properties.sqlserver   conf/db.properties

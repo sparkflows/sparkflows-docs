@@ -49,16 +49,21 @@ Configure Fire to connect to Microsoft SQL Server
 
     # Connection url for the database "firedb"
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/firedb
+    spring.datasource.url=jdbc:sqlserver://localhost;databaseName=firedb
 
-    spring.datasource.driverClassName=com.mysql.jdbc.Driver
+    spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
 
-    spring.jpa.database=MYSQL
+    spring.jpa.database=MSSQL
 
     # Username and password
 
     spring.datasource.username=fire
     
+    spring.datasource.password=fire
+    
+    spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2008Dialect
+    
+
 
 Install the Microsoft SQL Server Connector Jar file
 -------------------------------------

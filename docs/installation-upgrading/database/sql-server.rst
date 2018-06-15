@@ -65,12 +65,10 @@ Install the Microsoft SQL Server Connector Jar file
 
 * Download the Microsoft SQL Server JDBC driver from https://www.microsoft.com/en-us/download/details.aspx?id=11774
 * Untar the file ``sqljdbc_6.0.8112.200_enu.tar.gz``
-* You will get JDBC jar file on untaring ``sqljdbc42``
+* You will get JDBC jar file on untaring ``sqljdbc42.jar``
   
-* Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``::
+* Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``
 
-    cd fire-2.x.y
-    cp /usr/share/java/mysql-connector-java.jar      fire-server-lib
   
   
 Create the Tables for Fire in Microsoft SQL Server

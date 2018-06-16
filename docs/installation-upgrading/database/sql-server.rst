@@ -49,7 +49,7 @@ Configure Fire to connect to Microsoft SQL Server
 
     # Connection url for the database "firedb"
 
-    spring.datasource.url=jdbc:sqlserver://localhost;databaseName=firedb
+    spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=firedb
 
     spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
 
@@ -78,6 +78,9 @@ Install the Microsoft SQL Server Connector Jar file
   
 Create the Tables for Fire in Microsoft SQL Server
 ----------------------------------- 
+
+Tables in Microsoft SQL Server can be created using the DDL script : ``db/sqlserver/fire-schema.sqlserver.sql``
+
 
 * Create the tables for Fire in Microsoft SQL Server by executing the ``create-sqlserver-db.sh`` script::
 

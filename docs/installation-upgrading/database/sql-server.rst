@@ -31,7 +31,7 @@ Configure Fire to connect to Microsoft SQL Server
 
 * Copy ``db.properties.sqlserver`` file into the ``conf`` directory as ``db.properties``::
 
-    cd   fire-2.x.y
+    cd   fire-x.y.z
     cp   conf.orig/db.properties.sqlserver   conf/db.properties
 
  
@@ -76,7 +76,7 @@ Create the Tables for Fire in Microsoft SQL Server
 
 * They can also be created by executing the ``create-sqlserver-db.sh`` script::
 
-    cd fire-2.x.y
+    cd fire-x.y.z
 
     ./create-sqlserver-db.sh
 

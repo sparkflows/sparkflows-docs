@@ -16,12 +16,12 @@ Execute the following steps on your CLI:
 
 * Mac/Linux::
 
-    cd <install_dir>/sparkflows-fire-1.x.y
+    cd <install_dir>/sparkflows-fire-x.y.z
     ./create-h2-db.sh
 
 * Windows::
 
-    cd <install_dir>\sparkflows-fire-1.x.y
+    cd <install_dir>\sparkflows-fire-x.y.z
     .\create-h2-db.bat
 
  

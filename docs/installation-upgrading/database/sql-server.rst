@@ -23,16 +23,8 @@ Create the DB for Fire in Microsoft SQL Server
 Create the User for Fire in Microsoft SQL Server and grant it Permissions
 ----------------------------------------------------------
 
-Create the User for Fire in Microsoft SQL Server::
+Create the User for Fire in Microsoft SQL Server and give it Permissions.
 
-    CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
-
-    GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
-
- 
-* In ``CREATE`` user, the user we are creating is ``fire`` who is allowed to access the database from anywhere ``%`` and his password is ``fire``.
-
-* Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
 
 Configure Fire to connect to Microsoft SQL Server
 ----------------------------------

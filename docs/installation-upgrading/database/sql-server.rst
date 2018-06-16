@@ -79,10 +79,11 @@ Install the Microsoft SQL Server Connector Jar file
 Create the Tables for Fire in Microsoft SQL Server
 ----------------------------------- 
 
-Tables in Microsoft SQL Server can be created using the DDL script : ``db/sqlserver/fire-schema.sqlserver.sql``
+* Tables in Microsoft SQL Server can be created by using the DDL script : ``db/sqlserver/fire-schema.sqlserver.sql``
 
 
-* Create the tables for Fire in Microsoft SQL Server by executing the ``create-sqlserver-db.sh`` script::
+
+* They can also be created by executing the ``create-sqlserver-db.sh`` script::
 
     cd fire-2.x.y
 

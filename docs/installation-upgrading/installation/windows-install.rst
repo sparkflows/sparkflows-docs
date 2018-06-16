@@ -10,7 +10,7 @@ Prerequisites
 
 Below are the Prerequisites for installing Fire on a machine::
 
-  - JDK 1.7+ installed.
+  - JDK 1.8+ installed.
   - java and jar have to be in the PATH
   - 3GB+ of RAM.
 

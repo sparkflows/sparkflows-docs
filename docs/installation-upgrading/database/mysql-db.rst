@@ -39,7 +39,7 @@ Configure Fire to connect to MySQL
 
 * Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
 
-    cd   fire-1.x.y
+    cd   fire-x.y.z
     cp   conf.orig/db.properties.mysql   conf/db.properties
 
  
@@ -80,7 +80,7 @@ Install the MySQL Connector Jar file
   
 * Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``::
 
-    cd fire-2.x.y
+    cd fire-x.y.z
     cp /usr/share/java/mysql-connector-java.jar      fire-server-lib
   
   
@@ -89,7 +89,7 @@ Create the Tables for Fire in MySQL
 
 * Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::
 
-    cd fire-2.x.y
+    cd fire-x.y.z
 
     ./create-mysql-db.sh
 

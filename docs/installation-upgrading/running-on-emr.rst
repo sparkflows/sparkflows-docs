@@ -33,12 +33,12 @@ Steps
        OR   
   * https://www.sparkflows.io/archives
   
-  * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-2.1.0/2/fire-2.1.0.tgz
+  * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
   
   
 * Unpack it::
 
-    tar xvf fire-2.1.0.tgz
+    tar xvf fire-x.y.z.tgz
     
     
 * Change the port on which to start Fire::

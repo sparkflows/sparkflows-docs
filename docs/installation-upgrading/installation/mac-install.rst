@@ -32,7 +32,7 @@ Quick Installation Steps of Fire with H2 DB
   
 * Unpack it::
 
-    tar xvf fire-2.1.0.tgz
+    tar xvf fire-x.y.z.tgz
 
 
 * Create H2 DB::
@@ -77,7 +77,7 @@ Detailed Installation Steps
   
 * Unzip it::
 
-    tar xvf fire-2.1.0.tgz
+    tar xvf fire-x.y.z.tgz
 
 
 * Set up H2 or MySQL DB

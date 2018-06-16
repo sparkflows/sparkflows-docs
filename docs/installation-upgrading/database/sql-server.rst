@@ -17,7 +17,7 @@ Create the DB for Fire in Microsoft SQL Server
 * Create the database for Fire in Microsoft SQL Server
 * Let us call it ``firedb``::
 
-    create database firedb;
+    CREATE DATABASE firedb;
 
 
 Create the User for Fire in Microsoft SQL Server and grant it Permissions
@@ -72,7 +72,6 @@ Create the Tables for Fire in Microsoft SQL Server
 ----------------------------------- 
 
 * Tables in Microsoft SQL Server can be created by using the DDL script : ``db/sqlserver/fire-schema.sqlserver.sql``
-
 
 
 * They can also be created by executing the ``create-sqlserver-db.sh`` script::

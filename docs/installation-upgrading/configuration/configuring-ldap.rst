@@ -83,3 +83,9 @@ Below are some great links for reference:
 
 * Active Directory Search Filter Syntax : https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
 
+
+Notes
+-----
+
+* Search strings are not case sensitive
+

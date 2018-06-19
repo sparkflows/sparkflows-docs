@@ -53,3 +53,19 @@ LDAP Parameters
      
      
      
+Importing a user from LDAP into Sparkflows
+------------------------------------------
+
+Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from LDAP.
+
+* Go to Administration/User
+* Click on Add/Sync User
+* Enter the username and click on Search
+* User details are fetched from LDAP
+* Click on Add User to create the user in Sparkflows
+
+User Login
+----------
+
+Once LDAP is enabled in Sparkflows, all the authentication for login in Sparkflows are done against LDAP.
+

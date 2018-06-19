@@ -58,8 +58,7 @@ True   True   True
      - 
    * - ldap.URL
      - The URL of the LDAP server. The URL must be prefixed with ldap:// or ldaps://. The URL can optionally specify a custom port, for example: ldaps://ldap_server.example.com:1636.
-     - If we took the bones out, it wouldn't be
-       crunchy, now would it?
+     - 
    * - ldap.Base
      - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=hadoop,dc=mycompany,dc=com’.
      - 

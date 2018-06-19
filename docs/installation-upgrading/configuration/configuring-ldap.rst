@@ -17,7 +17,7 @@ LDAP Parameters
 
 
 .. list-table:: LDAP Parameters
-   :widths: 15 10 30
+   :widths: 10 30 15
    :header-rows: 1
 
    * - Name of Parameter

@@ -12,6 +12,10 @@ The following configurations have to be set appropriately.
    :align: center
    
 
+LDAP Parameters
+---------------
+
+
 .. list-table:: LDAP Parameters
    :widths: 15 10 30
    :header-rows: 1

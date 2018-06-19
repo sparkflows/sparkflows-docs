@@ -36,15 +36,6 @@ The following configurations have to be set appropriately.
 +------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-=====  =====  =======
-A      B      A and B
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
-
 
 .. list-table:: LDAP Parameters
    :widths: 15 10 30
@@ -73,9 +64,6 @@ True   True   True
      - 
    * - ldap.UserSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
-     - 
-   * - ldap.Base
-     - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=hadoop,dc=mycompany,dc=com’.
      - 
    * - ldap.GroupSearchBase
      - Group Search Base

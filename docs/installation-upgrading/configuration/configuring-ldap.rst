@@ -43,13 +43,13 @@ LDAP Parameters
      - ou=sparkflows
    * - ldap.UserSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
-     - For Active Directory : (objectClass=user)       Other : (uid={0})
+     - For Active Directory : (objectClass=user)
    * - ldap.GroupSearchBase
      - Group Search Base
      - ou=groups
    * - ldap.GroupSearchFilter
      - Group Search Filter
-     - member={0}
+     - For Active Directory : (objectClass=group)
      
      
      

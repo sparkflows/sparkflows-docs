@@ -69,3 +69,9 @@ User Login
 
 Once LDAP is enabled in Sparkflows, all the authentication for login in Sparkflows are done against LDAP.
 
+Search Order
+-----
+
+Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ldap.Order.
+
+If it is set to LDAP_DB, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.

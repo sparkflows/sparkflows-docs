@@ -63,7 +63,27 @@ True   True   True
    * - ldap.Base
      - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=hadoop,dc=mycompany,dc=com’.
      - 
-     
+   * - ldap.UserDn
+     - Distinguished name of the user to bind as. This is used to connect to LDAP/AD for searching user and group information. This may be left blank if the LDAP server supports anonymous binds.
+     - 
+   * - ldap.Password
+     - The password of the bind user.
+     - 
+   * - ldap.UserSearchBase
+     - User Search Base
+     - 
+   * - ldap.UserSearchFilter
+     - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
+     - 
+   * - ldap.Base
+     - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=hadoop,dc=mycompany,dc=com’.
+     - 
+   * - ldap.GroupSearchBase
+     - Group Search Base
+     - 
+   * - ldap.GroupSearchFilter
+     - Group Search Filter
+     - 
      
      
      

@@ -54,7 +54,7 @@ LDAP Parameters
 Note
 ----
 
-For ldap.UserSearchFilter we can use strings like ``(uid={USERNAME})``  
+For ``ldap.UserSearchFilter`` we can use strings like ``(uid={USERNAME})``  
 In this case {USERNAME} would be replaced by the real username of the user when searching in LDAP during ``Add User``.
      
 Importing a user from LDAP into Sparkflows

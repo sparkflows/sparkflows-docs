@@ -29,8 +29,8 @@ Unpack the tgz file with below on unix/linux::
 Upgrade the H2 or MySQL database
 --------------------------------
 
-* If you have updated the conf/db.properties file, copy it from your old location to the new directory
-* Backup your existing H2 db files. By default they are in your home directory as firedb.mv.db
+* If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory
+* Backup your existing H2 db files. By default they are in your home directory as ``firedb.mv.db``
 * If you are using MySQL, backup the fire database in MySQL.
 * Execute the following commands on the Command Line to upgrade the Fire database::
 

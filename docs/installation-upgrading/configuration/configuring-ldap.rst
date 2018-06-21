@@ -87,6 +87,18 @@ Below are some great links for reference:
 
 * Active Directory Search Filter Syntax : https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
 
+What if I get locked out
+------------------------
+
+``ldap.Order`` determines the order in which Sparkflows tries to log in the user.
+In case you are locked out of Sparkflows and are not able to log in, you can do the following:
+
+* Add the below line to conf/configuration.properties
+ldap.Order=DB
+
+Then restart the fire server. Now you should be able to log in with your admin account.
+One making the required changes, you can remove the line you added to ``configuration.properties`` and restart the fire server.
+
 
 Notes
 -----

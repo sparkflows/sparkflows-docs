@@ -23,7 +23,6 @@ Dataset Listing Page
 The Dataset Listing Page displays all the Datasets created in Fire.
 
  .. figure:: ../_assets/tutorials/01/dataset-listings.png
-   :scale: 100%
    :alt: Dataset Listings
    :align: center
   

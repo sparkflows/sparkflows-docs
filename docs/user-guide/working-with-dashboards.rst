@@ -18,6 +18,12 @@ Editing Dashboards
  
   * Editing dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
  
+.. figure:: ../_assets/user-guide/editing-dashboards.png
+   :scale: 100%
+   :alt: Sparkflows Editing Dashboards
+   :align: center
+   
+   
 Viewing Dashboards
 ------------------
 
@@ -36,7 +42,4 @@ Streaming Dashboards
   * In this case, the output in the Dashboards get updated every 30 seconds as new data comes in.
 
 
-.. figure:: ../_assets/user-guide/streaming-dashboards.png
-   :scale: 100%
-   :alt: Sparkflows Streaming Dashboards
-   :align: center
+

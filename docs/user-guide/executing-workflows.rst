@@ -14,7 +14,6 @@ Workflows can be executed from the Browser by going into the Execute page of the
 
 
 .. figure:: ../_assets/user-guide/execute-workflow.png
-   :scale: 100%
    :alt: Sparkflows Execute Workflow
    :align: center
 

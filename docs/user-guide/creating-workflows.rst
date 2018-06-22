@@ -16,7 +16,7 @@ Creating Edges
 Deleting Edges
 ===============
  
-  * Nodes can be deleted by double clicking on them.
+  * Edges can be deleted by double clicking on them.
 
 View, Edit, Execute Existing Worklows
 ===============

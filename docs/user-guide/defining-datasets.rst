@@ -48,7 +48,6 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
  
  .. figure:: ../_assets/tutorials/01/create-new-dataset.png
-   :scale: 100%
    :alt: Sparkflows Create New Datasets
    :align: center
 
@@ -63,7 +62,6 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 You can update the column names in the schema based on your data.
  
  .. figure:: ../_assets/tutorials/01/dataset-schema.png
-   :scale: 100%
    :alt: Dataset Schema
    :align: center
    

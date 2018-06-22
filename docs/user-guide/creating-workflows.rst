@@ -18,9 +18,10 @@ Deleting Edges
  
   * Edges can be deleted by double clicking on them.
 
-View, Edit, Execute Existing Worklows
+View Worklows
 ===============
 
+You can view the workflows by going to the Workflows Page.
 
 .. figure:: ../_assets/user-guide/workflow-list.png
    :scale: 100%
@@ -30,6 +31,8 @@ View, Edit, Execute Existing Worklows
 
 Define New Workflows
 ===============
+
+Click on 'Create New Workflow' for creating a New Workflow. It will open the Workflow Editor where Nodes can be created and connected.
 
 
 .. figure:: ../_assets/user-guide/define-workflows.png

@@ -7,7 +7,6 @@ The results of Workflow Execution are streamed into the Browser as they are exec
 The results of past executions can also be viewed in the Workflow Executions page.
  
 .. figure:: ../_assets/user-guide/workflow-execution.png
-   :scale: 100%
-   :alt: SparkflowsWorkflow Execution
+   :alt: Sparkflows Workflow Execution
    :align: center
 

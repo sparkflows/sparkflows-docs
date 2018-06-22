@@ -57,13 +57,9 @@ For running the workflow in debug mode, add the following parameters::
 Workflow JSON
 --------------
  
-In Sparkflows, there are 2 json representations of the workflow.
- 
-  * One is used in the Sparkflows UI
-  * The other is used when submitting to the spark cluster. The one used for submitting on to the spark cluster does not have fields like the x and y positions.  
+In Sparkflows, workflows are saved as JSON Strings. 
   
-  
-The View JSON Workflow page of the Workflow displays both the JSON representations of the workflow. Analysis Flow Fire JSON should be used when submitting the workflow to the cluster with spark-submit:
+The View JSON Workflow page of the Workflow displays the JSON representations of the workflow. 
 
 
 

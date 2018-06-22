@@ -63,7 +63,6 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 
 
 .. figure:: ../_assets/user-guide/json-workflow.png
-   :scale: 100%
    :alt: Sparkflows Json Workflow
    :align: center
  

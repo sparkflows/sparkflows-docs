@@ -24,7 +24,6 @@ View Worklows
 You can view the workflows by going to the Workflows Page.
 
 .. figure:: ../_assets/user-guide/workflow-list.png
-   :scale: 100%
    :alt: Sparkflows Ldap Order
    :align: center
 
@@ -36,7 +35,6 @@ Click on 'Create New Workflow' for creating a New Workflow. It will open the Wor
 
 
 .. figure:: ../_assets/user-guide/define-workflows.png
-   :scale: 100%
    :alt: Sparkflows Define Workflows
    :align: center
 

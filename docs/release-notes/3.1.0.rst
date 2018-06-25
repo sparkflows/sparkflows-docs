@@ -16,6 +16,7 @@ Contents of this release
     * Math Functions Multiple Processor
     * Case When Processor
     * Richer support in JDBC Node
+    * Remove Duplicates Node
 * Support for uploading files to HDFS
 * Support for LDAP
 * Support for running the workflows in debug mode.

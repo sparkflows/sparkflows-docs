@@ -10,10 +10,15 @@
 Contents of this release
 -------------------------
 
-- Separation of Workflow Server from Workflow Engine
-- Support for HDFS File Upload
-- HBase Read Processor
-- HBase Write Processor
+* Separation of Workflow Server from Workflow Engine
+* Support for HDFS File Upload
+* New Processors
+    * HBase Read Processor
+    * HBase Write Processor
+    * Split by Multiple Expressions Processor
+    * Fixes to Node Correlation
+* REST API's
+
 
 
 

@@ -5,7 +5,7 @@
 
 * Download TGZ name: sparkflows-fire-2.1.0.tgz
 
-* TGZ Size: 512 MB
+* TGZ Size: 508 MB
 
 Contents of this release
 -------------------------

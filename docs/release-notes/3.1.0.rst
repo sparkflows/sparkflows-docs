@@ -16,7 +16,6 @@ Contents of this release
     * Math Functions Multiple Processor
     * Case When Processor
     * Remove Duplicates Processor
-    * Richer support in JDBC Processor for interactive execution
 * Support for uploading files to HDFS
 * Support for LDAP
 * Support for running the workflows in debug mode.
@@ -24,9 +23,11 @@ Contents of this release
     * SQL is printed where used by a Node
 * Various Workflow Editor Upgrades
     * Ability to rename the Nodes
+    * Richer support in JDBC Processor for interactive execution
     * Save Warning when moving away from the Workflow Editor
+    * Rich widget support for Multi-Validations Processor
 * Support for Workflow Cloning
-* Richer support in Dashboard drag and drop.
+* Richer support in Dashboard Editor for drag and drop of Processors
 
 
 

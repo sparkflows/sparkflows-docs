@@ -10,13 +10,13 @@
 Contents of this release
 -------------------------
 
-* New Workflows Added
+* New Processors Added
     * Multi-Validation Processor
     * String Functions Multiple Processor
     * Math Functions Multiple Processor
     * Case When Processor
-    * Richer support in JDBC Node
-    * Remove Duplicates Node
+    * Remove Duplicates Processor
+    * Richer support in JDBC Processor for interactive execution
 * Support for uploading files to HDFS
 * Support for LDAP
 * Support for running the workflows in debug mode.

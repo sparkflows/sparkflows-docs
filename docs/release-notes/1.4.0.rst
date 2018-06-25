@@ -10,12 +10,12 @@
 Contents of this release
 -------------------------
 
-- Scheduling Workflows
-- Support for ORC files
-- Support for Elasticsearch
-- Running in YARN cluster mode
-- Better browsing experience
-- Support for more widget types
-- Fixes to Node Correlation Matrix
-- Elastic Search Integration
-- Support for OpenNLP
+* Scheduling Workflows
+* Support for ORC files
+* Support for Elasticsearch
+* Running in YARN cluster mode
+* Better browsing experience
+* Support for more widget types
+* Fixes to Node Correlation Matrix
+* Elastic Search Integration
+* Support for OpenNLP

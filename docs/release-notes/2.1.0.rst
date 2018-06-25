@@ -17,7 +17,7 @@ Contents of this release
     * HBase Write Processor
     * Split by Multiple Expressions Processor
     * Fixes to Node Correlation
-* REST API's
+* Support for Rich REST API's
 
 
 

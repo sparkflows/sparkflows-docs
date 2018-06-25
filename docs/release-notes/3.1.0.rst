@@ -1,8 +1,18 @@
-3.1.0
-======
+3.1.0 Release Notes
+=================
 
-Features
---------
+* Release Date: 06/01/2018
 
+* Download TGZ name: sparkflows-fire-3.1.0.tgz
+
+* TGZ Size: 524 MB
+
+Contents of this release
+-------------------------
+
+- Multi-Validation Processor
+- String Functions Multiple Processor
+- Math Functions Multiple Processor
+- Support for uploading files to HDFS
 
 

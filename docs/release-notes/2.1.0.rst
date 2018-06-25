@@ -12,5 +12,8 @@ Contents of this release
 
 - Separation of Workflow Server from Workflow Engine
 - Support for HDFS File Upload
-- Support for HBase
+- HBase Read Processor
+- HBase Write Processor
+
+
 

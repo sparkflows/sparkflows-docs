@@ -1,3 +1,16 @@
-Release Notes : 2.1.0
-======================
+2.1.0 Release Notes
+=================
+
+* Release Date: 04/01/2018
+
+* Download TGZ name: sparkflows-fire-2.1.0.tgz
+
+* TGZ Size: 512 MB
+
+Contents of this release
+-------------------------
+
+- Separation of Workflow Server from Workflow Engine
+- Support for HDFS File Upload
+- Support for HBase
 

@@ -10,13 +10,14 @@
 Contents of this release
 -------------------------
 
-- Multi-Validation Processor
-- String Functions Multiple Processor
-- Math Functions Multiple Processor
-- Case When Processor
+- New Workflows Added
+  - Multi-Validation Processor
+  - String Functions Multiple Processor
+  - Math Functions Multiple Processor
+  - Case When Processor
+  - Richer support in JDBC Node
 - Support for uploading files to HDFS
 - Support for LDAP
-- Richer JDBC Support
 - Support for running the workflows in debug mode.
   - In debug mode, the number of records processed at each Node are printed.
   - SQL is printed where used by a Node

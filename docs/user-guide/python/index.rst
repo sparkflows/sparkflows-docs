@@ -3,8 +3,11 @@ Python support in Sparkflows
 
 Sparkflows supports Python in Workflows in a couple of ways:
 
-* Jython Node
-* Pipe Python Node
+* Jython Processor
+
+The Jython Processor allows writing Jython.
+
+* Pipe Python Processor
 
 
 .. toctree::

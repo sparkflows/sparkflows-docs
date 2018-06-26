@@ -34,7 +34,7 @@ Below is an example script which reads in the input lines and converts it to a P
     import pandas as pd
 
     dataframe_list_of_rows = []
-    schema = ""
+
     for line_with_data_schema in sys.stdin:
 
         line_with_data_schema = line_with_data_schema.strip()
@@ -42,8 +42,6 @@ Below is an example script which reads in the input lines and converts it to a P
             continue
 
         line_with_data_schema_split = line_with_data_schema.split("\t")  # split on space
-        line = line_with_data_schema_split[0]     # the actual data line
-        schema = line_with_data_schema_split[1]   # in the format -  col1:datatype1|col2:datatype2|col3:datatype3
 
         row_list = []
         for field in line.split(","):
@@ -55,6 +53,7 @@ Below is an example script which reads in the input lines and converts it to a P
 
 
     # generate column names
+    schema = sys.argv[1]
     column_names = []
     schema_columns = schema.split("|")
     for column_name_with_type in schema_columns:

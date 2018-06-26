@@ -35,13 +35,11 @@ Below is an example script which reads in the input lines and converts it to a P
 
     dataframe_list_of_rows = []
 
-    for line_with_data_schema in sys.stdin:
+    for line in sys.stdin:
 
-        line_with_data_schema = line_with_data_schema.strip()
-        if not line_with_data_schema:
+        line = line.strip()
+        if not line:
             continue
-
-        line_with_data_schema_split = line_with_data_schema.split("\t")  # split on space
 
         row_list = []
         for field in line.split(","):

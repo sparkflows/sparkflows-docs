@@ -13,4 +13,4 @@ User Guide
    working-with-dashboards.rst
    scheduling-workflows.rst
    reading-from-rdbms.rst
-   python.rst
+   python/index

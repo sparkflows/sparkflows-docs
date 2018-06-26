@@ -28,12 +28,12 @@ outDF = inDF.groupBy("c2").count()
 Run a SQL on the input DataFrame
 ++++++++++++++++++++++++++++++++++++++++++++
 
-outDF = spark.sql("SELECT c1, c2 FROM aaa")
+outDF = spark.sql("SELECT c1, c2 FROM fire_temp_table")
 
 Run a SQL followed by further grouping and count
 ++++++++++++++++++++++++++++++++++++++++++++
 
-outDF = spark.sql("SELECT c1, c2 FROM aaa")
+outDF = spark.sql("SELECT c1, c2 FROM fire_temp_table")
 outDF = outDF.groupBy("c2").count()
 
 Read from HDFS and create a new DataFrame

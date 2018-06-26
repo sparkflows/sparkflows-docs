@@ -29,6 +29,10 @@ outDF = inDF.groupBy("c2").count()
 Run a SQL on the input DataFrame
 ++++++++++++++++++++++++++++++++++++++++++++
 
+The Jython Processor registers the incoming dataframe as a temporary table with a configurable name.
+
+The below SQL in Jython script, performs a SELECT on the registered temporary table.
+
 outDF = spark.sql("SELECT c1, c2 FROM fire_temp_table")
 
 Run a SQL followed by further grouping and count
@@ -39,6 +43,8 @@ outDF = outDF.groupBy("c2").count()
 
 Read from HDFS and create a new DataFrame
 ++++++++++++++++++++++++++++++++++++++++++++
+
+The below Jython script, reads a JSON file from HDFS.
 
 outDF = spark.read().json("data/people.json")
 

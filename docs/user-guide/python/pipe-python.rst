@@ -22,6 +22,29 @@ Below is an example of printing the arguments and an example result::
 
     ['/tmp/fire/scripts/pipepython-1899418263068404925.py', 'id:DoubleType|label:DoubleType|f1:DoubleType|f2:DoubleType']
     
+Simple Example
+--------------
+
+The below example reads in the incoming records, parses them, adds a new column whose value is the sum of the first and second fields::
+
+    #!/usr/bin/python
+
+    import sys
+
+    for line in sys.stdin:
+      line = line.strip()
+      if not line:
+        continue
+
+      fields = line.split(",")
+
+      total = str(float(fields[0]) + float(fields[1]))
+
+      result = ",".join(fields) + "," + total
+
+      print result
+      print "The arguments are: " , str(sys.argv)
+  
     
 Pandas Example
 --------------

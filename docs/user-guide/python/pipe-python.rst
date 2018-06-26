@@ -20,6 +20,8 @@ The format of the dataframe schema is below::
 Pandas Example
 --------------
 
+Below is an example script which reads in the input lines and converts it to a Pandas Dataframe::
+
     #!/usr/bin/python
 
     import sys

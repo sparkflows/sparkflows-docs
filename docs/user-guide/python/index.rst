@@ -10,6 +10,6 @@ Sparkflows supports Python in Workflows in a couple of ways:
 .. toctree::
    :maxdepth: 2
 
-   jython
-   pipe-python
+   jython.rst
+   pipe-python.rst
 

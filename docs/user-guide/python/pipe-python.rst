@@ -16,7 +16,7 @@ The format of the dataframe schema is below::
 
     colname1:datatype1|colname2:datatype2|colname3:datatype3
     
-Below is an example of printing the arguments and the result::
+Below is an example of printing the arguments and an example result::
 
     print "The arguments are: " , str(sys.argv)
 

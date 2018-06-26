@@ -10,11 +10,17 @@ The Python script is written in the Workflow Editor.
 DataFrame Schema
 ----------------
 
-The schema of the dataframe is also passed into the Python script as an argument. It can be used in the Python script as needed.
+The schema of the dataframe is also passed into the Python script as an ``argument``. It can be used in the Python script as needed.
 
 The format of the dataframe schema is below::
 
     colname1:datatype1|colname2:datatype2|colname3:datatype3
+    
+Below is an example of printing the arguments and the result::
+
+    print "The arguments are: " , str(sys.argv)
+
+    ['/tmp/fire/scripts/pipepython-1899418263068404925.py', 'id:DoubleType|label:DoubleType|f1:DoubleType|f2:DoubleType']
     
     
 Pandas Example

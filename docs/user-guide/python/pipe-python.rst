@@ -25,7 +25,7 @@ Below is an example of printing the arguments and an example result::
 Simple Example
 --------------
 
-The below example reads in the incoming records, parses them, adds a new column whose value is the sum of the first and second fields::
+The below example reads in the incoming records, parses them, adds a new column whose value is the sum of the first and second fields. Finally it write out the updated record back for Spark to read::
 
     #!/usr/bin/python
 
@@ -49,7 +49,7 @@ The below example reads in the incoming records, parses them, adds a new column 
 Pandas Example
 --------------
 
-Below is an example script which reads in the input lines and converts it to a Pandas Dataframe::
+Below is an example script which reads in the input lines and converts it to a Pandas Dataframe. It parses the schema passed in argv[1] to extract the column names::
 
     #!/usr/bin/python
 

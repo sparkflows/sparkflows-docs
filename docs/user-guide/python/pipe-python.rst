@@ -7,6 +7,12 @@ It pipes the incoming DataFrame through pipe to the Python Script. It also passe
 
 The Python script is written in the Workflow Editor.
 
+Below is an example workflow containing Pipe Python Processor.
+
+.. figure:: ../_assets/user-guide/pipe-python-workflow.png
+   :alt: Pipe Python Workflow
+   :align: center
+
 DataFrame Schema
 ----------------
 

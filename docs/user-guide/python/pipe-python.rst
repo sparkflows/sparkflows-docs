@@ -56,7 +56,7 @@ The below example reads in the incoming records, parses them, adds a new column 
 Below is the code in the Pipe Python Node Dialog.
 
 .. figure:: ../../_assets/user-guide/pipe-python-dialog-1.png
-   :scale: 65%
+   :scale: 50%
    :alt: Pipe Python Dialog
    :align: center
    

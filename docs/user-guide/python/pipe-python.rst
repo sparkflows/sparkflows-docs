@@ -52,6 +52,12 @@ The below example reads in the incoming records, parses them, adds a new column 
       print "The arguments are: " , str(sys.argv)
   
     
+Below is the code in the Pipe Python Node Dialog.
+
+.. figure:: ../../_assets/user-guide/pipe-python-dialog-1.png
+   :alt: Pipe Python Dialog
+   :align: center
+   
 Pandas Example
 --------------
 

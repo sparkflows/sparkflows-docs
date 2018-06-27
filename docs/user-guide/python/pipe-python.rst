@@ -117,4 +117,16 @@ Below is an example code for writing the Pandas DataFrame back to Spark::
      print(row_string)
   
   
+Output Schema of the Python Script
+----------------------------------
 
+The output schema of the Python Script is used in the Spark code for recreating the Spark DataFrame from the data received from running the Python script.
+
+It has to be specified in the Pipe Python Processor Dialog.
+
+.. figure:: ../../_assets/user-guide/pipe-python-schema-1.png
+   :scale: 50%
+   :alt: Pipe Python Schema
+   :align: center
+   
+   

@@ -7,9 +7,9 @@ The Jython Processor allows writing Jython code to process the incoming DataFram
 
 In the Jython node, the following variables are available:
 
-**inDF** : Incoming Spark DataFrame
+* **inDF** : Incoming Spark DataFrame
 
-**spark** : The Spark Session object
+* **spark** : The Spark Session object
 
 Example Jython Code
 -------------------

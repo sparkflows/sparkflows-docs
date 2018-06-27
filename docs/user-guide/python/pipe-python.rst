@@ -60,8 +60,8 @@ Below is the code in the Dialog box of the Pipe Python Processor of the Workflow
    :alt: Pipe Python Dialog
    :align: center
    
-Pandas Example
---------------
+Reading in Data in Python into a Pandas DataFrame
+-------------------------------------------------
 
 Below is an example script which reads in the input lines and converts it to a Pandas DataFrame. It parses the schema passed in ``argv[1]`` to extract the column names which is used in creating the Pandas DataFrame::
 
@@ -97,6 +97,12 @@ Below is an example script which reads in the input lines and converts it to a P
 
     # create dataframe from the input rows
     input_dataframe = pd.DataFrame.from_records(dataframe_list_of_rows, columns=column_names)
+
+Transform the Pandas DataFrame
+------------------------------
+
+Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform it do create the result DataFrame - ``output_dataframe``.
+
 
 
 Writing the Pandas DataFrame back to Spark

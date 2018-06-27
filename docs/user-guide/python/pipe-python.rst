@@ -98,3 +98,17 @@ Below is an example script which reads in the input lines and converts it to a P
     # create dataframe from the input rows
     input_dataframe = pd.DataFrame.from_records(dataframe_list_of_rows, columns=column_names)
 
+
+Writing the Pandas DataFrame back to Spark
+------------------------------------------
+
+Below is an example code for writing the Pandas DataFrame back to Spark::
+
+   # iterate over the dataframe created and return it to the pipeNode
+   for index, row in output_dataframe.iterrows():
+     list = row.tolist()
+     row_string = ','.join(str(e) for e in list)
+     print(row_string)
+  
+  
+

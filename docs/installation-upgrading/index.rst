@@ -9,7 +9,6 @@ Installation and Upgrading
    connecting-spark-cluster.rst
    configuration/index
    upgrading.rst
-   logging.rst
    installing-jdbc-drivers.rst
    running-on-emr.rst
    

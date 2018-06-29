@@ -19,13 +19,13 @@ Installation and Upgrading
 
    installation-upgrading/index
 
-Operations
-----------
+Operating Sparkflows
+--------------------
 
 .. toctree::
    :maxdepth: 1
 
-   operations/index
+   operating/index
 
 Troubleshooting
 ---------------

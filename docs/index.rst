@@ -19,6 +19,14 @@ Installation and Upgrading
 
    installation-upgrading/index
 
+Operations
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   operations/index
+
 Troubleshooting
 ---------------
 

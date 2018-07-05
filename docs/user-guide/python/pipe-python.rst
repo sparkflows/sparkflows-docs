@@ -50,7 +50,6 @@ The below example reads in the incoming records, parses them, adds a new column 
       result = ",".join(fields) + "," + total
 
       print result
-      print "The arguments are: " , str(sys.argv)
   
     
 Below is the code in the Dialog box of the Pipe Python Processor of the Workflow.

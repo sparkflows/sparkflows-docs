@@ -16,7 +16,8 @@ Set TESSDATA_PREFIX as an Environment Variable and restart the Sparkflows server
 -----
 
 * Point the environment variable TESSDATA_PREFIX to the tessdata directory
-* export TESSDATA_PREFIX=/home/centos/tessdata
+
+  * export TESSDATA_PREFIX=/home/centos/tessdata
 * Restart the sparkflows server
 
 *  If the above is not done correctly, then the Sparkflows server would exit when any OCR node is run

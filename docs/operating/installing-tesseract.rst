@@ -30,4 +30,13 @@ Include the following in spark configs when running workflows containing the OCR
 * where the tesseract language data files are in /home/centos/tessdata directory on each of the worker nodes
 
 
+Error if TESSDATA_PREFIX is not set correctly
+-----
 
+ 
+If TESSDATA_PREFIX is not set, the spark program would run into the error below.
+
+* Error opening data file /Users/saudet/projects/bytedeco/javacpp-presets/tesseract/cppbuild/macosx-x86_64/share/tessdata/eng.traineddata
+* Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your "tessdata" directory.
+* Failed loading language 'eng'
+* Tesseract couldn't load any languages!

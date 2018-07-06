@@ -7,3 +7,4 @@ Operating
 
    logging.rst
    installing-jdbc-drivers.rst
+   installing-tesseract.rst

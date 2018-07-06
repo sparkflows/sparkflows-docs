@@ -22,11 +22,12 @@ Set TESSDATA_PREFIX as an Environment Variable and restart the Sparkflows server
 
 
 Include TESSDATA_PREFIX in spark configs when submitting the job
------
+--------
 
-* Include the following in spark configs when running workflows containing the OCR node :
-  * --conf spark.executorEnv.TESSDATA_PREFIX=/home/centos/tessdata
-  * where the tesseract language data files are in /home/centos/tessdata directory on each of the worker nodes
+Include the following in spark configs when running workflows containing the OCR node:
+
+* --conf spark.executorEnv.TESSDATA_PREFIX=/home/centos/tessdata
+* where the tesseract language data files are in /home/centos/tessdata directory on each of the worker nodes
 
 
 

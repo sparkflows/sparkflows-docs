@@ -20,7 +20,7 @@ When running on a Spark cluster
 * The model file should be accessible by all the users who would use it
 
 
-.. figure:: ../../_assets/operating/opennlp.png
+.. figure:: ../_assets/operating/opennlp.png
    :alt: OpenNLP
    :align: center
    

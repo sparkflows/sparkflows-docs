@@ -9,7 +9,7 @@ Download & Install the Tesseract Language Data  files
 * Download and Install the tesseract language data files on each of the worker nodes of the cluster
 * Install them in the same directory on each of the worker nodes
 
-  * git clone https://github.com/tesseract-ocr/tessdata.git
+  * ``git clone https://github.com/tesseract-ocr/tessdata.git``
 * Make sure that the tessdata directory is accessible to all the users.  
 
 
@@ -18,7 +18,7 @@ Set TESSDATA_PREFIX as an Environment Variable and restart the Sparkflows server
 
 * Point the environment variable TESSDATA_PREFIX to the tessdata directory
 
-  * export TESSDATA_PREFIX=/home/centos/tessdata
+  * ``export TESSDATA_PREFIX=/home/centos/tessdata``
 * Restart the sparkflows server
 
 *  If the above is not done correctly, then the Sparkflows server would exit when any OCR node is run

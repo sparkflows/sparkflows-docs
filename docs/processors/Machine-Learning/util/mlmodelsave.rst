@@ -2,7 +2,7 @@
 ML Model Save
 ========== 
 
-None
+This node saves the ML model generated at the specified path
 
 Type
 ---------- 

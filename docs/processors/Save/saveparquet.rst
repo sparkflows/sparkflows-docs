@@ -2,7 +2,7 @@
 SaveParquet
 ========== 
 
-Saves the DataFrame into the specified location in Parquet Format
+Saves the DataFrame into the specified location in Parquet Format. When running on Hadoop, it is saved onto HDFS.
 
 Type
 ---------- 

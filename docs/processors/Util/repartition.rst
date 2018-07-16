@@ -2,7 +2,7 @@
 Repartition
 ========== 
 
-This node repartitions incoming dataframes into a specified number of partitions
+This node repartitions incoming dataframe into a specified number of partitions
 
 Input
 ---------- 

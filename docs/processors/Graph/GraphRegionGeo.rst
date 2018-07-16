@@ -2,7 +2,7 @@
 GraphRegionGeo
 ========== 
 
-None
+This node displays values on a Map
 
 Type
 ---------- 

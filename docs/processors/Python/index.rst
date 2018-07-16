@@ -1,8 +1,8 @@
-HBase
+Python
 ============
 
 .. toctree::
    :maxdepth: 2
 
-   readhbase.rst
-   savehbase.rst
+   pipepython.rst
+   pipepython2.rst

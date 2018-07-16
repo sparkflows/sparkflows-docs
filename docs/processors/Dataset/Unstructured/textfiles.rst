@@ -2,7 +2,7 @@
 TextFiles
 ========== 
 
-Reads in Text Files from a given path and load each line as a separate Row
+Reads in Text Files from a given path and loads each line as a separate Row
 
 Type
 ---------- 

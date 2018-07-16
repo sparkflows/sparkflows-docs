@@ -2,7 +2,7 @@
 FilterByStringLength
 ========== 
 
-This node filters the Rows within the given string length
+This node filters the Rows within the given string length. The column to be used for determining the string length is specified
 
 Input
 ---------- 

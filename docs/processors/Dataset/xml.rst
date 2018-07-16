@@ -2,7 +2,17 @@
 ReadXML
 ========== 
 
-Dataset Node for reading XML file
+It reads in XML files and creates a DataFrame from it
+
+Input
+---------- 
+
+It reads in XML text files
+
+Output
+---------- 
+
+It creates a DataFrame from the data read and sends it to its output
 
 Type
 ---------- 

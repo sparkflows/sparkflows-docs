@@ -2,7 +2,7 @@
 Dedup
 ========== 
 
-Performs Dedup
+This node is used for problems like entity resolution or data matching. Entity resolution or Data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources.
 
 Input
 ---------- 

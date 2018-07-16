@@ -8,13 +8,17 @@ ETL
    Filter/index
    Group/index
    Joins/index
+   addcolumns.rst
+   casewhen.rst
    castcolumntype.rst
+   cdcusingfulltablemerge.rst
    columnsrename.rst
    concatcolumns.rst
    datawrangling.rst
    dropcolumns.rst
    dropduplicaterows.rst
    droprowswithnull.rst
+   expressions.rst
    fieldsplitter.rst
    fieldsplittertest.rst
    findAndReplace.rst
@@ -24,6 +28,7 @@ ETL
    geopoint.rst
    jython.rst
    mathfunctions.rst
+   mathfunctionsmultiple.rst
    regextokenizer.rst
    registerteamptable.rst
    removeUnwantedCharacters.rst
@@ -33,8 +38,14 @@ ETL
    splitbymultipleexpressions.rst
    sql.rst
    stringFunctions.rst
+   stringfunctionsmultiple.rst
    textCaseTransformer.rst
    timeFunctions.rst
+   transpose.rst
    unionall.rst
    uniondistinct.rst
    unixShellCommand.rst
+   validation.rst
+   validation2.rst
+   windowranking.rst
+   zipwithindex.rst

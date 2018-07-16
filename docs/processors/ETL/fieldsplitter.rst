@@ -2,7 +2,7 @@
 FieldSplitter
 ========== 
 
-This node splits the string at specified delimiter
+This node splits the string of the specified input column using the specified delimiter
 
 Input
 ---------- 

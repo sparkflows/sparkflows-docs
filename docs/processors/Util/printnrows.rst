@@ -2,7 +2,7 @@
 PrintNRows
 ========== 
 
-Prints the specified number of records in the DataFrame
+Prints the specified number of records in the DataFrame. It is useful for seeing intermediate output
 
 Type
 ---------- 

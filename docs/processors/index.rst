@@ -18,6 +18,7 @@ Processors
    Marketo/index
    OCR/index
    OpenNLP/index
+   Python/index
    Salesforce/index
    Save/index
    Streaming/index

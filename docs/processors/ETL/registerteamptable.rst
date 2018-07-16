@@ -2,7 +2,7 @@
 RegisterTempTable
 ========== 
 
-This node registers a temporary table in Spark
+This node registers the incoming DataFrame as a temporary table in Spark
 
 Input
 ---------- 

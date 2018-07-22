@@ -17,7 +17,7 @@ Below are the Prerequisites for installing Fire on a machine::
 
 If Fire would be connected to an Apache Spark Cluster::
 
-  - Spark 1.6+ is needed on the cluster
+  - Spark 1.6+ or Spark 2.X is needed on the cluster
   - Fire has to be installed on an Edge node of the Spark Cluster
 
 

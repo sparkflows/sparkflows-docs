@@ -74,6 +74,17 @@ Transform the Pandas DataFrame
 Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform it do create the result DataFrame - ``output_dataframe``.
 
 
+Writing the Pandas DataFrame schema back to Spark
+-------------------------------------------------
+
+Below is an example code for writing the Pandas Schema back to Spark. It is used in infererring the scheme output of the Python code. They way users do not have to reenter the schema of the output in the Workflow.
+
+   dataframe_dtypes = output_dataframe.dtypes
+
+   f = open(sys.argv[2],'w+')
+   f.write(str(dataframe_dtypes))
+   f.close()
+
 
 Writing the Pandas DataFrame back to Spark
 ------------------------------------------
@@ -85,6 +96,8 @@ Below is an example code for writing the Pandas DataFrame back to Spark::
      list = row.tolist()
      row_string = ','.join(str(e) for e in list)
      print(row_string)
+            
+            
   
   
 Output Schema of the Python Script

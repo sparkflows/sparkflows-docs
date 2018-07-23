@@ -103,9 +103,9 @@ Below is an example code for writing the Pandas DataFrame back to Spark::
 Output Schema of the Python Script
 ----------------------------------
 
-The output schema of the Python Script is written to a file which is read by the Spark Code.
+The output schema of the Python Script is written to a file which is read by the Spark Code. Clicking on **Refresh Schema** infers the Python Schema output into Spark.
 
-.. figure:: ../../_assets/user-guide/pipe-python-schema-1.png
+.. figure:: ../../_assets/user-guide/pipe-python-schema-2.png
    :scale: 50%
    :alt: Pipe Python Schema
    :align: center

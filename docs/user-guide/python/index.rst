@@ -21,4 +21,5 @@ The Python script takes in each record of the DataFrame as a comma separated str
 
    jython.rst
    pipe-python.rst
+   pipe-python2.rst
 

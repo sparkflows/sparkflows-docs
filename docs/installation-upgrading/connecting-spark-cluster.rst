@@ -121,7 +121,7 @@ Fire allows creating multiple users. Create the users in Fire under ``Administra
 
 ``These users have to exist on HDFS. So ensure that these users Home Directory are created on HDFS``
 
-Also create the home directory for the users on HDFS.
+Also create the home directory for the users on HDFS. The example code below creates the home directory for the user ``xyz`` onto HDFS. It also changes the permission of the directory.
 
 * su - hdfs
 * hadoop fs -mkdir /user/xyz

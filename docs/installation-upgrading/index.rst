@@ -9,5 +9,4 @@ Installation and Upgrading
    connecting-spark-cluster.rst
    configuration/index
    upgrading.rst
-   running-on-emr.rst
    

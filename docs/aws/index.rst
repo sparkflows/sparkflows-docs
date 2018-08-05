@@ -1,6 +1,6 @@
 
-Operating
-=========
+AWS
+===
 
 .. toctree::
    :maxdepth: 2

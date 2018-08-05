@@ -6,3 +6,6 @@ AWS
    :maxdepth: 2
 
    running-on-emr.rst
+   s3.rst
+   redshift.rst
+   

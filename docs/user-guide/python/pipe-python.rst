@@ -73,3 +73,13 @@ It has to be specified in the Pipe Python Processor Dialog.
    :align: center
    
    
+Program Execution Output
+----------------------------------
+
+Below is the output produced when executing the workflow.
+
+.. figure:: ../../_assets/user-guide/pipe-python-output-1.png
+   :scale: 50%
+   :alt: Pipe Python Output
+   :align: center
+   

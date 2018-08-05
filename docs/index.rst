@@ -44,6 +44,14 @@ Administration
 
    administration/index
 
+AWS Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   aws/index
+   
 User Guide
 ----------
 

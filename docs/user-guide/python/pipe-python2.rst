@@ -71,13 +71,15 @@ Below is an example script which reads in the input lines and converts it to a P
 Transform the Pandas DataFrame
 ------------------------------
 
-Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform it do create the result DataFrame - ``output_dataframe``.
+Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform it to create the result DataFrame - ``output_dataframe``. In the below example, we are just setting the output dataframe to the input dataframe::
+
+   output_dataframe = input_dataframe
 
 
 Writing the Pandas DataFrame schema back to Spark
 -------------------------------------------------
 
-Below is an example code for writing the Pandas Schema back to Spark. It is used in infererring the scheme output of the Python code. They way users do not have to reenter the schema of the output in the Workflow.
+Below is an example code for writing the Pandas Schema back to Spark. It is used in infererring the scheme output of the Python code. They way users do not have to reenter the schema of the output in the Workflow::
 
    dataframe_dtypes = output_dataframe.dtypes
 

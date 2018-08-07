@@ -1,7 +1,7 @@
 Alerts
 ======
 
-Users in general like to alerted when a Job completes or Fails. Especially in Big Data where Jobs can run for hours together.
+Users in general like to be alerted when a Job completes or Fails. Especially in Big Data where Jobs can run for hours together.
 
 Email Alerts when executing Workflows
 -------------------------------------

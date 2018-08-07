@@ -14,3 +14,4 @@ User Guide
    scheduling-workflows.rst
    reading-from-rdbms.rst
    python/index
+   alerts.rst

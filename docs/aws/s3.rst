@@ -1,10 +1,18 @@
 Fire Integration with S3
 ========================
 
-Fire is fully integrated with S3. Fire has a number of Processors specifically for S3.
+Fire is fully integrated with AWS S3. Fire has a number of Processors specifically for S3.
 
 S3 Processors
 -------------
 
-Fire has processors for reading various file formats from S3. These include CSV, Parquet etc.
+Fire has various processors for reading from and write data to S3. The include:
+
+* Read Avro S3
+* Read CSV S3
+* Read Parquet S3
+* Write Avro S3
+* Write CSV S3
+* Write Parquet S3
+
 

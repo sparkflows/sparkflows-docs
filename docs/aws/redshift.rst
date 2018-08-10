@@ -6,6 +6,11 @@ Fire is fully integrated with Redshift. Fire has a number of Processors specific
 Redshift Processors
 -------------
 
-Fire has processors for reading from and writing to Redshift.
+Fire has processors for reading from and writing to Redshift. They include:
+
+* Read Redshift AWS
+* Write Redshift AWS
+
+
 
 

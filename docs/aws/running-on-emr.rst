@@ -20,19 +20,19 @@ Steps
 
 * Update the inbound rules for the Master Node::
 
-    We would have Fire listening on port 8085 and 8086
+    We would have Fire listening on ports 8085 and 8086
     Update the inbound rules for the Master Node to allow ports 8085 and 8086
 
 * ssh into the Master EMR node as the ``hadoop`` user::
 
     ssh -i my.pem hadoop@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
 
-* Download the fire tgz file from:
+* Download the fire tgz file by one of the following options:
 
   * https://www.sparkflows.io/download    
        OR   
   * https://www.sparkflows.io/archives
-  
+       OR
   * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
   
   
@@ -41,7 +41,7 @@ Steps
     tar xvf fire-x.y.z.tgz
     
     
-* Change the port on which to start Fire::
+* Configure the port to start Fire on::
 
     cd <fire install_dir>
     Edit conf/application.properties
@@ -70,7 +70,7 @@ Steps
   
     <machine_name>:8085/index.html
 
-* Login with:: 
+* Login with the following default username and password:: 
 
     admin/admin
     
@@ -84,8 +84,8 @@ Steps
     
 * Create the ``hadoop`` user in Fire::
 
-    Under Administration/Configuration add the ``hadoop`` user
-    Logout and login with the ``hadoop`` user
+    Under Administration/Configuration, add the ``hadoop`` user
+    Logout from the current session and login again with the ``hadoop`` user
     
 Running Example Workflows
 -------------------------

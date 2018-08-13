@@ -79,7 +79,7 @@ Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform i
 Writing the Pandas DataFrame schema back to Spark
 -------------------------------------------------
 
-Below is an example code for writing the Pandas Schema back to Spark. It is used in infererring the scheme output of the Python code. They way users do not have to reenter the schema of the output in the Workflow::
+Below is an example code for writing the Pandas Schema back to Spark. It is used in inferring the schema output of the Python code. This way users do not have to reenter the schema of the output in the Workflow::
 
    dataframe_dtypes = output_dataframe.dtypes
 
@@ -87,6 +87,21 @@ Below is an example code for writing the Pandas Schema back to Spark. It is used
    f.write(str(dataframe_dtypes))
    f.close()
 
+Fire expects each line of the schema file to contain the following:
+
+* Name of the column
+* Data Type of the column
+
+There can be multiple spaces between the name and the data type.
+
+Fire uses the below for mapping from the data type to Spark DataFrames Data Types:
+
+* int : integer
+* float : float
+* double : double
+* boolean : boolean
+* string : string
+            
 
 Writing the Pandas DataFrame back to Spark
 ------------------------------------------

@@ -40,3 +40,11 @@ The below screenshot displays some of the records read from the MySQL table by F
    :alt: JDBC Read Results
    :align: center
 
+
+Specifying a sub-query
+--------------------------- 
+
+In the configuration of the JDBC node, for ``db_table`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery in parentheses.
+
+ 
+More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases

@@ -7,7 +7,7 @@ In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver 
 
 Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 
-- http://sparkflows.readthedocs.io/en/latest/installation-upgrading/installing-jdbc-drivers.html
+- https://sparkflows.readthedocs.io/en/latest/operating/installing-jdbc-drivers.html
 
 
 Workflow for reading from MySQL

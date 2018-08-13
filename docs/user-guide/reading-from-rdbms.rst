@@ -48,3 +48,10 @@ In the configuration of the JDBC node, for ``db_table`` anything that is valid i
 
  
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
+
+.. figure:: ../_assets/user-guide/jdbc-subquery.png
+   :scale: 50%
+   :alt: JDBC Sub-Query
+   :align: center
+   
+   

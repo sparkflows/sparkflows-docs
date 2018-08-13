@@ -13,7 +13,7 @@ Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 Workflow for reading from MySQL
 --------------------------------
 
-Below is a workflow which reads data from MySQL and saves to a CSV file.
+Below is a workflow which reads data from MySQL and saves to a CSV file. It reads in the data from the ‘dm_product’ table in MySQL and saves it to a CSV file.
 
 .. figure:: ../_assets/user-guide/jdbc-workflow.png
    :scale: 50%
@@ -23,7 +23,7 @@ Below is a workflow which reads data from MySQL and saves to a CSV file.
 JDBC Processor Configuration
 ----------------------------
 
-Below are the configuration details of the JDBC Processor
+Below are the configuration details of the JDBC Processor. It uses the `root` user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the tables in MySQL and populates the entries.
 
 .. figure:: ../_assets/user-guide/jdbc-dialog.png
    :scale: 50%

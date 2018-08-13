@@ -55,7 +55,7 @@ More details are available on the Spark Guide : https://spark.apache.org/docs/1.
    :align: center
    
    
-Above we have specified a subquery which select only the ‘first_name’ from the employees table.
+Above we have specified a subquery which selects only the ‘first_name’ from the employees table.
 
 .. figure:: ../_assets/user-guide/jdbc-subquery-output.png
    :scale: 50%

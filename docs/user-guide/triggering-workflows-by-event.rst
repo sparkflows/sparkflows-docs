@@ -17,7 +17,7 @@ The kind of use cases this can handle are:
 Event Format
 -----------
 
-Fields in the Event are | (pipe) separated.
+Events which are pushed to Kafka are string with the fields separated by | (pipe).
 
 Below is the format of the event.
 
@@ -55,5 +55,11 @@ In the above example:
   * success@sparkflows.io : Email address to send regarding success of the workflow
   * failure@sparkflows.io : Email address to send regarding failure of the workflow
   
+
+Configuring Fire to listen for Events from the Kafka Topic
+----------------------------------------------------------
+
+Fire has to be configured to listen for Events from the Kafka Topic. Each user can configure their own. The Jobs would be fired as a user who configured it.
+
 
 

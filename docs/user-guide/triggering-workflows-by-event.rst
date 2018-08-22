@@ -42,4 +42,17 @@ Below is the format of the event.
 * Email on Failure : email addresses to send Failure email on Job Failure.
 
 
+Example Events
+--------------
+
+* 0|5||||success@sparkflows.io|failure@sparkflows.io
+
+In the above example:
+
+  * 0 : Trigger by workflow id
+  * 5 : Workflow id to trigger
+  * success@sparkflows.io : Email address to send regarding success of the workflow
+  * failure@sparkflows.io : Email address to send regarding failure of the workflow
+  
+
 

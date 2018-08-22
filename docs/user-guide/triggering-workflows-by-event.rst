@@ -1,0 +1,45 @@
+Triggering Workflows by Event
+==============================
+
+Workflow Executions can be triggered by sending an event to a Kafka Topic.
+
+Fire can be configured to poll for events from those topics.
+
+Use Case
+--------
+
+The kind of use cases this can handle are:
+
+* A Job loads data into HIVE
+* Now the Job wants to trigger another workflow
+* It pushes an event to a Kafka Topic to trigger the workflow
+
+Event Format
+-----------
+
+Fields in the Event are | (pipe) separated.
+
+Below is the format of the event.
+
+* Type|workflowid or workflow name or workflow uuid|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
+
+* Type : Type determines the kind of data in the seconds column
+
+  * 1 : workflow id
+  * 2 : workflow name
+  * 3 : workflow uuid
+
+* Field 2 : The value of this field depends of the type defined. It can be:
+
+  * ID of the workflow
+  * Name of the workflow
+  * UUID of the workflow
+  
+* Spark Submit Configs : extra Spark Submit configurations to be applied when running the Spark Job.
+* Program parameters : extra program parameters if any
+  * Program Parameters are passed to the workflow. An example is ‘--var key1=value1’.
+* Email on Success : email addresses to send Success email on Job Completion.
+* Email on Failure : email addresses to send Failure email on Job Failure.
+
+
+

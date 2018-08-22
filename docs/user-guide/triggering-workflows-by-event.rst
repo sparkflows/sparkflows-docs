@@ -36,9 +36,9 @@ Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Suc
   * UUID of the workflow
   
 * Spark Submit Configs : extra Spark Submit configurations to be applied when running the Spark Job.
-* Jar files : Extra jar files to use
+* Extra Jar files : Extra jar files to use in spark-submit
 * Program parameters : extra program parameters if any
-  * Program Parameters are passed to the workflow. An example is ‘--var key1=value1``.
+  * Program Parameters are passed to the workflow. An example is ``--var key1=value1``.
 * Email on Success : email addresses to send Success email on Job Completion.
 * Email on Failure : email addresses to send Failure email on Job Failure.
 

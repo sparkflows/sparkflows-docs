@@ -21,7 +21,7 @@ Fields in the Event are | (pipe) separated.
 
 Below is the format of the event.
 
-Type|Value|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
+Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Success|Emails on Failure
 
 * Type : Type determines the kind of data in the seconds column
 

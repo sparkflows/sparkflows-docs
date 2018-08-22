@@ -21,15 +21,15 @@ Fields in the Event are | (pipe) separated.
 
 Below is the format of the event.
 
-* Type|workflowid or workflow name or workflow uuid|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
+* Type|Value|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
 
 * Type : Type determines the kind of data in the seconds column
 
-  * 1 : workflow id
-  * 2 : workflow name
-  * 3 : workflow uuid
+  * 0 : workflow id
+  * 1 : workflow name
+  * 2 : workflow uuid
 
-* Field 2 : The value of this field depends of the type defined. It can be:
+* Value : This defines value. Values are based on the Type used:
 
   * ID of the workflow
   * Name of the workflow
@@ -45,7 +45,7 @@ Below is the format of the event.
 Example Events
 --------------
 
-* 0|5||||success@sparkflows.io|failure@sparkflows.io
+* 0|5| | | |success@sparkflows.io|failure@sparkflows.io
 
 In the above example:
 

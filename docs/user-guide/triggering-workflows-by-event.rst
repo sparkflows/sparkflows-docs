@@ -21,7 +21,7 @@ Fields in the Event are | (pipe) separated.
 
 Below is the format of the event.
 
-* Type|Value|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
+Type|Value|spark submit configs|jarfiles|programparameters|emailOnSuccess|emailOnFailure
 
 * Type : Type determines the kind of data in the seconds column
 
@@ -36,6 +36,7 @@ Below is the format of the event.
   * UUID of the workflow
   
 * Spark Submit Configs : extra Spark Submit configurations to be applied when running the Spark Job.
+* Jar files : Extra jar files to use
 * Program parameters : extra program parameters if any
   * Program Parameters are passed to the workflow. An example is ‘--var key1=value1’.
 * Email on Success : email addresses to send Success email on Job Completion.

@@ -23,13 +23,13 @@ Below is the format of the event.
 
 **Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Success|Emails on Failure**
 
-* Type : Type determines the kind of data in the seconds column
+* Type : Type determines the kind of data in the Value column
 
   * 0 : workflow id
   * 1 : workflow name
   * 2 : workflow uuid
 
-* Value : This defines value. Values are based on the Type used:
+* Value : This defines the value. Values are based on the Type used:
 
   * ID of the workflow
   * Name of the workflow

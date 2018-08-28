@@ -17,11 +17,11 @@ The kind of use cases this can handle are:
 Event Format
 -----------
 
-Events which are pushed to Kafka are string with the fields separated by | (pipe).
+Events which are pushed to Kafka are string with the fields separated by ``| (pipe)``.
 
 Below is the format of the event.
 
-Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Success|Emails on Failure
+**Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Success|Emails on Failure**
 
 * Type : Type determines the kind of data in the seconds column
 

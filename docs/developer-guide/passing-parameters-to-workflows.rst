@@ -13,6 +13,15 @@ Through a Parameter Node in the Workflow
  
 A Parameter Node can be added to the workflow. It allows passing key/value pairs to the workflow.
 
+Through Program Parameters in Fire during Workflow Execution
+------------------------------------------------------------
+
+Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
+
+Below is a screenshot:
+
+
+
 Through ``--var`` parameters with spark-submit
 --------------------------------------------------
  

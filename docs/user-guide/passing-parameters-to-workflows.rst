@@ -8,15 +8,20 @@ Sparkflows runs the spark jobs with ``spark-submit``. It takes in the workflow J
   * As more parameters on the command line when running the workflow with spark-submit with --var
   * Specifying it in Administration/Configuration to be passed to all the jobs submitted.
   
-Through a Parameter Node in the Workflow
+Through a Parameter Processor in the Workflow
 -----------------------------------------
  
-A Parameter Node can be added to the workflow. It allows passing key/value pairs to the workflow.
+A Parameter Processor can be added to the workflow. It allows passing key/value pairs to the workflow.
+
+.. figure:: ../_assets/user-guide/passing-parameters-2.png
+   :alt: Passing Parameters to Workflows
+   :align: center
 
 Through Program Parameters in Fire during Workflow Execution
 ------------------------------------------------------------
 
 Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
+These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow
 
 Below is a screenshot:
 

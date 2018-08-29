@@ -20,7 +20,9 @@ Key/Value pairs can be passed to Fire during Workflow Execution. An example of i
 
 Below is a screenshot:
 
-
+.. figure:: ../_assets/user-guide/passing-parameters-1.png
+   :alt: Passing Parameters to Workflows
+   :align: center
 
 Through ``--var`` parameters with spark-submit
 --------------------------------------------------

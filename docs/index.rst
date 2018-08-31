@@ -60,6 +60,14 @@ User Guide
 
    user-guide/index
    
+Performance
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   performance/index
+   
 Tutorials
 ----------
 

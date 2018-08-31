@@ -6,3 +6,5 @@ Performance
    :maxdepth: 2
 
    caching-level.rst
+   repartition.rst
+   

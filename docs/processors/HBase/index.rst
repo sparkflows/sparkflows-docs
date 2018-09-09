@@ -1,8 +1,0 @@
-HBase
-============
-
-.. toctree::
-   :maxdepth: 2
-
-   readhbase.rst
-   savehbase.rst

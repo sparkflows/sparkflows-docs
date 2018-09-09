@@ -1,0 +1,27 @@
+NumberOfPartitions
+=========== 
+
+This node will get the number partitions in input dataframe.
+
+Type
+--------- 
+
+transform
+
+Class
+--------- 
+
+fire.nodes.util.NodeGetNumberOfPartitions
+
+Fields
+--------- 
+
+.. list-table::
+      :widths: 10 5 10
+      :header-rows: 1
+      :stub-columns: 1
+
+
+
+
+

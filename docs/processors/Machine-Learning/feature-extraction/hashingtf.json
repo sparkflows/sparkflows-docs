@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - inputCol
         - Input Column
         - Contains sets of terms. In text processing, a 'set of terms' might be a bag of words

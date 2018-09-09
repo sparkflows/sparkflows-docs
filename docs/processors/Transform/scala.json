@@ -29,6 +29,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - code
         - Scala
         - Scala code to be run. Input dataframe : "inDF", SparkContext : "sc", SQLContext : "sqlContext",  Output/Result dataframe should be registered as a temporary table - df.registerTempTable("outDF")

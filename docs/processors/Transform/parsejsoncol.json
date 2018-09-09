@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - jsonColName
         - JSON Col Name
         - Column containing the JSON Content

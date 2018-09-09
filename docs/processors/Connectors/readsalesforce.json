@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - sql
         - SQL
         - Sql for reading salesforce data ex - select id, name, amount from opportunity

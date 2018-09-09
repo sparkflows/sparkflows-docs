@@ -29,6 +29,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - code
         - Pipe Python
         - Python code to be run. It receives each record as a string and outputs records back as a string.

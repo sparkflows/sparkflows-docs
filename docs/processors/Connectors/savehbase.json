@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - hbaseTableName
         - HBase Table Name
         - HBase Table into which data gets loaded

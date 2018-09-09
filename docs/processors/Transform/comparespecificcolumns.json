@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - columnsToCompare
         - Columns to Compare
         - Columns to be used in the comparison

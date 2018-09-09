@@ -25,6 +25,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - conditionExpr1
         - Conditional Expression 1 to split the Data on
         - Conditional Expression 1 to be used for Splitting the Dataset

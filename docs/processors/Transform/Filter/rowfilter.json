@@ -29,6 +29,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - conditionExpr
         - Conditional Expression
         - The filtering condition. Rows not satisfying given condition will be excluded from output DataFrame

@@ -29,6 +29,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - joinCol
         - Join Column
         - column on which to join

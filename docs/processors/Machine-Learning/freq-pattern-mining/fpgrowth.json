@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - transactionCol
         - Transaction Column
         - Input data set, each element contains a transaction

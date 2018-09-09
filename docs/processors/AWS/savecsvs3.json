@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - path
         - Path To S3
         - Path where to save the CSV files Ex- (s3a://<bucketName>),If you don't give path it will browse your s3 bucket list

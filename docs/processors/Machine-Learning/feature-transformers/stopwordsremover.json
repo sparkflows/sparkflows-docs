@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - inputCol
         - Input Column
         - Column containing the array text from which the stop words have to be removed

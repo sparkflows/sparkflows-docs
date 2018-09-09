@@ -25,6 +25,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - conditionExpr
         - Conditional Expression to split the Data on
         - Conditional Expression to be used for Splitting the DataFrame into two

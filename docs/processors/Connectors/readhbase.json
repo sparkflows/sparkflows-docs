@@ -21,6 +21,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - hbaseSite
         - HBase Site XML (if reading from hbase-site.xml)
         - HBase Site XML eg: /etc/hbase/conf/hbase-site.xml

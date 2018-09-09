@@ -25,6 +25,9 @@ Fields
       :header-rows: 1
       :stub-columns: 1
 
+      * - Name
+        - Title
+        - Description
       * - latitudeCol
         - Latitude Column
         - Latitude Column from first DataFrame

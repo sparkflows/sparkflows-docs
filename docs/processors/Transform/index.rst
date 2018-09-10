@@ -1,0 +1,59 @@
+Transform
+===============
+
+.. toctree::
+   :maxdepth: 2
+
+   addcolumns.rst
+   casewhen.rst
+   castcolumntype.rst
+   castcolumntypemulti.rst
+   cdcusingfulltablemerge.rst
+   columnsrename.rst
+   compare.rst
+   comparespecificcolumns.rst
+   concatcolumns.rst
+   datawrangling.rst
+   DateTime.rst
+   decision.rst
+   dropcolumns.rst
+   dropduplicaterows.rst
+   droprowswithnull.rst
+   expressions.rst
+   fieldsplitter.rst
+   fieldsplittertest.rst
+   Filter.rst
+   findAndReplace.rst
+   fixedlength.rst
+   generateUUID.rst
+   geoip.rst
+   geopoint.rst
+   Group.rst
+   Joins.rst
+   jython.rst
+   mathfunctions.rst
+   mathfunctionsmultiple.rst
+   parsejsoncol.rst
+   regextokenizer.rst
+   registerteamptable.rst
+   removeduplicaterows.rst
+   removeUnwantedCharacters.rst
+   runhivehql.rst
+   scala.rst
+   sortby.rst
+   splitbyexpression.rst
+   splitbymultipleexpressions.rst
+   sql.rst
+   SQLExecuter.rst
+   stringFunctions.rst
+   stringfunctionsmultiple.rst
+   textCaseTransformer.rst
+   timeFunctions.rst
+   transpose.rst
+   unionall.rst
+   uniondistinct.rst
+   unixShellCommand.rst
+   validation.rst
+   validation2.rst
+   windowranking.rst
+   zipwithindex.rst

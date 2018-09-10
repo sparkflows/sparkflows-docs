@@ -4,11 +4,11 @@ basic-statistics
 .. toctree::
    :maxdepth: 2
 
-   Barchart/index.rst
-   correlation/index.rst
-   Histogram/index.rst
-   ImputingWithConstant/index.rst
-   ImputingWithMedianValue/index.rst
-   ImputingWithModeValue/index.rst
-   NumericImputer/index.rst
-   summary/index.rst
+   Barchart.rst
+   correlation.rst
+   Histogram.rst
+   ImputingWithConstant.rst
+   ImputingWithMedianValue.rst
+   ImputingWithModeValue.rst
+   NumericImputer.rst
+   summary.rst

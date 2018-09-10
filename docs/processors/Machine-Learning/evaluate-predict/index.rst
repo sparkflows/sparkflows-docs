@@ -4,7 +4,7 @@ evaluate-predict
 .. toctree::
    :maxdepth: 2
 
-   binary-classification-evaluator/index.rst
-   multiclass-classification-evaluator/index.rst
-   predict/index.rst
-   regression-evaluator/index.rst
+   binary-classification-evaluator.rst
+   multiclass-classification-evaluator.rst
+   predict.rst
+   regression-evaluator.rst

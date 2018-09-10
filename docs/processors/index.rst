@@ -7,7 +7,7 @@ Processors
    AWS/index.rst
    Connectors/index.rst
    Dataset/index.rst
-   doclarge/index.rst
+   doclarge.rst
    Graph/index.rst
    Guardtime/index.rst
    Logs/index.rst

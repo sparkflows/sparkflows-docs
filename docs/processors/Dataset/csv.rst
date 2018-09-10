@@ -27,8 +27,6 @@ Fields
 .. list-table::
       :widths: 10 5 10
       :header-rows: 1
-      :stub-columns: 1
-
       * - Name
         - Title
         - Description
@@ -55,5 +53,12 @@ Fields
         - Format of the Output Columns
 
 
+CSV Node
+===============
+Key Fields
+===============
+<ul>
+<li>separator: separator to be used between the fields.</li>
+</ul>
 
 

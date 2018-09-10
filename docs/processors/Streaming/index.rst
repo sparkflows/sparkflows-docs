@@ -4,7 +4,7 @@ Streaming
 .. toctree::
    :maxdepth: 2
 
-   flumestreaming.rst
-   kafkastreaming.rst
-   socketstreaming.rst
-   textfilestreaming.rst
+   flumestreaming/index.rst
+   kafkastreaming/index.rst
+   socketstreaming/index.rst
+   textfilestreaming/index.rst

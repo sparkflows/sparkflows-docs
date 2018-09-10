@@ -4,6 +4,6 @@ Group
 .. toctree::
    :maxdepth: 2
 
-   cube.rst
-   grouper.rst
-   rollup.rst
+   cube/index.rst
+   grouper/index.rst
+   rollup/index.rst

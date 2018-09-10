@@ -4,12 +4,12 @@ Connectors
 .. toctree::
    :maxdepth: 2
 
-   readCassandra.rst
-   readelasticsearch.rst
-   readhbase.rst
-   readhivetable.rst
-   readmarketo.rst
-   readsalesforce.rst
-   saveCassandra.rst
-   saveelasticsearch.rst
-   savehbase.rst
+   readCassandra/index.rst
+   readelasticsearch/index.rst
+   readhbase/index.rst
+   readhivetable/index.rst
+   readmarketo/index.rst
+   readsalesforce/index.rst
+   saveCassandra/index.rst
+   saveelasticsearch/index.rst
+   savehbase/index.rst

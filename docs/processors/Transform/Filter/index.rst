@@ -4,8 +4,8 @@ Filter
 .. toctree::
    :maxdepth: 2
 
-   columnfilter.rst
-   filterByDateRange.rst
-   filterByStringLength.rst
-   numberRangeFilter.rst
-   rowfilter.rst
+   columnfilter/index.rst
+   filterByDateRange/index.rst
+   filterByStringLength/index.rst
+   numberRangeFilter/index.rst
+   rowfilter/index.rst

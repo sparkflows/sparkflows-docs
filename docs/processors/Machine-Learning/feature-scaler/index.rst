@@ -4,5 +4,5 @@ feature-scaler
 .. toctree::
    :maxdepth: 2
 
-   MinMaxScaler.rst
-   standardscaler.rst
+   MinMaxScaler/index.rst
+   standardscaler/index.rst

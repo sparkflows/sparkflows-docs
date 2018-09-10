@@ -4,6 +4,6 @@ OpenNLP
 .. toctree::
    :maxdepth: 2
 
-   opennlpdocumentcategorizer.rst
-   opennlpnamefinder.rst
-   opennlpsentencedetector.rst
+   opennlpdocumentcategorizer/index.rst
+   opennlpnamefinder/index.rst
+   opennlpsentencedetector/index.rst

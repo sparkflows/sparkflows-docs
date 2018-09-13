@@ -1,15 +1,15 @@
 Pipe Python
 =========== 
 
-This node runs any given Python code. The input dataframe is passed in the variable inDF. The output dataframe should be placed in the variable outDF
+This node runs any given Python code. It pipes the incoming DataFrame through pipe to the Python Script. Output back to Spark has to be written out using print.
 
 Input
 --------------
-The input dataframe is passed in the variable in DF
+It pipes the incoming DataFrame through pipe to the Python Script. It also passes the Schema of the DataFrame to the Python script through the command line argument - argv[1]
 
 Output
 --------------
-The output dataframe should be placed in the variable outDF
+Output back to Spark has to be written out using print.
 
 Type
 --------- 

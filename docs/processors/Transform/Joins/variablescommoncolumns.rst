@@ -19,7 +19,7 @@ join
 Class
 --------- 
 
-fire.nodes.etl.VriablesCommon
+fire.nodes.etl.NodeJoinUsingColumns
 
 Fields
 --------- 

@@ -54,12 +54,5 @@ Fields
         - Format of the Output Columns
 
 
-CSV Node
-===============
-Key Fields
-===============
-<ul>
-<li>separator: separator to be used between the fields.</li>
-</ul>
 
 

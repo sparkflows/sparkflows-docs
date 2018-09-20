@@ -45,7 +45,7 @@ Configure Fire to connect to Microsoft SQL Server
 
     spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
 
-    spring.jpa.database=MSSQL
+    spring.jpa.database=SQLSERVER
 
     # Username and password
 

@@ -64,7 +64,7 @@ Install the Microsoft SQL Server Connector Jar file
 * Untar the file ``sqljdbc_6.0.8112.200_enu.tar.gz``
 * You will get JDBC jar file on untaring ``sqljdbc42.jar``
   
-* Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``
+* Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``
 
   
   

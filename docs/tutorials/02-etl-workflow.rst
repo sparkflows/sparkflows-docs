@@ -20,7 +20,6 @@ Go to Workflow Listings Page
 ============================
 
 .. figure:: ../_assets/tutorials/02/workflow-listings.png
-   :scale: 100%
    :alt: Workflow Listings
    :align: center
 
@@ -43,7 +42,6 @@ Click on the nodes in the LHS to create them. Connect them with Links. Links can
 
 
 .. figure:: ../_assets/tutorials/02/etl-workflow.png
-   :scale: 100%
    :alt: ETL Workflow
    :align: center
 

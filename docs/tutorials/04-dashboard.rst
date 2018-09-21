@@ -15,7 +15,7 @@ Go to Dashboards page
 =====================
 
 .. figure:: ../_assets/tutorials/04/dashboard-listings.png
-   :scale: 100%
+   :scale: 80%
    :alt: Dashboards Page
    :align: center
 
@@ -25,7 +25,7 @@ Click on Create New Dashboard
 This would open up the Dashboard Designer Page.
 
 .. figure:: ../_assets/tutorials/04/dashboard-designer.png
-   :scale: 100%
+   :scale: 80%
    :alt: Dashboard Designer
    :align: center
    
@@ -46,7 +46,7 @@ Nodes inside the workflow can be dragged and dropped onto the Dashboard to make 
 In the Dashboard below we have added 2 nodes to the Dashboard.
 
 .. figure:: ../_assets/tutorials/04/dashboard-designer-1.png
-   :scale: 100%
+   :scale: 80%
    :alt: Dashboard Designer
    :align: center
 

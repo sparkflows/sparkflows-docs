@@ -33,7 +33,6 @@ Go to the Dataset Listing Page
 ==============================
 
  .. figure:: ../_assets/tutorials/01/dataset-listings.png
-   :scale: 100%
    :alt: Dataset Listings
    :align: center
 
@@ -72,7 +71,6 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 You can update the column names in the schema based on your data.
  
  .. figure:: ../_assets/tutorials/01/dataset-schema.png
-   :scale: 100%
    :alt: Dataset Schema
    :align: center
    

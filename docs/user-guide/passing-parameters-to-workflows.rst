@@ -56,6 +56,10 @@ Specifying ``--var`` parameters for all in Sparkflows User Interface
  
 Sparkflows also allows specifying the **--var** parameters to be passed to all the jobs submitted through Sparkflows. Below is the screen under Administration/Configuration.
 
+.. figure:: ../_assets/user-guide/passing-parameters-3.png
+   :alt: Passing Parameters to Workflows
+   :align: center
+   
 In the above, **app.vars** parameter allows specifying a space separated list of name=value pairs. 
 
 Each of these are passed to the jobs submitted by Sparkflows with ``--var name=value``

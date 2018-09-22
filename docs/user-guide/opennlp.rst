@@ -24,3 +24,7 @@ Using OpenNLP model jars
 * Specify the path of the jar file in the dialog box of the Open NLP nodes in the workflow
 * For example for the OpenNLPNameFinder node the path can be : /user/centos/opennlp-models-1.5/en-ner-person.bin
 
+.. figure:: ../_assets/user-guide/opennlp-1.png
+   :alt: OpenNLP
+   :align: center
+   

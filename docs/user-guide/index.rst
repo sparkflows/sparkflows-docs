@@ -17,3 +17,5 @@ User Guide
    reading-from-rdbms.rst
    python/index
    alerts.rst
+   tesseract.rst
+   

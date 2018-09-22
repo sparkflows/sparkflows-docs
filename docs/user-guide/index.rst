@@ -18,4 +18,6 @@ User Guide
    python/index
    alerts.rst
    tesseract.rst
+   opennlp.rst
+   
    

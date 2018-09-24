@@ -1,7 +1,7 @@
 3.1.0 Release Notes
 =================
 
-* Release Date: 06/01/2018
+* Release Date: 09/01/2018
 
 * Download TGZ name: sparkflows-fire-3.1.0.tgz
 

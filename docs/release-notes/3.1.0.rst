@@ -11,6 +11,10 @@ Contents of this release
 -------------------------
 
 * New Processors Added
+    * Decision Node Processor
+    * JSON Parser Processor
+    * SortBy Processor
+    * Empty Dataset Processor
     * Multi-Validation Processor
     * String Functions Multiple Processor
     * Math Functions Multiple Processor
@@ -26,6 +30,7 @@ Contents of this release
     * Richer support in JDBC Processor for interactive execution
     * Save Warning when moving away from the Workflow Editor
     * Rich widget support for Multi-Validations Processor
+* Support for Caching Datasets in any Processor
 * Support for Workflow Cloning
 * Richer support in Dashboard Editor for drag and drop of Processors
 

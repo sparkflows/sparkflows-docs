@@ -6,7 +6,9 @@ When running locally
 
 * Create a directory called opennlp-models-1.5 on the local file system
 * Download the OpenNLP model jar from : http://opennlp.sourceforge.net/models-1.5/
+
   * eg: wget http://opennlp.sourceforge.net/models-1.5/en-ner-person.bin
+  
 * Copy the OpenNLP model jar into the opennlp-models-1.5 directory created
 
  

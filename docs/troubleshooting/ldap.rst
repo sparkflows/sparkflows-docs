@@ -1,5 +1,5 @@
-LDAP
-====
+Troubleshooting LDAP setup in Fire
+=================================
 
 Fire can be configured to authenticate the user with LDAP.
 

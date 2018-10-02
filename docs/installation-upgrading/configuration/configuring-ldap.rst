@@ -96,8 +96,11 @@ In case you are locked out of Sparkflows and are not able to log in, you can do 
 * Add the below line to conf/configuration.properties
 ldap.Order=DB
 
-Then restart the fire server. Now you should be able to log in with your admin account.
-One making the required changes, you can remove the line you added to ``configuration.properties`` and restart the fire server.
+* Then restart the fire server. Now you should be able to log in with your admin account.
+
+Once things are back to normal, you can remove the line you added to ``configuration.properties`` and restart the fire server.
+
+
 
 
 Notes

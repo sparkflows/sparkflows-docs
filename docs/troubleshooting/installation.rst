@@ -7,7 +7,7 @@ Installation Pre-requisites
 
 Below are the Pre-requisites before installing Fire::
 
-    JDK 1.7+ installed on the machine
+    JDK 1.8+ installed on the machine
 
     java and jar have to be in the PATH
 

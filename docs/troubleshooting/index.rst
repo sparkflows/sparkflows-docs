@@ -5,6 +5,7 @@ Troubleshooting
    :maxdepth: 2
 
    installation.rst
+   ldap.rst
    upgrade.rst
    dataset.rst
    running-workflows.rst

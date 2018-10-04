@@ -14,22 +14,22 @@ Testing Getting User Details from LDAP
 
 Create a properties file called ``ldaptestconfig.properties``
 
-Below is an example:
+Below is an example::
 
-ldap_attributeUserName=myLdapUsername
-ldap_Order = "DB";
-ldap_URL = "ldap://localhost:10389";
-ldap_base = "dc=example,dc=com";
-ldap_userDn = "uid=john,ou=bindusers,dc=example,dc=com";
-ldap_password = "johnspassword";
-ldap_userSearchBase = "ou=sparkflow";
-ldap_userSearchFilter = "(uid={0})";
-ldap_groupSearchBase = "ou=groups";
-ldap_groupSearchFilter = "member={0}";
+  ldap_attributeUserName=myLdapUsername
+  ldap_Order = "DB";
+  ldap_URL = "ldap://localhost:10389";
+  ldap_base = "dc=example,dc=com";
+  ldap_userDn = "uid=john,ou=bindusers,dc=example,dc=com";
+  ldap_password = "johnspassword";
+  ldap_userSearchBase = "ou=sparkflow";
+  ldap_userSearchFilter = "(uid={0})";
+  ldap_groupSearchBase = "ou=groups";
+  ldap_groupSearchFilter = "member={0}";
 
-Fetch some user details with the following command:
+Fetch some user details with the following command::
 
-- java -cp app/fire-ui-3.1.0.jar fireui.ldap.LDAPTest username
+  java -cp app/fire-ui-3.1.0.jar fireui.ldap.LDAPTest username
 
 
 What if I get locked out

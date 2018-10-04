@@ -1,13 +1,13 @@
-Troubleshooting LDAP setup in Fire
-=================================
+LDAP
+====
 
-Fire can be configured to authenticate the user with LDAP.
+Fire can be configured to authenticate the user with LDAP. Below are some ways to troubleshoot the LDAP configurations.
 
 
 Testing LDAP connection with ldapsearch
 ---------------------------------------
 
-It is a good idea to test the ldap environment setup using ldapsearch.
+It is a good idea to test the ldap environment setup using ldapsearch. This ensures that the machine is setup correctly for LDAP - it can connect to the LDAP server, the LDAP username and passwords are correct, the SSL certificates are good if using LDAPS.
 
 Testing Getting User Details from LDAP
 --------------------------------------

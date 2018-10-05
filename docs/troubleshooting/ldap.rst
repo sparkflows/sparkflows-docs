@@ -27,7 +27,7 @@ Below is an example::
   ldap_groupSearchBase = "ou=groups";
   ldap_groupSearchFilter = "member={0}";
 
-Fetch the user details for the user xyz with the following command::
+Fetch the user details for the user ``xyz`` with the following command::
 
   java -cp app/fire-ui-3.1.0.jar -Dloader.main=fireui.ldap.LDAPTest org.springframework.boot.loader.PropertiesLauncher xyz
 

@@ -18,15 +18,15 @@ Testing Getting User Details from LDAP
 Below is an example::
 
   ldap_attributeUserName=myLdapUsername
-  ldap_Order = "DB";
-  ldap_URL = "ldap://localhost:10389";
-  ldap_base = "dc=example,dc=com";
-  ldap_userDn = "uid=john,ou=bindusers,dc=example,dc=com";
-  ldap_password = "johnspassword";
-  ldap_userSearchBase = "ou=sparkflow";
-  ldap_userSearchFilter = "(uid={0})";
-  ldap_groupSearchBase = "ou=groups";
-  ldap_groupSearchFilter = "member={0}";
+  ldap_Order="DB_LDAP";
+  ldap_URL="ldap://localhost:10389";
+  ldap_base="dc=example,dc=com";
+  ldap_userDn="uid=john,ou=bindusers,dc=example,dc=com";
+  ldap_password="johnspassword";
+  ldap_userSearchBase="ou=sparkflow";
+  ldap_userSearchFilter="(uid={0})";
+  ldap_groupSearchBase="ou=groups";
+  ldap_groupSearchFilter="member={0}";
 
 Fetch the user details for the user ``xyz`` with the following command::
 

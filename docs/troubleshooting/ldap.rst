@@ -12,7 +12,8 @@ It is a good idea to test the ldap environment setup using ldapsearch. This ensu
 Testing Getting User Details from LDAP
 --------------------------------------
 
-Create a properties file called ``ldaptestconfig.properties``
+* cd to your installation directory
+* Create a properties file called ``ldaptestconfig.properties``
 
 Below is an example::
 

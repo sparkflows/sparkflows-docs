@@ -43,9 +43,9 @@ Steps
     
 * Configure the port to start Fire on::
 
-    cd <fire install_dir>
-    Edit conf/application.properties
-    Update the last two lines to below:
+    - cd <fire install_dir>
+    - Edit conf/application.properties
+    - Update the last two lines to below:
         http.port=8085
         https.port=8086
 
@@ -72,20 +72,21 @@ Steps
 
 * Login with the following default username and password:: 
 
-    admin/admin
+    username : admin
+    password : admin
     
 * Connect Fire with the EMR Cluster::
 
-    Go to Administration/Configuration
-    Click on 'Infer Hadoop Configs'
-    Save
+    - Go to Administration/Configuration
+    - Click on 'Infer Hadoop Configs'
+    - Save
     
-    If your EMR cluster is not running HIVE, update 'spark.sql-context = SQLContext'
+    - If your EMR cluster is not running HIVE, update 'spark.sql-context = SQLContext'
     
 * Create the ``hadoop`` user in Fire::
 
-    Under Administration/Users, add the 'hadoop' user
-    Logout from the current session and login again with the 'hadoop' user
+    - Under Administration/Users, add the 'hadoop' user
+    - Logout from the current session and login again with the 'hadoop' user
     
 Running Example Workflows
 -------------------------

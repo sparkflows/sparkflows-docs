@@ -71,7 +71,7 @@ Steps
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8085/index.html
+    <machine_name>:8080/index.html
 
 * Login with the following default username and password:: 
 

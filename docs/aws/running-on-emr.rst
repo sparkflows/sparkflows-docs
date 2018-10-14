@@ -20,8 +20,8 @@ Steps
 
 * Update the inbound rules for the Master Node::
 
-    We would have Fire listening on ports 8080 and 8443
-    Update the inbound rules for the Master Node to allow ports 8080 and 8443
+    We would have Fire listening on ports 8080 and 8086
+    Update the inbound rules for the Master Node to allow ports 8080 and 8086
 
 * ssh into the Master EMR node as the ``hadoop`` user::
 
@@ -44,12 +44,12 @@ Steps
 
     cp /usr/lib/hadoop-lzo/lib/hadoop-lzo.jar /home/hadoop/fire-3.1.0/fire-user-lib
     
-* Configure Fire to listen on ports 8085 and 8086::
+* Configure Fire to listen on ports 8080 and 8086::
 
     - cd <fire install_dir>
     - Edit conf/application.properties
     - Update the last two lines to below:
-        http.port=8085
+        http.port=8080
         https.port=8086
 
 * Create H2 DB::

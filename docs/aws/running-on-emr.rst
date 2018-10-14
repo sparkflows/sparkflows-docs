@@ -40,6 +40,9 @@ Steps
 
     tar xvf fire-x.y.z.tgz
     
+* Copy hadoop-lzo.jar::
+
+    cp /usr/lib/hadoop-lzo/lib/hadoop-lzo.jar /home/hadoop/fire-3.1.0/fire-user-lib
     
 * Configure the port to start Fire on::
 

@@ -77,15 +77,15 @@ Steps
 * Connect Fire with the EMR Cluster::
 
     Go to Administration/Configuration
-    Click on **Infer Hadoop Configs**
+    Click on 'Infer Hadoop Configs'
     Save
     
-    If your EMR cluster is not running HIVE, update **spark.sql-context = SQLContext**
+    If your EMR cluster is not running HIVE, update 'spark.sql-context = SQLContext'
     
 * Create the ``hadoop`` user in Fire::
 
-    Under Administration/Users, add the **hadoop** user
-    Logout from the current session and login again with the **hadoop** user
+    Under Administration/Users, add the 'hadoop' user
+    Logout from the current session and login again with the 'hadoop' user
     
 Running Example Workflows
 -------------------------
@@ -99,7 +99,7 @@ Running Example Workflows
 * Start off with executing the example workflows::
 
     - Fire comes pre-packaged with a number of example workflows
-    - You can install them by clicking on the *Install example workflows* link in the landing page when logged in as the `admin` user.
+    - You can install them by clicking on the 'Install example workflows' link in the landing page when logged in as the `admin` user.
     
     - Execute the workflows
     

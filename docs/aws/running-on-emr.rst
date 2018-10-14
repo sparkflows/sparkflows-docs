@@ -44,13 +44,13 @@ Steps
 
     cp /usr/lib/hadoop-lzo/lib/hadoop-lzo.jar /home/hadoop/fire-3.1.0/fire-user-lib
     
-* Configure the port to start Fire on::
+* Configure Fire to listen on ports 8085 and 8086::
 
     - cd <fire install_dir>
     - Edit conf/application.properties
     - Update the last two lines to below:
-        http.port=8080
-        https.port=8443
+        http.port=8085
+        https.port=8086
 
 * Create H2 DB::
 

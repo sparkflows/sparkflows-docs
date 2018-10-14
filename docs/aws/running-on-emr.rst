@@ -98,9 +98,9 @@ Running Example Workflows
     
 * Start off with executing the example workflows::
 
-    Fire comes pre-packaged with a number of example workflows
-    You can install them by clicking on the `Install example workflows` link in the landing page when logged in as the `admin` user.
+    - Fire comes pre-packaged with a number of example workflows
+    - You can install them by clicking on the *Install example workflows* link in the landing page when logged in as the `admin` user.
     
-    Execute the workflows
+    - Execute the workflows
     
 

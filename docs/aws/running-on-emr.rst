@@ -21,6 +21,7 @@ Steps
 * Update the inbound rules for the Master Node::
 
     We would have Fire listening on ports 8080 and 8086
+    (Fire by default listens on 8080 and 8443. But EMR clusters have another process listening on port 8443. So we change it to listen on port 8080 and 8086)
     Update the inbound rules for the Master Node to allow ports 8080 and 8086
 
 * ssh into the Master EMR node as the ``hadoop`` user::

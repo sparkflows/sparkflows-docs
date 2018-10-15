@@ -11,9 +11,11 @@ On AWS, the data normally resides in S3 buckets. HIVE tables are created pointin
 Details
 -------
 
-HIVE can be running on the same EMR cluster on running on another EMR cluster. 
+* Fire would run on the master node of the EMR cluster, or on an Edge node with the cluster contiguration files.
 
-Make sure to have the correct hive-site.xml on the cluster where the Spark jobs are running.
+* HIVE can be running on the same EMR cluster on running on another EMR cluster. 
 
-Fire will automatically pick it up and be able to process it.
+* Make sure to have the correct hive-site.xml on the cluster where the Spark jobs are running.
+
+* Fire will automatically pick it up and be able to process it.
 

@@ -1,12 +1,27 @@
 Fire Integration with S3
 ========================
 
-Fire is fully integrated with AWS S3. Fire has a number of Processors specifically for S3.
+Fire is fully integrated with AWS S3. The Dataset Processors of Fire, can directly read data from S3 if the policies allow them to.
 
-S3 Processors
+There are also S3 specific Processors which take in the AWS Access Key and AWS Access Passwords.
+
+Dataset Processors
+------------------
+
+Dataset Processors include:
+
+* Read CSV
+* Read Parquet
+* Read JSON
+* Read XML
+
+The path specified for reading from S3 would be s3://...
+
+
+S3 Specific Processors
 -------------
 
-Fire has various processors for reading data from and writing data to S3. These include:
+Fire has S3 specific processors for read from S3. These allow the user to specific the AWS Access Key and AWS Access Password.
 
 * Read Avro S3
 * Read CSV S3

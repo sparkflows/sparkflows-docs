@@ -19,5 +19,6 @@ User Guide
    alerts.rst
    tesseract.rst
    opennlp.rst
+   jupyter.rst
    
    

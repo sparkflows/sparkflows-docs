@@ -17,7 +17,9 @@ Dataset Processors include:
 
 The path specified for reading from S3 would be s3://...
 
-Below is an example Workflow. It reads a CSV file from S3 and processes it.
+Below is an example Workflow. It reads a CSV file from S3, parses it and prints out the first 10 records.
+
+In the dialog box of the Read CSV processor the path is specified as ``s3://sparkflows-data/data/cars.csv``
 
 .. figure:: ../_assets/aws/s3-workflow-1.png
    :alt: S3 Workflow

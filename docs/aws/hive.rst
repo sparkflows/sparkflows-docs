@@ -13,7 +13,7 @@ Details
 
 HIVE can be running on the same EMR cluster on running on another EMR cluster. 
 
-Make sure to have the corred hive-site.xml on the cluster.
+Make sure to have the correct hive-site.xml on the cluster where the Spark jobs are running.
 
 Fire will automatically pick it up and be able to process it.
 

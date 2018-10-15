@@ -17,6 +17,20 @@ Dataset Processors include:
 
 The path specified for reading from S3 would be s3://...
 
+Below is an example Workflow. It reads data from a file on S3 and processes.
+
+.. figure:: ../../_assets/aws/s3-workflow-1.png
+   :alt: Sparkflows Fire Architecture
+   :align: center
+   
+.. figure:: ../../_assets/aws/s3-csv-dialog-1.png
+   :alt: Sparkflows Fire Architecture
+   :align: center
+   
+.. figure:: ../../_assets/aws/s3-csv-output-1.png
+   :alt: Sparkflows Fire Architecture
+   :align: center   
+
 
 S3 Specific Processors
 -------------

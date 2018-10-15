@@ -7,5 +7,6 @@ AWS
 
    running-on-emr.rst
    s3.rst
+   hive.rst
    redshift.rst
    

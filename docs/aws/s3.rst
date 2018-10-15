@@ -19,15 +19,15 @@ The path specified for reading from S3 would be s3://...
 
 Below is an example Workflow. It reads a CSV file from S3 and processes it.
 
-.. figure:: ../../_assets/aws/s3-workflow-1.png
+.. figure:: ../_assets/aws/s3-workflow-1.png
    :alt: S3 Workflow
    :align: center
    
-.. figure:: ../../_assets/aws/s3-csv-dialog-1.png
+.. figure:: ../_assets/aws/s3-csv-dialog-1.png
    :alt: S3 CSV Dialog
    :align: center
    
-.. figure:: ../../_assets/aws/s3-csv-output-1.png
+.. figure:: ../_assets/aws/s3-csv-output-1.png
    :alt: S3 CSV Output
    :align: center   
 

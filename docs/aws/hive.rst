@@ -19,3 +19,10 @@ Details
 
 * Fire will automatically pick it up and be able to process it.
 
+
+Writing to HIVE
+-------
+
+Below is a workflow for writing to HIVE.
+
+It reads housing.csv, creates a DataFrame and writes it out to a HIVE table.

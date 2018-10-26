@@ -9,7 +9,7 @@ Steps for configuring Kerberos on Fire
 * **Generate a keytab for Fire**
  
  
-* **Place it in .../fire-1.x.y/conf directory**::
+* **Place it in .../fire-x.y.z/conf directory**::
  
     This is not required as keytab directory in Fire is configurable although this is the recommended location.
  

@@ -13,7 +13,10 @@ Details
 
 The CFT does the following:
 
-* Creates EMR cluster
+* Creates EMR cluster with 1 master node and 2 worker nodes
+  * Master : m4.xlarge
+  * Worker : m4.xlarge
+  * AMI
 * Once the cluster is ready it runs the job/script to deploy Fire (takes around 1-1:30 min for deploying app!).
 
 CloudFormation Template

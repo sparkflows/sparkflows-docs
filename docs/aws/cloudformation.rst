@@ -19,7 +19,7 @@ The CFT does the following:
 CloudFormation Template
 ------------------------
 
-```
+Below is the CFT for deploying Fire::
 
 {
   "AWSTemplateFormatVersion": "2010-09-09",
@@ -258,5 +258,5 @@ CloudFormation Template
   }
 }
 
-```
+
 

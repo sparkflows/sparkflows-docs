@@ -8,6 +8,13 @@ Overview
 
 * This CFT works with EMR 5.8 onwards.
 
+Relevant Files
+--------------
+
+* https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
+* https://s3.amazonaws.com/sparkflows-release/fire/CFT/fire.sh
+* https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
+
 Details
 ----------
 

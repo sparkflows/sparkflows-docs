@@ -50,24 +50,24 @@ Update the CFT **emr-fire.json** according to your requirement and environment i
     By default the CFT deploys Hadoop, Hive & Spark. Add any other Applications which you need.
   
   
-* EbsRootVolumeSize
+* EbsRootVolumeSize::
 
-  * If required change the root(/) ebs volume size. By default CFT has 50GB disk volume
+    If required change the root(/) ebs volume size. By default CFT has 50GB disk volume
   
   
-* SizeInGB for Master and Core Instances
+* SizeInGB for Master and Core Instances::
 
-  * If required change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs)
+    If required change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs)
   
   
-* VolumesPerInstance for Master and Core Instances
+* VolumesPerInstance for Master and Core Instances::
 
-  * If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
+    If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
   
   
-* deploy-fire.sh and script-runner.jar
+* deploy-fire.sh and script-runner.jar::
 
-  * Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
+    Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
 
 Steps to Create EMR Cluster and Deploy Fire

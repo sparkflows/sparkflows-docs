@@ -73,8 +73,14 @@ Update the CFT **emr-fire.json** according to your requirement and environment i
 Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-* AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3 (Select the updated emr-fire.json from your system) -> Provide all the required details
-* Stack name - CloudFormation stack name
+* AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3
+
+  * Select the updated **emr-fire.json** from your system
+  * Provide all the required details
+  
+* Stack name
+
+  * CloudFormation stack name
  
 .. list-table:: Parameters
    :widths: 10 40

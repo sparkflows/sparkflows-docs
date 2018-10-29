@@ -37,8 +37,8 @@ Relevant Files
      
 
 
-Download relevant files
------------------------
+Download Files and Upload to your S3 Bucket
+----------------------------------------------
 
 * Download CFT **emr-fire.json** from the above link.
 * Download **deploy-fire.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket

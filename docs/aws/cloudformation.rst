@@ -17,6 +17,24 @@ Relevant Files
 * https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
 * https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
 
+Below are the relevant files:
+
+.. list-table:: Relevant Files
+   :widths: 15 40 40
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - File
+   * - emr-file.json
+     - CloudFormation Template
+     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
+   * - deploy-fire.sh
+     - Script for deploying Fire
+     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
+
+
+
 Details
 ----------
 

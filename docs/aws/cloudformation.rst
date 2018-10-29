@@ -32,18 +32,19 @@ Download relevant files
 Update Cloudformation templates based on your environment
 ---------------------------------------------------------
 
-* Modify Cloudformation template (emr-fire.json) according to your requirement and deploying environment
+Update emr-fire.json according to your requirement and deploying environment
 
- * Update the CFT for ElasticMapReduce-Master-SecurityGroup under mastersg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-master"'
- * Update the CFT for ElasticMapReduce-Slave-SecurityGroup under slavesg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-slave"'
- * Update the CFT for Applications - By default CFT deploy with Hadoop, Hive & Spark, add the other required Applications.
- * Update the CFT for EbsRootVolumeSize - If required change the root(/) ebs volume size, by default cft has 50GB disk volume
- * Update the CFT for SizeInGB for Master and Core Instances - If required change the SizeInGB under EbsConfiguration, by default cft has 50GB disk volume (used for hdfs)
- * Update the CFT for VolumesPerInstance for Master and Core Instances - If required change the VolumesPerInstance under EbsConfiguration, by default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
- * Update the CFT for fire.sh and script-runner.jar - Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
+* Update the CFT for ElasticMapReduce-Master-SecurityGroup under mastersg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-master"'
+* Update the CFT for ElasticMapReduce-Slave-SecurityGroup under slavesg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-slave"'
+* Update the CFT for Applications - By default CFT deploy with Hadoop, Hive & Spark, add the other required Applications.
+* Update the CFT for EbsRootVolumeSize - If required change the root(/) ebs volume size, by default cft has 50GB disk volume
+* Update the CFT for SizeInGB for Master and Core Instances - If required change the SizeInGB under EbsConfiguration, by default cft has 50GB disk volume (used for hdfs)
+* Update the CFT for VolumesPerInstance for Master and Core Instances - If required change the VolumesPerInstance under EbsConfiguration, by default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
+* Update the CFT for fire.sh and script-runner.jar - Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
 Steps to Create EMR Cluster and Deploy the Fire
 --------------------------------------------------
+
 * AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3 (Select the updated emr-fire.json from your system) -> Provide all the required details
  * Stack name - CloudFormation stack name
  * Parameters

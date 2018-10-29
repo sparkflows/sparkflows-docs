@@ -26,13 +26,14 @@ The CFT does the following:
 Download relevant files
 -----------------------
 
-* Download CFT emr-fire.json from the above link or use the below CloudFormation Template.
-* Download deploy-fire.sh and script-runner.jar from the above link and upload it to your s3 bucket
+* Download CFT **emr-fire.json** from the above link or use the below CloudFormation Template.
+* Download **deploy-fire.sh** and **script-runner.jar** from the above link and upload it to your s3 bucket
+
 
 Update Cloudformation templates based on your environment
 ---------------------------------------------------------
 
-Update emr-fire.json according to your requirement and deploying environment
+Update **emr-fire.json** according to your requirement and deploying environment
 
 * Update the CFT for ElasticMapReduce-Master-SecurityGroup under mastersg
 

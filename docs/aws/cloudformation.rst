@@ -93,6 +93,17 @@ Steps to Create EMR Cluster and Deploy Fire
  * To cross check the fire installation, go to EMR from AWS web console -> choose the your emr cluster -> Steps -> choose the job, click on the view logs or http://masternodeip:8085/index.html
   
   
+.. list-table:: Parameters
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Name of Parameter
+     - Description
+   * - MasterInstanceType
+     - Provide the required instance type for master nodes, default instance type is m4.xlarge
+   * - TaskNodes
+     - Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
+  
 
 CloudFormation Template
 ------------------------

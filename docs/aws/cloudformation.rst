@@ -12,7 +12,7 @@ Relevant Files
 --------------
 
 * https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
-* https://s3.amazonaws.com/sparkflows-release/fire/CFT/fire.sh
+* https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
 * https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
 
 Details
@@ -27,7 +27,7 @@ Download relevant files
 -----------------------
 
 * Download CFT emr-fire.json from the above link or use the below CloudFormation Template.
-* Download fire.sh and script-runner.jar from the above link and upload it to your s3 bucket
+* Download deploy-fire.sh and script-runner.jar from the above link and upload it to your s3 bucket
 
 Update Cloudformation templates based on your environment
 ---------------------------------------------------------
@@ -52,7 +52,7 @@ Update emr-fire.json according to your requirement and deploying environment
 * Update the CFT for VolumesPerInstance for Master and Core Instances
   * If required change the VolumesPerInstance under EbsConfiguration, by default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
   
-* Update the CFT for fire.sh and script-runner.jar
+* Update the CFT for deploy-fire.sh and script-runner.jar
   * Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
 Steps to Create EMR Cluster and Deploy the Fire
@@ -74,7 +74,7 @@ Steps to Create EMR Cluster and Deploy the Fire
   * MasterNodes - By default 1
   * Owner - provide the name of a team or person creating the cluster
   * ReleaseVersion - Enter the required ReleaseVersion, it has to match with fire version
-  * S3Bucket - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where fire.sh and script-runner.jar are uploaded
+  * S3Bucket - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire.sh and script-runner.jar are uploaded
   * Subnet - Provide the proper subnet name, which as sufficient resources to create emr cluster
   * TaskInstanceType - Optional, required only if you're choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge
   * TaskNodes - Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
@@ -310,7 +310,7 @@ Below is the CFT for deploying Fire::
              "Fn::Join": [ "", [ "s3://", { "Ref": "S3Bucket" }, "/fire/CFT/script-runner.jar" ] ]
            },
            "Args": [
-             { "Fn::Join": [ "", [ "s3://", { "Ref": "S3Bucket" }, "/fire/CFT/fire.sh" ] ] },
+             { "Fn::Join": [ "", [ "s3://", { "Ref": "S3Bucket" }, "/fire/CFT/deploy-fire.sh" ] ] },
              { "Ref": "ReleaseVersion" },
              { "Ref": "FireVersion" }
            ]

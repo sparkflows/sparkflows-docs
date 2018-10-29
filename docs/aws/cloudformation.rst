@@ -31,6 +31,10 @@ Relevant Files
    * - deploy-fire.sh
      - Script for deploying Fire
      - https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
+   * - script-runner.jar
+     - Script Runner
+     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
+     
 
 
 Download relevant files

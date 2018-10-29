@@ -1,12 +1,14 @@
 CloudFormation Templates
 ========================
 
-Using CloudFormation Templates, Fire can be easily installed on AWS.
 
 Overview
 --------
 
-* This CFT works with EMR 5.8 onwards.
+Using CloudFormation Templates, Fire can be easily installed on AWS. This CFT works with EMR 5.8 onwards.
+
+The below steps would allow you to start up an EMR Cluster and have Fire setup on it.
+
 
 Relevant Files
 --------------

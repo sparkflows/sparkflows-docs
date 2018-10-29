@@ -385,4 +385,4 @@ Below is the CFT for deploying Fire::
 Summary
 -------
 
-Using the above CFT you have have your EMR cluster with Fire running immediately.
+Using the above CFT you have have your EMR cluster with Fire running seamlessly.

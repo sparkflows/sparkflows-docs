@@ -41,7 +41,7 @@ Download relevant files
 -----------------------
 
 * Download CFT **emr-fire.json** from the above link.
-* Download **deploy-fire.sh** and **script-runner.jar** from the above link and upload it to your s3 bucket
+* Download **deploy-fire.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
 
 
 Update Cloudformation template based on your environment

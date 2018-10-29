@@ -9,6 +9,11 @@ Using CloudFormation Templates, Fire can be easily installed on AWS. This CFT wo
 
 The below steps would allow you to start up an EMR Cluster and have Fire setup on it.
 
+The CFT does the following:
+
+* Creates EMR cluster with 1 master node and 2 worker nodes by default.
+* Once the cluster is ready it runs the job/script to deploy Fire (takes around 1-1:30 min for deploying app!).
+
 
 Relevant Files
 --------------
@@ -28,19 +33,10 @@ Relevant Files
      - https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
 
 
-
-Details
-----------
-
-The CFT does the following:
-
-* Creates EMR cluster with 1 master node and 2 worker nodes by default.
-* Once the cluster is ready it runs the job/script to deploy Fire (takes around 1-1:30 min for deploying app!).
-
 Download relevant files
 -----------------------
 
-* Download CFT **emr-fire.json** from the above link or use the below CloudFormation Template.
+* Download CFT **emr-fire.json** from the above link.
 * Download **deploy-fire.sh** and **script-runner.jar** from the above link and upload it to your s3 bucket
 
 

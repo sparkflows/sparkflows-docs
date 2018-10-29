@@ -23,11 +23,16 @@ The CFT does the following:
 * Creates EMR cluster with 1 master node and 2 worker nodes by default.
 * Once the cluster is ready it runs the job/script to deploy Fire (takes around 1-1:30 min for deploying app!).
 
-Prerequisites to Create EMR Cluster and Deploy the Fire
-----------------------------------------------------------
+Download relevant files
+-----------------------
+
 * Download CFT emr-fire.json from the above link or use the below CloudFormation Template.
-* Download fire.sh and script-runner.jar and fire.sh from the above link and upload it to your s3 bucket
-* Modify Cloudformation template according to your requirement and deploying environment
+* Download fire.sh and script-runner.jar from the above link and upload it to your s3 bucket
+
+Update Cloudformation templates based on your environment
+---------------------------------------------------------
+
+* Modify Cloudformation template (emr-fire.json) according to your requirement and deploying environment
 
  * Update the CFT for ElasticMapReduce-Master-SecurityGroup under mastersg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-master"'
  * Update the CFT for ElasticMapReduce-Slave-SecurityGroup under slavesg - From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-slave"'

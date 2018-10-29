@@ -68,43 +68,57 @@ Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
 * AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3 (Select the updated emr-fire.json from your system) -> Provide all the required details
- * Stack name - CloudFormation stack name
- * Parameters
-  * AdditionalSecurityGroups - From the list choose the additional secuirty group(sg), it's required because default emr sg's ports are not opened for ssh, fire & etc...
-  * AmiId - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI
-  * ClusterName - Name for EMR Cluster
-  * CoreInstanceType - Provide the required instance type for core nodes, default instance type is m4.xlarge
-  * CoreNodes - Choose the required number of core nodes, by default it's 2
-  * EmrVersion - Choose the required EMR version, it's should be above EMR v.5.8.x 
-  * Environment - By default dev
-  * FireVersion - Enter the required version of Fire
-  * KeyName - Enter the valid pem key name to connect to emr nodes
-  * MasterInstanceType - Provide the required instance type for master nodes, default instance type is m4.xlarge
-  * MasterNodes - By default 1
-  * Owner - provide the name of a team or person creating the cluster
-  * ReleaseVersion - Enter the required ReleaseVersion, it has to match with fire version
-  * S3Bucket - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire.sh and script-runner.jar are uploaded
-  * Subnet - Provide the proper subnet name, which as sufficient resources to create emr cluster
-  * TaskInstanceType - Optional, required only if you're choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge
-  * TaskNodes - Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
-*  Validate all the provided vaules, click next -> if required (not mandatory) enter tag details for cloudformation tag, click next -> one more time cross check for all the details provided to create a emr stack, then click on create
-* Come back to cloudformation, choose your stack name and click on events to check the process and click on Resources to get the EMR Cluster id
-* Once the stack runs successfully, you're EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
- * To cross check the fire installation, go to EMR from AWS web console -> choose the your emr cluster -> Steps -> choose the job, click on the view logs or http://masternodeip:8085/index.html
-  
-  
+* Stack name - CloudFormation stack name
+ 
 .. list-table:: Parameters
    :widths: 10 40
    :header-rows: 1
 
    * - Name of Parameter
      - Description
+   * - AdditionalSecurityGroups
+     - From the list choose the additional secuirty group(sg), it's required because default emr sg's ports are not opened for ssh, fire & etc...
+   * - AmiId
+     - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI
+   * - ClusterName
+     - Name for EMR Cluster
+   * - CoreInstanceType
+     - Provide the required instance type for core nodes, default instance type is m4.xlarge
+   * - CoreNodes
+     - Choose the required number of core nodes, by default it’s 2
+   * - EmrVersion
+     - Choose the required EMR version, it’s should be above EMR v.5.8.x
+   * - Environment
+     - By default dev
+   * - FireVersion
+     - Enter the required version of Fire
+   * - KeyName
+     - Enter the valid pem key name to connect to emr nodes
    * - MasterInstanceType
      - Provide the required instance type for master nodes, default instance type is m4.xlarge
+   * - MasterNodes
+     - By default 1 
+   * - Owner
+     -  provide the name of a team or person creating the cluster
+   * - ReleaseVersion
+     - Enter the required ReleaseVersion, it has to match with fire version
+   * - S3Bucket
+     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire.sh and script-runner.jar are uploaded
+   * - Subnet
+     - Provide the proper subnet name, which has sufficient resources to create emr cluster 
+   * - TaskInstanceType
+     - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge
    * - TaskNodes
-     - Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
+     -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
+          
+ 
+*  Validate all the provided vaules, click next -> if required (not mandatory) enter tag details for cloudformation tag, click next -> one more time cross check for all the details provided to create a emr stack, then click on create
+* Come back to cloudformation, choose your stack name and click on events to check the process and click on Resources to get the EMR Cluster id
+* Once the stack runs successfully, you're EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
+ * To cross check the fire installation, go to EMR from AWS web console -> choose the your emr cluster -> Steps -> choose the job, click on the view logs or http://masternodeip:8085/index.html
   
-
+  
+     
 CloudFormation Template
 ------------------------
 

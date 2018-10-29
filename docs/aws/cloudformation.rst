@@ -44,25 +44,26 @@ Update emr-fire.json according to your requirement and deploying environment
   
 * Update the CFT for Applications
 
-  * By default CFT deploy with Hadoop, Hive & Spark, add the other required Applications.
+  * By default the CFT deploys Hadoop, Hive & Spark. Add any other Applications which you need.
   
 * Update the CFT for EbsRootVolumeSize
 
-  * If required change the root(/) ebs volume size, by default cft has 50GB disk volume
+  * If required change the root(/) ebs volume size. By default CFT has 50GB disk volume
   
 * Update the CFT for SizeInGB for Master and Core Instances
 
-  * If required change the SizeInGB under EbsConfiguration, by default cft has 50GB disk volume (used for hdfs)
+  * If required change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs)
   
 * Update the CFT for VolumesPerInstance for Master and Core Instances
 
-  * If required change the VolumesPerInstance under EbsConfiguration, by default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
+  * If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
   
 * Update the CFT for deploy-fire.sh and script-runner.jar
 
   * Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
-Steps to Create EMR Cluster and Deploy the Fire
+
+Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
 * AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3 (Select the updated emr-fire.json from your system) -> Provide all the required details
@@ -90,6 +91,8 @@ Steps to Create EMR Cluster and Deploy the Fire
 * Once the stack runs successfully, you're EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
  * To cross check the fire installation, go to EMR from AWS web console -> choose the your emr cluster -> Steps -> choose the job, click on the view logs or http://masternodeip:8085/index.html
   
+  
+
 CloudFormation Template
 ------------------------
 

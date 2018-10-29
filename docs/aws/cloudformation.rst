@@ -112,10 +112,25 @@ Steps to Create EMR Cluster and Deploy Fire
      -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
           
  
-*  Validate all the provided vaules, click next -> if required (not mandatory) enter tag details for cloudformation tag, click next -> one more time cross check for all the details provided to create a emr stack, then click on create
-* Come back to cloudformation, choose your stack name and click on events to check the process and click on Resources to get the EMR Cluster id
-* Once the stack runs successfully, you're EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
-* To cross check the fire installation, go to EMR from AWS web console -> choose the your emr cluster -> Steps -> choose the job, click on the view logs or http://masternodeip:8085/index.html
+*  Validate all the provided values
+
+  * Click next -> if required (not mandatory) enter tag details for cloudformation tag
+  * Click next -> one more time cross check for all the details provided to create a emr stack
+  * Click on create
+
+* Come back to cloudformation
+
+  * Choose your stack name
+  * Click on events to check the process
+  * Click on Resources to get the EMR Cluster id
+  
+* Once the stack runs successfully, your EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
+
+* To cross check the fire installation
+  * Go to EMR from AWS web console
+  * Choose the your emr cluster
+  * Choose the job
+  * Click on the view logs or http://masternodeip:8085/index.html
   
   
      

@@ -35,19 +35,19 @@ Update Cloudformation template based on your environment
 
 Update the CFT **emr-fire.json** according to your requirement and environment in which you are deploying.
 
-* ElasticMapReduce-Master-SecurityGroup under mastersg
+* ElasticMapReduce-Master-SecurityGroup under mastersg::
 
-  * From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-master"**
+  From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-master"**
   
   
-* ElasticMapReduce-Slave-SecurityGroup under slavesg
+* ElasticMapReduce-Slave-SecurityGroup under slavesg::
 
-  * From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-slave"**
+  From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-slave"**
   
   
-* Applications
+* Applications::
 
-  * By default the CFT deploys Hadoop, Hive & Spark. Add any other Applications which you need.
+  By default the CFT deploys Hadoop, Hive & Spark. Add any other Applications which you need.
   
   
 * EbsRootVolumeSize

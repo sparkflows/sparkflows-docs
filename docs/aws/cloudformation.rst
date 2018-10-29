@@ -37,12 +37,12 @@ Update the CFT **emr-fire.json** according to your requirement and environment i
 
 * ElasticMapReduce-Master-SecurityGroup under mastersg::
 
-    From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-master"**
+    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-master"
   
   
 * ElasticMapReduce-Slave-SecurityGroup under slavesg::
 
-    From AWS console -> EC2 -> Security Groups -> **search for "ElasticMapReduce-slave"**
+    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-slave"
   
   
 * Applications::

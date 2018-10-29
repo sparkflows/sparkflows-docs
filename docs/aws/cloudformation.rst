@@ -39,25 +39,31 @@ Update the CFT **emr-fire.json** according to your requirement and deploying env
 
   * From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-master"'
   
+  
 * ElasticMapReduce-Slave-SecurityGroup under slavesg
 
   * From AWS console -> EC2 -> Security Groups -> 'search for "ElasticMapReduce-slave"'
+  
   
 * Applications
 
   * By default the CFT deploys Hadoop, Hive & Spark. Add any other Applications which you need.
   
+  
 * EbsRootVolumeSize
 
   * If required change the root(/) ebs volume size. By default CFT has 50GB disk volume
+  
   
 * SizeInGB for Master and Core Instances
 
   * If required change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs)
   
+  
 * VolumesPerInstance for Master and Core Instances
 
   * If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
+  
   
 * deploy-fire.sh and script-runner.jar
 

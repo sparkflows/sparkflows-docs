@@ -13,14 +13,10 @@ The below steps would allow you to start up an EMR Cluster and have Fire setup o
 Relevant Files
 --------------
 
-* https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
-* https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
-* https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
-
 Below are the relevant files:
 
 .. list-table:: Relevant Files
-   :widths: 15 40 40
+   :widths: 10 20 40
    :header-rows: 1
 
    * - Title

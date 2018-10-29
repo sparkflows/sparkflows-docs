@@ -33,7 +33,7 @@ Download relevant files
 Update Cloudformation template based on your environment
 ---------------------------------------------------------
 
-Update the CFT **emr-fire.json** according to your requirement and deploying environment
+Update the CFT **emr-fire.json** according to your requirement and environment in which you are deploying.
 
 * ElasticMapReduce-Master-SecurityGroup under mastersg
 

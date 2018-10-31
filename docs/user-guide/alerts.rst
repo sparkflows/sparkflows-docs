@@ -21,3 +21,12 @@ You can specify email addresses for receiving emails when the Workflow fails or 
    :alt: Email Alerts
    :align: center
    
+   
+SMTP Configurations
+-------------------
+
+Administrator has to set up the SMTP configurations under Administration/Configuration
+
+ .. figure:: ../_assets/user-guide/smtp-configuration.png
+   :alt: SMTP Configuration
+   :align: center

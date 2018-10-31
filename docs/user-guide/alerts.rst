@@ -12,7 +12,7 @@ You can specify email addresses for receiving emails when the Workflow fails or 
    :alt: Email Alerts
    :align: center
 
-Email Notifications/Alerts when Scheduling workflows
+Email Notifications/Alerts when Scheduling Workflows
 --------------------------------------
 
 You can specify email addresses for receiving emails when the Workflow fails or succeeds.

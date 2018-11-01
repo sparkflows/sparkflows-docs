@@ -140,12 +140,13 @@ Steps to Create EMR Cluster and Deploy Fire
           
  
 * Click Next
-* If required (not mandatory) enter tag details for cloudformation tag
+  * If required (not mandatory) enter tag details for cloudformation tag
+  
 * Click next
-* Review all the details provided to create a emr stack
-* Click on Create change set
+  * Review all the details provided to create an EMR stack
+  * Click on Create change set
 
-* Come back to cloudformation
+* Come back to Cloudformation
 
   * Choose your stack name
   * Click on events to check the process

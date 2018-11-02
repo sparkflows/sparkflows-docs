@@ -87,7 +87,7 @@ Update the CFT **emr-fire.json** according to your requirement and environment i
 Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-* AWS web Console -> Management tools -> CloudFormation
+* **AWS web Console -> Management tools -> CloudFormation**
 
   * Click on **Create Stack**.
   
@@ -164,12 +164,12 @@ Steps to Create EMR Cluster and Deploy Fire
 * Once the stack runs successfully, your EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
 
 
-* To cross check the fire installation
+* To **cross check** the fire installation
 
   * Go to EMR from AWS web console
-  * Choose the your emr cluster
-  * Choose the job
-  * Click on the view logs or http://masternodeip:8085/index.html
+  * Choose your EMR Cluster
+  * Choose the Job
+  * Click on View Logs or **http://masternodeip:8085/index.html**
   
   
      

@@ -87,13 +87,16 @@ Update the CFT **emr-fire.json** according to your requirement and environment i
 Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-* AWS web Console -> Management tools -> CloudFormation -> Create Stack -> Upload a template to Amazon S3
+* AWS web Console -> Management tools -> CloudFormation
 
-  * Select the updated **emr-fire.json** from your system
-  * Next
-  * Provide all the required details
+  * Click on **Create Stack**.
   
-* Stack name
+* Next page is **Select Template**
+  * Select the radio-button **Upload a template to Amazon S3**
+  * Select the updated **emr-fire.json** from your system
+  * Click Next
+  
+* Next page is **Specify Details**
 
   * Enter CloudFormation stack name
  
@@ -138,15 +141,17 @@ Steps to Create EMR Cluster and Deploy Fire
    * - TaskNodes
      -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
           
- 
-* Click Next
-
-  * If required (not mandatory) enter tag details for cloudformation tag
+  * Click Next
   
-* Click next
+* Next Page is **Options**
+
+  * If required (not mandatory) enter tag details
+  * Click Next
+  
+* Next Page is **Review**
 
   * Review all the details provided to create an EMR stack
-  * Click on Create change set
+  * Click on Create
 
 * Come back to Cloudformation
 

@@ -176,4 +176,4 @@ Steps to Create EMR Cluster and Deploy Fire
 Summary
 -------
 
-Using the above CFT you have have your EMR cluster with Fire running seamlessly.
+Using the above CFT you have your EMR cluster with Fire running seamlessly.

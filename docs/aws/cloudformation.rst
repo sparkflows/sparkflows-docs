@@ -176,6 +176,27 @@ Steps to Create EMR Cluster and Deploy Fire
   * Go to **http://masternodeip:8085/index.html**
   
   
+Connect Fire to the New Cluster
+-------------------------------
+
+* Go to User/Administration
+* Click on **Infer Hadoop Configuration**
+* Save
+
+Load Examples
+--------------
+
+* In Fire, click on **Load Examples**
+
+Create **hadoop** user
+----------------------
+
+* Go to User/User
+* Click on **Add User**
+* Create a new user with username 'hadoop'
+* Log out and log back in as user **hadoop*
+
+
      
 Summary
 -------

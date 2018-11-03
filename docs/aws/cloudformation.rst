@@ -36,6 +36,10 @@ Relevant Files
      - https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
      
 
+Ports
+-----
+
+* With this CFT and deploy-fire.sh, when Fire comes up, it would be listeneing on ports 8085 and 8086.
 
 Download Files and Upload to your S3 Bucket
 ----------------------------------------------
@@ -164,7 +168,7 @@ Steps to Create EMR Cluster and Deploy Fire
 * Once the stack runs successfully, your EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
 
 
-* To **cross check** the fire installation
+* To **cross check** the Fire installation
 
   * Go to EMR from AWS web console
   * Choose your EMR Cluster

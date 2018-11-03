@@ -187,6 +187,9 @@ Load Examples
 --------------
 
 * In Fire, click on **Load Examples**
+* ssh to the master node
+* cd /opt/fire/fire-3.1.0
+* hadoop fs -put data
 
 Create **hadoop** user
 ----------------------
@@ -196,7 +199,10 @@ Create **hadoop** user
 * Create a new user with username 'hadoop'
 * Log out and log back in as user **hadoop*
 
+Start running the Examples
+--------------------------
 
+* Go to **Applications**
      
 Summary
 -------

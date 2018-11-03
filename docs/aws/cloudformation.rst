@@ -172,7 +172,7 @@ Steps to Create EMR Cluster and Deploy Fire
 
   * Go to EMR from AWS web console
   * Choose your EMR Cluster
-  * Identiry the Master Node Public DNS 
+  * Identify the Master Node Public DNS 
   * Go to **http://masternodeip:8085/index.html**
   
   

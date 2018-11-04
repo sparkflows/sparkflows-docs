@@ -40,7 +40,7 @@ Relevant Files
 Ports
 -----
 
-* With this CFT and deploy-fire.sh, when Fire comes up, it would be listeneing on ports 8085 and 8086.
+* With this CFT and deploy-fire.sh, when Fire comes up, it would be listening on ports 8085 and 8086.
 
 Download Files and Upload to your S3 Bucket
 ----------------------------------------------

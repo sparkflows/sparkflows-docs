@@ -11,6 +11,7 @@ The below steps would allow you to start up an EMR Cluster and have Fire setup o
 
 The CFT does the following:
 
+* Creates External DB for Fire to be used as the metastore for Fire data
 * Creates EMR cluster with 1 master node and 2 worker nodes by default.
 * Once the cluster is ready it runs the job/script to deploy Fire (takes around 1-1:30 min for deploying app!).
 

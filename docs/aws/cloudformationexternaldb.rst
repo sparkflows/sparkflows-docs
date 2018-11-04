@@ -97,6 +97,7 @@ Steps to Create EMR Cluster and Deploy Fire
   * Click on **Create Stack**.
   
 * Next page is **Select Template**
+
   * Select the radio-button **Upload a template to Amazon S3**
   * Select the updated **emr-fire.json** from your system
   * Click Next
@@ -104,6 +105,7 @@ Steps to Create EMR Cluster and Deploy Fire
 * Next page is **Specify Details**
 
   * Enter CloudFormation stack name
+ 
  
 .. list-table:: Update Parameters where needed
    :widths: 10 40
@@ -145,8 +147,9 @@ Steps to Create EMR Cluster and Deploy Fire
      - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge
    * - TaskNodes
      -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
-          
-  * Click Next
+
+
+* Click Next
   
 * Next Page is **Options**
 

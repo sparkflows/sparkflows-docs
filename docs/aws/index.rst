@@ -9,5 +9,6 @@ AWS
    s3.rst
    hive.rst
    redshift.rst
-   cloudformation.rst
+   cloudformationh2db.rst
+   cloudformationexternaldb.rst
    

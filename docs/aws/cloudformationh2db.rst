@@ -1,4 +1,4 @@
-CloudFormation Templates
+CloudFormation Template with Embedded H2 DB
 ========================
 
 

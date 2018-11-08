@@ -8,9 +8,9 @@ Below are the steps for configuring Fire with your keystore and certificates.
 Generate a Keystore
 -------------------
 
-You can use the following command for generating the Keystore:
+You can use the following command for generating the Keystore::
 
-* keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
+    keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
 
 You will be prompted with the following questions and enter something similar to the SAMPLE answers:
 

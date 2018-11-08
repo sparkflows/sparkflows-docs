@@ -33,7 +33,7 @@ You will be prompted with the following questions and enter something similar to
     Enter key password for <sparkflows>
             (RETURN if same as keystore password): Press the return key or Type and note down the password
 
-Copy the keystore into Fire project
+Copy the keystore into the Fire installation directory
 ----------------------------------------------
 
 Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.

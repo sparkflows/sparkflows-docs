@@ -36,7 +36,7 @@ You will be prompted with the following questions and enter something similar to
 Copy the keystore into Fire project
 ----------------------------------------------
 
-Copy the generated keystore.jks file into the src folder and place it in a classpath to reference it from the .java server or client codes.
+Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 
 
 

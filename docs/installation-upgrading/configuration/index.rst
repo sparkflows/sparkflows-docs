@@ -10,7 +10,6 @@ Below are the details of Configuring Fire for various requirements:
    yarn-configuration.rst
    increasing-memory-of-fire-server.rst
    configuring-max-upload-file-size.rst
-   configuring-https-fire-server.rst
    configuring-https-fire.rst
    configuring-kerberos.rst
    configuring-ldap.rst

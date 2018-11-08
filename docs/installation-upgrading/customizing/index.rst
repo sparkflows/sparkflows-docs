@@ -1,5 +1,5 @@
-Configuration
--------------
+Customizing Fire Installation
+-----------------------------
 
 Below are the details of Configuring Fire for various requirements:
 

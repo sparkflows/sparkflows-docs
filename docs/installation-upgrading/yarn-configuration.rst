@@ -7,7 +7,7 @@ Fire can submit jobs to a YARN cluster. It can submit the spark jobs to run on Y
 Client Mode
 -----------
 
-For configuring to run in client mode, set the following parameter under Administration/Configuration::
+For configuring to run in client mode, set the following parameter under **Administration/Configuration**::
 
     spark.deploy-mode : client
 
@@ -17,7 +17,7 @@ In this mode, the spark driver runs on the same machine on which Fire is running
 Cluster Mode
 ------------
 
-For configuring to run in cluster mode, set the following parameter under Administration/Configuration::
+For configuring to run in cluster mode, set the following parameter under **Administration/Configuration**::
 
     spark.deploy-mode : cluster
 

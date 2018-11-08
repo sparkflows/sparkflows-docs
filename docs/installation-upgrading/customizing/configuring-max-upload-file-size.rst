@@ -1,9 +1,9 @@
 Configuring Max Upload File Size
 --------------------------------
 
-Users can upload files into HDFS through the Browser.
+Fire allows users to upload files into HDFS through their Browser.
 
-The settings which controls it is in conf/application.properties::
+The settings which controls it is in ``conf/application.properties``::
 
     # max file size
     multipart.maxFileSize: 10Mb

@@ -25,7 +25,7 @@ Now the default values are populated with the values provided in ``configuration
 Fire comes with an empty ``conf/configuration.properties`` file. You can put in your values into it.
 
 
-Remove properties conf/configuration.properties
+Remove properties from conf/configuration.properties
 ------------------------------------
 
 Fire will continue to take the final values from ``conf/configuration.properties`` for any property which is there in the file.

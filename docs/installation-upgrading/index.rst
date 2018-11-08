@@ -8,5 +8,6 @@ Installation and Upgrading
    database/index
    connecting-spark-cluster.rst
    configuration/index
+   configuring-https-fire-server.rst
    upgrading.rst
    

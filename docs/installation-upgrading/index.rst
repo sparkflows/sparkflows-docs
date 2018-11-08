@@ -7,7 +7,7 @@ Installation and Upgrading
    installation/index
    database/index
    connecting-spark-cluster.rst
-   configuration/index
+   customizing/index
    configuring-https-fire-server.rst
    running-different-port.rst
    yarn-configuration.rst

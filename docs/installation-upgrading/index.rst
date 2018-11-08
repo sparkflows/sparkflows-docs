@@ -14,6 +14,7 @@ Installation and Upgrading
    configuring-https-fire.rst
    configuring-kerberos.rst
    configuring-ldap.rst
+   different-default-values-startup.rst
    mapr-specific-details.rst
    upgrading.rst
    

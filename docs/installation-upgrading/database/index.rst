@@ -3,6 +3,7 @@ Database Setup
 
 **Fire stores metadata in a Relational Database. These include:**
 
+  * Applications
   * Dataset Definitions
   * Workflows
   * Users

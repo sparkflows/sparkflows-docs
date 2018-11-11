@@ -8,6 +8,7 @@ Reading - Writing Data
    reading-parquet.rst
    reading-mysql.rst
    elasticsearch.rst
+   writing-hive.rst
    
    
    

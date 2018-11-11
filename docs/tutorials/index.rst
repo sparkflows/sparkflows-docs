@@ -12,6 +12,8 @@ Tutorials
    machine-learning/index.rst
    nlp/index.rst
    streaming/index.rst
+   ocr/index.rst
+   
    
    
    

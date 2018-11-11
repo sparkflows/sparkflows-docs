@@ -7,6 +7,8 @@ Reading - Writing Data
    reading-csv.rst
    reading-parquet.rst
    reading-mysql.rst
+   elasticsearch.rst
+   
    
    
    

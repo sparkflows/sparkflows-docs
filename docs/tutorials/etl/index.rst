@@ -4,6 +4,7 @@ ETL
 .. toctree::
    :maxdepth: 2
 
-   etl-1.rst
+   join-1.rst
+   time-function.rst
    
    

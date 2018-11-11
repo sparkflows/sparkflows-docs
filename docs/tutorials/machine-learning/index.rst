@@ -4,6 +4,9 @@ Machine Learning
 .. toctree::
    :maxdepth: 2
 
-   churn-prediction.rst
+   telco-churn-prediction.rst
+   bike-rental-prediction.rst
+   farmers-market-prediction.rst
+   
    
    

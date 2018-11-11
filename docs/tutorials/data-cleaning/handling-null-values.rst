@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * Removes null values from certain columns.
 * Converts certain columns to 0/1 based on their value
 
-.. figure:: ../_assets/tutorials/data-cleaning/handling-null-values/1.png
+.. figure:: ../../../_assets/tutorials/data-cleaning/handling-null-values/1.png
    :alt: Handling Null Values
    :align: center
    

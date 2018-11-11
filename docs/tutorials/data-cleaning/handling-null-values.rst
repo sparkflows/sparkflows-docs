@@ -86,7 +86,7 @@ Converting to 0/1 using CaseWhen
 Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
@@ -94,7 +94,7 @@ Configuration
 Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5a.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
@@ -106,7 +106,7 @@ Converting to 0/1 using FindAndReplaceUsingRegex
 Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
@@ -114,7 +114,7 @@ Configuration
 Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6a.png
    :alt: Handling Null Values
    :align: center
    :width: 60%

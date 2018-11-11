@@ -56,7 +56,6 @@ Enter the fields below into the form. Below are the details of the fields:
 
  
  .. figure:: ../../_assets/tutorials/01/create-new-dataset.png
-   :scale: 100%
    :alt: Sparkflows Create New Datasets
    :align: center
  

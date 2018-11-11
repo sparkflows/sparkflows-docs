@@ -6,5 +6,6 @@ Data Cleaning
 
    handling-null-values.rst
    data-validation.rst
+   decision-json-sort.rst
    
    

@@ -17,4 +17,26 @@ Below is the workflow. It does the following:
    :alt: Handling Null Values
    :align: center
    
+Reading from CSV File
+---------------------
 
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2.png
+   :alt: Handling Null Values
+   :align: center
+   
+   
+Removing null values
+---------------------
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
+   :alt: Handling Null Values
+   :align: center
+   
+Converting to 0/1
+---------------------
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+   :alt: Handling Null Values
+   :align: center
+   
+   

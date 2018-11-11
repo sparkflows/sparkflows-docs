@@ -16,6 +16,7 @@ Below is the workflow. It does the following:
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/1.png
    :alt: Handling Null Values
    :align: center
+   :width: 400
    
 Reading from CSV File
 ---------------------
@@ -23,6 +24,7 @@ Reading from CSV File
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2.png
    :alt: Handling Null Values
    :align: center
+   :width: 400
    
    
 Removing null values
@@ -31,6 +33,7 @@ Removing null values
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
    :alt: Handling Null Values
    :align: center
+   :width: 400
    
 Converting to 0/1
 ---------------------

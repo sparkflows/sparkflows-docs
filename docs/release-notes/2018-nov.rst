@@ -3,5 +3,19 @@ November 2018
 
 The following features have been release in Nov 2018.
 
-- Support for Applications
-- Structured Streaming
+Support for Applications
+------------------------
+
+You can now create Applications in Fire. Applications can contains:
+
+* Datasets
+* Workflows
+* Dashboards
+* Sharing information
+
+This allows you to easily create complex Big Data and ML Applications and work in groups.
+
+Structured Streaming
+--------------------
+
+Fire now support Structured Streaming. It provides a number of Processors for Structured Streaming. These include Processors for reading from Kafka, reading from files etc. There are also a number of Processors for writing to files etc.

@@ -9,7 +9,8 @@ Tutorials
    02-etl-workflow.rst
    03-executing-workflow.rst
    04-dashboard.rst
-   data/cleaning.rst
+   data-cleaning/index.rst
+   
    
    
    

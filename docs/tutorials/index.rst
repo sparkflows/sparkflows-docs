@@ -11,6 +11,8 @@ Tutorials
    04-dashboard.rst
    data-cleaning/index.rst
    etl/index.rst
+   machine-learning/index.rst
+   
    
    
    

@@ -38,13 +38,29 @@ Textfiles
 
 It reads in the input files from the directory data/ner-person. It places each line in the column 'line'.
 
+.. figure:: ../../_assets/tutorials/nlp/namefinder/2.png
+   :alt: Workflow
+   :align: center
+   :width: 60%
+   
 OpenNLPNameFinder
 -----------------
 
 It extracts entities from the text in the input column 'line' and stores them in the output column 'ner'. When running on the Hadoop Cluster, the model file has to be on HDFS and users have to have access to it.
 
+.. figure:: ../../_assets/tutorials/nlp/namefinder/3.png
+   :alt: Workflow
+   :align: center
+   :width: 60%
+   
 PrintNRows
 ----------
 
-It prints the first 10 rows from the result
+It prints the first 10 rows from the result.
+
+.. figure:: ../../_assets/tutorials/nlp/namefinder/4.png
+   :alt: Workflow
+   :align: center
+   :width: 60%
+   
 

@@ -11,7 +11,10 @@ Below is the workflow. It does the following:
 
 * Reads data from a CSV file.
 * Removes null values from certain columns.
-* Converts certain columns to 0/1 based on their value
+* Converts certain columns to 0/1 based on their value. It does it in 3 different ways.
+  * Using StringIndexer
+  * Using CaseWhen
+  * Using FindAndReplaceUsingRegex
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/1.png
    :alt: Handling Null Values

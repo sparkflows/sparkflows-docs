@@ -38,10 +38,21 @@ Textfiles
 
 It reads in the input files from the directory data/ner-person. It places each line in the column 'line'.
 
+Processor Configuration
+++++++++++++++++++
+
 .. figure:: ../../_assets/tutorials/nlp/namefinder/2.png
    :alt: Workflow
    :align: center
    :width: 60%
+   
+Processor Output
+++++++++++++++++
+
+.. figure:: ../../_assets/tutorials/nlp/namefinder/2a.png
+   :alt: Workflow
+   :align: center
+   :width: 60%   
    
 OpenNLPNameFinder
 -----------------

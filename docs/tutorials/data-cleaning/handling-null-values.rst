@@ -1,4 +1,4 @@
-Removing Null Values
+Handling Null Values
 ====================
 
 This example removes null values from the input dataset.

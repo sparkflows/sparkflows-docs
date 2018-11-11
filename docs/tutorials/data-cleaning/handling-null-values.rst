@@ -10,7 +10,7 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from a CSV file.
-* Removes null values from certain columns.
+* Replaces null values from certain columns with Constant Values.
 * Converts certain columns to 0/1 based on their value. It does it in 3 different ways.
 
   * Using StringIndexer

@@ -22,6 +22,11 @@ Workflow
 
 Below is a workflow which uses the NameFinder Processor.
 
+.. figure:: ../../_assets/tutorials/nlp/namefinder/1.png
+   :alt: Workflow
+   :align: center
+   :width: 60%
+   
 It consists of 3 Processors:
 
 * TextFiles - It reads in the input text file and creates a row from each line of text

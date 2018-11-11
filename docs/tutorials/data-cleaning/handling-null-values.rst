@@ -41,7 +41,7 @@ Output
    :align: center
    :width: 60%   
    
-Removing null values
+Replacing null values
 ---------------------
 
 Configuration

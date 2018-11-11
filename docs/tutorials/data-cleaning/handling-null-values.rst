@@ -39,6 +39,11 @@ Removing null values
    :align: center
    :width: 60%
    
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3a.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%   
+   
 Converting to 0/1
 ---------------------
 

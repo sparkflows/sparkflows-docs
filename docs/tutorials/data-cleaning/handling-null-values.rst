@@ -41,5 +41,6 @@ Converting to 0/1
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
    :alt: Handling Null Values
    :align: center
+   :width: 400
    
    

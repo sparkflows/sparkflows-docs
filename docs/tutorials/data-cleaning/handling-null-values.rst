@@ -21,11 +21,17 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
+Configuration
+^^^^^^^^^^^^^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
    
+Output
+^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
    :alt: Handling Null Values
    :align: center
@@ -34,11 +40,17 @@ Reading from CSV File
 Removing null values
 ---------------------
 
+Configuration
+^^^^^^^^^^^^^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
-   
+
+Output
+^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3a.png
    :alt: Handling Null Values
    :align: center
@@ -47,11 +59,17 @@ Removing null values
 Converting to 0/1
 ---------------------
 
+Configuration
+^^^^^^^^^^^^^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
    :alt: Handling Null Values
    :align: center
    :width: 60%
-   
+
+Output
+^^^^^^
+
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
    :alt: Handling Null Values
    :align: center

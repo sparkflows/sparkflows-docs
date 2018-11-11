@@ -1,11 +1,12 @@
-Data Cleaning
-==========
+Reading - Writing Data
+======================
 
 .. toctree::
    :maxdepth: 2
 
-   handling-null-values.rst
-   data-validation.rst
-   decision-json-sort.rst
+   reading-csv.rst
+   reading-parquet.rst
+   reading-mysql.rst
+   
    
    

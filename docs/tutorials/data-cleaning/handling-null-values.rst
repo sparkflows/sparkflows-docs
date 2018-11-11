@@ -26,6 +26,10 @@ Reading from CSV File
    :align: center
    :width: 60%
    
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%   
    
 Removing null values
 ---------------------

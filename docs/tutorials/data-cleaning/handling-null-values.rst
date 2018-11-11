@@ -60,7 +60,7 @@ Output
    :align: center
    :width: 60%   
    
-Converting to 0/1
+Converting to 0/1 using StringIndexer
 ---------------------
 
 Configuration
@@ -79,3 +79,44 @@ Output
    :align: center
    :width: 60%
    
+
+Converting to 0/1 using CaseWhen
+---------------------
+
+Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%
+
+Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%
+   
+
+Converting to 0/1 using FindAndReplaceUsingRegex
+---------------------
+
+Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%
+
+Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60%
+   
+

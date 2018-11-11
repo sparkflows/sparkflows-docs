@@ -14,7 +14,7 @@ The steps involved in creating a dashboard are:
 Go to Dashboards page
 =====================
 
-.. figure:: ../_assets/tutorials/04/dashboard-listings.png
+.. figure:: ../../_assets/tutorials/04/dashboard-listings.png
    :alt: Dashboards Page
    :align: center
 
@@ -23,7 +23,7 @@ Click on Create New Dashboard
 
 This would open up the Dashboard Designer Page.
 
-.. figure:: ../_assets/tutorials/04/dashboard-designer.png
+.. figure:: ../../_assets/tutorials/04/dashboard-designer.png
    :alt: Dashboard Designer
    :align: center
    
@@ -43,7 +43,7 @@ Nodes inside the workflow can be dragged and dropped onto the Dashboard to make 
 
 In the Dashboard below we have added 2 nodes to the Dashboard.
 
-.. figure:: ../_assets/tutorials/04/dashboard-designer-1.png
+.. figure:: ../../_assets/tutorials/04/dashboard-designer-1.png
    :alt: Dashboard Designer
    :align: center
 
@@ -64,7 +64,7 @@ The Dashboard shows the content from the latest execution of the Workflow.
 
 If the workflow has never been executed, the Dashboard would show empty content.
 
-.. figure:: ../_assets/tutorials/04/dashboard-view-1.png
+.. figure:: ../../_assets/tutorials/04/dashboard-view-1.png
    :scale: 100%
    :alt: Dashboard Designer
    :align: center

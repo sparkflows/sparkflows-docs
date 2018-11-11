@@ -15,7 +15,7 @@ Go to Workflow Listings page
 ============================
 
 
-.. figure:: ../_assets/tutorials/02/workflow-listings.png
+.. figure:: ../../_assets/tutorials/02/workflow-listings.png
    :alt: Workflow Listings
    :align: center
 
@@ -33,7 +33,7 @@ Execute workflow page
 
 The previous step brings you to the Execute Workflow Page. 
 
-.. figure:: ../_assets/tutorials/03/workflow-execute.png
+.. figure:: ../../_assets/tutorials/03/workflow-execute.png
    :alt: Workflow Execute
    :align: center
 

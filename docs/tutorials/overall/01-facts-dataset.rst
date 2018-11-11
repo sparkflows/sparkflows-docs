@@ -32,7 +32,7 @@ Below are a few records from the data::
 Go to the Dataset Listing Page
 ==============================
 
- .. figure:: ../_assets/tutorials/01/dataset-listings.png
+ .. figure:: ../../_assets/tutorials/01/dataset-listings.png
    :alt: Dataset Listings
    :align: center
 
@@ -55,7 +55,7 @@ Enter the fields below into the form. Below are the details of the fields:
 
 
  
- .. figure:: ../_assets/tutorials/01/create-new-dataset.png
+ .. figure:: ../../_assets/tutorials/01/create-new-dataset.png
    :scale: 100%
    :alt: Sparkflows Create New Datasets
    :align: center
@@ -70,7 +70,7 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../_assets/tutorials/01/dataset-schema.png
+ .. figure:: ../../_assets/tutorials/01/dataset-schema.png
    :alt: Dataset Schema
    :align: center
    

@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/3.png
+.. figure:: ../../_assets/tutorials/data-cleaning/3.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%   

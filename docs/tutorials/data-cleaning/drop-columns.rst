@@ -8,3 +8,9 @@ Worklow
 
 Below is the workflow.
 
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/1.png
+   :alt: Workflow
+   :align: center
+   :width: 60%
+   
+   

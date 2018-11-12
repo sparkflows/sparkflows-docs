@@ -7,6 +7,6 @@ ETL
    join-1.rst
    time-function.rst
    split-by-expression.rst
-   String-Functions-Multiple.rst
+   string-functions-multiple.rst
    
    

@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then drop some columns from the original dataset.
 * prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/1.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -25,7 +25,7 @@ It reads Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/2.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/2a.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%   
@@ -46,7 +46,7 @@ It drops the columns whichever we want.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/4.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/3.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -54,7 +54,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/5.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/3a.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -68,7 +68,7 @@ It prints the results after dropping the columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/4.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -76,7 +76,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-column/4a.PNG
    :alt: Drop Columns
    :align: center
    :width: 60% 

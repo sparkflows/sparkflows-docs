@@ -59,7 +59,7 @@ Processor Output
    :align: center
    :width: 60%
   
- Prints the Results
+Prints the Results
 ---------------------
 
 It prints the results after dropping the columns.

@@ -33,7 +33,7 @@ Processor Configuration
    Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
+.. figure:: ../../_assets/tutorials/data-cleaning/3.png
    :alt: Handling Null Values
    :align: center
    :width: 60% 

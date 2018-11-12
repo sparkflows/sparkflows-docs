@@ -44,7 +44,7 @@ Output
 Replacing null values
 ---------------------
 
-Configuration
+Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
@@ -63,7 +63,7 @@ Output
 Converting to 0/1 using StringIndexer
 ---------------------
 
-Configuration
+Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
@@ -83,7 +83,7 @@ Output
 Converting to 0/1 using CaseWhen
 ---------------------
 
-Configuration
+Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5.png
@@ -103,7 +103,7 @@ Output
 Converting to 0/1 using FindAndReplaceUsingRegex
 ---------------------
 
-Configuration
+Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.png

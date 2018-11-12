@@ -58,5 +58,27 @@ Processor Output
    :alt: Drop Columns
    :align: center
    :width: 60%
-   
+  
+ Prints the Results
+---------------------
+
+It prints the results after dropping the columns.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/7.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60% 
+  
    

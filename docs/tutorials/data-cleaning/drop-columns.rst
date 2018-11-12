@@ -34,7 +34,7 @@ Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/3.png
-   :alt: Handling Null Values
+   :alt: Workflow
    :align: center
    :width: 60%   
    

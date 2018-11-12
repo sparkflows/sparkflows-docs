@@ -52,7 +52,7 @@ Processor Configuration
    :align: center
    :width: 60%
 
-Output
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3a.png
@@ -71,7 +71,7 @@ Processor Configuration
    :align: center
    :width: 60%
 
-Output
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
@@ -91,7 +91,7 @@ Processor Configuration
    :align: center
    :width: 60%
 
-Output
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5a.png
@@ -111,7 +111,7 @@ Processor Configuration
    :align: center
    :width: 60%
 
-Output
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6a.png

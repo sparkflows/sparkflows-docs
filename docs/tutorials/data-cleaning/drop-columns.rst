@@ -25,7 +25,7 @@ It reads Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/2.PNG
    :alt: Workflow
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
    Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
    :alt: Handling Null Values
    :align: center
    :width: 60% 

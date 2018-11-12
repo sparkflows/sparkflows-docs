@@ -38,10 +38,10 @@ Processor Output
    :align: center
    :width: 60%   
    
- Drop columns
+Drop columns
 ---------------------
 
-It drops the column whichever we want.
+It drops the columns whichever we want.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

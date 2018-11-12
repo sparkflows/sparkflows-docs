@@ -39,7 +39,7 @@ Processor Output
    :width: 60%   
    
 Drop columns
----------------------
+------------
 
 It drops the columns whichever we want.
 
@@ -60,7 +60,7 @@ Processor Output
    :width: 60%
   
 Prints the Results
----------------------
+------------------
 
 It prints the results after dropping the columns.
 

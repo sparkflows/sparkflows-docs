@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then drop some columns from the original dataset.
 * prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/dropcolumn.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/1.PNG
    :alt: Workflow
    :align: center
    :width: 60%
@@ -29,5 +29,13 @@ Processor Configuration
    :alt: Workflow
    :align: center
    :width: 60%
+   
+   Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
+   :alt: Handling Null Values
+   :align: center
+   :width: 60% 
    
    

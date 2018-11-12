@@ -12,7 +12,7 @@ Below is the workflow which does the following:
 * Applies different string functions on different columns in dataset.
 
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1.png
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1a.png
    :alt: String Functions Multiple
    :align: center
    :width: 60%

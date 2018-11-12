@@ -11,7 +11,6 @@ Below is the workflow which does the following:
 * Reads data from hdfs/hive etc.
 * Applies different string functions on different columns in dataset.
 
-
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1.png
    :alt: String Functions Multiple
    :align: center

@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * prints the results.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/1.PNG
-   :alt: Workflow
+   :alt: Drop Columns
    :align: center
    :width: 60%
    
@@ -26,7 +26,7 @@ Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/2.PNG
-   :alt: Workflow
+   :alt: Drop Columns
    :align: center
    :width: 60%
    
@@ -34,7 +34,7 @@ Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/3.png
-   :alt: Workflow
+   :alt: Drop Columns
    :align: center
    :width: 60%   
    

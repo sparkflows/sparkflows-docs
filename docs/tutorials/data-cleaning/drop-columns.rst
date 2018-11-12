@@ -68,7 +68,7 @@ It prints the results after dropping the columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/6.PNG
    :alt: Drop Columns
    :align: center
    :width: 60%
@@ -76,7 +76,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/7.PNG
    :alt: Drop Columns
    :align: center
    :width: 60% 

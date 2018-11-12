@@ -38,4 +38,25 @@ Processor Output
    :align: center
    :width: 60%   
    
+ Drop columns
+---------------------
+
+It drops the column whichever we want.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/4.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/5.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60%
+   
    

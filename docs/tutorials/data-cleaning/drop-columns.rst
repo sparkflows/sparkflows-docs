@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
-   Reading from Dataset
+Reading from Dataset
 ---------------------
 
 It reads Dataset file.
@@ -30,12 +30,12 @@ Processor Configuration
    :align: center
    :width: 60%
    
-   Processor Output
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/3.png
-   :alt: Workflow
+   :alt: Handling Null Values
    :align: center
-   :width: 60% 
+   :width: 60%   
    
    

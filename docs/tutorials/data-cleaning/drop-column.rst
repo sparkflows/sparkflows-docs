@@ -23,7 +23,7 @@ Reading from Dataset
 It reads Dataset file.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2.PNG
    :alt: Drop Columns
@@ -31,7 +31,7 @@ Processor Configuration
    :width: 60%
    
 Processor Output
-^^^^^^^^^^^^^^^^
+^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2a.PNG
    :alt: Drop Columns
@@ -44,7 +44,7 @@ Drop columns
 It drops the columns whichever we want.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3.PNG
    :alt: Drop Columns
@@ -52,7 +52,7 @@ Processor Configuration
    :width: 60%
 
 Processor Output
-^^^^^^^^^^^^^^^^
+^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3a.PNG
    :alt: Drop Columns
@@ -66,7 +66,7 @@ It prints the results after dropping the columns.
 
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4.PNG
    :alt: Drop Columns
@@ -74,7 +74,7 @@ Processor Configuration
    :width: 60%
 
 Processor Output
-^^^^^^^^^^^^^^^^
+^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4a.PNG
    :alt: Drop Columns

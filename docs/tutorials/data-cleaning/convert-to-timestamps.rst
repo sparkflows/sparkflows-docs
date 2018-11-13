@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * Convert sample string to timestamp.
 * Print the expected result.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamp/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.PNG
    :alt: Convert To Timestamp
    :align: center
    :width: 60%
@@ -26,7 +26,7 @@ It reads sample Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamp/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.PNG
    :alt: Convert To Timestamps
    :align: center
    :width: 60%
@@ -34,7 +34,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamp/2a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.PNG
    :alt: Convert To Timestamps
    :align: center
    :width: 60%

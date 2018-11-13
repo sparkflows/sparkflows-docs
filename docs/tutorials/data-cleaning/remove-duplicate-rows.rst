@@ -58,3 +58,25 @@ Processor Output
    :alt: Remove Duplicate Rows
    :align: center
    :width: 60%   
+ 
+Prints the Results
+------------------
+
+It prints the results after Removing Duplicate Rows.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.PNG
+   :alt: remove-duplicate-rows
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.PNG
+   :alt: remove-duplicate-rows
+   :align: center
+   :width: 60%  

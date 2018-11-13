@@ -37,3 +37,25 @@ Processor Output
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
+   
+Prints the sample dataset Results
+---------------------------------
+
+It prints sample dataset Results.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/3.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/3a.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%

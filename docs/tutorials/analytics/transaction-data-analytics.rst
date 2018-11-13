@@ -14,45 +14,4 @@ Below is the workflow. It does the following:
 
 
    
-Reading from Dataset
----------------------
 
-It reads Dataset file.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2.PNG
-   :alt: Transaction Data Analytics
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2a.PNG
-   :alt: Transaction Data Analytics
-   :align: center
-   :width: 60% 
-   
-Prints the Dataset Results
-------------------
-
-It prints the Dataset Results.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3.PNG
-   :alt: Transaction Data Analytics
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3a.PNG
-   :alt: Transaction Data Analytics
-   :align: center
-   :width: 60% 

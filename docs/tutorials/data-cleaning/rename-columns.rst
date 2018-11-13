@@ -16,3 +16,24 @@ Below is the workflow. It does the following:
    :alt: Rename Columns
    :align: center
    :width: 60%
+   
+ Reading from Dataset
+---------------------
+
+It reads Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/2.PNG
+   :alt: Rename Columns
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/2a.PNG
+   :alt: Rename Columns
+   :align: center
+   :width: 60% 

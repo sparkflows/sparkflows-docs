@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
- Reading from Dataset
+Reading from Dataset
 ---------------------
 
 It reads Dataset file.

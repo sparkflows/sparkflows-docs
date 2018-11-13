@@ -21,7 +21,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads in the CSV file data-with-nulls.csv.
+It reads data from a CSV file. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -31,7 +31,7 @@ Processor Configuration
    :align: center
    :width: 60%
    
-   .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2b.png
    :alt: Drop Rows With Null
    :align: center
    :width: 60%

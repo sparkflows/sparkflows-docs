@@ -37,3 +37,24 @@ Processor Output
    :alt: Remove Duplicate Rows
    :align: center
    :width: 60%  
+   
+Remove Duplicate Rows
+---------------------
+
+It Remove Duplicate Rows available.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3.PNG
+   :alt: Remove Duplicate Rows
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3a.PNG
+   :alt: Remove Duplicate Rows
+   :align: center
+   :width: 60%   

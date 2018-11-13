@@ -8,10 +8,11 @@ Data Cleaning
    data-validation.rst
    decision-json-sort.rst
    drop-columns.rst
+   drop-rows-with-null.rst
    handling-null-values.rst
    remove-duplicate-rows.rst
    rename-columns.rst
    string-to-date-timefunctions.rst
-   drop-rows-with-null.rst
+   
       
    

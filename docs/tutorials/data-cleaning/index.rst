@@ -12,5 +12,6 @@ Data Cleaning
    remove-duplicate-rows.rst
    rename-columns.rst
    string-to-date-timefunctions.rst
+   drop-rows-with-null.rst
       
    

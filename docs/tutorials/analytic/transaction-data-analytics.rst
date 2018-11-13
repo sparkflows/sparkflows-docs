@@ -59,3 +59,24 @@ Processor Output
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
+   
+Analysing using graph
+---------------------
+
+It help to analyse using graph with Graph grouped by column brand and count.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/4.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/4a.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%

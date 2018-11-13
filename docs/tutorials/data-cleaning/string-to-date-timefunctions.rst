@@ -59,3 +59,24 @@ Processor Output
    :alt: String To Date Timefunctions
    :align: center
    :width: 60%  
+
+Time Functions
+------------
+
+It convert it into timefunctions using timefunctions Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60% 
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4a.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60%

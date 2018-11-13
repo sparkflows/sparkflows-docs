@@ -17,3 +17,24 @@ Below is the workflow. It does the following:
    :alt: String To Date Timefunctions
    :align: center
    :width: 60%
+
+Reading from CSV file
+---------------------
+
+It reads Data from CSV file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2a.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60% 

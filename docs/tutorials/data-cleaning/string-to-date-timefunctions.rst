@@ -80,3 +80,25 @@ Processor Output
    :alt: String To Date Timefunctions
    :align: center
    :width: 60%
+
+Prints the Results
+------------------
+
+It prints the results after using string to date timefunctions.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5a.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60%

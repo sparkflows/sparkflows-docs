@@ -8,7 +8,7 @@ Workflow
 
 Below is the workflow. It does the following:
 
-* Reads data from a sample data file.
+* Reads data from a sample dataset file.
 * Print sample data.
 * Convert sample string to timestamp.
 * Print the expected result.

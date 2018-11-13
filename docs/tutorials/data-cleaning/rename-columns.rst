@@ -37,3 +37,24 @@ Processor Output
    :alt: Rename Columns
    :align: center
    :width: 60% 
+   
+Rename Columns
+------------
+
+It Rename Columns we wanted.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/3.PNG
+   :alt: Rename Columns
+   :align: center
+   :width: 60% 
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/3a.PNG
+   :alt: Rename Columns
+   :align: center
+   :width: 60%   

@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then print the results from the sample dataset.
 * Analysing using graphs.
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -25,7 +25,7 @@ It reads Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2a.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -47,7 +47,7 @@ It prints sample dataset Results.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -55,7 +55,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/3a.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3a.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -68,7 +68,7 @@ It help to analyse using graph with Graph grouped by column brand and count.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
@@ -76,7 +76,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4a.PNG
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%

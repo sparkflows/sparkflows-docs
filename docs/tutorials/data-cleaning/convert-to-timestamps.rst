@@ -81,3 +81,25 @@ Processor Output
    :alt: Convert To Timestamps
    :align: center
    :width: 60%   
+
+Prints the Results
+------------------
+
+It prints the results after converting to timestamp.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.PNG
+   :alt: Drop Columns
+   :align: center
+   :width: 60% 

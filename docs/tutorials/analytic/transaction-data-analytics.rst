@@ -16,3 +16,24 @@ Below is the workflow. It does the following:
    :alt: Transaction Data Analytics
    :align: center
    :width: 60%
+   
+Reading from Dataset
+---------------------
+
+It reads Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/2.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytic/transaction-data-analytics/2a.PNG
+   :alt: Transaction Data Analytics
+   :align: center
+   :width: 60%

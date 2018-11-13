@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * Reads data from a CSV file.
 * Drops rows having any null values in any of the columns.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drops-rows-with-null/1.png
+.. figure:: ../../../_assets/tutorials/data-cleaning/drops-rows-with-null/1.png
    :alt: Drop Rows With Null
    :align: center
    :width: 60%

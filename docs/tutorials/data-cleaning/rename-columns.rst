@@ -57,4 +57,26 @@ Processor Output
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/3a.PNG
    :alt: Rename Columns
    :align: center
+   :width: 60%  
+   
+Prints the Results
+------------------
+
+It prints the results after Renaming Columns.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/4.PNG
+   :alt: Rename Columns
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/4a.PNG
+   :alt: Rename Columns
+   :align: center
    :width: 60%   

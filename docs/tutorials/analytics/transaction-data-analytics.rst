@@ -12,10 +12,7 @@ Below is the workflow. It does the following:
 * It then print the dataset results.
 * annalyse it using graphs.
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.PNG
-   :alt: Transaction Data Analytics
-   :align: center
-   :width: 60%
+
    
 Reading from Dataset
 ---------------------

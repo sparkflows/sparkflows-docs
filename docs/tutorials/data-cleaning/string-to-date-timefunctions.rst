@@ -38,3 +38,24 @@ Processor Output
    :alt: String To Date Timefunctions
    :align: center
    :width: 60% 
+   
+String to Date
+------------
+
+It convert it into stringtodate using stringtodate Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60% 
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3a.PNG
+   :alt: String To Date Timefunctions
+   :align: center
+   :width: 60%  

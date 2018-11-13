@@ -10,5 +10,6 @@ Data Cleaning
    decision-json-sort.rst
    drop-columns.rst
    remove-duplicate-rows.rst
+   rename-columns.rst
       
    

@@ -9,5 +9,6 @@ Data Cleaning
    data-validation.rst
    decision-json-sort.rst
    drop-columns.rst
+   remove-duplicate-rows.rst
       
    

@@ -25,10 +25,7 @@ It reads CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2.PNG
-   :alt: Remove Duplicate Rows
-   :align: center
-   :width: 60%
+
    
 Processor Output
 ^^^^^^

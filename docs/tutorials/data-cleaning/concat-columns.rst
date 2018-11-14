@@ -47,7 +47,8 @@ It concats the specified columns in cofiguration with the specified separator.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-We need to provide all the desired columns to be concatenated without any separator or space, like NameAgeSex etc.
+We need to provide all the desired columns to be concatenated without any separator or space, like NameSexAge etc.
+Columns would get concatenated in same order defined in configuration like Name then Sex then Age.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3a.png
    :alt: Concat Columns

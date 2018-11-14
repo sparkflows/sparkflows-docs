@@ -38,10 +38,32 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3.PNG
    :alt: Analyze Flights Delays
    :align: center
-   :width: 60%   
+   :width: 60%
+   
+Print the sample datasets results
+---------------------------------
+
+It Print the sample datasets results.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%    
 
 
 

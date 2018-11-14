@@ -109,5 +109,51 @@ Processor Output
    :align: center
    :width: 60%
 
+update the column name of datatype string
+----------------------------------------
+
+It update the column name of datatype string using stringindexer type Node.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+ 
+ Prints the Results
+------------------
+
+It print the result of data updating after stringindexer Node.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+   
+
 
 

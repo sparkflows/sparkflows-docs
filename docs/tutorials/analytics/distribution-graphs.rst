@@ -1,7 +1,7 @@
 Distribution Graphs
 ===================
 
-This workflow reads a CSV file. It then distributed to weekly, monthly & yearly to annalyse using Graphs.
+This workflow reads a CSV file. It then Plots graphs of distribution of data by Week, Month & Year.
 
 Worklow
 -------
@@ -9,9 +9,9 @@ Worklow
 Below is the workflow. It does the following:
 
 * Reads a CSV file.
-* Annalyzing weekly.
-* Annalyzing monthly.
-* Annalyzing yearly.
+* Distribution of data by Week.
+* Distribution of data by Month.
+* Distribution of data by Year.
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/1.PNG
    :alt: Distribution Graphs
@@ -39,10 +39,10 @@ Processor Output
    :align: center
    :width: 60%    
    
-Annalyzing Weekly
-----------------------
+Distribution of data by Week
+----------------------------
 
-It distributed to weekly using GraphWeekDistribution Node.
+It Plots graphs of distribution of data by Week using GraphWeekDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -60,10 +60,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Annalyzing Monthly
-----------------------
+Distribution of data by Month
+-----------------------------
 
-It distributed to monthly using GraphMonthDistribution Node.
+It Plots graphs of distribution of data by month using GraphMonthDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -81,10 +81,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Annalyzing Yearly
-----------------------
+Distribution of data by Year
+----------------------------
 
-It distributed to weekly using GraphYearDistribution Node.
+It Plots graphs of distribution of data year using GraphYearDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

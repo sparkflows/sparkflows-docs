@@ -19,3 +19,24 @@ Below is the workflow. It does the following:
    :alt: Farmers Markets On Geo Maps
    :align: center
    :width: 60%
+
+Reading from Dataset
+---------------------
+
+It reads sample Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%

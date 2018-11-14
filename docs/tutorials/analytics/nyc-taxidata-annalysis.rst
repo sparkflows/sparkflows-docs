@@ -19,3 +19,24 @@ Below is the workflow. It does the following:
    :alt: NYC Taxidata Annalysis
    :align: center
    :width: 60%
+
+Reading from Dataset
+---------------------
+
+It reads sample Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2.PNG
+   :alt: NYC Taxidata Annalysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2a.PNG
+   :alt: NYC Taxidata Annalysis
+   :align: center
+   :width: 60%

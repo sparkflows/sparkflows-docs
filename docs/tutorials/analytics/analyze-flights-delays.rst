@@ -63,7 +63,51 @@ Processor Output
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3a.PNG
    :alt: Analyze Flights Delays
    :align: center
-   :width: 60%    
+   :width: 60% 
+
+column to be cast for new datatype double
+---------------------------------
+
+It cast for new datatype double using castcolumn type Node.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+
+column to be cast for new datatype string
+---------------------------------
+
+It cast for new datatype string using castcolumn type Node.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
 
 
 

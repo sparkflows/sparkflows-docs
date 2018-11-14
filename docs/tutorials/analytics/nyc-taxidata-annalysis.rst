@@ -44,7 +44,7 @@ Processor Output
 Extract hour from pickup time
 -----------------------------
 
-it Extract hour from pickup time using datetimefieldextract Node.
+It extract hour from pickup time using datetimefieldextract Node.
 
 
 Processor Configuration
@@ -66,7 +66,7 @@ Processor Output
 Calculate the speed per hour
 -----------------------------
 
-it Calculate the speed per hour using SQL Node.
+It Calculate the speed per hour using SQL Node.
 
 
 Processor Configuration
@@ -88,7 +88,7 @@ Processor Output
 Calculate the average speed per hour
 -----------------------------
 
-it Calculate the average speed per hour using GroupBy Node.
+It Calculate the average speed per hour using GroupBy Node.
 
 
 Processor Configuration
@@ -131,7 +131,7 @@ Processor Output
 Analyze using Chart Graph
 -------------------------
 
-It Display average speed per hour on chart using Graphvalue Node.
+It display average speed per hour on chart using Graphvalue Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -66,7 +66,7 @@ Processor Output
 Calculate the speed per hour
 -----------------------------
 
-It Calculate the speed per hour using SQL Node.
+It calculate the speed per hour using SQL Node.
 
 
 Processor Configuration
@@ -88,7 +88,7 @@ Processor Output
 Calculate the average speed per hour
 -----------------------------
 
-It Calculate the average speed per hour using GroupBy Node.
+It calculate the average speed per hour using GroupBy Node.
 
 
 Processor Configuration

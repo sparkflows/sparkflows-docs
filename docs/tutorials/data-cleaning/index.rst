@@ -13,6 +13,7 @@ Data Cleaning
    remove-duplicate-rows.rst
    rename-columns.rst
    string-to-date-timefunctions.rst
+   concat-columns.rst
    
       
    

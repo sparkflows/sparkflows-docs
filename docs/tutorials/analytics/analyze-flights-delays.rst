@@ -21,6 +21,19 @@ Below is the workflow. It does the following:
    :alt: Analyze Flights Delays
    :align: center
    :width: 60%
+   
+Reading from Dataset
+---------------------
+
+It reads Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%   
 
 
 

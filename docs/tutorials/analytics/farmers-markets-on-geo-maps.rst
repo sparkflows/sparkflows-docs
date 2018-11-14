@@ -40,3 +40,110 @@ Processor Output
    :alt: Farmers Markets On Geo Maps
    :align: center
    :width: 60%
+   
+Eexecute SQL query
+-------------------
+
+It Eexecute SQL query for state count from the SQL node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Prints the Results
+------------------
+
+It Print the result after executing query for state counts by SQL Node.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/4.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/4a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%   
+   
+Analyze using Graph
+--------------------
+
+It Plot Graph for farmers with state counts using RegionGeoGRaph Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60% 
+
+Eexecute SQL query
+-------------------
+
+It Eexecute SQL query for City count from the SQL node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+
+Analyze using Graph
+--------------------
+
+It Plot Graph for farmers with City counts using RegionGeoGRaph Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7a.PNG
+   :alt: Farmers Markets On Geo Maps
+   :align: center
+   :width: 60%
+

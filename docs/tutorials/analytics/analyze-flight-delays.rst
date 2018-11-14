@@ -2,3 +2,22 @@ Analyze Flight Delays
 =====================
 
 This workflow reads in a dataset. It then analyze flight delay with sample datasets and prints the results.
+
+Worklow
+-------
+
+Below is the workflow. It does the following:
+
+* Reads data from a dataset.
+* Print the sample datasets results.
+* column to be cast for new datatype double.
+* column to be cast for new datatype string.
+* update the column name of datatype string.
+* print the result of data updating after stringindexer Node.
+* execute the SQL queries with the given conditions.
+* prints the results.
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flight-delays/1.PNG
+   :alt: Analyze Flight Delays
+   :align: center
+   :width: 60%

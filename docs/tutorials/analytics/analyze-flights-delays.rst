@@ -8,7 +8,7 @@ Worklow
 
 Below is the workflow. It does the following:
 
-* Reads data from a dataset.
+* Reads data from a sample dataset.
 * Print the sample datasets results.
 * column to be cast for new datatype double.
 * column to be cast for new datatype string.

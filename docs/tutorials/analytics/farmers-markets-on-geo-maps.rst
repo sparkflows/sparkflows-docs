@@ -44,7 +44,7 @@ Processor Output
 Execute SQL query
 -------------------
 
-It Eexecute SQL query for state count from the SQL node.
+It Execute SQL query for state count from the SQL node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -108,7 +108,7 @@ Processor Output
 Execute SQL query
 -------------------
 
-It Eexecute SQL query for City count from the SQL node.
+It Execute SQL query for City count from the SQL node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

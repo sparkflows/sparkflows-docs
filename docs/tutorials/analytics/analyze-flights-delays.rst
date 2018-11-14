@@ -153,7 +153,48 @@ Processor Output
    :align: center
    :width: 60%
    
+Execute the SQL queries   
+-------------------------
+
+it execute the SQL queries with the given conditions.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
    
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+
+Prints the Results
+------------------
+
+It prints the results after staisfied condition by   sql   queries.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
+   :width: 60%
 
 
 

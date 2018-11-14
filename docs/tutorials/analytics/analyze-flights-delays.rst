@@ -33,6 +33,14 @@ Processor Configuration
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.PNG
    :alt: Analyze Flights Delays
    :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.PNG
+   :alt: Analyze Flights Delays
+   :align: center
    :width: 60%   
 
 

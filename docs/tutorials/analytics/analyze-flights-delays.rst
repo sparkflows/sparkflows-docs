@@ -17,8 +17,5 @@ Below is the workflow. It does the following:
 * execute the SQL queries with the given conditions.
 * prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.PNG
-   :alt: Analyze Flights Delays
-   :align: center
-   :width: 60%
+
 

@@ -131,7 +131,7 @@ Processor Output
    :align: center
    :width: 60%
  
- Prints the Results
+Prints the Results
 ------------------
 
 It print the result of data updating after stringindexer Node.

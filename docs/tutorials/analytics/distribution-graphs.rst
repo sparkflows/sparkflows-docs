@@ -34,7 +34,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/2A.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/2a.PNG
    :alt: Distribution Graphs
    :align: center
    :width: 60%    

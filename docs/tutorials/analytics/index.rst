@@ -5,6 +5,7 @@ Analytics
    :maxdepth: 2
 
    analyze-flights-delays.rst
+   farmers-markets-on-geo-maps.rst
    nyc-taxidata-annalysis.rst
    transaction-data-analytics.rst
    

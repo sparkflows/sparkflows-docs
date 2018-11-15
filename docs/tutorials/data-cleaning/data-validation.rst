@@ -50,7 +50,7 @@ It perform different validation on different columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3a.png
    :alt: Data Validation
    :align: center
    :width: 60%

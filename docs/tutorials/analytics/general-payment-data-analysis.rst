@@ -83,7 +83,28 @@ Processor Output
    :align: center
    :width: 60%
    
+Number of transaction per state
+-------------------------------
 
+It find Number of transaction per state using SQL Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60%
+   
+ 
 
 
 

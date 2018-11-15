@@ -62,7 +62,7 @@ Processor Output
    :align: center
    :width: 60%
  
- Summary of transactions
+Summary of transactions
 -----------------------
 
 It Find stats on amount of each transactions using Summary Node.

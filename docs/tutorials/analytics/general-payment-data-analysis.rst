@@ -104,7 +104,25 @@ Processor Output
    :align: center
    :width: 60%
    
+prints the results
+ ------------------
+ It will print the result of output getting from SQL Node.
  
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6a.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60% 
 
 
 

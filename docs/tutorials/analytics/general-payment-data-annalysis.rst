@@ -108,7 +108,7 @@ Processor Output
  ------------------
  It will print the result of output getting from SQL Node.
  
- Processor Configuration
+Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-annalysis/6.PNG

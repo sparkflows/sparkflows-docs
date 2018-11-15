@@ -19,3 +19,24 @@ Below is the workflow. It does the following:
    :alt: Jetrail Data Annalysis
    :align: center
    :width: 60%
+
+Reading from Dataset
+---------------------
+
+It reads from sample Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2.PNG
+   :alt: Jetrail Data Annalysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2a.PNG
+   :alt: Jetrail Data Annalysis
+   :align: center
+   :width: 60%   

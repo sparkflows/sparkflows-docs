@@ -9,8 +9,18 @@ Worklow
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* It then drop some columns from the original dataset.
-* prints the results.
+* Extract hour from time using datatype timestamp.
+* Calculate Count to datatype double.
+* Assemble features for modelling.
+* Calculate vectorindexer.
+* Split it.
+* GBTRegression.
+* Prediction.
+* RegressionEvaluator.
+* Correlation with columns.
+* Summary analysis.
+* Calculate count for rental per hour.
+* Analys using Graph.
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.PNG
    :alt: Bike Rental Prediction

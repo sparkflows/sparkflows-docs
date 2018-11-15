@@ -27,3 +27,23 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
 
+Reading from Dataset
+---------------------
+
+It reads sample Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2.PNG
+   :alt: Bike Rental Prediction
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2a.PNG
+   :alt: Bike Rental Prediction
+   :align: center
+   :width: 60%

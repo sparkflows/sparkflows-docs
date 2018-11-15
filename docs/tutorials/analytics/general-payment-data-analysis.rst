@@ -61,7 +61,29 @@ Processor Output
    :alt: General Payment Data Analysis
    :align: center
    :width: 60%
+ 
+ Summary of transactions
+-----------------------
+
+It Find stats on amount of each transactions using Summary Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60%
    
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.PNG
+   :alt: General Payment Data Analysis
+   :align: center
+   :width: 60%
+   
+
 
 
 

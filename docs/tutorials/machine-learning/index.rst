@@ -8,6 +8,7 @@ Machine Learning
    bike-rental-prediction.rst
    farmers-market-prediction.rst
    clustering-houses.rst
+   tfidf.rst
    
    
    

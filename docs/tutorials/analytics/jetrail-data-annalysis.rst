@@ -43,7 +43,7 @@ Processor Output
 
 Extract date time field
 -----------------------
-It extract date time field using date time field extract Node.
+It extract year and month field from date time field of timestamp using date time field extract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -84,7 +84,7 @@ Processor Output
 Execute query for months
 ------------------------
 
-It execute query for months using query by SQL Node.
+It execute query for grouping and selecting required fields calculate sum of counts by SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

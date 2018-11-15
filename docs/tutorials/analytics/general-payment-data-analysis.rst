@@ -62,66 +62,6 @@ Processor Output
    :align: center
    :width: 60%
    
-Summary of transactions
------------------------
 
-It Find stats on amount of each transactions using Summary Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
-   
-Number of transaction per state
--------------------------------
-
-It find Number of transaction per state using SQL Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
-   
- prints the results
- ------------------
- It will print the result of output getting from SQL Node.
- 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6a.PNG
-   :alt: General Payment Data Analysis
-   :align: center
-   :width: 60%
 
 

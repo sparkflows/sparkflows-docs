@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 * Correlation with columns.
 * Summary analysis.
 * Calculate count for rental per hour.
-* Analys using Graph.
+* Analyse using Graph.
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.PNG
    :alt: Bike Rental Prediction

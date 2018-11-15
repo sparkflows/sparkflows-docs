@@ -105,7 +105,7 @@ Processor Output
    :width: 60%
    
 prints the results
- ------------------
+------------------
  It will print the result of output getting from SQL Node.
  
 Processor Configuration

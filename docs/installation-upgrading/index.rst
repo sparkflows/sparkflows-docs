@@ -1,4 +1,4 @@
-Installation and Upgrading
+Installation and Configuration
 ==========================
 
 .. toctree::

@@ -26,16 +26,18 @@ Relevant Files
    * - Title
      - Description
      - File
-   * - emr-file.json
+   * - emr-file-mysql.json
      - CloudFormation Template
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
+     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/emr-fire-mysql.json
    * - deploy-fire.sh
      - Script for deploying Fire
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
+     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/deploy-fire.sh
    * - script-runner.jar
      - Script Runner
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
-     
+     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/script-runner.jar
+   * - script-runner.jar
+     - Script Runner
+     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/firemysql.sh   
 
 Ports
 -----

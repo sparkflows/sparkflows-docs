@@ -8,6 +8,7 @@ Download & Install the Tesseract Language Data  files
 
 * Download and Install the tesseract language data files on each of the worker nodes of the cluster
 * Install them in the same directory on each of the worker nodes
+
   * git clone https://github.com/tesseract-ocr/tessdata.git
   
 Set TESSDATA_PREFIX as an Environment Variable and restart the Fire server

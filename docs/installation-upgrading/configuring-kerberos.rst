@@ -24,17 +24,17 @@ Steps for configuring Kerberos on Fire
 +---------------------------------+---------------------------------+------------------------------------------------------+
 | Configuration                   | Value                           | Details                                              |
 +=================================+=================================+======================================================+
-| kerberos.enabled                | true                            | Set it to true to enable Kerberos for Sparkflows     |
+| kerberos.enabled                | true                            | Set it to true to enable Kerberos for Fire           |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.keytab                 | /user/centos/centos.keytab      | Absolute path of the keytab generated for Sparkflows |
+| kerberos.keytab                 | /user/centos/centos.keytab      | Absolute path of the keytab generated for Fire       |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.principal              |                                 | Kerberos Principal of the keytab of Sparkflows       |
+| kerberos.principal              | fire@EXAMPLE.COM                | Kerberos Principal of the keytab of Fire             |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.KERBEROS_REALM         |                                 | Kerberos Realm                                       |
+| kerberos.KERBEROS_REALM         | EXAMPLE.COM                     | Kerberos Realm                                       |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.KERBEROS_KDC           |                                 | KDC Server                                           |
+| kerberos.KERBEROS_KDC           | hostname.example.com            | KDC Server                                           |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.hiveServer2Principal   |                                 | HIVE Server2 Principal                               |
+| kerberos.hiveServer2Principal   | hive/hive2_host@EXAMPLE.COM     | HIVE Server2 Principal                               |
 +---------------------------------+---------------------------------+------------------------------------------------------+
 
 

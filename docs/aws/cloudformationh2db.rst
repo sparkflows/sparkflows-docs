@@ -27,13 +27,13 @@ Relevant Files
      - File
    * - emr-file.json
      - CloudFormation Template
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/emr-fire.json
+     - https://s3.amazonaws.com/sparkflows-cft/h2-db/emr-fire.json
    * - deploy-fire.sh
      - Script for deploying Fire
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/deploy-fire.sh
+     - https://s3.amazonaws.com/sparkflows-cft/h2-db/deploy-fire.sh
    * - script-runner.jar
      - Script Runner
-     - https://s3.amazonaws.com/sparkflows-release/fire/CFT/script-runner.jar
+     - https://s3.amazonaws.com/sparkflows-cft/h2-db/script-runner.jar
      
 
 Ports

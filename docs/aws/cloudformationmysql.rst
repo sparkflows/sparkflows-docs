@@ -31,7 +31,7 @@ Relevant Files
      - https://s3.amazonaws.com/sparkflows-cft/mysql-db/emr-fire-mysql.json
    * - firemysql.sh
      - Script for deploying Fire with MySQL
-     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/firemysql.sh
+     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/deploy-fire-mysql.sh
    * - script-runner.jar
      - Script Runner
      - https://s3.amazonaws.com/sparkflows-cft/mysql-db/script-runner.jar

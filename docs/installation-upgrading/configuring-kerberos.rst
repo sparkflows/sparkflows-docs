@@ -15,7 +15,7 @@ Steps for configuring Kerberos on Fire
  
 * **Make sure only the user running fire application has access to the keytab**. For example::
  
-    -r-------- 1 sparkflows staff 436 Jun 29 16:06 hive.keytab
+    -r-------- 1 fire staff 436 Jun 29 16:06 hive.keytab
  
  
 * **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire**
@@ -42,7 +42,7 @@ Steps for configuring Kerberos on Fire
 Steps for generating the keytab for Fire
 ----------------------------------------
 
-Below are the steps for generating the keytab file. **We have chosen fire as the principal name. But you can have it as any user you are running Sparkflows Fire with**.
+Below are the steps for generating the keytab file. **We have chosen fire as the principal name. But you can have it as any user you are running Fire with**.
 
 * **Start kadmin.local and add the new principal** ``fire@EXAMPLE.COM``::
 
@@ -59,19 +59,19 @@ Below are the steps for generating the keytab file. **We have chosen fire as the
 
     Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
 
-    WRFILE:sparkflows.keytab.
+    WRFILE:fire.keytab.
 
-    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
 
-    WRFILE:sparkflows.keytab.
+    WRFILE:fire.keytab.
 
-    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab     WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type des3-cbc-sha1 added to keytab     WRFILE:fire.keytab.
 
-    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:fire.keytab.
 
-    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:fire.keytab.
 
-    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:fire.keytab.
 
 
 * **Exit kadmin.local**::
@@ -100,16 +100,16 @@ Below are the steps for verifying the keytab file.
 
     KVNO Timestamp Principal
     .....................................................................................................................................................
-    1 07/24/16 17:55:07 fire@EXAMPLE.HADOOP (aes256-cts-hmac-sha1-96)
+    1 07/24/16 17:55:07 fire@EXAMPLE.COM (aes256-cts-hmac-sha1-96)
 
-    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (aes128-cts-hmac-sha1-96)
+    1 07/24/16 17:55:08 fire@EXAMPLE.COM (aes128-cts-hmac-sha1-96)
 
-    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des3-cbc-sha1)
+    1 07/24/16 17:55:08 fire@EXAMPLE.COM (des3-cbc-sha1)
 
-    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (arcfour-hmac)
+    1 07/24/16 17:55:08 fire@EXAMPLE.COM (arcfour-hmac)
 
-    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des-hmac-sha1)
+    1 07/24/16 17:55:08 fire@EXAMPLE.COM (des-hmac-sha1)
 
-    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des-cbc-md5)
+    1 07/24/16 17:55:08 fire@EXAMPLE.COM (des-cbc-md5)
 
 

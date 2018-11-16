@@ -33,10 +33,12 @@ Include TESSDATA_PREFIX in spark configs when submitting the job
 Error if TESSDATA_PREFIX is not set correctly
 ------------------
 
-If TESSDATA_PREFIX is not set, the spark program would run into the error below.
+If TESSDATA_PREFIX is not set, the spark program would run into the error below::
 
-Error opening data file /Users/saudet/projects/bytedeco/javacpp-presets/tesseract/cppbuild/macosx-x86_64/share/tessdata/eng.traineddata
-Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your "tessdata" directory.
-Failed loading language 'eng'
-Tesseract couldn't load any languages!
+  Error opening data file /Users/saudet/projects/bytedeco/javacpp-presets/tesseract/cppbuild/macosx-x86_64/share/tessdata/eng.traineddata
+  Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your "tessdata" directory.
+  Failed loading language 'eng'
+  Tesseract couldn't load any languages!
+  
+  
 

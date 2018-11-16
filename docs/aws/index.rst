@@ -10,5 +10,5 @@ AWS
    hive.rst
    redshift.rst
    cloudformationh2db.rst
-   cloudformationexternaldb.rst
+   cloudformationmysql.rst
    

@@ -53,7 +53,7 @@ Below are the steps for generating the keytab file. **We have chosen fire as the
     WARNING: no policy specified for fire@EXAMPLE.COM; defaulting to no policy
     Principal "fire@EXAMPLE.COM" created.
 
-* **Create fire key tab file**::
+* **Create fire keytab file**::
 
     kadmin.local: xst -norandkey -k fire.keytab fire@EXAMPLE.COM
 

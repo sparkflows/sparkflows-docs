@@ -26,7 +26,7 @@ Steps for configuring Kerberos on Fire
 +=================================+=================================+======================================================+
 | kerberos.enabled                | true                            | Set it to true to enable Kerberos for Fire           |
 +---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.keytab                 | /user/centos/centos.keytab      | Absolute path of the keytab generated for Fire       |
+| kerberos.keytab                 | /user/ec2-user/fire.keytab      | Absolute path of the keytab generated for Fire       |
 +---------------------------------+---------------------------------+------------------------------------------------------+
 | kerberos.principal              | fire@EXAMPLE.COM                | Kerberos Principal of the keytab of Fire             |
 +---------------------------------+---------------------------------+------------------------------------------------------+

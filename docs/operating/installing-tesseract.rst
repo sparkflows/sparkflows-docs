@@ -1,4 +1,4 @@
-Running Tesseract in Sparkflows
+Running Tesseract in Fire
 =====================
 
 In order to run Tesseract, perform the below installation steps:

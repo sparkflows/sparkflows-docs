@@ -19,6 +19,27 @@ Below is the workflow. It does the following:
 * Print the prediction results.
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.PNG
-   :alt: Drop Columns
+   :alt: Clustering Houses
+   :align: center
+   :width: 60%
+
+Reading from Dataset
+---------------------
+
+It reads sample Dataset file.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2.PNG
+   :alt: Clustering Houses
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.PNG
+   :alt: Clustering Houses
    :align: center
    :width: 60%

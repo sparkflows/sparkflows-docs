@@ -42,36 +42,36 @@ Steps for configuring Kerberos on Fire
 Steps for generating the keytab for Fire
 ----------------------------------------
 
-Below are the steps for generating the keytab file. **We have chosen sparkflows as the principal name. But you can have it as any user you are running Sparkflows Fire with**.
+Below are the steps for generating the keytab file. **We have chosen fire as the principal name. But you can have it as any user you are running Sparkflows Fire with**.
 
-* **Start kadmin.local and add the new principal** ``sparkflows@VENICE.HADOOP``::
+* **Start kadmin.local and add the new principal** ``fire@EXAMPLE.COM``::
 
     $ kadmin.local
  
-    kadmin.local: addprinc -randkey sparkflows@VENICE.HADOOP
+    kadmin.local: addprinc -randkey fire@EXAMPLE.COM
                                          
-    WARNING: no policy specified for sparkflows@VENICE.HADOOP; defaulting to no policy
-    Principal "sparkflows@VENICE.HADOOP" created.
+    WARNING: no policy specified for fire@EXAMPLE.COM; defaulting to no policy
+    Principal "fire@EXAMPLE.COM" created.
 
-* **Create sparkflows key tab file**::
+* **Create fire key tab file**::
 
-    kadmin.local: xst -norandkey -k sparkflows.keytab sparkflows@VENICE.HADOOP
+    kadmin.local: xst -norandkey -k fire.keytab fire@EXAMPLE.COM
 
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
-
-    WRFILE:sparkflows.keytab.
-
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
+    Entry for principal fire@EXAMPLE.COM with kvno 1, encryption type aes256-cts-hmac-sha1-96 added to keytab
 
     WRFILE:sparkflows.keytab.
 
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab     WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type aes128-cts-hmac-sha1-96 added to keytab
 
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+    WRFILE:sparkflows.keytab.
 
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des3-cbc-sha1 added to keytab     WRFILE:sparkflows.keytab.
 
-    Entry for principal sparkflows@VENICE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
+    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type arcfour-hmac added to keytab WRFILE:sparkflows.keytab.
+
+    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des-hmac-sha1 added to keytab WRFILE:sparkflows.keytab.
+
+    Entry for principal fire@EXAMPLE.HADOOP with kvno 1, encryption type des-cbc-md5 added to keytab WRFILE:sparkflows.keytab.
 
 
 * **Exit kadmin.local**::
@@ -87,29 +87,29 @@ Below are the steps for verifying the keytab file.
 
 * **Ensure that the keytab file was created and it has the right permissions**::
 
-    $ ls -l sparkflows.keytab
+    $ ls -l fire.keytab
     
-    -rw------- 1 root root 382 Jul 24 17:55 sparkflows.keytab
+    -rw------- 1 root root 382 Jul 24 17:55 fire.keytab
  
  
 * **Further verify the contents of keytab file. A normal keytab file depending on your krb5.conf settings, looks like this**::
  
-    $ klist -e -k -t sparkflows.keytab
+    $ klist -e -k -t fire.keytab
 
-    Keytab name: FILE:sparkflows.keytab
+    Keytab name: FILE:fire.keytab
 
     KVNO Timestamp Principal
     .....................................................................................................................................................
-    1 07/24/16 17:55:07 sparkflows@VENICE.HADOOP (aes256-cts-hmac-sha1-96)
+    1 07/24/16 17:55:07 fire@EXAMPLE.HADOOP (aes256-cts-hmac-sha1-96)
 
-    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (aes128-cts-hmac-sha1-96)
+    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (aes128-cts-hmac-sha1-96)
 
-    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des3-cbc-sha1)
+    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des3-cbc-sha1)
 
-    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (arcfour-hmac)
+    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (arcfour-hmac)
 
-    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-hmac-sha1)
+    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des-hmac-sha1)
 
-    1 07/24/16 17:55:08 sparkflows@VENICE.HADOOP (des-cbc-md5)
+    1 07/24/16 17:55:08 fire@EXAMPLE.HADOOP (des-cbc-md5)
 
 

@@ -44,14 +44,14 @@ Ports
 Download Files and Upload to your S3 Bucket
 ----------------------------------------------
 
-* Download CFT **emr-fire.json** from the above link.
-* Download **deploy-fire.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
+* Download CFT **emr-fire-h2.json** from the above link.
+* Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
 
 
 Update Cloudformation template based on your environment
 ---------------------------------------------------------
 
-Update the CFT **emr-fire.json** according to your requirement and environment in which you are deploying.
+Update the CFT **emr-fire-h2.json** according to your requirement and environment in which you are deploying.
 
 * ElasticMapReduce-Master-SecurityGroup under mastersg::
 

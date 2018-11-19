@@ -40,19 +40,19 @@ Relevant Files
 Ports
 -----
 
-* With this CFT and deploy-fire.sh, when Fire comes up, it would be listening on ports 8085 and 8086.
+* With this CFT and deploy-fire-mysql.sh, when Fire comes up, it would be listening on ports 8085 and 8086.
 
 Download Files and Upload to your S3 Bucket
 ----------------------------------------------
 
-* Download CFT **emr-fire.json** from the above link.
-* Download **deploy-fire.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
+* Download CFT **emr-fire-mysql.json** from the above link.
+* Download **deploy-fire-mysql.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
 
 
 Update Cloudformation template based on your environment
 ---------------------------------------------------------
 
-Update the CFT **emr-fire.json** according to your requirement and environment in which you are deploying.
+Update the CFT **emr-fire-mysql.json** according to your requirement and environment in which you are deploying.
 
 * ElasticMapReduce-Master-SecurityGroup under mastersg::
 

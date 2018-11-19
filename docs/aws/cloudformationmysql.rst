@@ -29,7 +29,7 @@ Relevant Files
    * - emr-file-mysql.json
      - CloudFormation Template
      - https://s3.amazonaws.com/sparkflows-cft/mysql-db/emr-fire-mysql.json
-   * - firemysql.sh
+   * - deploy-fire-mysql.sh
      - Script for deploying Fire with MySQL
      - https://s3.amazonaws.com/sparkflows-cft/mysql-db/deploy-fire-mysql.sh
    * - script-runner.jar

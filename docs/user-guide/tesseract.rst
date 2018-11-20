@@ -36,4 +36,9 @@ If TESSDATA_PREFIX is not set, the spark program would run into the error below:
     Tesseract couldn't load any languages!
   
   
+The above error would be in the Job logs. If yarn it being used it would be in the yarn logs::
+
+    yarn logs -applicationId job_application_id
+    
+    
 

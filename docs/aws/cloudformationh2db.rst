@@ -83,7 +83,7 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
     If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
   
   
-* deploy-fire.sh and script-runner.jar::
+* deploy-fire-h2.sh and script-runner.jar::
 
     Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
@@ -98,7 +98,7 @@ Steps to Create EMR Cluster and Deploy Fire
 * Next page is **Select Template**
 
   * Select the radio-button **Upload a template to Amazon S3**
-  * Select the updated **emr-fire.json** from your system
+  * Select the updated **emr-fire-h2.json** from your system
   * Click Next
   
 * Next page is **Specify Details**

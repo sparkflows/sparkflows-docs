@@ -176,23 +176,25 @@ Steps to Create EMR Cluster and Deploy Fire
   * Go to EMR from AWS web console
   * Choose your EMR Cluster
   * Identify the Master Node Public DNS 
-  * Go to **http://masternodeip:8085/index.html**
+  * Go to ``http://masternodeip:8085/index.html``
   
   
 Connect Fire to the New Cluster
 -------------------------------
 
-* Go to User/Administration
-* Click on **Infer Hadoop Configuration**
-* Save
+* Go to ``User/Administration``
+* Click on ``Infer Hadoop Configuration``
+* Click on the ``Save`` button
 
 Load Examples
 --------------
 
-* In Fire, click on **Load Examples**
-* ssh to the master node
-* cd /opt/fire/fire-3.1.0
-* hadoop fs -put data
+* In Fire, click on ``Load Examples``
+* ``ssh`` to the master node
+* ``cd /opt/fire/fire-3.1.0``
+* Upload the example data files to HDFS
+
+  * ``hadoop fs -put data``
 
 Create **hadoop** user
 ----------------------

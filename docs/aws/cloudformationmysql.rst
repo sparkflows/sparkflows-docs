@@ -84,7 +84,7 @@ Update the CFT **emr-fire-mysql.json** according to your requirement and environ
     If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
   
   
-* deploy-fire.sh and script-runner.jar::
+* deploy-fire-mysql.sh and script-runner.jar::
 
     Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
@@ -99,7 +99,7 @@ Steps to Create EMR Cluster and Deploy Fire
 * Next page is **Select Template**
 
   * Select the radio-button **Upload a template to Amazon S3**
-  * Select the updated **emr-fire.json** from your system
+  * Select the updated **emr-fire-mysql.json** from your system
   * Click Next
   
 * Next page is **Specify Details**
@@ -149,24 +149,24 @@ Steps to Create EMR Cluster and Deploy Fire
      -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
 
 
-* Click Next
+* Click ``Next``
   
 * Next Page is **Options**
 
   * If required (not mandatory) enter tag details
-  * Click Next
+  * Click ``Next``
   
 * Next Page is **Review**
 
   * Review all the details provided to create an EMR stack
-  * Click on Create
+  * Click on ``Create``
   * It will start creating the Stack
 
 * Next page is back to **Cloudformation Page**
 
   * Choose your Stack name
-  * Click on **Events** to check the process
-  * Click on **Resources** to get the EMR Cluster id
+  * Click on ``Events`` to check the process
+  * Click on ``Resources`` to get the EMR Cluster id
   
   
 * Once the stack runs successfully, your EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
@@ -177,36 +177,37 @@ Steps to Create EMR Cluster and Deploy Fire
   * Go to EMR from AWS web console
   * Choose your EMR Cluster
   * Identify the Master Node Public DNS 
-  * Go to **http://masternodeip:8085/index.html**
+  * Go to ``http://masternodeip:8085/index.html``
   
   
 Connect Fire to the New Cluster
 -------------------------------
 
-* Go to User/Administration
-* Click on **Infer Hadoop Configuration**
-* Save
+* Go to ``Administration/Configuration``
+* Click on ``Infer Hadoop Configuration``
+* Click on the ``Save`` button
 
 Load Examples
 --------------
 
-* In Fire, click on **Load Examples**
-* ssh to the master node
-* cd /opt/fire/fire-3.1.0
-* hadoop fs -put data
+* In Fire, click on ``Load Examples``
+* ``ssh`` to the master node
+* ``cd /opt/fire/fire-3.1.0``
+* ``hadoop fs -put data``
 
 Create **hadoop** user
 ----------------------
 
-* Go to User/User
-* Click on **Add User**
-* Create a new user with username 'hadoop'
-* Log out and log back in as user **hadoop*
+* Go to ``Administration/User``
+* Click on ``Add User``
+* Create a new user with username ``hadoop``
+* Log out and log back in as user ``hadoop``
 
 Start running the Examples
 --------------------------
 
-* Go to **Applications**
+* Go to ``Applications``
+* Start building your Applications.
      
 Summary
 -------

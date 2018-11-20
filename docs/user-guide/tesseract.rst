@@ -41,4 +41,7 @@ The above error would be in the Job logs. If yarn it being used it would be in t
     yarn logs -applicationId job_application_id
     
     
+When the job is being executed, Fire displays the job_application_id in the Browser.
+
+
 

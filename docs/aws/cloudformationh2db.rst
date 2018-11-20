@@ -197,15 +197,16 @@ Load Examples
 Create **hadoop** user
 ----------------------
 
-* Go to User/User
-* Click on **Add User**
-* Create a new user with username 'hadoop'
-* Log out and log back in as user **hadoop*
+* Go to ``Administration/User``
+* Click on ``Add User``
+* Create a new user with username ``hadoop``
+* Log out and log back in as user ``hadoop``
 
 Start running the Examples
 --------------------------
 
-* Go to **Applications**
+* Go to ``Applications``
+* Start creating/using the Applications
      
 Summary
 -------

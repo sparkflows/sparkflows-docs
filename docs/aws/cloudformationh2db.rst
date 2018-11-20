@@ -139,7 +139,7 @@ Steps to Create EMR Cluster and Deploy Fire
    * - ReleaseVersion
      - Enter the required ReleaseVersion, it has to match with fire version
    * - S3Bucket
-     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire.sh and script-runner.jar are uploaded
+     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire-h2.sh and script-runner.jar are uploaded
    * - Subnet
      - Provide the proper subnet name, which has sufficient resources to create emr cluster 
    * - TaskInstanceType

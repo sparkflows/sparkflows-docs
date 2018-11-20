@@ -11,21 +11,11 @@ Download & Install the Tesseract Language Data  files
 
     git clone https://github.com/tesseract-ocr/tessdata.git
   
-Set TESSDATA_PREFIX as an Environment Variable and restart the Fire server
--------------------------
-
-* Point the environment variable TESSDATA_PREFIX to the tessdata directory::
-
-    export TESSDATA_PREFIX=/home/ec2-user/tessdata
-  
-* Restart the Fire server
-
-``If the above is not done correctly, then the Fire server would exit when any OCR node is run``
 
 Include TESSDATA_PREFIX in spark configs when submitting the job
 -------------------------
 
-* Include the following in spark configs when running workflows containing the OCR node::
+* Include the following in spark submit configs when running workflows containing the OCR node::
 
     --conf spark.executorEnv.TESSDATA_PREFIX=/home/ec2-user/tessdata
     

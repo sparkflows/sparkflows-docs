@@ -11,7 +11,7 @@ Steps for configuring Kerberos on Fire
  
 * **Place it in .../fire-x.y.z/conf directory**::
  
-    While this is the recommended location, the keytab file can be placed in another directory too.
+    While this is the recommended location, the keytab file can be placed in any another directory too.
  
 * **Make sure only the user running fire application has access to the keytab**. For example::
  

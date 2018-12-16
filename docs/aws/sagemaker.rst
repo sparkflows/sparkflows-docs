@@ -74,4 +74,19 @@ Sagemaker needs the following columns to exist in the Dataset.
 * features : features column, this column can also be set
 
 
+Flow with Sparkflows and AWS
+---------------------------
+
+* We do the Data Preparation and Feature Generation in EMR with Sparkflows.
+* When Sparkflows invokes the SageMakerEstimator, it calls SageMaker for Training and Deployment.
+* Once the model is deployed on SageMaker, the endpoint can be used for realtime predictions.
+
+
+Starting up the EMR Cluster
+---------------------------
+
+Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_EC2_DefaultRole** Role.
+
+
+
 

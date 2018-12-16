@@ -12,3 +12,14 @@ SageMaker Processors include:
 
 * KMeansSageMakerEstimator
 
+
+Setup
+-----
+
+AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
+
+We created a Role with 2 Policies:
+
+* AmazonS3FullAccess
+* AmazonSageMakerFullAccess
+

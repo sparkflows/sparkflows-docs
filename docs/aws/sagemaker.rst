@@ -46,3 +46,15 @@ We now use the ARN of the new Role when we use the SageMaker KMeans Estimator.
 
 arn:aws:iam::account_id:role/aws-segmaker-full-access
 
+
+AWS Instance Types
+------------------
+
+AWS has various instance types:
+
+* p : GPU Instances
+* c : Compute Instances
+* r : Memory Optimized Instances
+* m : General Instances
+
+

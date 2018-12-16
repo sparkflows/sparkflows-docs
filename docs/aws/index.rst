@@ -11,4 +11,6 @@ AWS
    redshift.rst
    cloudformationh2db.rst
    cloudformationmysql.rst
+   sagemaker.rst
+   
    

@@ -3,6 +3,13 @@ Fire Integration with SageMaker
 
 Fire is fully integrated with AWS SageMaker. Fire provides a number of processors for doing model building with SageMaker.
 
+You can do Data Preparation and Feature Engineering with Sparkflows doing compute with Apache Spark. Sparkflows then seamlessly enables you to do your model training and deployment with SageMaker.
+
+The above forms a very powerful combinations for end to end Machine Learning.
+
+Spark Sagemaker Examples
+------------------------
+
 There are a number of SageMaker-Spark examples by AWS here : 
 
 * https://github.com/aws/sagemaker-spark

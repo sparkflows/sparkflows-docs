@@ -18,13 +18,18 @@ Setup
 
 AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
 
+We updated the **EMR_EC2_DefaultRole** role to also have the AmazonSageMakerFullAccess Policy:
+
+* AmazonElasticMapReduceforEC2Role
+* AmazonSageMakerFullAccess
+
+
 We created a new Role called **aws-sagmaker-full-access** with 2 Policies:
 
 * AmazonS3FullAccess
 * AmazonSageMakerFullAccess
 
-We updated the **EMR_EC2_DefaultRole** role to also have the AmazonSageMakerFullAccess Policy:
+We now use the ARN of the new Role when we use the SageMaker KMeans Estimator.
 
-* AmazonElasticMapReduceforEC2Role
-* AmazonSageMakerFullAccess
+arn:aws:iam::account_id:role/aws-segmaker-full-access
 

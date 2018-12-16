@@ -58,3 +58,13 @@ AWS has various instance types:
 * m : General Instances
 
 
+Dataset Column Names for Training with Sagemaker
+------------------------------------------------
+
+Sagemaker needs the following columns to exist in the Dataset.
+
+* label : label column
+* features : features column, this column can also be set
+
+
+

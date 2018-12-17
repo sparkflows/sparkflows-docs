@@ -19,7 +19,7 @@ Installation and Upgrading
 
    installation-upgrading/index
 
-Operating Sparkflows
+Operating Fire Insights
 --------------------
 
 .. toctree::

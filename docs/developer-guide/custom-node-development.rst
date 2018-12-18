@@ -1,7 +1,7 @@
 Custom Node Development & Deployment
 ====================================
 
-Sparkflows follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in the UI and embedded into workflows.
+Fire Insights follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in the UI and embedded into workflows.
  
  
 **The details for building New Nodes are available at:**
@@ -21,9 +21,9 @@ The easiest way to start writing a new Node/Processor for Fire is to clone the `
 
 Use the appropriate branch based on your requirements::
 
-    master branch for Spark 1.6.X
+    master branch for Apache Spark 1.6.X
     
-    spark-2.x branch for Spark 2.X
+    spark-2.x branch for Apache Spark 2.X
   
 
 Code the New Custom Node
@@ -48,9 +48,9 @@ Code the New Custom Node
   * https://github.com/sparkflows/writing-new-node/tree/spark-2.x/src/main/java/fire/nodes/examples
   * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
   
-There is minor difference between the code for Spark 1.6.X and Spark 2.X.
+There is minor difference between the code for Apache Spark 1.6.X and Apache Spark 2.X.
 
-``DataFrames`` are used for Spark 1.6.X, while ``Dataset<Row>`` is used for Spark 2.X.
+``DataFrames`` are used for Apache Spark 1.6.X, while ``Dataset<Row>`` is used for Apache Spark 2.X.
  
 Create the Node JSON file
 -------------------------

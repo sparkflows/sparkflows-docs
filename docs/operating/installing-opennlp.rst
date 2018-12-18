@@ -1,14 +1,14 @@
-Running OpenNLP Model Jars in Sparkflows
+Running Apache OpenNLP Model Jars in Fire Insights
 =====================
 
 When running locally
 -------------------
 
 * Create a directory called opennlp-models-1.5 on the local file system
-* Download the OpenNLP model jar from : http://opennlp.sourceforge.net/models-1.5/
+* Download the Apache OpenNLP model jar from : http://opennlp.sourceforge.net/models-1.5/
 
   * eg: wget http://opennlp.sourceforge.net/models-1.5/en-ner-person.bin
-* Copy the OpenNLP model jar into the opennlp-models-1.5 directory created
+* Copy the Apache OpenNLP model jar into the opennlp-models-1.5 directory created
 
  
 
@@ -21,7 +21,7 @@ When running on a Spark cluster
 
 
 .. figure:: ../_assets/operating/opennlp.png
-   :alt: OpenNLP
+   :alt: Apache OpenNLP
    :align: center
    
    

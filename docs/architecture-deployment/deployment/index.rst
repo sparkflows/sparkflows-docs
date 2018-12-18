@@ -1,13 +1,13 @@
 Fire Deployment Options
 =======================
 
-Sparkflows Fire can easily be deployed:
+Fire Insights can easily be deployed:
 
-* On a Hadoop/Spark Cluster or
+* On an Apache Hadoop/Apache Spark Cluster or
 * On a standalone machine
 
 
-Deployment on a Hadoop/Spark Cluster
+Deployment on an Apache Hadoop/Apache Spark Cluster
 -------------------------------------
 
 The clusters could be based on the Apache Hadoop distribution from Cloudera, Hortonworks, MapR or any other Hadoop Cluster distributors.
@@ -15,7 +15,7 @@ The clusters could be based on the Apache Hadoop distribution from Cloudera, Hor
 The cluster can be on-premise or on the cloud.
 
 .. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
-   :alt: Sparkflows Fire Deployment
+   :alt: Fire Deployment
    :align: center
 
 
@@ -31,6 +31,6 @@ This mode can be used for:
 
 .. figure:: ../../_assets/architecture/personal-machine.png
    :scale: 50%
-   :alt: Sparkflows Fire Deployment on Standalone Machine
+   :alt: Fire Deployment on Standalone Machine
    :align: center
    

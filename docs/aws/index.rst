@@ -13,5 +13,6 @@ AWS
    cloudformationh2db.rst
    cloudformationmysql.rst
    sagemaker.rst
+   kinesis.rst
    
    

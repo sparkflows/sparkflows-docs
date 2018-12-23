@@ -3,10 +3,6 @@ Fire Integration with Kinesis
 
 This document described Fire integration with Kinesis.
 
-Update EC2 Role
-------------
-
-Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAccess
 
 Install AWS CLI
 ----------
@@ -21,7 +17,7 @@ Configure AWS Access Key
 Create AWS Kinesis stream
 -----------
 
-
+aws kinesis create-stream --stream-name sparkflows_kinesis_test --shard-count 1
 
 Send message to AWS Kinesis from AWS CLI
 ------------
@@ -29,4 +25,12 @@ Send message to AWS Kinesis from AWS CLI
 Sending message to Kinesis::
 
   aws kinesis put-record --stream-name sparkflows_kinesis_test --data file://data.json --partition-key uuidgen
+
+Update EC2 Role
+------------
+
+Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAccess
+
+Create EMR Cluster with the above Role
+-----------
 

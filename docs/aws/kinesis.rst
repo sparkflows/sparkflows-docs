@@ -1,6 +1,9 @@
 Fire Integration with Kinesis
 ==============================
 
+Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAccess
+
+
 Sending the message to AWS kinesis from aws cli
 ------------
 

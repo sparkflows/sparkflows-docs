@@ -13,7 +13,7 @@ Install AWS CLI::
 Configure AWS CLI
 -----------
 
-Configure AWS CLI
+Configure AWS CLI::
 
   https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey

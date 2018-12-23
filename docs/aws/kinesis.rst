@@ -7,11 +7,11 @@ Install AWS CLI::
 
   https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
   
-Configure::
+Configure AWS Access Key::
 
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey
 
-Sending the message to AWS kinesis from aws cli
+Send message to AWS Kinesis from AWS CLI
 ------------
 
 Sending message to Kinesis::

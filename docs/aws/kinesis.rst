@@ -3,21 +3,26 @@ Fire Integration with Kinesis
 
 This document described Fire integration with Kinesis.
 
-
 Install AWS CLI
 ----------
+
+Instals AWS CLI::
 
   https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
   
 Configure AWS Access Key
 -----------
 
+Configure AWS Access Key::
+
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey
 
-Create AWS Kinesis stream
+Create AWS Kinesis Stream
 -----------
 
-aws kinesis create-stream --stream-name sparkflows_kinesis_test --shard-count 1
+Create AWS Kinesis Stream::
+
+  aws kinesis create-stream --stream-name sparkflows_kinesis_test --shard-count 1
 
 Send message to AWS Kinesis from AWS CLI
 ------------

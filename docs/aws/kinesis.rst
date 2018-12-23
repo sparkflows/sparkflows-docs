@@ -3,6 +3,9 @@ Fire Integration with Kinesis
 
 Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAccess
 
+Install AWS CLI::
+
+
 Configure::
 
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey

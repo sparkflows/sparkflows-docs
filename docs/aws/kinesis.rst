@@ -6,15 +6,16 @@ This document described Fire integration with Kinesis.
 Install AWS CLI
 ----------
 
-Instals AWS CLI::
+Install AWS CLI::
 
   https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
   
-Configure AWS Access Key
+Configure AWS CLI
 -----------
 
-Configure AWS Access Key::
+Configure AWS CLI
 
+  https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey
 
 Create AWS Kinesis Stream

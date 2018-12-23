@@ -5,7 +5,8 @@ Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAcc
 
 Install AWS CLI::
 
-
+  https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+  
 Configure::
 
   aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey

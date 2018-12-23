@@ -29,7 +29,7 @@ Sending message to Kinesis::
 Update EC2 Role
 ------------
 
-Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess & AmazonSageMakerFullAccess
+Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess
 
 Create EMR Cluster with the above Role
 -----------

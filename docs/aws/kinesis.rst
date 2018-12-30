@@ -41,4 +41,11 @@ Update **EMR_EC2_DefaultRole** with **AmazonKinesisFullAccess** Policy so that o
 Create EMR Cluster with the above Role
 -----------
 
+Pushing data to Kinesis
+-----------
+
+AWS provides a Kinesis Data Generator. I can be configured for pushing random data in specified format to Kinesis.
+
+https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
+
 

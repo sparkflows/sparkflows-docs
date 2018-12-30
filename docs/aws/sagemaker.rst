@@ -48,7 +48,7 @@ Use ARN of the new Role in the Workflow
 
 We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node in the Workflow.
 
-arn:aws:iam::account_id:role/aws-sagemaker-full-access
+**arn:aws:iam::account_id:role/aws-sagemaker-full-access**
 
 
 AWS Instance Types

@@ -32,7 +32,9 @@ AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
 Launching EMR
 ++++++++++++++
 
-When launching EMR make sure that the Role used has the AmazonSageMakerFullAccess policy.
+When launching the EMR Cluster make sure that the Role used has the AmazonSageMakerFullAccess policy.
+
+Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_EC2_DefaultRole** and  **EMR_EC2_DefaultRole** Roles.
 
 Create New Role
 +++++++++++++++
@@ -77,10 +79,6 @@ Flow with Sparkflows and AWS
 * Once the model is deployed on SageMaker, the endpoint can be used for realtime predictions.
 
 
-Starting up the EMR Cluster
----------------------------
-
-Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_EC2_DefaultRole** Role.
 
 
 

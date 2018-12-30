@@ -32,10 +32,10 @@ Sending message to Kinesis::
 
   aws kinesis put-record --stream-name sparkflows_kinesis_test --data file://data.json --partition-key uuidgen
 
-Update EMR EC2 Role
+Update EMR_EC2_Default_Role
 ------------
 
-Update EMR_EC2_DefaultRole with AmazonKinesisFullAccess Policy so that our EMR Cluster would have full access to Kinesis.
+Update **EMR_EC2_DefaultRole** with **AmazonKinesisFullAccess** Policy so that our EMR Cluster would have full access to Kinesis.
 
 
 Create EMR Cluster with the above Role

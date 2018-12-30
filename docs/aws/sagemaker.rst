@@ -29,29 +29,24 @@ Setup
 
 AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
 
-Update EMR_EC2_DefaultRole
-+++++++++++++++++++++++++++
+Launching EMR
+++++++++++++++
 
-We updated the **EMR_EC2_DefaultRole** role to also have the AmazonSageMakerFullAccess Policy:
-
-* AmazonElasticMapReduceforEC2Role
-* AmazonSageMakerFullAccess
-
+When launching EMR make sure that the Role used has the AmazonSageMakerFullAccess policy.
 
 Create New Role
 +++++++++++++++
 
-We created a new Role called **aws-sagmaker-full-access** with 2 Policies:
+Create a new Role called **aws-sagmaker-full-access** with the below Policy:
 
-* AmazonS3FullAccess
 * AmazonSageMakerFullAccess
 
 Use ARN of the new Role
 +++++++++++++++++++++++
 
-We now use the ARN of the new Role when we use the SageMaker KMeans Estimator.
+We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node.
 
-arn:aws:iam::account_id:role/aws-segmaker-full-access
+arn:aws:iam::account_id:role/aws-sagemaker-full-access
 
 
 AWS Instance Types

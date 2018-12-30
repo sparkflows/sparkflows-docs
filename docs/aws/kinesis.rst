@@ -46,7 +46,7 @@ When we create the EMR Cluster with the above Role, it would have full access to
 Pushing data to Kinesis
 -----------
 
-AWS provides a Kinesis Data Generator. I can be configured for pushing random data in specified format to Kinesis.
+AWS provides a Kinesis Data Generator. It can be configured for pushing random data in specified format to Kinesis.
 
 https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
 

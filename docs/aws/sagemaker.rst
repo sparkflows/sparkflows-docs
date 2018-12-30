@@ -32,9 +32,9 @@ AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
 Launching EMR
 ++++++++++++++
 
-When launching the EMR Cluster make sure that the Role used has the AmazonSageMakerFullAccess policy.
+When launching the EMR Cluster make sure that the Role (eg: **EMR_EC2_DefaultRole**) used has the AmazonSageMakerFullAccess policy. 
 
-Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_EC2_DefaultRole** and  **EMR_EC2_DefaultRole** Roles.
+Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_DefaultRole** and  **EMR_EC2_DefaultRole** Roles.
 
 Create New Role
 +++++++++++++++

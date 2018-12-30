@@ -39,14 +39,14 @@ Now that the Roles and Policies are in place, start up your EMR cluser with the 
 Create New Role
 +++++++++++++++
 
-Create a new Role called **aws-sagmaker-full-access** with the below Policy:
+Create a new Role called **aws-sagmaker-full-access** with the below Policy. It would be used in the Apache Spark job when accessing SageMaker.
 
 * AmazonSageMakerFullAccess
 
-Use ARN of the new Role
+Use ARN of the new Role in the Workflow
 +++++++++++++++++++++++
 
-We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node.
+We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node in the Workflow.
 
 arn:aws:iam::account_id:role/aws-sagemaker-full-access
 

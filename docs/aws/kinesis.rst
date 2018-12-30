@@ -41,6 +41,8 @@ Update **EMR_EC2_DefaultRole** with **AmazonKinesisFullAccess** Policy so that o
 Create EMR Cluster with the above Role
 -----------
 
+When we create the EMR Cluster with the above Role, it would have full access to Amazon Kinesis.
+
 Pushing data to Kinesis
 -----------
 

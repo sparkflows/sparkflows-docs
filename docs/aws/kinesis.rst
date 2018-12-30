@@ -55,4 +55,8 @@ https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
    :align: center
    
    
-
+.. figure:: ../_assets/aws/kinesis-data-generator-2.png
+   :alt: Kinesis Data Generator
+   :align: center
+   
+   

@@ -1,7 +1,9 @@
 Fire Integration with Kinesis
 ==============================
 
-This document described Fire integration with Kinesis.
+This document described Fire integration with Kinesis. Fire uses Apache Spark Structured Streaming Connector from Qubole.
+
+https://github.com/qubole/kinesis-sql
 
 Install AWS CLI
 ----------

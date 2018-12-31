@@ -24,27 +24,27 @@ SageMaker Processors include:
 * KMeansSageMakerEstimator
 
 
-Setup
+AWS Provided Policies
 -----
 
 AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
 
 Launching EMR
-++++++++++++++
+------------
 
 When launching the EMR Cluster make sure that the Role (eg: **EMR_EC2_DefaultRole**) used has the AmazonSageMakerFullAccess policy. 
 
 Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_DefaultRole** and  **EMR_EC2_DefaultRole** Roles.
 
 Create New Role
-+++++++++++++++
+--------------
 
 Create a new Role called **aws-sagmaker-full-access** with the below Policy. It would be used in the Apache Spark job when accessing SageMaker.
 
 * AmazonSageMakerFullAccess
 
 Use ARN of the new Role in the Workflow
-+++++++++++++++++++++++
+----------------
 
 We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node in the Workflow.
 
@@ -84,13 +84,13 @@ XGBoost Sagemaker Workflow
 Below is a workflow which:
 
 * Reads in a libsvm file as input
-* Performs XGBoost KMeans Modeling
+* Performs XGBoost Modeling
 * Reads in another libsvm file
-* Performs predictions with the KMeans model built in the previous step
+* Performs predictions with the model built in the previous step
 * Prints out the result
 
 .. figure:: ../_assets/aws/sagemaker-xgboost-workflow-1.png
-   :alt: SageMaker XGBoost KMeans
+   :alt: SageMaker XGBoost 
    :align: center
    
    
@@ -100,7 +100,7 @@ Executing the Workflow
 Below are the results of executing the workflow.
 
 .. figure:: ../_assets/aws/sagemaker-xgboost-execute-1.png
-   :alt: SageMaker XGBoost KMeans Execution
+   :alt: SageMaker XGBoost Execution
    :align: center
    
    

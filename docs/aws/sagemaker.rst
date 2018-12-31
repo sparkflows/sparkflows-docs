@@ -93,6 +93,15 @@ Below is a workflow which:
    :alt: SageMaker XGBoost 
    :align: center
    
+XGBoost Configuration
+---------------
+
+Below are the configuration setup details of the XGBoost Processor.
+
+.. figure:: ../_assets/aws/sagemaker-xgboost-configuration-1
+   :alt: SageMaker XGBoost Configuration
+   :align: center
+
    
 Executing the Workflow
 ------------------

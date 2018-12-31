@@ -89,7 +89,7 @@ Below is a workflow which:
 * Performs predictions with the KMeans model built in the previous step
 * Prints out the result
 
-.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-1
+.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-1.png
    :alt: SageMaker XGBoost KMeans
    :align: center
    

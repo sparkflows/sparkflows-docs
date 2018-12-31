@@ -94,7 +94,16 @@ Below is a workflow which:
    :align: center
    
    
+Executing the Workflow
+------------------
 
+Below are the results of executing the workflow.
+
+.. figure:: ../_assets/aws/sagemaker-xgboost-execute-1.png
+   :alt: SageMaker XGBoost KMeans Execution
+   :align: center
+   
+   
 
 
 

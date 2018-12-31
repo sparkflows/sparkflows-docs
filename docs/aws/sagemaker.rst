@@ -78,7 +78,22 @@ Flow with Sparkflows and AWS
 * When Sparkflows invokes the SageMakerEstimator, it calls SageMaker for Training and Deployment.
 * Once the model is deployed on SageMaker, the endpoint can be used for realtime predictions.
 
+XGBoost Sagemaker Workflow
+---------------------
 
+Below is a workflow which:
+
+* Reads in a libsvm file as input
+* Performs XGBoost KMeans Modeling
+* Reads in another libsvm file
+* Performs predictions with the KMeans model built in the previous step
+* Prints out the result
+
+.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-1
+   :alt: SageMaker XGBoost KMeans
+   :align: center
+   
+   
 
 
 

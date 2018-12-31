@@ -62,3 +62,8 @@ https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
    :align: center
    
    
+Kinesis Workflow in Fire
+----------
+
+Workflows can be easily built in Fire which read data from Kinesis, process them and save the results where needed.
+

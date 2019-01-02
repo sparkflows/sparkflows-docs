@@ -3,6 +3,14 @@ Pipeline
 
 This node represents Pipeline from Spark ML
 
+Input
+--------------
+It takes in a DataFrame as input.
+
+Output
+--------------
+The incoming DataFrame is passed to the output.
+
 Type
 --------- 
 
@@ -25,5 +33,12 @@ Fields
         - Description
 
 
+Details
+======
+
+
+This node represents Pipeline from Spark ML.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-guide.html#pipeline-components
 
 

@@ -3,6 +3,14 @@ RandomForestRegression
 
 It supports both continuous and categorical features.
 
+Input
+--------------
+This takes in a DataFrame and performs Random Forest Regression
+
+Output
+--------------
+It generates the Random Forest Regression Model and passes it to the next Predict and ModelSave Nodes. The input DataFrame is also passed along to the next nodes.
+
 Type
 --------- 
 

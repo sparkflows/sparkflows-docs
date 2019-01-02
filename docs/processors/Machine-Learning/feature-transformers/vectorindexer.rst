@@ -3,6 +3,14 @@ VectorIndexer
 
 Vector Indexer indexes categorical features inside of a Vector. It decides which features are categorical and converts them to category indices. The decision is based on the number of distinct values of a feature.
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+It indexes categorical features in datasets of Vectors and stores the result into a new column of the DataFrame.
+
 Type
 --------- 
 

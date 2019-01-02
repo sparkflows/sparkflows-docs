@@ -1,7 +1,7 @@
 Read HIVE Table
 =========== 
 
-This node reads data from HIVE table and creates a DataFrame from it
+This node reads data from Apache HIVE table and creates a DataFrame from it
 
 Input
 --------------

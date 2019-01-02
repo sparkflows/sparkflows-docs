@@ -31,5 +31,12 @@ Fields
         - Output column name
 
 
+Details
+======
+
+
+This node maps a column of indices back to a new column of corresponding string values. The index-string mapping is either from the ML attributes of the input column, or from user-supplied labels
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#indextostring
 
 

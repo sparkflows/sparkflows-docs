@@ -1,7 +1,7 @@
 SaveAsHIVETable
 =========== 
 
-Saves the DataFrame into a HIVE Table
+Saves the DataFrame into an Apache HIVE Table
 
 Type
 --------- 
@@ -40,5 +40,10 @@ Fields
         - Whether to Append, Overwrite or Error if the path Exists
 
 
+Details
+======
+
+
+If the HIVE table does not exist, it would create the table.
 
 

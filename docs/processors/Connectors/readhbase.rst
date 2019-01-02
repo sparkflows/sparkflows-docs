@@ -1,7 +1,15 @@
 ReadHBase
 =========== 
 
-Read the rows in the incoming DataFrame onto HBase using the specific field mapping
+Read the rows in the incoming DataFrame onto Apache HBase using the specific field mapping
+
+Input
+--------------
+It does not take any DataFrame as input
+
+Output
+--------------
+It queries HBase and creates a DataFrame from the resulting rows. This DataFrame is passed to the output Nodes.
 
 Type
 --------- 

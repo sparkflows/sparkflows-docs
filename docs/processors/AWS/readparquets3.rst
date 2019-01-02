@@ -26,12 +26,6 @@ Fields
       * - path
         - Path To S3
         - Path from where Parquet files to read (s3a://<bucketName>),If you don't give path it will browse your s3 bucket list
-      * - awsAccessKeyId
-        - AWS Access Key Id
-        - AWS Access Key Id
-      * - awsSecretAccessKey
-        - AWS Secret Access Key
-        - AWS Secret Access Key
       * - outputColNames
         - Column Names for the Parquet
         - New Output Columns of the SQL

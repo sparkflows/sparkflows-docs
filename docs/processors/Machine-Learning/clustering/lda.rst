@@ -3,6 +3,14 @@ LDA
 
 LDA is given a collection of documents as input data, via the featuresCol parameter. Each document is specified as a Vector of length vocabSize, where each entry is the count for the corresponding term (word) in the document
 
+Input
+--------------
+It takes in a DataFrame as input and performs LDA
+
+Output
+--------------
+LDA Model is passed to the next Node for Prediction or Storing
+
 Type
 --------- 
 

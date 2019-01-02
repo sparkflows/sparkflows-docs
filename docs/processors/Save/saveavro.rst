@@ -1,7 +1,7 @@
 SaveAvro
 =========== 
 
-Saves the DataFrame into the specified location in Avro Format
+Saves the DataFrame into the specified location in Apache Avro Format
 
 Type
 --------- 

@@ -1,7 +1,7 @@
 ReadAvro
 =========== 
 
-Dataset Node for reading Avro files
+Dataset Node for reading Apache Avro files
 
 Input
 --------------
@@ -35,13 +35,13 @@ Fields
         - Path
         - Path of the Avro file/directory
       * - outputColNames
-        - Column Names for the CSV
-        - New Output Columns of the SQL
+        - Column Names for the Avro
+        - Output Columns of the Avro
       * - outputColTypes
-        - Column Types for the CSV
+        - Column Types for the Avro
         - Data Type of the Output Columns
       * - outputColFormats
-        - Column Formats for the CSV
+        - Column Formats for the Avro
         - Format of the Output Columns
 
 

@@ -34,5 +34,12 @@ Fields
         - The number of partitions used to distribute the work
 
 
+Details
+======
+
+
+This node does Pattern Mining using FPGrowth Algorithm.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/mllib-frequent-pattern-mining.html
 
 

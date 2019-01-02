@@ -3,6 +3,14 @@ Tokenizer
 
 A tokenizer that converts the input string to lowercase and then splits it by white spaces.
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+It adds a new column containing the results of tokenization of the input column, to the incoming DataFrame.
+
 Type
 --------- 
 

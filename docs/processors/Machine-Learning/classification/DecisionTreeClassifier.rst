@@ -3,6 +3,14 @@ DecisionTreeClassifier
 
 It supports both binary and multiclass labels, as well as both continuous and categorical features.
 
+Input
+--------------
+It takes in a DataFrame and performs Decision Tree Classification
+
+Output
+--------------
+The Decision Tree Model generated is passed along to the next nodes. The input DataFrame is also passed along to the next nodes
+
 Type
 --------- 
 
@@ -78,5 +86,12 @@ Fields
         - Max Depth Parameters for Grid Search
 
 
+Details
+======
+
+
+Decision trees supports both binary and multiclass labels, as well as both continuous and categorical features.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-classification-regression.html#decision-tree-classifier
 
 

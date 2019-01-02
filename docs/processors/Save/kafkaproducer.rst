@@ -1,7 +1,7 @@
 KafkaProducer
 =========== 
 
-Write out the Dataframe to a specified Kafka Topic
+Write out the Dataframe to a specified Apache Kafka Topic
 
 Type
 --------- 

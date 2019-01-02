@@ -3,6 +3,10 @@ BinaryClassificationEvaluator
 
 Evaluator for binary classification, which expects two input columns: rawPrediction and label.
 
+Output
+--------------
+It outputs the Probability for each class
+
 Type
 --------- 
 
@@ -34,5 +38,13 @@ Fields
         - The metric used in evaluation.
 
 
+Details
+======
+
+
+Evaluator for binary classification, which expects two input columns: rawPrediction and label.
+
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#binary-classification
 
 

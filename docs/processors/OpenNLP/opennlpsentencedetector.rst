@@ -3,6 +3,10 @@ OpenNLPSentenceDetector
 
 This node detects sentences using OpenNLP - https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.sentdetect. It takes in the OpenNLP model. Models can be downloaded from http://opennlp.sourceforge.net/models-1.5/
 
+Input
+--------------
+It takes in a DataFrame as input.
+
 Type
 --------- 
 
@@ -34,5 +38,15 @@ Fields
         - Output Column containing the results
 
 
+Details
+======
+
+
+This node detects sentences using OpenNLP -
+
+https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.sentdetect.
+
+
+It takes in the OpenNLP model. Models can be downloaded from http://opennlp.sourceforge.net/models-1.5/
 
 

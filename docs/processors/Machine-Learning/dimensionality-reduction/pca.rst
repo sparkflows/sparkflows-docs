@@ -3,6 +3,14 @@ PCA
 
 Trains a model to project vectors to a low-dimensional space using PCA.
 
+Input
+--------------
+This takes in a DataFrame as input
+
+Output
+--------------
+The output DataFrame is a projection of the vectors in the incoming DataFrame to a low-dimensional space using PCA
+
 Type
 --------- 
 
@@ -34,5 +42,12 @@ Fields
         - The number of principal components
 
 
+Details
+======
+
+
+PCA trains a model to project vectors to a low-dimensional space using PCA.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#pca
 
 

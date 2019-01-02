@@ -1,7 +1,7 @@
-InsertIntoTable
+InsertIntoHIVETable
 =========== 
 
-Saves the DataFrame into a HIVE Table
+Saves the DataFrame into an Apache HIVE Table
 
 Type
 --------- 
@@ -32,7 +32,22 @@ Fields
       * - saveMode
         - Save Mode
         - Whether to Append, Overwrite or Error if the path Exists
+      * - partitionBy
+        - Partition By
+        - Partition By Column (can be empty)
+      * - bucketBy
+        - Bucket By
+        - Bucket By Column (can be empty)
 
 
+Details
+======
+
+
+When using Insert Into Table, the HIVE table has to already exist.
+
+Otherwise it throws the following exception:
+
+org.apache.spark.sql.catalyst.analysis.NoSuchTableException: Table or view 'xyz' not found in database 'abc';
 
 

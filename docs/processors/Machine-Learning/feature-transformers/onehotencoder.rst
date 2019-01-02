@@ -3,6 +3,14 @@ OneHotEncoder
 
 Maps a column of label indices to a column of binary vectors, with at most a single one-value
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+The output DataFrame contains a new column which contains the mapping of a column of label indices to a column of binary vectors, with at most a single one-value.
+
 Type
 --------- 
 

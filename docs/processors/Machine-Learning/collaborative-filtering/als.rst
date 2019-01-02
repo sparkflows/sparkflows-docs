@@ -3,6 +3,14 @@ ALS
 
 Alternating Least Squares (ALS) matrix factorization.
 
+Input
+--------------
+It takes in a DataFrame as input and performs ALS
+
+Output
+--------------
+It generates the ALSModel and passes it to the next Predict and ModelSave Nodes. It also passes the incoming DataFrame to the next Nodes
+
 Type
 --------- 
 
@@ -67,5 +75,12 @@ Fields
         - whether to use implicit preference
 
 
+Details
+======
+
+
+Collaborative filtering is commonly used for recommender systems. These techniques aim to fill in the missing entries of a user-item association matrix. spark.mllib currently supports model-based collaborative filtering, in which users and products are described by a small set of latent factors that can be used to predict missing entries. spark.mllib uses the alternating least squares (ALS) algorithm to learn these latent factors.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/mllib-collaborative-filtering.html
 
 

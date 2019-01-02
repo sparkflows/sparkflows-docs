@@ -3,6 +3,14 @@ HashingTF
 
 Maps a sequence of terms to term frequencies using the hashing trick.
 
+Input
+--------------
+It takes in a DataFrame as input and transforms it to another DataFrame
+
+Output
+--------------
+A new column is added to the input DataFrame containing hashing of the bag of words into a feature vector
+
 Type
 --------- 
 

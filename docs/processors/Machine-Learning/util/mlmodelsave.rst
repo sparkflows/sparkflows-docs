@@ -3,6 +3,14 @@ ML Model Save
 
 This node saves the ML model generated at the specified path
 
+Input
+--------------
+It takes in a Model and DataFrame as input.
+
+Output
+--------------
+The incoming dataframe is passed to the output.
+
 Type
 --------- 
 

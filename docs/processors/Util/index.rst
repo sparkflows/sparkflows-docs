@@ -11,4 +11,5 @@ Util
    parameters.rst
    printnrows.rst
    repartition.rst
+   stickynote.rst
    unpersistdataframe.rst

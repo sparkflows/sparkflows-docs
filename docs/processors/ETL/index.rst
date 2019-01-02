@@ -1,0 +1,56 @@
+ETL
+===============
+
+.. toctree::
+   :maxdepth: 2
+
+   addcolumns.rst
+   addressvalidation.rst
+   casewhen.rst
+   castcolumntype.rst
+   castcolumntypemulti.rst
+   castcolumntypemulti2.rst
+   cdcusingfulltablemerge.rst
+   columnsrename.rst
+   compare.rst
+   comparespecificcolumns.rst
+   concatcolumns.rst
+   DataCleaning/index.rst
+   datawrangling.rst
+   DateTime/index.rst
+   decision.rst
+   dropcolumns.rst
+   dropduplicaterows.rst
+   expressions.rst
+   fieldsplitter.rst
+   Filter/index.rst
+   fixedlength.rst
+   generateuid.rst
+   generateUUID.rst
+   geoip.rst
+   geopoint.rst
+   Group/index.rst
+   hash.rst
+   JoinUnion/index.rst
+   mathfunctions.rst
+   mathfunctionsmultiple.rst
+   multiregexextractor.rst
+   parsejsoncol.rst
+   recoverhivepartitions.rst
+   regextokenizer.rst
+   registerteamptable.rst
+   runhivehql.rst
+   sample.rst
+   sortby.rst
+   splitbyexpression.rst
+   splitbymultipleexpressions.rst
+   SQLExecuter.rst
+   stringFunctions.rst
+   stringfunctionsmultiple.rst
+   timeFunctions.rst
+   transpose.rst
+   unixShellCommand.rst
+   validation.rst
+   validation2.rst
+   windowranking.rst
+   zipwithindex.rst

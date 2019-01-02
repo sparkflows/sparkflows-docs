@@ -1,7 +1,15 @@
-Streaming Kafka
+StreamingKafka
 =========== 
 
-Reads in streaming text from topics in Kafka
+Reads in streaming text from topics in Apache Kafka
+
+Input
+--------------
+It does not take any DataFrame as input
+
+Output
+--------------
+It reads events from Kafka and creates DataFrame from the resulting rows. This DataFrame is passed to the output Nodes.
 
 Type
 --------- 

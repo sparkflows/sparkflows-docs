@@ -3,6 +3,14 @@ KMeans
 
 K-means clustering with support for k-means|| initialization proposed by Bahmani et al
 
+Input
+--------------
+It takes in a DataFrame as input and performs K-Means clustering
+
+Output
+--------------
+The input DataFrame is passed along to the next Processors
+
 Type
 --------- 
 
@@ -49,5 +57,12 @@ Fields
         - The number of steps for the k-means|| initialization mode. It will be ignored when other initialization modes are chosen.
 
 
+Details
+======
+
+
+K-means clustering with support for k-means|| initialization proposed by Bahmani et al
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/mllib-clustering.html#k-means
 
 

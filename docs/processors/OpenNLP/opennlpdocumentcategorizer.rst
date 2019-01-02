@@ -3,6 +3,14 @@ NodeOpenNLPDocumentCategorizer
 
 This node classifies text into pre-defined categories using OpenNLP - https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.doccat. It takes in the OpenNLP model. Models can be downloaded from http://opennlp.sourceforge.net/models-1.5/
 
+Input
+--------------
+It takes in a DataFrame as input.
+
+Output
+--------------
+It finds the Document Category and stores the result in the specified output column.
+
 Type
 --------- 
 
@@ -34,5 +42,16 @@ Fields
         - Output Column containing the results
 
 
+Details
+======
+
+
+This node classifies text into pre-defined categories using OpenNLP
+
+
+https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.doccat.
+
+
+It takes in the OpenNLP model. Models can be downloaded from http://opennlp.sourceforge.net/models-1.5/
 
 

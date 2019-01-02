@@ -37,5 +37,12 @@ Fields
         - Format of the Output Columns
 
 
+Details
+======
+
+
+It reads in JSON files. Each JSON record has to be on a separate line for Spark to handle it correctly.
+
+There cannot be line break within a record.
 
 

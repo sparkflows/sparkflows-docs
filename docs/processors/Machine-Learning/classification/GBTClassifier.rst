@@ -3,6 +3,14 @@ GBTClassifier
 
 Gradient-Boosted Trees (GBTs) is a learning algorithm for classification. It supports binary labels, as well as both continuous and categorical features. Note: Multiclass labels are not currently supported.
 
+Input
+--------------
+It takes in a DataFrame as input and performs GBT Classification
+
+Output
+--------------
+The GBT Model generated is passed along to the next nodes. The input DataFrame is also passed along to the next nodes
+
 Type
 --------- 
 

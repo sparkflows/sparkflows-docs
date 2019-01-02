@@ -3,6 +3,14 @@ Predict
 
 Predict node takes in a DataFrame and Model and makes predictions
 
+Input
+--------------
+It takes in a DataFrame and Model as input
+
+Output
+--------------
+A new column containing the predictions is added to the input DataFrame
+
 Type
 --------- 
 

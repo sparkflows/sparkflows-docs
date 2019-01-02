@@ -3,6 +3,14 @@ Correlation
 
 calculates the correlation between two series of data.
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+The input DataFrame is passed along to the next Processors
+
 Type
 --------- 
 
@@ -30,5 +38,12 @@ Fields
         - Column Names to check correlation 
 
 
+Details
+======
+
+
+This node calculates the correlation between two series of data in a common operation in Statistics.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/mllib-statistics.html#correlations
 
 

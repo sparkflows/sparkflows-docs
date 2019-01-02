@@ -3,6 +3,14 @@ MinMaxScaler
 
 MinMaxScaler transforms a dataset of Vector rows, rescaling each feature to a specific range (often [0, 1])
 
+Input
+--------------
+It takes in a DataFrame as input and transforms it to another DataFrame
+
+Output
+--------------
+A new column containing the scaled features is added to the incoming DataFrame
+
 Type
 --------- 
 

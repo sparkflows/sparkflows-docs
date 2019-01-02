@@ -1,7 +1,7 @@
-Documentation
+Notes
 =========== 
 
-Allows documentation of the workflows
+Allows capturing Notes on the Workflow
 
 Type
 --------- 
@@ -25,7 +25,7 @@ Fields
         - Description
       * - comment
         - Comment
-        - Comments for Documentation
+        - Comments for the Workflow
 
 
 

@@ -3,6 +3,14 @@ VectorAssembler
 
 Merges multiple columns into a vector column
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+It adds a new column to the incoming DataFrame. The new column contains the values of the input columns concatenated into a vector in the specified order.
+
 Type
 --------- 
 

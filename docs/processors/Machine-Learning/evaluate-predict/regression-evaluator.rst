@@ -3,6 +3,14 @@ RegressionEvaluator
 
 Evaluator for regression, which expects two input columns: prediction and label.
 
+Input
+--------------
+It takes in a DataFrame as input
+
+Output
+--------------
+The incoming DataFrame is passed to the output
+
 Type
 --------- 
 
@@ -34,5 +42,14 @@ Fields
         - The metric used in evaluation.
 
 
+Details
+======
+
+
+Evaluator for regression, which expects two input columns: prediction and label.
+
+More at Spark MLlib/ML docs page:
+
+http://spark.apache.org/docs/1.6.0/api/scala/index.html#org.apache.spark.ml.evaluation.RegressionEvaluator
 
 

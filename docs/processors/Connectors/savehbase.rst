@@ -1,7 +1,15 @@
 SaveHBase
 =========== 
 
-Saves all the rows in the incoming DataFrame onto HBase using the specific field mapping
+Saves all the rows in the incoming DataFrame onto Apache HBase using the specific field mapping
+
+Input
+--------------
+It takes in a DataFrame as input
+
+Output
+--------------
+Incoming dataFrame is passed along to the next nodes.
 
 Type
 --------- 
@@ -39,5 +47,12 @@ Fields
         - HBase Column Name into which the variable is loaded
 
 
+Details
+======
+
+
+SaveHBase node saves all the rows in the incoming DataFrame onto HBase using the specific field mapping.
+
+The DataFrame columns which do not have to be loaded into HBase are left empty.
 
 

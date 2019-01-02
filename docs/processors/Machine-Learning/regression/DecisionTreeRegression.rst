@@ -3,6 +3,14 @@ DecisionTreeRegression
 
 It supports both continuous and categorical features.
 
+Input
+--------------
+This takes in a DataFrame and performs Decision Tree Regression
+
+Output
+--------------
+The Decision Tree Regression Model generated is passed along to the next nodes. The input DataFrame is also passed along to the next nodes
+
 Type
 --------- 
 
@@ -72,5 +80,12 @@ Fields
         - Max Depth Parameters for Grid Search
 
 
+Details
+======
+
+
+Decision tree supports both continuous and categorical features.
+
+More at Spark MLlib/ML docs page : https://spark.apache.org/docs/1.6.0/ml-classification-regression.html#decision-tree-regression
 
 

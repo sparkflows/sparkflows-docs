@@ -8,14 +8,14 @@ Processors
    Connectors/index.rst
    Dataset/index.rst
    doclarge.rst
+   ETL/index.rst
    Graph/index.rst
-   Guardtime/index.rst
+   Languages/index.rst
    Logs/index.rst
    Machine-Learning/index.rst
    OCR/index.rst
    OpenNLP/index.rst
-   Python/index.rst
    Save/index.rst
    Streaming/index.rst
-   Transform/index.rst
+   StructuredStreaming/index.rst
    Util/index.rst

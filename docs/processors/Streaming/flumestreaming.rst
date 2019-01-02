@@ -1,7 +1,7 @@
-Streaming Flume
+StreamingFlume
 =========== 
 
-Reads in events from Flume - https://spark.apache.org/docs/1.6.0/streaming-flume-integration.html
+Reads in events from Apache Flume - https://spark.apache.org/docs/1.6.0/streaming-flume-integration.html
 
 Type
 --------- 

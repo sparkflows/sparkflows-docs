@@ -3,6 +3,14 @@ RandomForestClassifier
 
 It supports both binary and multiclass labels, as well as both continuous and categorical features.
 
+Input
+--------------
+This takes in a DataFrame and performs Random Forest Classification
+
+Output
+--------------
+The Random Forest Classification Model generated is passed along to the next nodes. The input DataFrame is also passed along to the next nodes
+
 Type
 --------- 
 
@@ -90,5 +98,12 @@ Fields
         - Total number of trees Parameters for Grid Search
 
 
+Details
+======
+
+
+Random forests supports both binary and multiclass labels, as well as both continuous and categorical features.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-classification-regression.html#random-forest-classifier
 
 

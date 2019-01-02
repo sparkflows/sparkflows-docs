@@ -36,5 +36,12 @@ Fields
         - input for number of partitions
 
 
+Details
+======
+
+
+This node coalesces the DataFrame into specified number of Partitions.
+
+It is specially helpful for the case when too many small files are being created. In such a scenario, the Coalesce node can be used to limit the number of output files produced.
 
 

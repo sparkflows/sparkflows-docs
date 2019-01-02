@@ -3,6 +3,14 @@ StreamingSocketTextStream
 
 Reads in streaming text from a socket
 
+Input
+--------------
+It does not take any DataFrame as input
+
+Output
+--------------
+It creates DataFrame from reading data from a socket. This DataFrame is passed to the output Nodes.
+
 Type
 --------- 
 

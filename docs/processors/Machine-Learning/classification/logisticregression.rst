@@ -3,6 +3,14 @@ LogisticRegression
 
 Logistic regression. Currently, this class only supports binary classification.
 
+Input
+--------------
+This takes in a DataFrame and performs Logistic Regression
+
+Output
+--------------
+The Logistic Regression Model generated is passed along to the next nodes. The input DataFrame is also passed along to the next nodes
+
 Type
 --------- 
 
@@ -72,5 +80,51 @@ Fields
         - ElasticNet Parameters for Grid Search
 
 
+Details
+======
 
 
+Logistic regression is a popular method to predict a categorical response. 
+
+It is a special case of Generalized Linear models that predicts the probability of the outcomes. 
+In spark.ml logistic regression can be used to predict a binary outcome by using binomial logistic regression, or it can be used to predict a multiclass outcome by using multinomial logistic regression.
+
+More details are available at : https://spark.apache.org/docs/2.3.0/ml-classification-regression.html#logistic-regression
+
+
+Examples
+======
+
+
+The below example is available at : https://spark.apache.org/docs/2.3.0/ml-classification-regression.html#logistic-regression
++++++++++++++++
+
+
+import org.apache.spark.ml.classification.LogisticRegression
+
+// Load training data
+val training = spark.read.format("libsvm").load("data/mllib/sample_libsvm_data.txt")
+
+val lr = new LogisticRegression()
+  .setMaxIter(10)
+  .setRegParam(0.3)
+  .setElasticNetParam(0.8)
+
+// Fit the model
+val lrModel = lr.fit(training)
+
+// Print the coefficients and intercept for logistic regression
+println(s"Coefficients: ${lrModel.coefficients} Intercept: ${lrModel.intercept}")
+
+// We can also use the multinomial family for binary classification
+val mlr = new LogisticRegression()
+  .setMaxIter(10)
+  .setRegParam(0.3)
+  .setElasticNetParam(0.8)
+  .setFamily("multinomial")
+
+val mlrModel = mlr.fit(training)
+
+// Print the coefficients and intercepts for logistic regression with multinomial family
+println(s"Multinomial coefficients: ${mlrModel.coefficientMatrix}")
+println(s"Multinomial intercepts: ${mlrModel.interceptVector}")

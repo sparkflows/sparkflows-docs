@@ -3,6 +3,10 @@ StopWordsRemover
 
 Filters out stop words from input. Null values from input array are preserved unless adding null to stopWords explicitly.
 
+Output
+--------------
+It adds a new column containing the sequence of strings from the input column but with the stop words removed, to the incoming DataFrame.
+
 Type
 --------- 
 
@@ -37,5 +41,12 @@ Fields
         - Custom List of Stop Words
 
 
+Details
+======
+
+
+Stop words filters out stop words from input. Null values from input array are preserved unless adding null to stopWords explicitly.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#stopwordsremover
 
 

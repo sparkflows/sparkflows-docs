@@ -34,5 +34,11 @@ Fields
         - Binary File Content Column in the Output DataFrame
 
 
+Details
+======
+
+
+It creates a new Dataframe from some data.
+Data can be in binary, text, parquet, pdf, image files.
 
 

@@ -1,7 +1,7 @@
 ReadParquet
 =========== 
 
-Dataset Node for reading Parquet files
+Dataset Node for reading Apache Parquet files
 
 Input
 --------------
@@ -35,13 +35,13 @@ Fields
         - Path
         - Path of the Parquet file/directory
       * - outputColNames
-        - Column Names for the CSV
-        - New Output Columns of the SQL
+        - Column Names for the Parquet
+        - Output Columns of the Parquet
       * - outputColTypes
-        - Column Types for the CSV
+        - Column Types for the Parquet
         - Data Type of the Output Columns
       * - outputColFormats
-        - Column Formats for the CSV
+        - Column Formats for the Parquet
         - Format of the Output Columns
 
 

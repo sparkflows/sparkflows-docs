@@ -3,6 +3,14 @@ GBTRegression
 
 It supports both continuous and categorical features.
 
+Input
+--------------
+This takes in a DataFrame and performs Logistic Regression
+
+Output
+--------------
+It generates the GBTRegression and passes it to the next Predict and ModelSave Nodes. The input DataFrame is also passed along to the next nodes.
+
 Type
 --------- 
 
@@ -87,5 +95,12 @@ Fields
         - Max Iterations for Grid Search
 
 
+Details
+======
+
+
+GBT Regression supports both continuous and categorical features.
+
+More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-classification-regression.html#gradient-boosted-trees-gbts
 
 

@@ -3,6 +3,14 @@ PDFImageOCR
 
 Reads in PDF Files from a given path, extracts the images from them and converts them to text with Tesseract
 
+Input
+--------------
+It reads in a PDF file or a directory containing PDF files
+
+Output
+--------------
+It creates a DataFrame from the data read and sends it to its output
+
 Type
 --------- 
 

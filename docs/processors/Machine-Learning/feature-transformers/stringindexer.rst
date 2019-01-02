@@ -3,6 +3,14 @@ StringIndexer
 
 StringIndexer encodes a string column of labels to a column of label indices
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+It adds a new column containing the encoding of the string column of labels to a column of label indices, to the incoming DataFrame.
+
 Type
 --------- 
 

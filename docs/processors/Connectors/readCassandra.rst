@@ -1,7 +1,7 @@
 ReadCassandra
 =========== 
 
-This node reads data from Cassandra
+This node reads data from Apache Cassandra
 
 Type
 --------- 

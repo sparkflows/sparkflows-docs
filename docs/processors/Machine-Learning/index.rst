@@ -16,4 +16,5 @@ Machine-Learning
    feature-transformers/index.rst
    freq-pattern-mining/index.rst
    regression/index.rst
+   sagemaker/index.rst
    util/index.rst

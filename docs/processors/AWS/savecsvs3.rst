@@ -26,12 +26,6 @@ Fields
       * - path
         - Path To S3
         - Path where to save the CSV files Ex- (s3a://<bucketName>),If you don't give path it will browse your s3 bucket list
-      * - awsAccessKeyId
-        - AWS Access Key Id
-        - AWS Access Key Id
-      * - awsSecretAccessKey
-        - AWS Secret Access Key
-        - AWS Secret Access Key
       * - saveMode
         - Save Mode
         - Whether to Append, Overwrite or Error if the path Exists

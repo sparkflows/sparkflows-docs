@@ -3,6 +3,14 @@ PolynominalExpansion
 
 Perform feature expansion in a polynomial space
 
+Input
+--------------
+It takes in a DataFrame and transforms it to another DataFrame
+
+Output
+--------------
+The output DataFrame contains a new column of type vector, Expanding your features into a polynomial space, which is formulated by an n-degree combination of original dimensions.
+
 Type
 --------- 
 

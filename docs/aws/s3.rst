@@ -1,4 +1,4 @@
-Fire Integration with S3
+Reading/Writing from S3
 ========================
 
 Fire is fully integrated with AWS S3. The Dataset Processors of Fire, can directly read data from S3 if the policies allow them to.

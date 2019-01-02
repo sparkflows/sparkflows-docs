@@ -7,6 +7,7 @@ AWS
 
    roles.rst
    running-on-emr.rst
+   s3-browser.rst
    s3.rst
    hive.rst
    redshift.rst

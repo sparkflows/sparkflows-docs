@@ -37,4 +37,10 @@ The Pipeline tab displays the list of Pipelines for the current Application.
    :alt: Pipeline List
    :align: center
    
+Clicking on the ``Execute`` Action icon opens the Pipeline Execute Page.
+
+.. figure:: ../_assets/user-guide/pipeline-execute.png
+   :alt: Pipeline Execute
+   :align: center
+   
    

@@ -14,6 +14,7 @@ User Guide
    working-with-dashboards.rst
    scheduling-workflows.rst
    triggering-workflows-by-event.rst
+   pipelines.rst
    reading-from-rdbms.rst
    python/index
    alerts.rst

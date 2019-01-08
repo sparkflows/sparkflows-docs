@@ -11,7 +11,6 @@ Fire uses Apache Airflow for executing Pipelines. Hence Airflow has to be instal
 Below are the configurations needed in Fire.
 
 .. figure:: ../_assets/user-guide/pipelines-configuration.png
-   :scale: 50%
    :alt: Pipelines Configuration
    :align: center
 
@@ -20,3 +19,10 @@ Creating a Pipeline
 
 Each Application now allows creating Pipelines.
 
+Below is an example Pipeline.
+
+.. figure:: ../_assets/user-guide/pipeline.png
+   :alt: Pipeline
+   :align: center
+   
+   

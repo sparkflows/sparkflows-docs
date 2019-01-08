@@ -19,7 +19,7 @@ Creating a Pipeline
 
 Each Application now allows creating Pipelines.
 
-Below is an example Pipeline.
+Below is an example Pipeline with 3 Workflows.
 
 .. figure:: ../_assets/user-guide/pipeline.png
    :alt: Pipeline

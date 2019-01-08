@@ -6,6 +6,7 @@ ETL
 
    addcolumns.rst
    addressvalidation.rst
+   assert.rst
    casewhen.rst
    castcolumntype.rst
    castcolumntypemulti.rst
@@ -15,6 +16,7 @@ ETL
    compare.rst
    comparespecificcolumns.rst
    concatcolumns.rst
+   count.rst
    DataCleaning/index.rst
    datawrangling.rst
    DateTime/index.rst

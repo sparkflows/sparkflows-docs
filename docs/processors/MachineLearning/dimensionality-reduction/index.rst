@@ -5,3 +5,4 @@ dimensionality-reduction
    :maxdepth: 2
 
    pca.rst
+   svd.rst

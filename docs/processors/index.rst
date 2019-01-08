@@ -12,7 +12,7 @@ Processors
    Graph/index.rst
    Languages/index.rst
    Logs/index.rst
-   Machine-Learning/index.rst
+   MachineLearning/index.rst
    OCR/index.rst
    OpenNLP/index.rst
    Save/index.rst

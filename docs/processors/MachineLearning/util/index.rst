@@ -12,6 +12,5 @@ util
    pipeline.rst
    roc.rst
    split.rst
-   svd.rst
    trainvalidationsplit.rst
    wordcount.rst

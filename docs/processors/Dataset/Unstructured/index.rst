@@ -9,3 +9,4 @@ Unstructured
    pdfimageocr.rst
    textfiles.rst
    tika.rst
+   wholetextfiles.rst

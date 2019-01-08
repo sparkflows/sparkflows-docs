@@ -26,3 +26,15 @@ Below is an example Pipeline with 3 Workflows.
    :align: center
    
    
+Executing a Pipeline
+--------------------
+
+Pipelines can be executed like workflows. When a Pipeline is executed, its execution is submitted to Airflow.
+
+The Pipeline tab displays the list of Pipelines for the current Application.
+
+.. figure:: ../_assets/user-guide/pipeline-list.png
+   :alt: Pipeline List
+   :align: center
+   
+   

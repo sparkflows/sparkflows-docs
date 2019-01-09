@@ -50,4 +50,30 @@ It explain the steps involved in installing airflow on Centos and RHEL.
 
 - Login to machine
  - ssh -i xyz.pem sparkflows@x.y.z.w
+
+- Before installing airflow we need to update installed package:
+ - yum -y update
+ 
+- let’s install python-pip and any required packages: 
+ - sudo yum install epel-release
+ - sudo yum install python-pip
+ 
+- Check the version of Pip that is installed and if reqd upgrade:
+ - pip -V
+ - pip install --upgrade setuptools
+ 
+- Note that for 1.10 you now need to preface install commands or export this env var:
+ - export SLUGIFY_USES_TEXT_UNIDECODE=yes
+ 
+- Install gcc , gcc-c++ and dependencies for python 2.7 
+ - sudo yum -y install gcc gcc-c++ kernel-devel
+  - sudo yum -y install python-devel libxslt-devel libffi-devel openssl-devel
+  
+- airflow needs a home, ~/airflow is the default,so we can export it
+ - export AIRFLOW_HOME=~/airflow  
+ 
+- Install from pypi using pip
+  - pip install apache-airflow 
+
+
   

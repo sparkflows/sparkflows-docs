@@ -49,5 +49,5 @@ Airflow Installation
 It explain the steps involved in installing airflow on Centos and RHEL.
 
 - Login to machine
-  - ssh -i xyz.pem sparkflows@x.y.z.w
+ - ssh -i xyz.pem sparkflows@x.y.z.w
   

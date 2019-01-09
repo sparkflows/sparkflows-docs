@@ -74,6 +74,12 @@ It explain the steps involved in installing airflow on Centos and RHEL.
  
 - Install from pypi using pip
   - pip install apache-airflow 
+  
+- To check airflow version
+ - airflow version
 
 
+.. figure:: ../_assets/user-guide/airflow version.png
+   :alt: airflow
+   :align: center
   

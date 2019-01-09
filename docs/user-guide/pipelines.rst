@@ -83,3 +83,19 @@ It explain the steps involved in installing airflow on Centos and RHEL.
    :alt: airflow
    :align: center
   
+- Generate a Fernet key for Airflow(optional)
+ - python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+ - fgrc0MPUG1n3Q352Fp705A-bysNHX6EFRr7nYFTmXXA=
+ - update in airflow.cfa
+ - fernet key: fgrc0MPUG1n3Q352Fp705A-bysNHX6EFRr7nYFTmXXA=
+ 
+- Initialize the database
+ - airflow initdb 
+ 
+- start the web server, its default port is 8080, If anyother application is running on 8080, we can update other port for airflow 
+ - airflow webserver -p 8090
+
+.. figure:: ..//_assets/user-guide/Airflow%20webserver%20running%20URL.PNG
+   :alt: airflow
+   :align: center
+ 

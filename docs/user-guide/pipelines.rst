@@ -79,7 +79,7 @@ It explain the steps involved in installing airflow on Centos and RHEL.
  - airflow version
 
 
-.. figure:: ../_assets/user-guide/airflow version.PNG
+.. figure:: ../_assets/user-guide/airflow%20version.PNG
    :alt: airflow
    :align: center
   

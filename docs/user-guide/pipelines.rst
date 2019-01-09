@@ -73,13 +73,13 @@ It explain the steps involved in installing airflow on Centos and RHEL.
  - export AIRFLOW_HOME=~/airflow  
  
 - Install from pypi using pip
-  - pip install apache-airflow 
+ - pip install apache-airflow 
   
 - To check airflow version
  - airflow version
 
 
-.. figure:: ../_assets/user-guide/airflow version.png
+.. figure:: ../_assets/user-guide/airflow version.PNG
    :alt: airflow
    :align: center
   

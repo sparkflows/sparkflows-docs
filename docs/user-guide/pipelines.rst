@@ -43,4 +43,11 @@ Clicking on the ``Execute`` Action icon opens the Pipeline Execute Page.
    :alt: Pipeline Execute
    :align: center
    
-   
+Airflow Installation
+--------------------
+
+It explain the steps involved in installing airflow on Centos and RHEL.
+
+- Login to machine
+  - ssh -i xyz.pem sparkflows@x.y.z.w
+  

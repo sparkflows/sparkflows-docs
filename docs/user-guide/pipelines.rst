@@ -99,3 +99,10 @@ It explain the steps involved in installing airflow on Centos and RHEL.
    :alt: airflow
    :align: center
  
+- start the scheduler
+ - airflow scheduler
+
+.. figure:: ..//_assets/user-guide/Airflow%20scheduler.PNG
+   :alt: airflow
+   :align: center
+ 

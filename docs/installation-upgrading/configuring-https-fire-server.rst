@@ -55,11 +55,6 @@ You will be prompted with the following questions and enter something similar to
       [no]:  yes
     Enter key password for <sparkflows>
             (RETURN if same as keystore password): Press the return key or Type and note down the password
- 
- 
-.. note::  When the keystore is updated, the password also has to be updated in case it changes. 
-
-           The Fire web server would also have to be restarted for the changes to take effect.
 
 
 
@@ -69,3 +64,7 @@ Copy the keystore into the Fire installation directory
 * Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 * Update ``keystore.properties`` with the new password.
  
+.. note::  When the keystore is updated, the password also has to be updated in case it changes. 
+
+           The Fire web server would also have to be restarted for the changes to take effect.
+           

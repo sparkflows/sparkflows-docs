@@ -102,7 +102,7 @@ It explain the steps involved in installing airflow on Centos and RHEL.
 - start the scheduler
  - airflow scheduler
 
-.. figure:: ..//_assets/user-guide/Airflow%20scheduler.PNG
+.. figure:: ../_assets/user-guide/airflow-scheduler.PNG
    :alt: airflow
    :align: center
    

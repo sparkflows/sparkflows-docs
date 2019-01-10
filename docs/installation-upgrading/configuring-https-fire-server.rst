@@ -28,6 +28,9 @@ Fire Server comes with a pre-configured keystore in the ``conf`` folder of the i
 * conf/keystore.jks
 * conf/keystore.properties : Stores the keystore password
 
+Generating New Keystore
+-----------------------
+
 You can use the following command for generating a new keystore::
 
     keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
@@ -52,8 +55,6 @@ You will be prompted with the following questions and enter something similar to
       [no]:  yes
     Enter key password for <sparkflows>
             (RETURN if same as keystore password): Press the return key or Type and note down the password
-            
-Replace the ``keystore.jks`` in the conf directory with your newly generated one, and update ``keystore.properties`` with the new password.
  
  
 .. note::  When the keystore is updated, the password also has to be updated in case it changes. 
@@ -65,6 +66,6 @@ Replace the ``keystore.jks`` in the conf directory with your newly generated one
 Copy the keystore into the Fire installation directory
 ----------------------------------------------
 
-Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
-
+* Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
+* Update ``keystore.properties`` with the new password.
  

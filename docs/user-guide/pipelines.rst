@@ -95,7 +95,7 @@ It explain the steps involved in installing airflow on Centos and RHEL.
 - start the web server, its default port is 8080, If anyother application is running on 8080, we can update other port for airflow 
  - airflow webserver -p 8090
 
-.. figure:: ..//_assets/user-guide/Airflow%20webserver%20running%20URL.PNG
+.. figure:: ../_assets/user-guide/airflow-webserver-running-url.PNG
    :alt: airflow
    :align: center
  

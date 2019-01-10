@@ -109,6 +109,6 @@ It explain the steps involved in installing airflow on Centos and RHEL.
 - login in browser
  - http://x.y.z.w:8090   
 
-.. figure:: ..//_assets/user-guide/Airflow%20Web%20URL.PNG
+.. figure:: ..//_assets/user-guide/airflow-web-url.PNG
    :alt: airflow
    :align: center

@@ -67,7 +67,7 @@ It explain the steps involved in installing airflow on Centos and RHEL.
  
 - Install gcc , gcc-c++ and dependencies for python 2.7 
  - sudo yum -y install gcc gcc-c++ kernel-devel
-  - sudo yum -y install python-devel libxslt-devel libffi-devel openssl-devel
+ - sudo yum -y install python-devel libxslt-devel libffi-devel openssl-devel
   
 - airflow needs a home, ~/airflow is the default,so we can export it
  - export AIRFLOW_HOME=~/airflow  

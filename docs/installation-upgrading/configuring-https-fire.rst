@@ -38,6 +38,17 @@ Copy the keystore into the Fire installation directory
 
 Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 
+Port Number
+-----------
+
+Fire by default listens on port 8443 for https.
+
+This is configured in the file ``conf/application.properties``::
+
+  #Configure http and https port numbers : Default 8080 for http and 8443 for https
+  http.port=8080
+  https.port=8443
+
 
 
 

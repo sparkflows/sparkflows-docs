@@ -3,6 +3,11 @@ January 2019
 
 The following features have been released in Jan 2019.
 
+Pipelines
+---------
+
+Fire now supports Pipelines. Pipelines allow creating a DAG of workflows. In the future it would allow adding more types of nodes to the DAG.
+
 Charts Improvements
 -------------------
 

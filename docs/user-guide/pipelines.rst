@@ -3,6 +3,14 @@ Pipeline
 
 Fire supports Pipelines. Pipelines allow running workflows in defined order.
 
+Pipeline List
+-------------
+
+The Pipeline tab displays the list of Pipelines for the current Application.
+
+.. figure:: ../_assets/user-guide/pipeline-list.png
+   :alt: Pipeline List
+   :align: center
 
 Creating a Pipeline
 --------------------
@@ -31,5 +39,14 @@ Clicking on the ``Execute`` Action icon opens the Pipeline Execute Page.
 
 .. figure:: ../_assets/user-guide/pipeline-execute.png
    :alt: Pipeline Execute
+   :align: center
+   
+Pipeline Execution
+------------------
+
+Once a Pipeline is fired, its details are visible in Pipeline Executions.
+
+.. figure:: ../_assets/user-guide/pipeline-execution.png
+   :alt: Pipeline Execution
    :align: center
    

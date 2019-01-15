@@ -12,10 +12,11 @@ Below are the configurations needed in Fire for Airflow.
 Airflow Installation
 --------------------
 
-It explain the steps involved in installing airflow on Centos and RHEL.
+It explain the steps involved in installing Airflow on Centos and RHEL. Detailed Airflow Install Instructions is at:
+
+https://airflow.apache.org/installation.html
 
 - Login to machine
- - ssh -i xyz.pem sparkflows@x.y.z.w
 
 - Before installing airflow we need to update installed package:
  - yum -y update

@@ -72,7 +72,9 @@ Copy the keystore into the Fire installation directory
 Adding a Certificate to an existing Keystore
 -----------------------------------
 
-keytool -import -trustcacerts -alias <Name of Cert> -file <Absolute Path to .crt File> -keystore <Absolute Path to Desired Keystore> -storepass <KEYSTORE_PASSWORD>
+Adding a Certificate to an existing Keystore::
+
+    keytool -import -trustcacerts -alias <Name of Cert> -file <Absolute Path to .crt File> -keystore <Absolute Path to Desired Keystore> -storepass <KEYSTORE_PASSWORD>
 
  
  

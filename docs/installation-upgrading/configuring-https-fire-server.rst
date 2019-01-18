@@ -69,8 +69,19 @@ Copy the keystore into the Fire installation directory
            The Fire web server would also have to be restarted for the changes to take effect.
            
 
+Use keytool commands
+--------------------
+
+Listing entries in Keystore
++++++++++++++++++++++++++++
+
+List entries in keystore::
+
+    keytool -list -keystore keystore.jks
+
+
 Adding a Certificate to an existing Keystore
------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++
 
 Adding a Certificate to an existing Keystore::
 

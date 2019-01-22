@@ -41,7 +41,9 @@ Copy the generated ``keystore.jks`` file into the ``conf`` folder of your instal
 Update the keystore password
 ----------------------------
 
-Update keystore.properties to add the Password.
+Update keystore.properties to udpdate the Password of the new keystore.jks file::
+
+    keystore.password=123456
 
 Port Number
 -----------

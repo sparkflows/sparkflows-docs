@@ -38,6 +38,11 @@ Copy the keystore into the Fire installation directory
 
 Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 
+Update the keystore password
+----------------------------
+
+Update keystore.properties to add the Password.
+
 Port Number
 -----------
 

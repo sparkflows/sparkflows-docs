@@ -3,6 +3,16 @@ January 2019
 
 The following features have been released in Jan 2019.
 
+Interactive Dashboards
+---------------------
+
+Fire now enables you to create Interactive Dashboards. Interactive Dashboards pull data from JDBC sources.
+
+Workflow Wizard
+--------------
+
+Workflow Wizard enables you to quickly create workflows of various kinds. These could be data cleaning, reporting, spam detection, churn prediction etc.
+
 Pipelines
 ---------
 
@@ -18,3 +28,9 @@ Processor Improvements
 ------------------
 
 * In RowFilter Processor, the size of conditional expression textfield has been increased.
+
+Support for Uploading Large Files
+-------------------
+
+Fire now supports uploading very large files.
+

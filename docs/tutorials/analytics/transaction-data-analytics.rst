@@ -1,7 +1,7 @@
 Transaction Data Analytics
 ==========================
 
-This workflow reads in a dataset. It then print the results from the sample dataset and analysing using graphs.
+This workflow reads in a dataset. It then prints the results from the sample dataset and analysing using graphs.
 
 Worklow
 -------

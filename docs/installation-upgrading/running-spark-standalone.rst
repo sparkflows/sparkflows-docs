@@ -76,7 +76,8 @@ Start spark as slave
 -----------------------
 
 - Goto SPARK_HOME/sbin and execute the following command.
-- ./start-slave.sh spark://localhost:7077 
+
+  - ./start-slave.sh spark://localhost:7077 
 
 
 Installing Fire

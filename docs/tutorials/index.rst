@@ -14,6 +14,8 @@ Tutorials
    nlp/index.rst
    streaming/index.rst
    ocr/index.rst
+   languages/index.rst
+   
    
    
    

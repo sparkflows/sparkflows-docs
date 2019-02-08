@@ -36,6 +36,7 @@ Install Apache Spark
   - cp -r spark-2.1.0-bin-hadoop2.7/* /usr/local/spark
 
 - Setup some Environment variables before you start spark-shell ( in .bash_profile)
+
   - export SPARK_EXAMPLES_JAR=/usr/local/spark/examples/jars/spark-examples_2.11-2.0.0.jar
   - PATH=$PATH:$HOME/bin:/usr/local/spark/bin
 

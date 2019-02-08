@@ -18,4 +18,6 @@ Installation and Configuration
    different-default-values-startup.rst
    mapr-specific-details.rst
    upgrading.rst
+   running-spark-standalone.rst
+   
    

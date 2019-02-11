@@ -12,6 +12,12 @@ Installing Spark Standalone
   - wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.rpm"
   - yum localinstall jdk-8u201-linux-x64.rpm
   - Java -version
+  
+  .. figure:: ../_assets/user-guide/spark_standalone_java_version.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
+   
 
 We need to install Scala
 ---------------------------
@@ -24,6 +30,13 @@ We need to install Scala
   - sudo ln -s /usr/lib/scala-2.10.1 /usr/lib/scala
   - export PATH=$PATH:/usr/lib/scala/bin ( we can add in .bash_profile)
   - scala -version
+  
+  
+  .. figure:: ../_assets/user-guide/spark_standalone_scala_version.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
+   
   
 Scala code runner version 2.10.1 -- Copyright 2002-2013, LAMP/EPFL
 
@@ -49,7 +62,13 @@ Install Apache Spark
 
   - Go to sparkflows home directory
   - cd /usr/local/spark/bin
-  - ./spark-shell 
+  - ./spark-shell
+  
+   .. figure:: ../_assets/user-guide/spark_standalone_spark_version.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
+   
 
 - You can start a standalone master server by executing:
 
@@ -59,6 +78,7 @@ Install Apache Spark
 - You can also find this URL on the master’s web UI, 
 
   -  http://Master_host_ip:8080/ by default
+  
   
   
   .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG

@@ -142,8 +142,6 @@ Below are the configuration for Fire to submit the jobs to the Spark Standalone 
 configurations in spark 
 ------------------------
 
-Need to Make configurations in spark  
-
 - The following configurations have to be set appropriately
 
   .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG

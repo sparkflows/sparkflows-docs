@@ -64,6 +64,7 @@ Install Apache Spark
   - cd /usr/local/spark/bin
   - ./spark-shell
   
+  
    .. figure:: ../_assets/user-guide/spark_standalone_spark_version.PNG
    :scale: 100%
    :alt: Standalone spark

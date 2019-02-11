@@ -155,7 +155,8 @@ Need to Make configurations in spark
    :align: center
 
 
- - Now goto application and try to run any workflows.
+ Now goto application and try to run any workflows
+ -----------------------------------------------------
 
   .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
    :scale: 100%

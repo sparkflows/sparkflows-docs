@@ -112,12 +112,12 @@ Installing Fire
 We install Fire on the master node.
 
 - Download Fire Jar from website
-  - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-3.1.0/2/fire-3.1.0.tgz
-  - tar xvf fire-3.1.0.tgz
+  - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
+  - tar xvf fire-x.y.z.tgz
 
 - Go to below directory:
 
-  - cd fire-3.1.0
+  - cd fire-x.y.z
   - Update the port of Fire-ui & Fire to 8090 & 8082 as default port 8080 & 8081 is used by standalone spark, we can chose any other also.
 
 - Create database & run fire & fire-ui server
@@ -133,7 +133,7 @@ Configuring Fire
 Below are the configuration for Fire to submit the jobs to the Spark Standalone Cluster.
 
 - Once The server fire & fire-ui start
-  - Login to http://localhost:8090/#/dashboard
+  - Login to http://Machine_ip:8090/#/dashboard
   - With password admin/admin.
   - Upload default applications.
   - Create a user ec2-user.

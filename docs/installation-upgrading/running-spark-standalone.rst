@@ -148,13 +148,13 @@ Below are the configuration for Fire to submit the jobs to the Spark Standalone 
    - spark.sql-context: SQLContext
    - After above updates save the configurations.
 
-   .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
+   .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
    :scale: 100%
    :alt: Standalone spark
    :align: center
 
 
-- Now goto application and try to run any workflows.
+ - Now goto application and try to run any workflows.
 
    .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
    :scale: 100%

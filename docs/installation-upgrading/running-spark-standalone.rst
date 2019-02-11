@@ -91,9 +91,52 @@ Installing Fire
 
 We install Fire on the master node.
 
+- Download Fire Jar from website
+  - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-3.1.0/2/fire-3.1.0.tgz
+  - tar xvf fire-3.1.0.tgz
+
+- Go to below directory:
+
+  - cd fire-3.1.0
+  - Update the port of Fire-ui & Fire to 8090 & 8082 as default port 8080 & 8081 is used by standalone spark, we can chose any other also.
+
+- Create database & run fire & fire-ui server
+
+  - ./create-h2-db.sh
+  - ./run-fire.sh start
+  - ./run-fire-server.sh start
+
 
 Configuring Fire
 ----------------
 
 Below are the configuration for Fire to submit the jobs to the Spark Standalone Cluster.
 
+- Once The server fire & fire-ui start
+  - Login to http://localhost:8090/#/dashboard
+  - With password admin/admin.
+  - Upload default applications.
+  - Create a user ec2-user.
+  - Login with ec2-user
+  
+
+## Need to Make configurations in spark 
+ 
+  - Go to administration section and open Spark configuration there we need to add Below details in specific setup like below:
+  - spark.master: spark://Master_host_ip:7077
+  - spark.deploy-mode: client
+  - spark.sql-context: SQLContext
+  - After above updates save the configurations.
+
+.. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
+
+
+  - Now goto application and try to run any workflows.
+
+.. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center

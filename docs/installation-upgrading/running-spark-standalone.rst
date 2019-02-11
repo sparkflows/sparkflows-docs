@@ -144,10 +144,10 @@ Need to Make configurations in spark
 --------------------------------------
  
 - Go to administration section and open Spark configuration there we need to add Below details in specific setup like below
-  - spark.master: spark://Master_host_ip:7077
-  - spark.deploy-mode: client
-  - spark.sql-context: SQLContext
-  - After above updates save the configurations.
+   - spark.master: spark://Master_host_ip:7077
+   - spark.deploy-mode: client
+   - spark.sql-context: SQLContext
+   - After above updates save the configurations.
 
   .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
    :scale: 100%

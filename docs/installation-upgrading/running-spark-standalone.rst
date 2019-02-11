@@ -60,6 +60,7 @@ Install Apache Spark
 
   -  http://localhost:8080/ by default
   
+  
   .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
    :scale: 100%
    :alt: Standalone spark

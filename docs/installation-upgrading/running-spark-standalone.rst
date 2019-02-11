@@ -140,15 +140,15 @@ Below are the configuration for Fire to submit the jobs to the Spark Standalone 
   - Login with ec2-user
   
 
- - Need to Make configurations in spark 
- - Go to administration section and open Spark configuration there we need to add Below details in specific setup like below
+ Need to Make configurations in spark 
  
+ - Go to administration section and open Spark configuration there we need to add Below details in specific setup like below
    - spark.master: spark://Master_host_ip:7077
    - spark.deploy-mode: client
    - spark.sql-context: SQLContext
    - After above updates save the configurations.
 
-   .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
+  .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
    :scale: 100%
    :alt: Standalone spark
    :align: center
@@ -156,7 +156,7 @@ Below are the configuration for Fire to submit the jobs to the Spark Standalone 
 
  - Now goto application and try to run any workflows.
 
-   .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
+  .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
    :scale: 100%
    :alt: Standalone spark
    :align: center

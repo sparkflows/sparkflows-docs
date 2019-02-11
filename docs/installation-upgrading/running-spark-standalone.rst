@@ -37,8 +37,6 @@ We need to install Scala
    :alt: Standalone spark
    :align: center
    
-  
-Scala code runner version 2.10.1 -- Copyright 2002-2013, LAMP/EPFL
 
 Install Apache Spark
 --------------------

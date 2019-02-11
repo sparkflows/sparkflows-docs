@@ -133,11 +133,11 @@ Configuring Fire
 Below are the configuration for Fire to submit the jobs to the Spark Standalone Cluster.
 
 - Once The server fire & fire-ui start
-  - Login to http://Machine_ip:8090/#/dashboard
-  - With password admin/admin.
-  - Upload default applications.
-  - Create a user ec2-user.
-  - Login with ec2-user
+   - Login to http://Machine_ip:8090/#/dashboard
+   - With password admin/admin.
+   - Upload default applications.
+   - Create a user ec2-user.
+   - Login with ec2-user
   
 
 Need to Make configurations in spark 

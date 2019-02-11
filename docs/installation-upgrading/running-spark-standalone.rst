@@ -140,8 +140,8 @@ Below are the configuration for Fire to submit the jobs to the Spark Standalone 
   - Login with ec2-user
   
 
- Need to Make configurations in spark 
- -------------------------------------
+Need to Make configurations in spark 
+--------------------------------------
  
  - Go to administration section and open Spark configuration there we need to add Below details in specific setup like below
    - spark.master: spark://Master_host_ip:7077

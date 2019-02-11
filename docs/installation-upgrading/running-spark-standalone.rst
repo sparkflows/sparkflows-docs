@@ -58,7 +58,7 @@ Install Apache Spark
 - Once started, the master will print out a spark://HOST:PORT URL
 - You can also find this URL on the master’s web UI, 
 
-  -  http://localhost:8080/ by default
+  -  http://Master_host_ip:8080/ by default
   
   
   .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG

@@ -59,6 +59,11 @@ Install Apache Spark
 - You can also find this URL on the master’s web UI, 
 
   -  http://localhost:8080/ by default
+  
+  .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
 
 Setup Spark Slave(Worker) Node
 ------------------------------

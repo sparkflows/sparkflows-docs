@@ -6,12 +6,12 @@ The following features have been released in Feb 2019.
 Scheduled Workflow Edit
 -----------------------
 
-Fire now enables you to Edit the workflow which you have already scheduled.
+Fire now enables editing the schedule for executing the workflows.
 
 Multiple users in a Group
 -------------------------
 
-Fire now enables you to add multiple users in a Group.
+Fire now enables you to add multiple users to a Group.
 
 SaveMongodb Node
 -----------------
@@ -21,6 +21,6 @@ Fire now enables you to Save your data to Mongodb using this Node.
 Interactive Dashboard Improvements
 ----------------------------------
 
-* Allow 2 items or more in y-axis in histogram Chart.
-* when 2 items on x-axis y axis should allow only one item in chart.
+* Allows 2 items or more in y-axis in histogram Chart.
+* When there are 2 items on x-axis, only one item is allowed on the y-axis.
 

@@ -3,6 +3,18 @@ February 2019
 
 The following features have been released in Feb 2019.
 
-- Added edit in schedule workflow.
-- Added Multiple users in a Group.
-- Added SaveMongodb Node.
+Scheduled Workflow Edit
+-----------------------
+
+Fire now enables you to Edit the workflow which you have already scheduled.
+
+Multiple users in a Group
+-------------------------
+
+Fire now enables you to add multiple users in a Group.
+
+SaveMongodb Node
+-----------------
+
+Fire now enables you to Save your data to Mongodb using this Node.
+

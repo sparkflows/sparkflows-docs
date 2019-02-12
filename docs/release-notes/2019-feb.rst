@@ -21,6 +21,6 @@ Fire now enables you to Save your data to Mongodb using this Node.
 Interactive Dashboard Improvements
 ----------------------------------
 
-* Allow 2 items or more in y-axis in histogram Chart
-* when 2 items on x-axis y axis should allow only one item in chart
+* Allow 2 items or more in y-axis in histogram Chart.
+* when 2 items on x-axis y axis should allow only one item in chart.
 

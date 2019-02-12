@@ -5,6 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2019-feb.rst
    2019-jan.rst
    2018-nov.rst
    3.1.0.rst

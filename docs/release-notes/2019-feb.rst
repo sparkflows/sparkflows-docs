@@ -3,3 +3,6 @@ February 2019
 
 The following features have been released in Feb 2019.
 
+- Added edit in schedule workflow.
+- Added Multiple users in a Group.
+- Added SaveMongodb Node.

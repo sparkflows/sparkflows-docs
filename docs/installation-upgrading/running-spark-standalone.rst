@@ -118,6 +118,12 @@ We install Fire on the master node.
 
   - cd fire-x.y.z
   - Update the port of Fire-ui & Fire to 8090 & 8082 as default port 8080 & 8081 is used by standalone spark, we can chose any other also.
+  - From fire-.x.y.z directory, we need to go conf/application.properties and update the port No.
+  
+  .. figure:: ../_assets/user-guide/spark_standalone_port_configurations.PNG
+   :scale: 100%
+   :alt: Standalone spark
+   :align: center
 
 - Create database & run fire & fire-ui server
 

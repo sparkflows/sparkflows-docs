@@ -6,7 +6,7 @@ The following features have been released in Feb 2019.
 Scheduled Workflow Edit
 -----------------------
 
-Fire now enables editing the schedule for executing the workflows.
+Fire now enables editing of already scheduled workflows for executing.
 
 Multiple users in a Group
 -------------------------

@@ -8,10 +8,16 @@ Below is one way to do CDC with Fire.
 Overview
 --------
 
-There is a staging table. This table would have duplicates. We do dedup at the end of the day and publish it to the final table.
+We have streaming events coming in. The events can be updates to the existing records. In the final table, we need to publish only the latest record.
 
-There is a trade off between read and writes.
+Design
+------
 
-We are getting real time events, say orders. As we get these events we append it to the staging table. If there are updates to an order, say an order got cancelled, now we have to dedup this order record.
+We keep a staging table. This table would have all the records coming in. We do dedup at the end of the day and publish it to the final table. 
 
-We join the order table with the staging table. In doing so we get multiple order entries. We take the one with the latest timestamp and drop the others. Then for a given order we have only one record in the final table.
+Let us say that we are getting real time events of Orders. As we get these events we append it to the staging table. If there are updates to an order, say an order got cancelled, we will have multiple records for that order in the stagin table.
+
+There is a final published orders table where there are no duplicates. It gets updated once a day.
+
+We join the final order table with the staging table. In doing so we get multiple order entries. We take the one with the latest timestamp and drop the others. Then for a given order we have only one record in the final table. We rewrite the final orders table with the newly calculated records.
+

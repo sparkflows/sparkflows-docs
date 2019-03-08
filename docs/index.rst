@@ -60,6 +60,14 @@ User Guide
 
    user-guide/index
    
+Machine Learning
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   machine-learning/index   
+   
 Performance
 ----------
 

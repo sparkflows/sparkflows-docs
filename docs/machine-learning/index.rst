@@ -7,9 +7,9 @@ Machine Learning
 
    feature-generation.rst
    feature-selection.rst
+   clustering.rst
    regression.rst
    classification.rst
-   clustering.rst
    prediction.rst
    evaluation.rst
 

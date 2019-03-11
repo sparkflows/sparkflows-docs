@@ -9,6 +9,7 @@ Calculate count of houses by bathrooms
 ======================================
 
 ::
+
     val outDF = inDF.groupBy("bathrms").count()
     outDF.registerTempTable("outDF")
 
@@ -17,6 +18,7 @@ For each bedroom type, find the house with the lowest price
 ===========================================================
 
 ::
+
     import org.apache.spark.sql.expressions.Window
     import org.apache.spark.sql._
     import org.apache.spark.sql.functions._

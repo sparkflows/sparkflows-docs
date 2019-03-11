@@ -9,7 +9,6 @@ Calculate count of houses by bathrooms
 ======================================
 
 val outDF = inDF.groupBy("bathrms").count()
-
 outDF.registerTempTable("outDF")
 
 

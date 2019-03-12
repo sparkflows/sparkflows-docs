@@ -3,6 +3,20 @@ HDInsight Specific Details
 
 Fire Insights can be installed on the master nodes.
 
+HDInsights and Ports
+--------------------
+
+https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-port-settings-for-services
+
+Linux-based HDInsight clusters only expose three ports publicly on the internet; 22, 23, and 443. These ports are used to securely access the cluster using SSH and services exposed over the secure HTTPS protocol.
+
+Internally, HDInsight is implemented by several Azure Virtual Machines (the nodes within the cluster) running on an Azure Virtual Network. From within the virtual network, you can access ports not exposed over the internet. For example, if you connect to one of the head nodes using SSH, from the head node you can then directly access services running on the cluster nodes.
+
+To join additional machines to the virtual network, you must create the virtual network first, and then specify it when creating your HDInsight cluster. For more information, see Extend HDInsight capabilities by using an Azure Virtual Network
+
+https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-extend-hadoop-virtual-network
+
+
 Port Configuration
 ------------------
 

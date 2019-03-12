@@ -17,6 +17,7 @@ Installation and Configuration
    configuring-pipeline.rst
    different-default-values-startup.rst
    mapr-specific-details.rst
+   hdinsight.rst
    upgrading.rst
    running-spark-standalone.rst
    

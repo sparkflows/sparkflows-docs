@@ -134,3 +134,9 @@ Login Again to cloudera Manager
   - For dependency select one with HIVE etc.
   - Select the host
   
+In YARN increase Container memory to 8GB
+-----------------------------------------
+
+- yarn.scheduler.maximum-allocation-mb
+- yarn.nodemanager.resource.memory-mb
+

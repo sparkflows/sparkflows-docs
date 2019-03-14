@@ -33,6 +33,9 @@ Just ensure that java is installed properly by checking it using below command:
    :alt: Sparkflows
    :align: center
 
+Set the below in .bash_profile
+
+- export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
 
 Selinux
 --------

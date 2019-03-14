@@ -63,3 +63,5 @@ Steps Involved in Installing Hadoop
   - cd
   - wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
   - chmod u+x cloudera-manager-installer.bin
+  - ./cloudera-manager-installer.bin
+  - Accept Licenses

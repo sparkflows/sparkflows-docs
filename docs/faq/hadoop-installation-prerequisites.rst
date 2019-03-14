@@ -69,3 +69,15 @@ Steps Involved in Installing Hadoop
 - Open ports on Linux Machine
   
   - Open the ports 7180 and 8080 
+  
+After Installation of Cloudera Manager
+--------------------------------------
+
+ - go to http://host-ip:7180/
+ - Log in with admin/admin
+ - Select Cloudera Express Installation
+ - For host, give the hostname IP (private IP)
+ - Install using Parcels
+ - Include the Kafka parcels
+ - User : sparkflows ( As per as updated on machine while creating Linux Machine)
+ - Supply the private key

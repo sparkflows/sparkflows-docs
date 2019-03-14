@@ -175,7 +175,7 @@ Upload the data directory onto HDFS
 ------------------------------------
 
 - As sparkflows user
-- cd fire-3.1.0
+- cd fire-x.y.z
 - hadoop fs -put data  
 
 Log into Sparkflows

@@ -184,4 +184,7 @@ Log into Sparkflows
 - http://host-ip:8080/#/dashboard
 - Log in with admin/admin
 - Create user sparkflows in Sparkflows. Give it admin rights. Add to group default, save it.
-- Again Login with sparkflows user and create a workflow and try to execute it.
+- Again Login with sparkflows user.
+- Go to Configurations under administration and click on infer hadoop cluster config and save it.
+- open spark and update spark2-submit under "spark.spark-submit" and save it.
+- Create a workflow and try to execute it.

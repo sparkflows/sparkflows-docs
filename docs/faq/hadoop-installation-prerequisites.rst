@@ -106,10 +106,13 @@ Add proxy user in HDFS
 Install Spark2
 --------------
 
+spark2 is installed using CSD or Parcels
+
 - https://www.cloudera.com/documentation/spark2/latest/topics/spark2_installing.html
-- cd /opt/cloudera/csd
-- sudo su
-- wget http://archive.cloudera.com/spark2/csd/SPARK2_ON_YARN-2.1.0.cloudera2.jar
-- chown cloudera-scm:cloudera-scm SPARK2_ON_YARN-2.1.0.cloudera2.jar 
-- chmod 644 SPARK2_ON_YARN-2.1.0.cloudera2.jar
-- service cloudera-scm-server restart
+
+  - cd /opt/cloudera/csd
+  - sudo su
+  - wget http://archive.cloudera.com/spark2/csd/SPARK2_ON_YARN-2.1.0.cloudera2.jar
+  - chown cloudera-scm:cloudera-scm SPARK2_ON_YARN-2.1.0.cloudera2.jar 
+  - chmod 644 SPARK2_ON_YARN-2.1.0.cloudera2.jar
+  - service cloudera-scm-server restart

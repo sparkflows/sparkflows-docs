@@ -29,7 +29,9 @@ Just ensure that java is installed properly by checking it using below command:
 
 - Java -version
 
-
+.. figure:: ../_assets/user-guide/java-version.PNG
+   :alt: Sparkflows
+   :align: center
 
 
 Selinux

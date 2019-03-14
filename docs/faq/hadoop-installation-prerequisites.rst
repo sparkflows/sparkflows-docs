@@ -50,3 +50,15 @@ To disable it permanently
 SELINUX=disabled
 
 - reboot
+
+Steps Involved in Installing Hadoop
+------------------------------------
+
+- Install bind-utils : Otherwise Cloudera Manager gives **host not found**
+
+  - yum install bind-utils
+
+- Install Cloudera Manager
+  - cd
+  - wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+  - chmod u+x cloudera-manager-installer.bin

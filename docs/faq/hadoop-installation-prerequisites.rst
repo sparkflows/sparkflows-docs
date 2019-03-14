@@ -162,7 +162,7 @@ AFTER INSTALLATION GET CDH TO USE JAVA 8
 Install Sparkflows
 ------------------
 
-- As sparkflows
+- Login to Linux Machine As sparkflows
 
   - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
   - tar xvf fire-x.y.z.tgz

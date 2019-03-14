@@ -94,8 +94,11 @@ Add proxy user in HDFS
 -----------------------
 
 - Add sparkflows as proxy user in HDFS
+
   - https://www.sparkflows.io/connecting-sparkflows-with-spark-cl
   - Cluster-wide Advanced Configuration Snippet (Safety Valve) for core-site.xml
+  
     - hadoop.proxyuser.sparkflows.hosts
     - hadoop.proxyuser.sparkflows.groups
+    
 - Restart Cluster services

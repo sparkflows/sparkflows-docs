@@ -82,3 +82,9 @@ After Installation of Cloudera Manager
   - Include the Kafka parcels
   - User : sparkflows ( As per as updated on machine while creating Linux Machine)
   - Supply the private key
+
+.. figure:: ../_assets/user-guide/clouderaconfigurations.PNG
+   :alt: Sparkflows
+   :align: center
+   
+  - Install Core with Spark 

@@ -140,3 +140,11 @@ In YARN increase Container memory to 8GB
 - yarn.scheduler.maximum-allocation-mb
 - yarn.nodemanager.resource.memory-mb
 
+AFTER INSTALLATION GET CDH TO USE JAVA 8
+-----------------------------------------
+
+- In Spark configuration in Cloudera Manager set the below for spark-defaults.conf
+
+  - spark.executorEnv.JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
+  - then redeploy the client configurations
+  - Restart the cluster service

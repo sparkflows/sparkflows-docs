@@ -116,3 +116,21 @@ spark2 is installed using CSD or Parcels
   - chown cloudera-scm:cloudera-scm SPARK2_ON_YARN-2.1.0.cloudera2.jar 
   - chmod 644 SPARK2_ON_YARN-2.1.0.cloudera2.jar
   - service cloudera-scm-server restart
+  
+Login Again to cloudera Manager 
+-------------------------------
+
+- In Cloudera Manager:
+
+  - Go to Hosts/Parcels
+  - Download Spark2
+  - Distribute Spark2
+  - Activate Spark2
+  
+- Add Spark2 service in Cloudera Manager
+
+  - Go to Cluster/Add Service
+  - Add Spark2 Service
+  - For dependency select one with HIVE etc.
+  - Select the host
+  

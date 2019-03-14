@@ -177,3 +177,10 @@ Upload the data directory onto HDFS
 - As sparkflows user
 - cd fire-3.1.0
 - hadoop fs -put data  
+
+Log into Sparkflows
+-------------------
+
+- Log in with admin/admin
+- Create user sparkflows in Sparkflows. Give it admin rights. Add to group default, save it.
+- Again Login with sparkflows user and create a workflow and try to execute it.

@@ -88,3 +88,14 @@ After Installation of Cloudera Manager
      :align: center
    
   - Install Core with Spark 
+  - Update default Configurations in it.
+  
+Add proxy user in HDFS
+-----------------------
+
+- Add sparkflows as proxy user in HDFS
+  - https://www.sparkflows.io/connecting-sparkflows-with-spark-cl
+  - Cluster-wide Advanced Configuration Snippet (Safety Valve) for core-site.xml
+    - hadoop.proxyuser.sparkflows.hosts
+    - hadoop.proxyuser.sparkflows.groups
+- Restart Cluster services

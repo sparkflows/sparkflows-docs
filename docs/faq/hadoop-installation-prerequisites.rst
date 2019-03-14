@@ -8,5 +8,4 @@ Below are the pre-requisites for installing Hadoop:
 - IPV6 disabled
 - Selinux disabled
 
-Linux
-------
+

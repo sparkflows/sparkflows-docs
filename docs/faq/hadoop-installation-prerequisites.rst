@@ -65,3 +65,7 @@ Steps Involved in Installing Hadoop
   - chmod u+x cloudera-manager-installer.bin
   - ./cloudera-manager-installer.bin
   - Accept Licenses
+  
+- Open ports on Linux Machine
+  
+  - Open the ports 7180 and 8080 

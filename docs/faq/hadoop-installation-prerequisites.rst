@@ -158,3 +158,15 @@ AFTER INSTALLATION GET CDH TO USE JAVA 8
   - spark.executorEnv.JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
   - then redeploy the client configurations
   - Restart the cluster service
+
+Install Sparkflows
+------------------
+
+- As sparkflows
+
+  - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
+  - tar xvf fire-x.y.z.tgz
+  - cd fire-x.y.z
+  - ./create-h2-db.sh
+  - ./run-fire.sh start
+  - ./run-fire-server.sh start

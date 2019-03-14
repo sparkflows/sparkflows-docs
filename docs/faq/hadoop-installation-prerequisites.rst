@@ -41,3 +41,12 @@ Selinux
 --------
 
 Just ensure that selinux should be disabled so that we can install Hadoop on it.
+
+- sudo setenforce 0
+
+To disable it permanently
+
+- edit /etc/selinux/config
+SELINUX=disabled
+
+- reboot

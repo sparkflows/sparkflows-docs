@@ -59,6 +59,7 @@ Steps Involved in Installing Hadoop
   - yum install bind-utils
 
 - Install Cloudera Manager
+
   - cd
   - wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
   - chmod u+x cloudera-manager-installer.bin

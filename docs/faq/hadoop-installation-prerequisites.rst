@@ -181,6 +181,7 @@ Upload the data directory onto HDFS
 Log into Sparkflows
 -------------------
 
+- http://host-ip:8080/#/dashboard
 - Log in with admin/admin
 - Create user sparkflows in Sparkflows. Give it admin rights. Add to group default, save it.
 - Again Login with sparkflows user and create a workflow and try to execute it.

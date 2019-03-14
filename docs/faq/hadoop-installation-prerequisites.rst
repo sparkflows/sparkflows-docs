@@ -170,3 +170,10 @@ Install Sparkflows
   - ./create-h2-db.sh
   - ./run-fire.sh start
   - ./run-fire-server.sh start
+  
+Upload the data directory onto HDFS
+------------------------------------
+
+- As sparkflows user
+- cd fire-3.1.0
+- hadoop fs -put data  

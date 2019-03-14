@@ -103,6 +103,16 @@ Add proxy user in HDFS
     
 - Restart Cluster services
 
+Create HDFS directory 
+---------------------
+
+Create HDFS directory for sparkflows user (we can create as per as requirements)
+
+- sudo su
+- su hdfs
+- hadoop fs -mkdir /user/sparkflows
+- hadoop fs -chown sparkflows:sparkflows /user/sparkflows
+
 Install Spark2
 --------------
 

@@ -28,7 +28,7 @@ It requires java 8 to be installed on the Linux Machine. Below are the steps add
 
 Just ensure that java is installed properly by checking it using below command:
 
-- Java -version
+- java -version
 
 .. figure:: ../_assets/user-guide/java-version.PNG
    :alt: Sparkflows

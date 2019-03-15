@@ -56,7 +56,7 @@ Execute the following command to reflect the changes.
 Selinux
 --------
 
-Just ensure that selinux should be disabled so that we can install Hadoop on it.
+Just ensure that selinux should be disabled so that it cant impact Hadoop performance.
 
 - sudo setenforce 0
 

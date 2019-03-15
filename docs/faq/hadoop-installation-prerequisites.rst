@@ -38,6 +38,21 @@ Set the below in .bash_profile
 
 - export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
 
+IPV6 disabled
+-------------
+
+- Edit file /etc/sysctl.conf
+  - vi /etc/sysctl.conf
+  
+Add the following lines:
+
+- net.ipv6.conf.all.disable_ipv6 = 1
+- net.ipv6.conf.default.disable_ipv6 = 1
+
+Execute the following command to reflect the changes.
+
+- sysctl -p
+
 Selinux
 --------
 

@@ -118,3 +118,19 @@ Exception::
   org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:161) at
   org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:206) at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:121) at 
   org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+  
+Getting Exception on HDInsight : No FileSystem for scheme: wasbs
+----------------------------------------------------------------
+
+When running the jobs on the cluster, you are running into the exception below.
+
+* The reason for it is that it is not understanding the scheme ``wasb``. In order to fix it, run ``./run-fire-spark-submit.sh start`` instead of ``./run-fire.sh start``.
+* This enables getting the distribution libraries into the executable.
+
+Exception::
+
+  Error : java.io.IOException: No FileSystem for scheme: wasbs at   
+  org.apache.hadoop.fs.FileSystem.getFileSystemClass(FileSystem.java:2586) at 
+  org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2593) at 
+  org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:91) at 
+  org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2632)

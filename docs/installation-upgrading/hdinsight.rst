@@ -44,10 +44,10 @@ Configure in Fire Insights
 
 In Fire Insights, under Administration/Configuration, configure the following:
 
-hdfs.namenodeURI=wasb://
-app.runOnCluster=true
-app.postMessageURL=
-app.sparkSubmitJar=
+* hdfs.namenodeURI=wasb://
+* app.runOnCluster=true
+* app.postMessageURL=
+* app.sparkSubmitJar=
 
 
 

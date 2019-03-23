@@ -5,5 +5,4 @@ Authentication
 .. toctree::
    :maxdepth: 2
 
-   fire-server-administration.rst
-   user-administration.rst
+   configuring-ldap.rst

@@ -18,6 +18,14 @@ Installation and Upgrading
    :maxdepth: 1
 
    installation-upgrading/index
+   
+Authentication
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   authentication/index   
 
 Operating Fire Insights
 --------------------

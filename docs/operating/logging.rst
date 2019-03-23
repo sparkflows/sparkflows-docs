@@ -2,6 +2,7 @@ Logging in Sparkflows
 =====================
 
 In Sparkflows there are 2 processes which run:
+
 * fire server
 * fire engine
 

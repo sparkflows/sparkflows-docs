@@ -5,7 +5,6 @@ Installation and Configuration
    :maxdepth: 2
 
    installation/index
-   authentication/index
    database/index
    connecting-spark-cluster.rst
    customizing/index

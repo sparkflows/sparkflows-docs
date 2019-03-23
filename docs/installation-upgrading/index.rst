@@ -13,7 +13,6 @@ Installation and Configuration
    yarn-configuration.rst
    configuring-https-fire.rst
    configuring-kerberos.rst
-   configuring-ldap.rst
    configuring-pipeline.rst
    different-default-values-startup.rst
    mapr-specific-details.rst

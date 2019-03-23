@@ -1,7 +1,7 @@
-Logging in Sparkflows
+Logs in Fire Insights
 =====================
 
-In Sparkflows there are 2 processes which run:
+In Fire Insights there are 2 processes which run:
 
 * fire server
 * fire engine

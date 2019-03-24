@@ -10,6 +10,8 @@ In order the configure OAuth in Fire Insights, add the OAuth paramets into ``con
 
 Below is an example of configuring OAuth with Okta.
 
+::
+
   # external provider
   oauth.client.clientId: 0oadvfdsfsdA7Y68356
   oauth.client.clientSecret: YSWFdZf9kfdsfsdfsdfsdnI0SVrswOJpHl

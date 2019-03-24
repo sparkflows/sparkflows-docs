@@ -6,7 +6,7 @@ Fire Insights supports OAuth.
 Configuring OAuth
 -----------------
 
-In order the configure OAuth in Fire Insights, add the OAuth paramets into ``conf/application.properties``.
+In order the configure OAuth in Fire Insights, add the OAuth configuration parameters to ``conf/application.properties``.
 
 Below is an example of configuring OAuth with Okta.
 

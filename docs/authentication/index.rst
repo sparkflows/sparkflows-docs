@@ -11,6 +11,6 @@ Fire Insights supports various types of authencations:
 .. toctree::
    :maxdepth: 2
 
-   database-authtication.rst
+   database-authentication.rst
    ldap-authentication.rst
    oauth.rst

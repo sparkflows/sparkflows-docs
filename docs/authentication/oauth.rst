@@ -1,5 +1,5 @@
-OAuth
-=====
+OAuth Authentication
+====================
 
 Fire Insights supports OAuth Authentication.
 

@@ -1,7 +1,9 @@
 HDInsight Specific Details
 ==========================
 
-Fire Insights can be installed on the master nodes.
+Fire Insights runs seamlessly on Azure HDInsight.
+
+Fire can be installed on the master or edge nodes of the cluster.
 
 HDInsights and Ports
 --------------------
@@ -34,15 +36,15 @@ Edit conf/application.properties::
 Open the Port for access
 ------------------------
 
-Now port 8090 needs to be opened.
+Now the port 8090 needs to be opened to be accessed by the users using their Browser.
 
 - https://stackoverflow.com/questions/45239566/accessing-http-on-custom-port-in-azure-hdinsight-cluster
 
 
-Configure in Fire Insights
+Connecting Fire Insights to the HDInsight Cluster
 ----------------------------
 
-In Fire Insights, under Administration/Configuration, configure the following:
+In Fire Insights, under Administration/Configuration, configure the following for it to be able to connect to the HDInsight cluster.
 
 * hdfs.namenodeURI=wasb://
 * app.runOnCluster=true

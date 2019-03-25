@@ -6,7 +6,9 @@ Fire Insights supports OAuth Authentication.
 Create Users in Fire
 --------------------
 
-Create the user in Fire under Administration/Users.
+First create the user in Fire under Administration/Users.
+
+Log into Fire with the ``admin`` user in order to be able to create the New Users.
 
 
 Configuring OAuth

@@ -3,7 +3,10 @@ OAuth Authentication
 
 Fire Insights supports OAuth Authentication.
 
-Users have to be first created in the Fire database for them to use Fire. However they would be authenticated by the external OAuth provider.
+Create Users in Fire
+--------------------
+
+Create the user in Fire under Administration/Users.
 
 
 Configuring OAuth

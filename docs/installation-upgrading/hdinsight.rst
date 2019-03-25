@@ -51,6 +51,7 @@ In Fire Insights, under Administration/Configuration, configure the following fo
 * app.postMessageURL=
 * app.sparkSubmitJar=
 
+Clicking on ``Infer Hadoop Configuration`` would correctly infer these. Hit ``Save`` after that.
 
 
 

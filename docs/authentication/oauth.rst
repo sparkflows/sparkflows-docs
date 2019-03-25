@@ -1,7 +1,10 @@
 OAuth
 =====
 
-Fire Insights supports OAuth.
+Fire Insights supports OAuth Authentication.
+
+The users have to be first created in the Fire database for them to use Fire. However they would be authenticated by the external OAuth provider.
+
 
 Configuring OAuth
 -----------------

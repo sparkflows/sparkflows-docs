@@ -6,7 +6,7 @@ Fire Insights supports OAuth Authentication.
 Create Users in Fire
 --------------------
 
-First create the user in Fire under Administration/Users.
+First create the user in Fire under ``Administration/Users``.
 
 Log into Fire with the ``admin`` user in order to be able to create the New Users.
 
@@ -28,6 +28,14 @@ Below is an example of configuring OAuth in Fire with Okta.
   oauth.client.clientAuthenticationScheme: form
   oauth.client.scope: openid profile email
   oauth.resource.userInfoUri: https://xyz.okta.com/oauth2/default/v1/userinfo
+
+
+Fire OAuth URL
+--------------
+
+In order to log in the user into Fire using OAuth, using the following URL:
+
+* http://machine_name:port/login/oauth
 
 
 

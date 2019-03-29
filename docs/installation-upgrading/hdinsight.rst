@@ -41,6 +41,19 @@ Now the port 8090 needs to be opened to be accessed by the users using their Bro
 - https://stackoverflow.com/questions/45239566/accessing-http-on-custom-port-in-azure-hdinsight-cluster
 
 
+Add proxy user
+--------------
+
+Fire needs to impersonate the logged in user.
+
+In Ambari for the HDInsight cluster, add the Fire user in HDFS to be the proxy user.
+
+Suppose Fire is installed as the user ``fire``. Add the below to HDFS/Configuration in Ambari::
+
+    hadoop.proxyuser.fire.groups=*
+    hadoop.proxyuser.fire.hosts=*
+
+
 Connecting Fire Insights to the HDInsight Cluster
 ----------------------------
 

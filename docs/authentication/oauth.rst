@@ -33,9 +33,13 @@ Below is an example of configuring OAuth in Fire with Okta.
 Fire OAuth URL
 --------------
 
-In order to log in the user into Fire using OAuth, using the following URL:
+In order to log in the user into Fire using OAuth, use the following URL:
 
 * http://machine_name:port/login/oauth
+
+This URL will take the user to the OAuth login page. After the user logs in there, the user is redirected back to Fire and is logged in.
+
+If the user is already logged in, going to the above URL, automatically brings up the Fire page for the user.
 
 
 

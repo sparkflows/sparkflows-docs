@@ -1,5 +1,5 @@
-REST API's in Fire
-==================
+REST API's
+==========
 
 Sparkflows provides REST API for interacting with it.
 

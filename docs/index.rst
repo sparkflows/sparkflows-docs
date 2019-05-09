@@ -131,7 +131,7 @@ REST API's
 .. toctree::
    :maxdepth: 2
 
-   rest-api/index   
+   rest-api-old/index   
 
 Indices and tables
 ------------------

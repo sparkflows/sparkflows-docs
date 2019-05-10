@@ -16,3 +16,9 @@ It then saves the data into MongoDB.
    :align: center
    :width: 60%
 
+The below diagram shows the dialog box for the SaveMongoDB Processor.
+
+.. figure:: ../../_assets/tutorials/mongodb/Savemongodbprocessor.PNG
+   :alt: SaveMongoDB
+   :align: center
+   :width: 60%

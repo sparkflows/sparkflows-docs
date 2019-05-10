@@ -3,6 +3,8 @@ REST API with Python
 
 Below is an example program for accessing Fire Insights REST API's with Python.
 
+```
+
 #!/usr/bin/python
 
 # This python script logs into an instance of sparkflows, and then gets the list of Processors/Operators supported
@@ -17,7 +19,7 @@ payload = {'username':'admin', 'password':'admin'}
 urllogin = 'http://localhost:8080/login'
 
 # get list of processors url
-urlprocessors = '<hostname>:8080/nodeList'
+urlprocessors = 'http://localhost:8080/nodeList'
 
 with requests.session() as s:
 
@@ -35,3 +37,5 @@ with requests.session() as s:
     print (i['name'])
     
     
+```
+

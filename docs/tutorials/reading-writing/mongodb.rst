@@ -1,4 +1,4 @@
-Reading and Writing from MongoDB
+Reading and Writing to MongoDB
 ================================
 
 MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need, Here we are loading data from HDFS  and Saving it into MongoDB.

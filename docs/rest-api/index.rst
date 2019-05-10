@@ -1,5 +1,5 @@
-OLD REST API's
-==============
+REST API's
+==========
 
 Sparkflows provides REST API for interacting with it.
 

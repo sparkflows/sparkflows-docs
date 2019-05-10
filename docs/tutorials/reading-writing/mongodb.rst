@@ -10,3 +10,9 @@ The below workflow reads in the Housing Dataset which is in CSV format from HDFS
 
 It then saves the data into MongoDB.
 
+
+.. figure:: ../../_assets/tutorials/mongodb/savemongodb.PNG
+   :alt: SaveMongoDB
+   :align: center
+   :width: 60%
+

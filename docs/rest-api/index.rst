@@ -1,5 +1,5 @@
-REST API's
-==========
+OLD REST API's
+==============
 
 Sparkflows provides REST API for interacting with it.
 
@@ -14,6 +14,15 @@ There are various categories of REST API's available:
    :maxdepth: 2
 
    login.rst
+   processors.rst
+   dataset.rst
+   workflow.rst
+   workflow-execution.rst
+   dashboard.rst
+   hdfs.rst
+   hive.rst
+   scheduler.rst
+   
    
    
 

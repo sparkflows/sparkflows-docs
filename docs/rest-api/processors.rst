@@ -37,5 +37,7 @@ This provides the rules associated with the nodes::
 
 Get Node Count
 --------------
+
+This gets the count of the Processors::
  
    curl -X GET --header 'Accept: application/json'   http://localhost:8080/getNodeCount   -b /tmp/cookies.txt

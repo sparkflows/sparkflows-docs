@@ -17,8 +17,9 @@ It executes a given Workflow.
 
 It returns the workflow execution id::
 
-  curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "workflowId:1" -X POST -b /tmp/cookies.txt -d '{ "userName": "admin", "sparkConfig": "", "libJars": "" }' localhost:8080/workflowexecuterest
-  
+  curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "workflowId:1" -X POST -b /tmp/cookies.txt -d '{ "userName": "admin", "userId": 1, "sparkConfig": "", "libJarsList": [], "emailOnFailure": "", "emailOnSuccess": "" }' localhost:8080/workflowexecuterest
+
+
 Get Analysis Flow Executions
 ----------------------------
 

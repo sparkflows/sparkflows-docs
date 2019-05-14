@@ -22,6 +22,7 @@ Fire SageMaker Processors
 SageMaker Processors include:
 
 * KMeansSageMakerEstimator
+* XGBoostSageMakerEstimator 
 
 
 AWS Provided Policies

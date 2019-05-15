@@ -7,7 +7,7 @@ New Processors
 --------------
 
 Outlier Detection
------------------
++++++++++++++++++
 
 * New Node for Outlier Detection
 
@@ -18,3 +18,13 @@ Improvements to HDFS Browser
 * Displaying an icon indicating whether it is file or directory
 * Better display of error messages
 
+Applications
+------------
+
+* Datasets tab is the first tab now
+
+Datasets
+--------
+
+* Better display of the Create/Edit dataset page
+* Do not display JDBC passwords

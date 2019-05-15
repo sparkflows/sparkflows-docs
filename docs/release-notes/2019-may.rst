@@ -1,2 +1,20 @@
-2019 May
+May 2019
 ========
+
+The following features have been released in May 2019.
+
+New Processors
+--------------
+
+Outlier Detection
+-----------------
+
+* New Node for Outlier Detection
+
+Improvements to HDFS Browser
+----------------------------
+
+* Displaying user permission for each file/directory
+* Displaying an icon indicating whether it is file or directory
+* Better display of error messages
+

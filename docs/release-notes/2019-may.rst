@@ -28,3 +28,9 @@ Datasets
 
 * Better display of the Create/Edit dataset page
 * Do not display JDBC passwords
+
+Workflow Editor
+---------------
+
+* Better display of the processors
+* Fix for tabs in dialogs not showing up (eg. in LogisticRegression Processor)

@@ -109,4 +109,15 @@ Running Example Workflows
     
     - Execute the workflows
     
+Adding a new user
+-----------------
+
+Create the home directory on HDFS for the new user.
+
+For example, for user 'test':
+
+- hadoop fs -mkdir /user/test
+- hadoop fs -chown test:test /user/test
+
+Create the user in Fire Insights if not already created.
 

@@ -15,3 +15,16 @@ def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: D
 * id : id of the current processor
 * inDF : Input PySpark dataframe
 
+
+WorkflowContext
+---------------
+
+WorkflowContext provides the following methods for outputting data to the user:
+
+* def outStr(self, text: str):
+* def outNameValue(self, nm: str, val: str):
+* def outSchema(self, id: int, title: str, df: DataFrame):
+* def outDataFrame(self, id: int, title: str, df: DataFrame):
+* def outPandasDataframe(self, id: int, title: str, df: pd.DataFrame):
+* def outndarray(self, id: int, title: str, df: np.ndarray):
+

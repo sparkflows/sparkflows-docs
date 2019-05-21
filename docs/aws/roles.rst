@@ -22,3 +22,8 @@ aws configure
   - Entery your awsSecretAccessKey
   
 
+View S3 Buckets
+---------------
+
+- aws s3 ls
+

@@ -11,4 +11,14 @@ Now the EMR cluster would have access to the S3 buckets.
 Installing aws-cli on mac
 ------------------------
 
-brew install aws-cli
+brew install awscli
+
+
+Configure AWS Credentials
+-------------------------
+
+aws configure
+  - Enter your awsAccessKeyId
+  - Entery your awsSecretAccessKey
+  
+

@@ -5,7 +5,7 @@ User Guide
 .. toctree::
    :maxdepth: 2
 
-   defining-datasets.rst
+   datasets.rst
    creating-workflows.rst
    executing-workflows.rst
    passing-parameters-to-workflows.rst

@@ -37,7 +37,7 @@ Copy all files from local_direcory to s3://bucket-name/dir1::
 Delete All Files in Directory
 -------------------------
 
-- aws s3 rm --recursive s3://bucket_name/dir1/
+- aws s3 rm s3://bucket_name/dir1/ --recursive
 
 
 Setting Roles and Policies for EMR

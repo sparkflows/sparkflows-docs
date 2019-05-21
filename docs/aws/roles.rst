@@ -24,7 +24,13 @@ View S3 Buckets
 View S3 Directory
 ---------------
 
-- aws s3 ls bucket_name/dir1/
+- aws s3 ls s3://bucket_name/dir1/
+
+Delete Files in Directory
+-------------------------
+
+- aws s3 rm s3://bucket_name/dir1/*
+
 
 Copy files to S3
 ---------------------

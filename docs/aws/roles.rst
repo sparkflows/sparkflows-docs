@@ -27,9 +27,11 @@ View S3 Buckets
 
 - aws s3 ls
 
-Copy files in a directory to S3 Bucket
+Copy files to S3
 ---------------------
 
-aws s3 cp local_directory s3://bucket-name --recursive
+Copy all files from local_direcory to s3://bucket-name/dir1::
+
+  aws s3 cp local_directory s3://bucket-name/dir1 --recursive
 
 

@@ -21,6 +21,11 @@ View S3 Buckets
 
 - aws s3 ls
 
+View S3 Directory
+---------------
+
+- aws s3 ls bucket_name/dir1/
+
 Copy files to S3
 ---------------------
 

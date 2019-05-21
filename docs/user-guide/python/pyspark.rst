@@ -26,7 +26,8 @@ WorkflowContext provides the following methods for outputting data to the user::
   * def outSchema(self, id: int, title: str, df: DataFrame)
   * def outDataFrame(self, id: int, title: str, df: DataFrame)
   * def outPandasDataframe(self, id: int, title: str, df: pd.DataFrame)
-  * def outndarray(self, id: int, title: str, df: np.ndarray)
+  * def outNumpy1darray(self, id: int, title: str, arr: np.ndarray)
+  * def outNumpy2darray(self, id: int, title: str, arr: np.ndarray)
 
 Example
 -------

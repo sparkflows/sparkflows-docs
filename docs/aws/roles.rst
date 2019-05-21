@@ -4,13 +4,14 @@ AWS Setup
 Installing aws-cli on mac
 ------------------------
 
-brew install awscli
+  brew install awscli
 
 
 Configure AWS Credentials
 -------------------------
 
-aws configure
+aws configure::
+
   - Enter your awsAccessKeyId
   - Entery your awsSecretAccessKey
   

@@ -60,13 +60,61 @@ AWS Integration
 
    aws/index
    
-User Guide
-----------
+Datasets
+--------
 
 .. toctree::
    :maxdepth: 2
 
-   user-guide/index
+   datasets/index
+
+Workflows
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   workflows/index
+
+Visualizations
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   visualizations/index
+
+Scheduling and Notifications
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   scheduling/index
+
+Notifications
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   datasets/index
+
+Python
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   python/index
+
+More
+----
+
+.. toctree::
+   :maxdepth: 2
+
+   more/index
    
 Machine Learning
 ----------

@@ -92,14 +92,6 @@ Scheduling and Notifications
 
    scheduling/index
 
-Notifications
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   datasets/index
-
 Python
 --------
 

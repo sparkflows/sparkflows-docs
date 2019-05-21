@@ -26,18 +26,18 @@ View S3 Directory
 
 - aws s3 ls s3://bucket_name/dir1/
 
-Delete All Files in Directory
--------------------------
-
-- aws s3 rm --recursive s3://bucket_name/dir1/
-
-
 Copy files to S3
 ---------------------
 
 Copy all files from local_direcory to s3://bucket-name/dir1::
 
   aws s3 cp local_directory s3://bucket-name/dir1 --recursive
+
+
+Delete All Files in Directory
+-------------------------
+
+- aws s3 rm --recursive s3://bucket_name/dir1/
 
 
 Setting Roles and Policies for EMR

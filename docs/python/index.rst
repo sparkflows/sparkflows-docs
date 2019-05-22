@@ -1,5 +1,5 @@
-Python
-======
+Python Integration
+===================
 
 Sparkflows supports Python in Workflows in a few ways:
 

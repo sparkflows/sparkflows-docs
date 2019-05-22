@@ -1,4 +1,4 @@
-Classifications
+Classification
 ==========
 
 Apache Spark provides a number of Algorithms for Classification.

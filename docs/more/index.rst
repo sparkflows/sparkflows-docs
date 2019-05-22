@@ -1,6 +1,6 @@
 
-More
-====
+Pipeline/OCR/NLP/Jupyter
+=========================
 
 .. toctree::
    :maxdepth: 2

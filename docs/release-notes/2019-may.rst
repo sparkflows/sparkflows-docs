@@ -38,6 +38,6 @@ Workflow Editor
 ---------------
 
 * Ability to create DataSet nodes by browsing the list of datasets
-* HIVE db browser on the LHS
+* HIVE DB browser on the LHS
 * Better display of the processors
 * Fix for tabs in dialogs not showing up (eg. in LogisticRegression Processor)

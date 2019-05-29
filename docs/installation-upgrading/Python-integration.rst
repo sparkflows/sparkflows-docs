@@ -1,7 +1,7 @@
 Python-integration
 ==================
 
-In this page it Explain How to setup python 3 & virtual environment.
+It Explain how to setup python 3,virtual environment & other package required to run pyspark workflows.
 
 Install Python 3
 -----------------

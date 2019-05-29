@@ -50,8 +50,7 @@ Steps involved in installing pyspark & other packages.
   - pip install tornado
   - pip install requests
   - pip install pyspark==2.1.2
-  - pip install pyspark[sql]
-    
+      
 Install Tensorflow
 -------------------
 

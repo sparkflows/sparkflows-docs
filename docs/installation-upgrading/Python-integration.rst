@@ -52,4 +52,15 @@ Steps involved in installing pyspark & other packages.
   - pip install pyspark==2.1.2
   - pip install pyspark[sql]
     
-  
+Install Tensorflow
+-------------------
+
+Steps involved in installing Tensorflow
+   - pip install tensorflow
+   
+Install Keras
+-------------
+
+Steps involved in installing Keras
+    - pip install keras
+

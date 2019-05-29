@@ -42,3 +42,14 @@ Steps involved in Installing Pandas and scikit-learn in Virtual environment
   - source venv/bin/activate
   - pip install pandas
   - pip install scikit-learn  
+  
+Install pyspark and other packages
+-----------------------------------
+
+Steps involved in installing pyspark & other packages.
+  - pip install tornado
+  - pip install requests
+  - pip install pyspark==2.1.2
+  - pip install pyspark[sql]
+    - https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html
+  

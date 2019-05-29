@@ -51,5 +51,5 @@ Steps involved in installing pyspark & other packages.
   - pip install requests
   - pip install pyspark==2.1.2
   - pip install pyspark[sql]
-    - https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html
+    
   

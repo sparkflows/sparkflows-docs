@@ -3,6 +3,11 @@ May 2019
 
 The following features have been released in May 2019.
 
+PySpark Engine
+---------------
+
+* New engine for running PySpark
+
 New Processors
 --------------
 
@@ -32,5 +37,7 @@ Datasets
 Workflow Editor
 ---------------
 
+* Ability to create DataSet nodes by browsing the list of datasets
+* HIVE db browser on the LHS
 * Better display of the processors
 * Fix for tabs in dialogs not showing up (eg. in LogisticRegression Processor)

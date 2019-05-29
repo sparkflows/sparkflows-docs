@@ -30,7 +30,6 @@ Install and configure virtualenv to point to python 3.6
 -------------------------------------------------------
 
 Steps involved in Installing and configuring virtualenv to point to python 3.6
-  
   - sudo pip install virtualenv
   - virtualenv -p /usr/local/bin/python3.6 ~/venv
   - venv/bin/activate

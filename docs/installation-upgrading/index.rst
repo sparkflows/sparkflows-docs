@@ -19,5 +19,6 @@ Installation and Configuration
    hdinsight.rst
    upgrading.rst
    running-spark-standalone.rst
+   Python-Integration.rst
    
    

@@ -3,6 +3,8 @@ Installing and Setting up Python
 
 This page explains how to setup python 3 virtual environment & other package required to run pyspark workflows.
 
+Python is only needed is you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
+
 Install Python 3
 ----------------
 

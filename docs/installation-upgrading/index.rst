@@ -4,7 +4,9 @@ Installation and Configuration
 .. toctree::
    :maxdepth: 2
 
-   installation/index
+   mac-install.rst
+   windows-install.rst
+   python-install.rst
    database/index
    connecting-spark-cluster.rst
    customizing/index

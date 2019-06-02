@@ -1,8 +1,12 @@
 Installing and Setting up Python
 ++++++++++++++++++++++++++++++++
 
+This page explains how to setup python 3 virtual environment & other package required to run pyspark workflows.
+
 Install Python 3
 ----------------
+
+Steps involved in installing Python-3.6 on Centso7. Do this with the Root user.
 
   * cat /etc/os-release
   * curl -O https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz

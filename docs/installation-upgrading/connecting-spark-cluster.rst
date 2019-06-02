@@ -128,4 +128,18 @@ Also create the home directory for the users on HDFS. The example code below cre
 * hadoop fs -chown xyz:hadoop /user/xyz
 
 
+Setting up PySpark
+-------------------
+
+If running with PySpark the following might need to be added:
+
+spark-env.sh::
+
+    export PYSPARK_PYTHON=/home/ec2-user/venv/bin/python
+    export PYSPARK_DRIVER_PYTHON=/home/ec2-user/venv/bin/python
+
+spark-defaults.conf::
+
+    spark.yarn.appMasterEnv.PYSPARK_PYTHON=/home/ec2-user/venv/bin/python
+    spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=/home/ec2-user/venv/bin/python
 

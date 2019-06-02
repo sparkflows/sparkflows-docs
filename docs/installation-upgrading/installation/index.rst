@@ -14,4 +14,6 @@ Fire stores its metadata in a Relational Store. It can be H2 or MySQL.
 
    mac-install
    windows-install
+   python-install
+   
 

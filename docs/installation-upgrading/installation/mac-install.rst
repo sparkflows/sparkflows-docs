@@ -62,6 +62,7 @@ Quick Installation Steps of Fire with H2 DB
 ::Note
     Python can be set up with the Python virtual environment.
     source venv/bin/activate
+    If running with PySpark the following might need to be added to spark-env.sh : export PYSPARK_PYTHON=/home/user/venv/bin/python
     
 
 Detailed Installation Steps

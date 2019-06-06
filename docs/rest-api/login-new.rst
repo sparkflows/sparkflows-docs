@@ -24,9 +24,6 @@ Set client Id and Secret key in request headers:
 - Secret – (****)  
     
     
-Updated As below
-=================
-
  .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token1.PNG
    :alt: Token
    :align: center              

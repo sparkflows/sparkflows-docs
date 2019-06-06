@@ -15,7 +15,10 @@ By using Grant Type – Password
 Post Request:
 ==============
  
-- http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password>   
+- http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
+
+Set client Id and Secret key in request headers:
+------------------------------------------------
  
                
                

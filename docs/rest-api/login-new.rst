@@ -19,8 +19,8 @@ By using Grant Type – Password
  
  - Set client Id and Secret key in request headers:
  
-               - Client Id = sparkflows
-               - Secret – (*****)
+    - Client Id = sparkflows
+    - Secret – (*****)
                
                
 

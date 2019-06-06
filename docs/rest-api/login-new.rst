@@ -9,6 +9,9 @@ Right Now we are supporting Two method Of getting Token to access Fire:
 - By using Grant Types – Password
 - By using Grant Types – Authorization code
 
+By using Grant Type – Password
+------------------------------
+
 
  
    

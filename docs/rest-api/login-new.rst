@@ -12,7 +12,8 @@ Right Now we are supporting Two method Of getting Token to access Fire:
 By using Grant Type – Password
 ------------------------------
 
-
+Post Request:
+==============
  
    
  

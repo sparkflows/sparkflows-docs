@@ -68,7 +68,7 @@ Get the access token
    :alt: Token
    :align: center
 
-We have token now. Use it for requesting rest apis
+We have token now, Use it for requesting rest apis
 ---------------------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token7.PNG

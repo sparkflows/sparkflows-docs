@@ -60,3 +60,8 @@ Get the access token
    :alt: Token
    :align: center 
 
+- Click on Use token
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token6.PNG
+   :alt: Token
+   :align: center

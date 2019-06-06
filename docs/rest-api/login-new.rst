@@ -54,3 +54,9 @@ Get the access token
    :alt: Token
    :align: center 
 
+- Fill up the username and password and click on signIn
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token5.PNG
+   :alt: Token
+   :align: center 
+

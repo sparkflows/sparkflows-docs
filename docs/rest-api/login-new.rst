@@ -31,7 +31,7 @@ Set client Id and Secret key in request headers:
 Now We can use this access_token to access rest api like below:
 ---------------------------------------------------------------
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token2.PNG
+.. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
    

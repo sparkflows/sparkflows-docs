@@ -65,3 +65,10 @@ Get the access token
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center
+
+We have token now. Use it for requesting rest apis
+---------------------------------------------------
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token7.PNG
+   :alt: Token
+   :align: center

@@ -23,11 +23,8 @@ Set client Id and Secret key in request headers:
                 - Client Id = sparkflows
                 - Secret – (****)   
                
- Updated As below
- =================
- 
- .. figure:: ../../_assets/tutorials/token/token1.PNG
-   :alt: Token
-   :align: center              
+.. figure:: ../../_assets/tutorials/token/token1.PNG
+  :alt: Token
+  :align: center              
                
 

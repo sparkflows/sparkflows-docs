@@ -15,7 +15,7 @@ By using Grant Type – Password
 Post Request:
 ==============
  
-   
+- http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password>   
  
                
                

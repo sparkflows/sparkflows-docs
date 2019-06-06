@@ -24,8 +24,8 @@ Set client Id and Secret key in request headers:
                 - Secret – (****)   
                
                 
-      .. figure:: ../../_assets/user-guide/Token1.PNG
-         :alt: Token
-         :align: center              
+ .. figure:: ../../_assets/user-guide/token1.PNG
+    :alt: Token
+    :align: center              
                
 

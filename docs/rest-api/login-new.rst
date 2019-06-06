@@ -1,7 +1,7 @@
 New Login
 +++++++++
 
-This document describes using the token based authentication in Fire Insights.
+This document describes using the token based authentication in Fire Insights Using Postman.
 
 Right Now we are supporting Two method Of getting Token to access Fire:
 -----------------------------------------------------------------------

@@ -27,8 +27,8 @@ Set client Id and Secret key in request headers:
 Updated As below
 =================
 
- .. figure:: ../../_assets/tutorials/01/dataset-listings.png
-   :alt: Dataset Listings
+ .. figure:: ../../_assets/tutorials/token/token1.PNG
+   :alt: Token  
    :align: center              
                
 

@@ -28,11 +28,24 @@ Set client Id and Secret key in request headers:
    :alt: Token
    :align: center   
 
-Now WE can use this access_token to access rest api like below:
+Now We can use this access_token to access rest api like below:
 ---------------------------------------------------------------
 
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
-               
+   
+Get the access token using grant type - authorization code
+==========================================================
+
+Get the access token
+---------------------
+
+- Click on Authorization tab
+- Select Type OAuth 2.0
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token3.PNG
+   :alt: Token
+   :align: center 
+
 

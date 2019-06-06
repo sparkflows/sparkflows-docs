@@ -24,7 +24,7 @@ Set client Id and Secret key in request headers:
 - Secret – (****)  
     
     
- .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token1.PNG
+ .. figure:: ../_assets/tutorials/token/token1.PNG
    :alt: Token
    :align: center   
 
@@ -44,31 +44,31 @@ Get the access token
 - Click on Authorization tab
 - Select Type OAuth 2.0
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token3.PNG
+.. figure:: ../_assets/tutorials/token/token3.PNG
    :alt: Token
    :align: center 
 
 - Click on Request Token
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token4.PNG
+.. figure:: ../_assets/tutorials/token/token4.PNG
    :alt: Token
    :align: center 
 
 - Fill up the username and password and click on signIn
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token5.PNG
+.. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token
    :align: center 
 
 - Click on Use token
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token6.PNG
+.. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center
 
 We have token now. Use it for requesting rest apis
 ---------------------------------------------------
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/token7.PNG
+.. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token
    :align: center

@@ -30,4 +30,19 @@ Configure AWS
     
 .. figure:: ../_assets/tutorials/awscli/AWS2.PNG
    :alt: awscli
-   :align: center    
+   :align: center  
+   
+Access S3 IN Fire-UI
+=====================
+
+Go to Fire-UI page and Dropdown databrowser there we have S3 Browser as a option
+
+.. figure:: ../_assets/tutorials/awscli/AWS3.PNG
+   :alt: awscli
+   :align: center
+   
+- Click on AWS s3 the we will get File accessable to it.
+
+.. figure:: ../_assets/tutorials/awscli/AWS4.PNG
+   :alt: awscli
+   :align: center

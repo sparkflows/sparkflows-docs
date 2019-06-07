@@ -41,7 +41,7 @@ Go to Fire-UI page and Dropdown databrowser there we have S3 Browser as a option
    :alt: awscli
    :align: center
    
-- Click on AWS s3 then we will get File accessable to it.
+- Click on AWS s3 then we will get File available in it.
 
 .. figure:: ../_assets/tutorials/awscli/AWS4.PNG
    :alt: awscli

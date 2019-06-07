@@ -17,3 +17,17 @@ Install aws cli
 .. figure:: ../_assets/tutorials/awscli/AWS1.PNG
    :alt: awscli
    :align: center
+   
+Configure AWS
+==============
+
+- aws configure
+  - It would ask for 
+    - AWS Access Key
+    - AWS Secret Access Key
+    - Default Region Name : Just enter
+    - Default Output Format : Just enter
+    
+.. figure:: ../_assets/tutorials/awscli/AWS2.PNG
+   :alt: awscli
+   :align: center    

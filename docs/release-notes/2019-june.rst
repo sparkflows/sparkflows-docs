@@ -4,7 +4,7 @@ June 2019
 The following features have been released in June 2019.
 
 Improvements in UI 
-==================
+-------------------
 
 - Clicking on Node in workflow Editor page, Now its getting Updated in upside of the scree.
 - DISPLAYING TEXT IN WORKFLOW EXECUTION Page with More details Vissible.

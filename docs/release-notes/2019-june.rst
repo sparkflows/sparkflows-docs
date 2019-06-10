@@ -7,7 +7,7 @@ Improvements in UI
 -------------------
 
 - Clicking on Node in workflow Editor page, Now its getting Updated in upside of the scree.
-- DISPLAYING TEXT IN WORKFLOW EXECUTION Page with More details Vissible.
+- Displaying Text in Workflow Execution Page with More details Vissible.
 - CSV and other read file nodes, Now showing Last File name in the path.
 - Now When we Cloning Any Node, its getting Display Near to original Node.
 - Improvement Done For Node Look & Feel.

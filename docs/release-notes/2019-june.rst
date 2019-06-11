@@ -16,7 +16,7 @@ Improvements in UI
 Improvements to HDFS Browser
 ----------------------------
 
-- Upadted Features for Moving multiple files from one directory to another directory.
+- Updated Features for Moving multiple files from one directory to another directory.
 
 
 Added Support Of Authentication Using Token Using Postman

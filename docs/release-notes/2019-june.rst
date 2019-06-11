@@ -37,7 +37,19 @@ Added Features
 
 - Run Application Locally with Java
  
- - Now When user will hit the execute button, it will now process a new java or python process for running it. 
+ - Now When user will hit the execute button, it will now process a new java or python process for running it.
+
+Node Upgradation
+-----------------
+
+- Updated Node JoinUsingSQL, Now Using that we can add More than two table at a time. 
+ 
+
+
+
+ 
+ 
+ 
  
  
  

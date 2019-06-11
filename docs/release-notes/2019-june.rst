@@ -22,9 +22,14 @@ Improvements to HDFS Browser
 Added Support Of Authentication Using Token Using Postman
 --------------------------------------------------------
 
-- Right Now we are supporting Two method Of getting Token to access Fire
+- Right Now we are supporting Two method Of getting Token to access Fire.
   
- - By using Grant Types – Password
- - By using Grant Types – Authorization code
+ - By using Grant Types – Password.
+ - By using Grant Types – Authorization code.
+ 
+ Improvements in Dataset
+ ------------------------
+ 
+ - Updated Some Look and feel For button in Dataset page.
 
 

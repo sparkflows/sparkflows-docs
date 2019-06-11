@@ -1,5 +1,5 @@
 June 2019
-========
+==========
 
 The following features have been released in June 2019.
 
@@ -28,9 +28,5 @@ Added Support Of Authentication Using Token Using Postman
  - By using Grant Types – Authorization code.
  
  
- Improvements in Dataset
- ------------------------
  
- - Updated Some Look and feel For button in Dataset page.
-
 

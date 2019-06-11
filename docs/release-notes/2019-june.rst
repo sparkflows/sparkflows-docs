@@ -31,6 +31,14 @@ Improvements in Dataset
 ------------------------
  
 - Updated Some Look and feel For button in Dataset page.
+
+Added Features
+---------------
+
+- Run Application Locally with Java
+ 
+ - Now When user will hit the execute button, it will now process a new java or python process for running it. 
+ 
  
  
  

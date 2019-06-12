@@ -131,3 +131,9 @@ EMR needs extra configurations when running PySpark. In the below the python 3.6
 - export PYSPARK_PYTHON=/home/hadoop/venv/bin/python
 - export YARN_CONF_DIR=/etc/hadoop/conf
 
+Fire-UI Port to be updated if running on other port
+----------------------------------------------------
+
+- Go to /etc/spark/conf/spark-env.sh & Update the Master_WebUI_Port as per its running
+ - export SPARK_MASTER_WEBUI_PORT=****
+

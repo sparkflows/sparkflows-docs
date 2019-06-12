@@ -121,3 +121,13 @@ For example, for user 'test':
 
 Create the user in Fire Insights if not already created.
 
+
+Extra configuration for running PySpark
+---------------------------------------
+
+EMR needs extra configurations when running PySpark. In the below the python 3.6 virtual environment is installed in the directory /home/hadoop/venv
+
+- export SPARK_HOME=/usr/lib/spark/
+- export PYSPARK_PYTHON=/home/hadoop/venv/bin/python
+- export YARN_CONF_DIR=/etc/hadoop/conf
+

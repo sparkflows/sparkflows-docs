@@ -6,43 +6,38 @@ The following features have been released in June 2019.
 Improvements in UI 
 -------------------
 
-- Clicking on Node in workflow Editor page, Now its getting Updated in upside of the screen.
-- Displaying Text in Workflow Execution Page with More details Vissible.
-- CSV and other read file nodes, Now showing Last File name in the path.
-- Now When we Cloning Any Node, its getting Display Near to original Node.
-- Improvement Done For Node Look & Feel.
-
+- Displaying text in Workflow Execution Page with more details visible.
+- CSV and other read file nodes, now display the name of the file.
+- When cloning a node in the editor, the cloned node is created close to the original node.
 
 Improvements to HDFS Browser
 ----------------------------
 
-- Updated Features for Moving multiple files from one directory to another directory.
+- Fire Insights now allows moving multiple files from one directory to another.
 
 
-Added Support Of Authentication Using Token Using Postman
+Support Of Authentication Using Token
 --------------------------------------------------------
 
-- Right Now we are supporting Two method Of getting Token to access Fire
+- Fire now supports two methods Of getting tokens to access Fire
   
- - By using Grant Types – Password.
- - By using Grant Types – Authorization code.
+ - Grant Types – Password.
+ - Grant Types – Authorization code.
  
 Improvements in Dataset
 ------------------------
  
-- Updated Some Look and feel For button in Dataset page.
+- Look and feel of the edit Dataset page has been upgraded.
 
-Added Features
----------------
-
-- Run Application Locally with Java
+Running Applications Locally
+----------------------------
  
- - Now When user will hit the execute button, it will now process a new java or python process for running it.
-
-Node Upgradation
+ - Workflows when running locally are now executed as separate Java or Python processes.
+ 
+Node Updates
 -----------------
 
-- Updated Node JoinUsingSQL, Now Using that we can add More than two table at a time. 
+- JoinUsingSQL now allows joining multiple datasets at a time.
  
 
 

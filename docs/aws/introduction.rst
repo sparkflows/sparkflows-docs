@@ -27,3 +27,6 @@ Fire Insights runs on the edge node or one of the master nodes of the EMR cluste
 
 When the jobs are fired onto the EMR cluster, it can read/write data from S3/HDFS/Redshift/Kinesis. It can also fire Machine Learning modeling jobs to SageMaker.
 
+.. figure:: ../_assets/aws/aws-architecture-1.png
+   :alt: Architecture
+   :align: center

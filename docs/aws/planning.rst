@@ -29,3 +29,4 @@ We recommend using at least 16GB machines for the master and worker nodes.
 
 As your data volume and the number of concurrent users increases, we recommend increasing the size of the EMR cluster. Memory can be increased to 32GB to 64GB to 512GB. Since Apache Spark has the ability to use as much memory you provide, its a good idea to give it more memory.
 
+Same for the number of disks and vcores.

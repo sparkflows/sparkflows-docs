@@ -5,6 +5,8 @@ AWS
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
+   planning.rst
    running-on-emr.rst
    roles.rst
    s3-browser.rst

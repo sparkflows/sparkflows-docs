@@ -36,3 +36,9 @@ Apart from backups of the database, Sparkflows does not need much of routine mai
 
 Sparkflows stores the details of the job executions. Over time, you may have too many jobs executed. Deleting old jobs from the Workflow Executions page is a good idea so as not to fill up the database too much. But this has the ability to handle millions of jobs, so you do not have to worry too much about it.
 
+Support
+-------
+
+For support, you can contact Sparkflows at support@sparkflows.io. We will guide you through the procees.
+
+Sparkflows can also support you though Zendesk tickets. Get in touch with us for guidance and setup.

@@ -6,7 +6,7 @@ Fire can be easily installed on an AWS EMR Cluster.
 Below are the steps for installing Fire on EMR.
 
 - *ssh into the Master node*
-- *Download Fire*
+- *Download Fire Insights* from https://www.sparkflows.io/download
 - *Unzip it*
 - *Create H2 Database*
 - *Start Fire*

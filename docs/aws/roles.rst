@@ -1,5 +1,7 @@
-AWS Setup
+Copying files to S3
 ===========
+
+There would be times when you want to upload multiple files from your laptop to S3. This document describes the process for it.
 
 Installing aws-cli on mac
 ------------------------

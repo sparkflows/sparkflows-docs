@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Fire Insights is seamlessly integrated with AWS. With Fire Insights you can perform self-serve data processing, analytics and machine learning on AWS.
+Fire Insights is the flagship product from Sparkflows. It is seamlessly integrated with AWS. With Fire Insights you can perform self-serve data processing, analytics and machine learning on AWS.
 
 Fire Insights integrates with EMR, S3, Redshift, SageMaker, HIVE and Kinesis.
 

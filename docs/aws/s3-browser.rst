@@ -9,7 +9,7 @@ Configue AWS access key and password
 Run ``aws configure`` to configure your credentials on the machine on which Fire Insights is running.
 
 Install aws cli
-================
+---------------
 
 - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 - pip install awscli --upgrade --user
@@ -19,7 +19,7 @@ Install aws cli
    :align: center
    
 Configure AWS
-==============
+-------------
 
 - aws configure
   - It would ask for 
@@ -32,8 +32,8 @@ Configure AWS
    :alt: awscli
    :align: center  
    
-Access S3 IN Fire-UI
-=====================
+Access S3 in fire-ui
+---------------------
 
 Go to Fire-UI page and Dropdown databrowser there we have S3 Browser as a option
 

@@ -1,4 +1,4 @@
-Running on AWS EMR
+Deployment Guidance
 =======================
 
 Fire can be easily installed on an AWS EMR Cluster.

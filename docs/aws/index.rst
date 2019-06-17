@@ -5,8 +5,8 @@ AWS
 .. toctree::
    :maxdepth: 2
 
-   roles.rst
    running-on-emr.rst
+   roles.rst
    s3-browser.rst
    s3.rst
    hive.rst

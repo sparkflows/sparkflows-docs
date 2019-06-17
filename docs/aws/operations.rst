@@ -16,10 +16,16 @@ The main server process which handles the web requests is fire-ui. This is a lon
 Backup and Recovery
 ------
 
-EMR cluster normally start with a mimumum of 1 master node and 2 worker nodes. 
+Sparkflows stores the metadata into a Relational Database.
 
-We recommend using at least 16GB machines for the master and worker nodes.
+It comes with an embedded H2 database. It scales well for pretty heavy loads and upto 50 users. Sparkflows can be easily configured to run with an MySQL database.
 
-As your data volume and the number of concurrent users increases, we recommend increasing the size of the EMR cluster. Memory can be increased to 32GB to 64GB to 512GB. Since Apache Spark has the ability to use as much memory you provide, its a good idea to give it more memory.
+When running with H2 database, Sparkflows by default stores the db files in the user home directory which is running Sparkflows. There are 2 files:
 
-Same for the number of disks and vcores.
+- firedb.mv.db	
+- firedb.trace.db
+
+For backup, just copying these files to a backup location is enough. There is no need to stop Sparkflows. It is a good idea to copy it to another maching.
+
+When running with MySQL running on the same or different machine, the MySQL database named ``fire`` needs to be backed up.
+

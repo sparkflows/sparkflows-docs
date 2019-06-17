@@ -29,3 +29,10 @@ For backup, just copying these files to a backup location is enough. There is no
 
 When running with MySQL running on the same or different machine, the MySQL database named ``fire`` needs to be backed up.
 
+Routing Maintenance
+--------------------
+
+Apart from backups of the database, Sparkflows does not need much of routine maintenance.
+
+Sparkflows stores the details of the job executions. Over time, you may have too many jobs executed. Deleting old jobs from the Workflow Executions page is a good idea so as not to fill up the database too much. But this has the ability to handle millions of jobs, so you do not have to worry too much about it.
+

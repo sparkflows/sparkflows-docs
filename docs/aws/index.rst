@@ -1,6 +1,6 @@
 
 AWS Guide
-===
+=========
 
 .. toctree::
    :maxdepth: 2

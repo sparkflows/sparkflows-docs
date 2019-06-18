@@ -16,7 +16,7 @@ The main server process which handles the web requests is fire-ui. This is a lon
 Backup and Recovery
 ------
 
-Sparkflows stores the metadata into a Relational Database.
+Fire Insights stores the metadata into a Relational Database.
 
 It comes with an embedded H2 database. It scales well for pretty heavy loads and upto 50 users. Sparkflows can be easily configured to run with an MySQL database.
 
@@ -32,13 +32,13 @@ When running with MySQL running on the same or different machine, the MySQL data
 Routing Maintenance
 --------------------
 
-Apart from backups of the database, Sparkflows does not need much of routine maintenance.
+Apart from backups of the database, Fire does not need much of routine maintenance.
 
-Sparkflows stores the details of the job executions. Over time, you may have too many jobs executed. Deleting old jobs from the Workflow Executions page is a good idea so as not to fill up the database too much. But this has the ability to handle millions of jobs, so you do not have to worry too much about it.
+Fire stores the details of the job executions in the relational database. Over time, you may have too many jobs executed. Deleting old jobs from the Workflow Executions page is a good idea so as not to fill up the database too much. But it has the ability to handle millions of jobs, so you do not have to worry too much about it.
 
 Support
 -------
 
-For support, you can contact Sparkflows at support@sparkflows.io. We will guide you through the procees.
+For support, you can contact Sparkflows at support@sparkflows.io. We will guide you through the process.
 
 Sparkflows can also support you though Zendesk tickets. Get in touch with us for guidance and setup.

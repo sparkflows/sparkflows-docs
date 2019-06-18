@@ -1,4 +1,4 @@
-Operational Guidance
+Operational Guide
 =================
 
 This document describes details for operating Sparkflows when running on AWS.

@@ -3,7 +3,7 @@ Deployment Guidance
 
 Fire can be easily installed on an AWS EMR Cluster.
 
-Below are the steps for installing Fire on EMR.
+Below are the overall steps for installing Fire Insights on EMR.
 
 - *ssh into the Master node*
 - *Download Fire Insights* from https://www.sparkflows.io/download

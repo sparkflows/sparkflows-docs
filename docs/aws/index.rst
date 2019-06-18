@@ -1,5 +1,5 @@
 
-AWS
+AWS Guide
 ===
 
 .. toctree::

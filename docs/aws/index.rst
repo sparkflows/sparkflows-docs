@@ -14,9 +14,9 @@ AWS
    s3.rst
    hive.rst
    redshift.rst
-   cloudformationh2db.rst
-   cloudformationmysql.rst
    sagemaker.rst
    kinesis.rst
+   cloudformationh2db.rst
+   cloudformationmysql.rst
    
    

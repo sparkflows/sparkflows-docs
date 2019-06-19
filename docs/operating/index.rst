@@ -1,5 +1,5 @@
 
-Operating
+Operating Guide
 =========
 
 .. toctree::

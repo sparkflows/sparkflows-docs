@@ -1,5 +1,5 @@
 
-Authentication Guide
+Configuring Authentication
 ==============
 
 Fire Insights supports various types of authencations:

@@ -6,4 +6,3 @@ Developer Guide
    :maxdepth: 2
 
    custom-node-development.rst
-   rest-api/index

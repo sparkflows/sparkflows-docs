@@ -56,7 +56,7 @@ Get the access token
    :alt: Token
    :align: center 
 
-- Fill up the username and password and click on signIn
+- Fill the username and password and click on signIn
 
 .. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token

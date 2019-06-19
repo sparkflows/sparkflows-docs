@@ -3,7 +3,7 @@ New Login
 
 This document describes using the token based authentication in Fire Insights Using Postman.
 
-Right Now we are supporting Two method Of getting Token to access Fire:
+Fire support 2 methods for getting the access tokens:
 -----------------------------------------------------------------------
 
 - By using Grant Types – Password
@@ -30,7 +30,7 @@ Updated As below:
    :alt: Token
    :align: center   
 
-Now We can use this access_token to access rest api like below:
+Using access_token to access rest api:
 ---------------------------------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
@@ -68,7 +68,7 @@ Get the access token
    :alt: Token
    :align: center
 
-We have token now, Use it for requesting rest apis
+Using tokens for accessing REST API
 ---------------------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token7.PNG

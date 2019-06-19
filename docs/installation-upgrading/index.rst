@@ -23,5 +23,5 @@ Installation and Configuration
    upgrading.rst
    running-spark-standalone.rst
    Python-integration.rst
-   
+   authentication/index   
    

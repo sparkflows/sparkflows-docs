@@ -1,5 +1,5 @@
 
-Pipeline/OCR/NLP/Jupyter
+NLP/Jupyter
 =========================
 
 .. toctree::

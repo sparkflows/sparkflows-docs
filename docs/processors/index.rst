@@ -1,4 +1,4 @@
-Processors
+Processors Guide
 ===============
 
 .. toctree::

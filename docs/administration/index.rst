@@ -1,5 +1,5 @@
 
-Administration
+Administration Guide
 ==============
 
 .. toctree::

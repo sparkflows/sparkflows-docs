@@ -1,4 +1,4 @@
-REST API's
+REST API
 ==========
 
 Sparkflows provides REST API for interacting with it.

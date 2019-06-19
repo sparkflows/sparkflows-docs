@@ -19,6 +19,14 @@ Installation and Upgrading
 
    installation-upgrading/index
    
+Quick Start Guide
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   quick-start/index
+   
 User Guide
 --------------------------
 

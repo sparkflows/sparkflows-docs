@@ -8,4 +8,6 @@ User Guide
    workflows/index.rst
    visualizations/index.rst
    scheduling/index.rst
+   pipelines.rst
+   tesseract.rst
 

@@ -11,22 +11,22 @@ Below are the pre-requisites for installing Hadoop:
 Linux
 -----
 
-It requires Minimum Configuration of Linux Machine as belows:
+Minimum machine configuration:
 
-- VCPUS: 8 vcores
+- vCPU : 8 vcores
 - RAM: 32 GB
 
 JDK
 ---
 
-It requires java 8 to be installed on the Linux Machine. Below are the steps added to install oracle java:
+JDK 8 is needed on the Linux Machine. Below are the steps for installing oracle java:
 
 - Install java 8 as the root user
 - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 - wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.rpm"
 - yum localinstall jdk-8u201-linux-x64.rpm
 
-Just ensure that java is installed properly by checking it using below command:
+Ensure that java 8 is installed properly:
 
 - java -version
 
@@ -38,7 +38,7 @@ Set the below in .bash_profile
 
 - export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
 
-IPV6 disabled
+Disable IPV6
 -------------
 
 - Edit file /etc/sysctl.conf
@@ -143,7 +143,7 @@ spark2 is installed using CSD or Parcels
   - chmod 644 SPARK2_ON_YARN-2.1.0.cloudera2.jar
   - service cloudera-scm-server restart
   
-Login Again to cloudera Manager 
+Login Again into Cloudera Manager
 -------------------------------
 
 - In Cloudera Manager:
@@ -178,8 +178,7 @@ AFTER INSTALLATION GET CDH TO USE JAVA 8
 Install Sparkflows
 ------------------
 
-- Login to Linux Machine As sparkflows
-
+  - ssh to the machine
   - wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
   - tar xvf fire-x.y.z.tgz
   - cd fire-x.y.z
@@ -187,14 +186,14 @@ Install Sparkflows
   - ./run-fire.sh start
   - ./run-fire-server.sh start
   
-Upload the data directory onto HDFS
+Upload the Fire Insights example data directory onto HDFS
 ------------------------------------
 
 - As sparkflows user
 - cd fire-x.y.z
 - hadoop fs -put data  
 
-Log into Sparkflows
+Log into Fire Insights
 -------------------
 
 - http://host-ip:8080/#/dashboard
@@ -204,4 +203,4 @@ Log into Sparkflows
   - Again Login with sparkflows user.
   - Go to Configurations under administration and click on infer hadoop cluster config and save it.
   - open spark and update spark2-submit under "spark.spark-submit" and save it.
-  - Create a workflow and try to execute it.
+  - Create a workflow and execute it.

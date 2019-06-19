@@ -1,5 +1,5 @@
 
-Fire Insights Quickstart
+Quickstart Guide
 =========
 
 This quickstart gets you going with Fire Insights. It guides you through:

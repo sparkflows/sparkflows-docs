@@ -19,6 +19,14 @@ Installation and Upgrading
 
    installation-upgrading/index
    
+User Guide
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   user-guide/index
+   
 Authentication
 --------------
 

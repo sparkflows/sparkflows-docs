@@ -6,14 +6,19 @@ There are 2 processes involved when running Fire.
 - fire server
 - fire
 
-Users Browser talks with ``fire server``, and in turn ``fire server`` talks with ``fire``.
+User's Browser talks with ``fire server``, and in turn ``fire server`` talks with ``fire``.
 
 Both ``fire server`` and ``fire`` processes can be configured to listen on different ports.
 
 Running Fire Server on Another Port
 -----------------------------------------
 
-If you choose to run the FIRE project on a port other than the ``default 8080 (http) and 8443 (https)``, please follow the following instructions for ``configuring http and https ports``::
+By default the fire server runs on the following ports:
+
+    * 8080 (http)
+    * 8443 (https)
+    
+Below are the steps for running fire server on a different port.
 
     - Navigate to the conf folder under Sparkflows install directory 
     - Open application.properties file:
@@ -33,7 +38,7 @@ Running Fire on Another Port
 
 Fire by default runs on port 8081.
 
-In order to run Fire on another port:
+In order to run Fire on a different port:
 
 - Navigate to the conf folder under Sparkflows install directory 
     - Open ``application.properties`` file:

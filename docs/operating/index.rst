@@ -11,3 +11,7 @@ Operating
    dashboard-installing-jdbc-drivers.rst
    installing-tesseract.rst
    installing-opennlp.rst
+   opennlp.rst
+   jupyter.rst
+
+

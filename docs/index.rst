@@ -108,14 +108,6 @@ Python
 
    python/index
 
-More
-----
-
-.. toctree::
-   :maxdepth: 2
-
-   more/index
-   
 Machine Learning
 ----------
 

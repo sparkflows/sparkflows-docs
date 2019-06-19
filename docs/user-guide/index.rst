@@ -7,4 +7,5 @@ User Guide
    datasets/index.rst
    workflows/index.rst
    visualizations/index.rst
+   scheduling/index.rst
 

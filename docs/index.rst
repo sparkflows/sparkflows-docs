@@ -17,7 +17,7 @@ Installation and Upgrading
 .. toctree::
    :maxdepth: 1
 
-   installation-upgrading/index
+   installation/index
    
 Quick Start Guide
 --------------------------

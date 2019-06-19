@@ -7,3 +7,6 @@ Administration Guide
 
    fire-server-administration.rst
    user-administration.rst
+   authentication/index.rst
+
+

@@ -18,10 +18,11 @@ Installation and Configuration
    configuring-kerberos.rst
    configuring-pipeline.rst
    different-default-values-startup.rst
-   mapr-specific-details.rst
+   authentication/index   
    hdinsight.rst
+   mapr-specific-details.rst
    upgrading.rst
    running-spark-standalone.rst
    Python-integration.rst
-   authentication/index   
+
    

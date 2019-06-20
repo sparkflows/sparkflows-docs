@@ -8,7 +8,7 @@ Python is only needed is you need to use Python and the PySpark engine in Fire I
 Install Python 3
 ----------------
 
-Steps involved in installing Python-3.6 on Centso7. Do this with the Root user.
+Below are the steps for installing Python-3.6 on Centso7 if it is not already installed. They need to be performed as the root user.
 
   * cat /etc/os-release
   * curl -O https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz

@@ -1,4 +1,4 @@
-New Login
+Getting Access Tokens
 +++++++++
 
 This document describes using the token based authentication in Fire Insights Using Postman.

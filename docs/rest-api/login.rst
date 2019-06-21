@@ -1,4 +1,4 @@
-First Step : Login
+Login
 ==================
 
 As the first step, log into Sparkflows and get the session id.

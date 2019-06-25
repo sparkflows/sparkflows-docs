@@ -65,7 +65,6 @@ Get the access token
    :alt: Token
    :align: center 
 
-
 - Click on Use token
 
 .. figure:: ../_assets/tutorials/token/token6.PNG

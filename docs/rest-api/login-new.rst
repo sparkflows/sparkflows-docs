@@ -60,13 +60,12 @@ Get the access token
 
 - Fill the username and password and click on signIn
 
-
 .. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token
    :align: center 
 
 - Click on Use token
-
+--------------------------------------------------
 .. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center

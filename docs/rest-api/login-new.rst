@@ -19,7 +19,7 @@ Post Request:
  
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
- Click on Authorization tab and select type - Basic and fill username (clientId) and password (secret key) in request headers:
+Click on Authorization tab and select type - Basic and fill username (clientId) and password (secret key) in request headers:
 ------------------------------------------------
  
 - Client Id = sparkflows

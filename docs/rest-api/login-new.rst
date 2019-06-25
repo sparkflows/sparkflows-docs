@@ -71,7 +71,7 @@ Click on Use token
    :align: center
 
 Using tokens for accessing REST API
----------------------------------------------------
+-----------------------------------
 
 .. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token

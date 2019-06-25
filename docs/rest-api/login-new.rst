@@ -26,7 +26,7 @@ Click on Authorization tab and select type - Basic and fill username (clientId) 
 - Secret – (****)  
 
 Example below:
--------------------
+--------------
     
 .. figure:: ../_assets/tutorials/token/token1.PNG
    :alt: Token

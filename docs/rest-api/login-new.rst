@@ -1,9 +1,10 @@
-Getting Access Tokens
+OAuth 2.0 - Obtaining an Access Token
 +++++++++
 
-This document describes using the token based authentication in Fire Insights Using Postman.
+This documents illustrate the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.
 
-Fire support 2 methods for getting the access tokens:
+Grants are the heart of OAuth 2.0. Each Grant defines one way for a client to retrieve an authorization.
+Fire supports two grant types for retrieving the access token:
 -----------------------------------------------------------------------
 
 - By using Grant Types – Password
@@ -30,7 +31,7 @@ Updated As below:
    :alt: Token
    :align: center   
 
-Using access_token to access rest api:
+Now use access_token to access rest api:
 ---------------------------------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token2.PNG

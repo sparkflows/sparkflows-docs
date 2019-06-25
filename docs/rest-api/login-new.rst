@@ -19,30 +19,30 @@ Post Request:
  
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
-Set client Id and Secret key in request headers:
+ Click on Authorization tab and select type - Basic and fill username (clientId) and password (secret key) in request headers:
 ------------------------------------------------
  
 - Client Id = sparkflows
 - Secret – (****)  
 
-Updated As below:
+ Example below:
 -------------------
     
 .. figure:: ../_assets/tutorials/token/token1.PNG
    :alt: Token
    :align: center   
 
-Now use access_token to access rest api:
+ Now use access_token to access rest api:
 ---------------------------------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
    
-Get the access token using grant type - authorization code
+ Get the access token using grant type - authorization code
 ==========================================================
 
-Get the access token
+ Get the access token
 ---------------------
 
 - Click on Authorization tab

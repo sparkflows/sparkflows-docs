@@ -33,7 +33,7 @@ Install JDK 1.8
     Open a new terminal window 
     Type the following command to check your java version : java -version
 
-.. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined here:
+.. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined in either of the links below:
 
            * https://www.java.com/en/download/help/path.xml
            * https://javatutorial.net/set-java-home-windows-10
@@ -41,6 +41,7 @@ Install JDK 1.8
            
            
  
-.. note:: In order to connect Fire Insights to an Apache Spark cluster, it has to be installed on the edge node of the cluster.
+.. note:: In order to connect Fire Insights to an Apache Spark cluster, it has to be installed on the edge node of the cluster. With the above steps, you would have Fire Insights running locally on your laptop.
+
 
    

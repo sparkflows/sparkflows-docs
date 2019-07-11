@@ -33,6 +33,9 @@ Install JDK 1.8
     Open a new terminal window 
     Type the following command to check your java version : java -version
 
+.. note::  If you have multiple versions of Java installed on you system, you can update the Path using the steps outlined here:
+
+           * https://javatutorial.net/set-java-home-windows-10
 
 Python
 ------

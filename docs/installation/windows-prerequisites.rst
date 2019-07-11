@@ -36,6 +36,9 @@ Install JDK 1.8
 .. note::  If you have multiple versions of Java installed on you system, you can update the Path using the steps outlined here:
 
            * https://javatutorial.net/set-java-home-windows-10
+           * https://www.java.com/en/download/help/path.xml
+           
+           
 
 Python
 ------

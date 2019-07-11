@@ -17,8 +17,8 @@ Install JDK 1.8
 
 - If JDK 1.8 is not installed, follow the JDK installation steps mentioned below:
 
-- Download the jdk using below mentioned link:
-  https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+- Download JDK 1.8 for windows using below link:
+  - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 - Install java by double clicking on downloaded exe file
 

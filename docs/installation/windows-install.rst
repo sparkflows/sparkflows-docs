@@ -1,12 +1,10 @@
 Install on Windows OS
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
-
-If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node has the hadoop binaries and spark configs.
+Fire Insights can be installed to run independenty on Windows.
 
 
-Quick Installation Steps of Fire with H2 DB
+Quick Installation Steps of Fire Insights with H2 DB
 -------------------------------------------
 
 * Download the fire tgz file from:

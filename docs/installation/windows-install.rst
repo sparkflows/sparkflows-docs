@@ -1,4 +1,4 @@
-Install on Windows OS
+Windows Installation Steps
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Fire Insights can be installed to run independenty on Windows.

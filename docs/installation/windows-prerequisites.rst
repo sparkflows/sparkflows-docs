@@ -1,4 +1,4 @@
-Windows Prerequisites
+Windows Installation Prerequisites
 +++++++++++++
 
 Below are the Prerequisites for installing Fire Insights on a windows machine::

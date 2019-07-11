@@ -14,7 +14,7 @@ Check JDK 1.8
 * Check the JDK version installed on your machine::
 
     Open terminal window 
-    Type ``java -version``
+    Type the following command to check your java version : java -version
 
 * If JDK 1.8 is not installed, follow the JDK installation steps mentioned below.
 
@@ -31,7 +31,7 @@ Install JDK 1.8
 * After installation, make sure java is in the path::
 
     Open a new terminal window 
-    Type ``java -version``
+    Type the following command to check your java version : java -version
 
 
 Python

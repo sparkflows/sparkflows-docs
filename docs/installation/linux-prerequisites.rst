@@ -18,6 +18,6 @@ If Fire would be connected to an Apache Spark Cluster::
 If using Python and PySpark (not need for the core features of Fire Insights) ::
 
   - Python 3.X can be set up with the Python virtual environment and activated
-    * :doc:`../python-install`
+
     
     

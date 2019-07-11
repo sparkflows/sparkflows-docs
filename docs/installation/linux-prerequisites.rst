@@ -1,7 +1,7 @@
-Prerequisites
+Linux/MacOS Prerequisites
 +++++++++++++
 
-Below are the Prerequisites for installing Fire on a machine::
+Below are the Prerequisites for installing Fire Insights on a max or linux machine::
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH

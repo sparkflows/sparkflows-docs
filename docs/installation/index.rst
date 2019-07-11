@@ -4,8 +4,9 @@ Installation
 .. toctree::
    :maxdepth: 2
 
-   prerequisites.rst
-   mac-install.rst
+   linux-prerequisites.rst
+   linux-install.rst
+   windows-prerequisites.rst
    windows-install.rst
    python-install.rst
 

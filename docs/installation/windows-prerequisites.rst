@@ -8,16 +8,19 @@ Below are the Prerequisites for installing Fire Insights on a windows machine::
   - 5GB+ of RAM.
   - Python 3.X (when running Python and PySpark, otherwise not needed)
 
-
-Install JDK 1.8
----------------
+Check JDK 1.8
+-------------
 
 * Check the JDK version installed on your machine::
 
     Open terminal window 
     Type ``java -version``
 
-* If JDK 1.8 is not installed, follow the JDK installation steps mentioned in the steps below
+* If JDK 1.8 is not installed, follow the JDK installation steps mentioned below.
+
+
+Install JDK 1.8
+---------------
 
 * Download JDK 1.8 for windows using below link::
 

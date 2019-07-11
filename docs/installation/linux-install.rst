@@ -18,7 +18,6 @@ Quick Installation Steps of Fire with H2 DB
 
     tar xvf fire-x.y.z.tgz
 
-
 * Create H2 DB::
 
       cd <fire install_dir>

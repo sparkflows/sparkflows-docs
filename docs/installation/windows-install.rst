@@ -15,12 +15,13 @@ Installation Steps of Fire Insights with H2 DB
   
 * Unpack it
 
-Unpack the tgz file.
+    Unpack the downloaded tgz file.
+    WinZip for windows, WinRAR, 7-Zip or TarTool can be used for it
 
 * Create H2 DB::
 
-      cd <fire install_dir>
-      .\create-h2-db.bat
+    cd <fire install_dir>
+    .\create-h2-db.bat
     
 * Launch Fire Server::
 

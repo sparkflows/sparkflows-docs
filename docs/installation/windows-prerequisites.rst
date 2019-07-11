@@ -40,15 +40,6 @@ Install JDK 1.8
            
            
            
-
-Python
-------
-
-If using Python and PySpark (not needed for the core features of Fire Insights) ::
-
-  - Python 3.X can be set up with the Python virtual environment and activated
-    * :doc:`../python-install`
-    
  
 .. note:: In order to connect Fire Insights to an Apache Spark cluster, it has to be installed on the edge node of the cluster.
 

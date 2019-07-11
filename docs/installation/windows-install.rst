@@ -36,10 +36,13 @@ Unpack the tgz file.
     admin/admin or test/test
 
     
-.. note::  Two user accounts come pre-configured with Fire. You can change them from Administration/Users by logging in as the admin user.
+    
+.. note::  Two user accounts come preconfigured with Fire Insights.
 
            * admin/admin
-           * test/test    
+           * test/test
+    
+    You may change these usernames and passwords in Fire under the menu Administration/Users 
 
 
 

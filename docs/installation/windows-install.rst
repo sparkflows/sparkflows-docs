@@ -13,10 +13,10 @@ Installation Steps of Fire Insights with H2 DB
   * https://www.sparkflows.io/archives
   
   
-* Unpack it
+* Unpack it::
 
     Unpack the downloaded tgz file.
-    WinZip for windows, WinRAR, 7-Zip or TarTool can be used for it
+    WinZip for windows, WinRAR, 7-Zip or TarTool can be used for unpacking it.
 
 * Create H2 DB::
 

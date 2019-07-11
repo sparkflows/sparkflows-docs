@@ -22,9 +22,9 @@ Check JDK 1.8
 Install JDK 1.8
 ---------------
 
-* Download JDK 1.8 for windows using below link::
+* Download JDK 1.8 for windows using the link below:
 
-    https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+    * https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 * Install java by double clicking on downloaded exe file
 

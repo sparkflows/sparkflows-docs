@@ -28,7 +28,7 @@ Install JDK 1.8
 
 * Install java by double clicking on downloaded exe file
 
-* After installation, make sure java is in the path::
+* After installation, make sure that java 1.8 is in the path::
 
     Open a new terminal window 
     Type the following command to check your java version : java -version

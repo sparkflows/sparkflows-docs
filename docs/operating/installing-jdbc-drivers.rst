@@ -24,12 +24,12 @@ Under the Fire installation directory, there is ``fire-user-lib`` directory.
 Copy the downloaded JDBC jar file into it.
 
 
-Restart Fire
+Stop Fire Processes
 ------------
 
-Restart Fire with ``./run-fire.sh restart``
+Stop the running Fire processes with ``./run-fire.sh stop``
 
-Fire Server does not need to be restarted.
+They will be restarted automatically.
 
 
 Downloading MySQL Connector

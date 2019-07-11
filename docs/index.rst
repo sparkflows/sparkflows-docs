@@ -11,13 +11,21 @@ Architecture & Deployment
 
    architecture-deployment/index
 
-Installation and Upgrading
+Installation
 --------------------------
 
 .. toctree::
    :maxdepth: 1
 
    installation/index
+   
+Configuration
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   configuration/index
    
 Quick Start Guide
 --------------------------

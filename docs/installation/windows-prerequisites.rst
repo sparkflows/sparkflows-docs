@@ -12,17 +12,18 @@ Below are the Prerequisites for installing Fire Insights on a windows machine::
 Install JDK 1.8
 ---------------
 
-- Check the JDK version installed on your machine
-  - Open command prompt and type ``java -version``
+* Check the JDK version installed on your machine
+  * Open command prompt and type ``java -version``
 
-- If JDK 1.8 is not installed, follow the JDK installation steps mentioned below:
+* If JDK 1.8 is not installed, follow the JDK installation steps mentioned below:
 
-- Download JDK 1.8 for windows using below link:
-  - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Download JDK 1.8 for windows using below link::
 
-- Install java by double clicking on downloaded exe file
+  https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-- After installation, make it sure java is in the path, again check using command ``java -version``
+* Install java by double clicking on downloaded exe file
+
+* After installation, make it sure java is in the path, again check using command ``java -version``
 
 
 Python

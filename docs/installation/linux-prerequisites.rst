@@ -1,4 +1,4 @@
-Linux/MacOS Installation Prerequisites
+Linux/Mac OS Installation Prerequisites
 +++++++++++++
 
 Below are the Prerequisites for installing Fire Insights on a max or linux machine::

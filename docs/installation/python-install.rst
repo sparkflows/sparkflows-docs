@@ -1,4 +1,4 @@
-Installing and Setting up Python
+Python Installation
 ++++++++++++++++++++++++++++++++
 
 This page explains how to setup python 3 virtual environment & other package required to run pyspark workflows.

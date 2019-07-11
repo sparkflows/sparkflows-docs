@@ -35,14 +35,13 @@ Unpack the tgz file.
 
     admin/admin or test/test
 
+    
+.. note::  Two user accounts come pre-configured with Fire. You can change them from Administration/Users by logging in as the admin user.
+
+           * admin/admin
+           * test/test    
 
 
-.. note::  You may change the password for the two accounts which come pre-configured to your choice of password from the Fire UI - Administration tab.
-
-    admin/admin
-    test/test
-
-.. note:: In Local mode, Sparkflows Fire runs in a Jetty server and all the spark jobs are executed within the web-server
 
 Stopping Fire
 -------------

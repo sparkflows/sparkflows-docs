@@ -1,4 +1,4 @@
-Creating Dashboard
+Step 6 : Create New Dashboard
 ------------------
 
 Dashboards allow you to display the output of multiple workflows in one place to be viewed.

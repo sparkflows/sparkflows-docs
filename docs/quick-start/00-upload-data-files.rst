@@ -1,4 +1,4 @@
-Upload Data Files
+Step 2 : Upload Data Files
 =================
 
 You can upload the files you want to process. Go to Browser/HDFS. It will display your home directory. It might be empty is you have not uploaded any files

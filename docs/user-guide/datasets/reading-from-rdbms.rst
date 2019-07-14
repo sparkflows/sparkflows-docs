@@ -25,7 +25,7 @@ JDBC Processor Configuration
 
 Below are the configuration details of the JDBC Processor. It uses the `root` user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the tables in MySQL and populates the entries.
 
-.. figure:: ../_assets/user-guide/jdbc-dialog.png
+.. figure:: ../../_assets/user-guide/jdbc-dialog.png
    :scale: 50%
    :alt: JDBC Processor Dialog
    :align: center
@@ -35,7 +35,7 @@ Results of reading from MySQL table
 
 The below screenshot displays some of the records read from the MySQL table by Fire.
 
-.. figure:: ../_assets/user-guide/jdbc-read-results.png
+.. figure:: ../../_assets/user-guide/jdbc-read-results.png
    :scale: 50%
    :alt: JDBC Read Results
    :align: center
@@ -49,7 +49,7 @@ In the configuration of the JDBC node, for ``db_table`` anything that is valid i
  
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
-.. figure:: ../_assets/user-guide/jdbc-subquery.png
+.. figure:: ../../_assets/user-guide/jdbc-subquery.png
    :scale: 50%
    :alt: JDBC Sub-Query
    :align: center
@@ -57,7 +57,7 @@ More details are available on the Spark Guide : https://spark.apache.org/docs/1.
    
 Above we have specified a subquery which selects only the ‘first_name’ from the employees table.
 
-.. figure:: ../_assets/user-guide/jdbc-subquery-output.png
+.. figure:: ../../_assets/user-guide/jdbc-subquery-output.png
    :scale: 50%
    :alt: JDBC Sub-Query Output
    :align: center

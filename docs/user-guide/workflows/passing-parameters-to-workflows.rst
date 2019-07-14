@@ -13,7 +13,7 @@ Through a Parameter Processor in the Workflow
  
 A Parameter Processor can be added to the workflow. It allows passing key/value pairs to the workflow.
 
-.. figure:: ../_assets/user-guide/passing-parameters-2.png
+.. figure:: ../../_assets/user-guide/passing-parameters-2.png
    :alt: Passing Parameters to Workflows
    :align: center
 
@@ -25,7 +25,7 @@ These Key/Value pairs would override any Key/Value pair passed through the Param
 
 Below is a screenshot:
 
-.. figure:: ../_assets/user-guide/passing-parameters-1.png
+.. figure:: ../../_assets/user-guide/passing-parameters-1.png
    :alt: Passing Parameters to Workflows
    :align: center
 
@@ -56,7 +56,7 @@ Specifying ``--var`` parameters for all in Sparkflows User Interface
  
 Sparkflows also allows specifying the **--var** parameters to be passed to all the jobs submitted through Sparkflows. Below is the screen under Administration/Configuration.
 
-.. figure:: ../_assets/user-guide/passing-parameters-3.png
+.. figure:: ../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
    :align: center
    

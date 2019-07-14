@@ -18,9 +18,9 @@ This quickstart gets you going with Fire Insights. Here you:
    00-create-application.rst
    00-upload-data-files.rst
    01-create-datasets.rst
-   02-etl-workflow.rst
-   03-executing-workflow.rst
-   04-dashboard.rst
+   02-create-workflow.rst 
+   03-execute-workflow.rst 
+   04-build-dashboard.rst
 
 
 Step 1: Create a New Application

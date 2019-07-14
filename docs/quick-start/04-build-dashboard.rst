@@ -1,7 +1,7 @@
 Creating Dashboard
 ------------------
 
-In this tutorial we would create a Dashboard containing some charts and tables.
+Dashboards allow you to display the output of multiple workflows in one place to be viewed.
 
 The steps involved in creating a dashboard are:
 

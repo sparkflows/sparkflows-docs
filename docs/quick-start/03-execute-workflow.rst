@@ -1,7 +1,7 @@
-Executing the Workflow
+Execute Workflow
 ----------------------
 
-In this tutorial we would execute the workflow we built earlier.
+In this step you execute the workflow created and view the results
 
 The steps involved in executing a workflow are:
 

@@ -1,4 +1,4 @@
-Creating ETL Workflow
+Create Workflow
 ------------
 
 In this tutorial we would build an ETL Workflow.

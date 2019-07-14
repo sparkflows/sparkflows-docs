@@ -3,7 +3,7 @@ Reading from RDBMS
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire.
+In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
 Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 

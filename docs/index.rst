@@ -43,6 +43,14 @@ User Guide
 
    user-guide/index
    
+Tutorials
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   tutorials/index
+   
 Authentication
 --------------
 
@@ -84,37 +92,6 @@ AWS Integration
 
    aws/index
    
-Datasets
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   datasets/index
-
-Workflows
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   workflows/index
-
-Visualizations
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   visualizations/index
-
-Scheduling and Notifications
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   scheduling/index
 
 Python
 --------
@@ -140,13 +117,6 @@ Performance
 
    performance/index
    
-Tutorials
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   tutorials/index
 
 Developer Guide
 ---------------

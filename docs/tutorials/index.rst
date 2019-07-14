@@ -5,7 +5,6 @@ Tutorials
 .. toctree::
    :maxdepth: 2
 
-   overall/index.rst
    reading-writing/index.rst
    analytics/index.rst
    data-cleaning/index.rst

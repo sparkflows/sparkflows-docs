@@ -6,7 +6,7 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
 
 **Schema**
  
-  * DataSets have Schema defined for them. This allows Sparkflows to create a Spark DataFrame from them in the workflows.
+  * DataSets have Schema defined for them. This allows Fire Insights to read in the create and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning etc.
  
 **File formats**
  
@@ -18,7 +18,7 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
 
 The Dataset Listing Page displays all the Datasets created in Fire.
 
- .. figure:: ../_assets/tutorials/01/dataset-listings.png
+ .. figure:: ../../_assets/tutorials/01/dataset-listings.png
    :alt: Dataset Listings
    :align: center
   

@@ -16,18 +16,23 @@ The existing DataSets are displayed in the DataSets page of of Specific applicat
 Dataset Creation
 ----------------
 
-- We now create a dataset overpeople.parquet. It is a parquet file.
+Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". We now create a dataset overpeople.parquet. It is a parquet file.
 
-- In the ‘Create DataSet’ page we fill in the required fields as below.
+.. figure:: ../../_assets/tutorials/dataset/11.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+In the ‘Create DataSet’ page we fill in the required fields as below.
 
 .. figure:: ../../_assets/tutorials/dataset/7.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
-- Above we have specified a name for the DataSet we are creating, for Parquet files.
+Above we have specified a name for the DataSet we are creating, for Parquet files.
 
-- Once we have specified the above, we hit the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
+Once we have specified the above, we hit the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
 
 
 .. figure:: ../../_assets/tutorials/dataset/8.PNG
@@ -35,11 +40,11 @@ Dataset Creation
    :align: center
    :width: 60%
    
-- Clicking the ‘Save’ button creates the new DataSet for us.
+Clicking the ‘Save’ button creates the new DataSet for us.
 
 .. figure:: ../../_assets/tutorials/dataset/9.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
-- Now we are ready to start using our new DataSet in Workflows.
+Now we are ready to start using our new DataSet in Workflows.

@@ -28,7 +28,4 @@ Dataset Creation
 - In the ‘Create CSV DataSet’ page we will fill in the required fields as below.   
 
 
-.. figure:: ../../_assets/tutorials/dataset/3.PNG
-   :alt: Dataset
-   :align: center
-   :width: 60%
+

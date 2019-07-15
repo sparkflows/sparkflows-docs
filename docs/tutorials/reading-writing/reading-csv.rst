@@ -43,6 +43,12 @@ Dataset Creation
    :width: 60%
 
 
+.. figure:: ../../_assets/tutorials/dataset/6.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+
 - Now clicking the ‘Save’ button creates the new DataSet for us.
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG

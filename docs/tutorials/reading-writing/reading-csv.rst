@@ -17,7 +17,8 @@ The existing Datasets are displayed in the Datasets page of Specific application
 Dataset Creation
 ----------------
  
-We now create a dataset over housing.csv file. It is a comma separated file. It also has a header row specifying the names for the various columns   
+- We now create a dataset over housing.csv file. It is a comma separated file. It also has a header row specifying the names for the various columns   
+
 
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
@@ -25,6 +26,7 @@ We now create a dataset over housing.csv file. It is a comma separated file. It 
    :width: 60%
    
 - In the ‘Create CSV DataSet’ page we fill in the required fields as below.   
+
 
 .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset

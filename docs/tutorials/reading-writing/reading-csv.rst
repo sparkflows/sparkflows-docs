@@ -54,7 +54,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :width: 60%
 
 
-Click the ‘Save’ button creates the new dataset that can be used in any of the workflows within the specific application.
+Click the ‘Save’ button creates the new dataset that can be used in any workflows within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG
    :alt: Dataset

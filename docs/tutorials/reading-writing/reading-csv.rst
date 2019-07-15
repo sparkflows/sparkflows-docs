@@ -35,7 +35,7 @@ Dataset Creation
    
 - Above we have specified a name for the DataSet we are creating, ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we have also specified the path to the file.
 
-- Once we have specified the above, we hit the ‘Update’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
+- Once we have specified the above, we hit the ‘Update Sample data schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/4.PNG
    :alt: Dataset

@@ -1,5 +1,5 @@
-String Functions Multiple
-=========================
+String Functions
+================
 
 This example shows how we can apply different string functions on input dataset.
 

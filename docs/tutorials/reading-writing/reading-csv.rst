@@ -21,6 +21,11 @@ Dataset Creation
  
 Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". In the pop-up choose "CSV" and then click "OK".
 
+.. figure:: ../../_assets/tutorials/dataset/10.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
 
 Clicking "OK" will take you Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
 

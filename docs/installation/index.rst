@@ -14,7 +14,7 @@ Windows
    windows-prerequisites.rst
    windows-install.rst
    
-Python
+Python(optional)
 -------
    python-install.rst
 

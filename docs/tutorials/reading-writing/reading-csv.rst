@@ -38,9 +38,9 @@ For the housing.csv file, we will fill in the required fields as below.
    :align: center
    :width: 60%
    
-- We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
+We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
 
-- Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
+Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
@@ -54,7 +54,7 @@ For the housing.csv file, we will fill in the required fields as below.
    :width: 60%
 
 
-- Click the ‘Save’ button creates the new dataset that can be used in any of the workflows within the specific application.
+Click the ‘Save’ button creates the new dataset that can be used in any of the workflows within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG
    :alt: Dataset

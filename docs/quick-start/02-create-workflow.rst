@@ -1,7 +1,7 @@
-Step 4 : Create New Workflow
+Step 4 : Create a Workflow
 ------------
 
-In this tutorial we would build an ETL Workflow.
+In this step we would create a new Workflow.
 
 We would take the transaction dataset, clean it and then join it with other dimensional datasets.
 

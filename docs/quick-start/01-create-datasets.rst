@@ -1,7 +1,7 @@
-Step 3 : Create Dataset
+Step 3 : Create a Dataset
 ----------------
 
-In this tutorial we would create a dataset over customers transactions data. Creating a Dataset allows us to define it once and use it various workflows.
+In this step, create a dataset over customers transactions data. Creating a Dataset allows us to define it once and use it various workflows.
 
 The steps involved in creating a dataset are:
 

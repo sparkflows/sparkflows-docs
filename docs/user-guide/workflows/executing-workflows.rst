@@ -88,7 +88,7 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
    :align: center
    :width: 60% 
  
- - Update the scheduled timing & Email Notifications As per our requirments
+ - Update the scheduled timing & Email Notifications after success & failure of workflow As per our requirments
  
 .. figure:: ../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow

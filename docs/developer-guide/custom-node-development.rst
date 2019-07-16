@@ -8,7 +8,7 @@ Fire Insights follows an open and extensible architecture allowing developers to
  
   * https://github.com/sparkflows/writing-new-node
   
-**Examples of more complex Nodes are at the hyperlink below :**
+**Examples of more complex nodes are at the hyperlink below :**
 
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
  

@@ -22,6 +22,11 @@ Dataset Creation
  
 Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". In the pop-up choose "JDBC" and then click "OK".
 
+.. figure:: ../../_assets/tutorials/dataset/12.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
    
  We specified a name for the dataset we are creating. and other parametrs required for it such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE which is mandatory to fill.
  

@@ -21,7 +21,7 @@ Deleting Edges
 View Worklows
 ===============
 
-You can view the workflows by going to the Workflows Page.
+You can view the workflows by going to the Workflows Page Inside specific applications.
 
 .. figure:: ../../_assets/user-guide/workflow/1.PNG
    :alt: workflow

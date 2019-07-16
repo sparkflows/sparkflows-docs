@@ -1,7 +1,7 @@
 Reading and Writing from ElasticSearch
 ======================================
 
-Elastic Search is often used for indexing, searching and analyzing datasets. Sparkflows makes is very smooth to read any data, clean and transform it.
+Elastic Search is often used for indexing, searching and analyzing datasets. Fire Insights makes is very smooth to read any data, clean and transform it.
 
 Here we show how we can load data on HDFS into Elastic Search and also read them back into Apache Spark from Elasticsearch in minutes.
 

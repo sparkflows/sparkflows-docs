@@ -30,7 +30,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 Updating the Schema of the Dataset
 ^^^^^^^^^^^^^^^^^^^^
 
-You can update the Schema of the Dataset by clicking on ``Update``. It would display sample data for the dataset followed by the inferred Schema.
+You can update the Schema of the Dataset by clicking on ``Update Sample data/schema``. It would display sample data for the dataset followed by the inferred Schema.
 
 In this case, the data file did not have a header row. So Fire gave it standard column names of ``C0, C1`` etc.
 

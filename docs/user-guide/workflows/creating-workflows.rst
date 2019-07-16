@@ -23,8 +23,8 @@ View Worklows
 
 You can view the workflows by going to the Workflows Page.
 
-.. figure:: ../_assets/user-guide/workflow-list.png
-   :alt: Sparkflows Ldap Order
+.. figure:: ../_assets/user-guide/workflow/1.PNG
+   :alt: workflow
    :align: center
 
 

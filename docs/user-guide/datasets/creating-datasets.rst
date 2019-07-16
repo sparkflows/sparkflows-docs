@@ -21,7 +21,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 
     
- .. figure:: ../../_assets/tutorials/dataset/3.PNG
+ .. figure:: ../../_assets/tutorials/dataset/16.PNG
    :alt: Dataset
    :align: center
    :width: 60%  

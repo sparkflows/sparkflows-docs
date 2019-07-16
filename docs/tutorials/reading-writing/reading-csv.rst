@@ -1,9 +1,9 @@
 Reading CSV Files
 =================
 
-When working with data in Sparkflows, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
+When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
 
-When datasets are created, Sparkflows automatically infers the schema using spark-csv library from Databricks.
+When datasets are created, Fire Insights automatically infers the schema using spark-csv library from Databricks.
 
 Datasets
 --------

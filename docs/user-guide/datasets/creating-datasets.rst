@@ -36,7 +36,7 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../_assets/tutorials/dataset/3.PNG
+ .. figure:: ../../_assets/tutorials/dataset/17.PNG
    :alt: Dataset
    :align: center
    :width: 60%

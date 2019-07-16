@@ -13,7 +13,7 @@ Interactively within the User Interface
 Workflows can be executed from the Browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../_assets/tutorials/dataset/4.PNG
+.. figure:: ../../_assets/user-guide/workflow/4.PNG
    :alt: Workflow
    :align: center
    :width: 60%

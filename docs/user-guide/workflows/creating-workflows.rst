@@ -34,4 +34,14 @@ Define New Workflows
 
 Click on 'Create New Workflow' for creating a New Workflow, it have two engine scala & pyspark, As per as requirments we can select them. It will open the Workflow Editor where Nodes can be created and connected.
 
+.. figure:: ../../_assets/user-guide/workflow/2.PNG
+   :alt: workflow
+   :align: center
+   :width: 60%
+
+
+.. figure:: ../../_assets/user-guide/workflow/3.PNG
+   :alt: workflow
+   :align: center
+   :width: 60%
 

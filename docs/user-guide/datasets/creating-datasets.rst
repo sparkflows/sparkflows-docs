@@ -3,6 +3,10 @@ Creating New Datasets
  
 You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
+.. figure:: ../../_assets/tutorials/dataset/10.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
 
 Entering Field Details
 ^^^^^^^^^^^^^^^^^^^^
@@ -16,12 +20,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 - **PATH** : Path for the location of the file or directory containing the data files for the Dataset.
 
 
- 
- .. figure:: ../../_assets/tutorials/dataset/10.PNG
-   :alt: Dataset
-   :align: center
-   :width: 60%
-   
+    
  .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
    :align: center

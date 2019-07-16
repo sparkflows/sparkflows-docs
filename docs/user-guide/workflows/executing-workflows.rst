@@ -71,10 +71,35 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 Scheduling Workflow execution with Scheduler of choice
 ----------------------------------------------------------
  
-Since Fire workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduler the execution of the workflows.
+Since Fire workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-These include Oozie, crontab etc.
+- Click on Schedule Button of Workflow we want to schedule
+
+.. figure:: ../../_assets/user-guide/workflow/5.PNG
+   :alt: Workflow
+   :align: center
+   :width: 60%  
  
+ - Click on Tab Schedule New Job for Workflow
+ 
+ .. figure:: ../../_assets/user-guide/workflow/6.PNG
+   :alt: Workflow
+   :align: center
+   :width: 60% 
+ 
+ - Update the scheduled timing & Email Notifications As per our requirments
+ 
+.. figure:: ../../_assets/user-guide/workflow/7.PNG
+   :alt: Workflow
+   :align: center
+   :width: 60%    
+
+- Click on OK to Save the changes
+
+.. figure:: ../../_assets/user-guide/workflow/8.PNG
+   :alt: Workflow
+   :align: center
+   :width: 60%  
 
  
 Debugging Workflows

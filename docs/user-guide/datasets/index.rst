@@ -16,11 +16,12 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
 
 **Dataset Listing Page**
 
-The Dataset Listing Page displays all the Datasets created in Fire.
+When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
 
- .. figure:: ../../_assets/tutorials/01/dataset-listings.png
-   :alt: Dataset Listings
+ .. figure:: ../../_assets/tutorials/dataset/1.PNG
+   :alt: Dataset
    :align: center
+   :width: 60%
   
 
  

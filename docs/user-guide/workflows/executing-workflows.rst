@@ -81,7 +81,7 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
    :width: 60%  
  
  
- - Click on Tab Schedule New Job for Workflow
+- Click on Tab Schedule New Job for Workflow
  
  .. figure:: ../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow

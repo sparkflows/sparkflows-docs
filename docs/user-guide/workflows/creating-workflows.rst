@@ -23,9 +23,10 @@ View Worklows
 
 You can view the workflows by going to the Workflows Page.
 
-.. figure:: ../_assets/user-guide/workflow/1.PNG
+.. figure:: ../../_assets/user-guide/workflow/1.PNG
    :alt: workflow
    :align: center
+   :width: 60%
 
 
 Define New Workflows

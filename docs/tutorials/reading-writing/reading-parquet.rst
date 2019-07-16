@@ -1,7 +1,7 @@
 Reading Parquet Files
 =====================
 
-Here we create a DataSet over Parquet files. Parquet files have schema embedded in them. Sparkflows is able to automatically extract the schema.
+Here we create a DataSet over Parquet files. Parquet files have schema embedded in them. Fire Insights is able to automatically extract the schema.
 
 Datasets
 --------

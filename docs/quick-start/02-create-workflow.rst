@@ -13,7 +13,7 @@ The steps involved in creating a workflow are:
 - *Click on Create New Workflow to go to the Workflow Designer Page*
 - *Click on the nodes on the LHS to create them in the Workflow Canvas*
 - *Connect the nodes with Links*
-- *Name and workflow and Save it*
+- *Name the workflow and Save it*
 
 
 Go to Workflow Listings Page

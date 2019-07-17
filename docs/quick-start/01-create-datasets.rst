@@ -17,6 +17,11 @@ Customer Housing Data
 
 The data is in CSV format.
 
+.. figure:: ../../_assets/tutorials/dataset/2.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
 Below are a few records from the data::
 
 .. figure:: ../../_assets/tutorials/dataset/2.PNG

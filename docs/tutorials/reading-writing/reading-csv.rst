@@ -27,7 +27,7 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
    :width: 60%
 
 
-Clicking "OK" will take you Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
+Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
 
 
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
@@ -59,7 +59,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :width: 60%
 
 
-Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflows within the specific application.
+Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG
    :alt: Dataset

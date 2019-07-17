@@ -33,7 +33,7 @@ Below are a few records from the data::
 Go to the Dataset Listing Page
 ==============================
 
- .. figure:: ../../_assets/tutorials/dataset/1.PNG
+ .. figure:: ../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -43,7 +43,7 @@ Click on Create Dataset
 
 Click on the ``Create Dataset`` link to get started with creating the new dataset.
 
-.. figure:: ../../_assets/tutorials/dataset/10.PNG
+.. figure:: ../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -62,7 +62,7 @@ Enter the fields below into the form. Below are the details of the fields:
 
 
  
- .. figure:: ../../_assets/tutorials/dataset/3.PNG
+ .. figure:: ../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -77,7 +77,7 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../_assets/tutorials/dataset/4.PNG
+ .. figure:: ../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
    :align: center
    :width: 60%

@@ -6,7 +6,7 @@ Here we create a DataSet over Parquet files. Parquet files have schema embedded 
 Datasets
 --------
 
-The existing DataSets are displayed in the DataSets page of of Specific application.
+The existing DataSets are displayed in the DataSets page of  Specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset

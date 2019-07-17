@@ -1,9 +1,9 @@
 Working With Dashboards
 =======================
 
-Sparkflows allows you to create Dashboards.
+Fire allows you to create Dashboards.
 
-Processors in Sparkflows can output data in Tables, Charts, Maps and simple strings. Dashboards allow combining the output of various processors into one User Interface.
+Processors in Fire can output data in Tables, Charts, Maps and simple strings. Dashboards allow combining the output of various processors into one User Interface.
 
 For example we might want to output a chart of number of bike rentals per hour, another by per day and another map displaying the total number of bike rentals per city for the day. Dashboards can combine all these into one view.
  

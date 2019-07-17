@@ -6,7 +6,7 @@ This quickstart gets you going with Fire Insights. Here you:
 
 * Create a New Application
 * Upload Data file
-* Create Dataset
+* Create a Dataset
 * Create Workflow to process data
 * Execute the Workflow
 * Create Dashboard

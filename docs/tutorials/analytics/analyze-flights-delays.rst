@@ -1,21 +1,21 @@
 Analyze Flights Delays
 =====================
 
-This workflow reads in a dataset. It then analyze flights delay with sample datasets and prints the results.
+This workflow reads in a dataset. It then analyzes flights delay with sample datasets and prints the results.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Print the sample datasets results.
-* column to be cast for new datatype double.
-* column to be cast for new datatype string.
-* update the column name of datatype string.
-* print the result of data updating after stringindexer Node.
-* execute the SQL queries with the given conditions.
-* prints the results.
+* Prints the sample datasets results.
+* Column to be cast for new datatype double.
+* Column to be cast for new datatype string.
+* Updates the column name of datatype string.
+* Prints the result of data updating after stringindexer Node.
+* Executes the SQL queries with the given conditions.
+* Prints the results.
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.PNG
    :alt: Analyze Flights Delays
@@ -25,7 +25,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset file.
+It reads Dataset files.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -46,7 +46,7 @@ Processor Output
 Print the sample datasets results
 ---------------------------------
 
-It Print the sample datasets results.
+It prints the sample datasets results.
 
 
 Processor Configuration
@@ -65,10 +65,10 @@ Processor Output
    :align: center
    :width: 60% 
 
-column to be cast for new datatype double
+Column to be cast for new datatype double
 ---------------------------------
 
-It cast for new datatype double using castcolumn type Node.
+It casts for new datatype double using castcolumn type Node.
 
 
 Processor Configuration
@@ -87,10 +87,10 @@ Processor Output
    :align: center
    :width: 60%
 
-column to be cast for new datatype string
+Column to be cast for new datatype string
 ---------------------------------
 
-It cast for new datatype string using castcolumn type Node.
+It casts for new datatype string using castcolumn type Node.
 
 
 Processor Configuration
@@ -109,10 +109,10 @@ Processor Output
    :align: center
    :width: 60%
 
-update the column name of datatype string
+Updates the column name of datatype string
 ----------------------------------------
 
-It update the column name of datatype string using stringindexer type Node.
+It updates the column name of datatype string using stringindexer type Node.
 
 
 Processor Configuration
@@ -134,7 +134,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It print the result of data updating after stringindexer Node.
+It prints the result of data updating after stringindexer Node.
 
 
 Processor Configuration
@@ -153,10 +153,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Execute the SQL queries   
+Executes the SQL queries   
 -------------------------
 
-it execute the SQL queries with the given conditions.
+It executes the SQL queries with the given conditions.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -177,7 +177,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the results after staisfied condition by   sql   queries.
+It prints the results after satisfied condition by   sql   queries.
 
 
 Processor Configuration

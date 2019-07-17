@@ -1,9 +1,9 @@
 Distribution Graphs
 ===================
 
-This workflow reads a CSV file. It then Plots graphs of distribution of data by Week, Month & Year.
+This workflow reads a CSV file. It then plots graphs of distribution of data by Week, Month & Year.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
@@ -21,7 +21,7 @@ Below is the workflow. It does the following:
 Reading CSV file
 ---------------------
 
-It reads CSV file.
+It reads CSV files.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -42,7 +42,7 @@ Processor Output
 Distribution of data by Week
 ----------------------------
 
-It Plots graphs of distribution of data by Week using GraphWeekDistribution Node.
+It plots graphs of distribution of data by Week using GraphWeekDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ Processor Output
 Distribution of data by Month
 -----------------------------
 
-It Plots graphs of distribution of data by month using GraphMonthDistribution Node.
+It plots graphs of distribution of data by month using GraphMonthDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -84,7 +84,7 @@ Processor Output
 Distribution of data by Year
 ----------------------------
 
-It Plots graphs of distribution of data year using GraphYearDistribution Node.
+It plots graphs of distribution of data by year using GraphYearDistribution Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -28,7 +28,7 @@ Viewing Dashboards
 
   * Once a Dashboard has been created you can view it, by clicking on the View button.
   
-.. figure:: ../_assets/user-guide/dashboard-view.png
+.. figure:: ../../_assets/user-guide/dashboard-view.png
    :alt: Sparkflows Dashboard
    :align: center  
    :width: 60%

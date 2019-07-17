@@ -1,5 +1,5 @@
 Step 3 : Create a Dataset
-----------------
+=========================
 
 In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it various workflows.
 
@@ -13,7 +13,7 @@ The steps involved in creating a dataset are:
 - *Save the Dataset with a new name*
 
 Customer Housing Data
-----------------------
+=====================
 
 The data is in CSV format.
 
@@ -28,7 +28,7 @@ Below are a few records from the data::
 Go to the Dataset Listing Page
 ==============================
 
- .. figure:: ../_assets/tutorials/dataset/1.PNG
+.. figure:: ../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :align: center
    :width: 60%

@@ -1,19 +1,19 @@
-NYC Taxidata Annalysis
+NYC Taxidata Analysis
 ======================
 
-This workflow reads in a sample dataset. It then annalyse Average speed of taxis at each hour with sample data and prints the results.
+This workflow reads in a sample dataset. It then analyses average speed of taxis at each hour with sample data and prints the results.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a dataset.
-* Extract hour from pickup time.
-* Calculate the speed per hour.
-* Calculate the average speed per hour.
+* Extracts hour from pickup time.
+* Calculates the speed per hour.
+* Calculates the average speed per hour.
 * Prints the results.
-* Display average speed per hour on chart.
+* Displays average speed per hour on chart.
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.PNG
    :alt: NYC Taxidata Annalysis
@@ -23,7 +23,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+It reads sample Dataset files.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -44,7 +44,7 @@ Processor Output
 Extract hour from pickup time
 -----------------------------
 
-It extract hour from pickup time using datetimefieldextract Node.
+It extracts hour from pickup time using datetimefieldextract Node.
 
 
 Processor Configuration
@@ -66,7 +66,7 @@ Processor Output
 Calculate the speed per hour
 -----------------------------
 
-It calculate the speed per hour using SQL Node.
+It calculates the speed per hour using SQL Node.
 
 
 Processor Configuration
@@ -88,7 +88,7 @@ Processor Output
 Calculate the average speed per hour
 -----------------------------
 
-It calculate the average speed per hour using GroupBy Node.
+It calculates the average speed per hour using GroupBy Node.
 
 
 Processor Configuration
@@ -131,7 +131,7 @@ Processor Output
 Analyze using Chart Graph
 -------------------------
 
-It display average speed per hour on chart using Graphvalue Node.
+It displays average speed per hour on chart using Graphvalue Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

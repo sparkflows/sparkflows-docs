@@ -1,18 +1,18 @@
 General Payment Data Analysis
 =============================
 
-This workflow reads in a dataset. It then perform detailed analytics on general payment dataset.
+This workflow reads in a dataset. It then performs detailed analytics on general payment dataset.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Calculate count transactions by speciality.
+* Calculates count transactions by speciality.
 * Summary of transactions. 
-* Number of transaction per state.
-* prints the results.
+* Number of transactions per state.
+* Prints the results.
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.PNG
    :alt: General Payment Data Analysis
@@ -43,7 +43,7 @@ Processor Output
 Calculate count transactions by speciality
 ------------------------------------------
 
-It will Calculate count transactions by speciality using BarChartCal Node.
+It will calculate count transactions by speciality using BarChartCal Node.
 
 
 Processor Configuration
@@ -65,7 +65,7 @@ Processor Output
 Summary of transactions
 -----------------------
 
-It Find stats on amount of each transactions using Summary Node.
+It finds stats on amount of each transaction using Summary Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -86,7 +86,7 @@ Processor Output
 Number of transaction per state
 -------------------------------
 
-It find Number of transaction per state using SQL Node.
+It finds number of transactions per state using SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ Processor Output
    :align: center
    :width: 60%
    
-prints the results
+Prints the results
 ------------------
  It will print the result of output getting from SQL Node.
  

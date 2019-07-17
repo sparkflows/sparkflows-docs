@@ -5,7 +5,7 @@ Elastic Search is often used for indexing, searching and analyzing datasets. Fir
 
 Here we show how we can load data on HDFS into Elastic Search and also read them back into Apache Spark from Elasticsearch in minutes.
 
-elasticsearch-hadoop provides native integration between Elasticsearch and Apache Spark.
+Elasticsearch-hadoop provides native integration between Elasticsearch and Apache Spark.
 
 Workflow for Loading data into Elastic Search
 ----------------------------------------------
@@ -68,7 +68,7 @@ The Elastic Search Spark connector understands the SQL and translates it into th
 Workflow Execution
 ------------------
 
-When we execute the Workflow, it reads in the index and from Elastic Search and displays the first few lines.
+When we execute the Workflow, it reads in the index from Elastic Search and displays the first few lines.
 
 We see that the housing records we wrote to Elastic Search in the first workflow is read back now.
 

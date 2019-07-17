@@ -21,7 +21,7 @@ Editing Dashboards
 .. figure:: ../_assets/user-guide/editing-dashboards.png
    :alt: Sparkflows Editing Dashboards
    :align: center
-   
+   :width: 60%
    
 Viewing Dashboards
 ------------------
@@ -31,7 +31,8 @@ Viewing Dashboards
 .. figure:: ../_assets/user-guide/dashboard-view.png
    :alt: Sparkflows Dashboard
    :align: center  
-
+   :width: 60%
+   
 Streaming Dashboards
 ---------------------
  

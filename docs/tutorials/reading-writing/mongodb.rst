@@ -1,7 +1,7 @@
 Reading and Writing from MongoDB
 ================================
 
-MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need, Here we are loading data from HDFS  and Saving it into MongoDB.
+MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need. Here we are loading data from HDFS  and Saving it into MongoDB.
 
 Workflow for Loading data into MongoDB
 ---------------------------------------
@@ -36,7 +36,7 @@ When we execute the Workflow, it reads in the dataset from HDFS and loads it int
 Workflow for Reading data from MongoDB
 ---------------------------------------
 
-The below workflow reads Data in MongoDB,It then Print the data.
+The below workflow reads Data in MongoDB.It then prints the data.
 
 
 .. figure:: ../../_assets/tutorials/mongodb/Readmongodb.PNG

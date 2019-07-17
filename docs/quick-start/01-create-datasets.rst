@@ -20,7 +20,7 @@ The data is is CSV format.
 Below are a few records from the data::
 
 
-.. figure:: ../../_assets/tutorials/dataset/2.PNG
+.. figure:: ../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
    :align: center
    :width: 60%

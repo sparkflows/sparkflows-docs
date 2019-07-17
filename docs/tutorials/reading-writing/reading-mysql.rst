@@ -29,7 +29,7 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
    :width: 60%
 
    
-We specified a Name for the dataset we are creating and other parametrs required for it such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc which is mandatory to fill.
+We specified a name for the dataset we are creating and other parameters required for it such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc which is mandatory to fill.
  
 Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
@@ -44,7 +44,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :align: center
    :width: 60%
    
-Click the ‘Save’ button creates the new dataset that can be used in any workflows or Interactive dashboard within the specific application.
+Clicking the ‘Save’ button creates the new dataset that can be used in any workflows or Interactive dashboard within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/15.PNG
    :alt: Dataset

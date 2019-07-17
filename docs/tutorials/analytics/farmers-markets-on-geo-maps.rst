@@ -9,10 +9,10 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Executes SQL query for state count.
+* Executes SQL Query for state count.
 * Prints the result after executing query for state counts.
 * Plots Graph for farmers with state counts.
-* Executes SQL query for city counts.
+* Executes SQL Query for city counts.
 * Plots Graph for farmers with city counts.
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.PNG
@@ -65,7 +65,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the result after executing query for state counts by SQL Node.
+It prints the results after executing query for state counts by SQL Node.
 
 
 Processor Configuration
@@ -105,7 +105,7 @@ Processor Output
    :align: center
    :width: 60% 
 
-Execute SQL query
+Execute SQL Query
 -------------------
 
 It executes SQL Query for City count from the SQL node.

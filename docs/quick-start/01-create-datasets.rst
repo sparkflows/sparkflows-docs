@@ -1,7 +1,7 @@
 Step 3 : Create a Dataset
 =========================
 
-In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it various workflows.
+In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it with various workflows.
 
 The steps involved in creating a dataset are:
 

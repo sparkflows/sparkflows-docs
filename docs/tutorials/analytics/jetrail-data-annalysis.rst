@@ -1,19 +1,19 @@
 Jetrail Data Annalysis
 ======================
 
-This workflow reads in a dataset. It then Calculates the monthly trend in JetRail Dataset and annalysing using graph.
+This workflow reads in a dataset. It then calculates the monthly trend in JetRail Dataset and annalyses using graph.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Extract date time field.
-* Calculate count per months.
-* Execute query for months.
-* prints the results.
-* Graphical annalysis.
+* Extracts date time field.
+* Calculates count per month.
+* Executes query for months.
+* Print the results.
+* Graphical analysis.
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.PNG
    :alt: Jetrail Data Annalysis
@@ -43,7 +43,7 @@ Processor Output
 
 Extract date time field
 -----------------------
-It extract year and month field from date time field of timestamp using date time field extract Node.
+It extracts year and month field from date time field of timestamp using date time field extract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -61,9 +61,9 @@ Processor Output
    :align: center
    :width: 60% 
    
-Calculate count per months
+Calculate count per month
 --------------------------
-It calculate count per months using query by SQL Node.
+It calculates count per month using query by SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -84,7 +84,7 @@ Processor Output
 Execute query for months
 ------------------------
 
-It execute query for grouping and selecting required fields calculate sum of counts by SQL Node.
+It executes query for grouping and selecting required fields, calculates sum of counts by SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -105,29 +105,14 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the results after executing  sql query for months.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/6.PNG
-   :alt: Jetrail Data Annalysis
+It prints the results after executing  SQL Query
    :align: center
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/6a.PNG
-   :alt: Jetrail Data Annalysis
-   :align: center
-   :width: 60%
-   
-Graphical annalysis
+Graphical analysis
 ---------------------
 
-It will graphically represented month with count using GraphValue Node.
+It will graphically represent month with count using GraphValue Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

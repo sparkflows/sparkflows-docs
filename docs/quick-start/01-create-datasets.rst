@@ -5,6 +5,7 @@ In this step, create a dataset over customers transactions data. Creating a Data
 
 The steps involved in creating a dataset are:
 
+- *Go to the Application where you want create dataset*
 - *Go to the Dataset Listing Page*
 - *Click on Create New Dataset*
 - *Enter the fields in the dialog for the file for which we are creating the Dataset*
@@ -32,14 +33,20 @@ Below are a few records from the data::
 Go to the Dataset Listing Page
 ==============================
 
- .. figure:: ../../_assets/tutorials/01/dataset-listings.png
-   :alt: Dataset Listings
+ .. figure:: ../../_assets/tutorials/dataset/1.PNG
+   :alt: Dataset
    :align: center
+   :width: 60%
 
 Click on Create Dataset
 =======================
 
 Click on the ``Create Dataset`` link to get started with creating the new dataset.
+
+.. figure:: ../../_assets/tutorials/dataset/10.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
 
 
 Enter the Field Details
@@ -55,9 +62,10 @@ Enter the fields below into the form. Below are the details of the fields:
 
 
  
- .. figure:: ../../_assets/tutorials/01/create-new-dataset.png
-   :alt: Sparkflows Create New Datasets
+ .. figure:: ../../_assets/tutorials/dataset/3.PNG
+   :alt: Dataset
    :align: center
+   :width: 60%
  
  
 Update the Schema of the Dataset
@@ -69,9 +77,10 @@ In this case, the data file did not have a header row. So Fire gave it standard 
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../_assets/tutorials/01/dataset-schema.png
-   :alt: Dataset Schema
+ .. figure:: ../../_assets/tutorials/dataset/4.PNG
+   :alt: Dataset
    :align: center
+   :width: 60%
    
 
 Save the New Dataset

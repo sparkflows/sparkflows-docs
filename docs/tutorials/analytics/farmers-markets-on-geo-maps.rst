@@ -1,19 +1,19 @@
 Farmers Markets On Geo Maps
 ===========================
 
-This workflow reads in a dataset. It then Plots number of Farmers Market by City and by State on a Graph.
+This workflow reads in a dataset. It then plots number of Farmers Market by City and by State on a Graph.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Execute SQL query for state count.
-* Print the result after executing query for state counts.
-* Plot Graph for farmers with state counts.
-* Execute SQL query for city counts.
-* Plot Graph for farmers with city counts.
+* Executes SQL query for state count.
+* Prints the result after executing query for state counts.
+* Plots Graph for farmers with state counts.
+* Executes SQL query for city counts.
+* Plots Graph for farmers with city counts.
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.PNG
    :alt: Farmers Markets On Geo Maps
@@ -23,7 +23,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+It reads sample Dataset files.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -41,10 +41,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Execute SQL query
+Execute SQL Query
 -------------------
 
-It Execute SQL query for state count from the SQL node.
+It Executes SQL Query for state count from the SQL node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -65,7 +65,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It Print the result after executing query for state counts by SQL Node.
+It prints the result after executing query for state counts by SQL Node.
 
 
 Processor Configuration
@@ -87,7 +87,7 @@ Processor Output
 Analyze using Graph
 --------------------
 
-It Plot Graph for farmers with state counts using RegionGeoGRaph Node.
+It plots Graph for farmers with state counts using RegionGeoGRaph Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -108,7 +108,7 @@ Processor Output
 Execute SQL query
 -------------------
 
-It Execute SQL query for City count from the SQL node.
+It executes SQL Query for City count from the SQL node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -129,7 +129,7 @@ Processor Output
 Analyze using Graph
 --------------------
 
-It Plot Graph for farmers with City counts using RegionGeoGRaph Node.
+It plots Graph for farmers with City counts using RegionGeoGRaph Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

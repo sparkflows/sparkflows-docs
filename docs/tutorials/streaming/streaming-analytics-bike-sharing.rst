@@ -134,7 +134,7 @@ Below is the Dashboard editor. Select the nodes whose output you want displayed 
    :align: center
    :width: 60%
    
- .. figure:: ../../_assets/tutorials/dataset/46.PNG
+.. figure:: ../../_assets/tutorials/dataset/46.PNG
    :alt: Dataset
    :align: center
    :width: 60%  

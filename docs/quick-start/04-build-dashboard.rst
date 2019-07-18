@@ -35,6 +35,7 @@ Click on Create New Dashboard
 
 This would open up the Dashboard Designer Page.
 
+
 .. figure:: ../_assets/tutorials/quickstart/12.PNG
    :alt: Dashboard
    :align: center
@@ -54,6 +55,7 @@ On the LHS of the Dashboard Designer, the list of workflows would show up. With 
 Nodes inside the workflow can be dragged and dropped onto the Dashboard to make them part of the Dashboard.
 
 In the Dashboard below we have added 2 nodes to the Dashboard.
+
 
 ... figure:: ../_assets/tutorials/quickstart/13.PNG
    :alt: Dashboard
@@ -76,7 +78,8 @@ The Dashboard shows the content from the latest execution of the Workflow.
 
 If the workflow has never been executed, the Dashboard would show empty content.
 
-... figure:: ../_assets/tutorials/quickstart/13.PNG
+
+... figure:: ../_assets/tutorials/quickstart/14.PNG
    :alt: Dashboard
    :align: center
    

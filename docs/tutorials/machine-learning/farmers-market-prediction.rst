@@ -193,7 +193,7 @@ Print N Rows
 
 Next You can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.PNG
    :alt: Fire Market Prediction
    :align: center
    :width: 60%

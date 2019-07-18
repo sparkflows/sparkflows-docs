@@ -2,7 +2,7 @@
 Drop Rows With Null
 ===================
 
-This example drops/filters the rows contains any null values from the input dataset.
+This example drops/filters the rows containing any null values from the input dataset.
 
 
 Workflow
@@ -44,10 +44,10 @@ Processor Output
    :align: center
    :width: 60% 
    
-Droping rows with null
+Dropping rows with null
 ----------------------
 
-It drops the rows which contains any null value.
+It drops the rows which contain any null value.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

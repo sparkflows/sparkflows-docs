@@ -14,6 +14,9 @@ The steps involved in executing a workflow are:
 Go to Application page
 ======================
 
+.. figure:: ../_assets/tutorials/quickstart/8.PNG
+   :alt: Workflow Listings
+   :align: center
 
 
 

@@ -28,8 +28,8 @@ Go to Application Page
 Go to Workflow Listings Page
 ============================
 
-.. figure:: ../_assets/tutorials/02/workflow-listings.png
-   :alt: Workflow Listings
+.. figure:: ../_assets/tutorials/quickstart/7.PNG
+   :alt: Quicstart
    :align: center
 
 Click on Create Workflow

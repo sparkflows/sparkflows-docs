@@ -91,7 +91,7 @@ From the evaluator You get the following results:
    :align: center
    :width: 60%
    
-The workflow consists of the below JSON. The workflow can be run interactively from the Fire UI, or it can be easily schedule with spark-submit with any scheduler.
+The workflow consists of the below JSON. The workflow can be run interactively from the Fire UI, or it can be easily scheduled with spark-submit with any scheduler.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/12.PNG
    :alt: Machine Learning

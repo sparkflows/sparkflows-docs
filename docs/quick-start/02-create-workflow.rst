@@ -1,11 +1,11 @@
 Step 4 : Create a Workflow
 ------------
 
-In this step we would create a new Workflow.
+In this step You can create a new Workflow.
 
-We would take the transaction dataset, clean it and then join it with other dimensional datasets.
+It would take the transaction dataset, clean it and then join it with other dimensional datasets.
 
-We would finally save the results into CSV files.
+It would finally save the results into CSV files.
 
 The steps involved in creating a workflow are:
 

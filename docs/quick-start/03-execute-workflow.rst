@@ -14,6 +14,9 @@ The steps involved in executing a workflow are:
 Go to Application page
 ======================
 
+Open Application from where you want to execute the workflow
+
+
 .. figure:: ../_assets/tutorials/quickstart/8.PNG
    :alt: Workflow Listings
    :align: center

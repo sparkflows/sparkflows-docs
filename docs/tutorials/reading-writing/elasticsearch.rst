@@ -1,11 +1,13 @@
 Reading and Writing from ElasticSearch
 ======================================
 
-Elastic Search is often used for indexing, searching and analyzing datasets. Fire Insights makes is very smooth to read any data, clean and transform it.
+Elastic Search is often used for indexing, searching and analyzing datasets. Fire Insights makes it easy to read any data from Elastic Search, clean it and transform it.
 
-Here we show how we can load data on HDFS into Elastic Search and also read them back into Apache Spark from Elasticsearch in minutes.
+Elasticsearch-hadoop provides native integration between Elasticsearch and Apache Spark. In the example below we will first load data from HDFS into Elastic Search and then read it back into Apache Spark from Elastic Search.
 
-Elasticsearch-hadoop provides native integration between Elasticsearch and Apache Spark.
+If your data is already in Elastic Search skip to "Workflow for Reading data from Elastic Search". 
+
+
 
 Workflow for Loading data into Elastic Search
 ----------------------------------------------

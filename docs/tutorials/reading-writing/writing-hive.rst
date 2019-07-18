@@ -3,9 +3,6 @@ Saving Data to HIVE
 
 As par of your data pipeline or workflow, you might want to save data to HIVE after it has been read from a data source, cleaned and transformed. After data is saved in HIVE it can be read from another workflow or accessed through BI tools such as Tableau.
 
-Fire Insights has one node to saving data to HIVE:
-
-- SaveAsTable : Saves the data into a HIVE table
 
 Cluster vs Standalone Mode
 --------------------------
@@ -14,7 +11,7 @@ In your workflow, drag and drop a "SaveAsHIVETable" processor. Confirgure this p
 
 Note: Fire Insights can run in cluster mode or in the standalone mode. These settings are in Administration/Configuration.When connecting to HIVE, Sparkflows must be running in cluster mode on an edge node of a Hadoop cluster. HIVE settings have to be correctly set under Administration/Configuration-> app.runOnCluster.
 
-The example workflow below, contains "SaveAsHIVETable" processor. It reads Housing dataset and saves it into the HIVE 'housing_table' table.
+The example workflow below, contains "SaveAsHIVETable" processor. It reads Housing dataset and saves it into the HIVE 'housing_table'.
 
 .. figure:: ../../_assets/tutorials/dataset/24.PNG
    :alt: Dataset

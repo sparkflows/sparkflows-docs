@@ -84,7 +84,7 @@ Next, You can execute the workflow. it will come up with the below model. It is 
    :align: center
    :width: 60%
    
-From the evaluator we get the following results:
+From the evaluator You get the following results:
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/11.PNG
    :alt: Machine Learning

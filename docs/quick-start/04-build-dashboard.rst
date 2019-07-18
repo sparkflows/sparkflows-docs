@@ -17,7 +17,7 @@ Go to Application page
 Open Application from where you want to Create Dashboard
 
 
-.. figure:: ../_assets/tutorials/quickstart/8.PNG
+.. figure:: ../_assets/tutorials/quickstart/10.PNG
    :alt: Dashboard
    :align: center
 

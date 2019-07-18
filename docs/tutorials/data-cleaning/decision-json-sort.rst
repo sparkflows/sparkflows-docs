@@ -1,7 +1,7 @@
 Decision / JSON Parser / SortBy / Empty Dataset
 ===============================================
 
-Fire provides the following processor:
+Fire provides the following processors:
 
 * JSON Parser Processor
 * Decision Processor

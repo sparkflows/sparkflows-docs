@@ -5,17 +5,23 @@ In this step you can execute the workflow created and view the results
 
 The steps involved in executing a workflow are:
 
+- *Go to Application page where you want to execute the workflow*
 - *Go to Workflow Listings page*
 - *Click on the play button for executing the workflow*
 - *This would bring up the Execute workflow page*
 - *Click on Execute to execute the workflow*
+
+Go to Application page
+======================
+
+
 
 
 Go to Workflow Listings page
 ============================
 
 
-.. figure:: ../_assets/tutorials/02/workflow-listings.png
+.. figure:: ../_assets/tutorials/quickstart/7.PNG
    :alt: Workflow Listings
    :align: center
 

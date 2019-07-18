@@ -1,16 +1,16 @@
 Rename Columns
 ==============
 
-This workflow reads in a dataset. It then rename columns from the original dataset and prints the results.
+This workflow reads in a dataset. It then renames columns from the original dataset and prints the results.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a dataset.
-* It then rename columns from the original dataset.
-* prints the results.
+* It then renames columns from the original dataset.
+* Prints the results.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/1.PNG
    :alt: Rename Columns
@@ -41,7 +41,7 @@ Processor Output
 Rename Columns
 ------------
 
-It Rename Columns we wanted.
+It renames columns we want.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

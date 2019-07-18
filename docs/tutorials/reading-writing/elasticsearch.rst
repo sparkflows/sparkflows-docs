@@ -48,34 +48,33 @@ When the example workflow above is executed, it reads in the dataset from HDFS a
 Reading data from Elastic Search
 ---------------------------------------------
 
-The below workflow reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
-
-.. figure:: ../../_assets/tutorials/dataset/21.PNG
-   :alt: Dataset
-   :align: center
-   :width: 60%
- 
-In the above workflow, the Node 'ElasticSearchRead' reads in the records from the Elastic Search Index 'sparkflows/housing'.
-
-The below diagram shows the dialog box for the Elastic Search Read Processor.
+Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' process into your workflow and configure it.
+The screenshot below shows the dialog box for the Elastic Search Read processor.
 
 .. figure:: ../../_assets/tutorials/dataset/22.PNG
    :alt: Dataset
    :align: center
    :width: 60%
    
-In the above dialog, the 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next Processor making it easy for us to build the workflow.
+In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.
 
-SQL specifies the SQL to be used for reading from Elastic Search. It allows us to limit the columns of interest, where clauses etc.
+The SQL field specifies the SQL to be used for reading from Elastic Search. It allows you to limit the columns of interest, and apply where clauses etc.
 
-The Elastic Search Spark connector understands the SQL and translates it into the appropriate QueryDSL. The connector pushes down the operations directly at the source, where the data is efficiently filtered out so that only the required data is streamed back to Spark. This significantly increases the query performance and minimizes the CPU, memory and I/O operations on both Spark and Elastic Search clusters.
+The Elastic Search processor understands the SQL and translates it into the appropriate QueryDSL. The connector pushes down the operations directly to the source, where the data is efficiently filtered out so that only the required data is streamed back to Spark. This significantly increases the query performance and minimizes the CPU, memory and I/O operations on both Spark and Elastic Search clusters.
+
+The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
+
+.. figure:: ../../_assets/tutorials/dataset/21.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+ 
 
 Workflow Execution
 ------------------
 
-When we execute the Workflow, it reads in the index from Elastic Search and displays the first few lines.
+When the example workflow above is executed, it reads in the index from Elastic Search and displays the first few lines.
 
-We see that the housing records we wrote to Elastic Search in the first workflow is read back now.
 
 .. figure:: ../../_assets/tutorials/dataset/23.PNG
    :alt: Dataset

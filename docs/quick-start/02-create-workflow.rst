@@ -42,6 +42,7 @@ In the Workflow Designer Page, give a ``Name, Category and Description`` to the 
 - **NAME** : Name of the New Workflow
 - **CATEGORY** : Category is used to group various workflows. For example if we have various Workflows for Customer Reports, the Category could be ``Customer Reports``.
 - **DESCRIPTION** : Description of the New Workflow
+- **PARAMETERS** : Parameter of the Workflow
 
 
 Create the Workflow

@@ -1,13 +1,13 @@
 Joining Multiple Datasets
 =========================
 
-Fire Insights allows to quickly do very complex data preparation and ETL on Big Data.
+Fire Insights allows you to quickly do complex data preparation and ETL on Big Data.
 
 Fire Insights has a number of features for enabling it including: 
 
 - Data Cleaning 
 - oins, GroupBy, Cube, SQL etc.
-- Reading data from multiple sources and writing results to various sinks.
+- Reading data from multiple sources and writing results to various sinks
 
 Fire Insights also gives you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.
 

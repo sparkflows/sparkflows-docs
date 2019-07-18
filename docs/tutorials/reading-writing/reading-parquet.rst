@@ -6,7 +6,7 @@ Fire insights supports reading from several file formats including Parquet files
 Datasets
 --------
 
-The existing dataSets are displayed in the DataSets page of specific application.
+The existing datasets are displayed in the DataSets page of specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset

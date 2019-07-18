@@ -12,8 +12,8 @@ The steps involved in creating a dataset are:
 - *Update the schema of the Dataset*
 - *Save the Dataset with a new name*
 
-Customer Housing Data
-----------------------
+- Customer Housing Data
+
 
 The data is in CSV format.
 
@@ -25,16 +25,15 @@ Below are a few records from the data.
    :width: 60%
    
    
-Go to the Dataset Listing Page
--------------------------------
+- Go to the Dataset Listing Page
 
 .. figure:: ../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
-Click on Create Dataset
-------------------------
+- Click on Create Dataset
+
 
 Click on the ``Create Dataset`` link to get started with creating the new dataset.
 
@@ -44,8 +43,8 @@ Click on the ``Create Dataset`` link to get started with creating the new datase
    :width: 60%
 
 
-Enter the Field Details
-------------------------
+- Enter the Field Details
+
 
 Enter the fields below into the form. Below are the details of the fields:
 
@@ -63,8 +62,8 @@ Enter the fields below into the form. Below are the details of the fields:
    :width: 60%
  
  
-Update the Schema of the Dataset
----------------------------------
+- Update the Schema of the Dataset
+
 
 Now click on ``Update`` to update the Schema of the Dataset. It would display sample data for the dataset followed by the Schema.
 
@@ -78,8 +77,8 @@ You can update the column names in the schema based on your data.
    :width: 60%
    
 
-Save the New Dataset
----------------------
+- Save the New Dataset
+
 
 Now click on ``Save`` to save the new Dataset created.
  

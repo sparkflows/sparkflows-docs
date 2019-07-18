@@ -5,18 +5,19 @@ Fire Insights allows you to quickly do complex data preparation and ETL on Big D
 
 Fire Insights has a number of features for enabling it including: 
 
-- Data Cleaning 
-- oins, GroupBy, Cube, SQL etc.
-- Reading data from multiple sources and writing results to various sinks
+- Reading data from multiple sources 
+- Cleaning data
+- oins, GroupBy, Cube, SQL etc. to transform data
+- Writing results to various sinks
 
 Fire Insights also gives you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.
 
 Overview
 ---------
 
-Here we started with 5 datasets, read them in & understand their schema in the process, perform data cleaning and then certain aggregations and joins.
+In this example, we start with 5 datasets, read them in & understand their schema in the process, perform data cleaning and then apply appropriate aggregations and joins.
 
-The final results are written to HDFS as CSV files. They can as well we written as Parquet, Avro, JSON, XML files or to HIVE/Relational tables.
+The cleansed and tranformed datasets are written to HDFS as CSV files. These dataset can as well we written as Parquet, Avro, JSON, XML files or to HIVE/Relational tables as needed.
 
 Datasets
 --------
@@ -57,7 +58,7 @@ Each record has a fixed number of characters. In each record each field consists
 Group By and Aggregates
 -----------------------
 
-The data is then aggregated and counted and averages calculated. It is then saved as CSV file.
+The data is then aggregated and counted and averages are calculated. It is then saved as CSV file.
 
 Joins with various Dimension Data
 ---------------------------------

@@ -1,7 +1,7 @@
 Convert To Timestamps
 ====================
 
-This example convert to timestamp from the input sample dataset using string to date Node.
+This example converts to timestamp from the input sample dataset using string to date Node.
 
 Workflow
 --------
@@ -9,9 +9,9 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset file.
-* Print sample dataset result.
-* Convert sample string to timestamp.
-* Print the expected result.
+* Prints sample dataset result.
+* Converts sample string to timestamp.
+* Prints the expected result.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.PNG
    :alt: Convert To Timestamps
@@ -21,7 +21,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+It reads sample Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,10 +39,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Prints the sample dataset Results
+Prints the sample Dataset Results
 ---------------------------------
 
-It prints the results of the sample datset available.
+It prints the results of the sample dataset available.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ Processor Output
 Convert To Timestamps
 ---------------------
 
-It Convert To Timestamps using stringtodate Node.
+It converts To Timestamps using stringtodate Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -84,7 +84,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the results after Converting To Timestamps.
+It prints the results after converting to Timestamps.
 
 
 Processor Configuration

@@ -17,10 +17,10 @@ Below is the workflow which does the following:
    :align: center
    :width: 60%
    
-Read data from hdfs
+Read data from HDFS
 -------------------
 
-It reads data from the existing dataset on hdfs.
+It reads data from the existing dataset on HDFS.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^

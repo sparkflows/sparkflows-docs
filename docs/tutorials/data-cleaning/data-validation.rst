@@ -1,7 +1,7 @@
 Data Validation
 ===============
 
-This example performs different kind of data validation on input dataset like valid/invalid email,valid/invalid date,null/not null check etc.
+This example performs different kinds of data validation on input dataset like valid/invalid email,valid/invalid date,null/not null check etc.
 
 Workflow
 --------
@@ -45,7 +45,7 @@ Processor Output
 Performing Validation
 ---------------------
 
-It perform different validation on different columns.
+It performs different validation on different columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

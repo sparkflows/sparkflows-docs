@@ -5,11 +5,21 @@ Dashboards allow you to display the output of multiple workflows in one place to
 
 The steps involved in creating a dashboard are:
 
-- *Go to Dashboards page*
+- *Go to Application page where you want to Create Dashboard*
+- *Go to Dashboard page*
 - *Click on Create New Dashboard*
 - *Drag and drop selected Nodes from the workflows into the Dashboard canvas*
 - *Save the Dashboard*
 
+Go to Application page
+======================
+
+Open Application from where you want to Create Dashboard
+
+
+.. figure:: ../_assets/tutorials/quickstart/10.PNG
+   :alt: Workflow Listings
+   :align: center
 
 Go to Dashboards page
 =====================

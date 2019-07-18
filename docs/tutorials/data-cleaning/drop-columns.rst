@@ -1,16 +1,16 @@
 Drop Columns
 =============
 
-This workflow reads in a dataset. It then drop some columns from the original dataset and prints the results.
+This workflow reads in a dataset. It then drops some columns from the original dataset and prints the results.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a dataset.
-* It then drop some columns from the original dataset.
-* prints the results.
+* It then drops some columns from the original dataset.
+* Prints the results.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/1.PNG
    :alt: Drop Columns
@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset file.
+It reads Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -38,7 +38,7 @@ Processor Output
    :align: center
    :width: 60%   
    
-Drop columns
+Drop Columns
 ------------
 
 It drops the columns whichever we want.

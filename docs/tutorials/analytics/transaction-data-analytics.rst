@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset file.
+It reads Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -38,10 +38,10 @@ Processor Output
    :align: center
    :width: 60%
    
-Prints the sample dataset Results
+Prints the sample Dataset Results
 ---------------------------------
 
-It prints sample dataset Results.
+It prints sample Dataset Results.
 
 
 Processor Configuration

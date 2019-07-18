@@ -13,10 +13,10 @@ As the DataBricks link highlights:
 
 - The second we will be working with is the SOI Tax Stats - Individual Income Tax Statistics - ZIP Code Data (SOI). This study provides detailed tabulations of individual income tax return data at the state and ZIP code level and is provided by the IRS. This repository only has a sample of the data: 2013 and includes "AGI". The ZIP Code data show selected income and tax items classified by State, ZIP Code, and size of adjusted gross income. Data are based on individual income tax returns filed with the IRS and are available for Tax Years 1998, 2001, 2004 through 2013. The data include items, such as:
 
- -Number of returns, which approximates the number of households
- -Number of personal exemptions, which approximates the population
- -Adjusted gross income
- -Wages and salaries
- -Dividends before exclusion
- -Interest received
+   - Number of returns, which approximates the number of households
+   - Number of personal exemptions, which approximates the population
+   - Adjusted gross income
+   - Wages and salaries
+   - Dividends before exclusion
+   - Interest received
 

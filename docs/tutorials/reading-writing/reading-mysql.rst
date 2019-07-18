@@ -3,12 +3,12 @@ Reading MySQL
 
 When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
 
-When datasets are created, Fire Insights automatically infers the schema using spark-csv library from Databricks.
+When datasets are created, Fire Insights automatically infers the schema of the dataset.
 
 Datasets
 --------
 
-When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
+When you open any application, all existing datasets specific to the application are displayed in the Datasets tab.
 
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
@@ -29,9 +29,9 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
    :width: 60%
 
    
-We specified a name for the dataset we are creating and other parameters required for it such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc which is mandatory to fill.
+Specify the name of the dataset you are creating and other required parameters such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc.
  
-Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
+Once you have filled in required information, hit ‘Update Sample data/schema’ button. This brings up sample data, infers the schema and displays it. You can change column names and data types as needed. Format column is used for specifying the format of date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/13.PNG
    :alt: Dataset

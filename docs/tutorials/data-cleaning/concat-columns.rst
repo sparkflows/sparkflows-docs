@@ -2,7 +2,7 @@
 Concat Columns
 ==============
 
-This example concats column in the input dataset with the specified separator.
+This example concats columns in the input dataset with the specified separator.
 
 
 Workflow

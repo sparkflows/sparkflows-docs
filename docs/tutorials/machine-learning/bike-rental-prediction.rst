@@ -1,19 +1,19 @@
 Bike Rental Prediction
 ======================
 
-This workflow reads in a dataset.it then Predicts the number of bikes to be rented in any given hour.
+This workflow reads in a dataset.It then Predicts the number of bikes to be rented in any given hour.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* Extract hour from time using datatype timestamp.
-* Calculate Count to datatype double.
-* Assemble features for modelling.
-* Calculate vectorindexer.
-* Split it.
+* Extracts hour from time using datatype timestamp.
+* Calculates Count to datatype double.
+* Assembles features for modelling.
+* Calculates vectorindexer.
+* Splits it.
 * GBTRegression.
 * Prediction.
 * RegressionEvaluator.
@@ -51,7 +51,7 @@ Processor Output
 Extract hour from time using datatype timestamp
 ------------------------------------------------
 
-It Extract hour from time using datatype timestamp using DateTimeFieldExtract Node.
+It Extracts hour from time using datatype timestamp using DateTimeFieldExtract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -72,7 +72,7 @@ Processor Output
 Calculate Count to datatype double
 -----------------------------------
 
-It Calculate cast the Count field to datatype double using CastColumnType Node.
+It Calculates cast the Count field to datatype double using CastColumnType Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -93,7 +93,7 @@ Processor Output
 Assemble features for modelling
 ---------------------------------
 
-It Assemble features columns into a feature vector using VectorAssembler Node.
+It Assembles features columns into a feature vector using VectorAssembler Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -114,7 +114,7 @@ Processor Output
 Calculate vectorindexer
 -----------------------
 
-It identify categorical features and index them using vectorindexer Node. 
+It identifies categorical features and index them using vectorindexer Node. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -156,7 +156,7 @@ Processor Output
 GBTRegression
 --------------
 
-It Validate held out test sets inorder to know about high confidence using GBTRegression Node.
+It validate held out test sets in order to know about high confidence using GBTRegression Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -198,7 +198,7 @@ Processor Output
 RegressionEvaluator
 -------------------
 
-It It Validate held out test sets inorder to know about high confidence using RegressionEvaluator Node.
+It Validates held out test sets in order to know about high confidence using RegressionEvaluator Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -219,7 +219,7 @@ Processor Output
 Correlation with columns
 -------------------------
 
-It will annalyse correlation between various columns using Correlation Node.
+It will analyse correlation between various columns using Correlation Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -240,7 +240,7 @@ Processor Output
 Summary analysis
 -----------------
 
-It visualize our data to get sense of whether the features are meaningful using Summary Node.
+It visualizes our data to get sense of whether the features are meaningful using Summary Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -261,7 +261,7 @@ Processor Output
 Calculate count for rental per hour
 -----------------------------------
 
-It calculate count for rental per hour using query with SQL Node.
+It calculates count for rental per hour using query with SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

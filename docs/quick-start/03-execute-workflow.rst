@@ -23,7 +23,9 @@ Go to Application page
 Go to Workflow Listings page
 ============================
 
-
+.. figure:: ../_assets/tutorials/quickstart/7.PNG
+   :alt: Workflow Listings
+   :align: center
 
 
 

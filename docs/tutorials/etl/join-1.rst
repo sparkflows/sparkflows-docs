@@ -9,7 +9,7 @@ Fire Insights has a number of features for enabling it including:
 - oins, GroupBy, Cube, SQL etc.
 - Reading data from multiple sources and writing results to various sinks.
 
-Fire Insights also give you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.
+Fire Insights also gives you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.
 
 Overview
 ---------
@@ -46,7 +46,7 @@ The workflow is shown below:
 Data Parsing and Cleaning
 --------------------------
 
-While the various dimension data is available as csv files, the fact data is in fixed field size format. 
+While the various dimension data is available as CSV files, the fact data is in fixed field size format. 
 
 Each record has a fixed number of characters. In each record each field consists of fixed number of characters. The steps for data parsing and cleaning are as follows: 
 
@@ -57,7 +57,7 @@ Each record has a fixed number of characters. In each record each field consists
 Group By and Aggregates
 -----------------------
 
-The data is then aggregated and counts and averages calculated. It is then saved as CSV file.
+The data is then aggregated and counted and averages calculated. It is then saved as CSV file.
 
 Joins with various Dimension Data
 ---------------------------------

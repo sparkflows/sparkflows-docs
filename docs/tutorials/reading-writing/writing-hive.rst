@@ -7,7 +7,7 @@ As par of your data pipeline or workflow, you might want to save data to HIVE af
 Cluster vs Standalone Mode
 --------------------------
 
-In your workflow, drag and drop a "SaveAsHIVETable" processor. Confirgure this processor to save your data into HIVE as a table which can be read later. 
+In your workflow, drag and drop a "SaveAsHIVETable" processor. Configure the processor to save your data into HIVE as a table which can be read later. 
 
 Note: Fire Insights can run in cluster mode or in the standalone mode. These settings are in Administration/Configuration.When connecting to HIVE, Sparkflows must be running in cluster mode on an edge node of a Hadoop cluster. HIVE settings have to be correctly set under Administration/Configuration-> app.runOnCluster.
 

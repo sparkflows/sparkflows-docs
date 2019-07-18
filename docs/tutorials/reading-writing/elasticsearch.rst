@@ -33,7 +33,7 @@ The example workflow below reads a Housing dataset which is in CSV format from H
    :align: center
    :width: 60%
 
-Note: The Documentation processor is just for documentation purposes.
+Note: Documentation processor is just for documentation purposes.
    
 Workflow Execution
 ------------------

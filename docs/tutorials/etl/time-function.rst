@@ -1,7 +1,7 @@
 Time Function
 =============
 
-Date Time features with TimeFunctions Operator
+Date Time features with TimeFunctions Operator.
 
 There are many instances when we want to do time-series analysis.
 

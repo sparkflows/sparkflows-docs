@@ -26,7 +26,7 @@ Go to Dashboards page
 
 Select Dashboard tab will take to Dashboard page
 
-.. figure:: ../_assets/tutorials/quickstart/10.PNG
+.. figure:: ../_assets/tutorials/quickstart/11.PNG
    :alt: Dashboard
    :align: center
    

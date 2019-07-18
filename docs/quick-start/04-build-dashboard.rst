@@ -55,8 +55,8 @@ Nodes inside the workflow can be dragged and dropped onto the Dashboard to make 
 
 In the Dashboard below we have added 2 nodes to the Dashboard.
 
-.. figure:: ../_assets/tutorials/04/dashboard-designer-1.png
-   :alt: Dashboard Designer
+... figure:: ../_assets/tutorials/quickstart/13.PNG
+   :alt: Dashboard
    :align: center
 
 Save the Dashboard
@@ -76,9 +76,8 @@ The Dashboard shows the content from the latest execution of the Workflow.
 
 If the workflow has never been executed, the Dashboard would show empty content.
 
-.. figure:: ../_assets/tutorials/04/dashboard-view-1.png
-   :scale: 100%
-   :alt: Dashboard Designer
+... figure:: ../_assets/tutorials/quickstart/13.PNG
+   :alt: Dashboard
    :align: center
    
  

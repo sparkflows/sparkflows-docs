@@ -24,10 +24,12 @@ Open Application from where you want to Create Dashboard
 Go to Dashboards page
 =====================
 
-.. figure:: ../../_assets/tutorials/04/dashboard-listings.png
-   :alt: Dashboards Page
-   :align: center
+Select Dashboard tab will take to Dashboard page
 
+.. figure:: ../_assets/tutorials/quickstart/10.PNG
+   :alt: Dashboard
+   :align: center
+   
 Click on Create New Dashboard
 =============================
 

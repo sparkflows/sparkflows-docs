@@ -45,7 +45,11 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
    :width: 60%
    
 
+
+
 Clicking the ‘Save’ button creates the new dataset that can be used in any workflows or Interactive dashboard within the specific application.
+
+
 
 .. figure:: ../../_assets/tutorials/dataset/15.PNG
    :alt: Dataset

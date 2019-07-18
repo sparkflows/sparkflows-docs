@@ -1,7 +1,7 @@
 Step 5 : Execute Workflow
 ----------------------
 
-In this step you execute the workflow created and view the results
+In this step you can execute the workflow created and view the results
 
 The steps involved in executing a workflow are:
 

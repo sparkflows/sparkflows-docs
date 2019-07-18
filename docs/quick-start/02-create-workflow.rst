@@ -9,17 +9,26 @@ We would finally save the results into CSV files.
 
 The steps involved in creating a workflow are:
 
+- *Go to Application Page where you want to create workflow*
 - *Go to Workflow Listings Page*
 - *Click on Create New Workflow to go to the Workflow Designer Page*
 - *Click on the nodes on the LHS to create them in the Workflow Canvas*
 - *Connect the nodes with Links*
 - *Name the workflow and Save it*
 
+Go to Application Page
+=======================
+
+.. figure:: ../_assets/tutorials/quickstart/8.PNG
+   :alt: Quicstart
+   :align: center
+
+
 
 Go to Workflow Listings Page
 ============================
 
-.. figure:: ../../_assets/tutorials/02/workflow-listings.png
+.. figure:: ../_assets/tutorials/02/workflow-listings.png
    :alt: Workflow Listings
    :align: center
 
@@ -41,7 +50,7 @@ Create the Workflow
 Click on the nodes in the LHS to create them. Connect them with Links. Links can be connected between 2 Nodes by clicking on the yellow box in the first node, dragging the mouse and connecting to the second Node.
 
 
-.. figure:: ../../_assets/tutorials/02/etl-workflow.png
+.. figure:: ../_assets/tutorials/02/etl-workflow.png
    :alt: ETL Workflow
    :align: center
 

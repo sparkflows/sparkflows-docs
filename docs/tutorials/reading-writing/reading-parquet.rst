@@ -1,12 +1,12 @@
 Reading Parquet Files
 =====================
 
-Fire insights supports reading from several formats including Parquet files. Parquet files have schema embedded in them. Fire Insights is able to automatically extract the schema.
+Fire insights supports reading from several file formats including Parquet files. Parquet files have schema embedded in them. Fire Insights is able to extract schema of Parquet files automatically.
 
 Datasets
 --------
 
-The xisting dataSets are displayed in the DataSets page of specific application.
+The existing dataSets are displayed in the DataSets page of specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset

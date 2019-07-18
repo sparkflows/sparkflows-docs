@@ -16,7 +16,7 @@ Workflow
    :width: 60%
    
    
-In the above workflow, the Node 'Split By Multiple Expressions' is able to split the incoming DataFrame into 3 output DataFrames. With the current implementation it can split up to in 5 ways.
+In the above workflow, the Node 'Split By Multiple Expressions' is able to split the incoming DataFrame into 3 output DataFrames. With the current implementation it can split up in to  5 ways.
 
 
 .. figure:: ../../_assets/tutorials/dataset/33.PNG

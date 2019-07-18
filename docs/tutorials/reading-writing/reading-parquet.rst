@@ -1,12 +1,12 @@
 Reading Parquet Files
 =====================
 
-Here we create a DataSet over Parquet files. Parquet files have schema embedded in them. Fire Insights is able to automatically extract the schema.
+Fire insights supports reading from several formats including Parquet files. Parquet files have schema embedded in them. Fire Insights is able to automatically extract the schema.
 
 Datasets
 --------
 
-The existing DataSets are displayed in the DataSets page of  Specific application.
+The xisting dataSets are displayed in the DataSets page of specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
@@ -16,7 +16,7 @@ The existing DataSets are displayed in the DataSets page of  Specific applicatio
 Dataset Creation
 ----------------
 
-Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". We now create a dataset overpeople.parquet. It is a parquet file.
+Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". We now create a dataset for people.parquet. It is a parquet file.
 
 .. figure:: ../../_assets/tutorials/dataset/11.PNG
    :alt: Dataset
@@ -30,7 +30,7 @@ In the ‘Create DataSet’ page we fill in the required fields as below.
    :align: center
    :width: 60%
 
-Above we have specified a name for the DataSet we are creating, for Parquet files.
+Above we have specified a name for the dataset we are creating, for Parquet files.
 
 Once we have specified the above, we hit the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
 
@@ -47,4 +47,4 @@ Clicking the ‘Save’ button creates the new DataSet for us.
    :align: center
    :width: 60%
 
-Now we are ready to start using our new DataSet in Workflows.
+Now we are ready to start using our new dataset in Workflows.

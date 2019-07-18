@@ -35,8 +35,8 @@ Click on Create New Dashboard
 
 This would open up the Dashboard Designer Page.
 
-.. figure:: ../_assets/tutorials/04/dashboard-designer.png
-   :alt: Dashboard Designer
+.. figure:: ../_assets/tutorials/quickstart/12.PNG
+   :alt: Dashboard
    :align: center
    
    

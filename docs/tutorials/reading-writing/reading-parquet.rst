@@ -23,16 +23,16 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
    :align: center
    :width: 60%
 
-In the ‘Create DataSet’ page we fill in the required fields as below.
+In the ‘Create DataSet’ page fill in the required fields as below.
 
 .. figure:: ../../_assets/tutorials/dataset/7.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
-Above we have specified a name for the dataset we are creating, for Parquet files.
+Specify the name of the dataset you are creating.
 
-Once we have specified the above, we hit the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
+After specifying name and path, click the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
 
 
 .. figure:: ../../_assets/tutorials/dataset/8.PNG
@@ -47,4 +47,4 @@ Clicking the ‘Save’ button creates the new DataSet for us.
    :align: center
    :width: 60%
 
-Now we are ready to start using our new dataset in Workflows.
+Now you are ready to use the dataset in your workflows.

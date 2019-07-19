@@ -1,25 +1,16 @@
-Step 6 : Create New Dashboard
+Step 6 : Create Dashboard
 ------------------
 
-Dashboards allow you to display the output of multiple workflows in one place to be viewed.
+Dashboards allow you to display the output of multiple workflows in one place.
 
 The steps involved in creating a dashboard are:
 
-- *Go to Application page where you want to Create Dashboard*
-- *Go to Dashboard page*
+- *Go to Dashboard tab*
 - *Click on Create New Dashboard*
 - *Drag and drop selected Nodes from the workflows into the Dashboard canvas*
 - *Save the Dashboard*
 
-Go to Application page
-======================
 
-Open Application from where you want to Create Dashboard
-
-
-.. figure:: ../_assets/tutorials/quickstart/10.PNG
-   :alt: Dashboard
-   :align: center
 
 Go to Dashboards page
 =====================

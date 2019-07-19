@@ -7,11 +7,11 @@ A typical workflow will take one or more dataset, clean them and join them to cr
 
 At at highlevel,creating a workflow involves the following steps:
 
-- *Go to Application Page where you want to create the workflow*
-- *Go to Workflow Listings Page*
-- *Click on Create New Workflow to go to the Workflow Designer Page*
-- *Click on the processors on the left hand side pane to create them in the Workflow Canvas*
-- *Connect the processors to route data from one processor to another*
+- *Open the Application where you want to create your workflow*
+- *Click on "Workflows" tab*
+- *Click on "Create" button and choose the kind of workflow you want to create*
+- *Click on the processors on the left hand side pane to add them in the Workflow Canvas*
+- *Configure and connect the processors to route data from one processor to another*
 - *Name the workflow and save it*
 
 Go to Application Page

@@ -1,8 +1,10 @@
 July 2019
 =========
 
-- Integration of H2O
-- Added Nodes For H2O :
+Integration of H2O
+------------------
+
+- Added H2O Nodes:
 
   - H2ODRF
   - H2OGBM

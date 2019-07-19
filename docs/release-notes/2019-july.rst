@@ -25,6 +25,8 @@ Improvements in UI
 
 - Upgraded Login Page of application.
 - Upgraded the Dialog-box of the processor.
+- Upgradation processor Category.
+- Upgraded Scattering plot Graph Look & feel.
 
 
 Upgradation of Running Fire Processes 

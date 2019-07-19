@@ -88,7 +88,7 @@ From the evaluator You get the following results:
    
 The workflow consists of the below JSON. The workflow can be run interactively from the Fire UI, or it can be easily scheduled with spark-submit with any scheduler.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/12.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/6.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

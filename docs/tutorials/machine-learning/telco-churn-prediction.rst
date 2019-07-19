@@ -22,7 +22,7 @@ The dataset is artificial Churn Data based on claims, similar to real world. It 
    
 Below is the workflow you can use for creating the model for Churn Prediction.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/14.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/3.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

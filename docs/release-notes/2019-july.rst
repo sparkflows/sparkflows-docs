@@ -19,3 +19,6 @@ Integration of H2O
   - H2ONeuralNetwork
   - H2OPCA
   - H2OScore
+
+Improvements in UI 
+-------------------

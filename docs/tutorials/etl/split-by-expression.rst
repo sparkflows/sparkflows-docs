@@ -3,10 +3,11 @@ Split Dataset By Expression
 
 In Fire Insights you can split the incoming DataFrame. Based on your need, use the processors descripbed below: 
 
-- 'SplitByExpression': Use this processor to split the incoming dataset based on an expression. Rows satisfying the expression go into one DataFrame and the rest go into another dataframe.
-- 'SplitByMultipleExpressions': Use this processor to split the incoming dataset into multiple dataframes based on upto 5 consitional expressiona. conditions.It allows users to specify up to 5 conditional expressions. The output of each expression is routed to one output path.
+- 'SplitByExpression': This processor splits the incoming dataset based on an expression. Rows satisfying the expression go into one dataframe and the rest go into another dataframe.
+- 'SplitByMultipleExpressions': This processor splits the incoming dataset into multiple dataframes based on up to 5 conditional expressions.The output of each expression is routed to a separate output path.
+- 'Split': This processor splits the incoming dataframe into two based on the percentage specified for the split. Split processor is espeically useful in machine learning workflows.
  
-One is to split it into two based on the percentage specified for the split. This is useful for Machine Learning workflows.
+
 
 The other is to split the incoming DataFrame based on an expression. 
 

@@ -51,7 +51,7 @@ In the VectorAssembler, select the fields you want to include in the model. Only
    
 You can split the dataset into training and test datasets. We split it into (.8, .2)
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/6.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/17.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

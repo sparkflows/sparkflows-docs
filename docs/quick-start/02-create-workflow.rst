@@ -1,20 +1,18 @@
-Step 4 : Create a Workflow
+Step 4 : Create Workflow
 ------------
 
-In this step You can create a new Workflow.
+After you have created the datasets you want to process, you can start to build a workflow to process it. 
 
-It would take the transaction dataset, clean it and then join it with other dimensional datasets.
+A typical workflow will take one or more dataset, clean them and join them to created an enrighed dataset. After the enriched dataset is created, the workflow can perform steps to build machine learning models.
 
-It would finally save the results into CSV files.
-
-The steps involved in creating a workflow are:
+At at highlevel,creating a workflow involves the following steps:
 
 - *Go to Application Page where you want to create the workflow*
 - *Go to Workflow Listings Page*
 - *Click on Create New Workflow to go to the Workflow Designer Page*
-- *Click on the nodes on the LHS to create them in the Workflow Canvas*
-- *Connect the nodes with Links*
-- *Name the workflow and Save it*
+- *Click on the processors on the left hand side pane to create them in the Workflow Canvas*
+- *Connect the processors to route data from one processor to another*
+- *Name the workflow and save it*
 
 Go to Application Page
 =======================

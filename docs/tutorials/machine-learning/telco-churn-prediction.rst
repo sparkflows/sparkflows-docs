@@ -72,7 +72,7 @@ You can predict using the model on the test dataset.
    
 You can evaluate the quality of our results.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/9.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

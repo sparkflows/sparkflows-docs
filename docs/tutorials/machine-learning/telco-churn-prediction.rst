@@ -44,7 +44,7 @@ The workflow performs the following steps:
    
 In the VectorAssembler, select the fields you want to include in the model. Only the numeric fields are displayed as VectorAssembler supports only the numeric fields.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/16.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

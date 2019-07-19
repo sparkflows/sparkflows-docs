@@ -37,7 +37,7 @@ The workflow performs the following steps:
 - Performs prediction using the model generated on the remaining 20% dataset
 - Finally evaluates the prediction results
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/4.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/15.PNG
    :alt: Machine Learning
    :align: center
    :width: 60%

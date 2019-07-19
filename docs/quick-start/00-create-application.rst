@@ -17,7 +17,7 @@ From the landing page of Fire Insights, click on "Create Application" to create 
    :align: center
    :width: 60%
 
-Specify name and description, and click on "Create/Update" button. The new application is created and it is not ready to use.  
+Specify name and description, and click on "Create/Update" button. The new application is created and it is now ready to use.  
 
 .. figure:: ../_assets/tutorials/quickstart/3.PNG
    :alt: Quickstart

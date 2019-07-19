@@ -27,8 +27,10 @@ Improvements in UI
 - Upgraded the Dialog-box of the processor.
 
 
-Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
------------------------------------------------------------------------------
+Upgradation of Running Fire Processes 
+--------------------------------------
+
+- Fire Insight Now enable us to Run Multiple fire process automatically & Simultaneously.
 
 
 Improvements in Interactive Dashboard

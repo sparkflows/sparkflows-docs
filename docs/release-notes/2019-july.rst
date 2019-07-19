@@ -28,3 +28,7 @@ Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
 
 Improvements in Interactive Dashboard
 -------------------------------------
+
+Improvements in Home Dashboard Page
+-----------------------------------
+

@@ -1,2 +1,19 @@
 July 2019
 =========
+
+- Integration of H2O
+- Added Nodes For H2O :
+
+  - H2ODRF
+  - H2OGBM
+  - H2OGLM
+  - H2OIsolationForest
+  - H2OKMeans
+  - H2OModelLoad
+  - H2OModelSave
+  - H2OMojoLoad
+  - H2OMojoSave
+  - H2ONaiveBayes
+  - H2ONeuralNetwork
+  - H2OPCA
+  - H2OScore

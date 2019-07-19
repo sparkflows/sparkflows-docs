@@ -50,3 +50,8 @@ Added New Features
 
 - Added Search box to Search Workflow, Node, Dataset & Dashboard available in an application.
 - Added Self-Registration to create a user directly from Login page.
+
+Upgradation of Running Server on Ports
+--------------------------------------
+
+- Fire Insights Now enable us to run Fire & Pspark server on Different ports.

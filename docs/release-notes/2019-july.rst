@@ -25,3 +25,6 @@ Improvements in UI
 
 Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
 -----------------------------------------------------------------------------
+
+Improvements in Interactive Dashboard
+-------------------------------------

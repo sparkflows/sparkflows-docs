@@ -1,20 +1,20 @@
 Step 5 : Execute Workflow
 ----------------------
 
-In this step you can execute the workflow created and view the results
+After you have created a workflow, it is time to execute it and view the results. 
 
-The steps involved in executing a workflow are:
+Executing a workflow involves the following steps:
 
 - *Go to Application page where you want to execute the workflow*
-- *Go to Workflow Listings page*
-- *Click on the play button for executing the workflow*
-- *This would bring up the Execute workflow page*
-- *Click on Execute to execute the workflow*
+- *Click "Workflows" tab*
+- *Click on the play button*
+- *Specify parameter(if any)*
+- *Click on Execute*
 
-Go to Application page
+Application page
 ======================
 
-Open Application from where you want to execute the workflow
+Open the application where you have created the workflow to be executed.
 
 
 .. figure:: ../_assets/tutorials/quickstart/8.PNG
@@ -23,8 +23,9 @@ Open Application from where you want to execute the workflow
 
 
 
-Go to Workflow Listings page
+Workflows 
 ============================
+Click "Workflows" tab to view the list of workflows in the application. 
 
 .. figure:: ../_assets/tutorials/quickstart/7.PNG
    :alt: Workflow Listings
@@ -35,15 +36,15 @@ Go to Workflow Listings page
 Click on the Play Button
 ========================
 
-Against each workflow there are a list of icons for performing various ``ACTIONS`` on the workflow.
+Against each workflow there are a list of icons under "Actions" column for performing various actions on a specific workflow.
 
-Click on the ``Play`` button under ``ACTIONS`` for executing the workflow.
+Click "Play" icon under "actions" column to execute the workflow.
 
 
 Execute workflow page
 ======================
 
-The previous step brings you to the Execute Workflow Page. 
+Specify any paramters for your workflow. 
 
 .. figure:: ../_assets/tutorials/03/workflow-execute.png
    :alt: Workflow Execute
@@ -53,7 +54,7 @@ The previous step brings you to the Execute Workflow Page.
 Execute Workflow
 ================
 
-Now click on the Execute button for executing the workflow. The results of execution is streamed back into the Browser for viewing them.
+Once you have specified the parameters, click on "Execute" button. The results of execution are streamed back into your browser.
 
 
 

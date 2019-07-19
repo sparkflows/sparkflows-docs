@@ -1,7 +1,9 @@
 Step 1: Create an Application
 ==============================
 
-From the landing page of Fire Insights, click on New Application to create your new Application.
+Before you can start creating a workflow, you will create an 'Application'. Application is a bucket where all your artifacts such a datasets, workflows, dashboards etc. realated to a project would reside. Applications are equivalent to workspaces in IDEs. 
+
+From the landing page of Fire Insights, click on "Create Application" to create a new application.
 
 
 .. figure:: ../_assets/tutorials/quickstart/1.PNG
@@ -15,7 +17,7 @@ From the landing page of Fire Insights, click on New Application to create your 
    :align: center
    :width: 60%
 
-Click on Create button to Create application.
+Specify name and description, and click on "Create/Update" button. The new application is created and it is not ready to use.  
 
 .. figure:: ../_assets/tutorials/quickstart/3.PNG
    :alt: Quickstart

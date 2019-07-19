@@ -39,5 +39,5 @@ Improvements in Home Dashboard Page
 Added New Features
 -------------------
 
-- Added Search box to Search Workflow, Node, Dataset & Dashboard available in application.
+- Added Search box to Search Workflow, Node, Dataset & Dashboard available in an application.
 - Added Self-Registration to create a user directly from Login page.

@@ -23,6 +23,7 @@ Integration of H2O
 Improvements in UI 
 -------------------
 
+- 
 Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
 -----------------------------------------------------------------------------
 
@@ -37,3 +38,4 @@ Added New Features
 -------------------
 
 - Added Search box to Search Workflow, Node, Dataset & Dashboard available in application.
+- Added Self-Registration to create a user directly from Login page.

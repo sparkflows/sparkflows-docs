@@ -1,18 +1,17 @@
 Step 4 : Create Workflow
 ------------
 
-After you have created the datasets, you can start to build a workflow to process them. 
+After you have created the datasets, you can start building workflows to process them. 
 
-A typical workflow will take one or more dataset, clean them and join them to create an enriched dataset. After the enriched dataset is created, the workflow can perform steps to build machine learning models.
+A typical workflow takes one or more dataset, cleans them and joins them, and creates an enriched dataset. After the enriched dataset is created, you can add additional processors to build machine learning models.
 
 At at highlevel,creating a workflow involves the following steps:
 
 - *Open the Application where you want to create your workflow*
 - *Click "Workflows" tab*
-- *Click "Create" button and choose the kind of workflow you want to create*
-- *Click the processors on the left hand side pane to add them in the Workflow Canvas*
-- *Configure and connect the processors to route data from one processor to another*
-- *Name the workflow and save it*
+- *Create empty workflow*
+- *Add processors*
+- *Save workflow*
 
 Application
 =======================
@@ -26,7 +25,7 @@ Open the application where you want to create your new workflow.
 
 Workflows Tab
 ============================
-Click of "Workflows" tab to see the list of workflows already in the application. The workflow list will be empty if no workflows have been created ealier. 
+Click "Workflows" tab to view the list of workflows already in the application. The workflow list will be empty if no workflows have been created earlier. 
 
 .. figure:: ../_assets/tutorials/quickstart/7.PNG
    :alt: Quicstart
@@ -35,20 +34,19 @@ Click of "Workflows" tab to see the list of workflows already in the application
 Create Empty Workflow
 ========================
 
-Click "Create" and choose the type of workflow you want to create. In the "Create Workflow" page, enter a name, category and description of the workflow. Category is used to group various workflows. For instance, if you have various workflows for customer reports, the category could be "Customer Reports".
+Click "Create" button and choose the type of workflow you want to create. In the "Create Workflow" page, enter a name, category and description of the workflow. Category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying "Customer Reports" category.
 
 Click save to save the empty workflow.
 
 
-Build Workflow
+Add Processors
 ===================
 
-After you have saved the empty workflow, you can start adding processors to process the datasets that you had defined earlier. Click on the processors on the left hand side pane. This will make the processor appear on workflow canvas. Add other procesors as needed, configure and connect them.  Two processor can be can be connected by clicking on the yellow box in the first processor and dragging to the second processor. 
+After you have saved the empty workflow, you can start adding processors to process the datasets that you had defined earlier. Click on the processors on the left hand side pane. This will make the processor appear on the workflow canvas. Add other procesors,configure and connect them as needed.  Two processor can be can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. 
 
 .. figure:: ../_assets/tutorials/quickstart/9.PNG
    :alt: Quickstart
    :align: center
-
 
 
 

@@ -23,7 +23,9 @@ Integration of H2O
 Improvements in UI 
 -------------------
 
-- 
+- Upgraded Login Page of application.
+
+
 Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
 -----------------------------------------------------------------------------
 

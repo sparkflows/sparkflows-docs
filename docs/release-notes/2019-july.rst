@@ -28,6 +28,10 @@ Improvements in UI
 - Upgradation processor Category.
 - Upgraded Scattering plot Graph Look & feel.
 
+Improvements to HDFS Browser
+----------------------------
+
+- Fire Insights Now enable us to edit File & directory available in HDFS.
 
 Upgradation of Running Fire Processes 
 --------------------------------------

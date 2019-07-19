@@ -26,9 +26,14 @@ Improvements in UI
 Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
 -----------------------------------------------------------------------------
 
+
 Improvements in Interactive Dashboard
 -------------------------------------
 
 Improvements in Home Dashboard Page
 -----------------------------------
 
+Added New Features
+-------------------
+
+- Added Search box to Search Workflow, Node, Dataset & Dashboard available in application.

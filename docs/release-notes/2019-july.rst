@@ -23,5 +23,5 @@ Integration of H2O
 Improvements in UI 
 -------------------
 
-Upgradation of Running Multiple Fire Processes Automatically
-------------------------------------------------------------
+Upgradation of Running Multiple Fire Processes Automatically & Simultaneously
+-----------------------------------------------------------------------------

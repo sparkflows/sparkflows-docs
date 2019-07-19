@@ -77,12 +77,7 @@ You can evaluate the quality of our results.
    :align: center
    :width: 60%
    
-Next, You can execute the workflow. it will come up with the below model. It is a forest with 20 trees.
-
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/10.PNG
-   :alt: Machine Learning
-   :align: center
-   :width: 60%
+Next, You can execute the workflow. 
    
 From the evaluator You get the following results:
 

@@ -30,7 +30,7 @@ Improvements in UI
 Upgradation of Running Fire Processes 
 --------------------------------------
 
-- Fire Insight Now enable us to Run Multiple fire process automatically & Simultaneously.
+- Fire Insight Now enable us to Run Multiple fire processes automatically & Simultaneously with Fireserver running.
 
 
 Improvements in Interactive Dashboard

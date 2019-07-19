@@ -1,15 +1,14 @@
 String Functions
 ================
 
-This example shows how we can apply different string functions on input dataset.
+String functions are useful to tranform strings in your dataframe. The "StringFunction" processors allows you to apply common string operations such as 'trim', 'upper', 'lower', 'lefttrim', 'righttrim' etc. to strings.
+
+In the example below, different string functions are applied to input dataset.
 
 Workflow
 --------
 
-Below is the workflow which does the following:
-
-* Reads data from hdfs/hive etc.
-* Applies different string functions on different columns in dataset.
+The example workflow below, read data from HDFS/Hive and applies different string functions on different columns of the dataset.
 
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1a.png
@@ -20,7 +19,7 @@ Below is the workflow which does the following:
 Read data from HDFS
 -------------------
 
-It reads data from the existing dataset on HDFS.
+The "Housing" processor above, reads an existing dataset on HDFS.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,7 +40,7 @@ Processor Output
 Apply string functions
 ----------------------
 
-It applies different string functions like upper,trim etc on selected columns.
+The 'StringFunctionMultiple' processor below, converts contents of 'driveway' column to upper case and trims contents of 'gashw' column.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^

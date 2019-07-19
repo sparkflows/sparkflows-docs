@@ -24,6 +24,7 @@ Improvements in UI
 -------------------
 
 - Upgraded Login Page of application.
+- Upgraded the Dialog-box of the processor.
 
 
 Upgradation of Running Multiple Fire Processes Automatically & Simultaneously

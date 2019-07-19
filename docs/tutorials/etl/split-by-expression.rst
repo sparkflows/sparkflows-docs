@@ -16,7 +16,7 @@ Workflow
    :width: 60%
    
    
-In the example workflow above, 'Split By Multiple Expressions' processor splits the incoming dataframe into 3 output dataframes. As mentioned earlier, 'SplitByMultipleExpressions' can split incoming dataframe into up to five dataframes. 
+In the example workflow above, 'Split By Multiple Expressions' processor splits the incoming dataframe into three output dataframes. The three conditions are on column c1 - "c1<3" , "c1>=3 and c1<5", and "c1>=5". As mentioned earlier, 'SplitByMultipleExpressions' can split incoming dataframe into up to five dataframes. 
 
 
 .. figure:: ../../_assets/tutorials/dataset/33.PNG

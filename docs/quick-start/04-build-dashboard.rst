@@ -35,17 +35,17 @@ This would open up the Dashboard Designer Page.
 Name the Dashboard
 ==================
 
-Give a ``name`` to your Dashboard. You can also add a description for the New Dashboard.
+Give a name to your Dashboard. You can also add a description for the new dashboard.
 
 
-Drag and drop selected Nodes from the workflows into the Dashboard canvas
+Drag and drop selected nodes from the workflows into the Dashboard canvas
 ===================================
 
-On the LHS of the Dashboard Designer, the list of workflows would show up. With each Workflow, the Nodes inside the Workflow would be displayed.
+On the left hand side of the Dashboard Designer, the list of workflows would show up. With each Workflow, the nodes inside the Workflow would be displayed.
 
-Nodes inside the workflow can be dragged and dropped onto the Dashboard to make them part of the Dashboard.
+Nodes inside the workflow can be dragged and dropped onto the dashboard to make them part of the dashboard.
 
-In the Dashboard below we have added 2 nodes to the Dashboard.
+In the dashboard below we have added two nodes to the dashboard.
 
 .. figure:: ../_assets/tutorials/quickstart/13.PNG
    :alt: Dashboard
@@ -56,19 +56,19 @@ In the Dashboard below we have added 2 nodes to the Dashboard.
 Save the Dashboard
 ==================
 
-Finally ``Save`` the Dashboard.
+Finally save the dashboard.
 
-In order to view the Dashboard, click on the 'View' button.
+In order to view the dashboard, click on the 'View' button.
  
  
 View the Dashboard
 ==================
 
-Click on the ``View`` button to view the dashboard.
+Click on the  'View' button to view the dashboard.
 
-The Dashboard shows the content from the latest execution of the Workflow.
+The dashboard shows the content from the latest execution of the workflow.
 
-If the workflow has never been executed, the Dashboard would show empty content.
+If the workflow has never been executed, the dashboard would not show anything.
 
 
 .. figure:: ../_assets/tutorials/quickstart/14.PNG

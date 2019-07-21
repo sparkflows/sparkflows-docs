@@ -5,7 +5,7 @@ It demonstrate to predict "the number of farmer's markets in a given zip code”
 
 DataBricks has published a clean approach to build this use case. It feature a Python notebook that demonstrates how to create ML Pipeline to preprocess a dataset, train a Machine Learning model, and make predictions.
 
-Using Fire Insights visual designer, You can try to execute this approach visually and declaratively. This note speaks to that.
+Using Fire Insights visual designer, you can try to execute this approach visually and declaratively. This note speaks to that.
 
 As the DataBricks link highlights:
 
@@ -20,7 +20,7 @@ As the DataBricks link highlights:
    - Dividends before exclusion
    - Interest received
 
-Below is an overview of the workflow You can create using the Fire Insights Visual Designer.
+Below is an overview of the workflow. You can create using the Fire Insights Visual Designer.
 
 This workflow was simply created via the drag and drop capabilities of the Fire Insightss Designer UI. This ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. Benefits include:
 
@@ -191,7 +191,7 @@ Print N Rows
    :align: center
    :width: 60%
 
-Next You can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
+Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.PNG
    :alt: Fire Market Prediction

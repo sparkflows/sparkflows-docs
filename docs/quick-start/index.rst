@@ -2,7 +2,7 @@
 Quickstart Guide
 =========
 
-This quickstart gets you going with Fire Insights. Here you:
+The quickstart gets you started with Fire Insights. 
 
 .. toctree::
    :maxdepth: 2

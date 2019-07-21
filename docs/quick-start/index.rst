@@ -4,14 +4,6 @@ Quickstart Guide
 
 This quickstart gets you going with Fire Insights. Here you:
 
-* Create a New Application
-* Upload Data file
-* Create a Dataset
-* Create Workflow to process data
-* Execute the Workflow
-* Create Dashboard
-
-
 .. toctree::
    :maxdepth: 2
 

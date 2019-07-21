@@ -1,19 +1,21 @@
-Step 3 : Create a Dataset
+Step 3 : Create Dataset
 =========================
 
-In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it with various workflows.
+Before any data can be used in a workflow, it needs to be wrapped in a dataset. If you uploaded csv files in the previous step, in this step you will wrap them in a dataset. 
+
+
 
 - The steps involved in creating a dataset are:
 
-  - *Go to the Application where you want to create dataset*
-  - *Go to the Dataset Listing Page*
-  - *Click on Create New Dataset*
-  - *Enter the fields in the dialog for the file for which we are creating the Dataset*
+  - *Open the Application where you want to create dataset*
+  - *Click on "Datasets" tab*
+  - *Click on "Create" and choose "Dataset"*
+  - *Select your dataset type and enter the fields in the dialog*
   - *Update the schema of the Dataset*
-  - *Save the Dataset with a new name*
+  - *Click "Save"*
 
 - Customer Housing Data
-
+In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it with various workflows.
 
 The data is in CSV format.
 

@@ -5,7 +5,7 @@ Quickstart Guide
 The quickstart gets you started with Fire Insights. 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    00-create-application.rst
    00-upload-data-files.rst

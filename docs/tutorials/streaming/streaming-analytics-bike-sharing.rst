@@ -5,11 +5,11 @@ Streaming Analytics with Apache Kafka and Apache Spark Streaming.
 
 At Fire we are obsessed with powering our users to build amazing data analytics applications in < 30 mins.
 
-Below we build a Streaming Analytics workflow and dashboard. It
+Below we build a Streaming Analytics workflow and dashboard. It-
 
 - Reads bike sharing data from Kafka
 - Parses the incoming data
-- Finds the number of rentals on a hourly basis
+- Finds the number of rentals on an hourly basis
 - Displays the results visually in a graph. 
 
 DataSet
@@ -49,17 +49,17 @@ Below is a workflow for Streaming Analytics of the Bike Sharing dataset.
    
 It consists of 6 Nodes: 
 
-- StreamingKafka - It reads in streaming data from the Kafka topic bike-sharing
-- FieldSplitter - It splits each line in fields 
-- StringToDate - Converts the datetime column into Timestamp type 
-- DateTimeFieldExtract : Extracts year, month, day, hour from the datetime column
+- StreamingKafka - It reads in streaming data from the Kafka topic bike-sharing.
+- FieldSplitter - It splits each line in fields. 
+- StringToDate - Converts the datetime column into Timestamp type. 
+- DateTimeFieldExtract : Extracts year, month, day, hour from the datetime column.
 - GraphGroupByColumn - Groups the data on the hour column, sums it up and display it in a Graph.  
-- PrintNRows : Prints the first 10 records in a table
+- PrintNRows : Prints the first 10 records in a table.
 
 Streaming Kafka
 ----------------
 
-it reads in streaming data from Kafka and creates a dataframe with one column containing the lines.
+It reads in streaming data from Kafka and creates a dataframe with one column containing the lines.
 
 .. figure:: ../../_assets/tutorials/dataset/38.PNG
    :alt: Dataset

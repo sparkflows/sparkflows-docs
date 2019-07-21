@@ -26,7 +26,6 @@ Click on "Create" and choose "Dataset" from the dropdown.
    :align: center
    :width: 60%
 
- 
 In the pop-up choose “CSV” and then click “OK”.
  
 

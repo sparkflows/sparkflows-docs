@@ -4,6 +4,8 @@ Quickstart Guide
 
 The quickstart gets you started with Fire Insights. 
 
+Let's get started! 
+
 .. toctree::
    :maxdepth: 1
 

@@ -40,11 +40,11 @@ The steps involved in creating a dataset are:
 
 Fill in the required fields as below.
 
-- *NAME* : Name of the New Dataset we are creating.
-- *DESCRIPTION** : Description of the new dataset
+- *Name* : Name of the new dataset 
+- *Description* : Description of the new dataset
 - *HAS HEADER ROW* : Indicate whether the dataset has a header row specifying the name of the columns or not
 - *DELIMITER* : Indicates the delimiter to be used between the fields in the data
-- *PATH** : Path for the location of the file or directory containing the data files for the dataset
+- *PATH* : Path for the location of the file or directory containing the data files for the dataset
 
 
  

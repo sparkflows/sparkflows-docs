@@ -55,7 +55,7 @@ In the example below, a dataset is created from a housing.csv file. It is a comm
    :width: 60%
    
 
-If the data file did not have a header row, Fire Insights will give standard column names of ``C0, C1`` etc.
+If the data file did not have a header row, Fire Insights will give standard column names of "C0, C1" etc.
 
 You can update the column names in the schema based on your data.
  

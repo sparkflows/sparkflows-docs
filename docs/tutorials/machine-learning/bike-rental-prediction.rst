@@ -156,7 +156,7 @@ Processor Output
 GBTRegression
 --------------
 
-It validate held out test sets in order to know about high confidence using GBTRegression Node.
+It validates held out test sets in order to know about high confidence using GBTRegression Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -198,7 +198,7 @@ Processor Output
 RegressionEvaluator
 -------------------
 
-It Validates held out test sets in order to know about high confidence using RegressionEvaluator Node.
+It validates held out test sets in order to know about high confidence using RegressionEvaluator Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

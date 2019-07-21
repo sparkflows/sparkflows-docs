@@ -5,12 +5,12 @@ Before any data can be used in a workflow, it needs to be wrapped in a dataset. 
 
 The steps involved in creating a dataset are:
 
- - *Open the Application where you want to create dataset*
- - *Click on "Datasets" tab*
- - *Click on "Create" and choose "Datasets"*
- - *Select your dataset type and enter the fields in the dialog*
- - *Update the schema of the dataset*
- - *Click "Save"*
+- *Open the Application where you want to create dataset*
+- *Click on "Datasets" tab*
+- *Click on "Create" and choose "Datasets"*
+- *Select your dataset type and enter the fields in the dialog*
+- *Update the schema of the dataset*
+- *Click "Save"*
   
 When you open your application, all existing datasets specific to the application are displayed in the Datsets tab.
  

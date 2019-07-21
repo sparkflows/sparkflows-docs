@@ -7,7 +7,7 @@ The steps involved in creating a dataset are:
 
   - *Open the Application where you want to create dataset*
   - *Click on "Datasets" tab*
-  - *Click on "Create" and choose "Dataset"*
+  - *Click on "Create" and choose "Datasets"*
   - *Select your dataset type and enter the fields in the dialog*
   - *Update the schema of the Dataset*
   - *Click "Save"*

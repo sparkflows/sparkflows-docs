@@ -29,44 +29,22 @@ The steps involved in creating a dataset are:
  
  In the pop-up choose “CSV” and then click “OK”.
  
-
-- Customer Housing Data
-In this step, create a dataset over customers housing data. Creating a Dataset allows us to define it once and use it with various workflows.
-
-The data is in CSV format.
-
-Below are a few records from the data.
-
-.. figure:: ../_assets/tutorials/dataset/2.PNG
+ In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.
+ 
+ .. figure:: ../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
    :align: center
    :width: 60%
    
-   
 
 
+Fill in the required fields as below.
 
-- Click on Create Dataset
-
-
-Click on the ``Create Dataset`` link to get started with creating the new dataset.
-
-.. figure:: ../_assets/tutorials/dataset/10.PNG
-   :alt: Dataset
-   :align: center
-   :width: 60%
-
-
-- Enter the Field Details
-
-
-Enter the fields below into the form. Below are the details of the fields:
-
-- **NAME** : Name of the New Dataset we are creating.
-- **DESCRIPTION** : Description of the New Dataset.
-- **HAS HEADER ROW** : This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not.
-- **DELIMITER** : Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the fields in the data.
-- **PATH** : Path for the location of the file or directory containing the data files for the Dataset.
+- *NAME* : Name of the New Dataset we are creating.
+- *DESCRIPTION** : Description of the new dataset
+- *HAS HEADER ROW* : Indicate whether the dataset has a header row specifying the name of the columns or not
+- *DELIMITER* : Indicates the delimiter to be used between the fields in the data
+- *PATH** : Path for the location of the file or directory containing the data files for the dataset
 
 
  
@@ -89,12 +67,16 @@ You can update the column names in the schema based on your data.
    :alt: Dataset
    :align: center
    :width: 60%
-   
+  
 
-- Save the New Dataset
+Now click on "Save' to save the new dataset and you are ready to use it in your workflows.
 
 
-Now click on ``Save`` to save the new Dataset created.
+
+
+
+
+
  
  
  

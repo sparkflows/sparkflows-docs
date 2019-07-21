@@ -29,22 +29,16 @@ The steps involved in creating a dataset are:
  
  In the pop-up choose “CSV” and then click “OK”.
  
- In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.
  
- .. figure:: ../_assets/tutorials/dataset/2.PNG
-   :alt: Dataset
-   :align: center
-   :width: 60%
-   
 
 
 Fill in the required fields as below.
 
 - *Name* : Name of the new dataset 
 - *Description* : Description of the new dataset
-- *HAS HEADER ROW* : Indicate whether the dataset has a header row specifying the name of the columns or not
-- *DELIMITER* : Indicates the delimiter to be used between the fields in the data
-- *PATH* : Path for the location of the file or directory containing the data files for the dataset
+- *Has Header Row* : Indicate whether the dataset has a header row specifying the name of the columns or not
+- *Delimiter* : Indicates the delimiter to be used between the fields in the data
+- *Path* : Path for the location of the file or directory containing the data files for the dataset
 
 
  
@@ -58,6 +52,13 @@ Fill in the required fields as below.
 
 
 Now click on ``Update`` to update the Schema of the Dataset. It would display sample data for the dataset followed by the Schema.
+In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.
+ 
+ .. figure:: ../_assets/tutorials/dataset/2.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+   
 
 In this case, the data file did not have a header row. So Fire gave it standard column names of ``C0, C1`` etc.
 

@@ -47,12 +47,10 @@ Fill in the required fields as below.
    :align: center
    :width: 60%
  
- 
-- Update the Schema of the Dataset
 
+Now click on "Update dataset/schema" to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
-Now click on ``Update`` to update the Schema of the Dataset. It would display sample data for the dataset followed by the Schema.
-In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.
+In the example below, a dataset is created from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.
  
  .. figure:: ../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
@@ -60,7 +58,7 @@ In the screenshot below, we create a dataset from a housing.csv file. It is a co
    :width: 60%
    
 
-In this case, the data file did not have a header row. So Fire gave it standard column names of ``C0, C1`` etc.
+If the data file did not have a header row, Fire Insights will give standard column names of ``C0, C1`` etc.
 
 You can update the column names in the schema based on your data.
  

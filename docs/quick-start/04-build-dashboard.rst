@@ -12,7 +12,7 @@ The steps involved in creating a dashboard are:
 
 
 
-Go to Dashboards page
+Dashboards 
 =====================
 
 Select Dashboard tab will take to Dashboard page
@@ -21,7 +21,7 @@ Select Dashboard tab will take to Dashboard page
    :alt: Dashboard
    :align: center
    
-Click on Create New Dashboard
+Create Dashboard
 =============================
 
 This would open up the Dashboard Designer Page.
@@ -32,13 +32,13 @@ This would open up the Dashboard Designer Page.
    :align: center
    
    
-Name the Dashboard
+Name Dashboard
 ==================
 
 Give a name to your dashboard. You can also add a description for the new dashboard.
 
 
-Drag and drop selected nodes from the workflows into the Dashboard canvas
+Build Dashboard
 ===================================
 
 On the left hand side of the Dashboard Designer, the list of workflows would show up. With each Workflow, the nodes inside the Workflow would be displayed.
@@ -53,7 +53,7 @@ In the dashboard below we have added two nodes to the dashboard.
    
 
 
-Save the Dashboard
+Save Dashboard
 ==================
 
 Finally save the dashboard.
@@ -61,7 +61,7 @@ Finally save the dashboard.
 In order to view the dashboard, click on the 'View' button.
  
  
-View the Dashboard
+View Dashboard
 ==================
 
 Click on the  'View' button to view the dashboard.

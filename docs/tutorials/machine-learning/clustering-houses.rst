@@ -1,17 +1,17 @@
 Clustering Houses
 =================
 
-This workflow reads in a dataset. It then Performs KMeans Clustering on the Housing Dataset.
+This workflow reads in a dataset. It then performs KMeans Clustering on the Housing Dataset.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
-* prints the results.
-* Assemble the features for predictions.
-* Split it.
+* Prints the results.
+* Assembles the features for predictions.
+* Splits it.
 * Perform KMeans Clustering.
 * ML Model save.
 * ML Model Load.
@@ -44,7 +44,7 @@ Processor Output
    :align: center
    :width: 60%
    
-prints the results
+Prints the results
 ------------------
 
 It prints the sample dataset file results.
@@ -68,7 +68,7 @@ Processor Output
 Assemble the features for predictions
 -------------------------------------
 
-It assemble the features for predictions using VectorAssembler Node.
+It assembles the features for predictions using VectorAssembler Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -89,7 +89,7 @@ Processor Output
 Split it
 ---------
 
-It Split features of prediction using Split Node.
+It splits features of prediction using Split Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -110,7 +110,7 @@ Processor Output
 Perform KMeans Clustering
 -------------------------
 
-It Perform KMeans Clustering on the Housing Dataset using KMeans Node.
+It performs KMeans Clustering on the Housing Dataset using KMeans Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -174,7 +174,7 @@ Processor Output
 Prediction
 -----------
 
-It Predict features updated using Predict Node.
+It predicts features updated using Predict Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

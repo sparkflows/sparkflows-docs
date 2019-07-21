@@ -29,9 +29,9 @@ Below is a workflow which uses the NameFinder Processor.
    
 It consists of 3 Processors:
 
-* TextFiles - It reads in the input text file and creates a row from each line of text
-* OpenNLPNameFinder - It extracts the entities from each line of text
-* PrintNRows - It prints the first 10 rows of the result
+* TextFiles - It reads in the input text file and creates a row from each line of text.
+* OpenNLPNameFinder - It extracts the entities from each line of text.
+* PrintNRows - It prints the first 10 rows of the result.
 
 Textfiles
 ---------

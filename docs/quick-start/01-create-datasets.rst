@@ -12,7 +12,7 @@ The steps involved in creating a dataset are:
   - *Update the schema of the Dataset*
   - *Click "Save"*
   
- When you open any application, all existing Datasets specific to the application are displayed in the datsets tab.
+ When you open your application, all existing datasets specific to the application are displayed in the Datsets tab.
  
  .. figure:: ../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
@@ -21,7 +21,7 @@ The steps involved in creating a dataset are:
 
  Click on "Create" and choose "Dataset" from the dropdown. 
  
- .. figure:: ../_assets/tutorials/dataset/1.PNG
+ .. figure:: ../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
    :align: center
    :width: 60%

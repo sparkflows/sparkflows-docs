@@ -4,16 +4,16 @@ TFIDF
 
 This workflow reads in a dataset. It then Tokenizes and then performs TF/IDF on text content.
 
-Worklow
+Workflow
 -------
 
 Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
 * Tokenizes message column.
-* Perform TF.
-* Perform IDF.
-* prints the results.
+* Performs TF.
+* Performs IDF.
+* Prints the results.
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/1.PNG
    :alt: TFIDF
@@ -64,7 +64,7 @@ Processor Output
 Perform TF
 ----------
 
-It  performs TF on text column using HashingTF Node.
+It performs TF on text column using HashingTF Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -103,7 +103,7 @@ Processor Output
    :align: center
    :width: 60%
    
-prints the results
+Prints the results
 ------------------
 
 It will print the result after performing TF/IDF on text content.

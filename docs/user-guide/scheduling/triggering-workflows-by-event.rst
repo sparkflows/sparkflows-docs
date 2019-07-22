@@ -35,7 +35,7 @@ Below is the format of the event.
   * Name of the workflow
   * UUID of the workflow
   
-* ``Spark Submit Configs`` : extra Spark Submit configurations to be applied when running the Spark Job.
+* ``Spark Submit Configs`` : Extra Spark Submit configurations to be applied when running the Spark Job.
 * ``Extra Jar files`` : Extra jar files to use in spark-submit.
 * ``Program parameters`` : Extra program parameters if any.
 

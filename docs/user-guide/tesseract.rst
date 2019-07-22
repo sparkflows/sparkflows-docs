@@ -1,7 +1,7 @@
 OCR with Tesseract
 ==============
 
-In order to run Tesseract, the below Installation Steps have to be performed.
+In order to run Tesseract, the below Installation steps have to be performed.
 
 Download & Install the Tesseract Language Data  files
 -----------------------------------------------------
@@ -23,7 +23,7 @@ Include TESSDATA_PREFIX in spark configs when submitting the job
 
     --conf spark.executorEnv.TESSDATA_PREFIX=/home/ec2-user/tessdata
     
-* where the tesseract language data files are in ``/home/ec2-user/tessdata`` directory on each of the worker nodes
+* Where the tesseract language data files are in ``/home/ec2-user/tessdata`` directory on each of the worker nodes
 
 Error if TESSDATA_PREFIX is not set correctly
 ------------------
@@ -36,12 +36,12 @@ If TESSDATA_PREFIX is not set, the spark program would run into the error below:
     Tesseract couldn't load any languages!
   
   
-The above error would be in the Job logs. If yarn it being used it would be in the yarn logs::
+The above error would be in the Job logs. If yarn is being used it would be in the yarn logs::
 
     yarn logs -applicationId job_application_id
     
     
-When the job is being executed, Fire displays the job_application_id in the Browser.
+When the job is being executed, Fire displays the job_application_id in the browser.
 
 
 

@@ -18,10 +18,10 @@ Deleting Edges
  
   * Edges can be deleted by double clicking on them.
 
-View Worklows
+View Workflows
 ===============
 
-You can view the workflows by going to the Workflows Page Inside specific applications.
+You can view the workflows by going to the Workflows Page inside specific applications.
 
 .. figure:: ../../_assets/user-guide/workflow/1.PNG
    :alt: workflow
@@ -32,7 +32,7 @@ You can view the workflows by going to the Workflows Page Inside specific applic
 Define New Workflows
 ===============
 
-Click on 'Create New Workflow' for creating a New Workflow, it have two engine scala & pyspark, As per as requirments we can select them. It will open the Workflow Editor where Nodes can be created and connected.
+Click on 'Create New Workflow' for creating a New Workflow, It has two engines-  scala & pyspark. As per requirment we can select them. It will open the Workflow Editor where Nodes can be created and connected.
 
 - Scala
 

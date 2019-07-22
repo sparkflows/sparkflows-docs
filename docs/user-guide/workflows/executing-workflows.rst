@@ -10,7 +10,7 @@ Fire Workflows can be executed in the following ways:
 Interactively within the User Interface
 ------------------------------------------
 
-Workflows can be executed from the Browser by going into the Execute page of the workflow.
+Workflows can be executed from the browser by going into the Execute page of the workflow.
 
 
 .. figure:: ../../_assets/user-guide/workflow/4.PNG
@@ -36,7 +36,7 @@ In the above:
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | postback-url       | http://<machine>:8080/messageFromSparkJob is the postback URL for fire UI. <machine> should be the machine name on which Sparkflows is running. 8080 should be the port on which Sparkflows is running |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| job-id             | 1 is the job id. It can be any value for now                                                                                                                                                           |
+| job-id             | 1 is the job id. It can be of any value for now                                                                                                                                                           |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | workflow-file      | kmeans.wf is the json workflow file containing the kmeans workflow in this case.                                                                                                                       |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -88,14 +88,14 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
    :align: center
    :width: 60% 
  
- - Update the scheduled timing & Email Notifications after success & failure of workflow As per our requirments
+ - Update the scheduled timing & email notifications after success & failure of workflow as per our requirments.
  
 .. figure:: ../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow
    :align: center
    :width: 60%    
 
-- Click on OK to Save the changes
+- Click on OK to save the changes.
 
 .. figure:: ../../_assets/user-guide/workflow/8.PNG
    :alt: Workflow

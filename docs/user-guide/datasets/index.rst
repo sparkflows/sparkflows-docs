@@ -10,7 +10,7 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
  
 **File formats**
  
-  * Sparkflows support various File formats and is able to infer the schema. These include ``CSV/TSV, Parquet, Avro, JSON, XML`` files.
+  * Sparkflows supports various File formats and is able to infer the schema. These include ``CSV/TSV, Parquet, Avro, JSON, XML`` files.
   * Sparkflows also supports creating datasets from ``HIVE`` tables. This is not necessary as in the Workflows HIVE Processors can be directly connected to specific HIVE tables (instead of creating a Dataset in Fire for them).
 
 

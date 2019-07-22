@@ -1,7 +1,7 @@
 Scheduling Workflows
 ====================
 
-Fire allows you to schedule workflows to be run a regular intervals.
+Fire allows you to schedule workflows to be run at regular intervals.
 
 Scheduler Tab
 -------------

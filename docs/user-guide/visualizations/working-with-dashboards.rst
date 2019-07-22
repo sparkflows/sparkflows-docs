@@ -3,7 +3,7 @@ Working With Dashboards
 
 Fire allows you to create Dashboards.
 
-Processors in Fire can output data in Tables, Charts, Maps and simple strings. Dashboards allow combining the output of various processors into one User Interface.
+Processors in Fire can output data in Tables, Charts, Maps and Simple Strings. Dashboards allow combining the output of various processors into one User Interface.
 
 For example we might want to output a chart of number of bike rentals per hour, another by per day and another map displaying the total number of bike rentals per city for the day. Dashboards can combine all these into one view.
  
@@ -16,7 +16,7 @@ Creating Dashboards
 Editing Dashboards
 ------------------
  
-  * Editing dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
+  * Editing Dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
  
 .. figure:: ../../_assets/user-guide/editing-dashboards.png
    :alt: Sparkflows Editing Dashboards
@@ -38,7 +38,7 @@ Streaming Dashboards
  
   * Fire allows you to create Streaming Workflows.
   * Streaming workflows have a mini-batch duration - say 30 seconds.
-  * In this case, the output in the Dashboards get updated every 30 seconds as new data comes in.
+  * In this case, the output in the Dashboards get updated every 30 seconds as new data come in.
 
 
 

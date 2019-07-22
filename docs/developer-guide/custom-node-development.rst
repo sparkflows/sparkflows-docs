@@ -4,11 +4,11 @@ Custom Node Development & Deployment
 Fire Insights follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in Fire UI and embedded into workflows.
  
  
-**The details for building new nodes are available at the hyperlink below:**
+**The details for building new nodes are available at the URL below:**
  
   * https://github.com/sparkflows/writing-new-node
   
-**Examples of more complex nodes are at the hyperlink below :**
+**Examples of more complex nodes are at the URL below :**
 
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
  
@@ -18,12 +18,6 @@ Start by cloning the github repo: writing-new-node
 The easiest way to start writing a new node or processor is by cloning the ``writing-new-node`` repo using the command below:
 
     git clone https://github.com/sparkflows/writing-new-node.git
-
-Use the appropriate branch based on your requirements::
-
-    master branch for Apache Spark 1.6.X
-    
-    spark-2.x branch for Apache Spark 2.X
   
 
 Code the new custom node

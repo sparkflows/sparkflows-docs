@@ -65,7 +65,7 @@ You can update the column names in the schema based on your data.
    :width: 60%
   
 
-Now click on "Save' to save the new dataset and you are ready to use it in your workflows.
+Now click "Save' to save the new dataset and you are ready to use it in your workflows.
 
 
 

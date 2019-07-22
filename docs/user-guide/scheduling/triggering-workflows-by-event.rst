@@ -10,8 +10,8 @@ Use Case
 
 The kind of use cases this can handle are:
 
-* A Job loads data into HIVE
-* Now the Job wants to trigger another workflow
+* A job loads data into HIVE
+* Now the job wants to trigger another workflow
 * It pushes an event to a Kafka Topic to trigger the workflow
 
 Event Format
@@ -36,8 +36,8 @@ Below is the format of the event.
   * UUID of the workflow
   
 * ``Spark Submit Configs`` : extra Spark Submit configurations to be applied when running the Spark Job.
-* ``Extra Jar files`` : Extra jar files to use in spark-submit
-* ``Program parameters`` : extra program parameters if any
+* ``Extra Jar files`` : Extra jar files to use in spark-submit.
+* ``Program parameters`` : Extra program parameters if any.
 
   * Program Parameters are passed to the workflow. Example :  ``--var key1=value1``.
   

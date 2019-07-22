@@ -99,7 +99,7 @@ Running Example Workflows
 * Upload the Fire examples data onto HDFS::
 
     cd <fire install_dir>
-    hadoop fs -put data
+    hadoop fs -put data /tmp
     
     
 * Start off with executing the example workflows::

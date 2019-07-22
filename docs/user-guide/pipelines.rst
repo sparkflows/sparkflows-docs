@@ -1,7 +1,7 @@
 Pipeline
 ========
 
-Fire supports Pipelines. Pipelines allow running workflows in defined order.
+Fire supports Pipelines. Pipelines allow running workflows in a defined order.
 
 Pipeline List
 -------------

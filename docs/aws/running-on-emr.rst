@@ -86,16 +86,21 @@ Steps
 * Create the ``hadoop`` user in Fire::
 
     - Under Administration/Users, add the 'hadoop' user
-    - Logout from the current session and login again with the 'hadoop' user
     
-Running Example Workflows
+Loading Example Workflows
 -------------------------
+
+* From the home page of Fire Insights, click on ***Load Example Applications***
 
 * Upload the Fire examples data onto HDFS::
 
     cd <fire install_dir>
     hadoop fs -put data /tmp
     
+Runnng Example Workflows
+------------------------
+
+* Logout from the current session and login again with the 'hadoop' user    
     
 * Start off with executing the example workflows::
 

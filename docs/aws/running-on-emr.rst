@@ -21,7 +21,7 @@ Steps
 * Update the inbound rules for the Master Node::
 
     - We would have Fire listening on ports 8085 and 8086
-    - Fire by default listens on 8080 and 8443. But EMR clusters have another process listening these ports. 
+    - Fire by default listens on 8080 and 8443. But EMR clusters have another process listening on these ports. 
     - So we change it to listen on port 8085 and 8086
     - Update the inbound rules for the Master Node to allow ports 8085 and 8086
 
@@ -60,11 +60,6 @@ Steps
 
       cd <fire install_dir>
       ./create-h2-db.sh
-
-* Launch Fire::
-
-    cd <fire install_dir>
-    ./run-fire.sh start
     
 * Launch Fire Server::
 

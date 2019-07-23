@@ -45,7 +45,7 @@ You can update the column names in the schema based on your data.
 Saving the New Dataset
 ^^^^^^^^^^^^^^^^^^^^
 
-You can click on ``Save`` to save the new Dataset created.
+You can click on ``Save`` to save the New Dataset created.
  
  
  

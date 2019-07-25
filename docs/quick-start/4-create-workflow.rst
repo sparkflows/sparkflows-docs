@@ -36,13 +36,13 @@ Create Empty Workflow
 
 Click "Create" button and choose the type of workflow you want to create. In the "Create Workflow" page, enter a name, category and description of the workflow. Category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying "Customer Reports" category.
 
-Click save to save the empty workflow.
+Click "Save" to save the empty workflow.
 
 
 Add Processors
 ===================
 
-After you have saved the empty workflow, you can start adding processors to process the datasets that you had defined earlier. Click on the processors on the left hand side pane. This will make the processor appear on the workflow canvas. Add other procesors,configure and connect them as needed.  Two processor can be can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. 
+After you have saved the empty workflow, you can start adding processors to process the datasets that you had defined earlier. Click on the processors on the left hand side pane. This will make the processor appear on the workflow canvas. Add other procesors,configure and connect them as needed.  Two processors can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. 
 
 .. figure:: ../_assets/tutorials/quickstart/9.PNG
    :alt: Quickstart
@@ -53,7 +53,7 @@ After you have saved the empty workflow, you can start adding processors to proc
 Save Workflow
 =================
 
-Once you are satisfied with your workflow, dave the workflow by clicking on 'Save' button.
+Once you are satisfied with your workflow, save the workflow by clicking on 'Save' button.
 
 Each time the workflow is saved, a new version of workflow is created.
 

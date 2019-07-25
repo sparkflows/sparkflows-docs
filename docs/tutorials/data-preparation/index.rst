@@ -1,4 +1,4 @@
-Data Cleaning
+Data Preparation
 ==========
 
 .. toctree::

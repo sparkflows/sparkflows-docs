@@ -7,7 +7,7 @@ Tutorials
 
    reading-writing/index.rst
    analytics/index.rst
-   data-cleaning/index.rst
+   data-preparation/index.rst
    machine-learning/index.rst
    nlp/index.rst
    streaming/index.rst

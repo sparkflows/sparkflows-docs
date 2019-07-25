@@ -1,4 +1,4 @@
-Languages
+Code
 ==========
 
 .. toctree::

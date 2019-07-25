@@ -8,6 +8,14 @@ Sparkflows runs the spark jobs with ``spark-submit``. It takes in the workflow J
   * As more parameters on the command line when running the workflow with spark-submit with --var
   * Specifying it in Administration/Configuration to be passed to all the jobs submitted.
   
+By specifying the parameters in the Workflow Editor
+---------------------------------------------------
+
+Parameters can be specified in the Workflow Editor. They can be specified in the following format:
+
+They can be passed with ``--var name1=value1  --var  name2=value2``
+
+  
 Through a Parameter Processor in the Workflow
 -----------------------------------------
  
@@ -16,6 +24,7 @@ A Parameter Processor can be added to the workflow. It allows passing key/value 
 .. figure:: ../../_assets/user-guide/passing-parameters-2.png
    :alt: Passing Parameters to Workflows
    :align: center
+
 
 Through Program Parameters in Fire during Workflow Execution
 ------------------------------------------------------------

@@ -9,11 +9,11 @@ Let's get started!
 .. toctree::
    :maxdepth: 1
 
-   00-create-application.rst
-   00-upload-data-files.rst
-   01-create-datasets.rst
-   02-create-workflow.rst 
-   03-execute-workflow.rst 
-   04-build-dashboard.rst
+   1-create-application.rst
+   2-upload-data-files.rst
+   3-create-datasets.rst
+   4-create-workflow.rst 
+   5-execute-workflow.rst 
+   6-build-dashboard.rst
 
 

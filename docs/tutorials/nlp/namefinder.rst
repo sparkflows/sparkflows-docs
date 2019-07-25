@@ -1,8 +1,6 @@
 Name Finder
 ===========
 
-https://www.sparkflows.io/single-post/Name-Finder-with-OpenNLP-in-Sparkflows
-
 Fire provides NameFinder Processor to easily detect named entities and numbers in text. It takes in a column name in the input DataFrame containing text. It then detects the entities and stores them into a new column.
 
 To be able to detect entities the Name Finder needs a model. The model is dependent on the language and entity type it was trained for.
@@ -15,7 +13,7 @@ The OpenNLP project offers a number of pre-trained name finder models which are 
 http://opennlp.sourceforge.net/models-1.5/
 
  
-Steps for installing the models in Sparkflows are covered here : https://www.sparkflows.io/nodes-opennlp
+Steps for installing the OpenNLP models in Fire are covered here : http://docs.sparkflows.io/en/latest/operating/installing-opennlp.html
 
 Workflow
 --------

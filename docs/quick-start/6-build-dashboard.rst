@@ -15,7 +15,7 @@ The steps involved in creating a dashboard are:
 Dashboards 
 =====================
 
-Select Dashboard tab will take to Dashboard page
+Selecting Dashboard tab will take to Dashboard page.
 
 .. figure:: ../_assets/tutorials/quickstart/11.PNG
    :alt: Dashboard
@@ -41,7 +41,7 @@ Give a name to your dashboard. You can also add a description for the new dashbo
 Build Dashboard
 ===================================
 
-On the left hand side of the Dashboard Designer, the list of workflows would show up. With each Workflow, the nodes inside the Workflow would be displayed.
+On the left hand side of the Dashboard Designer, the list of workflows would show up. With each workflow, the nodes inside the workflow would be displayed.
 
 Nodes inside the workflow can be dragged and dropped onto the dashboard to make them part of the dashboard.
 

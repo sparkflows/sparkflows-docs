@@ -9,10 +9,11 @@ Tutorials
    analytics/index.rst
    data-preparation/index.rst
    machine-learning/index.rst
+   languages/index.rst
    nlp/index.rst
    streaming/index.rst
    ocr/index.rst
-   languages/index.rst
+   
    
    
    

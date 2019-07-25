@@ -1,7 +1,7 @@
 Step 3 : Create Dataset
 =========================
 
-Before any data can be used in a workflow, it needs to be wrapped in a dataset. If you uploaded csv files in the previous step, in this step you will wrap them in a dataset. 
+Before any data can be used in a workflow, it needs to be wrapped in a dataset. If you uploaded CSV files in the previous step, in this step you will wrap them in a dataset. 
 
 The steps involved in creating a dataset are:
 

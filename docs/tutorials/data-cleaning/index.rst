@@ -14,6 +14,11 @@ Data Cleaning
    rename-columns.rst
    string-to-date-timefunctions.rst
    concat-columns.rst
+   join-1.rst
+   time-function.rst
+   split-by-expression.rst
+   string-functions-multiple.rst
+   cdc-1.rst
    
       
    

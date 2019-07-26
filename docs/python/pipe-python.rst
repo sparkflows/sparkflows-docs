@@ -54,7 +54,7 @@ The below example reads in the incoming records, parses them, adds a new column 
     
 Below is the code in the Dialog box of the Pipe Python Processor of the Workflow.
 
-.. figure:: ../../_assets/user-guide/pipe-python-dialog-1.png
+.. figure:: ../_assets/user-guide/pipe-python-dialog-1.png
    :scale: 50%
    :alt: Pipe Python Dialog
    :align: center
@@ -67,7 +67,7 @@ The output schema of the Python Script is used in the Spark code for recreating 
 
 It has to be specified in the Pipe Python Processor Dialog.
 
-.. figure:: ../../_assets/user-guide/pipe-python-schema-1.png
+.. figure:: ../_assets/user-guide/pipe-python-schema-1.png
    :scale: 50%
    :alt: Pipe Python Schema
    :align: center
@@ -78,7 +78,7 @@ Program Execution Output
 
 Below is the output produced when executing the workflow.
 
-.. figure:: ../../_assets/user-guide/pipe-python-output-1.png
+.. figure:: ../_assets/user-guide/pipe-python-output-1.png
    :scale: 50%
    :alt: Pipe Python Output
    :align: center

@@ -6,6 +6,7 @@ Code
 
    sql.rst
    scala.rst
+   jar-file-execution.rst
 
    
    

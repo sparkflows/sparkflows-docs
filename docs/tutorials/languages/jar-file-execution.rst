@@ -19,8 +19,11 @@ Step 2: Execute jar file from /tmp directory.
     
       java -cp /tmp/example-application.jar MainClass
 
-   
+  
+  
 In the fire, both steps can be run with UnixShellCommands Node.
+
+
 
 
 .. figure:: ../../_assets/tutorials/quickstart/ExecutingJarFile.png

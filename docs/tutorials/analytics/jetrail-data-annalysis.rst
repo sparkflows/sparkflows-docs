@@ -1,4 +1,4 @@
-Jetrail Data Annalysis
+Jetrail Data Analysis
 ======================
 
 This workflow reads in a dataset. It then calculates the monthly trend in JetRail Dataset and annalyses using graph.

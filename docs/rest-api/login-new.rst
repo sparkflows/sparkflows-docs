@@ -1,4 +1,4 @@
-OAuth 2.0 - Obtaining an Access Token
+Accessing REST API using Postman
 ++++++++++++++++++++++++++++++++++++++
 
 This documents illustrate the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.

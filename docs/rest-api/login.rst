@@ -1,4 +1,4 @@
-Login
+Acquire Session Cookie
 ==================
 
 As the first step, log into Sparkflows and get the session id.

@@ -131,7 +131,7 @@ Also create the home directory for the users on HDFS. The example code below cre
 Setting up PySpark
 -------------------
 
-If running with PySpark the following might need to be added:
+If running with PySpark the following might need to be added to point PYSPARK to the right version of python on the cluster machines:
 
 spark-env.sh::
 

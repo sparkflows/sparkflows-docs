@@ -33,7 +33,7 @@ Install and configure virtualenv to point to python 3.6
 
   * sudo pip install virtualenv
   * virtualenv -p /usr/local/bin/python3.6 ~/venv
-  * venv/bin/activate
+  * source venv/bin/activate
   * python --version  
 
 Install Pandas and scikit-learn in Virtual environment

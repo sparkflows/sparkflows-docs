@@ -131,7 +131,9 @@ Also create the home directory for the users on HDFS. The example code below cre
 Setting up PySpark
 -------------------
 
-If running with PySpark the following might need to be added to point PYSPARK to the right version of python on the cluster machines:
+If running with PySpark the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``
+
+It is also important that all the users are able to execute the python executable.
 
 spark-env.sh::
 

@@ -30,3 +30,9 @@ When workflows are scheduled, they are executed by Fire at the specified schedul
 
 The results of the execution of the workflows can be viewed in the Workflow Executions Page. This allows us to view the results of past execution, logs of the run etc.
 
+Deleting a Scheduled Workflow
+-----------------------------
+
+Go to the Scheduled/By Time page. It would display the list of scheduled workflows.
+
+Click on the delete icon next to any schedule workflow to delete the schedule.

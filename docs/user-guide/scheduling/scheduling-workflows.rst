@@ -3,18 +3,24 @@ Scheduling Workflows
 
 Fire allows you to schedule workflows to be run at regular intervals.
 
-Scheduler Tab
--------------
-
-The Scheduler Tab displays the various workflows scheduled.
-
-
 Scheduling New Workflow
 -----------------------
 
 The workflows page displays the list of various workflows.
 
 Under ``Action`` column, there is an icon to schedule any given workflow.
+
+
+Viewing Workflows Scheduled
+-------------
+
+The Scheduler Tab displays the various workflows scheduled.
+
+
+Editing a Scheduled Workflow
+----------------------------
+
+You can edit a schedule by clicking on the edit icon, updating the new values and saving it.
 
 
 Viewing Results of Workflow Executions

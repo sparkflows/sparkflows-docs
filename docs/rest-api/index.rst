@@ -14,7 +14,8 @@ There are various categories of REST API's available:
    :maxdepth: 2
 
    login.rst
-   login-new.rst
+   restapi-postman.rst
+   restapi-python.rst
    python.rst
    processors.rst
    dataset.rst

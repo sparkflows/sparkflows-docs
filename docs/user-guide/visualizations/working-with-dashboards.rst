@@ -41,4 +41,7 @@ Streaming Dashboards
   * In this case, the output in the Dashboards get updated every 30 seconds as new data come in.
 
 
-
+..figure::/../_assets/user-guide/airflow-scheduler.PNG
+  :alt: Sparkflows Dashboard
+   :align: center  
+   :width: 60%

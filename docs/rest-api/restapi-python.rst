@@ -1,6 +1,6 @@
 Accessing REST API using Python
 ===============================
-:
+
    #!/usr/bin/python
 
     import requests

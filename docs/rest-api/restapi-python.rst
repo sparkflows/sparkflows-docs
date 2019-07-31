@@ -6,7 +6,7 @@ Accessing REST API using OAuth token
 
     import requests
 
-    imort json
+    import json
 
     import getpass
 

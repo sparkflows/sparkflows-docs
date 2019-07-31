@@ -1,9 +1,11 @@
 Accessing REST API using Python
 ===============================
 
-**USING PYTHON CODE:**
+#!/usr/bin/python
 
-import requests,json, getpass
+import requests
+imort json
+import getpass
 
 token_url = "http://localhost:8080/oauth/token"
 
@@ -11,6 +13,7 @@ test_api_url = "http://localhost:8080/getNodeCount"
 
 Step A - resource owner supplies credentials
 #Resource owner (enduser) credentials
+
 RO_user = 'admin'
 RO_password = 'admin'
 
@@ -31,7 +34,7 @@ print(access_token_response.text)
 tokens = json.loads(access_token_response.text)
 print( "access token: " + tokens['access_token'])
 
-Step C - now we can use the access_token to make as many calls as we want.
+# Step C - now we can use the access_token to make as many calls as we want.
 api_call_headers = {'Authorization': 'Bearer ' + tokens['access_token']}
 print( api_call_headers)
 api_call_response = requests.get(test_api_url, headers=api_call_headers, verify=False)

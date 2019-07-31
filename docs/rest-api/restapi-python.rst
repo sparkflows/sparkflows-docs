@@ -12,7 +12,7 @@ Accessing REST API using OAuth token
 
     token_url = "http://localhost:8080/oauth/token"
 
-    test_api_url = "http://localhost:8080/getNodeCount" # processor list count api of sparkflows
+    processor_count_api_url = "http://localhost:8080/getNodeCount" # processor list count api of sparkflows
 
     Step A - resource owner supplies credentials
     #Resource owner (enduser) credentials
@@ -42,7 +42,7 @@ Accessing REST API using OAuth token
 
     print( api_call_headers)
 
-    api_call_response = requests.get(test_api_url, headers=api_call_headers, verify=False)
+    api_call_response = requests.get(processor_count_api_url, headers=api_call_headers, verify=False)
 
     print(api_call_response.text)
   

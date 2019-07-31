@@ -4,7 +4,9 @@ Accessing REST API using Python
 #!/usr/bin/python
 
 import requests
+
 imort json
+
 import getpass
 
 token_url = "http://localhost:8080/oauth/token"

@@ -30,7 +30,7 @@ Quick Installation Steps of Fire with H2 DB
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080/index.html
+    <machine_name>:8080
 
 * Login with:: 
 
@@ -78,11 +78,11 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     
 * Test by opening your web browser and going to::
 
-    localhost:8080/index.html
+    localhost:8080
 
     OR
 
-    <machine_name>:8080/index.html
+    <machine_name>:8080
 
 * Login with::
 

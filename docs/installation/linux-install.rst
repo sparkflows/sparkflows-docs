@@ -22,11 +22,6 @@ Quick Installation Steps of Fire with H2 DB
 
       cd <fire install_dir>
       ./create-h2-db.sh
-
-* Launch Fire::
-
-    cd <fire install_dir>
-    ./run-fire.sh start
     
 * Launch Fire Server::
 

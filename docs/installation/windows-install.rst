@@ -32,7 +32,7 @@ Installation Steps of Fire Insights with H2 DB
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080/index.html
+    <machine_name>:8080
 
 * Login with:: 
 

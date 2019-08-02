@@ -5,8 +5,8 @@ You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :align: left
-   :width: 100%
+   :align: center
+   :width: 60%
 
 
 Entering Field Details

@@ -7,8 +7,7 @@ You can define a New Dataset by clicking on the ``Create Dataset`` button.
    :alt: Dataset
    :align: center
    :width: 60%
-
-
+   
 Entering Field Details
 ^^^^^^^^^^^^^^^^^^^^
 

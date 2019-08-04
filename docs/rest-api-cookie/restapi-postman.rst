@@ -1,7 +1,7 @@
 Accessing REST API using Postman
 ++++++++++++++++++++++++++++++++++++++
 
-This documents illustrate the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.
+This document illustrates the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.
 
 Grants are the heart of OAuth 2.0. Each Grant defines one way for a client to retrieve an authorization.
 
@@ -19,9 +19,11 @@ Post Request:
  
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
-Click on Authorization tab and select type - Basic and fill username (clientId) and password (secret key) in request headers:
------------------------------------------------------------------------------------------------------------------------------
+Click on Authorization tab and select type - Basic
+---------------------------------------------------
  
+Fill username (clientId) and password (secret key) in request headers:
+
 - Client Id = sparkflows
 - Secret – (****)  
 
@@ -32,7 +34,7 @@ Example below:
    :alt: Token
    :align: center   
 
-Now use access_token to access rest api:
+Now use access_token to access the rest api:
 ----------------------------------------
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
@@ -66,6 +68,7 @@ Get the access token
 
 Click on Use token
 --------------------
+
 .. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center

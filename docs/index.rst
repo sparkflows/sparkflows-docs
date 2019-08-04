@@ -151,13 +151,21 @@ Release Notes
 
    release-notes/index     
 
-REST API's
+REST API's using Tokens
 ----------
 
 .. toctree::
    :maxdepth: 2
 
-   rest-api/index 
+   rest-api-token/index 
+   
+REST API's using Cookie
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   rest-api-cookie/index 
    
 Indices and tables
 ------------------

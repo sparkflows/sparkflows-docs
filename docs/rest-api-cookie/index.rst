@@ -1,4 +1,4 @@
-REST API
+REST API using cookies
 ==========
 
 Sparkflows provides REST API for interacting with it.
@@ -15,7 +15,6 @@ There are various categories of REST API's available:
 
    login.rst
    restapi-postman.rst
-   restapi-python.rst
    python.rst
    processors.rst
    dataset.rst

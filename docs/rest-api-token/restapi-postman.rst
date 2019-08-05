@@ -18,6 +18,7 @@ Post Request
  
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
+
 Click on Authorization tab and select type - Basic
 ========
  

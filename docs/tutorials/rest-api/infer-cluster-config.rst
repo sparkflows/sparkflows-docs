@@ -20,24 +20,22 @@ save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 Step A
 ========
 
-- resource owner supplies credentials
+resource owner supplies credentials
 
 Resource owner (enduser) credentials
-=====================================
 
 
-input your own username
------------------------
+- input your own username
 
 RO_user = 'admin' 
 
-input your own password
------------------------
+- input your own password
+
 
 RO_password = 'admin' 
 
-client (application) credentials
----------------------------------
+- client (application) credentials
+
 
 client_id = 'sparkflows'
 client_secret = 'secret'
@@ -60,8 +58,8 @@ print(access_token_response.text)
 tokens = json.loads(access_token_response.text)
 print( "access token: " + tokens['access_token'])
 
-Step
-=====
+Step D
+=======
 
 - now use the access_token to call infer configuration api and its save api.
 

@@ -16,7 +16,7 @@ Get List of Datasets
 
 Returns the list of Datasets for the logged in user::
 
-    curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/datasetsJSON
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets?sortPara=dsc&projectId=1
          
          
 Create / Update Dataset
@@ -71,10 +71,13 @@ Curl
        
 Delete Dataset
 --------------------
+* "datasetId": "13"
+* "projectId": "13"
+::
 
 Deletes a given Dataset::
 
-    curl   -X GET --header 'Accept: application/json' --header 'id: 13' 'localhost:8080/getSelDataset' -b /tmp/cookies.txt
+    curl -X DELETE --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/1?projectId=1
             
 Get Datasets with given UUID
 ----------------------------
@@ -87,10 +90,11 @@ Get Dataset by Id
 -----------------
 
 * "id": "13"
+* "projectId": "13"
 
 ::
 
-         curl   -X GET --header 'Accept: application/json' --header 'id: 13'   localhost:8080/getSelDataset   -b /tmp/cookies.txt
+        curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/13?projectId=1
          
          
 Get  Dataset Count
@@ -98,7 +102,7 @@ Get  Dataset Count
 
 Returns the count of datasets available::
 
-    curl   -X GET --header 'Accept: application/json' http://localhost:8080/getDatasetCount -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/count
          
 
 Get sample data
@@ -111,7 +115,8 @@ Delimiter and header are optional values
 
 CURL::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'path: data/spam.csv' -d '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' localhost:8080/sampleData -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d
+    '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' http://localhost:8080/api/v1/datasets/sample-data
 
 
 Returns schema of the files in the given path using the given delimiter
@@ -124,7 +129,8 @@ Returns schema of the files in the given path using the given delimiter
 
 CURL::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'path: data/spam.csv' -d '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' localhost:8080/schemaForPathJSON -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d 
+    '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' http://localhost:8080/api/v1/datasets/schema
          
          
 Get  Latest Datasets
@@ -132,7 +138,7 @@ Get  Latest Datasets
 
 Returns the latest updated datasets::
 
-    curl   --X GET --header 'Accept: application/json' http://localhost:8080/getLatestDatasets -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/datasets/latest'
     
          
          

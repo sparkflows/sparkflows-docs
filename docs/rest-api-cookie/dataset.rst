@@ -78,14 +78,7 @@ Delete Dataset
 Deletes a given Dataset::
 
     curl -X DELETE --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/1?projectId=1
-            
-Get Datasets with given UUID
-----------------------------
-
-Returns the Datasets with the given UUID's::
-
-    curl -X GET --header 'Accept: application/json' 'localhost:8080/listAllDatasets' -b /tmp/cookies.txt
-
+    
 Get Dataset by Id
 -----------------
 

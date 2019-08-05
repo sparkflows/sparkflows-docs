@@ -38,7 +38,7 @@ RO_password = 'admin'
 
 
 client_id = 'sparkflows'
-client_secret = 'secret'
+client_secret = '*****'
 
 Step B
 -------

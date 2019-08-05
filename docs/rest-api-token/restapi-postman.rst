@@ -13,38 +13,39 @@ Fire supports two grant types for retrieving the access token:
 Grant Type – Password
 ---------------------
 
-Post Request:
+Post Request
 ==============
  
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
 Click on Authorization tab and select type - Basic
----------------------------------------------------
+========
  
 Fill username (clientId) and password (secret key) in request headers:
 
 - Client Id = sparkflows
 - Secret – (****)  
 
-Example below:
---------------
+Example
+===========
     
 .. figure:: ../_assets/tutorials/token/token1.PNG
    :alt: Token
    :align: center   
 
 Now use access_token to access the rest api:
-----------------------------------------
+=========
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
    
+   
 Get the access token using grant type - authorization code
-==========================================================
+----------------------
 
 Get the access token
----------------------
+====================
 
 - Click on Authorization tab
 - Select Type OAuth 2.0
@@ -66,14 +67,14 @@ Get the access token
    :align: center 
 
 Click on Use token
---------------------
+==================
 
 .. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center
 
 Using tokens for accessing REST API
------------------------------------
+===================================
 
 .. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token

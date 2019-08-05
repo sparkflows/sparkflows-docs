@@ -10,7 +10,7 @@ Fire supports two grant types for retrieving the access token:
 - Grant Types – Password
 - Grant Types – Authorization code
 
-Grant Type – Password
+Using Grant Type – Password
 ---------------------
 
 Post Request
@@ -41,7 +41,7 @@ Now use access_token to access the rest api:
    :align: center 
    
    
-Get the access token using grant type - authorization code
+Using Grant type - Authorization code
 ----------------------
 
 Get the access token

@@ -40,7 +40,7 @@ RO_password = 'admin'
 client_id = 'sparkflows'
 client_secret = 'secret'
 
-step B, C 
+step B
 ==========
 
 single call with resource owner credentials in the body and client credentials as the basic auth header will return 
@@ -58,7 +58,7 @@ print(access_token_response.text)
 tokens = json.loads(access_token_response.text)
 print( "access token: " + tokens['access_token'])
 
-Step D
+Step C
 =======
 
 - now use the access_token to call infer configuration api and its save api.

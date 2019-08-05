@@ -3,7 +3,7 @@ Accessing REST API using Postman
 
 This document illustrates the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.
 
-Grants are the heart of OAuth 2.0. Each grant defines one way for a client to retrieve an authorization.
+Grants are at the heart of OAuth 2.0. Each grant defines one way for a client to retrieve an authorization.
 
 Fire supports two grant types for retrieving the access token:
 

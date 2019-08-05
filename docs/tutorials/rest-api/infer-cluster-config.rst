@@ -20,32 +20,32 @@ save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 Step A
 --------
 
-resource owner supplies credentials
+Resource owner supplies credentials
 
 Resource owner (enduser) credentials
 
 
-- input your own username
+- Input your own username
 
 RO_user = 'admin' 
 
-- input your own password
+- Input your own password
 
 
 RO_password = 'admin' 
 
-- client (application) credentials
+- Client (application) credentials
 
 
 client_id = 'sparkflows'
 client_secret = 'secret'
 
-step B
+Step B
 -------
 
 single call with resource owner credentials in the body and client credentials as the basic auth header will return 
 
-- access_token
+- Access_token
 
 
 data = {'grant_type': 'password','username': RO_user, 'password': RO_password}
@@ -61,13 +61,13 @@ print( "access token: " + tokens['access_token'])
 Step C
 -------
 
-- now use the access_token to call infer configuration api and its save api.
+- Now use the access_token to call infer configuration api and its save api.
 
 api_call_headers = {'Authorization': 'Bearer ' + tokens['access_token']}
 
 print( api_call_headers)
 
-- infer the hadoop configuration
+- Infer the hadoop configuration
 
 
 infer_configuration_api_response = requests.get(infer_configuration_api_url, headers=api_call_headers, verify=False)

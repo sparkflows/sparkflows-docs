@@ -8,6 +8,7 @@ Tutorials
    reading-writing/index.rst
    analytics/index.rst
    data-preparation/index.rst
+   infer-cluster-config.rst
    machine-learning/index.rst
    languages/index.rst
    nlp/index.rst

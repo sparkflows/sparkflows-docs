@@ -20,7 +20,7 @@ save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 Step A 
 ------
 
-Resource owner (enduser) will supply the credentials
+Here Resource owner (enduser) will supply its credentials
 
 
 - Input your own username
@@ -59,7 +59,9 @@ print( "access token: " + tokens['access_token'])
 Step C
 ------
 
-- Now use the access_token to call infer configuration api and its save api.
+Now use the access_token to call infer configuration api and its save api.
+
+- Access_token
 
 api_call_headers = {'Authorization': 'Bearer ' + tokens['access_token']}
 

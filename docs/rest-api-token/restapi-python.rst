@@ -1,5 +1,8 @@
 Accessing REST API using OAuth token
 ====================================
+
+Below is an example Python code for accessing the Fire REST API using tokens.
+
   ::
     
     #!/usr/bin/python

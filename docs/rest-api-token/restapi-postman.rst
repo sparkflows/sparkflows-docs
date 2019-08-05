@@ -40,6 +40,7 @@ Now use access_token to access the rest api:
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
+   :width: 60%
    
    
 Using Grant type - Authorization code
@@ -54,18 +55,21 @@ Get the access token
 .. figure:: ../_assets/tutorials/token/token3.PNG
    :alt: Token
    :align: center 
+   :width: 60%
 
 - Click on Request Token
 
 .. figure:: ../_assets/tutorials/token/token4.PNG
    :alt: Token
-   :align: center 
+   :align: center
+   :width: 60%
 
 - Fill the username and password and click on signIn
 
 .. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token
-   :align: center 
+   :align: center
+   :width: 60%
 
 Click on Use token
 ==================
@@ -73,6 +77,7 @@ Click on Use token
 .. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center
+   :width: 60%
 
 Using tokens for accessing REST API
 ===================================
@@ -80,3 +85,4 @@ Using tokens for accessing REST API
 .. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token
    :align: center
+   :width: 60%

@@ -20,7 +20,7 @@ save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 Step A - Resource owner supplies credentials
 --------------------------------------------
 
-Resource owner (enduser) credentials
+Resource owner (enduser) will supply the credentials
 
 
 - Input your own username
@@ -57,7 +57,7 @@ tokens = json.loads(access_token_response.text)
 print( "access token: " + tokens['access_token'])
 
 Step C
--------
+------
 
 - Now use the access_token to call infer configuration api and its save api.
 

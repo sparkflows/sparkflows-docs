@@ -11,4 +11,4 @@ Swagger is also enabled and is available at http://<machine-name>:8080/swagger-u
    :maxdepth: 2
 
    restapi-python.rst
-
+   restapi-postman.rst

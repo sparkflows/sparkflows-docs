@@ -20,7 +20,7 @@ save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 Step A 
 ------
 
-Here Resource owner (enduser) will supply its credentials
+Firstly Resource owner (enduser) will supply its credentials
 
 
 - Input your own username

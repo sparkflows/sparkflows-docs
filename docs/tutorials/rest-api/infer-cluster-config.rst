@@ -57,7 +57,10 @@ Step
 api_call_headers = {'Authorization': 'Bearer ' + tokens['access_token']}
 
 print( api_call_headers)
-#infer the hadoop configuration
+
+infer the hadoop configuration
+------------------------------
+
 infer_configuration_api_response = requests.get(infer_configuration_api_url, headers=api_call_headers, verify=False)
 print(" infer configuration response : "+ infer_configuration_api_response.text)
 

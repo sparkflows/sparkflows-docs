@@ -45,7 +45,10 @@ client_secret = 'secret'
 step B, C 
 -----------
 
-- single call with resource owner credentials in the body and client credentials as the basic auth header will return #access_token
+- single call with resource owner credentials in the body and client credentials as the basic auth header will return 
+
+access_token
+------------
 
 data = {'grant_type': 'password','username': RO_user, 'password': RO_password}
 

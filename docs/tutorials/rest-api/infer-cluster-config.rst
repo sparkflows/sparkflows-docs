@@ -17,10 +17,8 @@ infer_configuration_api_url = "http://localhost:8080/api/v1/configurations/infer
 
 save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 
-Step A
--------
-
-Resource owner supplies credentials
+Step A - Resource owner supplies credentials
+--------------------------------------------
 
 Resource owner (enduser) credentials
 

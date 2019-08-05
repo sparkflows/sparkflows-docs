@@ -43,7 +43,7 @@ client_secret = 'secret'
 Step B
 -------
 
-single call with resource owner credentials in the body and client credentials as the basic auth header will return 
+Single call with resource owner credentials in the body and client credentials as the basic auth header will return 
 
 - Access_token
 

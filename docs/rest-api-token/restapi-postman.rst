@@ -32,7 +32,8 @@ Example
     
 .. figure:: ../_assets/tutorials/token/token1.PNG
    :alt: Token
-   :align: center   
+   :align: center 
+   :width: 60%
 
 Now use access_token to access the rest api:
 =========

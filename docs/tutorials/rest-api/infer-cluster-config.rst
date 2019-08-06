@@ -3,7 +3,7 @@ Python - Infer Spark Cluster Configurations
 
 Below is an example Python program for inferring the Apache Spark cluster configurations using the REST API.
 
-It would infer the cluster configurations and save the new results.
+It would infer the cluster configurations with latest changes and save the new results.
 
   ::
 

@@ -75,7 +75,8 @@ download hdfs file
 Rename HDFS File
 ----------------
 
-*sourceFilePath: /user/sparkflows/Airline.csv,
+*sourceFilePath: /user/sparkflows/Airline.csv
+
 *destinationFilePath: /user/sparkflows/airline.csv
 
 ::

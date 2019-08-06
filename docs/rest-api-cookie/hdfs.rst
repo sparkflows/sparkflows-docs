@@ -13,43 +13,68 @@ They should be executed after you have logged into Sparkflows
 Open a Directory
 ----------------
 
-Returns the list of files/directories in the given folder (/tmp)
-path:/tmp::
+Returns list of all the files on hdfs in the users home directory
+::
 
-  curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "path:/tmp" -X GET -X GET -b /tmp/cookies.txt localhost:8080/openHdfsDir
+  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs'
   
-Browse Users Home Directory on HDFS
------------------------------------
+Create HDFS directory
+---------------------
 
-Gets all the files and folders in the users home directory::
+::
 
-  curl -i --header "Accept:application/json" -X GET -b /tmp/cookies.txt localhost:8080/hdfs
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/dir/create'
 
-Open HDFS file
---------------
+Returns list of files in HDFS in the specified directory
+--------------------------------------------------------
+ 
+Returns list of files in HDFS in the specified directory(/user/sparkflows/)
+::
 
-Accepts HDFS file path and returns first X bytes of content::
+   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/dir/open?path=%2Fuser%2Fsparkflows%2F'
+   
+Returns list of all the files on hdfs in the users home directory in sorted order
+----------------------------------------------------------------------------------
 
-  curl -X GET --header 'Accept: text/plain' --header 'path: /home/ec2-user/settings.xml' 'http://localhost:8080/openHdfsFile' -b /tmp/cookies.txt
+sortPara: alphabetical
+path: /user/sparkflows/
+::
+   
+   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/files?sortPara=alphbetical&path=%2Fuser%2Fsparkflows%2F'
+   
+  
 
 Upload file
 -----------
 
-Uploads selected file at specified path
-
-* File name:test.txt
-* path:/home/ec2-user
-
 ::
 
-    curl -X POST --header 'Content-Type: multipart/form-data' --header 'Accept: text/plain' --header 'path: /home/ec2-user/' -F 'file=@test.txt' 'http://localhost:8080/uploadFile' -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/files/upload' -b /tmp/cookies.txt
   
-Get Users home directory
+
+Deletes a file from HDFS
 ------------------------
+* path: /user/sparkflows/Airline.csv
 
 ::
+   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
+   
+download hdfs file
+------------------
 
-    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/userHomeDir' -b /tmp/cookies.txt
+* path: /user/sparkflows/Airline.csv
+::
 
+    curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
 
+Rename HDFS File
+----------------
+
+* sourceFilePath: /user/sparkflows/Airline.csv
+* destinationFilePath: /user/sparkflows/airline.csv
+
+::
+   
+    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
+ 
 

@@ -57,7 +57,7 @@ An Access Token is a credential that can be used by an application to access an 
 Using Grant type - Authorization code
 -------------------------------------
 
-The Authorization Code grant type is used by confidential and public clients to exchange an authorization code for an access token.
+The Authorization Code grant type is used to exchange an authorization code for an access token.
 
 
 Get the access token

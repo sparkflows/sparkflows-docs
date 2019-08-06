@@ -77,7 +77,7 @@ Delete Dataset
 
 Deletes a given Dataset::
 
-    curl -X DELETE --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/1?projectId=1
+    curl -X DELETE --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/1?projectId=1'
     
 Get Dataset by Id
 -----------------
@@ -87,7 +87,7 @@ Get Dataset by Id
 
 ::
 
-        curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/13?projectId=1
+        curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/13?projectId=1'
          
          
 Get  Dataset Count
@@ -95,7 +95,7 @@ Get  Dataset Count
 
 Returns the count of datasets available::
 
-    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/count
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/count'
          
 
 Get sample data
@@ -142,7 +142,7 @@ Get the list of files/directories in the given path
   
 CURL::
 
-    curl   -X GET --header 'Content-Type: application/json' --header 'Accept: application/json' -d 'data/transaction.csv' http://localhost:8080/filesInPathJSON -b /tmp/cookies.txt
+    curl   -X GET --header 'Content-Type: application/json' --header 'Accept: application/json' -d 'data/transaction.csv' 'http://localhost:8080/filesInPathJSON -b /tmp/cookies.txt'
     
     
 

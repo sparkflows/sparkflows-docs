@@ -81,4 +81,13 @@ Rename HDFS File
    
   curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
  
+Accepts HDFS file path and returns first X bytes of conten
+----------------------------------------------------------
 
+*path: /user/sparkflows/Airline.csv
+
+::
+
+  curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/open?path=%2Fuser%2Fsparkflows%2FAirline.csv'
+  
+  

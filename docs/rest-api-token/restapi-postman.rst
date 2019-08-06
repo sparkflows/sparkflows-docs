@@ -76,6 +76,8 @@ The app can obtain an access token that provides temporary, secure access to it,
 
 - Click on Request Token
 
+It will redirect to sparkflows login URL Page, As below.
+
 .. figure:: ../_assets/tutorials/token/token4.PNG
    :alt: Token
    :align: center

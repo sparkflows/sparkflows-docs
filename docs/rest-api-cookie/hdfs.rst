@@ -37,7 +37,7 @@ Returns list of files in HDFS in the specified directory(/user/sparkflows/)
 Returns list of all the files on hdfs in the users home directory in sorted order
 ----------------------------------------------------------------------------------
 
-*sortPara: alphabetical
+*sortPara: alphabetical,
 *path: /user/sparkflows/
 
 ::
@@ -74,7 +74,7 @@ download hdfs file
 Rename HDFS File
 ----------------
 
-*sourceFilePath: /user/sparkflows/Airline.csv
+*sourceFilePath: /user/sparkflows/Airline.csv,
 *destinationFilePath: /user/sparkflows/airline.csv
 
 ::

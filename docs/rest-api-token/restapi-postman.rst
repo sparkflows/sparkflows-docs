@@ -17,12 +17,18 @@ The Password grant is used when the application presents a traditional username 
 
 Post Request
 ==============
- 
+
+The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
+
+
 - http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
 
 
 Click on Authorization tab and select type - Basic
-========
+==================================================
+
+Basic Auth is an authorization type that requires a verified username and password to access a data resource.
+
  
 Fill username (clientId) and password (secret key) in request headers:
 
@@ -38,7 +44,9 @@ Example
    :width: 60%
 
 Now use access_token to access the rest api:
-=========
+===========================================
+
+An Access Token is a credential that can be used by an application to access an API, Below is example
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token
@@ -54,6 +62,9 @@ The Authorization Code grant type is used by confidential and public clients to 
 
 Get the access token
 ====================
+
+The app can obtain an access token that provides temporary, secure access to it, Below are steps involved to Request an Access_token 
+
 
 - Click on Authorization tab
 - Select Type OAuth 2.0
@@ -80,6 +91,9 @@ Get the access token
 Click on Use token
 ==================
 
+A security token (sometimes called an authentication token) is a small hardware device that the owner carries to authorize access to a network service.
+
+
 .. figure:: ../_assets/tutorials/token/token6.PNG
    :alt: Token
    :align: center
@@ -87,6 +101,8 @@ Click on Use token
 
 Using tokens for accessing REST API
 ===================================
+
+Using above token we can Access the REST API.
 
 .. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token

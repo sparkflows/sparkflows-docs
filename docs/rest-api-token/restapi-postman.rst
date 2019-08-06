@@ -47,7 +47,10 @@ Now use access_token to access the rest api:
    
    
 Using Grant type - Authorization code
-----------------------
+-------------------------------------
+
+The Authorization Code grant type is used by confidential and public clients to exchange an authorization code for an access token.
+
 
 Get the access token
 ====================

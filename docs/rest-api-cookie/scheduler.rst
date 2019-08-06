@@ -1,6 +1,15 @@
 Scheduler REST API
 ==================
 
+Overview
+--------
+
+The Scheduler REST API's, allow you to schedule some jobs once Sparkflows connected to Hadoop Cluster.
+
+Below are the various Scheduler REST API's available in Sparkflows
+
+They should be executed after you have logged into Sparkflows
+
 Get list of all Workflows Scheduled
 -----------------------------------
 

@@ -16,9 +16,9 @@ It would infer the cluster configurations with latest changes and save the new r
 
    token_url = "http://localhost:8080/oauth/token"
 
-   infer_configuration_api_url = "http://localhost:8080/api/v1/configurations/infer" 
+   infer_configuration_api_url = 'http://localhost:8080/api/v1/configurations/infer' 
 
-   save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
+   save_configuration_api_url = 'http://localhost:8080/api/v1/configurations'
 
    #Step A - resource owner supplies credentials
    #Resource owner (enduser) credentials

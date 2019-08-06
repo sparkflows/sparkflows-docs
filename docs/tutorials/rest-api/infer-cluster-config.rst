@@ -49,10 +49,12 @@ It would infer the cluster configs and save the new results.
 
    print( api_call_headers)
    #infer the hadoop configuration
+   
    infer_configuration_api_response = requests.get(infer_configuration_api_url, headers=api_call_headers, verify=False)
    print(" infer configuration response : "+ infer_configuration_api_response.text)
 
    #save the hadoop configuration
+   
    save_configuration_api_response = requests.post(save_configuration_api_url,infer_configuration_api_response, headers=api_call_headers,   verify=False)
 
    print(" configuration after save : "+save_configuration_api_response.text)

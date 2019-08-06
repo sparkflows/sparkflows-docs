@@ -59,15 +59,16 @@ Deletes a file from HDFS
 *path: /user/sparkflows/Airline.csv
 
 ::
-   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
+  curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
    
 download hdfs file
 ------------------
 
 *path: /user/sparkflows/Airline.csv
+
 ::
 
-   curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
+  curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
 
 Rename HDFS File
 ----------------
@@ -77,6 +78,6 @@ Rename HDFS File
 
 ::
    
-   curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
+  curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
  
 

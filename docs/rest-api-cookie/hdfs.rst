@@ -29,6 +29,7 @@ Returns list of files in HDFS in the specified directory
 --------------------------------------------------------
  
 Returns list of files in HDFS in the specified directory(/user/sparkflows/)
+
 ::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/dir/open?path=%2Fuser%2Fsparkflows%2F'
@@ -38,6 +39,7 @@ Returns list of all the files on hdfs in the users home directory in sorted orde
 
 sortPara: alphabetical
 path: /user/sparkflows/
+
 ::
    
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/files?sortPara=alphbetical&path=%2Fuser%2Fsparkflows%2F'
@@ -54,7 +56,7 @@ Upload file
 
 Deletes a file from HDFS
 ------------------------
-* path: /user/sparkflows/Airline.csv
+*path: /user/sparkflows/Airline.csv
 
 ::
    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
@@ -62,7 +64,7 @@ Deletes a file from HDFS
 download hdfs file
 ------------------
 
-* path: /user/sparkflows/Airline.csv
+*path: /user/sparkflows/Airline.csv
 ::
 
     curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
@@ -70,8 +72,8 @@ download hdfs file
 Rename HDFS File
 ----------------
 
-* sourceFilePath: /user/sparkflows/Airline.csv
-* destinationFilePath: /user/sparkflows/airline.csv
+*sourceFilePath: /user/sparkflows/Airline.csv
+*destinationFilePath: /user/sparkflows/airline.csv
 
 ::
    

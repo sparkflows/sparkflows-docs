@@ -59,6 +59,7 @@ Deletes a file from HDFS
 *path: /user/sparkflows/Airline.csv
 
 ::
+
   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
    
 download hdfs file

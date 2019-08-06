@@ -30,7 +30,7 @@ Open HDFS file
 
 Accepts HDFS file path and returns first X bytes of content::
 
-  curl -X GET --header 'Accept: text/plain' --header 'path: /home/ec2-user/settings.xml' http://localhost:8080/openHdfsFile' -b /tmp/cookies.txt
+  curl -X GET --header 'Accept: text/plain' --header 'path: /home/ec2-user/settings.xml' 'http://localhost:8080/openHdfsFile' -b /tmp/cookies.txt
 
 Upload file
 -----------

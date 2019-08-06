@@ -85,7 +85,10 @@ It will redirect to sparkflows login URL Page, As below.
 
 - Fill the username and password and click on signIn
 
-- OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password, Below are Screenshot For updating the Oauth approval.
+Oauth Approval
+--------------
+
+OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password, Below are Screenshot For updating the Oauth approval.
 
 .. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token

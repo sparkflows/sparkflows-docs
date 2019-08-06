@@ -51,7 +51,7 @@ Upload file
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/files/upload' -b /tmp/cookies.txt
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/files/upload' -b /tmp/cookies.txt
   
 
 Deletes a file from HDFS
@@ -67,7 +67,7 @@ download hdfs file
 *path: /user/sparkflows/Airline.csv
 ::
 
-    curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
+   curl -X GET --header 'Accept: application/json' 'localhost:8080/api/v1/hdfs/files/download?path=%2Fuser%2Fsparkflows%2FAirline.csv'
 
 Rename HDFS File
 ----------------
@@ -77,6 +77,6 @@ Rename HDFS File
 
 ::
    
-    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
+   curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
  
 

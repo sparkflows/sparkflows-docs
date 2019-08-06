@@ -5,7 +5,7 @@ Below is an an example Python program for inferring cluster configuration using 
 
 It would infer the cluster configs and save the new results.
 
-::
+  ::
 
 #!/usr/bin/python
 

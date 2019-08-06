@@ -37,8 +37,8 @@ Returns list of files in HDFS in the specified directory(/user/sparkflows/)
 Returns list of all the files on hdfs in the users home directory in sorted order
 ----------------------------------------------------------------------------------
 
-sortPara: alphabetical
-path: /user/sparkflows/
+*sortPara: alphabetical
+*path: /user/sparkflows/
 
 ::
    

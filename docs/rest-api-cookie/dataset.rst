@@ -16,7 +16,7 @@ Get List of Datasets
 
 Returns the list of Datasets for the logged in user::
 
-    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets?sortPara=dsc&projectId=1
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets?sortPara=dsc&projectId=1'
          
          
 Create / Update Dataset

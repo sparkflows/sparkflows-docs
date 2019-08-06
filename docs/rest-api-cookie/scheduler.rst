@@ -20,22 +20,27 @@ curl::
 JSON::
 
     "analysisFlowId": 0,
-    "cronPattern": "",
-    "dateCreated": "2017-11-20T00:47:37.351Z",
-    "dateLastUpdated": "2017-11-20T00:47:37.351Z",
-    "day": "",
+    "cronPattern": "string",
+    "dateCreated": "2019-08-06T11:77:17.221Z",
+    "dateLastUpdated": "2019-08-06T11:77:17.221Z",
+    "day": "string",
     "dayOfTheMonth": 0,
-    "description": "",
-    "endTime": "2017-11-20T00:47:37.351Z",
-    "fireEvery": "",
-    "firedTime": "2017-11-20T00:47:37.352Z",
+    "description": "string",
+    "emailonFailure":"string",
+    "emailonSuccess": "string"
+    "endTime": "2019-08-06T11:77:17.221Z",
+    "fireEvery": "string",
+    "firedTime": "2019-08-06T11:77:17.221Z",
     "hour": 0,
     "id": 0,
+    "Libjars": "string",
     "minute": 0,
-   "name": "",
-   "sparkSubmitOptions": "",
-   "startTime": "2017-11-20T00:47:37.352Z",
-   }'    http://localhost:8080/api/v1/workflow-schedules  -b /tmp/cookies.txt
+   "name": "string",
+   "sparkSubmitOptions": "string",
+   "startTime": "22019-08-06T11:77:17.221Z",
+   "userId": "0",
+   "id": "string",
+   }'    'http://137.117.83.79:8080/api/v1/workflow-schedules'  -b /tmp/cookies.txt
 
 
 Delete Scheduled Workflow

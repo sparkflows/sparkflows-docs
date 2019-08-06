@@ -23,10 +23,16 @@ It would infer the cluster configurations and save the new results.
    #Step A - resource owner supplies credentials
    #Resource owner (enduser) credentials
 
-   RO_user = 'admin' #input your own username
-   RO_password = 'admin' #input your own password
+   #input your own username
+   
+   RO_user = 'admin'
+   
+   #input your own password
+   
+   RO_password = 'admin' 
 
    #client (application) credentials
+   
    client_id = 'sparkflows'
    client_secret = 'secret'
 

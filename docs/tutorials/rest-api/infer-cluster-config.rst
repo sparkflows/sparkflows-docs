@@ -20,8 +20,7 @@ It would infer the cluster configurations with latest changes and save the new r
 
    save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
 
-   #Step A - resource owner supplies credentials
-   #Resource owner (enduser) credentials
+   #Step A - resource owner supplies credential #Resource owner (enduser) credentials
 
    #input your own username
    

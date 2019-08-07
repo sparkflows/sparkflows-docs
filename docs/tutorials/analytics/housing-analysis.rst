@@ -29,3 +29,11 @@ Processor Configuration
    :alt: Housing Analysis
    :align: center
    :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/3.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%

@@ -1,7 +1,7 @@
 Housing-Analysis
 =================
 
-This workflow reads in a multiple file available in a directory, It then filter it to aggregate number of bedrooms with specific price ranges and then prints the results.
+This workflow reads in multiple file available in specific directory, It then filter it to aggregate number of bedrooms with specific prices and then prints the results.
 
 Workflow
 -------

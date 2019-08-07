@@ -11,7 +11,6 @@ Tutorials
    machine-learning/index.rst
    languages/index.rst
    nlp/index.rst
-   processing-multiple-files/index.rst
    streaming/index.rst
    ocr/index.rst
    rest-api/index.rst

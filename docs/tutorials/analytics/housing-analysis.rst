@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads multiple csv files available in a directory.
+It reads multiple csv files available in specific directory.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

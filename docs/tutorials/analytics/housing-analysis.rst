@@ -58,6 +58,26 @@ Processor Output
    :align: center
    :width: 60%   
    
+Prints the results
+------------------
+
+It will print the result with the output required after filter aggregations.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/6.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60% 
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/7.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%   
 
 
 

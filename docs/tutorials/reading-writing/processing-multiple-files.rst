@@ -1,7 +1,7 @@
 processing-multiple-files
 =========================
 
-This workflow reads in multiple files available in specific directory, It then filter it to aggregate number of bedrooms with specific prices and then print the results.
+This workflow reads in multiple files available in specific directory, It then filter and aggregate number of bedrooms with specific prices and then print the results.
 
 Workflow
 -------

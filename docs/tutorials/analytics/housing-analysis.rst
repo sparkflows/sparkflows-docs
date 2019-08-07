@@ -8,7 +8,7 @@ Workflow
 
 Below is the workflow. It does the following:
 
-* Reads multiple csv file in a directory.
+* Reads multiple csv file available in specific directory.
 * Filter it to aggregate number of bedrooms with specific price ranges.
 * Prints the results.
 

@@ -25,7 +25,7 @@ It reads multiple csv files available in specific directory.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/8.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%

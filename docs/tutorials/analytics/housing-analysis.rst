@@ -1,14 +1,14 @@
 Housing-Analysis
 =================
 
-This workflow reads in a housing Csv file, It then filter it to aggregate number of bedrooms with specific price ranges and then prints the results.
+This workflow reads in a multiple file available in a directory, It then filter it to aggregate number of bedrooms with specific price ranges and then prints the results.
 
 Workflow
 -------
 
 Below is the workflow. It does the following:
 
-* Reads data from a Csv file.
+* Reads multiple csv file in a directory.
 * Filter it to aggregate number of bedrooms with specific price ranges.
 * Prints the results.
 
@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads housing Csv files.
+It reads multiple csv files available in a directory.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -37,3 +37,9 @@ Processor Output
    :alt: Housing Analysis
    :align: center
    :width: 60%
+
+Filter its data
+^^^^^^^^^^^^^^^^
+It then filter it to aggregate number of bedrooms with specific price ranges
+
+

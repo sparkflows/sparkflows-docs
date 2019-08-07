@@ -9,7 +9,7 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads multiple csv file available in specific directory.
-* Filter it to aggregate number of bedrooms with specific price ranges.
+* Filter it to aggregate number of bedrooms with specific prices.
 * Prints the results.
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG

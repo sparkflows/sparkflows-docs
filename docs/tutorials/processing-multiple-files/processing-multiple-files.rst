@@ -62,7 +62,7 @@ Processor Output
 Print the results
 ------------------
 
-It will print the result with the output required after filter aggregations.
+It will print the results with the output required after filter aggregations.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

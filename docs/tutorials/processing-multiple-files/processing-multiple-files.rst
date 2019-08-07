@@ -17,10 +17,10 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
-Reading from Dataset
+Reading csv files
 ---------------------
 
-It reads multiple csv files available in specific directory.
+It reads multiple csv files available in specific directory using Readcsv processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

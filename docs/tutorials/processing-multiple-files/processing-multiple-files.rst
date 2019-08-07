@@ -39,7 +39,8 @@ Processor Output
    :width: 60%
 
 Filter its data
-^^^^^^^^^^^^^^^^
+----------------
+
 It then filter to aggregate number of bedrooms with specific prices using SQL processor.
 
 Processor Configuration

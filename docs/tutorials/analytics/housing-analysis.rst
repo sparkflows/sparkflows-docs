@@ -40,6 +40,25 @@ Processor Output
 
 Filter its data
 ^^^^^^^^^^^^^^^^
-It then filter it to aggregate number of bedrooms with specific price ranges
+It then filter it to aggregate number of bedrooms with specific price ranges using SQL processor.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/4.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/5.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%   
+   
+
+
 
 

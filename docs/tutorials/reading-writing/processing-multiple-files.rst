@@ -1,7 +1,7 @@
 processing-multiple-files
 =========================
 
-This workflow reads in multiple files available in specific directory, It then filter and aggregate number of bedrooms with specific prices and then print the results.
+This workflow reads in multiple files available in specific directory, It then filter and calculate number of bedrooms with specific prices and then print the results.
 
 Workflow
 -------
@@ -9,7 +9,7 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads multiple csv files available in specific directory.
-* Filter it to aggregate number of bedrooms with specific prices.
+* Filter it to calculate number of bedrooms with specific prices.
 * Print the results.
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG
@@ -41,7 +41,7 @@ Processor Output
 Filter its data
 ----------------
 
-It then filter to aggregate number of bedrooms with specific prices using SQL processor.
+It then filter to calculate number of bedrooms with specific prices using SQL processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

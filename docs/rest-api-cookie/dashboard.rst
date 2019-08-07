@@ -31,30 +31,41 @@ Set dashboardId value null to create new dashboard::
 Get Dashboard by Id
 -------------------
 
-* id:10(Url Parameter)
+* id:1(Url Parameter)
 
 ::
 
-    curl - X GET --header 'Accept: application/json' 'http://localhost:8080/dashboardById/10' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/dashboards?sortPara=dsc&projectId=1' -b /tmp/cookies.txt
 
 Get dashboard results
 ---------------------
 
-* dashboardId:10
+* dashboardId:1
 * sheetId:0
 
 ::
 
-    curl - X GET --header 'Accept: application/json' --header 'dashboardId: 10' --header 'sheetId: 0' 'http://localhost:8080/dashboardResult' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/dashboards/results?dashboardId=1&sheetId=0' -b /tmp/cookies.txt
+
+update dashboard
+-----------------
+
+* dashboardContent: abcd,
+* dashboardId: 1,
+
+::
+
+   curl -X PUT --header 'Content-Type: application/json' --header 'Accept: */*' -d 'abcd' 'http://localhost:8080/api/v1/dashboards/1'
 
 Delete Dashboard
 ----------------
 
-* id:9
+* dashboardId: 1,
+* projectId: 1,
 
 ::
  
-    curl -X GET --header 'Accept: /' --header 'id: 9' 'http://localhost:8080/deleteDashboard' -b /tmp/cookies.txt
+    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/dashboards/1?projectId=1' -b /tmp/cookies.txt
 
 
 

@@ -17,10 +17,10 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
-Reading csv files
+Reading CSV files
 ---------------------
 
-It reads multiple csv files available in specific directory using Readcsv processor.
+It reads multiple CSV files available in specific directory using ReadCSV processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

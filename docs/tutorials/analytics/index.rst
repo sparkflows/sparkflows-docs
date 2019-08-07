@@ -8,7 +8,6 @@ Analytics
    distribution-graphs.rst
    farmers-markets-on-geo-maps.rst
    general-payment-data-analysis.rst
-   housing-analysis.rst
    jetrail-data-annalysis.rst
    nyc-taxidata-annalysis.rst
    transaction-data-analytics.rst

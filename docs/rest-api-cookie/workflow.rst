@@ -16,7 +16,7 @@ Returns the list of workflows for the given application.
 
 ::
 
-curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows?projectId=1&sortPara=asc'
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows?projectId=1&sortPara=asc'
 
 Create / Save A Workflow
 ------------------------

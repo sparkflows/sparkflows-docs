@@ -1,7 +1,7 @@
 Housing-Analysis
 =================
 
-This workflow reads in a housing dataset,It then filter it to aggregate number of bedrooms with specific price ranges and then prints the results.
+This workflow reads in a housing dataset, It then filter it to aggregate number of bedrooms with specific price ranges and then prints the results.
 
 Workflow
 -------

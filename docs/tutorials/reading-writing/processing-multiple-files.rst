@@ -1,0 +1,81 @@
+processing-multiple-files
+=========================
+
+This workflow reads in multiple files available in specific directory, It then filter it to aggregate number of bedrooms with specific prices and then print the results.
+
+Workflow
+-------
+
+Below is the workflow. It does the following:
+
+* Reads multiple csv files available in specific directory.
+* Filter it to aggregate number of bedrooms with specific prices.
+* Print the results.
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%
+   
+Reading csv files
+---------------------
+
+It reads multiple csv files available in specific directory using Readcsv processor.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/8.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/3.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%
+
+Filter its data
+----------------
+
+It then filter to aggregate number of bedrooms with specific prices using SQL processor.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/4.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/5.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60%   
+   
+Print the results
+------------------
+
+It will print the results with the output required after filter aggregations.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/6.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60% 
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/7.PNG
+   :alt: Housing Analysis
+   :align: center
+   :width: 60% 

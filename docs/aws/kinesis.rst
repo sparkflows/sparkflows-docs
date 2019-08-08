@@ -12,6 +12,14 @@ Install AWS CLI::
 
   https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
   
+Create an access key and secret key
+----------------------------------
+
+Create an access key and secret key for the user (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey).
+
+*Note* It's important to regularly rotate your access and secret keys. See this documentation for more information (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console)
+
+
 Configure AWS CLI
 -----------
 

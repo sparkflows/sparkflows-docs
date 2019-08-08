@@ -7,10 +7,10 @@ Fire Insights integrates with EMR, S3, Redshift, SageMaker, HIVE and Kinesis.
 
 Fire Insights comes with a number of components including:
 
-- Workflow Editor : To create workflows for data processing, analytics and machine learning.
-- 260+ Processors : These include reading data from various stores, data processing, machine learning and visualizations.
-- Execution Engine : For executing the workflow on EMR
-- Scheduler : For scheduling running the workflows at certain time intervals
+- **Workflow Editor** : To create workflows for data processing, analytics and machine learning.
+- **260+ Processors** : These include reading data from various stores, data processing, machine learning and visualizations.
+- **Execution Engine** : For executing the workflow on EMR
+- **Scheduler** : For scheduling running the workflows at certain time intervals
 
 Sparkflows Fire Insights can be deployed to an existing Amazon EMR cluster, or you can use one of our CloudFormation templates to set up a new Amazon EMR Cluster. If you use our provided CloudFormation templates we'll create an EMR cluster for you or even an EMR cluster and MySQL instance running in RDS, depending on which template you choose.
 

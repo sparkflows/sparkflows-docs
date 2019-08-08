@@ -8,6 +8,7 @@ AWS Guide
    introduction.rst
    planning.rst
    running-on-emr.rst
+   test.rst
    operations.rst
    roles.rst
    s3-browser.rst

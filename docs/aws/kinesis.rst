@@ -39,6 +39,11 @@ Update EMR_EC2_Default_Role
 
 Update **EMR_EC2_DefaultRole** with **AmazonKinesisFullAccess** Policy so that our EMR Cluster would have full access to Kinesis.
 
+Or Create an IAM policy for accessing Amazon Kinesis
+---------------------------------------------------
+
+Create an IAM policy that defines what this user has access to in your AWS account.  It's important to only grant this user minimal access within your account. See this documentation for how to create IAM policies (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html).
+
 
 Create EMR Cluster with the above Role
 -----------

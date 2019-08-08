@@ -22,3 +22,11 @@ View the Sample Applications
 * If you loaded the Sample Applications during the deployment process you would see a number of Sample Applications listed.
 * Click on any of them to view their Datasets/Workflows etc.
 
+Execute a workflow on EMR
+------------------
+
+* From the Applications/Workflows page.
+* Click on the Execute icon next to any workflow
+* This will open up the Execute page.
+* Click on ``Execute`` to execute the workflow on the EMR cluster
+* The results of execution would get displayed on the page.

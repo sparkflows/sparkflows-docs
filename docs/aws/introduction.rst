@@ -22,6 +22,9 @@ Fire Insights needs EMR for running the workflows. So, you have to have a runnin
 
 You also need ssh access to one of the machines of the EMR cluster for installing Fire Insights. This machine is typically an edge node or a master node of the EMR cluster.
 
+* Getting started with EMR - https://aws.amazon.com/emr/getting-started/
+* Opening SSH access to the EMR master node - https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-connect-master-node-ssh.html
+
 
 Architecture
 ------------

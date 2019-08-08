@@ -23,7 +23,11 @@ SageMaker Processors include:
 
 * KMeansSageMakerEstimator
 * XGBoostSageMakerEstimator 
-
+* LDASageMakerEstimator
+* LinearLearnerBinaryClassifier
+* LinearLearnerRegressor
+* PCASageMakerEstimator
+* SaveSageMaker
 
 AWS Provided Policies
 -----

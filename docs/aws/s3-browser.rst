@@ -14,9 +14,6 @@ Install aws cli
 - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 - pip install awscli --upgrade --user
  
-.. figure:: ../_assets/tutorials/awscli/AWS1.PNG
-   :alt: awscli
-   :align: center
    
 Configure AWS
 -------------
@@ -42,6 +39,12 @@ Go to Fire-UI page and Dropdown databrowser there we have S3 Browser as a option
    :align: center
    
 - Click on AWS s3 then we will get File available in it.
+
+Protecting Data Using Server Side Encryption
+--------------
+
+Data encryption settings on S3 buckets: https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html
+
 
 .. figure:: ../_assets/tutorials/awscli/AWS4.PNG
    :alt: awscli

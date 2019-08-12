@@ -44,4 +44,13 @@ Install JDK 1.8
 .. note:: In order to connect Fire Insights to an Apache Spark cluster, it has to be installed on the edge node of the cluster. With the above steps, you would have Fire Insights running locally on your laptop.
 
 
+winutils.exe
+------------
+
+- Download winutils.exe, a Hadoop file.
+  - https://github.com/steveloughran/winutils
+  
+- Modify PATH environment variable so Windows can find winutils.exe
+
+
    

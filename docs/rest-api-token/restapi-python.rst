@@ -54,10 +54,11 @@ Get Processor Count
 
     print(api_call_response.text)
 
+
 After running above REST API using Python, got the results as below
 
 
-.. figure:: ../../_assets/tutorials/token/8.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/8.PNG
    :alt: REST API
    :align: center
    :width: 60%

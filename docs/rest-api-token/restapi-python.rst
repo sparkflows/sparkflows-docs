@@ -64,10 +64,10 @@ After running above REST API using Python, Will get the results as below
    :width: 60%
 
   
-Infer Cluster Configs
-----------------------
+Infer Cluster Configurations
+-----------------------------
 
-The below code in Python invokes the Fire Insights REST API to infer the cluster configs. It then saves the inferred cluster configs as updated values.
+The below code in Python invokes the Fire Insights REST API to infer the cluster configurations. It then saves the infer cluster configurations as updated values.
 
  ::
 

@@ -94,26 +94,6 @@ The below code in Python creates a new Workflow in the Project with id 1.
      print(resp)
 
 
-Infer Cluster Configs
-----------------------
 
-The below code in Python invokes the Fire Insights REST API to infer the cluster configs. It then saves the inferred cluster configs as updated values.
-
-.. code-block:: python
-   :linenos:
-
-   #!/usr/bin/python
-   
-   # This python script logs into an instance of sparkflows, and then gets the list of Processors/Operators supported
-
-   # -*- coding: utf-8 -*-
-   import json
-   import requests
-
-   payload = {'username':'admin', 'password':'admin'}
-
-   # login url
-   urllogin = 'http://localhost:8080/login'
-   
    
 

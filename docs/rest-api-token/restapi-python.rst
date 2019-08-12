@@ -56,6 +56,7 @@ Get Processor Count
 
 After running above REST API using Python, got the results as below
 
+
 .. figure:: ../../_assets/tutorials/token/8.PNG
    :alt: REST API
    :align: center

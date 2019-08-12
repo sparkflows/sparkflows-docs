@@ -54,7 +54,6 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 
     print(api_call_response.text)
 
-  ::
 
 
 After running above REST API code using Python, Will get the results as below
@@ -71,7 +70,7 @@ Infer Cluster Configurations
 
 The below code in Python invokes the Fire Insights REST API to infer the cluster configurations. It then saves the infer cluster configurations as updated values.
 
- ::
+::
 
    #!/usr/bin/python
 
@@ -125,7 +124,6 @@ The below code in Python invokes the Fire Insights REST API to infer the cluster
 
    print(" configuration after save : "+save_configuration_api_response.text)
  
-:: 
    
 After running above REST API code using Python, Will get the results as below
 

@@ -65,10 +65,10 @@ After running above REST API code using Python, Will get the results as below
    :width: 60%
 
   
-Infer Cluster Configurations
+Infer Hadoop Cluster Configurations
 -----------------------------
 
-The below code in Python invokes the Fire Insights REST API to infer the cluster configurations. It then saves the infer cluster configurations as updated values.
+The below code in Python invokes the Fire Insights REST API to infer Hadoop cluster configurations. It then saves the infer cluster Hadoop configurations as updated values.
 
 ::
 

@@ -56,10 +56,9 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 
 
 After running above REST API using Python, Will get the results as below
-------------------------------------------------------------------------
 
 
-.. figure:: ../../_assets/tutorials/token/8.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/8.PNG
    :alt: REST API
    :align: center
    :width: 60%

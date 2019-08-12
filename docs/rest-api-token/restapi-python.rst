@@ -60,7 +60,7 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 After running above REST API code using Python, Will get the results as below
 
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
+ .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
    :alt: REST API
    :align: center
    :width: 60%
@@ -129,7 +129,7 @@ The below code in Python invokes the Fire Insights REST API to infer the cluster
    
 After running above REST API code using Python, Will get the results as below
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
+ .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
    :alt: REST API
    :align: center
    :width: 60%

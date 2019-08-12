@@ -3,6 +3,8 @@ Accessing REST API using Python
 
 Below are examples of Python code for accessing the Fire REST API using Python.
 
+It is used to get processor count with below REST API using Python.
+
 Get Processor Count
 --------------------
 
@@ -51,7 +53,14 @@ Get Processor Count
     api_call_response = requests.get(processor_count_api_url, headers=api_call_headers, verify=False)
 
     print(api_call_response.text)
-  
+
+After running above REST API using Python, got the results as below
+
+.. figure:: ../../_assets/tutorials/token/8.PNG
+   :alt: REST API
+   :align: center
+   :width: 60%
+
   
 Infer Cluster Configs
 ----------------------

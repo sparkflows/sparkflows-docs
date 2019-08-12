@@ -3,7 +3,7 @@ Creating New Datasets
  
 You can define a New Dataset by clicking on the ``Create Dataset`` button.
 
-.. figure:: ../../_assets/tutorials/dataset/8.PNG
+.. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
    :align: center
    :width: 60%

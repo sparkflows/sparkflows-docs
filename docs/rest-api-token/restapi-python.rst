@@ -3,10 +3,10 @@ Accessing REST API using Python
 
 Below are examples of Python code for accessing the Fire REST API using Python.
 
-It is used to get processor count with below REST API using Python.
-
 Get Processor Count
 --------------------
+
+The below code in Python invokes the Fire Insights REST API to calculate number of processors list available in Fire Insight.
 
   ::
     
@@ -123,4 +123,11 @@ The below code in Python invokes the Fire Insights REST API to infer the cluster
 
    print(" configuration after save : "+save_configuration_api_response.text)
    
+   
+After running above REST API using Python, gettingt the results as below   
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
+   :alt: REST API
+   :align: center
+   :width: 60%
    

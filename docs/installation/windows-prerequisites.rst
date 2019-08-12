@@ -48,7 +48,7 @@ winutils.exe
 ------------
 
 - Download winutils.exe, a Hadoop file.
-  - https://github.com/steveloughran/winutils
+    - https://github.com/steveloughran/winutils
   
 - Modify PATH environment variable so Windows can find winutils.exe
 

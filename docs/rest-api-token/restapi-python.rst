@@ -20,7 +20,7 @@ Get Processor Count
 
     processor_count_api_url = "http://localhost:8080/getNodeCount" # processor list count api of sparkflows
 
-    Step A - resource owner supplies credentials
+    #Step A - resource owner supplies credentials
     #Resource owner (enduser) credentials
 
     RO_user = 'admin'

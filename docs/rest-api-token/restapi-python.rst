@@ -55,7 +55,7 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
     print(api_call_response.text)
 
 
-After running above REST API using Python, got the results as below
+After running above REST API using Python, Will get the results as below
 
 
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/8.PNG
@@ -124,7 +124,7 @@ The below code in Python invokes the Fire Insights REST API to infer the cluster
    print(" configuration after save : "+save_configuration_api_response.text)
    
    
-After running above REST API using Python, gettingt the results as below   
+After running above REST API using Python, Will get the results as below
 
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/tutorials/token/9.PNG
    :alt: REST API

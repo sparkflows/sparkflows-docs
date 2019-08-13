@@ -47,7 +47,8 @@ Install JDK 1.8
 winutils.exe
 ------------
 
-- Download winutils.exe, a Hadoop file.
+- Download winutils.exe, a Hadoop file. It is needed for running Apache Spark/Hadoop on windows machines.
+
     - https://github.com/steveloughran/winutils
   
 - Modify PATH environment variable so Windows can find winutils.exe

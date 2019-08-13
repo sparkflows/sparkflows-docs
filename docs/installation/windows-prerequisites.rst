@@ -1,5 +1,5 @@
 Windows Installation Prerequisites
-+++++++++++++
+====================
 
 Below are the Prerequisites for installing Fire Insights on a windows machine::
 
@@ -65,7 +65,7 @@ If you run into an exception like below when saving files
 **Solution**
 
 
-- Download the file winutils.exe
+- Download the file winutils.exe from https://github.com/steveloughran/winutils
 
 - Create hadoop folder in Your System ex " C:"
 

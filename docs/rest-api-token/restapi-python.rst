@@ -127,7 +127,7 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop clus
    
 After running above REST API code using Python, Will get the results as below
 
-.. figure:: ../_assets/tutorials/token/9.PNG
+.. figure:: ../_assets/tutorials/token/10.PNG
    :alt: REST API
    :align: center
    :width: 60%

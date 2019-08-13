@@ -120,7 +120,7 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop clus
 
    #save the hadoop configuration
 
-   save_configuration_api_response = requests.post(save_configuration_api_url,infer_configuration_api_response, headers=api_call_headers, verify=False)
+   save_configuration_api_response = requests.post(save_configuration_api_url,json=infer_configuration_api_response.json(), headers=api_call_headers, verify=False)
 
    print(" configuration after save : "+save_configuration_api_response.text)
  

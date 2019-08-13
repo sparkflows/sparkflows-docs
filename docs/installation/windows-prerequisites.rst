@@ -54,4 +54,27 @@ winutils.exe
 - Modify PATH environment variable so Windows can find winutils.exe
 
 
-   
+Troubleshooting
+---------------
+
+If you run into an exception like below when saving files
+++++++++++++++++++++++++++++
+
+    org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 33.0 failed 1 times, most recent failure: Lost task 1.0 in stage 33.0 (TID 131, localhost): java.io.IOException: (null) entry in command string: null chmod 0644 
+    
+**Solution**
+
+
+- Download the file winutils.exe
+
+- Create hadoop folder in Your System ex " C:"
+
+- Create bin folder in hadoop directory ex : C:\hadoop\bin
+
+- Paste winutils.exe in bin ex: C:\hadoop\bin\winuitls.exe
+
+- In User Variables in System Properties -> Advanced System Settings
+
+    - Create New Variable Name: HADOOP_HOME Path: C:\hadoop\
+
+

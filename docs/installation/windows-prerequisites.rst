@@ -64,16 +64,17 @@ If you run into an exception like below when saving files
     
 **Solution**
 
+Follow the steps below in case you run into the above::
 
-- Download the file winutils.exe from https://github.com/steveloughran/winutils
+  - Download the file winutils.exe from https://github.com/steveloughran/winutils
 
-- Create hadoop folder in Your System ex " C:"
+  - Create hadoop folder in Your System ex " C:"
 
-- Create bin folder in hadoop directory ex : C:\hadoop\bin
+  - Create bin folder in hadoop directory ex : C:\hadoop\bin
 
-- Paste winutils.exe in bin ex: C:\hadoop\bin\winuitls.exe
+  - Paste winutils.exe in bin ex: C:\hadoop\bin\winuitls.exe
 
-- In User Variables in System Properties -> Advanced System Settings
+  - In User Variables in System Properties -> Advanced System Settings
 
     - Create New Variable Name: HADOOP_HOME Path: C:\hadoop\
 

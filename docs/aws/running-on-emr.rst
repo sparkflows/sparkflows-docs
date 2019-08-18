@@ -97,7 +97,7 @@ Loading Example Workflows
     cd <fire install_dir>
     hadoop fs -put data /tmp
     
-Runnng Example Workflows
+Running Example Workflows
 ------------------------
 
 * Logout from the current session and login again with the 'hadoop' user    

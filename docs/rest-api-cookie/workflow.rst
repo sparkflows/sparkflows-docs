@@ -10,13 +10,13 @@ They should be executed after you have logged into Sparkflows
 Get List of workflows
 ---------------------
 
-Returns the list of workflows for the logged in user.
+Returns the list of workflows for the given application.
 
 * Header: sortPara:asc/desc.
 
 ::
 
-    curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "sortPara:desc" -X GET -b /tmp/cookies.txt localhost:8080/workflowsJSON
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows?projectId=1&sortPara=asc'
 
 Create / Save A Workflow
 ------------------------
@@ -27,7 +27,7 @@ For creating new Workflow set analysisFlowId = null
 
 ::
 
-    curl -v -i -H "Accept:application/json" -H "Content-Type: application/json" -H "analysisFlowId:null" -X POST -b /tmp/cookies.txt -d '{"name": "Workflow123","uuid": "","category": null,"description": null,"nodes": [],"edges": []}' localhost:8080/saveWorkflow
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d '{"name": "Workflow123","uuid": "","category": null,"description": null,"nodes": [],"edges": []}' 'http://localhost:8080/api/v1/workflows'
     
     
 Delete the workflow
@@ -39,16 +39,17 @@ Deletes a workflow with the given id.
 
 ::
 
-    curl -X GET --header 'Accept: text/html' --header 'analysisFlowId: 1' 'http://localhost:8080/deleteWorkflow' -b /tmp/cookies.txt
+    curl -X DELETE --header 'Accept: text/plain' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/id/1'
 
 Execute Workflow Locally Synchronous
 ------------------------------------
 
 * nodeId : 1
+* projectId : 1
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/executeWorkflowLocallySynchronous' -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d '{"name":"SQL","nodes":[],"edges":[]}' 'http://localhost:8080/api/v1/workflows/nodes/1/execute?projectId=1'
 
 
 Get Latest WorkFlows
@@ -56,7 +57,7 @@ Get Latest WorkFlows
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getLatestWorkflows' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/latest'
 
 
 Get the value of a given field in a Node of a Workflow
@@ -74,7 +75,7 @@ Get Workflow Count
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/getWorkflowCount' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/count'
 
 
 Load Example Datasets And Workflows
@@ -82,7 +83,7 @@ Load Example Datasets And Workflows
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/loadExampleDatasetAndWorkflow' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: text/plain' --header 'api_key: cookies' 'http://localhost:8080/api/v1/apps/example-datasets-and-workflows/load'
 
 
 Get the updated values for a node in the workflow
@@ -110,7 +111,7 @@ Get the workflow versions
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'analysisflowId: 1' 'http://localhost:8080/retrieveWorkflowVersions' -b /tmp/cookies.txt 
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/versions?workflowId=1'
 
 
 
@@ -121,8 +122,8 @@ Get input schema For a Node
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
-' 'http://localhost:8080/schemaForNodeJSON' -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d  '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/api/v1/nodes/2/schema/input?projectId=1'
 
 
 Get output schema of a Node
@@ -132,8 +133,8 @@ Get output schema of a Node
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 1' -d '{"name":"string","nodes":[],"edges":[]}
-' 'http://localhost:8080/schemaOutputForNodeJSON' -b /tmp/cookies.txt
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/api/v1/nodes/2/schema/output?projectId=3'
 
 Get workflow by Id
 ------------------
@@ -142,5 +143,5 @@ Get workflow by Id
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://localhost:8080/workflowById/1' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/id/1'
 

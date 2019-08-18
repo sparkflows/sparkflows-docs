@@ -13,6 +13,7 @@ Tutorials
    nlp/index.rst
    streaming/index.rst
    ocr/index.rst
+   rest-api/index.rst
    
    
    

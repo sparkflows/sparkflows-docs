@@ -1,4 +1,4 @@
-REST API with Python
+Accessing REST API using Python
 ==================
 
 Fire Insights REST API's can be accessed with Python. This page provides 2 examples of accessing the REST API's with Python.
@@ -6,6 +6,8 @@ Fire Insights REST API's can be accessed with Python. This page provides 2 examp
 
 Get List of Processors
 ----------------------
+
+The below code in Python gets the list of Processors in Fire Insights using the REST API and prints them.
 
 .. code-block:: python
    :linenos:
@@ -47,7 +49,7 @@ Create a New Workflow
 
 The Workflow JSON is saved in a file called ``workflow.json``.
 
-It creates a new Workflow in the Project with id 1.
+The below code in Python creates a new Workflow in the Project with id 1.
 
 
 .. code-block:: python
@@ -90,6 +92,7 @@ It creates a new Workflow in the Project with id 1.
      resp = s.post(urlsaveworkflow, data=workflow, headers=headers)
 
      print(resp)
+
 
 
    

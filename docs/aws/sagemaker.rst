@@ -23,7 +23,11 @@ SageMaker Processors include:
 
 * KMeansSageMakerEstimator
 * XGBoostSageMakerEstimator 
-
+* LDASageMakerEstimator
+* LinearLearnerBinaryClassifier
+* LinearLearnerRegressor
+* PCASageMakerEstimator
+* SaveSageMaker
 
 AWS Provided Policies
 -----
@@ -61,6 +65,8 @@ AWS has various instance types:
 * c : Compute Instances
 * r : Memory Optimized Instances
 * m : General Instances
+
+Amazon SageMaker Instance Types details are here : https://aws.amazon.com/sagemaker/pricing/instance-types/
 
 
 Dataset Column Names for Training with Sagemaker

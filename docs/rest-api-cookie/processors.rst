@@ -16,7 +16,7 @@ Get List of available Processors
 
 It gets the list of available Processors::
 
-  curl -i --header "Accept:application/json" -X GET -b /tmp/cookies.txt localhost:8080/nodeList
+  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
 
 Get details of a given Processor 
@@ -24,8 +24,7 @@ Get details of a given Processor
  
 The below gets the details of the Processor 'ApacheLogs'::
  
- 
-  curl -i --header "Accept:application/json" -H "Content-Type:application/json" -H "name:ApacheLogs" -X GET -X GET -b /tmp/cookies.txt localhost:8080/getSelNode
+  curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/nodes/names/{name}' -b /tmp/cookies.txt
 
 Get list of Node Rules
 ----------------------
@@ -33,11 +32,11 @@ Get list of Node Rules
 This provides the rules associated with the nodes::
  
  
-  curl -X GET --header 'Accept: application/json' -b /tmp/cookies.txt  localhost:8080/nodeRules
+  curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
 
 Get Node Count
 --------------
 
 This gets the count of the Processors::
  
-   curl -X GET --header 'Accept: application/json'   http://localhost:8080/getNodeCount   -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt

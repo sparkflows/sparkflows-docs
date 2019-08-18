@@ -6,7 +6,6 @@ Stop Fire if it is running
 
 Stop Fire with the below command from the directory in which it is installed::
 
-    run-fire.sh stop
     run-fire-server.sh stop
 
 
@@ -47,5 +46,4 @@ Restart Fire
 
 Restart the Fire Server::
 
-  run-fire.sh start
   run-fire-server.sh start

@@ -1,4 +1,4 @@
-REST API using tokens
+REST API using Tokens
 ==========
 
 Sparkflows provides REST API for interacting with it.

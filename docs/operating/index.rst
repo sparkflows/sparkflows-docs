@@ -13,5 +13,6 @@ Operating Guide
    installing-opennlp.rst
    opennlp.rst
    jupyter.rst
+   cleaning-h2db.rst
 
 

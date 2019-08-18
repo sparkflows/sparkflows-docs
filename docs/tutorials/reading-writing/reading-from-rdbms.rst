@@ -69,6 +69,14 @@ JDBC Drivers
 Below are the JDBC URL's for some databases:
 
 * MySQL : com.mysql.jdbc.Driver
-* Postgres : org.postgresql.Driver
+* PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
+
+Example JDBC URL
+----------------
+
+Below are some example JDBC URL for reading from Relational sources:
+
+* MySQL : jdbc:mysql://localhost:3306/mydb
+* PostgreSQL : jdbc:postgresql://localhost:5432/mydb
 

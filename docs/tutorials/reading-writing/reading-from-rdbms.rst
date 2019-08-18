@@ -23,7 +23,7 @@ Below is a workflow which reads data from MySQL and saves to a CSV file. It read
 JDBC Processor Configuration
 ----------------------------
 
-Below are the configuration details of the JDBC Processor. It uses the `root` user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the tables in MySQL and populates the entries.
+Below are the configuration details of the JDBC Processor. It uses the provided user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table in MySQL and populates the entries.
 
 .. figure:: ../../_assets/user-guide/jdbc-dialog.png
    :scale: 50%

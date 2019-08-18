@@ -6,6 +6,7 @@ Reading - Writing Data
 
    reading-csv.rst
    reading-parquet.rst
+   reading-from-rdbms.rst
    reading-mysql.rst
    elasticsearch.rst
    writing-hive.rst

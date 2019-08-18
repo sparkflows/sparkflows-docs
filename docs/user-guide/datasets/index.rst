@@ -30,6 +30,5 @@ When you open any application, all existing Datasets specific to the application
    :maxdepth: 2
 
    creating-datasets.rst
-   reading-from-rdbms.rst
    
    

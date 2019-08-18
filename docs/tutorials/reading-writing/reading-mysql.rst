@@ -1,4 +1,4 @@
-Reading MySQL
+MySQL Dataset
 ============
 
 When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.

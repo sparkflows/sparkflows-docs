@@ -63,3 +63,12 @@ Above we have specified a subquery which selects only the ‘first_name’ from 
    :align: center
    
 
+JDBC Drivers
+-------
+
+Below are the JDBC URL's for some databases:
+
+* MySQL : com.mysql.jdbc.Driver
+* Postgres : org.postgresql.Driver
+* Oracle : oracle.jdbc.driver.OracleDriver
+

@@ -1,4 +1,4 @@
-REST API Reference
+REST API Authentication
 ==========
 
 Sparkflows provides REST API for interacting with it.

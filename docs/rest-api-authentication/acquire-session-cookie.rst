@@ -1,4 +1,4 @@
-Acquire Session Cookie
+Acquire Session Cookie Using CURL
 ==================
 
 When invoking the REST API's of Fire Insights with curl, the first step is to log in and save the incoming cooking into a text file. This file would then be used in making subsequent REST calls.

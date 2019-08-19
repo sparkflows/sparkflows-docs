@@ -1,4 +1,4 @@
-REST API Examples using Cookies
+REST API Examples using curl
 ==========
 
 Sparkflows provides REST API for interacting with it.

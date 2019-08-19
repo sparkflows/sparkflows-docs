@@ -14,5 +14,6 @@ You can also log in with your username/password, get a session cookie, store it 
 .. toctree::
    :maxdepth: 2
 
+   login.rst
    restapi-postman.rst
 

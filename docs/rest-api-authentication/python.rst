@@ -1,4 +1,4 @@
-Acquire Session Cooking in Python
+Acquire Session Cookie in Python
 ==================
 
 Fire Insights REST API's can be accessed with Python. Session Cookie can be acquired using username and password and used in the subsequent calls.

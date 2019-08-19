@@ -10,6 +10,6 @@ Swagger is also enabled and is available at http://<machine-name>:8080/swagger-u
 .. toctree::
    :maxdepth: 2
 
-   python.rst
-   restapi-python.rst
-   restapi-postman.rst
+   python-session.rst	
+   python-token.rst
+

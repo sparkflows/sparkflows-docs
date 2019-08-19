@@ -60,3 +60,21 @@ Oracle
 - Oracle JDBC drivers can be downloaded from : https://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
 
 
+JDBC Drivers
+-------
+
+When using the JDBC processors, the following can be used for the JDBC Driver. Below are the JDBC URL's for some databases:
+
+* MySQL : com.mysql.jdbc.Driver
+* PostgreSQL : org.postgresql.Driver
+* Oracle : oracle.jdbc.driver.OracleDriver
+
+Example JDBC URL
+----------------
+
+Below are some example JDBC URL for reading from Relational sources when using the JDBC Processors:
+
+* MySQL : jdbc:mysql://localhost:3306/mydb
+* PostgreSQL : jdbc:postgresql://localhost:5432/mydb
+
+

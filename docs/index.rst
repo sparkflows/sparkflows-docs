@@ -151,6 +151,14 @@ Release Notes
 
    release-notes/index     
 
+REST API Authentication
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   rest-api-authentication/index 
+
 REST API's using Python
 ----------
 

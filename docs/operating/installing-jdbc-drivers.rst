@@ -32,16 +32,31 @@ Stop the running Fire processes with ``./run-fire.sh stop``
 They will be restarted automatically.
 
 
-Downloading MySQL Connector
+Running Workflows depending on the jars added
 ---------------------------
+
+When running workflows which depend on the jar file, select the checkbox for that jar file in the Workflow Execution Page. 
+
+Downloading the JDBC jar files
+---------------------------
+
+MySQL
++++++
+
 
 - MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/
 - After downloading untar it with : ``tar xvf mysql-connector-java-5.1.46.tar.gz`` 
 - After untaring the jdbc jar file is available in the directory
 - Use the jar file (mysql-connector-java-5.1.46.jar) for installation in Fire
 
-Running Workflows depending on the jars added
----------------------------
+PostgreSQL
+++++++++++
 
-When running workflows which depend on the jar file, select the checkbox for that jar file in the Workflow Execution Page. 
+- PostgresSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download.html
+
+Oracle
+++++++
+
+- Oracle JDBC drivers can be downloaded from : https://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
+
 

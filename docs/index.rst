@@ -173,7 +173,7 @@ REST API's Reference
 .. toctree::
    :maxdepth: 2
 
-   rest-api-referece/index 
+   rest-api-reference/index 
 
 Indices and tables
 ------------------

@@ -165,7 +165,7 @@ REST API's using Cookie
 .. toctree::
    :maxdepth: 2
 
-   rest-api-cookie/index 
+   rest-api-curl/index 
    
 Indices and tables
 ------------------

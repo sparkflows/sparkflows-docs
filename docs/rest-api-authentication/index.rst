@@ -16,5 +16,6 @@ You can also log in with your username/password, get a session cookie, store it 
 
    acquire-session-cookie.rst
    restapi-postman.rst
-   python.rst
+   python-session-cookie.rst
+   python-token.rst
 

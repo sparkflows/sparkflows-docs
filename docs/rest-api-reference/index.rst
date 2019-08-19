@@ -1,4 +1,4 @@
-REST API Examples using curl
+REST API Reference
 ==========
 
 Sparkflows provides REST API for interacting with it.

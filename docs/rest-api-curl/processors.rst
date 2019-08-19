@@ -4,11 +4,11 @@ Processors REST API's
 Overview
 --------
 
-The Processors REST API's, allow you to get the list of available Processors and details regarding each Processor
+The Processors REST API's, allow you to get the list of available Processors and details regarding each Processor.
 
-Below are the various Processor API's available in Sparkflows
+Below are the various Processor API's available in Sparkflows.
 
-They should be executed after you have logged into Sparkflows
+They should be executed after you have logged into Sparkflows. Use the -b option to use the cookies previously saved.
 
 
 Get List of available Processors

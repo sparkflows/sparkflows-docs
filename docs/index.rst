@@ -151,15 +151,15 @@ Release Notes
 
    release-notes/index     
 
-REST API's using Tokens
+REST API's using Python
 ----------
 
 .. toctree::
    :maxdepth: 2
 
-   rest-api-token/index 
+   rest-api-python/index 
    
-REST API's using Cookie
+REST API's using curl
 ----------
 
 .. toctree::

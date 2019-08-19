@@ -5,11 +5,14 @@ Sparkflows provides REST API for interacting with it.
 
 Swagger is also enabled and is available at http://<machine-name>:8080/swagger-ui.html
 
-There are various categories of REST API's available. This document describes the details of the various REST API's in Fire Insights.
+To authenticate and access Fire Insights REST APIs, you can use personal access tokens or passwords. We strongly recommend that you use tokens. Like passwords, tokens should be treated with care. Unlike passwords, tokens expire and can be revoked.
 
+Tokens can be generated using Postman.
+
+You can also log in with your username/password, get a session cookie, store it into a file and use it in subsequent requests.
 
 .. toctree::
    :maxdepth: 2
 
-   workflow.rst
+   restapi-postman.rst
 

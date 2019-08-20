@@ -5,6 +5,6 @@ Visualizations
 .. toctree::
    :maxdepth: 2
 
-   visualizations.rst
+   visualization-processors.rst
    working-with-dashboards.rst
 

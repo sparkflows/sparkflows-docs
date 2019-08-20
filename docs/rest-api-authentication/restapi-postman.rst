@@ -21,19 +21,16 @@ Post Request
 The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
 
 
-- http://localhost:8080/oauth/token?grant_type=password&username=<username>&password=<password> 
-
+- URL: http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password> 
+  
+  Update the username and password in URL and use as request header.
 
 Click on Authorization tab and select type - Basic
 ==================================================
 
 Basic Auth is an authorization type that requires a verified username and password to access a data resource.
 
- 
-Fill username (clientId) and password (secret key) in request headers:
-
-- Client Id = sparkflows
-- Secret – (****)  
+Use default Username sparkflows and Password secret for client authentication.
 
 Example
 ===========

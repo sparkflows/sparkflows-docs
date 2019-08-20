@@ -1,4 +1,4 @@
-Overview
+Visualization Processors
 ==============
 
 There are a number of Nodes/Processors in Fire which produce rich visualizations.
@@ -15,5 +15,5 @@ Visualization Processors include:
 * Yearly Distribution
 * Heatmaps
 * Tables
-* 
+
 

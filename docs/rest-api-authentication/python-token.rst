@@ -1,5 +1,5 @@
-Acquire Token in Python Program
-====================================
+Acquire Token in Python
+========================
 
 Below are examples of Python code for accessing the Fire REST API using Python.
 

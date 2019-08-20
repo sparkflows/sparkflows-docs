@@ -7,9 +7,13 @@ These Processors can be added to any workflow and are applied to the data.
 
 Visualization Processors include:
 
-* Graphs
+* Graph Values
 * Geo
+* Group by Column
+* Weekday Distribution
+* Monthly Distribution
+* Yearly Distribution
 * Heatmaps
 * Tables
-* Forest
+* 
 

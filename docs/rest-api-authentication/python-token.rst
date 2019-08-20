@@ -18,9 +18,9 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 
     import getpass
 
-    token_url = "http://localhost:8080/oauth/token"
+    token_url = "http://hostname:8080/oauth/token"
 
-    processor_count_api_url = "http://localhost:8080/getNodeCount" # processor list count api of sparkflows
+    processor_count_api_url = "http://hostname:8080/getNodeCount" # processor list count api of sparkflows
 
     #Step A - resource owner supplies credentials
     #Resource owner (enduser) credentials
@@ -78,11 +78,11 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop clus
 
    import json
 
-   token_url = "http://localhost:8080/oauth/token"
+   token_url = "http://hostname:8080/oauth/token"
 
-   infer_configuration_api_url = "http://localhost:8080/api/v1/configurations/infer"
+   infer_configuration_api_url = "http://hostname:8080/api/v1/configurations/infer"
 
-   save_configuration_api_url = "http://localhost:8080/api/v1/configurations"
+   save_configuration_api_url = "http://hostname:8080/api/v1/configurations"
 
    #Step A - resource owner supplies credentials
    #Resource owner (enduser) credentials

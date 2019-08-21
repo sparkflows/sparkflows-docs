@@ -1,4 +1,4 @@
-Acquire Token using Postman
+Acquire Token using Postman and Grant Type - Password
 ++++++++++++++++++++++++++++++++++++++
 
 This document describes the steps to obtain and use OAuth 2.0 access tokens using Postman.
@@ -10,8 +10,8 @@ Fire supports two grant types for retrieving the access token:
 - Grant Types – Password
 - Grant Types – Authorization code
 
-Acquire Token using Grant Type – Password
----------------------------
+Overview of Grant Type – Password
+=====================
 
 The Password grant is used when the application presents a traditional username and password login form to collect the user’s credentials and makes a POST request to the server to exchange the password for an access token. The POST request that the application makes looks like the example below.
 

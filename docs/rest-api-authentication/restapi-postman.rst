@@ -1,7 +1,7 @@
 Acquire Token using Postman
 ++++++++++++++++++++++++++++++++++++++
 
-This document illustrates the interaction necessary to obtain and use OAuth 2.0 access tokens using Postman.
+This document describes the steps to obtain and use OAuth 2.0 access tokens using Postman.
 
 Grants are at the heart of OAuth 2.0. Each grant defines one way for a client to retrieve an authorization.
 
@@ -10,13 +10,13 @@ Fire supports two grant types for retrieving the access token:
 - Grant Types – Password
 - Grant Types – Authorization code
 
-Using Grant Type – Password
+Acquire Token using Grant Type – Password
 ---------------------------
 
 The Password grant is used when the application presents a traditional username and password login form to collect the user’s credentials and makes a POST request to the server to exchange the password for an access token. The POST request that the application makes looks like the example below.
 
-Post Request
-==============
+Form the Post Request
+=====================
 
 The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
 
@@ -30,7 +30,7 @@ Click on Authorization tab and select type - Basic
 
 Basic Auth is an authorization type that requires a verified username and password to access a data resource.
 
-Use default Username sparkflows and Password secret for client authentication.
+Use default username ``sparkflows`` and Password ``secret`` for client authentication.
 
 Example
 ===========
@@ -51,7 +51,7 @@ An Access Token is a credential that can be used by an application to access an 
    :width: 60%
    
    
-Using Grant type - Authorization code
+Acquire token using Grant type - Authorization code
 -------------------------------------
 
 The Authorization Code grant type is used to exchange an authorization code for an access token.

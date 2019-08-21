@@ -24,11 +24,11 @@ The POST Request method requests that a web server accepts the data enclosed in 
    :widths: 10 20 40
    :header-rows: 1
 
-* - Title
-  - URL
+   * - Title
+     - URL
 
-* - POST
-  - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
+   * - POST
+     - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
   
   Update the username and password in URL and use as request header.
 

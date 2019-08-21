@@ -54,7 +54,7 @@ A security token (sometimes called an authentication token) is a small hardware 
 Using tokens for accessing REST API
 ===================================
 
-Using above token we can Access the REST API.
+Using above token we can access the REST API.
 
 .. figure:: ../_assets/tutorials/token/token7.PNG
    :alt: Token

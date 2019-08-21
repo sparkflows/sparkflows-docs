@@ -1,10 +1,20 @@
 REST API Examples using curl
 ==========
 
-Sparkflows provides REST API for interacting with it.
+This topic contains a range of examples that demonstrate how to use the Fire Insights API.
 
 Below are examples using CURL. The first step is to log in with your username and password and acquire the session id.
 
+.. list-table:: Below are the Relevant Examples
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Title
+     - URL
+     
+   * - CURL Tutorial
+     - https://curl.haxx.se/docs/manual.html
+     
 CURL Tutorial : https://curl.haxx.se/docs/manual.html
 
 Swagger is also enabled and is available at http://<machine-name>:8080/swagger-ui.html

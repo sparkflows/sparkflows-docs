@@ -30,7 +30,7 @@ The POST Request method requests that a web server accepts the data enclosed in 
    * - POST
      - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
   
-  Update the username and password in URL and use as request header.
+Update the username and password in URL and use as request header.
 
 Click on Authorization tab and select Type - Basic Auth
 ==================================================

@@ -8,7 +8,9 @@ Below are examples using CURL. The first step is to log in with your username an
 .. list-table:: Below are the Tutorial Examples URL
    :widths: 10 40
    :header-rows: 1
-       
+   
+   * - Title
+     - URL
    * - CURL Tutorial
      - https://curl.haxx.se/docs/manual.html
      
@@ -19,6 +21,8 @@ Swagger is also enabled and is available at Below URL
    :widths: 10 40
    :header-rows: 1
    
+    * - Title
+      - URL
    * - Swagger
      - http://<machine-name>:8080/swagger-ui.html
 

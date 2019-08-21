@@ -1,4 +1,4 @@
-Acquire Token in Python
+Acquire Token in Python - Grant Type Password
 ========================
 
 Below are examples of Python code for accessing the Fire REST API using Python.

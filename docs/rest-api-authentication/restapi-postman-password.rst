@@ -21,12 +21,12 @@ Form the Post Request
 The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
 
 .. list-table:: Below are the Relevant Files
-   :widths: 10 20 40
+   :widths: 10 40
    :header-rows: 1
 
    * - Title
      - URL
-
+     
    * - POST
      - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
   

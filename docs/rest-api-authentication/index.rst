@@ -15,8 +15,8 @@ You can also log in with your username/password, get a session cookie, store it 
    :maxdepth: 2
 
    acquire-session-cookie.rst
+   python-session-cookie.rst
    acquire-token-curl.rst
    restapi-postman.rst
-   python-session-cookie.rst
    python-token.rst
 

@@ -7,7 +7,9 @@ Fire Insights REST API's can be accessed with Python. Session Cookie can be acqu
 Get List of Processors
 ----------------------
 
-The below code in Python gets the list of Processors in Fire Insights using the REST API and prints them.
+The below code in Python logs in the user and acquires the session cookie via the Fire Insights REST API.
+
+It then gets the list of Processors in Fire Insights using the REST API and prints them.
 
 .. code-block:: python
    :linenos:

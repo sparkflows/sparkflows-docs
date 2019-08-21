@@ -20,8 +20,11 @@ Form the Post Request
 
 The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
 
+* - Title
+  - URL
 
-- URL: http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password> 
+* - POST
+  - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
   
   Update the username and password in URL and use as request header.
 

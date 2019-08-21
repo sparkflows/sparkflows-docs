@@ -20,7 +20,7 @@ Form the Post Request
 
 The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
 
-.. list-table:: Below are the Relevant Files
+.. list-table:: Below are the Relevant Request
    :widths: 10 40
    :header-rows: 1
 

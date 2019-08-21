@@ -9,7 +9,7 @@ Below are examples using CURL. The first step is to log in with your username an
    :widths: 10 40
    :header-rows: 1
        
-    * - CURL Tutorial
+   * - CURL Tutorial
      - https://curl.haxx.se/docs/manual.html
      
 
@@ -19,7 +19,7 @@ Swagger is also enabled and is available at Below URL
    :widths: 10 40
    :header-rows: 1
    
-    * - Swagger
+   * - Swagger
      - http://<machine-name>:8080/swagger-ui.html
 
 There are various categories of REST API's available:

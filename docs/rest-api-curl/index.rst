@@ -5,6 +5,7 @@ This topic contains a range of examples that demonstrate how to use the Fire Ins
 
 Below are examples using CURL. The first step is to log in with your username and password and acquire the session id.
 
+
 .. list-table:: Below are the Relevant Examples
    :widths: 10 40
    :header-rows: 1
@@ -18,6 +19,7 @@ Below are examples using CURL. The first step is to log in with your username an
 
 
 Swagger is also enabled and is available at Below URL 
+
 
 .. list-table:: Below are the Swagger URL
    :widths: 10 40

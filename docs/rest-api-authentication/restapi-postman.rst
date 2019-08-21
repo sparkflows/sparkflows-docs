@@ -25,12 +25,12 @@ The POST Request method requests that a web server accepts the data enclosed in 
   
   Update the username and password in URL and use as request header.
 
-Click on Authorization tab and select type - Basic
+Click on Authorization tab and select Type - Basic Auth
 ==================================================
 
 Basic Auth is an authorization type that requires a verified username and password to access a data resource.
 
-Use default username ``sparkflows`` and Password ``secret`` for client authentication.
+Use default Username ``sparkflows`` and Password ``secret`` for client authentication. Click on ``Send`` to authorize the user and get the access token.
 
 Example
 ===========
@@ -40,10 +40,10 @@ Example
    :align: center 
    :width: 60%
 
-Now use access_token to access the rest api:
+Now use access_token from previous step to access the REST API
 ===========================================
 
-An Access Token is a credential that can be used by an application to access an API, Below is example
+An Access Token is a credential that can be used by an application to access an API, Below is an example to invoke the ``nodeList`` REST API of Fire Insights.
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token

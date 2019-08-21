@@ -6,7 +6,10 @@ Below are examples of Python code for accessing the Fire REST API using Python.
 Get Processor Count
 --------------------
 
-The below code in Python invokes the Fire Insights REST API to calculate number of processors list available in Fire Insight.
+The below code in Python does the following:
+
+* Acquires the token using Grant Type Password
+* Invokes the Fire Insights REST API to get the number of processors list available in Fire Insights.
 
   ::
     
@@ -44,7 +47,7 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
     tokens = json.loads(access_token_response.text)
     print( "access token: " + tokens['access_token'])
 
-    # Step C - now we can use the access_token to make as many calls as we want.
+    # Step C - now we can use the access_token to make another rest api call to get the processor count
 
     api_call_headers = {'Authorization': 'Bearer ' + tokens['access_token']}
 
@@ -56,7 +59,7 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 
 
 
-After running above REST API code using Python, Will get the results as below
+After running above REST API code in Python, we get the below results.
 
 
 .. figure:: ../_assets/tutorials/token/8.PNG

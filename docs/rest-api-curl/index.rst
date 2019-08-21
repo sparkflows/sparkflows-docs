@@ -22,9 +22,9 @@ Swagger is also enabled and is available at Below URL
    :header-rows: 1
    
    * - Title
-      - URL
+     - URL
    * - Swagger
-      - http://<machine-name>:8080/swagger-ui.html
+     - http://<machine-name>:8080/swagger-ui.html
 
 There are various categories of REST API's available:
 

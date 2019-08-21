@@ -10,7 +10,9 @@ Get the access token
 The app can obtain an access token that provides temporary, secure access to it, Below are steps involved to Request an Access_token 
 
 
-- Click on Authorization tab
+Click on Authorization tab
+==================
+
 - Select Type OAuth 2.0
 
 .. figure:: ../_assets/tutorials/token/token3.PNG
@@ -18,20 +20,24 @@ The app can obtain an access token that provides temporary, secure access to it,
    :align: center 
    :width: 60%
 
-- Click on Request Token
+Click on Request Token
+==================
 
 It will redirect to sparkflows login URL Page.
 
 
-- Fill the username and password and click on signIn
+Fill the username and password and click on signIn
+==================
 
 .. figure:: ../_assets/tutorials/token/token4.PNG
    :alt: Token
    :align: center
    :width: 60%
    
+It will then display the OAuth Approval page.
+
 OAuth Approval
---------------
+==================
 
 OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password. Below is the Screenshot for updating the Oauth approval.
 

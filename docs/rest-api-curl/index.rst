@@ -21,8 +21,6 @@ Swagger is also enabled and is available at Below URL
    :widths: 10 40
    :header-rows: 1
    
-   * - Title
-     - URL
    * - Swagger
      - http://<machine-name>:8080/swagger-ui.html
 

@@ -21,9 +21,9 @@ Swagger is also enabled and is available at Below URL
    :widths: 10 40
    :header-rows: 1
    
-    * - Title
+   * - Title
       - URL
-    * - Swagger
+   * - Swagger
       - http://<machine-name>:8080/swagger-ui.html
 
 There are various categories of REST API's available:

@@ -1,4 +1,4 @@
-Acquire token using Grant type - Authorization code
+Acquire token using Postman - Authorization code
 -------------------------------------
 
 The Authorization Code grant type is used to exchange an authorization code for an access token.

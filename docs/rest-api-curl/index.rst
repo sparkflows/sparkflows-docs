@@ -23,8 +23,8 @@ Swagger is also enabled and is available at Below URL
    
     * - Title
       - URL
-   * - Swagger
-     - http://<machine-name>:8080/swagger-ui.html
+    * - Swagger
+      - http://<machine-name>:8080/swagger-ui.html
 
 There are various categories of REST API's available:
 

@@ -31,8 +31,6 @@ The below code in Python gets the list of Processors in Fire Insights using the 
    with requests.session() as s:
 
      # log into sparkflows
-     s.get(urllogin)
-
      r = s.post(urllogin, data=payload)
 
      # get list of processors

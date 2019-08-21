@@ -15,9 +15,19 @@ Below are examples using CURL. The first step is to log in with your username an
    * - CURL Tutorial
      - https://curl.haxx.se/docs/manual.html
      
-CURL Tutorial : https://curl.haxx.se/docs/manual.html
 
-Swagger is also enabled and is available at http://<machine-name>:8080/swagger-ui.html
+
+Swagger is also enabled and is available at Below URL 
+
+.. list-table:: Below are the Swagger URL
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Title
+     - URL
+     
+   * - Swagger
+     - http://<machine-name>:8080/swagger-ui.html
 
 There are various categories of REST API's available:
 

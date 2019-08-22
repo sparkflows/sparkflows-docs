@@ -18,7 +18,7 @@ It gets the list of available Processors::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
-Which should return something like:
+Which should return something like below:
 
 .. code-block:: Result
    :linenos:
@@ -112,24 +112,17 @@ Which should return something like:
    },
   
 
-Get details of a given Processor 
---------------------------------
- 
-The below gets the details of the Processor 'ApacheLogs'::
- 
-  curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/nodes/names/{name}' -b /tmp/cookies.txt
-
-Get list of Node Rules
-----------------------
- 
-This provides the rules associated with the nodes::
- 
- 
-  curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
-
 Get Node Count
 --------------
 
 This gets the count of the Processors::
  
-   curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' 'http://137.117.83.79:8080/api/v1/nodes/count' -b /tmp/cookies.txt
+   
+Which should return something like below:
+
+.. code-block:: Result
+   :linenos:
+   
+   266
+   

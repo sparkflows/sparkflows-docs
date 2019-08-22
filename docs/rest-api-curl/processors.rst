@@ -21,15 +21,14 @@ An example request for getting the node rules::
    
 An example response:
 
-.. code-block:: Result
-   :linenos:
+::
    
-   [
-   {
+    [
+  {
     "nodeType": "dataset",
     "possibleSources": [
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -37,8 +36,8 @@ An example response:
     "backgroundColor": "#F0F1F9",
     "nodeIcon": "fa-th-list",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "shellcommand",
     "possibleSources": [
       "dataset",
@@ -49,7 +48,7 @@ An example response:
       "ml-transformer",
       "ml-predict",
       "sparkstreaming"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -57,8 +56,8 @@ An example response:
     "backgroundColor": "#F0F1F9",
     "nodeIcon": "fa-th-list",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "sparkstreaming",
     "possibleSources": [],
     "minNumOfInputs": 0,
@@ -68,8 +67,8 @@ An example response:
     "backgroundColor": "#FFEB94",
     "nodeIcon": "fa-external-link",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "transform",
     "possibleSources": [
       "dataset",
@@ -81,7 +80,7 @@ An example response:
       "ml-predict",
       "sparkstreaming",
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -89,8 +88,8 @@ An example response:
     "backgroundColor": "#AFD4F0",
     "nodeIcon": "fa-tumblr-square",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "scala",
     "possibleSources": [
       "dataset",
@@ -100,7 +99,7 @@ An example response:
       "ml-predict",
       "sparkstreaming",
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -108,8 +107,8 @@ An example response:
     "backgroundColor": "#AFD4F0",
     "nodeIcon": "fa-tumblr-square",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "pyspark",
     "possibleSources": [
       "dataset",
@@ -119,7 +118,7 @@ An example response:
       "ml-predict",
       "sparkstreaming",
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -127,8 +126,8 @@ An example response:
     "backgroundColor": "#AFD4F0",
     "nodeIcon": "fa-tumblr-square",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "join",
     "possibleSources": [
       "dataset",
@@ -136,7 +135,7 @@ An example response:
       "join",
       "shellcommand",
       "sparkstreaming"
-   ],
+    ],
     "minNumOfInputs": 2,
     "maxNumOfInputs": 8,
     "maxNumOfOutputs": null,
@@ -144,8 +143,8 @@ An example response:
     "backgroundColor": "#D4A190",
     "nodeIcon": "fa-stumbleupon",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-transformer",
     "possibleSources": [
       "dataset",
@@ -153,7 +152,7 @@ An example response:
       "ml-transformer",
       "join",
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "2",
@@ -161,8 +160,8 @@ An example response:
     "backgroundColor": "#dfe166",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-estimator",
     "possibleSources": [
       "dataset",
@@ -170,7 +169,7 @@ An example response:
       "ml-transformer",
       "join",
       "shellcommand"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "2",
@@ -178,8 +177,8 @@ An example response:
     "backgroundColor": "#F7EFE2",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-predict",
     "possibleSources": [
       "dataset",
@@ -190,7 +189,7 @@ An example response:
       "ml-pipeline",
       "ml-crossvalidator",
       "ml-modelload"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 2,
     "maxNumOfOutputs": null,
@@ -198,14 +197,14 @@ An example response:
     "backgroundColor": "#D7CFC2",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-evaluator",
     "possibleSources": [
       "ml-predict",
       "ml-estimator",
       "ml-pipeline"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "1",
@@ -213,13 +212,13 @@ An example response:
     "backgroundColor": "#ff9900",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-pipeline",
     "possibleSources": [
       "ml-estimator",
       "ml-transformer"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "1",
@@ -227,12 +226,12 @@ An example response:
     "backgroundColor": "#1FFF62",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-crossvalidator",
     "possibleSources": [
       "ml-evaluator"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -240,12 +239,12 @@ An example response:
     "backgroundColor": "#F9FC81",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-trainvalidationsplit",
     "possibleSources": [
       "ml-evaluator"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": null,
@@ -253,15 +252,15 @@ An example response:
     "backgroundColor": "#B681FC",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-modelsave",
     "possibleSources": [
       "ml-estimator",
       "ml-pipeline",
       "ml-crossvalidator",
       "ml-trainvalidationsplit"
-   ],
+    ],
     "minNumOfInputs": 1,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "1",
@@ -269,8 +268,8 @@ An example response:
     "backgroundColor": "#FCB881",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "ml-modelload",
     "possibleSources": [
       "dataset",
@@ -281,7 +280,7 @@ An example response:
       "ml-pipeline",
       "ml-crossvalidator",
       "ml-modelsave"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 1,
     "maxNumOfOutputs": "1",
@@ -289,12 +288,12 @@ An example response:
     "backgroundColor": "#FCB881",
     "nodeIcon": "fa-qrcode",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "doc",
     "possibleSources": [
       "doc"
-   ],
+    ],
     "minNumOfInputs": 0,
     "maxNumOfInputs": 0,
     "maxNumOfOutputs": null,
@@ -302,8 +301,8 @@ An example response:
     "backgroundColor": "#FFFF88",
     "nodeIcon": "fa-file-text",
     "nodeShape": "rectangle"
-   },
-   {
+  },
+  {
     "nodeType": "sticky",
     "possibleSources": [],
     "minNumOfInputs": 0,
@@ -313,8 +312,8 @@ An example response:
     "backgroundColor": "#FFFF88",
     "nodeIcon": "fa-file-text",
     "nodeShape": "rectangle"
-   }
-   ]
+  }
+]
 
 Get Processors List
 -------------------

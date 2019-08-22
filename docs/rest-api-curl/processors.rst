@@ -13,11 +13,13 @@ They should be executed after you have logged into Sparkflows. Use the -b option
 Node Rules
 ----------
 
-This will shows how processors is added with rules::
+Gets the node rules used in the workflow editor.
+
+An example request for getting the node rules::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
 
-Which should return something like below as response:
+An example response:
 
 .. code-block:: Result
    :linenos:
@@ -317,11 +319,13 @@ Which should return something like below as response:
 Get List of available Processors
 --------------------------------
 
-This will gets the list of available Processors::
+Gets the list of available Processors.
+
+An example request::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
-Which should return something like below as response:
+An example response::
 
 .. code-block:: Result
    :linenos:
@@ -418,11 +422,13 @@ Which should return something like below as response:
 Get Node Count
 --------------
 
-This will gets the count of the Processors::
+This will get the count of the Processors::
+
+An example request:
  
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    
-Which should return something like below as response:
+An example response::
 
 .. code-block:: Result
    :linenos:
@@ -432,13 +438,13 @@ Which should return something like below as response:
 Get Processors list for Engine
 ------------------------------
 
-This will gets the processors list for specific engine::
+Gets the list of processors for the specified engine::
 
-We have selected scala::
+An example request::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
 
-Which should return something like below as response:
+An example response:
 
 .. code-block:: Result
    :linenos:

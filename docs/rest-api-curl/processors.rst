@@ -131,14 +131,14 @@ Which should return something like below:
 Get Processors list for Engine
 ------------------------------
 
-This gets the processors list for engine
+This gets the processors list for specific engine
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
 
 Which should return something like below:
 
 .. code-block:: Result
-   :linenos
+   :linenos:
    
    [
    {

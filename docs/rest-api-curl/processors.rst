@@ -10,13 +10,15 @@ Below are the various Processor API's available in Sparkflows.
 
 They should be executed after you have logged into Sparkflows. Use the -b option to use the cookies previously saved.
 
+Node Rules
+----------
 
 
 
 Get List of available Processors
 --------------------------------
 
-It gets the list of available Processors::
+This will gets the list of available Processors::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
@@ -117,7 +119,7 @@ Which should return something like below as response:
 Get Node Count
 --------------
 
-This gets the count of the Processors::
+This will gets the count of the Processors::
  
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    
@@ -131,7 +133,7 @@ Which should return something like below as response:
 Get Processors list for Engine
 ------------------------------
 
-This gets the processors list for specific engine::
+This will gets the processors list for specific engine::
 
 We have selected scala::
 

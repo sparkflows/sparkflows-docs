@@ -129,18 +129,24 @@ An example response:
 ::
 
     200
-    
-    
+
+
 Delete the workflow
 -------------------
 
-Deletes a workflow with the given id.
+Deletes a workflow with the given workflowId.
 
-* id: 1
+* workflowId: 1955
 
 ::
 
-    curl -X DELETE --header 'Accept: text/plain' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/id/1'
+    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955'
+    
+An example response:
+
+::
+
+    Workflow deleted successfully.
 
 Execute Workflow Locally Synchronous
 ------------------------------------

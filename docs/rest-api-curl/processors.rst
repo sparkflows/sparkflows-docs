@@ -13,7 +13,7 @@ They should be executed after you have logged into Sparkflows. Use the -b option
 Node Rules
 ----------
 
-Gets the node rules used in the workflow editor.
+Gets the node rules used in the workflow editor::
 
 An example request for getting the node rules::
 

@@ -129,7 +129,7 @@ Get Node Count
 
 This will get the count of the Processors::
 
-An example request:
+An example request::
  
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    

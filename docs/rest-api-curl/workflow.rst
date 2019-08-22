@@ -140,7 +140,6 @@ Deletes a workflow with the given workflowId.
 
 An example request for deleting workflow::
 
-::
 
     curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955'
     

@@ -312,8 +312,8 @@ An example response:
     "backgroundColor": "#FFFF88",
     "nodeIcon": "fa-file-text",
     "nodeShape": "rectangle"
-  }
-]
+  },
+
 
 Get Processors List
 -------------------

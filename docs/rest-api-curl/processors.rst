@@ -13,9 +13,9 @@ They should be executed after you have logged into Sparkflows. Use the -b option
 Node Rules
 ----------
 
-Gets the node rules used in the workflow editor:
+Gets the node rules used in the workflow editor::
 
-An example request for getting the node rules:
+An example request for getting the node rules::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
    
@@ -26,9 +26,9 @@ An example request for getting the node rules:
 Get Node Count
 --------------
 
-Gets the count of the Processors:
+Gets the count of the Processors::
 
-An example request:
+An example request::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt   
 
@@ -43,9 +43,9 @@ An example response:
 Get Processors list for Engine
 ------------------------------
 
-Gets the list of processors for the specified engine:
+Gets the list of processors for the specified engine::
 
-An example request:
+An example request::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
 

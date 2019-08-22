@@ -127,7 +127,7 @@ An example response::
 Get Node Count
 --------------
 
-This will get the count of the Processors::
+Gets the count of the Processors::
 
 An example request::
  

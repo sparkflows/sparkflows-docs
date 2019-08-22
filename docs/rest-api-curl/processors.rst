@@ -10,16 +10,6 @@ Below are the various Processor API's available in Sparkflows.
 
 They should be executed after you have logged into Sparkflows. Use the -b option to use the cookies previously saved.
 
-Node Rules
-----------
-
-Gets the node rules used in the workflow editor::
-
-An example request for getting the node rules::
-
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
-
-
 
 Get List of available Processors
 --------------------------------

@@ -14,7 +14,7 @@ In the below examples, the Fire Insights web server is running on the local mach
 
 You can replace it with your machine name and port.
 
-**CURL**::
+*CURL*::
 
     curl -i -X POST -d username=admin -d password=admin -c /tmp/cookies.txt localhost:8080/login
     

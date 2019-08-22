@@ -357,10 +357,19 @@ Get the value of a given field in a Node of a Workflow
 
 Get Workflow Count
 ------------------
+Gets the count of the Workflow in application.
+
+An example request for getting count of the Workflow::
+
+
+   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflows/count' -b /tmp/cookies.txt
+   
+An example response:
 
 ::
 
-   curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/count'
+   246
+
 
 
 Load Example Datasets And Workflows

@@ -13,7 +13,7 @@ They should be executed after you have logged into Fire Insights. Use the -b opt
 Node Rules
 ----------
 
-Gets the node rules used in the workflow editor::
+Gets the node rules used in the workflow editor.
 
 An example request for getting the node rules::
 
@@ -318,7 +318,7 @@ An example response:
 Get Processors List
 -------------------
 
-Gets the list of processors available::
+Gets the list of processors available.
 
 An example request for getting list of processors::
 
@@ -420,7 +420,7 @@ An example response:
 Get Node Count
 --------------
 
-Gets the count of the processors::
+Gets the count of the processors.
 
 An example request for getting count of the processors::
 
@@ -436,7 +436,7 @@ An example response:
 Get Processors list for Engine
 ------------------------------
 
-Gets the list of processors for the specified engine::
+Gets the list of processors for the specified engine.
 
 An example request for getting list of processors for scala ::
 

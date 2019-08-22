@@ -44,7 +44,7 @@ Create Workflow
 
 Creates a new Workflow.
  
-For creating a new Workflow set analysisFlowId = 0
+For creating a new Workflow set analysisFlowId = 0 & projectId = 33:
 
 An example request for Creating workflow:
 

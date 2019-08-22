@@ -430,10 +430,9 @@ An example request for getting count of the processors::
 
 An example response:
 
-.. code-block:: Result
-   :linenos:
+::
    
-   266
+    266
    
    
 Get Processors list for Engine

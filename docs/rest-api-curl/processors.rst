@@ -20,7 +20,7 @@ It gets the list of available Processors::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
-Which should return something like below:
+Which should return something like below as response:
 
 .. code-block:: Result
    :linenos:
@@ -121,7 +121,7 @@ This gets the count of the Processors::
  
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    
-Which should return something like below:
+Which should return something like below as response:
 
 .. code-block:: Result
    :linenos:
@@ -131,11 +131,11 @@ Which should return something like below:
 Get Processors list for Engine
 ------------------------------
 
-This gets the processors list for specific engine
+This gets the processors list for specific engine::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
 
-Which should return something like below:
+Which should return something like below as response:
 
 .. code-block:: Result
    :linenos:

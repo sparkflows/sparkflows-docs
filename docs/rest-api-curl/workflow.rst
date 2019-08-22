@@ -141,7 +141,7 @@ Deletes a workflow with the given workflowId.
 An example request for deleting workflow::
 
 
-    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955'
+    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955' -b /tmp/cookies.txt
     
 An example response:
 
@@ -167,7 +167,7 @@ Get Latest WorkFlows availble in application:
 
 An example request for getting Latest WorkFlows availble in application::
 
-::
+
 
     curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflows/latest' -b /tmp/cookies.txt
     

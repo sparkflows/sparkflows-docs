@@ -321,7 +321,7 @@ Get Processors List
 
 Gets the list of processors available::
 
-An example request::
+An example request for getting list of processors::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt 
 
@@ -422,9 +422,9 @@ An example response:
 Get Node Count
 --------------
 
-Gets the count of the Processors::
+Gets the count of the processors::
 
-An example request::
+An example request for getting count of the processors::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt   
 
@@ -441,7 +441,7 @@ Get Processors list for Engine
 
 Gets the list of processors for the specified engine::
 
-An example request::
+An example request for getting list of processors for scala ::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
 

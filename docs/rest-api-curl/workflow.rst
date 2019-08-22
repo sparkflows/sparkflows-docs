@@ -20,7 +20,7 @@ An example response:
 
 ::
 
-[
+    [
   {
     "id": 1,
     "userId": 1,

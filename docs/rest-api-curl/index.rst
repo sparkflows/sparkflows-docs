@@ -3,8 +3,8 @@ REST API Examples using curl
 
 This topic contains a range of examples that demonstrate how to use the Fire Insights API using curl.
 
-Acquire Session Cookie Using Curl
---------------------------------
+**Acquire Session Cookie Using Curl**
+
 
 When invoking the REST API's of Fire Insights with curl, the first step is to log in and save the incoming cooking into a text file. This file would then be used in making subsequent REST calls via curl.
 
@@ -14,7 +14,7 @@ In the below examples, the Fire Insights web server is running on the local mach
 
 You can replace it with your machine name and port.
 
-*Curl*::
+*Login and save the session cookie into /tmp/cookies.txt*::
 
     curl -i -X POST -d username=admin -d password=admin -c /tmp/cookies.txt localhost:8080/login
     

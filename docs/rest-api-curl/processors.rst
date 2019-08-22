@@ -121,14 +121,7 @@ Gets the count of the Processors::
 
 An example request::
  
-   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    
-An example response::
-
-.. code-block:: Result
-   :linenos:
-   
-   266
    
 Get Processors list for Engine
 ------------------------------

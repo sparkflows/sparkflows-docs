@@ -117,7 +117,7 @@ Get Node Count
 
 This gets the count of the Processors::
  
-   curl -X GET --header 'Accept: application/json' 'http://137.117.83.79:8080/api/v1/nodes/count' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes/count' -b /tmp/cookies.txt
    
 Which should return something like below:
 

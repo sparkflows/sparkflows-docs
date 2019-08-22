@@ -19,7 +19,7 @@ An example request for getting the node rules::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/node-rules' -b /tmp/cookies.txt
 
-An example response:
+An example response::
 
 .. code-block:: Result
    :linenos:
@@ -315,6 +315,7 @@ An example response:
     "nodeShape": "rectangle"
   }
   ]
+
 
 Get List of available Processors
 --------------------------------

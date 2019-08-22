@@ -122,7 +122,7 @@ An example request for Creating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://localhost:8080/api/v1/workflows'
+}' 'http://localhost:8080/api/v1/workflows' -b /tmp/cookies.txt
 
 An example response:
 

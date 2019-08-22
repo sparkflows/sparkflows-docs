@@ -18,6 +18,99 @@ It gets the list of available Processors::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/nodes' -b /tmp/cookies.txt
   
+Which should return something like:
+
+.. code-block:: Result
+   :linenos:
+
+   [
+   {
+    "id": "3",
+    "path": "/01-Connectors/",
+    "name": "ReadCassandra",
+    "iconImage": null,
+    "description": "This node reads data from Apache Cassandra",
+    "details": "",
+    "examples": "",
+    "type": "dataset",
+    "nodeClass": "fire.nodes.cassandra.NodeReadCassandra",
+    "x": null,
+    "y": null,
+    "fields": [
+      {
+        "name": "storageLevel",
+        "value": "DEFAULT",
+        "widget": "array",
+        "title": "Output Storage Level",
+        "description": "Storage Level of the Output Datasets of this Node",
+        "optionsMap": null,
+        "datatypes": null,
+        "optionsArray": [
+          "DEFAULT",
+          "NONE",
+          "DISK_ONLY",
+          "DISK_ONLY_2",
+          "MEMORY_ONLY",
+          "MEMORY_ONLY_2",
+          "MEMORY_ONLY_SER",
+          "MEMORY_ONLY_SER_2",
+          "MEMORY_AND_DISK",
+          "MEMORY_AND_DISK_2",
+          "MEMORY_AND_DISK_SER",
+          "MEMORY_AND_DISK_SER_2",
+          "OFF_HEAP"
+        ],
+        "required": false,
+        "display": true,
+        "editable": true,
+        "disableRefresh": false
+      },
+      {
+        "name": "table",
+        "value": "",
+        "widget": "textfield",
+        "title": "Cassandra Table",
+        "description": "Cassandra Table from which to read the data",
+        "optionsMap": null,
+        "datatypes": null,
+        "optionsArray": null,
+        "required": true,
+        "display": true,
+        "editable": true,
+        "disableRefresh": false
+      },
+      {
+        "name": "keyspace",
+        "value": "",
+        "widget": "textfield",
+        "title": "Cassandra Keyspace",
+        "description": "Cassandra Keyspace",
+        "optionsMap": null,
+        "datatypes": null,
+        "optionsArray": null,
+        "required": true,
+        "display": true,
+        "editable": true,
+        "disableRefresh": false
+      },
+      {
+        "name": "cluster",
+        "value": "",
+        "widget": "textfield",
+        "title": "Cassandra Cluster",
+        "description": "The group of the Cluster Level ",
+        "optionsMap": null,
+        "datatypes": null,
+        "optionsArray": null,
+        "required": false,
+        "display": true,
+        "editable": true,
+        "disableRefresh": false
+      }
+    ],
+    "engine": "scala"
+    },
+  
 
 Get details of a given Processor 
 --------------------------------

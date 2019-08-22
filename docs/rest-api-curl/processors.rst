@@ -36,8 +36,8 @@ Which should return something like:
     "nodeClass": "fire.nodes.cassandra.NodeReadCassandra",
     "x": null,
     "y": null,
-    "fields": [
-      {
+     "fields": [
+   {
         "name": "storageLevel",
         "value": "DEFAULT",
         "widget": "array",
@@ -59,13 +59,13 @@ Which should return something like:
           "MEMORY_AND_DISK_SER",
           "MEMORY_AND_DISK_SER_2",
           "OFF_HEAP"
-        ],
+   ],
         "required": false,
         "display": true,
         "editable": true,
         "disableRefresh": false
-      },
-      {
+   },
+   {
         "name": "table",
         "value": "",
         "widget": "textfield",
@@ -78,8 +78,8 @@ Which should return something like:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      },
-      {
+   },
+   {
         "name": "keyspace",
         "value": "",
         "widget": "textfield",
@@ -92,8 +92,8 @@ Which should return something like:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      },
-      {
+   },
+   {
         "name": "cluster",
         "value": "",
         "widget": "textfield",
@@ -106,10 +106,10 @@ Which should return something like:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      }
-    ],
+   }
+   ],
     "engine": "scala"
-    },
+   },
   
 
 Get details of a given Processor 

@@ -444,11 +444,10 @@ An example request for getting list of processors for scala ::
 
 An example response:
 
-.. code-block:: Result
-   :linenos:
+::
    
-   [
-   {
+    [
+  {
     "id": "3",
     "path": "/01-Connectors/",
     "name": "ReadCassandra",
@@ -461,7 +460,7 @@ An example response:
     "x": null,
     "y": null,
     "fields": [
-   {
+      {
         "name": "storageLevel",
         "value": "DEFAULT",
         "widget": "array",
@@ -483,13 +482,13 @@ An example response:
           "MEMORY_AND_DISK_SER",
           "MEMORY_AND_DISK_SER_2",
           "OFF_HEAP"
-   ],
+        ],
         "required": false,
         "display": true,
         "editable": true,
         "disableRefresh": false
-   },
-   {
+      },
+      {
         "name": "table",
         "value": "",
         "widget": "textfield",
@@ -502,8 +501,8 @@ An example response:
         "display": true,
         "editable": true,
         "disableRefresh": false
-   },
-   {
+      },
+      {
         "name": "keyspace",
         "value": "",
         "widget": "textfield",
@@ -516,8 +515,8 @@ An example response:
         "display": true,
         "editable": true,
         "disableRefresh": false
-   },
-   {
+      },
+      {
         "name": "cluster",
         "value": "",
         "widget": "textfield",
@@ -530,8 +529,8 @@ An example response:
         "display": true,
         "editable": true,
         "disableRefresh": false
-   }
-   ],
+      }
+    ],
     "engine": "scala"
-   },
+  },
   

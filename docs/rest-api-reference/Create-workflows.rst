@@ -91,7 +91,7 @@ An example request for creating workflow:
     "uuid": "string"
   },
   
-And response:
+An Example response:
 
 :: 
 

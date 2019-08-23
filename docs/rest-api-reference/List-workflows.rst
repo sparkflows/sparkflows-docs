@@ -39,7 +39,7 @@ Response Structure
 -------------------
 
 .. list-table:: 
-   :widths: 10 20 40
+   :widths: 10 40
    :header-rows: 1
 
    * - Field Name

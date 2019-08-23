@@ -9,7 +9,7 @@ Create workflows
    * - Endpoint
      - HTTP Method
      
-   * - http://localhost:8080/api/v1/workflows
+   * - http://hostname:port/api/v1/workflows
      - GET  
      
 Create a new workflow.

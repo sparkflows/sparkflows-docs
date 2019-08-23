@@ -1,4 +1,4 @@
-Create-workflows
+Create workflows
 ----------------
 
 
@@ -12,11 +12,11 @@ Create-workflows
    * - http://localhost:8080/api/v1/workflows
      - GET  
      
- Create a new workflow.
+Create a new workflow.
  
- An example request for creating workflow:
+An example request for creating workflow:
  
- ::
+::
  
      [
   "analysisflowId": 0,

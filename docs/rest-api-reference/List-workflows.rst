@@ -46,5 +46,5 @@ List all workflows. An example response:
      - Description
      
      
-   * - workflows 
+   * - workflow
      - List all workflows

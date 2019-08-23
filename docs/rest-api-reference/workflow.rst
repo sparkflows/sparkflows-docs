@@ -129,7 +129,25 @@ An example response:
 ::
 
     200
-  
+
+Delete the workflow
+-------------------
+
+Deletes a workflow with the given workflowId.
+
+* workflowId: 1955
+
+An example request for deleting workflow::
+
+
+    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955' -b /tmp/cookies.txt
+    
+An example response:
+
+::
+
+    Workflow deleted successfully.
+
 
 
 

@@ -12,7 +12,7 @@ List-workflows
    * - http://localhost:8080/api/v1/workflows/all
      - GET  
      
-List all workflows. An example response::
+List all workflows. An example response:
 
 ::
 

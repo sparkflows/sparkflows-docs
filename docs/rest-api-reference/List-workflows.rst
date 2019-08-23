@@ -34,3 +34,17 @@ List all workflows. An example response:
     "projectId": 1,
     "engine": scala
   },
+  
+Response Structure
+-------------------
+
+.. list-table:: 
+   :widths: 10 20 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+     
+     
+   * - workflows 
+     - List all workflows

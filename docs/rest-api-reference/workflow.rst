@@ -8,16 +8,14 @@ Below are the various Workflow API's available in Fire Insights. They should be 
 Table of Contents
 ==================
 
-List
------
-Create
--------
-Update
-------- 
-Delete
---------
-Execute
--------
+.. toctree::
+   :maxdepth: 2
+
+   List-workflows.rst
+   Create-workflows.rst 
+   Update-workflows.rst
+   Delete-workflows.rst
+   Execute-workflows.rst
 
 
 

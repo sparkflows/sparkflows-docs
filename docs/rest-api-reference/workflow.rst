@@ -10,12 +10,13 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
-
-   List-workflows.rst
-   Create-workflows.rst 
-   Update-workflows.rst
-   Delete-workflows.rst
+   
+   Create-workflows.rst
    Execute-workflows.rst
+   Update-workflows.rst
+   List-workflows.rst
+   Delete-workflows.rst
+   
 
 
 

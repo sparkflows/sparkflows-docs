@@ -9,7 +9,7 @@ List-workflows
    * - Endpoint
      - HTTP Method
      
-   * - http://localhost:8080/api/v1/workflows/all
+   * - http://hostname:8080/api/v1/workflows/all
      - GET  
      
 List all workflows. An example response:

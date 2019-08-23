@@ -2,7 +2,7 @@ List-workflows
 --------------
 
 
-.. list-table:: Below are the Relevant Files
+.. list-table:: 
    :widths: 10 40
    :header-rows: 1
 

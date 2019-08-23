@@ -35,8 +35,8 @@ List all workflows. An example response:
     "engine": scala
   },
   
-Response Structure
--------------------
+- Response Structure
+
 
 .. list-table:: 
    :widths: 10 40

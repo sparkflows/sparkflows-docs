@@ -90,3 +90,9 @@ An example request for creating workflow:
     "parameters": "string",
     "uuid": "string"
   },
+  
+And response:
+
+:: 
+
+    97

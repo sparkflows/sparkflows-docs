@@ -17,6 +17,7 @@ AWS Guide
    redshift.rst
    sagemaker.rst
    kinesis.rst
+   file-watcher.rst
    cloudformationh2db.rst
    cloudformationmysql.rst
    

@@ -1,5 +1,5 @@
 Create-workflows
-------------------
+----------------
 
 .. list-table:: 
    :widths: 10 40
@@ -17,7 +17,8 @@ Create-workflows
  
  ::
  
-    "analysisflowId": 0,
+     [
+  "analysisflowId": 0,
   "comment": "string",
   "projectId": 1,
   "workflow": {

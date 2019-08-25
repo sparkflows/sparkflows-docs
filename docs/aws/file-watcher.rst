@@ -33,10 +33,14 @@ Below we see the SQS queue : ``sf-file-watcher``.
 
 It has the below permissions to receive the messages from S3 bucket and invoke the AWS Lambda function.
 
-.. figure:: ../_assets/aws/file-watcher-sql-queue-1.png
-   :alt: S3 Events
+.. figure:: ../_assets/aws/file-watcher-sqs-queue-1.png
+   :alt: SQS Queue
    :align: center
 
+
+.. figure:: ../_assets/aws/file-watcher-sqs-queue-2.png
+   :alt: SQS Queue
+   :align: center
 
 Configure AWS S3 bucket to generate events
 ------------------------------------------

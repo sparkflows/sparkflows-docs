@@ -45,7 +45,7 @@ First create an IAM role. An example is shown below.
 
 We add 3 Environment variables as shown below. Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
 
-Upload the jar file for the RequestHandler::
+Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it::
 
     class WorkflowExecuteHandler extends  RequestHandler[SQSEvent, Unit]
 

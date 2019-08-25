@@ -24,3 +24,30 @@ Below is the flow of execution:
 * The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
 
 
+Configure AWS S3 bucket to generate events
+------------------------------------------
+
+Configure the AWS S3 bucket to send events for the new files coming in to AWS SQL queue.
+
+
+
+Create an SQL Queue
+-------------------
+
+Create an SQL Queue for receiving the events from S3 and triggering the AWS Lambda function.
+
+Create the AWS Lambda function
+------------------------------
+
+Create the AWS Lambda function to take the SQL Event and kick off the workflow in Fire Insights. This workflow would process the new files which came in.
+
+First create an IAM role. An example is shown below.
+
+
+We add 3 Environment variables as shows below. Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms:urn.
+
+
+
+
+
+

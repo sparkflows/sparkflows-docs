@@ -7,7 +7,7 @@ The Authorization Code grant type is used to exchange an authorization code for 
 Get the access token
 ====================
 
-The app can obtain an access token that provides temporary, secure access to it, Below are steps involved to Request an Access_token 
+The app can obtain an access token that provides temporary, secure access to it. Below are steps involved to Request an Access_token 
 
 
 Click on Authorization tab

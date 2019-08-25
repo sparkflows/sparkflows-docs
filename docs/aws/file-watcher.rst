@@ -52,8 +52,9 @@ Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUC
 .. figure:: ../_assets/aws/file-watcher-s3-events.png
    :alt: S3 Events
    :align: center
+   :width: 60%
    
-
+   
 
 Create the AWS Lambda function
 ------------------------------

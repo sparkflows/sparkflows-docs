@@ -78,7 +78,10 @@ We add 3 Environment variables as shown below. Instead of the Sparkflows token, 
    
 Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it.
 
-WorkflowExecuteHandler::
+WorkflowExecuteHandler
+++++++++++++++++++++++
+
+::
 
    package com.sf.handler
 
@@ -139,7 +142,10 @@ WorkflowExecuteHandler::
    }
 
 
-WorkflowExecute::
+WorkflowExecute
++++++++++++++++
+
+::
 
    package com.sf
 

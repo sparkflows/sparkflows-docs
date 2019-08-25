@@ -29,7 +29,10 @@ Configure AWS S3 bucket to generate events
 
 Configure the AWS S3 bucket to send events for the new files coming in to AWS SQL queue.
 
-
+.. figure:: ../_assets/aws/file-watcher-s3-events.png
+   :alt: S3 Events
+   :align: center
+   
 
 Create an SQS Queue
 -------------------

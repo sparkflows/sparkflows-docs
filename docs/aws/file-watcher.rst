@@ -77,7 +77,92 @@ We add 3 Environment variables as shown below. Instead of the Sparkflows token, 
    
 Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it::
 
-    class WorkflowExecuteHandler extends  RequestHandler[SQSEvent, Unit]
+   package com.sf.handler
+
+   import com.amazonaws.services.lambda.runtime.events.SQSEvent
+   import com.amazonaws.services.lambda.runtime.events.SQSEvent.SQSMessage
+   import com.amazonaws.services.lambda.runtime.{Context, LambdaLogger, RequestHandler}
+   import com.amazonaws.services.s3.event.S3EventNotification
+   import com.amazonaws.services.s3.event.S3EventNotification.S3EventNotificationRecord
+   import com.sf.WorkflowExecute
+
+   import scala.collection.JavaConverters._
+
+   class WorkflowExecuteHandler extends  RequestHandler[SQSEvent, Unit] {
+
+     private val token = System.getenv("SPARKFLOWS_TOKEN")
+     private val sparkflowsURL = System.getenv("SPARKFLOWS_URL")
+     private val workflowId = System.getenv("WORKFLOW_ID")
+
+     def handleRequest(sqsEvent: SQSEvent, context: Context): Unit = {
+
+       implicit val logger: LambdaLogger = context.getLogger
+
+       logger.log(s"sparkflowsURL: $sparkflowsURL")
+       logger.log(s"workflowId: $workflowId")
+
+       sqsEvent
+         .getRecords
+         .asScala.map(sqsMessageToS3Event)
+         .foreach(_.getRecords.asScala.foreach(processS3Record))
+     }
+
+     private[handler] def sqsMessageToS3Event(sqsMessage: SQSMessage): S3EventNotification = {
+       S3EventNotification.parseJson(sqsMessage.getBody)
+     }
+
+     private[handler] def processS3Record(s3EventRecord: S3EventNotificationRecord)
+                                         (implicit logger: LambdaLogger): Unit = {
+
+       val s3Entity = s3EventRecord.getS3
+       val inputBucketName: String = s3Entity.getBucket.getName
+       val inputObjectKey: String = s3Entity.getObject.getUrlDecodedKey
+       val eventName: String = s3EventRecord.getEventName
+       val path = s"s3://$inputBucketName/$inputObjectKey".replace("/_SUCCESS", "")
+
+       logger.log(s"Event record $eventName; path $path")
+
+       val body = s"""
+                     |{
+                     |  "workflowId": "${workflowId}",
+                     |  "parameters": "--var datapath=${path}"
+                     |}
+          """.stripMargin
+
+        val workflowStatus = WorkflowExecute.executeWorkflow(body, token, sparkflowsURL)
+
+        logger.log(s"Status of workflow $workflowStatus")
+     }
+   }
+
+
+WorkflowExecute::
+
+   package com.sf
+
+   import com.mashape.unirest.http.Unirest
+
+   object WorkflowExecute {
+
+     def executeWorkflow(body: String, token: String, sparkflowsHostName: String) = {
+
+       val workflow = Unirest.post(s"$sparkflowsHostName/api/v1/workflow/execute")
+         .header("Content-Type", "application/json")
+         .header("Cache-Control", "no-cache")
+         .header("Authorization", s"Bearer $token")
+         .body(body)
+         .asString
+
+       workflow match {
+         case s if workflow.getStatus >= 200 && workflow.getStatus <= 300 => workflow.getBody
+         case f => throw SubmissionFailedException(s"Job submissions failed, status code is ${f.getStatus}")
+       }
+     }
+     case class SubmissionFailedException(message:String) extends Exception(message)
+   }
+
+
+
 
 
 

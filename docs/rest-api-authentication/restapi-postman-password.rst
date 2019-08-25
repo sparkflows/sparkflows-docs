@@ -44,7 +44,7 @@ Example
 Now use access_token from previous step to access the REST API
 ===========================================
 
-An Access Token is a credential that can be used by an application to access an API, Below is an example to invoke the ``nodeList`` REST API of Fire Insights.
+An Access Token is a credential that can be used by an application to access an API. Below is an example to invoke the ``nodeList`` REST API of Fire Insights.
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token

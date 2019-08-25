@@ -56,7 +56,7 @@ The below code in Python invokes the Fire Insights REST API to calculate number 
 
 
 
-After running above REST API code using Python, Will get the results as below
+After running above REST API code using Python, will get the results as below:
 
 
 .. figure:: ../_assets/tutorials/token/8.PNG
@@ -125,7 +125,7 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop clus
    print(" configuration after save : "+save_configuration_api_response.text)
  
    
-After running above REST API code using Python, Will get the results as below
+After running above REST API code using Python, will get the results as below
 
 .. figure:: ../_assets/tutorials/token/10.PNG
    :alt: REST API

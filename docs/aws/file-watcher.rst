@@ -24,29 +24,31 @@ Below is the flow of execution:
 * The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
 
 
-Configure AWS S3 bucket to generate events
-------------------------------------------
-
-Configure the AWS S3 bucket to send events for the new files coming in to AWS SQS queue.
-
-Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``.
-
-.. figure:: ../_assets/aws/file-watcher-s3-events.png
-   :alt: S3 Events
-   :align: center
-   
-
 Create an SQS Queue
 -------------------
 
 Create an SQS Queue for receiving the events from S3 and triggering the AWS Lambda function.
 
-Below we see the SQS queue : sf-file-watcher.
+Below we see the SQS queue : ``sf-file-watcher``.
 
 It has the below permissions to receive the messages from S3 bucket and invoke the AWS Lambda function.
 
+.. figure:: ../_assets/aws/file-watcher-sql-queue-1.png
+   :alt: S3 Events
+   :align: center
 
 
+Configure AWS S3 bucket to generate events
+------------------------------------------
+
+Configure the AWS S3 bucket to send events for the new files coming in to AWS SQS queue.
+
+Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``. It sends these events to ``sf-file-watcher`` SQS Queue.
+
+.. figure:: ../_assets/aws/file-watcher-s3-events.png
+   :alt: S3 Events
+   :align: center
+   
 
 
 Create the AWS Lambda function

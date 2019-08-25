@@ -20,8 +20,8 @@ Below is the flow of execution:
 
 * New files arrives on S3
 * Finally a _SUCCESS file gets written in the S3 bucket
-* It triggers an event which is send to a configures SQS queue.
-* Once the event reaches SQL, it triggers an AWS Lambda.
+* It triggers an event which is sent to a configured SQS queue.
+* Once the event reaches SQS, it triggers an AWS Lambda.
 * The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
 
 

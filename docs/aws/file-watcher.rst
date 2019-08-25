@@ -73,9 +73,12 @@ We add 3 Environment variables as shown below. Instead of the Sparkflows token, 
 .. figure:: ../_assets/aws/file-watcher-lambda-2.png
    :alt: AWS Lambda
    :align: center
+
+
    
-   
-Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it::
+Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it.
+
+WorkflowExecuteHandler::
 
    package com.sf.handler
 

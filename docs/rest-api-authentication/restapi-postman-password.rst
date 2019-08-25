@@ -7,7 +7,7 @@ This document describes the steps to obtain and use OAuth 2.0 access tokens usin
 Overview of Grant Type – Password
 =================================
 
-The Password grant is used when the application presents a traditional username and password login form to collect the user’s credentials and makes a POST request to the server to exchange the password for an access token. The POST request that the application makes looks like the example below.
+The Password grant is used when the application presents a traditional username and password login form to collect the user’s credentials and makes a POST request to the server to exchange the password for an access token. The POST requests that the application made looks like the example below.
 
 Form the Post Request
 =====================

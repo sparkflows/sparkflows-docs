@@ -68,7 +68,7 @@ We add 3 Environment variables as shown below. Instead of the Sparkflows token, 
    :alt: AWS Lambda
    :align: center
    
-.. figure:: ../_assets/aws/file-watcher-lambda-1.png
+.. figure:: ../_assets/aws/file-watcher-lambda-2.png
    :alt: AWS Lambda
    :align: center
    

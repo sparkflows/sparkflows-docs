@@ -21,7 +21,7 @@ An example request to delete the workflow:
      
 Request Structure
 
-Delete a workflow, No action occurs if the workflow has already been deleted. After the workflow is deleted, neither its details nor its run history is visible via the workflow UI or API 
+For Deleting a workflow, No action occurs if the workflow has already been deleted. After the workflow is deleted, neither its details nor its run history is visible via the workflow UI or API 
 
 .. list-table:: 
    :widths: 10 40

@@ -113,8 +113,97 @@ An example request for creating workflow:
   "programParameters": "string",
   "sparkConfig": "string",
   "workflowId": 0
-}' 'http://hostname:port:8080/api/v1/workflow/execute'
+}' 'http://hostname:port/api/v1/workflow/execute'
    
+
+An example response:
+
+::
+
+    200
+
+Update Workflow
+----------------
+
+Update specified Workflow.
+
+An example request for creating workflow:
+
+::
+ 
+   curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+  "analysisflowId": 0,
+  "comment": "string",
+  "projectId": 0,
+  "workflow": {
+    "category": "string",
+    "dataSetDetails": [
+      {
+        "datasetSchema": "string",
+        "datasetType": "CSV",
+        "delimiter": "string",
+        "description": "string",
+        "filterLinesContaining": "string",
+        "header": true,
+        "id": 0,
+        "name": "string",
+        "path": "string",
+        "readOptions": "string",
+        "uuid": "string",
+        "version": 0
+      }
+    ],
+    "description": "string",
+    "edges": [
+      {
+        "id": 0,
+        "source": "string",
+        "target": "string"
+      }
+    ],
+    "engine": "string",
+    "h2OWorkflow": true,
+    "name": "string",
+    "nodes": [
+      {
+        "description": "string",
+        "details": "string",
+        "engine": "string",
+        "examples": "string",
+        "fields": [
+          {
+            "datatypes": [
+              "string"
+            ],
+            "description": "string",
+            "disableRefresh": true,
+            "display": true,
+            "editable": true,
+            "name": "string",
+            "optionsArray": [
+              "string"
+            ],
+            "optionsMap": {},
+            "required": true,
+            "title": "string",
+            "value": "string",
+            "widget": "string"
+          }
+        ],
+        "iconImage": "string",
+        "id": "string",
+        "name": "string",
+        "nodeClass": "string",
+        "path": "string",
+        "type": "string",
+        "x": "string",
+        "y": "string"
+      }
+    ],
+    "parameters": "string",
+    "uuid": "string"
+  }
+}' 'http://hostname:port/api/v1/workflows'
 
 An example response:
 

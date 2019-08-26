@@ -551,7 +551,7 @@ An example response:
 
 ::
 
-   200   
+   Workflow deleted successfully.
 
 
 

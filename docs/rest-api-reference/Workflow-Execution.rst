@@ -19,13 +19,13 @@ An Example request to Execute specific workflow:
 ::
 
     {
-  "emailOnFailure": "string",
-  "emailOnSuccess": "string",
-  "libJars": "string",
-  "programParameters": "string",
-  "sparkConfig": "string",
-  "workflowId": 0
-  },
+     "emailOnFailure": "string",
+     "emailOnSuccess": "string",
+     "libJars": "string",
+     "programParameters": "string",
+     "sparkConfig": "string",
+     "workflowId": 0
+    },
 
 Request Structure
 

@@ -97,6 +97,16 @@ An example response:
 
     200
 
+Get workflow by Id
+------------------
+
+* Id : 1
+
+::
+
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/id/1'
+
+
 
 Delete the workflow
 -------------------
@@ -331,13 +341,4 @@ Get the workflow versions
 
 
 
-
-Get workflow by Id
-------------------
-
-* Id : 1
-
-::
-
-    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/id/1'
 

@@ -241,7 +241,7 @@ Deletes a workflow with the given workflowId.
 An example request for deleting workflow::
 
 
-    curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflows/id/1955' -b /tmp/cookies.txt
+    curl -X DELETE --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflows/id/1955' -b /tmp/cookies.txt
     
 An example response:
 
@@ -468,7 +468,7 @@ An example request for getting workflow by id:
 
 ::
 
-   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/versions?workflowId=1' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflows/versions?workflowId=1' -b /tmp/cookies.txt
    
 An example response:
 

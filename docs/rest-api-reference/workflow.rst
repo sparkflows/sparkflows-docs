@@ -25,10 +25,10 @@ An example request for creating workflow:
  
 ::
  
-     [
+     {
   "analysisflowId": 0,
   "comment": "string",
-  "projectId": 1,
+  "projectId": 33,
   "workflow": {
     "category": "string",
     "dataSetDetails": [
@@ -96,7 +96,8 @@ An example request for creating workflow:
     ],
     "parameters": "string",
     "uuid": "string"
-  },
+  }
+}
   
 An Example response:
 

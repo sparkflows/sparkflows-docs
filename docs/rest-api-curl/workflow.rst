@@ -88,7 +88,7 @@ An example request for creating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
+  }' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
 
 An example response:
 
@@ -202,7 +202,7 @@ An example request for updating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
+  }' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
 
 An example response:
 

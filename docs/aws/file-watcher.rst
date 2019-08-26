@@ -33,7 +33,7 @@ Create an SQS Queue
 
 Create an SQS Queue for receiving the events from S3 and triggering the AWS Lambda function.
 
-Below we see the SQS queue : ``sf-file-watcher``.
+Below we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``.
 
 It has the below permissions to receive the messages from S3 bucket and invoke the AWS Lambda function.
 

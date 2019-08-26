@@ -10,7 +10,7 @@ Below are the various Workflow Execution API's available in Fire Insights, They 
 
 
 
-Execute a Workflow
+Execute Workflow
 ------------------
 
 Execute specified Workflow.

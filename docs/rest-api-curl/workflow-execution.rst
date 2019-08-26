@@ -152,5 +152,9 @@ An example request for Getting Latest Executions::
 
   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/latest' -b /tmp/cookies.txt
    
-  
+An example response:
+
+::
+
+    200  
 

@@ -283,7 +283,22 @@ List
      
    * - /api/v1/workflows
      - GET  
+
+- Response Structure
+
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
      
+     
+   * - workflow
+     - List all workflows
+
+
 List all workflows. An example response:
 
 ::
@@ -307,19 +322,6 @@ List all workflows. An example response:
     "engine": scala
     },
   
-- Response Structure
-
-
-.. list-table:: 
-   :widths: 10 40
-   :header-rows: 1
-
-   * - Field Name
-     - Description
-     
-     
-   * - workflow
-     - List all workflows
 
 Delete
 ----------------

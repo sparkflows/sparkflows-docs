@@ -88,7 +88,7 @@ An Example response:
 
    200 
    
-List Executions of a Workflow
+List Executions of Workflow
 ------------------------------
 
 .. list-table:: 

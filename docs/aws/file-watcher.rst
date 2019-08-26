@@ -69,7 +69,7 @@ First create an IAM role. An example is shown below.
 
 We add 3 Environment variables as shown below. These get used by the Lambda functions in this example.
 
-  * SPARKFLOWS_TOKEN
+  * SPARKFLOWS_TOKEN or KMS_ARN
   * SPARKFLOWS_URL
   * WORKFLOW_ID
 

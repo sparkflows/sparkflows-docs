@@ -4,9 +4,9 @@ Processors REST API's
 Overview
 --------
 
-The Processors REST API's, allow you to get the list of available Processors and details regarding each Processor.
+The Processors REST APIs, allow you to get the list of available Processors and details regarding each Processor.
 
-Below are the various Processor API's available in Fire Insights.
+Below are the various Processor APIs available in Fire Insights.
 
 They should be executed after you have logged into Fire Insights. Use the -b option to use the cookies previously saved.
 

@@ -1,7 +1,7 @@
 Workflow API
 ==================
 
-The Workflow REST APIs, allow you you to create, edit, and delete workflows.
+The Workflow REST APIs, allow you you to create, update, and delete workflows.
 
 Below are the various Workflow APIs available in Fire Insights. They should be executed after you have logged into Fire Insights.
 

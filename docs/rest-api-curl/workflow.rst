@@ -127,7 +127,7 @@ Update Workflow
 
 Update specified Workflow.
 
-An example request for creating workflow:
+An example request for updating workflow:
 
 ::
  
@@ -214,7 +214,7 @@ An example response:
 Get workflow by Id
 ------------------
 
-Gets the workflow with the given id.
+Gets the workflow with the specified id.
 
 * id: 1
 

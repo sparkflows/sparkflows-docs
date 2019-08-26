@@ -219,3 +219,28 @@ An example request to Execute specific workflow:
 	"dataSetDetails": [],
 	"engine": "scala"
 },
+
+Request Structure
+
+For Executing specific workflow, we need to add below parameters
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+   
+   * - projectId
+     - The canonical identifier of the workflow to Execute. This field is required.
+   
+   * - workflowId
+     - The canonical identifier of the workflow to Execute. This field is required.
+     
+
+An Example response:
+
+::
+
+   200
+

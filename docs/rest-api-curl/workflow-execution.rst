@@ -199,72 +199,23 @@ An example response:
 
     [
     {
-    "id": 193,
+    "id": 162,
+    "analysisFlowId": 131,
     "userId": 33,
-    "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
-    "name": "string",
-    "category": "string",
-    "content": "{\"name\":\"string\",\"uuid\":\"9213211a-c0ae-40e0-be80-824800e06d82\",\"category\":\"string\",\"description\":\"string\",\"parameters\":\"string\",\"nodes\":[{\"id\":\"string\",\"path\":\"string\",\"name\":\"string\",\"iconImage\":\"string\",\"description\":\"string\",\"details\":\"\",\"examples\":\"\",\"type\":\"string\",\"nodeClass\":\"string\",\"x\":\"string\",\"y\":\"string\",\"fields\":[{\"name\":\"string\",\"value\":\"string\",\"widget\":\"string\",\"title\":\"string\",\"description\":\"string\",\"optionsMap\":{},\"datatypes\":[\"string\"],\"optionsArray\":[\"string\"],\"required\":true,\"display\":true,\"editable\":true,\"disableRefresh\":true}],\"engine\":\"string\"}],\"edges\":[{\"source\":\"string\",\"target\":\"string\",\"id\":0}],\"dataSetDetails\":[],\"engine\":\"string\"}",
-    "description": "string",
-    "version": 0,
-    "dateCreated": 1566831921251,
-    "dateLastUpdated": 1566831921251,
-    "lockedByUserId": null,
-    "permission": null,
-    "workflow": {
-      "name": "string",
-      "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
-      "category": "string",
-      "description": "string",
-      "parameters": "string",
-      "nodes": [
-        {
-          "id": "string",
-          "path": "string",
-          "name": "string",
-          "iconImage": "string",
-          "description": "string",
-          "details": "",
-          "examples": "",
-          "type": "string",
-          "nodeClass": "string",
-          "x": "string",
-          "y": "string",
-          "fields": [
-            {
-              "name": "string",
-              "value": "string",
-              "widget": "string",
-              "title": "string",
-              "description": "string",
-              "optionsMap": {},
-              "datatypes": [
-                "string"
-              ],
-              "optionsArray": [
-                "string"
-              ],
-              "required": true,
-              "display": true,
-              "editable": true,
-              "disableRefresh": true
-            }
-          ],
-          "engine": "string"
-        }
-      ],
-      "edges": [
-        {
-          "source": "string",
-          "target": "string",
-          "id": 0
-        }
-      ],
-      "dataSetDetails": [],
-      "engine": "string",
-      "h2OWorkflow": false
-    },
     "projectId": 33,
-    "engine": "string"
-    }, 
+    "analysisFlowScheduleId": null,
+    "status": 2,
+    "name": "Test_workflow",
+    "category": "-",
+    "description": "Fired Manually",
+    "logs": "/tmp/fire/workflowlogs/workflow-3535160145732140945.log",
+    "fireJobId": "7b456feb-22fe-474e-a0c6-f31c40a1a9cd",
+    "applicationId": "application_1560754639341_5934",
+    "uiWebUrl": "http://hostname:4040",
+    "metrics": null,
+    "startTime": 1566834233892,
+    "endTime": 1566834262432,
+    "emailOnSuccess": null,
+    "emailOnFailure": null
+    },
 

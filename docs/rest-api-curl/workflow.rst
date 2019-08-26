@@ -9,7 +9,7 @@ Below are the various Workflow API's available in Fire Insights. They should be 
 Create Workflow
 ---------------
 
-Creates a new Workflow.
+Create a new Workflow.
  
 For creating a new Workflow set analysisFlowId = 0 & projectId = 33:
 

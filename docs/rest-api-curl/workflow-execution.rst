@@ -35,13 +35,25 @@ An example response:
 
     200
 
+List all the executions
+------------------------
 
-Get Workflow Executions
-----------------------------
+List all the workflow  executions.
 
-Returns the list of Executions for the logged in user::
+An example request for List all the executions:
 
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions'
+::
+
+    curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions?page=0&size=1000' -b /tmp/cookies.txt
+    
+An example response:
+
+::
+
+    200    
+    
+    
+
 
 View execution result of a given execution
 ------------------------------------------

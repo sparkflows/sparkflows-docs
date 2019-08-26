@@ -86,7 +86,41 @@ An Example response:
 
 ::
 
-   200     
+   200 
+   
+List executions of a Workflow
+------------------------------
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-executions/workflows/
+     - GET
+     
+Request Structure
+
+For Listing executions of a workflow, we need to add below parameters:
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+   
+   * - workflowId
+     - The canonical identifier of the List execution of workflow. This field is required.   
+     
+An example response:
+
+::
+
+    200     
+
      
      
 

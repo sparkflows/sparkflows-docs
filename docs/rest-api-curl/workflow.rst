@@ -11,16 +11,15 @@ Create Workflow
 
 Create a new Workflow.
  
-For creating a new Workflow set analysisFlowId = 0 & projectId = 33:
 
 An example request for creating workflow:
 
 ::
 
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' -d '{
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' -d '{
   "analysisflowId": 0,
   "comment": "string",
-  "projectId": 33,
+  "projectId": 0,
   "workflow": {
     "category": "string",
     "dataSetDetails": [
@@ -89,7 +88,7 @@ An example request for creating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://localhost:8080/api/v1/workflows' -b /tmp/cookies.txt
+}' 'http://hostname:port/api/v1/workflows'
 
 An example response:
 

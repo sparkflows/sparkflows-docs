@@ -109,4 +109,9 @@ For updating the workflow required prope projectID & workflowId.
    * - projecId
      - The canonical identifier of the workflow to update. This field is required.
 
+An Example Response:
+
+::
+
+    129
 

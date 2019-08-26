@@ -1,2 +1,2 @@
-Update-workflows
+Update workflow
 -----------------

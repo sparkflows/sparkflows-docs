@@ -67,7 +67,13 @@ Create the AWS Lambda function to take the SQL Event and kick off the workflow i
 
 First create an IAM role. An example is shown below.
 
-We add 3 Environment variables as shown below. Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
+We add 3 Environment variables as shown below. These get used by the Lambda functions in this example.
+
+  * SPARKFLOWS_TOKEN
+  * SPARKFLOWS_URL
+  * WORKFLOW_ID
+
+Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
 
 .. figure:: ../_assets/aws/file-watcher-lambda-1.png
    :alt: AWS Lambda

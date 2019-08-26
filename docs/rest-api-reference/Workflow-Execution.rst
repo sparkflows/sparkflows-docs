@@ -191,7 +191,7 @@ An Example response:
 
 ::
 
-    200
+    {"status":"ok","message":"Stopping Analysis Flow Execution"}
 
 Kill workflow Execution
 -----------------------
@@ -224,7 +224,7 @@ An Example response:
 
 ::
 
-    200
+    Killed YARN application : yarn application -kill application_1560754639341_5930,Exit Value : 0
     
 Delete Workflow Executions by days
 -----------------------------------

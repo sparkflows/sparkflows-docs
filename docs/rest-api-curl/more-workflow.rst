@@ -61,4 +61,25 @@ Since already Example application is there
 
    "Example Applications might already have been loaded"
 
+Get input schema For a Node
+------------------
+ 
+* nodeId: 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d  '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/api/v1/nodes/2/schema/input?projectId=1'
+
+
+Get output schema of a Node
+---------------------------
+
+* nodeId: 1
+
+::
+
+    curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'api_key: cookies' -d '{"name":"string","nodes":[],"edges":[]}
+' 'http://localhost:8080/api/v1/nodes/2/schema/output?projectId=3'
+
 

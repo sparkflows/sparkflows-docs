@@ -284,7 +284,7 @@ List
    * - /api/v1/workflows
      - GET  
 
-- Response Structure
+Response Structure
 
 
 .. list-table:: 

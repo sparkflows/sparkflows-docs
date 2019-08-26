@@ -121,8 +121,8 @@ An Example response:
 
     200     
 
-Stops Execution of workflow
---------------------------------
+Stops workflow Execution
+------------------------
 
 .. list-table:: 
    :widths: 10 40
@@ -154,8 +154,8 @@ An Example response:
 
     200
 
-Kill the Execution of workflow
-------------------------------
+Kill workflow Execution
+-----------------------
 
 .. list-table:: 
    :widths: 10 40

@@ -118,7 +118,7 @@ Delete Workflow Executions by days
 
 An example request for deleting workflow executions by days::
 
-  curl -X DELETE --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
+  curl -X DELETE --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
   
 
 An Example response:

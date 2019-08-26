@@ -289,7 +289,7 @@ List all workflows. An example response:
 ::
 
     [
-  {
+    {
     "id": 1,
     "userId": 1,
     "uuid": "f0cbdb0a-3415-487c-b7f0-593bf1397ef0",

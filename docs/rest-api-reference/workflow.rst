@@ -305,7 +305,7 @@ List all workflows. An example response:
     "workflow": null,
     "projectId": 1,
     "engine": scala
-  },
+    },
   
 - Response Structure
 

@@ -6,18 +6,34 @@ Overview
  
 The Workflow Execution REST API's, allow you to execute Workflows, get results etc.
 
-Below are the various Workflow Execution API's available in Sparkflows
+Below are the various Workflow Execution API's available in Fire Insights, They should be executed after you have logged into Fire Insights.
 
-They should be executed after you have logged into Sparkflows
+
 
 Execute a Workflow
 ------------------
 
-It executes a given Workflow.
+Execute specified Workflow.
 
-It returns the workflow execution id::
+An example request for Executing specified workflow:
 
-  curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'workflowId: 1' --header 'api_key: cookies' -d '{ "userName": "admin", "userId": 1, "sparkConfig": "", "libJarsList": [], "emailOnFailure": "", "emailOnSuccess": "" }' 'http://localhost:8080/api/v1/workflow/execute'
+::
+   
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' -d '{
+  "emailOnFailure": "string",
+  "emailOnSuccess": "string",
+  "libJars": "string",
+  "programParameters": "string",
+  "sparkConfig": "string",
+  "workflowId": 0
+  }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
+   
+
+An example response:
+
+::
+
+    200
 
 
 Get Workflow Executions

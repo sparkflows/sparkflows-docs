@@ -240,7 +240,7 @@ An example response:
 
 ::
 
-    Workflow deleted successfully.
+    200
 
 
 

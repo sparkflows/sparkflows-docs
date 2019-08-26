@@ -9,7 +9,7 @@ Delete workflow
      - HTTP Method
      
    * - http://hostname:port/api/v1/workflows/id/{workflowId}
-     - GET  
+     - DELETE  
      
 An example request to delete the workflow:    
  

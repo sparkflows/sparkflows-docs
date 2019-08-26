@@ -26,13 +26,13 @@ An example request for creating workflow:
 ::
  
      {
-  "analysisflowId": 0,
-  "comment": "string",
-  "projectId": 33,
-  "workflow": {
-    "category": "string",
-    "dataSetDetails": [
-      {
+     "analysisflowId": 0,
+     "comment": "string",
+     "projectId": 33,
+     "workflow": {
+     "category": "string",
+     "dataSetDetails": [
+     {
         "datasetSchema": "string",
         "datasetType": "CSV",
         "delimiter": "string",
@@ -45,27 +45,27 @@ An example request for creating workflow:
         "readOptions": "string",
         "uuid": "string",
         "version": 0
-      }
-    ],
-    "description": "string",
-    "edges": [
-      {
+     }
+     ],
+      "description": "string",
+      "edges": [
+     {
         "id": 0,
         "source": "string",
         "target": "string"
-      }
-    ],
-    "engine": "string",
-    "h2OWorkflow": true,
+     }
+     ],
+       "engine": "string",
+       "h2OWorkflow": true,
     "name": "string",
     "nodes": [
-      {
+     {
         "description": "string",
         "details": "string",
         "engine": "string",
         "examples": "string",
         "fields": [
-          {
+     {
             "datatypes": [
               "string"
             ],
@@ -76,13 +76,13 @@ An example request for creating workflow:
             "name": "string",
             "optionsArray": [
               "string"
-            ],
+        ],
             "optionsMap": {},
             "required": true,
             "title": "string",
             "value": "string",
             "widget": "string"
-          }
+        }
         ],
         "iconImage": "string",
         "id": "string",
@@ -92,12 +92,12 @@ An example request for creating workflow:
         "type": "string",
         "x": "string",
         "y": "string"
-      }
-    ],
-    "parameters": "string",
-    "uuid": "string"
-  }
-  },
+        }
+        ],
+         "parameters": "string",
+         "uuid": "string"
+        }
+        },
   
 An Example response:
 

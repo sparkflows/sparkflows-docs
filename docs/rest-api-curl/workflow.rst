@@ -101,7 +101,7 @@ Execute Workflow
 
 Execute specified Workflow.
 
-An example request for Execute specified workflow:
+An example request for Executing specified workflow:
 
 ::
    

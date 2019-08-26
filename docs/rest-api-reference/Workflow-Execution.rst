@@ -153,3 +153,38 @@ An example response:
 ::
 
     200
+
+Kill the execution of workflow
+------------------------------
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-execution/{workflowExecutionId}/kill
+     - GET
+     
+Request Structure
+
+For Stopping execution of a workflow, we need to add below parameters:
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+   
+   * - workflowExecutionId
+     - The canonical identifier of the Execution of workflow. This field is required.   
+     
+An example response:
+
+::
+
+    200
+
+

@@ -74,9 +74,13 @@ Stops the execution of workflow
  
 Stops the execution of workflow with specified workflowExecutionId.
 
-Workflow Execution Id = 65::
+Workflow Execution Id = 100::
 
-  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/65/stop'' -b /tmp/cookies.txt
+An example request for Stopping specified workflow:
+
+::
+
+  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
   
 An example response:
 
@@ -84,14 +88,22 @@ An example response:
 
     200  
   
-View Spark Log of a workflow execution
---------------------------------------
+Kill the execution of workflow
+------------------------------
  
-Return the logs of a given workflow execution
+Kill the execution of workflow with specified workflowExecutionId.
 
-Workflow Execution Id = 81::
+Workflow Execution Id = 100::
 
-  curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflow-executions/81/logs/view'
+An example request for Killing specified workflow::
+
+  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
+
+An example response:
+
+::
+
+    200
   
   
 Get the list of jar files under the fire-lib directory

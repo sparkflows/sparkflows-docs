@@ -24,7 +24,7 @@ An Example request to Execute specific workflow:
      "libJars": "string",
      "programParameters": "string",
      "sparkConfig": "string",
-     "workflowId": 0
+     "workflowId": 1
     },
 
 Request Structure

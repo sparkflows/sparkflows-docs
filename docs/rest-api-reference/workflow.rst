@@ -1,11 +1,11 @@
-Workflow REST API
+Workflow API
 ==================
 
 The Workflow REST API's, allow you you to create, edit, and delete workflows.
 
 Below are the various Workflow API's available in Fire Insights. They should be executed after you have logged into Fire Insights.
 
-Create workflow
+Create
 ----------------
 
 
@@ -104,7 +104,7 @@ An Example response:
 
     97
 
-Execute workflow
+Execute
 ------------------
 
 .. list-table:: 
@@ -350,7 +350,7 @@ An Example response:
 
    200
 
-Update workflow
+Update
 -----------------
 
 .. list-table:: 
@@ -467,7 +467,7 @@ An Example Response:
 
     129
 
-List workflows
+List
 --------------
 
 
@@ -518,7 +518,7 @@ List all workflows. An example response:
    * - workflow
      - List all workflows
 
-Delete workflow
+Delete
 ----------------
 
 .. list-table:: 

@@ -14,7 +14,7 @@ Execute
    * - /api/v1/workflow/execute
      - POST
      
-An example request to Execute specific workflow:   
+An Example request to Execute specific workflow:   
 
 ::
 
@@ -115,7 +115,7 @@ For Listing executions of a workflow, we need to add below parameters:
    * - workflowId
      - The canonical identifier of the List execution of workflow. This field is required.   
      
-An example response:
+An Example response:
 
 ::
 
@@ -148,7 +148,7 @@ For Stopping execution of a workflow, we need to add below parameters:
    * - workflowExecutionId
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An example response:
+An Example response:
 
 ::
 
@@ -181,7 +181,7 @@ For Killing execution of a workflow, we need to add below parameters:
    * - workflowExecutionId
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An example response:
+An Example response:
 
 ::
 
@@ -214,7 +214,7 @@ For deleting execution of a workflow, we need to add below parameters:
    * - days
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An example response:
+An Example response:
 
 ::
 
@@ -234,7 +234,7 @@ Get Executed Task Count
      - GET
      
     
-An example response:
+An Example response:
 
 ::
 
@@ -253,7 +253,7 @@ Get Latest Executions
    * - /api/v1/workflow-executions/latest
      - GET
      
-An example response:
+An Example response:
 
 ::
 

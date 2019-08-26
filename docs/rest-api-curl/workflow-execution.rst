@@ -59,7 +59,7 @@ List executions of a Workflow
  
 Return the list of Executions for given workflowId.
 
-workflowId = 81::
+workflowId = 131::
 
 An example request for List executions of a Workflow::
 
@@ -107,39 +107,50 @@ An example response:
 
     200
   
-  
-Get the list of jar files under the fire-lib directory
-----------------------------------------------------------
-
-  curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/api/v1/lib-jars'
-  
+ 
   
 Delete Workflow Executions by days
 ----------------------------------
  
-"days": "3"::
+ Delete Workflow Executions by days
+ 
+"days": "7"::
 
-  curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflow-executions/days/3'
+An example request for deleting workflow executions by days::
+
+  curl -X DELETE --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
   
-  
+
+An example response:
+
+::
+
+    200
+
 Get Executed Task Count
 -----------------------
- 
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions/tasks/count'
+
+Get Executed Task Count:
+
+An example request for Getting Executed Task Count:
+
+  curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/tasks/count' -b /tmp/cookies.txt
   
+
+An example response:
+
+::
+
+    200
+
 Get Latest Executions
 ---------------------
- 
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions/latest'
+
+Get Latest Executions:
+
+An example request for Getting Latest Executions::
+
+  curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/latest' -b /tmp/cookies.txt
+   
   
-Get the latest execution result of workflow
---------------------------------------------
- 
-"workflowId": "1",
-
-"nodeId": "1"::
-
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/execution-results/workflows/1/nodes/1/latest'
-
-
 

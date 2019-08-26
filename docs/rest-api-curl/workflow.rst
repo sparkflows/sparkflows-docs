@@ -222,7 +222,7 @@ An example request for getting workflow by id:
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/id/1' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflows/id/1' -b /tmp/cookies.txt
 
 An example response:
 

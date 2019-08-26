@@ -19,7 +19,7 @@ An example request for creating workflow:
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
   "analysisflowId": 0,
   "comment": "string",
-  "projectId": 0,
+  "projectId": 33,
   "workflow": {
     "category": "string",
     "dataSetDetails": [
@@ -111,7 +111,7 @@ An example request for Executing specified workflow:
   "libJars": "string",
   "programParameters": "string",
   "sparkConfig": "string",
-  "workflowId": 0
+  "workflowId": 1
   }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
@@ -131,9 +131,9 @@ An example request for updating workflow:
 ::
  
    curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-  "analysisflowId": 0,
+  "analysisflowId": 1,
   "comment": "string",
-  "projectId": 0,
+  "projectId": 33,
   "workflow": {
     "category": "string",
     "dataSetDetails": [

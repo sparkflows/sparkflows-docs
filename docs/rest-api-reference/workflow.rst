@@ -175,7 +175,7 @@ An example request for updating a workflow:
     {
      "analysisflowId": 1,
      "comment": "string",
-     "projectId": 0,
+     "projectId": 33,
      "workflow": {
      "category": "string",
      "dataSetDetails": [

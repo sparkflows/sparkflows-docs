@@ -16,7 +16,7 @@ Create
    * - Endpoint
      - HTTP Method
      
-   * - http://hostname:port/api/v1/workflows
+   * - /api/v1/workflows
      - POST  
      
 Create a new workflow.
@@ -114,7 +114,7 @@ Execute
    * - Endpoint
      - HTTP Method
      
-   * - http://hostname:port/api/v1/workflow/execute
+   * - /api/v1/workflow/execute
      - POST
      
 An example request to Execute specific workflow:   
@@ -360,7 +360,7 @@ Update
    * - Endpoint
      - HTTP Method
      
-   * - http://hostname:port/api/v1/workflows
+   * - /api/v1/workflows
      - PUT
      
   
@@ -478,7 +478,7 @@ List
    * - Endpoint
      - HTTP Method
      
-   * - http://hostname:8080/api/v1/workflows/all
+   * - /api/v1/workflows/all
      - GET  
      
 List all workflows. An example response:
@@ -528,7 +528,7 @@ Delete
    * - Endpoint
      - HTTP Method
      
-   * - http://hostname:port/api/v1/workflows/id/{workflowId}
+   * - /api/v1/workflows/id/{workflowId}
      - DELETE  
      
 An example request to delete the workflow:    

@@ -339,11 +339,7 @@ Delete
      
 An example request to delete the workflow:    
  
-::
 
-     {
-    "workflowId": 130
-    }    
      
 Request Structure
 

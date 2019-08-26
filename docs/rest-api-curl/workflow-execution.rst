@@ -61,6 +61,8 @@ Return the list of Executions for given workflowId.
 
 workflowId = 81::
 
+An example request for List executions of a Workflow::
+
   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions/workflows/131' -b /tmp/cookies.txt
 
 An example response:

@@ -94,7 +94,7 @@ An example request for updating a workflow:
 
 Request Structure
 
-For updating the workflow required prope projectID & workflowId.
+For updating en example workflow, required projectId & workflowId.
 
 .. list-table:: 
    :widths: 10 40

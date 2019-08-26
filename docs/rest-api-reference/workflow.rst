@@ -299,7 +299,7 @@ Response Structure
      - List all workflows
 
 
-List all workflows. An example response:
+An Example response:
 
 ::
 

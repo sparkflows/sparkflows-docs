@@ -44,7 +44,7 @@ An example request for List all the executions:
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions?page=0&size=1000' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions?page=0&size=1000' -b /tmp/cookies.txt
     
 An Example response:
 
@@ -63,7 +63,7 @@ workflowId = 131::
 
 An Example request for List executions of a Workflow::
 
-  curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions/workflows/131' -b /tmp/cookies.txt
+  curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/workflows/131' -b /tmp/cookies.txt
 
 An Example response:
 
@@ -82,7 +82,7 @@ An Example request for Stopping specified workflow:
 
 ::
 
-  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
+  curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
   
 An Example response:
 
@@ -99,7 +99,7 @@ Workflow Execution Id = 100::
 
 An example request for Killing specified workflow::
 
-  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
+  curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
 
 An Example response:
 
@@ -118,7 +118,7 @@ Delete Workflow Executions by days
 
 An example request for deleting workflow executions by days::
 
-  curl -X DELETE --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
+  curl -X DELETE --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
   
 
 An Example response:

@@ -84,7 +84,27 @@ An Example response:
 
 ::
 
-   200 
+   [
+   {
+    "id": 135,
+    "analysisFlowId": 161,
+    "userId": 33,
+    "projectId": 33,
+    "analysisFlowScheduleId": null,
+    "status": 2,
+    "name": "Test_csv",
+    "category": "-",
+    "description": "Fired Manually",
+    "logs": "/tmp/fire/workflowlogs/workflow-5342148677548385044.log",
+    "fireJobId": "02aedbe5-0713-4172-9f7c-c63272f7cbd9",
+    "applicationId": "application_1560754639341_5932",
+    "uiWebUrl": "http://hostname:4042",
+    "metrics": null,
+    "startTime": 1566821007783,
+    "endTime": 1566821024075,
+    "emailOnSuccess": null,
+    "emailOnFailure": null
+   },
    
 List Executions of Workflow
 ------------------------------

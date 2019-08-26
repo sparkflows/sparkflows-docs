@@ -1,4 +1,4 @@
-Workflows REST API
+Workflow REST API
 ==================
 
 The Workflow REST API's, allow you to interact with the Workflows.

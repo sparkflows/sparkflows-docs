@@ -121,7 +121,7 @@ An example response:
 
     200     
 
-Stops the execution of workflow
+Stops Execution of workflow
 --------------------------------
 
 .. list-table:: 
@@ -154,7 +154,7 @@ An example response:
 
     200
 
-Kill the execution of workflow
+Kill the Execution of workflow
 ------------------------------
 
 .. list-table:: 
@@ -186,5 +186,36 @@ An example response:
 ::
 
     200
+    
+Delete Workflow Executions by days
+-----------------------------------
 
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
 
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-executions/days/{days}
+     - DELETE
+     
+Request Structure
+
+For Stopping execution of a workflow, we need to add below parameters:
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+   
+   * - days
+     - The canonical identifier of the Execution of workflow. This field is required.   
+     
+An example response:
+
+::
+
+    200

@@ -53,25 +53,21 @@ An example response:
     200    
     
     
-
-
-View execution result of a given execution
-------------------------------------------
-
-AnalysisFlowExecutionId = 79
-
-Type = 2::
-
-  curl -X GET --header 'Accept: */*' 'http://localhost:8080/api/v1/execution-results/workflow-executions/79/resultType/{type}'
   
-View executions of a Workflow
+List executions of a Workflow
 ------------------------------
  
-Return the list of Executions for given Analysis Flow Id.
+Return the list of Executions for given workflowId.
 
 workflowId = 81::
 
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions/workflows/81'
+  curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions/workflows/131' -b /tmp/cookies.txt
+
+An example response:
+
+::
+
+    200
   
 Stop Executing a Workflow
 -------------------------

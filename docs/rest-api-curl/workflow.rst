@@ -112,7 +112,7 @@ An example request for creating workflow:
   "programParameters": "string",
   "sparkConfig": "string",
   "workflowId": 0
-}' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
+  }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
 An example response:

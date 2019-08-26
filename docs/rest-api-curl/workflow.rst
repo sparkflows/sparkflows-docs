@@ -321,27 +321,6 @@ An example response:
 
 
 
-Load Example Applications
--------------------------
-
-Load Example Applications
-
-An example request for Loading Example Applications
-
-::
-
-    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/apps/example-datasets-and-workflows/load' -b /tmp/cookies.txt
-    
-An example response:
-
-Since already Example application is there
-
-::
-
-   "Example Applications might already have been loaded"
-
-
-
 
 Get the workflow versions
 ------------------------------ 

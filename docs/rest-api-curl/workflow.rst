@@ -97,6 +97,31 @@ An example response:
 
     200
 
+Execute Workflow
+---------------
+
+Execute specified Workflow.
+
+An example request for creating workflow:
+
+::
+   
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' -d '{
+  "emailOnFailure": "string",
+  "emailOnSuccess": "string",
+  "libJars": "string",
+  "programParameters": "string",
+  "sparkConfig": "string",
+  "workflowId": 0
+}' 'http://hostname:port:8080/api/v1/workflow/execute'
+   
+
+An example response:
+
+::
+
+    200
+
 Get workflow by Id
 ------------------
 

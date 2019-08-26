@@ -257,7 +257,7 @@ An Example response:
 
 ::
 
-    200
+    Workflow executions deleted successfully
 
 Get Executed Task Count
 -----------------------
@@ -277,7 +277,7 @@ An Example response:
 
 ::
 
-    200
+    92
 
 Get Latest Executions
 ---------------------
@@ -296,4 +296,73 @@ An Example response:
 
 ::
 
-    200     
+    [
+    {
+    "id": 193,
+    "userId": 33,
+    "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
+    "name": "string",
+    "category": "string",
+    "content": "{\"name\":\"string\",\"uuid\":\"9213211a-c0ae-40e0-be80-824800e06d82\",\"category\":\"string\",\"description\":\"string\",\"parameters\":\"string\",\"nodes\":[{\"id\":\"string\",\"path\":\"string\",\"name\":\"string\",\"iconImage\":\"string\",\"description\":\"string\",\"details\":\"\",\"examples\":\"\",\"type\":\"string\",\"nodeClass\":\"string\",\"x\":\"string\",\"y\":\"string\",\"fields\":[{\"name\":\"string\",\"value\":\"string\",\"widget\":\"string\",\"title\":\"string\",\"description\":\"string\",\"optionsMap\":{},\"datatypes\":[\"string\"],\"optionsArray\":[\"string\"],\"required\":true,\"display\":true,\"editable\":true,\"disableRefresh\":true}],\"engine\":\"string\"}],\"edges\":[{\"source\":\"string\",\"target\":\"string\",\"id\":0}],\"dataSetDetails\":[],\"engine\":\"string\"}",
+    "description": "string",
+    "version": 0,
+    "dateCreated": 1566831921251,
+    "dateLastUpdated": 1566831921251,
+    "lockedByUserId": null,
+    "permission": null,
+    "workflow": {
+      "name": "string",
+      "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
+      "category": "string",
+      "description": "string",
+      "parameters": "string",
+      "nodes": [
+        {
+          "id": "string",
+          "path": "string",
+          "name": "string",
+          "iconImage": "string",
+          "description": "string",
+          "details": "",
+          "examples": "",
+          "type": "string",
+          "nodeClass": "string",
+          "x": "string",
+          "y": "string",
+          "fields": [
+            {
+              "name": "string",
+              "value": "string",
+              "widget": "string",
+              "title": "string",
+              "description": "string",
+              "optionsMap": {},
+              "datatypes": [
+                "string"
+              ],
+              "optionsArray": [
+                "string"
+              ],
+              "required": true,
+              "display": true,
+              "editable": true,
+              "disableRefresh": true
+            }
+          ],
+          "engine": "string"
+        }
+      ],
+      "edges": [
+        {
+          "source": "string",
+          "target": "string",
+          "id": 0
+        }
+      ],
+      "dataSetDetails": [],
+      "engine": "string",
+      "h2OWorkflow": false
+    },
+    "projectId": 33,
+    "engine": "string"
+    },   

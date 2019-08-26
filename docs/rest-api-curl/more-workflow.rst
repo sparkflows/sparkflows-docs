@@ -41,3 +41,24 @@ Get the value of a given field in a Node of a Workflow
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 2' --header 'fieldName: imageCol' -d '{"name":"OCR","nodes":[],"edges":[]}' 'http://localhost:8080/getValue1d' -b /tmp/cookies.txt
 
+
+Load Example Applications
+-------------------------
+
+Load Example Applications
+
+An example request for Loading Example Applications
+
+::
+
+    curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/apps/example-datasets-and-workflows/load' -b /tmp/cookies.txt
+    
+An example response:
+
+Since already Example application is there
+
+::
+
+   "Example Applications might already have been loaded"
+
+

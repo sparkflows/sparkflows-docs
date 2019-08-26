@@ -281,7 +281,7 @@ List
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/workflows/all
+   * - /api/v1/workflows
      - GET  
      
 List all workflows. An example response:

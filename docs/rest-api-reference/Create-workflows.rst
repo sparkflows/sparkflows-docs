@@ -10,7 +10,7 @@ Create workflows
      - HTTP Method
      
    * - http://hostname:port/api/v1/workflows
-     - GET  
+     - POST  
      
 Create a new workflow.
  

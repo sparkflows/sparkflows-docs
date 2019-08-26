@@ -71,7 +71,7 @@ An Example response:
 
     200
   
-Stops the Execution of workflow
+Stop the Execution of workflow
 --------------------------------
  
 Stops the execution of workflow with specified workflowExecutionId.

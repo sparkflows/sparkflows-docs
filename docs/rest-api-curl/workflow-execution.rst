@@ -15,7 +15,7 @@ Execute Workflow
 
 Execute specified Workflow.
 
-An example request for Executing specified workflow:
+An Example request for Executing specified workflow:
 
 ::
    
@@ -29,7 +29,7 @@ An example request for Executing specified workflow:
   }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
-An example response:
+An Example response:
 
 ::
 
@@ -46,7 +46,7 @@ An example request for List all the executions:
 
     curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions?page=0&size=1000' -b /tmp/cookies.txt
     
-An example response:
+An Example response:
 
 ::
 
@@ -61,11 +61,11 @@ Return the list of Executions for given workflowId.
 
 workflowId = 131::
 
-An example request for List executions of a Workflow::
+An Example request for List executions of a Workflow::
 
   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflow-executions/workflows/131' -b /tmp/cookies.txt
 
-An example response:
+An Example response:
 
 ::
 
@@ -78,13 +78,13 @@ Stops the execution of workflow with specified workflowExecutionId.
 
 Workflow Execution Id = 100::
 
-An example request for Stopping specified workflow:
+An Example request for Stopping specified workflow:
 
 ::
 
   curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
   
-An example response:
+An Example response:
 
 ::
 
@@ -101,7 +101,7 @@ An example request for Killing specified workflow::
 
   curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
 
-An example response:
+An Example response:
 
 ::
 
@@ -121,7 +121,7 @@ An example request for deleting workflow executions by days::
   curl -X DELETE --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/days/7' -b /tmp/cookies.txt
   
 
-An example response:
+An Example response:
 
 ::
 
@@ -137,7 +137,7 @@ An example request for Getting Executed Task Count::
   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/tasks/count' -b /tmp/cookies.txt
   
 
-An example response:
+An Example response:
 
 ::
 
@@ -148,11 +148,11 @@ Get Latest Executions
 
 Get Latest Executions:
 
-An example request for Getting Latest Executions::
+An Example request for Getting Latest Executions::
 
   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/latest' -b /tmp/cookies.txt
    
-An example response:
+An Example response:
 
 ::
 

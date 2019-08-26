@@ -91,3 +91,22 @@ An example request for updating a workflow:
     "uuid": "string"
   }
 }' 
+
+Request Structure
+
+For updating the workflow required prope projectID & workflowId.
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+     
+   * - workflowId
+     - The canonical identifier of the workflow to update. This field is required.
+   
+   * - projecId
+     - The canonical identifier of the workflow to update. This field is required.
+
+

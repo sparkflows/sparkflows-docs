@@ -26,12 +26,12 @@ An example request for creating workflow:
 ::
  
      {
-     "analysisflowId": 0,
-     "comment": "string",
-     "projectId": 33,
-     "workflow": {
-     "category": "string",
-     "dataSetDetails": [
+      "analysisflowId": 0,
+      "comment": "string",
+      "projectId": 33,
+      "workflow": {
+      "category": "string",
+      "dataSetDetails": [
      {
         "datasetSchema": "string",
         "datasetType": "CSV",
@@ -57,8 +57,8 @@ An example request for creating workflow:
      ],
        "engine": "string",
        "h2OWorkflow": true,
-    "name": "string",
-    "nodes": [
+       "name": "string",
+       "nodes": [
      {
         "description": "string",
         "details": "string",
@@ -68,7 +68,7 @@ An example request for creating workflow:
      {
             "datatypes": [
               "string"
-            ],
+      ],
             "description": "string",
             "disableRefresh": true,
             "display": true,
@@ -76,14 +76,14 @@ An example request for creating workflow:
             "name": "string",
             "optionsArray": [
               "string"
-        ],
+      ],
             "optionsMap": {},
             "required": true,
             "title": "string",
             "value": "string",
             "widget": "string"
-        }
-        ],
+      }
+      ],
         "iconImage": "string",
         "id": "string",
         "name": "string",
@@ -92,12 +92,12 @@ An example request for creating workflow:
         "type": "string",
         "x": "string",
         "y": "string"
-        }
-        ],
+      }
+      ],
          "parameters": "string",
          "uuid": "string"
-        }
-        },
+      }
+      },
   
 An Example response:
 

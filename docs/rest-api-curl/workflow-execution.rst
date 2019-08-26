@@ -25,7 +25,7 @@ An Example request for Executing specified workflow:
   "libJars": "string",
   "programParameters": "string",
   "sparkConfig": "string",
-  "workflowId": 0
+  "workflowId": 1
   }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 

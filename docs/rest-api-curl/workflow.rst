@@ -105,7 +105,7 @@ An example request for Executing specified workflow:
 
 ::
    
-   curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' -d '{
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
   "emailOnFailure": "string",
   "emailOnSuccess": "string",
   "libJars": "string",

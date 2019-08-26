@@ -90,7 +90,7 @@ An example request for updating a workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}, 
+ 
 
 Request Structure
 

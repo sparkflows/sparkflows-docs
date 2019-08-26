@@ -60,7 +60,7 @@ List all Executions
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/workflow-executions?
+   * - /api/v1/workflow-executions?page=0&size=1000
      - GET
      
 Request Structure
@@ -96,7 +96,7 @@ List Executions of Workflow
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/workflow-executions/workflows/
+   * - /api/v1/workflow-executions/workflows/{workflowId}
      - GET
      
 Request Structure

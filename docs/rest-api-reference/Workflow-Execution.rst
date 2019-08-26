@@ -25,7 +25,7 @@ An Example request to Execute specific workflow:
   "programParameters": "string",
   "sparkConfig": "string",
   "workflowId": 0
-}
+  },
 
 Request Structure
 

@@ -240,3 +240,21 @@ An example response:
 
     200
 
+Get Latest Executions
+---------------------
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-executions/latest
+     - GET
+     
+An example response:
+
+::
+
+    200     

@@ -35,10 +35,10 @@ An Example response:
 
     200
 
-List all the executions
+List all the Executions
 ------------------------
 
-List all the workflow  executions.
+List all the workflow executions.
 
 An example request for List all the executions:
 
@@ -54,7 +54,7 @@ An Example response:
     
     
   
-List executions of a Workflow
+List Executions of a Workflow
 ------------------------------
  
 Return the list of Executions for given workflowId.
@@ -71,7 +71,7 @@ An Example response:
 
     200
   
-Stops the execution of workflow
+Stops the Execution of workflow
 --------------------------------
  
 Stops the execution of workflow with specified workflowExecutionId.
@@ -90,7 +90,7 @@ An Example response:
 
     200  
   
-Kill the execution of workflow
+Kill the Execution of workflow
 ------------------------------
  
 Kill the execution of workflow with specified workflowExecutionId.

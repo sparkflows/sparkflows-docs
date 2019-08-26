@@ -33,8 +33,8 @@ Delete a workflow, No action occurs if the workflow has already been deleted. Af
    * - workflowId
      - The canonical identifier of the workflow to delete. This field is required.
      
- An Example Response
+An Example Response:
  
- ::
+::
  
-     Workflow deleted successfully.
+    Workflow deleted successfully.

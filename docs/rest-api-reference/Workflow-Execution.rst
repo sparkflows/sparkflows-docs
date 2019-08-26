@@ -56,7 +56,7 @@ List all Executions
 ------------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 20 40
    :header-rows: 1
 
    * - Endpoint
@@ -92,7 +92,7 @@ List Executions of Workflow
 ------------------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 30 40
    :header-rows: 1
 
    * - Endpoint
@@ -125,7 +125,7 @@ Stops workflow Execution
 ------------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 40 40
    :header-rows: 1
 
    * - Endpoint
@@ -158,7 +158,7 @@ Kill workflow Execution
 -----------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 40 40
    :header-rows: 1
 
    * - Endpoint
@@ -191,7 +191,7 @@ Delete Workflow Executions by days
 -----------------------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 30 40
    :header-rows: 1
 
    * - Endpoint
@@ -224,7 +224,7 @@ Get Executed Task Count
 -----------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 30 40
    :header-rows: 1
 
    * - Endpoint
@@ -244,7 +244,7 @@ Get Latest Executions
 ---------------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 30 40
    :header-rows: 1
 
    * - Endpoint

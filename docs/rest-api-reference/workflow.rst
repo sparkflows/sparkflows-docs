@@ -176,9 +176,9 @@ An example request for updating a workflow:
 ::
 
     {
-  "analysisflowId": 129,
+  "analysisflowId": 0,
   "comment": "string",
-  "projectId": 33,
+  "projectId": 0,
   "workflow": {
     "category": "string",
     "dataSetDetails": [
@@ -247,6 +247,7 @@ An example request for updating a workflow:
     "parameters": "string",
     "uuid": "string"
   }
+}
  
 
 Request Structure

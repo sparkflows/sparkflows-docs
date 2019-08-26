@@ -445,13 +445,13 @@ Gets the count of the workflows in the given application.
 An example request for getting count of the Workflow::
 
 
-   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflows/count' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflows/count' -b /tmp/cookies.txt
    
 An example response:
 
 ::
 
-   246
+   200
 
 
 
@@ -459,12 +459,22 @@ An example response:
 Get Workflow Versions
 ------------------------------ 
 
-Gets all the versions for the given workflow id.
+Gets the versions of workflow.
+
+* workflowId: 1
+
+An example request for getting workflow by id:
+
 
 ::
 
-    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/workflows/versions?workflowId=1'
+   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/versions?workflowId=1'
+   
+An example response:
 
+::
+
+   200   
 
 
 

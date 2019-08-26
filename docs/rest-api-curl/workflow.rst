@@ -208,7 +208,7 @@ An example response:
 
 ::
 
-    200
+    131
 
 Get workflow by Id
 ------------------

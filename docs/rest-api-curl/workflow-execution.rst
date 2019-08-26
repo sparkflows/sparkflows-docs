@@ -69,14 +69,20 @@ An example response:
 
     200
   
-Stop Executing a Workflow
--------------------------
+Stops the execution of workflow
+--------------------------------
  
-Return the list of Executions for given Analysis Flow Id.
+Stops the execution of workflow with specified workflowExecutionId.
 
-Workflow Execution Id = 1::
+Workflow Execution Id = 65::
 
-  curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflow-execution/1/stop'
+  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/65/stop'' -b /tmp/cookies.txt
+  
+An example response:
+
+::
+
+    200  
   
 View Spark Log of a workflow execution
 --------------------------------------

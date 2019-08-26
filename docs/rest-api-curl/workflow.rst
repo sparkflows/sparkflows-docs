@@ -88,7 +88,7 @@ An example request for creating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://hostname:port/api/v1/workflows'
+}' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
 
 An example response:
 
@@ -112,7 +112,7 @@ An example request for creating workflow:
   "programParameters": "string",
   "sparkConfig": "string",
   "workflowId": 0
-}' 'http://hostname:port/api/v1/workflow/execute'
+}' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
 An example response:
@@ -202,7 +202,7 @@ An example request for updating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}' 'http://hostname:port/api/v1/workflows'
+}' 'http://hostname:port/api/v1/workflows' -b /tmp/cookies.txt
 
 An example response:
 
@@ -222,7 +222,7 @@ An example request for getting workflow by id:
 
 ::
 
-    curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/id/1'
+    curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/id/1' -b /tmp/cookies.txt
 
 An example response:
 
@@ -260,7 +260,7 @@ An example request for getting Latest WorkFlows availble in application::
 
 
 
-    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflows/latest' -b /tmp/cookies.txt
+    curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflows/latest' -b /tmp/cookies.txt
     
 An example response:
 
@@ -468,7 +468,7 @@ An example request for getting workflow by id:
 
 ::
 
-   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/versions?workflowId=1'
+   curl -X GET --header 'Accept: text/html' 'http://hostname:port/api/v1/workflows/versions?workflowId=1' -b /tmp/cookies.txt
    
 An example response:
 

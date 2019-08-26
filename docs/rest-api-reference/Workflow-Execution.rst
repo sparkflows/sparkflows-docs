@@ -38,9 +38,7 @@ For Executing specific workflow, we need to add below parameters
    * - Field Name
      - Description
    
-   * - projectId
-     - The canonical identifier of the workflow to Execute. This field is required.
-   
+      
    * - workflowId
      - The canonical identifier of the workflow to Execute. This field is required.
      

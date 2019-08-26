@@ -137,7 +137,28 @@ An Example response:
 
 ::
 
-    200     
+    [
+    {
+    "id": 99,
+    "analysisFlowId": 131,
+    "userId": 33,
+    "projectId": 33,
+    "analysisFlowScheduleId": null,
+    "status": 2,
+    "name": "Test_workflow",
+    "category": "-",
+    "description": "Fired Manually",
+    "logs": "/tmp/fire/workflowlogs/workflow-4439919411814145818.log",
+    "fireJobId": "7b7b7dd5-b27b-419e-b853-794b5f53a5b8",
+    "applicationId": "application_1560754639341_5929",
+    "uiWebUrl": "http://hostname:4041",
+    "metrics": null,
+    "startTime": 1566795625424,
+    "endTime": 1566795650970,
+    "emailOnSuccess": null,
+    "emailOnFailure": null
+   }
+   ],    
 
 Stops workflow Execution
 ------------------------

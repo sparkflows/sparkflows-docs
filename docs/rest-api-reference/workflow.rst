@@ -103,7 +103,7 @@ An Example response:
 
 :: 
 
-    97
+    200
 
 Execute
 ------------------
@@ -271,7 +271,7 @@ An Example Response:
 
 ::
 
-    129
+    200
 
 List
 --------------
@@ -359,8 +359,7 @@ An Example Response:
  
 ::
  
-    Workflow deleted successfully.
-
+    200
 
 
 

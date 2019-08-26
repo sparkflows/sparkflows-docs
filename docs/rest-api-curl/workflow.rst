@@ -13,7 +13,7 @@ Creates a new Workflow.
  
 For creating a new Workflow set analysisFlowId = 0 & projectId = 33:
 
-An example request for Creating workflow:
+An example request for creating workflow:
 
 ::
 
@@ -100,6 +100,8 @@ An example response:
 Get workflow by Id
 ------------------
 
+Gets the workflow with the given id.
+
 * Id : 1
 
 ::
@@ -131,7 +133,7 @@ An example response:
 Get Latest WorkFlows
 -------------------- 
 
-Get Latest WorkFlows availble in application:
+Gets the latest workFlows available in the given application:
 
 An example request for getting Latest WorkFlows availble in application::
 
@@ -316,7 +318,8 @@ An example response:
 
 Get Workflow Count
 ------------------
-Gets the count of the Workflow in application.
+
+Gets the count of the workflows in the given application.
 
 An example request for getting count of the Workflow::
 
@@ -334,6 +337,8 @@ An example response:
 
 Get the workflow versions
 ------------------------------ 
+
+Gets all the versions for the given workflow id.
 
 ::
 

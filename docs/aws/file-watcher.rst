@@ -51,7 +51,7 @@ Configure AWS S3 bucket to generate events
 
 Configure the AWS S3 bucket to send events for the new files coming in to AWS SQS queue.
 
-Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``. It sends these events to ``sf-file-watcher`` SQS Queue.
+Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``. It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
 
 .. figure:: ../_assets/aws/file-watcher-s3-events.png
    :alt: S3 Events

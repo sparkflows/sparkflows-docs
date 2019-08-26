@@ -169,7 +169,7 @@ Kill the Execution of workflow
      
 Request Structure
 
-For Stopping execution of a workflow, we need to add below parameters:
+For Killing execution of a workflow, we need to add below parameters:
 
 .. list-table:: 
    :widths: 10 40
@@ -202,7 +202,7 @@ Delete Workflow Executions by days
      
 Request Structure
 
-For Stopping execution of a workflow, we need to add below parameters:
+For deleting execution of a workflow, we need to add below parameters:
 
 .. list-table:: 
    :widths: 10 40
@@ -219,3 +219,24 @@ An example response:
 ::
 
     200
+
+Get Executed Task Count
+-----------------------
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-executions/tasks/count
+     - GET
+     
+    
+An example response:
+
+::
+
+    200
+

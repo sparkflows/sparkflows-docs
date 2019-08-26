@@ -173,13 +173,13 @@ An example request for updating a workflow:
 ::
 
     {
-  "analysisflowId": 0,
-  "comment": "string",
-  "projectId": 0,
-  "workflow": {
-    "category": "string",
-    "dataSetDetails": [
-      {
+     "analysisflowId": 0,
+     "comment": "string",
+     "projectId": 0,
+     "workflow": {
+     "category": "string",
+     "dataSetDetails": [
+    {
         "datasetSchema": "string",
         "datasetType": "CSV",
         "delimiter": "string",
@@ -192,21 +192,21 @@ An example request for updating a workflow:
         "readOptions": "string",
         "uuid": "string",
         "version": 0
-      }
+    }
     ],
-    "description": "string",
-    "edges": [
-      {
+      "description": "string",
+      "edges": [
+    {
         "id": 0,
         "source": "string",
         "target": "string"
-      }
+    }
     ],
-    "engine": "string",
-    "h2OWorkflow": true,
-    "name": "string",
-    "nodes": [
-      {
+      "engine": "string",
+      "h2OWorkflow": true,
+      "name": "string",
+      "nodes": [
+    {
         "description": "string",
         "details": "string",
         "engine": "string",
@@ -215,7 +215,7 @@ An example request for updating a workflow:
           {
             "datatypes": [
               "string"
-            ],
+     ],
             "description": "string",
             "disableRefresh": true,
             "display": true,
@@ -223,14 +223,14 @@ An example request for updating a workflow:
             "name": "string",
             "optionsArray": [
               "string"
-            ],
+      ],
             "optionsMap": {},
             "required": true,
             "title": "string",
             "value": "string",
             "widget": "string"
-          }
-        ],
+       }
+       ],
         "iconImage": "string",
         "id": "string",
         "name": "string",
@@ -239,12 +239,12 @@ An example request for updating a workflow:
         "type": "string",
         "x": "string",
         "y": "string"
-      }
-    ],
-    "parameters": "string",
-    "uuid": "string"
-  }
-  },
+       }
+       ],
+         "parameters": "string",
+         "uuid": "string"
+       }
+       },
  
 
 Request Structure

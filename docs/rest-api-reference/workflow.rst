@@ -97,7 +97,7 @@ An example request for creating workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}
+  },
   
 An Example response:
 

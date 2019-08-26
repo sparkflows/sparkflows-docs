@@ -11,7 +11,7 @@ Delete workflow
    * - http://hostname:port/api/v1/workflows/id/130
      - GET  
      
- An example request to delete the workflow:    
+An example request to delete the workflow:    
  
  ::
      {

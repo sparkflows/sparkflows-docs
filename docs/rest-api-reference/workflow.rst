@@ -26,7 +26,7 @@ An example request for creating workflow:
 ::
  
      {
-      "analysisflowId": 0,
+      "analysisflowId": 1,
       "comment": "string",
       "projectId": 33,
       "workflow": {
@@ -128,7 +128,7 @@ An example request to Execute specific workflow:
      "libJars": "string",
      "programParameters": "string",
      "sparkConfig": "string",
-     "workflowId": 0
+     "workflowId": 1
     },
 
 Request Structure
@@ -173,7 +173,7 @@ An example request for updating a workflow:
 ::
 
     {
-     "analysisflowId": 0,
+     "analysisflowId": 1,
      "comment": "string",
      "projectId": 0,
      "workflow": {

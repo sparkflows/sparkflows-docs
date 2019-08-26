@@ -129,7 +129,7 @@ An example request to Execute specific workflow:
   "programParameters": "string",
   "sparkConfig": "string",
   "workflowId": 0
-}
+  },
 
 Request Structure
 
@@ -244,7 +244,7 @@ An example request for updating a workflow:
     "parameters": "string",
     "uuid": "string"
   }
-}
+  },
  
 
 Request Structure

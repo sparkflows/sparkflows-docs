@@ -132,7 +132,7 @@ Get Executed Task Count
 
 Get Executed Task Count:
 
-An example request for Getting Executed Task Count:
+An example request for Getting Executed Task Count::
 
   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflow-executions/tasks/count' -b /tmp/cookies.txt
   

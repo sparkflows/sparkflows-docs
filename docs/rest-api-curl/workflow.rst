@@ -303,15 +303,6 @@ An example response:
         },
 
 
-Get the value of a given field in a Node of a Workflow
-------------------------------------------------------
-
-* "nodeId": "2",
-* "fieldName": "imageCol"
-
-::
-
-    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/html' --header 'nodeId: 2' --header 'fieldName: imageCol' -d '{"name":"OCR","nodes":[],"edges":[]}' 'http://localhost:8080/getValue1d' -b /tmp/cookies.txt
 
 Get Workflow Count
 ------------------

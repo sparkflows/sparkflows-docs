@@ -50,7 +50,27 @@ An Example response:
 
 ::
 
-    200    
+    [
+    {
+    "id": 135,
+    "analysisFlowId": 161,
+    "userId": 33,
+    "projectId": 33,
+    "analysisFlowScheduleId": null,
+    "status": 2,
+    "name": "Test_csv",
+    "category": "-",
+    "description": "Fired Manually",
+    "logs": "/tmp/fire/workflowlogs/workflow-5342148677548385044.log",
+    "fireJobId": "02aedbe5-0713-4172-9f7c-c63272f7cbd9",
+    "applicationId": "application_1560754639341_5932",
+    "uiWebUrl": "http://hostname:4042",
+    "metrics": null,
+    "startTime": 1566821007783,
+    "endTime": 1566821024075,
+    "emailOnSuccess": null,
+    "emailOnFailure": null
+   },   
     
     
   
@@ -69,7 +89,28 @@ An Example response:
 
 ::
 
-    200
+    [
+    {
+    "id": 99,
+    "analysisFlowId": 131,
+    "userId": 33,
+    "projectId": 33,
+    "analysisFlowScheduleId": null,
+    "status": 2,
+    "name": "Test_workflow",
+    "category": "-",
+    "description": "Fired Manually",
+    "logs": "/tmp/fire/workflowlogs/workflow-4439919411814145818.log",
+    "fireJobId": "7b7b7dd5-b27b-419e-b853-794b5f53a5b8",
+    "applicationId": "application_1560754639341_5929",
+    "uiWebUrl": "http://hostname:4041",
+    "metrics": null,
+    "startTime": 1566795625424,
+    "endTime": 1566795650970,
+    "emailOnSuccess": null,
+    "emailOnFailure": null
+   }
+   ],    
   
 Stop the Execution of workflow
 --------------------------------
@@ -88,7 +129,7 @@ An Example response:
 
 ::
 
-    200  
+    {"status":"ok","message":"Stopping Analysis Flow Execution"}
   
 Kill the Execution of workflow
 ------------------------------
@@ -105,7 +146,7 @@ An Example response:
 
 ::
 
-    200
+    Killed YARN application : yarn application -kill application_1560754639341_5930,Exit Value : 0
   
  
   
@@ -125,7 +166,7 @@ An Example response:
 
 ::
 
-    200
+    Workflow executions deleted successfully
 
 Get Executed Task Count
 -----------------------
@@ -141,7 +182,7 @@ An Example response:
 
 ::
 
-    200
+    92
 
 Get Latest Executions
 ---------------------
@@ -156,5 +197,74 @@ An Example response:
 
 ::
 
-    200  
+    [
+    {
+    "id": 193,
+    "userId": 33,
+    "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
+    "name": "string",
+    "category": "string",
+    "content": "{\"name\":\"string\",\"uuid\":\"9213211a-c0ae-40e0-be80-824800e06d82\",\"category\":\"string\",\"description\":\"string\",\"parameters\":\"string\",\"nodes\":[{\"id\":\"string\",\"path\":\"string\",\"name\":\"string\",\"iconImage\":\"string\",\"description\":\"string\",\"details\":\"\",\"examples\":\"\",\"type\":\"string\",\"nodeClass\":\"string\",\"x\":\"string\",\"y\":\"string\",\"fields\":[{\"name\":\"string\",\"value\":\"string\",\"widget\":\"string\",\"title\":\"string\",\"description\":\"string\",\"optionsMap\":{},\"datatypes\":[\"string\"],\"optionsArray\":[\"string\"],\"required\":true,\"display\":true,\"editable\":true,\"disableRefresh\":true}],\"engine\":\"string\"}],\"edges\":[{\"source\":\"string\",\"target\":\"string\",\"id\":0}],\"dataSetDetails\":[],\"engine\":\"string\"}",
+    "description": "string",
+    "version": 0,
+    "dateCreated": 1566831921251,
+    "dateLastUpdated": 1566831921251,
+    "lockedByUserId": null,
+    "permission": null,
+    "workflow": {
+      "name": "string",
+      "uuid": "9213211a-c0ae-40e0-be80-824800e06d82",
+      "category": "string",
+      "description": "string",
+      "parameters": "string",
+      "nodes": [
+        {
+          "id": "string",
+          "path": "string",
+          "name": "string",
+          "iconImage": "string",
+          "description": "string",
+          "details": "",
+          "examples": "",
+          "type": "string",
+          "nodeClass": "string",
+          "x": "string",
+          "y": "string",
+          "fields": [
+            {
+              "name": "string",
+              "value": "string",
+              "widget": "string",
+              "title": "string",
+              "description": "string",
+              "optionsMap": {},
+              "datatypes": [
+                "string"
+              ],
+              "optionsArray": [
+                "string"
+              ],
+              "required": true,
+              "display": true,
+              "editable": true,
+              "disableRefresh": true
+            }
+          ],
+          "engine": "string"
+        }
+      ],
+      "edges": [
+        {
+          "source": "string",
+          "target": "string",
+          "id": 0
+        }
+      ],
+      "dataSetDetails": [],
+      "engine": "string",
+      "h2OWorkflow": false
+    },
+    "projectId": 33,
+    "engine": "string"
+    }, 
 

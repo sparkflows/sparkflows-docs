@@ -20,7 +20,7 @@ It returns the workflow execution id::
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'workflowId: 1' --header 'api_key: cookies' -d '{ "userName": "admin", "userId": 1, "sparkConfig": "", "libJarsList": [], "emailOnFailure": "", "emailOnSuccess": "" }' 'http://localhost:8080/api/v1/workflow/execute'
 
 
-Get Analysis Flow Executions
+Get Workflow Executions
 ----------------------------
 
 Returns the list of Executions for the logged in user::
@@ -63,24 +63,12 @@ Workflow Execution Id = 81::
 
   curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflow-executions/81/logs/view'
   
-Consume the message sent from YarnRestWorkflowContext
------------------------------------------------------
- 
-jobId=1
-
-message=test::
-
-  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080/api/v1/spark-job/messages?jobId=1&message=test'
   
-Returns the list of jar files under the fire-lib directory
+Get the list of jar files under the fire-lib directory
 ----------------------------------------------------------
 
   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/api/v1/lib-jars'
   
-Returns the Spark Configuration for the username
-------------------------------------------------
-
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/spark-configs/username/admin'
   
 Delete Workflow Executions by days
 ----------------------------------
@@ -89,10 +77,6 @@ Delete Workflow Executions by days
 
   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/workflow-executions/days/3'
   
-List all the workflow executions by all users
----------------------------------------------
- 
-  curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions/users'
   
 Get Executed Task Count
 -----------------------
@@ -104,7 +88,7 @@ Get Latest Executions
  
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/workflow-executions/latest'
   
-View the latest execution result of workflow
+Get the latest execution result of workflow
 --------------------------------------------
  
 "workflowId": "1",

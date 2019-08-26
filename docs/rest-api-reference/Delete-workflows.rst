@@ -13,8 +13,8 @@ Delete workflow
      
 An example request to delete the workflow:    
  
- ::
-     {
+::
+    {
  workflowId: 130
  }    
      

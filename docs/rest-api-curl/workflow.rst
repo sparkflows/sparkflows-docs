@@ -17,7 +17,7 @@ An example request for creating workflow:
 ::
 
     curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-  "analysisflowId": 0,
+  "analysisflowId": 1,
   "comment": "string",
   "projectId": 33,
   "workflow": {

@@ -110,7 +110,7 @@ Gets the workflow with the given id.
 
 
 
-Delete the workflow
+Delete Workflow
 -------------------
 
 Deletes a workflow with the given workflowId.
@@ -335,7 +335,7 @@ An example response:
 
 
 
-Get the workflow versions
+Get Workflow Versions
 ------------------------------ 
 
 Gets all the versions for the given workflow id.

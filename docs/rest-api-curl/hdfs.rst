@@ -10,7 +10,7 @@ Below are the various HDFS API's available in Sparkflows
 
 They should be executed after you have logged into Sparkflows
 
-Open a Directory
+Get List of Files in Directory
 ----------------
 
 Returns list of all the files on hdfs in the users home directory
@@ -25,7 +25,7 @@ Create HDFS directory
 
    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/dir/create'
 
-Returns list of files in HDFS in the specified directory
+Get list of files in HDFS in the specified directory
 --------------------------------------------------------
  
 Returns list of files in HDFS in the specified directory(/user/sparkflows/)
@@ -34,7 +34,7 @@ Returns list of files in HDFS in the specified directory(/user/sparkflows/)
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/dir/open?path=%2Fuser%2Fsparkflows%2F'
    
-Returns list of all the files on hdfs in the users home directory in sorted order
+Get list of all the files on hdfs in the users home directory in sorted order
 ----------------------------------------------------------------------------------
 
 *sortPara: alphabetical
@@ -63,7 +63,7 @@ Deletes a file from HDFS
 
   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
    
-download hdfs file
+Download HDFS file
 ------------------
 
 *path: /user/sparkflows/Airline.csv
@@ -83,7 +83,7 @@ Rename HDFS File
    
   curl -X GET --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/rename?sourceFilePath=%2Fuser%2Fsparkflows%2FAirline.csv&destinationFilePath=%2Fuser%2Fsparkflows%2Fairline.csv'
  
-Accepts HDFS file path and returns first X bytes of conten
+Get  first X bytes of content of a file
 ----------------------------------------------------------
 
 *path: /user/sparkflows/Airline.csv

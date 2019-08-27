@@ -122,7 +122,7 @@ Stops workflow Execution
      - HTTP Method
      
    * - /api/v1/workflow-execution/{workflowExecutionId}/stop
-     - GET
+     - POST
      
 Request Structure
 
@@ -155,7 +155,7 @@ Kill workflow Execution
      - HTTP Method
      
    * - /api/v1/workflow-execution/{workflowExecutionId}/kill
-     - GET
+     - POST
      
 Request Structure
 

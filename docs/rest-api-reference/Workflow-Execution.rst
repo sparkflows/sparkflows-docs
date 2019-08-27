@@ -111,7 +111,7 @@ An Example response:
    }
    ],    
 
-List Executions of Workflow by status
+GET Workflow Executions by status
 -------------------------------------
 
 .. list-table:: 
@@ -126,7 +126,7 @@ List Executions of Workflow by status
 
 Request Structure
 
-For Listing execution of a workflow by status, we need to add below parameters:
+For Workflow Executions by status, we need to add below parameters:
 
 .. list-table:: 
    :widths: 10 40
@@ -136,7 +136,7 @@ For Listing execution of a workflow by status, we need to add below parameters:
      - Description
    
    * - workflowExecutionId
-     - The canonical identifier of the Execution of workflow with status. This field is required.   
+     - The canonical identifier of the Workflow Executions by status. This field is required.   
 
 An Example response:
 

@@ -115,10 +115,10 @@ Execute
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/workflow/execute
+   * - /api/v1/workflows/execute
      - POST
      
-An example request to Execute specific workflow:   
+An example request to execute a specific workflow:   
 
 ::
 

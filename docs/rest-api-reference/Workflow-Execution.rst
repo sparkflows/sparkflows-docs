@@ -210,26 +210,6 @@ An Example response:
 
     Workflow executions deleted successfully
 
-Get Executed Task Count
------------------------
-
-.. list-table:: 
-   :widths: 30 40
-   :header-rows: 1
-
-   * - Endpoint
-     - HTTP Method
-     
-   * - /api/v1/workflow-executions/tasks/count
-     - GET
-     
-    
-An Example response:
-
-::
-
-    92
-
 Get Latest Executions
 ---------------------
 

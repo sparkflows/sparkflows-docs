@@ -49,3 +49,20 @@ Data encryption settings on S3 buckets: https://docs.aws.amazon.com/AmazonS3/lat
 .. figure:: ../_assets/tutorials/awscli/AWS4.PNG
    :alt: awscli
    :align: center
+   
+   
+REFERENCE NOTES
+-----
+
+1. You'll need create a user with programmatic access by following the steps here (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
+
+ 
+
+2. Next, you'll create an IAM policy that defines what this user has access to in your AWS account.  It's important to only grant this user minimal access within your account. See this documentation for how to create IAM policies (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html).
+
+ 
+
+3. Finally, you'll create an access key and secret key for this user (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey).
+
+*Note* It's important to regularly rotate your access and secret keys. See this documentation for more information (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console)
+

@@ -111,7 +111,7 @@ An Example response:
    }
    ],    
 
-Stops workflow Execution
+Stop workflow Execution
 ------------------------
 
 .. list-table:: 

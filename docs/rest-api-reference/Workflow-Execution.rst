@@ -126,7 +126,7 @@ GET Status of Workflow Execution
 
 Request Structure
 
-For getting Workflow Execution status, we need to add below parameter:
+For getting Status of Workflow Execution, we need to add below parameter:
 
 .. list-table:: 
    :widths: 10 40

@@ -97,7 +97,7 @@ An example request for Stopping specified workflow:
 
 ::
 
-  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/stop'' -b /tmp/cookies.txt
   
 An example response:
 
@@ -114,7 +114,7 @@ Workflow Execution Id = 100::
 
 An example request for Killing specified workflow::
 
-  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
+  curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-execution/100/kill' -b /tmp/cookies.txt
 
 An example response:
 

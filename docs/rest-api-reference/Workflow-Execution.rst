@@ -31,7 +31,7 @@ For Listing all the executions, we need to add below parameters:
    * - size
      - The different size can be added. 
      
-An Example response:
+An Example Response:
 
 ::
 
@@ -84,7 +84,7 @@ For Listing executions of a workflow, we need to add below parameters:
    * - workflowId
      - The canonical identifier of the List execution of workflow. This field is required.   
      
-An Example response:
+An Example Response:
 
 ::
 
@@ -138,7 +138,7 @@ For getting Workflow Execution status, we need to add below parameter:
    * - workflowExecutionId
      - The canonical identifier of the Workflow Execution. This field is required.   
 
-An Example responses:
+An Example Responses:
 
 ::
 
@@ -177,7 +177,7 @@ For Stopping execution of a workflow, we need to add below parameters:
    * - workflowExecutionId
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An Example response:
+An Example Response:
 
 ::
 
@@ -210,7 +210,7 @@ For Killing execution of a workflow, we need to add below parameters:
    * - workflowExecutionId
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An Example response:
+An Example Response:
 
 ::
 
@@ -243,7 +243,7 @@ For deleting execution of a workflow, we need to add below parameters:
    * - days
      - The canonical identifier of the Execution of workflow. This field is required.   
      
-An Example response:
+An Example Response:
 
 ::
 
@@ -262,7 +262,7 @@ Get Latest Five Executions
    * - /api/v1/workflow-executions/latest
      - GET
      
-An Example response:
+An Example Response:
 
 ::
 

@@ -76,9 +76,6 @@ We add 3 Environment variables as shown below. These get used by the Lambda func
 
 Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
 
-.. figure:: ../_assets/aws/file-watcher-lambda-1.png
-   :alt: AWS Lambda
-   :align: center
    
 .. figure:: ../_assets/aws/file-watcher-lambda-2.png
    :alt: AWS Lambda

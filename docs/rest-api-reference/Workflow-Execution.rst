@@ -111,6 +111,39 @@ An Example response:
    }
    ],    
 
+List Executions of Workflow by status
+-------------------------------------
+
+.. list-table:: 
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/workflow-executions/{workflowExecutionId}/status
+     - GET
+
+Request Structure
+
+For Listing execution of a workflow by status, we need to add below parameters:
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+   
+   * - workflowExecutionId
+     - The canonical identifier of the Execution of workflow. This field is required.   
+
+An Example response:
+
+::
+
+    KILLED
+
 Stop workflow Execution
 ------------------------
 

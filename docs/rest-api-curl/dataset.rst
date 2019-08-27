@@ -126,12 +126,12 @@ CURL::
     '{"colNames":["0.0","this is not a spam","3.0"],"colTypes":["DOUBLE","STRING","DOUBLE"],"colFormats":["","",""],"colMLTypes":["NUMERIC","TEXT","NUMERIC"]}' http://localhost:8080/api/v1/datasets/schema
          
          
-Get  Latest Datasets
+Get Latest Five Datasets
 -------------------- 
 
 Returns the latest updated datasets::
 
-    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/datasets/latest'
+    curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets/latest'
     
          
          

@@ -333,7 +333,7 @@ Delete
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/workflows/id/{workflowId}
+   * - /api/v1/workflows/{workflowId}
      - DELETE  
      
 An example request to delete the workflow:    

@@ -136,7 +136,7 @@ For Listing execution of a workflow by status, we need to add below parameters:
      - Description
    
    * - workflowExecutionId
-     - The canonical identifier of the Execution of workflow. This field is required.   
+     - The canonical identifier of the Execution of workflow with status. This field is required.   
 
 An Example response:
 

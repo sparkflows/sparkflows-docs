@@ -14,7 +14,7 @@ They should be executed after you have logged into Sparkflows.
 Get List of Datasets
 --------------------
 
-Returns the list of Datasets for the logged in user::
+Returns the list of Datasets for the logged in user for a given application id::
 
     curl -X GET --header 'Accept: application/json' --header 'api_key: cookies' 'http://localhost:8080/api/v1/datasets?sortPara=dsc&projectId=1'
          

@@ -436,11 +436,11 @@ An example response:
 Get Processors list for Engine
 ------------------------------
 
-Gets the list of processors for the specified engine.
+Gets the list of processors for the specified engine(scala or python).
 
 An example request for getting list of processors for scala ::
 
-   curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes/scala' -b /tmp/cookies.txt
+   curl -X GET --header 'Accept: application/json' 'http://localhost:8080//api/v1/nodes?engine=scala' -b /tmp/cookies.txt
 
 An example response:
 

@@ -243,7 +243,7 @@ An Example response:
 
     Workflow executions deleted successfully
 
-Get Latest Executions
+Get Latest Five Executions
 ---------------------
 
 .. list-table:: 

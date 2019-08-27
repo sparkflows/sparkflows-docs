@@ -95,7 +95,7 @@ workflowId = 193::
 
 An example request for Workflow Executions by status ::
 
-curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/193/status'
+  curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/193/status'
 
 An example response:
 

@@ -86,14 +86,14 @@ An example response:
    }
    ],    
 
-GET Workflow Execution by status
--------------------------------------
+Get status of workflow execution
+---------------------------------
 
-Return Workflow Executions by status for given workflowId.
+Return status of workflow execution for given workflowId.
 
 workflowId = 193::
 
-An example request for Workflow Executions by status ::
+An example request for status of workflow execution ::
 
   curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/193/status'
 

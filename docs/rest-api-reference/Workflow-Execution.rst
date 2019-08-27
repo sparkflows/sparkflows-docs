@@ -138,13 +138,19 @@ For getting Workflow Execution status, we need to add below parameter:
    * - workflowExecutionId
      - The canonical identifier of the Workflow Execution. This field is required.   
 
-An Example response:
+An Example responses:
 
 ::
 
     KILLED
+    RUNNING
+    STOPPED
+    COMPLETED
+    FAILED
+    STARTING
+    STOP
 
-Stop workflow Execution
+Stop Workflow Execution
 ------------------------
 
 .. list-table:: 
@@ -177,7 +183,7 @@ An Example response:
 
     {"status":"ok","message":"Stopping Analysis Flow Execution"}
 
-Kill workflow Execution
+Kill Workflow Execution
 -----------------------
 
 .. list-table:: 

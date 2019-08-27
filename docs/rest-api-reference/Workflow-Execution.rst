@@ -54,7 +54,7 @@ List all Executions
 ------------------------
 
 .. list-table:: 
-   :widths: 20 40
+   :widths: 40 40
    :header-rows: 1
 
    * - Endpoint

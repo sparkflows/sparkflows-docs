@@ -26,6 +26,7 @@ Below is the flow of execution:
 * It triggers an event which is sent to a configured SQS queue.
 * Once the event reaches SQS, it triggers an AWS Lambda.
 * The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
+* If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue). It can be further handled from there based on the requirements.
 
 
 Create an SQS Queue

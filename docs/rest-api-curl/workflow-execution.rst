@@ -85,7 +85,24 @@ An example response:
     "emailOnFailure": null
    }
    ],    
-  
+
+List Executions of Workflow by status
+-------------------------------------
+
+Return the Executions of workflow by status for given workflowId.
+
+workflowId = 193::
+
+An example request for List executions of Workflow by status ::
+
+curl -X GET --header 'Accept: text/plain' 'http://hostname:port/api/v1/workflow-executions/193/status'
+
+An example response:
+
+::
+
+    KILLED
+
 Stop the Execution of workflow
 --------------------------------
  

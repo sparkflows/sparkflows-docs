@@ -51,8 +51,8 @@ Data encryption settings on S3 buckets: https://docs.aws.amazon.com/AmazonS3/lat
    :align: center
    
    
-REFERENCE NOTES
------
+REFERENCE : Creating Access Key & Secret Key
+--------------
 
 1. You'll need create a user with programmatic access by following the steps here (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
 

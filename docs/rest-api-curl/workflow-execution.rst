@@ -86,7 +86,7 @@ An example response:
    }
    ],    
 
-Get status of workflow execution
+GET Status of Workflow Execution
 ---------------------------------
 
 Return status of workflow execution for given workflowId.

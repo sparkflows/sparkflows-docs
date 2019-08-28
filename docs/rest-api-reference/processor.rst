@@ -15,14 +15,24 @@ Get Processors List by Engine
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/nodes?engine=scala'
+   * - /api/v1/nodes?engine=?'
      - GET
    
-An example request for Getting Processor List::
+Request Structure
 
-  scala
-  pyspark
-  left-empty
+For Getting Processor List by engine, we need to add below parameters
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Field Name
+     - Description
+     - Value
+   
+   * - engine
+     - The canonical identifier for Getting Processor List by engine. This field is required.
+     - scala, pyspark or empty-field
 
 An example response for Getting Processor List by Engine for "scala":
  

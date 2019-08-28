@@ -32,7 +32,7 @@ For Getting Processors List by engine, we need to add below parameters
    
    * - engine
      - The canonical identifier for Getting Processors List by engine. This field is required
-     - scala, pyspark or empty-field
+     - scala, pyspark or empty-field for all
 
 An example response for Getting Processors List by Engine for "scala":
  

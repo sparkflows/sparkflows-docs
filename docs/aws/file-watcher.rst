@@ -25,7 +25,7 @@ Below is the flow of execution:
   * Once all the files for that date have been written to the appropriate folder, a _SUCCESS files is written into it.
 * It triggers an event which is sent to a configured SQS queue.
 * Once the event reaches SQS, it triggers an AWS Lambda.
-* The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
+* The AWS Lambda uses the Fire Insights REST API(http://docs.sparkflows.io/en/latest/rest-api-reference/workflow.html#execute) to execute a workflow to process the new incoming files in the AWS S3 bucket.
 * If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue). It can be further handled from there based on the requirements.
 
 

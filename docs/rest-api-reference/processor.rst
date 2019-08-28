@@ -176,7 +176,7 @@ For Getting Processor Details by Name, we need to add below parameters
      - The canonical identifier for Getting Processor Details by Name. This field is required
      - Node Name for which Details are required
 
-An example response for Getting Processor details by Name for "Readcsv Node":
+An example response for Getting Processor details by Name for "ReadCSV Node":
  
 ::
 

@@ -11,7 +11,7 @@ Below are the various Processor APIs available in Fire Insights.
 They should be executed after you have logged into Fire Insights. Use the -b option to use the cookies previously saved.
 
 
-Get Processors List
+GET Processors List
 -------------------
 
 Gets the list of processors available.
@@ -113,7 +113,7 @@ An example response:
    },
    
 
-Get Node Count
+GET Node Count
 --------------
 
 Gets the count of the processors.
@@ -129,7 +129,7 @@ An example response:
     266
    
    
-Get Processors list for Engine
+GET Processors list for Engine
 ------------------------------
 
 Gets the list of processors for the specified engine(scala or pyspark or empty-field for all).

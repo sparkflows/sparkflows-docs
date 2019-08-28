@@ -14,4 +14,5 @@ There are various categories of REST API's available. This document describes th
    workflow.rst
    Workflow-Execution.rst
    processor.rst
+   dataset.rst
 

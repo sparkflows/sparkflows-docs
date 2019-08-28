@@ -71,13 +71,18 @@ Curl
        
 Delete Dataset
 --------------------
-* "datasetId": "13"
-* "projectId": "13"
+* "datasetId": "98"
+* "projectId": "33"
 ::
 
-Deletes a given Dataset::
+An example request for Deleting dataset::
 
     curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/datasets/98?projectId=33'
+
+An example response::
+
+  Dataset with id 98 deleted successfully
+
     
 Get Dataset by Id
 -----------------

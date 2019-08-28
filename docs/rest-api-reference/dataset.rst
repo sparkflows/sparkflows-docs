@@ -72,8 +72,8 @@ For Creating a datset, Id value should not be passed.
    :widths: 10 40
    :header-rows: 1
 
-   * - Field Name
-     - Description
+   * - Parameter
+     - Value
    
    * - Id
      - id value should not be passed, As its not required

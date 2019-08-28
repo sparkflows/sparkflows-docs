@@ -84,7 +84,85 @@ An example response:
 
     Dataset created successfully.
 
+Update
+------
 
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/datasets
+     - POST
+
+An example request to Update Dataset:   
+
+::
+
+    {
+     "id": 129
+     "category": "string",
+     "datasetSchema": "string",
+     "datasetType": "CSV",
+     "dateCreated": "2019-08-28T04:19:09.520Z",
+     "dateLastUpdated": "2019-08-28T04:19:09.520Z",
+     "delimiter": "string",
+     "description": "string",
+    "filterLinesContaining": "string",
+    "header": true,
+    "json": "string",
+    "name": "string",
+    "path": "string",
+    "permission": "PERMISSION_NONE",
+    "projectId": 33,
+    "readOptions": "string",
+    "readOptionsModel": {},
+    "sampleData": {
+    "cells": [
+      [
+        "string"
+      ]
+    ],
+    "headers": [
+      "string"
+    ]
+    },
+     "schemaModel": {
+      "schemaColList": [
+      {
+        "colFormat": "string",
+        "colMLType": "NUMERIC",
+        "colName": "string",
+        "colType": "ARRAY"
+      }
+    ]
+    },
+     "userId": 0,
+     "uuid": "string",
+     "version": 0
+    },
+
+Request Structure
+
+For Creating a datset, Id value should not be passed.
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   
+   * - Id
+     - id value should be passed, As its required
+     
+An example response with Dataset Id "129":
+
+::  
+
+    Dataset updated successfully
 
 
 

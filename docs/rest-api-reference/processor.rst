@@ -15,7 +15,7 @@ Get Processors List by Engine
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/nodes?engine=?'
+   * - /api/v1/nodes?engine=?
      - GET
    
 Request Structure

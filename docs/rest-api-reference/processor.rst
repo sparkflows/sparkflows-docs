@@ -5,8 +5,8 @@ The Processors REST APIs, allow you to get the list of available Processors and 
 
 Below are the various Processor APIs available in Fire Insights.They should be executed after you have logged into Fire Insights. 
 
-Get Processors List
--------------------
+Get Processors List by Engine
+-----------------------------
 
 .. list-table:: 
    :widths: 10 40
@@ -19,7 +19,7 @@ Get Processors List
      - GET
    
 
-An example request for Getting Processor List:
+An example request for Getting Processor List by Engine:
  
 ::
 

@@ -18,8 +18,13 @@ Get Processors List by Engine
    * - /api/v1/nodes?engine=scala'
      - GET
    
+An example request for Getting Processor List::
 
-An example request for Getting Processor List by Engine for "scala":
+  scala
+  pyspark
+  left-empty
+
+An example response for Getting Processor List by Engine for "scala":
  
 ::
 
@@ -110,6 +115,25 @@ An example request for Getting Processor List by Engine for "scala":
    ],
     "engine": "scala"
    },
+
+Get Node Count
+--------------
+
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/nodes/count
+     - GET
    
+
+An example response for Getting Node Count:
+ 
+::
+
+    266
    
 

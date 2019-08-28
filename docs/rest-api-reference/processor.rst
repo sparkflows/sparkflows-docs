@@ -145,5 +145,37 @@ An example response for Getting Node Count:
 ::
 
     266
-   
+    
 
+GET Processor details by Name
+-----------------------------
+   
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/nodes/names/{name}
+     - GET
+
+Request Structure
+
+For Getting Processor details by Name, we need to add below parameters
+
+.. list-table:: 
+   :widths: 10 40 40
+   :header-rows: 1
+
+   * - Parameter
+     - Description
+     - Value
+   
+   * - Name
+     - The canonical identifier for Getting Processor details by Name. This field is required
+     - Node Name for which details are required
+
+An example response for Getting Processor details by Name for "Readcsv Node":
+ 
+::

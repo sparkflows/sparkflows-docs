@@ -17,10 +17,9 @@ Get Processors List
      
    * - /api/v1/nodes
      - GET
-     
-Create a new workflow.
- 
-An example request for creating workflow:
+   
+
+An example request for Getting Processor List:
  
 ::
 
@@ -38,7 +37,7 @@ An example request for creating workflow:
     "x": null,
     "y": null,
     "fields": [
-      {
+   {
         "name": "storageLevel",
         "value": "DEFAULT",
         "widget": "array",
@@ -60,13 +59,13 @@ An example request for creating workflow:
           "MEMORY_AND_DISK_SER",
           "MEMORY_AND_DISK_SER_2",
           "OFF_HEAP"
-    ],
+   ],
         "required": false,
         "display": true,
         "editable": true,
         "disableRefresh": false
-    },
-    {
+   },
+   {
         "name": "table",
         "value": "",
         "widget": "textfield",
@@ -79,8 +78,8 @@ An example request for creating workflow:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      },
-      {
+   },
+   {
         "name": "keyspace",
         "value": "",
         "widget": "textfield",
@@ -93,8 +92,8 @@ An example request for creating workflow:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      },
-      {
+   },
+   {
         "name": "cluster",
         "value": "",
         "widget": "textfield",
@@ -107,8 +106,10 @@ An example request for creating workflow:
         "display": true,
         "editable": true,
         "disableRefresh": false
-      }
-    ],
+   }
+   ],
     "engine": "scala"
    },
+   
+   
 

@@ -132,7 +132,7 @@ An example response:
 Get Processors list for Engine
 ------------------------------
 
-Gets the list of processors for the specified engine(scala or python).
+Gets the list of processors for the specified engine(scala or pyspark or empty-field for all).
 
 An example request for getting list of processors for scala ::
 

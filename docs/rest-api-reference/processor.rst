@@ -1,5 +1,5 @@
-processor
-============
+processor API
+===============
 
 The Processors REST APIs, allow you to get the list of available Processors and details regarding each Processor.
 

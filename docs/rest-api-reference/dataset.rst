@@ -88,7 +88,7 @@ An example response:
 
 
 
-GET Datasets by Application
+GET List of Datasets by Application
 --------------------------
 
 .. list-table:: 
@@ -103,7 +103,7 @@ GET Datasets by Application
 
 Request Structure
 
-For Getting Datasets by Application, Below Parameter are required
+For Getting List of Datasets by Application, Below Parameter are required
 
 .. list-table:: 
    :widths: 10 40
@@ -113,7 +113,7 @@ For Getting Datasets by Application, Below Parameter are required
      - Value
    
    * - projectId
-     - The canonical identifier for Getting Datasets by Application. This field is required.
+     - The canonical identifier for Getting List of Datasets by Application. This field is required.
      
 
 An example response:

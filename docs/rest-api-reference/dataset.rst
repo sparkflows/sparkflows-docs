@@ -146,7 +146,7 @@ An example request to Update Dataset:
 
 Request Structure
 
-For Creating a datset, Id value should not be passed.
+For Updating datset, Id value should be passed.
 
 .. list-table:: 
    :widths: 10 40

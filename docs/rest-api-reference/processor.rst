@@ -20,10 +20,10 @@ Get Processors List by Engine
    
 Request Structure
 
-For Getting Processor List by engine, we need to add below parameters::
+For Getting Processor List by engine, we need to add below parameters
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 10 20 40
    :header-rows: 1
 
    * - Field Name

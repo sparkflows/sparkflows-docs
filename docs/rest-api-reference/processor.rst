@@ -147,7 +147,7 @@ An example response for Getting Node Count:
     266
     
 
-GET Processor details by Name
+GET Processor Details by Name
 -----------------------------
    
 .. list-table:: 
@@ -162,7 +162,7 @@ GET Processor details by Name
 
 Request Structure
 
-For Getting Processor details by Name, we need to add below parameters
+For Getting Processor Details by Name, we need to add below parameters
 
 .. list-table:: 
    :widths: 10 40 40
@@ -173,8 +173,8 @@ For Getting Processor details by Name, we need to add below parameters
      - Value
    
    * - Name
-     - The canonical identifier for Getting Processor details by Name. This field is required
-     - Node Name for which details are required
+     - The canonical identifier for Getting Processor Details by Name. This field is required
+     - Node Name for which Details are required
 
 An example response for Getting Processor details by Name for "Readcsv Node":
  

@@ -23,7 +23,7 @@ Request Structure
 For Getting Processors List by engine, we need to add below parameters
 
 .. list-table:: 
-   :widths: 10 20 40
+   :widths: 10 40 40
    :header-rows: 1
 
    * - Parameter
@@ -31,7 +31,7 @@ For Getting Processors List by engine, we need to add below parameters
      - Value
    
    * - engine
-     - The canonical identifier for Getting Processors List by engine. This field is required.
+     - The canonical identifier for Getting Processors List by engine. This field is required
      - scala, pyspark or empty-field
 
 An example response for Getting Processors List by Engine for "scala":

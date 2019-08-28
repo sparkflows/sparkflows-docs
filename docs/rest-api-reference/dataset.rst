@@ -125,6 +125,40 @@ An example response:
       "1e13ec2a-4094-405e-a6e7-ffed3bd027f7": "Test-dataset"
     },
 
+Delete Dataset
+--------------
 
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
 
+   * - Endpoint
+     - HTTP Method
+     
+   * - /api/v1/datasets/{datasetId}
+     - DELETE
+
+Request Structure
+
+For Getting List of Datasets by Application, Below Parameter are required
+
+.. list-table:: 
+   :widths: 10 20 40
+   :header-rows: 1
+
+   * - Parameter
+     - Value
    
+   * - datasetId
+     - The canonical identifier for Deleting Dataset. This field is required.
+   
+   * - projectId
+     - The canonical identifier for Deleting Dataset. This field is required.
+     
+
+An example response with datasetId 98 & projectId 33::
+
+   Dataset with id 98 deleted successfully
+
+
+

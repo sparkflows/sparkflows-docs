@@ -15,11 +15,11 @@ Get Processors List by Engine
    * - Endpoint
      - HTTP Method
      
-   * - /api/v1/nodes
+   * - /api/v1/nodes?engine=scala'
      - GET
    
 
-An example request for Getting Processor List by Engine:
+An example request for Getting Processor List by Engine for "scala":
  
 ::
 

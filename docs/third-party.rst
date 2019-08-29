@@ -115,6 +115,13 @@ H2O
 - Copyright © 2019 H2O.ai.
 - License: EUSLA (V.2)
 
+jersey
+------
+
+- https://jersey.github.io/
+- Copyright ©2010-2019 Oracle Corporation
+- CDDL Version 1.0 1
+
 
 Json Java
 --------------
@@ -205,4 +212,5 @@ Definitions
 - SSPL: SSPL License: https://www.mongodb.com/community/licensing
 - EUSLA (V.2): EUSLA (V.2) License: https://www.h2o.ai/license/
 - EPL: EPL - v 2.0 License: https://www.eclipse.org/legal/epl-2.0/
+- CDDL Version 1.0 1: License: https://github.com/apache/hive/blob/master/binary-package-licenses/com.sun.jersey-LICENSE
 - PSFL2 : Python Software Foundation License Version 2

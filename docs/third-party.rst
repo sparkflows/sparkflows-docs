@@ -25,7 +25,6 @@ Apache HBase
 -------------
 
 - https://hbase.apache.org/
-
 - Copyright ©2007–2019 The Apache Software Foundation
 - License: Apache-2.0
 
@@ -46,10 +45,32 @@ Apache Hive
  
  Json Java
  --------------
+ 
 -http://www.json.org
 -Copyright (c) 2002 JSON.org
 -License: BSD-style with “no evil” clause (http://json.org/license.html)
  
+ SLF4J
+ ----------
+ 
+-http://www.slf4j.org/
+-Copyright (c) 2004-2017 QOS.ch
+-License: MIT
+
+Log4J
+-------
+
+-http://logging.apache.org/log4j/2.x/
+-Author: The Apache Software Foundation
+-License: Apache-2.0
+
+Quartz
+--------
+
+-http://www.quartz-scheduler.org/
+-Copyright© Terracotta, Inc., a wholly-owned subsidiary of Software AG USA, Inc. All rights reserved
+-License: Apache-2.0
+
 Frontend Libraries
 ++++++++++++++++++
 

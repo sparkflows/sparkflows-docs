@@ -20,3 +20,7 @@ Frontend Libraries
   - Copyright (c) 2010-2014 Google, Inc. http://angularjs.org
   - License: MIT
 
+- bootstrap
+  - http://getbootstrap.com/2.3.2/
+  - Copyright 2011-2014 Twitter, Inc
+  - License: MIT

@@ -45,6 +45,14 @@ AWS Java SDK
 - Copyright © 2019, Amazon Web Services, Inc. or its affiliates
 - License: Apache-2.0
 
+H2O
+-----
+
+- https://www.h2o.ai/
+- Copyright © 2019 H2O.ai.
+- License: EUSLA (V.2)
+
+
 Json Java
 --------------
  
@@ -132,4 +140,5 @@ Definitions
 - MIT : MIT License : https://en.wikipedia.org/wiki/MIT_License#Relation_to_Patents
 - BSD-style: BSD-style License : http://json.org/license.html
 - SSPL: SSPL License: https://www.mongodb.com/community/licensing
+- EUSLA (V.2): EUSLA (V.2) License: https://www.h2o.ai/license/
 - PSFL2 : Python Software Foundation License Version 2

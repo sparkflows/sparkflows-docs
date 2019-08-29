@@ -22,12 +22,6 @@ Apache Avro
 - Copyright © 2012 The Apache Software Foundation
 - License: Apache-2.0
 
-AWS Java SDK
---------------
-
-- https://aws.amazon.com/
-- Copyright © 2019, Amazon Web Services, Inc. or its affiliates
-- License: Apache-2.0
 
 Apache HBase
 -------------
@@ -44,26 +38,19 @@ Apache Hive
 - License: Apache-2.0
 
 
-Spring Framework
-------------------
- 
-- https://spring.io/
-- Copyright © 2019 Pivotal Software, Inc. All Rights Reserved
+AWS Java SDK
+--------------
+
+- https://aws.amazon.com/
+- Copyright © 2019, Amazon Web Services, Inc. or its affiliates
 - License: Apache-2.0
- 
+
 Json Java
 --------------
  
 - http://www.json.org
 - Copyright (c) 2002 JSON.org
 - License: BSD-style with “no evil” clause (http://json.org/license.html)
- 
-SLF4J
-----------
- 
-- http://www.slf4j.org/
-- Copyright (c) 2004-2017 QOS.ch
-- License: MIT
 
 Log4J
 -------
@@ -72,6 +59,13 @@ Log4J
 - Author: The Apache Software Foundation
 - License: Apache-2.0
 
+MySQL
+--------
+
+- https://www.mysql.com/
+- Copyright© 2019, Oracle Corporation and/or its affiliates
+- License: Commercial License for OEMs, ISVs and VARs
+
 Quartz
 --------
 
@@ -79,12 +73,22 @@ Quartz
 - Copyright© Terracotta, Inc., a wholly-owned subsidiary of Software AG USA, Inc. All rights reserved
 - License: Apache-2.0
 
-MySQL
---------
+Spring Framework
+------------------
+ 
+- https://spring.io/
+- Copyright © 2019 Pivotal Software, Inc. All Rights Reserved
+- License: Apache-2.0
+ 
+ 
+SLF4J
+----------
+ 
+- http://www.slf4j.org/
+- Copyright (c) 2004-2017 QOS.ch
+- License: MIT
 
-- https://www.mysql.com/
-- Copyright© 2019, Oracle Corporation and/or its affiliates
-- License: Commercial License for OEMs, ISVs and VARs
+
 
 Frontend Libraries
 ++++++++++++++++++

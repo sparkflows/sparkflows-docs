@@ -57,6 +57,12 @@ Frontend Libraries
   - https://jquery.com/
   - Copyright 2019 The jQuery Foundation. jQuery License
   - License: MIT
+
+- rxjs
+
+  - https://rxjs-dev.firebaseapp.com/
+  - Copyright 2015-2018 Google, Inc., Netflix, Microsoft Corp.
+  - License: Apache License 2.0
   
 Definitions
 +++++++++++

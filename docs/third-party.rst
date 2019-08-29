@@ -51,7 +51,12 @@ Frontend Libraries
   - http://getbootstrap.com/2.3.2/
   - Copyright 2011-2014 Twitter, Inc
   - License: MIT
+  
+- jquery
 
+  - https://jquery.com/
+  - Copyright 2019 The jQuery Foundation. jQuery License
+  - License: MIT
 Definitions
 +++++++++++
 

@@ -38,11 +38,13 @@ Apache Hive
 
 
  Spring Framework
- -----------------
-
+ -------------------
+ 
+ 
 - https://spring.io/
 - Copyright © 2019 Pivotal Software, Inc. All Rights Reserved
 - License: Apache-2.0
+ 
  
 Frontend Libraries
 ++++++++++++++++++

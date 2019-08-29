@@ -50,6 +50,13 @@ Apache HTTP
 - Copyright © 1999–2019 The Apache Software Foundation.
 - License: Apache-2.0
 
+Apache pdfbox
+-------------
+
+- https://pdfbox.apache.org
+- Copyright © 2009–2019 The Apache Software Foundation
+- License: Apache-2.0
+
 Apache Tika
 -----------
 

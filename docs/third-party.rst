@@ -79,6 +79,13 @@ AWS Java SDK
 - Copyright © 2019, Amazon Web Services, Inc. or its affiliates
 - License: Apache-2.0
 
+Eclipse jetty
+-------------
+
+- https://www.eclipse.org/jetty/
+- Copyright © 2016 The Eclipse Foundation.
+- License: EPL- v 2.0
+
 Elasticsearch
 --------------
 
@@ -189,4 +196,5 @@ Definitions
 - BSD-style: BSD-style License : http://json.org/license.html
 - SSPL: SSPL License: https://www.mongodb.com/community/licensing
 - EUSLA (V.2): EUSLA (V.2) License: https://www.h2o.ai/license/
+- EPL: EPL - v 2.0 License: https://www.eclipse.org/legal/epl-2.0/
 - PSFL2 : Python Software Foundation License Version 2

@@ -10,6 +10,15 @@ Apache Spark
 ------------
  
 - https://spark.apache.org/
+  
+- Copyright © 2018 The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
+
+
+
+
+
+
+
 
  
 Frontend Libraries

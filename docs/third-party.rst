@@ -18,8 +18,14 @@ Apache Avro
 -----------
 
 - https://avro.apache.org/
-
 - Copyright © 2012 The Apache Software Foundation
+- License: Apache-2.0
+
+Apache Commomns
+----------------
+
+- https://commons.apache.org/
+- CCopyright © 2019 The Apache Software Foundation
 - License: Apache-2.0
 
 

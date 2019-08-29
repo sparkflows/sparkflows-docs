@@ -58,6 +58,14 @@ AWS Java SDK
 - Copyright © 2019, Amazon Web Services, Inc. or its affiliates
 - License: Apache-2.0
 
+Elasticsearch
+--------------
+
+- https://www.elastic.co/
+- © 2019. Elasticsearch B.V.
+- License: Apache-2.0
+
+
 H2O
 -----
 

@@ -18,7 +18,6 @@ Apache Avro
 -----------
 
 - https://avro.apache.org/
-
 - Copyright © 2012 The Apache Software Foundation
 - License: ASL
 
@@ -30,7 +29,12 @@ Apache HBase
 - Copyright ©2007–2019 The Apache Software Foundation
 - License: ASL
 
+Apache Hive
+-------------
 
+- https://hive.apache.org/
+- Copyright © 2011-2014 The Apache Software Foundation
+- License: ASL
 
  
 Frontend Libraries

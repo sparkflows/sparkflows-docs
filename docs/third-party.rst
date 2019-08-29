@@ -79,6 +79,12 @@ Elasticsearch
 - © 2019. Elasticsearch B.V.
 - License: Apache-2.0
 
+Guava
+------
+
+- https://www.elastic.co/
+- U.S. Digital Millennium Copyright Act.
+- License: Apache-2.0
 
 H2O
 -----

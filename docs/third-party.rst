@@ -71,6 +71,14 @@ Apache Tika
 - Copyright © 2019 The Apache Software Foundation
 - License: Apache-2.0
 
+Apache Tomcat
+-------------
+
+- http://tomcat.apache.org/
+- Copyright © 1999-2019, The Apache Software Foundation 
+- License: Apache-2.0
+
+
 
 AWS Java SDK
 --------------

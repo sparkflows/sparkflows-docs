@@ -28,6 +28,13 @@ Apache Commons
 - Copyright © 2019 The Apache Software Foundation.
 - License: Apache-2.0
 
+Apache Hadoop
+-------------
+
+- hhttps://hadoop.apache.org/
+- Copyright © 2018 The Apache Software Foundation.
+- License: Apache-2.0
+
 
 Apache HBase
 -------------

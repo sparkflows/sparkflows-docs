@@ -21,7 +21,7 @@ Apache Avro
 - https://avro.apache.org/
 
 - Copyright © 2012 The Apache Software Foundation
-
+- Licensed under the Apache License, Version 2.0
 
 Apache HBase
 -------------
@@ -29,7 +29,7 @@ Apache HBase
 - https://hbase.apache.org/
 
 - Copyright ©2007–2019 The Apache Software Foundation
-
+- Licensed under the Apache License, Version 2.0
 
 
 

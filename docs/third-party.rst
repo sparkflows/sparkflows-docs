@@ -59,6 +59,13 @@ Log4J
 - Author: The Apache Software Foundation
 - License: Apache-2.0
 
+MongoDB
+-------
+- https://docs.mongodb.com
+- © MongoDB, Inc 2008-present
+- License: SSPL
+
+
 MySQL
 --------
 
@@ -124,4 +131,5 @@ Definitions
 - EPL : Eclipse Public License : https://opensource.org/licenses/EPL-1.0
 - MIT : MIT License : https://en.wikipedia.org/wiki/MIT_License#Relation_to_Patents
 - BSD-style: BSD-style License : http://json.org/license.html
+- SSPL: SSPL License: https://www.mongodb.com/community/licensing
 - PSFL2 : Python Software Foundation License Version 2

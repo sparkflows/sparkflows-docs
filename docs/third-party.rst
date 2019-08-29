@@ -12,14 +12,14 @@ Apache Spark
 - https://spark.apache.org/
   
 - Copyright © 2018 The Apache Software Foundation 
-- License: ASL
+- License: Apache-2.0
 
 Apache Avro
 -----------
 
 - https://avro.apache.org/
 - Copyright © 2012 The Apache Software Foundation
-- License: ASL
+- License: Apache-2.0
 
 Apache HBase
 -------------
@@ -27,14 +27,14 @@ Apache HBase
 - https://hbase.apache.org/
 
 - Copyright ©2007–2019 The Apache Software Foundation
-- License: ASL
+- License: Apache-2.0
 
 Apache Hive
 -------------
 
 - https://hive.apache.org/
 - Copyright © 2011-2014 The Apache Software Foundation
-- License: ASL
+- License: Apache-2.0
 
  
 Frontend Libraries
@@ -57,9 +57,11 @@ Frontend Libraries
   - https://jquery.com/
   - Copyright 2019 The jQuery Foundation. jQuery License
   - License: MIT
+  
 Definitions
 +++++++++++
 
-- ASL: Apache Software License Version 2
-- EPL: Eclipse Public License
+- Apache-2.0 : http://www.apache.org/licenses/LICENSE-2.0.html
+- EPL : Eclipse Public License : https://opensource.org/licenses/EPL-1.0
+- MIT : MIT License : https://en.wikipedia.org/wiki/MIT_License#Relation_to_Patents
 - PSFL2 : Python Software Foundation License Version 2

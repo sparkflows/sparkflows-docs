@@ -43,6 +43,13 @@ Apache Hive
 - Copyright © 2011-2014 The Apache Software Foundation
 - License: Apache-2.0
 
+Apache HTTP
+------------
+
+- https://hc.apache.org/
+- Copyright © 1999–2019 The Apache Software Foundation.
+- License: Apache-2.0
+
 
 AWS Java SDK
 --------------

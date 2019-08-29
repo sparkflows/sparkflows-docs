@@ -25,7 +25,7 @@ Apache Commons
 ----------------
 
 - https://commons.apache.org/
-- CCopyright © 2019 The Apache Software Foundation
+- Copyright © 2019 The Apache Software Foundation.
 - License: Apache-2.0
 
 

@@ -12,8 +12,7 @@ Apache Spark
 - https://spark.apache.org/
   
 - Copyright © 2018 The Apache Software Foundation 
-- Licensed under the Apache License, Version 2.0
-
+- License: ASL
 
 Apache Avro
 -----------
@@ -29,7 +28,7 @@ Apache HBase
 - https://hbase.apache.org/
 
 - Copyright ©2007–2019 The Apache Software Foundation
-
+- License: ASL
 
 
 

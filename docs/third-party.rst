@@ -112,8 +112,7 @@ H2O
 -----
 
 - https://www.h2o.ai/
-- Copyright © 2019 H2O.ai.
-- License: EUSLA (V.2)
+- License: Apache-2.0
 
 
 Json Java

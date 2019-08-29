@@ -182,6 +182,14 @@ REST API's Reference
    :maxdepth: 2
 
    rest-api-reference/index 
+   
+Third Party Acknowledgements
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   third-party   
 
 Indices and tables
 ------------------

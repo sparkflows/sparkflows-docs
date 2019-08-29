@@ -11,10 +11,24 @@ Apache Spark
  
 - https://spark.apache.org/
   
-- Copyright © 2018 The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
+- Copyright © 2018 The Apache Software Foundation 
+- Licensed under the Apache License, Version 2.0
 
 
+Apache Avro
+-----------
 
+- https://avro.apache.org/
+
+- Copyright © 2012 The Apache Software Foundation
+
+
+Apache HBase
+-------------
+
+- https://hbase.apache.org/
+
+- Copyright ©2007–2019 The Apache Software Foundation
 
 
 

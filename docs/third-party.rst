@@ -71,6 +71,13 @@ Quartz
 -Copyright© Terracotta, Inc., a wholly-owned subsidiary of Software AG USA, Inc. All rights reserved
 -License: Apache-2.0
 
+MySQL
+--------
+
+-https://www.mysql.com/
+-Copyright© 2019, Oracle Corporation and/or its affiliates
+-License: Commercial License for OEMs, ISVs and VARs
+
 Frontend Libraries
 ++++++++++++++++++
 

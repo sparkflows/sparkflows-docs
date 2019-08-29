@@ -50,6 +50,13 @@ Apache HTTP
 - Copyright © 1999–2019 The Apache Software Foundation.
 - License: Apache-2.0
 
+Apache Tika
+-----------
+
+- https://tika.apache.org/
+- Copyright © 2019 The Apache Software Foundation
+- License: Apache-2.0
+
 
 AWS Java SDK
 --------------

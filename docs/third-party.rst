@@ -10,7 +10,6 @@ Apache Spark
 ------------
  
 - https://spark.apache.org/
-  
 - Copyright © 2018 The Apache Software Foundation 
 - License: Apache-2.0
 
@@ -112,6 +111,7 @@ H2O
 -----
 
 - https://www.h2o.ai/
+- https://h2o-release.s3.amazonaws.com/h2o/rel-lambert/5/docs-website/misc/license.html
 - License: Apache-2.0
 
 

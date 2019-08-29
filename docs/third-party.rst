@@ -144,13 +144,6 @@ MongoDB
 - License: SSPL
 
 
-MySQL
---------
-
-- https://www.mysql.com/
-- Copyright© 2019, Oracle Corporation and/or its affiliates
-- License: Commercial License for OEMs, ISVs and VARs
-
 Quartz
 --------
 

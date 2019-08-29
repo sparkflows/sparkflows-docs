@@ -44,6 +44,11 @@ Apache Hive
 - Copyright © 2019 Pivotal Software, Inc. All Rights Reserved
 - License: Apache-2.0
  
+ Json Java
+ --------------
+-http://www.json.org
+-Copyright (c) 2002 JSON.org
+-License: BSD-style with “no evil” clause (http://json.org/license.html)
  
 Frontend Libraries
 ++++++++++++++++++

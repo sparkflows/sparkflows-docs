@@ -103,8 +103,8 @@ Elasticsearch
 Guava
 ------
 
-- https://www.elastic.co/
-- U.S. Digital Millennium Copyright Act.
+- https://github.com/google/guava
+- https://github.com/google/guava/blob/master/COPYING
 - License: Apache-2.0
 
 H2O

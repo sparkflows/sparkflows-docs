@@ -21,6 +21,13 @@ Apache Avro
 - Copyright © 2012 The Apache Software Foundation
 - License: Apache-2.0
 
+AWS Java SDK
+--------------
+
+- https://aws.amazon.com/
+- Copyright © 2019, Amazon Web Services, Inc. or its affiliates
+- License: Apache-2.0
+
 Apache HBase
 -------------
 

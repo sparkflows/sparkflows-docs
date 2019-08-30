@@ -70,6 +70,15 @@ Apache pdfbox
 - Copyright © 2009–2019 The Apache Software Foundation
 - License: Apache-2.0
 
+Apache OpenNLP
+---------------
+
+- https://opennlp.apache.org/
+- Copyright © 2017 The Apache Software Foundation
+- License: Apache-2.0
+
+
+
 Apache Tika
 -----------
 

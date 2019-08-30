@@ -195,7 +195,5 @@ Definitions
 - EPL : Eclipse Public License : https://opensource.org/licenses/EPL-1.0
 - MIT : MIT License : https://en.wikipedia.org/wiki/MIT_License#Relation_to_Patents
 - BSD-style: BSD-style License : http://json.org/license.html
-- SSPL: SSPL License: https://www.mongodb.com/community/licensing
-- EUSLA (V.2): EUSLA (V.2) License: https://www.h2o.ai/license/
-- EP L: EPL - v 2.0 License: https://www.eclipse.org/legal/epl-2.0/
+- EPL: EPL - v 2.0 License: https://www.eclipse.org/legal/epl-2.0/
 - PSFL2 : Python Software Foundation License Version 2

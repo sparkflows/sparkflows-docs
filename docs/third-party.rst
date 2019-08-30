@@ -43,7 +43,7 @@ Apache HBase
 - License: Apache-2.0
 
 Apache Hive
--------------
+-----------
 
 - https://hive.apache.org/
 - Copyright © 2011-2014 The Apache Software Foundation

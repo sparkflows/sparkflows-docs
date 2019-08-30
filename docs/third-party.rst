@@ -6,26 +6,27 @@ Sparkflows uses and distributes the following third party software. These are op
 Server Libraries
 +++++++++++++++++
 
-Apache Spark
--------------
+
+- Apache Spark
+
  
-- https://spark.apache.org/
-- Copyright © 2018 The Apache Software Foundation 
-- License: Apache-2.0
+  - https://spark.apache.org/
+  - Copyright © 2018 The Apache Software Foundation 
+  - License: Apache-2.0
 
-Apache Avro
-------------
+- Apache Avro
 
-- https://avro.apache.org/
-- Copyright © 2012 The Apache Software Foundation
-- License: Apache-2.0
 
-Apache Commons
-----------------
+  - https://avro.apache.org/
+  - Copyright © 2012 The Apache Software Foundation
+  - License: Apache-2.0
 
-- https://commons.apache.org/
-- Copyright © 2019 The Apache Software Foundation.
-- License: Apache-2.0
+- Apache Commons
+
+
+  - https://commons.apache.org/
+  - Copyright © 2019 The Apache Software Foundation.
+  - License: Apache-2.0
 
 Apache Hadoop
 -------------

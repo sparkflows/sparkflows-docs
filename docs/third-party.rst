@@ -30,7 +30,7 @@ Apache Commons
 Apache Hadoop
 -------------
 
-- hhttps://hadoop.apache.org/
+- https://hadoop.apache.org/
 - Copyright © 2018 The Apache Software Foundation.
 - License: Apache-2.0
 

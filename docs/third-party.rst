@@ -192,7 +192,6 @@ Definitions
 +++++++++++
 
 - Apache-2.0 : Apache License, Version 2.0 : http://www.apache.org/licenses/LICENSE-2.0.html
-- EPL : Eclipse Public License : https://opensource.org/licenses/EPL-1.0
 - MIT : MIT License : https://en.wikipedia.org/wiki/MIT_License#Relation_to_Patents
 - BSD-style: BSD-style License : http://json.org/license.html
 - EPL: EPL - v 2.0 License: https://www.eclipse.org/legal/epl-2.0/

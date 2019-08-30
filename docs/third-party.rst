@@ -56,6 +56,13 @@ Apache HTTP
 - Copyright © 1999–2019 The Apache Software Foundation.
 - License: Apache-2.0
 
+Apache kafka
+-------------
+
+- https://kafka.apache.org
+- © 2017 Apache Software Foundation
+- License: Apache License v2
+
 Apache pdfbox
 -------------
 

@@ -7,14 +7,14 @@ Server Libraries
 +++++++++++++++++
 
 Apache Spark
-------------
+-------------
  
 - https://spark.apache.org/
 - Copyright © 2018 The Apache Software Foundation 
 - License: Apache-2.0
 
 Apache Avro
------------
+------------
 
 - https://avro.apache.org/
 - Copyright © 2012 The Apache Software Foundation
@@ -80,14 +80,14 @@ Apache OpenNLP
 
 
 Apache Tika
------------
+------------
 
 - https://tika.apache.org/
 - Copyright © 2019 The Apache Software Foundation
 - License: Apache-2.0
 
 Apache Tomcat
--------------
+--------------
 
 - http://tomcat.apache.org/
 - Copyright © 1999-2019, The Apache Software Foundation 

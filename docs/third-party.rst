@@ -145,6 +145,14 @@ Log4J
 - Author: The Apache Software Foundation
 - License: Apache-2.0
 
+Python
+-------
+
+- https://www.python.org/
+- Copyright ©2001-2019.  Python Software Foundation
+- License: PSFL2
+
+
 
 Quartz
 --------

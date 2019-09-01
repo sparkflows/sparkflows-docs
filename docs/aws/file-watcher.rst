@@ -19,6 +19,7 @@ The below diagram captures the high level design:
 Below is the flow of execution:
 
 * New files arrives on S3 in the directory location ``/sparklows-file-watcher/raw-data/iot/2019-08-2201``
+
   * In the above design, all the raw data comes into the directory ``/sparklows-file-watcher/raw-data``
   * There are various types of raw data which can come.
   * ``iot`` is one type of raw data coming in. Each day we receive a number of iot files in the folder ``/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd``.

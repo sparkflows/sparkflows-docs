@@ -57,12 +57,12 @@ Server Libraries
   - Copyright © 1999–2019 The Apache Software Foundation.
   - License: Apache-2.0
 
-- Apache kafka
+- spark-streaming-kafka
 
 
-  - https://kafka.apache.org
+  - http://spark.apache.org/
   - © 2017 Apache Software Foundation
-  - License: Apache License v2
+  - License: Apache-2.0
 
 - Apache pdfbox
 
@@ -110,10 +110,10 @@ Server Libraries
   - Copyright © 2016 The Eclipse Foundation.
   - License: EPL- v 2.0
 
-- Elasticsearch
+- Elasticsearch-spark-20_2.11
 
 
-  - https://www.elastic.co/
+  - https://github.com/elastic/elasticsearch-hadoop
   - © 2019. Elasticsearch B.V.
   - License: Apache-2.0
 
@@ -145,6 +145,18 @@ Server Libraries
   - http://logging.apache.org/log4j/2.x/
   - Author: The Apache Software Foundation
   - License: Apache-2.0
+
+- Sagemaker-spark_2.11
+
+   - https://github.com/aws/sagemaker-spark
+   - Author: The Apache Software Foundation
+   - License: Apache-2.0
+
+- Mongo_spark_connector_2.11
+
+   - http://github.com/mongo-spark
+   - Author: The Apache Software Foundation
+   - License: Apache-2.0
 
 - Python
 

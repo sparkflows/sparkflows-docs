@@ -25,10 +25,10 @@ Fields
         - Description
       * - outputCols
         - OutPut Column
-        - OutPut Column Name
+        - Output Column Name
       * - expressions
         - Math Expression
-        - define math expression..
+        - Define math expression.
 
 
 

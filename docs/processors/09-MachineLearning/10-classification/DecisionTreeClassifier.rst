@@ -38,14 +38,8 @@ Fields
         - Label Column
         - The label column for model fitting
       * - predictionCol
-        - Prediction Columns
+        - Prediction Column
         - The prediction column created during model scoring.
-      * - probabilityCol
-        - Probability Column
-        - The column name for predicted class conditional probabilities
-      * - rawPredictionCol
-        - Raw Prediction Column
-        - The raw prediction (a.k.a. confidence) column name
       * - impurity
         - Impurity
         - The Criterion used for information gain calculation

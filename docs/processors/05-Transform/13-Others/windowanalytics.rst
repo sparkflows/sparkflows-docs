@@ -1,4 +1,4 @@
-WindowRanking
+WindowAnalytics
 =========== 
 
 
@@ -11,7 +11,7 @@ transform
 Class
 --------- 
 
-fire.nodes.etl.NodeWindowRanking
+fire.nodes.etl.NodeWindowAnalytics
 
 Fields
 --------- 
@@ -32,6 +32,9 @@ Fields
       * - windowFunction
         - Window Function
         - Window Function Name
+      * - analyticsCol
+        - Analytics Column
+        - 
 
 
 

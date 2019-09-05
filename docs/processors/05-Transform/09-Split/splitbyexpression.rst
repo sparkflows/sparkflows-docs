@@ -29,7 +29,7 @@ Fields
         - Description
       * - conditionExpr
         - Conditional Expression to split the Data on
-        - Conditional Expression to be used for Splitting the DataFrame into two
+        - Conditional Expression to be used for Splitting the DataFrame into two. DataFrame which matches the condition will go to the lower edge output. The other would go to the higher edge output.
 
 
 

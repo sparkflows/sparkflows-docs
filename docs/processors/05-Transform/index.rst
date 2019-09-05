@@ -17,4 +17,5 @@
    11-AddColumn/index.rst
    12-CastDataType/index.rst
    13-Others/index.rst
+   movingwindowfunctions.rst
    wordcount.rst

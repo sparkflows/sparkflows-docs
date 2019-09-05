@@ -10,8 +10,10 @@
    executeworkflow.rst
    numberofpartitions.rst
    OCR/index.rst
-   parameters.rst
    printnrows.rst
+   readparameters.rst
    repartition.rst
+   sampleprintnrows.rst
+   specifyparameters.rst
    stickynote.rst
    unpersistdataframe.rst

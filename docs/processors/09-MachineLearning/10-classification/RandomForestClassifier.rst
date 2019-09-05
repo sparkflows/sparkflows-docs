@@ -38,14 +38,8 @@ Fields
         - Label Column
         - The label column for model fitting
       * - predictionCol
-        - Prediction Columns
+        - Prediction Column
         - The prediction column created during model scoring.
-      * - probabilityCol
-        - Probability Column
-        - The column name for predicted class conditional probabilities
-      * - rawPredictionCol
-        - Raw Prediction Column
-        - The raw prediction (a.k.a. confidence) column name
       * - featureSubsetStrategy
         - Feature Subset Strategy
         - The number of features to consider for splits at each tree node.

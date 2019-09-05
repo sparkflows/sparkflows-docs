@@ -1,4 +1,4 @@
-WindowRanking
+MultiWindowAnalytics
 =========== 
 
 
@@ -11,7 +11,7 @@ transform
 Class
 --------- 
 
-fire.nodes.etl.NodeWindowRanking
+fire.nodes.etl.NodeMultiWindowAnalytics
 
 Fields
 --------- 
@@ -29,9 +29,15 @@ Fields
       * - orderByCols
         - OrderBy
         - order by column names separated by comma(,)
-      * - windowFunction
+      * - windowFunctions
         - Window Function
         - Window Function Name
+      * - analyticsCols
+        - AnalyticsColumn
+        - 
+      * - outPutColumns
+        - OutPutColumn
+        - Enter output field(column) name
 
 
 

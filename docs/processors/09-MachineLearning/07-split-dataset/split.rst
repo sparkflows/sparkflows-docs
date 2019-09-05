@@ -33,6 +33,7 @@ Fields
         - Description
       * - fraction1
         - Fraction 1
+        - Fraction to be used for Splitting the DataFrame into two. The first DataFrame would go to the lower edge output. The other would go to the higher edge output.
 
 
 

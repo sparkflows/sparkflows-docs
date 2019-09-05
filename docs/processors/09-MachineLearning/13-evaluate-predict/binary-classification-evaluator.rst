@@ -30,9 +30,9 @@ Fields
       * - labelCol
         - Label Column
         - The label column for model fitting.
-      * - rawPredictionCol
-        - RawPrediction Column
-        - The raw prediction (confidence) column.
+      * - predictionCol
+        - Prediction Column
+        - The prediction column.
       * - metricName
         - Metric Name
         - The metric used in evaluation.

@@ -7,4 +7,3 @@
    mathexpression.rst
    mathfunctions.rst
    mathfunctionsmultiple.rst
-   movingaverage.rst

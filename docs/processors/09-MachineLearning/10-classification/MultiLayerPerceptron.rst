@@ -30,7 +30,7 @@ Fields
         - Label Column
         - The label column for model fitting
       * - predictionCol
-        - Prediction Columns
+        - Prediction Column
         - The prediction column created during model scoring.
       * - layers
         - Layers - comma separated list of integers

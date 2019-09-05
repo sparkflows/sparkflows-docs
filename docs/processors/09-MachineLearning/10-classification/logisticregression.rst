@@ -37,15 +37,9 @@ Fields
       * - labelCol
         - Label Column
         - The label column for model fitting
-      * - probabilityCol
-        - Probability Column
-        - The column name for predicted class conditional probabilities
       * - predictionCol
-        - Prediction Columns
+        - Prediction Column
         - The prediction column created during model scoring
-      * - rawPredictionCol
-        - Raw Prediction Column
-        - The raw prediction (a.k.a. confidence) column name
       * - maxIter
         - Maximum Iterations
         - Maximum number of iterations (>= 0)

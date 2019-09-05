@@ -30,11 +30,8 @@ Fields
         - Label Column
         - The label column for model fitting
       * - predictionCol
-        - Prediction Columns
+        - Prediction Column
         - The prediction column created during model scoring
-      * - rawPredictionCol
-        - Raw Prediction Column
-        - The raw prediction (a.k.a. confidence) column name
       * - modelType
         - modelType
         - The model type. Supported options: multinomial and bernoulli. (default = multinomial)

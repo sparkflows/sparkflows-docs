@@ -113,9 +113,9 @@ Server Libraries
 - Elasticsearch-spark-20_2.11
 
 
-    - https://github.com/elastic/elasticsearch-hadoop
-    - © 2019. Elasticsearch B.V.
-    - License: Apache-2.0
+   - https://github.com/elastic/elasticsearch-hadoop
+   - © 2019. Elasticsearch B.V.
+   - License: Apache-2.0
 
 - Guava
 
@@ -147,13 +147,15 @@ Server Libraries
   - License: Apache-2.0
 
 - Sagemaker-spark_2.11
+ 
 
-   - https://github.com/aws/sagemaker-spark
+- https://github.com/aws/sagemaker-spark
    - Author: The Apache Software Foundation
    - License: Apache-2.0
 
 - Mongo_spark_connector_2.11
 
+   
    - http://github.com/mongo-spark
    - Author: The Apache Software Foundation
    - License: Apache-2.0

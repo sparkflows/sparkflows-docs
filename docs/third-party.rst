@@ -149,16 +149,16 @@ Server Libraries
 - Sagemaker-spark_2.11
  
 
-- https://github.com/aws/sagemaker-spark
-   - Author: The Apache Software Foundation
-   - License: Apache-2.0
+  - https://github.com/aws/sagemaker-spark
+  - Author: The Apache Software Foundation
+  - License: Apache-2.0
 
 - Mongo_spark_connector_2.11
 
    
-   - http://github.com/mongo-spark
-   - Author: The Apache Software Foundation
-   - License: Apache-2.0
+  - http://github.com/mongo-spark
+  - Author: The Apache Software Foundation
+  - License: Apache-2.0
 
 - Python
 

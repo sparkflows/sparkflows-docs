@@ -113,9 +113,9 @@ Server Libraries
 - Elasticsearch-spark-20_2.11
 
 
-  - https://github.com/elastic/elasticsearch-hadoop
-  - © 2019. Elasticsearch B.V.
-  - License: Apache-2.0
+    - https://github.com/elastic/elasticsearch-hadoop
+    - © 2019. Elasticsearch B.V.
+    - License: Apache-2.0
 
 - Guava
 

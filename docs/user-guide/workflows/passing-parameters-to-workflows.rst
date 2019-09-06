@@ -2,13 +2,25 @@ Passing Parameters to Workflows
 ===============================
 
 
-Sparkflows runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow.
+Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified, the below is also the order of precendence in which they are applied.
  
+  * Through Program Parameters in Fire during Workflow Execution
   * By specifying the parameters in the Workflow Editor
   * Through a Parameter Processor in the workflow
-  * Through Program Parameters in Fire during Workflow Execution
-  * As parameters on the command line when running the workflow with spark-submit with --var
-  
+
+
+Through Program Parameters in Fire during Workflow Execution
+------------------------------------------------------------
+
+Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
+These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow.
+
+Below is a screenshot:
+
+.. figure:: ../../_assets/user-guide/passing-parameters-1.png
+   :alt: Passing Parameters to Workflows
+   :align: center
+
 By specifying the parameters in the Workflow Editor
 ---------------------------------------------------
 
@@ -25,27 +37,17 @@ A Parameter Processor can be added to the workflow. It allows passing key/value 
 .. figure:: ../../_assets/user-guide/passing-parameters-2.png
    :alt: Passing Parameters to Workflows
    :align: center
-
-
-Through Program Parameters in Fire during Workflow Execution
-------------------------------------------------------------
-
-Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
-These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow.
-
-Below is a screenshot:
-
-.. figure:: ../../_assets/user-guide/passing-parameters-1.png
-   :alt: Passing Parameters to Workflows
-   :align: center
-
+   
+   
 Through ``--var`` parameters with spark-submit
 --------------------------------------------------
  
-Workflows can be submitted to be run on the cluster with spark-submit. Extra parameters can be passed with ``--var``::
+Fire Insights workflow can also be directly executed on the cluster with spark-submit.
+
+In this case, extra parameters can be passed with ``--var``::
 
  
-    spark-submit    --class fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G  --executor-cores 1    fire-core-3.1.0-jar-with-dependencies.jar    --postback-url http://<machine>:8080 --job-id 1      --workflow-file kmeans.wf    --var name1=value1  --var  name2=value2
+    spark-submit    --class fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client   fire-core-3.1.0-jar-with-dependencies.jar    --postback-url http://<machine>:8080 --job-id 1      --workflow-file kmeans.wf    --var name1=value1  --var  name2=value2
 
  
 In the workflow, these parameters can be used with ``$name1    $name2``

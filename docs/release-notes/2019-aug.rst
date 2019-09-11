@@ -13,7 +13,9 @@ August 2019
   - ZipWithIndex
   - ReadAvro
   - ReadJSON
-  
+  - ReadParquet
+
+- Upgradation of RESTAPI
   
   
   

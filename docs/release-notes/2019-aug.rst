@@ -1,2 +1,17 @@
 August 2019
 ============
+
+- New Processors For Scala
+  - WindowAnalytics
+  - WindowRanking
+  - H2OGLRM
+  - H2OWord2Vec
+  
+- New Processors For Pyspark
+  - ZipWithIndex
+  - ReadAvro
+  - ReadJSON
+  
+  
+  
+  

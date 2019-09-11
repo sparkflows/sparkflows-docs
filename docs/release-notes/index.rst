@@ -5,6 +5,8 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2019-sept.rst
+   2019-aug.rst
    2019-july.rst
    2019-june.rst
    2019-may.rst

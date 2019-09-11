@@ -1,2 +1,28 @@
 September 2019
 ==============
+
+New Processors Added For Scala Engine
+------------------------------
+
+- MultiWindowAnalytics
+- MultiWindowRanking
+
+
+New Processors Added For Pyspark Engine
+----------------------------------------
+
+- SaveAvro
+- SaveJSON
+
+Improvement of RESTAPI
+-----------------------
+
+Integerated File Watcher with AWS
+---------------------------------
+
+Improvement of Security Vulnerabilties
+---------------------------------------
+
+UI Improvement
+--------------
+

@@ -4,18 +4,18 @@ August 2019
 New Processors Added For Scala Engine
 ------------------------------
 
-  - WindowAnalytics
-  - WindowRanking
-  - H2OGLRM
-  - H2OWord2Vec
+- WindowAnalytics
+- WindowRanking
+- H2OGLRM
+- H2OWord2Vec
   
 New Processors Added For Pyspark Engine
 ---------------------------------
 
-  - ZipWithIndex
-  - ReadAvro
-  - ReadJSON
-  - ReadParquet
+- ZipWithIndex
+- ReadAvro
+- ReadJSON
+- ReadParquet
 
 Upgradation & Improvment of RESTAPI
 ------------------------------------
@@ -23,8 +23,8 @@ Upgradation & Improvment of RESTAPI
 UI Improvment
 --------------
 
-  - Drag and drop function for node in workflow editor
-  - Improvment of workflow editor page Look & Feel.
+- Drag and drop function for node in workflow editor
+- Improvment of workflow editor page Look & Feel.
   
   
   

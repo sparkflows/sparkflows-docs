@@ -17,8 +17,11 @@ New Processors Added For Pyspark Engine
 Improvement of RESTAPI
 -----------------------
 
-Integerated File Watcher with AWS
----------------------------------
+New Features
+------------
+
+- Integerated File Watcher with AWS
+- Database Cleanup for workflow execution & workflow execution results
 
 Improvement of Security Vulnerabilties
 ---------------------------------------
@@ -26,3 +29,4 @@ Improvement of Security Vulnerabilties
 UI Improvement
 --------------
 
+- Improvement of dataset page

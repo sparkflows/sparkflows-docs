@@ -22,7 +22,7 @@ New Features
 
 - Integerated File Watcher with AWS
 - Database Cleanup for workflow execution & workflow execution results
-- Export of all users in database
+- Export of all users available in database
 
 Improvement of Security Vulnerabilties
 ---------------------------------------

@@ -31,4 +31,4 @@ Install Other Packages
 ----------------------
 Check the requirements.txt https://github.com/sparkflows/writing-new-node/blob/master/requirements.txt to install all the required packages.
 
-pip install -r requirements.txt
+   *pip install -r requirements.txt

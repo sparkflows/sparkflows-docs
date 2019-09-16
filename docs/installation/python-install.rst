@@ -29,6 +29,15 @@ Install pip/wheel
 
 Install Other Packages
 ----------------------
-Check the requirements.txt https://github.com/sparkflows/writing-new-node/blob/master/requirements.txt to install all the required packages.
+
+All the required packages can be installed with the below:
 
    * pip install -r requirements.txt
+   
+requirements.txt files can be got from ond of the following places:
+
+  * https://github.com/sparkflows/writing-new-node/blob/master/requirements.txt
+  * fire-3.1.0/dist/fire/requirements.txt
+
+
+

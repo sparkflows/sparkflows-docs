@@ -51,15 +51,15 @@ Input
      - height
    
    * - Alice
-     - Alice
-     - Alice
-     
-   * - 5
      - 5
-     - 10
-     
-   * - 80
      - 80
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
      - 80
 
 Parameters

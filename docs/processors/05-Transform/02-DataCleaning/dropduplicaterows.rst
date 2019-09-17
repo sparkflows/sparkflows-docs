@@ -32,21 +32,22 @@ Input
 --------------
 
 .. list-table:: 
-   :widths: 10 40
+   :widths: 10 20 10
    :header-rows: 1
 
    * - name
-     - Alice
+     - age
+     - height
+   
+   * - Alice
      - Alice
      - Alice
      
-   * - age
-     - 5
+   * - 5
      - 5
      - 10
      
-   * - height 
-     - 80
+   * - 80
      - 80
      - 80
 

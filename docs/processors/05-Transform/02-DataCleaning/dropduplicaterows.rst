@@ -24,6 +24,7 @@ A DataFrame containing no duplicate row on the selected coulmns.
 Parameters
 ---------- 
 
+
 .. list-table:: 
    :widths: 10 30 80
    :header-rows: 1
@@ -37,7 +38,8 @@ Parameters
    * - Seq of Coulmns
      
    * - Seq of Coulmns to check the duplicate condition.(By default duplication checked on all the columns)
-   
+  
+  
    
 Examples
 --------

@@ -33,11 +33,8 @@ Parameters
      - Description
    
    * - COLUMNS
-   
-   * - Seq of Coulmns
-     
-   * - Seq of Coulmns to check the duplicate condition.(By default duplication checked on all the columns)
-  
+     - Seq of Coulmns
+     - Seq of Coulmns to check the duplicate condition.(By default duplication checked on all the columns)
    
 Examples
 --------
@@ -92,8 +89,6 @@ Output
      - height
    
    * - Alice
-   
-   * - 5
-   
-   * - 80
+     - 5
+     - 80
    

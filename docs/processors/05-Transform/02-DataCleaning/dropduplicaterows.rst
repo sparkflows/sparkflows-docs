@@ -23,7 +23,7 @@ A DataFrame containing no duplicate row on the selected coulmns.
 
 Parameters
 ---------- 
-COLUMNS           
+
 .. list-table:: 
    :widths: 10 30 80
    :header-rows: 1
@@ -71,6 +71,7 @@ COLUMNS        name,height
 
 Output
 --------------
+
 .. list-table:: 
    :widths: 10 20 10
    :header-rows: 1

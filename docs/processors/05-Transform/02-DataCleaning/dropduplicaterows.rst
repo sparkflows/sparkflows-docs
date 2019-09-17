@@ -71,3 +71,18 @@ COLUMNS        name,height
 
 Output
 --------------
+
+.. list-table::
+   :widths: 10 20 10
+   :header-rows: 1
+   
+   * - name
+     - age
+     - height
+   
+   * - Alice
+   
+   * - 5
+   
+   * - 80
+   

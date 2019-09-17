@@ -30,10 +30,10 @@ Examples
 
 Input
 --------------
-name,age,height
-Alice,5,80
-Alice,5,80
-Alice,10,80
+name,age,height \n
+Alice,5,80 \n
+Alice,5,80 \n
+Alice,10,80 \n
 
 Parameters
 ----------

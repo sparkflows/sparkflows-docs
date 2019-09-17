@@ -67,7 +67,18 @@ Input
 
 Parameters
 ----------
-COLUMNS        name,height
+
+
+.. list-table:: 
+   :widths: 10 20
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - COLUMNS
+     - name,height
+
 
 Output
 --------------

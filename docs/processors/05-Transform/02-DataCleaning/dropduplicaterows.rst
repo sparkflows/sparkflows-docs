@@ -30,10 +30,24 @@ Examples
 
 Input
 --------------
-name,age,height \n
-Alice,5,80 \n
-Alice,5,80 \n
-Alice,10,80 \n
+.. list-table:: 
+   :widths: 10 40
+   :header-rows: 1
+
+   * - name
+     - Alice
+     - Alice
+     - Alice
+     
+   * - age
+     - 5
+     - 5
+     - 10
+     
+   * - height 
+     - 80
+     - 80
+     - 80
 
 Parameters
 ----------

@@ -79,13 +79,13 @@ Parameters
      - Value
      
    * - Column
-     - age
+     - date_col
      
-   * - Lowest Value
-     - 7
+   * - From date
+     - 2016-07-28
      
-   * - Highest Value
-     - 10
+   * - To Date
+     - 2017-03-31
 
 
 Output

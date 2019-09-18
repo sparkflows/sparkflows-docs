@@ -40,7 +40,7 @@ Input
 --------------
 
 .. list-table:: 
-   :widths: 10 20
+   :widths: 10 30
    :header-rows: 1
 
    * - id
@@ -72,7 +72,7 @@ Parameters
 
 
 .. list-table:: 
-   :widths: 10 10
+   :widths: 10 30
    :header-rows: 1
    
    * - Name
@@ -92,7 +92,7 @@ Output
 ------
 
 .. list-table:: 
-   :widths: 10 20
+   :widths: 10 30
    :header-rows: 1
 
    * - name

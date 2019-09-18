@@ -27,7 +27,7 @@ Fields
         - Column
         - input column name
       * - fromDateCol
-        - From date
+        - From Date
         - Takes Start Date in the form of yyyy-MM-dd
       * - toDateCol
         - To Date
@@ -81,7 +81,7 @@ Parameters
    * - Column
      - date_col
      
-   * - From date
+   * - From Date
      - 2016-07-28
      
    * - To Date

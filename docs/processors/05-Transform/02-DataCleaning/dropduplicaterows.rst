@@ -21,7 +21,7 @@ Output
 --------
 A DataFrame containing no duplicate row on the selected coulmns.
 
-Parameters
+Fields
 ---------- 
 
 .. list-table:: 

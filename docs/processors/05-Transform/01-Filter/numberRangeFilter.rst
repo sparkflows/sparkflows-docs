@@ -38,5 +38,88 @@ Fields
         - input highest value
 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 10 20 10
+   :header-rows: 1
+
+   * - name
+     - age
+     - height
+   
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
+     - 80
+     
+   * - James
+     - 5
+     - 50
+     
+   * - James
+     - 10
+     - 60
+    
+   * - James
+     - 7
+     - 80
+
+Parameters
+----------
+
+
+.. list-table:: 
+   :widths: 10 10 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Input Column Name
+     - age
+     
+   * - Lowest Value
+     - 7
+     
+   * - Highest Value
+     - 10
+
+
+Output
+------
+
+.. list-table:: 
+   :widths: 10 20 10
+   :header-rows: 1
+
+   * - name
+     - age
+     - height
+   
+   * - Alice
+     - 10
+     - 80
+     
+   * - James
+     - 10
+     - 60
+    
+   * - James
+     - 7
+     - 80
+
+
 
 

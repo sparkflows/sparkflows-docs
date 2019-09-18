@@ -81,7 +81,7 @@ Parameters
 
 
 .. list-table:: 
-   :widths: 10 10 10 10
+   :widths: 10 10
    :header-rows: 1
    
    * - Name

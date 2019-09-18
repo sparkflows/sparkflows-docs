@@ -108,6 +108,10 @@ Output
    :widths: 10 20 10
    :header-rows: 1
 
+   * - name
+     - age
+     - height
+     
    * - Stefan
      - 7
      - 80 

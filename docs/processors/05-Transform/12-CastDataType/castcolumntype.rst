@@ -143,7 +143,7 @@ Output2
 --------------
 
 .. list-table:: 
-   :widths: 10 10 10
+   :widths: 10 10 10 10 10
    :header-rows: 2
 
    * - name
@@ -151,18 +151,26 @@ Output2
      - height
  
    * - DoubleType
+     - StringType
+     - StringType
      - DoubleType
      - DoubleType
      
    * - Alice
+     - 5
+     - 80
      - 5.0
      - 80.0
    
    * - Alice
+     - 5
+     - 80
      - 5.0
      - 80.0
      
    * - Alice
+     - 10
+     - 80
      - 10.0
      - 80.0
 

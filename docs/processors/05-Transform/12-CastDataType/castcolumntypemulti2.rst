@@ -82,7 +82,7 @@ Parameters
    :widths: 10 10 20 20 20
    :header-rows: 1
    
-   * - RowID
+   * - Variables
      - Columns
      - New Data Type
      - Replace Existing Cols

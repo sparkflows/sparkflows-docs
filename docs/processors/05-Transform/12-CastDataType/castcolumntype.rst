@@ -41,6 +41,129 @@ Fields
         - Replace Existing Cols
         - Whether to replace existing columns or create new ones
 
+Examples
+---------
 
+Input
+--------------
+
+.. list-table:: 
+   :widths: 10 20 10
+   :header-rows: 2
+
+   * - name
+     - age
+     - height
+   
+   * - StringType
+     - StringType
+     - StringType
+   
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
+     - 80
+
+Parameters1
+----------
+
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Columns
+     - age,height
+     
+   * - New Data Type
+     - DOUBLE
+
+   * - Replace Existing Cols
+     - true
+
+Output1
+--------------
+
+.. list-table:: 
+   :widths: 10 20 10
+   :header-rows: 2
+
+   * - name
+     - age
+     - height
+ 
+   * - DoubleType
+     - DoubleType
+     - DoubleType
+     
+   * - Alice
+     - 5.0
+     - 80.0
+   
+   * - Alice
+     - 5.0
+     - 80.0
+     
+   * - Alice
+     - 10.0
+     - 80.0
+
+
+Parameters2
+----------
+
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Columns
+     - age,height
+     
+   * - New Data Type
+     - DOUBLE
+
+   * - Replace Existing Cols
+     - false
+
+Output2
+--------------
+
+.. list-table:: 
+   :widths: 10 10 10
+   :header-rows: 2
+
+   * - name
+     - age
+     - height
+ 
+   * - DoubleType
+     - DoubleType
+     - DoubleType
+     
+   * - Alice
+     - 5.0
+     - 80.0
+   
+   * - Alice
+     - 5.0
+     - 80.0
+     
+   * - Alice
+     - 10.0
+     - 80.0
 
 

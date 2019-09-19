@@ -149,6 +149,8 @@ Output2
    * - name
      - age
      - height
+     - age-new
+     - height-new
  
    * - DoubleType
      - StringType

@@ -62,7 +62,7 @@ Input
      - 10
      - 80
 
-Parameters
+Parameters1
 ----------
 
 
@@ -77,7 +77,7 @@ Parameters
      - name,height
 
 
-Output
+Output1
 --------------
 
 .. list-table::
@@ -90,5 +90,39 @@ Output
    
    * - Alice
      - 5
+     - 80
+   
+Parameters2
+----------
+
+
+.. list-table:: 
+   :widths: 10 20
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - COLUMNS
+     - 
+
+
+Output2
+-------
+
+.. list-table::
+   :widths: 10 20 10
+   :header-rows: 1
+   
+   * - name
+     - age
+     - height
+   
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
      - 80
    

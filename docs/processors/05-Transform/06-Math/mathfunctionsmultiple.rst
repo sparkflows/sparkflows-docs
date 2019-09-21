@@ -48,7 +48,7 @@ Input
 
 .. list-table:: 
    :widths: 20 20 20
-   :header-rows: 2
+   :header-rows: 1
 
    * - name
      - age
@@ -98,7 +98,7 @@ Parameters
      - true
      - 2
      
-  *  - 2
+   * - 2
      - height
      - sqrt
      - false

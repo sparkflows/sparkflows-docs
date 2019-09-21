@@ -97,7 +97,7 @@ Output1
    :widths: 10 20 10
    :header-rows: 1
 
-      * - name
+   * - name
      - age
      - height
    

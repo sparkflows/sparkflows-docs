@@ -42,7 +42,7 @@ Fields
         - Output Column Name
       * - scale
         - Scale
-        - Scale to be used when applying the Math Function for pow & round function.
+        - Scale to be used when applying the Math Functions pow & round function.
 
 
 Examples

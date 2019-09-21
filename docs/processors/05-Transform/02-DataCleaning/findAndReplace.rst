@@ -170,7 +170,7 @@ Parameters2
      - \\s
    
    * - Replace
-     - *
+     - `*`
 
 
 

@@ -120,6 +120,6 @@ Output
      - 1.0
      - iamgoingtowork
 
-  *  - 3.0
+   * - 3.0
      - 2.0
      - thisisaspam   

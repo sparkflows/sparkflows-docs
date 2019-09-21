@@ -80,7 +80,7 @@ Input
      - 7
      - 80
      
-Parameters1
+Parameters
 -------------
 
 
@@ -104,7 +104,7 @@ Parameters1
      - 60 
 
 
-Output1
+Output
 ---------
 
 .. list-table:: 

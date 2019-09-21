@@ -29,23 +29,93 @@ Fields
         - Description
       * - inputCols
         - Input Columns
-        - Input columns
+        - input columns
       * - removeWhitespaces
-        - Remove whitespaces
-        - Removes white space
+        - Remove Whitespaces
+        - removes white space
       * - removeLetters
-        - Remove letters
-        - Removes letters
+        - Remove Letters
+        - removes letters
       * - removeDigits
-        - Remove digits
-        - Removes digits
+        - Remove Digits
+        - removes digits
       * - removeSigns
-        - Remove signs
-        - Removes signs
+        - Remove Signs
+        - removes signs
       * - removeCommas
-        - Remove commas
-        - Removes commas
+        - Remove Commas
+        - removes commas
+
+Examples
+----------
+
+Input
+-----------
+
+.. list-table:: 
+   :widths: 10 10 30
+   :header-rows: 1
+
+   * - id
+     - prodId
+     - message
+   
+   * - 1.0
+     - 0.0
+     - this is not a 2 spam
+     
+   * - 2.0
+     - 1.0
+     - i am, going to work
+
+   * - 3.0
+     - 2.0
+     - this is a spam
+     
+     
+Parameters
+-------------
+
+.. list-table:: 
+   :widths: 10 25 25 25 25 25 25
+   :header-rows: 1
+
+   * - Id
+     - Input Columns
+     - Remove Whitespaces
+     - Remove Letters
+     - Remove Digits
+     - Remove Signs
+     - Remove Commas
+   
+   * - 1
+     - message
+     - true
+     - false
+     - true
+     - true
+     - true
 
 
+Output
+----------
 
+.. list-table:: 
+   :widths: 10 10 30
+   :header-rows: 1
 
+   * - id
+     - prodId
+     - message
+   
+   * - 1.0
+     - 0.0
+     - thisisnotaspam
+     
+   * - 2.0
+     - 1.0
+     - iamgoingtowork
+
+   * - 3.0
+     - 2.0
+     - thisisaspam 

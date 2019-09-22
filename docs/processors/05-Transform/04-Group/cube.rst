@@ -30,9 +30,100 @@ Fields
         - Aggregate Columns
         - Aggregate Columns
       * - aggregateOperations
-        - Aggregate Operation to use
+        - Aggregate Operation to Use
         - Aggregate Operation
 
 
+Examples
+----------
 
+Input
+------
 
+.. list-table:: 
+   :widths: 20 20 20
+   :header-rows: 1
+
+   * - name
+     - age
+     - height
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
+     - 80
+     
+   * - James
+     - 5
+     - 50
+     
+   * - James
+     - 10
+     - 60
+    
+   * - James
+     - 7
+     - 80
+     
+ 
+Parameters
+-------------
+
+.. list-table:: 
+   :widths: 10 25
+   :header-rows: 1
+
+   * - Name
+     - Value
+   
+   * - Cube Columns
+     - name
+
+.. list-table:: 
+   :widths: 10 25 40
+   :header-rows: 1
+   
+   * - Id
+     - Aggregate Columns
+     - Aggregate Operation to Use
+   
+   * - 1
+     - age
+     - max
+   
+   * - 2
+     - height
+     - min
+   
+
+Output
+---------
+
+.. list-table:: 
+   :widths: 20 20 20
+   :header-rows: 1
+
+   * - name
+     - max_age
+     - min_height
+     
+   * - Alice
+     - 10
+     - 80
+     
+   * -
+     - 10
+     - 50
+     
+   * - James
+     - 10
+     - 50
+     
+     

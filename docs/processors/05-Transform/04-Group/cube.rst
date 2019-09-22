@@ -73,7 +73,7 @@ Input
      - 80
      
  
-Parameters
+Parameters1
 -------------
 
 .. list-table:: 
@@ -103,7 +103,7 @@ Parameters
      - min
    
 
-Output
+Output1
 ---------
 
 .. list-table:: 
@@ -126,4 +126,62 @@ Output
      - 10
      - 50
      
+-------------------------------------------------------------------    
+ 
+ Parameters2
+-------------
+
+.. list-table:: 
+   :widths: 10 25
+   :header-rows: 1
+
+   * - Name
+     - Value
+   
+   * - Cube Columns
+     - age
+
+.. list-table:: 
+   :widths: 10 25 40
+   :header-rows: 1
+   
+   * - Id
+     - Aggregate Columns
+     - Aggregate Operation to Use
+   
+   * - 1
+     - height
+     - max
+   
+   * - 2
+     - height
+     - min
+   
+
+Output2
+---------
+
+.. list-table:: 
+   :widths: 20 20 20
+   :header-rows: 1
+
+   * - age
+     - max_height
+     - min_height
      
+   * - 
+     - 80
+     - 50
+     
+   * - 5
+     - 80
+     - 50
+     
+   * - 10
+     - 80
+     - 60
+ 
+   * - 7
+     - 80
+     - 80
+ 

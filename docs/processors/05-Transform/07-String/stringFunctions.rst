@@ -77,7 +77,7 @@ Input
      - 80
      
      
-Parameters
+Parameters1
 ----------
 
 .. list-table:: 
@@ -97,8 +97,8 @@ Parameters
      - true
         
 
-Output
-------
+Output1
+--------
 
 .. list-table:: 
    :widths: 10 10 20
@@ -131,3 +131,67 @@ Output
    * - 7
      - 80
      - JAMES
+
+
+
+Parameters2
+------------
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Input Column Name
+     - name
+     
+   * - String Function
+     - upper
+     
+   * - ReplaceExistingCols
+     - false
+     
+Output2
+---------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - name
+     - age
+     - height
+     - name_upper
+     
+   * - Alice
+     - 5
+     - 80
+     - ALICE
+     
+   * - Alice
+     - 5
+     - 80
+     - ALICE
+     
+   * - Alice
+     - 10
+     - 80
+     - ALICE
+     
+   * - James
+     - 5
+     - 50
+     - JAMES
+     
+   * - James
+     - 10
+     - 60
+     - JAMES
+    
+   * - James
+     - 7
+     - 80
+     - JAMES
+     

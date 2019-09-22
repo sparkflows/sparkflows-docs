@@ -30,7 +30,7 @@ Fields
         - Aggregate Columns
         - Aggregate Columns
       * - aggregateOperations
-        - Aggregate Operation to use
+        - Aggregate Operation to Use
         - Aggregate Operation
       * - havingClause
         - Having Clause
@@ -40,5 +40,107 @@ Fields
         - where condition before group by function
 
 
+Examples
+----------
 
+Input
+------
 
+.. list-table:: 
+   :widths: 20 20 20
+   :header-rows: 1
+
+   * - name
+     - age
+     - height
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 5
+     - 80
+     
+   * - Alice
+     - 10
+     - 80
+     
+   * - James
+     - 5
+     - 50
+     
+   * - James
+     - 10
+     - 60
+    
+   * - James
+     - 7
+     - 80
+     
+ 
+ 
+ Parameters1
+-------------
+
+.. list-table:: 
+   :widths: 10 25
+   :header-rows: 1
+
+   * - Name
+     - Value
+   
+   * - Grouping Columns
+     - name
+     
+   * - Having Clause
+     -
+     
+   * - Where Clause
+     -
+
+.. list-table:: 
+   :widths: 10 25 40
+   :header-rows: 1
+   
+   * - Id
+     - Aggregate Columns
+     - Aggregate Operation to Use
+   
+   * - 1
+     - age
+     - max
+   
+   * - 2
+     - height
+     - min
+   
+   * - 3
+     - name
+     - count 
+   
+
+Output1
+---------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - name
+     - max_age
+     - min_height
+     - count_name
+     
+   * - James
+     - 10
+     - 50
+     - 3
+     
+   * - Alice
+     - 10
+     - 80
+     - 3
+     
+     
+-------------------------------------------------------------------

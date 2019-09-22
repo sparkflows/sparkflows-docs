@@ -210,3 +210,60 @@ Output2
  
 -----------------------------------------------------------------------------
 
+
+Parameters3
+-------------
+
+.. list-table:: 
+   :widths: 10 25
+   :header-rows: 1
+
+   * - Name
+     - Value
+   
+   * - Grouping Columns
+     - name
+     
+   * - Having Clause
+     - 
+     
+   * - Where Clause
+     - 
+
+.. list-table:: 
+   :widths: 10 25 40
+   :header-rows: 1
+   
+   * - Id
+     - Aggregate Columns
+     - Aggregate Operation to Use
+   
+   * - 1
+     - age
+     - max
+   
+   * - 2
+     - height
+     - min
+   
+   * - 3
+     - name
+     - count 
+   
+
+Output3
+---------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - name
+     - max_age
+     - min_height
+     - count_name
+     
+   * - Alice
+     - 10
+     - 80
+     - 3

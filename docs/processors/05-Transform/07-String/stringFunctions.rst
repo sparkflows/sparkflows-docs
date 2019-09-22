@@ -101,7 +101,7 @@ Output
 ------
 
 .. list-table:: 
-   :widths: 20 10 10 10
+   :widths: 10 10 20
    :header-rows: 1
 
    * - age

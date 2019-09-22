@@ -225,7 +225,7 @@ Parameters3
      - name
      
    * - Having Clause
-     - 
+     - min_height > 60
      
    * - Where Clause
      - 

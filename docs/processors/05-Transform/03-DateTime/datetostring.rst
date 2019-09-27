@@ -61,12 +61,15 @@ Input
 --------
 
 .. list-table:: 
-   :widths: 10 50 50
-   :header-rows: 1
+   :widths: 10 50
+   :header-rows: 2
 
    * - id
      - date
-   
+  
+   * - IntegerType
+     - DateType
+     
    * - 0
      - 2011-01-01
    
@@ -106,6 +109,10 @@ Output1
      - date
      - date_string
    
+   * - IntegerType
+     - DateType
+     - StringType
+     
    * - 0
      - 2011-01-01
      - 01/01/2011

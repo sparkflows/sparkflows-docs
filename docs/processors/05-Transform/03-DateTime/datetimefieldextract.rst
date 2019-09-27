@@ -72,7 +72,7 @@ Input
 
 .. list-table:: 
    :widths: 50 40 60 50 60 
-   :header-rows: 1
+   :header-rows: 2
 
    * - transactionId
      - cardNumber

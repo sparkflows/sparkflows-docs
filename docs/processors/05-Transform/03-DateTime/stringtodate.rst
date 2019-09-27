@@ -57,3 +57,29 @@ EEEEE MMMMM yyyy HH:mm:ss.SSSZ : Saturday November 2012 10:45:42.720+0100
 
 OUTPUT COLUMN NAME: - If user inputs an existing column name, it overrides the column 
                       otherwise it will add a new column.
+
+
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 50 40 60 50 60 
+   :header-rows: 1
+
+   * - id
+     - date_string
+     - date_string1
+   
+   * - 0
+     - 2011-1-1 00:00:00.0
+     - 05/26/2016 01:01:01
+   
+   * - 1
+     - 2012-1-14 01:00:00.0
+     - 06/22/2017 01:00:00
+   
+   * - 2
+     - 2013-12-10 02:00:00.0
+     - 01/12/2016 01:01:01
+     

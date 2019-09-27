@@ -103,7 +103,7 @@ Output1
 
 .. list-table:: 
    :widths: 10 30 30
-   :header-rows: 1
+   :header-rows: 2
 
    * - id
      - date

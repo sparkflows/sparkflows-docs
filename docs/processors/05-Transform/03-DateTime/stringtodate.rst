@@ -135,10 +135,10 @@ Output1
  
  
 Parameters2
-----------
+------------
 
 .. list-table:: 
-   :widths: 10 10
+   :widths: 30 30
    :header-rows: 1
    
    * - Name
@@ -156,7 +156,8 @@ Parameters2
    * - Output Column Type
      - TimeStamp
  
- Output2
+
+Output2
 --------------
 
 .. list-table:: 

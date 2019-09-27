@@ -64,7 +64,7 @@ Input
 --------------
 
 .. list-table:: 
-   :widths: 50 40 60 50 60 
+   :widths: 10 50 50
    :header-rows: 1
 
    * - id

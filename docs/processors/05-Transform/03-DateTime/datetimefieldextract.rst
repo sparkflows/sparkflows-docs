@@ -80,6 +80,12 @@ Input
      - amount
      - merchnatId
    
+   * - StringType
+     - StringType
+     - TimestampType
+     - DoubleType
+     - StringType
+     
    * - 215667691-7
      - 0003
      - 2015-12-25 01:17:06

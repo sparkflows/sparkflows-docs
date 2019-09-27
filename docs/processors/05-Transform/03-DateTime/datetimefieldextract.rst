@@ -76,7 +76,7 @@ Input
 
    * - transactionId
      - cardNumber
-     - date
+     - tx_timestamp
      - amount
      - merchnatId
    

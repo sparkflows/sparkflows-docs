@@ -115,18 +115,29 @@ Parameters
    * - Name
      - Value
      
-   * - Input Column Name
-     - age
+   * - Column
+     - tx_timestamp
      
-   * - Math Function
-     - pow
+   * - Extract Year
+     - true
      
-   * - Output Column
-     - pow_age
+   * - Extract Month
+     - true
      
-   * - Scale
-     - 2
-
+   * - Extract Day of Month
+     - true
+  
+   * - Extract Hour
+     - true
+     
+   * - Extract Minute
+     - true
+     
+   * - Extract Second
+     - true
+    
+   * - Extract WeekOfYear  
+     - true
 
 
 

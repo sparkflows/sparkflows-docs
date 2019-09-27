@@ -140,4 +140,77 @@ Parameters
      - true
 
 
+Output
+--------------
 
+.. list-table:: 
+   :widths: 50 40 60 50 60 40 40 40 40 40 40 40
+   :header-rows: 1
+
+   * - transactionId
+     - cardNumber
+     - tx_timestamp
+     - amount
+     - merchnatId
+     - tx_timestamp_year
+     - tx_timestamp_month
+     - tx_timestamp_dayofmonth	
+     - tx_timestamp_hour
+     - tx_timestamp_minute
+     - tx_timestamp_second
+     - tx_timestamp_weekofyear
+   
+   * - 215667691-7
+     - 0003
+     - 2015-12-25 01:17:06
+     - 14952.59
+     - 43199-016
+     - 2015
+     - 12
+     - 25
+     - 01
+     - 17
+     - 06
+     - 52
+     
+   * - 751006667-0
+     - 0012
+     - 2015-12-29 01:17:06
+     - 16603.44
+     - 63621-354
+     - 2015
+     - 12
+     - 29
+     - 01
+     - 17
+     - 06
+     - 53
+     
+   * - 52339970-8
+     - 0001
+     - 2015-12-22 01:17:06
+     - 29175.35
+     - 64205-126
+     - 2015
+     - 12
+     - 22
+     - 01
+     - 17
+     - 06
+     - 52
+     
+   * - 884800094-0
+     - 0003
+     - 2015-12-15 01:17:06
+     - 30190.31
+     - 50730-7993
+     - 2015
+     - 12
+     - 15
+     - 01
+     - 17
+     - 06
+     - 51
+     
+     
+     

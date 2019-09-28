@@ -141,7 +141,7 @@ Parameters
      - payment_temp_table
      
    * - SQL
-     - select a.txid, a.itemid, a.date, a.pyid, a.amount as total_amount, b.pay_type, b.amount from transaction_temp_table a JOIN payment_temp_table b ON(a.txid = b.txid and a.py_id = b.pyid)
+     - select a.txid, a.itemid, a.date, a.pyid, a.amount as total_amount, b.pay_type, b.amount from transaction_temp_table a JOIN payment_temp_table b ON(a.txid = b.pay_txid and a.pyid = b.py_id)
  
 Refresh the Schema tab.
 

@@ -73,7 +73,7 @@ Parameters
      - date_string
      
    * - Time Functions
-     - yyyy-MM-dd HH:mm:ss
+     - year, month, dayofmonth, dayofweek, dayofyear, weekofyear, season
       
 
 Output

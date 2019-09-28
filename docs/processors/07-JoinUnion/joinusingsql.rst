@@ -68,9 +68,9 @@ Input1
    :header-rows: 1
 
    * - txid
-     - item_id
+     - itemid
      - date
-     - py_id
+     - pyid
      - amount
    
    * - 1001
@@ -94,7 +94,7 @@ Input2
    :header-rows: 1
 
    * - py_id
-     - txid
+     - pay_txid
      - pay_type
      - amount
         
@@ -141,7 +141,7 @@ Parameters
      - payment_temp_table
      
    * - SQL
-     - select a.txid, a.item_id, a.date, a.py_id, a.amount as total_amount, b.pay_type, b.amount from transaction_temp_table a JOIN payment_temp_table b ON(a.txid = b.txid and a.py_id = b.py_id)
+     - select a.txid, a.itemid, a.date, a.py_id, a.amount as total_amount, b.pay_type, b.amount from transaction_temp_table a JOIN payment_temp_table b ON(a.txid = b.txid and a.py_id = b.pyid)
  
 Refresh the Schema tab.
 
@@ -153,9 +153,9 @@ Output
    :header-rows: 1
 
    * - txid
-     - item_id
+     - itemid
      - date
-     - py_id
+     - pyid
      - total_amount
      - pay_type
      - amount

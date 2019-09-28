@@ -80,7 +80,7 @@ Output
 --------
 
 .. list-table:: 
-   :widths: 10 30 30 30 30 30 30 30 30
+   :widths: 25 30 30 30 30 30 30 30 30
    :header-rows: 1
 
    * - Date

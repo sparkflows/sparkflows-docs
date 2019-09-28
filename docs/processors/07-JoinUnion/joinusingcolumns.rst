@@ -125,7 +125,13 @@ Parameters
      - Value
      
    * - Join Column
-     - txid
+     - txid, py_id
+   
+   * - Join Type
+     - inner
+     
+   * - Where Clause
+     - pay_type = 'credt_card'
      
 Refresh the Schema tab.
 
@@ -151,22 +157,6 @@ Output
      - 100
      - credt_card
      - 60
-  
-   * - 1001
-     - 01
-     - 0001
-     - 2019-09-20
-     - 100
-     - redme_coupon
-     - 20
-     
-   * - 1001
-     - 01
-     - 0001
-     - 2019-09-20
-     - 100
-     - redme_emp_offer
-     - 20
      
    * - 1002
      - 02
@@ -175,13 +165,4 @@ Output
      - 100
      - credt_card
      - 160
-     
-   * - 1002
-     - 02
-     - 0001
-     - 2019-09-20
-     - 100
-     - redme_coupon
-     - 40
-
 

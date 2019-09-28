@@ -76,7 +76,7 @@ Input
 
 .. list-table:: 
    :widths: 10 50 50
-   :header-rows: 1
+   :header-rows: 2
 
    * - id
      - date_string
@@ -103,23 +103,32 @@ Parameters
 ------------
 
 .. list-table:: 
-   :widths: 10 10
+   :widths: 40 10
    :header-rows: 1
    
    * - Name
      - Value
      
-   * - Input Column Name
-     - date_string1
+   * - FromDate
+     - date_string
      
-   * - Input Column Format
-     - MM/dd/yyyy HH:mm:ss
+   * - Todate
+     - 
      
-   * - Output Column Name
-     - date
+   * - useCurrentDateAsToCol
+     - true
      
-   * - Output Column Type
-     - Date
+   * - Days
+     - true
+     
+   * - Hours
+     - true
+     
+   * - Minutes
+     - true
+     
+   * - Seconds
+     - true  
  
 Output
 --------------

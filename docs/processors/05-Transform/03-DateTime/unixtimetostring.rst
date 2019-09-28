@@ -62,3 +62,75 @@ select an input column (long type), output column name and desired output column
 It will add one more column in string format. 
 
 If you input a date format like dd-MM-yy. It will add one column having value like 31-01-12.
+
+
+Input
+--------
+
+.. list-table:: 
+   :widths: 10 50
+   :header-rows: 1
+
+   * - id
+     - unix_time
+   
+   * - IntegerType
+     - LongType
+     
+   * - 0
+     - 1326483000
+   
+   * - 1
+     - 1386621000
+   
+   * - 2
+     - 1392669000
+     
+
+Parameters
+------------
+
+.. list-table:: 
+   :widths: 30 30
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Input Column Name
+     - unix_time
+     
+   * - Output Column Name
+     - unixtime_to_string
+     
+   * - Output Column Format
+     - yyyy-MM-dd
+     
+ 
+Output
+--------------
+
+.. list-table:: 
+   :widths: 10 50 50
+   :header-rows: 2
+
+   * - id
+     - unix_time
+     - unixtime_to_string
+   
+   * - IntegerType
+     - LongType
+     - StringType
+     
+   * - 0
+     - 1326483000
+     - 2011-1-1
+   
+   * - 1
+     - 1386621000
+     - 2012-1-14
+   
+   * - 2
+     - 1392669000
+     - 2013-12-10
+ 

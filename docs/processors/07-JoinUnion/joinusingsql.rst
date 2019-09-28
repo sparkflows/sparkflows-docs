@@ -65,7 +65,7 @@ Input1
 
 .. list-table:: 
    :widths: 10 30 30 30 30
-   :header-rows: 2
+   :header-rows: 1
 
    * - txid
      - item_id

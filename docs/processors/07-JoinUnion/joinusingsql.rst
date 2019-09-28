@@ -128,20 +128,20 @@ Parameters
 ------------
 
 .. list-table:: 
-   :widths: 40 10
+   :widths: 20 70
    :header-rows: 1
    
    * - Name
      - Value
      
-   * - Input Column Name
-     - date_string
+   * - Temp Table1
+     - transaction_temp_table
      
-   * - Input Column Format
-     - yyyy-MM-dd HH:mm:ss
+   * - Temp Table2
+     - payment_temp_table
      
-   * - Output Column Name
-     - unix_time
+   * - SQL
+     - select a.txid, a.item_id, a.date, a.py_id, a.amount as total_amount, b.pay_type, b.amount from transaction_temp_table a JOIN payment_temp_table b ON(a.txid = b.txid and a.py_id = b.py_id)
  
 
 Output

@@ -113,16 +113,17 @@ Input2
      - redme_emp_offer
      - 20
    
-    * - 02
-      - 1002
-      - credt_card
-      - 160
+   * - 02
+     - 1002
+     - credt_card
+     - 160
       
-    * - 02
-      - 1002
-      - redme_coupon
-      - 40
+   * - 02
+     - 1002
+     - redme_coupon
+     - 40
      
+
 Parameters
 ------------
 

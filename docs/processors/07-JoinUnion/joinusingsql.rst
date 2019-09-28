@@ -90,28 +90,38 @@ Input2
 --------------
 
 .. list-table:: 
-   :widths: 10 50 50
-   :header-rows: 2
+   :widths: 10 30 30 30
+   :header-rows: 1
 
-   * - id
-     - date_string
-     - date_string1
+   * - py_id
+     - txid
+     - pay_type
+     - amount
+        
+   * - 01
+     - 1001
+     - credt_card
+     - 60
      
-   * - IntegerType
-     - StringType
-     - StringType 
+   * - 01
+     - 1001
+     - redme_coupon
+     - 20
+     
+   * - 01
+     - 1001
+     - redme_emp_offer
+     - 20
    
-   * - 0
-     - 2011-1-1 00:00:00.0
-     - 05/26/2016 01:01:01
-   
-   * - 1
-     - 2012-1-14 01:00:00.0
-     - 06/22/2017 01:00:00
-   
-   * - 2
-     - 2013-12-10 02:00:00.0
-     - 01/12/2016 01:01:01
+    * - 02
+      - 1002
+      - credt_card
+      - 160
+      
+    * - 02
+      - 1002
+      - redme_coupon
+      - 40
      
 Parameters
 ------------

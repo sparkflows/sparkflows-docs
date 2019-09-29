@@ -83,7 +83,7 @@ Input
      - 2.1
      - 2.0
 
-Parameters
+Parameters1
 ------------
 
 .. list-table:: 
@@ -108,7 +108,7 @@ Parameters
    * - separator
      - 
 
-Output
+Output1
 --------------
 
 .. list-table:: 
@@ -145,4 +145,67 @@ Output
      - 2.0
      - 1476beec9dd8dc61bb617ba15e068e43ad918c83cc543d290f45a219d603e75c
      
+------------------------------------------------------------------------------------- 
+ 
+ Parameters2
+------------
+
+.. list-table:: 
+   :widths: 20 30
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Columns
+     - f1 f2
+     
+   * - Hashing Algorithm
+     - MD5
+     
+   * - Output Column Name
+     - md5_hash
+     
+   * - Bit Length
+     - 
+     
+   * - separator
+     - 
+
+Output2
+--------------
+
+.. list-table:: 
+   :widths: 20 20 20 20 60
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+     - md5_hash
+     
+   * - 6
+     - 1.0
+     - 2.1
+     - 2.0
+     - 32d7edaf74fd94509361bcd1f0c56763
+   
+   * - 4
+     - 0.0
+     - 4.1
+     - 5.0
+     - f2880da79c8d1c255c1afdba28a9001e
+     
+   * - 5
+     - 0.0
+     - 3.1
+     - 6.0
+     - c5c2c80d0b26cecafe376dc4cdc91e6f
+      
+   * - 66
+     - 1.0
+     - 2.1
+     - 2.0
+     - 32d7edaf74fd94509361bcd1f0c56763
      

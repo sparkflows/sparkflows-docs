@@ -76,9 +76,16 @@ Parameters
    :widths: 20 30
    :header-rows: 1
    
-   * - Name
-     - Value
+   * - id
+     - New Columns Name
+     - Expressions
      
-   * - Index Column Name
-     - row_id
+   * - 1
+     - sqrt_f1
+     - sqrt(f1)
 
+   * - 2
+     - abs_f2
+     - abs(f2)
+     
+     

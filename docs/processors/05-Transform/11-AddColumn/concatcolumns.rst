@@ -100,13 +100,14 @@ Output
 ---------
  
 .. list-table:: 
-   :widths: 20 20 20 20
+   :widths: 20 20 20 20 40
    :header-rows: 1
 
    * - site_id
      - app_id
      - site_domain
      - site_category
+     - site_id_app_id
      
    * - 1fbe01fe
      - ecad2386 

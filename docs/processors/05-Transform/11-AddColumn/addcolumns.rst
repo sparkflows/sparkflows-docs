@@ -128,7 +128,7 @@ Parameters
      - true
    
    * - Constant String Column Name
-     - contant_string
+     - constant_string
      
    * - Constant String Column Value
      - XYZ
@@ -137,7 +137,61 @@ Parameters
      - true
    
    * - Constant Integer Column Name
-     - contant_integer
+     - constant_integer
    
    * - Constant Integer Column Value
      - 10
+
+Input
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20 40 40 30 30
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+     - current_date
+     - current_time
+     - constant_string
+     - constant_integer
+     
+     
+   * - 6
+     - 1.0
+     - 2.1
+     - 2.0
+     - 2019-09-29
+     - 2019-09-29 14:27:16.206
+     - XYZ
+     - 10
+   
+   * - 4
+     - 0.0
+     - 4.1
+     - 5.0
+     - 2019-09-29
+     - 2019-09-29 14:27:16.206
+     - XYZ
+     - 10
+     
+   * - 5
+     - 0.0
+     - 3.1
+     - 6.0
+     - 2019-09-29
+     - 2019-09-29 14:27:16.206
+     - XYZ
+     - 10
+      
+   * - 66
+     - 1.0
+     - 2.1
+     - 2.0
+     - 2019-09-29
+     - 2019-09-29 14:27:16.206
+     - XYZ
+     - 10
+     

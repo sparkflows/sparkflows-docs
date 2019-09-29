@@ -142,7 +142,7 @@ Parameters
    * - Constant Integer Column Value
      - 10
 
-Input
+Output
 --------
 
 .. list-table:: 

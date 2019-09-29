@@ -73,7 +73,7 @@ Parameters
 ------------
 
 .. list-table:: 
-   :widths: 20 30
+   :widths: 10 20 30
    :header-rows: 1
    
    * - id

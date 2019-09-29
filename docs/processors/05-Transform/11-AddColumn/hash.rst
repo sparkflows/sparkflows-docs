@@ -108,7 +108,7 @@ Parameters
    * - separator
      - 
 
-Input
+Output
 --------------
 
 .. list-table:: 

@@ -40,3 +40,20 @@ This node is used recover the partitions of external hve table.
 It will run the command: "MSCK REPAIR TABLE ${databaseName}.${tableName}"
 
 
+Parameters
+------------
+
+.. list-table:: 
+   :widths: 20 30
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - HIVE Database
+     - test
+     
+   * - HIVE Table
+     - transactions
+     
+     

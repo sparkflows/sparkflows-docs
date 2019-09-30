@@ -117,25 +117,23 @@ Parameters
 .. list-table:: 
    :widths: 20 40 40 40 40
    :header-rows: 1
-   
-   * - PartitionBy
-     - bedrooms
-     - bedrooms
-     
-   * - OrderBy
-     - price
-     - price desc
         
-   * - WindowFunction
+   * - PartitionBy
+     - OrderBy
+     - WindowFunction
+     - AnalyticsColumn
+     - OutPutColumn
+  
+   * - bedrooms
+     - price
      - lag
-     - first_value
-   
-   * - AnalyticsColumn
      - price
-     - price
-     
-   * - OutPutColumn
      - lag_price
+  
+   * - bedrooms
+     - price desc
+     - first_value
+     - price
      - firstvalue_price
      
      

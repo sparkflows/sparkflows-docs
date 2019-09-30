@@ -77,7 +77,7 @@ Parameters
      - Value
      
    * - Input Column
-     - V1 V2
+     - V1   V2
      
    * - Precision
      - 2

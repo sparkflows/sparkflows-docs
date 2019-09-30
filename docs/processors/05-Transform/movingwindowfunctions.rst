@@ -58,7 +58,7 @@ Input
 --------------
 
 .. list-table:: 
-   :widths: 10 20 10
+   :widths: 10 10 10 10 30 20
    :header-rows: 1
 
    * - year 

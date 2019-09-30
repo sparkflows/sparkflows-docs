@@ -117,10 +117,6 @@ Parameters
      
    * - OrderBy
      - lotsize , price desc
-
-.. list-table:: 
-   :widths: 40 40
-   :header-rows: 1
    
    * - Window Function
      - Analytics Column

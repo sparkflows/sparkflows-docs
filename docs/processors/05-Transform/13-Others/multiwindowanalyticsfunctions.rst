@@ -115,7 +115,7 @@ Parameters
 ------------
 
 .. list-table:: 
-   :widths: 20 40 40 40 40 40
+   :widths: 20 40 40 40 40
    :header-rows: 1
    
    * - PartitionBy
@@ -200,7 +200,7 @@ Input
      -
      - 66000.0 
    
-  * - 5
+   * - 5
      - 61000
      - 6360
      - 2

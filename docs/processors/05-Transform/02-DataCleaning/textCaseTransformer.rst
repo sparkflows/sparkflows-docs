@@ -116,8 +116,8 @@ Output1
 -------------------------------------------------------------------------------
 
 
-Parameters1
-----------
+Parameters2
+------------
 
 
 .. list-table:: 
@@ -137,7 +137,7 @@ Parameters1
      - name_lower
 
 
-Output1
+Output2
 --------------
 
 .. list-table:: 

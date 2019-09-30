@@ -131,35 +131,35 @@ Parameters1
    :widths: 10 10
    :header-rows: 1
    
-  * - Input Columns
-    - Functioms
+   * - Input Columns
+     - Functioms
     
-  * - price
-    - avg
+   * - price
+     - avg
     
-  * - price
-    - min
+   * - price
+     - min
     
-  * - price
-    - max
+   * - price
+     - max
    
-  * - price
-    - stddev
+   * - price
+     - stddev
     
-  * - price
-    - variance
+   * - price
+     - variance
     
-  * - price
-    - skewness
+   * - price
+     - skewness
     
-  * - price
-    - kurtosis
+   * - price
+     - kurtosis
     
-  * - price
-    - coefficient_of_variation
+   * - price
+     - coefficient_of_variation
     
-  * - price
-    - range
+   * - price
+     - range
     
     
 

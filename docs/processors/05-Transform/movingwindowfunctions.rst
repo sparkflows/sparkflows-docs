@@ -51,5 +51,116 @@ Fields
         - 
 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 10 20 10
+   :header-rows: 1
+
+   * - year 
+     - month
+     - date
+     - symbol
+     - temp
+     - price
+     
+   * - 2015
+     - 9
+     - 4
+     - ADP
+     - 305378
+     - 76.15
+     
+   * - 2015
+     - 8
+     - 26
+     - ADP
+     - 591184
+     - 77.8 
+      
+   * - 2015
+     - 9
+     - 10
+     - ADP
+     - 467863
+     - 77.92
+     
+   * - 2015
+     - 8
+     - 12
+     - ADP
+     - 209928
+     - 81.55
+     
+   * - 2015
+     - 8
+     - 14
+     - ADP
+     - 194911
+     - 82.99 
+
+Parameters1
+----------
+
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Window Start
+     - -1
+     
+   * - Window End
+     - 1
+     
+   * - Partition Column Name
+     - symbol
+   
+   * - Order Column Name
+     - 
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+  * - Input Columns
+    - Functioms
+    
+  * - price
+    - avg
+    
+  * - price
+    - min
+    
+  * - price
+    - max
+   
+  * - price
+    - stddev
+    
+  * - price
+    - variance
+    
+  * - price
+    - skewness
+    
+  * - price
+    - kurtosis
+    
+  * - price
+    - coefficient_of_variation
+    
+  * - price
+    - range
+    
+    
+
 
 

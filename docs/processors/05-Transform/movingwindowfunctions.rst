@@ -119,12 +119,13 @@ Parameters1
      
    * - Window End
      - 1
-     
-   * - Partition Column Name
-     - symbol
-   
+    
    * - Order Column Name
      - 
+    
+   * - Partition Column Name
+     - symbol  
+
 
 .. list-table:: 
    :widths: 10 10

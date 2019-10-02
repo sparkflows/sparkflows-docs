@@ -114,7 +114,9 @@ Output1
      - 6.0
       
      
- Output2
+
+
+Output2
 --------
 
 .. list-table:: 

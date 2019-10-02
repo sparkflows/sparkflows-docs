@@ -89,8 +89,20 @@ Parameters
 
 
 .. list-table:: 
-   :widths: 10 10
+   :widths: 30 30 60
    :header-rows: 1
+   
+   * - InputColumnsName
+     - OuputColumnsName
+     - Patterns
+     - Groups
+     
+   * - name
+     - (.*) (.*)
+     - firstname
+     - 1
+   
+   
    
 
 

@@ -98,7 +98,7 @@ Output
 ----------
 
 .. list-table:: 
-   :widths: 50 30
+   :widths: 50 30 20 20 20
    :header-rows: 2
 
    * - date_of_payment

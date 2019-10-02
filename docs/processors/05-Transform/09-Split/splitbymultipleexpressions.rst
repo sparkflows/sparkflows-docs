@@ -172,4 +172,3 @@ Output4
      - f2
 
 
-   EMPTY

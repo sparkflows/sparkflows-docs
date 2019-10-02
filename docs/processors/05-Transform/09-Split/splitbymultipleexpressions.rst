@@ -44,5 +44,132 @@ Fields
         - Conditional Expression 5 to be used for Splitting the Dataset
 
 
+Examples
+---------
+
+Input
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+     
+   * - 6
+     - 1.0
+     - 2.1
+     - 2.0
+   
+   * - 4
+     - 0.0
+     - 4.1
+     - 5.0
+     
+   * - 5
+     - 0.0
+     - 3.1
+     - 6.0
+      
+   * - 66
+     - 1.0
+     - 2.1
+     - 2.0
 
 
+Parameters
+------------
+
+.. list-table:: 
+   :widths: 60 30
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Conditional Expression 1 to split the Data on
+     - id <= 4
+     
+   * - Conditional Expression 2 to split the Data on
+     - id > 4 AND id <= 5
+
+   * - Conditional Expression 3 to split the Data on
+     - id > 5 AND id <= 6
+     
+   * - Conditional Expression 4 to split the Data on
+     - id > 12 AND id <= 30
+ 
+
+Output1
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+   
+   * - 4
+     - 0.0
+     - 4.1
+     - 5.0
+
+
+
+Output2
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+     
+   * - 5
+     - 0.0
+     - 3.1
+     - 6.0
+      
+     
+Output3
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+     
+   * - 6
+     - 1.0
+     - 2.1
+     - 2.0
+    
+
+
+Output4
+--------
+
+.. list-table:: 
+   :widths: 20 20 20 20
+   :header-rows: 1
+
+   * - id
+     - label
+     - f1
+     - f2
+
+
+   

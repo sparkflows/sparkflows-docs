@@ -101,8 +101,71 @@ Parameters
      - (.*) (.*)
      - firstname
      - 1
+     
+   * - name
+     - (.*) (.*)
+     - lastname
+     - 2 
    
-   
-   
+   * - datetime
+     - ([0-9]{4}-[0-9]{2}-[0-9]{2})
+     - date
+     - 1
 
 
+Output
+--------------
+
+.. list-table:: 
+   :widths: 10 30 40 30 30 30
+   :header-rows: 2
+
+   * - id
+     - name
+     - datetime
+     - firstname
+     - lastname
+     - date
+   
+   * - StringType
+     - StringType
+     - StringType
+     - StringType
+     - StringType
+     - StringType
+     
+   * - 1
+     - Robert ryl
+     - 2018-10-11 12:10:22
+     - Robert
+     - ryl
+     - 2018-10-11 
+     
+   * - 2
+     - Daniell Hammack
+     - 2017-10-11 10:10:22
+     - Daniell
+     - Hammack
+     - 2017-10-11 
+     
+   * - 3
+     - Versie Hillebrand
+     - 2013-10-11 20:10:22
+     - Versie
+     - Hillebrand
+     - 2013-10-11 
+     
+   * - 4
+     - Markita Hansen
+     - 2012-11-13 23:10:25
+     - Markita 
+     - Hansen
+     - 2012-11-13
+     
+   * - 5
+     - Kary Hendrixson
+     - 2017-10-18 22:10:26
+     - Kary
+     - Hendrixson
+     - 2017-10-18
+   

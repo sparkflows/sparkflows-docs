@@ -1,5 +1,5 @@
-CompareAllColumns
-=========== 
+CompareAllColumnsSingleOutput
+============================
 
 Compares 2 incoming DataFrames. Outputs 1 DataFrame (A-B) or (B-A) or (A intersection B) based on user's input
 

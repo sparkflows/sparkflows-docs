@@ -38,4 +38,83 @@ Fields
 
 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 10 40 10
+   :header-rows: 2
+
+   * - label
+     - message
+     - id
+   
+   * - DoubleType
+     - StringType
+     - DoubleType
+     
+   * - 1.0
+     - this is a spam
+     - 2.0
+     
+   * - 0.0
+     - i am going to work
+     - 1.0
+     
+   
+Parameters
+----------
+
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Column
+     - message
+     
+   * - Tokenized Column
+     - token_output 
+     
+   * - Pattern
+     - \\s+
+     
+   * - Gaps
+     - false
+     
+     
+Output
+--------------
+
+.. list-table:: 
+   :widths: 10 40 10 50
+   :header-rows: 2
+
+   * - label
+     - message
+     - id
+     - token_output
+   
+   * - DoubleType
+     - StringType
+     - DoubleType
+     - ArrayType(StringType,true)
+     
+   * - 1.0
+     - this is a spam
+     - 2.0
+     - WrappedArray(this, is, a, spam)
+     
+   * - 0.0
+     - i am going to work
+     - 1.0
+     - WrappedArray(i, am, going, to, work)
+
+
 

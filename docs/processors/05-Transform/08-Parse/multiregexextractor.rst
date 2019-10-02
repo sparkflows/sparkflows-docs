@@ -45,5 +45,52 @@ Fields
         - An regular expression group number starting with 1, defining which portion of the matching string will be returned
 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 10 30 40
+   :header-rows: 2
+
+   * - id
+     - name
+     - datetime
+   
+   * - StringType
+     - StringType
+     - StringType
+     
+   * - 1
+     - Robert ryl
+     - 2018-10-11 12:10:22
+     
+   * - 2
+     - Daniell Hammack
+     - 2017-10-11 10:10:22
+     
+   * - 3
+     - Versie Hillebrand
+     - 2013-10-11 20:10:22
+  
+   * - 4
+     - Markita Hansen
+     - 2012-11-13 23:10:25
+     
+   * - 5
+     - Kary Hendrixson
+     - 2017-10-18 22:10:26
+   
+   
+Parameters
+----------
+
+
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
 
 

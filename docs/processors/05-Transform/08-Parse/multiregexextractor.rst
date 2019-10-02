@@ -89,7 +89,7 @@ Parameters
 
 
 .. list-table:: 
-   :widths: 30 30 60
+   :widths: 30 30 60 10
    :header-rows: 1
    
    * - InputColumnsName

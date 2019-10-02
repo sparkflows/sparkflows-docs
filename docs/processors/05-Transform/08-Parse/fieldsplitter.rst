@@ -44,6 +44,97 @@ Fields
         - On Error
         - 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 50 30
+   :header-rows: 2
+
+   * - date_of_payment
+     - total_amount
+   
+   * - StringType
+     - DoubleType
+     
+   * - 12/17/2013
+     - 113.48
+     
+   * - 12/4/2013
+     - 119.49
+     
+   * - 12/16/2013
+     - 12.01
+  
+   * - 10/22/2013 
+     - 10.61
+   
+   
+Parameters
+----------
 
 
+.. list-table:: 
+   :widths: 10 10
+   :header-rows: 1
+   
+   * - Name
+     - Value
+     
+   * - Input Column
+     - date_of_payment
+     
+   * - Separator
+     - /
+     
+   * - Output Columns
+     - month,date,year
+
+
+Output
+----------
+
+.. list-table:: 
+   :widths: 50 30
+   :header-rows: 2
+
+   * - date_of_payment
+     - total_amount
+     - month
+     - date
+     - year
+   
+   * - StringType
+     - DoubleType
+     - StringType
+     - StringType
+     - StringType
+     
+   * - 12/17/2013
+     - 113.48
+     - 12
+     - 17
+     - 2013
+     
+   * - 12/4/2013
+     - 119.49
+     - 12
+     - 4
+     - 2013
+     
+   * - 12/16/2013
+     - 12.01
+     - 12
+     - 16
+     - 2013
+  
+   * - 10/22/2013 
+     - 10.61
+     - 10
+     - 22
+     - 2013
+     
 

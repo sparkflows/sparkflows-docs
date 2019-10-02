@@ -63,27 +63,62 @@ Parameters
 
 
 .. list-table:: 
-   :widths: 30 30 60 10
+   :widths: 30 30
    :header-rows: 1
    
-   * - InputColumnsName
-     - OuputColumnsName
-     - Patterns
-     - Groups
+   * - Name
+     - Value
      
-   * - name
-     - (.*) (.*)
-     - firstname
-     - 1
+   * - JSON Col Name
+     - txt
      
-   * - name
-     - (.*) (.*)
-     - lastname
-     - 2 
+.. list-table:: 
+   :widths: 30 30 30
+   :header-rows: 1
    
-   * - datetime
-     - ([0-9]{4}-[0-9]{2}-[0-9]{2})
-     - date
-     - 1
+   * - Input Col
+     - JSON Field names
+     - JSON Field Type
+     
+   * - txt
+     - name
+     - StringType
+     
+   * - txt
+     - age
+     - IntegerType
+     
+     
+Output
+--------------
+
+.. list-table:: 
+   :widths: 60 60 30 30
+   :header-rows: 2
+
+   * - txt
+     - txt_parsed
+     - name
+     - age
+   
+   * - StringType
+     - StructType(StructField(name,StringType,true)
+     - StringType
+     - IntegerType
+ 
+   * - {"name":"Michael"}
+     - [Michael,null]
+     - Michael
+     -
+     
+   * - {"name":"Andy", "age":30}
+     - [Andy,30]
+     - Andy
+     - 30
+     
+   * - {"name":"Justin", "age":19}
+     - [Justin,19]
+     - Justin
+     - 19
 
 

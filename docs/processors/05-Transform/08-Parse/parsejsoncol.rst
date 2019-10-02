@@ -37,5 +37,53 @@ Fields
         - Data Type of the JSON field
 
 
+Examples
+---------
+
+Input
+--------------
+
+.. list-table:: 
+   :widths: 60
+   :header-rows: 2
+
+   * - txt
+   
+   * - StringType
+ 
+   * - {"name":"Michael"}
+     
+   * - {"name":"Andy", "age":30}
+     
+   * - {"name":"Justin", "age":19}
+  
+  
+Parameters
+----------
+
+
+.. list-table:: 
+   :widths: 30 30 60 10
+   :header-rows: 1
+   
+   * - InputColumnsName
+     - OuputColumnsName
+     - Patterns
+     - Groups
+     
+   * - name
+     - (.*) (.*)
+     - firstname
+     - 1
+     
+   * - name
+     - (.*) (.*)
+     - lastname
+     - 2 
+   
+   * - datetime
+     - ([0-9]{4}-[0-9]{2}-[0-9]{2})
+     - date
+     - 1
 
 

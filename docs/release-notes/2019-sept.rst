@@ -22,11 +22,13 @@ New Features
 
 - Integerated File Watcher with AWS
 - Database Cleanup for workflow execution & workflow execution results
-- Export of all users available in database
-- Added search help with search option with quickstart guide,Tutorials & FAQ
+- Export of all users
+- Added search help with search option with quickstart guide, tutorials & FAQ
 
-Improvement of Security Vulnerabilties
+Upgrades for Security Vulnerabilties
 ---------------------------------------
+
+- All the dependencies have been upgraded to handle security vulnerabilities.
 
 UI Improvement
 --------------

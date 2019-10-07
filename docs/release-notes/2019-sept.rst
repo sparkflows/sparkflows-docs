@@ -33,4 +33,4 @@ Upgrades for Security Vulnerabilties
 UI Improvement
 --------------
 
-- Improvement of workflow editor page with add more parameter is added with button link. 
+- Improvement of workflow editor page to make it easy to add the workflow parameters.

@@ -12,7 +12,7 @@ Go to the Applications Page
 Select the Applications you want to export
 ---------------
 
-docs/_assets/git1.png
+
 
 
 Click on Export

@@ -12,7 +12,7 @@ Go to the Applications Page
 Select the Applications you want to export
 ---------------
 
-  ../.. figure:: ../_assets/user-guide/workflow/git1.png
+  .. figure:: ../../_assets/user-guide/workflow/git1.png
      :alt: workflow
      :align: center
      :width: 60%

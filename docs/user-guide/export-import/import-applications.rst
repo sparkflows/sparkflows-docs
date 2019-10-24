@@ -10,6 +10,6 @@ Go to the Applications Page
 
 
 
-Click on Impor
+Click on Import
 ---------------
 

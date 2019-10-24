@@ -12,10 +12,15 @@ Go to the Applications Page
 Select the Applications you want to export
 ---------------
 
-  .. figure:: ../docs/_assets/user-guide/git1.png
-     :alt: Userguide
+  .. figure:: ../_assets/user-guide/workflow/git1.png
+     :alt: Workflow
      :align: center
      :width: 60%
+
+
+Select the workflow option and click the export button.
+
+
 
 
 Click on Export

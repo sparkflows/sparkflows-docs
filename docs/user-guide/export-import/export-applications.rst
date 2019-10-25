@@ -63,3 +63,18 @@ Select the project which you want to export.
      :alt: tutorials
      :align: center
      :width: 60%
+     
+Select the workflow and datasets option and click the export button.
+
+.. figure:: ../../_assets/tutorials/dataset/53.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+     
+After successful export, export information modal gets open. 
+
+.. figure:: ../../_assets/tutorials/dataset/54.png
+     :alt: tutorials
+     :align: center
+     :width: 60%

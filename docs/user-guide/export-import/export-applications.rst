@@ -45,7 +45,9 @@ Select the datasets option and click the export button.
      :width: 60%
      
      
+     
  After successful export, export information modal gets open. 
+ 
  
  .. figure:: ../../_assets/tutorials/dataset/51.png
      :alt: tutorials

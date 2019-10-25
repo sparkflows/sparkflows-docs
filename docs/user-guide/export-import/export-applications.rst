@@ -58,3 +58,8 @@ Export Workflows and Datasets
 ------------------------------
 
 Select the project which you want to export. 
+
+.. figure:: ../../_assets/tutorials/dataset/52.png
+     :alt: tutorials
+     :align: center
+     :width: 60%

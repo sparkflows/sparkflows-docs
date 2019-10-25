@@ -109,14 +109,14 @@ Export Empty Workflows
 
 Select the project which you want to export.
 
-.. figure:: ../../_assets/tutorials/dataset/58.png
+ .. figure:: ../../_assets/tutorials/dataset/58.png
      :alt: tutorials
      :align: center
      :width: 60%
      
 Select the workflow option and click the export button. 
 
-.. figure:: ../../_assets/tutorials/dataset/59.png
+ .. figure:: ../../_assets/tutorials/dataset/59.png
      :alt: tutorials
      :align: center
      :width: 60%
@@ -124,7 +124,7 @@ Select the workflow option and click the export button.
      
 If there are no workflows in the project, then an error message will be displayed.
      
-.. figure:: ../../_assets/tutorials/dataset/60.png
+ .. figure:: ../../_assets/tutorials/dataset/60.png
      :alt: tutorials
      :align: center
      :width: 60%  

@@ -78,3 +78,32 @@ After successful export, export information modal gets open.
      :alt: tutorials
      :align: center
      :width: 60%
+     
+Export Empty Workflows and Datasets
+------------------------------------ 
+
+Select the project which you want to export. 
+
+.. figure:: ../../_assets/tutorials/dataset/55.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+Select the workflow and datasets option and click the export button.
+
+.. figure:: ../../_assets/tutorials/dataset/56.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+ If there are no  workflows and datasets in the project, then error message will come.
+ 
+ 
+ .. figure:: ../../_assets/tutorials/dataset/57.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+
+
+

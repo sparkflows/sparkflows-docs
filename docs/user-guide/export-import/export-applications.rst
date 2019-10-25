@@ -53,5 +53,8 @@ After successful export, export information modal gets open.
      :align: center
      :width: 60%
      
- Export Workflows and Datasets
-------------------------------- 
+     
+Export Workflows and Datasets
+------------------------------
+
+Select the project which you want to export. 

@@ -12,8 +12,8 @@ Select Applications to export
 * Go to the Applications Page
 * Select the Applications you want to export
 
-  .. figure:: ../../_assets/user-guide/workflow/git1.png
-     :alt: workflow
+  .. figure:: ../../_assets/tutorials/dataset/47.png
+     :alt: tutorials
      :align: center
      :width: 60%
 

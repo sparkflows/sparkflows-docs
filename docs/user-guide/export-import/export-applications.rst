@@ -132,10 +132,33 @@ If there are no workflows in the project, then an error message will be displaye
      :align: center
      :width: 60%  
      
+
+Export Empty Datasets 
+----------------------
+
+
+Select the project which you want to export.
+
+.. figure:: ../../_assets/tutorials/dataset/61.png
+     :alt: tutorials
+     :align: center
+     :width: 60%  
+  
+Select the dataset option and click the export button.
      
 
-     
+ .. figure:: ../../_assets/tutorials/dataset/62.png
+     :alt: tutorials
+     :align: center
+     :width: 60%      
 
+
+If there are no datasets in the project, then an error message will be displayed.
+
+ .. figure:: ../../_assets/tutorials/dataset/63.png
+     :alt: tutorials
+     :align: center
+     :width: 60%  
 
 
 

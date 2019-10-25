@@ -96,7 +96,7 @@ Select the workflow and datasets option and click the export button.
      :align: center
      :width: 60%
      
- If there are no  workflows and datasets in the project, then error message will come.
+If there are no  workflows and datasets in the project, then error message will come.
  
  
  .. figure:: ../../_assets/tutorials/dataset/57.png

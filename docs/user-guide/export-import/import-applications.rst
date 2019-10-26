@@ -42,6 +42,8 @@ Create new workflows and datasets
 
 * The workflows and datasets which are present in ETL will remain as it is just, the new workflows and datasets will be created which are present in the Connectors (data present in the zip file). 
 
+
+
 Datasets
 
 
@@ -51,7 +53,10 @@ Datasets
      :width: 60%
 
 
+
+
 Workflows
+
 
 
 .. figure:: ../../_assets/tutorials/dataset/70.png
@@ -59,7 +64,11 @@ Workflows
      :align: center
      :width: 60%
 
+
+
 After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+
+
 
 .. figure:: ../../_assets/tutorials/dataset/71.png
      :alt: tutorials

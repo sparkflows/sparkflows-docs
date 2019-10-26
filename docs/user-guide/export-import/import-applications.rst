@@ -10,6 +10,21 @@ Go to the Applications Page
 
 
 
+
+Select the name of project which are present in the uploaded zip file(Connectors) 
+Select the project name where user have to import the data of connectors(May import in the same project or any other of the user's choice). 
+There are three options to import projects- 
+Create new workflows and datasets. 
+Overwrite workflows and datasets if found. 
+Delete all workflows and datasets and create a new one. 
+
+
+Create new workflows and datasets
+------------------------------
+
+
+
+
 Click on Import
 ---------------
 

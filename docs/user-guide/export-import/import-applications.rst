@@ -8,7 +8,7 @@ Below are the steps for importing Applications in Fire.
 Go to the Applications Page
 --------------------
 
- .. figure:: ../../_assets/tutorials/dataset/48.png
+ .. figure:: ../../_assets/tutorials/dataset/67-2.png
      :alt: tutorials
      :align: center
      :width: 60%

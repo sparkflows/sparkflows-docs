@@ -8,7 +8,10 @@ Below are the steps for importing Applications in Fire.
 Go to the Applications Page
 --------------------
 
-
+ .. figure:: ../../_assets/tutorials/dataset/48.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
 
 
 Select the name of project which are present in the uploaded zip file(Connectors) 

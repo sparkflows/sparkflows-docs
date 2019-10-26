@@ -74,6 +74,72 @@ After successfully import, Import Information modal is shown with number of work
      :alt: tutorials
      :align: center
      :width: 60%
+     
+     
+     
+Overwrite workflows and datasets if found
+---------------------------------------
+
+
+If not found then, create a new one
+
+
+.. figure:: ../../_assets/tutorials/dataset/72.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+     
+* Connectors data from file. 
+
+* Import to ETL. 
+
+* It will check whether the workflows and datasets which are present in the folder (Connectors) are present in ETL or not if present then overwrite else create new (depending upon projectId and uuid it will check). 
+
+
+Workflows
+
+.. figure:: ../../_assets/tutorials/dataset/73.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+Datasets
+
+.. figure:: ../../_assets/tutorials/dataset/74.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+If found then, overwrite  
+
+
+* If I choose connectors and import to also connectors and the data (workflows and datasets) is present in the Project Connectors so it will overwrite not create new. 
+
+Workflows
+
+.. figure:: ../../_assets/tutorials/dataset/75.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+Datasets
+
+.. figure:: ../../_assets/tutorials/dataset/76.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+* After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+
+
+.. figure:: ../../_assets/tutorials/dataset/77.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+
+
 
 
 

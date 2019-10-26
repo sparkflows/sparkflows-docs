@@ -27,13 +27,46 @@ There are three options to import projects-
 
 * Delete all workflows and datasets and create a new one. 
 
-
 Create new workflows and datasets
-------------------------------
+-------------------------------
+
+.. figure:: ../../_assets/tutorials/dataset/68.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+ 
+* Connectors data from file. 
+
+* Import to ETL. 
+
+* The workflows and datasets which are present in ETL will remain as it is just, the new workflows and datasets will be created which are present in the Connectors (data present in the zip file). 
+
+Datasets
+
+
+.. figure:: ../../_assets/tutorials/dataset/69.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+
+Workflows
+
+
+.. figure:: ../../_assets/tutorials/dataset/70.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+
+.. figure:: ../../_assets/tutorials/dataset/71.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
 
 
 
 
-Click on Import
----------------
 

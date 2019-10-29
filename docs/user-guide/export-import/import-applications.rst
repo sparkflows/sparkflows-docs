@@ -40,7 +40,7 @@ Create new workflows and datasets
 
 * Import to ETL. 
 
-* The workflows and datasets which are present in ETL will remain as it is just, the new workflows and datasets will be created which are present in the Connectors (data present in the zip file). 
+* The workflows and datasets which are present in ETL will remain as it is, only the new workflows and datasets will be created which are present in the Connectors (data present in the zip file). 
 
 
 
@@ -66,7 +66,7 @@ Workflows
 
 
 
-After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+After successful import, Import Information modal is shown with number of workflows and datasets count. 
 
 
 
@@ -94,7 +94,7 @@ If not found then, create a new one
 
 * Import to ETL. 
 
-* It will check whether the workflows and datasets which are present in the folder (Connectors) are present in ETL or not if present then overwrite else create new (depending upon projectId and uuid it will check). 
+* It will check whether the workflows and datasets which are present in the folder (Connectors) are present in ETL or not. If present then overwrite else create new (depending upon project Id and uuid it will check). 
 
 
 Workflows
@@ -114,7 +114,7 @@ Datasets
 If found then, overwrite  
 
 
-* If I choose connectors and import to also connectors and the data (workflows and datasets) is present in the Project Connectors so it will overwrite not create new. 
+* If I choose connectors and import to also connectors and the data (workflows and datasets) is present in the Project Connectors so it will overwrite, not create new. 
 
 Workflows
 
@@ -130,7 +130,7 @@ Datasets
      :align: center
      :width: 60%
      
-* After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+* After successful import, Import Information modal is shown with number of workflows and datasets count. 
 
 
 .. figure:: ../../_assets/tutorials/dataset/77.png
@@ -193,7 +193,7 @@ Workflows
      :width: 60%
      
      
-After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+After successful import, Import Information modal is shown with number of workflows and datasets count. 
 
 
  .. figure:: ../../_assets/tutorials/dataset/83.png

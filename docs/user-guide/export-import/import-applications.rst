@@ -137,6 +137,68 @@ Datasets
      :alt: tutorials
      :align: center
      :width: 60%
+     
+  
+
+Delete all workflows and datasets and create a new one
+-----------------------------------------------------
+
+
+
+Earlier Datasets and workflows which are present in ETL
+
+.. figure:: ../../_assets/tutorials/dataset/78.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+  .. figure:: ../../_assets/tutorials/dataset/79.png
+     :alt: tutorials
+     :align: center
+     :width: 60%   
+     
+     
+ Choose the appropriate options.
+ 
+  .. figure:: ../../_assets/tutorials/dataset/80.png
+     :alt: tutorials
+     :align: center
+     :width: 60%  
+     
+     
+* Connectors data from file. 
+
+* Import to ETL.
+
+* It will delete all the workflows and datasets from ETL and create new.
+
+* After deletion data will be shown- 
+
+** Workflows ** 
+
+ 
+  .. figure:: ../../_assets/tutorials/dataset/81.png
+     :alt: tutorials
+     :align: center
+     :width: 60%  
+     
+     
+     
+   
+  .. figure:: ../../_assets/tutorials/dataset/82.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+     
+After successfully import, Import Information modal is shown with number of workflows and datasets count. 
+
+
+ .. figure:: ../../_assets/tutorials/dataset/83.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
 
 
 

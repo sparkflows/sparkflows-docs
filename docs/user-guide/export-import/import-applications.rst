@@ -148,7 +148,7 @@ Delete all workflows and datasets and create a new one
 Earlier Datasets and workflows which are present in ETL
 
 
-.. figure:: ../../_assets/tutorials/dataset/78.png
+  .. figure:: ../../_assets/tutorials/dataset/78.png
      :alt: tutorials
      :align: center
      :width: 60%

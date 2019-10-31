@@ -122,7 +122,7 @@ Datasets
 If found then, overwrite  
 
 
-* If I choose connectors and import to also connectors and the data (workflows and datasets) is present in the Project Connectors so it will overwrite, not create new. 
+* If I choose connectors and  also import to connectors and if the data (workflows and datasets) is present in the Project Connectors,  it will overwrite, not create new. 
 
 Workflows
 

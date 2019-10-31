@@ -175,6 +175,15 @@ Earlier Datasets and workflows which are present in ETL
 
 * After deletion data will be shown- 
 
+
+After successful import, Import Information modal is shown with number of workflows and datasets count. 
+
+
+ .. figure:: ../../_assets/tutorials/dataset/83.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
 Workflows  
 
  
@@ -192,13 +201,6 @@ Workflows
      :width: 60%
      
      
-After successful import, Import Information modal is shown with number of workflows and datasets count. 
-
-
- .. figure:: ../../_assets/tutorials/dataset/83.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
 
 
 

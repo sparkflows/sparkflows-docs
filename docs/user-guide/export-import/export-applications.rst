@@ -72,7 +72,7 @@ Select the workflow and datasets option and click the export button.
      :width: 60%
      
      
-After successful export, export information modal gets open. 
+After successful export, export information modal opens. 
 
 .. figure:: ../../_assets/tutorials/dataset/54.png
      :alt: tutorials

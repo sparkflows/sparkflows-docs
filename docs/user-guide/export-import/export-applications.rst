@@ -35,18 +35,7 @@ Export Workflows and Datasets
   
      
      
-     
-
-
-
-
-Select the workflow option and click the export button.
-
-   .. figure:: ../../_assets/tutorials/dataset/48.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-
+    
 
 Export Dataset
 ---------------

@@ -5,17 +5,39 @@ Fire allows you to export Applications and download them to your computer.
 
 Below are the steps for exporting Applications in Fire.
 
-Export Workflows
----------------
+Export Workflows and Datasets
+--------------------------
 
 * Go to the Applications Page
 
-* Select the Applications you want to export
-
-  .. figure:: ../../_assets/tutorials/dataset/47.png
+ .. figure:: ../../_assets/tutorials/dataset/84.png
      :alt: tutorials
      :align: center
      :width: 60%
+
+
+* Select the Application you want to export.
+
+* Select whether you want to export workflow or dataset and click on the export button.
+
+ .. figure:: ../../_assets/tutorials/dataset/85.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+     
+     
+* Fire will now export application and download it to your computer.
+
+  .. figure:: ../../_assets/tutorials/dataset/86.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+  
+     
+     
+     
+
+
 
 
 Select the workflow option and click the export button.

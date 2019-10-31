@@ -29,7 +29,7 @@ Select the workflow option and click the export button.
 Export Dataset
 ---------------
 
-Select the project which he/she want to export. 
+Select the project which you want to export. 
 
 .. figure:: ../../_assets/tutorials/dataset/49.png
      :alt: tutorials

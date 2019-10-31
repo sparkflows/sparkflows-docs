@@ -96,6 +96,15 @@ If not found then, create a new one
 * It will check whether the workflows and datasets which are present in the folder (Connectors) are present in ETL or not. If present then overwrite else create new (depending upon project Id and uuid it will check). 
 
 
+* After successful import, Import Information modal is shown with number of workflows and datasets count. 
+
+
+.. figure:: ../../_assets/tutorials/dataset/77.png
+     :alt: tutorials
+     :align: center
+     :width: 60%
+
+
 Workflows
 
 .. figure:: ../../_assets/tutorials/dataset/73.png
@@ -129,14 +138,7 @@ Datasets
      :align: center
      :width: 60%
      
-* After successful import, Import Information modal is shown with number of workflows and datasets count. 
 
-
-.. figure:: ../../_assets/tutorials/dataset/77.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
   
 
 Delete all workflows and datasets and create a new one
@@ -173,7 +175,7 @@ Earlier Datasets and workflows which are present in ETL
 
 * It will delete all the workflows and datasets from ETL and create new.
 
-* After deletion data will be shown- 
+* After deletion data will be shown. 
 
 
 After successful import, Import Information modal is shown with number of workflows and datasets count. 

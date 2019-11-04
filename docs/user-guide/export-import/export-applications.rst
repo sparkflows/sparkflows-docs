@@ -26,7 +26,7 @@ Export Workflows and Datasets
      :width: 60%
      
      
-* Fire will now export application and download it to your computer.
+* Fire will now export the selected applications and download them to your computer.
 
   .. figure:: ../../_assets/tutorials/dataset/86.png
      :alt: tutorials

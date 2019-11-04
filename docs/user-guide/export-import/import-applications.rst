@@ -12,20 +12,21 @@ Go to the Applications Page
      :width: 60%
 
 
-Select the name of project which are present in the uploaded zip file(Connectors) 
+- Select the name of project which is present in the uploaded zip file
 
 
 Select the project name from which the user has to import the data of connectors (May import in the same project or any other of the user's choice). 
 
-There are three options to import projects- 
+There are three options when importing Applications:
 
-* Create new workflows and datasets. 
+* Create new workflows and datasets when importing them into the Application.
 
 * Overwrite workflows and datasets if found.
 
-* Delete all workflows and datasets and create a new one. 
+* Delete all workflows and datasets in the Application and create the imported workflows and datasets as new ones.
 
-Create new workflows and datasets
+
+Option I : Create new workflows and datasets
 -------------------------------
 
 .. figure:: ../../_assets/tutorials/dataset/68.png
@@ -42,7 +43,6 @@ Create new workflows and datasets
 
 
 After successful import, Import Information modal is shown with number of workflows and datasets count. 
-
 
 
 .. figure:: ../../_assets/tutorials/dataset/71.png
@@ -74,7 +74,7 @@ Workflows
 
 
      
-Overwrite workflows and datasets if found
+Option II : Overwrite workflows and datasets if found
 ---------------------------------------
 
 
@@ -139,7 +139,7 @@ Datasets
 
   
 
-Delete all workflows and datasets and create a new one
+Option III : Delete all workflows and datasets and create a new one
 -----------------------------------------------------
 
 

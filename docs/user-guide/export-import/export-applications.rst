@@ -16,9 +16,9 @@ Export Workflows and Datasets
      :width: 60%
 
 
-* Select the Application you want to export.
+* Select the Applications you want to export.
 
-* Select whether you want to export workflow or dataset and click on the export button.
+* Select whether you want to export workflows or datasets or both from the Application. Then click on the export button.
 
  .. figure:: ../../_assets/tutorials/dataset/85.png
      :alt: tutorials
@@ -37,56 +37,3 @@ Export Workflows and Datasets
      
     
 
-Export Dataset
----------------
-
-Select the project which you want to export. 
-
-.. figure:: ../../_assets/tutorials/dataset/49.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
-Select the datasets option and click the export button.
-
-
-.. figure:: ../../_assets/tutorials/dataset/50.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
-     
-After successful export, export information modal opens. 
- 
- 
- .. figure:: ../../_assets/tutorials/dataset/51.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
-     
-Export Workflows and Datasets
-------------------------------
-
-Select the project which you want to export. 
-
-.. figure:: ../../_assets/tutorials/dataset/52.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
-Select the workflow and datasets option and click the export button.
-
-.. figure:: ../../_assets/tutorials/dataset/53.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     
-     
-After successful export, export information modal opens. 
-
-.. figure:: ../../_assets/tutorials/dataset/54.png
-     :alt: tutorials
-     :align: center
-     :width: 60%
-     

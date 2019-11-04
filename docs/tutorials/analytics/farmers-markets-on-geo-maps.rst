@@ -87,7 +87,7 @@ Processor Output
 Analyze using Graph
 --------------------
 
-It plots Graph for farmers with state counts using RegionGeoGRaph Node.
+It plots Graph for farmers with state counts using RegionGeoGraph Processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

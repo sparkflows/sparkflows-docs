@@ -5,8 +5,6 @@ Fire allows you to export Applications and download them to your computer.
 
 Below are the steps for exporting Applications in Fire.
 
-Export Workflows and Datasets
---------------------------
 
 * Go to the Applications Page
 

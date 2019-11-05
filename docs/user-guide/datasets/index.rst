@@ -6,12 +6,12 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
 
 **Schema**
  
-  * DataSets have Schema defined for them. This allows Fire Insights to read in the create and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning etc.
+  * DataSets have Schema defined for them. This allows Fire Insights to read and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning etc.
  
 **File formats**
  
   * Sparkflows supports various File formats and is able to infer the schema. These include ``CSV/TSV, Parquet, Avro, JSON, XML`` files.
-  * Sparkflows also supports creating datasets from ``HIVE`` tables. This is not necessary as in the Workflows HIVE Processors can be directly connected to specific HIVE tables (instead of creating a Dataset in Fire for them).
+  * Sparkflows also supports creating datasets from ``HIVE`` tables. This is not necessary as in the Workflows HIVE Processors it can be directly connected to specific HIVE tables (instead of creating a Dataset in Fire for them).
 
 
 **Dataset Listing Page**

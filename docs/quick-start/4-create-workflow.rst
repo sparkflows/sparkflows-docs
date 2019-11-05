@@ -5,7 +5,7 @@ After you have created the datasets, you can start building workflows to process
 
 A typical workflow takes one or more dataset, cleans them and joins them, and creates an enriched dataset. After the enriched dataset is created, you can add additional processors to build machine learning models.
 
-At a highlevel,creating a workflow involves the following steps:
+At a high level,creating a workflow involves the following steps:
 
 - *Open the Application where you want to create your workflow*
 - *Click "Workflows" tab*

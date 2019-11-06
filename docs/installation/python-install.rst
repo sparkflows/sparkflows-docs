@@ -1,7 +1,7 @@
 Python Installation
 ++++++++++++++++++++++++++++++++
 
-Python is only needed is you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
+Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
 
 Install Python 3
 ----------------

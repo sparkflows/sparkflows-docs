@@ -26,7 +26,7 @@ Install JDK 1.8
 
     * https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-* Install java by double clicking on downloaded exe file
+* Install java by double clicking on the downloaded exe file
 
 * After installation, make sure that java 1.8 is in the path::
 
@@ -49,9 +49,8 @@ winutils.exe
 
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine::
 
-  - Download winutils.exe from the link below:
+  - Download winutils.exe from https://github.com/steveloughran/winutils
 
-    - https://github.com/steveloughran/winutils
       - winutils.exe can be downloaded from below link
       - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
   

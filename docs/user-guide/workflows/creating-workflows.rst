@@ -2,21 +2,40 @@ Creating Workflows
 ------------------
 
 Fire Insights enables users to define end-to-end workflows for data pipelining leveraging pre-packaged nodes for common ETL and Machine Learning models. Workflows are then saved and executed to produce results. Sparkflows provides a a very intuitive and user friendly editor to achieve the same.
- 
-Selecting Nodes for Workflow Steps
+
+Define New Workflow
 ===============
 
-  * Workflows editor has a list of Nodes menu. Clicking on any of the Nodes creates it in the workspace.
+Click on 'Create New Workflow' for creating a New Workflow, It supports two engines - spark & pyspark. It will open the Workflow Editor where the workflow can be created.
+
+
+.. figure:: ../../_assets/user-guide/workflow/2.PNG
+   :alt: workflow
+   :align: center
+   :width: 60%
+
+ 
+Adding New Nodes to the Workflow
+===============
+
+  * Workflows editor has a list of Nodes menu on the LHS. Clicking on any of the Nodes creates it in the workspace.
  
 Creating Edges
 ===============
  
   * Nodes can be connected by edges.
+  * Click on the orange box and drag to the next node to create an edge between them.
  
 Deleting Edges
 ===============
  
   * Edges can be deleted by double clicking on them.
+  
+Saving Workflow
+===============
+
+  * Give the workflow a name.
+  * Click on the Save button to create the new workflow.
 
 View Workflows
 ===============
@@ -29,23 +48,6 @@ You can view the workflows by going to the Workflows Page inside specific applic
    :width: 60%
 
 
-Define New Workflows
-===============
-
-Click on 'Create New Workflow' for creating a New Workflow, It has two engines-  scala & pyspark. As per requirment we can select them. It will open the Workflow Editor where Nodes can be created and connected.
-
-- Scala
-
-.. figure:: ../../_assets/user-guide/workflow/2.PNG
-   :alt: workflow
-   :align: center
-   :width: 60%
 
 
-- Pyspark
-
-.. figure:: ../../_assets/user-guide/workflow/3.PNG
-   :alt: workflow
-   :align: center
-   :width: 60%
 

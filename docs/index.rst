@@ -175,13 +175,6 @@ REST API's using curl
 
    rest-api-curl/index 
    
-REST API's Reference
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   rest-api-reference/index 
    
 Third Party Acknowledgements
 ----------

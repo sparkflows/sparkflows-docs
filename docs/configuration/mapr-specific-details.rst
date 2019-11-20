@@ -1,4 +1,4 @@
-MapR specific details
+MapR Integration
 =====================
 
 This document describes details when installing Fire Insights on a MapR cluster.

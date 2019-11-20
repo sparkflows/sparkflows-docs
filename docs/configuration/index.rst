@@ -15,6 +15,7 @@ Configuration
    configuring-pipeline.rst
    different-default-values-startup.rst
    authentication/index   
+   databricks-integration.rst
    hdinsight.rst
    mapr-specific-details.rst
    upgrading.rst

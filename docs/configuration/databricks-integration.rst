@@ -32,7 +32,7 @@ Create a connection in your Application for connecting to Databricks.
 
 * Specify the Databricks JDBC URL of your cluser in Databricks.
 
-Read Databricks tables in Fire Insights
+Read Databricks tables in Workflows
 ------------------------------------------
 
 In the workflow use the processor 'Read from Databricks'. It will allow you to read tables from Databricks.
@@ -42,7 +42,7 @@ Then use the other processors in Fire for processing things.
 Databricks JDBC Driver Installation
 -----------------------------------
 
-Fire needs the Databricks JDBC Driver to be installed. Install it in the fire-core-lib folder of the Fire installation.
+Fire needs the Databricks JDBC Driver to be installed. Install it in the fire-user-lib folder of the Fire installation.
 
 You can download the Databricks JDBC Driver from the Databricks site : 
 

@@ -1,12 +1,12 @@
 Databricks Integration
 ======================
 
-Fire integrates with Databricks. Fire can submit jobs to the Databricks clusters.
+Fire Insights integrates with Databricks. It can submit jobs to the Databricks clusters.
 
 Deployment
 -----------
 
-Install Fire on any machine. Then connect it to your Databricks Cluster
+Install Fire Insights on any machine. The machine has to be reachable from the web. Then connect it to your Databricks Cluster
 
 Upload Fire Core Jar to Databricks
 ----------------------------------
@@ -24,6 +24,8 @@ Connection
 ----------
 
 Create a connection in your Application for connecting to Databricks.
+
+* Specify the Databricks JDBC URL of your cluser in Databricks.
 
 Read Databricks tables in Fire Insights
 ------------------------------------------

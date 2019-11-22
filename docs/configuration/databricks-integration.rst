@@ -48,6 +48,11 @@ Create a connection in your Application for connecting to Databricks.
 
 * Specify the Databricks JDBC URL of your cluser in Databricks.
 
+.. figure:: ../_assets/configuration/connection.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
 Read Databricks tables in Workflows
 ------------------------------------------
 

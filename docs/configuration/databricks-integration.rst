@@ -60,6 +60,29 @@ In the workflow use the processor 'Read from Databricks'. It will allow you to r
 
 Then use the other processors in Fire for processing things.
 
+.. figure:: ../_assets/configuration/workflow-databricks.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+.. figure:: ../_assets/configuration/databricks-editor.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+
+.. figure:: ../_assets/configuration/databricks-execute.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+   
+.. figure:: ../_assets/configuration/workflow-databricks-execute.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+   
+   
+
 Databricks JDBC Driver Installation
 -----------------------------------
 

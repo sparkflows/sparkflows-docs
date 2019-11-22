@@ -1,4 +1,4 @@
-HDInsight Specific Details
+HDInsight Integration
 ==========================
 
 Fire Insights runs seamlessly on Azure HDInsight.

@@ -34,7 +34,12 @@ This has to be done under Administration/Configuration.
 Credential
 ----------
 
-Create a credential (username/password) for your Databricks account. This would be used in creating the Connection below.
+Create a credential (Key/Value) for your Databricks account. This would be used in creating the Connection below.
+
+.. figure:: ../_assets/configuration/credentials-details.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
 
 Connection
 ----------

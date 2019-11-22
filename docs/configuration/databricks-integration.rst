@@ -20,6 +20,11 @@ Specify the uploaded fire core jar library in Databricks in Fire Insights.
 
 This has to be done under Administration/Configuration.
 
+Credential
+----------
+
+Create a credential (username/password) for your Databricks account. This would be used in creating the Connection below.
+
 Connection
 ----------
 

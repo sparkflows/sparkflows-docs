@@ -11,7 +11,7 @@ Install Fire Insights on any machine. The machine has to be reachable from the w
 Upload Fire Core Jar to Databricks
 ----------------------------------
 
-Upload fire-x.y.z/fire-core-lib/fire-spark_2_1-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workflows as a Library.
+Upload fire-x.y.z/fire-user-lib/fire-spark_2_1-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workflows as a Library.
 
 Specify the Uploaded Library in Fire
 ------------------------------------

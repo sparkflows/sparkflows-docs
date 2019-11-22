@@ -26,6 +26,11 @@ Specify the uploaded fire core jar library in Databricks in Fire Insights.
 
 This has to be done under Administration/Configuration.
 
+.. figure:: ../_assets/configuration/databricks-configurations.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
 Credential
 ----------
 

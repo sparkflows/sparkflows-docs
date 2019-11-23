@@ -31,6 +31,19 @@ This has to be done under Administration/Configuration.
    :align: center
    :width: 60%
 
+
+Databricks JDBC Driver Installation
+-----------------------------------
+
+Fire needs the Databricks JDBC Driver to be installed. Install it in the fire-user-lib folder of the Fire installation.
+
+You can download the Databricks JDBC Driver from the Databricks site : 
+
+* https://docs.databricks.com/bi/jdbc-odbc-bi.html
+* https://databricks.com/spark/odbc-driver-download
+
+
+
 Credential
 ----------
 
@@ -60,28 +73,32 @@ In the workflow use the processor 'Read from Databricks'. It will allow you to r
 
 Then use the other processors in Fire for processing things.
 
-Workflow:
+Workflow
+++++++++
 
 .. figure:: ../_assets/configuration/workflow-databricks.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-Processor Configurations for ReadDatabricksTable:
+Processor Configurations for ReadDatabricksTable
+++++++++
 
 .. figure:: ../_assets/configuration/databricks-editor.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-Processor executions for ReadDatabricksTable:
+Processor executions for ReadDatabricksTable
+++++++++
 
 .. figure:: ../_assets/configuration/databricks-execute.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-Workflow execution :
+Workflow execution
+++++++++
 
 .. figure:: ../_assets/configuration/workflow-databricks-execute.PNG
    :alt: Databricks
@@ -89,15 +106,3 @@ Workflow execution :
    :width: 60%
    
    
-
-Databricks JDBC Driver Installation
------------------------------------
-
-Fire needs the Databricks JDBC Driver to be installed. Install it in the fire-user-lib folder of the Fire installation.
-
-You can download the Databricks JDBC Driver from the Databricks site : 
-
-* https://docs.databricks.com/bi/jdbc-odbc-bi.html
-* https://databricks.com/spark/odbc-driver-download
-
-

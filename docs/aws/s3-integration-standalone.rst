@@ -1,7 +1,7 @@
 S3 Integration
 ==========
 
-Fire Insights allows you to access your files on S3.
+Fire Insights allows you to access your files on S3. This page describes S3 integration when Fire Insights is running in standalone mode.
 
 Configue AWS access key and password
 -----------------------------------

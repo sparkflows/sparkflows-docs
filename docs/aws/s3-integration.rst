@@ -1,7 +1,7 @@
-S3 Browser
+S3 Integration
 ==========
 
-Fire Insights allows browsing the files in S3.
+Fire Insights allows you to access your files on S3.
 
 Configue AWS access key and password
 -----------------------------------

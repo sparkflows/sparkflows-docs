@@ -16,7 +16,13 @@ Go to the Applications Page
 - Select the name of project which you would like to import from the zip file
 
 
-There are three options when importing Applications:
+There are two options when importing Applications:
+
+* Import to a New Application
+
+* Import to an Existing Application
+
+When importing to an existing Application, there are 3 possible methods to choose from:
 
 * Create new workflows and datasets when importing them into the Application.
 

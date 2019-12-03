@@ -11,11 +11,10 @@ Go to the Applications Page
      :align: center
      :width: 60%
 
+- Click on the Import button
+- Choose the zip file from your computer to import
+- Select the name of project which you would like to import from the zip file
 
-- Select the name of project which is present in the uploaded zip file
-
-
-Select the project name from which the user has to import the data of connectors (May import in the same project or any other of the user's choice). 
 
 There are three options when importing Applications:
 
@@ -42,7 +41,7 @@ Option I : Create new workflows and datasets
 * The workflows and datasets which are present in ETL will remain as it is, only the new workflows and datasets will be created which are present in the Connectors (data present in the zip file). 
 
 
-After successful import, Import Information modal is shown with number of workflows and datasets count. 
+After successful import, Import Information is shown with number of workflows and datasets imported successfully. 
 
 
 .. figure:: ../../_assets/tutorials/dataset/71.png
@@ -78,7 +77,7 @@ Option II : Overwrite workflows and datasets if found
 ---------------------------------------
 
 
-If not found then, create a new one
+In this option, the workflows and datasets which are found with the same UUID, are overwritten.
 
 
 .. figure:: ../../_assets/tutorials/dataset/72.png
@@ -142,9 +141,7 @@ Datasets
 Option III : Delete all workflows and datasets and create a new one
 -----------------------------------------------------
 
-
-
-Earlier Datasets and workflows which are present in ETL
+In the option, all the workflows and datasets are first deleted from the existing Applicaiton. Then new ones are imported into the Application.
 
 
   .. figure:: ../../_assets/tutorials/dataset/78.png

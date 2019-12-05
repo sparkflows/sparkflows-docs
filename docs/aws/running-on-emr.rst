@@ -21,8 +21,8 @@ Steps
 * Update the inbound rules for the Master Node::
 
     - We would have Fire listening on ports 8085 and 8086
-    - Fire by default listens on 8080 and 8443. But EMR clusters have another process listening on these ports. 
-    - So we change it to listen on port 8085 and 8086
+    - Fire by default listens on 8080 and 8443. But EMR clusters have other processes listening on these ports. 
+    - So we will later change it to listen on ports 8085 and 8086
     - Update the inbound rules for the Master Node to allow ports 8085 and 8086
 
 * ssh into the Master EMR node as the ``hadoop`` user::
@@ -97,15 +97,15 @@ Loading Example Workflows
     cd <fire install_dir>
     hadoop fs -put data /tmp
     
-Running Example Workflows
+Install and Running Example Workflows
 ------------------------
 
-* Logout from the current session and login again with the 'hadoop' user    
-    
 * Start off with executing the example workflows::
 
     - Fire comes pre-packaged with a number of example workflows
     - You can install them by clicking on the 'Install example workflows' link in the landing page when logged in as the `admin` user.
+    
+* Logout from the current session and login again with the 'hadoop' user    
     
     - Execute the workflows
     

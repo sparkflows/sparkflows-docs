@@ -1,7 +1,7 @@
 Planning Guide
 =================
 
-This document describes details for helping you plan on deploying and using Fire Insights on AWS.
+This document describes details to help you plan on deploying and using Fire Insights on AWS.
 
 Security
 --------
@@ -23,10 +23,10 @@ Fire Insights can also run Machine Learning Modeling jobs onto SageMaker. If thi
 Sizing
 ------
 
-EMR cluster normally start with a mimumum of 1 master node and 2 worker nodes. 
+EMR cluster normally starts with a mimumum of 1 master node and 2 worker nodes. 
 
 We recommend using at least 16GB machines for the master and worker nodes.
 
-As your data volume and the number of concurrent users increases, we recommend increasing the size of the EMR cluster. Memory can be increased to 32GB to 64GB to 512GB. Since Apache Spark has the ability to use as much memory you provide, its a good idea to give it more memory.
+As your data volume and the number of concurrent users increases, we recommend increasing the size of the EMR cluster. Memory for the worker nodes can be increased to 32GB to 64GB to 512GB. Since Apache Spark has the ability to use as much memory you provide, its a good idea to give it more memory.
 
-Same for the number of disks and vcores.
+Same goes for the number of disks and vcores.

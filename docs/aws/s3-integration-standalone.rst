@@ -3,36 +3,26 @@ S3 Integration
 
 Fire Insights allows you to access your files on S3. This page describes S3 integration when Fire Insights is running in standalone mode.
 
-Configue AWS access key and password
------------------------------------
+We recommend controlling access to S3 using IAM Roles. Run the EMR cluster with the appropriate S3 IAM Role.
 
-Run ``aws configure`` to configure your credentials on the machine on which Fire Insights is running.
+If you are running Fire Insights on a independent machine, you can also use ``aws configure`` to set the AWS Access Key and Secret Access Key on the machine.
 
-Install aws cli
+Installing aws cli
 ---------------
 
 - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 - pip install awscli --upgrade --user
- 
-   
-Configure AWS
--------------
 
-- aws configure
-  - It would ask for 
-    - AWS Access Key
-    - AWS Secret Access Key
-    - Default Region Name : Just enter
-    - Default Output Format : Just enter
-    
-.. figure:: ../_assets/tutorials/awscli/AWS2.PNG
-   :alt: awscli
-   :align: center  
+Configuring AWS access key and password
+-----------------------------------
+
+Run ``aws configure`` to configure your credentials on the machine on which Fire Insights is running.
+
    
 Access S3 in fire-ui
 ---------------------
 
-Go to Fire-UI page and Dropdown databrowser there we have S3 Browser as a option
+In Fire Insights, you can browse S3 under the menu Browser/S3.
 
 .. figure:: ../_assets/tutorials/awscli/AWS3.PNG
    :alt: awscli

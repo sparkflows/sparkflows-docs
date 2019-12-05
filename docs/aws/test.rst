@@ -1,5 +1,5 @@
 Testing Fire Insights on AWS
-----------------------------
+============================
 
 After you have deployed Fire Insights on AWS, it is a good idea to test the things.
 

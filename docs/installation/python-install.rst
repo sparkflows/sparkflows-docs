@@ -34,10 +34,10 @@ All the required packages can be installed with the below:
 
    * pip install -r requirements.txt
    
-requirements.txt files can be got from ond of the following places:
+requirements.txt file is available in the insallation directory of fire insights.
 
-  * https://github.com/sparkflows/writing-new-node/blob/master/requirements.txt
-  * fire-3.1.0/dist/fire/requirements.txt
+* fire-x.y.x/dist/fire/requirements.txt
+
 
 
 

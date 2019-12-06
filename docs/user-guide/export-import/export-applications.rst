@@ -15,13 +15,6 @@ Go to the Applications Page
    :width: 60%
 
 
- .. figure:: ../../_assets/user-guide/export-import images/application page.png
-   :alt: userguide
-   :align: center
-   :width: 60%
-
-
-
 Select the Applications you want to export
 ------------------------------
 
@@ -29,8 +22,8 @@ Select the Applications you want to export
 * Then click on the Export button
 * In the dialog box which comes up, select whether you want to export workflows or datasets or both. 
 
- .. figure:: ../../_assets/tutorials/dataset/85.png
-     :alt: tutorials
+ .. figure:: ../../_assets/user-guide/export-import images/export components.png
+     :alt: userguide
      :align: center
      :width: 60%
      

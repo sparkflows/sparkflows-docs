@@ -22,7 +22,7 @@ Select the Applications you want to export
 * Then click on the Export button
 * In the dialog box which comes up, select whether you want to export workflows or datasets or both. 
 
- .. figure:: ../../_assets/user-guide/export-import%20images/exportinfo.png
+ .. figure:: ../../_assets/user-guide/export-import%20images/exportcomp.png
      :alt: userguide
      :align: center
      :width: 60%
@@ -30,7 +30,7 @@ Select the Applications you want to export
      
 * Fire will now export the selected applications and download them to your computer.
 
-  .. figure:: ../../_assets/user-guide/export-import%20images/exportcomp.png
+  .. figure:: ../../_assets/user-guide/export-import%20images/exportinfo.png
      :alt: userguide
      :align: center
      :width: 60%

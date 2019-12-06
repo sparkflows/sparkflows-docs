@@ -22,7 +22,7 @@ Select the Applications you want to export
 * Then click on the Export button
 * In the dialog box which comes up, select whether you want to export workflows or datasets or both. 
 
- .. figure:: ../../_assets/user-guide/export-import images/export components.png
+ .. figure:: ../../_assets/user-guide/export-import images/exportcomponents.png
      :alt: userguide
      :align: center
      :width: 60%

@@ -41,7 +41,7 @@ Install JDK 1.8
            
            
  
-.. note:: In order to connect Fire Insights to an Apache Spark cluster, it has to be installed on the edge node of the cluster. With the above steps, you would have Fire Insights running locally on your laptop.
+.. note:: With the above steps, you would have Fire Insights running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Fire Insights has to be installed on the edge node of the cluster.
 
 
 winutils.exe

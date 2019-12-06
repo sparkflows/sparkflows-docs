@@ -18,7 +18,9 @@ Go to the Applications Page
 Select the Applications you want to export
 ------------------------------
 
-* Select whether you want to export workflows or datasets or both from the Application. Then click on the export button.
+* Select the Applications you would like to export.
+* Then click on the Export button
+* In the dialog box which comes up, select whether you want to export workflows or datasets or both. 
 
  .. figure:: ../../_assets/tutorials/dataset/85.png
      :alt: tutorials

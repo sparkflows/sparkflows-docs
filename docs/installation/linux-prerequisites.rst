@@ -5,7 +5,7 @@ Below are the Prerequisites for installing Fire Insights on a mac or linux machi
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH
-  - 5GB+ of RAM.
+  - 8 GB+ of RAM.
   - Python 3.X (when running Python and PySpark, otherwise not needed)
 
 

@@ -30,8 +30,8 @@ Select the Applications you want to export
      
 * Fire will now export the selected applications and download them to your computer.
 
-  .. figure:: ../../_assets/tutorials/dataset/86.png
-     :alt: tutorials
+  .. figure:: ../../_assets/user-guide/export-import%20images/exportcomp.png
+     :alt: userguide
      :align: center
      :width: 60%
   

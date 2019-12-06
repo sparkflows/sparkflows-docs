@@ -15,7 +15,7 @@ Go to the Applications Page
    :width: 60%
 
 
- .. figure:: ../../_assets/user-guide/export-import%20images/application page.png
+ .. figure:: ../../_assets/user-guide/export-import images/application page.png
    :alt: userguide
    :align: center
    :width: 60%

@@ -15,6 +15,12 @@ Go to the Applications Page
    :width: 60%
 
 
+ .. figure:: ../../_assets/user-guide/export-import%20images/application page.PNG
+   :alt: userguide
+   :align: center
+   :width: 60%
+
+
 
 Select the Applications you want to export
 ------------------------------

@@ -12,7 +12,7 @@ Go to the Applications Page
 .. figure:: ../../_assets/user-guide/export-import images/applicationpage.PNG
      :alt: user-guide
      :align: center
-     :width: 60%%
+     :width: 60%
 
 
 

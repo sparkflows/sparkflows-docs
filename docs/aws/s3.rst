@@ -34,16 +34,3 @@ In the dialog box of the Read CSV processor the path is specified as ``s3://spar
    :align: center   
 
 
-S3 Specific Processors
--------------
-
-Fire has S3 specific processors for read from S3. These allow the user to specific the AWS Access Key and AWS Access Password.
-
-* Read Avro S3
-* Read CSV S3
-* Read Parquet S3
-* Write Avro S3
-* Write CSV S3
-* Write Parquet S3
-
-

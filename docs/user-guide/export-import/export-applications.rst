@@ -9,7 +9,7 @@ Below are the steps for exporting Applications in Fire.
 Go to the Applications Page
 ---------------------------
 
- .. figure:: ../../_assets/user-guide/Application page.PNG
+ .. figure:: ../../_assets/user-guide/applicationpage.PNG
      :alt: userguide
      :align: center
      :width: 60%

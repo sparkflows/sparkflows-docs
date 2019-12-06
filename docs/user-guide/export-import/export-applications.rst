@@ -20,7 +20,7 @@ Select the Applications you want to export
 
 * Select the Applications you would like to export.
 
- .. figure:: ../../_assets/user-guide/export-import%20images/application page.png
+ .. figure:: ../../_assets/user-guide/export-import%20images/application.png
      :alt: userguide
      :align: center
      :width: 60%

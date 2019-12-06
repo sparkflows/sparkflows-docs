@@ -20,16 +20,17 @@ Go to the Applications Page
 There are two options when importing Applications:
 
 * Import to a New Application
+    * In this case, the selected Application would be imported as a new Application in Fire Insights. 
 
 * Import to an Existing Application
 
 When importing to an existing Application, there are 3 possible methods to choose from:
 
-* Create new workflows and datasets when importing them into the Application.
+* Create new workflows and datasets in matching UUID's found.
 
-* Overwrite workflows and datasets if found.
+* Overwrite datasets and workflows if same UUID found.
 
-* Delete all workflows and datasets in the Application and create the imported workflows and datasets as new ones.
+* Delete all workflows and datasets in the selected Application and create the imported workflows and datasets as new ones.
 
 
 Option I : Create new workflows and datasets

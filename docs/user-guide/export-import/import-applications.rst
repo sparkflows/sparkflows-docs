@@ -16,7 +16,7 @@ Go to the Applications Page
      :align: center
      :width: 60%
 
-Select the Option for importing the Application
+Select the Options for importing the Application
 -----------------------------------------------
 
 There are two options when importing Applications:

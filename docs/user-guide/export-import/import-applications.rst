@@ -22,6 +22,7 @@ Select the Options for importing the Application
 There are two options when importing Applications:
 
 * Import to a New Application
+
     * In this case, the selected Application would be imported as a new Application in Fire Insights. 
 
 * Import to an Existing Application

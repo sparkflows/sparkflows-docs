@@ -41,8 +41,8 @@ On Success
 
 On successful import of the Application into Fire Insights, the success dialog is displayed along with the details of the import.
 
-.. figure:: ../../_assets/tutorials/dataset/71.png
-     :alt: success dialog
+.. figure:: ../../_assets/user-guide/export-import%20images/importinfo.png
+     :alt: userguide
      :align: center
      :width: 60%
 

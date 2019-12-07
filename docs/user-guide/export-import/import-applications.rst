@@ -11,8 +11,8 @@ Go to the Applications Page
 - Select the name of project which you would like to import from the zip file. Fire would display all the available Applications in your zip file. 
 
 
- .. figure:: ../../_assets/tutorials/dataset/67-2.png
-     :alt: tutorials
+ .. figure:: ../../_assets/user-guide/export-import%20images/importapplication.png
+     :alt: userguide
      :align: center
      :width: 60%
 

@@ -18,8 +18,7 @@ Add below in .bash_profile
 -----------
 
   * alias python='python3'
-  * export PYSPARK_PYTHON=/usr/bin/python3
-  * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
+
 
 Install pip/wheel
 -----------------
@@ -40,5 +39,9 @@ requirements.txt file is available in the insallation directory of fire insights
 
 * fire-x.y.x/dist/fire/requirements.txt
 
+References
+----------
+
+- https://docs.anaconda.com/anaconda/install/mac-os/
 
 

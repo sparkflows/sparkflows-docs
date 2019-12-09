@@ -14,7 +14,7 @@ Install Python 3 (if not there)
 
   * Download python from below Link
      * https://www.python.org/downloads/
-  * Installed and configured it, Checkbox the option of adding path by default on first page.   
+  * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path.   
   
 Install Other Packages
 ----------------------

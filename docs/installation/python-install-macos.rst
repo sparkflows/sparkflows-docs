@@ -1,7 +1,7 @@
 Python Installation on MacOS
 ++++++++++++++++++++++++++++++++
 
-Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
+Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
 Check if Python is Installed
 ----------------
@@ -12,20 +12,8 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-  * sudo yum install python36
-  
-Add below in .bash_profile
------------
-
-  * alias python='python3'
-
-
-Install pip/wheel
------------------
-
-  * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-  * yum install python-pip
-  * yum install python-wheel
+  * One way to install Python 3 on mac os is to install Annaconda
+  * https://docs.anaconda.com/anaconda/install/mac-os/
 
 
 Install Other Packages
@@ -39,9 +27,5 @@ requirements.txt file is available in the insallation directory of fire insights
 
 * fire-x.y.x/dist/fire/requirements.txt
 
-References
-----------
-
-- https://docs.anaconda.com/anaconda/install/mac-os/
 
 

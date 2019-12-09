@@ -12,7 +12,7 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-  * One way to install Python 3 on mac os is to install Annaconda
+  * One way to install Python 3 on mac os is to install Anaconda
   * https://docs.anaconda.com/anaconda/install/mac-os/
 
 

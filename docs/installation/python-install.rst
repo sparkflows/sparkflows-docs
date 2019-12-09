@@ -3,21 +3,23 @@ Python Installation
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
 
-Install Python 3
+Check if Python is Installed
 ----------------
 
-Below are the steps for installing Python-3.6 on CentOS 7 if it is not already installed. They need to be performed as the root user.
+  * python --version
+  * python3 --version
 
-  * cat /etc/os-release
-  * curl -O https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz
-  * tar xf Python-3.6.4.tgz
-  * cd Python-3.6.4
-  * yum install gcc
-  * ./configure
-  * make
-  * make install
-  * yum install libffi-devel
-  * export PATH=$PATH:/usr/local/bin/python3.6
+Install Python 3 (if not there)
+----------------
+
+  * sudo yum install python36
+  
+Add below in .bash_profile
+-----------
+
+  * alias python='python3'
+  * export PYSPARK_PYTHON=/usr/bin/python3
+  * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 
 Install pip/wheel
 -----------------
@@ -30,7 +32,7 @@ Install pip/wheel
 Install Other Packages
 ----------------------
 
-All the required packages can be installed with the below:
+Install the required packages:
 
    * pip install -r requirements.txt
    

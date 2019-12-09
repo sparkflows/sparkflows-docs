@@ -12,23 +12,10 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-  * sudo yum install python36
+  * Download python from below Link
+     * https://www.python.org/downloads/
+  * Installed and configured it, Checkbox the option of adding path by default on first page.   
   
-Add below in .bash_profile
------------
-
-  * alias python='python3'
-  * export PYSPARK_PYTHON=/usr/bin/python3
-  * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
-
-Install pip/wheel
------------------
-
-  * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-  * yum install python-pip
-  * yum install python-wheel
-
-
 Install Other Packages
 ----------------------
 

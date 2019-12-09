@@ -40,6 +40,10 @@ requirements.txt file is available in the insallation directory of fire insights
 
 * fire-x.y.x/dist/fire/requirements.txt
 
+Reference
+---------
 
+  * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
+  
 
 

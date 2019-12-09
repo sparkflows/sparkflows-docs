@@ -8,6 +8,8 @@ Installation
    linux-install.rst
    windows-prerequisites.rst
    windows-install.rst
-   python-install.rst
+   python-install-linux.rst
+   python-install-macos.rst
+   python-install-windows.rst
 
    

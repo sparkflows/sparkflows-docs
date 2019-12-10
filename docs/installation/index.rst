@@ -11,5 +11,6 @@ Installation
    python-install-linux.rst
    python-install-macos.rst
    python-install-windows.rst
+   running-diagnostics.rst
 
    

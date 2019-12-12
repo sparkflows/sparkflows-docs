@@ -30,9 +30,9 @@ There are two options when importing Applications:
 
 When importing to an existing Application, there are 3 possible methods to choose from:
 
-* Create new workflows and datasets in matching UUID's found.
+* Create new workflows and datasets when matching UUID's found.
 
-* Overwrite datasets and workflows if same UUID found.
+* Overwrite datasets and workflows if matching UUID found.
 
 * Delete all workflows and datasets in the selected Application and create the imported workflows and datasets as new ones.
 

@@ -6,15 +6,16 @@ Fire allows you to import Applications. Below are the steps for importing Applic
 Go to the Applications Page
 --------------------
 
-- Click on the Import button
-- Choose the zip file from your computer to Import
-- Select the name of project which you would like to import from the zip file. Fire would display all the available Applications in your zip file. 
+- Click on the Import button.
+- Choose the zip file from your computer to Import from. You would have previously downloaded this zip file from Fire during the export process.
+- Select the name of the Application which you would like to import from the zip file. Fire would display all the available Applications in your zip file. 
 
 
  .. figure:: ../../_assets/user-guide/export-import/importapplication.png
      :alt: userguide
      :align: center
      :width: 60%
+
 
 Select the Options for importing the Application
 -----------------------------------------------

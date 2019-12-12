@@ -11,7 +11,7 @@ Go to the Applications Page
 - Select the name of project which you would like to import from the zip file. Fire would display all the available Applications in your zip file. 
 
 
- .. figure:: ../../_assets/user-guide/export-import%20images/importapplication.png
+ .. figure:: ../../_assets/user-guide/export-import/importapplication.png
      :alt: userguide
      :align: center
      :width: 60%
@@ -41,7 +41,7 @@ On Success
 
 On successful import of the Application into Fire Insights, the success dialog is displayed along with the details of the import.
 
-.. figure:: ../../_assets/user-guide/export-import%20images/importinfo.png
+.. figure:: ../../_assets/user-guide/export-import/importinfo.png
      :alt: userguide
      :align: center
      :width: 60%

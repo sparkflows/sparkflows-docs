@@ -19,7 +19,7 @@ Select the Applications you want to export
 ------------------------------
 
 * Select the Applications you would like to export.
-* Then click on the Export button
+* Then click on the Export button.
 
  .. figure:: ../../_assets/user-guide/export-import/application.png
      :alt: userguide

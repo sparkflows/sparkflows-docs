@@ -12,6 +12,7 @@ Reading - Writing Data
    processing-multiple-files.rst
    writing-hive.rst
    mongodb.rst
+   avro-json.rst
    
    
    

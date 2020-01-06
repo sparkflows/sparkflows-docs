@@ -44,7 +44,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :align: center
    :width: 60%
 
-Clicking the ‘Save’ button creates the new avro dataset. The dataset is now ready for use in any workflow within the specific application.
+Clicking the ‘Save’ button creates the new avro dataset. The avro dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/56.PNG
    :alt: Dataset

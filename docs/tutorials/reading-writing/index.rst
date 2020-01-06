@@ -5,6 +5,8 @@ Reading - Writing Data
    :maxdepth: 2
 
    reading-csv.rst
+   reading-avro.rst
+   reading-json.rst
    reading-parquet.rst
    reading-from-rdbms.rst
    reading-mysql.rst
@@ -12,7 +14,7 @@ Reading - Writing Data
    processing-multiple-files.rst
    writing-hive.rst
    mongodb.rst
-   avro-json.rst
+   
    
    
    

@@ -3,7 +3,7 @@ Reading JSON Files
 
 When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
 
-When datasets are created, Fire Insights automatically infers the schema using spark-json library
+When datasets are created, Fire Insights automatically infers the schema using Spark-Json library
 
 Datasets
 --------

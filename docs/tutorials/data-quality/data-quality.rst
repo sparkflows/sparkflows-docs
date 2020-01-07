@@ -56,7 +56,7 @@ Below is the workflow to do Data Profile
    Data Quality Page
    -----------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-page.png
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-page.png
    :alt: End
    :align: center
    :width: 60%  
@@ -64,7 +64,7 @@ Below is the workflow to do Data Profile
     Summary Results 
    ----------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-page-summary.png
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-summary.png
    :alt: End
    :align: center
    :width: 60% 
@@ -72,7 +72,7 @@ Below is the workflow to do Data Profile
    Correlation Results
    -------------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-correlation.png
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-correlation.png
    :alt: End
    :align: center
    :width: 60% 

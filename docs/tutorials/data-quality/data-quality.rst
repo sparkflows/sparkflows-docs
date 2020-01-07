@@ -17,8 +17,9 @@ Workflow
 Below is the workflow to do Data Profile
 
 * Reads data from a sample dataset.
-* Correlation of the fields in dataset
 * Summary of the numeric fields.
+* Correlation of the fields in dataset
+* Verfiy the quality of data in sparkflows `Data Quality` tab.
 
 
 .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-workflow.png
@@ -34,3 +35,45 @@ Below is the workflow to do Data Profile
    :alt: End
    :align: center
    :width: 60%
+   
+   Summary
+   --------
+   
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-summary.png
+   :alt: End
+   :align: center
+   :width: 60%  
+
+   Correlation
+   -----------
+   
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-correlation.png
+   :alt: End
+   :align: center
+   :width: 60%  
+   
+   
+   Data Quality Page
+   -----------------
+   
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-page.png
+   :alt: End
+   :align: center
+   :width: 60%  
+   
+    Summary Results 
+   ----------------
+   
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-summary.png
+   :alt: End
+   :align: center
+   :width: 60% 
+   
+   Correlation Results
+   -------------------
+   
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-correlation.png
+   :alt: End
+   :align: center
+   :width: 60% 
+   

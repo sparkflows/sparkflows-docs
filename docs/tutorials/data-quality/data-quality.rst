@@ -64,7 +64,7 @@ Below is the workflow to do Data Profile
     Summary Results 
    ----------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-summary.png
+ .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-dataquality-page-summary.png
    :alt: End
    :align: center
    :width: 60% 

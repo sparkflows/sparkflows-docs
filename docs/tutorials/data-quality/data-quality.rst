@@ -28,51 +28,50 @@ Below is the workflow to do Data Profile
    :width: 60%
    
    
-   SampleData
-   ----------
+SampleData
+----------
    
 .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-sample-data.png
    :alt: End
    :align: center
    :width: 60%
    
-   Summary
-   --------
-   
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-summary.png
+Summary
+--------
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-summary.png
    :alt: End
    :align: center
    :width: 60%  
 
-   Correlation
-   -----------
-   
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-correlation.png
+
+Correlation
+-----------
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-correlation.png
    :alt: End
    :align: center
    :width: 60%  
    
    
-   Data Quality Page
-   -----------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-page.png
+Data Quality Page
+-----------------   
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-page.png
    :alt: End
    :align: center
    :width: 60%  
    
-    Summary Results 
-   ----------------
-   
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-summary.png
+    
+Summary Results 
+----------------   
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-summary.png
    :alt: End
    :align: center
    :width: 60% 
    
-   Correlation Results
-   -------------------
    
- .. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-correlation.png
+Correlation Results
+   ------------------- 
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-correlation.png
    :alt: End
    :align: center
    :width: 60% 

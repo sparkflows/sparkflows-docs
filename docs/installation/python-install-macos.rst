@@ -31,11 +31,11 @@ Sometimes a soft link to Pythons’s executables is broken for some reason.
 Install Other Packages
 ----------------------
 
-Install the required packages:
+Install the required python packages for Fire Insights:
 
    * pip install -r requirements.txt
    
-requirements.txt file is available in the insallation directory of fire insights.
+requirements.txt file is available in the installation directory of Fire Insights.
 
 * fire-x.y.x/dist/fire/requirements.txt
 

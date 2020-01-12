@@ -38,7 +38,7 @@ SampleData
    
 Summary
 --------
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-summary.png
+.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-correlation.png
    :alt: End
    :align: center
    :width: 60%  

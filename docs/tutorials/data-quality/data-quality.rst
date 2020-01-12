@@ -22,7 +22,7 @@ Below is the workflow to do Data Profile
 * Verfiy the quality of data in sparkflows `Data Quality` tab.
 
 
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-workflow.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-workflow.png
    :alt: End
    :align: left
    :width: 60%
@@ -31,14 +31,14 @@ Below is the workflow to do Data Profile
 SampleData
 ----------
    
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-sample-data.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-sample-data.png
    :alt: End
    :align: left
    :width: 60%
    
 Summary
 --------
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-summary.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-summary.png
    :alt: End
    :align: left
    :width: 60%  
@@ -46,16 +46,16 @@ Summary
 
 Correlation
 -----------
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-data-profiling-correlation.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-correlation.png
    :alt: End
-   :align: center
+   :align: left
    :width: 60%  
    
    
    
 Data Quality Page
 -----------------   
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-page.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-page.png
    :alt: End
    :align: left
    :width: 60%  
@@ -63,7 +63,7 @@ Data Quality Page
     
 Summary Results 
 ----------------   
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-summary.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-summary.png
    :alt: End
    :align: left
    :width: 60% 
@@ -71,7 +71,7 @@ Summary Results
    
 Correlation Results
    ------------------- 
-.. figure:: ../../_assets/tutorials/data-qualaity/employee-dp-dq-correlation.png
+.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-correlation.png
    :alt: End
    :align: left
    :width: 60% 

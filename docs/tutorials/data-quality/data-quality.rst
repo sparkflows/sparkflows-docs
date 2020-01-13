@@ -3,9 +3,9 @@ Data Quality
 
 
 Data quality is an important aspect whenever we ingest data.
-Incomplete or wrong data can lead more false predictions by a machine learning algorithm, we may lose opportunities to monetize our data because of the data issues and business can lose their confidence on the data.
+Incomplete or wrong data can lead to more false predictions by a machine learning algorithm, we may also lose opportunities to monetize our data because of the data issues and business can lose their confidence on the data.
 
-In sparkflows, user can create the workflow with Summary, Correlation etc nodes to get the more details about the dataset.
+In sparkflows, user can create the workflow with Summary, Correlation etc nodes to get more details about the dataset.
 
 Sample Dataset: http://eforexcel.com/wp/downloads-16-sample-csv-files-data-sets-for-testing/
 
@@ -14,7 +14,7 @@ Example:
 Workflow
 --------
 
-Below is the workflow to do Data Profile
+Below is the workflow to do Data Profile.
 
 * Reads data from a sample dataset.
 * Summary of the numeric fields.

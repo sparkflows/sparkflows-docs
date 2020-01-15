@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Reading from Dataset
@@ -40,7 +40,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Print the sample datasets results
@@ -54,7 +54,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -62,7 +62,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60% 
 
 Column to be cast for new datatype double
@@ -76,7 +76,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -84,7 +84,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
 
 Column to be cast for new datatype string
@@ -98,7 +98,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -106,7 +106,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
 
 Updates the column name of datatype string
@@ -120,7 +120,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -128,7 +128,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
  
 Prints the Results
@@ -142,7 +142,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -150,7 +150,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Executes the SQL queries   
@@ -163,7 +163,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -171,7 +171,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
 
 Prints the Results
@@ -185,7 +185,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
    
 Processor Output
@@ -193,7 +193,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.PNG
    :alt: Analyze Flights Delays
-   :align: center
+   :align: left
    :width: 60%
 
 

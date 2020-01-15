@@ -28,7 +28,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 .. figure:: ../../_assets/user-guide/jdbc-dialog.png
    :scale: 50%
    :alt: JDBC Processor Dialog
-   :align: center
+   :align: left
    
 Results of reading from MySQL table
 -----------------------------------
@@ -38,7 +38,7 @@ The below screenshot displays some of the records read from the MySQL table by F
 .. figure:: ../../_assets/user-guide/jdbc-read-results.png
    :scale: 50%
    :alt: JDBC Read Results
-   :align: center
+   :align: left
 
 
 Specifying a sub-query
@@ -60,7 +60,7 @@ Above we have specified a subquery which selects only the ‘first_name’ from 
 .. figure:: ../../_assets/user-guide/jdbc-subquery-output.png
    :scale: 50%
    :alt: JDBC Sub-Query Output
-   :align: center
+   :align: left
    
 
 JDBC Drivers

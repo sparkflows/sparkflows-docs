@@ -23,7 +23,7 @@ Navigate to the "Datasets" tab in your application. Click on the "Create" button
 
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :align: center
+   :align: left
    :width: 60%
 
 
@@ -40,7 +40,7 @@ For the housing.csv file, we will fill in the required fields as below.
 
 .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :align: center
+   :align: left
    :width: 60%
    
 We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.

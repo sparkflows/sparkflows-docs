@@ -5,7 +5,7 @@ When working with data in Fire Insights, the first step is to create a dataset t
 
 When datasets are created, Fire Insights automatically infers the schema using spark-csv library from Databricks.
 
-Datasets
+Datasets List
 --------
 
 When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
@@ -19,7 +19,7 @@ When you open any application, all existing Datasets specific to the application
 Dataset Creation
 ----------------
  
-Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". In the pop-up choose "CSV" and then click "OK".
+Navigate to the "Datasets" tab in your application. Click on the "Create" button and choose "Dataset". In the pop-up choose "CSV" and then click "OK".
 
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset

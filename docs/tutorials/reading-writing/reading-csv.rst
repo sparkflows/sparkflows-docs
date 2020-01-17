@@ -13,7 +13,7 @@ When you open any application, all existing Datasets specific to the application
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
 Dataset Creation
@@ -26,7 +26,7 @@ Navigate to the "Datasets" tab in your application. Click on the "Create" button
 
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 Dataset Details
@@ -37,7 +37,7 @@ Clicking "OK" will take you to Dataset Details page where you can enter informat
 
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
 For the housing.csv file, we will fill in the required fields as below.   
@@ -45,7 +45,7 @@ For the housing.csv file, we will fill in the required fields as below.
 
 .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
 We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
@@ -57,13 +57,13 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
 
 .. figure:: ../../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 
 .. figure:: ../../_assets/tutorials/dataset/6.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 
@@ -74,7 +74,7 @@ Clicking the ‘Save’ button creates the new dataset. The dataset is now ready
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
       

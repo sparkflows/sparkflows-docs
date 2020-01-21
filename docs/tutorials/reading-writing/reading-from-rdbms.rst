@@ -64,7 +64,7 @@ Above we have specified a subquery which selects only the ‘first_name’ from 
    
 
 JDBC Drivers
--------
+-------------
 
 Below are the JDBC URL's for some databases:
 
@@ -75,7 +75,7 @@ Below are the JDBC URL's for some databases:
 Example JDBC URL
 ----------------
 
-Below are some example JDBC URL for reading from Relational sources:
+Below are some examples of JDBC URL for reading from Relational sources:
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb

@@ -14,8 +14,7 @@ When you open any application, all existing datasets specific to the application
    :alt: Dataset
    :align: center
    :width: 60%
-   
-   
+      
 Dataset Creation
 ----------------
  
@@ -25,7 +24,6 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
    :alt: Dataset
    :align: center
    :width: 60%
-
    
 Specify the name of the dataset you are creating and other required parameters such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc.
  
@@ -36,18 +34,13 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
    :align: center
    :width: 60%
 
-
 .. figure:: ../../_assets/tutorials/dataset/14.PNG
    :alt: Dataset
    :align: center
    :width: 60%
    
 
-
-
 Clicking the ‘Save’ button creates the new dataset that can be used in any workflow or Interactive dashboard within the specific application.
-
-
 
 .. figure:: ../../_assets/tutorials/dataset/15.PNG
    :alt: Dataset

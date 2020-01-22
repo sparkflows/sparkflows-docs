@@ -30,7 +30,7 @@ The example workflow below reads a Housing dataset which is in CSV format from H
 
 .. figure:: ../../_assets/tutorials/dataset/18.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 Note: Documentation processor is just for documentation purposes.
@@ -42,7 +42,7 @@ When the example workflow above is executed, it reads in the dataset from HDFS a
 
 .. figure:: ../../_assets/tutorials/dataset/20.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 
@@ -54,7 +54,7 @@ The screenshot below shows the dialog box for the Elastic Search Read processor.
 
 .. figure:: ../../_assets/tutorials/dataset/22.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
 In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.
@@ -67,7 +67,7 @@ The example workflow below reads the data from the sparkflows/housing index in E
 
 .. figure:: ../../_assets/tutorials/dataset/21.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
  
 
@@ -79,7 +79,7 @@ When the example workflow above is executed, it reads in the index from Elastic 
 
 .. figure:: ../../_assets/tutorials/dataset/23.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
 
 

@@ -32,7 +32,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
    :width: 60%
    
 Results of reading from MySQL table
-+++++++++++++++++++++++++++++++++++
+------------------------------------
 
 The below screenshot displays some of the records read from the MySQL table by Fire.
 
@@ -42,7 +42,7 @@ The below screenshot displays some of the records read from the MySQL table by F
    :width: 60%
 
 Specifying a sub-query
-++++++++++++++++++++++++
+----------------------
 
 In the configuration of the JDBC node, for ``db_table`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery in parentheses.
 

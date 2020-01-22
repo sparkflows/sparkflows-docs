@@ -33,7 +33,8 @@ The example workflow below reads a Housing dataset which is in CSV format from H
    :align: center
    :width: 60%
 
-Note: Documentation processor is just for documentation purposes
+
+Note: Documentation processor is just for documentation purposes.
    
 Workflow Execution
 ------------------
@@ -56,7 +57,8 @@ The screenshot below shows the dialog box for the Elastic Search Read processor.
    :alt: Dataset
    :align: center
    :width: 60%
-   
+  
+  
 In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.
 
 The SQL field specifies the SQL to be used for reading from Elastic Search. It allows you to limit the columns of interest, and apply where clauses etc.
@@ -64,6 +66,7 @@ The SQL field specifies the SQL to be used for reading from Elastic Search. It a
 The Elastic Search processor understands the SQL and translates it into the appropriate QueryDSL. The connector pushes down the operations directly to the source, where the data is efficiently filtered out so that only the required data is streamed back to Spark. This significantly increases the query performance and minimizes the CPU, memory and I/O operations on both Spark and Elastic Search clusters.
 
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
+
 
 .. figure:: ../../_assets/tutorials/dataset/21.PNG
    :alt: Dataset

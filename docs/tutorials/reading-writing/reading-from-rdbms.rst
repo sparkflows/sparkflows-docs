@@ -41,7 +41,6 @@ The below screenshot displays some of the records read from the MySQL table by F
    :align: center
    :width: 60%
 
-
 Specifying a sub-query
 ++++++++++++++++++++++++
 

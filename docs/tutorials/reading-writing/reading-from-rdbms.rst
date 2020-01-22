@@ -32,7 +32,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
    :width: 60%
    
 Results of reading from MySQL table
------------------------------------
++++++++++++++++++++++++++++++++++++
 
 The below screenshot displays some of the records read from the MySQL table by Fire.
 

@@ -16,9 +16,10 @@ Workflow for reading from MySQL
 Below is a workflow which reads data from MySQL and saves to a CSV file. It reads in the data from the ``dm_product`` table in MySQL and saves it to a CSV file.
 
 .. figure:: ../../_assets/user-guide/jdbc-workflow.png
-   :scale: 50%
-   :alt: JDBC Workflow
+   :alt: JDBC Workflowt
    :align: center
+   :width: 60%
+   
    
 JDBC Processor Configuration
 ----------------------------
@@ -26,9 +27,9 @@ JDBC Processor Configuration
 Below are the configuration details of the JDBC Processor. It uses the provided user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table in MySQL and populates the entries.
 
 .. figure:: ../../_assets/user-guide/jdbc-dialog.png
-   :scale: 50%
    :alt: JDBC Processor Dialog
    :align: center
+   :width: 60%
    
 Results of reading from MySQL table
 -----------------------------------
@@ -36,9 +37,9 @@ Results of reading from MySQL table
 The below screenshot displays some of the records read from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/jdbc-read-results.png
-   :scale: 50%
    :alt: JDBC Read Results
    :align: center
+   :width: 60%
 
 
 Specifying a sub-query
@@ -50,17 +51,17 @@ In the configuration of the JDBC node, for ``db_table`` anything that is valid i
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
 .. figure:: ../../_assets/user-guide/jdbc-subquery.png
-   :scale: 50%
    :alt: JDBC Sub-Query
    :align: center
+   :width: 60%
    
    
 Above we have specified a subquery which selects only the ‘first_name’ from the employees table.
 
 .. figure:: ../../_assets/user-guide/jdbc-subquery-output.png
-   :scale: 50%
    :alt: JDBC Sub-Query Output
    :align: center
+   :width: 60%
    
 
 JDBC Drivers

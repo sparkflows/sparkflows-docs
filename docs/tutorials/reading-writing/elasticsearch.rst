@@ -21,6 +21,7 @@ Once the source processor is on the workflow canvas, drag and drop "SaveElasticS
    :align: center
    :width: 60%
 
+
 After configuring "SaveElasticSearch" processor, connect your data source processor to Elastic Search processor.
 
 
@@ -32,35 +33,46 @@ The example workflow below reads a Housing dataset which is in CSV format from H
    :align: center
    :width: 60%
 
+
 Note: Documentation processor is just for documentation purposes.
 -----------------------------------------------------------------
-   
+
+
 Workflow Execution
 ------------------
 
+
 When the example workflow above is executed, it reads in the dataset from HDFS and saves it into Elastic Search.
+
 
 .. figure:: ../../_assets/tutorials/dataset/20.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
+
 Reading data from Elastic Search
 ---------------------------------------------
 
+
 Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' process into your workflow and configure it.
 The screenshot below shows the dialog box for the Elastic Search Read processor.
+
 
 .. figure:: ../../_assets/tutorials/dataset/22.PNG
    :alt: Dataset
    :align: center
    :width: 60%  
-  
+ 
+ 
 In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.
+
 
 The SQL field specifies the SQL to be used for reading from Elastic Search. It allows you to limit the columns of interest, and apply where clauses etc.
 
+
 The Elastic Search processor understands the SQL and translates it into the appropriate QueryDSL. The connector pushes down the operations directly to the source, where the data is efficiently filtered out so that only the required data is streamed back to Spark. This significantly increases the query performance and minimizes the CPU, memory and I/O operations on both Spark and Elastic Search clusters.
+
 
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
@@ -70,8 +82,10 @@ The example workflow below reads the data from the sparkflows/housing index in E
    :align: center
    :width: 60% 
 
+
 Workflow Execution
 ------------------
+
 
 When the example workflow above is executed, it reads in the index from Elastic Search and displays the first few lines.
 

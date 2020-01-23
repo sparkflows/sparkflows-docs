@@ -25,7 +25,7 @@ Once the source processor is on the workflow canvas, drag and drop "SaveElasticS
 After configuring "SaveElasticSearch" processor, connect your data source processor to Elastic Search processor.
 
 
-The example workflow below reads a Housing dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'. 
+The example workflow below reads a Housing dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
 
 
 .. figure:: ../../_assets/tutorials/dataset/18.PNG

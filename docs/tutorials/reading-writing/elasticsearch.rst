@@ -10,7 +10,7 @@ If your data is already in Elastic Search, skip to "Workflow for Reading data fr
 
 
 Loading data into Elastic Search
-++++++++++++++++++++++++++++++++
+---------------------------------
 
 Create a new empty workflow. Drag and drop the source dataset from which you want to load data into Elastic Search. If you don't have a dataset for the source data, create one. 
 
@@ -35,11 +35,11 @@ The example workflow below reads a Housing dataset which is in CSV format from H
 
 
 Note: Documentation processor is just for documentation purposes.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------------------------------------------------
 
 
 Workflow Execution
-++++++++++++++++++
+------------------
 
 
 When the example workflow above is executed, it reads in the dataset from HDFS and saves it into Elastic Search.

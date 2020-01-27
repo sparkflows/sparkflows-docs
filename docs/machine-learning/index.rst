@@ -12,6 +12,7 @@ Machine Learning
    classification.rst
    prediction.rst
    evaluation.rst
+   model-save-load.rst
 
    
    

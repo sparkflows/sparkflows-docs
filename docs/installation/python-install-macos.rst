@@ -35,7 +35,7 @@ Install the required python packages for Fire Insights:
 
    * pip install -r requirements.txt
    
-requirements.txt file is available in the installation directory of Fire Insights.
+``requirements.txt`` file is available in the installation directory of Fire Insights.
 
 * fire-x.y.x/dist/fire/requirements.txt
 

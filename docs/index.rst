@@ -43,6 +43,14 @@ User Guide
 
    user-guide/index
    
+Machine Learning
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   machine-learning/index 
+   
 Tutorials
 ----------
 
@@ -100,14 +108,7 @@ Python
    :maxdepth: 2
 
    python/index
-
-Machine Learning
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   machine-learning/index   
+  
    
 Performance
 ----------

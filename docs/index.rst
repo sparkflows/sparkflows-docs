@@ -1,7 +1,7 @@
 Getting Started with Fire Insights
 ===============================
 
-Fire Insights makes it incredibly easy for anyone to do Big Data Analytics, Data Prep, Machine Learning, NLP, OCR, Dedup. It also allows you to extend the capabilities with your own operators.
+Fire Insights makes it incredibly easy for anyone to do Big Data Analytics, Data Preparation, Data Science, NLP, OCR, Dedup. It also allows you to extend the capabilities with your own operators.
 
 Architecture & Deployment
 -------------------------
@@ -43,7 +43,7 @@ User Guide
 
    user-guide/index
    
-Machine Learning
+Data Science
 ----------
 
 .. toctree::

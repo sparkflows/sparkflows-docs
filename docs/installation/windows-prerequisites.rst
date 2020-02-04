@@ -49,6 +49,11 @@ winutils.exe
 
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine::
 
+.. figure:: ../../_assets/installation/create-hadoop_directory.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+   
   - Download winutils.exe from https://github.com/steveloughran/winutils
 
       - winutils.exe can be directly downloaded from link below:
@@ -56,10 +61,6 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
   
   - Create hadoop folder in Your System : C:\hadoop
   
-.. figure:: ../../_assets/installation/create-hadoop_directory.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
 
   - Create bin folder in hadoop directory : C:\hadoop\bin
 

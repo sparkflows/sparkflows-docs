@@ -56,7 +56,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
   
   - Create hadoop folder in Your System : C:\hadoop
   
-  .. figure:: ../../_assets/installation/create-hadoop_directory.PNG
+.. figure:: ../../_assets/installation/create-hadoop_directory.PNG
    :alt: installations
    :align: center
    :width: 60%

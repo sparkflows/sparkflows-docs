@@ -3,6 +3,11 @@ Windows Installation Prerequisites
 
 Below are the Prerequisites for installing Fire Insights on a windows machine::
 
+.. figure:: ../../_assets/installation/create-hadoop_directory.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 
+
   - JDK 1.8 installed.
   - java and jar have to be in the PATH
   - 5GB+ of RAM.

@@ -3,10 +3,6 @@ Windows Installation Prerequisites
 
 Below are the Prerequisites for installing Fire Insights on a windows machine::
 
-.. figure:: ../../_assets/installation/create-hadoop_directory.PNG
-   :alt: Installations
-   :align: center
-   :width: 60% 
 
   - JDK 1.8 installed.
   - java and jar have to be in the PATH
@@ -55,12 +51,12 @@ winutils.exe
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine::
 
    
-  - Download winutils.exe from https://github.com/steveloughran/winutils
+- Download winutils.exe from https://github.com/steveloughran/winutils
 
-      - winutils.exe can be directly downloaded from link below:
-      - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
+    - winutils.exe can be directly downloaded from link below:
+    - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
   
-  - Create hadoop folder in Your System : C:\hadoop
+- Create hadoop folder in Your System : C:\hadoop
  
 .. figure:: ../../_assets/installation/create-hadoop_directory.PNG
    :alt: Installations

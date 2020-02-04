@@ -87,7 +87,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
    :width: 60%
 
   
-- Update the System Environment Variable PATH by adding: ``%HADOOP_HOME%\bin``.
+- Update the System Environment Variable PATH by adding : ``%HADOOP_HOME%\bin``.
 
 
 .. figure:: ../_assets/installation/hadoop_environment_path.PNG

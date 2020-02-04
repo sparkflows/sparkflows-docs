@@ -51,28 +51,28 @@ winutils.exe
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine::
 
    
-  - Download winutils.exe from https://github.com/steveloughran/winutils
+- Download winutils.exe from https://github.com/steveloughran/winutils
 
       - winutils.exe can be directly downloaded from link below:
       - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
   
-  - Create hadoop folder in Your System : C:\hadoop
+- Create hadoop folder in Your System : C:\hadoop
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/create-hadoop_directory.PNG
+.. figure:: ../_assets/installation/create-hadoop_directory.PNG
    :alt: Installations
    :align: center
-   :width: 60% 
+   :width: 60%
 
   - Create bin folder in hadoop directory : C:\hadoop\bin
 
-.. figure:: ../../_assets/installation/create-bin_directory.PNG
+.. figure:: ../_assets/installation/create-bin_directory.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
   - Copy the downloaded winutils.exe to the bin directory : C:\hadoop\bin\winutils.exe
 
-.. figure:: ../../_assets/installation/winutils.PNG
+.. figure:: ../_assets/installation/winutils.PNG
    :alt: Installations
    :align: center
    :width: 60%
@@ -81,7 +81,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 
     - HADOOP_HOME = C:\hadoop
   
-.. figure:: ../../_assets/installation/Add_hadoop_environment.PNG
+.. figure:: ../_assets/installation/Add_hadoop_environment.PNG
    :alt: Installations
    :align: center
    :width: 60%
@@ -89,7 +89,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
   
   - Update the System Environment Variable PATH by adding: C:\hadoop\bin
 
-.. figure:: ../../_assets/installation/Add-hadoop_environment_in_path.PNG
+.. figure:: ../_assets/installation/Add-hadoop_environment_in_path.PNG
    :alt: Installations
    :align: center
    :width: 60%
@@ -109,9 +109,6 @@ Running into an exception when saving files
     
 If you run into an exception like above, then there is problem with the setup of ``winutils.exe``.
 
-.. figure:: ../_assets/installation/create-hadoop_directory.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+
 
 

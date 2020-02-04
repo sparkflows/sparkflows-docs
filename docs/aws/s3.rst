@@ -33,8 +33,5 @@ In the dialog box of the Read CSV processor the path is specified as ``s3://spar
    :alt: S3 CSV Output
    :align: center   
 
-.. figure:: ../_assets/installation/create-hadoop_directory.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+
 

@@ -56,6 +56,13 @@ Note
 For ``ldap.UserSearchFilter`` we can use strings like ``(uid={USERNAME})``  
 In this case {USERNAME} would be replaced by the real username of the user when searching in LDAP during ``Add User``.
      
+LDAP Certificate
+----------------
+
+If ``ldaps`` is being used, the ldap certificate needs to be imported into cacerts.
+
+For Reference : https://docs.oracle.com/cd/E19509-01/820-3399/ggfrj/index.html
+
 Importing a user from LDAP into Sparkflows
 ------------------------------------------
 
@@ -77,7 +84,7 @@ Search Order
 
 Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ldap.Order.
 
-If it is set to LDAP_DB, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
+If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
 
 Reference
 ---------

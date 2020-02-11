@@ -1,12 +1,12 @@
 Notifications & Alerts
 ======
 
-Users in general like to be alerted when a job completes or fails specially in Big Data where Jobs can run for hours together.
+Users in general like to be alerted when a job completes or fails, specially in Big Data where Jobs can run for hours together.
 
 Email Notifications/Alerts when Executing Workflows
 -------------------------------------
 
-You can specify email addresses for receiving emails when the Workflow fails or succeeds.
+When executing the workflows, you can specify email addresses for receiving emails when the workflow fails or succeeds.
 
  .. figure:: ../../_assets/user-guide/alert-1.png
    :alt: Email Alerts
@@ -15,7 +15,7 @@ You can specify email addresses for receiving emails when the Workflow fails or 
 Email Notifications/Alerts when Scheduling Workflows
 --------------------------------------
 
-You can specify email addresses for receiving emails when the Workflow fails or succeeds.
+When scheduling the workflows, you can specify email addresses for receiving emails when the workflow fails or succeeds.
 
  .. figure:: ../../_assets/user-guide/alert-2.png
    :alt: Email Alerts

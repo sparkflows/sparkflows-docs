@@ -35,7 +35,7 @@ This has to be done under Administration/Configuration.
 Databricks JDBC Driver Installation
 -----------------------------------
 
-Fire needs the Databricks JDBC Driver to be installed. Install it in the fire-user-lib folder of the Fire installation.
+Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` folder of the Fire installation.
 
 You can download the Databricks JDBC Driver from the Databricks site : 
 
@@ -44,21 +44,12 @@ You can download the Databricks JDBC Driver from the Databricks site :
 
 
 
-Credential
-----------
-
-Create a credential (Key/Value) for your Databricks account. This would be used in creating the Connection below.
-
-.. figure:: ../_assets/configuration/credentials-details.PNG
-   :alt: Databricks
-   :align: center
-   :width: 60%
-
 Connection
 ----------
 
 Create a connection in your Application for connecting to Databricks.
 
+* Specify your Databricks Token.
 * Specify the Databricks JDBC URL of your cluser in Databricks.
 
 .. figure:: ../_assets/configuration/connection.PNG

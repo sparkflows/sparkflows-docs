@@ -64,9 +64,36 @@ In addition to performing linear classification, SVMs can efficiently perform a 
 
 When data are unlabelled, supervised learning is not possible, and an unsupervised learning approach is required, which attempts to find natural clustering of the data to groups, and then map new data to these formed groups. The support-vector clustering algorithm,  applies the statistics of support vectors, developed in the support vector machines algorithm, to categorize unlabeled data, and is one of the most widely used clustering algorithms in industrial applications.
 
+One-vs-Rest classifier
+-----------------------
 
+One-vs.-rest strategy involves training a single classifier per class, with the samples of that class as positive samples and all other samples as negatives. This strategy requires the base classifiers to produce a real-valued confidence score for its decision, rather than just a class label; discrete class labels alone can lead to ambiguities, where multiple classes are predicted for a single sample.
 
+In pseudocode, the training algorithm for an OvA learner constructed from a binary classification learner L is as follows:
 
+Inputs:
+- L, a learner (training algorithm for binary classifiers)
+- samples X
+- labels y where yi ∈ {1, … K} is the label for the sample Xi
+Output:
+- a list of classifiers fk for k ∈ {1, …, K}
+Procedure:
+- For each k in {1, …, K}
+- Construct a new label vector z where zi = yi if yi = k and zi = 0 otherwise
+- Apply L to X, z to obtain fk
+
+Making decisions means applying all classifiers to an unseen sample x and predicting the label k for which the corresponding classifier reports the highest confidence score.
+
+Although this strategy is popular, it is a heuristic that suffers from several problems. Firstly, the scale of the confidence values may differ between the binary classifiers. Second, even if the class distribution is balanced in the training set, the binary classification learners see unbalanced distributions because typically the set of negatives they see is much larger than the set of positives.
+
+Naive Bayes
+-------------
+
+In machine learning, naïve Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naïve) independence assumptions between the features. They are among the simplest Bayesian network models.
+
+It remains a popular (baseline) method for text categorization, the problem of judging documents as belonging to one category or the other (such as spam or legitimate, sports or politics, etc.) with word frequencies as the features. With appropriate pre-processing, it is competitive in this domain with more advanced methods including support vector machines. It also finds application in automatic medical diagnosis.
+
+Naïve Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression,which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
 
 
 

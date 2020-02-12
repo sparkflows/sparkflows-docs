@@ -52,7 +52,7 @@ Create a connection in your Application for connecting to Databricks.
 * Specify your Databricks Token.
 * Specify the Databricks JDBC URL of your cluser in Databricks.
 
-.. figure:: ../_assets/configuration/connection.PNG
+.. figure:: ../_assets/configuration/databricks_connection.PNG
    :alt: Databricks
    :align: center
    :width: 60%

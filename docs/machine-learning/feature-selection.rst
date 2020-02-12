@@ -21,7 +21,7 @@ RFormula
 
 RFormula selects columns specified by an R model formula. Currently Spark supports a limited subset of the R operators, including ‘~’, ‘.’, ‘:’, ‘+’, and ‘-‘. The basic operators are:
 
-~ separate target and terms
+..* ~ separate target and terms
 + concat terms, “+ 0” means removing intercept
 - remove a term, “- 1” means removing intercept
 : interaction (multiplication for numeric values, or binarized categorical values)

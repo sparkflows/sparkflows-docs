@@ -1,5 +1,6 @@
 Prediction
-=== 
+============
+
 Prediction is to identify data points purely on the description of another related data value. It is not necessarily related to future events but the used variables are unknown. Prediction derives the relationship between a thing you know and a thing you need to predict for future reference.
 
 What is Prediction?

@@ -92,6 +92,8 @@ Power iteration clustering (PIC) is a scalable and efficient algorithm for clust
 - initializationMode: initialization model. This can be either “random”, which is the default, to use a random vector as vertex properties, or “degree” to use normalized sum similarities.
 
 
-
+Streaming k-means
+------------------
+When data arrive in a stream, we may want to estimate clusters dynamically, updating them as new data arrive. spark.mllib provides support for streaming k-means clustering, with parameters to control the decay (or “forgetfulness”) of the estimates. The algorithm uses a generalization of the mini-batch k-means update rule. For each batch of data, we assign all points to their nearest cluster, compute new cluster centers, then update each cluster
 
 

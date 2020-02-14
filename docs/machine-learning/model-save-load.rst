@@ -40,3 +40,13 @@ This section lists some important considerations when finalizing your machine le
 
 Take note of the version so that you can re-create the environment if for some reason you cannot reload your model on another machine or another platform at a later time.
 
+Summary
+-------
+In this post you discovered how to persist your machine learning algorithms in Python with scikit-learn.
+
+You learned two techniques that you can use:
+
+- The pickle API for serializing standard Python objects.
+
+- The joblib API for efficiently serializing Python objects with NumPy arrays.
+

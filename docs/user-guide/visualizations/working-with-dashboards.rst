@@ -18,7 +18,7 @@ Editing Dashboards
  
   * Editing Dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
  
-.. figure:: ../../_assets/user-guide/editing-dashboards.png
+.. figure:: ../../_assets/user-guide/editing dashboards.PNG
    :alt: Sparkflows Editing Dashboards
    :align: center
    :width: 60%

@@ -15,6 +15,7 @@ Creating Dashboards
  
 Editing Dashboards
 ------------------
+
  
  - Editing Dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
  
@@ -23,10 +24,12 @@ Editing Dashboards
    :align: center
    :width: 60%
    
+   
 Viewing Dashboards
 ------------------
 
-  * Once a Dashboard has been created you can view it, by clicking on the View button.
+
+  - Once a Dashboard has been created you can view it, by clicking on the View button.
   
 .. figure:: ../../_assets/user-guide/dashboard-view.png
    :alt: Sparkflows Dashboard

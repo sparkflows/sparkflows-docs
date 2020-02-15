@@ -1,6 +1,30 @@
 Clustering
 ==========
 
+Clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including machine learning, pattern recognition, image analysis, information retrieval, bioinformatics, data compression, and computer graphics.
+
+- https://en.wikipedia.org/wiki/Cluster_analysis
+
+Clustering Processors in Fire Insights
+--------------
+
+
+.. list-table:: Clustering Processors in Fire Insights
+   :widths: 10 20 40
+   :header-rows: 1
+
+   * - Spark
+     - H2O
+   * - Gaussian Mixture
+     - 
+   * - KMeans
+     - KMeans
+   * - LDA
+     - 
+
+Clustering in Apache Spark
+----------------------------
+
 Apache Spark provides a number of Algorithms for Clustering.
 
 https://spark.apache.org/docs/latest/ml-clustering.html
@@ -12,8 +36,6 @@ https://spark.apache.org/docs/latest/ml-clustering.html
 - Power iteration clustering (PIC)
 - Streaming k-means
 
-
-Fire Insights provides processors for the following clustering algorithms so that they can be seamlessly used in a workflow.
 
 K-means
 -------

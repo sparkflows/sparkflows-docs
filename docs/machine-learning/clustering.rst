@@ -16,11 +16,9 @@ Clustering Processors in Fire Insights
    * - Spark
      - H2O
    * - Gaussian Mixture
-     - 
    * - KMeans
      - KMeans
    * - LDA
-     - 
 
 Clustering in Apache Spark
 ----------------------------

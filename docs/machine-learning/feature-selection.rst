@@ -1,9 +1,18 @@
 Feature Selection
 =================
 
+In machine learning and statistics, feature selection, also known as variable selection, attribute selection or variable subset selection, is the process of selecting a subset of relevant features (variables, predictors) for use in model construction. Feature selection techniques are used for several reasons:
+
+- simplification of models to make them easier to interpret by researchers/users,[1]
+- shorter training times,
+- to avoid the curse of dimensionality,
+- enhanced generalization by reducing overfitting[2] (formally, reduction of variance[1])
+
+- https://en.wikipedia.org/wiki/Feature_selection
+
 Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used:
 
-More details regarding these Feature Selectors can be found at:
+More details regarding the Feature Selectors in Spark can be found at:
 
 https://spark.apache.org/docs/2.2.0/ml-features.html#feature-selectors
 

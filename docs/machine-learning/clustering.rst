@@ -24,14 +24,14 @@ Clustering Processors in Fire Insights
    :widths: 10 20
    :header-rows: 1
 
-   * - Title
-     - Description
-   * - emr-file-mysql.json
-     - CloudFormation Template
-   * - deploy-fire-mysql.sh
-     - Script for deploying Fire with MySQL
-   * - script-runner.jar
-     - Script Runner
+   * - Spark
+     - H2O
+   * - Gaussian Mixture
+     - Gaussian Mixture
+   * - KMeans
+     - KMeans
+   * - LDA
+     - LDA
 
 
 Clustering in Apache Spark

@@ -12,7 +12,7 @@ Creating Dashboards
  
   * For creating Dashboards, drag and drop the required processors from the workflows into the Dashboard Canvas.
   * When the corresponding workflows are run, the output is stored by Fire into the relational store. These get displayed into the Dashboard.
- 
+ docs/_assets/user-guide/editing dashboards.PNG
 Editing Dashboards
 ------------------
  

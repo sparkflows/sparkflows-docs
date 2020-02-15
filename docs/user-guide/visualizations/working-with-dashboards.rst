@@ -10,13 +10,13 @@ For example we might want to output a chart of number of bike rentals per hour, 
 Creating Dashboards
 --------------------
  
-  * For creating Dashboards, drag and drop the required processors from the workflows into the Dashboard Canvas.
-  * When the corresponding workflows are run, the output is stored by Fire into the relational store. These get displayed into the    Dashboard.
+ * For creating Dashboards, drag and drop the required processors from the workflows into the Dashboard Canvas.
+ * When the corresponding workflows are run, the output is stored by Fire into the relational store. These get displayed into the dashboard.
  
 Editing Dashboards
 ------------------
  
-  * Editing Dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
+ * Editing Dashboards is like creating dashboards, except that you click the edit button to edit the corresponding Dashboard.
  
 .. figure:: ../../_assets/user-guide/editing-dashboards.PNG
    :alt: Sparkflows Editing Dashboards

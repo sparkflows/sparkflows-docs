@@ -10,18 +10,7 @@ Clustering Processors in Fire Insights
 
 
 .. list-table:: Clustering Processors in Fire Insights
-   :widths: 10 20
-   :header-rows: 1
-
-   * - Spark
-     - H2O
-   * - Gaussian Mixture
-   * - KMeans
-     - KMeans
-   * - LDA
-
-.. list-table:: Clustering Processors in Fire Insights
-   :widths: 10 20
+   :widths: 50 50
    :header-rows: 1
 
    * - Spark

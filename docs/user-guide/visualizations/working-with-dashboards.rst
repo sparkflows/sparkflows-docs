@@ -37,9 +37,9 @@ Once a Dashboard has been created you can view it, by clicking on the View butto
 Streaming Dashboards
 ---------------------
  
-  * Fire allows you to create Streaming Workflows.
-  * Streaming workflows have a mini-batch duration - say 30 seconds.
-  * In this case, the output in the Dashboards get updated every 30 seconds as new data come in.
+- Fire allows you to create Streaming Workflows.
+- Streaming workflows have a mini-batch duration - say 30 seconds.
+- In this case, the output in the Dashboards get updated every 30 seconds as new data come in.
 
 
 

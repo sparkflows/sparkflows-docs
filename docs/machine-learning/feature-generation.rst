@@ -1,9 +1,9 @@
 Feature Generation
 ==================
 
-Fire Insights provides a number of methods for Feature Generation.
+Feature generation is the process of creating new features from one or multiple existing features, potentially for using in statistical analysis. This process adds new information to be accessible during the model construction and therefore hopefully result in more accurate model.
 
-It has a number of Processors for generating features. These include:
+Fire Insights provides a number of processors for Feature Generation. These include:
 
 - DateToAge : Convert Date to Age
 - CaseWhen : Based on the value, convert it to another value

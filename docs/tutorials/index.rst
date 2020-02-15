@@ -6,10 +6,10 @@ Tutorials
    :maxdepth: 2
 
    reading-writing/index.rst
-   data-preparation/index.rst
-   data-quality/index.rst
+   data-science/index.rst
    analytics/index.rst
-   machine-learning/index.rst
+   data-engineering/index.rst
+   data-quality/index.rst
    languages/index.rst
    nlp/index.rst
    streaming/index.rst

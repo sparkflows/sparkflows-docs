@@ -32,10 +32,9 @@ Usual Examples
 
 Techniques
 ----------
+Most prediction techniques are based on mathematical models:
 
-- Most prediction techniques are based on mathematical models:
-
-– Simple statistical models such as regression
+- Simple statistical models such as regression
 
 – Non-linear statistics such as power series
 

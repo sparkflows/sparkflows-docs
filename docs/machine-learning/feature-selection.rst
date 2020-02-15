@@ -8,7 +8,7 @@ In machine learning and statistics, feature selection, also known as variable se
 - to avoid the curse of dimensionality,
 - enhanced generalization by reducing overfitting[2] (formally, reduction of variance[1])
 
-- https://en.wikipedia.org/wiki/Feature_selection
+https://en.wikipedia.org/wiki/Feature_selection
 
 Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used:
 

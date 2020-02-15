@@ -23,6 +23,12 @@ Fire Insights provides a number of processors for Feature Generation. These incl
      - Removes Stop Words
    * - Tokenizer
      - Tokenizes a string into Tokens
+   * - OneHotEncoder
+     - Applies one hot encoding
+   * - TF/IDF
+     - Finds the TF and IDF
+   * - IndexString
+     - Converts a column containg String to numeric values
      
      
 - DateToAge : Convert Date to Age

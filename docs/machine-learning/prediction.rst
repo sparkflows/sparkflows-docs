@@ -36,9 +36,9 @@ Most prediction techniques are based on mathematical models:
 
 - Simple statistical models such as regression
 
-– Non-linear statistics such as power series
+- Non-linear statistics such as power series
 
-– Neural networks, RBFs, etc
+- Neural networks, RBFs, etc
 
 - All based on fitting a curve through the data, that is, finding a relationship from the predictors to the predicted
 

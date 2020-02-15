@@ -20,22 +20,18 @@ Clustering Processors in Fire Insights
      - KMeans
    * - LDA
 
-.. list-table:: Below are the Relevant Files
-   :widths: 10 20 40
+.. list-table:: Clustering Processors in Fire Insights
+   :widths: 10 20
    :header-rows: 1
 
    * - Title
      - Description
-     - File
    * - emr-file-mysql.json
      - CloudFormation Template
-     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/emr-fire-mysql.json
    * - deploy-fire-mysql.sh
      - Script for deploying Fire with MySQL
-     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/deploy-fire-mysql.sh
    * - script-runner.jar
      - Script Runner
-     - https://s3.amazonaws.com/sparkflows-cft/mysql-db/script-runner.jar
 
 
 Clustering in Apache Spark

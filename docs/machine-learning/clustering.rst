@@ -9,17 +9,26 @@ Clustering Processors in Fire Insights
 --------------
 
 
-.. list-table:: Clustering Processors in Fire Insights
+.. list-table:: Apache Spark based Clustering Processors in Fire Insights
    :widths: 50 50
    :header-rows: 1
 
-   * - Spark
-     - H2O
+   * - Title
+     - Description
    * - Gaussian Mixture
      - 
    * - KMeans
-     - KMeans
+     - 
    * - LDA
+     - 
+
+.. list-table:: H2O based Clustering Processors in Fire Insights
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - KMeans
      - 
 
 

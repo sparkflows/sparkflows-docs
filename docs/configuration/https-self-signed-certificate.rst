@@ -119,7 +119,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Once the ``process Completed`` Need to close the ``browser`` and start again and try to login with above ``URL``, It should work without any error.
+- Once the ``above process Completed``, Need to close the ``browser`` and start again and try to login with above ``URL``, It should work without any error.
 
 .. figure:: ../_assets/configuration/loginpage.PNG
    :alt: certificate

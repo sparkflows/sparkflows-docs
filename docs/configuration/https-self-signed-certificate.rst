@@ -69,7 +69,8 @@ Below are the steps for it.
    :width: 60%
 
 - After Upadating details ``Success msg`` will apear.
-.. figure:: ../_assets/configuration/filelocation.PNG
+
+.. figure:: ../_assets/configuration/exportcertificate.PNG
    :alt: certificate
    :align: center
    :width: 60%

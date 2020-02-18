@@ -6,7 +6,7 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 - https://en.wikipedia.org/wiki/Cluster_analysis
 
 Clustering Processors in Fire Insights
---------------
+----------------------------------------
 
 
 .. list-table:: Apache Spark based Clustering Processors in Fire Insights
@@ -19,7 +19,7 @@ Clustering Processors in Fire Insights
      - Mixture : A Gaussian Mixture Model represents a composite distribution whereby points are drawn from one of k Gaussian sub-distributions, each with its own probability. The spark.ml implementation uses the expectation-maximization algorithm to induce the maximum-likelihood model given a set of samples.
 
    * - KMeans
-     - k-means is one of the most commonly used clustering algorithms that clusters the data points into a predefined number of clusters. The MLlib implementation includes a parallelized variant of the k-means++ method called kmeans||.
+     - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
 
    * - LDA
      - LDA is implemented as an Estimator that supports both EMLDAOptimizer and OnlineLDAOptimizer, and generates a LDAModel as the base model.

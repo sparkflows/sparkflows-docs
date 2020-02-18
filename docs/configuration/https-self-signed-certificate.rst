@@ -78,4 +78,20 @@ Below are the steps for it.
 - Once the above steps Completed Successfully, Need to add certificate to Browser
    - Using Google chrome
    
+- Go to below location after opening ``Googlechrome``.
+   - Settings -> Advanced -> Privacy and Security-> Manage Certificates 
    
+
+.. figure:: ../_assets/configuration/managecertificate.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
+- Click on ``Manage Certicate`` icon.
+
+.. figure:: ../_assets/configuration/managebrowsecert.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
+

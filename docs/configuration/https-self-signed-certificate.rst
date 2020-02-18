@@ -17,7 +17,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
    
-- Click on `Not secure` place.
+- Click on `Not secure` option.
  
 .. figure:: ../_assets/configuration/Notsecure.PNG
    :alt: certificate

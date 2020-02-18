@@ -40,7 +40,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Click on ``Details`` option to see deatail information of certificate.
+- Click on ``Details`` option to see detail information of certificate.
 
 .. figure:: ../_assets/configuration/certificatedetails.PNG
    :alt: certificate

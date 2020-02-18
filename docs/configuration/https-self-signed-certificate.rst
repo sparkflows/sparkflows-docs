@@ -53,3 +53,10 @@ Below are the steps for it.
    :alt: certificate
    :align: center
    :width: 60%
+
+- Select below option
+
+.. figure:: ../_assets/configuration/exportfile.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%

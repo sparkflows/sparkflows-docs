@@ -62,6 +62,12 @@ RFormula selects columns specified by an R model formula. Currently Spark suppor
 - : interaction (multiplication for numeric values, or binarized categorical values)
 - . all columns except target
 
+Suppose a and b are double columns, we use the following simple examples to illustrate the effect of RFormula:
+
+- y ~ a + b means model y ~ w0 + w1 * a + w2 * b where w0 is the intercept and w1, w2 are coefficients.
+ - y ~ a + b + a:b - 1 means model y ~ w1 * a + w2 * b + w3 * a * b where w1, w2, w3 are coefficients.
+RFormula produces a vector column of features and a double or string column of label. Like when formulas are used in R for linear regression, string input columns will be one-hot encoded, and numeric columns will be cast to doubles. If the label column is of type string, it will be first transformed to double with StringIndexer. If the label column does not exist in the DataFrame, the output label column will be created from the specified response variable in the formula.
+
 ChiSqSelector
 --------------
 

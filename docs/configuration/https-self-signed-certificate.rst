@@ -127,7 +127,7 @@ Add Certificate to Browser
    :align: center
    :width: 60%
 
-- Once the above process is complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
+- Once the above process complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
 
 .. figure:: ../_assets/configuration/loginpage.PNG
    :alt: certificate

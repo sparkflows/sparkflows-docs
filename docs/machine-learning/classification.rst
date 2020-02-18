@@ -5,9 +5,39 @@ In machine learning and statistics, classification is the problem of identifying
 
 - https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
 
+Classification Processors in Fire Insights
+======================================
+
+.. list-table:: Apache Spark based Classification Processors in Fire Insights
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - Logistic Regression
+     - Logistic regression is a popular method to predict a categorical response. It is a special case of Generalized Linear models that predicts the probability of the outcomes. In spark.ml logistic regression can be used to predict a binary outcome by using binomial logistic regression, or it can be used to predict a multiclass outcome by using multinomial logistic regression. Use the family parameter to select between these two algorithms, or leave it unset and Spark will infer the correct variant.
+
+   * - Decision tree classifier
+     - Decision trees and their ensembles are popular methods for the machine learning tasks of classification and regression. Decision trees are widely used since they are easy to interpret, handle categorical features, extend to the multiclass classification setting, do not require feature scaling, and are able to capture non-linearities and feature interactions.
+
+   * - Random forest classifier
+     - Random forests are ensembles of decision trees. Random forests combine many decision trees in order to reduce the risk of overfitting. The spark.ml implementation supports random forests for binary and multiclass classification and for regression, using both continuous and categorical features.
+   * - Gradient-boosted tree classifier
+     - Gradient-Boosted Trees (GBTs) are ensembles of decision trees. GBTs iteratively train decision trees in order to minimize a loss function. The spark.ml implementation supports GBTs for binary classification and for regression, using both continuous and categorical features.
+   * - Multilayer perceptron classifier
+     - Multilayer perceptron classifier (MLPC) is a classifier based on the feedforward artificial neural network. MLPC consists of multiple layers of nodes. Each layer is fully connected to the next layer in the network. Nodes in the input layer represent the input data. All other nodes map inputs to outputs by a linear combination of the inputs with the node’s weights w and bias b and applying an activation function.
+   * - Linear Support Vector Machine
+     - A support vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks. Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier. LinearSVC in Spark ML supports binary classification with linear SVM. Internally, it optimizes the Hinge Loss using OWLQN optimizer.
+   * - One-vs-Rest classifier
+     - 
+   
+   
+   
+   
+   
 Apache Spark provides a number of Algorithms for Classification.
 
-https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
+- https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
 
 - Logistic Regression
 - Decision tree classifier

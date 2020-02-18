@@ -8,6 +8,7 @@ Configuration
    connecting-spark-cluster.rst
    customizing/index
    configuring-https-fire-server.rst
+   https-self-signed-certificate.rst
    running-different-port.rst
    yarn-configuration.rst
    configuring-https-fire.rst

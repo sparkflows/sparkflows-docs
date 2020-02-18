@@ -1,4 +1,4 @@
-HTTPS : Self-Signed Certificates
+HTTPS : Importing Self-Signed Certificates
 ================================
 
 Fire Insights comes with a self-signed certificate. It is contained in conf/keystore.jks.
@@ -7,9 +7,12 @@ When using the self-signed certificate, the Browser will complain as it has not 
 
 This warning message can be supressed by importing the self-signed certificate into the Browser  inside  ``Trusted Root Certification Authorities``.
 
-Below are the steps for it.
+Below are the steps for importing self-signed certificate into your Browser.
 
-- Login to ``URL`` which is running on ``HTTPS`` port.
+Export the certicate to your machine
+--------------------------------------------
+
+- Got to ``URL`` for the ``HTTPS`` port.
    - https://privateip:8443/login
 
 .. figure:: ../_assets/configuration/Url_https.PNG
@@ -68,17 +71,22 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- After Upadating details ``Success msg`` will apear.
+- After upadating the details ``Success msg`` will apear.
 
 .. figure:: ../_assets/configuration/exportcertificate.PNG
    :alt: certificate
    :align: center
    :width: 60%
 
-- Once the above steps Completed Successfully, Need to add certificate to Browser
-   - Using Google chrome
+Next we need to add the exported certificate to the Browser.
+
    
-- Go to below location after opening ``Googlechrome``.
+Add Certificate to Browser
+--------------------------
+ 
+- Using Google chrome
+   
+- Go to below location after opening ``Google Chrome``.
    - Settings -> Advanced -> Privacy and Security-> Manage Certificates 
    
 
@@ -119,7 +127,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Once the ``above process Completed``, Need to close the ``browser`` and start again and try to login with above ``URL``, It should work without any error.
+- Once the above process is complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
 
 .. figure:: ../_assets/configuration/loginpage.PNG
    :alt: certificate

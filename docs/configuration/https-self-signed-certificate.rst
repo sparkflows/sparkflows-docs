@@ -54,9 +54,23 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Select below option
+- Select below option and press ``Next``.
 
 .. figure:: ../_assets/configuration/exportfile.PNG
    :alt: certificate
    :align: center
    :width: 60%
+   
+- Select the ``Name & file location`` of certificate.
+
+.. figure:: ../_assets/configuration/filelocation.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
+- After Upadating details ``Success msg`` will apear.
+.. figure:: ../_assets/configuration/filelocation.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+

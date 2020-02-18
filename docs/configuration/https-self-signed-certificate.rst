@@ -121,10 +121,11 @@ Below are the steps for it.
 
 - Once the ``process Completed`` Need to close the ``browser`` and start again and try to login with above ``URL``, It should work without any error.
 
-.. figure:: ../_assets/configuration/successmsg.PNG
+.. figure:: ../_assets/configuration/loginpage.PNG
    :alt: certificate
    :align: center
    :width: 60%
    
 
+** help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate
 

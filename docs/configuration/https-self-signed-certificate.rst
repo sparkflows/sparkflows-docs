@@ -24,12 +24,18 @@ Below are the steps for it.
    :align: center
    :width: 60%
    
-- Click on ``Certificate``
+- Click on ``Certificate``.
 
 .. figure:: ../_assets/configuration/certificate.PNG
    :alt: certificate
    :align: center
    :width: 60%
+   
+   
 
+- View ``Certificate``.
 
-
+.. figure:: ../_assets/configuration/viewcertificate.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%

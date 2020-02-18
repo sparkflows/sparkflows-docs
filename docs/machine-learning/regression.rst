@@ -35,12 +35,9 @@ Regression Processors in Fire Insights
 Regression in Apache Spark
 ---------------------------
 
-Apache Spark provides a number of Algorithms for Regression.
-
-https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
+https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
 
 - Linear regression
-- Generalized linear regression
 - Decision tree regression
 - Random Forest regression
 - Gradient-boosted tree regression

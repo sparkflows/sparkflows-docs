@@ -15,7 +15,7 @@ Apache Spark has the following Feature Selectors. Fire Insights provides them as
 
 
 Feature Selection Processors in Fire Insights
-==============================================
+----------------------------------------------
 
 .. list-table:: Apache Spark based Feature Selection Processors in Fire Insights
    :widths: 50 50

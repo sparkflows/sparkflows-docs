@@ -94,4 +94,11 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
+- Click on ``import``.
+
+.. figure:: ../_assets/configuration/import.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
 

@@ -11,8 +11,8 @@ Below are the steps for it.
 
 - Login to `URL` which is running on `HTTPS` port
 
-.. figure:: ../../_assets/configuration/Url_hhtps.PNG
-   :alt: workflow
+.. figure:: ../../_assets/configuration/Url_https.PNG
+   :alt: certificate
    :align: center
    :width: 60%
 

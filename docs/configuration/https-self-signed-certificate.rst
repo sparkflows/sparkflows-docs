@@ -75,3 +75,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
+- Once the above steps Completed Successfully, Need to add certificate to Browser
+   - Using Google chrome
+   
+   

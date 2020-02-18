@@ -38,7 +38,7 @@ Classification Processors in Fire Insights
    
 Apache Spark provides a number of Algorithms for Classification.
 
-- https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
+https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
 
 - Logistic Regression
 - Decision tree classifier

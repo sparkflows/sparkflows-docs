@@ -40,14 +40,14 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Click on ``Details`` option.
+- Click on ``Details`` option to see deatail information of certificate.
 
 .. figure:: ../_assets/configuration/certificatedetails.PNG
    :alt: certificate
    :align: center
    :width: 60%
 
-- Click on ``copy to  file`` option.
+- Click on ``copy to  file`` option go copy certificate to ``local machine``.
 
 .. figure:: ../_assets/configuration/copyfile.PNG
    :alt: certificate

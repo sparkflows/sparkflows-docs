@@ -129,5 +129,5 @@ Below are the steps for it.
 
 
 
-- Help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate
+  - Help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate
 

@@ -127,5 +127,6 @@ Below are the steps for it.
    :width: 60%
    
 
-** help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate
+
+Help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate
 

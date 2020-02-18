@@ -9,7 +9,7 @@ This warning message can be supressed by importing the self-signed certificate i
 
 Below are the steps for it.
 
-- Login to `URL` which is running on `HTTPS` port
+Login to `URL` which is running on `HTTPS` port
 
 .. figure:: ../../_assets/configuration/Url_https.PNG
    :alt: certificate

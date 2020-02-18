@@ -5,7 +5,8 @@ Regression analysis is a set of statistical processes for estimating the relatio
 
 - https://en.wikipedia.org/wiki/Regression_analysis
 
-
+Regression Processors in Fire Insights
+=========================================
 
 .. list-table:: Apache Spark based Regression Processors in Fire Insights
    :widths: 50 50

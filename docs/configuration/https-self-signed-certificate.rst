@@ -87,7 +87,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Click on ``Manage Certicate`` icon.
+- Click on ``Manage Certificate`` icon.
 
 .. figure:: ../_assets/configuration/managebrowsecert.PNG
    :alt: certificate

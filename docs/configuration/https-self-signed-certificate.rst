@@ -11,7 +11,7 @@ Below are the steps for it.
 
 - Login to `URL` which is running on `HTTPS` port.
 
-.. figure:: ../../_assets/configuration/Url_https.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/configuration/Url_https.PNG
    :alt: certificate
    :align: center
    :width: 60%

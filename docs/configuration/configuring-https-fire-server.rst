@@ -80,10 +80,10 @@ List entries in keystore::
     keytool -list -keystore keystore.jks
 
 
-Adding a Certificate to an existing Keystore
+Importing a Certificate to an existing Keystore
 ++++++++++++++++++++++++++++++++++++++++++++
 
-Adding a Certificate to an existing Keystore::
+Importing a Certificate to an existing Keystore::
 
     keytool -import -trustcacerts -alias <Name of Cert> -file <Absolute Path to .crt File> -keystore <Absolute Path to Desired Keystore> -storepass <KEYSTORE_PASSWORD>
 

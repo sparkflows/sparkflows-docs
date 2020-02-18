@@ -5,7 +5,24 @@ Regression analysis is a set of statistical processes for estimating the relatio
 
 - https://en.wikipedia.org/wiki/Regression_analysis
 
+.. list-table:: Apache Spark based Regression Processors in Fire Insights
+   :widths: 50 50
+   :header-rows: 1
 
+   * - Title
+     - Description
+   * - Linear regression
+     - The interface for working with linear regression models and model summaries is similar to the logistic regression case.
+
+When fitting LinearRegressionModel without intercept on dataset with constant nonzero column by “l-bfgs” solver, Spark MLlib outputs zero coefficients for constant nonzero columns. This behavior is the same as R glmnet but different from LIBSVM.
+
+
+   * - Generalized linear regression
+
+     - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions
+
+   * - LDA
+     - LDA is implemented as an Estimator that supports both EMLDAOptimizer and OnlineLDAOptimizer, and generates a LDAModel as the base model.
 
 Regression in Apache Spark
 ---------------------------
@@ -13,7 +30,6 @@ Regression in Apache Spark
 https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
 
 - Linear regression
-- Generalized linear regression
 - Decision tree regression
 - Random Forest regression
 - Gradient-boosted tree regression

@@ -47,7 +47,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Click on ``copy to  file`` option go copy certificate to ``local machine``.
+- Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
 .. figure:: ../_assets/configuration/copyfile.PNG
    :alt: certificate

@@ -31,7 +31,7 @@ Clustering Processors in Fire Insights
    * - Title
      - Description
    * - KMeans
-     - 
+     - k-means is one of the most commonly used clustering algorithms that clusters the data points into a predefined number of clusters. The MLlib implementation includes a parallelized variant of the k-means++ method called kmeans||.
 
 
 Clustering in Apache Spark

@@ -23,4 +23,13 @@ Below are the steps for it.
    :alt: certificate
    :align: center
    :width: 60%
+   
+- Click on ``Certificate``
+
+.. figure:: ../_assets/configuration/certificate.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
+
 

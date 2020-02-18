@@ -101,4 +101,20 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
+- Select ``certificate from local system``, use ``Trusted Root Certificate Authorities`` option and press ``yes`` to save it.
 
+.. figure:: ../_assets/configuration/Trustedroot.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+   
+
+.. figure:: ../_assets/configuration/savingcertificate.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%
+
+.. figure:: ../_assets/configuration/successmsg.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%

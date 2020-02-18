@@ -15,20 +15,25 @@ Regression Processors in Fire Insights
    * - Title
      - Description
    * - Linear regression
-     - The interface for working with linear regression models and model summaries is similar to the logistic regression case. When fitting LinearRegressionModel without intercept on dataset with constant nonzero column by “l-bfgs” solver, Spark MLlib outputs zero coefficients for constant nonzero columns. This behavior is the same as R glmnet but different from LIBSVM.
+     -  LinearRegression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables.
+     
    * - Generalized linear regression
      - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions
 
    * - Decision tree regression
      - Decision trees and their ensembles are popular methods for the machine learning tasks of classification and regression. Decision trees are widely used since they are easy to interpret, handle categorical features, extend to the multiclass classification setting, do not require feature scaling, and are able to capture non-linearities and feature interactions.
+     
    * - Random forest regression
-     - Random forests are ensembles of decision trees. Random forests combine many decision trees in order to reduce the risk of overfitting. The spark.ml implementation supports random forests for binary and multiclass classification and for regression, using both continuous and categorical features.
+     - Random forests are ensembles of decision trees. Random forests combine many decision trees in order to reduce the risk of overfitting.
+     
    * - Gradient-boosted tree regression
-     - Gradient-Boosted Trees (GBTs) are ensembles of decision trees. GBTs iteratively train decision trees in order to minimize a loss function. The spark.ml implementation supports GBTs for binary classification and for regression, using both continuous and categorical features.
+     - Gradient-Boosted Trees (GBTs) are ensembles of decision trees. GBTs iteratively train decision trees in order to minimize a loss function.
+   
    * - Survival regression
-     - In spark.ml, we implement the Accelerated failure time (AFT) model which is a parametric survival regression model for censored data. It describes a model for the log of survival time, so it’s often called a log-linear model for survival analysis.
+     - Survival Analysis is a set of statistical tools, which addresses questions such as ‘how long would it be, before a particular event occurs’; in other words we can also call it as a ‘time to event’ analysis.
+    
    * -  Isotonic regression
-     - Isotonic regression belongs to the family of regression algorithms. Formally isotonic regression is a problem where given a finite set of real numbers representing observed responses and  the unknown response values to be fitted finding a function that minimizes with respect to complete order subject.The resulting function is called isotonic regression and it is unique.
+     - Isotonic regression is the technique of fitting a free-form line to a sequence of observations under the following constraints: the fitted free-form line has to be non-decreasing everywhere, and it has to lie as close to the observations as possible.
    
    
    

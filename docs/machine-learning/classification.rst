@@ -6,7 +6,7 @@ In machine learning and statistics, classification is the problem of identifying
 - https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
 
 Classification Processors in Fire Insights
-======================================
+-------------------------------------------
 
 .. list-table:: Apache Spark based Classification Processors in Fire Insights
    :widths: 50 50

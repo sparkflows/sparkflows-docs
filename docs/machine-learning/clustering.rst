@@ -20,7 +20,7 @@ Clustering Processors in Fire Insights
    * - KMeans
      - 
    * - LDA
-     - 
+     - LDA is implemented as an Estimator that supports both EMLDAOptimizer and OnlineLDAOptimizer, and generates a LDAModel as the base model.
 
 .. list-table:: H2O based Clustering Processors in Fire Insights
    :widths: 50 50

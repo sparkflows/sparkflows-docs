@@ -1,5 +1,9 @@
 Classification
-==========
+==============
+
+In machine learning and statistics, classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs.
+
+- https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
 
 Apache Spark provides a number of Algorithms for Classification.
 

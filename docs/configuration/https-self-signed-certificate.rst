@@ -47,7 +47,7 @@ Below are the steps for it.
    :align: center
    :width: 60%
 
-- Click on ``copy file` option.
+- Click on ``copy to  file`` option.
 
 .. figure:: ../_assets/configuration/copyfile.PNG
    :alt: certificate

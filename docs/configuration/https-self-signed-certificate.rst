@@ -39,3 +39,10 @@ Below are the steps for it.
    :alt: certificate
    :align: center
    :width: 60%
+
+- Click on ``Details`` option.
+
+.. figure:: ../_assets/configuration/certificatedetails.PNG
+   :alt: certificate
+   :align: center
+   :width: 60%

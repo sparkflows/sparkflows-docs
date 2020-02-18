@@ -9,7 +9,7 @@ This warning message can be supressed by importing the self-signed certificate i
 
 Below are the steps for importing self-signed certificate into your Browser.
 
-Export the certicate to your machine
+Export the certificate to your machine
 --------------------------------------------
 
 - Got to ``URL`` for the ``HTTPS`` port.

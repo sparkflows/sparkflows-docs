@@ -38,7 +38,10 @@ Configure app.postMessageURL
 
 Configure ``app.postMessageURL`` to be the public IP of the machine. It has to be accessible from the Databricks Cluster.
 
-
+.. figure:: ../_assets/configuration/Fire_postback_url.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
 
 
 Install Databricks JDBC Driver

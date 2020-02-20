@@ -28,6 +28,7 @@ Configure the path of the uploaded fire core jar library in Databricks in Fire I
 
 This has to be done under Administration/Configuration.
 
+
 .. figure:: ../_assets/configuration/databricks-configurations.PNG
    :alt: Databricks
    :align: center

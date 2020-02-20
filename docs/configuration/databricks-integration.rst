@@ -53,10 +53,10 @@ The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
 Connection
 ----------
 
-Create a connection in your Application for connecting to Databricks.
+Create a connection in Fire Insights under your Application for connecting to Databricks.
 
 * Specify your Databricks Token.
-* Specify the Databricks JDBC URL of your cluser in Databricks.
+* Specify the Databricks JDBC URL of your cluster in Databricks.
 
 .. figure:: ../_assets/configuration/databricks_connection.PNG
    :alt: Databricks
@@ -66,9 +66,9 @@ Create a connection in your Application for connecting to Databricks.
 Read Databricks tables in Workflows
 ------------------------------------------
 
-In the workflow use the processor 'Read from Databricks'. It will allow you to read tables from Databricks.
+In the workflow use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.
 
-Then use the other processors in Fire for processing things.
+Then use the other processors in Fire for processing the data read from the Databricks Table.
 
 Workflow
 ++++++++
@@ -94,8 +94,10 @@ Processor executions for ReadDatabricksTable
    :align: center
    :width: 60%
 
-Workflow execution
+Databricks Workflow execution
 ++++++++
+
+Below is the output of executing the above workflow which reads data from a Databricks table.
 
 .. figure:: ../_assets/configuration/workflow-databricks-execute.PNG
    :alt: Databricks

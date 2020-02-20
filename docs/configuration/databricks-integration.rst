@@ -1,15 +1,17 @@
 Databricks Integration
 ======================
 
-Fire Insights integrates with Databricks. It can submit jobs to the Databricks clusters.
+Fire Insights integrates with Databricks. It can submit jobs to the Databricks clusters and have the results displayed back in Fire Insights.
 
 Deployment
 -----------
 
-Install Fire Insights on any machine. The machine has to be reachable from the web. Then connect it to your Databricks Cluster
+Install Fire Insights on any machine. The machine has to be reachable from the web via a public IP or DNS entry. Then connect Fire Insights to your Databricks Cluster
 
 Upload Fire Core Jar to Databricks
 ----------------------------------
+
+Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
 
 Upload fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workflows as a Library on to Databricks.
 
@@ -19,10 +21,10 @@ Upload fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencies.
    :align: center
    :width: 60%
 
-Specify the Uploaded Library in Fire
+Configure the Uploaded Library in Fire Insights
 ------------------------------------
 
-Specify the uploaded fire core jar library in Databricks in Fire Insights.
+Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
 
 This has to be done under Administration/Configuration.
 
@@ -42,6 +44,10 @@ You can download the Databricks JDBC Driver from the Databricks site :
 * https://docs.databricks.com/bi/jdbc-odbc-bi.html
 * https://databricks.com/spark/odbc-driver-download
 
+The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
+
+* Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``
+* Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib``
 
 
 Connection

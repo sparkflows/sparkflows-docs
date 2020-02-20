@@ -32,9 +32,16 @@ This has to be done under Administration/Configuration.
    :alt: Databricks
    :align: center
    :width: 60%
+   
+Configure app.postMessageURL
+----------------------------
+
+Configure ``app.postMessageURL`` to be the public IP of the machine. It has to be accessible from the Databricks Cluster.
 
 
-Databricks JDBC Driver Installation
+
+
+Install Databricks JDBC Driver
 -----------------------------------
 
 Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` folder of the Fire installation.
@@ -50,7 +57,7 @@ The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
 * Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib``
 
 
-Connection
+Create Databricks Connection
 ----------
 
 Create a connection in Fire Insights under your Application for connecting to Databricks.
@@ -63,7 +70,7 @@ Create a connection in Fire Insights under your Application for connecting to Da
    :align: center
    :width: 60%
 
-Read Databricks tables in Workflows
+Read Databricks table in Workflow
 ------------------------------------------
 
 In the workflow use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.

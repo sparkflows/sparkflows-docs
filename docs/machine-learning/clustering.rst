@@ -34,7 +34,7 @@ Clustering Processors in Fire Insights
      - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
 
 
-Clustering in Apache Spark
+Clustering Algorithms in Apache Spark
 ----------------------------
 
 Apache Spark provides a number of Algorithms for Clustering.
@@ -50,7 +50,7 @@ https://spark.apache.org/docs/latest/ml-clustering.html
 
 
 K-means
--------
++++++++++++++++++++
 
 https://spark.apache.org/docs/latest/ml-clustering.html#k-means
 
@@ -66,7 +66,7 @@ k is the number of desired clusters. Note that it is possible for fewer than k c
 - initialModel is an optional set of cluster centers used for initialization. If this parameter is supplied, only one run is performed.
 
 Latent Dirichlet allocation (LDA)
----------------------------------
++++++++++++++++++++
 
 https://spark.apache.org/docs/latest/ml-clustering.html#latent-dirichlet-allocation-lda
 
@@ -93,7 +93,7 @@ All of spark.mllib’s LDA models support:
 - topicsMatrix: Returns a vocabSize by k matrix where each column is a topic
 
 Bisecting k-means
-------------------
++++++++++++++++++++
 
 Bisecting K-means can often be much faster than regular K-means, but it will generally produce a different clustering.
 
@@ -109,7 +109,8 @@ Bisecting k-means algorithm is a kind of divisive algorithms. The implementation
 - seed: a random seed (default: hash value of the class name)
 
 Gaussian mixture
------------------
++++++++++++++++++++
+
 A Gaussian Mixture Model represents a composite distribution whereby points are drawn from one of k Gaussian sub-distributions, each with its own probability. The spark.mllib implementation uses the expectation-maximization algorithm to induce the maximum-likelihood model given a set of samples. The implementation has the following parameters:
 
 - k is the number of desired clusters.
@@ -118,7 +119,8 @@ A Gaussian Mixture Model represents a composite distribution whereby points are 
 - initialModel is an optional starting point from which to start the EM algorithm. If this parameter is omitted, a random starting point will be constructed from the data.
 
 Power iteration clustering (PIC)
----------------------------------
++++++++++++++++++++
+
 Power iteration clustering (PIC) is a scalable and efficient algorithm for clustering vertices of a graph given pairwise similarities as edge properties, described in Lin and Cohen, Power Iteration Clustering. It computes a pseudo-eigenvector of the normalized affinity matrix of the graph via power iteration and uses it to cluster vertices. spark.mllib includes an implementation of PIC using GraphX as its backend. It takes an RDD of (srcId, dstId, similarity) tuples and outputs a model with the clustering assignments. The similarities must be nonnegative. PIC assumes that the similarity measure is symmetric. A pair (srcId, dstId) regardless of the ordering should appear at most once in the input data. If a pair is missing from input, their similarity is treated as zero. spark.mllib’s PIC implementation takes the following (hyper-)parameters:
 
 - k: number of clusters
@@ -127,7 +129,8 @@ Power iteration clustering (PIC) is a scalable and efficient algorithm for clust
 
 
 Streaming k-means
-------------------
++++++++++++++++++++
+
 When data arrive in a stream, we may want to estimate clusters dynamically, updating them as new data arrive. spark.mllib provides support for streaming k-means clustering, with parameters to control the decay (or “forgetfulness”) of the estimates. The algorithm uses a generalization of the mini-batch k-means update rule. For each batch of data, we assign all points to their nearest cluster, compute new cluster centers, then update each cluster
 
 

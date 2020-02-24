@@ -117,7 +117,7 @@ Add Certificate to Browser
    :width: 60%
    
 
-.. figure:: ../_assets/configuration/savingcertificate.PNG
+.. figure:: ../_assets/configuration/Savingcertificate.PNG
    :alt: certificate
    :align: center
    :width: 60%

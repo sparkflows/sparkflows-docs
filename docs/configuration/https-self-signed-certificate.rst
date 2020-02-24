@@ -97,7 +97,7 @@ Add Certificate to Browser
 
 - Click on ``Manage Certificate`` icon.
 
-.. figure:: ../_assets/configuration/managebrowsecert.PNG
+.. figure:: ../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
    :align: center
    :width: 60%

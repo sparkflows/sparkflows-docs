@@ -52,7 +52,7 @@ Export the certificate to your machine
 
 - Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
-.. figure:: ../_assets/configuration/copyfile.PNG
+.. figure:: ../_assets/configuration/Copyfile.PNG
    :alt: certificate
    :align: center
    :width: 60%

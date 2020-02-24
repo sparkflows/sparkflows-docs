@@ -45,7 +45,7 @@ Export the certificate to your machine
 
 - Click on ``Details`` option to see detail information of certificate.
 
-.. figure:: ../_assets/configuration/certificatedetails.PNG
+.. figure:: ../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
    :align: center
    :width: 60%

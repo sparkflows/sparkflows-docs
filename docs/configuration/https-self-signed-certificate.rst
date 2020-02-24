@@ -59,7 +59,7 @@ Export the certificate to your machine
 
 - Select below option and press ``Next``.
 
-.. figure:: ../_assets/configuration/exportfile.PNG
+.. figure:: ../_assets/configuration/Exportfile.PNG
    :alt: certificate
    :align: center
    :width: 60%

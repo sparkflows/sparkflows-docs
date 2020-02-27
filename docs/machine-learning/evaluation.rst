@@ -5,6 +5,26 @@ Model evaluation aims to estimate the generalization accuracy of a model on futu
 
 - https://heartbeat.fritz.ai/introduction-to-machine-learning-model-evaluation-fa859e1b2d7f
 
+
+Evaluation Processors in Fire Insights
+----------------------------------------
+
+
+.. list-table:: Apache Spark based Evaluation Processors in Fire Insights
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - NodeRegressionEvaluator
+     - Evaluator for regression, which expects two input columns: prediction and label.  Regression analysis is used when predicting a continuous output variable from a number of independent variables.
+
+   * -NodeBinaryClassificationEvaluator
+     - Evaluator for binary classification, which expects two input columns: rawPrediction and label.  Binary classifiers are used to separate the elements of a given dataset into one of two possible groups (e.g. fraud or not fraud) and is a special case of multiclass classification. 
+
+   * - NodeMulticlassClassificationEvaluator
+     - Evaluator for multiclass classification, which expects two input columns: score and label. A multiclass classification describes a classification problem where there are M>2 possible labels for each data point (the case where M=2 is the binary classification problem)
+
 Machine learning continues to be an increasingly integral component of our lives, whether we’re applying the techniques to research or business problems. Machine learning models ought to be able to give accurate predictions in order to create real value for a given organization.
 
 While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning pipeline. We need to know whether it actually works and, consequently, if we can trust its predictions. Could the model be merely memorizing the data it is fed with, and therefore unable to make good predictions on future samples, or samples that it hasn’t seen before?

@@ -6,8 +6,11 @@ Model evaluation aims to estimate the generalization accuracy of a model on futu
 - https://heartbeat.fritz.ai/introduction-to-machine-learning-model-evaluation-fa859e1b2d7f
 
 Machine learning continues to be an increasingly integral component of our lives, whether we’re applying the techniques to research or business problems. Machine learning models ought to be able to give accurate predictions in order to create real value for a given organization.
+
 While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning pipeline. We need to know whether it actually works and, consequently, if we can trust its predictions. Could the model be merely memorizing the data it is fed with, and therefore unable to make good predictions on future samples, or samples that it hasn’t seen before?
+
 In this article, we explain the techniques used in evaluating how well a machine learning model generalizes to new, previously unseen data. We’ll also illustrate how common model evaluation metrics are implemented for classification and regression problems using Python.
+
 Model Evaluation Techniques
 ---------------------------
 
@@ -18,9 +21,13 @@ Methods for evaluating a model’s performance are divided into 2 categories: na
 Holdout
 -------
 The purpose of holdout evaluation is to test a model on different data than it was trained on. This provides an unbiased estimate of learning performance.
+
 In this method, the dataset is randomly divided into three subsets:
+
 1)Training set is a subset of the dataset used to build predictive models.
+
 2)Validation set is a subset of the dataset used to assess the performance of the model built in the training phase. It provides a test platform for fine-tuning a model’s parameters and selecting the best performing model. Not all modeling algorithms need a validation set.
+
 3)Test set, or unseen data, is a subset of the dataset used to assess the likely future performance of a model. If a model fits to the training set much better than it fits the test set, overfitting is probably the cause.
 
 The holdout approach is useful because of its speed, simplicity, and flexibility. However, this technique is often associated with high variability since differences in the training and test dataset can result in meaningful differences in the estimate of accuracy.

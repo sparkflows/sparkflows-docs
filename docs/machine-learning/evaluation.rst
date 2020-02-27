@@ -24,6 +24,7 @@ Evaluation Processors in Fire Insights
 
    * - NodeMulticlassClassificationEvaluator
      - Evaluator for multiclass classification, which expects two input columns: score and label. A multiclass classification describes a classification problem where there are M>2 possible labels for each data point (the case where M=2 is the binary classification problem)
+     
 
 Machine learning continues to be an increasingly integral component of our lives, whether we’re applying the techniques to research or business problems. Machine learning models ought to be able to give accurate predictions in order to create real value for a given organization.
 

@@ -19,7 +19,7 @@ Evaluation Processors in Fire Insights
    * - NodeRegressionEvaluator
      - Evaluator for regression, which expects two input columns: prediction and label.  Regression analysis is used when predicting a continuous output variable from a number of independent variables.
 
-   * -NodeBinaryClassificationEvaluator
+   * - NodeBinaryClassificationEvaluator
      - Evaluator for binary classification, which expects two input columns: rawPrediction and label.  Binary classifiers are used to separate the elements of a given dataset into one of two possible groups (e.g. fraud or not fraud) and is a special case of multiclass classification. 
 
    * - NodeMulticlassClassificationEvaluator

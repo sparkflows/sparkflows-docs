@@ -3,6 +3,8 @@ Databricks Integration
 
 Fire Insights integrates with Databricks. It can submit jobs to the Databricks clusters and have the results displayed back in Fire Insights.
 
+Databricks can be running on Azure or AWS.
+
 Deployment
 -----------
 

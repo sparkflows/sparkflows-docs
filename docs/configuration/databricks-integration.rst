@@ -5,6 +5,10 @@ Fire Insights integrates with Databricks. It can submit jobs to the Databricks c
 
 Databricks can be running on Azure or AWS.
 
+* Running Databricks on Azure : https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal
+* Running Databricks on AWS : https://databricks.com/aws
+
+
 Deployment
 -----------
 

@@ -66,7 +66,7 @@ You can download the Databricks JDBC Driver from the Databricks site :
 The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
 
 * Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``
-* Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib``
+* Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``
 
 
 Create Databricks Connection

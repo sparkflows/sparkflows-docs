@@ -8,18 +8,22 @@ Fire Insights allows you to save the ML Model created. The ML Models can be load
 Spark ML Models
 ---------------
 
-Spark ML models are saved into a directory with multiple files in it.
+Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors saving and loading the Spark ML models.
 
 H2O Models
 ----------
 
-H2O Models can be saved in binary format or in MOJO format.
+H2O Models can be saved in binary format or in MOJO format. Fire Insights has processors for them.
+
+More details of saving and loading the H2O Models is available here:
+
+http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 
 
 Scikit-Learn Models
 --------------------
 
-Scikit-Learn models are persisted with pickle.
+Scikit-Learn models are persisted with pickle. Fire Insights has processors for saving and loading the pickle models.
 
 More details of the pickle format is available here:
 

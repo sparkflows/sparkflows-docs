@@ -27,4 +27,4 @@ Scikit-Learn models are persisted with pickle. Fire Insights has processors for 
 
 More details of the pickle format is available here:
 
-The ML Models can be loaded in the same or other workflows to be used for scoring. The ML Models can also be downloaded from HDFS Browse.
+

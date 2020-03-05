@@ -27,4 +27,6 @@ Scikit-Learn models are persisted with pickle. Fire Insights has processors for 
 
 More details of the pickle format is available here:
 
+https://scikit-learn.org/stable/modules/model_persistence.html
+
 

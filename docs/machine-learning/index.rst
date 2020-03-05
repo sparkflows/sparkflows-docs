@@ -1,5 +1,5 @@
 
-Machine Learning
+Machine Learning User Guide
 ==========
 
 .. toctree::

@@ -18,7 +18,7 @@ Feature Selection Processors in Fire Insights
 ----------------------------------------------
 
 .. list-table:: Apache Spark based Feature Selection Processors in Fire Insights
-   :widths: 50 50
+   :widths: 20 50
    :header-rows: 1
 
    * - Title

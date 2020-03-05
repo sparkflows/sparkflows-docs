@@ -23,7 +23,7 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 Scikit-Learn Models
 --------------------
 
-Scikit-Learn models are persisted with pickle. Fire Insights has processors for saving and loading the pickle models.
+Scikit-Learn models are persisted with pickle. Fire Insights has processors for saving and loading the pickle files.
 
 More details of the pickle format is available here:
 

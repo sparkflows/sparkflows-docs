@@ -16,6 +16,13 @@ Save Model processor:
    :alt: Modelsave
    :align: center
    :width: 60%
+   
+Load Model processor:   
+   
+.. figure:: ../_assets/model/loadmodelconfigurations.PNG
+   :alt: Modelsave
+   :align: center
+   :width: 60%   
 
 H2O Models
 ----------

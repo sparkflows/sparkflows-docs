@@ -118,7 +118,7 @@ Databricks Workflow execution
 
 Below is the output of executing the above workflow which reads data from a Databricks table.
 
-.. figure:: ../_assets/configuration/workflow-databricks-execute.PNG
+.. figure:: ../_assets/configuration/databricks_workflowexecutions.PNG
    :alt: Databricks
    :align: center
    :width: 60%

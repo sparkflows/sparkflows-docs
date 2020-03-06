@@ -100,7 +100,7 @@ Workflow
 Processor Configurations for ReadDatabricksTable
 ++++++++
 
-.. figure:: ../_assets/configuration/databricks-editor.PNG
+.. figure:: ../_assets/configuration/databricks_editor.PNG
    :alt: Databricks
    :align: center
    :width: 60%
@@ -108,7 +108,7 @@ Processor Configurations for ReadDatabricksTable
 Processor executions for ReadDatabricksTable
 ++++++++
 
-.. figure:: ../_assets/configuration/databricks-execute.PNG
+.. figure:: ../_assets/configuration/databrcks_interactiveexecutions.PNG
    :alt: Databricks
    :align: center
    :width: 60%

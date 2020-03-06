@@ -105,6 +105,14 @@ Processor Configurations for ReadDatabricksTable
    :align: center
    :width: 60%
 
+Refresh schema for ReadDatabricksTable
+++++++++
+ 
+.. figure:: ../_assets/configuration/databricks_refreshschema.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60% 
+
 Processor executions for ReadDatabricksTable
 ++++++++
 

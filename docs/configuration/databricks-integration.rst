@@ -124,3 +124,18 @@ Below is the output of executing the above workflow which reads data from a Data
    :width: 60%
    
    
+Write to Databricks Table in a Workflow
+---------------------------------------
+
+
+
+Browse Databricks Databases and Tables
+--------------------------------------
+
+Fire Insights allows you to Browse your Databricks Schema.
+
+Go to Browse/JDBC. It will display the various Databricks Connections in your Applications.
+
+Select the relevant connection to use it for browing the Databricks Schema.
+
+

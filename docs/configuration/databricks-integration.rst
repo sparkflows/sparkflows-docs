@@ -3,7 +3,7 @@ Databricks Integration
 
 Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. Fire displays the list of Databricks clusters running for the user.
+Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. In addition fire displays the list of Databricks clusters running for the user.
 
 Databricks can be running on Azure or on AWS.
 

@@ -150,7 +150,7 @@ Go to ``DATABROWSERS/Connections``. It will display the various Databricks Conne
    :align: center
    :width: 60%
 
-Select the relevant connection to use it for browing the Databricks Schema.
+Select the relevant ``connection`` to use it for browing the Databricks Schema.
 
 .. figure:: ../_assets/configuration/databricks_database.PNG
    :alt: Databricks

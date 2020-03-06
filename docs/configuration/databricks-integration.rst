@@ -148,3 +148,11 @@ Select the relevant connection to use it for browing the Databricks Schema.
    :alt: Databricks
    :align: center
    :width: 60%
+   
+Select CLUSTER tab to see detail informations of databrick cluster 
+
+.. figure:: ../_assets/configuration/databricks_cluster_details.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+

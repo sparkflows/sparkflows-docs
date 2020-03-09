@@ -81,9 +81,30 @@ Create your token in Databricks. It would be used in making REST API calls to Da
    :alt: Databricks
    :align: center
    :width: 60%
-* Click on ``User setting``.
+* Click on ``User Settings``.
 
 .. figure:: ../_assets/configuration/userset.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+* Click on ``Generate New Token``.
+
+.. figure:: ../_assets/configuration/generatetoken.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+* Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``.
+
+.. figure:: ../_assets/configuration/token_update.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+* Copy the token generated and Click on ``DONE``.
+
+.. figure:: ../_assets/configuration/token_generated.PNG
    :alt: Databricks
    :align: center
    :width: 60%

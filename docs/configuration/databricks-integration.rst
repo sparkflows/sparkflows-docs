@@ -69,6 +69,12 @@ The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
 * Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``
 
 
+Create your REST API token in Databricks
+--------------
+
+Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
+
+
 Create Databricks Connection
 ----------
 

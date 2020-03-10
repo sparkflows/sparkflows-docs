@@ -31,9 +31,9 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 60%
    
- * Dropdown ``workspace``, Click on ``Create & Library`` .
+* Dropdown ``workspace``, Click on ``Create & Library`` .
  
- .. figure:: ../_assets/configurationcreate_library.PNG
+.. figure:: ../_assets/configurationcreate_library.PNG
    :alt: Databricks
    :align: center
    :width: 60%

@@ -26,7 +26,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
 * Login to ``Databricks Cluster``.
 * Click on ``workspace`` in the left side pane.
 
-.. figure:: ../_assets/configuration/workspace_azure.PNG
+.. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
    :align: center
    :width: 60%

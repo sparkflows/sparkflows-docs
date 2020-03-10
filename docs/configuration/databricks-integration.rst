@@ -37,6 +37,13 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :alt: Databricks
    :align: center
    :width: 60%
+* Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar``.
+
+.. figure:: ../_assets/configuration/uploadlibrary.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
 
 Configure the Uploaded Library in Fire Insights
 ------------------------------------

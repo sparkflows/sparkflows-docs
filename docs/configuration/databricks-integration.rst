@@ -23,29 +23,35 @@ Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running o
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-* Login to ``Databricks Cluster``.
-* Click on ``workspace`` in the left side pane.
+Login to ``Databricks Cluster``
+++++++++++++++++++++++++++++++++
+
+Click on ``workspace`` in the left side pane
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
    :align: center
    :width: 60%
    
-* Dropdown ``workspace``, Click on ``Create & Library`` .
+Dropdown ``workspace``, Click on ``Create & Library``
+++++++++++++++++++++++++++++++++
  
 .. figure:: ../_assets/configuration/library_create.PNG
    :alt: Databricks
    :align: center
    :width: 60%
    
-* Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``.
+Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
    :align: center
    :width: 60%
    
-* Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``.
+Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/createlibrary.PNG
    :alt: Databricks

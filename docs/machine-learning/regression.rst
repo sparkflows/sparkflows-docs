@@ -51,6 +51,17 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#regressio
 
 Fire Insights provides processors for the above Algorithms.
 
+Regression Algorithms in Scikit Learn
+----------------------------------------
+
+https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+
+- Ridge regression
+- Lasso regression
+- Gradient Boosting regression
+- Random Forest regression
+
+
 Linear Regression
 +++++++++++++++++++
 

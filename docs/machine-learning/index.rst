@@ -12,7 +12,7 @@ Machine Learning User Guide
    classification.rst
    prediction.rst
    evaluation.rst
-   model-save-load.rst
+   model-persistence.rst
 
    
    

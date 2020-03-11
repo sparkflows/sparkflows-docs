@@ -52,23 +52,23 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#regressio
 Fire Insights provides processors for the above Algorithms.
 
 
-.. list-table:: Apache Spark based Regression Processors in Fire Insights
+.. list-table:: Scikit Learn based Regression Processors in Fire Insights
    :widths: 50 50
    :header-rows: 1
 
    * - Title
      - Description
    * - Ridge regression
-     -  LinearRegression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables.
+     -  Ridge regression addresses some of the problems of Ordinary Least Squares by imposing a penalty on the size of the coefficients. The ridge coefficients minimize a penalized residual sum of squares
      
    * - Lasso regression
-     - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions
+     - The Lasso is a linear model that estimates sparse coefficients. It is useful in some contexts due to its tendency to prefer solutions with fewer non-zero coefficients, effectively reducing the number of features upon which the given solution is dependent.
 
    * - Gradient Boosting regression
-     - Decision trees and their ensembles are popular methods for the machine learning tasks of classification and regression. Decision trees are widely used since they are easy to interpret, handle categorical features, extend to the multiclass classification setting, do not require feature scaling, and are able to capture non-linearities and feature interactions.
+     - GB builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function
      
    * - Random forest regression
-     - Random forests are ensembles of decision trees. Random forests combine many decision trees in order to reduce the risk of 
+     - A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement if bootstrap=True (default). 
 
 Regression Algorithms in Scikit Learn
 ----------------------------------------

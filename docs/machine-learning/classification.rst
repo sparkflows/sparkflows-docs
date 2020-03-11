@@ -5,8 +5,8 @@ In machine learning and statistics, classification is the problem of identifying
 
 - https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
 
-Classification Processors in Fire Insights
--------------------------------------------
+Apache Spark MLlib
+-------------------------
 
 .. list-table:: Apache Spark based Classification Processors in Fire Insights
    :widths: 50 50
@@ -33,7 +33,7 @@ Classification Processors in Fire Insights
      - Naive Bayes classifiers are a family of simple probabilistic, multiclass classifiers based on applying Bayes’ theorem with strong (naive) independence assumptions between every pair of features.
    
 Classification Algorithms in Spark MLlib
------------------------------------
+++++++++++++++++++++
 
 https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
 
@@ -47,7 +47,8 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#classific
 - Naive Bayes
 
 
-Fire Insights provides processors for the above Algorithms.
+Scikit Learn
+-------------
 
 
 .. list-table:: Scikit Learn based Classification Processors in Fire Insights

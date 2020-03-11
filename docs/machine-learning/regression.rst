@@ -5,8 +5,8 @@ Regression analysis is a set of statistical processes for estimating the relatio
 
 - https://en.wikipedia.org/wiki/Regression_analysis
 
-Regression Processors in Fire Insights
-----------------------------------------
+Apache Spark
+------------
 
 .. list-table:: Apache Spark based Regression Processors in Fire Insights
    :widths: 50 50
@@ -38,7 +38,7 @@ Regression Processors in Fire Insights
    
    
 Regression Algorithms in Apache Spark
----------------------------
++++++++++++++++
 
 https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
 
@@ -49,7 +49,8 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#regressio
 - Survival regression
 - Isotonic regression
 
-Fire Insights provides processors for the above Algorithms.
+Scikit Learn
+------------
 
 
 .. list-table:: Scikit Learn based Regression Processors in Fire Insights
@@ -71,7 +72,7 @@ Fire Insights provides processors for the above Algorithms.
      - A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement if bootstrap=True (default). 
 
 Regression Algorithms in Scikit Learn
-----------------------------------------
+++++++++++++++++++
 
 https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
 

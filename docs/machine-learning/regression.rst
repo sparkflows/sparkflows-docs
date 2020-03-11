@@ -51,6 +51,25 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#regressio
 
 Fire Insights provides processors for the above Algorithms.
 
+
+.. list-table:: Apache Spark based Regression Processors in Fire Insights
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - Ridge regression
+     -  LinearRegression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables.
+     
+   * - Lasso regression
+     - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions
+
+   * - Gradient Boosting regression
+     - Decision trees and their ensembles are popular methods for the machine learning tasks of classification and regression. Decision trees are widely used since they are easy to interpret, handle categorical features, extend to the multiclass classification setting, do not require feature scaling, and are able to capture non-linearities and feature interactions.
+     
+   * - Random forest regression
+     - Random forests are ensembles of decision trees. Random forests combine many decision trees in order to reduce the risk of 
+
 Regression Algorithms in Scikit Learn
 ----------------------------------------
 

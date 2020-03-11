@@ -1,4 +1,4 @@
-Model Save/Load
+Model Persistence
 ================
 
 Save/ Load Model allows you to save your model to file and load it later in order to make predictions.

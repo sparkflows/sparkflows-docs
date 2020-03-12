@@ -70,7 +70,7 @@ Workflow
    :align: center
    :width: 60%
 
-Processor Configurations for SeadDatabricksTable
+Processor Configurations for SaveDatabricksTable
 ++++++++
 
 .. figure:: ../_assets/configuration/savedatabricksconfiguration.PNG

@@ -1,16 +1,30 @@
 Browsing Databricks Tables
 ===========================
 
-Once a Databricks Connection is established, it can be used to Browse the Databases and Tables in Databricks.
+Fire Insights allows you to Browse your Databricks Connection.
+
+Go to ``DATABROWSERS/Connections``. It will display the various Databricks Connections in your Applications.
+----------------------
 
 
-Go to Browse/Connections
-------------------------
+.. figure:: ../_assets/configuration/databricks_browse_connection.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
 
-Select the Databricks Connection
---------------------------------
+Select the relevant ``connection`` to use it for browing the Databricks Schema.
+----------------------
 
+.. figure:: ../_assets/configuration/databricks_database.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+   
+Select ``CLUSTER`` tab to see detail informations of databrick cluster 
+-----------------------
 
-Databases and Connections show up
----------------------------------
+.. figure:: ../_assets/configuration/databricks_cluster_details.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
 

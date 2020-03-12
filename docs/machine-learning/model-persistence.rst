@@ -10,14 +10,16 @@ Spark ML Models
 
 Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors saving and loading the Spark ML models.
 
-Save Model processor:
+Save Model processor
++++++++++++++++++++++
 
 .. figure:: ../_assets/model/savemodelconfigurations.PNG
    :alt: Modelsave
    :align: center
    :width: 60%
    
-Load Model processor:   
+Load Model processor
++++++++++++++++++++++
    
 .. figure:: ../_assets/model/loadmodelconfigurations.PNG
    :alt: Modelsave
@@ -29,14 +31,16 @@ H2O Models
 
 H2O Models can be saved in binary format or in MOJO format. Fire Insights has processors for them.
 
-Save H2o Model processor:
+Save H2o Model processor
++++++++++++++++++++++
 
 .. figure:: ../_assets/model/h2omodelsaveconfigurations.PNG
    :alt: Modelsave
    :align: center
    :width: 60%
    
-Load H2o Model processor:   
+Load H2o Model processor
++++++++++++++++++++++
    
 .. figure:: ../_assets/model/h2omodelloadconfiguration.PNG
    :alt: Modelsave

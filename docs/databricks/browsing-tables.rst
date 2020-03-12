@@ -17,7 +17,7 @@ It will display the various Databricks Connections in your Applications.
 Select the relevant ``connection`` 
 ----------------------
 
-It will use it for viewing the Databrick database & Tables available.
+It will use it for viewing the Databrick database & Table available.
 
 .. figure:: ../_assets/configuration/databricks_database.PNG
    :alt: Databricks

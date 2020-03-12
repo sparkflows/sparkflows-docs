@@ -85,7 +85,7 @@ Databricks Workflow execution
 
 Below is the output of executing the above workflow which Save the data to Databricks table.
 
-.. figure:: ../_assets/configuration/databricks_workflowexecutions.PNG
+.. figure:: ../_assets/configuration/savedatabricksworkflowexecution.PNG
    :alt: Databricks
    :align: center
    :width: 60%

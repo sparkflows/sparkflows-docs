@@ -3,8 +3,10 @@ Browsing Databricks Tables
 
 Fire Insights allows you to Browse your Databricks Connection.
 
-Go to ``DATABROWSERS/Connections``. It will display the various Databricks Connections in your Applications.
+Go to ``DATABROWSERS/Connections``. 
 ----------------------
+
+It will display the various Databricks Connections in your Applications.
 
 
 .. figure:: ../_assets/configuration/databricks_browse_connection.PNG

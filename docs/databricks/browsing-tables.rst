@@ -1,7 +1,7 @@
 Browsing Databricks Tables
 ===========================
 
-Fire Insights allows you to Browse your Databricks Connection.
+Fire Insights allows you to Browse your Databricks Database & Table.
 
 Go to ``DATABROWSERS/Connections``. 
 ----------------------

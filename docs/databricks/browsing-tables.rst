@@ -27,7 +27,7 @@ It will use it for viewing the Databrick database & Table available.
 Select ``CLUSTER`` tab  
 -----------------------
 
-It will show detail informations of databrick cluster
+It will show detail information of databrick cluster
 
 .. figure:: ../_assets/configuration/databricks_cluster_details.PNG
    :alt: Databricks

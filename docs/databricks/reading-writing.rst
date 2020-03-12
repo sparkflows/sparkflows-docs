@@ -73,31 +73,17 @@ Workflow
 Processor Configurations for SeadDatabricksTable
 ++++++++
 
-.. figure:: ../_assets/configuration/databricks_editor.PNG
+.. figure:: ../_assets/configuration/savedatabricksconfiguration.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-Refresh schema for processor ReadDatabricksTable
-++++++++
- 
-.. figure:: ../_assets/configuration/databricks_refreshschema.PNG
-   :alt: Databricks
-   :align: center
-   :width: 60% 
 
-Processor executions for ReadDatabricksTable
-++++++++
-
-.. figure:: ../_assets/configuration/databrcks_interactiveexecutions.PNG
-   :alt: Databricks
-   :align: center
-   :width: 60%
 
 Databricks Workflow execution
 ++++++++
 
-Below is the output of executing the above workflow which reads data from a Databricks table.
+Below is the output of executing the above workflow which Save the data to Databricks table.
 
 .. figure:: ../_assets/configuration/databricks_workflowexecutions.PNG
    :alt: Databricks

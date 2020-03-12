@@ -3,7 +3,7 @@ Browsing Databricks Tables
 
 Fire Insights allows you to Browse your Databricks Database & Table.
 
-Go to ``DATABROWSERS/Connections``. 
+Go to DATABROWSERS/Connections 
 ----------------------
 
 It will display the various Databricks Connections in your Applications.
@@ -14,7 +14,7 @@ It will display the various Databricks Connections in your Applications.
    :align: center
    :width: 60%
 
-Select the relevant ``connection`` 
+Select the relevant connection 
 ----------------------
 
 It will use it for viewing the Databrick database & Table available.
@@ -24,7 +24,7 @@ It will use it for viewing the Databrick database & Table available.
    :align: center
    :width: 60%
    
-Select ``CLUSTER`` tab  
+Select CLUSTER tab  
 -----------------------
 
 It will show detail information of databrick cluster

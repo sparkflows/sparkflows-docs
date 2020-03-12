@@ -90,5 +90,16 @@ Below is the output of executing the above workflow which Save the data to Datab
    :align: center
    :width: 60%
 
+Verify the Table
+----------------
+
+it will show that table written successfully, Got saved to databricks cluster.
+
+.. figure:: ../_assets/configuration/databrickstablesaved.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+   
+   
 
 

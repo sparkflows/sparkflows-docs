@@ -56,7 +56,7 @@ Below is the output of executing the above workflow which reads data from a Data
    :width: 60%
    
    
-Write Databricks Table in Workflow
+Write to Databricks Table in Workflow
 ---------------------------------------
 
 In the workflow use the processor 'SaveDatabricksTable'. It will allow you to save tables to Databricks.

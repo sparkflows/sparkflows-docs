@@ -92,6 +92,14 @@ Administration
 
    administration/index
 
+Databricks Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   databricks/index
+   
 AWS Integration
 --------------
 

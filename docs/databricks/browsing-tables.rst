@@ -14,16 +14,20 @@ It will display the various Databricks Connections in your Applications.
    :align: center
    :width: 60%
 
-Select the relevant ``connection`` to use it for browing the Databricks Schema.
+Select the relevant ``connection`` 
 ----------------------
+
+It will use it for viewing the Databrick database & Tables available.
 
 .. figure:: ../_assets/configuration/databricks_database.PNG
    :alt: Databricks
    :align: center
    :width: 60%
    
-Select ``CLUSTER`` tab to see detail informations of databrick cluster 
+Select ``CLUSTER`` tab  
 -----------------------
+
+It will show detail informations of databrick cluster
 
 .. figure:: ../_assets/configuration/databricks_cluster_details.PNG
    :alt: Databricks

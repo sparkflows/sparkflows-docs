@@ -18,7 +18,7 @@ Save Model processor
    :align: center
    :width: 60%
    
- ML Save Workflow
+ML Save Workflow
 +++++++++++++++++++++
 
 .. figure:: ../_assets/model/mlmodelsave.png

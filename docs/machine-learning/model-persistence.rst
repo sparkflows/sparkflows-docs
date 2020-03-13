@@ -52,6 +52,15 @@ More details of saving and loading the H2O Models is available here:
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 
 
+Save and Load H2O Workflow
+++++++++++++++++++++++++++
+   
+.. figure:: ../_assets/model/h2osaveandload.png
+   :alt: Modelsave
+   :align: center
+   :width: 60%
+   
+   
 Scikit-Learn Models
 --------------------
 

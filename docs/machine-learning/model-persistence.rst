@@ -26,6 +26,7 @@ ML Save Workflow
    :align: center
    :width: 60%
    
+   
 Load Model processor
 +++++++++++++++++++++
    
@@ -35,7 +36,7 @@ Load Model processor
    :width: 60%   
    
    
- ML LOad Workflow
+ ML Load Workflow
 +++++++++++++++++++++
    
 .. figure:: ../_assets/model/mlmodelload.png

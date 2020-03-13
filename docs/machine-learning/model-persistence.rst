@@ -18,10 +18,27 @@ Save Model processor
    :align: center
    :width: 60%
    
+ ML Save Workflow
++++++++++++++++++++++
+
+.. figure:: ../_assets/model/mlmodelsave.png
+   :alt: Modelsave
+   :align: center
+   :width: 60%
+   
 Load Model processor
 +++++++++++++++++++++
    
 .. figure:: ../_assets/model/loadmodelconfigurations.PNG
+   :alt: Modelsave
+   :align: center
+   :width: 60%   
+   
+   
+ ML LOad Workflow
++++++++++++++++++++++
+   
+.. figure:: ../_assets/model/mlmodelload.png
    :alt: Modelsave
    :align: center
    :width: 60%   
@@ -52,6 +69,7 @@ More details of saving and loading the H2O Models is available here:
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 
 
+
 Save and Load H2O Workflow
 ++++++++++++++++++++++++++
    
@@ -59,6 +77,7 @@ Save and Load H2O Workflow
    :alt: Modelsave
    :align: center
    :width: 60%
+   
    
    
 Scikit-Learn Models

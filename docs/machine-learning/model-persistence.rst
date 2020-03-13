@@ -30,11 +30,13 @@ ML Save Workflow
    
 Load Model processor
 +++++++++++++++++++++
+
    
 .. figure:: ../_assets/model/loadmodelconfigurations.PNG
    :alt: Modelsave
    :align: center
    :width: 60%   
+   
    
    
  ML Load Workflow

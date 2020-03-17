@@ -9,7 +9,7 @@ Go to DATABROWSERS/DBFS
 It will display the various Databricks Connections in your Applications.
 
 
-.. figure:: ../_assets/configuration/databricks_browse_connection.PNG
+.. figure:: ../_assets/configuration/dbfs_connection.PNG
    :alt: Databricks
    :align: center
    :width: 60%

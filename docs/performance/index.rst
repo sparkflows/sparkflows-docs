@@ -10,6 +10,7 @@ There are certain things which need to be taken into account for any Spark job. 
    :maxdepth: 2
 
    caching-level.rst
+   runtime-resources.rst
    repartition.rst
    debug-mode.rst
    

@@ -19,7 +19,7 @@ Select the relevant connection
 
 It will use it for viewing the Databrick database & Table available.
 
-.. figure:: ../_assets/configuration/databricks_database.PNG
+.. figure:: ../_assets/configuration/databrick_database.PNG
    :alt: Databricks
    :align: center
    :width: 60%

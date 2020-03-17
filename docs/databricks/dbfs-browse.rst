@@ -3,10 +3,10 @@ Browse DBFS
 
 Fire Insights enables you to browse your DBFS.
 
-Go to DATABROWSERS/DBFS
+Go to DATA BROWSERS/DBFS
 ----------------------
 
-It will display the various Databricks Connections in your Applications.
+Your various Databricks Connections in your Applications are displayed.
 
 
 .. figure:: ../_assets/configuration/dbfs_connection.PNG
@@ -17,7 +17,7 @@ It will display the various Databricks Connections in your Applications.
 Select the relevant connection 
 ----------------------
 
-It will use it for viewing the Databricks file system available.
+Your Databricks File System would be displayed.
 
 .. figure:: ../_assets/configuration/dbfs_browser.PNG
    :alt: Databricks

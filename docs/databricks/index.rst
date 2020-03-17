@@ -8,6 +8,7 @@ Databricks Guide
    databricks-installation.rst
    reading-writing.rst
    browsing-tables.rst
+   dbfs-browse.rst
    
    
 

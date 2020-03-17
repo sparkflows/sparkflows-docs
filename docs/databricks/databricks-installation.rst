@@ -111,35 +111,43 @@ Create your REST API token in Databricks
 
 Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
 
-* Login to Azure account with Databricks cluster running.
-* Click on ``Account`` icon in right corner top.
+Login to your Databricks Account
+++++++++++++++++++++++++++++++++
+
+Click on ``Account`` icon in right corner top
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/usersetting.PNG
    :alt: Databricks
    :align: center
    :width: 60%
-* Click on ``User Settings``.
+   
+Click on ``User Settings``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/userset.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-* Click on ``Generate New Token``.
+Click on ``Generate New Token``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/generatetoken.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-* Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``.
+Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_update.PNG
    :alt: Databricks
    :align: center
    :width: 60%
 
-* Copy the token generated and Click on ``DONE``.
+Copy the token generated and Click on ``DONE``
+++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_generated.PNG
    :alt: Databricks

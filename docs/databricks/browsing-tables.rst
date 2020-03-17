@@ -24,13 +24,5 @@ It will use it for viewing the Databrick database & Table available.
    :align: center
    :width: 60%
    
-Select CLUSTER tab  
------------------------
 
-It will show detail information of databrick cluster
-
-.. figure:: ../_assets/configuration/databricks_cluster_details.PNG
-   :alt: Databricks
-   :align: center
-   :width: 60%
 

@@ -32,7 +32,7 @@ Click on ``workspace`` in the left side pane
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 Dropdown ``workspace``, Click on ``Create & Library``
 ++++++++++++++++++++++++++++++++
@@ -40,7 +40,7 @@ Dropdown ``workspace``, Click on ``Create & Library``
 .. figure:: ../_assets/configuration/library_create.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``
 ++++++++++++++++++++++++++++++++
@@ -48,7 +48,7 @@ Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``
 ++++++++++++++++++++++++++++++++
@@ -56,14 +56,14 @@ Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on 
 .. figure:: ../_assets/configuration/createlibrary.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 * Check the box with ``Install automatically on all clusters``, Inorder to avoid uploading manually to every cluster.   
 
 .. figure:: ../_assets/configuration/installautomatic.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
    
 Configure the Uploaded Library in Fire Insights
@@ -77,7 +77,7 @@ This has to be done under Administration/Configuration.
 .. figure:: ../_assets/configuration/databricks-configurations.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 Configure app.postMessageURL
 ----------------------------
@@ -87,7 +87,7 @@ Configure ``app.postMessageURL`` to be the public IP of the machine. It has to b
 .. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 
 Install Databricks JDBC Driver
@@ -120,7 +120,7 @@ Click on ``Account`` icon in right corner top
 .. figure:: ../_assets/configuration/usersetting.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
    
 Click on ``User Settings``
 ++++++++++++++++++++++++++++++++
@@ -128,7 +128,7 @@ Click on ``User Settings``
 .. figure:: ../_assets/configuration/userset.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 Click on ``Generate New Token``
 ++++++++++++++++++++++++++++++++
@@ -136,7 +136,7 @@ Click on ``Generate New Token``
 .. figure:: ../_assets/configuration/generatetoken.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
 ++++++++++++++++++++++++++++++++
@@ -144,7 +144,7 @@ Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
 .. figure:: ../_assets/configuration/token_update.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 Copy the token generated and Click on ``DONE``
 ++++++++++++++++++++++++++++++++
@@ -152,7 +152,7 @@ Copy the token generated and Click on ``DONE``
 .. figure:: ../_assets/configuration/token_generated.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 
 
@@ -167,7 +167,7 @@ Create a connection in Fire Insights under your Application for connecting to Da
 .. figure:: ../_assets/configuration/databricks_connection.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 
 
 Now we are ready to start using the Databricks Connection in workflows etc.

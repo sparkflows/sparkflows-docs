@@ -10,6 +10,8 @@ Databricks Guide
    databricks-clusters.rst
    dbfs-browse.rst
    reading-writing.rst
+   troubleshooting.rst
+   
    
    
 

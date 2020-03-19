@@ -9,3 +9,8 @@ The problem might be that the postbackURL is not configured right.
 
 Test connectiving from Databricks to Fire postbackURL.
 
+.. figure:: ../_assets/configuration/databricks_ping.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+   

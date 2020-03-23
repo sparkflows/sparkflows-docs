@@ -1,7 +1,7 @@
 Deployment Guide
 =======================
 
-Fire can be easily installed on an AWS EMR Cluster.
+Fire can be easily installed on an AWS EMR Cluster. Fire can be installed on the master node of an EMR cluster. It would then submit the jobs to the EMR cluster.
 
 Below are the overall steps for installing Fire Insights on EMR.
 

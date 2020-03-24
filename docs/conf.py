@@ -61,7 +61,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Sparkflows'
-copyright = '2017, Sparkflows Inc.'
+copyright = '2020, Sparkflows Inc.'
 author = 'Sparkflows'
 
 # The version info for the project you're documenting, acts as replacement for

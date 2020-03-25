@@ -1,20 +1,20 @@
-Aurora Mysql Database
+Aurora MySQL Database
 ==============
 
-Fire can easily be setup up to run with MySQL
+Fire can easily be setup up to run with Aurora MySQL
 
-More details of the MySQL database can be found here : https://www.mysql.com/
+More details of the Aurora MySQL database can be found here : https://aws.amazon.com/rds/aurora/
 
-Install MySQL
+Create Aurora MySQL database on AWS
 -------------
 
-* Install MySQL on a machine.
-* It might be easier to install it on the same machine you are installing Fire on.
+* Login to AWS.
+* Create Aurora MySQL Database wwhich is accessable from machine where Fire is running.
 
-Create the DB for Fire in MySQL
+Create the DB for Fire in Aurora MySQL
 -------------------------------
 
-* Create the database for Fire in MySQL
+* Create the database for Fire in Aurora MySQL
 * Let us call it ``firedb``::
 
     create database firedb;
@@ -34,7 +34,7 @@ Create the User for Fire in MySQL::
 
 * Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
 
-Configure Fire to connect to MySQL
+Configure Fire to connect to Aurora  MySQL
 ----------------------------------
 
 * Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
@@ -49,7 +49,7 @@ Configure Fire to connect to MySQL
 
     # Connection url for the database "firedb"
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/firedb
+    spring.datasource.url=jdbc:mysql://Endpoint:3306/firedb
 
     spring.datasource.driverClassName=com.mysql.jdbc.Driver
 
@@ -69,19 +69,14 @@ Install the MySQL Connector Jar file
 * Extract the ``JDBC driver JAR file`` from the downloaded file. For example::
 
     tar zxvf mysql-connector-java-5.1.42.tar.gz
-  
-* Copy the JDBC driver into ``/usr/share/java`` on the machine on which fire is running::
+ 
+ * just copy the path location for ```JDBC driver JAR file``
 
-    sudo cp mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar /usr/share/java/mysql-connector-java.jar
-  
-* If the target directory does not yet exist on this host, you can create it before copying the JAR file. For example::
-
-    sudo mkdir -p /usr/share/java/
-  
-* Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
+ 
+* copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
-    cp /usr/share/java/mysql-connector-java.jar      fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
   
   
 Create the Tables for Fire in MySQL

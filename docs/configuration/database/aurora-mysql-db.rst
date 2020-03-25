@@ -79,7 +79,7 @@ Install the MySQL Connector Jar file
     cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
   
   
-Create the Tables for Fire in MySQL
+Create the Tables for Fire in Aurora
 ----------------------------------- 
 
 * Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::

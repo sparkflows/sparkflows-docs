@@ -68,7 +68,7 @@ Install the MySQL Connector Jar file
 
 * Extract the ``JDBC driver JAR file`` from the downloaded file. For example::
 
-    tar zxvf mysql-connector-java-5.1.42.tar.gz
+    tar zxvf mysql-connector-java-8.0.11.tar.gz
  
  * just copy the path location for ```JDBC driver JAR file``
 

@@ -9,7 +9,7 @@ Create Aurora MySQL database on AWS
 -------------
 
 * Login to AWS.
-* Create Aurora MySQL Database wwhich is accessable from machine where Fire is running.
+* Create Aurora MySQL Database which is accessable from machine where Fire is running.
 
 Create the DB for Fire in Aurora MySQL
 -------------------------------

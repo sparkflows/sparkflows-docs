@@ -17,6 +17,7 @@ Database Setup
 .. toctree::
    :maxdepth: 1
 
+   aurora-mysql-db.rst
    h2-db.rst
    mysql-db.rst
    sql-server.rst

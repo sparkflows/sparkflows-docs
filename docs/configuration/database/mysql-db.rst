@@ -68,20 +68,15 @@ Install the MySQL Connector Jar file
 
 * Extract the ``JDBC driver JAR file`` from the downloaded file. For example::
 
-    tar zxvf mysql-connector-java-5.1.42.tar.gz
-  
-* Copy the JDBC driver into ``/usr/share/java`` on the machine on which fire is running::
+    tar zxvf mysql-connector-java-8.0.11.tar.gz
+ 
+ * just copy the path location for ```JDBC driver JAR file``
 
-    sudo cp mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar /usr/share/java/mysql-connector-java.jar
-  
-* If the target directory does not yet exist on this host, you can create it before copying the JAR file. For example::
-
-    sudo mkdir -p /usr/share/java/
-  
-* Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
+ 
+* copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
-    cp /usr/share/java/mysql-connector-java.jar      fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
   
   
 Create the Tables for Fire in MySQL

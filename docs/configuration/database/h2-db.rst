@@ -26,7 +26,7 @@ Execute the following steps on your CLI:
 
  
 
-If you would like to use different values for the db, username, password, update them in ``<install_dir>/sparkflows-fire-1.4.0/conf/db.properties``::
+If you would like to use different values for the db, username, password, update them in ``<install_dir>/fire-1.4.0/conf/db.properties``::
 
 
     spring.datasource.url = jdbc:h2:file:~/firedb

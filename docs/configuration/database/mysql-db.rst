@@ -78,7 +78,7 @@ Install the MySQL Connector Jar file
 
     sudo mkdir -p /usr/share/java/
   
-* Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-2.x.y``::
+* Also copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
     cp /usr/share/java/mysql-connector-java.jar      fire-server-lib

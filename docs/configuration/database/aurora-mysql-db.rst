@@ -77,7 +77,7 @@ Install the MySQL Connector Jar file
 * copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
-    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
+    cp /pathlocation_of_jdbc_jar_file/mysql-connector-java.jar  fire-server-lib
   
   
 Create the Tables for Fire in Aurora

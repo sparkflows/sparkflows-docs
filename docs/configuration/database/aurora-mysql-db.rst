@@ -20,7 +20,7 @@ Create the DB for Fire in Aurora MySQL
     create database firedb;
 
 
-Create the User for Fire in MySQL and grant it Permissions
+Create the User for Fire in Aurora MySQL and grant it Permissions
 ----------------------------------------------------------
 
 Create the User for Fire in MySQL::
@@ -60,6 +60,7 @@ Configure Fire to connect to Aurora  MySQL
     spring.datasource.username=fire
     
     spring.datasource.password=fire
+    
 
 Install the MySQL Connector Jar file
 -------------------------------------

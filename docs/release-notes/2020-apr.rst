@@ -1,0 +1,36 @@
+April 2020
+==============
+
+New Processors Added For Scala Engine
+------------------------------
+
+- MultiWindowAnalytics
+- MultiWindowRanking
+
+
+New Processors Added For Pyspark Engine
+----------------------------------------
+
+- SaveAvro
+- SaveJSON
+
+Improvement of RESTAPI
+-----------------------
+
+New Features
+------------
+
+- Integerated File Watcher with AWS
+- Database Cleanup for workflow execution & workflow execution results
+- Export of all users
+- Added search help with search option with quickstart guide, tutorials & FAQ
+
+Upgrades for Security Vulnerabilties
+---------------------------------------
+
+- All the dependencies have been upgraded to handle security vulnerabilities.
+
+UI Improvement
+--------------
+
+- Improvement of workflow editor page to make it easy to add the workflow parameters.

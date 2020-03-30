@@ -1,36 +1,19 @@
 March 2020
 ==============
 
-New Processors Added For Scala Engine
-------------------------------
-
-- MultiWindowAnalytics
-- MultiWindowRanking
-
-
-New Processors Added For Pyspark Engine
-----------------------------------------
-
-- SaveAvro
-- SaveJSON
-
-Improvement of RESTAPI
------------------------
 
 New Features
 ------------
 
-- Integerated File Watcher with AWS
-- Database Cleanup for workflow execution & workflow execution results
-- Export of all users
-- Added search help with search option with quickstart guide, tutorials & FAQ
+- Angular 8 upgrades
+- Integerated with databricks Cluster
+- Added Browsing databricks DB, Databricks Cluster & DBFS
+- Added scheduling in standalone mode
+- Compatible with Amazon Aurora database
 
-Upgrades for Security Vulnerabilties
----------------------------------------
+UI Improvements
+---------------
 
-- All the dependencies have been upgraded to handle security vulnerabilities.
+- Improvement of metrics which include stage informations
+- Improvement in JOIN USING SQL Processors
 
-UI Improvement
---------------
-
-- Improvement of workflow editor page to make it easy to add the workflow parameters.

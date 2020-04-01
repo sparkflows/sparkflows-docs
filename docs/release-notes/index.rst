@@ -11,6 +11,7 @@ Release Notes
    2019-july.rst
    2019-june.rst
    2019-may.rst
+   2019-apr.rst
    2019-feb.rst
    2019-jan.rst
    2018-nov.rst

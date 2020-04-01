@@ -1,2 +1,9 @@
 February 2020
 ============
+
+New Features
+------------
+
+- Job Metrics Integrations with improvements
+- SUPERUSER to have more rights when elvated access is enabled
+- If User is inactive, he cant able to login 

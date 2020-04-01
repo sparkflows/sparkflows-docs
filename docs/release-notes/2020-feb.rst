@@ -8,3 +8,4 @@ New Features
 - SUPERUSER to have more rights when elvated access is enabled
 - If User is inactive, he cant able to login 
 - Added Runtime Statistics
+- Added Compare model

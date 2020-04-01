@@ -9,3 +9,8 @@ New Features
 - If User is inactive, he cant able to login 
 - Added Runtime Statistics
 - Added Compare model
+
+UI Improvment
+--------------
+
+- Improvment to Connection page

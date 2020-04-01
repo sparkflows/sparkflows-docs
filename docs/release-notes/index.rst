@@ -6,6 +6,8 @@ Release Notes
    :maxdepth: 2
 
    2020-mar.rst
+   2020-feb.rst
+   2020-jan.rst
    2019-sept.rst
    2019-aug.rst
    2019-july.rst

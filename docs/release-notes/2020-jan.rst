@@ -8,4 +8,5 @@ New Features
 - Integerated with Job Metrics
 - Added plugins for googleRestApiKey in Configurations
 - Added Geo chart: country & Geo chart: Lat, Lon faetures in Interactive dahboard
+- Integrated with  Model list and summary page for viewing details informations about the model
 

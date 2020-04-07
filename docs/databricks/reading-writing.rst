@@ -3,7 +3,7 @@ Reading / Writing
 
 Fire Insights enables you to read from and write to Databricks tables.
 
-Below is a workflow which read data from the Databricks table xyz. It then processes the data and finally writes out the result to the Databricks table abc.
+Below is a workflow which reads data from the Databricks table xyz. It then processes the data and finally writes out the result to the Databricks table abc.
 
 
 Read Databricks table in Workflow
@@ -56,10 +56,10 @@ Below is the output of executing the above workflow which reads data from a Data
    :width: 60%
    
    
-Write to Databricks Table in Workflow
+Write to Databricks Table in a Workflow
 ---------------------------------------
 
-In the workflow use the processor 'SaveDatabricksTable'. It will allow you to save tables to Databricks.
+In the workflow use the processor 'SaveDatabricksTable'. It will allow you to save data to tables to Databricks.
 
 
 Workflow
@@ -83,7 +83,7 @@ Processor Configurations for SaveDatabricksTable
 Databricks Workflow execution
 ++++++++
 
-Below is the output of executing the above workflow which Save the data to Databricks table.
+Below is the output of executing the above workflow which saves the data to Databricks table.
 
 .. figure:: ../_assets/configuration/savedatabricksworkflowexecution.PNG
    :alt: Databricks
@@ -93,7 +93,7 @@ Below is the output of executing the above workflow which Save the data to Datab
 * Verify the Table
 
 
-it will show that table written successfully, Got saved to databricks cluster.
+
 
 .. figure:: ../_assets/configuration/databrickstablesaved.PNG
    :alt: Databricks

@@ -1,9 +1,9 @@
-Browsing Databricks Clusters
+Viewing Databricks Clusters
 ====================
 
-Fire Insights enables you to browse your Databricks Cluster.
+Fire Insights enables you to view your Databricks Clusters. You can also Start and Stop the Databricks clusters from Fire Insights.
 
-Go to DATABROWSERS/Databricks DB
+Go to DATA BROWSERS/Databricks Clusters
 ----------------------
 
 It will display the various Databricks Connections in your Applications.

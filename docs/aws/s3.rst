@@ -39,7 +39,7 @@ In the dialog box of the Read CSV processor the path is specified as ``s3a://spa
 Writing to S3
 -----------------
 
-Below is an example Workflow. It reads a CSV file and saving to S3.
+Below is an example Workflow. It reads a CSV file and save it to S3 path specified.
 
 In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/
 

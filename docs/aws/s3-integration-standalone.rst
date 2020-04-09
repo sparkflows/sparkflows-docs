@@ -1,9 +1,12 @@
 S3 Integration
 ==========
 
-Fire Insights allows you to access your files on S3. This page describes S3 integration when Fire Insights is running in standalone mode.
+Fire Insights allows you to access your files on S3. This page describes S3 integration of Fire.
 
-We recommend controlling access to S3 using IAM Roles. Run the EMR cluster with the appropriate S3 IAM Role.
+We recommend controlling access to S3 using IAM Roles. 
+
+- Run Fire Insights on an EC2 machine with the appropriate S3 IAM Role.
+- Run the EMR cluster with the appropriate S3 IAM Role.
 
 If you are running Fire Insights on a independent machine, you can also use ``aws configure`` to set the AWS Access Key and Secret Access Key on the machine.
 

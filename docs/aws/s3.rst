@@ -19,17 +19,17 @@ The path specified for reading from S3 would be s3://...
 
 Below is an example Workflow. It reads a CSV file from S3, parses it and prints out the first 10 records.
 
-In the dialog box of the Read CSV processor the path is specified as ``s3://sparkflows-data/data/cars.csv``
+In the dialog box of the Read CSV processor the path is specified as ``s3a://sparkflow-sample-data/data/Clickthru.csv``
 
-.. figure:: ../_assets/aws/s3-workflow-1.png
+.. figure:: ../_assets/aws/s3-csv.PNG
    :alt: S3 Workflow
    :align: center
    
-.. figure:: ../_assets/aws/s3-csv-dialog-1.png
+.. figure:: ../_assets/aws/s3-csv-configuration.PNG
    :alt: S3 CSV Dialog
    :align: center
    
-.. figure:: ../_assets/aws/s3-csv-output-1.png
+.. figure:: ../_assets/aws/s3-csv-output.PNG
    :alt: S3 CSV Output
    :align: center   
 

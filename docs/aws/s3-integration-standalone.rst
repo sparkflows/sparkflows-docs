@@ -28,20 +28,21 @@ Access S3 in fire-ui
 In Fire Insights, you can browse S3 under the menu Browser/S3.
 
 .. figure:: ../_assets/tutorials/awscli/AWS3.PNG
-   :alt: awscli
+   :alt: s3
    :align: center
    
-- Click on AWS s3 then we will get File available in it.
+- Click on AWS S3 to view the files on S3.
+
+.. figure:: ../_assets/tutorials/awscli/AWS4.PNG
+   :alt: s3
+   :align: center
+   
 
 Protecting Data Using Server Side Encryption
 --------------
 
 Data encryption settings on S3 buckets: https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html
 
-
-.. figure:: ../_assets/tutorials/awscli/AWS4.PNG
-   :alt: awscli
-   :align: center
    
    
 REFERENCE : Creating Access Key & Secret Key

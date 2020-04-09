@@ -9,7 +9,8 @@ Databricks Guide
    browsing-tables.rst
    databricks-clusters.rst
    dbfs-browse.rst
-   reading-writing.rst
+   reading-writing-tables.rst
+   reading-writing-s3.rst
    troubleshooting.rst
    
    

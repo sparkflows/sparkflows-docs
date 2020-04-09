@@ -41,7 +41,7 @@ Writing to S3
 
 Below is an example Workflow. It reads a CSV file and save it to S3 path specified.
 
-In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/
+In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/``
 
 .. figure:: ../_assets/aws/csvsave-workflow.PNG
    :alt: S3 Workflow
@@ -57,7 +57,7 @@ Execution Result
    :alt: S3 Workflow
    :align: center
 
-Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3 Location with specified path
+Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3`` Location with specified path
 
 .. figure:: ../_assets/aws/browses3.PNG
    :alt: S3 Workflow

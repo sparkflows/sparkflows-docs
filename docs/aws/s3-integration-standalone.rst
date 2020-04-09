@@ -25,7 +25,7 @@ Run ``aws configure`` to configure your credentials on the machine on which Fire
 Access S3 in fire-ui
 ---------------------
 
-In Fire Insights, you can browse S3 under the menu Browser/S3.
+In Fire Insights, you can browse S3 under the menu Browser/AWS S3.
 
 .. figure:: ../_assets/tutorials/awscli/AWS3.PNG
    :alt: s3

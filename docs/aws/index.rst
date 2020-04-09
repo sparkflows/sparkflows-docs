@@ -12,7 +12,7 @@ AWS Guide
    s3-integration-emr.rs
    test.rst
    operations.rst
-   roles.rst
+   copy-to-s3.rst
    s3.rst
    hive.rst
    redshift.rst

@@ -1,4 +1,4 @@
-Copying files to S3
+Copying files to S3 with aws-cli
 ===========
 
 There would be times when you want to upload multiple files from your laptop to S3. This document describes the process for it.

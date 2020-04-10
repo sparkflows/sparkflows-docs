@@ -12,6 +12,8 @@ Databricks Guide
    reading-writing-tables.rst
    reading-writing-s3.rst
    troubleshooting.rst
+   databricks-aws-fire.rst
+   
    
    
    

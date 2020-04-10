@@ -10,7 +10,7 @@ The ML models can be saved into the following locations:
 - HDFS : when Fire Insights is connected to a Hadoop Cluster
 - S3 : when the jobs are running on EMR or on Databricks cluster on AWS. Even when Fire is running in local standalone mode on AWS, the models can be saved onto S3.
 
-In order to save onto S3, the model path can be provided as s://models/priceprediction
+In order to save onto S3, the model path can be provided as ``s://models/priceprediction``
 
 
 Spark ML Models

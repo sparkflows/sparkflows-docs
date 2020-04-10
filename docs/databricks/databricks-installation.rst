@@ -14,7 +14,7 @@ Databricks can be running on Azure or on AWS.
 Deployment
 -----------
 
-Install Fire Insights on any machine. The machine has to be reachable from the web via a public IP or DNS entry. Then connect Fire Insights to your Databricks Cluster
+Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster. Then connect Fire Insights to your Databricks Cluster
 
 Upload Fire Core Jar to Databricks
 ----------------------------------
@@ -58,7 +58,7 @@ Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on 
    :align: center
    :width: 40%
    
-* Check the box with ``Install automatically on all clusters``, Inorder to avoid uploading manually to every cluster.   
+* Check the box with ``Install automatically on all clusters``, in order to avoid uploading manually to every cluster.   
 
 .. figure:: ../_assets/configuration/installautomatic.PNG
    :alt: Databricks
@@ -79,10 +79,11 @@ This has to be done under Administration/Configuration.
    :align: center
    :width: 40%
    
+   
 Configure app.postMessageURL
 ----------------------------
 
-Configure ``app.postMessageURL`` to be the public IP of the machine. It has to be accessible from the Databricks Cluster.
+Configure ``app.postMessageURL`` to be the IP of the machine so that it is reachable from jobs running on the Databricks cluster.
 
 .. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Databricks

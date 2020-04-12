@@ -67,14 +67,19 @@ Once the above workflow successfully completed, the save data can be viewed usin
 Saving ML Model to S3
 --------------------------
 
-Below is an example Workflow for Spark, where data is read from S3 and the final Spark ML model is saved to S3 localtion.
+Below is an example workflow in sparkflows, where data is read from S3 and the final Spark ML model is saved to S3 location.
 
 Workflow:
+
+Configure ReadCSV
 
 .. figure:: ../_assets/aws/sparkml-workflow-reads3.PNG
    :alt: Spark ML Workflow
    :align: center
-   
+ 
+
+Configure SaveMlModel
+
 .. figure:: ../_assets/aws/sparkml-workflow-save3.PNG
    :alt: Spark ML Workflow
    :align: center
@@ -82,11 +87,31 @@ Workflow:
 
 Execution Result:
 
-
 .. figure:: ../_assets/aws/sparkml-workflow-execution-result.PNG
    :alt: Spark ML Workflow
    :align: center
    
    
    
+ 
+Below is an example workflow in sparkflows, where final H20 ML model is saved to S3 location.
+
+Workflow:
+
+.. figure:: ../_assets/aws/h20ml-workflow.PNG
+   :alt: H20 ML Workflow
+   :align: center
+
+Configure Save H20 ML Model
+
+.. figure:: ../_assets/aws/h20ml-workflow-save3.PNG
+   :alt: H20 ML Workflow
+   :align: center
+
+
+Execution Result:
+
+.. figure:: ../_assets/aws/h20ml-workflow-execution-result.PNG
+   :alt: H20 ML Workflow
+   :align: center
    

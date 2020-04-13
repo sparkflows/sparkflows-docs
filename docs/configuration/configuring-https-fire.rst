@@ -56,6 +56,12 @@ This is configured in the file ``conf/application.properties``::
   http.port=8080
   https.port=8443
 
+Finally restart the Fire Server
+-------------------------------
+
+./run-fire-server.sh stop
+./run-fire-server.sh start
+
 
 
 

@@ -59,8 +59,8 @@ This is configured in the file ``conf/application.properties``::
 Finally restart the Fire Server
 -------------------------------
 
-./run-fire-server.sh stop
-./run-fire-server.sh start
+  ./run-fire-server.sh stop
+  ./run-fire-server.sh start
 
 
 

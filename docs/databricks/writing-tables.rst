@@ -6,7 +6,7 @@ Fire Insights enables you to write to Databricks tables.
 
 In the workflow use the processor 'SaveDatabricksTable'. It will allow you to save data to tables to Databricks.
 
-Below is a workflow which writes data from the Databricks table xyz.
+Below is a workflow which writes data to the Databricks table ``test_save``.
 
 Workflow
 ++++++++

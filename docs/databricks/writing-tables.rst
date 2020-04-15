@@ -48,6 +48,6 @@ Below is the output of executing the above workflow which saves the data to Data
 File Formats
 ++++++++++++
 
-The tables can be saved into CSV, Parquet, ORC file formats.
+The tables can be saved into CSV, JSON, Parquet and ORC file formats.
 
 

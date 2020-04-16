@@ -6,7 +6,7 @@ Fire Insights allows you to run DDL commands on Databricks.
 With this one can:
 
   - Create New Databases
-  - Create New Table
+  - Create New Tables
   - View the schema of the tables
   - And many more
 

@@ -12,3 +12,39 @@ Fire Insights allows you to browse your Data in S3 and create workflows using th
 
 You can also create external tables in Databricks over data in S3. Fire Insights can process data from Databricks tables.
 
+
+Read the data from S3 in Workflow
+-----------------------------------
+
+In Sparkflows, user can read the data from S3 location using processors like ReadCSV, ReadParquet, ReadJson etc.
+
+
+Workflow
+++++++++
+
+.. figure:: ../_assets/configuration/workflow-read-s3.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+
+
+Browse S3 Path and Refresh schema for processor ReadCSV
++++++++++++++++++++++++++++++++++++++++++++++
+ 
+.. figure:: ../_assets/configuration/workflow-browse-s3.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60% 
+
+
+Workflow executions Results
++++++++++++++++++++++++++
+
+.. figure:: ../_assets/configuration/workflow-executions-s3.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+
+

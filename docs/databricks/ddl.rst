@@ -10,8 +10,17 @@ With this one can:
   - View the schema of the tables
   - And many more
 
-Go to DATABROWSERS/Databricks DB
-----------------------
+Go to DATABROWSERS/Databricks DB. Then click on DDL.
 
-Then click on DDL.
+Below are example of running DDL
+--------------------------------
+
+Creating Tables
+---------------
+
+
+Running SQL
+-----------
+
+
 

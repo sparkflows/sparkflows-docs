@@ -10,7 +10,7 @@ Generate a Keystore
 
 You can use the following command for generating the Keystore::
 
-    keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
+ keytool -genkey -keyalg RSA -alias sparkflows -keystore keystore.jks -validity 365 -keysize 2048 -ext san=ip:< host machine ip address>
 
 You will be prompted with the following questions and enter something similar to the SAMPLE answers::
 

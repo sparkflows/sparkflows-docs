@@ -20,4 +20,12 @@ If using Python and PySpark (not needed for the core features of Fire Insights) 
   - Python 3.X can be set up with the Python virtual environment and activated
 
     
+Downloading and Installing Java 8
+---------------------------------
+
+Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+
+You may have to set JAVA_HOME after the installation.
+
+
     

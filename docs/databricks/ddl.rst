@@ -12,6 +12,9 @@ With this one can:
 
 Go to DATABROWSERS/Databricks DB. Then click on DDL.
 
+Databricks has a good page on Creating New Tables:
+
+https://docs.databricks.com/spark/latest/spark-sql/language-manual/create-table.html
 
 Below are example of running DDL
 --------------------------------

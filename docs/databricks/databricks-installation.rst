@@ -23,10 +23,10 @@ Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running o
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-Login to ``Databricks Cluster``
+1. Login to ``Databricks Cluster``
 ++++++++++++++++++++++++++++++++
 
-Click on ``workspace`` in the left side pane
+2. Click on ``workspace`` in the left side pane
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
@@ -34,7 +34,7 @@ Click on ``workspace`` in the left side pane
    :align: center
    :width: 40%
    
-Dropdown ``workspace``, Click on ``Create & Library``
+3. Dropdown ``workspace``, Click on ``Create & Library``
 ++++++++++++++++++++++++++++++++
  
 .. figure:: ../_assets/configuration/library_create.PNG
@@ -42,7 +42,7 @@ Dropdown ``workspace``, Click on ``Create & Library``
    :align: center
    :width: 40%
    
-Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
@@ -50,7 +50,7 @@ Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine
    :align: center
    :width: 40%
    
-Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``
+5. Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/createlibrary.PNG
@@ -112,10 +112,10 @@ Create your REST API token in Databricks
 
 Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
 
-Login to your Databricks Account
+1. Login to your Databricks Account
 ++++++++++++++++++++++++++++++++
 
-Click on ``Account`` icon in right corner top
+2. Click on ``Account`` icon in right corner top
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/usersetting.PNG
@@ -123,7 +123,7 @@ Click on ``Account`` icon in right corner top
    :align: center
    :width: 40%
    
-Click on ``User Settings``
+3. Click on ``User Settings``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/userset.PNG
@@ -131,7 +131,7 @@ Click on ``User Settings``
    :align: center
    :width: 40%
 
-Click on ``Generate New Token``
+4. Click on ``Generate New Token``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/generatetoken.PNG
@@ -139,7 +139,7 @@ Click on ``Generate New Token``
    :align: center
    :width: 40%
 
-Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
+5. Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_update.PNG
@@ -147,7 +147,7 @@ Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
    :align: center
    :width: 40%
 
-Copy the token generated and Click on ``DONE``
+6. Copy the token generated and Click on ``DONE``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_generated.PNG

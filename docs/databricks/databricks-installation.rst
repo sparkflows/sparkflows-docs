@@ -42,7 +42,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-4. Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine on Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine by Clicking on ``Drop JAR here``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
@@ -50,7 +50,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-5. Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` uploaded, Click on ``Create``
+5. Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/createlibrary.PNG
@@ -80,7 +80,7 @@ This has to be done under Administration/Configuration.
    :width: 40%
    
    
-Configure app.postMessageURL
+Configure app.postMessageURL in Fire Insights
 ----------------------------
 
 Configure ``app.postMessageURL`` to be the IP of the machine so that it is reachable from jobs running on the Databricks cluster.
@@ -147,7 +147,7 @@ Create your token in Databricks. It would be used in making REST API calls to Da
    :align: center
    :width: 40%
 
-6. Copy the token generated and Click on ``DONE``
+6. Copy the token generated. Click on ``DONE``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_generated.PNG
@@ -157,7 +157,7 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 
 
-Create Databricks Connection
+Create Databricks Connection in Fire Insights
 ----------
 
 Create a connection in Fire Insights to Databricks. 
@@ -175,4 +175,10 @@ It can also be created by any user with their Application. In this case, it is o
    :width: 40%
 
 
-Now we are ready to start using the Databricks Connection in workflows etc.
+Now we are ready to start using the Databricks Connection in Fire Insights to:
+
+* Browse DBFS
+* View your Databricks Clusters
+* Browse your Databricks Databases & Tables
+* Create Workflows which Read from and Write to Databricks
+

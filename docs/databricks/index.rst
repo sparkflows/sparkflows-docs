@@ -15,7 +15,7 @@ Databricks Guide
    reading-s3.rst
    writing-s3.rst
    troubleshooting.rst
-   databricks-aws-fire.rst
+
    
    
    

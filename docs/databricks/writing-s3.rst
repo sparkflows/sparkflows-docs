@@ -3,6 +3,6 @@ Writing to S3 files
 
 https://docs.databricks.com/_static/notebooks/data-import/s3.html
 
-Fire Insighs workflows can write data frtoom S3 locations.
+Fire Insighs workflows can write data to S3 locations.
 
 Below is an example workflow which writes data o S3.

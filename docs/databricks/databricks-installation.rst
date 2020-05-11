@@ -160,7 +160,11 @@ Copy the token generated and Click on ``DONE``
 Create Databricks Connection
 ----------
 
-Create a connection in Fire Insights under your Application for connecting to Databricks.
+Create a connection in Fire Insights to Databricks. 
+
+It can be created by the Administrator under Administration/Global Connections. These connections are available for everyone to use.
+
+It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
 * Specify your Databricks Token.
 * Specify the Databricks JDBC URL of your cluster in Databricks.

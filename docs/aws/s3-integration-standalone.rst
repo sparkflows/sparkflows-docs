@@ -10,6 +10,8 @@ We recommend controlling access to S3 using IAM Roles.
 
 If you are running Fire Insights on a independent machine, you can also use ``aws configure`` to set the AWS Access Key and Secret Access Key on the machine.
 
+AWS CLI S3 Reference : https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html
+
 Installing aws cli
 ---------------
 

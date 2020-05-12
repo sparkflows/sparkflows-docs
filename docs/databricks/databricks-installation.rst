@@ -11,10 +11,10 @@ Databricks can be running on Azure or on AWS.
 * Running Databricks on AWS : https://databricks.com/aws
 
 
-Deployment
+Install Fire Insights
 -----------
 
-Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster. Then connect Fire Insights to your Databricks Cluster
+Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster.
 
 Upload Fire Core Jar to Databricks
 ----------------------------------

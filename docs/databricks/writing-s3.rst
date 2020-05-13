@@ -14,7 +14,6 @@ In the dailog box of the save CSV processor the path is specified as ``s3a://spa
    :align: center
 
 Browse S3 specified Path & other parameter for processor SaveCSV 
-+++++++++++++++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/aws/configuration-csvs3.PNG
    :alt: S3 Workflow

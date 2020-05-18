@@ -16,6 +16,12 @@ Connectiving from Databricks to Fire postbackURL can be done in Databricks via N
    :align: center
    :width: 60%
    
+   
+When the workflow is executed, nothing shows up in Fire
+-----------------------------------------
+
+Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you are connecting Fire to Databricks ``Standard`` cluster.
+
 
 When accessing most Databricks page in Fire, it gives Simba JDBC error
 -----------------------------------------

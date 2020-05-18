@@ -1,4 +1,4 @@
-Databricks Integration
+Databricks Integration Steps
 ======================
 
 Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.

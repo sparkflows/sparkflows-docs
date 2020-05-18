@@ -9,7 +9,7 @@ One problem might be that the ``postbackURL`` is not configured right in Fire In
 
 The other problem can be that the machine running Fire Insights is not accessible from the Databricks Cluster. Test connectivity to the Fire Insights machine from Databricks.
 
-Connectiving from Databricks to Fire postbackURL can be done in Databricks via Notebooks.
+Connectiving from Databricks to Fire postbackURL can be done in Databricks via Notebooks using the telnet command.
 
 .. figure:: ../_assets/configuration/databricks_ping.PNG
    :alt: Databricks

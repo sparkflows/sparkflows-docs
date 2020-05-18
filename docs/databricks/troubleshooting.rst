@@ -37,5 +37,14 @@ In the workflow editor, it shows 'Cannot connect to Fire'
 Ensure that under ``Administration/Configuration``, app.runOnCluster is set to ``false``.
 
 
+Checking the cluster logs in Databricks
+-------------------
+
+There are times when it is helpful to look at the Cluster logs in Databricks when running Fire with Databricks.
+
+The following logs under ``Driver Logs`` are useful:
+
+- log4j-active.log
+
 
 

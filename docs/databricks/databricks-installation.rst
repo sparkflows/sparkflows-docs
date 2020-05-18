@@ -94,7 +94,7 @@ Configure ``app.postMessageURL`` to be the IP of the machine so that it is reach
 Install Databricks JDBC Driver
 -----------------------------------
 
-Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` folder of the Fire installation.
+Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` and ``fire-server-lib`` folder of the Fire installation.
 
 You can download the Databricks JDBC Driver from the Databricks site : 
 

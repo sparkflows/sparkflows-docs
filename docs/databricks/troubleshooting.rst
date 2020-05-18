@@ -16,3 +16,12 @@ Connectiving from Databricks to Fire postbackURL can be done in Databricks via N
    :align: center
    :width: 60%
    
+
+When accessing most Databricks page in Fire, it gives Simba JDBC error
+-----------------------------------------
+
+The probably reason for it is that the Databricks Simba JDBC jar file is not deployed in Fire.
+
+https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver
+
+

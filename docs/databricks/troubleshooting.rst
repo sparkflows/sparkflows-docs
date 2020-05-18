@@ -25,3 +25,11 @@ The probably reason for it is that the Databricks Simba JDBC jar file is not dep
 https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver
 
 
+In the workflow editor, it shows 'Cannot connect to Fire'
+-------------------
+
+Ensure that under ``Administration/Configuration``, app.runOnCluster is set to ``false``.
+
+
+
+

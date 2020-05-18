@@ -27,5 +27,15 @@ Java 8 can be downloaded and installed from here : https://www.oracle.com/java/t
 
 You may have to set JAVA_HOME after the installation.
 
+There are various ways for Installing Java 8 on Linux. Some are listed below.
+
+Using Linux RPM Package
+-----------------------
+
+- Download the Linux x64 RPM Package
+- yum localinstall jdk-8u201-linux-x64.rpm
+- Update .bash_profile by adding JAVA_HOME
+
+export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
 
     

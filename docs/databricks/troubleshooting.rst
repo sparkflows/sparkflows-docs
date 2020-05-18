@@ -23,7 +23,7 @@ When the workflow is executed, nothing shows up in Fire
 Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you are connecting Fire to Databricks ``Standard`` cluster.
 
 
-When accessing most Databricks page in Fire, it gives Simba JDBC error
+When accessing most Databricks pages in Fire, it gives Simba JDBC error
 -----------------------------------------
 
 The probably reason for it is that the Databricks Simba JDBC jar file is not deployed in Fire.

@@ -46,5 +46,11 @@ The following logs under ``Driver Logs`` are useful:
 
 - log4j-active.log
 
+java.lang.Exception: An error occurred while initializing the REPL. Please check whether there are conflicting Scala libraries or JARs attached to the cluster, such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
+	at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)
+   
+This error can happen when running spark 2.3 version of Fire with spark 2.4 cluster on Databricks.
+Either upgrade Fire to spark 2.4 version, or create another Databricks cluster which supports spark 2.3.
+
 
 

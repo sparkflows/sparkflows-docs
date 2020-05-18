@@ -52,5 +52,14 @@ java.lang.Exception: An error occurred while initializing the REPL. Please check
 This error can happen when running spark 2.3 version of Fire with spark 2.4 cluster on Databricks.
 Either upgrade Fire to spark 2.4 version, or create another Databricks cluster which supports spark 2.3.
 
+Databricks Cluster Versions Support
+------------------------------------
+
+Databricks Runtime Version             Spark Version                Scala Version
+
+6.2                                    2.4.4                        2.11
+6.3                                    2.4.4                        2.11
+6.4                                    2.4.5                        2.11
+6.5                                    2.4.5                        2.11
 
 

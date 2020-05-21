@@ -5,6 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2020-april.rst
    2020-mar.rst
    2020-feb.rst
    2020-jan.rst

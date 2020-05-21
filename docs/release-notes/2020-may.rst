@@ -1,0 +1,21 @@
+May 2020
+========
+
+New Features
+------------
+
+- Added Fire Serverlogs in administrtaion
+- Added EXECUTION MODE information while Running DIAGNOSTIC
+- Added more processor while running data profile
+- Integrated with file upload & delete in DBFS in databricks
+- Integrated dataset to be created using s3 file path with browse s3
+- Added configurations for Aws Home directory to restrict access of other bucket or folder
+- Added chart concept and using multiple chart dashboard can be created in I-dashboard
+- Added filter tab on TYPE in workflow list to view all type of workflow ie Normal, Data profiling & dataset Cleaning
+
+UI Improvements
+---------------
+
+- Data profile page got improved with new changes
+- Enhance maximum workflow list page to 50
+

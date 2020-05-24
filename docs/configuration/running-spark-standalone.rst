@@ -6,7 +6,6 @@ Fire can be run on Spark Standalone cluster. In this case, Hadoop does not need 
 Installing Spark Standalone
 ---------------------------
 
-- First we need to make sure we have Java installed:
 - Install Java 
 
   - wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.rpm"
@@ -19,7 +18,7 @@ Installing Spark Standalone
    :align: center
    
 
-We need to install Scala
+Install Scala
 ---------------------------
 
 - Install Scala
@@ -68,7 +67,7 @@ Install Apache Spark
    :align: center
   
   
-- You can start a standalone master server by executing:
+- Start a standalone master server by executing:
 
   - ./sbin/start-master.sh  ( from spark home directory)
 
@@ -107,7 +106,7 @@ Start spark as slave
 Installing Fire
 ---------------
 
-We install Fire on the master node.
+Install Fire on the master node.
 
 - Download Fire Jar from website
 
@@ -161,7 +160,7 @@ The following configurations have to be set appropriately
    :align: center
 
 
-Now goto application and try to run any workflows
+Now go to application and try to run any workflows
 -------------------------------------------------------
 
   .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG

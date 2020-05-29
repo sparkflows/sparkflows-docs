@@ -11,6 +11,8 @@ Databricks can be running on Azure or on AWS.
 * Running Databricks on AWS : https://databricks.com/aws
 
 
+Below are the steps for Integrating Fire Insights with your Databricks Clusters.
+
 Install Fire Insights
 -----------
 
@@ -34,7 +36,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-3. Dropdown ``workspace``, Click on ``Create & Library``
+3. Create a new Library
 ++++++++++++++++++++++++++++++++
  
 .. figure:: ../_assets/configuration/library_create.PNG
@@ -42,7 +44,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-4. Upload ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` from localmachine by Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
@@ -50,7 +52,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-5. Once ``fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
+5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/createlibrary.PNG

@@ -1,6 +1,13 @@
 Serving H2O Models
 ==================
 
+Fire Insights has the following processors for persisting the H2O Models.
+
+- H2OMojoSave
+- H2OPojoSave
+
+Once the H2O model is saved, they can be used for serving.
+
 Serving H2O MOJO models
 ------------------------
 

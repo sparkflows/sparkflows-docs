@@ -9,7 +9,7 @@ Go to DATA BROWSERS/Databricks DB
 It will display the various Databricks Connections in your Applications.
 
 
-.. figure:: ../_assets/configuration/databricks_db.PNG
+.. figure:: ../../_assets/configuration/databricks_db.PNG
    :alt: Databricks
    :align: center
    :width: 60%
@@ -19,7 +19,7 @@ Select the relevant connection
 
 It will use it for viewing the Databrick database & Table available.
 
-.. figure:: ../_assets/configuration/databrick_database.PNG
+.. figure:: ../../_assets/configuration/databrick_database.PNG
    :alt: Databricks
    :align: center
    :width: 60%

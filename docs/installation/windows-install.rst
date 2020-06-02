@@ -48,8 +48,15 @@ Installation Steps of Fire Insights with H2 DB
     You may change these usernames and passwords in Fire under the menu Administration/Users 
 
 
+Stopping the Fire Server
+------------------------
 
-Stopping Fire
+Stop the Fire Server with the below::
+
+    .\run-fire-server.bat stop
+
+
+Stopping Fire Processes
 -------------
 
 Stop Fire with the below::
@@ -57,12 +64,8 @@ Stop Fire with the below::
     .\run-fire.bat stop
     
     
-Stopping the Fire Server
-------------------------
+    
 
-Stop the Fire Server with the below::
-
-    .\run-fire-server.bat stop
     
     
 

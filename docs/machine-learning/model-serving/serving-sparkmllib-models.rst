@@ -5,7 +5,7 @@ Fire Insights creates Apache Spark MLlib models. These models get saved as files
 
 NodeModelSave, Spark MLWritable: the standard model storage format included with Spark, but limited to use only within Spark.
 
-.. figure:: ../_assets/model/SparkMLModelSave.png
+.. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
    :align: center
 
@@ -15,6 +15,6 @@ Batch Model Scoring:
 
 By using NodeModelLoad & selecting the particluar type, model will be loaded in workflow and it can be used for score\predict the input data.
 
-.. figure:: ../_assets/model/SparkMLModelScore.png
+.. figure:: ../../../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
    :align: center

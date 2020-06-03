@@ -16,5 +16,7 @@ Once these models are saved, they can be served in various ways.
    serving-h2-models.rst
    serving-sagemaker-models.rst
    serving-scikit-learn-models.rst
+   mlflow.rst
+   
    
 

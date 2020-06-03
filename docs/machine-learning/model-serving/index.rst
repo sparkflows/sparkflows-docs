@@ -14,4 +14,7 @@ Once these models are saved, they can be served in various ways.
    :maxdepth: 2
 
    serving-h2-models.rst
+   serving-sagemaker-models.rst
+   serving-scikit-learn-models.rst
+   
 

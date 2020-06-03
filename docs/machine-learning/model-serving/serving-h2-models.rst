@@ -26,12 +26,12 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#building-a-po
 .. code-block:: java
    :linenos:
    
-  import java.io.*;
-  import hex.genmodel.easy.RowData;
-  import hex.genmodel.easy.EasyPredictModelWrapper;
-  import hex.genmodel.easy.prediction.*;
+   import java.io.*;
+   import hex.genmodel.easy.RowData;
+   import hex.genmodel.easy.EasyPredictModelWrapper;
+   import hex.genmodel.easy.prediction.*;
 
-  public class main {
+   public class main {
     private static String modelClassName = "gbm_pojo_test";
 
     public static void main(String[] args) throws Exception {
@@ -60,7 +60,7 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#building-a-po
       }
       System.out.println("");
     }
-  }
+   }
 
 
 

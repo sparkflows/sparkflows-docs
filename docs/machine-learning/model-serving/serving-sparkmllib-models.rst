@@ -8,7 +8,7 @@ NodeModelSave, Spark MLWritable: the standard model storage format included with
 .. figure:: ../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
    :align: center
-   :width: 50%
+   :width: 30%
 
 Once the SparkML model is saved, they can be used for serving.
 
@@ -16,7 +16,7 @@ Batch Model Scoring:
 
 By using NodeModelLoad & selecting the particluar type, model will be loaded in workflow and it can be used for score\predict the input data.
 
-.. figure:: ../../../_assets/model/SparkMLModelScore.png
+.. figure:: ../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
    :align: center
-   :width: 50%
+   :width: 30%

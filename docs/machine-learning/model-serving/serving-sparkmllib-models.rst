@@ -21,3 +21,10 @@ By using NodeModelLoad & selecting the particluar type, model will be loaded in 
    :alt: LoadML Model & Score
    :align: center
    :width: 30%
+
+Online Scoring with Kafka and Spark Streaming:
+---------------------------------------------
+
+Scalable messaging platform like Kafka to send newly acquired data to a long running Spark Streaming process. The Spark process can then make a new prediction based on the new data.
+
+

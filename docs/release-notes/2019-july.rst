@@ -4,7 +4,7 @@ July 2019
 Integration of H2O
 ------------------
 
-- Added New H2O Processors :
+- The following New H2O Processors have been added :
 
   - H2ODRF
   - H2OGBM
@@ -23,24 +23,14 @@ Integration of H2O
 Improvements in UI 
 -------------------
 
-- Upgraded Login Page of application.
-- Upgraded the Dialog-box of the processor.
-- Upgradation processor Category.
-- Upgraded Scattering plot Graph Look & feel.
+- Login Page of Fire Insights has been upgraded.
+- Scatter Plot look and feel has been upgraded.
 
 Improvements to HDFS Browser
 ----------------------------
 
-- Fire Insights Now enable us to edit File & directory available in HDFS.
+- Ability to edit files and directories.
 
-Upgradation of Running Fire Processes 
---------------------------------------
-
-- Fire Insight Now enable us to Run Multiple fire processes automatically & Simultaneously with Fireserver running.
-
-
-Improvements in Interactive Dashboard
--------------------------------------
 
 Improvements in Home Dashboard Page
 -----------------------------------

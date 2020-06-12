@@ -17,10 +17,8 @@ New Processors Added For Pyspark Engine
 - ReadJSON
 - ReadParquet
 
-Upgradation & Improvement of RESTAPI
-------------------------------------
 
-UI Improvement
+UI Improvements
 --------------
 
 - Drag and drop function for node in workflow editor

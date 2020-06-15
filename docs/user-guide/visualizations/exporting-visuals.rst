@@ -12,4 +12,7 @@ Since Fire Insights is Browser based end to end, its easy to export the pages as
 - It opens up the Print Dialog
 - Select the option to save as PDF
 
-
+.. figure:: ../../_assets/user-guide/execution-result.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

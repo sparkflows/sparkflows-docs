@@ -7,4 +7,5 @@ Visualizations
 
    visualization-processors.rst
    working-with-dashboards.rst
+   exporting-visuals.rst
 

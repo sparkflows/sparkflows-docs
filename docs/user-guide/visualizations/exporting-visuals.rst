@@ -17,4 +17,5 @@ Since Fire Insights is Browser based end to end, its easy to export the pages as
    :align: center
    :width: 60%
    
+   
  It will save the visualization in our local system  

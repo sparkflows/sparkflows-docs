@@ -36,10 +36,8 @@ Install JDK 1.8
 
 .. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined in either of the links below:
 
-           * https://www.java.com/en/download/help/path.xml
            * https://javatutorial.net/set-java-home-windows-10
-           
-           
+           * https://www.java.com/en/download/help/path.xml
            
  
 .. note:: With the above steps, you would have Fire Insights running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Fire Insights has to be installed on the edge node of the cluster.

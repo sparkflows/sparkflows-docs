@@ -56,10 +56,10 @@ Stop the Fire Server with the below::
     .\run-fire-server.bat stop
 
 
-Stopping Fire Processes
+Stopping Fire Helper Processes
 -------------
 
-Stop Fire with the below::
+Stop Fire helper processes with the below::
 
     .\run-fire.bat stop
     

@@ -4,7 +4,7 @@ April 2020
 New Features
 ------------
 
-- Added AWS S3 in DATABROWSERS with improvment
+- Added AWS S3 in DATABROWSERS with improvement
 - Integrated with S3 UPLOAD for file feature
 - Integrated with S3 CREATE DIRECTORY feature
 - Integrated with S3 DELETE FILE feature
@@ -17,5 +17,5 @@ New Features
 UI Improvements
 ---------------
 
-- Improvment in SQL WINDOW with AUTOCOMPLETION OF COLUMN NAMES
-- DDL UPGRADES
+- Improvement in SQL WINDOW with AUTOCOMPLETION OF COLUMN NAMES
+- DDL UPGRADED

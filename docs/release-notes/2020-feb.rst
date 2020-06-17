@@ -13,4 +13,4 @@ New Features
 UI Improvment
 --------------
 
-- Improvment to Connection page
+- Improvement to Connection page

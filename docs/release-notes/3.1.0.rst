@@ -15,9 +15,9 @@ Contents of this release
     * JSON Parser Processor
     * SortBy Processor
     * Empty Dataset Processor
-    * Multi-Validation Processor
-    * String Functions Multiple Processor
-    * Math Functions Multiple Processor
+    * Multi Validation Processor
+    * String Function Multiple Processor
+    * Math Function Multiple Processor
     * Case When Processor
     * Remove Duplicate Processor
 * Support for uploading files to HDFS

@@ -8,7 +8,7 @@ New Features
 - Added more details to Data Profiling
 - Added file upload and delete capabilities in DBFS browser
 - Added ability to create datasets for data on aws s3.
-- Added configurations for AWS Home directory to restrict access of other bucket or folder
+- Added configurations for AWS Home Directory to restrict access of other bucket or folder
 - Added interactive dashboards
 - Added ability to view workflows by type : Normal, Data Profiling, Dataset Cleaning
 

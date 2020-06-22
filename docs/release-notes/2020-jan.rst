@@ -6,8 +6,8 @@ New Features
 
 - Integrated with yarn which enable us to see detail information of job submitted to cluster
 - Integrated with Job Metrics
-- Added plugins for googleRestApiKey in Configurations
-- Added Geo chart: country & Geo chart: Lat, Lon faetures in Interactive dahboard
-- Integrated with  Model list and summary page for viewing details informations about the model
+- Added plugins for GoogleRestApiKey in Configurations
+- Added Geo chart: Country & Geo chart: Lat, Lon features in Interactive Dahboard
+- Integrated with  Model list and summary page for viewing detail information about the model
 - Added Reload sample application features
 

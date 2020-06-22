@@ -19,7 +19,7 @@ Contents of this release
     * String Functions Multiple Processor
     * Math Functions Multiple Processor
     * Case When Processor
-    * Remove Duplicates Processor
+    * Remove Duplicate Processor
 * Support for uploading files to HDFS
 * Support for LDAP
 * Support for running the workflows in debug mode.

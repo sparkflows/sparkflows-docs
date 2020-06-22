@@ -6,13 +6,13 @@ New Features
 ------------
 
 - Integration with Databricks
-- Added Browsing databricks DB, Databricks Cluster & DBFS
-- Added scheduling in standalone mode
-- Compatible with Amazon Aurora database
+- Added Browsing Databricks DB, Databricks Cluster & DBFS
+- Added Scheduling in Standalone Mode
+- Compatible with Amazon Aurora Database
 
 UI Improvements
 ---------------
 
-- Improvement of metrics which include stage informations
+- Improvement of Metrics which include stage information
 - Improvement in JOIN USING SQL Processors
 

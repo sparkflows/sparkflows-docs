@@ -8,6 +8,6 @@ New Features
 - Integrated with Job Metrics
 - Added plugins for GoogleRestApiKey in Configurations
 - Added Geo chart: Country & Geo chart: Lat, Lon features in Interactive Dahboard
-- Integrated with  Model list and summary page for viewing detail information about the model
-- Added Reload sample application features
+- Integrated with  Model List and Summary Page for viewing detail information about the model
+- Added Reload Sample Application Features
 

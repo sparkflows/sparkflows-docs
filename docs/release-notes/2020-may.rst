@@ -4,10 +4,10 @@ May 2020
 New Features
 ------------
 
-- Added viewing of Fire Insights logs under Administration menu
+- Added viewing of Fire Insights logs under Administration Menu
 - Added more details to Data Profiling
 - Added file upload and delete capabilities in DBFS browser
-- Added ability to create datasets for data on aws s3.
+- Added ability to create datasets for data on AWS S3.
 - Added configurations for AWS Home Directory to restrict access of other bucket or folder
 - Added interactive dashboards
 - Added ability to view workflows by type : Normal, Data Profiling, Dataset Cleaning

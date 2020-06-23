@@ -16,12 +16,12 @@ Fire now enables editing of already scheduled workflows for executions.
 Multiple users in a Group
 -------------------------
 
-Fire now enables you to add multiple users to a Group.
+Fire now enables you to add multiple users to a group.
 
 SaveMongoDB Node
 -----------------
 
-Fire now enables you to save your data to MongoDB using this Node.
+Fire now enables you to save your data to MongoDB using this node.
 
 Interactive Dashboard Improvements
 ----------------------------------

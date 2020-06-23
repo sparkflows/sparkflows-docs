@@ -22,7 +22,7 @@ UI Improvements
 --------------
 
 - Drag and drop function for node in workflow editor
-- Improvment of workflow editor page Look & Feel.
+- Improvement of workflow editor page look & feel.
   
   
   

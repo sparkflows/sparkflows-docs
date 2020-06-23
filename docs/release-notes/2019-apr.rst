@@ -20,10 +20,10 @@ Improvement of RESTAPI
 New Features
 ------------
 
-- Integerated File Watcher with AWS
+- Integrated File Watcher with AWS
 - Database Cleanup for workflow execution & workflow execution results
 - Export of all users
-- Added search help with search option with quickstart guide, tutorials & FAQ
+- Added search help with search option to quickstart guide, tutorials & FAQ
 
 Upgrades for Security Vulnerabilties
 ---------------------------------------

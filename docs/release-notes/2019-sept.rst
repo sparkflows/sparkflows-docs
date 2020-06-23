@@ -23,7 +23,7 @@ New Features
 - Integrated File Watcher with AWS
 - Database Cleanup for workflow execution & workflow execution results
 - Export of all users implemented
-- Added search help with search option with quickstart guide, tutorials & FAQ
+- Added search help with search option to Quickstart Guide, Tutorials & FAQ
 
 Upgrades for Security Vulnerabilties
 ---------------------------------------
@@ -33,4 +33,4 @@ Upgrades for Security Vulnerabilties
 UI Improvement
 --------------
 
-- Improvement of workflow editor page to make it easy to add the workflow parameters.
+- Improvement of WorkflowEeditor Page to make it easy to add the workflow parameters.

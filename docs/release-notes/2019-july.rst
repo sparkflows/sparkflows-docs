@@ -44,4 +44,4 @@ Added New Features
 Upgradation of Running Server on Ports
 --------------------------------------
 
-- Fire Insights Now enable us to run Fire & Pspark server on Different ports.
+- Fire Insights now enable us to run Fire & Pspark server on different ports.

@@ -21,8 +21,8 @@ Support Of Authentication Using Token
 
 - Fire now supports two methods Of getting tokens to access Fire
   
- -Grant Types – Password.
- -Grant Types – Authorization code.
+ -  Grant Types – Password.
+ -  Grant Types – Authorization code.
  
 Improvements in Dataset
 ------------------------
@@ -32,7 +32,7 @@ Improvements in Dataset
 Running Applications Locally
 ----------------------------
  
- - Workflows when running locally are now executed as separate Java or Python processes.
+ -  Workflows when running locally are now executed as separate Java or Python processes.
  
 Node Updates
 -----------------

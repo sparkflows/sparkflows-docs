@@ -6,6 +6,7 @@ Tutorials
    :maxdepth: 2
 
    reading-writing/index.rst
+   data-exploration/index.rst
    data-science/index.rst
    analytics/index.rst
    data-engineering/index.rst

@@ -16,8 +16,8 @@ Below is a workflow which profiles the Telco Churn Dataset.
    :align: center
    :width: 60%
    
-   Input Telco Churn Data
-   ---------------------
+Input Telco Churn Data
+---------------------
 
 The input dataset looks like below:
 

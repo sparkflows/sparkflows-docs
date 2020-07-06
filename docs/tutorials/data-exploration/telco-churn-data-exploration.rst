@@ -21,3 +21,27 @@ Input Telco Churn Data
 
 The input dataset looks like below:
 
+
+.. figure:: ../../_assets/tutorials/data-exploration/input-dataset.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+   
+Workflow Execution Result
+-------------------------
+
+When the above workflow is executed, it produces the below results. The good thing about Fire Insights is that the Data Profiling runs in a distributed fashion. So, whatever the number of records in the input dataset, it scales seamlessly.
+
+
+Summary Statistics
+
+.. figure:: ../../_assets/tutorials/data-exploration/workflow-execution-result.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+   
+Counts by Churned Column
+------------------------
+
+
+

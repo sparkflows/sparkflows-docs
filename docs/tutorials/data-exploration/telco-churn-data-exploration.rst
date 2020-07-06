@@ -34,6 +34,7 @@ When the above workflow is executed, it produces the below results. The good thi
 
 
 Summary Statistics
+-------------------
 
 .. figure:: ../../_assets/tutorials/data-exploration/workflow-execution-result.png
    :alt: Concat Columns
@@ -41,7 +42,33 @@ Summary Statistics
    :width: 60%
    
 Counts by Churned Column
-------------------------
+-------------------------
+
+.. figure:: ../../_assets/tutorials/data-exploration/countsby-churned-columns.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+   
+Graph of counts of various attributes for Churned and Not Churned customers
+-----------------------------------------------------------------------------
 
 
+.. figure:: ../../_assets/tutorials/data-exploration/churned-notchurned-customers.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+   
+Correlation Matrix
+--------------------
+
+
+.. figure:: ../../_assets/tutorials/data-exploration/co-relation-matrix.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+ 
+
+
+   
+   
 

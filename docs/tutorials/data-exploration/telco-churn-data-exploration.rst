@@ -11,3 +11,8 @@ Workflow for Data Profiling
 Below is a workflow which profiles the Telco Churn Dataset.
 
 
+.. figure:: ../../_assets/tutorials/data-exploration/data- profiling- workflow.png
+   :alt: Concat Columns
+   :align: center
+   :width: 60%
+

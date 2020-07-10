@@ -10,13 +10,10 @@ Prerequisites
 
 - JDK 1.8
 
-- winutils.exe for windows
+Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
-   - Create bin folder in hadoop directory : C:\\hadoop\\bin
-   - Copy the downloaded winutils.exe to the bin directory : C:\\hadoop\\bin\\winutils.exe
-   - Add it in a new Environment Variable : HADOOP_HOME = C:\\hadoop
-   
-     If you don't have winutils.exe in your system, Installer will update it.  
+You may have to set JAVA_HOME after the installation.
+
 
 Download
 --------
@@ -40,5 +37,5 @@ You can also change the port number while installing or starting the server.
  - Browse to http://<system-ip>:port
 
  -	Login with below credentials :
-    - Username-admin
-    - Password-admin
+    - Username : admin
+    - Password : admin

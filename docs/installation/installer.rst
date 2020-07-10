@@ -37,6 +37,6 @@ You can also change the port number while installing or starting the server.
 
 **When you finish**
 
- - Browse to http://<system-ip>:8080
+ - Browse to http://<system-ip>:port
 
  -	Login with admin/admin

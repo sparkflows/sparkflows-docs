@@ -8,9 +8,9 @@ This is not recommended to use on the server, where you need better control over
 Prerequisites
 -------------
 
-- JDK 1.8 or later
+- JDK 1.8
 
-- Winutils.exe for windows
+- winutils.exe for windows
 
    - Create bin folder in hadoop directory : C:\\hadoop\\bin
    - Copy the downloaded winutils.exe to the bin directory : C:\\hadoop\\bin\\winutils.exe

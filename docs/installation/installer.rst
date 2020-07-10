@@ -34,3 +34,7 @@ java -jar sparkflows.jar
 Default port for sparkflows is : 8080
 
 You can also change the port number while installing or starting the server.
+
+When you finish, Browse to http://<system-ip>:8080
+
+ -	Login with admin/admin

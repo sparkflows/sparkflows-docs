@@ -16,7 +16,7 @@ Prerequisites
    - Copy the downloaded winutils.exe to the bin directory : C:\hadoop\bin\winutils.exe
    - Add it in a new Environment Variable : HADOOP_HOME = C:\hadoop
    
-      If you don't have winutils.exe in your system, Installer will update it.  
+     If you don't have winutils.exe in your system, Installer will update it.  
 
 Download
 --------

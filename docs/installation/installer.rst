@@ -10,12 +10,12 @@ Prerequisites
 
 - JDK 1.8 or later
 
-- Winutils.exe for windows
+- Winutils. exe for windows
    - Create bin folder in hadoop directory : C:\hadoop\bin
    - Copy the downloaded winutils.exe to the bin directory : C:\hadoop\bin\winutils.exe
    - Add it in a new Environment Variable : HADOOP_HOME = C:\hadoop
    
- If you don't have winutils.exe in your system, Installer will add it.  
+   If you don't have winutils.exe in your system, Installer will update it.  
 
 Download
 --------

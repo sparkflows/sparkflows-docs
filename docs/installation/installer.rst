@@ -16,7 +16,7 @@ Prerequisites
    - Copy the downloaded winutils.exe to the bin directory : C:\hadoop\bin\winutils.exe
    - Add it in a new Environment Variable : HADOOP_HOME = C:\hadoop
    
- If you don't have winutils.exe in your system, Installer will update it.  
+      If you don't have winutils.exe in your system, Installer will update it.  
 
 Download
 --------
@@ -31,6 +31,6 @@ Execute the installer with :
 
 java -jar sparkflows.jar
 
-Default port for sparkflows is: 8080
+Default port for sparkflows is : 8080
 
 You can also change the port number while installing or starting the server.

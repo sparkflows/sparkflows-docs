@@ -40,5 +40,6 @@ You can also change the port number while installing or starting the server.
  - Browse to http://<system-ip>:port
 
  -	Login with below credentials :
-    - Username-admin
-    - Password-admin
+ 
+    > Username-admin
+    > Password-admin

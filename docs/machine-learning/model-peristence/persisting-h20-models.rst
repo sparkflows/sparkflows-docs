@@ -9,7 +9,7 @@ H2O Models can be saved in binary format or in MOJO format. Fire Insights has pr
 Save H2o Model processor
 +++++++++++++++++++++
 
-.. figure:: ../_assets/model/h2omodelsaveconfigurations.PNG
+.. figure:: ../../_assets/model/h2omodelsaveconfigurations.PNG
    :alt: Modelsave
    :align: center
    :width: 60%
@@ -17,7 +17,7 @@ Save H2o Model processor
 Load H2o Model processor
 +++++++++++++++++++++
    
-.. figure:: ../_assets/model/h2omodelloadconfiguration.PNG
+.. figure:: ../../_assets/model/h2omodelloadconfiguration.PNG
    :alt: Modelsave
    :align: center
    :width: 60%
@@ -31,7 +31,7 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 Save and Load H2O Workflow
 ++++++++++++++++++++++++++
    
-.. figure:: ../_assets/model/h2osaveandload.png
+.. figure:: ../../_assets/model/h2osaveandload.png
    :alt: Modelsave
    :align: center
    :width: 60%

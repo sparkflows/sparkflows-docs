@@ -12,7 +12,7 @@ Machine Learning User Guide
    classification.rst
    prediction.rst
    evaluation.rst
-   model-serving/index.rst
+   model-peristence/index.rst
    model-serving/index.rst
    
    

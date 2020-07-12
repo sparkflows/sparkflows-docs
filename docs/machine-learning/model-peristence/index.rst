@@ -17,4 +17,7 @@ In order to save onto S3, the model path can be provided as ``s3://models/pricep
 
    persisting-sparkml-models.rst
    persisting-h20-models.rst
+   persisting-scikit-learn-models.rst
+   
+   
    

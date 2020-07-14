@@ -35,11 +35,17 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/save-and-load-model.html
 Save and Load H2O Workflow
 ++++++++++++++++++++++++++
    
-Below is a workflow, which saves the generated H2O model on the file system. It then reads it back and uses it for scoring.
-In real life, the store model would be read back in another workflow for scoring purposes.
+Below is a workflow, which saves the generated H2O model on the file system.
 
-.. figure:: ../../_assets/model/h2osaveandload.png
+.. figure:: ../../_assets/model/h2o_means_model_save_score.PNG
    :alt: Modelsave
+   :align: center
+   :width: 60%
+   
+ In below workflow saved model is loaded back and used in batch scoreing.  
+
+.. figure:: ../../_assets/model/h2o_means_model_load_score.PNG
+   :alt: Modelload
    :align: center
    :width: 60%
    

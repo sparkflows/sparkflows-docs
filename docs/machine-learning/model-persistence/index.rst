@@ -8,7 +8,8 @@ Fire Insights allows you to save the ML Model created. The ML Models can be load
 The ML models can be saved into the following locations:
 
 - HDFS : when Fire Insights is connected to a Hadoop Cluster
-- S3 : when the jobs are running on EMR or on Databricks cluster on AWS. Even when Fire is running in local standalone mode on AWS, the models can be saved onto S3.
+- S3 : when Fire is configured and connected to AWS.
+- Local Machine FileSystem : when Fire is running in local mode
 
 In order to save onto S3, the model path can be provided as ``s3://models/priceprediction``
 

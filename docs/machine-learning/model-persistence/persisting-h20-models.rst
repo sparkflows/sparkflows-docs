@@ -44,8 +44,7 @@ Below is a workflow, which saves the generated H2O model on the file system.
    :width: 60%
    
  
-
-In below workflow saved model is loaded back and used in batch scoreing.  
+Below is a workflow, which load back the saved model and used in batch scoreing. 
 
 .. figure:: ../../_assets/model/h2o_means_model_load_score.PNG
    :alt: Modelload

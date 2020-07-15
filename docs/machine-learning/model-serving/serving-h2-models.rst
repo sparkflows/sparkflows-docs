@@ -1,12 +1,20 @@
 Serving H2O Models
 ==================
+H2O allows you to convert the models you have built to either a Plain Old Java Object (POJO) or a Model ObJect, Optimized (MOJO).
 
 Fire Insights has the following processors for persisting the H2O Models.
 
 - H2OMojoSave
-- H2OPojoSave
+- H2OModelSave
 
 Once the H2O model is saved, they can be used for serving.
+
+H2O-generated MOJO and POJO models are intended to be easily embeddable in any Java environment. The only compilation and runtime dependency for a generated model is the h2o-genmodel.jar file produced as the build output of these packages.
+
+We can use our H2OModelLoad or H2OMojoLoad to make a batch prediction, real-time prediction using Spark Streaming, Kafka or Storm. Or you can expose your model as a REST API.
+
+https://h2o-release.s3.amazonaws.com/h2o/rel-ueno/2/docs-website/h2o-docs/pojo-quick-start.html
+
 
 Serving H2O MOJO models
 ------------------------
@@ -64,6 +72,9 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#building-a-po
 
 
 
+Useful links:
+
+https://medium.com/spikelab/building-a-machine-learning-application-using-h2o-ai-67ce3681df9c
 
 
 

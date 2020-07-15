@@ -1,6 +1,6 @@
 Serving H2O Models
 ==================
-H2O allows you to convert the models you have built to either a Plain Old Java Object (POJO) or a Model ObJect, Optimized (MOJO).
+H2O allows you to persist the models you have built to either a Plain Old Java Object (POJO) or a Model ObJect, Optimized (MOJO).
 
 Fire Insights has the following processors for persisting the H2O Models.
 

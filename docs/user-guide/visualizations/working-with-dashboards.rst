@@ -1,4 +1,4 @@
-Working With Dashboards
+Batch Dashboards
 =======================
 
 Fire allows you to create Dashboards.

@@ -84,7 +84,7 @@ Fire supports various ``widgets types`` for capturing the details of the fields 
 Step 4 : Deploy the Custom Node in the Fire Server
 -----------------------------------------
 
-Now that you have created a new node, follow the steps below to deploy it:
+Now that you have created a new node, follow the steps below to deploy it into the Fire Server:
  
   * Create a jar file with ``mvn clean package``
   * Copy the jar file create above into ``fire-user-lib`` directory of sparkflows
@@ -96,6 +96,9 @@ Now that you have created a new node, follow the steps below to deploy it:
 Use the custom node in Spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 
  
-  * Include the custom node with ``--jars <...>`` when running the workflow on the cluster
+  * Select the custom node jar checkbox when executing the workflow containing the custom node.
+  * You can also include the custom node with ``--jars <...>`` when running the workflow on the cluster
+
+
 
 

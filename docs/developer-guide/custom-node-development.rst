@@ -17,7 +17,7 @@ Step 1 : Start by cloning the github repo: writing-new-node
 
 The easiest way to start writing a new node or processor is by cloning the ``writing-new-node`` repo using the command below:
 
-    git clone https://github.com/sparkflows/writing-new-node.git
+  * git clone https://github.com/sparkflows/writing-new-node.git
   
 
 Step 2 : Code the new custom node

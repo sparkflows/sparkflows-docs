@@ -81,7 +81,7 @@ Fire supports various ``widgets types`` for capturing the details of the fields 
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
 
 
-Step 3 : Deploy the Custom Node in the Fire Server
+Step 4 : Deploy the Custom Node in the Fire Server
 -----------------------------------------
 
 Now that you have created a new node, follow the steps below to deploy it:

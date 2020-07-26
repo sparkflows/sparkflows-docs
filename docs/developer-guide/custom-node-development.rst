@@ -22,12 +22,10 @@ The easiest way to start writing a new node or processor is by cloning the ``wri
 
 Step 2 : Code the new custom node
 ------------------------
- 
-Create a new class that extends ``Node`` class.
-In case your are writing a Dataset node, extend the class ``NodeDataset``. A Dataset node is one which reads data from some source and creates a new DataFrame. It does not transform an incoming Dataframe.
 
-  * Override the ``execute()`` method to write custom code. The ``execute()`` method wiill ``transform`` the incoming DataFrame and then pass on the resulting DataFrame to output node(s).
-  * In case this new node creates a ``new DataFrame`` by reading data from a Data Source, the incoming DataFrame would be null. The new node will create a new DataFrame from the data directory from the Data Source. Example of data sources include:
+The customer node might be a ``Dataset`` node or a ``Transform`` node.
+
+A ``Dataset`` node reads data from some source into a Dataframe. It passes on this new Dataframe to the next node. Examples of data sources include:
   
     * Files on HDFS
     * HIVE tables
@@ -36,7 +34,28 @@ In case your are writing a Dataset node, extend the class ``NodeDataset``. A Dat
     * MongoDB
     * Salesforce / Marketo
     * etc.
+
+A ``Transform`` node receives an input Dataframe(s), transforms it and send the transformed Dataframe to the next node.
+
+Writing a Dataset node
+++++++++++++++++++++++
+
+Create a new class that extends the ``NodeDataset`` class.
+
+  * Override the ``execute()`` method. The ``execute()`` method will read in data from the definied source into a Dataframe. It woudl then pass on the resulting DataFrame to output node(s).
+  
+  * Override the ``getOutputSchema()`` method to return the schema of of the Dataframe created by the node.
+
+
+Writing a Transform node
+++++++++++++++++++++++
+
+Create a new class that extends the ``Node`` class.
+
+  * Override the ``execute()`` method. The ``execute()`` method will ``transform`` the incoming DataFrame and then pass on the resulting DataFrame to output node(s).
+  
   * If the node is updating the incoming schema, also override the ``getOutputSchema()`` method.
+  
   
 **Examples of Custom Nodes:**
 
@@ -44,9 +63,6 @@ In case your are writing a Dataset node, extend the class ``NodeDataset``. A Dat
   * https://github.com/sparkflows/writing-new-node/tree/spark-2.x/src/main/java/fire/nodes/examples
   * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
   
-There is minor difference between the code for Apache Spark 1.6.X and Apache Spark 2.X.
-
-``DataFrames`` are used for Apache Spark 1.6.X, while ``Dataset<Row>`` is used for Apache Spark 2.X.
  
 Step 3 : Create the node JSON file
 -------------------------

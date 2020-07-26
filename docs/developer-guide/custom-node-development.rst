@@ -23,7 +23,9 @@ The easiest way to start writing a new node or processor is by cloning the ``wri
 Step 2 : Code the new custom node
 ------------------------
  
- Start by creating a new class that extends ``Node`` class.
+Create a new class that extends ``Node`` class.
+In case your are writing a Dataset node, extend the class ``NodeDataset``. A Dataset node is one which reads data from some source and creates a new DataFrame. It does not transform an incoming Dataframe.
+
   * Override the ``execute()`` method to write custom code. The ``execute()`` method wiill ``transform`` the incoming DataFrame and then pass on the resulting DataFrame to output node(s).
   * In case this new node creates a ``new DataFrame`` by reading data from a Data Source, the incoming DataFrame would be null. The new node will create a new DataFrame from the data directory from the Data Source. Example of data sources include:
   

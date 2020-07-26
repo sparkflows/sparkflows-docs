@@ -12,7 +12,7 @@ Fire Insights follows an open and extensible architecture allowing developers to
 
   * https://github.com/sparkflows/sparkflows-stanfordcorenlp
  
-Start by cloning the github repo: writing-new-node
+Step 1 : Start by cloning the github repo: writing-new-node
 -----------------------------------------------------
 
 The easiest way to start writing a new node or processor is by cloning the ``writing-new-node`` repo using the command below:
@@ -20,7 +20,7 @@ The easiest way to start writing a new node or processor is by cloning the ``wri
     git clone https://github.com/sparkflows/writing-new-node.git
   
 
-Code the new custom node
+Step 2 : Code the new custom node
 ------------------------
  
  Start by creating a new class that extends ``Node`` class.
@@ -46,7 +46,7 @@ There is minor difference between the code for Apache Spark 1.6.X and Apache Spa
 
 ``DataFrames`` are used for Apache Spark 1.6.X, while ``Dataset<Row>`` is used for Apache Spark 2.X.
  
-Create the node JSON file
+Step 3 : Create the node JSON file
 -------------------------
 
 Create the JSON file for the new node. The JSON file is used for displaying the new node in the ``Workflow Editor`` and capturing the user inputs of the various fields of the node through a ``Dialog box``. The JSON for the node also captures the name of the ``Java/Scala class`` which has the implementation code for the Node.
@@ -63,7 +63,7 @@ Fire supports various ``widgets types`` for capturing the details of the fields 
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
 
 
-Deploy the Custom Node in the Fire Server
+Step 3 : Deploy the Custom Node in the Fire Server
 -----------------------------------------
 
 Now that you have created a new node, follow the steps below to deploy it:

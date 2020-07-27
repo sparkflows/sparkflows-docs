@@ -87,7 +87,8 @@ The details of the various widget types is available at the URL below:
 Examples of Node JSON
 +++++++++++++++++++++
 
-* https://github.com/sparkflows/writing-new-node/blob/master/testprintnrows.json
+* https://github.com/sparkflows/writing-new-node/blob/master/json/testprintnrows.json
+* https://github.com/sparkflows/writing-new-node/blob/master/json/testmovingaverage.json
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
 
 

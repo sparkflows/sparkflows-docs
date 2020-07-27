@@ -33,16 +33,16 @@ A ``Dataset`` node reads data from some source into a Dataframe. It passes on th
     * Cassandra
     * MongoDB
     * Salesforce / Marketo
-    * etc.
 
-A ``Transform`` node receives an input Dataframe(s), transforms it and send the transformed Dataframe to the next node.
+
+A ``Transform`` node receives an input Dataframe(s), transforms it and sends the transformed Dataframe to the next node.
 
 Writing a Dataset node
 ++++++++++++++++++++++
 
 Create a new class that extends the ``NodeDataset`` class.
 
-  * Override the ``execute()`` method. The ``execute()`` method will read in data from the definied source into a Dataframe. It woudl then pass on the resulting DataFrame to output node(s).
+  * Override the ``execute()`` method. The ``execute()`` method will read in data from the defined source into a Dataframe. It would then pass on the resulting DataFrame to output node(s).
   
   * Override the ``getOutputSchema()`` method to return the schema of of the Dataframe created by the node.
 
@@ -54,7 +54,7 @@ Create a new class that extends the ``Node`` class.
 
   * Override the ``execute()`` method. The ``execute()`` method will ``transform`` the incoming DataFrame and then pass on the resulting DataFrame to output node(s).
   
-  * If the node is updating the incoming schema, also override the ``getOutputSchema()`` method.
+  * If the node is updating the incoming schema, also override the ``getOutputSchema()`` method. Otherwise the incoming schema to this node is sent to the next node(s).
   
   
 **Examples of Custom Nodes:**

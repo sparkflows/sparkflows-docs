@@ -66,7 +66,6 @@ Create a new class that extends the ``Node`` class.
 **Examples of Custom Nodes:**
 
   * https://github.com/sparkflows/writing-new-node/tree/master/src/main/java/fire/nodes/examples
-  * https://github.com/sparkflows/writing-new-node/tree/spark-2.x/src/main/java/fire/nodes/examples
   * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
   
  

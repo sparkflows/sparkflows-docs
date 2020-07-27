@@ -77,11 +77,15 @@ Create the JSON file for the new node. The JSON file is used for displaying the 
 
 Fire supports various ``widgets types`` for capturing the details of the fields from the user through the ``Node Dialog Box``. 
 
-**The details of the various widget types is available at the hyperkink below:**
+Widget Types
+++++++++++++
+
+The details of the various widget types is available at the URL below:
 
 * https://github.com/sparkflows/writing-new-node/blob/master/docs/README_Processor_JSON.md
 
-**Examples of Node JSON:**
+Examples of Node JSON
++++++++++++++++++++++
 
 * https://github.com/sparkflows/writing-new-node/blob/master/testprintnrows.json
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP

@@ -68,8 +68,9 @@ Create a new class that extends the ``Node`` class.
 Examples of Custom Nodes
 ++++++++++++++++++++++++
 
+Example of custom nodes are available at:
+
   * https://github.com/sparkflows/writing-new-node/tree/master/src/main/java/fire/nodes/examples
-  * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
   
  
 Step 4 : Create the node JSON file

@@ -101,7 +101,7 @@ Step 5 : Deploy the Custom Node in the Fire Server
 Now that you have created a new node, follow the steps below to deploy it into the Fire Server:
  
   * Create a jar file with ``mvn clean package``
-  * Copy the jar file create above into ``fire-user-lib`` directory of sparkflows
+  * Copy the jar file created above into ``fire-user-lib`` directory of sparkflows
   * Place the JSON file for the new node under the ``nodes`` directory.
   * ``Restart`` the Fire Server.
 

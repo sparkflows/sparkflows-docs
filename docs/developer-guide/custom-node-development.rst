@@ -95,8 +95,9 @@ Now that you have created a new node, follow the steps below to deploy it into t
   * Copy the jar file create above into ``fire-user-lib`` directory of sparkflows
   * Place the JSON file for the new node under the ``nodes`` directory.
   * ``Restart`` the Fire Server.
-  * The new node will be picked up by the Fire Server and be visible in the ``Workflow Editor``
-  * Check that new node is available as expected in the ``Workflow Editor``
+
+The new node would be picked up by the Fire Server and be visible in the ``Workflow Editor``. Check that new node is available as expected in the ``Workflow Editor``.
+
   
 Use the custom node in Spark submit when running on the Spark cluster
 --------------------------------------------------------------------- 

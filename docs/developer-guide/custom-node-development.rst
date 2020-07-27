@@ -20,7 +20,13 @@ The easiest way to start writing a new node or processor is by cloning the ``wri
   * git clone https://github.com/sparkflows/writing-new-node.git
   
 
-Step 2 : Code the new custom node
+Step 2 : Install the Fire jar to the local maven repository
+-----------------------------------------------------
+
+  * mvn install:install-file -Dfile=fire-spark_2.4-core-3.1.0.jar -DgroupId=fire  -DartifactId=fire-spark_2.4-core  -Dversion=3.1.0 -Dpackaging=jar
+
+
+Step 3 : Code the new custom node
 ------------------------
 
 The customer node might be a ``Dataset`` node or a ``Transform`` node.
@@ -64,7 +70,7 @@ Create a new class that extends the ``Node`` class.
   * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala
   
  
-Step 3 : Create the node JSON file
+Step 4 : Create the node JSON file
 -------------------------
 
 Create the JSON file for the new node. The JSON file is used for displaying the new node in the ``Workflow Editor`` and capturing the user inputs of the various fields of the node through a ``Dialog box``. The JSON for the node also captures the name of the ``Java/Scala class`` which has the implementation code for the Node.
@@ -81,7 +87,7 @@ Fire supports various ``widgets types`` for capturing the details of the fields 
 * https://github.com/sparkflows/sparkflows-stanfordcorenlp/tree/master/nodes/StanfordCoreNLP
 
 
-Step 4 : Deploy the Custom Node in the Fire Server
+Step 5 : Deploy the Custom Node in the Fire Server
 -----------------------------------------
 
 Now that you have created a new node, follow the steps below to deploy it into the Fire Server:

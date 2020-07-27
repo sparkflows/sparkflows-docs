@@ -20,8 +20,10 @@ The easiest way to start writing a new node or processor is by cloning the ``wri
   * git clone https://github.com/sparkflows/writing-new-node.git
   
 
-Step 2 : Install the Fire jar to the local maven repository
+Step 2 : Install the Fire core jar to the local maven repository
 -----------------------------------------------------
+
+Insall the Fire core jar to your local maven repository. The pom.xml contains the dependency for it.
 
   * mvn install:install-file -Dfile=fire-spark_2.4-core-3.1.0.jar -DgroupId=fire  -DartifactId=fire-spark_2.4-core  -Dversion=3.1.0 -Dpackaging=jar
 

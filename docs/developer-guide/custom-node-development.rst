@@ -63,7 +63,8 @@ Create a new class that extends the ``Node`` class.
   * If the node is updating the incoming schema, also override the ``getOutputSchema()`` method. Otherwise the incoming schema to this node is sent to the next node(s).
   
   
-**Examples of Custom Nodes:**
+Examples of Custom Nodes
+++++++++++++++++++++++++
 
   * https://github.com/sparkflows/writing-new-node/tree/master/src/main/java/fire/nodes/examples
   * https://github.com/sparkflows/writing-new-node/blob/master/src/main/scala/fire/nodes/examples/NodeTestDateToAge.scala

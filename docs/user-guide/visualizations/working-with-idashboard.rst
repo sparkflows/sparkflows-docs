@@ -57,3 +57,14 @@ Saving the New Dataset
 
 Click on the ``Save`` button to save the New Dataset created.
 
+Interactive Dashboard
+^^^^^^^^^^^^^^^^^^^^^^
+
+Click on ``Interactive Dashboard`` tab in the same application where we have created JDBC Dataset.
+
+
+ .. figure:: ../../_assets/tutorials/dataset/i-dashboard-tab.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+

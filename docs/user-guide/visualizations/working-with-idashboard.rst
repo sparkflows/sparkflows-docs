@@ -93,8 +93,18 @@ Select the ``chart type``, you want to see chart
 
 Selected ``Bar chart`` & updated column for x & y axis and add some filter
 
+Add NAME, DESCRIPTION & save it
+
 .. figure:: ../../_assets/tutorials/dataset/chart_filter.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
+Once you save it, the chart will appear in chart list page
+
+Similarly you can create different chart using specified chart type
+
+.. figure:: ../../_assets/tutorials/dataset/chart-list.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

@@ -51,3 +51,9 @@ You can update the column names in the schema based on your data.
    :alt: Dataset
    :align: center
    :width: 60%
+
+Saving the New Dataset
+^^^^^^^^^^^^^^^^^^^^
+
+Click on the ``Save`` button to save the New Dataset created.
+

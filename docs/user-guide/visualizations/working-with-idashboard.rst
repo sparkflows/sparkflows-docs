@@ -39,3 +39,15 @@ Below are the details of the fields in the ``Create Dataset`` page:
    :alt: Dataset
    :align: center
    :width: 60%
+
+Updating the Schema of the Dataset
+^^^^^^^^^^^^^^^^^^^^
+
+You can update the Schema of the Dataset by clicking on ``Update Sample Data/Schema``. It would display sample data for the dataset followed by the Schema inferred by Fire Insights.
+
+You can update the column names in the schema based on your data.
+ 
+ .. figure:: ../../_assets/tutorials/dataset/update_sampledata.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

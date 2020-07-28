@@ -68,3 +68,11 @@ Click on ``Interactive Dashboard`` tab in the same application where you have cr
    :align: center
    :width: 60%
 
+Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
+
+.. figure:: ../../_assets/tutorials/dataset/chart.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+

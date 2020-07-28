@@ -75,4 +75,14 @@ Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all J
    :align: center
    :width: 60%
 
+Select any JDBC dataset for which you want to create ``chart`` & select ``CREATE NEW``
+
+It will take you to new page
+
+.. figure:: ../../_assets/tutorials/dataset/dashboard_editor.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+
 

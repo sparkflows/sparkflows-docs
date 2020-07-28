@@ -125,5 +125,10 @@ it will take us to New Dashboard page
    :align: center
    :width: 60%
 
+Using drag & drop you need to add chart in canvas, Add NAME, DESCRIPTION & SAVE it.
 
+.. figure:: ../../_assets/tutorials/dataset/save-dashboard.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
 

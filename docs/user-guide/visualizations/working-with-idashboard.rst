@@ -108,3 +108,22 @@ Similarly you can create different chart using specified chart type
    :alt: Dataset
    :align: center
    :width: 60%
+
+Now using existing chart, you can create new dashboard 
+
+Select ``Dashboard`` tab & Click on CREATE DASHBOARD
+
+.. figure:: ../../_assets/tutorials/dataset/dashboars-tab.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+it will take us to New Dashboard page
+
+.. figure:: ../../_assets/tutorials/dataset/chart-dash.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+
+

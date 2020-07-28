@@ -91,3 +91,10 @@ Select the ``chart type``, you want to see chart
    :align: center
    :width: 60%
 
+Selected ``Bar chart`` & updated column for x & y axis and add some filter
+
+.. figure:: ../../_assets/tutorials/dataset/chart_filter.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+

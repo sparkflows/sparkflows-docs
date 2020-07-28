@@ -132,7 +132,7 @@ Using drag & drop you need to add chart in canvas, Add NAME, DESCRIPTION & SAVE 
    :align: center
    :width: 60%
 
-Once the Dashboard got saved successfully, it will show in dashboard list page from where we can view, edit & delete it.
+Once the Dashboard got saved successfully, it will show in dashboard list page from where you can view, edit & delete it.
 
 .. figure:: ../../_assets/tutorials/dataset/dashboard_list.PNG
    :alt: Dataset

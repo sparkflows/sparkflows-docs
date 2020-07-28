@@ -77,12 +77,17 @@ Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all J
 
 Select any JDBC dataset for which you want to create ``chart`` & select ``CREATE NEW``
 
-It will take you to new page
+It will take you to new page, as below
 
 .. figure:: ../../_assets/tutorials/dataset/dashboard_editor.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
+Select the ``chart type``, you want to see chart
 
+.. figure:: ../../_assets/tutorials/dataset/chart_type.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
 

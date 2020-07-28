@@ -1,7 +1,7 @@
 Interactive Dashboard
 =======================
 
-Fire allows you to create interactive Dashboards.
+Fire allows you to create interactive Dashboard.
 
 Fire enable to create New Dataset using JDBC data type from MYSQL db & use that jdbc datasets in creating charts & dashboard.
 

@@ -18,3 +18,24 @@ It will bring up the dialog box below. Select the format of the file for which t
    :alt: Dataset
    :align: center
    :width: 60%
+
+Entering Field Details
+^^^^^^^^^^^^^^^^^^^^
+
+Below are the details of the fields in the ``Create Dataset`` page:
+
+- **NAME** : Name of the New Dataset we are creating.
+- **DESCRIPTION** : Description of the New Dataset.
+- **CATEGORY** : category of the New Dataset.
+- **JDBC DRIVER** : Enter JDBC DRIVER.
+- **JDBC URL** : Enter JDBC URL for MYSQL DB.
+- **USER** : username for MYSQL DB.
+- **PASSWORD** : password for MYSQL DB.
+- **DB** : Database for MYSQL DB.
+- **TABLE** : Table for MYSQL.
+
+
+.. figure:: ../../_assets/tutorials/dataset/create_data.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

@@ -45,7 +45,7 @@ On action icon you can see ``view result``, need to open.
    :align: center
    :width: 60%
 
-On opening above link, able to view result of specific workflow submitted & have Export option through which you can export result in local machine & view that.
+On opening above link, able to view result of specific workflow submitted & have Export option through which you can export result in local machine in pdf format & view that.
 
 .. figure:: ../../_assets/user-guide/exportresult.PNG
    :alt: Dataset

@@ -20,7 +20,7 @@ select ``dataset`` tab.
 
 Select a dataset & under ``action`` icon choose Dataset profile.
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/user-guide/dataset_profile.PNG
+.. figure:: ../_assets/user-guide/dataset_profile.PNG
    :alt: Dataset
    :align: center
    :width: 60%

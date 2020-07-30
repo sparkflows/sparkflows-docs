@@ -41,3 +41,9 @@ Once you click on above option, will get notifications about process is getting 
    :align: center
    :width: 60%
 
+Once the ``execution`` process completed, after refresh the status will updated to green, if its completed and check its execution result in RHS
+
+.. figure:: ../_assets/user-guide/dataprofile_completed.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

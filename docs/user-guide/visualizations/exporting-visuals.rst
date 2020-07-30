@@ -24,3 +24,23 @@ It will Export the whole batch dashboard in pdf format on local machine.
    :align: center
    :width: 60%
  
+Exporting output
+-----------------
+
+Once the workflow successfully completed, the output result can be exported.
+
+- Go to application page where you created workflow & successfully executed.
+
+Clicking on ``Executions` tab the latest workflow execution will show in list page.
+
+.. figure:: ../../_assets/user-guide/executionpage.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+
+On action icon you can see ``view result``, need to open.
+
+.. figure:: ../../_assets/user-guide/executionresult.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

@@ -9,7 +9,7 @@ Exporting as PDF using Browser Print Capabilities
 Since Fire Insights is Browser based end to end, its easy to export the pages as PDF files using the Browser Capabilities.
 
 - Go to dashboard under your application where you have created batch dashboard
-- when you click on view option, able to visualize etc. added in that dashboard, there you will have ``Export`` option, Click on that.
+- On clicking on view option, able to visualize etc. added in that dashboard, there you will have ``Export`` option, Click on that.
 
 
 .. figure:: ../../_assets/user-guide/batch_dashboard.PNG

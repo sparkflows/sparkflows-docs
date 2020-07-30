@@ -13,7 +13,7 @@ Go to application page where you need to create dataset or already have existing
 select ``dataset`` tab.
 
 
-.. figure:: ../../_assets/user-guide/application.PNG
+.. figure:: ../_assets/user-guide/application.PNG
    :alt: Dataset
    :align: center
    :width: 60%

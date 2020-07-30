@@ -47,3 +47,9 @@ Once the ``execution`` process completed, after refresh the status will updated 
    :alt: Dataset
    :align: center
    :width: 60%
+
+
+.. figure:: ../_assets/user-guide/dataetsprofile_execution.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%

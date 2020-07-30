@@ -13,14 +13,14 @@ Go to application page where you need to create dataset or already have existing
 select ``dataset`` tab.
 
 
- .. figure:: ../../_assets/user-guide/application.PNG
+.. figure:: ../../_assets/user-guide/application.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
 Select a dataset & under ``action`` icon choose Dataset profile.
 
-.. figure:: ../../_assets/user-guide/dataset_profile.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/user-guide/dataset_profile.PNG
    :alt: Dataset
    :align: center
    :width: 60%

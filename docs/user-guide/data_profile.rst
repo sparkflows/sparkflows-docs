@@ -24,3 +24,13 @@ Select a dataset & under ``action`` icon choose Dataset profile.
    :alt: Dataset
    :align: center
    :width: 60%
+
+Once you Click on Dataset profile, it will take us to next page.
+
+Click on ``RUN DATA PROFILING`` option
+
+.. figure:: ../_assets/user-guide/dataset_profile_run.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+

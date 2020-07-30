@@ -1,4 +1,4 @@
-DATA PROFILING
+Data profiling
 ==============
 
 Fire Insights allows you to clean the datasets using dataset profile.

@@ -31,7 +31,7 @@ Once the workflow successfully completed, the output result can be exported.
 
 - Go to application page where you created workflow & successfully executed.
 
-Clicking on ``Executions` tab the latest workflow execution will show in list page.
+Clicking on ``Executions`` tab the latest workflow execution will show in list page.
 
 .. figure:: ../../_assets/user-guide/executionpage.PNG
    :alt: Dataset

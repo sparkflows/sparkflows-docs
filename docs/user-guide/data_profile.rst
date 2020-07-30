@@ -34,3 +34,10 @@ Click on ``RUN DATA PROFILING`` option
    :align: center
    :width: 60%
 
+Once you click on above option, will get notifications about process is getting started.
+
+.. figure:: ../_assets/user-guide/run_data_profile.PNG
+   :alt: Dataset
+   :align: center
+   :width: 60%
+

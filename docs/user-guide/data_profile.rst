@@ -8,7 +8,7 @@ Below are the steps for Data Profiling in Fire.
 Go to the Applications Page
 ---------------------------
 
- .. figure:: ../../_assets/user-guide/application.PNG
+ .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/user-guide/application.PNG
    :alt: userguide
    :align: center
    :width: 60%

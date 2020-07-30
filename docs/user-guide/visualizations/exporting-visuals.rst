@@ -38,7 +38,7 @@ Clicking on ``Executions`` tab the latest workflow execution will show in list p
    :align: center
    :width: 60%
 
-On action icon you can see ``view result``, need to open.
+On action icon you can see ``view result``, it will take to next page.
 
 .. figure:: ../../_assets/user-guide/executionresult.PNG
    :alt: Dataset

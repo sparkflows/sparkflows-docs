@@ -10,6 +10,8 @@ Go to the Applications Page
 
 Go to application page where you need to create dataset or already have existing
 
+select ``dataset` tab
+
  .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/user-guide/application.PNG
    :alt: userguide
    :align: center

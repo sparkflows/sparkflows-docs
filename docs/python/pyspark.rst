@@ -1,4 +1,4 @@
-PySpark
+PySpark Processor
 =======
 
 Fire Insights provides a PySpark processor for writing PySpark/Python code.

@@ -1,4 +1,4 @@
-Jython
+Jython Processor
 ======
 
 Sparkflows has a Jython Processor.

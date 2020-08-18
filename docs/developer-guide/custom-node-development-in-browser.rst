@@ -79,7 +79,10 @@ The Schema tab is where you add the code which updates the incoming schema to pr
   
 It displays the default template code which you can update.
   
----image---
+.. figure:: ../_assets/developer-guide/schema.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
   

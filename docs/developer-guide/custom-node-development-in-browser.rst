@@ -65,7 +65,10 @@ The Code tab is where you write the execution code for the new Custom Processor.
   
 It shows the default template which you can update
   
----image---
+.. figure:: ../_assets/developer-guide/code.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
   
 Then click on ``Next`` button to go to the Schema tab.
   

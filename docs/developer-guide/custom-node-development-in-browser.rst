@@ -104,6 +104,11 @@ When editing the custom processor, select the Dataset for the data you want to f
    :alt: Custom Processor
    :align: center
    :width: 60% 
+   
+.. figure:: ../_assets/developer-guide/execution_test.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%   
 
 Using the new Processor
 -----------------------

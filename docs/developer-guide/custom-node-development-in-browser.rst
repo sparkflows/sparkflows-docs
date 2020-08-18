@@ -35,7 +35,7 @@ It would open up the Create Processor Page as below.
 
 Enter the name and other details for the new processor.
 
-Then provide details for the various fields of the new processors. These fields would appear in the process dialog when used in the workflow editor.
+Then provide details for the various fields of the new processors. These fields would appear in the processor dialog when used in the workflow editor.
 
 .. figure:: ../_assets/developer-guide/processor_editor.PNG
    :alt: Custom Processor
@@ -86,7 +86,7 @@ It displays the default template code which you can update.
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
 
-once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.
+Once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.
  
 .. figure:: ../_assets/developer-guide/submitted_processor.PNG
    :alt: Custom Processor

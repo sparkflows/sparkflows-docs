@@ -85,7 +85,13 @@ It displays the default template code which you can update.
    :width: 60%
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
-  
+
+once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.
+ 
+.. figure:: ../_assets/developer-guide/submitted_processor.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
   
 Testing the custom processor
 -----------------------------

@@ -115,7 +115,10 @@ Using the new Processor
 
 The processor is now available in the Workflow Editor.
 
----image---
+.. figure:: ../_assets/developer-guide/editor.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
 
 You can click on the custom processor to start using it in your workflow.
 

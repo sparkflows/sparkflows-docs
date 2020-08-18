@@ -56,11 +56,21 @@ It displays the default template code which you can update.
 Finally click on the ``Submit`` button to finish creating the new custom processor.
   
   
-Testing the custom proceessor
+Testing the custom processor
 -----------------------------
   
 Fire Insights enables you to seamlessly Test your custom processor.
   
 When editing the custom processor, select the Dataset for the data you want to feed to the custom processor. Then click on ``Test`` to view the output of the new custom processor.
+
+
+Using the new Processor
+-----------------------
+
+The processor is now available in the Workflow Editor.
+
+---image---
+
+You can click on the custom processor to start using it in your workflow.
 
 

@@ -19,7 +19,6 @@ Click on Create New Custom Node
 
 Click on ``Create Processors`` to start creating the new processor.
 
-It would open up the Create Processor Page as below.
 
 .. figure:: ../_assets/developer-guide/create_processors.PNG
    :alt: Custom Processor
@@ -32,6 +31,7 @@ It would open up the Create Processor Page as below.
    :align: center
    :width: 60%   
    
+It would open up the Create Processor Page as below.
 
 Enter the name and other details for the new processor.
 

@@ -75,7 +75,7 @@ Then click on ``Next`` button to go to the Schema tab.
 Schema Update Code
 ------------------
   
-The Schema tab is where you add the code which updates the incoming schema to produce the output schema of this processor.
+The Schema tab is where you add the code which updates the incoming schema to produce the output schema from this processor.
   
 It displays the default template code which you can update.
   

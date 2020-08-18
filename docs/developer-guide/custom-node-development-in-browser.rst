@@ -100,6 +100,10 @@ Fire Insights enables you to seamlessly Test your custom processor.
   
 When editing the custom processor, select the Dataset for the data you want to feed to the custom processor. Then click on ``Test`` to view the output of the new custom processor.
 
+.. figure:: ../_assets/developer-guide/test_custom_data.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
 
 Using the new Processor
 -----------------------

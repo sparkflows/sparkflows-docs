@@ -50,7 +50,10 @@ Click on the ``+`` sign to add a new field. For each field provide the following
   * VALUE
   * DESCRIPTION
   
----IMAGE---
+.. figure:: ../_assets/developer-guide/fields.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
   
   
 Finally click on the ``Next`` button to go to the Code tab.

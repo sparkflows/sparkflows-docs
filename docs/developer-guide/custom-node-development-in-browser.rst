@@ -26,6 +26,7 @@ It would open up the Create Processor Page as below.
    :align: center
    :width: 60%
    
+   
 .. figure:: ../_assets/developer-guide/processors_creation.PNG
    :alt: Custom Processor
    :align: center

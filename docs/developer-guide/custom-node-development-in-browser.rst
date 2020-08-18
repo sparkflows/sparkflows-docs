@@ -28,31 +28,39 @@ Click on the ``+`` sign to add a new field. For each field provide the following
   * VALUE
   * DESCRIPTION
   
-  ---IMAGE---
+---IMAGE---
   
   
-  Finally click on the ``Next`` button to go to the Code tab.
+Finally click on the ``Next`` button to go to the Code tab.
   
-  Execute Code
-  ------------
+Execute Code
+------------
   
-  The Code tab is where you write the execution code for the new Custom Processor.
+The Code tab is where you write the execution code for the new Custom Processor.
   
-  It shows the default template which you can update
+It shows the default template which you can update
   
-  ---image---
+---image---
   
-  Then click on ``Next`` button to go to the Schema tab.
+Then click on ``Next`` button to go to the Schema tab.
   
-  Schema Update Code
-  ------------------
+Schema Update Code
+------------------
   
-  The Schema tab is where you add the code which updates the incoming schema to produce the output schema of this processor.
+The Schema tab is where you add the code which updates the incoming schema to produce the output schema of this processor.
   
-  It displays the default template code which you can update.
+It displays the default template code which you can update.
   
-  ---image---
+---image---
+  
+Finally click on the ``Submit`` button to finish creating the new custom processor.
   
   
+Testing the custom proceessor
+-----------------------------
+  
+Fire Insights enables you to seamlessly Test your custom processor.
+  
+When editing the custom processor, select the Dataset for the data you want to feed to the custom processor. Then click on ``Test`` to view the output of the new custom processor.
 
 

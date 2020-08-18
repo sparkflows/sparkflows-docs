@@ -7,7 +7,7 @@ You would provide the execute method for the Processor and the Schema update cod
 
 Below are the steps for creating the custom node.
 
-Once you login to Fire Insights application, there is ``PROCESSORS`` menu in home dashboard page, Click on it.
+Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top, Click on it.
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor

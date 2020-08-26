@@ -127,7 +127,7 @@ You can also export & import them
 Export Cutsom Processors
 -------------------------
 
-Fire Insights enables you to ``export`` Cutsom Processors from Browser.
+Fire Insights enables you to ``export`` Cutsom Processors from Browser to local machine.
 
 Below are the steps to export
 
@@ -145,6 +145,8 @@ Select the ``Custom Processors`` which you want to export and click on export.
    :alt: Custom Processor
    :align: center
    :width: 60% 
+
+NOTE: you can export multiple ``Custom Processors`` at a time.
 
 Once you click on export button, the selected Custom Processors will be downloaded to local machine in zip format.
 

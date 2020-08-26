@@ -184,7 +184,7 @@ Select the ``IMPORT`` button, it will open a new windows to upload zip file from
 
 Once you upload zip file of Cutsom Processors from local machine, press ``IMPPORT`` button to import it.
 
-.. figure:: ../_assets/developer-guide/sel%26imp.PNG
+.. figure:: ../_assets/developer-guide/selimp.png
    :alt: Custom Processor
    :align: center
    :width: 60%

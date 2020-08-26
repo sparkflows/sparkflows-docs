@@ -122,4 +122,23 @@ The processor is now available in the Workflow Editor.
 
 You can click on the custom processor to start using it in your workflow.
 
+You can also export & import them
+
+Export
+------
+
+Fire Insights enables you to ``export`` Cutsom Processors from Browser.
+
+Below are the steps to export
+
+login to Fire Insights & go to Custom Processors list page.
+
+
+.. figure:: ../_assets/developer-guide/customlist.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+
+
+
 

@@ -186,3 +186,21 @@ Once you upload zip file of Cutsom Processors from local machine, press ``IMPPOR
    :alt: Custom Processor
    :align: center
    :width: 60%
+
+NOTE: You can import multiple ``Cutsom Processors`` at a time.
+
+Once you Click on IMPORT button, success message will display on imported Cutsom Processors.
+
+.. figure:: ../_assets/developer-guide/successimp.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
+
+After success import, you can view those ``Cutsom Processors`` in Cutsom Processors list page.
+
+.. figure:: ../_assets/developer-guide/importedprocessor.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
+   
+Now you can use those Cutsom Processors in your workflow.   

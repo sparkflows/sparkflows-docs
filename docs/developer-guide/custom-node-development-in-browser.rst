@@ -166,3 +166,16 @@ login to Fire Insights & go to Custom Processors list page.
    :alt: Custom Processor
    :align: center
    :width: 60%
+
+Select the ``IMPORT`` button, it will open a new windows to upload zip file from local machine.
+
+.. figure:: ../_assets/developer-guide/imp.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
+
+
+.. figure:: ../_assets/developer-guide/choose.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%

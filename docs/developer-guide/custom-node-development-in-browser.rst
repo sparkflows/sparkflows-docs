@@ -139,6 +139,13 @@ login to Fire Insights & go to Custom Processors list page.
    :align: center
    :width: 60% 
 
+Select the ``Custom Processors`` which you want to export and click on export.
+
+.. figure:: ../_assets/developer-guide/exportselect.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+
 
 
 

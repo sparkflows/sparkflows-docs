@@ -146,7 +146,7 @@ Select the ``Custom Processors`` which you want to export and click on export.
    :align: center
    :width: 60% 
 
-NOTE: you can export multiple ``Custom Processors`` at a time.
+NOTE: you can export multiple ``Custom Processors`` at a time too.
 
 Once you click on export button, the selected Custom Processors will be downloaded to local machine in zip format.
 
@@ -189,7 +189,7 @@ Once you upload zip file of Cutsom Processors from local machine, press ``IMPPOR
    :align: center
    :width: 60%
 
-NOTE: you can import multiple ``Cutsom Processors`` at a time.
+NOTE: you can import multiple ``Cutsom Processors`` at a time too.
 
 Once you Click on IMPORT button, success message will display on imported Cutsom Processors.
 

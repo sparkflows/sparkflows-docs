@@ -146,6 +146,13 @@ Select the ``Custom Processors`` which you want to export and click on export.
    :align: center
    :width: 60% 
 
+Once you click on export button, the selected Custom Processors will be downloaded to local machine in zip format.
+
+.. figure:: ../_assets/developer-guide/exportsuccess.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+
 
 
 

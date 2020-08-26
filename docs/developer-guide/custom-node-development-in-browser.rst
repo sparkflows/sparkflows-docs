@@ -189,7 +189,7 @@ Once you upload zip file of Cutsom Processors from local machine, press ``IMPPOR
    :align: center
    :width: 60%
 
-NOTE: You can import multiple ``Cutsom Processors`` at a time.
+NOTE: you can import multiple ``Cutsom Processors`` at a time.
 
 Once you Click on IMPORT button, success message will display on imported Cutsom Processors.
 

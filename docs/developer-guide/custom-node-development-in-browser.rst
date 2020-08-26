@@ -160,7 +160,7 @@ Import Cutsom Processors
 
 Fire Insights enables you to ``import`` Cutsom Processors to different environment.
 
-Below are the steps to export
+Below are the steps to import
 
 login to Fire Insights & go to Custom Processors list page.
 

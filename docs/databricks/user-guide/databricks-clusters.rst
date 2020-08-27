@@ -14,10 +14,19 @@ It will display the various Databricks Clusters available.
    :align: center
    :width: 60%
 
-If you want see Cluster Details, Click on ``CLUSTER NAME``, it will display all informations.
+If you want to see Cluster Details, Click on ``CLUSTER NAME``, it will display all informations.
 
 
 .. figure:: ../../_assets/configuration/databrick_clusterdetail.PNG
    :alt: Databricks
    :align: center
    :width: 60%
+
+You can also Start and Stop the Databricks clusters from Fire Insights, using ``ACTIONS` button.
+
+.. figure:: ../../_assets/configuration/db_restart.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+

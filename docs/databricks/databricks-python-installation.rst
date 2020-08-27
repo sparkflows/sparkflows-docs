@@ -84,3 +84,13 @@ You can ``UPLOAD`` it, using DBFS Browser too.
    :alt: Databricks
    :align: center
    :width: 40%
+
+Configure the Uploaded Library in Fire Insights
+------------------------------------
+
+Configure the path of the uploaded fire python package wheel file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Fire Insights.
+
+.. figure:: ../_assets/configuration/db_configure.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%

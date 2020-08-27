@@ -59,10 +59,23 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
    :align: center
    :width: 40%
    
-On Successfull installation of wheel file on Databricks Cluster, it will show under `Libarary``.
+On Successfull installation of wheel file on Databricks Cluster, it will show under ``Libararies``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
    :align: center
    :width: 40%
-   
+
+Upload Fire workflowexecutedatabricks.py file to DBFS
+----------------------------------
+
+For Python Job submission to Databricks Cluster.
+
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS.
+
+.. figure:: ../_assets/configuration/workflow.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
+

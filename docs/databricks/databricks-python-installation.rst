@@ -47,3 +47,17 @@ you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, add s
    :align: center
    :width: 40%
 
+On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
+
+.. figure:: ../_assets/configuration/create.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+   
+.. figure:: ../_assets/configuration/install.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+   
+   
+   

@@ -26,3 +26,17 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
    :align: center
    :width: 40%
 
+1. Login to ``Databricks Cluster``
+++++++++++++++++++++++++++++++++
+
+2. Click on ``workspace`` in the left side pane
+++++++++++++++++++++++++++++++++
+
+.. figure:: ../_assets/configuration/azure_workspace.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+   
+3. Create a new Library
+++++++++++++++++++++++++++++++++
+

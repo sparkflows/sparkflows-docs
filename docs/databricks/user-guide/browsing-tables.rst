@@ -14,15 +14,20 @@ It will display the Databricks DB page.
    :align: center
    :width: 60%
 
-Select the relevant connection 
+Select the Tables 
 ----------------------
 
-It will use it for viewing the Databrick database & Table available.
+Once you select the ``Tables``, Right click on it to see ten or hundread records from the table using query.
 
-.. figure:: ../../_assets/configuration/databrick_database.PNG
+.. figure:: ../../_assets/configuration/databricks_1.PNG
    :alt: Databricks
    :align: center
    :width: 60%
    
+Once you select any specific query for seeing records, able to see records.
 
+.. figure:: ../../_assets/configuration/databricks_query.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
 

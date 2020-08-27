@@ -78,4 +78,9 @@ Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS.
    :align: center
    :width: 40%
 
+You can ``UPLOAD`` it, using DBFS Browser too.
 
+.. figure:: ../_assets/configuration/databr_wf.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%

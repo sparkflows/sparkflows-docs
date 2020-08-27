@@ -40,7 +40,7 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 3. Create a new Library
 ++++++++++++++++++++++++++++++++
 
-you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, add some name in ``Library Name``, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
+you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, add some name in ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks

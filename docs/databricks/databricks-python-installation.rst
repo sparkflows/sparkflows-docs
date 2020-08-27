@@ -94,3 +94,13 @@ Configure the path of the uploaded fire python package wheel file & workflowexec
    :alt: Databricks
    :align: center
    :width: 40%
+
+Job Submission using Pyspark Engine
+-----------------------------------
+
+Now You can submit the pyspark Job on Databricks Cluster from Fire Insights application.
+
+.. figure:: ../_assets/configuration/job.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%

@@ -46,5 +46,16 @@ On successful UPLOAD, it will show successful informations and file can be viewe
 Delete file and directory in DBFS
 ---------------------------------
 
-You can delete file and directory in DBFS.
+You can delete file and directory in DBFS using delete ``ACTION` button.
 
+.. figure:: ../../_assets/configuration/delete_d.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%
+
+On successful deletion, it will show successful informations and file can be viewed inside the folder in  `DBFS``.
+
+.. figure:: ../../_assets/configuration/suc.PNG
+   :alt: Databricks
+   :align: center
+   :width: 60%

@@ -24,7 +24,7 @@ You can upload file in ``DBFS` from local pc.
    :align: center
    :width: 60%
 
-On clicking on ``UPLOAD FILE` button, it will ask you to select file from local pc and UPLOAD.
+On clicking on ``UPLOAD FILE`` button, it will ask you to select file from local pc and UPLOAD.
 
 .. figure:: ../../_assets/configuration/upload_local.PNG
    :alt: Databricks
@@ -46,7 +46,7 @@ On successful ``UPLOAD``, it will show successful informations and file can be v
 Delete file and directory in DBFS
 ---------------------------------
 
-You can delete file and directory in DBFS using delete ``ACTION` button.
+You can delete file and directory in DBFS using delete ``ACTION`` button.
 
 .. figure:: ../../_assets/configuration/delete_d.PNG
    :alt: Databricks

@@ -17,7 +17,7 @@ It will display the Databricks File System list page.
 UPLOAD FILE in DBFS
 ----------------------
 
-You can upload file in ``DBFS` from local pc.
+You can upload file in ``DBFS`` from local pc.
 
 .. figure:: ../../_assets/configuration/dbfs_upload.PNG
    :alt: Databricks

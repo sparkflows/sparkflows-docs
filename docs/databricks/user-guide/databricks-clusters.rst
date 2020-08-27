@@ -14,10 +14,8 @@ It will display the various Databricks Clusters available.
    :align: center
    :width: 60%
 
-Select the relevant connection 
-----------------------
+If you want see Cluster Details, Click on ``CLUSTER NAME``, it will display all informations.
 
-It will use it for viewing the Databrick Cluster details.
 
 .. figure:: ../../_assets/configuration/databrick_clusterdetail.PNG
    :alt: Databricks

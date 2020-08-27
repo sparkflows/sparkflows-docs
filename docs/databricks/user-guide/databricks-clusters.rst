@@ -22,7 +22,7 @@ If you want to see Cluster Details, Click on ``CLUSTER NAME``, it will display a
    :align: center
    :width: 60%
 
-You can also Start and Stop the Databricks clusters from Fire Insights, using ``ACTIONS` button.
+You can also Start and Stop the Databricks clusters from Fire Insights, using ``ACTIONS`` button.
 
 .. figure:: ../../_assets/configuration/db_restart.PNG
    :alt: Databricks

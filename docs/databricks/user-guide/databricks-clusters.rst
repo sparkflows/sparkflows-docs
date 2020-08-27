@@ -6,10 +6,10 @@ Fire Insights enables you to view your Databricks Clusters. You can also Start a
 Go to Data Browsers/Databricks Clusters
 ----------------------
 
-It will display the various Databricks Connections in your Applications.
+It will display the various Databricks Clusters.
 
 
-.. figure:: ../../_assets/configuration/databricks-clusters.PNG
+.. figure:: ../../_assets/configuration/databricks_cl.PNG
    :alt: Databricks
    :align: center
    :width: 60%

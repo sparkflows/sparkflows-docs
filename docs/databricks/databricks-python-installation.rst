@@ -59,5 +59,10 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
    :align: center
    :width: 40%
    
-   
+On Successfull installation of wheel file on Databricks Cluster, it will show under `Libarary``.
+
+.. figure:: ../_assets/configuration/wheelpack.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
    

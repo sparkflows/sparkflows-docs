@@ -31,7 +31,7 @@ On clicking on ``UPLOAD FILE` button, it will ask you to select file from local 
    :align: center
    :width: 60%
 
-On successful UPLOAD, it will show successful informations and file can be viewed inside the folder in  `DBFS``.
+On successful ``UPLOAD``, it will show successful informations and file can be viewed inside the folder in  ``DBFS``.
 
 .. figure:: ../../_assets/configuration/success.PNG
    :alt: Databricks
@@ -53,7 +53,7 @@ You can delete file and directory in DBFS using delete ``ACTION` button.
    :align: center
    :width: 60%
 
-On successful deletion, it will show successful informations and file can be viewed inside the folder in  `DBFS``.
+On successful ``deletion``, it will show successful informations and file can be viewed inside the folder in  ``DBFS``.
 
 .. figure:: ../../_assets/configuration/suc.PNG
    :alt: Databricks

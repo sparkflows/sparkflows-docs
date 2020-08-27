@@ -21,8 +21,8 @@ Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs ru
 Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS.
 
 
-.. figure:: ../../_assets/configuration/wheelfile.PNG
+.. figure:: ../_assets/configuration/wheelfile.PNG
    :alt: Databricks
    :align: center
-   :width: 60%
+   :width: 40%
 

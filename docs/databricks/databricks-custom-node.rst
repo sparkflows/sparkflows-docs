@@ -93,3 +93,14 @@ Once the custom processor submitted successfully, it will be vissible in ``Custo
    :align: center
    :width: 60%
 
+Using the new Processor
+-----------------------
+
+The processor is now available in the Workflow Editor.
+
+.. figure:: ../_assets/configuration/scorecard_binning.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
+   
+You can click on the custom processor to start using it in your workflow.

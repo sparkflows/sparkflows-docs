@@ -88,7 +88,7 @@ Finally click on the ``Submit`` button to finish creating the new custom process
 
 Once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.
 
-.. figure:: ../_assets/developer-guide/customprocess-list.PNG
+.. figure:: ../_assets/configuration/customprocess-list.PNG
    :alt: Custom Processor
    :align: center
    :width: 60%

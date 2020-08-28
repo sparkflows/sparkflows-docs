@@ -103,4 +103,8 @@ The processor is now available in the Workflow Editor.
    :align: center
    :width: 60%
    
-You can click on the custom processor to start using it in your workflow.
+You can click on the custom processor to start using it in your workflow & submit the job.
+
+.. figure:: ../_assets/configuration/scorecard-bin-submit.PNG
+   :align: center
+   :width: 60%

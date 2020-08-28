@@ -60,6 +60,8 @@ Execute Code
 ------------
   
 The Code tab is where you write the execution code for the new Custom Processor.
+
+Its updated for scorecardpy here.
   
 It shows the default template which you can update
   

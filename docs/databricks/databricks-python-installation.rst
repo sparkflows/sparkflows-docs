@@ -95,6 +95,17 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
    :align: center
    :width: 40%
 
+Install python package
+-----------------------
+
+You need to install python package on the machine by running below command from ``fire-x.y.z/dist/fire/`` directory.
+
+.. figure:: ../_assets/configuration/pyth-package.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
+
 Job Submission using Pyspark Engine
 -----------------------------------
 
@@ -104,3 +115,4 @@ Now You can submit the pyspark Job on Databricks Cluster from Fire Insights appl
    :alt: Databricks
    :align: center
    :width: 40%
+

@@ -12,10 +12,10 @@ Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top
    :align: center
    :width: 60%
 
-Click on Create New Custom Node
+Click on CREATE PROCESSORS
 -------------------------------
 
-Click on ``Create Processors`` to start creating the new processor.
+Click on ``CREATE PROCESSORS`` to start creating the new processor.
 
 
 .. figure:: ../_assets/developer-guide/create_processors.PNG

@@ -9,6 +9,7 @@ Databricks Guide
    databricks-python-installation.rst
    user-guide/index.rst
    troubleshooting.rst
+   databricks-custom-node.rst
 
    
    

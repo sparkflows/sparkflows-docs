@@ -100,7 +100,7 @@ Install python package
 
 You need to install python package on the machine by running below command from ``fire-x.y.z/dist/fire/`` directory.
 
-.. figure:: ../_assets/configuration/pyth-package.PNG
+.. figure:: ../_assets/configuration/python-package.PNG
    :alt: Databricks
    :align: center
    :width: 40%

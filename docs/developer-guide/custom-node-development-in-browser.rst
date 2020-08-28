@@ -124,12 +124,12 @@ You can click on the custom processor to start using it in your workflow.
 
 You can also export & import them
 
-Export Cutsom Processors
+Export Custom Processors
 -------------------------
 
-Fire Insights enables you to ``export`` Cutsom Processors from Browser to local machine.
+Fire Insights enables you to ``export`` Custom Processors from Browser to local machine.
 
-Below are the steps to export Cutsom Processors.
+Below are the steps to export Custom Processors.
 
 login to Fire Insights & go to Custom Processors list page.
 
@@ -155,12 +155,12 @@ Once you click on export button, the selected Custom Processors will be download
    :align: center
    :width: 60% 
 
-Import Cutsom Processors
+Import Custom Processors
 ------------------------
 
-Fire Insights enables you to ``import`` Cutsom Processors to different environment.
+Fire Insights enables you to ``import`` Custom Processors to different environment.
 
-Below are the steps to Import Cutsom Processors.
+Below are the steps to Import Custom Processors.
 
 login to Fire Insights & go to Custom Processors list page.
 
@@ -182,27 +182,27 @@ Select the ``IMPORT`` button, it will open a new windows to upload zip file from
    :align: center
    :width: 60%
 
-Once you upload zip file of Cutsom Processors from local machine, press ``IMPPORT`` button to import it.
+Once you upload zip file of Custom Processors from local machine, press ``IMPORT`` button to import it.
 
 .. figure:: ../_assets/developer-guide/selimp.png
    :alt: Custom Processor
    :align: center
    :width: 60%
 
-NOTE: you can import multiple ``Cutsom Processors`` at a time too.
+NOTE: you can import multiple ``Custom Processors`` at a time too.
 
-Once you Click on IMPORT button, success message will display on imported Cutsom Processors.
+Once you Click on IMPORT button, success message will display on imported Custom Processors.
 
 .. figure:: ../_assets/developer-guide/successimp.PNG
    :alt: Custom Processor
    :align: center
    :width: 60%
 
-After success import, you can view those ``Cutsom Processors`` in Cutsom Processors list page.
+After success import, you can view those ``Custom Processors`` in Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/importedprocessor.PNG
    :alt: Custom Processor
    :align: center
    :width: 60%
    
-Now you can use those Cutsom Processors in your workflow.   
+Now you can use those Custom Processors in your workflow.   

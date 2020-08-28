@@ -47,3 +47,41 @@ Click on the ``+`` sign to add a new field. For each field provide the following
   * TITLE
   * VALUE
   * DESCRIPTION
+
+.. figure:: ../_assets/developer-guide/fields.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+  
+  
+Finally click on the ``Next`` button to go to the Code tab.
+  
+Execute Code
+------------
+  
+The Code tab is where you write the execution code for the new Custom Processor.
+  
+It shows the default template which you can update
+  
+.. figure:: ../_assets/developer-guide/code.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+  
+Then click on ``Next`` button to go to the Schema tab.
+  
+Schema Update Code
+------------------
+  
+The Schema tab is where you add the code which updates the incoming schema to produce the output schema from this processor.
+  
+It displays the default template code which you can update.
+  
+.. figure:: ../_assets/developer-guide/schema.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60%
+  
+Finally click on the ``Submit`` button to finish creating the new custom processor.
+
+Once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.

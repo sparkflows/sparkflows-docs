@@ -33,4 +33,17 @@ It would open up the Create Processor Page as below.
 
 Enter the name and other details for the new processor.
 
+Then provide details for the various fields of the new processors. These fields would appear in the processor dialog when used in the workflow editor.
 
+.. figure:: ../_assets/developer-guide/processor_editor.PNG
+   :alt: Custom Processor
+   :align: center
+   :width: 60% 
+
+Click on the ``+`` sign to add a new field. For each field provide the following:
+
+  * WIDGET
+  * NAME
+  * TITLE
+  * VALUE
+  * DESCRIPTION

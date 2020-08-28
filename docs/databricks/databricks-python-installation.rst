@@ -98,7 +98,7 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
 Install Python dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running Command ``pip install -r requirements.txt`` from ``fire-x.y.z/dist/fire/`` directory.
+You need to install the python dependencies required by Fire Insights on the machine by running below Command `` from ``fire-x.y.z/dist/fire/`` directory.
 
 Run Command ``pip install -r requirements.txt``
 

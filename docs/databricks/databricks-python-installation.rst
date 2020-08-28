@@ -107,7 +107,7 @@ Run Command ``pip install -r requirements.txt``
    :align: center
    :width: 40%
 
-Note: Make sure that pip etc is installed 
+Note: Make sure that pip etc is already installed on that machine
 
 Job Submission using Pyspark Engine
 -----------------------------------

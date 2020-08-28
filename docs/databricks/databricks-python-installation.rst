@@ -98,13 +98,16 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
 Install python package
 -----------------------
 
-You need to install python package on the machine by running below command from ``fire-x.y.z/dist/fire/`` directory.
+You need to install python package on the machine by running Command ``pip install -r requirements.txt`` from ``fire-x.y.z/dist/fire/`` directory.
+
+Run Command ``pip install -r requirements.txt``
 
 .. figure:: ../_assets/configuration/python-package.PNG
    :alt: Databricks
    :align: center
    :width: 40%
 
+Note: Make sure that pip etc is installed 
 
 Job Submission using Pyspark Engine
 -----------------------------------

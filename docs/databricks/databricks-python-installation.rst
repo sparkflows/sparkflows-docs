@@ -109,6 +109,16 @@ Run Command ``pip install -r requirements.txt``
 
 Note: Make sure that pip etc is already installed on that machine
 
+Start Pyspark Server
+--------------------
+
+Now you can Start pyspark server using script ``run-fire-pyspark.sh``
+
+.. figure:: ../_assets/configuration/pysparkserver.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
 Job Submission using Pyspark Engine
 -----------------------------------
 

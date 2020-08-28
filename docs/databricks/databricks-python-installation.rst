@@ -1,22 +1,22 @@
 Databricks Python Integration Steps
 ======================
 
-Fire Insights integrates with Databricks with python package. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
+Fire Insights integrates with Databricks and can submit Python jobs. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Below are the steps for Integrating Fire Insights with your Databricks Clusters using python package.
+Below are the steps for Integrating Fire Insights with your Databricks Clusters for running Python jobs.
 
-NOTE: The Machine should have python with version 3.7.0 or above.
+NOTE: The Machine on which Fire Insights is installed should have Python 3.6.0 or above.
 
 
 Install Fire Insights
 -----------
 
-Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster.
+Install Fire Insights on your machines. The machine has to be reachable from the Databricks cluster.
 
 Upload Fire wheel file to Databricks
 ----------------------------------
 
-Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file, as it contains all python package needed.
+Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file.
 
 Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS.
 
@@ -95,10 +95,10 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
    :align: center
    :width: 40%
 
-Install python package
+Install Python dependencies
 -----------------------
 
-You need to install python package on the machine by running Command ``pip install -r requirements.txt`` from ``fire-x.y.z/dist/fire/`` directory.
+You need to install the python dependencies required by Fire Insights on the machine by running Command ``pip install -r requirements.txt`` from ``fire-x.y.z/dist/fire/`` directory.
 
 Run Command ``pip install -r requirements.txt``
 
@@ -107,25 +107,17 @@ Run Command ``pip install -r requirements.txt``
    :align: center
    :width: 40%
 
-Note: Make sure that pip etc is already installed on that machine
+Note: Make sure that pip etc. is already installed on that machine
 
-Start Pyspark Server
---------------------
 
-Now you can Start pyspark server using script ``run-fire-pyspark.sh``
-
-.. figure:: ../_assets/configuration/pysparkserver.PNG
-   :alt: Databricks
-   :align: center
-   :width: 40%
 
 Job Submission using Pyspark Engine
 -----------------------------------
 
-Now You can submit the pyspark Job on Databricks Cluster from Fire Insights application.
+Now You can submit the pyspark Job to Databricks Cluster from Fire Insights.
 
 .. figure:: ../_assets/configuration/job.PNG
-   :alt: Databricks
+   :alt: Submit Job
    :align: center
    :width: 40%
 

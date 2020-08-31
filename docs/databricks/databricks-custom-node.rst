@@ -5,6 +5,24 @@ Fire Insights allows you to build your own Custom Nodes.
 
 In this tutorial we would build a custom node built upon scorecardpy.
 
+Install the scorecardpy dependencies
+------------------------------------
+
+Since we are using the library scorecardpy, we would install its packages both on the Fire Insights machine and on the Databricks cluster.
+
+Use the command below to install it on the Fire Insights machines:
+
+  * ``pip install scorecardpy``
+
+Install it on your Databricks cluster with the below:
+
+  * Open a Notebook
+  * %sh pip install scorecardpy
+  
+
+Go to Custom Processors
+---------------------
+
 Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top, select Custom Processors.
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG

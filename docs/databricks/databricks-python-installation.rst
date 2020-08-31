@@ -107,6 +107,12 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
    :align: center
    :width: 40%
 
+Install dependency for AWS
+--------------------------
+
+Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
+
+
 Upload workflow.json in DBFS
 ------------------------------
 

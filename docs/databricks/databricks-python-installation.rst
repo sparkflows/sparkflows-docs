@@ -103,6 +103,16 @@ Configure the path of the uploaded fire python wheel package file & workflowexec
    :align: center
    :width: 40%
 
+Upload workflow.json in DBFS
+------------------------------
+
+Upload workflow.json inside `` /workflows/`` folder of DBFS, If workflow.json size is above 10000 bytes, As databricks have the limitation.
+
+.. figure:: ../_assets/configuration/dbfs_wf.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
 Install Python dependencies
 -----------------------
 

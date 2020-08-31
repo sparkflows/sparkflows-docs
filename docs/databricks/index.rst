@@ -10,6 +10,8 @@ Databricks Guide
    user-guide/index.rst
    troubleshooting.rst
    databricks-custom-node.rst
+   databricks-custom-node-json.rst
+   
 
    
    

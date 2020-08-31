@@ -66,7 +66,11 @@ On Successfull installation of wheel file on Databricks Cluster, it will show un
    :align: center
    :width: 40%
    
-Install any specific package of python, if Need to use in Custom Processors on databricks Cluster.
+Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
+
+Use the command below to install it on the Fire Insights machines:
+
+  * ``pip install scorecardpy``
 
 Install it on your Databricks cluster with the below:
 

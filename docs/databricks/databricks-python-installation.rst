@@ -65,6 +65,14 @@ On Successfull installation of wheel file on Databricks Cluster, it will show un
    :alt: Databricks
    :align: center
    :width: 40%
+   
+Install any specific package of python, if Need to use in Custom Processors on databricks Cluster.
+
+Install it on your Databricks cluster with the below:
+
+Open a Notebook
+%sh pip install scorecardpy
+
 
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------

@@ -7,7 +7,7 @@ You would provide the execute method for the Processor and the Schema update cod
 
 Below are the steps for creating the custom node.
 
-Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top, select Custom Processors.
+Once you login to Fire Insights application, there is ``PROCESSORS`` menu on top, select Custom Processors.
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor
@@ -86,7 +86,7 @@ It displays the default template code which you can update.
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
 
-Once the custom processor submitted successfully, it will be vissible in ``Custom Processors`` list page.
+Once the custom processor is submitted successfully, it will be visible in ``Custom Processors`` list page.
  
 .. figure:: ../_assets/developer-guide/submitted_processor.PNG
    :alt: Custom Processor
@@ -131,7 +131,7 @@ Fire Insights enables you to ``export`` Custom Processors from Browser to local 
 
 Below are the steps to export Custom Processors.
 
-login to Fire Insights & go to Custom Processors list page.
+Login to Fire Insights & go to Custom Processors list page.
 
 
 .. figure:: ../_assets/developer-guide/customlist.PNG
@@ -162,7 +162,7 @@ Fire Insights enables you to ``import`` Custom Processors to different environme
 
 Below are the steps to Import Custom Processors.
 
-login to Fire Insights & go to Custom Processors list page.
+Login to Fire Insights & go to Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/custimp.PNG
    :alt: Custom Processor
@@ -189,7 +189,7 @@ Once you upload zip file of Custom Processors from local machine, press ``IMPORT
    :align: center
    :width: 60%
 
-NOTE: you can import multiple ``Custom Processors`` at a time too.
+NOTE: You can import multiple ``Custom Processors`` at a time too.
 
 Once you Click on IMPORT button, success message will display on imported Custom Processors.
 

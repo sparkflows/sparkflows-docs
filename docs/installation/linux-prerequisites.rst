@@ -38,4 +38,11 @@ Using Linux RPM Package
 
 export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/
 
+
+Download OpenJDK
+----------------
+
+- https://openjdk.java.net/install/
+
+
     

@@ -23,7 +23,7 @@ If using Python and PySpark (not needed for the core features of Fire Insights) 
 Downloading and Installing Java 8
 ---------------------------------
 
-Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 
 You may have to set JAVA_HOME after the installation.
 

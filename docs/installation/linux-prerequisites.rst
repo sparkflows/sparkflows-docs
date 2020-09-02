@@ -34,7 +34,6 @@ Using Linux RPM Package
 
 - Download the Linux x64 RPM Package
 - yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)
-- Update .bash_profile by adding JAVA_HOME
 
 Update ``.bash_profile`` to add the below::
 

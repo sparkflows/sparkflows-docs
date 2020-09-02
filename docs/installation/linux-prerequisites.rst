@@ -36,7 +36,7 @@ Using Linux RPM Package
 - yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)
 - Update .bash_profile by adding JAVA_HOME
 
-Update .bash_profile to add the below::
+Update ``.bash_profile`` to add the below::
 
   export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
   export PATH=$PATH:$JAVA_HOME/bin

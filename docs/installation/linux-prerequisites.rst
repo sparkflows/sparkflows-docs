@@ -30,7 +30,7 @@ You may have to set JAVA_HOME after the installation.
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 
 Using Linux RPM Package
-++++++++++++++++++++++++
+=======================
 
 - Download the Linux x64 RPM Package
 - yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)

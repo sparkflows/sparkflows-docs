@@ -137,7 +137,7 @@ Upload Fire workflowexecutedatabricks.py file to DBFS
 
 For Python Job submission to Databricks Cluster.
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS & even S3 Bucket too.
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even S3 Bucket too.
 
 .. figure:: ../_assets/configuration/workflow.PNG
    :alt: Databricks

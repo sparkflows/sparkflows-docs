@@ -124,7 +124,18 @@ Configure the Uploaded Library in Fire Insights
 
 Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Fire Insights.
 
+It can be two source either ``DBFS`` or ``S3`` path.
+
+If you have Uploaded in ``DBFS`` path.
+
 .. figure:: ../_assets/configuration/db_configure.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
+If you have Uploaded in ``S3`` path.
+
+.. figure:: ../_assets/configuration/s3db_configure.PNG
    :alt: Databricks
    :align: center
    :width: 40%

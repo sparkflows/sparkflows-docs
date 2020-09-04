@@ -92,9 +92,13 @@ Use the command below to install it on the Fire Insights machines:
 
 Install it on your Databricks cluster with the below:
 
-  * Open a Notebook
+  * Open a Notebook and attached to Databricks Cluster.
   * %sh pip install scorecardpy
 
+.. figure:: ../_assets/configuration/scorecard.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
 
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------

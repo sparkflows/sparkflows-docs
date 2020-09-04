@@ -124,7 +124,7 @@ Use the command below to install it on the Fire Insights machines:
 
 Install it on your Databricks cluster with the below:
 
-  * Open a Notebook and attached to Databricks Cluster.
+  * Open a Notebook and attach to Databricks Cluster.
   * %sh pip install scorecardpy
 
 .. figure:: ../_assets/configuration/scorecard.PNG

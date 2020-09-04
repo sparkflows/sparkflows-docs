@@ -77,6 +77,13 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
    :align: center
    :width: 40%
 
+Once it will Install Successfully, you can see the python wheel inside Library up.
+
+.. figure:: ../_assets/configuration/uploads3wheel.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
 
 Use the command below to install it on the Fire Insights machines:
@@ -94,7 +101,7 @@ Upload Fire workflowexecutedatabricks.py file to DBFS
 
 For Python Job submission to Databricks Cluster.
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS.
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS & even S3 too.
 
 .. figure:: ../_assets/configuration/workflow.PNG
    :alt: Databricks
@@ -128,7 +135,7 @@ Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
 Install Python dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running below Command `` from ``fire-x.y.z/dist/fire/`` directory.
+You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory.
 
 Run Command ``pip install -r requirements.txt``
 

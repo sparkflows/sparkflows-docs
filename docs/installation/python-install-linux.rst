@@ -47,6 +47,7 @@ Reference
 ---------
 
   * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
+  * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
 
 

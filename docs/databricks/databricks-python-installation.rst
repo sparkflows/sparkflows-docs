@@ -18,7 +18,7 @@ Upload Fire wheel file to Databricks
 
 Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file.
 
-Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 which is accessible.
+Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible.
 
 
 .. figure:: ../_assets/configuration/wheelfile.PNG
@@ -66,9 +66,9 @@ On Successfull installation of wheel file on Databricks Cluster, it will show un
    :align: center
    :width: 40%
 
-you can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 which is accessible from Databricks Cluster.
+you can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 Bucket which is accessible from Databricks Cluster.
 
-Once you Upload ``fire-3.1.0-py3-none-any.whl`` file in s3, Login to Databricks Cluster & inside Libraries tab.
+Once you Upload ``fire-3.1.0-py3-none-any.whl`` file in s3 Bucket, Login to Databricks Cluster & inside Libraries tab.
 
 Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy paste the location of python wheel file available in s3 in File Path & Click on Install.
 
@@ -105,7 +105,7 @@ Upload Fire workflowexecutedatabricks.py file to DBFS
 
 For Python Job submission to Databricks Cluster.
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS & even S3 too.
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS & even S3 Bucket too.
 
 .. figure:: ../_assets/configuration/workflow.PNG
    :alt: Databricks

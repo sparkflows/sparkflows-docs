@@ -84,6 +84,33 @@ Once it will Install Successfully, you can see the python wheel inside Library i
    :align: center
    :width: 40%
 
+
+Install Python dependencies
+-----------------------
+
+You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory.
+
+Run Command ``pip install -r requirements.txt``
+
+.. figure:: ../_assets/configuration/python-package.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
+Note: Make sure that pip etc. is already installed on that machine
+
+Install dependency for AWS
+--------------------------
+
+Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
+
+Just ensure that all required jar should be pyspark jars path.
+
+.. figure:: ../_assets/configuration/awssdkjar.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
 
 Use the command below to install it on the Fire Insights machines:
@@ -144,33 +171,6 @@ If you have Uploaded in ``S3`` path.
    :alt: Databricks
    :align: center
    :width: 40%
-
-Install Python dependencies
------------------------
-
-You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory.
-
-Run Command ``pip install -r requirements.txt``
-
-.. figure:: ../_assets/configuration/python-package.PNG
-   :alt: Databricks
-   :align: center
-   :width: 40%
-
-Note: Make sure that pip etc. is already installed on that machine
-
-Install dependency for AWS
---------------------------
-
-Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
-
-Just ensure that all required jar should be pyspark jars path.
-
-.. figure:: ../_assets/configuration/awssdkjar.PNG
-   :alt: Databricks
-   :align: center
-   :width: 40%
-
 
 Job Submission using Pyspark Engine
 -----------------------------------

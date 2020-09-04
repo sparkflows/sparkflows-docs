@@ -104,7 +104,7 @@ Install dependency for AWS
 
 Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
 
-Just ensure that all required jar should be pyspark jars path.
+Just ensure that all required jar should be in pyspark jars path.
 
 .. figure:: ../_assets/configuration/awssdkjar.PNG
    :alt: Databricks

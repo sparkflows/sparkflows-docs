@@ -77,7 +77,7 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
    :align: center
    :width: 40%
 
-Once it will Install Successfully, you can see the python wheel inside Library up.
+Once it will Install Successfully, you can see the python wheel inside Library is up.
 
 .. figure:: ../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks

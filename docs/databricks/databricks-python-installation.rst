@@ -140,18 +140,6 @@ If you have Uploaded in ``S3`` path.
    :align: center
    :width: 40%
 
-Install dependency for AWS
---------------------------
-
-Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
-
-Just ensure that all required jar should be pyspark jars path.
-
-.. figure:: ../_assets/configuration/awssdkjar.PNG
-   :alt: Databricks
-   :align: center
-   :width: 40%
-
 Install Python dependencies
 -----------------------
 
@@ -166,6 +154,17 @@ Run Command ``pip install -r requirements.txt``
 
 Note: Make sure that pip etc. is already installed on that machine
 
+Install dependency for AWS
+--------------------------
+
+Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
+
+Just ensure that all required jar should be pyspark jars path.
+
+.. figure:: ../_assets/configuration/awssdkjar.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
 
 
 Job Submission using Pyspark Engine

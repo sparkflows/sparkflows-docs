@@ -65,7 +65,18 @@ On Successfull installation of wheel file on Databricks Cluster, it will show un
    :alt: Databricks
    :align: center
    :width: 40%
-   
+
+you can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 which is accessible from Databricks Cluster.
+
+Once you Upload ``fire-3.1.0-py3-none-any.whl`` file in s3, Login to Databricks Cluster & inside Libraries tab.
+
+Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy paste the location of python wheel file available in s3 in File Path & Click on Install.
+
+.. figure:: ../_assets/configuration/s3wheel.PNG
+   :alt: Databricks
+   :align: center
+   :width: 40%
+
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
 
 Use the command below to install it on the Fire Insights machines:

@@ -1,7 +1,7 @@
 Python Installation on Linux
 ++++++++++++++++++++++++++++++++
 
-Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
+Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
 Check if Python is Installed
 ----------------
@@ -24,7 +24,14 @@ Add below in .bash_profile
 Sometimes a soft link to Pythons’s executables is broken for some reason.  
    sudo ln -s /usr/bin/python3.6 /usr/bin/python
    
-Install pip/wheel
+Create Python virtual environment
+---------------------------------
+
+  * python3 -m venv venv
+  * source venv/bin/activate
+  * python --version
+   
+Install pip & wheel
 -----------------
 
   * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm

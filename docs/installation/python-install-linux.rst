@@ -67,7 +67,6 @@ Add below in .bash_profile
   * export PYSPARK_PYTHON=/usr/bin/python3
   * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 
-Sometimes a soft link to Pythons’s executables is broken for some reason.  
-   sudo ln -s /usr/bin/python3.6 /usr/bin/python
+
    
    

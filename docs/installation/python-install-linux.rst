@@ -12,7 +12,9 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-Check if python3 is available in the configured yum repositories : sudo yum list installed | grep -i python3
+Check if python3 is available in the configured yum repositories:
+
+  * sudo yum list installed | grep -i python3
 
 Install python3:
 

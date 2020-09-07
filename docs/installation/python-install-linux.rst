@@ -17,7 +17,6 @@ Install Python 3 (if not there)
 Add below in .bash_profile
 -----------
 
-  * alias python='python3'
   * export PYSPARK_PYTHON=/usr/bin/python3
   * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 

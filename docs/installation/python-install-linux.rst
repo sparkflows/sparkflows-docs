@@ -52,6 +52,11 @@ Upgrade pip version
 
   * pip install pip --upgrade
 
+.. figure:: ../_assets/configuration/pip-upgrade.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Install Other Packages
 ----------------------
 

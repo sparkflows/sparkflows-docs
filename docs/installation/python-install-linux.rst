@@ -50,12 +50,15 @@ Install the required packages:
 Reference
 ---------
 
+Links
++++++
+
   * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
   * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
 
-Install pip & wheel
------------------
+Installing pip & wheel
++++++++++++++++++++
 
   * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   * yum install python-pip

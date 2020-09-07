@@ -35,7 +35,18 @@ Create Python virtual environment & Activate it
 
   * python3 -m venv venv
   * source venv/bin/activate
+  
+.. figure:: ../_assets/configuration/venv.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+   
   * python --version
+
+.. figure:: ../_assets/configuration/python-version.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
 
 Upgrade pip version
 -------------------

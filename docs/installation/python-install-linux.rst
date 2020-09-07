@@ -49,6 +49,7 @@ Links
 +++++
 
   * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
+  * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
   * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
 

@@ -24,7 +24,12 @@ Check if python3 is available in the configured yum repositories:
 Install python3:
 
   * sudo yum install python3 -y
-   
+
+.. figure:: ../_assets/configuration/python-install.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Create Python virtual environment & Activate it
 ---------------------------------
 

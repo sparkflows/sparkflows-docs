@@ -12,6 +12,11 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
+Install EPEL repository if needed:
+
+  * https://www.tecmint.com/install-epel-repository-on-centos/
+  * yum install epel-release
+  
 Check if python3 is available in the configured yum repositories:
 
   * sudo yum list installed | grep -i python3

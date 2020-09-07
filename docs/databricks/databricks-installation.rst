@@ -60,7 +60,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-* Check the box with ``Install automatically on all clusters``, in order to avoid uploading manually to every cluster.   
+* Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
 
 .. figure:: ../_assets/configuration/installautomatic.PNG
    :alt: Databricks
@@ -85,10 +85,10 @@ This has to be done under Administration/Configuration.
 Configure app.postMessageURL in Fire Insights
 ----------------------------
 
-Configure ``app.postMessageURL`` to be the IP of the machine so that it is reachable from jobs running on the Databricks cluster.
+Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
 
 .. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
-   :alt: Databricks
+   :alt: Postback URL
    :align: center
    :width: 40%
 
@@ -160,7 +160,7 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 
 Create Databricks Connection in Fire Insights
-----------
+-----------------------------------
 
 Create a connection in Fire Insights to Databricks. 
 
@@ -172,7 +172,7 @@ It can also be created by any user with their Application. In this case, it is o
 * Specify the Databricks JDBC URL of your cluster in Databricks.
 
 .. figure:: ../_assets/configuration/databricks_connection.PNG
-   :alt: Databricks
+   :alt: Databricks Connection
    :align: center
    :width: 40%
 

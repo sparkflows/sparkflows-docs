@@ -12,7 +12,7 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-  * sudo yum install python36
+  * sudo yum install python3 -y
    
 Create Python virtual environment & Activate it
 ---------------------------------

@@ -29,13 +29,6 @@ Create Python virtual environment & Activate it
   * python3 -m venv venv
   * source venv/bin/activate
   * python --version
-   
-Install pip & wheel
------------------
-
-  * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-  * yum install python-pip
-  * yum install python-wheel
 
 Upgrade pip version
 -------------------
@@ -61,4 +54,11 @@ Reference
   * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
 
+Install pip & wheel
+-----------------
 
+  * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  * yum install python-pip
+  * yum install python-wheel
+  
+  

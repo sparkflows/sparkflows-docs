@@ -3,13 +3,13 @@ Python Installation on Linux
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
-Check if Python is Installed
+Check if Python 3.6+ is Installed
 ----------------
 
   * python --version
   * python3 --version
 
-Install Python 3 (if not there)
+Install Python 3 (if not installed)
 ----------------
 
 Install EPEL repository if needed:

@@ -7,6 +7,10 @@ Below are the steps for Integrating Fire Insights with your Databricks Clusters 
 
 NOTE: The Machine on which Fire Insights is installed should have Python 3.6.0 or above.
 
+Python Installation Steps:
+
+  * https://docs.sparkflows.io/en/latest/installation/python-install-linux.html
+
 
 Install Fire Insights
 -----------
@@ -18,11 +22,11 @@ Upload Fire wheel file to Databricks
 
 Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file.
 
-Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible.
+Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
 
 
 .. figure:: ../_assets/configuration/wheelfile.PNG
-   :alt: Databricks
+   :alt: Wheel File
    :align: center
    :width: 40%
 
@@ -40,7 +44,7 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 3. Create a new Library
 ++++++++++++++++++++++++++++++++
 
-you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, add some name in ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
+you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provide any ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
@@ -59,14 +63,14 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
    :align: center
    :width: 40%
    
-On Successfull installation of wheel file on Databricks Cluster, it will show under ``Libararies``.
+On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libararies``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
    :align: center
    :width: 40%
 
-you can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 Bucket which is accessible from Databricks Cluster.
+You can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 Bucket which is accessible from Databricks Cluster.
 
 Once you Upload ``fire-3.1.0-py3-none-any.whl`` file in s3 Bucket, Login to Databricks Cluster & inside Libraries tab.
 
@@ -102,9 +106,7 @@ Note: Make sure that pip etc. is already installed on that machine
 Install dependency for AWS
 --------------------------
 
-Update the jars with hadoop-aws and aws-java-sdk. i.e in pyspark jars path
-
-Just ensure that all required jar should be in pyspark jars path.
+Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
 
 .. figure:: ../_assets/configuration/awssdkjar.PNG
    :alt: Databricks
@@ -175,10 +177,11 @@ If you have Uploaded in ``S3`` path.
 Job Submission using Pyspark Engine
 -----------------------------------
 
-Now You can submit the pyspark Job to Databricks Cluster from Fire Insights.
+Now You can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
 .. figure:: ../_assets/configuration/job.PNG
    :alt: Submit Job
    :align: center
    :width: 40%
+
 

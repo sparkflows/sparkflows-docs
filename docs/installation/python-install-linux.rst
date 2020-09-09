@@ -6,8 +6,8 @@ Python is only needed if you need to use Python and the PySpark engine in Fire I
 Check if Python 3.6+ is Installed
 ----------------
 
-  * ``python --version``
-  * ``python3 --version``
+  * `python --version`
+  * `python3 --version`
 
 Install Python 3 (if not installed)
 ----------------

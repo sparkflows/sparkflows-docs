@@ -55,7 +55,7 @@ Create Python virtual environment & Activate it
 Upgrade pip version
 -------------------
 
-  * pip install pip -- upgrade
+  * pip install pip --upgrade
 
 .. figure:: ../_assets/configuration/pip-upgrade.PNG
    :alt: Installations

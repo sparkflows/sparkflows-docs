@@ -40,7 +40,7 @@ Create Python virtual environment & Activate it
 
   * python3 -m venv venv
   * source venv/bin/activate
-  * python --version
+  * ``python --version``
 
 .. figure:: ../_assets/configuration/venv.PNG
    :alt: Installations

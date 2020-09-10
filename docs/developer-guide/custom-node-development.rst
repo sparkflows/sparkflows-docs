@@ -1,4 +1,4 @@
-Custom Node Development & Deployment
+Custom Node Development & Deployment (Java/Scala)
 ====================================
 
 Fire Insights follows an open and extensible architecture allowing developers to add new custom nodes/processors that can be exposed in Fire UI and embedded into workflows.
@@ -31,7 +31,7 @@ Insall the Fire core jar to your local maven repository. The pom.xml contains th
 Step 3 : Code the new custom node
 ------------------------
 
-The customer node might be a ``Dataset`` node or a ``Transform`` node.
+The custom node might be a ``Dataset`` node or a ``Transform`` node.
 
 A ``Dataset`` node reads data from some source into a Dataframe. It passes on this new Dataframe to the next node. Examples of data sources include:
   

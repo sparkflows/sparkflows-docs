@@ -1,7 +1,7 @@
 Custom Node Development & Deployment
 ====================================
 
-Fire Insights follows an open and extensible architecture allowing developers to add custom nodes that can be exposed in Fire UI and embedded into workflows.
+Fire Insights follows an open and extensible architecture allowing developers to add new custom nodes/processors that can be exposed in Fire UI and embedded into workflows.
  
  
 **The details for building new nodes are available at the URL below:**

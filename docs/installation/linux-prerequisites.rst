@@ -46,5 +46,9 @@ Download OpenJDK
 
 - https://openjdk.java.net/install/
 
+- Install OpenJDK on Ubuntu
+
+https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
+
 
     

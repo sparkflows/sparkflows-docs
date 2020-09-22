@@ -31,3 +31,10 @@ Time Series Visualizations
 Fire Insights provides a number of Processors for the visualization of the time series data.
 
 * Trends
+
+Splitting
+---------
+
+Fire Insights provides processors for splitting the data by time for training, test and validation.
+
+

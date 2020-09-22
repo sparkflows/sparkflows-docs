@@ -24,3 +24,10 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
 * DateTimeFieldExtract
 * Category Encoder
 
+
+Time Series Visualizations
+--------------------------
+
+Fire Insights provides a number of Processors for the visualization of the time series data.
+
+* Trends

@@ -21,8 +21,7 @@ Time Series Feature Engineering
 
 Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. These include:
 
-* DateTimeFieldExtract
-* Category Encoder
+* DateTimeFieldExtract : Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
 
 
 Time Series Visualizations
@@ -30,11 +29,14 @@ Time Series Visualizations
 
 Fire Insights provides a number of Processors for the visualization of the time series data.
 
-* Trends
+* Charts : LineChart
 
 Splitting
 ---------
 
 Fire Insights provides processors for splitting the data by time for training, test and validation.
+
+* SplitByTime
+
 
 

@@ -26,7 +26,7 @@ Execute
 
 Execute the installer with :
 
-java -jar sparkflows.jar
+java -jar sparkflows-installer-1.0.jar
 
 Default port for sparkflows is : 8080
 

@@ -92,6 +92,13 @@ Configurations for visualization processors in Fire Insight:
    :align: center
    :width: 60%
 
+Output result of ``Visualization`` processor:
+
+.. figure:: ..//_assets/ml_userguide/outputresult_visualization.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
 Splitting
 ---------
 

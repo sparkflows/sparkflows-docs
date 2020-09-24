@@ -50,7 +50,7 @@ Output result of ``DateTimeFieldExtract`` processor:
 
 Below is the sample workflows which contains ``MovingWindowingFunctions`` processor in Fire Insights.
 
-It reads the ticker dataset, concatenate the input column, casting specified column to new data type, calculates the moving value of selected function of input column and print the result. 
+It reads the ticker dataset, concatenate the input column, casting specified column to new data type, use MovingWindowingFunctions processor which calculates the moving value of selected function of input column and print the result. 
 
 .. figure:: ..//_assets/ml_userguide/windowsfn.PNG
    :alt: ml_userguide

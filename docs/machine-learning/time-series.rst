@@ -33,7 +33,14 @@ It reads the JetRail Train dataset & use DateTimeFieldExtract processor which cr
    :alt: ml_userguide
    :align: center
    :width: 60%
+   
+DateTimeFieldExtract processor Configuration:
 
+.. figure:: ..//_assets/ml_userguide/datetime_configuration.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+   
 Below is the workflows which contains ``MovingWindowingFunctions`` processor in Fire Insights.
 
 It reads the dataset, concatenate the input column, casting specified column to new data type, calculates the moving value of selected function of input column and print the result. 

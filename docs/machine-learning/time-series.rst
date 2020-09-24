@@ -85,6 +85,13 @@ Below is the sample workflows which contains ``Time Series data`` and visualize 
    :align: center
    :width: 60%
 
+Configurations for visualization processors in Fire Insight:
+
+.. figure:: ..//_assets/ml_userguide/configurations_visualization.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
 Splitting
 ---------
 

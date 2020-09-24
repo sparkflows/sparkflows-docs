@@ -12,6 +12,11 @@ Check if Python 3.6+ is Installed
 Install Python 3 (if not installed)
 ----------------
 
+Some References for Installing Python:
+
+  * Ubuntu : https://docs.python-guide.org/starting/install3/linux/
+  * CentOS : https://www.liquidweb.com/kb/how-to-install-python-3-on-centos-7/
+
 Install EPEL repository if needed:
 
   * https://www.tecmint.com/install-epel-repository-on-centos/

@@ -40,7 +40,14 @@ MovingWindowingFunctions processor Configuration:
    :alt: ml_userguide
    :align: center
    :width: 60%
-   
+
+Output result of ``MovingWindowingFunctions`` processor:
+
+.. figure:: ..//_assets/ml_userguide/output-result.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
 Time Series Visualizations
 --------------------------
 

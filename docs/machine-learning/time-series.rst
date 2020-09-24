@@ -25,6 +25,8 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
 * MovingWindowingFunctions : Calculates the moving values using the given function.
 * WindowingAnalytics : Window Analytics Functions
 
+Below is the workflows which contains ``MovingWindowingFunctions`` processor in Fire Insights.
+
 .. figure:: ..//_assets/ml_userguide/windowsfn.PNG
    :alt: ml_userguide
    :align: center

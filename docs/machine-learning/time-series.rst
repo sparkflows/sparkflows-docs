@@ -104,7 +104,7 @@ Splitting
 
 Fire Insights provides processors for splitting the data by time for training, test and validation.
 
-* SplitByTime
+* Split By Time
 
 
 

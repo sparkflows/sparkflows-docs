@@ -25,7 +25,7 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
 * MovingWindowingFunctions : Calculates the moving values using the given function.
 * WindowingAnalytics : Window Analytics Functions
 
-Below is the workflows which contains ``MovingWindowingFunctions`` processor in Fire Insights.
+Below is the workflows which contains ``DateTimeFieldExtract`` processor in Fire Insights.
 
 It reads the JetRail Train dataset & use DateTimeFieldExtract processor which create New DataFrame by extracting Date & Time field and print the result.
 

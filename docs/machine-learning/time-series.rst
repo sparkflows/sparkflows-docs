@@ -41,7 +41,7 @@ DateTimeFieldExtract processor Configuration:
    :align: center
    :width: 60%
 
-Output result of ``DateTimeFieldExtract`` processor:
+Output result of ``DateTimeFieldExtract`` processor::
 
 .. figure:: ..//_assets/ml_userguide/datetime_output_result.PNG
    :alt: ml_userguide

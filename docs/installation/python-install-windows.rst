@@ -38,7 +38,7 @@ Install the required packages:
 
 Once the above steps completed successfully, just run the below command, if its running fine
 
-* `python ./dist/__main__.py`
+* ``python ./dist/__main__.py``
 
 .. figure:: ../_assets/installation/pyspark_server.PNG
    :alt: Installations

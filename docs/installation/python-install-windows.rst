@@ -16,6 +16,7 @@ Just ensure that it should python 3.6+
 
   * Download python from below Link
      * https://www.python.org/downloads/
+     * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
   * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path.   
 
 Upgrade pip version

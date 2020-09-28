@@ -6,8 +6,8 @@ Python is only needed if you need to use Python and the PySpark engine in Fire I
 Check if Python is Installed
 ----------------
 
-  * python --version
-  * python3 --version
+  * ``python --version``
+  * ``python3 --version``
 
 Install Python 3 (if not there)
 ----------------
@@ -21,7 +21,7 @@ Just ensure that Windows machine should have python with version 3.6+
   
 Once the installation complete, open command prompt to see if python installed or not
 
-  * python --version 
+  * ``python --version`` 
   
 Upgrade pip version
 -------------------

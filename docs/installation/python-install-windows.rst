@@ -36,5 +36,14 @@ Install the required packages:
 
 * fire-x.y.x/dist/fire/requirements.txt
 
+Once the above steps completed successfully, just check the below command if its running fine
+
+* ``python ./dist/__main__.py``
+
+.. figure:: ../_assets/installation/pyspark_server.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 
 

@@ -89,8 +89,8 @@ Links
   * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
   * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
-Removing Virtual environment
-++++++++++++++++++++++++++++
+Delete a venv
++++++++++++++
 
    * source venv/bin/activate
    * pip freeze > requirements.txt
@@ -112,10 +112,7 @@ Add below in .bash_profile
   * export PYSPARK_PYTHON=/usr/bin/python3
   * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 
-Delete a venv
-+++++++++++++
 
-  * rmvirtualenv my_env
 
    
    

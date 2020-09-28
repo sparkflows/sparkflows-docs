@@ -12,10 +12,18 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
+Just ensure that it should python 3.6+
+
   * Download python from below Link
      * https://www.python.org/downloads/
   * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path.   
-  
+
+Upgrade pip version
+-------------------
+
+  * ``pip install --user --upgrade pip``
+
+
 Install Other Packages
 ----------------------
 

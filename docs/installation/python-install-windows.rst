@@ -17,8 +17,12 @@ Just ensure that Windows machine should have python with version 3.6+
   * Download python from below Link
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
-  * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path.   
+  * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path. 
+  
+Once the installation complete, open command prompt to see if python installed or not
 
+  * python --version 
+  
 Upgrade pip version
 -------------------
 

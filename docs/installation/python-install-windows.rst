@@ -12,7 +12,7 @@ Check if Python is Installed
 Install Python 3 (if not there)
 ----------------
 
-Just ensure that it should python 3.6+
+Just ensure that Windows machine should have python with version 3.6+
 
   * Download python from below Link
      * https://www.python.org/downloads/

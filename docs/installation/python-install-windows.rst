@@ -36,7 +36,7 @@ Install the required packages:
 
 * fire-x.y.x/dist/fire/requirements.txt
 
-Once the above steps completed successfully, just check the below command if its running fine
+Once the above steps completed successfully, just run the below command, if its running fine
 
 * ``python ./dist/__main__.py``
 

@@ -25,6 +25,11 @@ Once the installation complete, open command prompt to see if python installed o
   
 Create a new system variable with name PYTHONPATH & add those in path too
 
+.. figure:: ../_assets/installation/pythonpathvariable.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 .. figure:: ../_assets/installation/pythonpath.PNG
    :alt: Installations
    :align: center

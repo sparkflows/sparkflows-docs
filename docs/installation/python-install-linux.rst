@@ -89,6 +89,14 @@ Links
   * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
   * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
+Removing Virtual environment
+++++++++++++++++++++++++++++
+
+   * source venv/bin/activate
+   * pip freeze > requirements.txt
+   * pip uninstall -r requirements.txt -y
+   * deactivate
+   * rm -r venv/
 
 Installing pip & wheel
 +++++++++++++++++++

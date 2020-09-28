@@ -23,7 +23,7 @@ Once the installation complete, open command prompt to see if python installed o
 
   * ``python --version`` 
   
-Create a new system variable with name PYTHONPATH & add those in path too
+Create a new system variable with name ``PYTHONPATH``
 
 .. figure:: ../_assets/installation/pythonpathvariable.PNG
    :alt: Installations
@@ -34,6 +34,8 @@ Create a new system variable with name PYTHONPATH & add those in path too
    :alt: Installations
    :align: center
    :width: 60%
+
+Add in sytsem path
 
 .. figure:: ../_assets/installation/systempath.PNG
    :alt: Installations

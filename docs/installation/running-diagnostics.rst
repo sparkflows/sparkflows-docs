@@ -1,4 +1,4 @@
-Running Diagnosics
+Running Diagnostics
 ==================
 
 Linux

@@ -70,7 +70,8 @@ Once the above steps have completed successfully, run the below command to ensur
    :align: center
    :width: 60%
 
-* Next enable PySpark Engine in Fire Insights
+Enable PySpark Engine in Fire Insights
+--------------------------------------
 
 Login to Fire Insights application and go to configurations and set ``app.enablePySparkEngine`` to ``true`` and save the changes. Now you can start using PySpark engine in Fire Insights. 
 

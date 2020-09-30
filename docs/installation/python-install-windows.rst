@@ -33,7 +33,7 @@ Create a new system variable called ``PYTHONPATH`` with values like shown in the
    :align: center
    :width: 60%
 
-.. figure:: ../_assets/installation/pythonpath.PNG
+.. figure:: ../_assets/installation/pythonpath1.PNG
    :alt: Installations
    :align: center
    :width: 60%

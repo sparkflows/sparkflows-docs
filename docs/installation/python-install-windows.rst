@@ -23,6 +23,9 @@ Once the installation is complete, open command prompt to see if python is insta
 
   * ``python --version`` 
   
+Create System Variable PYTHONPATH
+----------------------------------
+
 Create a new system variable called ``PYTHONPATH``
 
 .. figure:: ../_assets/installation/pythonpathvariable.PNG

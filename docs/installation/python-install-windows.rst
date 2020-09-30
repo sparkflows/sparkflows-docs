@@ -1,7 +1,7 @@
 Python Installation on Windows
 ++++++++++++++++++++++++++++++++
 
-Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.X.
+Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
 Check if Python is Installed
 ----------------
@@ -9,7 +9,7 @@ Check if Python is Installed
   * ``python --version``
   * ``python3 --version``
 
-Ensure that Windows machine has python with version 3.6+
+Ensure that you have python version 3.6+ installed.
 
 Install Python 3.6+ (if not already installed)
 ----------------
@@ -17,7 +17,7 @@ Install Python 3.6+ (if not already installed)
   * Download python from below Link
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
-  * Install and configure it. Check the option for adding path by default on first page of installation, so that we do not need to add the path manually. 
+  * Install and configure it. Check the option for adding path by default on first page of installation, so that you do not need to add it to the path manually. 
 
 Once the installation is complete, open command prompt to see if python is installed or not
 
@@ -26,7 +26,7 @@ Once the installation is complete, open command prompt to see if python is insta
 Create System Variable PYTHONPATH
 ----------------------------------
 
-Create a new system variable called ``PYTHONPATH``
+Create a new system variable called ``PYTHONPATH`` with values like shown in the screenshots below.
 
 .. figure:: ../_assets/installation/pythonpathvariable.PNG
    :alt: Installations
@@ -39,6 +39,7 @@ Create a new system variable called ``PYTHONPATH``
    :width: 60%
 
 Also add to system path
+-----------------------
 
 .. figure:: ../_assets/installation/systempath.PNG
    :alt: Installations

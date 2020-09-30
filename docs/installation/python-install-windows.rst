@@ -38,7 +38,7 @@ Create a new system variable called ``PYTHONPATH``
    :align: center
    :width: 60%
 
-Add to system path
+Also add to system path
 
 .. figure:: ../_assets/installation/systempath.PNG
    :alt: Installations

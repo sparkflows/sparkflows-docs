@@ -9,21 +9,21 @@ Check if Python is Installed
   * ``python --version``
   * ``python3 --version``
 
-Install Python 3 (if not there)
-----------------
+Ensure that Windows machine has python with version 3.6+
 
-Just ensure that Windows machine should have python with version 3.6+
+Install Python 3.6+ (if not already installed)
+----------------
 
   * Download python from below Link
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
-  * Installed and configured it, Checkbox the option of adding path by default on first page of installations, so that we dont need to add in the path. 
+  * Install and configure it. Check the option for adding path by default on first page of installation, so that we do not need to add the path manually. 
 
-Once the installation complete, open command prompt to see if python installed or not
+Once the installation is complete, open command prompt to see if python is installed or not
 
   * ``python --version`` 
   
-Create a new system variable with name ``PYTHONPATH``
+Create a new system variable called ``PYTHONPATH``
 
 .. figure:: ../_assets/installation/pythonpathvariable.PNG
    :alt: Installations
@@ -35,7 +35,7 @@ Create a new system variable with name ``PYTHONPATH``
    :align: center
    :width: 60%
 
-Add in sytsem path
+Add to system path
 
 .. figure:: ../_assets/installation/systempath.PNG
    :alt: Installations
@@ -49,18 +49,16 @@ Upgrade pip version
   * ``pip install --user --upgrade pip``
 
 
-Install Other Packages
+Install Other Dependent Packages
 ----------------------
 
-Install the required packages:
+Install the other required packages:
 
    * pip install -r requirements.txt
    
-``requirements.txt`` file is available in the installation directory of Fire Insights.
+``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
-* fire-x.y.x/dist/fire/requirements.txt
-
-Once the above steps completed successfully, just run the below command, if its running fine
+Once the above steps have completed successfully, run the below command to ensure everything was setup correctly.
 
 * ``python ./dist/__main__.py``
 
@@ -69,7 +67,9 @@ Once the above steps completed successfully, just run the below command, if its 
    :align: center
    :width: 60%
 
-* Once you start fire server, login to Fire Insights application and go to configurations and enable ``app.enablePySparkEngine as true`` and save the changes and start using PySpark engine in Fire Insights. 
+* Next enable PySpark Engine in Fire Insights
+
+Login to Fire Insights application and go to configurations and set ``app.enablePySparkEngine`` to ``true`` and save the changes. Now you can start using PySpark engine in Fire Insights. 
 
 .. figure:: ../_assets/installation/pyspark_url.PNG
    :alt: Installations

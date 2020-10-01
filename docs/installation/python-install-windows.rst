@@ -3,55 +3,29 @@ Python Installation on Windows
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
-Check if Python is Installed
-----------------
+Below are steps which intsall miniconda and package involved with it.
 
-  * ``python --version``
-  * ``python3 --version``
-
-Ensure that you have python version 3.6+ installed.
-
-Install Python 3.6+ (if not already installed)
-----------------
-
-  * Download python from below Link
-     * https://www.python.org/downloads/
-     * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
-  * Install and configure it. Check the option for adding path by default on first page of installation, so that you do not need to add it to the path manually. 
-
-Once the installation is complete, open command prompt to see if python is installed or not
-
-  * ``python --version`` 
-  
-Create System Variable PYTHONPATH
-----------------------------------
-
-Create a new system variable called ``PYTHONPATH`` with values like shown in the screenshots below.
-
-.. figure:: ../_assets/installation/pythonpathvariable.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
-
-.. figure:: ../_assets/installation/python_path.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
-
-Also add to system path
------------------------
-
-.. figure:: ../_assets/installation/systempath.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+  * Download Miniconda from below Link
+     * https://docs.conda.io/en/latest/miniconda.html
+     * https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
  
-   
-Upgrade pip version
--------------------
 
-  * ``pip install --user --upgrade pip``
+Once the download completes, open and run the .exe installer, agree to the license.
 
+At the Advanced Installation Options screen, I recommend that you do not check "Add Anaconda to my PATH environment variable"
+
+
+Open the Anaconda Prompt from the Windows start menu
+----------------------------------------------------
+
+At the Anaconda prompt, type python and hit [Enter]. The python command starts the Python interpreter, also called the Python REPL (for Read Evaluate Print Loop).
+
+.. figure:: ../_assets/installation/anaconda_prompt.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
+ 
 
 Install Other Dependent Packages
 ----------------------

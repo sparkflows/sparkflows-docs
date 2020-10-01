@@ -72,7 +72,7 @@ Install dependency for fbprophet package (Centos 7)
 Run below command with sudo privilege
 ++++++++++++++++++++++++++++++++++
 
-* ``yum install -y xz-devel``
+  * ``yum install -y xz-devel``
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations

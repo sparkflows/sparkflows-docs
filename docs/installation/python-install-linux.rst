@@ -70,13 +70,7 @@ Install dependency for fbprophet package (Centos 7)
 -----------------------------------------
 
 Run below command with sudo privilege
-
-* ``pip install pip --upgrade``
-
-.. figure:: ../_assets/configuration/pip-upgrade.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+++++++++++++++++++++++++++++++++++
 
   * ``yum install -y xz-devel``
    

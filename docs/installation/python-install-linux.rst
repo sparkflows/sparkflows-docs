@@ -66,6 +66,62 @@ Upgrade pip version
    :align: center
    :width: 60%
 
+Install dependency for fbprophet package (Centos 7)
+-----------------------------------------
+
+Run below command with sudo privilege:
+
+Reference
+---------
+
+Links
++++++
+
+  * https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
+
+   * ``yum install -y xz-devel``
+   
+.. figure:: ../_assets/configuration/develop-tool.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%   
+
+  * ``yum install centos-release-scl``
+  
+.. figure:: ../_assets/configuration/scl-tool.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 
+   
+  * ``yum install devtoolset-7``
+  
+ .. figure:: ../_assets/configuration/devtool7.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%  
+ 
+  * ``scl enable devtoolset-7 bash``
+  * ``gcc --version``
+   
+.. figure:: ../_assets/configuration/gcc_version.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%    
+
+ * ``pip install fbprophet``
+
+.. figure:: ../_assets/configuration/fbprophet.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
+ * ``pip list``
+
+.. figure:: ../_assets/configuration/piplist.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Install Other Packages
 ----------------------
 

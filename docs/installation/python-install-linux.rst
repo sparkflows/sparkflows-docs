@@ -72,14 +72,14 @@ Install dependency for fbprophet package (Centos 7)
 Run below command with sudo privilege:
 
 
-   * ``yum install -y xz-devel``
+   * ``yum install -y xz-devel``:
    
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
    :align: center
    :width: 60%   
 
-  * ``yum install centos-release-scl``
+  * ``yum install centos-release-scl``:
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations

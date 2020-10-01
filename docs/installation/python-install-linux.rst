@@ -71,13 +71,6 @@ Install dependency for fbprophet package (Centos 7)
 
 Run below command with sudo privilege:
 
-Reference
----------
-
-Links
-+++++
-
-  * https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
 
    * ``yum install -y xz-devel``
    
@@ -121,6 +114,11 @@ Links
    :alt: Installations
    :align: center
    :width: 60%
+
+Reference Links
++++++
+
+  * https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
 
 Install Other Packages
 ----------------------

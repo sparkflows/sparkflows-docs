@@ -108,14 +108,17 @@ Run below command with sudo privilege
    :align: center
    :width: 60%
 
-  * ``pip list``
+* ``pip list``
 
 .. figure:: ../_assets/configuration/piplist.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
-Reference Links
+Reference
+---------
+
+Links
 +++++
 
   * https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/

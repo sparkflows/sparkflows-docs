@@ -74,7 +74,7 @@ Run below command with sudo privilege:
 
    * ``yum install -y xz-devel``:
    
-.. figure:: ../_assets/configuration/develop-tool.PNG
+.. figure:: ..//_assets/configuration/develop-tool.PNG
    :alt: Installations
    :align: center
    :width: 60%   

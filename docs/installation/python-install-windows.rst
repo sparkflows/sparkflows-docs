@@ -28,6 +28,8 @@ At the Anaconda prompt, type python and hit [Enter]. The python command starts t
 Install dependency for fbprophet package (Windows 10)
 ----------------------------------------- 
 
+Install pystan:
+
 * ``conda install pystan -c conda-forge``
 
 .. figure:: ../_assets/installation/conda-pystan.PNG

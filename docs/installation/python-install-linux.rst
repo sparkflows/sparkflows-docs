@@ -79,7 +79,7 @@ Run below command with sudo privilege
    :align: center
    :width: 60%   
 
- * ``yum install centos-release-scl``
+  * ``yum install centos-release-scl``
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations

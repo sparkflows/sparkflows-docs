@@ -86,29 +86,29 @@ Run below command with sudo privilege
    :align: center
    :width: 60% 
    
-  * ``yum install devtoolset-7``
+* ``yum install devtoolset-7``
   
  .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
    :align: center
    :width: 60%  
  
-  * ``scl enable devtoolset-7 bash``
-  * ``gcc --version``
+* ``scl enable devtoolset-7 bash``
+* ``gcc --version``
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
    :align: center
    :width: 60%    
 
- * ``pip install fbprophet``
+* ``pip install fbprophet``
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
- * ``pip list``
+* ``pip list``
 
 .. figure:: ../_assets/configuration/piplist.PNG
    :alt: Installations

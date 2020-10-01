@@ -69,10 +69,11 @@ Upgrade pip version
 Install dependency for fbprophet package (Centos 7)
 -----------------------------------------
 
+Run below command with sudo privilege:
 
    * ``yum install -y xz-devel``
    
-.. figure:: ..//_assets/configuration/develop-tool.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/configuration/develop-tool.PNG
    :alt: Installations
    :align: center
    :width: 60%   

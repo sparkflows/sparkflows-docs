@@ -48,11 +48,8 @@ At the Anaconda prompt, type python and hit [Enter]. The python command starts t
    :align: center
    :width: 60%
    
-Reference
+Reference Link
 ------------
-
-Link
-+++++
 
 * https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/
 

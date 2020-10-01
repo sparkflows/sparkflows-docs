@@ -47,6 +47,14 @@ At the Anaconda prompt, type python and hit [Enter]. The python command starts t
    :alt: Installations
    :align: center
    :width: 60%
+   
+Reference
+------------
+
+Link
++++++
+
+* https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/
 
 Install dependency for fbprophet package (Windows 10)
 ----------------------------------------- 

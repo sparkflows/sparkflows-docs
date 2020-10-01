@@ -37,6 +37,24 @@ Install pystan:
    :align: center
    :width: 60%
 
+Install fbprophet:
+
+* ``conda install -c conda-forge fbprophet``
+
+.. figure:: ../_assets/installation/fbprophet_conda.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
+Check the version of fbprophet Installed:
+
+* ``pip list``
+
+.. figure:: ../_assets/installation/piplist_conda.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Install Other Dependent Packages
 ----------------------
 

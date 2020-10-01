@@ -66,7 +66,7 @@ Upgrade pip version
    :align: center
    :width: 60%
 
-Install dependency for fbprophet package (Centos 7)
+Install dependency for fbprophet package (CentOS 7)
 -----------------------------------------
 
 Run below command with sudo privilege

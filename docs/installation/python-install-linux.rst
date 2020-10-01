@@ -88,7 +88,7 @@ Run below command with sudo privilege
    
 * ``yum install devtoolset-7``
   
- .. figure:: ../_assets/configuration/devtool7.PNG
+.. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
    :align: center
    :width: 60%  

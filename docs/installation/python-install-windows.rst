@@ -29,6 +29,15 @@ Agree to the license
    :align: center
    :width: 60%
 
+At the Advanced Installation Options screen, recommended that you do not check "Add Anaconda to my PATH environment variable"
+--------------------------------
+
+.. figure:: ../_assets/installation/anaconda_agreement.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
+
 Open the Anaconda Prompt from the Windows start menu
 ----------------------------------------------------
 

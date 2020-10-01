@@ -32,7 +32,7 @@ Agree to the license
 At the Advanced Installation Options screen, recommended that you do not check "Add Anaconda to my PATH environment variable"
 --------------------------------
 
-.. figure:: ../_assets/installation/anaconda_path.PNG
+.. figure:: ../_assets/installation/anaconda-path.PNG
    :alt: Installations
    :align: center
    :width: 60%

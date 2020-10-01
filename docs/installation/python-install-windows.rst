@@ -3,7 +3,7 @@ Python Installation on Windows
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
-Below are steps which intsall Anaconda and package involved with it.
+Below are steps which install Anaconda.
 
   * Download Anaconda from below Link
      * https://www.anaconda.com/products/individual

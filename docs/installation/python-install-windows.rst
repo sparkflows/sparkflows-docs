@@ -20,7 +20,7 @@ Open the Anaconda Prompt from the Windows start menu
 
 At the Anaconda prompt, type python and hit [Enter]. The python command starts the Python interpreter, also called the Python REPL (for Read Evaluate Print Loop).
 
-.. figure:: ../_assets/installation/anaconda_prompt.PNG
+.. figure:: ../_assets/installation/anaconda_cmd.PNG
    :alt: Installations
    :align: center
    :width: 60%

@@ -82,6 +82,21 @@ Run Below command to activate and check list of python package available by defa
    :align: center
    :width: 60%
 
+Install Other Dependent Packages
+----------------------
+
+Install the other required packages:
+
+   * pip install -r requirements.txt
+   
+``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
+
+.. figure:: ../_assets/installation/requirement_text.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
+
 Install dependency for fbprophet package (Windows 10)
 ----------------------------------------- 
 
@@ -111,15 +126,6 @@ Check the version of fbprophet Installed:
    :alt: Installations
    :align: center
    :width: 60%
-
-Install Other Dependent Packages
-----------------------
-
-Install the other required packages:
-
-   * pip install -r requirements.txt
-   
-``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
 Once the above steps have completed successfully, run the below command to ensure everything was setup correctly.
 

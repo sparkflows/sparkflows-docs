@@ -146,4 +146,10 @@ Login to Fire Insights application and go to configurations and set ``app.enable
    :align: center
    :width: 60%
 
+Removing Conda virtual Environment
+----------------------------------
+
+* ``conda deactivate``
+* ``conda env remove --name name of virtual environment``
+* delete those package from exact location.
 

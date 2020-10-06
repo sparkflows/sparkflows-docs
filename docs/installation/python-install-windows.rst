@@ -43,9 +43,9 @@ It is recommended to not check "Add Anaconda to my PATH environment variable"
 Open the Anaconda Prompt from the Windows start menu
 ----------------------------------------------------
 
-At the Anaconda prompt, type python and hit [Enter]. The python command starts the Python interpreter, also called the Python REPL (for Read Evaluate Print Loop).
+At the Anaconda prompt, check the `conda --version`.
 
-.. figure:: ../_assets/installation/anaconda_cmd.PNG
+.. figure:: ../_assets/installation/conda_version.PNG
    :alt: Installations
    :align: center
    :width: 60%

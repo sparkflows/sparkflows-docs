@@ -91,7 +91,7 @@ Install the other required packages:
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
-.. figure:: ../_assets/installation/requirement_text.PNG
+.. figure:: ../_assets/installation/req_text.PNG
    :alt: Installations
    :align: center
    :width: 60%

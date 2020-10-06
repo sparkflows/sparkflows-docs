@@ -29,7 +29,7 @@ Agree to the License
    :align: center
    :width: 60%
 
-Advanced Installation Options scree
+Advanced Installation Options screen
 --------------------------------
 
 It is recommended to not check "Add Anaconda to my PATH environment variable"

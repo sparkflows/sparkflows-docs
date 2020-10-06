@@ -3,17 +3,17 @@ Python Installation on Windows
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
-Below are steps which install Anaconda.
+Below are steps for installing Anaconda.
 
-  * Download Anaconda from below Link
+  * Download Anaconda from the below Link
      * https://www.anaconda.com/products/individual
      * https://www.anaconda.com/products/individual#Downloads
  
 
-Once the download completes, open and run the .exe installer
+Once the download completes, run the .exe installer
 
-At the beginning of the install, you need to click Next to confirm the installation
-------------------------------------------------------------------------------------
+Click Next to confirm the installation
+---------------------------------------
 
 .. figure:: ../_assets/installation/anaconda.PNG
    :alt: Installations
@@ -21,7 +21,7 @@ At the beginning of the install, you need to click Next to confirm the installat
    :width: 60%
 
 
-Agree to the license
+Agree to the License
 ----------------------
 
 .. figure:: ../_assets/installation/anaconda_agreement.PNG
@@ -29,8 +29,10 @@ Agree to the license
    :align: center
    :width: 60%
 
-At the Advanced Installation Options screen, recommended that you do not check "Add Anaconda to my PATH environment variable"
+Advanced Installation Options scree
 --------------------------------
+
+It is recommended to not check "Add Anaconda to my PATH environment variable"
 
 .. figure:: ../_assets/installation/anaconda_path.PNG
    :alt: Installations

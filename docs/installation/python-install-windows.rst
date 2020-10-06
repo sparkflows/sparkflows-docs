@@ -55,6 +55,19 @@ Reference Link
 
 * https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/
 
+
+Create virtual environment using conda
+--------------------------------------
+
+Run below command to Create virtual environment using conda.
+
+* ``conda create --name venv python=3.7``
+
+.. figure:: ../_assets/installation/virtual_env.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Install dependency for fbprophet package (Windows 10)
 ----------------------------------------- 
 

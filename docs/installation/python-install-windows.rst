@@ -43,7 +43,7 @@ It is recommended to not check "Add Anaconda to my PATH environment variable"
 Open the Anaconda Prompt from the Windows start menu
 ----------------------------------------------------
 
-At the Anaconda prompt, check the `conda --version`.
+At the Anaconda prompt, check the ``conda --version``.
 
 .. figure:: ../_assets/installation/conda_version.PNG
    :alt: Installations

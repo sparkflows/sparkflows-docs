@@ -68,6 +68,20 @@ Run below command to Create virtual environment using conda.
    :align: center
    :width: 60%
 
+Activate Virtual environment and Check list of python package
+---------------------------------------------------------------
+
+Run Below command to activate and check list of python package available by default.
+
+* ``conda activate venv``
+* ``python --version``
+* ``pip list``
+
+.. figure:: ../_assets/installation/activate_conda_env.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Install dependency for fbprophet package (Windows 10)
 ----------------------------------------- 
 

@@ -151,5 +151,5 @@ Removing Conda virtual Environment
 
 * ``conda deactivate``
 * ``conda env remove --name name of virtual environment``
-* delete those package from exact location.
+* Delete those package from exact location.
 

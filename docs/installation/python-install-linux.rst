@@ -28,7 +28,7 @@ Python installation required the GCC compiler on your system, use the following 
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
-Using below command download and untar it  
+Using below command to download and extract the downloaded package  
 ------------------------------------------
   
   * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   

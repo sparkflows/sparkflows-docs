@@ -16,7 +16,7 @@ Some References for Installing Python:
 
   * CentOS : https://tecadmin.net/install-python-3-7-on-centos/
 
-Install python3:
+Install python3.7:
 
 Requirements:
 
@@ -33,7 +33,20 @@ Using below command to download and extract the downloaded package
   
   * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
   * ``tar xzf Python-3.7.0.tgz``
-     
+
+Use below set of commands to compile Python source code on your system using altinstall
+-------------------------------------------------------------------------------------
+
+  * ``cd Python-3.7.0``
+  * ``./configure --enable-optimizations``
+  * ``make altinstall``
+  * ``python3.7 –-version``
+  
+ .. figure:: ../_assets/configuration/venv_python.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 
+
 Create Python virtual environment & Activate it
 ---------------------------------
 

@@ -3,7 +3,7 @@ Python Installation on Linux - Redhat/CentOS
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.6+.
 
-Check if Python 3.6+ is Installed
+Check if Python 3.7+ is Installed
 ----------------
 
   * ``python --version``
@@ -14,31 +14,20 @@ Install Python 3 (if not installed)
 
 Some References for Installing Python:
 
-  * CentOS : https://www.liquidweb.com/kb/how-to-install-python-3-on-centos-7/
-
-Install EPEL repository if needed:
-
-  * https://www.tecmint.com/install-epel-repository-on-centos/
-  * yum install epel-release
-  
-Check if python3 is available in the configured yum repositories:
-
-  * sudo yum list installed | grep -i python3
-  
-.. figure:: ../_assets/configuration/python-package.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+  * CentOS : https://tecadmin.net/install-python-3-7-on-centos/
 
 Install python3:
 
-  * sudo yum install python3 -y
+Requirements:
 
-.. figure:: ../_assets/configuration/python-install.PNG
-   :alt: Installations
-   :align: center
-   :width: 60%
+Python installation required the GCC compiler on your system, use the following command to install prerequisites for Python before installing it.
 
+  * ``yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel``
+
+  * Download python from below Link
+     * https://www.python.org/downloads/
+     * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
+     
 Create Python virtual environment & Activate it
 ---------------------------------
 

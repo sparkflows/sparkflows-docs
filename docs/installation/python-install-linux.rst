@@ -26,7 +26,7 @@ Python installation required the GCC compiler on your system, use the following 
 
   * Download python from below Link
      * https://www.python.org/downloads/
-     * https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
+     * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
      
 Create Python virtual environment & Activate it
 ---------------------------------
@@ -35,7 +35,7 @@ Create Python virtual environment & Activate it
   * source venv/bin/activate
   * ``python --version``
 
-.. figure:: ../_assets/configuration/venv.PNG
+.. figure:: ../_assets/configuration/venv_python.PNG
    :alt: Installations
    :align: center
    :width: 60%

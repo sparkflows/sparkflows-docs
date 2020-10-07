@@ -9,14 +9,12 @@ Check if Python 3.7+ is Installed
   * ``python --version``
   * ``python3 --version``
 
-Install Python 3 (if not installed)
+Install Python 3.7 (if not installed)
 ----------------
 
 Some References for Installing Python:
 
   * CentOS : https://tecadmin.net/install-python-3-7-on-centos/
-
-Install python3.7:
 
 Requirements:
 

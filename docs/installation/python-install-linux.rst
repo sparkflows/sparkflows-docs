@@ -118,7 +118,7 @@ Run below command with sudo privilege
 
 * ``pip list``
 
-.. figure:: ../_assets/configuration/piplist.PNG
+.. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations
    :align: center
    :width: 60%

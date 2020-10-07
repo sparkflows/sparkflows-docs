@@ -27,6 +27,12 @@ Python installation required the GCC compiler on your system, use the following 
   * Download python from below Link
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+Using below command download and untar it  
+------------------------------------------
+  
+  * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
+  * ``tar xzf Python-3.7.0.tgz``
      
 Create Python virtual environment & Activate it
 ---------------------------------

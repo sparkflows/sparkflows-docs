@@ -42,7 +42,7 @@ Use below set of commands to compile Python source code on your system using alt
   * ``make altinstall``
   * ``python3.7 –-version``
   
- .. figure:: ../_assets/configuration/venv_python.PNG
+ .. figure:: ../_assets/configuration/python3_7.PNG
    :alt: Installations
    :align: center
    :width: 60% 
@@ -59,7 +59,7 @@ Create Python virtual environment & Activate it
    :align: center
    :width: 60%
 
-.. figure:: ../_assets/configuration/python-version.PNG
+.. figure:: ../_assets/configuration/version_python.PNG
    :alt: Installations
    :align: center
    :width: 60%

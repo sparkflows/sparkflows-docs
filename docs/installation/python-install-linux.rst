@@ -69,7 +69,7 @@ Upgrade pip version
 
   * ``pip install pip --upgrade``
 
-.. figure:: ../_assets/configuration/pip-upgrade.PNG
+.. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations
    :align: center
    :width: 60%

@@ -48,8 +48,8 @@ Use below set of commands to compile Python source code on your system using alt
 Create Python virtual environment & Activate it
 ---------------------------------
 
-  * python3 -m venv venv
-  * source venv/bin/activate
+  * ``python3.7 -m venv venv``
+  * ``source venv/bin/activate``
   * ``python --version``
 
 .. figure:: ../_assets/configuration/venv_python.PNG

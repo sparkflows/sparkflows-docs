@@ -135,7 +135,7 @@ Install Other Packages
 Install the required packages:
 
    * cd fire-x.y.x/dist/fire
-   * pip install -r requirements.txt
+   * ``pip install -r requirements.txt``
    
 ``requirements.txt`` file is available in the installation directory of fire insights.
 

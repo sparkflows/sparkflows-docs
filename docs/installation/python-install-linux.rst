@@ -7,7 +7,7 @@ Check if Python 3.7+ is Installed
 ----------------
 
   * ``python --version``
-  * ``python3 --version``
+  * ``python3.7 --version``
 
 Install Python 3.7 (if not installed)
 ----------------

@@ -2,11 +2,12 @@ Passing Parameters to Workflows
 ===============================
 
 
-Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified, the below is also the order of precendence in which they are applied.
+Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precendence in which they are applied is as shown below:
  
-  * Through Program Parameters in Fire during Workflow Execution
+  * Through Program Parameters passed during Workflow Execution
   * By specifying the parameters in the Workflow Editor
   * Through a Parameter Processor in the workflow
+  * A Node creating a variable during execution time
 
 
 Through Program Parameters in Fire during Workflow Execution
@@ -38,6 +39,19 @@ A Parameter Processor can be added to the workflow. It allows passing key/value 
    :alt: Passing Parameters to Workflows
    :align: center
    
+A Processor creating a variable during execution time
+------------------------------------------------
+
+A Processor can also create a parameter during run time. A Processor creates a new variable and puts it into the JobContext.
+
+jobContext.nodeGeneratedParameters.put(variable, ""+count);
+
+This parameter can then be later used by another Processor.
+
+For example ``NodeCount`` puts the count of records into a variable in the Job Context.
+
+``NodeAssert`` uses this variable when evaluating expressions.
+
    
 Through ``--var`` parameters with spark-submit
 --------------------------------------------------

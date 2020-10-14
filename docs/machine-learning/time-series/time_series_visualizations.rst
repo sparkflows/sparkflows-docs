@@ -14,14 +14,14 @@ Below is the sample workflows which contains ``Time Series data`` and visualize 
 
 Configurations for visualization processors in Fire Insight:
 
-.. figure:: ../../_assets/ml_userguide/configurations_visualization.PNG
+.. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
    :align: center
    :width: 60%
 
 Output result of ``Visualization`` processor:
 
-.. figure:: ../../_assets/ml_userguide/outputresult_visualization.PNG
+.. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
    :align: center
    :width: 60%

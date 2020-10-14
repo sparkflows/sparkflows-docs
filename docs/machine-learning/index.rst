@@ -12,7 +12,7 @@ Machine Learning User Guide
    classification.rst
    prediction.rst
    evaluation.rst
-   time-series.rst
+   time-series/index.rst
    model-persistence/index.rst
    model-serving/index.rst
    

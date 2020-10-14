@@ -15,3 +15,17 @@ It reads the AirPassengers dataset & use Prophet processor which forecasting of 
    :alt: ml_userguide
    :align: center
    :width: 60%
+
+Prophet processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/prophet_processor.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+   
+Output result of ``Prophet`` processor:  
+
+.. figure:: ../../_assets/ml_userguide/prophet_result.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%

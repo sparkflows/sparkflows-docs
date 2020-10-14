@@ -29,3 +29,12 @@ Output result of ``Prophet`` processor:
    :alt: ml_userguide
    :align: center
    :width: 60%
+
+Below is the sample workflows which contains ``ARIMA`` processor in Fire Insights.
+
+It reads the AirPassengers dataset & use ARIMA processor which Forecast the airline passengers count, generate a new column with unique index/value for each row in dataset and print the result.
+
+.. figure:: ../../_assets/ml_userguide/arima.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%

@@ -3,7 +3,7 @@ Time Series Modeling
 
 Fire Insights provides a number of Processors for Time Series Modeling. These include:
 
-* H2OXGBoost
+* H2OXGBoost : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#limitations
 * Prophet : https://facebook.github.io/prophet/
 * Arima
 

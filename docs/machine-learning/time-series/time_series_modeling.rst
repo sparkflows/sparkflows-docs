@@ -38,3 +38,17 @@ It reads the AirPassengers dataset & use ARIMA processor which Forecast the airl
    :alt: ml_userguide
    :align: center
    :width: 60%
+   
+ARIMA processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/arima_processor.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+   
+Output result of ``ARIMA`` processor:     
+
+.. figure:: ../../_assets/ml_userguide/arima_result.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%

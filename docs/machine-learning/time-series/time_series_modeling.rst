@@ -7,6 +7,16 @@ Fire Insights provides a number of Processors for Time Series Modeling. These in
 * Prophet : https://facebook.github.io/prophet/
 * Arima
 
+Below is the sample workflows which contains ``H2OXGBoost`` processor in Fire Insights.
+
+It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
+
+.. figure:: ../../_assets/ml_userguide/xgboost.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+
 Below is the sample workflows which contains ``Prophet`` processor in Fire Insights.
 
 It reads the AirPassengers dataset & use Prophet processor which forecasting of univariate time series data and print the result.

@@ -30,7 +30,7 @@ H2OMojoSave processor Configuration:
    :align: center
    :width: 60%
 
-On successful submission of the job, the model get saved to specified locations.
+On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
 
 .. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
    :alt: ml_userguide

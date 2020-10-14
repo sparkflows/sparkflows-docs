@@ -7,7 +7,7 @@ Fire Insights provides a number of Processors for the visualization of the time 
 
 Below is the sample workflows which contains ``Time Series data`` and visualize using line chart in Fire Insights.
 
-.. figure:: ../../_assets/ml_userguide/visualization.PNG
+.. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
    :align: center
    :width: 60%

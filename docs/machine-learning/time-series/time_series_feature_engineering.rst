@@ -11,7 +11,7 @@ Below is the sample workflows which contains ``DateTimeFieldExtract`` processor 
 
 It reads the JetRail Train dataset & use DateTimeFieldExtract processor which create New DataFrame by extracting Date & Time field and print the result.
 
-.. figure:: ..//_assets/ml_userguide/datetime_field.PNG
+.. figure:: ../_assets/ml_userguide/datetime_field.PNG
    :alt: ml_userguide
    :align: center
    :width: 60%

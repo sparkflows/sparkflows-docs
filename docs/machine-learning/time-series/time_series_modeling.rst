@@ -16,6 +16,31 @@ It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learn
    :align: center
    :width: 60%
 
+H2OXGBoost processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/xgboost_config.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+H2OMojoSave processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/model_save.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+On successful submission of the job, the model get saved to specified locations.
+
+.. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+.. figure:: ../../_assets/ml_userguide/modellocation.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
 
 Below is the sample workflows which contains ``Prophet`` processor in Fire Insights.
 

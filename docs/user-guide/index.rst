@@ -12,4 +12,5 @@ User Guide
    data_profile.rst
    pipelines.rst
    tesseract.rst
+   processors.rst
 

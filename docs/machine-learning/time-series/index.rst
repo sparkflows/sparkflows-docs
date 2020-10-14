@@ -7,6 +7,7 @@ https://www.statisticssolutions.com/time-series-analysis/
 
 Fire Insights provides a number of features for Time Series Analysis.
 
+
 .. toctree::
    :maxdepth: 2
 

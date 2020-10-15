@@ -11,6 +11,7 @@ Fire Insights provides a number of features for Time Series Analysis.
 .. toctree::
    :maxdepth: 2
 
-   time_series_modeling.rst
    time_series_feature_engineering.rst
    time_series_visualizations.rst
+   time_series_modeling.rst
+   

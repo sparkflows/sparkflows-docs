@@ -96,7 +96,7 @@ You need to install the python dependencies required by Fire Insights on the mac
 
 Run Command ``pip install -r requirements.txt``
 
-.. figure:: ../_assets/configuration/python-package.PNG
+.. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
    :align: center
    :width: 40%

@@ -5,7 +5,7 @@ Fire Insights integrates with Databricks and can submit Python jobs. It submits 
 
 Below are the steps for Integrating Fire Insights with your Databricks Clusters for running Python jobs.
 
-NOTE: The Machine on which Fire Insights is installed should have Python 3.6.0 or above.
+NOTE: The Machine on which Fire Insights is installed should have Python 3.7.0 or above.
 
 Python Installation Steps:
 

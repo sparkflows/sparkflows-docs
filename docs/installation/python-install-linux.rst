@@ -18,7 +18,7 @@ Some References for Installing Python:
 
 Requirements:
 
-Python installation required the GCC compiler on your system, use the following command to install prerequisites for Python before installing it.
+Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python.
 
   * ``yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel``
 

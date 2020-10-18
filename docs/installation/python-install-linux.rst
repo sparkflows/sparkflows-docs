@@ -23,12 +23,13 @@ Python installation requires the GCC compiler to be available on the machine. Us
 
   * ``yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel``
 
+Download and extract the downloaded package  
+++++++++++++++++++++++++++++++
+  
   * Download python from below Link
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
-Download and extract the downloaded package  
-++++++++++++++++++++++++++++++
   
   * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
   * ``tar xzf Python-3.7.0.tgz``

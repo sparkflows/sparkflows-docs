@@ -16,7 +16,8 @@ Some References for Installing Python:
 
   * CentOS : https://tecadmin.net/install-python-3-7-on-centos/
 
-Requirements:
+Prerequisites
++++++++++++++
 
 Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python.
 
@@ -26,14 +27,16 @@ Python installation requires the GCC compiler to be available on the machine. Us
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
-Using below command to download and extract the downloaded package  
-------------------------------------------
+Download and extract the downloaded package  
+++++++++++++++++++++++++++++++
   
   * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
   * ``tar xzf Python-3.7.0.tgz``
 
-Use below set of commands to compile Python source code on your system using altinstall
--------------------------------------------------------------------------------------
+Compile Python source code
++++++++++++++++++++
+
+Compile the Python source code on your system using altinstall
 
   * ``cd Python-3.7.0``
   * ``./configure --enable-optimizations``

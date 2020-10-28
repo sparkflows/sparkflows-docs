@@ -54,6 +54,12 @@ Download and extract the downloaded package
 Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
 
  * ``cd Python-3.7.0``
+ 
+.. figure:: ../_assets/configuration/cd_python.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
  * ``./configure --enable-optimizations``
  
 install the Python binaries by running the following command: 

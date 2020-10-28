@@ -69,7 +69,12 @@ Next, navigate to the Python source directory and run the configure script which
 install the Python binaries by running the following command: 
  
   * ``make altinstall``
- 
+
+.. figure:: ../_assets/configuration/make.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Note: Do not use the standard make install as it will overwrite the default system python3 binary.
 
 Verify it by typing:

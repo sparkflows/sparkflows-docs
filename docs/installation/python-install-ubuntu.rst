@@ -107,3 +107,17 @@ Upgrade pip version
    :alt: Installations
    :align: center
    :width: 60%  
+   
+Install dependency for fbprophet package (Ubuntu 18.04)
+-----------------------------------------
+
+* ``pip install pystan``
+
+.. figure:: ../_assets/configuration/pystan.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 
+
+
+* ``pip install convertdate``
+* ``pip install fbprophet``

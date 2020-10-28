@@ -92,3 +92,8 @@ Create Python virtual environment & Activate it
   * ``python3.7 -m venv venv``
   * ``source venv/bin/activate``
   * ``python --version``
+  
+.. figure:: ../_assets/configuration/venv_ubuntu.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%  

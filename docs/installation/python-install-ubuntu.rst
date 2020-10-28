@@ -121,4 +121,15 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 
 * ``pip install convertdate``
+
+.. figure:: ../_assets/configuration/convertdate.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 
+
 * ``pip install fbprophet``
+
+.. figure:: ../_assets/configuration/fbprophet.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 

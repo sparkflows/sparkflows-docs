@@ -46,6 +46,11 @@ Download and extract the downloaded package
   * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
   * ``tar xzf Python-3.7.0.tgz``
 
+.. figure:: ../_assets/configuration/download_tar.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+
 Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
 
  * ``cd Python-3.7.0``

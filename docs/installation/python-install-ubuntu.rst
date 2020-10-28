@@ -34,3 +34,14 @@ update the packages list and install the packages necessary to build Python sour
    :alt: Installations
    :align: center
    :width: 60%   
+
+Download and extract the downloaded package  
+++++++++++++++++++++++++++++++
+  
+  * Download the latest release’s source code from the Python download page using the following wget command:
+     * https://www.python.org/downloads/
+     * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+  
+  * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
+  * ``tar xzf Python-3.7.0.tgz``

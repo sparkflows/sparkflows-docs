@@ -133,3 +133,10 @@ Install dependency for fbprophet package (Ubuntu 18.04)
    :alt: Installations
    :align: center
    :width: 60% 
+
+* ``pip list``
+
+.. figure:: ../_assets/configuration/piplist.PNG
+   :alt: Installations
+   :align: center
+   :width: 60% 

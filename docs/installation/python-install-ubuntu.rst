@@ -53,14 +53,15 @@ Download and extract the downloaded package
 
 Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
 
-  * ``cd Python-3.7.0``
-   * ``./configure --enable-optimizations``
- 
+* ``cd Python-3.7.0``
+
 .. figure:: ../_assets/configuration/cd_python.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
+* ``./configure --enable-optimizations``
+ 
 .. figure:: ../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
    :align: center
@@ -68,7 +69,7 @@ Next, navigate to the Python source directory and run the configure script which
    
 install the Python binaries by running the following command: 
  
-  * ``make altinstall``
+* ``make altinstall``
 
 .. figure:: ../_assets/configuration/make.PNG
    :alt: Installations
@@ -79,7 +80,7 @@ Note: Do not use the standard make install as it will overwrite the default syst
 
 Verify it by typing:
 
-  * ``python3.7 –-version``
+* ``python3.7 –-version``
 
 .. figure:: ../_assets/configuration/python_version.PNG
    :alt: Installations

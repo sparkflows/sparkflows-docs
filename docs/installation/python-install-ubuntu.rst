@@ -85,3 +85,10 @@ Verify it by typing:
    :alt: Installations
    :align: center
    :width: 60%
+
+Create Python virtual environment & Activate it
+---------------------------------
+
+  * ``python3.7 -m venv venv``
+  * ``source venv/bin/activate``
+  * ``python --version``

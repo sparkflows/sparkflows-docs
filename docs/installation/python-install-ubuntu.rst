@@ -152,3 +152,12 @@ Install the required packages:
 ``requirements.txt`` file is available in the installation directory of fire insights.
 
 * fire-x.y.x/dist/fire/requirements.txt
+
+Delete a venv
++++++++++++++
+
+   * source venv/bin/activate
+   * pip freeze > requirements.txt
+   * pip uninstall -r requirements.txt -y
+   * deactivate
+   * rm -r venv/

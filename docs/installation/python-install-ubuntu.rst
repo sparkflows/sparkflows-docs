@@ -97,3 +97,13 @@ Create Python virtual environment & Activate it
    :alt: Installations
    :align: center
    :width: 60%  
+
+Upgrade pip version
+-------------------
+
+  * ``pip install pip --upgrade``
+  
+.. figure:: ../_assets/configuration/pipupdate.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%  

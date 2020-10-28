@@ -13,3 +13,10 @@ Install Python 3.7 (if not installed)
 ----------------
 
 Some References for Installing Python:
+
+* Ubuntu : https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
+
+Prerequisites
++++++++++++++
+
+

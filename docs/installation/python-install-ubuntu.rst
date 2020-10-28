@@ -19,4 +19,7 @@ Some References for Installing Python:
 Prerequisites
 +++++++++++++
 
+update the packages list and install the packages necessary to build Python source:
 
+  * ``sudo apt update``
+  * ``sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev wget libbz2-dev``

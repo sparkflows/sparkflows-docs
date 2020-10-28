@@ -55,7 +55,7 @@ Next, navigate to the Python source directory and run the configure script which
 
   * ``cd Python-3.7.0``
  
-.. figure:: ..//_assets/configuration/cd_python.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/configuration/cd_python.PNG
    :alt: Installations
    :align: center
    :width: 60%

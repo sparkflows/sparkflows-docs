@@ -55,7 +55,7 @@ Next, navigate to the Python source directory and run the configure script which
 
   * ``cd Python-3.7.0``
  
-.. figure:: ../_assets/configuration/cd_python.PNG
+.. figure:: ..//_assets/configuration/cd_python.PNG
    :alt: Installations
    :align: center
    :width: 60%

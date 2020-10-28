@@ -140,3 +140,15 @@ Install dependency for fbprophet package (Ubuntu 18.04)
    :alt: Installations
    :align: center
    :width: 60% 
+
+Install Other Packages
+----------------------
+
+Install the required packages:
+
+   * cd fire-x.y.x/dist/fire
+   * ``pip install -r requirements.txt``
+   
+``requirements.txt`` file is available in the installation directory of fire insights.
+
+* fire-x.y.x/dist/fire/requirements.txt

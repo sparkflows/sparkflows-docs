@@ -1,6 +1,3 @@
-Inventory management is a methodical way to deal with sourcing, putting away, and selling inventory—both crude materials (segments) and completed merchandise (items). In business terms, inventory management implies the correct stock, at the correct levels, in the opportune spot, at the ideal time, and at the correct expense just as cost.
-
-
 Stock Forecasting
 =================
 
@@ -9,13 +6,78 @@ This workflow reads in a dataset. It then performs Prophet Time series modelling
 Workflow
 -------
 
-Below is the workflow. It does the following:
-
-* Reads data from a sample dataset.
-
-
-.. figure:: ../../_assets/tutorials/time-series/store_top_10.png
+.. figure:: ../../_assets/tutorials/time-series/STOCK_WORKFLOW.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
 
+
+* Reads data from a sample dataset.
+
+
+.. figure:: ../../_assets/tutorials/time-series/read_csv.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+
+.. figure:: ../../_assets/tutorials/time-series/Row_filter.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+* Reads data from a sample dataset.
+
+
+.. figure:: ../../_assets/tutorials/time-series/prophet_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+  
+  
+.. figure:: ../../_assets/tutorials/time-series/prophet_future.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+* Reads data from a sample dataset.
+
+
+.. figure:: ../../_assets/tutorials/time-series/sql_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+   * Reads data from a sample dataset.
+
+
+.. figure:: ../../_assets/tutorials/time-series/sql_schema.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+  
+  
+.. figure:: ../../_assets/tutorials/time-series/join_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+* Reads data from a sample dataset.
+
+
+.. figure:: ../../_assets/tutorials/time-series/join_schema.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+   
+.. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

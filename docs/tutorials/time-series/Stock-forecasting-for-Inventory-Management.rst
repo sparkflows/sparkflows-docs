@@ -20,6 +20,8 @@ Node 1 - Readcsv
 
 * click on browse HDFS and select store_item_stock_train dataset
 
+* Select data type from COLUMN TYPES FOR THE CSV and click OK
+
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
    :alt: Stock Forecasting
@@ -36,6 +38,12 @@ Node 1 - Readcsv
 
 
 * Reads data from a sample dataset.
+.. figure:: ../../_assets/tutorials/time-series/Row_filter.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+  __________________________________________________________
 
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png

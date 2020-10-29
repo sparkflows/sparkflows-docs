@@ -1,10 +1,12 @@
 Stock Forecasting
 =================
 
-This workflow reads in a dataset. It then performs Prophet Time series modelling
+Periodically, we need to order products to replenish our inventory. When we do this, we have in mind a future period for which we are attempting to address demand along with an estimate of the demand in that period.
 
-Workflow
--------
+When actual demand exceeds our forecasts, we run the risk of a stockout (out of stock) situation with its associated potential loss of sales and reduced customer satisfaction. To avoid this, we often include additional units of stock, above the forecasted demand, in our replenishment orders. The amount of this safety stock depends on our estimates of variability in the demand for this upcoming period and the percentage of time we are willing to risk an out of stock situation.
+
+Prophet Time Series Modelling Workflow on Multivariate Data
+-----------------------------------------------------------
 
 .. figure:: ../../_assets/tutorials/time-series/STOCK_WORKFLOW.png
    :alt: Stock Forecasting
@@ -12,7 +14,11 @@ Workflow
    :width: 60%
 
 
-* Reads data from a sample dataset.
+Node 1 - Readcsv
+----------------
+* Read data from using Readcsv node by passing path
+
+* click on browse HDFS and select store_item_stock_train dataset
 
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
@@ -21,6 +27,7 @@ Workflow
    :width: 60%
 
 
+* Read data from using Readcsv node by passing path
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting

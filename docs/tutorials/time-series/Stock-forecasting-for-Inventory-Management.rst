@@ -15,7 +15,7 @@ Prophet Time Series Modelling Workflow on Multivariate Data
 
 
 Node 1 - Readcsv
-----------------
+=================
 
 
 * Read data from using Readcsv node by passing path
@@ -31,69 +31,116 @@ Node 1 - Readcsv
    :width: 60%
 
 
-* Read data from using Readcsv node by passing path
 
-.. figure:: ../../_assets/tutorials/time-series/Row_filter.png
+* Top 10 Rows of data
+* Columns contains date as datetype, Store and Item are categorical variable and Sales as continuous variable
+
+
+.. figure:: ../../_assets/tutorials/time-series/store_top_10.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
 
+Node 2 - RowFilter
+=================
 
-* Reads data from a sample dataset.
+* Filter data by row with respect to store and item
+
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
    
-  __________________________________________________________
+Node 3 - Prophet
+=================
 
+General Section of Prophet model
+----------------------------------
+
+* Select Date column in DS column section
+* Select Y as target here sales column is our target
+* select Growth as linear or Logistic
+* We are using prophet model so that is self-sufficient to select seasonality in auto mode
+* Select mode of seasonality as additive or multiplicative
+* At last but not the least Provide Interval for the Forecast between 0 to 1
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
-   
-  
+
+
+Future Data section of Prophet model
+--------------------------------------
+
+* In FUTURE PERIOD block give number of steps you want to predict 
+* Give FREQUENCY as Monthly or Daily 
+* INCLUDE HISTORY will true for testing our model and False for production
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
 
+Node 4 - SQL
+=============
 
-* Reads data from a sample dataset.
 
+General Section of SQL node
+----------------------------
+* Write SQL query to select required columns from temp table
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
-   
-   * Reads data from a sample dataset.
 
+Schema Section of SQL node
+----------------------------
+
+* Refresh Schema and select give data type in OUTPUT COLUMN TYPES
+* Click OK to save changes
 
 .. figure:: ../../_assets/tutorials/time-series/sql_schema.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
    
-  
-  
+
+Node 5 - JoinUsingSQL
+=====================
+
+General Section of JoinUsingSQL node
+------------------------------------
+
+* Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
+
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
 
+Schema Section of JoinUsingSQL node
+-----------------------------------
 
-* Reads data from a sample dataset.
-
+* Follow same step as in Schema Section of SQL node
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
-   
-   
+
+
+Node 6 - SaveCSV
+================
+
+
+* click on browse HDFS select folder path where you want to save final output
+* SAVE MODE block gives you flexibility of append, overwrite etc
+* Select your header preference as true or false
+* PARTITION section gives you flexibility to select columns which you want to save
+
+
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
    :alt: Stock Forecasting
    :align: center

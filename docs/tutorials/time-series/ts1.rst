@@ -74,7 +74,7 @@ Future Data section of Prophet model
 --------------------------------------
 
 * In FUTURE PERIOD block give number of steps you want to predict 
-* Give FREQUENCY as Monthely or Daily 
+* Give FREQUENCY as Monthly or Daily 
 * INCLUDE HISTORY will true for testing our model and False for production
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
@@ -110,9 +110,9 @@ Schema Section of SQL node
 Node 5 - JoinUsingSQL
 =====================
 
-
 General Section of JoinUsingSQL node
 ------------------------------------
+
 * Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
@@ -120,13 +120,28 @@ General Section of JoinUsingSQL node
    :align: center
    :width: 60%
 
-
 Schema Section of JoinUsingSQL node
 -----------------------------------
 
 * Follow same step as in Schema Section of SQL node
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+Node 6 - SaveCSV
+================
+
+
+* click on browse HDFS select folder path where you want to save final output
+* SAVE MODE block gives you flexibility of append, overwrite etc
+* Select your header preference as true or false
+* PARTITION section gives you flexibility to select columns which you want to save
+
+
+.. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%

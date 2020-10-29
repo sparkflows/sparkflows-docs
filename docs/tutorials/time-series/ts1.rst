@@ -90,8 +90,43 @@ General Section of SQL node
 ----------------------------
 * Write SQL query to select required columns from temp table
 
+.. figure:: ../../_assets/tutorials/time-series/sql_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
 Schema Section of SQL node
 ----------------------------
 
 * Refresh Schema and select give data type in OUTPUT COLUMN TYPES
-* Click on OK to save changes
+* Click OK to save changes
+
+.. figure:: ../../_assets/tutorials/time-series/sql_schema.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+
+Node 5 - JoinUsingSQL
+=====================
+
+
+General Section of JoinUsingSQL node
+------------------------------------
+* Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
+
+.. figure:: ../../_assets/tutorials/time-series/join_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+Schema Section of JoinUsingSQL node
+-----------------------------------
+
+* Follow same step as in Schema Section of SQL node
+
+.. figure:: ../../_assets/tutorials/time-series/join_schema.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

@@ -32,3 +32,52 @@ Node 1 - Readcsv
 
 
 
+* Top 10 Rows of data
+* Columns contains date as datetype, Store and Item are categorical variable and Sales as continuous variable
+
+
+.. figure:: ../../_assets/tutorials/time-series/store_top_10.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+Node 2 - RowFilter
+------------------
+
+* Filter data by row with respect to store and item
+
+.. figure:: ../../_assets/tutorials/time-series/Row_filter.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+Node 3 - Prophet
+------------------
+
+* General Section of Prophet model
+----------------------------------
+
+* Select Date column in DS column section
+* Select Y as target here sales column is our target
+* select Growth as linear or Logistic
+* We are using prophet model so that is self-sufficient to select seasonality in auto mode
+* Select mode of seasonality as additive or multiplicative
+* At last but not the least Provide Interval for the Forecast between 0 to 1
+
+.. figure:: ../../_assets/tutorials/time-series/prophet_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+* Future data section of Prophet model
+--------------------------------------
+
+* In Future Period block give number of steps you want to predict 
+* Give FREQUENCY as Monthely or Daily 
+* INCLUDE HISTORY will true for testing our model and False for production
+  
+.. figure:: ../../_assets/tutorials/time-series/prophet_future.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

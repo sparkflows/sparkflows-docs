@@ -4,7 +4,7 @@ Time Series
 .. toctree::
    :maxdepth: 2
 
-   time-series-1.rst
+   Stock_forecasting_for_Inventory_Management.rst
    
    
    

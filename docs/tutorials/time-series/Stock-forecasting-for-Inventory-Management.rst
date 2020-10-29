@@ -1,4 +1,3 @@
-
 Stock Forecasting
 =================
 

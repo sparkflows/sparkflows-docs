@@ -40,7 +40,12 @@ Node 2 - RowFilter
    :align: center
    :width: 60%
    
-Node 3 - GraphValue
+Node 3 - Sortby
+---------------
+
+* Gives options to sort our data set based on columns as ascending and descending order 
+   
+Node 4 - GraphValue
 -------------------
 
 * TITLE - Give title to Graph

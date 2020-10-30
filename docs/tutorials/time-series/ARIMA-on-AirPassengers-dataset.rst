@@ -54,10 +54,10 @@ Don't worry about p,d,q in this case because we have something interesting model
    :align: center
    :width: 60%
    
- Summary
- -------
+Summary
+-------
  
- * It provide to analyse what are different conditions used by trained model 
+* It provide to analyse what are different conditions used by trained model 
    
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
    :alt: Stock Forecasting
@@ -79,12 +79,12 @@ Node 4 - PrintNRows
    :align: center
    :width: 60%
    
- Final Result
- ------------
+Final Result
+------------
  
- Lets check few rows of our final forecasted result of ARIMA Model
+Lets check few rows of our final forecasted result of ARIMA Model
  
- .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
-   :alt: Stock Forecasting
-   :align: center
-   :width: 60%
+.. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
+  :alt: Stock Forecasting
+  :align: center
+  :width: 60%

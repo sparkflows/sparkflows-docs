@@ -15,7 +15,7 @@ Prophet Time Series Modelling Workflow on Multivariate Data
 
 
 Node 1 - Readcsv
-=================
+----------------
 
 
 * Read data from using Readcsv node by passing path
@@ -42,7 +42,7 @@ Node 1 - Readcsv
    :width: 60%
 
 Node 2 - RowFilter
-=================
+------------------
 
 * Filter data by row with respect to store and item
 
@@ -52,10 +52,9 @@ Node 2 - RowFilter
    :width: 60%
    
 Node 3 - Prophet
-=================
+------------------
 
 General Section of Prophet model
-----------------------------------
 
 * Select Date column in DS column section
 * Select Y as target here sales column is our target
@@ -83,11 +82,11 @@ Future Data section of Prophet model
    :width: 60%
 
 Node 4 - SQL
-=============
+--------------
 
 
 General Section of SQL node
-----------------------------
+
 * Write SQL query to select required columns from temp table
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
@@ -108,10 +107,10 @@ Schema Section of SQL node
    
 
 Node 5 - JoinUsingSQL
-=====================
+------------------------
 
 General Section of JoinUsingSQL node
-------------------------------------
+
 
 * Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
 
@@ -132,7 +131,7 @@ Schema Section of JoinUsingSQL node
 
 
 Node 6 - SaveCSV
-================
+-----------------
 
 
 * click on browse HDFS select folder path where you want to save final output
@@ -148,7 +147,7 @@ Node 6 - SaveCSV
 
 
 Output Visualization
-====================
+---------------------
 
 We now have access to forecasted and actual demand store-item(1-1) combinations. Let's quickly visualize forecasted and actual demand for the combination of item 1 in store 1. We will limit the visualization to data in calendar year 2013 for ease of interpretation:
 

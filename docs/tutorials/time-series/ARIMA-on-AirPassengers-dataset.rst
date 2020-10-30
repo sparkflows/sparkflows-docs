@@ -53,3 +53,38 @@ Don't worry about p,d,q in this case because we have something interesting model
    :alt: Stock Forecasting
    :align: center
    :width: 60%
+   
+ Summary
+ -------
+ 
+ * It provide to analyse what are different conditions used by trained model 
+   
+.. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+Node 3 - ZipWithIndex
+---------------------
+
+* Identify column which you want to make as index
+
+Node 4 - PrintNRows
+-------------------
+
+* How many rows you want to print to see final predicted result
+
+.. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+ Final Result
+ ------------
+ 
+ Lets check few rows of our final forecasted result of ARIMA Model
+ 
+ .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

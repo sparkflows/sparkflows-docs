@@ -15,3 +15,18 @@ Visualization workflow
    :alt: Stock Forecasting
    :align: center
    :width: 60%
+   ##############################
+.. figure:: ../../_assets/tutorials/time-series/Row_filter.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   ##############################
+.. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   ##############################
+.. figure:: ../../_assets/tutorials/time-series/Graph_output.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

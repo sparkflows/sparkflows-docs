@@ -1,7 +1,7 @@
 H2OIsolationForest
 =========== 
 
-H2O IsolationForest
+Isolation Forest is similar in principle to Random Forest and is built on the basis of decision trees.
 
 Input
 --------------

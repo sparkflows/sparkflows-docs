@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Fire Insights is the flagship product from Sparkflows. It is seamlessly integrated with AZURE. With Fire Insights you can perform self-serve data processing, analytics and machine learning on AWS.
+Fire Insights is the flagship product from Sparkflows. It is seamlessly integrated with AZURE. With Fire Insights you can perform self-serve data processing, analytics and machine learning on AZURE.
 
 Fire Insights integrates with AZURE DATABRICKS, ADLS, HDInsight etc.
 

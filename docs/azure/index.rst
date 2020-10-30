@@ -6,4 +6,5 @@ AZURE Guide
 
    introduction.rst
    running-on-standalone.rst
+   databricks-integration-azure.rst
    

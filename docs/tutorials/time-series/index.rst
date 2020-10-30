@@ -5,7 +5,7 @@ Time Series
    :maxdepth: 2
 
    Stock-forecasting-for-Inventory-Management.rst
-   
+   Stock-forecasting-output-visualization.rst
    
    
    

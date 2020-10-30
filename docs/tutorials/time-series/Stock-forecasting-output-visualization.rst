@@ -20,6 +20,14 @@ Node 1 - ReadCSV
 ----------------
 
 * Read output csv which we have saved from Stock forecasting for Inventory Management
+* click on browse HDFS and select output_forecast dataset
+* Select data type from COLUMN TYPES FOR THE CSV and click OK
+
+
+.. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
 
    
 Node 2 - RowFilter

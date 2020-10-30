@@ -61,7 +61,7 @@ Steps
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080
+    <machine_ip>:8080
 
 * Login with the following default username and password:: 
 

@@ -1,7 +1,7 @@
 Planning Guide
 =================
 
-This document describes details to help you plan on deploying and using Fire Insights on AZURE.
+This document describes details to help you plan on deploying and using Fire Insights on Azure.
 
 Costs
 -----

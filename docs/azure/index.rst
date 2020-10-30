@@ -5,3 +5,5 @@ AZURE Guide
    :maxdepth: 2
 
    introduction.rst
+   running-on-standalone.rst
+   

@@ -11,3 +11,4 @@ Fire Insights comes with a number of components including:
 - **300+ Processors** : These include reading data from various stores, data processing, machine learning and visualizations.
 - **Execution Engine** : For executing the workflow on AZURE VM or HDInsight
 - **Scheduler** : For scheduling running the workflows at certain time intervals
+- **I-Dashboard** : For Visualization using chart, dashboard

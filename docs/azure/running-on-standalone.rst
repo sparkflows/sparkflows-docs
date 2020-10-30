@@ -3,7 +3,7 @@ Deployment Guide
 
 Fire can be easily installed on an AZURE Standalone VM. 
 
-Prequisites:
+prerequisite:
 ------------
 
 * java 8 should be installed.

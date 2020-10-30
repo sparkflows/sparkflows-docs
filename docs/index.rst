@@ -111,7 +111,14 @@ AWS Integration
    :maxdepth: 2
 
    aws/index
-   
+ 
+AZURE Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   azure/index
 
 Python
 --------

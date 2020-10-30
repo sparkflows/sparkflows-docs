@@ -1,0 +1,88 @@
+Deployment Guide
+=======================
+
+Fire can be easily installed on an AZURE Standalone VM. 
+
+Prequisites:
+------------
+
+* java 8 should be installed.
+
+Below are the overall steps for installing Fire Insights on VM.
+
+- *ssh into the Master node*
+- *Download Fire Insights* from https://www.sparkflows.io/download
+- *Unzip it*
+- *Create H2 Database*
+- *Start Fire*
+
+Steps
+------
+
+* Create a VM on AZURE::
+
+    Create a vm if you do not already have it running.
+
+* Update the inbound rule ::
+
+    - ssh port ie 22 should be accessible.
+    - We would have Fire listening on ports 8080, so just ensure its opened.
+    
+
+* ssh into the VM::
+
+    ssh -i my.pem userp@public ip.
+
+* Download the fire tgz file by one of the following options:
+
+  * https://www.sparkflows.io/download    
+       OR   
+  * https://www.sparkflows.io/archives
+       OR
+  * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
+  
+  
+* Unpack it::
+
+    tar xvf fire-x.y.z.tgz
+
+
+* Create H2 DB::
+
+    Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database.
+
+      cd <fire install_dir>
+      ./create-h2-db.sh
+    
+* Launch Fire Server::
+
+    cd <fire install_dir>
+    ./run-fire-server.sh start
+
+* Open your web browser and navigate to:: 
+  
+    <machine_name>:8080
+
+* Login with the following default username and password:: 
+
+    username : admin
+    password : admin
+   
+   
+Loading Example Workflows
+-------------------------
+
+* From the home page of Fire Insights, click on ***Load Example Applications***
+
+* Upload the Fire examples data with default or if anyother locations data is available, point to that location::
+
+       
+Install and Running Example Workflows
+------------------------
+
+* Start off with executing the example workflows::
+
+    - Fire comes pre-packaged with a number of example workflows
+    - You can install them by clicking on the 'Install example workflows' link in the landing page when logged in as the `admin` user.
+    
+

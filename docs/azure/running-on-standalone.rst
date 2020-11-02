@@ -12,6 +12,9 @@ prerequisite:
  - *https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html*
 - Install using below command (Centos):  
  - ``yum localinstall jdk-8uxxx-linux-x64.rpm``
+ 
+- Set the below in .bash_profile
+ - ``export JAVA_HOME=/usr/java/jdk1.8.0_xxx-amd64/``
 
 Below are the overall steps for installing Fire Insights on VM.
 

@@ -11,7 +11,7 @@ prerequisite:
 
 Below are the overall steps for installing Fire Insights on VM.
 
-- *ssh into the Master node*
+- *ssh into the Azure VM*
 - *Download Fire Insights* from https://www.sparkflows.io/download
 - *Unzip it*
 - *Create H2 Database*

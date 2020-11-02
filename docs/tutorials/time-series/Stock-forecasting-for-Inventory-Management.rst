@@ -54,7 +54,7 @@ Node 2 - RowFilter
 Node 3 - Prophet
 ------------------
 
-General Section of Prophet model
+**General Section of Prophet model**
 
 * Select Date column in DS column section
 * Select Y as target here sales column is our target
@@ -69,8 +69,7 @@ General Section of Prophet model
    :width: 60%
 
 
-Future Data section of Prophet model
---------------------------------------
+**Future Data section of Prophet model**
 
 * In FUTURE PERIOD block give number of steps you want to predict 
 * Give FREQUENCY as Monthly or Daily 
@@ -84,8 +83,7 @@ Future Data section of Prophet model
 Node 4 - SQL
 --------------
 
-
-General Section of SQL node
+**General Section of SQL node**
 
 * Write SQL query to select required columns from temp table
 
@@ -94,8 +92,7 @@ General Section of SQL node
    :align: center
    :width: 60%
 
-Schema Section of SQL node
-----------------------------
+**Schema Section of SQL node**
 
 * Refresh Schema and select give data type in OUTPUT COLUMN TYPES
 * Click OK to save changes
@@ -109,7 +106,7 @@ Schema Section of SQL node
 Node 5 - JoinUsingSQL
 ------------------------
 
-General Section of JoinUsingSQL node
+**General Section of JoinUsingSQL node**
 
 
 * Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
@@ -119,8 +116,7 @@ General Section of JoinUsingSQL node
    :align: center
    :width: 60%
 
-Schema Section of JoinUsingSQL node
------------------------------------
+**Schema Section of JoinUsingSQL node**
 
 * Follow same step as in Schema Section of SQL node
 
@@ -209,8 +205,7 @@ Node 4 - GraphValue
    :align: center
    :width: 60%
    
-Now we reach on intresting part
--------------------------------
+**Now we reach on intresting part**
 
 * sales_pred_mean - Blue line
 * sales_pred_lower - Red line

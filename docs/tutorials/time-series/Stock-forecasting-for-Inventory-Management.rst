@@ -159,11 +159,7 @@ Node 6 - SaveCSV
 Output Visualization
 ---------------------
 
-
-
-We now have access to forecasted and actual demand store-item(1-1) combinations. Let's quickly visualize forecasted and actual demand for the combination of item 1 in store 1. We will limit the visualization to data in calendar year 2013 for ease of interpretation:
-
-* The forecast is not expected to perfectly predict demand. Instead, it provides a mean estimate around which actual demand varies.
+Graphical representation is best way to understand insights from data. It refers to the use of charts and graphs to visually display, analyze, clarify, and interpret numerical data, functions, and other qualitative structures.
 
 
 

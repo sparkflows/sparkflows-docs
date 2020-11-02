@@ -93,7 +93,7 @@ Loading Example Workflows
 * Upload the Fire examples data with default or if data is available at anyother location, point to that location::
 
        
-Install and Running Example Workflows
+Install and Start Running Example Workflows
 ------------------------
 
 * Start off with executing the example workflows::

@@ -171,7 +171,7 @@ We now have access to forecasted and actual demand store-item(1-1) combinations.
 Visualization workflow
 -----------------------
 
-.. figure:: ../../_assets/tutorials/time-series/stock_graph_workflow.png
+.. figure:: ../../_assets/tutorials/time-series/stock_graphs.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%

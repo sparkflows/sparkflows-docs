@@ -7,7 +7,7 @@ prerequisite:
 ------------
 
 * java 8 should be installed 
-* if you do not already have it installed, Need to install
+* if you do not already have it, Need to install
  - *https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html*
 
 Below are the overall steps for installing Fire Insights on VM.

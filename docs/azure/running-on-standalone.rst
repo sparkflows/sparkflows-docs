@@ -26,7 +26,7 @@ Steps
 
 * Update the inbound rule ::
 
-    - ssh port ie 22 should be accessible.
+    - ssh port ie 22 should be accessible to ssh to Azure VM.
     - We would have Fire listening on ports 8080, so just ensure its opened.
     
 

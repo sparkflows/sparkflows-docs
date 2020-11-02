@@ -1,7 +1,7 @@
 Deployment Guide
 =======================
 
-Fire can be easily installed on an Azure Standalone VM. 
+Fire Insights can be easily installed on an Azure Standalone VM. 
 
 prerequisite:
 -------------

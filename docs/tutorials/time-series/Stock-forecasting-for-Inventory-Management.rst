@@ -22,7 +22,7 @@ sales - Quantity of product sold
 Prophet Time Series Modelling Workflow on Multivariate Data
 -----------------------------------------------------------
 
-.. figure:: ../../_assets/tutorials/time-series/STOCK_WORKFLOW.png
+.. figure:: ../../_assets/tutorials/time-series/stock_flow.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%

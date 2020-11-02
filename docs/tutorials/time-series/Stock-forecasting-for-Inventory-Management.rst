@@ -22,6 +22,8 @@ sales - Quantity of product sold
 Prophet Time Series Modelling Workflow on Multivariate Data
 -----------------------------------------------------------
 
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+
 .. figure:: ../../_assets/tutorials/time-series/stock_flow.png
    :alt: Stock Forecasting
    :align: center

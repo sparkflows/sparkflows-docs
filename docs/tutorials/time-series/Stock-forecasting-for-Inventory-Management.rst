@@ -70,9 +70,9 @@ Node 3 - Prophet
 
 **General Section of Prophet model**
 
-* Select Date column in DS column section
-* Select Y as target here sales column is our target
-* select Growth as linear or Logistic
+* Set Date column in DS column field
+* Set Y as target here sales column is our target
+* Set Growth as linear or Logistic
 * We are using prophet model so that is self-sufficient to select seasonality in auto mode
 * Select mode of seasonality as additive or multiplicative
 * At last but not the least Provide Interval for the Forecast between 0 to 1
@@ -146,7 +146,7 @@ Node 6 - SaveCSV
 
 * click on browse HDFS select folder path where you want to save final output
 * SAVE MODE block gives you flexibility of append, overwrite etc
-* Select your header preference as true or false
+* Set header preference as true or false
 * PARTITION section gives you flexibility to select columns which you want to save
 
 

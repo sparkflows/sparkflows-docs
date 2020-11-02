@@ -74,7 +74,7 @@ Loading Example Workflows
 
 * From the home page of Fire Insights, click on ***Load Example Applications***
 
-* Upload the Fire examples data with default or if anyother locations data is available, point to that location::
+* Upload the Fire examples data with default or if data is available at anyother location, point to that location::
 
        
 Install and Running Example Workflows
@@ -82,7 +82,7 @@ Install and Running Example Workflows
 
 * Start off with executing the example workflows::
 
-    - Fire comes pre-packaged with a number of example workflows
-    - You can install them by clicking on the 'Install example workflows' link in the landing page when logged in as the `admin` user.
+    - Fire comes pre-packaged with a number of example workflows, you can start executing.
+    
     
 

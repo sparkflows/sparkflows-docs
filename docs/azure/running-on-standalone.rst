@@ -10,7 +10,7 @@ prerequisite:
 * if you do not already have it, Need to install
 - Download it from below link::
 
-  https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+   https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
   
 - Install using below command (Centos):: 
    

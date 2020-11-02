@@ -1,8 +1,18 @@
 Stock Forecasting
 =================
 
-Periodically, we need to order products to replenish our inventory. When we do this, we have in mind a future period for which we are attempting to address demand along with an estimate of the demand in that period.
-When actual demand exceeds our forecasts, we run the risk of a stockout (out of stock) situation with its associated potential loss of sales and reduced customer satisfaction. To avoid this, we often include additional units of stock, above the forecasted demand, in our replenishment orders. The amount of this safety stock depends on our estimates of variability in the demand for this upcoming period and the percentage of time we are willing to risk an out of stock situation.
+Objective
+---------
+Stock forecasting helps production units to get an idea about raw material, pricing of goods, improvement in supply-chain management and proper control of sales.
+
+Data-set
+--------
+
+Data set contains 4 columns as follows:-
+date - Product sold date
+store - store id from where product get sold
+item - what is the product id
+sales - Quantity of product sold
 
 
 Prophet Time Series Modelling Workflow on Multivariate Data
@@ -52,7 +62,7 @@ Node 2 - RowFilter
    :width: 60%
    
 Node 3 - Prophet
-------------------
+-----------------
 
 **General Section of Prophet model**
 
@@ -144,6 +154,8 @@ Node 6 - SaveCSV
 
 Output Visualization
 ---------------------
+
+
 
 We now have access to forecasted and actual demand store-item(1-1) combinations. Let's quickly visualize forecasted and actual demand for the combination of item 1 in store 1. We will limit the visualization to data in calendar year 2013 for ease of interpretation:
 

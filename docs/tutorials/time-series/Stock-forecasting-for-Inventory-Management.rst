@@ -9,9 +9,13 @@ Data-set
 --------
 
 Data set contains 4 columns as follows:-
+
 date - Product sold date
+
 store - store id from where product get sold
+
 item - what is the product id
+
 sales - Quantity of product sold
 
 

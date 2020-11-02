@@ -40,6 +40,10 @@ Steps
 * ssh into the VM::
 
     ssh -i my.pem userp@public ip.
+    
+* Just Confirm that java 8 is already installed, if not follow above steps::
+
+    ``java -version``
 
 * Download the fire tgz file by one of the following options:
 

@@ -5,7 +5,7 @@ Objective
 ---------
 Stock forecasting helps production units to get an idea about raw material, pricing of goods, improvement in supply-chain management and proper control of sales.
 
-Data-set
+Dataset
 --------
 
 Data set contains 4 columns as follows:-

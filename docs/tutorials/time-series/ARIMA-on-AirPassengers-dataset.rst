@@ -62,7 +62,7 @@ Don't worry about p,d,q in this case because we have something interesting model
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_model.png
    :alt: Stock Forecasting
    :align: center
-   :width: 60%
+   :width: 100%
    
 Summary
 ++++++++++++++++
@@ -72,7 +72,7 @@ Summary
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
    :alt: Stock Forecasting
    :align: center
-   :width: 60%
+   :width: 100%
 
 Node 3 - ZipWithIndex
 ++++++++++++++++

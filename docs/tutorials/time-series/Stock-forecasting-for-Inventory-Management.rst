@@ -30,8 +30,8 @@ Prophet is a procedure for forecasting time series data based on an additive mod
    :width: 60%
 
 
-Node 1 - Readcsv
-----------------
+Node 1 - ReadCSV
+++++++++++++++++
 
 
 * Read data from using Readcsv node by passing path
@@ -58,7 +58,7 @@ Node 1 - Readcsv
    :width: 60%
 
 Node 2 - RowFilter
-------------------
+++++++++++++++++
 
 * Filter data by row with respect to store and item
 
@@ -68,7 +68,7 @@ Node 2 - RowFilter
    :width: 60%
    
 Node 3 - Prophet
------------------
+++++++++++++++++
 
 **General Section of Prophet model**
 
@@ -97,7 +97,7 @@ Node 3 - Prophet
    :width: 60%
 
 Node 4 - SQL
---------------
+++++++++++++++++
 
 **General Section of SQL node**
 
@@ -120,7 +120,7 @@ Node 4 - SQL
    
 
 Node 5 - JoinUsingSQL
-------------------------
+++++++++++++++++
 
 **General Section of JoinUsingSQL node**
 
@@ -143,7 +143,7 @@ Node 5 - JoinUsingSQL
 
 
 Node 6 - SaveCSV
------------------
+++++++++++++++++
 
 
 * click on browse HDFS select folder path where you want to save final output
@@ -163,11 +163,7 @@ Output Visualization
 
 Graphical representation is best way to understand insights from data. It refers to the use of charts and graphs to visually display, analyze, clarify, and interpret numerical data, functions, and other qualitative structures.
 
-
-
-
-Visualization workflow
------------------------
+Below is the workflow for Visualizing it:
 
 .. figure:: ../../_assets/tutorials/time-series/stock_graphs.png
    :alt: Stock Forecasting
@@ -175,7 +171,7 @@ Visualization workflow
    :width: 60%
 
 Node 1 - ReadCSV
-----------------
+++++++++++++++++
 
 * Read output csv which we have saved from Stock forecasting for Inventory Management
 * click on browse HDFS and select output_forecast dataset
@@ -189,7 +185,7 @@ Node 1 - ReadCSV
 
    
 Node 2 - RowFilter
-------------------
+++++++++++++++++
 
 * Filter dataframe with categorical variable like store and item
 
@@ -199,12 +195,12 @@ Node 2 - RowFilter
    :width: 60%
    
 Node 3 - Sortby
----------------
+++++++++++++++++
 
 * Gives options to sort our data set based on columns as ascending and descending order 
    
 Node 4 - GraphValue
--------------------
+++++++++++++++++
 
 * TITLE - Give title to Graph
 * LABELS - Define labels for X-axis and Y-axis 

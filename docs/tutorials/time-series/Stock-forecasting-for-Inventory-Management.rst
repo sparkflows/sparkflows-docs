@@ -165,7 +165,7 @@ Graphical representation is best way to understand insights from data. It refers
 
 Below is the workflow for Visualizing it:
 
-.. figure:: ../../_assets/tutorials/time-series/stock_graphs.png
+.. figure:: ../../_assets/tutorials/time-series/graph_b_vs_w.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%

@@ -28,7 +28,7 @@ The auto_arima capacity can be overwhelming. There are a ton of boundaries to tu
    :width: 60%
 
 Node 1 - Readcsv
-----------------
+++++++++++++++++
 
 * Read data from using Readcsv node by passing path
 
@@ -42,7 +42,7 @@ Node 1 - Readcsv
    :width: 60%
 
 Node 2 - ARIMA
-----------------
+++++++++++++++++
 
 * p - The number of lag observations included in the model, also called the lag order.
 * d - The number of times that the raw observations are different, also called the degree of differencing.
@@ -65,7 +65,7 @@ Don't worry about p,d,q in this case because we have something interesting model
    :width: 60%
    
 Summary
--------
+++++++++++++++++
  
 * It provide to analyse what are different conditions used by trained model 
    
@@ -75,12 +75,12 @@ Summary
    :width: 60%
 
 Node 3 - ZipWithIndex
----------------------
+++++++++++++++++
 
 * Identify column which you want to make as index
 
 Node 4 - PrintNRows
--------------------
+++++++++++++++++
 
 * How many rows you want to print to see final predicted result
 

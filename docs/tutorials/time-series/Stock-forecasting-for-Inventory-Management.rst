@@ -24,7 +24,7 @@ Prophet Time Series Modelling Workflow on Multivariate Data
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
-.. figure:: ../../_assets/tutorials/time-series/stock_flow.png
+.. figure:: ../../_assets/tutorials/time-series/stock_b_vs_w.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
@@ -120,7 +120,7 @@ Node 4 - SQL
    
 
 Node 5 - JoinUsingSQL
-++++++++++++++++
++++++++++++++++++++++
 
 **General Section of JoinUsingSQL node**
 
@@ -185,7 +185,7 @@ Node 1 - ReadCSV
 
    
 Node 2 - RowFilter
-++++++++++++++++
+++++++++++++++++++
 
 * Filter dataframe with categorical variable like store and item
 
@@ -200,7 +200,7 @@ Node 3 - Sortby
 * Gives options to sort our data set based on columns as ascending and descending order 
    
 Node 4 - GraphValue
-++++++++++++++++
++++++++++++++++++++
 
 * TITLE - Give title to Graph
 * LABELS - Define labels for X-axis and Y-axis 

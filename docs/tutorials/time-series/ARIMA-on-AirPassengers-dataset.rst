@@ -87,7 +87,7 @@ Node 4 - PrintNRows
 .. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
    :alt: Stock Forecasting
    :align: center
-   :width: 60%
+   :width: 100%
    
 Final Result
 ------------

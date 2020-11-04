@@ -35,4 +35,13 @@ Features of Random Forest:-
 Prepare data for modeling
 --------------------------
 
+Follow workflow arrow
+1- ZipWithIndex to create new feature column as ID
+2- Group data to create new feature column as ID divided by length of data
+
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/group_data.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+
 

@@ -1,5 +1,5 @@
 Earthquake Prediction
-=================
+=====================
 
 Objective
 ---------
@@ -13,5 +13,26 @@ Data set contains 2 columns as follows:-
 Acoustic_data - Acoustic wave reading
 
 Time_to_failure - Time remaining before the next earthquake
+
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_data.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+
+Random Forest Regression Model for Earthquake Prediction
+---------------------------------------------------------
+Random Forest Regression model belongs to family of bagging regression. It is a supervised learning model that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple models to make prediction accurately than a single model.
+Features of Random Forest:-
+* Aggregates many decision trees
+* Prevents overfitting
+
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_flow.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+
+
+Prepare data for modeling
+--------------------------
 
 

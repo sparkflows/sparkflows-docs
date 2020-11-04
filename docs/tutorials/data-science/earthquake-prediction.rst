@@ -61,3 +61,25 @@ Follow workflow arrow
    :alt: Stock Forecasting
    :align: center
    :width: 100%
+   
+
+Data modeling
+-------------
+
+* Before we create Random Forest Regression model, split data(80:20) into train and test for performance evaluation.
+
+Random Forest Regression
+++++++++++++++++++++++++
+
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+   
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression2.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+
+
+

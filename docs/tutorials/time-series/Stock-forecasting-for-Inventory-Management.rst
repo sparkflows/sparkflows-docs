@@ -72,7 +72,7 @@ Node 3 - Prophet
 * Set Y as target here sales column is our target
 * Set Growth as linear or Logistic
 * We are using prophet model so that is self-sufficient to select seasonality in auto mode
-* Select mode of seasonality as additive or multiplicative
+* Set mode of seasonality as additive or multiplicative
 * At last but not the least set confidance Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png

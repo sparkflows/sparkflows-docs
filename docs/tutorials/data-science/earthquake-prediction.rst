@@ -48,4 +48,9 @@ Follow workflow arrow
    :align: center
    :width: 100%
 
+3- Feature engineering to group by data on key to create all statistical measures as new feature
 
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%

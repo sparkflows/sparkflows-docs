@@ -34,7 +34,7 @@ Node 1 - ReadCSV
 ++++++++++++++++
 
 
-* Read data from browse HDFS and set path
+* Browse HDFS to set data path
 
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
@@ -120,7 +120,7 @@ Node 5 - JoinUsingSQL
 **General Section of JoinUsingSQL node**
 
 
-* Join predicted(Data from SQL node) and Historical(Data from RowFilter node)
+* Join predicted(from SQL node) and Historical Data(from RowFilter node)
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
@@ -192,8 +192,7 @@ Node 3 - Sortby
 Node 4 - GraphValue
 +++++++++++++++++++
 * Define labels for X-axis and Y-axis 
-* Set column for X-axis which you want to represent as here Forecasted date on X-axis
-* Set columns for Y-axis which you want to represent as here we represented sales_pred_mean, sales_pred_lower, sales_pred_upper, sales.
+* Set columns for X-axis and Y-axis
 
 .. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
    :alt: Stock Forecasting
@@ -202,10 +201,10 @@ Node 4 - GraphValue
    
 **Graph obtained**
 
-* sales_pred_mean - Blue line
-* sales_pred_lower - Red line
-* sales_pred_upper - Magenta line 
-* sales - Yellow line
+* Sales_pred_mean - Blue line
+* Sales_pred_lower - Red line
+* Sales_pred_upper - Magenta line 
+* Sales - Yellow line
 * Now have a look into graph
 
 .. figure:: ../../_assets/tutorials/time-series/Graph_output.png

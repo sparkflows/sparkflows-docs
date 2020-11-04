@@ -19,7 +19,7 @@ Time_to_failure - Time remaining before the next earthquake
    :align: center
    :width: 100%
 
-Random Forest Regression Model for Earthquake Prediction
+Random Forest Regression Workflow for Earthquake Prediction
 ---------------------------------------------------------
 Random Forest Regression model belongs to family of bagging regression. It is a supervised learning model that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple models to make prediction accurately than a single model.
 Features of Random Forest:-

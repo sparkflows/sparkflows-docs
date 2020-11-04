@@ -71,6 +71,14 @@ Data modeling
 Random Forest Regression
 ++++++++++++++++++++++++
 
+* Set feature vector corresponding to label(time_to_failure_label)
+* set number of features for each split node of tree
+* For regression the measure of impurity is variance
+* In random forests, the impurity decrease from each feature can be averaged across trees to determine the final importance of the variable.
+* The maxBins signifies the maximum number of bins used for splitting the features, where the suggested value is 100 to get better results.
+* The maxDepth is the maximum depth of the tree (for example, depth 0 means one leaf node, depth 1 means one internal node plus two leaf nodes).
+* Information gain is calculated by comparing the entropy of the dataset before and after a transformation.
+
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression.png
    :alt: Stock Forecasting
    :align: center

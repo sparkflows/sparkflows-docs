@@ -9,6 +9,7 @@ Machine Learning
    farmers-market-prediction.rst
    clustering-houses.rst
    tfidf.rst
+   earthquake-prediction.rst
    
    
    

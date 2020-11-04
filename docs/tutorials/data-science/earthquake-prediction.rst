@@ -20,7 +20,7 @@ Time_to_failure - Time remaining before the next earthquake
    :width: 100%
 
 Random Forest Regression Workflow for Earthquake Prediction
----------------------------------------------------------
+-----------------------------------------------------------
 Random Forest Regression model belongs to family of bagging regression. It is a supervised learning model that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple models to make prediction accurately than a single model.
 
 Features of Random Forest:-
@@ -39,23 +39,23 @@ Prepare data for modeling
 
 Follow workflow arrow
 
-* Arrow 1- ZipWithIndex to create new feature column as ID
+* **Arrow 1**- ZipWithIndex to create new feature column as ID
 
-* Arrow 2- Group data to create new feature column as key obtained by ID divided by length of data 
+* **Arrow 2**- Group data to create new feature column as key obtained by ID divided by length of data 
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/group_data.png
    :alt: Stock Forecasting
    :align: center
    :width: 100%
 
-* Arrow 3- Feature engineering to group by data on key to create all statistical measures as new feature
+* **Arrow 3**- Feature engineering to group by data on key to create all statistical measures as new feature
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
    :alt: Stock Forecasting
    :align: center
    :width: 100%
 
-* Arrow 4 - Merge multiple columns to create feature vector
+* **Arrow 4** - Merge multiple columns to create feature vector
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_vector.png
    :alt: Stock Forecasting
@@ -89,5 +89,12 @@ Random Forest Regression
    :align: center
    :width: 100%
 
+Model evaluation
+----------------
 
+* Multiple ways to evaluate regression model such as R square, Root mean square error(rmse), mean square error(mse)
 
+.. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/performance_matrix.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%

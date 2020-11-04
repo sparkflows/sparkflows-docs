@@ -10,13 +10,13 @@ Dataset
 
 Data set contains 4 columns as follows:-
 
-date - Product sold date
+Date - Product sold date
 
-store - store id from where product get sold
+Store - store id from where product get sold
 
-item - what is the product id
+Item - what is the product id
 
-sales - Quantity of product sold
+Sales - Quantity of product sold
 
 
 Prophet Time Series Modelling Workflow on Multivariate Data
@@ -24,21 +24,17 @@ Prophet Time Series Modelling Workflow on Multivariate Data
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
-.. figure:: ../../_assets/tutorials/time-series/stock_b_vs_w.png
+.. figure:: ../../_assets/tutorials/time-series/stock_workflow1.png
    :alt: Stock Forecasting
    :align: center
-   :width: 60%
+   :width: 100%
 
 
 Node 1 - ReadCSV
 ++++++++++++++++
 
 
-* Read data from using Readcsv node by passing path
-
-* click on browse HDFS and select store_item_stock_train dataset
-
-* Select data type from COLUMN TYPES FOR THE CSV and click OK
+* Read data from browse HDFS and set path
 
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
@@ -58,7 +54,7 @@ Node 1 - ReadCSV
    :width: 60%
 
 Node 2 - RowFilter
-++++++++++++++++
+++++++++++++++++++
 
 * Filter data by row with respect to store and item
 
@@ -77,7 +73,7 @@ Node 3 - Prophet
 * Set Growth as linear or Logistic
 * We are using prophet model so that is self-sufficient to select seasonality in auto mode
 * Select mode of seasonality as additive or multiplicative
-* At last but not the least Provide Interval for the Forecast between 0 to 1
+* At last but not the least set confidance Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting
@@ -101,7 +97,7 @@ Node 4 - SQL
 
 **General Section of SQL node**
 
-* Write SQL query to select required columns from temp table
+* Rename columns forecasted by prophet  
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
    :alt: Stock Forecasting
@@ -110,8 +106,7 @@ Node 4 - SQL
 
 **Schema Section of SQL node**
 
-* Refresh Schema and select give data type in OUTPUT COLUMN TYPES
-* Click OK to save changes
+* Refresh Schema and set data type with respect to columns
 
 .. figure:: ../../_assets/tutorials/time-series/sql_schema.png
    :alt: Stock Forecasting
@@ -125,7 +120,7 @@ Node 5 - JoinUsingSQL
 **General Section of JoinUsingSQL node**
 
 
-* Write SQL query to join predicted(Data from SQL node) and History data(Data from RowFilter node)
+* Join predicted(Data from SQL node) and Historical(Data from RowFilter node)
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
@@ -146,10 +141,7 @@ Node 6 - SaveCSV
 ++++++++++++++++
 
 
-* click on browse HDFS select folder path where you want to save final output
-* SAVE MODE block gives you flexibility of append, overwrite etc
-* Set header preference as true or false
-* PARTITION section gives you flexibility to select columns which you want to save
+* Set path where you want to save final output
 
 
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
@@ -165,17 +157,15 @@ Graphical representation is best way to understand insights from data. It refers
 
 Below is the workflow for Visualizing it:
 
-.. figure:: ../../_assets/tutorials/time-series/graph_b_vs_w.png
+.. figure:: ../../_assets/tutorials/time-series/stock_graph_workflow1.png
    :alt: Stock Forecasting
    :align: center
-   :width: 60%
+   :width: 100%
 
 Node 1 - ReadCSV
 ++++++++++++++++
 
-* Read output csv which we have saved from Stock forecasting for Inventory Management
-* click on browse HDFS and select output_forecast dataset
-* Select data type from COLUMN TYPES FOR THE CSV and click OK
+* Read output csv which we have saved from Stock forecasting by passing path
 
 
 .. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png
@@ -201,27 +191,22 @@ Node 3 - Sortby
    
 Node 4 - GraphValue
 +++++++++++++++++++
-
-* TITLE - Give title to Graph
-* LABELS - Define labels for X-axis and Y-axis 
-* MAX VALUES TO DISPLAY - Maximum number of values want to plot into graph
-* CHART TYPE - accourding to your requirement select chart type like line for continous variable, histogram for count of categorical variable etc.
-* IS STREAMING - Define is your data is live streming or not as true or false 
-* X COLUMN - Select column for X-axis which you want to represent as here Forecasted date on X-axis
-* Y COLUMN - Select columns for Y-axis which you want to represent as here we represented sales_pred_mean, sales_pred_lower, sales_pred_upper, sales.
+* Define labels for X-axis and Y-axis 
+* Set column for X-axis which you want to represent as here Forecasted date on X-axis
+* Set columns for Y-axis which you want to represent as here we represented sales_pred_mean, sales_pred_lower, sales_pred_upper, sales.
 
 .. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
    :alt: Stock Forecasting
    :align: center
    :width: 60%
    
-**Now we reach on intresting part**
+**Graph obtained**
 
 * sales_pred_mean - Blue line
 * sales_pred_lower - Red line
 * sales_pred_upper - Magenta line 
 * sales - Yellow line
-* In last you can also check what data we ploted on this graph 
+* Now have a look into graph
 
 .. figure:: ../../_assets/tutorials/time-series/Graph_output.png
    :alt: Stock Forecasting

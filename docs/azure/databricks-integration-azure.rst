@@ -3,9 +3,7 @@ Azure Databricks Integration Steps
 
 Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. In addition fire displays the list of Databricks clusters running for the user.
-
-Databricks is running on Azure.
+Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. In addition Fire displays the list of Databricks clusters running for the user.
 
 * Running Databricks on Azure : https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal
 
@@ -19,7 +17,7 @@ Install Fire Insights on any machine. The machine has to be reachable from the D
 Upload Fire Core Jar to Databricks
 ----------------------------------
 
-Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
+Upload Fire Insights jar to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
@@ -59,6 +57,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    :width: 40%
    
 * Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/installautomatic.PNG
    :alt: Databricks

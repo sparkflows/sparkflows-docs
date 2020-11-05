@@ -66,14 +66,14 @@ Node 3 - Prophet
 
 We use Prophet to create the ML model.
 
-**General Section of Prophet model**
+**General Section of Prophet Model**
 
-* Set Date column in DS column field
-* Set Y as target- here sales column is our target
-* Set Growth as linear or logistic
+* Sets Date column in DS column field
+* Sets Y as target- here sales column is our target
+* Sets Growth as linear or logistic
 * We are using prophet model so that it is self-sufficient to select seasonality in auto mode
-* Set mode of seasonality as additive or multiplicative
-* At last but not the least set confidance Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
+* Sets mode of seasonality as additive or multiplicative
+* At last but not the least set confidence Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting

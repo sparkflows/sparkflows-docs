@@ -83,7 +83,7 @@ We use Prophet to create the ML model.
 
 **Future Data section of Prophet model**
 
-* In FUTURE PERIOD block gives the number of steps we want to predict 
+* FUTURE PERIOD block gives the number of steps we want to predict 
 * FREQUENCY can be Monthly or Daily 
 * Set INCLUDE HISTORY to true for testing the model and False for production
   
@@ -97,7 +97,7 @@ Node 4 - SQL
 
 **General Section of SQL node**
 
-* Rename columns forecasted by prophet  
+* Renames columns forecasted by Prophet  
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
    :alt: Stock Forecasting
@@ -106,7 +106,7 @@ Node 4 - SQL
 
 **Schema Section of SQL node**
 
-* Refresh Schema and set data type with respect to columns
+* Refreshes Schema and sets data type with respect to columns
 
 .. figure:: ../../_assets/tutorials/time-series/sql_schema.png
    :alt: Stock Forecasting
@@ -120,7 +120,7 @@ Node 5 - JoinUsingSQL
 **General Section of JoinUsingSQL node**
 
 
-* Join predicted(from SQL node) and Historical Data(from RowFilter node)
+* Joins Prediction (from SQL node) and Historical Data(from RowFilter node)
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
@@ -129,7 +129,7 @@ Node 5 - JoinUsingSQL
 
 **Schema Section of JoinUsingSQL node**
 
-* Follow same step as in Schema Section of SQL node
+* Follow the same steps as in Schema Section of SQL node
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
    :alt: Stock Forecasting
@@ -141,7 +141,7 @@ Node 6 - SaveCSV
 ++++++++++++++++
 
 
-* Set path where you want to save final output
+* Sets path where you want to save the final output
 
 
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
@@ -153,7 +153,7 @@ Node 6 - SaveCSV
 Output Visualization
 ---------------------
 
-Graphical representation is best way to understand insights from data. It refers to the use of charts and graphs to visually display, analyze, clarify, and interpret numerical data, functions, and other qualitative structures.
+Graphical representation is the best way to understand insights from data. It refers to the use of charts and graphs to visually display, analyze, clarify, and interpret numerical data, functions and other qualitative structures.
 
 Below is the workflow for Visualizing it:
 
@@ -165,7 +165,7 @@ Below is the workflow for Visualizing it:
 Node 1 - ReadCSV
 ++++++++++++++++
 
-* Read output csv which we have saved from Stock forecasting by passing path
+* Reads output CSV which we have saved from Stock Forecasting by passing path
 
 
 .. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png
@@ -177,7 +177,7 @@ Node 1 - ReadCSV
 Node 2 - RowFilter
 ++++++++++++++++++
 
-* Filter dataframe with categorical variable like store and item
+* Filters dataframe with categorical variables like store and item
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
@@ -187,12 +187,12 @@ Node 2 - RowFilter
 Node 3 - Sortby
 ++++++++++++++++
 
-* Gives options to sort our data set based on columns as ascending and descending order 
+* Gives options to sort our Dataset based on columns in ascending and descending order 
    
 Node 4 - GraphValue
 +++++++++++++++++++
-* Define labels for X-axis and Y-axis 
-* Set columns for X-axis and Y-axis
+* Defines labels for X-axis and Y-axis 
+* Sets columns for X-axis and Y-axis
 
 .. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
    :alt: Stock Forecasting

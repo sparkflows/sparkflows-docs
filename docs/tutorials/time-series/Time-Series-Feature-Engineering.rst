@@ -31,11 +31,10 @@ Moving average
 * Moving average are commonly used to streamline short-period fluctuations in time series data and feature long-term patterns.
 * For one step window size will be from -1 to 1 for sales data
 
-
-.. figure:: ../../_assets/tutorials/time-series/ts_features/ma1.png
-   :alt: Stock Forecasting
-   :align: center
-   :width: 100%
+.. figure:: ../../_assets/tutorials/time-series/ts_features/moving_output.png
+  :alt: Stock Forecasting
+  :align: center
+  :width: 100%
  
  
  **Seven step moving average** 

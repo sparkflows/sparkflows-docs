@@ -10,7 +10,7 @@ Dataset
 
 Data set contains 4 columns as follows:-
 
-* Date - Product sold date
+* Date - Sold date of product
 * Store - Store id from where product got sold
 * Item - Item id
 * Sales - Quantity of product sold
@@ -19,7 +19,7 @@ Data set contains 4 columns as follows:-
 Prophet Time Series Modelling Workflow on Multivariate Data
 -----------------------------------------------------------
 
-Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends fit with yearly, weekly, daily, seasonality and  holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
 .. figure:: ../../_assets/tutorials/time-series/stock_workflow1.png
    :alt: Stock Forecasting
@@ -31,7 +31,7 @@ Node 1 - ReadCSV
 ++++++++++++++++
 
 
-* Read in the given CSV file : store_item_stock_train.csv
+* Reads the given CSV file : store_item_stock_train.csv
 
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
@@ -41,8 +41,8 @@ Node 1 - ReadCSV
 
 
 
-* Below are the first 10 Rows of data
-* Columns contains date as datetype, Store and Item are categorical variables and Sales is a continuous variable
+* Below are the first 10 rows of data
+* Columns contain data as Datetype, Store and Item which are categorical variables and Sales which is a continuous variable.
 
 
 .. figure:: ../../_assets/tutorials/time-series/store_top_10.png

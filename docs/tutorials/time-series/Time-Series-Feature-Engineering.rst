@@ -89,3 +89,11 @@ Lags feature
    :alt: Stock Forecasting
    :align: center
    :width: 100% 
+
+New feature data
+----------------
+
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/featuredoutput.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100% 

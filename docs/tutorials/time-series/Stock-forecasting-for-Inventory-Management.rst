@@ -10,13 +10,10 @@ Dataset
 
 Data set contains 4 columns as follows:-
 
-Date - Product sold date
-
-Store - store id from where product get sold
-
-Item - what is the product id
-
-Sales - Quantity of product sold
+* Date - Product sold date
+* Store - Store id from where product got sold
+* Item - Item id
+* Sales - Quantity of product sold
 
 
 Prophet Time Series Modelling Workflow on Multivariate Data

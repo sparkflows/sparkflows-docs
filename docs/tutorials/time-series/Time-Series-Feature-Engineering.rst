@@ -63,3 +63,29 @@ Extract Date time features
    :alt: Stock Forecasting
    :align: center
    :width: 100% 
+
+Lags feature
+------------
+
+* Lag is used to make non-stationary data into stationary data
+* Outliers are easily discernible on a lag plot
+* acf and pacf plot is used to calcluate best lags
+
+**Lag one**
+
+* The most commonly used lag is 1, called a first-order lag
+* Window shift is one
+
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/lag1.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+
+**Lag seven** 
+ 
+* Window shift is seven
+ 
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/all_lags.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100% 

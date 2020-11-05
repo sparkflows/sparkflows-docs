@@ -1,1 +1,25 @@
-start
+Time Series Feature Engineering
+===============================
+
+Objective
+---------
+Process of extracting new features from raw data via data mining techniques. These features can be used to improve the performance of models. 
+
+Dataset
+--------
+
+Dataset contains 4 columns as below:
+
+* Date - Date when product was sold
+* Store - Store id from where product got sold
+* Item - Item id
+* Sales - Quantity of product sold
+
+Feature Engineering Workflow
+-----------------------------
+Each column is a feature. But all features may not produce the best results from models, so feature engineering play important role in choosing the right features for a model won't just altogether improve its prescient force yet will likewise offer the adaptability to utilize less unpredictable models that are quicker to run and all the more handily.
+
+.. figure:: ../../_assets/tutorials/time-series/ts_features/tsfeatureworkflow.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%

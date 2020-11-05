@@ -8,7 +8,7 @@ Stock forecasting helps production units to get an idea about raw material, pric
 Dataset
 --------
 
-Data set contains 4 columns as follows:-
+Dataset contains 4 columns as follows:-
 
 * Date - Date when product was sold
 * Store - Store id from where product got sold

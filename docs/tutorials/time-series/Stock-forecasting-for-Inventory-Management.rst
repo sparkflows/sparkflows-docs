@@ -31,7 +31,7 @@ Node 1 - ReadCSV
 ++++++++++++++++
 
 
-* Browse HDFS to set data path
+* Read in the given CSV file : store_item_stock_train.csv
 
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
@@ -41,8 +41,8 @@ Node 1 - ReadCSV
 
 
 
-* Top 10 Rows of data
-* Columns contains date as datetype, Store and Item are categorical variable and Sales as continuous variable
+* Below are the first 10 Rows of data
+* Columns contains date as datetype, Store and Item are categorical variables and Sales is a continuous variable
 
 
 .. figure:: ../../_assets/tutorials/time-series/store_top_10.png
@@ -60,8 +60,11 @@ Node 2 - RowFilter
    :align: center
    :width: 60%
    
+   
 Node 3 - Prophet
 ++++++++++++++++
+
+We use Prophet to create the ML model.
 
 **General Section of Prophet model**
 
@@ -80,9 +83,9 @@ Node 3 - Prophet
 
 **Future Data section of Prophet model**
 
-* In FUTURE PERIOD block give number of steps you want to predict 
-* Give FREQUENCY as Monthly or Daily 
-* INCLUDE HISTORY will true for testing our model and False for production
+* In FUTURE PERIOD block gives the number of steps we want to predict 
+* FREQUENCY can be Monthly or Daily 
+* Set INCLUDE HISTORY to true for testing the model and False for production
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting

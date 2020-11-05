@@ -6,6 +6,7 @@ Time Series
 
    Stock-forecasting-for-Inventory-Management.rst
    ARIMA-on-AirPassengers-dataset.rst
+   Time-Series-Feature-Engineering.rst
    
    
    

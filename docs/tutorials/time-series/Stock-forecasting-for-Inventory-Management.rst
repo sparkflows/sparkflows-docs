@@ -3,7 +3,7 @@ Stock Forecasting
 
 Objective
 ---------
-Stock forecasting helps production units to get an idea about raw material, pricing of goods, improvement in supply-chain management and proper control of sales.
+Stock forecasting helps production units to get an idea about raw material, pricing of goods, improvement in supply, chain management and proper control of sales.
 
 Dataset
 --------
@@ -42,7 +42,7 @@ Node 1 - ReadCSV
 
 
 * Below are the first 10 rows of data
-* Columns contain data as Datetype, Store and Item which are categorical variables and Sales which is a continuous variable.
+* Columns contain data as datetype, store and item which are categorical variables and sales which is a continuous variable.
 
 
 .. figure:: ../../_assets/tutorials/time-series/store_top_10.png
@@ -53,7 +53,7 @@ Node 1 - ReadCSV
 Node 2 - RowFilter
 ++++++++++++++++++
 
-* Filter data by row with respect to store and item
+* Filters data by row with respect to store and item
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
@@ -69,9 +69,9 @@ We use Prophet to create the ML model.
 **General Section of Prophet model**
 
 * Set Date column in DS column field
-* Set Y as target here sales column is our target
-* Set Growth as linear or Logistic
-* We are using prophet model so that is self-sufficient to select seasonality in auto mode
+* Set Y as target- here sales column is our target
+* Set Growth as linear or logistic
+* We are using prophet model so that it is self-sufficient to select seasonality in auto mode
 * Set mode of seasonality as additive or multiplicative
 * At last but not the least set confidance Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
 

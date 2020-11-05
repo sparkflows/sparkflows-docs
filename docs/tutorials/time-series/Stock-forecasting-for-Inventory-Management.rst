@@ -10,7 +10,7 @@ Dataset
 
 Data set contains 4 columns as follows:-
 
-* Date - Sold date of product
+* Date - Date when product was sold
 * Store - Store id from where product got sold
 * Item - Item id
 * Sales - Quantity of product sold
@@ -184,7 +184,7 @@ Node 2 - RowFilter
    :align: center
    :width: 60%
    
-Node 3 - Sortby
+Node 3 - SortBy
 ++++++++++++++++
 
 * Gives options to sort our Dataset based on columns in ascending and descending order 

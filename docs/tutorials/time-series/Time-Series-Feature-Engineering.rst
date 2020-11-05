@@ -23,3 +23,22 @@ Each column is a feature. But all features may not produce the best results from
    :alt: Stock Forecasting
    :align: center
    :width: 100%
+
+Moving average
+--------------
+**One step moving average**
+* Moving average are commonly used to streamline short-period fluctuations in time series data and feature long-term patterns.
+* For one step window size will be from -1 to 1 for sales data
+
+
+.. figure:: ../../_assets/tutorials/time-series/ts_features/ma1.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+ **Seven step moving average**  
+ * For one step window size will be from -7 to 7 for sales data
+ * Moving average output
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/moving_output.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%

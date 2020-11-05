@@ -46,3 +46,20 @@ Moving average
    :align: center
    :width: 100% 
 
+
+Extract Date time features
+--------------------------
+
+* Break date and get the year, month, week of year, day of the month, hour, minute, second, etc.
+
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/date_field_extraction.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100% 
+
+* Output of date time features
+
+ .. figure:: ../../_assets/tutorials/time-series/ts_features/date_extrected_output.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100% 

@@ -165,7 +165,7 @@ Below is the workflow for Visualizing it:
 Node 1 - ReadCSV
 ++++++++++++++++
 
-* Reads output CSV which we have saved from Stock Forecasting by passing path
+* Reads output CSV which we have saved from Stock Forecasting.
 
 
 .. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png

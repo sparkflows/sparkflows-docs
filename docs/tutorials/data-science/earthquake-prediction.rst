@@ -10,9 +10,8 @@ Dataset
 
 Data set contains 2 columns as follows:-
 
-Acoustic_data - Acoustic wave reading
-
-Time_to_failure - Time remaining before the next earthquake
+* Acoustic_data - Acoustic wave reading
+* Time_to_failure - Time remaining before the next earthquake
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_data.png
    :alt: Stock Forecasting

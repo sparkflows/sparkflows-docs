@@ -43,6 +43,7 @@ Moving average
  * For one step window size will be from -7 to 7 for sales data
  * Moving average output
  
+ 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/moving_output.png
    :alt: Stock Forecasting
    :align: center

@@ -73,7 +73,7 @@ We use Prophet to create the ML model.
 * Sets Growth as linear or logistic
 * We are using prophet model so that it is self-sufficient to select seasonality in auto mode
 * Sets mode of seasonality as additive or multiplicative
-* At last but not the least set confidence Interval(0 to 1) which gives a range of plausible values for the parameter of interest.
+* Sets confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting

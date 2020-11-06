@@ -65,7 +65,7 @@ Follow workflow arrow
 Data modeling
 -------------
 
-* Before we create Random Forest Regression model, split data(80:20) into train and test for performance evaluation.
+* Before we create Random Forest Regression model, split data (80:20) into train and test for performance evaluation.
 
 Random Forest Regression
 ++++++++++++++++++++++++

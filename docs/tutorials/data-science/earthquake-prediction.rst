@@ -8,7 +8,7 @@ As the motivation behind earthquake prediction is to empower crisis measures to 
 Dataset
 -------
 
-Data set contains 2 columns as below:
+Dataset contains 2 columns as below:
 
 * Acoustic_data - Acoustic wave reading
 * Time_to_failure - Time remaining before the next earthquake

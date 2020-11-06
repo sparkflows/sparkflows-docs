@@ -27,7 +27,7 @@ The auto_arima capacity can be overwhelming. There are a ton of boundaries to tu
    :align: center
    :width: 60%
 
-Node 1 - Readcsv
+Node 1 - ReadCSV
 ++++++++++++++++
 
 * Reads the given CSV file : AirPassengers.csv
@@ -46,10 +46,11 @@ Node 2 - ARIMA
 
 Not to worry about p,d,q in this case because we have an interesting model called  - AUTO-ARIMA (Able to select automatically optimal value)
 
-* Y - Target Variable(Passengers Per Month)
-* SEASONAL - automatically True but you can change as false if you want as non-seasonal
-* SCORING - How you want to evaluate your model performance like - MSE, MAE
-* FORECAST - Number of steps you want to get forecasted
+* Y - Target Variable (Passengers Per Month)
+* SEASONAL - Automatically True but you can change as false if you want as non-seasonal
+* SCORING - How do you want to evaluate your model performance like - MSE, MAE
+* FORECAST - Number of steps you want to  forecast
+
 
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_model.png
    :alt: Stock Forecasting

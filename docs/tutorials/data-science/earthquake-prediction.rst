@@ -22,7 +22,7 @@ Random Forest Regression Workflow for Earthquake Prediction
 -----------------------------------------------------------
 Random Forest Regression model belongs to family of bagging regression. It is a supervised learning model that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple models to make prediction more accurately than a single model.
 
-Features of Random Forest:-
+Features of Random Forest -
 
 * Aggregates many decision trees
 * Prevents overfitting

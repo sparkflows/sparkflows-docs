@@ -30,11 +30,7 @@ The auto_arima capacity can be overwhelming. There are a ton of boundaries to tu
 Node 1 - Readcsv
 ++++++++++++++++
 
-* Read data from using Readcsv node by passing path
-
-* click on browse HDFS and select AirPassengers dataset
-
-* Select data type from COLUMN TYPES FOR THE CSV and click OK
+* Reads the given CSV file : AirPassengers.csv
 
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_readcsv.png
    :alt: Stock Forecasting
@@ -52,10 +48,6 @@ Don't worry about p,d,q in this case because we have something interesting model
 
 * Y - Target Variable(Passengers Per Month)
 * SEASONAL - automatically True but you can change as false if you want as non-seasonal
-* STEPWISE - If you want to use flexibility of auto-arima so keep it true
-* TRACE - Print parameters used in auto-arima
-* SUPPRESS WARNINGS - Ignore warnings
-* ERROR ACTION - You can also ignore errors it get automatically handled 
 * SCORING - How you want to evaluate your model performance like - MSE, MAE
 * FORECAST - Number of steps you want to get forecasted
 
@@ -65,7 +57,7 @@ Don't worry about p,d,q in this case because we have something interesting model
    :width: 100%
    
 Summary
-++++++++++++++++
+++++++++
  
 * It provide to analyse what are different conditions used by trained model 
    
@@ -75,14 +67,14 @@ Summary
    :width: 100%
 
 Node 3 - ZipWithIndex
-++++++++++++++++
++++++++++++++++++++++
 
 * Identify column which you want to make as index
 
 Node 4 - PrintNRows
-++++++++++++++++
++++++++++++++++++++
 
-* How many rows you want to print to see final predicted result
+* How many rows you want to print to see final result
 
 .. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
    :alt: Stock Forecasting

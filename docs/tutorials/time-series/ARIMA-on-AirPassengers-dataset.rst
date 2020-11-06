@@ -75,7 +75,7 @@ Node 3 - ZipWithIndex
 Node 4 - PrintNRows
 +++++++++++++++++++
 
-* Number of rows you want to print to see final result
+* Number of rows you want to print to see the final result
 
 .. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
    :alt: Stock Forecasting

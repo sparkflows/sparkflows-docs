@@ -38,23 +38,23 @@ Prepare data for modeling
 
 Follow workflow arrow
 
-* **Arrow 1**- ZipWithIndex to create new feature column as ID
+* **ZipWithIndex**- Create new feature column from dataframe index as ID
 
-* **Arrow 2**- Group data to create new feature column as key obtained by ID divided by length of data 
+* **Group data**- Create new feature column as key obtained by ID divided by length of data 
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/group_data.png
    :alt: Stock Forecasting
    :align: center
    :width: 100%
 
-* **Arrow 3**- Feature engineering to group by data on key to create all statistical measures as new feature
+* **Feature engineering**- Group by data on key to create all statistical measures(min, max, mean, quartiles etc) as new feature
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
    :alt: Stock Forecasting
    :align: center
    :width: 100%
 
-* **Arrow 4** - Merge multiple columns to create feature vector
+* **Feature vector** - Merge multiple columns to form vector
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_vector.png
    :alt: Stock Forecasting

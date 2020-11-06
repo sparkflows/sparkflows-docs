@@ -25,3 +25,66 @@ Prophet is a procedure for forecasting time series data based on an additive mod
    :align: center
    :width: 100%
    
+Data Preprocessing
+------------------
+
+* **Column Filter** convert multivariate data into univariate for prophet model
+
+.. figure:: ../../_assets/tutorials/time-series/IOT/column_filter.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+   
+* **Output** Univariate data
+
+.. figure:: ../../_assets/tutorials/time-series/IOT/col_filt_out.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 100%
+   
+Data Modeling
+-------------
+
+* **Prophet** Model for anomaly detication using mean as threshold value
+
+
+**General Section of Prophet Model**
+
+* Sets Datetime column in DS column field
+* Sets Y as target- here reading of bearings  is our target
+* Sets Growth as linear or logistic
+* We are using prophet model so that it is self-sufficient to select seasonality in auto mode
+* Sets mode of seasonality as additive or multiplicative
+* Sets confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
+
+.. figure:: ../../_assets/tutorials/time-series/IOT/prophet_general.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+
+
+**Future Data section of Prophet model**
+
+* FUTURE PERIOD block gives the number of steps we want to predict 
+  
+.. figure:: ../../_assets/tutorials/time-series/IOT/prophet_future.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+* **SQL** select mean column to set threshold
+
+.. figure:: ../../_assets/tutorials/time-series/IOT/prophet_out.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%
+   
+Model prediction
+----------------
+
+* **Threshold** to compare anomaly
+
+.. figure:: ../../_assets/tutorials/time-series/IOT/iot_final_out.png
+   :alt: Stock Forecasting
+   :align: center
+   :width: 60%

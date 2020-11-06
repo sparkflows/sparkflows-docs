@@ -6,19 +6,19 @@ Objective
 
 The objective is to develop a time series model to predict future demand of air passengers which helps Airline company to take decision on aircraft fleet management.
 
-Data-set
+Dataset
 --------
 
-Data set contains 2 columns as follows:-
+Dataset contains 2 columns as follows:-
 
-Month - Month of the years
+Month - Month of the year
 
-Passengers - Total number of passengers travelled on that particular month.
+Passengers - Total number of passengers travelled in that particular month.
 
 Time Series Modelling Workflow on Univariate Data
 --------------------------------------------------
 
-The auto_arima work to fit the best ARIMA(Autoregressive Integrated Moving Average) model to a univariate time arrangement as indicated by either AIC, AICc, BIC or HQIC. The capacity plays out an inquiry (either stepwise or parallelized) over conceivable model requests inside the requirements given. 
+The auto_arima work to fit the best ARIMA(Autoregressive Integrated Moving Average) model to a univariate time arrangement is indicated by either AIC, AICc, BIC or HQIC. The capacity plays out an inquiry (either stepwise or parallelized) over conceivable model requests inside the requirements given. 
 
 The auto_arima capacity can be overwhelming. There are a ton of boundaries to tune, and the result is vigorously subject to various themes. In this segment, we spread out a few contemplations you'll need to make when you fit your ARIMA models.
 
@@ -44,7 +44,7 @@ Node 2 - ARIMA
 * d - The number of times that the raw observations are different, also called the degree of differencing.
 * q - The size of the moving average window, also called the order of moving average.
 
-Don't worry about p,d,q in this case because we have something interesting model called  - AUTO-ARIMA(Able to select automatically optimal value)
+Not to worry about p,d,q in this case because we have an interesting model called  - AUTO-ARIMA (Able to select automatically optimal value)
 
 * Y - Target Variable(Passengers Per Month)
 * SEASONAL - automatically True but you can change as false if you want as non-seasonal
@@ -69,12 +69,12 @@ Summary
 Node 3 - ZipWithIndex
 +++++++++++++++++++++
 
-* Create new column from index of data set
+* Creates new column from index of Dataset
 
 Node 4 - PrintNRows
 +++++++++++++++++++
 
-* How many rows you want to print to see final result
+* Number of rows you want to print to see final result
 
 .. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
    :alt: Stock Forecasting
@@ -84,7 +84,7 @@ Node 4 - PrintNRows
 Final Result
 ------------
  
-Lets check few rows of forecasted data by ARIMA Model
+Lets check a few rows of forecasted data by ARIMA Model
  
 .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
   :alt: Stock Forecasting

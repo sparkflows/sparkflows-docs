@@ -54,7 +54,7 @@ Follow workflow arrow
    :align: center
    :width: 100%
 
-* **Feature vector** - Merge multiple columns to form vector
+* **Feature Vector** - Merge multiple columns to form vector
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_vector.png
    :alt: Stock Forecasting

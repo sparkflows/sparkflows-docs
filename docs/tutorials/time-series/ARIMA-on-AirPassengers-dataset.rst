@@ -69,7 +69,7 @@ Summary
 Node 3 - ZipWithIndex
 +++++++++++++++++++++
 
-* Identify column which you want to make as index
+* Create new column from index of data set
 
 Node 4 - PrintNRows
 +++++++++++++++++++

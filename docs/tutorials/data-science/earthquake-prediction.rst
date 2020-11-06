@@ -47,7 +47,7 @@ Follow workflow arrow
    :align: center
    :width: 100%
 
-* **Feature engineering**- Groups by data on key to create all statistical measures (min, max, mean, quartiles etc) as new feature
+* **Feature Engineering**- Groups by data on key to create all statistical measures (min, max, mean, quartiles etc) as new feature
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
    :alt: Stock Forecasting

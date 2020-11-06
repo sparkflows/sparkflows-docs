@@ -17,7 +17,7 @@ Dataset contains 4 columns as below:
 
 Feature Engineering Workflow
 -----------------------------
-Each column is a feature. But all features may not produce the best results from models, so Feature Engineering plays an important role in choosing the right features. A model will not entirely improve its prescient force, yet will offer the adaptability to utilize less unpredictable models that are quicker to run and more handily.
+Each column is a feature. But all features may not produce the best results from models, so feature engineering plays an important role in choosing the right features. A model will not entirely improve its prescient force, yet will offer the adaptability to utilize less unpredictable models that are quicker to run and more handily.
 
 .. figure:: ../../_assets/tutorials/time-series/ts_features/tsfeatureworkflow.png
    :alt: Stock Forecasting

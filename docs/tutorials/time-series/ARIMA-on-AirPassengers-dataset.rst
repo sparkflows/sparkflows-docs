@@ -59,7 +59,7 @@ Don't worry about p,d,q in this case because we have something interesting model
 Summary
 ++++++++
  
-* It provide to analyse what are different conditions used by trained model 
+* The model summary reveals a lot of information
    
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
    :alt: Stock Forecasting
@@ -84,7 +84,7 @@ Node 4 - PrintNRows
 Final Result
 ------------
  
-Lets check few rows of our final forecasted result of ARIMA Model
+Lets check few rows of forecasted data by ARIMA Model
  
 .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
   :alt: Stock Forecasting

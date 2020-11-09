@@ -55,6 +55,15 @@ Data Science
 
    machine-learning/index 
    
+Time Series
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   time-series/index
+
+
 Tutorials
 ----------
 

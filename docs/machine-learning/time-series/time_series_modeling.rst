@@ -7,41 +7,6 @@ Fire Insights provides a number of Processors for Time Series Modeling. These in
 * Arima
 * H2OXGBoost : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#limitations
 
-Below is the sample workflows which contains ``H2OXGBoost`` processor in Fire Insights.
-
-It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
-
-.. figure:: ../../_assets/ml_userguide/xgboost.PNG
-   :alt: ml_userguide
-   :align: center
-   :width: 60%
-
-H2OXGBoost processor Configuration:
-
-.. figure:: ../../_assets/ml_userguide/xgboost_config.PNG
-   :alt: ml_userguide
-   :align: center
-   :width: 60%
-
-H2OMojoSave processor Configuration:
-
-.. figure:: ../../_assets/ml_userguide/model_save.PNG
-   :alt: ml_userguide
-   :align: center
-   :width: 60%
-
-On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
-
-.. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
-   :alt: ml_userguide
-   :align: center
-   :width: 60%
-
-.. figure:: ../../_assets/ml_userguide/modellocation.PNG
-   :alt: ml_userguide
-   :align: center
-   :width: 60%
-
 Prophet
 =======
 
@@ -93,3 +58,43 @@ Output result of ``ARIMA`` processor:
    :alt: ml_userguide
    :align: center
    :width: 60%
+
+H2OXGBoost
+==========
+
+Below is the sample workflows which contains ``H2OXGBoost`` processor in Fire Insights.
+
+It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
+
+.. figure:: ../../_assets/ml_userguide/xgboost.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+H2OXGBoost processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/xgboost_config.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+H2OMojoSave processor Configuration:
+
+.. figure:: ../../_assets/ml_userguide/model_save.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
+
+.. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+.. figure:: ../../_assets/ml_userguide/modellocation.PNG
+   :alt: ml_userguide
+   :align: center
+   :width: 60%
+
+

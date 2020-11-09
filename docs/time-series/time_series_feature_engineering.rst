@@ -3,9 +3,20 @@ Time Series Feature Engineering
 
 Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. These include:
 
-* DateTimeFieldExtract : Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
-* MovingWindowingFunctions : Calculates the moving values using the given function.
-* WindowingAnalytics : Window Analytics Functions
+ 
+.. list-table:: Update New features where needed
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Features
+     - Description
+   * - DateTimeFieldExtract
+     - Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
+   * - MovingWindowingFunctions
+     - Calculates the moving values using the given function.
+   * - WindowingAnalytics
+     - Window Analytics Functions
+
 
 DateTimeFieldExtract
 ====================

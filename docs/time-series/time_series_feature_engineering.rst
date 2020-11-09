@@ -22,6 +22,8 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
      - Calculates the moving values using the given function
    * - WindowingAnalytics
      - Implements window functions is mainly through the operators rolling and expanding
+   * - Exponential Moving Average (EMA)
+     - The Exponential Moving Average (EMA) assigns a greater weight to the most recent price observations. While it assigns lesser weight to past data, it is based on a recursive formula that includes in its calculation all the past data in our price series.
 
 
 DateTimeFieldExtract

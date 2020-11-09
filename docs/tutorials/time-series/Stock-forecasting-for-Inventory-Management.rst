@@ -15,6 +15,7 @@ Dataset contains 4 columns as follows:-
 * Item - Item id
 * Sales - Quantity of product sold
 
+Predict future sales of items at particular store  
 
 Prophet Time Series Modelling Workflow on Multivariate Data
 -----------------------------------------------------------

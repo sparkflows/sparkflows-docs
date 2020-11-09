@@ -64,16 +64,16 @@ Node 2 - RowFilter
 Node 3 - Prophet
 ++++++++++++++++
 
-We use Prophet to create the ML model.
+Used Facebook Prophet to create the ML model.
 
 **General Section of Prophet Model**
 
-* Sets Date column in DS column field
-* Sets Y as target- here sales column is our target
-* Sets Growth as linear or logistic
-* We are using prophet model so that it is self-sufficient to select seasonality in auto mode
-* Sets mode of seasonality as additive or multiplicative
-* Sets confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
+* Set Date column in DS column field
+* Y is the target variable. Set it to the Sales column
+* Set Growth as linear or logistic
+* We are using prophet model so it is sufficient to select seasonality in auto mode
+* Set mode of seasonality as additive or multiplicative
+* Set confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting

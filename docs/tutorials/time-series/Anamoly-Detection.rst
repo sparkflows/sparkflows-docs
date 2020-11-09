@@ -50,12 +50,12 @@ Data Modeling
 
 **General Section of Prophet Model**
 
-* Sets Datetime column in DS column field
-* Sets Y as target- here reading of bearings  is our target
-* Sets Growth as linear or logistic
+* Set Datetime column in DS column field
+* Y is the target variable. Set it to the reading of bearings
+* Set Growth as linear or logistic
 * We are using prophet model so that it is self-sufficient to select seasonality in auto mode
-* Sets mode of seasonality as additive or multiplicative
-* Sets confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
+* Set mode of seasonality as additive or multiplicative
+* Set confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_general.png
    :alt: Stock Forecasting
@@ -72,7 +72,7 @@ Data Modeling
    :align: center
    :width: 60%
    
-* **SQL** select mean column to set threshold
+* **SQL** set mean column to set threshold
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_out.png
    :alt: Stock Forecasting

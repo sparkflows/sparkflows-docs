@@ -11,7 +11,7 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
    * - Features
      - Description
    * - DateTimeFieldExtract
-     - Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
+     - Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns
    * - Days to holiday
      - Days remaining for next holiday
    * - Days from holiday
@@ -19,10 +19,9 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
    * - Time-segmentation
      - Divide data in morning, afternoon, evening, night to get more idea about time based pattern
    * - MovingWindowingFunctions
-     - Calculates the moving values using the given function.
+     - Calculates the moving values using the given function
    * - WindowingAnalytics
-     - Simple and exponantial function
-
+     - Implements window functions is mainly through the operators rolling and expanding
 
 
 DateTimeFieldExtract

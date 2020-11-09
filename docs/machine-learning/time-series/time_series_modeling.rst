@@ -3,9 +3,9 @@ Time Series Modeling
 
 Fire Insights provides a number of Processors for Time Series Modeling. These include:
 
-* H2OXGBoost : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#limitations
 * Prophet : https://facebook.github.io/prophet/
 * Arima
+* H2OXGBoost : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#limitations
 
 Below is the sample workflows which contains ``H2OXGBoost`` processor in Fire Insights.
 
@@ -42,6 +42,9 @@ On successful submission of the job, the model get saved to specified locations,
    :align: center
    :width: 60%
 
+Prophet
+=======
+
 Below is the sample workflows which contains ``Prophet`` processor in Fire Insights.
 
 It reads the AirPassengers dataset & use Prophet processor which forecasting of univariate time series data and print the result.
@@ -64,6 +67,9 @@ Output result of ``Prophet`` processor:
    :alt: ml_userguide
    :align: center
    :width: 60%
+
+ARIMA
+=====
 
 Below is the sample workflows which contains ``ARIMA`` processor in Fire Insights.
 

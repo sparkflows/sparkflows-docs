@@ -13,7 +13,9 @@ Dataset contains 2 columns as follows:-
 
 Month - Month of the year
 
-Passengers - Total number of passengers travelled in that particular month.
+Passengers - Total number of passengers travelled in that particular month
+
+Air Passengers Occupancy Prediction
 
 Time Series Modelling Workflow on Univariate Data
 --------------------------------------------------

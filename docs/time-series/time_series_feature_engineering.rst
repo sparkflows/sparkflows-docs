@@ -13,7 +13,7 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
    * - DateTimeFieldExtract
      - Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
    * - Days to holiday
-     - day remaining for next holiday
+     - Days remaining for next holiday
    * - Days from holiday
      - Days passed after holiday
    * - Time-segmentation

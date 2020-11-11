@@ -7,7 +7,7 @@ Fire Insights provides a number of Processors for the visualization of the time 
 
 * Charts : BarChart
 
-* Charts : Histogram
+* Charts : Scatter
 
 Charts : LineChart
 ==================
@@ -48,13 +48,12 @@ Charts : BarChart
    :align: center
    :width: 60%
    
-Charts : Histogram
+Charts : Scatter
 ==================
 
-* Histogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data
-* Distribution of non-discrete variables
+* Scatter plots are used to observe relationships between variables.
 
-.. figure:: ../_assets/ml_userguide/histogram.PNG
+.. figure:: ../_assets/ml_userguide/scater_graph.png
    :alt: ml_userguide
    :align: center
    :width: 60%

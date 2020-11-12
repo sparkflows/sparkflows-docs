@@ -30,7 +30,7 @@ In storage account, add the role to provide the access to Azure vm with needed a
 login to Fire Insights application
 ----------------------------------
 
-login to Fire Insights application and configured below parameter in AZURE under administration section::
+login to Fire Insights application and configured below parameter in AZURE under administration section ::
 
  ``azure.enabled to true`` & ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` & save the configuration
 

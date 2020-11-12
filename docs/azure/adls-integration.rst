@@ -22,8 +22,12 @@ Managed identity allow the users to access the azure resources without hardcodin
    :align: center
    :width: 40%
    
-- Now login to Fire Insights application and configured below parameter in AZURE section::
+- Now login to Fire Insights application and configured below parameter in AZURE under administration section::
  
  ``azure.enabled to true`` & ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net``
 
 
+.. figure:: ../_assets/configuration/azure_configurations.PNG
+   :alt: adls
+   :align: center
+   :width: 40%

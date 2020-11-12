@@ -10,7 +10,7 @@ Managed identity allow the users to access the azure resources without hardcodin
 System identity need to be enabled 
 -----------------------------------
 
-System identity need to be enabled on vm where Fire Insights is running or need to install
+System identity need to be enabled on vm where Fire Insights is running or need to be install
 
 .. figure:: ../_assets/configuration/identity.PNG
    :alt: adls

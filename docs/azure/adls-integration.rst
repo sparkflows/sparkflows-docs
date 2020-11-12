@@ -41,7 +41,7 @@ login to Fire Insights application and add below parameter in Configuration unde
    :align: center
    :width: 40%
 
-Save Configurations
+Save Configuration
 -------------------
 
 Save the above configurations and refresh the page & Click on Data browser to see ADLS page

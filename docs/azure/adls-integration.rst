@@ -43,7 +43,7 @@ login to Fire Insights application and configured below parameter in AZURE under
 Save Configurations
 -------------------
 
-Save the above configurations and refresh the page, able to see ADLS in databrowser page
+Save the above configurations and refresh the page & Click on Data browser to see ADLS page
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls

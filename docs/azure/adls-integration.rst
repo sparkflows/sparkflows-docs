@@ -27,7 +27,7 @@ In storage account, add the role to provide the access to Azure vm with needed a
    :align: center
    :width: 40%
    
-login to Fire Insights application
+login to Fire Insights 
 ----------------------------------
 
 login to Fire Insights application and configured below parameter in AZURE under administration section.

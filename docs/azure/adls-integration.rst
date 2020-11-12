@@ -44,7 +44,7 @@ login to Fire Insights application and add below parameter in Configuration unde
 Save Configuration
 -------------------
 
-Save the above configurations and refresh the page & Click on Data browser to see ADLS page
+Save the above configuration and refresh the page & Click on Data browser to see ADLS page
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls

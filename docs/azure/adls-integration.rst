@@ -45,3 +45,5 @@ Managed identity allow the users to access the azure resources without hardcodin
    :alt: adls
    :align: center
    :width: 40%
+
+- Once the above configurations done, you can start using those file while creating dataset and workflow.

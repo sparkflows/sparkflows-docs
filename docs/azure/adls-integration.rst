@@ -1,4 +1,7 @@
 ADLS Integration
 ================
 
-Fire Insights integrates with azure data lake filesystem
+Fire Insights integrated with azure data lake filesystem, once configured you can use the filesystem for accessing data from it.
+
+Below are the steps to Configured
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

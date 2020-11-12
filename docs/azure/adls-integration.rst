@@ -31,3 +31,17 @@ Managed identity allow the users to access the azure resources without hardcodin
    :alt: adls
    :align: center
    :width: 40%
+
+- Once you save the above configurations and refresh the page, able to see ADLS in databrowser page
+
+.. figure:: ../_assets/configuration/adls.PNG
+   :alt: adls
+   :align: center
+   :width: 40%
+   
+- on Clicking ADLS able to see ADLS FILESYSTEM
+
+.. figure:: ../_assets/configuration/adls_file.PNG
+   :alt: adls
+   :align: center
+   :width: 40%

@@ -15,7 +15,7 @@ Managed identity allow the users to access the azure resources without hardcodin
    :align: center
    :width: 40%
 
-- In storage account, add the role to provide the access to Azure-VM with below role.
+- In storage account, add the role to provide the access to Azure-VM with below role::
 
 .. figure:: ../_assets/configuration/storage.PNG
    :alt: adls

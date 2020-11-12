@@ -7,24 +7,30 @@ Below are the steps to Configured adls using managed identity
 
 Managed identity allow the users to access the azure resources without hardcoding any credentials in code.
 
+System identity need to be enabled 
+-----------------------------------
+
 System identity need to be enabled on vm where Fire Insights is running or need to install
----------------------------------------------------------------------------
 
 .. figure:: ../_assets/configuration/identity.PNG
    :alt: adls
    :align: center
    :width: 40%
 
-In storage account, add the role to provide the access to Azure-VM with needed access 
-------------------------------------------------------------------------------
+In storage account, add the role to provide the access
+------------------------------------------------------
+
+In storage account, add the role to provide the access to Azure vm with needed access 
 
 .. figure:: ../_assets/configuration/storage.PNG
    :alt: adls
    :align: center
    :width: 40%
    
-login to Fire Insights application and configured below parameter in AZURE under administration section
------------------------------------------------------------------------------------------------------------
+login to Fire Insights application
+----------------------------------
+
+login to Fire Insights application and configured below parameter in AZURE under administration section::
 
  ``azure.enabled to true`` & ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` & save the configuration
 
@@ -34,16 +40,20 @@ login to Fire Insights application and configured below parameter in AZURE under
    :align: center
    :width: 40%
 
+Save Configurations
+-------------------
+
 Save the above configurations and refresh the page, able to see ADLS in databrowser page
----------------------------------------------------
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls
    :align: center
    :width: 40%
    
-Click on ADLS to see ADLS FILESYSTEM
----------------------------------
+Click on Data browser
+------------------------
+
+Click on ADLS to see ADLS FILESYSTEM in `DATA BROWSERS`
 
 .. figure:: ../_assets/configuration/adls-file.PNG
    :alt: adls

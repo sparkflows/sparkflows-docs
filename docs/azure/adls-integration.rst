@@ -8,4 +8,5 @@ Below are the steps to Configured adls using managed identity
 
 Managed identity allow the users to access the azure resources without hardcoding any credentials in code.
 
+- System identity is enabled on vm where Fire Insights is running.
 

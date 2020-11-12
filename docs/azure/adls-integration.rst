@@ -32,7 +32,9 @@ login to Fire Insights
 
 login to Fire Insights application and configured below parameter in AZURE under administration section.
 
- ``azure.enabled to true`` & ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` & save the configuration
+ - ``azure.enabled to true``
+ - ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` 
+ - save the configuration
 
 
 .. figure:: ../_assets/configuration/azure_configurations.PNG

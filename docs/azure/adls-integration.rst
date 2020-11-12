@@ -41,7 +41,7 @@ Managed identity allow the users to access the azure resources without hardcodin
    
 - on Clicking ADLS able to see ADLS FILESYSTEM
 
-.. figure:: ../_assets/configuration/adls_file.PNG
+.. figure:: ../_assets/configuration/adls-file.PNG
    :alt: adls
    :align: center
    :width: 40%

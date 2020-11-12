@@ -15,7 +15,7 @@ System identity need to be enabled on vm where Fire Insights is running or need 
    :align: center
    :width: 40%
 
-In storage account, add the role to provide the access to Azure-VM with below role
+In storage account, add the role to provide the access to Azure-VM with needed access 
 ------------------------------------------------------------------------------
 
 .. figure:: ../_assets/configuration/storage.PNG

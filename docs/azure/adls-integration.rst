@@ -23,8 +23,9 @@ In storage account, add the role to provide the access to Azure-VM with below ro
    :align: center
    :width: 40%
    
-- Now login to Fire Insights application and configured below parameter in AZURE under administration section::
- 
+login to Fire Insights application and configured below parameter in AZURE under administration section
+-----------------------------------------------------------------------------------------------------------
+
  ``azure.enabled to true`` & ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` & save the configuration
 
 
@@ -33,18 +34,20 @@ In storage account, add the role to provide the access to Azure-VM with below ro
    :align: center
    :width: 40%
 
-- Once you save the above configurations and refresh the page, able to see ADLS in databrowser page
+Save the above configurations and refresh the page, able to see ADLS in databrowser page
+---------------------------------------------------
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls
    :align: center
    :width: 40%
    
-- on Clicking ADLS able to see ADLS FILESYSTEM
+Click on ADLS to see ADLS FILESYSTEM
+---------------------------------
 
 .. figure:: ../_assets/configuration/adls-file.PNG
    :alt: adls
    :align: center
    :width: 40%
 
-- Once the above configurations done, you can start using those file while creating dataset and workflow.
+Once the above configurations done, you can start using those file while creating dataset and workflow.

@@ -18,10 +18,6 @@ Fire Insights provides a number of Processors for the visualization of the time 
      - Scatter plots are used to observe relationships between variables.
 
 
-* Charts : BarChart
-
-* Charts : Scatter
-
 Charts : LineChart
 ==================
 Perfect for series of data points to form a continuous line.

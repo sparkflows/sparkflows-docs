@@ -29,7 +29,7 @@ There are a few patterns by which Fire Insights enables Data Preparation/Feature
 Using 3 Workflows
 -----------------
 
-In this pattern, one workflow is built to read in the input dataset, perform Data Preparation and also Feature Engineering.
+In this pattern, one workflow is built to read in the input datasets, perform Data Preparation and also Feature Engineering.
 
 This workflow prepares the input datasets to be used for Training and also Scoring.
 
@@ -37,6 +37,13 @@ The second workflow reads in the prepared data, and builds the model.
 
 The third workflow also read in the prepared data, reads in the ML model and then scores the input data.
 
+Using 2 workflows
+-----------------
+
+In this pattern, one workflow is built to read in the input datasets, perform Data Preparation/Feature Engineering and then finally Model Building.
+
+For the second workflow, the first workflow is cloned, and the model nodes are removed from the workflow. They are replaced with nodes which read in the model and
+then score the datasets.
 
 
 

@@ -18,4 +18,25 @@ The workflows built with Fire Insights can run on a variety of environments. The
 * Cloudera
 
 
+Workflow Patterns for Scoring Models
+------------------------------------
+
+There are a few patterns by which Fire Insights enables Data Preparation/Feature Engineering and Model Scoring.
+
+* One workflow for Data Preparation/Feature Engineering, another for Model Training and the third for Model Scoring
+* One workflow for Data Preparation/Feature Engineering plus Model Training. And another workflow for Data Preparation/Feature Engineering plus Model Scoring.
+
+Using 3 Workflows
+-----------------
+
+In this pattern, one workflow is built to read in the input dataset, perform Data Preparation and also Feature Engineering.
+
+This workflow prepares the input datasets to be used for Training and also Scoring.
+
+The second workflow reads in the prepared data, and builds the model.
+
+The third workflow also read in the prepared data, reads in the ML model and then scores the input data.
+
+
+
 

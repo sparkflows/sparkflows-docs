@@ -35,20 +35,18 @@ Using 3 Workflows
 -----------------
 
 In this pattern, one workflow is built to read in the input datasets, perform Data Preparation and also Feature Engineering.
+This workflow prepares the input datasets to be used for Training and also Scoring and saves it to the File System.
 
-This workflow prepares the input datasets to be used for Training and also Scoring.
+The second workflow reads in the prepared data, builds the model and then save it to the File System.
 
-The second workflow reads in the prepared data, and builds the model.
-
-The third workflow also read in the prepared data, reads in the ML model and then scores the input data.
+The third workflow also reads in the prepared data, reads in the ML model and then scores the input data. The result of scoring can be saved to the File System, Relational Database, Cassandra, MongoDB, HIVE etc.
 
 Using 2 workflows
 -----------------
 
-In this pattern, one workflow is built to read in the input datasets, perform Data Preparation/Feature Engineering and then finally Model Building.
+In this pattern, one workflow is built to read in the input datasets, perform Data Preparation/Feature Engineering and then finally build the ML Model.
 
-For the second workflow, the first workflow is cloned, and the model nodes are removed from the workflow. They are replaced with nodes which read in the model and
-then score the datasets.
+For the second workflow, the first workflow is cloned with one click, and the model nodes are removed from the workflow. They are replaced with nodes which read in the model and then score the datasets.
 
 
 

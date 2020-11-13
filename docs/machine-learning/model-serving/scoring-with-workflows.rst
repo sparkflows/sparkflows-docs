@@ -17,6 +17,11 @@ The workflows built with Fire Insights can run on a variety of environments. The
 * Databricks
 * Cloudera
 
+In any of these environments, Fire Insights does not need to be installed for model scoring.
+When running on Standalone machine, scoring can be performed with running java or python using the supplied jar/wheel files and the workflow json.
+
+When running on clusters, scoring can be performed with spark-submit using the supplied jar/wheel files and the workflow json.
+
 
 Workflow Patterns for Scoring Models
 ------------------------------------

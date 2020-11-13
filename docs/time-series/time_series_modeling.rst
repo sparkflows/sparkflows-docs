@@ -3,7 +3,6 @@ Time Series Modeling
 
 Fire Insights provides a number of Processors for Time Series Modeling. These include:
 
- 
 .. list-table:: Update New features where needed
    :widths: 10 40
    :header-rows: 1
@@ -29,7 +28,7 @@ Fire Insights provides a number of Processors for Time Series Modeling. These in
      where:
      * μ → constant
      * ϕ1 yt-1 +…+ ϕp yt-p → AR terms (lagged values of y)
-     * -θ1et-1 -………- θqet-q → MA terms (lagged errors)
+     * θ1et-1 -………- θqet-q → MA terms (lagged errors)
      For more: https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
 
 

@@ -10,12 +10,15 @@ Fire Insights provides a number of Processors for Time Series Modeling. These in
    * - Models
      - Description
    * - Prophet
-     - Prophet is a procedure for predicting time series data based on an additive or multiplicative model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It is best for time series that have strong seasonal effects and several seasons of historical data. Prophet is robust model to missing data and shifts in the trend, and able to handles outliers.
-**y(t)=g(t)+s(t)+h(t)+ϵt**,
+     - Prophet is a procedure for predicting time series data based on an additive or multiplicative model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It is best for time series that have strong seasonal effects and several seasons of historical data. Prophet is robust model to missing data and shifts in the trend, and able to handles outliers. **y(t)=g(t)+s(t)+h(t)+ϵt**,
 where:
+
 * Trend g(t): models non-periodic changes.
+
 * Seasonality s(t): represents periodic changes.
+
 * Holidays component h(t): contributes information about holidays and events.
+
 For more: https://facebook.github.io/prophet/
 
    * - Arima

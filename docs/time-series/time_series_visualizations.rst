@@ -3,7 +3,20 @@ Time Series Visualizations
 
 Fire Insights provides a number of Processors for the visualization of the time series data.
 
-* Charts : LineChart
+.. list-table:: Update New features where needed
+   :widths: 10 40
+   :header-rows: 1
+
+   * - Charts
+     - Description
+   * - Line
+     - Perfect for series of data points to form a continuous line. Example - Represent Daily sales data
+   * - Bar
+     - Bar charts are a fundamental visualization for comparing values between groups of data. Best way to represent Categorical data
+
+   * - Scatter
+     - Scatter plots are used to observe relationships between variables.
+
 
 * Charts : BarChart
 
@@ -40,8 +53,6 @@ Output result of ``Visualization`` processor:
 Charts : BarChart
 ==================
 
-* Bar charts are a fundamental visualization for comparing values between groups of data
-* Categorical data
 
 .. figure:: ../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
@@ -50,8 +61,6 @@ Charts : BarChart
    
 Charts : Scatter
 ==================
-
-* Scatter plots are used to observe relationships between variables.
 
 .. figure:: ../_assets/ml_userguide/scater_graph.png
    :alt: ml_userguide

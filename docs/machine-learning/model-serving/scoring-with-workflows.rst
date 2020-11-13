@@ -4,7 +4,7 @@ Scoring with Workflows
 Fire Insights enables you to build workflows. Workflows provide for reading data, transforming them and also creating machine learning models. 
 Fire Insights supports a number of ML frameworks including Scikit Learn, H2O, Spark ML, Keras etc.
 
-Models built with the workflows can be saved onto the File System. The models can also be then scored with another workflow.
+Models built with the workflows can be saved onto the File System. The models can then be scored with another workflow.
 
 Data Preparation and Scoring Environments
 -----------------------------------------
@@ -18,7 +18,7 @@ The workflows built with Fire Insights can run on a variety of environments. The
 * Cloudera
 
 In any of these environments, Fire Insights does not need to be installed for model scoring.
-When running on Standalone machine, scoring can be performed with running java or python using the supplied jar/wheel files and the workflow json.
+When running on Standalone machine, scoring can be performed with running java/python using the supplied jar/wheel files and the workflow json.
 
 When running on clusters, scoring can be performed with spark-submit using the supplied jar/wheel files and the workflow json.
 

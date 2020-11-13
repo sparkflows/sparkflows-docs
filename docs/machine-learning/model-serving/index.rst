@@ -13,6 +13,7 @@ Once these models are saved, they can be served in various ways.
 .. toctree::
    :maxdepth: 2
 
+   scoring-with-workflows.rst
    serving-sparkmllib-models.rst
    serving-h2-models.rst
    serving-sagemaker-models.rst

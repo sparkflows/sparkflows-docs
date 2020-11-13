@@ -10,36 +10,36 @@ Fire Insights provides a number of Processors for Time Series Modeling. These in
    * - Models
      - Description
    * - Prophet
-     - Prophet is a procedure for predicting time series data based on an additive or multiplicative model where non-linear trends are fit with yearly, weekly,          and daily seasonality, plus holiday effects. It is best for time series that have strong seasonal effects and several seasons of historical data.                  Prophet is robust model to missing data and shifts in the trend, and able to handles outliers.
-       **y(t)=g(t)+s(t)+h(t)+ϵt**,
-       where:
-       * Trend g(t): models non-periodic changes.
-       * Seasonality s(t): represents periodic changes.
-       * Holidays component h(t): contributes information about holidays and events.
-       For more: https://facebook.github.io/prophet/
+     - Prophet is a procedure for predicting time series data based on an additive or multiplicative model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It is best for time series that have strong seasonal effects and several seasons of historical data. Prophet is robust model to missing data and shifts in the trend, and able to handles outliers.
+**y(t)=g(t)+s(t)+h(t)+ϵt**,
+where:
+* Trend g(t): models non-periodic changes.
+* Seasonality s(t): represents periodic changes.
+* Holidays component h(t): contributes information about holidays and events.
+For more: https://facebook.github.io/prophet/
 
    * - Arima
      - ARIMA is a model which is used for predicting future trends on a time series data. It is model that form of regression analysis.
-     * AR (Autoregression): A changing variable that regresses on its own lagged/prior values.
-     * I (Integrated): Differencing of raw observations to allow for the time series to become stationary
-     * MA (Moving average): Dependency between an observation and a residual error from a moving average model
-     In terms of y, the general forecasting equation is:
-     **ŷt = μ + ϕ1 yt-1 +………+ ϕp yt-p — θ1et-1 -………- θqet-q**,
-     where:
-     * μ → constant
-     * ϕ1 yt-1 +…+ ϕp yt-p → AR terms (lagged values of y)
-     * θ1et-1 -………- θqet-q → MA terms (lagged errors)
-     For more: https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
+* AR (Autoregression): A changing variable that regresses on its own lagged/prior values.
+* I (Integrated): Differencing of raw observations to allow for the time series to become stationary
+* MA (Moving average): Dependency between an observation and a residual error from a moving average model
+In terms of y, the general forecasting equation is:
+**ŷt = μ + ϕ1 yt-1 +………+ ϕp yt-p — θ1et-1 -………- θqet-q**,
+where:
+* μ → constant
+* ϕ1 yt-1 +…+ ϕp yt-p → AR terms (lagged values of y)
+* θ1et-1 -………- θqet-q → MA terms (lagged errors)
+For more: https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
 
 
-   * - XGBoost
+   ** - XGBoost
      - XGBoost is gradient boosting algorithm. It is also known as ‘regularized boosting‘ technique - seeks a goot bias-variant trade-off to reduce overfitting
        allows cross-validation at each iteration of the boosting process and thus it is easy to get the exact optimum number of boosting iterations in a single          run
        For more: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#limitations
 
 
 
-   * - LSTM
+   ** - LSTM
      - LSTM is special kind of recurrent neural network that is capable of learning long term dependencies in data. This is achieved because the recurring module        of the model has a combination of four layers interacting with each other. This is a great benefit in time series forecasting, where classical linear              methods can be difficult to adapt to multivariate or multiple input forecasting problems.
        For more: https://www.tensorflow.org/tutorials/structured_data/time_series
 

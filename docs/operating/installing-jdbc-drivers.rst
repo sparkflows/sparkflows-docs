@@ -1,4 +1,4 @@
-Installing JDBC Drivers
+Installing JDBC Drivers for Workflows
 =======================
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.

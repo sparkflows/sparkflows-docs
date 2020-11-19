@@ -9,7 +9,7 @@ Below are the steps for installing the JDBC driver into Fire:
 
 - *Download the JDBC jar file*
 - *Copy it into `fire-user-lib` directory under the Fire installation*
-- *Restart fire server*
+- *Restart fire*
 
 Download the JDBC jar file
 --------------------------

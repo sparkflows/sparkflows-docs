@@ -1,7 +1,7 @@
 Windows Installation Steps
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Fire Insights can be installed to run independenty on Windows.
+Fire Insights can be installed to run independenly on Windows.
 
 
 Installation Steps of Fire Insights with H2 DB

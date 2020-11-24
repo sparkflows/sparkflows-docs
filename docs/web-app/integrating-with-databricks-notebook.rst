@@ -8,12 +8,21 @@ Fire Insights passes 2 parameters to the Notebook:
 * postback-url
 * job-id
 
+Add wheel file to your Databricks Notebook
+------------------
+
+Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API's for sending data to it.
+
+
+Outputing details to Fire Insights
+---------------------
+
 The Databricks Notebook can output text, tables and charts to be dispalyed in Fire Insights.
 
 Below are the examples for it.
 
 Outputing Text
---------------
++++++++++
 
 jobId = dbutils.widgets.get("job-id")
 webserverURL = dbutils.widgets.get("postback-url")
@@ -28,7 +37,7 @@ restworkflowcontext.outStr(9, "Test String")
 
 
 Outputing Pyspark Dataframe as Table
----------------
++++++++++
 
 input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
 output_df = input_df.select("c1", "c2")
@@ -38,7 +47,7 @@ restworkflowcontext.outDataFrame(9, "Names", output_df)
 
 
 Outputing Pandas Dataframe as Table
--------------------
++++++++++
 
 # list of strings
 lst = ['Geeks', 'For', 'Geeks', 'is',

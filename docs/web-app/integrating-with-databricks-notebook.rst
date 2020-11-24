@@ -3,15 +3,14 @@ Integrating with Databricks Notebook
 
 The Web App in Fire Insights can trigger a Notebook in Databricks.
 
-The Databricks Notebook can output text, tables and charts to be dispalyed in Fire Insights.
-
 Fire Insights passes 2 parameters to the Notebook:
 
 * postback-url
 * job-id
 
+The Databricks Notebook can output text, tables and charts to be dispalyed in Fire Insights.
 
-Below are the example for it.
+Below are the examples for it.
 
 Outputing Text
 --------------

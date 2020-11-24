@@ -61,7 +61,7 @@ Web App User Guide
 .. toctree::
    :maxdepth: 1
 
-   webapp-guide/index
+   web-app/index
    
    
 Data Science

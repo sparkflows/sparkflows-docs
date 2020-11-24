@@ -27,7 +27,7 @@ val = "Starting Program"
 outputText = OutputText(curNodeId, nm, "title", val, resultType=3, visibility="EXPANDED")
 restworkflowcontext.outText(outputText)
 
-Outputing Table
+Outputing Pyspark Dataframe as Table
 ---------------
 
 input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
@@ -39,5 +39,18 @@ output_df.show()
 from fire.output_notebook.output_table import OutputTable
 
 restworkflowcontext.outDataFrame(9, "Names", output_df)
+
+
+Outputing Pandas Dataframe as Table
+-------------------
+
+# list of strings
+lst = ['Geeks', 'For', 'Geeks', 'is',
+           'portal', 'for', 'Geeks']
+
+# Calling DataFrame constructor on list
+df = pd.DataFrame(lst, columns=['name'])
+
+print(df)
 
 

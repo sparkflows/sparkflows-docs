@@ -21,11 +21,8 @@ from fire_notebook.output.workflowcontext import RestWorkflowContext
 from fire.output.output_text import OutputText
 
 restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
-curNodeId = 1
-nm = "Testing"
-val = "Starting Program"
-outputText = OutputText(curNodeId, nm, "title", val, resultType=3, visibility="EXPANDED")
-restworkflowcontext.outText(outputText)
+restworkflowcontext.outStr(9, "Test String")
+
 
 Outputing Pyspark Dataframe as Table
 ---------------

@@ -16,9 +16,7 @@ webserverURL = dbutils.widgets.get("postback-url")
 print(webserverURL)
 print(jobId)
 
-from fire_notebook.output.output_text import OutputText
 from fire_notebook.output.workflowcontext import RestWorkflowContext
-from fire.output.output_text import OutputText
 
 restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 restworkflowcontext.outStr(9, "Test String")
@@ -28,12 +26,8 @@ Outputing Pyspark Dataframe as Table
 ---------------
 
 input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
-
 output_df = input_df.select("c1", "c2")
-
 output_df.show()
-
-from fire.output_notebook.output_table import OutputTable
 
 restworkflowcontext.outDataFrame(9, "Names", output_df)
 
@@ -47,7 +41,7 @@ lst = ['Geeks', 'For', 'Geeks', 'is',
 
 # Calling DataFrame constructor on list
 df = pd.DataFrame(lst, columns=['name'])
-
 print(df)
 
+restworkflowcontext.outPandasDataframe(9, "Names", df)
 

@@ -16,6 +16,11 @@ Install superset
 
  * ``pip install apache-superset``
  
+.. figure:: ../_assets/configuration/superset_apache.PNG
+   :alt: Installations
+   :align: center
+   :width: 60%
+ 
  Initialize the database
  
  * ``superset db upgrade``

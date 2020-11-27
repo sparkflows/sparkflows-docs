@@ -73,4 +73,16 @@ Create an admin user (you will be prompted to set a username, first and last nam
 Connecting Superset with Databricks
 -----------------------------------
 
+Now once Superset is running in UI, you can databricks database to it.
+
+Steps involved in Connecting databricks to superset
+----------------
+
+Install Needed python dependency for databricks on superset VM
+
+* ``pip install databricks-dbapi``
+* ``pip install databricks-dbapi[sqlalchemy]``
+
+Now restart superset server again
+
 

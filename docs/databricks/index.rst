@@ -11,6 +11,8 @@ Databricks Guide
    troubleshooting.rst
    databricks-custom-node.rst
    databricks-custom-node-json.rst
+   superset-databricks.rst
+   
    
 
    

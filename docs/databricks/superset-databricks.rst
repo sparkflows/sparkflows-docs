@@ -43,11 +43,15 @@ Create an admin user (you will be prompted to set a username, first and last nam
  Load some data to play with
  
  * ``superset load_examples``
-
-Create default roles and permissions
+ 
+ Create default roles and permissions
 
   * ``superset init``
-  
+ 
+ To start a development web server on port 8088, use -p to bind to another port using Gunicorn 
+ 
+ * ``gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"``
+ 
 Connecting Superset with Databricks
 -----------------------------------
 

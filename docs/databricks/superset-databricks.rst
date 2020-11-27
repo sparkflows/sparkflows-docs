@@ -94,6 +94,11 @@ Now you can add databricks database by Clicking on NEW Tab & add databricks `Dat
 
 * ``databricks+pyhive://token:<token>@<companyname>.cloud.databricks.com:443/<database>?cluster=<cluster_id>]``
 
+.. figure:: ..//_assets/configuration/superset-connection.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+
 Just Click on TEST CONNECTION, it should not throw any error and SAVE it
 
 Now You can start using databricks database table for charts and visualizations

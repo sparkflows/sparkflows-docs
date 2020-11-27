@@ -62,6 +62,13 @@ Create an admin user (you will be prompted to set a username, first and last nam
    :alt: superset
    :align: center
    :width: 60%
+   
+ Use your created credentials to login
+ 
+ .. figure:: ..//_assets/configuration/homepage.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
  
 Connecting Superset with Databricks
 -----------------------------------

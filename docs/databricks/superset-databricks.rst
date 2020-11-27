@@ -25,6 +25,11 @@ Install superset
  
  * ``superset db upgrade``
 
+ .. figure:: ..//_assets/configuration/db_upgrades.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+
 Create an admin user (you will be prompted to set a username, first and last name before setting a password)
 
  * ``export FLASK_APP=superset``

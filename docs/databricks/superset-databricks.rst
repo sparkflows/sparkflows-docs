@@ -35,6 +35,11 @@ Create an admin user (you will be prompted to set a username, first and last nam
  * ``export FLASK_APP=superset``
  * ``superset fab create-admin``
  
+ .. figure:: ..//_assets/configuration/admin_user.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+ 
  Load some data to play with
  
  * ``superset load_examples``

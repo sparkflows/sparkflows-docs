@@ -52,6 +52,17 @@ Create an admin user (you will be prompted to set a username, first and last nam
  
  * ``gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"``
  
+ once above command run successfully, just ensure that port 8088, which used by superset is accessible from browser
+ 
+ open browser and login with public ip and port
+ 
+ * ``http://public-ip:8088/login``
+ 
+ .. figure:: ..//_assets/configuration/loginpage.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+ 
 Connecting Superset with Databricks
 -----------------------------------
 

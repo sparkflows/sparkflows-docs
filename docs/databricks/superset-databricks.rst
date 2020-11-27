@@ -48,7 +48,7 @@ Create an admin user (you will be prompted to set a username, first and last nam
 
   * ``superset init``
  
- To start a development web server on port 8088, use -p to bind to another port using Gunicorn 
+ To start a development web server on port 8088, using Gunicorn use below command
  
  * ``gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"``
  

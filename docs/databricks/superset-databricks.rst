@@ -101,9 +101,17 @@ Now you can add databricks database by Clicking on NEW Tab & add databricks `Dat
 
 Just Click on TEST CONNECTION, it should not throw any error and SAVE it
 
+.. figure:: ..//_assets/configuration/super-databricks-database.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+
 Now You can start using databricks database table for charts and visualizations
 
-
+.. figure:: ..//_assets/configuration/query.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
 
 
 

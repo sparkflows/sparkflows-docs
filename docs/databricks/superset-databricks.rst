@@ -25,7 +25,7 @@ Install superset
  
  * ``superset db upgrade``
 
- .. figure:: ..//_assets/configuration/db_upgrades.PNG
+ .. figure:: ..//_assets/configuration/db_upgarde.PNG
    :alt: superset
    :align: center
    :width: 60%

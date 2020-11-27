@@ -99,7 +99,8 @@ Now you can add databricks database by Clicking on NEW Tab & add databricks `Dat
    :align: center
    :width: 60%
 
-Just Click on TEST CONNECTION, it should not throw any error and SAVE it
+Just Click on TEST CONNECTION, it should not throw any error and SAVE it, 
+On successful save the database will be available in superset database list page.
 
 .. figure:: ..//_assets/configuration/super-databricks-database.PNG
    :alt: superset

@@ -83,7 +83,7 @@ Install Needed python dependency for databricks on superset VM
 * ``pip install databricks-dbapi``
 * ``pip install databricks-dbapi[sqlalchemy]``
 
-Now restart superset server again & LOgin to superset UI & Click on database
+Once the above two python databricks dependency installed successfully, you can  restart superset server again & LOgin to superset UI & Click on database
 
 Now you can add databricks database by Clicking on NEW Tab & add databricks `Database name & SQLAlchemy URI`
 

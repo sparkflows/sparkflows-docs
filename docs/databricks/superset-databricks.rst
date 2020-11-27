@@ -16,7 +16,7 @@ Install superset
 
  * ``pip install apache-superset``
  
-.. figure:: ..//_assets/configuration/superset_apache.PNG
+ .. figure:: ..//_assets/configuration/superset_apache.PNG
    :alt: superset
    :align: center
    :width: 60%

@@ -85,6 +85,11 @@ Install Needed python dependency for databricks on superset VM
 
 Once the above two python databricks dependency installed successfully, you can  restart superset server again & LOgin to superset UI & Click on database
 
+.. figure:: ..//_assets/configuration/superset_database.PNG
+   :alt: superset
+   :align: center
+   :width: 60%
+
 Now you can add databricks database by Clicking on NEW Tab & add databricks `Database name & SQLAlchemy URI`
 
 * ``databricks+pyhive://token:<token>@<companyname>.cloud.databricks.com:443/<database>?cluster=<cluster_id>]``

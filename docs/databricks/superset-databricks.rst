@@ -73,7 +73,9 @@ Create an admin user (you will be prompted to set a username, first and last nam
 Connecting Superset with Databricks
 -----------------------------------
 
-Now once Superset is running in UI, you can databricks database to it.
+Now once Superset is running in UI, you can connect databricks database to it.
+
+NOTE * Make sure that databricks cluster is running
 
 Steps involved in Connecting databricks to superset
 ----------------

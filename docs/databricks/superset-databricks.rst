@@ -1,13 +1,13 @@
 Installing Superset and Connecting with Databricks
 ==================================================
 
-Superset enables powerful Visualizations.
+Superset enables powerful Visualizations. Superset can connect with Databricks clusters and display data from Tables in Databricks.
 
 
 Installing Superset
 -------------------
 
-Just ensure that superset machine should have python with version 3.6.0+
+Ensure that Superset machine has python 3.6.0+ installed on it.
 
 Steps involved in installing apache superset (centos7)
 -------------
@@ -48,13 +48,13 @@ Create an admin user (you will be prompted to set a username, first and last nam
 
   * ``superset init``
  
- To start a development web server on port 8088, using Gunicorn use below command
+ To start a development web server on port 8088, using Gunicorn use the command below
  
  * ``gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"``
  
- once above command run successfully, just ensure that port 8088, which used by superset is accessible from browser
+ Once above command run successfully, ensure that port 8088, on which Superset is running is accessible from your browser
  
- open browser and login with public ip and port
+ Open browser and login with public ip and port
  
  * ``http://public-ip:8088/login``
  
@@ -73,7 +73,7 @@ Create an admin user (you will be prompted to set a username, first and last nam
 Connecting Superset with Databricks
 -----------------------------------
 
-Now once Superset is running in UI, you can connect databricks database to it.
+Once Superset is running, you can connect it to Databricks Tables.
 
 NOTE * Make sure that databricks cluster is running
 

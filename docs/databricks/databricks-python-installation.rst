@@ -55,19 +55,19 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
 
 .. figure:: ../_assets/configuration/create.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
    
 .. figure:: ../_assets/configuration/install.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
    
 On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libararies``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 You can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 Bucket which is accessible from Databricks Cluster.
@@ -78,14 +78,14 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
 
 .. figure:: ../_assets/configuration/s3wheel.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 Once it will Install Successfully, you can see the python wheel inside Library is up.
 
 .. figure:: ../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 
@@ -98,7 +98,7 @@ Run Command ``pip install -r requirements.txt``
 
 .. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 Note: Make sure that pip etc. is already installed on that machine
@@ -110,7 +110,7 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
 
 .. figure:: ../_assets/configuration/awssdkjar.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
@@ -121,7 +121,7 @@ Use the command below to install it on the Fire Insights machines:
 
 .. figure:: ../_assets/configuration/scorecard-machine.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 Install it on your Databricks cluster with the below:

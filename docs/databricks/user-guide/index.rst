@@ -1,5 +1,5 @@
 
-Databricks Guide
+Databricks User Guide
 =========
 
 .. toctree::

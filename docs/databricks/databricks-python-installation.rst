@@ -48,7 +48,7 @@ you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provi
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
-   :align: left
+   :align: center
    :width: 40%
 
 On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
@@ -92,9 +92,9 @@ Once it will Install Successfully, you can see the python wheel inside Library i
 Install Python dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory.
+You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory::
 
-Run Command ``pip install -r requirements.txt``
+    * pip install -r requirements.txt
 
 .. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
@@ -115,19 +115,19 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
 
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
 
-Use the command below to install it on the Fire Insights machines:
+Use the command below to install it on the Fire Insights machine::
 
-  * ``pip install scorecardpy``
+    * pip install scorecardpy
 
 .. figure:: ../_assets/configuration/scorecard-machine.PNG
    :alt: Databricks
    :align: center
    :width: 40%
 
-Install it on your Databricks cluster with the below:
+Install it on your Databricks cluster with the below::
 
-  * Open a Notebook and attach to Databricks Cluster.
-  * %sh pip install scorecardpy
+   * Open a Notebook and attach to Databricks Cluster.
+   * %sh pip install scorecardpy
 
 .. figure:: ../_assets/configuration/scorecard.PNG
    :alt: Databricks

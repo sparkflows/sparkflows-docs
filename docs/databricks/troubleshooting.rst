@@ -46,6 +46,9 @@ The following logs under ``Driver Logs`` are useful:
 
 - log4j-active.log
 
+Search for ``WorkflowExecuteDatabricks`` in the logs to view if the Fire Insights Job is running in Databricks.
+
+
 java.lang.Exception: An error occurred while initializing the REPL. Please check whether there are conflicting Scala libraries or JARs attached to the cluster, such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
 	at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)
    

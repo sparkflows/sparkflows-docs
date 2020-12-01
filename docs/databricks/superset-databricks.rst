@@ -12,18 +12,20 @@ Ensure that Superset machine has python 3.6.0+ installed on it.
 Steps involved in installing apache superset (centos7)
 -------------
 
-Install superset
+* Install Superset::
 
- * ``pip install apache-superset``
+    pip install apache-superset
+    
  
  .. figure:: ..//_assets/configuration/superset_apache.PNG
    :alt: superset
    :align: center
    :width: 60%
  
- Initialize the database
- 
- * ``superset db upgrade``
+ * Initialize the database::
+
+    superset db upgrade
+   
 
  .. figure:: ..//_assets/configuration/db_upgarde.PNG
    :alt: superset

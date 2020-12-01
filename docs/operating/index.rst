@@ -13,5 +13,7 @@ Operating Guide
    opennlp.rst
    jupyter.rst
    cleaning-h2db.rst
+   installing-mysql.rst
+   
 
 

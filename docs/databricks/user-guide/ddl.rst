@@ -40,7 +40,9 @@ Location of the data could be changed to S3 location.
 Running SQL
 +++++++++++
 
-statement: ``` select count(*) as cunt  from employee; ```
+SQL::
+
+    select count(*) as count  from employee;
 
 .. figure:: ../../_assets/configuration/sql-statement1.PNG
    :alt: Databricks
@@ -52,7 +54,10 @@ statement: ``` select count(*) as cunt  from employee; ```
 Sample Data:
 ++++++++++++
 
-statement: ``` select * from employee;```
+Select Statement::
+
+    select * from employee;
+    
 By default first 100 rows of data is displayed.
 
 .. figure:: ../../_assets/configuration/sql-statement2.PNG
@@ -65,7 +70,9 @@ By default first 100 rows of data is displayed.
 Drop Table
 ++++++++++
 
-statement: ``` drop table employee;```
+Statement::
+
+    drop table employee;
 
 .. figure:: ../../_assets/configuration/sql-statement3.PNG
    :alt: Databricks

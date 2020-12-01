@@ -34,7 +34,7 @@ Password : fire
 
 SHUTDOWN COMPACT
 
-Delete old files
+Deleting old files
 ----------------
 
 Regularly delete the following folders:

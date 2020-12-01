@@ -22,7 +22,7 @@ Steps involved in installing apache superset (centos7)
    :align: center
    :width: 60%
  
- * Initialize the database::
+* Initialize the database::
 
     superset db upgrade
    
@@ -32,45 +32,47 @@ Steps involved in installing apache superset (centos7)
    :align: center
    :width: 60%
 
-Create an admin user (you will be prompted to set a username, first and last name before setting a password)
+* Create an admin user (you will be prompted to set a username, first and last name before setting a password)::
 
- * ``export FLASK_APP=superset``
- * ``superset fab create-admin``
+    export FLASK_APP=superset
+    superset fab create-admin
  
  .. figure:: ..//_assets/configuration/admin_user.PNG
    :alt: superset
    :align: center
    :width: 60%
  
- Load some data to play with
+* Load some data to play with::
  
- * ``superset load_examples``
- 
- Create default roles and permissions
+    superset load_examples
 
-  * ``superset init``
  
- To start a development web server on port 8088, using Gunicorn use the command below
+* Create default roles and permissions::
+
+    superset init
  
- * ``gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"``
+* Start a development web server on port 8088, using Gunicorn::
  
- Once above command run successfully, ensure that port 8088, on which Superset is running is accessible from your browser
+    gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"
  
- Open browser and login with public ip and port
+ Once above command runs successfully, ensure that port 8088, on which Superset is running is accessible from your browser
  
- * ``http://public-ip:8088/login``
+* Open browser and login with public ip and port::
+ 
+    http://public-ip:8088/login
  
  .. figure:: ..//_assets/configuration/loginpage.PNG
    :alt: superset
    :align: center
    :width: 60%
    
- Use your created credentials to login
+* Use your created credentials to login::
  
  .. figure:: ..//_assets/configuration/homepage.PNG
    :alt: superset
    :align: center
    :width: 60%
+ 
  
 Connecting Superset with Databricks
 -----------------------------------
@@ -82,10 +84,10 @@ NOTE * Make sure that the Databricks cluster is running
 Install the Python dependencies
 ----------------
 
-Install Needed python dependency for Databricks on the Superset VM
+Install Needed python dependency for Databricks on the Superset VM::
 
-* ``pip install databricks-dbapi``
-* ``pip install databricks-dbapi[sqlalchemy]``
+    pip install databricks-dbapi
+    pip install databricks-dbapi[sqlalchemy]
 
 Once the above two python databricks dependencies have been installed successfully, restart superset server & Login to Superset UI & Click on database
 

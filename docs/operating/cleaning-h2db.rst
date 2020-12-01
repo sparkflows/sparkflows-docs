@@ -34,3 +34,11 @@ Password : fire
 
 SHUTDOWN COMPACT
 
+Delete old files
+----------------
+
+Regularly delete the following folders:
+
+* /tmp/fire/workflowlogs
+* /tmp/fire/workflows
+

@@ -26,7 +26,7 @@ Another reason might be that you are using the Databricks ``High Concurrency`` c
 When accessing most Databricks pages in Fire, it gives Simba JDBC error
 -----------------------------------------
 
-The probably reason for it is that the Databricks Simba JDBC jar file is not deployed in Fire.
+The reason for it is that the Databricks Simba JDBC jar file is not deployed in Fire.
 
 https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver
 

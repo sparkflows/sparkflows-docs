@@ -22,12 +22,11 @@ Below are example of running DDL
 Creating Table
 ++++++++++++++
 
-statement: 
+DDL Statement::
 
-``` 
-CREATE TABLE `employee` (`id` INT, `name` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/tables/employee.csv' ); 
+    CREATE TABLE `employee` (`id` INT, `name` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/tables/employee.csv' ); 
 
-```
+
 
 Location of the data could be changed to S3 location.
 

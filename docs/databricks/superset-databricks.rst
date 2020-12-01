@@ -96,9 +96,9 @@ Once the above two python databricks dependencies have been installed successful
    :align: center
    :width: 60%
 
-Now you can add databricks database by Clicking on NEW Tab & add Databricks `Database name & SQLAlchemy URI`
+Now you can add databricks database by Clicking on NEW Tab & add Databricks `Database name & SQLAlchemy URI`::
 
-* ``databricks+pyhive://token:<token>@<companyname>.cloud.databricks.com:443/<database>?cluster=<cluster_id>]``
+    databricks+pyhive://token:<token>@<companyname>.cloud.databricks.com:443/<database>?cluster=<cluster_id>]
 
 .. figure:: ..//_assets/configuration/superset-connection.PNG
    :alt: superset

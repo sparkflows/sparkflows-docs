@@ -22,7 +22,7 @@ Below are example of running DDL
 Creating Table
 ++++++++++++++
 
-DDL Statement::
+* DDL Statement::
 
     CREATE TABLE `employee` (`id` INT, `name` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/tables/employee.csv' ); 
 
@@ -40,7 +40,7 @@ Location of the data could be changed to S3 location.
 Running SQL
 +++++++++++
 
-SQL::
+* Select SQL Statement::
 
     select count(*) as count  from employee;
 
@@ -54,7 +54,7 @@ SQL::
 Sample Data:
 ++++++++++++
 
-Select Statement::
+* Select SQL Statement::
 
     select * from employee;
     
@@ -70,7 +70,7 @@ By default first 100 rows of data is displayed.
 Drop Table
 ++++++++++
 
-Statement::
+* Drop Statement::
 
     drop table employee;
 

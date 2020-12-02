@@ -13,7 +13,6 @@ Go to the Applications Page
 
  .. figure:: ../../_assets/user-guide/export-import/importapplication.png
      :alt: userguide
-     :align: center
      :width: 60%
 
 
@@ -44,7 +43,6 @@ On successful import of the Application into Fire Insights, the success dialog i
 
 .. figure:: ../../_assets/user-guide/export-import/importinfo.png
      :alt: userguide
-     :align: center
      :width: 60%
 
 

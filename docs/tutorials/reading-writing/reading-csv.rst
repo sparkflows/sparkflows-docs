@@ -14,7 +14,7 @@ When you open any application, all existing Datasets specific to the application
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :align: center
+   :align: left
    :width: 60%
    
 Dataset Creation

@@ -36,7 +36,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
    :align: center
    :width: 40%
    
-3. Create a new Library
+3. Create a new **Library**
 
  
 .. figure:: ../_assets/configuration/library_create.PNG

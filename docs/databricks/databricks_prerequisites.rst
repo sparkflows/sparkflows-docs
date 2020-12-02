@@ -11,11 +11,11 @@ Below are the Prerequisites for installing Fire Insights on a Databricks Cluster
      - Description
      - File
    * - Python --version
-     - Python Version
+     - Python Version used
      - 3.6.0 or above
    * - pip --version
-     - pip version
+     - pip version used
      - 20.0 or above
    * - Spark Version
-     - Spark Version
+     - Spark Version used
      - 2.4

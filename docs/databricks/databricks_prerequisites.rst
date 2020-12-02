@@ -19,6 +19,6 @@ Below are the Prerequisites for installing Fire Insights on a Databricks Cluster
    * - Spark Version
      - Spark Version used
      - 2.4
-    * - Fire Running Port
+   * - Fire Running Port
      - Port on Which Fire is Running
      - Accessible from databricks Cluster 

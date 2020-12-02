@@ -1,8 +1,7 @@
 Creating Dataset for CSV Files
 =================
 
-When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently.
-Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
+When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
 
 When datasets are created, Fire Insights automatically infers the schema using Spark-CSV library from Databricks.
 
@@ -14,7 +13,7 @@ When you open any application, all existing Datasets specific to the application
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :align: left
+   :align: center
    :width: 60%
    
 Dataset Creation
@@ -34,9 +33,7 @@ In the pop-up choose "CSV" and then click "OK".
 Dataset Details
 +++++++++++++++
 
-Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset.
-In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with
-a header row specifying the names of the various columns.   
+Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
 
 
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
@@ -52,15 +49,12 @@ For the housing.csv file, we will fill in the required fields as below.
    :align: center
    :width: 60%
    
-We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the
-file has a header row, field delimiter is comma and we also specified the path to the file.
+We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
 
 Update Sample data/schema
 ++++++++++++++++++++++++++
 
-Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, 
-infers the schema and displays it. We can change the column names and also the data types. Format column is used
-for specifying the format for date/time fields.
+Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
@@ -77,8 +71,7 @@ for specifying the format for date/time fields.
 Save the Dataset
 ++++++++++++++++
 
-Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflow within the
-specific application.
+Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/5.PNG
    :alt: Dataset

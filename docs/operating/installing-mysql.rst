@@ -22,7 +22,7 @@ Run below command to update your system::
 
 You will need wget to complete this guide. It can be installed as follows::
  
- yum install wget
+ sudo yum install wget
  
 Install MySQL
 ---------------

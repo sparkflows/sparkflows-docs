@@ -58,9 +58,11 @@ Compile the Python source code on your system using altinstall::
 Create Python virtual environment & Activate it
 ---------------------------------
 
-  * ``python3.7 -m venv venv``
-  * ``source venv/bin/activate``
-  * ``python --version``
+Create Python virtual environment & Activate it::
+
+  python3.7 -m venv venv
+  source venv/bin/activate
+  python --version
 
 .. figure:: ../_assets/configuration/venv_python.PNG
    :alt: Installations
@@ -75,7 +77,9 @@ Create Python virtual environment & Activate it
 Upgrade pip version
 -------------------
 
-  * ``pip install pip --upgrade``
+Upgrade pip version with 20. or above::
+
+ pip install pip --upgrade
 
 .. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations

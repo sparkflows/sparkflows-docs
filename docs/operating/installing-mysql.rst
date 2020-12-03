@@ -89,6 +89,16 @@ In the example below, testdb is the name of the database, testuser is the user, 
  create user 'testuser'@'localhost' identified by 'password';
  grant all on testdb.* to 'testuser' identified by 'password';
  
+Create a Sample Table
+--------------------
+
+* Log back in as testuser
+
+Login with testuser::
+
+ mysql -u testuser -p
+ 
+ 
 To Provide access from remote pcs
 --------------------------------
 

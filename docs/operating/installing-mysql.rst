@@ -43,11 +43,15 @@ MySQL must be installed from the community repository.
 Harden MySQL Server
 -------------------
 
-* Run the mysql_secure_installation script to address several security concerns in a default MySQL installation::
+* Harden security Concern
+
+Run the mysql_secure_installation script to address several security concerns in a default MySQL installation::
 
  sudo mysql_secure_installation
  
-* To check already password generated::
+* To check Existing password generated
+ 
+ To check Existing password generated::
  
  sudo grep 'temporary password' /var/log/mysqld.log
  

@@ -6,6 +6,8 @@ Python is only needed if you need to use Python and the PySpark engine in Fire I
 Check if Python 3.7+ is Installed
 ----------------
 
+Use the below commands::
+
     python --version
     python3.7 --version
     
@@ -32,19 +34,21 @@ Download and extract the downloaded package
      * https://www.python.org/downloads/
      * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
+Download and untar::
   
-  * ``wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz``   
-  * ``tar xzf Python-3.7.0.tgz``
+     wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+     tar xzf Python-3.7.0.tgz
+     
 
 Compile Python source code
 +++++++++++++++++++
 
-Compile the Python source code on your system using altinstall
+Compile the Python source code on your system using altinstall::
 
-  * ``cd Python-3.7.0``
-  * ``./configure --enable-optimizations``
-  * ``make altinstall``
-  * ``python3.7 –-version``
+    cd Python-3.7.0
+    ./configure --enable-optimizations
+    make altinstall
+    python3.7 –-version
   
  .. figure:: ../_assets/configuration/python3_7.PNG
    :alt: Installations

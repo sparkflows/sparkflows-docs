@@ -77,7 +77,7 @@ Create Python virtual environment & Activate it::
 Upgrade pip version
 -------------------
 
-Upgrade pip version with 20. or above::
+Upgrade pip version with 20.0 or above::
 
  pip install pip --upgrade
 
@@ -94,7 +94,7 @@ Run below command with sudo privilege
 
 * Install development tool::
 
-  yum install -y xz-devel
+   yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations

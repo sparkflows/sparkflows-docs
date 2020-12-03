@@ -10,6 +10,7 @@ Steps for installing MySQL on Centos7
 
 To check your hostname run::
 
+ hostname
  hostname -f
  
 * Update your system

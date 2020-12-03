@@ -92,7 +92,9 @@ Install dependency for fbprophet package (CentOS 7)
 Run below command with sudo privilege
 ++++++++++++++++++++++++++++++++++
 
-* ``yum install -y xz-devel``
+* Install development tool::
+
+ yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations

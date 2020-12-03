@@ -101,22 +101,28 @@ Run below command with sudo privilege
    :align: center
    :width: 60%   
 
-* ``yum install centos-release-scl``
+* Install the CentOS SCL release file::
+
+   yum install centos-release-scl
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations
    :align: center
    :width: 60% 
    
-* ``yum install devtoolset-7``
+* Install Developer Toolset version 7::
+
+   yum install devtoolset-7``
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
    :align: center
    :width: 60%  
  
-* ``scl enable devtoolset-7 bash``
-* ``gcc --version``
+* launch a new shell instance using the Software Collection scl tool & Check GCC version::
+ 
+   scl enable devtoolset-7 bash
+   gcc --version``
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations

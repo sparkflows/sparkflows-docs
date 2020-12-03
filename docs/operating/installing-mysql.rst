@@ -51,7 +51,7 @@ Run the mysql_secure_installation script to address several security concerns in
  
 * To check Existing password generated
  
- To check Existing password generated::
+To check Existing password generated::
  
  sudo grep 'temporary password' /var/log/mysqld.log
  

@@ -1,5 +1,11 @@
-Web App User Guide
-==================
+Analytical Apps User Guide
+==========================
 
-Fire Insights enables you to build Analytical Web Apps.
+.. toctree::
+   :maxdepth: 2
+
+   data_profile.rst
+   pipelines.rst
+   tesseract.rst
+
 

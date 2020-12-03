@@ -20,10 +20,10 @@ Below are the steps for executing an Analytics App.
 
 
 Examples
-========
+-------
 
 1 : Upload 
-===========
+--------
 
 - Browse files you want to upload to databricks.
 
@@ -51,7 +51,7 @@ Examples
 - Click on "next" button to go to next stage.
 
 2 : Parameters 
-==============
+--------
 
 - Select or add parameters value you want to add.
 
@@ -65,7 +65,7 @@ Examples
 - Click on "next" button to move to next page
 
 3 : Run 
-=======
+-------
 
 - In this we will execute the Analytics App with the added parameters in the earlier stages.
 

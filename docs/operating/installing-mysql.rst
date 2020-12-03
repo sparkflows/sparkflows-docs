@@ -6,15 +6,21 @@ This document captures the details for installing MySQL on Centos7
 Below are steps on how to install MYSQL on Centos7
 ----------------------------------------------------
 
-* To check your hostname run::
+* check your hostname run
+
+To check your hostname run::
 
  hostname -f
  
-* Update your system::
+* Update your system
+
+Run below command to update your system::
 
  sudo yum update
  
-* You will need wget to complete this guide. It can be installed as follows::
+* Install wget if its not on your system
+
+You will need wget to complete this guide. It can be installed as follows::
  
  yum install wget
  

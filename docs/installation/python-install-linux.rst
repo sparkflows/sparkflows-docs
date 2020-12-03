@@ -50,7 +50,7 @@ Compile the Python source code on your system using altinstall::
     make altinstall
     python3.7 –-version
   
- .. figure:: ../_assets/configuration/python3_7.PNG
+.. figure:: ../_assets/configuration/python3_7.PNG
    :alt: Installations
    :align: center
    :width: 60% 

@@ -6,8 +6,9 @@ Python is only needed if you need to use Python and the PySpark engine in Fire I
 Check if Python 3.7+ is Installed
 ----------------
 
-  * ``python --version``
-  * ``python3.7 --version``
+    python --version
+    python3.7 --version
+    
 
 Install Python 3.7 (if not installed)
 ----------------
@@ -21,7 +22,8 @@ Prerequisites
 
 Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python.
 
-  * ``yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel``
+    yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+    
 
 Download and extract the downloaded package  
 ++++++++++++++++++++++++++++++

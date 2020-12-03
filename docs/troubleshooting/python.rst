@@ -3,10 +3,12 @@ Python Installation
 
 Python installations from source with version 3.6.5
 
-Once Installations completed, while running pyspark server, its showing warning message with missing package::
+showing warning message with missing package while restarting pyspark server
 ---------------
 
-  UserWarning: Could not import the lzma module. Your installed Python is incomplete
+showing warning message with missing package while restarting pyspark server::
+
+   UserWarning: Could not import the lzma module. Your installed Python is incomplete
   
 Possible Solution
 ---------------

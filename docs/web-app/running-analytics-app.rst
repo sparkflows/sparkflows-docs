@@ -11,8 +11,7 @@ Below are the steps for executing an Analytics App.
         :alt: web-app
         :width: 60%
 
-
-- * View all the stages depending upon index of added stages *
+- *view all the stages depending upon index of added stages*
 
   .. figure:: ../_assets/web-app/view-app1.PNG
         :alt: web-app

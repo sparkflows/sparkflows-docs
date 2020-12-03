@@ -34,6 +34,35 @@ MySQL must be installed from the community repository.
  * ``sudo yum install mysql-server``
  * ``sudo systemctl start mysqld``
 
+Harden MySQL Server
+-------------------
+
+* Run the mysql_secure_installation script to address several security concerns in a default MySQL installation::
+
+ sudo mysql_secure_installation
+ 
+* To check already password generated::
+ 
+ sudo grep 'temporary password' /var/log/mysqld.log
+ 
+* You can also create new password while installing too.
+
+Using MySQL
+------------
+
+The standard tool for interacting with MySQL is the mysql client which installs with the mysql-server package. The MySQL client is used through a terminal
+
+* To log in to MySQL as the root user::
+ 
+ mysql -u root -p
+ 
+* When prompted, enter the root password you assigned when the mysql_secure_installation script was run
+
+You’ll then be presented with a welcome header and the MySQL prompt as shown below::
+
+ mysql>
+ 
+
 Download
 --------
 

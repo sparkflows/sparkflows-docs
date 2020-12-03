@@ -180,11 +180,13 @@ Links
 Delete a venv
 +++++++++++++
 
-   * source venv/bin/activate
-   * pip freeze > requirements.txt
-   * pip uninstall -r requirements.txt -y
-   * deactivate
-   * rm -r venv/
+To delete a virtual environment, follow below steps::
+
+    source venv/bin/activate
+    pip freeze > requirements.txt
+    pip uninstall -r requirements.txt -y
+    deactivate
+    rm -r venv/
 
 Installing pip & wheel
 +++++++++++++++++++

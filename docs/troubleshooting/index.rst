@@ -12,3 +12,4 @@ Troubleshooting
    logs.rst
    dashboard.rst
    kerberos.rst
+   python.rst

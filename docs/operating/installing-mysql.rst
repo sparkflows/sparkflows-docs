@@ -24,8 +24,8 @@ Below are steps on how to install MYSQL on Centos7
  
  Download and add the repository, then update::
  
- wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
- sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm::
+ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm::
  sudo yum update
 
 Download

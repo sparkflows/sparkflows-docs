@@ -112,7 +112,7 @@ Run below command with sudo privilege
    
 * Install Developer Toolset version 7::
 
-   yum install devtoolset-7``
+   yum install devtoolset-7
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
@@ -129,14 +129,18 @@ Run below command with sudo privilege
    :align: center
    :width: 60%    
 
-* ``pip install fbprophet``
+* Install fbprophet package::
+   
+   pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
-* ``pip list``
+* Check pip list::
+   
+   pip list
 
 .. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations

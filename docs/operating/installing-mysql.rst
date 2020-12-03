@@ -52,7 +52,9 @@ Using MySQL
 
 The standard tool for interacting with MySQL is the mysql client which installs with the mysql-server package. The MySQL client is used through a terminal
 
-* To log in to MySQL as the root user::
+* Root Login
+
+To log in to MySQL as the root user::
  
  mysql -u root -p
  

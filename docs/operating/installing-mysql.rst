@@ -79,7 +79,17 @@ You’ll then be presented with a welcome header and the MySQL prompt as shown b
 
  mysql>
  
+
+To Provide access from remote pcs
+--------------------------------
+
+Inorder to Access MySQL from Remote PC, run below command::
  
+ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+ FLUSH PRIVILEGES;
+
+NOTES * The Port on which MYSQL Running ie 3306, should be accessible from target machine.
+
 Create a New MySQL User and Database
 -----------------------------------
 
@@ -138,15 +148,6 @@ Then restart MySQL::
 
  sudo systemctl start mysqld
  
-To Provide access from remote pcs
---------------------------------
-
-Inorder to Access MySQL from Remote PC, run below command::
- 
- GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
- FLUSH PRIVILEGES;
-
-NOTES * The Port on which MYSQL Running ie 3306, should be accessible from target machine.
 
 MySQL JDBC Driver
 -----------------

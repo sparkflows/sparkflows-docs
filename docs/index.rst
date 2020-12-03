@@ -107,6 +107,14 @@ Troubleshooting
    troubleshooting/index
    
    
+Frequently Asked Questions
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   faq/index
+   
 Administration
 --------------
 
@@ -164,14 +172,6 @@ Developer Guide
    :maxdepth: 2
 
    developer-guide/index
-
-Frequently Asked Questions
---------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   faq/index
 
    
 Processors

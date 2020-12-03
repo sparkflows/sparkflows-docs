@@ -124,7 +124,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 * pystan dependency::
   
-  pip install pystan``
+   pip install pystan
 
 .. figure:: ../_assets/configuration/pystan.PNG
    :alt: Installations
@@ -134,7 +134,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 * convertdate dependency::
 
-  pip install convertdate
+   pip install convertdate
 
 .. figure:: ../_assets/configuration/convertdate.PNG
    :alt: Installations
@@ -143,7 +143,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 * fbprophet dependency::
 
-  pip install fbprophet
+   pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations

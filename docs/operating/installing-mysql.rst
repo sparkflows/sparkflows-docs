@@ -9,6 +9,10 @@ Below are steps on how to install MYSQL on Centos7
 * To check your hostname run::
 
  hostname -f
+ 
+* Update your system::
+
+ sudo yum update
 
 Download
 --------

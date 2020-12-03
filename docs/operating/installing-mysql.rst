@@ -3,7 +3,7 @@ Installing MySQL
 
 This document captures the details for installing MySQL on Centos7
 
-Below are steps on how to install MYSQL on Centos7
+Below are steps on how to install MySQL on Centos7
 ----------------------------------------------------
 
 * check your hostname run

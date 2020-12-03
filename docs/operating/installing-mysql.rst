@@ -62,8 +62,11 @@ You’ll then be presented with a welcome header and the MySQL prompt as shown b
 
  mysql>
  
-* To Provide access from remote pcs
+To Provide access from remote pcs
+--------------------------------
 
+ Inorder to Access MYSQL from Remote PC, run below command
+ 
 * ``GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Sparkflows@123' WITH GRANT OPTION;``
 * ``FLUSH PRIVILEGES;``
 

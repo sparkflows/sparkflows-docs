@@ -21,9 +21,9 @@ Some References for Installing Python:
 Prerequisites
 +++++++++++++
 
-update the packages list and install the packages necessary to build Python source:
+update the packages list and install the packages necessary to build Python source::
 
-* ``sudo apt update``
+ sudo apt update
 
 .. figure:: ../_assets/configuration/update_ubuntu.PNG
    :alt: Installations

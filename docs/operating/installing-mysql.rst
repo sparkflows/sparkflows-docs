@@ -13,6 +13,10 @@ Below are steps on how to install MYSQL on Centos7
 * Update your system::
 
  sudo yum update
+ 
+* You will need wget to complete this guide. It can be installed as follows::
+ 
+ yum install wget
 
 Download
 --------

@@ -4,33 +4,6 @@ Installing MySQL
 This document captures the details for installing MySQL on Centos7
 
 
-Download
---------
 
-Download MySQL from https://dev.mysql.com/downloads/mysql/
-
-
-Create Database
----------------
-
-create database test;
-
-Create User and Grant Permissions
------------
-
-CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
-GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
-
-
-MySQL JDBC Driver
------------------
-
-Download the MySQL JDBC driver from http://www.mysql.com/downloads/connector/j/5.1.html
-
-Extract the JDBC driver JAR file from the downloaded file. For example:
-
-tar zxvf mysql-connector-java-8.0.11.tar.gz
-
-mysql-connector-java.jar
 
 

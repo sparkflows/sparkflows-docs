@@ -132,6 +132,12 @@ Use the following commands to reset root’s password. Replace password with a s
  flush privileges;
  exit
  
+* Restart MySQL
+
+Then restart MySQL::
+
+ sudo systemctl start mysqld
+ 
 To Provide access from remote pcs
 --------------------------------
 

@@ -76,7 +76,7 @@ Next, navigate to the Python source directory and run the configure script which
    
 * Install the Python binaries by running the following command:: 
  
-  make altinstall
+   make altinstall
 
 .. figure:: ../_assets/configuration/make.PNG
    :alt: Installations

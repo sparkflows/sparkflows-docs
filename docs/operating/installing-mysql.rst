@@ -78,7 +78,7 @@ You’ll then be presented with a welcome header and the MySQL prompt as shown b
 Create a New MySQL User and Database
 -----------------------------------
 
-In the example below, testdb is the name of the database, testuser is the user, and password is the user’s password:
+In the example below, testdb is the name of the database, testuser is the user, and password is the user’s password::
 
  create database testdb;
  create user 'testuser'@'localhost' identified by 'password';

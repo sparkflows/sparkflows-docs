@@ -28,6 +28,11 @@ MySQL must be installed from the community repository.
  * ``wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm``
  * ``sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm``
  * ``sudo yum update``
+ 
+* Install MySQL as usual and start the service. During installation, you will be asked if you want to accept the results from the .rpm file’s GPG verification. If no error or mismatch occurs, enter y. 
+
+ * ``sudo yum install mysql-server``
+ * ``sudo systemctl start mysqld``
 
 Download
 --------

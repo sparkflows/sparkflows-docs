@@ -56,25 +56,27 @@ Download and untar::
    :align: center
    :width: 60%
 
-Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
+Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
 
-* ``cd Python-3.7.0``
+   cd Python-3.7.0
 
 .. figure:: ../_assets/configuration/cd_python.PNG
    :alt: Installations
    :align: center
    :width: 60%
 
-* ``./configure --enable-optimizations``
+* Build & compile::
+
+   ./configure --enable-optimizations
  
 .. figure:: ../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
    :align: center
    :width: 60%
    
-install the Python binaries by running the following command: 
+* Install the Python binaries by running the following command:: 
  
-* ``make altinstall``
+   make altinstall
 
 .. figure:: ../_assets/configuration/make.PNG
    :alt: Installations

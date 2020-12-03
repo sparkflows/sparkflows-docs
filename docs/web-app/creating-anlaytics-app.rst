@@ -11,6 +11,9 @@ Below is the process for creating a new Analytics App.
 - *Click on add stage button to add different stages*
 - *Click "Save" Or "Publish"*
 
+Go to Analytics Apps
+--------------------
+
 When you go to ANALYTICS APPS under APPLICATIONS all existing analytics app are displayed. Where you can EDIT, VIEW and DELETE existing analytics app.
 
    .. figure:: ../_assets/web-app/list.PNG
@@ -19,6 +22,7 @@ When you go to ANALYTICS APPS under APPLICATIONS all existing analytics app are 
 
 
 Click on Create Analytics App
+-------------------------
 
 Fill in the required fields as below.
 
@@ -45,6 +49,7 @@ Now, click on "Add stages" button to add different stages. Select stage type and
 - You can EDIT, VIEW and REMOVE stages.
 
 Add Stages Examples
+-----------------
 
 1 : Upload 
 

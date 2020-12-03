@@ -70,6 +70,7 @@ To Provide access from remote pcs
 * ``GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Sparkflows@123' WITH GRANT OPTION;``
 * ``FLUSH PRIVILEGES;``
 
+NOTES * The Port on which MYSQL Running ie 3306, should be accessible from target machine.
 
 MySQL JDBC Driver
 -----------------

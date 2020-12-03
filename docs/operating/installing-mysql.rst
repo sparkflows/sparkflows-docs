@@ -62,23 +62,10 @@ You’ll then be presented with a welcome header and the MySQL prompt as shown b
 
  mysql>
  
+* To Provide access from remote pcs
 
-Download
---------
-
-Download MySQL from https://dev.mysql.com/downloads/mysql/
-
-
-Create Database
----------------
-
-create database test;
-
-Create User and Grant Permissions
------------
-
-CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
-GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
+* ``GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Sparkflows@123' WITH GRANT OPTION;``
+* ``FLUSH PRIVILEGES;``
 
 
 MySQL JDBC Driver

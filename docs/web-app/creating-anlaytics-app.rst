@@ -17,6 +17,7 @@ When you go to ANALYTICS APPS under APPLICATIONS all existing analytics app are 
    :alt: web-app
    :width: 60%
 
+
 Click on Create Analytics App
 
 Fill in the required fields as below.
@@ -30,6 +31,7 @@ Fill in the required fields as below.
    :alt: web-app
    :width: 60%
 
+
 "Save" or "Publish" the analytics app before adding stages.
 
 Now, click on "Add stages" button to add different stages. Select stage type and add stage name.
@@ -37,6 +39,7 @@ Now, click on "Add stages" button to add different stages. Select stage type and
 .. figure:: ../_assets/web-app/add-stage.PNG
    :alt: web-app
    :width: 60%
+
 
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW and REMOVE stages.
@@ -53,11 +56,13 @@ Add Stages Examples
    :alt: web-app
    :width: 60%
 
+
 - In first column add file component to choose files to upload to databricks. In this component in File tab in "STORAGE" select "Base64"
 
 .. figure:: ../_assets/web-app/add-stage-upload-file.PNG
    :alt: web-app
    :width: 60%
+
 
 - In other column We will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded whose property name will be "destinationPath".
 
@@ -65,25 +70,30 @@ Add Stages Examples
    :alt: web-app
    :width: 60%
 
+
 - And add upload button and perform actions depending upon event, where we will add event name as upload.
 
 .. figure:: ../_assets/web-app/add-stage-upload-button1.PNG
    :alt: web-app
    :width: 60%
 
+
 .. figure:: ../_assets/web-app/add-stage-upload-button2.PNG
    :alt: web-app
    :width: 60%
+   
 
 - And also can add next button to go to next stage and perform actions depending upon event, where we will add event name as "next".
 
 .. figure:: ../_assets/web-app/add-stage-next-button1.PNG
    :alt: web-app
    :width: 60%
+   
 
 .. figure:: ../_assets/web-app/add-stage-next-button2.PNG
    :alt: web-app
    :width: 60%
+   
 
 Click on "Done" or "Save" to save added components for that stage
 
@@ -100,12 +110,14 @@ For example:
 .. figure:: ../_assets/web-app/add-stage-parameters-selectboxes.PNG
    :alt: web-app
    :width: 60%
+   
 
 -  Then, let's add select example with in second column by adding select component. In this component in Data tab add all possible values you want to add. 
 
 .. figure:: ../_assets/web-app/add-stage-parameters-select.PNG
   :alt: web-app
   :width: 60%
+  
 
 -  Then, let's add column component in the bottom and divide in two columns for adding back and next button.
 
@@ -114,16 +126,19 @@ For example:
 .. figure:: ../_assets/web-app/add-stage-parameters-back.PNG
    :alt: web-app
    :width: 60%
+   
 
 -  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as "next". Also can add CUSTOM CSS CLASS like          float-right, float-left etc
 
 .. figure:: ../_assets/web-app/add-stage-parameters-next.PNG
    :alt: web-app
    :width: 60%
+   
 
 .. figure:: ../_assets/web-app/add-stage-parameters-buttons.PNG
    :alt: web-app
    :width: 60%
+   
 
 Click on "Done" or "Save" to save added components for that stage
 
@@ -137,6 +152,7 @@ Click on "Done" or "Save" to save added components for that stage
 .. figure:: ../_assets/web-app/add-stage-run-title.PNG
    :alt: web-app
    :width: 60%
+   
 
 -  Then, let's add column component in the bottom and divide in two columns for adding back and run button.
 
@@ -147,9 +163,11 @@ Click on "Done" or "Save" to save added components for that stage
 .. figure:: ../_assets/web-app/add-stage-run-runbtn.PNG
    :alt: web-app
    :width: 60%
+   
 
 .. figure:: ../_assets/web-app/add-stage-run-buttons.PNG
    :alt: web-app
    :width: 60%
+   
 
 Click on "Done" or "Save" to save added components for that stage

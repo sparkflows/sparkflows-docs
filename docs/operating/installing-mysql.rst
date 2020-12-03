@@ -87,10 +87,10 @@ In the example below, testdb is the name of the database, testuser is the user, 
 To Provide access from remote pcs
 --------------------------------
 
- Inorder to Access MySQL from Remote PC, run below command
+ Inorder to Access MySQL from Remote PC, run below command::
  
-* ``GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;``
-* ``FLUSH PRIVILEGES;``
+ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+ FLUSH PRIVILEGES;
 
 NOTES * The Port on which MYSQL Running ie 3306, should be accessible from target machine.
 

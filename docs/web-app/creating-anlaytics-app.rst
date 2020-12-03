@@ -52,33 +52,33 @@ Add Stages Examples
 
 - In upload stage we will first add column component and divide in two columns 
 
-   .. figure:: ../_assets/web-app/add-stage-upload-column.PNG
+   .. figure:: ../_assets/web-app/add-stage-uplaod-column.PNG
       :alt: web-app
       :width: 60%
 
 
 - In first column add file component to choose files to upload to databricks. In this component in File tab in "STORAGE" select "Base64"
 
-   .. figure:: ../_assets/web-app/add-stage-upload-file.PNG
+   .. figure:: ../_assets/web-app/add-stage-uplaod-file.PNG
       :alt: web-app
       :width: 60%
 
 
 - In other column We will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded whose property name will be "destinationPath".
 
-   .. figure:: ../_assets/web-app/add-stage-upload-textfield.PNG
+   .. figure:: ../_assets/web-app/add-stage-uplaod-textfield.PNG
       :alt: web-app
       :width: 60%
 
 
 - And add upload button and perform actions depending upon event, where we will add event name as upload.
 
-   .. figure:: ../_assets/web-app/add-stage-upload-button1.PNG
+   .. figure:: ../_assets/web-app/add-stage-uplaod-button1.PNG
       :alt: web-app
       :width: 60%
 
 
-   .. figure:: ../_assets/web-app/add-stage-upload-button2.PNG
+   .. figure:: ../_assets/web-app/add-stage-uplaod-button2.PNG
       :alt: web-app
       :width: 60%
    

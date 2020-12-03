@@ -105,6 +105,33 @@ Create a sample table called customers. This creates a table with a customer ID 
  use testdb;
  create table customers (customer_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, first_name TEXT, last_name TEXT);
  
+Reset the MySQL Root Password
+-------------------------------
+
+If you forget your root MySQL password, it can be reset.
+
+* Stop the current MySQL server instance
+
+Stop the current MySQL server instance, then restart it with an option to not ask for a password::
+
+ sudo systemctl stop mysqld
+ sudo mysqld_safe --skip-grant-tables &
+ 
+* Reconnect to the MySQL server
+
+Reconnect to the MySQL server with the MySQL root account::
+
+ mysql -u root
+ 
+* Use the following commands to reset root’s password
+
+Use the following commands to reset root’s password. Replace password with a strong password::
+
+ use mysql;
+ update user SET PASSWORD=PASSWORD("password") WHERE USER='root';
+ flush privileges;
+ exit
+ 
 To Provide access from remote pcs
 --------------------------------
 

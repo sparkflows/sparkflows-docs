@@ -85,9 +85,9 @@ Next, navigate to the Python source directory and run the configure script which
 
 Note: Do not use the standard make install as it will overwrite the default system python3 binary.
 
-Verify it by typing:
+Verify it by typing::
 
-* ``python3.7 –-version``
+   python3.7 –-version
 
 .. figure:: ../_assets/configuration/python_version.PNG
    :alt: Installations

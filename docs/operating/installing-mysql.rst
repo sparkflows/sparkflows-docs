@@ -1,4 +1,4 @@
-Installing MySQL
+Installing MySQL on Centos7
 ================
 
 This document captures the details for installing MySQL on Centos7

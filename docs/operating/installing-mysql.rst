@@ -97,7 +97,13 @@ Create a Sample Table
 Login with testuser::
 
  mysql -u testuser -p
- 
+
+* Create a sample table
+
+Create a sample table called customers. This creates a table with a customer ID field of the type INT for integer (auto-incremented for new records, used as the primary key), as well as two fields for storing the customer’s name::
+
+use testdb;
+create table customers (customer_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, first_name TEXT, last_name TEXT);
  
 To Provide access from remote pcs
 --------------------------------

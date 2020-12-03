@@ -14,3 +14,8 @@ For centos: Install development tool::
 
   sudo yum install -y xz-devel
 
+Recompile python from source code::
+
+ cd Python-3.6.5
+ sudo ./configure --enable-optimizations
+ sudo make altinstall

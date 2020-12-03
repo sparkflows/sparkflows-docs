@@ -122,7 +122,9 @@ Upgrade pip version with 20.0 or above::
 Install dependency for fbprophet package (Ubuntu 18.04)
 -----------------------------------------
 
-* ``pip install pystan``
+* pystan dependency::
+  
+  pip install pystan``
 
 .. figure:: ../_assets/configuration/pystan.PNG
    :alt: Installations
@@ -130,21 +132,27 @@ Install dependency for fbprophet package (Ubuntu 18.04)
    :width: 60% 
 
 
-* ``pip install convertdate``
+* convertdate dependency::
+
+  pip install convertdate
 
 .. figure:: ../_assets/configuration/convertdate.PNG
    :alt: Installations
    :align: center
    :width: 60% 
 
-* ``pip install fbprophet``
+* fbprophet dependency::
+
+  pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :align: center
    :width: 60% 
 
-* ``pip list``
+* Check pip list::
+   
+   pip list
 
 .. figure:: ../_assets/configuration/piplist.PNG
    :alt: Installations
@@ -154,20 +162,22 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 Install Other Packages
 ----------------------
 
-Install the required packages:
+Install the required packages::
 
-   * cd fire-x.y.x/dist/fire
-   * ``pip install -r requirements.txt``
+    cd fire-x.y.x/dist/fire
+    pip install -r requirements.txt
    
-``requirements.txt`` file is available in the installation directory of fire insights.
+``requirements.txt`` file is available in the installation directory of fire insights::
 
-* fire-x.y.x/dist/fire/requirements.txt
+    fire-x.y.x/dist/fire/requirements.txt
 
 Delete a venv
 +++++++++++++
 
-   * source venv/bin/activate
-   * pip freeze > requirements.txt
-   * pip uninstall -r requirements.txt -y
-   * deactivate
-   * rm -r venv/
+To delete a virtual environment, follow below steps::
+
+    source venv/bin/activate
+    pip freeze > requirements.txt
+    pip uninstall -r requirements.txt -y
+    deactivate
+    rm -r venv/

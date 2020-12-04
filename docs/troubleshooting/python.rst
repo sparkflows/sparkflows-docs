@@ -1,7 +1,7 @@
 Python Installation
 =======
 
-Python installations from source with version 3.6.5
+Python installations from source with version 3.6.5 
 
 showing warning message with missing package while restarting pyspark server
 ---------------

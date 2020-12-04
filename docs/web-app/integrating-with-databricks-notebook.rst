@@ -44,26 +44,31 @@ Below is how to output text to Fire Insights ::
     restworkflowcontext.outStr(9, "Test String")
 
 
-Outputing Pyspark Dataframe as Table
+Outputing PySpark Dataframe as Table
 +++++++++
 
-input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
-output_df = input_df.select("c1", "c2")
-output_df.show()
+The below code outputs the contents of PySpark Dataframe to Fire Insights as a table ::
 
-restworkflowcontext.outDataFrame(9, "Names", output_df)
+    input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
+    output_df = input_df.select("c1", "c2")
+    output_df.show()
+
+    restworkflowcontext.outDataFrame(9, "Names", output_df)
 
 
 Outputing Pandas Dataframe as Table
 +++++++++
 
-# list of strings
-lst = ['Geeks', 'For', 'Geeks', 'is',
+The below code outputs the contents of Pandas Dataframe to Fire Insights as a table ::
+
+    # list of strings
+    lst = ['Geeks', 'For', 'Geeks', 'is',
            'portal', 'for', 'Geeks']
 
-# Calling DataFrame constructor on list
-df = pd.DataFrame(lst, columns=['name'])
-print(df)
+    # Calling DataFrame constructor on list
+    df = pd.DataFrame(lst, columns=['name'])
+    print(df)
 
-restworkflowcontext.outPandasDataframe(9, "Names", df)
+    restworkflowcontext.outPandasDataframe(9, "Names", df)
+    
 

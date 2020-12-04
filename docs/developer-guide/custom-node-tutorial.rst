@@ -27,7 +27,6 @@ Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 Click on CREATE PROCESSORS
@@ -38,7 +37,6 @@ Click on ``CREATE PROCESSORS`` to start creating the new processor.
 
 .. figure:: ../_assets/developer-guide/create_processors.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
    
    

@@ -50,7 +50,7 @@ Examples of the various Stage Pages
           :width: 60%
 
 
-- Click on "next" button to go to next stage.
+- Click on "NEXT" button to go to next stage.
 
 2 : Parameters 
 ++++++++++
@@ -64,7 +64,7 @@ Examples of the various Stage Pages
           :width: 60%
 
 
-- Click on "next" button to move to next page
+- Click on "NEXT" button to move to next page
 
 3 : Run 
 ++++++++++
@@ -73,7 +73,7 @@ Examples of the various Stage Pages
 
 - Can click on back button and change the value and can run Analytics App again.
 
-- Click on run button and can see the results.
+- Click on "RUN" button and can see the results.
 
   .. figure:: ../_assets/web-app/run.PNG
           :alt: web-app

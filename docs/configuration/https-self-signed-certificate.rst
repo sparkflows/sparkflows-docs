@@ -129,7 +129,7 @@ Add Certificate to Browser
 
 - Once the above process complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
 
-.. figure:: ../_assets/configuration/loginpage.PNG
+.. figure:: ../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
    :align: center
    :width: 60%

@@ -68,14 +68,14 @@ Examples for adding various Stages
       :width: 60%
 
 
-- In other column We will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded whose property name will be 'destinationPath'.
+- In other column We will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded whose property name will be `destinationPath`.
 
    .. figure:: ../_assets/web-app/add-stage-uplaod-textfield.PNG
       :alt: web-app
       :width: 60%
 
 
-- And add upload button and perform actions depending upon event, where we will add event name as 'upload'.
+- And add upload button and perform actions depending upon event, where we will add event name as `upload`.
 
    .. figure:: ../_assets/web-app/add-stage-uplaod-button1.PNG
       :alt: web-app
@@ -87,7 +87,7 @@ Examples for adding various Stages
       :width: 60%
    
 
-- And also can add next button to go to next stage and perform actions depending upon event, where we will add event name as 'next'.
+- And also can add next button to go to next stage and perform actions depending upon event, where we will add event name as `next`.
 
    .. figure:: ../_assets/web-app/add-stage-next-button1.PNG
       :alt: web-app
@@ -125,14 +125,14 @@ For example:
 
 -  Then, let's add column component in the bottom and divide in two columns for adding back and next button.
 
--  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as 'back'.
+-  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as `back`.
 
    .. figure:: ../_assets/web-app/add-stage-parameters-back.PNG
       :alt: web-app
       :width: 60%
    
 
--  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as 'next'. Also can add CUSTOM CSS CLASS like          float-right, float-left etc
+-  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as `next`. Also can add CUSTOM CSS CLASS like          float-right, float-left etc
 
    .. figure:: ../_assets/web-app/add-stage-parameters-next.PNG
       :alt: web-app
@@ -160,9 +160,9 @@ Click on "DONE" or "SAVE" to save added components for that stage
 
 -  Then, let's add column component in the bottom and divide in two columns for adding back and run button.
 
--  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as 'back'.
+-  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as `back`.
 
--  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as 'execute'. Also can add CUSTOM CSS CLASS like          float-right, float-left etc
+-  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as `execute`. Also can add CUSTOM CSS CLASS like          float-right, float-left etc
 
    .. figure:: ../_assets/web-app/add-stage-run-runbtn.PNG
       :alt: web-app

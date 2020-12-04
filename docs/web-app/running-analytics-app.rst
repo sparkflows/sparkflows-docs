@@ -5,13 +5,15 @@ Once the Analytics App has been created, they can be executed.
 
 Below are the steps for executing an Analytics App.
 
-- *click on Analytics App Name to go to view Analytics App page*
+Click on Analytics App Name to go to view Analytics App page
+-------------------------
 
   .. figure:: ../_assets/web-app/view-app.PNG
         :alt: web-app
         :width: 60%
 
-- *view all the stages depending upon index of added stages*
+View all the stages depending upon index of added stages
+----------------------------
 
   .. figure:: ../_assets/web-app/view-app1.PNG
         :alt: web-app
@@ -19,11 +21,11 @@ Below are the steps for executing an Analytics App.
 
 
 
-Examples
+Examples of the various Stage Pages
 -------
 
 1 : Upload 
---------
+++++++++++
 
 - Browse files you want to upload to databricks.
 
@@ -51,7 +53,7 @@ Examples
 - Click on "next" button to go to next stage.
 
 2 : Parameters 
---------
+++++++++++
 
 - Select or add parameters value you want to add.
 
@@ -65,7 +67,7 @@ Examples
 - Click on "next" button to move to next page
 
 3 : Run 
--------
+++++++++++
 
 - In this we will execute the Analytics App with the added parameters in the earlier stages.
 

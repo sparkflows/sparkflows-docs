@@ -161,7 +161,7 @@ Click on "DONE" or "SAVE" to save added components for that stage
 -  Then, let's add column component in the bottom and divide in two columns for adding back and run button.
 
 -  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as ``back``.
-`
+
 -  Add next button in second column to go to next stage and perform actions depending upon event, where we will add event name as ``execute``. Also can add CUSTOM CSS CLASS like          float-right, float-left etc
 
    .. figure:: ../_assets/web-app/add-stage-run-runbtn.PNG

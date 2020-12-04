@@ -89,7 +89,7 @@ Inorder to Access MySQL from Remote PC, run below command::
  GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
  FLUSH PRIVILEGES;
 
-NOTES * The Port on which MYSQL Running ie 3306, should be accessible from target machine.
+NOTES * The Port on which MySQL Running ie 3306, should be accessible from target machine.
 
 Create a New MySQL User and Database
 -----------------------------------

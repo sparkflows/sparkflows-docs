@@ -21,19 +21,27 @@ The Databricks Notebook can output text, tables and charts to be dispalyed in Fi
 
 Below are the examples for it.
 
+Create a RestWorkflowContext Object
++++++++++++++++++++++++
+
+First create a ``RestWorkflowContext`` for communicating with Fire Insights Server ::
+
+    jobId = dbutils.widgets.get("job-id")
+    webserverURL = dbutils.widgets.get("postback-url")
+
+    print(webserverURL)
+    print(jobId)
+
+    from fire_notebook.output.workflowcontext import RestWorkflowContext
+
+    restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+
 Outputing Text
 +++++++++
 
-jobId = dbutils.widgets.get("job-id")
-webserverURL = dbutils.widgets.get("postback-url")
+Below is how to output text to Fire Insights ::
 
-print(webserverURL)
-print(jobId)
-
-from fire_notebook.output.workflowcontext import RestWorkflowContext
-
-restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
-restworkflowcontext.outStr(9, "Test String")
+    restworkflowcontext.outStr(9, "Test String")
 
 
 Outputing Pyspark Dataframe as Table

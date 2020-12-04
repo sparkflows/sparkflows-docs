@@ -6,8 +6,8 @@ Fire Insights enables you to create Analytics Apps.
 Below is the process for creating a new Analytics App.
 
 - *Go to APPLICATIONS / ANALYTICS APPS*
-- *Click on "Create Analytics App" *
-- *Add mandatory fields i.e. "Name", "select notebook" *
+- *Click on "Create Analytics App"*
+- *Add mandatory fields i.e. "Name", "select notebook"*
 - *Click on add stage button to add different stages*
 - *Click "Save" Or "Publish"*
 

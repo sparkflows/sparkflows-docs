@@ -37,13 +37,13 @@ Examples of the various Stage Pages
         :alt: web-app
         :width: 60%
 
-- Then, click on upload button to upload to dbfs and see the csv file data in tabular format.
+- Then, click on upload button to upload to DBFS and see the csv file data in tabular format.
 
   .. figure:: ../_assets/web-app/upload-file-2.PNG
           :alt: web-app
           :width: 60%
 
-- Can browse dbfs and check wether file uploaded successfully or not.
+- Can browse dbfs and check if the file uploaded successfully.
 
   .. figure:: ../_assets/web-app/upload-file-3.PNG
           :alt: web-app
@@ -55,9 +55,9 @@ Examples of the various Stage Pages
 2 : Parameters 
 ++++++++++
 
-- Select or add parameters value you want to add.
+- Select the parameters of your interest
 
-- If we click on "back" or "next" button the selected value will remain as it is and can change if wanted to.
+- If we click on "BACK" or "NEXT" button the selected value will remain as it is and can change if wanted to.
 
   .. figure:: ../_assets/web-app/parameters-1.PNG
           :alt: web-app

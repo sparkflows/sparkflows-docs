@@ -48,10 +48,11 @@ Now, click on "Add stages" button to add different stages. Select stage type and
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW and REMOVE stages.
 
-Add Stages Examples
+Examples for adding various Stages
 -----------------
 
 1 : Upload Stage
+++++++++++++++++
 
 - In upload stage we will first add column component and divide in two columns 
 
@@ -101,6 +102,7 @@ Add Stages Examples
 Click on "Done" or "Save" to save added components for that stage
 
 2 : Parameters Stage
+++++++++++++++++
 
 - In parameters stage we can add select,text-field,select boxes,buttons , etc components
 
@@ -145,6 +147,7 @@ For example:
 Click on "Done" or "Save" to save added components for that stage
 
 3 : Run Stage
+++++++++++++++++
 
 - In run stage we will execute the notebook with all parameters added in app
 

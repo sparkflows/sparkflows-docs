@@ -51,9 +51,9 @@ Steps involved in installing apache superset (centos7)
 
     superset init
  
-* Start a development web server on port 8088, using Gunicorn::
+* Start a development web server on port 8088, using Gunicorn in background::
  
-    gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"
+    nohup gunicorn -b 0.0.0.0:8088 --limit-request-line 0 --limit-request-field_size 0 "superset.app:create_app()"
  
  Once above command runs successfully, ensure that port 8088, on which Superset is running is accessible from your browser
  

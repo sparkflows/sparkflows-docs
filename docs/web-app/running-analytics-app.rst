@@ -5,14 +5,14 @@ Once the Analytics App has been created, they can be executed.
 
 Below are the steps for executing an Analytics App.
 
-Click on Analytics App Name to go to view Analytics App page
+Click on Analytics App Name
 -------------------------
 
   .. figure:: ../_assets/web-app/view-app.PNG
         :alt: web-app
         :width: 60%
 
-View all the stages depending upon index of added stages
+Go through the various Stages
 ----------------------------
 
   .. figure:: ../_assets/web-app/view-app1.PNG
@@ -31,7 +31,7 @@ Examples of the various Stage Pages
 
 - Add destination path of dbfs where you want to upload choose file.
 
-- If added path is not there in dbfs then it will first create thet folder in dbfs and then upload the file.
+- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file.
 
   .. figure:: ../_assets/web-app/upload-file-1.PNG
         :alt: web-app
@@ -43,7 +43,7 @@ Examples of the various Stage Pages
           :alt: web-app
           :width: 60%
 
-- Can browse dbfs and check if the file uploaded successfully.
+- You can browse dbfs and check if the file uploaded successfully.
 
   .. figure:: ../_assets/web-app/upload-file-3.PNG
           :alt: web-app
@@ -57,7 +57,7 @@ Examples of the various Stage Pages
 
 - Select the parameters of your interest
 
-- If we click on "BACK" or "NEXT" button the selected value will remain as it is and can change if wanted to.
+- If you click on "BACK" or "NEXT" button the selected value will remain as it is and you can change it if needed
 
   .. figure:: ../_assets/web-app/parameters-1.PNG
           :alt: web-app
@@ -69,11 +69,11 @@ Examples of the various Stage Pages
 3 : Run 
 ++++++++++
 
-- In this we will execute the Analytics App with the added parameters in the earlier stages.
+- In this stage you will execute the Analytics App with the added parameters in the earlier stages.
 
-- Can click on back button and change the value and can run Analytics App again.
+- You can click on back button and change the value and run Analytics App again.
 
-- Click on "RUN" button and can see the results.
+- Click on "RUN" button to execute the app and view the results.
 
   .. figure:: ../_assets/web-app/run.PNG
           :alt: web-app

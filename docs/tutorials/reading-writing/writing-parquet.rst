@@ -32,7 +32,7 @@ As a user you just have to select the Dataset of your interest and configure the
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG
    :alt: SaveParquet
    :align: center
-   :width: 60%
+   :width: 40%
 
 
 

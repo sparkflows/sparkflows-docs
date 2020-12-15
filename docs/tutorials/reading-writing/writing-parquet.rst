@@ -16,7 +16,8 @@ Below is a workflow example which reads in transaction data. It then writes it o
    :width: 60%
 
 
-NodeTansactionDataset creates Dataframe Of your dataset named TransactionDataset by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature. As a user you just have to select the Dataset of your interest and configure the details as shown below
+Node "TansactionDataset" creates Dataframe Of your dataset named Transaction Dataset by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature. 
+As a user you just have to select the Dataset of your interest and configure the details as shown below.
 
 
 
@@ -24,3 +25,14 @@ NodeTansactionDataset creates Dataframe Of your dataset named TransactionDataset
    :alt: NodeDatasetStructured
    :align: center
    :width: 60%
+
+"SaveParquet" node saves dataframe into the specified location in Parquet Format by providing the details as shown below. When running on Hadoop, it is saved into HDFS.
+
+
+figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG
+   :alt: SaveParquet
+   :align: center
+   :width: 60%
+
+
+

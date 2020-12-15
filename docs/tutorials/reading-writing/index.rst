@@ -13,6 +13,7 @@ Reading - Writing Data
    elasticsearch.rst
    processing-multiple-files.rst
    writing-hive.rst
+   writing-parquet.rst
    mongodb.rst
    
    

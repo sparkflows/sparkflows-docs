@@ -1,4 +1,4 @@
-Reading from RDBMS
+Reading from RDBMS in Workflow
 =======================
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.

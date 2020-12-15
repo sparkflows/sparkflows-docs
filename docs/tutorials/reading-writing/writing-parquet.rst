@@ -11,7 +11,7 @@ Below is a workflow which reads in transaction data. It then writes it out to Pa
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/someimage.png
-   :alt: Stock Forecasting
+   :alt: Parquet workflow
    :align: center
    :width: 100%
 

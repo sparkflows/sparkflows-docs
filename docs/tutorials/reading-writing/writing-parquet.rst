@@ -16,3 +16,6 @@ Below is a workflow example which reads in transaction data. It then writes it o
    :width: 60%
 
 
+NodeTansactionDataset creates Dataframe by reading data from HDFS, HIVE etc.The Dataset had been defined earlier in Fire by using the Dataset feature.
+As a user you just have to select the Dataset of your interest.
+

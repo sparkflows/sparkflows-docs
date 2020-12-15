@@ -29,7 +29,7 @@ As a user you just have to select the Dataset of your interest and configure the
 "SaveParquet" node saves dataframe into the specified location in Parquet Format by providing the details as shown below. When running on Hadoop, it is saved into HDFS.
 
 
-figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG
    :alt: SaveParquet
    :align: center
    :width: 60%

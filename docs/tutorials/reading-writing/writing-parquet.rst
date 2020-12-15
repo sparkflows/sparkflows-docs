@@ -26,6 +26,9 @@ As a user you just have to select the Dataset of your interest and configure the
    :align: center
    :width: 60%
 
+SaveParquet Processor Configuration
+-----------------------------------
+
 "SaveParquet" node saves dataframe into the specified location in Parquet Format by providing the details as shown below. When running on Hadoop, it is saved into HDFS.
 
 

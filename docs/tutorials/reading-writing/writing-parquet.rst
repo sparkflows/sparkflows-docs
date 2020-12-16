@@ -10,7 +10,7 @@ Workflow for writing to Parquet file
 Below is a workflow example which reads in transaction data. It then writes it out to Parquet files.
 
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet%20workflow.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.PNG
    :alt: Parquet Worflow
    :align: center
    :width: 60%

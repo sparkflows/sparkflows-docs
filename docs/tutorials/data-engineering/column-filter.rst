@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then filters specified columns from the original dataset.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterWkflw.PNG
    :alt: Column Filter
    :align: center
    :width: 60%
@@ -25,7 +25,7 @@ It reads Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterDatasetStrc.PNG
    :alt: Column Filter
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2a.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterViewData.PNG
    :alt: Column Filter
    :align: center
    :width: 60%   
@@ -46,7 +46,7 @@ It filters the columns whichever we want.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterFilter.PNG
    :alt: Column Filter
    :align: center
    :width: 60%
@@ -54,7 +54,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3a.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterFilterOutput.PNG
    :alt: Column Filter
    :align: center
    :width: 60%
@@ -68,7 +68,7 @@ It prints the results after filtering the columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterPrintSetting.PNG
    :alt: Column Filter
    :align: center
    :width: 60%
@@ -76,7 +76,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4a.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilteroutput.PNG
    :alt: Column Filter
    :align: center
    :width: 60% 

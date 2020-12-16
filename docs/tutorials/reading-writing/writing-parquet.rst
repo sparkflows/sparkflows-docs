@@ -18,8 +18,7 @@ Below is a workflow example which reads in transaction data. It then writes it o
    
    new
    
-   
-   .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.png
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.png
    :alt: ParquetWorkflow
    :align: center
    :width: 60%

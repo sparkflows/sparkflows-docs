@@ -16,6 +16,9 @@ Below is a workflow example which reads in transaction data. It then writes it o
    :width: 60%
    
    
+   new
+   
+   
    .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.png
    :alt: ParquetWorkflow
    :align: center

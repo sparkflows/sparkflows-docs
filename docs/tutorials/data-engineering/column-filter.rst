@@ -73,7 +73,7 @@ Processor Configuration
    :align: center
    :width: 60%
 
-Processor Output
+Processor Output after executing workflow
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilteroutput.PNG

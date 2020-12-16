@@ -14,6 +14,12 @@ Below is a workflow example which reads in transaction data. It then writes it o
    :alt: ParquetWorkflow
    :align: center
    :width: 60%
+   
+   
+   .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.png
+   :alt: ParquetWorkflow
+   :align: center
+   :width: 60%
 
 
 Node ``TransactionDataset`` creates Dataframe of your dataset named 'Transaction Dataset' by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature. 

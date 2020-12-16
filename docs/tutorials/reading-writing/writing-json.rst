@@ -12,6 +12,8 @@ Workflow for writing to JSON file
    :align: center
    :width: 60%
 
+
+
 Node ``TransactionDataset`` creates DataFrame of your dataset named 'Transaction Dataset' by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature. As a user you just have to select the Dataset of your interest and configure the details as shown below.
 
 

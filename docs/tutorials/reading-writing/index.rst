@@ -14,6 +14,7 @@ Reading - Writing Data
    processing-multiple-files.rst
    writing-hive.rst
    writing-parquet.rst
+   writing-json.rst
    mongodb.rst
    
    

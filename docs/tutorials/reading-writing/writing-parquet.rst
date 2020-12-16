@@ -11,7 +11,7 @@ Below is a workflow example which reads in transaction data. It then writes it o
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.PNG
-   :alt: Parquet Worflow
+   :alt: ParquetWorkflow
    :align: center
    :width: 60%
 

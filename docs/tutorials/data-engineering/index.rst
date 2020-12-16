@@ -7,6 +7,7 @@ Data Preparation
    convert-to-timestamps.rst 
    data-validation.rst
    decision-json-sort.rst
+   column-filter.rst
    drop-columns.rst
    drop-rows-with-null.rst
    handling-null-values.rst

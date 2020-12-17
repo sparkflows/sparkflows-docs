@@ -12,6 +12,7 @@ Data Preparation
    drop-rows-with-null.rst
    handling-null-values.rst
    remove-duplicate-rows.rst
+   remove-special-characters.rst
    rename-columns.rst
    string-to-date-timefunctions.rst
    concat-columns.rst

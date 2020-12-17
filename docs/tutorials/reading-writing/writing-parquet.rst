@@ -16,9 +16,12 @@ Below is a workflow example which reads in transaction data. It then writes it o
    :width: 60%
    
    
-Node ``TransactionDataset`` creates Dataframe of your dataset named 'Transaction Dataset' by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature. 
-As a user you just have to select the Dataset of your interest and configure the details as shown below.
+DatasetStructured Processor
+--------------------------
+   
+Node ``TransactionDataset`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
 
+As a user you have to select the Dataset of your interest as shown below.
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/NodeDatasetStructured.PNG
@@ -26,10 +29,13 @@ As a user you just have to select the Dataset of your interest and configure the
    :align: center
    :width: 60%
 
-SaveParquet Processor Configuration
------------------------------------
 
-``SaveParquet`` node saves dataframe into the specified path in Parquet Format. When running on Hadoop, Parquet files gets saved into HDFS.
+SaveParquet Processor
+---------------------
+
+``SaveParquet`` processor saves the incoming DataFrame into the specified path in Parquet Format. When running on Hadoop, Parquet files gets saved into HDFS.
+
+The DataFrame might be written as multiple part files in the specified folder, depending on the size and partition of the DataFrame.
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG

@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset File.
+It reads in the input Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -38,10 +38,11 @@ Processor Output
    :align: center
    :width: 60%   
    
+   
 Column Filter
 ------------
 
-It filters the columns whichever we want.
+It filters the selected columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -59,25 +60,12 @@ Processor Output
    :align: center
    :width: 60%
   
+  
 Prints the Results
 ------------------
 
-It prints the results after filtering the columns.
+It prints the first few records onto the screen.
 
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterPrintSetting.PNG
-   :alt: Column Filter
-   :align: center
-   :width: 60%
-
-Processor Output after executing workflow
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilteroutput.PNG
-   :alt: Column Filter
-   :align: center
-   :width: 60% 
 

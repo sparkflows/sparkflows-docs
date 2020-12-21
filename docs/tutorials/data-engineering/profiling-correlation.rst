@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
-Performing Correltion analysis
+Performing Correlation analysis
 ---------------------
 
 Select the required columns to perform correlation analysis
@@ -38,7 +38,7 @@ Processor Output - Correlation matrix
    :align: center
    :width: 60%   
 
-Processor Output - Correlation matrix heat map
+Processor Output - Correlation Matrix Heat Map
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture4.PNG
@@ -46,7 +46,7 @@ Processor Output - Correlation matrix heat map
    :align: center
    :width: 60%   
 
-Processor Output - Sample rows of the input dataset
+Processor Output - Sample Rows of Input Dataset
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture5.PNG
@@ -80,7 +80,7 @@ Processor Output: Summary Statistics
    :align: center
    :width: 60%   
   
-Processor Output: Sampele rows of input dataset
+Processor Output: Sample Rows of Input Dataset
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture8.PNG

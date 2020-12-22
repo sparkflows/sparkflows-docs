@@ -56,7 +56,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
    
  
-
+* Note: Please insure to change localhost to your domain name or your ip 
 
 
 

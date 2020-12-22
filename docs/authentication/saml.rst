@@ -36,39 +36,39 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
    :align: center
    :width: 60%
 
-  ::
-
-    saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
+  
+    ``saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b``
     
 2. Identifier of the SP entity  (must be a URI) Audience URI::
 
-saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
 
 .. figure:: ..//_assets/authentication/service_provider_entity_id.png
    :alt: sso
    :align: center
    :width: 60%
-   
+
+    ``saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata``
    
 3. Identifier of the IdP entity  (must be a URI)::
 
-   saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
-   
+    
 .. figure:: ..//_assets/authentication/one_login_entity_id.png
    :alt: sso
    :align: center
    :width: 60%
 
+      ``saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b``
 
 4. Signature algorithm::
 
-saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
-  
+ 
 .. figure:: ..//_assets/authentication/saml_signature.png
    :alt: sso
    :align: center
    :width: 60%  
-  
+
+      ``saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1``
+
 5. Make it sure that recepient url start with /saml/SSO
 
 

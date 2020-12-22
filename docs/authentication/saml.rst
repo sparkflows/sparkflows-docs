@@ -10,7 +10,43 @@ First create the user in Fire under ``Administration/Users``.
 
 Log into Fire with the ``admin`` user in order to be able to create the New Users.
 
+Enable/Disable single signOn (sso.saml.properties)
+------------------------------
+sparkflows.sp.sso.enable=true 
+
+Enable/Disable auto user creation
+-----------------------------------
+ Enable/disable user auto creation in local database. If user is not present in local database and auto creation is true then
+ after successful login, one user will get created in local database. If set false and user is not in local database,
+ application will not allow to login and it will redirect it to User not found error page.
+
+sparkflows.sp.auto.user.create=false
+
 
 Configuring SAML
 -----------------
+Add  identity provider configuration information in sso.saml.properties file:
+
+1. Metadata url of identity provider 
+
+Right click on SAML Metadata menu and copy link address and add it in config properties file like below:
+
+ saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
+ 
+2. Identifier of the SP entity  (must be a URI) Audience URI
+
+   saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
+
+3. Identifier of the IdP entity  (must be a URI)
+
+   saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
+   
+4. Signature algorithm 
+   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
+   
+ 
+
+
+
+
 

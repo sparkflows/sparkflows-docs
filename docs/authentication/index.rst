@@ -1,4 +1,4 @@
-Configuring LDAP/OAuth Authentication
+Authentication
 ==============
 
 Fire Insights supports various types of authencations:

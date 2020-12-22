@@ -61,10 +61,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 4. Signature algorithm 
    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
   
-.. figure:: ..//_assets/authentication/saml_signature.png
-   :alt: sso
-   :align: center
-   :width: 60%   
+  
   
 5. Make it sure that recepient url start with /saml/SSO
 

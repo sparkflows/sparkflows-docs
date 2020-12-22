@@ -29,7 +29,8 @@ Add  identity provider configuration information in sso.saml.properties file:
 
 1. Metadata url of identity provider 
 
-Right click on SAML Metadata menu and copy link address and add it in config properties file like below:
+Right click on SAML Metadata menu and copy link address and add it in config properties file like below
+
 
 .. figure:: ..//_assets/authentication/saml_metadata_url.png
    :alt: superset

@@ -31,14 +31,14 @@ Add  identity provider configuration information in sso.saml.properties file:
 
 Right click on SAML Metadata menu and copy link address and add it in config properties file like below::
 
-saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
-
 .. figure:: ..//_assets/authentication/saml_metadata_url.png
    :alt: sso
    :align: center
    :width: 60%
 
-   
+::
+
+  saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
     
 2. Identifier of the SP entity  (must be a URI) Audience URI::
 

@@ -1,4 +1,4 @@
-test
+Authentication
 -------
 
 .. toctree::

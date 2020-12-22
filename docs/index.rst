@@ -30,6 +30,14 @@ Configuration
    :maxdepth: 1
 
    configuration/index
+
+Authentication
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   authentication/index
    
 Operating Fire Insights
 --------------------
@@ -89,14 +97,6 @@ Tutorials
 
    tutorials/index
    
-Authentication
---------------
-
-.. toctree::
-   :maxdepth: 1
-
-   authentication/index   
-
 
 Troubleshooting
 ---------------

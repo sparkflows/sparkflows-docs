@@ -71,4 +71,12 @@ The below code outputs the contents of Pandas Dataframe to Fire Insights as a ta
 
     restworkflowcontext.outPandasDataframe(9, "Names", df)
     
+    
+Outputing HTML
++++++++++
 
+Below is how to output html to Fire Insights ::
+    
+    htmlstr1 = "<h3>You can view HTML code in notebooks.</h3>"
+ 
+    restworkflowcontext.outHTML(9, title="Example HTML", text = htmlstr1)

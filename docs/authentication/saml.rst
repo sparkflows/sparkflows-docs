@@ -52,6 +52,11 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
    saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
    
+.. figure:: ..//_assets/authentication/one_login_entity_id.png
+   :alt: sso
+   :align: center
+   :width: 60%
+   
 4. Signature algorithm 
    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
    

@@ -67,6 +67,10 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
    
 5. Make it sure that recepient url start with /saml/SSO
 
+.. figure:: ..//_assets/authentication/one_login_recipient.png
+   :alt: sso
+   :align: center
+   :width: 60% 
  
 * Note: Make sure to change localhost to your domain name or your ip 
 

@@ -40,6 +40,11 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
  
 2. Identifier of the SP entity  (must be a URI) Audience URI
 
+.. figure:: ..//_assets/authentication/service_provider_entity_id.png
+   :alt: superset
+   :align: center
+   :width: 60%
+
    saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
 
 3. Identifier of the IdP entity  (must be a URI)

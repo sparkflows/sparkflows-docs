@@ -1,4 +1,4 @@
-Installations and Configurations to Databricks
+Installation and Configuration to Databricks
 -------------------
 
 Superset enables powerful Visualizations. Superset can connect with Databricks clusters and display data from Tables in Databricks.

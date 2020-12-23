@@ -1,5 +1,5 @@
 Superset
-===========
+=========
 
 Superset enables powerful Visualizations. Superset can connect with Databricks clusters and display data from Tables in Databricks.
 

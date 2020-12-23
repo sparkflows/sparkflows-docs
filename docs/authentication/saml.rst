@@ -55,7 +55,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
 ::
 
-saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
+    saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
    
 3. Identifier of the IdP entity  (must be a URI)::
 
@@ -67,7 +67,7 @@ saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
 
 ::
 
-saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
+    saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
 
 4. Signature algorithm::
 
@@ -79,7 +79,7 @@ saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a30
 
 ::
 
-saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
+    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
 
 5. Make it sure that recepient url start with /saml/SSO
 

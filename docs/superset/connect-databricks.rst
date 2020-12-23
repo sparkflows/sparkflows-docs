@@ -1,7 +1,7 @@
 Connecting Superset with Databricks
 ================================
 
-Once Superset is running, you can add Databricks database for visualisation using chart & dashboard onto it.
+Once Superset is running, you can configure Databricks database.
 
 .. note::  Make sure that the Databricks cluster is up.
 

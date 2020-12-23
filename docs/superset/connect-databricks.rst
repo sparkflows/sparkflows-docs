@@ -1,5 +1,5 @@
 Connecting Superset with Databricks
------------------------------------
+================================
 
 Once Superset is running, you can connect it to Databricks Tables.
 

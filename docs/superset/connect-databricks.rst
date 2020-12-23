@@ -1,7 +1,7 @@
 Connecting Superset with Databricks
 ================================
 
-Once Superset is running, you can connect it to Databricks Tables.
+Once Superset is running, you can connect it to Databricks.
 
 .. note::  Make sure that the Databricks cluster is up.
 

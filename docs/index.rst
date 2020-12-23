@@ -146,6 +146,14 @@ AZURE Integration
    :maxdepth: 2
 
    azure/index
+   
+Superset
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   superset/index   
 
 Python
 --------

@@ -8,4 +8,4 @@ Below are steps involved in Installing Superset and Configuring to Databricks.
 .. toctree::
    :maxdepth: 2
 
-   database-authentication.rst
+   installation.rst

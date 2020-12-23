@@ -3,7 +3,7 @@ Connecting Superset with Databricks
 
 Once Superset is running, you can connect it to Databricks Tables.
 
-NOTE * Make sure that the Databricks cluster is running
+.. note::  Make sure that the Databricks cluster is running
 
 Install the Python dependencies
 ----------------

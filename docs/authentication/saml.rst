@@ -89,7 +89,11 @@ saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sh
    :align: center
    :width: 60% 
  
-* Note: Make sure to change localhost to your domain name or your ip 
+
+.. note::  Make sure to change localhost to your domain name or your ip
+
+
+
 
 
 

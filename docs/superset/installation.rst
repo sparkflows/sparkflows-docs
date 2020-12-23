@@ -1,5 +1,5 @@
 Installation
----------------
+==============
 
 Ensure that Superset machine has python 3.6.0+ installed on it.
 

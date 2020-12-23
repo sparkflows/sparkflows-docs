@@ -9,3 +9,4 @@ Below are steps involved in Installing Superset and Configuring to Databricks.
    :maxdepth: 2
 
    installation.rst
+   connect-databricks.rst

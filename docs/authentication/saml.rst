@@ -43,7 +43,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
 ::  
   
-saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
+    saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
     
 2. Identifier of the SP entity  (must be a URI) Audience URI::
 

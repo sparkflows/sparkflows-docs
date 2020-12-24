@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Perform correlation analysis of the required columns 
 * Provide summary statistics of the dataset
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture1.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%
@@ -25,7 +25,7 @@ Select the required columns to perform correlation analysis
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture2.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output - Correlation matrix
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture3.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%   
@@ -41,7 +41,7 @@ Processor Output - Correlation matrix
 Processor Output - Correlation Matrix Heat Map
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture4.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%   
@@ -49,7 +49,7 @@ Processor Output - Correlation Matrix Heat Map
 Processor Output - Sample Rows of Input Dataset
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture5.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%   
@@ -67,7 +67,7 @@ It provides a table with number of non-null entries (count), mean, standard devi
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture6.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%   
@@ -75,7 +75,7 @@ Processor Configuration
 Processor Output: Summary Statistics
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture7.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%   
@@ -83,7 +83,7 @@ Processor Output: Summary Statistics
 Processor Output: Sample Rows of Input Dataset
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation.rst/Capture8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture8.PNG
    :alt: ProfilingCorrelation
    :align: center
    :width: 60%    

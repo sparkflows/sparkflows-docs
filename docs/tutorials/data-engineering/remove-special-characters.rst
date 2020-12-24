@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * Create new DataFrame containing the rows that satisfy the given condition (i.e. removes the rows with empty space)
 * Print the specified number of records in the DataFrame after execution of workflow
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_1.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_1.png
    :alt: Remove special Characters
    :align: center
    :width: 60%
@@ -26,7 +26,7 @@ It reads in the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_2.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%
@@ -34,7 +34,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_3.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%   
@@ -48,7 +48,7 @@ It find and replaces the special characters with empty space in the columns
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_4.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%
@@ -56,7 +56,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_5.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%
@@ -69,7 +69,7 @@ Creates new DataFrame containing the rows that satisfy the condition provided (F
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_6.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%
@@ -77,7 +77,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters.rst/Screenshot_7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Screenshot_7.PNG
    :alt: Remove special Characters
    :align: center
    :width: 60%

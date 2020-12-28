@@ -1,7 +1,7 @@
-OneLogin setup
+SAML OneLogin setup
 ==============
 
-Below are steps to setup OneLogin
+Below are steps to setup SAML OneLogin
 
 1. Create an account at one Login 
 2. SignIn into oneLogin

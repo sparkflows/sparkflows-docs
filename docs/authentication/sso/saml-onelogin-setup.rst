@@ -1,7 +1,7 @@
 SAML OneLogin setup
 ==============
 
-Below are steps to setup SAML OneLogin
+Below are steps to setup SAML 2.0 OneLogin
 
 1. Create an account at one Login 
 2. SignIn into oneLogin

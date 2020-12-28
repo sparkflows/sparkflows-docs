@@ -1,7 +1,7 @@
-SAML Authentication with One Login
+SAML OneLogin Configurations
 ====================
 
-Fire Insights supports SAML Authentication.
+Fire Insights can be Configured with OneLogin as below.
 
 Go to folder conf/sso.saml.properties file:
 

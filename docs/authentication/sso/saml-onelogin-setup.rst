@@ -20,7 +20,12 @@ Below are steps to setup OneLogin
    :width: 60%
 	   
 4. Add an app
-      <image: addAppButton> 
+
+.. figure:: ../../_assets/authentication/addAppButton.png
+   :alt: sso
+   :align: center
+   :width: 60%
+   
 5. Select an application
       a) Search application 'SAML Test Connector'
 	  b) Select the application SAML Test Connector (Advanced).

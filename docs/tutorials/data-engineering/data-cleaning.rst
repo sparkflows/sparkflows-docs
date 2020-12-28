@@ -59,7 +59,76 @@ Processor Output
    :align: center
    :width: 60%
   
-  
+
+Convert Strings to Integer Indexes
+------------
+
+``  StringIndexer  `` encodes a string type columns to a column of label indices
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :alt: DataCleaning
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :align: center
+   :width: 60%
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :align: center
+   :width: 60%
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :align: center
+   :width: 60%
+   
+Convert Gender to Integer Values
+------------
+
+``  CaseWhen  `` sets values based on conditions as shown below
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :alt: DataCleaning
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :align: center
+   :width: 60%
+   
+Replace Gender and Family with 0/1
+------------
+
+``  FindAndReplaceUsingRegexMultiple  `` sets values based on conditions as shown below
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :alt: DataCleaning
+   :align: center
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/
+   :align: center
+   :width: 60%
+   
+   
 Prints the Results
 ------------------
 

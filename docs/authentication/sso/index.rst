@@ -36,4 +36,4 @@ Steps for Configuring Identity Provider
 .. toctree::
    :maxdepth: 2
 
-   sso-onelogin.rst
+   saml-onelogin.rst

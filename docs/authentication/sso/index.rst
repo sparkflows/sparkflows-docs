@@ -10,4 +10,4 @@ Below are the steps for configuring SSO with Fire Insights.
    :maxdepth: 2
 
    saml-onelogin-setup.rst
-   saml-onelogin.rst
+   saml-onelogin-configurations.rst

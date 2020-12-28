@@ -12,12 +12,16 @@ Below are steps to setup OneLogin
    :align: center
    :width: 60%
 	   
-   3. Go to administrator >> Click on applications menu >> 
-       <image: applications_menu>
+3. Go to administrator >> Click on applications menu >> 
+
+.. figure:: ../../_assets/authentication/applications_menu.png
+   :alt: sso
+   :align: center
+   :width: 60%
 	   
-   3. Add an app
+4. Add an app
       <image: addAppButton> 
-   4. Select an application
+5. Select an application
       a) Search application 'SAML Test Connector'
 	  b) Select the application SAML Test Connector (Advanced).
 	    <Image: searchApp>

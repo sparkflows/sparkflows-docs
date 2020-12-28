@@ -5,7 +5,7 @@ Fire Insights can be Configured with SAML 2.0 OneLogin as below.
 
 Go to folder ``conf/sso.saml.properties`` file:
 
-Add below information from newly created application in one Login:
+Add below information from newly created application in oneLogin:
 
 1. Enable sso in sparkflows::
 
@@ -13,16 +13,14 @@ Add below information from newly created application in one Login:
     sparkflows.sp.sso.enable=true 
     
 2. Create user locally in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'::
-
+    
     sparkflows.sp.auto.user.create=true 
 
 3. Metadata url of identity provider.
 
-  Copy the Audience (EntityID) from oneLogin configuration section.
-
-.. figure:: ../../_assets/authentication/saml_metadata_url.png
+ .. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso
-   :align: center
+   :align: left
    :width: 60%
 
 ::  
@@ -31,12 +29,9 @@ Add below information from newly created application in one Login:
     
 4. Identifier of the SP entity  (must be a URI) Audience URI
 		        
-    Copy this information from Configuration section from oneLogin app (Audience (EntityID))
-
-
-.. figure:: ../../_assets/authentication/service_provider_entity_id.png
+   .. figure:: ../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
-   :align: center
+   :align: left
    :width: 60%
 
 ::
@@ -45,12 +40,10 @@ Add below information from newly created application in one Login:
    
 5. Identifier of the IdP entity  (must be a URI)
   
-  Copy this information from sso section of oneLogin app (Issuer url)
-
-    
+   
 .. figure:: ../../_assets/authentication/one_login_entity_id.png
    :alt: sso
-   :align: center
+   :align: left
    :width: 60%
 
 ::
@@ -59,12 +52,10 @@ Add below information from newly created application in one Login:
 
 6. Algorithm that the toolkit will use on signing process.
 
-  Copy this information from configuration section (SAML Signature Algorithm)
-
- 
+  
 .. figure:: ../../_assets/authentication/saml_signature.png
    :alt: sso
-   :align: center
+   :align: left
    :width: 60%  
 
 ::

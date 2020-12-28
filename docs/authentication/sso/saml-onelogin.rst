@@ -12,7 +12,7 @@ Add  identity provider configuration information in sso.saml.properties file:
 
 Right click on SAML Metadata menu and copy link address and add it in config properties file like below:
 
-.. figure:: ..//_assets/authentication/saml_metadata_url.png
+.. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso
    :align: center
    :width: 60%
@@ -24,7 +24,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 2. Identifier of the SP entity  (must be a URI) Audience URI::
 
 
-.. figure:: ..//_assets/authentication/service_provider_entity_id.png
+.. figure:: ../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
    :align: center
    :width: 60%
@@ -36,7 +36,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 3. Identifier of the IdP entity  (must be a URI)::
 
     
-.. figure:: ..//_assets/authentication/one_login_entity_id.png
+.. figure:: ../../_assets/authentication/one_login_entity_id.png
    :alt: sso
    :align: center
    :width: 60%
@@ -48,7 +48,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 4. Signature algorithm::
 
  
-.. figure:: ..//_assets/authentication/saml_signature.png
+.. figure:: ../../_assets/authentication/saml_signature.png
    :alt: sso
    :align: center
    :width: 60%  
@@ -60,7 +60,7 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 5. Make it sure that recepient url start with /saml/SSO
 
 
-.. figure:: ..//_assets/authentication/one_login_recipient.png
+.. figure:: ../../_assets/authentication/one_login_recipient.png
    :alt: sso
    :align: center
    :width: 60% 

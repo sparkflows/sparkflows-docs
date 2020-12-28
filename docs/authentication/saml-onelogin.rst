@@ -1,4 +1,4 @@
-SAML Authentication
+SAML Authentication with One Login
 ====================
 
 Fire Insights supports SAML Authentication.

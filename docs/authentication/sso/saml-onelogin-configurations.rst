@@ -3,12 +3,22 @@ SAML Authentication with One Login
 
 Fire Insights supports SAML Authentication.
 
+Go to folder conf/sso.saml.properties file:
 
-Configuring SAML
------------------
-Add  identity provider configuration information in sso.saml.properties file:
+Add below information from newly created application in one Login:
 
-1. Metadata url of identity provider 
+1. Enable sso enable
+
+::
+    sparkflows.sp.sso.enable=true 
+    
+2. Create user locally in application if user doesn't exist in sparkflows, otherwise app will show page 'User not found'
+
+::
+    sparkflows.sp.auto.user.create=true 
+
+3. Metadata url of identity provider.
+  Copy the Audience (EntityID) from oneLogin configuration section.
 
 Right click on SAML Metadata menu and copy link address and add it in config properties file like below:
 
@@ -21,7 +31,9 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
   
     saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
     
-2. Identifier of the SP entity  (must be a URI) Audience URI::
+4. Identifier of the SP entity  (must be a URI) Audience URI
+		        
+    Copy this information from Configuration section from oneLogin app (Audience (EntityID))
 
 
 .. figure:: ../../_assets/authentication/service_provider_entity_id.png
@@ -33,7 +45,9 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
     saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
    
-3. Identifier of the IdP entity  (must be a URI)::
+5. Identifier of the IdP entity  (must be a URI)
+  
+  Copy this information from sso section of oneLogin app (Issuer url)
 
     
 .. figure:: ../../_assets/authentication/one_login_entity_id.png
@@ -45,7 +59,9 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
     saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
 
-4. Signature algorithm::
+6. Algorithm that the toolkit will use on signing process.
+
+  Copy this information from configuration section (SAML Signature Algorithm)
 
  
 .. figure:: ../../_assets/authentication/saml_signature.png
@@ -57,13 +73,6 @@ Right click on SAML Metadata menu and copy link address and add it in config pro
 
     saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
 
-5. Make it sure that recepient url start with /saml/SSO
-
-
-.. figure:: ../../_assets/authentication/one_login_recipient.png
-   :alt: sso
-   :align: center
-   :width: 60% 
  
 
 .. note::  Make sure to change localhost to your domain name or your ip

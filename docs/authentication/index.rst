@@ -13,5 +13,5 @@ Fire Insights supports various types of authencations:
    database-authentication.rst
    ldap-authentication.rst
    oauth.rst
-   saml.rst
+   saml-onelogin.rst
    

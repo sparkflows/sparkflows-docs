@@ -63,7 +63,7 @@ Processor Output
 Convert Strings to Integer Indexes
 ------------
 
-``  StringIndexer  `` encodes a string type columns to a column of label indices
+``StringIndexer`` encodes a string type columns to a column of label indices
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -91,7 +91,7 @@ Processor Output
 Convert Gender to Integer Values
 ------------
 
-``  CaseWhen  `` sets values based on conditions as shown below
+``CaseWhen`` sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -111,7 +111,7 @@ Processor Output
 Replace Gender and Family with 0/1
 ------------
 
-``  FindAndReplaceUsingRegexMultiple  `` sets values based on conditions as shown below
+``FindAndReplaceUsingRegexMultiple`` sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

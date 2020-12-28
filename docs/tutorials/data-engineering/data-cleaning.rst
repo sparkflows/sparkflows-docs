@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 * Replace Gender and Family with 0/1
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture1.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ It reads in the input Dataset File.
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture2.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%   
@@ -47,7 +47,7 @@ It handles the null values by imputing the missing values with the constant valu
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture3.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%
@@ -55,7 +55,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture4.PNG
    :align: center
    :width: 60%
   
@@ -68,7 +68,7 @@ Convert Strings to Integer Indexes
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture5.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%
@@ -76,15 +76,15 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture6.PNG
    :align: center
    :width: 60%
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture7.PNG
    :align: center
    :width: 60%
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture8.PNG
    :align: center
    :width: 60%
    
@@ -96,7 +96,7 @@ Convert Gender to Integer Values
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture9.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%
@@ -104,7 +104,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture10.PNG
    :align: center
    :width: 60%
    
@@ -116,7 +116,7 @@ Replace Gender and Family with 0/1
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture11.PNG
    :alt: DataCleaning
    :align: center
    :width: 60%
@@ -124,7 +124,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture12.PNG
    :align: center
    :width: 60%
    

@@ -18,9 +18,8 @@ Add below information from newly created application in one Login:
     sparkflows.sp.auto.user.create=true 
 
 3. Metadata url of identity provider.
-  Copy the Audience (EntityID) from oneLogin configuration section.
 
-Right click on SAML Metadata menu and copy link address and add it in config properties file like below:
+  Copy the Audience (EntityID) from oneLogin configuration section.
 
 .. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso

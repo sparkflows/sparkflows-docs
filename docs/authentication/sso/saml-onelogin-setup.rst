@@ -26,9 +26,10 @@ Below are steps to setup SAML 2.0 OneLogin
    :align: center
    :width: 60%
    
-5. Select an application
-      a) Search application 'SAML Test Connector'
-      b) Select the application SAML Test Connector (Advanced).
+5. Select an application::
+
+    Search application 'SAML Test Connector'
+    Select the application SAML Test Connector (Advanced).
       
 .. figure:: ../../_assets/authentication/searchApp.png
    :alt: sso
@@ -42,13 +43,14 @@ Below are steps to setup SAML 2.0 OneLogin
    :align: center
    :width: 60%
    
-7. Configure the newly created app and add below information:
-	   a) Audience (EntityID)
-	   b) Recipient
-	   c) ACS (Consumer) URL Validator*
-	   d) ACS (Consumer) URL*
-	   e) Single Logout URL
-	   f) Login URL
+7. Configure the newly created app and add below information::
+
+    Audience (EntityID)
+    Recipient
+    ACS (Consumer) URL Validator*
+    ACS (Consumer) URL*
+    Single Logout URL
+    Login URL
 	   
 .. figure:: ../../_assets/authentication/configuration.png
    :alt: sso

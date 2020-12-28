@@ -7,7 +7,7 @@ Go to folder ``conf/sso.saml.properties`` file:
 
 Add below information from newly created application in one Login:
 
-1. Enable sso enable::
+1. Enable sso in sparkflows::
 
 
     sparkflows.sp.sso.enable=true 

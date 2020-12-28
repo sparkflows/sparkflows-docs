@@ -1,7 +1,7 @@
 SAML OneLogin Configurations
 ====================
 
-Fire Insights can be Configured with OneLogin as below.
+Fire Insights can be Configured with SAML 2.0 OneLogin as below.
 
 Go to folder ``conf/sso.saml.properties`` file:
 

@@ -10,9 +10,9 @@ Add below information from newly created application in one Login:
 1. Enable sso enable
 
 ::
-      sparkflows.sp.sso.enable=true 
+    sparkflows.sp.sso.enable=true 
     
-2. Create user locally in application if user doesn't exist in sparkflows, otherwise app will show page 'User not found'
+2. Create user locally in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'.
 
 ::
     sparkflows.sp.auto.user.create=true 

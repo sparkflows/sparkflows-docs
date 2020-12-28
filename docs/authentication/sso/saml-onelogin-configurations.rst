@@ -3,7 +3,7 @@ SAML OneLogin Configurations
 
 Fire Insights can be Configured with OneLogin as below.
 
-Go to folder conf/sso.saml.properties file:
+Go to folder ``conf/sso.saml.properties`` file:
 
 Add below information from newly created application in one Login:
 

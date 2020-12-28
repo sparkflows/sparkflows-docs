@@ -1,4 +1,4 @@
-Sparkflows app: SAML oneLogin Configuration
+Fire Insights SAML oneLogin Configuration
 ====================
 
 Fire Insights can be Configured with SAML 2.0 OneLogin as below.

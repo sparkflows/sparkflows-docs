@@ -63,7 +63,7 @@ Processor Output
 Convert Strings to Integer Indexes
 ------------
 
-``StringIndexer`` encodes a string type columns to a column of label indices
+``StringIndexer`` encodes a string type column to a column of label indices
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

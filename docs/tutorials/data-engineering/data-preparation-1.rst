@@ -97,7 +97,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-... figure:: ../../_assets/tutorials/data-engineering/
+.. figure:: ../../_assets/tutorials/data-engineering/
    :alt: DataPreparation
    :align: center
    :width: 60%

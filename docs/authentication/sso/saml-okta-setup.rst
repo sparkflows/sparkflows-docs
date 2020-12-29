@@ -79,3 +79,16 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60%
+
+11. Right click on identity provider metadata and select Copy link address
+
+::
+
+    #Metadata url of identity provider
+    saml2.idp.metadata-url=https://dev-514411.okta.com/app/exk6sc27dyq4istqO357/sso/saml/metadata
+    
+    
+.. figure:: ../../_assets/authentication/okta_identifier_url.png
+   :alt: sso
+   :align: center
+   :width: 60%    

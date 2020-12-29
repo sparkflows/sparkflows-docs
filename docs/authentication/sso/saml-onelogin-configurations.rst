@@ -18,7 +18,7 @@ Add below information from newly created application in oneLogin:
 
 3. Metadata url of identity provider.
 
- .. figure:: ../../_assets/authentication/saml_metadata_url.png
+.. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso
    :align: left
    :width: 60%
@@ -29,7 +29,7 @@ Add below information from newly created application in oneLogin:
     
 4. Identifier of the SP entity  (must be a URI) Audience URI
 		        
-   .. figure:: ../../_assets/authentication/service_provider_entity_id.png
+.. figure:: ../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
    :align: left
    :width: 60%

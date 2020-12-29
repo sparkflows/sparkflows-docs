@@ -125,6 +125,7 @@ Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture12.PNG
+   :alt: DataCleaning
    :align: center
    :width: 60%
    

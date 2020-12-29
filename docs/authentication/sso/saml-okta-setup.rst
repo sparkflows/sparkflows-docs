@@ -44,3 +44,17 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60%
+
+7. Select SAML 2.0
+
+.. figure:: ../../_assets/authentication/okta_saml.png
+   :alt: sso
+   :align: center
+   :width: 60%
+   
+8. Input app name and click next:
+
+.. figure:: ../../_assets/authentication/okta_config.png
+   :alt: sso
+   :align: center
+   :width: 60%

@@ -16,3 +16,17 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60%
+   
+3. After login go to home and Click on Admin   
+
+.. figure:: ../../_assets/authentication/okta_admin.png
+   :alt: sso
+   :align: center
+   :width: 60%
+
+4. Click on Developer Console
+
+.. figure:: ../../_assets/authentication/okta_app.png
+   :alt: sso
+   :align: center
+   :width: 60%

@@ -88,7 +88,7 @@ Below are steps to setup SAML 2.0 okta
     saml2.idp.metadata-url=https://dev-514411.okta.com/app/exk6sc27dyq4istqO357/sso/saml/metadata
     
     
-.. figure:: ../../_assets/authentication/okta_identifier_url.png
+.. figure:: ../../_assets/authentication/okta_metdata.png
    :alt: sso
    :align: center
    :width: 60%    
@@ -99,3 +99,5 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60% 
+
+13. 

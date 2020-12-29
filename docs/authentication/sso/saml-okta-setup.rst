@@ -58,3 +58,10 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60%
+
+9. Click finish:
+
+.. figure:: ../../_assets/authentication/okta_finish.png
+   :alt: sso
+   :align: center
+   :width: 60%

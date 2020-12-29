@@ -92,3 +92,10 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :align: center
    :width: 60%    
+
+12. Capture Issuer url
+
+.. figure:: ../../_assets/authentication/okta_issuer.png
+   :alt: sso
+   :align: center
+   :width: 60% 

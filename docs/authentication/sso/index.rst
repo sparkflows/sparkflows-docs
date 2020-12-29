@@ -11,3 +11,5 @@ Below are the steps for setting up & configuring OneLogin with Fire Insights.
 
    saml-onelogin-setup.rst
    saml-onelogin-configurations.rst
+   saml-okta-setup.rst
+   saml-okta-configurations.rst

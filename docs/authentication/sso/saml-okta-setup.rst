@@ -100,4 +100,4 @@ Below are steps to setup SAML 2.0 okta
    :align: center
    :width: 60% 
 
-13. 
+

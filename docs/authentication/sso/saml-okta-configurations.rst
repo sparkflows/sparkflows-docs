@@ -3,12 +3,12 @@ SAML okta Configuration
 
 Fire Insights can be Configured with SAML 2.0 okta as below.
 
-Fire Insights SAML oneLogin Configuration
+Fire Insights SAML okta Configuration
 ====================
 
-Fire Insights can be Configured with SAML 2.0 OneLogin as below.
+Fire Insights can be Configured with SAML 2.0 okta as below.
 
-Go to folder ``conf/sso.saml.properties`` file:
+Go to folder ``conf/okta.saml.properties`` file:
 
 Add below information from newly created application in oneLogin:
 

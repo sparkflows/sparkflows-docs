@@ -11,3 +11,8 @@ Below are steps to setup SAML 2.0 okta
    :width: 60%
    
 2. SignIn into okta
+
+.. figure:: ../../_assets/authentication/okta_sigin_credential.PNG
+   :alt: sso
+   :align: center
+   :width: 60%

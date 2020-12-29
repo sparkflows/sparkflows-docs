@@ -33,6 +33,13 @@ Below are steps to setup SAML 2.0 okta
    
 5. Add an app:
 
+.. figure:: ../../_assets/authentication/okta_addapp.png
+   :alt: sso
+   :align: center
+   :width: 60%
+
+6. Create New App:
+
 .. figure:: ../../_assets/authentication/okta_add_app.png
    :alt: sso
    :align: center

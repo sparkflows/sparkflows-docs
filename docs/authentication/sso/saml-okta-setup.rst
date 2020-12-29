@@ -66,7 +66,9 @@ Below are steps to setup SAML 2.0 okta
    :align: center
    :width: 60%
 
-10. Configure Fire Insight with Okta config info::
+10. Configure Fire Insight with Okta config info
+
+::
 
     Identifier of the SP entity  (must be a URI) Audience URI
     saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata

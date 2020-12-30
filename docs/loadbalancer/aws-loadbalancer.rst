@@ -46,3 +46,9 @@ You can add basic configurations for traffic to the load balancer needs to be se
     Protocol : TCP
     Port : 80 
     Register Target
+
+
+.. figure:: ..//_assets/loadbalancer/loadbalancer_info.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%

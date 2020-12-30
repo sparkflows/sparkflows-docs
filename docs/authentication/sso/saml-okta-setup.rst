@@ -66,4 +66,17 @@ Below are steps to setup SAML 2.0 okta
    :align: left
    :width: 60%
 
+10. Configure Fire Insight with Okta config info
+
+::
+
+    # Identifier of the SP entity  (must be a URI) Audience URI
+    saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
+    # Algorithm that the toolkit will use on signing process
+    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+
+.. figure:: ../../_assets/authentication/okta_identifier.png
+   :alt: sso
+   :align: center
+   :width: 60%
 

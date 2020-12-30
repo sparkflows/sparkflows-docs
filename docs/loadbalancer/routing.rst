@@ -23,3 +23,12 @@ Below ares steps to follow:
    :alt: Load balancers
    :align: center
    :width: 60%    
+
+* Hosted zone
+
+Create hosted zone
+
+.. figure:: ..//_assets/loadbalancer/loadbalancer-hosted.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60% 

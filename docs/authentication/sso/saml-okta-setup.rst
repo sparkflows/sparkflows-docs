@@ -80,3 +80,4 @@ Below are steps to setup SAML 2.0 okta
    :align: center
    :width: 60%
 
+.. note::  Make sure to change localhost to your domain name or your ip

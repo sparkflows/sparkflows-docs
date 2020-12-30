@@ -13,3 +13,13 @@ Below ares steps to follow:
    :align: center
    :width: 60%
 
+* Get started with R 53 Dashboard
+
+:: 
+ 
+    Register a domain
+    
+.. figure:: ..//_assets/loadbalancer/loadbalancer_getstarted.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%    

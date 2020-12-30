@@ -27,14 +27,36 @@ Below are steps involved in Creating Network Load balancer in AWS.
     Scheme : internet-facing
     IP address type : ipv4
     Listeners
-    Load Balancer Protocol : TCP  Port: 443
+    Load Balancer Protocol : TLS (SECURETCP)  Port: 443
     Availability Zones
     VPC : select VPC where application vm is running.
     Availability Zones : select the specific zone.
 
+.. figure:: ..//_assets/loadbalancer/loadbalancer_config.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%
+
 * Configure Security Settings
 
-You can add basic configurations for traffic to the load balancer needs to be secure.
+Select default certificate.
+
+AWS Certificate Manager (ACM) is the preferred tool to provision and store server certificates. If you previously stored a server certificate using IAM, you can deploy it to your load balancer.
+
+::
+
+    Certificate type
+    Certificate name
+    Security policy
+    
+.. figure:: ..//_assets/loadbalancer/loadbalancer_certificate.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%
+
+.. note::  Make sure to add certificate either through ACM or IAM
+   
+   https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
 
 * Configure Routing
 
@@ -61,3 +83,5 @@ As Fire Insights by default running on port 8080 for HTTP & 8443 for HTTPS, Make
 
     sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
     sudo firewall-cmd --reload
+
+   

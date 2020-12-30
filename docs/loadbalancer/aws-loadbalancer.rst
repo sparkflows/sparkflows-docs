@@ -52,3 +52,12 @@ You can add basic configurations for traffic to the load balancer needs to be se
    :alt: Load balancers
    :align: center
    :width: 60%
+
+* Port forwarding
+
+As Fire Insights by default running on port 8080 for HTTP & 8443 for HTTPS, Make sure forward HTTP or HTTPS to specified port on which Fire Insights is running.
+
+::
+
+    sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+    sudo firewall-cmd --reload

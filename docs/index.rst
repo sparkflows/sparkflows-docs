@@ -147,6 +147,14 @@ AZURE Integration
 
    azure/index
    
+Load Balancer Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   loadbalancer/index   
+   
 Superset
 ----------
 

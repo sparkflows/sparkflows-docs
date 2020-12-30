@@ -1,4 +1,4 @@
-AWS Network Load balancers
+AWS Network Load balancer
 ==========================
 
 It Explains about Creating Network Load balancer in AWS and Configuring it VM running with Fire Insights.

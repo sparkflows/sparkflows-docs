@@ -77,7 +77,7 @@ Below are steps to setup SAML 2.0 okta
 
 .. figure:: ../../_assets/authentication/okta_identifier.png
    :alt: sso
-   :align: center
+   :align: left
    :width: 60%
 
 .. note::  Make sure to change localhost to your domain name or your ip

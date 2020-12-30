@@ -7,6 +7,8 @@ Below ares steps to follow:
 
 * Login to AWS Console and Type R 53 in search box
 
+Sign in to the AWS Management Console and open the Route 53 console at https://console.aws.amazon.com/route53/
+
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_route.PNG
    :alt: Load balancers

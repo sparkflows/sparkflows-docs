@@ -16,7 +16,7 @@ Add below information from newly created application in oneLogin:
     
     sparkflows.sp.auto.user.create=true 
     
-3. Configure Fire Insight with Okta config info
+3. Copy Okta config info
 
 ::
 

@@ -32,3 +32,25 @@ Create hosted zone
    :alt: Load balancers
    :align: center
    :width: 60% 
+
+* Create records
+
+Create records and Registered Network load balancer to it.
+
+::
+
+    Value/Route traffic to : Alias to Network LB
+    Select Zone
+    By default load balancer domain name should be populated.
+    Record type : A -Routes traffic to IPV4 address and some aws resources.
+    Routing policy : Simple Routing
+    
+.. figure:: ..//_assets/loadbalancer/loadbalancer_records.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%     
+
+.. figure:: ..//_assets/loadbalancer/loadbalancer_alias.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%  

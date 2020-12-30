@@ -32,3 +32,17 @@ Below are steps involved in Creating Network Load balancer in AWS.
     VPC : select VPC where application vm is running.
     Availability Zones : select the specific zone.
 
+* Configure Security Settings
+
+You can add basic configurations for traffic to the load balancer needs to be secure.
+
+* Configure Routing
+
+::
+
+    Target group
+    Name : A name of target group
+    Target type :  Instance
+    Protocol : TCP
+    Port : 80 
+    Register Target

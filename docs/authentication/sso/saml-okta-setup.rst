@@ -66,7 +66,7 @@ Below are steps to setup SAML 2.0 okta
    :align: left
    :width: 60%
 
-10. Configure Fire Insight with Okta config info
+10. Configure the newly created app and add below information
 
 ::
 

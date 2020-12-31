@@ -62,13 +62,7 @@ Below are steps to setup SAML 2.0 okta
 9. Configure the newly created app and add below information
 
 ::
-
-    # Identifier of the SP entity  (must be a URI) Audience URI
-    saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
-    # Algorithm that the toolkit will use on signing process
-    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
-
-.. figure:: ../../_assets/authentication/okta_identifier.png
+.. figure:: ../../_assets/authentication/okta_general_settings.png
    :alt: sso
    :align: left
    :width: 60%

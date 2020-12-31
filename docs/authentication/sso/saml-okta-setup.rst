@@ -75,7 +75,7 @@ Below are steps to setup SAML 2.0 okta
 
 
 
-10. Click finish:
+10. Click finish
 
 .. figure:: ../../_assets/authentication/okta_finish.png
    :alt: sso

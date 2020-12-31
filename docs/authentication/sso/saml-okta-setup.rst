@@ -62,6 +62,7 @@ Below are steps to setup SAML 2.0 okta
 9. Configure the newly created app and add below information
 
 ::
+
 .. figure:: ../../_assets/authentication/okta_general_settings.png
    :alt: sso
    :align: left

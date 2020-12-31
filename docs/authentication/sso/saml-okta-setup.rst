@@ -59,14 +59,7 @@ Below are steps to setup SAML 2.0 okta
    :align: left
    :width: 60%
 
-9. Click finish:
-
-.. figure:: ../../_assets/authentication/okta_finish.png
-   :alt: sso
-   :align: left
-   :width: 60%
-
-10. Configure the newly created app and add below information
+9. Configure the newly created app and add below information
 
 ::
 
@@ -80,4 +73,12 @@ Below are steps to setup SAML 2.0 okta
    :align: left
    :width: 60%
 
+
+
+10. Click finish:
+
+.. figure:: ../../_assets/authentication/okta_finish.png
+   :alt: sso
+   :align: left
+   :width: 60%
 .. note::  Make sure to change localhost to your domain name or your ip

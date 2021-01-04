@@ -16,6 +16,7 @@ Data Preparation
    remove-duplicate-rows.rst
    remove-special-characters.rst
    rename-columns.rst
+   rest-csv-reader-and-parse.rst
    rest-read-and-parse-json.rst
    string-to-date-timefunctions.rst
    date-time-field-extract.rst

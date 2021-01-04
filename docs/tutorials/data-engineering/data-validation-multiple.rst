@@ -30,7 +30,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file. 
+``DatasetCSV`` processor reads data from a CSV file. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -51,7 +51,7 @@ Processor Output
 
 String Functions
 ----------------
-It performs specified operation on the selected column (i.e. trim function for column 'name' in this case)
+``StringFunctions`` processor performs specified operation on the selected column (i.e. trim function for column 'name' in this case)
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -73,7 +73,7 @@ Processor Output
 Performing Validation
 ---------------------
 
-It performs different validation on different columns.
+``ValidationMultiple`` processor performs different validation on different columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -7,6 +7,7 @@ Workflow
 -------
 
 Below is the workflow that shows:
+
 * How to read in single record JSON from the given URL and create the DataFrame from it
 * Prints the result
 

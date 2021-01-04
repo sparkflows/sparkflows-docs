@@ -27,7 +27,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads in the input Dataset File.
+``DatasetCSV`` reads in the input Dataset file and creates DataFrame from it.
 
 
 Processor Output
@@ -42,7 +42,7 @@ Processor Output
 Handling Null Values
 ------------
 
-It handles the null values by imputing the missing values with the constant value provided in the specified columns.
+``ReplaceMissingValueWithConstant`` processor handles the null values by imputing the missing values with the constant value provided in the specified columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ Processor Output
 Convert Strings to Integer Indexes
 ------------
 
-``StringIndexer`` encodes a string type column to a column of label indices
+``StringIndexer`` processor encodes a string type column to a column of label indices.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -91,7 +91,7 @@ Processor Output
 Convert Gender to Integer Values
 ------------
 
-``CaseWhen`` sets values for the variables based on conditions, as shown below:
+``CaseWhen`` processor sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -111,7 +111,7 @@ Processor Output
 Replace Gender and Family with 0/1
 ------------
 
-``FindAndReplaceUsingRegexMultiple`` sets values for the variables based on conditions, as shown below:
+``FindAndReplaceUsingRegexMultiple`` processor sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

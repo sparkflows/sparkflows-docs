@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Performing Correlation analysis
 ---------------------
 
-Select the required columns to perform correlation analysis
+``Correlation`` processor performs correlation analysis on the selected columns as shown below: 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Processor Output - Sample Rows of Input Dataset
 Summary Statistics
 ------------
 
-It provides summary statistics of the input dataset.
+``Summary`` processor provides summary statistics of the input dataset.
 
 Summary statistics provides useful information about sample data. eg: measures of spread.
 

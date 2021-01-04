@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads in the input Dataset File.
+``DatasetStructured`` processor creates a Dataframe of your dataset by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
 
   
 Processor Output
@@ -35,7 +35,7 @@ Processor Output
 Data Wrangling
 ------------
 
-Creates new DataFrame after applying the provided rules
+``DataWrangling`` processor creates new DataFrame after applying the provided rules
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

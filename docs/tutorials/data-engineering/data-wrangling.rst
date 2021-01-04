@@ -1,6 +1,7 @@
 Data Wrangling
 =============
 
+Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question.  Also known as data cleaning or “munging”.
 This workflow reads in a dataset. It then wrangles the dataset based on provided conditions and prints the results.
 
 Workflow

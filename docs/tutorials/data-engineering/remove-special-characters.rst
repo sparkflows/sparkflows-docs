@@ -21,7 +21,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads in the input Dataset File.
+``DatasetCSV`` processor reads in the input Dataset file and creates DataFrame.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -43,7 +43,7 @@ Processor Output
 To Remove Any Special character in data
 ------------
 
-It find and replaces the special characters with empty space in the columns 
+``FindAndReplaceUsingRegex`` processor find and replaces the special characters with empty space in the columns 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -64,7 +64,7 @@ Processor Output
    
 RowFilter - Remove the rows with empty space 
 ------------
-Creates new DataFrame containing the rows that satisfy the condition provided (For example : Removes the rows with empty space) 
+``RowFilter`` processor creates new DataFrame containing the rows that satisfy the condition provided (For example : Removes the rows with empty spaces as shown below) 
  
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

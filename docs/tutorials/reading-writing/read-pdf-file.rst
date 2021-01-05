@@ -1,7 +1,7 @@
 Read PDF File
 =============
 
-This workflow reads in PDF file from the given URL. It then parses its content and creates DataFrame then prints the results.
+This workflow reads in PDF file from the given location. It then parses its content and creates DataFrame then prints the results.
 
 Workflow
 -------

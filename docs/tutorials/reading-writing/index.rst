@@ -10,6 +10,7 @@ Reading - Writing Data
    reading-parquet.rst
    reading-mysql.rst
    reading-from-rdbms.rst
+   read-pdf-file.rst
    elasticsearch.rst
    processing-multiple-files.rst
    writing-hive.rst

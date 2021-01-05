@@ -27,7 +27,6 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 
 .. figure:: ../_assets/configuration/wheelfile.PNG
    :alt: Wheel File
-   :align: center
    :width: 40%
 
 1. Login to ``Databricks Cluster``
@@ -56,14 +55,12 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
    
 .. figure:: ../_assets/configuration/install.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libraries``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket which is accessible from Databricks Cluster.
@@ -74,14 +71,12 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
 
 .. figure:: ../_assets/configuration/s3wheel.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Once it is installed successfully, you can see the python wheel inside Library is up.
 
 .. figure:: ../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 
@@ -94,7 +89,6 @@ You need to install the python dependencies required by Fire Insights on the mac
 
 .. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Note: Make sure that pip etc. is already installed on that machine
@@ -106,7 +100,6 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
 
 .. figure:: ../_assets/configuration/awssdkjar.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
@@ -117,7 +110,6 @@ Use the command below to install it on the Fire Insights machine::
 
 .. figure:: ../_assets/configuration/scorecard-machine.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Install it on your Databricks cluster with the below::
@@ -127,7 +119,6 @@ Install it on your Databricks cluster with the below::
 
 .. figure:: ../_assets/configuration/scorecard.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Upload Fire workflowexecutedatabricks.py file to DBFS
@@ -139,14 +130,12 @@ Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even S3
 
 .. figure:: ../_assets/configuration/workflow.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 You can ``UPLOAD`` it, using DBFS Browser too.
 
 .. figure:: ../_assets/configuration/databr_wf.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Configure the Uploaded Library in Fire Insights
@@ -160,14 +149,12 @@ If you have Uploaded in ``DBFS`` path.
 
 .. figure:: ../_assets/configuration/db_configure.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 If you have Uploaded in ``S3`` path.
 
 .. figure:: ../_assets/configuration/s3db_configure.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 Job Submission using Pyspark Engine
@@ -177,7 +164,6 @@ Now You can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
 .. figure:: ../_assets/configuration/job.PNG
    :alt: Submit Job
-   :align: center
    :width: 40%
 
 

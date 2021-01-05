@@ -80,3 +80,21 @@ Below is how to output html to Fire Insights ::
     htmlstr1 = "<h3>You can view HTML code in notebooks.</h3>"
  
     restworkflowcontext.outHTML(9, title="Example HTML", text = htmlstr1)
+    
+    
+    
+Outputing Plotly
++++++++++++++
+
+Below is how to output html to Fire Insights ::
+    
+    import plotly.graph_objs as go
+    import plotly
+    
+    test = plotly.offline.plot([go.Scatter(x=[1, 2, 3], y=[3, 2, 6])], 
+                     output_type='div', 
+                    include_plotlyjs=False)
+    example_plotly = f'{test}'
+    
+    restworkflowcontext.outPlotly(9, title="Example Plotly", text = example_plotly)
+

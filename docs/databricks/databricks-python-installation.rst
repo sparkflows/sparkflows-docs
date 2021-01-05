@@ -85,7 +85,7 @@ Install Python dependencies
 
 You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory::
 
-    * pip install -r requirements.txt
+    pip install -r requirements.txt
 
 .. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
@@ -106,7 +106,7 @@ Install any specific package of python, if Need to use in Custom Processors on d
 
 Use the command below to install it on the Fire Insights machine::
 
-    * pip install scorecardpy
+    pip install scorecardpy
 
 .. figure:: ../_assets/configuration/scorecard-machine.PNG
    :alt: Databricks

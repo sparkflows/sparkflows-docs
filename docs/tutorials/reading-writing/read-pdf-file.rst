@@ -19,7 +19,7 @@ Below is the workflow that shows:
 Reading And Parsing PDF File
 ---------------------
 
-``DatasetPDF`` processor uses the passed loacation to download PDF file, parse its content into string and create the DataFrame.
+``DatasetPDF`` processor uses the passed location to download PDF file, parse its content into string and create the DataFrame.
 
 
 Processor Configuration

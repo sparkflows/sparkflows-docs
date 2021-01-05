@@ -86,7 +86,7 @@ Below is how to output html to Fire Insights ::
 Outputing Plotly
 +++++++++++++
 
-Below is how to output html to Fire Insights ::
+Below is how to output plotly to Fire Insights ::
     
     import plotly.graph_objs as go
     import plotly

@@ -17,7 +17,8 @@ Below is the workflow. It does the following:
    :align: center
    :width: 60%
    
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture1.PNG
+   
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture1.png
    :alt: Column Filter
    :align: center
    :width: 60%

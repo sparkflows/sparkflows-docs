@@ -31,10 +31,10 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
    :width: 40%
 
 1. Login to ``Databricks Cluster``
-++++++++++++++++++++++++++++++++
+
 
 2. Click on ``workspace`` in the left side pane
-++++++++++++++++++++++++++++++++
+
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
@@ -42,9 +42,8 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
    :width: 40%
    
 3. Create a new Library
-++++++++++++++++++++++++++++++++
 
-you can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provide any ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
+You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provide any ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
@@ -63,16 +62,16 @@ On Clicking on ``Create`` button it will ask to install on specific databricks C
    :align: center
    :width: 40%
    
-On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libararies``.
+On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libraries``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
    :align: center
    :width: 40%
 
-You can upload ``fire-3.1.0-py3-none-any.whl`` file even in s3 Bucket which is accessible from Databricks Cluster.
+Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket which is accessible from Databricks Cluster.
 
-Once you Upload ``fire-3.1.0-py3-none-any.whl`` file in s3 Bucket, Login to Databricks Cluster & inside Libraries tab.
+Once you upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket, login to Databricks Cluster & inside Libraries tab.
 
 Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy paste the location of python wheel file available in s3 in File Path & Click on Install.
 
@@ -81,7 +80,7 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
    :align: center
    :width: 40%
 
-Once it will Install Successfully, you can see the python wheel inside Library is up.
+Once it is installed successfully, you can see the python wheel inside Library is up.
 
 .. figure:: ../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks

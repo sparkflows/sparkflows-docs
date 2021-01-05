@@ -38,7 +38,6 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 3. Create a new Library
@@ -47,14 +46,12 @@ You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provi
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
 
 .. figure:: ../_assets/configuration/create.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 .. figure:: ../_assets/configuration/install.PNG

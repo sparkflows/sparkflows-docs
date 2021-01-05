@@ -9,21 +9,18 @@ Below are steps to setup SAML 2.0 OneLogin
 
 .. figure:: ../../_assets/authentication/oneLoginSignIn.png
    :alt: sso
-   :align: center
    :width: 60%
 	   
 3. Go to administrator >> Click on applications menu >> 
 
 .. figure:: ../../_assets/authentication/applications_menu.png
    :alt: sso
-   :align: center
    :width: 60%
 	   
 4. Add an app
 
 .. figure:: ../../_assets/authentication/addAppButton.png
    :alt: sso
-   :align: center
    :width: 60%
    
 5. Select an application::
@@ -33,14 +30,12 @@ Below are steps to setup SAML 2.0 OneLogin
       
 .. figure:: ../../_assets/authentication/searchApp.png
    :alt: sso
-   :align: center
    :width: 60%
 	    
 6. Input an application name and save it.
 
 .. figure:: ../../_assets/authentication/saveApp.png
    :alt: sso
-   :align: center
    :width: 60%
    
 7. Configure the newly created app and add below information::
@@ -54,5 +49,4 @@ Below are steps to setup SAML 2.0 OneLogin
 	   
 .. figure:: ../../_assets/authentication/configuration.png
    :alt: sso
-   :align: center
    :width: 60%

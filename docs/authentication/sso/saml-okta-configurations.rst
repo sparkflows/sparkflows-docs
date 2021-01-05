@@ -27,7 +27,6 @@ Add below information from newly created application in oneLogin:
 
 .. figure:: ../../_assets/authentication/okta_identifier.png
    :alt: sso
-   :align: center
    :width: 60%
 
 4. Right click on identity provider metadata and select Copy link address
@@ -40,19 +39,16 @@ Add below information from newly created application in oneLogin:
     
 .. figure:: ../../_assets/authentication/okta_metdata.png
    :alt: sso
-   :align: center
    :width: 60%    
 
 5. Capture Issuer url
 
 .. figure:: ../../_assets/authentication/okta_issuer.png
    :alt: sso
-   :align: center
    :width: 60% 
 
 .. figure:: ../../_assets/authentication/okta_identifier_url.png
    :alt: sso
-   :align: center
    :width: 60% 
 
 .. note::  Make sure to change localhost to your domain name or your ip    

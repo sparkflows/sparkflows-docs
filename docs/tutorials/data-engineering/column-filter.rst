@@ -12,15 +12,9 @@ Below is the workflow. It does the following:
 * It then filters specified columns from the original dataset.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterWkflw.PNG
-   :alt: Column Filter
-   :align: center
-   :width: 60%
-   
    
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture1.png
    :alt: Column Filter
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -30,19 +24,17 @@ It reads in the input Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterDatasetStrc.PNG
+   
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture2.png
    :alt: Column Filter
-   :align: center
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterViewData.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture3.png
    :alt: Column Filter
-   :align: center
-   :width: 60%   
+   :width: 60%  
    
    
 Column Filter
@@ -53,19 +45,16 @@ It filters the selected columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterFilter.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture4.png
    :alt: Column Filter
-   :align: center
    :width: 60%
-
+   
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/ColumnFilterFilterOutput.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture5.png
    :alt: Column Filter
-   :align: center
    :width: 60%
-  
   
 Prints the Results
 ------------------

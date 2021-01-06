@@ -10,7 +10,7 @@ Workflow for writing to Parquet file
 Below is a workflow example which reads in transaction data. It then writes it out to Parquet files.
 
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Parquet_workflow.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture1.png
    :alt: ParquetWorkflow
    :align: center
    :width: 60%
@@ -19,12 +19,12 @@ Below is a workflow example which reads in transaction data. It then writes it o
 DatasetStructured Processor
 --------------------------
    
-Node ``TransactionDataset`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
+Node ``DatasetStructured`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
 
 As a user you have to select the Dataset of your interest as shown below.
 
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/NodeDatasetStructured.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture2.png
    :alt: NodeDatasetStructured
    :align: center
    :width: 60%
@@ -38,7 +38,7 @@ SaveParquet Processor
 The DataFrame might be written as multiple part files in the specified folder, depending on the size and partition of the DataFrame.
 
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/SaveParquet.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture3.png
    :alt: SaveParquet
    :align: center
    :width: 60%

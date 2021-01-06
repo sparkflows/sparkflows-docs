@@ -12,7 +12,6 @@ Below is a workflow example which reads in transaction data. It then writes it o
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture1.png
    :alt: ParquetWorkflow
-   :align: center
    :width: 60%
    
    
@@ -26,7 +25,6 @@ As a user you have to select the Dataset of your interest as shown below.
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture2.png
    :alt: NodeDatasetStructured
-   :align: center
    :width: 60%
 
 
@@ -40,7 +38,6 @@ The DataFrame might be written as multiple part files in the specified folder, d
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Capture3.png
    :alt: SaveParquet
-   :align: center
    :width: 60%
 
 

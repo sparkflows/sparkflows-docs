@@ -11,9 +11,8 @@ Below is the workflow. It does the following:
 * It creates a new DataFrame by extracting Year, Month, Day of month, Hour, Minute, Second fields from "TimeStamp"
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/capture1.png
    :alt: DateTimeFieldExtract
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -24,18 +23,16 @@ It reads in the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/capture2.png
    :alt: DateTimeFieldExtract
-   :align: center
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/capture3.png
    :alt: DateTimeFieldExtract
-   :align: center
-   :width: 60%   
+   :width: 60%
    
    
 Date-Time Field Extract
@@ -46,17 +43,16 @@ It creates a new DataFrame by extracting the year, month, day of month, hour, mi
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/capture4.png
    :alt: DateTimeFieldExtract
-   :align: center
    :width: 60%
-
+   
+   
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/capture5.png
    :alt: DateTimeFieldExtract
-   :align: center
    :width: 60%
   
   

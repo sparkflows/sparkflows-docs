@@ -13,9 +13,8 @@ Below is the workflow. This workflow does the following:
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture1.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -27,36 +26,33 @@ It reads in the input Dataset Files. There are 2 input datasets in this case.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture2.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture3.png
    :alt: DedupCustomers
-   :align: center
-   :width: 60%   
+   :width: 60%
+   
    
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture4.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture5.png
    :alt: DedupCustomers
-   :align: center
-   :width: 60%   
+   :width: 60%
    
    
 Join input DataFrames
@@ -67,17 +63,15 @@ Join input DataFrames
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture6.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture7.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
   
 
@@ -89,17 +83,15 @@ Creating DataFrame with required Columns
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture8.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture9.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
 Creating DataFrame with required rows
@@ -111,18 +103,16 @@ Entity resolution or data matching is the problem of finding and linking differe
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture10.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture10.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/Capture11.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture11.png
    :alt: DedupCustomers
-   :align: center
    :width: 60%
    
 

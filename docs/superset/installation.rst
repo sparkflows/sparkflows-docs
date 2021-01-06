@@ -13,7 +13,6 @@ Steps involved in installing apache superset (centos7)
  
  .. figure:: ..//_assets/configuration/superset_apache.PNG
    :alt: superset
-   :align: center
    :width: 60%
  
 * Initialize the database::
@@ -23,7 +22,6 @@ Steps involved in installing apache superset (centos7)
 
  .. figure:: ..//_assets/configuration/db_upgarde.PNG
    :alt: superset
-   :align: center
    :width: 60%
 
 * Create an admin user (you will be prompted to set a username, first and last name before setting a password)::
@@ -33,7 +31,6 @@ Steps involved in installing apache superset (centos7)
  
  .. figure:: ..//_assets/configuration/admin_user.PNG
    :alt: superset
-   :align: center
    :width: 60%
  
 * Load some data to play with::
@@ -57,12 +54,10 @@ Steps involved in installing apache superset (centos7)
  
  .. figure:: ..//_assets/configuration/loginpage.PNG
    :alt: superset
-   :align: center
    :width: 60%
    
 * Use your created credentials to login::
  
  .. figure:: ..//_assets/configuration/homepage.PNG
    :alt: superset
-   :align: center
    :width: 60%

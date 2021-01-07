@@ -17,9 +17,8 @@ Below is the workflow. It does the following:
 * Prints the results of few records
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture1.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -31,19 +30,17 @@ It reads in the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture2.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
    
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture3.png
    :alt: DataPreparation
-   :align: center
-   :width: 60%   
+   :width: 60%  
    
    
 Convert String to Date
@@ -54,17 +51,15 @@ Convert String to Date
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture4.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture5.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
   
 
@@ -76,17 +71,15 @@ Settings values for required Column
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture6.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture7.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
    
 Creating DataFrame with required rows
@@ -97,18 +90,16 @@ Creating DataFrame with required rows
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture8.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
    
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture9.png
    :alt: DataPreparation
-   :align: center
    :width: 60%
    
 

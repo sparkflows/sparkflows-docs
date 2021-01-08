@@ -60,7 +60,11 @@ Fire Insights supports the following Permissions. Permissions are associated wit
      - execute analytics application
    * - apps.view
      - view analytics application
- 
+
+.. figure:: ..//_assets/security/permission.PNG
+   :alt: security
+   :width: 60%
+
 Roles
 -----
 

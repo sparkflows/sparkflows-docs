@@ -41,7 +41,7 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - roles.manage
      - manage roles  
    * - projects.manage
-     - manage project 
+     - manage projects
    * - configurations.manage
      - manage configurations
    * - datasets.view

@@ -10,6 +10,7 @@ Workflow
 
 Below is the workflow. This workflow does the following:
 
+
 * Finds matching records between 2 given datasets. It first joins them with the columns state.
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 
@@ -21,92 +22,46 @@ Below is the workflow. This workflow does the following:
 Reading from Dataset
 ---------------------
 
-It reads in the input Dataset Files. There are 2 input datasets in this case.
+It reads in the input Dataset files and creates DataFrame from it . There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Dataset" as shown below,
 
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture2.png
-   :alt: DedupCustomers
-   :width: 60%
-   
-   
-Processor Output
+DataFrame 1:
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture3.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
    
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture4.png
-   :alt: DedupCustomers
-   :width: 60%
-   
-   
-Processor Output
+DataFrame 2:
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture5.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
    
 Join input DataFrames
 ------------
 
-``JoinUsingColumn`` joins the incoming DataFrames on a joinCol.
+``JoinUsingColumn`` processors joins the incoming DataFrames on a joinCol "State" and ``ColumnFilter`` processor is used to filter the columns and get the required DataFrame as shown below:
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture6.png
-   :alt: DedupCustomers
-   :width: 60%
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture7.png
-   :alt: DedupCustomers
-   :width: 60%
-  
-
-Creating DataFrame with required Columns
-------------
-
-``ColumnFilter`` creates a new DataFrame that contains only the selected columns as shown below:
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture8.png
-   :alt: DedupCustomers
-   :width: 60%
-
-Processor Output
-^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture9.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
-Creating DataFrame with required rows
+Data Deduplication
 ------------
 
-``Dedup`` is used for the problems like entity resolution or data mathching.
-Entity resolution or data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources.
+``Dedup`` is used for the problems like entity resolution or data matching.
+Entity resolution or data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources. Here Levenshtein Algorithm is used for data Deduplication.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture10.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
    
 Processor Output
@@ -114,7 +69,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture11.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
 
 Prints the Results

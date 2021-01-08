@@ -23,6 +23,9 @@ In Fire Insights users can view the databases and tables. They are accessed via 
 
 The same applies if users chose to execute a query to view a few records from the table.
 
+.. figure:: ..//_assets/security/databricks-table.PNG
+   :alt: security
+   :width: 60% 
 
 Executing Workflows
 -------------------
@@ -39,6 +42,8 @@ Connections can be at the global level or at the Project level. Global level con
 
 Fire Insights would also support defining Group level connections.
 
-
+.. figure:: ..//_assets/security/databricks-connection.PNG
+   :alt: security
+   :width: 60% 
 
 

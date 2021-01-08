@@ -3,5 +3,17 @@ Sharing Projects
 
 A project can be shared with multiple Groups. A Project is visible only to those users who belong to the groups with whom it has been shared with.
 
-The following permissions can be given on a Project when sharing it with a group.
+Below, the Project is shared with the ``DEFAULT`` group.
+
+---image---
+
+The following permissions can be given to a group during sharing of the project.
+
+---image---
+
+All users belonging to the group get the associated permissions on the Project.
+
+
+
+
 

@@ -32,7 +32,7 @@ Permissions
 
 Fire Insights supports the following Permissions. Permissions are associated with Roles.
 
-.. list-table:: 
+.. list-table:: Below are the Relevant Files
    :widths: 10 20 
    :header-rows: 1
 

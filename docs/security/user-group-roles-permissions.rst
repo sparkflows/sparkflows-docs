@@ -13,7 +13,7 @@ There can be multiple groups in Fire Insights.
 Users
 -----
 
-Fire Insights supports multiple users. Each user belongs 
+Fire Insights supports multiple users. Each user can belong to multiple groups, and also have multiple Roles.
 
 Permissions
 -----------

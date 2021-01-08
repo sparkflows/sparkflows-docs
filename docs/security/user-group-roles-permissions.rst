@@ -39,13 +39,13 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - Title
      - Description
    * - users.manage
-     - manage user inside Fire Insights application db
+     - manage user inside application db
    * - groups.manage
-     - manage group 
+     - Create, modify & delete the group
    * - roles.manage
-     - manage roles  
+     - Create, modify & delete the roles  
    * - projects.manage
-     - manage projects
+     - Create, modify & delete the projects
    * - configurations.manage
      - modify diiferent configurations 
    * - datasets.view

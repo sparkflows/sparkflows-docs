@@ -39,7 +39,7 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - Title
      - Description
    * - users.manage
-     - manage user
+     - manage user inside Fire Insights application db
    * - groups.manage
      - manage group 
    * - roles.manage
@@ -47,17 +47,17 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - projects.manage
      - manage projects
    * - configurations.manage
-     - manage configurations
+     - modify diiferent configurations 
    * - datasets.view
-     - view dataset 
+     - view dataset in specified project
    * - datasets.modify
-     - modify datasets 
+     - modify datasets in specified project
    * - workflows.view
-     - view workflows 
+     - view workflows in specified project
    * - workflows.modify
-     - modify workflows 
+     - modify workflows in specified project
    * - workflows.execute
-     - execute workflow 
+     - execute workflow in specified project
    * - apps.modify
      - modify analytics application 
    * - apps.execute

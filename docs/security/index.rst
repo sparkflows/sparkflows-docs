@@ -5,7 +5,7 @@ Security
    :maxdepth: 2
 
    user-group-roles-permissions.rst
-   sharing-project.rst
+   sharing-projects.rst
    databricks-security.rst
    
 

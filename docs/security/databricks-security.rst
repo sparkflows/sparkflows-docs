@@ -5,7 +5,7 @@ Users in Fire Insights access Databricks via Databricks Tokens.
 
 Whenever users interact with Databricks in Fire Insights, they have the access which is assigned to the token in Databricks.
 
-Below is a diagram showing the integration of Fire Insights with Databricks.
+Below diagrams show the integration of Fire Insights with Databricks.
 
 ---image---
 

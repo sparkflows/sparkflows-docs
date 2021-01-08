@@ -17,7 +17,7 @@ Below is the workflow. This workflow does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture1.png
    :alt: DedupCustomers
-   :width: 60%
+   :width: 80%
    
 Input Datasets
 ---------------------

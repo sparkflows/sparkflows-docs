@@ -7,7 +7,14 @@ Whenever users interact with Databricks in Fire Insights, they have the access w
 
 Below diagrams show the integration of Fire Insights with Databricks.
 
----image---
+.. figure:: ..//_assets/security/databricks-integration.png
+   :alt: security
+   :width: 60%
+   
+   
+.. figure:: ..//_assets/security/databricks-api.png
+   :alt: security
+   :width: 60%   
 
 Viewing DB/Tables
 -----------------

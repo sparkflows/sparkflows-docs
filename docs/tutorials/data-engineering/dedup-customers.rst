@@ -19,7 +19,7 @@ Below is the workflow. This workflow does the following:
    :alt: DedupCustomers
    :width: 60%
    
-Input Dataset
+Input Datasets
 ---------------------
 
 There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Dataset" as shown below,
@@ -56,7 +56,7 @@ Data Deduplication
 ``Dedup`` is used for the problems like entity resolution or data matching.
 Entity resolution or data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources. Here Levenshtein Algorithm is used for data Deduplication.
 
-Processor Configuration
+``Dedup`` Processor Configuration 
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture10.png
@@ -64,7 +64,7 @@ Processor Configuration
    :width: 80%
    
    
-Processor Output
+``Dedup`` Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture11.png

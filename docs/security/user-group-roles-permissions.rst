@@ -5,10 +5,15 @@ Fire Insights supports Users, Groups, Roles, Permissions. A User can belong to m
 
 Each role can have multiple permissions.
 
+Groups
+------
+
+There can be multiple groups in Fire Insights. 
 
 Users
 -----
 
+Fire Insights supports multiple users. Each user belongs 
 
 Permissions
 -----------

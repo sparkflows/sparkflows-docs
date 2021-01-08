@@ -23,7 +23,7 @@ Fire Insights supports multiple users. Each user can belong to multiple groups, 
    :alt: security
    :width: 60%
 
-.. figure:: ..//_assets/security/user-detail.png
+.. figure:: ..//_assets/security/user_detail.PNG
    :alt: security
    :width: 60%
 

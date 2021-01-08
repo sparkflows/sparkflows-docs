@@ -38,6 +38,14 @@ Authentication
    :maxdepth: 1
 
    authentication/index
+
+Security
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   security/index
    
 Operating Fire Insights
 --------------------

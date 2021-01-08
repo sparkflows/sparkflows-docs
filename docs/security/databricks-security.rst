@@ -20,7 +20,7 @@ The same applies if users chose to execute a query to view a few records from th
 Executing Workflows
 -------------------
 
-When users execute workflows in Fire Insights, they are submitted to the Databricks cluster view the REST API using the Databricks token.
+When users execute workflows in Fire Insights, they are submitted to the Databricks cluster view the REST API using the Databricks token. These jobs post back messages to Fire Insights. They use a token generated specifically for the job to post back the messages.
 
 
 

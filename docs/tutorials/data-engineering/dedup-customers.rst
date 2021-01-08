@@ -67,6 +67,10 @@ Used for emails or small documents
 
 * Longest Common Subsequence : If a set of sequences are given, the longest common subsequence problem is to find a common subsequence of all the sequences that is of maximal length used in revision control systems, such as SVN and Git, for reconciling multiple changes made to a revision-controlled collection of files.
 
+* Date Difference: Calculates the number of days between two dates.
+
+* Notional Distance
+
 
 
 ``Dedup`` Processor Configuration 

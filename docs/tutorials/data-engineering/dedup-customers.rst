@@ -11,7 +11,7 @@ Workflow
 Below is the workflow. This workflow does the following:
 
 
-* Finds matching records between 2 given datasets. It first joins them with the columns state.
+* Finds matching records between 2 given datasets. It first joins them with the column "State".
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 
 
@@ -19,10 +19,10 @@ Below is the workflow. This workflow does the following:
    :alt: DedupCustomers
    :width: 60%
    
-Reading from Dataset
+Input Dataset
 ---------------------
 
-It reads in the input Dataset files and creates DataFrame from it . There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Dataset" as shown below,
+There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Dataset" as shown below,
 
 DataFrame 1:
 ^^^^^^

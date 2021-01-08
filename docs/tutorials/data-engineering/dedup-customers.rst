@@ -9,6 +9,7 @@ Workflow
 -------
 
 Below is the workflow. This workflow does the following:
+
 * Finds matching records between 2 given datasets. It first joins them with the columns state.
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 

@@ -24,7 +24,7 @@ Input Datasets
 
 There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Dataset" as shown below,
 
-DataFrame 1:
+Dataset 1:
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture3.png
@@ -32,7 +32,7 @@ DataFrame 1:
    :width: 80%
    
    
-DataFrame 2:
+Dataset 2:
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture5.png

@@ -28,9 +28,39 @@ Permissions
 
 Fire Insights supports the following Permissions. Permissions are associated with Roles.
 
-users.manage
+.. list-table:: Below are the Relevant Files
+   :widths: 10 20 
+   :header-rows: 1
 
-
+   * - Title
+     - Description
+   * - users.manage
+     - manage user
+   * - groups.manage
+     - manage group 
+   * - roles.manage
+     - manage roles  
+   * - projects.manage
+     - manage project 
+   * - configurations.manage
+     - manage configurations
+   * - datasets.view
+     - view dataset 
+   * - datasets.modify
+     - modify datasets 
+   * - workflows.view
+     - view workflows 
+   * - workflows.modify
+     - modify workflows 
+   * - workflows.execute
+     - execute workflow 
+   * - apps.modify
+     - modify analytics application 
+   * - apps.execute
+     - execute analytics application
+   * - apps.view
+     - view analytics application
+ 
 Roles
 -----
 

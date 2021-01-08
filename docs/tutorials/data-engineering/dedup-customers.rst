@@ -43,7 +43,7 @@ DataFrame 2:
 Join input DataFrames
 ------------
 
-``JoinUsingColumn`` processors joins the incoming DataFrames on a joinCol "State" and ``ColumnFilter`` processor is used to filter the columns and get the required DataFrame as shown below:
+``JoinUsingColumn`` processor joins the incoming DataFrames on a join column "State". ``ColumnFilter`` processor filters the columns to get the required DataFrame as shown below:
 
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture9.png

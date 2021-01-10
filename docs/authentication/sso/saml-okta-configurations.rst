@@ -1,7 +1,7 @@
-Fire Insights SAML okta Configuration
+Fire Insights SAML Okta Configuration
 ====================
 
-Fire Insights can be Configured with SAML 2.0 okta as below.
+Fire Insights can be configured with SAML 2.0 Okta as below.
 
 Go to folder ``conf/okta.saml.properties`` file:
 

@@ -48,12 +48,14 @@ Outputing PySpark Dataframe as Table
 +++++++++
 
 The below code outputs the contents of PySpark Dataframe to Fire Insights as a table ::
+    
+    from pyspark.sql.types import *
 
-    input_df = spark.read.format("csv").option("header", "true").option("sep", ",").load("s3://fire-sample-data/data/cars.csv")
-    output_df = input_df.select("c1", "c2")
-    output_df.show()
-
-    restworkflowcontext.outDataFrame(9, "Names", output_df)
+    schema = StructType([StructField("c1", DoubleType())\
+                      ,StructField("c2", IntegerType())])
+    test_list = [[0.0, 2], [1.0, 4], [2.0, 8], [3.0, 16], [4.0, 32], [5.0, 64], [6.0, 128]]
+    df = spark.createDataFrame(test_list,schema=schema)
+    restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df)
 
 
 Outputing Pandas Dataframe as Table

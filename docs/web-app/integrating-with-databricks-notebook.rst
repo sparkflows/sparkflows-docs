@@ -72,7 +72,24 @@ The below code outputs the contents of Pandas Dataframe to Fire Insights as a ta
     print(df)
 
     restworkflowcontext.outPandasDataframe(9, "Names", df)
+
+Outputing CHART
++++++++++
+
+Output the chart in fire by selecting x & y column and Different type of chartType: COLUMNCHART, BARCHART & LINECHART
+
+    from pyspark.sql.types import *
+
+    schema = StructType([StructField("c1", DoubleType())\
+                      ,StructField("c2", IntegerType())])
+    test_list = [[0.0, 2], [1.0, 4], [2.0, 8], [3.0, 16], [4.0, 32], [5.0, 64], [6.0, 128]]
+    df = spark.createDataFrame(test_list,schema=schema)
     
+    
+    restworkflowcontext.outDataframeChart(title= "Example Chart", x_column = "c1", y_columns = ["c2"],
+                                      chart_type ="LINECHART", df = df, numRowsToDisplay = 10)
+ 
+ 
     
 Outputing HTML
 +++++++++

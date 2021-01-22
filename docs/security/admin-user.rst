@@ -44,6 +44,19 @@ Fire Insights come up with Admin access role which have below privilege
    * - apps.view
      - view analytics application
 
-apart from that admin user can do below functionality
+.. note:: apart from that admin user can do below functionality
 
-- RUNDIAGNOSTIC
+- Diagnostics
+Using it, he can details informations about Fire Insights Machine environments.
+
+.. figure:: ..//_assets/security/diagnostic.PNG
+   :alt: security
+   :width: 60%
+
+- Usage Statistics
+- Runtime Statistics
+- Sample Projects
+- Global Connections
+- Server Logs
+- Cleanup Data
+

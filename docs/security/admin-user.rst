@@ -44,52 +44,52 @@ Fire Insights come up with Admin access role which have below privilege
    * - apps.view
      - view analytics application
 
-.. note:: apart from that admin user can do below functionality
+.. note:: Apart from that Fire Insights come up with additional features for admin user as below:
 
 - Diagnostics
-Using it, he can view detail informations about Fire Insights Machine environments.
+Fire Insights enable to view detail informations about Machine environments.
 
 .. figure:: ..//_assets/security/diagnostic.PNG
    :alt: security
    :width: 60%
 
 - Usage Statistics
-Using it, he can view Total Users, Groups, Roles, Projects, Workflows & Workflows Executions
+Fire Insights enable to view Total Users, Groups, Roles, Projects, Workflows & Workflows Executions
 
 .. figure:: ..//_assets/security/usgae_satatistics.PNG
    :alt: security
    :width: 60%
    
 - Runtime Statistics
-Using it, he can view Total Logged In User, Total Fire Spark Process, Total Fire Pyspark Process & Total Running Jobs
+Fire Insights enable to view Total Logged In User, Total Fire Spark Process, Total Fire Pyspark Process & Total Running Jobs
 
 .. figure:: ..//_assets/security/runtime.PNG
    :alt: security
    :width: 60%
    
 - Sample Projects
-Using it, he can RELOAD SAMPLE PROJECTS
+Fire Insights enable to RELOAD SAMPLE PROJECTS, as by default it come up with some sample projects containing different types of workflows & datasets
 
 .. figure:: ..//_assets/security/reload_sample.PNG
    :alt: security
    :width: 60%
 
 - Global Connections
-Using it, he can Add Connections For All & Add Connection For Group
+Fire Insights enable to Add Connections For All & Add Connection For Group
 
 .. figure:: ..//_assets/security/connection.PNG
    :alt: security
    :width: 60%
 
 - Server Logs
-Using it, he can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs
+Fire Insights enable to view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs
 
 .. figure:: ..//_assets/security/logs.PNG
    :alt: security
    :width: 60%
    
 - Cleanup Data
-Using it, he can Delete old workflow executions for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Executions
+Fire Insights enable to Delete old workflow executions for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Executions
 
 .. figure:: ..//_assets/security/cleanup.PNG
    :alt: security

@@ -10,7 +10,7 @@ Fire Insights come up with Admin access role which have below privilege
    * - Title
      - Description
    * - users.manage
-     - create, modify permission & disable user
+     - create, modify & disable user
    * - groups.manage
      - Create, modify & delete the group
    * - roles.manage

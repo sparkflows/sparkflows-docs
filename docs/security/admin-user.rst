@@ -33,6 +33,12 @@ Fire Insights come up with Admin access role which have below privilege
      - execute workflow in specified project
    * - apps.modify
      - modify analytics application 
+     
+     
+.. figure:: ..//_assets/security/admin_priv.PNG
+   :alt: security
+   :width: 60%
+     
    * - apps.execute
      - execute analytics application
    * - apps.view

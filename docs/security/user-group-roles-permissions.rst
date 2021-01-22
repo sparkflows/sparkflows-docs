@@ -47,7 +47,7 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - projects.manage
      - Create, modify & delete the projects
    * - configurations.manage
-     - modify diiferent configurations 
+     - modify diifferent configurations 
    * - datasets.view
      - view dataset in specified project
    * - datasets.modify

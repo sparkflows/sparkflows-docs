@@ -7,6 +7,7 @@ Security
    user-group-roles-permissions.rst
    sharing-projects.rst
    databricks-security.rst
+   admin-user.rst
    
 
    

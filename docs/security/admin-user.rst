@@ -75,6 +75,18 @@ Using it, he can RELOAD SAMPLE PROJECTS
    :width: 60%
 
 - Global Connections
+Using it, he can Add Connections For All & Add Connection For Group
+
+.. figure:: ..//_assets/security/connection.PNG
+   :alt: security
+   :width: 60%
+
 - Server Logs
+Using it, he can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs
+
+.. figure:: ..//_assets/security/logs.PNG
+   :alt: security
+   :width: 60%
+   
 - Cleanup Data
 

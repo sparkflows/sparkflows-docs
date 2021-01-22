@@ -39,7 +39,7 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - Title
      - Description
    * - users.manage
-     - create, modify permission & disable user
+     - create, modify & disable user
    * - groups.manage
      - Create, modify & delete the group
    * - roles.manage

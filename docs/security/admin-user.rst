@@ -47,14 +47,26 @@ Fire Insights come up with Admin access role which have below privilege
 .. note:: apart from that admin user can do below functionality
 
 - Diagnostics
-Using it, he can details informations about Fire Insights Machine environments.
+Using it, he can view detail informations about Fire Insights Machine environments.
 
 .. figure:: ..//_assets/security/diagnostic.PNG
    :alt: security
    :width: 60%
 
 - Usage Statistics
+Using it, he can view Total Users, Groups, Roles, Projects, Workflows & Workflows Executions
+
+.. figure:: ..//_assets/security/usgae_satatistics.PNG
+   :alt: security
+   :width: 60%
+   
 - Runtime Statistics
+Using it, he can view Total Logged In User, Total Fire Spark Process, Total Fire Pyspark Process & Total Running Jobs
+
+.. figure:: ..//_assets/security/runtime.PNG
+   :alt: security
+   :width: 60%
+   
 - Sample Projects
 - Global Connections
 - Server Logs

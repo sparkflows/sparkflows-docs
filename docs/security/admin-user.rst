@@ -68,6 +68,12 @@ Using it, he can view Total Logged In User, Total Fire Spark Process, Total Fire
    :width: 60%
    
 - Sample Projects
+Using it, he can RELOAD SAMPLE PROJECTS
+
+.. figure:: ..//_assets/security/reload_sample.PNG
+   :alt: security
+   :width: 60%
+
 - Global Connections
 - Server Logs
 - Cleanup Data

@@ -89,4 +89,8 @@ Using it, he can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Py
    :width: 60%
    
 - Cleanup Data
+Using it, he can Delete old workflow executions for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Executions
 
+.. figure:: ..//_assets/security/cleanup.PNG
+   :alt: security
+   :width: 60%

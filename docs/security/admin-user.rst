@@ -44,3 +44,6 @@ Fire Insights come up with Admin access role which have below privilege
    * - apps.view
      - view analytics application
 
+apart from that admin user can do below functionality
+
+- RUNDIAGNOSTIC

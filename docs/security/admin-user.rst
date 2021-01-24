@@ -1,7 +1,9 @@
 Admin user
 ===========
 
-Fire Insights come up with Admin access role which have below privilege
+Fire Insights support variety of permissions for Roles. Each user can be assigned one more more Roles.
+
+Below are the permissions supported by Fire Insights.
 
 .. list-table:: 
    :widths: 10 20 
@@ -35,6 +37,11 @@ Fire Insights come up with Admin access role which have below privilege
      - modify analytics application 
      
      
+     
+More
+----
+
+
 .. figure:: ..//_assets/security/admin_priv.PNG
    :alt: security
    :width: 60%

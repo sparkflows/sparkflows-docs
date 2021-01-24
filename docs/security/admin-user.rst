@@ -60,6 +60,12 @@ In Fire Insights an admin user can do the following administration tasks:
 As regards to data, the Admin user can do the following:
 
 - Can the Admin user view other users projects? : NO
+- Can the Admin user view the execution of Projects/workflows they are not part of? NO
+
+- Onboarding Analytics Apps for a Customer
+    - Who creates that Project which will hold the Analytics App? Admin user. Now the admin user becomes the owner of that Project and be able to see everything.
+    - Who shares that project with the Group of the Customer? Admin user.
+    
 - Can a user be deleted? Can all the data associated with a user be deleted? : NO
 - Can a group be deleted? : NO
     - If a group is deleted, all the projects who share with that group, the sharing entries should be deleted.

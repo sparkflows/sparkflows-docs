@@ -36,7 +36,28 @@ Below are the permissions supported by Fire Insights.
    * - apps.modify
      - modify analytics application 
      
-     
+In Fire Insights generally the below permissions are associated with Admin features
+
+- users.manage
+- groups.manage
+- roles.manage
+- configurations.manage
+
+An admin user in Fire Insights is one who has users.manage permission.
+
+Admin User Rights
+-----------------
+
+In Fire Insights an admin user can do the following administration tasks:
+
+- Configure Fire Insights
+- Run Diagnostics
+- Manage Users, Groups, Permissions
+- Load Sample Projects
+- View Server Logs
+- Cleanup Data
+
+
      
 More
 ----

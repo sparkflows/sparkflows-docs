@@ -48,6 +48,9 @@ An admin user in Fire Insights is one who has users.manage permission.
 Admin User Rights
 -----------------
 
+Operating Fire Insights
+++++++++++++++++++++++++
+
 In Fire Insights an admin user can do the following administration tasks:
 
 - Configure Fire Insights
@@ -56,6 +59,9 @@ In Fire Insights an admin user can do the following administration tasks:
 - Load Sample Projects
 - View Server Logs
 - Cleanup Data
+
+Projects/Data etc
++++++++++++++++++
 
 As regards to data, the Admin user can do the following:
 

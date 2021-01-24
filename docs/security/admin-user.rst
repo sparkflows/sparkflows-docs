@@ -57,6 +57,14 @@ In Fire Insights an admin user can do the following administration tasks:
 - View Server Logs
 - Cleanup Data
 
+As regards to data, the Admin user can do the following:
+
+- Can the Admin user view other users projects? : NO
+- Can a user be deleted? Can all the data associated with a user be deleted? : NO
+- Can a group be deleted? : NO
+    - If a group is deleted, all the projects who share with that group, the sharing entries should be deleted.
+- Can an Admin user who is not part of a Project, share that Project with other Groups? : NO
+
 
      
 More

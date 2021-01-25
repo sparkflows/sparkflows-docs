@@ -96,6 +96,10 @@ Deleting Users/Groups
 In Fire Insights, users and groups cannot be deleted. Users can be made inactive.
 
 
+Superuser
+---------
+
+A user in Fire Insights can be marked to be a super-user. A super-user has all the same rights as the admin user.
      
 Details on the Admin user rights
 --------------------

@@ -94,7 +94,7 @@ You need to install the python dependencies required by Fire Insights on the mac
 Note: Make sure that pip etc. is already installed on that machine
 
 
-Install dependency for JDBC Driver (PySpark)
+Install dependency for JDBC Driver
 --------------------------
 
 Copy the JDBC Driver jar to pyspark jar path.

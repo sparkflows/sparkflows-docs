@@ -97,17 +97,14 @@ Note: Make sure that pip etc. is already installed on that machine
 Install dependency for JDBC Driver
 --------------------------
 
-Copy the ``JDBC Driver`` jar to pyspark jar path.
+Copy the ``JDBC Driver`` jar to pyspark jar path, Once the jar got copied, it will be available at pyspark jar path.
 
-.. figure:: ../_assets/configuration/copyjar.PNG
+.. figure:: ../_assets/configuration/copy_view.PNG
    :alt: Databricks
    :width: 40%
    
 Once the jar got copied, it will be available at pyspark jar path.
  
-.. figure:: ../_assets/configuration/viewjar.PNG
-   :alt: Databricks
-   :width: 40% 
 
 Install dependency for AWS
 --------------------------

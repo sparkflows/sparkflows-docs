@@ -103,7 +103,7 @@ Copy the JDBC Driver jar to pyspark jar path.
    :alt: Databricks
    :width: 40%
    
- Once the jar got copied, it will be available at pyspark jar path.
+Once the jar got copied, it will be available at pyspark jar path.
  
 .. figure:: ../_assets/configuration/viewjar.PNG
    :alt: Databricks

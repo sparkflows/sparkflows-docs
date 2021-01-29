@@ -97,7 +97,7 @@ Note: Make sure that pip etc. is already installed on that machine
 Install dependency for JDBC Driver
 --------------------------
 
-Copy the JDBC Driver jar to pyspark jar path.
+Copy the ``JDBC Driver`` jar to pyspark jar path.
 
 .. figure:: ../_assets/configuration/copyjar.PNG
    :alt: Databricks

@@ -99,7 +99,7 @@ Install dependency for JDBC Driver
 
 Copy the ``JDBC Driver`` jar to pyspark jar path, Once it is copied successfully, you can see the JDBC Driver jar inside pyspark jar path::
 
-    cp -r SparkJDBC41.jar /homedirectory/venv/lib/python3.7/site-packages/pyspark/jars/
+    cp -r SparkJDBC41.jar $HOME/venv/lib/python3.7/site-packages/pyspark/jars/
 
 .. figure:: ../_assets/configuration/copy_view.PNG
    :alt: Databricks

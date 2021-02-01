@@ -13,3 +13,4 @@ Troubleshooting
    dashboard.rst
    kerberos.rst
    python.rst
+   yarn.rst

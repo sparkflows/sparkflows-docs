@@ -28,6 +28,16 @@ Add below in .bash_profile
 Sometimes a soft link to Pythons’s executables is broken for some reason.  
    sudo ln -s /usr/bin/python3.x /usr/bin/python
    
+Create Python virtual environment & Activate it
+---------------------------------
+
+Create Python virtual environment & Activate it::
+
+  python -m venv venv
+  source venv/bin/activate
+  python --version
+  
+  
 Install Other Packages
 ----------------------
 

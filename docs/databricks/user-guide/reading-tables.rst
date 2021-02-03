@@ -18,7 +18,6 @@ Workflow
 
 .. figure:: ../../_assets/configuration/workflow-databricks.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 Processor Configurations for ReadDatabricksTable
@@ -34,7 +33,6 @@ Refresh schema for processor ReadDatabricksTable
  
 .. figure:: ../../_assets/configuration/databricks_refreshschema.PNG
    :alt: Databricks
-   :align: center
    :width: 60% 
 
 Processor executions for ReadDatabricksTable
@@ -42,7 +40,6 @@ Processor executions for ReadDatabricksTable
 
 .. figure:: ../../_assets/configuration/databrcks_interactiveexecutions.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 Databricks Workflow execution
@@ -52,7 +49,6 @@ Below is the output of executing the above workflow which reads data from a Data
 
 .. figure:: ../../_assets/configuration/databricks_workflowexecutions.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
    

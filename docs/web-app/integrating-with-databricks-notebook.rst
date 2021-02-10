@@ -47,7 +47,7 @@ Below is how to output text to Fire Insights ::
 Outputing PySpark Dataframe as Table
 +++++++++
 
-The below code outputs the contents of PySpark Dataframe to Fire Insights as a table ::
+The below code outputs the contents of PySpark Dataframe to Fire Insights as a table. By deafult 10 rows will be displayed::
     
     from pyspark.sql.types import *
 
@@ -57,11 +57,13 @@ The below code outputs the contents of PySpark Dataframe to Fire Insights as a t
     df = spark.createDataFrame(test_list,schema=schema)
     restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df)
 
+    #To display 3 rows
+    restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df, 3)
 
 Outputing Pandas Dataframe as Table
 +++++++++
 
-The below code outputs the contents of Pandas Dataframe to Fire Insights as a table ::
+The below code outputs the contents of Pandas Dataframe to Fire Insights as a table.  By deafult 10 rows will be displayed::
 
     # list of strings
     lst = ['Geeks', 'For', 'Geeks', 'is',
@@ -72,8 +74,10 @@ The below code outputs the contents of Pandas Dataframe to Fire Insights as a ta
     print(df)
 
     restworkflowcontext.outPandasDataframe(9, "Names", df)
-
-
+    
+    #To display 3 rows
+    restworkflowcontext.outDataFrame(9, "Names", df, 3)
+    
 Outputing CHART
 +++++++++
 
@@ -119,4 +123,11 @@ Below is how to output plotly to Fire Insights ::
     example_plotly = f'{test}'
     
     restworkflowcontext.outPlotly(9, title="Example Plotly", text = example_plotly)
+    
 
+
+Outputing Parametrs in dictionary to Table
++++++++++++++
+
+    parameters = {"brand": "TEST", "month": 12, "year": 1964}
+    restworkflowcontext.outParameters(9, "Display Parameters", parameters)

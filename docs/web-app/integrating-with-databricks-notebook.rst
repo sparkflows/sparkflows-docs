@@ -129,7 +129,7 @@ Below is how to output plotly to Fire Insights ::
 Outputing Parametrs in dictionary to Table
 ++++++++++++++++++++++++++++++++++++++++++
 
-parameters = {"brand": "TEST", "month": 12, "year": 1964}
+    parameters = {"brand": "TEST", "month": 12, "year": 1964}
 
-restworkflowcontext.outParameters(9, "Display Parameters", parameters)
+    restworkflowcontext.outParameters(9, "Display Parameters", parameters)
 

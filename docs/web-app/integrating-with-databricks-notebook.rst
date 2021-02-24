@@ -133,3 +133,27 @@ Outputing Parametrs in dictionary to Table
 
     restworkflowcontext.outParameters(9, "Display Parameters", parameters)
 
+
+Output Success
+++++++++++++++
+
+    message = "Sending the success message."
+    
+    restworkflowcontext.outSuccess(9, title="Success", text=message)
+    
+Output Failure
+++++++++++++++
+    
+    message = "Sending the failure message."
+    
+    restworkflowcontext.outFailure(9, title="Failure", text=message)
+    
+Output Running
+++++++++++++++
+
+    message = "Sending the running message."
+    
+    restworkflowcontext.outRunning(9, title="Running", text=message)
+    
+    
+

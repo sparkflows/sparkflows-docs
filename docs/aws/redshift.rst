@@ -35,7 +35,6 @@ Fire has processors for reading from and writing to Redshift. They include:
 
 .. figure:: ../_assets/aws/read_redshift.PNG
    :alt: aws
-   :align: center
    :width: 60% 
 
 * Write Redshift AWS
@@ -69,5 +68,4 @@ Fire has processors for reading from and writing to Redshift. They include:
 
 .. figure:: ../_assets/aws/saveredshift.PNG
    :alt: aws
-   :align: center
    :width: 60%

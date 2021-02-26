@@ -67,3 +67,7 @@ Fire has processors for reading from and writing to Redshift. They include:
         - Whether to Append, Overwrite or Error if the path Exists
 
 
+.. figure:: ../_assets/aws/saveredshift.PNG
+   :alt: aws
+   :align: center
+   :width: 60%

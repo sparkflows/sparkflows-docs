@@ -10,6 +10,8 @@ Fire has processors for reading from and writing to Redshift. They include:
 
 * Read Redshift AWS
 
+while using the above processor need to have below parameter
+
 .. list-table::
       :widths: 10 5 10
       :header-rows: 1
@@ -38,6 +40,8 @@ Fire has processors for reading from and writing to Redshift. They include:
    :width: 60% 
 
 * Write Redshift AWS
+
+while using the above processor need to have below parameter
 
 .. list-table::
       :widths: 10 5 10

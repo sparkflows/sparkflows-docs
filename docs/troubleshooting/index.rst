@@ -14,3 +14,6 @@ Troubleshooting
    kerberos.rst
    python.rst
    yarn.rst
+   workflow-edior.rst
+   
+   

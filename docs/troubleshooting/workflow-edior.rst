@@ -10,3 +10,18 @@ If Fire is configured to submit job to a cluster with spark-submit, first try to
 
 Make sure to set SPARK_HOME and add spark/bin to your PATH.
 
+https://spark.apache.org/docs/latest/submitting-applications.html
+
+The above page has an example of submitting sparkpi job to the cluster.
+
+spark-submit \
+  --class org.apache.spark.examples.SparkPi \
+  --master spark://207.184.161.138:7077 \
+  --executor-memory 20G \
+  --total-executor-cores 100 \
+  /path/to/examples.jar \
+  1000
+  
+  
+  
+

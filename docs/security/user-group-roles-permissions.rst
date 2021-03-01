@@ -69,6 +69,10 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    :alt: security
    :width: 60%
 
+Also when a Project a shared with a Group, specific permissions are given to the group on the Project.
+
+
+
 Roles
 -----
 

@@ -37,17 +37,22 @@ Scenarious
 Data/Databricks Clusters
 +++++++++++++++
 
-Here the user can choose from global and group level connections.
+Here the user can choose from global and group level connections. 
+When the user lands on this page, the users current connection is chosen by default.
 
 Data/DBFS
 +++++++++++++++
 
 Here the user can choose from global and group level connections.
+When the user lands on this page, the users current connection is chosen by default.
+
 
 Data/Databricks DB
 +++++++++++++++
 
 Here the user can choose from global and group level connections.
+When the user lands on this page, the users current connection is chosen by default.
+
 
 Workflow Editor
 +++++++++++++++
@@ -64,6 +69,7 @@ Workflow Execute
 
 Here the connection is chosen in the following order of priority:
 
+  * Current Connection (if it belongs to the same group as the workflow)
   * Project level connection
   * Group level connection
   * Global connection

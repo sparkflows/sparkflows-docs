@@ -23,5 +23,31 @@ The admin user can configure group level connection. These are available to use 
 Project Level Connections
 -------------------------
 
-Users of a project can create connections within the Project. These can be used for operations associated with that Project/
+Users of a project can create connections within the Project. These can be used for operations associated with that Project.
+
+Setting Current Connection
+--------------------------
+
+A user can set their current connection from the list. Here the user can choose from the global and group level connections. And also from project level connections.
+
+
+Scenarious
+----------
+
+Data/Databricks Clusters
++++++++++++++++
+
+Here the user can choose from global and group level connections.
+
+Data/DBFS
++++++++++++++++
+
+Here the user can choose from global and group level connections.
+
+Data/Databricks DB
++++++++++++++++
+
+Here the user can choose from global and group level connections.
+
+
 

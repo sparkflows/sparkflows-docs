@@ -74,7 +74,17 @@ Here the connection is chosen in the following order of priority:
   * Group level connection
   * Global connection
     
+Analytical Apps
++++++++++++++++
 
+Here the connection is chosen in the following order of priority:
+
+  * Current Connection (if it belongs to the same group as the workflow)
+  * Project level connection
+  * Group level connection
+  * Global connection
+  
+  
 
 
 

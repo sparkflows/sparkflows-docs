@@ -49,5 +49,26 @@ Data/Databricks DB
 
 Here the user can choose from global and group level connections.
 
+Workflow Editor
++++++++++++++++
+
+Here the connection is chosen in the following order of priority:
+
+  * Project level connection
+  * Group level connection
+  * Global connection
+  
+  
+Workflow Execute
++++++++++++++++
+
+Here the connection is chosen in the following order of priority:
+
+  * Project level connection
+  * Group level connection
+  * Global connection
+    
+
+
 
 

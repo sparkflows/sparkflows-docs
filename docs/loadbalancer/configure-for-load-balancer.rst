@@ -19,7 +19,7 @@ Add the following parameter in application.properties of each Fire Server. This 
    * - Parameter
      - Value
    * - spring.application.name
-     - "fire-1"
+     - fire-1
    * - clustermode.enable
      - true
    * - fire-machine-ip

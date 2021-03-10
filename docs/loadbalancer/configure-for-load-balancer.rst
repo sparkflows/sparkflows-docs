@@ -12,4 +12,17 @@ application.properties
 
 Add the following parameter in application.properties of each Fire Server. This is to enable it to know its IP address.
 
-  * 
+.. list-table:: 
+   :widths: 10 20 
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - spring.application.name
+     - "fire-1"
+   * - clustermode.enable
+     - true
+   * - fire-machine-ip
+     - Machine-ip  
+  
+  

@@ -6,5 +6,6 @@ Below are steps to Configure Network Load balancer and route using Route 53 in A
 .. toctree::
    :maxdepth: 2
 
+   configure-for-load-balancer.rst
    aws-loadbalancer.rst
    routing.rst

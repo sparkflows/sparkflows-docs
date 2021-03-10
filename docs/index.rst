@@ -39,6 +39,16 @@ Authentication
 
    authentication/index
 
+   
+Load Balancer Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   loadbalancer/index   
+   
+   
 Security
 --------------
 
@@ -154,14 +164,6 @@ AZURE Integration
    :maxdepth: 2
 
    azure/index
-   
-Load Balancer Integration
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   loadbalancer/index   
    
 Superset
 ----------

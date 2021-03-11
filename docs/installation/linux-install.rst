@@ -124,4 +124,18 @@ Now that you have Fire installed, you may want to connect it to your Apache Spar
 .. _Download: https://www.sparkflows.io/download
 
 
+Helpful Commands
+----------------
+
+Creating a new Linux user
++++++++++++++++++++++++
+
+- sudo useradd -p password sparkflows
+
+
+Forwarding traffice to a port
++++++++++++++++++++++++++++++
+
+- sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+- sudo firewall-cmd --reload
 

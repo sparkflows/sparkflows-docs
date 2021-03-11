@@ -52,8 +52,8 @@ Could not connect to fire at localhost
 
 The reason for it is the the fire process is not starting. If you are using Ubuntu, you may have to do the following:
 
-sudo dpkg-reconfigure dash
-https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
+- sudo dpkg-reconfigure dash
+- https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
 
 Select 'No'
 

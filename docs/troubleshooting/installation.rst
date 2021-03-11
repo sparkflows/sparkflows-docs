@@ -47,3 +47,15 @@ Fire UI does not get displayed when I go to :8080. Some other UI is displayed
 Fire by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output. In this case, the solution is to ``run the Fire server on some other port`` which is not being used by any other application. Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
 
 
+Could not connect to fire at localhost
+---------------------------------------
+
+The reason for it is the the fire process is not starting. If you are using Ubuntu, you may have to do the following:
+
+sudo dpkg-reconfigure dash
+https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
+
+Select 'No'
+
+
+

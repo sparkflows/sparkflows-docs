@@ -132,6 +132,11 @@ Creating a new Linux user
 
 - sudo useradd -p password sparkflows
 
+Changing the password of a user
++++++++++++++++++++++++
+
+- sudo passwd sparkflows
+
 
 Forwarding traffice to a port
 +++++++++++++++++++++++++++++

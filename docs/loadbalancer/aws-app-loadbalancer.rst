@@ -36,7 +36,7 @@ Below are steps involved in Creating Network Load balancer in AWS.
    :align: center
    :width: 60%
  
- * Configure Security Settings
+* Configure Security Settings
 
 Select default certificate.
 

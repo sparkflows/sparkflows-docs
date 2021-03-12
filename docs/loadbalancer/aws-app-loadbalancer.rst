@@ -1,7 +1,7 @@
 AWS Application Load balancer
 ==========================
 
-It Explains about Creating Application Load balancer in AWS and Configuring it VM running with Fire Insights.
+It Explains about Creating Application Load balancer in AWS and Configuring VM running with Fire Insights.
 
 Below are steps involved in Creating Network Load balancer in AWS.
 

@@ -26,7 +26,6 @@ Below are steps involved in Creating Network Load balancer in AWS.
     Add Name
     Scheme : internet-facing
     IP address type : ipv4
-    Listeners
     Listeners : HTTPS: 443
     Availability Zones
     VPC : select VPC where application vm is running.

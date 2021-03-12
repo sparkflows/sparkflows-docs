@@ -56,6 +56,17 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
 .. note::  Make sure to add certificate either through ACM or IAM
    
    https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
-   
+
+* Configure Routing
+
+::
+
+    Target group
+    Name : A name of target group
+    Target type :  Instance
+    Protocol : HTTPS
+    Port :443
+    Protocol version : HTTP1
+    Register Target
     
     

@@ -11,3 +11,23 @@ Below are steps involved in Creating Network Load balancer in AWS.
    :alt: Load balancers
    :align: center
    :width: 60%
+
+* Create Load Balancer & select Application Load Balancer.
+
+.. figure:: ..//_assets/loadbalancer/application-lb.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%
+   
+* Configure Load balancer
+ 
+::
+ 
+    Add Name
+    Scheme : internet-facing
+    IP address type : ipv4
+    Listeners
+    Listeners : HTTPS: 443
+    Availability Zones
+    VPC : select VPC where application vm is running.
+    Availability Zones : select the specific zone.

@@ -30,3 +30,27 @@ Below are steps involved in Creating Network Load balancer in AWS.
     Availability Zones
     VPC : select VPC where application vm is running.
     Availability Zones : select the specific zone.
+    
+ * Configure Security Settings
+
+Select default certificate.
+
+AWS Certificate Manager (ACM) is the preferred tool to provision and store server certificates. If you previously stored a server certificate using IAM, you can deploy it to your load balancer.
+
+::
+
+    Certificate type
+    Certificate name
+    Security policy
+    
+.. figure:: ..//_assets/loadbalancer/loadbalancer_certificate.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%
+
+.. note::  Make sure to add certificate either through ACM or IAM
+   
+   https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
+   
+    
+    

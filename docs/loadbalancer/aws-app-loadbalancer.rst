@@ -30,7 +30,12 @@ Below are steps involved in Creating Network Load balancer in AWS.
     Availability Zones
     VPC : select VPC where application vm is running.
     Availability Zones : select the specific zone.
-    
+ 
+.. figure:: ..//_assets/loadbalancer/configure_aplb.PNG
+   :alt: Load balancers
+   :align: center
+   :width: 60%
+ 
  * Configure Security Settings
 
 Select default certificate.

@@ -27,8 +27,8 @@ In storage account, add the role to provide the access to Azure vm with needed a
    :align: center
    :width: 40%
    
-Login to Fire Insights 
-----------------------------------
+Configure ADLS in Fire Insights
+----------------------
 
 Add the below parameters in Administration/Configuration in Fire Insights.
 
@@ -41,24 +41,26 @@ Add the below parameters in Administration/Configuration in Fire Insights.
    :align: center
    :width: 40%
 
-Save Configuration
+ADLS page in Fire Insights
 -------------------
 
-Save the above configuration and refresh the page & Click on Data browser to see ADLS page
+Save the above configuration, refresh the page & Ccick on the Data menu to see the ADLS page
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls
    :align: center
    :width: 40%
    
-Click on Data browser
+Go to Data/ADLS page
 ------------------------
 
-Click on ADLS to see ADLS FILESYSTEM in `DATA BROWSERS`
+Click on ADLS to see ADLS FILESYSTEM in `DATA`
 
 .. figure:: ../_assets/configuration/adls-file.PNG
    :alt: adls
    :align: center
    :width: 40%
 
-Once the above configurations done, you can start using those file while creating dataset and workflow.
+Once the above configurations are done, you can start using files on ADLS while creating datasets and workflows.
+
+

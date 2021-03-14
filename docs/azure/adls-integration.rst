@@ -1,16 +1,16 @@
 ADLS Integration
 ================
 
-Fire Insights integrated with azure data lake storage, once configured you can use the filesystem for accessing data from it.
+Fire Insights is integrated with Azure data lake storage. Once configured you can use the filesystem for accessing data from it.
 
-Below are the steps to Configured adls using managed identity
+Below are the steps for configuring Fire Insights with ADLS using managed identity.
 
-Managed identity allow the users to access the azure resources without hardcoding any credentials in code.
+Managed identity allow the users to access the Azure resources without hardcoding any credentials in code.
 
 System identity need to be enabled 
 -----------------------------------
 
-System identity need to be enabled on vm where Fire Insights is running or need to be install
+System identity needs to be enabled on the VM where Fire Insights is installed.
 
 .. figure:: ../_assets/configuration/identity.PNG
    :alt: adls
@@ -27,10 +27,10 @@ In storage account, add the role to provide the access to Azure vm with needed a
    :align: center
    :width: 40%
    
-login to Fire Insights 
+Login to Fire Insights 
 ----------------------------------
 
-login to Fire Insights application and add below parameter in Configuration under administration section for AZURE.
+Add the below parameters in Administration/Configuration in Fire Insights.
 
  - ``azure.enabled to true``
  - ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` 

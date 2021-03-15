@@ -150,7 +150,7 @@ Select the ``Custom Processors`` which you want to export and click on export.
    :align: center
    :width: 60% 
 
-NOTE: you can export multiple ``Custom Processors`` at a time too.
+.. note:: you can export multiple ``Custom Processors`` at a time too.
 
 Once you click on export button, the selected Custom Processors will be downloaded to local machine in zip format.
 

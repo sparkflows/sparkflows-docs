@@ -7,7 +7,7 @@ You would provide the execute method for the node and the schema update code. Yo
 
 Below are the steps for creating the new custom node.
 
-Note:: Fire Insights uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
+.. note:: Fire Insights uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
 
 Select Custom Processors from the menu
 ----------------------

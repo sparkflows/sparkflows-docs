@@ -1,13 +1,16 @@
 Custom Node Development in Browser
 ==================================
 
-Fire Insights enables you to write custom nodes from your Browser.
+Fire Insights enables you to write new custom nodes from your Browser. These custom nodes would then automatically be visible in the workflow editor and can be used in the workflows like any other node.
 
-You would provide the execute method for the Processor and the Schema update code. You would also provide the details of the widgets through which the user would provide the parameters for the new custom node.
+You would provide the execute method for the node and the schema update code. You would also provide the details of the widgets through which the user would provide the parameters for the new custom node.
 
-Below are the steps for creating the custom node.
+Below are the steps for creating the new custom node.
 
-Once you login to Fire Insights application, there is ``PROCESSORS`` menu on top, select Custom Processors.
+Note:: Fire Insights uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
+
+Select Custom Processors from the menu
+----------------------
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor
@@ -71,6 +74,7 @@ It shows the default template which you can update
    :width: 60% 
   
 Then click on ``Next`` button to go to the Schema tab.
+  
   
 Schema Update Code
 ------------------

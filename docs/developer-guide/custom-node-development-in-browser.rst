@@ -45,13 +45,13 @@ Then provide details for the various fields of the new processors. These fields 
    :align: center
    :width: 60% 
 
-Click on the ``+`` sign to add a new field. For each field provide the following:
+Click on the ``+`` sign to add a new field. For each field provide the following::
 
-  * WIDGET
-  * NAME
-  * TITLE
-  * VALUE
-  * DESCRIPTION
+    * WIDGET
+    * NAME
+    * TITLE
+    * VALUE
+    * DESCRIPTION
   
 .. figure:: ../_assets/developer-guide/fields.PNG
    :alt: Custom Processor

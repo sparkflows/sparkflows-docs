@@ -50,8 +50,8 @@ Click on the ``+`` sign to add a new field. For each field provide the following
     * WIDGET
     * NAME
     * TITLE
-    * VALUE
-    * DESCRIPTION
+      VALUE
+      DESCRIPTION
   
 .. figure:: ../_assets/developer-guide/fields.PNG
    :alt: Custom Processor

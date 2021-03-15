@@ -12,7 +12,7 @@ Below are the steps for creating the new custom node.
 Select Custom Processors from the menu
 ------------------------------
 
-.. figure:: ../_assets/developer-guide/custom_processors.PNG
+.. figure:: ../_assets/developer-guide/custom_processor.PNG
    :alt: Custom Processor
    :width: 60%
 

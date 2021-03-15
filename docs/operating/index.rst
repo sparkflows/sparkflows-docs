@@ -14,6 +14,7 @@ Operating Guide
    jupyter.rst
    cleaning-h2db.rst
    installing-mysql.rst
+   health-check.rst
    
 
 

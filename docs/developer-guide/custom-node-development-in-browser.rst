@@ -22,12 +22,12 @@ Click on CREATE PROCESSORS
 Click on ``CREATE PROCESSORS`` to start creating the new processor.
 
 
-.. figure:: ../_assets/developer-guide/create_processors.PNG
+.. figure:: ../_assets/developer-guide/create_processor.PNG
    :alt: Custom Processor
    :width: 60%
    
    
-.. figure:: ../_assets/developer-guide/processors_creation.PNG
+.. figure:: ../_assets/developer-guide/processor_creation.PNG
    :alt: Custom Processor
    :width: 60%   
    

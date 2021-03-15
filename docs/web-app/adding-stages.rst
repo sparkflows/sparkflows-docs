@@ -31,7 +31,7 @@ Examples for adding various Stages
       :width: 60%
 
 
-- In other column we will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded. Set its property name to ``destinationPath``.
+- In other column we will add one textfield to add "DESTINATION PATH" where the browse file should get uploaded. Set its property name to ``TABLE_DATA``.
 
    .. figure:: ../_assets/web-app/add-stage-uplaod-textfield.PNG
       :alt: web-app

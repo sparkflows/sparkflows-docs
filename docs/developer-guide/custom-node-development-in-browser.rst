@@ -10,14 +10,14 @@ Below are the steps for creating the new custom node.
 .. note:: Fire Insights uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
 
 Select Custom Processors from the menu
-----------------------
+------------------------------
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor
    :width: 60%
 
 Click on CREATE PROCESSORS
--------------------------------
+--------------------------
 
 Click on ``CREATE PROCESSORS`` to start creating the new processor.
 

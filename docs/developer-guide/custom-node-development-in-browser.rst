@@ -14,7 +14,6 @@ Select Custom Processors from the menu
 
 .. figure:: ../_assets/developer-guide/custom_processors.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 Click on CREATE PROCESSORS
@@ -25,13 +24,11 @@ Click on ``CREATE PROCESSORS`` to start creating the new processor.
 
 .. figure:: ../_assets/developer-guide/create_processors.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
    
    
 .. figure:: ../_assets/developer-guide/processors_creation.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%   
    
 It would open up the Create Processor Page as below.
@@ -42,7 +39,6 @@ Then provide details for the various fields of the new processors. These fields 
 
 .. figure:: ../_assets/developer-guide/processor_editor.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 Click on the ``+`` sign to add a new field. For each field provide the following::
@@ -55,7 +51,6 @@ Click on the ``+`` sign to add a new field. For each field provide the following
   
 .. figure:: ../_assets/developer-guide/fields.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
   
   
@@ -70,7 +65,6 @@ It shows the default template which you can update
   
 .. figure:: ../_assets/developer-guide/code.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
   
 Then click on ``Next`` button to go to the Schema tab.
@@ -85,7 +79,6 @@ It displays the default template code which you can update.
   
 .. figure:: ../_assets/developer-guide/schema.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
@@ -94,7 +87,6 @@ Once the custom processor is submitted successfully, it will be visible in ``Cus
  
 .. figure:: ../_assets/developer-guide/submitted_processor.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
   
 Testing the custom processor
@@ -106,12 +98,10 @@ When editing the custom processor, select the Dataset for the data you want to f
 
 .. figure:: ../_assets/developer-guide/test_custom_data.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
    
 .. figure:: ../_assets/developer-guide/execution_test.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%   
 
 Using the new Processor
@@ -121,7 +111,6 @@ The processor is now available in the Workflow Editor.
 
 .. figure:: ../_assets/developer-guide/editor.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 You can click on the custom processor to start using it in your workflow.
@@ -140,14 +129,12 @@ Login to Fire Insights & go to Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/customlist.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 Select the ``Custom Processors`` which you want to export and click on export.
 
 .. figure:: ../_assets/developer-guide/exportselect.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 .. note:: you can export multiple ``Custom Processors`` at a time too.
@@ -156,7 +143,6 @@ Once you click on export button, the selected Custom Processors will be download
 
 .. figure:: ../_assets/developer-guide/exportsuccess.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 Import Custom Processors
@@ -170,27 +156,23 @@ Login to Fire Insights & go to Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/custimp.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 Select the ``IMPORT`` button, it will open a new windows to upload zip file from local machine.
 
 .. figure:: ../_assets/developer-guide/imp.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 
 .. figure:: ../_assets/developer-guide/choose.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 Once you upload zip file of Custom Processors from local machine, press ``IMPORT`` button to import it.
 
 .. figure:: ../_assets/developer-guide/selimp.png
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 NOTE: You can import multiple ``Custom Processors`` at a time too.
@@ -199,14 +181,12 @@ Once you Click on IMPORT button, success message will display on imported Custom
 
 .. figure:: ../_assets/developer-guide/successimp.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 After success import, you can view those ``Custom Processors`` in Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/importedprocessor.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
    
 Now you can use those Custom Processors in your workflow.   

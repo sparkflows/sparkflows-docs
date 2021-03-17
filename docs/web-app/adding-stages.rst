@@ -11,8 +11,7 @@ Click on "Add stages" button to add a new stage. Select stage type and enter the
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW and REMOVE stages.
 
-Examples for adding various Stages
------------------
+Below are examples for adding various Stages
 
 1 : Upload Stage
 ++++++++++++++++

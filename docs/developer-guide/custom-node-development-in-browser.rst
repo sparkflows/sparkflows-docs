@@ -117,7 +117,7 @@ You can click on the custom processor to start using it in your workflow.
 
 You can also export & import them
 
-Export Custom Processors
+Exporting Custom Processors
 -------------------------
 
 Fire Insights enables you to ``export`` Custom Processors from Browser to local machine.
@@ -145,7 +145,7 @@ Once you click on export button, the selected Custom Processors will be download
    :alt: Custom Processor
    :width: 60% 
 
-Import Custom Processors
+Importing Custom Processors
 ------------------------
 
 Fire Insights enables you to ``import`` Custom Processors to different environment.

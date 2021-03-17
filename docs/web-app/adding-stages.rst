@@ -23,7 +23,8 @@ Below are examples for adding various Stages
       :width: 60%
 
 
-- In first column add file component to choose files to upload to databricks. In this component in File tab in "STORAGE" select "Base64"
+- In first column add file component to choose files to upload to databricks. In this component in File tab in "STORAGE" select "Base64". Set its property name to ``file``.
+
 
    .. figure:: ../_assets/web-app/add-stage-uplaod-file.PNG
       :alt: web-app

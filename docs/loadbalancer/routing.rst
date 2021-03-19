@@ -11,8 +11,6 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
 
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_route.PNG
-   :alt: Load balancers
-   :align: center
    :width: 60%
 
 * Get started with R 53 Dashboard
@@ -23,7 +21,6 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
     
 .. figure:: ..//_assets/loadbalancer/loadbalancer_getstarted.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%    
 
 * Hosted zone
@@ -49,10 +46,8 @@ Create records and Registered Network load balancer to it.
     
 .. figure:: ..//_assets/loadbalancer/loadbalancer_records.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%     
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_alias.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%  

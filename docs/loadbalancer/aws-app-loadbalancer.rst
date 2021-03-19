@@ -9,14 +9,12 @@ Below are steps involved in Creating Application Load balancer in AWS.
 
 .. figure:: ..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 * Create Load Balancer & select Application Load Balancer.
 
 .. figure:: ..//_assets/loadbalancer/application-lb.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
    
 * Configure Load balancer
@@ -33,7 +31,6 @@ Below are steps involved in Creating Application Load balancer in AWS.
  
 .. figure:: ..//_assets/loadbalancer/configure_aplb.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
  
 * Configure Security Settings
@@ -50,7 +47,6 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
     
 .. figure:: ..//_assets/loadbalancer/loadbalancer_certificate.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 .. note::  Make sure to add certificate either through ACM or IAM

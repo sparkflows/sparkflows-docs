@@ -9,14 +9,12 @@ Below are steps involved in Creating Network Load balancer in AWS.
 
 .. figure:: ..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 * Create Load Balancer & select Network Load Balancer.
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_create.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
    
 * Configure Load balancer
@@ -51,7 +49,6 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
     
 .. figure:: ..//_assets/loadbalancer/loadbalancer_certificate.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 .. note::  Make sure to add certificate either through ACM or IAM
@@ -72,7 +69,6 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_info.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 * Port forwarding

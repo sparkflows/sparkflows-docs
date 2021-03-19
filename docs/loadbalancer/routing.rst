@@ -11,6 +11,7 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
 
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_route.PNG
+   :alt: Load balancers
    :width: 60%
 
 * Get started with R 53 Dashboard

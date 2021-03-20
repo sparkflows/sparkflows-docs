@@ -41,18 +41,16 @@ Below is the workflow for creating a KMeans model for clustering the houses. It 
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+First we read in the Housing Dataset using the ``Read CSV`` node.
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
+Below are the parameters which we use:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2.PNG
    :alt: Clustering Houses
    :align: center
    :width: 60%
    
-Processor Output
-^^^^^^
+After reading, the ``Read CSV`` node output looks like below:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.PNG
    :alt: Clustering Houses
@@ -62,18 +60,7 @@ Processor Output
 Prints the results
 ------------------
 
-It prints the sample dataset file results.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/3.PNG
-   :alt: Clustering Houses
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
+We print a few records which have been read in to view them.
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/3a.PNG
    :alt: Clustering Houses
@@ -83,18 +70,16 @@ Processor Output
 Assemble the features for predictions
 -------------------------------------
 
-It assembles the features for predictions using VectorAssembler Node.
+Next we assemble the features we want to use in the KMeans Clustering. We use the ``Vector Assembler`` node for it.
+More details for Vector Assemblem in Apache Spark ML can be found here : https://spark.apache.org/docs/latest/ml-features.html#vectorassembler
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4.PNG
    :alt: Clustering Houses
    :align: center
    :width: 60%
    
-Processor Output
-^^^^^^
+The output of the Vector Assembler node looks like below:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4a.PNG
    :alt: Clustering Houses

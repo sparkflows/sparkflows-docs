@@ -17,7 +17,6 @@ Below is a workflow which reads data from MySQL and saves to a CSV file. It read
 
 .. figure:: ../../_assets/user-guide/jdbc-workflow.png
    :alt: JDBC Workflowt
-   :align: center
    :width: 60%
    
    
@@ -28,7 +27,6 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 
 .. figure:: ../../_assets/user-guide/jdbc-dialog.png
    :alt: JDBC Processor Dialog
-   :align: center
    :width: 60%
    
 Results of reading from MySQL table
@@ -38,7 +36,6 @@ The below screenshot displays some of the records read from the MySQL table by F
 
 .. figure:: ../../_assets/user-guide/jdbc-read-results.png
    :alt: JDBC Read Results
-   :align: center
    :width: 60%
 
 Specifying a sub-query
@@ -51,7 +48,6 @@ More details are available on the Spark Guide : https://spark.apache.org/docs/1.
 
 .. figure:: ../../_assets/user-guide/jdbc-subquery.png
    :alt: JDBC Sub-Query
-   :align: center
    :width: 60%
    
    
@@ -59,7 +55,6 @@ Above we have specified a subquery which selects only the ‘first_name’ from 
 
 .. figure:: ../../_assets/user-guide/jdbc-subquery-output.png
    :alt: JDBC Sub-Query Output
-   :align: center
    :width: 60%
    
 

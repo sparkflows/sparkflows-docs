@@ -12,6 +12,12 @@ We have taken the Housing dataset from .....
 
 It looks like below:
 
+IMAGE
+
+The columns in the dataset are pretty self-explanatory.
+
+* bedrooms : number of bedrooms in the house
+* price : the price at which the house was sold
 
 
 Workflow

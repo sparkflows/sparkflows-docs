@@ -13,8 +13,6 @@ Below is the workflow. It does the following:
 * Assembles the features for predictions.
 * Splits it.
 * Perform KMeans Clustering.
-* ML Model save.
-* ML Model Load.
 * Prediction.
 * Print the prediction results.
 

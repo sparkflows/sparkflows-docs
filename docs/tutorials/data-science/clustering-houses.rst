@@ -126,49 +126,6 @@ Processor Output
    :align: center
    :width: 60%
    
-ML Model save
----------------
-
-It will save ML Model with given path using ModelSave Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/7.PNG
-   :alt: Clustering Houses
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/7a.PNG
-   :alt: Clustering Houses
-   :align: center
-   :width: 60%
-   
-ML Model Load
---------------
-
-It will Load ML Model with given path using ModelSave Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/8.PNG
-   :alt: Clustering Houses
-   :align: center
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/8a.PNG
-   :alt: Clustering Houses
-   :align: center
-   :width: 60%
-
-
 Prediction
 -----------
 

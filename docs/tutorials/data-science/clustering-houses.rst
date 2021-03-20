@@ -1,12 +1,23 @@
 Clustering Houses
 =================
 
-This workflow reads in a dataset. It then performs KMeans Clustering on the Housing Dataset.
+Here we have a housing dataset available to us. We need to cluster the houses in the best possible way.
+
+We will perform the clustering usign KMeans algorithm availabe in Apache Spark ML.
+
+Dataset
+-------
+
+We have taken the Housing dataset from .....
+
+It looks like below:
+
+
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+Below is the workflow for creating a KMeans model for clustering the houses. It does the following:
 
 * Reads data from a sample dataset.
 * Prints the results.

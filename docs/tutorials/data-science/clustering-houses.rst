@@ -47,14 +47,12 @@ Below are the parameters which we use:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 After reading, the ``Read CSV`` node output looks like below:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Prints the results
@@ -76,14 +74,12 @@ More details for Vector Assemblem in Apache Spark ML can be found here : https:/
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 The output of the Vector Assembler node looks like below:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Split it
@@ -96,7 +92,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/5.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Processor Output
@@ -104,7 +99,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/5a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Perform KMeans Clustering
@@ -117,7 +111,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/6.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Processor Output
@@ -125,7 +118,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/6a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Prediction

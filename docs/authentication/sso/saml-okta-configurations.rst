@@ -3,7 +3,7 @@ Fire Insights SAML Okta Configuration
 
 Fire Insights can be configured with SAML 2.0 Okta as below.
 
-Go to folder ``conf/okta.saml.properties`` file:
+Go to folder ``conf/sso.saml.properties`` file:
 
 Add below information from newly created application in oneLogin:
 

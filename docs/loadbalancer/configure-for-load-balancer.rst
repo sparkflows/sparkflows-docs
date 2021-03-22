@@ -10,7 +10,8 @@ There are additional configurations needed for each Fire Server in such a scenar
 application.properties
 ----------------------
 
-Add the following parameter in application.properties of each Fire Server. This is to enable it to know its IP address.
+Add the following parameters in application.properties of each Fire Server. This is to enable it to know its IP address.
+Restart Fire Insights Server after making the changes.
 
 .. list-table:: 
    :widths: 10 30 20

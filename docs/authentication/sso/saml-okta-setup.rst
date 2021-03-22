@@ -1,15 +1,15 @@
-SAML okta setup
+SAML Okta setup
 ==============
 
-Below are steps to setup SAML 2.0 okta
+Below are steps to setup SAML 2.0 Okta
 
-1. Create an account at okta
+1. Create an account in Okta
 
 .. figure:: ../../_assets/authentication/okta_signin_url.png
    :alt: sso
    :width: 60%
    
-2. SignIn into okta
+2. SignIn into Okta
 
 .. figure:: ../../_assets/authentication/okta_sigin_credential.PNG
    :alt: sso
@@ -27,7 +27,7 @@ Below are steps to setup SAML 2.0 okta
    :alt: sso
    :width: 60%
    
-5. Add an app:
+5. Add an App:
 
 .. figure:: ../../_assets/authentication/okta_addapp.png
    :alt: sso

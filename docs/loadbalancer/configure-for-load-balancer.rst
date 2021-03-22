@@ -1,4 +1,4 @@
-Configure for Load Balancer
+Fire Insights Configuration
 ===========================
 
 In order to scale out, multiple machines running Fire Insights can be configured under a Load Balancer.

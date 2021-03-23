@@ -1,10 +1,6 @@
 Fire Architecture
 -----------------
 
-.. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
-   :alt: Sparkflows Fire Architecture
-   :align: center
-
 Fire consists of three core components:
 
   * **Web Browser** for defining end-to-end workflows for building data products and applications

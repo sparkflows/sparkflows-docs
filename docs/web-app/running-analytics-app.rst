@@ -5,7 +5,7 @@ Once the Analytics App has been created, they can be executed.
 
 Below are the steps for executing an Analytics App.
 
-Click on Analytics App Name
+Click on Run App Button
 -------------------------
 
   .. figure:: ../_assets/web-app/view-app.PNG

@@ -65,10 +65,10 @@ Fire Insights supports the following Permissions. Permissions are associated wit
    * - apps.view
      - view analytics application
 
-Project Sharing Permissions
+Role's Permissions
 ----------------
 
-When a user shares a Project with a Group, the user can given specific perssion on the Project to the members of the Group.
+When a user create a Role, the user can given specific perssion on the Role to the members which has that role.
 
 
 .. figure:: ..//_assets/security/permissions.PNG

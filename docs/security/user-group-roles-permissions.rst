@@ -68,7 +68,7 @@ Fire Insights supports the following Permissions. Permissions are associated wit
 Role's Permissions
 ----------------
 
-When a user create a Role, the user can given specific perssion on the Role to the members which has that role.
+When a user create a Role, the user can given specific permission on the Role to the members which has that role.
 
 
 .. figure:: ..//_assets/security/permissions.PNG

@@ -65,5 +65,14 @@ Restart the Fire server for the changes to take effect::
   ./run-fire-server.sh start
 
 
+Configuring with pfx file
+-------------------------
+
+* Place the pfx file into the conf folder
+* Edit keystore.properties to update the field keystore.path and keystore.password
+* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password
+
+
+
 
 

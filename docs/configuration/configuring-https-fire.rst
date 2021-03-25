@@ -72,6 +72,9 @@ Configuring with pfx file
 * Edit keystore.properties to update the field keystore.path and keystore.password
 * Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password
 
+* Use the below command to get the certificate file information
+
+keytool -v -list -storetype pkcs12 -keystore keystore.pfx
 
 
 

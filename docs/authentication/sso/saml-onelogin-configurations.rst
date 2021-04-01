@@ -20,7 +20,6 @@ Add below information from newly created application in oneLogin:
 
 .. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso
-   :align: left
    :width: 60%
 
 ::  
@@ -31,7 +30,6 @@ Add below information from newly created application in oneLogin:
 		        
 .. figure:: ../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
-   :align: left
    :width: 60%
 
 ::
@@ -43,7 +41,6 @@ Add below information from newly created application in oneLogin:
    
 .. figure:: ../../_assets/authentication/one_login_entity_id.png
    :alt: sso
-   :align: left
    :width: 60%
 
 ::
@@ -55,7 +52,6 @@ Add below information from newly created application in oneLogin:
   
 .. figure:: ../../_assets/authentication/saml_signature.png
    :alt: sso
-   :align: left
    :width: 60%  
 
 ::

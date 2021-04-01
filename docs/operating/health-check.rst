@@ -6,7 +6,10 @@ The following URL can be used for checking the health of Fire Insights
 ::
    
     http://localhost:8080/actuator/health 
-    
+
+once the above URL is added in Browser the response something like below ::
+
+    {"status":"UP"}
 
 .. figure:: ..//_assets/operating/healthcheck.PNG
    :alt: operating

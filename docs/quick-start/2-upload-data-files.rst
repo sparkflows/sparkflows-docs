@@ -7,21 +7,18 @@ If you have your data in CSV file, click on "Data Browsers" and select "HDFS". Y
 
 .. figure:: ../_assets/tutorials/quickstart/4.PNG
    :alt: Quickstart
-   :align: center
    :width: 60%
 
 Click on "Upload File" button. Choose one or more CSV files that you want to upload. 
 
 .. figure:: ../_assets/tutorials/quickstart/5.PNG
    :alt: Quickstart
-   :align: center
    :width: 60%
 
 After selecting the files, click "Upload All". 
 
 .. figure:: ../_assets/tutorials/quickstart/6.PNG
    :alt: Quickstart
-   :align: center
    :width: 60%
    
 

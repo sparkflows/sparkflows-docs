@@ -31,7 +31,7 @@ Examples of the various Stage Pages
 
 - Add destination path of dbfs where you want to upload choose file.
 
-- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is added it will store inside ``FILESTORE`` folder
+- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is added it will store inside ``FileStore`` folder
 
   .. figure:: ../_assets/web-app/upload-file-1.PNG
         :alt: web-app

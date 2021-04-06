@@ -10,7 +10,7 @@ When executing the workflows, you can specify email addresses for receiving emai
 
  .. figure:: ../../_assets/user-guide/alert-1.png
    :alt: Email Alerts
-   :align: center
+
 
 Email Notifications/Alerts when Scheduling Workflows
 --------------------------------------
@@ -19,7 +19,7 @@ When scheduling the workflows, you can specify email addresses for receiving ema
 
  .. figure:: ../../_assets/user-guide/alert-2.png
    :alt: Email Alerts
-   :align: center
+
    
    
 SMTP Configurations
@@ -29,4 +29,4 @@ Administrator has to set up the SMTP configurations under Administration/Configu
 
  .. figure:: ../../_assets/user-guide/smtp-configuration.png
    :alt: SMTP Configuration
-   :align: center
+

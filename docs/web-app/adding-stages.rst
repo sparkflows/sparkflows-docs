@@ -37,7 +37,7 @@ Below are examples for adding various Stages
       :alt: web-app
       :width: 60%
 
-- Add select boxes component to add "MATCH API FIELDS". Set its label as ``Columns`` and make this compoenent hidden by selecting ``hidden`` checkbox.
+- Add select boxes component to add "MATCH API FIELDS". Set its label as ``Columns`` and make this component hidden by selecting ``hidden`` checkbox.
 
    .. figure:: ../_assets/web-app/match-api-display.PNG
       :alt: web-app
@@ -95,14 +95,14 @@ For example:
       :width: 60%
    
 
--  Then, lets add select example in the second column by adding select component. In this component in Data tab add all possible values you want to add. 
+-  Then, let's add select example in the second column by adding select component. In this component in Data tab add all possible values you want to add. 
 
    .. figure:: ../_assets/web-app/add-stage-parameters-select.PNG
      :alt: web-app
      :width: 60%
   
 
--  Now, lets add column component in the bottom and divide into two columns for adding back and next button.
+-  Now, let's add column component in the bottom and divide into two columns for adding back and next button.
 
 -  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as ``back``.
 
@@ -138,7 +138,7 @@ Click on "DONE" or "SAVE" to save the added components for that stage.
       :width: 60%
    
 
--  Now, lets add column component in the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
+-  Now, let's add column component in the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
 
 -  Add back button in first column to go to back stage and perform actions depending upon event. Set its event name as ``back``.
 

@@ -19,7 +19,7 @@ Open the application where you have created the workflow to be executed.
 
 .. figure:: ../_assets/tutorials/quickstart/8.PNG
    :alt: Workflow Listings
-   :align: center
+
 
 
 
@@ -29,7 +29,7 @@ Click "Workflows" tab to view the list of workflows in the application.
 
 .. figure:: ../_assets/tutorials/quickstart/7.PNG
    :alt: Workflow Listings
-   :align: center
+
 
 
 
@@ -48,7 +48,7 @@ Specify any paramters for your workflow.
 
 .. figure:: ../_assets/tutorials/03/workflow-execute.png
    :alt: Workflow Execute
-   :align: center
+
 
 
 Execute Workflow

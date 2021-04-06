@@ -16,14 +16,12 @@ When you open your application, all existing datasets specific to the applicatio
  
 .. figure:: ../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 Click on "Create" and choose "Dataset" from the dropdown. 
  
 .. figure:: ../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 In the pop-up choose “CSV” and then click “OK”.
@@ -41,7 +39,6 @@ Fill in the required fields as below.
  
 .. figure:: ../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
  
 
@@ -51,7 +48,6 @@ In the example below, a dataset is created from a housing.csv file. It is a comm
  
 .. figure:: ../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 
@@ -61,7 +57,6 @@ You can update the column names in the schema based on your data.
  
 .. figure:: ../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
   
 

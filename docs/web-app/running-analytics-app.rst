@@ -31,7 +31,7 @@ Examples of the various Stage Pages
 
 - Add destination path of dbfs where you want to upload choose file.
 
-- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file.
+- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is added it will store inside ``FILESTORE`` folder
 
   .. figure:: ../_assets/web-app/upload-file-1.PNG
         :alt: web-app
@@ -49,6 +49,19 @@ Examples of the various Stage Pages
           :alt: web-app
           :width: 60%
 
+- If match api columns are added in upload stage then, on upload below dialog will appear where user can select fields and map columns.
+
+  .. figure:: ../_assets/web-app/upload-file-4.png
+          :alt: web-app
+          :width: 60%
+
+- When, user select fields but missed to map required columns then it will throw error like below. 
+
+  .. figure:: ../_assets/web-app/upload-file-5.PNG
+          :alt: web-app
+          :width: 60%
+
+- After successfully mapping of fields it will send selected fields in comma separated to notebook.
 
 - Click on "NEXT" button to go to next stage.
 

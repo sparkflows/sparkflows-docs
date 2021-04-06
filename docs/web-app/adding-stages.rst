@@ -37,7 +37,7 @@ Below are examples for adding various Stages
       :alt: web-app
       :width: 60%
 
-- Add select boxes component to add "MATCH API FIELDS"". Set its label as ``Columns`` and make this compoenent hidden by selecting ``hidden`` checkbox.
+- Add select boxes component to add "MATCH API FIELDS". Set its label as ``Columns`` and make this compoenent hidden by selecting ``hidden`` checkbox.
 
    .. figure:: ../_assets/web-app/match-api-display.PNG
       :alt: web-app

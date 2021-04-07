@@ -25,7 +25,7 @@ Click on "Sign in as Super user button"
    :width: 60%
 
 
-On updating the username and password::
+On updating the username and password, Click on "Sign In" button, ::
 
 
-    Click on "Sign In" button, On successful authentication, it will redirect user to home page of the Fire Insights application.
+    On successful authentication, it will redirect user to home page of the Fire Insights application.

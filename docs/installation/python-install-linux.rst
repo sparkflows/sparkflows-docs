@@ -52,7 +52,6 @@ Compile the Python source code on your system using altinstall::
   
 .. figure:: ../_assets/configuration/python3_7.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 Create Python virtual environment & Activate it
@@ -66,12 +65,10 @@ Create Python virtual environment & Activate it::
 
 .. figure:: ../_assets/configuration/venv_python.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 .. figure:: ../_assets/configuration/version_python.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Upgrade pip version
@@ -83,7 +80,6 @@ Upgrade pip version with 20.0 or above::
 
 .. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Install dependency for fbprophet package (CentOS 7)
@@ -98,7 +94,6 @@ Run below command with sudo privilege
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
-   :align: center
    :width: 60%   
 
 * Install the CentOS SCL release file::
@@ -107,7 +102,6 @@ Run below command with sudo privilege
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
    
 * Install Developer Toolset version 7::
@@ -116,7 +110,6 @@ Run below command with sudo privilege
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
-   :align: center
    :width: 60%  
  
 * launch a new shell instance using the Software Collection scl tool & Check GCC version::
@@ -126,7 +119,6 @@ Run below command with sudo privilege
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
-   :align: center
    :width: 60%    
 
 * Install fbprophet package::
@@ -135,7 +127,6 @@ Run below command with sudo privilege
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 * Check pip list::
@@ -144,7 +135,6 @@ Run below command with sudo privilege
 
 .. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Reference

@@ -8,5 +8,4 @@ The results of past executions can also be viewed in the Workflow Executions pag
  
 .. figure:: ../../_assets/user-guide/workflow-execution.png
    :alt: Sparkflows Workflow Execution
-   :align: center
 

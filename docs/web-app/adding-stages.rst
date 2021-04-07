@@ -37,13 +37,15 @@ Below are examples for adding various Stages
       :alt: web-app
       :width: 60%
 
-- Add select boxes component to add "MATCH API FIELDS". Set its label as ``Columns`` and make this component hidden by selecting ``hidden`` checkbox.
+- If we want the user to map the columns of the file uploaded, below are the steps for it
+
+Add select boxes component to add the available column names. Set its label as ``Columns`` and make this component hidden by selecting ``hidden`` checkbox.
 
    .. figure:: ../_assets/web-app/match-api-display.PNG
       :alt: web-app
       :width: 60%
 
-- Added default values where ``LABEL`` is ``DISPLAY NAME``, ``VALUE`` is ``ACTUAL COLUMN NAME`` and select that field which should be considered as required field. And don't     select this value ``CLEAR VALUE WHEN HIDDEN`` because we want default value when component is hidden.
+Added default values where ``LABEL`` is ``DISPLAY NAME``, ``VALUE`` is ``ACTUAL COLUMN NAME`` and select that field which should be considered as required field. And don't     select this value ``CLEAR VALUE WHEN HIDDEN`` because we want default value when component is hidden.
 
    .. figure:: ../_assets/web-app/match-api-data.PNG
       :alt: web-app

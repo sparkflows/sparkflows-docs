@@ -11,7 +11,6 @@ Go to the Projects Page
 
  .. figure:: ../../_assets/user-guide/export-import/applicationpage.PNG
    :alt: userguide
-   :align: center
    :width: 60%
 
 
@@ -23,16 +22,14 @@ Select the Projects you want to export
 
  .. figure:: ../../_assets/user-guide/export-import/application.png
      :alt: userguide
-     :align: center
      :width: 60%
 
 
 
-* In the dialog box which comes up, select whether you want to export workflows or datasets or both. 
+* In the dialog box which comes up, select whether you want to export workflows, datasets, analytics apps(if analytics apps is enabled) or all options.
 
  .. figure:: ../../_assets/user-guide/export-import/exportcomp.png
      :alt: userguide
-     :align: center
      :width: 60%
      
      
@@ -40,7 +37,6 @@ Select the Projects you want to export
 
   .. figure:: ../../_assets/user-guide/export-import/exportinfo.png
      :alt: userguide
-     :align: center
      :width: 60%
   
      

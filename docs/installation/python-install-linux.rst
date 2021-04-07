@@ -118,18 +118,20 @@ Run below command with sudo privilege
    :alt: Installations
    :width: 60%  
  
-* launch a new shell instance using the Software Collection scl tool & Check GCC version::
+* launch a new shell instance using the Software Collection scl tool & Check GCC version
+::
  
-  scl enable devtoolset-7 bash
-  gcc --version``
+    scl enable devtoolset-7 bash
+    gcc --version``
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
    :width: 60%    
 
-* Install fbprophet package::
+* Install fbprophet package
+::
    
-  pip install fbprophet
+   pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations

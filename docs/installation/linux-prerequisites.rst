@@ -46,6 +46,18 @@ Install OpenJDK8 JDK using yum
 - yum -y update
 - yum install java-1.8.0-openjdk-devel
 
+Reference
+---------
+
+Links
++++++
+
+* https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+
+
+
+
+
 
 
 Download OpenJDK

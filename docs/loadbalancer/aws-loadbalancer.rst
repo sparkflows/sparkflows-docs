@@ -32,7 +32,6 @@ Below are steps involved in Creating Network Load balancer in AWS.
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer_config.PNG
    :alt: Load balancers
-   :align: center
    :width: 60%
 
 * Configure Security Settings

@@ -22,7 +22,7 @@ Some References for Installing Python:
 Prerequisites
 +++++++++++++
 
-Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python.
+Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python::
 
     yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel
     
@@ -52,7 +52,6 @@ Compile the Python source code on your system using altinstall::
   
 .. figure:: ../_assets/configuration/python3_7.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 Create Python virtual environment & Activate it
@@ -66,12 +65,10 @@ Create Python virtual environment & Activate it::
 
 .. figure:: ../_assets/configuration/venv_python.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 .. figure:: ../_assets/configuration/version_python.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Upgrade pip version
@@ -79,11 +76,10 @@ Upgrade pip version
 
 Upgrade pip version with 20.0 or above::
 
- pip install pip --upgrade
+  pip install pip --upgrade
 
 .. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Install dependency for fbprophet package (CentOS 7)
@@ -92,59 +88,62 @@ Install dependency for fbprophet package (CentOS 7)
 Run below command with sudo privilege
 ++++++++++++++++++++++++++++++++++
 
-* Install development tool::
+* Install development tool
 
-   yum install -y xz-devel
+::
+
+      yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
-   :align: center
    :width: 60%   
 
-* Install the CentOS SCL release file::
+* Install the CentOS SCL release file
 
-   yum install centos-release-scl
+::
+
+     yum install centos-release-scl
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
    
-* Install Developer Toolset version 7::
+* Install Developer Toolset version 7
 
-   yum install devtoolset-7
+::
+
+    yum install devtoolset-7
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
-   :align: center
    :width: 60%  
  
-* launch a new shell instance using the Software Collection scl tool & Check GCC version::
+* launch a new shell instance using the Software Collection scl tool & Check GCC version
+::
  
-   scl enable devtoolset-7 bash
-   gcc --version``
+    scl enable devtoolset-7 bash
+    gcc --version
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
-   :align: center
    :width: 60%    
 
-* Install fbprophet package::
+* Install fbprophet package
+::
    
    pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
-* Check pip list::
+* Check pip list
+::
    
    pip list
 
 .. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Reference
@@ -158,14 +157,15 @@ Links
 Install Other Packages
 ----------------------
 
-Install the required packages::
+Install the required packages
+::
 
-    cd fire-x.y.x/dist/fire
-    pip install -r requirements.txt
+  cd fire-x.y.x/dist/fire
+  pip install -r requirements.txt
    
 ``requirements.txt`` file is available in the installation directory of fire insights::
 
-    fire-x.y.x/dist/fire/requirements.txt
+  fire-x.y.x/dist/fire/requirements.txt
 
 Reference
 ---------
@@ -182,11 +182,11 @@ Delete a venv
 
 To delete a virtual environment, follow below steps::
 
-    source venv/bin/activate
-    pip freeze > requirements.txt
-    pip uninstall -r requirements.txt -y
-    deactivate
-    rm -r venv/
+  source venv/bin/activate
+  pip freeze > requirements.txt
+  pip uninstall -r requirements.txt -y
+  deactivate
+  rm -r venv/
 
 Installing pip & wheel
 +++++++++++++++++++

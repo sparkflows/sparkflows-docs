@@ -17,7 +17,6 @@ Click Next to confirm the installation
 
 .. figure:: ../_assets/installation/anaconda.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 
@@ -26,7 +25,6 @@ Agree to the License
 
 .. figure:: ../_assets/installation/anaconda_agreement.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Advanced Installation Options screen
@@ -36,7 +34,6 @@ It is recommended to not check "Add Anaconda to my PATH environment variable"
 
 .. figure:: ../_assets/installation/anaconda_path.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 
@@ -47,7 +44,6 @@ At the Anaconda prompt, check the ``conda --version``
 
 .. figure:: ../_assets/installation/conda_version.PNG
    :alt: Installations
-   :align: center
    :width: 60%
    
 Reference Link
@@ -65,7 +61,6 @@ Run below command to Create virtual environment using conda.
 
 .. figure:: ../_assets/installation/virtual_env.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Activate Virtual environment and Check list of python package
@@ -79,7 +74,6 @@ Run Below command to activate and check list of python package available by defa
 
 .. figure:: ../_assets/installation/activate_conda_env.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Install Other Dependent Packages
@@ -93,7 +87,6 @@ Install the other required packages:
 
 .. figure:: ../_assets/installation/req_text.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 
@@ -106,7 +99,6 @@ Install pystan:
 
 .. figure:: ../_assets/installation/conda-pystan.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Install fbprophet:
@@ -115,7 +107,6 @@ Install fbprophet:
 
 .. figure:: ../_assets/installation/fbprophet_conda.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Check the version of fbprophet Installed:
@@ -124,7 +115,6 @@ Check the version of fbprophet Installed:
 
 .. figure:: ../_assets/installation/piplist_conda.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Once the above steps have completed successfully, run the below command to ensure everything was setup correctly.
@@ -133,7 +123,6 @@ Once the above steps have completed successfully, run the below command to ensur
 
 .. figure:: ../_assets/installation/pyspark_server.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Enable PySpark Engine in Fire Insights
@@ -143,7 +132,6 @@ Login to Fire Insights application and go to configurations and set ``app.enable
 
 .. figure:: ../_assets/installation/pyspark_url.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Removing Conda virtual Environment

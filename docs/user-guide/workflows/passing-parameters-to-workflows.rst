@@ -13,14 +13,13 @@ Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflo
 Through Program Parameters in Fire during Workflow Execution
 ------------------------------------------------------------
 
-Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
+Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var data=1``
 These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow.
 
 Below is a screenshot:
 
 .. figure:: ../../_assets/user-guide/passing-parameters-1.png
    :alt: Passing Parameters to Workflows
-   :align: center
 
 By specifying the parameters in the Workflow Editor
 ---------------------------------------------------
@@ -37,7 +36,6 @@ A Parameter Processor can be added to the workflow. It allows passing key/value 
 
 .. figure:: ../../_assets/user-guide/passing-parameters-2.png
    :alt: Passing Parameters to Workflows
-   :align: center
    
 A Processor creating a variable during execution time
 ------------------------------------------------
@@ -84,7 +82,6 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
 
 .. figure:: ../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
-   :align: center
    
 In the above, **app.vars** parameter allows specifying a space separated list of name=value pairs. 
 

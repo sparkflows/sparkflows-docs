@@ -40,11 +40,22 @@ Update ``.bash_profile`` to add the below::
   export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
   export PATH=$PATH:$JAVA_HOME/bin
 
-Using yum
+Install OpenJDK8 JDK using yum
 =========
 
 - yum -y update
-- yum install java-1.8.0-openjdk
+- yum install java-1.8.0-openjdk-devel
+
+Reference
+---------
+Links
++++++
+
+* https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+
+
+
+
 
 
 

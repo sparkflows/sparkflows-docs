@@ -7,7 +7,6 @@ It will bring up the dialog box below. Select the format of the file for which t
 
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 Entering Field Details
@@ -23,9 +22,8 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 
     
- .. figure:: ../../_assets/tutorials/dataset/16.PNG
+ .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :align: center
    :width: 60%  
 
 
@@ -40,7 +38,6 @@ You can update the column names in the schema based on your data.
  
  .. figure:: ../../_assets/tutorials/dataset/17.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 

@@ -29,7 +29,6 @@ Below is the sample workflows which contains ``Time Series data`` and visualize 
 
 .. figure:: ../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
-   :align: center
    :width: 60%
 
 Configurations for visualization processors in Fire Insight:
@@ -38,14 +37,12 @@ Configurations for visualization processors in Fire Insight:
 
 .. figure:: ../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
-   :align: center
    :width: 60%
 
 Output result of ``Visualization`` processor:
 
 .. figure:: ../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
-   :align: center
    :width: 60%
 
 Charts : BarChart
@@ -54,7 +51,6 @@ Charts : BarChart
 
 .. figure:: ../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
-   :align: center
    :width: 60%
    
 Charts : Scatter
@@ -62,5 +58,4 @@ Charts : Scatter
 
 .. figure:: ../_assets/ml_userguide/scater_graph.png
    :alt: ml_userguide
-   :align: center
    :width: 60%

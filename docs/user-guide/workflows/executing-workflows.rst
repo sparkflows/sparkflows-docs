@@ -15,7 +15,6 @@ Workflows can be executed from the browser by going into the Execute page of the
 
 .. figure:: ../../_assets/user-guide/workflow/4.PNG
    :alt: Workflow
-   :align: center
    :width: 60%
 
 Executing Workflows with spark-submit
@@ -65,7 +64,6 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 
 .. figure:: ../../_assets/user-guide/json-workflow.png
    :alt: Sparkflows Json Workflow
-   :align: center
  
  
 Scheduling Workflow execution with Scheduler of choice
@@ -77,7 +75,6 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
 
 .. figure:: ../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
-   :align: center
    :width: 60%  
  
  
@@ -85,21 +82,18 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
  
  .. figure:: ../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow
-   :align: center
    :width: 60% 
  
  - Update the scheduled timing & email notifications after success & failure of workflow as per our requirments.
  
 .. figure:: ../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow
-   :align: center
    :width: 60%    
 
-- Click on OK to save the changes.
+- Click on SUBMIT to save the changes.
 
 .. figure:: ../../_assets/user-guide/workflow/8.PNG
    :alt: Workflow
-   :align: center
    :width: 60%  
 
  

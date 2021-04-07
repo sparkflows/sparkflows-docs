@@ -7,12 +7,16 @@ Go to folder ``conf`` and edit the file ``sso.saml.properties`` in it:
 
 Add/update the below information from newly created application in Okta:
 
-1. Enable sso in Fire Insights::
+1. Enable sso in Fire Insights
+
+::
 
     sparkflows.sp.sso.enable=true 
     
-2. Create user automatically in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'::
-    
+2. Create user automatically in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'
+
+::
+
     sparkflows.sp.auto.user.create=true 
     
 3. Copy Okta config info

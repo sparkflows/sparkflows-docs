@@ -16,7 +16,6 @@ The cluster can be on-premise or on the cloud.
 
 .. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
    :alt: Fire Deployment
-   :align: center
 
 
 Deployment on a Standalone Machine
@@ -32,5 +31,4 @@ This mode can be used for:
 .. figure:: ../../_assets/architecture/personal-machine.png
    :scale: 50%
    :alt: Fire Deployment on Standalone Machine
-   :align: center
    

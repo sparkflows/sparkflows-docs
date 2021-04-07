@@ -11,6 +11,6 @@ User Guide
    export-import/index.rst
    data_profile.rst
    pipelines.rst
-   tesseract.rst
+   
 
 

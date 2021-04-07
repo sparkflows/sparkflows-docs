@@ -7,29 +7,28 @@ A typical workflow takes one or more dataset, cleans them and joins them, and cr
 
 At a high level,creating a workflow involves the following steps:
 
-- *Open the Application where you want to create your workflow*
+- *Open the Project where you want to create your workflow*
 - *Click "Workflows" tab*
 - *Create empty workflow*
 - *Add processors*
 - *Save workflow*
 
-Application
+Project
 =======================
-Open the application where you want to create your new workflow.
+Open the project where you want to create your new workflow.
 
 .. figure:: ../_assets/tutorials/quickstart/8.PNG
    :alt: Quicstart
-   :align: center
 
 
 
 Workflows Tab
 ============================
-Click "Workflows" tab to view the list of workflows already in the application. The workflow list will be empty if no workflows have been created earlier. 
+Click "Workflows" tab to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created earlier. 
 
 .. figure:: ../_assets/tutorials/quickstart/7.PNG
    :alt: Quicstart
-   :align: center
+
 
 Create Empty Workflow
 ========================
@@ -46,7 +45,7 @@ After you have saved the empty workflow, you can start adding processors to proc
 
 .. figure:: ../_assets/tutorials/quickstart/9.PNG
    :alt: Quickstart
-   :align: center
+
 
 
 

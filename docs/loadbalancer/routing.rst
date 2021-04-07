@@ -30,9 +30,7 @@ Create hosted zone
 
 .. figure:: ..//_assets/loadbalancer/loadbalancer-hosted.PNG
    :alt: Load balancers
-   :align: center
    :width: 60% 
-
 * Create records
 
 Create records and Registered Network load balancer to it.

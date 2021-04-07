@@ -1,7 +1,7 @@
 Super User login using database
 ==============
 
-Application allows to enable super user login by changing in sso.saml.properties file
+Fire Insights allows to enable super user login by changing in `sso.saml.properties` file
 
 ::
 

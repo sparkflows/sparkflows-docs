@@ -13,7 +13,7 @@ Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflo
 Through Program Parameters in Fire during Workflow Execution
 ------------------------------------------------------------
 
-Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var doctor=1``
+Key/Value pairs can be passed to Fire during Workflow Execution. An example of it is ``--var data=1``
 These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow.
 
 Below is a screenshot:

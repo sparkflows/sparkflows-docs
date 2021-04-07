@@ -88,15 +88,18 @@ Install dependency for fbprophet package (CentOS 7)
 Run below command with sudo privilege
 ++++++++++++++++++++++++++++++++++
 
-* Install development tool::
+* Install development tool
 
+::
     yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
    :width: 60%   
 
-* Install the CentOS SCL release file::
+* Install the CentOS SCL release file
+
+::
 
   yum install centos-release-scl
   

@@ -14,7 +14,7 @@ After enabling super user db login, one more button appears on Login page.
    :width: 60%
 	
 	
-Click on Sign in as Super user button. It will redirect you to super user login form page.
+Click on 'Sign in as Super user button', It will redirect you to super user login form page.
 
 .. figure:: ../../_assets/authentication/login_form.png
    :alt: sso super user login using database

@@ -14,7 +14,7 @@ After enabling super user db login, one more button appears on Login page, after
    :width: 60%
 	
 	
-Click on "Sign in as Super user button"
+Click on "Sign in as Super user" button
 
 ::
 

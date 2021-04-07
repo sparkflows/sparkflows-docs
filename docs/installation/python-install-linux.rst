@@ -102,15 +102,17 @@ Run below command with sudo privilege
 
 ::
 
-    yum install centos-release-scl
+     yum install centos-release-scl
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations
    :width: 60% 
    
-* Install Developer Toolset version 7::
+* Install Developer Toolset version 7
 
-  yum install devtoolset-7
+::
+
+    yum install devtoolset-7
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations

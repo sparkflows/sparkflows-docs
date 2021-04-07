@@ -122,7 +122,7 @@ Run below command with sudo privilege
 ::
  
     scl enable devtoolset-7 bash
-    gcc --version``
+    gcc --version
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
@@ -137,9 +137,10 @@ Run below command with sudo privilege
    :alt: Installations
    :width: 60%
 
-* Check pip list::
+* Check pip list
+::
    
-  pip list
+   pip list
 
 .. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations
@@ -156,7 +157,8 @@ Links
 Install Other Packages
 ----------------------
 
-Install the required packages::
+Install the required packages
+::
 
   cd fire-x.y.x/dist/fire
   pip install -r requirements.txt

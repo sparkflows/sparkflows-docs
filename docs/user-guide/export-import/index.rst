@@ -1,12 +1,12 @@
 
-Export / Import of Applications
+Export / Import of Projects
 ====
 
-Fire enables you to export your Applications and download them to your computer.
+Fire enables you to export your Projects and download them to your computer.
 
-It then also enables you to import your Applications back into any instance of Fire.
+It then also enables you to import your Projects back into any instance of Fire.
 
-This is useful when you need to move/copy your Application from one environment to another.
+This is useful when you need to move/copy your Project from one environment to another.
 
 .. toctree::
    :maxdepth: 2

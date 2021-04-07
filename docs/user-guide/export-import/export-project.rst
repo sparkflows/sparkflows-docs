@@ -1,12 +1,12 @@
-Exporting Applications
+Exporting Projects
 ==============
 
-Fire allows you to export Applications and download them to your computer.
+Fire allows you to export Projects and download them to your computer.
 
-Below are the steps for exporting Applications in Fire.
+Below are the steps for exporting Projects in Fire.
 
 
-Go to the Applications Page
+Go to the Projects Page
 ---------------------------
 
  .. figure:: ../../_assets/user-guide/export-import/applicationpage.PNG
@@ -15,10 +15,10 @@ Go to the Applications Page
    :width: 60%
 
 
-Select the Applications you want to export
+Select the Projects you want to export
 ------------------------------
 
-* Select the Applications you would like to export.
+* Select the Projects you would like to export.
 * Then click on the Export button.
 
  .. figure:: ../../_assets/user-guide/export-import/application.png
@@ -36,7 +36,7 @@ Select the Applications you want to export
      :width: 60%
      
      
-* Fire will now export the selected applications and download them to your computer.
+* Fire will now export the selected projects and download them to your computer.
 
   .. figure:: ../../_assets/user-guide/export-import/exportinfo.png
      :alt: userguide

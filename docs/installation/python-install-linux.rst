@@ -76,7 +76,7 @@ Upgrade pip version
 
 Upgrade pip version with 20.0 or above::
 
-    pip install pip --upgrade
+  pip install pip --upgrade
 
 .. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations

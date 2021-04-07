@@ -91,6 +91,7 @@ Run below command with sudo privilege
 * Install development tool
 
 ::
+
       yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG

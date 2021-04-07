@@ -40,7 +40,7 @@ Update ``.bash_profile`` to add the below::
   export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
   export PATH=$PATH:$JAVA_HOME/bin
 
-Using yum
+Install OpenJDK 8 using yum
 =========
 
 - yum -y update

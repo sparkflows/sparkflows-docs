@@ -20,7 +20,6 @@ Below is a screenshot:
 
 .. figure:: ../../_assets/user-guide/passing-parameters-1.png
    :alt: Passing Parameters to Workflows
-   :align: center
 
 By specifying the parameters in the Workflow Editor
 ---------------------------------------------------
@@ -37,7 +36,6 @@ A Parameter Processor can be added to the workflow. It allows passing key/value 
 
 .. figure:: ../../_assets/user-guide/passing-parameters-2.png
    :alt: Passing Parameters to Workflows
-   :align: center
    
 A Processor creating a variable during execution time
 ------------------------------------------------
@@ -84,7 +82,6 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
 
 .. figure:: ../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
-   :align: center
    
 In the above, **app.vars** parameter allows specifying a space separated list of name=value pairs. 
 

@@ -11,5 +11,5 @@ This is useful when you need to move/copy your Application from one environment 
 .. toctree::
    :maxdepth: 2
 
-   export-applications.rst
-   import-applications.rst
+   export-projects.rst.rst
+   import-projects.rst

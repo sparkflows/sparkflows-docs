@@ -21,5 +21,5 @@ Click on Sign in as Super user button. It will redirect you to super user login 
    :width: 60%
 
 
-Fill the username and password. Click on SignIn. On success of authentication, it will
+Fill the username and password. Click on Sign In button. On success of authentication, it will
 redirect user to home page of the application.

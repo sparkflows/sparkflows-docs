@@ -5,7 +5,7 @@ Application allows to enable super user login by changing in sso.saml.properties
 
 ::
 
-sparkflows.sp.db.login.enable=true
+    sparkflows.sp.db.login.enable=true
 
 After enabling super user db login, one more button appears on Login page.
 

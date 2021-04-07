@@ -91,7 +91,7 @@ Run below command with sudo privilege
 * Install development tool
 
 ::
-    yum install -y xz-devel
+      yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
@@ -101,7 +101,7 @@ Run below command with sudo privilege
 
 ::
 
-  yum install centos-release-scl
+    yum install centos-release-scl
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations

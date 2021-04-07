@@ -76,7 +76,7 @@ Upgrade pip version
 
 Upgrade pip version with 20.0 or above::
 
- pip install pip --upgrade
+  pip install pip --upgrade
 
 .. figure:: ../_assets/configuration/upgrade-pip.PNG
    :alt: Installations
@@ -90,7 +90,7 @@ Run below command with sudo privilege
 
 * Install development tool::
 
-   yum install -y xz-devel
+  yum install -y xz-devel
     
 .. figure:: ../_assets/configuration/develop-tool.PNG
    :alt: Installations
@@ -98,7 +98,7 @@ Run below command with sudo privilege
 
 * Install the CentOS SCL release file::
 
-   yum install centos-release-scl
+  yum install centos-release-scl
   
 .. figure:: ../_assets/configuration/scl-tool.PNG
    :alt: Installations
@@ -106,7 +106,7 @@ Run below command with sudo privilege
    
 * Install Developer Toolset version 7::
 
-   yum install devtoolset-7
+  yum install devtoolset-7
   
 .. figure:: ../_assets/configuration/devtool7.PNG
    :alt: Installations
@@ -114,8 +114,8 @@ Run below command with sudo privilege
  
 * launch a new shell instance using the Software Collection scl tool & Check GCC version::
  
-   scl enable devtoolset-7 bash
-   gcc --version``
+  scl enable devtoolset-7 bash
+  gcc --version``
    
 .. figure:: ../_assets/configuration/gcc_version.PNG
    :alt: Installations
@@ -123,7 +123,7 @@ Run below command with sudo privilege
 
 * Install fbprophet package::
    
-   pip install fbprophet
+  pip install fbprophet
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
@@ -131,7 +131,7 @@ Run below command with sudo privilege
 
 * Check pip list::
    
-   pip list
+  pip list
 
 .. figure:: ../_assets/configuration/list-pip.PNG
    :alt: Installations
@@ -150,12 +150,12 @@ Install Other Packages
 
 Install the required packages::
 
-    cd fire-x.y.x/dist/fire
-    pip install -r requirements.txt
+  cd fire-x.y.x/dist/fire
+  pip install -r requirements.txt
    
 ``requirements.txt`` file is available in the installation directory of fire insights::
 
-    fire-x.y.x/dist/fire/requirements.txt
+  fire-x.y.x/dist/fire/requirements.txt
 
 Reference
 ---------
@@ -172,11 +172,11 @@ Delete a venv
 
 To delete a virtual environment, follow below steps::
 
-    source venv/bin/activate
-    pip freeze > requirements.txt
-    pip uninstall -r requirements.txt -y
-    deactivate
-    rm -r venv/
+  source venv/bin/activate
+  pip freeze > requirements.txt
+  pip uninstall -r requirements.txt -y
+  deactivate
+  rm -r venv/
 
 Installing pip & wheel
 +++++++++++++++++++

@@ -81,7 +81,7 @@ where:
 
 It reads the AirPassengers dataset & use ARIMA processor which Forecast the airline passengers count, generate a new column with unique index/value for each row in dataset and print the result.
 
-.. figure:: ../../_assets/ml_userguide/arima.PNG
+.. figure:: ../_assets/ml_userguide/arima.PNG
    :alt: ml_userguide
    :width: 60%
    

@@ -1,7 +1,7 @@
 Installing JDBC Drivers for Interactive Dashboard
 =======================
 
-Interactive Dashboard work with JDBC sources. The appropriate JDBC jars have to be installed.
+Dashboard work with JDBC sources. The appropriate JDBC jars have to be installed.
 
 Below are the steps for installing the JDBC driver for Interactive Dashboards:
 
@@ -34,7 +34,7 @@ Downloading MySQL Connector
 ---------------------------
 
 - MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/
-- After downloading untar it with : ``tar xvf mysql-connector-java-5.1.46.tar.gz`` 
+- After downloading untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
 - After untaring the jdbc jar file is available in the directory
-- Use the jar file (mysql-connector-java-5.1.46.jar) for installation in Fire
+- Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire
 

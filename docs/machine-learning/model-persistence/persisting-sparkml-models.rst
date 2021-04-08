@@ -13,7 +13,6 @@ NodeModelSave processor, saves the given Apache Spark ML model at the given loca
 
 .. figure:: ../../_assets/model/savemodelconfigurations.PNG
    :alt: Modelsave
-   :align: center
    :width: 60%
    
 ML Save Workflow
@@ -22,7 +21,6 @@ ML Save Workflow
 
 .. figure:: ../../_assets/model/mlmodelsave.png
    :alt: Modelsave
-   :align: center
    :width: 60%
    
    
@@ -31,7 +29,6 @@ Load Model processor
 
 .. figure:: ../../_assets/model/loadmodelconfigurations.PNG
    :alt: Modelsave
-   :align: center
    :width: 60%   
    
    
@@ -41,6 +38,5 @@ ML Load Workflow
    
 .. figure:: ../../_assets/model/mlmodelload.png
    :alt: Modelsave
-   :align: center
    :width: 60%   
    

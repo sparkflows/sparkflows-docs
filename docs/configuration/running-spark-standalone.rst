@@ -15,7 +15,6 @@ Installing Spark Standalone
   .. figure:: ../_assets/user-guide/spark_standalone_java_version.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
    
 
 Install Scala
@@ -34,7 +33,6 @@ Install Scala
   .. figure:: ../_assets/user-guide/spark_standalone_scala_version.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
    
 
 Install Apache Spark
@@ -64,7 +62,6 @@ Install Apache Spark
   .. figure:: ../_assets/user-guide/spark_standalone_spark_version.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
   
   
 - Start a standalone master server by executing:
@@ -81,7 +78,6 @@ Install Apache Spark
   .. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
 
 Setup Spark Slave(Worker) Node
 ------------------------------
@@ -122,7 +118,6 @@ Install Fire on the master node.
   .. figure:: ../_assets/user-guide/spark_standalone_port_configurations.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
 
 - Create database & run fire & fire-ui server
 
@@ -157,7 +152,6 @@ The following configurations have to be set appropriately
   .. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center
 
 
 Now go to application and try to run any workflows
@@ -166,4 +160,3 @@ Now go to application and try to run any workflows
   .. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
    :scale: 100%
    :alt: Standalone spark
-   :align: center

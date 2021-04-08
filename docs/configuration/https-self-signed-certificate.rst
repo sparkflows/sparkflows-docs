@@ -17,21 +17,18 @@ Export the certificate to your machine
 
 .. figure:: ../_assets/configuration/Url_https.PNG
    :alt: certificate
-   :align: center
    :width: 60%
    
 - Click on ``Not secure`` option.
  
 .. figure:: ../_assets/configuration/Notsecure.PNG
    :alt: certificate
-   :align: center
    :width: 60%
    
 - Click on ``Certificate``.
 
 .. figure:: ../_assets/configuration/certificate.PNG
    :alt: certificate
-   :align: center
    :width: 60%
    
    
@@ -40,42 +37,36 @@ Export the certificate to your machine
 
 .. figure:: ../_assets/configuration/viewcertificate.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Click on ``Details`` option to see detail information of certificate.
 
 .. figure:: ../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
 .. figure:: ../_assets/configuration/Copyfile.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Select below option and press ``Next``.
 
 .. figure:: ../_assets/configuration/Exportfile.PNG
    :alt: certificate
-   :align: center
    :width: 60%
    
 - Select the ``Name & file location`` of certificate.
 
 .. figure:: ../_assets/configuration/filelocation.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - After upadating the details ``Success msg`` will apear.
 
 .. figure:: ../_assets/configuration/exportcertificate.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 Next we need to add the exported certificate to the Browser.
@@ -92,46 +83,39 @@ Add Certificate to Browser
 
 .. figure:: ../_assets/configuration/managecertificate.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Click on ``Manage Certificate`` icon.
 
 .. figure:: ../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Click on ``import``.
 
 .. figure:: ../_assets/configuration/import.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Select ``certificate from local system``, use ``Trusted Root Certification Authorities`` option and press ``yes`` to save it.
 
 .. figure:: ../_assets/configuration/Trustedroot.PNG
    :alt: certificate
-   :align: center
    :width: 60%
    
 
 .. figure:: ../_assets/configuration/Savingcertificate.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 .. figure:: ../_assets/configuration/successmsg.PNG
    :alt: certificate
-   :align: center
    :width: 60%
 
 - Once the above process complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
 
 .. figure:: ../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
-   :align: center
    :width: 60%
    
 

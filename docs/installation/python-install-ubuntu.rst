@@ -27,7 +27,6 @@ update the packages list and install the packages necessary to build Python sour
 
 .. figure:: ../_assets/configuration/update_ubuntu.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 * Install needed dependency::
@@ -36,7 +35,6 @@ update the packages list and install the packages necessary to build Python sour
 
 .. figure:: ../_assets/configuration/software_update.PNG
    :alt: Installations
-   :align: center
    :width: 60%   
 
 Download and extract the downloaded package  
@@ -53,7 +51,6 @@ Download and untar::
 
 .. figure:: ../_assets/configuration/download_tar.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
@@ -62,7 +59,6 @@ Next, navigate to the Python source directory and run the configure script which
 
 .. figure:: ../_assets/configuration/cd_python.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 * Build & compile::
@@ -71,7 +67,6 @@ Next, navigate to the Python source directory and run the configure script which
  
 .. figure:: ../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
-   :align: center
    :width: 60%
    
 * Install the Python binaries by running the following command:: 
@@ -80,7 +75,6 @@ Next, navigate to the Python source directory and run the configure script which
 
 .. figure:: ../_assets/configuration/make.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Note: Do not use the standard make install as it will overwrite the default system python3 binary.
@@ -91,7 +85,6 @@ Verify it by typing::
 
 .. figure:: ../_assets/configuration/python_version.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 Create Python virtual environment & Activate it
@@ -105,7 +98,6 @@ Create Python virtual environment & Activate it::
   
 .. figure:: ../_assets/configuration/venv_ubuntu.PNG
    :alt: Installations
-   :align: center
    :width: 60%  
 
 Upgrade pip version
@@ -116,7 +108,6 @@ Upgrade pip version with 20.0 or above::
   
 .. figure:: ../_assets/configuration/pipupdate.PNG
    :alt: Installations
-   :align: center
    :width: 60%  
    
 Install dependency for fbprophet package (Ubuntu 18.04)
@@ -128,7 +119,6 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 .. figure:: ../_assets/configuration/pystan.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 
@@ -138,7 +128,6 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 .. figure:: ../_assets/configuration/convertdate.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 * fbprophet dependency::
@@ -147,7 +136,6 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 * Check pip list::
@@ -156,7 +144,6 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
 .. figure:: ../_assets/configuration/piplist.PNG
    :alt: Installations
-   :align: center
    :width: 60% 
 
 Install Other Packages

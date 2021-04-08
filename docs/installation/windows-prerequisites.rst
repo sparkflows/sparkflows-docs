@@ -58,21 +58,18 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 
 .. figure:: ../_assets/installation/create-hadoop_directory.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 - Create bin folder in hadoop directory : ``C:\hadoop\bin``.
 
 .. figure:: ../_assets/installation/create-bin_directory.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 - Copy the downloaded winutils.exe to the bin directory : ``C:\hadoop\bin\winutils.exe``.
 
 .. figure:: ../_assets/installation/winutils.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 - Add a new Environment Variable. 
@@ -81,7 +78,6 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
   
 .. figure:: ../_assets/installation/hadoop_environment.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
   
@@ -90,7 +86,6 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 
 .. figure:: ../_assets/installation/hadoop_environment_path.PNG
    :alt: Installations
-   :align: center
    :width: 60%
 
 * Guide to setting Environment Variables on Windows

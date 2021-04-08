@@ -48,7 +48,6 @@ Install OpenJDK8 JDK using yum
 
 Reference
 ---------
-
 Links
 +++++
 

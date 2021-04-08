@@ -7,7 +7,6 @@ Below are the configurations needed in Fire for Airflow.
 
 .. figure:: ../_assets/user-guide/pipelines-configuration.PNG
    :alt: Pipelines Configuration
-   :align: center
    
 Airflow Installation
 --------------------
@@ -48,7 +47,6 @@ https://airflow.apache.org/installation.html
 
 .. figure:: ../_assets/user-guide/airflow-version.PNG
    :alt: airflow
-   :align: center
   
 - Generate a Fernet key for Airflow(optional)
  - python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
@@ -64,19 +62,16 @@ https://airflow.apache.org/installation.html
 
 .. figure:: ../_assets/user-guide/airflow-webserver-running-url.PNG
    :alt: airflow
-   :align: center
  
 - Start the scheduler
  - airflow scheduler
 
 .. figure:: ../_assets/user-guide/airflow-scheduler.PNG
    :alt: airflow
-   :align: center
    
 - Login in browser
  - http://x.y.z.w:8090   
 
 .. figure:: ../_assets/user-guide/airflow-web-url.PNG
    :alt: airflow
-   :align: center
    

@@ -25,10 +25,9 @@ Copy the downloaded JDBC jar file into it.
 Restart Fire Server
 ------------
 
-Restart Fire server with:: 
+Restart Fire server with `` ./run-fire-server.sh restart``
 
-  ./run-fire-server.sh restart
-
+ 
 Downloading MySQL Connector
 ---------------------------
 

@@ -27,7 +27,7 @@ Restart Fire Server
 
 Restart Fire server with:: 
 
-  ./run-fire-server.sh restart``
+  ./run-fire-server.sh restart
 
 Downloading MySQL Connector
 ---------------------------

@@ -3,11 +3,11 @@ Installing JDBC Drivers for Dashboard
 
 Dashboard work with JDBC sources. The appropriate JDBC jars have to be installed.
 
-Below are the steps for installing the JDBC driver for Interactive Dashboards:
+Below are the steps for installing the JDBC driver for Interactive Dashboards::
 
-- *Download the JDBC jar file*
-- *Copy it into `fire-server-lib` directory under the Fire installation*
-- *Restart fire-server*
+  Download the JDBC jar file
+  Copy it into `fire-server-lib` directory under the Fire installation
+  Restart fire-server
 
 Download the JDBC jar file
 --------------------------
@@ -25,15 +25,14 @@ Copy the downloaded JDBC jar file into it.
 Restart Fire Server
 ------------
 
-Restart Fire with ``./run-fire-server.sh restart``
+Restart Fire server with:: 
 
-Fire does not need to be restarted.
-
+  ./run-fire-server.sh restart``
 
 Downloading MySQL Connector
 ---------------------------
 
-- MySQL connector can be downloaded from :  https://dev.mysql.com/downloads/connector/j/
+- MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/
 - After downloading untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
 - After untaring the jdbc jar file is available in the directory
 - Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire

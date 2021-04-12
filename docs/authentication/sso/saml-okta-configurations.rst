@@ -25,7 +25,9 @@ Add/update the below information from newly created application in Okta:
 
     sparkflows.sp.db.login.enable=true
 
-4. enable/disable global logout::
+4. enable/disable global logout
+
+::
 
     saml2.global.logout=true
     

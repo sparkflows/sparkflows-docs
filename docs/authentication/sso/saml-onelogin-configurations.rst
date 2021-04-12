@@ -70,8 +70,9 @@ Add below information from newly created application in oneLogin:
 
     saml.sso.metadata-generator.entity-base-url=https://localhost:8443
     
-10. server name::
+10. server name
 
+::
     saml.context.lb.server-name=localhost:8443
     saml.context.lb.scheme=https
     saml.context.lb.contextPath=/

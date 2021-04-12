@@ -66,8 +66,9 @@ Add below information from newly created application in oneLogin:
 
     saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
 
-9. application base url::
+9. application base url
 
+::
 
     saml.sso.metadata-generator.entity-base-url=https://localhost:8443
     

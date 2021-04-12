@@ -15,8 +15,16 @@ Add below information from newly created application in oneLogin:
 2. Create user locally in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'::
     
     sparkflows.sp.auto.user.create=true 
+    
+3. Disable the db login for superuser or else you can enable it to login with superuser authentication::
 
-3. Metadata url of identity provider.
+    sparkflows.sp.db.login.enable=true
+
+4. enable/disable global logout::
+
+    saml2.global.logout=true
+    
+5. Metadata url of identity provider.
 
 .. figure:: ../../_assets/authentication/saml_metadata_url.png
    :alt: sso
@@ -26,7 +34,7 @@ Add below information from newly created application in oneLogin:
   
     saml2.idp.metadata-url=https://sparkflows-dev.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
     
-4. Identifier of the SP entity  (must be a URI) Audience URI
+6. Identifier of the SP entity  (must be a URI) Audience URI
 		        
 .. figure:: ../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
@@ -36,7 +44,7 @@ Add below information from newly created application in oneLogin:
 
     saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
    
-5. Identifier of the IdP entity  (must be a URI)
+7. Identifier of the IdP entity  (must be a URI)
   
    
 .. figure:: ../../_assets/authentication/one_login_entity_id.png
@@ -47,7 +55,7 @@ Add below information from newly created application in oneLogin:
 
     saml2.idp.entityid=https://app.onelogin.com/saml/metadata/5f5d16a1-07d1-4167-a305-489d2ee0b18b
 
-6. Algorithm that the toolkit will use on signing process.
+8. Algorithm that the toolkit will use on signing process.
 
   
 .. figure:: ../../_assets/authentication/saml_signature.png
@@ -58,6 +66,15 @@ Add below information from newly created application in oneLogin:
 
     saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
 
+9. application base url::
+
+    saml.sso.metadata-generator.entity-base-url=https://localhost:8443
+    
+10. server name::
+
+    saml.context.lb.server-name=localhost:8443
+    saml.context.lb.scheme=https
+    saml.context.lb.contextPath=/
  
 
 .. note::  Make sure to change localhost to your domain name or your ip

@@ -19,7 +19,9 @@ Add/update the below information from newly created application in Okta:
 
     sparkflows.sp.auto.user.create=true 
     
-3. Disable the db login for superuser or else you can enable it to login with superuser authentication::
+3. Disable the db login for superuser or else you can enable it to login with superuser authentication
+
+::
 
     sparkflows.sp.db.login.enable=true
 

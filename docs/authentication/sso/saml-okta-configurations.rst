@@ -19,7 +19,20 @@ Add/update the below information from newly created application in Okta:
 
     sparkflows.sp.auto.user.create=true 
     
-3. Copy Okta config info
+3. Disable the db login for superuser or else you can enable it to login with superuser authentication
+
+::
+
+    sparkflows.sp.db.login.enable=true
+
+4. enable/disable global logout
+
+::
+
+    saml2.global.logout=true
+    
+    
+5. Copy Okta config info
 
 ::
 
@@ -32,7 +45,7 @@ Add/update the below information from newly created application in Okta:
    :alt: sso
    :width: 60%
 
-4. Right click on identity provider metadata and select Copy link address
+6. Right click on identity provider metadata and select Copy link address
 
 ::
 
@@ -44,7 +57,7 @@ Add/update the below information from newly created application in Okta:
    :alt: sso
    :width: 60%    
 
-5. Capture Issuer url
+7. Capture Issuer url
 
 .. figure:: ../../_assets/authentication/okta_issuer.png
    :alt: sso
@@ -54,4 +67,24 @@ Add/update the below information from newly created application in Okta:
    :alt: sso
    :width: 60% 
 
+8. Algorithm that the toolkit will use on signing process.
+
+::
+
+  saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+
+9. Application base url
+
+::
+
+  saml.sso.metadata-generator.entity-base-url=https://localhost:8443
+  
+10. server name
+
+::
+
+  saml.context.lb.server-name=localhost:8443
+  saml.context.lb.scheme=https
+  saml.context.lb.contextPath=/  
+  
 .. note::  Make sure to change localhost to your domain name or your ip    

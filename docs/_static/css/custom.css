@@ -205,3 +205,6 @@ h6 {
 .wy-menu-vertical a {
     font-size: 0.9rem;
 }
+@page{
+    margin: .5cm .5cm .5cm -9cm; 
+}

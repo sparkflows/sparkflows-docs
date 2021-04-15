@@ -37,7 +37,7 @@ Examples of the various Stage Pages
         :alt: web-app
         :width: 60%
 
-- Then, click on upload button to upload to DBFS and see the csv file data in tabular format.
+- Then, click on upload button to upload to DBFS and see the csv file data in tabular format. Modal will show first 30 records.
 
   .. figure:: ../_assets/web-app/upload-file-2.PNG
           :alt: web-app

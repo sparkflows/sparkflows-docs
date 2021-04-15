@@ -62,6 +62,7 @@ Examples of the various Stage Pages
           :width: 60%
 
 - After successfully mapping of fields it will send selected fields in comma separated to notebook.
+- If field is not selected then, it will send blank data in comma separated format to notebook. 
 
 - Click on "NEXT" button to go to next stage.
 

@@ -8,6 +8,7 @@ Create Table in ADLS
 
 Below are steps involve in it:
 
+1. Login to Azure and go inside storage account
 
 .. figure:: ../_assets/databricks/storage_account.PNG
    :alt: databricks

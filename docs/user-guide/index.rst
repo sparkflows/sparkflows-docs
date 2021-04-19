@@ -10,6 +10,7 @@ User Guide
    scheduling/index.rst
    export-import/index.rst
    data_profile.rst
+   connections/index.rst
    pipelines.rst
    
 

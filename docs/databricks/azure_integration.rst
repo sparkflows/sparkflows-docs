@@ -20,7 +20,7 @@ Below are steps involve in it:
    :alt: databricks
    :width: 40%
 
-3. Add Table name
+3. Add Table name and press ok
 
 .. figure:: ../_assets/databricks/table_name.PNG
    :alt: databricks

@@ -12,7 +12,7 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Specify your SQL Server Username, Password and Url and save the details.
+Specify your SQL Server Username, Password and JDBC Url and save the details.
 
 .. figure:: ../../_assets/connections/sql_connection.PNG
    :alt: Databricks

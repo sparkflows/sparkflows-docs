@@ -3,7 +3,7 @@ Deployment Guide
 
 Fire Insights can be easily installed on an Azure Standalone VM. 
 
-prerequisite:
+Prerequisite
 -------------
 
 * java 8 should be installed 

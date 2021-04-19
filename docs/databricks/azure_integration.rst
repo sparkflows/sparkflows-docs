@@ -17,3 +17,9 @@ CREATE TABLE <example-table>(id STRING, value STRING) USING org.apache.spark.sql
 
 dataframe.write.option('path', "<your-storage-path>").saveAsTable("<example-table>")
 
+// Create managed table as select
+dataframe.write.mode(SaveMode.Overwrite).partitionBy("id").saveAsTable("<example-table>")
+
+// Create unmanaged/external table as select
+dataframe.write.mode(SaveMode.Overwrite).option("path", "<file-path>").saveAsTable("<example-table>")
+

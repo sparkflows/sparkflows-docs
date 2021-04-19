@@ -1,33 +1,17 @@
 Azure Integration
 =================
 
-It explains how to create new table in ADLS.
+ADLS Passthrough
+---------------
 
-Create Table in ADLS
---------------------
+https://docs.microsoft.com/en-us/azure/databricks/security/credential-passthrough/adls-passthrough
 
-Below are steps involve in it:
+Creating Tables
+---------------
 
-1. Login to Azure account and go inside storage account
+https://docs.microsoft.com/en-us/azure/databricks/data/tables
 
-.. figure:: ../_assets/databricks/storage_account.PNG
-   :alt: databricks
-   :width: 40%
+Managed or Unmanaged tables can be created.
 
-2. Select Tables in Table services and click Table
+CREATE TABLE <example-table>(id STRING, value STRING) USING org.apache.spark.sql.parquet OPTIONS (PATH "<your-storage-path>")
 
-.. figure:: ../_assets/databricks/table.PNG
-   :alt: databricks
-   :width: 40%
-
-3. Add Table name and press ok
-
-.. figure:: ../_assets/databricks/table_name.PNG
-   :alt: databricks
-   :width: 40%
-   
-4. On sucessful creation of Table you will see Table name in Table list
-
-.. figure:: ../_assets/databricks/table_success.PNG
-   :alt: databricks
-   :width: 40%

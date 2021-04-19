@@ -33,7 +33,6 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 3. Create a new **Library**
@@ -41,7 +40,6 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
  
 .. figure:: ../_assets/configuration/library_create.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 
@@ -50,7 +48,6 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
@@ -58,14 +55,12 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencie
 
 .. figure:: ../_assets/configuration/createlibrary.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 * Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
 
 .. figure:: ../_assets/configuration/installautomatic.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
    
@@ -79,7 +74,6 @@ This has to be done under Administration/Configuration.
 
 .. figure:: ../_assets/configuration/databricks-configurations.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
    
@@ -90,7 +84,6 @@ Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insig
 
 .. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Postback URL
-   :align: center
    :width: 40%
 
 
@@ -123,7 +116,6 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/usersetting.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 3. Click on ``User Settings``
@@ -131,7 +123,6 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/userset.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 4. Click on ``Generate New Token``
@@ -139,7 +130,6 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/generatetoken.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 5. Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
@@ -147,7 +137,6 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/token_update.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 6. Copy the token generated. Click on ``DONE``
@@ -155,7 +144,6 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/token_generated.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
 
 
@@ -174,7 +162,6 @@ It can also be created by any user with their Application. In this case, it is o
 
 .. figure:: ../_assets/configuration/databricks_connection.PNG
    :alt: Databricks Connection
-   :align: center
    :width: 40%
 
 

@@ -43,7 +43,6 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
-   :align: center
    :width: 40%
    
 5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``

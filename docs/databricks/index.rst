@@ -12,6 +12,7 @@ Databricks Guide
    databricks-connections.rst
    troubleshooting.rst
    superset-databricks.rst
+   azure_integration.rst
    
    
 

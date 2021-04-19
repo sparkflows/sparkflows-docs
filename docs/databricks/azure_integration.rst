@@ -14,7 +14,7 @@ Below are steps involve in it:
    :alt: databricks
    :width: 40%
 
-2. Select Tables in Table services
+2. Select Tables in Table services and click Table
 
 .. figure:: ../_assets/databricks/table.PNG
    :alt: databricks

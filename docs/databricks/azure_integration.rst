@@ -15,3 +15,5 @@ Managed or Unmanaged tables can be created.
 
 CREATE TABLE <example-table>(id STRING, value STRING) USING org.apache.spark.sql.parquet OPTIONS (PATH "<your-storage-path>")
 
+dataframe.write.option('path', "<your-storage-path>").saveAsTable("<example-table>")
+

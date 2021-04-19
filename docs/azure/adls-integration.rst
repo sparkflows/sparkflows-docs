@@ -7,7 +7,7 @@ Below are the steps for configuring Fire Insights with ADLS using managed identi
 
 Managed identity allow the users to access the Azure resources without hardcoding any credentials in code.
 
-System identity need to be enabled 
+Enable System identity
 -----------------------------------
 
 System identity needs to be enabled on the VM where Fire Insights is installed.
@@ -42,7 +42,7 @@ Add the below parameters in Administration/Configuration in Fire Insights.
 ADLS page in Fire Insights
 -------------------
 
-Save the above configuration, refresh the page & Ccick on the Data menu to see the ADLS page
+Save the above configuration, refresh the page & Click on the Data menu to see the ADLS page
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls

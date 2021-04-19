@@ -49,6 +49,15 @@ Load Balancer Integration
    loadbalancer/index   
    
    
+Databricks Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   databricks/index
+   
+   
 Security
 --------------
 
@@ -141,14 +150,6 @@ Administration
 
    administration/index
 
-Databricks Integration
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   databricks/index
-   
 AWS Integration
 --------------
 

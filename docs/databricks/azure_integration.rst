@@ -8,7 +8,8 @@ Create Table in ADLS
 
 Below are steps involve in it:
 
-.. figure:: ../_assets/configuration/storage_account.PNG
+
+.. figure:: ../_assets/databricks/storage_account.PNG
    :alt: databricks
    :width: 40%
 

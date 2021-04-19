@@ -14,7 +14,6 @@ System identity needs to be enabled on the VM where Fire Insights is installed.
 
 .. figure:: ../_assets/configuration/identity.PNG
    :alt: adls
-   :align: center
    :width: 40%
 
 In storage account, add the role to provide the access
@@ -24,7 +23,6 @@ In storage account, add the role to provide the access to Azure vm with needed a
 
 .. figure:: ../_assets/configuration/storage.PNG
    :alt: adls
-   :align: center
    :width: 40%
    
 Configure ADLS in Fire Insights
@@ -48,7 +46,6 @@ Save the above configuration, refresh the page & Ccick on the Data menu to see t
 
 .. figure:: ../_assets/configuration/adls.PNG
    :alt: adls
-   :align: center
    :width: 40%
    
 Go to Data/ADLS page
@@ -58,7 +55,6 @@ Click on ADLS to see ADLS FILESYSTEM in `DATA`
 
 .. figure:: ../_assets/configuration/adls-file.PNG
    :alt: adls
-   :align: center
    :width: 40%
 
 Once the above configurations are done, you can start using files on ADLS while creating datasets and workflows.

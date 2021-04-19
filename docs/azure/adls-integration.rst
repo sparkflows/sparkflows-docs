@@ -1,4 +1,4 @@
-ADLS Integration
+ADLS Integration - Managed Identity
 ================
 
 Fire Insights is integrated with Azure data lake storage. Once configured you can use the filesystem for accessing data from it.

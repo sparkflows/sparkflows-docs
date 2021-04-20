@@ -25,7 +25,6 @@ Processor Configurations for ReadDatabricksTable
 
 .. figure:: ../../_assets/configuration/databricks_editor.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 Refresh schema for processor ReadDatabricksTable

@@ -25,8 +25,20 @@ Now we are ready to start using the Snowflake Connection in Fire Insights.
 
 Read Snowflake Node
 -------------------
+Fire now enables you to read data from snowflake using this node.
 
+List of all created snowflake connection will be listed and user can choose any one to read data.
+
+Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
+
+Refresh schema before continuing further.
 
 Write Snowflake Node
 --------------------
+Fire now enables you to write data to snowflake using this node.
 
+List of all created snowflake connection will be listed and user can choose any one to read data.
+
+Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
+
+For eg. Can read data from csv and write to snowflake.

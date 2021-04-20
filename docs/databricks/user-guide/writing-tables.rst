@@ -13,7 +13,6 @@ Workflow
 
 .. figure:: ../../_assets/configuration/savedatabricksworkflow.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 Processor Configurations for SaveDatabricksTable
@@ -21,7 +20,6 @@ Processor Configurations for SaveDatabricksTable
 
 .. figure:: ../../_assets/configuration/savedatabricksconfiguration.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 
@@ -33,7 +31,6 @@ Below is the output of executing the above workflow which saves the data to Data
 
 .. figure:: ../../_assets/configuration/savedatabricksworkflowexecution.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 
 * Verify the Table
@@ -41,7 +38,6 @@ Below is the output of executing the above workflow which saves the data to Data
 
 .. figure:: ../../_assets/configuration/databrickstablesaved.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
    

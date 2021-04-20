@@ -15,7 +15,7 @@ It can also be created by any user with their Application. In this case, it is o
 Specify your Snowflake Username, Password and Url and save the details.
 
 .. figure:: ../../_assets/connections/snowflake-add-con.PNG 
-   :alt: Databricks
+   :alt: snowflake
    :width: 40%
 
 We can also test the specified connection before saving the connection details. 
@@ -33,6 +33,10 @@ Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE.
 
 Refresh schema before continuing further.
 
+.. figure:: ../../_assets/connections/read_snowflake_node.PNG
+   :alt: snowflake
+   :width: 40%
+
 Write Snowflake Node
 --------------------
 Fire now enables you to write data to snowflake using this node.
@@ -42,3 +46,7 @@ List of all created snowflake connection will be listed and user can choose any 
 Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
 
 For eg. Can read data from csv and write to snowflake.
+
+.. figure:: ../../_assets/connections/write_to_snowflake_node.PNG
+   :alt: snowflake
+   :width: 40%

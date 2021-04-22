@@ -11,6 +11,8 @@ Click on "Add stages" button to add a new stage. Select stage type and enter the
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW and REMOVE stages.
 
+Below are examples for adding various Stages
+
 .. toctree::
    :maxdepth: 2
 

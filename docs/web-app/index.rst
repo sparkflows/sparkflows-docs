@@ -7,7 +7,7 @@ Analytical Apps User Guide
    creating-anlaytics-app.rst
    adding-stages/index.rst
    integrating-with-databricks-notebook.rst
-   running-analytics-app.rst
+   running-analytics-app/index.rst
    
 
 

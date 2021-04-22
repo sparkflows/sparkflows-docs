@@ -29,6 +29,8 @@ Examples of the various Stage Pages
 
 - Browse files you want to upload to databricks.
 
+- Maximum file size allowed to upload is 1GB.
+
 - Add destination path of dbfs where you want to upload choose file.
 
 - If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is added it will store inside ``FileStore`` folder

@@ -5,7 +5,7 @@ Run Stage
 
 - Let's first add title in page if needed with "html element" component like below.
 
-   .. figure:: ../_assets/web-app/add-stage-run-title.PNG
+   .. figure:: ../../_assets/web-app/add-stage-run-title.PNG
       :alt: web-app
       :width: 60%
    
@@ -16,12 +16,12 @@ Run Stage
 
 -  Add next button in second column to go to next stage and perform actions depending upon event. Set its add event name as ``execute``. We can also can add CUSTOM CSS CLASS like          float-right, float-left etc
 
-   .. figure:: ../_assets/web-app/add-stage-run-runbtn.PNG
+   .. figure:: ../../_assets/web-app/add-stage-run-runbtn.PNG
       :alt: web-app
       :width: 60%
    
 
-   .. figure:: ../_assets/web-app/add-stage-run-buttons.PNG
+   .. figure:: ../../_assets/web-app/add-stage-run-buttons.PNG
       :alt: web-app
       :width: 60%
    

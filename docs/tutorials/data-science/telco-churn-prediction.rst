@@ -30,21 +30,21 @@ The workflow performs the following steps:
 - Performs prediction using the model generated on the remaining 20% dataset
 - Finally evaluates the prediction results
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/15.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.PNG
    :alt: Machine Learning
    :align: left
    :width: 60%
    
 In the VectorAssembler, select the fields you want to include in the model. Only the numeric fields are displayed as VectorAssembler supports only the numeric fields.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/16.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction.png
    :alt: Machine Learning
    :align: left
    :width: 60%
    
 You can split the dataset into training and test datasets. We split it into (.8, .2)
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/17.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
    :alt: Machine Learning
    :align: left
    :width: 60%

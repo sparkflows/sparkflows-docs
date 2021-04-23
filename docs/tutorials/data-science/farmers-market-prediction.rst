@@ -31,7 +31,6 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 This workflow consists of the following steps:
@@ -83,7 +82,6 @@ This workflow consists of the following steps:
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/2.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 
@@ -92,7 +90,6 @@ First Dataset
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/3.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
 
 Column Filter
@@ -100,7 +97,6 @@ Column Filter
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 SQL
@@ -108,7 +104,6 @@ SQL
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/5.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 Second Dataset
@@ -116,7 +111,6 @@ Second Dataset
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/6.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 SQL
@@ -124,7 +118,6 @@ SQL
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/7.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 AllJoin - Join the two datasets
@@ -132,7 +125,6 @@ AllJoin - Join the two datasets
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 CastColumnType
@@ -140,7 +132,6 @@ CastColumnType
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/9.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 ImputingWithConstant
@@ -148,7 +139,6 @@ ImputingWithConstant
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/10.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 VectorAssembler
@@ -156,7 +146,6 @@ VectorAssembler
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/11.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 Split
@@ -164,7 +153,6 @@ Split
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/12.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 LinearRegression
@@ -172,7 +160,6 @@ LinearRegression
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/13.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
 Predict
@@ -180,7 +167,6 @@ Predict
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/14.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
 
 Print N Rows
@@ -188,14 +174,12 @@ Print N Rows
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
 
 Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.PNG
    :alt: Fire Market Prediction
-   :align: center
    :width: 60%
    
    

@@ -16,7 +16,7 @@ The dataset is artificial Churn Data based on claims, similar to real world. It 
    
 Below is the workflow you can use for creating the model for Churn Prediction.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/3.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
    :alt: Machine Learning
    :width: 60%
    
@@ -30,21 +30,21 @@ The workflow performs the following steps:
 - Performs prediction using the model generated on the remaining 20% dataset
 - Finally evaluates the prediction results
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning
    :align: left
    :width: 60%
    
 In the VectorAssembler, select the fields you want to include in the model. Only the numeric fields are displayed as VectorAssembler supports only the numeric fields.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction.png
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
    :alt: Machine Learning
    :align: left
    :width: 60%
    
 You can split the dataset into training and test datasets. We split it into (.8, .2)
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-split.png
    :alt: Machine Learning
    :align: left
    :width: 60%

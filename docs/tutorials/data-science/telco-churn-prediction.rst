@@ -57,7 +57,7 @@ You can use a DecisionTreeClassifier for predicting churn. We use 20 trees.
    
 You can predict using the model on the test dataset.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.png
    :alt: Machine Learning
    :width: 60%
    

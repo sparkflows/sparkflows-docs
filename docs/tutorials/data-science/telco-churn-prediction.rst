@@ -49,15 +49,15 @@ You can split the dataset into training and test datasets. We split it into (.8,
    :align: left
    :width: 60%
    
-You can use a RandomForestClassifier for predicting churn. We use 20 trees.
+You can use a DecisionTreeClassifier for predicting churn. We use 20 trees.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/7.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-dtc.png
    :alt: Machine Learning
    :width: 60%
    
 You can predict using the model on the test dataset.
 
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/8.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.PNG
    :alt: Machine Learning
    :width: 60%
    

@@ -24,7 +24,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -37,7 +36,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -45,7 +43,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Extract hour from time using datatype timestamp
@@ -58,7 +55,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -66,7 +62,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Calculate Count to datatype double
@@ -79,7 +74,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -87,7 +81,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
 
 Assemble features for modelling
@@ -100,7 +93,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -108,7 +100,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
 
 Calculate vectorindexer
@@ -121,7 +112,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -129,7 +119,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Split it
@@ -142,7 +131,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/7.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -150,7 +138,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/7a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 GBTRegression
@@ -163,7 +150,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/8.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -171,7 +157,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/8a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Prediction
@@ -184,7 +169,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/9.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -192,7 +176,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/9a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
 
 RegressionEvaluator
@@ -205,7 +188,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/10.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -213,7 +195,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/10a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Correlation with columns
@@ -226,7 +207,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/11.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -234,7 +214,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/11a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Summary analysis
@@ -247,7 +226,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/12.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -255,7 +233,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/12a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Calculate count for rental per hour
@@ -268,7 +245,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/13.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -276,7 +252,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/13a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Analyse using Graph
@@ -289,7 +264,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/14.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%
    
 Processor Output
@@ -297,5 +271,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/14a.PNG
    :alt: Bike Rental Prediction
-   :align: center
    :width: 60%

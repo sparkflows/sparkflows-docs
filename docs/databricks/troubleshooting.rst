@@ -13,7 +13,6 @@ Connectiving from Databricks to Fire postbackURL can be done in Databricks via N
 
 .. figure:: ../_assets/configuration/databricks_ping.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
    

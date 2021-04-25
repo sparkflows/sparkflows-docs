@@ -31,9 +31,9 @@ Examples of the various Stage Pages
 
 - Maximum file size allowed to upload is 1GB.
 
-- Add destination path of dbfs where you want to upload choose file.
+- Add destination path of dbfs where you want to upload the selected files.
 
-- If added path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is added it will store inside ``FileStore`` folder
+- If the specified path is not there in dbfs then it will first create the folder in dbfs and then upload the file. If no path is specified it will store it inside ``FileStore`` folder
 
   .. figure:: ../_assets/web-app/upload-file-1.PNG
         :alt: web-app
@@ -57,7 +57,7 @@ Examples of the various Stage Pages
           :alt: web-app
           :width: 60%
 
-- When, user select fields but missed to map required columns then it will throw error like below. 
+- When, user selects fields but missed to map required columns then it will throw error like below. 
 
   .. figure:: ../_assets/web-app/upload-file-5.PNG
           :alt: web-app

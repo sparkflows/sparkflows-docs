@@ -208,14 +208,7 @@ Processors
    :maxdepth: 2
 
    processors/index   
-   
-Release Notes
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   release-notes/index     
+     
 
 REST API Authentication
 ----------

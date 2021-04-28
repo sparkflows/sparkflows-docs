@@ -11,7 +11,7 @@ Fire Insights enables to easily prepare data.
    join-union.rst
    filter.rst
    transforms.rst
-   dedup.rst
+   impute.rst
 
    
    

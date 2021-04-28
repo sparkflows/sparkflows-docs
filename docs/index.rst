@@ -90,6 +90,14 @@ User Guide
 
    user-guide/index
       
+Data Preparation
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   data-preparation/index 
+   
 Data Science
 ----------
 

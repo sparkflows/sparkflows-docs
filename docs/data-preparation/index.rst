@@ -9,7 +9,7 @@ Fire Insights enables to easily prepare data.
 
    data-cleaning.rst
    join-union.rst
-   imputing.rst
+   filter.rst
    transforms.rst
    dedup.rst
 

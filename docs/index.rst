@@ -89,14 +89,23 @@ User Guide
    :maxdepth: 1
 
    user-guide/index
-   
-Web App User Guide
---------------------------
+      
+Data Preparation
+----------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   web-app/index
+   data-preparation/index 
+   
+   
+Data Exploration
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   data-exploration/index 
    
    
 Data Science
@@ -106,6 +115,15 @@ Data Science
    :maxdepth: 2
 
    machine-learning/index 
+   
+Web App User Guide
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   web-app/index
+   
    
 Time Series
 ----------

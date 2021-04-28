@@ -98,6 +98,16 @@ Data Preparation
 
    data-preparation/index 
    
+   
+Data Exploration
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   data-exploration/index 
+   
+   
 Data Science
 ----------
 

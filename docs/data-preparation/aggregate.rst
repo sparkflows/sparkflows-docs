@@ -1,21 +1,25 @@
-Filtering
+Aggregate
 ==========
 
-Fire Insights provide processors for filtering columns and rows
+Fire Insights provide processors that shows aggregates for combinations of values in the selected columns.
 
 
-Filtering Processors in Fire Insights
+Aggregate Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Filtering Processors
+.. list-table:: Aggregate Processors
    :widths: 50 50
    :header-rows: 1
 
    * - Title
      - Description
-   * - Remove Unwanted Characters
-     - Removed unwanted characters from strings
-   * - Data Validation
-     - Performs Validation on the incoming data
+   * - Cube
+     - Cube Node generates a result set that shows aggregates for all combinations of values in the selected columns
+   * - Group By
+     - Grouper Node
+   * - Pivot By
+     - Pivot Node
+   * - Rollup
+     - Rollup Node generates a result set that shows aggregates for a hierarchy of values in the selected columns
  

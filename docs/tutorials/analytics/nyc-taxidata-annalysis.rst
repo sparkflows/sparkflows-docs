@@ -17,7 +17,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -30,7 +29,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -38,7 +36,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Extract hour from pickup time
@@ -52,7 +49,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -60,7 +56,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
 
 Calculate the speed per hour
@@ -74,7 +69,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -82,7 +76,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
 
 Calculate the average speed per hour
@@ -96,7 +89,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -104,7 +96,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Prints the results
@@ -117,7 +108,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -125,7 +115,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
 
 Analyze using Chart Graph
@@ -138,7 +127,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -146,5 +134,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7a.PNG
    :alt: NYC Taxidata Annalysis
-   :align: center
    :width: 60%

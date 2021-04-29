@@ -19,7 +19,7 @@ Adding house_type field
       house_type_udf = udf(lambda bedrooms: "big house" if int(bedrooms) >2 else "small house", StringType())
       filetr_df = inDF.select("id", "price", "lotsize", "bedrooms")
       outDF = filetr_df.withColumn("house_type", house_type_udf(filetr_df.bedrooms))
-      return outD
+      return outDF
 
 
 Linear Regression 

@@ -15,7 +15,7 @@ Installation & Configuration
 
    installation/index
   
-User's Guide
+User Guide
 --------------
 
 .. toctree::

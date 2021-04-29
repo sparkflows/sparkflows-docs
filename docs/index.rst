@@ -132,6 +132,14 @@ Processors
 
    processors/index   
      
+REST API
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   rest-api/index   
+
 
 Third Party Acknowledgements
 ----------

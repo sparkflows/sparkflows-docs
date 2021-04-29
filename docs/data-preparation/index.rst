@@ -15,6 +15,7 @@ Fire Insights enables to easily prepare data.
    aggregate.rst
    string.rst
    datetime.rst
+   parse.rst
    
    
 

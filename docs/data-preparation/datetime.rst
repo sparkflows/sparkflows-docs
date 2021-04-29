@@ -5,7 +5,7 @@ DateTime
 Fire Insights provide processors for performing DateTime Formatting, Converstion and Year, Date, Time Split.
 
 
-Join/Union Processors in Fire Insights
+Date Time Processors in Fire Insights
 ----------------------------------------
 
 

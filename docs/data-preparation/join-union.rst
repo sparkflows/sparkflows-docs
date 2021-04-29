@@ -23,7 +23,7 @@ Join/Union Processors in Fire Insights
    * - Geo Join
      - This node joins the incoming dataframes
    * - Join On Columns
-     - This node joins the incoming dataframes on a column
+     - This node joins the incoming dataframes on columns
    * - Join On Common Column
      - This node joins the incoming dataframes on a join Column
    * - Join On Common Columns

@@ -5,19 +5,19 @@ Every workflow needs data to work on. As a next step, you will upload a CSV file
 
 If you have your data in CSV file, click on "Data Browsers" and select "HDFS". Your home directory will be displayed. Initially, it will be empty as you have not uploaded any file. 
 
-.. figure:: ../_assets/tutorials/quickstart/4.PNG
+.. figure:: ../../_assets/tutorials/quickstart/4.PNG
    :alt: Quickstart
    :width: 60%
 
 Click on "Upload File" button. Choose one or more CSV files that you want to upload. 
 
-.. figure:: ../_assets/tutorials/quickstart/5.PNG
+.. figure:: ../../_assets/tutorials/quickstart/5.PNG
    :alt: Quickstart
    :width: 60%
 
 After selecting the files, click "Upload All". 
 
-.. figure:: ../_assets/tutorials/quickstart/6.PNG
+.. figure:: ../../_assets/tutorials/quickstart/6.PNG
    :alt: Quickstart
    :width: 60%
    

@@ -17,7 +17,7 @@ Project
 =======================
 Open the project where you want to create your new workflow.
 
-.. figure:: ../_assets/tutorials/quickstart/8.PNG
+.. figure:: ../../_assets/tutorials/quickstart/8.PNG
    :alt: Quicstart
 
 
@@ -26,7 +26,7 @@ Workflows Tab
 ============================
 Click "Workflows" tab to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created earlier. 
 
-.. figure:: ../_assets/tutorials/quickstart/7.PNG
+.. figure:: ../../_assets/tutorials/quickstart/7.PNG
    :alt: Quicstart
 
 
@@ -43,7 +43,7 @@ Add Processors
 
 After you have saved the empty workflow, you can start adding processors to process the datasets that you had defined earlier. Click on the processors on the left hand side pane. This will make the processor appear on the workflow canvas. Add other procesors,configure and connect them as needed.  Two processors can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. 
 
-.. figure:: ../_assets/tutorials/quickstart/9.PNG
+.. figure:: ../../_assets/tutorials/quickstart/9.PNG
    :alt: Quickstart
 
 

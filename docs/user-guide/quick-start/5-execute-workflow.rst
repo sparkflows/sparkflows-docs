@@ -17,7 +17,7 @@ Project page
 Open the project where you have created the workflow to be executed.
 
 
-.. figure:: ../_assets/tutorials/quickstart/8.PNG
+.. figure:: ../../_assets/tutorials/quickstart/8.PNG
    :alt: Workflow Listings
 
 
@@ -27,7 +27,7 @@ Workflows
 ============================
 Click "Workflows" tab to view the list of workflows in the project. 
 
-.. figure:: ../_assets/tutorials/quickstart/7.PNG
+.. figure:: ../../_assets/tutorials/quickstart/7.PNG
    :alt: Workflow Listings
 
 
@@ -46,7 +46,7 @@ Execute workflow page
 
 Specify any paramters for your workflow. 
 
-.. figure:: ../_assets/tutorials/03/workflow-execute.png
+.. figure:: ../../_assets/tutorials/03/workflow-execute.png
    :alt: Workflow Execute
 
 

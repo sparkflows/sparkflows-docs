@@ -3,10 +3,6 @@ Filtering
 
 Fire Insights provide processors for filtering columns and rows
 
-List of Filter Nodes
---------------------
-      * ColumFilter
-
 Filtering Processors in Fire Insights
 ----------------------------------------
 
@@ -17,8 +13,18 @@ Filtering Processors in Fire Insights
 
    * - Title
      - Description
-   * - Remove Unwanted Characters
-     - Removed unwanted characters from strings
-   * - Data Validation
-     - Performs Validation on the incoming data
+   * - ColumFilter
+     - This node creates a new DataFrame that contains only the selected columns
+   * - DropColumns
+     - This node creates a new DataFrame by deleting columns specified as an input
+   * - FilterByDateRange
+     - This node filters Rows within the given date range
+   * - FilterByStringLength
+     - This node filters the Rows within the given string length. The column to be used for determining the string length is specified
+   * - NumberRangeFilter
+     - This node filter Rows in the given Number Range
+   * - RowFilter
+     - This node creates a new DataFrame containing only rows satisfying given condition
+   * - RowFilterWithIndex
+     - This node creates a new DataFrame containing only rows satisfying given condition
  

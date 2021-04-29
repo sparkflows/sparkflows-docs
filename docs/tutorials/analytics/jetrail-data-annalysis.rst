@@ -17,7 +17,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -30,7 +29,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -38,7 +36,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2a.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%   
 
 Extract date time field
@@ -50,7 +47,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -58,7 +54,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3a.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60% 
    
 Calculate count per month
@@ -70,7 +65,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -78,7 +72,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4a.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Execute query for months
@@ -91,7 +84,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -99,7 +91,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5a.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Prints the Results
@@ -119,7 +110,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -127,5 +117,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7a.PNG
    :alt: Jetrail Data Annalysis
-   :align: center
    :width: 60%

@@ -30,5 +30,5 @@ UnionAll
    * - Name
      - Description
    * - UnionAll
-   * - This node creates a new DataFrame by merging all the rows without removing the duplicates
+     - This node creates a new DataFrame by merging all the rows without removing the duplicates
  

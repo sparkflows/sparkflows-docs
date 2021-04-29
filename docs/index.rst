@@ -65,14 +65,6 @@ Frequently Asked Questions
 
    faq/index
    
-Administration
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   administration/index
-
 AWS Integration
 --------------
 

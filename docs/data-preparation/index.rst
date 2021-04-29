@@ -13,7 +13,8 @@ Fire Insights enables to easily prepare data.
    transforms.rst
    impute.rst
    aggregate.rst
-
+   string.rst
+   datetime.rst
    
    
 

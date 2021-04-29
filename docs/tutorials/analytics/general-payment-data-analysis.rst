@@ -16,7 +16,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -29,7 +28,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -37,7 +35,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2a.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
  
 Calculate count transactions by speciality
@@ -51,7 +48,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -59,7 +55,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3a.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
  
 Summary of transactions
@@ -72,7 +67,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -80,7 +74,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Number of transaction per state
@@ -93,7 +86,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -101,7 +93,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Prints the results
@@ -113,7 +104,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -121,7 +111,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6a.PNG
    :alt: General Payment Data Analysis
-   :align: center
    :width: 60% 
 
 

@@ -45,4 +45,13 @@ Load Balancer Integration
    loadbalancer/index
 
 
+User Administration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   administration/index
+
+
 

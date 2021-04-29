@@ -89,15 +89,6 @@ Superset
 
    superset/index   
 
-Python
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   python/index
-  
-   
 Performance
 ----------
 

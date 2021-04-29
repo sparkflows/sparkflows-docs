@@ -19,5 +19,5 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    web-app/index
    time-series/index
    tutorials/index
-
+   python/index
 

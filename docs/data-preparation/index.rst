@@ -12,6 +12,7 @@ Fire Insights enables to easily prepare data.
    filter.rst
    transforms.rst
    impute.rst
+   aggregate.rst
 
    
    

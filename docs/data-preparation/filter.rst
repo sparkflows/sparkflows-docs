@@ -1,8 +1,11 @@
 Filtering
-==========
+=========
 
 Fire Insights provide processors for filtering columns and rows
 
+List of Filter Nodes
+--------------------
+      * ColumFilter
 
 Filtering Processors in Fire Insights
 ----------------------------------------

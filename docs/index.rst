@@ -7,7 +7,22 @@ With the power of Fire Insights at your hands, seamlessly find value from your d
 
 Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessly integrates with the most complex of Enterprise Environments.
 
-   
+Installation & Configuration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   installation/index
+  
+User's Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   user-guide/index
+
 Databricks Integration
 --------------
 

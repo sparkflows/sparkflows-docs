@@ -13,7 +13,7 @@ Filtering Processors in Fire Insights
 
    * - Title
      - Description
-   * - ColumFilter
+   * - ColumnFilter
      - This node creates a new DataFrame that contains only the selected columns
    * - DropColumns
      - This node creates a new DataFrame by deleting columns specified as an input

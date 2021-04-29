@@ -1,4 +1,4 @@
-Getting Started with Fire Insights
+User's Guide
 ===============================
 
 Fire Insights makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics.

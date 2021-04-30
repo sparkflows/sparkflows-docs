@@ -50,7 +50,7 @@ Compile the Python source code on your system using altinstall::
     make altinstall
     python3.7 –-version
   
-.. figure:: ../_assets/configuration/python3_7.PNG
+.. figure:: ../../_assets/configuration/python3_7.PNG
    :alt: Installations
    :width: 60% 
 
@@ -63,11 +63,11 @@ Create Python virtual environment & Activate it::
   source venv/bin/activate
   python --version
 
-.. figure:: ../_assets/configuration/venv_python.PNG
+.. figure:: ../../_assets/configuration/venv_python.PNG
    :alt: Installations
    :width: 60%
 
-.. figure:: ../_assets/configuration/version_python.PNG
+.. figure:: ../../_assets/configuration/version_python.PNG
    :alt: Installations
    :width: 60%
 
@@ -78,7 +78,7 @@ Upgrade pip version with 20.0 or above::
 
   pip install pip --upgrade
 
-.. figure:: ../_assets/configuration/upgrade-pip.PNG
+.. figure:: ../../_assets/configuration/upgrade-pip.PNG
    :alt: Installations
    :width: 60%
 
@@ -94,7 +94,7 @@ Run below command with sudo privilege
 
       yum install -y xz-devel
     
-.. figure:: ../_assets/configuration/develop-tool.PNG
+.. figure:: ../../_assets/configuration/develop-tool.PNG
    :alt: Installations
    :width: 60%   
 
@@ -104,7 +104,7 @@ Run below command with sudo privilege
 
      yum install centos-release-scl
   
-.. figure:: ../_assets/configuration/scl-tool.PNG
+.. figure:: ../../_assets/configuration/scl-tool.PNG
    :alt: Installations
    :width: 60% 
    
@@ -114,7 +114,7 @@ Run below command with sudo privilege
 
     yum install devtoolset-7
   
-.. figure:: ../_assets/configuration/devtool7.PNG
+.. figure:: ../../_assets/configuration/devtool7.PNG
    :alt: Installations
    :width: 60%  
  
@@ -124,7 +124,7 @@ Run below command with sudo privilege
     scl enable devtoolset-7 bash
     gcc --version
    
-.. figure:: ../_assets/configuration/gcc_version.PNG
+.. figure:: ../../_assets/configuration/gcc_version.PNG
    :alt: Installations
    :width: 60%    
 
@@ -133,7 +133,7 @@ Run below command with sudo privilege
    
    pip install fbprophet
 
-.. figure:: ../_assets/configuration/fbprophet.PNG
+.. figure:: ../../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :width: 60%
 
@@ -142,7 +142,7 @@ Run below command with sudo privilege
    
    pip list
 
-.. figure:: ../_assets/configuration/list-pip.PNG
+.. figure:: ../../_assets/configuration/list-pip.PNG
    :alt: Installations
    :width: 60%
 

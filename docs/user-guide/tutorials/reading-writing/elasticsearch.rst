@@ -16,7 +16,7 @@ Create a new empty workflow. Drag and drop the source dataset from which you wan
 
 Once the source processor is on the workflow canvas, drag and drop "SaveElasticSearch" processor in the workflow. Configure your Elastic Search processor in the dialog box shown below.
 
-.. figure:: ../../_assets/tutorials/dataset/19.PNG
+.. figure:: ../../../_assets/tutorials/dataset/19.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -28,7 +28,7 @@ After configuring "SaveElasticSearch" processor, connect your data source proces
 The example workflow below reads a Housing dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
 
 
-.. figure:: ../../_assets/tutorials/dataset/18.PNG
+.. figure:: ../../../_assets/tutorials/dataset/18.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -45,7 +45,7 @@ Workflow Execution
 When the example workflow above is executed, it reads in the dataset from HDFS and saves it into Elastic Search.
 
 
-.. figure:: ../../_assets/tutorials/dataset/20.PNG
+.. figure:: ../../../_assets/tutorials/dataset/20.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -59,7 +59,7 @@ Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' proc
 The screenshot below shows the dialog box for the Elastic Search Read processor.
 
 
-.. figure:: ../../_assets/tutorials/dataset/22.PNG
+.. figure:: ../../../_assets/tutorials/dataset/22.PNG
    :alt: Dataset
    :align: center
    :width: 60%  
@@ -77,7 +77,7 @@ The Elastic Search processor understands the SQL and translates it into the appr
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
 
-.. figure:: ../../_assets/tutorials/dataset/21.PNG
+.. figure:: ../../../_assets/tutorials/dataset/21.PNG
    :alt: Dataset
    :align: center
    :width: 60% 
@@ -90,7 +90,7 @@ Workflow Execution
 When the example workflow above is executed, it reads in the index from Elastic Search and displays the first few lines.
 
 
-.. figure:: ../../_assets/tutorials/dataset/23.PNG
+.. figure:: ../../../_assets/tutorials/dataset/23.PNG
    :alt: Dataset
    :align: center
    :width: 60%

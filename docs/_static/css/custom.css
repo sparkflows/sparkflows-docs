@@ -202,6 +202,10 @@ h6 {
     }
 }
 
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: #ffffff
+}
+
 .wy-menu-vertical a {
     font-size: 0.9rem;
 }

@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Filters it to calculate number of bedrooms with specific prices.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/1.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%
@@ -25,7 +25,7 @@ It reads multiple CSV files available in specific directory using ReadCSV proces
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/8.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/8.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%
@@ -33,7 +33,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/3.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/3.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%
@@ -46,7 +46,7 @@ It then filters to calculate number of bedrooms with specific prices using SQL p
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/4.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/4.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%
@@ -54,7 +54,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/5.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/5.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60%   
@@ -67,7 +67,7 @@ It will print the results with the output required after filter aggregation.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/6.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/6.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60% 
@@ -75,7 +75,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/7.PNG
+.. figure:: ../../../_assets/tutorials/analytics/housing-analysis/7.PNG
    :alt: Housing Analysis
    :align: center
    :width: 60% 

@@ -14,7 +14,7 @@ The clusters could be based on the Apache Hadoop distribution from Cloudera, Hor
 
 The cluster can be on-premise or on the cloud.
 
-.. figure:: ../../_assets/architecture/sparkflows-fire-architecture.png
+.. figure:: ../../../_assets/architecture/sparkflows-fire-architecture.png
    :alt: Fire Deployment
 
 
@@ -28,7 +28,7 @@ This mode can be used for:
 * Designing Workflows to be finally deployed on a larger Apache Spark Cluster
 * For analyzing smaller sets of data
 
-.. figure:: ../../_assets/architecture/personal-machine.png
+.. figure:: ../../../_assets/architecture/personal-machine.png
    :scale: 50%
    :alt: Fire Deployment on Standalone Machine
    

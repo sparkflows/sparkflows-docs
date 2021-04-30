@@ -18,7 +18,7 @@ Fire Insights allows you to define your DataSets. These DataSets are then used i
 
 When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
 
- .. figure:: ../../_assets/tutorials/dataset/1.PNG
+ .. figure:: ../../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :width: 60%
   

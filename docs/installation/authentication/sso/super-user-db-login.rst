@@ -9,7 +9,7 @@ Fire Insights allows to enable super user login by changing in "sso.saml.propert
 
 After enabling super user db login, one more button appears on Login page, after starting Fire Insights server.
 
-.. figure:: ../../_assets/authentication/login_page.png
+.. figure:: ../../../_assets/authentication/login_page.png
    :alt: sso super user login using database
    :width: 60%
 	
@@ -20,7 +20,7 @@ Click on "Sign in as Super user" button
 
    It will redirect you to super user login form page.
 
-.. figure:: ../../_assets/authentication/login_form.png
+.. figure:: ../../../_assets/authentication/login_form.png
    :alt: sso super user login using database
    :width: 60%
 

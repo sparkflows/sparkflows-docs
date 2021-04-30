@@ -23,6 +23,14 @@ User Guide
 
    user-guide/index
 
+Tutorials
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   tutorials/index
+
 Databricks Integration
 --------------
 

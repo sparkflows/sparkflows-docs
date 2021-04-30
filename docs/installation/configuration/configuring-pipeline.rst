@@ -5,7 +5,7 @@ Fire uses Apache Airflow for executing Pipelines. Hence Airflow has to be instal
 
 Below are the configurations needed in Fire for Airflow.
 
-.. figure:: ../_assets/user-guide/pipelines-configuration.PNG
+.. figure:: ../../_assets/user-guide/pipelines-configuration.PNG
    :alt: Pipelines Configuration
    
 Airflow Installation
@@ -45,7 +45,7 @@ https://airflow.apache.org/installation.html
  - airflow version
 
 
-.. figure:: ../_assets/user-guide/airflow-version.PNG
+.. figure:: ../../_assets/user-guide/airflow-version.PNG
    :alt: airflow
   
 - Generate a Fernet key for Airflow(optional)
@@ -60,18 +60,18 @@ https://airflow.apache.org/installation.html
 - Start the web server, its default port is 8080, If any other application is running on 8080, we can update other port for airflow 
  - airflow webserver -p 8090
 
-.. figure:: ../_assets/user-guide/airflow-webserver-running-url.PNG
+.. figure:: ../../_assets/user-guide/airflow-webserver-running-url.PNG
    :alt: airflow
  
 - Start the scheduler
  - airflow scheduler
 
-.. figure:: ../_assets/user-guide/airflow-scheduler.PNG
+.. figure:: ../../_assets/user-guide/airflow-scheduler.PNG
    :alt: airflow
    
 - Login in browser
  - http://x.y.z.w:8090   
 
-.. figure:: ../_assets/user-guide/airflow-web-url.PNG
+.. figure:: ../../_assets/user-guide/airflow-web-url.PNG
    :alt: airflow
    

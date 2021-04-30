@@ -7,13 +7,13 @@ Below are steps involved in Creating Network Load balancer in AWS.
 
 * Login with AWS Console and search for load balancer with EC2 feature.
 
-.. figure:: ..//_assets/loadbalancer/loadbalncer_search.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
    :width: 60%
 
 * Create Load Balancer & select Network Load Balancer.
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer_create.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_create.PNG
    :alt: Load balancers
    :width: 60%
    
@@ -30,7 +30,7 @@ Below are steps involved in Creating Network Load balancer in AWS.
     VPC : select VPC where application vm is running.
     Availability Zones : select the specific zone.
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer_config.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_config.PNG
    :alt: Load balancers
    :width: 60%
 
@@ -46,7 +46,7 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
     Certificate name
     Security policy
     
-.. figure:: ..//_assets/loadbalancer/loadbalancer_certificate.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_certificate.PNG
    :alt: Load balancers
    :width: 60%
 
@@ -66,7 +66,7 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
     Register Target
 
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer_info.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_info.PNG
    :alt: Load balancers
    :width: 60%
 

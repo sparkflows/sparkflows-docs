@@ -15,7 +15,7 @@ Once the download completes, run the .exe installer
 Click Next to confirm the installation
 ---------------------------------------
 
-.. figure:: ../_assets/installation/anaconda.PNG
+.. figure:: ../../_assets/installation/anaconda.PNG
    :alt: Installations
    :width: 60%
 
@@ -23,7 +23,7 @@ Click Next to confirm the installation
 Agree to the License
 ----------------------
 
-.. figure:: ../_assets/installation/anaconda_agreement.PNG
+.. figure:: ../../_assets/installation/anaconda_agreement.PNG
    :alt: Installations
    :width: 60%
 
@@ -32,7 +32,7 @@ Advanced Installation Options screen
 
 It is recommended to not check "Add Anaconda to my PATH environment variable"
 
-.. figure:: ../_assets/installation/anaconda_path.PNG
+.. figure:: ../../_assets/installation/anaconda_path.PNG
    :alt: Installations
    :width: 60%
 
@@ -42,7 +42,7 @@ Open the Anaconda Prompt from the Windows start menu
 
 At the Anaconda prompt, check the ``conda --version``
 
-.. figure:: ../_assets/installation/conda_version.PNG
+.. figure:: ../../_assets/installation/conda_version.PNG
    :alt: Installations
    :width: 60%
    
@@ -59,7 +59,7 @@ Run below command to Create virtual environment using conda.
 
 * ``conda create --name venv python=3.7``
 
-.. figure:: ../_assets/installation/virtual_env.PNG
+.. figure:: ../../_assets/installation/virtual_env.PNG
    :alt: Installations
    :width: 60%
 
@@ -72,7 +72,7 @@ Run Below command to activate and check list of python package available by defa
 * ``python --version``
 * ``pip list``
 
-.. figure:: ../_assets/installation/activate_conda_env.PNG
+.. figure:: ../../_assets/installation/activate_conda_env.PNG
    :alt: Installations
    :width: 60%
 
@@ -85,7 +85,7 @@ Install the other required packages:
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
-.. figure:: ../_assets/installation/req_text.PNG
+.. figure:: ../../_assets/installation/req_text.PNG
    :alt: Installations
    :width: 60%
 
@@ -97,7 +97,7 @@ Install pystan:
 
 * ``conda install pystan -c conda-forge``
 
-.. figure:: ../_assets/installation/conda-pystan.PNG
+.. figure:: ../../_assets/installation/conda-pystan.PNG
    :alt: Installations
    :width: 60%
 
@@ -105,7 +105,7 @@ Install fbprophet:
 
 * ``conda install -c conda-forge fbprophet``
 
-.. figure:: ../_assets/installation/fbprophet_conda.PNG
+.. figure:: ../../_assets/installation/fbprophet_conda.PNG
    :alt: Installations
    :width: 60%
 
@@ -113,7 +113,7 @@ Check the version of fbprophet Installed:
 
 * ``pip list``
 
-.. figure:: ../_assets/installation/piplist_conda.PNG
+.. figure:: ../../_assets/installation/piplist_conda.PNG
    :alt: Installations
    :width: 60%
 
@@ -121,7 +121,7 @@ Once the above steps have completed successfully, run the below command to ensur
 
 * ``python ./dist/__main__.py``
 
-.. figure:: ../_assets/installation/pyspark_server.PNG
+.. figure:: ../../_assets/installation/pyspark_server.PNG
    :alt: Installations
    :width: 60%
 
@@ -130,7 +130,7 @@ Enable PySpark Engine in Fire Insights
 
 Login to Fire Insights application and go to configurations and set ``app.enablePySparkEngine`` to ``true`` and save the changes. Now you can start using PySpark engine in Fire Insights. 
 
-.. figure:: ../_assets/installation/pyspark_url.PNG
+.. figure:: ../../_assets/installation/pyspark_url.PNG
    :alt: Installations
    :width: 60%
 

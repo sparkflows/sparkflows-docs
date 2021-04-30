@@ -10,7 +10,7 @@ Datasets
 
 When you open any application, all existing datasets specific to the application are displayed in the Datasets tab.
 
-.. figure:: ../../../_assets/tutorials/dataset/1.PNG
+.. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -20,7 +20,7 @@ Dataset Creation
  
 Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". In the pop-up choose "JDBC" and then click "OK".
 
-.. figure:: ../../../_assets/tutorials/dataset/12.PNG
+.. figure:: ../../_assets/tutorials/dataset/12.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -31,12 +31,12 @@ Specify the name of the dataset you are creating and other required parameters s
  
 Once you have filled in required information, hit ‘Update Sample data/schema’ button. This brings up sample data, infers the schema and displays it. You can change column names and data types as needed. Format column is used for specifying the format of date/time fields.
 
-.. figure:: ../../../_assets/tutorials/dataset/13.PNG
+.. figure:: ../../_assets/tutorials/dataset/13.PNG
    :alt: Dataset
    :align: center
    :width: 60%
 
-.. figure:: ../../../_assets/tutorials/dataset/14.PNG
+.. figure:: ../../_assets/tutorials/dataset/14.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -45,7 +45,7 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
 Clicking the ‘Save’ button creates the new dataset that can be used in any workflow or Interactive dashboard within the specific application.
 
 
-.. figure:: ../../../_assets/tutorials/dataset/15.PNG
+.. figure:: ../../_assets/tutorials/dataset/15.PNG
    :alt: Dataset
    :align: center
    :width: 60%

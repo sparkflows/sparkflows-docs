@@ -1,5 +1,7 @@
-User Guide
-==========================
+Using Guide
+================
+
+Fire Insights has datasets, workflows, scheduler, connections etc. This guide explains how to use them.
 
 .. toctree::
    :maxdepth: 2

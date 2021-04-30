@@ -10,7 +10,7 @@ Below ares steps to follow:
 Sign in to the AWS Management Console and open the Route 53 console at https://console.aws.amazon.com/route53/
 
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer_route.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_route.PNG
    :alt: Load balancers
    :width: 60%
 
@@ -20,7 +20,7 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
  
     Register a domain
     
-.. figure:: ..//_assets/loadbalancer/loadbalancer_getstarted.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_getstarted.PNG
    :alt: Load balancers
    :width: 60%    
 
@@ -28,7 +28,7 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
 
 Create hosted zone
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer-hosted.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer-hosted.PNG
    :alt: Load balancers
    :width: 60% 
 * Create records
@@ -43,10 +43,10 @@ Create records and Registered Network load balancer to it.
     Record type : A -Routes traffic to IPV4 address and some aws resources.
     Routing policy : Simple Routing
     
-.. figure:: ..//_assets/loadbalancer/loadbalancer_records.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_records.PNG
    :alt: Load balancers
    :width: 60%     
 
-.. figure:: ..//_assets/loadbalancer/loadbalancer_alias.PNG
+.. figure:: ../..//_assets/loadbalancer/loadbalancer_alias.PNG
    :alt: Load balancers
    :width: 60%  

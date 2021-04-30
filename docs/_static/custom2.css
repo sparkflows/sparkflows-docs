@@ -94,5 +94,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
    .wy-table-responsive {
       overflow: visible !important;
    }
+  .wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: white;
+  }
 }
 

@@ -5,7 +5,7 @@ Fire Insights can be configured to authenticate the user against LDAP. Users hav
 
 The following configurations have to be set appropriately.
 
-.. figure:: ../_assets/installation/ldap-order.png
+.. figure:: ../../_assets/installation/ldap-order.png
    :scale: 100%
    :alt: Sparkflows Ldap Order
    

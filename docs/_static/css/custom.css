@@ -85,8 +85,8 @@ h6 {
 }
 
 .wy-menu-vertical .current li.toctree-l1>a {
-    border-bottom: 1px solid #c9c9c9;
-    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #1CB1C2;
+    border-top: 1px solid #1CB1C2;
 }
 
 .wy-menu-vertical li.toctree-l2.current > a {
@@ -172,7 +172,7 @@ h6 {
 }
 
 .wy-menu-vertical .toctree-l1.current {
-    border-bottom: solid 1px #c9c9c9;
+    border-bottom: solid 1px #1CB1C2;
 }
 .wy-menu-vertical li span.toctree-expand{
     float: right;

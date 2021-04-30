@@ -26,7 +26,7 @@ Add below information from newly created application in oneLogin:
     
 5. Metadata url of identity provider.
 
-.. figure:: ../../_assets/authentication/saml_metadata_url.png
+.. figure:: ../../../_assets/authentication/saml_metadata_url.png
    :alt: sso
    :width: 60%
 
@@ -36,7 +36,7 @@ Add below information from newly created application in oneLogin:
     
 6. Identifier of the SP entity  (must be a URI) Audience URI
 		        
-.. figure:: ../../_assets/authentication/service_provider_entity_id.png
+.. figure:: ../../../_assets/authentication/service_provider_entity_id.png
    :alt: sso
    :width: 60%
 
@@ -47,7 +47,7 @@ Add below information from newly created application in oneLogin:
 7. Identifier of the IdP entity  (must be a URI)
   
    
-.. figure:: ../../_assets/authentication/one_login_entity_id.png
+.. figure:: ../../../_assets/authentication/one_login_entity_id.png
    :alt: sso
    :width: 60%
 
@@ -58,7 +58,7 @@ Add below information from newly created application in oneLogin:
 8. Algorithm that the toolkit will use on signing process.
 
   
-.. figure:: ../../_assets/authentication/saml_signature.png
+.. figure:: ../../../_assets/authentication/saml_signature.png
    :alt: sso
    :width: 60%  
 

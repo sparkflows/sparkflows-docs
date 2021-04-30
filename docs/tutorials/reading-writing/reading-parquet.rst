@@ -25,7 +25,7 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 
 In the ‘Create DataSet’ page fill in the required fields as below.
 
-.. figure:: ../../_assets/tutorials/dataset/7.PNG
+.. figure:: ../../_assets/tutorials/dataset/7.png
    :alt: Dataset
    :align: center
    :width: 60%

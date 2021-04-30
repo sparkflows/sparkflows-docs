@@ -7,19 +7,19 @@ Below are steps to setup SAML 2.0 OneLogin
 2. SignIn into oneLogin
 
 
-.. figure:: ../../_assets/authentication/oneLoginSignIn.png
+.. figure:: ../../../_assets/authentication/oneLoginSignIn.png
    :alt: sso
    :width: 60%
 	   
 3. Go to administrator >> Click on applications menu >> 
 
-.. figure:: ../../_assets/authentication/applications_menu.png
+.. figure:: ../../../_assets/authentication/applications_menu.png
    :alt: sso
    :width: 60%
 	   
 4. Add an app
 
-.. figure:: ../../_assets/authentication/addAppButton.png
+.. figure:: ../../../_assets/authentication/addAppButton.png
    :alt: sso
    :width: 60%
    
@@ -28,13 +28,13 @@ Below are steps to setup SAML 2.0 OneLogin
     Search application 'SAML Test Connector'
     Select the application SAML Test Connector (Advanced).
       
-.. figure:: ../../_assets/authentication/searchApp.png
+.. figure:: ../../../_assets/authentication/searchApp.png
    :alt: sso
    :width: 60%
 	    
 6. Input an application name and save it.
 
-.. figure:: ../../_assets/authentication/saveApp.png
+.. figure:: ../../../_assets/authentication/saveApp.png
    :alt: sso
    :width: 60%
    
@@ -47,6 +47,6 @@ Below are steps to setup SAML 2.0 OneLogin
     Single Logout URL
     Login URL
 	   
-.. figure:: ../../_assets/authentication/configuration.png
+.. figure:: ../../../_assets/authentication/configuration.png
    :alt: sso
    :width: 60%

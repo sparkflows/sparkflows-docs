@@ -41,7 +41,7 @@ Add/update the below information from newly created application in Okta:
     # Algorithm that the toolkit will use on signing process
     saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
 
-.. figure:: ../../_assets/authentication/okta_identifier.png
+.. figure:: ../../../_assets/authentication/okta_identifier.png
    :alt: sso
    :width: 60%
 
@@ -53,17 +53,17 @@ Add/update the below information from newly created application in Okta:
     saml2.idp.metadata-url=https://dev-514411.okta.com/app/exk6sc27dyq4istqO357/sso/saml/metadata
     
     
-.. figure:: ../../_assets/authentication/okta_metdata.png
+.. figure:: ../../../_assets/authentication/okta_metdata.png
    :alt: sso
    :width: 60%    
 
 7. Capture Issuer url
 
-.. figure:: ../../_assets/authentication/okta_issuer.png
+.. figure:: ../../../_assets/authentication/okta_issuer.png
    :alt: sso
    :width: 60% 
 
-.. figure:: ../../_assets/authentication/okta_identifier_url.png
+.. figure:: ../../../_assets/authentication/okta_identifier_url.png
    :alt: sso
    :width: 60% 
 

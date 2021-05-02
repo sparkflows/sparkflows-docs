@@ -9,7 +9,7 @@ Define New Workflow
 Click on 'Create New Workflow' for creating a New Workflow, It supports two engines - spark & pyspark. It will open the Workflow Editor where the workflow can be created.
 
 
-.. figure:: ../../_assets/user-guide/workflow/2.PNG
+.. figure:: ../../../_assets/user-guide/workflow/2.PNG
    :alt: workflow
    :width: 60%
 
@@ -41,7 +41,7 @@ View Workflows
 
 You can view the workflows by going to the Workflows Page inside specific applications.
 
-.. figure:: ../../_assets/user-guide/workflow/1.PNG
+.. figure:: ../../../_assets/user-guide/workflow/1.PNG
    :alt: workflow
    :width: 60%
 

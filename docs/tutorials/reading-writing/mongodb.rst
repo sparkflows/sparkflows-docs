@@ -13,14 +13,12 @@ It then saves the data into MongoDB.
 
 .. figure:: ../../_assets/tutorials/mongodb/Savemongodb.PNG
    :alt: SaveMongoDB
-   :align: center
    :width: 60%
 
 The below diagram shows the dialog box for the SaveMongoDB Processor.
 
 .. figure:: ../../_assets/tutorials/mongodb/savemongodbprocessor.PNG
    :alt: SaveMongoDB
-   :align: center
    :width: 60%
    
 Workflow Execution
@@ -30,7 +28,6 @@ When we execute the Workflow, it reads in the dataset from HDFS and loads it int
 
 .. figure:: ../../_assets/tutorials/mongodb/workflowexecutionsavemongodb.PNG
    :alt: SaveMongoDB
-   :align: center
    :width: 60%
 
 Workflow for Reading data from MongoDB
@@ -41,14 +38,12 @@ The below workflow reads Data in MongoDB.It then prints the data.
 
 .. figure:: ../../_assets/tutorials/mongodb/Readmongodb.PNG
    :alt: ReadMongoDB
-   :align: center
    :width: 60%
 
 The below diagram shows the dialog box for the ReadMongoDB Processor.
 
 .. figure:: ../../_assets/tutorials/mongodb/Readmongodbprocessor.PNG
    :alt: ReadMongoDB
-   :align: center
    :width: 60%
    
 In the above dialog, the 'Refresh Schema' button infers the schema of the collections. Thus it is able to pass down the output schema to the next Processor making it easy for us to build the workflow.   
@@ -62,6 +57,5 @@ We see that the Sample data records we wrote to MongoDB in the first workflow is
 
 .. figure:: ../../_assets/tutorials/mongodb/workflowexecutionreadmongodb.PNG
    :alt: ReadMongoDB
-   :align: center
    :width: 60%
 

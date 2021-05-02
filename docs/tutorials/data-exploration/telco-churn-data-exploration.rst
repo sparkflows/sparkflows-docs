@@ -13,7 +13,6 @@ Below is a workflow which profiles the Telco Churn Dataset.
 
 .. figure:: ../../_assets/tutorials/data-exploration/data-profiling-workflow.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
    
 Input Telco Churn Data
@@ -24,7 +23,6 @@ The input dataset looks like below:
 
 .. figure:: ../../_assets/tutorials/data-exploration/input-dataset.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
    
 Workflow Execution Result
@@ -38,7 +36,6 @@ Summary Statistics
 
 .. figure:: ../../_assets/tutorials/data-exploration/workflow-execution-result.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
    
 Counts by Churned Column
@@ -46,7 +43,6 @@ Counts by Churned Column
 
 .. figure:: ../../_assets/tutorials/data-exploration/countsby-churned-columns.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
    
 Graph of counts of various attributes for Churned and Not Churned customers
@@ -55,7 +51,6 @@ Graph of counts of various attributes for Churned and Not Churned customers
 
 .. figure:: ../../_assets/tutorials/data-exploration/churned-notchurned-customers.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
    
 Correlation Matrix
@@ -64,7 +59,6 @@ Correlation Matrix
 
 .. figure:: ../../_assets/tutorials/data-exploration/co-relation-matrix.png
    :alt: Concat Columns
-   :align: center
    :width: 60%
  
 

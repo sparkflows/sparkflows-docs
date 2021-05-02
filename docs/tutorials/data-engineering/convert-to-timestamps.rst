@@ -15,7 +15,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -28,7 +27,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
    
 Processor Output
@@ -36,7 +34,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
    
 Prints the sample Dataset Results
@@ -49,7 +46,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
 
 Processor Output
@@ -57,7 +53,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60% 
    
 Convert To Timestamps
@@ -70,7 +65,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60% 
 
 Processor Output
@@ -78,7 +72,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
    
 Prints the Results
@@ -92,7 +85,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60%
 
 Processor Output
@@ -100,7 +92,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.PNG
    :alt: Convert To Timestamps
-   :align: center
    :width: 60% 
 
 

@@ -16,7 +16,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture1.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
    
 Reading from URL
@@ -30,7 +29,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture2.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
 
   
@@ -39,7 +37,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture3.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%   
    
 Prints the Records
@@ -58,7 +55,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture4.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
 
 Processor Output
@@ -66,7 +62,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture5.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
    
 Row Filter by Index
@@ -80,7 +75,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture6.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
 
 Processor Output
@@ -88,7 +82,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture7.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
      
   

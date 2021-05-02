@@ -27,7 +27,7 @@ Example - Represent Daily sales data
 
 Below is the sample workflows which contains ``Time Series data`` and visualize using line chart in Fire Insights.
 
-.. figure:: ../_assets/ml_userguide/visual.PNG
+.. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
    :width: 60%
 
@@ -35,13 +35,13 @@ Configurations for visualization processors in Fire Insight:
 * Set number of columns want to represent on y axis with respect to x axis
 * Set chart type based on data type
 
-.. figure:: ../_assets/ml_userguide/visualization_configurations.PNG
+.. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
    :width: 60%
 
 Output result of ``Visualization`` processor:
 
-.. figure:: ../_assets/ml_userguide/visual_result.PNG
+.. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
    :width: 60%
 
@@ -49,13 +49,13 @@ Charts : BarChart
 ==================
 
 
-.. figure:: ../_assets/ml_userguide/barchart.png
+.. figure:: ../../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
    :width: 60%
    
 Charts : Scatter
 ==================
 
-.. figure:: ../_assets/ml_userguide/scater_graph.png
+.. figure:: ../../_assets/ml_userguide/scater_graph.png
    :alt: ml_userguide
    :width: 60%

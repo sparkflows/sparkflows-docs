@@ -44,7 +44,6 @@ Below is a workflow for Streaming Analytics of the Bike Sharing dataset.
 
 .. figure:: ../../_assets/tutorials/dataset/37.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 It consists of 6 Nodes: 
@@ -63,7 +62,6 @@ It reads in streaming data from Kafka and creates a dataframe with one column co
 
 .. figure:: ../../_assets/tutorials/dataset/38.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 FieldSplitter
@@ -73,7 +71,6 @@ It splits each line on the separator - comma - and outputs a new DataFrame with 
 
 .. figure:: ../../_assets/tutorials/dataset/39.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 StringToDate
@@ -83,7 +80,6 @@ It converts the datetime column into new column of type 'Timestamp'.
 
 .. figure:: ../../_assets/tutorials/dataset/40.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 DateTimeFieldExtract
@@ -93,7 +89,6 @@ It extracts the year, month, day of month and hour from the datetime_dt column.
 
 .. figure:: ../../_assets/tutorials/dataset/41.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
    
@@ -104,7 +99,6 @@ Aggregates the data on the hour column, and displays it in a Graph.
 
 .. figure:: ../../_assets/tutorials/dataset/42.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 Executing the workflow
@@ -114,12 +108,10 @@ When the workflow is executed, Fire submits a spark streaming job to the Spark c
 
 .. figure:: ../../_assets/tutorials/dataset/43.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 .. figure:: ../../_assets/tutorials/dataset/44.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 Streaming Dashboard
@@ -131,12 +123,10 @@ Below is the Dashboard editor. Select the nodes whose output you want displayed 
 
 .. figure:: ../../_assets/tutorials/dataset/45.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 .. figure:: ../../_assets/tutorials/dataset/46.PNG
    :alt: Dataset
-   :align: center
    :width: 60%  
    
    

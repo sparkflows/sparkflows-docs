@@ -15,7 +15,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/Capture1.PNG
    :alt: data-wrangling
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -29,7 +28,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/Capture2.PNG
    :alt: data-wrangling
-   :align: center
    :width: 60%   
    
    
@@ -43,7 +41,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/Capture3.PNG
    :alt: data-wrangling
-   :align: center
    :width: 60%
 
 Processor Output
@@ -51,7 +48,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/Capture4.PNG
    :alt: data-wrangling
-   :align: center
    :width: 60%
   
   

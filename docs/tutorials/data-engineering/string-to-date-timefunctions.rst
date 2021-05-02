@@ -15,7 +15,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/1.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%
 
 Reading from CSV file
@@ -28,7 +27,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%
    
 Processor Output
@@ -36,7 +34,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2a.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60% 
    
 String to Date
@@ -49,7 +46,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60% 
 
 Processor Output
@@ -57,7 +53,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3a.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%  
 
 Time Functions
@@ -70,7 +65,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60% 
 
 Processor Output
@@ -78,7 +72,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4a.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%
 
 Prints the Results
@@ -92,7 +85,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%
 
 Processor Output
@@ -100,5 +92,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5a.PNG
    :alt: String To Date Timefunctions
-   :align: center
    :width: 60%

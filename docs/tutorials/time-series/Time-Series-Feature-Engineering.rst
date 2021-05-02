@@ -23,7 +23,6 @@ Each column is a feature. But all features may not produce the best results from
 
 .. figure:: ../../_assets/tutorials/time-series/ts_features/tsf_workflow.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 Moving average
@@ -35,7 +34,6 @@ Moving average
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/ma1.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 **Seven step moving average** 
@@ -45,7 +43,6 @@ Moving average
  
  .. figure:: ../../_assets/tutorials/time-series/ts_features/moving_output.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100% 
 
 
@@ -56,14 +53,12 @@ Extract Date Time Features
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/date_field_extraction.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100% 
 
 * Output of Date Time Features
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/date_extrected_output.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100% 
 
 Lags Feature
@@ -80,7 +75,6 @@ Lags Feature
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/lag1.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 **Lag seven** 
@@ -89,7 +83,6 @@ Lags Feature
  
  .. figure:: ../../_assets/tutorials/time-series/ts_features/all_lags.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100% 
 
 New feature data
@@ -97,5 +90,4 @@ New feature data
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/featuredoutput.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100% 

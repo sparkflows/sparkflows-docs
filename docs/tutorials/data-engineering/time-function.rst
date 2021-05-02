@@ -12,7 +12,6 @@ Let us take a Transaction Dataset which is in CSV format on HDFS. The dataset ha
 
 .. figure:: ../../_assets/tutorials/dataset/28.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 Workflow for applying TimeFunctions
@@ -22,7 +21,6 @@ In the example workflow below, additional date time features are being created f
 
 .. figure:: ../../_assets/tutorials/dataset/29.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 In the above workflow: 
@@ -35,7 +33,6 @@ The diagram below shows the dialog box for the TimeFunctions processor. Timestam
 
 .. figure:: ../../_assets/tutorials/dataset/30.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
    
@@ -46,7 +43,6 @@ When the example workflow is executed, additional columns are produced for the v
 
 .. figure:: ../../_assets/tutorials/dataset/31.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 

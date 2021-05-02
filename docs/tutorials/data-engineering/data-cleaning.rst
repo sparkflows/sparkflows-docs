@@ -21,7 +21,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture1.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
    
 Reading from Dataset
@@ -35,7 +34,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture2.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%   
    
    
@@ -49,14 +47,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture3.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture4.PNG
-   :align: center
    :width: 60%
   
 
@@ -70,22 +66,18 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture5.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture6.PNG
-   :align: center
    :width: 60%
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture7.PNG
-   :align: center
    :width: 60%
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture8.PNG
-   :align: center
    :width: 60%
    
 Convert Gender to Integer Values
@@ -98,14 +90,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture9.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture10.PNG
-   :align: center
    :width: 60%
    
 Replace Gender and Family with 0/1
@@ -118,7 +108,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture11.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
 
 Processor Output
@@ -126,7 +115,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture12.PNG
    :alt: DataCleaning
-   :align: center
    :width: 60%
    
    

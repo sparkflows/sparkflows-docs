@@ -12,7 +12,6 @@ Workflow
 
 .. figure:: ../../_assets/tutorials/dataset/32.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
    
@@ -21,7 +20,6 @@ In the example workflow above, 'Split By Multiple Expressions' processor splits 
 
 .. figure:: ../../_assets/tutorials/dataset/33.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 Output
@@ -31,15 +29,12 @@ For the example workflow, the three output dataframes are shown below:
 
 .. figure:: ../../_assets/tutorials/dataset/34.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 .. figure:: ../../_assets/tutorials/dataset/35.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 .. figure:: ../../_assets/tutorials/dataset/36.PNG
    :alt: Dataset
-   :align: center
    :width: 60%   

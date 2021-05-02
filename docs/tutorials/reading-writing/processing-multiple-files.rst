@@ -14,7 +14,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60%
    
 Reading CSV files
@@ -27,7 +26,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/8.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60%
 
 Processor Output
@@ -35,7 +33,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/3.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60%
 
 Filter its data
@@ -48,7 +45,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/4.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60%
    
 Processor Output
@@ -56,7 +52,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/5.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60%   
    
 Print the results
@@ -69,7 +64,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/6.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60% 
    
 Processor Output
@@ -77,5 +71,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/7.PNG
    :alt: Housing Analysis
-   :align: center
    :width: 60% 

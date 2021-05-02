@@ -22,7 +22,6 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/Anamoly_workflow.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
    
 Data Preprocessing
@@ -32,14 +31,12 @@ Data Preprocessing
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/column_filter.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
    
 * **Output** Univariate data
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/col_filt_out.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
    
 Data Modeling
@@ -59,7 +56,6 @@ Data Modeling
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_general.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 
@@ -69,14 +65,12 @@ Data Modeling
   
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_future.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
 * **SQL** set mean column to set threshold
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_out.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
 Model prediction
@@ -86,5 +80,4 @@ Model prediction
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/iot_final_out.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%

@@ -5,7 +5,7 @@ Fire Insights creates Apache Spark MLlib models. These models get saved as files
 
 NoveModelSave saves the Spark ML models as files. It uses the Spark interfaces to save the model.
 
-.. figure:: ../../_assets/model/SparkMLModelSave.png
+.. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
    :width: 30%
 
@@ -16,7 +16,7 @@ Batch Model Scoring:
 
 By using NodeModelLoad & selecting the particular type of model to be loaded, the model would be loaded in the workflow and it can be used for scoring the input data.
 
-.. figure:: ../../_assets/model/SparkMLModelScore.png
+.. figure:: ../../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
    :width: 30%
 

@@ -12,7 +12,6 @@ When you open any application, all existing datasets specific to the application
 
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
       
 Dataset Creation
@@ -22,7 +21,6 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 
 .. figure:: ../../_assets/tutorials/dataset/12.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
  
  
@@ -33,12 +31,10 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
 
 .. figure:: ../../_assets/tutorials/dataset/13.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
 
 .. figure:: ../../_assets/tutorials/dataset/14.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 
@@ -47,7 +43,6 @@ Clicking the ‘Save’ button creates the new dataset that can be used in any w
 
 .. figure:: ../../_assets/tutorials/dataset/15.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
    

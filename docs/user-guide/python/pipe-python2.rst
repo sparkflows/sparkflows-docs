@@ -12,7 +12,6 @@ Below is an example workflow containing Pipe Python2 Processor.
 .. figure:: ../../_assets/user-guide/pipe-python-workflow.png
    :scale: 50%
    :alt: Pipe Python Workflow
-   :align: center
 
 Input DataFrame Schema
 -----------------------
@@ -125,6 +124,5 @@ The output schema of the Python Script is written to a file which is read by the
 .. figure:: ../../_assets/user-guide/pipe-python-schema-2.png
    :scale: 50%
    :alt: Pipe Python Schema
-   :align: center
    
    

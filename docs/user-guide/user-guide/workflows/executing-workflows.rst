@@ -13,7 +13,7 @@ Interactively within the User Interface
 Workflows can be executed from the browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../_assets/user-guide/workflow/4.PNG
+.. figure:: ../../../_assets/user-guide/workflow/4.PNG
    :alt: Workflow
    :width: 60%
 
@@ -62,7 +62,7 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 
 
 
-.. figure:: ../../_assets/user-guide/json-workflow.png
+.. figure:: ../../../_assets/user-guide/json-workflow.png
    :alt: Sparkflows Json Workflow
  
  
@@ -73,26 +73,26 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
  
 - Click on Schedule Button of Workflow we want to schedule
 
-.. figure:: ../../_assets/user-guide/workflow/5.PNG
+.. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
    :width: 60%  
  
  
 - Click on Tab Schedule New Job for Workflow
  
- .. figure:: ../../_assets/user-guide/workflow/6.PNG
+ .. figure:: ../../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow
    :width: 60% 
  
  - Update the scheduled timing & email notifications after success & failure of workflow as per our requirments.
  
-.. figure:: ../../_assets/user-guide/workflow/7.PNG
+.. figure:: ../../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow
    :width: 60%    
 
 - Click on SUBMIT to save the changes.
 
-.. figure:: ../../_assets/user-guide/workflow/8.PNG
+.. figure:: ../../../_assets/user-guide/workflow/8.PNG
    :alt: Workflow
    :width: 60%  
 

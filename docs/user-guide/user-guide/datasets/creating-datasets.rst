@@ -5,7 +5,7 @@ You can define a New Dataset by clicking on the ``Create Dataset`` button in the
 
 It will bring up the dialog box below. Select the format of the file for which the new Dataset is being created.
 
-.. figure:: ../../_assets/tutorials/dataset/10.PNG
+.. figure:: ../../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
    :width: 60%
    
@@ -22,7 +22,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 
     
- .. figure:: ../../_assets/tutorials/dataset/3.PNG
+ .. figure:: ../../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
    :width: 60%  
 
@@ -36,7 +36,7 @@ In this example, the data file did not have a header row. So Fire gave it standa
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../_assets/tutorials/dataset/17.PNG
+ .. figure:: ../../../_assets/tutorials/dataset/17.PNG
    :alt: Dataset
    :width: 60%
    

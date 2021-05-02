@@ -12,13 +12,13 @@ Since Fire Insights is Browser based end to end, its easy to export the pages as
 - On clicking on view option, able to visualize etc. added in that dashboard, there you will have ``Export`` option, Click on that.
 
 
-.. figure:: ../../_assets/user-guide/batch_dashboard.PNG
+.. figure:: ../../../_assets/user-guide/batch_dashboard.PNG
    :alt: Dataset
    :width: 60%
    
 It will Export the whole batch dashboard in pdf format on local machine.
 
-.. figure:: ../../_assets/user-guide/batch_dashboard_download.PNG
+.. figure:: ../../../_assets/user-guide/batch_dashboard_download.PNG
    :alt: Dataset
    :width: 60%
  
@@ -31,22 +31,22 @@ Once the workflow successfully completed, the output result can be exported.
 
 Clicking on ``Executions`` tab the latest workflow execution will show in list page.
 
-.. figure:: ../../_assets/user-guide/executionpage.PNG
+.. figure:: ../../../_assets/user-guide/executionpage.PNG
    :alt: Dataset
    :width: 60%
 
 On action icon you can see ``view result``, it will take to next page.
 
-.. figure:: ../../_assets/user-guide/executionresult.PNG
+.. figure:: ../../../_assets/user-guide/executionresult.PNG
    :alt: Dataset
    :width: 60%
 
 On opening above link, able to view result of specific workflow submitted & have Export option through which you can export result in local machine in pdf format & view that.
 
-.. figure:: ../../_assets/user-guide/exportresult.PNG
+.. figure:: ../../../_assets/user-guide/exportresult.PNG
    :alt: Dataset
    :width: 60%
    
-.. figure:: ../../_assets/user-guide/exportresultlocal.PNG
+.. figure:: ../../../_assets/user-guide/exportresultlocal.PNG
    :alt: Dataset
    :width: 60%   

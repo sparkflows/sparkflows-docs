@@ -35,7 +35,6 @@ Below is the workflow for creating a KMeans model for clustering the houses. It 
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -62,7 +61,6 @@ We print a few records which have been read in to view them.
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/3a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Assemble the features for predictions
@@ -130,7 +128,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/9.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Processor Output
@@ -138,7 +135,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/9a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Print the prediction results
@@ -151,7 +147,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%
    
 Processor Output
@@ -159,5 +154,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10a.PNG
    :alt: Clustering Houses
-   :align: center
    :width: 60%

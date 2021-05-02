@@ -16,7 +16,7 @@ Go to Analytics Apps
 
 When you go to ANALYTICS APPS under APPLICATIONS all existing analytics app are displayed. Where you can EDIT, VIEW and DELETE existing analytics app.
 
-  .. figure:: ../_assets/web-app/list.PNG
+  .. figure:: ../../_assets/web-app/list.PNG
       :alt: web-app
       :width: 60%
 
@@ -31,7 +31,7 @@ Fill in the required fields as below.
 - *Description* : Description of the new analytics app
 - *Execution Type:* : Select execution type i.e notebook and select notebook from the available notebook list
 
-  .. figure:: ../_assets/web-app/create.PNG
+  .. figure:: ../../_assets/web-app/create.PNG
       :alt: web-app
       :width: 60%
 

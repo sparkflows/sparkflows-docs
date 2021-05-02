@@ -12,7 +12,7 @@ Under ``Action`` column, there is an icon to schedule any given workflow.
 
 Clicking on the icon takes you to a page for creating new schedules for the workflow. Clicking on Schedule New Job for Workflow opens the dialog for creating a new schedule.
 
-.. figure:: ../../_assets/user-guide/scheduler-schedule-job.png
+.. figure:: ../../../_assets/user-guide/scheduler-schedule-job.png
    :alt: Scheduling New Workflow
    :width: 60%
    
@@ -22,7 +22,7 @@ Viewing Workflows Scheduled
 
 Scheduled/By Time page displays the various workflows scheduled.
 
-.. figure:: ../../_assets/user-guide/scheduler-workflows-scheduled.png
+.. figure:: ../../../_assets/user-guide/scheduler-workflows-scheduled.png
    :alt: Workflows Scheduled
    :width: 60%
 
@@ -39,7 +39,7 @@ When workflows are scheduled, they are executed by Fire at the specified schedul
 
 The results of the execution of the workflows can be viewed in the Workflow Executions Page. This allows us to view the results of past execution, logs of the run etc.
 
-.. figure:: ../../_assets/user-guide/scheduler-workflow-executions.png
+.. figure:: ../../../_assets/user-guide/scheduler-workflow-executions.png
    :alt: Workflow Executions
    :width: 60%
 

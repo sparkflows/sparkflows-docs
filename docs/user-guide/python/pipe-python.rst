@@ -12,7 +12,6 @@ Below is an example workflow containing Pipe Python Processor.
 .. figure:: ../../_assets/user-guide/pipe-python-workflow.png
    :scale: 50%
    :alt: Pipe Python Workflow
-   :align: center
 
 Input DataFrame Schema
 -----------------------
@@ -57,7 +56,6 @@ Below is the code in the Dialog box of the Pipe Python Processor of the Workflow
 .. figure:: ../../_assets/user-guide/pipe-python-dialog-1.png
    :scale: 50%
    :alt: Pipe Python Dialog
-   :align: center
    
 
 Output Schema of the Python Script
@@ -70,7 +68,6 @@ It has to be specified in the Pipe Python Processor Dialog.
 .. figure:: ../../_assets/user-guide/pipe-python-schema-1.png
    :scale: 50%
    :alt: Pipe Python Schema
-   :align: center
    
    
 Program Execution Output
@@ -81,5 +78,4 @@ Below is the output produced when executing the workflow.
 .. figure:: ../../_assets/user-guide/pipe-python-output-1.png
    :scale: 50%
    :alt: Pipe Python Output
-   :align: center
    

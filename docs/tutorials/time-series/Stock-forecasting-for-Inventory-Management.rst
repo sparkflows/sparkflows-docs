@@ -24,7 +24,6 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 .. figure:: ../../_assets/tutorials/time-series/stock_workflow1.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 
@@ -37,7 +36,6 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 
@@ -48,7 +46,6 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/store_top_10.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 Node 2 - RowFilter
@@ -58,7 +55,6 @@ Node 2 - RowFilter
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
    
@@ -78,7 +74,6 @@ Used Facebook Prophet to create the ML model.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 
@@ -90,7 +85,6 @@ Used Facebook Prophet to create the ML model.
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 Node 4 - SQL
@@ -102,7 +96,6 @@ Node 4 - SQL
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 **Schema Section of SQL node**
@@ -111,7 +104,6 @@ Node 4 - SQL
 
 .. figure:: ../../_assets/tutorials/time-series/sql_schema.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
 
@@ -125,7 +117,6 @@ Node 5 - JoinUsingSQL
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 **Schema Section of JoinUsingSQL node**
@@ -134,7 +125,6 @@ Node 5 - JoinUsingSQL
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 
@@ -147,7 +137,6 @@ Node 6 - SaveCSV
 
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
 
@@ -160,7 +149,6 @@ Below is the workflow for Visualizing it:
 
 .. figure:: ../../_assets/tutorials/time-series/stock_graph_workflow1.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 Node 1 - ReadCSV
@@ -171,7 +159,6 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
 
    
@@ -182,7 +169,6 @@ Node 2 - RowFilter
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
 Node 3 - SortBy
@@ -197,7 +183,6 @@ Node 4 - GraphValue
 
 .. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%
    
 **Graph obtained**
@@ -210,5 +195,4 @@ Node 4 - GraphValue
 
 .. figure:: ../../_assets/tutorials/time-series/Graph_output.png
    :alt: Stock Forecasting
-   :align: center
    :width: 60%

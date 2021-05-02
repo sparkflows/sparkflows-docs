@@ -17,7 +17,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/1.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
 
 Reading from Dataset
@@ -30,7 +29,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/2.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Processor Output
@@ -38,7 +36,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/2a.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Tokenizes message column
@@ -50,7 +47,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/3.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Processor Output
@@ -58,7 +54,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/3a.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Perform TF
@@ -71,7 +66,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/4.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Processor Output
@@ -79,7 +73,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/4a.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Perform IDF
@@ -92,7 +85,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/5.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Processor Output
@@ -100,7 +92,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/5a.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Prints the results
@@ -110,7 +101,6 @@ It will print the result after performing TF/IDF on text content.
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/6.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%
    
 Processor Output
@@ -118,5 +108,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/6a.PNG
    :alt: TFIDF
-   :align: center
    :width: 60%

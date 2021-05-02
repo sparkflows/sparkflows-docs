@@ -22,7 +22,6 @@ Below is a workflow which uses the NameFinder Processor.
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/1.png
    :alt: Workflow
-   :align: center
    :width: 60%
    
 It consists of 3 Processors:
@@ -41,7 +40,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/2.png
    :alt: Workflow
-   :align: center
    :width: 60%
    
 Processor Output
@@ -49,7 +47,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/2a.png
    :alt: Workflow
-   :align: center
    :width: 60%   
    
 OpenNLPNameFinder
@@ -59,7 +56,6 @@ It extracts entities from the text in the input column 'line' and stores them in
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/3.png
    :alt: Workflow
-   :align: center
    :width: 60%
    
 PrintNRows
@@ -69,7 +65,6 @@ It prints the first 10 rows from the result.
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/4.png
    :alt: Workflow
-   :align: center
    :width: 60%
    
 

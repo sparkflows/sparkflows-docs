@@ -14,7 +14,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture1.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%
    
 Performing Correlation analysis
@@ -27,7 +26,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture2.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%
    
 Processor Output - Correlation matrix
@@ -35,7 +33,6 @@ Processor Output - Correlation matrix
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture3.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%   
 
 Processor Output - Correlation Matrix Heat Map
@@ -43,7 +40,6 @@ Processor Output - Correlation Matrix Heat Map
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture4.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%   
 
 Processor Output - Sample Rows of Input Dataset
@@ -51,7 +47,6 @@ Processor Output - Sample Rows of Input Dataset
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture5.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%   
 
    
@@ -69,7 +64,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture6.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%   
 
 Processor Output: Summary Statistics
@@ -77,7 +71,6 @@ Processor Output: Summary Statistics
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture7.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%   
   
 Processor Output: Sample Rows of Input Dataset
@@ -85,7 +78,6 @@ Processor Output: Sample Rows of Input Dataset
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/Capture8.PNG
    :alt: ProfilingCorrelation
-   :align: center
    :width: 60%    
 
 

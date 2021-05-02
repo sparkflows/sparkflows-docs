@@ -24,7 +24,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture1.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%
    
 Reading from CSV File
@@ -37,7 +36,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture2.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%
    
    
@@ -46,7 +44,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture3.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%
 
 String Functions
@@ -58,7 +55,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture4.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%
    
 Processor Output
@@ -66,7 +62,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture5.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%
    
 
@@ -80,7 +75,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture6.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%   
 
    
@@ -89,7 +83,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture7.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%   
 
 Prints the Valid Records
@@ -100,7 +93,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture8.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%   
 
 
@@ -112,6 +104,5 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture9.PNG
    :alt: Data Validation Multiple
-   :align: center
    :width: 60%   
 

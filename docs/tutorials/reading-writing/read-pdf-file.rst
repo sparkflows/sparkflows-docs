@@ -13,7 +13,6 @@ Below is the workflow that shows:
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/Capture1.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
    
 Reading And Parsing PDF File
@@ -27,7 +26,6 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/Capture2.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%
 
   
@@ -36,7 +34,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/Capture3.PNG
    :alt: ReadandParse
-   :align: center
    :width: 60%   
    
    

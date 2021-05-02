@@ -14,7 +14,7 @@ It can also be created by any user with their Application. In this case, it is o
 
 Specify your SQL Server Username, Password and JDBC Url and save the details.
 
-.. figure:: ../../_assets/connections/sql_connection.PNG
+.. figure:: ../../../_assets/connections/sql_connection.PNG
    :alt: Databricks
    :width: 40%
 
@@ -22,6 +22,6 @@ We can also test the specified connection before saving the connection details.
 
 Now we are ready to start using the SQL Server Connection in Fire Insights using JDBC Connection nodes.
 
-.. figure:: ../../_assets/connections/sql_connection_usage.PNG
+.. figure:: ../../../_assets/connections/sql_connection_usage.PNG
    :alt: Databricks
    :width: 40%

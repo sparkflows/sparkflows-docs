@@ -13,7 +13,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.png
    :alt: Data Validation
-   :align: center
    :width: 60%
    
 Reading from CSV File
@@ -26,12 +25,10 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2a.png
    :alt: Data Validation
-   :align: center
    :width: 60%
    
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2aa.png
    :alt: Data Validation
-   :align: center
    :width: 60%
    
 Processor Output
@@ -39,7 +36,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2b.png
    :alt: Data Validation
-   :align: center
    :width: 60%
    
 Performing Validation
@@ -52,12 +48,10 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3a.png
    :alt: Data Validation
-   :align: center
    :width: 60%
    
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3aa.png
    :alt: Data Validation
-   :align: center
    :width: 60%   
    
 Processor Output
@@ -65,6 +59,5 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3b.png
    :alt: Data Validation
-   :align: center
    :width: 60%
 

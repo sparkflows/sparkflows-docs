@@ -41,7 +41,6 @@ The workflow is shown below:
 
 .. figure:: ../../_assets/tutorials/dataset/27.PNG
    :alt: Dataset
-   :align: center
    :width: 60%
    
 Data Parsing and Cleaning

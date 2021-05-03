@@ -22,7 +22,7 @@ Below is the workflow. It does the following:
 * Calculate count for rental per hour.
 * Analyse using Graph.
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.png
    :alt: Bike Rental Prediction
    :width: 60%
 

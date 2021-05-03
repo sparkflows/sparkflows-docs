@@ -17,10 +17,6 @@ Below is the workflow. It does the following:
 * GBTRegression.
 * Prediction.
 * RegressionEvaluator.
-* Correlation with columns.
-* Summary analysis.
-* Calculate count for rental per hour.
-* Analyse using Graph.
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.png
    :alt: Bike Rental Prediction
@@ -152,12 +148,6 @@ Processor Configuration
    :alt: Bike Rental Prediction
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/8a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
    
 Prediction
 -----------
@@ -171,12 +161,7 @@ Processor Configuration
    :alt: Bike Rental Prediction
    :width: 60%
    
-Processor Output
-^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/9a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
 
 RegressionEvaluator
 -------------------
@@ -190,85 +175,4 @@ Processor Configuration
    :alt: Bike Rental Prediction
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/10a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
    
-Correlation with columns
--------------------------
-
-It will analyse correlation between various columns using Correlation Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/11.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/11a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Summary analysis
------------------
-
-It visualizes our data to get sense of whether the features are meaningful using Summary Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/12.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/12a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Calculate count for rental per hour
------------------------------------
-
-It calculates count for rental per hour using query with SQL Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/13.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/13a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Analyse using Graph
----------------------
-
-It will analyse graph with bike rental counts and hours of the day using GraphValue Node.
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/14.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/14a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%

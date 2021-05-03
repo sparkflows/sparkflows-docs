@@ -11,7 +11,7 @@ Datasets List
 When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
 
 
-.. figure:: ../../_assets/tutorials/dataset/Dataset_Details.png
+.. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
    :width: 60%
    
@@ -25,7 +25,6 @@ Navigate to the "Datasets" tab in your application. Click on the "Create" button
 In the pop-up choose "CSV" and then click "OK".
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDataSet.png
-
    :alt: Dataset
    :width: 60%
 

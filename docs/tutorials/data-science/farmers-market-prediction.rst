@@ -29,7 +29,7 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
 - You can see during the adoption that a single workbench improves collaborative iteration across data engineers, data scientists and analysts, which in turn accelerates time-to-market.
 - As one might observe, the visual approach doubles up as workflow documentation and hence contributes to solving the data-lineage problem.
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.png
    :alt: Fire Market Prediction
    :width: 60%
    
@@ -80,114 +80,101 @@ This workflow consists of the following steps:
 - Using Predict Node: Perform prediction using the model generated on the remaining 30% dataset
 - Finally evaluate the result using the PrintNRows node.
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/2.PNG
-   :alt: Fire Market Prediction
-   :width: 60%
-   
-
 First Dataset
 --------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/3.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/3.png
    :alt: Fire Market Prediction
    :width: 60%
 
 Column Filter
 -------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.png
    :alt: Fire Market Prediction
    :width: 60%
    
 SQL
 ---
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/5.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/5.png
    :alt: Fire Market Prediction
    :width: 60%
    
 Second Dataset
 --------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/6.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/6.png
    :alt: Fire Market Prediction
    :width: 60%
    
 SQL
 ---
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/7.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/7.png
    :alt: Fire Market Prediction
    :width: 60%
    
 AllJoin - Join the two datasets
 -------------------------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.png
    :alt: Fire Market Prediction
    :width: 60%
    
 CastColumnType
 --------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/9.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/9.png
    :alt: Fire Market Prediction
    :width: 60%
    
 ImputingWithConstant
 --------------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/10.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/10.png
    :alt: Fire Market Prediction
    :width: 60%
    
 VectorAssembler
 ---------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/11.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/11.png
    :alt: Fire Market Prediction
    :width: 60%
    
 Split
 -----
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/12.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/12.png
    :alt: Fire Market Prediction
    :width: 60%
    
 LinearRegression
 ----------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/13.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/13.png
    :alt: Fire Market Prediction
    :width: 60%
    
 Predict
 --------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/14.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/14.png
    :alt: Fire Market Prediction
    :width: 60%
 
 Print N Rows
 -------------
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.png
    :alt: Fire Market Prediction
    :width: 60%
 
 Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
-.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.png
    :alt: Fire Market Prediction
    :width: 60%
    
    
- 
- 
-
-   
-
-
-
-  

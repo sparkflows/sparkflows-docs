@@ -17,13 +17,13 @@ Dataset Creation
 
 Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". In the pop-up choose "AVRO" and then click "OK".   
 
-.. figure:: ../../_assets/tutorials/dataset/52.PNG
+.. figure:: ../../_assets/tutorials/dataset/CreateAvro.png
    :alt: Dataset
    :width: 60%
    
 Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a sample.avro file.   
 
-.. figure:: ../../_assets/tutorials/dataset/53.PNG
+.. figure:: ../../_assets/tutorials/dataset/DataSetFormAvro.png
    :alt: Dataset
    :width: 60%
 

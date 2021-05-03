@@ -68,7 +68,7 @@ Save the Dataset
 
 Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflow within the specific application.
 
-.. figure:: ../../_assets/tutorials/dataset/5.PNG
+.. figure:: ../../_assets/tutorials/dataset/SaveDataset.png
    :alt: Dataset
    :width: 60%
    

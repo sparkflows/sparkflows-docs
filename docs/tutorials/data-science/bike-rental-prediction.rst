@@ -129,12 +129,6 @@ Processor Configuration
    :alt: Bike Rental Prediction
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/7a.PNG
-   :alt: Bike Rental Prediction
-   :width: 60%
    
 GBTRegression
 --------------

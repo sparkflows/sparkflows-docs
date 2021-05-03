@@ -39,10 +39,10 @@ Clicking "OK" will take you to Dataset Details page where you can enter informat
    :alt: Dataset
    :width: 60%
    
-For the housing.csv file, we will fill in the required fields as below.   
+For the Clickthru.csv file, we will fill in the required fields as below.   
 
 
-.. figure:: ../../_assets/tutorials/dataset/3.PNG
+.. figure:: ../../_assets/tutorials/dataset/DataSetForm.png
    :alt: Dataset
    :width: 60%
    

@@ -8,7 +8,7 @@ When datasets are created, Fire Insights automatically infers the schema using S
 Datasets
 --------
 
-.. figure:: ../../_assets/tutorials/dataset/1.PNG
+.. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
    :width: 60%
    

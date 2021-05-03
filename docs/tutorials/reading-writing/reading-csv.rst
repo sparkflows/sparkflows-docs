@@ -24,7 +24,8 @@ Choose type of Dataset to Create
 Navigate to the "Datasets" tab in your application. Click on the "Create" button and choose "Dataset".
 In the pop-up choose "CSV" and then click "OK".
 
-.. figure:: ../../_assets/tutorials/dataset/10.PNG
+.. figure:: ../../_assets/tutorials/dataset/CreateDataset.png
+
    :alt: Dataset
    :width: 60%
 

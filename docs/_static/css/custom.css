@@ -29,6 +29,7 @@ h6 {
 }
 .wy-nav-content-wrap{
     margin-left: 340px;
+    word-break: break-word;
 }
 .wy-side-scroll {
     width: 356px;
@@ -220,3 +221,14 @@ h6 {
 @page{
     margin: .5cm .5cm .5cm -9cm; 
 }
+@media screen and (max-width: 768px){
+    .wy-nav-side {
+        left: -340px;
+    }
+    .wy-nav-content-wrap {
+        margin-left: 0;
+    }
+    .wy-menu.wy-menu-vertical, .wy-side-nav-search, .wy-side-scroll {
+        width: auto;
+    }
+    }

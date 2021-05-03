@@ -58,7 +58,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :width: 60%
 
 
-.. figure:: ../../_assets/tutorials/dataset/SampleData_DateSet.png
+.. figure:: ../../_assets/tutorials/dataset/SampleDataset.png
    :alt: Dataset
    :width: 60%
 

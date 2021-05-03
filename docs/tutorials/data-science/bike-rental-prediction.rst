@@ -49,14 +49,14 @@ It Extracts hour from time using datatype timestamp using DateTimeFieldExtract N
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3.png
    :alt: Bike Rental Prediction
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/3a.png
    :alt: Bike Rental Prediction
    :width: 60%
    
@@ -68,14 +68,14 @@ It Calculates cast the Count field to datatype double using CastColumnType Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4.png
    :alt: Bike Rental Prediction
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/4a.png
    :alt: Bike Rental Prediction
    :width: 60%
 
@@ -87,14 +87,14 @@ It Assembles features columns into a feature vector using VectorAssembler Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5.png
    :alt: Bike Rental Prediction
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/5a.png
    :alt: Bike Rental Prediction
    :width: 60%
 
@@ -106,14 +106,14 @@ It identifies categorical features and index them using vectorindexer Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6.png
    :alt: Bike Rental Prediction
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/6a.png
    :alt: Bike Rental Prediction
    :width: 60%
    
@@ -125,7 +125,7 @@ It will split our dataset into seperate training and test sets using split Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/7.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/7.png
    :alt: Bike Rental Prediction
    :width: 60%
    
@@ -144,7 +144,7 @@ It validates held out test sets in order to know about high confidence using GBT
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/8.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/8.png
    :alt: Bike Rental Prediction
    :width: 60%
    
@@ -157,7 +157,7 @@ It will make prediction on future data using Prediction Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/9.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/9.png
    :alt: Bike Rental Prediction
    :width: 60%
    
@@ -171,7 +171,7 @@ It validates held out test sets in order to know about high confidence using Reg
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/10.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/10.png
    :alt: Bike Rental Prediction
    :width: 60%
    

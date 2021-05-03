@@ -53,7 +53,7 @@ Update Sample data/schema
 
 Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
-.. figure:: ../../_assets/tutorials/dataset/4.PNG
+.. figure:: ../../_assets/tutorials/dataset/DataSetSchemaUpdate.png
    :alt: Dataset
    :width: 60%
 

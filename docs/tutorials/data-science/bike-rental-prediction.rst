@@ -34,14 +34,14 @@ It reads sample Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2.png
    :alt: Bike Rental Prediction
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/2a.png
    :alt: Bike Rental Prediction
    :width: 60%
    

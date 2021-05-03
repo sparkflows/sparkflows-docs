@@ -11,7 +11,7 @@ Datasets List
 When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
 
 
-.. figure:: ../../_assets/tutorials/dataset/1.png
+.. figure:: ../../_assets/tutorials/dataset/Dataset Details.png
    :alt: Dataset
    :width: 60%
    

@@ -9,7 +9,7 @@ One problem might be that the ``postbackURL`` is not configured right in Fire In
 
 The other problem can be that the machine running Fire Insights is not accessible from the Databricks Cluster. Test connectivity to the Fire Insights machine from Databricks.
 
-Connectiving from Databricks to Fire postbackURL can be done in Databricks via Notebooks using the telnet command.
+Connectivity from Databricks to Fire postbackURL can be done in Databricks via Notebooks using the telnet command.
 
 .. figure:: ../_assets/configuration/databricks_ping.PNG
    :alt: Databricks
@@ -19,7 +19,7 @@ Connectiving from Databricks to Fire postbackURL can be done in Databricks via N
 When the workflow is executed, nothing shows up in Fire
 -----------------------------------------
 
-Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you are connecting Fire to Databricks ``Standard`` cluster.
+Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you are connecting Fire to Databricks ``Standard`` cluster or have enabled scala in the high concurrency cluster.
 
 
 When accessing most Databricks pages in Fire, it gives Simba JDBC error
@@ -58,6 +58,8 @@ Databricks Cluster Versions Support
 ------------------------------------
 
 Databricks Runtime Version             Spark Version                Scala Version
+
+7.3                                    3.0.1                        2.12
 
 6.2                                    2.4.4                        2.11
 

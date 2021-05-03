@@ -72,4 +72,8 @@ Clicking the ‘Save’ button creates the new dataset. The dataset is now ready
    :alt: Dataset
    :width: 60%
    
-      
+You can find your created dataset in dataset list page.
+  
+.. figure:: ../../_assets/tutorials/dataset/CreatedDatasetList.png
+   :alt: Dataset
+   :width: 60%  

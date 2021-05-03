@@ -32,10 +32,10 @@ In the pop-up choose "CSV" and then click "OK".
 Dataset Details
 +++++++++++++++
 
-Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a housing.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
+Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a Clickthru.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
 
 
-.. figure:: ../../_assets/tutorials/dataset/2.PNG
+.. figure:: ../../_assets/tutorials/dataset/DatasetFileContentView.png
    :alt: Dataset
    :width: 60%
    

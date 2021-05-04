@@ -33,7 +33,7 @@ Below is the workflow for creating a KMeans model for clustering the houses. It 
 * Prediction.
 * Print the prediction results.
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.png
    :alt: Clustering Houses
    :width: 60%
 
@@ -44,22 +44,13 @@ First we read in the Housing Dataset using the ``Read CSV`` node.
 
 Below are the parameters which we use:
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2.png
    :alt: Clustering Houses
    :width: 60%
    
 After reading, the ``Read CSV`` node output looks like below:
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.PNG
-   :alt: Clustering Houses
-   :width: 60%
-   
-Prints the results
-------------------
-
-We print a few records which have been read in to view them.
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/3a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.png
    :alt: Clustering Houses
    :width: 60%
    
@@ -70,13 +61,13 @@ Next we assemble the features we want to use in the KMeans Clustering. We use th
 More details for Vector Assemblem in Apache Spark ML can be found here : https://spark.apache.org/docs/latest/ml-features.html#vectorassembler
 
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4.png
    :alt: Clustering Houses
    :width: 60%
    
 The output of the Vector Assembler node looks like below:
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4a.png
    :alt: Clustering Houses
    :width: 60%
    
@@ -88,14 +79,7 @@ It splits features of prediction using Split Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/5.PNG
-   :alt: Clustering Houses
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/5a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/5.png
    :alt: Clustering Houses
    :width: 60%
    
@@ -107,16 +91,10 @@ It performs KMeans Clustering on the Housing Dataset using KMeans Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/6.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/6.png
    :alt: Clustering Houses
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/6a.PNG
-   :alt: Clustering Houses
-   :width: 60%
    
 Prediction
 -----------
@@ -126,32 +104,16 @@ It predicts features updated using Predict Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/9.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/9.png
    :alt: Clustering Houses
    :width: 60%
    
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/9a.PNG
-   :alt: Clustering Houses
-   :width: 60%
    
 Print the prediction results
 -----------------------------
 
 It Print the prediction results.
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10.PNG
-   :alt: Clustering Houses
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10a.PNG
+.. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10a.png
    :alt: Clustering Houses
    :width: 60%

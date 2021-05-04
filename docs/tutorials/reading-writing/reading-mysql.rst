@@ -41,7 +41,7 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
 Clicking the ‘Save’ button creates the new dataset that can be used in any workflow or Interactive dashboard within the specific application.
 
 
-.. figure:: ../../_assets/tutorials/dataset/DatasetFormMysql.png
+.. figure:: ../../_assets/tutorials/dataset/SaveDatasetMysql.png
    :alt: Dataset
    :width: 60%
    

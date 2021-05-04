@@ -29,11 +29,11 @@ Specify the name of the dataset you are creating and other required parameters s
  
 Once you have filled in required information, hit ‘Update Sample data/schema’ button. This brings up sample data, infers the schema and displays it. You can change column names and data types as needed. Format column is used for specifying the format of date/time fields.
 
-.. figure:: ../../_assets/tutorials/dataset/13.PNG
+.. figure:: ../../_assets/tutorials/dataset/DatasetFormMysql.png
    :alt: Dataset
    :width: 60%
 
-.. figure:: ../../_assets/tutorials/dataset/14.PNG
+.. figure:: ../../_assets/tutorials/dataset/SampleResultMysql.png
    :alt: Dataset
    :width: 60%
    
@@ -41,7 +41,7 @@ Once you have filled in required information, hit ‘Update Sample data/schema�
 Clicking the ‘Save’ button creates the new dataset that can be used in any workflow or Interactive dashboard within the specific application.
 
 
-.. figure:: ../../_assets/tutorials/dataset/15.PNG
+.. figure:: ../../_assets/tutorials/dataset/DatasetFormMysql.png
    :alt: Dataset
    :width: 60%
    

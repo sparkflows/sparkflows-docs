@@ -8,7 +8,7 @@ Datasets
 
 The existing datasets are displayed in the DataSets page of specific application.
 
-.. figure:: ../../_assets/tutorials/dataset/1.PNG
+.. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
    :width: 60%
    
@@ -17,7 +17,7 @@ Dataset Creation
 
 Navigate to the "Datasets" tab in your application where you want to create a new dataset. Click on the "Create" button and choose "Dataset". We now create a dataset for people.parquet. It is a parquet file.
 
-.. figure:: ../../_assets/tutorials/dataset/11.PNG
+.. figure:: ../../_assets/tutorials/dataset/CreateDatasetParquet.png
    :alt: Dataset
    :width: 60%
 

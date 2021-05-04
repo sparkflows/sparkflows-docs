@@ -23,7 +23,7 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 
 In the ‘Create DataSet’ page fill in the required fields as below.
 
-.. figure:: ../../_assets/tutorials/dataset/7.png
+.. figure:: ../../_assets/tutorials/dataset/DatasetFormParquet.png
    :alt: Dataset
    :width: 60%
 
@@ -32,13 +32,13 @@ Specify the name of the dataset you are creating.
 After specifying name and path, click the ‘Update Sample data schema’ button. This brings up the sample data, extracts the schema and displays it. Below we see that there are 2 fields : age and name. Age is of type integer and name is of type string.
 
 
-.. figure:: ../../_assets/tutorials/dataset/8.PNG
+.. figure:: ../../_assets/tutorials/dataset/SampleDatasetParquet.png
    :alt: Dataset
    :width: 60%
    
 Clicking the ‘Save’ button creates the new DataSet for us.
 
-.. figure:: ../../_assets/tutorials/dataset/9.PNG
+.. figure:: ../../_assets/tutorials/dataset/SaveDatasetParquet.png
    :alt: Dataset
    :width: 60%
 

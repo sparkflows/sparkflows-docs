@@ -197,6 +197,9 @@ h6 {
 .highlight {
     background: #f1f1f1;
 }
+.current .toctree-l2 current > ul {
+    background-color: black;
+}
 
 /* override table width restrictions */
 @media screen and (min-width: 767px) {

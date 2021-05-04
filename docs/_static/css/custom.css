@@ -197,7 +197,7 @@ h6 {
 .highlight {
     background: #f1f1f1;
 }
-.current .toctree-l2 current > ul {
+.current .toctree-l2 {
     background-color: black;
 }
 

@@ -72,7 +72,7 @@ AWS Integration
 
    aws/index
  
-AZURE Integration
+Azure Integration
 --------------
 
 .. toctree::

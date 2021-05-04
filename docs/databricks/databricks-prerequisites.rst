@@ -37,3 +37,8 @@ Go to Configurations-->> Advanced Options -->> Spark -->> and add the below in S
 
 spark.databricks.repl.allowedLanguages sql,python,r,scala
 
+.. note::  
+
+   1. Databricks job submit jar path is required
+   2. User who is sharing the token for databricks connection, must have manage permission
+

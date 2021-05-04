@@ -97,8 +97,6 @@ Prints the Results
 ------------------
 
 It prints the results after executing  SQL Query
-   :align: center
-   :width: 60%
    
 Graphical analysis
 ---------------------

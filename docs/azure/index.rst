@@ -1,4 +1,4 @@
-AZURE Guide
+Azure Guide
 =========
 
 .. toctree::

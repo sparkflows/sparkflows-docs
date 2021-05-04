@@ -13,7 +13,7 @@ Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 Workflow for reading from MySQL
 --------------------------------
 
-Below is a workflow which reads data from MySQL and saves to a CSV file. It reads in the data from the ``Loandata`` table in MySQL and saves it to a CSV file.
+Below is a workflow which reads data from MySQL and read the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
 
 .. figure:: ../../_assets/user-guide/WorkflowReadJDBC.png
    :alt: JDBC Workflowt
@@ -35,7 +35,7 @@ Results of reading from MySQL table
 The below screenshot displays some of the records read from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
-   :alt: JDBC Read Results
+   :alt: JDBC Get Schema
    :width: 60%
 
 Specifying a sub-query

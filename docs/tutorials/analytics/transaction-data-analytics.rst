@@ -39,21 +39,6 @@ Prints the sample Dataset Results
 ---------------------------------
 
 It prints sample Dataset Results.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3.PNG
-   :alt: Transaction Data Analytics
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/3a.PNG
-   :alt: Transaction Data Analytics
-   :width: 60%
    
 Analysing using Graph
 ---------------------

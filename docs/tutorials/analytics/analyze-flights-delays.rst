@@ -19,7 +19,6 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.PNG
    :alt: Analyze Flights Delays
-   :align: left
    :width: 90%
    
 Reading from Dataset

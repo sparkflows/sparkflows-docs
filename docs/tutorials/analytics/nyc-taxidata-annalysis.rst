@@ -13,6 +13,7 @@ Below is the workflow. It does the following:
 * Calculates the speed per hour.
 * Calculates the average speed per hour.
 * Prints the results.
+* Sort data by column.
 * Displays average speed per hour on chart.
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.PNG
@@ -90,6 +91,10 @@ Processor Configuration
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5.PNG
    :alt: NYC Taxidata Annalysis
    :width: 60%
+
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5b.PNG
+   :alt: NYC Taxidata Annalysis
+   :width: 60%
    
 Processor Output
 ^^^^^^
@@ -102,6 +107,11 @@ Prints the results
 ------------------
 
 It will print the result with the output of GroupBy Node.
+
+Sort data by column
+------------------
+
+It will sort the result by selected column and it's specified order ASC/DESC using SortBy Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

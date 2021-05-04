@@ -35,7 +35,7 @@ Results of reading from MySQL table
 The below screenshot displays some of the records read from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
-   :alt: JDBC Schema Results
+   :alt: JDBC Read Results
    :width: 60%
 
 Specifying a sub-query

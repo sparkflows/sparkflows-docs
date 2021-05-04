@@ -112,7 +112,7 @@ Processor Configuration
 Print the prediction results
 -----------------------------
 
-It Print the prediction results.
+It prints the prediction results.
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/10a.png
    :alt: Clustering Houses

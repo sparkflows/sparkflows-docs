@@ -32,7 +32,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 Results of reading from MySQL table
 ------------------------------------
 
-The below screenshot displays some of the records read from the MySQL table by Fire.
+The below screenshot displays schema of the table from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
    :alt: JDBC Get Schema
@@ -47,7 +47,7 @@ In the configuration of the JDBC node, for ``DB TABLE`` anything that is valid i
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
 
-Exucute the processor shows the below result.
+Exucute the processor shows the records read from MySQL table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC.png
    :alt: JDBC Result Output

@@ -31,7 +31,7 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 90%
    
 This workflow consists of the following steps:
 

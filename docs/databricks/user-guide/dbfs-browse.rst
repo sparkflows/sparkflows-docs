@@ -1,7 +1,7 @@
 Browse DBFS
 ============
 
-Fire Insights enables you to browse your DBFS & UPLOAD FILE & Delete file and directory in DBFS.
+Fire Insights enables you to browse your DBFS & to Upload & Delete files and directories in DBFS.
 
 Go to DATA BROWSERS/DBFS
 ----------------------
@@ -14,7 +14,7 @@ It will display the Databricks File System list page.
    :align: center
    :width: 60%
    
-UPLOAD FILE in DBFS
+Upload File in DBFS
 ----------------------
 
 You can upload file in ``DBFS`` from local pc.

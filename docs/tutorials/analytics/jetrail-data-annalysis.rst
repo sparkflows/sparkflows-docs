@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 * Print the results.
 * Graphical analysis.
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.png
    :alt: Jetrail Data Annalysis
    :width: 60%
 
@@ -27,14 +27,14 @@ It reads from sample Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2a.png
    :alt: Jetrail Data Annalysis
    :width: 60%   
 
@@ -45,14 +45,14 @@ It extracts year and month field from date time field of timestamp using date ti
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3a.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3a.png
    :alt: Jetrail Data Annalysis
    :width: 60% 
    
@@ -63,14 +63,14 @@ It calculates count per month using query by SQL Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4a.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
@@ -82,14 +82,14 @@ It executes query for grouping and selecting required fields, calculates sum of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5a.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5a.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
@@ -106,13 +106,13 @@ It will graphically represent month with count using GraphValue Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7.png
    :alt: Jetrail Data Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7a.PNG
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7a.png
    :alt: Jetrail Data Annalysis
    :width: 60%

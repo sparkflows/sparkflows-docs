@@ -56,14 +56,6 @@ Azure Integration
    azure/index
    
    
-Operating Fire Insights
---------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   operating/index
-   
 Troubleshooting
 ---------------
 

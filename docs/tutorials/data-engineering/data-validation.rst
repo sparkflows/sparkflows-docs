@@ -55,7 +55,7 @@ Processor Configuration
    :width: 60%   
    
 Processor Output
-^^^^^^
+^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3b.png
    :alt: Data Validation

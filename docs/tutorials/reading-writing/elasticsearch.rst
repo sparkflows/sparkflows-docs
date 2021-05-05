@@ -18,8 +18,7 @@ Once the source processor is on the workflow canvas, drag and drop "SaveElasticS
 
 .. figure:: ../../_assets/tutorials/dataset/EsCofig.PNG
    :alt: Dataset
-   :align: center
-   :width: 60%
+   :width: 90%
 
 
 After configuring "SaveElasticSearch" processor, connect your data source processor to Elastic Search processor.
@@ -30,8 +29,7 @@ The example workflow below reads a Housing dataset which is in CSV format from H
 
 .. figure:: ../../_assets/tutorials/dataset/ESWorkflow.PNG
    :alt: Dataset
-   :align: center
-   :width: 60%
+   :width: 90%
 
 
 Note: Documentation processor is just for documentation purposes.
@@ -47,8 +45,7 @@ When the example workflow above is executed, it reads in the dataset from HDFS a
 
 .. figure:: ../../_assets/tutorials/dataset/20.PNG
    :alt: Dataset
-   :align: center
-   :width: 60%
+   :width: 90%
 
 
 Reading data from Elastic Search
@@ -61,8 +58,7 @@ The screenshot below shows the dialog box for the Elastic Search Read processor.
 
 .. figure:: ../../_assets/tutorials/dataset/22.PNG
    :alt: Dataset
-   :align: center
-   :width: 60%  
+   :width: 90%  
  
  
 In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.
@@ -79,8 +75,7 @@ The example workflow below reads the data from the sparkflows/housing index in E
 
 .. figure:: ../../_assets/tutorials/dataset/21.PNG
    :alt: Dataset
-   :align: center
-   :width: 60% 
+   :width: 90% 
 
 
 Workflow Execution
@@ -92,8 +87,7 @@ When the example workflow above is executed, it reads in the index from Elastic 
 
 .. figure:: ../../_assets/tutorials/dataset/23.PNG
    :alt: Dataset
-   :align: center
-   :width: 60%
+   :width: 90%
 
 
    

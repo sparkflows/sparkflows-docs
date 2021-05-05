@@ -59,8 +59,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
   background: #026690;
   border-bottom: solid 1px #026690;
   border-top: solid 1px #026690;
-  background: #a9d9f5 !important;
-  border-radius: 9px;
 }
 
 .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current>a:hover, .wy-menu-vertical a:hover,.wy-menu-vertical li.current a:hover{

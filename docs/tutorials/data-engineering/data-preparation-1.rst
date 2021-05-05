@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/capture1.png
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
    
 Reading from Dataset
 ---------------------

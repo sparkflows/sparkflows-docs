@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 * Executes SQL Query for city counts.
 * Plots Graph for farmers with city counts.
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
 
@@ -27,14 +27,14 @@ It reads sample Dataset files.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2a.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
@@ -46,36 +46,17 @@ It Executes SQL Query for state count from the SQL node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3a.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3a.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
-Prints the Results
-------------------
-
-It prints the results after executing query for state counts by SQL Node.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/4.PNG
-   :alt: Farmers Markets On Geo Maps
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/4a.PNG
-   :alt: Farmers Markets On Geo Maps
-   :width: 60%   
    
 Analyze using Graph
 --------------------
@@ -85,14 +66,14 @@ It plots Graph for farmers with state counts using RegionGeoGraph Processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5a.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5a.png
    :alt: Farmers Markets On Geo Maps
    :width: 60% 
 
@@ -104,14 +85,14 @@ It executes SQL Query for City count from the SQL node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6a.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6a.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
 
@@ -123,14 +104,14 @@ It plots Graph for farmers with City counts using RegionGeoGRaph Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7a.PNG
+.. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7a.png
    :alt: Farmers Markets On Geo Maps
    :width: 60%
 

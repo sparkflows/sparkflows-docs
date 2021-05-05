@@ -10,7 +10,7 @@ Fire Insights allows you to split incoming dataframes. Based on your needs, use 
 Workflow
 --------
 
-.. figure:: ../../_assets/tutorials/dataset/32.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/1.PNG
    :alt: Dataset
    :width: 90%
    
@@ -18,7 +18,7 @@ Workflow
 In the example workflow above, 'Split By Multiple Expressions' processor splits the incoming dataframe into three output dataframes. The three conditions are on column c1 - "c1<3" , "c1>=3 and c1<5", and "c1>=5". As mentioned earlier, 'SplitByMultipleExpressions' can split incoming dataframe into up to five dataframes. 
 
 
-.. figure:: ../../_assets/tutorials/dataset/33.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/2.PNG
    :alt: Dataset
    :width: 60%
    
@@ -27,7 +27,7 @@ Output
 
 For the example workflow, the three output dataframes are shown below:
 
-.. figure:: ../../_assets/tutorials/dataset/34.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/3.PNG
    :alt: Dataset
    :width: 60%
  

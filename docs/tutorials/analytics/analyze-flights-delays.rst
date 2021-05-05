@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 * Executes the SQL queries with the given conditions.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
    :alt: Analyze Flights Delays
    :width: 90%
    
@@ -29,36 +29,17 @@ It reads Dataset files.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.png
    :alt: Analyze Flights Delays
    :width: 60%
    
-Print the sample datasets results
----------------------------------
-
-It prints the sample datasets results.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3.PNG
-   :alt: Analyze Flights Delays
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/3a.PNG
-   :alt: Analyze Flights Delays
-   :width: 60% 
 
 Column to be cast for new datatype double
 ---------------------------------
@@ -69,14 +50,14 @@ It casts for new datatype double using castcolumn type Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.png
    :alt: Analyze Flights Delays
    :width: 60%
 
@@ -89,14 +70,14 @@ It casts for new datatype string using castcolumn type Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.png
    :alt: Analyze Flights Delays
    :width: 60%
 
@@ -109,36 +90,17 @@ It updates the column name of datatype string using stringindexer type Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.png
    :alt: Analyze Flights Delays
    :width: 60%
  
-Prints the Results
-------------------
-
-It prints the result of data updating after stringindexer Node.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7.PNG
-   :alt: Analyze Flights Delays
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/7a.PNG
-   :alt: Analyze Flights Delays
-   :width: 60%
    
 Executes the SQL queries   
 -------------------------
@@ -148,14 +110,14 @@ It executes the SQL queries with the given conditions.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.png
    :alt: Analyze Flights Delays
    :width: 60%
 
@@ -168,16 +130,14 @@ It prints the results after satisfied condition by   sql   queries.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.png
    :alt: Analyze Flights Delays
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.PNG
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.png
    :alt: Analyze Flights Delays
    :width: 60%
-
-
 

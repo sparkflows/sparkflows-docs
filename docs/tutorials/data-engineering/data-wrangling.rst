@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/Capture1.PNG
    :alt: data-wrangling
-   :width: 60%
+   :width: 90%
    
 Reading from Dataset
 ---------------------

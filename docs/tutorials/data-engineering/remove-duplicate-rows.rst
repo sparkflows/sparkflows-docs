@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then removes duplicate rows from the original CSV file.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/1.png
    :alt: Remove Duplicate Rows
    :width: 60%
    
@@ -24,7 +24,7 @@ It reads CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2.png
    :alt: Remove Duplicate Rows
    :width: 60%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2a.png
    :alt: Remove Duplicate Rows
    :width: 60%  
    
@@ -44,14 +44,14 @@ It removes Duplicate Rows available.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3.png
    :alt: Remove Duplicate Rows
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3a.png
    :alt: Remove Duplicate Rows
    :width: 60%   
  
@@ -64,13 +64,13 @@ It prints the results after Removing Duplicate Rows.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.png
    :alt: remove-duplicate-rows
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.png
    :alt: remove-duplicate-rows
    :width: 60%  

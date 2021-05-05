@@ -50,7 +50,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3aa.PNG
    :alt: Drop Columns
    :width: 60%
   

@@ -90,7 +90,7 @@ h6 {
     border-top: 1px solid #1CB1C2;
 }
 
-.wy-menu-vertical .current li.toctree-l1>ul {
+.wy-menu-vertical li.toctree-l2.current > ul {
     background:#1CB1C2;
 }
 

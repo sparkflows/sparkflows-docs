@@ -13,9 +13,9 @@ Below is the workflow. It does the following:
 * Reads data from file present on HDFS.
 * Concats the specified columns with specified separator.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/1.png
+.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/1.PNG
    :alt: Concat Columns
-   :width: 60%
+   :width: 90%
    
 Reading from HDFS File
 ---------------------
@@ -25,14 +25,14 @@ It reads data from a file present on HDFS.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/2.PNG
    :alt: Concat Columns
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/2b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3.PNG
    :alt: Concat Columns
    :width: 60%
    
@@ -47,17 +47,13 @@ Processor Configuration
 We need to provide all the desired columns to be concatenated without any separator or space, like NameSexAge etc.
 Columns would get concatenated in same order defined in configuration like Name then Sex then Age.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3a.png
-   :alt: Concat Columns
-   :width: 60%
-   
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3aa.png
+.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/4.PNG
    :alt: Concat Columns
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/5.PNG
    :alt: Concat Columns
    :width: 60%

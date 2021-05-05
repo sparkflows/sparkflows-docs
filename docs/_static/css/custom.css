@@ -95,11 +95,11 @@ h6 {
 }
 
 .wy-menu-vertical li.toctree-l2.current > a {
-    color: #fcfcfc;
+    color: #404040;
+    background: #fff;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
-    background: #a9d9f5 !important;
-    border-radius: 9px;
+    
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
@@ -110,10 +110,12 @@ h6 {
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3.current > a {
-    color: #404040;
+    color: #fcfcfc;
     background: #fff;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
+    background: #a9d9f5 !important;
+    border-radius: 9px;
 }
 
 /* .wy-menu-vertical li.on a:hover,

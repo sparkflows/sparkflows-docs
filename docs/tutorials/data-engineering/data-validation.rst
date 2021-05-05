@@ -23,11 +23,11 @@ It reads data from a CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2a
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2a.png
    :alt: Data Validation
    :width: 60%
    
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2aa
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2aa.png
    :alt: Data Validation
    :width: 60%
    

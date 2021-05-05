@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/1.PNG
    :alt: Rename Columns
-   :width: 60%
+   :width: 90%
    
 Reading from Dataset
 ---------------------

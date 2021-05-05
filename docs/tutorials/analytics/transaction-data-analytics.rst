@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * It then prints the results from the sample dataset.
 * Analysing using graphs.
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.png
    :alt: Transaction Data Analytics
    :width: 60%
    
@@ -24,14 +24,14 @@ It reads Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2.png
    :alt: Transaction Data Analytics
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2a.png
    :alt: Transaction Data Analytics
    :width: 60%
    

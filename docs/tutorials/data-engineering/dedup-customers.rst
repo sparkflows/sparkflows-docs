@@ -15,7 +15,7 @@ Below is the workflow. This workflow does the following:
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture1.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/1.png
    :alt: DedupCustomers
    :width: 90%
    
@@ -27,7 +27,7 @@ There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Da
 Dataset 1:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture3.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/2.png
    :alt: DedupCustomers
    :width: 80%
    
@@ -35,7 +35,7 @@ Dataset 1:
 Dataset 2:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture5.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/3.png
    :alt: DedupCustomers
    :width: 80%
    
@@ -46,7 +46,7 @@ Join input DataFrames
 ``JoinUsingColumn`` processor joins the incoming DataFrames on a join column "State". ``ColumnFilter`` processor filters the columns to get the required DataFrame as shown below:
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture9.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/4.png
    :alt: DedupCustomers
    :width: 80%
    
@@ -75,7 +75,7 @@ Entity resolution or data matching is the problem of finding and linking differe
 ``Dedup`` Processor Configuration 
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture10.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/5.png
    :alt: DedupCustomers
    :width: 80%
    
@@ -83,7 +83,7 @@ Entity resolution or data matching is the problem of finding and linking differe
 ``Dedup`` Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/capture11.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/6.png
    :alt: DedupCustomers
    :width: 80%
    

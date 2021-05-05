@@ -18,7 +18,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.png
    :alt: NYC Taxidata Annalysis
-   :width: 60%
+   :width: 90%
 
 Reading from Dataset
 ---------------------

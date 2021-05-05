@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 * Converts sample string to timestamp.
 * Prints the expected result.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
    :alt: Convert To Timestamps
    :width: 60%
    

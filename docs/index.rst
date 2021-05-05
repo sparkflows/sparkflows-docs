@@ -39,6 +39,23 @@ Databricks Integration
 
    databricks/index
    
+AWS Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   aws/index
+ 
+Azure Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   azure/index
+   
+   
 Operating Fire Insights
 --------------------
 
@@ -63,22 +80,6 @@ Frequently Asked Questions
    :maxdepth: 1
 
    faq/index
-   
-AWS Integration
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   aws/index
- 
-Azure Integration
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   azure/index
    
 Superset
 ----------

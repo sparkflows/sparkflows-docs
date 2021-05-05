@@ -14,8 +14,6 @@ Data Cleaning Processors in Fire Insights
 
    * - Title
      - Description
-   * - Data Wrangling
-     - This node creates a new DataFrame by applying each of the Rules specified
    * - Dedup
      - This node is used for problems like entity resolution or data matching. Entity resolution or Data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources
    * - Drop Duplicate Rows

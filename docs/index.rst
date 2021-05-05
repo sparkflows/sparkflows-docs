@@ -90,7 +90,7 @@ Developer Guide
    developer-guide/index
 
    
-Processors
+Processors Reference
 ----------
 
 .. toctree::

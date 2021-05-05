@@ -37,25 +37,6 @@ Processor Output
    :alt: General Payment Data Analysis
    :width: 60%
  
-Calculate count transactions by speciality
-------------------------------------------
-
-It will calculate count transactions by speciality using BarChartCal Node.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.png
-   :alt: General Payment Data Analysis
-   :width: 60%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3a.png
-   :alt: General Payment Data Analysis
-   :width: 60%
  
 Summary of transactions
 -----------------------

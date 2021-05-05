@@ -25,14 +25,14 @@ It reads sample Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.png
    :alt: Convert To Timestamps
    :width: 60%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.png
    :alt: Convert To Timestamps
    :width: 60%
    
@@ -44,14 +44,14 @@ It prints the results of the sample dataset available.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.png
    :alt: Convert To Timestamps
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.png
    :alt: Convert To Timestamps
    :width: 60% 
    
@@ -63,14 +63,14 @@ It converts To Timestamps using stringtodate Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.png
    :alt: Convert To Timestamps
    :width: 60% 
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.png
    :alt: Convert To Timestamps
    :width: 60%
    
@@ -83,14 +83,14 @@ It prints the results after converting to Timestamps.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.png
    :alt: Convert To Timestamps
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.png
    :alt: Convert To Timestamps
    :width: 60% 
 

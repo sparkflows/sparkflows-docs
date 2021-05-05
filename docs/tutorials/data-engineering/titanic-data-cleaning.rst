@@ -15,7 +15,7 @@ This workflow performs the following steps:
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture1.png
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
    
 Reading Titanic dataset
 ---------------------

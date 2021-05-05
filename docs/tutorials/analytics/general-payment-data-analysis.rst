@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 * Number of transactions per state.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.png
    :alt: General Payment Data Analysis
    :width: 60%
 
@@ -26,14 +26,14 @@ It reads from sample Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2.png
    :alt: General Payment Data Analysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2a.png
    :alt: General Payment Data Analysis
    :width: 60%
  
@@ -46,14 +46,14 @@ It will calculate count transactions by speciality using BarChartCal Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.png
    :alt: General Payment Data Analysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3a.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3a.png
    :alt: General Payment Data Analysis
    :width: 60%
  
@@ -65,14 +65,14 @@ It finds stats on amount of each transaction using Summary Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.png
    :alt: General Payment Data Analysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.png
    :alt: General Payment Data Analysis
    :width: 60%
    
@@ -84,14 +84,14 @@ It finds number of transactions per state using SQL Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.png
    :alt: General Payment Data Analysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.PNG
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.png
    :alt: General Payment Data Analysis
    :width: 60%
    

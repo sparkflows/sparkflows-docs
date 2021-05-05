@@ -90,6 +90,10 @@ h6 {
     border-top: 1px solid #1CB1C2;
 }
 
+.wy-menu-vertical .current li.toctree-l1>ul {
+    background:#1CB1C2;
+}
+
 .wy-menu-vertical li.toctree-l2.current > a {
     color: #404040;
     background: #fff;

@@ -13,9 +13,9 @@ Below is the workflow. It does the following:
 * Create new DataFrame containing the rows that satisfy the given condition (i.e. removes the rows with empty space)
 * Print the specified number of records in the DataFrame after execution of workflow
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture1.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture1.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 90%
    
 Reading from Dataset
 ---------------------
@@ -25,14 +25,14 @@ Reading from Dataset
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture2.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture2.PNG
    :alt: Remove special Characters
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture3.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture3.PNG
    :alt: Remove special Characters
    :width: 60%
    
@@ -45,14 +45,14 @@ To Remove Any Special character in data
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture4.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture4.PNG
    :alt: Remove special Characters
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture5.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture5.PNG
    :alt: Remove special Characters
    :width: 60%
    
@@ -64,14 +64,14 @@ RowFilter - Remove the rows with empty space
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture6.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture6.PNG
    :alt: Remove special Characters
    :width: 60%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture7.png
+.. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture7.PNG
    :alt: Remove special Characters
    :width: 60%
  

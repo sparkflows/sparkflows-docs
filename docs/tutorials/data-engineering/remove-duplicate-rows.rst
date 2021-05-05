@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2aa.png
    :alt: Remove Duplicate Rows
    :width: 60%  
    

@@ -81,15 +81,6 @@ Superset
 
    superset/index   
 
-Performance
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   performance/index
-   
-
 Developer Guide
 ---------------
 

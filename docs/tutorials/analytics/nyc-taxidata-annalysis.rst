@@ -16,7 +16,7 @@ Below is the workflow. It does the following:
 * Sort data by column.
 * Displays average speed per hour on chart.
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/1.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
 
@@ -28,14 +28,14 @@ It reads sample Dataset files.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/2a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
@@ -48,14 +48,14 @@ It extracts hour from pickup time using datetimefieldextract Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/3a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
 
@@ -68,14 +68,14 @@ It calculates the speed per hour using SQL Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/4a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
 
@@ -88,18 +88,18 @@ It calculates the average speed per hour using GroupBy Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5b.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5b.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
@@ -116,14 +116,14 @@ It will sort the result by selected column and it's specified order ASC/DESC usi
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/6a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
 
@@ -135,13 +135,13 @@ It displays average speed per hour on chart using Graphvalue Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7.png
    :alt: NYC Taxidata Annalysis
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7a.PNG
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/7a.png
    :alt: NYC Taxidata Annalysis
    :width: 60%

@@ -26,10 +26,9 @@ In the fire, both steps can be run with UnixShellCommands Node.
 
 
 
-.. figure:: ../../_assets/tutorials/quickstart/ExecutingJarFile.png
-   :scale: 50%
+.. figure:: ../../_assets/tutorials/quickstart/code.png
+   :width: 90%
    :alt: UnixShellCommands Node
-   :align: center
 
 
 

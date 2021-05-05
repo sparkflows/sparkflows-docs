@@ -25,18 +25,18 @@ It reads data from a CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2.png
    :alt: Drop Rows With Null
    :width: 60%
    
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/3.png
    :alt: Drop Rows With Null
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2c.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/4.png
    :alt: Drop Rows With Null
    :width: 60% 
    
@@ -48,14 +48,14 @@ It drops the rows which contain any null value.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/3a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/5.png
    :alt: Drop Rows With Null
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/3b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/6.png
    :alt: Drop Rows With Null
    :width: 60%
    

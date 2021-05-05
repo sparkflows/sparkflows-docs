@@ -16,7 +16,7 @@ Create a new empty workflow. Drag and drop the source dataset from which you wan
 
 Once the source processor is on the workflow canvas, drag and drop "SaveElasticSearch" processor in the workflow. Configure your Elastic Search processor in the dialog box shown below.
 
-.. figure:: ../../_assets/tutorials/dataset/19.PNG
+.. figure:: ../../_assets/tutorials/dataset/EsCofig.PNG
    :alt: Dataset
    :align: center
    :width: 60%
@@ -28,7 +28,7 @@ After configuring "SaveElasticSearch" processor, connect your data source proces
 The example workflow below reads a Housing dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
 
 
-.. figure:: ../../_assets/tutorials/dataset/18.PNG
+.. figure:: ../../_assets/tutorials/dataset/ESWorkflow.PNG
    :alt: Dataset
    :align: center
    :width: 60%

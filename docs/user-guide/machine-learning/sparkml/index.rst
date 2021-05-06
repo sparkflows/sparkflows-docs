@@ -8,5 +8,5 @@
    classification.rst
    prediction.rst
    evaluation.rst
-   model-persistence/index.rst
-   model-serving/index.rst
+   serving-sparkmllib-models.rst
+   model-persistence.rst

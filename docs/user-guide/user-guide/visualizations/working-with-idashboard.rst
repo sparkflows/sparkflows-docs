@@ -104,13 +104,13 @@ Now using existing chart, you can create new dashboard
 
 Select ``Dashboard`` tab & Click on CREATE DASHBOARD
 
-.. figure:: ../../../_assets/tutorials/dataset/dashboars-tab.PNG
+.. figure:: ../../../_assets/tutorials/dataset/dashboard_tab1.PNG
    :alt: Dataset
    :width: 60%
 
 it will take us to New Dashboard page
 
-.. figure:: ../../../_assets/tutorials/dataset/chart-dash.PNG
+.. figure:: ../../../_assets/tutorials/dataset/chart-dash1.PNG
    :alt: Dataset
    :width: 60%
 
@@ -122,6 +122,6 @@ Using drag & drop you need to add chart in canvas, Add NAME, DESCRIPTION & SAVE 
 
 Once the Dashboard got saved successfully, it will show in dashboard list page from where you can view, edit & delete it.
 
-.. figure:: ../../../_assets/tutorials/dataset/dashboard_list.PNG
+.. figure:: ../../../_assets/tutorials/dataset/dashboard_list1.PNG
    :alt: Dataset
    :width: 60%

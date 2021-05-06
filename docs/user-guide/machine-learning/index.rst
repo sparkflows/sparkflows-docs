@@ -3,8 +3,11 @@ Machine Learning User Guide
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
+   SparkML.rst
+   H2O.rst
+   SikLearn.rst
    feature-generation.rst
    feature-selection.rst
    clustering.rst

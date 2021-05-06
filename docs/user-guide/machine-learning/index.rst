@@ -10,7 +10,7 @@ Machine Learning User Guide
    sklearn/index.rst
    model-persistence/index.rst
    model-serving/index.rst
-
+   mlflow.rst
    
    
 

@@ -90,16 +90,13 @@ h6 {
     border-top: 1px solid #1CB1C2;
 }
 
-.wy-menu-vertical li.toctree-l2.current > ul {
-    background:#1CB1C2;
-}
-
 .wy-menu-vertical li.toctree-l2.current > a {
-    color: #404040;
+    color: #fcfcfc;
     background: #fff;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
-    
+    background: #a9d9f5 !important;
+    border-radius: 9px;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {

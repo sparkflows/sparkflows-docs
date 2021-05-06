@@ -15,7 +15,7 @@ Workflows can be executed from the browser by going into the Execute page of the
 
 .. figure:: ../../../_assets/user-guide/workflow/4.PNG
    :alt: Workflow
-   :width: 60%
+   :width: 90%
 
 Executing Workflows with spark-submit
 --------------------------------------
@@ -75,7 +75,7 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
-   :width: 60%  
+   :width: 90%  
  
  
 - Click on Tab Schedule New Job for Workflow

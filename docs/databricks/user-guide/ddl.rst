@@ -32,7 +32,6 @@ Location of the data could be changed to S3 location.
 
 .. figure:: ../../_assets/configuration/databricks-create-table.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
 
@@ -46,7 +45,6 @@ Running SQL
 
 .. figure:: ../../_assets/configuration/sql-statement1.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
 
@@ -62,7 +60,6 @@ By default first 100 rows of data is displayed.
 
 .. figure:: ../../_assets/configuration/sql-statement2.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
    
  
@@ -76,6 +73,5 @@ Drop Table
 
 .. figure:: ../../_assets/configuration/sql-statement3.PNG
    :alt: Databricks
-   :align: center
    :width: 60%
 

@@ -1,14 +1,14 @@
-Interactive Dashboard
+Dashboard
 =======================
 
 Fire allows you to create interactive Dashboard.
 
 Fire allows us to create New Dataset using JDBC data type from MYSQL DB & use datasets in creating charts & dashboard.
 
-Creating I-Dashboard
+Creating Dashboard
 --------------------
 
-- For creating I-Dashboard, Create JDBC datasets if not available.
+- For creating Dashboard, Create JDBC datasets if not available.
 
 You can define a New Dataset by clicking on the ``Create Dataset`` button in the Dataset page.
 
@@ -54,7 +54,7 @@ Saving the New Dataset
 
 Click on the ``Save`` button to save the New Dataset created.
 
-Interactive Dashboard
+Dashboard
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Click on ``Interactive Dashboard`` tab in the same application where you have created JDBC Dataset.

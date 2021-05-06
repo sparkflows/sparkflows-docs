@@ -49,7 +49,7 @@ Download and untar::
   wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
   tar xzf Python-3.7.0.tgz
 
-.. figure:: ../_assets/configuration/download_tar.PNG
+.. figure:: ../../_assets/configuration/download_tar.PNG
    :alt: Installations
    :width: 60%
 
@@ -65,7 +65,7 @@ Next, navigate to the Python source directory and run the configure script which
 
   ./configure --enable-optimizations
  
-.. figure:: ../_assets/configuration/configure_ubuntu.PNG
+.. figure:: ../../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
    :width: 60%
    
@@ -73,7 +73,7 @@ Next, navigate to the Python source directory and run the configure script which
  
    make altinstall
 
-.. figure:: ../_assets/configuration/make.PNG
+.. figure:: ../../_assets/configuration/make.PNG
    :alt: Installations
    :width: 60%
 
@@ -83,7 +83,7 @@ Verify it by typing::
 
   python3.7 –-version
 
-.. figure:: ../_assets/configuration/python_version.PNG
+.. figure:: ../../_assets/configuration/python_version.PNG
    :alt: Installations
    :width: 60%
 
@@ -96,7 +96,7 @@ Create Python virtual environment & Activate it::
   source venv/bin/activate
   python --version
   
-.. figure:: ../_assets/configuration/venv_ubuntu.PNG
+.. figure:: ../../_assets/configuration/venv_ubuntu.PNG
    :alt: Installations
    :width: 60%  
 
@@ -106,7 +106,7 @@ Upgrade pip version with 20.0 or above::
 
  pip install pip --upgrade
   
-.. figure:: ../_assets/configuration/pipupdate.PNG
+.. figure:: ../../_assets/configuration/pipupdate.PNG
    :alt: Installations
    :width: 60%  
    
@@ -117,7 +117,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
   
    pip install pystan
 
-.. figure:: ../_assets/configuration/pystan.PNG
+.. figure:: ../../_assets/configuration/pystan.PNG
    :alt: Installations
    :width: 60% 
 
@@ -126,7 +126,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
    pip install convertdate
 
-.. figure:: ../_assets/configuration/convertdate.PNG
+.. figure:: ../../_assets/configuration/convertdate.PNG
    :alt: Installations
    :width: 60% 
 
@@ -134,7 +134,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
 
    pip install fbprophet
 
-.. figure:: ../_assets/configuration/fbprophet.PNG
+.. figure:: ../../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :width: 60% 
 
@@ -142,7 +142,7 @@ Install dependency for fbprophet package (Ubuntu 18.04)
    
    pip list
 
-.. figure:: ../_assets/configuration/piplist.PNG
+.. figure:: ../../_assets/configuration/piplist.PNG
    :alt: Installations
    :width: 60% 
 

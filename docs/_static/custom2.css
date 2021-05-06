@@ -83,6 +83,13 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     max-width: 100%;
     margin: auto;
 }
+.wy-table caption, .rst-content table.docutils caption, .rst-content table.field-list caption {
+  
+  color: #000;
+  font: inherit;
+  padding: 1em 0;
+  text-align: center;
+}
 
 /* override table width restrictions */
 @media screen and (min-width: 767px) {

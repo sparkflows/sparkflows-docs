@@ -21,7 +21,7 @@ In the example workflow below, additional date time features are being created f
 
 .. figure:: ../../_assets/tutorials/dataset/29.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
    
 In the above workflow: 
 

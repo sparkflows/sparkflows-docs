@@ -80,7 +80,7 @@ It will take you to new page, as below
 
 Select the ``chart type``, you want to see chart
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_type.PNG
+.. figure:: ../../../_assets/tutorials/dataset/chart_typ1.PNG
    :alt: Dataset
    :width: 60%
 

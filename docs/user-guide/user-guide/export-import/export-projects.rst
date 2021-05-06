@@ -11,7 +11,7 @@ Go to the Projects Page
 
  .. figure:: ../../../_assets/user-guide/export-import/applicationpage.PNG
    :alt: userguide
-   :width: 60%
+   :width: 90%
 
 
 Select the Projects you want to export
@@ -22,7 +22,7 @@ Select the Projects you want to export
 
  .. figure:: ../../../_assets/user-guide/export-import/application.PNG
      :alt: userguide
-     :width: 60%
+     :width: 90%
 
 
 
@@ -30,14 +30,14 @@ Select the Projects you want to export
 
  .. figure:: ../../../_assets/user-guide/export-import/exportcomp.png
      :alt: userguide
-     :width: 60%
+     :width: 90%
      
      
 * Fire will now export the selected projects and download them to your computer.
 
   .. figure:: ../../../_assets/user-guide/export-import/exportinfo.png
      :alt: userguide
-     :width: 60%
+     :width: 90%
   
      
      

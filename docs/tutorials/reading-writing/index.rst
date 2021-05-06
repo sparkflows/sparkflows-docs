@@ -2,7 +2,7 @@ Reading - Writing Data
 ======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    reading-csv.rst
    reading-avro.rst

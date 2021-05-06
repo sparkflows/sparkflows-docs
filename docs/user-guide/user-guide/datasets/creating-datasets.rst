@@ -24,7 +24,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
     
  .. figure:: ../../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :width: 60%  
+   :width: 90%  
 
 
 Updating the Schema of the Dataset
@@ -38,7 +38,7 @@ You can update the column names in the schema based on your data.
  
  .. figure:: ../../../_assets/tutorials/dataset/17.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
    
 
 Saving the New Dataset

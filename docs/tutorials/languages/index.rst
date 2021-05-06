@@ -2,7 +2,7 @@ Code
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    sql.rst
    scala.rst

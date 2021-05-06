@@ -91,6 +91,19 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
   text-align: center;
 }
 
+.wy-breadcrumbs li a:visited, .wy-breadcrumbs li a, .wy-nav-content a:visited {
+color:  #a9d9f5;
+}
+
+.wy-breadcrumbs {
+Color:  #a9d9f5;
+}
+
+.wy-breadcrumbs li {
+display: inline-block;
+color: #a9d9f5;
+}
+
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
 

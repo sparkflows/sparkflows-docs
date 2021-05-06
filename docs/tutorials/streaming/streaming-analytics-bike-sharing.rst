@@ -42,7 +42,7 @@ Workflow
 
 Below is a workflow for Streaming Analytics of the Bike Sharing dataset.
 
-.. figure:: ../../_assets/tutorials/dataset/37.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-1.PNG
    :alt: Dataset
    :width: 60%
    
@@ -60,7 +60,7 @@ Streaming Kafka
 
 It reads in streaming data from Kafka and creates a dataframe with one column containing the lines.
 
-.. figure:: ../../_assets/tutorials/dataset/38.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-2.PNG
    :alt: Dataset
    :width: 60%
    
@@ -69,7 +69,7 @@ FieldSplitter
 
 It splits each line on the separator - comma - and outputs a new DataFrame with the columns defined.
 
-.. figure:: ../../_assets/tutorials/dataset/39.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-3.PNG
    :alt: Dataset
    :width: 60%
    
@@ -78,7 +78,7 @@ StringToDate
 
 It converts the datetime column into new column of type 'Timestamp'.
 
-.. figure:: ../../_assets/tutorials/dataset/40.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-4.PNG
    :alt: Dataset
    :width: 60%
 
@@ -87,7 +87,7 @@ DateTimeFieldExtract
 
 It extracts the year, month, day of month and hour from the datetime_dt column.
 
-.. figure:: ../../_assets/tutorials/dataset/41.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-5.PNG
    :alt: Dataset
    :width: 60%
    
@@ -97,7 +97,7 @@ GraphGroupByColumn
 
 Aggregates the data on the hour column, and displays it in a Graph.
 
-.. figure:: ../../_assets/tutorials/dataset/42.PNG
+.. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-6.PNG
    :alt: Dataset
    :width: 60%
 

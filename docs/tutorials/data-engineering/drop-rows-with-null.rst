@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/1.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 90%
    
 Reading from CSV File
 ---------------------

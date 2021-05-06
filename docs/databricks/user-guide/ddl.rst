@@ -26,6 +26,13 @@ Creating Table
 
     CREATE TABLE `employee` (`id` INT, `name` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/tables/employee.csv' ); 
 
+* DDL Statement::
+
+    CREATE TABLE `housing` (`id` INT, `price` DOUBLE, `lotsize` INT, `bedrooms` INT, `bathrms` INT, `stories` INT, `driveway` STRING, `recroom` STRING, `fullbase` STRING, `gashw` STRING, `airco` STRING, `garagepl` STRING, `prefarea` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/sample-data/data/housing.csv' )
+
+* DDL Statement::
+
+    CREATE TABLE `bike_sharing_sample_dataset` (`datetime` STRING, `season` INT, `holiday` INT, `workingday` INT, `weather` INT, `temp` DOUBLE, `atemp` DOUBLE, `humidity` INT, `windspeed` DOUBLE, `casual` INT, `registered` INT, `count` INT) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/sample-data/bike_sharing_sample_dataset.csv' )
 
 
 Location of the data could be changed to S3 location.

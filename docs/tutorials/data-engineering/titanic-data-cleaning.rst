@@ -13,7 +13,7 @@ This workflow performs the following steps:
 * Changes the data type of the Age column to integer
 * Filters rows for persons of age > 30 and who are female
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture1.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -25,9 +25,9 @@ Reading Titanic dataset
 Processor Output
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture2.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/2.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
    
 
 Dropping the rows with null values
@@ -38,17 +38,9 @@ Dropping the rows with null values
 Processor Configuration
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture3.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/3.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
-
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture4.png
-   :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
 
 
 Filter by string length
@@ -59,16 +51,16 @@ Filter by string length
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture5.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/4.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture6.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/5.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
    
 Convert Age to Integer
 ---------------------
@@ -78,17 +70,17 @@ Convert Age to Integer
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture7.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/6.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture8.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/7.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
 
 Get Rows of Interest
 ---------------
@@ -99,17 +91,17 @@ Get Rows of Interest
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture9.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/8.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/capture10.png
+.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/9.PNG
    :alt: titanic-data-cleaning
-   :width: 60%
+   :width: 90%
 
 
 

@@ -8,5 +8,4 @@ Fire provides the following processors:
 * SortBy Processor
 * Empty Dataset Processor
 
-https://www.sparkflows.io/single-post/2018/09/05/New-Processors---Decision-JSON-Parser-SortBy-
 

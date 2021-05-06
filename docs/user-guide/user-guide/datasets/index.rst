@@ -20,7 +20,7 @@ When you open any application, all existing Datasets specific to the application
 
  .. figure:: ../../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
   
 
  

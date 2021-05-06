@@ -24,7 +24,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture1.PNG
    :alt: Data Validation Multiple
-   :width: 60%
+   :width: 90%
    
 Reading from CSV File
 ---------------------

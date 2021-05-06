@@ -3,7 +3,7 @@ Machine Learning User Guide
 ==========
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    sparkml/index.rst
    h2o/index.rst

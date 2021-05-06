@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/1.PNG
    :alt: String To Date Timefunctions
-   :width: 60%
+   :width: 90%
 
 Reading from CSV file
 ---------------------

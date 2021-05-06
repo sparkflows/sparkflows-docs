@@ -9,7 +9,7 @@ It then also enables you to import your Projects back into any instance of Fire.
 This is useful when you need to move/copy your Project from one environment to another.
 
 .. toctree::
-   :includehidden:
+   :maxdepth: 2
 
    export-projects.rst
    import-projects.rst

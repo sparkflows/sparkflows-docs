@@ -11,7 +11,7 @@ Click on 'Create New Workflow' for creating a New Workflow, It supports two engi
 
 .. figure:: ../../../_assets/user-guide/workflow/2.PNG
    :alt: workflow
-   :width: 60%
+   :width: 90%
 
  
 Adding New Nodes to the Workflow
@@ -43,7 +43,7 @@ You can view the workflows by going to the Workflows Page inside specific applic
 
 .. figure:: ../../../_assets/user-guide/workflow/1.PNG
    :alt: workflow
-   :width: 60%
+   :width: 90%
 
 
 

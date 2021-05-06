@@ -2,7 +2,7 @@ Analytics
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    analyze-flights-delays.rst
    distribution-graphs.rst

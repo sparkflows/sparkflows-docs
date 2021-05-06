@@ -96,7 +96,7 @@ Once you save it, the chart will appear in chart list page
 
 Similarly you can create different chart using specified chart type
 
-.. figure:: ../../../_assets/tutorials/dataset/chart-list.PNG
+.. figure:: ../../../_assets/tutorials/dataset/chart_list1.PNG
    :alt: Dataset
    :width: 60%
 

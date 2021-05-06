@@ -6,6 +6,7 @@ Data Profiling is extremely helpful in understanding the data. Fire Insights pro
 
 
 Workflow for Data Profiling
+----------------------------
 
 
 Below is a workflow which profiles the Telco Churn Dataset.

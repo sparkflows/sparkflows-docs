@@ -41,10 +41,12 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 }
 
 .wy-menu-vertical li.toctree-l2.current>a{
-  color: #fff;
+  color: #fcfcfc;
   background: #006c98;
   border-bottom: solid 1px #006c98;
   border-top: solid 1px #006c98;
+  ackground: #a9d9f5 !important;
+  border-radius: 9px;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {

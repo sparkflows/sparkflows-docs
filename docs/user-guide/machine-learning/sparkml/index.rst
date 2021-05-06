@@ -1,3 +1,6 @@
+Apache Spark ML
+===============
+
 .. toctree::
    :maxdepth: 2
 

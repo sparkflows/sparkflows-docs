@@ -1,3 +1,7 @@
+Scikit-learn
+============
+
+
 .. toctree::
    :maxdepth: 2
    

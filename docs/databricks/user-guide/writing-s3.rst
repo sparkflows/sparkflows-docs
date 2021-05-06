@@ -11,22 +11,22 @@ In the dailog box of the save CSV processor the path is specified as ``s3a://spa
 
 .. figure:: ../../_assets/aws/csvsave-workflow.PNG
    :alt: S3 Workflow
-   :align: center
+   :width: 60%
 
 Browse S3 specified Path & other parameter for processor SaveCSV 
 
 .. figure:: ../../_assets/aws/configuration-csvs3.PNG
    :alt: S3 Workflow
-   :align: center
+   :width: 60%
 
 Execution Result
 
 .. figure:: ../../_assets/aws/saveexecution.PNG
    :alt: S3 Workflow
-   :align: center
+   :width: 60%
 
 Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3`` Location with specified path
 
 .. figure:: ../../_assets/aws/browses3.PNG
    :alt: S3 Workflow
-   :align: center  
+   :width: 60%

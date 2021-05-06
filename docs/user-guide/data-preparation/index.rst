@@ -5,7 +5,7 @@ Fire Insights enables to easily prepare data.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    data-cleaning.rst
    join-union.rst

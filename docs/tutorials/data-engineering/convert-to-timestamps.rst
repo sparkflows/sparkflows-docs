@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 90%
    
 Reading from Dataset
 ---------------------

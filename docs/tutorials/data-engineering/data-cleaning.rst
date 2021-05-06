@@ -74,16 +74,29 @@ Processor Output
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture6.PNG
    :width: 60%
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture7.PNG
-   :width: 60%
-
-.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture8.PNG
-   :width: 60%
    
 Convert Gender to Integer Values
 ------------
 
 ``CaseWhen`` processor sets values for the variables based on conditions, as shown below:
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture7.PNG
+   :alt: DataCleaning
+   :width: 60%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture8.PNG
+   :width: 60%
+   
+Replace Gender and Family with 0/1
+------------
+
+``FindAndReplaceUsingRegexMultiple`` processor sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -96,24 +109,6 @@ Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture10.PNG
-   :width: 60%
-   
-Replace Gender and Family with 0/1
-------------
-
-``FindAndReplaceUsingRegexMultiple`` processor sets values for the variables based on conditions, as shown below:
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture11.PNG
-   :alt: DataCleaning
-   :width: 60%
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture12.PNG
    :alt: DataCleaning
    :width: 60%
    

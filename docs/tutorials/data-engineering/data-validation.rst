@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.png
    :alt: Data Validation
-   :width: 60%
+   :width: 90%
    
 Reading from CSV File
 ---------------------

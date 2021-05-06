@@ -89,14 +89,6 @@ Developer Guide
 
    developer-guide/index
 
-   
-Processors Reference
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   processors/index   
      
 REST API
 ----------

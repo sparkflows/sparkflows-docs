@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Print some sample result.
 
 .. figure:: ../../_assets/user-guide/read%26write/1_1.PNG
-   :alt: read&write
+   :alt: readwrite
    :width: 60%
 
 Reading from CSV File
@@ -24,14 +24,14 @@ Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/user-guide/read%26write/2.PNG
-   :alt: read&write
+   :alt: readwrite
    :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read%26write/3.PNG
-   :alt: read&write
+   :alt: readwrite
    :width: 60%
 
 Prints the Results

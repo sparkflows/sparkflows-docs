@@ -11,8 +11,8 @@ Below is the workflow. It does the following:
 * Reads data from a parquet file.
 * Print some sample result.
 
-.. figure:: ../../_assets/user-guide/read%26write/7.PNG
-   :alt: read&write
+.. figure:: ../../_assets/user-guide/read-write/7.png
+   :alt: readwrite
    :width: 60%
 
 Reading from parquet File

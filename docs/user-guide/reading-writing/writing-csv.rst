@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a CSV file.
 * save csv to specified location.
 
-.. figure:: ../../_assets/user-guide/read%26write/4.PNG
+.. figure:: ../../_assets/user-guide/read-write/4.png
    :alt: readwrite
    :width: 60%
 

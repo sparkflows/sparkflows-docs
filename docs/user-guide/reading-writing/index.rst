@@ -5,6 +5,7 @@ Reading Writing
    :maxdepth: 1
 
    reading-csv.rst
+   writing-csv.rst
    reading-avro.rst
    reading-json.rst
    reading-parquet.rst

@@ -46,7 +46,7 @@ Processor Configuration
    :alt: readwrite
    :width: 60%
    
-Once the workflow executed successfully the csv file will be saved to specified location
+Once the workflow executed successfully the csvparquet file will be saved to specified location
 
 .. figure:: ../../_assets/user-guide/read-write/14.PNG
    :alt: readwrite

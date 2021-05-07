@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a CSV file.
 * Print some sample result.
 
-.. figure:: ../../_assets/user-guide/read%26write/1_1.PNG
+.. figure:: ../../_assets/user-guide/read-write/1_1.png
    :alt: readwrite
    :width: 60%
 
@@ -23,14 +23,14 @@ It reads data from a CSV file using Read csv processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read%26write/2.PNG
+.. figure:: ../../_assets/user-guide/read-write/2.png
    :alt: readwrite
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read%26write/3.PNG
+.. figure:: ../../_assets/user-guide/read-write/3.png
    :alt: readwrite
    :width: 60%
 

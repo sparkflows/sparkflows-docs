@@ -18,7 +18,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file. 
+It reads data from a CSV file using Read csv processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

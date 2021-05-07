@@ -23,15 +23,15 @@ It reads data from a parquet file using Read parquet processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read%26write/8.PNG
-   :alt: read&write
+.. figure:: ../../_assets/user-guide/read-write/8.png
+   :alt: readwrite
    :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read%26write/9.PNG
-   :alt: read&write
+.. figure:: ../../_assets/user-guide/read-write/9.png
+   :alt: readwrite
    :width: 60%
 
 Prints the Results

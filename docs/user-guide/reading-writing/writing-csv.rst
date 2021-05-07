@@ -8,17 +8,17 @@ Workflow
 
 Below is the workflow. It does the following:
 
-* Reads data from a CSV file.
+* Reads data from a csv file.
 * save csv to specified location.
 
 .. figure:: ../../_assets/user-guide/read-write/4.png
    :alt: readwrite
    :width: 60%
 
-Reading from CSV File
+Reading from csv File
 ---------------------
 
-It reads data from a CSV file using Read csv processor.
+It reads data from a csv file using Read csv processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -6,7 +6,6 @@ Reading Writing
 
    reading-csv.rst
    writing-csv.rst
-   reading-avro.rst
    reading-json.rst
    reading-parquet.rst
    reading-from-rdbms.rst

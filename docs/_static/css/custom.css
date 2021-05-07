@@ -140,11 +140,15 @@ h6 {
 }
 
 .wy-breadcrumbs li a:visited,
-.wy-breadcrumbs li a,
+.wy-breadcrumbs-aside a,
 .wy-nav-content a:visited {
     color: #404040;
 }
 
+.rst-content table.docutils caption{
+    font: 20px/1 "Inter";
+    color: #404040;
+}
 .wy-nav-content .toctree-wrapper ul li a:hover {
     text-decoration: underline;
 }

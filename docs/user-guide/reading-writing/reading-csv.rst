@@ -33,3 +33,8 @@ Processor Output
 .. figure:: ../../_assets/user-guide/read%26write/3.PNG
    :alt: read&write
    :width: 60%
+
+Prints the Results
+------------------
+
+It prints the first few records

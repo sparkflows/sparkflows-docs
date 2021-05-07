@@ -8,7 +8,6 @@ Reading Writing
    reading-avro.rst
    reading-json.rst
    reading-parquet.rst
-   reading-mysql.rst
    reading-from-rdbms.rst
    read-pdf-file.rst
    elasticsearch.rst

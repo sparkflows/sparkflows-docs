@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a CSV file.
 * Print some sample result.
 
-.. figure:: ../../_assets/user-guide/read%26write/1.PNG
+.. figure:: ../../_assets/user-guide/read%26write/1_1.PNG
    :alt: read&write
    :width: 60%
 

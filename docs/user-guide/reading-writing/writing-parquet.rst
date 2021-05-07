@@ -1,41 +1,53 @@
-Writing to Parquet Files
-========================
+Write parquet
+================
 
-Fire Insights enables you to write your Dataframe to Parquet Files.
+Fire Insights enables user to write in parquet file
 
+Workflow
+--------
 
-Workflow for writing to Parquet file
-----------------
+Below is the workflow. It does the following:
 
-Below is a workflow example which reads in transaction data. It then writes it out to Parquet files.
+* Reads transaction dataset.
+* save parquet to specified location.
 
+.. figure:: ../../_assets/user-guide/read-write/10.PNG
+   :alt: readwrite
+   :width: 60%
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/1.PNG
-   :alt: ParquetWorkflow
-   :width: 90%
-   
-   
-DatasetStructured Processor
---------------------------
-   
-Node ``DatasetStructured`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
-
-As a user you have to select the Dataset of your interest as shown below.
-
-
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/2.PNG
-   :alt: NodeDatasetStructured
-   :width: 90%
-
-
-SaveParquet Processor
+Reads transaction dataset
 ---------------------
 
-``SaveParquet`` processor saves the incoming DataFrame into the specified path in Parquet Format. When running on Hadoop, Parquet files gets saved into HDFS.
+It Reads transaction dataset.
 
-The DataFrame might be written as multiple part files in the specified folder, depending on the size and partition of the DataFrame.
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_assets/user-guide/read-write/11.PNG
+   :alt: readwrite
+   :width: 60%
+   
+Processor Output
+^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/3.PNG
-   :alt: SaveParquet
-   :width: 90%
+.. figure:: ../../_assets/user-guide/read-write/12.PNG
+   :alt: readwrite
+   :width: 60%
+
+Save parquet file
+----------------
+
+It save parquet file in specified location
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/user-guide/read-write/13.PNG
+   :alt: readwrite
+   :width: 60%
+   
+Once the workflow executed successfully the csv file will be saved to specified location
+
+.. figure:: ../../_assets/user-guide/read-write/14.PNG
+   :alt: readwrite
+   :width: 60%

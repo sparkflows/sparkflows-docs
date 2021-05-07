@@ -35,7 +35,7 @@ Below is the workflow for creating a KMeans model for clustering the houses. It 
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.png
    :alt: Clustering Houses
-   :width: 60%
+   :width: 100%
 
 Reading from Dataset
 ---------------------

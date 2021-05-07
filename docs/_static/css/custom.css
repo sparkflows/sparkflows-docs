@@ -139,7 +139,7 @@ h6 {
     margin: auto;
 }
 
-.wy-breadcrumbs li a:visited,
+/* .wy-breadcrumbs li a:visited, */
 .wy-breadcrumbs-aside a,
 .wy-nav-content a:visited {
     color: #404040;

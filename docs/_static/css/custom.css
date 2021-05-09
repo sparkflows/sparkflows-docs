@@ -201,7 +201,11 @@ h6 {
 }
 
 .highlight {
-    background: #f1f1f1;
+    background: #f2f2f2;
+}
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] pre, .rst-content .linenodiv pre {
+    font-size: 14px;
+    line-height: 1.5;
 }
 .current .toctree-l2 {
     background-color: black;

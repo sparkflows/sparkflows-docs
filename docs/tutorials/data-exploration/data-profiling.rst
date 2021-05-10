@@ -1,11 +1,9 @@
-Data Quality
+Data Profiling
 =============
 
+Fire Insights makes it easy to profile data.
 
-Data quality is an important aspect whenever we ingest data.
-Incomplete or wrong data can lead to more false predictions by a machine learning algorithm, we may also lose opportunities to monetize our data because of the data issues and business can lose their confidence on the data.
-
-In sparkflows, user can create the workflow using Summary, Correlation etc nodes to get more details about the dataset.
+In Fire Insights, user can create the workflow using Summary, Correlation etc nodes to get more details about the dataset.
 
 Sample Dataset: http://eforexcel.com/wp/downloads-16-sample-csv-files-data-sets-for-testing/
 

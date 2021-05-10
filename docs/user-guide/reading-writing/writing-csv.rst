@@ -37,7 +37,12 @@ Processor Output
 Save csv file
 ----------------
 
-It save csv file in specified location
+It save csv file in specified locationIt save csv file in specified location, use below field for csv file
+
+
+* PATH : Select specified path of csv file to be saved
+* SEPERATOR : CSV separtor
+* HEADER : True or false depending on file type
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

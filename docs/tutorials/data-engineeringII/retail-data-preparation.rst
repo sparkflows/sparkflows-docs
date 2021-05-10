@@ -72,7 +72,7 @@ CaseWhen Statement
 ------------------
 Added condition for below parameter
 
-* IsHoliday  == 'TRUE' Value is 0 Else Value is 1
+* WHENCONDITION IS : IsHoliday  == 'TRUE' Value is 0 ELSE Value is 1
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/2.PNG
    :alt: Dataset

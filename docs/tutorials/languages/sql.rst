@@ -1,7 +1,12 @@
 SQL Examples in Fire
 ----------------------
 
-Fire provides a SQL processer in which SQL can be written.
+Fire Insights provides a SQL processer in which SQL can be written. It does the following:
+
+  * Receives an input dataframe.
+  * Creates a temporary table on top of the dataframe.
+  * Allows the user to write a SQL which would be executed on the temporary table.
+  * The resulting dataframe of running the SQL is passed on to the next node/processor.
 
 
 Example 1: Calculate Average lotsize by number of bedrooms

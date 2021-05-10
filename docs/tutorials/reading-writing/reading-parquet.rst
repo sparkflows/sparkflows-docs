@@ -10,7 +10,7 @@ The existing datasets are displayed in the DataSets page of specific application
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 Dataset Creation
 ----------------
@@ -19,13 +19,13 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDatasetParquet.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 In the ‘Create DataSet’ page fill in the required fields as below.
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetFormParquet.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 Specify the name of the dataset you are creating.
 
@@ -34,12 +34,12 @@ After specifying name and path, click the ‘Update Sample data schema’ button
 
 .. figure:: ../../_assets/tutorials/dataset/SampleDatasetParquet.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 Clicking the ‘Save’ button creates the new DataSet for us.
 
 .. figure:: ../../_assets/tutorials/dataset/SaveDatasetParquet.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 Now you are ready to use the dataset in your workflows.

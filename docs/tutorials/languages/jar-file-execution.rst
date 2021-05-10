@@ -21,7 +21,7 @@ Step 2: Execute jar file from /tmp directory.
 
   
   
-In the fire, both steps can be run with UnixShellCommands Node.
+In Fire Insights, both steps can be run with UnixShellCommands Node.
 
 
 

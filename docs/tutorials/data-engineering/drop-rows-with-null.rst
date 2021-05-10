@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/1.png
    :alt: Drop Rows With Null
-   :width: 90%
+   :width: 100%
    
 Reading from CSV File
 ---------------------
@@ -27,18 +27,18 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/2.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 100%
    
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/3.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/4.png
    :alt: Drop Rows With Null
-   :width: 60% 
+   :width: 100% 
    
 Dropping rows with null
 ----------------------
@@ -50,13 +50,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/5.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/6.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 100%
    
    

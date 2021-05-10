@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 90%
 
 Reading from Dataset
 ---------------------
@@ -29,14 +29,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/2a.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Execute SQL Query
 -------------------
@@ -48,14 +48,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/3a.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
    
 Analyze using Graph
@@ -68,14 +68,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/5a.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60% 
+   :width: 80% 
 
 Execute SQL Query
 -------------------
@@ -87,14 +87,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/6a.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
 
 Analyze using Graph
 --------------------
@@ -106,12 +106,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/7a.png
    :alt: Farmers Markets On Geo Maps
-   :width: 60%
+   :width: 80%
 

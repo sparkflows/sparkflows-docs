@@ -56,7 +56,7 @@ Data Modeling
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_general.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%
 
 
 **Future Data section of Prophet model**
@@ -65,13 +65,13 @@ Data Modeling
   
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_future.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%
    
 * **SQL** set mean column to set threshold
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/prophet_out.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%
    
 Model prediction
 ----------------
@@ -80,4 +80,4 @@ Model prediction
 
 .. figure:: ../../_assets/tutorials/time-series/IOT/iot_final_out.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%

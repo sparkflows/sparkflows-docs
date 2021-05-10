@@ -16,7 +16,7 @@ It will bring up the dialog box below. Select the format of the file for which t
 
 .. figure:: ../../../_assets/tutorials/dataset/jdbc_dataset.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Entering Field Details
 ^^^^^^^^^^^^^^^^^^^^
@@ -36,7 +36,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 .. figure:: ../../../_assets/tutorials/dataset/create_data.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Updating the Schema of the Dataset
 ^^^^^^^^^^^^^^^^^^^^
@@ -47,7 +47,7 @@ You can update the column names in the schema based on your data.
  
  .. figure:: ../../../_assets/tutorials/dataset/update_sampledata.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Saving the New Dataset
 ^^^^^^^^^^^^^^^^^^^^
@@ -62,13 +62,13 @@ Click on ``Dashboard`` tab in the same application where you have created JDBC D
 
  .. figure:: ../../../_assets/tutorials/dataset/dashboard_tab.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_create.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Select any JDBC dataset for which you want to create ``chart`` & select ``CREATE NEW``
 
@@ -76,13 +76,13 @@ It will take you to new page, as below
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Select the ``chart type``, you want to see chart
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_typ1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Selected ``Bar chart`` & updated column for x & y axis and add some filter
 
@@ -90,7 +90,7 @@ Add NAME, DESCRIPTION & save it
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_filter.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Once you save it, the chart will appear in chart list page
 
@@ -98,7 +98,7 @@ Similarly you can create different chart using specified chart type
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_list1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Now using existing chart, you can create new dashboard 
 
@@ -106,22 +106,22 @@ Select ``Dashboard`` tab & Click on CREATE DASHBOARD
 
 .. figure:: ../../../_assets/tutorials/dataset/dashboard_tab1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 it will take us to New Dashboard page
 
 .. figure:: ../../../_assets/tutorials/dataset/chart-dash1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Using drag & drop you need to add chart in canvas, Add NAME, DESCRIPTION & SAVE it.
 
 .. figure:: ../../../_assets/tutorials/dataset/save-dashboard.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%
 
 Once the Dashboard got saved successfully, it will show in dashboard list page from where you can view, edit & delete it.
 
 .. figure:: ../../../_assets/tutorials/dataset/dashboard_list1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 80%

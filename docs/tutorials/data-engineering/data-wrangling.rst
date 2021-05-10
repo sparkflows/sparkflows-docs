@@ -28,7 +28,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/2.PNG
    :alt: data-wrangling
-   :width: 60%   
+   :width: 90%   
    
    
 Data Wrangling
@@ -41,14 +41,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/3.PNG
    :alt: data-wrangling
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/4.PNG
    :alt: data-wrangling
-   :width: 60%
+   :width: 90%
   
   
 Prints the Results

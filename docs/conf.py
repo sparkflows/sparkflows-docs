@@ -40,7 +40,6 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
-    'sphinx_copybutton',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',

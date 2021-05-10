@@ -31,14 +31,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 
 Column to be cast for new datatype double
@@ -52,14 +52,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
 
 Column to be cast for new datatype string
 ---------------------------------
@@ -72,14 +72,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
 
 Updates the column name of datatype string
 ----------------------------------------
@@ -92,14 +92,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
  
    
 Executes the SQL queries   
@@ -112,14 +112,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
 
 Prints the Results
 ------------------
@@ -132,12 +132,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.png
    :alt: Analyze Flights Delays
-   :width: 60%
+   :width: 90%
 

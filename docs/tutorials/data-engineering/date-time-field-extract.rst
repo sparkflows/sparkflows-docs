@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture2.PNG
    :alt: DateTimeFieldExtract
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture3.PNG
    :alt: DateTimeFieldExtract
-   :width: 60%
+   :width: 90%
    
    
 Date-Time Field Extract
@@ -45,7 +45,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture4.PNG
    :alt: DateTimeFieldExtract
-   :width: 60%
+   :width: 90%
    
    
 Processor Output
@@ -53,7 +53,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture5.PNG
    :alt: DateTimeFieldExtract
-   :width: 60%
+   :width: 90%
   
   
 Prints the Results

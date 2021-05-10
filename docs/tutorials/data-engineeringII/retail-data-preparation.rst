@@ -7,7 +7,7 @@ Fire Insights has a number of features for enabling it including:
 
 - Reading data from multiple sources 
 - Cleaning data
-- oins, GroupBy, Cube, SQL etc. to transform data
+- Joins, GroupBy, Cube, SQL etc. to transform data
 - Writing results to various sinks
 
 Fire Insights also gives you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.
@@ -15,18 +15,17 @@ Fire Insights also gives you detailed control over your Spark jobs with Repartit
 Overview
 ---------
 
-In this example, we start with 5 datasets, read them in & understand their schema in the process, perform data cleaning and then apply appropriate aggregations and joins.
+In this example, we start with 3 datasets, read them in & understand their schema in the process, perform data cleaning and then apply appropriate aggregations and joins.
 
 The cleansed and tranformed datasets are written to HDFS as CSV files. These dataset can as well we written as Parquet, Avro, JSON, XML files or to HIVE/Relational tables as needed.
 
 Datasets
 --------
 
-- facts.dat : Contains fixed length records of products sold to customers
-- geo.csv : Contains mapping of geo ids to geo names  
-- product.csv : Contains mapping of product ids to product names
-- customer.csv : Contains mapping of customer ids to customer names
-- time.csv : Contains mapping of various time interval ids to corresponding names 
+- stores-data-set.csv : Contains fixed length records of store data
+- features-data-set.csv : Contains features data  
+- sales-data-set.csv: Contains sales data
+
 
 Workflow
 --------
@@ -39,7 +38,7 @@ The workflow achieves the following tasks:
 
 The workflow is shown below:
 
-.. figure:: ../../_assets/tutorials/dataset/27.PNG
+.. figure:: ../../_assets/data-engineering/data-preparation_1/1.PNG
    :alt: Dataset
    :width: 90%
    

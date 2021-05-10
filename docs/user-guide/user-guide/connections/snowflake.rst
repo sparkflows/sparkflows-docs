@@ -16,7 +16,7 @@ Specify your Snowflake Username, Password and Url and save the details.
 
 .. figure:: ../../../_assets/connections/snowflake-add-con.PNG 
    :alt: snowflake
-   :width: 40%
+   :width: 80%
 
 We can also test the specified connection before saving the connection details. 
 
@@ -35,7 +35,7 @@ Refresh schema before continuing further.
 
 .. figure:: ../../../_assets/connections/read_snowflake_node.PNG
    :alt: snowflake
-   :width: 40%
+   :width: 80%
 
 Write Snowflake Node
 --------------------
@@ -49,4 +49,4 @@ For eg. Can read data from csv and write to snowflake.
 
 .. figure:: ../../../_assets/connections/write_to_snowflake_node.PNG
    :alt: snowflake
-   :width: 40%
+   :width: 80%

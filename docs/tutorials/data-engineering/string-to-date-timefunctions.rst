@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/1.PNG
    :alt: String To Date Timefunctions
-   :width: 90%
+   :width: 100%
 
 Reading from CSV file
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2.PNG
    :alt: String To Date Timefunctions
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/2a.PNG
    :alt: String To Date Timefunctions
-   :width: 60% 
+   :width: 100% 
    
 String to Date
 ------------
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3.PNG
    :alt: String To Date Timefunctions
-   :width: 60% 
+   :width: 100% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/3a.PNG
    :alt: String To Date Timefunctions
-   :width: 60%  
+   :width: 100%  
 
 Time Functions
 ------------
@@ -65,16 +65,16 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4.PNG
    :alt: String To Date Timefunctions
-   :width: 60% 
+   :width: 100% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/4a.PNG
    :alt: String To Date Timefunctions
-   :width: 60%
+   :width: 100%
 
-Prints the Results
+Print the Results
 ------------------
 
 It prints the results after using string to date timefunctions.
@@ -85,11 +85,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5.PNG
    :alt: String To Date Timefunctions
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/string-to-date-timefunctions/5a.PNG
    :alt: String To Date Timefunctions
-   :width: 60%
+   :width: 100%

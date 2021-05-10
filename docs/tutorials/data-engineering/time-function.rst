@@ -10,7 +10,7 @@ Dataset
 
 Let us take a Transaction Dataset which is in CSV format on HDFS. The dataset has a "DATE" column.
 
-figure:: ../../_assets/tutorials/dataset/28.PNG
+.. figure:: ../../_assets/tutorials/dataset/28.PNG
    :alt: Dataset
    :width: 60%
    

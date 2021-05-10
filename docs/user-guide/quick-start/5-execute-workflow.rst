@@ -38,7 +38,7 @@ Click on the Play Button
 
 Against each workflow there are a list of icons under "Actions" column for performing various actions on a specific workflow.
 
-Click "Play" icon under "actions" column to execute the workflow.
+Click "Play" icon under "Actions" column to execute the workflow.
 
 
 Execute workflow page

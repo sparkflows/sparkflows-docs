@@ -23,8 +23,9 @@ Workflow
 Processor Configurations for ReadDatabricksTable
 ++++++++
 
-* Click on BROWSE STUDIO DB and select specified database.
-* Click on BROWSE STUDIO TABLE and select specified Table.
+* DATABRICKS DATABASE : Click on BROWSE STUDIO DB and select specified database.
+* DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
+
 
 .. figure:: ../../_assets/configuration/databricks-editor.PNG
    :alt: Databricks

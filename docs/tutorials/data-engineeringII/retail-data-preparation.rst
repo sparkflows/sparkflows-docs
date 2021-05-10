@@ -68,6 +68,16 @@ The fact data is then joined with various dimension data. These include:
 - Customer  
 - Date 
 
+CaseWhen Statement
+------------------
+Added condition for below parameter
+
+* IsHoliday  == 'TRUE' Value is 0 Else Value is 1
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/2.PNG
+   :alt: Dataset
+   :width: 90%
+
 The final dataset is saved as CSV file.
    
    

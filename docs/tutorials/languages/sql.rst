@@ -4,7 +4,7 @@ SQL Examples in Fire
 Fire provides a SQL processer in which SQL can be written.
 
 
-Example 1: Calculate average lotsize by number of bedrooms
+Example 1: Calculate Average lotsize by number of bedrooms
 =========
 
 ::
@@ -43,6 +43,14 @@ Example 4: Using CAST statement to change datatype and creating Alias
 
 ::
 
-    SELECT CAST(to_date(ds) as STRING) as forecast_date, yhat as sales_pred_mean, yhat_lower as sales_pred_lower,
+    select cast(to_date(ds) as STRING) as forecast_date, yhat as sales_pred_mean, yhat_lower as sales_pred_lower,
     yhat_upper as sales_pred_upper from fire_temp_table
 
+Example 5: Using Date Functions
+=========
+
+::
+
+    select current_date as date, current_timestamp as timestamp, to_date(current_timestamp) as converttodate, 
+    date_add(current_date , 5) as addtodate, date_sub(current_date , 5) as subtractfromdate 
+    from fire_temp_table

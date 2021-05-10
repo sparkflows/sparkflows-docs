@@ -12,8 +12,8 @@ Below is the workflow. It does the following:
 * Prints the sample datasets results.
 * Casts required columns to double.
 * Casts required columns to string.
-* Updates the column name.
-* Executes the SQL queries with the given conditions.
+* Create index columns
+* Executes the SQL query to find the flights which are delayed.
 * Prints the results.
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
@@ -80,10 +80,10 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Update the column name of datatype string
+Create index columns from string columns
 ----------------------------------------
 
-It updates the column name of datatype string using stringindexer type Node.
+Create new columns with index values from the string columns.
 
 
 Processor Configuration

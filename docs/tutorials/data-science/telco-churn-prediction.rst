@@ -32,37 +32,55 @@ The workflow performs the following steps:
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning
    :width: 80%
-   
+
+VectorAssembler
++++++++++++++++
+
 In the VectorAssembler, select the fields you want to include in the model. Only the numeric fields are displayed as VectorAssembler supports only the numeric fields.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
    :alt: Machine Learning
    :width: 80%
-   
+
+Split
++++++
+
 You can split the dataset into training and test datasets. We split it into (.8, .2)
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-split.png
    :alt: Machine Learning
    :width: 80%
-   
+
+Random Forest Classifier
+++++++++++++++++++++++++
+
 You can use a RandomForestClassifier for predicting churn. We use 20 trees.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-dtc.png
    :alt: Machine Learning
    :width: 80%
-   
+
+Predict
++++++++
+
 You can predict using the model on the test dataset.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.png
    :alt: Machine Learning
    :width: 80%
-   
+
+Evaluate
+++++++++
+
 You can evaluate the quality of our results.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
    :alt: Machine Learning
    :width: 80%
    
+Execute Workflow
+----------------
+
 Next, You can execute the workflow. 
    
 From the evaluator You get the following results:

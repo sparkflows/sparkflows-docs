@@ -32,7 +32,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture2.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
    
    
 Processor Output
@@ -40,7 +40,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture3.PNG
    :alt: DataPreparation
-   :width: 60%  
+   :width: 90%  
    
    
 Convert String to Date
@@ -53,14 +53,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture4.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture5.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
   
 
 Settings values for required Column
@@ -73,14 +73,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture6.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture7.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
    
 Creating DataFrame with required rows
 ------------
@@ -92,7 +92,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture8.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
    
    
 Processor Output
@@ -100,7 +100,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture9.PNG
    :alt: DataPreparation
-   :width: 60%
+   :width: 90%
    
 
 Prints the Results

@@ -38,7 +38,7 @@ Example 3: Using another form of CASE statement
          end as mScore,
     mValue / fValue  as avg_amount from fire_temp_table
     
-Example 4: Using CAST statement to change datatype and creating Alias
+Example 4: Using CAST statement to change datatype 
 ==========
 
 ::

@@ -26,7 +26,7 @@ The auto_arima capacity can be overwhelming. There are a ton of boundaries to tu
 
 .. figure:: ../../_assets/tutorials/time-series/b_vs_w.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%
 
 Node 1 - ReadCSV
 ++++++++++++++++
@@ -35,7 +35,7 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_readcsv.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 100%
 
 Node 2 - ARIMA
 ++++++++++++++++
@@ -86,4 +86,4 @@ Lets check a few rows of forecasted data by ARIMA Model
  
 .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
   :alt: Stock Forecasting
-  :width: 60%
+  :width: 100%

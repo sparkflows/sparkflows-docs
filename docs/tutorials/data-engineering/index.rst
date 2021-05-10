@@ -4,7 +4,6 @@ Data Preparation I
 .. toctree::
    :maxdepth: 1
 
-   convert-to-timestamps.rst 
    data-validation.rst
    data-validation-multiple.rst
    decision-json-sort.rst

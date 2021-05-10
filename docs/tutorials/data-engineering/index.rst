@@ -21,7 +21,6 @@ Data Preparation I
    string-to-date-timefunctions.rst
    date-time-field-extract.rst
    concat-columns.rst
-   join-1.rst
    time-function.rst
    split-by-expression.rst
    string-functions-multiple.rst

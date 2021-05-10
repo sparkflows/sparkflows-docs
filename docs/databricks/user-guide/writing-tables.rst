@@ -11,14 +11,14 @@ Below is a workflow which writes data to the Databricks table ``test_save``.
 Workflow
 ++++++++
 
-.. figure:: ../../_assets/configuration/savedatabricksworkflow.PNG
+.. figure:: ../../_assets/configuration/savedatabricks_workflow.PNG
    :alt: Databricks
    :width: 60%
 
 Processor Configurations for SaveDatabricksTable
 ++++++++
 
-.. figure:: ../../_assets/configuration/savedatabricksconfiguration.PNG
+.. figure:: ../../_assets/configuration/savedatabricks_configuration.PNG
    :alt: Databricks
    :width: 60%
 
@@ -29,14 +29,14 @@ Databricks Workflow execution
 
 Below is the output of executing the above workflow which saves the data to Databricks table.
 
-.. figure:: ../../_assets/configuration/savedatabricksworkflowexecution.PNG
+.. figure:: ../../_assets/configuration/savedatabricksworkflo_wexecution.PNG
    :alt: Databricks
    :width: 60%
 
 * Verify the Table
 
 
-.. figure:: ../../_assets/configuration/databrickstablesaved.PNG
+.. figure:: ../../_assets/configuration/databrickstable_saved.PNG
    :alt: Databricks
    :width: 60%
    

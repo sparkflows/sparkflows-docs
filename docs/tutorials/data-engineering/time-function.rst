@@ -21,21 +21,7 @@ In the above workflow:
 - The 'StringToDate' processor converts the column Date, which is in string format to 'timestamp'. 
 - The 'TimeFunctions' processor takes in the timestamp column and then applies various timefunctions to it to generate additional output columns.
 
-The diagram below shows the dialog box for the TimeFunctions processor. Timestamp column was selected as input, and various time functions were applied to it.
-
-.. figure:: ../../_assets/tutorials/dataset/30.PNG
-   :alt: Dataset
-   :width: 60%
-   
-   
-Workflow Execution
-------------------
-
-When the example workflow is executed, additional columns are produced for the various time functions that were selected.
-
-.. figure:: ../../_assets/tutorials/dataset/31.PNG
-   :alt: Dataset
-   :width: 60%Reading from Dataset
+Reading from Dataset
 ---------------------
 
 It reads sample Dataset File.

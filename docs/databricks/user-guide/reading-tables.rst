@@ -3,7 +3,7 @@ Reading Databricks Tables
 
 Fire Insights enables you to read from and write to Databricks tables.
 
-Below is a workflow which reads data from the Databricks table ``xyz``. It then processes the data and finally writes out the result to the Databricks table abc.
+Below is a workflow which reads data from the Databricks table ``xyz``. It then processes the data and print some sample result.
 
 
 Read Databricks table in Workflow

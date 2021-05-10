@@ -63,7 +63,7 @@ Joins with various Dimension Data
 
 The fact data is then joined with various dimension data. These include: 
 
-- Geo  
+- Store  
 - Product  
 - Customer  
 - Time 

@@ -38,19 +38,19 @@ Example 3: Using another form of CASE statement
          end as mScore,
     mValue / fValue  as avg_amount from fire_temp_table
     
-Example 4: Using CAST statement to change datatype 
+Example 4: Using CAST statement to convert datatypes 
 ==========
 
 ::
 
-    select cast(to_date(ds) as STRING) as forecast_date, yhat as sales_pred_mean, yhat_lower as sales_pred_lower,
-    yhat_upper as sales_pred_upper from fire_temp_table
+     select cast(current_date as STRING) datetostring , cast ('2021' as int) stringtoint, cast('2021-01-01' as date) stringtodate 
+     from fire_temp_table
+
 
 Example 5: Using Date Functions
 =========
 
 ::
 
-    select current_date as date, current_timestamp as timestamp, to_date(current_timestamp) as converttodate, 
-    date_add(current_date , 5) as addtodate, date_sub(current_date , 5) as subtractfromdate 
-    from fire_temp_table
+    select current_date as date, current_timestamp as timestamp, date_add(current_date , 5) as addtodate, 
+    date_sub(current_date , 5) as subtractfromdate from fire_temp_table

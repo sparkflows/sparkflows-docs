@@ -13,7 +13,7 @@ Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 Workflow for reading from MySQL
 --------------------------------
 
-Below is a workflow which reads data from MySQL and read the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
+Below is a workflow which reads data from MySQL and reads the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
 
 .. figure:: ../../_assets/user-guide/WorkflowReadJDBC.png
    :alt: JDBC Workflowt
@@ -38,7 +38,7 @@ The below screenshot displays schema of the table from the MySQL table by Fire.
    :alt: JDBC Get Schema
    :width: 80%
 
-Specifying a sub-query
+Specifying a Sub-Query
 ----------------------
 
 In the configuration of the JDBC node, for ``DB TABLE`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery.

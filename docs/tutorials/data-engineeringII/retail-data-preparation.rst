@@ -66,7 +66,7 @@ The fact data is then joined with various dimension data. These include:
 - Store  
 - Product  
 - Customer  
-- Time 
+- Date 
 
 The final dataset is saved as CSV file.
    

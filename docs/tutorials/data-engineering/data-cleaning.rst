@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture2.PNG
    :alt: DataCleaning
-   :width: 60%   
+   :width: 90%   
    
    
 Handling Null Values
@@ -47,13 +47,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture3.PNG
    :alt: DataCleaning
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture4.PNG
-   :width: 60%
+   :width: 90%
   
 
 Convert Strings to Integer Indexes
@@ -66,13 +66,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture5.PNG
    :alt: DataCleaning
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture6.PNG
-   :width: 60%
+   :width: 90%
 
    
 Convert Gender to Integer Values
@@ -85,13 +85,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture7.PNG
    :alt: DataCleaning
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture8.PNG
-   :width: 60%
+   :width: 90%
    
 Replace Gender and Family with 0/1
 ------------
@@ -103,14 +103,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture9.PNG
    :alt: DataCleaning
-   :width: 60%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture10.PNG
    :alt: DataCleaning
-   :width: 60%
+   :width: 90%
    
    
 Prints the Results

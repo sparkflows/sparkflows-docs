@@ -5,15 +5,7 @@ There are many instances when you want to do time-series analysis. Fire Insights
 
 Creating additional features from the timestamp column helps you to know more about the data and run modeling algorithms on them. Fire Insights has NodeTimeFunctions for creating these time series features.
 
-Dataset
---------
-
-Let us take a Transaction Dataset which is in CSV format on HDFS. The dataset has a "DATE" column.
-
-.. figure:: ../../_assets/tutorials/dataset/28.PNG
-   :alt: Dataset
-   :width: 60%
-   
+  
 Workflow for applying TimeFunctions
 -----------------------------------
 

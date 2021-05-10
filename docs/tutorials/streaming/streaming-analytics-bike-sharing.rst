@@ -44,7 +44,7 @@ Below is a workflow for Streaming Analytics of the Bike Sharing dataset.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 It consists of 6 Nodes: 
 
@@ -62,7 +62,7 @@ It reads in streaming data from Kafka and creates a dataframe with one column co
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-2.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 FieldSplitter
 -------------
@@ -71,7 +71,7 @@ It splits each line on the separator - comma - and outputs a new DataFrame with 
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-3.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 StringToDate
 ------------
@@ -80,7 +80,7 @@ It converts the datetime column into new column of type 'Timestamp'.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-4.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 DateTimeFieldExtract
 ---------------------
@@ -89,7 +89,7 @@ It extracts the year, month, day of month and hour from the datetime_dt column.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-5.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
    
 GraphGroupByColumn
@@ -99,7 +99,7 @@ Aggregates the data on the hour column, and displays it in a Graph.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-6.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 Executing the workflow
 ----------------------
@@ -108,11 +108,11 @@ When the workflow is executed, Fire submits a spark streaming job to the Spark c
 
 .. figure:: ../../_assets/tutorials/dataset/43.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 .. figure:: ../../_assets/tutorials/dataset/44.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 Streaming Dashboard
 -------------------
@@ -123,11 +123,11 @@ Below is the Dashboard editor. Select the nodes whose output you want displayed 
 
 .. figure:: ../../_assets/tutorials/dataset/45.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 .. figure:: ../../_assets/tutorials/dataset/46.PNG
    :alt: Dataset
-   :width: 60%  
+   :width: 100%  
    
    
 

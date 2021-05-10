@@ -36,7 +36,7 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/read_csv.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 
 
@@ -46,7 +46,7 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/store_top_10.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 Node 2 - RowFilter
 ++++++++++++++++++
@@ -55,7 +55,7 @@ Node 2 - RowFilter
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
    
    
 Node 3 - Prophet
@@ -74,7 +74,7 @@ Used Facebook Prophet to create the ML model.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 
 **Future Data section of Prophet model**
@@ -85,7 +85,7 @@ Used Facebook Prophet to create the ML model.
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 Node 4 - SQL
 ++++++++++++++++
@@ -96,7 +96,7 @@ Node 4 - SQL
 
 .. figure:: ../../_assets/tutorials/time-series/sql_general.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 **Schema Section of SQL node**
 
@@ -104,7 +104,7 @@ Node 4 - SQL
 
 .. figure:: ../../_assets/tutorials/time-series/sql_schema.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
    
 
 Node 5 - JoinUsingSQL
@@ -117,7 +117,7 @@ Node 5 - JoinUsingSQL
 
 .. figure:: ../../_assets/tutorials/time-series/join_general.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 **Schema Section of JoinUsingSQL node**
 
@@ -125,7 +125,7 @@ Node 5 - JoinUsingSQL
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 
 Node 6 - SaveCSV
@@ -137,7 +137,7 @@ Node 6 - SaveCSV
 
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
 
 Output Visualization
@@ -159,7 +159,7 @@ Node 1 - ReadCSV
 
 .. figure:: ../../_assets/tutorials/time-series/graph_readcsv.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
 
    
 Node 2 - RowFilter
@@ -169,7 +169,7 @@ Node 2 - RowFilter
 
 .. figure:: ../../_assets/tutorials/time-series/Row_filter.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
    
 Node 3 - SortBy
 ++++++++++++++++
@@ -183,7 +183,7 @@ Node 4 - GraphValue
 
 .. figure:: ../../_assets/tutorials/time-series/Graphvalues.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%
    
 **Graph obtained**
 
@@ -195,4 +195,4 @@ Node 4 - GraphValue
 
 .. figure:: ../../_assets/tutorials/time-series/Graph_output.png
    :alt: Stock Forecasting
-   :width: 60%
+   :width: 80%

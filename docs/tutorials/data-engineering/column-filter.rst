@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
    
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture1.png
    :alt: Column Filter
-   :width: 90%
+   :width: 100%
    
 Reading from Dataset
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
    
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture2.png
    :alt: Column Filter
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture3.png
    :alt: Column Filter
-   :width: 60%  
+   :width: 100%  
    
    
 Column Filter
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture4.png
    :alt: Column Filter
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture5.png
    :alt: Column Filter
-   :width: 60%
+   :width: 100%
   
 Prints the Results
 ------------------

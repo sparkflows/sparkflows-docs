@@ -11,7 +11,7 @@ It will display the Databricks DB page.
 
 .. figure:: ../../_assets/configuration/databricks_db.PNG
    :alt: Databricks
-   :width: 60%
+   :width: 100%
 
 Select the Tables 
 ----------------------
@@ -20,11 +20,11 @@ Once you select the ``Tables``, right click on it to get the query to view the f
 
 .. figure:: ../../_assets/configuration/databricks_1.PNG
    :alt: Databricks
-   :width: 60%
+   :width: 100%
    
 Execute the sql query to view records from the table selected.
 
 .. figure:: ../../_assets/configuration/databricks_query.PNG
    :alt: Databricks
-   :width: 60%
+   :width: 100%
 

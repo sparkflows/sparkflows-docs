@@ -1,7 +1,7 @@
 Jetrail Data Analysis
 ======================
 
-This workflow reads in a dataset. It then calculates the monthly trend in JetRail Dataset and annalyses using graph.
+This workflow reads in a dataset. It then calculates the monthly trend in JetRail Dataset and performs further Analysis using charts.
 
 Workflow
 -------
@@ -74,7 +74,7 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 60%
    
-Execute query for months
+Calculate sum of counts per month
 ------------------------
 
 It executes query for grouping and selecting required fields, calculates sum of counts by SQL Node.

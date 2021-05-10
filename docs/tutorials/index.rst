@@ -10,13 +10,14 @@ Tutorials
    data-exploration/index.rst
    analytics/index.rst
    data-science/index.rst
+   time-series/index.rst
    data-quality/index.rst
    languages/index.rst
    nlp/index.rst
    streaming/index.rst
    ocr/index.rst
    rest-api/index.rst
-   time-series/index.rst
+
   
    
    

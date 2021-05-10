@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/1.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
 
 Reading from Dataset
 ---------------------
@@ -29,14 +29,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/2.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/2a.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Tokenizes message column
 ------------------------
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/3.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/3a.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Perform TF
 ----------
@@ -66,14 +66,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/4.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/4a.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Perform IDF
 -----------
@@ -85,14 +85,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/5.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/5a.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%
    
 Prints the results
 ------------------
@@ -101,4 +101,4 @@ It will print the result after performing TF/IDF on text content.
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/6a.png
    :alt: TFIDF
-   :width: 60%
+   :width: 100%

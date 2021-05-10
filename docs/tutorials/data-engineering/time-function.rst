@@ -10,18 +10,18 @@ Dataset
 
 Let us take a Transaction Dataset which is in CSV format on HDFS. The dataset has a "DATE" column.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
-   :alt: Convert To Timestamps
-   :width: 100%
+figure:: ../../_assets/tutorials/dataset/28.PNG
+   :alt: Dataset
+   :width: 60%
    
 Workflow for applying TimeFunctions
 -----------------------------------
 
 In the example workflow below, additional date time features are being created from the date column.
 
-.. figure:: ../../_assets/tutorials/dataset/29.PNG
-   :alt: Dataset
-   :width: 90%
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
+   :alt: Convert To Timestamps
+   :width: 100%
    
 In the above workflow: 
 

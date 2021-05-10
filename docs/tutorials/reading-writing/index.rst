@@ -13,6 +13,7 @@ Reading - Writing Data
    read-csv-file.rst
    read-pdf-file.rst
    elasticsearch.rst
+   writing-csv.rst
    writing-hive.rst
    writing-parquet.rst
    writing-json.rst

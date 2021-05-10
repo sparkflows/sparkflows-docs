@@ -17,7 +17,7 @@ Below is the workflow. This workflow does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/1.png
    :alt: DedupCustomers
-   :width: 90%
+   :width: 100%
    
 Input Datasets
 ---------------------
@@ -29,7 +29,7 @@ Dataset 1:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/2.png
    :alt: DedupCustomers
-   :width: 80%
+   :width: 100%
    
    
 Dataset 2:
@@ -37,7 +37,7 @@ Dataset 2:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/3.png
    :alt: DedupCustomers
-   :width: 80%
+   :width: 100%
    
    
 Join input DataFrames
@@ -48,7 +48,7 @@ Join input DataFrames
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/4.png
    :alt: DedupCustomers
-   :width: 80%
+   :width: 100%
    
 Data Deduplication
 ------------
@@ -77,7 +77,7 @@ Entity resolution or data matching is the problem of finding and linking differe
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/5.png
    :alt: DedupCustomers
-   :width: 80%
+   :width: 100%
    
    
 ``Dedup`` Processor Output
@@ -85,10 +85,10 @@ Entity resolution or data matching is the problem of finding and linking differe
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/6.png
    :alt: DedupCustomers
-   :width: 80%
+   :width: 100%
    
 
-Prints the Results
+Print the Results
 ------------------
 
 It prints the first few records onto the screen.

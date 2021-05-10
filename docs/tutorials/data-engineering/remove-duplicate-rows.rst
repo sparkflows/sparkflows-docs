@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/1.png
    :alt: Remove Duplicate Rows
-   :width: 90%
+   :width: 100%
    
 Reading from CSV file
 ---------------------
@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2.png
    :alt: Remove Duplicate Rows
-   :width: 60%
+   :width: 100%
 
    
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2aa.png
    :alt: Remove Duplicate Rows
-   :width: 60%  
+   :width: 100%  
    
 Remove Duplicate Rows
 ---------------------
@@ -46,16 +46,16 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3.png
    :alt: Remove Duplicate Rows
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3a.png
    :alt: Remove Duplicate Rows
-   :width: 60%   
+   :width: 100%   
  
-Prints the Results
+Print the Results
 ------------------
 
 It prints the results after Removing Duplicate Rows.
@@ -66,11 +66,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.png
    :alt: remove-duplicate-rows
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.png
    :alt: remove-duplicate-rows
-   :width: 60%  
+   :width: 100%  

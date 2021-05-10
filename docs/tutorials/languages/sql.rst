@@ -4,14 +4,14 @@ SQL Examples in Fire
 Fire provides a SQL processer in which SQL can be written.
 
 
-Example 1
+Example 1: Calculate average lotsize by number of bedrooms
 =========
 
 ::
 
     select bedrooms, avg(lotsize) as avg_lotsize from fire_temp_table group by bedrooms
 
-Example 2
+Example 2: Using Case statements to check the condition against the column value and return a result
 ==========
 
 ::

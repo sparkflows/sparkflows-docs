@@ -1,4 +1,4 @@
-Multi-Validation Workflow
+Validation Workflow
 ===============
 
 This workflow performs multiple validations on each incoming record

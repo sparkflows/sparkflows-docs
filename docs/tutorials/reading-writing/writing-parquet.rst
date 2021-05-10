@@ -12,7 +12,7 @@ Below is a workflow example which reads in transaction data. It then writes it o
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/1.PNG
    :alt: ParquetWorkflow
-   :width: 90%
+   :width: 70%
    
    
 DatasetStructured Processor

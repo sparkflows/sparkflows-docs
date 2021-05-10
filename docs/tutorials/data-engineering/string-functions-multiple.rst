@@ -13,7 +13,7 @@ The example workflow below, read data from HDFS/Hive and applies different strin
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1.PNG
    :alt: String Functions Multiple
-   :width: 70%
+   :width: 100%
    
 Read data from HDFS
 -------------------
@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/2.PNG
    :alt: String Functions Multiple
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/3.PNG
    :alt: String Functions Multiple
-   :width: 60%
+   :width: 100%
 
 Apply string functions
 ----------------------
@@ -44,14 +44,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/4.PNG
    :alt: String Functions Multiple
-   :width: 604
+   :width: 100%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/5.PNG
    :alt: String Functions Multiple
-   :width: 60%
+   :width: 100%
    
    
    

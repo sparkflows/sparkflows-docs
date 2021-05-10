@@ -36,7 +36,7 @@ Processor Output
    :alt: Convert To Timestamps
    :width: 100%
    
-Prints the sample Dataset Results
+Print the sample Dataset Results
 ---------------------------------
 
 It prints the results of the sample dataset available.

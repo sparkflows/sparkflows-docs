@@ -10,7 +10,7 @@ Datasets
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 Dataset Creation
 ----------------
@@ -19,13 +19,13 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDatasetJson.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
    
 Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a customer.json file.   
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetFormJson.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 We specified a name, category, description & path of json file for the dataset we are creating.
 
@@ -33,10 +33,10 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
 
 .. figure:: ../../_assets/tutorials/dataset/UpdatedSampleDataJson.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%
 
 Clicking the ‘Save’ button saves the new json dataset. The json dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/AfterSaveDatasetJson.png
    :alt: Dataset
-   :width: 60%
+   :width: 100%

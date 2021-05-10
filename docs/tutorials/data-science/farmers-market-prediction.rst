@@ -31,7 +31,7 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.png
    :alt: Fire Market Prediction
-   :width: 90%
+   :width: 100%
    
 This workflow consists of the following steps:
 
@@ -85,49 +85,49 @@ First Dataset
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/3.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
 
 Column Filter
 -------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 SQL
 ---
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/5.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 Second Dataset
 --------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/6.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 SQL
 ---
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/7.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 AllJoin - Join the two datasets
 -------------------------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 CastColumnType
 --------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/9.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 ImputingWithConstant
 --------------------
@@ -141,40 +141,40 @@ VectorAssembler
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/11.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 100%
    
 Split
 -----
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/12.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 LinearRegression
 ----------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/13.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
 Predict
 --------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/14.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
 
 Print N Rows
 -------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
 
 Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.png
    :alt: Fire Market Prediction
-   :width: 80%
+   :width: 100%
    
    

@@ -16,7 +16,7 @@ Specify your SQL Server Username, Password and JDBC Url and save the details.
 
 .. figure:: ../../../_assets/connections/sql_connection.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 80%
 
 We can also test the specified connection before saving the connection details. 
 
@@ -24,4 +24,4 @@ Now we are ready to start using the SQL Server Connection in Fire Insights using
 
 .. figure:: ../../../_assets/connections/sql_connection_usage.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 80%

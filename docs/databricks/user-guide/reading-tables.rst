@@ -18,7 +18,7 @@ Workflow
 
 .. figure:: ../../_assets/configuration/workflow_databricks.PNG
    :alt: Databricks
-   :width: 80%
+   :width: 60%
 
 Processor Configurations for ReadDatabricksTable
 ++++++++

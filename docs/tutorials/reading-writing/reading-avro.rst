@@ -29,7 +29,7 @@ Clicking "OK" will take you to Dataset Details page where you can enter informat
 
 We specified a name, category, description & path of avro file for the dataset we are creating.
 
-Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
+Once we have specified the above, we hit the ‘Update Sample Data/Schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/54.PNG
    :alt: Dataset
@@ -39,7 +39,7 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :alt: Dataset
    :width: 100%
 
-Clicking the ‘Save’ button saves the new avro dataset. The avro dataset is now ready for use in any workflow within the specific application.
+Clicking the ‘Save’ button saves the new Avro Dataset. The Avro Dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/56.PNG
    :alt: Dataset

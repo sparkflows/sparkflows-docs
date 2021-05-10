@@ -8,10 +8,6 @@ The dataset is artificial Churn Data based on claims, similar to real world. It 
 - https://www.sgi.com/tech/mlc/db/
 - https://www.sgi.com/tech/mlc/db/churn.all
 - https://www.sgi.com/tech/mlc/db/churn.name
-
-.. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/1.PNG
-   :alt: Machine Learning
-   :width: 80%
    
    
 Below is the workflow you can use for creating the model for Churn Prediction.

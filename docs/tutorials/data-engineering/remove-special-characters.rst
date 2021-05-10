@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture1.PNG
    :alt: Remove special Characters
-   :width: 90%
+   :width: 100%
    
 Reading from Dataset
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture2.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture3.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
    
    
 To Remove Any Special character in data
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture4.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture5.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
    
    
 RowFilter - Remove the rows with empty space 
@@ -66,17 +66,17 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture6.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture7.PNG
    :alt: Remove special Characters
-   :width: 60%
+   :width: 100%
  
   
-Prints the Results
+Print the Results
 ------------------
 
 It prints the first few records onto the screen.

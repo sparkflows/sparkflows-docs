@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 100%
 
 Reading from Dataset
 ---------------------
@@ -29,14 +29,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/2a.png
    :alt: Jetrail Data Annalysis
-   :width: 60%   
+   :width: 90%   
 
 Extract date time field
 -----------------------
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/3a.png
    :alt: Jetrail Data Annalysis
-   :width: 60% 
+   :width: 90% 
    
 Calculate count per month
 --------------------------
@@ -65,14 +65,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/4a.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Calculate sum of counts per month
 ------------------------
@@ -84,14 +84,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/5a.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Prints the Results
 ------------------
@@ -108,11 +108,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/7a.png
    :alt: Jetrail Data Annalysis
-   :width: 60%
+   :width: 90%

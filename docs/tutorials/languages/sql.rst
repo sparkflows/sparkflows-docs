@@ -11,7 +11,7 @@ Example 1: Calculate average lotsize by number of bedrooms
 
     select bedrooms, avg(lotsize) as avg_lotsize from fire_temp_table group by bedrooms
 
-Example 2: Using a CASE statement to check the condition against the column value and return a result
+Example 2: Using a CASE statement to check conditions against column value
 ==========
 
 ::
@@ -37,3 +37,12 @@ Example 3: Using another form of CASE statement
          else 1.0
          end as mScore,
     mValue / fValue  as avg_amount from fire_temp_table
+    
+Example 4: Using CAST statement to change datatype and creating Alias
+==========
+
+::
+
+    SELECT CAST(to_date(ds) as STRING) as forecast_date, yhat as sales_pred_mean, yhat_lower as sales_pred_lower,
+    yhat_upper as sales_pred_upper from fire_temp_table
+

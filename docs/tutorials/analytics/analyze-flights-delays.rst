@@ -1,19 +1,18 @@
 Analyze Flights Delays
 =====================
 
-This workflow reads in a dataset. It then analyzes flights delay with sample datasets and prints the results.
+This workflow reads in a flights dataset. It then analyzes flights delay and prints the results.
 
 Workflow
 -------
 
 Below is the workflow. It does the following:
 
-* Reads data from a sample dataset.
+* Reads in the input data.
 * Prints the sample datasets results.
-* Column to be cast for new datatype double.
-* Column to be cast for new datatype string.
-* Updates the column name of datatype string.
-* Prints the result of data updating after stringindexer Node.
+* Casts required columns to double.
+* Casts required columns to string.
+* Updates the column name.
 * Executes the SQL queries with the given conditions.
 * Prints the results.
 
@@ -41,7 +40,7 @@ Processor Output
    :width: 80%
    
 
-Column to be cast for new datatype double
+Cast column to double
 ---------------------------------
 
 It casts for new datatype double using castcolumn type Node.
@@ -61,7 +60,7 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Column to be cast for new datatype string
+Cast column to string
 ---------------------------------
 
 It casts for new datatype string using castcolumn type Node.
@@ -81,7 +80,7 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Updates the column name of datatype string
+Update the column name of datatype string
 ----------------------------------------
 
 It updates the column name of datatype string using stringindexer type Node.
@@ -102,7 +101,7 @@ Processor Output
    :width: 80%
  
    
-Executes the SQL queries   
+Execute the SQL queries   
 -------------------------
 
 It executes the SQL queries with the given conditions.
@@ -121,10 +120,10 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Prints the Results
+Print the Results
 ------------------
 
-It prints the results after satisfied condition by   sql   queries.
+It prints the final results.
 
 
 Processor Configuration

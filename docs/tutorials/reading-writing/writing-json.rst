@@ -23,6 +23,9 @@ Node ``TransactionDataset`` creates DataFrame of your dataset named 'Transaction
    :alt: NodeDatasetStructured
    :width: 100%
 
+Processor output
+----------------
+
 .. figure:: ../../_assets/tutorials/read-write/writing-json/2.PNG
    :alt: NodeDatasetStructured
    :width: 100%

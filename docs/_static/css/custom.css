@@ -211,6 +211,18 @@ h6 {
     background-color: black;
 }
 
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] pre, .rst-content .linenodiv pre {
+    white-space: pre;
+    margin: 0px;
+    padding: 12px 12px;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 80%;
+    line-height: 1.5;
+    display: block;
+    overflow: auto;
+    color: #052247;
+}
+
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
     .wy-table-responsive table td {

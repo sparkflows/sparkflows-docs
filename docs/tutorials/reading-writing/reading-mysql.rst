@@ -8,7 +8,7 @@ When datasets are created, Fire Insights automatically infers the schema of the 
 Datasets
 --------
 
-When you open any application, all existing datasets specific to the application are displayed in the Datasets tab.
+When you open any application, all existing datasets specific to the application are displayed in the Datasets Tab.
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
@@ -27,7 +27,7 @@ Navigate to the "Datasets" tab in your application where you want to create a ne
 Specify the name of the dataset you are creating and other required parameters such as JDBC DRIVER, JDBC URL, USER, PASSWORD, DB, & TABLE etc.
  
  
-Once you have filled in required information, hit ‘Update Sample data/schema’ button. This brings up sample data, infers the schema and displays it. You can change column names and data types as needed. Format column is used for specifying the format of date/time fields.
+Once you have filled in required information, hit ‘Update Sample Data/Schema’ button. This brings up sample data, infers the schema and displays it. You can change column names and data types as needed. Format column is used for specifying the format of date/time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetFormMysql.png
    :alt: Dataset

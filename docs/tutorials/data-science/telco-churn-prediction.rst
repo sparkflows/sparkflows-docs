@@ -10,7 +10,10 @@ The dataset is artificial Churn Data based on claims, similar to real world. It 
 - https://www.sgi.com/tech/mlc/db/churn.name
    
    
-Below is the workflow you can use for creating the model for Churn Prediction.
+Workflow
+--------
+
+Below is the workflow for creating a model for Churn Prediction.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
    :alt: Machine Learning

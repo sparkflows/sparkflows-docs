@@ -16,7 +16,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.png
    :alt: General Payment Data Analysis
-   :width: 70%
+   :width: 90%
 
 Reading from Dataset
 ---------------------

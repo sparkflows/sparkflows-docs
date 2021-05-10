@@ -77,6 +77,17 @@ Added condition for below parameter
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/2.PNG
    :alt: Dataset
    :width: 90%
+   
+FlagOutlier
+-----------
+
+* INPUT COLUMN TO FLAG THE OUTLIER : Select input column to flag outlier.
+* LOWERQUANTILE : Select Lowerqantile value
+* UPPERQUANTILE : Select Upperquantile value
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/3.PNG
+   :alt: Dataset
+   :width: 90%
 
 The final dataset is saved as CSV file.
    

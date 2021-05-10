@@ -85,56 +85,56 @@ First Dataset
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/3.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
 
 Column Filter
 -------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 SQL
 ---
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/5.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 Second Dataset
 --------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/6.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 SQL
 ---
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/7.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 AllJoin - Join the two datasets
 -------------------------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 CastColumnType
 --------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/9.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 ImputingWithConstant
 --------------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/10.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 VectorAssembler
 ---------------
@@ -148,33 +148,33 @@ Split
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/12.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 LinearRegression
 ----------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/13.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
 Predict
 --------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/14.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
 
 Print N Rows
 -------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/15.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
 
 Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.png
    :alt: Fire Market Prediction
-   :width: 60%
+   :width: 80%
    
    

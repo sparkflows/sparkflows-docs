@@ -1,4 +1,4 @@
-Joining Multiple Datasets
+Retail Data Preparation
 =========================
 
 Fire Insights allows you to quickly do complex data preparation and ETL on Big Data.

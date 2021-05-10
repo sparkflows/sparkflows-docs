@@ -43,7 +43,82 @@ When the example workflow is executed, additional columns are produced for the v
 
 .. figure:: ../../_assets/tutorials/dataset/31.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 60%Reading from Dataset
+---------------------
+
+It reads sample Dataset File.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.png
+   :alt: Convert To Timestamps
+   :width: 100%
+   
+Processor Output
+^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.png
+   :alt: Convert To Timestamps
+   :width: 100%
+   
+Print the sample Dataset Results
+---------------------------------
+
+It prints the results of the sample dataset available.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.png
+   :alt: Convert To Timestamps
+   :width: 100%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.png
+   :alt: Convert To Timestamps
+   :width: 100%
+   
+Convert To Timestamps
+---------------------
+
+It converts To Timestamps using stringtodate Node.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.png
+   :alt: Convert To Timestamps
+   :width: 100% 
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.png
+   :alt: Convert To Timestamps
+   :width: 100%
+   
+Prints the Results
+------------------
+
+It prints the results after converting to Timestamps.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.png
+   :alt: Convert To Timestamps
+   :width: 100%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.png
+   :alt: Convert To Timestamps
+   :width: 100% 
 
 
 

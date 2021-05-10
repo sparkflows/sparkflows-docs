@@ -8,7 +8,7 @@ Fire Insights has a number of features for enabling it including:
 - Reading data from multiple sources 
 - Cleaning data
 - Joins, GroupBy, Cube, SQL etc. to transform data
-- CaseWhen and FlagOUtlier
+- CaseWhen and FlagOutlier
 - Writing results to various sinks
 
 Fire Insights also gives you detailed control over your Spark jobs with Repartition, Coalesce, Cache etc.

@@ -74,7 +74,7 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 60%
    
-Execute query for months
+Calculate sum of counts per month
 ------------------------
 
 It executes query for grouping and selecting required fields, calculates sum of counts by SQL Node.

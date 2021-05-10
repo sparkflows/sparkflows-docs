@@ -16,7 +16,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 70%
 
 Reading from Dataset
 ---------------------
@@ -28,14 +28,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2a.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
  
  
 Summary of transactions
@@ -48,14 +48,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Number of transaction per state
 -------------------------------
@@ -67,14 +67,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.png
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Prints the results
 ------------------
@@ -85,14 +85,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.PNG
    :alt: General Payment Data Analysis
-   :width: 60%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6a.PNG
    :alt: General Payment Data Analysis
-   :width: 60% 
+   :width: 90% 
 
 
 

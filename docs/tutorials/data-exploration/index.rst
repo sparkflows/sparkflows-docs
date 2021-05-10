@@ -6,4 +6,5 @@ Data Exploration
    :maxdepth: 2
    
    telco-churn-data-exploration.rst
+   data-profiling.rst
    

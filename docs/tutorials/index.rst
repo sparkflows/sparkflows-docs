@@ -7,6 +7,7 @@ Tutorials
 
    reading-writing/index.rst
    data-engineering/index.rst
+   data-engineeringII/index.rst
    data-exploration/index.rst
    analytics/index.rst
    data-science/index.rst

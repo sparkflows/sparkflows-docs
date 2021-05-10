@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/1.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 100%
    
 Reading CSV file
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/2.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/2a.png
    :alt: Distribution Graphs
-   :width: 60%    
+   :width: 80%    
    
 Distribution of data by Week
 ----------------------------
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/3.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/3a.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Distribution of data by Month
 -----------------------------
@@ -65,14 +65,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4a.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Distribution of data by Year
 ----------------------------
@@ -84,11 +84,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/5.png
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/5a.png
    :alt: Distribution Graphs
-   :width: 60%   
+   :width: 80%   

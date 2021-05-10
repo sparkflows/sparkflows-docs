@@ -62,7 +62,7 @@ It reads in streaming data from Kafka and creates a dataframe with one column co
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-2.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 80%
    
 FieldSplitter
 -------------
@@ -71,7 +71,7 @@ It splits each line on the separator - comma - and outputs a new DataFrame with 
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-3.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 80%
    
 StringToDate
 ------------
@@ -80,7 +80,7 @@ It converts the datetime column into new column of type 'Timestamp'.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-4.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 90%
 
 DateTimeFieldExtract
 ---------------------
@@ -89,7 +89,7 @@ It extracts the year, month, day of month and hour from the datetime_dt column.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-5.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 90%
    
    
 GraphGroupByColumn
@@ -99,7 +99,7 @@ Aggregates the data on the hour column, and displays it in a Graph.
 
 .. figure:: ../../_assets/tutorials/dataset/StreamingWorkflow-6.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 90%
 
 Executing the workflow
 ----------------------

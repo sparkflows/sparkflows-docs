@@ -1,24 +1,24 @@
-Read csv File
+Reading CSV File
 =================
 
-Fire Insights enable user to Read csv file.
+Fire Insights enable you to Read CSV files.
 
 Workflow
 --------
 
 Below is the workflow. It does the following:
 
-* Reads data from a csv file.
-* Print some sample result.
+* Reads data from a CSV file
+* Print a few records of the dataframe
 
 .. figure:: ../../_assets/user-guide/read-write/1_1.png
    :alt: readwrite
    :width: 60%
 
-Reading from csv File
+Reading from CSV File
 ---------------------
 
-It reads data from a csv file using Read csv processor.
+It reads data from a CSV file using Read CSV processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -37,4 +37,4 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the first few records
+It prints the first few records of the dataframe

@@ -11,7 +11,7 @@ Example 1: Calculate Average lotsize by number of bedrooms
 
     select bedrooms, avg(lotsize) as avg_lotsize from fire_temp_table group by bedrooms
 
-Example 2: Using a CASE statement to check conditions against column value
+Example 2: Using CASE statement to check conditions against column value
 ==========
 
 ::
@@ -46,11 +46,18 @@ Example 4: Using CAST statement to convert datatypes
      select cast(current_date as STRING) datetostring , cast ('2021' as int) stringtoint, cast('2021-01-01' as date) stringtodate 
      from fire_temp_table
 
-
-Example 5: Using Date Functions
+Example 5: Using Date functions
 =========
 
 ::
 
     select current_date as date, current_timestamp as timestamp, date_add(current_date , 5) as addtodate, 
     date_sub(current_date , 5) as subtractfromdate from fire_temp_table
+    
+Example 6: Using CONCATENATE function
+=========
+
+::
+
+    select  concat_ws('-','firstname,lastname) as ClientName from fire_temp_table
+

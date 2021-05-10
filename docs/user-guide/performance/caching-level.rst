@@ -8,9 +8,9 @@ Fire allows you to set the caching output of the Dataset of any Processor.
 When to use Caching
 -------------------
 
-In general the default Caching does not have to be changed.
+In general the default Caching does not have to be changed. It is MEMORY ONLY for Apache Spark.
 
-It is important to set Caching in the following scenarios:
+It is important to set it to MEMORY_AND_DISK in the following scenarios:
 
 * If the Dataset is going to be reused later. Below are some examples.
 
@@ -19,5 +19,5 @@ It is important to set Caching in the following scenarios:
   
 * A Dataset which is used in machine learning.
 
-* Whenever a Dataset computation is expensive (JOIN etc.), caching can help in case the executor fails, the blocks are evicted from memory.
+* Whenever a Dataset computation is expensive (JOIN etc.), MEMORY_AND_DISK caching level can help in case the executor fails.
 

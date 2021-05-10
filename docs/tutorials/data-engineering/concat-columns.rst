@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/1.PNG
    :alt: Concat Columns
-   :width: 90%
+   :width: 100%
    
 Reading from HDFS File
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/2.PNG
    :alt: Concat Columns
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/3.PNG
    :alt: Concat Columns
-   :width: 60%
+   :width: 100%
    
 Concating columns
 -----------------
@@ -49,11 +49,11 @@ Columns would get concatenated in same order defined in configuration like Name 
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/4.PNG
    :alt: Concat Columns
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/5.PNG
    :alt: Concat Columns
-   :width: 60%
+   :width: 100%

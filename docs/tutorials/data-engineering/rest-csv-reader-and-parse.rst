@@ -16,7 +16,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture1.PNG
    :alt: ReadandParse
-   :width: 90%
+   :width: 100%
    
 Reading from URL
 ---------------------
@@ -29,7 +29,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture2.PNG
    :alt: ReadandParse
-   :width: 60%
+   :width: 100%
 
   
 Processor Output
@@ -37,7 +37,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture3.PNG
    :alt: ReadandParse
-   :width: 60%   
+   :width: 100%   
    
 Prints the Records
 ------------------
@@ -55,14 +55,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture4.PNG
    :alt: ReadandParse
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture5.PNG
    :alt: ReadandParse
-   :width: 60%
+   :width: 100%
    
 Row Filter by Index
 -------------
@@ -75,17 +75,17 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture6.PNG
    :alt: ReadandParse
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture7.PNG
    :alt: ReadandParse
-   :width: 60%
+   :width: 100%
      
   
-Prints the Results
+Print the Results
 ------------------
 
 It prints the result onto the screen.

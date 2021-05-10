@@ -29,7 +29,6 @@ Features of Random Forest -
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_flow.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 
@@ -44,21 +43,18 @@ Follow workflow arrow
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/group_data.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 * **Feature Engineering**- Groups by data on key to create all statistical measures (min, max, mean, quartiles etc) as new feature
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 * **Feature Vector** - Merge multiple columns to form vector
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/feature_vector.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
    
 
@@ -80,12 +76,10 @@ Random Forest Regression
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
    
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression2.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%
 
 Model evaluation
@@ -95,5 +89,4 @@ Model evaluation
 
 .. figure:: ../../_assets/tutorials/machine-learning/earthquake_prediction/performance_matrix.png
    :alt: Stock Forecasting
-   :align: center
    :width: 100%

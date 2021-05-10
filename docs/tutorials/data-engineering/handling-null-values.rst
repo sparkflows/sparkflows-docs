@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/1.png
    :alt: Handling Null Values
-   :width: 90%
+   :width: 100%
    
 Reading from CSV File
 ---------------------
@@ -31,14 +31,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
    :alt: Handling Null Values
-   :width: 60%   
+   :width: 100%   
    
 Replacing null values
 ---------------------
@@ -50,14 +50,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3a.png
    :alt: Handling Null Values
-   :width: 60%   
+   :width: 100%   
    
 Converting to 0/1 using StringIndexer
 ---------------------
@@ -69,14 +69,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
    
 
 Converting to 0/1 using CaseWhen
@@ -89,14 +89,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5a.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
    
 
 Converting to 0/1 using FindAndReplaceUsingRegex
@@ -110,13 +110,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6a.png
    :alt: Handling Null Values
-   :width: 60%
+   :width: 100%
    
 

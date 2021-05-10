@@ -1,9 +1,9 @@
 Python Examples in Fire
 ----------------------
 
-Fire provides a python processer in which Python code can be written.
+Fire provides a Pyspark processer in which Python code can be written. The Pyspark processor can only be written in a Pyspark workflow.
 
-Below are a few code examples in Scala.
+Below are a few code examples in Python.
 
 Adding house_type field
 ======================================

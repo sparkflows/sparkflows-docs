@@ -15,7 +15,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
    :alt: Convert To Timestamps
-   :width: 90%
+   :width: 100%
    
 Reading from Dataset
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 100%
    
 Prints the sample Dataset Results
 ---------------------------------
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.png
    :alt: Convert To Timestamps
-   :width: 60% 
+   :width: 100%
    
 Convert To Timestamps
 ---------------------
@@ -65,14 +65,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.png
    :alt: Convert To Timestamps
-   :width: 60% 
+   :width: 100% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 100%
    
 Prints the Results
 ------------------
@@ -85,14 +85,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 100%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.png
    :alt: Convert To Timestamps
-   :width: 60% 
+   :width: 100% 
 
 
 

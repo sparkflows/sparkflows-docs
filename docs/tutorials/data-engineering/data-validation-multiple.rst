@@ -24,7 +24,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture1.PNG
    :alt: Data Validation Multiple
-   :width: 90%
+   :width: 100%
    
 Reading from CSV File
 ---------------------
@@ -36,7 +36,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture2.PNG
    :alt: Data Validation Multiple
-   :width: 60%
+   :width: 100%
    
    
 Processor Output
@@ -44,7 +44,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture3.PNG
    :alt: Data Validation Multiple
-   :width: 60%
+   :width: 100%
 
 String Functions
 ----------------
@@ -55,14 +55,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture4.PNG
    :alt: Data Validation Multiple
-   :width: 60%
+   :width: 100%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture5.PNG
    :alt: Data Validation Multiple
-   :width: 60%
+   :width: 100%
    
 
 Performing Validation
@@ -75,7 +75,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture6.PNG
    :alt: Data Validation Multiple
-   :width: 60%   
+   :width: 100%   
 
    
 Processor Output
@@ -83,7 +83,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture7.PNG
    :alt: Data Validation Multiple
-   :width: 60%   
+   :width: 100% 
 
 Prints the Valid Records
 ------------------
@@ -93,7 +93,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture8.PNG
    :alt: Data Validation Multiple
-   :width: 60%   
+   :width: 100%  
 
 
 Prints the Invalid Records
@@ -104,5 +104,5 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture9.PNG
    :alt: Data Validation Multiple
-   :width: 60%   
+   :width: 100%  
 

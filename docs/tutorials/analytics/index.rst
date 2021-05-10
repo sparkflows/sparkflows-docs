@@ -5,7 +5,6 @@ Analytics
    :maxdepth: 1
 
    analyze-flights-delays.rst
-   distribution-graphs.rst
    farmers-markets-on-geo-maps.rst
    general-payment-data-analysis.rst
    jetrail-data-annalysis.rst

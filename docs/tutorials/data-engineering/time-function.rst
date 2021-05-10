@@ -10,9 +10,9 @@ Dataset
 
 Let us take a Transaction Dataset which is in CSV format on HDFS. The dataset has a "DATE" column.
 
-.. figure:: ../../_assets/tutorials/dataset/28.PNG
-   :alt: Dataset
-   :width: 60%
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
+   :alt: Convert To Timestamps
+   :width: 100%
    
 Workflow for applying TimeFunctions
 -----------------------------------

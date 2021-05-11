@@ -21,7 +21,7 @@ Below is the workflow for creating a model for Churn Prediction.
    
 The workflow performs the following steps:
 
-- Reads the dataset from a tab separated file.
+- Reads in the dataset from a tab separated file.
 - Applies StringIndexer on the field "intl_plan".
 - Applies VectorAssembler on the fields we want to model on.
 - Splits the dataset into (.8, .2).

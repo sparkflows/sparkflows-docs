@@ -3,7 +3,7 @@ Telco Churn Prediction
 
 Fire Insights enable us to create a Random Forest Model to predict churn and evaluate the results.
 
-The dataset is artificial Churn Data based on claims, similar to real world. It is taken from the following location. 
+The dataset is artificial Churn Data based on claims, similar to the real world. It is taken from the following locations. 
 
 - https://www.sgi.com/tech/mlc/db/
 - https://www.sgi.com/tech/mlc/db/churn.all

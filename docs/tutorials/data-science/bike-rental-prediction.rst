@@ -98,10 +98,10 @@ Processor Output
    :alt: Bike Rental Prediction
    :width: 100%
 
-Calculate vectorindexer
+Calculate VectorIndexer
 -----------------------
 
-It identifies categorical features and index them using vectorindexer Node. 
+It identifies categorical features and index them using VectorIndexer Node. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

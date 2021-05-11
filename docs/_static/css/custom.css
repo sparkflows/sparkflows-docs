@@ -209,9 +209,9 @@ h6 {
     
 }
 .rst-content img {
-    border: 2px solid #5050506b;
-    padding: 10px;
-    background-color: #00000063;
+    border: 1px solid #5050506b;
+    /* padding: 10px;
+    background-color: #00000063; */
     border-radius: 10px;
 }
 .current .toctree-l2 {

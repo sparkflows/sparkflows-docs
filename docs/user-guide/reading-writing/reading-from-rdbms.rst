@@ -24,7 +24,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 
 .. figure:: ../../_assets/user-guide/JDBCNodeConfiguraton.png
    :alt: JDBC Processor Dialog
-   :width: 60%
+   :width: 80%
    
 Results of reading from MySQL table
 ------------------------------------
@@ -33,7 +33,7 @@ The below screenshot displays schema of the table from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
    :alt: JDBC Get Schema
-   :width: 60%
+   :width: 80%
 
 Specifying a sub-query
 ----------------------
@@ -48,7 +48,7 @@ Exucute the processor shows the records read from MySQL table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC.png
    :alt: JDBC Result Output
-   :width: 60%
+   :width: 80%
    
 
 JDBC Drivers

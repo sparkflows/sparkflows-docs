@@ -19,6 +19,7 @@ Open the project where you want to create your new workflow.
 
 .. figure:: ../../_assets/tutorials/quickstart/8.PNG
    :alt: Quicstart
+   :width: 90%
 
 
 
@@ -28,6 +29,7 @@ Click "Workflows" tab to view the list of workflows already in the project. The 
 
 .. figure:: ../../_assets/tutorials/quickstart/7.PNG
    :alt: Quicstart
+   :width: 90%
 
 
 Create Empty Workflow
@@ -45,6 +47,7 @@ After you have saved the empty workflow, you can start adding processors to proc
 
 .. figure:: ../../_assets/tutorials/quickstart/9.PNG
    :alt: Quickstart
+   :width: 90%
 
 
 

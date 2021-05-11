@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/15.PNG
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Reading from json File
 ---------------------
@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/16.PNG
    :alt: readwrite
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/17.PNG
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Prints the Results
 ------------------

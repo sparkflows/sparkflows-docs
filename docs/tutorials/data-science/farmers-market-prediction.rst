@@ -1,9 +1,9 @@
 Farmers Market Prediction
 =========================
 
-It demonstrate to predict "the number of farmer's markets in a given zip code” based on the income and taxes paid in a given area using the past data.It seems plausible that areas with higher income have more farmer's markets simply because there is more of a market for those goods. Of course there are many potential holes in this idea, but that's part of the desire to test it.
+It demonstrates to predict "the number of farmer's markets in a given zip code” based on the income and taxes paid in a given area using the past data. It seems plausible that areas with higher income have more farmer's markets simply because there is more of a market for those goods. Of course there are many potential holes in this idea, but that's the part of the desire to test it.
 
-DataBricks has published a clean approach to build this use case. It feature a Python notebook that demonstrates how to create ML Pipeline to preprocess a dataset, train a Machine Learning model, and make predictions.
+DataBricks has published a clean approach to build this use case. It features a Python notebook that demonstrates how to create ML Pipeline to preprocess a dataset, train a Machine Learning model and make predictions.
 
 Using Fire Insights visual designer, you can try to execute this approach visually and declaratively. This note speaks to that.
 

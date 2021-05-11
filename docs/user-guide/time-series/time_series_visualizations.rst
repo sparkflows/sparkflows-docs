@@ -29,7 +29,7 @@ Below is the sample workflows which contains ``Time Series data`` and visualize 
 
 .. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 Configurations for visualization processors in Fire Insight:
 * Set number of columns want to represent on y axis with respect to x axis
@@ -37,13 +37,13 @@ Configurations for visualization processors in Fire Insight:
 
 .. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 Output result of ``Visualization`` processor:
 
 .. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 Charts : BarChart
 ==================
@@ -51,11 +51,11 @@ Charts : BarChart
 
 .. figure:: ../../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
    
 Charts : Scatter
 ==================
 
 .. figure:: ../../_assets/ml_userguide/scater_graph.png
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%

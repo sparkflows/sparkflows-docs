@@ -1,7 +1,7 @@
 Bike Rental Prediction
 ======================
 
-This workflow reads in a dataset.It then Predicts the number of bikes to be rented in any given hour.
+This workflow reads in a dataset. It then predicts the number of bikes to be rented in any given hour.
 
 Workflow
 -------

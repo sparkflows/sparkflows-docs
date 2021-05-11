@@ -7,7 +7,7 @@ Run Stage
 
    .. figure:: ../../../_assets/web-app/add-stage-run-title.PNG
       :alt: web-app
-      :width: 60%
+      :width: 80%
    
 
 -  Now, let's add column component in the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
@@ -18,12 +18,12 @@ Run Stage
 
    .. figure:: ../../../_assets/web-app/add-stage-run-runbtn.PNG
       :alt: web-app
-      :width: 60%
+      :width: 80%
    
 
    .. figure:: ../../../_assets/web-app/add-stage-run-buttons.PNG
       :alt: web-app
-      :width: 60%
+      :width: 80%
    
 
 Click on "DONE" or "SAVE" to save added components for that stage

@@ -25,7 +25,7 @@ Go to Custom Processors
 
 Once you login to Fire Insights application, there is ``PROCESSORS`` menu in top, select Custom Processors.
 
-.. figure:: ../_assets/developer-guide/custom_processors.PNG
+.. figure:: ../_assets/developer-guide/custom_processor.PNG
    :alt: Custom Processor
    :width: 60%
 
@@ -35,14 +35,13 @@ Click on CREATE PROCESSORS
 Click on ``CREATE PROCESSORS`` to start creating the new processor.
 
 
-.. figure:: ../_assets/developer-guide/create_processors.PNG
+.. figure:: ../_assets/developer-guide/create_processor.PNG
    :alt: Custom Processor
    :width: 60%
    
    
-.. figure:: ../_assets/developer-guide/processors_creation.PNG
+.. figure:: ../_assets/developer-guide/processor_creation.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%   
    
 It would open up the Create Processor Page as below.
@@ -53,7 +52,6 @@ Then provide details for the various fields of the new processors. These fields 
 
 .. figure:: ../_assets/developer-guide/processor_editor.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
 
 Click on the ``+`` sign to add a new field. For each field provide the following:
@@ -66,7 +64,6 @@ Click on the ``+`` sign to add a new field. For each field provide the following
 
 .. figure:: ../_assets/developer-guide/fields.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
   
   
@@ -83,7 +80,6 @@ It shows the default template which you can update for scorecardpy.
   
 .. figure:: ../_assets/developer-guide/code.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60% 
   
 Then click on ``Next`` button to go to the Schema tab.
@@ -97,7 +93,6 @@ It displays the default template code which you can update.
   
 .. figure:: ../_assets/developer-guide/schema.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
   
 Finally click on the ``Submit`` button to finish creating the new custom processor.
@@ -106,7 +101,6 @@ Once the custom processor submitted successfully, it will be vissible in ``Custo
 
 .. figure:: ../_assets/configuration/customprocess-list.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
 
 Using the new Processor
@@ -116,11 +110,9 @@ The processor is now available in the Workflow Editor.
 
 .. figure:: ../_assets/configuration/scorecard_binning.PNG
    :alt: Custom Processor
-   :align: center
    :width: 60%
    
 You can click on the custom processor to start using it in your workflow & submit the job.
 
 .. figure:: ../_assets/configuration/scorecard-bin-submit.PNG
-   :align: center
    :width: 60%

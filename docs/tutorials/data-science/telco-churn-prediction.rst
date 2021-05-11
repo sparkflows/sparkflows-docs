@@ -51,7 +51,7 @@ You can split the dataset into training and test datasets. We split it into (.8,
    :alt: Machine Learning
    :width: 80%
 
-Random Forest Classifier
+RandomForestClassifier
 ++++++++++++++++++++++++
 
 You can use a RandomForestClassifier for predicting churn. We use 20 trees.

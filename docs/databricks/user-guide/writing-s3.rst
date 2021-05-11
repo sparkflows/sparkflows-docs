@@ -17,16 +17,16 @@ Browse S3 specified Path & other parameter for processor SaveCSV
 
 .. figure:: ../../_assets/aws/configuration-csvs3.PNG
    :alt: S3 Workflow
-   :width: 60%
+   :width: 80%
 
 Execution Result
 
 .. figure:: ../../_assets/aws/saveexecution.PNG
    :alt: S3 Workflow
-   :width: 60%
+   :width: 80%
 
 Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3`` Location with specified path
 
 .. figure:: ../../_assets/aws/browses3.PNG
    :alt: S3 Workflow
-   :width: 60%
+   :width: 80%

@@ -44,7 +44,7 @@ Processor Output
 Extract hour from time using datatype timestamp
 ------------------------------------------------
 
-It Extracts hour from time using datatype timestamp using DateTimeFieldExtract Node.
+It extracts hour from time using datatype timestamp using DateTimeFieldExtract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

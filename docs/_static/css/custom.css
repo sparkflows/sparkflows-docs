@@ -211,6 +211,9 @@ h6 {
     background-color: #00000063; */
     border-radius: 10px;
 }
+.rst-content .copybtn img{
+    border: none;
+}
 .current .toctree-l2 {
     background-color: black;
 }

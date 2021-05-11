@@ -18,7 +18,7 @@ When you go to ANALYTICS APPS under APPLICATIONS all existing analytics app are 
 
   .. figure:: ../../_assets/web-app/list.PNG
       :alt: web-app
-      :width: 60%
+      :width: 90%
 
 
 Click on Create Analytics App
@@ -33,7 +33,7 @@ Fill in the required fields as below.
 
   .. figure:: ../../_assets/web-app/create.PNG
       :alt: web-app
-      :width: 60%
+      :width: 90%
 
 
 "Save" or "Publish" the analytics app before adding stages.

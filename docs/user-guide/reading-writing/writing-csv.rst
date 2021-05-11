@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/4.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Reading from csv File
 ---------------------
@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/8.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/9.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Save csv file
 ----------------
@@ -49,10 +49,10 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/5.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
    
 Once the workflow executed successfully the csv file will be saved to specified location
 
 .. figure:: ../../_assets/user-guide/read-write/6.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%

@@ -81,7 +81,7 @@ You can evaluate the quality of our results.
 Execute Workflow
 ----------------
 
-Next, You can execute the workflow. 
+Next, you can execute the workflow. 
    
 From the evaluator You get the following results:
 

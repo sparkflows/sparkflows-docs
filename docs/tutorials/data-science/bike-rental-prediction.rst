@@ -63,7 +63,7 @@ Processor Output
 Calculate Count to datatype double
 -----------------------------------
 
-It Calculates cast the Count field to datatype double using CastColumnType Node.
+It calculates the Cast Count field to datatype double using CastColumnType Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

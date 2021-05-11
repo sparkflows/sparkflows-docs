@@ -120,7 +120,7 @@ Processor Output
 Split it
 ---------
 
-It will split our dataset into seperate training and test sets using split Node.
+It will split our dataset into separate training and test sets using Split Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

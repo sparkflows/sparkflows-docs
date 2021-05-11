@@ -21,13 +21,13 @@ Below is the workflow for creating a model for Churn Prediction.
    
 The workflow performs the following steps:
 
-- Reads in the dataset from a tab separated file
-- Applies StringIndexer on the field "intl_plan"
-- Applies VectorAssembler on the fields we want to model on
-- Splits the dataset into (.8, .2)
-- Performs Random Forest Classification
-- Performs prediction using the model generated on the remaining 20% dataset
-- Finally evaluates the prediction results
+- Reads the dataset from a tab separated file.
+- Applies StringIndexer on the field "intl_plan".
+- Applies VectorAssembler on the fields we want to model on.
+- Splits the dataset into (.8, .2).
+- Performs Random Forest Classification.
+- Performs prediction using the model generated on the remaining 20% dataset.
+- Finally evaluates the prediction results.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning

@@ -82,7 +82,7 @@ Processor Output
 Assemble features for modelling
 ---------------------------------
 
-It Assembles features columns into a feature vector using VectorAssembler Node.
+It assembles features columns into a feature vector using VectorAssembler Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

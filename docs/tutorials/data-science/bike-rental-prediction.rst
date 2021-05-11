@@ -10,7 +10,7 @@ Below is the workflow. It does the following:
 
 * Reads data from a sample dataset.
 * Extracts hour from time using datatype timestamp.
-* Calculates Cost Count to datatype double.
+* Calculates Count to datatype double.
 * Assembles features for modelling.
 * Calculates vectorindexer.
 * Splits it.

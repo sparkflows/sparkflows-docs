@@ -32,7 +32,7 @@ Workflow
 
 .. figure:: ../../_assets/configuration/workflow-read-s3.PNG
    :alt: Databricks
-   :width: 60%
+   :width: 80%
 
 
 
@@ -41,7 +41,7 @@ Browse S3 Path and Refresh schema for processor ReadCSV
  
 .. figure:: ../../_assets/configuration/workflow-browse-s3.PNG
    :alt: Databricks
-   :width: 60% 
+   :width: 80% 
 
 
 Workflow executions Results
@@ -49,7 +49,7 @@ Workflow executions Results
 
 .. figure:: ../../_assets/configuration/workflow-executions-s3.PNG
    :alt: Databricks
-   :width: 60%
+   :width: 80%
 
 
 

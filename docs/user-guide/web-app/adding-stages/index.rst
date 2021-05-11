@@ -3,9 +3,9 @@ Adding Stages
 
 Click on "Add stages" button to add a new stage. Select stage type and enter the stage name.
 
-  .. figure:: ../../_assets/web-app/add-stage.PNG
+  .. figure:: ../../../_assets/web-app/add-stage.PNG
       :alt: web-app
-      :width: 60%
+      :width: 80%
 
 
 - You can rearrange the stages by dragging and dropping. 

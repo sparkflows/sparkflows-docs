@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/7.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Reading from parquet File
 ---------------------
@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/8.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/9.png
    :alt: readwrite
-   :width: 60%
+   :width: 80%
 
 Prints the Results
 ------------------

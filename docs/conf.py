@@ -40,6 +40,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
@@ -114,7 +115,8 @@ html_static_path = ['_static']
 # }
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
+    # app.add_stylesheet('css/custom.css')
+    app.add_css_file('css/custom.css')
 
 html_logo = '_assets/logo.png';
 # Custom sidebar templates, must be a dictionary that maps document names

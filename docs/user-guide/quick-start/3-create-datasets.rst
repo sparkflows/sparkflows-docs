@@ -16,13 +16,13 @@ When you open your project, all existing datasets specific to the project are di
  
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
 
 Click on "Create" and choose "Dataset" from the dropdown. 
  
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
 
 In the pop-up choose “CSV” and then click “OK”.
  
@@ -39,7 +39,7 @@ Fill in the required fields as below.
  
 .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
  
 
 Now click on "Update dataset/schema" to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
@@ -49,7 +49,7 @@ Can view file after browse on clicking view file button next to browse.
  
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
    
 
 If the data file did not have a header row, Fire Insights will give standard column names of "C0, C1" etc.
@@ -58,7 +58,7 @@ You can update the column names in the schema based on your data.
  
 .. figure:: ../../_assets/tutorials/dataset/4.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
   
 
 Now click "Save' to save the new dataset and you are ready to use it in your workflows.

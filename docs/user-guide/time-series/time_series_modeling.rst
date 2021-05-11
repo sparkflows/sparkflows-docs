@@ -43,19 +43,19 @@ It reads the AirPassengers dataset & use Prophet processor which forecasting of 
 
 .. figure:: ../../_assets/ml_userguide/prophet.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 Prophet processor Configuration:
 
 .. figure:: ../../_assets/ml_userguide/prophet_processor.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
    
 Output result of ``Prophet`` processor:  
 
 .. figure:: ../../_assets/ml_userguide/prophet_result.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 ARIMA
 =====
@@ -83,19 +83,19 @@ It reads the AirPassengers dataset & use ARIMA processor which Forecast the airl
 
 .. figure:: ../../_assets/ml_userguide/arima.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
    
 ARIMA processor Configuration:
 
 .. figure:: ../../_assets/ml_userguide/arima_processor.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
    
 Output result of ``ARIMA`` processor:     
 
 .. figure:: ../../_assets/ml_userguide/arima_result.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 H2OXGBoost
 ==========
@@ -106,28 +106,28 @@ It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learn
 
 .. figure:: ../../_assets/ml_userguide/xgboost.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 H2OXGBoost processor Configuration:
 
 .. figure:: ../../_assets/ml_userguide/xgboost_config.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 H2OMojoSave processor Configuration:
 
 .. figure:: ../../_assets/ml_userguide/model_save.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 90%
 
 On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
 
 .. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 100%
 
 .. figure:: ../../_assets/ml_userguide/modellocation.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 100%
 
 

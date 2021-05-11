@@ -83,7 +83,7 @@ Execute Workflow
 
 Next, you can execute the workflow. 
    
-From the evaluator You get the following results:
+From the evaluator, you get the following results:
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/4.PNG
    :alt: Machine Learning

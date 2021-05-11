@@ -7,7 +7,7 @@ NoveModelSave saves the Spark ML models as files. It uses the Spark interfaces t
 
 .. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
-   :width: 30%
+   :width: 80%
 
 Once the SparkML model is saved, they can be loaded and used in scoring. Fire Insights enables saving both Spark ML models and pipelines.
 
@@ -18,7 +18,7 @@ By using NodeModelLoad & selecting the particular type of model to be loaded, th
 
 .. figure:: ../../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
-   :width: 30%
+   :width: 80%
 
 Online Scoring with Kafka and Spark Streaming:
 ---------------------------------------------

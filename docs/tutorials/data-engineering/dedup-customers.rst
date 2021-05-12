@@ -88,7 +88,7 @@ Entity Resolution or Data Matching is the problem of finding and linking differe
    :width: 100%
    
 
-Print the Results
+Prints the Result
 ------------------
 
 It prints the first few records onto the screen.

@@ -1,24 +1,24 @@
-Writing to csv File
+Writing to CSV File
 ==========
 
-Fire Insights enables user to write csv file
+Fire Insights enables user to write CSV files
 
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The below workflow does the following:
 
-* Reads data from a csv file.
-* save csv to specified location.
+* Reads data from a CSV file.
+* Save CSV to specified location.
 
 .. figure:: ../../_assets/user-guide/read-write/4.png
    :alt: readwrite
    :width: 60%
 
-Reading from csv File
+Reading from CSV File
 ---------------------
 
-It reads data from a csv file using Read csv processor.
+It reads data from a CSV File using Read CSV Processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -34,14 +34,14 @@ Processor Output
    :alt: readwrite
    :width: 80%
 
-Save csv file
+Save CSV File
 ----------------
 
-It save csv file in specified location, use below field for csv file
+It saves CSV Files in specified location. Use the below field for CSV File
 
 
-* PATH : Select specified path of csv file to be saved
-* SEPERATOR : CSV separtor
+* PATH : Select specified path of CSV File to be saved
+* SEPERATOR : CSV separator
 * HEADER : True or false depending on file type
 
 Processor Configuration
@@ -51,7 +51,7 @@ Processor Configuration
    :alt: readwrite
    :width: 80%
    
-Once the workflow executed successfully the csv file will be saved to specified location
+Once the workflow is executed successfully, the CSV File will be saved to specified location
 
 .. figure:: ../../_assets/user-guide/read-write/6.png
    :alt: readwrite

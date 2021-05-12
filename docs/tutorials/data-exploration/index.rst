@@ -8,3 +8,4 @@ Data Exploration
    telco-churn-data-exploration.rst
    data-profiling.rst
    distribution-graphs.rst   
+   profiling-correlation.rst

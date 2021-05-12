@@ -26,7 +26,6 @@ Data Preparation I
    data-validation.rst
    data-validation-multiple.rst
    data-wrangling.rst
-   profiling-correlation.rst
    cdc-1.rst
    
       

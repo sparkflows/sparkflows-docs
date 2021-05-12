@@ -18,7 +18,7 @@ Below is an example of  workflow which reads in transaction data. It then writes
 DatasetStructured Processor
 --------------------------
    
-Node ``DatasetStructured`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
+Node ``DatasetStructured`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset Feature.
 
 As a user you have to select the Dataset of your interest as shown below.
 

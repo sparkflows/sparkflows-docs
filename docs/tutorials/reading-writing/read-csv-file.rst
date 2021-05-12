@@ -22,8 +22,8 @@ It reads data from a CSV file using Read CSV processor.
 
 * PATH : Path of csv file
 * SEPARATOR : CSV separtor
-* HEADER : True or false depending on file type
-* DROP MALFORMED : true or false depending on requirements
+* HEADER : Whether the CSV file has a header line
+* DROP MALFORMED : Whether malformed records would be dropped or an error raised
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

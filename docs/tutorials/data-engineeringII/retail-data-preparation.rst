@@ -18,7 +18,7 @@ Overview
 
 In this example, we start with 3 datasets, read them in & understand their schema in the process, perform data cleaning and then apply appropriate aggregations and joins.
 
-The cleansed and tranformed datasets are written to HDFS as CSV files. These dataset can as well we written as Parquet, Avro, JSON, XML files or to HIVE/Relational tables as needed.
+The cleansed and tranformed datasets are written to HDFS as CSV files.
 
 Datasets
 --------
@@ -71,7 +71,8 @@ The fact data is then joined with various dimension data. These include:
 
 CaseWhen Statement
 ------------------
-Added condition for below parameter
+
+Use the CaseWhen node for processing the IsHoliday column
 
 * WHENCONDITION IS : IsHoliday  == 'TRUE' Value is 0 ELSE Value is 1
 

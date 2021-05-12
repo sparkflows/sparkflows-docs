@@ -25,7 +25,7 @@ Execution Result
    :alt: S3 Workflow
    :width: 100%
 
-Once the above workflow successfully completed, the saved data can be viewed using ``DATABROWSERS/AWS S3`` Location with the specified path
+Once the above workflow successfully completed, the saved data can be viewed using ``DATA/AWS S3`` Location with the specified path
 
 .. figure:: ../../_assets/aws/browse_s3.PNG
    :alt: S3 Workflow

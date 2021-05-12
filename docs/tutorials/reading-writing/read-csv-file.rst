@@ -1,7 +1,7 @@
 Reading CSV File
 =================
 
-Fire Insights enable you to Read CSV files.
+Fire Insights enables you to Read CSV files.
 
 Workflow
 --------
@@ -18,10 +18,10 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file using Read CSV processor, use below field for csv file
+It reads data from a CSV file using Read CSV processor.
 
-* PATH : Select specified path of csv file
-* SEPERATOR : CSV separtor
+* PATH : Path of csv file
+* SEPARATOR : CSV separtor
 * HEADER : True or false depending on file type
 * DROP MALFORMED : true or false depending on requirements
 

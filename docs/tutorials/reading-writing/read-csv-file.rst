@@ -6,7 +6,7 @@ Fire Insights enables you to Read CSV files.
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The below workflow does the following:
 
 * Reads data from a CSV file
 * Prints a few records of the dataframe
@@ -18,7 +18,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file using Read CSV processor.
+It reads data from a CSV File using Read CSV processor.
 
 * PATH : Path of csv file
 * SEPARATOR : CSV separator

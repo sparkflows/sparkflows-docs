@@ -11,7 +11,7 @@ As the DataBricks link highlights:
 
 - The first of the two datasets that you can work on is the Farmer's Markets Directory and Geographic Data. This dataset contains information on the longitude and latitude, state, address, name, and zip code of the Farmer's Markets in the United States. The raw data is published by the Department of Agriculture. The version of the data that is found in Databricks (and is used in this tutorial) was updated by the Department of Agriculture on Dec 01, 2015.
 
-- The second you can work on is the SOI Tax Stats - Individual Income Tax Statistics - ZIP Code Data (SOI). This study provides detailed tabulations of individual income tax return data at the state and ZIP code level and is provided by the IRS. This repository only has a sample of the data of 2013 and includes "AGI". The ZIP Code data shows selected income and tax items classified by State, ZIP Code, and size of the adjusted gross income. The Data is based on individual income tax returns filed with the IRS and are available for Tax Years 1998, 2001, 2004 through 2013. The data includes items, such as:
+- The second you can work on is the SOI Tax Stats - Individual Income Tax Statistics - ZIP Code Data (SOI). This study provides detailed tabulations of individual income tax return data at the state and zip code level and is provided by the IRS. This repository only has a sample of the data of 2013 and includes "AGI". The ZIP Code data shows selected income and tax items classified by state, zip code, and size of the adjusted gross income. The Data is based on individual income tax returns filed with the IRS and are available for Tax Years 1998, 2001, 2004 through 2013. The data includes items, such as:
 
    - Number of returns, which approximates the number of households
    - Number of personal exemptions, which approximates the population
@@ -35,12 +35,12 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
    
 This workflow consists of the following steps:
 
-- Using the DatasetStructured Nodes: Read in the data from 2 different datasets - Farmers_Markets and Income Tax Return Data per Zip Code (both comma separated files:
+- Using the DatasetStructured Node: Read in the data from 2 different datasets - Farmer's Markets and Income Tax Return data per zip code (both are comma separated files):
 - Instead of a CSV, one can easily read it from a data-lake or a Persistence Store (HDFS/RDBMS/NoSQL).
-- Using the ColumnFilter node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so we can do further computation.
+- Using the ColumnFilter Node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so that we can do further computation.
   
   - State
-  - Zipcode
+  - Zip code
   - MARS1 - Single Returns
   - MARS2 - Joint Returns
   - NUMDEP - Number of Dependents

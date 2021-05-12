@@ -41,7 +41,7 @@ The below screenshot displays schema of the table from the MySQL table by Fire.
 Specifying a Sub-Query
 ----------------------
 
-In the configuration of the JDBC node, for ``DB TABLE`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery.
+In the configuration of the JDBC node for ``DB TABLE``, anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery.
 
  
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases

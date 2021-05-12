@@ -23,7 +23,7 @@ Below is a workflow which reads data from MySQL and reads the result from ``Prin
 JDBC Processor Configuration
 ----------------------------
 
-Below are the configuration details of the JDBC Processor. It uses the provided user for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table in MySQL and populates the entries.
+Below are the configuration details of the JDBC Processor. It uses the provided user credentials for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table from MySQL and populates the entries.
 
 .. figure:: ../../_assets/user-guide/JDBCNodeConfiguraton.png
    :alt: JDBC Processor Dialog

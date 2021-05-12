@@ -19,6 +19,13 @@ https://docs.databricks.com/spark/latest/spark-sql/language-manual/create-table.
 Below are example of running DDL
 --------------------------------
 
+Creating Database
++++++++++++++++++
+
+* DDL Statement::
+
+    CREATE DATABASE finance; 
+    
 Creating Table
 ++++++++++++++
 

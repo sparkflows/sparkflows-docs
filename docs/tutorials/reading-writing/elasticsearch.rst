@@ -54,7 +54,7 @@ The screenshot below shows the dialog box for the Elastic Search Read Processor.
 
 .. figure:: ../../_assets/tutorials/dataset/22_a.PNG
    :alt: Dataset
-   :width: 60%  
+   :width: 90%  
  
  
 In the dialog above, 'Refresh Schema' button infers the schema of the index. Thus it is able to pass down the output schema to the next processor making it easy to build workflows.

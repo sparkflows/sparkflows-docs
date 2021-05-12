@@ -24,7 +24,7 @@ Reading And Parsing PDF File
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/2.PNG
    :alt: ReadandParse
    :width: 90%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/3.PNG
    :alt: ReadandParse
    :width: 90%   
    

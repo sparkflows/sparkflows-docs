@@ -19,7 +19,7 @@ In the above workflow:
 
 - The 'CSV' processor reads in the CSV data from HDFS.
 - The 'StringToDate' Processor converts the column Date, which is in string format to 'Timestamp'. 
-- The 'TimeFunctions' Processor takes in the Timestamp Column and then applies various "TimeTunctions" to it to generate additional output columns.
+- The 'TimeFunctions' Processor takes in the Timestamp Column and then applies various "TimeFunctions" to it to generate additional output columns.
 
 Reading from Dataset
 ---------------------

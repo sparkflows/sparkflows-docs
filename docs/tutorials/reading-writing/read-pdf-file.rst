@@ -11,7 +11,7 @@ The below workflow shows:
 * How to read in PDF file from the given location and create the DataFrame from it
 * Prints the result
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/PdfFlow.png
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
    :alt: ReadandParse
    :width: 90%
    
@@ -24,7 +24,7 @@ Reading And Parsing PDF File
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/PDFProcessorConfic.png
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
    :alt: ReadandParse
    :width: 90%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/PDFResult.png
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
    :alt: ReadandParse
    :width: 90%   
    

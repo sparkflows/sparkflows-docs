@@ -10,6 +10,7 @@ Click on "Add stages" button to add a new stage. Select stage type and enter the
 
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW and REMOVE stages.
+- Can also RENAME the stage name.
 
 Below are examples for adding various Stages
 

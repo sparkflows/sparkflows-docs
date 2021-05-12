@@ -20,14 +20,14 @@ As the DataBricks link highlights:
    - Dividends before exclusion
    - Interest received
 
-Below is an overview of the workflow, you can create using the Fire Insights Visual Designer.
+Below is an overview of the workflow that you can create using the Fire Insights Visual Designer.
 
-This workflow was simply created via the drag and drop capabilities of the Fire Insightss Designer UI. This ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. The benefits include:
+This workflow was simply created via the drag and drop capabilities of the Fire Insights Designer UI. The ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. The benefits include:
 
 - It opens up the power of ETL and ML (such pre-packaged functionality is available as a catalog of "Nodes") to a wider audience of analysts and semi-technical resources.
 - The actual execution can either be local (testing) or can be submitted to a Apache Spark cluster.
 - You can see during the adoption that a single workbench improves collaborative iteration across data engineers, data scientists and analysts, which in turn accelerates time-to-market.
-- As one might observe, the visual approach doubles up as workflow documentation and hence contributes to solving the data-lineage problem.
+- As one might observe, the visual approach doubles up as workflow documentation and hence contributes in the solving of the data-lineage problem.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/1.png
    :alt: Fire Market Prediction

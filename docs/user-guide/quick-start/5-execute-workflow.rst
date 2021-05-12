@@ -5,10 +5,10 @@ After you have created a workflow, it is time to execute it and view the results
 
 Executing a workflow involves the following steps:
 
-- *Go to Project page where you want to execute the workflow*
+- *Go to the Project page where you want to execute the workflow*
 - *Click "Workflows" tab*
 - *Click on the play button*
-- *Specify parameter(if any)*
+- *Specify the parameter(if any)*
 - *Click on Execute*
 
 Project page
@@ -26,7 +26,7 @@ Open the project where you have created the workflow to be executed.
 
 Workflows 
 ============================
-Click "Workflows" tab to view the list of workflows in the project. 
+Click the "Workflows" tab to view the list of workflows in the project. 
 
 .. figure:: ../../_assets/tutorials/quickstart/7.PNG
    :alt: Workflow Listings
@@ -37,9 +37,9 @@ Click "Workflows" tab to view the list of workflows in the project.
 Click on the Play Button
 ========================
 
-Against each workflow there are a list of icons under "Actions" column for performing various actions on a specific workflow.
+Against each workflow, there is a list of icons under the "Actions" column for performing various actions on a specific workflow.
 
-Click "Play" icon under "Actions" column to execute the workflow.
+Click the "Play" icon under the "Actions" column to execute the workflow.
 
 
 Execute workflow page
@@ -55,7 +55,7 @@ Specify any paramters for your workflow.
 Execute Workflow
 ================
 
-Once you have specified the parameters, click on "Execute" button. The results of execution are streamed back into your browser.
+Once you have specified the parameters, click on the "Execute" button. The results of execution are streamed back into your browser.
 
 
 

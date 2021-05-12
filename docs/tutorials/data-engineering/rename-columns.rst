@@ -54,10 +54,10 @@ Processor Output
    :alt: Rename Columns
    :width: 100%  
    
-Print the Results
+Prints the Result
 ------------------
 
-It print the results after Renaming Columns.
+It prints the result after Renaming Columns.
 
 
 Processor Configuration

@@ -8,7 +8,7 @@ Below are the steps for Data Profiling in Fire.
 Go to the Projects Page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Go to project page where you need to create dataset or already have existing.
+Go to project page where you want to create dataset or already have existing.
 
 select ``dataset`` tab.
 
@@ -23,7 +23,7 @@ Select a dataset & under ``action`` icon choose Dataset profile.
    :alt: Dataset
    :width: 90%
 
-Once you Click on Dataset profile, it will take us to next page.
+Once you Click on Dataset profile, it will take you to next page.
 
 Click on ``RUN DATA PROFILING`` option
 
@@ -37,7 +37,7 @@ Once you click on above option, will get notifications about process is getting 
    :alt: Dataset
    :width: 90%
 
-Once the ``execution`` process completed, after refresh the status will updated to green, if its completed and check its execution result in RHS
+Once the ``execution`` process completed, after refresh if process completed succesfully the status will be updated to green and in RHS can see execution result.
 
 .. figure:: ../../_assets/user-guide/dataprofile_completed.PNG
    :alt: Dataset

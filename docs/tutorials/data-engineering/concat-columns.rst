@@ -11,7 +11,7 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from file present on HDFS.
-* Concats the specified columns with specified separator.
+* Concats the selected columns with specified separator.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/1.PNG
    :alt: Concat Columns

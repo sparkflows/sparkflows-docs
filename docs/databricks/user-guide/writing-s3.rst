@@ -15,6 +15,10 @@ In the dialog box of the save CSV processor, the path is specified as ``s3a://fi
 
 Browse S3 specified Path & other parameters for processor SaveCSV 
 
+* PATH : Click on BROWSE S3 and specified path where file need to be saved.
+* SAVE MODE : Select Append, Overwrite, ErrorIfExists or Ignore.
+* HEADER : Select true or false depemding on file type.
+
 .. figure:: ../../_assets/aws/configurations3_save.PNG
    :alt: S3 Workflow
    :width: 100%

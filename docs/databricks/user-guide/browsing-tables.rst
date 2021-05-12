@@ -16,13 +16,13 @@ It will display the Databricks DB page.
 Select the Tables 
 ----------------------
 
-Once you select the ``Tables``, right click on it to get the query to view the first few records from the table.
+Once you select a Table, right-click on it to get the query to view the first few records from the table.
 
 .. figure:: ../../_assets/configuration/databricks_1.PNG
    :alt: Databricks
    :width: 100%
    
-Execute the sql query to view records from the table selected.
+Execute the SQL query to view records from the table selected.
 
 .. figure:: ../../_assets/configuration/databricks_query.PNG
    :alt: Databricks

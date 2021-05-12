@@ -1,7 +1,7 @@
 Creating New Datasets
 -----------------
  
-You can define a New Dataset by clicking on the ``Create Dataset`` button in the Dataset page.
+You can define a New Dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 
 It will bring up the dialog box below. Select the format of the file for which the new Dataset is being created.
 

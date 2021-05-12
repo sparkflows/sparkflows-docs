@@ -6,7 +6,7 @@ This workflow reads in a dataset. It then filters specified columns from the ori
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a dataset.
 * It then filters specified columns from the original dataset.
@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads in the input Dataset File.
+It reads the input Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -56,7 +56,7 @@ Processor Output
    :alt: Column Filter
    :width: 100%
   
-Prints the Results
+Prints the Result
 ------------------
 
 It prints the first few records onto the screen.

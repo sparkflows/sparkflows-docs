@@ -8,9 +8,9 @@ This example drops/filters the rows containing any null values from the input da
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The below workflow:
 
-* Reads data from a CSV file.
+* Reads data from a CSV File.
 * Drops rows having any null values in any of the columns.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/1.png
@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file. 
+It reads data from a CSV File. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

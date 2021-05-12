@@ -1,12 +1,12 @@
 Rename Columns
 ==============
 
-This workflow reads in a dataset. It then renames columns from the original dataset and prints the results.
+This workflow reads in a dataset. It then renames columns from the original dataset and prints the result.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a dataset.
 * It then renames columns from the original dataset.

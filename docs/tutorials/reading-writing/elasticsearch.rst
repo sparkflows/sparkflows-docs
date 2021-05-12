@@ -32,10 +32,6 @@ The example workflow below reads a Housing Dataset which is in CSV format from H
    :width: 90%
 
 
-Note: Documentation processor is just for documentation purposes.
------------------------------------------------------------------
-
-
 Workflow Execution
 ------------------
 

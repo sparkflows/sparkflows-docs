@@ -33,7 +33,7 @@ When we execute the Workflow, it reads in the dataset from HDFS and loads it int
 Workflow for Reading Data from MongoDB
 ---------------------------------------
 
-The below workflow reads Data in MongoDB.It then prints the data.
+The below workflow reads Data in MongoDB. It then prints the data.
 
 
 .. figure:: ../../_assets/tutorials/mongodb/readmongodb.PNG

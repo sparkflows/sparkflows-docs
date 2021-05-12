@@ -18,7 +18,7 @@ Below is the workflow that shows:
 Reading from URL And Parsing
 ---------------------
 
-``DatasetURLSingleRecordJSONReader`` Processor uses the passed URL to download single record JSON, parse the dataset and create the DataFrame.
+``DatasetURLSingleRecordJSONReader`` Processor uses the passed URL to download single record JSON, Parse the dataset and create the DataFrame.
 
 
 Processor Configuration

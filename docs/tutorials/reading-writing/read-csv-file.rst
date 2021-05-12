@@ -9,7 +9,7 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from a CSV file
-* Print a few records of the dataframe
+* Prints a few records of the dataframe
 
 .. figure:: ../../_assets/user-guide/read-write/1_1.png
    :alt: readwrite
@@ -21,7 +21,7 @@ Reading from CSV File
 It reads data from a CSV file using Read CSV processor.
 
 * PATH : Path of csv file
-* SEPARATOR : CSV separtor
+* SEPARATOR : CSV separator
 * HEADER : Whether the CSV file has a header line
 * DROP MALFORMED : Whether malformed records would be dropped or an error raised
 

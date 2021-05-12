@@ -1,4 +1,4 @@
-Data Preparation-1
+Data Preparation
 =============
 
 Data preparation is the process of cleaning and transforming raw data prior to processing and analysis. 

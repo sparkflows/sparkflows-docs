@@ -1,10 +1,10 @@
-Writing to JSON Files
+Writing as JSON Files
 =====================
 
 Fire Insights enables you to write your DataFrame to JSON Files.
 
 
-Workflow for writing to JSON file
+Workflow for writing as JSON files
 ----------------------
 
 

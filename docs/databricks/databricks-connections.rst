@@ -12,7 +12,7 @@ Connections in Fire Insights can be a various levels:
 Global Connections
 ------------------
 
-The admin user can configure the global connections. These are available for use to all the users logged into Fire Insights.
+The admin user can configure the global connections. These are available for all the users logged into Fire Insights.
 
 
 Group Level Connections
@@ -38,20 +38,20 @@ Data/Databricks Clusters
 +++++++++++++++
 
 Here the user can choose from global and group level connections. 
-When the user lands on this page, the users current connection is chosen by default.
+When the user lands on this page, the user's current connection is chosen by default.
 
 Data/DBFS
 +++++++++++++++
 
 Here the user can choose from global and group level connections.
-When the user lands on this page, the users current connection is chosen by default.
+When the user lands on this page, the user's current connection is chosen by default.
 
 
 Data/Databricks DB
 +++++++++++++++
 
 Here the user can choose from global and group level connections.
-When the user lands on this page, the users current connection is chosen by default.
+When the user lands on this page, the user's current connection is chosen by default.
 
 
 Workflow Editor

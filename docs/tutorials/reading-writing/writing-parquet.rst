@@ -7,7 +7,7 @@ Fire Insights enables you to write your Dataframe to Parquet Files.
 Workflow for writing as Parquet Files
 ----------------
 
-Below is an example of  workflow which reads in transaction data. It then writes the result in Parquet Format.
+Below is an example of  workflow which reads in transaction dataset. It then writes the result in Parquet Format.
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/1.PNG

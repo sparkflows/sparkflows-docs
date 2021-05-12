@@ -30,7 +30,7 @@ When we execute the Workflow, it reads in the dataset from HDFS and loads it int
    :alt: SaveMongoDB
    :width: 90%
 
-Workflow for Reading data from MongoDB
+Workflow for Reading Data from MongoDB
 ---------------------------------------
 
 The below workflow reads Data in MongoDB.It then prints the data.

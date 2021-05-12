@@ -1,4 +1,4 @@
-Troubleshooting Fire/Databricks Integration
+Troubleshooting Databricks Integration
 ===========================================
 
 

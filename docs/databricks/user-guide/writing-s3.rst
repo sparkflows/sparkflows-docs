@@ -7,7 +7,7 @@ Fire Insights workflows can write data to S3 locations.
 
 Here is an example workflow that writes data to S3. When the workflow is executed, the Dataframe is saved to the S3 location.
 
-In the dialog box of the save CSV processor, the path is specified as ``s3a://sparkflow-sample-data/write/``
+In the dialog box of the save CSV processor, the path is specified as ``s3a://fire-sample-data/write/``
 
 .. figure:: ../../_assets/aws/workflow_csvs3.PNG
    :alt: S3 Workflow

@@ -10,7 +10,7 @@ Below is the workflow. It does the following:
 
 * Reads data from a CSV file.
 * It then removes duplicate rows from the original CSV file.
-* Prints the results.
+* Print the results.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/1.png
    :alt: Remove Duplicate Rows
@@ -58,7 +58,7 @@ Processor Output
 Print the Results
 ------------------
 
-It prints the results after Removing Duplicate Rows.
+It print the results after Removing Duplicate Rows.
 
 
 Processor Configuration

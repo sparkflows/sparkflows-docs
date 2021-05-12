@@ -69,7 +69,7 @@ The Elastic Search Processor understands the SQL and translates it into the appr
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
 
-.. figure:: ../../_assets/tutorials/dataset/21.PNG
+.. figure:: ../../_assets/tutorials/dataset/21_a.PNG
    :alt: Dataset
    :width: 90% 
 

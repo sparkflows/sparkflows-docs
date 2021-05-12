@@ -52,7 +52,7 @@ Graph of counts of various attributes for Churned and Not Churned customers
 
 .. figure:: ../../_assets/tutorials/data-exploration/churned-notchurned-customers.png
    :alt: Concat Columns
-   :width: 90%
+   :width: 70%
    
 Correlation Matrix
 --------------------
@@ -60,7 +60,7 @@ Correlation Matrix
 
 .. figure:: ../../_assets/tutorials/data-exploration/co-relation-matrix.png
    :alt: Concat Columns
-   :width: 90%
+   :width: 70%
  
 
 

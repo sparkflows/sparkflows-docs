@@ -8,7 +8,7 @@ Workflow
 
 The below workflow shows:
 
-* How to read in PDF file from the given location and create the DataFrame from it
+* Reads PDF file from the given location and create DataFrame from it
 * Prints the result
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG

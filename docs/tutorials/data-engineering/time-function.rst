@@ -3,13 +3,13 @@ Time Function
 
 There are many instances when you want to do time-series analysis. Fire Insights provides Date-Time features with TimeFunctions operator.
 
-Creating additional features from the timestamp column helps you to know more about the data and run modeling algorithms on them. Fire Insights has NodeTimeFunctions for creating these time series features.
+Creating additional features from the Timestamp Column helps you to know more about the data and run modeling algorithms on them. Fire Insights has NodeTimeFunctions for creating these time series features.
 
   
 Workflow for applying TimeFunctions
 -----------------------------------
 
-In the example workflow below, additional date time features are being created from the date column.
+In the example workflow below, additional Date Time features are being created from the date column.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
    :alt: Convert To Timestamps
@@ -18,8 +18,8 @@ In the example workflow below, additional date time features are being created f
 In the above workflow: 
 
 - The 'CSV' processor reads in the CSV data from HDFS.
-- The 'StringToDate' processor converts the column Date, which is in string format to 'timestamp'. 
-- The 'TimeFunctions' processor takes in the timestamp column and then applies various timefunctions to it to generate additional output columns.
+- The 'StringToDate' Processor converts the column Date, which is in string format to 'Timestamp'. 
+- The 'TimeFunctions' Processor takes in the Timestamp Column and then applies various "TimeTunctions" to it to generate additional output columns.
 
 Reading from Dataset
 ---------------------
@@ -40,10 +40,10 @@ Processor Output
    :alt: Convert To Timestamps
    :width: 100%
    
-Print the sample Dataset Results
+Prints the sample Dataset Result
 ---------------------------------
 
-It prints the results of the sample dataset available.
+It prints the result of the sample dataset available.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -62,7 +62,7 @@ Processor Output
 Convert To Timestamps
 ---------------------
 
-It converts To Timestamps using stringtodate Node.
+It converts To Timestamps using StringToDate Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -78,10 +78,10 @@ Processor Output
    :alt: Convert To Timestamps
    :width: 100%
    
-Prints the Results
+Prints the Result
 ------------------
 
-It prints the results after converting to Timestamps.
+It prints the result after converting to Timestamps.
 
 
 Processor Configuration

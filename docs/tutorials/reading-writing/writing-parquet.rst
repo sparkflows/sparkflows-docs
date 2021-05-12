@@ -4,10 +4,10 @@ Writing as Parquet File
 Fire Insights enables you to write your Dataframe to Parquet Files.
 
 
-Workflow for writing as Parquet file
+Workflow for writing as Parquet Files
 ----------------
 
-Below is an example of  workflow which reads in transaction data. It then writes the result in Parquet format.
+Below is an example of  workflow which reads in transaction data. It then writes the result in Parquet Format.
 
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/1.PNG
@@ -31,7 +31,7 @@ As a user you have to select the Dataset of your interest as shown below.
 SaveParquet Processor
 ---------------------
 
-``SaveParquet`` processor saves the incoming DataFrame into the specified path in Parquet format. When running on Hadoop, Parquet files gets saved into HDFS.
+``SaveParquet`` processor saves the incoming DataFrame into the specified path in Parquet format. When running on Hadoop, Parquet Files get saved into HDFS.
 
 The DataFrame might be written as multiple part files in the specified folder, depending on the size and partition of the DataFrame.
 

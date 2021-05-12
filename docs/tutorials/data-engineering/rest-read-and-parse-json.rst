@@ -1,7 +1,7 @@
 REST Read And Parse JSON
 =============
 
-This workflow reads in single record JSON from the given URL. It then parses the dataset and prints the results.
+This workflow reads in a single record JSON from the given URL. It then parses the dataset and prints the result.
 
 Workflow
 -------
@@ -18,7 +18,7 @@ Below is the workflow that shows:
 Reading from URL And Parsing
 ---------------------
 
-``DatasetURLSingleRecordJSONReader`` processor uses the passed URL to download single record JSON, parse the dataset and create the DataFrame.
+``DatasetURLSingleRecordJSONReader`` Processor uses the passed URL to download single record JSON, parse the dataset and create the DataFrame.
 
 
 Processor Configuration
@@ -37,7 +37,7 @@ Processor Output
    :width: 100%
    
    
-Print the Results
+Prints the Result
 ------------------
 
 It prints the result onto the screen.

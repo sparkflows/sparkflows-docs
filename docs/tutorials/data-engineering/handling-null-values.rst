@@ -7,7 +7,7 @@ This example removes null values from the input dataset.
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The Below workflow:
 
 * Reads data from a CSV file.
 * Replaces null values in certain columns with constant values.
@@ -24,7 +24,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads in the CSV file data-with-nulls.csv.
+It reads in the CSV file data with-nulls.csv.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

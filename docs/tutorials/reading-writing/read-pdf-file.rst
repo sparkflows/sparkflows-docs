@@ -1,7 +1,7 @@
 Reading PDF File
 =============
 
-This workflow reads PDF file from the given location. It then parses its content, creates DataFrame and then prints the results.
+This workflow reads PDF file from the given location. It then parses its content, creates DataFrame and then prints the result.
 
 Workflow
 -------
@@ -37,7 +37,7 @@ Processor Output
    :width: 90%   
    
    
-Prints the Results
+Prints the Result
 ------------------
 
 It prints the result onto the screen.

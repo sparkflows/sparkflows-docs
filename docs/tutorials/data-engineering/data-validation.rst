@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a CSV file.
 * Performs specific validation on specific columns.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.PNG
    :alt: Data Validation
    :width: 100%
    

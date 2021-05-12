@@ -6,7 +6,7 @@ This workflow reads in a dataset. It then drops some columns from the original d
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a dataset.
 * It then drops some columns from the original dataset.
@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset File.
+It reads the Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

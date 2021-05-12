@@ -9,6 +9,10 @@ Workflow for Loading data into MongoDB
 The below workflow reads in the Sample Dataset which is in CSV format from HDFS.
 It then saves the data into MongoDB.
 
+.. figure:: ../../_assets/tutorials/mongodb/save_mongodb.PNG
+   :alt: SaveMongoDB
+   :width: 90%
+
 The below diagram shows the dialog box for the SaveMongoDB Processor.
 
 .. figure:: ../../_assets/tutorials/mongodb/savemongodbprocessor.PNG

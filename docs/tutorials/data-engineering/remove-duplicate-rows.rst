@@ -1,14 +1,14 @@
 Remove Duplicate Rows
 =====================
 
-This workflow reads CSV file. It then removes duplicate rows from the original CSV file and prints the results.
+This workflow reads CSV files. It then removes duplicate rows from the original CSV file and prints the result.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
-* Reads data from a CSV file.
+* Reads data from a CSV File.
 * It then removes duplicate rows from the original CSV file.
 * Print the results.
 
@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 Reading from CSV file
 ---------------------
 
-It reads CSV file.
+It reads a CSV file.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Processor Output
 Print the Results
 ------------------
 
-It print the results after Removing Duplicate Rows.
+It prints the result after removing Duplicate Rows.
 
 
 Processor Configuration

@@ -18,9 +18,9 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
      - Days passed after holiday
    * - Time-segmentation
      - Divide data in morning, afternoon, evening, night to get more idea about time based pattern
-   * - MovingWindowingFunctions
+   * - MovingWindowFunctions
      - Calculates the moving values using the given function
-   * - WindowingAnalytics
+   * - WindowAnalytics
      - Implements window functions is mainly through the operators rolling and expanding
    * - Exponential Moving Average (EMA)
      - The Exponential Moving Average (EMA) assigns a greater weight to the most recent price observations. While it assigns lesser weight to past data, it is based on a recursive formula that includes in its calculation all the past data in our price series.
@@ -49,24 +49,24 @@ Output result of ``DateTimeFieldExtract`` processor:
    :alt: ml_userguide
    :width: 90%
 
-MovingWindowingFunctions
+MovingWindowFunctions
 ========================
 
-Below is the sample workflows which contains ``MovingWindowingFunctions`` processor in Fire Insights.
+Below is the sample workflows which contains ``MovingWindowFunctions`` processor in Fire Insights.
 
-It reads the ticker dataset, concatenate the input column, casting specified column to new data type, use MovingWindowingFunctions processor which calculates the moving value of selected function of input column and print the result. 
+It reads the ticker dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
 
 .. figure:: ../../_assets/ml_userguide/windowsfn.PNG
    :alt: ml_userguide
    :width: 90%
 
-MovingWindowingFunctions processor Configuration:
+MovingWindowFunctions processor Configuration:
 
 .. figure:: ../../_assets/ml_userguide/windows_configuartion.PNG
    :alt: ml_userguide
    :width: 90%
 
-Output result of ``MovingWindowingFunctions`` processor:
+Output result of ``MovingWindowFunctions`` processor:
 
 .. figure:: ../../_assets/ml_userguide/output-result.PNG
    :alt: ml_userguide

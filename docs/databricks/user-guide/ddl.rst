@@ -3,7 +3,7 @@ Running DDL Commands
 
 Fire Insights allows you to run DDL commands on Databricks.
 
-With this one can:
+With this, one can:
 
   - Create New Databases
   - Create New Tables
@@ -70,7 +70,7 @@ Sample Data:
 
     select * from employee;
     
-By default first 100 rows of data is displayed.
+By default, the first 100 rows of data are displayed.
 
 .. figure:: ../../_assets/configuration/sql-statement2.PNG
    :alt: Databricks

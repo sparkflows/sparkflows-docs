@@ -40,7 +40,7 @@ Processor Output
 To Remove Any Special character in Data
 ------------
 
-``FindAndReplaceUsingRegex`` processor finds and replaces the special characters with empty spaces in the columns. 
+``FindAndReplaceUsingRegex`` Processor finds and replaces the special characters with empty spaces in the columns. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

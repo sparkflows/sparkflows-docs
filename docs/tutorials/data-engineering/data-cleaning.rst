@@ -16,7 +16,7 @@ Below is the workflow. It does the following:
 * Handles the null values by imputing the missing values with the constant value provided in the specified columns
 * Convert Strings to Integer Indexes
 * Convert Gender to Integer Values
-* Replace Gender and Family with 0/1
+* Replace Gender and Family with ``0/1``
 
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture1.PNG

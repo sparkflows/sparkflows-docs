@@ -39,7 +39,7 @@ Processor Output
 Concating columns
 -----------------
 
-It concats the specified columns in cofiguration with the specified separator.
+It concatenates the specified columns using the specified separator.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

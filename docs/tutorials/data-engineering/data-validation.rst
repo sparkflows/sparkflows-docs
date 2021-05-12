@@ -23,18 +23,15 @@ It reads data from a CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2.PNG
    :alt: Data Validation
    :width: 100%
    
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2aa.png
-   :alt: Data Validation
-   :width: 100%
-   
+  
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3.PNG
    :alt: Data Validation
    :width: 100%
    
@@ -46,18 +43,15 @@ It performs different validation on different columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/4.PNG
    :alt: Data Validation
    :width: 100%
    
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3aa.png
-   :alt: Data Validation
-   :width: 100% 
    
 Processor Output
 ^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3b.png
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/5.PNG
    :alt: Data Validation
    :width: 100%
 

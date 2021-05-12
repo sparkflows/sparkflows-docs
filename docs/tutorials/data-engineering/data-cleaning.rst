@@ -4,7 +4,7 @@ Data Cleaning
 This workflow cleans the input data. It does the following:
 
 * Handles null values
-* Replaces N/Y values etc. with 0/1
+* Replaces ``N/Y`` values etc. with ``0/1``
 
 
 Workflow

@@ -1,7 +1,7 @@
 String Functions
 ================
 
-String functions are useful to tranform strings in your dataframe. The "StringFunction" processors allows you to apply common string operations such as 'trim', 'upper', 'lower', 'lefttrim', 'righttrim' etc. to strings.
+String functions are useful to tranform strings in your dataframe. The "StringFunction" processors allows you to apply common string operations such as ``trim``, ``upper``, ``lower``, ``lefttrim``, ``righttrim`` etc. to strings.
 
 In the example below, different string functions are applied to input dataset.
 

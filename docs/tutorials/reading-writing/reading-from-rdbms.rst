@@ -63,7 +63,7 @@ Below are the JDBC URL's for some databases:
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
 
-Example of JDBC URL
+Examples of JDBC URL
 ----------------
 
 Below are some examples of JDBC URL for reading from Relational sources:

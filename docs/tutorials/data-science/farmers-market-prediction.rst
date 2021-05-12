@@ -5,13 +5,13 @@ It demonstrates to predict "the number of farmer's markets in a given zip codeâ€
 
 DataBricks has published a clean approach to build this use case. It features a Python notebook that demonstrates how to create ML Pipeline to preprocess a dataset, train a Machine Learning model and make predictions.
 
-Using Fire Insights visual designer, you can try to execute this approach visually and declaratively. This note speaks to that.
+Using Fire Insights Visual Designer, you can try to execute this approach visually and declaratively. This note speaks to that.
 
 As the DataBricks link highlights:
 
 - The first of the two datasets that you can work on is the Farmer's Markets Directory and Geographic Data. This dataset contains information on the longitude and latitude, state, address, name, and zip code of the Farmer's Markets in the United States. The raw data is published by the Department of Agriculture. The version of the data that is found in Databricks (and is used in this tutorial) was updated by the Department of Agriculture on Dec 01, 2015.
 
-- The second you can work on is the SOI Tax Stats - Individual Income Tax Statistics - ZIP Code Data (SOI). This study provides detailed tabulations of individual income tax return data at the state and ZIP code level and is provided by the IRS. This repository only has a sample of the data: 2013 and includes "AGI". The ZIP Code data show selected income and tax items classified by State, ZIP Code, and size of adjusted gross income. Data are based on individual income tax returns filed with the IRS and are available for Tax Years 1998, 2001, 2004 through 2013. The data include items, such as:
+- The second you can work on is the SOI Tax Stats - Individual Income Tax Statistics - ZIP Code Data (SOI). This study provides detailed tabulations of individual income tax return data at the state and ZIP code level and is provided by the IRS. This repository only has a sample of the data of 2013 and includes "AGI". The ZIP Code data shows selected income and tax items classified by State, ZIP Code, and size of the adjusted gross income. The Data is based on individual income tax returns filed with the IRS and are available for Tax Years 1998, 2001, 2004 through 2013. The data includes items, such as:
 
    - Number of returns, which approximates the number of households
    - Number of personal exemptions, which approximates the population
@@ -20,9 +20,9 @@ As the DataBricks link highlights:
    - Dividends before exclusion
    - Interest received
 
-Below is an overview of the workflow. You can create using the Fire Insights Visual Designer.
+Below is an overview of the workflow, you can create using the Fire Insights Visual Designer.
 
-This workflow was simply created via the drag and drop capabilities of the Fire Insightss Designer UI. This ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. Benefits include:
+This workflow was simply created via the drag and drop capabilities of the Fire Insightss Designer UI. This ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. The benefits include:
 
 - It opens up the power of ETL and ML (such pre-packaged functionality is available as a catalog of "Nodes") to a wider audience of analysts and semi-technical resources.
 - The actual execution can either be local (testing) or can be submitted to a Apache Spark cluster.

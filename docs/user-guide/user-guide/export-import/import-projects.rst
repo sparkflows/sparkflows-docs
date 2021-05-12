@@ -7,7 +7,7 @@ Go to the Projects Page
 --------------------
 
 - Click on the Import button.
-- Choose the zip file from your computer to Import from. You would have previously downloaded this zip file from Fire during the export process.
+- Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire during the export process.
 - Select the name of the Project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
 
 

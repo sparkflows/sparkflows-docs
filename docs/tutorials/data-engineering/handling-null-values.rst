@@ -15,7 +15,7 @@ The below workflow:
 
   * Using StringIndexer Processor
   * Using CaseWhen Processor
-  * Using FindAndReplaceUsingRegex Processor
+  * Using FindAndReplace using Regex Processor
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/1.png
    :alt: Handling Null Values

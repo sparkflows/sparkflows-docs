@@ -29,7 +29,9 @@ Fill in the required fields as below.
 - *Name* : Name of the new analytics app 
 - *category* : Category of the new analytics app
 - *Description* : Description of the new analytics app
-- *Execution Type:* : Select execution type i.e notebook and select notebook from the available notebook list
+- *Execution Type:* : Select execution type i.e notebook or workflow.
+- *Project List* : Select project from the list where you want to create app.
+- *Notebook/Workflow List* : List will contain either notebook list or Worklows list coming under selected project depending upon execution type.
 
   .. figure:: ../../_assets/web-app/create.PNG
       :alt: web-app

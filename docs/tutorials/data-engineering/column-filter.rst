@@ -1,7 +1,7 @@
 Column Filter
 =============
 
-This workflow reads in a dataset. It then filters specified columns from the original dataset and prints the results.
+This workflow reads in a dataset. It then filters specified columns from the original dataset and prints the result.
 
 Workflow
 -------

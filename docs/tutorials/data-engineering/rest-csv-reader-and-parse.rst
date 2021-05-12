@@ -1,12 +1,12 @@
 REST - CSV Reader & Parse
 =============
 
-This workflow reads in a dataset from URL. It then parses the dataset and prints the results.
+This workflow reads in a dataset from URL. It then parses the dataset and prints the result.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from the URL and creates a DataFrame
 * Prints few records
@@ -21,7 +21,7 @@ Below is the workflow. It does the following:
 Reading from URL
 ---------------------
 
-``DatasetURLTextFileReader`` processor uses the passed URL to download the data and create the DataFrame.
+``DatasetURLTextFileReader`` Processor uses the passed URL to download the data and create the DataFrame.
 
 
 Processor Configuration
@@ -48,7 +48,7 @@ It prints the first few records onto the screen.
 Parsing the DataFrame
 ------------
 
-``FieldSplitter`` processor parses and creates new DataFrame by splitting the string of the input column using the delimiter as shown below:
+``FieldSplitter`` Processor parses and creates new DataFrame by splitting the string of the input column using the delimiter as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -67,7 +67,7 @@ Processor Output
 Row Filter by Index
 -------------
 
-``RowFilterByIndex`` processor creates a new DataFrame containing required rows as shown below:
+``RowFilterByIndex`` Processor creates a new DataFrame containing required rows as shown below:
 
 
 Processor Configuration
@@ -85,7 +85,7 @@ Processor Output
    :width: 100%
      
   
-Print the Results
+Prints the Result
 ------------------
 
 It prints the result onto the screen.

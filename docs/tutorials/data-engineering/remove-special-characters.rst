@@ -1,17 +1,17 @@
 Removing Special Characters
 =============
 
-This workflow reads in a dataset. It then removes the special characters from columns of the original dataset and prints the results.
+This workflow reads in a dataset. It then removes the special characters from columns of the original dataset and prints the result.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+ The below workflow:
 
-* It reads the CSV and creates a DataFrame.
-* It find and replaces the special characters with empty space in the columns 
-* Create new DataFrame containing the rows that satisfy the given condition (i.e. removes the rows with empty space)
-* Print the specified number of records in the DataFrame after execution of workflow
+* Reads the CSV and creates a DataFrame.
+* Finds and replaces the special characters with empty space in the columns. 
+* Creates new DataFrame containing the rows that satisfy the given condition (i.e. removes the rows with empty space).
+* Prints the specified number of records in the DataFrame after execution of workflow
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/Capture1.PNG
    :alt: Remove special Characters
@@ -20,7 +20,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-``DatasetCSV`` processor reads in the input Dataset file and creates DataFrame.
+``DatasetCSV`` processor reads in the input Dataset File and creates DataFrame.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -37,10 +37,10 @@ Processor Output
    :width: 100%
    
    
-To Remove Any Special character in data
+To Remove Any Special character in Data
 ------------
 
-``FindAndReplaceUsingRegex`` processor find and replaces the special characters with empty space in the columns 
+``FindAndReplaceUsingRegex`` processor finds and replaces the special characters with empty space in the columns. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -57,9 +57,9 @@ Processor Output
    :width: 100%
    
    
-RowFilter - Remove the rows with empty space 
+RowFilter - Removes the rows with empty spaces. 
 ------------
-``RowFilter`` processor creates new DataFrame containing the rows that satisfy the condition provided (For example : Removes the rows with empty spaces as shown below) 
+``RowFilter`` Processor creates new DataFrame containing the rows that satisfy the condition provided (For example : Removes the rows with empty spaces as shown below) 
  
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

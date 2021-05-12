@@ -8,7 +8,7 @@ This example concats columns in the input dataset with the specified separator.
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from file present on HDFS.
 * Concats the selected columns with specified separator.

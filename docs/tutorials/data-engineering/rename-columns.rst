@@ -19,7 +19,7 @@ The below workflow:
 Reading from Dataset
 ---------------------
 
-It reads the selected Dataset file.
+It reads the selected Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -38,7 +38,7 @@ Processor Output
 Rename Columns
 ------------
 
-It rename the column name we want to.
+It renames the column name we want to.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -52,7 +52,7 @@ Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' proc
 The screenshot below shows the dialog box for the Elastic Search Read Processor.
 
 
-.. figure:: ../../_assets/tutorials/dataset/22.PNG
+.. figure:: ../../_assets/tutorials/dataset/22_a.PNG
    :alt: Dataset
    :width: 60%  
  

@@ -56,7 +56,7 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90% 
    
-Calculate Count per month
+Calculate Count per Month
 --------------------------
 It calculates the count per month using the query by SQL Node.
 
@@ -74,7 +74,7 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90%
    
-Calculate Sum of Counts per month
+Calculate Sum of Counts per Month
 ------------------------
 
 It executes query for grouping and selecting the required fields, and calculates the sum of counts by SQL Node.

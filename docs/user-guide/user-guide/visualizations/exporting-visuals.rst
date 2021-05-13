@@ -1,22 +1,22 @@
 Exporting Visuals
 =======================
 
-Fire Insights enables you to export the output, dashboards and visuals in various ways.
+Fire Insights enables you to export the output, dashboards, and visuals in various ways.
 
 Exporting dashboard
 -------------------
 
-Since Fire Insights is Browser based end to end, its easy to export the pages as PDF files.
+Since Fire Insights is Browser-based end to end, it's easy to export the pages as PDF files.
 
-- Go to dashboard under your application where you have created batch dashboard
-- On clicking on view option, able to visualize etc. added in that dashboard, there you will have ``Export`` option, Click on that.
+- Go to the dashboard under your application where you have created a batch dashboard
+- On clicking on the view option, able to visualize, etc. added in that dashboard, there you will have the ``Export`` option, Click on that.
 
 
 .. figure:: ../../../_assets/user-guide/batch_dashboard.PNG
    :alt: Dataset
    :width: 80%
    
-It will Export the whole batch dashboard in pdf format on local machine.
+It will Export the whole batch dashboard in pdf format on the local machine.
 
 .. figure:: ../../../_assets/user-guide/batch_dashboard_download.PNG
    :alt: Dataset
@@ -25,23 +25,23 @@ It will Export the whole batch dashboard in pdf format on local machine.
 Exporting output
 -----------------
 
-Once the workflow successfully completed, the output result can be exported.
+Once the workflow is completed, the output result can be exported.
 
-- Go to application page where you created workflow & successfully executed.
+- Go to the application page where you created workflow & successfully executed it.
 
-Clicking on ``Executions`` tab the latest workflow execution will show in list page.
+Clicking on the ``Executions`` tab the latest workflow execution will show on the list page.
 
 .. figure:: ../../../_assets/user-guide/executionpage.PNG
    :alt: Dataset
    :width: 80%
 
-On action icon you can see ``view result``, it will take to next page.
+On the action icon, you can see ``view result``, which will take you to the next page.
 
 .. figure:: ../../../_assets/user-guide/executionresult.PNG
    :alt: Dataset
    :width: 80%
 
-On opening above link, able to view result of specific workflow submitted & have Export option through which you can export result in local machine in pdf format & view that.
+On opening the above link, able to view the result of the specific workflow submitted & have an Export option through which you can export the result in a local machine in pdf format & view that.
 
 .. figure:: ../../../_assets/user-guide/exportresult.PNG
    :alt: Dataset

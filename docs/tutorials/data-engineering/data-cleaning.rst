@@ -1,8 +1,8 @@
 Data Cleaning
 =============
 
-This workflow cleans the input data. It does the following:
-
+This workflow cleans the input data. 
+It also:
 * Handles null values
 * Replaces ``N/Y`` values etc. with ``0/1``
 
@@ -10,13 +10,13 @@ This workflow cleans the input data. It does the following:
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a dataset
 * Handles the null values by imputing the missing values with the constant value provided in the specified columns
-* Convert Strings to Integer Indexes
-* Convert Gender to Integer Values
-* Replace Gender and Family with ``0/1``
+* Converts Strings to Integer Indexes
+* Converts Gender to Integer Values
+* Replaces Gender and Family with ``0/1``
 
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/Capture1.PNG
@@ -40,7 +40,7 @@ Processor Output
 Handling Null Values
 ------------
 
-``ReplaceMissingValueWithConstant`` processor handles the null values by imputing the missing values with the constant value provided in the specified columns.
+``ReplaceMissingValueWithConstant`` Processor handles the null values by imputing the missing values with the constant value provided in the specified columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -59,7 +59,7 @@ Processor Output
 Convert Strings to Integer Indexes
 ------------
 
-``StringIndexer`` processor encodes a string type column to a column of label indices.
+``StringIndexer`` Processor encodes a string type column to a column of label indices.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -78,7 +78,7 @@ Processor Output
 Convert Gender to Integer Values
 ------------
 
-``CaseWhen`` processor sets values for the variables based on conditions, as shown below:
+``CaseWhen`` Processor sets values for the variables based on conditions, as shown below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

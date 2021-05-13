@@ -1,7 +1,7 @@
 Validation Workflow
 ===============
 
-This workflow performs multiple validations on each incoming record
+This workflow performs multiple validations on each incoming record. It:
 
 * Records which pass validation are output into the first edge
 * Records which fail validation are output into the seconds edge
@@ -17,9 +17,9 @@ Validations
 Workflow
 --------
 
-Below is the workflow. It does the following:
+The below workflow:
 
-* Reads data from a CSV file.
+* Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture1.PNG
@@ -29,7 +29,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-``DatasetCSV`` processor reads data from a CSV file. 
+``DatasetCSV`` Processor reads data from a CSV file. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -48,7 +48,7 @@ Processor Output
 
 String Functions
 ----------------
-``StringFunctions`` processor performs specified operation on the selected column (i.e. trim function for column 'name' in this case)
+``StringFunctions`` Processor performs specified operation on the selected column (i.e. trim function for column 'name' in this case)
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -68,7 +68,7 @@ Processor Output
 Performing Validation
 ---------------------
 
-``ValidationMultiple`` processor performs different validation on different columns.
+``ValidationMultiple`` Processor performs different validation on different columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

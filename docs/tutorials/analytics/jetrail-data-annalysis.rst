@@ -9,9 +9,9 @@ Workflow
 The below workflow:
 
 * Reads data from a sample dataset.
-* Extracts date time field.
-* Calculates count per month.
-* Executes query for months.
+* Extracts the Datetime Field.
+* Calculates the count per month.
+* Executes the query for months.
 * Prints the result.
 * Makes Graphical analysis.
 

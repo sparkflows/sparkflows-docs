@@ -43,7 +43,7 @@ Processor Output
 Cast Column to Double
 ---------------------------------
 
-It casts for the new datatype double using the castcolumn type Node.
+It casts for the new datatype double using the CastColumn Type Node.
 
 
 Processor Configuration
@@ -63,7 +63,7 @@ Processor Output
 Cast Column to String
 ---------------------------------
 
-It casts for new datatype string using castcolumn type Node.
+It casts for the new datatype string using the CastColumn Type Node.
 
 
 Processor Configuration
@@ -83,7 +83,7 @@ Processor Output
 Create Index Columns from String Columns
 ----------------------------------------
 
-Create new columns with index values from the string columns.
+Create new columns with the index values from the string columns.
 
 
 Processor Configuration
@@ -104,7 +104,7 @@ Processor Output
 Execute the SQL Queries   
 -------------------------
 
-It executes the SQL queries with the given conditions.
+It executes the SQL Queries with the given conditions.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

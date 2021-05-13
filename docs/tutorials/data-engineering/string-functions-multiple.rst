@@ -8,7 +8,7 @@ In the example below, different string functions are applied to input dataset.
 Workflow
 --------
 
-The example workflow below, read data from HDFS/Hive and applies different string functions on different columns of the dataset.
+The example workflow below, reads data from HDFS/Hive and applies different string functions on different columns of the dataset.
 
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1.PNG
@@ -34,10 +34,10 @@ Processor Output
    :alt: String Functions Multiple
    :width: 100%
 
-Apply string functions
+Apply string Functions
 ----------------------
 
-The 'StringFunctionMultiple' processor below, converts contents of 'driveway' column to upper case and trims contents of 'gashw' column.
+The 'StringFunctionMultiple' processor below, converts contents of 'Driveway' column to upper case and trims contents of 'Gashw' column.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^

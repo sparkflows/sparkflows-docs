@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700'); 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -11,14 +11,15 @@ h4,
 h5,
 h6,
 legend {
-    font-family: 'Inter';
+    font-family: 'Source Sans Pro';
 }
 .wy-nav-content h1 {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 45px;
 }
-
-h1,
+.wy-nav-content h2 {
+    font-size: 34px;
+}
 h2,
 .rst-content .toctree-wrapper p.caption,
 h3,
@@ -30,12 +31,21 @@ h6 {
 .wy-nav-content-wrap{
     margin-left: 340px;
     word-break: break-word;
+    font-size: 17px;
+}
+.wy-nav-content-wrap p, .wy-nav-content-wrap ol, .wy-nav-content-wrap ul, .wy-nav-content-wrap blockquote {
+    font-size: 1em;
+    line-height: 1.41em;
+}
+.wy-nav-content-wrap p, .wy-nav-content-wrap blockquote {
+    margin-bottom: 1em;
 }
 .wy-side-scroll {
     width: 356px;
 }
 .wy-menu-vertical {
     width: 340px;
+    font-size: 15px;
 }
 .wy-side-nav-search,
 .wy-nav-side {
@@ -76,6 +86,11 @@ h6 {
 
 .wy-menu-vertical a {
     color: #404040;
+}
+.wy-menu-vertical a, .wy-menu-vertical li.on a, 
+.wy-menu-vertical li.current a, .wy-menu-vertical li.current > a,
+.wy-menu-vertical li.toctree-l3, .wy-menu-vertical li.toctree-l4 {
+font-size: 1em;
 }
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current > a {
@@ -143,7 +158,7 @@ h6 {
 }
 
 .rst-content table.docutils caption{
-    font: 20px/1 "Inter";
+    font: 20px/1 "Source Sans Pro";
     color: #404040;
 }
 .wy-nav-content .toctree-wrapper ul li a:hover {
@@ -189,9 +204,9 @@ h6 {
 .wy-menu-vertical li span.toctree-expand{
     float: right;
 }
-.section {
+/* .section {
     padding-bottom: 30px;
-}
+} */
 
 .wy-nav-content {
     background: #fff;
@@ -207,9 +222,7 @@ h6 {
 }
 .rst-content img {
     border: 1px solid #5050506b;
-    /* padding: 10px;
-    background-color: #00000063; */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .rst-content .copybtn img{
     border: none;
@@ -217,7 +230,16 @@ h6 {
 .current .toctree-l2 {
     background-color: black;
 }
-
+.btn-neutral {
+    background-color: #2980b9!important;
+    color: #fff!important;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.btn-neutral:hover {
+    background-color: #2980b9!important;
+}
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
     .wy-table-responsive table td {

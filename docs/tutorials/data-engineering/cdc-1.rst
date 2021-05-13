@@ -13,7 +13,7 @@ We have streaming events coming in. The events can be updates to the existing re
 Design
 ------
 
-We keep a staging table. This table would have all the records coming in. We do dedup at the end of the day and publish it to the final table. 
+We keep a staging table. This table would have all the records coming in. We do DedUp at the end of the day and publish it to the final table. 
 
 Let us say that we are getting real time events of orders. As we get these events we append it to the staging table. If there are updates to an order, say an order got cancelled, we will have multiple records for that order in the staging table.
 

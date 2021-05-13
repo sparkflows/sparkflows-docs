@@ -41,7 +41,7 @@ Processor Output
 Summary of transactions
 -----------------------
 
-It finds stats on amount of each transaction using Summary Node.
+It finds stats on the amount of each transaction using the Summary Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -60,7 +60,7 @@ Processor Output
 Number of transaction per state
 -------------------------------
 
-It finds number of transactions per state using SQL Node.
+It finds the number of transactions per State by using the SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

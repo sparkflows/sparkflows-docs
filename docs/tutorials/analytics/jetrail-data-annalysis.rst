@@ -1,19 +1,19 @@
 Jetrail Data Analysis
 ======================
 
-This workflow reads in a dataset. It then calculates the monthly trend in JetRail Dataset and performs further Analysis using charts.
+This workflow reads in a dataset. It then calculates the monthly trend in the JetRail Dataset and performs further analysis using the charts.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a sample dataset.
 * Extracts date time field.
 * Calculates count per month.
 * Executes query for months.
-* Print the results.
-* Graphical analysis.
+* Prints the result.
+* Makes Graphical analysis.
 
 .. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/1.png
    :alt: Jetrail Data Annalysis

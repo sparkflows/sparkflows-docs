@@ -8,7 +8,7 @@ Go to the Projects Page
 
 - Click on the Import button.
 - Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire during the export process.
-- Select the name of the Project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
+- Select the name of the project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
 
 
  .. figure:: ../../../_assets/user-guide/export-import/importapplication.png
@@ -29,7 +29,7 @@ There are two options when importing Projects:
 
 When importing to an existing Project, there are 3 possible methods to choose from:
 
-* Create new workflows and datasets when matching UUID's found.
+* Create new workflows and datasets when matching UUIDs found.
 
 * Overwrite datasets and workflows if matching UUID found.
 

@@ -22,7 +22,7 @@ The below workflow:
 Reading from Dataset
 ---------------------
 
-It reads from sample Dataset file.
+It reads from the sample Dataset file.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -38,9 +38,9 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90%   
 
-Extract date time field
+Extract Datetime Field
 -----------------------
-It extracts year and month field from date time field of timestamp using date time field extract Node.
+It extracts the year and the month field from the Datetime Field of timestamp using Datetime Field Extract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -56,9 +56,9 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90% 
    
-Calculate count per month
+Calculate Count per month
 --------------------------
-It calculates count per month using query by SQL Node.
+It calculates the count per month using the query by SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -74,10 +74,10 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90%
    
-Calculate sum of counts per month
+Calculate Sum of Counts per month
 ------------------------
 
-It executes query for grouping and selecting required fields, calculates sum of counts by SQL Node.
+It executes query for grouping and selecting the required fields, and calculates the sum of counts by SQL Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -93,15 +93,15 @@ Processor Output
    :alt: Jetrail Data Annalysis
    :width: 90%
    
-Prints the Results
+Prints the Result
 ------------------
 
-It prints the results after executing  SQL Query
+It prints the result after executing  the SQL Query.
    
-Graphical analysis
+Graphical Analysis
 ---------------------
 
-It will graphically represent month with count using GraphValue Node.
+It will graphically represent the month with the count using the GraphValue Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -10,7 +10,7 @@ Fire Insights allows you to split incoming dataframes. Based on your needs, use 
 Workflow
 --------
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/1.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/1_a.PNG
    :alt: Dataset
    :width: 100%
    

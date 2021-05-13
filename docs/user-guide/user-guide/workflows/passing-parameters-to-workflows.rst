@@ -2,7 +2,7 @@ Passing Parameters to Workflows
 ===============================
 
 
-Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precendence in which they are applied is as shown below:
+Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precedence in which they are applied is as shown below:
  
   * Through Program Parameters passed during Workflow Execution
   * By specifying the parameters in the Workflow Editor
@@ -83,6 +83,6 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
 .. figure:: ../../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
    
-In the above, **app.vars** parameter allows specifying a space separated list of name=value pairs. 
+In the above, **app.vars** parameter allows specifying a space-separated list of name=value pairs. 
 
-Each of these are passed to the jobs submitted by Sparkflows with ``--var name=value``
+Each of these is passed to the jobs submitted by Sparkflows with ``--var name=value``

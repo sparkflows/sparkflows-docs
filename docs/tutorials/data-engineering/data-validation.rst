@@ -1,14 +1,13 @@
 Data Validation
 ===============
 
-This example performs different kinds of data validation on input dataset like valid/invalid email,valid/invalid date,null/not null check etc.
+This example performs different kinds of data validation on input datasets like valid/invalid email,valid/invalid date,null/not null check etc.
 
 Workflow
 --------
+ The below workflow:
 
-Below is the workflow. It does the following:
-
-* Reads data from a CSV file.
+* Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.PNG
@@ -18,7 +17,7 @@ Below is the workflow. It does the following:
 Reading from CSV File
 ---------------------
 
-It reads data from a CSV file. 
+It reads data from a CSV File. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -2,7 +2,7 @@ H2O
 ===
 
 .. list-table:: H2O Processors in Fire Insights
-   :widths: 50 50
+   :widths: 20 80
    :header-rows: 1
 
    * - Title

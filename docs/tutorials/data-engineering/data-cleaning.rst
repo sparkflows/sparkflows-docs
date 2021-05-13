@@ -99,7 +99,7 @@ Processor Output
 Replace Gender and Family with 0/1
 ------------
 
-``FindAndReplaceUsingRegexMultiple`` processor sets values for the variables based on conditions, as shown below:
+``FindAndReplaceUsingRegexMultiple`` Processor sets values for the variables based on conditions, as below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

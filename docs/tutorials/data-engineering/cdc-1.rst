@@ -19,5 +19,5 @@ Let us say that we are getting real time events of orders. As we get these event
 
 There is a final published order table where there are no duplicates. It gets updated once a day.
 
-We join the final order table with the staging table. In doing so we get multiple order entries. We take the one with the latest timestamp and drop the others. Then for a given order we have only one record in the final table. We rewrite the final orders table with the newly calculated records.
+We join the final order table with the staging table. In doing so we get multiple order entries. We take the one with the latest TimeStamp and drop the others. Then for a given order we have only one record in the final table. We rewrite the final orders table with the newly calculated records.
 

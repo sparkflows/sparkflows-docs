@@ -1,12 +1,12 @@
 General Payment Data Analysis
 =============================
 
-This workflow reads in a dataset. It then performs detailed analytics on general payment dataset.
+This workflow reads in a dataset and then performs the detailed analytics on the general payment dataset.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a sample dataset.
 * Calculates count transactions by speciality.

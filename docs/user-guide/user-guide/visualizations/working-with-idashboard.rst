@@ -1,16 +1,16 @@
 Dashboard
 =======================
 
-Fire allows you to create Dashboard.
+Fire allows creating Dashboard.
 
-Fire allows us to create New Dataset using JDBC data type from MYSQL DB & use datasets in creating charts & dashboard.
+Fire allows create New Dataset using JDBC data type from MYSQL DB & use datasets in creating charts & dashboard.
 
 Creating Dashboard
 --------------------
 
 - For creating Dashboard, Create JDBC datasets if not available.
 
-You can define a New Dataset by clicking on the ``Create Dataset`` button in the Dataset page.
+You can define a New Dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 
 It will bring up the dialog box below. Select the format of the file for which the new Dataset is being created.
 
@@ -57,14 +57,14 @@ Click on the ``Save`` button to save the New Dataset created.
 Dashboard
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Click on ``Dashboard`` tab in the same application where you have created JDBC Dataset.
+Click on the ``Dashboard`` tab in the same application where you have created JDBC Dataset.
 
 
  .. figure:: ../../../_assets/tutorials/dataset/dashboard_tab.PNG
    :alt: Dataset
    :width: 80%
 
-Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
+Click on the ``chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_create.PNG
    :alt: Dataset
@@ -72,7 +72,7 @@ Click on ``chart`` tab & select Choose a JDBC dataset, there you will find all J
 
 Select any JDBC dataset for which you want to create ``chart`` & select ``CREATE NEW``
 
-It will take you to new page, as below
+It will take you to the new page, as below
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_1.PNG
    :alt: Dataset
@@ -92,35 +92,35 @@ Add NAME, DESCRIPTION & save it
    :alt: Dataset
    :width: 80%
 
-Once you save it, the chart will appear in chart list page
+Once you save it, the chart will appear on the chart list page
 
-Similarly you can create different chart using specified chart type
+Similarly, you can create a different chart using a specified chart type
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_list1.PNG
    :alt: Dataset
    :width: 80%
 
-Now using existing chart, you can create new dashboard 
+Now using an existing chart, you can create a new dashboard 
 
-Select ``Dashboard`` tab & Click on CREATE DASHBOARD
+Select the ``Dashboard`` tab & Click on CREATE DASHBOARD
 
 .. figure:: ../../../_assets/tutorials/dataset/dashboard_tab1.PNG
    :alt: Dataset
    :width: 80%
 
-it will take us to New Dashboard page
+It will take you to the New Dashboard page
 
 .. figure:: ../../../_assets/tutorials/dataset/chart-dash1.PNG
    :alt: Dataset
    :width: 80%
 
-Using drag & drop you need to add chart in canvas, Add NAME, DESCRIPTION & SAVE it.
+Using drag & drop you need to add a chart in canvas, Add NAME, DESCRIPTION & SAVE it.
 
 .. figure:: ../../../_assets/tutorials/dataset/save-dashboard.PNG
    :alt: Dataset
    :width: 80%
 
-Once the Dashboard got saved successfully, it will show in dashboard list page from where you can view, edit & delete it.
+Once the Dashboard got saved successfully, it will show on the dashboard list page from where you can view, edit & delete it.
 
 .. figure:: ../../../_assets/tutorials/dataset/dashboard_list1.PNG
    :alt: Dataset

@@ -8,7 +8,7 @@ Workflow
 
 The below workflow:
 
-* Reads data from a sample dataset.
+* Reads the data from a sample dataset.
 * Extracts the Datetime Field.
 * Calculates the count per month.
 * Executes the query for months.

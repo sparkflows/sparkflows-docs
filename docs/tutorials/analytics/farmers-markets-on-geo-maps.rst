@@ -1,7 +1,7 @@
 Farmer's Markets On Geo Maps
 ===========================
 
-This workflow reads in a dataset and then plots the number of the Farmer's Market by city and by state on a graph.
+This workflow reads in a dataset and then plots the number of the Farmer's Market by City and by State on a graph.
 
 Workflow
 -------
@@ -10,10 +10,10 @@ The below workflow:
 
 * Reads data from a sample dataset.
 * Executes the SQL Query for the state count.
-* Prints the result after executing query for the state counts.
-* Plots the graph for farmers with the state counts.
-* Executes the SQL Query for the city counts.
-* Plots the graph for the farmers with the city counts.
+* Prints the result after executing query for the state count.
+* Plots the graph for farmers with the state count.
+* Executes the SQL Query for the city count.
+* Plots the graph for the farmers with the city count.
 
 .. figure:: ../../_assets/tutorials/analytics/farmers-markets-on-geo-maps/1.png
    :alt: Farmers Markets On Geo Maps
@@ -61,7 +61,7 @@ Processor Output
 Analyze using Graph
 --------------------
 
-It plots the graph for the farmers with the state counts using the RegionGeoGraph Processor.
+It plots the graph for the farmers with the state count using the RegionGeoGraph Processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -99,7 +99,7 @@ Processor Output
 Analyze using Graph
 --------------------
 
-It plots the graph for the farmers with the city counts using the RegionGeoGRaph Node.
+It plots the graph for the farmers with the city count using the RegionGeoGRaph Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

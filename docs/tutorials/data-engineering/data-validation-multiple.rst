@@ -1,7 +1,9 @@
 Validation Workflow
 ===============
 
-This workflow performs multiple validations on each incoming record. It:
+This workflow performs multiple validations on each incoming record.
+
+It also:
 
 * Records which pass validation are output into the first edge
 * Records which fail validation are output into the seconds edge

@@ -5,13 +5,13 @@ This workflow shows how to wrangle the Titanic Dataset with Sparkflows.
 
 Workflow
 --------
-This workflow performs the following steps:
+The below workflow: 
 
 * Reads the Titanic dataset
 * Drops Rows containing Null values
 * Filters the Rows for whom Age has not been specified
 * Changes the data type of the Age column to integer
-* Filters rows for persons of age > 30 and who are female
+* Filters rows for persons of age > 30 and who are females
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/1.PNG
    :alt: titanic-data-cleaning
@@ -20,7 +20,7 @@ This workflow performs the following steps:
 Reading Titanic dataset
 ---------------------
 
-``DatasetStructured`` processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which had been defined earlier in Fire by using the Dataset feature.
+``DatasetStructured`` processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
 
 Processor Output
 ^^^^^^^^^^^^^^^^^^
@@ -33,7 +33,7 @@ Processor Output
 Dropping the rows with null values
 --------------
 
-``DropRowsWithNull`` processor drops the rows with null values.
+``DropRowsWithNull`` Processor drops the rows with null values.
 
 Processor Configuration
 ^^^^^^
@@ -45,7 +45,7 @@ Processor Configuration
 
 Filter by string length
 ----------------
-``FilterByStringLength`` processor filters the rows within the provided string length
+``FilterByStringLength`` Processor filters the rows within the provided string length
 
 
 Processor Configuration

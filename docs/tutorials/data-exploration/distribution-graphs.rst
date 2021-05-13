@@ -6,7 +6,7 @@ This workflow reads a CSV file. It then plots graphs of distribution of data by 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads a CSV file.
 * Distribution of data by Week.

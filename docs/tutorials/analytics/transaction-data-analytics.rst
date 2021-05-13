@@ -43,7 +43,7 @@ It prints the Sample Dataset Result.
 Analysing using Graph
 ---------------------
 
-It helps to analyse using the graph with graph grouped by column brand and count.
+It helps to analyse using the graph grouped by column brand and count.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

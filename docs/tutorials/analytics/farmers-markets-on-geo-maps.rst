@@ -1,7 +1,7 @@
 Farmer's Markets On Geo Maps
 ===========================
 
-This workflow reads in a dataset. It then plots number of Farmer's Market by city and by state on a graph.
+This workflow reads in a dataset and then plots the number of the Farmer's Market by city and by state on a graph.
 
 Workflow
 -------

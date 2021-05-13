@@ -2,7 +2,7 @@
 Export / Import of Projects
 ====
 
-Fire enables you to export your Projects and download them to your computer.
+Fire enables you to export your projects and download them to your computer.
 
 It then also enables you to import your Projects back into any instance of Fire.
 

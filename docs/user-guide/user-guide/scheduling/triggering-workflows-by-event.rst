@@ -17,7 +17,7 @@ The kind of use cases this can handle are:
 Event Format
 -----------
 
-Events which are pushed to Kafka are string with the fields separated by ``|`` (pipe).
+Events that are pushed to Kafka are strings with the fields separated by ``|`` (pipe).
 
 Below is the format of the event.
 
@@ -25,24 +25,24 @@ Below is the format of the event.
 
 * ``Type`` : Type determines the kind of data in the Value column
 
-  * 0 : workflow id
-  * 1 : workflow name
-  * 2 : workflow uuid
+  * 0: workflow id
+  * 1: workflow name
+  * 2: workflow UUID
 
-* ``Value`` : This defines the value. Values are based on the Type used:
+* ``Value``: This defines the value. Values are based on the Type used:
 
   * ID of the workflow
   * Name of the workflow
   * UUID of the workflow
   
-* ``Spark Submit Configs`` : Extra Spark Submit configurations to be applied when running the Spark Job.
-* ``Extra Jar files`` : Extra jar files to use in spark-submit.
+* ``Spark Submit Configs``: Extra Spark Submit configurations to be applied when running the Spark Job.
+* ``Extra Jar files``: Extra jar files to use in spark-submit.
 * ``Program parameters`` : Extra program parameters if any.
 
   * Program Parameters are passed to the workflow. Example :  ``--var key1=value1``.
   
-* ``Email on Success`` : email addresses to send Success email on Job Completion.
-* ``Email on Failure`` : email addresses to send Failure email on Job Failure.
+* ``Email on Success``: email addresses to send Success email on Job Completion.
+* ``Email on Failure``: email addresses to send Failure email on Job Failure.
 
 
 Example Events
@@ -52,10 +52,10 @@ Example Events
 
 In the above example:
 
-  * 0 : Trigger by workflow id
-  * 5 : Workflow id to trigger
-  * success@sparkflows.io : Email address to send regarding success of the workflow
-  * failure@sparkflows.io : Email address to send regarding failure of the workflow
+  * 0: Trigger by workflow id
+  * 5: Workflow id to trigger
+  * success@sparkflows.io: Email address to send regarding the success of the workflow
+  * failure@sparkflows.io: Email address to send regarding the failure of the workflow
   
 
 Configuring Fire to listen for Events from the Kafka Topic

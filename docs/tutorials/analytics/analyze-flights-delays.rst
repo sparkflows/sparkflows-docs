@@ -1,20 +1,20 @@
 Analyze Flights Delays
 =====================
 
-This workflow reads in a flights dataset. It then analyzes flights delay and prints the results.
+This workflow reads in a flights dataset. It then analyzes the flights delay and prints the result.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads in the input data.
-* Prints the sample datasets results.
+* Prints the sample datasets result.
 * Casts required columns to double.
 * Casts required columns to string.
-* Create index columns
-* Executes the SQL query to find the flights which are delayed.
-* Prints the results.
+* Creates index columns.
+* Executes the SQL Query to find the flights which are delayed.
+* Prints the result.
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
    :alt: Analyze Flights Delays
@@ -23,7 +23,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset files.
+It reads the Dataset Files.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -40,10 +40,10 @@ Processor Output
    :width: 80%
    
 
-Cast column to double
+Cast Column to Double
 ---------------------------------
 
-It casts for new datatype double using castcolumn type Node.
+It casts for the new datatype double using the castcolumn type Node.
 
 
 Processor Configuration

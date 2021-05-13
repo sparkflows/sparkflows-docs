@@ -60,7 +60,7 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Cast column to string
+Cast Column to String
 ---------------------------------
 
 It casts for new datatype string using castcolumn type Node.
@@ -80,7 +80,7 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Create index columns from string columns
+Create Index Columns from String Columns
 ----------------------------------------
 
 Create new columns with index values from the string columns.
@@ -101,7 +101,7 @@ Processor Output
    :width: 80%
  
    
-Execute the SQL queries   
+Execute the SQL Queries   
 -------------------------
 
 It executes the SQL queries with the given conditions.
@@ -120,10 +120,10 @@ Processor Output
    :alt: Analyze Flights Delays
    :width: 80%
 
-Print the Results
+Print the Result
 ------------------
 
-It prints the final results.
+It prints the final result.
 
 
 Processor Configuration

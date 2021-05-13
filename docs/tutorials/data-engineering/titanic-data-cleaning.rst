@@ -20,7 +20,7 @@ The below workflow:
 Reading Titanic dataset
 ---------------------
 
-``DatasetStructured`` processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
+``DatasetStructured`` Processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
 
 Processor Output
 ^^^^^^^^^^^^^^^^^^
@@ -45,7 +45,7 @@ Processor Configuration
 
 Filter by string length
 ----------------
-``FilterByStringLength`` Processor filters the rows within the provided string length
+``FilterByStringLength`` Processor filters the rows within the provided string length.
 
 
 Processor Configuration
@@ -65,7 +65,7 @@ Processor Output
 Convert Age to Integer
 ---------------------
 
-``CastColumnType`` processor performs conversion of Age to integer type.
+``CastColumnType`` Processor performs conversion of Age to integer type.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -85,7 +85,7 @@ Processor Output
 Get Rows of Interest
 ---------------
 
-``RowFilter`` processor filters the data based on provided conditions as shown below:
+``RowFilter`` Processor filters the data based on provided conditions as below:
 
 
 Processor Configuration
@@ -105,7 +105,7 @@ Processor Output
 
 
 
-Prints the results
+Prints the result
 -------------
 
 It prints the first few records onto the screen.

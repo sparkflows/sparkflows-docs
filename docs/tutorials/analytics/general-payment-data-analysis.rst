@@ -38,7 +38,7 @@ Processor Output
    :width: 90%
  
  
-Summary of transactions
+Summary of Transactions
 -----------------------
 
 It finds stats on the amount of each transaction using the Summary Node.
@@ -57,7 +57,7 @@ Processor Output
    :alt: General Payment Data Analysis
    :width: 90%
    
-Number of transaction per state
+Number of Transaction per State
 -------------------------------
 
 It finds the number of transactions per State by using the SQL Node.
@@ -76,7 +76,7 @@ Processor Output
    :alt: General Payment Data Analysis
    :width: 90%
    
-Prints the results
+Prints the Result
 ------------------
  It will print the result of output getting from SQL Node.
  

@@ -5,6 +5,7 @@ This workflow cleans the input data.
 
 It also:
 * Handles null values
+
 * Replaces ``N/Y`` values etc. with ``0/1``
 
 

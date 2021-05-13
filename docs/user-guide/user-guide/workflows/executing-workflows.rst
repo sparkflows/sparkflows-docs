@@ -71,20 +71,20 @@ Scheduling Workflow execution with Scheduler of choice
  
 Since Fire workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on Schedule Button of Workflow we want to schedule
+- Click on the Schedule Button of Workflow we want to schedule
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
    :width: 90%  
  
  
-- Click on Tab Schedule New Job for Workflow
+- Click on the Tab Schedule New Job for Workflow
  
  .. figure:: ../../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow
    :width: 60% 
  
- - Update the scheduled timing & email notifications after success & failure of workflow as per our requirments.
+ - Update the scheduled timing & email notifications after success & failure of workflow as per our requirements.
  
 .. figure:: ../../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow
@@ -104,9 +104,9 @@ Many times it is helpful to be able to debug the workflows. One easy way is to c
  
 Running in debug mode does a few things:
 
-* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Sparkflows lazy execution from the picture.
+* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Sparkflows' lazy execution from the picture.
 * Displays the number of records processed at each stage.
-* Display more information, for each SQL etc. which are being executed.
+* Display more information, for each SQL, etc. which are being executed.
 
 
 

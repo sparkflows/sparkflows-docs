@@ -1,4 +1,4 @@
-Farmers Market Prediction
+Farmer's Market Prediction
 =========================
 
 It demonstrates to predict "the number of farmer's markets in a given zip code” based on the income and taxes paid in a given area using the past data. It seems plausible that areas with higher income have more farmer's markets simply because there is more of a market for those goods. Of course there are many potential holes in this idea, but that's the part of the desire to test it.

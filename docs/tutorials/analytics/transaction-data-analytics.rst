@@ -1,16 +1,16 @@
 Transaction Data Analytics
 ==========================
 
-This workflow reads in a dataset. It then prints the results from the sample dataset and analyses using graphs.
+This workflow reads in a dataset. It then prints the result from the sample dataset and analyses using the graphs.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
-* Reads data from a sample dataset.
-* It then prints the results from the sample dataset.
-* Analysing using graphs.
+* Reads the data from a sample dataset.
+* Prints the result from the sample dataset.
+* Analyses using the graphs.
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.png
    :alt: Transaction Data Analytics
@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads Dataset File.
+It reads the Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -35,15 +35,15 @@ Processor Output
    :alt: Transaction Data Analytics
    :width: 90%
    
-Prints the sample Dataset Results
+Prints the Sample Dataset Result
 ---------------------------------
 
-It prints sample Dataset Results.
+It prints the Sample Dataset Result.
    
 Analysing using Graph
 ---------------------
 
-It helps to analyse using graph with Graph grouped by column brand and count.
+It helps to analyse using the graph with graph grouped by column brand and count.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

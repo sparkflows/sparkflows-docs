@@ -8,9 +8,7 @@ To be able to detect entities the NameFinder needs a model. The model is depende
 https://opennlp.apache.org/documentation/1.6.0/manual/opennlp.html#tools.namefind.recognition.cmdline
 
  
-The OpenNLP project offers a number of pre-trained NameFinder models which are trained on various freely available corpora. They can be downloaded at the OpenNLP download page.
-
-http://opennlp.sourceforge.net/models-1.5/
+The OpenNLP project offers a number of pre-trained NameFinder models which are trained on various freely available corpora. They can be downloaded here: http://opennlp.sourceforge.net/models-1.5/
 
  
 Steps for installing the OpenNLP models in Fire can be found here: http://docs.sparkflows.io/en/latest/operating/installing-opennlp.html
@@ -26,9 +24,9 @@ Below is a workflow which uses the NameFinder Processor.
    
 It consists of 3 Processors:
 
-* TextFiles - It reads in the input text file and creates a row from each line of text.
-* OpenNLPNameFinder - It extracts the entities from each line of text.
-* PrintNRows - It prints the first 10 rows of the result.
+* TextFiles- It reads in the input text file and creates a row from each line of the text.
+* OpenNLPNameFinder- It extracts the entities from each line of the text.
+* PrintNRows- It prints the first 10 rows of the result.
 
 Textfiles
 ---------

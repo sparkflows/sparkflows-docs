@@ -19,18 +19,18 @@ Create new feature from existing table to improve performance of models
 
 Feature Engineering Workflow
 -----------------------------
-Each column is a feature. But all features may not produce the best results from models, so feature engineering plays an important role in choosing the right features. A model will not entirely improve its prescient force, yet will offer the adaptability to utilize less unpredictable models that are quicker to run and more handily.
+Each column is a feature. But all features may not produce the best result from models, so feature engineering plays an important role in choosing the right features. A model will not entirely improve its prescient force, yet will offer the adaptability to utilize less unpredictable models that are quicker to run and more handy.
 
 .. figure:: ../../_assets/tutorials/time-series/ts_features/tsf_workflow.png
    :alt: Stock Forecasting
    :width: 100%
 
-Moving average
+Moving Average
 --------------
 **One step moving average**
 
-* Moving average is commonly used to streamline short-period fluctuations in time series data and feature long-term patterns.
-* For one step, window size will be from -1 to 1 for sales data
+* Moving Average is commonly used to streamline short-period fluctuations in time series data and feature long-term patterns.
+* For one step, window size will be from -1 to 1 for sales data.
 
  .. figure:: ../../_assets/tutorials/time-series/ts_features/ma1.png
    :alt: Stock Forecasting
@@ -66,7 +66,7 @@ Lags Feature
 
 * Lag is used to make non-stationary data into stationary data
 * Outliers are easily discernible on a lag plot
-* acf and pacf plot is used to calcluate best lags
+* acf and pacf plots are used to calcluate best lags
 
 **Lag one**
 

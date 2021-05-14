@@ -5,7 +5,7 @@ When invoking the REST APIs of Fire Insights with curl, the first step is to log
 
 Save the incoming cookies using the ``-c`` option of the ``curl`` into a file.
 
-In the below example, the Fire Insights web server is running on the local machine at : ``localhost:8080``
+In the below example, the Fire Insights web server is running on the local machine at: ``localhost:8080``
 
 You can replace it with your machine name and port.
 
@@ -17,5 +17,5 @@ In the above:
 
     * username = admin
     * password = admin
-    * Incoming cookie gets saved into : /tmp/cookies.txt
-    * REST API endpoint : localhost:8080/login    
+    * Incoming cookie gets saved into: /tmp/cookies.txt
+    * REST API endpoint: localhost:8080/login    

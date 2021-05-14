@@ -35,7 +35,7 @@ Features of Random Forest -
 Prepare data for modeling
 --------------------------
 
-Follow workflow arrow
+Follow workflow arrow-
 
 * **ZipWithIndex**- Creates new feature column from dataframe index as ID
 
@@ -61,7 +61,7 @@ Follow workflow arrow
 Data modeling
 -------------
 
-* Before we create Random Forest Regression model, split data (80:20) into train and test for performance evaluation.
+* Before we create Random Forest Regression Model, split data (80:20) into train and test for performance evaluation.
 
 Random Forest Regression
 ++++++++++++++++++++++++
@@ -70,7 +70,7 @@ Random Forest Regression
 * Sets number of features for each split node of tree.
 * For regression the measure of impurity is variant.
 * In random forest, the impurity decrease from each feature can be averaged across trees to determine the final importance of the variable.
-* The maxBins signifies the maximum number of bins used for splitting the features, where the suggested value is 100 to get better results.
+* The maxBins signifies the maximum number of bins used for splitting the features, where the suggested value is 100 to get better result.
 * The maxDepth is the maximum depth of the tree (for example, depth 0 means one leaf node, depth 1 means one internal node plus two leaf nodes).
 * Information gain is calculated by comparing the entropy of the dataset before and after a transformation.
 

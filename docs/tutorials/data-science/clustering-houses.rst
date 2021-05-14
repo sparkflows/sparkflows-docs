@@ -23,7 +23,7 @@ The columns in the dataset are pretty self-explanatory.
 Workflow
 -------
 
-Below is the workflow for creating a KMeans model for clustering the houses. It does the following:
+Below is the workflow for creating a KMeans model for clustering the houses which:
 
 * Reads data from a sample dataset.
 * Prints the result.

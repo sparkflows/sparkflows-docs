@@ -174,7 +174,7 @@ Print N Rows
    :alt: Fire Market Prediction
    :width: 100%
 
-Next you can execute the workflow and it come up with predictions for number of farmers markets in a zip code.
+Now, you can execute the workflow and it will come up with predictions for the number of farmer's markets in a zip code.
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/16.png
    :alt: Fire Market Prediction

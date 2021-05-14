@@ -11,21 +11,21 @@ It does the below:
   * The resulting dataframe of running the SQL is passed on to the next node/processor.
 
 
-Example 1: Calculate Average lotsize by number of bedrooms
+Example 1: Calculate Average Lotsize by Number of Bedrooms
 =========
 
 ::
 
     select bedrooms, avg(lotsize) as avg_lotsize from fire_temp_table group by bedrooms
 
-Example 2: Using CASE statement to check conditions against column value
+Example 2: Using CASE Statement to Check Conditions against Column Value
 ==========
 
 ::
 
     select fire_temp_table.* , case  when fire_temp_table.DEP_DELAY_NEW > 40 then 1.0 else 0.0 END as label from fire_temp_table
 
-Example 3: Using another form of CASE statement
+Example 3: Using Another Form of CASE Statement
 ==========
 
 ::
@@ -45,7 +45,7 @@ Example 3: Using another form of CASE statement
          end as mScore,
     mValue / fValue  as avg_amount from fire_temp_table
     
-Example 4: Using CAST statement to convert datatypes 
+Example 4: Using CAST Statement to Convert Datatypes 
 ==========
 
 ::
@@ -53,7 +53,7 @@ Example 4: Using CAST statement to convert datatypes
      select cast(current_date as STRING) datetostring , cast ('2021' as int) stringtoint, cast('2021-01-01' as date) stringtodate 
      from fire_temp_table
 
-Example 5: Using Date functions
+Example 5: Using Date Functions
 =========
 
 ::
@@ -61,7 +61,7 @@ Example 5: Using Date functions
     select current_date as date, current_timestamp as timestamp, date_add(current_date , 5) as addtodate, 
     date_sub(current_date , 5) as subtractfromdate from fire_temp_table
     
-Example 6: Using CONCATENATE function
+Example 6: Using CONCATENATE Function
 =========
 
 ::

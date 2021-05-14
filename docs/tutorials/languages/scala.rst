@@ -3,7 +3,7 @@ Scala Examples in Fire
 
 Fire provides a Scala processer in which Scala code can be written.
 
-The Scala node does the following:
+The Scala node does the below:
 
   * Receives an input dataframe.
   * Passes the input dataframe to the Scala code as a variable called `inDF`.

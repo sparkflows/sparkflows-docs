@@ -33,9 +33,9 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
    :alt: Fire Market Prediction
    :width: 100%
    
-This workflow consists of the following steps:
+This workflow:
 
-- Using the DatasetStructured Node: Read in the data from 2 different datasets - Farmer's Markets and Income Tax Return data per zip code (both are comma separated files):
+- Uses the DatasetStructured Node. Reads in the data from 2 different datasets - Farmer's Markets and Income Tax Return data per zip code (both are comma separated files):
 - Instead of a CSV, one can easily read it from a data-lake or a Persistence Store (HDFS/RDBMS/NoSQL).
 - Using the ColumnFilter Node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so that we can do further computation.
   

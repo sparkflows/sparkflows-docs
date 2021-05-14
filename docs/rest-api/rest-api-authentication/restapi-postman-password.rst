@@ -1,7 +1,7 @@
-Acquire Token using Postman and Grant Type- Password
+Acquire Token using Postman and Grant Type - Password
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-This document describes the steps to obtain and use OAuth 2.0 access tokens using Postman.
+This document describes the steps to obtain and use OAuth 2.0 access tokens using the Postman.
 
 
 Overview of Grant Type – Password
@@ -12,7 +12,7 @@ The Password grant is used when the application presents a traditional username 
 Form the Post Request
 =====================
 
-The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it
+The POST Request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it.
 
 .. list-table:: Below are the Relevant Request
    :widths: 10 40

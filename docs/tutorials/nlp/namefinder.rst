@@ -13,7 +13,7 @@ The OpenNLP project offers a number of pre-trained name finder models which are 
 http://opennlp.sourceforge.net/models-1.5/
 
  
-Steps for installing the OpenNLP models in Fire are covered here : http://docs.sparkflows.io/en/latest/operating/installing-opennlp.html
+Steps for installing the OpenNLP models in Fire are here : http://docs.sparkflows.io/en/latest/operating/installing-opennlp.html
 
 Workflow
 --------

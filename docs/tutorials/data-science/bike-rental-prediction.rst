@@ -9,7 +9,7 @@ Workflow
 The below workflow:
 
 * Reads data from a sample dataset.
-* Extracts hour from time using datatype timestamp.
+* Extracts hour from time using datatype Timestamp.
 * Calculates Count to datatype double.
 * Assembles features for modelling.
 * Calculates VectorIndexer.
@@ -44,7 +44,7 @@ Processor Output
 Extract Hour from Time using Datatype Timestamp
 ------------------------------------------------
 
-It extracts hour from time using datatype timestamp using the DateTimeFieldExtract Node.
+It extracts hour from time using Datatype Timestamp using the DateTimeFieldExtract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ Processor Output
 Calculate Count to Datatype Double
 -----------------------------------
 
-It calculates the cast count field to datatype double using the CastColumnType Node.
+It calculates the cast count field to Datatype double using the CastColumnType Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

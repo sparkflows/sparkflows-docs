@@ -25,7 +25,7 @@ The below workflow:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset File.
+It reads the sample Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -101,7 +101,7 @@ Processor Output
 Calculate VectorIndexer
 -----------------------
 
-It identifies categorical features and index them using the VectorIndexer Node. 
+It identifies the categorical features and then index them using the VectorIndexer Node. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -120,7 +120,7 @@ Processor Output
 Split it
 ---------
 
-It will split our dataset into separate training and test sets using the Split Node.
+It will split the dataset into separate training and test sets using the Split Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -146,7 +146,7 @@ Processor Configuration
 Prediction
 -----------
 
-It will make prediction on future data using the Prediction Node.
+It will make prediction on the future data using the Prediction Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

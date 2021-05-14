@@ -2,18 +2,18 @@ TFIDF
 =====
 
 
-This workflow reads in a dataset. It then Tokenizes and then performs TF/IDF on text content.
+This workflow reads in a dataset. It then Tokenizes and performs TF/IDF on text content.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a sample dataset.
 * Tokenizes message column.
 * Performs TF.
 * Performs IDF.
-* Prints the results.
+* Prints the result.
 
 .. figure:: ../../_assets/tutorials/machine-learning/tfidf/1.png
    :alt: TFIDF
@@ -22,7 +22,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+It reads sample Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -94,7 +94,7 @@ Processor Output
    :alt: TFIDF
    :width: 100%
    
-Prints the results
+Prints the result
 ------------------
 
 It will print the result after performing TF/IDF on text content.

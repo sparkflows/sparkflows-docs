@@ -1,15 +1,15 @@
 Acquire Token in Python - Grant Type Password
 ========================
 
-Below are examples of Python code for accessing the Fire REST API using Python.
+Below are the examples of the Python Code for accessing the Fire REST API using Python.
 
 Get Processor Count
 --------------------
 
-The below code in Python does the following:
+The below code in Python:
 
-* Acquires the token using Grant Type Password
-* Invokes the Fire Insights REST API to get the number of processors list available in Fire Insights.
+* Acquires the token using the Grant Type Password.
+* Invokes the Fire Insights REST API to get the number of processor list available in the Fire Insights.
 
   ::
     
@@ -59,7 +59,7 @@ The below code in Python does the following:
 
 
 
-After running above REST API code in Python, we get the below results.
+After running the above REST API code in Python, we get the below results.
 
 
 .. figure:: ../_assets/tutorials/token/8.PNG
@@ -71,7 +71,7 @@ After running above REST API code in Python, we get the below results.
 Infer Hadoop Cluster Configurations
 -----------------------------
 
-The below code in Python invokes the Fire Insights REST API to infer Hadoop cluster configurations. It then saves the infer cluster Hadoop configurations as updated values.
+The below code in Python invokes the Fire Insights REST API to infer Hadoop Cluster Configurations. It then saves the infer cluster Hadoop Configurations as updated values.
 
 ::
 
@@ -128,7 +128,7 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop clus
    print(" configuration after save : "+save_configuration_api_response.text)
  
    
-After running above REST API code using Python, Will get the results as below
+After running the above REST API code using Python, we get the below result.
 
 .. figure:: ../_assets/tutorials/token/10.PNG
    :alt: REST API

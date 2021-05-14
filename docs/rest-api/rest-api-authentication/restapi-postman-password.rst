@@ -24,9 +24,9 @@ The POST Request method requests that a web server accepts the data enclosed in 
    * - POST
      - http://hostname:port/oauth/token?grant_type=password&username=<username>&password=<password>
   
-Update the username and password in URL and use as request header.
+Update the username and password in URL, and use it as a request header.
 
-Click on Authorization tab and select Type - Basic Auth
+Click on Authorization Tab and Select Type - Basic Auth
 ==================================================
 
 Basic Auth is an authorization type that requires a verified username and password to access a data resource.
@@ -41,10 +41,10 @@ Example
    :align: center 
    :width: 60%
 
-Now use access_token from previous step to access the REST API
+Now Use Access Token from Previous Step to Access the REST API
 ===========================================
 
-An Access Token is a credential that can be used by an application to access an API. Below is an example to invoke the ``nodeList`` REST API of Fire Insights.
+An Access Token is a credential that can be used by an application to access an API. Below is an example to invoke the ``nodeList`` REST API of the Fire Insights.
 
 .. figure:: ../_assets/tutorials/token/token2.PNG
    :alt: Token

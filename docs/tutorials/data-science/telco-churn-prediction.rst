@@ -1,9 +1,9 @@
 Telco Churn Prediction
 ======================
 
-Fire Insights enable us to create a Random Forest Model to predict churn and evaluate the results.
+Fire Insights enables us to create a Random Forest Model to predict churn and evaluate the results.
 
-The dataset is artificial Churn Data based on claims, similar to the real world. It is taken from the following locations. 
+The dataset is artificial Churn Data based on claims, similar to the real world. It is taken from the below locations: 
 
 - https://www.sgi.com/tech/mlc/db/
 - https://www.sgi.com/tech/mlc/db/churn.all
@@ -19,7 +19,7 @@ Below is the workflow for creating a model for Churn Prediction.
    :alt: Machine Learning
    :width: 90%
    
-The workflow performs the following steps:
+The workflow:
 
 - Reads in the dataset from a tab separated file.
 - Applies StringIndexer on the field "intl_plan".
@@ -27,7 +27,7 @@ The workflow performs the following steps:
 - Splits the dataset into (.8, .2).
 - Performs Random Forest Classification.
 - Performs prediction using the model generated on the remaining 20% dataset.
-- Finally evaluates the prediction results.
+- Finally evaluates the prediction result.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning
@@ -36,7 +36,7 @@ The workflow performs the following steps:
 VectorAssembler
 +++++++++++++++
 
-In the VectorAssembler, select the fields you want to include in the model. Only the numeric fields are displayed as VectorAssembler supports only the numeric fields.
+In the VectorAssembler, select the fields you want to include in the model. As the VectorAssembler supports only the numeric fields, only the numeric fields are displayed.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
    :alt: Machine Learning

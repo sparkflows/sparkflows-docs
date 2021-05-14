@@ -8,7 +8,7 @@ Stock forecasting helps production units to get an idea about raw material, pric
 Dataset
 --------
 
-Dataset contains 4 columns as follows:-
+Dataset contains 4 columns as below:-
 
 * Date - Date when product was sold
 * Store - Store id from where product got sold
@@ -40,7 +40,7 @@ Node 1 - ReadCSV
 
 
 
-* Below are the first 10 rows of data
+* Below are the first 10 rows of data.
 * Columns contain data as datetype, store and item which are categorical variables and sales which is a continuous variable.
 
 
@@ -61,14 +61,14 @@ Node 2 - RowFilter
 Node 3 - Prophet
 ++++++++++++++++
 
-Used Facebook Prophet to create the ML model.
+Uses Facebook Prophet to create the ML model.
 
 **General Section of Prophet Model**
 
-* Set Date column in DS column field
-* Y is the target variable. Set it to the Sales column
-* Set Growth as linear or logistic
-* We are using prophet model so it is sufficient to select seasonality in auto mode
+* Sets Date column in DS column field
+* Y is the target variable. Sets it to the Sales column
+* Sets Growth as linear or logistic
+* We use prophet model so that it is sufficient to select seasonality in auto mode
 * Set mode of seasonality as additive or multiplicative
 * Set confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
 
@@ -81,7 +81,7 @@ Used Facebook Prophet to create the ML model.
 
 * FUTURE PERIOD block gives the number of steps we want to predict 
 * FREQUENCY can be Monthly or Daily 
-* Set INCLUDE HISTORY to true for testing the model and False for production
+* Set INCLUDE HISTORY to True for testing the model and False for production
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting
@@ -121,7 +121,7 @@ Node 5 - JoinUsingSQL
 
 **Schema Section of JoinUsingSQL node**
 
-* Follow the same steps as in Schema Section of SQL node
+* Follow the same steps as in Schema Section of SQL Node
 
 .. figure:: ../../_assets/tutorials/time-series/join_schema.png
    :alt: Stock Forecasting

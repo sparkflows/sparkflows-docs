@@ -72,7 +72,7 @@ You can predict using the model on the test dataset.
 Evaluate
 ++++++++
 
-You can evaluate the quality of our results.
+You can evaluate the quality of our result.
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
    :alt: Machine Learning
@@ -83,7 +83,7 @@ Execute Workflow
 
 Next, you can execute the workflow. 
    
-From the evaluator, you get the following results:
+From the evaluator, you get the below result:
 
 .. figure:: ../../_assets/tutorials/machine-learning/telco-churn-prediction/4.PNG
    :alt: Machine Learning

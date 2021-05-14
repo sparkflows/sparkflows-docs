@@ -87,7 +87,7 @@ First Dataset
    :alt: Fire Market Prediction
    :width: 100%
 
-Column Filter
+ColumnFilter
 -------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/4.png

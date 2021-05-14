@@ -1,4 +1,4 @@
-Acquire Token using Postman and Grant Type - Password
+Acquire Token using Postman and Grant Type- Password
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This document describes the steps to obtain and use OAuth 2.0 access tokens using Postman.

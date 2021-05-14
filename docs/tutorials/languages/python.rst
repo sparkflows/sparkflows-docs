@@ -5,7 +5,7 @@ Fire provides a Pyspark processer in which Python code can be written. The Pyspa
 
 Below are a few code examples in Python.
 
-Adding house_type field
+Adding House Type Field
 ======================================
 
 ::

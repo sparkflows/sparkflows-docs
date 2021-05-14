@@ -3,7 +3,7 @@ Clustering Houses
 
 Here we have a housing dataset available to us. We need to cluster the houses in the best possible way.
 
-We will perform the clustering usign KMeans algorithm availabe in Apache Spark ML.
+We will perform the clustering using KMeans algorithm availabe in Apache Spark ML.
 
 Dataset
 -------
@@ -26,12 +26,12 @@ Workflow
 Below is the workflow for creating a KMeans model for clustering the houses. It does the following:
 
 * Reads data from a sample dataset.
-* Prints the results.
-* Assembles the features for predictions.
+* Prints the result.
+* Assembles the features for prediction.
 * Splits it.
 * Perform KMeans Clustering.
 * Prediction.
-* Print the prediction results.
+* Print the prediction result.
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/1.png
    :alt: Clustering Houses
@@ -48,7 +48,7 @@ Below are the parameters which we use:
    :alt: Clustering Houses
    :width: 80%
    
-After reading, the ``Read CSV`` node output looks like below:
+After reading, the ``Read CSV`` node, output looks like below:
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/2a.png
    :alt: Clustering Houses
@@ -58,7 +58,7 @@ Assemble the features for predictions
 -------------------------------------
 
 Next we assemble the features we want to use in the KMeans Clustering. We use the ``Vector Assembler`` node for it.
-More details for Vector Assemblem in Apache Spark ML can be found here : https://spark.apache.org/docs/latest/ml-features.html#vectorassembler
+More details for Vector Assembler in Apache Spark ML can be found here : https://spark.apache.org/docs/latest/ml-features.html#vectorassembler
 
 
 .. figure:: ../../_assets/tutorials/machine-learning/clustering-houses/4.png

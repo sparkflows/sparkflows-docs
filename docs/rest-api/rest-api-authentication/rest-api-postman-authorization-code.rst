@@ -1,16 +1,16 @@
-Acquire token using Postman - Authorization code
+Acquire Token Using Postman - Authorization Code
 -------------------------------------
 
 The Authorization Code grant type is used to exchange an authorization code for an access token.
 
 
-Get the access token
+Get the Access Token
 ====================
 
-The app can obtain an access token that provides temporary, secure access to it. Below are steps involved to request an Access_token 
+The app can obtain an access token that provides temporary and secure access to it. Below are the steps involved to request an Access Token. 
 
 
-Click on Authorization tab
+Click on Authorization Tab
 ==================
 
 - Select Type OAuth 2.0
@@ -26,7 +26,7 @@ Click on Request Token
 It will redirect to sparkflows login URL Page.
 
 
-Fill the username and password and click on signIn
+Fill the Username and Password and Click on SignIn
 ==================
 
 .. figure:: ../_assets/tutorials/token/token4.PNG
@@ -46,7 +46,7 @@ OAuth is an authentication protocol that allows you to approve one application i
    :align: center
    :width: 60%
 
-Click on Use token
+Click on Use Token
 ==================
 
 A security token (sometimes called an authentication token) is a small hardware device that the owner carries to authorize access to a network service.
@@ -57,7 +57,7 @@ A security token (sometimes called an authentication token) is a small hardware 
    :align: center
    :width: 60%
 
-Using tokens for accessing REST API
+Using Tokens for Accessing REST API
 ===================================
 
 Using above token we can access the REST API.

@@ -35,9 +35,11 @@ This workflow was simply created via the drag and drop capabilities of the Fire 
    
 This workflow:
 
-- Uses the DatasetStructured Node. Reads in the data from 2 different datasets - Farmer's Markets and Income Tax Return data per zip code (both are comma separated files):
-- Instead of a CSV, one can easily read it from a data-lake or a Persistence Store (HDFS/RDBMS/NoSQL).
-- Using the ColumnFilter Node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so that we can do further computation.
+- Uses the DatasetStructured Node: Reads in the data from 2 different datasets - Farmer's Markets and Income Tax Return data per zip code (both are comma separated files).
+
+  - Instead of a CSV, one can easily read it from a data-lake or a Persistence Store (HDFS/RDBMS/NoSQL).
+  
+- Uses the ColumnFilter Node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so that we can do further computation.
   
   - State
   - Zip code
@@ -49,36 +51,37 @@ This workflow:
   - A00900
   - A01000
   
-- Using the SQL Node: Execute the following SQL to get the various aggregates from the filtered data from the Income Tax Return dataset
+- Uses the SQL Node: Execute the following SQL to get the various aggregates from the filtered data from the Income Tax Return dataset.
   
-  - select zipcode, sum(MARS1) as single_returns, sum(MARS2) as joint_returns, sum(NUMDEP) as numdep, sum(A02650) as total_income_amount, sum(A00300) as taxable_interest_amount from fire_temp_table group by zipcode
+  - Select zipcode, sum(MARS1) as single_returns, sum(MARS2) as joint_returns, sum(NUMDEP) as numdep, sum(A02650) as total_income_amount, sum(A00300) as taxable_interest_amount from fire_temp_table group by zipcode.
+
+- Uses another SQL Node: Extract certain columns from the Farmer's_Market dataset using the below SQL query.
   
-
-- Using another SQL Node: Extract certain columns from the Farmers_Market dataset using the below SQL query:
+  - Select cast (zip as int) as zip, count(*) as count from fire_temp_table group by zip.
   
-  - select cast(zip as int) as zip, count(*) as count from fire_temp_table group by zip
+- Uses the AllJoin Node: Join the two filtered datasets using the below query.
   
-- Using the AllJoin node - Join the two filtered datasets using the following query:
+  - Select  a.zipcode , a.single_returns, a.joint_returns, a.numdep, a.total_income_amount, a.taxable_interest_amount, b.count, b.zip from  fire_temp_table1 a LEFT OUTER JOIN fire_temp_table2 b ON(a.zipcode=b.zip)
   
-  - select  a.zipcode , a.single_returns, a.joint_returns, a.numdep, a.total_income_amount, a.taxable_interest_amount, b.count, b.zip from  fire_temp_table1 a LEFT OUTER JOIN fire_temp_table2 b ON(a.zipcode=b.zip)
+- Uses the CastColumnType Node: Change the column type of the count column from Long to Double.
+
+- Uses the ImputingWithConstant Node: Fill the blanks across all the columns with constants.
+
+- Uses the VectorAssembler Node: Concatenate columns single_returns, joint_returns, numdep, total_income_amount, taxable_interest_amount into a feature vector feature_vector.
+
+- Uses Split Node: Split the dataset into (.7, .3).
+
+  - 70% rows are used for training and 30% are used for prediction.
   
-- Using the CastColumnType Node - change the column type of the count column from Long to Double
+  - The model is evaluated based on how it predicts on the remaining 30%.
 
-- Using the ImputingWithConstant node, fill the blanks across all columns with constants.
+- Uses the LinearRegression Node - Performs the LinearRegression.
 
-- Using the VectorAssembler node, concatenate columns single_returns, joint_returns, numdep, total_income_amount, taxable_interest_amount into a feature vector feature_vector
-
-- Using Split node: Split the dataset into (.7, .3)
-
-  - 70% rows are used for training and 30% are used for prediction
+  - This is a Spark MLLib provided algorithm that Sparkflows exposes to you as a plug-and-play “node”. LinearRegression from SparkML.
   
-- The model is evaluated based on how it predicts on the remaining 30%.
+- Uses Predict Node: Perform prediction using the model generated on the remaining 30% dataset.
 
-- Using the LinearRegression Node - Perform LinearRegression:
-
-- This is a Spark MLLib provided algorithm that Sparkflows exposes to you as a plug-and-play “node”. LinearRegression from SparkML.
-- Using Predict Node: Perform prediction using the model generated on the remaining 30% dataset
-- Finally evaluate the result using the PrintNRows node.
+- Evaluates the result using the PrintNRows Node.
 
 First Dataset
 --------------
@@ -115,7 +118,7 @@ SQL
    :alt: Fire Market Prediction
    :width: 100%
    
-AllJoin - Join the two datasets
+AllJoin - Join the Two Datasets
 -------------------------------
 
 .. figure:: ../../_assets/tutorials/machine-learning/farmer-market-prediction/8.png

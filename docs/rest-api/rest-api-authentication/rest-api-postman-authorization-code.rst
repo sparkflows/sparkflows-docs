@@ -7,7 +7,7 @@ The Authorization Code grant type is used to exchange an authorization code for 
 Get the access token
 ====================
 
-The app can obtain an access token that provides temporary, secure access to it. Below are steps involved to Request an Access_token 
+The app can obtain an access token that provides temporary, secure access to it. Below are steps involved to request an Access_token 
 
 
 Click on Authorization tab
@@ -39,7 +39,7 @@ It will then display the OAuth Approval page.
 OAuth Approval
 ==================
 
-OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password. Below is the Screenshot for updating the Oauth approval.
+OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password. Below is the screenshot for updating the Oauth Approval.
 
 .. figure:: ../_assets/tutorials/token/token5.PNG
    :alt: Token

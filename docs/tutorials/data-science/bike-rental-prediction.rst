@@ -1,22 +1,22 @@
 Bike Rental Prediction
 ======================
 
-This workflow reads in a dataset. It then predicts the number of bikes to be rented in any given hour.
+This workflow reads in a dataset and then it predicts the number of bikes to be rented in any given hour.
 
 Workflow
 -------
 
-Below is the workflow. It does the following:
+The below workflow:
 
 * Reads data from a sample dataset.
 * Extracts hour from time using datatype timestamp.
 * Calculates Count to datatype double.
 * Assembles features for modelling.
-* Calculates vectorindexer.
-* Splits it.
-* GBTRegression.
-* Prediction.
-* RegressionEvaluator.
+* Calculates VectorIndexer.
+* Splits the dataset.
+* Uses GBTRegression Node.
+* Makes prediction on future data.
+* Uses RegressionEvaluator Node.
 
 .. figure:: ../../_assets/tutorials/machine-learning/bike-rental-prediction/1.png
    :alt: Bike Rental Prediction
@@ -25,7 +25,7 @@ Below is the workflow. It does the following:
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset file.
+It reads sample Dataset File.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -41,10 +41,10 @@ Processor Output
    :alt: Bike Rental Prediction
    :width: 100%
    
-Extract hour from time using datatype timestamp
+Extract Hour from Time using Datatype Timestamp
 ------------------------------------------------
 
-It extracts hour from time using datatype timestamp using DateTimeFieldExtract Node.
+It extracts hour from time using datatype timestamp using the DateTimeFieldExtract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -60,10 +60,10 @@ Processor Output
    :alt: Bike Rental Prediction
    :width: 100%
    
-Calculate Count to datatype double
+Calculate Count to Datatype Double
 -----------------------------------
 
-It calculates the Cast Count field to datatype double using CastColumnType Node.
+It calculates the cast count field to datatype double using the CastColumnType Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -79,10 +79,10 @@ Processor Output
    :alt: Bike Rental Prediction
    :width: 100%
 
-Assemble features for modelling
+Assemble Features for Modelling
 ---------------------------------
 
-It assembles features columns into a feature vector using VectorAssembler Node.
+It assembles features column into a feature vector using the VectorAssembler Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -101,7 +101,7 @@ Processor Output
 Calculate VectorIndexer
 -----------------------
 
-It identifies categorical features and index them using VectorIndexer Node. 
+It identifies categorical features and index them using the VectorIndexer Node. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -120,7 +120,7 @@ Processor Output
 Split it
 ---------
 
-It will split our dataset into separate training and test sets using Split Node.
+It will split our dataset into separate training and test sets using the Split Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -133,7 +133,7 @@ Processor Configuration
 GBTRegression
 --------------
 
-It validates held out test sets in order to know about high confidence using GBTRegression Node.
+It validates held out test sets in order to know about high confidence using the GBTRegression Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -146,7 +146,7 @@ Processor Configuration
 Prediction
 -----------
 
-It will make prediction on future data using Prediction Node.
+It will make prediction on future data using the Prediction Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -160,7 +160,7 @@ Processor Configuration
 RegressionEvaluator
 -------------------
 
-It validates held out test sets in order to know about high confidence using RegressionEvaluator Node.
+It validates held out test sets in order to know about high confidence using the RegressionEvaluator Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

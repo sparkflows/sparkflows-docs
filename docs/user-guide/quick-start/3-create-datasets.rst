@@ -5,8 +5,8 @@ Before any data be used in a workflow, it needs to be wrapped in a dataset. If y
 
 The steps involved in creating a dataset are:
 
-- *Open the Project where you want to create dataset*
-- *Click on "Datasets" tab*
+- *Open the Project where you want to create a dataset*
+- *Click on the "Datasets" tab*
 - *Click on "Create" and choose "Datasets"*
 - *Select your dataset type and enter the fields in the dialog*
 - *Update the schema of the dataset*
@@ -29,11 +29,11 @@ In the pop-up choose “CSV” and then click “OK”.
 
 Fill in the required fields as below.
 
-- *Name* : Name of the new dataset 
-- *Description* : Description of the new dataset
-- *Has Header Row* : Indicate whether the dataset has a header row specifying the name of the columns or not
-- *Delimiter* : Indicates the delimiter to be used between the fields in the data
-- *Path* : Path for the location of the file or directory containing the data files for the dataset
+- *Name*: Name of the new dataset 
+- *Description*: Description of the new dataset
+- *Has Header Row*: Indicate whether the dataset has a header row specifying the name of the columns or not
+- *Delimiter*: Indicates the delimiter to be used between the fields in the data
+- *Path*: Path for the location of the file or directory containing the data files for the dataset
 
 
  
@@ -45,7 +45,7 @@ Fill in the required fields as below.
 Now click on "Update dataset/schema" to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.
-Can view file after browse on clicking view file button next to browse.
+Can view file after browse by clicking view file button next to browse.
  
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset

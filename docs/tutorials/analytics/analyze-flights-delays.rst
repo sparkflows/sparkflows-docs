@@ -12,9 +12,8 @@ The below workflow:
 * Prints the sample datasets result.
 * Casts required columns to double.
 * Casts required columns to string.
-* Creates index columns.
-* Executes the SQL Query to find the flights which are delayed.
-* Prints the result.
+* SQL query to get the status.
+* Visualize the status count.
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
    :alt: Analyze Flights Delays
@@ -79,26 +78,6 @@ Processor Output
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.png
    :alt: Analyze Flights Delays
    :width: 80%
-
-Create Index Columns from String Columns
-----------------------------------------
-
-Create new columns with the index values from the string columns.
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6.png
-   :alt: Analyze Flights Delays
-   :width: 80%
-   
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/6a.png
-   :alt: Analyze Flights Delays
-   :width: 80%
  
    
 Execute the SQL Queries   
@@ -113,17 +92,10 @@ Processor Configuration
    :alt: Analyze Flights Delays
    :width: 80%
    
-Processor Output
-^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8a.png
-   :alt: Analyze Flights Delays
-   :width: 80%
 
-Print the Result
+Visualize the status count
 ------------------
-
-It prints the final result.
 
 
 Processor Configuration

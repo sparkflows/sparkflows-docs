@@ -12,7 +12,7 @@ The Scala node does the below:
 
 Below are a few code examples in Scala.
 
-Calculate count of houses by bathrooms
+Calculate Count of Houses by Bathrooms
 ======================================
 
 ::
@@ -21,7 +21,7 @@ Calculate count of houses by bathrooms
     outDF.registerTempTable("outDF")
 
 
-For each bedroom type, find the house with the lowest price
+For Each Bedroom Type, Find the House with the Lowest Price
 ===========================================================
 
 ::

@@ -3,7 +3,7 @@ NameFinder
 
 Fire provides NameFinder Processor to easily detect named entities and numbers in text. It takes in a column name in the input DataFrame containing text. It then detects the entities and stores them into a new column.
 
-To be able to detect entities the NameFinder needs a model. The model is dependent on the language and entity type it was trained for.
+To be able to detect entities, the NameFinder needs a model. The model is dependent on the language and entity type it was trained for.
 
 https://opennlp.apache.org/documentation/1.6.0/manual/opennlp.html#tools.namefind.recognition.cmdline
 

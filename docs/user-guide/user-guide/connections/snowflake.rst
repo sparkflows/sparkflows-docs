@@ -12,7 +12,7 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Specify your Snowflake Username, Password and Url and save the details.
+Specify your Snowflake Username, Password, and Url and save the details.
 
 .. figure:: ../../../_assets/connections/snowflake-add-con.PNG 
    :alt: snowflake
@@ -27,7 +27,7 @@ Read Snowflake Node
 -------------------
 Fire now enables you to read data from snowflake using this node.
 
-List of all created snowflake connection will be listed and user can choose any one to read data.
+Lists of all created snowflake connections will be listed and users can choose anyone to read data.
 
 Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
 
@@ -41,11 +41,11 @@ Write Snowflake Node
 --------------------
 Fire now enables you to write data to snowflake using this node.
 
-List of all created snowflake connection will be listed and user can choose any one to read data.
+A list of all created snowflake connections will be listed and user can choose anyone to read data.
 
 Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
 
-For eg. Can read data from csv and write to snowflake.
+For eg. Can read data from CSV and write to the snowflake.
 
 .. figure:: ../../../_assets/connections/write_to_snowflake_node.PNG
    :alt: snowflake

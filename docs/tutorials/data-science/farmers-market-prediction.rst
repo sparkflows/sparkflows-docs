@@ -39,7 +39,7 @@ This workflow:
 
   - Instead of a CSV, one can easily read it from a data-lake or a Persistence Store (HDFS/RDBMS/NoSQL).
   
-- Uses the ColumnFilter Node: Filter out the following columns from the Income Tax Return dataset and pass it to a SQL query node, so that we can do further computation.
+- Uses the ColumnFilter Node: Filters out the following columns from the Income Tax Return dataset and passes it to a SQL query node, so that we can do further computation.
   
   - State
   - Zip code
@@ -55,21 +55,21 @@ This workflow:
   
   - Select zipcode, sum(MARS1) as single_returns, sum(MARS2) as joint_returns, sum(NUMDEP) as numdep, sum(A02650) as total_income_amount, sum(A00300) as taxable_interest_amount from fire_temp_table group by zipcode.
 
-- Uses another SQL Node: Extract certain columns from the Farmer's_Market dataset using the below SQL query.
+- Uses another SQL Node: Extracts certain columns from the Farmer's_Market dataset using the below SQL query.
   
-  - Select cast (zip as int) as zip, count(*) as count from fire_temp_table group by zip.
+  - Selects cast (zip as int) as zip, count(*) as count from fire_temp_table group by zip.
   
-- Uses the AllJoin Node: Join the two filtered datasets using the below query.
+- Uses the AllJoin Node: Joins the two filtered datasets using the below query.
   
-  - Select  a.zipcode , a.single_returns, a.joint_returns, a.numdep, a.total_income_amount, a.taxable_interest_amount, b.count, b.zip from  fire_temp_table1 a LEFT OUTER JOIN fire_temp_table2 b ON(a.zipcode=b.zip)
+  - Selects  a.zipcode , a.single_returns, a.joint_returns, a.numdep, a.total_income_amount, a.taxable_interest_amount, b.count, b.zip from  fire_temp_table1 a LEFT OUTER JOIN fire_temp_table2 b ON(a.zipcode=b.zip)
   
-- Uses the CastColumnType Node: Change the column type of the count column from Long to Double.
+- Uses the CastColumnType Node: Changes the column type of the count column from Long to Double.
 
-- Uses the ImputingWithConstant Node: Fill the blanks across all the columns with constants.
+- Uses the ImputingWithConstant Node: Fills the blanks across all the columns with constants.
 
 - Uses the VectorAssembler Node: Concatenate columns single_returns, joint_returns, numdep, total_income_amount, taxable_interest_amount into a feature vector feature_vector.
 
-- Uses Split Node: Split the dataset into (.7, .3).
+- Uses Split Node: Splits the dataset into (.7, .3).
 
   - 70% rows are used for training and 30% are used for prediction.
   
@@ -79,7 +79,7 @@ This workflow:
 
   - This is a Spark MLLib provided algorithm that Sparkflows exposes to you as a plug-and-play “node”. LinearRegression from SparkML.
   
-- Uses Predict Node: Perform prediction using the model generated on the remaining 30% dataset.
+- Uses Predict Node: Performs prediction using the model generated on the remaining 30% dataset.
 
 - Evaluates the result using the PrintNRows Node.
 

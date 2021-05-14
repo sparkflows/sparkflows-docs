@@ -62,7 +62,7 @@ Processor Output
 Cast Column to String
 ---------------------------------
 
-It casts for the new datatype string using the CastColumn Type Node.
+It casts for the new Datatype string using the CastColumn Type Node.
 
 
 Processor Configuration

@@ -44,7 +44,7 @@ Processor Output
 Extract Hour from Time using Datatype Timestamp
 ------------------------------------------------
 
-It extracts hour from time using Datatype Timestamp using the DateTimeFieldExtract Node.
+It extracts hour from the timestamp column using the DateTimeFieldExtract Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -60,10 +60,10 @@ Processor Output
    :alt: Bike Rental Prediction
    :width: 100%
    
-Calculate Count to Datatype Double
+Cast Count to Double type
 -----------------------------------
 
-It calculates the cast count field to Datatype double using the CastColumnType Node.
+It casts count field to double using the CastColumnType Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -82,7 +82,7 @@ Processor Output
 Assemble Features for Modelling
 ---------------------------------
 
-It assembles features column into a feature vector using the VectorAssembler Node.
+It assembles the columns to be used in model building into a feature vector using the VectorAssembler Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

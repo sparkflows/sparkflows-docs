@@ -8,13 +8,7 @@ We will perform the clustering using KMeans algorithm availabe in Apache Spark M
 Dataset
 -------
 
-We have taken the Housing dataset from .....
-
-It looks like below:
-
-IMAGE
-
-The columns in the dataset are pretty self-explanatory.
+The dataset is a Housing dataset containing column like price, number of bedrooms, number of bathrooms etc.
 
 * bedrooms : number of bedrooms in the house
 * price : the price at which the house was sold

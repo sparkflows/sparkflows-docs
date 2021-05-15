@@ -1,13 +1,13 @@
 Accessing REST API Using Python & Session
 ==================
 
-The Fire Insights REST APIs can be accessed with Python. This page provides 2 examples of accessing the REST API's with Python.
+Fire Insights REST APIs can be accessed with Python. This page provides two examples of accessing the REST API's with Python.
 
 
 Get List of Processors
 ----------------------
 
-The below code in Python gets the list of Processors in the Fire Insights using the REST API and prints them.
+The below code in Python gets the list of Processors in Fire Insights using the REST API and prints them out.
 
 .. code-block:: python
    :linenos:

@@ -1,9 +1,9 @@
-REST API Examples Using Java
+REST API Examples using Java
 ==========
 
-The Fire Insights provides REST API for interacting with it.
+Fire Insights provides REST APIs for interacting with it.
 
-Below are the examples of using the tokens. The first step is to log in with your username and password, and acquire the token.
+Below are the examples of using tokens. The first step is to log in with your username and password, and acquire the token.
 
 Swagger is also enabled and is available at http://<machine-name>:8080/swagger-ui.html
 

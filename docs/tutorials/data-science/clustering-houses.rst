@@ -17,7 +17,7 @@ The dataset is a Housing dataset containing column like price, number of bedroom
 Workflow
 -------
 
-Below is the workflow for creating a KMeans model for clustering the houses which:
+Below is the workflow for creating a KMeans model for clustering the houses. It does the following:
 
 * Reads data from a sample dataset.
 * Prints the result.

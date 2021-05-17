@@ -27,7 +27,7 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 
 .. figure:: ../_assets/configuration/wheelfile.PNG
    :alt: Wheel File
-   :width: 100%
+   :width: 90%
 
 1. Login to ``Databricks Cluster``
 
@@ -37,7 +37,7 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
    
 3. Create a new Library
 
@@ -45,23 +45,23 @@ You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provi
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
 
 .. figure:: ../_assets/configuration/create.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
    
 .. figure:: ../_assets/configuration/install.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
    
 On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libraries``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket which is accessible from Databricks Cluster.
 
@@ -71,13 +71,13 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
 
 .. figure:: ../_assets/configuration/s3wheel.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Once it is installed successfully, you can see the python wheel inside Library is up.
 
 .. figure:: ../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 
 Install Python dependencies
@@ -89,7 +89,7 @@ You need to install the python dependencies required by Fire Insights on the mac
 
 .. figure:: ../_assets/configuration/pip_dependency.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Note: Make sure that pip etc. is already installed on that machine
 
@@ -103,7 +103,7 @@ Copy the ``JDBC Driver`` jar to pyspark jar path, Once it is copied successfully
 
 .. figure:: ../_assets/configuration/copy_view.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
    
  
 
@@ -114,7 +114,7 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
 
 .. figure:: ../_assets/configuration/awssdkjar.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
 
@@ -124,7 +124,7 @@ Use the command below to install it on the Fire Insights machine::
 
 .. figure:: ../_assets/configuration/scorecard-machine.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Install it on your Databricks cluster with the below::
 
@@ -133,7 +133,7 @@ Install it on your Databricks cluster with the below::
 
 .. figure:: ../_assets/configuration/scorecard.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Install fbprophet package on databricks
 -------------------------------------
@@ -154,7 +154,7 @@ add above in a script file, upload in DBFS and go to Advanced Options, select In
 
 .. figure:: ../_assets/configuration/initscript.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------
@@ -165,13 +165,13 @@ Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even S3
 
 .. figure:: ../_assets/configuration/workflow.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 You can ``UPLOAD`` it, using DBFS Browser too.
 
 .. figure:: ../_assets/configuration/databr_wf.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Configure the Uploaded Library in Fire Insights
 ------------------------------------
@@ -184,13 +184,13 @@ If you have Uploaded in ``DBFS`` path.
 
 .. figure:: ../_assets/configuration/db_configure.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 If you have Uploaded in ``S3`` path.
 
 .. figure:: ../_assets/configuration/s3db_configure.PNG
    :alt: Databricks
-   :width: 100%
+   :width: 90%
 
 Job Submission using Pyspark Engine
 -----------------------------------
@@ -199,6 +199,6 @@ Now You can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
 .. figure:: ../_assets/configuration/job_1.PNG
    :alt: Submit Job
-   :width: 100%
+   :width: 90%
 
 

@@ -6,7 +6,7 @@ Fire Insights allows you to define your datasets. These datasets are then used i
 
 **Schema**
  
-  * Datasets have Schema defined for them. This allows Fire Insights to read and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning, etc.
+  * Datasets have schema defined for them. This allows Fire Insights to read and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning, etc.
  
 **File formats**
  

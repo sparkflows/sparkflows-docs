@@ -4,8 +4,8 @@ Executing Workflows
 Fire Workflows can be executed in the following ways:
  
  * **Interactively within the User Interface**
- * **Submitting the workflows using spark-submit through the command line**
- * **Scheduling for execution with your scheduler of choice**
+ * **Submitting the workflows using Spark-Submit through the command line**
+ * **Scheduling for execution with your Scheduler of choice**
  
 Interactively within the User Interface
 ------------------------------------------

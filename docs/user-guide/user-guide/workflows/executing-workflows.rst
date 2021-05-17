@@ -17,7 +17,7 @@ Workflows can be executed from the browser by going into the Execute page of the
    :alt: Workflow
    :width: 90%
 
-Executing Workflows with spark-submit
+Executing Workflows with Spark-Submit
 --------------------------------------
  
 Workflows are saved as text files in JSON format.
@@ -66,10 +66,10 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
    :alt: Sparkflows Json Workflow
  
  
-Scheduling Workflow execution with Scheduler of choice
+Scheduling Workflow Execution with Scheduler of Choice
 ----------------------------------------------------------
  
-Since Fire workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduling the execution of the workflows.
+Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
 - Click on the 'Schedule' Button of Workflow we want to schedule
 
@@ -102,7 +102,7 @@ Debugging Workflows
  
 Many times it is helpful to be able to debug the workflows. One easy way is to check the Debug Checkbox in the UI when executing the workflow.
  
-Running in debug mode does a few things:
+Running in Debug Mode does a few things:
 
 * Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
 * Displays the number of records processed at each stage.

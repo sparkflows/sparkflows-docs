@@ -66,6 +66,12 @@ Teradata
 
 https://dwgeek.com/steps-to-connect-teradata-database-from-spark-examples.html/
 
+Azure Synapse
++++++++++++++
+
+- https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview
+- https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
+
 
 JDBC Drivers
 -------

@@ -4,37 +4,37 @@ HDFS REST API
 Overview
 --------
 
-The HDFS REST API's, allow you to interact with the HDFS of the Hadoop Cluster Sparkflows is connected to.
+The HDFS REST APIs allow you to interact with the HDFS of the Hadoop Cluster Sparkflows is connected to.
 
-Below are the various HDFS API's available in Sparkflows
+Below are the various HDFS APIs available in Sparkflows.
 
-They should be executed after you have logged into Sparkflows
+They should be executed after you have logged into Sparkflows.
 
 Get List of Files in Directory
 ----------------
 
-Returns list of all the files on hdfs in the users home directory
+Returns list of all the files on HDFS in the users home directory.
 ::
 
   curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs'
   
-Create HDFS directory
+Create HDFS Directory
 ---------------------
 
 ::
 
    curl -X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/dir/create'
 
-Get list of files in HDFS in the specified directory
+Get list of files in HDFS in the Specified Directory
 --------------------------------------------------------
  
-Returns list of files in HDFS in the specified directory(/user/sparkflows/)
+Returns list of files in HDFS in the Specified Directory(/user/sparkflows/)
 
 ::
 
    curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/hdfs/dir/open?path=%2Fuser%2Fsparkflows%2F'
    
-Get list of all the files on hdfs in the users home directory in sorted order
+Get list of all the files on HDFS in the users home directory in sorted order
 ----------------------------------------------------------------------------------
 
 *sortPara: alphabetical
@@ -63,7 +63,7 @@ Deletes a file from HDFS
 
   curl -X DELETE --header 'Accept: text/plain' 'http://localhost:8080/api/v1/hdfs/files/delete?path=%2Fuser%2Fsparkflows%2FAirline.csv'
    
-Download HDFS file
+Download HDFS File
 ------------------
 
 *path: /user/sparkflows/Airline.csv

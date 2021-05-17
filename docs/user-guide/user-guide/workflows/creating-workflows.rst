@@ -17,7 +17,7 @@ Click on 'Create New Workflow' for creating a new workflow. It supports two engi
 Adding New Nodes to the Workflow
 ===============
 
-  * Workflows editor has a list of Nodes menu on the LHS. Clicking on any of the Nodes creates it in the workspace.
+  * Workflows editor has a list of nodes menu on the LHS. Clicking on any of the nodes creates it in the workspace.
  
 Creating Edges
 ===============
@@ -39,7 +39,7 @@ Saving Workflow
 View Workflows
 ===============
 
-You can view the workflows by going to the workflow page inside specific applications.
+You can view the workflows by going to the workflow page inside the specific applications.
 
 .. figure:: ../../../_assets/user-guide/workflow/1.PNG
    :alt: workflow

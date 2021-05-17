@@ -45,7 +45,7 @@ In the above:
  
     --var name1=value1   --var name2=value2    --var name3=value3
  
-In the Workflow, these variables can be used with $name1    $name2
+In the Workflow, these variables can be used with $name1    $name2.
 Specific Nodes make use of the variables by substituting $name with the value provided for the name.
  
 For running the workflow in Debug Mode, add the following parameters::

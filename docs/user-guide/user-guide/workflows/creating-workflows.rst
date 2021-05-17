@@ -6,7 +6,7 @@ Fire Insights enables users to define end-to-end workflows for data pipelining, 
 Define New Workflow
 ===============
 
-Click on 'Create New Workflow' for creating a New Workflow. It supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
+Click on 'Create New Workflow' for creating a new workflow. It supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/2.PNG

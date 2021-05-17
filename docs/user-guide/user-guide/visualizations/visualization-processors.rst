@@ -1,9 +1,9 @@
 Visualization Processors
 ==============
 
-There are several Nodes/Processors in Fire that produce rich visualizations.
+There are several nodes/processors in Fire that produce rich visualizations.
 
-These Processors can be added to any workflow and are applied to the data.
+These processors can be added to any workflow and are applied to the data.
 
 Visualization Processors include:
 

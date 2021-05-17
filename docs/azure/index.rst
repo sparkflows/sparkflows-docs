@@ -1,15 +1,6 @@
 Azure Guide
 =========
 
-.. list-table:: Azure Integration
-   :widths: 40 40
-
-   * - :doc:`/azure/introduction`
-     - :doc:`/azure/running-on-standalone`
-   * - :doc:`/azure/running-on-standalone`
-     - :doc:`/azure/running-on-standalone`
-
-
 .. toctree::
    :maxdepth: 2
 

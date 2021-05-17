@@ -54,7 +54,7 @@ Specify any paramters for your workflow.
 Execute Workflow
 ================
 
-Once you have specified the parameters, click on the 'Execute' button. The results of execution are streamed back into your browser.
+Once you have specified the parameters, click on the 'Execute' button. The result of execution are streamed back into your browser.
 
 
 

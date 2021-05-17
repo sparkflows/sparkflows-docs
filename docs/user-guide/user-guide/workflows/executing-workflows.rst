@@ -48,7 +48,7 @@ In the above:
 In the workflow, these variables can be used with $name1    $name2
 Specific nodes make use of the variables by substituting $name with the value provided for the name.
  
-For running the workflow in debug mode, add the following parameters::
+For running the workflow in Debug Mode, add the following parameters::
 
     --debug true
     
@@ -56,7 +56,7 @@ For running the workflow in debug mode, add the following parameters::
 Workflow JSON
 --------------
  
-In Sparkflows, workflows are saved as JSON Strings. 
+In Fire Insights, workflows are saved as JSON Strings. 
   
 The View JSON Workflow page of the Workflow displays the JSON representations of the workflow. 
 
@@ -71,14 +71,14 @@ Scheduling Workflow execution with Scheduler of choice
  
 Since Fire workflows can be submitted with spark-submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on the Schedule Button of Workflow we want to schedule
+- Click on the 'Schedule' Button of Workflow we want to schedule
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
    :width: 90%  
  
  
-- Click on the Tab Schedule New Job for Workflow
+- Click on the Tab 'Schedule New Job' for Workflow
  
  .. figure:: ../../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow
@@ -90,7 +90,7 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
    :alt: Workflow
    :width: 60%    
 
-- Click on SUBMIT to save the changes.
+- Click on 'SUBMIT' to save the changes.
 
 .. figure:: ../../../_assets/user-guide/workflow/8.PNG
    :alt: Workflow
@@ -100,13 +100,13 @@ Since Fire workflows can be submitted with spark-submit, you can use your schedu
 Debugging Workflows
 -------------------
  
-Many times it is helpful to be able to debug the workflows. One easy way is to check the debug checkbox in the UI when executing the workflow.
+Many times it is helpful to be able to debug the workflows. One easy way is to check the Debug Checkbox in the UI when executing the workflow.
  
 Running in debug mode does a few things:
 
-* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Sparkflows' lazy execution from the picture.
+* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
 * Displays the number of records processed at each stage.
-* Display more information, for each SQL, etc. which are being executed.
+* Displays more information, for each SQL, etc. which are being executed.
 
 
 

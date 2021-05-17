@@ -52,7 +52,7 @@ You can view the file after browsing by clicking 'View' file button next to 'Bro
    :width: 90%
    
 
-If the data file did not have a header row, Fire Insights will give standard column names of "C0, C1" etc.
+If the data file did not have a header row, Fire Insights will give standard column names like 'C0, C1', etc.
 
 You can update the column names in the schema based on your data.
  

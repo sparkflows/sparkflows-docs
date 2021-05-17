@@ -27,7 +27,7 @@ Click on 'Create' and choose 'Dataset' from the dropdown.
 In the pop-up choose 'CSV' and then click 'OK'.
  
 
-Fill in the required fields as below.
+Fill in the required fields as below:
 
 - *Name*: Name of the new dataset 
 - *Description*: Description of the new dataset

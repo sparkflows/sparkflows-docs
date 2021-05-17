@@ -54,7 +54,7 @@ Cloudera Manager
 
 If you are using Cloudera Manager, you can set the above settings for impersonation in ``HDFS/Configuration``.
 
-.. figure:: ../_assets/installation/cloudera-manager-hdfs-configuration.png
+.. figure:: ../../_assets/installation/cloudera-manager-hdfs-configuration.png
    :scale: 100%
    :alt: Cloudera Configs
    :align: center
@@ -65,7 +65,7 @@ Ambari
 
 If you are using Ambari, you can set the above settings for impersonation in ``HDFS/Configuration under Custom core-site``
 
-.. figure:: ../_assets/installation/ambari-hdfs-configuration.png
+.. figure:: ../../_assets/installation/ambari-hdfs-configuration.png
    :scale: 100%
    :alt: Ambari Configs
    :align: center
@@ -77,7 +77,7 @@ Infer Hadoop Configs
 
 **Infer Hadoop Configs** button under Administration/Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
 
-.. figure:: ../_assets/installation/infer-hadoop-configs.png
+.. figure:: ../../_assets/installation/infer-hadoop-configs.png
    :scale: 100%
    :alt: Infer Hadoop Configs
    :align: center

@@ -1,16 +1,16 @@
 Executing Workflows
 ===================
 
-Fire Workflows can be executed in the following ways:
+The ways in which the Fire Workflows can be executed are: 
  
- * **Interactively within the User Interface**
- * **Submitting the workflows using Spark-Submit through the command line**
- * **Scheduling for execution with your Scheduler of Choice**
+ * **Interactively within the User Interface**.
+ * **Submitting the workflows using Spark-Submit through the command line**.
+ * **Scheduling for execution with your Scheduler of Choice**.
  
 Interactively within the User Interface
 ------------------------------------------
 
-Workflows can be executed from the browser by going into the Execute Page of the Workflow.
+Workflows can be executed from the browser by going into the Execute Page of the workflow.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/4.PNG

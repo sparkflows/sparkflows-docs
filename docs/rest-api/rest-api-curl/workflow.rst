@@ -1,7 +1,7 @@
 Workflow REST API
 ==================
 
-The Workflow REST API's, allow you to interact with the Workflows.
+The Workflow REST API's allow you to interact with the Workflows.
 
 Below are the various Workflow API's available in Fire Insights. They should be executed after you have logged into Fire Insights.
 
@@ -333,7 +333,7 @@ Get Latest WorkFlows
 
 Gets the latest workFlows available in the given application:
 
-An example request for getting Latest WorkFlows availble in application::
+An example request for getting latest WorkFlows availble in application::
 
 
 
@@ -517,7 +517,7 @@ An example response:
 Get Workflow Count
 ------------------
 
-Gets the count of the workflows in the given application.
+Gets count of the workflows in the given application.
 
 An example request for getting count of the Workflow::
 

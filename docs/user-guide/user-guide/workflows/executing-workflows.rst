@@ -10,7 +10,7 @@ The ways in which the Fire Workflows can be executed are:
 Interactively within the User Interface
 ------------------------------------------
 
-Workflows can be executed from the browser by going into the Execute Page of the workflow.
+Workflows can be executed from the browser by going into the Execute page of the workflow.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/4.PNG
@@ -45,8 +45,8 @@ In the above:
  
     --var name1=value1   --var name2=value2    --var name3=value3
  
-In the Workflow, these variables can be used with $name1    $name2.
-Specific Nodes make use of the variables by substituting $name with the value provided for the name.
+In the workflow, these variables can be used with $name1    $name2.
+Specific nodes make use of the variables by substituting $name with the value provided for the name.
  
 For running the workflow in Debug Mode, add the following parameters::
 

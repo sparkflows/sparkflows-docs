@@ -8,7 +8,7 @@ A typical workflow takes one or more datasets, cleans them and joins them, and c
 At a high level, creating a workflow involves the following steps:
 
 - *Open the Project where you want to create your workflow*
-- *Click "Workflows" tab*
+- *Click 'Workflows' tab*
 - *Create empty workflow*
 - *Add processors*
 - *Save workflow*
@@ -25,7 +25,7 @@ Open the project where you want to create your new workflow.
 
 Workflows Tab
 ============================
-Click the "Workflows" tab to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created earlier. 
+Click the 'Workflows' tab to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created earlier. 
 
 .. figure:: ../../_assets/tutorials/quickstart/7.PNG
    :alt: Quicstart
@@ -35,7 +35,7 @@ Click the "Workflows" tab to view the list of workflows already in the project. 
 Create Empty Workflow
 ========================
 
-Click the "Create" button and choose the type of workflow you want to create. In the "Create Workflow" page, enter a name, category, and description of the workflow. The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the "Customer Reports" category.
+Click the 'Create' button and choose the type of workflow you want to create. In the 'Create Workflow' page, enter a name, category, and description of the workflow. The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the 'Customer Reports' category.
 
 Click "Save" to save the empty workflow.
 

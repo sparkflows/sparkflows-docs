@@ -135,6 +135,22 @@ Install it on your Databricks cluster with the below::
    :alt: Databricks
    :width: 40%
 
+Install fbprophet package on databricks
+-------------------------------------
+
+Install needed python package for fbprophet using init script on databricks cluster
+
+::
+
+    #!/bin/bash
+    pip install pip==20.0.2
+    pip uninstall -y pystan
+    pip install pystan==2.19.1.1
+    pip install numpy==1.17.3
+    pip install fbprophet==0.7.1
+    
+ ::   
+
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------
 

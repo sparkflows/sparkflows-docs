@@ -22,4 +22,4 @@ After selecting the files, click 'Upload All'.
    :width: 60%
    
 
-To use CSV files in workflow, Fire Insights requires that you wrap them in datasets. In the next step, you will create datasets from the files you have just uploaded.   
+To use CSV files in the workflow, Fire Insights requires that you wrap them in datasets. In the next step, you will create datasets from the files you have just uploaded.   

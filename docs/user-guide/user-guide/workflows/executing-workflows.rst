@@ -5,12 +5,12 @@ Fire Workflows can be executed in the following ways:
  
  * **Interactively within the User Interface**
  * **Submitting the workflows using Spark-Submit through the command line**
- * **Scheduling for execution with your Scheduler of choice**
+ * **Scheduling for execution with your Scheduler of Choice**
  
 Interactively within the User Interface
 ------------------------------------------
 
-Workflows can be executed from the browser by going into the Execute page of the workflow.
+Workflows can be executed from the browser by going into the Execute Page of the Workflow.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/4.PNG
@@ -21,7 +21,7 @@ Executing Workflows with Spark-Submit
 --------------------------------------
  
 Workflows are saved as text files in JSON format.
-Workflows can be submitted to be run on the cluster with spark-submit::
+Workflows can be submitted to be run on the cluster with Spark-Submit::
   
     spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf
 
@@ -41,12 +41,12 @@ In the above:
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
- For providing extra variables to the workflow, the following parameters can be added to spark-submit::
+ For providing extra variables to the workflow, the following parameters can be added to Spark-Submit::
  
     --var name1=value1   --var name2=value2    --var name3=value3
  
-In the workflow, these variables can be used with $name1    $name2
-Specific nodes make use of the variables by substituting $name with the value provided for the name.
+In the Workflow, these variables can be used with $name1    $name2
+Specific Nodes make use of the variables by substituting $name with the value provided for the name.
  
 For running the workflow in Debug Mode, add the following parameters::
 
@@ -56,7 +56,7 @@ For running the workflow in Debug Mode, add the following parameters::
 Workflow JSON
 --------------
  
-In Fire Insights, workflows are saved as JSON Strings. 
+In Fire Insights, Workflows are saved as JSON Strings. 
   
 The View JSON Workflow page of the Workflow displays the JSON representations of the workflow. 
 
@@ -69,9 +69,9 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 Scheduling Workflow Execution with Scheduler of Choice
 ----------------------------------------------------------
  
-Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
+Since Fire workflows can be submitted with Spark-Submit, you can use your Scheduler of Choice for scheduling the Execution of the Workflows.
  
-- Click on the 'Schedule' Button of Workflow we want to schedule
+- Click on the 'Schedule' Button of Workflow we want to Schedule
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
@@ -100,13 +100,13 @@ Since Fire workflows can be submitted with Spark-Submit, you can use your schedu
 Debugging Workflows
 -------------------
  
-Many times it is helpful to be able to debug the workflows. One easy way is to check the Debug Checkbox in the UI when executing the workflow.
+Many times it is helpful to be able to debug the workflows. One easy way is to check the 'Debug Checkbox' in the UI when executing the workflow.
  
 Running in Debug Mode does a few things:
 
 * Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
 * Displays the number of records processed at each stage.
-* Displays more information, for each SQL, etc. which are being executed.
+* Displays more information for each SQL etc. which are being executed.
 
 
 

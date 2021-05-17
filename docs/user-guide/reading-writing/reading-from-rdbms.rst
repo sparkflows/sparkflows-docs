@@ -3,7 +3,7 @@ Reading from RDBMS in Workflow
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
+The JDBC driver needs to be installed in Fire Insights to connect to a JDBC source like MySQL/Oracle/DB2.
 
 Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 
@@ -13,7 +13,7 @@ Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 Workflow for reading from MySQL
 --------------------------------
 
-Below is a workflow which reads data from MySQL and read the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
+Below is a workflow that reads data from MySQL and reads the result from the ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
 
  
    
@@ -38,13 +38,13 @@ The below screenshot displays schema of the table from the MySQL table by Fire.
 Specifying a sub-query
 ----------------------
 
-In the configuration of the JDBC node, for ``DB TABLE`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery.
+In the configuration of the JDBC node, for ``DB TABLE`` anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table, we could also use a subquery.
 
  
-More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
+More details are available on the Spark Guide: https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
 
-Exucute the processor shows the records read from MySQL table.
+Execute the processor that shows the records read from the MySQL table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC.png
    :alt: JDBC Result Output

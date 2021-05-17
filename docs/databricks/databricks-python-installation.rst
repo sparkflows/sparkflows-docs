@@ -149,7 +149,12 @@ Install needed python package for fbprophet using init script on databricks clus
     pip install numpy==1.17.3
     pip install fbprophet==0.7.1
     
- ::   
+
+add above in a script file, upload in DBFS and go to Advanced Options, select Init Scripts and add DBFS path to it 
+
+.. figure:: ../_assets/configuration/initscript.PNG
+   :alt: Databricks
+   :width: 100%
 
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------

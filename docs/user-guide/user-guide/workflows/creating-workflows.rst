@@ -1,12 +1,12 @@
 Creating Workflows
 ------------------
 
-Fire Insights enables users to define end-to-end workflows for data pipelining leveraging pre-packaged nodes for common ETL and Machine Learning models. Workflows are then saved and executed to produce results. Sparkflows provides a very intuitive and user-friendly editor to achieve the same.
+Fire Insights enables users to define end-to-end workflows for data pipelining leveraging pre-packaged nodes for common ETL and Machine Learning Models. Workflows are then saved and executed to produce results. Fire Insights provides a very intuitive and user-friendly editor to achieve the same.
 
 Define New Workflow
 ===============
 
-Click on 'Create New Workflow' for creating a New Workflow, it supports two engines - spark & pySpark. It will open the workflow editor where the workflow can be created.
+Click on 'Create New Workflow' for creating a New Workflow, it supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/2.PNG
@@ -33,8 +33,8 @@ Deleting Edges
 Saving Workflow
 ===============
 
-  * Give the workflow a name.
-  * Click on the Save button to create the new workflow.
+  * Give the workflow a 'Name'.
+  * Click on the 'Save' button to create the new workflow.
 
 View Workflows
 ===============

@@ -2,11 +2,11 @@
 Datasets
 ====
 
-Fire Insights allows you to define your DataSets. These DataSets are then used in Workflows as data sources. DataSet sources can be local file systems when running in local mode, or HDFS & HIVE when running on a Spark cluster.
+Fire Insights allows you to define your datasets. These datasets are then used in workflows as data sources. Dataset sources can be local file systems when running in local mode, or HDFS & HIVE when running on a Spark cluster.
 
 **Schema**
  
-  * DataSets have Schema defined for them. This allows Fire Insights to read and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning etc.
+  * Datasets have Schema defined for them. This allows Fire Insights to read and create a DataFrame out of it. The DataFrame is then used for transforms, machine learning etc.
  
 **File formats**
  

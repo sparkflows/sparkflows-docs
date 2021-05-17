@@ -67,9 +67,9 @@ In the workflow, these parameters can be used with ``$name1    $name2``.
 Specific nodes make use of the parameters by **substituting   $name   with the value** provided for the name.
 
 
-An **example** would be :     ``--var id=3``
+An **example** would be:     ``--var id=3``
 
-When specifying the expression in the RowFilter Node we can use :   ``id > $id``
+When specifying the expression in the RowFilter Node we can use:   ``id > $id``
 
 In the above **$id** would be replaced with **3**.
  

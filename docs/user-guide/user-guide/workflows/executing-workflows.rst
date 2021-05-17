@@ -56,9 +56,9 @@ For running the workflow in Debug Mode, add the following parameters::
 Workflow JSON
 --------------
  
-In Fire Insights, Workflows are saved as JSON Strings. 
+In Fire Insights, workflows are saved as JSON Strings. 
   
-The View JSON Workflow page of the Workflow displays the JSON representations of the workflow. 
+The View JSON Workflow page of the workflow displays the JSON representations of the workflow. 
 
 
 
@@ -69,22 +69,22 @@ The View JSON Workflow page of the Workflow displays the JSON representations of
 Scheduling Workflow Execution with Scheduler of Choice
 ----------------------------------------------------------
  
-Since Fire workflows can be submitted with Spark-Submit, you can use your Scheduler of Choice for scheduling the Execution of the Workflows.
+Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on the 'Schedule' Button of Workflow we want to Schedule
+- Click on the 'Schedule' button of the workflow we want to schedule.
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
    :width: 90%  
  
  
-- Click on the Tab 'Schedule New Job' for Workflow
+- Click on the 'Schedule New Job' tab for the workflow.
  
  .. figure:: ../../../_assets/user-guide/workflow/6.PNG
    :alt: Workflow
    :width: 60% 
  
- - Update the scheduled timing & email notifications after success & failure of workflow as per our requirements.
+ - Update the scheduled timing & email notifications after the success & failure of the workflow as per our requirements.
  
 .. figure:: ../../../_assets/user-guide/workflow/7.PNG
    :alt: Workflow
@@ -104,9 +104,9 @@ Many times it is helpful to be able to debug the workflows. One easy way is to c
  
 Running in Debug Mode does a few things:
 
-* Performs a count() after executing each Processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
+* Performs a count() after executing each processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
 * Displays the number of records processed at each stage.
-* Displays more information for each SQL etc. which are being executed.
+* Displays more information for each SQL, etc., which are being executed.
 
 
 

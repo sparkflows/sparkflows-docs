@@ -1,7 +1,7 @@
 Step 3 : Create Dataset
 =========================
 
-Before any data be used in a workflow, it needs to be wrapped in a dataset. If you uploaded CSV files in the previous step, in this step you will wrap them in a dataset. 
+Before any data is used in a workflow, it needs to be wrapped in a dataset. If you have uploaded CSV files in the previous step, in this step you will wrap them in a dataset. 
 
 The steps involved in creating a dataset are:
 
@@ -45,7 +45,7 @@ Fill in the required fields as below.
 Now click on "Update dataset/schema" to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.
-Can view file after browse by clicking view file button next to browse.
+Can view the file after browsing by clicking "View" file button next to "Browse".
  
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
@@ -61,7 +61,7 @@ You can update the column names in the schema based on your data.
    :width: 90%
   
 
-Now click "Save' to save the new dataset and you are ready to use it in your workflows.
+Now click "Save" to save the new dataset and you are ready to use it in your workflows.
 
 
 

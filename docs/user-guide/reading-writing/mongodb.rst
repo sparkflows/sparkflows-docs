@@ -11,7 +11,7 @@ The below workflow reads in the Sample Dataset which is in CSV format from HDFS.
 It then saves the data into MongoDB.
 
 
-.. figure:: ../../_assets/tutorials/mongodb/Savemongodb.PNG
+.. figure:: ../../_assets/tutorials/mongodb/save_mongo_db.PNG
    :alt: SaveMongoDB
    :width: 60%
 
@@ -36,7 +36,7 @@ Workflow for Reading data from MongoDB
 The below workflow reads Data in MongoDB.It then prints the data.
 
 
-.. figure:: ../../_assets/tutorials/mongodb/Readmongodb.PNG
+.. figure:: ../../_assets/tutorials/mongodb/reads_mongodb.PNG
    :alt: ReadMongoDB
    :width: 60%
 

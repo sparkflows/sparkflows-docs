@@ -4,9 +4,9 @@ Workflow Execution REST API
 Overview
 --------
  
-The Workflow Execution REST API's, allow you to execute Workflows, get results etc.
+The Workflow Execution REST API's allow you to execute Workflows, get results etc.
 
-Below are the various Workflow Execution API's available in Fire Insights, They should be executed after you have logged into Fire Insights.
+Below are the various Workflow Execution API's available in Fire Insights. They should be executed after you have logged into Fire Insights.
 
 
 List all the Executions
@@ -122,10 +122,10 @@ An example response:
 
     {"status":"ok","message":"Stopping Analysis Flow Execution"}
   
-Kill the Execution of workflow
+Kill the Execution of Workflow
 ------------------------------
  
-Kill the execution of workflow with specified workflowExecutionId.
+Kill the execution of workflow with specified WorkflowExecutionId.
 
 Workflow Execution Id = 100::
 

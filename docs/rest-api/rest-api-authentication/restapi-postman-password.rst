@@ -38,7 +38,6 @@ Example
     
 .. figure:: ../../_assets/tutorials/token/token1.PNG
    :alt: Token
-   :align: center 
    :width: 60%
 
 Now Use Access Token from Previous Step to Access the REST API
@@ -48,7 +47,6 @@ An Access Token is a credential that can be used by an application to access an 
 
 .. figure:: ../../_assets/tutorials/token/token2.PNG
    :alt: Token
-   :align: center 
    :width: 60%
    
    

@@ -4,15 +4,15 @@ Data Preparation I
 .. list-table:: Azure Integration
    :widths: 40 40
 
-   * - :doc:`/tutorials/data-engineering/column-filter.rst`
+   * - :doc:`/tutorials/data-engineering/column-filter`
      - Column Filter
-   * - :doc:`/tutorials/data-engineering/drop-columns.rst`
+   * - :doc:`/tutorials/data-engineering/drop-columns`
      - Drop Columns
-   * - :doc:`/tutorials/data-engineering/drop-rows-with-null.rst`
+   * - :doc:`/tutorials/data-engineering/drop-rows-with-null`
      - Drop Rows with Null     
-   * - :doc:`/tutorials/data-engineering/dedup-customers.rst`
+   * - :doc:`/tutorials/data-engineering/dedup-customers`
      - Dedup Customers    
-   * - :doc:`/tutorials/data-engineering/handling-null-values.rst`
+   * - :doc:`/tutorials/data-engineering/handling-null-values`
      - Handling Null Values
      
      

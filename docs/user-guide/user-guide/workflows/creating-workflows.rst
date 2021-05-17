@@ -1,7 +1,7 @@
 Creating Workflows
 ------------------
 
-Fire Insights enables users to define end-to-end workflows for data pipelining leveraging pre-packaged nodes for common ETL and Machine Learning Models. Workflows are then saved and executed to produce results. Fire Insights provides a very intuitive and user-friendly editor to achieve the same.
+Fire Insights enables users to define end-to-end workflows for data pipelining, leveraging, pre-packaged nodes for common ETL and Machine Learning Models. Workflows are then saved and executed to produce results. Fire Insights provides a very intuitive and user-friendly editor to achieve the same.
 
 Define New Workflow
 ===============

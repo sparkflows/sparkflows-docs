@@ -9,7 +9,7 @@ Get Processor Count
 The below code in Python:
 
 * Acquires the token using the Grant Type Password.
-* Invokes the Fire Insights REST API to get the number of processor list available in the Fire Insights.
+* Invokes Fire Insights REST API to get the number of processor's list available in Fire Insights.
 
   ::
     
@@ -59,7 +59,7 @@ The below code in Python:
 
 
 
-After running the above REST API code in Python, we get the below results.
+After running the above REST API code in Python, we get the below result.
 
 
 .. figure:: ../_assets/tutorials/token/8.PNG

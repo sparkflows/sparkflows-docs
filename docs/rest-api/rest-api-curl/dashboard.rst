@@ -4,16 +4,16 @@ Dashboard REST API
 Overview
 ---------
 
-The Dashboards REST API's, allow you to interact with the Dashboards.
+The Dashboards REST API's allow you to interact with the Dashboards.
 
-Below are the various Dashboard API's available in Sparkflows
+Below are the various Dashboard API's available in Sparkflows.
 
-They should be executed after you have logged into Sparkflows
+They should be executed after you have logged into Sparkflows.
 
 Get List of Dashboards for the user
 -----------------------------------
 
-Returns the list of dashboards for the logged in user.
+Returns the list of Dashboards for the logged in user.
 
 * Header: sortPara:asc/desc.
 
@@ -24,7 +24,7 @@ Returns the list of dashboards for the logged in user.
 Create New Dashboard / Save Dashboard
 -------------------------------------
 
-Set dashboardId value null to create new dashboard::
+Set DashboardId value null to Create New Dashboard::
 
   curl - X POST --header 'Content-Type: application/json' --header 'Accept: text/plain' --header 'dashboardId: null' -d '{"category": "string", "description": "string","name": "string","sheets": [{"description": "string","idx": "string","items": [ {"description": "string","id": 0,"name": "string","nodeId": "string","type": "string", "workflowId": "string","workflowName": "string","x": "string","y": "string"}],"name":"string","type": "string"}],"uuid": "string"}' 'http://localhost:8080/saveDashboard' -b /tmp/cookies.txt
   
@@ -37,7 +37,7 @@ Get Dashboard by Id
 
     curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/dashboards?sortPara=dsc&projectId=1' -b /tmp/cookies.txt
 
-Get dashboard results
+Get dashboard Results
 ---------------------
 
 * dashboardId:1
@@ -47,7 +47,7 @@ Get dashboard results
 
     curl -X GET --header 'Accept: application/json' 'http://localhost:8080/api/v1/dashboards/results?dashboardId=1&sheetId=0' -b /tmp/cookies.txt
 
-update dashboard
+Update Dashboard
 -----------------
 
 * dashboardContent: abcd,

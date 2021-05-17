@@ -10,7 +10,7 @@ Fire Insights allows you to define your datasets. These datasets are then used i
  
 **File formats**
  
-  * Fire Insights supports various File formats and is able to infer the schema. These include ``CSV/TSV, Parquet, Avro, JSON, XML`` files.
+  * Fire Insights supports various file formats and is able to infer the schema. These include ``CSV/TSV, Parquet, Avro, JSON, XML`` files.
   * Fire Insights also supports creating datasets from ``HIVE`` tables. This is not necessary because the Workflows HIVE Processors can be directly connected to specific HIVE tables (instead of creating a Dataset in Fire for them).
 
 

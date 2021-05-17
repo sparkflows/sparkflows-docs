@@ -64,7 +64,6 @@ After running the above REST API code in Python, we get the below result.
 
 .. figure:: ../_assets/tutorials/token/8.PNG
    :alt: REST API
-   :align: center
    :width: 60%
 
   
@@ -132,6 +131,5 @@ After running the above REST API code using Python, we get the below result.
 
 .. figure:: ../_assets/tutorials/token/10.PNG
    :alt: REST API
-   :align: center
    :width: 60%
    

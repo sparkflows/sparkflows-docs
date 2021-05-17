@@ -36,7 +36,7 @@ Use default Username ``sparkflows`` and Password ``secret`` for client authentic
 Example
 ===========
     
-.. figure:: ../_assets/tutorials/token/token1.PNG
+.. figure:: ../../_assets/tutorials/token/token1.PNG
    :alt: Token
    :align: center 
    :width: 60%
@@ -46,7 +46,7 @@ Now Use Access Token from Previous Step to Access the REST API
 
 An Access Token is a credential that can be used by an application to access an API. Below is an example to invoke the ``nodeList`` REST API of the Fire Insights.
 
-.. figure:: ../_assets/tutorials/token/token2.PNG
+.. figure:: ../../_assets/tutorials/token/token2.PNG
    :alt: Token
    :align: center 
    :width: 60%

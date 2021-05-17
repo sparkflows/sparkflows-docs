@@ -1,7 +1,7 @@
 Step 1: Create Project
 ==============================
 
-Before you start creating a workflow, you will need to create a "Project". A project is a bucket where all your artifacts such as datasets, workflows, dashboards etc related to a project would reside. Projects are equivalent to workspaces in IDEs. 
+Before you start creating a workflow, you will need to create a "Project". A project is a bucket where all your artifacts such as datasets, workflows, dashboards, etc related to a project would reside. Projects are equivalent to workspaces in IDEs. 
 
 From the landing page of Fire Insights, click on `Create Project` to create a new project.
 

@@ -62,7 +62,7 @@ The below code in Python:
 After running the above REST API code in Python, we get the below result.
 
 
-.. figure:: ../_assets/tutorials/token/8.PNG
+.. figure:: ../../_assets/tutorials/token/8.PNG
    :alt: REST API
    :width: 60%
 
@@ -129,7 +129,7 @@ The below code in Python invokes the Fire Insights REST API to infer Hadoop Clus
    
 After running the above REST API code using Python, we get the below result.
 
-.. figure:: ../_assets/tutorials/token/10.PNG
+.. figure:: ../../_assets/tutorials/token/10.PNG
    :alt: REST API
    :width: 60%
    

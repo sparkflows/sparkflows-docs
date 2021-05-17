@@ -5,13 +5,13 @@ Data Preparation I
    :widths: 40 40
 
    * - :doc:`/tutorials/data-engineering/column-filter`
-     - Column Filter
+     - Filter the selected columns from the original dataset
    * - :doc:`/tutorials/data-engineering/drop-columns`
-     - Drop Columns
+     - Drop the selected columns
    * - :doc:`/tutorials/data-engineering/drop-rows-with-null`
-     - Drop Rows with Null     
+     - Drop Rows from the incoming Dataframe which have null values     
    * - :doc:`/tutorials/data-engineering/dedup-customers`
-     - Dedup Customers    
+     - Dedup records between two datasets    
    * - :doc:`/tutorials/data-engineering/handling-null-values`
      - Handling Null Values
      

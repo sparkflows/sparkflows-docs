@@ -1,7 +1,7 @@
 Read JSON Files
 ==============
 
-Fire Insights enable user to Read json file.
+Fire Insights enable users to Read json files.
 
 Workflow
 --------
@@ -9,16 +9,16 @@ Workflow
 Below is the workflow. It does the following:
 
 * Reads data from a json file.
-* Print some sample result.
+* Print the sample result.
 
 .. figure:: ../../_assets/user-guide/read-write/15.PNG
    :alt: readwrite
    :width: 80%
 
-Reading from json File
+Reading from JSON File
 ---------------------
 
-It reads data from a json file using Read json processor.
+It reads data from a json file using the Read JSON processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

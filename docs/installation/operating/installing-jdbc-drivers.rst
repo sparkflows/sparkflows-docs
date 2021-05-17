@@ -59,6 +59,13 @@ Oracle
 
 - Oracle JDBC drivers can be downloaded from : https://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
 
+Teradata
+++++++++
+
+- Teradata JDBC drivers can be download from : https://downloads.teradata.com/download/connectivity/jdbc-driver
+
+https://dwgeek.com/steps-to-connect-teradata-database-from-spark-examples.html/
+
 
 JDBC Drivers
 -------

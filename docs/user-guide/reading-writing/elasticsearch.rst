@@ -56,7 +56,7 @@ Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' proc
 The screenshot below shows the dialog box for the Elastic Search Read processor.
 
 
-.. figure:: ../../_assets/tutorials/dataset/22.PNG
+.. figure:: ../../_assets/tutorials/dataset/22_a.PNG
    :alt: Dataset
    :width: 60%  
  
@@ -73,7 +73,7 @@ The Elastic Search processor understands the SQL and translates it into the appr
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
 
-.. figure:: ../../_assets/tutorials/dataset/21.PNG
+.. figure:: ../../_assets/tutorials/dataset/21_a.PNG
    :alt: Dataset
    :width: 90% 
 

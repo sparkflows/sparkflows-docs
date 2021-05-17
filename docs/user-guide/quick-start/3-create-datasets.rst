@@ -7,7 +7,7 @@ The steps involved in creating a dataset are:
 
 - *Open the Project where you want to create a dataset*
 - *Click on the 'Datasets' tab*
-- *Click on "Create" and choose 'Datasets'*
+- *Click on 'Create' and choose 'Datasets'*
 - *Select your dataset type and enter the fields in the dialog*
 - *Update the schema of the dataset*
 - *Click 'Save'*

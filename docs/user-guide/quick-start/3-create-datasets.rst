@@ -5,7 +5,7 @@ Before any data is used in a workflow, it needs to be wrapped in a dataset. If y
 
 The steps involved in creating a dataset are:
 
-- *Open the Project where you want to create a dataset*.
+- *Open the project where you want to create a dataset*.
 - *Click on the 'Datasets' tab*.
 - *Click on 'Create' and choose 'Datasets'*.
 - *Select your dataset type and enter the fields in the dialog*.

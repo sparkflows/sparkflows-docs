@@ -4,7 +4,7 @@ Datasets REST API
 Overview
 --------
 
-The Dataset REST APIs, allow you to manage the Datasets.
+The Dataset REST APIs allow you to manage the Datasets.
 
 Below are the various Dataset APIs available in Fire Insights. They should be executed after you have logged into Fire Insights.
 

@@ -1,7 +1,7 @@
 REST API Authentication
 ==========
 
-Sparkflows provides REST API for interacting with it.
+Fire Insights provides REST API for interacting with it.
 
 An admin user can enable the swagger through configuration and is available at http://<machine-name>:8080/swagger-ui.html.
 

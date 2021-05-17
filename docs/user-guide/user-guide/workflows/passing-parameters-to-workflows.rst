@@ -67,15 +67,15 @@ In the workflow, these parameters can be used with ``$name1    $name2``.
 Specific nodes make use of the parameters by **substituting   $name   with the value** provided for the name.
 
 
-An **example** would be:     ``--var id=3``
+An **example** would be:     ``--var id=3``.
 
-When specifying the expression in the RowFilter Node we can use:   ``id > $id``
+When specifying the expression in the RowFilter Node we can use:   ``id > $id``.
 
 In the above **$id** would be replaced with **3**.
  
  
 
-Specifying ``--var`` parameters for all in Sparkflows User Interface
+Specifying ``--var`` Parameters for all in Sparkflows User Interface
 -----------------------------------------------------------------
  
 Sparkflows also allows specifying the **--var** parameters to be passed to all the jobs submitted through Sparkflows. Below is the screen under Administration/Configuration.
@@ -85,4 +85,4 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
    
 In the above, **app.vars** parameter allows specifying a space-separated list of name=value pairs. 
 
-Each of these is passed to the jobs submitted by Sparkflows with ``--var name=value``
+Each of these is passed to the jobs submitted by Sparkflows with ``--var name=value``.

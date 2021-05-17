@@ -7,12 +7,12 @@ Whenever users interact with Databricks in Fire Insights, they have the access w
 
 Below diagrams show the integration of Fire Insights with Databricks.
 
-.. figure:: ..//_assets/security/databricks-integration.png
+.. figure:: ../../_assets/security/databricks-integration.png
    :alt: security
    :width: 60%
    
    
-.. figure:: ..//_assets/security/databricks-api.png
+.. figure:: ../../_assets/security/databricks-api.png
    :alt: security
    :width: 60%   
 
@@ -23,7 +23,7 @@ In Fire Insights users can view the databases and tables. They are accessed via 
 
 The same applies if users chose to execute a query to view a few records from the table.
 
-.. figure:: ..//_assets/security/databricks-table.PNG
+.. figure:: ../../_assets/security/databricks-table.PNG
    :alt: security
    :width: 60% 
 
@@ -42,7 +42,7 @@ Connections can be at the global level or at the Project level. Global level con
 
 Fire Insights would also support defining Group level connections.
 
-.. figure:: ..//_assets/security/databricks-connection.PNG
+.. figure:: ../../_assets/security/databricks-connection.PNG
    :alt: security
    :width: 60% 
 

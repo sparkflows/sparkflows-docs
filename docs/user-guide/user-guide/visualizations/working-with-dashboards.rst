@@ -36,7 +36,7 @@ Streaming Dashboards
 ---------------------
  
 - Fire allows you to create streaming workflow.
-- Streaming workflows have a mini-batch duration, say 30 seconds.
+- The streaming workflows have a mini-batch duration, say 30 seconds.
 - In this case, the output in the dashboards gets updated every 30 seconds as the new data comes in.
 
 

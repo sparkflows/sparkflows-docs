@@ -1,7 +1,7 @@
 Accessing REST API Using Python & Tokens
 ====================================
 
-Below are the examples of Python code for accessing the Fire REST API using Python.
+Below are the examples of Python code for accessing Fire REST APIs using Python.
 
 Get Processor Count
 --------------------
@@ -56,7 +56,7 @@ The below code in Python invokes Fire Insights REST API to calculate the number 
 
 
 
-After running above the REST API code using Python, we will get the below result:
+After running the above the REST API code using Python, we will get the below result:
 
 
 .. figure:: ../../_assets/tutorials/token/8.PNG
@@ -67,7 +67,7 @@ After running above the REST API code using Python, we will get the below result
 Infer Hadoop Cluster Configurations
 -----------------------------
 
-The below code in Python invokes Fire Insights REST API to infer Hadoop Cluster Configurations. It then saves the infer cluster Hadoop Configurations as updated values.
+The below code in Python invokes Fire Insights REST APIs to Infer Hadoop Cluster Configurations. It then saves the Infer Cluster Hadoop Configurations as updated values.
 
 ::
 
@@ -124,7 +124,7 @@ The below code in Python invokes Fire Insights REST API to infer Hadoop Cluster 
    print(" configuration after save : "+save_configuration_api_response.text)
  
    
-After running the above REST API code using Python, we will get the result below:
+After running the above REST API code using Python, we will get the below result:
 
 .. figure:: ../../_assets/tutorials/token/10.PNG
    :alt: REST API

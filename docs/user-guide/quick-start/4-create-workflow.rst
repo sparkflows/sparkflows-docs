@@ -5,9 +5,9 @@ After you have created the datasets, you can start building workflows to process
 
 A typical workflow takes one or more datasets, cleans them and joins them, and creates an enriched dataset. After the enriched dataset is created, you can add additional processors to build machine learning models.
 
-At a high level, creating a workflow involves the following steps:
+At a high level, the steps invoved in creating a workflow are: 
 
-- *Open the Project where you want to create your workflow*
+- *Open the project where you want to create your workflow*
 - *Click 'Workflows' tab*
 - *Create empty workflow*
 - *Add processors*
@@ -37,7 +37,7 @@ Create Empty Workflow
 
 Click the 'Create' button and choose the type of workflow you want to create. In the 'Create Workflow' page, enter a name, category, and description of the workflow. The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the 'Customer Reports' category.
 
-Click "Save" to save the empty workflow.
+Click 'Save' to save the empty workflow.
 
 
 Add Processors

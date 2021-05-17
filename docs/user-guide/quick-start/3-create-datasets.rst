@@ -31,7 +31,7 @@ Fill in the required fields as below:
 
 - *Name*: Name of the new dataset 
 - *Description*: Description of the new dataset
-- *Has Header Row*: Indicate whether the dataset has a header row specifying the name of the columns or not
+- *Has Header Row*: Indicates whether the dataset has a header row specifying the name of the columns or not
 - *Delimiter*: Indicates the delimiter to be used between the fields in the data
 - *Path*: Path for the location of the file or directory containing the data files for the dataset
 

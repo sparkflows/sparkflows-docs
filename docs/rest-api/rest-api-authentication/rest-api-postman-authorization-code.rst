@@ -17,7 +17,6 @@ Click on Authorization Tab
 
 .. figure:: ../../_assets/tutorials/token/token3.PNG
    :alt: Token
-   :align: center 
    :width: 60%
 
 Click on Request Token
@@ -31,7 +30,6 @@ Fill the Username and Password and Click on SignIn
 
 .. figure:: ../../_assets/tutorials/token/token4.PNG
    :alt: Token
-   :align: center
    :width: 60%
    
 It will then display the OAuth Approval page.
@@ -43,7 +41,6 @@ OAuth is an authentication protocol that allows you to approve one application i
 
 .. figure:: ../../_assets/tutorials/token/token5.PNG
    :alt: Token
-   :align: center
    :width: 60%
 
 Click on Use Token
@@ -54,7 +51,6 @@ A Security Token (sometimes called an Authentication Token) is a small hardware 
 
 .. figure:: ../../_assets/tutorials/token/token6.PNG
    :alt: Token
-   :align: center
    :width: 60%
 
 Using Tokens for Accessing REST API
@@ -64,5 +60,4 @@ Using the above token, we can access the REST API.
 
 .. figure:: ../../_assets/tutorials/token/token7.PNG
    :alt: Token
-   :align: center
    :width: 60%

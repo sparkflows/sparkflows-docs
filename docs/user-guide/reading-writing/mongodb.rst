@@ -6,7 +6,7 @@ MongoDB is a document database with the scalability and flexibility that you wan
 Workflow for Loading data into MongoDB
 ---------------------------------------
 
-The below workflow reads in the Sample Dataset which is in CSV format from HDFS.
+The below workflow reads the Sample Dataset which is in CSV format from HDFS.
 
 It then saves the data into MongoDB.
 
@@ -46,14 +46,14 @@ The below diagram shows the dialog box for the ReadMongoDB Processor.
    :alt: ReadMongoDB
    :width: 60%
    
-In the above dialog, the 'Refresh Schema' button infers the schema of the collections. Thus it is able to pass down the output schema to the next Processor making it easy for us to build the workflow.   
+In the above dialog, the 'Refresh Schema' button infers the schema of the collections. Thus it can pass down the output schema to the next Processor making it easy for us to build the workflow.   
    
 Workflow Execution
 ------------------
 
 When we execute the Workflow, it reads in the Sample collection from MongoDB and displays the first few lines.
 
-We see that the Sample data records we wrote to MongoDB in the first workflow is read back now.
+We see that the Sample data records we wrote to MongoDB in the first workflow are read back now.
 
 .. figure:: ../../_assets/tutorials/mongodb/workflowexecutionreadmongodb.PNG
    :alt: ReadMongoDB

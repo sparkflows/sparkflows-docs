@@ -41,7 +41,7 @@ Against each workflow, there is a list of icons under the 'Actions' column for p
 Click the 'Play' icon under the 'Actions' column to execute the workflow.
 
 
-Execute workflow page
+Execute Workflow Page
 ======================
 
 Specify any paramters for your workflow. 

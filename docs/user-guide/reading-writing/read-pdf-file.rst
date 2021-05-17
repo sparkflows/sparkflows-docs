@@ -1,15 +1,15 @@
 Read PDF File
 =============
 
-This workflow reads in PDF file from the given location. It then parses its content and creates DataFrame then prints the results.
+This workflow reads the PDF file from the given location. It then parses its content and creates DataFrame then prints the results.
 
 Workflow
 -------
 
 Below is the workflow that shows:
 
-* How to read in PDF file from the given location and create the DataFrame from it
-* Prints the result
+* How to read the PDF file from a given location and create the DataFrame from it.
+* Prints the result.
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/1.PNG
    :alt: ReadandParse
@@ -18,7 +18,7 @@ Below is the workflow that shows:
 Reading And Parsing PDF File
 ---------------------
 
-``DatasetPDF`` processor uses the passed location to download PDF file, parse its content into string and create the DataFrame.
+``DatasetPDF`` processor uses the passed location to download PDF file, parse its content into a string and create the DataFrame.
 
 
 Processor Configuration

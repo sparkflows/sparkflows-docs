@@ -6,25 +6,25 @@ Before any data is used in a workflow, it needs to be wrapped in a dataset. If y
 The steps involved in creating a dataset are:
 
 - *Open the Project where you want to create a dataset*
-- *Click on the "Datasets" tab*
-- *Click on "Create" and choose "Datasets"*
+- *Click on the 'Datasets' tab*
+- *Click on "Create" and choose 'Datasets'*
 - *Select your dataset type and enter the fields in the dialog*
 - *Update the schema of the dataset*
-- *Click "Save"*
+- *Click 'Save'*
   
-When you open your project, all existing datasets specific to the project are displayed in the `Datsets` tab.
+When you open your project, all existing datasets specific to the project are displayed in the 'Datsets' tab.
  
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
    :width: 90%
 
-Click on "Create" and choose "Dataset" from the dropdown. 
+Click on 'Create' and choose 'Dataset' from the dropdown. 
  
 .. figure:: ../../_assets/tutorials/dataset/10.PNG
    :alt: Dataset
    :width: 90%
 
-In the pop-up choose “CSV” and then click “OK”.
+In the pop-up choose 'CSV' and then click 'OK'.
  
 
 Fill in the required fields as below.
@@ -42,10 +42,10 @@ Fill in the required fields as below.
    :width: 90%
  
 
-Now click on "Update dataset/schema" to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
+Now click on 'Update dataset/schema' to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.
-Can view the file after browsing by clicking "View" file button next to "Browse".
+Can view the file after browsing by clicking 'View' file button next to 'Browse'.
  
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
@@ -61,7 +61,7 @@ You can update the column names in the schema based on your data.
    :width: 90%
   
 
-Now click "Save" to save the new dataset and you are ready to use it in your workflows.
+Now click 'Save' to save the new dataset and you are ready to use it in your workflows.
 
 
 

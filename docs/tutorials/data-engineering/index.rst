@@ -1,7 +1,7 @@
 Data Preparation I
 ==========
 
-.. list-table:: Azure Integration
+.. list-table:: Data Preparation
    :widths: 40 40
 
    * - :doc:`/tutorials/data-engineering/column-filter`

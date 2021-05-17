@@ -1,7 +1,7 @@
 REST API Examples Using curl
 ==========
 
-This topic contains a range of examples that demonstrates how to use the Fire Insights API using curl.
+This topic contains a range of examples that demonstrates how to use the Fire Insights APIs using curl.
 
 Acquire Session Cookie Using curl
 -----------------------------

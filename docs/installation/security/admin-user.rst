@@ -8,7 +8,7 @@ Permissions supported by Fire Insights
 
 Below are the permissions supported by Fire Insights.
 
-.. figure:: ..//_assets/security/admin_priv.PNG
+.. figure:: ../../_assets/security/admin_priv.PNG
    :alt: security
    :width: 60%
      
@@ -109,7 +109,7 @@ Diagnostics
 
 The admin user can view detailed informations about Machine environments.
 
-.. figure:: ..//_assets/security/diagnostic.PNG
+.. figure:: ../../_assets/security/diagnostic.PNG
    :alt: security
    :width: 60%
 
@@ -118,7 +118,7 @@ Usage Statistics
 
 The admin user can view Total Users, Groups, Roles, Projects, Workflows & Workflows Executions
 
-.. figure:: ..//_assets/security/usgae_satatistics.PNG
+.. figure:: ../../_assets/security/usgae_satatistics.PNG
    :alt: security
    :width: 60%
    
@@ -127,7 +127,7 @@ Runtime Statistics
 
 The admin user can view Total Logged In Users, Total Fire Spark Processes, Total Fire Pyspark Processes & Total Running Jobs
 
-.. figure:: ..//_assets/security/runtime.PNG
+.. figure:: ../../_assets/security/runtime.PNG
    :alt: security
    :width: 60%
    
@@ -136,7 +136,7 @@ Sample Projects
 
 The admin user can RELOAD SAMPLE PROJECTS, as by default Fire Insights comes with sample projects containing different types of workflows & datasets
 
-.. figure:: ..//_assets/security/reload_sample.PNG
+.. figure:: ../../_assets/security/reload_sample.PNG
    :alt: security
    :width: 60%
 
@@ -145,7 +145,7 @@ Global Connections
 
 The admin user can Add Connections which everyone can use and also connections at the Group Level.
 
-.. figure:: ..//_assets/security/connection.PNG
+.. figure:: ../../_assets/security/connection.PNG
    :alt: security
    :width: 60%
 
@@ -154,7 +154,7 @@ Server Logs
 
 The admin user can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs
 
-.. figure:: ..//_assets/security/logs.PNG
+.. figure:: ../../_assets/security/logs.PNG
    :alt: security
    :width: 60%
    
@@ -163,6 +163,6 @@ Cleanup Data
 
 The admin user can Delete old workflow executions for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Executions
 
-.. figure:: ..//_assets/security/cleanup.PNG
+.. figure:: ../../_assets/security/cleanup.PNG
    :alt: security
    :width: 60%

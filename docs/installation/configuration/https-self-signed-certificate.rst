@@ -15,19 +15,19 @@ Export the certificate to your machine
 - Got to ``URL`` for the ``HTTPS`` port.
    - https://privateip:8443/login
 
-.. figure:: ../_assets/configuration/Url_https.PNG
+.. figure:: ../../_assets/configuration/Url_https.PNG
    :alt: certificate
    :width: 60%
    
 - Click on ``Not secure`` option.
  
-.. figure:: ../_assets/configuration/Notsecure.PNG
+.. figure:: ../../_assets/configuration/Notsecure.PNG
    :alt: certificate
    :width: 60%
    
 - Click on ``Certificate``.
 
-.. figure:: ../_assets/configuration/certificate.PNG
+.. figure:: ../../_assets/configuration/certificate.PNG
    :alt: certificate
    :width: 60%
    
@@ -35,37 +35,37 @@ Export the certificate to your machine
 
 - View ``Certificate``.
 
-.. figure:: ../_assets/configuration/viewcertificate.PNG
+.. figure:: ../../_assets/configuration/viewcertificate.PNG
    :alt: certificate
    :width: 60%
 
 - Click on ``Details`` option to see detail information of certificate.
 
-.. figure:: ../_assets/configuration/Certificatedetails.PNG
+.. figure:: ../../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
    :width: 60%
 
 - Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
-.. figure:: ../_assets/configuration/Copyfile.PNG
+.. figure:: ../../_assets/configuration/Copyfile.PNG
    :alt: certificate
    :width: 60%
 
 - Select below option and press ``Next``.
 
-.. figure:: ../_assets/configuration/Exportfile.PNG
+.. figure:: ../../_assets/configuration/Exportfile.PNG
    :alt: certificate
    :width: 60%
    
 - Select the ``Name & file location`` of certificate.
 
-.. figure:: ../_assets/configuration/filelocation.PNG
+.. figure:: ../../_assets/configuration/filelocation.PNG
    :alt: certificate
    :width: 60%
 
 - After upadating the details ``Success msg`` will apear.
 
-.. figure:: ../_assets/configuration/exportcertificate.PNG
+.. figure:: ../../_assets/configuration/exportcertificate.PNG
    :alt: certificate
    :width: 60%
 
@@ -81,40 +81,40 @@ Add Certificate to Browser
    - Settings -> Advanced -> Privacy and Security-> Manage Certificates 
    
 
-.. figure:: ../_assets/configuration/managecertificate.PNG
+.. figure:: ../../_assets/configuration/managecertificate.PNG
    :alt: certificate
    :width: 60%
 
 - Click on ``Manage Certificate`` icon.
 
-.. figure:: ../_assets/configuration/Managebrowsecert.PNG
+.. figure:: ../../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
    :width: 60%
 
 - Click on ``import``.
 
-.. figure:: ../_assets/configuration/import.PNG
+.. figure:: ../../_assets/configuration/import.PNG
    :alt: certificate
    :width: 60%
 
 - Select ``certificate from local system``, use ``Trusted Root Certification Authorities`` option and press ``yes`` to save it.
 
-.. figure:: ../_assets/configuration/Trustedroot.PNG
+.. figure:: ../../_assets/configuration/Trustedroot.PNG
    :alt: certificate
    :width: 60%
    
 
-.. figure:: ../_assets/configuration/Savingcertificate.PNG
+.. figure:: ../../_assets/configuration/Savingcertificate.PNG
    :alt: certificate
    :width: 60%
 
-.. figure:: ../_assets/configuration/successmsg.PNG
+.. figure:: ../../_assets/configuration/successmsg.PNG
    :alt: certificate
    :width: 60%
 
 - Once the above process complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
 
-.. figure:: ../_assets/configuration/sparkflow_loginpage.png
+.. figure:: ../../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
    :width: 60%
    

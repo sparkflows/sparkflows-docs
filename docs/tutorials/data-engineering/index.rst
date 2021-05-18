@@ -49,6 +49,7 @@ Data Preparation I
 .. toctree::
    :hidden:
 
+   column-filter.rst
    drop-columns.rst
    drop-rows-with-null.rst
    dedup-customers.rst

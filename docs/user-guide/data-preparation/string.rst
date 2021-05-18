@@ -1,7 +1,7 @@
 String
 ==========
 
-Fire Insights provide processors for performing String function on a row or text.
+Fire Insights provide processors for performing String functions on a row or text.
 
 
 String Processors in Fire Insights
@@ -15,7 +15,7 @@ String Processors in Fire Insights
    * - Title
      - Description
    * - String Functions
-     - This node performs specified String function on a row
+     - This node performs a specified String function on a row
    * - String Functions Multiple
      - String Functions Multiple
    * - Text Case Transformer

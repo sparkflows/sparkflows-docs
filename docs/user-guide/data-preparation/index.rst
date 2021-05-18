@@ -1,7 +1,7 @@
 Data Preparation User Guide
 ===========================
 
-Fire Insights enables to easily prepare data.
+Fire Insights provides an easy way to prepare the data.
 
 
 .. toctree::

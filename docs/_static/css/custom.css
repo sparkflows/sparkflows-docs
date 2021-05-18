@@ -154,9 +154,10 @@ font-size: 1em;
     margin: auto;
 }
 
-/* .wy-breadcrumbs li a:visited, */
-.wy-breadcrumbs-aside a,
-.wy-nav-content a:visited {
+/* .wy-breadcrumbs li a:visited, 
+   .wy-nav-content a:visited
+*/
+.wy-breadcrumbs-aside a{
     color: #404040;
 }
 
@@ -239,6 +240,9 @@ font-size: 1em;
     border: none;
     box-shadow: none;
     border-radius: 5px;
+}
+.btn-neutral:visited {
+    color: #fff !important;
 }
 .btn-neutral:hover {
     background-color: #2980b9!important;

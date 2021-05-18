@@ -1,7 +1,7 @@
 Data Exploration User Guide
 ===========================
 
-Fire Insights enables to easily explore data.
+Fire Insights enables easy data exploration.
 
 .. toctree::
    :maxdepth: 2

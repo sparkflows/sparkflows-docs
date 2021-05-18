@@ -1,7 +1,7 @@
 Aggregate
 ==========
 
-Fire Insights provide processors that shows aggregates for combinations of values in the selected columns.
+Fire Insights provide processors that show aggregates for combinations of values in the selected columns.
 
 
 Aggregate Processors in Fire Insights

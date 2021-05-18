@@ -15,15 +15,15 @@ Parse Processors in Fire Insights
    * - Title
      - Description
    * - Apache Logs
-     - Reads in Apache Log files from a given path, parses them and loads them into a DataFrame
+     - Reads in Apache Log files from a given path, parses them, and loads them into a DataFrame
    * - Field Splitter
      - This node splits the string of the specified input column using the specified delimiter
    * - Fixed Length Fields
      - Fixed Length for the selected columns 
    * - Multi Regex Extractor
-     - This node to extract pattren from input columns
+     - This node extract pattern from input columns
    * - OCR
-     - Performs Optical Character Recognition using the Tesseract Library
+     - Performs Optical Character Recognition using the Tesseract library
    * - Parse JSON Col
      - Parses JSON content in a given Col
    * - Regex Tokenizer

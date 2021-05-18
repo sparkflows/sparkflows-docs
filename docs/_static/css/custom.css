@@ -161,6 +161,10 @@ font-size: 1em;
     color: #404040;
 }
 
+.wy-breadcrumbs li a:visited {
+    color: #2980B9;
+}
+
 .rst-content table.docutils caption{
     font: 20px/1 "Source Sans Pro";
     color: #404040;

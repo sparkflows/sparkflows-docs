@@ -31,6 +31,14 @@ Tutorials
 
    tutorials/index
 
+Commands
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   commands/index
+
 Databricks Integration
 --------------
 

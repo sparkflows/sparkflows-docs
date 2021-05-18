@@ -1,4 +1,4 @@
-Commands
+Commands Cheatsheet
 ========
 
 .. toctree::

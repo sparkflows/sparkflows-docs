@@ -16,5 +16,9 @@ Connector Processors in Fire Insights
      - Description
    * - Read JDBC
      - Reads data from a JDBC source
-
-
+   * - Read Cassandra
+     - Reads Data from Apache Cassandra
+   * - Read Databricks Table
+     - Reads a table from Databricks
+   * - Save Databricks table
+     - Saves data to a Databricks table

@@ -1,7 +1,7 @@
 Adding Stages
 =============
 
-Click on "Add stages" button to add a new stage. Select stage type and enter the stage name.
+Click on the "Add stages" button to add a new stage. Select stage type and enter the stage name.
 
   .. figure:: ../../../_assets/web-app/add-stage.PNG
       :alt: web-app
@@ -9,10 +9,10 @@ Click on "Add stages" button to add a new stage. Select stage type and enter the
 
 
 - You can rearrange the stages by dragging and dropping. 
-- You can EDIT, VIEW and REMOVE stages.
+- You can EDIT, VIEW, and REMOVE stages.
 - Can also RENAME the stage name.
 
-Below are examples for adding various Stages
+Below are the examples for adding various Stages
 
 .. toctree::
    :maxdepth: 2

@@ -1,20 +1,20 @@
 Run Stage
 ======================
 
-- In run stage we will execute the notebook with all parameters added in the App.
+- In the run stage, we will execute the notebook with all parameters added to the App.
 
-- Let's first add title in page if needed with "html element" component like below.
+- Let's first add a title on the page if needed with the "Html element" component like below.
 
    .. figure:: ../../../_assets/web-app/add-stage-run-title.PNG
       :alt: web-app
       :width: 80%
    
 
--  Now, let's add column component in the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
+-  Now, let's add a column component at the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
 
--  Add back button in first column to go to back stage and perform actions depending upon event. Set its event name as ``back``.
+-  Add the back button in the first column to go to the back stage and perform actions depending upon the event. Set its event name as ``back``.
 
--  Add next button in second column to go to next stage and perform actions depending upon event. Set its add event name as ``execute``. We can also can add CUSTOM CSS CLASS like          float-right, float-left etc
+-  Add the next button in the second column to go to the next stage and perform actions depending upon the event. Set its add event name as ``execute``. We can also add CUSTOM CSS     CLASS like float-right, float-left, etc.
 
    .. figure:: ../../../_assets/web-app/add-stage-run-runbtn.PNG
       :alt: web-app
@@ -26,4 +26,4 @@ Run Stage
       :width: 80%
    
 
-Click on "DONE" or "SAVE" to save added components for that stage
+Click on "DONE" or "SAVE" to save added components for that stage.

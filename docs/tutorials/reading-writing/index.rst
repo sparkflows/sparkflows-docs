@@ -11,6 +11,7 @@ Reading - Writing Data
    reading-mysql.rst
    reading-from-rdbms.rst
    read-csv-file.rst
+   reading-json-file.rst
    read-pdf-file.rst
    elasticsearch.rst
    writing-csv.rst

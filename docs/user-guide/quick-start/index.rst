@@ -31,7 +31,7 @@ Let's get started!
 
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    1-create-application.rst
    2-upload-data-files.rst

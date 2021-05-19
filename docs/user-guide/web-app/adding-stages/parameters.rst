@@ -1,36 +1,36 @@
 Parameters Stage
 ======================
 
-- In parameters stage we can add ``select, text-field, select boxes, buttons`` etc components
+- In the parameters stage, we can add ``select, text-field, select boxes, buttons, etc`` components.
 
 For example: 
 
-- First we will add column component and divide it in two columns  
+- First, we will add a column component and divide it into two columns. 
 
-- Then, lets add select boxes example in first column by adding select boxes component. In this component in Data tab add all possible values you want to add.
+- Then, let's add select boxes example in the first column by adding select boxes component. In this component in the Data tab, adds all possible values you want to add.
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-selectboxes.PNG
       :alt: web-app
       :width: 80%
    
 
--  Then, let's add select example in the second column by adding select component. In this component in Data tab add all possible values you want to add. 
+-  Then, let's add a select example in the second column by adding a select component. In this component in the Data tab, add all possible values you want to add. 
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-select.PNG
      :alt: web-app
      :width: 80%
   
 
--  Now, let's add column component in the bottom and divide into two columns for adding back and next button.
+-  Now, let's add a column component at the bottom and divide it into two columns for adding back and next button.
 
--  Add back button in first column to go to back stage and perform actions depending upon event, where we will add event name as ``back``.
+-  Add the back button in the first column to go to the back stage and perform actions depending upon the event, where we will add the event name as ``back``.
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-back.PNG
       :alt: web-app
       :width: 80%
    
 
--  Add next button in second column to go to next stage and perform actions depending upon event.  Set its event name as ``next``. We can also add CUSTOM CSS CLASS like          ``float-right, float-left`` etc
+-  Add the next button in the second column to go to the next stage and perform actions depending upon the event.  Set its event name as ``next``. We can also add CUSTOM CSS      CLASS like          ``float-right, float-left`` etc.
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-next.PNG
       :alt: web-app

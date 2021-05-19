@@ -1,7 +1,10 @@
 Apache Spark Commands
 ==============
 
-Submit a Job
-------------
+* Submit a Job::
 
-spark-submit   --class org.apache.spark.examples.SparkPi --master yarn /usr/lib/spark/examples/jars/spark-examples.jar
+    spark-submit   --class org.apache.spark.examples.SparkPi --master yarn /usr/lib/spark/examples/jars/spark-examples.jar
+    
+    
+
+

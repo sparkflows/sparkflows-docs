@@ -21,21 +21,31 @@ Steps for configuring Kerberos on Fire
 * **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire**
 
 
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| Configuration                   | Example Value                   | Details                                              |
-+=================================+=================================+======================================================+
-| kerberos.enabled                | true                            | Set it to true to enable Kerberos for Fire           |
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.keytab                 | /user/ec2-user/fire.keytab      | Absolute path of the keytab generated for Fire       |
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.principal              | fire@EXAMPLE.COM                | Kerberos Principal of the keytab of Fire             |
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.KERBEROS_REALM         | EXAMPLE.COM                     | Kerberos Realm                                       |
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.KERBEROS_KDC           | hostname.example.com            | KDC Server                                           |
-+---------------------------------+---------------------------------+------------------------------------------------------+
-| kerberos.hiveServer2Principal   | hive/hive2_host@EXAMPLE.COM     | HIVE Server2 Principal                               |
-+---------------------------------+---------------------------------+------------------------------------------------------+
+.. list-table:: Configurations to enable Kerberos for Fire
+   :widths: 30 30 40
+   :header-rows: 1
+
+   * - Configuration
+     - Example Value
+     - Details 
+   * - kerberos.enabled
+     - true
+     - Set it to true to enable Kerberos for Fire  
+   * - kerberos.keytab 
+     - /user/ec2-user/fire.keytab
+     - Absolute path of the keytab generated for Fire  
+   * - kerberos.principal
+     - fire@EXAMPLE.COM
+     - Kerberos Principal of the keytab of Fire  
+   * - kerberos.KERBEROS_REALM 
+     - EXAMPLE.COM
+     -  Kerberos Realm   
+   * - kerberos.KERBEROS_KDC 
+     - hostname.example.com
+     - KDC Server   
+   * - kerberos.hiveServer2Principal 
+     - hive/hive2_host@EXAMPLE.COM
+     - HIVE Server2 Principal  
 
 
 

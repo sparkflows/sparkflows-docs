@@ -4,9 +4,6 @@ Reading Writing
 .. toctree::
    :maxdepth: 1
 
-   reading-csv.rst
-   writing-csv.rst
-   reading-json.rst
    reading-parquet.rst
    reading-from-rdbms.rst
    read-pdf-file.rst

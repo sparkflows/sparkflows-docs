@@ -7,6 +7,8 @@ The quickstart gets you started with Fire Insights.
 Let's get started! 
 
 .. panels::
+    :container: container-lg pb-3
+    :column: col-lg-6 col-md-6 col-xs-12 p-2
 
     :doc:`/user-guide/quick-start/1-create-application`
 
@@ -16,19 +18,6 @@ Let's get started!
 
     ---
 
-    :doc:`/user-guide/quick-start/3-create-datasets`
-
-    ---
-
-    :doc:`/user-guide/quick-start/4-create-workflow`
-
-    ---
-
-    :doc:`/user-guide/quick-start/5-execute-workflow`
-
-    ---
-
-    :doc:`/user-guide/quick-start/6-build-dashboard`
 
 .. toctree::
    :maxdepth: 1

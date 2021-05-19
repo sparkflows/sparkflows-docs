@@ -12,6 +12,7 @@ Reading - Writing Data
    reading-from-rdbms.rst
    read-csv-file.rst
    reading-json-file.rst
+   reading-parquet-file.rst
    read-pdf-file.rst
    elasticsearch.rst
    writing-csv.rst

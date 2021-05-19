@@ -9,7 +9,7 @@ Aggregate Processors in Fire Insights
 
 
 .. list-table:: Aggregate Processors
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - Title

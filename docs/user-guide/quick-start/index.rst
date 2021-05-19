@@ -10,11 +10,11 @@ Let's get started!
     :container: container-lg pb-3
     :column: col-lg-6 col-md-6 col-xs-12 p-2
 
-    :doc:`/user-guide/quick-start/1-create-application`
+    1-create-application
 
     ---
 
-    :doc:`/user-guide/quick-start/2-upload-data-files`
+    2-upload-data-files
 
     ---
 

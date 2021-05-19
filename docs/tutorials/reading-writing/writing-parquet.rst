@@ -1,44 +1,53 @@
-Writing as Parquet File
-========================
+Write parquet
+================
 
-Fire Insights enables you to write your Dataframe to Parquet Files.
+Fire Insights enables the user to write in a parquet file.
 
+Workflow
+--------
 
-Workflow for writing as Parquet Files
-----------------
+Below is the workflow. It does the following:
 
-Below is an example of  workflow which reads in transaction dataset. It then writes the result in Parquet Format.
+* Reads transaction dataset.
+* save parquet to the specified location.
 
+.. figure:: ../../_assets/user-guide/read-write/10.PNG
+   :alt: readwrite
+   :width: 80%
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/1.PNG
-   :alt: ParquetWorkflow
-   :width: 70%
-   
-   
-DatasetStructured Processor
---------------------------
-   
-Node ``DatasetStructured`` creates a Dataframe of your dataset named ``Transaction Dataset`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset Feature.
-
-As a user you have to select the Dataset of your interest as shown below.
-
-
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/2.PNG
-   :alt: NodeDatasetStructured
-   :width: 90%
-
-
-SaveParquet Processor
+Reads transaction dataset
 ---------------------
 
-``SaveParquet`` processor saves the incoming DataFrame into the specified path in Parquet format. When running on Hadoop, Parquet Files get saved into HDFS.
+It reads the transaction dataset.
 
-The DataFrame might be written as multiple part files in the specified folder, depending on the size and partition of the DataFrame.
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../../_assets/user-guide/read-write/11.PNG
+   :alt: readwrite
+   :width: 80%
+   
+Processor Output
+^^^^^^
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/3.PNG
-   :alt: SaveParquet
-   :width: 90%
+.. figure:: ../../_assets/user-guide/read-write/12.PNG
+   :alt: readwrite
+   :width: 80%
 
+Save parquet file
+----------------
 
+It saves the parquet file in the specified location.
 
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/user-guide/read-write/13.PNG
+   :alt: readwrite
+   :width: 80%
+   
+Once the workflow is executed successfully the parquet file will be saved to a specified location.
+
+.. figure:: ../../_assets/user-guide/read-write/14.PNG
+   :alt: readwrite
+   :width: 80%

@@ -10,13 +10,24 @@ Let's get started!
     :container: container-lg pb-3
     :column: col-lg-6 col-md-6 col-xs-12 p-2
 
-    1-create-application
+    :doc:`/user-guide/quick-start/1-create-application`
 
     ---
 
-    2-upload-data-files
+    :doc:`/user-guide/quick-start/2-upload-data-files`
+
+    :column: col-lg-6 col-md-6 col-xs-12 p-2
+
+    :doc:`/user-guide/quick-start/3-create-datasets`
 
     ---
+
+    :doc:`/user-guide/quick-start/4-create-workflow`
+
+    :column: col-lg-6 col-md-6 col-xs-12 p-2
+
+    :doc:`/user-guide/quick-start/5-execute-workflow`
+
 
 
 .. toctree::

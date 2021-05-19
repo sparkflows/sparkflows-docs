@@ -6,8 +6,4 @@ Reading Writing
 
    reading-parquet.rst
    reading-from-rdbms.rst
-   processing-multiple-files.rst
-   writing-hive.rst
-   writing-json.rst
-   mongodb.rst
 

@@ -291,3 +291,7 @@ font-size: 1em;
 .card.w-100.shadow.docutils:hover{
     border-color : #9B59B6
 }
+.card-text:last-child{
+    font-size: 15px;
+    color: grey;
+}

@@ -1,7 +1,7 @@
 Integrating with Databricks Notebook
 =========================
 
-The Web App in Fire Insights can trigger a Notebook in Databricks.
+The Analytics Apps in Fire Insights can trigger a Notebook in Databricks.
 
 Fire Insights passes 2 parameters to the Notebook:
 

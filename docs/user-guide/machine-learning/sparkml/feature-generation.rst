@@ -19,7 +19,7 @@ Feature generation is the process of creating new features from one or multiple 
      - Write Scala code in Spark for generating new Features
    * - SQL
      - Write SQL code for generating new features
-   * - StopWOrdRemover
+   * - StopWordRemover
      - Removes Stop Words
    * - Tokenizer
      - Tokenizes a string into Tokens

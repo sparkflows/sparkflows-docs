@@ -7,9 +7,22 @@ https://www.statisticssolutions.com/time-series-analysis/
 
 Fire Insights provides a number of features for Time Series Analysis.
 
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`user-guide/time-series/time_series_feature_engineering`
+
+    ---
+
+    :doc:`user-guide/time-series/time_series_visualizations`
+
+    ---
+
+    :doc:`user-guide/time-series/time_series_modeling`
+
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    time_series_feature_engineering.rst
    time_series_visualizations.rst

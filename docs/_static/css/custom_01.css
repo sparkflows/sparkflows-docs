@@ -288,3 +288,6 @@ font-size: 1em;
         width: 100%!important;
     }
     }
+.card.w-100.shadow.docutils:hover{
+    border-color : #9B59B6
+}

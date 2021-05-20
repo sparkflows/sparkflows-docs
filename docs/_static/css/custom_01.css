@@ -297,3 +297,6 @@ a:visited {
     font-size: 15px;
     color: grey;
 }
+.shadow {
+    box-shadow: none !important;
+}

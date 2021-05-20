@@ -195,28 +195,28 @@ Server Libraries
 Frontend Libraries
 ++++++++++++++++++
 
-- angularjs
+- angular
 
-  - https://angularjs.org/
-  - Copyright (c) 2010-2014 Google, Inc. 
+  - https://angular.io/
+  - Copyright (c) 2010-2021 Google, Inc. 
   - License: MIT
 
 - bootstrap
 
-  - http://getbootstrap.com/2.3.2/
-  - Copyright 2011-2014 Twitter, Inc
+  - http://getbootstrap.com/
+  - Copyright 2011-2021 Twitter, Inc
   - License: MIT
   
 - jquery
 
   - https://jquery.com/
-  - Copyright 2019 The jQuery Foundation. jQuery License
+  - Copyright 2021 The jQuery Foundation. jQuery License
   - License: MIT
 
 - rxjs
 
   - https://rxjs-dev.firebaseapp.com/
-  - Copyright 2015-2018 Google, Inc., Netflix, Microsoft Corp.
+  - Copyright 2015-2021 Google, Inc., Netflix, Microsoft Corp.
   - License: Apache License 2.0
   
 Definitions

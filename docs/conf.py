@@ -117,7 +117,7 @@ html_static_path = ['_static']
 
 def setup(app):
     # app.add_stylesheet('css/custom.css')
-    app.add_css_file('css/custom_01.css')
+    app.add_css_file('css/custom_02.css')
 
 html_logo = '_assets/logo.png';
 # Custom sidebar templates, must be a dictionary that maps document names

@@ -12,13 +12,19 @@ Fire Insights provides a number of features for Time Series Analysis.
 
     :doc:`user-guide/time-series/time_series_feature_engineering`
 
+    Provides a number of Processors for Feature Engineering of Time Series Data.
+
     ---
 
     :doc:`user-guide/time-series/time_series_visualizations`
 
+    Provides a number of Processors for the visualization of the time series data.
+
     ---
 
     :doc:`user-guide/time-series/time_series_modeling`
+
+    Provides a number of Processors for Time Series Modeling.
 
 
 .. toctree::

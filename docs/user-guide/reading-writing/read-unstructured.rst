@@ -9,7 +9,7 @@ Read Unstructured Data from Files Processors in Fire Insights
 
 
 .. list-table:: Read Unstructured files Processors
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - Title

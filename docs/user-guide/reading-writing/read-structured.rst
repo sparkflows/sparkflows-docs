@@ -8,7 +8,7 @@ Read Structured Data from Files Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Connector Processors
+.. list-table:: Read structured files Processors
    :widths: 30 70
    :header-rows: 1
 

@@ -7,25 +7,37 @@ Machine Learning User Guide
 
     :doc:`/user-guide/machine-learning/sparkml/index`
 
+    Provides Apache Spark based different processors.
+
     ---
 
     :doc:`/user-guide/machine-learning/h2o/index`
+
+    Provides H2O processors like H2ODRF, H2OKMeans, H2OGBM, H2OGLRM, H2OGLM, H2OXGBoost.
 
     ---
 
     :doc:`/user-guide/machine-learning/sklearn/index`
 
+    Provides Scikit Learn based Classification and Regression Processors.
+
     ---
 
     :doc:`/user-guide/machine-learning/model-persistence/index`
+
+    Save model to files and load them later in order to make predictions.
 
     ---
 
     :doc:`/user-guide/machine-learning/model-serving/index`
 
+    Models can be saved to HDFS ,S3, ADLS or Local file system.
+
     ---
 
     :doc:`/user-guide/machine-learning/mlflow`
+
+    Integrates deeply with Apache MLflow and can be configured to output the models to MLflow.
 
 
 

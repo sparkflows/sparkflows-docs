@@ -15,7 +15,7 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     ---
 
-   :doc:`/user-guide/user-guide/visualizations/index`
+    :doc:`/user-guide/user-guide/visualizations/index`
 
     ---
 

@@ -9,33 +9,48 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     :doc:`/user-guide/user-guide/datasets/index`
 
+    Datasets contain the schema of the data files which allows Fire Insights to read and create a DataFrame out of it.
+
     ---
 
     :doc:`/user-guide/user-guide/workflows/index`
+
+    Workflows helps in processing the data, exploring it, building models etc.
 
     ---
 
     :doc:`/user-guide/user-guide/visualizations/index`
 
+    Visualization is the graphical representation of data i.e output data in tables, charts, maps and simple strings.
     ---
 
     :doc:`/user-guide/user-guide/scheduling/index`
+
+    Schedule workflows to run automatically at a selected intervals.
 
     ---
 
     :doc:`/user-guide/user-guide/export-import/index`
 
+    Export/Import is useful when you need to move/copy your Project from one environment to another.
+
     ---
 
     :doc:`/user-guide/user-guide/data_profile`
+
+    Data Profile helps in cleanning the datasets.
 
     ---
 
     :doc:`/user-guide/user-guide/connections/index`
 
+    Connections are used in the workflow for reading and writing data.
+
     ---
 
     :doc:`/user-guide/user-guide/pipelines`
+
+    Pipelines allow running workflows in a defined order.
 
 .. toctree::
    :hidden:

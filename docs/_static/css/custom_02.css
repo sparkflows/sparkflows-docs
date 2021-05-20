@@ -157,13 +157,11 @@ font-size: 1em;
 /* .wy-breadcrumbs li a:visited, 
    .wy-nav-content a:visited
 */
-.wy-breadcrumbs-aside a{
+.wy-breadcrumbs-aside a, .wy-breadcrumbs-aside a:visited{
     color: #404040;
 }
-.sphinx-bs .card-text a:visited {
-    color: #2980B9;
-}
-.wy-breadcrumbs li a:visited {
+
+.wy-breadcrumbs li a:visited, .sphinx-bs .card-text a:visited {
     color: #2980B9;
 }
 
@@ -290,6 +288,7 @@ font-size: 1em;
         width: 100%!important;
     }
     }
+    
 .card.w-100.shadow.docutils:hover{
     border-color : #2980B9
 }
@@ -297,6 +296,6 @@ font-size: 1em;
     font-size: 15px;
     color: grey;
 }
-.shadow {
+.sphinx-bs .shadow {
     box-shadow: none !important;
 }

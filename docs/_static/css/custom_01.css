@@ -160,7 +160,9 @@ font-size: 1em;
 .wy-breadcrumbs-aside a{
     color: #404040;
 }
-
+a:visited {
+    color: #2980B9;
+}
 .wy-breadcrumbs li a:visited {
     color: #2980B9;
 }

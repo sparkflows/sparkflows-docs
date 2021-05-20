@@ -297,6 +297,6 @@ font-size: 1em;
     font-size: 15px;
     color: grey;
 }
-.shadow {
+.sphinx-bs .shadow {
     box-shadow: none !important;
 }

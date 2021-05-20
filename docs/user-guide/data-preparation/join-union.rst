@@ -9,7 +9,7 @@ Join/Union Processors in Fire Insights
 
 
 .. list-table:: Join/Union Processors
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - Title

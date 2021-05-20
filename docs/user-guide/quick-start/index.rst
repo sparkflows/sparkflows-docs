@@ -35,7 +35,6 @@ Let's get started!
     ---
 
     :doc:`/user-guide/quick-start/5-execute-workflow`
-    ^^^^^^^^^^^^^^
     
     Finally Execute the worflow.
 

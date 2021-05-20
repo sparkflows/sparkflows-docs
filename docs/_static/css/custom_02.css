@@ -157,14 +157,12 @@ font-size: 1em;
 /* .wy-breadcrumbs li a:visited, 
    .wy-nav-content a:visited
 */
-.wy-breadcrumbs-aside a, .wy-breadcrumbs-aside a:visited{
-    color: #404040;
-}
-
 .wy-breadcrumbs li a:visited, .sphinx-bs .card-text a:visited {
     color: #2980B9;
 }
-
+.wy-breadcrumbs-aside a, .wy-breadcrumbs-aside a:visited{
+    color: #404040;
+}
 .rst-content table.docutils caption{
     font: 20px/1 "Source Sans Pro";
     color: #404040;

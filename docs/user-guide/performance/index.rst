@@ -8,7 +8,6 @@ There are certain things which need to be taken into account for any Spark job. 
 
 .. panels::
     :container: container-lg pb-3
-    :column: col-lg-12 p-2
 
     :doc:`/user-guide/performance/caching-level`
 

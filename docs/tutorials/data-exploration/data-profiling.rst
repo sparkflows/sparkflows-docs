@@ -68,7 +68,7 @@ Summary Results
    
    
 Correlation Results
-   ------------------- 
+------------------- 
 .. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-correlation.png
    :alt: End
    :align: left

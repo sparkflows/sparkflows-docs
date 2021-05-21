@@ -13,4 +13,5 @@ There are certain things which need to be taken into account for any Spark job. 
    runtime-resources.rst
    repartition.rst
    debug-mode.rst
+   joins.rst
    

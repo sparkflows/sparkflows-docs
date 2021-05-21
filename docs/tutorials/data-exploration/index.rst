@@ -9,7 +9,7 @@ Data Exploration
 
     ---
 
-    :doc:`/tutorials/data-exploration/ data-profiling`
+    :doc:`/tutorials/data-exploration/data-profiling`
 
     ---
 

@@ -17,7 +17,7 @@ Below is the workflow to do Data Profile.
 * Reads data from a sample dataset.
 * Summary of the numeric fields.
 * Correlation of the fields in dataset
-* Verfiy the quality of data in sparkflows `Data Quality` tab.
+* Verify the quality of data in sparkflows `Data Quality` tab.
 
 
 .. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-workflow.png

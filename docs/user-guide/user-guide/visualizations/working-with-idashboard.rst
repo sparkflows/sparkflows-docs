@@ -1,9 +1,9 @@
 Dashboard
 =======================
 
-Fire allows creating the dashboard.
+Fire allows creating of the dashboard.
 
-Fire allows to create new dataset using JDBC data type from MYSQL DB & use datasets in creating charts & dashboard.
+Fire allows to create new dataset using JDBC data type from MYSQL DB & then uses the datasets in creating charts & dashboard.
 
 Creating Dashboard
 --------------------
@@ -23,15 +23,15 @@ Entering Field Details
 
 Below are the details of the fields in the ``Create Dataset`` page:
 
-- **NAME** : Name of the New Dataset we are creating.
-- **DESCRIPTION** : Description of the New Dataset.
-- **CATEGORY** : category of the New Dataset.
-- **JDBC DRIVER** : Enter JDBC DRIVER.
-- **JDBC URL** : Enter JDBC URL for MYSQL DB.
-- **USER** : username for MYSQL DB.
-- **PASSWORD** : password for MYSQL DB.
-- **DB** : Database for MYSQL DB.
-- **TABLE** : Table for MYSQL.
+- **NAME**: Name of the New Dataset we are creating.
+- **DESCRIPTION**: Description of the New Dataset.
+- **CATEGORY**: Category of the New Dataset.
+- **JDBC DRIVER**: Enter JDBC DRIVER.
+- **JDBC URL**: Enter JDBC URL for MYSQL DB.
+- **USER**: Username for MYSQL DB.
+- **PASSWORD**: Password for MYSQL DB.
+- **DB**: Database for MYSQL DB.
+- **TABLE**: Table for MYSQL.
 
 
 .. figure:: ../../../_assets/tutorials/dataset/create_data.PNG
@@ -64,13 +64,13 @@ Click on the ``Dashboard`` tab in the same application where you have created JD
    :alt: Dataset
    :width: 80%
 
-Click on the ``chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
+Click on the ``Chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_create.PNG
    :alt: Dataset
    :width: 80%
 
-Select any JDBC dataset for which you want to create ``chart`` & select ``CREATE NEW``
+Select any JDBC dataset for which you want to create ``Chart`` & select ``CREATE NEW``
 
 It will take you to the new page, as below
 
@@ -78,13 +78,13 @@ It will take you to the new page, as below
    :alt: Dataset
    :width: 80%
 
-Select the ``chart type``, you want to see chart
+Select the ``Chart Type``, you want to see chart
 
 .. figure:: ../../../_assets/tutorials/dataset/chart_typ1.PNG
    :alt: Dataset
    :width: 80%
 
-Selected ``Bar chart`` & updated column for x & y axis and add some filter
+Selected ``Bar Chart`` & updated column for x & y axis and add some filter
 
 Add NAME, DESCRIPTION & save it
 

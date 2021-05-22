@@ -1,4 +1,4 @@
-User Guide
+Fire Insights Concepts
 ================
 
 Fire Insights has datasets, workflows, scheduler, connections, etc. This guide will explain how to use them.

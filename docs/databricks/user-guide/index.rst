@@ -46,7 +46,7 @@ Databricks User Guide
 
     ---
 
-    :doc:`/databricks/user-guide/reading-s3`
+    :doc:`/databricks/user-guide/writing-s3`
 
     Write data to S3 locations.
 

@@ -36,12 +36,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     ---
 
-    :doc:`/user-guide/user-guide/data_profile`
-
-    Data Profile helps in cleanning the datasets.
-
-    ---
-
     :doc:`/user-guide/user-guide/connections/index`
 
     Connections are used in the workflow for reading and writing data.
@@ -60,7 +54,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
    visualizations/index.rst
    scheduling/index.rst
    export-import/index.rst
-   data_profile.rst
    connections/index.rst
    pipelines.rst
    

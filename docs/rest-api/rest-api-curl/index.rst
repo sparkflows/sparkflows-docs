@@ -29,9 +29,41 @@ In the above:
 
 There are various categories of REST API's available:
 
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/rest-api/rest-api-curl/processors`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/dataset`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/workflow`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/workflow-execution`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/dashboard`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/hdfs`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/hive`
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/scheduler`
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    processors.rst
    dataset.rst

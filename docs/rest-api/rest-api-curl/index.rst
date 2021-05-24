@@ -31,7 +31,7 @@ There are various categories of REST API's available:
 
 .. panels::
     :container: container-lg pb-3
-    :column: text-center
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
     :doc:`/rest-api/rest-api-curl/processors`
 

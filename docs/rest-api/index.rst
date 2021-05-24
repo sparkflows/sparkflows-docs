@@ -22,7 +22,7 @@ REST API
 
     ---
 
-    :doc:`rest-api/rest-api-curl/index.`
+    :doc:`/rest-api/rest-api-curl/index.`
 
     Accessing REST API Using curl.
 

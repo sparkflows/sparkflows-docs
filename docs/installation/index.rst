@@ -14,6 +14,6 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    administration/index
    security/index
    operating/index
-
+   credential-store/index
 
 

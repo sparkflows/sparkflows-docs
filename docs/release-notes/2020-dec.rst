@@ -1,2 +1,15 @@
-test
-======
+Dec 2020
+========
+
+New Features
+------------
+
+- Time Series Modeling with Prophet
+- Time Series Modeling with Arima
+- Building Custom Nodes in Python
+
+
+UI Improvements
+---------------
+
+- Upgraded look and feel

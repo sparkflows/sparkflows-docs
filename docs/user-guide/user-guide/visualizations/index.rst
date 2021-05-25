@@ -1,5 +1,5 @@
 
-Visualizations
+Reports & Dashboards
 ====
 
 .. toctree::

@@ -1,0 +1,15 @@
+Dec 2020
+========
+
+New Features
+------------
+
+- Integration of SSO
+- Integration of Analytics application
+
+
+
+UI Improvements
+---------------
+
+- Upgraded look and feel

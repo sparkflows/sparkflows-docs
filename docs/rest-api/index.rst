@@ -1,35 +1,50 @@
 REST API
 ========
 
-REST API Authentication
-----------
+.. panels::
+    :container: container-lg pb-3
+    :column: col-lg-12 p-2
+
+    :doc:`/rest-api/rest-api-authentication/index`
+
+    Steps to authenticate and access REST APIs.
+
+    ---
+    :doc:`/rest-api/rest-api-python/index`
+
+    Accessing REST API Using Python.
+
+    ---
+
+    :doc:`/rest-api/rest-api-java/index`
+
+    Accessing REST API Using Java.
+
+    ---
+
+    :doc:`/rest-api/rest-api-curl/index`
+
+    Accessing REST API Using curl.
+
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    rest-api-authentication/index
 
-REST API's using Python
-----------
-
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    rest-api-python/index
 
-REST API's using Java
-----------
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    rest-api-java/index
 
-REST API's using curl
-----------
-
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    rest-api-curl/index
 

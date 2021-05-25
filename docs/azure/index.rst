@@ -8,4 +8,5 @@ Azure Guide
    running-on-standalone.rst
    databricks-integration-azure.rst
    adls-integration.rst
+   service-principal.rst
    

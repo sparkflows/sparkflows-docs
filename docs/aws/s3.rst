@@ -27,7 +27,7 @@ In the dialog box of the Read CSV processor the path is specified as ``s3a://spa
    :alt: S3 Workflow
    :align: center
    
-.. figure:: ../_assets/aws/s3-csv-configuration.PNG
+.. figure:: ../_assets/aws/configurations3_save.PNG
    :alt: S3 CSV Dialog
    :align: center
    

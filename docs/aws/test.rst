@@ -1,11 +1,11 @@
 Testing Fire Insights on AWS
 ============================
 
-After you have deployed Fire Insights on AWS, it is a good idea to test the things.
+After you have deployed Fire Insights on AWS, it is a good idea to test things.
 
 Below are a few good steps for achieving it:
 
-* Ensure you can log into the sytem
+* Ensure you can log into the system
 * View the Sample Applications
 * Execute a workflow on EMR
 
@@ -19,7 +19,7 @@ View the Sample Applications
 ----------------------------
 
 * Go to the ``Applications/List' page.
-* If you loaded the Sample Applications during the deployment process you would see a number of Sample Applications listed.
+* If you loaded the Sample Applications during the deployment process you would see some Sample Applications listed.
 * Click on any of them to view their Datasets/Workflows etc.
 
 Execute a workflow on EMR

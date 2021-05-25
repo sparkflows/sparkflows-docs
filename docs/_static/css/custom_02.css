@@ -297,3 +297,6 @@ font-size: 1em;
 .sphinx-bs .shadow {
     box-shadow: none !important;
 }
+.sphinx-bs .card{
+    border: 1px solid #cccccc;
+}

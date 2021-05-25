@@ -118,7 +118,9 @@ font-size: 1em;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-
+.wy-menu-vertical a:active{
+    color: #404040;
+}
 .wy-menu-vertical li.current > a.current{
     background: #a9d9f5!important;
 }
@@ -296,4 +298,7 @@ font-size: 1em;
 }
 .sphinx-bs .shadow {
     box-shadow: none !important;
+}
+.wy-menu-vertical a:hover, .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current a:hover, .wy-menu-vertical li.current > a:hover {
+    background-color: #a9d9f5 !important;
 }

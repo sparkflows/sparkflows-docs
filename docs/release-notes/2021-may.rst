@@ -4,3 +4,6 @@ May 2021
 New Features
 ------------
 
+- New sort node in Pyspark Engine
+- New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
+- In Analytics App, do not display columns in the dropdown which have already been selected

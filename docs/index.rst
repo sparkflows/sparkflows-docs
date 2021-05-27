@@ -114,6 +114,14 @@ Third Party Acknowledgements
    :maxdepth: 2
 
    third-party   
+   
+Release Notes
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   release-notes      
 
 Indices and tables
 ------------------

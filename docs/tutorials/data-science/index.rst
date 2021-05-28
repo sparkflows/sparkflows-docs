@@ -38,6 +38,12 @@ Machine Learning
 
     Motivation behind earthquake prediction is to empower crisis measures to decrease demise and devastation, inability to give notice of a significant earthquake that happens, or possibly a satisfactory assessment of the hazard, can bring about legitimate risk, or even political cleansing.
 
+    ---
+
+    :doc:`/tutorials/data-science/H2O-Kmeans`
+
+    This workflow performs clustering of the Bike Sharing Dataset. It uses H2O Kmeans with k=10.
+
 .. toctree::
    :hidden:
 
@@ -47,6 +53,7 @@ Machine Learning
    clustering-houses.rst
    tfidf.rst
    earthquake-prediction.rst
+   H2O-Kmeans.rst
    
    
    

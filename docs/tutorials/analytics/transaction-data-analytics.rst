@@ -43,18 +43,18 @@ It prints the Sample Dataset Result.
 Analysing using Graph
 ---------------------
 
-It helps to analyse using the graph grouped by column brand and count.
+Number of transaction(count) at different brand, company and category.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4.png
    :alt: Transaction Data Analytics
    :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4a.PNG
+.. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4a.png
    :alt: Transaction Data Analytics
    :width: 90%

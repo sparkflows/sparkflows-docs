@@ -53,5 +53,5 @@ Analytics
    nyc-taxidata-annalysis.rst
    transaction-data-analytics.rst
    analyze-flights-delays.rst
-   clcikstream-analysis.rst
+   clickstream-analysis.rst
    

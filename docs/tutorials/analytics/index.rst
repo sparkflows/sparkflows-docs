@@ -38,6 +38,12 @@ Analytics
 
     This workflow reads in a flights dataset then, analyzes the flights delay and prints the result.
 
+    ---
+
+    :doc:`/tutorials/analytics/clickstream-analysis`
+
+    This workflow reads in the Omniture clickstream data, product and users data. Show the distribution at state & age level.
+    
 .. toctree::
    :hidden:
    
@@ -47,4 +53,5 @@ Analytics
    nyc-taxidata-annalysis.rst
    transaction-data-analytics.rst
    analyze-flights-delays.rst
+   clcikstream-analysis.rst
    

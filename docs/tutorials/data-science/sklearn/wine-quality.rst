@@ -21,7 +21,7 @@ Custom Code
    
 code in pyspark node
 ---------------------
-```
+
 from pyspark.sql.types import StringType
 from pyspark.sql.functions import *
 from pyspark.sql import *
@@ -86,6 +86,18 @@ def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: D
     
   return inDF
     
-  ```
 
 
+Result
+---------------------
+
+.. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/result-1.png
+   :alt: WineQuality
+   :width: 90%
+
+
+.. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/result-2.png
+   :alt: WineQuality
+   :width: 90%
+   
+   

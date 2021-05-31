@@ -15,6 +15,12 @@ H2O
     :doc:`/tutorials/data-science/h2o/H2O-GBM`
 
     This workflow performs sequentially builds regression trees on all the features of the Bike Sharing Dataset in a fully distributed way - each tree is built in parallel.
+    
+    ---
+
+    :doc:`/tutorials/data-science/h2o/H20-IsolationForest`
+
+    This workflow performs anomaly detection with isolation forests using H2O of the credit card fraud Dataset.
 
 
 

@@ -28,3 +28,6 @@ H2O KMeans Clustering Configuration
 Results
 ---------------------
 
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/result.png
+   :alt: H2O Kmeans
+   :width: 90%

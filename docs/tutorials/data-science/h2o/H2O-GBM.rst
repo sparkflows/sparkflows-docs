@@ -13,3 +13,7 @@ The below workflow:
 * Perform clustering using H2O GBM.
 * Score the test dataset using the model created.
 * Print the results.
+
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
+   :alt: H2O GBM
+   :width: 90%

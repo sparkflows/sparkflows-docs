@@ -18,7 +18,7 @@ H2O
     
     ---
 
-    :doc:`/tutorials/data-science/h2o/H20-IsolationForest`
+    :doc:`/tutorials/data-science/h2o/H2O-IsolationForest`
 
     This workflow performs anomaly detection with isolation forests using H2O of the credit card fraud Dataset.
 
@@ -29,7 +29,7 @@ H2O
 
    H2O-Kmeans.rst
    H2O-GBM.rst
-   H20-IsolationForest.rst
+   H2O-IsolationForest.rst
    
    
    

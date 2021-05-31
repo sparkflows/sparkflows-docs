@@ -27,6 +27,7 @@ Workflow
 -------
 
 The below workflow:
+
 * Read CSV - Read the dataset.
 * SQL - Select columns based on quality.
 * Vector Assembler - Merge multiple columns into a vector column.

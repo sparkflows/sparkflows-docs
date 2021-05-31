@@ -9,12 +9,17 @@ Sklearn
     :doc:`/tutorials/data-science/sklearn/wine-quality`
 
     WineQuality with custom code in pyspark node.
+    ----
+    
+    :doc:`/tutorials/data-science/sklearn/diabetesclassification-sklearn`
 
+    WineQuality with custom code in pyspark node.
     
 .. toctree::
    :hidden:
 
    wine-quality.rst
+   diabetesclassification-sklearn.rst
    
    
    

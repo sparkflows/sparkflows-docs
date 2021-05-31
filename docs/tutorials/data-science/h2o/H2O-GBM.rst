@@ -21,12 +21,19 @@ The below workflow:
 H2O GBM Configuration
 ---------------------
 
+* select RESPONSE COLUMN
+* select RESPONSE COL CATEGORICAL : it specifies a response column type (numeric or categorical) Separates the Classification and Regression.
+* select IGNORE CONST COLUMNS : Specify whether to ignore constant training columns.
+* select IGNORED COLUMNS : Specify the column or columns to be excluded from the model.
+
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/2.PNG
    :alt: H2O GBM
    :width: 90%
 
 Results
 ---------------------
+
+Once the above  workflow got executed, Below details can be seen on execution page.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/3.PNG
    :alt: H2O GBM

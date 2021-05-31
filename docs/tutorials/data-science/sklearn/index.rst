@@ -13,7 +13,7 @@ Sklearn
     
     :doc:`/tutorials/data-science/sklearn/diabetesclassification-sklearn`
 
-    WineQuality with custom code in pyspark node.
+    Diabetes classification with randomforest.
     
 .. toctree::
    :hidden:

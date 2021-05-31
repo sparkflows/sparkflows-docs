@@ -33,7 +33,7 @@ H2O GBM Configuration
 Results
 ---------------------
 
-Once the above  workflow got executed, Below details can be seen on execution page.
+Once the above workflow is getting Executed, Below details can be seen on Execution page.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/3.PNG
    :alt: H2O GBM

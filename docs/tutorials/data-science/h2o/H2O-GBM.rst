@@ -25,3 +25,17 @@ H2O GBM Connfiguration
    :alt: H2O GBM
    :width: 90%
 
+Results
+---------------------
+
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/3.PNG
+   :alt: H2O GBM
+   :width: 90%
+   
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/4.PNG
+   :alt: H2O GBM
+   :width: 90%   
+   
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/5.PNG
+   :alt: H2O GBM
+   :width: 90%   

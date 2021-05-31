@@ -17,3 +17,11 @@ The below workflow:
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
    :alt: H2O GBM
    :width: 90%
+
+H2O GBM Connfiguration
+---------------------
+
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/2.PNG
+   :alt: H2O GBM
+   :width: 90%
+

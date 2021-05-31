@@ -39,7 +39,11 @@ Spark ML
 
     Motivation behind earthquake prediction is to empower crisis measures to decrease demise and devastation, inability to give notice of a significant earthquake that happens, or possibly a satisfactory assessment of the hazard, can bring about legitimate risk, or even political cleansing.
 
+    ---
 
+    :doc:`/tutorials/data-science/sparkml/multilayerPerceptronClassifier`
+
+    Multilayer perceptron classifier (MLPC) is a classifier based on the feedforward artificial neural network. MLPC consists of multiple layers of nodes. Each layer is fully connected to the next layer in the network. Nodes in the input layer represent the input data.
 
 .. toctree::
    :hidden:
@@ -50,6 +54,7 @@ Spark ML
    clustering-houses.rst
    tfidf.rst
    earthquake-prediction.rst
+   multilayerPerceptronClassifier.rst
    
    
    

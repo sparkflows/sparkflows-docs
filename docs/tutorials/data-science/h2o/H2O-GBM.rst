@@ -10,7 +10,7 @@ The below workflow:
 
 * Read the Bike Sharing Dataset.
 * Split the dataset for training and test.
-* Perform clustering using H2O GBM.
+* Perform sequentially builds regression trees using H2O GBM.
 * Score the test dataset using the model created.
 * Print the results.
 

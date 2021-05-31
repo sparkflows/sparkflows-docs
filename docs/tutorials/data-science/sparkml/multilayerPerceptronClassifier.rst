@@ -50,7 +50,7 @@ MultilayerPerceptronClassifier Configuration
    :width: 80%
    
 
-Results - Row Values
+Result - Row Values
 --------------------------------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-rowValues.png
@@ -58,7 +58,7 @@ Results - Row Values
    :width: 80%
    
 
-Results - Matrix
+Result - Matrix
 --------------------------------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-matrix-result.png

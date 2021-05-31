@@ -28,7 +28,7 @@ It will redirect to the Sparkflows login URL page.
 Fill the Username and Password and Click on SignIn
 ==================
 
-.. figure:: ../../_assets/tutorials/token/token4.PNG
+.. figure:: ../../_assets/tutorials/token/login.PNG
    :alt: Token
    :width: 60%
    

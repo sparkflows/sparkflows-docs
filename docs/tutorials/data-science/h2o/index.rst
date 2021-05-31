@@ -29,7 +29,7 @@ H2O
 
    H2O-Kmeans.rst
    H2O-GBM.rst
-   H20 - IsolationForest
+   H20-IsolationForest.rst
    
    
    

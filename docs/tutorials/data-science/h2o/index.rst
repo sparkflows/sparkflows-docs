@@ -16,6 +16,7 @@ H2O
    :hidden:
 
    H2O-Kmeans.rst
+   H2O-GBM.rst
    
    
    

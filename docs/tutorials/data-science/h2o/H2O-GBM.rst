@@ -18,7 +18,7 @@ The below workflow:
    :alt: H2O GBM
    :width: 90%
 
-H2O GBM Connfiguration
+H2O GBM Configuration
 ---------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/2.PNG

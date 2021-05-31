@@ -14,7 +14,7 @@ H2O
 
     :doc:`/tutorials/data-science/h2o/H2O-GBM`
 
-   This workflow performs H2O’s GBM sequentially builds regression trees on all the features of the dataset in a fully distributed way - each tree is built in parallel.
+    This workflow performs H2O’s GBM sequentially builds regression trees on all the features of the dataset in a fully distributed way - each tree is built in parallel.
 
 
 

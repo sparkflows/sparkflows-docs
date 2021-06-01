@@ -16,6 +16,9 @@ Random Forest Configuration
    
 Below is the configuration for the Random Forest Classification nodes in the workflow.
 
+* Outcome is the target column
+* All of the columns except Outcome have been selected as the Feature Columns.
+
 .. figure:: ../../../_assets/tutorials/machine-learning/diabetes-classification-rf/rf-config.png
    :alt: DiabetesClassification
    :width: 90%  
@@ -24,10 +27,11 @@ Below is the configuration for the Random Forest Classification nodes in the wor
 Result
 ---------------------
 
-Below is the output of executing the Random Forest Classfication Node.
+Below is the output of the Predict Node.
 
-* Outcome is the target column
-* All of the columns except Outcome have been selected as the Feature Columns.
+* The column Predict captures the result of the Predicitons
+* We see that the accuracy of the model is .84. It is computed by the SklearnClassificationEvaluator Node.
+
 
 .. figure:: ../../../_assets/tutorials/machine-learning/diabetes-classification-rf/result-1.png
    :alt: DiabetesClassification

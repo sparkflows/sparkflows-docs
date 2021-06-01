@@ -40,4 +40,51 @@ Users Data
 .. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/2b.png
    :alt: ClickStream Analysis
    :width: 80%
+ 
+ 
+Number of users by state and displays them on a map.
+---------------------------------------------------
+Caluclation 
+^^^^^^^^^^^^^
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3a.png
+   :alt: ClickStream Analysis
+   :width: 80%
+   
+   
+Configuration 
+^^^^^^^^^^^^^
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3a.png
+   :alt: ClickStream Analysis
+   :width: 80%
+   
+Result
+^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3b.png
+   :alt: ClickStream Analysis
+   :width: 80%
+
+
+Number of users by age and displays them on a graph
+---------------------------------------------------
+
+Caluclation 
+^^^^^^^^^^^^^
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4.png
+   :alt: ClickStream Analysis
+   :width: 80%
+   
+   
+Configuration
+^^^^^^^^^^^^^
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4a.png
+   :alt: ClickStream Analysis
+   :width: 80%
+   
+Result
+^^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4b.png
+   :alt: ClickStream Analysis
+   :width: 80%
    

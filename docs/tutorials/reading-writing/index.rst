@@ -106,7 +106,7 @@ Reading - Writing Data
     
     
 .. toctree::
-   :hidden: 1
+   :hidden:
 
    reading-csv.rst
    reading-avro.rst

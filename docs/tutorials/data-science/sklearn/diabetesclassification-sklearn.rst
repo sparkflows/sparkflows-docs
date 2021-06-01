@@ -26,6 +26,9 @@ Result
 
 Below is the output of executing the Random Forest Classfication Node.
 
+* Outcome is the target column
+* All of the columns except Outcome have been selected as the Feature Columns.
+
 .. figure:: ../../../_assets/tutorials/machine-learning/diabetes-classification-rf/result-1.png
    :alt: DiabetesClassification
    :width: 90%

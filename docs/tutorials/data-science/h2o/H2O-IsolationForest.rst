@@ -5,6 +5,10 @@ This workflow performs Anomaly Detection with Isolation Forests using H2O of cre
 
 Anomaly detection is a common data science problem where the goal is to identify odd or suspicious observations, events, or items in our data that might be indicative of some issues in our data collection process (such as broken sensors, typos in collected forms, etc.) or unexpected events like security breaches, server failures, and so on.
 
+Anomaly Detection: https://www.h2o.ai/blog/anomaly-detection-with-isolation-forests-using-h2o/
+
+Dataset : https://www.kaggle.com/mlg-ulb/creditcardfraud
+
 Workflow
 -------
 

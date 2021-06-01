@@ -28,79 +28,79 @@ Reading - Writing Data
     
     ----
     
-    :doc:`tutorials/reading-writing/reading-mysql`
+    :doc:`/tutorials/reading-writing/reading-mysql`
     
     Creating dataset from MYSQL table
     
     ----
     
-    :doc:`tutorials/reading-writing/reading-from-rdbms`
+    :doc:`/tutorials/reading-writing/reading-from-rdbms`
     
     Reading from JDBC sources like MySQL/Oracle/DB2/..
 
     ----
     
-    :doc:`tutorials/reading-writing/read-csv-file`
+    :doc:`/tutorials/reading-writing/read-csv-file`
     
     Reading data from CSV file
     
     ----
     
-    :doc:`tutorials/reading-writing/reading-json-file`
+    :doc:`/tutorials/reading-writing/reading-json-file`
     
     Reading data from JSON file
     
     ----
     
-    :doc:`tutorials/reading-writing/reading-parquet-file`
+    :doc:`/tutorials/reading-writing/reading-parquet-file`
     
     Reading data from Parquet file
     
     ----
     
-    :doc:`tutorials/reading-writing/read-pdf-file`
+    :doc:`/tutorials/reading-writing/read-pdf-file`
     
     Reading data from Pdf file and parses it's content into string
     
     ----
     
-    :doc:`tutorials/reading-writing/elasticsearch`
+    :doc:`/tutorials/reading-writing/elasticsearch`
     
     Read data from ElasticSearh, clean it and transform it as needed
     
     ----
     
-    :doc:`tutorials/reading-writing/writing-csv`
+    :doc:`/tutorials/reading-writing/writing-csv`
     
     Reading data from CSV file and save it to specified location
     
     ----
     
-    :doc:`tutorials/reading-writing/writing-hive`
+    :doc:`/tutorials/reading-writing/writing-hive`
     
     Reads data and saves it into the HIVE
     
     ----
     
-    :doc:`tutorials/reading-writing/writing-parquet`
+    :doc:`/tutorials/reading-writing/writing-parquet`
     
     Reads data and write into parquet file
     
     ----
     
-    :doc:`tutorials/reading-writing/writing-json`
+    :doc:`/tutorials/reading-writing/writing-json`
     
     Reads data and write to json file
     
     ----
     
-    :doc:`tutorials/reading-writing/mongodb`
+    :doc:`/tutorials/reading-writing/mongodb`
     
     Reads and write from mongodb
     
     ----
     
-    :doc:`tutorials/reading-writing/processing-multiple-files`
+    :doc:`/tutorials/reading-writing/processing-multiple-files`
     
     Reads in multiple csv files available in specific directory
     

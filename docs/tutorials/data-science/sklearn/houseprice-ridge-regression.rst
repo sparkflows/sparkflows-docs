@@ -1,7 +1,10 @@
 House Price
 =============================================
 
-This workflow performs House Prce prediction with Ridge Regression.
+House Price Prediction with Sklearn gradient boosting regression model and evaluate the model
+performance.
+- Features - Bedroom, lotsize, bathrooms.
+- Target variable - Price.
    
 Workflow
 -------
@@ -22,6 +25,7 @@ Workflow
 
 Result
 ---------------------
+Once the above workflow is getting Executed, Below details can be seen on Execution page.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/houseprice-ridge-regression/result-1.png
    :alt: House Price

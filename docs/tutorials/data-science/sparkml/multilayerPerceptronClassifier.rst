@@ -1,4 +1,4 @@
-MultilayerPerceptronClassifier - WineQuality
+Multilayer Perceptron Classifier - WineQuality
 ============================================
 
 This workflow read the dataset, perform MLPC on the text content, predict and print the result.

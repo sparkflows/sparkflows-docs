@@ -2,8 +2,82 @@
 Tutorials
 ==========
 
+.. panels::
+    :container: container-lg pb-3
+    
+    :doc:`/tutorials/reading-writing/index`
+
+      
+
+    ---
+
+    :doc:`/tutorials/data-engineering/index`
+
+      
+
+    ---
+
+    :doc:`/tutorials/data-engineeringII/index`
+    
+      
+    
+    ---  
+    
+    :doc:`/tutorials/data-exploration/index`
+    
+      
+    
+    ---
+    
+    :doc:`/tutorials/analytics/index`
+    
+      
+
+    ---
+
+    :doc:`/tutorials/data-science/index`
+    
+      
+    
+    ---  
+    
+    :doc:`/tutorials/time-series/index`
+    
+      
+    
+    ---
+    
+    :doc:`/tutorials/languages/index`
+    
+       
+    
+    ---
+
+    :doc:`/tutorials/nlp/index`
+
+       
+
+    ---
+
+    :doc:`/tutorials/streaming/index`
+    
+       
+    
+    ---  
+    
+    :doc:`/tutorials/ocr/index`
+    
+       
+    
+    ---
+    
+    :doc:`/tutorials/rest-api/index`
+    
+         
+    
+    
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    reading-writing/index.rst
    data-engineering/index.rst

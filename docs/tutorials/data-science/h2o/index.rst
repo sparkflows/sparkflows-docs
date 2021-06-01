@@ -9,6 +9,8 @@ H2O
     :doc:`/tutorials/data-science/h2o/H2O-Kmeans`
 
     This workflow performs clustering of the Bike Sharing Dataset. It uses H2O Kmeans with k=10.
+
+    https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html
     
     ---
 

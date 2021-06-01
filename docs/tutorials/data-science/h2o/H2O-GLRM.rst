@@ -1,7 +1,7 @@
 H2O GLRM
 ==========
 
-This workflow performs H2O’s GLRM for reconstructing missing values and identifying important features in heterogeneous with Creditcardfraud Dataset.
+This workflow performs reconstructing missing values and identifying important features in heterogeneous with Creditcardfraud Dataset, It uses H2O’s GLRM.
 
 Workflow
 -------

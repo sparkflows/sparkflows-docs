@@ -25,8 +25,7 @@ H2O
     This workflow performs H2O’s GLRM for reconstructing missing values and identifying important features in heterogeneous Creditcardfraud Dataset.
     
     http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html
-        
-        
+          
     ---
 
     :doc:`/tutorials/data-science/h2o/H2O-IsolationForest`

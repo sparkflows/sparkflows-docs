@@ -1,7 +1,7 @@
 House Price
 =============================================
 
-This workflow performs House Prce prediction with ridge regression.
+This workflow performs House Prce prediction with Ridge Regression.
    
 Workflow
 -------
@@ -11,10 +11,13 @@ Workflow
    :width: 90%
 
 
+ Ridge Regression Configuration
+ -----------------------------
    
 .. figure:: ../../../_assets/tutorials/machine-learning/houseprice-ridge-regression/ridge-config.png
    :alt: House Price
    :width: 90%  
+
 
 
 Result
@@ -25,6 +28,8 @@ Result
    :width: 90%
 
 
+Metrics
+-----------
 .. figure:: ../../../_assets/tutorials/machine-learning/houseprice-ridge-regression/result-2.png
    :alt: House Price
    :width: 90%

@@ -9,6 +9,12 @@ Time Series
     Stock forecasting helps production units to get an idea about raw material, pricing of goods, improvement in supply, chain management and proper control of sales.
 
     ---
+    
+    :doc:`/tutorials/time-series/Stock-forecasting-visualization`
+
+    Graphical representation is the best way to understand insights from data i.e Use of charts and graphs 
+
+    ---
 
     :doc:`/tutorials/time-series/ARIMA-on-AirPassengers-dataset`
 
@@ -29,6 +35,7 @@ Time Series
    :hidden:
 
    Stock-forecasting-for-Inventory-Management.rst
+   Stock-forecasting-visualization.rst
    ARIMA-on-AirPassengers-dataset.rst
    Time-Series-Feature-Engineering.rst
    Anamoly-Detection.rst

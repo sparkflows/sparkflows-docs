@@ -33,6 +33,8 @@ H2O
     :doc:`/tutorials/data-science/h2o/H2O-IsolationForest`
 
     This workflow performs anomaly detection with isolation forests using H2O of the credit card fraud Dataset.
+    
+    https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/if.html
 
 
 

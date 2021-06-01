@@ -15,3 +15,14 @@ The below workflow:
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/1.PNG
    :alt: H2O GLRM
    :width: 90%
+
+H2O GLRM Configuration
+---------------------
+
+* select K (Specify the rank of matrix approximation) : 2
+* select IGNORED COLUMNS (Specify the column or columns to be excluded from the model): Class
+* select IGNORE CONST COLS (Specify whether to ignore constant training columns) : true
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/2.PNG
+   :alt: H2O GLRM
+   :width: 90%

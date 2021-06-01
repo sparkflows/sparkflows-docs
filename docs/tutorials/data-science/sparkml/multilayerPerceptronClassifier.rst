@@ -38,15 +38,24 @@ The below workflow:
 * PrintNRows - Print the final result.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-workflow.png
-   :alt: TFIDF
+   :alt: MLPC
    :width: 80%
    
  
-MultilayerPerceptronClassifier Configuration
+MultilayerPerceptron Configuration
 --------------------------------------------
 
+Below is the configuration for the Multilayer Perceptron nodes in the workflow.
+
+* Features column - Features column of the type vector UDT for model fitting.
+* Label Column - The label column for model fitting.
+* Prediction column - The prediction column created during model scoring.
+* Layers-Comma Separated list of Integers - The integer array specifying the number of activation units in each layer.
+* Max Number Of Iterations - Number of iterations to train the neural network.
+* Seed - The initial seed to initialize the neural network.
+
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-configuration.png
-   :alt: TFIDF
+   :alt: MLPC
    :width: 80%
    
 
@@ -54,7 +63,7 @@ Result - Row Values
 --------------------------------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-rowValues.png
-   :alt: TFIDF
+   :alt: MLPC
    :width: 80%
    
 
@@ -62,6 +71,6 @@ Result - Matrix
 --------------------------------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-matrix-result.png
-   :alt: TFIDF
+   :alt: MLPC
    :width: 80%
    

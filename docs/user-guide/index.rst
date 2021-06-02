@@ -31,11 +31,11 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
     ---
 
-    :doc:`/user-guide/data_profile`
+    :doc:`/user-guide/data-profile`
 
     ---
 
-    :doc:`/user-guide/ machine-learning/index`
+    :doc:`/user-guide/machine-learning/index`
 
     ---
 
@@ -44,10 +44,6 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
     ---
 
     :doc:`/user-guide/time-series/index`
-
-    ---
-
-    :doc:`/user-guide/tutorials/index`
     
     ---
 
@@ -67,11 +63,10 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    reading-writing/index
    data-preparation/index
    data-exploration/index
-   data_profile.rst
+   data-profile.rst
    machine-learning/index
    web-app/index
    time-series/index
-   tutorials/index
    python/index
    performance/index
 

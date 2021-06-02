@@ -1,8 +1,64 @@
 Apache Spark ML
 ===============
 
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/user-guide/machine-learning/sparkml/feature-generation`
+
+    Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/feature-selection`
+    
+    Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/clustering`
+    
+    Clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters)
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/regression`
+    
+    Regression analysis is a set of statistical processes for estimating the relationships between a dependent variable (often called the ‘outcome variable’) and one or more independent variables (often called ‘predictors’, ‘covariates’, or ‘features’)
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/classification`
+    
+    In machine learning and statistics, classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/prediction`
+    
+    Prediction derives the relationship between a thing you know and a thing you need to predict for future reference
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/evaluation`
+    
+    Model evaluation aims to estimate the generalization accuracy of a model on future (unseen/out-of-sample) data
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/serving-sparkmllib-models`
+    
+    Apache Spark MLlib models get saved as files on the File System
+
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/model-persistence`
+    
+    Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors for saving and loading the Spark ML models.
+
+    
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    feature-generation.rst
    feature-selection.rst

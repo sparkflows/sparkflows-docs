@@ -37,3 +37,13 @@ Lasso regression, or the Least Absolute Shrinkage and Selection Operator, is als
 More details are at the Scikit-learn page:
 
 https://scikit-learn.org/stable/modules/linear_model.html#lasso
+
+Gradient Boosting regression
+--------------------------
+
+Gradient Boosting builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function.
+
+More details are at the Scikit-learn page:
+
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
+

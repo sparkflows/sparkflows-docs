@@ -76,13 +76,15 @@ You can find the details |location_link|.
 
    <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html" target="_blank">here</a>
 
+H2O XGBoost
+-----------
 
+XGBoost is a supervised learning algorithm that implements a process called boosting to yield accurate models. Boosting refers to the ensemble learning technique of building many models sequentially, with each new model attempting to correct for the deficiencies in the previous model. In tree boosting, each new model that is added to the ensemble is a decision tree. XGBoost provides parallel tree boosting (also known as GBDT, GBM) that solves many data science problems in a fast and accurate way. For many problems, XGBoost is one of the best gradient boosting machine (GBM) frameworks today.
 
+You can find the details |location_link|.
 
+.. |location_link| raw:: html
 
-
-
-
-
+   <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html" target="_blank">here</a>
 
 

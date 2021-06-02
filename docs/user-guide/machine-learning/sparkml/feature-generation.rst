@@ -28,5 +28,5 @@ Fire  Insights provides several processors for Feature Generation
    * - TF/IDF
      - Finds the TF and IDF
    * - IndexString
-     - Converts a column containg String to numeric values
+     - Converts a column containing string to numeric values
      

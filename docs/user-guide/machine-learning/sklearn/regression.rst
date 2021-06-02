@@ -28,3 +28,12 @@ Ridge regression is an extension of linear regression where the loss function is
 More details are at the Scikit-learn page:
 
 https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+
+Lasso Regression
+-----------------
+
+Lasso regression, or the Least Absolute Shrinkage and Selection Operator, is also a modification of linear regression. In Lasso, the loss function is modified to minimize the complexity of the model by limiting the sum of the absolute values of the model coefficients (also called the l1-norm).
+
+More details are at the Scikit-learn page:
+
+https://scikit-learn.org/stable/modules/linear_model.html#lasso

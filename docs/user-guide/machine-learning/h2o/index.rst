@@ -42,4 +42,16 @@ You can find the details |location_link|.
 .. |location_link| raw:: html
 
    <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html" target="_blank">here</a>
+   
+H2O GBM
+-------
+
+Gradient Boosting Machine (for Regression and Classification) is a forward learning ensemble method. The guiding heuristic is that good predictive results can be obtained through increasingly refined approximations. H2O’s GBM sequentially builds regression trees on all the features of the dataset in a fully distributed way - each tree is built in parallel.
+
+You can find the details |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html" target="_blank">here</a>
+
 

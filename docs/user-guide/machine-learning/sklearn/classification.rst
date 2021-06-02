@@ -21,7 +21,7 @@ Classification
 Logistic Regression Classifier
 -----------------------------
 
-In LR Classifier, he probabilities describing the possible outcomes of a single trial are modeled using a logistic function. It is implemented in the linear_model library.
+In LR Classifier, probabilities describing the possible outcomes of a single trial are modeled using a logistic function. It is implemented in the linear_model library.
 
 Gradient Boosting classifier
 ----------------------------

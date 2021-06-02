@@ -1,5 +1,5 @@
 Classification
--------------
+==============
 
 
 .. list-table:: Scikit Learn based Classification Processors in Fire Insights

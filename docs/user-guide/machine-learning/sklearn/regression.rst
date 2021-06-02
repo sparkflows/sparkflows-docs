@@ -27,7 +27,7 @@ Ridge regression is an extension of linear regression where the loss function is
 
 More details are at the Scikit-learn page:
 
-https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
 
 Lasso Regression
 -----------------
@@ -36,7 +36,7 @@ Lasso regression, or the Least Absolute Shrinkage and Selection Operator, is als
 
 More details are at the Scikit-learn page:
 
-https://scikit-learn.org/stable/modules/linear_model.html#lasso
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
 
 Gradient Boosting regression
 --------------------------
@@ -47,3 +47,11 @@ More details are at the Scikit-learn page:
 
 https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
 
+Random forest regression
+--------------------------
+
+A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
+
+More details are at the Scikit-learn page:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html

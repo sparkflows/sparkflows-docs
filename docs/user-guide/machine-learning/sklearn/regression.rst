@@ -23,8 +23,8 @@ Regression
 Ridge regression
 ----------------
 
-The simplest form of regression is the linear regression, which assumes that the predictors have a linear relationship with the target variable. The input variables are assumed to have a Gaussian distribution. Another assumption is that the predictors are not highly correlated with each other (a problem called multi-collinearity).
+Ridge regression is an extension of linear regression where the loss function is modified to minimize the complexity of the model. This modification is done by adding a penalty parameter that is equivalent to the square of the magnitude of the coefficients.
 
 More details are at the Scikit-learn page:
 
-https://scikit-learn.org/stable/modules/linear_model.html
+https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification

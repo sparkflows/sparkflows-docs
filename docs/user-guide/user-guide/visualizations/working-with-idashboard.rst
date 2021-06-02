@@ -1,14 +1,14 @@
-Dashboard
+Dashboards
 =======================
 
-Fire allows creating of the dashboard.
+Fire Insights allows creating of the Dashboard.
 
-Fire allows to create new dataset using JDBC data type from MYSQL DB & then uses the datasets in creating charts & dashboard.
+You can create new datasets using JDBC data type from MYSQL DB & then uses the datasets in creating charts & dashboards.
 
 Creating Dashboard
 --------------------
 
-- For creating dashboard, create JDBC datasets if not available.
+- For creating a Dashboard, create a JDBC dataset first.
 
 You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 

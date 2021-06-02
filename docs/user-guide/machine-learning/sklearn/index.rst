@@ -7,7 +7,7 @@ Scikit-learn
 
     :doc:`/user-guide/machine-learning/sklearn/regression`
     
-    more details:
+    More details on Scikit-learn page:
     
     https://scikit-learn.org/stable/modules/linear_model.html
     
@@ -15,7 +15,7 @@ Scikit-learn
     
     :doc:`/user-guide/machine-learning/sklearn/classification`
     
-    more details:
+    More details on Scikit-learn page:
     
     https://scikit-learn.org/stable/supervised_learning.html       
     

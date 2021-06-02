@@ -19,3 +19,12 @@ Regression
      
    * - Random forest regression
      - A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement if bootstrap=True (default). 
+
+Ridge regression
+----------------
+
+The simplest form of regression is the linear regression, which assumes that the predictors have a linear relationship with the target variable. The input variables are assumed to have a Gaussian distribution. Another assumption is that the predictors are not highly correlated with each other (a problem called multi-collinearity).
+
+More details are at the Scikit-learn page:
+
+https://scikit-learn.org/stable/modules/linear_model.html

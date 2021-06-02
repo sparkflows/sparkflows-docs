@@ -25,5 +25,60 @@ The below workflow:
 
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/isolationForestWorkflow.png
-   :alt: H2O Kmeans
+   :alt: H2O IsolationForest
    :width: 90%
+   
+   
+IsolationForest Configuration
+-----------------------------
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/1.png
+   :alt: H2O IsolationForest
+   :width: 90%
+  
+  
+IsolationForest Summary
+-----------------------
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/1a.png
+   :alt: H2O IsolationForest
+   :width: 90%
+  
+  
+
+Sample Prediction
+------------------
+
+predict & mean_length are output fields from model.
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/2.png
+   :alt: H2O IsolationForest
+   :width: 90%
+
+Inspecting Predictions
+----------------------
+We can see that the prediction output contains two columns: predict showing a normalized anomaly score, and mean_length showing the average number of splits across all trees to isolate the observation.
+
+These two columns should have the property of inverse proportion by their definition, as the less random splits you need to isolate the observation, the more anomalous it is. We can easily check that.
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/3.png
+   :alt: H2O IsolationForest
+   :width: 90%
+
+
+Predicting Anomalies using Quantile
+------------------------------------
+
+As we formulated this problem in an unsupervised fashion, how do we go from the average number of splits / anomaly score to the actual predictions? Using a threshold! If we have an idea about the relative number of outliers in our dataset, we can find the corresponding quantile value of the score and use it as a threshold for our predictions.
+
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/4.png
+   :alt: H2O IsolationForest
+   :width: 90%
+
+Predict the anomalous class
+---------------------------
+Use the threshold to predict the anomalous class.
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H20-IsolationForest/5.png
+   :alt: H2O IsolationForest
+   :width: 90%
+

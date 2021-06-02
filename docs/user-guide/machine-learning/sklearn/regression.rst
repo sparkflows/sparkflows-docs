@@ -32,7 +32,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.htm
 Lasso Regression
 -----------------
 
-Lasso regression, or the Least Absolute Shrinkage and Selection Operator, is also a modification of linear regression. In Lasso, the loss function is modified to minimize the complexity of the model by limiting the sum of the absolute values of the model coefficients (also called the l1-norm).
+Lasso regression or the Least Absolute Shrinkage and Selection Operator, is also a modification of linear regression. In Lasso, the loss function is modified to minimize the complexity of the model by limiting the sum of the absolute values of the model coefficients (also called the l1-norm).
 
 More details are at the Scikit-learn page:
 

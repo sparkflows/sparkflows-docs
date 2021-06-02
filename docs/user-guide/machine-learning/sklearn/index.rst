@@ -5,11 +5,11 @@ Scikit-learn
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`user-guide/machine-learning/sklearn/classification`
+    :doc:`/user-guide/machine-learning/sklearn/regression`
     
     ----
     
-    :doc:`/tutorials/data-science/sklearn/diabetesclassification-sklearn`
+    :doc:`/user-guide/machine-learning/sklearn/classification`
 
            
     

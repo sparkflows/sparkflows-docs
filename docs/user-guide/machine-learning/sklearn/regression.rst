@@ -1,5 +1,5 @@
 Regression
-------------
+===========
 
 
 .. list-table:: Scikit Learn based Regression Processors in Fire Insights

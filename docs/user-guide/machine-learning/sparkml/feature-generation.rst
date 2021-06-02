@@ -6,7 +6,7 @@ Feature generation is the process of creating new features from one or multiple 
 
 
 .. list-table:: Fire  Insights provides several processors for Feature Generation. These include:
-   :widths:  20 40
+   :widths:  20 60
    :header-rows: 1
 
    * - Title

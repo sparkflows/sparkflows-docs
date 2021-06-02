@@ -3,10 +3,10 @@ Feature Generation
 
 Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis. This process adds new information to be accessible during the model construction and therefore hopefully result in a more accurate model.
 
+Fire  Insights provides several processors for Feature Generation
 
-
-.. list-table:: Fire  Insights provides several processors for Feature Generation. These include:
-   :widths:  20 60
+.. list-table:: Feature Generation Processors in Fire Insights
+   :widths:  20 80
    :header-rows: 1
 
    * - Title

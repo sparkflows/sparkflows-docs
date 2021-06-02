@@ -15,5 +15,6 @@ Visualization Processors include:
 * Yearly Distribution
 * Heatmaps
 * Tables
+* Sub-Plots
 
 

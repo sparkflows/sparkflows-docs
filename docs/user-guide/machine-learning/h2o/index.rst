@@ -64,6 +64,21 @@ You can find the details |location_link|.
 .. |location_link| raw:: html
 
    <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html" target="_blank">here</a>
+   
+H2O GLM
+-------
+
+Generalized Linear Models (GLM) estimate regression models for outcomes following exponential distributions. In addition to the Gaussian (i.e. normal) distribution, these include Poisson, binomial, and gamma distributions. Each serves a different purpose, and depending on distribution and link function choice, can be used either for prediction or classification.
+
+You can find the details |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html" target="_blank">here</a>
+
+
+
+
 
 
 

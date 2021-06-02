@@ -30,3 +30,33 @@ Fire  Insights provides several processors for Feature Generation
    * - IndexString
      - Converts a column containing string to numeric values
      
+
+Tokenizer
+---------
+
+Tokenization is the process of taking text (such as a sentence) and breaking it into individual terms (usually words). 
+
+More details are at Spark MLlib/ML docs page :
+
+https://spark.apache.org/docs/latest/ml-features#tokenizer
+
+
+Stop Word Remover
+-----------------
+
+Stop words filters out stop words from input. Null values from input array are preserved unless adding null to stopWords explicitly.
+
+More details are at Spark MLlib/ML docs page :
+
+https://spark.apache.org/docs/latest/ml-features#stopwordsremover
+
+
+OneHotEncoder
+-------------
+
+One-hot encoding maps a categorical feature, represented as a label index, to a binary vector with at most a single one-value indicating the presence of a specific feature value from among the set of all feature values. This encoding allows algorithms which expect continuous features, such as Logistic Regression, to use categorical features. For string type input data, it is common to encode categorical features using StringIndexer first.
+
+More details are at Spark MLlib/ML docs page :
+
+https://spark.apache.org/docs/latest/ml-features#onehotencoder
+

@@ -9,7 +9,7 @@ Apache Spark MLlib
 -------------------------
 
 .. list-table:: Apache Spark based Classification Processors in Fire Insights
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - Title

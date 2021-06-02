@@ -3,7 +3,7 @@ Serving Spark MLlib Models
 
 Fire Insights creates Apache Spark MLlib models. These models get saved as files on the File System.
 
-NoveModelSave saves the Spark ML models as files. It uses the Spark interfaces to save the model.
+NodeModelSave saves the Spark ML models as files. It uses the Spark interfaces to save the model.
 
 .. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model

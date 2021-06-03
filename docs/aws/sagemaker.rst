@@ -96,7 +96,7 @@ Below is a workflow which:
 * Performs predictions with the model built in the previous step
 * Prints out the result
 
-.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-1.png
+.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-2.png
    :alt: SageMaker XGBoost 
    :align: center
    

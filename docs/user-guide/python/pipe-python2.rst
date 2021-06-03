@@ -9,7 +9,7 @@ The Python script is written in the Workflow Editor.
 
 Below is an example workflow containing Pipe Python2 Processor.
 
-.. figure:: ../../_assets/user-guide/pipe-python-workflow.png
+.. figure:: ../../_assets/user-guide/pipe-python-workflow1.png
    :scale: 50%
    :alt: Pipe Python Workflow
 

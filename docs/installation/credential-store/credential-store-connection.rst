@@ -67,7 +67,7 @@ After Adding the above parameter, you can Click on TEST CONNECTION, It will show
    :alt: Credential Store
    :width: 90%
 
-Now you can use the connection in Processor and Submit the Job etc..
+Now you can use the connection in Processor in Workflow and Submit the Job etc..
 
 .. figure:: ../../_assets/credential_store/13.PNG
    :alt: Credential Store

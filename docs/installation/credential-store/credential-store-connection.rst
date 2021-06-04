@@ -63,3 +63,6 @@ After Adding the above parameter, you can Click on TEST CONNECTION, It will show
    :alt: Credential Store
    :width: 90%      
 
+.. figure:: ../../_assets/credential_store/12.PNG
+   :alt: Credential Store
+   :width: 90%

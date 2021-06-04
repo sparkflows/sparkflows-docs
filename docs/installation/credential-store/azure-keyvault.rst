@@ -52,7 +52,7 @@ Add Credential Store Parameter
    :alt: Credential Store
    :width: 90%     
 
-After Adding the above parameter, you can Click on TEST CREDENTIALSTORE CONNECTION, It will shows connected to Azure KeyVault and after saving it will show Credential Store created sucessfully.
+After Adding the above parameter, you can Click on TEST CREDENTIALSTORE CONNECTION, It will shows connected to Azure KeyVault and after saving it will show in Credential Store LIst.
 
 .. figure:: ../../_assets/credential_store/4.PNG
    :alt: Credential Store

@@ -9,5 +9,6 @@ Fire Insights stores the values for the Credential Store encrypted.
    :maxdepth: 1
 
    azure-keyvault.rst
+   credential-store-connection.rst
 
 

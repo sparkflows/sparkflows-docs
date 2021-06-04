@@ -38,7 +38,7 @@ Below are details which can be needed on H2O DRF processor:
      - Description
    * - RESPONSE COLUMN
      - select RESPONSE COLUMN
-   * - RESPONSE COL CATEGORICAL
+   * - IS RESPONSE COL CATEGORICAL
      - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
    * - IGNORE CONST COLUMNS
      - Specify whether to ignore constant training columns.
@@ -56,6 +56,24 @@ K-Means falls in the general category of clustering algorithms. Clustering is a 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html
 
+Below are details which can be needed on H2O DRF processor:
+
+.. list-table:: H2o K-Means
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - K
+     - Specify the number of clusters (group of data) in a dataset that are similar to each other.
+  * - IGNORED COLUMNS
+    - Specify the column or columns to be excluded from the model. 
+  * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+     
+.. figure:: ../../../_assets/model/h2o/2.PNG
+   :alt: H2O DRF
+   :width: 90%
    
 H2O GBM
 -------

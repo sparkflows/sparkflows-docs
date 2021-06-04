@@ -75,3 +75,4 @@ It reads the ticker dataset, concatenate the input column, cast specified column
    :alt: ml_userguide
    :width: 90%
 
+

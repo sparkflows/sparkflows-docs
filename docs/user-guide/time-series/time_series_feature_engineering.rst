@@ -35,19 +35,21 @@ It reads the JetRail Train dataset & use DateTimeFieldExtract processor which cr
 
 .. figure:: ../../_assets/ml_userguide/datetime_field.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 60%
    
-DateTimeFieldExtract processor Configuration:
+**DateTimeFieldExtract processor Configuration**
 
 .. figure:: ../../_assets/ml_userguide/datetime_configuration.PNG
    :alt: ml_userguide
    :width: 90%
 
-Output result of ``DateTimeFieldExtract`` processor:
+
+**Output result of ``DateTimeFieldExtract`` processor**
 
 .. figure:: ../../_assets/ml_userguide/datetime_output_result.PNG
    :alt: ml_userguide
    :width: 90%
+
 
 MovingWindowFunctions
 ========================
@@ -60,13 +62,14 @@ It reads the ticker dataset, concatenate the input column, cast specified column
    :alt: ml_userguide
    :width: 90%
 
-MovingWindowFunctions processor Configuration:
+
+**MovingWindowFunctions processor Configuration**
 
 .. figure:: ../../_assets/ml_userguide/windows_configuartion.PNG
    :alt: ml_userguide
    :width: 90%
 
-Output result of ``MovingWindowFunctions`` processor:
+**Output result of ``MovingWindowFunctions`` processor**
 
 .. figure:: ../../_assets/ml_userguide/output-result.PNG
    :alt: ml_userguide

@@ -48,6 +48,6 @@ Add Credential Store Parameter
      - Add any description.
      
 
-.. figure:: ../../_assets/credential_store/3.PNG
+.. figure:: ../../_assets/credential_store/3_a.PNG
    :alt: Credential Store
    :width: 90%     

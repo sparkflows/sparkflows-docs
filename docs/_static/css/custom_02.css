@@ -305,3 +305,7 @@ font-size: 1em;
 .sphinx-bs .card{
     border: 1px solid #cccccc;
 }
+.rst-content .section ul li, .rst-content .toctree-wrapper ul li, .wy-plain-list-disc li, article ul li {
+    list-style: disc;
+    margin-left: 24px;
+}

@@ -24,9 +24,9 @@ Download the installer from : https://www.sparkflows.io/download
 Execute
 -------
 
-Execute the installer with :
+Execute the installer with ::
 
-java -jar sparkflows-installer-1.0.jar
+  java -jar sparkflows-installer-1.0.jar
 
 Default port for sparkflows is : 8080
 

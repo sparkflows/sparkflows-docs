@@ -19,6 +19,6 @@ Read Structured Data from Files Processors in Fire Insights
    * - Read CSV
      - Reads CSV Files
    * - Read Parquet
-     - Reads Parquet fles
+     - Reads Parquet files
    * - Read JSON
      - Reads JSON files

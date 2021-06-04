@@ -33,18 +33,23 @@ Using Linux RPM Package
 =======================
 
 - Download the Linux x64 RPM Package
-- yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)
 
-Update ``.bash_profile`` to add the below::
+- Install the package::
 
-  export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
-  export PATH=$PATH:$JAVA_HOME/bin
+    yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)
+
+- Update ``.bash_profile`` to add the below::
+
+    export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
+    export PATH=$PATH:$JAVA_HOME/bin
 
 Install OpenJDK8 JDK using yum
 =========
 
-- yum -y update
-- yum install java-1.8.0-openjdk-devel
+::
+
+  yum -y update
+  yum install java-1.8.0-openjdk-devel
 
 Reference
 ---------
@@ -52,8 +57,6 @@ Links
 +++++
 
 * https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
-
-
 
 
 

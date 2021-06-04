@@ -80,7 +80,7 @@ Uses Facebook Prophet to create the ML model.
 * Sets Growth as linear or logistic
 * We use prophet model so that it is sufficient to select seasonality in auto mode
 * Set mode of seasonality as additive or multiplicative
-* Set confidence Interval (0 to 1) which gives a range of plausible values for the parameter of interest.
+* Set confidence Interval (0 to 1) which gives a range of possible values for the parameter of interest.
 
 .. figure:: ../../_assets/tutorials/time-series/prophet_general.png
    :alt: Stock Forecasting
@@ -91,7 +91,7 @@ Uses Facebook Prophet to create the ML model.
 
 * FUTURE PERIOD block gives the number of steps we want to predict 
 * FREQUENCY can be Monthly or Daily 
-* Set INCLUDE HISTORY to True for testing the model and False for production
+* Set INCLUDE HISTORY to true for testing the model and false for production
   
 .. figure:: ../../_assets/tutorials/time-series/prophet_future.png
    :alt: Stock Forecasting
@@ -148,3 +148,6 @@ Node 6 - SaveCSV
 .. figure:: ../../_assets/tutorials/time-series/save_output_forecast.png
    :alt: Stock Forecasting
    :width: 80%
+   
+   
+   

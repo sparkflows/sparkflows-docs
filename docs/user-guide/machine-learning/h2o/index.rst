@@ -28,6 +28,10 @@ Distributed Random Forest (DRF) is a powerful classification and regression tool
 
 You can find the details at the H2O website : http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/drf.html
 
+
+.. figure:: ../../../_assets/model/h2o/1.PNG
+   :alt: H2O DRF
+   :width: 90%
    
 H2O KMeans
 ----------

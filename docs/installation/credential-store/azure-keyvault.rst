@@ -51,3 +51,13 @@ Add Credential Store Parameter
 .. figure:: ../../_assets/credential_store/3_a.PNG
    :alt: Credential Store
    :width: 90%     
+
+Once Adding the above parameter, you can Click on TEST CREDENTIALSTORE CONNECTION, It will shows sucess
+
+.. figure:: ../../_assets/credential_store/4.PNG
+   :alt: Credential Store
+   :width: 90%     
+
+.. figure:: ../../_assets/credential_store/5.PNG
+   :alt: Credential Store
+   :width: 90%     

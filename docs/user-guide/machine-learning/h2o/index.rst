@@ -28,7 +28,23 @@ Distributed Random Forest (DRF) is a powerful classification and regression tool
 
 You can find the details at the H2O website : http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/drf.html
 
+Below are details which can be needed on H2O DRF processor:
 
+.. list-table:: H2o DRF
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - RESPONSE COLUMN
+     - select RESPONSE COLUMN
+   * - RESPONSE COL CATEGORICAL
+     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+     
 .. figure:: ../../../_assets/model/h2o/1.PNG
    :alt: H2O DRF
    :width: 90%

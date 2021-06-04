@@ -66,6 +66,4 @@ Once Adding the above parameter, you can Click on TEST CREDENTIALSTORE CONNECTIO
    :alt: Credential Store
    :width: 90%   
    
-.. figure:: ../../_assets/credential_store/7.PNG
-   :alt: Credential Store
-   :width: 90%      
+

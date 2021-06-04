@@ -52,3 +52,14 @@ Add Connection Parameter
 .. figure:: ../../_assets/credential_store/9.PNG
    :alt: Credential Store
    :width: 90%     
+
+After Adding the above parameter, you can Click on TEST CONNECTION, It will shows Successfully Connected and after saving it will show in Connection LIst.
+
+.. figure:: ../../_assets/credential_store/10.PNG
+   :alt: Credential Store
+   :width: 90%   
+   
+.. figure:: ../../_assets/credential_store/11.PNG
+   :alt: Credential Store
+   :width: 90%      
+

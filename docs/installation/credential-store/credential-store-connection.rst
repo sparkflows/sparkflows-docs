@@ -22,3 +22,33 @@ Click on ADD CONNECTION, Select either of two ie Add Connection For All or Add C
 .. figure:: ../../_assets/credential_store/8.PNG
    :alt: Credential Store
    :width: 90%
+
+Add Connection Parameter
+--------------------------
+
+.. list-table:: Connection Parameter
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - CREDENTIAL STORE
+     - Select Credential Store Listed in dropdown.
+   * - CONNECTION TYPE
+     - Select Connection type configured in KeyVault it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake`
+   * - CONNECTION NAME
+     - Add a Connection Name.
+   * - USERNAME
+     - Username for the selected Connection and if username is added in KeyVault, add $USER-NAME
+   * - PASSWORD
+     - Password for selected Connection, and if password is added in KeyVault, add $PASSWORD
+   * - TITLE
+     - Add a unique title.
+   * - DESCRIPTION
+     - Add description.
+   * - URL
+     - URL for selected Connection, and if URL is added in KeyVault, add $URL
+     
+.. figure:: ../../_assets/credential_store/9.PNG
+   :alt: Credential Store
+   :width: 90%     

@@ -39,13 +39,13 @@ Add Credential Store Parameter
    * - STORE NAME
      - Add any unique name.
    * - CLIENT ID
-     - Add Client Id for Azure account having access of KeyVault
+     - Add Client Id for Azure account having access of KeyVault.
    * - SECRET KEY
      - Add Secret Key
    * - STORE URL
-     - Azure KeyVault URI
+     - Azure KeyVault URI.
    * - DESCRIPTION
-     - Add any description
+     - Add any description.
      
 
 .. figure:: ../../_assets/credential_store/3.PNG

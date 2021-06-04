@@ -56,7 +56,7 @@ K-Means falls in the general category of clustering algorithms. Clustering is a 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html
 
-Below are details which can be needed on H2O DRF processor:
+Below are details which can be needed on H2O K-Means processor:
 
 .. list-table:: H2o K-Means
    :widths: 20 80
@@ -82,7 +82,27 @@ Gradient Boosting Machine (for Regression and Classification) is a forward learn
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
 
+Below are details which can be needed on H2O GBM processor:
 
+.. list-table:: H2O GBM
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - RESPONSE COLUMN
+     - select RESPONSE COLUMN
+   * - IS RESPONSE COL CATEGORICAL
+     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+
+.. figure:: ../../../_assets/model/h2o/3.PNG
+   :alt: H2O GBM
+   :width: 90%
+     
 H2O GLRM
 --------
 
@@ -90,7 +110,25 @@ Generalized Low Rank Models (GLRM) is an algorithm for dimensionality reduction 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html
 
-   
+Below are details which can be needed on H2O GLRM processor:
+
+.. list-table:: H2O GLRM
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - K
+     - Specify the rank of matrix approximation.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model: Class
+   * - IGNORE CONST COLS
+     - Specify whether to ignore constant training columns : true
+ 
+.. figure:: ../../../_assets/model/h2o/4.PNG
+   :alt: H2O GLRM
+   :width: 90%
+ 
 H2O GLM
 -------
 

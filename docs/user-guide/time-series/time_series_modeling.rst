@@ -39,7 +39,7 @@ Below is the sample workflows which contains ``Prophet`` processor in Fire Insig
  
  * Holidays component h(t): contributes information about holidays and events
 
-It reads the AirPassengers dataset & use Prophet processor which forecasting of univariate time series data and print the result.
+It reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
 
 .. figure:: ../../_assets/ml_userguide/prophet.PNG
    :alt: ml_userguide
@@ -60,7 +60,7 @@ Output result of ``Prophet`` processor:
 ARIMA
 =====
 
-Below is the sample workflows which contains ``ARIMA`` processor in Fire Insights.
+Below is the sample workflow which contains ``ARIMA`` processor in Fire Insights.
 
 * AR (Autoregression): A changing variable that regresses on its own lagged/prior values.
 
@@ -73,6 +73,7 @@ In terms of y, the general forecasting equation is:
 **ŷt = μ + ϕ1 yt-1 +………+ ϕp yt-p — θ1et-1 -………- θqet-q**,
 
 where:
+
 * μ → constant
 
 * ϕ1 yt-1 +…+ ϕp yt-p → AR terms (lagged values of y)
@@ -97,10 +98,11 @@ Output result of ``ARIMA`` processor:
    :alt: ml_userguide
    :width: 90%
 
+
 H2OXGBoost
 ==========
 
-Below is the sample workflows which contains ``H2OXGBoost`` processor in Fire Insights.
+Below is the sample workflow which contains ``H2OXGBoost`` processor in Fire Insights.
 
 It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
 

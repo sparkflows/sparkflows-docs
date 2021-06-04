@@ -84,3 +84,5 @@ Now you can use the connection in Processor in Workflow and Submit the Job etc..
 .. figure:: ../../_assets/credential_store/16.PNG
    :alt: Credential Store
    :width: 90% 
+
+.. note::  Above Example is shown for Snowflake Connection and Using Readsnowflake node in workflow.

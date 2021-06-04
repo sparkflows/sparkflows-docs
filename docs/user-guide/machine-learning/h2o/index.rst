@@ -66,10 +66,10 @@ Below are details which can be needed on H2O DRF processor:
      - Description
    * - K
      - Specify the number of clusters (group of data) in a dataset that are similar to each other.
-  * - IGNORED COLUMNS
-    - Specify the column or columns to be excluded from the model. 
-  * - IGNORE CONST COLUMNS
-    - Specify whether to ignore constant training columns.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
      
 .. figure:: ../../../_assets/model/h2o/2.PNG
    :alt: H2O DRF

@@ -4,8 +4,8 @@ H2O allows you to persist the models you have built to either a Plain Old Java O
 
 Fire Insights has the following processors for persisting the H2O Models.
 
-- H2OMojoSave
-- H2OModelSave
+  * H2OMojoSave
+  * H2OModelSave
 
 Once the H2O model is saved, they can be used for serving.
 

@@ -10,7 +10,7 @@ Fire Insights provides a number of Processors for the visualization of the time 
    * - Charts
      - Description
    * - Line
-     - Perfect for series of data points to form a continuous line. Example - Represent Daily sales data.
+     - Perfect for series of data points to form a continuous line.
    * - Bar
      - Bar charts are a fundamental visualization for comparing values between groups of data. Best way to represent Categorical data.
    * - Scatter
@@ -22,16 +22,18 @@ Fire Insights provides a number of Processors for the visualization of the time 
 
 Charts : LineChart
 ==================
-Perfect for series of data points to form a continuous line.
-Example - Represent Daily sales data
 
-Below is the sample workflows which contains ``Time Series data`` and visualize using line chart in Fire Insights.
+Line Charts are perfect for series of data points to form a continuous line.
+For example it can be used to represent Daily sales data
+
+Below is the sample workflow which contains ``Time Series data`` and outputs a line chart in Fire Insights.
 
 .. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
    :width: 90%
 
 Configurations for visualization processors in Fire Insight:
+
 * Set number of columns want to represent on y axis with respect to x axis
 * Set chart type based on data type
 
@@ -44,6 +46,7 @@ Output result of ``Visualization`` processor:
 .. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
    :width: 90%
+
 
 Charts : BarChart
 ==================

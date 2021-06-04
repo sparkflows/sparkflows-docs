@@ -69,7 +69,7 @@ Below are details which can be needed on H2O DRF processor:
   * - IGNORED COLUMNS
     - Specify the column or columns to be excluded from the model. 
   * - IGNORE CONST COLUMNS
-     - Specify whether to ignore constant training columns.
+    - Specify whether to ignore constant training columns.
      
 .. figure:: ../../../_assets/model/h2o/2.PNG
    :alt: H2O DRF

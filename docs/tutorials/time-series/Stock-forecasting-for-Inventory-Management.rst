@@ -10,10 +10,20 @@ Dataset
 
 Dataset contains 4 columns as below:-
 
-* Date - Date when product was sold
-* Store - Store id from where product got sold
-* Item - Item id
-* Sales - Quantity of product sold
+.. list-table:: Read structured files Processors
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - Date
+     - Date when product was sold
+   * - Store
+     - Store id from where product got sold
+   * - Item
+     - Item id
+   * - Sales
+     - Quantity of product sold
 
 Predict future sales of items at particular store  
 

@@ -9,7 +9,7 @@ H2O
      - Description
    * - H2O DRF
      - Distributed Random Forest (DRF) is a powerful classification and regression tool. When given a set of data, DRF generates a forest of classification or regression trees, rather than a single classification or regression tree.
-   * - H2O KMeans
+   * - H2O K-Means
      - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
    * - H2O GBM
      - Gradient Boosting Machine (for Regression and Classification) is a forward learning ensemble method. The guiding heuristic is that good predictive results can be obtained through increasingly refined approximations. H2O’s GBM sequentially builds regression trees on all the features of the dataset in a fully distributed way - each tree is built in parallel.
@@ -28,14 +28,52 @@ Distributed Random Forest (DRF) is a powerful classification and regression tool
 
 You can find the details at the H2O website : http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/drf.html
 
+Below are details which can be needed on H2O DRF processor:
+
+.. list-table:: H2o DRF
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - RESPONSE COLUMN
+     - select RESPONSE COLUMN
+   * - IS RESPONSE COL CATEGORICAL
+     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+     
+.. figure:: ../../../_assets/model/h2o/1.PNG
+   :alt: H2O DRF
+   :width: 90%
    
-H2O KMeans
+H2O K-Means
 ----------
 
 K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html
 
+Below are details which can be needed on H2O K-Means processor:
+
+.. list-table:: H2o K-Means
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - K
+     - Specify the number of clusters (group of data) in a dataset that are similar to each other.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+     
+.. figure:: ../../../_assets/model/h2o/2.PNG
+   :alt: H2O DRF
+   :width: 90%
    
 H2O GBM
 -------
@@ -44,7 +82,27 @@ Gradient Boosting Machine (for Regression and Classification) is a forward learn
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
 
+Below are details which can be needed on H2O GBM processor:
 
+.. list-table:: H2O GBM
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - RESPONSE COLUMN
+     - select RESPONSE COLUMN
+   * - IS RESPONSE COL CATEGORICAL
+     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model. 
+
+.. figure:: ../../../_assets/model/h2o/3.PNG
+   :alt: H2O GBM
+   :width: 90%
+     
 H2O GLRM
 --------
 
@@ -52,7 +110,25 @@ Generalized Low Rank Models (GLRM) is an algorithm for dimensionality reduction 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html
 
-   
+Below are details which can be needed on H2O GLRM processor:
+
+.. list-table:: H2O GLRM
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Title
+     - Description
+   * - K
+     - Specify the rank of matrix approximation.
+   * - IGNORED COLUMNS
+     - Specify the column or columns to be excluded from the model: Class
+   * - IGNORE CONST COLS
+     - Specify whether to ignore constant training columns : true
+ 
+.. figure:: ../../../_assets/model/h2o/4.PNG
+   :alt: H2O GLRM
+   :width: 90%
+ 
 H2O GLM
 -------
 

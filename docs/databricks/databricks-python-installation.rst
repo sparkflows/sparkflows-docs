@@ -37,7 +37,7 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 60%
    
 3. Create a new Library
 
@@ -45,23 +45,23 @@ You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provi
 
 .. figure:: ../_assets/configuration/python-lib.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 60%
 
 On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
 
 .. figure:: ../_assets/configuration/create.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 60%
    
 .. figure:: ../_assets/configuration/install.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 60%
    
 On Successfull installation of wheel file on Databricks Cluster, it would be displayed under ``Libraries``.
 
 .. figure:: ../_assets/configuration/wheelpack.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 70%
 
 Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket which is accessible from Databricks Cluster.
 
@@ -71,7 +71,7 @@ Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Li
 
 .. figure:: ../_assets/configuration/s3wheel.PNG
    :alt: Databricks
-   :width: 90%
+   :width: 70%
 
 Once it is installed successfully, you can see the python wheel inside Library is up.
 

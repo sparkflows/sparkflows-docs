@@ -20,6 +20,10 @@ legend {
 .wy-nav-content h2 {
     font-size: 34px;
 }
+.wy-nav-content h2, .wy-nav-content h3, .wy-nav-content h4, .wy-nav-content h5, .wy-nav-content h6{
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
 h2,
 .rst-content .toctree-wrapper p.caption,
 h3,
@@ -27,6 +31,9 @@ h4,
 h5,
 h6 {
     font-weight: 500;
+}
+p{
+    margin: 0;
 }
 .wy-nav-content-wrap{
     margin-left: 340px;
@@ -38,8 +45,13 @@ h6 {
     line-height: 1.41em;
 }
 .wy-nav-content-wrap p, .wy-nav-content-wrap blockquote {
+    margin-top: 1em;
+}
+.rst-content figure {
+    margin-top: 1em;
     margin-bottom: 1em;
 }
+
 .wy-side-scroll {
     width: 356px;
 }
@@ -305,12 +317,16 @@ font-size: 1em;
 .sphinx-bs .card{
     border: 1px solid #cccccc;
 }
-.rst-content ul li {
+.rst-content section ul li {
     list-style: disc;
     margin-left: 24px;
 }
 
-.rst-content ol li {
+.rst-content section ol li {
     list-style: decimal;
     margin-left: 24px;
+}
+
+.rst-content section ol li>p:only-child, .rst-content section ol li>p:only-child:last-child, .rst-content section ul li>p:only-child, .rst-content section ul li>p:only-child:last-child {
+    margin-top: 0;
 }

@@ -10,6 +10,7 @@ Nodes
 - New sort node in Pyspark Engine
 - New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
 - New Sub-plot visualization node
+- New Bubble chart node
 
 Documentation
 +++++++++

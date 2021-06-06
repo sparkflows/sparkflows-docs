@@ -12,6 +12,7 @@ Nodes
 - New Sub-plot visualization node
 - New Bubble chart node
 - Support for Area charts
+- Support for Box plots
 
 Documentation
 +++++++++

@@ -28,6 +28,7 @@ Upgrades
 - In Analytics App, do not display columns in the dropdown which have already been selected
 - Display of Databricks run details when viewing the logs of the job execution
 - Updates to the display of the variables widget
+- Fixes for profiling data when executing on Databricks
 
 
 

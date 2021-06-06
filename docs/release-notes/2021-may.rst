@@ -6,4 +6,12 @@ New Features
 
 - New sort node in Pyspark Engine
 - New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
+- New Sub-plot visualization node
+
+Upgrades
+--------
+
 - In Analytics App, do not display columns in the dropdown which have already been selected
+- Display of Databricks run details when viewing the logs of the job execution
+
+

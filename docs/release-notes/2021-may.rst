@@ -11,6 +11,7 @@ Nodes
 - New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
 - New Sub-plot visualization node
 - New Bubble chart node
+- Support for Area charts
 
 Documentation
 +++++++++

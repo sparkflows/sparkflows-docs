@@ -11,10 +11,11 @@ Nodes
 - New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
 - New Sub-plot visualization node
 
-Tutorials
+Documentation
 +++++++++
 
 - New Tutorials added : https://docs.sparkflows.io/en/latest/tutorials/index.html
+- Processors Reference page created : https://www.sparkflows.io/processors-reference
 
 
 Upgrades

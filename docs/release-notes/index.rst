@@ -6,6 +6,7 @@ Release Notes
    :maxdepth: 2
 
    upcoming.rst
+   2021-jun.rst
    2021-may.rst
    2020-dec.rst
    2020-aug.rst

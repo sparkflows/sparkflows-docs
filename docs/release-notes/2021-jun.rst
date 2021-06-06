@@ -1,0 +1,17 @@
+June 2021
+========
+
+New Features
+------------
+
+Credential Stores
++++++
+
+- Support for Credential Stores
+- Users would be able to configure Credential Stores. eg. Azure Keyvault
+- The Credential Stores would get used when creating Connections
+
+
+
+
+

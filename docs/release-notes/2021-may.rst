@@ -4,9 +4,18 @@ May 2021
 New Features
 ------------
 
+Nodes
++++++
+
 - New sort node in Pyspark Engine
 - New visualization nodes in Pyspark Engine: Graph Values, Graph Group By
 - New Sub-plot visualization node
+
+Tutorials
++++++++++
+
+- New Tutorials added : https://docs.sparkflows.io/en/latest/tutorials/index.html
+
 
 Upgrades
 --------

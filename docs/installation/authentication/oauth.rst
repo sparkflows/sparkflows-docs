@@ -20,6 +20,7 @@ Below is an example of configuring OAuth in Fire with Okta.
 
 ::
 
+
   # Okta settings
   oauth.client.clientId: 0oadvfdsfsdA7Y68356
   oauth.client.clientSecret: YSWFdZf9kfdsfsdfsdfsdnI0SVrswOJpHl

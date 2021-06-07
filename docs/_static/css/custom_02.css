@@ -334,3 +334,7 @@ font-size: 1em;
 footer{
         margin-top: 50px;
 }
+.rst-content div[class^=highlight], .rst-content pre.literal-block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

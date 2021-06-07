@@ -188,5 +188,5 @@ Below are details which can be needed on  H2O XGBoost processor:
      - Specify a column to use for the observation weights, which are used for bias correction.
      
 .. figure:: ../../../_assets/model/h2o/6.PNG
-   :alt: H2O XGBoost
+   :alt: H2O XGBOOST
    :width: 90%     

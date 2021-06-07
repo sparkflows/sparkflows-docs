@@ -168,5 +168,25 @@ XGBoost is a supervised learning algorithm that implements a process called boos
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html
 
+Below are details which can be needed on  H2O XGBoost processor:
 
+.. list-table:: H2o XGBoost
+   :widths: 20 80
+   :header-rows: 1
 
+   * - Title
+     - Description
+   * - RESPONSE COLUMN
+     - select RESPONSE COLUMN
+   * - IS RESPONSE COL CATEGORICAL
+     - Specifies a response column type(numeric or categorical). Separates the Classification and Regression.
+   * - FEATURE COLUMNS
+     - Specify the column or columns to be included for feature.
+   * - FOLD COLUMN
+     - Specify a column to use as the fold.
+   * - WEIGHTS COLUMN
+     - Specify a column to use for the observation weights, which are used for bias correction.
+     
+.. figure:: ../../../_assets/model/h2o/6.PNG
+   :alt: H2O XGBoost
+   :width: 90%     

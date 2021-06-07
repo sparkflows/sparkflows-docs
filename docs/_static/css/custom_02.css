@@ -338,3 +338,7 @@ footer{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.rst-content .admonition {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

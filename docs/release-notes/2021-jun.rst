@@ -12,6 +12,11 @@ Credential Stores
 - The Credential Stores would get used when creating Connections
 
 
+Fixes/Upgrades
+--------------
 
+- Handling of space in Postback URL
+- Upgrades to Help in the Analytics Apps Page
+- 
 
 

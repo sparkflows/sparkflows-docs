@@ -29,6 +29,12 @@ Time Series
     ---
 
     :doc:`/tutorials/time-series/Anamoly-Detection`
+    
+     ---
+
+    :doc:`/tutorials/time-series/VAR
+    
+    Multivariate time series forecasting – Vector Auto Regression (VAR).
 
 
 .. toctree::
@@ -39,6 +45,7 @@ Time Series
    ARIMA-on-AirPassengers-dataset.rst
    Time-Series-Feature-Engineering.rst
    Anamoly-Detection.rst
+   VAR.rst
    
    
    

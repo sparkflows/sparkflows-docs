@@ -77,7 +77,7 @@ Validation Metrics
    :alt: VAR
    :width: 100%  
    
-Forescast
+Forecast
 -----------
 Select the steps for number of forecast.
 
@@ -85,7 +85,7 @@ Select the steps for number of forecast.
    :alt: VAR
    :width: 100%  
  
-Forescast output
+Forecast output
 ---------------
 .. figure:: ../../_assets/tutorials/time-series/var/result.png
    :alt: VAR

@@ -1,4 +1,5 @@
 SMOTE: Synthetic Minority Oversampling Technique
+================================
 
 The challenge of working with imbalanced datasets is that most machine learning techniques will ignore, and in turn have poor performance on,
 the minority class, although typically it is performance on the minority class that is most important.

@@ -32,7 +32,7 @@ Time Series
     
      ---
 
-    :doc:`/tutorials/time-series/VAR
+    :doc:`/tutorials/time-series/VAR`
     
     Multivariate time series forecasting – Vector Auto Regression (VAR).
 

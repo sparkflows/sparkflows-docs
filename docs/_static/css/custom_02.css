@@ -346,3 +346,11 @@ footer{
 .rst-content table.docutils thead, .rst-content table.field-list thead, .wy-table thead {
     border-bottom: solid 2px #e1e4e5;
 }
+.wy-nav-content h3 {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+.rst-content figure {
+    margin-top: 1em;
+    margin-bottom: 4em;
+}

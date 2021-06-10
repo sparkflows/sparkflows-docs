@@ -342,3 +342,6 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.rst-content table.docutils thead, .rst-content table.field-list thead, .wy-table thead {
+    border-bottom: solid 2px #e1e4e5;
+}

@@ -44,6 +44,15 @@ Spark ML
     :doc:`/tutorials/data-science/sparkml/multilayerPerceptronClassifier`
 
     Multilayer perceptron classifier (MLPC) is a classifier based on the feedforward artificial neural network. MLPC consists of multiple layers of nodes. Each layer is fully connected to the next layer in the network. Nodes in the input layer represent the input data.
+    
+    ---
+
+    :doc:`/tutorials/data-science/sparkml/smote`
+    
+    Synthetic Minority Oversampling Technique
+
+    
+
 
 .. toctree::
    :hidden:
@@ -55,6 +64,7 @@ Spark ML
    tfidf.rst
    earthquake-prediction.rst
    multilayerPerceptronClassifier.rst
+   smote.rst
    
    
    

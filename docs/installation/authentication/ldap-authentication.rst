@@ -108,9 +108,4 @@ In case you are locked out of Sparkflows and are not able to log in, you can do 
 Once things are back to normal, you can remove the line you added to ``configuration.properties`` and restart the fire server.
 
 
-
-
-Notes
------
-
-* Search strings are not case sensitive
+.. note:: Search strings are not case sensitive

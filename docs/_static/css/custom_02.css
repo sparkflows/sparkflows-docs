@@ -46,6 +46,7 @@ p{
 }
 .wy-nav-content-wrap p, .wy-nav-content-wrap blockquote {
     margin-top: 1em;
+    margin-bottom: 10px;
 }
 .rst-content figure {
     margin-top: 1em;

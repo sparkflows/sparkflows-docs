@@ -8,9 +8,10 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 Clustering Processors in Fire Insights
 ----------------------------------------
 
+Below are the Apache Spark based Clustering Processors in Fire Insights.
 
 .. list-table:: Apache Spark based Clustering Processors in Fire Insights
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - Title
@@ -24,29 +25,6 @@ Clustering Processors in Fire Insights
    * - LDA
      - LDA is implemented as an Estimator that supports both EMLDAOptimizer and OnlineLDAOptimizer, and generates a LDAModel as the base model.
 
-.. list-table:: H2O based Clustering Processors in Fire Insights
-   :widths: 50 50
-   :header-rows: 1
-
-   * - Title
-     - Description
-   * - KMeans
-     - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
-
-
-Clustering Algorithms in Apache Spark
-----------------------------
-
-Apache Spark provides a number of Algorithms for Clustering.
-
-https://spark.apache.org/docs/latest/ml-clustering.html
-
-- K-means
-- Latent Dirichlet allocation (LDA)
-- Bisecting k-means
-- Gaussian Mixture Model (GMM)
-- Power iteration clustering (PIC)
-- Streaming k-means
 
 
 K-means

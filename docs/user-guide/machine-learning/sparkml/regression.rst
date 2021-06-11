@@ -1,12 +1,17 @@
-Regression
+Regression with Apache Spark ML
 ==========
 
 Regression analysis is a set of statistical processes for estimating the relationships between a dependent variable (often called the 'outcome variable') and one or more independent variables (often called 'predictors', 'covariates', or 'features'). The most common form of regression analysis is linear regression, in which a researcher finds the line (or a more complex linear function) that most closely fits the data according to a specific mathematical criterion.
 
 - https://en.wikipedia.org/wiki/Regression_analysis
 
-Apache Spark
+Regresson Processors in Fire Insights
 ------------
+
+https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
+
+
+Below are the Apache Spark ML based Regression Processors in Fire Insights
 
 .. list-table:: Apache Spark based Regression Processors in Fire Insights
    :widths: 50 50
@@ -36,21 +41,6 @@ Apache Spark
      - Isotonic regression is the technique of fitting a free-form line to a sequence of observations under the following constraints: the fitted free-form line has to be non-decreasing everywhere, and it has to lie as close to the observations as possible.
    
    
-   
-Regression Algorithms in Apache Spark
-+++++++++++++++
-
-https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
-
-- Linear regression
-- Decision tree regression
-- Random Forest regression
-- Gradient-boosted tree regression
-- Survival regression
-- Isotonic regression
-
-
-
 Linear Regression
 +++++++++++++++++++
 

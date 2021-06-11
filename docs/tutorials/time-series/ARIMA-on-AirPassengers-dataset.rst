@@ -75,7 +75,7 @@ Node 4 - PrintNRows
 
 * Number of rows you want to print to see the final result
 
-.. figure:: ../../_assets/tutorials/time-series/arima_printnrows.png
+.. figure:: ../../_assets/tutorials/time-series/arima_print.PNG
    :alt: Stock Forecasting
    :width: 100%
    

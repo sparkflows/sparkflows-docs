@@ -90,4 +90,47 @@ Linear Regression
       workflowContext.outStr(id, "Root Mean Squared Error:" + str(np.sqrt(metrics.mean_squared_error(y_test, y_pred))))
     
       return inDF
-      
+  
+PandasDataFrame to SparkDataFrame
+=================================
+::
+
+    from pyspark.sql.types import StringType
+    from pyspark.sql.functions import *
+    from pyspark.sql import *
+
+    import numpy as np
+    import pandas as pd
+    
+    from fire.workflowcontext import *
+
+    def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: DataFrame, cust_dict):
+      # Convert the Spark DataFrame to Pandas DataFrame
+      dataset = inDF.select("*").toPandas()
+      # Select fixed acidity & volatile acidity columns
+      X = dataset[['fixed acidity', 'volatile acidity']]
+      #Convert Pandas Dataframe to Spark Dataframe
+      outDF = spark.createDataFrame(X)
+      return outDF
+
+Numpy 2D Array to PandasDataFrame and PandasDataFrame to SparkDataFrame
+===================================================================
+::
+
+    from pyspark.sql.types import StringType
+    from pyspark.sql.functions import *
+    from pyspark.sql import *
+
+    import numpy as np
+    import pandas as pd
+    
+    from fire.workflowcontext import *
+
+    def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: DataFrame, cust_dict):
+      # Create the numpy 2d array
+      example_array = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+      # Convert to Pandas Dataframe
+      pandas_dataframe = pd.DataFrame(example_array, columns=['a', 'b', 'c', 'd'])
+      #Convert Pandas Dataframe to Spark Dataframe
+      spark_dataframe = spark.createDataFrame(pandas_dataframe)
+      return spark_dataframe

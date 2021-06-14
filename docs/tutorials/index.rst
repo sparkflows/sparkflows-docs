@@ -63,16 +63,20 @@ Tutorials
     :doc:`/tutorials/streaming/index`
     
     
+    
     ---
     
     :doc:`/tutorials/visualization/index`   
+    
+    
     
     ---  
     
     
     :doc:`/tutorials/ocr/index`
     
-       
+    
+    
     ---
     
     :doc:`/tutorials/rest-api/index`

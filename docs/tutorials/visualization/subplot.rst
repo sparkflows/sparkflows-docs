@@ -27,7 +27,7 @@ It reads the Dataset Files.
 Visualize using subplot
 --------------------
 
-It plot multiple graph simultaneously using subplot node.
+It plot multiple parameter graph simultaneously using subplot node.
 
 .. figure:: ../../_assets/tutorials/visualization/3.PNG
    :alt: Visualization

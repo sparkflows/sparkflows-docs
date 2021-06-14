@@ -14,8 +14,8 @@ Workflow
    :width: 90%
 
 
- Ridge Regression Configuration
- -----------------------------
+Ridge Regression Configuration
+-----------------------------
    
 .. figure:: ../../../_assets/tutorials/machine-learning/houseprice-ridge-regression/ridge-config.png
    :alt: House Price

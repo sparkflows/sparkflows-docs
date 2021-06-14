@@ -74,6 +74,10 @@ Tutorials
     
     :doc:`/tutorials/rest-api/index`
     
+    ---
+    
+    :doc:`/tutorials/visualization/index`
+    
          
     
     
@@ -91,8 +95,10 @@ Tutorials
    languages/index.rst
    nlp/index.rst
    streaming/index.rst
+   visualization/index.rst
    ocr/index.rst
    rest-api/index.rst
+   
 
 
   

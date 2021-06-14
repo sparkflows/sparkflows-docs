@@ -32,3 +32,10 @@ It plot multiple parameter graph simultaneously using subplot node.
 .. figure:: ../../_assets/tutorials/visualization/3.PNG
    :alt: Visualization
    :width: 90%
+
+ouput result
+-------------
+
+.. figure:: ../../_assets/tutorials/visualization/4.PNG
+   :alt: Visualization
+   :width: 90%

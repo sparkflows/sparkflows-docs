@@ -131,6 +131,6 @@ Numpy 2D Array to PandasDataFrame and PandasDataFrame to SparkDataFrame
       example_array = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
       # Convert to Pandas Dataframe
       pandas_dataframe = pd.DataFrame(example_array, columns=['a', 'b', 'c', 'd'])
-      #Convert Pandas Dataframe to Spark Dataframe
+      # Convert Pandas Dataframe to Spark Dataframe
       spark_dataframe = spark.createDataFrame(pandas_dataframe)
       return spark_dataframe

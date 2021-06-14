@@ -11,6 +11,12 @@ Credential Stores
 - Users would be able to configure Credential Stores. eg. Azure Keyvault
 - The Credential Stores would get used when creating Connections
 
+New Nodes
+++++++++++
+
+- New Pyspark node which takes multiple dataframes as inputs.
+
+
 
 Fixes/Upgrades
 --------------

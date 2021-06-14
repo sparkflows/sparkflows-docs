@@ -23,3 +23,12 @@ It reads the Dataset Files.
 .. figure:: ../../_assets/tutorials/visualization/2.PNG
    :alt: Visualization
    :width: 90%
+
+Visualize using subplot
+--------------------
+
+It plot multiple graph simultaneously using subplot node.
+
+.. figure:: ../../_assets/tutorials/visualization/3.PNG
+   :alt: Visualization
+   :width: 90%

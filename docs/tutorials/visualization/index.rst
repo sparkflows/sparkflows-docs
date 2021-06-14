@@ -1,4 +1,4 @@
-VISUALIZATION
+Visualization
 ==========
 
 .. panels::

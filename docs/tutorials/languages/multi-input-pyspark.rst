@@ -40,6 +40,13 @@ Example code to join the 2 input dataframe.
       df2 = inDFs[1]	#get the second dataframe
       outdf = df1.join(df2, ['id'])
       return outdf
+    
+::
+
+    from pyspark.sql.types import StringType
+    from pyspark.sql.functions import *
+    from pyspark.sql import *    
+      
 
 
 .. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/3.png

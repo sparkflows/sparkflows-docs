@@ -22,6 +22,12 @@ Code
 
     ---
 
+    :doc:`/tutorials/languages/multi-input-pyspark`
+
+    MultiInputPyspark processer in which Python code can be written and prcoesser takes the multiple input's.
+
+    ---
+
     :doc:`/tutorials/languages/jar-file-execution`
 
     Through CI/CD pipeline, the application jar file is built successfully and pushed.
@@ -33,6 +39,7 @@ Code
    sql.rst
    scala.rst
    python.rst
+   multi-input-pyspark.rst
    jar-file-execution.rst
 
    

@@ -29,7 +29,7 @@ Custom code by using the multiple inputs.
 
 Example code to join the 2 input dataframe.
 
-```
+::
 from pyspark.sql.types import * 
 from pyspark.sql.functions import * 
 from pyspark.sql import * 
@@ -40,7 +40,7 @@ def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDFs:[
    df2 = inDFs[1]	#get the second dataframe
    outdf = df1.join(df2, ['id'])
    return outdf
-```
+
 
 .. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/3.png
    :alt: MultiInputpyspark

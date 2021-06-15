@@ -28,7 +28,7 @@ MultiInputPySpark
 Custom code by using the multiple inputs.
 
 Example code to join the 2 input dataframe.
------------------------------------------
+================================
 ::
    from pyspark.sql.types import * 
    from pyspark.sql.functions import * 

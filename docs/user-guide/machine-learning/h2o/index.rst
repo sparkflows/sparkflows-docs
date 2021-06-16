@@ -4,8 +4,8 @@ H2O
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/machine-learning/h2o/building-h2o-workflows`
-
+    :doc:`/user-guide/machine-learning/h2o/building-h20-workflows`
+    
     Building H2O workflows
     
     ---

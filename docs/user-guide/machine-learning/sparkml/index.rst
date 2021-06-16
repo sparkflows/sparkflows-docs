@@ -4,6 +4,12 @@ Apache Spark ML
 .. panels::
     :container: container-lg pb-3
 
+    :doc:`/user-guide/machine-learning/sparkml/building-sparkml-workflows`
+
+    Building Apache Spark ML workflows
+    
+    ---
+
     :doc:`/user-guide/machine-learning/sparkml/feature-generation`
 
     Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis

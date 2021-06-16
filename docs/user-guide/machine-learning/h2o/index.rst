@@ -1,6 +1,20 @@
 H2O
 ===
 
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/user-guide/machine-learning/h2o/building-h2o-workflows`
+
+    Building H2O workflows
+    
+    ---
+
+    :doc:`/user-guide/machine-learning/h2o/clustering`
+
+    Clustering using H2O
+    
+
 .. list-table:: H2O Processors in Fire Insights
    :widths: 20 80
    :header-rows: 1

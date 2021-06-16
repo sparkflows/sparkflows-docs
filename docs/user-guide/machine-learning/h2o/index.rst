@@ -15,6 +15,7 @@ H2O
     Clustering using H2O
     
 
+   
 .. list-table:: H2O Processors in Fire Insights
    :widths: 20 80
    :header-rows: 1
@@ -204,3 +205,11 @@ Below are details which can be needed on  H2O XGBoost processor:
 .. figure:: ../../../_assets/model/h2o/6.PNG
    :alt: H2O XGBOOST
    :width: 90%     
+   
+   
+.. toctree::
+   :hidden:
+
+   building-h20-workflows.rst
+   clustering.rst
+   

@@ -1,7 +1,7 @@
 Clustering
 ==========
 
-Sparkflows has the below processors for performing Clustering using H2O.
+Fire Insights has the below processors for performing Clustering using H2O.
 
 
 .. list-table:: H2O Processors in Fire Insights
@@ -14,7 +14,7 @@ Sparkflows has the below processors for performing Clustering using H2O.
      - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
      
      
-  H2O K-Means
+H2O K-Means
 ----------
 
 K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.

@@ -7,7 +7,7 @@ Fire Insights stores the values for the Credential Store encrypted.
 
 .. toctree::
    :maxdepth: 1
-
+   azure-portal-keyvault.rst
    azure-keyvault.rst
    credential-store-connection.rst
 

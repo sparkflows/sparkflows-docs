@@ -66,6 +66,7 @@ Apache Spark ML
 .. toctree::
    :hidden:
 
+   building-sparkml-workflows.rst
    feature-generation.rst
    feature-selection.rst
    clustering.rst

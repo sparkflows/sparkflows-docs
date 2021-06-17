@@ -34,6 +34,6 @@ Analytical Apps User Guide
    adding-stages/index.rst
    integrating-with-databricks-notebook.rst
    running-analytics-app.rst
-   analytics-app-extension.rst
+   
 
 

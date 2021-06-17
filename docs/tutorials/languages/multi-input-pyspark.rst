@@ -1,4 +1,4 @@
-MultiInputpyspark
+Multi Input Pyspark
 ==========================
 
 This workflow reads in dataset's and pass the multiple input's MultiInputpyspark node.

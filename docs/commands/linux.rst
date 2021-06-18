@@ -121,3 +121,17 @@ Check Memory use in Linux
 
     cat /proc/meminfo
 
+Download Files
+--------------
+
+Using wget::
+
+    wget https://domainname.com/abc.csv
+    
+    
+Using curl::
+
+    curl https://domainname.com/abc.csv -o abc.csv
+    
+    
+    

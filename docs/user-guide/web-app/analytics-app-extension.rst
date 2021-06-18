@@ -25,7 +25,7 @@ The next stage is the first run stage
       :alt: web-app
       :width: 90%
 
-There is a change in the next button on the run stage. Its API property name should be **afterRun**.
+There is a change in the next button on the run stage. Its API property name should be **afterRun** and select disabled property.
 
 .. figure:: ../../_assets/web-app/wae-execution-next.PNG
       :alt: web-app

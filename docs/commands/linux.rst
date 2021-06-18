@@ -1,10 +1,12 @@
 Linux Commands
 ===============
-
+    
 Find disk usage
 ----------------
 
-df -h
+::
+
+    df -h
 
 
 Find the size of the various folders

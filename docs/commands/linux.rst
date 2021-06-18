@@ -12,6 +12,11 @@ Find the size of the various folders
 
 du -sh *
 
+Removes all the wheel files in the cache
+-----------
+
+pip cache purge
+
 Compare two files
 ---------------
 

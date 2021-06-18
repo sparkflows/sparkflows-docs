@@ -14,7 +14,7 @@ Find the size of the various folders
 
 du -sh *
 
-Removes all the wheel files in the cache
+Remove all the wheel files in the cache
 -----------
 
 pip cache purge
@@ -29,12 +29,12 @@ Find file with name
 
 find . -name *ones*
 
-summary of the memory usage
+Summary of the memory usage
 -------------------------
 
 free -h
 
-searches for lines which contain a search pattern
+Search for lines which contain a search pattern
 ------------------------------
 
 grep train *.txt
@@ -74,7 +74,7 @@ Find system information
 
 uname -a
 
-lists the currently logged in users
+List the currently logged in users
 ----------
 
 w
@@ -84,7 +84,7 @@ Find IP
 
 ifconfig
 
-Check Memory Use in Linux
+Check Memory use in Linux
 ------------
 
 cat /proc/meminfo

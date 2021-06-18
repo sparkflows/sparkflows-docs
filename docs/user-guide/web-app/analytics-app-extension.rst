@@ -45,7 +45,7 @@ After clicking on the Next button, the user will go to the second parameters sta
 
 To capture result parameters there is a fieldset there.
 
-.. figure:: ../../_assets/web-app/wae-result-parameters-edit.PNG
+.. figure:: ../../_assets/web-app/wae-result-parameters-edit.png
       :alt: web-app
       :width: 90%
 

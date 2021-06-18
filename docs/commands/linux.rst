@@ -1,4 +1,4 @@
-Linus Commands
+Linux Commands
 ===============
 
 Find disk usage

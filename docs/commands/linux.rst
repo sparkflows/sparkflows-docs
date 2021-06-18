@@ -12,80 +12,112 @@ Find disk usage
 Find the size of the various folders
 -------------------
 
-du -sh *
+::
+
+    du -sh *
 
 Remove all the wheel files in the cache
 -----------
 
-pip cache purge
+::
+
+    pip cache purge
 
 Compare two files
 ---------------
 
-diff -y -W 70 test.txt test1.txt 
+::
+
+    diff -y -W 70 test.txt test1.txt 
 
 Find file with name
 ------------------
 
-find . -name *ones*
+::
+
+    find . -name *ones*
 
 Summary of the memory usage
 -------------------------
 
-free -h
+::
+
+    free -h
 
 Search for lines which contain a search pattern
 ------------------------------
 
-grep train *.txt
+::
+
+   grep train *.txt
 
 History of commands
 -------------------
 
-history
+::
+
+   history
 
 List command
 ------------
 
-ls -lh
+::
+
+   ls -lh
 
 Move command
 ----------
 
-mv source destination
+::
+
+   mv source destination
 
 lists running processes
 ------------
 
-ps
+::
+
+    ps
 
 Find current directory path
 ---------------
 
-pwd
+::
+
+    pwd
 
 Find real-time display of the data
 ---------------
 
-top
+::
+
+   top
 
 Find system information
 -------------
 
-uname -a
+::
+
+    uname -a
 
 List the currently logged in users
 ----------
 
-w
+::
+
+    w
 
 Find IP
 ----------
 
-ifconfig
+::
+
+    ifconfig
 
 Check Memory use in Linux
 ------------
 
-cat /proc/meminfo
+::
+
+    cat /proc/meminfo
 

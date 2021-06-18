@@ -7,6 +7,8 @@ Commands Cheatsheet
    spark.rst
    environment-variables.rst
    databricks.rst
+   linux.rst
+   
    
    
    

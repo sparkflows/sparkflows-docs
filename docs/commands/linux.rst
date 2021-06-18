@@ -77,4 +77,13 @@ lists the currently logged in users
 
 w
 
+Find IP
+----------
+
+ifconfig
+
+Check Memory Use in Linux
+------------
+
+cat /proc/meminfo
 

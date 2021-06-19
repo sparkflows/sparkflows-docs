@@ -51,6 +51,7 @@ Spark ML
     
     Synthetic Minority Oversampling Technique
 
+    ---
     :doc:`/tutorials/data-science/sparkml/stockPrediction-storeAnditem`
 
     Stock Prediction for each store & item using Loop & LinearRegression nodes. LinearRegression node provides model & sumarry for each store & item.

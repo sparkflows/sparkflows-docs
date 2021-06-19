@@ -61,7 +61,7 @@ VectorAssembler
 
 LoopDistinctValue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Node to loop the data for distinct values of the selected columns.
+Node to loop the data for distinct values in the selected columns.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/5.png
    :alt: Stock Prediction
@@ -77,7 +77,7 @@ Fitting the line with Regression model.
    
 ModelSummary
 ^^^^^^^^^^^^^
-ModelSummary for each combination of fields selected in loop node.
+ModelSummary for each combination of values in the selected fields.
 Summary can be saved and analyzed.
 
 

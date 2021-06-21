@@ -62,7 +62,7 @@ Go to the History.
    :alt: PushWf
    :width: 60% 
   
- *Commit message*
+*Commit message*
   
 .. figure:: ../../_assets/git/commit-msg.png
    :alt: PushWf

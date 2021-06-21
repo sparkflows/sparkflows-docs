@@ -17,3 +17,6 @@ You can sync your workflows in Sparkflows with a remote Git repository.
    :hidden:
 
    gitconfiguration.rst
+   import-project.rst
+   link-project.rst
+   push-wf.rst

@@ -24,6 +24,15 @@ Add git credentials
 - Provide the git username/ password.
 - Click `SAVE`.
 
+.. figure:: ../../_assets/git/git-credentials.png
+   :alt: GitCredentials
+   :width: 60%
+
 The system validates the user credentials and displays a success message.
+You can also update the credentials anytime.
+
+.. figure:: ../../_assets/git/git-cred-update-success.png
+   :alt: Success
+   :width: 60%
 
 

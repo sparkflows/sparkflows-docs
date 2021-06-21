@@ -218,4 +218,5 @@ Below are details which can be needed on  H2O XGBoost processor:
 
    building-h20-workflows.rst
    clustering.rst
+   regression-classification.rst
    

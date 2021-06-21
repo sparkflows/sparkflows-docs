@@ -1,7 +1,7 @@
-Serving Spark MLlib Models
+Scoring using Apache Spark ML Models
 ===========================
 
-Fire Insights creates Apache Spark MLlib models. These models get saved as files on the File System.
+Fire Insights creates Apache Spark ML models. These models can be saved as files on the File System.
 
 NodeModelSave saves the Spark ML models as files. It uses the Spark interfaces to save the model.
 
@@ -11,7 +11,7 @@ NodeModelSave saves the Spark ML models as files. It uses the Spark interfaces t
 
 Once the SparkML model is saved, they can be loaded and used in scoring. Fire Insights enables saving both Spark ML models and pipelines.
 
-Batch Model Scoring:
+Batch Model Scoring
 --------------------
 
 By using NodeModelLoad & selecting the particular type of model to be loaded, the model would be loaded in the workflow and it can be used for scoring the input data.

@@ -4,7 +4,7 @@ Clustering
 Fire Insights has the below processors for performing Clustering using H2O.
 
 
-.. list-table:: H2O Processors in Fire Insights
+.. list-table:: H2O Processors in Fire Insights for Clustering
    :widths: 20 80
    :header-rows: 1
 

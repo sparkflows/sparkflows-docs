@@ -1,7 +1,11 @@
 Building Apache Spark ML Workflows
 ==================================
 
-Below is an example Spark ML workflow. It builds a Classification Model for Churn prediction on Telco data
+Below is an example Spark ML workflow. It builds a Classification Model for Churn prediction on Telco data.
+
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
+   :alt: Machine Learning
+   :width: 90%
 
 There is a certain pattern to be followed when building the predictive Spark ML workflows.
 

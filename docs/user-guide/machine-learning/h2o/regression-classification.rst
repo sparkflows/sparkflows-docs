@@ -3,7 +3,7 @@ Regression & Classification
 
 Fire Insights has the following processors for building Regression & Classification Models using H2O.
 
-.. list-table:: H2O Processors in Fire Insights
+.. list-table:: H2O Processors in Fire Insights for Regression & Classification
    :widths: 20 80
    :header-rows: 1
 

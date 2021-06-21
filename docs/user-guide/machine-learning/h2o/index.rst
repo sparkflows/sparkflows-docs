@@ -14,6 +14,12 @@ H2O
 
     Clustering using H2O
     
+    ---
+
+    :doc:`/user-guide/machine-learning/h2o/regression-classsification`
+
+    Regression & Classification using H2O
+    
 
    
 .. list-table:: H2O Processors in Fire Insights

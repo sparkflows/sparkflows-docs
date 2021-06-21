@@ -7,16 +7,16 @@ When you have added new workflow or made changes to existing workflows, you can 
 - Create or edit your workflow.
 - Click on the ``SAVE AND PUSH TO GIT`` button.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``PUSH`` button.
+- Click on the ``PUSH`` button
 
 *SAVE AND PUSH TO GIT*
 
+
 .. figure:: ../../_assets/git/save&push.png
    :alt: PushWf
-   :width: 80%
+   :width: 60%
    
- 
- *Commit Messsage*
+*Commit Messsage*
  
  
 .. figure:: ../../_assets/git/commit-msg.png

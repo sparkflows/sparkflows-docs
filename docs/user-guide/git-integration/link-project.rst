@@ -29,4 +29,4 @@ Create New Branch
    :alt: link-with-git
    :width: 60%
 
-Successfully Linked project with git. Now, you can push workflows under project to linked branch.
+Successfully Linked Project with Git. Now, you can push workflows under Project to linked branch.

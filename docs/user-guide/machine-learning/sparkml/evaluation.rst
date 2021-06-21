@@ -3,10 +3,17 @@ Model Evaluation
 
 Model evaluation aims to estimate the generalization accuracy of a model on future (unseen/out-of-sample) data.
 
+Overview
+--------
 
+Machine learning models ought to be able to give accurate predictions in order to create real value for a given organization.
 
-Evaluation Processors in Fire Insights
+While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning pipeline. We need to know whether it actually works and, consequently, if we can trust its predictions. Could the model be merely memorizing the data it is fed with, and therefore unable to make good predictions on future samples, or samples that it hasn’t seen before?
+
+Model Evaluation Processors in Fire Insights
 ----------------------------------------
+
+Below are the Apache Spark ML based Model Evaluation Processors in Fire Insights.
 
 
 .. list-table:: Apache Spark based Evaluation Processors in Fire Insights
@@ -27,21 +34,14 @@ Evaluation Processors in Fire Insights
 - https://heartbeat.fritz.ai/introduction-to-machine-learning-model-evaluation-fa859e1b2d7f
 
 
-Machine learning continues to be an increasingly integral component of our lives, whether we’re applying the techniques to research or business problems. Machine learning models ought to be able to give accurate predictions in order to create real value for a given organization.
-
-While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning pipeline. We need to know whether it actually works and, consequently, if we can trust its predictions. Could the model be merely memorizing the data it is fed with, and therefore unable to make good predictions on future samples, or samples that it hasn’t seen before?
-
-In this article, we explain the techniques used in evaluating how well a machine learning model generalizes to new, previously unseen data. We’ll also illustrate how common model evaluation metrics are implemented for classification and regression problems using Python.
-
 Model Evaluation Techniques
 ---------------------------
-
-The above issues can be handled by evaluating the performance of a machine learning model, which is an integral component of any data science project.
 
 Methods for evaluating a model’s performance are divided into 2 categories: namely, holdout and Cross-validation. Both methods use a test set (i.e data not seen by the model) to evaluate model performance. It’s not recommended to use the data we used to build the model to evaluate it. This is because our model will simply remember the whole training set, and will therefore always predict the correct label for any point in the training set. This is known as overfitting.
 
 Holdout
--------
+^^^^^^^
+
 The purpose of holdout evaluation is to test a model on different data than it was trained on. This provides an unbiased estimate of learning performance.
 
 In this method, the dataset is randomly divided into three subsets:
@@ -55,7 +55,8 @@ In this method, the dataset is randomly divided into three subsets:
 The holdout approach is useful because of its speed, simplicity, and flexibility. However, this technique is often associated with high variability since differences in the training and test dataset can result in meaningful differences in the estimate of accuracy.
 
 Cross-Validation
------------------
+^^^^^^^^^^^^^^^^
+
 Cross-validation is a technique that involves partitioning the original observation dataset into a training set, used to train the model, and an independent set used to evaluate the analysis.
 
 The most common cross-validation technique is k-fold cross-validation, where the original dataset is partitioned into k equal size subsamples, called folds. The k is a user-specified number, usually with 5 or 10 as its preferred value. This is repeated k times, such that each time, one of the k subsets is used as the test set/validation set and the other k-1 subsets are put together to form a training set. The error estimation is averaged over all k trials to get the total effectiveness of our model.
@@ -68,5 +69,4 @@ As can be seen, every data point gets to be in a test set exactly once and gets 
 - https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234
 
 
-Model Evaluation in Fire Insights
----------------------------------
+

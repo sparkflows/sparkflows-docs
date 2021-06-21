@@ -6,7 +6,7 @@ Link Projects or workflows in the Git repository with Sparkflows.
 
 .. panels::
     :container: container-lg pb-3
-    
+
     :doc:`/user-guide/git-integration/gitconfiguration`
 
     Sync your Projects/ Workflows with Github repository using the sparkflows configuration with Git.

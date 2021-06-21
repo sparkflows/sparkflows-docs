@@ -56,9 +56,9 @@ Go to the History.
    :alt: PushWf
    :width: 60% 
 
-*Workflow Versions*
+*Saved Workflow Versions*
 
-.. figure:: ../../_assets/git/git-pushWf-version.png
+.. figure:: ../../_assets/git/savedwfVersions.png
    :alt: PushWf
    :width: 60% 
   

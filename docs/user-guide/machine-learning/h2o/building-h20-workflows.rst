@@ -7,7 +7,7 @@ Below is an example H2O workflow. It builds a Regression Model for predicting th
    :alt: H2O GBM
    :width: 90%
 
-There is a certain pattern to be followed when building the predictive Spark ML workflows.
+There is a certain pattern to be followed when building the predictive H2O workflows.
 
 * Read in the Data
 * Perform feature engineering

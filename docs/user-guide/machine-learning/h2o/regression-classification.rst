@@ -30,7 +30,7 @@ You can find the details at the H2O website : http://docs.h2o.ai/h2o/latest-stab
 
 Below are details which can be needed on H2O DRF processor:
 
-.. list-table:: H2o DRF
+.. list-table:: H2O DRF
    :widths: 20 80
    :header-rows: 1
 

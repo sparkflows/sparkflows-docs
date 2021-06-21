@@ -9,6 +9,21 @@ When you have added new workflow or made changes to existing workflows, you can 
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button.
 
+.. figure:: ../../_assets/git/git-push-wf.png
+   :alt: PushWf
+   :width: 60%
+ 
+ Commit Merssage
+ 
+.. figure:: ../../_assets/git/commit-msg.png
+   :alt: PushWf
+   :width: 60%   
+
+On Success
+.. figure:: ../../_assets/git/success-commit.png
+   :alt: PushWf
+   :width: 60% 
+
 On success, you will get success message.
 
 You can also save the version of the workflow and push it later.
@@ -17,11 +32,28 @@ You can also save the version of the workflow and push it later.
 - Add comment.
 - Click ``OK`` to save the new version of workflow.
 
+.. figure:: ../../_assets/git/save-newVersion-comment.png
+   :alt: PushWf
+   :width: 60% 
+
 Go to the History.
 
 - You will get the list of workflow versions.
 - Click on the ``Git-icon`` to push the selected version of workflow.
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button.
+
+Workflows History
+
+.. figure:: ../../_assets/git/history-drpdwn.png
+   :alt: PushWf
+   :width: 60% 
+
+Workflow Versions
+
+.. figure:: ../../_assets/git/git-pushWf-version.png
+   :alt: PushWf
+   :width: 60% 
+   
 
 On success, you will get success message.

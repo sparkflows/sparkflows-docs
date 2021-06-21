@@ -1,4 +1,4 @@
-Code
+Code - SQL, Python, Scala
 ==========
 
 .. panels::

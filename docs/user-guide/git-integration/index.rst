@@ -18,6 +18,18 @@ Link Projects or workflows in the Git repository with Sparkflows.
     Import project from git.
 
     ---
+    
+   :doc:`/user-guide/git-integration/link-project`
+
+   Link Project to the remote Git Repository
+
+    --- 
+    
+    :doc:`/user-guide/git-integration/push-wf`
+
+    Commit and push the workflow to the remote Git Repository
+
+    ---
 
 .. toctree::
    :hidden:

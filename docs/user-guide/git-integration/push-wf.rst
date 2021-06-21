@@ -60,8 +60,7 @@ Go to the History.
 
 .. figure:: ../../_assets/git/git-pushWf-version.png
    :alt: PushWf
-   :width: 80% 
-   
+   :width: 60% 
   
  *Commit message*
   

@@ -13,7 +13,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 .. figure:: ../../_assets/git/git-push-wf.png
    :alt: PushWf
-   :width: 60%
+   :width: 80%
    
  
  *Commit Messsage*
@@ -60,7 +60,7 @@ Go to the History.
 
 .. figure:: ../../_assets/git/git-pushWf-version.png
    :alt: PushWf
-   :width: 60% 
+   :width: 80% 
    
   
  *Commit message*

@@ -31,6 +31,11 @@ Link Projects or workflows in the Git repository with Sparkflows.
 
     ---
 
+    :doc:`/user-guide/git-integration/git-status`
+
+    Shows the workflows that has been added or changed
+
+
 .. toctree::
    :hidden:
 

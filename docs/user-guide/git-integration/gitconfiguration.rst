@@ -4,7 +4,7 @@ Git Configuration
 Enable Git Repository
 ----------------------
 
-- Go to Administration/ COnfiguration.
+- Go to Administration/ Configuration.
 - Click on `GIT` tab
 - Make `git.enable` true.
 - Provide the git repository link in `git.link` value field.

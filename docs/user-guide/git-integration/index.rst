@@ -13,9 +13,6 @@ Link Projects or workflows in the Git repository with Sparkflows.
 
     ---
     
-    .. panels::
-    :container: container-lg pb-3
-    
     :doc:`/user-guide/git-integration/import-project`
 
     Import project from git.

@@ -1,5 +1,8 @@
+Push Workflow
+================
+
 Commit and push workflow to the remote Git repository
-=====================================================
+-------------------------------------------------------
 
 When you have added new workflow or made changes to existing workflows, you can directly push the changes to Git.
 
@@ -15,7 +18,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 .. figure:: ../../_assets/git/save&push.png
    :alt: PushWf
    :width: 60%
-   
+  
 *Commit Messsage*
  
  

@@ -50,19 +50,19 @@ Apache Spark ML
     
     Model evaluation aims to estimate the generalization accuracy of a model on future (unseen/out-of-sample) data
 
-    ---
-
-    :doc:`/user-guide/machine-learning/sparkml/serving-sparkmllib-models`
-    
-    Apache Spark MLlib models get saved as files on the File System
-
-    ---
+   ---
 
     :doc:`/user-guide/machine-learning/sparkml/model-persistence`
     
     Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors for saving and loading the Spark ML models.
 
+    ---
+
+    :doc:`/user-guide/machine-learning/sparkml/serving-sparkmllib-models`
     
+    Reading a Spark ML model and scoring data using it
+
+     
 .. toctree::
    :hidden:
 

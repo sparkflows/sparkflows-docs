@@ -13,13 +13,14 @@ When you have added new workflow or made changes to existing workflows, you can 
    :alt: PushWf
    :width: 60%
  
- Commit Merssage
+ *Commit Messsage*
  
 .. figure:: ../../_assets/git/commit-msg.png
    :alt: PushWf
    :width: 60%   
 
-On Success
+*On Success*
+
 .. figure:: ../../_assets/git/success-commit.png
    :alt: PushWf
    :width: 60% 
@@ -43,13 +44,13 @@ Go to the History.
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button.
 
-Workflows History
+*Workflows History*
 
 .. figure:: ../../_assets/git/history-drpdwn.png
    :alt: PushWf
    :width: 60% 
 
-Workflow Versions
+*Workflow Versions*
 
 .. figure:: ../../_assets/git/git-pushWf-version.png
    :alt: PushWf

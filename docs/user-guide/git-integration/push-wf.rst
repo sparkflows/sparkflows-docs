@@ -11,7 +11,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 *SAVE AND PUSH TO GIT*
 
-.. figure:: ../../_assets/git/git-push-wf.png
+.. figure:: ../../_assets/git/save&push.png
    :alt: PushWf
    :width: 80%
    

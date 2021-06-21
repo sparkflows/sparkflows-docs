@@ -48,7 +48,7 @@ Go to the History.
 - You will get the list of workflow versions.
 - Click on the ``Git-icon`` to push the selected version of workflow.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``PUSH`` button.
+- Click on the ``PUSH`` button
 
 *Workflows History*
 

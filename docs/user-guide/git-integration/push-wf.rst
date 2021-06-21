@@ -9,17 +9,23 @@ When you have added new workflow or made changes to existing workflows, you can 
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button.
 
+*SAVE AND PUSH TO GIT*
+
 .. figure:: ../../_assets/git/git-push-wf.png
    :alt: PushWf
    :width: 60%
+   
  
  *Commit Messsage*
  
+ 
 .. figure:: ../../_assets/git/commit-msg.png
    :alt: PushWf
-   :width: 60%   
+   :width: 60%
+   
 
 *On Success*
+
 
 .. figure:: ../../_assets/git/success-commit.png
    :alt: PushWf
@@ -56,5 +62,18 @@ Go to the History.
    :alt: PushWf
    :width: 60% 
    
+  
+ *Commit message*
+  
+.. figure:: ../../_assets/git/commit-msg.png
+   :alt: PushWf
+   :width: 60% 
+   
+
+*On Success*
+
+.. figure:: ../../_assets/git/success-commit.png
+   :alt: PushWf
+   :width: 60% 
 
 On success, you will get success message.

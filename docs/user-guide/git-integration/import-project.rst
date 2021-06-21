@@ -9,8 +9,8 @@ You can Import project from git using configured Git repo as well as others repo
 
 A dialog box will appear with 2 choices.
 
-- *1. IMPORT FROM GLOBAL REPO
-- *2. IMPORT FROM OTHER REPO
+  1. IMPORT FROM GLOBAL REPO
+  2. IMPORT FROM OTHER REPO
 
 
 Import Project Fom Configured Git repo

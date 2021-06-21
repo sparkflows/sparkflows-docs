@@ -53,7 +53,10 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
     :doc:`/user-guide/performance/index`
     
+    ---
     
+    :doc:`user-guide/git-integration/index`
+
 
 .. toctree::
    :hidden:
@@ -69,4 +72,5 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    time-series/index
    python/index
    performance/index
+   git-integration/index
 

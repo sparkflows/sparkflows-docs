@@ -42,3 +42,5 @@ Connector Processors in Fire Insights
      - Saves data to Redshift using JDBC
    * - Write To SnowFlake
      - Saves the rows of the incoming DataFrame into Snowflake
+   * - Execute Query In SnowFlake
+     - Executes query in Snowflake

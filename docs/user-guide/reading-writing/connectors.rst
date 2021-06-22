@@ -40,3 +40,5 @@ Connector Processors in Fire Insights
      - Saves the incoming Dataframe into MongoDB
    * - Save Redshift-AWS
      - Saves data to Redshift using JDBC
+   * - Write To SnowFlake
+     - Saves the rows of the incoming DataFrame into Snowflake

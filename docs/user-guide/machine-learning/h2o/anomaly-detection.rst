@@ -31,7 +31,7 @@ Below are required parameters which can be specified in the H2O Isolation Forest
    * - IGNORED COLUMNS
      - Specify the column or columns to be excluded from the model. 
      
-.. figure:: ../../../../_assets/model/h2o/5.PNG
+.. figure:: ../../../_assets/model/h2o/5.PNG
    :alt: H2O Isolation
    :width: 90%
    

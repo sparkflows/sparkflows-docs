@@ -5,13 +5,13 @@ Gradient Boosting Machine (for Regression and Classification) is a forward learn
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
 
-Below are parameters which can be specified in the H2O GBM processor:
+Below are required parameters which can be specified in the H2O GBM processor:
 
 .. list-table:: H2O GBM
    :widths: 20 80
    :header-rows: 1
 
-   * - Title
+   * - Parametrs
      - Description
    * - RESPONSE COLUMN
      - select RESPONSE COLUMN
@@ -21,6 +21,7 @@ Below are parameters which can be specified in the H2O GBM processor:
      - Specify whether to ignore constant training columns.
    * - IGNORED COLUMNS
      - Specify the column or columns to be excluded from the model. 
+other parameter: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html#defining-a-gbm-model
 
 .. figure:: ../../../../_assets/model/h2o/3.PNG
    :alt: H2O GBM

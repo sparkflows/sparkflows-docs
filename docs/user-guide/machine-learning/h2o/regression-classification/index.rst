@@ -38,7 +38,12 @@ Regression and Clasification
     Boosting refers to the ensemble learning technique of building many models sequentially, with each new model attempting to correct for the deficiencies in the previous model.
     In tree boosting, each new model that is added to the ensemble is a decision tree. XGBoost provides parallel tree boosting (also known as GBDT, GBM) that solves many data science problems in a fast and accurate way.
     For many problems, XGBoost is one of the best gradient boosting machine (GBM) frameworks today.
-  
+   
+   ---
+   
+   :doc:`/user-guide/machine-learning/h2o/regression-classification/Neural-Networks`
+
+    H2O’s Deep Learning is based on a multi-layer feedforward artificial neural network that is trained with stochastic gradient descent using back-propagation. 
   
 .. toctree::
    :hidden:
@@ -48,3 +53,4 @@ Regression and Clasification
    GLRM.rst
    GLM.rst
    XGBOOST.rst
+   Neural-Networks.rst

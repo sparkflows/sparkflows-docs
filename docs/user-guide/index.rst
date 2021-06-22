@@ -55,7 +55,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
     
     ---
     
-    :doc:`user-guide/git-integration/index`
+    :doc:`/user-guide/git-integration/index`
 
 
 .. toctree::

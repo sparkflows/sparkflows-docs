@@ -5,21 +5,26 @@ Generalized Low Rank Models (GLRM) is an algorithm for dimensionality reduction 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html
 
-Below are parameters which can be specified in the H2O GLRM processor:
+Below are required parameters which can be specified in the H2O DRF processor:
 
 .. list-table:: H2O GLRM
    :widths: 20 80
    :header-rows: 1
 
-   * - Title
+   * - Parameters
      - Description
-   * - K
-     - Specify the rank of matrix approximation.
+   * - RESPONSE COLUMN
+     - Select RESPONSE COLUMN
+   * - IS RESPONSE COL CATEGORICAL
+     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+   * - IGNORE CONST COLUMNS
+     - Specify whether to ignore constant training columns.
    * - IGNORED COLUMNS
-     - Specify the column or columns to be excluded from the model: Class
-   * - IGNORE CONST COLS
-     - Specify whether to ignore constant training columns : true
- 
-.. figure:: ../../../../_assets/model/h2o/4.PNG
+     - Specify the column or columns to be excluded from the model.
+     
+.. figure:: ../../../../_assets/model/h2o/1.PNG
    :alt: H2O GLRM
    :width: 90%
+
+other parameters: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html#defining-a-glrm-model
+

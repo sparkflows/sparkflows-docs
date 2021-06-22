@@ -5,13 +5,13 @@ XGBoost is a supervised learning algorithm that implements a process called boos
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html
 
-Below are parameters which can be specified in the H2O XGBoost processor:
+Below are required parameters which can be specified in the H2O XGBoost processor:
 
 .. list-table:: H2o XGBoost
    :widths: 20 80
    :header-rows: 1
 
-   * - Title
+   * - Parameters
      - Description
    * - RESPONSE COLUMN
      - select RESPONSE COLUMN
@@ -26,4 +26,7 @@ Below are parameters which can be specified in the H2O XGBoost processor:
      
 .. figure:: ../../../../_assets/model/h2o/6.PNG
    :alt: H2O XGBOOST
-   :width: 90%    
+   :width: 90%   
+   
+other parameters: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#defining-an-xgboost-model
+

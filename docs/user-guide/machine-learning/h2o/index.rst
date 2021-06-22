@@ -19,6 +19,12 @@ H2O
     :doc:`/user-guide/machine-learning/h2o/regression-classification/index`
 
     Regression & Classification using H2O
+    
+    ---
+
+    :doc:`/user-guide/machine-learning/h2o/anomaly-detection/index`
+
+    Anomaly Detection using H2O
    
 .. toctree::
    :hidden:
@@ -26,4 +32,5 @@ H2O
    building-h20-workflows.rst
    clustering.rst
    regression-classification/index.rst
+   anomaly-detection.rst
    

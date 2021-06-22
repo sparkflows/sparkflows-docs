@@ -18,9 +18,9 @@ Link Projects or workflows in the Git repository with Sparkflows.
 
     ---
     
-   :doc:`/user-guide/git-integration/link-project`
+    :doc:`/user-guide/git-integration/link-project`
 
-   Link Project to the remote Git Repository
+    Link Project to the remote Git Repository
 
     --- 
     

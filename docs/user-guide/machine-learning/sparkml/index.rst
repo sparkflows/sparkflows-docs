@@ -50,7 +50,7 @@ Apache Spark ML
     
     Model evaluation aims to estimate the generalization accuracy of a model on future (unseen/out-of-sample) data
 
-   ---
+    ---
 
     :doc:`/user-guide/machine-learning/sparkml/model-persistence`
     

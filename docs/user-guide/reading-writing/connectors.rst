@@ -22,3 +22,9 @@ Connector Processors in Fire Insights
      - Reads a table from Databricks
    * - Save Databricks table
      - Saves data to a Databricks table
+   * - Read From SnowFlake
+     - Reads a table from Snowflake 
+   * - Read Elastic Search
+     - Reads data from ElasticSearch
+   * - Read HIVE Table
+     - Reads data from Apache HIVE table and creates a DataFrame from it

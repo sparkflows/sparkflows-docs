@@ -22,7 +22,7 @@ Below are required parameters which can be specified in the H2O DRF processor:
    * - IGNORED COLUMNS
      - Specify the column or columns to be excluded from the model.
      
-other parameters: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html#defining-a-gbm-model  
+other parameters: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/drf.html#defining-a-drf-model  
      
 .. figure:: ../../../../_assets/model/h2o/1.PNG
    :alt: H2O DRF

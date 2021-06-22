@@ -12,7 +12,7 @@ There is a certain pattern to be followed when building the predictive H2O workf
 * Read in the Data
 * Perform feature engineering
 * Split the dataframe for training and test
-* Use a model building node like Regression/Classification/Clustering to create the model on the training dataset.
+* Use a model building node like Regression/Classification/Clustering to create the model on the training dataset
    By selecting the isResponseIsCategorical field to true, classification model will be tarined.
    Train Metrics is displayed in execution result page and also viewd in model page.
 * Use a prediction node for predicting on the test dataset using the Model created

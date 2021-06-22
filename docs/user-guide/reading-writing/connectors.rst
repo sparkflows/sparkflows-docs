@@ -28,3 +28,15 @@ Connector Processors in Fire Insights
      - Reads data from ElasticSearch
    * - Read HIVE Table
      - Reads data from Apache HIVE table and creates a DataFrame from it
+   * - Read MongoDB
+     - Reads data from MongoDB
+   * - Read Redshift-AWS
+     - Reads data from Redshift using JDBC
+   * - Save Cassandra
+     - Saves the rows of the incoming DataFrame into Apache Cassandra
+   * - Save ElasticSearch
+     - Stores the rows of the incoming DataFrame into Elastic Search
+   * - Save MongoDB
+     - Saves the incoming Dataframe into MongoDB
+   * - Save Redshift-AWS
+     - Saves data to Redshift using JDBC

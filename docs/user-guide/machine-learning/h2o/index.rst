@@ -16,7 +16,7 @@ H2O
     
     ---
 
-    :doc:`/user-guide/machine-learning/h2o/regression-classification`
+    :doc:`/user-guide/machine-learning/h2o/regression-classification/index`
 
     Regression & Classification using H2O
    

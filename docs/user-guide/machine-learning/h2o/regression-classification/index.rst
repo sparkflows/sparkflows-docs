@@ -2,7 +2,7 @@ Regression and Clasification
 ============================
 
 .. panels::
-    :container: container-lg pb-3
+   :container: container-lg pb-3
 
     :doc:`/user-guide/machine-learning/h2o/regression-classification/DRF`
     
@@ -44,7 +44,7 @@ Regression and Clasification
    :doc:`/user-guide/machine-learning/h2o/regression-classification/Neural-Networks`
 
     H2O’s Deep Learning is based on a multi-layer feedforward artificial neural network that is trained with stochastic gradient descent using back-propagation. 
-  
+   ---
 .. toctree::
    :hidden:
 

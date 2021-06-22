@@ -28,7 +28,7 @@ Distributed Random Forest (DRF) is a powerful classification and regression tool
 
 You can find the details at the H2O website : http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/drf.html
 
-Below are details which can be needed on H2O DRF processor:
+Below are parameters which can be specified in the H2O DRF processor:
 
 .. list-table:: H2O DRF
    :widths: 20 80
@@ -37,7 +37,7 @@ Below are details which can be needed on H2O DRF processor:
    * - Title
      - Description
    * - RESPONSE COLUMN
-     - select RESPONSE COLUMN
+     - Select RESPONSE COLUMN
    * - IS RESPONSE COL CATEGORICAL
      - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
    * - IGNORE CONST COLUMNS
@@ -49,6 +49,7 @@ Below are details which can be needed on H2O DRF processor:
    :alt: H2O DRF
    :width: 90%
    
+   
 H2O GBM
 -------
 
@@ -56,7 +57,7 @@ Gradient Boosting Machine (for Regression and Classification) is a forward learn
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
 
-Below are details which can be needed on H2O GBM processor:
+Below are parameters which can be specified in the H2O GBM processor:
 
 .. list-table:: H2O GBM
    :widths: 20 80
@@ -84,7 +85,7 @@ Generalized Low Rank Models (GLRM) is an algorithm for dimensionality reduction 
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html
 
-Below are details which can be needed on H2O GLRM processor:
+Below are parameters which can be specified in the H2O GLRM processor:
 
 .. list-table:: H2O GLRM
    :widths: 20 80
@@ -110,7 +111,7 @@ Generalized Linear Models (GLM) estimate regression models for outcomes followin
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html
 
-Below are details which can be needed on H2O GLM processor:
+Below are parameters which can be specified in the H2O GLM processor:
 
 .. list-table:: H2o GLM
    :widths: 20 80
@@ -142,7 +143,7 @@ XGBoost is a supervised learning algorithm that implements a process called boos
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html
 
-Below are details which can be needed on  H2O XGBoost processor:
+Below are parameters which can be specified in the H2O XGBoost processor:
 
 .. list-table:: H2o XGBoost
    :widths: 20 80

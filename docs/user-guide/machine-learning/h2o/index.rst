@@ -22,10 +22,16 @@ H2O
     
     ---
 
-    :doc:`/user-guide/machine-learning/h2o/anomaly-detection/index`
+    :doc:`/user-guide/machine-learning/h2o/anomaly-detection`
 
     Anomaly Detection using H2O
    
+    ---
+
+    :doc:`/user-guide/machine-learning/h2o/PCA`
+
+    Principal Component Analysis (PCA) using H2O
+    
 .. toctree::
    :hidden:
 
@@ -33,4 +39,5 @@ H2O
    clustering.rst
    regression-classification/index.rst
    anomaly-detection.rst
+   PCA.rst
    

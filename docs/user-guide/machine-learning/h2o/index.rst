@@ -48,5 +48,5 @@ H2O
 
    building-h20-workflows.rst
    clustering.rst
-   regression-classification.rst
+   regression-classification/index.rst
    

@@ -3,17 +3,6 @@ Clustering
 
 Fire Insights has the below processors for performing Clustering using H2O.
 
-
-.. list-table:: H2O Processors in Fire Insights for Clustering
-   :widths: 20 80
-   :header-rows: 1
-
-   * - Title
-     - Description
-   * - H2O K-Means
-     - K-Means falls in the general category of clustering algorithms. Clustering is a form of unsupervised learning that tries to find structures in the data without using any labels or target values. Clustering partitions a set of observations into separate groupings such that an observation in a given group is more similar to another observation in the same group than to another observation in a different group.
-     
-     
 H2O K-Means
 ----------
 
@@ -37,7 +26,7 @@ Below are details which can be needed on H2O K-Means processor:
      - Specify whether to ignore constant training columns.
      
 .. figure:: ../../../_assets/model/h2o/2.PNG
-   :alt: H2O DRF
+   :alt: H2O Cluster
    :width: 90%
    
-   
+other parameters: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html#defining-a-k-means-model   

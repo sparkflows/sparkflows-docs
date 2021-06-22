@@ -5,13 +5,13 @@ Generalized Linear Models (GLM) estimate regression models for outcomes followin
 
 You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html
 
-Below are parameters which can be specified in the H2O GLM processor:
+Below are required parameters which can be specified in the H2O GLM processor:
 
 .. list-table:: H2o GLM
    :widths: 20 80
    :header-rows: 1
 
-   * - Title
+   * - Parameters
      - Description
    * - RESPONSE COLUMN
      - select RESPONSE COLUMN
@@ -29,3 +29,7 @@ Below are parameters which can be specified in the H2O GLM processor:
 .. figure:: ../../../../_assets/model/h2o/5.PNG
    :alt: H2O DRF
    :width: 90%
+   
+other parameter: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html#defining-a-glm-model
+   
+   

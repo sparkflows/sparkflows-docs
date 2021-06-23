@@ -35,7 +35,7 @@ Selected Project will get created.
 
 Import project fom other Git repo
 ------------------------------------
-- Select ``IMPORT FROM GLOBAL REPO``.
+- Select ``IMPORT FROM OTHER REPO``.
 - Provide the link of other Git repo.
 - Select the ``Branch``.
 - You will get the project list of the selected branch.

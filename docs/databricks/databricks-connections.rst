@@ -31,7 +31,7 @@ Setting Current Connection
 A user can set their current connection from the list. Here the user can choose from the global and group level connections. And also from project level connections.
 
 
-Scenarious
+Scenarios
 ----------
 
 Data/Databricks Clusters

@@ -19,7 +19,7 @@ Add git credentials
 ---------------------
 
 - On the right corner, click on the ``settings`` icon.
-- Click on the ``Git Integration``.
+- Click on the ``Git Configuration``.
 - Git preferences dialog will appear.
 - Provide the git username/ password.
 - Click ``SAVE``.

@@ -62,7 +62,14 @@ Azure Integration
    :maxdepth: 2
 
    azure/index
-   
+
+Snowflake Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   snowflake/index
    
 Troubleshooting
 ---------------

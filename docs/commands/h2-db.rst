@@ -13,11 +13,22 @@ Logging into H2 DB
     User : fire
     Password : fire
 
-Compacting the H2 DB
+Compacting the H2 DB : METHOD 1
 --------------------
+
+When the H2 DB file sizes get too large, it is important to compact them.
 
     SHUTDOWN COMPACT
     
+Compacting the H2 DB : Method 2
+---------------------
+
+https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically
+
+    SCRIPT TO 'mydb.sql'; 
+    DROP ALL OBJECTS; 
+    RUNSCRIPT FROM 'mydb.sql';
+
     
 List all Tables
 ------------------

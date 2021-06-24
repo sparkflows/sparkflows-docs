@@ -25,15 +25,15 @@ By default H2 DB file is in the home folder of the user running Fire Insights. I
 If the H2 DB file size grows too large (> 3GB), then follow the steps below for compacting it.
 
 * Make a copy of firedb.mv.db file to be safe
-* Use the commands below for compacting it
+* Use the commands below for compacting it::
 
-java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
-URL: jdbc:h2:./firedb
-Driver : org.h2.Driver
-User : fire
-Password : fire
+    java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
+    URL: jdbc:h2:./firedb
+    Driver : org.h2.Driver
+    User : fire
+    Password : fire
 
-SHUTDOWN COMPACT
+    SHUTDOWN COMPACT
 
 Deleting old files
 ----------------

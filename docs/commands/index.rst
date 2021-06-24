@@ -8,6 +8,7 @@ Commands Cheatsheet
    environment-variables.rst
    databricks.rst
    linux.rst
+   h2-db.rst
    
    
    

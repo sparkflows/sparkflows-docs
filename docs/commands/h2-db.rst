@@ -39,3 +39,9 @@ Dump the H2 DB to a text file
 
     SCRIPT TO 'filename';
     
+
+Save the results of query into a file
+--------------
+
+    CALL CSVWRITE('result.csv', 'select ANALYSIS_FLOW_EXECUTION_ID, RESULT from ANALYSIS_FLOW_EXECUTE_RESULT limit 10');
+    

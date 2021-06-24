@@ -19,3 +19,17 @@ Compacting the H2 DB
     SHUTDOWN COMPACT
     
     
+Viewing the Tables
+------------------
+
+    sql> show table;
+    
+Describe the table
+------------------
+
+    sql> show columns from ANALYSIS_FLOW_EXECUTE_RESULT;
+    
+Get count of records in a table
+----------------
+    
+    sql> select count(*) from ANALYSIS_FLOW_EXECUTE_RESULT;

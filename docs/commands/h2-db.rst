@@ -19,10 +19,10 @@ Compacting the H2 DB
     SHUTDOWN COMPACT
     
     
-Viewing the Tables
+List all Tables
 ------------------
 
-    sql> show table;
+    sql> show tables;
     
 Describe the table
 ------------------

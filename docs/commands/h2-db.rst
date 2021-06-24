@@ -7,6 +7,8 @@ By default Fire Insights uses the H2 DB for storing the metadata. These include 
 Logging into H2 DB
 --------------------
 
+::
+
     java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
     URL: jdbc:h2:./firedb
     Driver : org.h2.Driver
@@ -17,7 +19,10 @@ Compacting the H2 DB
 --------------------
 
 When the H2 DB file sizes get too large, it is important to compact them.
+
 SHUTDOWN COMPACT fully compacts the database (re-creating the database may further reduce the database size). If the database is closed normally (using SHUTDOWN or by closing all connections), then the database is also compacted, but only for at most the time defined by the database setting h2.maxCompactTime in milliseconds (see there).
+
+::
 
     SHUTDOWN COMPACT
     
@@ -25,6 +30,8 @@ Recreating the H2 DB to further reduce the database size
 ---------------------
 
 https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically
+
+::
 
     SCRIPT TO 'mydb.sql'; 
     DROP ALL OBJECTS; 
@@ -34,26 +41,36 @@ https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-red
 List all Tables
 ------------------
 
+::
+
     sql> show tables;
     
 Describe the table
 ------------------
 
+::
+
     sql> show columns from ANALYSIS_FLOW_EXECUTE_RESULT;
     
 Get count of records in a table
 ----------------
-    
+
+::
+
     sql> select count(*) from ANALYSIS_FLOW_EXECUTE_RESULT;
     
 Dump the H2 DB to a text file
 ----------------
+
+::
 
     SCRIPT TO 'filename';
     
 
 Save the results of query into a file
 --------------
+
+::
 
     CALL CSVWRITE('result.csv', 'select ANALYSIS_FLOW_EXECUTION_ID, RESULT from ANALYSIS_FLOW_EXECUTE_RESULT limit 10');
     

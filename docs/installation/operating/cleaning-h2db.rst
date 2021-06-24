@@ -1,5 +1,8 @@
-Maintenance Tasks
+Regular Maintenance Tasks
 ==============
+
+It is important to do a few maintenance tasks regularly to have Fire Insights running smoothly over time.
+
 
 Cleaning H2 DB
 --------------
@@ -35,6 +38,18 @@ If the H2 DB file size grows too large (> 3GB), then follow the steps below for 
 
     SHUTDOWN COMPACT
 
+    
+Recreating the H2 DB to further reduce the database size
++++++++++++++
+
+https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically
+
+::
+
+    SCRIPT TO 'mydb.sql'; 
+    DROP ALL OBJECTS; 
+    RUNSCRIPT FROM 'mydb.sql';
+    
 Deleting old files
 ----------------
 

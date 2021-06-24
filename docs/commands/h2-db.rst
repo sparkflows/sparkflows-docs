@@ -33,3 +33,9 @@ Get count of records in a table
 ----------------
     
     sql> select count(*) from ANALYSIS_FLOW_EXECUTE_RESULT;
+    
+Dump the H2 DB to a text file
+----------------
+
+    SCRIPT TO 'filename';
+    

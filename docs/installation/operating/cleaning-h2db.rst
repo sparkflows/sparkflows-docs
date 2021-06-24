@@ -20,11 +20,10 @@ It is important to regularly delete the old workflow executions in order to keep
 Compact H2 DB File
 ++++++++++++++++++
 
-If the H2 DB file size grows too large (> 3GB), then follow the steps below for compacting it.
-
 By default H2 DB file is in the home folder of the user running Fire Insights. It is named as firedb.mv.db
 
-* Store Fire Insights
+If the H2 DB file size grows too large (> 3GB), then follow the steps below for compacting it.
+
 * Make a copy of firedb.mv.db file to be safe
 * Use the commands below for compacting it
 

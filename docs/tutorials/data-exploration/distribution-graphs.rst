@@ -63,16 +63,16 @@ It plots graphs of distribution of data by month using GraphMonthDistribution No
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4.png
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4a.png
    :alt: Distribution Graphs
    :width: 80%
    
 Processor Output
 ^^^^^^
-
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4a.png
+   
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/4.png
    :alt: Distribution Graphs
-   :width: 80%
+   :width: 80%   
    
 Distribution of data by Year
 ----------------------------

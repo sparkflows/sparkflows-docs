@@ -13,14 +13,15 @@ Logging into H2 DB
     User : fire
     Password : fire
 
-Compacting the H2 DB : METHOD 1
+Compacting the H2 DB
 --------------------
 
 When the H2 DB file sizes get too large, it is important to compact them.
+SHUTDOWN COMPACT fully compacts the database (re-creating the database may further reduce the database size). If the database is closed normally (using SHUTDOWN or by closing all connections), then the database is also compacted, but only for at most the time defined by the database setting h2.maxCompactTime in milliseconds (see there).
 
     SHUTDOWN COMPACT
     
-Compacting the H2 DB : Method 2
+Recreating the H2 DB to further reduce the database size
 ---------------------
 
 https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically

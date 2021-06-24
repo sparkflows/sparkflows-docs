@@ -8,6 +8,13 @@ Data from Snowflake is read into a Dataframe. This dataframe can be transformed 
 
 Final result Dataframe can be written back to Snowflake.
 
+Snowflake Spark Connector
+---------------
+
+Fire Insights uses the Snowflake Spark connector for reading from and writing to Snowflake.
+
+https://docs.snowflake.com/en/user-guide/spark-connector.html
+
 .. toctree::
    :maxdepth: 2
 

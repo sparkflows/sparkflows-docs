@@ -15,3 +15,20 @@ The below workflow does the following:
    :alt: snowflake
    :width: 90%
 
+Reading from Snowflake Table
+-------------------
+
+It reads Table using Read From Snowflake processor.
+
+* CONNECTION  : Connection created for Snowflake
+* SF DATABASE : Snowflake Database name
+* SF SCHEMA : Snowflake Schema Name
+* SF WAREHOUSE : Snowflake Warehouse Name
+* SF TABLE : Snowflake Table Name
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ..//_assets/snowflake/2.PNG
+   :alt: snowflake
+   :width: 90%

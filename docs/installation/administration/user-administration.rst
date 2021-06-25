@@ -34,7 +34,7 @@ Permissions
 
 Fire has the following permissions defined.
 
-.. figure:: ..//_assets/user-guide/UsersPermissions.png
+.. figure:: ../../_assets/user-guide/UsersPermissions.png
    :scale: 100%
    :alt: User Permissions
    :align: center

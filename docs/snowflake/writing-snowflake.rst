@@ -35,3 +35,25 @@ Processor Output
 .. figure:: ..//_assets/snowflake/6.PNG
    :alt: snowflake
    :width: 90%
+
+Write it to Snowflake
+------------------
+
+It saves CSV File in specified Snowflake Table.
+
+* CONNECTION  : Connection created for Snowflake
+* SF DATABASE : Snowflake Database name
+* SF SCHEMA : Snowflake Schema Name
+* SF WAREHOUSE : Snowflake Warehouse Name
+* SAVE MODE : Append, Overwrite, ErrorifExists & Ignore
+* SF TABLE : Snowflake Table Name
+
+.. figure:: ..//_assets/snowflake/7.PNG
+   :alt: snowflake
+   :width: 90%
+   
+Once the workflow is executed successfully, the CSV File will be Written to Snowflake Table
+
+.. figure:: ..//_assets/snowflake/8.PNG
+   :alt: snowflake
+   :width: 90%

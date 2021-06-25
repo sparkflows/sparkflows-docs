@@ -32,3 +32,16 @@ Processor Configuration
 .. figure:: ..//_assets/snowflake/2.PNG
    :alt: snowflake
    :width: 90%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ..//_assets/snowflake/3.PNG
+   :alt: snowflake
+   :width: 90%
+
+Prints the Results
+------------------
+
+It prints the first few records of the dataframe
+   

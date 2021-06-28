@@ -23,6 +23,15 @@ Remove all the wheel files in the cache
 
     pip cache purge
 
+Create and Remove directory
+--------------
+
+::
+
+    mkdir directoryname
+    rmdir directoryname
+    
+
 Compare two files
 ---------------
 

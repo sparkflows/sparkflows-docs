@@ -71,15 +71,22 @@ Move command
 ::
 
    mv source destination
+   
+List Files in directory and subdirectory
+----------------
 
-lists running processes
+::
+
+    ls -R
+
+Lists running processes
 ------------
 
 ::
 
     ps
 
-lists running java processes
+Lists running java processes
 ------------
 
 ::

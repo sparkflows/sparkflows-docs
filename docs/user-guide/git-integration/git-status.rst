@@ -17,7 +17,13 @@ On clicking workflow name modal opens up where you can see :-
 
 - Workflow json differences of existing workflow changes which has not been pushed to git and last workflow json changes whcih has been pushed to configured git.
 
-.. figure:: ../../_assets/git/git-status-differences.png
+.. figure:: ../../_assets/git/git-status-json-differences.png
+   :alt: git-status
+   :width: 60%
+
+- Workflow differences of existing workflow changes which has not been pushed to git and last workflow changes whcih has been pushed to configured git.
+
+.. figure:: ../../_assets/git/git-status-wf-differences.png
    :alt: git-status
    :width: 60%
 

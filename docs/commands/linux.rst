@@ -79,6 +79,14 @@ lists running processes
 
     ps
 
+lists running java processes
+------------
+
+::
+
+    ps aux | grep -i --color java
+    
+    
 Find current directory path
 ---------------
 

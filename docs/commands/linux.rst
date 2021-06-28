@@ -156,6 +156,12 @@ Using wget::
 Using curl::
 
     curl https://domainname.com/abc.csv -o abc.csv
-    
+
+clear command
+--------------
+
+::
+
+    clear
     
     

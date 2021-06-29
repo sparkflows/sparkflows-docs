@@ -57,6 +57,8 @@ Connector Processors in Fire Insights
    write-databricks.rst
    read-salesforce.rst
    write-salesforce.rst
+   read-elasticsearch.rst
+   write-elasticsearch.rst
    
    
    

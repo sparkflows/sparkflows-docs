@@ -55,6 +55,9 @@ Connector Processors in Fire Insights
    redshift.rst
    read-databricks.rst
    write-databricks.rst
+   read-salesforce.rst
+   write-salesforce.rst
+   
    
    
    

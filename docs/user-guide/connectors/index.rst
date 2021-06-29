@@ -60,6 +60,8 @@ Connector Processors in Fire Insights
    read-elasticsearch.rst
    write-elasticsearch.rst
    save-mongodb.rst
+   save-cassandra.rst
+   
    
    
    

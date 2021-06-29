@@ -154,11 +154,13 @@ font-size: 1em;
 .fa-minus-square-o:before,
 .wy-menu-vertical li.on a span.toctree-expand:before,
 .wy-menu-vertical li.current > a span.toctree-expand:before {
-    content: '\f107';
+    /* content: '\f107';
     color: #404040;
     transform: rotate(180deg);
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.4em; */
+    content: '\f068';
+    color: #2980b9;
 }
 
 
@@ -212,18 +214,22 @@ font-size: 1em;
 
 .fa-plus-square-o:before,
 .wy-menu-vertical li span.toctree-expand:before {
-    content: '\f107';
+    /* content: '\f107';
     color: #404040;
     transition: all .5s;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.4em; */
+    content: '\f067';
+    color: #2980b9;
 }
 
 .wy-menu-vertical .toctree-l1.current {
     border-bottom: solid 1px #1CB1C2;
 }
 .wy-menu-vertical li span.toctree-expand{
-    float: right;
+    /* float: right; */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 /* .section {
     padding-bottom: 30px;

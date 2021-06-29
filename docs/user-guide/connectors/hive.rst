@@ -8,13 +8,17 @@ Fire Insights has "SaveAsHIVETable" processor.
 
 Note: Fire Insights can run in cluster mode or in the standalone mode. These settings are in Administration/Configuration. When connecting to HIVE, Sparkflows must be running in cluster mode on an edge node of a Hadoop cluster. HIVE settings have to be correctly set under Administration/Configuration-> app.runOnCluster.
 
+Workflow
+--------
+
 Below workflow shows the "SaveAsHIVETable" Processor. It reads Transaction Dataset and saves it into the HIVE 'sample_08' table.
 
 .. figure:: ../../_assets/tutorials/dataset/hiveflow.PNG
    :alt: Dataset
    :width: 90%
 
-Processor Configuration::
+Processor Configuration
+----------------------
 
 .. figure:: ../../_assets/tutorials/dataset/HiveTableNodeConfiguration.png
    :alt: Dataset

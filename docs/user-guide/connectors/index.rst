@@ -49,7 +49,8 @@ Connector Processors in Fire Insights
    :hidden:
 
    jdbc.rst
-   snowflake.rst
+   read-snowflake.rst
+   write-snowflake.rst
    hive.rst
    redshift.rst
    

@@ -23,6 +23,10 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
     ---
 
+    :doc:`/user-guide/connectors/index`
+
+    ---
+
     :doc:`/user-guide/data-preparation/index`
 
     ---
@@ -64,6 +68,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    quick-start/index
    user-guide/index
    reading-writing/index
+   connectors/index
    data-preparation/index
    data-exploration/index
    data-profile.rst

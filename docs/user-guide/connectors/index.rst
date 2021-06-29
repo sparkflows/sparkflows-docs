@@ -44,3 +44,10 @@ Connector Processors in Fire Insights
      - Saves the rows of the incoming DataFrame into Snowflake
    * - Execute Query In SnowFlake
      - Executes query in Snowflake
+
+.. toctree::
+   :hidden:
+
+   jdbc.rst
+   snowflake.rst
+

@@ -1,4 +1,4 @@
-Reading Writing
+Reading Writing Files
 ====================
 
 .. panels::
@@ -14,17 +14,10 @@ Reading Writing
 
     Provides a number of Processors for reading unstructured data from files.
 
-    ---
-
-    :doc:`/user-guide/reading-writing/connectors`
-
-    Provides a number of Connectors for reading and writing data.
-
 
 .. toctree::
    :hidden:
 
    read-structured.rst
    read-unstructured.rst
-   connectors.rst
 

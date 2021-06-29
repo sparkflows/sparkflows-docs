@@ -59,6 +59,8 @@ Connector Processors in Fire Insights
    write-salesforce.rst
    read-elasticsearch.rst
    write-elasticsearch.rst
+   save-mongodb.rst
+   
    
    
    

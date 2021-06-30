@@ -14,7 +14,7 @@ Below are details which can be needed on Execute in Loop processor:
    * - LOOP COLUMNS
      - Select the column which need to be find distinct values.
      
-.. figure:: ..//utilities/1.PNG
+.. figure:: ../../_assets/utilities/1.PNG
    :alt: utlities
    :width: 90%     
 

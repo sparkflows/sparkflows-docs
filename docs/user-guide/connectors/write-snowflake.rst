@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ..//_assets/snowflake/6.PNG
+.. figure:: ../../_assets/snowflake/6.PNG
    :alt: snowflake
    :width: 90%
 

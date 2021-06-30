@@ -1,6 +1,8 @@
 Data Profile
 =============
 
+Fire Insights allows you to clean the datasets using dataset profile.
+
 Below are the steps for Data Profiling in Fire Insights.
 
 Go to the Projects Page

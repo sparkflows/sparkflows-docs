@@ -22,8 +22,8 @@ Add git credentials with Token
 - On the right corner, click on the ``settings`` icon.
 - Click on the ``Git Configuration``.
 - Git preferences dialog will appear.
-- Select Token.
-- Provide the git Token.
+- Select ``Token``.
+- Provide the ``git Token``.
 - Click ``SAVE``.
 
 .. figure:: ../../_assets/git/git-cred-token.png
@@ -36,8 +36,8 @@ Add git credentials with UserName/ Password
 - On the right corner, click on the ``settings`` icon.
 - Click on the ``Git Configuration``.
 - Git preferences dialog will appear.
-- Select Password
-- Provide the git username/ password.
+- Select ``Password``
+- Provide the git ``username/ password``.
 - Click ``SAVE``.
 
 .. figure:: ../../_assets/git/git-cred-pwd.png

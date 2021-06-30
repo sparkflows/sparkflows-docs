@@ -35,7 +35,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
     ---
 
-    :doc:`/user-guide/data-profile`
+    :doc:`/user-guide/data-profile/index`
 
     ---
 

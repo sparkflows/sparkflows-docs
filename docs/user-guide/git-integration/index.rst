@@ -1,7 +1,7 @@
 Git Integration
 =================
 
-Fire Insights supprots Git integration.
+Fire Insights supports Git integration.
 Link Projects or workflows in the Git repository with Fire Insights.
 
 .. panels::

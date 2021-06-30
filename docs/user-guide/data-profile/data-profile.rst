@@ -10,7 +10,7 @@ Go to the Projects Page
 
 Go to the project page where you want to create a dataset or already have an existing one.
 
-select ``dataset`` tab.
+select ``Datasets`` tab.
 
 .. figure:: ../../_assets/user-guide/application.PNG
    :alt: Dataset

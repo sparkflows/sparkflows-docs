@@ -1,11 +1,11 @@
-Execute in Loop
+Execute In Loop
 =================
 
 Fire Insights has the below processors for Distinct Values in Loop.
 
 Below are details which can be needed on Execute in Loop processor:
 
-.. list-table:: Execute in Loop
+.. list-table:: Execute In Loop
    :widths: 20 80
    :header-rows: 1
    

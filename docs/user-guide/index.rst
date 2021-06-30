@@ -75,7 +75,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    connectors/index
    data-preparation/index
    data-exploration/index
-   data-profile.rst
+   data-profile/index
    machine-learning/index
    utilities/index
    web-app/index

@@ -3,7 +3,7 @@ Execute In Loop
 
 Fire Insights has the below processors for Distinct Values in Loop.
 
-Below are details which can be needed on Execute in Loop processor:
+Below are details which can be needed on Execute In Loop processor:
 
 .. list-table:: 
    :widths: 20 80

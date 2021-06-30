@@ -6,7 +6,7 @@ Fire Insights enables you to write to Salesforce.
 Save Salesforce
 -----------
 
-while using the above processor you need to have below parameter
+The below parameters are used when configuring this processor.
 
 .. list-table::
       :widths: 5 10

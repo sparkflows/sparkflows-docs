@@ -6,7 +6,7 @@ Fire Insights enables you to read from Salesforce.
 ReadSalesforce
 -----------
 
-while using the above processor you need to have below parameter
+The below parameters are used in configuring this processor.
 
 .. list-table::
       :widths: 5 10

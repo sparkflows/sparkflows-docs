@@ -10,7 +10,7 @@ Go to Administration/Global Connections
 
 Login to Fire Insights application, Go to Administration and select Global Connections.
 
-.. figure:: ../../_assets/credential_store/7.PNG
+.. figure:: ..//_assets/credential_store/7.PNG
    :alt: Credential Store
    :width: 90%
 
@@ -19,7 +19,7 @@ Add Connection
 
 Click on ADD CONNECTION, Select either of two ie Add Connection For All or Add Connection For Group, depending on need.
 
-.. figure:: ../../_assets/credential_store/8.PNG
+.. figure:: ..//_assets/credential_store/8.PNG
    :alt: Credential Store
    :width: 90%
 
@@ -49,21 +49,21 @@ Add Connection Parameter
    * - URL
      - URL for selected Connection, and if URL is added in KeyVault, add $URL
      
-.. figure:: ../../_assets/credential_store/9.PNG
+.. figure:: ..//_assets/credential_store/9.PNG
    :alt: Credential Store
    :width: 90%     
 
 After Adding the above parameter, you can Click on TEST CONNECTION, It will shows Successfully Connected and after saving it will show in Connection LIst.
 
-.. figure:: ../../_assets/credential_store/10.PNG
+.. figure:: ..//_assets/credential_store/10.PNG
    :alt: Credential Store
    :width: 90%   
    
-.. figure:: ../../_assets/credential_store/11.PNG
+.. figure:: ..//_assets/credential_store/11.PNG
    :alt: Credential Store
    :width: 90%      
 
-.. figure:: ../../_assets/credential_store/12.PNG
+.. figure:: ..//_assets/credential_store/12.PNG
    :alt: Credential Store
    :width: 90%
 

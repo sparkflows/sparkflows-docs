@@ -1,10 +1,12 @@
-Reading rrom Elastic Search
+Reading from Elastic Search
 ================
 
-
 Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' processor into your workflow and configure it.
-The screenshot below shows the dialog box for the Elastic Search Read Processor.
 
+Elastic Search Read Processor Configuration
+---------------
+
+The screenshot below shows the dialog box for the Elastic Search Read Processor.
 
 .. figure:: ../../_assets/tutorials/dataset/22_a.PNG
    :alt: Dataset
@@ -19,6 +21,9 @@ The SQL field specifies the SQL to be used for reading from Elastic Search. It a
 
 The Elastic Search Processor understands the SQL and translates it into the appropriate QueryDSL. The connector pushes down the operations directly to the source, where the data is efficiently filtered out so that only the required data is streamed back to Spark. This significantly increases the query performance and minimizes the CPU, memory and I/O operations on both Spark and Elastic Search Clusters.
 
+
+Workflow
+---------
 
 The example workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
@@ -36,7 +41,7 @@ When the example workflow above is executed, it reads in the index from Elastic 
 
 
 .. figure:: ../../_assets/tutorials/dataset/23.PNG
-   :alt: Dataset
+   :alt: Workflow Execution
    :width: 90%
 
 

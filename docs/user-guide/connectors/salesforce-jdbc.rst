@@ -96,10 +96,14 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
    :alt: salesforce
    :width: 90% 
 
+Once above parameter is added, Click on refresh schema to see Field Name
 
 .. figure:: ../../_assets/user-guide/salesforce/11.PNG
    :alt: salesforce
    :width: 90% 
+
+Processor output
+--------------
 
 .. figure:: ../../_assets/user-guide/salesforce/12.PNG
    :alt: salesforce

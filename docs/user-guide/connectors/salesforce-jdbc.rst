@@ -74,7 +74,7 @@ Now you can Read Salesforce using cdata JDBC Driver in Fire Insights application
 Processor Configuration Parameters for Salesforce cdata JDBC Connection:
 
 .. list-table::
-      :widths: 10 10
+      :widths: 5 10
       :header-rows: 1
 
       * - Name
@@ -115,7 +115,7 @@ Now you can Write to Salesforce using cdata JDBC Driver in Fire Insights applica
 Processor Configuration Parameters for Salesforce cdata JDBC Connection:
 
 .. list-table::
-      :widths: 10 10
+      :widths: 5 10
       :header-rows: 1
 
       * - Name

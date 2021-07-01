@@ -3,7 +3,7 @@ Salesforce using JDBC
 
 Fire Insights enable to Read from and Write to Salesforce using cdata JDBC Driver.
 
-Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce
+Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Fire Insights
 
 Download and Configure cdata JDBC Driver
 ----------------
@@ -56,3 +56,11 @@ On Successful completion of above steps, Go to path where you installed salesfor
 .. figure:: ../../_assets/user-guide/salesforce/9.PNG
    :alt: salesforce
    :width: 90%     
+   
+Configured cdata JDBC Driver in Fire Insights
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Now cdata JDBC Driver jar can be configured in Fire Insights to Read and Write to Salesforce using JDBC Connection.
+
+Below are steps to configure cdata JDBC Driver in Fire Insights and Read and Write to Salesforce.
+

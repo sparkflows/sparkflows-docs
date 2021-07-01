@@ -67,5 +67,40 @@ Below are steps to configure cdata JDBC Driver in Fire Insights and Read and Wri
 - Copy the ``cdata.jdbc.salesforce.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
 - Login to Fire Insights application and Go inside project and workflow tab to create an example workflow with Read and Write to Salesforce using Read JDBC & Save Jdbc Processor
 
+Read Salesforce
+---------------
+
+Now you can Read Salesforce using cdata JDBC Driver in Fire Insights application using Read JDBC Processor
 
 
+Processor Configuration Parameters for Salesforce cdata JDBC Connection:
+
+.. list-table::
+      :widths: 10 10
+      :header-rows: 1
+
+      * - Name
+        - Value
+      * - URL
+        - JDBC URL to connect to salesforce using cdata JDBC Driver
+      * - USER
+        - USER in Salesforce
+      * - PASSWORD
+        - PASSWORD in Salesforce
+      * - DB TABLE 
+        - Table Name
+      * - DRIVER
+        - JDBC Driver to connect to Salesforce using cdata ie. cdata.jdbc.salesforce.SalesforceDriver
+
+.. figure:: ../../_assets/user-guide/salesforce/10.PNG
+   :alt: salesforce
+   :width: 90% 
+
+
+.. figure:: ../../_assets/user-guide/salesforce/11.PNG
+   :alt: salesforce
+   :width: 90% 
+
+.. figure:: ../../_assets/user-guide/salesforce/12.PNG
+   :alt: salesforce
+   :width: 90% 

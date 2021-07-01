@@ -10,9 +10,7 @@ Download and Configure cdata JDBC Driver
 
 Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, after adding some needed information you can download in zip format in your system.
 
-::
-
-    https://www.cdata.com/drivers/salesforce/download/jdbc/
+  * cdata JDBC Driver URL :  https://www.cdata.com/drivers/salesforce/download/jdbc/
     
 
 .. figure:: ../../_assets/user-guide/salesforce/3.PNG

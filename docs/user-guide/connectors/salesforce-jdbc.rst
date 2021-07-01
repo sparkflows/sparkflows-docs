@@ -140,3 +140,5 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
 .. figure:: ../../_assets/user-guide/salesforce/13.PNG
    :alt: salesforce
    :width: 90%         
+
+On Successful execution of Workflow the data will be Written to Salesforce.

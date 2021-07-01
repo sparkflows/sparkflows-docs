@@ -64,3 +64,5 @@ Now cdata JDBC Driver jar can be configured in Fire Insights to Read and Write t
 
 Below are steps to configure cdata JDBC Driver in Fire Insights and Read and Write to Salesforce.
 
+Copy the ``cdata.jdbc.salesforce.jar`` to fire-user-lib & fire-server-lib and restart the Fire server.
+

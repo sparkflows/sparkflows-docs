@@ -35,19 +35,19 @@ Add Connection Parameter
    * - CREDENTIAL STORE
      - Select Credential Store Listed in dropdown or else choose Do not use Credential Store.
    * - CONNECTION TYPE
-     - Select Connection type configured in KeyVault it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake`
+     - Select Connection type as Snowflake, it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake`
    * - CONNECTION NAME
      - Add a Connection Name.
    * - USERNAME
-     - Username for the selected Connection and if username is added in KeyVault, add $USER-NAME
+     - Username for the selected Snowflake Connection 
    * - PASSWORD
-     - Password for selected Connection, and if password is added in KeyVault, add $PASSWORD
+     - Password for selected Snowflake Connection
    * - TITLE
      - Add a unique title.
    * - DESCRIPTION
      - Add description.
    * - URL
-     - URL for selected Connection, and if URL is added in KeyVault, add $URL
+     - URL for selected Snowflake Connection
      
 .. figure:: ..//_assets/credential_store/9.PNG
    :alt: Credential Store

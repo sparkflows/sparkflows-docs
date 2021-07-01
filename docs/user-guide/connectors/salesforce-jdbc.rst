@@ -23,3 +23,7 @@ Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, 
 .. figure:: ../../_assets/user-guide/salesforce/4.PNG
    :alt: salesforce
    :width: 90%   
+
+.. figure:: ../../_assets/user-guide/salesforce/5.PNG
+   :alt: salesforce
+   :width: 90%   

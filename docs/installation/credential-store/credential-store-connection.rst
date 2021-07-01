@@ -55,15 +55,15 @@ Add Connection Parameter
 
 After Adding the above parameter, you can Click on TEST CONNECTION, It will shows Successfully Connected and after saving it will show in Connection LIst.
 
-.. figure:: ../../_assets/credential_store/10.PNG
+.. figure:: ../../_assets/credential_store/18.png
    :alt: Credential Store
    :width: 90%   
    
-.. figure:: ../../_assets/credential_store/18.png
+.. figure:: ../../_assets/credential_store/17.png
    :alt: Credential Store
    :width: 90%      
 
-.. figure:: ../../_assets/credential_store/17.png
+.. figure:: ../../_assets/credential_store/12.PNG
    :alt: Credential Store
    :width: 90%
 

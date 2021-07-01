@@ -15,11 +15,11 @@ Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, 
     https://www.cdata.com/drivers/salesforce/download/jdbc/
     
 
-.. figure:: ..//user-guide/salesforce/3.PNG
+.. figure:: ../../user-guide/salesforce/3.PNG
    :alt: Credential Store
    :width: 90%
    
    
-.. figure:: ..//user-guide/salesforce/4.PNG
+.. figure:: ../../user-guide/salesforce/4.PNG
    :alt: Credential Store
    :width: 90%   

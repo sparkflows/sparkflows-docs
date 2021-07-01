@@ -1,14 +1,12 @@
 Redshift Connectors
 ========================
 
-Fire is fully integrated with Redshift.
-
-Fire has processors for reading from and writing to Redshift.
+Fire Insights has processors for reading from and writing to Redshift.
 
 Read Redshift AWS
 -----------
 
-while using the above processor need to have below parameter
+Processor Configuration Parameters:
 
 .. list-table::
       :widths: 10 5 10

@@ -45,7 +45,14 @@ Once Dowloaded completed, unzip that and extract jar from file `setup.jar` with 
 .. figure:: ../../_assets/user-guide/salesforce/8.PNG
    :alt: salesforce
    :width: 90%    
-   
+ 
+On Successful completion of above steps, Go to path where you installed salesforce drive and point to below path:
+
+::
+
+    $salesforce_home/lib/
+    
+    
 .. figure:: ../../_assets/user-guide/salesforce/9.PNG
    :alt: salesforce
    :width: 90%     

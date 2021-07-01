@@ -108,3 +108,35 @@ Processor output
 .. figure:: ../../_assets/user-guide/salesforce/12.PNG
    :alt: salesforce
    :width: 90% 
+
+Write to Salesforce
+-----------------
+
+Now you can Write to Salesforce using cdata JDBC Driver in Fire Insights application using Save JDBC Processor
+
+Processor Configuration Parameters for Salesforce cdata JDBC Connection:
+
+.. list-table::
+      :widths: 10 10
+      :header-rows: 1
+
+      * - Name
+        - Value
+      * - URL 
+        - Salesforce cdata JDBC Driver URL 
+      * - DB TABLE
+        - Table Name
+      * - DRIVER
+        - Salesforce JDBC Driver Name ie. ``cdata.jdbc.salesforce.SalesforceDriver``
+      * - USER
+        - USER NAME of Salesforce
+      * - PASSWORD
+        - PASSWORD of Salesforce
+      * - TRUNCATE
+        - false
+      * - SAVE MODE
+        - It can be Append, Overwrite, ErrorIfexist & Ignore
+        
+.. figure:: ../../_assets/user-guide/salesforce/13.PNG
+   :alt: salesforce
+   :width: 90%         

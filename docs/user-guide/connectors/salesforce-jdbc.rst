@@ -90,7 +90,7 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
       * - DB TABLE 
         - Table Name
       * - DRIVER
-        - JDBC Driver to connect to Salesforce using cdata ie. cdata.jdbc.salesforce.SalesforceDriver
+        - JDBC Driver to connect to Salesforce using cdata ie. ``cdata.jdbc.salesforce.SalesforceDriver``
 
 .. figure:: ../../_assets/user-guide/salesforce/10.PNG
    :alt: salesforce

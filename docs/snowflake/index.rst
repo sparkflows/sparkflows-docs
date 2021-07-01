@@ -18,6 +18,7 @@ https://docs.snowflake.com/en/user-guide/spark-connector.html
 .. toctree::
    :maxdepth: 2
 
+   creating-snowflake-connection.rst
    reading-snowflake.rst
    writing-snowflake.rst
    

@@ -50,7 +50,7 @@ Databricks Workflow execution
 
 Below is the output of executing the above workflow which reads data from a Databricks table.
 
-.. figure:: ../../../_assets/configuration/databricks-workflowexecutions.PNG
+.. figure:: ../../_assets/configuration/databricks-workflowexecutions.PNG
    :alt: Databricks
    :width: 80%
    

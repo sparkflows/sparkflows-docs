@@ -67,4 +67,5 @@ After Adding the above parameter, you can Click on TEST CONNECTION, It will show
    :alt: Credential Store
    :width: 90%
 
+
 .. note::  Now you can use above Snowflake connection in Read From SnowFlake, Write To SnowFlake & Execute Query In SnowFlake Processor in workflow editor.

@@ -1,4 +1,4 @@
-Reading from Elastic Search
+Reading from Elasticsearch
 ================
 
 Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' processor into your workflow and configure it.

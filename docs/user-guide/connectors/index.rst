@@ -32,6 +32,10 @@ Connector Processors in Fire Insights
      - Reads data from MongoDB
    * - Read Redshift-AWS
      - Reads data from Redshift using JDBC
+   * - Read Salesforce
+     - Reads data from Salesforce
+   * - Reads JDBC
+     - Reads data from Salesforce using cdata JDBC Driver 
    * - Save Cassandra
      - Saves the rows of the incoming DataFrame into Apache Cassandra
    * - Save ElasticSearch
@@ -40,6 +44,8 @@ Connector Processors in Fire Insights
      - Saves the incoming Dataframe into MongoDB
    * - Save Redshift-AWS
      - Saves data to Redshift using JDBC
+   * - Saves Salesforce
+     - Saves data to Salesforce
    * - Write To SnowFlake
      - Saves the rows of the incoming DataFrame into Snowflake
    * - Execute Query In SnowFlake
@@ -55,6 +61,7 @@ Connector Processors in Fire Insights
    redshift.rst
    read-databricks.rst
    write-databricks.rst
+   salesforce-jdbc.rst
    read-salesforce.rst
    write-salesforce.rst
    read-elasticsearch.rst

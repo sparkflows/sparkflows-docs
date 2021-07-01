@@ -84,7 +84,7 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
       * - URL
         - JDBC URL to connect to salesforce using cdata JDBC Driver
       * - USER
-        - USER in Salesforce
+        - USER NAME in Salesforce
       * - PASSWORD
         - PASSWORD in Salesforce
       * - DB TABLE 

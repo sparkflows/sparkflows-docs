@@ -27,3 +27,17 @@ Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, 
 .. figure:: ../../_assets/user-guide/salesforce/5.PNG
    :alt: salesforce
    :width: 90%   
+   
+Once Dowloaded completed unzip that and extract jar from file `setup.jar` and accept END USER LICENSE AGREEMENT with some required informations.   
+
+.. figure:: ../../_assets/user-guide/salesforce/6.PNG
+   :alt: salesforce
+   :width: 90%   
+
+.. figure:: ../../_assets/user-guide/salesforce/7.PNG
+   :alt: salesforce
+   :width: 90%   
+   
+.. figure:: ../../_assets/user-guide/salesforce/8.PNG
+   :alt: salesforce
+   :width: 90%      

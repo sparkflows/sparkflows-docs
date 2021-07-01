@@ -15,7 +15,7 @@ Below workflow shows the "SaveAsHIVETable" Processor. It reads Transaction Datas
 
 .. figure:: ../../_assets/tutorials/dataset/hiveflow.PNG
    :alt: Dataset
-   :width: 90%
+   :width: 70%
 
 Processor Configuration
 ----------------------

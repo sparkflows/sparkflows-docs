@@ -1,4 +1,4 @@
-Salesforce using cdata JDBC
+Salesforce using JDBC
 ===========
 
 Fire Insights enable to Read from and Write to Salesforce using cdata JDBC Driver.

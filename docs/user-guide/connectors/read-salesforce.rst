@@ -1,4 +1,4 @@
-Read Salesforce
+Read Salesforce using Spark Connector
 ===============
 
 Fire Insights enables you to read from Salesforce.

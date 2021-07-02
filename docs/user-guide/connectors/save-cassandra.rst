@@ -25,3 +25,8 @@ Below parameters are used in configuring Save Cassandra processor.
 .. figure:: ../../_assets/user-guide/cassandra/1.PNG
    :alt: cassandra
    :width: 90%         
+
+Once the workflow executed successfully, the data can be vissible in specific table of cassandra.
+
+
+.. note::  Make sure that Cassandra host URL is accessible from Fire Machine

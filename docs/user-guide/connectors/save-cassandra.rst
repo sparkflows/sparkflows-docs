@@ -1,7 +1,7 @@
 Save Cassandra
 ==============
 
-Fire Insights enables you to write to Cassandra table.
+Fire Insights enables you to write to Apache Cassandra table.
 
 Below parameters are used in configuring Save Cassandra processor.
 
@@ -26,7 +26,7 @@ Below parameters are used in configuring Save Cassandra processor.
    :alt: cassandra
    :width: 90%         
 
-Once the workflow executed successfully, the data can be vissible in specific table of cassandra.
+Once the workflow executed successfully, the data can be vissible in specific table of Apache Cassandra.
 
 
 .. note::  Make sure that Cassandra host URL is accessible from Fire Machine

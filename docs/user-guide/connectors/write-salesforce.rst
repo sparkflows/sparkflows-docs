@@ -1,4 +1,4 @@
-Save Salesforce
+Save Salesforce using Spark Connector
 ===============
 
 Fire Insights enables you to write to Salesforce.

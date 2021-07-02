@@ -156,10 +156,10 @@ font-size: 1em;
 .wy-menu-vertical li.current > a span.toctree-expand:before {
     /* content: '\f107';
     color: #404040;
-    transform: rotate(180deg);
+    transform: rotate(180deg);*/
     font-weight: bold;
-    font-size: 1.4em; */
-    content: '\f068';
+    font-size: 1.4em; 
+    content: '\2212';
     color: #2980b9;
 }
 
@@ -216,10 +216,10 @@ font-size: 1em;
 .wy-menu-vertical li span.toctree-expand:before {
     /* content: '\f107';
     color: #404040;
-    transition: all .5s;
+    transition: all .5s;*/
     font-weight: bold;
-    font-size: 1.4em; */
-    content: '\f067';
+    font-size: 1.4em; 
+    content: '\002B';
     color: #2980b9;
 }
 

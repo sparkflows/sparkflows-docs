@@ -9,7 +9,7 @@ Below are the steps for configuring Azure Key Vault.
 Go to Administration/Credential Store
 -------------
 
-Login to Fire Insights application, Go to Administration and select Credential Store.
+Login to Fire Insights application. Go to Administration and select Credential Store.
 
 .. figure:: ../../_assets/credential_store/1.PNG
    :alt: Azure Key Vault

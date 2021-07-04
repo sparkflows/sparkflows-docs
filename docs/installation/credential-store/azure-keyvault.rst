@@ -22,14 +22,14 @@ Login to Fire Insights application, Go to Administration and select Credential S
 Add Credential Store
 ------------------
 
-Click on ADD CREDENTIAL STORE tab
+Click on the ADD CREDENTIAL STORE button
 
 
 .. figure:: ../../_assets/credential_store/2.PNG
    :alt: Credential Store
    :width: 90%
 
-Add Credential Store Parameter
+Add Credential Store Parameters
 --------------------------
 
 .. list-table:: Credential Store
@@ -56,7 +56,8 @@ Add Credential Store Parameter
    :alt: Credential Store
    :width: 90%     
 
-After Adding the above parameter, you can Click on TEST CREDENTIALSTORE CONNECTION, It will shows connected to Azure KeyVault and after saving it will show in Credential Store LIst.
+After Adding the above parameters, you can Click on TEST CREDENTIAL STORE CONNECTION. It will show connected to Azure Key Vault.
+
 
 .. figure:: ../../_assets/credential_store/4.PNG
    :alt: Credential Store

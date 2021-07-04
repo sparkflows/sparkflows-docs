@@ -1,14 +1,14 @@
 Credential Store Connection
 ============================
 
-Fire Insights enable you to add connection using Credential Store.
+Fire Insights enables you to create Connection. The values in the Connections can be fetched from the Credential Stores.
 
-Below are the steps for adding connection using Credential Store.
+Below are the steps for adding connection using values from the Credential Store.
 
 Go to Administration/Global Connections
 -------------
 
-Login to Fire Insights application, Go to Administration and select Global Connections.
+Login to Fire Insights. Go to Administration and select Global Connections.
 
 .. figure:: ../../_assets/credential_store/7.PNG
    :alt: Credential Store
@@ -17,11 +17,13 @@ Login to Fire Insights application, Go to Administration and select Global Conne
 Add Connection
 -----------
 
-Click on ADD CONNECTION, Select either of two ie Add Connection For All or Add Connection For Group, depending on need.
+Click on ADD CONNECTION. Select either of the two, Add Connection For All or Add Connection For Group based on your requirements.
+
 
 .. figure:: ../../_assets/credential_store/8.PNG
    :alt: Credential Store
    :width: 90%
+   
 
 Add Connection Parameter
 --------------------------

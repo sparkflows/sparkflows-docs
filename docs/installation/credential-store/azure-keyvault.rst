@@ -15,9 +15,6 @@ Login to Fire Insights application. Go to Administration and select Credential S
    :alt: Azure Key Vault
    :width: 90%
 
-.. figure:: ../../_assets/credential_store/1.PNG
-   :alt: Azure Key Vault
-   :width: 90%
 
 Add Credential Store
 ------------------

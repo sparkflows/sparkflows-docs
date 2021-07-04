@@ -9,7 +9,7 @@ Below are the steps for configuring Azure Key Vault.
 Go to Administration/Credential Store
 -------------
 
-Login to Fire Insights application. Go to Administration and select Credential Store.
+Login to Fire Insights application as an admin user. Go to Administration and select Credential Store.
 
 .. figure:: ../../_assets/credential_store/1.PNG
    :alt: Azure Key Vault
@@ -36,24 +36,24 @@ Add Credential Store Parameters
    * - Title
      - Description
    * - STORE TYPE
-     - Select Connection Type from Drop down ie Azure KeyVault.
+     - Select Azure Key Vault
    * - STORE NAME
-     - Add any unique name.
+     - Add any unique name
    * - CLIENT ID
-     - Add Client Id for Azure account having access of KeyVault.
+     - Add Client Id for Azure account which has access to Key Vault
    * - SECRET KEY
      - Add Secret Key
    * - STORE URL
-     - Azure KeyVault URI.
+     - Azure KeyVault URI
    * - DESCRIPTION
-     - Add any description.
+     - Add any description
      
 
 .. figure:: ../../_assets/credential_store/3_a.PNG
    :alt: Credential Store
    :width: 90%     
 
-After Adding the above parameters, you can Click on TEST CREDENTIAL STORE CONNECTION. It will show connected to Azure Key Vault.
+After Adding the above parameters, you can Click on TEST CREDENTIAL STORE CONNECTION.
 
 
 .. figure:: ../../_assets/credential_store/4.PNG
@@ -63,6 +63,11 @@ After Adding the above parameters, you can Click on TEST CREDENTIAL STORE CONNEC
 .. figure:: ../../_assets/credential_store/5.PNG
    :alt: Credential Store
    :width: 90%     
+
+Credential Store Created
+------------------------
+
+Once the Credential store has been created you can view it in the list of Credential Stores.
 
 .. figure:: ../../_assets/credential_store/6.PNG
    :alt: Credential Store

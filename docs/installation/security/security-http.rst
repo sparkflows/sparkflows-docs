@@ -1,9 +1,9 @@
-Securing Port
+Securing Session
 =================
 
-Fire Insights enable you to secure the http port, As by Default its running on both ie HTTP & HTTPS.
+Fire Insights enable you to secure the http session, As by Default its running on both ie http & https.
 
-Below are steps to disbale Http port if Fire Insights already running on HTTPS
+Below are steps to disbale http session if Fire Insights already running on https
 -------------------
 
 Go to ``fire-x.y.z/conf/application.properties`` and make this two below parameter value to ``true``

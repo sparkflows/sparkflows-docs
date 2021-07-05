@@ -14,4 +14,4 @@ Go to ``fire-x.y.z/conf/application.properties`` and make this two below paramet
     server.cookie.secure=true
     
 
-.. note:: Make sure to change the default value of above parameter, By default these two value is false
+.. note:: Make sure to change the default value of above parameter to true, By default these two value is false

@@ -8,6 +8,7 @@ Security
    sharing-projects.rst
    databricks-security.rst
    admin-user.rst
+   security-http.rst
    
 
    

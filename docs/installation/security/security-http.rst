@@ -6,7 +6,7 @@ Fire Insights enable you to secure the http port, As by Default its running on b
 Below are steps to disbale Http port if Fire Insights already running on HTTPS
 -------------------
 
-Go to ``fire-x.y.z/conf/application.properties`` and make this two parameter value to ``true``
+Go to ``fire-x.y.z/conf/application.properties`` and make this two below parameter value to ``true``
 
 ::
 

@@ -19,7 +19,7 @@ scala
 Class
 --------- 
 
-fire.nodes.etl.NodeScala
+fire.nodes.code.NodeDataBricksScala
 
 Fields
 --------- 

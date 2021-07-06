@@ -45,3 +45,11 @@ Details
 This node converts text of the selected column to upper or lower case
 
 
+Examples
+-------
+
+
+
+*  Input Column Name - Select required column to change the text type.
+*  Text Case Type - Select the type (upper/lower) to change input column text type.
+*  Output Column - Type new Column name to view the new result.

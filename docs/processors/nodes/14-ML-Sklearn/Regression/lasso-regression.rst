@@ -55,7 +55,7 @@ Fields
         - 
       * - random_state
         - RandomState
-        - Default value is None i.e -1
+        - Default value is None 
       * - selection
         - Selection
         - 

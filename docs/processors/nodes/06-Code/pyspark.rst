@@ -99,3 +99,22 @@ workflowContext.outPandasDataframe(id, "Pandas DataFrame", pdf, 10)
 df = spark.createDataFrame(pdf)
 
 return df
+
+ numpy 2d array to pandas dataframe & pandas dataframe to spark dataframe
+```````````````
+
+from pyspark.sql.types import StringType
+from pyspark.sql.functions import *
+from pyspark.sql import *
+import numpy as np
+import pandas as pd
+
+from fire.workflowcontext import *
+def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: DataFrame, cust_dict):
+# Create the numpy 2d array
+example_array = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+# Convert to Pandas Dataframe
+pandas_dataframe = pd.DataFrame(example_array, columns=['a', 'b', 'c', 'd'])
+# Convert Pandas Dataframe to Spark Dataframe
+spark_dataframe = spark.createDataFrame(pandas_dataframe)
+return spark_dataframe

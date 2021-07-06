@@ -33,7 +33,7 @@ Fields
         - Description
       * - modelIdentifier
         - Model Identifier
-        - 
+        - modelIdentifier starts with $loop & columns names separated with underscore. Example: $loop_columnName1_columnName2.
       * - featuresCol
         - Features Column
         - Features column of type vectorUDT for model fitting

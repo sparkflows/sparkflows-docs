@@ -1,4 +1,4 @@
-Salesforce
+ReadSalesforce
 =========== 
 
 This node reads data from Salesforce.
@@ -23,15 +23,15 @@ Fields
       * - Name
         - Title
         - Description
-      * - sql
-        - SQL
+      * - soql
+        - SOQL
         - Sql for reading salesforce data ex - select id, name, amount from opportunity
-      * - userNmae
+      * - salesforceUsername
         - User Name
         - UserName of Salesforce
-      * - password
+      * - salesforcePassword
         - Password
-        - Password of Salesforce
+        - <password><token>, Append token to password.
       * - readOption
         - Read Option
         - Pulling data/Object from salesforce

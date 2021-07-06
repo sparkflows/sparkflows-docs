@@ -6,7 +6,7 @@ Prophet Make Future Dataframe
 Type
 --------- 
 
-ml-transformer
+transform
 
 Class
 --------- 

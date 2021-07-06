@@ -37,7 +37,7 @@ Fields
         - 
       * - max_depth
         - MaxDepth
-        - Default value is None i.e -1
+        - Default value is None
       * - min_samples_split
         - MinSamplesSplit
         - 
@@ -52,7 +52,7 @@ Fields
         - 
       * - max_leaf_nodes
         - MaxLeafNodes
-        - Default value is None i.e -1
+        - Default value is None
       * - min_impurity_decrease
         - MinImpurityDecrease
         - 
@@ -67,7 +67,7 @@ Fields
         - 
       * - random_state
         - RandomState
-        - Default value is None i.e -1
+        - Default value is None 
       * - warm_start
         - WarmStart
         - 

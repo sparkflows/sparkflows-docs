@@ -20,3 +20,4 @@
    QuantileDiscretizer.rst
    sqltransformer.rst
    stringindexer.rst
+   smote.rst

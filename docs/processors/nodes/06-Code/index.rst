@@ -13,5 +13,5 @@
    scala.rst
    pipepython.rst
    pyspark.rst
-   databrikcs_scala.rst
+   multi_input_pyspark.rst
    runhivehql.rst

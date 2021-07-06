@@ -16,3 +16,4 @@
    insertintotable.rst
    saveashivetable.rst
    saveavro.rst
+   savesalesforce.rst

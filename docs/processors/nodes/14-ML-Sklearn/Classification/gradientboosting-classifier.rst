@@ -65,9 +65,6 @@ Fields
       * - random_state
         - RandomState
         - Default value is None i.e -1
-      * - max_features
-        - MaxFeatures
-        - 
       * - verbose
         - Verbose
         - 

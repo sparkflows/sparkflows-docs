@@ -49,7 +49,7 @@ To capture result parameters there is a fieldset there.
       :alt: web-app
       :width: 90%
 
-Fieldset property name should be **parameters** and custom CSS class should be **para-field**.
+Fieldset property name should be **parameters**.
 
 .. figure:: ../../_assets/web-app/wae-result-parameters-edit1.PNG
       :alt: web-app

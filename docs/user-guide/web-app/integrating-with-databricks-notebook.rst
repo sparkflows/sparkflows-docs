@@ -137,7 +137,7 @@ Outputing Parameters
               ("text", "Region Code", ""),
              ]
 
-    restworkflowcontext.outDictionaryToTable(9, "Display Parameters In Dictionary To Table", parameters)
+    restworkflowcontext.outParameters(9, "Display Parameters In Dictionary To Table", parameters)
 
 Output Success
 ++++++++++++++

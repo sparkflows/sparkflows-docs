@@ -11,7 +11,7 @@ On Clicking on Change Workflow/Notebook icon, a pop will appear. Users can selec
 
 .. figure:: ../../_assets/web-app/wae-select-notebook.PNG
       :alt: web-app
-      :width: 50%
+      :width: 90%
 
 When users run Analytics App, they will land on the first stage.
 

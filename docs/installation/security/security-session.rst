@@ -6,7 +6,7 @@ Fire Insights enable you to secure the http session, As by Default its running o
 Below are steps to disbale http session if Fire Insights already running on https
 -------------------
 
-Go to ``fire-x.y.z/conf/application.properties`` and make this two below parameter value to ``true``
+Go to ``fire-x.y.z/conf/application.properties`` and make this below parameter value to ``true``
 
 ::
 

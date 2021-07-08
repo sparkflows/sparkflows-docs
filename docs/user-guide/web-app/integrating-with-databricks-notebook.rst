@@ -82,8 +82,7 @@ Outputing CHART
 +++++++++
 
 
-Output the chart in fire by selecting x & y column and Different type of chartType: COLUMNCHART, BARCHART & LINECHART
-
+Output the chart in fire by selecting x & y column and Different type of chartType: COLUMNCHART, BARCHART & LINECHART::
     
     from pyspark.sql.types import *
 
@@ -129,6 +128,8 @@ Below is how to output plotly to Fire Insights ::
 Outputing Parametrs in dictionary to Table
 ++++++++++++++++++++++++++++++++++++++++++
 
+::
+
     parameters = {"brand": "TEST", "month": 12, "year": 1964}
 
     restworkflowcontext.outDictionaryToTable(9, "Display Parameters In Dictionary To Table", parameters)
@@ -137,6 +138,8 @@ Outputing Parametrs in dictionary to Table
 Output Success
 ++++++++++++++
 
+::
+
     message = "Sending the success message."
     
     restworkflowcontext.outSuccess(9, title="Success", text=message)
@@ -144,12 +147,16 @@ Output Success
 Output Failure
 ++++++++++++++
     
+::
+
     message = "Sending the failure message."
     
     restworkflowcontext.outFailure(9, title="Failure", text=message)
     
 Output Running
 ++++++++++++++
+
+::
 
     message = "Sending the running message."
     

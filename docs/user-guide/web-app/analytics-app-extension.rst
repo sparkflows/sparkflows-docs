@@ -64,3 +64,18 @@ The next stage is final execution. Users would click Run to execute this stage. 
 .. figure:: ../../_assets/web-app/wae-final-execution.PNG
       :alt: web-app
       :width: 90%
+      
+      
+.. note::  
+
+   1. The Fieldset for displaying the parameters to the user can be in a separate Parameters Stage, or it can also be in the next Run Stage.
+   2. The Fieldset has to be in the page immediately after the first Run Stage.
+   3. There can be any number of Run Stages.
+   
+   
+   
+   
+   
+   
+
+      

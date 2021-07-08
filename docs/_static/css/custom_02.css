@@ -228,7 +228,7 @@ font-size: 1em;
 }
 .wy-menu-vertical li span.toctree-expand{
     /* float: right; */
-    margin-left: 5px;
+    margin-left: 0;
     margin-right: 5px;
 }
 /* .section {

@@ -129,11 +129,15 @@ Outputing Parameters
 +++++++++++++++++++++
 
 ::
-
-    parameters = {"brand": "TEST", "month": 12, "year": 1964}
+    
+    parameters = [("radio", "Industries", "Natural Resources, Construction, IT, Services, Finance, Real Estate, Others"), 
+              ("checkbox", "Education, Position", "Graduate, Manager"),
+              ("select", "Select country", "INDIA, USA, UK, Germany"),
+              ("textarea", "Province", ""),
+              ("text", "Region Code", ""),
+             ]
 
     restworkflowcontext.outDictionaryToTable(9, "Display Parameters In Dictionary To Table", parameters)
-
 
 Output Success
 ++++++++++++++

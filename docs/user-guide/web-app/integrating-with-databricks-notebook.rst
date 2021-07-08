@@ -125,8 +125,8 @@ Below is how to output plotly to Fire Insights ::
     
 
 
-Outputing Parametrs in dictionary to Table
-++++++++++++++++++++++++++++++++++++++++++
+Outputing Parameters
++++++++++++++++++++++
 
 ::
 

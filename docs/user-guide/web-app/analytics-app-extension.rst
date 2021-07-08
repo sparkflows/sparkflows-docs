@@ -33,7 +33,7 @@ There is a change in the next button on the run stage. Its API property name sho
 
 After execution workflow or notebook return results with some parameters.
 
-.. figure:: ../../_assets/web-app/wae-execution-result-parmeters.png
+.. figure:: ../../_assets/web-app/wae-execution-result-parameters.png
       :alt: web-app
       :width: 90%
 

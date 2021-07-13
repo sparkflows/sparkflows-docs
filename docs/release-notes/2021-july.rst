@@ -4,9 +4,9 @@ July 2021
 Integration with Github
 ------------------
 - Ability to integrate with Github repos
-- Import projects with worklflows from integrated repos or any other repos.
-- Push workflows to integarted repo url through token or username/password.
-- Compare worklows which has been last pushed to git and latest workflow changes. 
+- Import project with workflows from integrated repos or any other repos.
+- Push workflows to integrated repo url through token or username/password.
+- Compare workflows which has been last pushed to git and latest workflow changes. 
 
 Improvements in UI 
 -------------------

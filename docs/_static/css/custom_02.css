@@ -81,7 +81,7 @@ p{
 .wy-menu-vertical li.current a {
     color: #404040;
     border-right: 0;
-    padding: .8em 1em .8em 2.427em;
+    padding: .8em 1em .8em 2.8em;
 }
 .wy-menu-vertical li.current,
 .wy-menu-vertical li.toctree-l2.current > a {
@@ -197,19 +197,19 @@ font-size: 1em;
 }
 
 .wy-menu-vertical a {
-    padding: .8em 1em;
+    padding: .8em 1em .8em 1.8em;
 }
 .wy-menu-vertical li.toctree-l2.current>a {
-    padding: .8em 1em .8em 2.427em;
+    padding: .8em 1em .8em 2.8em;
 }
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a, .wy-menu-vertical li.toctree-l3.current>a {
-    padding: .8em 1em .8em 4.045em;
+    padding: .8em 1em .8em 3.8em;
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a, .wy-menu-vertical li.toctree-l4.current>a {
-    padding: .8em 1em .8em 5.663em;
+    padding: .8em 1em .8em 4.8em;
 }
 .wy-menu-vertical li.current>a, .wy-menu-vertical li.on a {
-    padding: .8em 1em;
+    padding: .8em 1em .8em 1.8em;
 }
 
 .fa-plus-square-o:before,
@@ -228,7 +228,7 @@ font-size: 1em;
 }
 .wy-menu-vertical li span.toctree-expand{
     /* float: right; */
-    margin-left: 0;
+    margin-left: -13px;
     margin-right: 5px;
 }
 /* .section {

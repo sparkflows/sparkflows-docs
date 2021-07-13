@@ -21,7 +21,7 @@ Import project fom configured Git repo
 
 - Select ``IMPORT FROM GLOBAL REPO``.
 - Select the ``Branch``.
-- Provide git root folder and click button next to it to load projects.
+- Provide root folder path(if not added it will get link with path added in config) and click button next to it to load projects.
 - You will get the project list of the selected branch and provided root folder path.
 - Select the ``Project``.
 - Provide description of the project.
@@ -39,7 +39,7 @@ Import project fom other Git repo
 - Select ``IMPORT FROM OTHER REPO``.
 - Provide the url of other Git repo, all branches of provided git url get loaded below.
 - Select the ``Branch``.
-- Provide git root folder and click button next to it to load projects.
+- Provide root folder path(if not added it will get link with path added in config) and click button next to it to load projects.
 - You will get the project list of the selected branch and provided root folder path.
 - Select the ``Project``.
 - Provide description of the project.

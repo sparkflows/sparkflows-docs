@@ -12,7 +12,8 @@ Existing Branch
 
 - Click on ``EXISTING BRANCH`` option.
 - Branch list present in configured repo comes up.
-- Select branch from list and link project with git.
+- Select branch from list and provide root folder path(if not added it will get link with path added in config).
+- link project with git.
 
 .. figure:: ../../_assets/git/link-project-existing-branch.png
    :alt: link-with-git
@@ -22,7 +23,7 @@ Create New Branch
 ----------------------
 
 - Click on ``CREATE NEW BRANCH`` option.
-- Add NEW BRANCH NAME and ORIGIN.
+- Add NEW BRANCH NAME, ORIGIN and root folder path(if not added it will get link with path added in config).
 - When you click on link button in this option it will first create branch with specified NEW BRANCH NAME. New branch is updated with specified ORIGIN.
 
 .. figure:: ../../_assets/git/link-project-new-branch.png

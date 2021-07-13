@@ -13,6 +13,7 @@ Databricks Guide
    troubleshooting.rst
    superset-databricks.rst
    azure_integration.rst
+   databricks-execute-workflow-json.rst
    
    
 

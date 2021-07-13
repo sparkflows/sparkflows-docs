@@ -10,6 +10,6 @@ Integration with Github
 
 Improvements in UI 
 -------------------
-- Added ui setting i.e ``uiSettings.enableDownloadDataAsCsv`` in configuration to download data from datasets in csv format.
+- Added ui setting i.e ``uiSettings.enableDownloadDataAsCsv`` in configuration.
 - Where user can set value ``true`` or ``false`` by default it's value is false.
 - To enable download data as CSV,  added buttons in the table widget execution result and in sample data in view/edit dataset.

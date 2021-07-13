@@ -15,11 +15,6 @@ Extensions to Analytics App
 - Each of the Run Stage can execute a different Notebook/Workflow
 - Parameters generated in a Run, would be passed on to the subsequent Run Stage
 
-Integration with Github
------------------------
-
-- Ability to integrate with Github repos
-
 Installer
 ---------
 

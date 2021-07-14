@@ -34,7 +34,7 @@ New Nodes Added
 - Histogram node in Pyspark
 - Drop Duplicate Rows node in Pyspark
 - Cross-validation node in Pyspark Engine
-
+- Allow string columns in group by node
 
 Ability to view the file when selecting the file in the CSV node
 ++++++++++++

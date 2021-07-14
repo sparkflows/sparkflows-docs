@@ -34,3 +34,8 @@ New Nodes Added
 - Cross-validation node in Pyspark Engine
 
 
+Ability to view the file when selecting the file in the CSV node
+++++++++++++
+
+- Ability to view the file content when selecting the file in the CSV nodee.
+

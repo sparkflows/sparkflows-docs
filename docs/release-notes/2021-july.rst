@@ -1,6 +1,11 @@
 July 2021
 =========
 
+Analytics App
+--------------
+
+- Enhancements to help in the Analytics App Page
+
 Integration with Github
 ------------------
 
@@ -11,25 +16,25 @@ Integration with Github
 
 
 Ability to Download Results as CSV files
-++++++++
+--------
 
 - Added ui setting i.e ``uiSettings.enableDownloadDataAsCsv`` in configuration.
 - Where user can set value ``true`` or ``false`` by default it's value is false.
 - To enable download data as CSV,  added buttons in the table widget execution result and in sample data in view/edit dataset.
 
 View workflow and output results together
-+++++++++++
+--------
 
 - Ability to view the workflow and the output results together
 - Users can click on any node to view it output
 
 Ability to Run Fire Insights Jobs Independently
-+++++++++++
+--------
 
 - Ability to Run the Fire Insights Jobs without having Fire Insights installed
 
 New Nodes Added
-+++++++++++
+---------
 
 - Histogram node in Pyspark
 - Drop Duplicate Rows node in Pyspark
@@ -37,19 +42,19 @@ New Nodes Added
 - Allow string columns in group by node
 
 Ability to view the file when selecting the file in the CSV node
-++++++++++++
+-----------
 
 - Ability to view the file content when selecting the file in the CSV nodee.
 
 
 Ability to Rename files in the DBFS page
-++++++++++
+-----------
 
 - Users can now rename the files in the DBFS browser page.
 
 
 Better display of the size of the file
-++++++++++
+----------
 
 - Display of the file size in bytes
 

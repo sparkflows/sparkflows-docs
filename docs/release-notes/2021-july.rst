@@ -3,6 +3,7 @@ July 2021
 
 Integration with Github
 ------------------
+
 - Ability to integrate with Github repos
 - Import project with workflows from integrated repos or any other repos.
 - Push workflows to integrated repo url through token or username/password.
@@ -10,6 +11,28 @@ Integration with Github
 
 Improvements in UI 
 -------------------
+
+Ability to Download Results as CSV files
+++++++++
+
 - Added ui setting i.e ``uiSettings.enableDownloadDataAsCsv`` in configuration.
 - Where user can set value ``true`` or ``false`` by default it's value is false.
 - To enable download data as CSV,  added buttons in the table widget execution result and in sample data in view/edit dataset.
+
+View workflow and output results together
++++++++++++
+
+- Ability to view the workflow and the output results together
+- Users can click on any node to view it output
+
+Ability to Run Fire Insights Jobs Independently
++++++++++++
+
+- Ability to Run the Fire Insights Jobs without having Fire Insights installed
+
+New Nodes Added
++++++++++++
+
+- Cross-validation node in Pyspark Engine
+
+

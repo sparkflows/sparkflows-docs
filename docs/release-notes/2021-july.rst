@@ -31,6 +31,8 @@ Ability to Run Fire Insights Jobs Independently
 New Nodes Added
 +++++++++++
 
+- Histogram node in Pyspark
+- Drop Duplicate Rows node in Pyspark
 - Cross-validation node in Pyspark Engine
 
 

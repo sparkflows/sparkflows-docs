@@ -46,3 +46,9 @@ Ability to Rename files in the DBFS page
 - Users can now rename the files in the DBFS browser page.
 
 
+Better display of the size of the file
+++++++++++
+
+- Display of the file size in bytes
+
+

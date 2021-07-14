@@ -9,8 +9,6 @@ Integration with Github
 - Push workflows to integrated repo url through token or username/password.
 - Compare workflows which has been last pushed to git and latest workflow changes. 
 
-Improvements in UI 
--------------------
 
 Ability to Download Results as CSV files
 ++++++++

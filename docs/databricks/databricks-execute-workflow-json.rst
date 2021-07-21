@@ -25,7 +25,29 @@ Suppose the workflow json is available at dbfs:/workflows/test_csv_scala.json
 
 In order to execute it, create a Notebook with the below code::
 
-    ...
+    Create Input Parameters
+    
+    dbutils.widgets.text("job-id", "100")
+    dbutils.widgets.text("postback-url", "")
+    dbutils.widgets.text("workflowJsonPath", "dbfs:/workflows/Join_Workflow.json")
+    dbutils.widgets.text("programParameters", "")
+    
+::
+
+    Get the values of Input Parameters
+    
+    val jobId = dbutils.widgets.get("job-id")
+    val webserverURL = dbutils.widgets.get("postback-url")
+    val workflowJsonPath = dbutils.widgets.get("workflowJsonPath")
+    val programParameters = dbutils.widgets.get("programParameters")
+    
+::
+
+    Import the WorkflowExecuteDatabricks. Create the array of input parametrs with postback-url, job-id, workflow-json-path, debug-mode. Exeute the workflow, by calling main function.
+    
+    import fire.execute.WorkflowExecuteDatabricks
+    val args: Array[String] = Array(webserverURL, jobId, workflowJsonPath, "true")
+    WorkflowExecuteDatabricks.main(args)
 
 Running Pyspark Workflows
 ----------

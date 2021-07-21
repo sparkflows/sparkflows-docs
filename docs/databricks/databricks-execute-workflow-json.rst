@@ -85,6 +85,16 @@ In order to execute it, create a Notebook with the below code::
     print("webserverURL: "+webserverURL)
     print("workflowJsonPath: "+workflowJsonPath)
     print("programParameters: "+programParameters)
+
+::
+
+    # Import the WorkflowExecuteDatabricks and call the execute method by passing parmaters.
     
+    from fire.databricks.workflow_execute import WorkflowExecuteDatabricks
+    debug = False
+    username = ""
+    WorkflowExecuteDatabricks.execute(webserverURL = webserverURL, jobId = jobId, 
+                                      workflowJsonPath = workflowJsonPath, debug = debug, username = username,
+                                      program_parameters = programParameters)
     
     

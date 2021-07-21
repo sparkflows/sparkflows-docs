@@ -21,7 +21,7 @@ Upload the needed library:
 
   * Upload fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-Suppose the workflow json is available at dbfs:/workflows/test_csv_scala.json
+Suppose the workflow json is available at ``dbfs:/workflows/test_csv_scala.json``
 
 In order to execute it, create a Notebook with the below code::
 
@@ -58,7 +58,7 @@ Upload the needed files and libraries:
     
 Run the workflow:
 
-Suppose the workflow json is available at dbfs:/workflows/Join_Workflow.json
+Suppose the workflow json is available at ``dbfs:/workflows/Join_Workflow.json``
 
 In order to execute it, create a Notebook with the below code::
 

@@ -99,4 +99,5 @@ In order to execute it, create a Notebook with the below code::
                                       workflowJsonPath = workflowJsonPath, debug = debug, username = username,
                                       program_parameters = programParameters)
     
-    
+ 
+ .. note::  Make sure to verify if workflow json path in dbfs is accessible

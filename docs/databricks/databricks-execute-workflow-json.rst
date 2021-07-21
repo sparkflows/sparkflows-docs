@@ -79,5 +79,13 @@ In order to execute it, create a Notebook with the below code::
     workflowJsonPath = dbutils.widgets.get("workflowJsonPath")
     programParameters = dbutils.widgets.get("programParameters")
     
+::
+
+    # Print the Input Parameters
+    print("jobId: "+jobId)
+    print("webserverURL: "+webserverURL)
+    print("workflowJsonPath: "+workflowJsonPath)
+    print("programParameters: "+programParameters)
+    
     
     

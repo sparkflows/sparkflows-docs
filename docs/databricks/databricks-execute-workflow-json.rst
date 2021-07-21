@@ -55,8 +55,7 @@ Running Pyspark Workflows
 Upload the needed files and libraries:
 
   * Upload fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
-  * Upload fire-x.y.z/dist/workflowexecutedatabricks.py, file to DBFS.
-  
+    
 Run the workflow:
 
 Suppose the workflow json is available at dbfs:/workflows/Join_Workflow.json

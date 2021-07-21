@@ -72,7 +72,7 @@ In order to execute it, create a Notebook with the below code::
     
 ::
 
-    Get the values of Input Parameters
+    # Get the values of Input Parameters
     
     jobId = dbutils.widgets.get("job-id")
     webserverURL = dbutils.widgets.get("postback-url")

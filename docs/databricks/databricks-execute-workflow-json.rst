@@ -43,7 +43,7 @@ In order to execute it, create a Notebook with the below code::
     
 ::
 
-    # Import the WorkflowExecuteDatabricks. Create the array of input parametrs with postback-url, job-id, workflow-json-path, debug-mode. Exeute the workflow, by calling main function.
+    # Import the WorkflowExecuteDatabricks, Create the array of input parametrs with postback-url, job-id, workflow-json-path, debug-mode. Exeute the workflow, by calling main function.
     
     import fire.execute.WorkflowExecuteDatabricks
     val args: Array[String] = Array(webserverURL, jobId, workflowJsonPath, "true")

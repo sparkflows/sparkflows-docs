@@ -29,7 +29,7 @@ In order to execute it, create a Notebook with the below code::
     
     dbutils.widgets.text("job-id", "100")
     dbutils.widgets.text("postback-url", "")
-    dbutils.widgets.text("workflowJsonPath", "dbfs:/workflows/Join_Workflow.json")
+    dbutils.widgets.text("workflowJsonPath", "dbfs:/workflows/test_csv_scala.json")
     dbutils.widgets.text("programParameters", "")
     
 ::

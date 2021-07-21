@@ -102,4 +102,4 @@ In order to execute it, create a Notebook with the below code::
     
  
  
-.. note::  Make sure to verify if workflow json path in dbfs is accessible
+.. note::  Make sure to verify if workflow json path in dbfs is accessible and above Notebook is attached to Databricks Cluster with required library

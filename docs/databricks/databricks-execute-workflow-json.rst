@@ -59,11 +59,25 @@ Upload the needed files and libraries:
   
 Run the workflow:
 
-Suppose the workflow json is available at dbfs://FileStore/wf/wf_pyspark.json
+Suppose the workflow json is available at dbfs:/workflows/Join_Workflow.json
 
 In order to execute it, create a Notebook with the below code::
 
-    ...
+    # Create Input Parameters
+    
+    dbutils.widgets.text("job-id", "100")
+    dbutils.widgets.text("postback-url", "")
+    dbutils.widgets.text("workflowJsonPath", "dbfs:/workflows/Join_Workflow.json")
+    dbutils.widgets.text("programParameters", "")
+    
+::
+
+    Get the values of Input Parameters
+    
+    jobId = dbutils.widgets.get("job-id")
+    webserverURL = dbutils.widgets.get("postback-url")
+    workflowJsonPath = dbutils.widgets.get("workflowJsonPath")
+    programParameters = dbutils.widgets.get("programParameters")
     
     
     

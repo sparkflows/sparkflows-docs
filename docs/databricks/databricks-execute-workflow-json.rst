@@ -19,9 +19,9 @@ Running Scala Workflows
 
 Upload the needed library:
 
-  * Upload fire-x.y.z/fire-core-lib/fire-spark_2_3-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workspace as a Library on to Databricks.
+  * Upload fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-Suppose the workflow json is available at dbfs://FileStore/wf/wf_spark.json
+Suppose the workflow json is available at dbfs:/workflows/test_csv_scala.json
 
 In order to execute it, create a Notebook with the below code::
 

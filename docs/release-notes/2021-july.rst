@@ -36,6 +36,8 @@ Ability to Run Fire Insights Jobs Independently
 New Nodes Added
 ---------
 
+- Summary Statistics node in Pyspark
+- Correlation Node in Pyspark
 - Histogram node in Pyspark
 - StandardScaler node in Pyspark
 - Drop Duplicate Rows node in Pyspark

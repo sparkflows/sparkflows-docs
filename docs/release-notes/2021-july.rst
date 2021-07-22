@@ -37,6 +37,7 @@ New Nodes Added
 ---------
 
 - Histogram node in Pyspark
+- StandardScaler node in Pyspark
 - Drop Duplicate Rows node in Pyspark
 - Cross-validation node in Pyspark Engine
 - Allow string columns in group by node

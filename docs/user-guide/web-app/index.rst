@@ -32,9 +32,10 @@ Analytical Apps User Guide
 
    creating-anlaytics-app.rst
    adding-stages/index.rst
+   analytics-app-extension.rst
    integrating-with-databricks-notebook.rst
    running-analytics-app.rst
-   analytics-app-extension.rst
+
    
 
 

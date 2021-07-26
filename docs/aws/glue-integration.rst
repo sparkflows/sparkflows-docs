@@ -156,7 +156,7 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 
 1. Go to the AWS Glue Console, select Jobs in left menu and click on the Add job button.
 
-.. figure:: ..//_assets/aws/glue/job.png
+.. figure:: ..//_assets/aws/glue/job_1.PNG
    :alt: aws
    :width: 60%
 

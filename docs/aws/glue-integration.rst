@@ -77,3 +77,6 @@ You now create an Amazon IAM Role which the AWS Glue Job will use for the author
 
 4. On the next screen, click on the Next: Review button.
 
+5. On the next screen, enter the Role name and click on the Create role button.
+
+6. The role is created in no time.

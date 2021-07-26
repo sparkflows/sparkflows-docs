@@ -7,7 +7,7 @@ Fire Insights can be configured to submit jobs to the AWS Glue cluster.
 Architecture diagram
 ----------
 
-.. figure:: ../..//_assets/aws/glue/architecture.png
+.. figure:: ..//_assets/aws/glue/architecture.png
    :alt: aws
    :width: 60%
 

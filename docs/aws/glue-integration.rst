@@ -41,3 +41,9 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 .. figure:: ..//_assets/aws/glue/vpc_wizard.png
    :alt: aws
    :width: 60%
+
+4. On the next screen, select VPC with Public and Private Subnets choice and click on the Select button.
+
+.. figure:: ..//_assets/aws/glue/vpc_configuration.png
+   :alt: aws
+   :width: 60%

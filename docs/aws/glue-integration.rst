@@ -32,6 +32,8 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 
 2. On the next screen, click on the Allocate button. An Elastic IP address is created which you will use for the NAT Gateway when creating the VPC.
 
+3. Enter Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
+
 .. figure:: ..//_assets/aws/glue/ip_pool.png
    :alt: aws
    :width: 60%
@@ -96,5 +98,11 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 1. Go to the AWS Glue Console, select Connections in left menu and click on the Add connection button.
 
 .. figure:: ..//_assets/aws/glue/connection.png
+   :alt: aws
+   :width: 60%
+
+2. Enter Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
+
+.. figure:: ..//_assets/aws/glue/add_connection.PNG
    :alt: aws
    :width: 60%

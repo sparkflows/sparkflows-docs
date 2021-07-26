@@ -53,3 +53,5 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 .. figure:: ..//_assets/aws/glue/vpc_public.png
    :alt: aws
    :width: 60%
+
+6. The VPC will be created in couple of minutes. Please wait for it to finish. You will use VPC private subnet and the default security group later to create ENI to call the REST API using AWS Glue Connection.

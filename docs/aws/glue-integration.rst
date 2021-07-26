@@ -112,3 +112,9 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 .. figure:: ..//_assets/aws/glue/vpc_connection.PNG
    :alt: aws
    :width: 60%
+
+4. On the next screen, click on the Finish button. It will create the network type connection. Select the connection and click on the Test connection button to test the connection.
+
+.. figure:: ..//_assets/aws/glue/connection_success.PNG
+   :alt: aws
+   :width: 60%

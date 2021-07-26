@@ -180,3 +180,11 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 
 5. On sucessful execution, you will able to see count of Fire Insights Processors running on Fire machine, you may validate validate it from Fire Insights UI too.
 
+.. figure:: ..//_assets/aws/glue/api_response.PNG
+   :alt: aws
+   :width: 60%
+   
+
+.. figure:: ..//_assets/aws/glue/validation_fire.PNG
+   :alt: aws
+   :width: 60%

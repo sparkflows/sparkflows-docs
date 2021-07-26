@@ -11,7 +11,7 @@ Architecture diagram
    :alt: aws
    :width: 60%
 
-Below are the steps for configuring Fire Insights for AWS Glue.
+Below are the steps for AWS Glue Network Connection to call Fire Insights APIs in Aws Glue Jobs.
 
 Configuration
 -------------

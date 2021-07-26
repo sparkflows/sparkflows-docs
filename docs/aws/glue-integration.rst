@@ -171,3 +171,9 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 .. figure:: ..//_assets/aws/glue/job_connection.PNG
    :alt: aws
    :width: 60%   
+
+4. On the next screen, copy paste the python code to access Fire Insights REST API
+
+.. figure:: ..//_assets/aws/glue/python_editor.PNG
+   :alt: aws
+   :width: 60%

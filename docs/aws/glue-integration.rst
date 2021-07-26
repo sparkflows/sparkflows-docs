@@ -87,3 +87,14 @@ Create S3 Bucket
 You will create an Amazon S3 bucket which serves many purposes. It will be used to store Python script for the AWS Glue job. It will also be used by AWS Glue job to copy data returned by the REST API call.
 
 1. Go to the S3 Management Console and create a S3 bucket. Please make sure you select the region of the bucket the same as the VPC created in the previous steps. If this bucket name is not available, kindly use another bucket name and make note of the name as you will need it for the configuration and scripting purposes.
+
+Create Glue Connection
+-----------------
+
+Creating AWS Glue Connection is a very important step in completing this exercise. The connection is used to create an ENI in the private subnet of the VPC. AWS Glue job uses ENI to make call to the internet based REST API. The connection type used is Network.
+
+1. Go to the AWS Glue Console, select Connections in left menu and click on the Add connection button.
+
+.. figure:: ..//_assets/aws/glue/connection.png
+   :alt: aws
+   :width: 60%

@@ -148,3 +148,14 @@ Now since Fire Insights is running on other vpc, so you can use vpc peering conn
 .. figure:: ..//_assets/aws/glue/peering_connection_list.PNG
    :alt: aws
    :width: 60%
+
+Create Glue Job
+----------------
+
+You are now ready to create the AWS Glue job which calls the Fire Insights REST API and copies the output data in the Amazon S3 bucket.
+
+1. Go to the AWS Glue Console, select Jobs in left menu and click on the Add job button.
+
+.. figure:: ..//_assets/aws/glue/job.png
+   :alt: aws
+   :width: 60%

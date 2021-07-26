@@ -13,22 +13,19 @@ Architecture diagram
 
 Below are the steps for AWS Glue Network Connection to call Fire Insights APIs in Aws Glue Jobs.
 
-Configuration
--------------
+pre-requisite
+--------
 
-In Administration/Configuration/AWS Glue configure the following parameters:
+You need to have an AWS account with administrative access.
 
-* Glue URL
+Create-vpc
+------
+
+You first create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over internet.
+
+1. Login to the AWS Console. Select an AWS Region of your choice where AWS Glue is available as a service. You will see the exercise instructions using the Paris region. Go to the VPC Management Console. Click on the Elastic IPs menu item in the left and then click on the Allocate Elastic IP address button.
 
 
-Network Configuration
-------------------
-
-The following Network Configuration are needed.
-
-
-Execution
----------
-
-Now when workflows are executed in Fire Insights, they submit the jobs onto AWS Glue. The results are displayed back in Fire Insights.
-
+.. figure:: ..//_assets/aws/glue/vpc.png
+   :alt: aws
+   :width: 60%

@@ -177,3 +177,6 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 .. figure:: ..//_assets/aws/glue/python_editor.PNG
    :alt: aws
    :width: 60%
+
+5. On sucessful execution, you will able to see count of Fire Insights Processors running on Fire machine, you may validate validate it from Fire Insights UI too.
+

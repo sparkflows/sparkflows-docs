@@ -106,3 +106,9 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 .. figure:: ..//_assets/aws/glue/add_connection.PNG
    :alt: aws
    :width: 60%
+
+3. On the next screen, you select GlueVPC as the VPC. Select Private Subnet for the Subnet. Select the default Security Group. Finally click on the Next button.
+
+.. figure:: ..//_assets/aws/glue/vpc_connection.PNG
+   :alt: aws
+   :width: 60%

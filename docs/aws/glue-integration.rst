@@ -118,3 +118,9 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 .. figure:: ..//_assets/aws/glue/connection_success.PNG
    :alt: aws
    :width: 60%
+
+5. On the popup screen, select the role specified and specific s3 bucket, then use that one. Click on the Test connection button.
+
+.. figure:: ..//_assets/aws/glue/test_connection.PNG
+   :alt: aws
+   :width: 60%

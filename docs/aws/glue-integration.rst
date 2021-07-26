@@ -143,7 +143,7 @@ Now since Fire Insights is running on other vpc, so you can use vpc peering conn
    :width: 60%
    
 
-2. on successful creation, you will able to see peering connection with status active.
+2. on successful creation, you will able to see peering connection with Status active.
 
 .. figure:: ..//_assets/aws/glue/peering_connection_list.PNG
    :alt: aws

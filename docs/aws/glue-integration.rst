@@ -55,3 +55,14 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
    :width: 60%
 
 6. The VPC will be created in couple of minutes. Please wait for it to finish. You will use VPC private subnet and the default security group later to create ENI to call the REST API using AWS Glue Connection.
+
+Create IAM Role
+------------
+
+You now create an Amazon IAM Role which the AWS Glue Job will use for the authorization to perform the task.
+
+1. Go to the IAM Management Console. Click on the Roles menu item in the left and then click on the Create role button.
+
+.. figure:: ..//_assets/aws/glue/roles.png
+   :alt: aws
+   :width: 60%

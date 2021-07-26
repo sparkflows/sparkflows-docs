@@ -29,3 +29,9 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 .. figure:: ..//_assets/aws/glue/vpc.png
    :alt: aws
    :width: 60%
+
+2. On the next screen, click on the Allocate button. An Elastic IP address is created which you will use for the NAT Gateway when creating the VPC.
+
+.. figure:: ..//_assets/aws/glue/ip_pool.png
+   :alt: aws
+   :width: 60%

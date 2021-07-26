@@ -74,3 +74,6 @@ You now create an Amazon IAM Role which the AWS Glue Job will use for the author
 .. figure:: ..//_assets/aws/glue/role_admin.png
    :alt: aws
    :width: 60%
+
+4. On the next screen, click on the Next: Review button.
+

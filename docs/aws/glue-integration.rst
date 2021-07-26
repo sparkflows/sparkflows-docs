@@ -124,3 +124,9 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 .. figure:: ..//_assets/aws/glue/test_connection.PNG
    :alt: aws
    :width: 60%
+
+6. The connection test will take some time. Wait till the test status is shown as successful.
+
+.. figure:: ..//_assets/aws/glue/success_test_connection.PNG
+   :alt: aws
+   :width: 60%

@@ -47,3 +47,9 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 .. figure:: ..//_assets/aws/glue/vpc_configuration.png
    :alt: aws
    :width: 60%
+
+5. On the next screen, enter GlueVPC as the VPC Name and select the Elastic IP address (created in the previous steps) for the Elastic IP Allocation ID field. Keep rest of the values as default and click on the Create VPC button.
+
+.. figure:: ..//_assets/aws/glue/vpc_public.png
+   :alt: aws
+   :width: 60%

@@ -80,3 +80,10 @@ You now create an Amazon IAM Role which the AWS Glue Job will use for the author
 5. On the next screen, enter the Role name and click on the Create role button.
 
 6. The role is created in no time.
+
+Create S3 Bucket
+--------------
+
+You will create an Amazon S3 bucket which serves many purposes. It will be used to store Python script for the AWS Glue job. It will also be used by AWS Glue job to copy data returned by the REST API call.
+
+1. Go to the S3 Management Console and create a S3 bucket. Please make sure you select the region of the bucket the same as the VPC created in the previous steps. If this bucket name is not available, kindly use another bucket name and make note of the name as you will need it for the configuration and scripting purposes.

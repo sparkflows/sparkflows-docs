@@ -165,7 +165,9 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 .. figure:: ..//_assets/aws/glue/glue_job_process.PNG
    :alt: aws
    :width: 60%
-   
+
+3. On the next screen, select your connection. By associating the job with the connection, you are allowing the job to use the ENI created by the connection in the private subnet. Click on the Save job and edit script button.
+
 .. figure:: ..//_assets/aws/glue/job_connection.PNG
    :alt: aws
    :width: 60%   

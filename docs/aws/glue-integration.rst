@@ -66,3 +66,11 @@ You now create an Amazon IAM Role which the AWS Glue Job will use for the author
 .. figure:: ..//_assets/aws/glue/roles.png
    :alt: aws
    :width: 60%
+
+2. Select Glue as the AWS Service on the next screen and click the Next: Permissions button.
+
+3. On the next screen, select AdministratorAccess as the policy and click on the Next: Tags button. In actual production use, you will not use administrative access permission.
+
+.. figure:: ..//_assets/aws/glue/role_admin.png
+   :alt: aws
+   :width: 60%

@@ -159,3 +159,13 @@ You are now ready to create the AWS Glue job which calls the Fire Insights REST 
 .. figure:: ..//_assets/aws/glue/job.png
    :alt: aws
    :width: 60%
+
+2. On the next screen, Enter job name, select specific role as the IAM Role, select Python shell as the Type, select A new script to be authored by you option and select specific s3 bucket for the S3 path where the script is stored field. Click on the Next button.
+
+.. figure:: ..//_assets/aws/glue/glue_job_process.PNG
+   :alt: aws
+   :width: 60%
+   
+.. figure:: ..//_assets/aws/glue/job_connection.PNG
+   :alt: aws
+   :width: 60%   

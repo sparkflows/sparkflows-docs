@@ -35,3 +35,9 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 .. figure:: ..//_assets/aws/glue/ip_pool.png
    :alt: aws
    :width: 60%
+
+3. On the VPC Management Console and click on the Launch VPC Wizard button.
+
+.. figure:: ..//_assets/aws/glue/vpc_wizard.png
+   :alt: aws
+   :width: 60%

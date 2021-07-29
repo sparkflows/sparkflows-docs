@@ -12,6 +12,7 @@ FAQ
    05-submit-jobs.rst
    06-multi-user.rst
    07-data-sources.rst
+   08-workflow-execution.rst
    hadoop-installation-prerequisites.rst
    
    

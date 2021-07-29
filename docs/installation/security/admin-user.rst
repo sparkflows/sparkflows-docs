@@ -58,7 +58,7 @@ In Fire Insights generally the below permissions are associated with Admin featu
 - roles.manage
 - configurations.manage
 
-An admin user in Fire Insights is one who has users.manage permission.
+An admin user in Fire Insights is one who has ``users.manage permission``.
 
 Admin User Rights
 -----------------
@@ -83,12 +83,11 @@ Projects/Data etc
 As regards to Projects, the Admin user can do the following:
 
 - View all the Projects
-- View the executions of all the workflows
+- View the executions of all the Workflows
 - View the executions of all the Analytical Apps
 
-- Onboarding Analytics Apps for a Customer
-    - Who creates that Project which will hold the Analytics App? Admin user. Now the admin user becomes the owner of that Project and be able to see everything.
-    - Who shares that project with the Group of the Customer? Admin user.
+- Create Analytics App in any Project
+
 
 Deleting Users/Groups
 ++++++++++++++++++++

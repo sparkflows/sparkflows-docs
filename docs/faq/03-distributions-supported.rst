@@ -1,16 +1,16 @@
 Distributions Supported
 -----------------------
 
-What distributions or platforms are supported with Sparkflows?
+What distributions or platforms are supported with Fire Insights?
 ===========
 
-Sparkflows Fire has been tested with CDH, Hortonworks, MapR, AWS EMR, Apache Spark distributions.
+Fire Insights has been tested with Databricks, CDH, Hortonworks, MapR, AWS EMR, Apache Spark distributions.
  
-Note: Any cluster with Apache Spark 1.6+ will work fine with Sparkflows.
+Note: Any cluster with Apache Spark 2.3+ will work good with Fire Insights.
 
 
-Can I run Sparkflows on my Amazon AWS cluster or Microsoft Azure or Google Cloud?
+Can I run Fire Insights on my Amazon AWS cluster or Microsoft Azure or Google Cloud?
 ===========
 
-Yes, all Sparkflows needs for successful deployment is a Apache Spark cluster. Sparkflows is deployed on the edge node of the cluster.
+Yes, all Fire Insights needs for successful deployment is a Apache Spark cluster.
 

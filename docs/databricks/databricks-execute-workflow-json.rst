@@ -1,11 +1,17 @@
-Executing from workflow JSON
+Executing workflow without Fire Insights
 ==================
 
-The workflow in Fire Insights can be exported as JSON files.
+The workflows created in Fire Insights can be executed on Databricks without having Fire Insights installation available.
 
-These JSON files can be executed on the Databricks clusters directly. Fire Insights does not have to be necessarily available.
+Below are the high level steps for it:
 
-The below defines the steps for it.
+  * Export the workflow from Fire Insights as JSON file.
+  * Uplod the workflow JSON to DBFS.
+  * Upload the Fire Insights libraries into the Databricks Cluster.
+  * Create a Notebook
+  * Execute the Notebook.
+  
+
 
 Export and Upload the workflow JSON to DBFS
 ----------

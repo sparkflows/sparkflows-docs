@@ -18,16 +18,19 @@ Export and Upload the workflow JSON to DBFS
 
 As the first step, export the workflow as JSON files and upload to a DBFS folder.
 
-The workflow might be a pyspark workflow or a scala workflow.
+The workflow might be a spark/scala workflow or a pyspark workflow.
 
 Running Scala Workflows
 ---------------
 
-Upload the needed library:
+Upload the fire core jar
+++++++++++++++++++++++
+
 
   * Upload fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-Run the workflow:
+Create a Notebook in Databricks
+++++++++++++
 
 Suppose the workflow json is available at ``dbfs:/workflows/test_csv_scala.json``
 
@@ -60,11 +63,13 @@ In order to execute it, create a Notebook with the below code::
 Running Pyspark Workflows
 ----------
 
-Upload the needed files and libraries:
+Upload fire wheel file to DBFS
+++++++++++++++
 
   * Upload fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
     
-Run the workflow:
+Create a Notebook
+++++++++++++
 
 Suppose the workflow json is available at ``dbfs:/workflows/Join_Workflow.json``
 

@@ -3,6 +3,14 @@ Executing workflow without Fire Insights
 
 The workflows created in Fire Insights can be executed on Databricks without having Fire Insights installation available.
 
+Architecture diagram
+----------
+
+.. figure:: ..//_assets/databricks/architecture_diagram.png
+   :alt: databricks
+   :width: 60%
+
+
 Below are the high level steps for it:
 
   * Export the workflow from Fire Insights as JSON file.

@@ -2,8 +2,47 @@
 FAQ
 ===
 
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/faq/01-scheduling-workflows`
+
+    ---
+
+    :doc:`faq/02-custom-nodes`
+
+    ---
+
+    :doc:`/faq/03-distributions-supported`
+
+    ---
+
+    :doc:`/faq/04-workflow-export-import`
+
+    ---
+
+    :doc:`/faq/05-submit-jobs`
+
+    ---
+
+    :doc:`/faq/06-multi-user`
+
+    ---
+
+    :doc:`/faq/07-data-sources`
+
+    ---
+
+    :doc:`/faq/08-workflow-execution`
+
+    ---
+
+    :doc:`/faq/hadoop-installation-prerequisites`
+
+
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
    01-scheduling-workflows.rst
    02-custom-nodes.rst

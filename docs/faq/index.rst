@@ -9,7 +9,7 @@ FAQ
 
     ---
 
-    :doc:`faq/02-custom-nodes`
+    :doc:`/faq/02-custom-nodes`
 
     ---
 

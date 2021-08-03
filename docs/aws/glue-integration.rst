@@ -11,14 +11,14 @@ Architecture diagram
    :alt: aws
    :width: 60%
 
-Below are the steps for AWS Glue Network Connection to call Fire Insights APIs in Aws Glue Jobs.
+Below are the steps for AWS Glue Network Connection to call Fire Insights APIs from AWS Glue Jobs.
 
 Pre-requisite
 --------
 
 You need to have an AWS account with administrative access.
 
-Create-vpc
+Create VPC
 ------
 
 You first create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over internet.

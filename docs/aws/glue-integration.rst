@@ -13,7 +13,7 @@ Architecture diagram
 
 Below are the steps for AWS Glue Network Connection to call Fire Insights APIs in Aws Glue Jobs.
 
-pre-requisite
+Pre-requisite
 --------
 
 You need to have an AWS account with administrative access.

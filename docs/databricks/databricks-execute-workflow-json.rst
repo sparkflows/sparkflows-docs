@@ -35,7 +35,7 @@ Upload the fire core jar
 ++++++++++++++++++++++
 
 
-  * Upload fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar to Databricks. Upload it under Workspace as a Library on to Databricks.
+  * Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
 Create a Notebook in Databricks
 ++++++++++++
@@ -85,7 +85,7 @@ Running Pyspark Workflows
 Upload fire wheel file to DBFS
 ++++++++++++++
 
-  * Upload fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
+  * Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
     
 Create a Notebook
 ++++++++++++

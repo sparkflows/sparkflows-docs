@@ -76,6 +76,15 @@ In Fire Insights an admin user can do the following administration tasks:
 - Load Sample Projects
 - View Server Logs
 - Cleanup Data
+- Usage Statistics
+- Runtime Statistics
+- Global Connections
+- Audit Report
+- Credential Store
+
+.. figure:: ../../_assets/security/admin_page.PNG
+   :alt: security
+   :width: 60%
 
 Projects/Data etc
 +++++++++++++++++

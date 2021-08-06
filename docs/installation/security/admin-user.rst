@@ -187,7 +187,7 @@ The admin user can view Audit Report of user login, logout & Workflow modified.
 Credential Store
 +++++++++++++++++
 
-The admin user can Add Credential Store which can be used while creating different connection, where value is stored in keyvault.
+The admin user can Add Credential Store, When creating connections, values like username/password etc. can be fetched from the Credential Store
 
 .. figure:: ../../_assets/security/credentialstore.PNG
    :alt: security

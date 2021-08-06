@@ -178,7 +178,7 @@ The admin user can Delete old workflow executions for cleaning the DB which is O
 Audit Report
 ++++++++++++
 
-The admin user can view Audit Report of user login & Workflow modified.
+The admin user can view Audit Report of user login, logout & Workflow modified.
 
 .. figure:: ../../_assets/security/audit_report.PNG
    :alt: security

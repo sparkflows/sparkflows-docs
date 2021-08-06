@@ -174,3 +174,12 @@ The admin user can Delete old workflow executions for cleaning the DB which is O
 .. figure:: ../../_assets/security/cleanup.PNG
    :alt: security
    :width: 60%
+
+Audit Report
+++++++++++++
+
+The admin user can view Audit Report of user login & Workflow modified.
+
+.. figure:: ../../_assets/security/audit_report.PNG
+   :alt: security
+   :width: 60%

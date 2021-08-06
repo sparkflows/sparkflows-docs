@@ -183,3 +183,12 @@ The admin user can view Audit Report of user login, logout & Workflow modified.
 .. figure:: ../../_assets/security/audit_report.PNG
    :alt: security
    :width: 60%
+
+Credential Store
++++++++++++++++++
+
+The admin user can Add Credential Store which can be used while creating different connection, where value is stored in keyvault.
+
+.. figure:: ../../_assets/security/credentialstore.PNG
+   :alt: security
+   :width: 60%

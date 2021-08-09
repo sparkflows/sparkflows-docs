@@ -42,7 +42,7 @@ Cleaning Old Audit logs
 It is important to regularly delete the old Audit logs for cleaning the DB.
 
 - Go to the Administration/Cleanup Data
-- Click on Clean Audit Logs tab
+- Click on Clean Audit Logs tab & Delete Audit Logs which is older than 30 days
 
    
 .. figure:: ../../_assets/installation/auditlog.PNG

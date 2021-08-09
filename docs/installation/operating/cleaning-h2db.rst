@@ -32,6 +32,9 @@ It is important to regularly delete the old workflow executions in order to keep
 - Go to the Administration/Cleanup Data
 - Click on Delete old Workflow Executions in order to delete the old workflow executions.
 
+.. figure:: ../../_assets/installation/cleanup_data.PNG
+   :alt: Installations
+   :width: 60% 
 
 Compact H2 DB File
 ++++++++++++++++++

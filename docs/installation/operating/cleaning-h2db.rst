@@ -3,6 +3,19 @@ Regular Maintenance Tasks
 
 It is important to do a few maintenance tasks regularly to have Fire Insights running smoothly over time.
 
+Backing up H2 DB
+----------------
+
+Fire Insights can be run with the embedded H2 DB, or when an external database like MySQL, SQL Server etc.
+
+It is important to back up the database regularly.
+
+In order to backup the H2 DB follow the steps below:
+
+* Stop Fire Insights
+* Copy the H2 DB to another folder
+* Start Fire Insights
+
 
 Cleaning H2 DB
 --------------

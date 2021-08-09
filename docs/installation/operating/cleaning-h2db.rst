@@ -35,6 +35,20 @@ It is important to regularly delete the old workflow executions in order to keep
 .. figure:: ../../_assets/installation/cleanup_data.PNG
    :alt: Installations
    :width: 60% 
+   
+Cleaning Old Audit logs
++++++++++++++++++++++++
+
+It is important to regularly delete the old Audit logs for cleaning the DB.
+
+- Go to the Administration/Cleanup Data
+- Click on Clean Audit Logs tab
+
+   
+.. figure:: ../../_assets/installation/auditlog.PNG
+   :alt: Installations
+   :width: 60%    
+
 
 Compact H2 DB File
 ++++++++++++++++++

@@ -8,19 +8,20 @@ Workflow
 The below workflow: 
 
 * Reads the Housing dataset
-* Drops Rows containing Null values
-* Filters the Rows for whom Age has not been specified
-* Changes the data type of the Age column to integer
-* Filters rows for persons of age > 30 and who are females
+* Calculates summary statistics for important variables
+* Creates a histogram to show the distribution of the Sale Price variable
+* Creates a graph to show the relationship between Sale Price and Basement Square Footage
+* Creates a matrix to show the correlation between important variables
+* Flags outliers in Ground Living Area and graphs the results
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
-Reading Titanic dataset
+Reading Housing Dataset
 ---------------------
 
-``DatasetStructured`` Processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
+``DatasetStructured`` Processor creates a Dataframe of your dataset named ``Housing Training`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
 
 Processor Output
 ^^^^^^^^^^^^^^^^^^

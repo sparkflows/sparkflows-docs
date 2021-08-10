@@ -14,7 +14,7 @@ The below workflow:
 * Creates a matrix to show the correlation between important variables
 * Flags outliers in Ground Living Area and graphs the results
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -26,40 +26,47 @@ Reading Housing Dataset
 Processor Output
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/DatasetStructured_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
 
-Dropping the rows with null values
---------------
-
-``DropRowsWithNull`` Processor drops the rows with null values.
-
-Processor Configuration
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/3.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-
-Filter by string length
+Calculate Summary Statistics
 ----------------
-``FilterByStringLength`` Processor filters the rows within the provided string length.
+``Summary Statistics`` Processor calculates summary statistics for the selected variables.
 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/SummaryStats_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/SummaryStats_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+
+Create Histogram Graph
+----------------
+``HistoGram`` Processor creates a histogram to show distribution by count of Sale Price.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/HistoGram_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/HistoGram_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    

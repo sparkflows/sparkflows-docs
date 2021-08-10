@@ -1,64 +1,67 @@
-Titanic Data Cleaning/Wrangling
+WHO Life Expectancy Data Cleaning/Wrangling
 =========================
 
-This workflow shows how to wrangle the Titanic Dataset with Sparkflows.
+This workflow shows how to wrangle the WHO Life Expectancy Dataset with Sparkflows.
 
 Workflow
 --------
 The below workflow: 
 
-* Reads the Titanic dataset
-* Drops Rows containing Null values
-* Filters the Rows for whom Age has not been specified
-* Changes the data type of the Age column to integer
-* Filters rows for persons of age > 30 and who are females
+* Reads the WHO Life Expectancy dataset
+* Finds the number of NULL values in each column
+* Drops columns with an unacceptable proportion of NULL values
+* Imputes mean values in the place of remaining NULL values
+* Indexes string type variables into numeric values for use in modelling
+* Flags rows with potentially inaccurate data
+* Flags outliers in the output column (Life Expectancy)
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
-Reading Titanic dataset
+Reading WHO Life Expectancy Dataset
 ---------------------
 
-``DatasetStructured`` Processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
+``DatasetStructured`` Processor creates a Dataframe of your dataset named ``WHO Life Expectancy`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
 
 Processor Output
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/DatasetStructured_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
 
-Dropping the rows with null values
+Counting Number of NULL Values in Columns
 --------------
 
-``DropRowsWithNull`` Processor drops the rows with null values.
-
-Processor Configuration
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/3.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-
-Filter by string length
-----------------
-``FilterByStringLength`` Processor filters the rows within the provided string length.
-
+``Null Values in Column`` Processor counts the number and percentage of NULL values in the selected columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/NullValues_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
+
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/NullValues_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+
+Dropping Columns With Too Many NULL Values
+----------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/DropColumns_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    

@@ -1,7 +1,7 @@
-WHO Life Expectancy Data Cleaning/Wrangling
+WHO Life Expectancy Data Cleaning
 =========================
 
-This workflow shows how to wrangle the WHO Life Expectancy Dataset with Sparkflows.
+This workflow shows how to clean the WHO Life Expectancy Dataset with Sparkflows.
 
 Workflow
 --------

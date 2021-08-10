@@ -65,36 +65,28 @@ Processor Configuration
    :alt: titanic-data-cleaning
    :width: 90%
    
-Convert Age to Integer
----------------------
+Imputing Mean Values to Replace Remaining NULL Values
+----------------
+``Imputing with Mean Value`` Processor imputes the mean value of each column in place of NULL values in each column.
 
-``CastColumnType`` Processor performs conversion of Age to integer type.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/6.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-   
-Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/ImputeMean_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
-Get Rows of Interest
+Indexing String Values into Numeric Values
 ---------------
 
-``RowFilter`` Processor filters the data based on provided conditions as below:
+``String Indexer`` Processor creates an numeric index for string values and creates a new column with the created index values. 
 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/StringIndex_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -102,13 +94,50 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/StringIndex_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
 
+Creating a Flag for Potentially Inaccurate Data
+---------------
 
-Prints the result
--------------
+``Case When`` Processor creates a new column and populates it with values based on user-set conditions. 
 
-It prints the first few records onto the screen.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/CaseWhen_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/CaseWhen_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+
+Creating a Flag for Outliers in Output Column
+---------------
+
+``Flag Outlier`` Processor creates a new column to indicate whether values in the given column are outliers based on the box and whisker method. 
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/FlagOutlier_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/FlagOutlier_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%

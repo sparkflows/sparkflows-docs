@@ -11,6 +11,12 @@ Data Exploration
 
     ---
 
+    :doc:`/tutorials/data-exploration/housing-data-exploration`
+
+    Data Exploration of the Housing Dataset.
+
+    ---
+    
     :doc:`/tutorials/data-exploration/data-profiling`
 
     Helpful in verifying the quality of data.
@@ -32,6 +38,7 @@ Data Exploration
    :hidden:
    
    telco-churn-data-exploration.rst
+   housing-data-exploration.rst
    data-profiling.rst
    distribution-graphs.rst   
    profiling-correlation.rst

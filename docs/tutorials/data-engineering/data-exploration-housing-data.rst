@@ -70,15 +70,15 @@ Processor Output
    :alt: titanic-data-cleaning
    :width: 90%
    
-Convert Age to Integer
+Graph Values
 ---------------------
 
-``CastColumnType`` Processor performs conversion of Age to integer type.
+``Graph Values`` Processor graphs the relationship between Sale Price and Basement Sqaure Footage.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphValues_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -86,20 +86,20 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphValues_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
-Get Rows of Interest
+Plot Correlation Matrix
 ---------------
 
-``RowFilter`` Processor filters the data based on provided conditions as below:
+``Correlation`` Processor creates a correlation matrix of selected variables and plots the results.
 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Correlation_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -107,13 +107,29 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Correlation_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
 
 
-Prints the result
--------------
+Flag Outliers and Create Graph
+----------------
+``Flag Outlier`` Processor creates a new flag column to mark outliers and ``Graph Group by Column`` Processor graphs the count in each category.
 
-It prints the first few records onto the screen.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/FlagOutlier_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphOutlier_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   

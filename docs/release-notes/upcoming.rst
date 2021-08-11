@@ -19,15 +19,22 @@ UI
 ---
 
 - Upgraded look and feel of administration page
-- Filtering of executions in the executions page i.e filter by user and filter by status
-- Trash : When a workflow is deleted it should be added to trash so that it can be recovered
-- Modification in Reload Sample Projects Page
-   - Added below features
+- Modification in Reload Sample Projects Page with below features
       -  Drop All Sample Projects.
       -  Drop And Reload All Sample Projects
       -  Reload Selected Sample Projects
-- Increase the download Size of the DBFS file
 - Introducing new icons for nodes
+
+Workflow
+---------
+
+- Filtering of executions in the executions page i.e filter by user and filter by status
+- Trash : When a workflow is deleted it should be added to trash so that it can be recovered
+
+DBFS
+----
+
+- Increase the download Size of the DBFS file
 
 Installer
 ---------

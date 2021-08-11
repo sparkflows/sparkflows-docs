@@ -65,4 +65,10 @@ Better display of the size of the file
 
 - Display of the file size in bytes
 
+Upgrades
+----------
+
+- Upgraded look and feel of administration page
+
+
 

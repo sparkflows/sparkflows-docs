@@ -5,6 +5,8 @@ Analytics App
 --------------
 
 - Enhancements to help in the Analytics App Page
+- Ability to add multiple Run Stages in the Analytics Apps
+- Each of the Run Stage can execute a different Notebook/Workflow
 
 Integration with Github
 ------------------

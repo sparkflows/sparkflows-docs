@@ -19,7 +19,7 @@ UI
 - Look and feel of administration page
 - Introducing new icons for nodes
 
-Reload Sample Projects Page
+Sample Projects
 -----------
 
 - Drop All Sample Projects.

@@ -37,6 +37,11 @@ DBFS
 
 - Increase the download Size of the DBFS file
 
+AWS Glue
+-------
+
+- Integration of AWS Glue
+
 Installer
 ---------
 

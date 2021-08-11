@@ -17,11 +17,14 @@ UI
 ---
 
 - Look and feel of administration page
-- Modification in Reload Sample Projects Page with below features
-   - Drop All Sample Projects.
-   - Drop And Reload All Sample Projects
-   - Reload Selected Sample Projects
 - Introducing new icons for nodes
+
+Reload Sample Projects Page
+-----------
+
+- Drop All Sample Projects.
+- Drop And Reload All Sample Projects
+- Reload Selected Sample Projects
 
 Workflow
 ---------

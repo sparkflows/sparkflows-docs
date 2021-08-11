@@ -11,8 +11,6 @@ Generating Pyspark Code for the Workflows
 Extensions to Analytics App
 ---------------------------
 
-- Ability to add multiple Run Stages in the Analytics Apps
-- Each of the Run Stage can execute a different Notebook/Workflow
 - Parameters generated in a Run, would be passed on to the subsequent Run Stage
 
 UI

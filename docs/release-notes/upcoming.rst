@@ -20,9 +20,9 @@ UI
 
 - Upgraded look and feel of administration page
 - Modification in Reload Sample Projects Page with below features
-      -  Drop All Sample Projects.
-      -  Drop And Reload All Sample Projects
-      -  Reload Selected Sample Projects
+   -  Drop All Sample Projects.
+   -  Drop And Reload All Sample Projects
+   -  Reload Selected Sample Projects
 - Introducing new icons for nodes
 
 Workflow

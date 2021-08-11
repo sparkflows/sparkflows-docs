@@ -65,7 +65,7 @@ Better display of the size of the file
 
 - Display of the file size in bytes
 
-UPCOMING FEATURES
+Upcoming Features
 ---------------
 
 - Upgraded look and feel of administration page

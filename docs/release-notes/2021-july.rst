@@ -55,12 +55,10 @@ Ability to Rename files in the DBFS page
 
 - Users can now rename the files in the DBFS browser page.
 
-
 Ability to Download files in the DBFS page
 -----------
 
-- Users can now download the files in the DBFS browser page.
-
+- Users can now download the files in the DBFS browser page upto 1MB.
 
 Better display of the size of the file
 ----------

@@ -22,7 +22,7 @@ UI
 Sample Projects
 -----------
 
-- Drop All Sample Projects.
+- Drop All Sample Projects
 - Drop And Reload All Sample Projects
 - Reload Selected Sample Projects
 

@@ -5,15 +5,15 @@ Data Exploration
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/tutorials/data-exploration/telco-churn-data-exploration`
-
-    Extremely helpful in understanding the data and provides a number of processors for users to profile their data.
-
-    ---
-
     :doc:`/tutorials/data-exploration/housing-data-exploration`
 
     Data Exploration of the Housing Dataset.
+
+    ---
+    
+    :doc:`/tutorials/data-exploration/telco-churn-data-exploration`
+
+    Data Exploration of Telco Churn Data
 
     ---
     
@@ -31,14 +31,14 @@ Data Exploration
 
     :doc:`/tutorials/data-exploration/profiling-correlation`
 
-    This workflow reads in a dataset then, creates the correlation analysis and summary statistics.
+    Data Profiling and Correlation
 
 
 .. toctree::
    :hidden:
    
-   telco-churn-data-exploration.rst
    housing-data-exploration.rst
+   telco-churn-data-exploration.rst
    data-profiling.rst
    distribution-graphs.rst   
    profiling-correlation.rst

@@ -1,4 +1,4 @@
-Read JSON Files
+Reading JSON Files
 ==============
 
 Fire Insights enable users to Read json files.

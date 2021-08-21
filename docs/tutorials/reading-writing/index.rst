@@ -46,12 +46,6 @@ Reading - Writing Data
     
     ----
     
-    :doc:`/tutorials/reading-writing/writing-hive`
-    
-    Reads data and saves it into the HIVE
-    
-    ----
-    
     :doc:`/tutorials/reading-writing/writing-parquet`
     
     Reads data and write into parquet file
@@ -61,6 +55,12 @@ Reading - Writing Data
     :doc:`/tutorials/reading-writing/writing-json`
     
     Reads data and write to json file
+    
+    ----
+    
+    :doc:`/tutorials/reading-writing/writing-hive`
+    
+    Reads data and saves it into the HIVE
     
     ----
     
@@ -115,9 +115,9 @@ Reading - Writing Data
    reading-from-rdbms.rst
    elasticsearch.rst
    writing-csv.rst
-   writing-hive.rst
    writing-parquet.rst
    writing-json.rst
+   writing-hive.rst
    mongodb.rst
    processing-multiple-files.rst  
    dataset-reading-csv.rst

@@ -1,4 +1,4 @@
-Processing multiple files
+Processing Multiple Files
 =========================
 
 This workflow reads in multiple files available in a specific directory. It then filters and calculates the number of bedrooms with specific prices and then prints the results.

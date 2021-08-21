@@ -1,4 +1,4 @@
-Reading CSV File
+Reading CSV Files
 =================
 
 Fire Insights enables you to Read CSV files.

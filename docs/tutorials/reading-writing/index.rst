@@ -28,7 +28,7 @@ Reading - Writing Data
     
     ----
     
-    :doc:`/tutorials/reading-writing/reading-mysql`
+    :doc:`/tutorials/reading-writing/dataset-reading-mysql`
     
     Creating dataset from MYSQL table
     
@@ -112,7 +112,7 @@ Reading - Writing Data
    dataset-reading-avro.rst
    dataset-reading-json.rst
    dataset-reading-parquet.rst
-   reading-mysql.rst
+   dataset-reading-mysql.rst
    reading-from-rdbms.rst
    read-csv-file.rst
    reading-json-file.rst

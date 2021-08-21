@@ -1,4 +1,4 @@
-Reading PDF File
+Reading PDF Files
 =============
 
 This workflow reads PDF file from the given location. It then parses its content, creates DataFrame and then prints the result.

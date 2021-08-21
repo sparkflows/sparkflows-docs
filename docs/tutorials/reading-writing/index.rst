@@ -4,25 +4,25 @@ Reading - Writing Data
 .. panels::
     :container: container-lg pb-3
     
-    :doc:`/tutorials/reading-writing/reading-csv`
+    :doc:`/tutorials/reading-writing/dataset-reading-csv.rst`
     
     Creating dataset of type CSV
     
     ----
     
-    :doc:`/tutorials/reading-writing/reading-avro`
+    :doc:`/tutorials/reading-writing/dataset-reading-avro`
 
     Creating dataset of type AVRO
     
     ----
 
-    :doc:`/tutorials/reading-writing/reading-json`
+    :doc:`/tutorials/reading-writing/dataset-reading-json`
 
     Creating dataset of type JSON
     
     ----
     
-    :doc:`/tutorials/reading-writing/reading-parquet`
+    :doc:`/tutorials/reading-writing/dataset-reading-parquet`
     
     Creating dataset of type Parquet
     
@@ -108,10 +108,10 @@ Reading - Writing Data
 .. toctree::
    :hidden:
 
-   reading-csv.rst
-   reading-avro.rst
-   reading-json.rst
-   reading-parquet.rst
+   dataset-reading-csv.rst
+   dataset-reading-avro.rst
+   dataset-reading-json.rst
+   dataset-reading-parquet.rst
    reading-mysql.rst
    reading-from-rdbms.rst
    read-csv-file.rst

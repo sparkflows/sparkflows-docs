@@ -3,43 +3,7 @@ Reading - Writing Data
 
 .. panels::
     :container: container-lg pb-3
-    
-    :doc:`/tutorials/reading-writing/dataset-reading-csv.rst`
-    
-    Creating dataset of type CSV
-    
-    ----
-    
-    :doc:`/tutorials/reading-writing/dataset-reading-avro`
-
-    Creating dataset of type AVRO
-    
-    ----
-
-    :doc:`/tutorials/reading-writing/dataset-reading-json`
-
-    Creating dataset of type JSON
-    
-    ----
-    
-    :doc:`/tutorials/reading-writing/dataset-reading-parquet`
-    
-    Creating dataset of type Parquet
-    
-    ----
-    
-    :doc:`/tutorials/reading-writing/dataset-reading-mysql`
-    
-    Creating dataset from MYSQL table
-    
-    ----
-    
-    :doc:`/tutorials/reading-writing/reading-from-rdbms`
-    
-    Reading from JDBC sources like MySQL/Oracle/DB2/..
-
-    ----
-    
+        
     :doc:`/tutorials/reading-writing/read-csv-file`
     
     Reading data from CSV file
@@ -62,6 +26,12 @@ Reading - Writing Data
     
     Reading data from Pdf file and parses it's content into string
     
+    ----
+    
+    :doc:`/tutorials/reading-writing/reading-from-rdbms`
+    
+    Reading from JDBC sources like MySQL/Oracle/DB2/..
+
     ----
     
     :doc:`/tutorials/reading-writing/elasticsearch`
@@ -104,27 +74,58 @@ Reading - Writing Data
     
     Reads in multiple csv files available in specific directory
     
+    ----
+    
+    :doc:`/tutorials/reading-writing/dataset-reading-csv.rst`
+    
+    Creating dataset of type CSV
+    
+    ----
+    
+    :doc:`/tutorials/reading-writing/dataset-reading-avro`
+
+    Creating dataset of type AVRO
+    
+    ----
+
+    :doc:`/tutorials/reading-writing/dataset-reading-json`
+
+    Creating dataset of type JSON
+    
+    ----
+    
+    :doc:`/tutorials/reading-writing/dataset-reading-parquet`
+    
+    Creating dataset of type Parquet
+    
+    ----
+    
+    :doc:`/tutorials/reading-writing/dataset-reading-mysql`
+    
+    Creating dataset from MYSQL table
+
     
 .. toctree::
    :hidden:
 
-   dataset-reading-csv.rst
-   dataset-reading-avro.rst
-   dataset-reading-json.rst
-   dataset-reading-parquet.rst
-   dataset-reading-mysql.rst
-   reading-from-rdbms.rst
    read-csv-file.rst
    reading-json-file.rst
    reading-parquet-file.rst
    read-pdf-file.rst
+   reading-from-rdbms.rst
    elasticsearch.rst
    writing-csv.rst
    writing-hive.rst
    writing-parquet.rst
    writing-json.rst
    mongodb.rst
-   processing-multiple-files.rst   
+   processing-multiple-files.rst  
+   dataset-reading-csv.rst
+   dataset-reading-avro.rst
+   dataset-reading-json.rst
+   dataset-reading-parquet.rst
+   dataset-reading-mysql.rst
+   
    
    
    

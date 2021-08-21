@@ -1,7 +1,7 @@
-Write parquet
+Save as Parquet Files
 ================
 
-Fire Insights enables the user to write in a parquet file.
+Fire Insights enables the user to write in a Parquet file.
 
 Workflow
 --------

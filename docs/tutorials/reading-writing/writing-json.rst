@@ -1,4 +1,4 @@
-Writing as JSON Files
+Saving as JSON Files
 =====================
 
 Fire Insights enables you to write your DataFrame to JSON Files.

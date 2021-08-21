@@ -1,4 +1,4 @@
-Writing to CSV File
+Saving as CSV Files
 ==========
 
 Fire Insights enables user to write CSV files

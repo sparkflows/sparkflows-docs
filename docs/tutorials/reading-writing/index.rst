@@ -1,4 +1,4 @@
-Reading - Writing Data
+Reading/Writing Data
 ======================
 
 .. panels::

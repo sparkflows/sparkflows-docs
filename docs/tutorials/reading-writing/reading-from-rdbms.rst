@@ -17,7 +17,7 @@ Below is a workflow which reads data from MySQL and reads the result from ``Prin
 
 .. figure:: ../../_assets/user-guide/ReadJDBC.png
    :alt: JDBC Workflowt
-   :width: 100%
+   :width: 50%
    
    
 JDBC Processor Configuration

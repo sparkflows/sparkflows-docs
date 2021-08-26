@@ -1,7 +1,7 @@
 Adding Stages
 =============
 
-Click on the "Add stages" button to add a new stage. Select stage type and enter the stage name.
+Click on the "Add stages" button to add a new stage. Select stage type, enter the stage name and condition(optional).
 
   .. figure:: ../../../_assets/web-app/add-stage.PNG
       :alt: web-app
@@ -10,7 +10,7 @@ Click on the "Add stages" button to add a new stage. Select stage type and enter
 
 - You can rearrange the stages by dragging and dropping. 
 - You can EDIT, VIEW, and REMOVE stages.
-- Can also RENAME the stage name.
+- Can also RENAME the stage name and update condition.
 
 Below are the examples for adding various Stages
 

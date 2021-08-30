@@ -17,6 +17,7 @@ Click on the "Add stages" button to add a new stage. Select stage type, enter th
   1. educationLevel = 'masters'
   2. educationLevel = 'masters' && gender = 'female'
   3. educationLevel = 'masters' || gender = 'female'
+  4. Leave it empty to show particular stage to be displayed always.
 
 Below are the examples for adding various Stages
 

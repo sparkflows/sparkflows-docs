@@ -21,6 +21,10 @@ Tutorials
     :doc:`/tutorials/data-engineeringII/index`
     
       
+    ---
+    
+    :doc:`/tutorials/visualization/index`   
+        
     
     ---  
     
@@ -64,12 +68,6 @@ Tutorials
     
     
     
-    ---
-    
-    :doc:`/tutorials/visualization/index`   
-    
-    
-    
     ---  
     
     
@@ -92,6 +90,7 @@ Tutorials
    reading-writing/index.rst
    data-engineering/index.rst
    data-engineeringII/index.rst
+   visualization/index.rst
    data-exploration/index.rst
    analytics/index.rst
    data-science/index.rst
@@ -100,7 +99,6 @@ Tutorials
    languages/index.rst
    nlp/index.rst
    streaming/index.rst
-   visualization/index.rst
    ocr/index.rst
    rest-api/index.rst
    

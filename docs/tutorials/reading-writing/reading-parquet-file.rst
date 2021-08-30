@@ -1,4 +1,4 @@
-Read Parquet Files
+Reading Parquet Files
 ================
 
 Fire Insights enable users to read parquet files.
@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/7.png
    :alt: readwrite
-   :width: 80%
+   :width: 60%
 
 Reading from parquet File
 ---------------------

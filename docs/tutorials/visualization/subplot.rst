@@ -33,7 +33,7 @@ It plot multiple parameter graph simultaneously using subplot node.
    :alt: Visualization
    :width: 90%
 
-ouput result
+Output result
 -------------
 
 .. figure:: ../../_assets/tutorials/visualization/4.PNG

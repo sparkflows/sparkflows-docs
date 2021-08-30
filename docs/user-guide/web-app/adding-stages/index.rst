@@ -12,7 +12,8 @@ Click on the "Add stages" button to add a new stage. Select stage type, enter th
 - You can EDIT, VIEW, and REMOVE stages.
 - Can also RENAME the stage name and update condition.
 - Conditions are added to show particular stage on run analytics app page when added condition for that stage is fulfilled.
-- Conditions Example are : 
+- Conditions Example are :
+ 
   1. educationLevel = 'masters'
   2. educationLevel = 'masters' && gender = 'female'
   3. educationLevel = 'masters' || gender = 'female'

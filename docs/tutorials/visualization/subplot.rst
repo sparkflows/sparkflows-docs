@@ -13,7 +13,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/visualization/1.PNG
    :alt: Visualization
-   :width: 90%
+   :width: 60%
    
 Reading from Dataset
 ---------------------

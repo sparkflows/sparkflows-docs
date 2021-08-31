@@ -1,4 +1,4 @@
-Time Function
+Time Functions
 =============
 
 There are many instances when you want to do time-series analysis. Fire Insights provides Date-Time features with TimeFunctions operator.

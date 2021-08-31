@@ -1,7 +1,7 @@
-WHO Life Expectancy Data Cleaning
+End-to-End Book Recommendations
 =========================
 
-This workflow shows how to clean the WHO Life Expectancy Dataset with Sparkflows.
+This tutorial will cover how to explore, clean, and model data related to book sales. 
 
 Workflow
 --------

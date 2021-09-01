@@ -15,6 +15,8 @@ Operating Guide
    jupyter.rst
    installing-mysql.rst
    health-check.rst
+   migrating-h2-db-to-mysql.rst
+   
    
 
 

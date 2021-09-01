@@ -25,3 +25,8 @@ A one-click installer and update for Fire Insights.
 
 - Users would be able to install and update Fire Insights on their laptops with one click.
 
+Migrate from H2 DB to MySQL
+--------------
+
+- Migration from H2 DB to MySQL
+

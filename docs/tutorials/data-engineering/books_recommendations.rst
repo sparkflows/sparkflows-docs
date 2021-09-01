@@ -7,6 +7,8 @@ The data for this project is split into 3 datasets. One dataset contains data re
 
 To more accurately represent how data analysis would be done in Sparkflows, different tasks have been split up into different workflows. This keeps the project more organized, allows for more expansion in the future, and will provide performance benefits during testing and execution. 
 
+.. contents::
+
 Workflow
 --------
 The below workflow: 

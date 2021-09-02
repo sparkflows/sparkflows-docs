@@ -224,7 +224,7 @@ After saving example workflow, now you can execute the job which will be submitt
    :alt: aws
    :width: 80%
 
-5. Verify the JOb on AWS Glue
+5. Verify the Job on AWS Glue Cluster
 
 Now you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
 

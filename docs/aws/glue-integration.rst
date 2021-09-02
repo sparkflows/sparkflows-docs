@@ -201,3 +201,7 @@ Once you login to Fire Insights application Click on ADMINISTRATION tab on top, 
    * - Glue Connections
      - Glue connection names. Input the glue connection names as comma separated value like Glue-conn, Glue-conn1
      - Glue-Fire
+
+.. figure:: ..//_assets/aws/glue/glue_parameter.PNG
+   :alt: aws
+   :width: 60%

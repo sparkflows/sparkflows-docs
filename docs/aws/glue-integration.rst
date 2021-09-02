@@ -11,7 +11,7 @@ Architecture diagram
    :alt: aws
    :width: 60%
 
-Below are the steps for AWS Glue Network Connection to call Fire Insights APIs from AWS Glue Jobs.
+Below are the steps for AWS Glue Network Connection to submit the job from Fire Insights application to AWS Glue cluster.
 
 Pre-requisite
 --------

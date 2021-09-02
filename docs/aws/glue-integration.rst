@@ -162,7 +162,9 @@ Once you login to Fire Insights application Click on ADMINISTRATION tab on top, 
    :alt: aws
    :width: 60%
 
-2. Now you can update below parameter as per our configurations
+2. Update below parameter as per our configurations
+
+Now update below parameter as per AWS configurations
 
 .. list-table:: 
    :widths: 10 20 30

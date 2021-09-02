@@ -215,3 +215,11 @@ Now you can create workflow in Fire, which reads from S3 bucket and save the wor
 .. figure:: ..//_assets/aws/glue/wf.PNG
    :alt: aws
    :width: 60%
+
+4. Submit the Job
+
+After saving example workflow, now you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
+
+.. figure:: ..//_assets/aws/glue/job_submit.PNG
+   :alt: aws
+   :width: 60%

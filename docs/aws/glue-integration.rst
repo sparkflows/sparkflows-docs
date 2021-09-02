@@ -207,3 +207,11 @@ Now update below parameter as per AWS configurations
 .. figure:: ..//_assets/aws/glue/glue_parameter.PNG
    :alt: aws
    :width: 80%
+
+3. Create Workflow in Fire
+
+Now you can create workflow in Fire, which reads from S3 bucket and save the workflow.
+
+.. figure:: ..//_assets/aws/glue/wf.PNG
+   :alt: aws
+   :width: 60%

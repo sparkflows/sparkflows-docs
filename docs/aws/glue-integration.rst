@@ -149,42 +149,8 @@ Now since Fire Insights is running on other vpc, so you can use vpc peering conn
    :alt: aws
    :width: 60%
 
-Create Glue Job
+Fire Configuartions & Job Submission on AWS Glue
 ----------------
 
-You are now ready to create the AWS Glue job which calls the Fire Insights REST API and copies the output data in the Amazon S3 bucket.
+Now you have connection between vm on which Fire Insights is running and AWS Glue, so now we can configure Fire Insights for Glue and create workflow and submit the job on AWS Glue.
 
-1. Go to the AWS Glue Console, select Jobs in left menu and click on the Add job button.
-
-.. figure:: ..//_assets/aws/glue/job_1.PNG
-   :alt: aws
-   :width: 60%
-
-2. On the next screen, Enter job name, select specific role as the IAM Role, select Python shell as the Type, select A new script to be authored by you option and select specific s3 bucket for the S3 path where the script is stored field. Click on the Next button.
-
-.. figure:: ..//_assets/aws/glue/glue_job_process.PNG
-   :alt: aws
-   :width: 60%
-
-3. On the next screen, select your connection. By associating the job with the connection, you are allowing the job to use the ENI created by the connection in the private subnet. Click on the Save job and edit script button.
-
-.. figure:: ..//_assets/aws/glue/job_connection.PNG
-   :alt: aws
-   :width: 60%   
-
-4. On the next screen, copy paste the python code to access Fire Insights REST API
-
-.. figure:: ..//_assets/aws/glue/python_editor.PNG
-   :alt: aws
-   :width: 60%
-
-5. On successful execution, you will able to see count of Fire Insights Processors running on Fire machine, you may validate validate it from Fire Insights UI too.
-
-.. figure:: ..//_assets/aws/glue/api_response.PNG
-   :alt: aws
-   :width: 60%
-   
-
-.. figure:: ..//_assets/aws/glue/validation_fire.PNG
-   :alt: aws
-   :width: 60%

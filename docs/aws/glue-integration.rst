@@ -222,4 +222,12 @@ After saving example workflow, now you can execute the job which will be submitt
 
 .. figure:: ..//_assets/aws/glue/job_submit.PNG
    :alt: aws
+   :width: 80%
+
+5. Verify the JOb on AWS Glue
+
+Now you may verify the Job run on Fire Insights from AWS Glue Job in AWS Portal too.
+
+.. figure:: ..//_assets/aws/glue/glue_job_verify.PNG
+   :alt: aws
    :width: 60%

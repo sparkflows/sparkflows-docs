@@ -204,4 +204,4 @@ Once you login to Fire Insights application Click on ADMINISTRATION tab on top, 
 
 .. figure:: ..//_assets/aws/glue/glue_parameter.PNG
    :alt: aws
-   :width: 60%
+   :width: 80%

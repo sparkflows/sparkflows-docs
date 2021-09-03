@@ -189,17 +189,138 @@ Workflow Overview
 -------------------
 The below workflow: 
 
-* Reads the WHO Life Expectancy dataset
-* Finds the number of NULL values in each column
-* Drops columns with an unacceptable proportion of NULL values
-* Imputes mean values in the place of remaining NULL values
-* Indexes string type variables into numeric values for use in modelling
-* Flags rows with potentially inaccurate data
-* Flags outliers in the output column (Life Expectancy)
+* Casts a string columns to a double type column
+* Joins the Books and Ratings datasets
+* Filters out rows that will be detrimental to modelling
+* Joins the Users with other datasets
+* Drops unnecessary columns
+* Calculates summary statistics
+* Coalesces data for export
+* Saves data to HDFS for later use
 
-.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
+   
+Casting String to Double
+----------------------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Cast_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Joining Books and Ratings Datasets
+--------------------------------------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_One_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Filtering Rows
+-------------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Row_Filter_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Joining Users and Other Datasets
+----------------------------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_Two_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Dropping Useless Columns
+--------------------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Drop_Columns_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Calculating Summary Statistics
+---------------------------------
+
+``Null Values in Column`` Processor counts the number and percentage of NULL values in the selected columns.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Coalesce Data
+----------------
+``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Coalesce_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Saving Data to CSV
+---------------------
+
+``Null Values in Column`` Processor counts the number and percentage of NULL values in the selected columns.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
    
 
 

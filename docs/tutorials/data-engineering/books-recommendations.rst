@@ -1,5 +1,5 @@
 End-to-End Book Recommendations
-=========================
+*********************************
 
 This tutorial will cover how to explore, clean, and model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
 
@@ -13,9 +13,9 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
 
 
 Data Exploration
-=================
+******************
 
-Workflows Overview
+Exploring Books Dataset Overview
 -------------------
 The below workflow: 
 
@@ -27,8 +27,8 @@ The below workflow:
 * Flags rows with potentially inaccurate data
 * Flags outliers in the output column (Life Expectancy)
 
-.. figure:: ../../_assets/tutorials/data-engineering/who-data-cleaning/Overview.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Cast_Config.PNG
+   :alt: books-recommendations
    :width: 90%
    
 Reading WHO Life Expectancy Dataset
@@ -80,7 +80,7 @@ Processor Configuration
 
 
 Data Cleaning
-===============
+***************
 
 Workflows Overview
 -------------------
@@ -101,7 +101,7 @@ The below workflow:
 
 
 Data Modelling / Recommendations
-=================================
+**********************************
 
 Workflows Overview
 -------------------

@@ -80,3 +80,5 @@ Now you may verify the Job run on Fire Insights from AWS Glue Job from AWS Porta
 .. figure:: ../../_assets/aws/glue/glue_job_verify.PNG
    :alt: aws
    :width: 60%
+   
+.. note::  Make sure to disabled databricks if glue is enabled   

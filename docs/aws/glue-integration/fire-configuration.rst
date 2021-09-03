@@ -7,7 +7,7 @@ Now you have connection between vm on which Fire Insights is running and AWS Glu
 
 Once you login to Fire Insights application Click on ADMINISTRATION tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
 
-.. figure:: ..//_assets/aws/glue/config.PNG
+.. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws
    :width: 60%
 
@@ -53,7 +53,7 @@ Now update below parameter as per AWS configurations
      - Glue connection names. Input the glue connection names as comma separated value like Glue-conn, Glue-conn1
      - Glue-Fire
 
-.. figure:: ..//_assets/aws/glue/glue_parameter.PNG
+.. figure:: ../../_assets/aws/glue/glue_parameter.PNG
    :alt: aws
    :width: 80%
 
@@ -61,7 +61,7 @@ Now update below parameter as per AWS configurations
 
 Now you can create an example workflow in Fire, which reads from S3 bucket and save the workflow.
 
-.. figure:: ..//_assets/aws/glue/wf.PNG
+.. figure:: ../../_assets/aws/glue/wf.PNG
    :alt: aws
    :width: 60%
 
@@ -69,7 +69,7 @@ Now you can create an example workflow in Fire, which reads from S3 bucket and s
 
 After saving example workflow, now you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
 
-.. figure:: ..//_assets/aws/glue/job_submit.PNG
+.. figure:: ../../_assets/aws/glue/job_submit.PNG
    :alt: aws
    :width: 80%
 
@@ -77,6 +77,6 @@ After saving example workflow, now you can execute the job which will be submitt
 
 Now you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
 
-.. figure:: ..//_assets/aws/glue/glue_job_verify.PNG
+.. figure:: ../../_assets/aws/glue/glue_job_verify.PNG
    :alt: aws
    :width: 60%

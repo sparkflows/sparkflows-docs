@@ -21,6 +21,6 @@ AWS Guide
    file-watcher.rst
    cloudformationh2db.rst
    cloudformationmysql.rst
-   glue-integration.rst
+   glue-integration/index
    
    

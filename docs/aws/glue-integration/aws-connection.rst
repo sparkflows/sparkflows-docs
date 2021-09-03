@@ -3,7 +3,7 @@ AWS Glue & EC2 Network Connection
 
 Fire Insights ec2 instance can be communicated to AWS Glue with Network connection.
 
-Below are the steps for AWS Glue Network Connection:
+Below are the steps for AWS Glue Network Connection with EC2:
 
 Pre-requisite
 --------

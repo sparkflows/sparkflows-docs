@@ -18,7 +18,7 @@ You first create a VPC with a private and a public subnet. You need a VPC becaus
 1. Login to the AWS Console. Select an AWS Region of your choice where AWS Glue is available as a service. You will see the exercise instructions using the Paris region. Go to the VPC Management Console. Click on the Elastic IPs menu item in the left and then click on the Allocate Elastic IP address button.
 
 
-.. figure:: ..//_assets/aws/glue/vpc.png
+.. figure:: ../../_assets/aws/glue/vpc.png
    :alt: aws
    :width: 60%
 

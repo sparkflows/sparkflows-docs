@@ -1,7 +1,7 @@
 AWS Glue Network Connection
 ==================
 
-Fire Insights can be communicated to AWS Glue in below ways.
+Fire Insights can be communicated to AWS Glue with Network connection.
 
 Below are the steps for AWS Glue Network Connection:
 

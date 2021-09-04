@@ -204,7 +204,7 @@ The below workflow:
    
 Casting String to Double
 ----------------------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Cast to Single Type`` processor to cast the selected columns to a different data type. In this case we are using this processor to a correct an issue with our data ingest, and casting the Age column from a string type to a double type. 
 
 
 Processor Configuration
@@ -217,7 +217,7 @@ Processor Configuration
    
 Joining Books and Ratings Datasets
 --------------------------------------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
 
 Processor Configuration
@@ -230,7 +230,7 @@ Processor Configuration
    
 Filtering Rows
 -------------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Row Filter`` to filter out rows based on a conditional statement. In this dataset a zero ratings can represent either an implicit or explicit ratings. Since there is no way to split these 2 sources, zero ratings introduce ambiguity in the dataset. In order to preserve data quality and not hinder model performance we remove zero ratings. 
 
 
 Processor Configuration
@@ -243,7 +243,7 @@ Processor Configuration
    
 Joining Users and Other Datasets
 ----------------------------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
 
 Processor Configuration
@@ -256,7 +256,7 @@ Processor Configuration
    
 Dropping Useless Columns
 --------------------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Drop Columns`` processor to remove columns from the dataset. Due to the implementation of joins in Spark, when using an inner join, duplicate columns may be created that should be removed. 
 
 
 Processor Configuration
@@ -270,7 +270,7 @@ Processor Configuration
 Calculating Summary Statistics
 ---------------------------------
 
-``Null Values in Column`` Processor counts the number and percentage of NULL values in the selected columns.
+We use the ``Summary Statistics`` processor to calculate basic summary statistics about the selected numeric columns. After joining multiple datasets and transforming datasets, it is always prudent to spot check the basline statistics of the final dataset. In the case of joins it is especially important to pay attention to the count of rows in each columns to make sure they are equivelant for modelling. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -290,7 +290,7 @@ Processor Output
    
 Coalesce Data
 ----------------
-``Drop Columns`` Processor creates a new dataframe, excluding the columns selected.
+We use the ``Coalesce`` processor with 1 partition to create a single dataset in storage prior to export. Due to the way Spark distributes data for processing, it is necessary to coalesce the data before export to create a single data file. If ``Coalesce`` is not used, the data will be split into multiple data files during export. 
 
 
 Processor Configuration
@@ -304,7 +304,7 @@ Processor Configuration
 Saving Data to CSV
 ---------------------
 
-``Null Values in Column`` Processor counts the number and percentage of NULL values in the selected columns.
+We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An important option is the Save Mode, which tells the processor what to do if a file with the same name already exists in the specified location. This is especially important when a workflow is expected to be executed multiple times and for version control. In this case the workflow has been executed in the past and we do not want the saved file to be overwritten, so we use the ErrorIfExists save mode to intentionally error out the workflow when it reaches this stage. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

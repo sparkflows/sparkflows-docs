@@ -31,25 +31,27 @@ Tutorials
     :doc:`/tutorials/data-exploration/index`
     
       
-    
     ---
     
     :doc:`/tutorials/analytics/index`
     
       
-
     ---
 
     :doc:`/tutorials/data-science/index`
     
       
+    ---  
     
+    
+    :doc:`/tutorials/end-to-end/index`
+    
+      
     ---  
     
     :doc:`/tutorials/time-series/index`
     
       
-    
     ---
     
     :doc:`/tutorials/languages/index`
@@ -94,6 +96,7 @@ Tutorials
    data-exploration/index.rst
    analytics/index.rst
    data-science/index.rst
+   end-to-end/index.rst
    time-series/index.rst
    data-quality/index.rst
    languages/index.rst

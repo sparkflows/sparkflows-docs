@@ -23,7 +23,7 @@ The below workflow:
 * Calculates the cardinality of the string columns
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Overview.PNG
    :alt: books-recommendations
    :width: 90%
    

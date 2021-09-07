@@ -1,3 +1,17 @@
+End-to-End Book Recommendations
+*********************************
+
+This tutorial will cover how to explore, clean, and model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
+
+The data for this project is split into 3 datasets. One dataset contains data related to the users, one dataset contains data related to the books, and the final dataset contains all of the user-generated ratings of the books. 
+
+To more accurately represent how data analysis would be done in Sparkflows, different tasks have been split up into different workflows. This keeps the project more organized, allows for more expansion in the future, and will provide performance benefits during testing and execution. 
+
+.. contents::
+   :depth: 2
+
+
+
 Data Cleaning
 ***************
 
@@ -14,7 +28,7 @@ The below workflow:
 * Coalesces data for export
 * Saves data to HDFS for later use
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -26,7 +40,7 @@ We use the ``Cast to Single Type`` processor to cast the selected columns to a d
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Cast_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Cast_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -39,7 +53,7 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_One_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_One_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -52,7 +66,7 @@ We use the ``Row Filter`` to filter out rows based on a conditional statement. I
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Row_Filter_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Row_Filter_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -65,7 +79,7 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_Two_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_Two_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -78,7 +92,7 @@ We use the ``Drop Columns`` processor to remove columns from the dataset. Due to
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Drop_Columns_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Drop_Columns_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -91,7 +105,7 @@ We use the ``Summary Statistics`` processor to calculate basic summary statistic
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -99,7 +113,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -112,7 +126,7 @@ We use the ``Coalesce`` processor with 1 partition to create a single dataset in
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Coalesce_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Coalesce_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -125,7 +139,7 @@ We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An import
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -133,6 +147,6 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%

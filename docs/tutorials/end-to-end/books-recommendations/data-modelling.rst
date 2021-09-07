@@ -15,12 +15,14 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
 Data Modelling
 ******************
 
-Modelling Books Dataset
+Recommending Books Based on Popularity
 -------------------------
 The below workflow: 
 
-* Graphs the distribution of books by the year published
-* Calculates the cardinality of the string columns
+* Groups the Ratings by ISBN
+* Calculates the weighting rating for each book
+* Sorts the books by their weighted rating
+* Prints out a top 20 list of the best books to recommend
 
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Overview.PNG
@@ -31,7 +33,7 @@ The below workflow:
 Grouping Ratings by ISBN
 -----------------------------------
 
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
+We use the ``Group By`` processor to group the data based on values from a single column. This processor also allows us to calculate aggregate statistics for other columns that we select. In this case we are using ``Group By`` to calculate the average and count of Book_Ratings to be used later when we calculate the weighted ratings for each book.  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,7 +54,7 @@ Processor Output
 Calculating Weighted Ratings
 -----------------------
 
-We use the ``Columns Cardinality`` node to find the number of unique values in a string variable. In this case we are using cardinality to gauge the relationship between publishers, authors, and books. We can see that publishers on average publish 14 books, while authors on average write 2.4 books. 
+We use the ``Math Expression`` processor to create a new column based on a user-provided math expression. In this case we are applying a weighting formula to adjust our ratings. When making recommendations based on ratings, if we were to use the average ratings for each books, the books that have been rated very highly, but by very few users would have a natural advantage. This formula takes into account not only the average ratings, but also the number of ratings relative to other books. This formula is a simplified version of the formula that IMDB uses to rank movies based on user-generated ratings. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -73,7 +75,7 @@ Processor Output
 Sorting Books by Weighted Ratings
 ------------------------
 
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
+We use the ``Sort By`` processor to sort the data based on the numeric values in the selected column. In this case we are sorting the data based on the previously calculated weighted rating to rank the books. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -86,7 +88,7 @@ Processor Configuration
 Printing Top 20 Books to Recommend
 ----------------------
 
-We use the ``Null Values in Column`` processor counts the number and percentage of NULL values in the selected columns. In this case we can see that the Age column has a significant number of NULL values that will need to be dealt with in successive data cleaning steps. 
+We use the ``Print N Rows`` processor to display a certain number of rows from the data. In this case we are displaying the top 20 books to be recommended. We can also see in the output how the weighted ratings compare to the average ratings(column R). We can also see how without using the weighted ratings instead of average ratings, it would impossible to seperate the top few books.  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

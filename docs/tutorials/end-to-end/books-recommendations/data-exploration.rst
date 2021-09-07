@@ -36,7 +36,7 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -44,7 +44,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -57,7 +57,7 @@ We use the ``Columns Cardinality`` node to find the number of unique values in a
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -65,7 +65,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -78,7 +78,7 @@ The below workflow:
 * Finds the number of NULL values in each column
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/UE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Overview.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -91,7 +91,7 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -99,7 +99,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -112,7 +112,7 @@ We use the ``Null Values in Column`` processor counts the number and percentage 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -120,7 +120,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -133,7 +133,7 @@ The below workflow:
 * Prints a sample of the dataset out
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/RE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Overview.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -146,7 +146,7 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -154,7 +154,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -167,7 +167,7 @@ We use the ``Print N Rows`` to print a sample of the data for inspection. An imp
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -175,6 +175,6 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%

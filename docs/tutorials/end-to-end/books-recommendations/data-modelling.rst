@@ -12,10 +12,10 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
 
 
 
-Data Exploration
+Data Modelling
 ******************
 
-Exploring Books Dataset
+Modelling Books Dataset
 -------------------------
 The below workflow: 
 
@@ -23,12 +23,12 @@ The below workflow:
 * Calculates the cardinality of the string columns
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Overview.PNG
    :alt: books-recommendations
    :width: 90%
    
 
-Grouping Books by Year Published
+Grouping Ratings by ISBN
 -----------------------------------
 
 We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
@@ -36,7 +36,7 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -44,12 +44,12 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
    
-Columns Cardinality
+Calculating Weighted Ratings
 -----------------------
 
 We use the ``Columns Cardinality`` node to find the number of unique values in a string variable. In this case we are using cardinality to gauge the relationship between publishers, authors, and books. We can see that publishers on average publish 14 books, while authors on average write 2.4 books. 
@@ -57,7 +57,7 @@ We use the ``Columns Cardinality`` node to find the number of unique values in a
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -65,25 +65,12 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
 
-Exploring Users Dataset
-------------------------
-The below workflow: 
-
-* Graphs a count of the users grouped by age
-* Finds the number of NULL values in each column
-
-
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Overview.PNG
-   :alt: books-recommendations
-   :width: 90%
-   
-
-Grouping Users by Age
+Sorting Books by Weighted Ratings
 ------------------------
 
 We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
@@ -91,20 +78,12 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Sort_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
    
-Processor Output
-^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-   
-Finding Number of NULL Values in Columns
+Printing Top 20 Books to Recommend
 ----------------------
 
 We use the ``Null Values in Column`` processor counts the number and percentage of NULL values in the selected columns. In this case we can see that the Age column has a significant number of NULL values that will need to be dealt with in successive data cleaning steps. 
@@ -112,7 +91,7 @@ We use the ``Null Values in Column`` processor counts the number and percentage 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -120,7 +99,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 

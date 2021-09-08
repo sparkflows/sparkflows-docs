@@ -28,3 +28,10 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
     This workflow builds ALS recommendations model on the Books Dataset.  
    
    
+.. toctree::
+   :hidden:
+
+   data-cleaning.rst
+   data-exploration.rst
+   data-modelling.rst
+   

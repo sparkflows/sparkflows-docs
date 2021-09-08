@@ -1,15 +1,8 @@
 Books Recommendations ML Model
-*********************************
+=============================
 
 This tutorial will cover how to build an ML Model for recommending books. 
 
-.. contents::
-   :depth: 2
-
-
-
-Data Modelling
-******************
 
 Recommending Books Based on Popularity
 -------------------------

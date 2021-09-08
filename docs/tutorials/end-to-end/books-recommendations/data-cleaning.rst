@@ -1,5 +1,5 @@
 Data Cleaning Book Recommendations
-*********************************
+=================================
 
 This tutorial will cover how to explore, clean, and model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
 
@@ -10,10 +10,6 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
 .. contents::
    :depth: 2
 
-
-
-Data Cleaning
-***************
 
 Workflow Overview
 -------------------

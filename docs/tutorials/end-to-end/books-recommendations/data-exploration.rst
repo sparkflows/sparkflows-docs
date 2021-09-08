@@ -1,5 +1,5 @@
 Data Exploration
-*********************************
+================
 
 This tutorial will cover how to explore, clean, and model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
 
@@ -12,11 +12,9 @@ To more accurately represent how data analysis would be done in Sparkflows, diff
 
 
 
-Data Exploration
-******************
-
 Exploring Books Dataset
 -------------------------
+
 The below workflow: 
 
 * Graphs the distribution of books by the year published

@@ -105,3 +105,116 @@ Processor Output
    :alt: titanic-data-cleaning
    :width: 90%
 
+
+
+
+Recommending Books Based on ALS
+-------------------------
+The below workflow: 
+
+* Indexes the string column ISBN
+* Splits the data into training and testing datasets
+* Builds an ALS model using SparkML
+* Filters the rows to remove NaN values
+* Graphs the predicted values
+* Calculates the RMSE of the ALS model
+
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Overview.PNG
+   :alt: books-recommendations
+   :width: 90%
+   
+   
+   
+Indexing the String ISBN Column
+------------------------
+
+We use the ``String Indexer`` processor  
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_String_Indexer_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Splitting the Data
+------------------------
+
+We use the ``Split`` processor to 
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Split_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Building an ALS Model
+------------------------
+
+We use the ``ALS`` processor to  
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_ALS_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Filtering Out NaN Values
+------------------------
+
+We use the ``Row Filter`` processor to  
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Row_Filter_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Graphing the Predicted Values
+----------------------
+
+We use the ``Graph Values`` processor to   
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Calculating the RMSE
+----------------------
+
+We use the ``Regression Evaluator`` processor to   
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+   
+Processor Output
+^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%

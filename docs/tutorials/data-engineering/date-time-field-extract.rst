@@ -13,7 +13,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture1.PNG
    :alt: DateTimeFieldExtract
-   :width: 90%
+   :width: 65%
    
 Reading from Dataset
 ---------------------

@@ -1,4 +1,4 @@
-End-to-End Book Recommendations
+Data Cleaning Book Recommendations
 *********************************
 
 This tutorial will cover how to explore, clean, and model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 

@@ -85,7 +85,7 @@ Processor Configuration
    :width: 90%
 
    
-Printing Top 20 Books to Recommend
+Printing the Top 20 Books to Recommend
 ----------------------
 
 We use the ``Print N Rows`` processor to display a certain number of rows from the data. In this case we are displaying the top 20 books to be recommended. We can also see in the output how the weighted ratings compare to the average ratings(column R). We can also see how without using the weighted ratings instead of average ratings, it would impossible to seperate the top few books.  
@@ -129,7 +129,7 @@ The below workflow:
 Indexing the String ISBN Column
 ------------------------
 
-We use the ``String Indexer`` processor  
+We use the ``String Indexer`` processor to index / convert a string column to a numeric column. This allows us to use string columns in models that require only numeric values. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -142,7 +142,7 @@ Processor Configuration
 Splitting the Data
 ------------------------
 
-We use the ``Split`` processor to 
+We use the ``Split`` processor to split the data into training and testing datasets for validating models. The ``Split`` processor allows us to choose the proportion of data to be put into each dataset. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -155,7 +155,7 @@ Processor Configuration
 Building an ALS Model
 ------------------------
 
-We use the ``ALS`` processor to  
+We use the ``ALS`` processor to build and ALS (Alternating Least Squares) model using SparkML. An ALS model attempts to predict what a particular user would rate a particular book based on their past reviews of other books. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -168,7 +168,7 @@ Processor Configuration
 Filtering Out NaN Values
 ------------------------
 
-We use the ``Row Filter`` processor to  
+We use the ``Row Filter`` processor to filter rows based on a conditional statement set by the user. In this case we are filtering out all rows that contain the value "NaN" in the predictions column. Some models may create NaN values under specific circumstances so the ``Row Filter`` processor can be used to clean the data after modelling. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -181,7 +181,7 @@ Processor Configuration
 Graphing the Predicted Values
 ----------------------
 
-We use the ``Graph Values`` processor to   
+We use the ``Graph Values`` processor to graph the selected columns. In this case we are grpahing a selection of the predicted ratings. The ``Graph Values`` processor also allows us to graph multiple columns on the Y-axis. We are also graphing the actual ratings to compare with the predicted ratings and get an idea of how accurate our model is. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -202,7 +202,7 @@ Processor Output
 Calculating the RMSE
 ----------------------
 
-We use the ``Regression Evaluator`` processor to   
+We use the ``Regression Evaluator`` processor to calculate various model metrics. In this case we are calculating RMSE to quantify the performance of our model. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

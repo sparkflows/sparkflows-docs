@@ -65,6 +65,8 @@ It reads the ticker dataset, concatenate the input column, cast specified column
 
 **MovingWindowFunctions processor Configuration**
 
+Moving avg and min of price column with window size three.
+
 .. figure:: ../../_assets/ml_userguide/windows_configuartion.PNG
    :alt: ml_userguide
    :width: 90%

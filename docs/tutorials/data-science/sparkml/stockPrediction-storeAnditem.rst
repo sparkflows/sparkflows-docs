@@ -1,4 +1,4 @@
-Stock Prediction For Each Store & Item.
+Stock Prediction For Each Store & Item
 ======================================
 
 This workflow to predcit the stock for each store & iteam by using linear regression & loop nodes.

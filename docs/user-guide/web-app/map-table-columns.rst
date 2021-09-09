@@ -34,9 +34,9 @@ Designing
 
 - Add Match fields button and set the action to ``event``. Set the button event name to ``matchFields``.
 
-.. figure:: ../../_assets/web-app/map-table-columns/matchFields-btn.PNG
-        :alt: web-app
-        :width: 80%
+   .. figure:: ../../_assets/web-app/map-table-columns/matchFields-btn.PNG
+           :alt: web-app
+           :width: 80%
 
 - If we want the user to map the columns after running query below are steps : 
 

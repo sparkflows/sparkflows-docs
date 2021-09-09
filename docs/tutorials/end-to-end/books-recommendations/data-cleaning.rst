@@ -3,7 +3,7 @@ Data Cleaning Book Recommendations
 
 This tutorial will cover how to clean data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
 
-The data for this project is split into 3 datasets. One dataset contains data related to the users, one dataset contains data related to the books, and the final dataset contains all of the user-generated ratings of the books. This tutorial includes one workflow to explore each dataset. The main aim of this tutorial is to bring together data from all 3 datasets in a meaningful way and remove any data that could create problems during modelling. 
+The data for this project is split into 3 datasets. One dataset contains data related to the users, one dataset contains data related to the books, and the final dataset contains all of the user-generated ratings of the books. The main aim of this tutorial is to bring together data from all 3 datasets in a meaningful way and remove any data that could create problems during modelling. 
 
 To more accurately represent how data analysis would be done in Sparkflows, different tasks have been split up into different workflows. This keeps the project more organized, allows for more expansion in the future, and will provide performance benefits during testing and execution. Tutorials related to data exploration and modelling can be found in the Books Recommendation project.  
 

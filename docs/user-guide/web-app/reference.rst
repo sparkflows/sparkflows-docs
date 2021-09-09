@@ -7,9 +7,13 @@ Web App Reference Guide
 
    * - Title
      - Component Type
-     - Details 
+     - Property Name 
    * - Database Dropdown
      - select
      - fld_db
-     
-     
+   * - Table Dropdown
+     - select
+     - fld_table     
+   * - Query
+     - textarea
+     - query       

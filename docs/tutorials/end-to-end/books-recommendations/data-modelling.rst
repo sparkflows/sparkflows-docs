@@ -1,7 +1,11 @@
 Books Recommendations ML Model
 =============================
 
-This tutorial will cover how to build an ML Model for recommending books. 
+This tutorial will cover how to model data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project. 
+
+The main aim of this tutorial is to 
+
+To more accurately represent how data analysis would be done in Sparkflows, different tasks have been split up into different workflows. This keeps the project more organized, allows for more expansion in the future, and will provide performance benefits during testing and execution. Tutorials related to data cleaning and exploration can be found in the Books Recommendation project.  
 
 
 Recommending Books Based on Popularity

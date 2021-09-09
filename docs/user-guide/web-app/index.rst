@@ -22,7 +22,7 @@ Analytical Apps User Guide
 
     ---
 
-   :doc:`/user-guide/web-app/map-table-columns`
+    :doc:`/user-guide/web-app/map-table-columns`
 
     Map table columns by selecting databricks db, tables and running query.
 

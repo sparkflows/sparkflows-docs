@@ -48,6 +48,8 @@ Analytical Apps User Guide
    map-table-columns.rst
    integrating-with-databricks-notebook.rst
    running-analytics-app.rst
+   reference.rst
+   
 
    
 

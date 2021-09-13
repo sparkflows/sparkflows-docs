@@ -16,11 +16,11 @@ Analytics App Reference Guide
    * - Destination Path
      - text field
      - TRAIN_DATA
-     - Component is added to get destination path where the browse file should get uploaded.
+     - Component is added to get destination path where the browse file should get uploaded
    * - Columns
      - select boxes
      - any 
-     - Component is added if user want to map the columns of the file uploaded.
+     - Component is added if user want to map the columns of the file uploaded
 
 .. list-table:: Buttons
    :widths: 25 25 25 25
@@ -58,10 +58,13 @@ Analytics App Reference Guide
 
    * - Title
      - Component Type
-     - Property Name 
+     - Property Name
+     - Description
    * - Database Dropdown
      - select
      - fld_db
+     - Component is added to load database list in selected databricks connection
    * - Table Dropdown
      - select
-     - fld_table            
+     - fld_table    
+     - Component is added to load tables list in selected database and databricks connection

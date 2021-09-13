@@ -9,17 +9,17 @@ Web App Reference Guide
      - Component Type
      - Property Name 
      - Description
-   * - Database Dropdown
-     - select
-     - fld_db
+   * - File
+     - file
+     - file
      - description
-   * - Table Dropdown
-     - select
-     - fld_table 
+   * - Destination Path
+     - text field
+     - TRAIN_DATA
      - description
-   * - Query
-     - textarea
-     - query 
+   * - Columns
+     - select boxes
+     - any 
      - description
 
 .. list-table:: Buttons
@@ -41,7 +41,15 @@ Web App Reference Guide
    * - Run
      - Button
      - execute
-     - run 
+     - run
+   * - Upload
+     - Button
+     - upload 
+     - upload
+   * - Map Fields
+     - Button
+     - mapFields 
+     - mapFields
      
      
 .. list-table:: Map Table Columns
@@ -56,7 +64,4 @@ Web App Reference Guide
      - fld_db
    * - Table Dropdown
      - select
-     - fld_table     
-   * - Query
-     - textarea
-     - query       
+     - fld_table            

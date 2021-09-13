@@ -1,4 +1,4 @@
-Web App Reference Guide
+Analytics App Reference Guide
 =======================
 
 .. list-table:: Upload Stage
@@ -12,15 +12,15 @@ Web App Reference Guide
    * - File
      - file
      - file
-     - description
+     - Component is added to choose files to upload to databricks
    * - Destination Path
      - text field
      - TRAIN_DATA
-     - description
+     - Component is added to get destination path where the browse file should get uploaded.
    * - Columns
      - select boxes
      - any 
-     - description
+     - Component is added if user want to map the columns of the file uploaded.
 
 .. list-table:: Buttons
    :widths: 25 25 25 25

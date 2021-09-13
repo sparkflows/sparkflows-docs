@@ -12,15 +12,15 @@ Web App Reference Guide
    * - Database Dropdown
      - select
      - fld_db
-     - 
+     - description
    * - Table Dropdown
      - select
      - fld_table 
-     
+     - description
    * - Query
      - textarea
      - query 
-     - 
+     - description
 
 .. list-table:: Buttons
    :widths: 25 25 25 25

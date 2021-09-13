@@ -53,7 +53,7 @@ Analytics App Reference Guide
      
      
 .. list-table:: Map Table Columns
-   :widths: 30 30 40
+   :widths: 25 25 25 25
    :header-rows: 1
 
    * - Title
@@ -66,5 +66,5 @@ Analytics App Reference Guide
      - Component is added to load database list in selected databricks connection
    * - Table Dropdown
      - select
-     - fld_table    
+     - fld_table
      - Component is added to load tables list in selected database and databricks connection

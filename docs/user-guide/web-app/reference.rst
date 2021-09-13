@@ -23,7 +23,7 @@ Analytics App Reference Guide
      - Component is added if user want to map the columns of the file uploaded
 
 .. list-table:: Buttons
-   :widths: 20 20 20 20
+   :widths: 20 20 20 20 20
    :header-rows: 1
 
    * - Title

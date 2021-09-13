@@ -23,33 +23,39 @@ Analytics App Reference Guide
      - Component is added if user want to map the columns of the file uploaded
 
 .. list-table:: Buttons
-   :widths: 25 25 25 25
+   :widths: 20 20 20 20
    :header-rows: 1
 
    * - Title
      - Component Type
      - Event Name
-     - Property Name 
+     - Property Name
+     - Description
    * - Back
      - Button
      - back
      - back
+     - Component is added to go to the previous stage
    * - Next
      - Button
      - next
-     - next     
+     - next
+     - Component is added to go to the next stage
    * - Run
      - Button
      - execute
      - run
+     - Component is added to run app with selected parameters
    * - Upload
      - Button
      - upload 
      - upload
+     - Component is added to upload choose file to databricks in specified destination path otherwise by default it will store inside FileStore folder
    * - Map Fields
      - Button
      - mapFields 
      - mapFields
+     - Component is added to map fields
      
      
 .. list-table:: Map Table Columns

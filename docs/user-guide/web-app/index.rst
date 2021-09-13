@@ -37,6 +37,12 @@ Analytical Apps User Guide
     :doc:`/user-guide/web-app/running-analytics-app`
 
     Run Analytics apps and view the results with specified parameters.
+    
+     ---
+
+    :doc:`/user-guide/web-app/reference`
+
+    Describe informations about different parameters used in Analytics application.
 
 
 .. toctree::

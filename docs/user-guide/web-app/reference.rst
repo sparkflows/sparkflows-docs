@@ -2,21 +2,25 @@ Web App Reference Guide
 =======================
 
 .. list-table:: Upload Stage
-   :widths: 30 30 40
+   :widths: 25 25 25 25
    :header-rows: 1
 
    * - Title
      - Component Type
      - Property Name 
+     - Description
    * - Database Dropdown
      - select
      - fld_db
+     - 
    * - Table Dropdown
      - select
-     - fld_table     
+     - fld_table 
+     
    * - Query
      - textarea
      - query 
+     - 
 
 .. list-table:: Buttons
    :widths: 25 25 25 25

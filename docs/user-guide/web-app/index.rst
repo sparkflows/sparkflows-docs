@@ -22,7 +22,7 @@ Analytical Apps User Guide
 
     ---
 
-    :doc:`/user-guide/web-app/map-fields`
+    :doc:`/user-guide/web-app/map-table-columns`
 
     Map table columns by selecting databricks db, tables and running query.
 
@@ -45,7 +45,7 @@ Analytical Apps User Guide
    creating-anlaytics-app.rst
    adding-stages/index.rst
    analytics-app-extension.rst
-   map-fields.rst
+   map-table-columns.rst
    integrating-with-databricks-notebook.rst
    running-analytics-app.rst
    reference.rst

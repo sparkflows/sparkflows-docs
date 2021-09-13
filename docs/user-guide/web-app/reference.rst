@@ -19,7 +19,7 @@ Web App Reference Guide
      - query 
 
 .. list-table:: Buttons
-   :widths: 30 30 40
+   :widths: 25 25 25 25
    :header-rows: 1
 
    * - Title

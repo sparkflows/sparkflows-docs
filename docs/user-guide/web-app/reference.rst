@@ -31,17 +31,17 @@ Web App Reference Guide
      - Event Name
      - Property Name 
    * - Back
-     - select
+     - Button
      - back
-     - fld_db
+     - back
    * - Next
-     - select
-     - back
-     - fld_table     
+     - Button
+     - next
+     - next     
    * - Run
-     - textarea
-     - back
-     - query 
+     - Button
+     - execute
+     - run 
      
      
 .. list-table:: Map Table Columns

@@ -2,7 +2,7 @@ Analytics App Reference Guide
 =======================
 
 .. list-table:: Upload Stage
-   :widths: 25 25 25 25
+   :widths: 24 23 23 30
    :header-rows: 1
 
    * - Title
@@ -23,7 +23,7 @@ Analytics App Reference Guide
      - Component is added if user want to map the columns of the file uploaded
 
 .. list-table:: Buttons
-   :widths: 20 20 20 20 20
+   :widths: 18 18 18 18 28
    :header-rows: 1
 
    * - Title
@@ -59,7 +59,7 @@ Analytics App Reference Guide
      
      
 .. list-table:: Map Table Columns
-   :widths: 25 25 25 25
+   :widths: 24 23 23 30
    :header-rows: 1
 
    * - Title

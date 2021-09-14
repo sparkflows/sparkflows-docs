@@ -16,27 +16,17 @@ Designing
         :alt: web-app
         :width: 80%
 
-- Add textarea component to run added query. Set its label and make this component hidden by selecting the ``hidden`` checkbox.
+- Add Map fields button and set the action to ``event``. Set the button event name to ``mapFields``.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/query-hidden.PNG
-        :alt: web-app
-        :width: 80%
-
-- Add default value of query. Query can be parameterised or can't be ex: `select * from $fld_db.$fld_table limit 10;`. Don't select this value ``CLEAR VALUE WHEN HIDDEN`` because we want the default value when the component is hidden. Set its property name as `query`. 
-
-   .. figure:: ../../_assets/web-app/map-table-columns/query-default-value.PNG
-        :alt: web-app
-        :width: 80%
-
-  .. figure:: ../../_assets/web-app/map-table-columns/query-key.PNG
-          :alt: web-app
-          :width: 80%
-
-- Add Match fields button and set the action to ``event``. Set the button event name to ``matchFields``.
-
-   .. figure:: ../../_assets/web-app/map-table-columns/matchFields-btn.PNG
+   .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn1.PNG
            :alt: web-app
            :width: 80%
+           
+- Set its property name as `mapFields`. Add query in custom properties where key will be `query` and its value as query ex: `select * from $fld_db.$fld_table limit 10;`.   
+
+   .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn2.PNG
+        :alt: web-app
+        :width: 80%
 
 - If we want the user to map the columns after running query below are steps : 
 

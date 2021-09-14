@@ -42,32 +42,6 @@ Designing
       :alt: web-app
       :width: 80%
 
-   .. figure:: ../../_assets/web-app/match-api.PNG
-      :alt: web-app
-      :width: 80%
-
-- Add upload button and set the action to ``event``. Set the button event name to ``upload``.
-
-   .. figure:: ../../_assets/web-app/add-stage-uplaod-button1.PNG
-      :alt: web-app
-      :width: 80%
-
-
-   .. figure:: ../../_assets/web-app/add-stage-uplaod-button2.PNG
-      :alt: web-app
-      :width: 80%
-   
-
-- Also, add the next button to go to the next stage and perform actions depending upon the event. Set the event name as ``next`` for the next button.
-
-   .. figure:: ../../_assets/web-app/add-stage-next-button1.PNG
-      :alt: web-app
-      :width: 80%
-   
-
-   .. figure:: ../../_assets/web-app/add-stage-next-button2.PNG
-      :alt: web-app
-      :width: 80%
 
 
 Running app
@@ -80,7 +54,7 @@ Running app
       :alt: web-app
       :width: 80%
 
-- On clicking `Match fields` button dialog shows up data after running the added query while designing app.
+- On clicking `Map fields` button dialog shows up data after running the added query while designing app.
 
    .. figure:: ../../_assets/web-app/map-table-columns/run-app2.PNG
       :alt: web-app

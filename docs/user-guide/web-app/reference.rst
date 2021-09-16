@@ -64,13 +64,13 @@ Analytics App Reference Guide
 
    * - Title
      - Component Type
-     - Property Name
+     - Custom properties
      - Description
    * - Database Dropdown
      - select
-     - fld_db
+     - KEY : query , VALUE : show databases;
      - Component is added to load database list in selected databricks connection
    * - Table Dropdown
      - select
-     - fld_table
+     - KEY : query , VALUE : show tables in $database; (database value is taken from other component having key database)
      - Component is added to load tables list in selected database and databricks connection

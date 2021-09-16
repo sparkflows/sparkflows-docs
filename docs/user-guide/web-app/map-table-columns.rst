@@ -4,15 +4,21 @@ Map Table Columns
 Designing
 ------------------
 
-- Add select component to load database list in selected databricks connection. Set its property name as `fld_db`. 
+- Add select component to load data depending upon added query and selected databricks connection. Add query in custom properties where key will be `query` and its value as query ex: If user wants to load databases they can add query as `show databases;`.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-db.PNG
         :alt: web-app
         :width: 80%
 
-- Add select component to load tables list in selected database. Set its property name as `fld_table`. 
+- If user wants to load tables list data in select component then, can add query as `show tables $database;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
+        :alt: web-app
+        :width: 80%
+        
+- If user wants add query as `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database.$table` is property name of some other component. When user select database and table then, this select option gets load. then, in select component data load as first column is treated as the value to be returned and Second column is the display name if the second column is present.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
         :alt: web-app
         :width: 80%
 
@@ -22,9 +28,15 @@ Designing
            :alt: web-app
            :width: 80%
            
-- Set its property name as `mapFields`. Add query in custom properties where key will be `query` and its value as query ex: `select * from $fld_db.$fld_table limit 10;`.   
+- Set its property name as `mapFields`. Add query in custom properties where key will be `query` and its value as query ex: `select * from $database.$table limit 10;`.   
 
    .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn2.PNG
+        :alt: web-app
+        :width: 80%
+ 
+- Add the next button and make this component disabled by selecting the ``disabled`` checkbox.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/next-disable.PNG
         :alt: web-app
         :width: 80%
 

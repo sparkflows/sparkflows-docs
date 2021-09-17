@@ -37,7 +37,7 @@ Adding Map Fields Button
            :alt: web-app
            :width: 80%
            
-- Set its property name as `mapFields`. Add query in custom properties where key will be `query` and its value as sql query ex: `select * from $database$.$table$ limit 10;`.   
+- Set its property name as `mapFields`. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as sql query ex: `select * from $database$.$table$ limit 10;`.   
 
    .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn2.PNG
         :alt: web-app

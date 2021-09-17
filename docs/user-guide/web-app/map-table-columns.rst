@@ -4,7 +4,7 @@ Mapping Table Columns
 Adding Database Dropdown
 ------------------
 
-- Add select component to load data depending upon added query and selected databricks connection. Add query in custom properties where key will be `query` and its value as sql query ex: If user wants to load databases they can add query as `show databases;`.
+- Add select component to load data depending upon added query and selected databricks connection. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as sql query ex: To load databases add query as `show databases;`.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-db.PNG
         :alt: web-app
@@ -13,7 +13,7 @@ Adding Database Dropdown
 Adding Tables Dropdown
 ---------------------
 
-- If user wants to load tables list data in select component then, can add sql query as `show tables $database;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
+- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables $database;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
         :alt: web-app
@@ -22,7 +22,7 @@ Adding Tables Dropdown
 Adding dropdown with values
 -------------------------
 
-- If user wants add sql query as `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database.$table` is property name of some other component. When user select database and table then, this select option gets load. then, in select component data load as first column is treated as the value to be returned and Second column is the display name if the second column is present.
+- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE as `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database.$table` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
         :alt: web-app
@@ -44,7 +44,7 @@ Adding Map Fields Button
         :width: 80%
 
 
-- If we want the user to map the columns after running query below are steps : 
+- To map the columns after running map fields button query below are steps : 
 
 - Add select boxes component to add the available column names. Set its label as ``Columns`` and make this component hidden by selecting the ``hidden`` checkbox.
 
@@ -73,7 +73,7 @@ Running app
 ------------------
 
 - If any stage has databricks database component added the it will load database list present in slected connection.
-- On selecting database , tables list will load for selected db and connection.
+- On selecting database , tables list will load for selected database and connection.
 
    .. figure:: ../../_assets/web-app/map-table-columns/run-app1.PNG
       :alt: web-app

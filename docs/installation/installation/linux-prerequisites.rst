@@ -1,7 +1,19 @@
 Linux/Mac OS Installation Prerequisites
 +++++++++++++
 
-Below are the Prerequisites for installing Fire Insights on a mac or linux machine::
+Supported Linux Versions
+-------------------------
+
+::
+
+  - CentOS : 7+
+  - Ubuntu : 18+
+  - RHEL : 8+
+
+Prerequisites
+-------------
+
+Below are the Prerequisites for installing Fire Insights on a Mac or Linux machine::
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH

@@ -72,5 +72,5 @@ Analytics App Reference Guide
      - Component is added to load database list in selected databricks connection
    * - Table Dropdown
      - select
-     - KEY : query , VALUE : show tables in $database; (database value is taken from other component having key database)
+     - KEY : query , VALUE : show tables in $database$; (database value is taken from other component having key database)
      - Component is added to load tables list in selected database and databricks connection

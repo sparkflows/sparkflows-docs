@@ -74,3 +74,7 @@ Analytics App Reference Guide
      - select
      - KEY : query , VALUE : show tables in $database$; (database value is taken from other component having key database)
      - Component is added to load tables list in selected database and databricks connection
+   * - Map Fields
+     - Button
+     - KEY : query , VALUE : select * from $database$.$table$ limit 10; (database and table value is taken from other component having key database and table)
+     - Component is added for mapping table columns

@@ -13,7 +13,7 @@ Adding Database Dropdown
 Adding Tables Dropdown
 ---------------------
 
-- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables $database$;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
+- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables in $database$;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
         :alt: web-app

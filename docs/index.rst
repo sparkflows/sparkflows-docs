@@ -70,6 +70,14 @@ Snowflake Integration
    :maxdepth: 2
 
    snowflake/index
+
+Kubernetes Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   kubernetes/index
    
 Troubleshooting
 ---------------

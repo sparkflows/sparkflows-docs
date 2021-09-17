@@ -64,7 +64,7 @@ Analytics App Reference Guide
 
    * - Title
      - Component Type
-     - Custom properties
+     - Custom Properties
      - Description
    * - Database Dropdown
      - select

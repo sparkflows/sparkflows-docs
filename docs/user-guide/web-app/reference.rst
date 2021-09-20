@@ -58,7 +58,7 @@ Analytics App Reference Guide
      - Component is added to map fields
      
      
-.. list-table:: Map Table Columns
+.. list-table:: Mapping Table Columns
    :widths: 15 15 23 30
    :header-rows: 1
 
@@ -72,9 +72,9 @@ Analytics App Reference Guide
      - Component is added to load database list in selected databricks connection
    * - Table Dropdown
      - Select
-     - KEY : query , VALUE : show tables in $database$; (database value is taken from other component having key database)
+     - KEY : query , VALUE : show tables in $database; (database value is taken from other component having key database)
      - Component is added to load tables list in selected database and databricks connection
    * - Map Fields
      - Button
-     - KEY : query , VALUE : select * from $database$.$table$ limit 10; (database and table value is taken from other component having key database and table)
+     - KEY : query , VALUE : select * from $database.$table limit 10; (database and table value is taken from other component having key database and table)
      - Component is added for mapping table columns

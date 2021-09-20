@@ -1,7 +1,7 @@
 Installing Fire Insights with Rancher
 ==========================
 
-This document capture the steps for installing Fire Insights.
+This document captures the steps for installing Fire Insights.
 
 Below are the steps::
 
@@ -10,6 +10,15 @@ Below are the steps::
   * Install Apache HIVE
   * Install Jupyter
   * Install Fire Insights
+  
+Pre-requisites
+--------------
+
+Below are the pre-requisites needed for the installation::
+
+  * Linux VM's : OS...
+  * Following DNS entries :   
+  
   
 Install Rancher
 --------------

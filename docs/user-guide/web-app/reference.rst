@@ -14,7 +14,7 @@ Analytics App Reference Guide
      - file
      - Component is added to choose files to upload to databricks
    * - Destination Path
-     - text field
+     - Text Field
      - any
      - Component is added to get destination path where the browse file should get uploaded
    * - Columns

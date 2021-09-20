@@ -1,10 +1,10 @@
 August 2021
 =========
 
-STAGE CONDITION IN ANALYTIC APPS STAGES
+Stage Condition In Analytic Apps Stages
 ------------------------
 
-- TO LOAD PARTICULAR STAGE ON NEXT WHEN SPECIFIED CONDITION OF THAT STAGE IS FULFILLED WHILE RUNNING ANALYTIC APP
+- To load particular stage on next when specified condition of that stage is fulfilled while Running Analytic App.
 
 Sample Projects
 -----------

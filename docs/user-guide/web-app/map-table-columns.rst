@@ -13,7 +13,7 @@ Adding Database Dropdown
 Adding Tables Dropdown
 ---------------------
 
-- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables in $database$;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
+- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables in $database;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
         :alt: web-app
@@ -22,7 +22,7 @@ Adding Tables Dropdown
 Adding dropdown with values
 -------------------------
 
-- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE as `select * from $database$.$table$ limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present.
+- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE as `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
         :alt: web-app
@@ -37,7 +37,7 @@ Adding Map Fields Button
            :alt: web-app
            :width: 80%
            
-- Set its property name as `mapFields`. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as sql query ex: `select * from $database$.$table$ limit 10;`.   
+- Set its property name as `mapFields`. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as sql query ex: `select * from $database.$table limit 10;`.   
 
    .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn2.PNG
         :alt: web-app

@@ -10,15 +10,15 @@ Analytics App Reference Guide
      - Property Name 
      - Description
    * - File
-     - file
+     - File
      - file
      - Component is added to choose files to upload to databricks
    * - Destination Path
      - text field
-     - TRAIN_DATA
+     - any
      - Component is added to get destination path where the browse file should get uploaded
    * - Columns
-     - select boxes
+     - Select Boxes
      - any 
      - Component is added if user want to map the columns of the file uploaded
 
@@ -67,11 +67,11 @@ Analytics App Reference Guide
      - Custom Properties
      - Description
    * - Database Dropdown
-     - select
+     - Select
      - KEY : query , VALUE : show databases;
      - Component is added to load database list in selected databricks connection
    * - Table Dropdown
-     - select
+     - Select
      - KEY : query , VALUE : show tables in $database$; (database value is taken from other component having key database)
      - Component is added to load tables list in selected database and databricks connection
    * - Map Fields

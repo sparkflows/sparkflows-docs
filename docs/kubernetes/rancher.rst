@@ -3,9 +3,10 @@ Installing Fire Insights with Rancher
 
 This document captures the steps for installing Fire Insights.
 
-Below are the steps::
+Below are the steps:
 
   * Install Rancher
+  * Install Minio
   * Install Apache Spark
   * Install Apache HIVE
   * Install Jupyter
@@ -24,6 +25,12 @@ Install Rancher
 --------------
 
 Below are the steps for installing Rancher.
+
+Install Minio
+--------------
+
+Below are the steps for installing Minio on the Kubernetes cluster.
+
 
 Install Spark
 --------------

@@ -33,6 +33,8 @@ Adding dropdown with values
 Adding Map Fields Button
 -----------------------
 
+The Map Fields Button enables the user to map the fields of the table to new names.
+
 - Add Map fields button and set the action to ``event``. Set the button event name to ``mapFields``.
 
    .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn1.PNG
@@ -46,7 +48,7 @@ Adding Map Fields Button
         :width: 80%
 
 
-- To map the columns after running map fields button query below are steps : 
+In order to map the columns to the new names, add select boxes component to provide the mapping names for the user to choose from.
 
 - Add select boxes component to add the available column names. Set its label as ``Columns`` and make this component hidden by selecting the ``hidden`` checkbox.
 
@@ -54,7 +56,7 @@ Adding Map Fields Button
       :alt: web-app
       :width: 80%
 
-- Added default values where ``LABEL`` is ``DISPLAY NAME``, ``VALUE`` is ``ACTUAL COLUMN NAME`` and select that field which should be considered as a required field. And don't select this value ``CLEAR VALUE WHEN HIDDEN`` because we want the default value when the component is hidden.
+- Add default values where ``LABEL`` is ``DISPLAY NAME``, ``VALUE`` is ``ACTUAL COLUMN NAME`` and select that field which should be considered as a required field. And don't select this value ``CLEAR VALUE WHEN HIDDEN`` because we want the default value when the component is hidden.
 
    .. figure:: ../../_assets/web-app/match-api-data.PNG
       :alt: web-app
@@ -74,14 +76,14 @@ Adding Next Button
 Running app
 ------------------
 
-- If any stage has databricks database component added the it will load database list present in slected connection.
-- On selecting database , tables list will load for selected database and connection.
+- If any stage has the databricks database component added then it will load the database list present in the selected connection.
+- On selecting the database, tables list will get loaded for selected database and connection.
 
    .. figure:: ../../_assets/web-app/map-table-columns/run-app1.PNG
       :alt: web-app
       :width: 80%
 
-- On clicking `Map fields` button dialog shows up data after running the added query while designing app.
+- On clicking `Map fields` button the dialog shows up with data after running the query associated with the button.
 
    .. figure:: ../../_assets/web-app/map-table-columns/run-app2.PNG
       :alt: web-app

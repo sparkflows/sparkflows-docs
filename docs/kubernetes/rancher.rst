@@ -55,13 +55,13 @@ Below are the steps for installing Rancher Kubernetes Edition (RKE) and Rancher 
    $ docker ps
    CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS
  
-* Before installing the RKE, make sure you have configured the Outbound and inbound rules for all the nodes in the cluster, as per the Rancher [docs](https://rancher.com/docs/rke/latest/en/os/#ports)
+* Before installing the RKE, make sure you have configured the Outbound and inbound rules for all the nodes in the cluster, as per the Rancher `docs <https://rancher.com/docs/rke/latest/en/os/#ports>`_
 
 * Your SSH server system-wide configuration file, located at **/etc/ssh/sshd_config**, must include this line that allows TCP forwarding::
 
    AllowTcpForwarding yes
    
-* Download the RKE binary from the github [release](https://github.com/rancher/rke/#latest-release) page, copy the binary to a folder in $PATH , make it executable and rename it to **rke**.
+* Download the RKE binary from the github `release <https://github.com/rancher/rke/#latest-release>`_ page, copy the binary to a folder in $PATH , make it executable and rename it to **rke**.
 * Confirm that RKE is now executable by running the following command::
 
    $ rke --version
@@ -316,13 +316,100 @@ Below are the steps for installing Rancher Kubernetes Edition (RKE) and Rancher 
    dns: null
  
  
-With this configuration in place, make sure you've created **/mnt** directory on all nodes, as this will be used for mounting the volume on all the containers that will be running the kubernetes services. Also replace the <ip-addr> with the appropriate IP address for each of the VM, and create a single private key.pem file which will be used to ssh into the cluster.
+Configuration description
+====================================
+
+* The nodes section consist of config for each node that will be part of the cluster. Make sure you've replaced the <ip-addr-i> with the appropriate IP address of all the nodes.
+
+* For accessing the nodes through SSH, create a key.pem file and share its local path, from where **rke** binary would be run, which is **~/.ssh/key.pem** in this case.
+
+* As the different services will be running in docker containers, therefore we need to create a directory with name **/mnt** directory on all nodes, as this will be used for mounting on all the containers by the kubelet service. This directory will be used for creating persistent volume while creating different services in kubernetes.
+
+* While installing the Rancher, we would need to create certificates for the services which will need the following config to be in place for the kube-controller service
+.. code-block:: yml
+
+  extra_args:
+         cluster-signing-cert-file: "/etc/kubernetes/ssl/kube-ca.pem"
+         cluster-signing-key-file: "/etc/kubernetes/ssl/kube-ca-key.pem"
+
+
+
  
-Now run the below command to install kubernetes::
+* Once you have created the configuration, you can install kubernetes by running the following command::
  
    rke up
+
+* The above command when runs successfully, will create a file **cluster.rkestate** that will be used to update the state of the cluster when changes are made to cluster.yml. The above command also creates kube config file - **kube_config_cluster.yml** that can be used to interact with the kubernetes cluster using kubectl.
+
+* Download and Install kubectl binary::
+
+   curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+   sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+  
+* Use kubectl to interact with kubernets cluster::
+
+   $ export KUBECONFIG=~/kube_config_cluster.yml
+   $ kubectl get nodes
    
+   NAME     STATUS   ROLES                      AGE   VERSION
+   n1.k8s   Ready    controlplane,etcd,worker   23h   v1.20.10
+   n2.k8s   Ready    worker                     23h   v1.20.10
+   n3.k8s   Ready    worker                     23h   v1.20.10
+   n4.k8s   Ready    worker                     23h   v1.20.10
+   
+* If you see the above output, your cluster is up and running.
+
+Install Rancher
+==================
+
+Now that we have the RKE up and running, its time to install rancher to manage the kubernetes cluster and monitor it. Follow the below steps to install rancher
+
+* Download and install helm from `github <https://github.com/helm/helm/releases>`_::
  
+   tar -zxvf helm-v3.7.0-linux-amd64.tar.gz
+   sudo mv linux-amd64/helm /usr/local/bin/helm
+
+* Add the helm chart repository for the Rancher::
+  
+   helm repo add rancher-stable https://releases.rancher.com/server-charts/stable
+   
+* Create a namespace for rancher::
+   
+   kubectl create namespace cattle-system
+   
+* Setup SSL Configuration using **cert-manager**
+
+.. code-block:: bash
+
+  # If you have installed the CRDs manually instead of with the `--set installCRDs=true` option added to your Helm install command, you should upgrade your CRD      resources before upgrading the Helm chart:
+   kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.5.1/cert-manager.crds.yaml
+
+  # Add the Jetstack Helm repository
+   helm repo add jetstack https://charts.jetstack.io
+
+  # Update your local Helm chart repository cache
+   helm repo update
+
+  # Install the cert-manager Helm chart
+   helm install cert-manager jetstack/cert-manager \
+    --namespace cert-manager \
+    --create-namespace \
+    --version v1.5.1
+
+* Install helm chart for Rancher and provide the hostname which has a DNS entry for one of the node in kubernetes cluster::
+   
+   helm install rancher rancher-stable/rancher \
+  --namespace cattle-system \
+  --set hostname=example.rancher.server.com \
+  --set replicas=3
+
+* Validate the deployment of the rancher::
+
+   kubectl -n cattle-system rollout status deploy/rancher
+   kubectl -n cattle-system get deploy rancher
+
+Now you can head over to https://example.rancher.server.com to view the rancher UI.
+
 
 
 Install Minio

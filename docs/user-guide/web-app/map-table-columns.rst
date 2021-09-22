@@ -1,6 +1,8 @@
 Mapping Table Columns
 =======================
 
+Fire Insights enables to map the columns of a Table to updated names. This mapping is then sent over as parameters to the Notebook or Workflow during execution.
+
 Adding Database Dropdown
 ------------------
 

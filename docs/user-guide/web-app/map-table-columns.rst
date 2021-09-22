@@ -6,7 +6,7 @@ Fire Insights enables to map the columns of a Table to updated names. This mappi
 Adding Database Dropdown
 ------------------
 
-- Add select component to load data depending upon added query and selected databricks connection. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as sql query ex: To load databases add query as `show databases;`.
+- Add select component to load data depending upon added query and selected databricks connection. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE would be an sql query. For example to load databases the query can be `show databases;`.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-db.PNG
         :alt: web-app
@@ -15,7 +15,7 @@ Adding Database Dropdown
 Adding Tables Dropdown
 ---------------------
 
-- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as `show tables in $database;`. Here, `database` in `$database` is property name of some other component. When user select database then, this select option gets load.
+- Load tables list data in select component by adding sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE can be `show tables in $database;`. Here, `database` in `$database` is property name of some other component. When user selects the database then this select option gets loaded.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
         :alt: web-app
@@ -24,7 +24,7 @@ Adding Tables Dropdown
 Adding dropdown with values
 -------------------------
 
-- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE as `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present.
+- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE can be `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present.
 
    .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
         :alt: web-app

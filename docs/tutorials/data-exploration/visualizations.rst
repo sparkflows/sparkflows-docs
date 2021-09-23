@@ -26,7 +26,7 @@ The below workflow:
 Graphing Distribution of Sales Revenue
 -----------------------------------
 
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
+We use the ``BoxPlot`` processor to chart the distribution of a selected variable. This node also has the option to group by a different variable. In this case we are grouping sales by the ProductLine to show to distribution of sales in each category.  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,7 +47,7 @@ Processor Output
 Graphing MSRP vs Sale Labelled by Status
 -----------------------
 
-We use the ``Columns Cardinality`` node to find the number of unique values in a string variable. In this case we are using cardinality to gauge the relationship between publishers, authors, and books. We can see that publishers on average publish 14 books, while authors on average write 2.4 books. 
+We use the ``Bubble Chart`` node to create a scattergram, with point's size and color determined by additional variables. By creating bubbles instead of points, we can display more information in a single chart.  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -69,7 +69,7 @@ Processor Output
 Graphing Count of Orders by Status
 ------------------------
 
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
+We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. In this case we can visually inspect the status of orders to make sure orders are being processed and shipped properly with no bottle-necks. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

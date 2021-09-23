@@ -317,7 +317,7 @@ Below are the steps for installing Rancher Kubernetes Edition (RKE) and Rancher 
  
  
 Configuration description
-====================================
+--------------
 
 * The nodes section consist of config for each node that will be part of the cluster. Make sure you've replaced the <ip-addr-i> with the appropriate IP address of all the nodes.
 

@@ -44,7 +44,7 @@ Processor Output
    :width: 90%
 
    
-Columns Cardinality
+Graphing MSRP vs Sale Labelled by Status
 -----------------------
 
 We use the ``Columns Cardinality`` node to find the number of unique values in a string variable. In this case we are using cardinality to gauge the relationship between publishers, authors, and books. We can see that publishers on average publish 14 books, while authors on average write 2.4 books. 
@@ -66,7 +66,7 @@ Processor Output
 
 
 
-Grouping Users by Age
+Graphing Count of Orders by Status
 ------------------------
 
 We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 

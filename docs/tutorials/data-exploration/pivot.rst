@@ -18,7 +18,7 @@ The below workflow:
 * Creates a graph of the count of different order status
 
 
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Overview.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -28,10 +28,30 @@ Graphing Distribution of Sales Revenue
 
 We use the ``BoxPlot`` processor to chart the distribution of a selected variable. This node also has the option to group by a different variable. In this case we are grouping sales by the ProductLine to show to distribution of sales in each category.  
 
+Processor Output
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Print1_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+
+Graphing Distribution of Sales Revenue
+-----------------------------------
+
+We use the ``BoxPlot`` processor to chart the distribution of a selected variable. This node also has the option to group by a different variable. In this case we are grouping sales by the ProductLine to show to distribution of sales in each category.  
+
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Boxplot_Config.PNG
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot1_Config.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot2_Output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -39,51 +59,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Boxplot_Output.PNG
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Print2_output.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
-   
-Graphing MSRP vs Sale Labelled by Status
------------------------
-
-We use the ``Bubble Chart`` node to create a scattergram, with point's size and color determined by additional variables. By creating bubbles instead of points, we can display more information in a single chart.  
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Bubble_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-   
-Processor Output
-^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Bubble_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-
-
-Graphing Count of Orders by Status
-------------------------
-
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. In this case we can visually inspect the status of orders to make sure orders are being processed and shipped properly with no bottle-necks. 
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Graph_Group_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-   
-Processor Output
-^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-exploration/visualizations/Graph_Group_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-  

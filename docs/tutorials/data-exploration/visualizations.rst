@@ -1,5 +1,5 @@
 Data Visualizations
-================
+====================
 
 This tutorial will cover how to explore data using different types of graphs and charts that can capture different or more in-depth information than basic graphs. Specifically, this tutorial will cover how to create box-plots, bubble charts, and graph group by column. The data used in this tutorials is sales data provided by an online retailer. The original data can be found here: https://www.kaggle.com/kyanyoga/sample-sales-data
 

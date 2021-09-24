@@ -35,6 +35,12 @@ Spark ML
 
     ---
 
+    :doc:`/tutorials/data-science/sparkml/impute`
+
+    This workflow imputes missing values.
+
+    ---
+
     :doc:`/tutorials/data-science/sparkml/earthquake-prediction`
 
     Motivation behind earthquake prediction is to empower crisis measures to decrease demise and devastation, inability to give notice of a significant earthquake that happens, or possibly a satisfactory assessment of the hazard, can bring about legitimate risk, or even political cleansing.
@@ -66,6 +72,7 @@ Spark ML
    farmers-market-prediction.rst
    clustering-houses.rst
    tfidf.rst
+   impute.rst
    earthquake-prediction.rst
    multilayerPerceptronClassifier.rst
    smote.rst

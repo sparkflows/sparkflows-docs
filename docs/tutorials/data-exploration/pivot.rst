@@ -1,14 +1,14 @@
 Pivot
 ================
 
-This tutorial will cover how to pivot a data table and aggregate data to focus on a particular subset of a larger dataset. Pivot can also be used to feed into data visualization nodes and provides additional dimensions that would not otherwise be available. This tutorial will use the widely available Titanic dataset. 
+This tutorial will cover how to pivot a data table and aggregate data to focus on a particular subset of a larger dataset. Pivot can also be used to feed into data visualization nodes and provides additional dimensions that would not otherwise be available. This tutorial will use the widely available Titanic dataset that details the survival of the passengers aboard during the sinking of the Titanic ship. 
 
 .. contents::
    :depth: 2
 
 
 
-Visualizing Sales Data
+Pivoting Titanic Data
 -------------------------
 
 The below workflow: 

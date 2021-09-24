@@ -35,6 +35,10 @@ Below are the steps:
 
    rancher.rst
    minio.rst
+   spark.rst
+   hive.rst
+   jupyter.rst
+   fire-insights.rst
    
    
    

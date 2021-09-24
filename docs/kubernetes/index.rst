@@ -34,6 +34,8 @@ Below are the steps:
    :maxdepth: 2
 
    rancher.rst
+   minio.rst
+   
    
    
    

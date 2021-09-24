@@ -39,7 +39,7 @@ Processor Output
 Pivoting the Dataset
 -----------------------------------
 
-We use the ``BoxPlot`` processor to chart the distribution of a selected variable. This node also has the option to group by a different variable. In this case we are grouping sales by the ProductLine to show to distribution of sales in each category.  
+We use the ``Pivot By`` processor to pivot a particular dataset and aggregate the data. The first option in the configuration pane allows us to select the column by which the data will be grouped, this will become essentially the index column in the resulting dataset. The second option allows us to select which column the data will be pivoted around, the unique values in this column will become the new columns generated. The final option allows us to select which column will provide the data in the body of the table, and which aggregate statistic to use. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,7 +51,7 @@ Processor Configuration
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot2_Output.PNG
+.. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot2_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 

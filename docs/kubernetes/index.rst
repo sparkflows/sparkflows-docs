@@ -11,7 +11,7 @@ There are two scenarios:
 
 If you are on-premise, we recommend installing Rancher.
 
-Fire Insights adds the following services::
+Fire Insights adds the following services:
 
   * Fire Insights : for self-serve Advanced Data Analytics
   * Minio : for distributed storage
@@ -19,6 +19,17 @@ Fire Insights adds the following services::
   * Apache Spark : for Distributed Processing
   * Jupyter : For Machine Learning with Notebooks
 
+This document captures the steps for installing Fire Insights.
+
+Below are the steps:
+
+ * Install Rancher with RKE
+ * Install Minio
+ * Install Apache Spark
+ * Install Apache HIVE
+ * Install Jupyter
+ * Install Fire Insights
+ 
 .. toctree::
    :maxdepth: 2
 

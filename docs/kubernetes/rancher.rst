@@ -402,28 +402,3 @@ Now you can head over to https://example.rancher.server.com to view the rancher 
 
 
 
-Install Minio
---------------
-
-Below are the steps for installing Minio on the Kubernetes cluster.
-
-
-Install Spark
---------------
-
-Below are the steps for installing Apache Spark.
-
-Install HIVE
---------------
-
-Below are the steps for installing HIVE.
-
-Install Jupyter
---------------
-
-Below are the steps for installing Jupyter.
-
-Install Fire Insights
---------------
-
-Below are the steps for installing Fire Insights.

@@ -1,16 +1,6 @@
-Installing Fire Insights with Rancher
+Installing Rancher
 ==========================
 
-This document captures the steps for installing Fire Insights.
-
-Below are the steps:
-
- * Install Rancher with RKE
- * Install Minio
- * Install Apache Spark
- * Install Apache HIVE
- * Install Jupyter
- * Install Fire Insights
   
 Linux OS requirements for Rancher
 --------------

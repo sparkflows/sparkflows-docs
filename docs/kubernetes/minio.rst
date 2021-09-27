@@ -109,7 +109,7 @@ After the creation of tenant, using the operator console, its time to create buc
     chmod +x $HOME/minio-binaries/mc
     export PATH=$PATH:$HOME/minio-binaries/
     
- * Use the downloaded credentials to connect with the newly created tenant from another application or pod in the cluster::
+* Use the downloaded credentials to connect with the newly created tenant from another application or pod in the cluster::
     
     # Add alias
     mc alias set minio https://minio.demo.svc.cluster.local <access_key> <access_secret_key>
@@ -117,7 +117,7 @@ After the creation of tenant, using the operator console, its time to create buc
     # Create a bucket for Spark logs
     mc mb minio/spark/logs
     
- * The above created bucket will be used for storing the spark logs.
+* The above created bucket will be used for storing the spark logs.
  
  
  

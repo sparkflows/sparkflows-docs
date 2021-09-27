@@ -1,0 +1,14 @@
+
+Pipeline
+====
+
+Fire Insights enables creating Pipelines. With pipelines, multiple workflows can be executed.
+
+
+.. toctree::
+   :maxdepth: 2
+
+   pipeline.rst
+   execute-next-node.rst
+   
+   

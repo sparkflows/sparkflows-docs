@@ -35,7 +35,9 @@ The Databricks High Concurrencly cluster does not enable scala by default. It ca
 
 Go to Configurations-->> Advanced Options -->> Spark -->> and add the below in Spark Config
 
-spark.databricks.repl.allowedLanguages sql,python,r,scala
+::
+
+    spark.databricks.repl.allowedLanguages sql,python,r,scala
 
 .. note::  
 

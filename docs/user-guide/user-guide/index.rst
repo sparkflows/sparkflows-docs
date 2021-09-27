@@ -42,7 +42,7 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     ---
 
-    :doc:`/user-guide/user-guide/pipelines`
+    :doc:`/user-guide/user-guide/pipelines/index`
 
     Pipelines allow running workflows in a defined order.
 
@@ -55,7 +55,7 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
    scheduling/index.rst
    export-import/index.rst
    connections/index.rst
-   pipelines.rst
+   pipeline/index.rst
    
 
 

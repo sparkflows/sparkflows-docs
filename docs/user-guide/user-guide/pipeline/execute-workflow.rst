@@ -41,9 +41,10 @@ Execute Workflow
 
 Once the above workflow got configured with needed details, you can Execute the workflow now.
 
-when it will be executed, you will see in workflow execution page the workflow selected in Execute Workflow Node is also executed and you can see their result etc.
+when it will be executed, you will see in workflow execution page the workflow selected in Execute Workflow Node is also executed and you can see their result etc
 
-.. figure:: ..//_assets/user-guide/wfe_node/wf_triggered.PNG 
+
+.. figure:: ../../_assets/user-guide/wfe_node/wf_triggered.PNG 
    :alt: Execute Workflow
    :width: 80%
  

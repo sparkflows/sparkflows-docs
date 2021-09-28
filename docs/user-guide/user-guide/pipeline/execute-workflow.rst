@@ -26,7 +26,7 @@ Add below parameters in 'Execute Workflow' Node.
    * - Title
      - Value
    * - WORKFLOW
-     - The workflow to execute
+     - Select the workflow to execute
    * - isEnabled
      - isEnabled true to execute the selected workflow
    * - KEY VALUE ARRAY

@@ -10,5 +10,17 @@ Overview
 
 The `Execute Worklow` node sends a message to Fire Insights to execute a specific workflow. The workflow has to be within the same project. The workflow gets executes with the user who execute the original workflow, you can pass even some workflow parameters too.
 
+Below are the steps on how to Execute a specific workflow in Fire Insights.
+
+Create Workflow
+--------------------
+
+Click on 'Create New Workflow' and search 'Execute Workflow' Node in Left pane and drag to editor.
+
+
+.. figure:: ../../../_assets/user-guide/wfe_node/wfe_node.PNG 
+   :alt: Execute Workflow
+   :width: 80%
+
 
 

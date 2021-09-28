@@ -17,6 +17,20 @@ Create Workflow
 
 Click on 'Create New Workflow' and search 'Execute Workflow' Node in Left pane and drag to editor.
 
+Add below parameters in 'Execute Workflow' Node.
+
+.. list-table:: 
+   :widths: 10 20 
+   :header-rows: 1
+
+   * - Title
+     - Value
+   * - WORKFLOW
+     - The workflow to execute
+   * - isEnabled
+     - isEnabled true execute the selected workflow
+   * - KEY VALUE ARRAY
+     - PARAMETER NAME and PARAMETER VALUE if want to pass workflow parameters
 
 .. figure:: ../../../_assets/user-guide/wfe_node/wfe_node.PNG 
    :alt: Execute Workflow

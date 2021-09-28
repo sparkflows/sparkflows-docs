@@ -22,8 +22,8 @@ We will be leveraging KUDO plugin to install and upgrade Spark operator and Hist
 * Create spark config secret, using access keys from MinIO::
 
    cat << 'EOF' >> spark-defaults.conf
-    spark.hadoop.fs.s3a.access.key Ebc7rPixslyNMzkb
-    spark.hadoop.fs.s3a.secret.key LBTJCw8imJTE8yGfAb6Ba7bwprvb6iDc
+    spark.hadoop.fs.s3a.access.key <access_key>
+    spark.hadoop.fs.s3a.secret.key <access_secret_key>
     spark.hadoop.fs.s3a.impl org.apache.hadoop.fs.s3a.S3AFileSystem
     spark.hadoop.fs.s3a.endpoint https://minio.demo.svc.cluster.local
     spark.hadoop.fs.s3a.path.style.access true

@@ -28,7 +28,7 @@ Add below parameters in 'Execute Workflow' Node.
    * - WORKFLOW
      - The workflow to execute
    * - isEnabled
-     - isEnabled true execute the selected workflow
+     - isEnabled true to execute the selected workflow
    * - KEY VALUE ARRAY
      - PARAMETER NAME and PARAMETER VALUE if want to pass workflow parameters
 

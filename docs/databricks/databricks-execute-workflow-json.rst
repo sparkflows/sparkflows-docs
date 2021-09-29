@@ -58,16 +58,32 @@ In order to execute it, create a Notebook with the below code::
     val jobId = dbutils.widgets.get("job-id")
     val webserverURL = dbutils.widgets.get("postback-url")
     val workflowJsonPath = dbutils.widgets.get("workflowJsonPath")
-    val programParameters = dbutils.widgets.get("programParameters")
+    var programParameters = dbutils.widgets.get("programParameters")
+    val debug = "false"
+    val username = ""
+
+::
+
+    # Adding the scope, user, password and url of secrets to parameter, if any.
+    
+    programParameters = programParameters.trim + " --var databricks_scope=db_secrets_scope --var sf_user_key=sfUser --var sf_password_key=sfPassword --var sf_url_key=sfUrl"
+    
     
 ::
 
-    # Import the WorkflowExecuteDatabricks, Create the array of input parametrs with postback-url, job-id, workflow-json-path, debug-mode. Exeute the workflow, by calling main function.
+    # Read the workflow json.
+    
+    import org.apache.commons.lang3.StringEscapeUtils
+    val workflowjson = spark.read.textFile(workflowJsonPath).take(1)(0)
+
+::
+
+    # Execute the workflow.
     
     import fire.execute.WorkflowExecuteDatabricks
-    val args: Array[String] = Array(webserverURL, jobId, workflowJsonPath, "true")
-    WorkflowExecuteDatabricks.main(args)
+    WorkflowExecuteDatabricks.execute(webserverURL, jobId, workflowjson, debug, username, programParameters.trim)
     
+
 Create the Spark Job in Databricks
 ++++++++++++++++
 

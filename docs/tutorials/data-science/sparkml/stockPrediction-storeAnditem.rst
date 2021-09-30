@@ -1,8 +1,8 @@
 Stock Prediction For Each Store & Item
 ======================================
 
-This workflow to predcit the stock for each store & iteam by using linear regression & loop nodes.
-Loop nodes takes in store & iteam field and pass the data to liner regression model in loop.
+This workflow to predict the stock for each store & iteam by using linear regression & loop nodes.
+Loop nodes takes in store & item fields and pass the data to liner regression model in a loop.
 
 Workflow
 --------
@@ -61,7 +61,7 @@ VectorAssembler
 
 LoopDistinctValue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Node to loop the data for distinct values in the selected columns.
+Node to loop through the data for distinct values in the selected columns.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/5.png
    :alt: Stock Prediction

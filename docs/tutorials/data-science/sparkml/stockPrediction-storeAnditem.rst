@@ -12,11 +12,11 @@ The below workflow:
 * Reads data from a given path.
 * Extracts day, month & year from date.
 * Assembles features for modelling.
-* select the store & item field in loop node to filter the data for each store & item and pass the data to model node.
+* Selects the store & item field in loop node to filter the data for each store & item and pass the data to model node.
 * Splits the dataset.
-* Uses LinearRegression Node.
+* Uses LinearRegression Node to create the ML model.
 * Makes prediction on future data.
-* Uses RegressionEvaluator Node.
+* Uses RegressionEvaluator Node to evaluate the predictions.
 * ModelSummary for each combination of store & item.
 
 

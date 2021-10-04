@@ -1,6 +1,13 @@
 September 2021
 ===========
 
+
+New Processors
+---------------
+
+- Added workflow execute node which will trigger next workflow selected with passing different parameters.
+
+
 DBFS
 ----
 
@@ -11,3 +18,16 @@ WORKFLOWS
 ---------
 
 - Workflow parameters in the execute page(Input as text or Input as key-value)
+
+
+Analytics Application
+---------------------
+
+- Mapping table columns
+
+
+UI
+---
+
+- Updated chart colors
+- Updated tables and projects card style on the dashboard

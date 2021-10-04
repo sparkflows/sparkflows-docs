@@ -1,2 +1,13 @@
 September 2021
 ===========
+
+DBFS
+----
+
+- Enable the users to rename DBFS folder.
+
+
+WORKFLOWS
+---------
+
+- Workflow parameters in the execute page(Input as text or Input as key-value)

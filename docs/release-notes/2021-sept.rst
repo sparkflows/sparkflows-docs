@@ -31,3 +31,8 @@ UI
 
 - Updated chart colors
 - Updated tables and projects card style on the dashboard
+
+AWS Glue
+-------
+
+- Integration of AWS Glue

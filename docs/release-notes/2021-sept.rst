@@ -36,3 +36,5 @@ AWS Glue
 -------
 
 - Integration of AWS Glue
+
+Sparkflows has now integrated with AWS Glue. Now the users of Sparkflows can easily create connections to AWS Glue and run the Sparkflows jobs seamlessly onto AWS Glue and view the results back in Sparkflows.

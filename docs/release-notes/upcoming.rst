@@ -24,7 +24,7 @@ UI
 
 - Introducing new icons for nodes
 - Adding color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
-- Ability to select multiple nodes in the wf editor
+- Ability to select multiple nodes in the workflow editor
 
 New Processor
 -------

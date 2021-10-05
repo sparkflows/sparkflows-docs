@@ -38,6 +38,8 @@ AWS Glue
 - Integration of AWS Glue
 
 Sparkflows has now integrated with AWS Glue. Now the users of Sparkflows can easily create connections to AWS Glue and run the Sparkflows jobs seamlessly onto AWS Glue   and view the results back in Sparkflows.
+
 Sparkflows has partnered with AWS to bring Self-Serve Advanced Analytics to the users of AWS. Sparkflows is now integrated with AWS Glue. The users of Sparkflows can easily create connections to AWS Glue and run the Sparkflows jobs seamlessly onto AWS Glue and view the results in Sparkflows.
+
 AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
 

@@ -8,9 +8,7 @@ New Processors
 Workflow execute node
 +++++
 
-- Added new node i.e execute workflow node.
-- It will trigger next workflow selected by passing different parameters.
-- In this node called `KEY VALUE ARRAY` field is present where, PARAMETER NAME and PARAMETER VALUE is added as workflow parameters.
+- Node to execute the selected workflow along with the parameters.
 
 Documentation
 +++++

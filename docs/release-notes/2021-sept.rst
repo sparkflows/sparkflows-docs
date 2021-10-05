@@ -5,26 +5,50 @@ September 2021
 New Processors
 ---------------
 
-- Added workflow execute node which will trigger next workflow selected with passing different parameters.
+Workflow execute node
++++++
 
+- Added new node i.e execute workflow node.
+- It will trigger next workflow selected by passing different parameters.
+- In this node called `KEY VALUE ARRAY` field is present where, PARAMETER NAME and PARAMETER VALUE is added as workflow parameters.
+
+Documentation
++++++
+
+- Reference guide : https://docs.sparkflows.io/en/latest/user-guide/user-guide/pipeline/execute-workflow.html
 
 DBFS
 ----
 
-- Enable the users to rename DBFS folder.
+Rename DBFS folders
++++++
+- Earlier user were only able to rename dbfs file but, now can rename dbfs folders also.
 
 
 Workflows
 ---------
 
-- Workflow parameters in the execute page(Input as text or Input as key-value)
-
+Workflow parameters in the execute page
++++++
+- User can add parameters as simple text or as key-value pair now. 
+- In case of key-value option, the last executed parameters will be shown by default. 
+- Users can add more parameters or delete some parameters.
 
 Analytics Application
 ---------------------
 
-- Mapping table columns
+Mapping table columns
++++++
 
+- Analytics App now supports map databricks table columns. 
+- Users can add databricks query with elements and populate values. 
+- With the use of these query elements users can get value from databricks and map with predefined columns for parameters.
+- Mapping is then sent over as parameters to the Notebook or Workflow during execution.
+
+Documentation
++++++
+
+- Reference guide : https://docs.sparkflows.io/en/latest/user-guide/web-app/map-table-columns.html
 
 UI
 ---

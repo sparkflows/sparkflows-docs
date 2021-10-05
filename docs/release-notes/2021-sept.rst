@@ -43,6 +43,6 @@ Sparkflows has partnered with AWS to bring Self-Serve Advanced Analytics to the 
 
 AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
 
-.. figure:: ../../_assets/releases/aws-glue.png
+.. figure:: ../_assets/releases/aws-glue.png
         :alt: web-app
         :width: 80%

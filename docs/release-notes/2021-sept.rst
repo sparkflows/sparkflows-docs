@@ -14,7 +14,7 @@ DBFS
 - Enable the users to rename DBFS folder.
 
 
-WORKFLOWS
+Workflows
 ---------
 
 - Workflow parameters in the execute page(Input as text or Input as key-value)

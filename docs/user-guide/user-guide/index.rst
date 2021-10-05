@@ -42,7 +42,7 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     ---
 
-    :doc:`/user-guide/user-guide/pipelines/index`
+    :doc:`/user-guide/user-guide/pipeline/index`
 
     Pipelines allow running workflows in a defined order.
 

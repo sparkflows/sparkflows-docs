@@ -5,7 +5,7 @@ Below are the steps for installing Fire Insights.
 
 - In this setup, we will be using MySQL as the database for Fire insights server. Assuming MySQL is running in the namespace **demo**, create an interactive shell using the below command::
   
-  kubectl run -it --rm --image=mysql:8.0 --restart=Never mysql-client -- mysql -h mysql.demo.svc.cluster.local -p<root_password>
+   kubectl run -it --rm --image=mysql:8.0 --restart=Never mysql-client -- mysql -h mysql.demo.svc.cluster.local -p<root_password>
   
 - Initialize the database and user for interacting with that database::
    

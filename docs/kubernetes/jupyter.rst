@@ -10,10 +10,86 @@ In this step we will initialize a chart configuration file for you to adjust you
 .. code-block:: yml
 
    singleuser:
-   defaultUrl: "/lab"
-   extraEnv:
-     JUPYTERHUB_SINGLEUSER_APP: "jupyter_server.serverapp.ServerApp"
-     
+     defaultUrl: "/lab"
+     extraEnv:
+       JUPYTERHUB_SINGLEUSER_APP: "jupyter_server.serverapp.ServerApp"
+     storage:
+       type: none
+       extraVolumes:
+         - name: jupyterhub-shared
+           persistentVolumeClaim:
+             claimName: jupyterhub-shared-claim
+       extraVolumeMounts:
+         - name: jupyterhub-shared
+           mountPath: /home/shared
+        
+- With the above configuration, create persistent volume and persistent volume claim as per the below configuration
+
+.. code-block:: yml
+   
+   apiVersion: v1
+   kind: PersistentVolume
+   metadata:
+     name: jupyter-pv
+   spec:
+     capacity:
+       storage: 5Gi
+     volumeMode: Filesystem
+     accessModes:
+       - ReadWriteOnce
+     persistentVolumeReclaimPolicy: Delete
+     storageClassName: local-storage
+     local:
+       path: /mnt/jupyter
+     nodeAffinity:
+       required:
+         nodeSelectorTerms:
+           - matchExpressions:
+               - key: kubernetes.io/hostname
+                 operator: In
+                 values:
+                   - n3.k8s
+   ---
+   apiVersion: v1
+   kind: PersistentVolume
+   metadata:
+     name: jupyter-pv-shared
+   spec:
+     capacity:
+       storage: 5Gi
+     volumeMode: Filesystem
+     accessModes:
+       - ReadWriteOnce
+     persistentVolumeReclaimPolicy: Delete
+     storageClassName: local-storage
+     local:
+       path: /mnt/jupyter-shared
+     nodeAffinity:
+       required:
+         nodeSelectorTerms:
+           - matchExpressions:
+               - key: kubernetes.io/hostname
+                 operator: In
+                 values:
+                   - n1.k8s
+   ---
+   apiVersion: v1
+   kind: PersistentVolumeClaim
+   metadata:
+     name: jupyterhub-shared-claim
+     namespace: demo
+   spec:
+     accessModes:
+       - ReadWriteOnce
+     storageClassName: local-storage
+     resources:
+       requests:
+         storage: 5Gi
+  
+- Make sure you've create a directory **/mnt/jupyter-shared** in the node **n1.k8s** for the persistent volume to work. Once done, run the following the create the PV and PVC::
+   
+   kubectl apply -f pv.yaml
+
 - Make Helm aware of the JupyterHub Helm chart repository so you can install the JupyterHub chart from it without having to use a long URL name::
 
    helm repo add jupyterhub https://jupyterhub.github.io/helm-chart/
@@ -28,7 +104,7 @@ In this step we will initialize a chart configuration file for you to adjust you
    --version=<chart-version> \
    --values config.yaml
    
-   where:
+  where:
 
   - <helm-release-name> refers to a Helm release name, an identifier used to differentiate chart installations. You need it when you are changing or deleting the   configuration of this chart installation. If your Kubernetes cluster will contain multiple JupyterHubs make sure to differentiate them. You can list your Helm releases with helm list.
 
@@ -52,4 +128,18 @@ In this step we will initialize a chart configuration file for you to adjust you
    hub-5d4ffd57cf-k68z8    1/1       Running   0          37s
    proxy-7cb9bc4cc-9bdlp   1/1       Running   0          37s
 
-  
+- Get the host where the proxy is running::
+ 
+    kubectl get pod -n demo --selector="component=proxy" --output=wide
+    NAME                    READY   STATUS    RESTARTS   AGE   IP           NODE     NOMINATED NODE   READINESS GATES
+    proxy-6f5cf844f-c2sln   1/1     Running   0          34m   10.42.3.43   n3.k8s   <none>           <none>
+    
+- Get the port of the node, where the proxy is running::
+    
+    kubectl describe svc/proxy-public -n demo
+    ...
+    ...
+    NodePort:                 http  31980/TCP
+    ...
+    ...
+- Access the Jupyter lab from url - http://<public-ip-node>:31980/

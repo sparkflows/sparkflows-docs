@@ -1,0 +1,12 @@
+October 2021
+===========
+
+
+New Processors
+---------------
+
+Output Rich Text
++++++
+
+- Node to output rich text.
+

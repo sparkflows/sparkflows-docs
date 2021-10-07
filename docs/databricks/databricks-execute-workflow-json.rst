@@ -147,7 +147,7 @@ In order to execute it, create a Notebook with the below code::
                                       program_parameters = programParameters)
     
  
-Create the Spark Job in Databricks
+Create the Pyspark Job in Databricks
 ++++++++++++++++
 
 Create the Spark Job by attaching the notebook template with input parameters like workflow-json-path etc.

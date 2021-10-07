@@ -158,4 +158,4 @@ Submit the Job to Databricks Cluster
 Submit the Job to Databricks Cluster by passing the required workflow json path.
  
  
-.. note::  Make sure to verify if workflow json path in dbfs is accessible and above Notebook is attached to Databricks Cluster with required library
+.. note::  Make sure to verify if workflow json path in dbfs is accessible and above Notebook is attached to Databricks Cluster with required Fire INsights library

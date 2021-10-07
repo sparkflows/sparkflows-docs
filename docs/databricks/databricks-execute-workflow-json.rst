@@ -16,7 +16,7 @@ Below are the high level steps for it:
   * Export the workflow from Fire Insights as JSON file.
   * Uplod the workflow JSON to DBFS.
   * Upload the Fire Insights libraries into the Databricks Cluster.
-  * Create a Notebook and attached it to Databricks Cluster which have Fire Insights Library installed.
+  * Create a Notebook and attach it to Databricks Cluster which have Fire Insights Library installed.
   * Execute the Notebook.
   
 

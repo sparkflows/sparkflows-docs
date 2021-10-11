@@ -1,7 +1,7 @@
 Browsing Snowflake Tables
 ===========================
 
-Fire Insights allows you to Browse your Snowflake Databases, schemas & Tables. 
+Fire Insights allows you to Browse your Snowflake Databases, schemas & Tables. In configuration `module.enableSnowflakeDb` set this value to true for browsing Snowflake Db page. 
 
 Go to Data/Snowflake DB
 ----------------------

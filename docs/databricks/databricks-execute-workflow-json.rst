@@ -89,10 +89,10 @@ Create the Spark Job in Databricks
 
 Create the Spark Job by attaching the notebook template with input parameters like workflow-json-path etc.
 
-Submit the Job to Databricks Cluster
+Submit the Spark Job to Databricks Cluster
 ++++++++++++++++
 
-Submit the Job to Databricks Cluster by passing the required workflow json path.
+Submit the Spark Job to Databricks Cluster by passing the required workflow json path.
 
 
 Running Pyspark Workflows
@@ -150,12 +150,12 @@ In order to execute it, create a Notebook with the below code::
 Create the Pyspark Job in Databricks
 ++++++++++++++++
 
-Create the Spark Job by attaching the notebook template with input parameters like workflow-json-path etc.
+Create the Pyspark Job by attaching the notebook template with input parameters like workflow-json-path etc.
 
-Submit the Job to Databricks Cluster
+Submit the Pyspark Job to Databricks Cluster
 ++++++++++++++++
 
-Submit the Job to Databricks Cluster by passing the required workflow json path.
+Submit the Pyspark Job to Databricks Cluster by passing the required workflow json path.
  
  
 .. note::  Make sure to verify if workflow json path in dbfs is accessible and above Notebook is attached to Databricks Cluster with required Fire INsights library

@@ -74,7 +74,7 @@ This has to be done under Administration/Configuration.
 
 .. figure:: ../_assets/configuration/databricks_configuration.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 60%
    
    
 Configure app.postMessageURL in Fire Insights

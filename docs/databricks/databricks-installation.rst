@@ -59,10 +59,11 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    
 * Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
 
-.. figure:: ../_assets/configuration/installautomatic.PNG
+.. figure:: ../_assets/configuration/automatic_install.PNG
    :alt: Databricks
    :width: 40%
-   
+
+.. note::  This option does not work on clusters with Runtime version >= 7.0
    
 Configure the Uploaded Library in Fire Insights
 ------------------------------------

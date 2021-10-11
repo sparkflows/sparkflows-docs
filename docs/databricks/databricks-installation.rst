@@ -158,8 +158,38 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-* Specify your Databricks Token.
-* Specify the Databricks JDBC URL of your cluster in Databricks.
+.. list-table:: 
+   :widths: 10 20 20
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - CREDENTIAL STORE  
+     - Select the Credential Store from drop-down
+     - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+   * - CONNECTION TYPE 
+     - Select the Connection type from drop-down
+     - Choose Databricks as Connection Type
+   * - CONNECTION NAME
+     - Connection Name
+     - Add an unique Connection Name
+   * - TOKEN 
+     - Token
+     - Add token generated
+   * - POSTBACK URL
+     - Fire Insights Post Back URL
+     - Add Fire Insights Post Back URL
+   * - TITLE 
+     - Title for selected Connection
+     - Add an unique Title
+   * - DESCRIPTION
+     - Connection Description
+     - Add some Connection Description
+   * - URL
+     - Jdbc url for databricks connection
+     - Add Jdbc Url for Databricks Connection
+     
 
 .. figure:: ../_assets/configuration/connection_databricks.PNG
    :alt: Databricks Connection

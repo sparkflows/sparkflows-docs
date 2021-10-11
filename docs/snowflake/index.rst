@@ -21,6 +21,7 @@ https://docs.snowflake.com/en/user-guide/spark-connector.html
    creating-snowflake-connection.rst
    reading-snowflake.rst
    writing-snowflake.rst
+   browse-snowflake-tables.rst
    
    
    

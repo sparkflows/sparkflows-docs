@@ -161,7 +161,7 @@ It can also be created by any user with their Application. In this case, it is o
 * Specify your Databricks Token.
 * Specify the Databricks JDBC URL of your cluster in Databricks.
 
-.. figure:: ../_assets/configuration/databricks_connection.PNG
+.. figure:: ../_assets/configuration/connection_databricks.PNG
    :alt: Databricks Connection
    :width: 40%
 

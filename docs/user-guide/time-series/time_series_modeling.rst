@@ -106,25 +106,29 @@ Below is the sample workflow which contains ``H2OXGBoost`` processor in Fire Ins
 
 It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
 
-.. figure:: ../../_assets/ml_userguide/xgboost.PNG
+.. figure:: ../../_assets/ml_userguide/xgBoost.PNG
    :alt: ml_userguide
    :width: 90%
 
 H2OXGBoost processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/xgboost_config.PNG
+.. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
    :alt: ml_userguide
    :width: 90%
 
 H2OMojoSave processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/model_save.PNG
+.. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
    :alt: ml_userguide
    :width: 90%
 
 On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
 
-.. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
+.. figure:: ../../_assets/ml_userguide/h2o_output.PNG
+   :alt: ml_userguide
+   :width: 60%
+
+.. figure:: ../../_assets/ml_userguide/xgboost_submission.PNG
    :alt: ml_userguide
    :width: 60%
 

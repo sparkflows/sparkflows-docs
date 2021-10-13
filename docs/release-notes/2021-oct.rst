@@ -23,7 +23,7 @@ Snowflake Editor page
 Documentation
 +++++
 
-- Reference guide : https://docs.sparkflows.io/en/latest/user-guide/user-guide/pipeline/execute-workflow.html
+- Reference guide : https://docs.sparkflows.io/en/latest/snowflake/browse-snowflake-tables.html
 
 Databricks
 -------

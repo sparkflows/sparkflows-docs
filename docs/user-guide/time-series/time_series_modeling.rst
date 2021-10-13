@@ -126,7 +126,7 @@ On successful submission of the job, the model get saved to specified locations,
 
 .. figure:: ../../_assets/ml_userguide/jobsubmission.PNG
    :alt: ml_userguide
-   :width: 100%
+   :width: 60%
 
 .. figure:: ../../_assets/ml_userguide/modellocation.PNG
    :alt: ml_userguide

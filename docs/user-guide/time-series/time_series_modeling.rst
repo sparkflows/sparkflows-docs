@@ -41,19 +41,19 @@ Below is the sample workflows which contains ``Prophet`` processor in Fire Insig
 
 It reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
 
-.. figure:: ../../_assets/ml_userguide/prophet.PNG
+.. figure:: ../../_assets/ml_userguide/fbprophet.PNG
    :alt: ml_userguide
    :width: 90%
 
 Prophet processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/prophet_processor.PNG
+.. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
    :alt: ml_userguide
    :width: 90%
    
 Output result of ``Prophet`` processor:  
 
-.. figure:: ../../_assets/ml_userguide/prophet_result.PNG
+.. figure:: ../../_assets/ml_userguide/fbprophet_result.PNG
    :alt: ml_userguide
    :width: 90%
 

@@ -52,4 +52,4 @@ You can also update the credentials anytime.
    :alt: Success
    :width: 60%
 
-
+.. note:: Make sure that Git repository url should be accessible from Fire Insights machine

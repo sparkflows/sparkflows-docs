@@ -55,7 +55,7 @@ Go to the History.
 
 *Workflows History*
 
-.. figure:: ../../_assets/git/history-drpdwn.png
+.. figure:: ../../_assets/git/git-history.PNG
    :alt: PushWf
    :width: 60% 
 

@@ -8,7 +8,7 @@ Enable Git Repository
 - Click on ``GIT`` tab
 - Make ``git.enable`` true.
 - Provide the git repository link in ``git.url`` value field.
-- Provide the git root folder in ``git.rootFolder`` value field, it's default value is ``/projects``.
+- Provide the git root folder in ``git.rootFolder`` value field, it's default value is ``/ProjectsWorkflow``.
 - Save the configuration.
 - Refresh the brower to enable git-configuration.
 

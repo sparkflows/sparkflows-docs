@@ -12,7 +12,7 @@ Enable Git Repository
 - Save the configuration.
 - Refresh the brower to enable git-configuration.
 
-.. figure:: ../../_assets/git/enable-git.png
+.. figure:: ../../_assets/git/git_enabled.PNG
    :alt: GitEnable
    :width: 60%
 

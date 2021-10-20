@@ -10,7 +10,7 @@ Enable Git Repository
 - Provide the git repository link in ``git.url`` value field.
 - Provide the git root folder in ``git.rootFolder`` value field, it's default value is ``/ProjectsWorkflow``.
 - Save the configuration.
-- Refresh the brower to enable git-configuration.
+- Refresh the browser to enable git-configuration.
 
 .. figure:: ../../_assets/git/git_enabled.PNG
    :alt: GitEnable

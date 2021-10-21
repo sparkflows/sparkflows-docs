@@ -8,7 +8,7 @@ Release Notes
    upcoming.rst
    
    2021-oct.rst
-   2021-sept.rst
+   2021-sep.rst
    2021-aug.rst
    2021-july.rst
    2021-jun.rst

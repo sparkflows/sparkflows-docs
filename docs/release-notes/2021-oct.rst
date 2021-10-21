@@ -8,7 +8,7 @@ New Processors
 Output Rich Text
 +++++
 
-- Node to output rich text.
+- Node to output rich text. This node can be include in the Report, thus enabling Rich Text to be added.
 
 Snowflake
 -------
@@ -16,9 +16,9 @@ Snowflake
 Snowflake Editor page
 +++++
 
-- Browse Snowflake Query editor page
-- Allows user to Browse Snowflake Databases, schemas & Tables depending upon selected connection.
-- In configuration, module.enableSnowflakeDb set this value to true for browsing Snowflake Db page.
+- Browse Snowflake Query editor page.
+- Allows user to Browse Snowflake Databases, Schemas & Tables using upon selected snowflake connection.
+- In configuration, module.enableSnowflakeDb has to be set to true for browsing Snowflake Db page.
 
 Documentation
 +++++

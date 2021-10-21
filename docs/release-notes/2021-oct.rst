@@ -8,7 +8,8 @@ New Processors
 Output Rich Text
 +++++
 
-- Node to output rich text. This node can be include in the Report, thus enabling Rich Text to be added.
+- Node to output rich text. This node can be included in the Report, thus enabling Rich Text to be added. 
+
 
 Snowflake
 -------

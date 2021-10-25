@@ -1,15 +1,23 @@
 October 2021
 ===========
 
-
 New Processors
 ---------------
+
+The following new Processors have been added.
 
 Output Rich Text
 +++++
 
-- Node to output rich text. This node can be included in the Report, thus enabling Rich Text to be added. 
+- This node outputs Rich Text. In this node, static rich text can be added. On execution of the node, this rich text is output to the screen. 
+- This node can be included in the Report, thus enabling Rich Text to be added to the Report.
 
+Execute Workflow
++++++
+
+- This node executes another workflow.
+- Users can provide the next workflow to be executed in this node.
+- The workflow to be executed has to belong to the same Project.
 
 Snowflake
 -------

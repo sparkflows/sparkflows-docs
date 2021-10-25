@@ -26,7 +26,7 @@ Snowflake Editor page
 +++++
 
 - Browse Snowflake Query editor page.
-- Allows user to Browse Snowflake Databases, Schemas & Tables using upon selected snowflake connection.
+- Allows users to Browse Snowflake Databases, Schemas & Tables using upon selected snowflake connection.
 - In configuration, module.enableSnowflakeDb has to be set to true for browsing Snowflake Db page.
 
 Documentation

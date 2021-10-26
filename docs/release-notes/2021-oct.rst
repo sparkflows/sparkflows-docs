@@ -12,6 +12,10 @@ Output Rich Text
 - This node outputs Rich Text. In this node, static rich text can be added. On execution of this node, this rich text gives output on the screen. 
 - This node can be included in the Report, thus enabling Rich Text to be added to the Report.
 
+.. figure:: ../_assets/releases/report.PNG
+        :alt: web-app
+        :width: 80%
+
 Execute Workflow
 +++++
 

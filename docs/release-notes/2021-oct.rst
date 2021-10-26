@@ -4,7 +4,7 @@ October 2021
 New Processors
 ---------------
 
-We have added the following new Processors.
+In October, we have added the following new Processors for better performance. Do read on to know about the latest.
 
 Output Rich Text
 +++++
@@ -32,6 +32,8 @@ Snowflake
 
 Snowflake Editor page
 +++++
+
+There are several updates that have been prompted on the Snowflake Editor Page.
 
 - You can browse the Snowflake Query editor page.
 - You can browse the Snowflake Databases, Schemas & Tables using selected snowflake connection.

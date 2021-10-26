@@ -49,5 +49,9 @@ Databricks SQL Editor Upgrades
 - On clicking on Query, a dialog opens up where user can select SQL, paste in editor and run query.
 - When query starts with DROP, the dialog will not open up. To copy the query, you have to write the query manually to execute the DROP statement.
 
+.. figure:: ../_assets/releases/databricks_sql_editor.png
+        :alt: web-app
+        :width: 80%
+
 
 

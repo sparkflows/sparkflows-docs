@@ -4,20 +4,20 @@ October 2021
 New Processors
 ---------------
 
-The following new Processors have been added.
+We have added the following new Processors.
 
 Output Rich Text
 +++++
 
-- This node outputs Rich Text. In this node, static rich text can be added. On execution of the node, this rich text is output to the screen. 
+- This node outputs Rich Text. In this node, static rich text can be added. On execution of this node, this rich text gives output on the screen. 
 - This node can be included in the Report, thus enabling Rich Text to be added to the Report.
 
 Execute Workflow
 +++++
 
 - This node executes another workflow.
-- Users can provide the next workflow to be executed in this node.
-- The workflow to be executed has to belong to the same Project.
+- You can provide the next workflow to be executed in this node.
+- The workflow to be executed should belong to the same project.
 
 Snowflake
 -------
@@ -25,9 +25,9 @@ Snowflake
 Snowflake Editor page
 +++++
 
-- Browse Snowflake Query editor page.
-- Allows users to Browse Snowflake Databases, Schemas & Tables using upon selected snowflake connection.
-- In configuration, module.enableSnowflakeDb has to be set to true for browsing Snowflake Db page.
+- You can browse Snowflake Query editor page.
+- You can browse Snowflake Databases, Schemas & Tables using selected snowflake connection.
+- In configuration, module "enableSnowflakeDb" has to be set to "true" for browsing Snowflake Db page.
 
 Documentation
 +++++
@@ -42,8 +42,8 @@ Databricks SQL Editor Upgrades
 
 - It stores the SQL query as they are used.
 - Displays the SQL query history in a tab next to the results tab.
-- On clicking on Query dialog opens up where user can select SQL and paste in editor and run query.
-- When query starts with DROP, dialog won't open up. To copy the query user has to write query manually to execute the DROP statement.
+- On clicking on Query, a dialog opens up where user can select SQL, paste in editor and run query.
+- When query starts with DROP, the dialog will not open up. To copy the query, you have to write the query manually to execute the DROP statement.
 
 
 

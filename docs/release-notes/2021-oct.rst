@@ -50,6 +50,7 @@ Documentation
 
 Databricks
 -------
+Enhancements have also been made on the Databricks SQL Editor.
 
 Databricks SQL Editor Upgrades
 +++++

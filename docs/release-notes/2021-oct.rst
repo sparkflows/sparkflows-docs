@@ -23,6 +23,10 @@ Execute Workflow
 - You can provide the next workflow to be executed in this node.
 - The workflow to be executed should belong to the same project.
 
+.. figure:: ../_assets/releases/node_execute_workflow.png
+        :alt: web-app
+        :width: 80%
+
 Snowflake
 -------
 

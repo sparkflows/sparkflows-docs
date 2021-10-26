@@ -29,6 +29,8 @@ Snowflake Editor page
 - You can browse the Snowflake Databases, Schemas & Tables using selected snowflake connection.
 - In configuration, module "enableSnowflakeDb" has to be set to "true" for browsing Snowflake Db page.
 
+
+
 Documentation
 +++++
 

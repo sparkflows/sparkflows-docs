@@ -33,7 +33,7 @@ Snowflake
 Snowflake Editor page
 +++++
 
-There are several updates that have been prompted on the Snowflake Editor Page.
+A new Snowflake Data Catalog page has been added.
 
 - You can browse the Snowflake Query editor page.
 - You can browse the Snowflake Databases, Schemas & Tables using selected snowflake connection.

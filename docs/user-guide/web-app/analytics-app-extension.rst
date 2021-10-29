@@ -1,6 +1,16 @@
 Nested Notebooks Execution
 =======================
 
+Overview
+--------
+
+In the Analytics App there are various stages. There can be multiple Run stages. Each Run stage can be executing a different or the same Notebook.
+
+Also, the output of the execution of one Notebook, can go as input to the next Notebook execution.
+
+Steps
+-----
+
 Users can set workflow/Notebook at stage label. The run stage has the option to set workflow or notebook. Users can choose a specific workflow or notebook here for execution.
 
 .. figure:: ../../_assets/web-app/wae-change-notebook.png

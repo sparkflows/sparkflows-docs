@@ -125,7 +125,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
    :alt: aws
    :width: 60%
 
-vpc peering
+VPC peering
 ----------
 
 Now since Fire Insights and AWS Glue are running on separate VPC's, we can use vpc peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.

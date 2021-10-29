@@ -3,7 +3,7 @@ AWS Glue & EC2 Network Connection
 
 Fire Insights ec2 instance can communicate with AWS Glue using a Network connection.
 
-Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Sparkflows has been installed.
+Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Fire Insights has been installed.
 
 Pre-requisite
 --------

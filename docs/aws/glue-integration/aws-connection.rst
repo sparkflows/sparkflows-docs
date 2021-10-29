@@ -1,19 +1,21 @@
 AWS Glue & EC2 Network Connection
 ==================
 
-Fire Insights ec2 instance can be communicated to AWS Glue with Network connection.
+Fire Insights ec2 instance can communicate with AWS Glue using a Network connection.
 
-Below are the steps for AWS Glue Network Connection with EC2:
+Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Sparkflows has been installed.
 
 Pre-requisite
 --------
 
 You need to have an AWS account with administrative access.
 
-Create VPC
+Create VPC for ENI
 ------
 
 You first create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over internet.
+
+ENI is created in the private subnet.
 
 1. Login to the AWS Console. Select an AWS Region of your choice where AWS Glue is available as a service. You will see the exercise instructions using the Paris region. Go to the VPC Management Console. Click on the Elastic IPs menu item in the left and then click on the Allocate Elastic IP address button.
 
@@ -126,7 +128,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 vpc peering
 ----------
 
-Now since Fire Insights is running on other vpc, so you can use vpc peering connection to communicate Glue vpc to Fire Insights vpc.
+Now since Fire Insights and AWS Glue are running on separate VPC's, we can use vpc peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.
 
 1. Create Peering connection
 

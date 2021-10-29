@@ -1,7 +1,7 @@
 Parameters Stage
 ======================
 
-- In the parameters stage, we can add ``select, text-field, select boxes, buttons, etc`` components.
+In the parameters stage, we can add ``select, text-field, select boxes, buttons, etc`` components.
 
 For example: 
 

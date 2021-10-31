@@ -14,13 +14,16 @@ Tutorials
 
     :doc:`/tutorials/data-engineering/index`
 
-      
 
     ---
 
-    :doc:`/tutorials/data-engineeringII/index`
+    :doc:`/tutorials/data-engineeringII/index`   
+          
+
+    ---
+
+    :doc:`/tutorials/advanced-controls/index`
     
-      
     ---
     
     :doc:`/tutorials/visualization/index`   

@@ -23,6 +23,12 @@ Machine Learning User Guide
 
     ---
 
+    :doc:`/user-guide/machine-learning/feature-selection`
+
+    Feature Selection using Correlation or Feature Importance.
+    
+    ---
+
     :doc:`/user-guide/machine-learning/model-persistence/index`
 
     Save model to files and load them later in order to make predictions.

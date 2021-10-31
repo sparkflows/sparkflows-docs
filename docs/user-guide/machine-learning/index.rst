@@ -53,6 +53,7 @@ Machine Learning User Guide
    sparkml/index.rst
    h2o/index.rst
    sklearn/index.rst
+   feature-selection.rst
    model-persistence/index.rst
    model-serving/index.rst
    mlflow.rst

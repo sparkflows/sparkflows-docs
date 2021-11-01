@@ -18,11 +18,11 @@ The below workflow:
 * Filters model results to remove unecesary data
 * Saves the model results to CSV
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
-Casting String to Double
+Creating Loop
 ----------------------------
 We use the ``Cast to Single Type`` processor to cast the selected columns to a different data type. In this case we are using this processor to a correct an issue with our data ingest, and casting the Age column from a string type to a double type. 
 
@@ -30,7 +30,7 @@ We use the ``Cast to Single Type`` processor to cast the selected columns to a d
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Cast_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -43,7 +43,7 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_One_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -56,7 +56,7 @@ We use the ``Row Filter`` to filter out rows based on a conditional statement. I
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Row_Filter_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -69,7 +69,7 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Join_Two_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -82,7 +82,7 @@ We use the ``Drop Columns`` processor to remove columns from the dataset. Due to
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Drop_Columns_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -95,7 +95,7 @@ We use the ``Summary Statistics`` processor to calculate basic summary statistic
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -103,7 +103,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Summary_Stats_Output.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -116,7 +116,7 @@ We use the ``Coalesce`` processor with 1 partition to create a single dataset in
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Coalesce_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -129,7 +129,7 @@ We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An import
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Config.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 

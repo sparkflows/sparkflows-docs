@@ -3,21 +3,12 @@ Upcoming Features
 
 Below are the upcoming features in Fire Insights.
 
-Snowflake
--------
-
-- Browse Snowflake Query editor page
-
 
 DBFS
 -------
 
 - Displaying progress bar while uploading file in dbfs
 
-Generating Pyspark Code for the Workflows
---------------------
-
-- Ability to generate Pyspark code for a workflow
 
 UI
 ---
@@ -25,11 +16,6 @@ UI
 - Introducing new icons for nodes
 - Adding color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
 - Ability to select multiple nodes in the workflow editor
-
-New Processor
--------
-
-- NodePrintRichText for displaying rich text
 
 
 Installer

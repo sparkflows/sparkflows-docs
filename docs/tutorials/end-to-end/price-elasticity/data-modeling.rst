@@ -1,7 +1,7 @@
 Data Modelling - Price Elasticity
 =================================
 
-This tutorial will cover how to model price elasticity using an example sales data. The data has been taken from Kaggle courtesy of Assert Solutions.  
+This tutorial will cover how to model price elasticity using an example sales data. The aim of this tutorial is to calculate the price elasticity of each product separately using a Linear Regression. The data has been taken from Kaggle courtesy of Assert Solutions.  
 
 .. contents::
    :depth: 2
@@ -24,7 +24,7 @@ The below workflow:
    
 Creating Loop
 ----------------------------
-We use the ``Cast to Single Type`` processor to cast the selected columns to a different data type. In this case we are using this processor to a correct an issue with our data ingest, and casting the Age column from a string type to a double type. 
+We use the ``Execute In Loop`` processor to cast the selected columns to a different data type. In this case we are using this processor to a correct an issue with our data ingest, and casting the Age column from a string type to a double type. 
 
 
 Processor Configuration
@@ -37,7 +37,7 @@ Processor Configuration
    
 Filter Product Code by Count
 --------------------------------------------
-We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
+We use the ``Decision`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
 
 Processor Configuration
@@ -50,7 +50,7 @@ Processor Configuration
    
 Assembling Features for Modelling
 -------------------
-We use the ``Row Filter`` to filter out rows based on a conditional statement. In this dataset a zero ratings can represent either an implicit or explicit ratings. Since there is no way to split these 2 sources, zero ratings introduce ambiguity in the dataset. In order to preserve data quality and not hinder model performance we remove zero ratings. 
+We use the ``Vector Assembler`` to filter out rows based on a conditional statement. In this dataset a zero ratings can represent either an implicit or explicit ratings. Since there is no way to split these 2 sources, zero ratings introduce ambiguity in the dataset. In order to preserve data quality and not hinder model performance we remove zero ratings. 
 
 
 Processor Configuration
@@ -63,7 +63,7 @@ Processor Configuration
    
 Building the Linear Regression Model
 ----------------------------------
-We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
+We use the ``Linear Regression`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
 
 Processor Configuration
@@ -84,7 +84,7 @@ Processor Output
    
 Dropping Unnecessary Data for Export
 --------------------------
-We use the ``Drop Columns`` processor to remove columns from the dataset. Due to the implementation of joins in Spark, when using an inner join, duplicate columns may be created that should be removed. 
+We use the ``Row Filter`` processor to remove columns from the dataset. Due to the implementation of joins in Spark, when using an inner join, duplicate columns may be created that should be removed. 
 
 
 Processor Configuration

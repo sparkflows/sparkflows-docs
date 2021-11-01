@@ -24,7 +24,7 @@ The below workflow:
    
 Creating Loop
 ----------------------------
-We use the ``Execute In Loop`` processor to cast the selected columns to a different data type. In this case we are using this processor to a correct an issue with our data ingest, and casting the Age column from a string type to a double type. 
+We use the ``Execute In Loop`` processor to have the nodes that follow execute repeatedly on data corresponding to different product. The ``Execute In Loop`` processor creates a list of all the unique values in the selected column and filters all values except for one at a time. This allows us to create a model for each product without editting the workflow or using a row filter. 
 
 
 Processor Configuration
@@ -37,7 +37,7 @@ Processor Configuration
    
 Filter Product Code by Count
 --------------------------------------------
-We use the ``Decision`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
+We use the ``Decision`` processor to find the count of each unique values in the selected column and filter out unique values that do not meet the stated threshold. This is important when creating modelling workflows since different models will require a minimum number of data points to function correctly. 
 
 
 Processor Configuration
@@ -50,7 +50,7 @@ Processor Configuration
    
 Assembling Features for Modelling
 -------------------
-We use the ``Vector Assembler`` to filter out rows based on a conditional statement. In this dataset a zero ratings can represent either an implicit or explicit ratings. Since there is no way to split these 2 sources, zero ratings introduce ambiguity in the dataset. In order to preserve data quality and not hinder model performance we remove zero ratings. 
+We use the ``Vector Assembler`` processor to assemble the feature columns for modelling. SparkML Regression processors require a vector for the features columns. 
 
 
 Processor Configuration
@@ -63,7 +63,7 @@ Processor Configuration
    
 Building the Linear Regression Model
 ----------------------------------
-We use the ``Linear Regression`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
+We use the ``Linear Regression`` processor to create an OLS Regression model using SparkML. In this case we are modelling the quantity demanded to determine the relationship between price and quantity, otherwise known as elasticity. Since we are building multiple models, it is important that we are able to differentiate model results. We can use the Model Identifier option to name each model, here we are using the Product Code to label each model. 
 
 
 Processor Configuration
@@ -84,7 +84,7 @@ Processor Output
    
 Dropping Unnecessary Data for Export
 --------------------------
-We use the ``Row Filter`` processor to remove columns from the dataset. Due to the implementation of joins in Spark, when using an inner join, duplicate columns may be created that should be removed. 
+We use the ``Row Filter`` processor to drop rows which are unnecessary from the model results before saving. In this case we are only interested in the Coefficient related to Price, so we drop all other rows.  
 
 
 Processor Configuration
@@ -99,7 +99,7 @@ Processor Configuration
 Saving Data to CSV
 ---------------------
 
-We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An important option is the Save Mode, which tells the processor what to do if a file with the same name already exists in the specified location. This is especially important when a workflow is expected to be executed multiple times and for version control. In this case the workflow has been executed in the past and we do not want the saved file to be overwritten, so we use the ErrorIfExists save mode to intentionally error out the workflow when it reaches this stage. 
+We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An important option is the Save Mode, which tells the processor what to do if a file with the same name already exists in the specified location. This is especially important when a workflow is expected to be executed multiple times and for version control. In this case the workflow will be executing the ``Save CSV`` processor multiple times and we want to collect the results in a single file, so we use the Append option. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

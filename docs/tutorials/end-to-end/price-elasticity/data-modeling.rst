@@ -1,7 +1,7 @@
-Data Modelling Price Elasticity
+Data Modelling - Price Elasticity
 =================================
 
-This tutorial will cover how to clean data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project.  
+This tutorial will cover how to model price elasticity using an example sales data. The data has been taken from Kaggle courtesy of Assert Solutions.  
 
 .. contents::
    :depth: 2
@@ -11,14 +11,12 @@ Workflow Overview
 -------------------
 The below workflow: 
 
-* Casts a string columns to a double type column
-* Joins the Books and Ratings datasets
-* Filters out rows that will be detrimental to modelling
-* Joins the Users with other datasets
-* Drops unnecessary columns
-* Calculates summary statistics
-* Coalesces data for export
-* Saves data to HDFS for later use
+* Creates a loop to create models for each Product Code
+* Filters the data based on the number of records for each Product Code
+* Assembles features for modelling
+* Builds a linear regression model to find price elasticity
+* Filters model results to remove unecesary data
+* Saves the model results to CSV
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
    :alt: titanic-data-cleaning

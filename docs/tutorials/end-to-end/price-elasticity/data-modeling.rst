@@ -30,12 +30,12 @@ We use the ``Cast to Single Type`` processor to cast the selected columns to a d
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Loop_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
    
-Joining Books and Ratings Datasets
+Filter Product Code by Count
 --------------------------------------------
 We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
@@ -43,12 +43,12 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Decision_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
    
-Filtering Rows
+Assembling Features for Modelling
 -------------------
 We use the ``Row Filter`` to filter out rows based on a conditional statement. In this dataset a zero ratings can represent either an implicit or explicit ratings. Since there is no way to split these 2 sources, zero ratings introduce ambiguity in the dataset. In order to preserve data quality and not hinder model performance we remove zero ratings. 
 
@@ -56,12 +56,12 @@ We use the ``Row Filter`` to filter out rows based on a conditional statement. I
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Vector_Assembler_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
    
-Joining Users and Other Datasets
+Building the Linear Regression Model
 ----------------------------------
 We use the ``Join on Columns`` processor to create a new dataset from 2 other datasets using SQL-style joins. In this case we are using an inner join to only capture the intersection of the 2 datasets. 
 
@@ -69,12 +69,20 @@ We use the ``Join on Columns`` processor to create a new dataset from 2 other da
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
    
-Dropping Useless Columns
+Processor Output
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Output.PNG
+   :alt: titanic-data-cleaning
+   :width: 90%
+   
+   
+Dropping Unnecessary Data for Export
 --------------------------
 We use the ``Drop Columns`` processor to remove columns from the dataset. Due to the implementation of joins in Spark, when using an inner join, duplicate columns may be created that should be removed. 
 
@@ -82,43 +90,10 @@ We use the ``Drop Columns`` processor to remove columns from the dataset. Due to
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Row_Filter_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
-   
-Calculating Summary Statistics
----------------------------------
-
-We use the ``Summary Statistics`` processor to calculate basic summary statistics about the selected numeric columns. After joining multiple datasets and transforming datasets, it is always prudent to spot check the basline statistics of the final dataset. In the case of joins it is especially important to pay attention to the count of rows in each columns to make sure they are equivelant for modelling. 
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-
-   
-Processor Output
-^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
-   
-   
-Coalesce Data
-----------------
-We use the ``Coalesce`` processor with 1 partition to create a single dataset in storage prior to export. Due to the way Spark distributes data for processing, it is necessary to coalesce the data before export to create a single data file. If ``Coalesce`` is not used, the data will be split into multiple data files during export. 
-
-
-Processor Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
    
    
 Saving Data to CSV
@@ -129,15 +104,8 @@ We use the ``Save CSV`` to save the dataset to the HDFS as a CSV file. An import
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Save_CSV_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
-   
-Processor Output
-^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Save_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
 

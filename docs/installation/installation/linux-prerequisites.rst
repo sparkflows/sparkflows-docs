@@ -64,6 +64,13 @@ Install OpenJDK8 JDK using yum
   yum -y update
   yum install java-1.8.0-openjdk-devel
 
+Installing on Mac
++++++++++++++++++
+
+- Download the dmg file
+- Install it
+
+
 Reference
 ---------
 

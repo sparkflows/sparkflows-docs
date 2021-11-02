@@ -138,7 +138,7 @@ Changing the password of a user
 - sudo passwd sparkflows
 
 
-Forwarding traffice to a port
+Forwarding traffic to a port
 +++++++++++++++++++++++++++++
 
 - sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent

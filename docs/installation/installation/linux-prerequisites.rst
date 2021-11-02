@@ -1,5 +1,5 @@
 Linux/Mac OS Installation Prerequisites
-+++++++++++++
+=============
 
 Supported Linux Versions
 -------------------------
@@ -41,8 +41,9 @@ You may have to set JAVA_HOME after the installation.
 
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 
+
 Using Linux RPM Package
-=======================
++++++++++++++++++++
 
 - Download the Linux x64 RPM Package
 
@@ -56,7 +57,7 @@ Using Linux RPM Package
     export PATH=$PATH:$JAVA_HOME/bin
 
 Install OpenJDK8 JDK using yum
-=========
+++++++++++++++++++
 
 ::
 
@@ -65,6 +66,7 @@ Install OpenJDK8 JDK using yum
 
 Reference
 ---------
+
 Links
 +++++
 
@@ -72,10 +74,8 @@ Links
 
 
 
-
-
 Download OpenJDK
-----------------
++++++++++++++
 
 - https://openjdk.java.net/install/
 

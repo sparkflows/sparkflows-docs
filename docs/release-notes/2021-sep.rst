@@ -6,8 +6,11 @@ DBFS
 
 Rename DBFS folders
 +++++
-Users were only able to rename DBFS files earlier but now you can rename DBFS folders too.
+ A great feature has been added for renaming in this month. You were only able to rename DBFS files earlier but now you can rename DBFS folders too.
 
+.. figure:: ../_assets/releases/dbfs.png
+        :alt: web-app
+        :width: 80%
 
 Workflows
 ---------

@@ -41,7 +41,7 @@ We now enable to map the columns of a Table to updated names. This mapping is th
 - With the use of these query elements you can get value from databricks and map with predefined columns for parameters.
 - Mapping is then sent over as parameters to the Notebook or Workflow during execution.
 
-.. figure:: ../_assets/releases/analytics app.png
+.. figure:: ../_assets/releases/analytics_app.png
         :alt: web-app
         :width: 80%
 

@@ -1,26 +1,12 @@
 September 2021
 ===========
 
-
-New Processors
----------------
-
-Workflow execute node
-+++++
-
-- Node to execute the selected workflow along with the parameters.
-
-Documentation
-+++++
-
-- Reference guide : https://docs.sparkflows.io/en/latest/user-guide/user-guide/pipeline/execute-workflow.html
-
 DBFS
 ----
 
 Rename DBFS folders
 +++++
-- Earlier user were only able to rename dbfs file but, now can rename dbfs folders also.
+Users were only able to rename DBFS files earlier but now you can rename DBFS folders too.
 
 
 Workflows
@@ -28,9 +14,11 @@ Workflows
 
 Workflow parameters in the execute page
 +++++
-- User can add parameters as simple text or as key-value pair now. 
+
+We have highly upgraded the Workflow parameters on the Execute Page as below- 
+- You can add parameters as simple text or as key-value pair now. 
 - In case of key-value option, the last executed parameters will be shown by default. 
-- Users can add more parameters or delete some parameters.
+- You can add more parameters or delete some parameters.
 
 Analytics Application
 ---------------------

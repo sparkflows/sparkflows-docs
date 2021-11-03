@@ -2,9 +2,10 @@ Feature Transformation
 ======================
 
 Feature transformation is simply a function that transforms features from one representation to another. Feature transformation techniques are used for several reasons:
-- data types are not suitable to be fed into a machine learning algorithm, e.g. text, categories
-- feature values may cause problems during the learning process, e.g. data represented in different scales
-- we want to reduce the number of features to plot and visualize data, speed up training or improve the accuracy of a specific model
+
+   - data types are not suitable to be fed into a machine learning algorithm, e.g. text, categories
+   - feature values may cause problems during the learning process, e.g. data represented in different scales
+   - we want to reduce the number of features to plot and visualize data, speed up training or improve the accuracy of a specific model
 
 
 

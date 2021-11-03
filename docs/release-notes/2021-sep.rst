@@ -19,20 +19,31 @@ Workflow parameters in the execute page
 +++++
 
 We have highly upgraded the Workflow parameters on the Execute Page as below- 
+
 - You can add parameters as simple text or as key-value pair now. 
 - In case of key-value option, the last executed parameters will be shown by default. 
 - You can add more parameters or delete some parameters.
+
+.. figure:: ../_assets/releases/workflow parameter.png
+        :alt: web-app
+        :width: 80%
 
 Analytics Application
 ---------------------
 
 Mapping table columns
 +++++
+We now enable to map the columns of a Table to updated names. This mapping is then sent over as parameters to the Notebook or Workflow during execution.
+
 
 - Analytics App now supports map databricks table columns. 
-- Users can add databricks query with elements and populate values. 
-- With the use of these query elements users can get value from databricks and map with predefined columns for parameters.
+- You can add databricks query with elements and populate values. 
+- With the use of these query elements you can get value from databricks and map with predefined columns for parameters.
 - Mapping is then sent over as parameters to the Notebook or Workflow during execution.
+
+.. figure:: ../_assets/releases/analytics app.png
+        :alt: web-app
+        :width: 80%
 
 Documentation
 +++++
@@ -41,9 +52,14 @@ Documentation
 
 UI
 ---
+We have an upgraded UI on the dashboard which is very interesting and you can view it below.
 
 - Updated chart colors
 - Updated tables and projects card style on the dashboard
+
+.. figure:: ../_assets/releases/ui.png
+        :alt: web-app
+        :width: 80%
 
 AWS Glue
 -------

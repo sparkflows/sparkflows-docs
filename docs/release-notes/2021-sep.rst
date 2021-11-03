@@ -24,7 +24,7 @@ We have highly upgraded the Workflow parameters on the Execute Page as below-
 - In case of key-value option, the last executed parameters will be shown by default. 
 - You can add more parameters or delete some parameters.
 
-.. figure:: ../_assets/releases/ workflow parameter.png
+.. figure:: ../_assets/releases/workflow parameter.png
         :alt: web-app
         :width: 80%
 

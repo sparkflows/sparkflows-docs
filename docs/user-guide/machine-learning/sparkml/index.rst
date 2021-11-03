@@ -15,7 +15,13 @@ Apache Spark ML
     Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis
 
     ---
+    
+    :doc:`/user-guide/machine-learning/sparkml/feature-transformation`
+ 
+    Feature transformation is simply a function that transforms features from one representation to another.
 
+    ---
+    
     :doc:`/user-guide/machine-learning/sparkml/feature-selection`
     
     Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction
@@ -68,6 +74,7 @@ Apache Spark ML
 
    building-sparkml-workflows.rst
    feature-generation.rst
+   feature-transformation.rst
    feature-selection.rst
    clustering.rst
    regression.rst

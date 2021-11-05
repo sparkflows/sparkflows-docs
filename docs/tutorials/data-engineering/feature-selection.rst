@@ -22,10 +22,10 @@ The below workflow:
    :width: 90%
    
 
-Grouping Books by Year Published
+Feature Selection With Importance
 -----------------------------------
 
-We use the ``Graph Group by Column`` processor to visually gauge the profile of our data. 
+We use the ``Feature Selection With Importance`` processor  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,10 +52,10 @@ Processor Output
 
    
    
-Columns Cardinality
+Feature Selection With Correlation
 -----------------------
 
-We use the ``Columns Cardinality`` node to find the number of unique values in a string variable. In this case we are using cardinality to gauge the relationship between publishers, authors, and books. We can see that publishers on average publish 14 books, while authors on average write 2.4 books. 
+We use the ``Feature Selection With Correlation`` processor  
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

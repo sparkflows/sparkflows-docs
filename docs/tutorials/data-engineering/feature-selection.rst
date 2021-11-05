@@ -30,7 +30,7 @@ We use the ``Graph Group by Column`` processor to visually gauge the profile of 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Importance_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -38,7 +38,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Importance_Output1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -46,7 +46,7 @@ Processor Output
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Importance_Output2.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -60,7 +60,7 @@ We use the ``Columns Cardinality`` node to find the number of unique values in a
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Correlation_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -68,7 +68,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Correlation_Output1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
 
@@ -76,6 +76,6 @@ Processor Output
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/feature-selection/Correlation_Output2.PNG
    :alt: titanic-data-cleaning
    :width: 90%

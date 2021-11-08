@@ -8,19 +8,21 @@ Feature Selection
 
    * - Title
      - Description
-   * - K-Means
-     -  K-Means Clustering
+   * - Feature Selection With Importance
+     -  Select features based on regression importance
+   * - Feature Selection With Correlation
+     -  Select features based on correlation
      
-K-Means Clustering
-----------------
+Feature Selection With Importance
+---------------------
 
 The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares (see below). This algorithm requires the number of clusters to be specified. It scales well to large number of samples and has been used across a large range of application areas in many different fields.
 
-More details are at the Scikit-learn page:
 
+Feature Selection With Correlation
+----------------------
 
-
-
+The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares (see below). This algorithm requires the number of clusters to be specified. It scales well to large number of samples and has been used across a large range of application areas in many different fields.
 
 
 Feature Selection

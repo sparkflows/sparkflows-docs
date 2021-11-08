@@ -140,6 +140,7 @@ Data Preparation I
    concat-columns.rst
    time-function.rst
    split-by-expression.rst
+   pivot.rst
    string-functions-multiple.rst
    data-preparation-1.rst
    data-cleaning.rst

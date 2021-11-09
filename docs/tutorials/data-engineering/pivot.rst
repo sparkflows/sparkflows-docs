@@ -20,7 +20,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-exploration/pivot/Overview.PNG
    :alt: books-recommendations
-   :width: 90%
+   :width: 60%
    
 
 Printing the Raw Dataset

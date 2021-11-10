@@ -17,7 +17,7 @@ Click Next to confirm the installation
 
 .. figure:: ../../_assets/installation/anaconda.PNG
    :alt: Installations
-   :width: 60%
+   :width: 45%
 
 
 Agree to the License
@@ -25,7 +25,7 @@ Agree to the License
 
 .. figure:: ../../_assets/installation/anaconda_agreement.PNG
    :alt: Installations
-   :width: 60%
+   :width: 45%
 
 Advanced Installation Options screen
 --------------------------------

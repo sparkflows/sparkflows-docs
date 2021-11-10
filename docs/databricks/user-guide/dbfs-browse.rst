@@ -1,4 +1,4 @@
-Interact with DBFS
+Upload and View files on DBFS
 ============
 
 Fire Insights enables you to browse your DBFS, Upload & Delete files and directories in DBFS.

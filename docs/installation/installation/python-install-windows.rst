@@ -89,7 +89,7 @@ Install the other required packages:
 
     pip install -r requirements.txt
    
-``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
+'requirements.txt' file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
 .. figure:: ../../_assets/installation/req_text.PNG
    :alt: Installations
@@ -142,7 +142,7 @@ Once the above steps have completed successfully, run the below command to ensur
 Enable PySpark Engine in Fire Insights
 --------------------------------------
 
-Login to Fire Insights application and go to Configuration inside module and verify that ``module.workflowTypes`` is ``both``, by default it will be both. Now you can start using PySpark engine in Fire Insights. 
+Login to Fire Insights application and go to Configuration inside module and verify that 'module.workflowTypes' is 'both', by default it will be both. Now you can start using PySpark engine in Fire Insights. 
 
 .. figure:: ../../_assets/installation/pyspark_configurations.PNG
    :alt: Installations

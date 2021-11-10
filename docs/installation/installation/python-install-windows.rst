@@ -57,7 +57,9 @@ Create virtual environment using conda
 
 Run below command to Create virtual environment using conda.
 
-* ``conda create --name venv python=3.7``
+::
+
+    conda create --name venv python=3.7
 
 .. figure:: ../../_assets/installation/virtual_env.PNG
    :alt: Installations
@@ -68,9 +70,11 @@ Activate Virtual environment and Check list of python package
 
 Run Below command to activate and check list of python package available by default.
 
-* ``conda activate venv``
-* ``python --version``
-* ``pip list``
+::
+
+    conda activate venv
+    python --version
+    pip list
 
 .. figure:: ../../_assets/installation/activate_conda_env.PNG
    :alt: Installations
@@ -81,7 +85,9 @@ Install Other Dependent Packages
 
 Install the other required packages:
 
-   * pip install -r requirements.txt
+::
+
+    pip install -r requirements.txt
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights : fire-x.y.x/dist/fire/requirements.txt
 
@@ -95,7 +101,9 @@ Install dependency for fbprophet package (Windows 10)
 
 Install pystan:
 
-* ``conda install pystan -c conda-forge``
+::
+
+    conda install pystan -c conda-forge
 
 .. figure:: ../../_assets/installation/conda-pystan.PNG
    :alt: Installations
@@ -103,7 +111,9 @@ Install pystan:
 
 Install fbprophet:
 
-* ``conda install -c conda-forge fbprophet``
+::
+
+    conda install -c conda-forge fbprophet
 
 .. figure:: ../../_assets/installation/fbprophet_conda.PNG
    :alt: Installations
@@ -111,7 +121,9 @@ Install fbprophet:
 
 Check the version of fbprophet Installed:
 
-* ``pip list``
+::
+
+    pip list
 
 .. figure:: ../../_assets/installation/piplist_conda.PNG
    :alt: Installations
@@ -119,7 +131,9 @@ Check the version of fbprophet Installed:
 
 Once the above steps have completed successfully, run the below command to ensure everything was setup correctly.
 
-* ``python ./dist/__main__.py``
+::
+
+    python ./dist/__main__.py
 
 .. figure:: ../../_assets/installation/pyspark_server.PNG
    :alt: Installations
@@ -137,7 +151,9 @@ Login to Fire Insights application and go to configurations and set ``app.enable
 Removing Conda virtual Environment
 ----------------------------------
 
-* ``conda deactivate``
-* ``conda env remove --name name of virtual environment``
-* Delete those package from exact location.
+::
+
+    conda deactivate
+    conda env remove --name name of virtual environment
+    Delete those package from exact location
 

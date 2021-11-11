@@ -28,6 +28,12 @@ Databricks User Guide
 
     ---
 
+    :doc:`/databricks/user-guide/reading-csv-files`
+
+    Reading CSV Files.
+    
+    ---
+
     :doc:`/databricks/user-guide/reading-tables`
 
     Read from Databricks tables and print results.

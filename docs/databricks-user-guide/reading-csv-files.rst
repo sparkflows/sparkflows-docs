@@ -40,13 +40,13 @@ Fire Insights supports the concept of Datasets. Dataset is the definition of the
 
 Below is the creation of a Dataset on a CSV file.
 
-
-The below workflow shows using the Dataset created previously.
-
 .. figure:: ../_assets/databricks/data.PNG
    :alt: Databricks
    :width: 60%
-   
+
+The below workflow shows using the Dataset created previously.
+
+  
 .. figure:: ../_assets/databricks/dataset.PNG
    :alt: Databricks
    :width: 60%   

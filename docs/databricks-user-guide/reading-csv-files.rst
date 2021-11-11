@@ -24,6 +24,8 @@ Create an unmanaged Databricks Table on the csv file
 
 The command below shows an example of creating an unmanaged Databricks Table on the csv file.
 
+::
+
     CREATE TABLE `housing` ( `id` INT, `price` DOUBLE, `lotsize` INT, `bedrooms` INT, `bathrms` INT, `stories` INT, `driveway` STRING, `recroom` STRING, `fullbase` STRING, `gashw` STRING, `airco` STRING, `garagepl` STRING, `prefarea` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/sample-data/data/housing.csv' ) 
 
 The workflow below uses the Read Databricks Table Node to read in the data from the Databricks table created above.

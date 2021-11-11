@@ -15,7 +15,9 @@ The workflow below has a Read CSV node which reads CSV files from DBFS and proce
 
 The path of the file can either be the CSV file itself, or it can be a folder containing many csv files of the same schema.
 
-
+.. figure:: .._assets/databricks/csv_file.PNG
+   :alt: Databricks
+   :width: 60%
 
 Create an unmanaged Databricks Table on the csv file
 ---------------

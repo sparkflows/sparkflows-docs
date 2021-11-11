@@ -34,6 +34,9 @@ https://spark.apache.org/docs/latest/ml-features#feature-transformers
 
 Tokenizer
 ------------
+
+https://spark.apache.org/docs/latest/ml-features#tokenizer
+
 Tokenization is the process of taking text (such as a sentence) and breaking it into individual terms (usually words). A simple Tokenizer class provides this functionality. The example below shows how to split sentences into sequences of words. 
 
 Regex Tokenizer
@@ -42,6 +45,9 @@ RegexTokenizer allows more advanced tokenization based on regular expression (re
 
 Stop Words Remover
 --------------------
+
+https://spark.apache.org/docs/latest/ml-features#stopwordsremover
+
 Stop words are words which should be excluded from the input, typically because the words appear frequently and don’t carry as much meaning. 
 
 StopWordsRemover takes as input a sequence of strings (e.g. the output of a Tokenizer) and drops all the stop words from the input sequences. The list of stopwords is specified by the stopWords parameter. Default stop words for some languages are accessible by calling StopWordsRemover.loadDefaultStopWords(language), for which available options are “danish”, “dutch”, “english”, “finnish”, “french”, “german”, “hungarian”, “italian”, “norwegian”, “portuguese”, “russian”, “spanish”, “swedish” and “turkish”. A boolean parameter caseSensitive indicates if the matches should be case sensitive (false by default). 

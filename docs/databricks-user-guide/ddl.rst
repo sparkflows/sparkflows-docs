@@ -44,7 +44,7 @@ Creating Table
 
 Location of the data could be changed to S3 location.
 
-.. figure:: ../../_assets/configuration/databricks-create-table.PNG
+.. figure:: ../_assets/configuration/databricks-create-table.PNG
    :alt: Databricks
    :width: 80%
    
@@ -57,7 +57,7 @@ Running SQL
 
     select count(*) as count  from employee;
 
-.. figure:: ../../_assets/configuration/sql-statement1.PNG
+.. figure:: ../_assets/configuration/sql-statement1.PNG
    :alt: Databricks
    :width: 80%
    
@@ -72,7 +72,7 @@ Sample Data:
     
 By default, the first 100 rows of data are displayed.
 
-.. figure:: ../../_assets/configuration/sql-statement2.PNG
+.. figure:: ../_assets/configuration/sql-statement2.PNG
    :alt: Databricks
    :width: 80%
    
@@ -85,7 +85,7 @@ Drop Table
 
     drop table employee;
 
-.. figure:: ../../_assets/configuration/sql-statement3.PNG
+.. figure:: ../_assets/configuration/sql-statement3.PNG
    :alt: Databricks
    :width: 80%
 

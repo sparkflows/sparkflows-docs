@@ -28,6 +28,10 @@ The command below shows an example of creating an unmanaged Databricks Table on 
 
 The workflow below uses the Read Databricks Table Node to read in the data from the Databricks table created above.
 
+.. figure:: ../_assets/databricks/databrick_table.PNG
+   :alt: Databricks
+   :width: 60%
+
 
 Create a Dataset in Fire Insights on the csv file
 -------------
@@ -39,6 +43,12 @@ Below is the creation of a Dataset on a CSV file.
 
 The below workflow shows using the Dataset created previously.
 
-
+.. figure:: ../_assets/databricks/data.PNG
+   :alt: Databricks
+   :width: 60%
+   
+.. figure:: ../_assets/databricks/dataset.PNG
+   :alt: Databricks
+   :width: 60%   
 
 

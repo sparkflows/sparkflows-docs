@@ -46,7 +46,15 @@ Databricks Integration
    :maxdepth: 2
 
    databricks/index
-   
+
+Databricks User Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   databricks-user-guide/index
+
 AWS Integration
 --------------
 

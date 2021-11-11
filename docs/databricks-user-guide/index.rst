@@ -63,6 +63,7 @@ Databricks User Guide
    ddl.rst
    databricks-clusters.rst
    dbfs-browse.rst
+   reading-csv-files.rst
    reading-tables.rst
    writing-tables.rst
    reading-s3.rst

@@ -23,55 +23,55 @@ Feature Transformer Processors in Fire Insights
      - Description
      
    * - Tokenizer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - Tokenization is the process of taking text (such as a sentence) and breaking it into individual terms (usually words).
      
    * - Regex Tokenizer
-     - RFormula selects columns specified by an R model formula. RFormula produces a vector column of features and a double or string column of labels. Like when formulas are used in R for linear regression, string input columns will be one-hot encoded, and numeric columns will be cast to doubles. If the label column is of type string, it will be first transformed to double with StringIndexer. If the label column does not exist in the DataFrame, the output label column will be created from the specified response variable in the formula.
+     - RegexTokenizer allows more advanced tokenization based on regular expression (regex) matching.
 
    * - Stop Words Remover
-     - ChiSqSelector stands for Chi-Squared feature selection. It operates on labeled data with categorical features. ChiSqSelector uses the Chi-Squared test of independence to decide which features to choose. It supports five selection methods: numTopFeatures, percentile, fpr, fdr, fwe
+     - StopWordsRemover takes as input a sequence of strings (e.g. the output of a Tokenizer) and drops all the stop words from the input sequences.
      
    * - N-Gram Transformer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - An n-gram is a sequence of n tokens (typically words) for some integer n. The NGram class can be used to transform input features into n-grams.
      
    * - Binarizer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - Binarization is the process of thresholding numerical features to binary (0/1) features.
      
    * - PCA
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - PCA is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
      
    * - Polynomial Expansion
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - Polynomial expansion is the process of expanding your features into a polynomial space, which is formulated by an n-degree combination of original dimensions.
      
    * - String Indexer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - StringIndexer encodes a string column of labels to a column of label indices.
      
    * - Index String
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - Symmetrically to StringIndexer, IndexToString maps a column of label indices back to a column containing the original labels as strings.
      
    * - One Hot Encoder
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - One-hot encoding maps a categorical feature, represented as a label index, to a binary vector with at most a single one-value indicating the presence of a specific feature value from among the set of all feature values.
      
    * - Vector Indexer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - VectorIndexer helps index categorical features in datasets of Vectors.
      
    * - Normalizer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - Normalizer is a feature transformer which transforms a dataset of Vector rows, normalizing each Vector to have unit norm.
      
    * - Standard Scalar
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - StandardScaler transforms a dataset of Vector rows, normalizing each feature to have unit standard deviation and/or zero mean.
      
    * - Min Max Scalar
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - MinMaxScaler transforms a dataset of Vector rows, rescaling each feature to a specific range (often [0, 1]).
      
    * - SQL Transformer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - SQLTransformer implements the transformations which are defined by a SQL statement.
      
    * - Vector Assembler
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - VectorAssembler is a transformer that combines a given list of columns into a single vector column.
      
    * - Quantile Discretizer
-     - VectorSlicer is a transformer that takes a feature vector and outputs a new feature vector with a sub-array of the original features. It is useful for extracting features from a vector column. VectorSlicer accepts a vector column with specified indices, then outputs a new vector column whose values are selected via those indices.
+     - QuantileDiscretizer takes a column with continuous features and outputs a column with binned categorical features.
      
      
 

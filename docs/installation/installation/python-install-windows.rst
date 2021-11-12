@@ -146,8 +146,8 @@ Login to Fire Insights application and go to Configuration inside module and ver
 
 .. figure:: ../../_assets/installation/pyspark_configurations.PNG
    :alt: Installations
-   :width: 45%
-
+   :width: 60%
+   
 Removing Conda virtual Environment
 ----------------------------------
 

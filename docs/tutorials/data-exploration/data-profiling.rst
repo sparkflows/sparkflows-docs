@@ -20,7 +20,7 @@ Below is the workflow to do Data Profile.
 * Verify the quality of data in sparkflows `Data Quality` tab.
 
 
-.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-workflow.png
+.. figure:: ../../_assets/tutorials/data-quality/employee_details_wf.PNG
    :alt: End
    :align: left
    :width: 60%
@@ -29,7 +29,7 @@ Below is the workflow to do Data Profile.
 SampleData
 ----------
    
-.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-sample-data.png
+.. figure:: ../../_assets/tutorials/data-quality/sample_result.PNG
    :alt: End
    :align: left
    :width: 60%
@@ -53,7 +53,7 @@ Correlation
    
 Data Quality Page
 -----------------   
-.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-page.png
+.. figure:: ../../_assets/tutorials/data-quality/data_quality_page.PNG
    :alt: End
    :align: left
    :width: 60%  

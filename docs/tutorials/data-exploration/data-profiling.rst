@@ -69,7 +69,7 @@ Summary Results
    
 Correlation Results
 ------------------- 
-.. figure:: ../../_assets/tutorials/data-quality/data_quality_summary.PNG
+.. figure:: ../../_assets/tutorials/data-quality/data_quality_corellation.PNG
    :alt: End
    :align: left
    :width: 60% 

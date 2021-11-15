@@ -14,6 +14,11 @@ Advanced Controls
 
     Applies a decision
      
+    ---
+
+    :doc:`/tutorials/advanced-controls/loop`
+
+    Applies a loop
      
 .. toctree::
    :hidden:

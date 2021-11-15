@@ -25,6 +25,7 @@ Advanced Controls
 
    count.rst
    decision.rst
+   loop.rst
    
       
    

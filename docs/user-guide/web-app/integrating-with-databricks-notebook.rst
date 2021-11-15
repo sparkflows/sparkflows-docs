@@ -14,10 +14,10 @@ Add wheel file to your Databricks Notebook
 Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API's for sending data to it.
 
 
-Outputing details to Fire Insights
+Outputting details to Fire Insights
 ---------------------
 
-The Databricks Notebook can output text, tables and charts to be dispalyed in Fire Insights.
+The Databricks Notebook can output text, tables, charts, html code and progress bar to be dispalyed in Fire Insights.
 
 Below are the examples for it.
 
@@ -36,7 +36,7 @@ First create a ``RestWorkflowContext`` for communicating with Fire Insights Serv
 
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
-Outputing Text
+Outputting Text
 +++++++++
 
 Below is how to output text to Fire Insights ::
@@ -44,7 +44,7 @@ Below is how to output text to Fire Insights ::
     restworkflowcontext.outStr(9, "Test String")
 
 
-Outputing PySpark Dataframe as Table
+Outputting PySpark Dataframe as Table
 +++++++++
 
 The below code outputs the contents of PySpark Dataframe to Fire Insights as a table. By deafult 10 rows will be displayed::
@@ -60,7 +60,7 @@ The below code outputs the contents of PySpark Dataframe to Fire Insights as a t
     #To display 3 rows
     restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df, 3)
 
-Outputing Pandas Dataframe as Table
+Outputting Pandas Dataframe as Table
 +++++++++
 
 The below code outputs the contents of Pandas Dataframe to Fire Insights as a table.  By deafult 10 rows will be displayed::
@@ -78,7 +78,7 @@ The below code outputs the contents of Pandas Dataframe to Fire Insights as a ta
     #To display 3 rows
     restworkflowcontext.outDataFrame(9, "Names", df, 3)
     
-Outputing CHART
+Outputting Charts
 +++++++++
 
 
@@ -166,5 +166,15 @@ Output Running
     
     restworkflowcontext.outRunning(9, title="Running", text=message)
     
+
+Output Progress
+++++++++++++++
+
+You can output the current progress percent of the Notebook. This helps in keeping the user updated with the progress of the execution of the Notebook.
+
+::
+
+    message = "80%"
     
+    restworkflowcontext.outProgress(9, title="Progress", text=message)
 

@@ -36,7 +36,7 @@ SampleData
    
 Summary
 --------
-.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-summary.png
+.. figure:: ../../_assets/tutorials/data-quality/summary_conf.PNG
    :alt: End
    :align: left
    :width: 60%  
@@ -44,7 +44,7 @@ Summary
 
 Correlation
 -----------
-.. figure:: ../../_assets/tutorials/data-quality/employee-data-profiling-correlation.png
+.. figure:: ../../_assets/tutorials/data-quality/corellation_conf.PNG
    :alt: End
    :align: left
    :width: 60%  
@@ -61,7 +61,7 @@ Data Quality Page
     
 Summary Results 
 ----------------   
-.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-summary.png
+.. figure:: ../../_assets/tutorials/data-quality/data_quality_summary.PNG
    :alt: End
    :align: left
    :width: 60% 
@@ -69,7 +69,7 @@ Summary Results
    
 Correlation Results
 ------------------- 
-.. figure:: ../../_assets/tutorials/data-quality/employee-dp-dq-correlation.png
+.. figure:: ../../_assets/tutorials/data-quality/data_quality_summary.PNG
    :alt: End
    :align: left
    :width: 60% 

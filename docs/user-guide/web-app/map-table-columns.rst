@@ -24,7 +24,9 @@ Adding Tables Dropdown
 Adding dropdown with values
 -------------------------
 
-- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE can be `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present. If limit is not added in select query by default it will fetch 50 rows data.
+- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE can be `select * from $database.$table limit 10;`. Here, `database` and `table` in `$database$.$table$` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present. If limit is not added in select query by default it will fetch 50 rows data. 
+- Query examples : 1. select * from development.housing_csv limit 10;
+                   2. select distinct(price) as price1 from development.housing_csv limit 10;
 
    .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
         :alt: web-app

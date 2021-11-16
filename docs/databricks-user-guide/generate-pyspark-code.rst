@@ -73,7 +73,7 @@ Now you can Run the job.
    :alt: Pyspark code generate
    :width: 70% 
    
-Once the Job to Run successfully, you will see the Status of Job as Succeeded.
+Once the Job Run successfully, you will see the Status of Job as Succeeded.
 
 .. figure:: ..//_assets/user-guide/generate-pyspark-code/7.PNG
    :alt: Pyspark code generate

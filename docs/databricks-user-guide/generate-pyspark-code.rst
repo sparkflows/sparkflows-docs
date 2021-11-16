@@ -64,3 +64,17 @@ Now once you upload the Generated Pyspark Code in DBFS, you can create Jobs in d
 .. figure:: ..//_assets/user-guide/generate-pyspark-code/6.PNG
    :alt: Pyspark code generate
    :width: 70%    
+
+Once the above parameters got added, Click on Create Button, it will create new job with your selected parameters.
+
+Now you can Run the job.
+
+.. figure:: ..//_assets/user-guide/generate-pyspark-code/6.PNG
+   :alt: Pyspark code generate
+   :width: 70% 
+   
+Once the Job to Run successfully, you will see the Status of Job as Succeeded.
+
+.. figure:: ..//_assets/user-guide/generate-pyspark-code/7.PNG
+   :alt: Pyspark code generate
+   :width: 70% 

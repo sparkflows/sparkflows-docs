@@ -15,3 +15,22 @@ Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'mo
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
    :alt: Pyspark code generate
    :width: 70%
+
+Generate Pyspark Code
+----------------
+
+Now once the Configuration is enable for Generating Pyspark Code.
+
+Create an example workflow using spark engine and saved it.
+
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/2.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+   
+Once the workflow got saved, Go to workflow editor page, Click on the three dot on the top right corner of workflow editor page, you will see option of Generate Pyspark Code, select it.
+
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/3.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
+

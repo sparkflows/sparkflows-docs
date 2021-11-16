@@ -79,4 +79,4 @@ Once the Job Run successfully, you will see the Status of Job as Succeeded.
    :alt: Pyspark code generate
    :width: 70% 
 
-.. note:: Make sure that Fire Insights Library are installed on databricks cluster attached for submitting the job.
+

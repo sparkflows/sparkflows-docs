@@ -44,14 +44,14 @@ It plots graphs of distribution of data by Week using GraphWeekDistribution Node
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/10.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/11.PNG
    :alt: Distribution Graphs
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/9.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/10.PNG
    :alt: Distribution Graphs
    :width: 80%
    
@@ -63,14 +63,14 @@ It plots graphs of distribution of data by month using GraphMonthDistribution No
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/11.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/12.PNG
    :alt: Distribution Graphs
    :width: 80%
    
 Processor Output
 ^^^^^^
    
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/12.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/13.PNG
    :alt: Distribution Graphs
    :width: 80%   
    

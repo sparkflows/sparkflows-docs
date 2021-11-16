@@ -33,7 +33,7 @@ Once the workflow got saved, Go to workflow editor page, Click on the three dot 
    :alt: Pyspark code generate
    :width: 70%
 
-Once you select option of Generate Pyspark Code, a window will open with Pyspark sample code for the example workflow copy it and save it into '.py' file.
+Once you select option of Generate Pyspark Code, a window will open with Pyspark sample code for the example workflow, copy it and save it into '.py' file.
 
 .. figure:: ..//_assets/user-guide/generate-pyspark-code/4.PNG
    :alt: Pyspark code generate

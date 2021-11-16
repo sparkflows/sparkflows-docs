@@ -39,3 +39,7 @@ Once you select option of Generate Pyspark Code, a window will open with Pyspark
    :alt: Pyspark code generate
    :width: 70%
 
+Upload Generated Pyspark Code in DBFS
+--------------
+
+Now you have the Generated Pyspark Code in your local system, Upload it into DBFS which is accessible from databricks cluster.

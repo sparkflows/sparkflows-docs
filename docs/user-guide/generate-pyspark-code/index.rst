@@ -10,7 +10,7 @@ Enable Auto Pyspark Code Generation
 
 Login to Fire Insights application and Enable Auto Pyspark Code Generation from the Configurations page.
 
-Go to ADMINISTRATION, select configuration, choose MODULE tab and search for `module.enableAutoPysparkCodeGeneration` and make it to `true`, by default it will be false. 
+Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'module.enableAutoPysparkCodeGeneration' and make it to 'true', by default it will be false. 
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
    :alt: Pyspark code generate

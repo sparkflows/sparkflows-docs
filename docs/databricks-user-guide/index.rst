@@ -55,6 +55,10 @@ Databricks User Guide
     :doc:`/databricks-user-guide/writing-s3`
 
     Write data to S3 locations.
+    
+    ---
+
+    :doc:`/databricks-user-guide/generate-pyspark-code`
 
 .. toctree::
    :hidden:
@@ -68,4 +72,5 @@ Databricks User Guide
    writing-tables.rst
    reading-s3.rst
    writing-s3.rst
+   generate-pyspark-code.rst
 

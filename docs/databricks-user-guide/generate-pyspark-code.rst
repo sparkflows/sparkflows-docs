@@ -48,3 +48,19 @@ Now you have the Generated Pyspark Code in your local system, Upload it into DBF
    :alt: Pyspark code generate
    :width: 70%
 
+Submit Jobs on Databricks cluster
+----------
+
+Now once you upload the Generated Pyspark Code in DBFS, you can create Jobs in databricks with Below details:
+
+::
+
+    Task name: Add Unique Task name
+    Type : Select Type as Python & Enter the URI of the Python file to be executed
+    Cluster : Select any existing databricks cluster or even new one.
+    Parameters : If any
+    Advanced options : Add dependency if any
+    
+.. figure:: ..//_assets/user-guide/generate-pyspark-code/6.PNG
+   :alt: Pyspark code generate
+   :width: 70%    

@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 * Prints the results of few records
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/1.PNG
    :alt: DataPreparation
    :width: 90%
    

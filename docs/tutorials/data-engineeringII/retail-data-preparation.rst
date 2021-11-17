@@ -39,7 +39,7 @@ The workflow achieves the following tasks:
 
 The workflow is shown below:
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/1_a.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/1.PNG
    :alt: Dataset
    :width: 90%
    

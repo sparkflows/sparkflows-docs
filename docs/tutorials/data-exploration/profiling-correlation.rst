@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Perform correlation analysis of the required columns 
 * Provide summary statistics of the dataset
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/9.PNG
    :alt: ProfilingCorrelation
    :width: 50%
    

@@ -14,7 +14,7 @@ The below workflow:
 * Creates a matrix to show the correlation between important variables
 * Flags outliers in Ground Living Area and graphs the results
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    

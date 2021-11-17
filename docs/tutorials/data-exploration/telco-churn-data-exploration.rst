@@ -12,7 +12,7 @@ Workflow for Data Profiling
 Below is a workflow which profiles the Telco Churn Dataset.
 
 
-.. figure:: ../../_assets/tutorials/data-exploration/data-profiling-workflow.png
+.. figure:: ../../_assets/tutorials/data-exploration/1.PNG
    :alt: Concat Columns
    :width: 90%
    
@@ -22,7 +22,7 @@ Input Telco Churn Data
 The input dataset looks like below:
 
 
-.. figure:: ../../_assets/tutorials/data-exploration/input-dataset.png
+.. figure:: ../../_assets/tutorials/data-exploration/2.PNG
    :alt: Concat Columns
    :width: 90%
    
@@ -35,14 +35,14 @@ When the above workflow is executed, it produces the below results. The good thi
 Summary Statistics
 -------------------
 
-.. figure:: ../../_assets/tutorials/data-exploration/workflow-execution-result.png
+.. figure:: ../../_assets/tutorials/data-exploration/3.PNG
    :alt: Concat Columns
    :width: 90%
    
 Counts by Churned Column
 -------------------------
 
-.. figure:: ../../_assets/tutorials/data-exploration/countsby-churned-columns.png
+.. figure:: ../../_assets/tutorials/data-exploration/4.PNG
    :alt: Concat Columns
    :width: 90%
    

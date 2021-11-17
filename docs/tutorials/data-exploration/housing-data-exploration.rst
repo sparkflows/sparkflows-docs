@@ -16,7 +16,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/1.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 Reading Housing Dataset
 ---------------------
@@ -26,9 +26,9 @@ Reading Housing Dataset
 Processor Output
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/DatasetStructured_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/2.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 
 Calculate Summary Statistics
@@ -39,16 +39,16 @@ Calculate Summary Statistics
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/SummaryStats_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/3.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/SummaryStats_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/4.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
 
 Create Histogram Graph
@@ -59,16 +59,16 @@ Create Histogram Graph
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/HistoGram_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/5.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/HistoGram_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/6.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 Graph Values
 ---------------------
@@ -78,17 +78,17 @@ Graph Values
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphValues_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/7.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphValues_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/8.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
 Plot Correlation Matrix
 ---------------
@@ -99,17 +99,17 @@ Plot Correlation Matrix
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Correlation_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/9.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/Correlation_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/10.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
 
 
@@ -121,15 +121,15 @@ Flag Outliers and Create Graph
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/FlagOutlier_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/11.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/GraphOutlier_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/12.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
    
    

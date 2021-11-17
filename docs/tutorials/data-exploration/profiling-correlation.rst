@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/9.PNG
    :alt: ProfilingCorrelation
-   :width: 50%
+   :width: 90%
    
 Performing Correlation analysis
 ---------------------

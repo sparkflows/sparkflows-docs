@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a parquet file.
 * Print the sample result.
 
-.. figure:: ../../_assets/user-guide/read-write/7.png
+.. figure:: ../../_assets/user-guide/read-write/20.PNG
    :alt: readwrite
    :width: 60%
 
@@ -23,14 +23,14 @@ It reads data from a parquet file using the Read parquet processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/8.png
+.. figure:: ../../_assets/user-guide/read-write/21.PNG
    :alt: readwrite
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/9.png
+.. figure:: ../../_assets/user-guide/read-write/22.PNG
    :alt: readwrite
    :width: 80%
 

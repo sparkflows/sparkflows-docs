@@ -1,7 +1,7 @@
 BOXPLOT
 =========
 
-This workflow reads in a housing dataset. It then visualize using Boxplot.
+This workflow reads in a housing dataset. It then visualize using BoxPlot.
 
 Workflow
 -------

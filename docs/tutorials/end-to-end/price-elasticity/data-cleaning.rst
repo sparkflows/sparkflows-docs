@@ -1,4 +1,4 @@
-Data Cleaning Book Recommendations
+Data Cleaning Price Elasticity
 =================================
 
 This tutorial will cover how to clean data related to book sales. The data has been taken from Kaggle courtesy of the BookCrossing project.  

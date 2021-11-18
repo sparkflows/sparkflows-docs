@@ -29,7 +29,7 @@ The example workflow below reads a Housing Dataset which is in CSV format from H
 
 .. figure:: ../../_assets/tutorials/dataset/save_es.PNG
    :alt: Dataset
-   :width: 90%
+   :width: 60%
 
 
 Workflow Execution
@@ -71,7 +71,7 @@ The example workflow below reads the data from the sparkflows/housing index in E
 
 .. figure:: ../../_assets/tutorials/dataset/read_es.PNG
    :alt: Dataset
-   :width: 90% 
+   :width: 60%
 
 
 Workflow Execution

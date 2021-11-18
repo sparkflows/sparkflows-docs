@@ -3,6 +3,10 @@ Advance Parameters Design
 
 In Parameters stage, We add ``select, text-field, select boxes, buttons, etc`` components. These elements have options to add condition and logic.
 
+.. figure:: ../../../_assets/web-app/LogicForm.PNG
+      :alt: web-app
+      :width: 80%
+      
 Condition
 --------------
 
@@ -12,7 +16,7 @@ For example:
 
 - In Simple condition user need to choose given option. 
 
-   .. figure:: ../../../_assets/web-app/ConditionSimple.PNG
+  .. figure:: ../../../_assets/web-app/ConditionSimple.PNG
       :alt: web-app
       :width: 90%
       
@@ -31,17 +35,17 @@ For example:
 
 - In Simple trigger user need to choose given option. 
 
-   .. figure:: ../../../_assets/web-app/LogicSimple1.PNG
+  .. figure:: ../../../_assets/web-app/LogicSimple1.PNG
       :alt: web-app
       :width: 90%
       
- - For Javascript trigger user need to enter custom javascript code. Code return result variable.
+- For Javascript trigger user need to enter custom javascript code. Code return result variable.
 
   .. figure:: ../../../_assets/web-app/LogicJavascript.PNG
       :alt: web-app
       :width: 80%
       
-  - Every logic has at least one action. Action return value variable.
+- Every logic has at least one action. Action return value variable.
 
   .. figure:: ../../../_assets/web-app/LogicSimple2.PNG
       :alt: web-app

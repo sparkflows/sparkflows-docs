@@ -26,4 +26,5 @@ Below are the examples for adding various Stages
 
    upload.rst
    parameters.rst
+   advanceLogic.rst
    run.rst

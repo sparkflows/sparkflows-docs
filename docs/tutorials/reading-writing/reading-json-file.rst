@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a json file.
 * Print the sample result.
 
-.. figure:: ../../_assets/user-guide/read-write/15.PNG
+.. figure:: ../../_assets/user-guide/read-write/19.PNG
    :alt: readwrite
    :width: 60%
 
@@ -30,7 +30,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/17.PNG
+.. figure:: ../../_assets/user-guide/read-write/18.PNG
    :alt: readwrite
    :width: 80%
 

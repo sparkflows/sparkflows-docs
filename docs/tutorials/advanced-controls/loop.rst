@@ -42,7 +42,7 @@ Processor Output
 
 Calculating Summary Statistics
 -------------------------------
-We use the ``Summary Statistics`` processor to drop rows which are unnecessary from the model results before saving. In this case we are only interested in the Coefficient related to Price, so we drop all other rows.  
+We use the ``Summary Statistics`` processor to calculate basic summary statistics for numeric variables. In this case we are using it to calculate separate statistics for each Product Line. The output is showing a sample of the statistics that were generated, summary statistics were generated for every distinct Product Line. 
 
 
 Processor Configuration

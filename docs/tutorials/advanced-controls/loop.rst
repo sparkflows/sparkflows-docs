@@ -14,7 +14,7 @@ The below workflow:
 * Creates a loop to seperate the data by Product Line
 * Calculates summary statistics of the sales values
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Modelling_Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Overview.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -27,7 +27,7 @@ We use the ``Execute In Loop`` processor to have the nodes that follow execute r
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Loop_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Loop_Config1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -35,7 +35,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Loop_Config2.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -48,7 +48,7 @@ We use the ``Summary Statistics`` processor to drop rows which are unnecessary f
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Row_Filter_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -56,7 +56,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output1.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -64,7 +64,7 @@ Processor Output
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output2.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -72,7 +72,7 @@ Processor Output
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/price-elasticity/data-modelling/Regression_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output3.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    

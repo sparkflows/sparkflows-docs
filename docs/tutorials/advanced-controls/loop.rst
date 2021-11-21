@@ -16,7 +16,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Overview.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
    
 Creating Loop
@@ -29,7 +29,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Loop_Config1.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
 
 Processor Output
@@ -37,7 +37,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Loop_Config2.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
 
 Calculating Summary Statistics
@@ -58,7 +58,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output1.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
    
 Processor Output
@@ -66,7 +66,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output2.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
    
 Processor Output
@@ -74,7 +74,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/loop/Summary_Output3.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 70%
    
    
    

@@ -14,7 +14,7 @@ The below workflow:
 * Creates a loop to seperate the data by Product Line
 * Calculates summary statistics of the sales values
 
-.. figure:: ../../_assets/tutorials/data-engineering/loop/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/loop/Overview2.PNG
    :alt: titanic-data-cleaning
    :width: 70%
    

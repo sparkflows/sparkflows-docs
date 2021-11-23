@@ -21,7 +21,7 @@ The below workflow:
    
 Using Case When
 ----------------------------
-We use the ``Execute In Loop`` processor to have the nodes that follow execute repeatedly on data corresponding to different product. The ``Execute In Loop`` processor creates a list of all the unique values in the selected column and filters all values except for one at a time. This allows us to create a model for each product without editting the workflow or using a row filter. In this case we are using this processor to calculate seperate summary statistics for each Product Line without filtering the data for each seperately. For the purposes of this tutorial, distinct values that will be used to loop the workflow have also been displayed using the ``Execute In Loop`` processor. 
+We use the ``Case When`` processor to create a new columns based on values from another column(or multiple other columns).  
 
 
 Processor Configuration

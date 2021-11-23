@@ -21,7 +21,7 @@ The below workflow:
    
 Using Case When
 ----------------------------
-We use the ``Case When`` processor to create a new columns based on values from another column(or multiple other columns).  
+We use the ``Case When`` processor to create a new columns based on values from another column(or multiple other columns). In the Key Value Array option, we can add different conditions that need to be met to assign given values in the new columns created. In this case we are defining a "large" country as having a population greater than 10M people. The new column will be assigned a 1 value when to population exceeds the set threshold, and in all other cases when no conditions from the Key Value Array are met, will assign a 0 value. Multiple conditions can be set in the Key Value Array by adding new conditions using the (+) button. 
 
 
 Processor Configuration
@@ -42,7 +42,7 @@ Processor Output
 
 Creating a Histogram
 -------------------------------
-We use the ``Histogram`` processor to calculate basic summary statistics for numeric variables. In this case we are using it to calculate separate statistics for each Product Line. The output is showing a sample of the statistics that were generated, summary statistics were generated for every distinct Product Line. 
+We use the ``Histogram`` processor to create a chart of the distribution of a numeric variable. In this case we are using it to chart the proportion of "large" countries in our data.  
 
 
 Processor Configuration

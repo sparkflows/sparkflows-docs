@@ -43,7 +43,7 @@ k is the number of desired clusters. Note that it is possible for fewer than k c
 - epsilon determines the distance threshold within which we consider k-means to have converged.
 - initialModel is an optional set of cluster centers used for initialization. If this parameter is supplied, only one run is performed.
 
-.. figure:: ../../../_assets/tutorials/user-guide/machine-learning/sparkml/kmeans-sparkml-node.png
+.. figure:: ../../_assets/tutorials/user-guide/machine-learning/sparkml/kmeans-sparkml-node.png
    :alt: KMeans Clustering
    :width: 90%
    
@@ -74,8 +74,8 @@ All of spark.mllib’s LDA models support:
 - describeTopics: Returns topics as arrays of most important terms and term weights
 - topicsMatrix: Returns a vocabSize by k matrix where each column is a topic
 
-.. figure:: ../../../_assets/tutorials/user-guide/machine-learning/sparkml/lda-sparkml-node.png
-   :alt: KMeans Clustering
+.. figure:: ../../_assets/tutorials/user-guide/machine-learning/sparkml/lda-sparkml-node.png
+   :alt: LDA Clustering
    :width: 90%
    
 Bisecting k-means
@@ -104,8 +104,8 @@ A Gaussian Mixture Model represents a composite distribution whereby points are 
 - maxIterations is the maximum number of iterations to perform without reaching convergence.
 - initialModel is an optional starting point from which to start the EM algorithm. If this parameter is omitted, a random starting point will be constructed from the data.
 
-.. figure:: ../../../_assets/tutorials/user-guide/machine-learning/sparkml/gaussian-mixture-sparkml-node.png
-   :alt: KMeans Clustering
+.. figure:: ../../_assets/tutorials/user-guide/machine-learning/sparkml/gaussian-mixture-sparkml-node.png
+   :alt: Gaussian-Mixture
    :width: 90%
    
 Power iteration clustering (PIC)

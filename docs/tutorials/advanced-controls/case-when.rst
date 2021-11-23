@@ -1,7 +1,7 @@
 Case When
 =============
 
-This tutorial will cover how to use the Case When processor using aggregate health data. The data has been taken from Kaggle courtesy of the World Health Organization.  
+This tutorial will cover how to use the Case When processor using aggregate health data. The ``Case When`` processor can be used to extract features from other columns to improve modelling performance, data quality, and understandability of visualizations, among other use cases. The data has been taken from Kaggle courtesy of the World Health Organization.  
 
 .. contents::
    :depth: 2

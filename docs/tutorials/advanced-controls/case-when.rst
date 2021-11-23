@@ -1,7 +1,7 @@
 Case When
 =============
 
-This tutorial will cover how to use the Case When processor using an example sales data. The data has been taken from Kaggle courtesy of the World Health Organization.  
+This tutorial will cover how to use the Case When processor using aggregate health data. The data has been taken from Kaggle courtesy of the World Health Organization.  
 
 .. contents::
    :depth: 2

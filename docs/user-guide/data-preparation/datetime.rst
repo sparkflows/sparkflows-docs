@@ -16,16 +16,16 @@ Date Time Processors in Fire Insights
    * - Title
      - Description
    * - Date Time Field Extract
-     - It creates a new DataFrame by extracting Date and Time fields.
+     - It extracts Date parts such as Year, Month, Day Of Month, Hour, Minute, Second and Week Of Year values from an incoming Date value and append extracted parts to to the outgoing Dataframe.
    * - Date Difference
-     - This node finds the difference between the two dates.
+     - It computes difference between two Dates in number of Days, Hours, Minutes and Seconds.
    * - Date To String
      - This node converts a date/time column to a string with the given format.
    * - String To Date
      - This node converts a string column to date using the given date/time format.
    * - String To Unix Time
-     - This node converts a string to Unix Time.
+     - It converts a Date Value in String format to Unix Time value i.e. the number of seconds that have elapsed since the Unix epoch.
    * - Time Functions
      - Node to extract the year, day of the month, day of the year, week of the year, day of the week, quarter, hour, minute, second & season.
    * - Unix Time To String
-     - This node converts Unix Time to String. 
+     - It converts Unix Time Value to Date Value in String format. 

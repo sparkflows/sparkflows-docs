@@ -15,7 +15,7 @@ The example workflow below, contains "SaveAsHIVETable" Processor. It reads Trans
 
 .. figure:: ../../_assets/tutorials/dataset/63.PNG
    :alt: Dataset
-   :width: 90%
+   :width: 80%
 
 Fill the required fields.
 

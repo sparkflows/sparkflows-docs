@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Filters it to calculate the number of bedrooms with specific prices.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/1.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/9.PNG
    :alt: Housing Analysis
    :width: 60%
    
@@ -24,14 +24,14 @@ It reads multiple CSV files available in a specific directory using the ReadCSV 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/8.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/10.PNG
    :alt: Housing Analysis
    :width: 80%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/3.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/11.PNG
    :alt: Housing Analysis
    :width: 80%
 
@@ -43,14 +43,14 @@ It then filters to calculate the number of bedrooms with specific prices using a
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/4.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/12.PNG
    :alt: Housing Analysis
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/5.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/13.PNG
    :alt: Housing Analysis
    :width: 80%   
    
@@ -62,13 +62,13 @@ It will print the results with the output required after filter aggregation.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/6.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/14.PNG
    :alt: Housing Analysis
    :width: 80% 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/7.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/15.PNG
    :alt: Housing Analysis
    :width: 80%

@@ -12,7 +12,7 @@ The below workflow:
 * It then drops some columns from the original dataset.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/5.PNG
    :alt: Drop Columns
    :width: 100%
    
@@ -24,14 +24,14 @@ It reads the Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/6.PNG
    :alt: Drop Columns
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/2a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/7.PNG
    :alt: Drop Columns
    :width: 100%   
    
@@ -43,14 +43,14 @@ It drops the columns whichever we want.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/8.PNG
    :alt: Drop Columns
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/3aa.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/9.PNG
    :alt: Drop Columns
    :width: 100%
   

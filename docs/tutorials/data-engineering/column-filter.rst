@@ -13,7 +13,7 @@ The below workflow:
 * Prints the results.
 
    
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture1.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/1.PNG
    :alt: Column Filter
    :width: 100%
    
@@ -25,14 +25,14 @@ It reads the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
    
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture2.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/2.PNG
    :alt: Column Filter
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture3.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/3.PNG
    :alt: Column Filter
    :width: 100%  
    
@@ -45,14 +45,14 @@ It filters the selected columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture4.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/4.PNG
    :alt: Column Filter
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/Capture5.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/5.PNG
    :alt: Column Filter
    :width: 100%
   

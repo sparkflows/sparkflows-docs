@@ -17,7 +17,7 @@ The below workflow:
   * Using CaseWhen Processor
   * Using FindAndReplace using Regex Processor
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/1.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/7.PNG
    :alt: Handling Null Values
    :width: 100%
    
@@ -29,14 +29,14 @@ It reads in the CSV file data with-nulls.csv.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/8.PNG
    :alt: Handling Null Values
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/9.PNG
    :alt: Handling Null Values
    :width: 100%   
    
@@ -48,14 +48,14 @@ It replaces null values in certain columns with user defined constant values.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/10.PNG
    :alt: Handling Null Values
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/3a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/11.PNG
    :alt: Handling Null Values
    :width: 100%   
    
@@ -67,14 +67,14 @@ It converts strings like Y/N to 0/1 for the specified columns using the StringIn
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/12.PNG
    :alt: Handling Null Values
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/4a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/13.PNG
    :alt: Handling Null Values
    :width: 100%
    
@@ -87,14 +87,14 @@ It converts strings like Y/N to 0/1 for the specified columns using the CaseWhen
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/14.PNG
    :alt: Handling Null Values
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/5a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/15.PNG
    :alt: Handling Null Values
    :width: 100%
    
@@ -108,14 +108,14 @@ It converts strings like Y/N to 0/1 for the specified columns using the FindAndR
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/16.PNG
    :alt: Handling Null Values
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/6a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/17.PNG
    :alt: Handling Null Values
    :width: 100%
    

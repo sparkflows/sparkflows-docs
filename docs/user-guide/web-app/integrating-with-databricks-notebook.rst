@@ -182,7 +182,7 @@ You can output the current progress percent of the Notebook. This helps in keepi
 GetTextInput
 ++++++++++++++
 
-It will allow user to enter the values in execution time.
+It will allow user to enter the values in execution time from Analytical App.
 
 ::
 

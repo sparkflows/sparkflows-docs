@@ -178,3 +178,15 @@ You can output the current progress percent of the Notebook. This helps in keepi
     
     restworkflowcontext.outProgress(9, title="Progress", text=message)
 
+
+GetTextInput
+++++++++++++++
+
+It will allow user to enter the values in execution time.
+
+::
+
+    title = "Name of the Country:"
+   
+    restworkflowcontext.getTextInput(9, title=title, url=webserverURL)
+    

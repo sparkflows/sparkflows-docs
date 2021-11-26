@@ -14,7 +14,7 @@ The below workflow:
 * Creates a new DataFrame containing rows satisfying the provided condition
 * Prints the result
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/1.PNG
    :alt: ReadandParse
    :width: 100%
    
@@ -27,7 +27,7 @@ Reading from URL
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/2.PNG
    :alt: ReadandParse
    :width: 100%
 
@@ -35,7 +35,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/3.PNG
    :alt: ReadandParse
    :width: 100%   
    
@@ -53,14 +53,14 @@ Parsing the DataFrame
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/4.PNG
    :alt: ReadandParse
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/5.PNG
    :alt: ReadandParse
    :width: 100%
    
@@ -73,14 +73,14 @@ Row Filter by Index
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/6.PNG
    :alt: ReadandParse
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/7.PNG
    :alt: ReadandParse
    :width: 100%
      

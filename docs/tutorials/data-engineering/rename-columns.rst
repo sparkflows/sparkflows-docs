@@ -12,7 +12,7 @@ The below workflow:
 * It then renames columns from the original dataset.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/5.PNG
    :alt: Rename Columns
    :width: 100%
    
@@ -24,14 +24,14 @@ It reads the selected Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/6.PNG
    :alt: Rename Columns
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/2a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/7.PNG
    :alt: Rename Columns
    :width: 100% 
    
@@ -43,14 +43,14 @@ It renames the column name we want to.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/8.PNG
    :alt: Rename Columns
    :width: 100% 
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/3a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/9.PNG
    :alt: Rename Columns
    :width: 100%  
    

@@ -60,16 +60,3 @@ Prints the Result
 It prints the result after Renaming Columns.
 
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/4.PNG
-   :alt: Rename Columns
-   :width: 100%
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/4a.PNG
-   :alt: Rename Columns
-   :width: 100%   

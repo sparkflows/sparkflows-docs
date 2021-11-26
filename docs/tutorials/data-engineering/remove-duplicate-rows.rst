@@ -12,7 +12,7 @@ The below workflow:
 * It then removes duplicate rows from the original CSV file.
 * Print the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/1.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/5.PNG
    :alt: Remove Duplicate Rows
    :width: 100%
    
@@ -24,7 +24,7 @@ It reads a CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/6.PNG
    :alt: Remove Duplicate Rows
    :width: 100%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/2aa.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/7.PNG
    :alt: Remove Duplicate Rows
    :width: 100%  
    
@@ -44,14 +44,14 @@ It removes Duplicate Rows available.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/8.PNG
    :alt: Remove Duplicate Rows
    :width: 100%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/3a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/9.PNG
    :alt: Remove Duplicate Rows
    :width: 100%   
  

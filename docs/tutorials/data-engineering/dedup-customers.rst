@@ -15,7 +15,7 @@ The below workflow:
 * Then it applies distance algorithms on a few fields to find the distance between the records.
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/1.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/7.PNG
    :alt: DedupCustomers
    :width: 100%
    
@@ -27,7 +27,7 @@ There are 2 input datasets in this case "Dedup Master Dataset" & "Dedup Error Da
 Dataset 1:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/2.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/8.PNG
    :alt: DedupCustomers
    :width: 100%
    
@@ -35,7 +35,7 @@ Dataset 1:
 Dataset 2:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/3.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/9.PNG
    :alt: DedupCustomers
    :width: 100%
    
@@ -46,7 +46,7 @@ Join input DataFrames
 ``JoinUsingColumn`` Processor joins the incoming DataFrames on a join column "State". ``ColumnFilter`` Processor filters the columns to get the required DataFrame as shown below:
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/4.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/10.PNG
    :alt: DedupCustomers
    :width: 100%
    
@@ -75,7 +75,7 @@ Entity Resolution or Data Matching is the problem of finding and linking differe
 ``Dedup`` Processor Configuration 
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/5.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/11.PNG
    :alt: DedupCustomers
    :width: 100%
    
@@ -83,7 +83,7 @@ Entity Resolution or Data Matching is the problem of finding and linking differe
 ``Dedup`` Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/6.png
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/12.PNG
    :alt: DedupCustomers
    :width: 100%
    

@@ -174,7 +174,7 @@ You can output the current progress percent of the Notebook. This helps in keepi
 
 ::
 
-    message = "80%"
+    message = "50%"
     
     restworkflowcontext.outProgress(9, title="Progress", text=message)
 
@@ -188,5 +188,5 @@ It will allow user to enter the values in execution time from Analytical App.
 
     title = "Name of the Country:"
    
-    restworkflowcontext.getTextInput(9, title=title, url=webserverURL)
+    country_name = restworkflowcontext.getTextInput(9, title=title, url=webserverURL)
     

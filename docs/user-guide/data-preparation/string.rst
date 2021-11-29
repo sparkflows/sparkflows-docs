@@ -22,7 +22,7 @@ String Processors in Fire Insights
      - This node converts text to upper or lower case
 
 String Functions
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``String Functions`` processor in Fire Insights. It demonstrates usage of String Functions node to transform String value using various String Functions.
 
@@ -66,7 +66,7 @@ Output of Print node displaying transformed data in lower case using String Func
    :width: 90%
    
 String Functions Multiple
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``String Functions Multiple`` processor in Fire Insights. It demonstrates usage of String Functions Multiple node to transform multiple String columns data in one go using various String Functions.
 
@@ -104,7 +104,7 @@ Output of Print node displaying transformed data using String Functions Multiple
    :width: 90%
    
 Text Case Transformer
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``Text Case Transformer`` processor in Fire Insights. It demonstrates usage of Text Case Transformer node to change case of a String column data to either Upper case or Lower case.
 

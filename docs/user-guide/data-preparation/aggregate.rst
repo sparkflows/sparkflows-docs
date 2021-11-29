@@ -25,7 +25,7 @@ Aggregate Processors in Fire Insights
  
 
 Cube
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``Cube`` processor in Fire Insights. It demonstrates usage of Cube node to compute aggregation against all combinations of selected Cube columns.
 
@@ -86,7 +86,7 @@ Aggregated value computed using Cube node is displayed using Print node as below
    :width: 90%
 
 Group By
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``Group By`` processor in Fire Insights. It demonstrates usage of Group By node to compute aggregation of data by grouping rows together based on Group By columns.
 
@@ -130,7 +130,7 @@ Aggregated value computed using Group By node is displayed using Print node as b
    :width: 90%
 
 Pivot By
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``Pivot By`` processor in Fire Insights. It demonstrates usage of Pivot By node to compute aggregation of data using Grouping columns and displayed against each Pivot Column value.
 
@@ -180,7 +180,7 @@ Aggregated value computed using Pivot By node is displayed using Print node as b
    :width: 90%
    
 Rollup
-====================
+----------------------------------------
 
 Below is a sample workflow which contains ``Rollup`` processor in Fire Insights. It demonstrates usage of Rollup node to compute aggregation of data using Rollup Columns. Output is displayed in Hierarchical order depicting the manner in which aggregation rolls up upward.
 

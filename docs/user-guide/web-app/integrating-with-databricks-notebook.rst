@@ -182,7 +182,9 @@ You can output the current progress percent of the Notebook. This helps in keepi
 GetTextInput
 ++++++++++++++
 
-It will allow user to enter the values in execution time from Analytical App.
+It will allow user to enter the values in execution time from Analytical App and return the value.
+
+If user don't enter the value in 120 seconds, it returns the deault respose "User Response Time Out!".
 
 ::
 

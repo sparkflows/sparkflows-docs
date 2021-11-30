@@ -350,7 +350,7 @@ Configuration description
 * If you see the above output, your cluster is up and running.
 
 Install Rancher
-==================
+---------------
 
 Now that we have the RKE up and running, its time to install rancher to manage the kubernetes cluster and monitor it. Follow the below steps to install rancher
 

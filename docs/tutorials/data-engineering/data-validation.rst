@@ -30,7 +30,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/3.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/8.PNG
    :alt: Data Validation
    :width: 100%
    
@@ -42,7 +42,7 @@ It performs different validation on different columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/4.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/9.PNG
    :alt: Data Validation
    :width: 100%
    
@@ -50,7 +50,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/5.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/10.PNG
    :alt: Data Validation
    :width: 100%
 

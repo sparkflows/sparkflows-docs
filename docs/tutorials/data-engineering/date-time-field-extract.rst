@@ -11,7 +11,7 @@ The below workflow:
 * It creates a new DataFrame by extracting "Year"," Month"," Day of month", "Hour", "Minute"," Second"  fields from "TimeStamp"
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/1.PNG
    :alt: DateTimeFieldExtract
    :width: 65%
    
@@ -23,14 +23,14 @@ It reads in the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/2.PNG
    :alt: DateTimeFieldExtract
    :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/3.PNG
    :alt: DateTimeFieldExtract
    :width: 90%
    
@@ -43,7 +43,7 @@ It creates a new DataFrame by extracting the "year", "month", "day of month", "h
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/4.PNG
    :alt: DateTimeFieldExtract
    :width: 90%
    
@@ -51,7 +51,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/5.PNG
    :alt: DateTimeFieldExtract
    :width: 90%
   

@@ -11,7 +11,7 @@ Workflow for applying TimeFunctions
 
 In the example workflow below, additional Date Time features are being created from the date column.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/1.png
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/6.PNG
    :alt: Convert To Timestamps
    :width: 100%
    
@@ -29,14 +29,14 @@ It reads sample Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2.png
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/7.PNG
    :alt: Convert To Timestamps
    :width: 100%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/2a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/8.PNG
    :alt: Convert To Timestamps
    :width: 100%
    
@@ -45,19 +45,6 @@ Prints the sample Dataset Result
 
 It prints the result of the sample dataset available.
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3.png
-   :alt: Convert To Timestamps
-   :width: 100%
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/3a.png
-   :alt: Convert To Timestamps
-   :width: 100%
    
 Convert To Timestamps
 ---------------------
@@ -67,14 +54,14 @@ It converts To Timestamps using StringToDate Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4.png
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/9.PNG
    :alt: Convert To Timestamps
    :width: 100% 
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/4a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/10.PNG
    :alt: Convert To Timestamps
    :width: 100%
    
@@ -84,19 +71,7 @@ Prints the Result
 It prints the result after converting to Timestamps.
 
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5.png
-   :alt: Convert To Timestamps
-   :width: 100%
-
-Processor Output
-^^^^^^
-
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/5a.png
-   :alt: Convert To Timestamps
-   :width: 100% 
 
 
 

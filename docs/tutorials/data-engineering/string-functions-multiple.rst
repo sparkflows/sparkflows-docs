@@ -11,7 +11,7 @@ Workflow
 The example workflow below, reads data from HDFS/Hive and applies different string functions on different columns of the dataset.
 
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/1.PNG
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/6.PNG
    :alt: String Functions Multiple
    :width: 100%
    
@@ -23,14 +23,14 @@ The "Housing" processor above, reads an existing dataset on HDFS.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/2.PNG
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/7.PNG
    :alt: String Functions Multiple
    :width: 100%
 
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/3.PNG
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/8.PNG
    :alt: String Functions Multiple
    :width: 100%
 
@@ -42,14 +42,14 @@ The 'StringFunctionMultiple' processor below, converts contents of 'Driveway' co
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/4.PNG
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/9.PNG
    :alt: String Functions Multiple
    :width: 100%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/5.PNG
+.. figure:: ../../_assets/tutorials/etl/string-functions-multiple/10.PNG
    :alt: String Functions Multiple
    :width: 100%
    

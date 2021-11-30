@@ -1,11 +1,11 @@
-Feature Generation
+Feature Extraction
 ==================
 
 Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis. This process adds new information to be accessible during the model construction and therefore hopefully result in a more accurate model.
 
-Fire  Insights provides several processors for Feature Generation
+Fire  Insights provides several processors for Feature Extraction
 
-.. list-table:: Feature Generation Processors in Fire Insights
+.. list-table:: Feature Extraction Processors in Fire Insights
    :widths:  20 80
    :header-rows: 1
 

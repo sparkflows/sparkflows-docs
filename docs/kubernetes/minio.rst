@@ -1,7 +1,7 @@
 Install Minio
 =============
 
-Below are the steps for installing Minio on the Kubernetes cluster:
+Below are the steps for installing Minio on the Kubernetes cluster. Perform it on any machine from which the Kubernetes cluster is accessible.
 
 * Assuming kubernetes cluster is up and running and the kubectl is installed, we now need to install kubectl plugin for MinIO that will initialize the MinIO cluster::
    

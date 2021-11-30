@@ -1,4 +1,4 @@
-Installing Rancher
+Installing Kubernetes
 ==========================
 
   

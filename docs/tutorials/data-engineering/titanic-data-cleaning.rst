@@ -22,7 +22,7 @@ Reading Titanic dataset
 
 ``DatasetStructured`` Processor creates a Dataframe of your dataset named ``Titanic Data`` by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature.
 
-Processor Configuration
+Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/11.PNG

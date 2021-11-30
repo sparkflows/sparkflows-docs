@@ -10,7 +10,7 @@ Workflow
 * Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/1.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/6.PNG
    :alt: Data Validation
    :width: 100%
    
@@ -22,7 +22,7 @@ It reads data from a CSV File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/2.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/7.PNG
    :alt: Data Validation
    :width: 100%
    

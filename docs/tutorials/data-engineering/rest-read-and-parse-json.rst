@@ -11,7 +11,7 @@ Below is the workflow that shows:
 * How to read in single record JSON from the given URL and create the DataFrame from it
 * Prints the result
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/1.PNG
    :alt: ReadandParse
    :width: 100%
    
@@ -24,7 +24,7 @@ Reading from URL And Parsing
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/2.PNG
    :alt: ReadandParse
    :width: 100%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/3.PNG
    :alt: ReadandParse
    :width: 100%
    

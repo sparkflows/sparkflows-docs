@@ -19,6 +19,12 @@ Advanced Controls
     :doc:`/tutorials/advanced-controls/loop`
 
     Applies a loop
+    
+    ---
+
+    :doc:`/tutorials/advanced-controls/case-when`
+
+    Case When Statement
      
 .. toctree::
    :hidden:
@@ -26,6 +32,8 @@ Advanced Controls
    count.rst
    decision.rst
    loop.rst
+   case-when.rst
+   
    
       
    

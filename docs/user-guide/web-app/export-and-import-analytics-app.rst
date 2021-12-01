@@ -65,7 +65,7 @@ Fire allows you to import Analytics Application. Below are the steps for importi
 
 There are three options when importing Analytics App:
 
-* Existing Job Id in Analytical Apps
+* EXISTING JOB ID IN ANALYTICAL APPS
 
    -  Analytic App is imported with existing jobId present in exported json file.
    
@@ -73,7 +73,7 @@ There are three options when importing Analytics App:
       :alt: web-app
       :width: 90%
 
-* Use Existing Job with matching Notebook Path if exists or else create new Job
+* USE EXISTING JOB WITH MATCHING NOTEBOOK PATH IF EXISTS OR ELSE CREATE NEW JOB
 
    -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
   
@@ -81,7 +81,7 @@ There are three options when importing Analytics App:
       :alt: web-app
       :width: 90%
 
-* Create new Job with Notebook Path
+* CREATE NEW JOB WITH NOTEBOOK PATH
 
    -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
 

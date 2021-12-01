@@ -31,14 +31,20 @@ Output
 
 For the example workflow, the three output dataframes are shown below:
 
+output dataframes 1:
+
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/7.PNG
    :alt: Dataset
    :width: 100%
 
+output dataframes 2:
+
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/8.PNG
    :alt: Dataset
    :width: 100%
-   
+
+output dataframes 3:
+
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/9.PNG
    :alt: Dataset
    :width: 100%   

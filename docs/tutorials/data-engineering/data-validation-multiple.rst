@@ -24,7 +24,7 @@ The below workflow:
 * Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/1.PNG
    :alt: Data Validation Multiple
    :width: 100%
    
@@ -36,7 +36,7 @@ Reading from CSV File
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/2.PNG
    :alt: Data Validation Multiple
    :width: 100%
    
@@ -44,7 +44,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/3.PNG
    :alt: Data Validation Multiple
    :width: 100%
 
@@ -55,14 +55,14 @@ String Functions
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/4.PNG
    :alt: Data Validation Multiple
    :width: 100%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/5.PNG
    :alt: Data Validation Multiple
    :width: 100%
    
@@ -75,7 +75,7 @@ Performing Validation
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/6.PNG
    :alt: Data Validation Multiple
    :width: 100%   
 
@@ -83,7 +83,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/7.PNG
    :alt: Data Validation Multiple
    :width: 100% 
 
@@ -93,7 +93,7 @@ Prints the Valid Records
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/8.PNG
    :alt: Data Validation Multiple
    :width: 100%  
 
@@ -104,7 +104,7 @@ Prints the Invalid Records
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/Capture9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/9.PNG
    :alt: Data Validation Multiple
    :width: 100%  
 

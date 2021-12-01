@@ -33,7 +33,7 @@ Below are the steps for exporting Analytics App in Fire.
       :width: 90%
      
 Importing Analytics App
-==============
+--------
 
 Fire allows you to import Analytics Application. Below are the steps for importing Analytics Application in Fire.
 
@@ -46,14 +46,16 @@ Fire allows you to import Analytics Application. Below are the steps for importi
       :alt: web-app
       :width: 90%
       
-  - IMPORT : - Here, you can only import json file without selecting any import options.
+  - IMPORT : 
+             - Here, you can only import json file without selecting any import options.
              - Choose the json file from your computer to Import from. You must have downloaded this json file from Fire during the export process.
   
   .. figure:: ../../_assets/web-app/import-app-2.PNG
       :alt: web-app
       :width: 90%
       
-  - IMPORT INTO DATABRICKS : - Here, you can only import json file by selecting any import options.
+  - IMPORT INTO DATABRICKS : 
+                             - Here, you can only import json file by selecting any import options.
                              - Choose the json file from your computer to Import from. You must have downloaded this json file from Fire during the export process.
                              - Select any one option which you wants to. 
 
@@ -73,7 +75,7 @@ There are three options when importing Analytics App:
 
 * Use Existing Job with matching Notebook Path if exists or else create new Job
 
-  -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
+   -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
   
    .. figure:: ../../_assets/web-app/import-app-4.PNG
       :alt: web-app
@@ -81,7 +83,7 @@ There are three options when importing Analytics App:
 
 * Create new Job with Notebook Path
 
-  -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
+   -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
 
   .. figure:: ../../_assets/web-app/import-app-5.PNG
       :alt: web-app

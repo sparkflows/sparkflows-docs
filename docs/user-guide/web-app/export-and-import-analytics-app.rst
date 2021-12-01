@@ -1,4 +1,4 @@
-Export And Import Analytics App
+Export And Import Analytics Apps
 =======================
 
 Overview
@@ -18,15 +18,15 @@ Fire allows you to export Analytics App and download them to your computer.
 Below are the steps for exporting Analytics App in Fire.
 
 
-* Go to the Analytics App Page
+* Go to the Analytics Apps Page
 
 * Then click on the Export button.
 
- .. figure:: ../../_assets/web-app/export-app-1.PNG
+  .. figure:: ../../_assets/web-app/export-app-1.PNG
       :alt: web-app
       :width: 90%
      
-* Fire will now export Analytics App and download them to your computer as json file.
+* Fire will now export Analytics Application and download them to your computer as json file.
 
   .. figure:: ../../_assets/web-app/export-app-2.PNG
       :alt: web-app
@@ -35,9 +35,9 @@ Below are the steps for exporting Analytics App in Fire.
 Importing Analytics App
 ==============
 
-Fire allows you to import Analytics App. Below are the steps for importing Analytics App in Fire.
+Fire allows you to import Analytics Application. Below are the steps for importing Analytics Application in Fire.
 
-* Go to the Analytics App Page
+* Go to the Analytics Apps Page
 
   - Click on the Import button. 
   - It has 2 dropdown option i.e Import and Import into databricks.
@@ -65,16 +65,26 @@ There are three options when importing Analytics App:
 
 * Existing Job Id in Analytical Apps
 
-   -  
+   -  Analytic App is imported with existing jobId present in exported json file.
+   
+    .. figure:: ../../_assets/web-app/import-app-3.PNG
+      :alt: web-app
+      :width: 90%
 
 * Use Existing Job with matching Notebook Job if exists or create
 
-  -
+  -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
+  
+   .. figure:: ../../_assets/web-app/import-app-4.PNG
+      :alt: web-app
+      :width: 90%
 
 * Create new job with
 
-  - 
+  -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
 
-
+  .. figure:: ../../_assets/web-app/import-app-5.PNG
+      :alt: web-app
+      :width: 90%
 
 

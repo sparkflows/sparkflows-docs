@@ -71,7 +71,7 @@ There are three options when importing Analytics App:
       :alt: web-app
       :width: 90%
 
-* Use Existing Job with matching Notebook Job if exists or create
+* Use Existing Job with matching Notebook Path if exists or else create new Job
 
   -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
   
@@ -79,7 +79,7 @@ There are three options when importing Analytics App:
       :alt: web-app
       :width: 90%
 
-* Create new job with
+* Create new Job with Notebook Path
 
   -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
 

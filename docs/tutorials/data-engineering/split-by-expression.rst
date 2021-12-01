@@ -29,21 +29,21 @@ In the example workflow above, 'Split By Multiple Expressions' processor splits 
 Output
 ------
 
-For the example workflow, the three output dataframes are shown below:
+For the example workflow, the three output dataframes as per as condition passed on 'Split By Multiple Expressions' processor are shown below:
 
-output dataframes 1:
+output dataframe 1:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/7.PNG
    :alt: Dataset
    :width: 100%
 
-output dataframes 2:
+output dataframe 2:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/8.PNG
    :alt: Dataset
    :width: 100%
 
-output dataframes 3:
+output dataframe 3:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/9.PNG
    :alt: Dataset

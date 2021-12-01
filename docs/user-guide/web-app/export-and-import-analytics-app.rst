@@ -49,7 +49,7 @@ Fire allows you to import Analytics App. Below are the steps for importing Analy
   - IMPORT : - Here, you can only import json file without selecting any import options.
              - Choose the json file from your computer to Import from. You must have downloaded this json file from Fire during the export process.
   
- .. figure:: ../../_assets/web-app/import-app-2.PNG
+  .. figure:: ../../_assets/web-app/import-app-2.PNG
       :alt: web-app
       :width: 90%
       

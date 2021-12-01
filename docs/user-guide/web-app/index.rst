@@ -16,7 +16,7 @@ Analytical Apps User Guide
 
     ---
    
-    :doc:`/user-guide/web-app/ export-and-import-analytics-app`
+    :doc:`/user-guide/web-app/export-import-analytics-app`
 
     Export and Import analytics app.
 
@@ -56,7 +56,7 @@ Analytical Apps User Guide
 
    creating-anlaytics-app.rst
    adding-stages/index.rst
-   export-and-import-analytics-app.rst
+   export-import-analytics-app.rst
    analytics-app-extension.rst
    map-table-columns.rst
    integrating-with-databricks-notebook.rst

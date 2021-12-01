@@ -18,7 +18,7 @@ Analytical Apps User Guide
    
     :doc:`/user-guide/web-app/export-import-analytics-app`
 
-    Export and Import analytics app.
+    Export or Import analytics application.
 
     ---
 

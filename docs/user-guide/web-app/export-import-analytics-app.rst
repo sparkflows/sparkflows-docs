@@ -1,4 +1,4 @@
-Export And Import Analytics Apps
+Export/Import Analytics Apps
 =======================
 
 Overview

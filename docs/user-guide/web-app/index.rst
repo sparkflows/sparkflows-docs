@@ -15,6 +15,12 @@ Analytical Apps User Guide
     Add Stages to each analytics apps. There are three stage type Upload, Parameters and Run.
 
     ---
+   
+    :doc:`/user-guide/web-app/ export-and-import-analytics-app`
+
+    Export and Import analytics app.
+
+    ---
 
     :doc:`/user-guide/web-app/analytics-app-extension`
 
@@ -50,6 +56,7 @@ Analytical Apps User Guide
 
    creating-anlaytics-app.rst
    adding-stages/index.rst
+   export-and-import-analytics-app.rst
    analytics-app-extension.rst
    map-table-columns.rst
    integrating-with-databricks-notebook.rst

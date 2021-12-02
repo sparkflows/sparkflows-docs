@@ -45,7 +45,7 @@ Processor Output
 
 Creating a Decision Point
 -------------------------------
-We use the ``Assert`` processor to create a decision point in the workflow. This node takes a conditional expression as an input, evaluates the expression to be a boolean value, and then exclusively executes a portion of the workflow depending on the result of the expression. 
+We use the ``Assert`` processor to create a decision point in the workflow. This node takes a conditional expression as an input, evaluates the expression to be a boolean value, and then exclusively executes a portion of the workflow depending on the result of the expression. If the expression is evaluated to be True, then the node will only execute the node on the upper edge and vice versa. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^

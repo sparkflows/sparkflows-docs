@@ -1,7 +1,7 @@
-Case When
+Assert
 =============
 
-This tutorial will cover how to use the Case When processor using aggregate health data. The ``Case When`` processor can be used to extract features from other columns to improve modelling performance, data quality, and understandability of visualizations, among other use cases. The data has been taken from Kaggle courtesy of the World Health Organization.  
+This tutorial will cover how to use the Assert processor using aggregate health data. The ``Assert`` processor can be used to choose which section of a workflow gets executed based on a parameter created by another node. The data has been taken from Kaggle courtesy of the World Health Organization.  
 
 .. contents::
    :depth: 2
@@ -14,7 +14,7 @@ The below workflow:
 * Uses the Case When processor to create a new variable
 * Creates a histogram to show the distribution of a variable
 
-.. figure:: ../../_assets/tutorials/data-engineering/case-when/Overview.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/assert/Overview.PNG
    :alt: titanic-data-cleaning
    :width: 70%
    
@@ -27,7 +27,7 @@ We use the ``Case When`` processor to create a new columns based on values from 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/case-when/CaseWhen_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/assert/Count_Config.PNG
    :alt: titanic-data-cleaning
    :width: 70%
    
@@ -35,7 +35,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/case-when/CaseWhen_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/assert/Count_Output.PNG
    :alt: titanic-data-cleaning
    :width: 70%
    
@@ -48,7 +48,7 @@ We use the ``Histogram`` processor to create a chart of the distribution of a nu
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/case-when/Histogram_Config.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/assert/Assert_Config.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    
@@ -56,7 +56,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/case-when/Histogram_Output.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/assert/Assert_Output.PNG
    :alt: titanic-data-cleaning
    :width: 70%
    

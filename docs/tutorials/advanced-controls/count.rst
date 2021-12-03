@@ -15,7 +15,7 @@ Below Workflow performs following processing:
    
 .. figure:: ../../_assets/tutorials/advanced-controls/count/Count_Demo_Workflow.png
    :alt: Count
-   :width: 100%
+   :width: 80%
    
 Reading from Dataset
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
    
 .. figure:: ../../_assets/tutorials/advanced-controls/count/Incoming_Dataset_File.png
    :alt: Count
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/count/Dataset_Data.png
    :alt: Count
-   :width: 100%  
+   :width: 80%  
    
    
 Row Filter Nodes
@@ -61,7 +61,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/advanced-controls/count/RowFilter_OH_Output.png
    :alt: Count
-   :width: 100%
+   :width: 80%
   
 Count Nodes
 ------------
@@ -76,11 +76,11 @@ Processor configuration of the Count node that prints Churn count for OH state
 
 .. figure:: ../../_assets/tutorials/advanced-controls/count/Count_Node_OH.png
    :alt: Count
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/count/Count_Node_OH_Output.png
    :alt: Count
-   :width: 100%
+   :width: 80%

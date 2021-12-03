@@ -4,6 +4,12 @@ Advanced Controls
 .. panels::
     :container: container-lg pb-3
 
+    :doc:`/tutorials/advanced-controls/case-when`
+
+    Case When Statement
+    
+    ---
+    
     :doc:`/tutorials/advanced-controls/count`
 
     Finds the count of the number of records in the dataframe
@@ -20,12 +26,7 @@ Advanced Controls
 
     Applies a loop
     
-    ---
-
-    :doc:`/tutorials/advanced-controls/case-when`
-
-    Case When Statement
-     
+         
 .. toctree::
    :hidden:
 

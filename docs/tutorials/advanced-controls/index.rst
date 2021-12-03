@@ -30,10 +30,11 @@ Advanced Controls
 .. toctree::
    :hidden:
 
+   case-when.rst
    count.rst
    decision.rst
    loop.rst
-   case-when.rst
+   
    
    
       

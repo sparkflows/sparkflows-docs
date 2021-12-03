@@ -16,7 +16,7 @@ Workflow performs following processing:
    
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Decision_Demo_Workflow.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
 Reading from Dataset
 ---------------------
@@ -28,14 +28,14 @@ Processor Configuration
    
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Incoming_Dataset_File.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Dataset_Data.png
    :alt: Decision
-   :width: 100%  
+   :width: 80%
    
    
 Row Filter Nodes
@@ -55,14 +55,14 @@ Below is Processor configuration of Row Filter Node that filters Churn data for 
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/RowFilter_OH.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/RowFilter_OH_Output.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
   
 Count Nodes
 ------------
@@ -77,14 +77,14 @@ Processor configuration of the Count node that prints Churn count for OH state
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Count_Node_OH.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Count_Node_OH_Output.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
 
 Decision Nodes
 ------------
@@ -101,7 +101,7 @@ Processor configuration of the Decision node for OH state
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Decision_Node_OH.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
    
 Print N Rows Nodes
@@ -118,11 +118,11 @@ Processor configuration of the Count node that prints Churn count for NJ state
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Print_Node_NJ.png
    :alt: Decision
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/advanced-controls/decision/Print_Node_NJ_Output.png
    :alt: Decision
-   :width: 100%
+   :width: 80%

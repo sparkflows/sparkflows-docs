@@ -1,12 +1,17 @@
 November 2021
 ==============
 
-- DBFS
-  - Displaying progress bar while uploading file in dbfs
-- UI
-  - Added color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
-  - Ability to select multiple nodes in the workflow editor
-  - Executions page look and feel.
-  - Top menu look and feel. : Remove sub menu
-  - Added current project submenu as icon inside project list page.
-  - Executions Result page look and feel upgrade.
+DBFS
+------
+
+- Displaying progress bar while uploading file in dbfs
+
+UI
+----
+
+- Added color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
+- Ability to select multiple nodes in the workflow editor
+- Executions page look and feel.
+- Top menu look and feel. : Remove sub menu
+- Added current project submenu as icon inside project list page.
+- Executions Result page look and feel upgrade.

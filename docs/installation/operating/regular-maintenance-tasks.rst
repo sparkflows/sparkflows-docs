@@ -16,7 +16,7 @@ It is important to back up the database regularly.
 In order to backup the H2 DB follow the steps below:
 
 * Stop Fire Insights
-* Copy the H2 DB to another folder
+* Copy the H2 DB files to another folder. This file is normally named firedb.mv.db.
 * Start Fire Insights
 
 
@@ -75,10 +75,21 @@ If the H2 DB file size grows too large (> 3GB), then follow the steps below for 
 Recreating the H2 DB to further reduce the database size
 +++++++++++++
 
+Recreating the H2 DB, drastically reduces the size of the H2 DB. Below are the steps for recreating it.
+
 https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically
+
+* Make a copy of firedb.mv.db file to be safe
+* Use the commands below for recreating it
 
 ::
 
+    java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
+    URL: jdbc:h2:./firedb
+    Driver : org.h2.Driver
+    User : fire
+    Password : fire
+    
     SCRIPT TO 'mydb.sql'; 
     DROP ALL OBJECTS; 
     RUNSCRIPT FROM 'mydb.sql';

@@ -5,7 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
-   upcoming.rst
+   2021-nov.rst
    
    2021-oct.rst
    2021-sep.rst

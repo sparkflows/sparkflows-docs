@@ -6,7 +6,6 @@ Release Notes
    :maxdepth: 2
 
    2021-nov.rst
-   
    2021-oct.rst
    2021-sep.rst
    2021-aug.rst

@@ -6,6 +6,10 @@ Generate Pyspark Code
 
 - Fire Inisghts enable you to Generate Pyspark Code even with spark engine and run the job using python engine.
 
+.. figure:: ..//_assets/user-guide/generate-pyspark-code/3.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
 Documentation
 +++++
 

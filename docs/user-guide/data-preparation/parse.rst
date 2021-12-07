@@ -83,7 +83,8 @@ It does following processing of data:
 
 *	Column from incoming dataset containing multiple data parts needs to be selected in ``Input Column``.
 *	Name of output columns that would be created after splitting needs to be entered in ``Output Columns``. Multiple column names can be entered separated by comma. These columns would be added to the output
-*	Delimiter used to join multiple data parts needs to be entered in ``Separator``.
+*	Delimiter used to join multiple data parts needs to be entered in ``Separator``. 
+*  In the below example ``:`` is used as a ``Separator``. For few ``Separator`` such as ``Pipe Symbol`` or ``|``, ``Escape Characater`` or ``\`` needs to be used as a prefix i.e. ``Separator`` needs to be entered as ``\|`` 
 
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fieldsplitter-configuration.png

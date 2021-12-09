@@ -104,7 +104,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-demo-workflow.png
    :alt: readwholetext_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Read Whole Text Files Node configuration**

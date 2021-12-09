@@ -35,7 +35,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-demo-workflow.png
    :alt: readpdf_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Read PDF Node configuration**
@@ -70,7 +70,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readtextfiles-demo-workflow.png
    :alt: readtextfiles_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Read Text Files Node configuration**

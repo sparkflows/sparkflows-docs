@@ -4,28 +4,52 @@ November 2021
 Generate Pyspark Code
 +++++++
 
-- Fire Insights enables you to Generate Pyspark Code even with spark engine and run the job using python engine.
+Fire Insights enables you to Generate Pyspark Code even with spark engine and run the job using python engine.
 
 .. figure:: ..//_assets/user-guide/generate-pyspark-code/3.PNG
    :alt: Pyspark code generate
    :width: 70%
+   
 
 Documentation
 +++++
 
-- Reference guide : https://docs.sparkflows.io/en/latest/databricks-user-guide/generate-pyspark-code.html
+Reference guide : https://docs.sparkflows.io/en/latest/databricks-user-guide/generate-pyspark-code.html
 
 DBFS
 +++++++
 
-- Displaying progress bar while uploading file in dbfs
+Displaying progress bar while uploading file in dbfs
+
+.. figure:: ..//_assets/releases/2021_Nov/dbfsFileUpload.PNG
+   :alt: Pyspark code generate
+   :width: 70%
 
 UI
 ++++++
 
-- Added color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
-- Ability to select multiple nodes in the workflow editor
+Added color palette themes in graph nodes i.e NodeGraphValues, NodeBubbleChart, NodeGraphGroupByColumn, NodeGraphSubPlots
+
+.. figure:: ..//_assets/releases/2021_Nov/colorPalette.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+   
+Ability to select multiple nodes in the workflow editor, using click and drag mouse.
+
+.. figure:: ..//_assets/releases/2021_Nov/nodeSelection.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+   
+Switch view option (like Full result, Result and Node wise result) added on Executions Result page.
+
+.. figure:: ..//_assets/releases/2021_Nov/executionResult.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
+UI Upgrades
+--------------
+
 - Executions page look and feel.
 - Top menu look and feel. : Remove sub menu
 - Added current project submenu as icon inside project list page.
-- Executions Result page look and feel upgrade.
+

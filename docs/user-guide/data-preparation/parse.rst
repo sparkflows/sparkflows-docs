@@ -41,7 +41,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/apachelogs-demo-workflow.png
    :alt: apachelogs_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Apache Logs Node configuration**
@@ -76,7 +76,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fieldsplitter-demo-workflow.png
    :alt: fieldsplitter_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Field Splitter Node configuration**
@@ -112,7 +112,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fixedlength-demo-workflow.png
    :alt: fixedlength_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Fixed Length Fields Node configuration**
@@ -147,7 +147,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/multiregex-demo-workflow.png
    :alt: multiregex_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Multi Regex Extractor Node configuration**
@@ -183,7 +183,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/parsejson-demo-workflow.png
    :alt: parsejson_node_userguide
-   :width: 90%
+   :width: 60%
    
 
 **Parse JSON Col Node configuration**

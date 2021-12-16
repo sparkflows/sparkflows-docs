@@ -35,7 +35,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-demo-workflow.png
    :alt: readavro_node_userguide
-   :width: 90%
+   :width: 70%
    
 
 **Read Avro Node configuration**
@@ -69,7 +69,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-demo-workflow.png
    :alt: readcsv_node_userguide
-   :width: 90%
+   :width: 70%
    
 
 **Read CSV Node configuration**
@@ -105,7 +105,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-demo-workflow.png
    :alt: readparquet_node_userguide
-   :width: 90%
+   :width: 70%
    
 
 **Read Parquet Node configuration**
@@ -139,7 +139,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-demo-workflow.png
    :alt: readjson_node_userguide
-   :width: 90%
+   :width: 70%
    
 
 **Read JSON Node configuration**

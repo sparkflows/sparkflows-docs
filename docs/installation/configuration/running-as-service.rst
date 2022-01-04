@@ -16,7 +16,7 @@ Prerequisites
 Create a fire service
 --------------------
 
-Create a fire service which run as systemd service as specific user(for Fire Insights to start up at reboot), inside `/etc/systemd/system` location, which trigger a shell script to start Fire Insights server.
+Create a fire service which run as systemd service as specific user(for Fire Insights to start up at reboot), inside '/etc/systemd/system' location, which trigger a shell script to start Fire Insights server.
 
 ::
 
@@ -37,7 +37,7 @@ Create a fire service which run as systemd service as specific user(for Fire Ins
 Add a shell script
 ----------------
 
-Add a shell script `fire.sh` in location updated in fire service for Starting Fire server.
+Add a shell script 'fire.sh' in location updated in fire service for Starting Fire server.
 
 Add Below to it and provide appropriate permission
 

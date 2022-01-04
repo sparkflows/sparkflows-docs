@@ -18,4 +18,18 @@ Create a fire service
 
 Create a fire service which run as systemd service as specific user(for Fire Insights to start up at reboot), inside `/etc/systemd/system` location, which trigger a shell script to start Fire Insights server.
 
+::
 
+    [Unit]
+    Description=Fire
+    After=network.target
+
+    [Service]
+    Type=forking
+    User=sparkflows
+    ExecStart=/home/sparkflows/fire.sh
+    RestartSec=35
+    Restart=on-abort
+
+   [Install]
+   WantedBy=multi-user.target

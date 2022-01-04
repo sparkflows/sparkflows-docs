@@ -69,7 +69,7 @@ Once the above steps is updated, you can run do and verify the below steps:
     systemctl status fire.service
     
 
-.. figure:: ..//_assets/user-guide/fire_service_status.PNG
+.. figure:: ../../_assets/user-guide/fire_service_status.PNG
    :scale: 80%
    :alt: fire service
    :align: center

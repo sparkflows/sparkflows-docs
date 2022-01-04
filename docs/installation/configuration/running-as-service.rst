@@ -33,3 +33,16 @@ Create a fire service which run as systemd service as specific user(for Fire Ins
 
    [Install]
    WantedBy=multi-user.target
+
+Add a shell script
+----------------
+
+Add a shell script `fire.sh` in location updated in fire service for Starting Fire server.
+
+Add Below to it and provide appropriate permission
+
+::
+
+    #!/bin/sh
+    cd $fire_home/fire-3.1.0_spark_x.y.z
+    ./run-fire-server.sh start

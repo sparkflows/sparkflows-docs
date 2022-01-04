@@ -46,3 +46,33 @@ Add Below to it and provide appropriate permission
     #!/bin/sh
     cd $fire_home/fire-3.1.0_spark_x.y.z
     ./run-fire-server.sh start
+
+Once the above steps is updated, you can run do and verify the below steps:
+
+- Refresh the systemd configuration files
+
+::
+
+   systemctl daemon-reload
+   
+- enable the service (if required) to start automatically at boot
+
+::
+
+    systemctl enable fire.service
+    
+- Verify the systemd unit file configuration
+
+::
+
+    systemctl restart fire.service
+    systemctl status fire.service
+    
+
+.. figure:: ..//_assets/user-guide/fire_service_status.PNG
+   :scale: 80%
+   :alt: fire service
+   :align: center
+    
+
+    

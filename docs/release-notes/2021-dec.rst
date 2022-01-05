@@ -4,7 +4,7 @@ December 2021
 Dataset
 +++++++
 
-Fire Insights enables you to Delete Multiple Dataset
+Fire Insights enable you to Delete Multiple Dataset
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_dataset.PNG
    :alt: Pyspark code generate
@@ -13,13 +13,13 @@ Fire Insights enables you to Delete Multiple Dataset
 DBFS
 +++++++
 
-Fire Insights enables you to Delete Multiple file
+Fire Insights enable you to Delete Multiple file
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_file.PNG
    :alt: Pyspark code generate
    :width: 70%
 
-Fire Insights enables you to Delete Multiple folder
+Fire Insights enable you to Delete Multiple folder
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_folder.PNG
    :alt: Pyspark code generate

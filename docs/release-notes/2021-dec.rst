@@ -47,3 +47,8 @@ Fire Insights enable you Import Analytics application with Databricks Notebook p
 .. figure:: ..//_assets/releases/dec-2021/notebook_path.PNG
    :alt: Pyspark code generate
    :width: 70%   
+   
+Generate Pyspark Code
++++++++
+
+Added Generate Pyspark Code for more spark Node and Fixes.

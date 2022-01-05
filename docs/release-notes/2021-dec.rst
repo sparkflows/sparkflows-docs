@@ -1,5 +1,17 @@
 December 2021
 ==============
 
-Generate Pyspark Code
+Dataset
 +++++++
+
+- Multiple Deletion on Dataset
+
+UI Upgrades
+++++++++++
+
+- UI Upgrades for pipeline editor
+
+Analytics Application
++++++++++++++++
+
+- Import of Analytics application with Notebook path

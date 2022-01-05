@@ -33,4 +33,13 @@ UI Upgrades for pipeline editor
 Analytics Application
 +++++++++++++++
 
-Import of Analytics application with Databricks Notebook path
+Fire Insights enable you Import Analytics application with Databricks Notebook path.
+
+
+.. figure:: ..//_assets/releases/dec-2021/import_databricks.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/dec-2021/notebook_path.PNG
+   :alt: Pyspark code generate
+   :width: 70%   

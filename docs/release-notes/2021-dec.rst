@@ -19,4 +19,4 @@ UI Upgrades for pipeline editor
 Analytics Application
 +++++++++++++++
 
-Import of Analytics application with Notebook path
+Import of Analytics application with Databricks Notebook path

@@ -4,14 +4,19 @@ December 2021
 Dataset
 +++++++
 
-- Multiple Deletion on Dataset
+Multiple Deletion on Dataset
+
+DBFS
++++++++
+
+Deletion of Multiple file
 
 UI Upgrades
 ++++++++++
 
-- UI Upgrades for pipeline editor
+UI Upgrades for pipeline editor
 
 Analytics Application
 +++++++++++++++
 
-- Import of Analytics application with Notebook path
+Import of Analytics application with Notebook path

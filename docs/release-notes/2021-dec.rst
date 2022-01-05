@@ -11,6 +11,16 @@ DBFS
 
 Deletion of Multiple file
 
+.. figure:: ..//_assets/releases/dec-2021/multiple_file.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
+Deletion of Multiple folder
+
+.. figure:: ..//_assets/releases/dec-2021/multiple_folder.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
 UI Upgrades
 ++++++++++
 

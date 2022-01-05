@@ -30,6 +30,10 @@ UI Upgrades
 
 UI Upgrades for pipeline editor
 
+.. figure:: ..//_assets/releases/dec-2021/pipeline_wf.PNG
+   :alt: Pyspark code generate
+   :width: 70%
+
 Analytics Application
 +++++++++++++++
 

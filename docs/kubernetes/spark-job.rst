@@ -15,3 +15,10 @@ Below are the script takes care of setting up the classpath with Spark and its d
     --conf spark.executor.instances=5 \
     --conf spark.kubernetes.container.image=<spark-image> \
     local:///path/to/examples.jar
+
+Some of the commonly used options are:
+
+--class: The entry point for your application (e.g. org.apache.spark.examples.SparkPi)
+--master: The master URL for the cluster (e.g. spark://23.195.26.187:7077)
+--deploy-mode: Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client) (default: client) †
+--conf: Arbitrary Spark configuration property in key=value format. For values that contain spaces wrap “key=value” in quotes (as shown). Multiple configurations should be passed as separate arguments. (e.g. --conf <key>=<value> --conf <key2>=<value2>)

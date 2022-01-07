@@ -4,7 +4,7 @@ December 2021
 Datasets
 +++++++
 
-Fire Insights enable you to Delete Multiple Datasets.
+Fire Insights enables you to Delete Multiple Datasets.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_dataset.PNG
    :alt: Pyspark code generate
@@ -13,13 +13,13 @@ Fire Insights enable you to Delete Multiple Datasets.
 DBFS
 +++++++
 
-Fire Insights enable you to Delete Multiple file
+Fire Insights enables you to Delete Multiple files.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_file.PNG
    :alt: Pyspark code generate
    :width: 70%
 
-Fire Insights enable you to Delete Multiple folder
+Fire Insights enables you to delete Multiple folders.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_folder.PNG
    :alt: Pyspark code generate
@@ -28,7 +28,7 @@ Fire Insights enable you to Delete Multiple folder
 UI Upgrades
 ++++++++++
 
-UI Upgrades for pipeline editor
+UI Upgrades for Pipeline Editor
 
 .. figure:: ..//_assets/releases/dec-2021/pipeline_wf.PNG
    :alt: Pyspark code generate
@@ -37,7 +37,7 @@ UI Upgrades for pipeline editor
 Analytics Application
 +++++++++++++++
 
-Fire Insights enable you to Import Analytics application with Databricks Notebook path.
+Fire Insights enables you to Import Analytics Application with Databricks Notebook Path.
 
 
 .. figure:: ..//_assets/releases/dec-2021/import_databricks.PNG
@@ -51,4 +51,4 @@ Fire Insights enable you to Import Analytics application with Databricks Noteboo
 Generate Pyspark Code
 +++++++
 
-Fixes and Included more spark Node for Generate Pyspark Code.
+Fixes and Includes more spark Nodes for Generate Pyspark Code.

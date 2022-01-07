@@ -39,6 +39,7 @@ Below are the steps:
    hive.rst
    jupyter.rst
    fire-insights.rst
+   spark-job.rst
    
    
    

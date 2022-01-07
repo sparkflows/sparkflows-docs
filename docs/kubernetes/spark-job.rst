@@ -22,3 +22,8 @@ Some of the commonly used options are:
 - --master: The master URL for the cluster (e.g. spark://23.195.26.187:7077)
 - --deploy-mode: Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client) (default: client) †
 - --conf: Arbitrary Spark configuration property in key=value format. For values that contain spaces wrap “key=value” in quotes (as shown). Multiple configurations should be passed as separate arguments. (e.g. --conf <key>=<value> --conf <key2>=<value2>)
+
+Helpful link
+++++++++++++
+
+- https://spark.apache.org/docs/latest/submitting-applications.html

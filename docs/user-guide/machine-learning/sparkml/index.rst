@@ -46,12 +46,6 @@ Apache Spark ML
 
     ---
 
-    :doc:`/user-guide/machine-learning/sparkml/prediction`
-    
-    Prediction derives the relationship between a thing you know and a thing you need to predict for future reference
-
-    ---
-
     :doc:`/user-guide/machine-learning/sparkml/evaluation`
     
     Model evaluation aims to estimate the generalization accuracy of a model on future (unseen/out-of-sample) data
@@ -79,7 +73,6 @@ Apache Spark ML
    clustering.rst
    regression.rst
    classification.rst
-   prediction.rst
    evaluation.rst
    serving-sparkmllib-models.rst
    model-persistence.rst

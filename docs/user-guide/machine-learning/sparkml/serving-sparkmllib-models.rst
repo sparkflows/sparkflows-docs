@@ -7,7 +7,7 @@ NodeModelSave saves the Spark ML models as files. It uses the Spark interfaces t
 
 .. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
-   :width: 80%
+   :width: 60%
 
 Once the SparkML model is saved, they can be loaded and used in scoring. Fire Insights enables saving both Spark ML models and pipelines.
 
@@ -18,7 +18,11 @@ By using NodeModelLoad & selecting the particular type of model to be loaded, th
 
 .. figure:: ../../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
-   :width: 80%
+   :width: 60%
+
+For Apache Spark ML, Fire Insights has a Predict node for predictions.
+
+It takes inputs as Spark ML model and a Spark Dataframe. The result of predicition is stored in a new column in the Dataframe called 'prediction'
 
 Online Scoring with Kafka and Spark Streaming:
 ---------------------------------------------

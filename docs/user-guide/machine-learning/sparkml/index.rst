@@ -74,5 +74,6 @@ Apache Spark ML
    regression.rst
    classification.rst
    evaluation.rst
-   serving-sparkmllib-models.rst
    model-persistence.rst
+   serving-sparkmllib-models.rst
+

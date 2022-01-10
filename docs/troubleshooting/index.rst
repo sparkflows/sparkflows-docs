@@ -9,6 +9,7 @@ Troubleshooting
    upgrade.rst
    dataset.rst
    running-workflows.rst
+   running-ml-workflows.rst
    logs.rst
    dashboard.rst
    kerberos.rst

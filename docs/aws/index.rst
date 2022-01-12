@@ -22,5 +22,6 @@ AWS Guide
    cloudformationh2db.rst
    cloudformationmysql.rst
    glue-integration/index.rst
+   aws-sso/index.rst
    
    

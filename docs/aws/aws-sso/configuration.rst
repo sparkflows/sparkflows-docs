@@ -7,6 +7,11 @@ Below are Configurations Steps on how to Configure Aws SSO.
 1. Log in to the AWS Management Console.
 2. Navigate to Security, Identity, & Compliance > AWS Single Sign-On:
 
+.. figure:: ..//_assets/configuration/aws-sso/service_aws.PNG
+   :alt: aws sso
+   :width: 80%
+   
+   
 3. Click Enable AWS SSO:
 4. Select Settings:
 5. Under Identity source, select Change:

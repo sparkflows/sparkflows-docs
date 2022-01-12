@@ -6,6 +6,7 @@ Databricks Integration Guide
    :maxdepth: 2
 
    databricks-prerequisites.rst
+   databricks-library.rst
    databricks-installation.rst
    databricks-python-installation.rst
    databricks-connections.rst

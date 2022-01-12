@@ -43,7 +43,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    :width: 40%
 
 
-4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous steps by Clicking on ``Drop JAR here``
 
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG

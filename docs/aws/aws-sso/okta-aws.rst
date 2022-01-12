@@ -39,3 +39,18 @@ Below are steps to create an application with aws sso.
    :width: 50%
     
 click Save to complete the configuration.
+
+6. Configuring Automatic Provisioning
+
+click on Provisioning tab under the AWS SSO Application. select Enable API Integration. Then copy / paste the values Base URL (paste the value copied in AWS Single Sign-On Console SCIM endpoint) and API Token (paste the value copied AWS Single Sign-On Console Access token). be sure to remove the trailing / at the end of the URL. The URL ends with scim/v2
+
+.. figure:: ../../_assets/configuration/aws-sso/provisoning.PNG
+   :alt: aws sso
+   :width: 50%
+
+7. click Test API Credentials to verify everything works as expected. Then I click To App to enable users creation, update, and deactivate.
+
+.. figure:: ../../_assets/configuration/aws-sso/provisoning_enabled.PNG
+   :alt: aws sso
+   :width: 50%
+

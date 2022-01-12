@@ -13,3 +13,8 @@ Below are steps involved in it:
 .. figure:: ../../_assets/configuration/aws-sso/aws_sso_app.PNG
    :alt: aws sso
    :width: 60%
+
+3. Add a custom SAML 2.0 application
+
+Configure Custom SAML 2.0 application with some details:
+

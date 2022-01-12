@@ -38,3 +38,4 @@ Below are steps to create an application with aws sso.
    :alt: aws sso
    :width: 50%
     
+click Save to complete the configuration.

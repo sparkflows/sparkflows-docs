@@ -36,5 +36,5 @@ Below are steps to create an application with aws sso.
     
 .. figure:: ../../_assets/configuration/aws-sso/saml.PNG
    :alt: aws sso
-   :width: 80%
+   :width: 50%
     

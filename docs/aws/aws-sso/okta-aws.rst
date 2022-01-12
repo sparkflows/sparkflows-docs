@@ -34,7 +34,7 @@ Below are steps to create an application with aws sso.
 
     Click Save:
     
-.. figure:: ../../_assets/configuration/aws-sso/saml.PNG
+.. figure:: ../../_assets/configuration/aws-sso/aws-acs.PNG
    :alt: aws sso
    :width: 50%
     

@@ -9,3 +9,4 @@ Fire Insights Integrated with SAML 2.0 for Okta/AWS Single Sign-on.
    configuration.rst
    okta-aws.rst
    application.rst
+   fire-sso.rst

@@ -68,8 +68,8 @@ Fire Insights can be configured with AWS SSO as below.
   
 10. Once the above configuration added and when started the Fire Server, you will able to Login through Fire Insights page.
 
-.. figure:: ../../../_assets/configuration/aws-sso/login.PNG
-   :alt: sso
+.. figure:: ../../_assets/configuration/aws-sso/login.PNG
+   :alt: aws sso
    :width: 60%
   
 .. note::  Make sure to change localhost to your domain name or your ip

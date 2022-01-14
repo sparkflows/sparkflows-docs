@@ -40,13 +40,25 @@ Fire Insights can be configured with AWS SSO as below.
    # Identifier of the IdP entity  (must be a URI)
    saml2.idp.entityid=https://portal.sso.us-east-1.amazonaws.com/saml/assertion/xxxxxxxxxxxxxxxxxxx
 
-9. Application base url
+6. Algorithm that the toolkit will use on signing process.
+
+::
+
+    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha25    
+
+7. Application base url
 
 ::
 
   saml.sso.metadata-generator.entity-base-url=https://localhost:8443
   
-10. server name
+8. acs url
+
+::
+
+    saml.sso.acs-url=https://54.221.85.100:8443/saml/SSO  
+  
+9. server name
 
 ::
 

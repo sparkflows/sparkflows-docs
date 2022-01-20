@@ -1,4 +1,4 @@
-Read structured files
+Read Structured files
 ==========
 
 Fire Insights provides a number of Processors for reading structured data from files.

@@ -13,7 +13,7 @@ The below workflow does the following:
 
 .. figure:: ../../_assets/snowflake/1.PNG
    :alt: snowflake
-   :width: 90%
+   :width: 70%
 
 Reading from Snowflake Table
 -------------------

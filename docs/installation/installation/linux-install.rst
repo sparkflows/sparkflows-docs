@@ -78,11 +78,19 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     
 * Test by opening your web browser and going to::
 
-    localhost:8080
+    http://localhost:8080
 
     OR
 
-    <machine_name>:8080
+    http://<machine_name>:8080
+    
+    OR
+    
+    https://localhost:8443
+    
+    OR
+    
+    https://<machine_name>:8443
 
 * Login with::
 

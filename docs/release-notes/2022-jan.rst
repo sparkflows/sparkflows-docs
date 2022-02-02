@@ -25,11 +25,13 @@ Fire Insights enables you to create Datasets using snowflake Table using snowfla
 UI Upgrades
 ++++++++++
 
-UI upgrades for create dataset page & Executions page
+UI upgrades for create dataset page
 
 .. figure:: ..//_assets/releases/jan-2022/1.PNG
    :alt: dataset
    :width: 70%
+
+UI upgrades for Executions page
 
 .. figure:: ..//_assets/releases/jan-2022/5.PNG
    :alt: dataset

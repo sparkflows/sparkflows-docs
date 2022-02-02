@@ -13,7 +13,7 @@ NEW CONNECTIONS
 AUTO-ML
 --------
 
-- Integration of auto ml in Fire Insights application.
+- Integration of auto ml.
 
 UI
 ---

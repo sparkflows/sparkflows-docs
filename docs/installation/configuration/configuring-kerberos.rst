@@ -1,7 +1,10 @@
 Configuring Kerberos
 ====================
 
-Fire runs with a kerberized Spark cluster. 
+Fire runs with a kerberized Spark cluster. It needs a keytab file to be able to submit jobs to the cluster.
+
+The user for which the keytab is generated can be configured as a proxy user in the Hadoop cluster. Then Fire can impersonate the logged in users using the keytab file.
+
 
 Steps for configuring Kerberos on Fire
 ---------------------------------------
@@ -13,7 +16,7 @@ Steps for configuring Kerberos on Fire
  
     While this is the recommended location, the keytab file can be placed in any another directory too.
  
-* **Make sure only the user running fire application has access to the keytab**. For example::
+* **Make sure only the user running fire application has read access to the keytab**. For example::
  
     -r-------- 1 fire staff 436 Jun 29 16:06 hive.keytab
  

@@ -4,7 +4,7 @@ January 2022
 Datasets
 +++++++
 
-Fire Insights enables you to create Datasets using snowflake Table using snowflake connection.
+Fire Insights enables you to create Datasets using snowflake Table with snowflake connection.
 
 .. figure:: ..//_assets/releases/jan-2022/1.PNG
    :alt: dataset

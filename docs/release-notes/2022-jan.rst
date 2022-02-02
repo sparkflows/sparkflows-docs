@@ -36,3 +36,9 @@ UI upgrades for Executions page
 .. figure:: ..//_assets/releases/jan-2022/5.PNG
    :alt: dataset
    :width: 70%
+
+UI upgrades for Analytics app
+
+.. figure:: ..//_assets/releases/jan-2022/6.PNG
+   :alt: dataset
+   :width: 70%

@@ -48,3 +48,13 @@ UI upgrades for connections change in menu
 .. figure:: ..//_assets/releases/jan-2022/7.PNG
    :alt: dataset
    :width: 70%
+
+Executions menu is configurable
+
+.. figure:: ..//_assets/releases/jan-2022/9.PNG
+   :alt: dataset
+   :width: 70%
+
+.. figure:: ..//_assets/releases/jan-2022/10.PNG
+   :alt: dataset
+   :width: 70%

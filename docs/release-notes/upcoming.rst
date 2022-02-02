@@ -3,6 +3,17 @@ Upcoming Features
 
 Below are the upcoming features in Fire Insights.
 
+NEW CONNECTIONS
+----------
+
+- Livy Connections 
+- Spark Submit Connections
+- AWS Glue Connections
+
+AUTO-ML
+--------
+
+- Integration of auto ml in Fire Insights application.
 
 UI
 ---

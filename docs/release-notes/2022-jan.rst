@@ -58,3 +58,9 @@ Executions menu is configurable
 .. figure:: ..//_assets/releases/jan-2022/10.PNG
    :alt: dataset
    :width: 70%
+
+
+AutoML features
++++++++++++++++
+Provide the option to user to select the data, type, evaluation metrics, target column, model type in fire-ui and build the automl model from h2o in fire.
+

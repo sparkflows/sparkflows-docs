@@ -1,6 +1,10 @@
 January 2022
 ==========
 
+These features and Sparkflows platform improvements were released in January 2022.
+
+
+
 Datasets
 +++++++
 

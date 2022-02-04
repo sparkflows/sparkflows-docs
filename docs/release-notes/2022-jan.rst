@@ -4,7 +4,7 @@ January 2022
 Datasets
 +++++++
 
-Fire Insights enables you to create Datasets using snowflake Table with snowflake connection.
+Fire Insights enables you to create Datasets using Snowflake Table with Snowflake Connection.
 
 .. figure:: ..//_assets/releases/jan-2022/1.PNG
    :alt: dataset
@@ -24,32 +24,34 @@ Fire Insights enables you to create Datasets using snowflake Table with snowflak
 
 UI Upgrades
 ++++++++++
+Our team made a series of UI upgrades to stay aligned with the existing and upcoming design trends.
+This will greatly improve your overall user experience.
 
-UI upgrades for create dataset page
+UI upgrades for Create Dataset Page
 
 .. figure:: ..//_assets/releases/jan-2022/1.PNG
    :alt: dataset
    :width: 70%
 
-UI upgrades for Executions page
+UI upgrades for Executions Page
 
 .. figure:: ..//_assets/releases/jan-2022/5.PNG
    :alt: dataset
    :width: 70%
 
-UI upgrades for Analytics app
+UI upgrades for Analytics App
 
 .. figure:: ..//_assets/releases/jan-2022/8.PNG
    :alt: dataset
    :width: 70%
 
-UI upgrades for connections change in menu
+UI upgrades for Connections Change in Menu
 
 .. figure:: ..//_assets/releases/jan-2022/7.PNG
    :alt: dataset
    :width: 70%
 
-Executions menu is configurable
+Executions Menu is configurable
 
 .. figure:: ..//_assets/releases/jan-2022/9.PNG
    :alt: dataset
@@ -60,7 +62,7 @@ Executions menu is configurable
    :width: 70%
 
 
-AutoML features
+AutoML Features
 +++++++++++++++
-Provide the option to user to select the data, type, evaluation metrics, target column, model type in fire-ui and build the automl model from h2o in fire.
+Provides option to user to select the data, type, evaluation metrics, target column, model type in fire-ui and build the automl model from H2O in fire.
 

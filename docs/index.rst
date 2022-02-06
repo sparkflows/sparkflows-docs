@@ -103,14 +103,7 @@ Frequently Asked Questions
    :maxdepth: 1
 
    faq/index
-   
-Superset
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   superset/index   
+    
 
 Developer Guide
 ---------------

@@ -122,6 +122,16 @@ For example, for user 'test':
 Create the user in Fire Insights if not already created.
 
 
+Extra configuration for running h2o workflow
+-----------------------------------------
+
+Emr needs an extra configurations for running h2o workflow, which can be added while running those workflow
+
+::
+
+    Spark-submit-conf:  --conf spark.dynamicAllocation.enabled=false
+
+
 Extra configuration for running PySpark
 ---------------------------------------
 

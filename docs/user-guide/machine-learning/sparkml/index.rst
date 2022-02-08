@@ -10,7 +10,7 @@ Apache Spark ML
     
     ---
 
-    :doc:`/user-guide/machine-learning/sparkml/feature-generation`
+    :doc:`/user-guide/machine-learning/sparkml/feature-extraction`
 
     Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis
 
@@ -67,7 +67,7 @@ Apache Spark ML
    :hidden:
 
    building-sparkml-workflows.rst
-   feature-generation.rst
+   feature-extraction.rst
    feature-transformation.rst
    feature-selection.rst
    clustering.rst

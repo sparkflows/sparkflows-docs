@@ -9,3 +9,5 @@ Inorder to run those Jobs make sure to add Spark configurations in Advanced opti
 
     spark.speculation false
     spark.dynamicAllocation.enabled false
+
+.. note:: Make sure to change the default value of above parameter to false if by deault have true

@@ -10,6 +10,7 @@ Databricks Integration Guide
    databricks-installation.rst
    databricks-python-installation.rst
    databricks-connections.rst
+   databricks-h2o.rst
    troubleshooting.rst
    superset-databricks.rst
    azure_integration.rst

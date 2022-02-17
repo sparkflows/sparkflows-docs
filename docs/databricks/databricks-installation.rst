@@ -117,14 +117,14 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/usersetting.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 30%
    
 3. Click on ``User Settings``
 
 
 .. figure:: ../_assets/configuration/userset.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 30%
 
 4. Click on ``Generate New Token``
 

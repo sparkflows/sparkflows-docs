@@ -7,7 +7,7 @@ Prerequisites
 
 Below are the Prerequisites for installing Fire Insights on a Databricks Cluster:
 
-.. list-table:: Below are the Needed Package
+.. list-table:: Prerequisites
    :widths: 10 20 40
    :header-rows: 1
 
@@ -22,16 +22,16 @@ Below are the Prerequisites for installing Fire Insights on a Databricks Cluster
      - 20.0 or above
    * - Spark version
      - Spark Version on Databricks Cluster
-     - 2.4
+     - 2.4.x
    * - Fire Running Port
      - Port on Which Fire is Running
-     - Accessible from databricks Cluster 
+     - The machine and port on which Fire is running has to be accessible from the databricks Cluster 
 
 
 Enabling Scala on High Concurrency Cluster
 -------------------------------------------
 
-The Databricks High Concurrencly cluster does not enable scala by default. It can be done with the below steps:
+The Databricks High Concurrencly cluster does not enable scala by default. It can be done with the steps below:
 
 Go to Configurations-->> Advanced Options -->> Spark -->> and add the below in Spark Config
 

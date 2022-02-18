@@ -14,12 +14,12 @@ Databricks can be running on Azure or on AWS.
 Below are the steps for Integrating Fire Insights with your Databricks Clusters.
 
 Install Fire Insights
------------
+^^^^^^^^^^^^^^^^
 
 Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster.
 
 Upload Fire Core Jar to Databricks
-----------------------------------
+^^^^^^^^^^^^^^
 
 Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
 
@@ -66,7 +66,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
 .. note::  This option does not work on clusters with Runtime version >= 7.0
    
 Configure the Uploaded Library in Fire Insights
-------------------------------------
+^^^^^^^^^^^^^^^
 
 Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
 
@@ -79,7 +79,7 @@ This has to be done under Administration/Configuration.
    
    
 Configure app.postMessageURL in Fire Insights
-----------------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
 
@@ -89,7 +89,7 @@ Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insig
 
 
 Install Databricks JDBC Driver
------------------------------------
+^^^^^^^^^^^^
 
 Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` and ``fire-server-lib`` folder of the Fire installation.
 
@@ -105,7 +105,7 @@ The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
 
 
 Create your REST API token in Databricks
---------------
+^^^^^^^^^^^^^^
 
 Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
 
@@ -150,7 +150,7 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 
 Create Databricks Connection in Fire Insights
------------------------------------
+^^^^^^^^^^^^^^
 
 Create a connection in Fire Insights to Databricks. 
 

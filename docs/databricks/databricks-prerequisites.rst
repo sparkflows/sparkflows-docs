@@ -41,6 +41,7 @@ Go to Configurations-->> Advanced Options -->> Spark -->> and add the below in S
 
 .. note::  
 
-   1. Databricks job submit jar path is required
+   1. Path to Fire core jar in Databricks Environment is required
    2. User who is sharing the token for databricks connection, must have manage permission
+   3. Path to main python file in Databricks Environment if using python engine
 

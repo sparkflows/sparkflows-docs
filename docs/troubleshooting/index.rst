@@ -11,7 +11,7 @@ Troubleshooting
    running-workflows.rst
    running-ml-workflows.rst
    logs.rst
-   dashboard.rst
+   report.rst
    kerberos.rst
    python.rst
    yarn.rst

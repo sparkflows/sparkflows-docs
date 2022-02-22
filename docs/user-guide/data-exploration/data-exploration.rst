@@ -67,7 +67,7 @@ It does following processing of data:
    
 **Columns Cardinality Node output**
 
-Output of ``Columns Cardinality`` node displaying count distinct values for each selected columns and categorical data (count of distinct values) for each selected columns in the node.
+Output of ``Columns Cardinality`` node displaying count of distinct values for each selected columns and categorical data (count of distinct values) for each selected columns in the node.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output1.png
    :alt: dataexploration_userguide
@@ -119,7 +119,7 @@ Output of ``Correlation`` node displaying correlation between all the selected c
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Cross Tab
 ----------------------------------------
@@ -209,7 +209,7 @@ Below is a sample workflow which contains ``Flag Outlier`` processor in Fire Ins
 It does following processing of data:
 
 *	Reads incoming Dataset
-*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using ``Flag Outlier`` node. It can be checked agaist a numeric column only.
+*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using ``Flag Outlier`` node. It can be checked against numeric columns only.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-workflow.png
    :alt: dataexploration_userguide
@@ -238,6 +238,168 @@ It does following processing of data:
 Output of ``Flag Outlier`` node displaying Outlier flag for datapoints in the selected column.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+
+Graph Month Distribution
+----------------------------------------
+
+Below is a sample workflow which contains ``Graph Month Distribution`` processor in Fire Insights. It demonstrates usage of ``Graph Month Distribution`` node to display monthly distribution of data.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Displays monthly distribution of data using ``Graph Month Distribution`` node. In this workflow it displays monthly distribution of count of trade executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Graph Month Distribution Node configuration**
+
+*	``Graph Month Distribution`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	``Chart Type`` can be selected from the list based on the representation needed.
+*	String columns representing Date Values need to be selected in ``Y Columns`` list. More than one value can be selected.
+*	Output of this node would display monthly distribution of data present in the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Graph Month Distribution Node output**
+
+Output of ``Graph Month Distribution`` node displaying monthly distribution of selected columns i.e. number of trades executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+
+Null Values In Column
+----------------------------------------
+
+Below is a sample workflow which contains ``Null Values In Column`` processor in Fire Insights. It demonstrates usage of ``Null Values In Column`` node identify number of Null values and its percentage against the total data length in the selected columns.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Identifies number of Null values and its percentage against the total data length in the selected columns using ``Null Values In Column`` node. 
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Null Values In Column Node configuration**
+
+*	``Null Values In Column`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Columns in which null values need to be identified are to be selected in ``Column Names`` list. Multiple columns can be selected.
+*	Output of this node would display number of Null values and its percentage for the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Null Values In Column Node output**
+
+Output of ``Null Values In Column`` node displaying number of Null values and its percentage for the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+
+Skewness And Kurtosis
+----------------------------------------
+
+Below is a sample workflow which contains ``Skewness And Kurtosis`` processor in Fire Insights. It demonstrates usage of ``Skewness And Kurtosis`` node to identify Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution) in the selected columns.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Identifies Skewness and Kurtosis in the selected columns using ``Skewness And Kurtosis`` node. 
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Skewness And Kurtosis Node configuration**
+
+*	``Skewness And Kurtosis`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Columns for whom Skewness And Kurtosis need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
+*	Output of this node would display Skewness And Kurtosis values for the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Skewness And Kurtosis Node output**
+
+Output of ``Skewness And Kurtosis`` node displaying Skewness And Kurtosis values for the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+
+Summary Statistics
+----------------------------------------
+
+Below is a sample workflow which contains ``Summary Statistics`` processor in Fire Insights. It demonstrates usage of ``Summary Statistics`` node to compute Statistical Summary such as count, mean, min, max and so on for the selected columns.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Computes Statistical Summary such as count, mean, min, max and so on for the selected columns. using ``Summary Statistics`` node. 
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Summary Statistics Node configuration**
+
+*	``Summary Statistics`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Title of the output needs to be entered in ``Title`` box.
+*	Columns for whom Summary need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
+*	Output of this node would display Statistical Summary of the columns selected.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Summary Statistics Node output**
+
+Output of ``Summary Statistics`` node displaying Statistical Summary of the columns selected.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-printnode-output.png
    :alt: dataexploration_userguide
    :width: 90%       	    
    

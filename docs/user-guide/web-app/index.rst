@@ -37,6 +37,12 @@ Analytical Apps User Guide
     :doc:`/user-guide/web-app/integrating-with-databricks-notebook`
 
     Steps for integrating analytics apps with databricks notebook.
+    
+    ---
+
+    :doc:`/user-guide/web-app/multiple-file-upload`
+
+    Multiple file upload in analytics app.
 
     ---
 
@@ -60,6 +66,7 @@ Analytical Apps User Guide
    analytics-app-extension.rst
    map-table-columns.rst
    integrating-with-databricks-notebook.rst
+   multiple-file-upload.rst
    running-analytics-app.rst
    reference.rst
    

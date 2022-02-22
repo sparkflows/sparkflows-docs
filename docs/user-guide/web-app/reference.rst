@@ -78,3 +78,24 @@ Analytics App Reference Guide
      - Button
      - KEY : query , VALUE : select * from $database.$table limit 10; (database and table value is taken from other component having key database and table)
      - Component is added for mapping table columns
+     
+.. list-table:: Multiple file upload
+   :widths: 15 15 23 30
+   :header-rows: 1
+
+   * - Title
+     - Component Type
+     - Custom Properties
+     - Description
+   * - Destination Path
+     - Textfield
+     - KEY : for , VALUE : file1(property name of file component);
+     - Component is added to get destination path where the browse file should get uploaded
+   * - Upload
+     - Button
+     - KEY : for , VALUE : file1(property name of file component);
+     - Component is added to upload choose file to databricks in specified destination path otherwise by default it will store inside FileStore folder
+   * - Columns
+     -  Select Boxes
+     - KEY : for , VALUE : file1(property name of file component);
+     - Component is added to map fields

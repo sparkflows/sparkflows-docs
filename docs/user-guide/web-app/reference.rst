@@ -79,7 +79,7 @@ Analytics App Reference Guide
      - KEY : query , VALUE : select * from $database.$table limit 10; (database and table value is taken from other component having key database and table)
      - Component is added for mapping table columns
      
-.. list-table:: Multiple file upload
+.. list-table:: Multiple File Upload
    :widths: 15 15 23 30
    :header-rows: 1
 

@@ -11,10 +11,17 @@ Fire Insights enables easy data exploration.
 
     Provide a number of features for Data Exploration.
 
+    ---
+    
+    :doc:`/user-guide/data-exploration/data-visualization`
+
+    Provide a number of features for Data Visualization.
+
 .. toctree::
    :hidden:
 
    data-exploration.rst
+   data-visualization.rst
    
 
    

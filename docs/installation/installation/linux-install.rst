@@ -66,11 +66,7 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     * :doc:`../database/h2-db`
     * :doc:`../database/mysql-db`
     
-* Launch Fire::
-
-    cd <fire install_dir>
-    ./run-fire.sh start
-    
+   
 * Launch Fire Server::
 
     cd <fire install_dir>
@@ -104,14 +100,7 @@ Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up wit
     
     You may change these usernames and passwords in Fire under the menu Administration/Users
     
-
-Stopping Fire
-------------------------
-
-Stop Fire with the below::
-
-    ./run-fire.sh stop
-    
+  
     
 Stopping the Fire Server
 ------------------------

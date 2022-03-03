@@ -9,6 +9,7 @@ Commands Cheatsheet
    databricks.rst
    linux.rst
    h2-db.rst
+   python.rst
    
    
    

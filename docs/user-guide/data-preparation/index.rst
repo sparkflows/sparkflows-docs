@@ -64,6 +64,12 @@ Fire Insights provides an easy way to prepare the data.
 
     Provide processors that split incoming datasets into multiple outgoing datasets.
 
+    ---
+
+    :doc:`/user-guide/data-preparation/addcolumn`
+
+    Provide processors that add columns to incoming datasets.
+
 
 .. toctree::
    :hidden:
@@ -78,7 +84,7 @@ Fire Insights provides an easy way to prepare the data.
    datetime.rst
    parse.rst
    split.rst
-   
+   addcolumn.rst
 
    
    

@@ -24,12 +24,6 @@ Fire Insights provides an easy way to prepare the data.
 
     ---
 
-    :doc:`/user-guide/data-preparation/transforms`
-
-    Provides an array of processors for Data Transforms.
-
-    ---
-
     :doc:`/user-guide/data-preparation/impute`
 
     Provide processors for Imputing data.
@@ -70,6 +64,12 @@ Fire Insights provides an easy way to prepare the data.
 
     Provide processors that add columns to incoming datasets.
 
+    ---
+
+    :doc:`/user-guide/data-preparation/transforms`
+
+    Provides an array of processors for Data Transforms.
+
 
 .. toctree::
    :hidden:
@@ -77,7 +77,6 @@ Fire Insights provides an easy way to prepare the data.
    data-cleaning.rst
    join-union.rst
    filter.rst
-   transforms.rst
    impute.rst
    aggregate.rst
    string.rst
@@ -85,6 +84,7 @@ Fire Insights provides an easy way to prepare the data.
    parse.rst
    split.rst
    addcolumn.rst
+   transforms.rst
 
    
    

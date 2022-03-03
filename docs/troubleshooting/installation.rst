@@ -11,9 +11,9 @@ Below are the Pre-requisites before installing Fire::
 
     java and jar have to be in the PATH
 
-    If running on an Apache Spark cluster, Apache Spark 1.6+ is needed on the cluster.
+    If running on an Apache Spark cluster, Apache Spark 2.3+ is needed on the cluster.
 
-    3GB+ of RAM available on the machine.
+    8GB+ of RAM available on the machine.
 
 
 With which user should Fire be installed
@@ -31,7 +31,7 @@ More Details are available here : https://www.sparkflows.io/connecting-sparkflow
 I do not see anything in my browser after I start Fire
 ------------------------------------------------------------
 
-Do check in the logs for exceptions and the root cause. On Linux and Mac, the log files are in nohup.out.
+Do check in the logs for exceptions and the root cause. The log files are in fireserver.log.
 
 Possible causes are:
 
@@ -44,10 +44,10 @@ The http and https ports for Fire can be updated in ``conf/application.propertie
 Fire UI does not get displayed when I go to :8080. Some other UI is displayed
 -----------------------------------------------------------------------------------
 
-Fire by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output. In this case, the solution is to ``run the Fire server on some other port`` which is not being used by any other application. Details for running Fire on another port is here : https://www.sparkflows.io/run-fire-on-different-port
+Fire by default runs on ``port 8080``. It is possible that you have ``some other application running on port 8080``, and you are seeing its output. In this case, the solution is to ``run the Fire server on some other port`` which is not being used by any other application. Details for running Fire on another port is here : https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html
 
 
-Could not connect to fire at localhost
+On certain pages I get the error : Could not connect to fire at localhost
 ---------------------------------------
 
 The reason for it is the the fire process is not starting. If you are using Ubuntu, you may have to do the following:

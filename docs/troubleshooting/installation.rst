@@ -50,7 +50,9 @@ Fire by default runs on ``port 8080``. It is possible that you have ``some other
 On certain pages I get the error : Could not connect to fire at localhost
 ---------------------------------------
 
-The reason for it is the the fire process is not starting. If you are using Ubuntu, you may have to do the following:
+The reason for it is the the fire process is not starting. Check out the log files : fireserver.log and fire.log.
+
+If you are using Ubuntu, you may have to do the following:
 
 - sudo dpkg-reconfigure dash
 - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu

@@ -1,7 +1,7 @@
 Logs
 =======
 
-Fire Insights enable you to view the Logs for fireserver and both engine processors.
+Fire Insights enable you to view the Logs for fireserver and both engine being used.
 
 You Can view the Logs either from VM on which Fire Insights application is installed or from UI with admin access.
 

@@ -32,3 +32,8 @@ Pyspark Logs:
 
     cd cd fire-x.y.z
     Search for pyspark.logs
+
+Logs from UI
+----------
+
+You can view the logs from UI if you have admin access

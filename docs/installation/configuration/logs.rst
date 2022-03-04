@@ -17,7 +17,11 @@ Fireserver Logs:
     cd fire-x.y.z/logs/
     Search for fireserver.logs, where you can view fireserver logs.
     
-
+.. figure:: ../../_assets/configuration/logs/fireserver-log.PNG
+   :alt: Logs
+   :width: 70%
+   
+   
 Fire Logs:
 
 ::
@@ -25,7 +29,10 @@ Fire Logs:
     cd cd fire-x.y.z
     Search for fire.logs
     
-
+.. figure:: ../../_assets/configuration/logs/fire-log.PNG
+   :alt: Logs
+   :width: 70%
+   
 Pyspark Logs:
 
 ::
@@ -33,6 +40,11 @@ Pyspark Logs:
     cd cd fire-x.y.z
     Search for pyspark.logs
 
+.. figure:: ../../_assets/configuration/logs/pyspark-log.PNG
+   :alt: Logs
+   :width: 70%
+   
+   
 Logs from UI
 ----------
 

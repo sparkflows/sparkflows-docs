@@ -45,3 +45,11 @@ Go to Administrations page and select View Server Logs, it will open new windows
 .. figure:: ../../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs
    :width: 70%
+
+.. figure:: ../../_assets/configuration/logs/fire_log.PNG
+   :alt: Logs
+   :width: 70%
+
+.. figure:: ../../_assets/configuration/logs/pyspark_log.PNG
+   :alt: Logs
+   :width: 70%

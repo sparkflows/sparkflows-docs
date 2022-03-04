@@ -66,6 +66,12 @@ Fire Insights provides an easy way to prepare the data.
 
     ---
 
+    :doc:`/user-guide/data-preparation/castdatatype`
+
+    Provides an array of processors for Casting Data Type of input columns.
+
+    ---
+
     :doc:`/user-guide/data-preparation/transforms`
 
     Provides an array of processors for Data Transforms.
@@ -84,6 +90,7 @@ Fire Insights provides an easy way to prepare the data.
    parse.rst
    split.rst
    addcolumn.rst
+   castdatatype.rst
    transforms.rst
 
    

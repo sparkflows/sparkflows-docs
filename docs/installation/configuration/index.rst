@@ -23,6 +23,7 @@ Configuration
    running-spark-standalone.rst
    Python-integration.rst
    running-as-service.rst
+   logs.rst
    
    
 

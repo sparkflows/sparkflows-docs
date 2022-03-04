@@ -62,6 +62,6 @@ Go to Administrations page and select View Server Logs, it will open new windows
    :alt: Logs
    :width: 70%
 
-.. figure:: ../../_assets/configuration/logs/pyspark_log.PNG
+.. figure:: ../../_assets/configuration/logs/pyspark_log.png
    :alt: Logs
    :width: 70%

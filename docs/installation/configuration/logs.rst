@@ -16,3 +16,19 @@ Fireserver Logs:
 
     cd fire-x.y.z/logs/
     Search for fireserver.logs, where you can view fireserver logs.
+    
+
+Fire Logs:
+
+::
+
+    cd cd fire-x.y.z
+    Search for fire.logs
+    
+
+Pyspark Logs:
+
+::
+
+    cd cd fire-x.y.z
+    Search for pyspark.logs

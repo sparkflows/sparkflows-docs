@@ -40,4 +40,4 @@ You can view the logs from UI if you have admin access
 
 Below are steps involved in it:
 
-Go to Administrations page and select View Server Logs, it will open new windows which has all the Logs ie. fireserver.log, fire.lg & pyspark.log respectively
+Go to Administrations page and select View Server Logs, it will open new windows which has all the Logs ie. Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs respectively

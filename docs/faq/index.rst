@@ -5,15 +5,19 @@ FAQ
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/faq/01-scheduling-workflows`
-
-    ---
-
-    :doc:`/faq/02-custom-nodes`
-
-    ---
-
     :doc:`/faq/03-distributions-supported`
+
+    ---
+    
+    :doc:`/faq/02-installation`
+    
+    ---
+    
+    :doc:`/faq/07-data-sources`
+
+    ---
+    
+    :doc:`/faq/01-scheduling-workflows`
 
     ---
 
@@ -29,15 +33,15 @@ FAQ
 
     ---
 
-    :doc:`/faq/07-data-sources`
-
-    ---
-
     :doc:`/faq/08-workflow-execution`
 
     ---
 
     :doc:`/faq/hadoop-installation-prerequisites`
+    
+    ---
+
+    :doc:`/faq/02-custom-nodes`
 
 
 .. toctree::

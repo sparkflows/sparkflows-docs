@@ -78,6 +78,12 @@ Fire Insights provides an easy way to prepare the data.
 
     ---
 
+    :doc:`/user-guide/data-preparation/condition`
+
+    Provides an array of processors for Condition evaluation to take decision on workflow execution.
+
+    ---
+
     :doc:`/user-guide/data-preparation/transforms`
 
     Provides an array of processors for Data Transforms.
@@ -98,6 +104,7 @@ Fire Insights provides an easy way to prepare the data.
    addcolumn.rst
    castdatatype.rst
    math.rst
+   condition.rst
    transforms.rst
 
    

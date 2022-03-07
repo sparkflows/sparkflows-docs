@@ -72,6 +72,12 @@ Fire Insights provides an easy way to prepare the data.
 
     ---
 
+    :doc:`/user-guide/data-preparation/math`
+
+    Provides processors for Mathematical computation.
+
+    ---
+
     :doc:`/user-guide/data-preparation/transforms`
 
     Provides an array of processors for Data Transforms.
@@ -91,6 +97,7 @@ Fire Insights provides an easy way to prepare the data.
    split.rst
    addcolumn.rst
    castdatatype.rst
+   math.rst
    transforms.rst
 
    

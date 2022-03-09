@@ -111,7 +111,7 @@ Fire Insights provides an easy way to prepare the data.
    castdatatype.rst
    math.rst
    condition.rst
-   dataprepothers.rst
+   others.rst
    transforms.rst
 
    

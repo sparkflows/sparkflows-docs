@@ -6,6 +6,12 @@ Fire Insights provides an easy way to prepare the data.
 .. panels::
     :container: container-lg pb-3
 
+    :doc:`/user-guide/data-preparation/aggregate`
+
+    Provide processors that show aggregates for combinations of values in the selected columns.
+
+    ---
+
     :doc:`/user-guide/data-preparation/data-cleaning`
 
     Provide powerful capabilities for data cleanup.
@@ -27,12 +33,6 @@ Fire Insights provides an easy way to prepare the data.
     :doc:`/user-guide/data-preparation/impute`
 
     Provide processors for Imputing data.
-
-    ---
-
-    :doc:`/user-guide/data-preparation/aggregate`
-
-    Provide processors that show aggregates for combinations of values in the selected columns.
 
     ---
 
@@ -98,11 +98,11 @@ Fire Insights provides an easy way to prepare the data.
 .. toctree::
    :hidden:
 
+   aggregate.rst
    data-cleaning.rst
    join-union.rst
    filter.rst
    impute.rst
-   aggregate.rst
    string.rst
    datetime.rst
    parse.rst

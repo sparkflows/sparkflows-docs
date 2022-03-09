@@ -10,13 +10,17 @@ Prerequisites
 
 ::
    
-   Make sure that user have root privilege to create a service.
-   System Distribution have SystemD as init system (Amazon Linux 2, SLES 12, CentOS 7 or higher, Debian 8 or higher, RHEL 7 or higher, Ubuntu 15.04 or higher)
+   Make sure that user has root privilege to create a service.
+   System Distributions that have SystemD as init system (Amazon Linux 2, SLES 12, CentOS 7 or higher, Debian 8 or higher, RHEL 7 or higher, Ubuntu 15.04 or higher)
 
 Create a fire service
 --------------------
 
-Create a fire service which run as systemd service as specific user(for Fire Insights to start up at reboot), inside '/etc/systemd/system' location, which trigger a shell script to start Fire Insights server.
+Create a fire service which runs as systemd service. This way Fire Insights would get started automatically on reboot.
+
+Create the service in the folder '/etc/systemd/system'. Name the file 'fire.service'.
+
+Below, the user is 'sparkflows'. Name it as appropriate for your installation.
 
 ::
 
@@ -37,9 +41,9 @@ Create a fire service which run as systemd service as specific user(for Fire Ins
 Add a shell script
 ----------------
 
-Add a shell script 'fire.sh' in location updated in fire service for Starting Fire server.
+Create a shell script 'fire.sh' and place it at '/home/sparkflows/fire.sh'
 
-Add Below to it and provide appropriate permission
+Below are its content and make it executable.
 
 ::
 
@@ -47,7 +51,7 @@ Add Below to it and provide appropriate permission
     cd $fire_home/fire-3.1.0_spark_x.y.z
     ./run-fire-server.sh start
 
-Once the above steps is updated, you can run do and verify the below steps:
+Verify using the steps below:
 
 - Refresh the systemd configuration files
 

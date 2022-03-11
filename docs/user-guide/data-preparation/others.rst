@@ -28,6 +28,12 @@ Data Preparation Processors in Fire Insights
      - It ranks rows within a group using a windows function.
    * - Sample
      - It selects a sample dataset out of incoming dataset.
+   * - Sort By
+     - It sorts incoming dataset on selected columns.
+   * - Sort Columns
+     - It changes order of columns in the output as per selection.
+   * - Transpose
+     - It transposes incoming dataset against on the selected column.
      
  
 Columns Rename
@@ -336,4 +342,132 @@ Output of ``Sample`` node would display a Sample dataset.
    :alt: dataprepothers_userguide
    :width: 90%       	    
    
+Sort By
+----------------------------------------
+
+Below is a sample workflow which contains ``Sort By`` processor in Fire Insights. It demonstrates usage of ``Sort By`` node to sort incoming dataset on selected columns.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Sorts incoming dataset on selected columns using ``Sort By`` node.
+*	Prints sorted dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortby-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortby-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Sort By Node configuration**
+
+*	``Sort By`` node is configured as below.
+*	Input of this node are the incoming dataset.
+*	Description of sorting operation needs to be entered in ``Description`` box.
+*	Column used to sort incoming dataset is to be selected in ``Columns`` list.
+*	Order in which output is to be displayed; either in ascending or descending order of selected column is to be selected in ``Sorting Order`` list.
+*	Output would be a Sorted dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortby-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+
+**Sort By Node output**
+
+Output of ``Sort By`` node would display a Sorted dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortby-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+   
+
+Sort Columns
+----------------------------------------
+
+Below is a sample workflow which contains ``Sort Columns`` processor in Fire Insights. It demonstrates usage of ``Sort Columns`` node to change order of columns in the output as per selection.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Changes order of columns in the output as per selection using ``Sort Columns`` node.
+*	Prints output dataset displaying columns sorted in the selected order.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Sort Columns Node configuration**
+
+*	``Sort Columns`` node is configured as below.
+*	Input of this node are the incoming dataset.
+*	Action defines the column sorting pattern to be used.
+*	``A-Z`` action is to be selected if columns need to be sorted in ascending order of column names.
+*	``Z-A`` action is to be selected if columns need to be sorted in descending order of column names. Similarily other action needs to be selected based on need.
+*	Output would be a dataset displaying columns sorted in the selected order.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+
+**Sort Columns Node output**
+
+Output of ``Sort Columns`` node would display a dataset displaying columns sorted in the selected order.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+   
+
+Transpose
+----------------------------------------
+
+Below is a sample workflow which contains ``Transpose`` processor in Fire Insights. It demonstrates usage of ``Transpose`` node to transpose incoming dataset against on the selected column.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Transpose incoming dataset against on the selected column using ``Transpose`` node. Incoming dataset needs to have all columns of same datatype.
+*	Prints output dataset displaying transposed dataset against selected column.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Transpose Node configuration**
+
+*	``Transpose`` node is configured as below.
+*	Input of this node are the incoming dataset.
+*	Column against which incoming dataset is to be transposed is to be selected in ``TransposeByColumn Name`` list.
+*	Data of the selectd Column would be displayed in rows in the output and other columns data would be displayed in columns. 
+*	Output would be a dataset displaying transposed dataset against selected column.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+
+**Transpose Node output**
+
+Output of ``Transpose`` node would display a dataset displaying transposed dataset against selected column.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+   
+
 

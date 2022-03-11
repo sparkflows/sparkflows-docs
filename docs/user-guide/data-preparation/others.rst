@@ -23,7 +23,7 @@ Data Preparation Processors in Fire Insights
    * - Moving Windows Function
      - It computes moving values such as average/max/min by application of specified function on the windows of rows defined.
    * - Multi Windows Analytics
-     - It selects a value by application of windows functions such as first_val/last_val within a group of rows.
+     - It selects a value by application of windows functions such as first_val/last_val on a group of rows.
    * - Multi Windows Ranking
      - It ranks rows within a group using a windows function.
    * - Sample

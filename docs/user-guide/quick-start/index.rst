@@ -38,6 +38,11 @@ Let's get started!
     
     Finally Execute the worflow.
 
+    ---
+
+    :doc:`/user-guide/quick-start/sample-workflows`
+    
+    Sample Workflows.
 
 
 .. toctree::
@@ -48,6 +53,7 @@ Let's get started!
    3-create-datasets.rst
    4-create-workflow.rst 
    5-execute-workflow.rst 
+   sample-workflows.rst
    6-build-dashboard.rst
 
 

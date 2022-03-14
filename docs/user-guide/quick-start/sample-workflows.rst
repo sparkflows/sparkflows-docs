@@ -51,3 +51,28 @@ Data Preparation Project
          -	Splits data present in a column using a separator to multiple fields using FieldSplitter node. 	
       
          -	Selects Rows having specified Index values using RowFilterByIndex node. 	
+
+   * - Profiling - Correlation
+     - 	-	Displays correlation between selected columns using Correlation node.
+     
+     	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.
+   * - Data Cleaning
+     - 	-	Imputin missing values with constants. Each column can be configured for imputing.
+     
+     	-	Converts String Categorical data to Index value as a part of Feature Engineering.
+	
+	-	Evaluates a conditional expression to compute values using CaseWhen node.
+	
+	-	Evaluates a Regex expression to find and replace a string pattern using FindAndReplaceUsingRegexMultiple node.
+   * - Drop Rows With Null
+     - Drop rows having null values using DropRowsWithNull node.
+   * - Dedup Customers
+     - Compares and identifies whether data from multiple sources refer to same entity or not using Dedup node. Dedup node can be configured to used specific algorithm to compare.
+   * - Data Wrangling
+     - Performs multiple transformation on incoming data using DataWrangling node. Some of the transformation performed are Substring, Dropping a column, Renaming a column, Changing Case of a column and so on.
+   * - Data Validation
+     - Validates incoming data whether it looks ok or not. Some of the validation checks that are performed are to check whether Address data is a valid US address or not, email data is a valid email address or not.
+   * - Convert to Timestamp
+     - Converts a String value to Timestamp value using StringToDate node. 
+   * - Concat Columns
+     - Joins data from multiple columns into one output column using ConcatColumns node. Data from different columns are separated uisng a Separator in the output. 

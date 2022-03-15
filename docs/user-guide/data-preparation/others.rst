@@ -34,6 +34,10 @@ Data Preparation Processors in Fire Insights
      - It changes order of columns in the output as per selection.
    * - Transpose
      - It transposes incoming dataset against on the selected column.
+   * - Windows Analytics
+     - It selects a value by application of windows functions such as first_val/last_val within a group of rows.
+   * - Windows Ranking
+     - It ranks rows within a group using a windows function.     
      
  
 Columns Rename
@@ -469,5 +473,90 @@ Output of ``Transpose`` node would display a dataset displaying transposed datas
    :alt: dataprepothers_userguide
    :width: 90%       	    
    
+Windows Analytics
+----------------------------------------
+
+Below is a sample workflow which contains ``Windows Analytics`` processor in Fire Insights. It demonstrates usage of ``Windows Analytics`` node to select a value by application of windows functions such as first_val / last_val within a group of rows.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Selects a value by application of windows functions such as first_val / last_val within a group of rows using ``Windows Analytics`` node.
+*	Prints output dataset with a value selected within a group using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Windows Analytics Node configuration**
+
+*	``Windows Analytics`` node is configured as below.
+*	Input of this node are the incoming dataset.
+*	Column that is used to define partition is to be entered in ``PartitionBy`` box.
+*	Column used to order rows is to be entered in ``OrderBy`` box.
+*	Windows function to be used is to be selected in ``Windows Function`` list.
+*	Column that is used to compute output by application of Windows Function is to be selected in ``Analytics Column`` list.
+*	Lead and Lag value to be used for selection is to be entered in ``Window Offset`` box.
+*	Output would be a dataset with a value selected within a group using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+
+**Windows Analytics Node output**
+
+Output of ``Windows Analytics`` node would display a dataset with a value selected within a group using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+
+Windows Ranking
+----------------------------------------
+
+Below is a sample workflow which contains ``Windows Ranking`` processor in Fire Insights. It demonstrates usage of ``Windows Ranking`` node to rank rows within a group using a windows function.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Ranks rows within a group using a windows function using ``Windows Ranking`` node.
+*	Prints output dataset with rank value for each row computed using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winrank-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winrank-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Windows Ranking Node configuration**
+
+*	``Windows Ranking`` node is configured as below.
+*	Input of this node are the incoming dataset.
+*	Column that is used to define partition is to be entered in ``PartitionBy`` box.
+*	Column used to order rows is to be entered in ``OrderBy`` box.
+*	Windows function to be used is to be selected in ``Window Function`` list.
+*	Output would be a dataset with rank value for each row computed using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winrank-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+
+**Windows Ranking Node output**
+
+Output of ``Windows Ranking`` node would display a dataset with rank value for each row computed using windows function.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/winrank-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
 
 

@@ -22,7 +22,7 @@ Data Preparation Project
    * - Remove Special Characters
      - It searches for a String Pattern in incoming dataset and replaces it with another using FindAndReplaceUsingRegex node. Find and Replace is performed using Regex pattern match. 
    * - Data Preparation - 1
-     -   -	Convers a String value to Date using MultiStringToDate node
+     -   -	Converts a String value to Date using MultiStringToDate node
 	      
          -	Evaluates multiple conditional expressions to compute value using CaseWhen node. 	
 	      
@@ -57,7 +57,7 @@ Data Preparation Project
      
      	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.
    * - Data Cleaning
-     - 	-	Imputin missing values with constants. Each column can be configured for imputing.
+     - 	-	Imputing missing values with constants. Each column can be configured for imputing.
      
      	-	Converts String Categorical data to Index value as a part of Feature Engineering.
 	
@@ -76,3 +76,40 @@ Data Preparation Project
      - Converts a String value to Timestamp value using StringToDate node. 
    * - Concat Columns
      - Joins data from multiple columns into one output column using ConcatColumns node. Data from different columns are separated uisng a Separator in the output. 
+
+
+Data Quality Project
+----------------------------------------
+
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Workflow Name
+     - Description
+   * - Employee - Data Cleaning and Data Quality
+     -	-	Performs data transformation such as Text Case change to Upper and Lower using StringFunctionMultiple node.
+     
+     	-	Converts incoming data to desired value by executing Case When statement in Sql Node.
+	
+	-	Performs various data validations.
+		
+   * - Request_correlation_summary_validation
+     - 	-	Identifies coorelation between selected columns using Coorelation node.
+     
+     	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.
+	
+	-	Validates whether email address in the incoming dataset is a valid one or not.
+		
+   * - Employee - Data Profiling
+     - 	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.
+     
+     	-	Identifies coorelation between selected columns using Coorelation node.
+	
+	-	Plots distribution of data for different Gender value using GraphGroupByColumn node.
+	
+	-	Plots distribution of data for different City value using GraphGroupByColumn node.
+	
+	-	Plots yearly distribution of data for different Date Of Birth value using GraphYearDistribution node.
+		

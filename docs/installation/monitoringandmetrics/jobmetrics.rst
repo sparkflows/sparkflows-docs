@@ -20,12 +20,16 @@ Below are steps on how to view metrics in Fire Insights:
 
 4. Select View Executions.
 
-.. figure:: ../../_assets/installation/metrics/metricsandchart.PNG
+.. figure:: ../../_assets/installation/metrics/view_executions.PNG
    :alt: metrics
    :width: 60%
 
 5. Now you will be able to see metrics and chart tab respectively.
 
+
+.. figure:: ../../_assets/installation/metrics/metricsandchart.PNG
+   :alt: metrics
+   :width: 60%
 
 .. figure:: ../../_assets/installation/metrics/metrics.PNG
    :alt: metrics

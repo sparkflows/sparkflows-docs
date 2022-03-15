@@ -19,5 +19,21 @@ Make it to true.
 
 Once the above configurations is updated and Fire server got restarted, Login to Fire Insights application and enable below configurations.
 
+.. figure:: ../../_assets/installation/metrics/swagger.PNG
+   :alt: metrics
+   :width: 60%
+
 3. Now you can access Swagger REST API'S using below url
+
+Login to below url:
+
+::
+
+    https://localhots:port/swagger-ui.html
+    
+.. figure:: ../../_assets/installation/metrics/ui.PNG
+   :alt: metrics
+   :width: 60%    
+    
+    
 

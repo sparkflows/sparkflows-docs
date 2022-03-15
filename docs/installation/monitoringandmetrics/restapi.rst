@@ -35,5 +35,5 @@ Login to below url:
    :alt: metrics
    :width: 60%    
     
-    
+.. note::  Make sure to change localhost with respective ip or domain name and the port on which Fire Insights is running.    
 

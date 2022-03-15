@@ -38,3 +38,5 @@ Below are steps on how to view metrics in Fire Insights:
 .. figure:: ../../_assets/installation/metrics/charts.PNG
    :alt: metrics
    :width: 60%   
+
+.. note::  Make sure that the jobs runs on spark cluster.

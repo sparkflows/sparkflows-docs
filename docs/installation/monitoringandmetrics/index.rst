@@ -7,3 +7,4 @@ Fire Insights enable you to Monitor application health and Metrics.
    :maxdepth: 2
 
    health-check.rst
+   jobmetrics.rst

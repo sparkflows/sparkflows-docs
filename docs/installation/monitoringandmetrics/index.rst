@@ -8,4 +8,3 @@ Fire Insights enable you to Monitor application health and Metrics.
 
    health-check.rst
    jobmetrics.rst
-   restapi.rst

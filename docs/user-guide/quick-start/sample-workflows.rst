@@ -113,3 +113,38 @@ Data Quality Project
 	
 	-	Plots yearly distribution of data for different Date Of Birth value using GraphYearDistribution node.
 		
+
+Read Write Files Project
+----------------------------------------
+
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Workflow Name
+     - Description
+   * - Retail example
+     - 	Reads incoming JSON files using ReadJSON node.
+		
+   * - Read PDF File
+     - 	Reads incoming PDF file using ReadPDF node.
+		
+   * - Save As Parquet Files
+     - 	Saves dataset in Parquet format using SaveParquet node.
+	 
+   * - Save As JSON Files
+     - 	Saves dataset in JSON format using SaveJSON node.
+	 
+   * - Read Parquet File
+     - 	Reads incoming dataset in Parquet format.
+	 
+   * - Read Multi-line JSON
+     - 	Reads incoming Multi-Line JSON file using ReadJSON node with Multiline flag set to True.
+	 
+   * - Read Excel File
+     - 	Reads incoming Excel file using ReadExcel node.
+	 
+   * - PDF Image OCR
+     - 	Reads incoming PDF file containing OCR image using ReadPDFImageOCR node.
+		

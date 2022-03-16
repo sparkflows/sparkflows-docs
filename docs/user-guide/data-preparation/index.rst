@@ -90,6 +90,12 @@ Fire Insights provides an easy way to prepare the data.
 
     ---
 
+    :doc:`/user-guide/data-preparation/data-validation`
+
+    Provides processors for Data Validation.
+
+    ---
+
     :doc:`/user-guide/data-preparation/transforms`
 
     Provides an array of processors for Data Transforms.
@@ -112,6 +118,7 @@ Fire Insights provides an easy way to prepare the data.
    math.rst
    condition.rst
    others.rst
+   data-validation.rst
    transforms.rst
 
    

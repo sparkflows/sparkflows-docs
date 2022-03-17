@@ -52,10 +52,11 @@ Format Examples
 *  MM-dd-yyyy : 01-31-2012
 *  yyyy-MM-dd : 2012-01-31
 *  yyyy-MM-dd HH:mm:ss : 2012-01-31 23:59:59
+*  MM/dd/yy hh:mm:ss a : 3/18/2022 2:00:00 AM
+*  MM/dd/yy hh:mm:ss a : 03/18/2022 2:00:00 PM
 *  yyyy-MM-dd HH:mm:ss.SSS : 2012-01-31 23:59:59.999
 *  yyyy-MM-dd HH:mm:ss.SSSZ : 2012-01-31 23:59:59.999+0100
 *  EEEEE MMMMM yyyy HH:mm:ss.SSSZ : Saturday November 2012 10:45:42.720+0100
-
 
 OUTPUT COLUMN NAME: - If user inputs an existing column name, it overrides the column 
                       otherwise it will add a new column.

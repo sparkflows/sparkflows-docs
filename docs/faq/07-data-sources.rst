@@ -17,7 +17,8 @@ Fire Insights supports reading data from a variety of Data Sources. These includ
   * DBFS
   
   
- What File Formats are supported?
+ Which File Formats are supported?
+ =====
  
  Fire Insights supports reading a number of File Formats. These include:
  

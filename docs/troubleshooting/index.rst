@@ -6,7 +6,6 @@ Troubleshooting
 
    installation.rst
    upgrade.rst
-   dataset.rst
    running-workflows.rst
    running-ml-workflows.rst
    logs.rst

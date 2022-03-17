@@ -12,7 +12,6 @@ Troubleshooting
    ldap.rst
    kerberos.rst
    python.rst
-   yarn.rst
    workflow-edior.rst
    
    

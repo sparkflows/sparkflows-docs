@@ -56,6 +56,16 @@ Analytics App Reference Guide
      - mapFields 
      - mapFields
      - Component is added to map fields
+   * - Next Tab
+     - Button
+     - nextTab
+     - any
+     - Component is added to go to the next tab
+   * - Back Tab
+     - Button
+     - backTab
+     - any
+     - Component is added to go to the previous tab
      
      
 .. list-table:: Mapping Table Columns

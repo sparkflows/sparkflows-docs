@@ -10,6 +10,5 @@ Troubleshooting
    logs.rst
    ldap.rst
    python.rst
-   workflow-edior.rst
    
    

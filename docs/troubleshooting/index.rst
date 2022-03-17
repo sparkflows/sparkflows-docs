@@ -9,7 +9,6 @@ Troubleshooting
    running-workflows.rst
    running-ml-workflows.rst
    logs.rst
-   report.rst
    ldap.rst
    kerberos.rst
    python.rst

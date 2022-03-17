@@ -4,38 +4,127 @@ Passing Parameters to Workflows
 
 Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precedence in which they are applied is as shown below:
  
-  * Through Program Parameters passed during the workflow execution.
+  * Through Workflow Parameters passed during the workflow execution.
   * By specifying the parameters in the Workflow Editor.
-  * Through a Parameter Processor in the workflow.
+  * Through a Specify Parameter Processor in the workflow.
   * A node creating a variable during the execution time.
-
-
-Through Program Parameters in Fire during Workflow Execution
-------------------------------------------------------------
-
-Key/Value pairs can be passed to Fire during the workflow execution. An example of it is ``--var data=1``.
-These Key/Value pairs would override any Key/Value pair passed through the Parameter Processor in the workflow.
-
-Below is a screenshot:
-
-.. figure:: ../../../_assets/user-guide/passing-parameters-1.png
-   :alt: Passing Parameters to Workflows
 
 By specifying the Parameters in the Workflow Editor
 ---------------------------------------------------
 
-Parameters can be specified in the Workflow Editor. They can be specified in the following format:
+Parameters can be specified in the Workflow Editor. Below workflow demonstrates passing Parameters to a Workflow
 
-They can be passed with ``--var name1=value1  --var  name2=value2``
+This example prints Telco Churn data for
 
-  
-Through a Parameter Processor in the Workflow
------------------------------------------
+* a state that is passed as a parameter and
+* having `ACCOUNT LENGTH` duration greater than a value which is also passed as a parameter
+
+Workflow
+^^^^^^^^^^^^^^^^^^
+
+Workflow performs following processing:
+
+* Defines parameters for State and Account Length that are passed to the workflow
+* Reads data from a Dataset (Telco Churn Data)
+* Filters Telco Churn Data for a State and Account Length duration that are passed as parameters
+* Prints filtered Telco Churn data
+   
+.. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Demo_Workflow.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+Defining Parameters
+^^^^^^^^^^^^^^^^^^
+
+Parameters can be added by clicking on the Plus icon next to Workflow Category field.
+
+Two Parameters have been defined and initial values have been set which can be changed based on the need:
+
+* state_name
+* account_length
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+   
+.. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Definition.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+Reading from Dataset
+^^^^^^^^^^^^^^^^^^
+
+It reads the input Dataset File (Telco Churn Data).
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/Dataset_Data.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+Row Filter Node
+^^^^^^^^^^^^^^^^^^
+
+* This node filters incoming Telco Churn dataset based on following parameterized condition:
+
+	* STATE = '$state_name' AND `ACCOUNT LENGTH` > $account_length AND CHURN = 'True'
+		
+	* $state_name and $account_length are parameters that are passed to the workflow
+	
+	* Filter Node would create an outgoing Dataset comprising of filtered Telco Churned Data.
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/RowFilter_Parameter.png
+   :alt: Passing Parameters
+   :width: 100%
+   
  
-A Parameter Processor can be added to the workflow. It allows the passing of key/value pairs to the workflow.
+Print N Rows Node
+^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/user-guide/passing-parameters-2.png
-   :alt: Passing Parameters to Workflows
+These node prints filtered Telco Churn data after applying parameterized filters
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/Print_Node_Parameter_Output.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+Through Workflow Parameters in Fire during Workflow Execution
+---------------------------------------------------   
+   
+Parameters can be passed to Fire during the workflow execution. Parameters values set during Workflow Execution would override values set in Workflow Editor Parameter page.
+
+Workflow Parameters during Execution can be set using below options:
+
+*	Input As Text
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/workflowparam_as_text.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+*	Input As Key-Value
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/workflowparam_as_keyvalue.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+Through a Specify Parameters Processor in the Workflow
+---------------------------------------------------   
+   
+Parameters can be passed to Fire using Specify Parameters Processor in Workflow.
+
+*	Parameters can be defined using Specify Parameters Processor
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_processor.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+*	Defined Parameter can be used in processors like Row Filter processors to filter rows based on parametere value set
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_rowfilter.png
+   :alt: Passing Parameters
+   :width: 100%
+   
+*	Value of the parameter can be set during Workflow Execution.
+
+.. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_setatexec.png
+   :alt: Passing Parameters
+   :width: 100%
    
 A Processor creating a Variable during Execution Time
 ------------------------------------------------

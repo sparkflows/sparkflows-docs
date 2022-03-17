@@ -9,7 +9,6 @@ Troubleshooting
    running-workflows.rst
    logs.rst
    ldap.rst
-   kerberos.rst
    python.rst
    workflow-edior.rst
    

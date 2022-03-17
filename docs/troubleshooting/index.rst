@@ -7,7 +7,6 @@ Troubleshooting
    installation.rst
    upgrade.rst
    running-workflows.rst
-   running-ml-workflows.rst
    logs.rst
    ldap.rst
    kerberos.rst

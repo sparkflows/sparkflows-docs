@@ -20,7 +20,10 @@ Data Validation Processors in Fire Insights
      - It validates incoming dataset schema against defined schema validation rules. It also imputes missing values as per rules definition.
    * - Validate Address
      - It validates address data value against a valid address format. Some of the valid address formats are '123 xyx avenue' and '1/1 block-D street'
-
+   * - Validate Fields Advanced
+     - It validates incoming dataset based on validation rules defined using validation functions. This node facilitates validation of columns using multiple conditions joined using logical operators like AND / OR
+   * - Validate Fields Simple
+     - It validates incoming dataset based on validation rules defined using validation functions. 
 	 
 Compare Datasets
 ----------------------------------------
@@ -180,3 +183,91 @@ Output of ``Validate Address`` node prints address validation result.
    :alt: datavalidation_userguide
    :width: 90%       	    
 
+Validate Fields Advanced
+----------------------------------------
+
+Below is a sample workflow which contains ``Validate Fields Advanced`` processor in Fire Insights. It demonstrates usage of ``Validate Fields Advanced`` node to validate incoming dataset based on validation rules defined using validation functions. This node facilitates validation of columns using multiple conditions joined using logical operators like AND / OR
+
+It does following processing of data:
+
+*	Reads incoming Datasets.
+*	Validates incoming dataset based on validation rules defined using validation functions using ``Validate Fields Advanced`` node. This node facilitates validation of columns using multiple conditions joined using logical operators like AND / OR
+*	Prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-workflow.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-incoming-dataset.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Validate Fields Advanced Node configuration**
+
+*	``Validate Fields Advanced`` node is configured as below.
+*	Short description of validation performed is to be enterec in ``Description`` box.
+*	Percentage indicating result of validation is to be entered in ``Validation Successful If Percent Good Records>=`` box. Data of each row is validated using validation rules and validation score of 1 is assigned for pass. Summation of validation score percentage against entire dataset for all rules determine Validation Success Percentage.
+*	Column that needs to be validated is to be selected in ``Columns`` list.
+*	Validation Function that needs to be used to validate data is to be selected in ``Function`` list.
+*	If Validation Function compared incoming data against a value then it needs to be entered in ``Value`` box.
+*	Logical Operator that needs to be used to join addition validation condition is to be selected in ``Condition`` list.
+* 	Three different condiiton can be checked in a validation rule defined for a column.
+*	A new row needs to be added to define additional validation rule. 
+*	Output prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-config.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Validate Fields Advanced Node output**
+
+Output of ``Validate Fields Advanced`` node prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-printnode-output.png
+   :alt: datavalidation_userguide
+   :width: 90%       	    
+
+Validate Fields Simple
+----------------------------------------
+
+Below is a sample workflow which contains ``Validate Fields Simple`` processor in Fire Insights. It demonstrates usage of ``Validate Fields Simple`` node to validate incoming dataset based on validation rules defined using validation functions.
+
+It does following processing of data:
+
+*	Reads incoming Datasets.
+*	Validates incoming dataset based on validation rules defined using validation functions using ``Validate Fields Simple`` node.
+*	Prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-workflow.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-incoming-dataset.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Validate Fields Simple Node configuration**
+
+*	``Validate Fields Simple`` node is configured as below.
+*	Short description of validation performed is to be enterec in ``Description`` box.
+*	Column that needs to be validated is to be selected in ``Columns`` list.
+*	Validation Function that needs to be used to validate data is to be selected in ``Function`` list.
+*	If Validation Function compared incoming data against a value then it needs to be entered in ``Value`` box.
+*	A new row needs to be added to define additional validation rule. 
+*	Output prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-config.png
+   :alt: datavalidation_userguide
+   :width: 90%
+   
+**Validate Fields Simple Node output**
+
+Output of ``Validate Fields Simple`` node prints dataset containing rows that pass validation rules.
+
+.. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-printnode-output.png
+   :alt: datavalidation_userguide
+   :width: 90%       	    

@@ -148,3 +148,55 @@ Read Write Files Project
    * - PDF Image OCR
      - 	Reads incoming PDF file containing OCR image using ReadPDFImageOCR node.
 		
+Visualization Project
+----------------------------------------
+
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Workflow Name
+     - Description
+   * - Graph column values by count
+     - 	Plots distribution of data across various categories in Bar Chart, Line Chart and Histogram Chart format using GraphGroupByColumn node.
+		
+   * - Churn Data Analysis
+     - 	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.
+     
+     	-	Identifies coorelation between selected columns using Coorelation node.
+	
+	-	Plots distribution of data for Churn values using GraphGroupByColumn node.
+	
+	-	Plots variation of data between multiple data series using GraphValues node.
+		
+   * - DistributionGraphs
+     - 	-	Plots yearly distribution of two data series using GraphYearDistribution node.
+     
+     	-	Plots monthly distribution of two data series using GraphMonthDistribution node.
+	
+	-	Plots week day distribution of two data series using GraphWeekDayDistribution node.
+		
+   * - NYC Taxi Average Speed
+     - 	-	Extracts Hour and Minute values from incoming data using DateTimeFieldExtract node.
+     
+     	-	Executes a SQL statement using Sql node.
+	
+	-	Aggregates data using GroupBy node.
+	
+	-	Sorts incoming data using Sort node.
+	
+	-	Plots variation of data between multiple data series using GraphValues node.
+	 
+   * - Train Data - Graph values
+     - 	Plots variation of data between multiple data series in various formats using GraphValues node.
+	 
+   * - BoxPlot & SubPlots
+     - 	-	Plots distribution of data for Churn values using GraphGroupByColumn node.
+     
+     	-	Plots variation of data between multiple data series using GraphValues node.
+	
+	-	Dipicts variation between multiple pairs of data series in separate chart using GraphSubPlots node.
+	
+	-	Plots variation between two data series in Box Chart format using BoxPlot node.
+		

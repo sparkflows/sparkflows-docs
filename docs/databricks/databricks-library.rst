@@ -1,7 +1,7 @@
 Databricks Library
 ============
 
-Download Fire Core Jar and Fire Python wheel file from the below location and install it in Databricks Cluster Library which is compatible with Databricks Runtime Version 6.4 ( (includes Apache Spark 2.4.5, Scala 2.11)
+Download Fire Core Jar and Fire Python wheel file from the below location and install it in Databricks Cluster Library which is compatible with Databricks Runtime Version 6.4 (includes Apache Spark 2.4.5, Scala 2.11)
 
 
 * Fire Core Jar Download Link:

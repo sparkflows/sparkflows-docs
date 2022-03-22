@@ -115,6 +115,9 @@ html_static_path = ['_static']
 # html_context = {
 #     'css_files': ['_static/custom.css'],
 # }
+html_js_files = [
+    'js/theme.js',
+]
 
 def setup(app):
     # app.add_stylesheet('css/custom.css')

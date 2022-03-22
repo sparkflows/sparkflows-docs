@@ -19,6 +19,8 @@ Date Time Processors in Fire Insights
      - It extracts Date parts such as Year, Month, Day Of Month, Hour, Minute, Second and Week Of Year values from an incoming Date value and append extracted parts to to the outgoing Dataframe.
    * - Date Difference
      - It computes difference between two Dates in number of Days, Hours, Minutes and Seconds.
+   * - Date To Age
+     - It computes number of Years and Days elapsed since a selected date value.
    * - Date To String
      - This node converts a date/time column to a string column in the given format.
    * - String To Date
@@ -102,6 +104,47 @@ Date Difference between two Date Columns is displayed as below.
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datediff-printnode-output.png
    :alt: datetime_userguide
    :width: 90%
+
+Date To Age
+----------------------------------------
+
+Below is a sample workflow which contains ``Date To Age`` processor in Fire Insights. It demonstrates usage of ``Date To Age`` node to compute Number of Years and Days elapsed since selected date value.
+
+It does following processing of data:
+
+*	Reads incoming Datasets.
+*	Computes Number of Years and Days elapsed since selected date value using ``Date To Age`` node.
+*	Prints dataset containing Number of Years and Days elapsed.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-demo-workflow.png
+   :alt: datetime_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-incoming-dataset.png
+   :alt: datetime_userguide
+   :width: 90%
+   
+**Date To Age Node configuration**
+
+*	``Date To Age`` node is configured as below.
+*	Date column against which Number of elapsed Years and Days needs to be calculated is to be selected in ``Input Column Name`` list.
+*	Column in the output to list number of Years elapsed is to be entered in ``Years Output Column Name`` box.
+*	Column in the output to list number of Days elapsed is to be entered in ``Days Output Column Name`` box.
+*	Output prints dataset containing Number of Years and Days elapsed.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-config.png
+   :alt: datetime_userguide
+   :width: 90%
+   
+**Date To Age Node output**
+
+Output of ``Date To Age`` node prints dataset containing Number of Years and Days elapsed.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-printnode-output.png
+   :alt: datetime_userguide
+   :width: 90%       	    
 
 Date To String
 ----------------------------------------

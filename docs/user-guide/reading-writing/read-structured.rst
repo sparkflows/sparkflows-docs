@@ -14,6 +14,14 @@ Read Structured Data from Files Processors in Fire Insights
 
    * - Title
      - Description
+   * - Create Dataset
+     - Creates a dataset of specified rows and 9 pre-defined columns
+   * - Dataset Structured
+     - Creates a dataframe based on rows from a dataset
+   * - Empty Dataset
+     - Creates an empty dataframe
+   * - Read Excel
+     - Creates a dataset from an excel file
    * - Read Avro
      - Reads Apache Avro files
    * - Read CSV
@@ -22,6 +30,127 @@ Read Structured Data from Files Processors in Fire Insights
      - Reads Parquet files
    * - Read JSON
      - Reads JSON files
+
+Create Dataset
+----------------------------------------
+
+Below is a sample workflow which contains ``Create Dataset`` processor in Fire Insights. It demonstrates usage of ``Create Dataset`` node to create a dataset of specified rows and 9 pre-defined columns.
+
+It does following processing of data:
+
+*	Creates a dataset of specified rows and 9 pre-defined columns using ``Create Dataset`` node.
+*	Prints created dataset.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**Create Dataset Node configuration**
+
+*	``Create Dataset`` node is configured as below.
+*	Number of rows needed in the created dataset is to be entered in ``Number Of Rows`` box.
+*	Output prints dataset created with specified number of rows and fixed 9 columns.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**Create Dataset Node output**
+
+Output of ``Create Dataset`` node prints dataset created with specified number of rows and fixed 9 columns.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    
+
+Dataset Structured
+----------------------------------------
+
+Below is a sample workflow which contains ``Dataset Structured`` processor in Fire Insights. It demonstrates usage of ``Dataset Structured`` node to create a dataframe based on rows from a dataset.
+
+It does following processing of data:
+
+*	Creates a dataframe based on rows from a dataset using ``Dataset Structured`` node.
+*	Prints created dataset.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**Dataset Structured Node configuration**
+
+*	``Dataset Structured`` node is configured as below.
+*	Dataset to be be used to create dataframe is to be selected in ``Dataset`` list.
+*	Output prints dataframe created based on data from the selected dataset.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**Dataset Structured Node output**
+
+Output of ``Dataset Structured`` node prints dataframe created based on data from the selected dataset.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    
+
+Empty Dataset
+----------------------------------------
+
+Below is a sample workflow which contains ``Empty Dataset`` processor in Fire Insights. It demonstrates usage of ``Empty Dataset`` node to create an empty dataframe.
+
+It does following processing of data:
+
+*	Creates an empty dataframe using ``Empty Dataset`` node.
+*	Created dataset contains no rows or columns hence it is not displayed in the output.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**Empty Dataset Node configuration**
+
+*	``Empty Dataset`` node is configured as below.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+Read Excel
+----------------------------------------
+
+Below is a sample workflow which contains ``Read Excel`` processor in Fire Insights. It demonstrates usage of ``Read Excel`` node to create a dataset from an excel file.
+
+It does following processing of data:
+
+*	Creates a dataset from an excel file using ``Dataset Structured`` node.
+*	Prints created dataset.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**Read Excel Node configuration**
+
+*	``Read Excel`` node is configured as below.
+*	Excel file location needs to be selected or entered in ``Path`` box.
+*	Sheet Name in the Excel file that needs to be used to create dataset is to be entered in ``Sheetname`` box.
+*	If Data Sheet contains header row then ``Header`` needs to be selected accordingly.
+*	Output prints dataframe created based on data from the selected excel file.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**Read Excel Node output**
+
+Output of ``Read Excel`` node prints dataframe created based on data from the selected excel file.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    
+
 
 Read Avro
 ----------------------------------------

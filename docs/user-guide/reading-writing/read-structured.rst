@@ -30,6 +30,10 @@ Read Structured Data from Files Processors in Fire Insights
      - Reads Parquet files
    * - Read JSON
      - Reads JSON files
+   * - URL Single Record JSON Reader
+     - Reads content of a JSON file present at provided URL.
+   * - URL Text File Reader
+     - Reads content of a Text file present at provided URL.     
 
 Create Dataset
 ----------------------------------------
@@ -291,3 +295,67 @@ Data read from ``JSON File`` is printed as below using Print node
    :alt: readjson_node_userguide
    :width: 90%
    
+URL Single Record JSON Reader
+----------------------------------------
+
+Below is a sample workflow which contains ``URL Single Record JSON Reader`` processor in Fire Insights. It demonstrates usage of ``URL Single Record JSON Reader`` node to read content of a JSON file present at provided URL.
+
+It does following processing of data:
+
+*	Reads content of a JSON file present at provided URL using ``URL Single Record JSON Reader`` node.
+*	Prints content of JSON file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**URL Single Record JSON Reader Node configuration**
+
+*	``URL Single Record JSON Reader`` node is configured as below.
+*	URL address containing JSON file needs to be entered in ``URL`` box. 
+*	``Refresh Schema`` button needs to be pressed to list schema of the JSON file.
+*	Output prints content of JSON file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**URL Single Record JSON Reader Node output**
+
+Output of ``URL Single Record JSON Reader`` node prints content of JSON file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    
+
+URL Text File Reader
+----------------------------------------
+
+Below is a sample workflow which contains ``URL Text File Reader`` processor in Fire Insights. It demonstrates usage of ``URL Text File Reader`` node to read content of a Text file present at provided URL.
+
+It does following processing of data:
+
+*	Reads content of a Text file present at provided URL using ``URL Text File Reader`` node.
+*	Prints content of Text file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**URL Text File Reader Node configuration**
+
+*	``URL Text File Reader`` node is configured as below.
+*	URL address containing Text file needs to be entered in ``URL`` box. 
+*	Output prints content of Text file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**URL Text File Reader Node output**
+
+Output of ``URL Text File Reader`` node prints content of Text file in tabular format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    

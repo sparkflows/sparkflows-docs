@@ -20,7 +20,10 @@ Read Unstructured Data from Files Processors in Fire Insights
      - Reads content of a single text file or multiple text files from a directory
    * - Read Whole text files
      - Reads list of Text Files and their content from a directory and lists them in File Name and File Content pair.
-
+   * - Binary Files
+     - Reads content of a Binary File and converts it to Text.
+   * - PDF Image OCR
+     - Reads content of OCR image embedded in a PDF file and converts it to Text.
  
 
 Read PDF
@@ -124,3 +127,72 @@ List of Text Files along with their content is printed as below using Print node
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-printnode-output.png
    :alt: readwholetext_node_userguide
    :width: 90%
+
+Binary Files
+----------------------------------------
+
+Below is a sample workflow which contains ``Binary Files`` processor in Fire Insights. It demonstrates usage of ``Binary Files`` node to read content of a Binary file.
+
+It does following processing of data:
+
+*	Reads content of a Binary File using ``Binary Files`` node. In this example it reads a png image file having an OCR image.
+*	Parses content using OCR node and converts it to text.
+*	Prints content of Binary file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**Binary Files Node configuration**
+
+*	``Binary Files`` node is configured as below.
+*	Path of the Binary file needs to be selected in ``Path`` box.
+*	Column in the output to display file name is to be entered in ``File Name Column`` box.
+*	Column in the output to display content of the file is to be entered in ``Binary File Content Column`` box.
+*	Output prints content of Binary file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**Binary Files Node output**
+
+Output of ``Binary Files`` node prints content of Binary Image file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    
+
+PDF Image OCR
+----------------------------------------
+
+Below is a sample workflow which contains ``PDF Image OCR`` processor in Fire Insights. It demonstrates usage of ``PDF Image OCR`` node to read content of OCR image embedded in a PDF file and converts it to Text.
+
+It does following processing of data:
+
+*	Reads content of OCR image embedded in a PDF file and converts it to Text using ``PDF Image OCR`` node.
+*	Prints content of OCR image embedded in PDF file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-demo-workflow.png
+   :alt: readwrite_userguide
+   :width: 60%
+   
+**PDF Image OCR Node configuration**
+
+*	``PDF Image OCR`` node is configured as below.
+*	Path of the PDF file needs to be entered in ``Path Of The PDF Files`` box.
+*	Column in the output to display file name is to be entered in ``File Name Column`` box.
+*	Column in the output to display content of the file is to be entered in ``Column Name Which Contains Result of OCR`` box.
+*	Output prints content of OCR image embedded in PDF file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-config.png
+   :alt: readwrite_userguide
+   :width: 90%
+   
+**PDF Image OCR Node output**
+
+Output of ``PDF Image OCR`` node prints content of OCR image embedded in PDF file in text format.
+
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-printnode-output.png
+   :alt: readwrite_userguide
+   :width: 90%       	    

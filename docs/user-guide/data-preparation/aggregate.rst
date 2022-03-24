@@ -14,7 +14,7 @@ Aggregate Processors in Fire Insights
 
    * - Title
      - Description
-   * - Cube
+   * - [Cube](#Cube)
      - Cube Node computes aggregations of a group of rows against all possible combinations of values in the selected grouping columns
    * - Group By
      - This node computes aggregations of a group of rows against selected grouping column by applying selected aggregate functions on specified aggregate columns
@@ -24,7 +24,7 @@ Aggregate Processors in Fire Insights
      - Rollup Node generates a result set that shows aggregates for a hierarchy of values in the selected columns
  
 
-Cube
+[Cube]
 ----------------------------------------
 
 Below is a sample workflow which contains ``Cube`` processor in Fire Insights. It demonstrates usage of ``Cube`` node to compute aggregated value against all possible combinations of values in selected Cube columns.

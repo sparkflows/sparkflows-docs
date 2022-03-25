@@ -48,3 +48,6 @@ Once the Example Project is being lodaed you will see different projects.
 .. figure:: ../../_assets/installation/load_example/project.PNG
    :alt: Example application
    :width: 60%
+   
+Now you can start Exploring different workflow, dataset etc. in different projects.   
+   

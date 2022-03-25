@@ -34,6 +34,7 @@ Select Sample data point, if it is copied to any s3 location, HDFS, DBFS, Local 
 
 .. note:: Make Sure make empty only when running in Standalone mode.
 
+
 Once the above steps done, on Clicking Ok, you will see successful msg.
 
 .. figure:: ../../_assets/installation/load_example/load_example.PNG

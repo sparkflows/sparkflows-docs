@@ -32,14 +32,13 @@ Select Sample data path, if it is copied to any s3 location, HDFS, DBFS, Local o
    :alt: Example application
    :width: 60%
 
-.. note:: Make Sure empty is only applicable when Fire Insights running in Standalone mode.
-
-
 Once the above steps done, on Clicking Ok, you will see successful msg.
 
 .. figure:: ../../_assets/installation/load_example/load_example.PNG
    :alt: Example application
    :width: 60%
+
+.. note:: Make Sure empty is only applicable when Fire Insights running in Standalone mode.
 
 Check dashboard
 ---------

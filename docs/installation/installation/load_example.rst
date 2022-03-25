@@ -26,7 +26,7 @@ Once you Click on Load Example Applications, it will take you to new page.
 Select Sample data path
 --------------
 
-Select Sample data point, if it is copied to any s3 location, HDFS, DBFS, Local or left empty to get default path used.
+Select Sample data path, if it is copied to any s3 location, HDFS, DBFS, Local or left empty to get default path used.
 
 .. figure:: ../../_assets/installation/load_example/new_page.PNG
    :alt: Example application

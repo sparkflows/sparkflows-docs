@@ -19,6 +19,9 @@ Click on Load Example Applications
 
 Once you Click on Load Example Applications, it will take you to new page.
 
+.. figure:: ../../_assets/installation/load_example/new_page.PNG
+   :alt: Example application
+   :width: 60%
 
 Select Sample data point
 --------------

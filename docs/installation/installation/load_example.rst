@@ -31,3 +31,20 @@ Select Sample data point, if it is copied to any s3 location, HDFS, DBFS, Local 
 .. figure:: ../../_assets/installation/load_example/new_page.PNG
    :alt: Example application
    :width: 60%
+
+.. note:: Make Sure make empty only when running in Standalone mode.
+
+Once the above steps done, on Clicking Ok, you will see successful msg.
+
+.. figure:: ../../_assets/installation/load_example/load_example.PNG
+   :alt: Example application
+   :width: 60%
+
+Check dashboard
+---------
+
+Once the Example Project is being lodaed you will see different projects.
+
+.. figure:: ../../_assets/installation/load_example/project.PNG
+   :alt: Example application
+   :width: 60%

@@ -23,7 +23,7 @@ Once you Click on Load Example Applications, it will take you to new page.
    :alt: Example application
    :width: 60%
 
-Select Sample data point
+Select Sample data path
 --------------
 
 Select Sample data point, if it is copied to any s3 location, HDFS, DBFS, Local or left empty to get default path used.

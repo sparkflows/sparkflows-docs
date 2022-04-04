@@ -1,4 +1,4 @@
-Analytical Apps User Guide
+Analytical Apps
 ==========================
 
 .. panels::

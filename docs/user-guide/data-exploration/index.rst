@@ -1,4 +1,4 @@
-Data Exploration User Guide
+Data Exploration
 ===========================
 
 Fire Insights enables easy data exploration.

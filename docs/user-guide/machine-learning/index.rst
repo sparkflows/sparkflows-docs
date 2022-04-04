@@ -1,5 +1,5 @@
 
-Machine Learning User Guide
+Machine Learning
 ==========
 
 .. panels::

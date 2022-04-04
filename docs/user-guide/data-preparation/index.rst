@@ -1,4 +1,4 @@
-Data Preparation User Guide
+Data Preparation
 ===========================
 
 Fire Insights provides an easy way to prepare the data.

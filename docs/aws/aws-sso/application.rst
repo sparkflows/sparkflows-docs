@@ -1,7 +1,7 @@
 Application
 =======
 
-Now both aws sso/Okta Configured successfully.
+Now both AWS SSO/Okta Configured successfully.
 
 you can Configure single sign-on (SSO) access to Fire Insights applications as it support identity federation with SAML 2.0.
 

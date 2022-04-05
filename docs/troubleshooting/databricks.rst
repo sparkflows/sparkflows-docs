@@ -1,7 +1,7 @@
 Databricks
 ===========
 
-Not able to communicate with Databricks
+Test connection with Databricks
 -------------
 
 Try the below steps for it:

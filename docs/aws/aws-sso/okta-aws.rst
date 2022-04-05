@@ -8,13 +8,13 @@ Below are steps to create an application with aws sso.
 
 .. figure:: ../../_assets/configuration/aws-sso/browse_app.PNG
    :alt: aws sso
-   :width: 80%
+   :width: 60%
 
 3. Search with AWS Single Sign-on.
 
 .. figure:: ../../_assets/configuration/aws-sso/aws_single_signon.PNG
    :alt: aws sso
-   :width: 80%
+   :width: 60%
 
 4. Add General Settings, like Label etc.
 

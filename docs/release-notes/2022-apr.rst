@@ -56,6 +56,8 @@ UI
 New Processors
 +++++++++++
 
+Fire Insights enable you to use new processors added for data quality great expectations as below:
+
 - ExpectColumnValuesToBeInBetween
 - ExpectColumnValuesToBeNull
 - ExpectColumnValuesToBeUnique

@@ -8,6 +8,10 @@ AutoML Features
 
 Fire Insights Provides option to user to select the data, type, evaluation metrics, target column, model type and build the automl model from H2O and pycaret.
 
+.. figure:: ..//_assets/releases/2022-april/auto-ml.PNG
+   :alt: auto-ml
+   :width: 70%
+
 UI
 ++++++
 

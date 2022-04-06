@@ -2,3 +2,8 @@ April 2022
 ==========
 
 These features and Sparkflows platform improvements were released in April 2022.
+
+AutoML Features
++++++++++++++++
+
+Fire Insights Provides option to user to select the data, type, evaluation metrics, target column, model type and build the automl model from H2O and pycaret.

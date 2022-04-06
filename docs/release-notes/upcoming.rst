@@ -15,7 +15,7 @@ UI
 ---
 
 - Introducing new icons for nodes
-- Adding drag/drop file feature for upload file.
+
 
 
 Installer

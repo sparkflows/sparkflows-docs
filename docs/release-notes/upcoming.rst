@@ -10,10 +10,6 @@ NEW CONNECTIONS
 - Spark Submit Connections
 - AWS Glue Connections
 
-AUTO-ML
---------
-
-- Integration of auto ml.
 
 UI
 ---

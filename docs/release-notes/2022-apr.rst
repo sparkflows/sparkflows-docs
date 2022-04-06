@@ -7,3 +7,9 @@ AutoML Features
 +++++++++++++++
 
 Fire Insights Provides option to user to select the data, type, evaluation metrics, target column, model type and build the automl model from H2O and pycaret.
+
+UI
+++++++
+
+- Adding drag/drop file feature for upload file.
+

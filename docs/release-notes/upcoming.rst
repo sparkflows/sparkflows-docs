@@ -10,6 +10,10 @@ NEW CONNECTIONS
 - Spark Submit Connections
 - AWS Glue Connections
 
+Pipeline
+----
+
+Upgradation of Pipeline feature without airflow configurations.
 
 UI
 ---

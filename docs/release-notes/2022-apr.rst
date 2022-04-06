@@ -40,6 +40,18 @@ UI
 .. figure:: ..//_assets/releases/2022-april/upload.PNG
    :alt: auto-ml
    :width: 70%
+   
+- Look and feel of Executions page
+
+.. figure:: ..//_assets/releases/2022-april/executions.PNG
+   :alt: auto-ml
+   :width: 70%
+
+- Dataset page Upgrade
+
+.. figure:: ..//_assets/releases/2022-april/dataset.PNG
+   :alt: auto-ml
+   :width: 70%
 
 New Processors
 +++++++++++

@@ -37,3 +37,12 @@ UI
 
 - Adding drag/drop file feature for upload file.
 
+New Processors
++++++++++++
+
+- ExpectColumnValuesToBeInBetween
+- ExpectColumnValuesToBeNull
+- ExpectColumnValuesToBeUnique
+- ExpectColumnValuesToNotBeNull
+- ExpectTableRowCountToBeBetween
+

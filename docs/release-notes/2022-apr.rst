@@ -37,6 +37,10 @@ UI
 
 - Adding drag/drop file feature for upload file.
 
+.. figure:: ..//_assets/releases/2022-april/upload.PNG
+   :alt: auto-ml
+   :width: 70%
+
 New Processors
 +++++++++++
 

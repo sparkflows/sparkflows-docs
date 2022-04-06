@@ -171,6 +171,7 @@ Additional Information and Examples: https://spark.apache.org/docs/latest/ml-fea
 Standard Scalar
 ------------------
 StandardScaler transforms a dataset of Vector rows, normalizing each feature to have unit standard deviation and/or zero mean. It takes parameters:
+
 1. withStd: True by default. Scales the data to unit standard deviation.
 2. withMean: False by default. Centers the data with mean before scaling. It will build a dense output, so take care when applying to sparse input.
 3. StandardScaler is an Estimator which can be fit on a dataset to produce a StandardScalerModel; this amounts to computing summary statistics. The model can then transform a Vector column in a dataset to have unit standard deviation and/or zero mean features.
@@ -178,6 +179,21 @@ StandardScaler transforms a dataset of Vector rows, normalizing each feature to 
 Note that if the standard deviation of a feature is zero, it will return default 0.0 value in the Vector for that feature.
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#standardscaler
+
+``Standard Scaler`` node is used after ``Vector Assembler`` node.
+
+*``Standard Scaler`` node can be configured as below*
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/standardscaler-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+	-	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
+	-	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
+	-	``With Mean`` needs to be selected as True if individual column data needs to be centered around mean before scaling. It is False by default.
+	-	``With Standard Dev`` needs to be selected as True if individual column data needs to be scaled to 1 Standard Deviation value.
+
 
 Min Max Scalar
 ----------------
@@ -188,6 +204,20 @@ MinMaxScaler transforms a dataset of Vector rows, rescaling each feature to a sp
 3. MinMaxScaler computes summary statistics on a data set and produces a MinMaxScalerModel. The model can then transform each feature individually such that it is in the given range.
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#minmaxscaler
+
+``MinMax Scaler`` node is used after ``Vector Assembler`` node.
+
+*``MinMax Scaler`` node can be configured as below*
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/minmaxscaler-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+	-	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
+	-	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
+	-	Upper bound value after transformation is to be entered in ``Max`` box. It is shared by all features.
+	-	Lower bound value after transformation is to be entered in ``Min`` box. It is shared by all features.
+
 
 SQL Transformer
 -------------------

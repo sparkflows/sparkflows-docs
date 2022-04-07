@@ -189,10 +189,10 @@ Additional Information and Examples: https://spark.apache.org/docs/latest/ml-fea
    :alt: Machine Learning
    :width: 90%
 
-	-	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
-	-	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
-	-	``With Mean`` needs to be selected as True if individual column data needs to be centered around mean before scaling. It is False by default.
-	-	``With Standard Dev`` needs to be selected as True if individual column data needs to be scaled to 1 Standard Deviation value.
+*	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
+*	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
+*	``With Mean`` needs to be selected as True if individual column data needs to be centered around mean before scaling. It is False by default.
+*	``With Standard Dev`` needs to be selected as True if individual column data needs to be scaled to 1 Standard Deviation value.
 
 
 Min Max Scalar
@@ -213,10 +213,10 @@ Additional Information and Examples: https://spark.apache.org/docs/latest/ml-fea
    :alt: Machine Learning
    :width: 90%
 
-	-	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
-	-	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
-	-	Upper bound value after transformation is to be entered in ``Max`` box. It is shared by all features.
-	-	Lower bound value after transformation is to be entered in ``Min`` box. It is shared by all features.
+*	Feature Vector column from the ``Vector Assembler`` node is to be selected in ``Input Column`` list.
+*	Output column that lists the scaled feature values needs to be entered in ``Output Column`` box.
+*	Upper bound value after transformation is to be entered in ``Max`` box. It is shared by all features.
+*	Lower bound value after transformation is to be entered in ``Min`` box. It is shared by all features.
 
 
 SQL Transformer

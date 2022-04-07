@@ -23,3 +23,7 @@ Pycaret
       
       
 * Click on Save button to save details or click on start button to view train data
+
+.. figure:: ../../_assets/auto-ml/pycaret4.PNG
+      :alt: auto-ml
+      :width: 90%

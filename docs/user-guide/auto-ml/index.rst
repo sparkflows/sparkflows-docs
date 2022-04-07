@@ -12,9 +12,15 @@ Fire provide the option to create the AutoML experiments by selecting the data a
       
 
 
+By default in fire automl function is disabled.And once is enabled in the fire configuration, user's can see the option to create the automl experiments in project page.
+
+.. figure:: ../../_assets/auto-ml/automl-exp-page.png
+      :alt: auto-ml
+      :width: 90%
+      
+
 Currently fire supports h2o and pycaret automl packages.
 --------------------------------------------
-
 
 
 .. panels::

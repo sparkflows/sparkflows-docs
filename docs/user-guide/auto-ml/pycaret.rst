@@ -1,6 +1,9 @@
 Pycaret 
 ======================
 
+Create the automl experiment with h2o package by selecting pycaret in package field. And select the problem type to Regression or Classification with target column name in configuration.
+
+
 * Add required details and select automl package as pycaret
 
 .. figure:: ../../_assets/auto-ml/pycaret1.PNG

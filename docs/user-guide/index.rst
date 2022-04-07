@@ -69,6 +69,9 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
     
     :doc:`/user-guide/generate-pyspark-code/index`
     
+    ---
+    
+    :doc:`/auto-ml/index`
     
 
 .. toctree::
@@ -89,5 +92,6 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    performance/index
    git-integration/index
    generate-pyspark-code/index
+   auto-ml/index
    
 

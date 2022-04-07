@@ -56,7 +56,7 @@ Model Comparison
       :width: 90%
       
       
-* Select execution of 2 different experiment to comapre
+* Select execution of 2 different experiment to compare
       
 * Now, After selecting click compare button to view comparison
 

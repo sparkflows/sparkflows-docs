@@ -2,6 +2,7 @@ Auto-ML
 =====================
 
 Currently supports h2o and pycaret automl packages.
+------------------------------------
 
 
 .. panels::
@@ -23,3 +24,6 @@ Currently supports h2o and pycaret automl packages.
 
    h2o.rst
    pycaret.rst
+   
+ Model Comparision
+ ------------------

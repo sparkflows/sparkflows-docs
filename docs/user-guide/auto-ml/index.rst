@@ -28,5 +28,5 @@ Currently supports h2o and pycaret automl packages.
 
 
 
-Model Comparision
+Model Comparison
 ------------------

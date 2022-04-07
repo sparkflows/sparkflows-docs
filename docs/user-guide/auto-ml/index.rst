@@ -22,13 +22,13 @@ Currently fire supports h2o and pycaret automl packages.
 
     :doc:`/user-guide/auto-ml/h2o`
 
-    Provides.
+    H2O AutoML packge is used in experiments.
 
     ---
 
     :doc:`/user-guide/auto-ml/pycaret`
 
-    Provides.
+    Pycaret automl package is used in experiments.
 
 
 .. toctree::

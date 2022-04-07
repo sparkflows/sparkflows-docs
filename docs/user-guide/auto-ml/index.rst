@@ -11,8 +11,10 @@ Fire provide the option to create the AutoML experiments by selecting the data a
       :width: 90%
       
 
-Currently supports h2o and pycaret automl packages.
-------------------------------------
+
+Currently fire supports h2o and pycaret automl packages.
+--------------------------------------------
+
 
 
 .. panels::

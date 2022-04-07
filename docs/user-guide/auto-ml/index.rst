@@ -6,7 +6,7 @@ As well as making data scientists much more productive, AutoML tools can be used
 
 Fire provide the option to create the AutoML experiments by selecting the data and type of package. Each experiment will provide the leaderboard with different models & the hyperparameters used in the experiments.All experiments can be compared to decide the best fit for that particular use case.
 
-.. figure:: ../../_assets/auto-ml/automl-steps.PNG
+.. figure:: ../../_assets/auto-ml/automl-steps.png
       :alt: auto-ml
       :width: 90%
       

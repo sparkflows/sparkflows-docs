@@ -25,10 +25,10 @@ Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running o
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-1. Login to ``Databricks Cluster``
+1. Login to your ``Databricks Account``
 
 
-2. Click on ``workspace`` in the left side pane
+2. Click on ``Workspace`` in the left side pane
 
 
 .. figure:: ../_assets/configuration/azure_workspace.PNG
@@ -43,7 +43,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    :width: 40%
 
 
-4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous steps by Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous step by clicking on ``Drop JAR here``
 
 
 .. figure:: ../_assets/configuration/uploadlibrary.PNG
@@ -57,7 +57,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    :alt: Databricks
    :width: 40%
    
-* Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
+* Check the box with ``Install automatically on all clusters``, in order to avoid having to install it manually on every cluster.   
 
 .. figure:: ../_assets/configuration/automatic_install.PNG
    :alt: Databricks
@@ -86,22 +86,6 @@ Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insig
 .. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Postback URL
    :width: 40%
-
-
-Install Databricks JDBC Driver
-^^^^^^^^^^^^
-
-Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` and ``fire-server-lib`` folder of the Fire installation.
-
-You can download the Databricks JDBC Driver from the Databricks site : 
-
-* https://docs.databricks.com/bi/jdbc-odbc-bi.html
-* https://databricks.com/spark/odbc-driver-download
-
-The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
-
-* Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``
-* Copy the jdbc jar file named ``SparkJDBC41.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``
 
 
 Create your REST API token in Databricks

@@ -84,9 +84,33 @@ Tokenization is the process of taking text (such as a sentence) and breaking it 
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#tokenizer
 
+*Tokenizer node can be configured as below*
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/tokenizer-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that needs to be broken down to words is to be selected in ``Input Column`` list. Only String columns can be selected.
+-	Output column that lists the split data needs to be entered in ``Output Column`` box.
+
+
 Regex Tokenizer
 -----------------
 RegexTokenizer allows more advanced tokenization based on regular expression (regex) matching. By default, the parameter “pattern” (regex, default: "\\s+") is used as delimiters to split the input text. Alternatively, users can set parameter “gaps” to false indicating the regex “pattern” denotes “tokens” rather than splitting gaps, and find all matching occurrences as the tokenization result. 
+
+*Regex Tokenizer node can be configured as below*
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/regextokenizer-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that needs to be broken down to words is to be selected in ``Column`` list. Only String columns can be selected.
+-	Output column that lists the split data needs to be entered in ``Tokenized Column`` box.
+-	Regex pattern that needs to be used to split data in the incoming column is to be entered in ``Pattern`` box.
+-	If split needs to be done on gaps then ``Gaps`` is to be selected as True.
+
 
 Stop Words Remover
 --------------------
@@ -96,6 +120,18 @@ StopWordsRemover takes as input a sequence of strings (e.g. the output of a Toke
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#stopwordsremover
 
+*Stop Word Remover node can be configured as below*
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/stopwordsremover-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that contains array of string data from whom Stop Words needs to be removed is to be selected in ``Column`` list. Only String Array columns can be selected.
+-	Output column that lists transformed data needs to be entered in ``Output Column`` box.
+-	If Stop Words needs to be searched in case-sensitive manner then ``Case Sensitive`` is to be selected as True.
+-	List of Stop Words needs to be entered in ``Stop Words list``. If no list has been provided then default list is used.
+
+
 N Gram Transformer
 --------------------
 An n-gram is a sequence of n tokens (typically words) for some integer n. The NGram class can be used to transform input features into n-grams.
@@ -103,6 +139,18 @@ An n-gram is a sequence of n tokens (typically words) for some integer n. The NG
 NGram takes as input a sequence of strings (e.g. the output of a Tokenizer). The parameter n is used to determine the number of terms in each n-gram. The output will consist of a sequence of n-grams where each n-gram is represented by a space-delimited string of n consecutive words. If the input sequence contains fewer than n strings, no output is produced.
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#n-gram
+
+*N Gram Transformer node can be configured as below*
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/ngram-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe in which sequence of tokens needs to be identified is to be selected in ``Input Column`` list.
+-	Output column that lists the sequence of tokens/words from the selected column needs to be entered in ``List of Words`` box.
+-	Output column that lists N-Gram data needs to be entered in ``Output Column`` box.
+-	Number of Grams or the number of words each gram would consists of needs to be entered in ``Number of Grams`` box.
+
 
 Binarizer
 -----------

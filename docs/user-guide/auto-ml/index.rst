@@ -75,4 +75,7 @@ Model Comparison
       :alt: auto-ml
       :width: 90%      
 
+
+Model Selection
+-----------------
       

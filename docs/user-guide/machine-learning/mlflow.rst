@@ -29,7 +29,7 @@ Run Mlflow UI:
     mlflow ui
     MLFlow UI - http://localhost:5000
     
-Once login to above url, you will see mlflow ui page
+Once login to above url, you will see MLflow UI page
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow.PNG
    :alt: mlflow

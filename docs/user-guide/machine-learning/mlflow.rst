@@ -5,22 +5,22 @@ Fire Insights integrates deeply with Apache MLflow.
 
 Fire Insights can be configured to output the models to MLflow.
 
-Requirements:
-------------
+Prerequisites
+-------------
 
-::
+Below are the Prerequisites for installing MLflow on a Mac or Linux machine::
 
-    Python V - 3.7.9
-    Install Pip
+  - Python 3.7+ 
+  - pip 21.0+
 
-Installing MLflow on Windows:
+Installing MLflow on Linux:
 -----------------------------
 
 ::
 
     pip install mlflow
-    Required to set PATH
-  
+    
+    
 Run Mlflow UI:
 --------------
 

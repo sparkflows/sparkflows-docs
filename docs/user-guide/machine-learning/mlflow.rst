@@ -10,8 +10,8 @@ Prerequisites
 
 Below are the Prerequisites for installing MLflow on a Mac or Linux machine::
 
-  - Python 3.7+ 
-  - pip 21.0+
+  Python 3.7+ 
+  pip 21.0+
 
 Installing MLflow on Linux:
 -----------------------------

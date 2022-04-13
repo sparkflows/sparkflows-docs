@@ -29,6 +29,13 @@ Run Mlflow UI:
     mlflow ui
     MLFlow UI - http://localhost:5000
     
+Once login to above url, you will see mlflow ui page
+
+.. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow.PNG
+   :alt: mlflow
+   :width: 60% 
+    
+    
 .. note:: Make sure to change localhost to your ip or domain name and by default mlflow run on port 5000    
 
 

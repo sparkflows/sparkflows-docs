@@ -38,7 +38,7 @@ Once login to above url, you will see MLflow UI page
     
 .. note:: Make sure to change localhost to your ip or domain name and by default mlflow run on port 5000   
 
-Integrating Mlflow in Fire Insights
+Integrating Mlflow with Fire Insights
 ------------------
 
 Now you can integrate Mlflow with FireInsights application.

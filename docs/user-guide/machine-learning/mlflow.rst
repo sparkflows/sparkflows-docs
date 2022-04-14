@@ -44,7 +44,7 @@ Once login to above url, you will see MLflow UI page
 Integrating MLflow with Fire Insights
 ------------------------------------
 
-In Fire Insights, nodes in python ml packages have integration with mlflow by calling the Mlflow API's paramerts, metrics, model, etc. Fire Insights, workflows will be registered as experiments in mlflow with name and each execution will be separate run's in mlflow.
+In Fire Insights, nodes in python ml packages have integration with mlflow by calling the Mlflow API's paramerts, metrics, model, etc. Fire Insights, workflows will be registered as experiments in mlflow with name and each execution will be separate run's in each mlflow experiments.
 
 
 Below is the example workflow for regression to predict the house price with RidgeRegression Node.

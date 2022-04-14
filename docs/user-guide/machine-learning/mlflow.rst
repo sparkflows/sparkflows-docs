@@ -38,18 +38,18 @@ Once login to above url, you will see MLflow UI page
     
 .. note:: Make sure to change localhost to your ip or domain name and by default mlflow run on port 5000   
 
-Integrating Mlflow with Fire Insights
+Integrating MLflow with Fire Insights
 ------------------
 
-Now you can integrate Mlflow with FireInsights application.
+Now you can integrate MLflow with FireInsights application.
 
-Fire Insights have some python nodes which support Mlflow, you can create workflow and save the model using respective node.
+Fire Insights have some python nodes which support MLflow, you can create workflow and save the model using respective node.
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_wf.PNG
    :alt: mlflow
    :width: 60% 
    
-Once the above workflow got executed successfully, it will save the model in Mlflow.
+Once the above workflow got executed successfully, it will save the model in MLflow.
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_executions.PNG
    :alt: mlflow

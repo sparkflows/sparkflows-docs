@@ -1,7 +1,7 @@
 Integration with MLflow
 =======================
 
-Fire Insights provides the integration MLflow Model Registry.
+Fire Insights provides the integration with MLflow Model Registry.
 
 More Info: https://docs.databricks.com/applications/mlflow/index.html
 

@@ -48,6 +48,7 @@ In Fire Insights, nodes in python ml packages have integration with mlflow by ca
 
 
 Below is the example workflow for regression to predict the house price with RidgeRegression Node.
+
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_wf.PNG
    :alt: mlflow
    :width: 60% 

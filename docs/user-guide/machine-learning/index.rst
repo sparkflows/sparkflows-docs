@@ -2,6 +2,10 @@
 Machine Learning
 ==========
 
+Fire Insights has extensive ML capabilities. It has a number of nodes for doing ML.
+
+Fire Insights supports a variety of ML engines : Apache Spark ML, H2O, Scikit-learn, Prophet, ARIMA, Keras and Statsmodel.
+
 .. panels::
     :container: container-lg pb-3
 

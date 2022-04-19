@@ -31,7 +31,29 @@ Fire Insights Provides option to user to select the data, type, evaluation metri
 .. figure:: ..//_assets/releases/2022-april/auto-ml-leaderboard.PNG
    :alt: auto-ml
    :width: 70%
+ 
+Scheduler
+++++++++++
+
+Fire Insights enable you schedule job on databricks cluster.
+
+.. figure:: ..//_assets/releases/2022-april/schedule_page.PNG
+   :alt: auto-ml
+   :width: 70%
    
+.. figure:: ..//_assets/releases/2022-april/schedule.PNG
+   :alt: auto-ml
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/2022-april/schedule_wf.PNG
+   :alt: auto-ml
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/2022-april/scheduled_job.PNG
+   :alt: auto-ml
+   :width: 70%   
+
+
 UI
 ++++++
 

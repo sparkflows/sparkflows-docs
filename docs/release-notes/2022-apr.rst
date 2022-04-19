@@ -81,6 +81,12 @@ UI
    :alt: audit
    :width: 70%
 
+- Look and feel for Clean up
+
+.. figure:: ..//_assets/releases/2022-april/clean-up.PNG
+   :alt: audit
+   :width: 70%
+
 New Processors
 +++++++++++
 

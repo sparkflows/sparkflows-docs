@@ -38,19 +38,19 @@ Scheduler
 Fire Insights enable you schedule job on databricks cluster.
 
 .. figure:: ..//_assets/releases/2022-april/schedule_page.PNG
-   :alt: auto-ml
+   :alt: schedule
    :width: 70%
    
 .. figure:: ..//_assets/releases/2022-april/schedule.PNG
-   :alt: auto-ml
+   :alt: schedule
    :width: 70%
    
 .. figure:: ..//_assets/releases/2022-april/schedule_wf.PNG
-   :alt: auto-ml
+   :alt: schedule
    :width: 70%
    
 .. figure:: ..//_assets/releases/2022-april/scheduled_job.PNG
-   :alt: auto-ml
+   :alt: schedule
    :width: 70%   
 
 
@@ -73,6 +73,12 @@ UI
 
 .. figure:: ..//_assets/releases/2022-april/dataset.PNG
    :alt: auto-ml
+   :width: 70%
+
+- Added filter in audit logs
+
+.. figure:: ..//_assets/releases/2022-april/audit.PNG
+   :alt: audit
    :width: 70%
 
 New Processors

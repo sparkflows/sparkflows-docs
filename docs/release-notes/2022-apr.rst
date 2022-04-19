@@ -35,7 +35,7 @@ Fire Insights Provides option to user to select the data, type, evaluation metri
 Scheduler
 ++++++++++
 
-Fire Insights enable you schedule job on databricks cluster.
+Fire Insights enable you to schedule job on databricks cluster.
 
 .. figure:: ..//_assets/releases/2022-april/schedule_page.PNG
    :alt: schedule

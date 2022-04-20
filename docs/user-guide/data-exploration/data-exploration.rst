@@ -17,7 +17,7 @@ Data Exploration Processors in Fire Insights
    * - ColumnsCardinality
      - Distribution of categorical data. Calculates the count of records for each unique value for the column specified
    * - Correlation
-     - calculates the correlation between two series of data
+     - Computes and displays the correlation between two series of data
    * - CrossTab
      - Displays distribution of data for all combination of Categorical data series
    * - DistinctValuesInColumn   
@@ -25,11 +25,17 @@ Data Exploration Processors in Fire Insights
    * - Flag Outlier
      - Flag the outlier based on the selected column using Box-and-Whisker technique
    * - GraphMonthDistribution  
-     - This node Finds the distribution of months from Date values
+     - This node displays monthly distribution of data
+   * - GraphWeekDayDistribution  
+     - This node displays weekday wise distribution of data     
+   * - GraphYearDistribution  
+     - This node displays yearly distribution of data     
+   * - Histogram  
+     - This node displays distribution of data spread across multiple bins     
    * - NullValuesInColumn  
      - Number of Null Values in Selected Columns
    * - Skewness And Kurtosis
-     - Need To Add
+     - Displays Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution)
    * - Summary Statistics
      - Summary statistics provide useful information about sample data. eg: measures of spread
  
@@ -282,6 +288,133 @@ Output of ``Graph Month Distribution`` node displaying monthly distribution of s
    :alt: dataexploration_userguide
    :width: 90%       	    
    
+Graph Weekday Distribution
+----------------------------------------
+
+Below is a sample workflow which contains ``Graph Weekday Distribution`` processor in Fire Insights. It demonstrates usage of ``Graph Weekday Distribution`` node to display weekday wise distribution of data.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Displays weekday wise distribution of data using ``Graph Weekday Distribution`` node. In this workflow it displays weekday wise distribution of count of trade executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Graph Weekday Distribution Node configuration**
+
+*	``Graph Weekday Distribution`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Title of the output graph needs to be entered in ``Title`` box.
+*	``Chart Type`` can be selected from the list based on the representation needed.
+*	String columns representing Date Values need to be selected in ``Y Columns`` list.
+*	Output of this node would display weekday wise distribution of data present in the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Graph Weekday Distribution Node output**
+
+Output of ``Graph Weekday Distribution`` node displaying weekday wise distribution of selected columns i.e. number of trades executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+
+Graph Year Distribution
+----------------------------------------
+
+Below is a sample workflow which contains ``Graph Year Distribution`` processor in Fire Insights. It demonstrates usage of ``Graph Year Distribution`` node to display yearly distribution of data.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Displays yearly distribution of data using ``Graph Year Distribution`` node. In this workflow it displays yearly distribution of count of trade executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Graph Year Distribution Node configuration**
+
+*	``Graph Year Distribution`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Title of the output graph needs to be entered in ``Title`` box.
+*	``Chart Type`` can be selected from the list based on the representation needed.
+*	String columns representing Date Values need to be selected in ``Y Columns`` list.
+*	Output of this node would display yearly distribution of data present in the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Graph Year Distribution Node output**
+
+Output of ``Graph Year Distribution`` node displaying yearly distribution of selected columns i.e. number of trades executed.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-printnode-output.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+Histogram
+----------------------------------------
+
+Below is a sample workflow which contains ``Histogram`` processor in Fire Insights. It demonstrates usage of ``Histogram`` node to display distribution of data spread across multiple bins.
+
+It does following processing of data:
+
+*	Reads incoming Dataset
+*	Displays distribution of data spread across multiple bins using ``Histogram`` node. In this workflow it displays distribution of traded volume spread across multiple bins.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 90%
+
+**Histogram Node configuration**
+
+*	``Histogram`` node is configured as below.
+*	Input of this node is the incoming dataset.
+*	Title of the output graph needs to be entered in ``Title`` box.
+*	Input Column whose distribution needs to be displayed is to be selected in ``Column Name`` list.
+*	Number of equally spaced bins that needs to be created is to be entered in ``Number Of Bins`` box.
+*	Output of this node would display distribution of data present in the selected column spread across multiple bins.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-config.png
+   :alt: dataexploration_userguide
+   :width: 90%
+   
+**Histogram Node output**
+
+Output of ``Histogram`` node displaying distribution of data present in the selected column spread across multiple bins.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output1.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
+   
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output2.png
+   :alt: dataexploration_userguide
+   :width: 90%       	    
 
 Null Values In Column
 ----------------------------------------

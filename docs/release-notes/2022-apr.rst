@@ -98,3 +98,24 @@ Fire Insights enable you to use new processors added for data quality great expe
 - ExpectColumnValuesToNotBeNull
 - ExpectTableRowCountToBeBetween
 
+Data Quality Page
++++++++++++
+
+Fire Insights enable you to show Data Quality informations with Great-expectations.
+
+Once the workflow with Great Expectations Processor get submitted, you can check the details informations on Data Quality page.
+
+.. figure:: ..//_assets/releases/2022-april/ge.PNG
+   :alt: audit
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/2022-april/ge_wfe.PNG
+   :alt: audit
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/2022-april/data-quality.PNG
+   :alt: audit
+   :width: 70%   
+
+
+

@@ -87,7 +87,7 @@ UI
    :alt: audit
    :width: 70%
 
-New Processors
+Data Quality Feature Improvement
 +++++++++++
 
 Fire Insights enable you to use new processors added for data quality great expectations as below:

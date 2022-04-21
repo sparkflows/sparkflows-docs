@@ -31,6 +31,8 @@ Fields
       * - isStreaming
         - Is Streaming?
         - Whether the Graph is a Streaming Graph or not
+      * - chartColors
+        - Chart Colors
       * - bubbles
         - Bubbles label
         - Name of the bubble

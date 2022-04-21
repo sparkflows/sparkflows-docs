@@ -26,6 +26,8 @@ Fields
       * - maxValuesToDisplay
         - Max Values To Display
         - Maximum number of values to display in result.
+      * - chartColors
+        - Chart Colors
       * - xCols
         - X-Columns
         - X axis Columns
@@ -41,5 +43,16 @@ Fields
         - Y Labels
 
 
+Details
+-------
+
+
+This node represents variation between multiple pair of data series together in Graphical format.
+
+Multiple pairs of data series between whom variation is to be plotted can be selected. Variation between each pair would be plotted in a separate graph.
+
+Each Graph can be configured separately in terms of GrpahTypes and Coordinates values.
+
+All graphs are displayed separately in the output.
 
 

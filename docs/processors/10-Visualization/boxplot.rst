@@ -38,5 +38,14 @@ Fields
         - Value Column
 
 
+Details
+-------
+
+
+This node represents variation between two dataseries in Box Plot format.
+
+Data from a numeric column is selected to aggregate values and plot them along X-Coordinate.
+
+Data from another numeric column is selected to plot Boxes along Y-Coordinate.
 
 

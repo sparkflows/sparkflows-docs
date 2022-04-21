@@ -51,6 +51,16 @@ Details
 
 Splits the string of the specified input column using the specified delimiter. The new column names are specified by the user.
 
-The new dataframe has the new columns added to it.
+The new dataframe would have the new columns added to it.
 
 
+Examples
+-------
+
+
+If a String Column stores values in [PRD_CD]:[PRD_NAME] format and incoming Dataframe has a value as CD01:DrillMachine 
+then using : as Separator to split data into two Columns (Col1, Col2) would result in followings:
+
+
+*  Col1 : CD01
+*  Col2 : DrillMachine

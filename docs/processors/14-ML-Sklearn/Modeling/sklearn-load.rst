@@ -1,7 +1,7 @@
 Sklearn Model Load
 =========== 
 
-This node load the Sklearn model stored in the pickel file.
+Load the Sklearn model stored in the pickel file.
 
 Type
 --------- 

@@ -54,3 +54,60 @@ Details
 This node removes unwanted characters from the specified input columns
 
 
+Examples
+-------
+
+
+Incoming Dataframe has following row:
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | $12,500.00 |  Salary hiked by 10%
+
+If removeUnwantedCharacters is configured to remove unwanted characters from [SALARY] and [COMMENTS] columns 
+then outgoing Dataframe would result as below based on option selected:
+
+REMOVE WHITESPACES is selected as [True]
++++++++++++++++
+
+Whitespaces are removed from the selected columns
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | $12,500.00 |  Salaryhikedby10%
+ 
+REMOVE LETTERS is selected as [True]
++++++++++++++++
+
+Alphabets are removed from the selected columns
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | $12,500.00 |  10%
+
+REMOVE DIGITS is selected as [True]
++++++++++++++++
+
+Numbers are removed from the selected columns
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | $,.        |  Salary hiked by %
+ 
+REMOVE SIGNS is selected as [True]
++++++++++++++++
+
+Special characters are removed from the selected columns
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | 1250000    |  Salary hiked by 10
+ 
+REMOVE COMMAS is selected as [True]
++++++++++++++++
+
+Commas are removed from the selected columns
+
+ CUST_CD  |  CUST_NAME  |  SALARY    |    COMMENTS          
+-------------------------------------------------------------
+ C01      |  MIKE       | $12500.00  |  Salary hiked by 10%

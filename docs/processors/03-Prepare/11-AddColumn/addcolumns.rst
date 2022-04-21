@@ -63,5 +63,34 @@ Fields
         - Constant Integer Value
 
 
+Details
+-------
 
 
+It creates a new DataFrame by adding new columns to the input Dataframe. 
+
+New columns can be created for Current Date value, Current Datetime value, a Constant String value or a Constant Integer value.
+
+Names for new columns along with values can be provided.
+
+
+Examples
+-------
+
+
+If option for adding new columns is selected as below with new column names specified in bracket
+
+
+*  CURRENT DATE (Column Name CURRENT_DATE)
+*  CURRENT TIME (Column Name CURRENT_TIME)
+*  STRING Column with a value DrillMachine (Column Name MACHINE_NAME)
+*  INTEGER column with a value 100 (Column Name MACHINE_WEIGHT)
+
+
+then following columns would be added to the output Dataframe with mentioned values:
+
+
+*  CURRENT_DATE : 2021-10-22 
+*  CURRENT_TIME : 2021-10-22 04:34:00.532
+*  MACHINE_NAME : DrillMachine
+*  MACHINE_WEIGHT : 100 

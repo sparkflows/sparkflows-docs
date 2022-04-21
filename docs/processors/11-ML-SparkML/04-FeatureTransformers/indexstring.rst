@@ -35,8 +35,39 @@ Details
 -------
 
 
-This node maps a column of indices back to a new column of corresponding string values. The index-string mapping is either from the ML attributes of the input column, or from user-supplied labels
+Symmetrically to StringIndexer, IndexToString maps a column of label indices back to a column containing the original labels as strings. 
+A common use case is to produce indices from labels with StringIndexer, train a model with those indices and retrieve the original labels from the column of predicted indices with IndexToString.
 
-More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#indextostring
+More at Spark MLlib/ML docs page : https://spark.apache.org/docs/2.0.0/ml-features.html#indextostring
 
 
+Examples
+-------
+
+
+The below example is available at : https://spark.apache.org/docs/2.0.0/ml-features.html#indextostring
++++++++++++++++
+
+import org.apache.spark.ml.feature.{IndexToString, StringIndexer}
+
+val df = spark.createDataFrame(Seq(
+  (0, "a"),
+  (1, "b"),
+  (2, "c"),
+  (3, "a"),
+  (4, "a"),
+  (5, "c")
+)).toDF("id", "category")
+
+val indexer = new StringIndexer()
+  .setInputCol("category")
+  .setOutputCol("categoryIndex")
+  .fit(df)
+val indexed = indexer.transform(df)
+
+val converter = new IndexToString()
+  .setInputCol("categoryIndex")
+  .setOutputCol("originalCategory")
+
+val converted = converter.transform(indexed)
+converted.select("id", "originalCategory").show()

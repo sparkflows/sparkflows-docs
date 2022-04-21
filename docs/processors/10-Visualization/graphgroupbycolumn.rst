@@ -32,11 +32,22 @@ Fields
       * - maxValuesToDisplay
         - Max Values To Display
         - Maximum number of values to display in result.
+      * - chartColors
+        - Chart Colors
       * - groupByColumn
         - Group By Column
       * - graphType
         - Chart Type
 
 
+Details
+-------
+
+
+This node represents distribution / count of group of data in Graphical format.
+
+A numeric column from the incoming dataset is selected to aggregate data into multiple groups. Count of data-points in each group is plotted in the Chart.
+
+Chart Type used to represent data can be selected in the node.
 
 

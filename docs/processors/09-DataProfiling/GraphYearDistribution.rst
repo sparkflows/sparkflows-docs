@@ -33,5 +33,12 @@ Fields
         - input to y axis
 
 
+Details
+-------
+
+
+This node plots a graph depicting distribution of dataset against each Year derived from the specified Date column.
+
+Graph can be plotted based on the chart type selected in the node.
 
 

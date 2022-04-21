@@ -47,6 +47,25 @@ Details
 
 Stop words filters out stop words from input. Null values from input array are preserved unless adding null to stopWords explicitly.
 
-More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#stopwordsremover
+More at Spark MLlib/ML docs page : https://spark.apache.org/docs/2.0.0/ml-features.html#stopwordsremover
 
 
+Examples
+-------
+
+
+The below example is available at : https://spark.apache.org/docs/2.0.0/ml-features.html#stopwordsremover
++++++++++++++++
+
+import org.apache.spark.ml.feature.StopWordsRemover
+
+val remover = new StopWordsRemover()
+  .setInputCol("raw")
+  .setOutputCol("filtered")
+
+val dataSet = spark.createDataFrame(Seq(
+  (0, Seq("I", "saw", "the", "red", "baloon")),
+  (1, Seq("Mary", "had", "a", "little", "lamb"))
+)).toDF("id", "raw")
+
+remover.transform(dataSet).show()

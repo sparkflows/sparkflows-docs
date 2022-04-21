@@ -1,4 +1,4 @@
-H2O GLM
+H2O Generalized Linear Models
 =========== 
 
 Generalized Linear Models (GLM) estimate regression models for outcomes following exponential distributions

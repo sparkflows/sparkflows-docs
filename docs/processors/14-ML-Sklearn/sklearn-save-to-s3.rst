@@ -1,7 +1,7 @@
 Sklearn Model Save To S3
 =========== 
 
-This node saves the Sklearn model generated at the specified path in S3 in pickle format.
+Saves the Sklearn model generated at the specified path in S3 in pickle format.
 
 Input
 --------------

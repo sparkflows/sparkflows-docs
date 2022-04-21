@@ -1,7 +1,7 @@
 Sklearn Predict
 =========== 
 
-Predict node takes in a DataFrame and Model and makes predictions
+Predict node takes in a dataframe and model and makes predictions
 
 Input
 --------------

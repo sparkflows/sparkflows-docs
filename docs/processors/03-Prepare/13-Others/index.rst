@@ -9,6 +9,7 @@
    count.rst
    geoip.rst
    geopoint.rst
+   movingwindowfunctions.rst
    multiwindowanalyticsfunctions.rst
    multiwindowrankingfunctions.rst
    recoverhivepartitions.rst
@@ -20,3 +21,4 @@
    transpose.rst
    windowanalytics.rst
    windowranking.rst
+   wordcount.rst

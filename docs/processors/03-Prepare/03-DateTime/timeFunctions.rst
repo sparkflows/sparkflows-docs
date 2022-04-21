@@ -40,3 +40,28 @@ This node extracts year, dayofmonth, dayofyear, weekofyear, dayofweek, quarter, 
 These values are extracted into new columns of the DataFrame.
 
 
+Examples
+-------
+
+
+If Incoming Dataframe has following timestamp column:
+
+INV_DATE
+-------------------------------------------
+2021-07-01 10:11:12.0
+
+after execution of TimeFunctions node following columns would get added to the outgoing Dataframe for the above row:
+
+COLUMN_NAME             |    VALUE
+----------------------------------------
+INV_DATE_year           |    2021
+INV_DATE_month          |    7
+NV_DATE_dayofmonth      |    1
+INV_DATE_dayofyear      |    182
+INV_DATE_weekofyear     |    26
+INV_DATE_dayofweek      |    5
+INV_DATE_quarter        |    3
+INV_DATE_hour           |    10
+INV_DATE_minute         |    11
+INV_DATE_second         |    12
+INV_DATE_season         |    Summer

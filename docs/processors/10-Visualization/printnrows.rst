@@ -33,5 +33,12 @@ Fields
         - If true display rows DataType
 
 
+Details
+-------
+
+
+This node is used to print incoming dataset.
+
+Number of rows that needs to be printed can be configured in the node.
 
 

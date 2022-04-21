@@ -120,5 +120,10 @@ Fields
         - 
 
 
+Details
+-------
+
+
+Deatils: https://xgboost.readthedocs.io/en/latest/jvm/xgboost4j_spark_tutorial.html#xgboost4j-spark-tutorial-version-0-9
 
 

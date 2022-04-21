@@ -23,14 +23,18 @@ Fields
       * - Name
         - Title
         - Description
-      * - title
-        - Title
-      * - workflowId
-        - Workflow Id
-        - Id of the workflow to execute
       * - workflowUuid
-        - Workflow Uuid
-        - Uuid of the workflow to execute
+        - Workflow
+        - The workflow to execute
+      * - isEnabled
+        - IsEnabled
+        - isEnabled true execute the selected workflow.
+      * - parameterName
+        - Parameter Name
+        - parameters name.
+      * - parameterValue
+        - Parameter Value
+        - parameters value.
 
 
 

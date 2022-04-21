@@ -45,7 +45,7 @@ Fields
         - Algorithm to use for matching
       * - matchingWeights
         - Weights
-        - Weights for matches
+        - Weights to consider for confidence score caluclation and total wight should be less than 1.
       * - outputCols
         - Output Column
         - Output Column

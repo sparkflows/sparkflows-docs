@@ -42,5 +42,32 @@ Fields
         - Output columns
 
 
+Details
+-------
 
 
+StringIndexer encodes a string column of labels to a column of label indices. The indices are in [0, numLabels), ordered by label frequencies, so the most frequent label gets index 0.
+If the input column is numeric, we cast it to string and index the string values.
+                                                                                                  
+More at Spark MLlib/ML docs page : https://spark.apache.org/docs/2.0.0/ml-features.html#stringindexer
+
+
+Examples
+-------
+
+
+The below example is available at : https://spark.apache.org/docs/2.0.0/ml-features.html#stringindexer
++++++++++++++++
+
+import org.apache.spark.ml.feature.StringIndexer
+
+val df = spark.createDataFrame(
+  Seq((0, "a"), (1, "b"), (2, "c"), (3, "a"), (4, "a"), (5, "c"))
+).toDF("id", "category")
+
+val indexer = new StringIndexer()
+  .setInputCol("category")
+  .setOutputCol("categoryIndex")
+
+val indexed = indexer.fit(df).transform(df)
+indexed.show()

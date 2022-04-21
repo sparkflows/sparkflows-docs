@@ -40,5 +40,24 @@ Fields
         - Values
 
 
+Details
+-------
 
 
+It computes expressions to determine if the condition is met or not. Accordingly proceeds to the next step or stops here.
+
+If expression evaluates to true then incoming Dataframe is sent to the output node and it is executed otherwise execution terminates in this node.
+
+
+Examples
+-------
+
+
+If Decision node is configured as below:
+
+COLUMNS    |      FUNCTION        |    SYMBOL    |    VALUES 	
+---------------------------------------------------------------
+PRD_CD     |      COUNT_RECORDS   |    <         |    10
+
+then if count of entries in [PRD_CD] is less then 10 then only incoming Dataframe would be sent to the output node for execution
+otherwise execution stops at Decision node itself.

@@ -1,7 +1,7 @@
 Sklearn Model Load From S3
 =========== 
 
-This node load the Sklearn model stored in the pickel format in S3.
+Load the Sklearn model stored in the pickel format in S3.
 
 Input
 --------------

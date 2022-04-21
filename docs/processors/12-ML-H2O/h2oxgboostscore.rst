@@ -1,7 +1,7 @@
 H2O XGBoost Score
 =========== 
 
-
+XGBoost Score node takes in a dataframe and xgboost model and makes predictions
 
 Type
 --------- 

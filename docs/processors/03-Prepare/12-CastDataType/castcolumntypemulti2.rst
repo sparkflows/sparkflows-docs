@@ -45,5 +45,43 @@ Fields
         - Formats like yyy-MM-dd used in input & output
 
 
+Details
+-------
 
 
+This node creates a new DataFrame by casting the specified columns into new types.
+
+Option to replace existing column or create a new column after conversion can be selected in the node. 
+
+New format for the Date column can be specified.
+
+
+Examples
+-------
+
+
+Incoming Dataframe has following rows:
+
+INV_NO    |    INV_DATE               |    INV_AMT       
+----------------------------------------------------
+STRING    |    timestamp              |    STRING       
+----------------------------------------------------
+INV001    |    2010-12-28 10:11:12.0  |    1000.0        
+INV002    |    2020-10-15 09:11:12.0  |    1500.0        
+INV003    |    2010-01-01 10:11:12.0  |    100.0         
+
+if MultiCastColumnType2 node is configured to perform conversion as below:
+
+COLUMNS    |    NEW DATA TYPE    |    REPLACE EXISTING COLS    |    FORMATS 	
+-----------------------------------------------------------------------------------
+INV_DATE   |    STRING           |    false                    |    yyyy/MMM/dd
+
+then new column would be added in outgoing Dataframe as below after conversion:
+
+INV_NO    |    INV_DATE               |    INV_AMT    |    INV_DATE-new       
+-------------------------------------------------------------------------------  
+STRING    |    timestamp              |    STRING     |    STRING    
+-------------------------------------------------------------------------------
+INV001    |    2010-12-28 10:11:12.0  |    1000.0     |    2010/Dec/28        
+INV002    |    2020-10-15 09:11:12.0  |    1500.0     |    2020/Oct/15        
+INV003    |    2010-01-01 10:11:12.0  |    100.0      |    2010/Jan/01        

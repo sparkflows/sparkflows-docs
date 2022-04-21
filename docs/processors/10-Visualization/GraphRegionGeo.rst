@@ -28,10 +28,12 @@ Fields
       * - maxValuesToDisplay
         - Max Values To Display
         - Maximum number of values to display in result.
-      * - col1
-        - Column 1
-      * - col2
-        - Column 2
+      * - groupByColumn1
+        - GroupByColumn1
+        - group by GroupByColumn1 & GroupByColumn2, get a count of the rows in each group and then display the count in a graph
+      * - groupByColumn2
+        - GroupByColumn2
+        - group by GroupByColumn1 & GroupByColumn2, get a count of the rows in each group and then display the count in a graph
       * - displayMode
         - Display Mode
       * - resolution

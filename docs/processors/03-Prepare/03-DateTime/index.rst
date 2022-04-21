@@ -5,6 +5,7 @@
    :maxdepth: 2
 
    datetimefieldextract.rst
+   datetoage.rst
    datetodiff.rst
    datetostring.rst
    stringtodatemulti.rst

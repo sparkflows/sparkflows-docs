@@ -1,7 +1,7 @@
 Sklearn Model Save
 =========== 
 
-This node saves the Sklearn model generated at the specified path in pickle file.
+Saves the Sklearn model generated at the specified path in pickle file.
 
 Input
 --------------

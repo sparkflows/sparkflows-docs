@@ -1,7 +1,7 @@
 K-Means SageMaker Estimator
 =========== 
 
-
+Node runs the SageMaker-provided k-means algorithm. The SageMakerEstimator is an org.apache.spark.ml.Estimator that trains a model on Amazon SageMaker.
 
 Type
 --------- 

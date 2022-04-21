@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 2
 
+   h20automl.rst
    h2o_model_load_python.rst
    h2o_model_save_python.rst
    h2o_model_score_python.rst

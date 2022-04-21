@@ -1,7 +1,7 @@
 SageMaker Linear Learner Regressor
 =========== 
 
-
+Node runs the SageMaker-provided Linear Regressor algorithm. The SageMakerEstimator is an org.apache.spark.ml.Estimator that trains a model on Amazon SageMaker.
 
 Type
 --------- 

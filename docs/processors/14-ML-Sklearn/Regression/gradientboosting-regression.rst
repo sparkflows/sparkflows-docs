@@ -1,7 +1,7 @@
 Sklearn Gradient Boosting Regression
 =========== 
 
-
+Gradient Boosting Regression, builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage a regression tree is fit on the negative gradient of the given loss function.
 
 Type
 --------- 
@@ -91,5 +91,10 @@ Fields
         - 
 
 
+Details
+-------
+
+
+More details are available at : https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
 
 

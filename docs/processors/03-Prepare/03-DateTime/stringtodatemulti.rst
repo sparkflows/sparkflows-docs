@@ -59,6 +59,4 @@ Format Examples
 *  yyyy-MM-dd HH:mm:ss : 2012-01-31 23:59:59
 *  yyyy-MM-dd HH:mm:ss.SSS : 2012-01-31 23:59:59.999
 *  yyyy-MM-dd HH:mm:ss.SSSZ : 2012-01-31 23:59:59.999+0100
-*  MM/dd/yy hh:mm:ss a : 3/18/2022 2:00:00 AM
-*  MM/dd/yy hh:mm:ss a : 03/18/2022 2:00:00 PM
 *  EEEEE MMMMM yyyy HH:mm:ss.SSSZ : Saturday November 2012 10:45:42.720+0100

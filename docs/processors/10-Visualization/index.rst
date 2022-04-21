@@ -10,5 +10,6 @@
    boxplot.rst
    gauge.rst
    graphgroupbycolumn.rst
+   print-rich-text.rst
    printnrows.rst
    subplots.rst

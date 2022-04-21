@@ -1,7 +1,7 @@
 Sklearn Logistic Regression
 =========== 
 
-
+Logistic Regression is a linear model for classification and implementation can fit binary, One-vs-Rest, or multinomial logistic regression with optional , or Elastic-Net regularization.
 
 Type
 --------- 
@@ -70,5 +70,10 @@ Fields
         - 
 
 
+Details
+-------
+
+
+More details are available at : https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 
 

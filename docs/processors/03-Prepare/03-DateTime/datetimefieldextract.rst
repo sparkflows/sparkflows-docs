@@ -66,3 +66,18 @@ It creates a new DataFrame by extracting Date and Time fields.
 The output DataFrame has year/month/dayofmonth/hour/minute/second values extracted from the specified TimeStamp column into new columns
 
 
+Examples
+-------
+
+
+If incoming Dataframe has Date value as 2018-01-01 14:30:45 in YYYY-MM-DD HH:mm:ss format then using datetimeextract node would result in followings 
+added as new columns to the Dataframe:
+
+
+*  YEAR : 2018 
+*  MONTH : 01
+*  DAY OF MONTH : 01 
+*  HOUR : 14
+*  MINUTE : 30
+*  SECOND : 45
+*  WEEKOFYEAR : 1 

@@ -1,7 +1,7 @@
 Custom Metrics
 =========== 
 
-
+Custom Metrics to check on aggregated field, which expects prediction, label, aggregate column and metrics.
 
 Type
 --------- 

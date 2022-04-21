@@ -39,5 +39,14 @@ Fields
         - MinorTicks
 
 
+Details
+-------
+
+
+This node represents data for different categories in Gauge format.
+
+Multiple categories can be represented using separate Gauges.
+
+A numeric column from the incoming dataset is selected to represent value in the Gauges.
 
 

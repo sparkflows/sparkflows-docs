@@ -1,4 +1,4 @@
-H2O GLRM
+H2O Generalized Low Rank Models
 =========== 
 
 Generalized Low Rank Models (GLRM) is an algorithm for dimensionality reduction of a dataset

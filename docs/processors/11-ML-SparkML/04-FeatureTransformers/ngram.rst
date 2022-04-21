@@ -54,3 +54,22 @@ This node converts the input array of strings into an array of n-grams. Null val
 More at Spark MLlib/ML docs page : http://spark.apache.org/docs/latest/ml-features.html#n-gram
 
 
+Examples
+-------
+
+
+The 
++++++++++++++++
+below example is available at : http://spark.apache.org/docs/latest/ml-features.html#n-gram
+
+import org.apache.spark.ml.feature.NGram
+
+val wordDataFrame = spark.createDataFrame(Seq(
+  (0, Array("Hi", "I", "heard", "about", "Spark")),
+  (1, Array("I", "wish", "Java", "could", "use", "case", "classes")),
+  (2, Array("Logistic", "regression", "models", "are", "neat"))
+)).toDF("label", "words")
+
+val ngram = new NGram().setInputCol("words").setOutputCol("ngrams")
+val ngramDataFrame = ngram.transform(wordDataFrame)
+ngramDataFrame.take(3).map(_.getAs[Stream[String]]("ngrams").toList).foreach(println)

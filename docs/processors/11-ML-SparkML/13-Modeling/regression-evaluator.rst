@@ -50,6 +50,6 @@ Evaluator for regression, which expects two input columns: prediction and label.
 
 More details are available at Apache Spark ML docs page:
 
-http://spark.apache.org/docs/1.6.0/api/scala/index.html#org.apache.spark.ml.evaluation.RegressionEvaluator
+https://spark.apache.org/docs/latest/api/java/org/apache/spark/ml/evaluation/RegressionEvaluator.html
 
 

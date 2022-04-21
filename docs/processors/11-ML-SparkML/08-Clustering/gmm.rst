@@ -61,6 +61,27 @@ GaussianMixture is implemented as an Estimator and generates a GaussianMixtureMo
 
 More details are available at Apache Spark ML docs page:
 
-http://spark.apache.org/docs/latest/ml-clustering.html#gaussian-mixture-model-gmm
+https://spark.apache.org/docs/latest/ml-clustering.html#gaussian-mixture-model-gmm
 
 
+Examples
+-------
+
+
+Below example is available at : https://spark.apache.org/docs/latest/ml-clustering.html#gaussian-mixture-model-gmm
+
+import org.apache.spark.ml.clustering.GaussianMixture
+
+// Loads data
+val dataset = spark.read.format("libsvm").load("data/mllib/sample_kmeans_data.txt")
+
+// Trains Gaussian Mixture Model
+val gmm = new GaussianMixture()
+  .setK(2)
+val model = gmm.fit(dataset)
+
+// output parameters of mixture model model
+for (i <- 0 until model.getK) {
+  println(s"Gaussian $i:\nweight=${model.weights(i)}\n" +
+      s"mu=${model.gaussians(i).mean}\nsigma=\n${model.gaussians(i).cov}\n")
+}

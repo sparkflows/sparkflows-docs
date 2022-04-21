@@ -1,7 +1,7 @@
 PCA SageMaker Estimator
 =========== 
 
-
+Node runs the SageMaker-provided PCA algorithm. The SageMakerEstimator is an org.apache.spark.ml.Estimator that trains a model on Amazon SageMaker.
 
 Type
 --------- 

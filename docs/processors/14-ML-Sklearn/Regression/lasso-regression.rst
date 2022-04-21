@@ -1,7 +1,7 @@
 SkLearn Lasso Regression
 =========== 
 
-
+In Lasso Regression, Linear Model trained with L1 prior as regularizer.
 
 Type
 --------- 
@@ -61,5 +61,10 @@ Fields
         - 
 
 
+Details
+-------
+
+
+More details are available at : https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html
 
 

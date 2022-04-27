@@ -1,9 +1,11 @@
 Kerberos Commands
 ==============
 
+https://spark.apache.org/docs/latest/security.html#using-a-keytab
+
 * kinit::
 
-    kinit user@abc.com -kt abc.keytab
+    kinit -kt abc.keytab user@abc.com 
     
 * klist::
 

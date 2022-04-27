@@ -10,7 +10,7 @@ Commands Cheatsheet
    linux.rst
    h2-db.rst
    python.rst
-   
+   kerberos.rst
    
    
    

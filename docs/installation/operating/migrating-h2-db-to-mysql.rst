@@ -7,7 +7,7 @@ There are times when we start with the embedded H2 DB, but then want to want to 
 
 Below are the steps for migrating the data from H2 DB to MySQL.
 
-Migrate H2 DB data to MySQL from executable jar file.
+Migrate H2 DB data to MySQL using executable jar file.
 -----------------------------------------------------
 
 - Run MySQL script to generate fire database and tables in MySQL.

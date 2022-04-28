@@ -160,6 +160,17 @@ Binarizer takes the common parameters inputCol and outputCol, as well as the thr
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#binarizer
 
+*Binarizer node can be configured as below*
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/binarizer-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that needs to be converted to binary value is to selected in ``Input Column`` list. Only Double or Vector columns can be selected.
+-	Output column that lists the binary data needs to be entered in ``Output Column`` box. Output Column is added to the outgoing dataset.
+-	Value against which incoming data needs to be compared is to be entered in ``Threshold`` box. If data point is greater than Threshold value then 1.0 is assigned otherwise 0.0 is assigned.
+
 PCA
 ----
 PCA is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components. A PCA class trains a model to project vectors to a low-dimensional space using PCA. 
@@ -200,6 +211,16 @@ Symmetrically to StringIndexer, IndexToString maps a column of label indices bac
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#indextostring
 
+*Index String node can be configured as below*
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/indexstring-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that contains indexed values needs to be converted back to the original values is to selected in ``Input Column`` list. Only Numeric columns can be selected.
+-	Output column that lists the reconverted data needs to be entered in ``Output Column`` box.
+
 One Hot Encoder
 -----------------
 One-hot encoding maps a categorical feature, represented as a label index, to a binary vector with at most a single one-value indicating the presence of a specific feature value from among the set of all feature values. This encoding allows algorithms which expect continuous features, such as Logistic Regression, to use categorical features. For string type input data, it is common to encode categorical features using StringIndexer first.
@@ -234,11 +255,30 @@ VectorIndexer helps index categorical features in datasets of Vectors. It can bo
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#vectorindexer
 
+*Vector Indexer node can be configured as below*
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vectorindexer-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe that contains vector data of features consisting of categorical features that needs to be indexed is to selected in ``Input Column`` list. Only Vector columns can be selected.
+-	Output column that lists transformed data needs to be entered in ``Output Column`` box.
+
 Normalizer
 ------------
 Normalizer is a Transformer which transforms a dataset of Vector rows, normalizing each Vector to have unit norm. It takes parameter p, which specifies the p-norm used for normalization. (p=2 by default.) This normalization can help standardize your input data and improve the behavior of learning algorithms.
 
 Additional Information and Examples: https://spark.apache.org/docs/latest/ml-features#normalizer
+
+*Normalizer node can be configured as below*
+
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/normalizer-config.png
+   :alt: Machine Learning
+   :width: 90%
+
+-	Column from the incoming dataframe which contains Vector data that needs to be normalized is to selected in ``Input Column`` list.
+-	Output column that lists the transformed data needs to be entered in ``Output Column`` box.
+-	p-norm that needs to be used to Normalized vector data is to be entered in ``P`` box.
 
 Standard Scalar
 ------------------

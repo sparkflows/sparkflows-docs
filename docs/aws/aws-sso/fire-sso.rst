@@ -56,7 +56,7 @@ Fire Insights can be configured with AWS SSO as below.
 
 ::
 
-    saml.sso.acs-url=https://54.221.85.100:8443/saml/SSO  
+    saml.sso.acs-url=https://localhost:8443/saml/SSO  
   
 9. server name
 

@@ -156,6 +156,7 @@ Using wget::
 Using curl::
 
     curl https://domainname.com/abc.csv -o abc.csv
+    curl -LO https://domainname.com/abc.csv
 
 clear command
 --------------

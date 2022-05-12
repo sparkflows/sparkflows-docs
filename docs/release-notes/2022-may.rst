@@ -35,3 +35,13 @@ Read DynamoDB
 .. figure:: ..//_assets/releases/may-2022/readdynamodb_exe.PNG
    :alt: pipeline
    :width: 70%   
+
+
+Save DynamoDB
++++++
+
+- This node Saves data to DynamoDB Table.
+
+.. figure:: ..//_assets/releases/may-2022/save_dynamodb.PNG
+   :alt: pipeline
+   :width: 70%  

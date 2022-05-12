@@ -45,3 +45,12 @@ Save DynamoDB
 .. figure:: ..//_assets/releases/may-2022/save_dynamodb.PNG
    :alt: pipeline
    :width: 70%  
+
+UI
+++++++
+
+- Improvements on Clean up page
+
+.. figure:: ..//_assets/releases/may-2022/cleanup_data.PNG
+   :alt: pipeline
+   :width: 70% 

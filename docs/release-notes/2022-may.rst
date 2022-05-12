@@ -49,7 +49,7 @@ Save DynamoDB
 UI
 ++++++
 
-- Improvements on Clean up page
+- Improvements on Clean up Data page
 
 .. figure:: ..//_assets/releases/may-2022/cleanup_data.PNG
    :alt: pipeline

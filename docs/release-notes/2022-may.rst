@@ -54,3 +54,15 @@ UI
 .. figure:: ..//_assets/releases/may-2022/cleanup_data.PNG
    :alt: pipeline
    :width: 70% 
+   
+- Icon for Project
+
+Fire Insights enable user to select icon for project as per functionality being used
+
+.. figure:: ..//_assets/releases/may-2022/icon_project.PNG
+   :alt: pipeline
+   :width: 70% 
+   
+.. figure:: ..//_assets/releases/may-2022/icon_overview.PNG
+   :alt: pipeline
+   :width: 70%   

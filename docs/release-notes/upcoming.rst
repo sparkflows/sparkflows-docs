@@ -8,6 +8,11 @@ Dashboard Upgrades
 
 - Dashboard with Persona
 
+Pipeline
+-------
+
+- Pipeline Scheduler
+
 NEW CONNECTIONS
 ----------
 

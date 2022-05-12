@@ -2,3 +2,18 @@ May 2022
 ========
 
 These features and Sparkflows platform improvements were released in May 2022.
+
+Pipeline
+----
+
+Upgradation of Pipeline feature without airflow configurations.
+
+Fire Insights Provides option to user to run different workflow using Pipeline without airflow with different compute engine and view its executions.
+
+.. figure:: ..//_assets/releases/may-2022/pipeline_wf.PNG
+   :alt: pipeline
+   :width: 70%
+
+.. figure:: ..//_assets/releases/may-2022/pipeline_executions.PNG
+   :alt: pipeline
+   :width: 70%

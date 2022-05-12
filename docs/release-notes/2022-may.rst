@@ -17,3 +17,8 @@ Fire Insights Provides option to user to run different workflow using Pipeline w
 .. figure:: ..//_assets/releases/may-2022/pipeline_executions.PNG
    :alt: pipeline
    :width: 70%
+
+New Processors
+---------------
+
+In May, we have added the following new Processors for better performance. Do read on to know about the latest.

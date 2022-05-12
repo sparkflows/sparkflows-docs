@@ -47,7 +47,7 @@ Save DynamoDB
    :width: 70%  
 
 UI
-++++++
+------
 
 - Improvements on Clean up Data page
 

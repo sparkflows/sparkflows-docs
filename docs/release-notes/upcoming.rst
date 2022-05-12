@@ -3,17 +3,17 @@ Upcoming Features
 
 Below are the upcoming features in Fire Insights.
 
+Dashboard Upgrades
+----------
+
+- Dashboard with Persona
+
 NEW CONNECTIONS
 ----------
 
 - Livy Connections 
 - Spark Submit Connections
 - AWS Glue Connections
-
-Pipeline
-----
-
-Upgradation of Pipeline feature without airflow configurations.
 
 UI
 ---

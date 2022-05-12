@@ -22,3 +22,16 @@ New Processors
 ---------------
 
 In May, we have added the following new Processors for better performance. Do read on to know about the latest.
+
+Read DynamoDB
++++++
+
+- This node reads data from DynamoDB Table.
+
+.. figure:: ..//_assets/releases/may-2022/read_dynamodb.PNG
+   :alt: pipeline
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/may-2022/readdynamodb_exe.PNG
+   :alt: pipeline
+   :width: 70%   

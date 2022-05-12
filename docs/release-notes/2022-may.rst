@@ -66,3 +66,9 @@ Fire Insights enable user to select icon for project as per functionality being 
 .. figure:: ..//_assets/releases/may-2022/icon_overview.PNG
    :alt: pipeline
    :width: 70%   
+   
+- Filter on the basis of project, status on Executions Page
+
+.. figure:: ..//_assets/releases/may-2022/filter.PNG
+   :alt: pipeline
+   :width: 70% 

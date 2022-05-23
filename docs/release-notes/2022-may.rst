@@ -49,13 +49,27 @@ Save DynamoDB
 Flatten
 ++++++++++
 
-Fire insights enable you to use use Flatten Processor to Flatten the nested structure in struct into given column.
+Fire insights enable you to use Flatten Processor to Flatten the nested structure in struct into given column.
 
 .. figure:: ..//_assets/releases/may-2022/flatten_node.PNG
    :alt: pipeline
    :width: 70%
 
 .. figure:: ..//_assets/releases/may-2022/flattening_executions.PNG
+   :alt: pipeline
+   :width: 70%
+   
+
+Explode
++++++++++
+
+Fire insights enable you to use Explode Processor to Explode the array of values into multiple rows with columnname_explode.
+
+.. figure:: ..//_assets/releases/may-2022/explode_node.PNG
+   :alt: pipeline
+   :width: 70%
+
+.. figure:: ..//_assets/releases/may-2022/explode_executions.PNG
    :alt: pipeline
    :width: 70%
 

@@ -45,6 +45,19 @@ Save DynamoDB
 .. figure:: ..//_assets/releases/may-2022/save_dynamodb.PNG
    :alt: pipeline
    :width: 70%  
+   
+Flatten
+++++++++++
+
+Fire insights enable you to use use Flatten Processor to Flatten the nested structure in struct into given column.
+
+.. figure:: ..//_assets/releases/may-2022/flatten_node.PNG
+   :alt: pipeline
+   :width: 70%
+
+.. figure:: ..//_assets/releases/may-2022/flattening_executions.PNG
+   :alt: pipeline
+   :width: 70%
 
 UI
 ------

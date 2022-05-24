@@ -1,0 +1,18 @@
+{% extends "!layout.html" %}
+{% block extrahead  %}
+<nav class="navbar">
+     <div class="navbar-container container-nav">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="https://www.sparkflows.io/" class="logo"><img src="{{ pathto('_static/' + logo, 1) }}"  alt="{{ _('Logo') }}"/></a>
+          
+         <ul class="menu-items">
+             <li><a href="{{pathto(master_doc)}}" class="nav-link active">Documentation</a></li>
+             <li><a href="https://www.sparkflows.io/blog" class="nav-link">Blogs</a></li>
+         </ul>
+         <div class="search-input">
+          {% include "searchbox.html" %}
+         </div>
+     </div>
+ </nav>
+    {{ super() }}
+{% endblock %}

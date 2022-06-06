@@ -1,9 +1,9 @@
-User Group Role Permission
+User/Group/Role/Permission
 ==========================
 
 Fire Insights supports Users, Groups, Roles, Permissions. A User can belong to multiple groups and have multiple roles.
 
-Each role can have multiple permissions.
+Each role can have multiple permissions associated with it.
 
 Groups
 ------
@@ -17,7 +17,7 @@ There can be multiple groups in Fire Insights.
 Users
 -----
 
-Fire Insights supports multiple users. Each user can belong to multiple groups, and also have multiple Roles.
+Fire Insights supports multiple users. Each user can belong to multiple Groups, and also have multiple Roles.
 
 .. figure:: ../../_assets/security/user-list.png
    :alt: security
@@ -68,7 +68,9 @@ Fire Insights supports the following Permissions. Permissions are associated wit
 Role's Permissions
 ----------------
 
-When a user create a Role, the user can given specific permission on the Role to the members which has that role.
+A Role has a set of permissions associated with it. A new Role can be created and an existing Role can be edited.
+
+Out of the box, Fire Insights comes with two roles : ADMIN and ANALYST
 
 
 .. figure:: ../../_assets/security/permissions.PNG
@@ -77,7 +79,7 @@ When a user create a Role, the user can given specific permission on the Role to
 
 
 
-Roles
+User/Roles
 -----
 
 A user can have multiple Roles. The actions which a user can do depends on the Roles they belong to.

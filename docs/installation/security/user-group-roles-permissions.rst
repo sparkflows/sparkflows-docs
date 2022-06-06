@@ -8,11 +8,17 @@ Each role can have multiple permissions associated with it.
 Groups
 ------
 
-There can be multiple groups in Fire Insights. 
+There can be multiple groups in Fire Insights. A user can belong to one or more Groups.
 
 .. figure:: ../../_assets/security/group-list.png
    :alt: security
    :width: 60%
+
+Associated with each Group are some more details. These include the following:
+
+  * Description : description of the group
+  * HDFS directories : HDFS directories which the users of the group can browse and view.
+  * S3 locations : S3 locations which the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
 
 Users
 -----

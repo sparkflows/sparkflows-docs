@@ -1,7 +1,7 @@
 Python
 ===========
 
-Fire supports both Java/Scala and Python engines.
+Fire Insights supports both Java/Scala and Python engines.
 
 When using the python engine, python 3.6+ has to be present. Also the dependent packages need to be installed.
 

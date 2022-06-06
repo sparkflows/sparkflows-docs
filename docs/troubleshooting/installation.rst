@@ -60,4 +60,10 @@ If you are using Ubuntu, you may have to do the following:
 Select 'No'
 
 
+Getting the error : unable to create new active thread
+-------------------------------
+
+https://dzone.com/articles/troubleshoot-outofmemoryerror-unable-to-create-new
+
+
 

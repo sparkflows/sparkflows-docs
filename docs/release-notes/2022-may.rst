@@ -8,7 +8,7 @@ Pipeline
 
 Upgradation of Pipeline feature without airflow configurations.
 
-Fire Insights Provides option to user to run different workflow using Pipeline without airflow with different compute engine and view its executions.
+Fire Insights provides option to user to run different workflow using Pipeline without airflow with different compute engine and view its executions.
 
 .. figure:: ..//_assets/releases/may-2022/pipeline_wf.PNG
    :alt: pipeline
@@ -21,7 +21,7 @@ Fire Insights Provides option to user to run different workflow using Pipeline w
 New Processors
 ---------------
 
-In May, we have added the following new Processors for better performance. Do read on to know about the latest.
+In May, the following new Processors have been added:
 
 Read DynamoDB
 +++++
@@ -73,7 +73,7 @@ Fire insights enable you to use Explode Processor to Explode the array of values
    :alt: pipeline
    :width: 70%
 
-UI
+UI Upgrades
 ------
 
 - Improvements on Clean up Data page

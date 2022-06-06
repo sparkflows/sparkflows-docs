@@ -145,6 +145,14 @@ Check Memory use in Linux
 
     cat /proc/meminfo
 
+
+View the list of processes
+------------
+
+::
+
+    top
+    
 Download Files
 --------------
 

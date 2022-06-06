@@ -1,12 +1,12 @@
 Securing Session
 =================
 
-Fire Insights enable you to secure the http session, As by Default its running on both ie http & https.
+Fire Insights enables you to secure the http session. By Default it runs on both http & https.
 
-Below are steps to disbale http session if Fire Insights already running on https
+Below are steps to disable http session
 -------------------
 
-Go to ``fire-x.y.z/conf/application.properties`` and make this below parameter value to ``true``
+Go to ``fire-x.y.z/conf/application.properties`` and set the below configurations:
 
 ::
 
@@ -16,4 +16,4 @@ Go to ``fire-x.y.z/conf/application.properties`` and make this below parameter v
     server.cookie.secure.httpOnly=true
     
 
-.. note:: Make sure to change the default value of above parameter to true
+.. note:: Make sure to change the default value of above parameters to true

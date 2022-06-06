@@ -1,7 +1,7 @@
 H2 Database
 ===========
 
-By default Fire Insights uses the H2 DB for storing the metadata. These include users, groups, projects, workflows etc.
+By default Fire Insights uses the H2 DB for storing the metadata. These include users, groups, projects, workflows, workflow executions etc.
 
 
 Logging into H2 DB
@@ -28,6 +28,8 @@ SHUTDOWN COMPACT fully compacts the database (re-creating the database may furth
     
 Recreating the H2 DB to further reduce the database size
 ---------------------
+
+Exporting the content of H2 DB to a sql file, deleting all objects from H2 DB and recreating the H2 DB from the sql file brings up the H2 DB to a clean state.
 
 https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-reduce-the-size-drastically
 

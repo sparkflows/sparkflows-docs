@@ -31,13 +31,6 @@ Tutorials
 
    tutorials/index
 
-Commands
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   commands/index
 
 Databricks Integration
 --------------
@@ -86,6 +79,14 @@ Kubernetes Integration
    :maxdepth: 2
 
    kubernetes/index
+   
+Commands
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   commands/index
    
 Troubleshooting
 ---------------

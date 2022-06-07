@@ -145,6 +145,19 @@ Check Memory use in Linux
 
     cat /proc/meminfo
 
+Check Maximum User Process on Linux
+------------
+
+::
+
+    ulimit -u
+
+thread count of all the proceses run by User on Linux
+------------
+
+::
+
+    ps -eLf | grep 'myuser' | wc -l
 
 View the list of processes
 ------------

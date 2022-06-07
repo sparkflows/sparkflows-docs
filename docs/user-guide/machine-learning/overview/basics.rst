@@ -1,4 +1,4 @@
-Overview
+Basics of Machine Learning
 ==============
 
 Machine Learning is one of the driving forces of AI. It denotes the ability of machines to learn, adapt and apply without being explicitly programmed. Well, there is a very clear difference between traditional programming and machine learning. In case of traditional programming, you have your algorithm coded or programmed in the computer system. You input data into your program in the computer and get the output. But there, an interesting thing happens in case of machine learning, Where your algorithm gets updated constantly by your input data and output data.

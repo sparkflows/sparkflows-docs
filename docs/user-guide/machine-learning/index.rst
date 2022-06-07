@@ -9,6 +9,12 @@ Fire Insights supports a variety of ML engines : Apache Spark ML, H2O, Scikit-le
 .. panels::
     :container: container-lg pb-3
 
+    :doc:`/user-guide/machine-learning/overview/index`
+
+    Overview of Machine Learning.
+
+    ---
+    
     :doc:`/user-guide/machine-learning/sparkml/index`
 
     Provides Apache Spark based different processors.
@@ -54,6 +60,7 @@ Fire Insights supports a variety of ML engines : Apache Spark ML, H2O, Scikit-le
 .. toctree::
    :hidden:
 
+   overview/index.rst
    sparkml/index.rst
    h2o/index.rst
    sklearn/index.rst

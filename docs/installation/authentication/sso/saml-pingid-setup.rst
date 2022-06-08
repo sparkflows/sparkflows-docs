@@ -1,7 +1,7 @@
 Ping Identity Setup
 ========
 
-Below are steps to setup SAML 2.0 Ping Id
+Below are steps to setup SAML 2.0 Ping Identity
 
 1. Create an account in Ping Identity
 

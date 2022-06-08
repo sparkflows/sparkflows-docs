@@ -36,7 +36,14 @@ Add/update the below information from newly created application in Okta:
 
 ::
 
-    # Identifier of the SP entity  (must be a URI) Audience URI
-    saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
-    # Algorithm that the toolkit will use on signing process
-    saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+    #Metadata url of identity provider
+    saml2.idp.metadata-url=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b/saml20/metadata/46240920-e6a9-4d2f-b2ce-ddb7d00e4087
+
+   #  Identifier of the SP entity  (must be a URI) Audience URI
+   saml2.sp.entityid=https://localhost:8443/sparkflow/saml/metadata
+
+  # Identifier of the IdP entity  (must be a URI)
+  saml2.idp.entityid=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b
+  
+  # Algorithm that the toolkit will use on signing process. Options:
+  saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256

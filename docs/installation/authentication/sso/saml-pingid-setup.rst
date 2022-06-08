@@ -62,3 +62,5 @@ Below are steps to setup SAML 2.0 Ping Id
 .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
    :alt: sso
    :width: 60%
+
+.. note::  Make sure to change localhost to your domain name or your ip

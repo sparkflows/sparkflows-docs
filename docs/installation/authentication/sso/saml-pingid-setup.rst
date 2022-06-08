@@ -1,4 +1,4 @@
-Ping Id Setup
+Ping Identity Setup
 ========
 
 Below are steps to setup SAML 2.0 Ping Id

@@ -47,3 +47,19 @@ Add/update the below information from newly created application in Okta:
   
   # Algorithm that the toolkit will use on signing process. Options:
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+  
+6. Application base url
+
+::
+
+  saml.sso.metadata-generator.entity-base-url=https://localhost:8443
+  
+7. server name
+
+::
+
+  saml.context.lb.server-name=localhost:8443
+  saml.context.lb.scheme=https
+  saml.context.lb.contextPath=/  
+  
+.. note::  Make sure to change localhost to your domain name or your ip   

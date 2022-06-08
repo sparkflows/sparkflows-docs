@@ -51,13 +51,13 @@ Below are steps to setup SAML 2.0 Ping Id
    :alt: sso
    :width: 60%
    
-8. Save and Activate the application
+8. Update ACS URLs & Entity ID & Save the Application
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_8.PNG
    :alt: sso
    :width: 60%
    
-9. Save and Activate the application
+9. Activate the application and Download the Metadata from Application
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
    :alt: sso

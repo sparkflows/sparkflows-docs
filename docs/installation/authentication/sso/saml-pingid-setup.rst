@@ -57,7 +57,7 @@ Below are steps to setup SAML 2.0 Ping Identity
    :alt: sso
    :width: 60%
    
-9. Activate the application and Download the Metadata from Application
+9. Activate the application and Download the Metadata from Application which will be used while configuring Fire Insights
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
    :alt: sso

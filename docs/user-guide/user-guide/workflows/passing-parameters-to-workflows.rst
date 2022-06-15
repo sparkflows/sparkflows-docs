@@ -12,21 +12,21 @@ Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflo
 By specifying the Parameters in the Workflow Editor
 ---------------------------------------------------
 
-Parameters can be specified in the Workflow Editor. Below workflow demonstrates passing Parameters to a Workflow
+Parameters can be specified in the Workflow Editor which is demonstrated below
 
 This example prints Telco Churn data for
 
-* a state that is passed as a parameter and
-* having `ACCOUNT LENGTH` duration greater than a value which is also passed as a parameter
+* a `STATE` that is passed as a parameter and
+* having `ACCOUNT LENGTH` duration greater than a value which is also passed in as a parameter
 
 Workflow
 ^^^^^^^^^^^^^^^^^^
 
 Workflow performs following processing:
 
-* Defines parameters for State and Account Length that are passed to the workflow
+* Defines parameters for `State` and `Account Length`
 * Reads data from a Dataset (Telco Churn Data)
-* Filters Telco Churn Data for a State and Account Length duration that are passed as parameters
+* Filters Telco Churn Data for a `State` and `Account Length` duration that are passed in as parameters
 * Prints filtered Telco Churn data
    
 .. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Demo_Workflow.png
@@ -64,7 +64,7 @@ Row Filter Node
 
 * This node filters incoming Telco Churn dataset based on following parameterized condition:
 
-	* STATE = '$state_name' AND `ACCOUNT LENGTH` > $account_length AND CHURN = 'True'
+	* `STATE` = '$state_name' AND `ACCOUNT LENGTH` > $account_length AND CHURN = 'True'
 		
 	* $state_name and $account_length are parameters that are passed to the workflow
 	
@@ -78,7 +78,7 @@ Row Filter Node
 Print N Rows Node
 ^^^^^^^^^^^^^^^^^^
 
-These node prints filtered Telco Churn data after applying parameterized filters
+This node prints filtered Telco Churn data after applying parameterized filters
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/Print_Node_Parameter_Output.png
    :alt: Passing Parameters
@@ -114,7 +114,7 @@ Parameters can be passed to Fire using Specify Parameters Processor in Workflow.
    :alt: Passing Parameters
    :width: 100%
    
-*	Defined Parameter can be used in processors like Row Filter processors to filter rows based on parametere value set
+*	Defined Parameter can be used in processors like Row Filter processors to filter rows based on parameter value set
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_rowfilter.png
    :alt: Passing Parameters
@@ -131,7 +131,7 @@ A Processor creating a Variable during Execution Time
 
 A processor can also create a parameter during the run time. A processor creates a new variable and puts it into the JobContext.
 
-jobContext.nodeGeneratedParameters.put(variable, ""+count);
+jobContext.nodeGeneratedParameters.put(variable, count);
 
 This parameter can later be used by another processor.
 
@@ -153,14 +153,14 @@ In this case, extra parameters can be passed with ``--var``::
  
 In the workflow, these parameters can be used with ``$name1    $name2``.
  
-Specific nodes make use of the parameters by **substituting   $name   with the value** provided for the name.
+Specific nodes make use of the parameters by substituting `$name` with the value provided for the name.
 
 
-An **example** would be:     ``--var id=3``.
+An example would be:     ``--var id=3``.
 
 When specifying the expression in the RowFilter Node we can use:   ``id > $id``.
 
-In the above **$id** would be replaced with **3**.
+In the above `$id` would be replaced with `3`.
  
  
 
@@ -172,6 +172,6 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
 .. figure:: ../../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
    
-In the above, **app.vars** parameter allows specifying a space-separated list of name=value pairs. 
+In the above, **app.vars** parameter allows specifying a space-separated list of `name=value` pairs. 
 
-Each of these is passed to the jobs submitted by Sparkflows with ``--var name=value``.
+Each of these are passed to the jobs submitted by Sparkflows with ``--var name=value``.

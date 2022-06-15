@@ -1,7 +1,7 @@
 Step 3 : Create Dataset
 =========================
 
-Before any data is used in a workflow, it needs to be wrapped in a dataset. If you have uploaded CSV files in the previous step, in this step you will wrap them in a dataset. 
+To use a dataset in multiple projects/use-cases, it is ideal to wrap it into a dataset. This allows the schema and other meta-info of the data to be defined in one place. Now, we can wrap the CSV file uploaded in the previous step into a dataset. 
 
 The steps involved in creating a dataset are:
 
@@ -12,7 +12,7 @@ The steps involved in creating a dataset are:
 - *Update the schema of the dataset*.
 - *Click on 'Save'*.
   
-When you open your project, all existing datasets specific to the project are displayed in the 'Datsets' tab.
+When you open your project, you can see the list of all the datasets that belong to this project under the 'Datasets' tab.
  
 .. figure:: ../../_assets/tutorials/dataset/1.PNG
    :alt: Dataset
@@ -45,14 +45,14 @@ Fill in the required fields as below:
 Now click on 'Update dataset/schema' to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.
-You can view the file after browsing by clicking 'View' file button next to 'Browse'.
+You can view the file by clicking 'View' file button next to 'Browse'.
  
 .. figure:: ../../_assets/tutorials/dataset/2.PNG
    :alt: Dataset
    :width: 90%
    
 
-If the data file did not have a header row, Fire Insights will give standard column names like 'C0, C1', etc.
+If the data file did not have a header row, Fire Insights will give dummy column names like 'C0, C1', etc.
 
 You can update the column names in the schema based on your data.
  

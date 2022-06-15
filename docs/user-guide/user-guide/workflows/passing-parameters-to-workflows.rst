@@ -4,10 +4,10 @@ Passing Parameters to Workflows
 
 Fire Insights runs the spark jobs with ``spark-submit``. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precedence in which they are applied is as shown below:
  
-  * Through Workflow Parameters passed during the workflow execution.
-  * By specifying the parameters in the Workflow Editor.
-  * Through a Specify Parameter Processor in the workflow.
-  * A node creating a variable during the execution time.
+  * Through Workflow Parameters passed during Workflow execution.
+  * By specifying the Parameters in the Workflow Editor.
+  * Through a Specify Parameters Processor in the Workflow.
+  * A Processor creating a Variable during Execution Time.
 
 By specifying the Parameters in the Workflow Editor
 ---------------------------------------------------
@@ -84,7 +84,7 @@ This node prints filtered Telco Churn data after applying parameterized filters
    :alt: Passing Parameters
    :width: 100%
    
-Through Workflow Parameters in Fire during Workflow Execution
+Through Workflow Parameters passed during Workflow Execution
 ---------------------------------------------------   
    
 Parameters can be passed to Fire during the workflow execution. Parameters values set during Workflow Execution would override values set in Workflow Editor Parameter page.

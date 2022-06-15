@@ -130,14 +130,6 @@ Processors Reference
    :maxdepth: 2
 
    processors/index
-
-Third Party Acknowledgements
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   third-party   
    
 Release Notes
 ----------
@@ -147,6 +139,15 @@ Release Notes
 
    release-notes/index      
 
+
+Third Party Acknowledgements
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   third-party   
+   
 Indices and tables
 ------------------
 

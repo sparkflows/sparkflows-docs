@@ -21,7 +21,7 @@ Fire Insights provides option to user to run different workflow using Pipeline w
 New Processors
 ---------------
 
-In May, the following new Processors have been added:
+The following new Processors have been added:
 
 Read DynamoDB
 +++++

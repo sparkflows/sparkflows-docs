@@ -14,7 +14,7 @@ By specifying the Parameters in the Workflow Editor
 
 Parameters can be specified in the Workflow Editor which is demonstrated below
 
-This example prints Telco Churn data for
+This example prints Telco Churn Data for
 
 * a `STATE` that is passed as a parameter and
 * having `ACCOUNT LENGTH` duration greater than a value which is also passed in as a parameter
@@ -27,7 +27,7 @@ Workflow performs following processing:
 * Defines parameters for `State` and `Account Length`
 * Reads data from a Dataset (Telco Churn Data)
 * Filters Telco Churn Data for a `State` and `Account Length` duration that are passed in as parameters
-* Prints filtered Telco Churn data
+* Prints filtered Telco Churn Data
    
 .. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Demo_Workflow.png
    :alt: Passing Parameters
@@ -78,7 +78,7 @@ Row Filter Node
 Print N Rows Node
 ^^^^^^^^^^^^^^^^^^
 
-This node prints filtered Telco Churn data after applying parameterized filters
+This node prints filtered Telco Churn Data after applying parameterized filters
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/Print_Node_Parameter_Output.png
    :alt: Passing Parameters

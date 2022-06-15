@@ -1,7 +1,7 @@
 Step 2 : Upload Data Files
 ===========================
 
-The workflow needs data to work on. As the next step, you will upload a CSV file that you want to process in your workflow.
+The workflow needs data to work on. As the next step, you will upload a data file that you want to process in your workflow.
 
 If your data is in a CSV file, click on 'Data Browsers' and select 'HDFS'. Your home directory will be displayed. Initially, it will be empty as you have not uploaded any file.
 

@@ -126,3 +126,10 @@ Below are the steps for verifying the keytab file.
     1 07/24/16 17:55:08 fire@EXAMPLE.COM (des-cbc-md5)
 
 
+Notes
+-----
+
+  * When running with a Kerberized cluster, deploy-mode should always be cluster.
+  * The proxy user must be set in HDFS config
+  
+  

@@ -11,3 +11,17 @@ Fire Insights enables you to add Favourite auto-ml Execution Experiment from num
 .. figure:: ..//_assets/releases/june-2022/automl_exp.PNG
    :alt: auto-ml
    :width: 70%
+
+New Processors
+---------------
+
+The following new Processors have been added:
+
+RunPythonCode
++++++
+
+This node execute the python code.
+
+.. figure:: ..//_assets/releases/june-2022/python-code.PNG
+   :alt: auto-ml
+   :width: 70%

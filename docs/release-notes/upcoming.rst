@@ -8,6 +8,11 @@ Dashboard Upgrades
 
 - Dashboard with Persona
 
+Databricks
+----------------
+
+- Support of Databricks Runtime 10.4
+
 Pipeline
 -------
 

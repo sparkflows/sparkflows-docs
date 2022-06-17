@@ -23,7 +23,7 @@ NEW CONNECTIONS
 UI
 ---
 
-- Introducing new icons for nodes
+- Enabling user to choose icons for Report, dashboard and applications
 
 
 

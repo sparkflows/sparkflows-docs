@@ -2,3 +2,12 @@ June 2022
 ========
 
 These features and Fire Insights platform improvements were released in June 2022.
+
+AutoML Upgrades
+--------
+
+Fire Insights enables you to add Favourite auto-ml Execution Experiment from number of executions run with different parameters.
+
+.. figure:: ..//_assets/releases/june-2022/automl_exp.PNG
+   :alt: auto-ml
+   :width: 70%

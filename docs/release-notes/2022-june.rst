@@ -25,3 +25,12 @@ This node execute the python code.
 .. figure:: ..//_assets/releases/june-2022/python-code.PNG
    :alt: auto-ml
    :width: 70%
+
+UI Upgrades
+------
+
+- Added Icon Search Option in Project
+
+.. figure:: ..//_assets/releases/june-2022/search-icon-selector.PNG
+   :alt: auto-ml
+   :width: 70%

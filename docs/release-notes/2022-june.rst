@@ -34,3 +34,13 @@ UI Upgrades
 .. figure:: ..//_assets/releases/june-2022/search-icon-selector.PNG
    :alt: auto-ml
    :width: 70%
+
+- Model Page Improvements
+
+.. figure:: ..//_assets/releases/june-2022/model-summary.PNG
+   :alt: auto-ml
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/june-2022/features-importance.PNG
+   :alt: auto-ml
+   :width: 70%   

@@ -28,18 +28,20 @@ Migrate data from H2 DB to MySQL database
 
 - Update the properties.txt file with the database specific details for the source and destination databases.
 - Update the username, password and database urls for the databases like the following example::
-  
-  #source db 
-  datasource.url = jdbc:h2:file:~/firedb 
-  datasource.username = fire 
-  datasource.password = fire 
-  datasource.driverClassName = org.h2.Driver 
+    
+    #source db
 
-  #destination db ... 
-  destinationDatasource.url = jdbc:mysql://localhost:3306/firedb?useSSL=false 
-  destinationDatasource.username = root 
-  destinationDatasource.password = root 
-  destinationDatasource.driverClassName = com.mysql.cj.jdbc.Driver 
+    datasource.url = jdbc:h2:file:~/firedb
+    datasource.username = fire
+    datasource.password = fire
+    datasource.driverClassName = org.h2.Driver
+
+    #destination db ... 
+    destinationDatasource.url = jdbc:mysql://localhost:3306/firedb?useSSL=false
+    destinationDatasource.username = root
+    destinationDatasource.password = root
+    destinationDatasource.driverClassName = com.mysql.cj.jdbc.Driver
+ 
 
 - Open the command prompt.
 - Go to the `dbmigration` folder inside `fire-ui`.

@@ -29,6 +29,7 @@ Migrate data from H2 DB to MySQL database
 - Update the properties.txt file with the database specific details for the source and destination databases.
 - Update the username, password and database urls for the databases like the following example::
     
+    
     #source db
     datasource.url = jdbc:h2:file:~/firedb
     datasource.username = fire

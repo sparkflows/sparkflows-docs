@@ -13,14 +13,14 @@ Regression analysis helps manufacturers in matter. We explain the process with t
 
 Linear regression is the most common and popular method in regression. By linear regression, we mean that outcomes are linear combination of features
 
-.. figure:: ../../../_assets/machinelearning/availablecard.jpg
+.. figure:: ../../../_assets/machinelearning/availablecard.png
       :alt: Cars
       :width: 40%
 
 
 Suppose the above is a list of available cars in the market and with engineering features and mileage. The description of the features are given below.
 
-.. figure:: ../../../_assets/machinelearning/carfeatures.jpg
+.. figure:: ../../../_assets/machinelearning/carfeatures.png
       :alt: CarFeatures
       :width: 40%
 

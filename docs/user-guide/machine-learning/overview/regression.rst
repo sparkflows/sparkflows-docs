@@ -15,14 +15,14 @@ Linear regression is the most common and popular method in regression. By linear
 
 .. figure:: ../../../_assets/machinelearning/availablecard.jpg
       :alt: Cars
-      :width: 90%
+      :width: 40%
 
 
 Suppose the above is a list of available cars in the market and with engineering features and mileage. The description of the features are given below.
 
 .. figure:: ../../../_assets/machinelearning/carfeatures.jpg
       :alt: CarFeatures
-      :width: 90%
+      :width: 40%
 
 
 Our objective is to express ``mpg`` in terms of available engineering features something like the following: -

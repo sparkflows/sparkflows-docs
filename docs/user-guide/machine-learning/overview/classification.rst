@@ -7,7 +7,7 @@ Classification problems are one of the most common applications in machine learn
 
 Classification algorithms can be better understood using the below diagram. In the below diagram, there are two classes, class A and Class B. These classes have features that are like each other and dissimilar to other classes.
 
-.. figure:: ../../../_assets/machinelearning/class.jpg
+.. figure:: ../../../_assets/machinelearning/class.png
       :alt: Class
       :width: 40%    
 

@@ -39,7 +39,7 @@ Fill in the required fields as below:
  
 .. figure:: ../../_assets/tutorials/dataset/3.PNG
    :alt: Dataset
-   :width: 90%
+   :width: 60%
  
 
 Now click on 'Update dataset/schema' to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.

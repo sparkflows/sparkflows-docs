@@ -62,6 +62,14 @@ There are various categories of REST API's available:
     ---
 
     :doc:`/rest-api/rest-api-curl/scheduler`
+    
+     ---
+
+    :doc:`/rest-api/rest-api-curl/users`
+    
+     ---
+
+    :doc:`/rest-api/rest-api-curl/groups`
 
 .. toctree::
    :hidden:
@@ -74,6 +82,8 @@ There are various categories of REST API's available:
    hdfs.rst
    hive.rst
    scheduler.rst
+   users.rst
+   groups.rst
    
    
    

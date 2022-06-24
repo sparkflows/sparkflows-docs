@@ -3,9 +3,11 @@ Clustering
 
 Cluster analysis groups data objects based only on information found in the data that describes the objects and their relationships. The goal is that the objects within a group be similar (or related) to one another and different from (or unrelated to) the objects in other groups. The greater the similarity or homogeneity within the groups and greater the difference or heterogeneity between the groups, the better the clustering.
 
-.. figure:: ../../../_assets/machinelearning/cluster.jpg
-      :alt: Cars
+.. figure:: ../../../_assets/machinelearning/cluster.png
+      :alt: cluster
       :width: 90%
+      :class: with-border
+
 
 Let us look at this example data. Here we have only data points but no prior information of grouping. But in this data, you visually see that there are 3 natural clusters; and a clustering algorithm is supposed to come up with these 3 clusters. This is what we expect the clustering algorithm to do.
 

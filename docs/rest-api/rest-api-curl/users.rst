@@ -24,7 +24,7 @@ Create User
 
 ::
 
-   curl -X POST "http://localhost:8080/api/v1/users" -H "accept: */*" -H "Content-Type: application/json"  -d "{ \"active\": true, \"email\": \"test@gmail.com\", \"firstName\": \"Testing\", \"groups\": [ 1 ], \"id\": 0, \"isSuperuser\": true, \"lastName\": \"User\", \"password\": \"testUser\", \"roles\": [ 1 ], \"superuser\": true, \"username\": \"Testing\"} -b /tmp/cookies.txt"
+   curl -X POST "http://localhost:8080/api/v1/users" -H "accept: */*" -H "Content-Type: application/json"  -d "{ \"active\": true, \"email\": \"test@gmail.com\", \"firstName\": \"Testing\", \"groups\": [ 1 ], \"id\": 0, \"isSuperuser\": true, \"lastName\": \"User\", \"password\": \"testUser\", \"roles\": [ 1 ], \"superuser\": true, \"username\": \"Testing\"}" -b /tmp/cookies.txt"
 
 Get User by Id
 -------------------

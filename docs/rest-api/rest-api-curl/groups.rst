@@ -27,35 +27,26 @@ JSON
 ::
 
     {
-      "id": 13,
-      "version": 0,
-      "name": "spam",
-      "header": true,
-      "path": "data\/spam.csv",
-      "delimiter": ",",
-      "schemaModel": {
-        "schemaColList": [
-          {
-            "colName": "label",
-            "colType": "DOUBLE",
-            "colFormat": "",
-            "colMLType": "NUMERIC"
-          },
-          {
-            "colName": "message",
-            "colType": "STRING",
-            "colFormat": "",
-            "colMLType": "TEXT"
-          },
-          {
-            "colName": "id",
-            "colType": "DOUBLE",
-            "colFormat": "",
-            "colMLType": "NUMERIC"
-          }
-        ]
-      }
-    }
+      "groupProperties": [
+        {
+          "id": 0,
+          "key": "key1",
+          "value": "value1"
+        },
+       {
+          "id": 0,
+          "key": "key2",
+          "value": "value2"
+        }
+      ],
+      "hdfsLocations": "",
+      "id": 0,
+      "name": "Analyst",
+      "users": [
+        "admin",
+        "test"
+      ]
+   }
 ::
 
   curl -X POST "http://localhost:8080/api/v1/groups" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"groupProperties\": [ { \"id\": 0, \"key\": \"key1\", \"value\": \"value1\" }, { \"id\": 0, \"key\": \"key2\", \"value\": \"value2\" } ], \"hdfsLocations\": \"\", \"id\": 0, \"name\": \"Analyst\", \"users\": [ \"admin\", \"test\" ]}"  -b /tmp/cookies.txt

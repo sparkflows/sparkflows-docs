@@ -29,7 +29,7 @@ Create User
 Get User by Id
 -------------------
 
-* id:1(Url Parameter)
+* userId :1(Url Parameter)
 
 ::
 
@@ -39,7 +39,7 @@ Get User by Id
 Delete User
 ----------------
 
-* userId: 1
+* userId : 1
 
 ::
  

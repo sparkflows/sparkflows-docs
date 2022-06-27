@@ -57,7 +57,26 @@ Get Group by id
 * Group id :1::
 
     curl -X GET "http://localhost:8080/api/groups/1" -H "accept: */*" -b /tmp/cookies.txt
+    
+* Example response ::
 
+    {
+      "id": 1,
+      "name": "DEFAULT",
+      "hdfsLocations": "",
+      "groupProperties": [
+        {
+          "id": 1,
+          "key": "key",
+          "value": "value"
+        },
+        {
+          "id": 2,
+          "key": "key2",
+          "value": "value2"
+        }
+      ]
+    }
 
 Delete Group
 -------------------------

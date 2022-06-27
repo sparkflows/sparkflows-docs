@@ -28,7 +28,7 @@ Create new Group
 Get Group by id
 -------------------------
 
-Group id :1::
+* Group id :1::
 
     curl -X GET "http://localhost:8080/api/groups/1" -H "accept: */*" -b /tmp/cookies.txt
 
@@ -36,7 +36,7 @@ Group id :1::
 Delete Group
 -------------------------
 
-Group id :1::
+* Group id :1::
 
     curl -X DELETE "http://localhost:8080/api/v1/groups/1" -H "accept: */*" -b /tmp/cookies.txt
 

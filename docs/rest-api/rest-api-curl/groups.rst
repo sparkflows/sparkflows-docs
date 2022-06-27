@@ -23,7 +23,7 @@ Create new Group
 
 ::
 
-  curl -X POST "http://localhost:8080/api/v1/groups" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"hdfsLocations\": \"\", \"id\": 0, \"name\": \"Analyst\", \"users\": [ \"admin\", \"test\" ]}"  -b /tmp/cookies.txt
+  curl -X POST "http://localhost:8080/api/v1/groups" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"groupProperties\": [ { \"id\": 0, \"key\": \"key1\", \"value\": \"value1\" }, { \"id\": 0, \"key\": \"key2\", \"value\": \"value2\" } ], \"hdfsLocations\": \"\", \"id\": 0, \"name\": \"Analyst\", \"users\": [ \"admin\", \"test\" ]}"  -b /tmp/cookies.txt
 
 Get Group by id
 -------------------------

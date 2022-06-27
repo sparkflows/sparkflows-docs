@@ -4,7 +4,7 @@ Group REST API
 Overview
 --------
 
-The Group REST APIs allow you to get information of group.
+The Group REST APIs allow you to get all the information of group and perform create,delete operations too.
 
 Below are the various Group REST API's available in Fire Insights.
 

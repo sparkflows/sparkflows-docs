@@ -11,19 +11,19 @@ Below are steps for Generating Access Token in Fire Insights:
    :alt: rest-api
    :width: 60%
 
-2. Once the configuration is enabled, go to User Profile, it will take you to Generate Token page.
+2. Once the configuration is enabled, go to User Profile, it will take you to Generate Access Token page.
 
 .. figure:: ../../_assets/rest-api/token_page.PNG
    :alt: rest-api
    :width: 60%
 
-3. Click on GENERATE ACCESS TOKE, It will pop up a new windows with needed informations.
+3. Click on GENERATE ACCESS TOKEN, It will pop up a new windows with needed informations.
 
 .. figure:: ../../_assets/rest-api/generate_token_page.PNG
    :alt: rest-api
    :width: 60%
    
-4. Once done with above informations, Click on GENERATE will create a new token.
+4. Once done with above informations, Click on 'GENERATE' will create a new token.
 
 .. figure:: ../../_assets/rest-api/token_copy.PNG
    :alt: rest-api

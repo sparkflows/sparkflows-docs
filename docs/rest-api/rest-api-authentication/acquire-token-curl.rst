@@ -16,3 +16,17 @@ Below are steps involved in it:
 .. figure:: ../../_assets/rest-api/token_page.PNG
    :alt: rest-api
    :width: 60%
+
+3. Click on GENERATE ACCESS TOKE, It will pop up a new windows with needed informations.
+
+.. figure:: ../../_assets/rest-api/generate_token_page.PNG
+   :alt: rest-api
+   :width: 60%
+   
+4. Once done with above informations, Click on GENERATE will create a new token.
+
+.. figure:: ../../_assets/rest-api/token_copy.PNG
+   :alt: rest-api
+   :width: 60%
+   
+   

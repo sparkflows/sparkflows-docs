@@ -35,3 +35,24 @@ For Each Bedroom Type, Find the House with the Lowest Price
     val outDF = lowestPriceDF.drop(col("rank"))
     outDF.registerTempTable("outDF")
 
+
+Drop certain columns
+====================
+
+::
+
+    val columns_to_drop = Array("C6", "C7", "C8", "C9")
+    val outDF = inDF.drop(columns_to_drop: _*)
+    outDF.registerTempTable("outDF")
+
+Lag function
+====================
+
+::
+
+    import org.apache.spark.sql.functions._
+    import org.apache.spark.sql.expressions.Window
+
+    val windowSpec  = Window.partitionBy("C4").orderBy("C6")
+    val outDF = inDF.withColumn("lag_7",lag("sell_price",7).over(windowSpec))
+    outDF.registerTempTable("outDF")

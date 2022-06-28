@@ -34,3 +34,5 @@ Below are steps involved in it:
 .. figure:: ../../_assets/rest-api/token_list.PNG
    :alt: rest-api
    :width: 60%
+
+.. note::  Make sure that token generated for user should have sufficient permission.

@@ -17,7 +17,12 @@ Below are steps for Generating Access Token in Fire Insights:
    :alt: rest-api
    :width: 60%
 
-3. Click on GENERATE ACCESS TOKEN, It will pop up a new windows with needed informations.
+3. Click on 'GENERATE ACCESS TOKEN', tab It will pop up a new windows with below informations.
+
+::
+
+    TOKEN EXPIRATION DURATION (DAYS) : Number of Days for Token Expirations
+    DESCRIPTION : Descriptions for Token Generated
 
 .. figure:: ../../_assets/rest-api/generate_token_page.PNG
    :alt: rest-api

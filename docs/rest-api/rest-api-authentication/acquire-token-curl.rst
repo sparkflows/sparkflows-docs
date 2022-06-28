@@ -11,4 +11,8 @@ Below are steps involved in it:
    :alt: rest-api
    :width: 60%
 
+2. Once the configuration is enabled, go to User Profile, it will take you to Generate Token page.
 
+.. figure:: ../../_assets/rest-api/token_page.PNG
+   :alt: rest-api
+   :width: 60%

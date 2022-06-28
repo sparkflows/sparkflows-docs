@@ -46,4 +46,4 @@ Once Login to Fire Insights Application as Administrator user, go to Configurati
    :alt: rest-api
    :width: 60%
 
-.. note::  Make sure that Access Token Generated for user should have sufficient permission.
+.. note::  Make sure that Access Token Generated for user should have sufficient privilege.

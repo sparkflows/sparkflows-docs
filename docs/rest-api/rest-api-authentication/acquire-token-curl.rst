@@ -7,7 +7,7 @@ Below are steps involved in it:
 
 1. Login to Fire Insights Application and enable configuration for generating tokens.
 
-.. figure:: ..//assets/rest-api/configuration.PNG
+.. figure:: ../../assets/rest-api/configuration.PNG
    :alt: rest-api
    :width: 60%
 

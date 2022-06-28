@@ -1,7 +1,7 @@
 Acquire Token 
 ==================
 
-Tokens can be acquired from Fire Insights using Application. They would then be used in making the subsequent curl requests.
+Tokens can be acquired from Fire Insights Application. They would then be used in making the subsequent curl requests.
 
 Below are steps involved in it:
 

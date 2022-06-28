@@ -1,4 +1,4 @@
-Creating New Datasets
+Creating New Dataset from Existing Files
 -----------------
  
 You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.

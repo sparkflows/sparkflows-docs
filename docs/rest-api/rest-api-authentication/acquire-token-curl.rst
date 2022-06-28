@@ -35,4 +35,4 @@ Below are steps for Generating Access Token in Fire Insights:
    :alt: rest-api
    :width: 60%
 
-.. note::  Make sure that token generated for user should have sufficient permission.
+.. note::  Make sure that Access Token Generated for user should have sufficient permission.

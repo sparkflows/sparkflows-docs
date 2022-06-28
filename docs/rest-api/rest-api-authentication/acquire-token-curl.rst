@@ -7,6 +7,10 @@ Below are steps for Generating Access Token in Fire Insights:
 
 1. Login to Fire Insights Application and enable configuration for generating tokens.
 
+::
+
+    module.enableTokenGeneration : true
+
 .. figure:: ../../_assets/rest-api/configuration.PNG
    :alt: rest-api
    :width: 60%

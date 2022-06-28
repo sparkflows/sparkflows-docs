@@ -41,7 +41,7 @@ Saving Workflow
 View Workflows
 ===============
 
-You can view the workflows by going to the workflow page inside the specific applications.
+You can view the workflows by going to the workflows tab of the Project.
 
 .. figure:: ../../../_assets/user-guide/workflow/1.PNG
    :alt: workflow

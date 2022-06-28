@@ -28,13 +28,15 @@ Creating Edges
 Deleting Edges
 ===============
  
-  * Edges can be deleted by double clicking on them.
+  * Edges can be deleted by clicking on the Edge number and selecting 'Delete'
   
 Saving Workflow
 ===============
 
-  * Give the workflow a 'Name'.
+  * Give the workflow a name.
+  * Enter the description for the workflow.
   * Click on the 'Save' button to create the new workflow.
+  * You can also save a new version for the workflow.
 
 View Workflows
 ===============

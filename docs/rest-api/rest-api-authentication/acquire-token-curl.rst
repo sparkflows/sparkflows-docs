@@ -17,7 +17,7 @@ Below are steps for Generating Access Token in Fire Insights:
    :alt: rest-api
    :width: 60%
 
-3. Click on 'GENERATE ACCESS TOKEN', tab It will pop up a new windows with below informations.
+3. Click on 'GENERATE ACCESS TOKEN' tab, It will pop up a new windows with below informations.
 
 ::
 

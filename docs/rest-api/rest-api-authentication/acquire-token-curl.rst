@@ -29,7 +29,7 @@ Below are steps involved in it:
    :alt: rest-api
    :width: 60%
    
-5. You can copy the token generated and press ok to see the token created are listed.
+5. You can copy the token generated and press ok to see the token created in the list and it can be used in making the subsequent curl requests.
 
 .. figure:: ../../_assets/rest-api/token_list.PNG
    :alt: rest-api

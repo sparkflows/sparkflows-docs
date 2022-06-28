@@ -1,6 +1,9 @@
 Creating New Dataset from Existing Files
------------------
+===============
  
+Overview
+-----------------
+
 You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 
 It will bring up the dialog box below. Select the format of the file for which the new dataset is being created.
@@ -9,8 +12,8 @@ It will bring up the dialog box below. Select the format of the file for which t
    :alt: Dataset
    :width: 60%
    
-Entering Field Details
-^^^^^^^^^^^^^^^^^^^^
+Enter Field Details
+-----------------
 
 Below are the details of the fields in the ``Create Dataset`` page:
 
@@ -27,8 +30,8 @@ Below are the details of the fields in the ``Create Dataset`` page:
    :width: 90%  
 
 
-Updating the Schema of the Dataset
-^^^^^^^^^^^^^^^^^^^^
+Update the Schema of the Dataset
+-----------------
 
 You can update the schema of the dataset by clicking on ``Update Sample Data/Schema``. It would display sample data for the dataset followed by the schema inferred by Fire Insights.
 
@@ -41,8 +44,8 @@ You can update the column names in the schema based on your data.
    :width: 90%
    
 
-Saving the New Dataset
-^^^^^^^^^^^^^^^^^^^^
+Save the New Dataset
+-----------------
 
 Click on the ``Save`` button to save the new dataset created.
  

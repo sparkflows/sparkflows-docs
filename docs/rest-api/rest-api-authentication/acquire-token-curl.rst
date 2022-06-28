@@ -29,4 +29,8 @@ Below are steps involved in it:
    :alt: rest-api
    :width: 60%
    
-   
+5. You can copy the token generated and press ok to see the token created are listed.
+
+.. figure:: ../../_assets/rest-api/token_list.PNG
+   :alt: rest-api
+   :width: 60%

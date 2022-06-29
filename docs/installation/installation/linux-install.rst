@@ -126,18 +126,22 @@ Helpful Commands
 
 Creating a new Linux user
 +++++++++++++++++++++++
+::
 
-- sudo useradd -p password sparkflows
+    sudo useradd -p password sparkflows
 
 Changing the password of a user
 +++++++++++++++++++++++
+::
 
-- sudo passwd sparkflows
+    sudo passwd sparkflows
 
 
 Forwarding traffic to a port
 +++++++++++++++++++++++++++++
 
-- sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
-- sudo firewall-cmd --reload
+::
+
+    sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+    sudo firewall-cmd --reload
 

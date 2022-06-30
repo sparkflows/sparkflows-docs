@@ -12,6 +12,16 @@ Fire Insights enables you to add Favourite auto-ml Execution Experiment from num
    :alt: auto-ml
    :width: 70%
 
+Permission upgrades
+---------------
+
+Fire Insights enable to update User roles and Permission changes, Sharing of project to group, Changes in project-overview dashboard as per needed permission.
+
+.. figure:: ..//_assets/releases/june-2022/permission.PNG
+   :alt: auto-ml
+   :width: 70%
+
+
 New Processors
 ---------------
 

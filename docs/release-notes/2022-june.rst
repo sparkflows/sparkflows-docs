@@ -35,6 +35,12 @@ UI Upgrades
    :alt: auto-ml
    :width: 70%
 
+- Icon selector in analytics app
+
+.. figure:: ..//_assets/releases/june-2022/application_icon.PNG
+   :alt: auto-ml
+   :width: 70%
+
 - Model Page Improvements
 
 .. figure:: ..//_assets/releases/june-2022/model-summary.PNG

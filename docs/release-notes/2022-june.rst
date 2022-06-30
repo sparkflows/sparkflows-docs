@@ -74,3 +74,9 @@ UI Upgrades
 .. figure:: ..//_assets/releases/june-2022/features-importance.PNG
    :alt: auto-ml
    :width: 70%   
+
+- UI Validations in workflow name, report name, application name
+
+.. figure:: ..//_assets/releases/june-2022/application_validations.PNG
+   :alt: auto-ml
+   :width: 70%   

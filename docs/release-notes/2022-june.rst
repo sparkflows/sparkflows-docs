@@ -15,7 +15,7 @@ Fire Insights enables you to add Favourite auto-ml Execution Experiment from num
 Pipeline Airflow Upgrades
 ------------
 
-Fire Insights now have support for airflow with 2.X, it comes with different operators, once dag submitted from UI can be verify from Airflow.
+Fire Insights now have support for airflow with 2.x, it comes with different operators, once dag submitted from UI can be verify from Airflow.
 
 .. figure:: ..//_assets/releases/june-2022/pipeline_node.PNG
    :alt: auto-ml

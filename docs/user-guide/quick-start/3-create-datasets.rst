@@ -14,11 +14,13 @@ The steps involved in creating a dataset are:
   
 When you open your project, you can see the list of all the datasets that belong to this project under the 'Datasets' tab.
  
-.. figure:: ../../_assets/tutorials/dataset/1.PNG
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.PNG
    :alt: Dataset
    :width: 90%
 
 Click on 'Create' and choose the option through which you want to create 'Datasets' from the dropdown. 
+
+Fire Insights enable you to create 'dataset' using any one option ie 'From Existing Files', 'By UPloading New File' or 'Using Connections' available.
 
 Choose 'From Existing Files' option.
  

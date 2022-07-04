@@ -41,7 +41,7 @@ Fill in the required fields as below:
 - *Has Header Row*: Indicates whether the dataset has a header row specifying the name of the columns or not.
 - *Delimiter*: Indicates the delimiter to be used between the fields in the data.
 - *Path*: Path for the location of the file or directory containing the data files for the dataset.
-- *DROP SPECIAL CHARACTER IN COLUMNNAME*: Indicate whether the dataset Dataset should drop special character in columnname .
+- *DROP SPECIAL CHARACTER IN COLUMNNAME*: Indicate whether the dataset should drop special character in columnname .
 
 
  

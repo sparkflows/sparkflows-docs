@@ -43,12 +43,16 @@ Fill in the required fields as below:
 
 
  
-.. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.PNG
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page4.PNG
    :alt: Dataset
    :width: 90% 
 
  
 Now click on 'Update dataset/schema' to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
+
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.PNG
+   :alt: Dataset
+   :width: 90% 
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.
 You can view the file by clicking 'View' file button next to 'Browse'.

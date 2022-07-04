@@ -7,7 +7,7 @@ The steps involved in creating a dataset are:
 
 - *Open the project where you want to create a dataset*.
 - *Click on the 'Datasets' tab*.
-- *Click on 'Create' and choose 'Datasets'*.
+- *Click on 'Create' and choose the option through which you want to create 'Datasets'*.
 - *Select your dataset type and enter the fields in the dialog*.
 - *Update the schema of the dataset*.
 - *Click on 'Save'*.
@@ -18,9 +18,11 @@ When you open your project, you can see the list of all the datasets that belong
    :alt: Dataset
    :width: 90%
 
-Click on 'Create' and choose 'Dataset' from the dropdown. 
+Click on 'Create' and choose the option through which you want to create 'Datasets' from the dropdown. 
+
+Choose 'From Existing Files' option.
  
-.. figure:: ../../_assets/tutorials/dataset/10.PNG
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page1.PNG
    :alt: Dataset
    :width: 90%
 

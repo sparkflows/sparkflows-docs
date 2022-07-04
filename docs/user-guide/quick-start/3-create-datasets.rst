@@ -28,6 +28,9 @@ Choose 'From Existing Files' option.
 
 In the pop-up choose 'CSV' and then click 'OK'.
  
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.PNG
+   :alt: Dataset
+   :width: 90% 
 
 Fill in the required fields as below:
 
@@ -36,14 +39,15 @@ Fill in the required fields as below:
 - *Has Header Row*: Indicates whether the dataset has a header row specifying the name of the columns or not.
 - *Delimiter*: Indicates the delimiter to be used between the fields in the data.
 - *Path*: Path for the location of the file or directory containing the data files for the dataset.
+- *DROP SPECIAL CHARACTER IN COLUMNNAME*: Indicate whether the dataset Dataset should drop special character in columnname .
 
 
  
-.. figure:: ../../_assets/tutorials/dataset/3.PNG
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.PNG
    :alt: Dataset
-   :width: 60%
- 
+   :width: 90% 
 
+ 
 Now click on 'Update dataset/schema' to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
 In the example below, a dataset is created from a housing.csv file. It is a comma-separated file with a header row specifying the names of the various columns.

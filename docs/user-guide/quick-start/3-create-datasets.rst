@@ -20,7 +20,7 @@ When you open your project, you can see the list of all the datasets that belong
 
 Click on 'Create' and choose the option through which you want to create 'Datasets' from the dropdown. 
 
-Fire Insights enable you to create 'dataset' using any one option ie 'From Existing Files', 'By UPloading New File' or 'Using Connections' available.
+Fire Insights enable you to create 'dataset' using any one option ie 'From Existing Files', 'By Uploading New File' or 'Using Connections' available.
 
 Choose 'From Existing Files' option.
  

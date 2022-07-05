@@ -41,7 +41,7 @@ Stop Fire server
 Migrate data from H2 DB to MySQL database
 +++++++++++++++++++++++++++++++++++
 
-- Update the properties.txt file in /fire-3.1.0_spark_2.4/dbmigration folder with the database specific details for the source and destination databases.
+- Update the ``properties.txt`` file in ``/fire-3.1.0_spark_2.4/dbmigration`` folder with the database specific details for the source and destination databases.
 - Update the username, password and database urls for the databases like the following example::
     
     
@@ -59,13 +59,13 @@ Migrate data from H2 DB to MySQL database
  
 
 - Open the command prompt.
-- Navigate to `dbmigration` folder inside `fire-3.1.0_spark_2.4`.
+- Navigate to ``dbmigration`` folder inside ``fire-3.1.0_spark_2.4``.
 - Run the command - ``java -jar dbmigration.jar properties.txt``
 
 Configure the properties file to point to MySQL database
 ++++++++++++++++++++++++++++++++++++
 
-Update the db.properties file to point to MySQL database
+Update the ``db.properties`` file to point to MySQL database
 
 Restart Fire server
 ++++++++++++++++++

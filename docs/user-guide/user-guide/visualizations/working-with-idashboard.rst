@@ -96,7 +96,7 @@ Once you save it, the chart will appear on the chart list page
 
 Similarly, you can create a different chart using a specified chart type
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_list1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_chart_list.PNG
    :alt: Dataset
    :width: 80%
 
@@ -104,13 +104,13 @@ Now using an existing chart, you can create a new dashboard
 
 Select the ``Dashboard`` tab & Click on CREATE DASHBOARD
 
-.. figure:: ../../../_assets/tutorials/dataset/dashboard_tab1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_dashboard.PNG
    :alt: Dataset
    :width: 80%
 
 It will take you to the New Dashboard page
 
-.. figure:: ../../../_assets/tutorials/dataset/chart-dash1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_dashboard_create.PNG
    :alt: Dataset
    :width: 80%
 
@@ -122,6 +122,6 @@ Using drag & drop you need to add a chart in canvas, Add NAME, DESCRIPTION & SAV
 
 Once the Dashboard got saved successfully, it will show on the dashboard list page from where you can view, edit & delete it.
 
-.. figure:: ../../../_assets/tutorials/dataset/dashboard_list1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_dashboard_page.PNG
    :alt: Dataset
    :width: 80%

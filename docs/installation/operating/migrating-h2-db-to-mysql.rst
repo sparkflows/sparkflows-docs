@@ -13,8 +13,23 @@ Migrate H2 DB data to MySQL using executable jar file.
 
 Create the MySQL tables
 +++++++++++++++++++++++
+- Open the MYSQL script present in the folder scripts using the following icon-
 
-- Run MySQL script to generate fire database and tables in MySQL.
+    .. figure:: ../../_assets/DB_Migration/Open_Script_Button.png
+        :alt: Open Script Button
+        :width: 110%
+ 
+- Select the whole script and press on the execute icon-
+
+    .. figure:: ../../_assets/DB_Migration/Execute_button.PNG
+        :alt: Execute Button
+        :width: 3% 
+
+- On running the MySQL script firedb database will be created along with the tables-
+
+    .. figure:: ../../_assets/DB_Migration/Created_DB.png
+        :alt: Fire Database
+        :width: 110%
 
 Stop Fire server
 ++++++++++++++++++
@@ -26,7 +41,7 @@ Stop Fire server
 Migrate data from H2 DB to MySQL database
 +++++++++++++++++++++++++++++++++++
 
-- Update the properties.txt file with the database specific details for the source and destination databases.
+- Update the properties.txt file in /fire-3.1.0_spark_2.4/dbmigration folder with the database specific details for the source and destination databases.
 - Update the username, password and database urls for the databases like the following example::
     
     
@@ -44,8 +59,8 @@ Migrate data from H2 DB to MySQL database
  
 
 - Open the command prompt.
-- Go to the `dbmigration` folder inside `fire-ui`.
-- Run command - ``java -jar dbmigration.jar properties.txt``
+- Navigate to `dbmigration` folder inside `fire-3.1.0_spark_2.4`.
+- Run the command - ``java -jar dbmigration.jar properties.txt``
 
 Configure the properties file to point to MySQL database
 ++++++++++++++++++++++++++++++++++++

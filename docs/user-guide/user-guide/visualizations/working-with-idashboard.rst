@@ -30,15 +30,11 @@ Below are the details of the fields in the ``Create Dataset`` page:
 - **NAME**: Name of the New Dataset we are creating.
 - **DESCRIPTION**: Description of the New Dataset.
 - **CATEGORY**: Category of the New Dataset.
-- **JDBC DRIVER**: Enter JDBC DRIVER.
-- **JDBC URL**: Enter JDBC URL for MYSQL DB.
-- **USER**: Username for MYSQL DB.
-- **PASSWORD**: Password for MYSQL DB.
 - **DB**: Database for MYSQL DB.
 - **TABLE**: Table for MYSQL.
 
 
-.. figure:: ../../../_assets/tutorials/dataset/create_data.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_dataset_detail.PNG
    :alt: Dataset
    :width: 80%
 
@@ -49,7 +45,7 @@ You can update the Schema of the Dataset by clicking on ``Update Sample Data/Sch
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../../_assets/tutorials/dataset/update_sampledata.PNG
+ .. figure:: ../../../_assets/tutorials/dataset/jdbc_schema.PNG
    :alt: Dataset
    :width: 80%
 

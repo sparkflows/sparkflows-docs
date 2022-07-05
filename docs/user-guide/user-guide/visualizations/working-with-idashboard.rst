@@ -66,7 +66,7 @@ Click on the ``Dashboard`` tab in the same application where you have created JD
 
 Click on the ``Chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_create.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_dataset.PNG
    :alt: Dataset
    :width: 80%
 

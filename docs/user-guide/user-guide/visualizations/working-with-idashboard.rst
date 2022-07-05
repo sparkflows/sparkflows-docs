@@ -120,7 +120,7 @@ Using drag & drop you need to add a chart in canvas, Add NAME, DESCRIPTION & SAV
    :alt: Dataset
    :width: 80%
 
-Once the Dashboard got saved successfully, it will show on the dashboard list page from where you can view, edit & delete it.
+Once the Dashboard got saved successfully, it will show on the dashboard list (Grid or List view) page from where you can view, edit & delete it.
 
 .. figure:: ../../../_assets/tutorials/dataset/jdbc_dashboard_page.PNG
    :alt: Dataset

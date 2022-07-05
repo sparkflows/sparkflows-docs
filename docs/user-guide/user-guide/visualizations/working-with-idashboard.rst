@@ -60,7 +60,7 @@ Dashboard
 Click on the ``Dashboard`` tab in the same application where you have created JDBC Dataset.
 
 
- .. figure:: ../../../_assets/tutorials/dataset/dashboard_tab.PNG
+ .. figure:: ../../../_assets/tutorials/dataset/jdbc-dashboard.PNG
    :alt: Dataset
    :width: 80%
 

@@ -3,12 +3,12 @@ Dashboards
 
 Fire Insights allows creating of the Dashboard.
 
-You can create new datasets using JDBC data type from MYSQL DB & then uses the datasets in creating charts & dashboards.
+You can create new datasets using JDBC data type from MYSQL DB using connection & then uses the datasets in creating charts & dashboards.
 
 Creating Dashboard
 --------------------
 
-- For creating a Dashboard, create a JDBC dataset first.
+- For creating a Dashboard, you need to create MySQL Connection and then create a JDBC dataset using it.
 
 You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 

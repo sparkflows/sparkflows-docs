@@ -74,13 +74,13 @@ Select any JDBC dataset for which you want to create ``Chart`` & select ``CREATE
 
 It will take you to the new page, as below
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_chart_create.PNG
    :alt: Dataset
    :width: 80%
 
 Select the ``Chart Type``, you want to see chart
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_typ1.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_chart_type.PNG
    :alt: Dataset
    :width: 80%
 
@@ -88,7 +88,7 @@ Selected ``Bar Chart`` & updated column for x & y axis and add some filter
 
 Add NAME, DESCRIPTION & save it
 
-.. figure:: ../../../_assets/tutorials/dataset/chart_filter.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_chart_update.PNG
    :alt: Dataset
    :width: 80%
 

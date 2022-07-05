@@ -14,7 +14,7 @@ You can define a new dataset by clicking on the ``Create Dataset`` button Using 
 
 It will bring up the dialog box below. Select the format of the file for which the new dataset is being created.
 
-.. figure:: ../../../_assets/tutorials/dataset/jdbc_dataset.PNG
+.. figure:: ../../../_assets/tutorials/dataset/jdbc_connection.PNG
    :alt: Dataset
    :width: 80%
 

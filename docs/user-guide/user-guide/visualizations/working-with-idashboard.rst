@@ -10,7 +10,7 @@ Creating Dashboard
 
 - For creating a Dashboard, you need to create MySQL Connection and then create a JDBC dataset using it.
 
-You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
+You can define a new dataset by clicking on the ``Create Dataset`` button Using Connections option on the Dataset page.
 
 It will bring up the dialog box below. Select the format of the file for which the new dataset is being created.
 

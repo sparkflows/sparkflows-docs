@@ -125,3 +125,5 @@ Once the Dashboard got saved successfully, it will show on the dashboard list pa
 .. figure:: ../../../_assets/tutorials/dataset/jdbc_dashboard_page.PNG
    :alt: Dataset
    :width: 80%
+
+.. note::  Make sure to add Google REST API key in Fire Insights Configurations

@@ -25,11 +25,11 @@ Users
 
 Fire Insights supports multiple users. Each user can belong to multiple Groups, and also have multiple Roles.
 
-.. figure:: ../../_assets/security/user-list.png
+.. figure:: ../../_assets/security/user_list.PNG
    :alt: security
    :width: 60%
 
-.. figure:: ../../_assets/security/user_details.PNG
+.. figure:: ../../_assets/security/user_detail.PNG
    :alt: security
    :width: 60%
 
@@ -79,7 +79,7 @@ A Role has a set of permissions associated with it. A new Role can be created an
 Out of the box, Fire Insights comes with two roles : ADMIN and ANALYST
 
 
-.. figure:: ../../_assets/security/permissions.PNG
+.. figure:: ../../_assets/security/role_list.PNG
    :alt: security
    :width: 60%
 
@@ -91,7 +91,7 @@ User/Roles
 A user can have multiple Roles. The actions which a user can do depends on the Roles they belong to.
 
 
-.. figure:: ../../_assets/security/user-role-list.png
+.. figure:: ../../_assets/security/role_list1.PNG
    :alt: security
    :width: 60%
 

@@ -10,7 +10,7 @@ Groups
 
 There can be multiple groups in Fire Insights. A user can belong to one or more Groups.
 
-.. figure:: ../../_assets/security/group-list.png
+.. figure:: ../../_assets/security/group_list.PNG
    :alt: security
    :width: 60%
 

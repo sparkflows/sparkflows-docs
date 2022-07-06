@@ -52,6 +52,8 @@ Fire Insights supports the following Permissions. Permissions are associated wit
      - Create, modify & delete the roles  
    * - projects.manage
      - Create, modify & delete the projects
+   * - enable.projectShare
+     - enable project share permission
    * - configurations.manage
      - modify diifferent configurations 
    * - connections.manage
@@ -64,18 +66,30 @@ Fire Insights supports the following Permissions. Permissions are associated wit
      - view dataset in specified project
    * - datasets.modify
      - modify datasets in specified project
+   * - dashboard.view
+     - view dashboard
+   * - dashboard.modify
+     - modify the dashboard
    * - workflows.view
      - view workflows in specified project
    * - workflows.modify
      - modify workflows in specified project
    * - workflows.execute
      - execute workflow in specified project
+   * - enable.automl
+     - enable automl 
    * - apps.modify
      - modify analytics application 
    * - apps.execute
      - execute analytics application
    * - apps.view
      - view analytics application
+   * - data.view
+     - view data
+   * - report.view
+     - report view
+   * - report.modify
+     - report modify
 
 Role's Permissions
 ----------------

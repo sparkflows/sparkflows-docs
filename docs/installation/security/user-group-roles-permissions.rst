@@ -54,6 +54,12 @@ Fire Insights supports the following Permissions. Permissions are associated wit
      - Create, modify & delete the projects
    * - configurations.manage
      - modify diifferent configurations 
+   * - connections.manage
+     - manage the connections
+   * - credentialstores.manage
+     - manage the credentialstores
+   * - enable.tokenGeneration
+     - manage token generations
    * - datasets.view
      - view dataset in specified project
    * - datasets.modify

@@ -73,4 +73,4 @@ Restart Fire server
 - Restart the Fire server
 - ./run-fire-server.sh start
 
-.. note::  If the DB migration process throws an exception or error then drop the created MySQL database and then re-execute the MYSQL script, then restart the migration process again.
+.. note::  If the DB migration process throws an exception or error then resolve the issue and then re-execute the MYSQL script, then restart the migration process again.

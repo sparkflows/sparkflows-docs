@@ -104,3 +104,8 @@ UI Upgrades
 
 - Search alignment
 - Permission Improvements
+
+DB 10.4 Support
+-----
+
+Fire Insights eanble you to support Databricks Runtime version 10.4

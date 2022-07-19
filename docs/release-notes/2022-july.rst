@@ -64,3 +64,31 @@ Standard Method:
 .. figure:: ..//_assets/releases/july-2022/Report_std.PNG
    :alt: persona
    :width: 70% 
+
+IAM Assume Role Integrations
+-----------
+
+Fire Insights enable you to configure IAM Assume role for accessing s3 bucket.
+
+Inorder to Enable AssumeRole go to configurations enable below property
+
+::
+
+    aws.assumeRoleEnabled : true
+
+.. figure:: ..//_assets/releases/july-2022/assume_role_enable.PNG
+   :alt: persona
+   :width: 70% 
+
+The arn of the assume role should be added in Group Configurations of Fire Insights application.
+
+.. figure:: ..//_assets/releases/july-2022/assume_role.PNG
+   :alt: persona
+   :width: 70% 
+   
+   
+Now once user have access of Assume role, he will able to access respective s3 bucket 
+
+.. figure:: ..//_assets/releases/july-2022/assume_role_s3.PNG
+   :alt: persona
+   :width: 70% 

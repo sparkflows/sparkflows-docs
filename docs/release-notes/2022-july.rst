@@ -104,6 +104,7 @@ UI Upgrades
 
 - Search alignment
 - Permission Improvements
+- Enabling user to choose icons for Report, dashboard and applications
 
 DB 10.4 Support
 -----

@@ -109,3 +109,9 @@ DB 10.4 Support
 -----
 
 Fire Insights eanble you to support Databricks Runtime version 10.4
+
+Migrate from H2 DB to MySQL
+--------------
+
+- Migration from H2 DB to MySQL
+  -https://docs.sparkflows.io/en/latest/installation/operating/migrating-h2-db-to-mysql.html?highlight=migration

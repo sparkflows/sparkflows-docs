@@ -10,6 +10,10 @@ Fire Insights enables you to provide user access on the basis of their requireme
 
 Inorder to Enable Persona, Administrator of Fire Insights enable its module from configuration.
 
+::
+
+    uiSettings.enablePersona : True
+
 .. figure:: ..//_assets/releases/july-2022/persona_configurations.PNG
    :alt: persona
    :width: 70%

@@ -3,20 +3,10 @@ Upcoming Features
 
 Below are the upcoming features in Fire Insights.
 
-Dashboard Upgrades
-----------
+Workflow Wizard
+--------
 
-- Dashboard with Persona
-
-Databricks
-----------------
-
-- Support of Databricks Runtime 10.4
-
-Pipeline
--------
-
-- Pipeline Scheduler
+- Workflow Wizard enable user to avail options for next node on the basis of their requirements of the usecase.
 
 NEW CONNECTIONS
 ----------
@@ -28,9 +18,7 @@ NEW CONNECTIONS
 UI
 ---
 
-- Enabling user to choose icons for Report, dashboard and applications
-
-
+- New Node Icon as per its functionality.
 
 Installer
 ---------
@@ -39,8 +27,4 @@ A one-click installer and update for Fire Insights.
 
 - Users would be able to install and update Fire Insights on their laptops with one click.
 
-Migrate from H2 DB to MySQL
---------------
-
-- Migration from H2 DB to MySQL
 

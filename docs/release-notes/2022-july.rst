@@ -9,12 +9,12 @@ AutoML Enhancements
 - Save Model path fixes.
 - Improvements in its Configurations parameters.
 
-Persona Integrations
---------
+Dashboard Upgrades
+----------
 
-Fire Insights enables you to provide Persona access on the basis of their requirements ie. Admin, Analyst or Business-User.
+Fire Insights enables you to provide Dashboard with Persona access on the basis of their requirements ie. Admin, Analyst or Business-User.
 
-Inorder to Enable Persona, Administrator of Fire Insights enable its module from configuration.
+Inorder to Enable Dashboard Persona, Administrator of Fire Insights enable its module from configurations.
 
 ::
 

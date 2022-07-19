@@ -98,3 +98,9 @@ Now once user have access of Assume role, he will able to access respective s3 b
 .. figure:: ..//_assets/releases/july-2022/assume_role_s3.PNG
    :alt: persona
    :width: 70% 
+
+UI Upgrades
+------
+
+- Search alignment
+- Permission Improvements

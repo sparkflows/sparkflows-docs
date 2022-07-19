@@ -8,4 +8,10 @@ Persona Integrations
 
 Fire Insights enables you to provide user access on the basis of their requirements ie. Admin, Analyst or Business-User.
 
+Fire Insights Administrator can provide required persona access depending on its usability.
+
+.. figure:: ..//_assets/releases/july-2022/persona_useradd.PNG
+   :alt: persona
+   :width: 70%
+
 

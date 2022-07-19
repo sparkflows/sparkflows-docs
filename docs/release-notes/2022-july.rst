@@ -6,7 +6,7 @@ These features and Fire Insights platform improvements were released in July 202
 Persona Integrations
 --------
 
-Fire Insights enables you to provide user access on the basis of their requirements ie. Admin, Analyst or Business-User.
+Fire Insights enables you to provide Persona access on the basis of their requirements ie. Admin, Analyst or Business-User.
 
 Inorder to Enable Persona, Administrator of Fire Insights enable its module from configuration.
 
@@ -43,3 +43,24 @@ For Business-User Persona:
 .. figure:: ..//_assets/releases/july-2022/persona_business.PNG
    :alt: persona
    :width: 70%   
+
+Report Enhancements
+-----------
+
+Fire Insights enable you create report with both Classic and standard method.
+
+.. figure:: ..//_assets/releases/july-2022/report_classic.PNG
+   :alt: persona
+   :width: 70%   
+
+Classic Method:
+
+.. figure:: ..//_assets/releases/july-2022/report_classic_view.PNG
+   :alt: persona
+   :width: 70%   
+
+Standard Method:
+
+.. figure:: ..//_assets/releases/july-2022/Report_std.PNG
+   :alt: persona
+   :width: 70% 

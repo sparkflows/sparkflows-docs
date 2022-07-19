@@ -114,4 +114,8 @@ Migrate from H2 DB to MySQL
 --------------
 
 - Migration from H2 DB to MySQL
-  -https://docs.sparkflows.io/en/latest/installation/operating/migrating-h2-db-to-mysql.html?highlight=migration
+
+Documentation
++++++
+
+Reference guide : https://docs.sparkflows.io/en/latest/installation/operating/migrating-h2-db-to-mysql.html?highlight=migration

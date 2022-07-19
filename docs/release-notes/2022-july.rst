@@ -12,7 +12,7 @@ Inorder to Enable Persona, Administrator of Fire Insights enable its module from
 
 ::
 
-    uiSettings.enablePersona : True
+    uiSettings.enablePersona : true
 
 .. figure:: ..//_assets/releases/july-2022/persona_configurations.PNG
    :alt: persona

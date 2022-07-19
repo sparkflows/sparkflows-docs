@@ -26,14 +26,20 @@ Fire Insights Administrator can provide required persona access depending on its
 
 Once the Persona got added user can login to Fire Insights and on User Drop down, you will see Switch Persona and on selection of respective persona user will have access to it.
 
+For Admin Persona:
+
 .. figure:: ..//_assets/releases/july-2022/persona_admin.PNG
    :alt: persona
    :width: 70%
 
+For Analyst Persona:
+
 .. figure:: ..//_assets/releases/july-2022/persona_analyst.PNG
    :alt: persona
    :width: 70%
-   
+
+For Business-User Persona:
+
 .. figure:: ..//_assets/releases/july-2022/persona_business.PNG
    :alt: persona
    :width: 70%   

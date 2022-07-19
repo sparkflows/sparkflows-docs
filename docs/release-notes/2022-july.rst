@@ -126,3 +126,11 @@ Pipeline
 -------
 
 - Pipeline Scheduler
+
+.. figure:: ..//_assets/releases/july-2022/pipeline_schedule.PNG
+   :alt: persona
+   :width: 70% 
+   
+.. figure:: ..//_assets/releases/july-2022/pipeline_time.PNG
+   :alt: persona
+   :width: 70%    

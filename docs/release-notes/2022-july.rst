@@ -3,6 +3,12 @@ July 2022
 
 These features and Fire Insights platform improvements were released in July 2022.
 
+AutoML Enhancements
+--------
+
+- Save Model path fixes.
+- Improvements in its Configurations parameters.
+
 Persona Integrations
 --------
 

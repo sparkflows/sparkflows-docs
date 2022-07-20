@@ -8,3 +8,4 @@ Fire Insights Integrated with AWS IAM Assume Role.
 
    architecture.rst
    assume-role-configuration.rst
+   fire-configuration.rst

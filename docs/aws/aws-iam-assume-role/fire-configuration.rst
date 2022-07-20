@@ -34,3 +34,13 @@ Now update below parameter as per AWS configurations
    * - AWS Region
      - As per resource in the region
      - Input the aws region
+
+3. Create/Update Group in Fire Insights
+
+Copy the ''ARN'' set up for assume role in AWS IAM Role and Update in ''AWS ROLE NAME'' text field.
+
+::
+
+    arn:aws:iam::<account-1-id>:role/assume-role-bucket1
+    
+    

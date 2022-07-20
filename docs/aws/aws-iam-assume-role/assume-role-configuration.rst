@@ -24,7 +24,7 @@ Create inline policy which have access of s3 specific bucket say ''assume-role-b
   }
 }
 
-4. "assume-role-bucket1" trust policy must allow User to assume "assume-role-bucket1".
+4. "assume-role-bucket1" Role trust policy must allow User to assume "assume-role-bucket1" Role.
 
 ::
 

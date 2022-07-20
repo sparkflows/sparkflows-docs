@@ -7,3 +7,4 @@ Fire Insights Integrated with AWS IAM Assume Role.
    :maxdepth: 2
 
    architecture.rst
+   assume-role-configuration.rst

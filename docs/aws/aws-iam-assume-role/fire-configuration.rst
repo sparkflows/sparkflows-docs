@@ -10,3 +10,27 @@ Once you login to Fire Insights application Click on ADMINISTRATION tab on top, 
 .. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws
    :width: 60%
+
+2. Update below parameter as per our configurations
+
+Now update below parameter as per AWS configurations
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Enable AWS
+     - Enable AWS for accessing the AWS S3 buckets
+     - true
+   * - Enable AssumeRole
+     - Enable AWS Assume Role to access AWS Resources
+     - true
+   * - Home Dir
+     - Home Directory Path on S3 
+     - s3a://bucketName/sampleData 
+   * - AWS Region
+     - As per resource in the region
+     - Input the aws region

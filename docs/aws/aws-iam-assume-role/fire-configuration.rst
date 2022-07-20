@@ -52,3 +52,13 @@ Copy the ''ARN'' set up for assume role in AWS IAM Role and Update in ''AWS ROLE
 .. figure:: ../../_assets/aws/iam-assume-role/assume_role_arn.PNG
    :alt: aws
    :width: 60%
+
+Once the Group is attached to any User in Fire Insights application, save the Configurations.
+
+4. Open DATA/AWS S3, you will see the S3 Bucket added for Assume Role will be Listed.
+
+Now you can use it for Creating workflow in the Node.
+
+.. figure:: ../../_assets/aws/iam-assume-role/aws_s3_list.PNG
+   :alt: aws
+   :width: 60%

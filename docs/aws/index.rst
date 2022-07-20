@@ -23,5 +23,6 @@ AWS Guide
    cloudformationmysql.rst
    glue-integration/index.rst
    aws-sso/index.rst
+   aws-iam-assume-role/index.rst
    
    

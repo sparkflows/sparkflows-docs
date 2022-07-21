@@ -133,4 +133,14 @@ Pipeline
    
 .. figure:: ..//_assets/releases/july-2022/pipeline_time.PNG
    :alt: persona
-   :width: 70%    
+   :width: 70%   
+   
+Project-Overview
+----------------
+
+- Comment section added for the Project specific comments
+- User can add their project Notes or comments for the particular project
+
+.. figure:: ..//_assets/releases/july-2022/comments.png
+   :alt: comments
+   :width: 70%   

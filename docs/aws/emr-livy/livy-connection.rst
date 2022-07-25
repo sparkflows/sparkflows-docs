@@ -1,7 +1,7 @@
 EMR LIVY CONNECTION
 =============
 
-Fire Insights enable you to create Livy Connection and use the Connection to submit the Job.
+Fire Insights enable you to create Apache Livy Connection and use the Connection to submit the Job.
 
 Below are steps on how to create Livy Connection in Fire Insights.
 
@@ -199,3 +199,5 @@ Once you have updated the above parameters, Test the connection if all looks fin
 .. figure:: ../../_assets/aws/livy/add_list.PNG
    :alt: livy
    :width: 60%   
+
+.. note:: Make sure that Apache Livy URL will be accessible from Fire Insights application.

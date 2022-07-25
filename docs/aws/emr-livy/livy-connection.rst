@@ -122,7 +122,7 @@ For HDFS tab :
    :alt: livy
    :width: 60%
 
-For HDFS tab :
+For HIVE tab :
 
 .. list-table:: 
    :widths: 10 20 30
@@ -138,6 +138,6 @@ For HDFS tab :
      - JDBC DB URL
      - JDBC DB URL for Hive
      
-.. figure:: ../../_assets/aws/livy/add_livy.PNG
+.. figure:: ../../_assets/aws/livy/add_hive.PNG
    :alt: livy
    :width: 60%    

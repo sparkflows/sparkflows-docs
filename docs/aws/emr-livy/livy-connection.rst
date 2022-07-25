@@ -57,3 +57,6 @@ For General tab :
      - Driver Class for selected Connection type 
      - it Comes with default value  
      
+.. figure:: ../../_assets/aws/livy/add_general.PNG
+   :alt: livy
+   :width: 60%

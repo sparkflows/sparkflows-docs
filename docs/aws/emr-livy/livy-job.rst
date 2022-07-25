@@ -13,7 +13,7 @@ Create a workflow which reads some sample data from S3 and Print some sample out
    :alt: livy
    :width: 60%
 
-1. Execute the workflow
+2. Execute the workflow
 
 Once you saved the workflow, Execute it and select the Connection as LIvy
 
@@ -28,3 +28,9 @@ Once you saved the workflow, Execute it and select the Connection as LIvy
 .. figure:: ../../_assets/aws/livy/wf_livy_Submitted.PNG
    :alt: livy
    :width: 60%   
+
+3. You Can view the Job from YARN application from AWS Console
+
+.. figure:: ../../_assets/aws/livy/emr_job.PNG
+   :alt: livy
+   :width: 60%

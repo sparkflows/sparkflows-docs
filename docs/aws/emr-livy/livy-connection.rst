@@ -118,6 +118,6 @@ For HDFS tab :
      - Home Dir under which various directories exist
      - Value  
  
- .. figure:: ../../_assets/aws/livy/add_hdfs.PNG
+.. figure:: ../../_assets/aws/livy/add_hdfs.PNG
    :alt: livy
    :width: 60%

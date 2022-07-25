@@ -1,4 +1,4 @@
-AWS LIVY
+EMR LIVY
 ======
 
 Fire Insights Integrated with LIVY, you can Create LIVY Connection and submit the job on it.

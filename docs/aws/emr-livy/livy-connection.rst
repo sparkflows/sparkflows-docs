@@ -187,3 +187,15 @@ For YARN tab :
 .. figure:: ../../_assets/aws/livy/add_yarn.PNG
    :alt: livy
    :width: 60%      
+
+3. Test Connection and Save
+
+Once you have updated the above parameters, Test the connection if all looks fine and save the connection.
+
+.. figure:: ../../_assets/aws/livy/add_test_connection.PNG
+   :alt: livy
+   :width: 60%
+   
+.. figure:: ../../_assets/aws/livy/add_list.PNG
+   :alt: livy
+   :width: 60%   

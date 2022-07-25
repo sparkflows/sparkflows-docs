@@ -7,3 +7,4 @@ Fire Insights Integrated with LIVY, you can Create LIVY Connection and submit th
    :maxdepth: 2
 
    livy-connection.rst
+   livy-job.rst

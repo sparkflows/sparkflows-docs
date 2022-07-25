@@ -55,5 +55,5 @@ For General tab :
      - Add URL for Livy Connection
    * - Driver Class
      - Driver Class for selected Connection type 
-     - it COmes with default value  
+     - it Comes with default value  
      

@@ -24,3 +24,34 @@ Once on Global Connections page Click on ''Add Connection For Group'' which pop 
 .. figure:: ../../_assets/aws/livy/add_livy_connection.PNG
    :alt: livy
    :width: 60%   
+   
+3. Update below parameter as per your Configurations
+
+Once you Selected ''Connection Type & Groups'', Add the Connection parameters needed.
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - General
+   * - Connection name
+     - Connection Name
+     - Name of Connection
+   * - Postback Url
+     - Postback Url
+     - Postback Url through which Livy sent result back to Fire Insights
+   * - Title 
+     - Title of Selected Connection
+     - Title of Selected Connection  
+   * - Description 
+     - Connection Description 
+     - Connection Description
+   * - Url
+     - Url for selected COnnection type
+     - Add URL for Livy Connection
+   * - Driver Class
+     - Driver Class for selected Connection type 
+     - it COmes with default value  
+     

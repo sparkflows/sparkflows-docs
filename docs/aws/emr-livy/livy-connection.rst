@@ -60,3 +60,44 @@ For GENERAL tab :
 .. figure:: ../../_assets/aws/livy/add_general.PNG
    :alt: livy
    :width: 60%
+
+For LIVY tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Jars
+     - Jars to be used in emr livy session
+     - Jars path located in S3 Location
+   * - Pyspark Files
+     - Pyspark Files to be used in emr livy session
+     - Pysaprk file located in S3 Location  
+   * - Files
+     - Files to be used in emr livy session
+     - Any Files if needed
+   * - Archives Files
+     - Archives Files to be used in emr livy session
+     - Value  
+   * - Driver Memory 
+     - Driver Memory to be used in emr livy session
+     - Driver Memory if any specific memory you need to pass
+   * - Driver Cores
+     - Driver Cores to be used in emr livy session
+     - Driver Cores if any specific Cores you need to pass  
+   * - Executor Memory
+     - Executor Memory to be used in emr livy session
+     - Executor Memory if any specific Executor Memory you need to pass  
+   * - Executor Cores
+     - Executor Cores to be used in emr livy session
+     - Executor Cores if any specific Executor Cores you need to pass  
+   * - Num Executors
+     - Num Executors to be used in emr livy session
+     - Num Executors if any specific Num Executors you need to pass  
+     
+.. figure:: ../../_assets/aws/livy/add_livy.PNG
+   :alt: livy
+   :width: 70%     

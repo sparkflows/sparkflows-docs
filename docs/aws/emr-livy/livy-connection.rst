@@ -12,3 +12,15 @@ Once you login to Fire Insights application Click on ''ADMINISTRATION'' tab on t
 .. figure:: ../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
+   
+2. Add Connection For Group
+
+Once on Global Connections page Click on ''Add Connection For Group'' which pop up a new windows with Different ``Compute & Storage`` Connection, Select Compute Connection.
+
+.. figure:: ../../_assets/aws/livy/add_connection.PNG
+   :alt: livy
+   :width: 60%
+   
+.. figure:: ../../_assets/aws/livy/add_livy_connection.PNG
+   :alt: livy
+   :width: 60%   

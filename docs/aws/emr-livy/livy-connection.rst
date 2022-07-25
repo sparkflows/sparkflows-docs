@@ -29,6 +29,8 @@ Once on Global Connections page Click on ''Add Connection For Group'' which pop 
 
 Once you Selected ''Connection Type & Groups'', Add the Connection parameters needed.
 
+For General tab :
+
 .. list-table:: 
    :widths: 10 20 30
    :header-rows: 1

@@ -1,7 +1,7 @@
 EMR LIVY JOB SUBMISSION
 ===============
 
-You have Created Livy Connection in earlier step, Now you can use that Connection to submit the Job on Livy.
+You have Created Apache Livy Connection in earlier step, Now you can use that Connection to submit the Job on Livy.
 
 Below are steps:
 

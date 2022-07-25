@@ -24,5 +24,6 @@ AWS Guide
    glue-integration/index.rst
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
+   emr-livy/index.rst
    
    

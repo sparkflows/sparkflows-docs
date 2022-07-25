@@ -31,6 +31,8 @@ Once you saved the workflow, Execute it and select the Connection as LIvy
 
 3. You Can view the Job from YARN application from AWS Console
 
+You Can view the Job from YARN application from AWS Console too.
+
 .. figure:: ../../_assets/aws/livy/emr_job.PNG
    :alt: livy
    :width: 60%

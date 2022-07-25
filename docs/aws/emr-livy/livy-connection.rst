@@ -121,3 +121,23 @@ For HDFS tab :
 .. figure:: ../../_assets/aws/livy/add_hdfs.PNG
    :alt: livy
    :width: 60%
+
+For HDFS tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - JDBC Driver
+     - JDBC Driver
+     - JDBC Driver for Hive
+   * - JDBC DB URL
+     - JDBC DB URL
+     - JDBC DB URL for Hive
+     
+.. figure:: ../../_assets/aws/livy/add_livy.PNG
+   :alt: livy
+   :width: 60%    

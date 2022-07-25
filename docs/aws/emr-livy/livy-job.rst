@@ -9,6 +9,6 @@ Below are steps:
 
 Create a workflow which reads some sample data from S3 and Print some sample output.
 
-.. figure:: ../../_assets/aws/livy/wf_livy.PNG
+.. figure:: ../../_assets/aws/livy/sample_wf.PNG
    :alt: livy
    :width: 60%

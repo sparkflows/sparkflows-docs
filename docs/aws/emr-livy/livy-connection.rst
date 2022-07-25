@@ -188,7 +188,7 @@ For YARN tab :
    :alt: livy
    :width: 60%      
 
-3. Test Connection and Save
+4. Test Connection and Save
 
 Once you have updated the above parameters, Test the connection if all looks fine and save the connection.
 

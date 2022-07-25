@@ -141,3 +141,49 @@ For HIVE tab :
 .. figure:: ../../_assets/aws/livy/add_hive.PNG
    :alt: livy
    :width: 60%    
+
+For KERBEROS tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Keytab
+     - Keytab
+     - Kerberos Keytab for Fire user   
+   * - Principal
+     - Principal 
+     - Kerberos Principal for Fire user  
+   * - REALM
+     - REALM
+     - Value   
+   * - KDC
+     - KDC
+     - Value 
+   * - HiveServer2 Principal
+     - Kerberos Principal for HiveServer2
+     - Value  
+     
+.. figure:: ../../_assets/aws/livy/add_kerberos.PNG
+   :alt: livy
+   :width: 60%      
+
+For YARN tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Resource Manager URL
+     - Resource Manager URL
+     - Value  
+     
+.. figure:: ../../_assets/aws/livy/add_yarn.PNG
+   :alt: livy
+   :width: 60%      

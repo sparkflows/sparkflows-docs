@@ -12,3 +12,19 @@ Create a workflow which reads some sample data from S3 and Print some sample out
 .. figure:: ../../_assets/aws/livy/sample_wf.PNG
    :alt: livy
    :width: 60%
+
+1. Execute the workflow
+
+Once you saved the workflow, Execute it and select the Connection as LIvy
+
+.. figure:: ../../_assets/aws/livy/wf_livy.PNG
+   :alt: livy
+   :width: 60%
+   
+.. figure:: ../../_assets/aws/livy/wf_livy_submission.PNG
+   :alt: livy
+   :width: 60%   
+   
+.. figure:: ../../_assets/aws/livy/wf_livy_Submitted.PNG
+   :alt: livy
+   :width: 60%   

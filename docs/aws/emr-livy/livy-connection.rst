@@ -35,7 +35,7 @@ Once you Selected ''Connection Type & Groups'', Add the Connection parameters ne
 
    * - Title
      - Description
-     - General
+     - Value
    * - Connection name
      - Connection Name
      - Name of Connection

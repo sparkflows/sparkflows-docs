@@ -101,3 +101,23 @@ For LIVY tab :
 .. figure:: ../../_assets/aws/livy/add_livy.PNG
    :alt: livy
    :width: 70%     
+
+For HDFS tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - NameNode URI
+     - NameNode URI 
+     - NameNode URI for HDFS
+   * - Home Dir
+     - Home Dir under which various directories exist
+     - Value  
+ 
+ .. figure:: ../../_assets/aws/livy/add_hdfs.PNG
+   :alt: livy
+   :width: 60%

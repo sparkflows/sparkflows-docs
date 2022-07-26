@@ -25,5 +25,6 @@ AWS Guide
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
    emr-livy/index.rst
+   ecs-fargate-sparkflows-deployment/index.rst
    
    

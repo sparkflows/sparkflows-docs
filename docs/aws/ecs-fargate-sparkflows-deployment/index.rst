@@ -1,4 +1,4 @@
-Sparkflows-ECS Fargate Deployment
+Sparkflows - ECS Fargate Deployment
 ===============================
 
 Sparkflows deployment on ECS Fargate

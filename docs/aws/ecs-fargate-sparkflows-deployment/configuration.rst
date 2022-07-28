@@ -26,9 +26,10 @@ Create the task by attaching the ecsTaskExecutionRole with all policy and image 
 
 Add the ENV variable to use external MySQL othwise by default task will create and use the h2db. And external database is mandataory when mutiple replica of same task is running.
 
+
 Tasks deployed on container would run the following processes:
-  Web Server : Main fire UI
-  Fire Process : Helper processes for spark jobs
+ Web Server : Main fire UI
+ Fire Process : Helper processes for spark jobs
 
 
 .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/task-definition.png
@@ -46,7 +47,8 @@ Deploy the service by selecting the tasks, application load balacer and target g
    
 
 Application Load Balancer:
-   
+-------------------------
+
    Internet facing ALB listen to port 80.
    Container running the fire task listen to port 8080.
    In target group map the target port to 8080.
@@ -56,6 +58,7 @@ Application Load Balancer:
       :width: 60%
    
  Target Group:
+ -------------
  
    Target type is IP and and target port 8080.
    

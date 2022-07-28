@@ -9,6 +9,9 @@ Fire Insights deployment on ECS Fargate.
    :width: 60%
    
 
+
+
+
 1. Fire Insights tasks running on ECS Fargate containers.
 2. Metadata stored in RDS MySql instance.
 3. In web interface create workflows, pipelines etc with interactive executon.

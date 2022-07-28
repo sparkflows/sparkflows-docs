@@ -48,25 +48,27 @@ Deploy the service by selecting the tasks, application load balacer and target g
 **Application Load Balancer:**
 
 
-   Internet facing ALB listen to port 80.
-   Container running the fire task listen to port 8080.
-   In target group map the target port to 8080.
+Internet facing ALB listen to port 80.
+Container running the fire task listen to port 8080.
+In target group map the target port to 8080.
    
-   .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb.png
+
+.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb.png
       :alt: aws
       :width: 60%
    
 **Target Group:**
 
  
-   Target type is IP and and target port 8080.
-   
+Target type is IP and and target port 8080.
+ 
+ 
 .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
    :alt: aws
    :width: 60%
    
 
-   Health checks with path / and success code 200, 302
+Health checks with path / and success code 200, 302
   
 .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
    :alt: aws

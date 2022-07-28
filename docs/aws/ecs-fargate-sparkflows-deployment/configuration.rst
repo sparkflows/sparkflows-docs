@@ -47,7 +47,7 @@ Deploy the service by selecting the tasks, application load balacer and target g
    
 
 Application Load Balancer:
--------------------------
+
 
    Internet facing ALB listen to port 80.
    Container running the fire task listen to port 8080.
@@ -57,8 +57,8 @@ Application Load Balancer:
       :alt: aws
       :width: 60%
    
- Target Group:
- -------------
+Target Group:
+
  
    Target type is IP and and target port 8080.
    

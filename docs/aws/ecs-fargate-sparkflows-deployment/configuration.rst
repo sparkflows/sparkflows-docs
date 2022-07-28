@@ -28,8 +28,7 @@ Add the ENV variable to use external MySQL othwise by default task will create a
 
 
 **Tasks deployed on container would run the following processes:**
- Web Server : Main fire UI
- Fire Process : Helper processes for spark jobs
+ Web Server : Main fire UI and Fire Process : Helper processes for spark jobs
 
 
 .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/task-definition.png
@@ -46,7 +45,7 @@ Deploy the service by selecting the tasks, application load balacer and target g
    :width: 60%
    
 
-Application Load Balancer:
+**Application Load Balancer:**
 
 
    Internet facing ALB listen to port 80.
@@ -57,7 +56,7 @@ Application Load Balancer:
       :alt: aws
       :width: 60%
    
-Target Group:
+**Target Group:**
 
  
    Target type is IP and and target port 8080.

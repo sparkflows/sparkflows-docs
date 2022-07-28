@@ -62,25 +62,29 @@ Target Group:
  
    Target type is IP and and target port 8080.
    
-   .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
-      :alt: aws
-      :width: 60%
+.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
+   :alt: aws
+   :width: 60%
    
 
    Health checks with path / and success code 200, 302
   
-   .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
-      :alt: aws
-      :width: 60%
+.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
+   :alt: aws
+   :width: 60%
+
+
+
 
 
 Service is deployed with containers running the tasks, alb and target group.
 
-   .. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb-1.png
-      :alt: aws
-      :width: 60%
+.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb-1.png
+   :alt: aws
+   :width: 60%
       
-  Use the DNS Name from running application load balancer.
+
+Use the DNS Name from running application load balancer.
   
   
   

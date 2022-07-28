@@ -27,7 +27,7 @@ Create the task by attaching the ecsTaskExecutionRole with all policy and image 
 Add the ENV variable to use external MySQL othwise by default task will create and use the h2db. And external database is mandataory when mutiple replica of same task is running.
 
 
-Tasks deployed on container would run the following processes:
+**Tasks deployed on container would run the following processes:**
  Web Server : Main fire UI
  Fire Process : Helper processes for spark jobs
 

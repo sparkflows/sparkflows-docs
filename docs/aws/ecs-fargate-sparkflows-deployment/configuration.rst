@@ -1,7 +1,7 @@
 Fire Insights Deployment on ECS Fargate
 =======================================
 
-Below are the steps to configure the task, service, application load balancer and tasks group for fire insights deployment on ECS Fargate Cluster.
+Below are the steps to configure the task, service, application load balancer and tasks group to run fire insights on ECS Fargate.
 
 
 Pre-requisite

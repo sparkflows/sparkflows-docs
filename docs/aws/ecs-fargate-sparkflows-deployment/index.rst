@@ -7,3 +7,4 @@ Sparkflows deployment on ECS Fargate
    :maxdepth: 2
 
    architecture.rst
+   configuration.rst

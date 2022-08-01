@@ -627,7 +627,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/explode-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 30%
    
 **Explode Node configuration**
 

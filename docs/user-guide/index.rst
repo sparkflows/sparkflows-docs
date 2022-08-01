@@ -72,7 +72,10 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
     ---
     
     :doc:`/user-guide/auto-ml/index`
+
+    ---
     
+    :doc:`/user-guide/pipelines`
 
 .. toctree::
    :hidden:

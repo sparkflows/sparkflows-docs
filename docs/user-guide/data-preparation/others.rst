@@ -37,7 +37,11 @@ Data Preparation Processors in Fire Insights
    * - Windows Analytics
      - It selects a value by application of windows functions such as first_val/last_val within a group of rows.
    * - Windows Ranking
-     - It ranks rows within a group using a windows function.     
+     - It ranks rows within a group using a windows function.   
+   * - Flatten
+     - It adds new columns for each element of a struct present in a Column data.   
+   * - Explode
+     - It adds new rows for each value of an array data that is contained in a column data.
      
  
 Columns Rename
@@ -559,4 +563,97 @@ Output of ``Windows Ranking`` node would display a dataset with rank value for e
    :alt: dataprepothers_userguide
    :width: 90%       	    
 
+Flatten
+----------------------------------------
+
+Below is a sample workflow which contains ``Flatten`` processor in Fire Insights. It demonstrates usage of ``Flatten`` node to add new columns for each element of a struct present in a Column data.   
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Adds new columns for each element of a struct present in a Column data using ``Flatten`` node.
+*	Prints output dataset with new columns added to it.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/flatten-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/flatten-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+.. figure:: ../../_assets/user-guide/data-preparation/others/flatten-incoming-dataset1.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Flatten Node configuration**
+
+*	``Flatten`` node is configured as below.
+*	Input of this node is an incoming dataset i.e. a json data.
+*	Struct whose elements needs to be added as new column is to be selected in the ``Schema`` section. In this example ``Address`` column contains struct data.
+*	Elements that need to be added as columns is to be selected.
+*	Output of this node would be a dataset with new columns added to it.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/flatten-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Flatten Node output**
+
+Output of ``Flatten`` node would be a dataset with new columns added to it.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/flatten-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+	 
+Explode
+----------------------------------------
+
+Below is a sample workflow which contains ``Explode`` processor in Fire Insights. It demonstrates usage of ``Explode`` node to add new rows for each value of an array data that is contained in a column data.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Adds new rows for each value of an array data that is contained in a column data using ``Explode`` node.
+*	Prints output dataset with new rows added to it.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/explode-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/explode-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Explode Node configuration**
+
+*	``Explode`` node is configured as below.
+*	Input of this node is an incoming dataset i.e. a complex json data.
+*	Array data whose elements needs to be added as new rows is to be selected in the ``Input Columns`` section. In this example ``Members`` column contains Array data.
+*	After inserting rows using values from Array data ``Flatten`` is used to extract elements values.
+*	Output of this node would be a dataset with new rows added to it.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/explode-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Explode Node output**
+
+Output of ``Explode`` node would be a dataset with new rows added to it.
+
+*	Array Data from the input as displayed in the output.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/explode-printnode-output.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
+	 
+*	Array Data from the input added as new rows using ``Explode`` node and further data from each array element is added as new column using ``Flatten`` node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/explode-printnode-output1.png
+   :alt: dataprepothers_userguide
+   :width: 90%       	    
 

@@ -75,7 +75,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
     ---
     
-    :doc:`/user-guide/pipelines`
+    :doc:`/user-guide/pipeline/index`
 
 .. toctree::
    :hidden:
@@ -96,5 +96,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    git-integration/index
    generate-pyspark-code/index
    auto-ml/index
+   pipeline/index
+   
    
 

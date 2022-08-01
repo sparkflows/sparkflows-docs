@@ -3,6 +3,7 @@ H2 Database
 
 By default Fire Insights uses the H2 DB for storing the metadata. These include users, groups, projects, workflows, workflow executions etc.
 
+Shut down Fire Insights before logging into H2 DB or doing any operations on the H2 DB.
 
 Logging into H2 DB
 --------------------
@@ -25,7 +26,9 @@ SHUTDOWN COMPACT fully compacts the database (re-creating the database may furth
 ::
 
     SHUTDOWN COMPACT
-    
+
+In case the H2 DB is corrupted (logs in fireserver.log would indicate that), SHUTDOWN COMPACT can be used to get it back to good shape.
+
 Recreating the H2 DB to further reduce the database size
 ---------------------
 

@@ -42,6 +42,10 @@ Data Preparation Processors in Fire Insights
      - It adds new columns for each element of a struct present in a Column data.   
    * - Explode
      - It adds new rows for each value of an array data that is contained in a column data.
+   * - Hive Incremental
+     - It facilitates reading data from a Hive table incrementally using watermark data.
+   * - Save Watermark
+     - It facilitates saving updated status information so that new data are read during next cycle.
      
  
 Columns Rename
@@ -657,3 +661,43 @@ Output of ``Explode`` node would be a dataset with new rows added to it.
    :alt: dataprepothers_userguide
    :width: 90%       	    
 
+Hive Incremental
+----------------------------------------
+
+Below is a sample workflow which contains ``Hive Incremental`` processor in Fire Insights. It demonstrates usage of ``Hive Incremental`` node to read data from a Hive table incrementally using watermark data.
+
+It does following processing of data:
+
+*	Reads incoming data from a Hive table incremenatlly using ``Hive Incremental`` node.
+*	Saves data to the target table and update watermark data using ``Save Watermark`` node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-workflow.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Hive Incremental Node configuration**
+
+*	``Hive Incremental`` node is configured as below.
+*	Hive DB information needs to be entered in ``Hive Database`` field. ``Browse Hive DB`` button can be used to selected Hive Database based on the Hive connection defined.
+*	Hive Table information needs to be entered in ``Hive Table`` field. ``Browse Hive Table`` button can be used to selected Hive Table.
+*	Path of the watermark data needs to be entered in ``Path`` field. Browse buttons can be used to selected the path.
+*	Columns that are used to filter incoming data based on Watermark information needs to be entered in ``Filterfields`` field. Multiple columns can be entered separated by comma.
+* 	Click on ``Refresh Schema`` button to fetch schema information from the table selected.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-config.png
+   :alt: dataprepothers_userguide
+   :width: 90%
+   
+**Save Watermark Node to save status**
+
+*	Updated Watermark status information is saved using ``Save Watermark`` node.
+*	During next cycle of execution updated status information is used to read new Hive data.
+
+**Save Watermark Node Configuration**
+
+*	``Save Watermark`` node is configured as below.
+*	Path of the watermark data needs to be entered in ``Path`` field. Browse buttons can be used to selected the path.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-savewatermark.png
+   :alt: dataprepothers_userguide
+   :width: 90%

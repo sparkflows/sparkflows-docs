@@ -3,7 +3,7 @@ Fire Configurations for Assuming Role
 
 Now you have IAM Assume role set up ready, so you can configure in the Fire Insights.
 
-1. Login to Fire Insights application and go inside Configurations
+1. Login to Fire Insights application and go inside Cohttps://github.com/sparkflows/sparkflows-docs/tree/master/docs/aws/aws-iam-assume-rolenfigurations
 
 Once you login to Fire Insights application Click on ''ADMINISTRATION'' tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
 
@@ -62,3 +62,8 @@ Now you can use it for Creating workflow in the Node.
 .. figure:: ../../_assets/aws/iam-assume-role/aws_s3_list.PNG
    :alt: aws
    :width: 60%
+
+NOTE:
+-----
+Currently user can access the s3 resorces by assuimg the role.
+When user belongs to multiple user groups and each group is attached with different roles,then role from the first group will be assumed during the s3 access.

@@ -45,7 +45,7 @@ Steps
 
     ssh -i my.pem userp@public ip.
     
-* Just Confirm that java 8 is already installed, if not follow above steps::
+* Confirm that java 8 is already installed, if not follow above steps to install it::
 
     java -version
 
@@ -79,10 +79,10 @@ Steps
   
     <machine_ip>:8080
 
-* Login with the following default username and password:: 
+* Login with the following default username and password. Fire Insights by default comes with 2 users:: 
 
-    username : admin
-    password : admin
+    username : admin password : admin
+    username : test password : test
    
    
 Loading Example Workflows

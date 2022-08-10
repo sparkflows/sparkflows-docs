@@ -1,4 +1,4 @@
-Auto-ML
+AutoML
 =====================
 
 AutoML aims to automate all the tasks involved in developing and deploying machine learning models, from cleaning the raw data all the way through to parameter optimization.
@@ -12,14 +12,14 @@ Fire provide the option to create the AutoML experiments by selecting the data a
       
 
 
-By default in fire automl function is disabled.And once is enabled in the fire configuration, user's can see the option to create the automl experiments in project page.
+By default in fire AutoML function is disabled.And once is enabled in the fire configuration, user's can see the option to create the automl experiments in project page.
 
 .. figure:: ../../_assets/auto-ml/automl-exp-page.png
       :alt: auto-ml
       :width: 90%
       
 
-Currently fire supports h2o and pycaret automl packages.
+Currently fire supports H2O and Pycaret AutoML packages.
 --------------------------------------------
 
 
@@ -34,7 +34,7 @@ Currently fire supports h2o and pycaret automl packages.
 
     :doc:`/user-guide/auto-ml/pycaret`
 
-    Pycaret automl package is used in experiments.
+    Pycaret AutoML package is used in experiments.
 
 
 .. toctree::
@@ -49,7 +49,7 @@ Currently fire supports h2o and pycaret automl packages.
 Model Comparison
 ------------------
 
-* Select 2 auto-ml experiment to compare accross model and the click on compare button to compare executions of different experiment.
+* Select 2 AutoML experiment to compare accross model and then click on the compare button to view and compare executions of different experiment.
 
 .. figure:: ../../_assets/auto-ml/ml-compare-1.PNG
       :alt: auto-ml
@@ -58,7 +58,7 @@ Model Comparison
       
 * Select execution of 2 different experiment to compare
       
-* Now, After selecting click compare button to view comparison
+* Clicking the compare button will display the comparison among the two models
 
 .. figure:: ../../_assets/auto-ml/ml-compare-2.PNG
       :alt: auto-ml
@@ -69,13 +69,10 @@ Model Comparison
       :alt: auto-ml
       :width: 90%
       
-* On clicking model name can view model details
+* On clicking model name we can view the model details
 
 .. figure:: ../../_assets/auto-ml/ml-compare-4.PNG
       :alt: auto-ml
       :width: 90%      
 
 
-Model Selection
------------------
-      

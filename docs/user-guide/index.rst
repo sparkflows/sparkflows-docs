@@ -43,15 +43,15 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
 
     ---
     
-    :doc:`/user-guide/utilities/index`
+    :doc:`/user-guide/time-series/index`
     
     ---
 
-    :doc:`/user-guide/web-app/index`
+    :doc:`/user-guide/auto-ml/index`
 
     ---
 
-    :doc:`/user-guide/time-series/index`
+    :doc:`/user-guide/web-app/index`
     
     ---
 
@@ -71,7 +71,7 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
     
     ---
     
-    :doc:`/user-guide/auto-ml/index`
+    :doc:`/user-guide/utilities/index`
 
     ---
     
@@ -88,15 +88,13 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
    data-exploration/index
    data-profile/index
    machine-learning/index
-   utilities/index
+   time-series/index
+   auto-ml/index
    web-app/index
    time-series/index
    python/index
    performance/index
    git-integration/index
    generate-pyspark-code/index
-   auto-ml/index
+   utilities/index
    pipeline/index
-   
-   
-

@@ -1,10 +1,10 @@
 Pycaret 
 ======================
 
-Create the automl experiment with h2o package by selecting pycaret in package field. And select the problem type to Regression or Classification with target column name in configuration.
+Create the AutoML experiment with Pycaret package by selecting Pycaret from the dropdown in the package field. Next select the type of problem to run the experiment as either Regression or Classification with target column name in configuration.
 
 
-* Add required details and select automl package as pycaret
+* Add required details and select AutoML package as pycaret
 
 .. figure:: ../../_assets/auto-ml/pycaret1.PNG
       :alt: auto-ml
@@ -13,7 +13,7 @@ Create the automl experiment with h2o package by selecting pycaret in package fi
 
 
 
-* Add pycaret configurations 
+* Add Pycaret configurations 
 
 .. figure:: ../../_assets/auto-ml/pycaret2.PNG
       :alt: auto-ml
@@ -25,7 +25,7 @@ Create the automl experiment with h2o package by selecting pycaret in package fi
       :width: 90%
       
       
-* Click on Save button to save details or click on start button to view train data
+* Click on Save button to save the AutoML experiment details. Clicking on the start button will run the training data on the selected algortihms.On completion of the AutoML run it will display the Leaderboard and feature columns.
 
 .. figure:: ../../_assets/auto-ml/pycaret4.PNG
       :alt: auto-ml

@@ -37,7 +37,8 @@ Create inline policy which have access of s3 specific bucket say ''assume-role-b
       },
       "Action": "sts:AssumeRole"
         }
-     ]. }
+     ]
+     }
 
 5. Now, you can easily assume a role, use its temporary creds to access s3 Bucket using Fire Insights.
 

@@ -21,8 +21,7 @@ Create inline policy which have access of s3 specific bucket say ''assume-role-b
     "Effect": "Allow",
     "Action": "sts:AssumeRole",
     "Resource": "arn:aws:iam::<account-1-id>:role/assume-role-bucket1"
-  }
-}
+     }}
 
 4. "assume-role-bucket1" Role trust policy must allow User to assume "assume-role-bucket1" Role.
 
@@ -37,9 +36,8 @@ Create inline policy which have access of s3 specific bucket say ''assume-role-b
         "AWS": "arn:aws:iam::<account-1-id>:user/User"
       },
       "Action": "sts:AssumeRole"
-    }
-  ]
-}
+        }
+     ]. }
 
 5. Now, you can easily assume a role, use its temporary creds to access s3 Bucket using Fire Insights.
 

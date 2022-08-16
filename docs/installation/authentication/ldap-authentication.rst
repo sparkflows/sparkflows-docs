@@ -74,17 +74,25 @@ Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from L
 * User details are fetched from LDAP
 * Click on Add User to create the user in Sparkflows
 
-User Login
-----------
+Above steps will create the LDAP user in sparkflows database and user deatils can be edited later to provide the access to roles in  different groups etc.
 
-Once LDAP is enabled in Sparkflows, all the authentication for login in Sparkflows are done against LDAP.
 
 Search Order
------
+-----------
 
 Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ldap.Order.
 
 If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
+
+
+User Login
+----------
+Once the above steps are done with your admin account.
+
+In application.properties update `sparkflows.authentication.ldap.enable = true` to enable all the authentication for login in Sparkflows are done against LDAP.
+Once the property is updated, restart the fire-server to take the effect.
+
+Now synced users will autenticated with LDAP and admin account will get autenticated with DB.
 
 Reference
 ---------
@@ -93,19 +101,18 @@ Below are some great links for reference:
 
 * Active Directory Search Filter Syntax : https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
 
+
 What if I get locked out
 ------------------------
 
 ``ldap.Order`` determines the order in which Sparkflows tries to log in the user.
 In case you are locked out of Sparkflows and are not able to log in, you can do the following:
 
-* Add the below line to conf/configuration.properties::
-
-    ldap.Order=DB
+* Update ``sparkflows.authentication.ldap.enable = false`` in ``application.properties`` and restart the fire server.
 
 * Then restart the fire server. Now you should be able to log in with your admin account.
 
-Once things are back to normal, you can remove the line you added to ``configuration.properties`` and restart the fire server.
+Once things are back to normal, you can update ``sparkflows.authentication.ldap.enable = true`` in ``application.properties`` and restart the fire server.
 
 
 .. note:: Search strings are not case sensitive

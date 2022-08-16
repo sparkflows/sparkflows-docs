@@ -89,7 +89,7 @@ User Login
 ----------
 Once the above steps are done with your admin account.
 
-In application.properties update `sparkflows.authentication.ldap.enable = true` to enable all the authentication for login in Sparkflows are done against LDAP.
+In application.properties update **sparkflows.authentication.ldap.enable = true** to enable all the authentication for login in Sparkflows are done against LDAP.
 Once the property is updated, restart the fire-server to take the effect.
 
 Now synced users will autenticated with LDAP and admin account will get autenticated with DB.
@@ -108,9 +108,9 @@ What if I get locked out
 ``ldap.Order`` determines the order in which Sparkflows tries to log in the user.
 In case you are locked out of Sparkflows and are not able to log in, you can do the following:
 
-* Update ``sparkflows.authentication.ldap.enable = false`` in ``application.properties`` and restart the fire server.
+* Update **sparkflows.authentication.ldap.enable = false** in **application.properties** and restart the fire server.
 
 * Then restart the fire server. Now you should be able to log in with your admin account.
 
-Once things are back to normal, you can update ``sparkflows.authentication.ldap.enable = true`` in ``application.properties`` and restart the fire server.
+Once things are back to normal, you can update **sparkflows.authentication.ldap.enable = true** in **application.properties** and restart the fire server.
 

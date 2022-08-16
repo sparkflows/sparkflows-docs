@@ -1,7 +1,7 @@
 Integrating with Databricks Notebook
 =========================
 
-The Analytics Apps in Fire Insights can trigger a Notebook in Databricks.
+The Analytics App in Fire Insights can trigger a Notebook in Databricks whose output will be displayed in the Analyticals App.
 
 Fire Insights passes 2 parameters to the Notebook:
 
@@ -11,17 +11,16 @@ Fire Insights passes 2 parameters to the Notebook:
 Add wheel file to your Databricks Notebook
 ------------------
 
-Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API's for sending data to it.
+Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API for sending data to it. (Download Wheel File at  https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl)
 
 
-Outputting details to Fire Insights
+Output details to Analytical Apps
 ---------------------
 
-The Databricks Notebook can output text, tables, charts, html code and progress bar to be dispalyed in Fire Insights.
+The Databricks Notebook can output texts, tables, charts, html code and progress bar to be displayed in the analytical app..
 
-Below are the examples for it.
 
-Create a RestWorkflowContext Object
+Step One: Create a RestWorkflowContext Object
 +++++++++++++++++++++++
 
 First create a ``RestWorkflowContext`` for communicating with Fire Insights Server ::
@@ -36,7 +35,10 @@ First create a ``RestWorkflowContext`` for communicating with Fire Insights Serv
 
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
-Outputting Text
+Step Two: Understand the Output Functions
++++++++++
+
+Output as Text
 +++++++++
 
 Below is how to output text to Fire Insights ::
@@ -44,7 +46,7 @@ Below is how to output text to Fire Insights ::
     restworkflowcontext.outStr(9, "Test String")
 
 
-Outputting PySpark Dataframe as Table
+Output PySpark Dataframe as Table
 +++++++++
 
 The below code outputs the contents of PySpark Dataframe to Fire Insights as a table. By deafult 10 rows will be displayed::
@@ -60,7 +62,7 @@ The below code outputs the contents of PySpark Dataframe to Fire Insights as a t
     #To display 3 rows
     restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df, 3)
 
-Outputting Pandas Dataframe as Table
+Output Pandas Dataframe as Table
 +++++++++
 
 The below code outputs the contents of Pandas Dataframe to Fire Insights as a table.  By deafult 10 rows will be displayed::
@@ -78,11 +80,11 @@ The below code outputs the contents of Pandas Dataframe to Fire Insights as a ta
     #To display 3 rows
     restworkflowcontext.outDataFrame(9, "Names", df, 3)
     
-Outputting Charts
+Output as Charts
 +++++++++
 
 
-Output the chart in fire by selecting x & y column and Different type of chartType: COLUMNCHART, BARCHART & LINECHART::
+Output the chart in fire by selecting x & y column We can display Column , Bar & Line chart types as outputs.::
     
     from pyspark.sql.types import *
 
@@ -97,7 +99,7 @@ Output the chart in fire by selecting x & y column and Different type of chartTy
                                       chart_type ="LINECHART", df = df, numRowsToDisplay = 10)
  
  
-Outputing HTML
+Output as HTML
 +++++++++
 
 Below is how to output html to Fire Insights ::
@@ -108,7 +110,7 @@ Below is how to output html to Fire Insights ::
     
     
     
-Outputing Plotly
+Plotly with Fire Insights
 +++++++++++++
 
 Below is how to output plotly to Fire Insights ::
@@ -125,10 +127,10 @@ Below is how to output plotly to Fire Insights ::
     
 
 
-Outputing Parameters
+Output Parameters
 +++++++++++++++++++++
 
-::
+When we want to display a list of values we use the below code to generate the output::
     
     parameters = [("radio", "Industries", "Natural Resources, Construction, IT, Services, Finance, Real Estate, Others"), 
               ("checkbox", "Education, Position", "Graduate, Manager"),
@@ -139,7 +141,7 @@ Outputing Parameters
 
     restworkflowcontext.outParameters(9, "Display Parameters In Dictionary To Table", parameters)
 
-Output Success
+Output Messages
 ++++++++++++++
 
 ::
@@ -148,18 +150,12 @@ Output Success
     
     restworkflowcontext.outSuccess(9, title="Success", text=message)
     
-Output Failure
-++++++++++++++
-    
 ::
 
     message = "Sending the failure message."
     
     restworkflowcontext.outFailure(9, title="Failure", text=message)
     
-Output Running
-++++++++++++++
-
 ::
 
     message = "Sending the running message."
@@ -167,10 +163,10 @@ Output Running
     restworkflowcontext.outRunning(9, title="Running", text=message)
     
 
-Output Progress
+Output Progress Message
 ++++++++++++++
 
-You can output the current progress percent of the Notebook. This helps in keeping the user updated with the progress of the execution of the Notebook.
+You can share the current progress of the Notebook run in percentage terms to the analytical app. This is useful to keep the user updated with the progress of the job execution.
 
 ::
 
@@ -179,12 +175,12 @@ You can output the current progress percent of the Notebook. This helps in keepi
     restworkflowcontext.outProgress(9, title="Progress", text=message)
 
 
-GetTextInput
+Get Input Value
 ++++++++++++++
 
-It will allow user to enter the values in execution time from Analytical App and return the value.
+Analytical apps also allow us to pass a variable value as an input parameter to the notebook execution.
 
-If user don't enter the value in 120 seconds, it returns the deault respose "User Response Time Out!".
+If a user doesn’t enter a value within 120 seconds, it will return a default response.
 
 ::
 
@@ -192,3 +188,8 @@ If user don't enter the value in 120 seconds, it returns the deault respose "Use
    
     country_name = restworkflowcontext.getTextInput(9, title=title, url=webserverURL)
     
+
+Conclusion
+---------------------
+
+This way we can use Analytical Apps to interface our Databricks Notebook with a user-friendly interface to business and other project stakeholders.

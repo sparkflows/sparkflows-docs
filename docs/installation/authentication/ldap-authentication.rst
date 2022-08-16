@@ -7,7 +7,7 @@ The following configurations have to be set appropriately.
 
 .. figure:: ../../_assets/installation/ldap_configuration_order.PNG
    :alt: LDAP order
-   :width: 70%
+   :width: 80%
    
    
 

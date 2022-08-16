@@ -171,7 +171,7 @@ You can share the current progress of the Notebook run in percentage terms to th
 ::
 
     message = "50%"
-    restworkflowcontext.OutputProgress(9, title="Progress", progress=message)
+    restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 
 Get Input Value

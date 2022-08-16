@@ -5,7 +5,7 @@ Fire Insights can be configured to authenticate the user against LDAP. Users hav
 
 The following configurations have to be set appropriately.
 
-.. figure:: ../../_assets/installation/ldap_configuration.PNG
+.. figure:: ../../_assets/installation/ldap_configuration_order.PNG
    :alt: LDAP order
    :width: 70%
    

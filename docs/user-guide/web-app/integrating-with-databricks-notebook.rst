@@ -43,7 +43,7 @@ Output as Text
 
 Below is how to output text to Fire Insights ::
 
-    restworkflowcontext.outStr(9, "Test String")
+    restworkflowcontext.outStr(9, "Test String", text="text")
 
 
 Output PySpark Dataframe as Table

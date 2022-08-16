@@ -23,7 +23,7 @@ Create inline policy which have access of s3 specific bucket say ''assume-role-b
     "Resource": "arn:aws:iam::<account-1-id>:role/assume-role-bucket1"
      }}
 
-4. "assume-role-bucket1" Role trust policy must allow User or resources to assume "assume-role-bucket1" Role.
+4. "assume-role-bucket1" Role trust policy must allow ''User or resources'' (depending on requirement) to assume "assume-role-bucket1" Role.
 
 ::
 

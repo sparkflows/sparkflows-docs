@@ -114,5 +114,3 @@ In case you are locked out of Sparkflows and are not able to log in, you can do 
 
 Once things are back to normal, you can update ``sparkflows.authentication.ldap.enable = true`` in ``application.properties`` and restart the fire server.
 
-
-.. note:: Search strings are not case sensitive

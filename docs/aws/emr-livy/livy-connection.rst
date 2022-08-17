@@ -5,9 +5,20 @@ Fire Insights enable you to create Apache Livy Connection and use the Connection
 
 Below are steps on how to create Livy Connection in Fire Insights.
 
-1. Login to Fire Insights application and go inside Global Connections
+1. Login to Fire Insights application and enable livy connection from Configurations and then create Global Connections
 
-Once you login to Fire Insights application Click on ''ADMINISTRATION'' tab on top, it will take you to Global Connections page, on clicking, it will take to configuration page.
+Inorder to enable livy connection from Configurations Click on ''ADMINISTRATION'' tab on top and open Configurations, select ''CONNECTION'' tab and enable below parameter
+
+::
+
+    connection.livy.enabled : true
+
+.. figure:: ../../_assets/aws/livy/livy_configuration.PNG
+   :alt: livy
+   :width: 60%
+    
+
+Once you save the above Configurations, Click on ''ADMINISTRATION'' tab on top, it will take you to Global Connections page, on clicking, it will take to configuration page.
 
 .. figure:: ../../_assets/aws/livy/administration.PNG
    :alt: livy

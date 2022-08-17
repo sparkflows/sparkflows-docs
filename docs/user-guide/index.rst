@@ -91,7 +91,6 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
    time-series/index
    auto-ml/index
    web-app/index
-   time-series/index
    python/index
    performance/index
    git-integration/index

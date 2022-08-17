@@ -21,11 +21,11 @@ https://medium.com/analytics-vidhya/kerberos-and-hadoop-c8bdd7f1c7f3
     klist -e -k -t fire.keytab
     klist (For details on validity and expirations of Service Principal)
     
-* destroy existing ticket:
+* destroy existing ticket::
 
     kdestroy
     
-* get the details on installed Kerberos libraries
+* get the details on installed Kerberos libraries::
 
     krb5-config --all
 

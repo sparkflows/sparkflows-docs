@@ -113,7 +113,7 @@ For LIVY tab :
    :alt: livy
    :width: 70%     
 
-.. note:: Make sure to upload ''fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` in S3 bucket which is available in Fire Insights binary once you untar that it will be inside ''fire-x.y.z/fire-core-lib'' and it should be accessible from Fire Insights UI.
+.. note:: Make sure to upload ''fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar'' in S3 bucket which is available in Fire Insights binary once you untar that it will be inside ''fire-x.y.z/fire-core-lib'' and it should be accessible from Fire Insights UI.
 
 .. figure:: ../../_assets/aws/livy/livy_jar.PNG
    :alt: livy

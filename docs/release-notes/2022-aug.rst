@@ -58,6 +58,14 @@ you can refresh execution status of pipeline already excuted.
 .. figure:: ..//_assets/releases/aug-2022/pipeline_refresh.PNG
    :alt: connection
    :width: 70%
+   
+- New Node in Pipeline
+
+  - EMR Workflow
+  
+.. figure:: ..//_assets/releases/aug-2022/emr_wf.PNG
+   :alt: connection
+   :width: 70%   
 
 UI Upgrades
 ------

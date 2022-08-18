@@ -9,17 +9,18 @@ NEW CONNECTIONS
 Now Fire Insights enable you to create Different Compute Connection and submit the job on respective connection.
 
 - Livy Connections 
-- Spark Submit Connections
-- AWS Glue Connections
-
 
 .. figure:: ..//_assets/releases/aug-2022/livy_connection.PNG
    :alt: connection
    :width: 70%
+   
+- Spark Submit Connections
 
 .. figure:: ..//_assets/releases/aug-2022/spark-submit_connection.PNG
    :alt: connection
    :width: 70%
+   
+- AWS Glue Connections
 
 .. figure:: ..//_assets/releases/aug-2022/glue_connection.PNG
    :alt: connection

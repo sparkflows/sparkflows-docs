@@ -72,4 +72,4 @@ Fire Insights enable you add comments for project you are using.
    
 .. figure:: ..//_assets/releases/aug-2022/project_discussion_comment.PNG
    :alt: connection
-   :width: 70%   
+   :width: 50%   

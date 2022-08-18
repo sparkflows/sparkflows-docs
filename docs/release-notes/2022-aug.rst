@@ -58,3 +58,18 @@ you can refresh execution status of pipeline already excuted.
 .. figure:: ..//_assets/releases/aug-2022/pipeline_refresh.PNG
    :alt: connection
    :width: 70%
+
+UI Upgrades
+------
+
+- Project Discussion
+
+Fire Insights enable you add comments for project you are using.
+
+.. figure:: ..//_assets/releases/aug-2022/project_discussion.PNG
+   :alt: connection
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/aug-2022/project_discussion_comment.PNG
+   :alt: connection
+   :width: 70%   

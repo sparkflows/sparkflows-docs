@@ -34,3 +34,13 @@ Fire Insights Now enable you to Integrate Airflow running on Remote server, crea
 .. figure:: ..//_assets/releases/aug-2022/airflow_configuration.PNG
    :alt: connection
    :width: 70%
+
+Pipeline
+-------
+
+- Pipeline Export
+- Pipeline Import
+
+.. figure:: ..//_assets/releases/aug-2022/pipeline_exp_imp.PNG
+   :alt: connection
+   :width: 70%

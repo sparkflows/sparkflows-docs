@@ -70,4 +70,8 @@ Fire Insights enable you add comments for project you are using.
    :alt: connection
    :width: 70%
    
+- Pipeline Name Validations
 
+.. figure:: ..//_assets/releases/aug-2022/pipeline_validation.PNG
+   :alt: connection
+   :width: 70%

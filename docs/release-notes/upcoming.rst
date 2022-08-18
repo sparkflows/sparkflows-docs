@@ -8,12 +8,10 @@ Workflow Wizard
 
 - Workflow Wizard enable user to avail options for next node on the basis of their requirements of the usecase.
 
-NEW CONNECTIONS
+Ldap Enhancements
 ----------
 
-- Livy Connections 
-- Spark Submit Connections
-- AWS Glue Connections
+- Ldap Configurations from properties file
 
 UI
 ---

@@ -13,6 +13,12 @@ Now Fire Insights enable you to create Different Compute Connection and submit t
 .. figure:: ..//_assets/releases/aug-2022/livy_connection.PNG
    :alt: connection
    :width: 70%
+
+Documentation
++++++
+
+- Reference guide : https://docs.sparkflows.io/en/latest/aws/emr-livy/index.html
+
    
 - Spark Submit Connections
 

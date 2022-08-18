@@ -25,3 +25,12 @@ Now Fire Insights enable you to create Different Compute Connection and submit t
 .. figure:: ..//_assets/releases/aug-2022/glue_connection.PNG
    :alt: connection
    :width: 70%
+
+Airflow Enhancements
+----------
+
+Fire Insights Now enable you to Integrate Airflow running on Remote server, create Dags in S3 and Sync up to remote machine using cron job.
+
+.. figure:: ..//_assets/releases/aug-2022/airflow_configuration.PNG
+   :alt: connection
+   :width: 70%

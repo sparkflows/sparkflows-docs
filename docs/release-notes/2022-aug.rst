@@ -44,3 +44,11 @@ Pipeline
 .. figure:: ..//_assets/releases/aug-2022/pipeline_exp_imp.PNG
    :alt: connection
    :width: 70%
+
+- Pipeline Refresh status
+
+you can refresh execution status of pipeline already excuted.
+
+.. figure:: ..//_assets/releases/aug-2022/pipeline_refresh.PNG
+   :alt: connection
+   :width: 70%

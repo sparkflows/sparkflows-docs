@@ -11,6 +11,8 @@ Troubleshooting
    ldap.rst
    python.rst
    databricks.rst
+   h2-db.rst
+   
    
    
    

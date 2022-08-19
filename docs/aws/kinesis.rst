@@ -1,4 +1,4 @@
-Fire Integration with Kinesis
+Integration with Kinesis
 ==============================
 
 This document described Fire integration with Kinesis. Fire uses Apache Spark Structured Streaming Connector from Qubole.

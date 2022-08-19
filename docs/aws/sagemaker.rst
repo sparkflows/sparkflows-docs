@@ -1,4 +1,4 @@
-Fire Integration with SageMaker
+Integration with SageMaker
 ========================
 
 Fire is fully integrated with AWS SageMaker. Fire provides a number of processors for doing model building with SageMaker.

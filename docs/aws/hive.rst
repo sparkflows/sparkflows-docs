@@ -1,4 +1,4 @@
-Fire Integration with HIVE
+Integration with HIVE
 ==========================
 
 Fire seamlessly integrates with HIVE when running on AWS.

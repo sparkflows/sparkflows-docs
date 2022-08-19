@@ -1,4 +1,4 @@
-Fire Integration with Redshift
+Integration with Redshift
 ========================
 
 Fire is fully integrated with Redshift. Fire has a number of Processors specifically for Redshift.

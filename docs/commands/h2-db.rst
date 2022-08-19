@@ -29,6 +29,9 @@ SHUTDOWN COMPACT fully compacts the database (re-creating the database may furth
 
 In case the H2 DB is corrupted (logs in fireserver.log would indicate that), SHUTDOWN COMPACT can be used to get it back to good shape.
 
+After running SHUTDOWN COMPACT, it can display `Error: org.h2.jdbc....:Database is already closed`
+This is fine and can be ignored.
+
 Recreating the H2 DB to further reduce the database size
 ---------------------
 

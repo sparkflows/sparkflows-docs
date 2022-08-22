@@ -81,7 +81,7 @@ Create inline policy which have access of s3 policy to access the different buck
 			"Action": "sts:AssumeRole"
 		}
 	]
-}
+   }
 
 .. notes:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
 

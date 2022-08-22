@@ -218,4 +218,4 @@ Once you have updated the above parameters, Test the connection if all looks fin
    :alt: livy
    :width: 60%   
 
-.. note:: Make sure that Apache Livy URL will be accessible from Fire Insights application.
+.. note:: Make sure that Apache Livy URL will be accessible from Fire Insights webserver Url.

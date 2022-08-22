@@ -88,4 +88,19 @@ Importing a Certificate to an existing Keystore::
     keytool -import -trustcacerts -alias <Name of Cert> -file <Absolute Path to .crt File> -keystore <Absolute Path to Desired Keystore> -storepass <KEYSTORE_PASSWORD>
 
  
+Install certificate on EMR Cluster
+--------------------------------------------
  
+When using EMR cluster to run the Spark jobs, the certificate needs to be imported in the Java keystore, in order  to track the status of the Spark jobs. Follow the steps below to import certificate on cluster creation.
+ 
+* Create a **bootstrap** script with the following content::
+    
+    #!/bin/sh
+    aws s3 cp s3://my_bucket/certs/sparkflows_cert.pem .
+    keytool -importcert -trustcacerts -keystore $JAVA_HOME/lib/security/cacerts -file sparkflows_cert.pem \
+    -alias sparkflowsCert \
+    -storepass changeit \
+    -noprompt
+    
+* Configure the EMR cluster to use the above bootstrap script.
+   

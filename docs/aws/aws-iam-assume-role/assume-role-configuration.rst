@@ -60,7 +60,7 @@ Create inline policy which have access of s3 policy to access the different buck
             "Effect": "Deny"
         }
     ]
-}
+  }
 
 
 3. In the trust relationship of that role, allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “assume-role-bucket1” role.

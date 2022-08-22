@@ -83,7 +83,7 @@ Create inline policy which have access of s3 policy to access the different buck
 	]
    }
 
-.. notes:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
+.. note:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
 
 4. Now Inorder to access the above role while submitting the job on EMR Cluster, say EMR Livy, that policy (assume_role_bucket1) needs to be attached to the EMR_EC2_DefaultRole role added for EMR resources.
 

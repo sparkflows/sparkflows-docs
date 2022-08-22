@@ -9,7 +9,7 @@ Login to AWS Console which have sufficient privilege to create a role with name 
 
 2. Create inline Policy
 
-Create inline policy which have access of s3 policy to access the different buckets say ''assume-role-bucket1'' & ''assume-role-bucket2'' and attach to the role.
+Create an ''inline policy'' which have access of s3 policy to access the different buckets say ''assume-role-bucket1'' & ''assume-role-bucket2'' and attach to the role.
 
 ::
 

@@ -85,24 +85,7 @@ Create inline policy which have access of s3 policy to access the different buck
 
 .. notes:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
 
-4. "assume-role-bucket1" Role trust policy must allow ''User or resources'' (depending on requirement) to assume "assume-role-bucket1" Role.
-
-::
-
-    {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": "arn:aws:iam::<account-1-id>:user/User"
-      },
-      "Action": "sts:AssumeRole"
-        }
-     ]
-     }
-
-5. Now, you can easily assume a role, use its temporary creds to access s3 Bucket using Fire Insights.
+4. Now Inorder to access the above role while submitting the job on EMR Cluster, say EMR Livy, that policy (assume_role_bucket1) needs to be attached to the EMR_EC2_DefaultRole role added for EMR resources.
 
 
 .. note:: Make sure to change arn value to exact value

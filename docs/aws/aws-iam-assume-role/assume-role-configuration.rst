@@ -9,19 +9,81 @@ Login to AWS Console which have sufficient privilege to create a role with name 
 
 2. Create inline Policy
 
-Create inline policy which have access of s3 specific bucket say ''assume-role-bucket1'' and attach to the role.
-
-3. User must have permissions to assume assume-role-bucket1.
+Create inline policy which have access of s3 policy to access the different buckets say ''assume-role-bucket1'' and attach to the role.
 
 ::
 
     {
-  "Version": "2012-10-17",
-  "Statement": {
-    "Effect": "Allow",
-    "Action": "sts:AssumeRole",
-    "Resource": "arn:aws:iam::<account-1-id>:role/assume-role-bucket1"
-     }}
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "s3:GetBucketLocation",
+                "s3:ListAllMyBuckets"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        },
+        {
+            "Action": [
+                "s3:List*",
+                "s3:GetObject*",
+                "s3:PutObject*",
+                "s3:GetBucketAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::assume-role-bucket1",
+                "arn:aws:s3:::assume-role-bucket1/*",
+                "arn:aws:s3:::assume-role-bucket2",
+                "arn:aws:s3:::assume-role-bucket2/*"
+            ],
+            "Effect": "Allow"
+        },
+        {
+            "Action": [
+                "s3:CreateBucket",
+                "s3:DeleteBucket",
+                "s3:DeleteBucketPolicy",
+                "s3:DeleteBucketWebsite",
+                "s3:PutAccelerateConfiguration",
+                "s3:PutBucketAcl",
+                "s3:PutBucketCORS",
+                "s3:PutBucketLogging",
+                "s3:PutBucketPolicy",
+                "s3:PutBucketRequestPayment",
+                "s3:PutBucketTagging",
+                "s3:PutBucketVersioning",
+                "s3:PutBucketWebsite",
+                "s3:PutReplicationConfiguration"
+            ],
+            "Resource": "*",
+            "Effect": "Deny"
+        }
+    ]
+}
+
+
+3. In the trust relationship of that role, allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “assume-role-bucket1” role.
+
+::
+
+    {
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": [
+					"arn:aws:iam::<account-1-id>:role/ecsTaskExecutionRole"
+									
+				]
+			},
+			"Action": "sts:AssumeRole"
+		}
+	]
+}
+
+.. notes:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
 
 4. "assume-role-bucket1" Role trust policy must allow ''User or resources'' (depending on requirement) to assume "assume-role-bucket1" Role.
 

@@ -1,9 +1,9 @@
 Fire Configurations for Assuming Role
 ==============
 
-Now you have IAM Assume role set up ready, so you can configure in the Fire Insights.
+Now you have IAM Assume role set up and ready, so you can configure in the Fire Insights.
 
-1. Login to Fire Insights application and go inside Cohttps://github.com/sparkflows/sparkflows-docs/tree/master/docs/aws/aws-iam-assume-rolenfigurations
+1. Login to Fire Insights application 
 
 Once you login to Fire Insights application Click on ''ADMINISTRATION'' tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
 

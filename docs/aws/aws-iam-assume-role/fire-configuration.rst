@@ -63,5 +63,5 @@ Now you can use it for Creating workflow in the Node.
    :alt: aws
    :width: 60%
 
-.. note:: Currently user can access the s3 resorces by assuimg the role.
+.. note:: Currently user can access the s3 resources by assuimg the role.
 When user belongs to multiple user groups and each group is attached with different roles,then role from the first group will be assumed during the s3 access.

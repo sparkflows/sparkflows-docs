@@ -62,7 +62,7 @@ For GENERAL tab :
      - Connection Description 
      - Connection Description
    * - Url
-     - Url for selected COnnection type
+     - Url for selected Connection type
      - Add URL for Livy Connection
    * - Driver Class
      - Driver Class for selected Connection type 

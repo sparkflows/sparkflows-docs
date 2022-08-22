@@ -59,7 +59,7 @@ Once the Group is attached to any User in Fire Insights application, save the Co
 
 Now you can use it for Creating workflow in the Node.
 
-.. figure:: ../../_assets/aws/iam-assume-role/aws_s3_list.PNG
+.. figure:: ../../_assets/aws/iam-assume-role/aws_s3_lists.PNG
    :alt: aws
    :width: 60%
 

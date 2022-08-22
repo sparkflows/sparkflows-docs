@@ -74,7 +74,7 @@ Create inline policy which have access of s3 policy to access the different buck
 			"Effect": "Allow",
 			"Principal": {
 				"AWS": [
-					"arn:aws:iam::<account-1-id>:role/ecsTaskExecutionRole"
+					"arn:aws:iam::<account-id>:role/ecsTaskExecutionRole"
 									
 				]
 			},

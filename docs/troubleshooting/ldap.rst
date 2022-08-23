@@ -49,7 +49,7 @@ Once things are back to normal, you can remove the line you added to ``configura
 Testing Getting User Details from LDAP via Python
 -------------------------------------------------
 
-Sample code for the same is as below:
+Sample code for the same is as below::
 
   #! /usr/bin/python3
   import ldap

@@ -101,3 +101,23 @@ Sample code for the same is as below::
 
   if __name__ == '__main__':
       initLdapConnection()
+
+
+Testing Getting User Details from LDAP via ldapsearch command
+-------------------------------------------------------------
+Need to install the following dependencies::
+
+In Ubuntu::
+
+  sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
+  pip install python-ldap
+
+In RedHat/CentOS::
+
+  sudo yum install python-devel openldap-devel
+  pip install python-ldap
+
+Sample command for the same is as below::
+
+  ldapsearch -D "cn=read-only-admin,dc=example,dc=com" -w password -p 389 -h ldap.forumsys.com -b "ou=scientists,dc=example,dc=com" -s base -v
+

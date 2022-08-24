@@ -12,6 +12,7 @@ Troubleshooting
    python.rst
    databricks.rst
    h2-db.rst
+   assume_role.rst
    
    
    

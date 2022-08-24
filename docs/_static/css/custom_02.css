@@ -480,4 +480,8 @@ footer{
     .search-input, .menu-items{
         display: none;
     }
+    .wy-side-nav-search div[role=search]{
+        display: block;
+        padding: 0 10px;
+    }
 }

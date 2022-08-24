@@ -1,6 +1,11 @@
 Assume Roles
 ====
 
+Fire Insights can be configured with assume roles.
+
+Below are some Troubleshooting steps:
+
+
 IOException: ''Unset property fs.s3a.assumed.role.arn''
 
 ::

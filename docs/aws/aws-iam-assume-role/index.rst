@@ -1,7 +1,7 @@
 AWS IAM ASSUME ROLE
 ======
 
-Fire Insights Integrated with AWS IAM Assume Role.
+Fire Insights Integrated with AWS IAM Assume Role, which can be Configured at Group level.
 
 .. toctree::
    :maxdepth: 2

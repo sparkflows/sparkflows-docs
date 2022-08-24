@@ -3,6 +3,8 @@ Overview
 
 Fire supports Pipelines. Pipelines allow running multiple workflows in a defined order.
 
+Fire Insights can execute Pipelines on its own. Or it can run them via Airflow. The nodes available in the Pipeline depends on whether Airflow is configured or not.
+
 Pipeline List
 -------------
 

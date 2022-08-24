@@ -1,4 +1,4 @@
-Pipeline
+Overview
 ========
 
 Fire supports Pipelines. Pipelines allow running multiple workflows in a defined order.

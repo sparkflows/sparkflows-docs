@@ -24,7 +24,7 @@ https://airflow.apache.org/installation.html
  - sudo yum install epel-release
  - sudo yum install python-pip
  
-- Check the version of pip that is installed and if reqd upgrade:
+- Check the version of pip that is installed and if read upgrade:
  - pip -V
  - pip install --upgrade setuptools
  

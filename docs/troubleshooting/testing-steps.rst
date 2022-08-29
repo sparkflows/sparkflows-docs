@@ -21,6 +21,10 @@ Check if fire-ui process is running
 
 ps -ef | grep fire-ui
 
+Check the ports on which fire-ui is running
+++++++++++
+
+
 Run SparkPi on the cluster
 +++++++++
 

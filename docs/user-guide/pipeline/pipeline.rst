@@ -8,6 +8,23 @@ Fire Insights can be executed Pipelines in below ways :
 1. It Can run workflows on Compute engine configured.
 2. It can run them via Airflow. The nodes available in the Pipeline depends on whether Airflow is configured or not.
 
+Steps Involved in Configuring Pipeline in Fire Insights:
+
+1. Login to Fire Insights Web url and Go inside Configurations.
+
+Once Login to Fire Insights Web Server Url Go inside ''Administrations -->> Configurations'' and enable below parameters
+
+::
+
+    module.enablePipeline	true
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_administration.PNG
+   :alt: Pipeline List
+
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_configurations.PNG
+   :alt: Pipeline List
+
 Pipeline List
 -------------
 

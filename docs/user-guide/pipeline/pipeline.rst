@@ -24,6 +24,12 @@ Once Login to Fire Insights Web Server Url Go inside ''Administrations -->> Conf
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_configurations.PNG
    :alt: Pipeline List
+   
+2. Once the above Configurations is enabled, you will see two tab in project ie. ''Pipeline & Pipeline Executions''  
+
+.. figure:: ../../_assets/user-guide/pipeline-list-new.png
+   :alt: Pipeline List
+
 
 Pipeline List
 -------------

@@ -52,3 +52,21 @@ Check there are no major errors in fire log file.
 
 grep -i exception fire.log
 
+HIVE
+++++
+
+Log into HIVE with Beeline and check if we are able to list the databases and tables. And also able to query a table.
+
+
+Livy
+++++
+
+Check if SparkPi submission to Livy works good.
+
+curl ...
+
+S3
+++
+
+Check if we are able to access files on S3
+

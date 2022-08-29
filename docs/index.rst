@@ -79,6 +79,14 @@ Kubernetes Integration
    :maxdepth: 2
 
    kubernetes/index
+
+Frequently Asked Questions
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   faq/index
    
 Commands
 --------------
@@ -95,15 +103,6 @@ Troubleshooting
    :maxdepth: 2
    
    troubleshooting/index
-   
-   
-Frequently Asked Questions
---------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   faq/index
     
 
 Developer Guide

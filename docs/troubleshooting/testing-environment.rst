@@ -6,7 +6,7 @@ It is a good idea to run the following steps to ensure that the environment is s
 This document captures the various steps which can be easily run to confirm the environment and settings are working good.
 
 Check Java version
-------------------
++++++++++
 
 java --version
 

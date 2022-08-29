@@ -132,3 +132,15 @@ Fire Insights enabled you to schedule the Pipeline.
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.PNG
    :alt: Pipeline 
    :width: 60%
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_page.PNG
+   :alt: Pipeline 
+   :width: 60%
+   
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled_start.PNG
+   :alt: Pipeline 
+   :width: 60%
+   
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_list.PNG
+   :alt: Pipeline 
+   :width: 60%   

@@ -1,9 +1,9 @@
 Testing Environment
 --------------
 
-It is a good idea to run the following steps to ensure that the environment is set up and working right.
+It is a good idea to run the below steps to ensure that the environment is set up and working right.
 
-This document captures the various steps which can be easily run to confirm the environment and settings are working good.
+Run the steps which are relevant for your environment.
 
 Check Java version
 +++++++++

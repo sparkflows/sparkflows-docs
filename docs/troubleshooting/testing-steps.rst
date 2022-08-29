@@ -15,6 +15,10 @@ Check if python 3.7+ has been set up
 
 python --version
 
+Check in the machine has access to the internet
+++++++++++
+
+
 
 Check if fire-ui process is running
 +++++++++

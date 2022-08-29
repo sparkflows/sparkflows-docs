@@ -48,6 +48,7 @@ FAQ
    :maxdepth: 2
    :hidden:
 
+   02-installation.rst
    01-scheduling-workflows.rst
    02-custom-nodes.rst
    03-distributions-supported.rst

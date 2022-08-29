@@ -10,7 +10,7 @@ Fire Insights can be executed Pipelines in below ways :
 
 Steps Involved in Configuring Pipeline in Fire Insights:
 
-1. Login to Fire Insights Web url and Go inside Configurations.
+1. Login to Fire Insights Web Server Url and Go inside Configurations.
 
 Once Login to Fire Insights Web Server Url Go inside ''Administrations -->> Configurations'' and enable below parameters
 

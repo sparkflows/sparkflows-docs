@@ -98,4 +98,8 @@ Airflow
 
 Check if we are able to submit a DAG to Airflow and execute it.
 
+- SparkPi
+- Reads data from some location
+
+
 

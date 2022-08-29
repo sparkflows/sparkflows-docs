@@ -19,6 +19,16 @@ Check in the machine has access to the internet
 ++++++++++
 
 
+Check available storage on disk
++++++++++++
+
+du -sh *
+
+Check the memory and vcpu on the machine
+++++++++++++
+
+top
+
 
 Check if fire-ui process is running
 +++++++++

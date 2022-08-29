@@ -70,3 +70,10 @@ S3
 
 Check if we are able to access files on S3
 
+
+Airflow
++++++++
+
+Check if we are able to submit a DAG to Airflow and execute it.
+
+

@@ -26,3 +26,24 @@ spark-submit ...
 
 Check if Airflow has been correctly set up
 +++++++++++
+
+
+Kerberos
+++++++++
+
+Check if the kerberos keytab is correct.
+
+kinit -kt keytab_file principal
+
+
+Logs
++++++
+
+Check there are no major errors in the fire-ui log file.
+
+grep -i exception fireserver.log
+
+Check there are no major errors in fire log file.
+
+grep -i exception fire.log
+

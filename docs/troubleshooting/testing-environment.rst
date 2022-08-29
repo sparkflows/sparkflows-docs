@@ -29,15 +29,20 @@ Check the memory and vcpu on the machine
 
 top
 
+It is recommended to have at least 16GB of RAM and 4+vCPU's on the machine.
+
 
 Check if fire-ui process is running
 +++++++++
 
 ps -ef | grep fire-ui
 
+fire-ui is the main webserver process.
+
 Check the ports on which fire-ui is running
 ++++++++++
 
+By default Fire Insights listens on 2 ports : 8080 and 8443
 
 Run SparkPi on the cluster
 +++++++++

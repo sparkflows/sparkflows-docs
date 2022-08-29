@@ -102,11 +102,12 @@ cluster property yarn.resourcemanager.am.max-attempts).
   - spark-submit --master yarn --deploy-mode cluster --conf spark.yarn.maxAppAttempts=4
   
     - Check if 4 attempts get exhausted in few hours for a long-running job. Then in order to avoid this situation, the attempt counter should be reset one every hour of so.
-    — --conf spark.yarn.am.attemptFailuresValidityInterval=1h
+    
+      — --conf spark.yarn.am.attemptFailuresValidityInterval=1h
       - Set maximum number of executor failures before the application fails. By default it is max(2 * num executors, 3), well suited for batch jobs but not for long-running jobs. So specify the following configuration parameters
-      
-   -  --conf spark.yarn.executor.failuresValidityInterval=1h
-      --conf spark.task.maxFailures=8
+   
+      - --conf spark.yarn.executor.failuresValidityInterval=1h
+      - --conf spark.task.maxFailures=8
       
   - Note without a separate YARN queue your long-running job will be preempted by a massive Hive query sooner or later.
  
@@ -115,8 +116,7 @@ cluster property yarn.resourcemanager.am.max-attempts).
   - Enabling the spark.dynamicAllocation property allows Spark to add and remove executors dynamically based on the workload.
   - When using Spark streaming ensure that the executor idle timeout is greater than the batch timeout to ensure the unused executors are removed from the cluster.
   - If the time to execute the entire job is taking longer than expected, then increase parallelism by increasing the number of cores per executor.However, more than 5 cores can lead to poor performance due to increased HDFS I/O.
-  - Spark-Configuration Reference: https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-sparkconfigure.
-html
+  - Spark-Configuration Reference: https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-sparkconfigure.html
   - For example,
   
   ..

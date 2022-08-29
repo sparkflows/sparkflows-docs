@@ -5,17 +5,21 @@ It is a good idea to run the following steps to ensure that the environment is s
 
 This document captures the various steps which can be easily run to confirm the environment and settings are working good.
 
-Check if fire-ui process is running
-+++++++++
+Check Java version
+------------------
 
-ps -ef | grep fire-ui
-
+java --version
 
 Check if python 3.7+ has been set up
 +++++++++
 
 python --version
 
+
+Check if fire-ui process is running
++++++++++
+
+ps -ef | grep fire-ui
 
 Run SparkPi on the cluster
 +++++++++

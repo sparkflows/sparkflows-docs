@@ -127,7 +127,7 @@ Once a Pipeline is submitted for execution, its execution details can be viewed 
    
 8. Pipeline Schedule
 
-Fire Insights enabled you to schedule the Pipeline.
+Fire Insights enabled you to schedule Pipeline depending on your requirements.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.PNG
    :alt: Pipeline 

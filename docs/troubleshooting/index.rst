@@ -4,7 +4,7 @@ Troubleshooting
 .. toctree::
    :maxdepth: 2
 
-   testing-steps.rst
+   testing-environment.rst
    installation.rst
    upgrade.rst
    running-workflows.rst

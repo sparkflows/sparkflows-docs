@@ -71,7 +71,7 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
     
     ---
     
-    :doc:`/user-guide/utilities/index`
+    :doc:`/user-guide/control-structures/index`
 
     ---
     

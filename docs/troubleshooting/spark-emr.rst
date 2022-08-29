@@ -96,8 +96,8 @@ In order to avoid Stragglers we need to remember:
 - Special considerations for long-running jobs
 
   - Queue plays a very crucial role for long-running streaming jobs.
-  - Because Spark driver and Application Master share a single JVM, any error in Spark driver stops long-running job. Fortunately it is possible to configure maximum number of attempts that will be made to re-run the application. It is reasonable to set higher value than default 2 (derived fromYARN
-cluster property yarn.resourcemanager.am.max-attempts).
+  - Because Spark driver and Application Master share a single JVM, any error in Spark driver stops long-running job. Fortunately it is possible to configure maximum number of attempts that will be made to re-run the application. 
+  - It is reasonable to set higher value than default 2 (derived from YARN cluster property yarn.resourcemanager.am.max-attempts).
   - Generally 4 works quite well, higher value may cause unnecessary restarts even if the reason of the failure is permanent.
   - spark-submit --master yarn --deploy-mode cluster --conf spark.yarn.maxAppAttempts=4
   

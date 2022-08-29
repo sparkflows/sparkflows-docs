@@ -30,6 +30,45 @@ Once Login to Fire Insights Web Server Url Go inside ''Administrations -->> Conf
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
 
+3. Do Below Configurations if you have Airflow running on any remote server.
+
+For Airflow tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Airflow Home
+     - Airflow Home
+     - Airflow Home Directory, if running on same machine.
+   * - Airflow Endpoint URL
+     - Airflow Endpoint URL
+     - Airflow Endpoint URL where its running.
+   * - Enable/Disable Airflow
+     - Enable/Disable Airflow
+     - Enable Airflow
+   * - Airflow Dag
+     - Airflow Dag
+     - Airflow Dag location if you configured S3 Bucket.
+   * - Airflow IAM Role
+     - Airflow IAM Role
+     - Airflow IAM Role used for accessing S3 Bucket for dags.
+   * - Airflow dag max check
+     - Maximum retry scheduler will do for checking availability of dag file in airflow dag directory
+     - Depending on your requirements.
+   * - Airflow dag Sync delay
+     - Airflow dag Sync delay(seconds)
+     - Depending on your requirements.
+     
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_airflow.PNG
+   :alt: Pipeline List     
+
+Once the above Configurations got saved, the pipeline will be submitted on Airflow server.
+
+.. note:: Make sure that Airflow and other parameter should be updated with absolute path.
 
 Pipeline List
 -------------

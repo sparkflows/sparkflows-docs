@@ -33,8 +33,13 @@ Kerberos
 
 Check if the kerberos keytab is correct.
 
+Kinit:
+
 kinit -kt keytab_file principal
 
+Access HDFS:
+
+hdfs dfs -ls /tmp
 
 Logs
 +++++

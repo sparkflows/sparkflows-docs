@@ -144,3 +144,5 @@ Fire Insights enabled you to schedule Pipeline depending on your requirements.
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_list.PNG
    :alt: Pipeline 
    :width: 60%   
+
+Once the Pipeline scheduled, it can triggered depending on the scheduled updated.

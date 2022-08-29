@@ -34,14 +34,14 @@ Tune the Big Data Infrastructure (Elastic Map Reduce Computes)
   
 - Right number of Executors
 
-The ideal number of executors depends on various factors:
+  The ideal number of executors depends on various factors:
+
   — Incoming events per second, especially during peaks
   — Buffering capabilities of the streaming source
   — Maximum allowed lag, i.e. is it tolerable if the Streaming application lags behind by 3 minutes during a very high peak
   — It can be tweaked by running the streaming application in a preproduction environment and monitoring the streaming statistics in the Spark UI.
-The reserved capacity depends on the aforementioned factors. The tradeoff lies between idling cluster resources versus maximum allowed lag during peaks.
-  - As a general guideline:
-Processing Time + Reserved Capacity <= Batch Duration
+  - The reserved capacity depends on the aforementioned factors. The tradeoff lies between idling cluster resources versus maximum allowed lag during peaks.
+  - As a general guideline: Processing Time + Reserved Capacity <= Batch Duration
 
 - Shuffle Memory Usage, Executor Memory-to-CPU ratio
 
@@ -69,6 +69,7 @@ In order to avoid Stragglers we need to remember:
   — Submitting a Spark Job to Different Queues help scale the Job independent of other jobs
   
   - Ref: 
+  
     - https://mitylytics.com/2017/11/configuring-multiple-queues-aws-emr-yarn/
     - https://aws.amazon.com/blogs/big-data/best-practices-for-resizing-and-automatic-scaling-in-amazonemr/
     
@@ -99,11 +100,14 @@ In order to avoid Stragglers we need to remember:
 cluster property yarn.resourcemanager.am.max-attempts).
   - Generally 4 works quite well, higher value may cause unnecessary restarts even if the reason of the failure is permanent.
   - spark-submit --master yarn --deploy-mode cluster --conf spark.yarn.maxAppAttempts=4
+  
     - Check if 4 attempts get exhausted in few hours for a long-running job. Then in order to avoid this situation, the attempt counter should be reset one every hour of so.
     — --conf spark.yarn.am.attemptFailuresValidityInterval=1h
       - Set maximum number of executor failures before the application fails. By default it is max(2 * num executors, 3), well suited for batch jobs but not for long-running jobs. So specify the following configuration parameters
+      
    -  --conf spark.yarn.executor.failuresValidityInterval=1h
       --conf spark.task.maxFailures=8
+      
   - Note without a separate YARN queue your long-running job will be preempted by a massive Hive query sooner or later.
  
 - Important points regarding scaling spark-streaming jobs in EMR

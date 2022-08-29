@@ -20,15 +20,17 @@ Once Login to Fire Insights Web Server Url Go inside ''Administrations -->> Conf
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_administration.PNG
    :alt: Pipeline List
-
+   :width: 60%
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_configurations.PNG
    :alt: Pipeline List
+   :width: 60%
    
 2. Once the above Configurations is enabled, you will see two tab in project ie. ''Pipeline & Pipeline Executions''  
 
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
+   :width: 60% 
 
 3. Do Below Configurations if you have Airflow running on any remote server.
 
@@ -65,6 +67,7 @@ For Airflow tab :
      
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_airflow.PNG
    :alt: Pipeline List     
+   :width: 60%
 
 Once the above Configurations got saved, the pipeline will be submitted on Airflow server.
 
@@ -76,6 +79,7 @@ Once the above Configurations got saved, the pipeline will be submitted on Airfl
 
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
+   :width: 60%
 
 5. Creating a Pipeline
 
@@ -95,7 +99,7 @@ Below is an example a Pipeline with multiple Workflows.
 
 .. figure:: ../../_assets/user-guide/pipeline-new.png
    :alt: Pipeline
-   
+   :width: 60%
    
 6. Executing a Pipeline
 
@@ -105,11 +109,13 @@ The Pipeline tab displays the list of Pipelines for the current Application.
 
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
+   :width: 60%
    
 Clicking on the ``Execute`` Action button from ``Pipeline`` list or in the ``Pipeline`` page opens the ``Pipeline Execute`` Page.
 
 .. figure:: ../../_assets/user-guide/pipeline-execute-new.png
    :alt: Pipeline Execute
+   :width: 60%
    
 7. Pipeline Execution
 
@@ -117,4 +123,5 @@ Once a Pipeline is submitted for execution, its execution details can be viewed 
 
 .. figure:: ../../_assets/user-guide/pipeline-execution-new.png
    :alt: Pipeline Execution
+   :width: 60%
    

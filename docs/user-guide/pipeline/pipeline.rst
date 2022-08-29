@@ -70,16 +70,14 @@ Once the above Configurations got saved, the pipeline will be submitted on Airfl
 
 .. note:: Make sure that Airflow and other parameter should be updated with absolute path.
 
-Pipeline List
--------------
+4. Pipeline List
 
 ``Pipeline`` tab under a Project displays list of all Pipelines created under the selected project. Pipelines can be grouped together under several Categories. 
 
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
 
-Creating a Pipeline
---------------------
+5. Creating a Pipeline
 
 Following steps can be taken to create a Pipeline:
 
@@ -99,10 +97,9 @@ Below is an example a Pipeline with multiple Workflows.
    :alt: Pipeline
    
    
-Executing a Pipeline
---------------------
+6. Executing a Pipeline
 
-Pipelines can be executed in the similar way as Workflow execution. When a Pipeline is executed, its tasks are submitted to Airflow.
+Pipelines can be executed in the similar way as Workflow execution. When a Pipeline is executed without Airflow, But are submitted to Airflow when Airflow is Configured.
 
 The Pipeline tab displays the list of Pipelines for the current Application.
 
@@ -114,8 +111,7 @@ Clicking on the ``Execute`` Action button from ``Pipeline`` list or in the ``Pip
 .. figure:: ../../_assets/user-guide/pipeline-execute-new.png
    :alt: Pipeline Execute
    
-Pipeline Execution
-------------------
+7. Pipeline Execution
 
 Once a Pipeline is submitted for execution, its execution details can be viewed in the ``Pipeline Executions`` tab.
 

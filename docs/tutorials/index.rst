@@ -22,7 +22,7 @@ Tutorials
 
     ---
 
-    :doc:`/tutorials/advanced-controls/index`
+    :doc:`/tutorials/control-structures/index`
     
     ---
     

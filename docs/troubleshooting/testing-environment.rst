@@ -98,8 +98,21 @@ Airflow
 
 Check if we are able to submit a DAG to Airflow and execute it.
 
-- SparkPi
-- Reads data from some location
+DAG 1
+======
+
+- SparkPi via spark-submit
+
+DAG 2
+=====
+
+- A spark program which reads data from S3 and writes the output to another S3 location
+
+
+DAG 3
+=====
+
+- Use MACROS
 
 
 

@@ -125,3 +125,10 @@ Once a Pipeline is submitted for execution, its execution details can be viewed 
    :alt: Pipeline Execution
    :width: 60%
    
+8. Pipeline Schedule
+
+Fire Insights enabled you to schedule the Pipeline.
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.PNG
+   :alt: Pipeline 
+   :width: 60%

@@ -1,9 +1,9 @@
 Testing Environment
 --------------
 
-It is a good idea to run the following steps to ensure that the environment is set up and working right.
+It is a good idea to run the below steps to ensure that the environment is set up and working right.
 
-This document captures the various steps which can be easily run to confirm the environment and settings are working good.
+Run the steps which are relevant for your environment.
 
 Check Java version
 +++++++++
@@ -29,15 +29,20 @@ Check the memory and vcpu on the machine
 
 top
 
+It is recommended to have at least 16GB of RAM and 4+vCPU's on the machine.
+
 
 Check if fire-ui process is running
 +++++++++
 
 ps -ef | grep fire-ui
 
+fire-ui is the main webserver process.
+
 Check the ports on which fire-ui is running
 ++++++++++
 
+By default Fire Insights listens on 2 ports : 8080 and 8443
 
 Run SparkPi on the cluster
 +++++++++

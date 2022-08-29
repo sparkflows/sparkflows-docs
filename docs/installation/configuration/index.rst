@@ -13,7 +13,7 @@ Configuration
    yarn-configuration.rst
    configuring-https-fire.rst
    configuring-kerberos.rst
-   configuring-pipeline.rst
+   pipeline/index
    different-default-values-startup.rst
    authentication/index   
    databricks-integration.rst

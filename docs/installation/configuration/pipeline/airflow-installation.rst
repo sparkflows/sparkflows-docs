@@ -1,13 +1,13 @@
 Airflow Installation
 --------------------
 
-It explain the steps involved in installing Airflow on Centos and RHEL. Detailed Airflow Install Instructions is at:
+Below are the steps for installing Airflow on Centos and RHEL. Detailed Airflow Install Instructions are at:
 
 https://airflow.apache.org/installation.html
 
 - Login to machine
 
-- Before installing airflow update installed package:
+- Before installing airflow, update installed package:
  - yum -y update
  
 - Install python-pip and any required packages: 
@@ -50,19 +50,19 @@ https://airflow.apache.org/installation.html
 - Start the web server, its default port is 8080, If any other application is running on 8080, we can update other port for airflow 
  - airflow webserver -p 8090
 
-.. figure:: ../../_assets/user-guide/airflow-webserver-running-url.PNG
+.. figure:: ../../../_assets/user-guide/airflow-webserver-running-url.PNG
    :alt: airflow
  
 - Start the scheduler
  - airflow scheduler
 
-.. figure:: ../../_assets/user-guide/airflow-scheduler.PNG
+.. figure:: ../../../_assets/user-guide/airflow-scheduler.PNG
    :alt: airflow
    
 - Login in browser
  - http://x.y.z.w:8090   
 
-.. figure:: ../../_assets/user-guide/airflow-web-url.PNG
+.. figure:: ../../../_assets/user-guide/airflow-web-url.PNG
    :alt: airflow
    
 

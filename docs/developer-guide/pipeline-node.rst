@@ -1,9 +1,9 @@
 Pipeline Nodes
 ====================================
 
-Fire Insights supports Pipelines.
+Fire Insights supports Pipelines. In a Pipeline various workflows and other components can be executed in the provided order.
 
-Below is an example Pipeline:
+In Fire Insights, Pipelines can run with or without Airflow. The nodes available in the Pipeline depend on whether Airflow is integrated or not.
 
 
 A Pipeline can have the following node types:

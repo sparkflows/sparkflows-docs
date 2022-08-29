@@ -182,40 +182,38 @@ between-hdfs-and-amazon-s3/#5
 
 - EMR Troubleshooting References
 
-  - Ref: http://docs.amazonaws.cn/en_us/emr/latest/ManagementGuide/emr-mgmt.pdf
+  - Ref: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-mgmt.pdf
 
-  - Troubleshoot a Failed Cluster (p. 258)
-  
-    - Step 1: Gather Data About the Issue (p. 258)
-    - Step 2: Check the Environment (p. 259)
-    - Step 3: Look at the Last State Change (p. 260)
-    - Step 4: Examine the Log Files (p. 260)
-    - Step 5: Test the Cluster Step by Step (p. 261)
+    - Troubleshoot a Failed Cluster`
 
-  - Troubleshoot a Slow Cluster (p. 261)
-  
-    - Step 1: Gather Data About the Issue (p. 262)
-    - Step 2: Check the Environment (p. 262)
-    - Step 3: Examine the Log Files (p. 263)
+      - Step 1: Gather Data About the Issue 
+      - Step 2: Check the Environment 
+      - Step 3: Look at the Last State Change 
+      - Step 4: Examine the Log Files 
+      - Step 5: Test the Cluster Step by Step 
 
-  - Step 4: Check Cluster and Instance Health (p. 264)
-  
-    - Step 5: Check for Arrested Groups (p. 265)
-    - Step 6: Review Configuration Settings (p. 266)
-    - Step 7: Examine Input Data (p. 267)
-    
-- Common Errors in Amazon EMR
+    - Troubleshoot a Slow Cluster
 
-  - Input and Output Errors (p. 268)
-  - Permissions Errors (p. 270)
-  - Resource Errors (p. 270)
-  - Streaming Cluster Errors (p. 275)
-  - Custom JAR Cluster Errors (p. 276)
-  - Hive Cluster Errors (p. 277)
-  - VPC Errors (p. 278)
-  - AWS GovCloud (US)
-  - Errors (p. 280)
-  - Other Issues (p. 281)
+      - Step 1: Gather Data About the Issue
+      - Step 2: Check the Environment
+      - Step 3: Examine the Log Files
+
+    - Step 4: Check Cluster and Instance Health
+
+      - Step 5: Check for Arrested Groups
+      - Step 6: Review Configuration Settings
+      - Step 7: Examine Input Data
+
+  - Common Errors in Amazon EMR
+
+    - Input and Output Errors
+    - Permissions Errors
+    - Resource Errors 
+    - Streaming Cluster Errors 
+    - Custom JAR Cluster Errors 
+    - Hive Cluster Errors
+    - VPC Errors
+    - Errors
 
 - EMR Logs
 

@@ -1,13 +1,13 @@
 Airflow Installation
 --------------------
 
-It explain the steps involved in installing Airflow on Centos and RHEL. Detailed Airflow Install Instructions is at:
+Below are the steps for installing Airflow on Centos and RHEL. Detailed Airflow Install Instructions are at:
 
 https://airflow.apache.org/installation.html
 
 - Login to machine
 
-- Before installing airflow update installed package:
+- Before installing airflow, update installed package:
  - yum -y update
  
 - Install python-pip and any required packages: 

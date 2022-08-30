@@ -13,7 +13,7 @@ A Pipeline can have the following node types:
 
 .. note:: Workflow node is available only when Airflow Server is not configured.
 
-Below are list of nodes available when ''Airflow'' is enabled.
+Below are list of nodes available when ''Airflow'' is enabled in Fire Insights by default.
 
 *   ``Branch Python Operator`` node can be used to execute flow depends on return value from the previous task.
 *   ``Bash Operator`` node can be used to executes the commands depends on selected trigger rule.

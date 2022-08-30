@@ -94,6 +94,10 @@ Various ``Nodes`` can be added to a Pipeline. Some of them are listed below:
 *   ``Branch Python Operator`` node can be used to execute flow depends on return value from the previous task.
 *   ``Bash Operator`` node can be used to executes the commands depends on selected trigger rule.
 *   ``Python Operator`` node can be used to execute python code using python operator.
+*   ``Add step to EMR cluster`` node can be used to add step to EMR cluster and execute the arguments as one command using command-runner.jar.
+*   ``Create EMR cluster`` node can be used to creates a new EMR cluster by using details in configuration and pass the emr_id to next step.
+*   ``Terminate EMR cluster`` node can be used to terminates previously started EMR cluster.
+*   ``EMR Workflow`` node can be used to allow to user to add the workflow in project to emr step to execute.
 *	``Shell Commands`` node can be used to execute a shell command.
 *	``Create EMR Cluster`` node can be used to create an EMR cluster based on the parameters passed.
 * 	``XML Parser`` node can be used to parse an XML file.

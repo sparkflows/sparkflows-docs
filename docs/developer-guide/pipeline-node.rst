@@ -29,12 +29,12 @@ Below are list of nodes available when ''Airflow'' is enabled.
 *   ``S3 sensor`` node supports airflow s3_key_sensor operations.
 *   ``Trigger next dag run``  node can be used to trigger other pipeline dag.
 
-spark-submit-with-parameters
+XMLParser
 ------------------------
 
-Multiple spark-submit-with-parameters nodes can be added to Fire Insights by adding multiple JSON files.
+XMLParser nodes can be added to Fire Insights by adding JSON files.
 
-Below is an example JSON for a spark-submit-with-parameters node which parses XML files.
+Below is an example JSON for a XMLParser node which parses XML files.
 
 ```
 JSON

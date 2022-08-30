@@ -29,6 +29,51 @@ Below are list of nodes available when ''Airflow'' is enabled.
 *   ``S3 sensor`` node supports airflow s3_key_sensor operations.
 *   ``Trigger next dag run``  node can be used to trigger other pipeline dag.
 
+
+Create EMR cluster
+----------
+
+Create EMR cluster node can be used to creates a new EMR cluster by using details in configuration and pass the emr_id to next step.
+
+Below is an example JSON for a Create EMR cluster node.
+
+```
+JSON
+```
+
+::
+
+    {
+  "id": "6",
+  "name": "Create EMR cluster",
+  "description": "This node creates a new EMR cluster by using details in configuration and pass the emr_id to next step..",
+  "type": "emr",
+  "nodeClass": "fire.pipelineNodes.EMR",
+  "fields" : [
+
+    {"name": "notes", "value":"", "widget": "textfield", "title": "Notes", "description": "Notes"},
+
+
+    {"name": "Name", "value":"", "required":true, "widget": "textfield", "title": "Task Name", "description": "Name of the task in airflow dag and it's should unique in the dag." },
+	{"name": "ReleaseLabel", "value":"emr-6.2.0", "required":true, "widget": "textfield", "title": "Release Label", "description": "ReleaseLabel like emr-6.2.0 ,emr-6.2.1, emr-6.3.0 etc" },
+    {"name": "LogUri", "value":"s3://aws-logs-us-east-1/elasticmapreduce/", "required":true, "widget": "textfield", "title": "Log Uri", "description": "LogUri Path" },
+	{"name": "Applications", "value":"Spark", "required":true, "widget": "textfield", "title": "Applications", "description": "Applications Name is Spark" },
+	{"name": "JobFlowRole", "value":"EMR_EC2_DefaultRole", "required":true, "widget": "textfield", "title": "JobFlow Role", "description": "The IAM role that was specified when the job flow was launched. The EC2 instances of the job flow assume this role." },
+	{"name": "ServiceRole", "value":"EMR_DefaultRole", "required":true, "widget": "textfield", "title": "Service Role", "description": "The IAM role that is assumed by the Amazon EMR service to access Amazon Web Services resources on your behalf." },
+	{"name": "KeepJobFlowAliveWhenNoSteps", "value":"False", "required":true, "widget": "array", "optionsArray": ["True","False"],"title": "Keep JobFlow Alive When No Steps", "description": "Specifies whether the cluster should remain available after completing all steps. Defaults to true." },
+	{"name": "TerminationProtected", "value":"False", "required":true, "widget": "array", "optionsArray": ["True","False"], "title": "Termination Protected", "description": "Indicates whether Amazon EMR will lock the cluster to prevent the EC2 instances from being terminated by an API call or user intervention, or in the event of a cluster error." },
+	{"name": "EmrManagedMasterSecurityGroup", "value":"", "required":true, "widget": "textfield", "title": "Emr Managed Master SecurityGroup", "description": "Parameter to specify a custom managed security group for the master instance." },
+	{"name": "EmrManagedSlaveSecurityGroup", "value":"", "required":true, "widget": "textfield", "title": "Emr Managed Slave SecurityGroup", "description": "Parameter to specify a custom managed security group for core and task instances." },
+	{"name": "InstanceGroups", "value":"[]", "required":true, "widget": "variablesList", "optionsArray": ["Name","InstanceRole","InstanceType","InstanceCount"], "title": "InstanceGroups", "description": "InstanceRole: Instance group role in the cluster, InstanceType: EC2 instance type, InstanceCount:Actual count of running instances.." }
+
+
+  ]
+  }
+
+
+
+
+
 XMLParser
 ------------------------
 

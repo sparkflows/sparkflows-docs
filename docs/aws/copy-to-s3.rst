@@ -1,45 +1,61 @@
 Copying files to S3 with aws-cli
 ===========
 
-There would be times when you want to upload multiple files from your laptop to S3. This document describes the process for it.
+There would be times when you want to upload multiple files from your laptop to an S3 bucket. This document describes the process for it.
+Below are the overall steps for Copying files to an S3 bucket using aws-cli
+
+1. *Install aws-cli on machine if not already done*
+2. *Configure AWS Credentials*
+3. *View the S3 Bucket*
+4. *View the S3 Directory*
+5. *Copy files to the S3 bucket*
+6. *Delete all files in directory*
 
 Installing aws-cli on mac
 ------------------------
-
-  brew install awscli
+..  code::
+ 
+ brew install aws-cli
 
 
 Configure AWS Credentials
 -------------------------
+.. code::
+  
+  aws configure
 
-aws configure::
-
-  - Enter your awsAccessKeyId
-  - Entery your awsSecretAccessKey
+  Enter your awsAccessKeyId:
+  Enter your awsSecretAccessKey:
+  Enter default region name:
+  Enter default output format:
   
 
 View S3 Buckets
 ---------------
-
-- aws s3 ls
+.. code::
+  
+  aws s3 ls
 
 View S3 Directory
 ---------------
+.. code::
 
-- aws s3 ls s3://bucket_name/dir1/
+  aws s3 ls s3://bucket_name/dir1/
 
 Copy files to S3
 ---------------------
 
-Copy all files from local_direcory to s3://bucket-name/dir1::
+In order to copy all files from local_direcory to s3://bucket-name/dir1::
+.. code::
 
   aws s3 cp local_directory s3://bucket-name/dir1 --recursive
 
 
 Delete All Files in Directory
 -------------------------
+.. code::
 
-- aws s3 rm s3://bucket_name/dir1/ --recursive
+  aws s3 rm s3://bucket_name/dir1/ --recursive
 
 
 Setting Roles and Policies for EMR

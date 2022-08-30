@@ -56,19 +56,19 @@ JSON
     {"name": "ActionOnFailure", "value":"CONTINUE", "required":true, "widget": "array", "optionsArray": ["CANCEL_AND_WAIT", "CONTINUE", "TERMINATE_JOB_FLOW", "TERMINATE_CLUSTER"], "title": "ActionOnFailure", "description": "Action On Failure" },
 
     {"name": "deploy-mode", "value":"client", "widget": "array", "optionsArray": ["client","cluster"], "title": "Deploy Mode", "description": "Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client)", "required": true},
-    {"name": "jars", "value":"s3://fire-sample-data/change-health/jar/spark-xml_2.12-0.12.0.jar", "widget": "textfield", "title": "Jars", "description": "Comma separted jars path location", "required": true},
+    {"name": "jars", "value":"s3://fire-sample-data/health/jar/spark-xml_2.12-0.12.0.jar", "widget": "textfield", "title": "Jars", "description": "Comma separted jars path location", "required": true},
     {"name": "files", "value":"s3://fire-sample-data/change-health/log4j/log4j.properties", "widget": "textfield", "title": "Files", "description": "Comma-separated list of files to be placed in the working directory of each executor."},
     {"name": "conf", "value":"spark.dynamicAllocation.enabled=true", "widget": "textfield", "title": "Configuration", "description": "Arbitrary Spark configuration property in key=value format. Multiple configurations should be passed with comma separation. (e.g. <key>=<value>,<key2>=<value2>)"},
     {"name": "class", "value":"com.changehealthcare.ingestion.interop.pipeline.XmlReaderPipelineMain", "widget": "textfield", "title": "Class", "description": "The entry point for your application (e.g. org.apache.spark.examples.SparkPi)", "required": true},
-    {"name": "applicationJar", "value":"s3://fire-sample-data/change-health/jar/generic-xmlparser_2.12-EMR-6.2_3.0.0-SNAPSHOT-assembly.jar", "widget": "textfield", "title": "Application Jar", "description": "Path to a bundled jar including your application and all dependencies.", "required": true},
+    {"name": "applicationJar", "value":"s3://fire-sample-data/health/jar/generic-xmlparser_2.12-EMR-6.2_3.0.0-SNAPSHOT-assembly.jar", "widget": "textfield", "title": "Application Jar", "description": "Path to a bundled jar including your application and all dependencies.", "required": true},
   
    {"name": "parameters", "value":"", "widget": "tab", "title": "Parameters"},
    
    {"name": "name", "value":"Ingestion-edi270", "widget": "textfield", "title": "Name", "description": ""},
    {"name": "inputBasePath", "value":"hdfs:///interoperability/valid/270", "widget": "textfield", "title": "InputBasePath", "description": ""},
-   {"name": "sourceBasePath", "value":"s3://fire-sample-data/change-health/input ", "widget": "textfield", "title": "SourceBasePath", "description": ""},
+   {"name": "sourceBasePath", "value":"s3://fire-sample-data/health/input ", "widget": "textfield", "title": "SourceBasePath", "description": ""},
    {"name": "inputPathOrder", "value":"version,year,month,day,hour", "widget": "textfield", "title": "InputPathOrder", "description": ""},
-   {"name": "outputBasePath", "value":"s3://fire-sample-data/change-health/outputIngestion", "widget": "textfield", "title": "OutputBasePath", "description": ""},
+   {"name": "outputBasePath", "value":"s3://fire-sample-data/health/outputIngestion", "widget": "textfield", "title": "OutputBasePath", "description": ""},
    {"name": "validateXML", "value":"true", "widget": "textfield", "title": "ValidateXML", "description": ""},
    {"name": "processPartialInput", "value":"true", "widget": "textfield", "title": "ProcessPartialInput", "description": ""},
    {"name": "RootTag", "value":"X12", "widget": "textfield", "title": "RootTag", "description": ""},
@@ -80,4 +80,4 @@ JSON
    {"name": "hour", "value":"04", "widget": "textfield", "title": "Hour", "description": ""}
 	
   ]
-}
+  }

@@ -91,6 +91,9 @@ Following steps can be taken to create a Pipeline:
 Various ``Nodes`` can be added to a Pipeline. Some of them are listed below:
 
 *	``Workflow`` node can be added to a Pipeline to execute a Workflow. A ``Workflow`` node can be connected to another ``Workflow`` node thus forming a series of workflows that can be executed one after another.
+*   ``Branch Python Operator`` node can be used to execute flow depends on return value from the previous task.
+*   ``Bash Operator`` node can be used to executes the commands depends on selected trigger rule.
+*   ``Python Operator`` node can be used to execute python code using python operator.
 *	``Shell Commands`` node can be used to execute a shell command.
 *	``Create EMR Cluster`` node can be used to create an EMR cluster based on the parameters passed.
 * 	``XML Parser`` node can be used to parse an XML file.

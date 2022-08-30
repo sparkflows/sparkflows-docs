@@ -107,9 +107,9 @@ Below are list of nodes available when ''Airflow'' is enabled.
 *   ``XMLMapping`` node can be used as Lego Block: Execute Mapping Language Pipeline (a wrapper around Mapping Language Engine).
 *   ``XMLParser`` node can be used as Lego Block: Execute Generic XML Parser (a wrapper around Spark XML).
 *   ``EMR Step Sensor operator`` node will periodically check if that last added steps in EMR is completed or skipped or terminated.
-*	``Shell Commands`` node can be used to execute a shell command.
-*	``Create EMR Cluster`` node can be used to create an EMR cluster based on the parameters passed.
-* 	``XML Parser`` node can be used to parse an XML file.
+*   ``S3 sensor`` node supports airflow s3_key_sensor operations.
+*   ``Trigger next dag run``  node can be used to trigger other pipeline dag.
+
 
 Below is an example a Pipeline with multiple Workflows.
 

@@ -5,25 +5,26 @@ Fire can be easily installed on an AWS EMR Cluster. Fire can be installed on the
 
 Below are the overall steps for installing Fire Insights on EMR.
 
-- *ssh into the Master node*
-- *Download Fire Insights* from https://www.sparkflows.io/download
-- *Unzip it*
-- *Create H2 Database*
-- *Start Fire*
+1. *Start EMR Cluster on AWS*
+2. *Update inbound rules for Master Node if necessary*
+3. *ssh into the Master node*
+4. *Download Fire Insights* from https://www.sparkflows.io/download
+5. *Unzip it*
+6. *Create H2 Database*
+7. *Start Fire*
 
 Steps
 ------
 
-* Start your EMR cluster on AWS::
+* Start your EMR cluster on AWS:
 
-    Start your EMR cluster on AWS if you do not already have it running.
+   Start your EMR cluster on AWS if you do not already have it running.
 
-* Update the inbound rules for the Master Node::
+* Update the inbound rules for the Master Node:
 
-    - We would have Fire listening on ports 8085 and 8086
-    - Fire by default listens on 8080 and 8443. But EMR clusters have other processes listening on these ports. 
-    - So we will later change it to listen on ports 8085 and 8086
-    - Update the inbound rules for the Master Node to allow ports 8085 and 8086
+    Fire by default listens on **8080** and **8443**, but EMR clusters have other processes listening on these ports. 
+    So we will later change it to listen on ports **8085** and **8086**
+    Update the inbound rules for the Master Node to allow ports **8085** and **8086**
 
 * ssh into the Master EMR node as the ``hadoop`` user::
 
@@ -50,13 +51,13 @@ Steps
 
     - cd <fire install_dir>
     - Edit conf/application.properties
-    - Update the last two lines to below:
+    - Set the http port and the https port to below:
         http.port=8085
         https.port=8086
 
 * Create H2 DB::
 
-    Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database.
+      Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database
 
       cd <fire install_dir>
       ./create-h2-db.sh
@@ -68,7 +69,7 @@ Steps
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8085/index.html
+    <machine_name>:8085
 
 * Login with the following default username and password:: 
 
@@ -114,10 +115,10 @@ Adding a new user
 
 Create the home directory on HDFS for the new user.
 
-For example, for user 'test':
+For example, for user 'test'::
 
-- hadoop fs -mkdir /user/test
-- hadoop fs -chown test:test /user/test
+ hadoop fs -mkdir /user/test
+ hadoop fs -chown test:test /user/test
 
 Create the user in Fire Insights if not already created.
 
@@ -135,10 +136,10 @@ Emr needs an extra configurations for running h2o workflow, which can be added w
 Extra configuration for running PySpark
 ---------------------------------------
 
-EMR needs extra configurations when running PySpark. In the below the python 3.6 virtual environment is installed in the directory /home/hadoop/venv
+EMR needs extra configurations when running PySpark. In the below the python 3.6 virtual environment is installed in the directory /home/hadoop/venv::
 
-- export SPARK_HOME=/usr/lib/spark/
-- export PYSPARK_PYTHON=/home/hadoop/venv/bin/python
-- export YARN_CONF_DIR=/etc/hadoop/conf
+ export SPARK_HOME=/usr/lib/spark/
+ export PYSPARK_PYTHON=/home/hadoop/venv/bin/python
+ export YARN_CONF_DIR=/etc/hadoop/conf
 
 

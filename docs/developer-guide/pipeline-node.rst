@@ -126,3 +126,55 @@ JSON
 	
   ]
   }
+
+
+XMLMapping
+-----
+
+XMLMapping node can be used as Lego Block: Execute Mapping Language Pipeline (a wrapper around Mapping Language Engine).
+
+Below is an example JSON for a XMLMapping node which XML Mapping files.
+
+```
+JSON
+```
+
+::
+
+    {
+  "id": "3",
+  "name": "XMLMapping",
+  "description": "Lego Block: Execute Mapping Language Pipeline (a wrapper around Mapping Language Engine)",
+  "type": "legoblock",
+  "nodeClass": "fire.pipelineNodes.Mapping",
+  "fields" : [ 
+    {"name": "notes", "value":"", "widget": "textfield", "title": "Notes", "description": "Notes"},
+    {"name": "Name", "value":"", "required":true, "widget": "textfield", "title": "Task Name", "description": "Name of the task in airflow dag and it should be unique in the dag."},
+    {"name": "ClusterId", "value":"", "required":false, "widget": "textfield", "title": "Cluster Id", "description": "If Cluster Id is empty, step try to pick the cluster id from previous create emr node(task)." },
+
+    {"name": "ActionOnFailure", "value":"CONTINUE", "required":true, "widget": "array", "optionsArray": ["CANCEL_AND_WAIT", "CONTINUE", "TERMINATE_JOB_FLOW", "TERMINATE_CLUSTER"], "title": "ActionOnFailure", "description": "Action On Failure" },
+
+    {"name": "deploy-mode", "value":"client", "widget": "array", "optionsArray": ["client","cluster"], "title": "Deploy Mode", "description": "Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client)", "required": true},
+    {"name": "files", "value":"s3://fire-sample-data/health/log4j/log4j.properties", "widget": "textfield", "title": "Files", "description": "Comma-separated list of files to be placed in the working directory of each executor."},
+    {"name": "conf", "value":"spark.dynamicAllocation.enabled=true", "widget": "textfield", "title": "Configuration", "description": "Arbitrary Spark configuration property in key=value format. Multiple configurations should be passed with comma separation. (e.g. <key>=<value>,<key2>=<value2>)"},
+    {"name": "class", "value":"com.changehealthcare.ingestion.mappinglanguage.pipeline.pipeline.PipelineMain", "widget": "textfield", "title": "Class", "description": "The entry point for your application (e.g. org.apache.spark.examples.SparkPi)", "required": true},
+    {"name": "applicationJar", "value":"s3://fire-sample-data/health/jar/ihdp-mapping-language-pipeline_2.12-EMR-6.2_3.7.0-SNAPSHOT-assembly.jar", "widget": "textfield", "title": "Application Jar", "description": "Path to a bundled jar including your application and all dependencies.", "required": true},
+  
+   {"name": "parameters", "value":"", "widget": "tab", "title": "Parameters"},
+   
+   {"name": "name", "value":"270ToNDM", "widget": "textfield", "title": "Name", "description": ""},
+   {"name": "spark.transform", "value":"270", "widget": "textfield", "title": "SparkTransform", "description": ""},
+   {"name": "dataSource.type", "value":"system ", "widget": "textfield", "title": "DataSourceType", "description": ""},
+   {"name": "inputBasePath", "value":"s3://fire-sample-data/health/outputIngestion", "widget": "textfield", "title": "InputBasePath", "description": ""},
+   {"name": "inputPathOrder", "value":"version,year,month,day,hour", "widget": "textfield", "title": "InputPathOrder", "description": ""},
+   {"name": "outputBasePath", "value":"s3://fire-sample-data/health/outputEngine", "widget": "textfield", "title": "OutputBasePath", "description": ""},
+   {"name": "outputPathOrder", "value":"version,year,month,day,hour", "widget": "textfield", "title": "OutputPathOrder", "description": ""},
+   {"name": "version", "value":"1-2", "widget": "textfield", "title": "Version", "description": ""},
+   {"name": "year", "value":"2022", "widget": "textfield", "title": "Year", "description": ""},
+   {"name": "month", "value":"03", "widget": "textfield", "title": "Month", "description": ""},
+   {"name": "day", "value":"30", "widget": "textfield", "title": "Day", "description": ""},
+   {"name": "hour", "value":"04", "widget": "textfield", "title": "Hour", "description": ""},
+    {"name": "enableTransformPipelineFeature", "value":"true", "widget": "textfield", "title": "Enable Transform Pipeline Feature", "description": ""}
+    
+  ]
+  }

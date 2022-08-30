@@ -102,9 +102,9 @@ JSON
 
     {"name": "deploy-mode", "value":"client", "widget": "array", "optionsArray": ["client","cluster"], "title": "Deploy Mode", "description": "Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client)", "required": true},
     {"name": "jars", "value":"s3://fire-sample-data/health/jar/spark-xml_2.12-0.12.0.jar", "widget": "textfield", "title": "Jars", "description": "Comma separted jars path location", "required": true},
-    {"name": "files", "value":"s3://fire-sample-data/change-health/log4j/log4j.properties", "widget": "textfield", "title": "Files", "description": "Comma-separated list of files to be placed in the working directory of each executor."},
+    {"name": "files", "value":"s3://fire-sample-data/health/log4j/log4j.properties", "widget": "textfield", "title": "Files", "description": "Comma-separated list of files to be placed in the working directory of each executor."},
     {"name": "conf", "value":"spark.dynamicAllocation.enabled=true", "widget": "textfield", "title": "Configuration", "description": "Arbitrary Spark configuration property in key=value format. Multiple configurations should be passed with comma separation. (e.g. <key>=<value>,<key2>=<value2>)"},
-    {"name": "class", "value":"com.changehealthcare.ingestion.interop.pipeline.XmlReaderPipelineMain", "widget": "textfield", "title": "Class", "description": "The entry point for your application (e.g. org.apache.spark.examples.SparkPi)", "required": true},
+    {"name": "class", "value":"com.fire.ingestion.interop.pipeline.XmlReaderPipelineMain", "widget": "textfield", "title": "Class", "description": "The entry point for your application (e.g. org.apache.spark.examples.SparkPi)", "required": true},
     {"name": "applicationJar", "value":"s3://fire-sample-data/health/jar/generic-xmlparser_2.12-EMR-6.2_3.0.0-SNAPSHOT-assembly.jar", "widget": "textfield", "title": "Application Jar", "description": "Path to a bundled jar including your application and all dependencies.", "required": true},
   
    {"name": "parameters", "value":"", "widget": "tab", "title": "Parameters"},

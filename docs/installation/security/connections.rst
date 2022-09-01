@@ -28,6 +28,6 @@ In Fire Insights ''Storage Connection'' currently have below support:
   * Red Shift
   * SQL Server
   * Snowflake
-  * etc.
+
   
   

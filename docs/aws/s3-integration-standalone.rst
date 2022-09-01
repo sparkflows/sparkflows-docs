@@ -16,7 +16,8 @@ Installing aws cli
 ---------------
 
 - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
-- pip install awscli --upgrade --user
+:code:`pip install awscli --upgrade --user`
+
 
 Configuring AWS access key and password
 -----------------------------------

@@ -1,13 +1,13 @@
 Testing Fire Insights on AWS
 ============================
 
-After you have deployed Fire Insights on AWS, it is a good idea to test things.
+This document describes how to test if Fire Insights is running on AWS.
 
-Below are a few good steps for achieving it:
+Below are the overall steps:
 
-* Ensure you can log into the system
-* View the Sample Applications
-* Execute a workflow on EMR
+1. Ensure you can log into the system
+2. View the Sample Applications
+3. Execute a workflow on EMR
 
 Log into the System
 -------------------

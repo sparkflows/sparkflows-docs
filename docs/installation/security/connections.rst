@@ -1,7 +1,7 @@
 Connections
 -----------
 
-Connections enable access to resources.
+Connections enable access to various resources.
 
 Connections can be at various levels:
 
@@ -10,9 +10,9 @@ Connections can be at various levels:
   * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
   
  
-Fire Insights Comes up with two type of Connections ie ''Compute Connection & Storage Connection`
+Sparkflows Comes up with two type of Connections ie ''Compute Connection & Storage Connection`
 
-In Fire Insights ''Compute Connection'' currently have below support: 
+In Sparkflows ``Compute Connection`` enables the below: 
 
 
   * Databricks 
@@ -20,7 +20,7 @@ In Fire Insights ''Compute Connection'' currently have below support:
   * Livy
   * Spark Submit
 
-In Fire Insights ''Storage Connection'' currently have below support:
+In Sparkflows ``Storage Connection`` enables the below:
 
   * Cassandra
   * Mongo DB
@@ -30,4 +30,4 @@ In Fire Insights ''Storage Connection'' currently have below support:
   * Snowflake
 
   
-  
+ 

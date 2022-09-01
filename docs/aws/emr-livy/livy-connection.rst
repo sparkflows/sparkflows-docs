@@ -1,13 +1,13 @@
 EMR LIVY CONNECTION
 =============
 
-Fire Insights enable you to create Apache Livy Connection and use the Connection to submit the Job.
+Sparkflows enables you to create Apache Livy Connection and use it to submit Jobs/Workflows.
 
-Below are steps on how to create Livy Connection in Fire Insights.
+Below are the steps to create a Livy Connection in Sparkflows.
 
-1. Login to Fire Insights application and enable livy connection from Configurations and then create Global Connections
+1. Enable Livy in Sparkflows
 
-Inorder to enable livy connection from Configurations Click on ''ADMINISTRATION'' tab on top and open Configurations, select ''CONNECTION'' tab and enable below parameter
+Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
 
 ::
 
@@ -16,17 +16,18 @@ Inorder to enable livy connection from Configurations Click on ''ADMINISTRATION'
 .. figure:: ../../_assets/aws/livy/livy_configuration.PNG
    :alt: livy
    :width: 60%
-    
 
-Once you save the above Configurations, Click on ''ADMINISTRATION'' tab on top, it will take you to Global Connections page, on clicking, it will take to configuration page.
+2. Create Global Connections
+
+Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
 .. figure:: ../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
    
-2. Add Connection For Group
+3. Add Connection For Group
 
-Once on Global Connections page Click on ''Add Connection For Group'' which pop up a new windows with Different ``Compute & Storage`` Connection, Select Compute Connection.
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
 .. figure:: ../../_assets/aws/livy/add_connection.PNG
    :alt: livy
@@ -36,9 +37,9 @@ Once on Global Connections page Click on ''Add Connection For Group'' which pop 
    :alt: livy
    :width: 60%   
    
-3. Update below parameter as per your Configurations
+4. Additional parameter as per your environment
 
-Once you Selected ''Connection Type & Groups'', Add the Connection parameters needed.
+Once you Selected Connection Type & Groups, add the additonal Connection parameters needed.
 
 For GENERAL tab :
 
@@ -66,7 +67,7 @@ For GENERAL tab :
      - Add URL for Livy Connection
    * - Driver Class
      - Driver Class for selected Connection type 
-     - it Comes with default value  
+     - It Comes with default value  
      
 .. figure:: ../../_assets/aws/livy/add_general.PNG
    :alt: livy
@@ -86,7 +87,7 @@ For LIVY tab :
      - Jars path located in S3 Location
    * - Pyspark Files
      - Pyspark Files to be used in emr livy session
-     - Pysaprk file located in S3 Location  
+     - Pyspark file located in S3 Location  
    * - Files
      - Files to be used in emr livy session
      - Any Files if needed
@@ -113,7 +114,7 @@ For LIVY tab :
    :alt: livy
    :width: 70%     
 
-.. note:: Make sure to upload ''fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar'' to S3 bucket which is available in Fire Insights binary once you untar that it will be inside ''fire-x.y.z/fire-core-lib'' and it should be accessible from Fire Insights webserver UI.
+.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
 
 .. figure:: ../../_assets/aws/livy/livy_jar.PNG
    :alt: livy
@@ -206,9 +207,9 @@ For YARN tab :
    :alt: livy
    :width: 60%      
 
-4. Test Connection and Save
+5. Test Connection and Save
 
-Once you have updated the above parameters, Test the connection if all looks fine and save the connection.
+Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
 
 .. figure:: ../../_assets/aws/livy/add_test_connection.PNG
    :alt: livy
@@ -218,4 +219,4 @@ Once you have updated the above parameters, Test the connection if all looks fin
    :alt: livy
    :width: 60%   
 
-.. note:: Make sure that Apache Livy URL will be accessible from Fire Insights webserver Url.
+.. Note:: Make sure that Apache Livy URL will be accessible from Sparkflows webserver Url.

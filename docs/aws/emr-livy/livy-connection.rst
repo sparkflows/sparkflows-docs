@@ -219,4 +219,4 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
    :alt: livy
    :width: 60%   
 
-.. Note:: Make sure that Apache Livy URL will be accessible from Sparkflows webserver Url.
+.. Note:: Make sure that Apache Livy URL will be accessible from Sparkflows webserver URL.

@@ -3,6 +3,14 @@ Operational Guide
 
 This document describes details for operating Sparkflows when running on AWS.
 
+Belows are a list of ways you can operate Sparkflow using AWS:
+
+1. *Onboarding New Users*
+2. *Health Check*
+3. *Backup and Recover*
+4. *Routing Maintenance*
+5. *Support*
+
 Onboarding New Users
 --------
 

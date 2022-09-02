@@ -108,3 +108,13 @@ For GLUE Tab :
    * - Workflow Files Directory
      - Directory used for Writing the workflow files
      - Directory used for Writing the workflow files
+
+5. Save Connection
+
+Once you have updated the above parameters, click on  ``Save`` the connection.
+
+
+Documentation
++++++
+
+Reference guide : https://docs.sparkflows.io/en/latest/aws/glue-integration/index.html

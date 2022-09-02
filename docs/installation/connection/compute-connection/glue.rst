@@ -36,7 +36,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
 
 Now update below parameter as per AWS configurations
 
-GENERAL Tab :
+For GENERAL Tab :
 
 .. list-table:: 
    :widths: 10 20 30
@@ -57,7 +57,7 @@ GENERAL Tab :
    * - Description
      - Connection Description
 
-GLUE Tab :
+For GLUE Tab :
 
 .. list-table:: 
    :widths: 10 20 30

@@ -21,7 +21,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: ../../_assets/aws/livy/administration.PNG
+.. figure:: ../..//_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
    

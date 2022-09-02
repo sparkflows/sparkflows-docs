@@ -56,6 +56,7 @@ For GENERAL Tab :
      - Title
    * - Description
      - Connection Description
+     - Connection Description
 
 For GLUE Tab :
 
@@ -97,4 +98,5 @@ For GLUE Tab :
      - AWS Region of Glue
      - AWS Region
    * - Workflow Files Directory
+     - Directory used for Writing the workflow files
      - Directory used for Writing the workflow files

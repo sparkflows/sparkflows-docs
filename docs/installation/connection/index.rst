@@ -9,7 +9,7 @@ Sparkflows Comes up with two type of Connections ie ''Compute Connection & Stora
 .. toctree::
    :maxdepth: 2
 
-   compute-connection/index
-   storage-connection/index
+   compute-connection/index.rst
+   storage-connection/index.rst
 
    

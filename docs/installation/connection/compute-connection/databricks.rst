@@ -82,7 +82,7 @@ DATABRICKS Tab :
    :alt: connection
    :width: 60%    
 
-2.  TEST & Save the Connection
+2.  TEST CONNECTION & Save the Connection
 
 Once you Save the Connection, it can be used for Submitting the job on specific Databricks Cluster.
 

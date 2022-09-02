@@ -13,7 +13,7 @@ Below are steps on how to create Databricks Connection:
 
 1. Login to Sparkflows WEB Server Url
 
-It can be created by the Administrator under Administration/Global Connections. These connections are available for everyone to use.
+It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 

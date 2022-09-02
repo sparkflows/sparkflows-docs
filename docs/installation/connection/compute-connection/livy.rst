@@ -1,5 +1,5 @@
 EMR LIVY CONNECTION
-=============
+--------------
 
 Sparkflows enables you to create Apache Livy Connection and use it to submit Jobs/Workflows.
 

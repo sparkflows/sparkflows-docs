@@ -13,6 +13,6 @@ In Sparkflows ``Compute Connection`` enables the below:
   
   
 .. toctree::
-   :maxdepth: 2  
+   :maxdepth: 2
 
    databricks.rst

@@ -3,6 +3,12 @@ EMR LIVY CONNECTION
 
 Sparkflows enables you to create Apache Livy Connection and use it to submit Jobs/Workflows.
 
+Connections can be at various levels:
+
+  * Global : Everyone has access to these connections
+  * Group : Users belonging to the group have access to these connections
+  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+
 Below are the steps to create a Livy Connection in Sparkflows.
 
 1. Enable Livy in Sparkflows
@@ -218,5 +224,10 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_list.PNG
    :alt: livy
    :width: 60%   
+
+Documentation
++++++
+
+Reference guide : https://docs.sparkflows.io/en/latest/aws/emr-livy/index.html
 
 .. Note:: Make sure that Apache Livy URL will be accessible from Sparkflows webserver URL.

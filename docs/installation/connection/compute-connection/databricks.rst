@@ -82,5 +82,13 @@ DATABRICKS Tab :
    :alt: connection
    :width: 60%    
 
+2.  TEST & Save the Connection
+
+Once you Save the Connection, it can be used for Submitting the job on specific Databricks Cluster.
+
+Documentation
++++++
+
+Reference guide : https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html
 
 .. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.

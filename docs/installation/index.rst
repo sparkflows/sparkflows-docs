@@ -12,7 +12,7 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
    authentication/index
    loadbalancer/index
    administration/index
-   connection/index
+   connection/index.rst
    security/index
    operating/index
    credential-store/index

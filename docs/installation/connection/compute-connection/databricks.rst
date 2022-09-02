@@ -77,6 +77,7 @@ DATABRICKS Tab :
    * - DBFS Scratch directory
      - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
 
+
 .. figure:: ../../_assets/installation/connection/databricks_other.PNG
    :alt: connection
    :width: 60%    

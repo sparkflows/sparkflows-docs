@@ -52,6 +52,9 @@ GENERAL Tab :
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
      
+.. figure:: ../../_assets/installation/connection/databricks_general.PNG
+   :alt: connection
+   :width: 60%    
 
 DATABRICKS Tab :
 
@@ -74,4 +77,9 @@ DATABRICKS Tab :
    * - DBFS Scratch directory
      - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
 
-.. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Fire Insights using this URL or else it will take from ``app.postMessageURL``, added in configuration.
+.. figure:: ../../_assets/installation/connection/databricks_other.PNG
+   :alt: connection
+   :width: 60%    
+
+
+.. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.

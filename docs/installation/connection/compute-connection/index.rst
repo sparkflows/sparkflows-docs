@@ -16,3 +16,4 @@ In Sparkflows ``Compute Connection`` enables the below:
    :maxdepth: 2
 
    databricks.rst
+   livy.rst

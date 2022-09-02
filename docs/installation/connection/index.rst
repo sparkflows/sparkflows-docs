@@ -1,5 +1,5 @@
 Connections
-=========
+-----------
 
 Sparkflows enable you to create different connections.
 

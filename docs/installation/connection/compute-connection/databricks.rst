@@ -15,7 +15,7 @@ Below are steps on how to create Databricks Connection:
 
 It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
-It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
+GENERAL Tab :
 
 .. list-table:: 
    :widths: 10 20 20
@@ -29,7 +29,7 @@ It can also be created by any user with their Application. In this case, it is o
      - Choose specific Credential Store from drop-down or Select Do not use Credential Store
    * - Select Category
      - Select Category of Connection Type
-     - Select Databricks
+     - Select Compute Connection
    * - CONNECTION TYPE 
      - Select the Connection type from drop-down
      - Choose Databricks as Connection Type
@@ -53,5 +53,25 @@ It can also be created by any user with their Application. In this case, it is o
      - Add Jdbc Url for Databricks Connection
      
 
+DATABRICKS Tab :
+
+.. list-table:: 
+   :widths: 10 20 20
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Fire core jar
+     - path of Fire core jar dependencies
+     - Absolute path of Fire core jar  
+   * - Python file
+     - path of Pyspark main file
+     - Absolute path of Pyspark main file
+   * - Fire pyspark libraries
+     - path of Fire pyspark libraries
+     - Absolute path of Fire pyspark libraries
+   * - DBFS Scratch directory
+     - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
 
 .. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Fire Insights using this URL or else it will take from ``app.postMessageURL``, added in configuration.

@@ -31,6 +31,9 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/glue_connection.PNG
+   :alt: livy
+   :width: 60%
 
 4. Update below parameter as per our configurations
 
@@ -57,6 +60,11 @@ For GENERAL Tab :
    * - Description
      - Connection Description
      - Connection Description
+
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/glue_general.PNG
+   :alt: livy
+   :width: 60%
+
 
 For GLUE Tab :
 

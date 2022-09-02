@@ -36,6 +36,8 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
 
 Now update below parameter as per AWS configurations
 
+GENERAL Tab :
+
 .. list-table:: 
    :widths: 10 20 30
    :header-rows: 1
@@ -43,9 +45,27 @@ Now update below parameter as per AWS configurations
    * - Title
      - Description
      - Value
-   * - Enable/Disable workflow execution on AWS Glue
-     - Enable/Disable workflow execution on AWS Glue
-     - true
+   * - Connection name
+     - Connection name
+     - Connection name
+   * - Postback Url
+     - Postback Url
+     - Postback Url
+   * - Title
+     - Title
+     - Title
+   * - Description
+     - Connection Description
+
+GLUE Tab :
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
    * - Script Location
      - Glue script location
      - s3://aws-glue-scripts/scripts/FireGlueApp.scala
@@ -73,3 +93,8 @@ Now update below parameter as per AWS configurations
    * - Glue Connections
      - Glue connection names. Input the glue connection names as comma separated value like Glue-conn, Glue-conn1
      - Glue-Fire
+   * - AWS Region
+     - AWS Region of Glue
+     - AWS Region
+   * - Workflow Files Directory
+     - Directory used for Writing the workflow files

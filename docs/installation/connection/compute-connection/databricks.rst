@@ -52,7 +52,7 @@ GENERAL Tab :
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
      
-.. figure:: ../../__assets/installation/connection/databricks_general.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/databricks_general.PNG
    :alt: connection
    :width: 60%    
 
@@ -78,7 +78,7 @@ DATABRICKS Tab :
      - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
 
 
-.. figure:: ../../_assets/installation/connection/databricks_other.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/databricks_other.PNG
    :alt: connection
    :width: 60%    
 

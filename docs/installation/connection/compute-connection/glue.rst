@@ -9,7 +9,7 @@ Connections can be at various levels:
   * Group : Users belonging to the group have access to these connections
   * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
 
-Below are steps on how to create Glue Connection:
+Below are steps on how to create Glue Connection :
 
 1. Enable Glue in Sparkflows
 
@@ -104,7 +104,7 @@ For GLUE Tab :
      - Glue-Fire
    * - AWS Region
      - AWS Region of Glue
-     - AWS Region
+     - AWS Region where Glue is deployed
    * - Workflow Files Directory
      - Directory used for Writing the workflow files
      - Directory used for Writing the workflow files

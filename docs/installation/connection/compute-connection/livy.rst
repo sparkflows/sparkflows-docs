@@ -13,7 +13,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.livy.enabled : true
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/tree/master/docs/_assets/aws/livy/livy_configuration.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/livy_configuration.PNG
    :alt: livy
    :width: 60%
 

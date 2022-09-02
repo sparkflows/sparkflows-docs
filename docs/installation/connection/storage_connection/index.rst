@@ -13,6 +13,6 @@ In Sparkflows ``Storage Connection`` enables the below:
   * Snowflake
   
 .. toctree::
-   :maxdepth: 2  
+   :maxdepth: 2
 
    mysql.rst

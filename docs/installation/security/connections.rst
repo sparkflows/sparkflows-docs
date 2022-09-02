@@ -10,7 +10,7 @@ Connections can be at various levels:
   * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
   
  
-Sparkflows Comes up with two type of Connections ie ''Compute Connection & Storage Connection`
+Sparkflows Comes up with two type of Connections ie ''Compute Connection & Storage Connection''.
 
 In Sparkflows ``Compute Connection`` enables the below: 
 

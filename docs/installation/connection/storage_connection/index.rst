@@ -14,3 +14,5 @@ In Sparkflows ``Storage Connection`` enables the below:
   
 .. toctree::
    :maxdepth: 2  
+
+   mysql.rst

@@ -11,7 +11,7 @@ Connections can be at various levels:
 
 Below are steps on how to create Glue Connection:
 
-1. Enable Livy in Sparkflows
+1. Enable Glue in Sparkflows
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Glue connection by setting the below parameter:
 
@@ -27,7 +27,12 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
    :alt: livy
    :width: 60%
 
-2. Update below parameter as per our configurations
+3. Add Connection For Group
+
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+
+
+4. Update below parameter as per our configurations
 
 Now update below parameter as per AWS configurations
 

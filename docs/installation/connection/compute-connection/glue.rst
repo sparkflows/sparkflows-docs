@@ -23,7 +23,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/administration.PNG
+.. figure:: /../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
 
@@ -31,7 +31,7 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/glue_connection.PNG
+.. figure:: /../_assets/installation/connection/glue_connection.PNG
    :alt: livy
    :width: 60%
 
@@ -61,7 +61,7 @@ For GENERAL Tab :
      - Connection Description
      - Connection Description
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/glue_general.PNG
+.. figure:: /../_assets/installation/connection/glue_general.PNG
    :alt: livy
    :width: 60%
 

@@ -80,19 +80,21 @@ Above steps will create the LDAP user in sparkflows database and user deatils ca
 Search Order
 -----------
 
-Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ldap.Order.
+Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ``ldap.Order``.
 
 If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
 
 
 User Login
 ----------
-Once the above steps are done with your admin account.
 
-In application.properties update **sparkflows.authentication.ldap.enable = true** to enable all the authentication for login in Sparkflows are done against LDAP.
-Once the property is updated, restart the fire-server to take the effect.
+Once the above steps are done log in with your admin account.
 
-Now synced users will autenticated with LDAP and admin account will get autenticated with DB.
+In application.properties update **sparkflows.authentication.ldap.enable = true** to enable authentication to be done against LDAP.
+
+Once the above property is updated, restart the fire-server for the changes take effect.
+
+Now the users would authenticated with LDAP and admin account will get authenticated with DB.
 
 Reference
 ---------

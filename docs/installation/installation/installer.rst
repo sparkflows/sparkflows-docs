@@ -28,9 +28,10 @@ Execute the installer with ::
 
   java -jar sparkflows-installer-1.0.jar
 
-Default port for sparkflows is : 8080
+By default Fire Insights listens on port 8080 (http) and port 8443 (https).
 
-You can also change the port number while installing or starting the server.
+The port numbers can also be updated in the file conf/application.properties.
+
 
 **When you finish**
 

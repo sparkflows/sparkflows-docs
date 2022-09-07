@@ -1,4 +1,4 @@
-Spark Submit COnnection
+Spark Submit Connection
 ===============
 
 Sparkflows enables you to create spark submit Connection and use it to submit Jobs/Workflows.

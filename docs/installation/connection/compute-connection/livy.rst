@@ -27,7 +27,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/administration.PNG
+.. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
    
@@ -35,11 +35,11 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_connection.PNG
+.. figure:: ../../../_assets/aws/livy/add_connection.PNG
    :alt: livy
    :width: 60%
    
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_livy_connection.PNG
+.. figure:: ../../../_assets/aws/livy/add_livy_connection.PNG
    :alt: livy
    :width: 60%   
    
@@ -75,7 +75,7 @@ For GENERAL tab :
      - Driver Class for selected Connection type 
      - It Comes with default value  
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_general.PNG
+.. figure:: ../../../_assets/aws/livy/add_general.PNG
    :alt: livy
    :width: 60%
 
@@ -116,13 +116,13 @@ For LIVY tab :
      - Num Executors to be used in emr livy session
      - Num Executors if any specific Num Executors you need to pass  
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_livy.PNG
+.. figure:: ../../../_assets/aws/livy/add_livy.PNG
    :alt: livy
    :width: 70%     
 
 .. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/livy_jar.PNG
+.. figure:: ../../../_assets/aws/livy/livy_jar.PNG
    :alt: livy
    :width: 70% 
 
@@ -143,7 +143,7 @@ For HDFS tab :
      - Home Dir under which various directories exist
      - Value  
  
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_hdfs.PNG
+.. figure:: ../../../_assets/aws/livy/add_hdfs.PNG
    :alt: livy
    :width: 60%
 
@@ -163,7 +163,7 @@ For HIVE tab :
      - JDBC DB URL
      - JDBC DB URL for Hive
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_hive.PNG
+.. figure:: ../../../_assets/aws/livy/add_hive.PNG
    :alt: livy
    :width: 60%    
 
@@ -192,7 +192,7 @@ For KERBEROS tab :
      - Kerberos Principal for HiveServer2
      - Value  
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_kerberos.PNG
+.. figure:: ../../../_assets/aws/livy/add_kerberos.PNG
    :alt: livy
    :width: 60%      
 
@@ -209,7 +209,7 @@ For YARN tab :
      - Resource Manager URL
      - Value  
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_yarn.PNG
+.. figure:: ../../../_assets/aws/livy/add_yarn.PNG
    :alt: livy
    :width: 60%      
 
@@ -217,11 +217,11 @@ For YARN tab :
 
 Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_test_connection.PNG
+.. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
    :alt: livy
    :width: 60%
    
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_list.PNG
+.. figure:: ../../../_assets/aws/livy/add_list.PNG
    :alt: livy
    :width: 60%   
 

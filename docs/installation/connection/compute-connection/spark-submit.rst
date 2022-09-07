@@ -36,11 +36,11 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
 .. figure:: ../../../_assets/installation/connection/spark-submit_compute.PNG
-   :alt: livy
+   :alt: connection
    :width: 60%
    
 .. figure:: ../../../_assets/installation/connection/spark-submit_general.PNG
-   :alt: livy
+   :alt: connection
    :width: 60%   
    
 4. Additional parameter as per your environment
@@ -70,7 +70,7 @@ For GENERAL tab :
      - Connection Description
         
 .. figure:: ../../../_assets/installation/connection/spark-submit_general.PNG
-   :alt: livy
+   :alt: connection
    :width: 60%
 
 For SPARK tab :
@@ -125,7 +125,7 @@ For SPARK tab :
      
      
 .. figure:: ../../../_assets/installation/connection/spark-submit_spark.PNG
-   :alt: livy
+   :alt: connection
    :width: 70%     
 
 
@@ -145,8 +145,8 @@ For HDFS tab :
      - Home Dir under which various directories exist
      - Value  
  
-.. figure:: ../../../_assets/aws/livy/add_hdfs.PNG
-   :alt: livy
+.. figure:: ../../../_assets/installation/connection/spark-submit_hdfs.PNG
+   :alt: connection
    :width: 60%
 
 For HIVE tab :
@@ -165,8 +165,8 @@ For HIVE tab :
      - JDBC DB URL
      - JDBC DB URL for Hive
      
-.. figure:: ../../../_assets/aws/livy/add_hive.PNG
-   :alt: livy
+.. figure:: ../../../_assets/installation/connection/spark-submit_hive.PNG
+   :alt: connection
    :width: 60%    
 
 For KERBEROS tab :
@@ -194,8 +194,8 @@ For KERBEROS tab :
      - Kerberos Principal for HiveServer2
      - Value  
      
-.. figure:: ../../../_assets/aws/livy/add_kerberos.PNG
-   :alt: livy
+.. figure:: ../../../_assets/installation/connection/spark-submit_kerberos.PNG
+   :alt: connection
    :width: 60%      
 
 For YARN tab :
@@ -211,13 +211,13 @@ For YARN tab :
      - Resource Manager URL
      - Value  
      
-.. figure:: ../../../_assets/aws/livy/add_yarn.PNG
-   :alt: livy
+.. figure:: ../../../_assets/installation/connection/spark-submit_yarn.PNG
+   :alt: connection
    :width: 60%      
 
-5. Test Connection and Save
+5. Save Connection 
 
-Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
+Once you have updated the above parameters, click on  ``Save`` the connection.
 
 
 .. Note:: Make sure that above Configuration configured should be accessible from Sparkflows Web Server URL. 

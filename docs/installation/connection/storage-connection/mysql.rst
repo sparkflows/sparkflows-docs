@@ -58,7 +58,7 @@ It can be created by the Administrator under ''Administration/Global Connections
    :alt: connection
    :width: 60%
    
-.. figure:: ../../../_assets/installation/connection/mysql_connection.PNG
+.. figure:: ../../../_assets/installation/connection/mysql_connections.PNG
    :alt: connection
    :width: 60%   
 

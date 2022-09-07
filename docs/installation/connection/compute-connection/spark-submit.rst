@@ -219,12 +219,5 @@ For YARN tab :
 
 Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
 
-.. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
-   :alt: livy
-   :width: 60%
-   
-.. figure:: ../../../_assets/aws/livy/add_list.PNG
-   :alt: livy
-   :width: 60% 
 
 .. Note:: Make sure that above Configuration configured should be accessible from Sparkflows Web Server URL. 

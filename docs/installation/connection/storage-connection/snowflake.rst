@@ -1,4 +1,4 @@
-Snowflake
+Snowflake Connection
 =======
 
 Sparkflows enabled you to create Snowflake Connection and use the connection to access various resources.

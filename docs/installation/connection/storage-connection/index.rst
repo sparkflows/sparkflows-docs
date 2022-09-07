@@ -16,3 +16,4 @@ In Sparkflows ``Storage Connection`` enables the below:
    :maxdepth: 2
 
    mysql.rst
+   snowflake.rst

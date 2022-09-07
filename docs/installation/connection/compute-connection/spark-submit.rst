@@ -128,12 +128,6 @@ For SPARK tab :
    :alt: livy
    :width: 70%     
 
-.. Note:: Make sure SPARK configured should be accessible from Sparkflows Web Server URL 
-
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/livy_jar.PNG
-   :alt: livy
-   :width: 70% 
-
 
 For HDFS tab :
 
@@ -232,3 +226,5 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_list.PNG
    :alt: livy
    :width: 60% 
+
+.. Note:: Make sure that above Configuration configured should be accessible from Sparkflows Web Server URL. 

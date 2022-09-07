@@ -18,3 +18,4 @@ In Sparkflows ``Compute Connection`` enables the below:
    databricks.rst
    glue.rst
    livy.rst
+   spark-submit.rst

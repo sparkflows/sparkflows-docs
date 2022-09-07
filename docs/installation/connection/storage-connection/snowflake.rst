@@ -51,17 +51,17 @@ It can be created by the Administrator under ''Administration/Global Connections
      - Url for Snowflake
      - Url for Snowflake
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/snowflake_storage.PNG
+.. figure:: ../../../_assets/installation/connection/snowflake_storage.PNG
    :alt: connection
    :width: 60%    
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/snowflake_add.PNG
+.. figure:: ../../../_assets/installation/connection/snowflake_add.PNG
    :alt: connection
    :width: 60% 
 
 2.  TEST & Save the Connection
 
-Once you Save the Connection, Resouces can be used inside workflow editor etc.
+Once you Save the Connection, Resouces can be used inside workflow editor etc. using above connection.
 
 Documentation
 +++++

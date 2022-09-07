@@ -50,3 +50,20 @@ It can be created by the Administrator under ''Administration/Global Connections
    * - URL
      - Url for MySQL
      - JDBC Url for MySQL
+   * - Driver Class
+     - Driver Class Name for MySQL
+     - com.mysql.jdbc.Driver (by default)
+     
+.. figure:: ../../../_assets/installation/connection/mysql_storage.PNG
+   :alt: connection
+   :width: 60%
+   
+.. figure:: ../../../_assets/installation/connection/mysql_connection.PNG
+   :alt: connection
+   :width: 60%   
+
+2. Test Connection and Save
+
+Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
+
+.. Note:: Make sure that MySQL URL should be accessible from Sparkflows webserver URL.

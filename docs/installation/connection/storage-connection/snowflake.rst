@@ -51,11 +51,11 @@ It can be created by the Administrator under ''Administration/Global Connections
      - Url for Snowflake
      - Url for Snowflake
 
-.. figure:: ../../_assets/installation/connection/snowflake_storage.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/snowflake_storage.PNG
    :alt: connection
    :width: 60%    
 
-.. figure:: ../../_assets/installation/connection/snowflake_add.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/snowflake_add.PNG
    :alt: connection
    :width: 60% 
 

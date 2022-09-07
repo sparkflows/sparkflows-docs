@@ -52,7 +52,7 @@ GENERAL Tab :
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
      
-.. figure:: ../../../_assets/auto-ml/automl-steps.png
+.. figure:: ../../../_assets/installation/connection/databricks_general.PNG
    :alt: connection
    :width: 60%    
 

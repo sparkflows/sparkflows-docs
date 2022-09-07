@@ -19,7 +19,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.sparkCluster.enabled	 : true
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/livy_configuration.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/spark-submit_enabled.PNG
    :alt: livy
    :width: 60%
 
@@ -35,11 +35,11 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_connection.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/spark-submit_compute.PNG
    :alt: livy
    :width: 60%
    
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_livy_connection.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/spark-submit_general.PNG
    :alt: livy
    :width: 60%   
    
@@ -69,7 +69,7 @@ For GENERAL tab :
      - Connection Description 
      - Connection Description
         
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_general.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/spark-submit_general.PNG
    :alt: livy
    :width: 60%
 
@@ -124,7 +124,7 @@ For SPARK tab :
      
      
      
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/aws/livy/add_livy.PNG
+.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/connection/spark-submit_spark.PNG
    :alt: livy
    :width: 70%     
 

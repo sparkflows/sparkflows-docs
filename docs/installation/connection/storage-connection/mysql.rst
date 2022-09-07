@@ -15,7 +15,7 @@ Below are steps on how to create MySQL Connection:
 
 It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
-.. figure:: ../../../_assets/aws/livy/livy_configuration.PNG
+.. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
 

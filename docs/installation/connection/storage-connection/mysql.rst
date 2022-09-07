@@ -66,4 +66,6 @@ It can be created by the Administrator under ''Administration/Global Connections
 
 Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
 
+Now you can created connection use the resources in datasets and workflows.
+
 .. Note:: Make sure that MySQL URL should be accessible from Sparkflows webserver URL.

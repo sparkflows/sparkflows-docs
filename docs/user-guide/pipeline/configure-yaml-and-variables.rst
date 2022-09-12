@@ -35,8 +35,10 @@ cuatomer_id: 62300
 
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 
+```
 <b>input_bucketname</b>  {{ENV}}.{{INPUTPATH}}.bucketname
 <b>output_bucketname</b> {{ENV}}.{{OUTPUTPATH}}.bucketname
+```
 
 
 Confiured in NodeUI.
@@ -65,7 +67,7 @@ Now input_bucketname and output_bucketname variables can be used with single cur
 
 
    
-2. In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id
+3. In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id
 
 .. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
    :alt: airflow variables

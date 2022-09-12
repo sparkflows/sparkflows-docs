@@ -2,7 +2,7 @@ Configure Yaml files and Variables
 ==================================
 
 
-Sparkflows provides a node using which yaml files and variables can be configured.
+Sparkflows provides a node named ``addYamlConfiguration`` using which yaml configuration files and variables can be configured. Those variables can be accessed in the pipeline nodes. Sparkflows Airflow DAG generator takes care of substituing the values of the variables.
 
 Yaml File Configuration
 ----------------------

@@ -24,26 +24,24 @@ Below is an example of yaml file and variables.
 yaml file:
 
 
-```
-dev:
-   input:
-        bucketname: fire-sample-data
-        keyname: inputlocation
+::
+   dev:
+      input:
+         bucketname: fire-sample-data
+         keyname: inputlocation
            
-   output:
-        bucketname: fire-sample-data
-        keyname: outputlocation
-prod:
-   input:
-        bucketname: fire-sample-data
-        keyname: inputlocation
+      output:
+         bucketname: fire-sample-data
+         keyname: outputlocation
+   prod:
+      input:
+         bucketname: fire-sample-data
+         keyname: inputlocation
            
-   output:
-        bucketname: fire-sample-data
-        keyname: outputlocation
-cuatomer_id: 62300
-
-```
+      output:
+         bucketname: fire-sample-data
+         keyname: outputlocation
+   cuatomer_id: 62300
 
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 

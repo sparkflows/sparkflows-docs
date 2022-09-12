@@ -8,11 +8,6 @@ Workflow Wizard
 
 - Workflow Wizard enable user to avail options for next node on the basis of their requirements of the usecase.
 
-Ldap Enhancements
-----------
-
-- Ldap Configurations from properties file
-
 UI
 ---
 

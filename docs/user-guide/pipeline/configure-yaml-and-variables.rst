@@ -38,13 +38,14 @@ For example,
 ::
     ENV prod
     LOCATION  us-east1
-    
+
+
 ::
-   prod:
-      us-east1:
+    prod:
+       us-east1:
            s3_bucketname: biz-pipeline
            role: admin
-   dev:
+    dev:
        us-west1:
            bucketname: biz-pipeline
            role: admin

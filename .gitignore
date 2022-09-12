@@ -1,2 +1,9 @@
 
 docs/_static/.DS_Store
+.idea/vcs.xml
+.idea/sparkflows-docs.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/aws.xml

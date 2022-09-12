@@ -35,10 +35,12 @@ cuatomer_id: 62300
 
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 
-```
-<b>input_bucketname</b>  {{ENV}}.{{INPUTPATH}}.bucketname
-<b>output_bucketname</b> {{ENV}}.{{OUTPUTPATH}}.bucketname
-```
+
+ 1.<b>input_bucketname</b>  {{ENV}}.{{INPUTPATH}}.bucketname 
+
+
+ 2.<b>output_bucketname</b> {{ENV}}.{{OUTPUTPATH}}.bucketname
+
 
 
 Confiured in NodeUI.

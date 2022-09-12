@@ -75,10 +75,14 @@ Now ``input_bucketname``, ``output_bucketname``, ``input_key`` and ``output_key`
   
 
 
-**In airflow, define the variables ``ENV``, ``INPUTPATH``, ``OUTPUTPATH`` and ``customer_id`` used in the configuration node as below:**
+**In airflow, define the variablesused in the configuration node as below:**
+
+The variables defined below are ``ENV``, ``INPUTPATH``, ``OUTPUTPATH`` and ``customer_id``
 
 .. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
    :alt: airflow variables
    :width: 30%
+  
+To access the fields/variables in the nested yaml, define the parent field as variable in the airflow config as above.
 
 

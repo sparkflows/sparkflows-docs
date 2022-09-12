@@ -67,7 +67,7 @@ Now ``input_bucketname``, ``output_bucketname``, ``input_key`` and ``output_key`
 
 
 
-**The spark-submit command would look like below**
+**The spark-submit command would look like below:**
 
 .. code-block:: bash
 

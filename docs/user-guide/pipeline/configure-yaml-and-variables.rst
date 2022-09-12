@@ -59,7 +59,7 @@ In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables
  
 
 
-Now ``input_bucketname`` and ``output_bucketname`` variables can be used with single curly(i.e {variable_name}) braces to define the complete paths.
+Now ``input_bucketname``, ``output_bucketname``, ``input_key`` and ``output_key`` variables can be used with single curly(i.e {variable_name}) braces to define the complete paths in spark-submit command in AddEMRStepNode.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_variable.PNG
    :alt: variables used

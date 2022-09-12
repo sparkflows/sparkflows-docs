@@ -63,3 +63,12 @@ Variable                                Description
 ``{{ test_mode }}``                     whether the task instance was called using
                                         the CLI's test subcommand
 =====================================   ====================================
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_macros.PNG
+   :alt: Macros
+   :width: 30%
+   
+   In below command used airflow macros with double curly braces. 
+   
+   spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://fire-sample-data/input/,--outputFormat,parquet,--outputLocation,s3://fire-sample-data/output/test/ --date {{execution_date.strftime('%Y%m%d') }}
+   

@@ -65,6 +65,8 @@ Now input_bucketname and output_bucketname variables can be used with single cur
    :width: 30%
 
 
+
+spark-submit command:
 .. code-block:: bash
 
    spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://{input_bucketname}/{input_key},--outputFormat,parquet,--outputLocation,s3://{output_bucketname}/{output_key}, --customer_id {customer_id}

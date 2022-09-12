@@ -49,11 +49,13 @@ Yaml file example :
 
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 
+.. code-block:: bash
 
  1.input_bucketname {{ENV}}.{{INPUTPATH}}.bucketname 
-
-
  2.output_bucketname {{ENV}}.{{OUTPUTPATH}}.bucketname
+ 3.input_key {{ENV}}.{{INPUTPATH}}.keyname
+ 4.output_key {{ENV}}.{{OUTPUTPATH}}.keyname
+ 
 
 
 Now input_bucketname and output_bucketname variables can be used with single curly(i.e {variable_name}) braces to define the complete paths.
@@ -63,6 +65,9 @@ Now input_bucketname and output_bucketname variables can be used with single cur
    :width: 30%
 
 
+.. code-block:: bash
+
+   spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://{input_bucketname}/{input_key},--outputFormat,parquet,--outputLocation,s3://{output_bucketname}/{output_key}, --customer_id {customer_id}
   
 
 

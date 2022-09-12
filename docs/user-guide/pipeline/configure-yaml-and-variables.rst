@@ -56,14 +56,17 @@ for a multi-level yml config file like this one.
    :alt: Specify Variables in Airflow
    :width: 30%
 
-2. Next allow users to define custom variable in the Node
+2. Next allow users to define yaml variable in the Node
 
-For example, following variable `s3_bucket_path` shows how to specify the Airflow Variables (ENV, LOCATION)
+For example, following variable `s3_bucket_path` shows how to specify the Airflow Variables (ENV, REGION)
 and a YML Config file variable (s3_bucketname).
 ::
     s3_bucket_path {{ENV}}.{{REGION}}.s3_bucketname
 
 
+   Then use the above variable in the fileds with single curly bracket.  ex: s3://{s3_bucket_path}
+   
+   
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_node_variable.PNG
    :alt: Specify Variables in Airflow
    :width: 30%
@@ -73,7 +76,7 @@ MACRO Usage
 
 Specify predefined Airflow Macros by following this document https://airflow.apache.org/macros.html#default-variables
 
-For example, `{{ execution_date }}` is an example of specifying a macro inside a value as follows "s3://fre-sample-data/change-health/outputIngestion/{{ execution_date }}".
+For example, `{{ execution_date }}` is an example of specifying a macro inside a value as follows "s3://fre-sample-data/ouput/outputIngestion/{{ execution_date }}".
 
 Default Variables
 -----------------

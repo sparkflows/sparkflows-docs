@@ -13,27 +13,36 @@ Yaml File Configuration
 
 3.In variablesList, add the variable names and variable values.
 
+Configuration details in UI
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
+   :alt: configuration
+   :width: 30%
+   
+   
 Below is an example of yaml file and variables.
 yaml file:
 
+
 ```
 dev:
-    input:
-          bucketname: fire-sample-data
-          keyname: inputlocation
+   input:
+        bucketname: fire-sample-data
+        keyname: inputlocation
            
-    output:
-          bucketname: fire-sample-data
-          keyname: outputlocation
+   output:
+        bucketname: fire-sample-data
+        keyname: outputlocation
 prod:
-    input:
-          bucketname: fire-sample-data
-          keyname: inputlocation
+   input:
+        bucketname: fire-sample-data
+        keyname: inputlocation
            
-    output:
-          bucketname: fire-sample-data
-          keyname: outputlocation
+   output:
+        bucketname: fire-sample-data
+        keyname: outputlocation
 cuatomer_id: 62300
+
 ```
 
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
@@ -57,11 +66,7 @@ Now input_bucketname and output_bucketname variables can be used with single cur
 
 
 
-1. Configuration details in UI
-
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
-   :alt: configuration
-   :width: 30%
+1.
    
    
 2. Using the defined variables in configuration with single curly braces. i.e {variable_name}

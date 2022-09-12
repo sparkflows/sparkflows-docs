@@ -43,13 +43,15 @@ yaml file:
          keyname: outputlocation
    cuatomer_id: 62300
 
+
+
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 
 
- 1.<b>input_bucketname</b>  {{ENV}}.{{INPUTPATH}}.bucketname 
+ 1.input_bucketname {{ENV}}.{{INPUTPATH}}.bucketname 
 
 
- 2.<b>output_bucketname</b> {{ENV}}.{{OUTPUTPATH}}.bucketname
+ 2.output_bucketname {{ENV}}.{{OUTPUTPATH}}.bucketname
 
 
 

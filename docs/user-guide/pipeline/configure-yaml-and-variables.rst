@@ -7,68 +7,68 @@ Sparkflows provides a node using which yaml files and airflow variables can be c
 Yaml File Configuration
 ----------------------
 
-1. Upload yaml configuration files from Node UI
+1. In configFilePath, add the names of the config yaml files.
+
+2. In airflowConfigKey, add the variable key name defined in airflow.The variables from airflowConfigKey gets the higher precedence.
+
+3.In variablesList, add the variable names and variable values.
+
+Below is an example of yaml file and variables.
+yaml file:
+dev:
+    input:
+          bucketname: fire-sample-data
+          keyname: inputlocation
+           
+    output:
+          bucketname: fire-sample-data
+          keyname: outputlocation
+prod:
+    input:
+          bucketname: fire-sample-data
+          keyname: inputlocation
+           
+    output:
+          bucketname: fire-sample-data
+          keyname: outputlocation
+cuatomer_id: 62300
+
+In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
+
+<b>input_bucketname</b>  {{ENV}}.{{INPUTPATH}}.bucketname
+<b>output_bucketname</b> {{ENV}}.{{OUTPUTPATH}}.bucketname
+
+
+Confiured in NodeUI.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
-   :alt: Upload yaml Config files in Node
+   :alt: Configure in Node UI
    :width: 30%
+   
 
-2. Add additional yaml files in Airflow Variables UI (Optional)
+Now input_bucketname and output_bucketname variables can be used with single curly braces to define the complete paths.
 
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_define_config_yml_in_airflow.PNG
-   :alt: Specify yaml Content in Airflow Variable UI
+
+
+1. Configuration details in UI
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
+   :alt: configuration
    :width: 30%
-
-3. Note that the merged content of yaml files will be displayed in Airflow Variables UI as follows.
-
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_merged_yml_in_airflow.PNG
-   :alt: Update Merged yaml Content in Airflow Variable UI
-   :width: 30%
-
-The merged yaml is stored inside a variable having the same name as the DAG file.
-
-If user updates the merged yaml content in Airflow Variable UI, then it will take precedence over the files uploaded from the Sparkflows Pipeline Node UI.
-
-Variable Definition
------------------------
-
-1. First define the Key variables in Airflow which are parent Nodes in the yaml file.
-
-For example, you can define these variables in Airflow.
-::
-    ENV prod
-    LOCATION  us-east1
-
-for a multi-level yaml config file like this one.
-
-.. code-block:: bash
-
-    prod:
-       us-east1:
-           s3_bucketname: biz-pipeline
-           role: admin
-    dev:
-       us-west1:
-           bucketname: biz-pipeline
-           role: admin
- 
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_define_config_yml_in_airflow.PNG
-   :alt: Specify Variables in Airflow
-   :width: 30%
-
-2. Next allow users to define yaml variable in the Node
-
-For example, following variable `s3_bucket_path` shows how to specify the Airflow Variables (ENV, REGION)
-and a yaml Config file variable (s3_bucketname).
-::
-    s3_bucket_path {{ENV}}.{{REGION}}.s3_bucketname
-
-
-   Then use the above variable in the fields with single curly bracket.  ex: ``s3://{s3_bucket_path}``
    
    
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_define_node_variable.PNG
-   :alt: Specify Variables in Airflow
+2. Using the defined variables in configuration with single curly braces. i.e {variable_name}
+
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_define_variable.PNG
+   :alt: variables used
+   :width: 30%
+
+
+   
+2. In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id
+
+.. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
+   :alt: airflow variables
    :width: 30%
 
 

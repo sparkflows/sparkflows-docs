@@ -6,13 +6,13 @@ Airflow Macros can be used in sparkflows pipelines.
 
 Any of the predefined Airflow Macros can be specified as listed in the documentation https://airflow.apache.org/macros.html#default-variables
 
-`{{ prev_ds_nodash }}` is an example of specifying a macro inside a value as follows:  ``"s3://fre-sample-data/ouput/outputIngestion/dt={{ prev_ds_nodash }}".``
+``{{ prev_ds_nodash }}`` is an example of specifying a macro inside a value as follows:  ``"s3://fre-sample-data/ouput/outputIngestion/dt={{ prev_ds_nodash }}".``
 
 
 
 Default Variables
 -----------------
-The Airflow engine passes a few variables by default that are accessible
+The Airflow engine passes the below variables by default that are accessible
 in all templates
 
 =====================================   ====================================
@@ -70,7 +70,7 @@ Variable                                Description
    :alt: Macros
    :width: 30%
    
-   In below command used airflow macros with double curly braces to get the current execute date.
+   In the command below, the airflow macros are encapsulated in double curly braces to get the current execute date.
    
    spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://fire-sample-data/input/,--outputFormat,parquet,--outputLocation,s3://fire-sample-data/output/test/ --date {{execution_date.strftime('%Y%m%d') }}
    

@@ -34,11 +34,12 @@ Variable Definition
 
 1. First define the Key variables in Airflow which are parent Nodes in the Yml file.
 
-For example,
+For example, you can define these variables in Airflow.
 ::
     ENV prod
     LOCATION  us-east1
 
+for a multi-level yml config file like this one.
 
 .. code-block:: bash
 

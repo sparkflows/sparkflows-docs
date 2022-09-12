@@ -41,3 +41,4 @@ UI Enhancements
 
 - UI Improvement in Project List, Workflow List page.
 - UI Validations
+- Node Example, Details Updates. 

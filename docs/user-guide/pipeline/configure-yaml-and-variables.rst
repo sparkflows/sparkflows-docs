@@ -41,6 +41,7 @@ For example,
 
 
 .. code-block:: bash
+
     prod:
        us-east1:
            s3_bucketname: biz-pipeline

@@ -18,6 +18,25 @@ Sparkflows enable you to use Ldap Configurations from properties file and Test t
    :alt: connection
    :width: 70%
 
+New Node and Enhancements
+------
+
+Sparkflows Comes up with New Node and Enhancement in Existing Node.
+
+- AddColumnAdvanced
+
+Support to create multiple columns with constant values.
+
+.. figure:: ..//_assets/releases/september-2022/addconstant_date.PNG
+   :alt: connection
+   :width: 70%
+
+- Enhancement in ReadCSV Node
+
+.. figure:: ..//_assets/releases/september-2022/readcsv_node.PNG
+   :alt: connection
+   :width: 70%
+
 Livy Enhancements
 ------------
 
@@ -42,3 +61,8 @@ UI Enhancements
 - UI Improvement in Project List, Workflow List page.
 - UI Validations
 - Node Example, Details Updates. 
+- Schema Details
+
+.. figure:: ..//_assets/releases/september-2022/schema_details.PNG
+   :alt: connection
+   :width: 70%

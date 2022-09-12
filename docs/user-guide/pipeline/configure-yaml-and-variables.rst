@@ -40,7 +40,7 @@ For example,
     LOCATION  us-east1
 
 
-.. code-block:: yml
+.. code-block:: bash
     prod:
        us-east1:
            s3_bucketname: biz-pipeline

@@ -15,6 +15,7 @@ Yaml File Configuration
 
 Below is an example of yaml file and variables.
 yaml file:
+
 ```
 dev:
     input:
@@ -34,6 +35,7 @@ prod:
           keyname: outputlocation
 cuatomer_id: 62300
 ```
+
 In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
 
 

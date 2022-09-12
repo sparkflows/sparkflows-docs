@@ -34,3 +34,10 @@ Documentation
 +++++
 
   - Reference guide : https://docs.sparkflows.io/en/latest/user-guide/pipeline/configure-yaml-and-variables.html
+
+
+UI Enhancements
+----------
+
+- UI Improvement in Project List, Workflow List page.
+- UI Validations

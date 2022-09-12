@@ -61,10 +61,8 @@ Now input_bucketname and output_bucketname variables can be used with single cur
    :alt: variables used
    :width: 30%
 
-
  
- 
- spark-submit command with variables from yaml:
+spark-submit command with variables from yaml:
  
 .. code-block:: bash
  

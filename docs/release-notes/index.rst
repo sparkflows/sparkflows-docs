@@ -6,6 +6,7 @@ Release Notes
    :maxdepth: 2
 
    upcoming.rst
+   2022-sep.rst
    2022-aug.rst
    2022-july.rst
    2022-june.rst

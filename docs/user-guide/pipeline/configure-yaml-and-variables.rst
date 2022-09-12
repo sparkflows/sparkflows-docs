@@ -55,30 +55,17 @@ In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables
  2.output_bucketname {{ENV}}.{{OUTPUTPATH}}.bucketname
 
 
-
-Confiured in NodeUI.
-
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
-   :alt: Configure in Node UI
-   :width: 30%
-   
-
-Now input_bucketname and output_bucketname variables can be used with single curly braces to define the complete paths.
-
-
-
-1.
-   
-   
-2. Using the defined variables in configuration with single curly braces. i.e {variable_name}
+Now input_bucketname and output_bucketname variables can be used with single curly(i.e {variable_name}) braces to define the complete paths.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_variable.PNG
    :alt: variables used
    :width: 30%
 
 
-   
-3. In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id
+  
+
+
+In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id
 
 .. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
    :alt: airflow variables

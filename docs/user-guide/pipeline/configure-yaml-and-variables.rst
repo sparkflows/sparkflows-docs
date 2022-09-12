@@ -2,7 +2,7 @@ Configure Yaml files and Variables
 ==================================
 
 
-Sparkflows provides a node using which yaml files and airflow variables can be configured.
+Sparkflows provides a node using which yaml files and variables can be configured.
 
 Yaml File Configuration
 ----------------------

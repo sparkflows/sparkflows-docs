@@ -40,16 +40,15 @@ For example,
     LOCATION  us-east1
 
 
-```
- prod:
-    us-east1:
-        s3_bucketname: biz-pipeline
-        role: admin
- dev:
-    us-west1:
-        bucketname: biz-pipeline
-        role: admin
- ```
+.. code-block:: yml
+    prod:
+       us-east1:
+           s3_bucketname: biz-pipeline
+           role: admin
+    dev:
+       us-west1:
+           bucketname: biz-pipeline
+           role: admin
  
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_config_yml_in_airflow.PNG
    :alt: Specify Variables in Airflow

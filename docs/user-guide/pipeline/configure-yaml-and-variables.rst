@@ -24,7 +24,8 @@ Below is an example of yaml file and variables.
 yaml file:
 
 
-::
+.. code-block:: bash
+
    dev:
       input:
          bucketname: fire-sample-data

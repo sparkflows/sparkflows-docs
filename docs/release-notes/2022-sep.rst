@@ -8,6 +8,15 @@ Ldap Enhancements
 
 - Ldap Configurations from properties file
 
+Sparkflows enable you to use Ldap Configurations from properties file and Test the Connection from UI.
+
+.. figure:: ..//_assets/releases/september-2022/ldap_connection.PNG
+   :alt: connection
+   :width: 70%
+
+.. figure:: ..//_assets/releases/september-2022/ldap_test.PNG
+   :alt: connection
+   :width: 70%
 
 Livy Enhancements
 ------------

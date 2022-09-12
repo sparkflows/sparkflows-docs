@@ -1,7 +1,7 @@
 Assume Role Configurations
 =======
 
-Below are steps on how to create a role with S3 Bucket access and assume the Role from Fire Insights.
+Steps to create a role for S3 Bucket access and assume the Role from Fire Insights.
 
 1. Create a Role
 
@@ -85,7 +85,7 @@ Create an ''inline policy'' which have access of s3 policy to access the differe
 
 .. note:: ecsTaskExecutionRole is attached with a policy to access ECS resources 
 
-4. Now Inorder to access the above role while submitting the job on ''EMR Cluster or EMR Livy'', policy ''assume_role_bucket1'' needs to be attached to the ''EMR_EC2_DefaultRole'' role added for EMR resources.
+4. Now policy ''assume_role_bucket1'' needs to be attached to the ''EMR_EC2_DefaultRole'' role added for EMR resources, in order to access the above role while submitting the job on ''EMR Cluster or EMR Livy''.
 
 
 .. note:: Make sure to change arn value to exact value

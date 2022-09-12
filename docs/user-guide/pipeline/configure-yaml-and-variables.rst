@@ -64,7 +64,7 @@ and a YML Config file variable (s3_bucketname).
     s3_bucket_path {{ENV}}.{{REGION}}.s3_bucketname
 
 
-   Then use the above variable in the fileds with single curly bracket.  ex: s3://{s3_bucket_path}
+   Then use the above variable in the fileds with single curly bracket.  ex: ``s3://{s3_bucket_path}``
    
    
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_node_variable.PNG
@@ -76,7 +76,9 @@ MACRO Usage
 
 Specify predefined Airflow Macros by following this document https://airflow.apache.org/macros.html#default-variables
 
-For example, `{{ execution_date }}` is an example of specifying a macro inside a value as follows "s3://fre-sample-data/ouput/outputIngestion/{{ execution_date }}".
+For example, `{{ execution_date }}` is an example of specifying a macro inside a value as follows ``"s3://fre-sample-data/ouput/outputIngestion/{{ execution_date }}".``
+
+
 
 Default Variables
 -----------------

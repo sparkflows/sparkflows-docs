@@ -10,5 +10,7 @@ Fire Insights enables creating Pipelines. With pipelines, multiple workflows can
 
    pipeline.rst
    execute-workflow.rst
+   configure-yaml-and-variables.rst
+   macros.rst
    
    

@@ -7,11 +7,11 @@ Sparkflows provides a node using which yaml files and variables can be configure
 Yaml File Configuration
 ----------------------
 
-1. In ``configFilePath`` field, add the names of the config yaml files.
+1. In configFilePath, add the names of the config yaml files.
 
-2. In ``airflowConfigKey`` field, add the variable key name defined in airflow.The variables from airflowConfigKey gets the higher precedence.
+2. In airflowConfigKey, add the variable key name defined in airflow.The variables from airflowConfigKey gets the higher precedence.
 
-3. In ``variablesList`` field, add the variable names and variable values.
+3.In variablesList, add the variable names and variable values.
 
 Configuration details in UI
 
@@ -62,7 +62,13 @@ Now input_bucketname and output_bucketname variables can be used with single cur
    :width: 30%
 
 
-  
+ 
+ 
+ spark-submit command with variables from yaml:
+ 
+.. code-block:: bash
+ 
+   spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://fire-sample-data/input/version,--outputFormat,parquet,--outputLocation,s3://fire-sample-data/output/test/, --customer_id {customer_id}
 
 
 In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id

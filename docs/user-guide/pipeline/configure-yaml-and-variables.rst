@@ -13,16 +13,17 @@ Yaml File Configuration
 
 3. In ``variablesList`` field, add the variable names and variable values.
 
-Configuration details in UI can be seen as below:
+
+**Configuration details in UI can be seen as below:**
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
    :alt: configuration
    :width: 30%
    
    
-Below is an example of yaml file and variables.
+**Below is an example of yaml file and variables.**
 
-Yaml file example :
+**Yaml file example :**
 
 
 .. code-block:: bash
@@ -58,7 +59,7 @@ In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables
  
 
 
-Now input_bucketname and output_bucketname variables can be used with single curly(i.e {variable_name}) braces to define the complete paths.
+Now ``input_bucketname`` and ``output_bucketname`` variables can be used with single curly(i.e {variable_name}) braces to define the complete paths.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_variable.PNG
    :alt: variables used
@@ -66,7 +67,7 @@ Now input_bucketname and output_bucketname variables can be used with single cur
 
 
 
-spark-submit command-
+**The spark-submit command would look like below**
 
 .. code-block:: bash
 
@@ -74,7 +75,7 @@ spark-submit command-
   
 
 
-In airflow variables ENV, INPUTPATH, OUTPUTPATH and customer_id
+**In airflow, define the variables ``ENV``, ``INPUTPATH``, ``OUTPUTPATH`` and ``customer_id`` used in the configuration node as below:**
 
 .. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
    :alt: airflow variables

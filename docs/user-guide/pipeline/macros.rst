@@ -2,9 +2,12 @@
 MACRO Usage
 -------------------
 
+Airflow macros can be used in sparkflows pipelines. 
+
 Specify predefined Airflow Macros by following this document https://airflow.apache.org/macros.html#default-variables
 
-For example, `{{ execution_date }}` is an example of specifying a macro inside a value as follows ``"s3://fre-sample-data/ouput/outputIngestion/{{ execution_date }}".``
+For example, `{{ prev_ds_nodash }}` is an example of specifying a macro inside a value as follows 
+``"s3://fre-sample-data/ouput/outputIngestion/dt={{ prev_ds_nodash }}".``
 
 
 

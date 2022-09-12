@@ -47,9 +47,8 @@ For example,
 
 For example, following variable `s3_bucket_path` shows how to specify the Airflow Variables (ENV, LOCATION)
 and a YML Config file variable (s3_bucketname).
-
 ::
-   s3_bucket_path {{ENV}}.{{LOCATION}}.s3_bucketname
+    s3_bucket_path {{ENV}}.{{LOCATION}}.s3_bucketname
 
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_node_variable.PNG

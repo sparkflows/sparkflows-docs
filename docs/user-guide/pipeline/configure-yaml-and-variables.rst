@@ -66,7 +66,7 @@ spark-submit command with variables from yaml:
  
 .. code-block:: bash
  
-   spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://fire-sample-data/input/version,--outputFormat,parquet,--outputLocation,s3://fire-sample-data/output/test/, --customer_id {customer_id}
+   spark-submit,--master,yarn,--deploy-mode,client,--class,com.fire.SparkApp,s3://fire-sample-data/jar/fire-xml-parse-1.0-jar-with-dependencies.jar,--pipelineName,TestCustomXMLParser,--inputXmlLocation,s3://{input_bucketname}/{input_keyname},--outputFormat,parquet,--outputLocation,s3://{output_bucketname}/{output_keyname}, --customer_id {customer_id}
 
 
 In airflow variables ENV, INPUTPATH, OUTPUTPATH and cuatomer_id

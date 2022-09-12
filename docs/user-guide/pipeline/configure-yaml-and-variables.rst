@@ -21,7 +21,7 @@ Yaml File Configuration
    :width: 30%
    
    
-**Below is an example of yaml file and variables.**
+**Below is an example of yaml file and variables:**
 
 **Yaml file example :**
 
@@ -48,7 +48,7 @@ Yaml File Configuration
 
 
 
-In below examples ENV = dev, INPUTPATH = input and OUTPUTPATH = output variables should be defined in airflow.
+In below examples ``ENV = dev``, ``INPUTPATH = input`` and ``OUTPUTPATH = output`` variables should be defined in airflow.
 
 .. code-block:: bash
 

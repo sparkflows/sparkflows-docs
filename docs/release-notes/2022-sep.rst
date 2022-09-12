@@ -2,3 +2,14 @@ September 2022
 =============
 
 These features and Fire Insights platform improvements were released in September 2022.
+
+Ldap Enhancements
+----------
+
+- Ldap Configurations from properties file
+
+
+Livy Enhancements
+------------
+
+- Livy Support for 0.7.1

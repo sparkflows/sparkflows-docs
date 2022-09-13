@@ -43,18 +43,6 @@ Livy Enhancements
 - Livy Support for 0.7.1
 
 
-Pipeline Enhancements
-----------
-
-Sparkflows enable you to Configure ``yaml, airflow variables and user defined variables`` in pipeline.
-
-
-Documentation
-+++++
-
-  - Reference guide : https://docs.sparkflows.io/en/latest/user-guide/pipeline/configure-yaml-and-variables.html
-
-
 UI Enhancements
 ----------
 

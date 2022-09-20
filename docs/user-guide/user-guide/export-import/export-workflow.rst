@@ -14,7 +14,7 @@ Steps for Exporting Workflow
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/ExportWorkflow_FinalPage.png
+.. figure:: ../../../_assets/user-guide/export-import/Workflow_Starting_Page.png
      :alt: userguide
      :width: 60%
 

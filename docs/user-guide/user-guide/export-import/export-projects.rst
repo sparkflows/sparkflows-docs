@@ -2,7 +2,7 @@ Exporting Projects
 ==============
 
 Fire allows you to export Projects and download them to your computer.
-This is useful when moving Pipelines from one environment to another. 
+This is useful when moving Projects from one environment to another. 
 
 Below are the steps for exporting Projects in Fire.
 

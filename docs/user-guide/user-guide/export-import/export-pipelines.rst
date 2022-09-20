@@ -1,15 +1,19 @@
 Exporting Pipelines
 ==============
 
-Fire allows you to export Projects and download them to your computer.
+Fire allows you to export Pipelines and download them to your computer.
+This is useful when moving Pipelines from one environment to another. 
 
-Below are the steps for exporting Projects in Fire.
+Below are the steps for exporting Pipelines in Fire.
 
 
-Go to the Projects Page
+Go to the Pipelines Tab
 ---------------------------
 
- .. figure:: ../../../_assets/user-guide/export-import/applicationpage.PNG
+* From within a project, go to the Pipelines tab on the right hand side of the screen
+
+
+ .. figure:: ../../../_assets/user-guide/export-import/import_pipeline_tab.PNG
    :alt: userguide
    :width: 90%
 
@@ -17,25 +21,10 @@ Go to the Projects Page
 Select the Projects you want to export
 ------------------------------
 
-* Select the Projects you would like to export.
-* Then click on the Export button.
+* Select the Projects you would like to export using the checkboxes on the left hand side of each Pipeline's name. 
+* Then click on the Export button in the top right hand side. 
 
  .. figure:: ../../../_assets/user-guide/export-import/application.PNG
-     :alt: userguide
-     :width: 90%
-
-
-
-* In the dialog box which comes up, select whether you want to export workflows, datasets, analytics apps(if analytics apps is enabled), or all options.
-
- .. figure:: ../../../_assets/user-guide/export-import/exportcomp.png
-     :alt: userguide
-     :width: 90%
-     
-     
-* Fire will now export the selected projects and download them to your computer.
-
-  .. figure:: ../../../_assets/user-guide/export-import/exportinfo.png
      :alt: userguide
      :width: 90%
   

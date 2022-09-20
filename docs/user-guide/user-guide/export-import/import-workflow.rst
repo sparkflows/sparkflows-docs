@@ -22,9 +22,12 @@ You should get to a page similar to below
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportWorkflow_Ending.png
+.. figure:: ../../../_assets/user-guide/export-import/ImportWorkflow_BeginningPage.png
      :alt: userguide
      :width: 60%
      
-* Click Import Workflow next to the search bar
-* Select the Workflow you wish to import
+* Click Import Workflow next to the search bar and select the workflow you wish to import
+
+You should get to a page similar to below
+
+.. figure:: ../../../_assets/user-guide/export-import/ImportWorkflow_FinalPage.png

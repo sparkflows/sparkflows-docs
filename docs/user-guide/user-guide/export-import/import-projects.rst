@@ -1,12 +1,15 @@
 Importing Projects
 ==============
 
-Fire allows you to import Projects. Below are the steps for importing Projects in Fire.
+Fire allows you to import Projects. 
+This is useful when moving Projects from one environment to another. 
+
+Below are the steps for importing Projects in Fire.
 
 Go to the Projects Page
 --------------------
 
-- Click on the Import button.
+- Click on the Import button in top right hand side. 
 - Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire during the export process.
 - Select the name of the project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
 

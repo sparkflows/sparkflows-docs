@@ -3,7 +3,7 @@ Import Dataset
 
 Fire Insights enables you to import Datasets to use in Projects.
 
-Below are the steps for importing a Datasets.
+Below are the steps for importing a Dataset.
 
 Steps for Importing Datasets
 ===============

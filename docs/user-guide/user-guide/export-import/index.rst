@@ -17,3 +17,6 @@ This is useful when you need to move/copy things from one environment to another
    import-workflow.rst
    export-pipelines.rst
    import-pipelines.rst
+   export-datasets.rst
+   import-datasets.rst
+   

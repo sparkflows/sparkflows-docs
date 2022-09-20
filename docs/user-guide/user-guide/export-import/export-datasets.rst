@@ -9,7 +9,7 @@ Steps for Exporting Datasets
 ===============
 
 * Go to the Project page.
-* Select the project to import a Dataset to 
+* Select the project to export a Dataset from 
 
 You should get to a page similar to below
 

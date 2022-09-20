@@ -9,8 +9,7 @@ Steps for Importing Datasets
 ===============
 
 * Go to the Project page.
-* Select the project to import a workflow to 
-* Click the Workflows tab
+* Select the project to import a dataset to 
 
 You should get to a page similar to below
 

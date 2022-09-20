@@ -2,6 +2,7 @@ Exporting Projects
 ==============
 
 Fire allows you to export Projects and download them to your computer.
+This is useful when moving Pipelines from one environment to another. 
 
 Below are the steps for exporting Projects in Fire.
 
@@ -17,8 +18,8 @@ Go to the Projects Page
 Select the Projects you want to export
 ------------------------------
 
-* Select the Projects you would like to export.
-* Then click on the Export button.
+* Select the Projects you would like to export using the checkboxes on the left hand side of each Project's name. 
+* Then click on the Export button in the top right hand side. 
 
  .. figure:: ../../../_assets/user-guide/export-import/application.PNG
      :alt: userguide

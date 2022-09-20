@@ -1,4 +1,4 @@
-Export Workflow
+Import Workflow
 ===============
 
 Fire Insights enables you to import workflows as JSON files. These JSON files can be export to use in another instance of Fire Insights.

@@ -23,7 +23,7 @@ Select Import and Configure Behavior
 
 * First select the Import button in the top right hand side of the screen
 * After the popup window appears, select Browse to select a file from your computer
-* After selecting a file, 
+* After selecting a file, choose a behavior for dealing with UUID's
 
 When importing to an existing Project, there are 3 possible behaviors to choose from:
 

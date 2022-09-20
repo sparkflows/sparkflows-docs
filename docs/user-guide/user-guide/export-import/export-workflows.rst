@@ -1,11 +1,11 @@
-Export Workflow
+Export Workflows
 ===============
 
 Fire Insights enables you to export workflows as JSON files. These JSON files can be imported into another instance of Fire Insights.
 
 Below are the steps for exporting a workflow.
 
-Steps for Exporting Workflow
+Steps for Exporting a Workflow
 ===============
 
 * Go to the Project page.

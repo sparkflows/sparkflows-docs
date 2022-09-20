@@ -1,4 +1,4 @@
-Import Workflow
+Import Workflows
 ===============
 
 Fire Insights enables you to import workflows as JSON files. These JSON files can be export to use in another instance of Fire Insights.
@@ -9,7 +9,7 @@ Steps for Importing Workflow
 ===============
 
 * Go to the Project page.
-* Select the project to import a workflow to 
+* Select the project to import workflows to 
 * Click the Workflows tab
 
 You should get to a page similar to below

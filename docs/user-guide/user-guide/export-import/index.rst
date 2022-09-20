@@ -13,8 +13,8 @@ This is useful when you need to move/copy things from one environment to another
 
    export-projects.rst
    import-projects.rst
-   export-workflow.rst
-   import-workflow.rst
+   export-workflows.rst
+   import-workflows.rst
    export-pipelines.rst
    import-pipelines.rst
    export-datasets.rst

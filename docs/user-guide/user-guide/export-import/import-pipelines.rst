@@ -1,47 +1,41 @@
 Importing Pipelines
 ==============
 
-Fire allows you to import Projects. Below are the steps for importing Projects in Fire.
+Fire allows you to import Pipelines. Below are the steps for importing Projects in Fire.
+This is useful when moving Pipelines from one environment to another. 
 
-Go to the Projects Page
---------------------
-
-- Click on the Import button.
-- Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire during the export process.
-- Select the name of the project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
+Below are the steps for importing Pipelines into Fire.
 
 
- .. figure:: ../../../_assets/user-guide/export-import/importapplication.png
-     :alt: userguide
-     :width: 60%
+Go to the Pipelines Tab
+---------------------------
+
+* From within a project, go to the Pipelines tab on the right hand side of the screen
 
 
-Select the Options for importing the Project
+ .. figure:: ../../../_assets/user-guide/export-import/import_pipeline_tab.PNG
+   :alt: userguide
+   :width: 90%
+
+
+Select Import and Configure Behavior
 -----------------------------------------------
 
-There are two options when importing Projects:
+* First select the Import button in the top right hand side of the screen
+* After the popup window appears, select Browse to select a file from your computer
+* After selecting a file, 
 
-* Import to a New Project
+When importing to an existing Project, there are 3 possible behaviors to choose from:
 
-    * In this case, the selected Project would be imported as a new Project in Fire Insights. 
+* OVERWRITE PIPELINE IF SAME UUID EXISTS IN THE PROJECT
+    * In this case, if matching UUID's are found, the existing project will be removed and replaced with the uploaded file 
+* CREATE A NEW UUID IF ONE ALREADY EXISTS
+    * In this case, if matching UUID's are found, the uploaded file will be assigned a new UUID 
+* CREATE A NEW UUID
+    * In this case, the uploaded file will always be assigned a new UUID 
+    
+.. figure:: ../../../_assets/user-guide/export-import/import_pipeline_tab.PNG
+   :alt: userguide
+   :width: 90%
 
-* Import to an Existing Project
-
-When importing to an existing Project, there are 3 possible methods to choose from:
-
-* Create new workflows and datasets when matching UUIDs found.
-
-* Overwrite datasets and workflows if matching UUID found.
-
-* Delete all workflows and datasets in the selected Project and create the imported workflows and datasets as new ones.
-
-
-On Success
--------------------------------
-
-On successful import of the Project into Fire Insights, the success dialog is displayed along with the details of the import.
-
-.. figure:: ../../../_assets/user-guide/export-import/importinfo.png
-     :alt: userguide
-     :width: 60%
 

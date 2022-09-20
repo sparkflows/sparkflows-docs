@@ -18,7 +18,7 @@ Go to the Pipelines Tab
    :width: 90%
 
 
-Select the Projects you want to export
+Select the Pipelines to Export
 ------------------------------
 
 * Select the Projects you would like to export using the checkboxes on the left hand side of each Pipeline's name. 

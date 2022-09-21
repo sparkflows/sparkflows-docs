@@ -30,12 +30,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     ---
 
-    :doc:`/user-guide/user-guide/export-import/index`
-
-    Export/Import is useful when you need to move/copy your Project from one environment to another.
-
-    ---
-
     :doc:`/user-guide/user-guide/connections/index`
 
     Connections are used in the workflow for reading and writing data.
@@ -53,7 +47,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
    workflows/index.rst
    visualizations/index.rst
    scheduling/index.rst
-   export-import/index.rst
    connections/index.rst
    pipeline/index.rst
    

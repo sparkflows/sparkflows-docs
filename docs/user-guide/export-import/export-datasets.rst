@@ -13,7 +13,7 @@ Steps for Exporting Datasets
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/Projects_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/Projects_Starting_Page.png
      :alt: userguide
      :width: 60%
 
@@ -23,7 +23,7 @@ You should get to a page similar to below
 You should get to a page similar to below
 
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
      :alt: userguide
      :width: 60%
      

@@ -1,4 +1,4 @@
-Exporting Projects
+Export Projects
 ==============
 
 Fire Insights enables you to export Projects as ZIP files. These ZIP files can be imported into another instance of Fire Insights.
@@ -6,7 +6,7 @@ Fire Insights enables you to export Projects as ZIP files. These ZIP files can b
 Below are the steps for exporting Projects in Fire Insights.
 
 
-Steps for Exporting Projects
+Steps for Export Projects
 -----
 
 You can Login to Fire Insights Web server URL and follow below steps:

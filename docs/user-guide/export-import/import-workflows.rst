@@ -14,7 +14,7 @@ Steps for Importing Workflow
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/Workflow_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/Workflow_Starting_Page.png
      :alt: userguide
      :width: 60%
 
@@ -22,7 +22,7 @@ You should get to a page similar to below
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportWorkflow_BeginningPage.png
+.. figure:: ../../_assets/user-guide/export-import/ImportWorkflow_BeginningPage.png
      :alt: userguide
      :width: 60%
      
@@ -30,4 +30,4 @@ You should get to a page similar to below
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportWorkflow_FinalPage.png
+.. figure:: ../../_assets/user-guide/export-import/ImportWorkflow_FinalPage.png

@@ -64,5 +64,6 @@ On successful import of the Project into Fire Insights, the success dialog is di
      :alt: userguide
      :width: 60%
 
+.. note:: Make sure that data needed to the Projects should be available on new instance of Fire Insights.
 
 

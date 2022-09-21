@@ -13,7 +13,7 @@ Go to the Pipelines Tab
 * From within a project, go to the Pipelines tab on the right hand side of the screen
 
 
- .. figure:: ../../../_assets/user-guide/export-import/import_pipeline_tab.png
+ .. figure:: ../../_assets/user-guide/export-import/import_pipeline_tab.png
    :alt: userguide
    :width: 90%
 
@@ -34,7 +34,7 @@ When importing to an existing Project, there are 3 possible behaviors to choose 
 * CREATE A NEW UUID
     * In this case, the uploaded file will always be assigned a new UUID 
     
-.. figure:: ../../../_assets/user-guide/export-import/import_pipeline_popup.png
+.. figure:: ../../_assets/user-guide/export-import/import_pipeline_popup.png
    :alt: userguide
    :width: 90%
 

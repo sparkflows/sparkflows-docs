@@ -70,6 +70,10 @@ There are various categories of REST API's available:
      ---
 
     :doc:`/rest-api/rest-api-curl/groups`
+    
+    ---
+
+    :doc:`/rest-api/rest-api-curl/import-workflow`
 
 .. toctree::
    :hidden:
@@ -84,6 +88,7 @@ There are various categories of REST API's available:
    scheduler.rst
    users.rst
    groups.rst
+   import-workflow.rst
    
    
    

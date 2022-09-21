@@ -23,6 +23,7 @@ This is useful when you need to move/copy things from one environment to another
    export-datasets.rst
    import-datasets.rst
    export-applications.rst
+   import-applications.rst
    export-projects.rst
    import-projects.rst
    export-import-rest-api.rst

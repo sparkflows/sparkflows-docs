@@ -8,6 +8,11 @@ It then also enables you to import your JSON files of workflows, pipelines, data
 
 This is useful when you need to move/copy things from one environment to another. The exported JSON can be checked into your source code control system such as git.
 
+  * Export/Import using JSON
+  * Export/Import the full zip file of the Project
+  
+  
+
 .. toctree::
    :maxdepth: 2
 

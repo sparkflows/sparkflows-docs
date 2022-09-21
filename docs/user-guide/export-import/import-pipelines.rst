@@ -1,29 +1,45 @@
 Importing Pipelines
 ==============
 
-Fire allows you to import Pipelines. Below are the steps for importing Projects in Fire.
-This is useful when moving Pipelines from one environment to another. 
+Fire Insights enables you to import Pipelines as JSON files. These JSON files can be export to use in another instance of Fire Insights. 
 
-Below are the steps for importing Pipelines into Fire.
+Below are the steps for importing a Pipeline.
+
+Steps for Importing Pipelines
+-------
+
+You can Login to Fire Insights Web server URL and follow below steps:
+
+* Go to the Project List page.
+* Select the project to import Pipelines to 
+* Click the Pipelines tab
+
+You should get to a page similar as below:
+
+.. figure:: ../../_assets/user-guide/export-import/pipeline_list.PNG
+     :alt: userguide
+     :width: 60%
 
 
-Go to the Pipelines Tab
----------------------------
+* Click the ``Import`` button 
 
-* From within a project, go to the Pipelines tab on the right hand side of the screen
-
-
- .. figure:: ../../_assets/user-guide/export-import/import_pipeline_tab.png
-   :alt: userguide
-   :width: 90%
+You should get to a page similar as below:
 
 
-Select Import and Configure Behavior
------------------------------------------------
+.. figure:: ../../_assets/user-guide/export-import/pipeline_import_page.PNG
+     :alt: userguide
+     :width: 60%  
+ 
+It will take you to new windows like below:
+ 
+.. figure:: ../../_assets/user-guide/export-import/pipeline_import_file.PNG
+     :alt: userguide
+     :width: 60%   
 
-* First select the Import button in the top right hand side of the screen
-* After the popup window appears, select Browse to select a file from your computer
-* After selecting a file, choose a behavior for dealing with UUID's
+You can upload Pipeline JSON file from your local Computer and select any one of the option depending on Pipelines availablity in that project with UUID's, Below are Available Behaviour:
+
+Configure Behavior
+-----------------
 
 When importing to an existing Project, there are 3 possible behaviors to choose from:
 
@@ -32,10 +48,14 @@ When importing to an existing Project, there are 3 possible behaviors to choose 
 * CREATE A NEW UUID IF ONE ALREADY EXISTS
     * In this case, if matching UUID's are found, the uploaded file will be assigned a new UUID 
 * CREATE A NEW UUID
-    * In this case, the uploaded file will always be assigned a new UUID 
-    
-.. figure:: ../../_assets/user-guide/export-import/import_pipeline_popup.png
-   :alt: userguide
-   :width: 90%
+    * In this case, the uploaded file will always be assigned a new UUID
 
+     
+Once you Click on ``Import``, the Pipeline should be available in Pipelines list page of Specific project.
+
+.. figure:: ../../_assets/user-guide/export-import/pipeline_imported.PNG
+     :alt: userguide
+     :width: 60%   
+     
+.. note:: Make sure that data pointed to the Pipeline JSON File should be available on new instance of Fire Insights where you are Importing.
 

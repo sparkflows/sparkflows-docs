@@ -1,10 +1,9 @@
 Exporting Projects
 ==============
 
-Fire allows you to export Projects and download them to your computer.
-This is useful when moving Projects from one environment to another. 
+Fire Insights enables you to export Projects as ZIP files. These ZIP files can be imported into another instance of Fire Insights.
 
-Below are the steps for exporting Projects in Fire.
+Below are the steps for exporting Projects in Fire Insights.
 
 
 Go to the Projects Page

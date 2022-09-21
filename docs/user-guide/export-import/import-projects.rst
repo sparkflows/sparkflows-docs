@@ -14,7 +14,7 @@ Go to the Projects Page
 - Select the name of the project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
 
 
- .. figure:: ../../../_assets/user-guide/export-import/importapplication.png
+ .. figure:: ../../_assets/user-guide/export-import/importapplication.png
      :alt: userguide
      :width: 60%
 
@@ -44,7 +44,7 @@ On Success
 
 On successful import of the Project into Fire Insights, the success dialog is displayed along with the details of the import.
 
-.. figure:: ../../../_assets/user-guide/export-import/importinfo.png
+.. figure:: ../../_assets/user-guide/export-import/importinfo.png
      :alt: userguide
      :width: 60%
 

@@ -42,7 +42,7 @@ You should get to a page similar to below:
      :alt: userguide
      :width: 90%
   
-.. note:: Make sure that data pointed to the Projects should be available on new instance of Fire Insights.     
+.. note:: Make sure that data needed to the Projects should be available on new instance of Fire Insights.     
      
     
 

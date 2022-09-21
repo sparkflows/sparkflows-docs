@@ -31,7 +31,7 @@ In order to export the Pipeline you want, you must:
   
 Once the Pipeline exported successfully, you will see the Pipeline JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
 
-.. figure:: ../../_assets/user-guide/export-import/pipeline_exported.PNG
+.. figure:: ../../_assets/user-guide/export-import/pipeline-exported.PNG
      :alt: userguide
      :width: 60% 
 

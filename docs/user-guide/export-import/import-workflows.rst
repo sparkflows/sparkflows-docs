@@ -44,9 +44,9 @@ Import Configuration
 When importing to an existing Project, there are 3 possible options to choose from:
 
 * OVERWRITE WORKFLOW IF SAME UUID EXISTS IN THE PROJECT
-    * In this case, if matching UUID's are found, the existing project will be removed and replaced with the uploaded file 
+    * In this case, if matching UUIDs are found, the existing project will be removed and replaced with the uploaded file 
 * CREATE A NEW UUID IF ONE ALREADY EXISTS
-    * In this case, if matching UUID's are found, the uploaded file will be assigned a new UUID 
+    * In this case, if matching UUIDs are found, the uploaded file will be assigned a new UUID 
 * CREATE A NEW UUID
     * In this case, the uploaded file will always be assigned a new UUID
 

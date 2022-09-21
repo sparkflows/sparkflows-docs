@@ -1,30 +1,40 @@
 Exporting Pipelines
 ==============
 
-Fire allows you to export Pipelines and download them to your computer.
-This is useful when moving Pipelines from one environment to another. 
+Fire Insights enables you to export Pipelines as JSON files. These JSON files can be imported into another instance of Fire Insights.
 
-Below are the steps for exporting Pipelines in Fire.
+Below are the steps for exporting a Pipelines.
 
+Steps for Exporting Pipelines
+-----
 
-Go to the Pipelines Tab
----------------------------
+You can Login to Fire Insights Web server URL and follow below steps:
 
-* From within a project, go to the Pipelines tab on the right hand side of the screen
+* Go to the Project List page.
+* Select the project that has the Pipeline you want to Export
+* Click the Pipelines tab
 
+You should get to a page similar to below: 
 
- .. figure:: ../../_assets/user-guide/export-import/import_pipeline_tab.png
-   :alt: userguide
-   :width: 90%
-
-
-Select the Pipelines to Export
-------------------------------
-
-* Select the Projects you would like to export using the checkboxes on the left hand side of each Pipeline's name. 
-* Then click on the Export button in the top right hand side. 
-
- .. figure:: ../../_assets/user-guide/export-import/import_pipeline_select.png
+.. figure:: ../../_assets/user-guide/export-import/pipeline_list.PNG
      :alt: userguide
-     :width: 90%
+     :width: 60%
+
+In order to export the Pipeline you want, you must:
+
+* Check the box next to the Pipeline you want to Export
+* Click Export 
+
+.. figure:: ../../_assets/user-guide/export-import/pipeline_export.PNG
+     :alt: userguide
+     :width: 60%  
+  
+Once the Pipeline exported successfully, you will see the Pipeline JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
+
+.. figure:: ../../_assets/user-guide/export-import/pipeline_exported.PNG
+     :alt: userguide
+     :width: 60% 
+
+.. note:: Make sure that data pointed to the Pipeline should be available on new instance of Fire Insights.
+
   

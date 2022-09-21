@@ -1,11 +1,11 @@
 Import Pipeline
 ==============
 
-Fire Insights enables you to import Pipelines as JSON files. These JSON files can be export to use in another instance of Fire Insights. 
+Fire Insights enables you to import Pipelines as JSON files. These JSON files can be exported to use in another instance of Fire Insights. 
 
-Below are the steps for import a Pipeline.
+Below are the steps for importing a Pipeline.
 
-Steps for Import Pipeline
+Steps for Importing a Pipeline
 -------
 
 You can Login to Fire Insights Web server URL and follow below steps:
@@ -31,12 +31,12 @@ You should get to a page similar as below:
      :width: 60%  
  
  
-It will take you to new windows, Where you can upload Pipeline JSON file from your local Computer and select any one of the option depending on Pipelines availablity in that project with UUID's, Below are Available Behaviour:
+It will take you to new windows, Where you can upload Pipeline JSON file from your local Computer and select any one of the option depending on Pipelines availablity in that project with UUID's, the available options are listed below:
 
-Configure Behavior
+Import Pipelines Configuration
 -----------------
 
-When importing to an existing Project, there are 3 possible behaviors to choose from:
+When importing to an existing Project, there are 3 possible options to choose from:
 
 * OVERWRITE PIPELINE IF SAME UUID EXISTS IN THE PROJECT
     * In this case, if matching UUID's are found, the existing project will be removed and replaced with the uploaded file 

@@ -8,24 +8,31 @@ Below are the steps for exporting a Dataset.
 Steps for Exporting Datasets
 -----
 
-* Go to the Project page.
-* Select the project to export a Dataset from 
+You can Login to Fire Insights Web server URL and follow below steps:
 
-You should get to a page similar to below
+* Go to the Project List page.
+* Select the project that has the Dataset you want to Export
+* Click the Datasets tab
 
-.. figure:: ../../_assets/user-guide/export-import/Projects_Starting_Page.png
+You should get to a page similar to below: 
+
+.. figure:: ../../_assets/user-guide/export-import/dataset_list_page.PNG
      :alt: userguide
      :width: 60%
 
+In order to export the Dataset you want, you must:
 
-* Click the Datasets Tab
+* Check the box next to the Dataset you want to Export
+* Click Export 
 
-You should get to a page similar to below
-
-
-.. figure:: ../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/dataset_export.PNG
      :alt: userguide
-     :width: 60%
-     
-     
-* Click Export next to delete and import
+     :width: 60%  
+  
+Once the Dataset exported successfully, you will see the Dataset JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
+
+.. figure:: ../../_assets/user-guide/export-import/dataset_exported.PNG
+     :alt: userguide
+     :width: 60% 
+
+.. note:: Make sure that data pointed to the Dataset should be available on new instance of Fire Insights.

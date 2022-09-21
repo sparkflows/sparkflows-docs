@@ -8,37 +8,44 @@ Below are the steps for importing a Datasets.
 Steps for Importing Datasets
 -----
 
-* Go to the Project page.
-* Select the project to import  datasets to 
+You can Login to Fire Insights Web server URL and follow below steps:
 
-You should get to a page similar to below
+* Go to the Project List page.
+* Select the project to import Dataset to 
+* Click the Datasets tab
 
-.. figure:: ../../_assets/user-guide/export-import/Projects_Starting_Page.png
+You should get to a page similar as below:
+
+.. figure:: ../../_assets/user-guide/export-import/dataset_list_page.PNG
      :alt: userguide
      :width: 60%
 
 
-* Click the Datasets Tab
+* Click the ``Import`` button and select ``From Dataset Files``
 
-You should get to a page similar to below
+You should get to a page similar as below:
 
 
-.. figure:: ../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/dataset_import_page.PNG
      :alt: userguide
-     :width: 60%
-     
-     
-* Click Import Dataset next to the search bar
-
-.. figure:: ../../_assets/user-guide/export-import/ImportDataSet_StartingPage.png
+     :width: 60%  
+ 
+Once you Select From Dataset Files, it will take you to new windows like below:
+ 
+.. figure:: ../../_assets/user-guide/export-import/dataset_import.PNG
      :alt: userguide
-     :width: 60%
-     
-     
-* Select the datasets you wish to import
+     :width: 60%   
 
+Once you Click on ``Import Datasets`` tab, it will take you to new windows where you can upload Datasets JSON file from your local Computer.
 
-.. figure:: ../../_assets/user-guide/export-import/ImportDataSet_FinalPage.png
+.. figure:: ../../_assets/user-guide/export-import/dataset_import_file.PNG
      :alt: userguide
-     :width: 60%
+     :width: 60%   
+     
+Once you Click on ``Import``, the Dataset should be available in Datasets list page of Specific project.
 
+.. figure:: ../../_assets/user-guide/export-import/dataset_imported.PNG
+     :alt: userguide
+     :width: 60%   
+     
+.. note:: Make sure that data pointed to the Dataset JSON File should be available on new instance of Fire Insights where you are Importing.

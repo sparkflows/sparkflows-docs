@@ -8,7 +8,9 @@ Below are the steps for importing a workflow.
 Steps for Importing Workflow
 -------
 
-* Go to the Project page.
+You can Login to Fire Insights Web server URL and follow below steps:
+
+* Go to the Project List page.
 * Select the project to import workflows to 
 * Click the Workflows tab
 

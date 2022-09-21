@@ -1,11 +1,11 @@
-Importing Pipeline
+Import Pipeline
 ==============
 
 Fire Insights enables you to import Pipelines as JSON files. These JSON files can be export to use in another instance of Fire Insights. 
 
-Below are the steps for importing a Pipeline.
+Below are the steps for import a Pipeline.
 
-Steps for Importing Pipeline
+Steps for Import Pipeline
 -------
 
 You can Login to Fire Insights Web server URL and follow below steps:

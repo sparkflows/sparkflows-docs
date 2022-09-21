@@ -1,7 +1,7 @@
 Export Datasets
 ===============
 
-Fire Insights enables you to export Datasets to use in Projects.
+Fire Insights enables you to export Datasets as JSON files. These JSON files can be imported into another instance of Fire Insights.
 
 Below are the steps for exporting a Dataset.
 

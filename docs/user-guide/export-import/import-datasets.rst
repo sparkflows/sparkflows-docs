@@ -13,7 +13,7 @@ Steps for Importing Datasets
 
 You should get to a page similar to below
 
-.. figure:: ../../../_assets/user-guide/export-import/Projects_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/Projects_Starting_Page.png
      :alt: userguide
      :width: 60%
 
@@ -23,14 +23,14 @@ You should get to a page similar to below
 You should get to a page similar to below
 
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/ImportExportDatasets_Starting_Page.png
      :alt: userguide
      :width: 60%
      
      
 * Click Import Dataset next to the search bar
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportDataSet_StartingPage.png
+.. figure:: ../../_assets/user-guide/export-import/ImportDataSet_StartingPage.png
      :alt: userguide
      :width: 60%
      
@@ -38,7 +38,7 @@ You should get to a page similar to below
 * Select the datasets you wish to import
 
 
-.. figure:: ../../../_assets/user-guide/export-import/ImportDataSet_FinalPage.png
+.. figure:: ../../_assets/user-guide/export-import/ImportDataSet_FinalPage.png
      :alt: userguide
      :width: 60%
 

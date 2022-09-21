@@ -36,7 +36,7 @@ Once you Select From Workflow Files, it will take you to new windows like below:
      :alt: userguide
      :width: 60%   
 
-Once you Click on ``Import Workflow` tab, it will take you to new windows where you can upload workflow JSON file in your local Computer and select any one of the option depending on workflow availablity in that project.
+Once you Click on ``Import Workflow`` tab, it will take you to new windows where you can upload workflow JSON file in your local Computer and select any one of the option depending on workflow availablity in that project.
 
 .. figure:: ../../_assets/user-guide/export-import/wf_import_json.PNG
      :alt: userguide

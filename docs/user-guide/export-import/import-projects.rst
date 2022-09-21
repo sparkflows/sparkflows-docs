@@ -16,11 +16,16 @@ You can Login to Fire Insights Web server URL and follow below steps:
 You should get to a page similar to below: 
 
 
- .. figure:: ../../_assets/user-guide/export-import/applicationpage.PNG
+.. figure:: ../../_assets/user-guide/export-import/project_list_page.PNG
    :alt: userguide
    :width: 90%
 
-- Click on the Import button in top right hand side. 
+- Click on the ``New Project`` button in top right hand side and select ``Import Project``. 
+
+.. figure:: ../../_assets/user-guide/export-import/project_import_page.PNG
+   :alt: userguide
+   :width: 90%
+
 - Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire Insights during the export process.
 - Select the name of the project which you would like to import from the zip file. Fire Insights would display all the available Projects in your zip file. 
 

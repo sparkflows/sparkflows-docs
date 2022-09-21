@@ -30,13 +30,8 @@ You should get to a page similar as below:
      :alt: userguide
      :width: 60%  
  
-It will take you to new windows like below:
  
-.. figure:: ../../_assets/user-guide/export-import/pipeline_import_file.PNG
-     :alt: userguide
-     :width: 60%   
-
-You can upload Pipeline JSON file from your local Computer and select any one of the option depending on Pipelines availablity in that project with UUID's, Below are Available Behaviour:
+It will take you to new windows, Where you can upload Pipeline JSON file from your local Computer and select any one of the option depending on Pipelines availablity in that project with UUID's, Below are Available Behaviour:
 
 Configure Behavior
 -----------------
@@ -50,6 +45,9 @@ When importing to an existing Project, there are 3 possible behaviors to choose 
 * CREATE A NEW UUID
     * In this case, the uploaded file will always be assigned a new UUID
 
+.. figure:: ../../_assets/user-guide/export-import/pipeline_import_file.PNG
+     :alt: userguide
+     :width: 60%  
      
 Once you Click on ``Import``, the Pipeline should be available in Pipelines list page of Specific project.
 

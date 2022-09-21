@@ -1,17 +1,28 @@
 Importing Projects
 ==============
 
-Fire allows you to import Projects. 
-This is useful when moving Projects from one environment to another. 
+Fire Insights enables you to Import Projects. These ZIP files can be Exported into another instance of Fire Insights.
 
-Below are the steps for importing Projects in Fire.
+Below are the steps for Importing Projects in Fire Insights.
 
-Go to the Projects Page
---------------------
+
+Steps for Importing Projects
+-----
+
+You can Login to Fire Insights Web server URL and follow below steps:
+
+* Go to the Project List page.
+
+You should get to a page similar to below: 
+
+
+ .. figure:: ../../_assets/user-guide/export-import/applicationpage.PNG
+   :alt: userguide
+   :width: 90%
 
 - Click on the Import button in top right hand side. 
-- Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire during the export process.
-- Select the name of the project which you would like to import from the zip file. Fire would display all the available Projects in your zip file. 
+- Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire Insights during the export process.
+- Select the name of the project which you would like to import from the zip file. Fire Insights would display all the available Projects in your zip file. 
 
 
  .. figure:: ../../_assets/user-guide/export-import/importapplication.png
@@ -40,7 +51,7 @@ When importing to an existing Project, there are 3 possible methods to choose fr
 
 
 On Success
--------------------------------
+----------
 
 On successful import of the Project into Fire Insights, the success dialog is displayed along with the details of the import.
 

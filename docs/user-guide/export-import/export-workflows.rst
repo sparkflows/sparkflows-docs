@@ -27,10 +27,10 @@ In order to export the workflow you want, you must:
      :alt: userguide
      :width: 60%  
   
-Once the workflow exported successfully, you will see the workflow JSON file in your local Computer and same can be imported to other instance. 
+Once the workflow exported successfully, you will see the workflow JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
 
 .. figure:: ../../_assets/user-guide/export-import/wf_exported.PNG
      :alt: userguide
      :width: 60% 
 
-.. note:: Make sure that data pointed to the workflow should be available on new instance.
+.. note:: Make sure that data pointed to the workflow should be available on new instance of Fire Insights.

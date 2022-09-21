@@ -21,7 +21,7 @@ You should get to a page similar as below:
      :width: 60%
 
 
-* Click the import button and select From Workflow Files
+* Click the ``Import`` button and select ``From Workflow Files``
 
 You should get to a page similar as below:
 

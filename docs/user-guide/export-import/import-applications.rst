@@ -1,9 +1,9 @@
 Import Applications
 ===============
 
-Fire Insights enables you to import Applications as JSON files. These JSON files can be export to use in another instance of Fire Insights.
+Fire Insights enables you to import Applications as JSON files. These JSON files can be exported to use in another instance of Fire Insights.
 
-Below are the steps for importing a Applications.
+Below are the steps for importing Applications.
 
 Steps for Importing Applications
 -------
@@ -31,17 +31,17 @@ You should get to a page similar as below:
      :width: 60%  
  
 
-It will take you to new windows where you can upload Application JSON file from your local Computer and select any one of the option depending on Application availablity in that project with KEY, Below are Available Behaviour:
+It will take you to new windows where you can upload Application JSON file from your local Computer and select any one of the option depending on Application availablity in that project with KEY, the available options are listed below:
 
-Configure Behavior
+Import Applications Configuration
 -----------------
 
-When importing to an existing Project, there are 3 possible behaviors to choose from:
+When importing to an existing Project, there are 3 possible options to choose from:
 
 * OVERWRITE APPLICATION IF SAME KEY EXISTS IN THE PROJECT
-    * In this case, if matching KEY are found, the existing project will be removed and replaced with the uploaded file 
+    * In this case, if the matching KEY is found, the existing project will be removed and replaced with the uploaded file 
 * CREATE A NEW KEY IF ONE ALREADY EXISTS
-    * In this case, if matching KEY are found, the uploaded file will be assigned a new KEY 
+    * In this case, if the matching KEY is found, the uploaded file will be assigned a new KEY 
 * CREATE A NEW KEY
     * In this case, the uploaded file will always be assigned a new KEY
 

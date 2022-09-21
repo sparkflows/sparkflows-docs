@@ -15,6 +15,11 @@ An example request for importing specified workflow json file:
  --form 'file=@"C:\Users\NMBR\Downloads\readcsvAndPrintRows.json"'
 
 
+* projectId : Project Id where added json file needs to import.
+* uuidOption: UUID Option can be any one of these 3 below options
+            * createNewUUID : Create new Workflow with new UUID
+            * createNewUUIDIfExist : First, it checks if UUID similar to one in imported json file is present in added project id or not. If present then create new workflow with new UUID and if not then, create new workflow with UUID present in json file.
+            * overwriteWorkflowIfUUIDExistInProject : It checks if UUID similar to one in imported json file is present in added project id. If Workflow is present with same UUID then overwrite content in json file in existing workflow. Else, create new workflow with UUID present in json file.
 
 An example of exported Workflow JSON file:
 

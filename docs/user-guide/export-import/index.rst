@@ -11,13 +11,13 @@ This is useful when you need to move/copy things from one environment to another
 .. toctree::
    :maxdepth: 2
 
-   export-projects.rst
-   import-projects.rst
    export-workflows.rst
    import-workflows.rst
    export-pipelines.rst
    import-pipelines.rst
    export-datasets.rst
    import-datasets.rst
+   export-projects.rst
+   import-projects.rst
    export-import-rest-api.rst
    

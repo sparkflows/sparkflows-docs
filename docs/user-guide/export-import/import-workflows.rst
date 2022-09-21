@@ -36,7 +36,19 @@ Once you Select From Workflow Files, it will take you to new windows like below:
      :alt: userguide
      :width: 60%   
 
-Once you Click on ``Import Workflow`` tab, it will take you to new windows where you can upload workflow JSON file from your local Computer and select any one of the option depending on workflow availablity in that project.
+Once you Click on ``Import Workflow`` tab, it will take you to new windows where you can upload workflow JSON file from your local Computer and select any one of the option depending on workflow availablity in that project with UUID's.
+
+Configure Behavior
+-----------------
+
+When importing to an existing Project, there are 3 possible behaviors to choose from:
+
+* OVERWRITE Workflow IF SAME UUID EXISTS IN THE PROJECT
+    * In this case, if matching UUID's are found, the existing project will be removed and replaced with the uploaded file 
+* CREATE A NEW UUID IF ONE ALREADY EXISTS
+    * In this case, if matching UUID's are found, the uploaded file will be assigned a new UUID 
+* CREATE A NEW UUID
+    * In this case, the uploaded file will always be assigned a new UUID
 
 .. figure:: ../../_assets/user-guide/export-import/wf_import_json.PNG
      :alt: userguide

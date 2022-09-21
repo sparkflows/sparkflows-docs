@@ -10,12 +10,9 @@ An example request for importing specified workflow json file:
 
 ::
  
-   curl --location --request POST 'http://localhost:8080/api/v1/workflows/import' \
-  --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY2NTQzNzI4NDQ1OSwiaWF0IjoxNjYzNzY4MzMyfQ.uOA_9CO9uRxIT8WuS3ceL8I1k1nON-X4Bv4L8gfWEsNKnTYb-Bsgym08qvmDI6O51xFA-wkZhDv5reX3r0GPbQ' \
-  --header 'Cookie: JSESSIONID=node0l8z0yxntk25k16w6kzq19hfw93.node0' \
-  --form 'file=@"C:\Users\NMBR\Downloads\readcsvAndPrintRows.json"' \
-  --form 'projectId="1"' \
-  --form 'uuid="createNewUUID"'
+ curl --location --request POST 'http://localhost:8080/api/v1/workflows/import?projectId=2&uuidOption=createNewUUID' \
+ --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY2NTQzNzI4NDQ1OSwiaWF0IjoxNjYzNzY4MzMyfQ.uOA_9CO9uRxIT8WuS3ceL8I1k1nON-X4Bv4L8gfWEsNKnTYb-Bsgym08qvmDI6O51xFA-wkZhDv5reX3r0GPbQ' \
+ --form 'file=@"C:\Users\NMBR\Downloads\readcsvAndPrintRows.json"'
 
 
 

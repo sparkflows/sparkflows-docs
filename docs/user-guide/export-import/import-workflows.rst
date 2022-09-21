@@ -25,11 +25,12 @@ You should get to a page similar to below
 
 You should get to a page similar to below
 
+
 .. figure:: ../../_assets/user-guide/export-import/wf_import_file.PNG
      :alt: userguide
      :width: 60%  
  
- Once you Select From Workflow Files, it will take you to new windows like below:
+Once you Select From Workflow Files, it will take you to new windows like below:
  
 .. figure:: ../../_assets/user-guide/export-import/wf_import_page.PNG
      :alt: userguide

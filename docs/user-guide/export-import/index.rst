@@ -19,4 +19,5 @@ This is useful when you need to move/copy things from one environment to another
    import-pipelines.rst
    export-datasets.rst
    import-datasets.rst
+   export-import-rest-api.rst
    

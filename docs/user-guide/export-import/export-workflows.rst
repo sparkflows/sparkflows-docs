@@ -8,6 +8,8 @@ Below are the steps for exporting workflows.
 Steps for Exporting Workflows
 ------
 
+You can Login to Fire Insights Web server URL and follow below steps:
+
 * Go to the Project List page.
 * Select the project that has the workflow you want to Export
 * Click the Workflows tab

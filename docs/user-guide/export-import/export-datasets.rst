@@ -6,7 +6,7 @@ Fire Insights enables you to export Datasets to use in Projects.
 Below are the steps for exporting a Dataset.
 
 Steps for Exporting Datasets
-===============
+-----
 
 * Go to the Project page.
 * Select the project to export a Dataset from 

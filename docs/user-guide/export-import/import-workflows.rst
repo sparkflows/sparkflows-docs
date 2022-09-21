@@ -14,9 +14,10 @@ Steps for Importing Workflow
 
 You should get to a page similar to below
 
-.. figure:: ../../_assets/user-guide/export-import/Workflow_Starting_Page.png
+.. figure:: ../../_assets/user-guide/export-import/wf_list.PNG
      :alt: userguide
      :width: 60%
+
 
 * Click the import button and select From Workflow files
 

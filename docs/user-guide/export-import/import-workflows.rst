@@ -14,7 +14,7 @@ You can Login to Fire Insights Web server URL and follow below steps:
 * Select the project to import workflows to 
 * Click the Workflows tab
 
-You should get to a page similar to below
+You should get to a page similar as below:
 
 .. figure:: ../../_assets/user-guide/export-import/wf_list.PNG
      :alt: userguide
@@ -23,7 +23,7 @@ You should get to a page similar to below
 
 * Click the import button and select From Workflow Files
 
-You should get to a page similar to below
+You should get to a page similar as below:
 
 
 .. figure:: ../../_assets/user-guide/export-import/wf_import_file.PNG

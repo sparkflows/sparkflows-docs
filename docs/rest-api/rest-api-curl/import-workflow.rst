@@ -12,7 +12,7 @@ An example request for importing specified workflow json file:
  
  curl --location --request POST 'http://localhost:8080/api/v1/workflows/import?projectId=2&uuidOption=createNewUUID' \
  --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY2NTQzNzI4NDQ1OSwiaWF0IjoxNjYzNzY4MzMyfQ.uOA_9CO9uRxIT8WuS3ceL8I1k1nON-X4Bv4L8gfWEsNKnTYb-Bsgym08qvmDI6O51xFA-wkZhDv5reX3r0GPbQ' \
- --form 'file=@"C:\Users\NMBR\Downloads\readcsvAndPrintRows.json"'
+--form 'file=@"/C:/Users/NMBR/Downloads/readcsvAndPrintRows.json"'
 
 
 * projectId : Project Id where added workflow json file needs to imported.

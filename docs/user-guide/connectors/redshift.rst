@@ -21,13 +21,13 @@ Processor Configuration Parameters:
       * - dbtable
         - Redshift Table
         - The Redshift table that should be read. Note that anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table you could also use a subquery in parentheses.
-      * - awsAccessKeyId
+      * - AWS ACCESS KEY ID
         - AWS Access Key Id
         - AWS Access Key Id
-      * - awsSecretAccessKey
+      * - AWS SECRET ACCESS KEY
         - AWS Secret Access Key
         - AWS Secret Access Key
-      * - tempS3Dir
+      * - TEMPORARY S3 DIRECTORY
         - Temporary S3 directory
         - Temporary S3 directory
 
@@ -50,19 +50,19 @@ while using the above processor need to have below parameter
       * - url
         - URL
         - The JDBC URL to connect to
-      * - dbtable
+      * - REDSHIFT TABLE
         - Redshift Table
         - The Redshift table that should be write. Note that anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table you could also use a subquery in parentheses.
-      * - awsAccessKeyId
+      * - AWS ACCESS KEY ID
         - AWS Access Key Id
         - AWS Access Key Id
-      * - awsSecretAccessKey
+      * - AWS SECRET ACCESS KEY
         - AWS Secret Access Key
         - AWS Secret Access Key
-      * - tempS3Dir
+      * - TEMPORARY S3 DIRECTORY
         - Temporary S3 directory
         - Temporary S3 directory
-      * - saveMode
+      * - SAVE MODE
         - Save Mode
         - Whether to Append, Overwrite or Error if the path Exists
 

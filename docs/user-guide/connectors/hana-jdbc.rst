@@ -18,3 +18,12 @@ Download SAP HANA JDBC Driver from SAP Service Marketplace
   * Download the ngdbc.jar file and install it on the Fire Insights machine.
   
   
+Configure HANA JDBC Driver in Fire Insights
+-----------
+
+Now JDBC Driver jar can be configured in Fire Insights to Read and Write to SAP HANA using JDBC Processors.
+
+Below are steps to configure the driver in Fire Insights and Read and Write to HANA.
+
+- Copy the ``ngdbc.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
+- Login to Fire Insights application and Go inside project and workflow tab to create an example workflow with Read and Write to HANA using Read JDBC & Save JDBC Processors

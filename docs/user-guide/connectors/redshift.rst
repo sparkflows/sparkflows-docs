@@ -15,10 +15,10 @@ Processor Configuration Parameters:
       * - Name
         - Title
         - Description
-      * - url
+      * - URL
         - URL
         - The JDBC URL to connect to
-      * - dbtable
+      * - REDSHIFT TABLE
         - Redshift Table
         - The Redshift table that should be read. Note that anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table you could also use a subquery in parentheses.
       * - AWS ACCESS KEY ID
@@ -47,7 +47,7 @@ while using the above processor need to have below parameter
       * - Name
         - Title
         - Description
-      * - url
+      * - URL
         - URL
         - The JDBC URL to connect to
       * - REDSHIFT TABLE

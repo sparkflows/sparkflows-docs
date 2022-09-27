@@ -17,7 +17,7 @@ Once we login to Fire Insights Application as an Administrator user, go to the `
    :alt: rest-api
    :width: 60%
 
-2. Once the configuration is enabled, go to the ``Administration/Roles``, and check mark the policy attached in role for specific user.
+2. Once the configuration is enabled, go to the ``Administration/Roles``, and check mark the policy attached to the role for specific user.
 
 
 ::

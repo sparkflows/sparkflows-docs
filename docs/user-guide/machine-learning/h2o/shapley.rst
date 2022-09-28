@@ -15,7 +15,16 @@ Below are the details of how the Shapley values can be computed:
 
   - In the above mentioned nodes, one can set the field `WITH CONTRIBUTIONS` to `True` and train the model.
   - When scoring on a dataset trained with the above field set, one can see the average summary plot.
+ 
   
 .. figure:: ../../../_assets/user-guide/machine-learning/h2o/shapley_contribution.png
    :alt: Shapley value computation field
    :width: 90%
+
+
+The SHAP summary plot looks like below:
+
+.. figure:: ../../../_assets/user-guide/machine-learning/h2o/shap.png
+   :alt: Summary SHAP values on UCI credit card data
+   :width: 90%
+

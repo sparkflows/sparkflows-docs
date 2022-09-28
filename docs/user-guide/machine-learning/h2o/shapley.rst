@@ -5,7 +5,6 @@ Shapley values are one of the standard techquie used for Machine Learning Interp
 More on Shapley values can be found here - https://christophm.github.io/interpretable-ml-book/shapley.html#the-shapley-value-in-detail
 More on SHAP can be found here - https://christophm.github.io/interpretable-ml-book/shap.html
 
-
 Sparkflows supports SHAP value computations for Tree based h2o algorithms for regression and binomial classification usecases. The below nodes can be leveraged to get Shapley contributions:
   - H2O Distributed Random forest
   - H2O Gradient Boosted machine

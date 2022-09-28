@@ -32,6 +32,12 @@ H2O
 
     Principal Component Analysis (PCA) using H2O
     
+    ---
+
+    :doc:`/user-guide/machine-learning/h2o/Shapley`
+
+    Shapley values for Tree based Regression and Binomial classification problems
+    
 .. toctree::
    :hidden:
 
@@ -40,4 +46,5 @@ H2O
    regression-classification/index.rst
    anomaly-detection.rst
    PCA.rst
+   shapley.rst
    

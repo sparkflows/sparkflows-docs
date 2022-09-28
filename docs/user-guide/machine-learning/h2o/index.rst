@@ -34,7 +34,7 @@ H2O
     
     ---
 
-    :doc:`/user-guide/machine-learning/h2o/Shapley`
+    :doc:`/user-guide/machine-learning/h2o/shapley`
 
     Shapley values for Tree based Regression and Binomial classification problems
     

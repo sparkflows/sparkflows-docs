@@ -29,7 +29,7 @@ The SHAP Feature Importance plot looks like below:
    :width: 90%
    
    
-The SHAP summary plot looks like below:
+The SHAP Summary plot looks like below:
 
 .. figure:: ../../../_assets/user-guide/machine-learning/h2o/shap.png
    :alt: Summary SHAP plot

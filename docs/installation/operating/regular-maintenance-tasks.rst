@@ -33,22 +33,22 @@ Cleaning Old Workflow Executions
 It is important to regularly delete the old workflow executions in order to keep the size of the H2 DB in control.
 
 - Go to the Administration/Cleanup Data
-- Click on Delete old Workflow Executions in order to delete the old workflow executions.
+- On ''Clean Workflow Executions'' tab, Click on ''Delete workflow executions'' drop down & Delete workflow executions which is older than 30 days.
 
-.. figure:: ../../_assets/installation/cleanup_data.PNG
+.. figure:: ../../_assets/installation/clean-up_data.PNG
    :alt: Installations
    :width: 60% 
-   
+
 Cleaning Old Audit logs
 +++++++++++++++++++++++
 
 It is important to regularly delete the old Audit logs for cleaning the DB.
 
 - Go to the Administration/Cleanup Data
-- Click on Clean Audit Logs tab & Delete Audit Logs which is older than 30 days
+- On ''Clean Audit Logs'' tab, Click on ''Delete audit logs'' drop down & Delete Audit Logs which is older than 30 days
 
    
-.. figure:: ../../_assets/installation/auditlog.PNG
+.. figure:: ../../_assets/installation/clean-up_audit.PNG
    :alt: Installations
    :width: 60%    
 

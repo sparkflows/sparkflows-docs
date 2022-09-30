@@ -11,7 +11,7 @@ once the above URL is added in Browser the response should be something like bel
 
     {"status":"UP"}
 
-.. figure:: ../../_assets/operating/healthcheck.PNG
+.. figure:: ../../_assets/operating/healthcheck_status.PNG
    :alt: operating
    :width: 60%
     

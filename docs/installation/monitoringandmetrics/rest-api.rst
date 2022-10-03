@@ -29,7 +29,7 @@ Login to below url:
 
 ::
 
-    https://localhots:port/swagger-ui.html
+    https://localhost:port/swagger-ui.html
     
 .. figure:: ../../_assets/installation/metrics/ui.PNG
    :alt: metrics

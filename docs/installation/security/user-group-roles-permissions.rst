@@ -52,10 +52,10 @@ Fire Insights supports the following Permissions. Permissions are associated wit
      - Create, modify & delete the roles  
    * - projects.manage
      - Create, modify & delete the projects
+   * - configurations.manage
+     - modify diifferent configurations   
    * - enable.projectShare
      - enable project share permission
-   * - configurations.manage
-     - modify diifferent configurations 
    * - connections.manage
      - manage the connections
    * - credentialstores.manage

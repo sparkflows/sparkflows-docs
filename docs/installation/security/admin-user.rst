@@ -6,7 +6,7 @@ Fire Insights support variety of permissions for Roles. Each user can be assigne
 Permissions supported by Fire Insights
 ----------------------
 
-Fire Insights supports the following Permissions. Permissions are associated with Roles.
+Below are the permissions supported by Fire Insights.
 
 .. figure:: ../../_assets/security/role_permission.PNG
    :alt: security

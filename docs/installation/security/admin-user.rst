@@ -8,7 +8,7 @@ Permissions supported by Fire Insights
 
 Fire Insights supports the following Permissions. Permissions are associated with Roles.
 
-.. figure:: ../../_assets/security/admin_priv.PNG
+.. figure:: ../../_assets/security/role_permission.PNG
    :alt: security
    :width: 60%
      

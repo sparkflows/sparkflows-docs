@@ -6,7 +6,7 @@ Fire Insights support variety of permissions for Roles. Each user can be assigne
 Permissions supported by Fire Insights
 ----------------------
 
-Below are the permissions supported by Fire Insights.
+Fire Insights supports the following Permissions. Permissions are associated with Roles.
 
 .. figure:: ../../_assets/security/admin_priv.PNG
    :alt: security
@@ -28,25 +28,43 @@ Below are the permissions supported by Fire Insights.
    * - projects.manage
      - Create, modify & delete the projects
    * - configurations.manage
-     - modify diiferent configurations 
+     - modify diifferent configurations   
+   * - enable.projectShare
+     - enable project share permission
    * - connections.manage
-     - add & modify diifferent connections  
+     - manage the connections
+   * - credentialstores.manage
+     - manage the credentialstores
+   * - enable.tokenGeneration
+     - manage token generations
    * - datasets.view
      - view dataset in specified project
    * - datasets.modify
      - modify datasets in specified project
+   * - dashboard.view
+     - view dashboard
+   * - dashboard.modify
+     - modify the dashboard
    * - workflows.view
      - view workflows in specified project
    * - workflows.modify
      - modify workflows in specified project
    * - workflows.execute
      - execute workflow in specified project
+   * - enable.automl
+     - enable automl 
    * - apps.modify
      - modify analytics application 
    * - apps.execute
      - execute analytics application
    * - apps.view
      - view analytics application
+   * - data.view
+     - view data
+   * - report.view
+     - report view
+   * - report.modify
+     - report modify
      
 Permissions for Admin User
 -------------

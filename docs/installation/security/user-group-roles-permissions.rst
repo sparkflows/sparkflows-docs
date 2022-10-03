@@ -20,6 +20,10 @@ Associated with each Group are some more details. These include the following:
   * Properties : key and value pair you need to pass.
   * AWS Role Arn : S3 locations which the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
 
+.. figure:: ../../_assets/security/group_creation.PNG
+   :alt: security
+   :width: 60%
+
 Users
 -----
 

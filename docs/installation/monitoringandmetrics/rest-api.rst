@@ -7,7 +7,7 @@ It can be accessible only when admin provide privilge to access it.
 
 Below are steps:
 
-1. Enable Swagger inside ``applications.properties``
+1. Enable Swagger inside ``application.properties``
 
 Make it to true.
 

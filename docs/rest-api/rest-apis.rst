@@ -331,14 +331,37 @@ dashboard-controller
 Operations pertaining to Dashboards in Sparkflows
 ::
 
-    GET /api/v1/dashboards Get all the dashborads
-    POST /api/v1/dashboards Create dashboard
-    PUT /api/v1/dashboards/{dashboardId} update dashboard
-    DELETE /api/v1/dashboards/{dashboardId} Delete dashboard
-    GET /api/v1/dashboards/{id} Get dashboard by Id
-    GET /api/v1/dashboards/all Get all Dashboards
-    GET /api/v1/dashboards/categories getAllDashboardCategories
-    GET /api/v1/dashboards/results Get dashboard results
+    # Get all the dashborads
+    
+    GET /api/v1/dashboards 
+    
+    # Create dashboard
+    
+    POST /api/v1/dashboards 
+    
+    # update dashboard
+    
+    PUT /api/v1/dashboards/{dashboardId} 
+    
+    # Delete dashboard
+    
+    DELETE /api/v1/dashboards/{dashboardId} 
+    
+    # Get dashboard by Id
+    
+    GET /api/v1/dashboards/{id} 
+    
+    # Get all Dashboards
+    
+    GET /api/v1/dashboards/all 
+    
+    # getAllDashboardCategories
+    
+    GET /api/v1/dashboards/categories 
+    
+    # Get dashboard results
+    
+    GET /api/v1/dashboards/results 
     
 data-quality-controller
 ++++++++
@@ -346,14 +369,37 @@ data-quality-controller
 Data Quality Controller
 ::
 
-    DELETE /api/v1/dataQuality Delete Data Quality Records by dataQuality ids
-    GET /api/v1/dataQuality/summary Api for data-quality summary
-    POST /api/v1/summaryWorkflow/{projectId}/{datasetUuid} Create summary workflow
-    GET /api/vi/data-quality/validation/{dataQualityUuid} api for get data validation by dataQualityUuid
-    GET /api/vi/dataQuality api for get all data quality
-    GET /api/vi/dataQuality/{dataQualityUuid} api for get data quality by dataQualityUuid
-    GET /api/vi/dataQuality/counts api for getting the data quality record counts
-    POST /api/vi/executeSummaryWorkflow/{projectId}/{datasetUuid} Api for creating and executing dataset summary workflow
+    # Delete Data Quality Records by dataQuality ids
+    
+    DELETE /api/v1/dataQuality 
+    
+    # Api for data-quality summary
+    
+    GET /api/v1/dataQuality/summary 
+    
+    # Create summary workflow
+    
+    POST /api/v1/summaryWorkflow/{projectId}/{datasetUuid} 
+    
+    # api for get data validation by dataQualityUuid
+    
+    GET /api/vi/data-quality/validation/{dataQualityUuid} 
+    
+    # api for get all data quality
+    
+    GET /api/vi/dataQuality 
+    
+    # api for get data quality by dataQualityUuid
+    
+    GET /api/vi/dataQuality/{dataQualityUuid} 
+    
+    # api for getting the data quality record counts
+    
+    GET /api/vi/dataQuality/counts 
+    
+    # Api for creating and executing dataset summary workflow
+    
+    POST /api/vi/executeSummaryWorkflow/{projectId}/{datasetUuid} 
 
 data-set-controller
 ++++++++

@@ -263,12 +263,29 @@ credential-store-controller
 Credential Store Controller
 ::
 
-    GET /api/v1/credentialStores Get All CredentialStore details
-    POST /api/v1/credentialStores Create CredentialStore
-    PUT /api/v1/credentialStores Update CredentialStore details
-    DELETE /api/v1/credentialStores/{credentialStoreId} delete CredentialStore details
-    GET /api/v1/credentialStores/{id} Get CredentialStore details by id
-    POST /api/v1/credentialStores/testDetails Test CredentialStore details
+    # Get All CredentialStore details
+    
+    GET /api/v1/credentialStores 
+    
+    # Create CredentialStore
+    
+    POST /api/v1/credentialStores 
+    
+    # Update CredentialStore details
+    
+    PUT /api/v1/credentialStores 
+    
+    # delete CredentialStore details
+    
+    DELETE /api/v1/credentialStores/{credentialStoreId} 
+    
+    # Get CredentialStore details by id
+    
+    GET /api/v1/credentialStores/{id} 
+    
+    # Test CredentialStore details
+    
+    POST /api/v1/credentialStores/testDetails 
 
 custom-processor-controller
 ++++++++++
@@ -276,14 +293,37 @@ custom-processor-controller
 Custom Processor Controller
 ::
 
-    GET /api/v1/processor/export/{customProcessorIds} Get Custom Processor for export
-    GET /api/v1/processors Get custom processor
-    POST /api/v1/processors Create custom processor
-    GET /api/v1/processors/{customProcessorId} Get custom processor by id
-    DELETE /api/v1/processors/{customProcessorId} deleteCustomProcessor
-    POST /api/v1/processors/datasets/{datasetId} Test custom processor
-    POST /api/v1/processors/import Import custom processor
-    GET  /api/v1/processors/names getCustomProcessorByName
+    # Get Custom Processor for export
+    
+    GET /api/v1/processor/export/{customProcessorIds} 
+    
+    # Get custom processor
+    
+    GET /api/v1/processors 
+    
+    # Create custom processor
+    
+    POST /api/v1/processors 
+    
+    # Get custom processor by id
+    
+    GET /api/v1/processors/{customProcessorId} 
+    
+    # deleteCustomProcessor
+    
+    DELETE /api/v1/processors/{customProcessorId} 
+    
+    # Test custom processor
+    
+    POST /api/v1/processors/datasets/{datasetId} 
+    
+    # Import custom processor
+    
+    POST /api/v1/processors/import 
+    
+    # getCustomProcessorByName
+    
+    GET  /api/v1/processors/names 
 
 dashboard-controller
 +++++++++++

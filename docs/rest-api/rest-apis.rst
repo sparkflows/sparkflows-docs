@@ -103,116 +103,78 @@ Auto ML Executions Controller
     GET /api/v1/auto-ml/execution/{autoMlExecutionId} getAutoMlExecutionsByExecutionId
     POST /api/v1/auto-ml/execution/{autoMlExecutionId}/autoMl setAutoMlExecutionsIsFavoriteOrNot
     POST /api/v1/auto-ml/execution/{executionId}/autoMl/{autoMlId} saveAutoMlExecutions
-POST
-/api/v1/auto-ml/execution/comment
-addCommentToAutoMlExecution
-GET
-/api/v1/auto-ml/executions/{autoMlId}
-getAutoMlExecutions
+    POST /api/v1/auto-ml/execution/comment addCommentToAutoMlExecution
+    GET /api/v1/auto-ml/executions/{autoMlId} getAutoMlExecutions
+    
 aws-controller
+++++++++++++
+
 Aws Controller
-GET
-/api/v1/aws/roles
-getAwsRoles
+::
+
+    GET /api/v1/aws/roles getAwsRoles
+    
 conf-property-controller
+++++++++++++++++
+
 Operations pertaining to Conf Property in Sparkflows
-GET
-/api/v1/configs/app
-Get Application Configuration property
-GET
-/api/v1/configurations
-Get configurations
-POST
-/api/v1/configurations
-Save/Update configurations
-GET
-/api/v1/configurations/infer
-Infer configurations
-GET
-/api/v1/configurations/kafka
-Get kafka configuration
-GET
-/api/v1/configurations/uiSettings
-Get Configuration property of ui settings
-GET
-/api/v1/main/modules-enabled
-Get Configuration property of modules
-GET
-/api/v1/main/sso-conf
-Get Configuration property of sso
+::
+
+    GET /api/v1/configs/app Get Application Configuration property
+    GET /api/v1/configurations Get configurations
+    POST /api/v1/configurations Save/Update configurations
+    GET /api/v1/configurations/infer Infer configurations
+    GET /api/v1/configurations/kafka Get kafka configuration
+    GET /api/v1/configurations/uiSettings Get Configuration property of ui settings
+    GET /api/v1/main/modules-enabled Get Configuration property of modules
+    GET /api/v1/main/sso-conf Get Configuration property of sso
+
 credential-store-controller
++++++++++++++
+
 Credential Store Controller
-GET
-/api/v1/credentialStores
-Get All CredentialStore details
-POST
-/api/v1/credentialStores
-Create CredentialStore
-PUT
-/api/v1/credentialStores
-Update CredentialStore details
-DELETE
-/api/v1/credentialStores/{credentialStoreId}
-delete CredentialStore details
-GET
-/api/v1/credentialStores/{id}
-Get CredentialStore details by id
-POST
-/api/v1/credentialStores/testDetails
-Test CredentialStore details
+::
+
+    GET /api/v1/credentialStores Get All CredentialStore details
+    POST /api/v1/credentialStores Create CredentialStore
+    PUT /api/v1/credentialStores Update CredentialStore details
+    DELETE /api/v1/credentialStores/{credentialStoreId} delete CredentialStore details
+    GET /api/v1/credentialStores/{id} Get CredentialStore details by id
+    POST /api/v1/credentialStores/testDetails Test CredentialStore details
+
 custom-processor-controller
+++++++++++
+
 Custom Processor Controller
-GET
-/api/v1/processor/export/{customProcessorIds}
-Get Custom Processor for export
-GET
-/api/v1/processors
-Get custom processor
-POST
-/api/v1/processors
-Create custom processor
-GET
-/api/v1/processors/{customProcessorId}
-Get custom processor by id
-DELETE
-/api/v1/processors/{customProcessorId}
-deleteCustomProcessor
-POST
-/api/v1/processors/datasets/{datasetId}
-Test custom processor
-POST
-/api/v1/processors/import
-Import custom processor
-GET
-/api/v1/processors/names
-getCustomProcessorByName
+::
+
+    GET /api/v1/processor/export/{customProcessorIds} Get Custom Processor for export
+    GET /api/v1/processors Get custom processor
+    POST /api/v1/processors Create custom processor
+    GET /api/v1/processors/{customProcessorId} Get custom processor by id
+    DELETE /api/v1/processors/{customProcessorId} deleteCustomProcessor
+    POST /api/v1/processors/datasets/{datasetId} Test custom processor
+    POST /api/v1/processors/import Import custom processor
+    GET  /api/v1/processors/names getCustomProcessorByName
+
 dashboard-controller
++++++++++++
+
 Operations pertaining to Dashboards in Sparkflows
-GET
-/api/v1/dashboards
-Get all the dashborads
-POST
-/api/v1/dashboards
-Create dashboard
-PUT
-/api/v1/dashboards/{dashboardId}
-update dashboard
-DELETE
-/api/v1/dashboards/{dashboardId}
-Delete dashboard
-GET
-/api/v1/dashboards/{id}
-Get dashboard by Id
-GET
-/api/v1/dashboards/all
-Get all Dashboards
-GET
-/api/v1/dashboards/categories
-getAllDashboardCategories
-GET
-/api/v1/dashboards/results
-Get dashboard results
+::
+
+    GET /api/v1/dashboards Get all the dashborads
+    POST /api/v1/dashboards Create dashboard
+    PUT /api/v1/dashboards/{dashboardId} update dashboard
+    DELETE /api/v1/dashboards/{dashboardId} Delete dashboard
+    GET /api/v1/dashboards/{id} Get dashboard by Id
+    GET /api/v1/dashboards/all Get all Dashboards
+    GET /api/v1/dashboards/categories getAllDashboardCategories
+    GET /api/v1/dashboards/results Get dashboard results
+    
 data-quality-controller
+++++++++
+
 Data Quality Controller
 DELETE
 /api/v1/dataQuality

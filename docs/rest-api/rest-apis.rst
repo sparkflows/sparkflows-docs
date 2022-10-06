@@ -76,15 +76,24 @@ getTables
 
     PUT
     /api/v1/connections/{id}
+    
 Update a connection details
-GET
-/api/v1/connections/categories/{category}
+::
+
+    GET
+    /api/v1/connections/categories/{category}
+    
 getAllConnections
-GET
-/api/v1/connections/global
+::
+    
+    GET
+    /api/v1/connections/global
+    
 getGlobalConnections
-GET
-/api/v1/connections/loggedInUser
+::
+
+    GET
+    /api/v1/connections/loggedInUser
 getConnectionsForLoggedInUser
 GET
 /api/v1/connections/manage/access

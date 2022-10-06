@@ -597,11 +597,25 @@ event-controller
 Event Controller
 ::
 
-    DELETE /api/v1/events/{days} deleteEventsByDays
-    GET /api/v1/events/project getProjectEvents
-    GET /api/v1/events/search listAllEvents
-    GET /api/v1/operations/events/total getTotalEventCountByAllUsers
-    GET /api/vi/events/counts api for getting the Event record counts
+    # deleteEventsByDays
+    
+    DELETE /api/v1/events/{days} 
+    
+    # getProjectEvents
+    
+    GET /api/v1/events/project 
+    
+    # listAllEvents
+    
+    GET /api/v1/events/search 
+    
+    # getTotalEventCountByAllUsers
+    
+    GET /api/v1/operations/events/total 
+    
+    # api for getting the Event record counts
+    
+    GET /api/vi/events/counts 
 
 fire-access-token-controller
 +++++++++
@@ -609,10 +623,21 @@ fire-access-token-controller
 Fire Access Token Controller
 ::
 
-    GET /api/v1/tokens getFireAccessTokens
-    POST /api/v1/tokens generateToken
-    GET /api/v1/tokens/{id} getFireAccessTokenDetails
-    DELETE /api/v1/tokens/{id} deleteFireAccessTokenById
+    # getFireAccessTokens
+    
+    GET /api/v1/tokens 
+    
+    # generateToken
+    
+    POST /api/v1/tokens 
+    
+    # getFireAccessTokenDetails
+    
+    GET /api/v1/tokens/{id} 
+    
+    # deleteFireAccessTokenById
+    
+    DELETE /api/v1/tokens/{id} 
 
 git-integration-controller
 ++++++++

@@ -275,7 +275,7 @@ Event Controller
     GET /api/vi/events/counts api for getting the Event record counts
 
 fire-access-token-controller
-+++++++++=
++++++++++
 
 Fire Access Token Controller
 ::

@@ -27,7 +27,10 @@ About Controller
 
 ::
     
-    GET /api/v1/app/release-info getBuildReleaseInfo
+    getBuildReleaseInfo
+    ++++++++
+    
+    GET /api/v1/app/release-info 
     
     
 analysis-flow-trigger-controller

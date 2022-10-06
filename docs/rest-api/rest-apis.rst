@@ -320,7 +320,7 @@ group-admin-controller
 ++++++++
 
 Operations pertaining to Group in Sparkflows
-:
+::
 
     GET /api/groups/{groupId} Get Group by Id
     GET /api/v1/groups Get all Groups

@@ -469,13 +469,68 @@ Model Controller
 
 node-controller
 ++++++++++++++++
+
 Operations pertaining to processors in Sparkflows
+::
+
+    GET /api/v1/node-rules Returns list of node rules
+    GET /api/v1/nodes Gets list of available processors by engine or leave it blank for all processors.
+    GET /api/v1/nodes/count Get Node Count
+    GET /api/v1/nodes/names/{name} Return processor details by name
+    GET /api/v2/nodes Gets list of available processors by engine or leave it blank for all processors.
+
 operations-controller
+++++++++++
+
 Operations Controller
+::
+    
+    DELETE /api/v1/operations/workflows/deleteAllExecutions deleteAllExecutions
+    DELETE /api/v1/operations/workflows/executions delete older workflow executions and its results.
+    GET /api/v1/operations/workflows/executions/count Get Workflow execution counts
+    GET /api/v1/operations/workflows/executions/count/days/{days} getTotalWorkflowExecutionCountByOlderDays
+    GET /api/v1/operations/workflows/executions/results/count Get workflow execution results count
+    GET /api/v1/operations/workflows/executions/total getTotalWorkflowExecutionCountByAllUsers
+
 pipeline-controller
++++++++++++==
 Operations pertaining to Pipeline in Fire
+::
+
+    GET /api/retrievePipelineVersions Retrieve the pipeline versions
+    POST /api/v1/pipelines/import importPipeline
+
 pipeline-execute-controller
+++++++++++
+
 Pipeline Execute Controller
+::
+
+GET
+/api/executePipeline
+Execute the pipeline
+GET
+/api/v1/pipeline/executions/project/{projectId}
+getPipelineExecutionListByProjectId
+GET
+/api/v1/pipelines/execution/{pipelineExecutionId}
+getPipelineExecutionDetailsById
+DELETE
+/api/v1/pipelines/execution/{pipelineExecutionId}
+deletePipelineExecutionById
+GET
+/api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus
+refreshStatusByAirflow
+GET
+/api/v1/pipelines/execution/{pipelineExecutionId}/refreshStatus
+refreshPipelineStatus
+GET
+/api/v1/pipelines/execution/logs
+getLogs
+GET
+/api/v1/pipelines/execution/task
+getTaskDetails
+
 pipeline-node-controller
 Pipeline Node Controller
 pipeline-scheduler-controller

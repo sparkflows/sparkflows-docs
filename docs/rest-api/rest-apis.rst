@@ -353,109 +353,84 @@ help-controller
 ++++++
 
 Help Controller
-GET
-/api/v1/helps/{contentType}
-getHelpContent
+::
+
+    GET /api/v1/helps/{contentType} getHelpContent
+
 hive-controller
++++++++++
+
 Operations pertaining to Hive in Sparkflows
-POST
-/api/v1/hive/command/execute
-Execute HIVE Command
-GET
-/api/v1/hive/databases
-Get all Hive Databases
-GET
-/api/v1/hive/tables
-Get all Hive Tables for given db
+::
+
+    POST /api/v1/hive/command/execute Execute HIVE Command
+    GET /api/v1/hive/databases Get all Hive Databases
+    GET /api/v1/hive/tables Get all Hive Tables for given db
+
 icon-controller
+++++
+
 Icon Controller
-GET
-/api/v1/icons
-getIcons
+::
+
+    GET /api/v1/icons getIcons
+    
 interactive-dashboard-controller
+++++++
+
 Operations pertaining to Interactive Dashboards
-GET
-/api/v1/i-dashboards
-Get all the interactive dashboards
-POST
-/api/v1/i-dashboards
-Create interactive dashboard
-PUT
-/api/v1/i-dashboards/{dashboardId}
-Update interactive dashboard
-DELETE
-/api/v1/i-dashboards/{dashboardId}
-Delete interactive dashboard
-GET
-/api/v1/i-dashboards/{id}
-Get interactive dashboard by Id
-POST
-/api/v1/i-dashboards/chart-data
-Get Chart Data
-GET
-/api/v1/i-dashboards/datasets
-Get all the Interactive Datasets
-GET
-/api/v1/i-dashboards/datasets/uuid/{uuid}
-Get Interactive Dataset by uuid
-POST
-/api/v1/i-dashboards/filter
-Filter Request
-PUT
-/api/v1/i-dashboardsarranged/{dashboardId}
-Update interactive dashboard
-POST
-/api/v2/i-dashboards
-Create or update interactive dashboards
-PUT
-/api/v2/i-dashboards
-Create or update interactive dashboards
-GET
-/api/v2/i-dashboards/{dashboardId}
-getArrangedInteractiveDashobardDetails
-DELETE
-/api/v2/i-dashboards/{dashboardId}
-deleteInteractiveDashobard
-GET
-/api/v2/i-dashboards/projects/{projectId}
-getArrangedInteractiveDashobards
+::
+
+    GET /api/v1/i-dashboards Get all the interactive dashboards
+    POST /api/v1/i-dashboards Create interactive dashboard
+    PUT /api/v1/i-dashboards/{dashboardId} Update interactive dashboard
+    DELETE /api/v1/i-dashboards/{dashboardId} Delete interactive dashboard
+    GET /api/v1/i-dashboards/{id} Get interactive dashboard by Id
+    POST /api/v1/i-dashboards/chart-data Get Chart Data
+    GET /api/v1/i-dashboards/datasets Get all the Interactive Datasets
+    GET /api/v1/i-dashboards/datasets/uuid/{uuid} Get Interactive Dataset by uuid
+    POST /api/v1/i-dashboards/filter Filter Request
+    PUT /api/v1/i-dashboardsarranged/{dashboardId} Update interactive dashboard
+    POST /api/v2/i-dashboards Create or update interactive dashboards
+    PUT /api/v2/i-dashboards Create or update interactive dashboards
+    GET /api/v2/i-dashboards/{dashboardId} getArrangedInteractiveDashobardDetails
+    DELETE /api/v2/i-dashboards/{dashboardId} deleteInteractiveDashobard
+    GET /api/v2/i-dashboards/projects/{projectId} getArrangedInteractiveDashobards
+
 ldap-config-controller
++++++++++
+
 Ldap Config Controller
-GET
-/api/ldapConfigurations
-Api To Get the Ldap Configuration
-POST
-/api/testLdapConnection
-Api To Test the Ldap Connection
-PUT
-/api/updateLdapConfigurations
-Api To Update the Ldap configurations
+::
+
+    GET /api/ldapConfigurations Api To Get the Ldap Configuration
+    POST /api/testLdapConnection Api To Test the Ldap Connection
+    PUT /api/updateLdapConfigurations Api To Update the Ldap configurations
+
 logs-controller
+++++++
+
 Logs Controller
-GET
-/api/fireLogs
-View logs of fire
-GET
-/api/fireServer/exceptions/logs
-View logs of fire server
-GET
-/api/fireServerLogs
-View logs of fire server
-GET
-/api/pysparkLogs
-View pyspark server log
-GET
-/api/search/logs/{logName}/{searchString}
-Search logs
+::
+
+    GET /api/fireLogs View logs of fire
+    GET /api/fireServer/exceptions/logs View logs of fire server
+    GET /api/fireServerLogs View logs of fire server
+    GET /api/pysparkLogs View pyspark server log
+    GET /api/search/logs/{logName}/{searchString} Search logs
+
 main-controller
++++++++++++
+
 Operations pertaining to Main Ctrl in Sparkflows
-GET
-/api/v1/main/about
-Get Sparkflows details
-GET
-/api/v1/main/databricks-enabled/{name}
-Get Configuration property of databricks by Name
+::
+
+    GET /api/v1/main/about Get Sparkflows details
+    GET /api/v1/main/databricks-enabled/{name} Get Configuration property of databricks by Name
+
 metrics-controller
+++++
+
 Metrics Controller
 GET
 /api/v1/metrics/summary/{analysisFlowId}

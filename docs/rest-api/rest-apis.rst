@@ -21,33 +21,19 @@ About Controller
 
     GET /api/v1/app/release-info
     
-getBuildReleaseInfo
 analysis-flow-trigger-controller
++++++++++
+
 Analysis Flow Trigger Controller
 
 ::
 
-    GET
-    /api/v1/workflow-triggers
+    GET /api/v1/workflow-triggers getAllAnalysisflowTriggers  
+    POST /api/v1/workflow-triggers createAnalysisflowTrigger  
+    GET /api/v1/workflow-triggers/{analysisworkflowTriggerId} getAnalysisflowTriggerDetails
+    DELETE /api/v1/workflow-triggers/{analysisWorkflowTriggerId} deleteAnalysisflowTriggerById
     
-getAllAnalysisflowTriggers
-::
-    POST
-    /api/v1/workflow-triggers
-    
-createAnalysisflowTrigger
-::
 
-    GET
-    /api/v1/workflow-triggers/{analysisworkflowTriggerId}
-
-getAnalysisflowTriggerDetails
-::
-
-    DELETE
-    /api/v1/workflow-triggers/{analysisWorkflowTriggerId}
-    
-deleteAnalysisflowTriggerById
 application-connection-controller
 Application Connection Controller
 ::

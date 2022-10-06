@@ -2164,3 +2164,5 @@ Yarn Controller
     
     GET /api/v1/yarn/applicationList 
 
+
+.. note::  Make sure to change localhost with respective ip or domain name and the port on which Sparkflows is running.

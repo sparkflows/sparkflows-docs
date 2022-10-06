@@ -493,7 +493,7 @@ Operations Controller
     GET /api/v1/operations/workflows/executions/total getTotalWorkflowExecutionCountByAllUsers
 
 pipeline-controller
-+++++++++++==
++++++++++++
 Operations pertaining to Pipeline in Fire
 ::
 
@@ -506,37 +506,109 @@ pipeline-execute-controller
 Pipeline Execute Controller
 ::
 
-GET
-/api/executePipeline
-Execute the pipeline
-GET
-/api/v1/pipeline/executions/project/{projectId}
-getPipelineExecutionListByProjectId
-GET
-/api/v1/pipelines/execution/{pipelineExecutionId}
-getPipelineExecutionDetailsById
-DELETE
-/api/v1/pipelines/execution/{pipelineExecutionId}
-deletePipelineExecutionById
-GET
-/api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus
-refreshStatusByAirflow
-GET
-/api/v1/pipelines/execution/{pipelineExecutionId}/refreshStatus
-refreshPipelineStatus
-GET
-/api/v1/pipelines/execution/logs
-getLogs
-GET
-/api/v1/pipelines/execution/task
-getTaskDetails
+    GET /api/executePipeline Execute the pipeline
+    GET /api/v1/pipeline/executions/project/{projectId} getPipelineExecutionListByProjectId
+    GET /api/v1/pipelines/execution/{pipelineExecutionId} getPipelineExecutionDetailsById
+    DELETE /api/v1/pipelines/execution/{pipelineExecutionId} deletePipelineExecutionById
+    GET /api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus refreshStatusByAirflow
+    GET /api/v1/pipelines/execution/{pipelineExecutionId}/refreshStatus refreshPipelineStatus
+    GET /api/v1/pipelines/execution/logs getLogs
+    GET /api/v1/pipelines/execution/task getTaskDetails
 
 pipeline-node-controller
++++++++++++++
+
 Pipeline Node Controller
+::
+
+    GET /api/v1/pipelines/nodes getAllPipelineNodes
+    GET /api/v1/pipelines/nodes/{name} getPipelineNodeByName
+
 pipeline-scheduler-controller
+++++++++++++
+
 Pipeline Scheduler Controller
+::
+
+    POST /api/v1/pipeline-schedules Schedule new pipeline
+    PUT /api/v1/pipeline-schedules Update Scheduled pipeline
+    GET /api/v1/pipeline-schedules/{pipelineScheduleId} getPipelineScheduleDetails
+    DELETE /api/v1/pipeline-schedules/{pipelineScheduleId} Delete scheduled pipeline
+    GET /api/v1/pipeline-schedules/list/{pipelineId} Get pipeline Schedules list by pipeline id
+
 project-controller
+++++++++++
+
 Project Controller
+::
+
+GET
+/api/v1/apps/example-datasets-and-workflows/reload
+Reload Example datasets and workflows of Applications
+GET
+/api/v1/apps/existing/sampleProject
+Get Available Sample Projects
+DELETE
+/api/v1/apps/sampleProject
+Delete Existing Sample Projects
+GET
+/api/v1/project/info
+Get id and name detail of logged in user projects
+GET
+/api/v1/project/isOwner/{projectId}
+isProjectOwner
+GET
+/api/v1/projects
+getAllUserProjects
+POST
+/api/v1/projects
+createProject
+GET
+/api/v1/projects/{projectId}
+Get project details by project id
+PUT
+/api/v1/projects/{projectId}
+updateProject
+DELETE
+/api/v1/projects/{projectId}
+deleteProject
+POST
+/api/v1/projects/{projectId}/generateUuid
+Generate uuid of project
+PUT
+/api/v1/projects/{projectId}/tags
+updateProjectTag
+GET
+/api/v1/projects/connections/{connectionId}
+Get all projects by connectionId
+GET
+/api/v1/projects/count
+applicationsCount
+POST
+/api/v1/projects/generateUuid
+Generate uuid of project by project name
+POST
+/api/v1/projects/import
+importProjects
+POST
+/api/v1/projects/importFromGit
+importProjectsFromGit
+POST
+/api/v1/projects/multiple/import
+import multiple project
+GET
+/api/v1/projects/name/{projectName}
+Get project details by project name
+GET
+/api/v1/projects/users/logged-in
+Get projects of logged in user (user's own and shared with him) projects
+GET
+/api/v1/projects/uuidExists
+does same uuid exists in any project
+GET
+/api/v1/reload/selected/sampleProject/{selectedProjectId}
+Reload Selected Sample Projects
+
 project-discussion-controller
 Project Discussion Controller
 GET

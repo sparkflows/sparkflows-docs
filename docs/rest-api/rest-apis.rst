@@ -620,65 +620,42 @@ role-admin-controller
 Operations pertaining to Role in Sparkflows
 ::
 
-GET
-/api/v1/permissions
-Get all Permissions
-GET
-/api/v1/role-permissions/roles/{id}
-Get Role Permissions by Role Id
-GET
-/api/v1/role-permissons/roles/{id}
-Get Role Permissions by Role Id
-GET
-/api/v1/roles
-Get user Roles
-POST
-/api/v1/roles
-Create Role
-GET
-/api/v1/roles/{id}
-Get Role Name by Id
-DELETE
-/api/v1/roles/{id}
-Delete Role by Role Name
+    GET /api/v1/permissions Get all Permissions
+    GET /api/v1/role-permissions/roles/{id} Get Role Permissions by Role Id
+    GET /api/v1/role-permissons/roles/{id} Get Role Permissions by Role Id
+    GET /api/v1/roles Get user Roles
+    POST /api/v1/roles Create Role
+    GET /api/v1/roles/{id} Get Role Name by Id
+    DELETE /api/v1/roles/{id} Delete Role by Role Name
+
 run-time-statistics-controller
++++++++++++++++++++
+
 Run Time Statistics Controller
-GET
-/api/v1/runTimeStatistics
-Get Run time statistics
+::
+
+    GET /api/v1/runTimeStatistics Get Run time statistics
+
 s-3-controller
+++++++++
+
 Operations pertaining to S3 bucket in Sparkflows
-GET
-/api/v1/aws-s3/directory/create
-Create directory in s3
-DELETE
-/api/v1/aws-s3/file
-Delete file from s3
-GET
-/api/v1/aws-s3/file/rename
-Rename folder/file of s3
-DELETE
-/api/v1/aws-s3/folder
-Delete folder from s3
-GET
-/api/v1/aws/home-dir
-Returns value of aws home directory
-GET
-/api/v1/s3-buckets/aws-config-available
-return true or false to make it sure that aws s3 is configured at aws cli level
-GET
-/api/v1/s3-buckets/configs
-Returns list of buckets in S3 by reading access key and secret key from configuration
-GET
-/api/v1/s3-buckets/fileContent
-Returns content of a file of s3
-GET
-/api/v1/s3-buckets/name/{bucketName}
-Returns list of files in S3 bucket directory
-POST
-/api/v1/s3-buckets/uploadFile
-Upload file to s3
+::
+
+    GET /api/v1/aws-s3/directory/create Create directory in s3
+    DELETE /api/v1/aws-s3/file Delete file from s3
+    GET /api/v1/aws-s3/file/rename Rename folder/file of s3
+    DELETE /api/v1/aws-s3/folder Delete folder from s3
+    GET /api/v1/aws/home-dir Returns value of aws home directory
+    GET /api/v1/s3-buckets/aws-config-available return true or false to make it sure that aws s3 is configured at aws cli level
+    GET /api/v1/s3-buckets/configs Returns list of buckets in S3 by reading access key and secret key from configuration
+    GET /api/v1/s3-buckets/fileContent Returns content of a file of s3
+    GET /api/v1/s3-buckets/name/{bucketName} Returns list of files in S3 bucket directory
+    POST /api/v1/s3-buckets/uploadFile Upload file to s3
+
 search-controller
+++++++++
+
 Controller for searching workflows, datasets and dashboard by name
 GET
 /api/v1/search/{searchType}/{searchItem}

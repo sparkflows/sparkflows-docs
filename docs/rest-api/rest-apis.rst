@@ -1941,15 +1941,41 @@ workflow-execute-controller
 Operations allow execution with workflows
 ::
 
-    GET /api/v1/execute/access/{workflowId} checkWorkflowExecuteAccessForWebApp
-    POST /api/v1/lib-jars Returns the list of jar files under the fire-user-lib directory
-    GET /api/v1/spark-configs Returns the Spark Configuration for the username
-    POST /api/v1/spark-job/messages Consume the message sent from YarnRestWorkflowContext
-    POST /api/v1/workflow-execution/{workflowExecutionId}/kill Kills the execution of workflow
-    POST /api/v1/workflow-execution/{workflowExecutionId}/stop Stops the execution of workflow
-    POST /api/v1/workflow-executions/kill Kills the execution of workflow
-    POST /api/v1/workflow-executions/stop Stops workflow executions
-    POST /api/v1/workflow/execute Executes the workflow
+    # checkWorkflowExecuteAccessForWebApp
+    
+    GET /api/v1/execute/access/{workflowId} 
+    
+    # Returns the list of jar files under the fire-user-lib directory
+    
+    POST /api/v1/lib-jars 
+    
+    # Returns the Spark Configuration for the username
+    
+    GET /api/v1/spark-configs 
+    
+    # Consume the message sent from YarnRestWorkflowContext
+    
+    POST /api/v1/spark-job/messages 
+    
+    # Kills the execution of workflow
+    
+    POST /api/v1/workflow-execution/{workflowExecutionId}/kill 
+    
+    # Stops the execution of workflow
+    
+    POST /api/v1/workflow-execution/{workflowExecutionId}/stop 
+    
+    # Kills the execution of workflow
+    
+    POST /api/v1/workflow-executions/kill 
+    
+    # Stops workflow executions
+    
+    POST /api/v1/workflow-executions/stop 
+    
+    # Executes the workflow
+    
+    POST /api/v1/workflow/execute 
     
 workflow-executions-controller
 +++++++++++

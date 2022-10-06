@@ -2,16 +2,17 @@
 Sparkflows Rest API
 =========
 
-::
-
-    [ Base URL: 159.223.140.122:8080/ ]
+[ Base URL: 159.223.140.122:8080/ ]
 http://159.223.140.122:8080/v2/api-docs?group=fire
 Sparkflows REST API Documentation
 Terms of service
 Sparkflows License Version 1.0
 about-controller
 About Controller
-GET
+
+::
+
+    GET
 /api/v1/app/release-info
 getBuildReleaseInfo
 analysis-flow-trigger-controller

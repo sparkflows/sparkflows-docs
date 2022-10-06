@@ -2,12 +2,15 @@
 Sparkflows REST API’S
 =========
 
-Sparkflows enable you to use Swagger REST API’S.
+Sparkflows enable you to use Swagger for accessing REST API’S.
 
 Documentation
 +++++
 
   - Reference guide : https://docs.sparkflows.io/en/latest/installation/monitoringandmetrics/rest-api.html
+  
+  
+Below are the list of API’S available in Sparkflows :  
 
 
 ::

@@ -155,13 +155,33 @@ auto-ml-controller
 Auto ML Controller
 ::
 
-    GET /api/v1/auto-ml getAutoMlList
-    POST /api/v1/auto-ml configureAutoMl
-    PUT /api/v1/auto-ml updateAutoMl
-    GET /api/v1/auto-ml/{autoMlId} getAutoMlDetails
-    DELETE /api/v1/auto-ml/{autoMlId} deletAutoMl
-    GET /api/v1/auto-ml/project/{projectId} getAutoMlListOfProject
-    POST /api/v1/auto-ml/start/{autoMlId} startAutoMl
+    # getAutoMlList
+    
+    GET /api/v1/auto-ml 
+    
+    # configureAutoMl
+    
+    POST /api/v1/auto-ml 
+    
+    # updateAutoMl
+    
+    PUT /api/v1/auto-ml 
+    
+    # getAutoMlDetails
+    
+    GET /api/v1/auto-ml/{autoMlId} 
+    
+    # deletAutoMl
+    
+    DELETE /api/v1/auto-ml/{autoMlId} 
+    
+    # getAutoMlListOfProject
+    
+    GET /api/v1/auto-ml/project/{projectId} 
+    
+    # startAutoMl
+    
+    POST /api/v1/auto-ml/start/{autoMlId} 
 
 auto-ml-executions-controller
 ++++++++++++++++++
@@ -169,11 +189,25 @@ auto-ml-executions-controller
 Auto ML Executions Controller
 ::
 
-    GET /api/v1/auto-ml/execution/{autoMlExecutionId} getAutoMlExecutionsByExecutionId
-    POST /api/v1/auto-ml/execution/{autoMlExecutionId}/autoMl setAutoMlExecutionsIsFavoriteOrNot
-    POST /api/v1/auto-ml/execution/{executionId}/autoMl/{autoMlId} saveAutoMlExecutions
-    POST /api/v1/auto-ml/execution/comment addCommentToAutoMlExecution
-    GET /api/v1/auto-ml/executions/{autoMlId} getAutoMlExecutions
+    # getAutoMlExecutionsByExecutionId
+    
+    GET /api/v1/auto-ml/execution/{autoMlExecutionId} 
+    
+    # setAutoMlExecutionsIsFavoriteOrNot
+    
+    POST /api/v1/auto-ml/execution/{autoMlExecutionId}/autoMl 
+    
+    # saveAutoMlExecutions
+    
+    POST /api/v1/auto-ml/execution/{executionId}/autoMl/{autoMlId} 
+    
+    # addCommentToAutoMlExecution
+    
+    POST /api/v1/auto-ml/execution/comment 
+    
+    # getAutoMlExecutions
+    
+    GET /api/v1/auto-ml/executions/{autoMlId} 
     
 aws-controller
 ++++++++++++
@@ -181,7 +215,9 @@ aws-controller
 Aws Controller
 ::
 
-    GET /api/v1/aws/roles getAwsRoles
+    # getAwsRoles
+    
+    GET /api/v1/aws/roles 
     
 conf-property-controller
 ++++++++++++++++

@@ -747,21 +747,65 @@ hdfs-controller
 Operations pertaining to HDFS in Sparkflows
 ::
 
-    GET /api/v1/hdfs Returns list of all the files on hdfs in the users home directory
-    GET /api/v1/hdfs/configurations Get HDFS Configurations
-    POST /api/v1/hdfs/dir/create Create HDFS directory
-    GET /api/v1/hdfs/dir/files Returns list of files in HDFS in the specified directory for download from folder
-    GET /api/v1/hdfs/dir/open Returns list of files in HDFS in the specified directory
-    GET /api/v1/hdfs/files Returns list of all the files on hdfs in the users home directory in sorted order
-    DELETE /api/v1/hdfs/files/delete Delete HDFS files via It's Paths
-    GET /api/v1/hdfs/files/download download hdfs file
-    GET /api/v1/hdfs/files/move Move HDFS File
-    POST /api/v1/hdfs/files/moves Move HDFS File
-    GET /api/v1/hdfs/files/open Accepts HDFS file path and returns first X bytes of content
-    GET /api/v1/hdfs/files/permissions/change Change file permissions of HDFS File
-    GET /api/v1/hdfs/files/rename Rename HDFS File
-    POST /api/v1/hdfs/files/upload Uploads file
-    GET /api/v1/hdfs/user/home-dir Returns path of user's home directory
+    # Returns list of all the files on hdfs in the users home directory
+    
+    GET /api/v1/hdfs 
+    
+    # Get HDFS Configurations
+    
+    GET /api/v1/hdfs/configurations 
+    
+    # Create HDFS directory
+    
+    POST /api/v1/hdfs/dir/create 
+    
+    # Returns list of files in HDFS in the specified directory for download from folder
+    
+    GET /api/v1/hdfs/dir/files 
+    
+    # Returns list of files in HDFS in the specified directory
+    
+    GET /api/v1/hdfs/dir/open 
+    
+    # Returns list of all the files on hdfs in the users home directory in sorted order
+    
+    GET /api/v1/hdfs/files 
+    
+    # Delete HDFS files via It's Paths
+    
+    DELETE /api/v1/hdfs/files/delete 
+    
+    # download hdfs file
+    
+    GET /api/v1/hdfs/files/download 
+    
+    # Move HDFS File
+    
+    GET /api/v1/hdfs/files/move 
+    
+    # Move HDFS File
+    
+    POST /api/v1/hdfs/files/moves 
+    
+    # Accepts HDFS file path and returns first X bytes of content
+    
+    GET /api/v1/hdfs/files/open 
+    
+    # Change file permissions of HDFS File
+    
+    GET /api/v1/hdfs/files/permissions/change 
+    
+    # Rename HDFS File
+    
+    GET /api/v1/hdfs/files/rename 
+    
+    # Uploads file
+    
+    POST /api/v1/hdfs/files/upload 
+    
+    # Returns path of user's home directory
+    
+    GET /api/v1/hdfs/user/home-dir 
 
 help-controller
 ++++++
@@ -769,7 +813,9 @@ help-controller
 Help Controller
 ::
 
-    GET /api/v1/helps/{contentType} getHelpContent
+    # getHelpContent
+    
+    GET /api/v1/helps/{contentType} 
 
 hive-controller
 +++++++++
@@ -777,9 +823,17 @@ hive-controller
 Operations pertaining to Hive in Sparkflows
 ::
 
-    POST /api/v1/hive/command/execute Execute HIVE Command
-    GET /api/v1/hive/databases Get all Hive Databases
-    GET /api/v1/hive/tables Get all Hive Tables for given db
+    # Execute HIVE Command
+    
+    POST /api/v1/hive/command/execute 
+    
+    # Get all Hive Databases
+    
+    GET /api/v1/hive/databases 
+    
+    # Get all Hive Tables for given db
+    
+    GET /api/v1/hive/tables 
 
 icon-controller
 ++++
@@ -787,7 +841,9 @@ icon-controller
 Icon Controller
 ::
 
-    GET /api/v1/icons getIcons
+    # getIcons
+    
+    GET /api/v1/icons 
     
 interactive-dashboard-controller
 ++++++

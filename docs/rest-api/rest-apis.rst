@@ -657,343 +657,170 @@ search-controller
 ++++++++
 
 Controller for searching workflows, datasets and dashboard by name
-GET
-/api/v1/search/{searchType}/{searchItem}
-Search workflows, dataset and dashboard by name.
+::
+
+    GET /api/v1/search/{searchType}/{searchItem} Search workflows, dataset and dashboard by name.
+
 snowflake-controller
++++++++++
+
 Snowflake Controller
-POST
-/api/v1/snowflake/command
-executeSnowflakeDDLCommand
-GET
-/api/v1/snowflake/database/{dbName}/table/{table}
-getTableColumnsInfo
-GET
-/api/v1/snowflake/database/{dbName}/tables
-getDatabaseTables
-GET
-/api/v1/snowflake/database/{dbName}/tables/{tableName}/sample-data
-getSampleData
-GET
-/api/v1/snowflake/database/list
-get snowflake database list
-GET
-/api/v1/snowflake/schema/{dbName}/list
-getAllSchema
-GET
-/api/v1/snowflake/warehouse/list
-getAllWarehouse
+::
+
+    POST /api/v1/snowflake/command executeSnowflakeDDLCommand
+    GET /api/v1/snowflake/database/{dbName}/table/{table} getTableColumnsInfo
+    GET /api/v1/snowflake/database/{dbName}/tables getDatabaseTables
+    GET /api/v1/snowflake/database/{dbName}/tables/{tableName}/sample-data getSampleData
+    GET /api/v1/snowflake/database/list get snowflake database list
+    GET /api/v1/snowflake/schema/{dbName}/list getAllSchema
+    GET /api/v1/snowflake/warehouse/list getAllWarehouse
+
 user-admin-controller
++++++++++++
+
 Operations pertaining to Admin in Sparkflows
-GET
-/api/users/ldap/{username}
-Add LDAP user
-GET
-/api/v1/configurations/ldap/enable
-Get LDAP configuration
-PUT
-/api/v1/user/currentConnection/{connectionId}
-set the user current connection
-PUT
-/api/v1/user/currentProject/{projectId}
-set the user current project
-GET
-/api/v1/user/isAdmin/isSuperuser
-Check user is admin/ superuser
-GET
-/api/v1/users
-Get list of Users
-POST
-/api/v1/users
-Create User
-PUT
-/api/v1/users
-Update User
-GET
-/api/v1/users/{id}
-Get user by user Id
-DELETE
-/api/v1/users/{id}
-Delete User by user id
-GET
-/api/v1/users/{name}/validate
-Validates user Name
-GET
-/api/v1/users/basicInfo
-Get list of Users
-GET
-/api/v1/users/configurations
-Get Configurations
-GET
-/api/v1/users/password/change
-change password
-POST
-/api/v1/users/password/verify
-verifies password
-PUT
-/api/v1/users/profile
-update user basic profile (firstName, LastName, and email only
-GET
-/api/v1/users/UsageStatistics
-Get Usage Statistics
-GET
-/api/v1/users/user-info
-Get current logged-In User
+::
+
+    GET /api/users/ldap/{username} Add LDAP user
+    GET /api/v1/configurations/ldap/enable Get LDAP configuration
+    PUT /api/v1/user/currentConnection/{connectionId} set the user current connection
+    PUT /api/v1/user/currentProject/{projectId} set the user current project
+    GET /api/v1/user/isAdmin/isSuperuser Check user is admin/ superuser
+    GET /api/v1/users Get list of Users
+    POST /api/v1/users Create User
+    PUT /api/v1/users Update User
+    GET /api/v1/users/{id} Get user by user Id
+    DELETE /api/v1/users/{id} Delete User by user id
+    GET /api/v1/users/{name}/validate Validates user Name
+    GET /api/v1/users/basicInfo Get list of Users
+    GET /api/v1/users/configurations Get Configurations
+    GET /api/v1/users/password/change change password
+    POST /api/v1/users/password/verify verifies password
+    PUT /api/v1/users/profile update user basic profile (firstName, LastName, and email only
+    GET /api/v1/users/UsageStatistics Get Usage Statistics
+    GET /api/v1/users/user-info Get current logged-In User
+
 web-app-controller
+++++++++
+
 Web App Controller
-GET
-/api/v1/webApps
-getWebApps
-POST
-/api/v1/webApps
-createWebApp
-PUT
-/api/v1/webApps
-updateWebApp
-POST
-/api/v1/webApps/{uuid}/userInputs
-saveInput
-GET
-/api/v1/webApps/{webAppId}
-getWebAppDetails
-PUT
-/api/v1/webApps/{webAppId}
-changeWebAppStatus
-DELETE
-/api/v1/webApps/{webAppId}
-deleteWebApp
-GET
-/api/v1/webApps/{webAppId}/by/condition
-getWebAppDetailsByCondition
-POST
-/api/v1/webApps/{webAppId}/generateUuid
-Generate uuid of app
-POST
-/api/v1/webApps/{webAppId}/nextStage
-getNextStage
-POST
-/api/v1/webApps/{webAppId}/saveUuid
-Save uuid of app
-GET
-/api/v1/webApps/{webAppId}/stage
-getWebAppStageDetails
-POST
-/api/v1/webApps/{webAppId}/stage
-addWebAppStage
-DELETE
-/api/v1/webApps/{webAppId}/stage/{stageId}
-deleteWebAppStage
-POST
-/api/v1/webApps/{webAppId}/stage/details
-addWebAppStageDetails
-POST
-/api/v1/webApps/browseFile/uuidExists
-Webapp exists with uuid present in browse json file
-POST
-/api/v1/webApps/dbfs/upload/file
-uploadFile
-GET
-/api/v1/webApps/execution/{executionId}
-getWebappExecutionById
-POST
-/api/v1/webApps/import
-Import analytic app
-GET
-/api/v1/webApps/polls/{uuid}/userInputs
-pollUserInput
-DELETE
-/api/v1/webApps/project/{projectId}
-deleteAllWebappsByProjectId
-POST
-/api/v1/webApps/showHideApps
-show hide apps
-PUT
-/api/v1/webApps/stage
-updateStage
-POST
-/api/v1/webApps/updateWfParameters/{wfId}
-updateWfParameters
-POST
-/api/v1/webApps/upgrade
-Upgrade analytic app
-GET
-/api/v1/webApps/uuidExists
-does same uuid of app exists in project
+::
+
+    GET /api/v1/webApps getWebApps
+    POST /api/v1/webApps createWebApp
+    PUT /api/v1/webApps updateWebApp
+    POST /api/v1/webApps/{uuid}/userInputs saveInput 
+    GET /api/v1/webApps/{webAppId} getWebAppDetails
+    PUT /api/v1/webApps/{webAppId} changeWebAppStatus
+    DELETE /api/v1/webApps/{webAppId} deleteWebApp
+    GET /api/v1/webApps/{webAppId}/by/condition getWebAppDetailsByCondition
+    POST /api/v1/webApps/{webAppId}/generateUuid Generate uuid of app
+    POST /api/v1/webApps/{webAppId}/nextStage getNextStage
+    POST /api/v1/webApps/{webAppId}/saveUuid Save uuid of app
+    GET /api/v1/webApps/{webAppId}/stage getWebAppStageDetails
+    POST /api/v1/webApps/{webAppId}/stage addWebAppStage
+    DELETE /api/v1/webApps/{webAppId}/stage/{stageId} deleteWebAppStage
+    POST /api/v1/webApps/{webAppId}/stage/details addWebAppStageDetails 
+    POST /api/v1/webApps/browseFile/uuidExists Webapp exists with uuid present in browse json file
+    POST /api/v1/webApps/dbfs/upload/file uploadFile
+    GET /api/v1/webApps/execution/{executionId} getWebappExecutionById
+    POST /api/v1/webApps/import Import analytic app
+    GET /api/v1/webApps/polls/{uuid}/userInputs pollUserInput
+    DELETE /api/v1/webApps/project/{projectId} deleteAllWebappsByProjectId
+    POST /api/v1/webApps/showHideApps show hide apps
+    PUT /api/v1/webApps/stage updateStage
+    POST /api/v1/webApps/updateWfParameters/{wfId} updateWfParameters
+    POST /api/v1/webApps/upgrade Upgrade analytic app
+    GET /api/v1/webApps/uuidExists does same uuid of app exists in project
+
 web-app-version-controller
+++++++++++
+
 Web App Version Controller
-GET
-/api/v1/webappVersions/{webVersionId}
-getWebAppDetailsByWebVersionId
-GET
-/api/v1/webappVersions/webApps/{webAppId}
-getWebAppVersionsByWebAppId
+::
+
+    GET /api/v1/webappVersions/{webVersionId} getWebAppDetailsByWebVersionId
+    GET /api/v1/webappVersions/webApps/{webAppId} getWebAppVersionsByWebAppId
+
 wizard-controller
+++++++++++++
+
 Operations pertaining to wizard in Fire
-GET
-/api/v1/wizards/actions
-Returns actions
-POST
-/api/v1/wizards/convert-workflow
-Convert WizardWorkflow to Workflow
-GET
-/api/v1/wizards/queries
-Returns queries
-GET
-/api/v1/wizards/sections
-Returns sections
-POST
-/api/v1/wizards/workflow/create
-Create Workflow from workflow-wizard
+::
+
+    GET /api/v1/wizards/actions Returns actions
+    POST /api/v1/wizards/convert-workflow Convert WizardWorkflow to Workflow
+    GET /api/v1/wizards/queries Returns queries
+    GET /api/v1/wizards/sections Returns sections
+    POST /api/v1/wizards/workflow/create Create Workflow from workflow-wizard
+
 workflow-controller
+++++++++++++
+
 Operations allow interacting with workflows in Sparkflows
-GET
-/api/v1/apps/example-datasets-and-workflows/load
-load Example datasets and workflows of Applications
-GET
-/api/v1/getAllCleaningWorkflows/{datasetUuid}
-Get all cleaning workflows
-GET
-/api/v1/ibm-file
-writes all the workflows to IBM file
-POST
-/api/v1/nodes/{nodeId}/schema/input
-Retrieve schema of a node
-POST
-/api/v1/nodes/{nodeId}/schema/output
-retrieve output schema of a node
-DELETE
-/api/v1/workflow/trash
-Move selected workflow to trash
-DELETE
-/api/v1/workflow/trash/{workflowId}
-Move workflow to trash
-GET
-/api/v1/workflows
-Get all the workflows for a given project in desc order with detailed information'
-POST
-/api/v1/workflows
-create a workflow
-PUT
-/api/v1/workflows
-update a workflow
-GET
-/api/v1/workflows/{id}
-Get workflow details by id
-DELETE
-/api/v1/workflows/{workflowId}
-delete the workflow
-POST
-/api/v1/workflows/{workflowId}/{workflowName}/clone
-clone the workflow
-GET
-/api/v1/workflows/{workflowId}/copy
-Api for copying the workflow
-GET
-/api/v1/workflows/{workflowId}/lock
-lock the workflow
-GET
-/api/v1/workflows/{workflowId}/unlock
-Unlock the workflow
-PUT
-/api/v1/workflows/{workflowId}/uuid/{uuid}
-updateUuid
-GET
-/api/v1/workflows/all
-Get all workflows
-POST
-/api/v1/workflows/beautify
-Beautify workflow
-GET
-/api/v1/workflows/count
-Get Workflow Count
-GET
-/api/v1/workflows/dashboard
-Get all the workflows of a project in desc order with basic information'
-DELETE
-/api/v1/workflows/emptyTrash
-empty wfs from trash
-GET
-/api/v1/workflows/execution-enable
-Get the value of execute enabled value of Configurations
-GET
-/api/v1/workflows/export/{id}
-Get workflow content to export
-POST
-/api/v1/workflows/generatePysparkCode
-Generate Pyspark Code
-GET
-/api/v1/workflows/latest
-Get Latest WorkFlows
-GET
-/api/v1/workflows/list/export
-Get Workflows for export
-GET
-/api/v1/workflows/name/{name}
-Get workflow by Name
-POST
-/api/v1/workflows/nodes/{nodeId}/execute
-Execute workflow's node
-GET
-/api/v1/workflows/nodes/state/inconsistent
-Return the list of nodes that are in an inconsistent state - mainly with regard to schema
-PUT
-/api/v1/workflows/restore
-Restore selected trashed wfs'
-PUT
-/api/v1/workflows/restore/{workflowId}
-Restore trashed wfs'
-GET
-/api/v1/workflows/trashed
-Get trashed workflows for a given project in desc order with detailed information'
-GET
-/api/v1/workflows/users/logged-in
-Get workflows owned and shared with logged-in user
-GET
-/api/v1/workflows/uuid/{uuid}
-Get workflow by uuid
-POST
-/api/v1/workflows/validateCode
-Api for syntax checking of pyspark code
-GET
-/api/v1/workflows/versions
-Retrieve the workflow versions
-GET
-/api/v1/workflows/wfName/{id}
-Get workflow name by id
-GET
-/api/v1/workflows/workflowExecutions/{jobId}
-Get workflow using jobId
+::
+
+    GET /api/v1/apps/example-datasets-and-workflows/load load Example datasets and workflows of Applications
+    GET /api/v1/getAllCleaningWorkflows/{datasetUuid} Get all cleaning workflows
+    GET /api/v1/ibm-file writes all the workflows to IBM file
+    POST /api/v1/nodes/{nodeId}/schema/input Retrieve schema of a node
+    POST /api/v1/nodes/{nodeId}/schema/output retrieve output schema of a node
+    DELETE /api/v1/workflow/trash Move selected workflow to trash
+    DELETE /api/v1/workflow/trash/{workflowId} Move workflow to trash
+    GET /api/v1/workflows Get all the workflows for a given project in desc order with detailed information'
+    POST /api/v1/workflows create a workflow
+    PUT /api/v1/workflows update a workflow
+    GET /api/v1/workflows/{id} Get workflow details by id
+    DELETE /api/v1/workflows/{workflowId} delete the workflow
+    POST /api/v1/workflows/{workflowId}/{workflowName}/clone clone the workflow
+    GET /api/v1/workflows/{workflowId}/copy Api for copying the workflow
+    GET /api/v1/workflows/{workflowId}/lock lock the workflow
+    GET /api/v1/workflows/{workflowId}/unlock Unlock the workflow
+    PUT /api/v1/workflows/{workflowId}/uuid/{uuid} updateUuid
+    GET /api/v1/workflows/all Get all workflows
+    POST /api/v1/workflows/beautify Beautify workflow
+    GET /api/v1/workflows/count Get Workflow Count
+    GET /api/v1/workflows/dashboard Get all the workflows of a project in desc order with basic information'
+    DELETE /api/v1/workflows/emptyTrash empty wfs from trash
+    GET /api/v1/workflows/execution-enable Get the value of execute enabled value of Configurations
+    GET /api/v1/workflows/export/{id} Get workflow content to export
+    POST /api/v1/workflows/generatePysparkCode Generate Pyspark Code
+    GET /api/v1/workflows/latest Get Latest WorkFlows
+    GET /api/v1/workflows/list/export Get Workflows for export
+    GET /api/v1/workflows/name/{name} Get workflow by Name
+    POST /api/v1/workflows/nodes/{nodeId}/execute Execute workflow's node
+    GET /api/v1/workflows/nodes/state/inconsistent Return the list of nodes that are in an inconsistent state - mainly with regard to schema
+    PUT /api/v1/workflows/restore Restore selected trashed wfs'
+    PUT /api/v1/workflows/restore/{workflowId} Restore trashed wfs'
+    GET /api/v1/workflows/trashed Get trashed workflows for a given project in desc order with detailed information'
+    GET /api/v1/workflows/users/logged-in Get workflows owned and shared with logged-in user
+    GET /api/v1/workflows/uuid/{uuid} Get workflow by uuid
+    POST /api/v1/workflows/validateCode Api for syntax checking of pyspark code
+    GET /api/v1/workflows/versions Retrieve the workflow versions
+    GET /api/v1/workflows/wfName/{id} Get workflow name by id
+    GET /api/v1/workflows/workflowExecutions/{jobId} Get workflow using jobId
+
 workflow-execute-controller
+++++++++++++
+
 Operations allow execution with workflows
-GET
-/api/v1/execute/access/{workflowId}
-checkWorkflowExecuteAccessForWebApp
-POST
-/api/v1/lib-jars
-Returns the list of jar files under the fire-user-lib directory
-GET
-/api/v1/spark-configs
-Returns the Spark Configuration for the username
-POST
-/api/v1/spark-job/messages
-Consume the message sent from YarnRestWorkflowContext
-POST
-/api/v1/workflow-execution/{workflowExecutionId}/kill
-Kills the execution of workflow
-POST
-/api/v1/workflow-execution/{workflowExecutionId}/stop
-Stops the execution of workflow
-POST
-/api/v1/workflow-executions/kill
-Kills the execution of workflow
-POST
-/api/v1/workflow-executions/stop
-Stops workflow executions
-POST
-/api/v1/workflow/execute
-Executes the workflow
+::
+
+    GET /api/v1/execute/access/{workflowId} checkWorkflowExecuteAccessForWebApp
+    POST /api/v1/lib-jars Returns the list of jar files under the fire-user-lib directory
+    GET /api/v1/spark-configs Returns the Spark Configuration for the username
+    POST /api/v1/spark-job/messages Consume the message sent from YarnRestWorkflowContext
+    POST /api/v1/workflow-execution/{workflowExecutionId}/kill Kills the execution of workflow
+    POST /api/v1/workflow-execution/{workflowExecutionId}/stop Stops the execution of workflow
+    POST /api/v1/workflow-executions/kill Kills the execution of workflow
+    POST /api/v1/workflow-executions/stop Stops workflow executions
+    POST /api/v1/workflow/execute Executes the workflow
+    
 workflow-executions-controller
++++++++++++
+
 Workflow Executions Controller
+::
 GET
 /api/v1/cleaning-workflow-execution/{datasetUuid}
 Get all Cleaning Workflow Execution

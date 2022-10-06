@@ -22,34 +22,60 @@ About Controller
 getBuildReleaseInfo
 analysis-flow-trigger-controller
 Analysis Flow Trigger Controller
-GET
-/api/v1/workflow-triggers
+
+::
+
+    GET
+    /api/v1/workflow-triggers
+    
 getAllAnalysisflowTriggers
-POST
-/api/v1/workflow-triggers
+::
+    POST
+    /api/v1/workflow-triggers
+    
 createAnalysisflowTrigger
-GET
-/api/v1/workflow-triggers/{analysisworkflowTriggerId}
+::
+
+    GET
+    /api/v1/workflow-triggers/{analysisworkflowTriggerId}
+
 getAnalysisflowTriggerDetails
-DELETE
-/api/v1/workflow-triggers/{analysisWorkflowTriggerId}
+::
+
+    DELETE
+    /api/v1/workflow-triggers/{analysisWorkflowTriggerId}
+    
 deleteAnalysisflowTriggerById
 application-connection-controller
 Application Connection Controller
-POST
-/api/v1/connections
+::
+  
+    POST
+    /api/v1/connections
+    
 Create a connection
-DELETE
-/api/v1/connections/{appConnectionId}
+::
+
+    DELETE
+    /api/v1/connections/{appConnectionId}
+
 deleteApplicationConnection
-GET
-/api/v1/connections/{connectionId}
+::
+  
+    GET
+    /api/v1/connections/{connectionId}
+    
 Get connection details by connectionId
-GET
-/api/v1/connections/{connectionId}/tables
+::
+
+    GET
+    /api/v1/connections/{connectionId}/tables
+
 getTables
-PUT
-/api/v1/connections/{id}
+::
+
+    PUT
+    /api/v1/connections/{id}
 Update a connection details
 GET
 /api/v1/connections/categories/{category}

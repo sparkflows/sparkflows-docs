@@ -9,8 +9,7 @@ Below are steps:
 
 1. Enable Swagger inside ``application.properties``
 
-Make it to true.
-
+Do this by adding the line below to application.properties
 ::
 
     swagger.enable=true

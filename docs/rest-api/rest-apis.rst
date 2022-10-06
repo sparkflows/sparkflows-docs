@@ -851,21 +851,65 @@ interactive-dashboard-controller
 Operations pertaining to Interactive Dashboards
 ::
 
-    GET /api/v1/i-dashboards Get all the interactive dashboards
-    POST /api/v1/i-dashboards Create interactive dashboard
-    PUT /api/v1/i-dashboards/{dashboardId} Update interactive dashboard
-    DELETE /api/v1/i-dashboards/{dashboardId} Delete interactive dashboard
-    GET /api/v1/i-dashboards/{id} Get interactive dashboard by Id
-    POST /api/v1/i-dashboards/chart-data Get Chart Data
-    GET /api/v1/i-dashboards/datasets Get all the Interactive Datasets
-    GET /api/v1/i-dashboards/datasets/uuid/{uuid} Get Interactive Dataset by uuid
-    POST /api/v1/i-dashboards/filter Filter Request
-    PUT /api/v1/i-dashboardsarranged/{dashboardId} Update interactive dashboard
-    POST /api/v2/i-dashboards Create or update interactive dashboards
-    PUT /api/v2/i-dashboards Create or update interactive dashboards
-    GET /api/v2/i-dashboards/{dashboardId} getArrangedInteractiveDashobardDetails
-    DELETE /api/v2/i-dashboards/{dashboardId} deleteInteractiveDashobard
-    GET /api/v2/i-dashboards/projects/{projectId} getArrangedInteractiveDashobards
+    # Get all the interactive dashboards
+    
+    GET /api/v1/i-dashboards 
+    
+    # Create interactive dashboard
+    
+    POST /api/v1/i-dashboards 
+    
+    # Update interactive dashboard
+    
+    PUT /api/v1/i-dashboards/{dashboardId} 
+    
+    # Delete interactive dashboard
+    
+    DELETE /api/v1/i-dashboards/{dashboardId} 
+    
+    # Get interactive dashboard by Id
+    
+    GET /api/v1/i-dashboards/{id} 
+    
+    # Get Chart Data
+    
+    POST /api/v1/i-dashboards/chart-data 
+    
+    # Get all the Interactive Datasets
+    
+    GET /api/v1/i-dashboards/datasets 
+    
+    # Get Interactive Dataset by uuid
+    
+    GET /api/v1/i-dashboards/datasets/uuid/{uuid} 
+    
+    # Filter Request
+    
+    POST /api/v1/i-dashboards/filter 
+    
+    # Update interactive dashboard
+    
+    PUT /api/v1/i-dashboardsarranged/{dashboardId} 
+    
+    # Create or update interactive dashboards
+    
+    POST /api/v2/i-dashboards 
+    
+    # Create or update interactive dashboards
+    
+    PUT /api/v2/i-dashboards 
+    
+    # getArrangedInteractiveDashobardDetails
+    
+    GET /api/v2/i-dashboards/{dashboardId} 
+    
+    # deleteInteractiveDashobard
+    
+    DELETE /api/v2/i-dashboards/{dashboardId} 
+    
+    # getArrangedInteractiveDashobards
+    
+    GET /api/v2/i-dashboards/projects/{projectId} 
 
 ldap-config-controller
 +++++++++
@@ -873,10 +917,19 @@ ldap-config-controller
 Ldap Config Controller
 ::
 
-    GET /api/ldapConfigurations Api To Get the Ldap Configuration
-    POST /api/testLdapConnection Api To Test the Ldap Connection
-    PUT /api/updateLdapConfigurations Api To Update the Ldap configurations
-
+    # Api To Get the Ldap Configuration
+    
+    GET /api/ldapConfigurations 
+    
+    # Api To Test the Ldap Connection
+    
+    POST /api/testLdapConnection 
+    
+    # Api To Update the Ldap configurations
+    
+    PUT /api/updateLdapConfigurations 
+    
+    
 logs-controller
 ++++++
 

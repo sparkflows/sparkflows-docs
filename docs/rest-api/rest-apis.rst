@@ -1330,9 +1330,17 @@ project-discussion-controller
 Project Discussion Controller
 ::
 
-    GET /api/v1/getProjectDiscussions/{projectId} Get All Project Discussions By ProjectId
-    POST /api/v1/projectDiscussion Create Discussion For Project
-    DELETE /api/v1/projectDiscussion/{discussionId} Delete discussion from Project
+    # Get All Project Discussions By ProjectId
+    
+    GET /api/v1/getProjectDiscussions/{projectId} 
+    
+    # Create Discussion For Project
+    
+    POST /api/v1/projectDiscussion 
+    
+    # Delete discussion from Project
+    
+    DELETE /api/v1/projectDiscussion/{discussionId} 
 
 project-overview-controller
 ++++++++++++
@@ -1340,7 +1348,9 @@ project-overview-controller
 Project Overview Controller
 ::
 
-    GET /api/v1/projectOverview/counts/{projectId} getProjectElementInfo
+    # getProjectElementInfo
+    
+    GET /api/v1/projectOverview/counts/{projectId} 
 
 project-permission-controller
 +++++++++
@@ -1348,12 +1358,30 @@ project-permission-controller
 Project Permission Controller
 ::
 
-    GET /api/v1/groups/projects/{projectId} getGroupByprojectId
-    POST /api/v1/project-permissions saveShareProjectInfo
-    GET /api/v1/project-permissions/{projectPermissionId} Get project-permission details by id
-    DELETE /api/v1/project-permissions/{projectPermissionId} deleteProjectPermission
-    GET /api/v1/project-permissions/projects/{projectId} Get project permissions by projectId
-    GET /api/v1/project-permissions/projects/{projectId}/groups/{groupId} getProjectPerByProjectIdAndGroupId
+    # getGroupByprojectId
+    
+    GET /api/v1/groups/projects/{projectId} 
+    
+    # saveShareProjectInfo
+    
+    POST /api/v1/project-permissions 
+    
+    # Get project-permission details by id
+    
+    GET /api/v1/project-permissions/{projectPermissionId} 
+    
+    # deleteProjectPermission
+    
+    DELETE /api/v1/project-permissions/{projectPermissionId} 
+    
+    # Get project permissions by projectId
+    
+    GET /api/v1/project-permissions/projects/{projectId} 
+    
+    # getProjectPerByProjectIdAndGroupId
+    
+    GET /api/v1/project-permissions/projects/{projectId}/groups/{groupId} 
+    
 
 properties-controller
 +++++++
@@ -1361,8 +1389,13 @@ properties-controller
 Properties Controller
 ::
 
-    GET /api/v1/user/swagger/enabled getSwaggerStatus
-    POST /api/v1/user/swagger/status/{enableSwagger} setSwaggerStatus
+    # getSwaggerStatus
+    
+    GET /api/v1/user/swagger/enabled 
+    
+    # setSwaggerStatus
+    
+    POST /api/v1/user/swagger/status/{enableSwagger} 
 
 recommendation-controller
 ++++++++++
@@ -1370,8 +1403,13 @@ recommendation-controller
 Recommendation Controller
 ::
 
-    GET /api/v1/recommendations/nodes Gets recommended node mapping list
-    GET /api/v1/recommendations/nodes/refresh Refresh node mapping list
+    # Gets recommended node mapping list
+    
+    GET /api/v1/recommendations/nodes 
+    
+    # Refresh node mapping list
+    
+    GET /api/v1/recommendations/nodes/refresh 
 
 role-admin-controller
 ++++++++++
@@ -1379,13 +1417,33 @@ role-admin-controller
 Operations pertaining to Role in Sparkflows
 ::
 
-    GET /api/v1/permissions Get all Permissions
-    GET /api/v1/role-permissions/roles/{id} Get Role Permissions by Role Id
-    GET /api/v1/role-permissons/roles/{id} Get Role Permissions by Role Id
-    GET /api/v1/roles Get user Roles
-    POST /api/v1/roles Create Role
-    GET /api/v1/roles/{id} Get Role Name by Id
-    DELETE /api/v1/roles/{id} Delete Role by Role Name
+    # Get all Permissions
+    
+    GET /api/v1/permissions 
+    
+    # Get Role Permissions by Role Id
+    
+    GET /api/v1/role-permissions/roles/{id} 
+    
+    # Get Role Permissions by Role Id
+    
+    GET /api/v1/role-permissons/roles/{id} 
+    
+    # Get user Roles
+    
+    GET /api/v1/roles 
+    
+    # Create Role
+    
+    POST /api/v1/roles 
+    
+    # Get Role Name by Id
+    
+    GET /api/v1/roles/{id} 
+    
+    # Delete Role by Role Name
+    
+    DELETE /api/v1/roles/{id} 
 
 run-time-statistics-controller
 +++++++++++++++++++
@@ -1393,7 +1451,9 @@ run-time-statistics-controller
 Run Time Statistics Controller
 ::
 
-    GET /api/v1/runTimeStatistics Get Run time statistics
+    # Get Run time statistics
+    
+    GET /api/v1/runTimeStatistics 
 
 s-3-controller
 ++++++++
@@ -1401,16 +1461,45 @@ s-3-controller
 Operations pertaining to S3 bucket in Sparkflows
 ::
 
-    GET /api/v1/aws-s3/directory/create Create directory in s3
-    DELETE /api/v1/aws-s3/file Delete file from s3
-    GET /api/v1/aws-s3/file/rename Rename folder/file of s3
-    DELETE /api/v1/aws-s3/folder Delete folder from s3
-    GET /api/v1/aws/home-dir Returns value of aws home directory
-    GET /api/v1/s3-buckets/aws-config-available return true or false to make it sure that aws s3 is configured at aws cli level
-    GET /api/v1/s3-buckets/configs Returns list of buckets in S3 by reading access key and secret key from configuration
-    GET /api/v1/s3-buckets/fileContent Returns content of a file of s3
-    GET /api/v1/s3-buckets/name/{bucketName} Returns list of files in S3 bucket directory
-    POST /api/v1/s3-buckets/uploadFile Upload file to s3
+    # Create directory in s3
+    
+    GET /api/v1/aws-s3/directory/create 
+    
+    # Delete file from s3
+    
+    DELETE /api/v1/aws-s3/file 
+    
+    # Rename folder/file of s3
+    
+    GET /api/v1/aws-s3/file/rename 
+    
+    # Delete folder from s3
+    
+    DELETE /api/v1/aws-s3/folder 
+    
+    # Returns value of aws home directory
+    
+    GET /api/v1/aws/home-dir 
+    
+    # return true or false to make it sure that aws s3 is configured at aws cli level
+    
+    GET /api/v1/s3-buckets/aws-config-available 
+    
+    # Returns list of buckets in S3 by reading access key and secret key from configuration
+    
+    GET /api/v1/s3-buckets/configs 
+    
+    # Returns content of a file of s3
+    
+    GET /api/v1/s3-buckets/fileContent 
+    
+    # Returns list of files in S3 bucket directory
+    
+    GET /api/v1/s3-buckets/name/{bucketName} 
+    
+    # Upload file to s3
+    
+    POST /api/v1/s3-buckets/uploadFile 
 
 search-controller
 ++++++++
@@ -1418,7 +1507,9 @@ search-controller
 Controller for searching workflows, datasets and dashboard by name
 ::
 
-    GET /api/v1/search/{searchType}/{searchItem} Search workflows, dataset and dashboard by name.
+    # Search workflows, dataset and dashboard by name
+    
+    GET /api/v1/search/{searchType}/{searchItem} 
 
 snowflake-controller
 +++++++++
@@ -1426,13 +1517,33 @@ snowflake-controller
 Snowflake Controller
 ::
 
-    POST /api/v1/snowflake/command executeSnowflakeDDLCommand
-    GET /api/v1/snowflake/database/{dbName}/table/{table} getTableColumnsInfo
-    GET /api/v1/snowflake/database/{dbName}/tables getDatabaseTables
-    GET /api/v1/snowflake/database/{dbName}/tables/{tableName}/sample-data getSampleData
-    GET /api/v1/snowflake/database/list get snowflake database list
-    GET /api/v1/snowflake/schema/{dbName}/list getAllSchema
-    GET /api/v1/snowflake/warehouse/list getAllWarehouse
+    # executeSnowflakeDDLCommand
+    
+    POST /api/v1/snowflake/command 
+    
+    # getTableColumnsInfo
+    
+    GET /api/v1/snowflake/database/{dbName}/table/{table} 
+    
+    # getDatabaseTables
+    
+    GET /api/v1/snowflake/database/{dbName}/tables 
+    
+    # getSampleData
+    
+    GET /api/v1/snowflake/database/{dbName}/tables/{tableName}/sample-data 
+    
+    # get snowflake database list
+    
+    GET /api/v1/snowflake/database/list 
+    
+    # getAllSchema
+    
+    GET /api/v1/snowflake/schema/{dbName}/list 
+    
+    # getAllWarehouse
+    
+    GET /api/v1/snowflake/warehouse/list 
 
 user-admin-controller
 +++++++++++
@@ -1440,24 +1551,77 @@ user-admin-controller
 Operations pertaining to Admin in Sparkflows
 ::
 
-    GET /api/users/ldap/{username} Add LDAP user
-    GET /api/v1/configurations/ldap/enable Get LDAP configuration
-    PUT /api/v1/user/currentConnection/{connectionId} set the user current connection
-    PUT /api/v1/user/currentProject/{projectId} set the user current project
-    GET /api/v1/user/isAdmin/isSuperuser Check user is admin/ superuser
-    GET /api/v1/users Get list of Users
-    POST /api/v1/users Create User
-    PUT /api/v1/users Update User
-    GET /api/v1/users/{id} Get user by user Id
-    DELETE /api/v1/users/{id} Delete User by user id
-    GET /api/v1/users/{name}/validate Validates user Name
-    GET /api/v1/users/basicInfo Get list of Users
-    GET /api/v1/users/configurations Get Configurations
-    GET /api/v1/users/password/change change password
-    POST /api/v1/users/password/verify verifies password
-    PUT /api/v1/users/profile update user basic profile (firstName, LastName, and email only
-    GET /api/v1/users/UsageStatistics Get Usage Statistics
-    GET /api/v1/users/user-info Get current logged-In User
+    # Add LDAP user
+    
+    GET /api/users/ldap/{username} 
+    
+    # Get LDAP configuration
+    
+    GET /api/v1/configurations/ldap/enable 
+    
+    # set the user current connection
+    
+    PUT /api/v1/user/currentConnection/{connectionId} 
+    
+    # set the user current project
+    
+    PUT /api/v1/user/currentProject/{projectId} 
+    
+    # Check user is admin/ superuser
+    
+    GET /api/v1/user/isAdmin/isSuperuser 
+    
+    # Get list of Users
+    
+    GET /api/v1/users 
+    
+    # Create User
+    
+    POST /api/v1/users 
+    
+    # Update User
+    
+    PUT /api/v1/users 
+    
+    # Get user by user Id
+    
+    GET /api/v1/users/{id} 
+    
+    # Delete User by user id
+    
+    DELETE /api/v1/users/{id} 
+    
+    # Validates user Name
+    
+    GET /api/v1/users/{name}/validate 
+    
+    # Get list of Users
+    
+    GET /api/v1/users/basicInfo 
+    
+    # Get Configurations
+    
+    GET /api/v1/users/configurations 
+    
+    # change password
+    
+    GET /api/v1/users/password/change 
+    
+    # verifies password
+    
+    POST /api/v1/users/password/verify 
+    
+    # update user basic profile (firstName, LastName, and email only
+    
+    PUT /api/v1/users/profile 
+    
+    # Get Usage Statistics
+    
+    GET /api/v1/users/UsageStatistics 
+    
+    # Get current logged-In User
+    
+    GET /api/v1/users/user-info 
 
 web-app-controller
 ++++++++

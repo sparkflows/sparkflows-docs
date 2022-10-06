@@ -2,10 +2,18 @@
 Sparkflows Rest API
 =========
 
+Sparkflows enable you to use Swagger REST API’S.
+
+Documentation
++++++
+
+  - Reference guide : https://docs.sparkflows.io/en/latest/installation/monitoringandmetrics/rest-api.html
+
+
 ::
 
-[ Base URL: 159.223.140.122:8080/ ]
-http://159.223.140.122:8080/v2/api-docs?group=fire
+[ Base URL: localhost:8080/ ]
+http://localhost:8080/v2/api-docs?group=fire
 Sparkflows REST API Documentation
 Terms of service
 

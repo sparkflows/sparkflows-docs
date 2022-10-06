@@ -27,7 +27,7 @@ About Controller
 
 ::
     
-    ## getBuildReleaseInfo
+    # getBuildReleaseInfo
     
     
     GET /api/v1/app/release-info 
@@ -40,10 +40,21 @@ Analysis Flow Trigger Controller
 
 ::
 
-    GET /api/v1/workflow-triggers getAllAnalysisflowTriggers  
-    POST /api/v1/workflow-triggers createAnalysisflowTrigger  
-    GET /api/v1/workflow-triggers/{analysisworkflowTriggerId} getAnalysisflowTriggerDetails
-    DELETE /api/v1/workflow-triggers/{analysisWorkflowTriggerId} deleteAnalysisflowTriggerById
+    # getAllAnalysisflowTriggers
+    
+    GET /api/v1/workflow-triggers 
+    
+    # createAnalysisflowTrigger
+    
+    POST /api/v1/workflow-triggers 
+    
+    # getAnalysisflowTriggerDetails
+    
+    GET /api/v1/workflow-triggers/{analysisworkflowTriggerId} 
+    
+    # deleteAnalysisflowTriggerById
+    
+    DELETE /api/v1/workflow-triggers/{analysisWorkflowTriggerId} 
     
 
 application-connection-controller

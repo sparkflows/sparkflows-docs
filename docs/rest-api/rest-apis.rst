@@ -2113,8 +2113,13 @@ workflow-executions-result-controller
 Operations allow accessing workflow execution results in Sparkflows
 ::
 
-    GET /api/v1/execution-results/workflow-executions/{analysisFlowExecutionId}/resultType/{type} View the workflow execution result
-    GET /api/v1/execution-results/workflows/{workflowId}/nodes/{nodeId}/latest View the latest execution result of workflow
+    # View the workflow execution result
+    
+    GET /api/v1/execution-results/workflow-executions/{analysisFlowExecutionId}/resultType/{type} 
+    
+    # View the latest execution result of workflow
+    
+    GET /api/v1/execution-results/workflows/{workflowId}/nodes/{nodeId}/latest 
 
 workflow-scheduler-controller
 ++++++++
@@ -2122,11 +2127,25 @@ workflow-scheduler-controller
 Analysis Flow Scheduler in Sparkflows
 ::
 
-    POST /api/v1/workflow-schedules Schedule new Workflow
-    GET /api/v1/workflow-schedules-list/{workflowId} Get workflow Schedules list by workflow id
-    DELETE /api/v1/workflow-schedules/{id} Delete scheduled Workflow
-    GET /api/v1/workflow-schedules/{workflow-scheduleId} getWorklowScheduleDetails
-    GET /api/v1/workflow-schedules/projects/{projectId}/workflows/{workflowId} Get list of all Workflows Scheduled respect to project
+    # Schedule new Workflow
+    
+    POST /api/v1/workflow-schedules 
+    
+    # Get workflow Schedules list by workflow id
+    
+    GET /api/v1/workflow-schedules-list/{workflowId} 
+    
+    # Delete scheduled Workflow
+    
+    DELETE /api/v1/workflow-schedules/{id} 
+    
+    # getWorklowScheduleDetails
+    
+    GET /api/v1/workflow-schedules/{workflow-scheduleId} 
+    
+    # Get list of all Workflows Scheduled respect to project
+    
+    GET /api/v1/workflow-schedules/projects/{projectId}/workflows/{workflowId} 
 
 yarn-controller
 ++++++++++++
@@ -2134,6 +2153,11 @@ yarn-controller
 Yarn Controller
 ::
 
-    GET /api/v1/viewYarnApplication/{applicationId} View YARN application
-    GET /api/v1/yarn/applicationList Get YARN Jobs
+    # View YARN application
+    
+    GET /api/v1/viewYarnApplication/{applicationId} 
+    
+    # Get YARN Jobs
+    
+    GET /api/v1/yarn/applicationList 
 

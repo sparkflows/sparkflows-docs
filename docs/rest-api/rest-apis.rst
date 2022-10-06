@@ -884,6 +884,3 @@ Yarn Controller
     GET /api/v1/viewYarnApplication/{applicationId} View YARN application
     GET /api/v1/yarn/applicationList Get YARN Jobs
 
-Models
-+++++
-

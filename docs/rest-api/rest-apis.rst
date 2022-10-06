@@ -1629,32 +1629,109 @@ web-app-controller
 Web App Controller
 ::
 
-    GET /api/v1/webApps getWebApps
-    POST /api/v1/webApps createWebApp
-    PUT /api/v1/webApps updateWebApp
-    POST /api/v1/webApps/{uuid}/userInputs saveInput 
-    GET /api/v1/webApps/{webAppId} getWebAppDetails
-    PUT /api/v1/webApps/{webAppId} changeWebAppStatus
-    DELETE /api/v1/webApps/{webAppId} deleteWebApp
-    GET /api/v1/webApps/{webAppId}/by/condition getWebAppDetailsByCondition
-    POST /api/v1/webApps/{webAppId}/generateUuid Generate uuid of app
-    POST /api/v1/webApps/{webAppId}/nextStage getNextStage
-    POST /api/v1/webApps/{webAppId}/saveUuid Save uuid of app
-    GET /api/v1/webApps/{webAppId}/stage getWebAppStageDetails
-    POST /api/v1/webApps/{webAppId}/stage addWebAppStage
-    DELETE /api/v1/webApps/{webAppId}/stage/{stageId} deleteWebAppStage
-    POST /api/v1/webApps/{webAppId}/stage/details addWebAppStageDetails 
-    POST /api/v1/webApps/browseFile/uuidExists Webapp exists with uuid present in browse json file
-    POST /api/v1/webApps/dbfs/upload/file uploadFile
-    GET /api/v1/webApps/execution/{executionId} getWebappExecutionById
-    POST /api/v1/webApps/import Import analytic app
-    GET /api/v1/webApps/polls/{uuid}/userInputs pollUserInput
-    DELETE /api/v1/webApps/project/{projectId} deleteAllWebappsByProjectId
-    POST /api/v1/webApps/showHideApps show hide apps
-    PUT /api/v1/webApps/stage updateStage
-    POST /api/v1/webApps/updateWfParameters/{wfId} updateWfParameters
-    POST /api/v1/webApps/upgrade Upgrade analytic app
-    GET /api/v1/webApps/uuidExists does same uuid of app exists in project
+    # getWebApps
+    
+    GET /api/v1/webApps 
+    
+    # createWebApp
+    
+    POST /api/v1/webApps 
+    
+    # updateWebApp
+    
+    PUT /api/v1/webApps 
+    
+    # saveInput
+    
+    POST /api/v1/webApps/{uuid}/userInputs 
+    
+    # getWebAppDetails
+    
+    GET /api/v1/webApps/{webAppId} 
+    
+    # changeWebAppStatus
+    
+    PUT /api/v1/webApps/{webAppId} 
+    
+    # deleteWebApp
+    
+    DELETE /api/v1/webApps/{webAppId} 
+    
+    # getWebAppDetailsByCondition
+    
+    GET /api/v1/webApps/{webAppId}/by/condition 
+    
+    # Generate uuid of app
+    
+    POST /api/v1/webApps/{webAppId}/generateUuid 
+    
+    # getNextStage
+    
+    POST /api/v1/webApps/{webAppId}/nextStage 
+    
+    # Save uuid of app
+    
+    POST /api/v1/webApps/{webAppId}/saveUuid 
+    
+    # getWebAppStageDetails
+    
+    GET /api/v1/webApps/{webAppId}/stage 
+    
+    # addWebAppStage
+    
+    POST /api/v1/webApps/{webAppId}/stage 
+    
+    # deleteWebAppStage
+    
+    DELETE /api/v1/webApps/{webAppId}/stage/{stageId} 
+    
+    # addWebAppStageDetails 
+    
+    POST /api/v1/webApps/{webAppId}/stage/details 
+    
+    # Webapp exists with uuid present in browse json file
+    
+    POST /api/v1/webApps/browseFile/uuidExists 
+    
+    # uploadFile
+    
+    POST /api/v1/webApps/dbfs/upload/file 
+    
+    # getWebappExecutionById
+    
+    GET /api/v1/webApps/execution/{executionId} 
+    
+    # Import analytic app
+    
+    POST /api/v1/webApps/import 
+    
+    # pollUserInput
+    
+    GET /api/v1/webApps/polls/{uuid}/userInputs 
+    
+    # deleteAllWebappsByProjectId
+    
+    DELETE /api/v1/webApps/project/{projectId} 
+    
+    # show hide apps
+    
+    POST /api/v1/webApps/showHideApps 
+    
+    # updateStage
+    
+    PUT /api/v1/webApps/stage 
+    
+    # updateWfParameters
+    
+    POST /api/v1/webApps/updateWfParameters/{wfId} 
+    
+    # Upgrade analytic app
+    
+    POST /api/v1/webApps/upgrade 
+    
+    # does same uuid of app exists in project
+    
+    GET /api/v1/webApps/uuidExists 
 
 web-app-version-controller
 ++++++++++
@@ -1662,8 +1739,13 @@ web-app-version-controller
 Web App Version Controller
 ::
 
-    GET /api/v1/webappVersions/{webVersionId} getWebAppDetailsByWebVersionId
-    GET /api/v1/webappVersions/webApps/{webAppId} getWebAppVersionsByWebAppId
+    # getWebAppDetailsByWebVersionId
+    
+    GET /api/v1/webappVersions/{webVersionId} 
+    
+    # getWebAppVersionsByWebAppId
+    
+    GET /api/v1/webappVersions/webApps/{webAppId} 
 
 wizard-controller
 ++++++++++++

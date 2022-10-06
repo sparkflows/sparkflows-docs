@@ -1114,20 +1114,42 @@ operations-controller
 Operations Controller
 ::
     
-    DELETE /api/v1/operations/workflows/deleteAllExecutions deleteAllExecutions
-    DELETE /api/v1/operations/workflows/executions delete older workflow executions and its results.
-    GET /api/v1/operations/workflows/executions/count Get Workflow execution counts
-    GET /api/v1/operations/workflows/executions/count/days/{days} getTotalWorkflowExecutionCountByOlderDays
-    GET /api/v1/operations/workflows/executions/results/count Get workflow execution results count
-    GET /api/v1/operations/workflows/executions/total getTotalWorkflowExecutionCountByAllUsers
+    # deleteAllExecutions
+    
+    DELETE /api/v1/operations/workflows/deleteAllExecutions 
+    
+    # delete older workflow executions and its results
+    
+    DELETE /api/v1/operations/workflows/executions 
+    
+    # Get Workflow execution counts
+    
+    GET /api/v1/operations/workflows/executions/count 
+    
+    # getTotalWorkflowExecutionCountByOlderDays
+    
+    GET /api/v1/operations/workflows/executions/count/days/{days} 
+    
+    # Get workflow execution results count
+    
+    GET /api/v1/operations/workflows/executions/results/count 
+    
+    # getTotalWorkflowExecutionCountByAllUsers
+    
+    GET /api/v1/operations/workflows/executions/total 
 
 pipeline-controller
 +++++++++++
 Operations pertaining to Pipeline in Fire
 ::
 
-    GET /api/retrievePipelineVersions Retrieve the pipeline versions
-    POST /api/v1/pipelines/import importPipeline
+    # Retrieve the pipeline versions
+    
+    GET /api/retrievePipelineVersions 
+    
+    # importPipeline
+    
+    POST /api/v1/pipelines/import 
 
 pipeline-execute-controller
 ++++++++++
@@ -1135,14 +1157,37 @@ pipeline-execute-controller
 Pipeline Execute Controller
 ::
 
-    GET /api/executePipeline Execute the pipeline
-    GET /api/v1/pipeline/executions/project/{projectId} getPipelineExecutionListByProjectId
-    GET /api/v1/pipelines/execution/{pipelineExecutionId} getPipelineExecutionDetailsById
-    DELETE /api/v1/pipelines/execution/{pipelineExecutionId} deletePipelineExecutionById
-    GET /api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus refreshStatusByAirflow
-    GET /api/v1/pipelines/execution/{pipelineExecutionId}/refreshStatus refreshPipelineStatus
-    GET /api/v1/pipelines/execution/logs getLogs
-    GET /api/v1/pipelines/execution/task getTaskDetails
+    # Execute the pipeline
+    
+    GET /api/executePipeline 
+    
+    # getPipelineExecutionListByProjectId
+    
+    GET /api/v1/pipeline/executions/project/{projectId} 
+    
+    # getPipelineExecutionDetailsById
+    
+    GET /api/v1/pipelines/execution/{pipelineExecutionId} 
+    
+    # deletePipelineExecutionById
+    
+    DELETE /api/v1/pipelines/execution/{pipelineExecutionId} 
+    
+    # refreshStatusByAirflow
+    
+    GET /api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus 
+    
+    # refreshPipelineStatus
+    
+    GET /api/v1/pipelines/execution/{pipelineExecutionId}/refreshStatus 
+    
+    # getLogs
+    
+    GET /api/v1/pipelines/execution/logs 
+    
+    # getTaskDetails
+    
+    GET /api/v1/pipelines/execution/task 
 
 pipeline-node-controller
 +++++++++++++
@@ -1150,8 +1195,13 @@ pipeline-node-controller
 Pipeline Node Controller
 ::
 
-    GET /api/v1/pipelines/nodes getAllPipelineNodes
-    GET /api/v1/pipelines/nodes/{name} getPipelineNodeByName
+    # getAllPipelineNodes
+    
+    GET /api/v1/pipelines/nodes 
+    
+    # getPipelineNodeByName
+    
+    GET /api/v1/pipelines/nodes/{name} 
 
 pipeline-scheduler-controller
 ++++++++++++

@@ -936,11 +936,25 @@ logs-controller
 Logs Controller
 ::
 
-    GET /api/fireLogs View logs of fire
-    GET /api/fireServer/exceptions/logs View logs of fire server
-    GET /api/fireServerLogs View logs of fire server
-    GET /api/pysparkLogs View pyspark server log
-    GET /api/search/logs/{logName}/{searchString} Search logs
+    # View logs of fire
+    
+    GET /api/fireLogs 
+    
+    # View logs of fire server
+    
+    GET /api/fireServer/exceptions/logs 
+    
+    # View logs of fire server
+    
+    GET /api/fireServerLogs 
+    
+    # View pyspark server log
+    
+    GET /api/pysparkLogs 
+    
+    # Search logs
+    
+    GET /api/search/logs/{logName}/{searchString} 
 
 main-controller
 +++++++++++
@@ -948,8 +962,13 @@ main-controller
 Operations pertaining to Main Ctrl in Sparkflows
 ::
 
-    GET /api/v1/main/about Get Sparkflows details
-    GET /api/v1/main/databricks-enabled/{name} Get Configuration property of databricks by Name
+    # Get Sparkflows details
+    
+    GET /api/v1/main/about 
+    
+    # Get Configuration property of databricks by Name
+    
+    GET /api/v1/main/databricks-enabled/{name} 
 
 metrics-controller
 ++++
@@ -957,10 +976,21 @@ metrics-controller
 Metrics Controller
 ::
 
-    GET /api/v1/metrics/summary/{analysisFlowId} Gets the workflow metrics summary. It includes all users' workflow executions
-    GET /api/v1/metrics/summary/{analysisFlowId}/time/{timeFilter} Gets the workflow executions summary by time/date filter. It includes all users' workflow executions
-    GET /api/v1/workflow/metrics/{workflowExecutionId} Get job execution metrics for the given workflow execution id
-    GET /api/v1/workflow/metrics/getAllMetricsOfEachWorkflow/{workflowId} Get all execution metrics for the given workflow id
+    # Gets the workflow metrics summary. It includes all users' workflow executions
+    
+    GET /api/v1/metrics/summary/{analysisFlowId} 
+    
+    # Gets the workflow executions summary by time/date filter. It includes all users' workflow executions
+    
+    GET /api/v1/metrics/summary/{analysisFlowId}/time/{timeFilter} 
+    
+    # Get job execution metrics for the given workflow execution id
+    
+    GET /api/v1/workflow/metrics/{workflowExecutionId} 
+    
+    # Get all execution metrics for the given workflow id
+    
+    GET /api/v1/workflow/metrics/getAllMetricsOfEachWorkflow/{workflowId} 
 
 model-controller
 ++++++++++
@@ -968,27 +998,89 @@ model-controller
 Model Controller
 ::
 
-    DELETE /api/v1/mlmodel/delete/{analysisFlowId} Delete output model of job executions by workflow id
-    GET /api/v1/mlmodel/getFeatureImportanceByModelUuid/{modelUuid} Get feature importance by model uuid
-    GET /api/v1/mlmodel/getMlDetailByModelUuid/{modelUuid} Get model detail by model uuid
-    GET /api/v1/mlmodel/getMLModelFeatures/{modelUuid} Get the features of given model uuid
-    GET /api/v1/mlmodel/getTestMetricsByModelUuid/{modelUuid} Get test metrics from output model evaluation by model uuid
-    GET /api/v1/mlmodel/getTrainMetricsByModelUuid/{modelUuid} Get train metrics by model uuid
-    GET /api/v1/mlmodel/model_Summary_analysisflow/{analysisFlowId} Get output model summary by analysisFlowId
-    GET /api/v1/mlmodel/model_Summary_analysisflow/{analysisFlowId}/time/{timeFilter} Get output model summary by time/date filter
-    GET /api/v1/mlmodel/model_Summary/{modelUuid} Get output model summary by model uuid
-    GET /api/v1/mlmodel/outputModel Get all output model
-    GET /api/v1/mlmodel/outputModel/{analysisflowExecutionId} Get output model of job executions
-    GET /api/v1/mlmodel/outputModel/{modelId}/download/{fileType} zipDownload
-    GET /api/v1/mlmodel/outputModelByAnalysisFlowId/{analysisFlowId} Get all output model of job executions by workflow id
-    GET /api/v1/mlmodel/outputModelByApplicationId/{applicationId} Get output model of job executions by application id
-    GET /api/v1/mlmodel/outputModelByModelUuid/{modelUuid} Get output model by model uuid
-    GET /api/v1/mlmodel/OutputModelEvaluationByModelUuid/{modelUuid} Get output model evaluation by model uuid
-    GET /api/v1/mlmodel/OutputModels Get output model list
-    GET /api/v1/mlmodel/OutputModels/fileInfo getFileInfo
-    GET /api/v1/mlmodel/OutputModelsById/{modelId} Get output model list by id
-    GET /api/v1/mlmodel/summary Gets the model executions summary
-    POST /api/v1/mlmodel/updateModel/{modelId} Update model
+    # Delete output model of job executions by workflow id
+    
+    DELETE /api/v1/mlmodel/delete/{analysisFlowId} 
+    
+    # Get feature importance by model uuid
+    
+    GET /api/v1/mlmodel/getFeatureImportanceByModelUuid/{modelUuid} 
+    
+    # Get model detail by model uuid
+    
+    GET /api/v1/mlmodel/getMlDetailByModelUuid/{modelUuid} 
+    
+    # Get the features of given model uuid
+    
+    GET /api/v1/mlmodel/getMLModelFeatures/{modelUuid} 
+    
+    # Get test metrics from output model evaluation by model uuid
+    
+    GET /api/v1/mlmodel/getTestMetricsByModelUuid/{modelUuid} 
+    
+    # Get train metrics by model uuid
+    
+    GET /api/v1/mlmodel/getTrainMetricsByModelUuid/{modelUuid} 
+    
+    # Get output model summary by analysisFlowId
+    
+    GET /api/v1/mlmodel/model_Summary_analysisflow/{analysisFlowId} 
+    
+    # Get output model summary by time/date filter
+    
+    GET /api/v1/mlmodel/model_Summary_analysisflow/{analysisFlowId}/time/{timeFilter} 
+    
+    # Get output model summary by model uuid
+    
+    GET /api/v1/mlmodel/model_Summary/{modelUuid} 
+    
+    # Get all output model
+    
+    GET /api/v1/mlmodel/outputModel 
+    
+    # Get output model of job executions
+    
+    GET /api/v1/mlmodel/outputModel/{analysisflowExecutionId} 
+    
+    # zipDownload
+    
+    GET /api/v1/mlmodel/outputModel/{modelId}/download/{fileType} 
+    
+    # Get all output model of job executions by workflow id
+    
+    GET /api/v1/mlmodel/outputModelByAnalysisFlowId/{analysisFlowId} 
+    
+    # Get output model of job executions by application id
+    
+    GET /api/v1/mlmodel/outputModelByApplicationId/{applicationId} 
+    
+    # Get output model by model uuid
+    
+    GET /api/v1/mlmodel/outputModelByModelUuid/{modelUuid} 
+    
+    # Get output model evaluation by model uuid
+    
+    GET /api/v1/mlmodel/OutputModelEvaluationByModelUuid/{modelUuid} 
+    
+    # Get output model list
+    
+    GET /api/v1/mlmodel/OutputModels 
+    
+    # getFileInfo
+    
+    GET /api/v1/mlmodel/OutputModels/fileInfo 
+    
+    # Get output model list by id
+    
+    GET /api/v1/mlmodel/OutputModelsById/{modelId} 
+    
+    # Gets the model executions summary
+    
+    GET /api/v1/mlmodel/summary 
+    
+    # Update model
+    
+    POST /api/v1/mlmodel/updateModel/{modelId} 
 
 node-controller
 ++++++++++++++++
@@ -996,11 +1088,25 @@ node-controller
 Operations pertaining to processors in Sparkflows
 ::
 
-    GET /api/v1/node-rules Returns list of node rules
-    GET /api/v1/nodes Gets list of available processors by engine or leave it blank for all processors.
-    GET /api/v1/nodes/count Get Node Count
-    GET /api/v1/nodes/names/{name} Return processor details by name
-    GET /api/v2/nodes Gets list of available processors by engine or leave it blank for all processors.
+    # Returns list of node rules
+    
+    GET /api/v1/node-rules 
+    
+    # Gets list of available processors by engine or leave it blank for all processors
+    
+    GET /api/v1/nodes 
+    
+    # Get Node Count
+    
+    GET /api/v1/nodes/count 
+    
+    # Return processor details by name
+    
+    GET /api/v1/nodes/names/{name} 
+    
+    # Gets list of available processors by engine or leave it blank for all processors
+    
+    GET /api/v2/nodes 
 
 operations-controller
 ++++++++++

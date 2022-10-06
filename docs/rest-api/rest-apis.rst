@@ -1209,12 +1209,27 @@ pipeline-scheduler-controller
 Pipeline Scheduler Controller
 ::
 
-    POST /api/v1/pipeline-schedules Schedule new pipeline
-    PUT /api/v1/pipeline-schedules Update Scheduled pipeline
-    GET /api/v1/pipeline-schedules/{pipelineScheduleId} getPipelineScheduleDetails
-    DELETE /api/v1/pipeline-schedules/{pipelineScheduleId} Delete scheduled pipeline
-    GET /api/v1/pipeline-schedules/list/{pipelineId} Get pipeline Schedules list by pipeline id
-
+    # Schedule new pipeline
+        
+    POST /api/v1/pipeline-schedules 
+    
+    # Scheduled pipeline
+    
+    PUT /api/v1/pipeline-schedules Update 
+    
+    # getPipelineScheduleDetails
+    
+    GET /api/v1/pipeline-schedules/{pipelineScheduleId} 
+    
+    # Delete scheduled pipeline
+    
+    DELETE /api/v1/pipeline-schedules/{pipelineScheduleId} 
+    
+    # Get pipeline Schedules list by pipeline id
+    
+    GET /api/v1/pipeline-schedules/list/{pipelineId} 
+    
+    
 project-controller
 ++++++++++
 

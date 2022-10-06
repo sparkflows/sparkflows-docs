@@ -225,14 +225,37 @@ conf-property-controller
 Operations pertaining to Conf Property in Sparkflows
 ::
 
-    GET /api/v1/configs/app Get Application Configuration property
-    GET /api/v1/configurations Get configurations
-    POST /api/v1/configurations Save/Update configurations
-    GET /api/v1/configurations/infer Infer configurations
-    GET /api/v1/configurations/kafka Get kafka configuration
-    GET /api/v1/configurations/uiSettings Get Configuration property of ui settings
-    GET /api/v1/main/modules-enabled Get Configuration property of modules
-    GET /api/v1/main/sso-conf Get Configuration property of sso
+    # Get Application Configuration property
+    
+    GET /api/v1/configs/app 
+    
+    # Get configurations
+    
+    GET /api/v1/configurations 
+    
+    # Save/Update configurations
+    
+    POST /api/v1/configurations 
+    
+    # Infer configurations
+    
+    GET /api/v1/configurations/infer 
+    
+    # Get kafka configuration
+    
+    GET /api/v1/configurations/kafka 
+    
+    # Get Configuration property of ui settings
+    
+    GET /api/v1/configurations/uiSettings 
+    
+    # Get Configuration property of modules
+    
+    GET /api/v1/main/modules-enabled 
+    
+    # Get Configuration property of sso
+    
+    GET /api/v1/main/sso-conf 
 
 credential-store-controller
 +++++++++++++

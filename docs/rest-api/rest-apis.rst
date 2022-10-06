@@ -1753,11 +1753,25 @@ wizard-controller
 Operations pertaining to wizard in Fire
 ::
 
-    GET /api/v1/wizards/actions Returns actions
-    POST /api/v1/wizards/convert-workflow Convert WizardWorkflow to Workflow
-    GET /api/v1/wizards/queries Returns queries
-    GET /api/v1/wizards/sections Returns sections
-    POST /api/v1/wizards/workflow/create Create Workflow from workflow-wizard
+    # Returns actions
+    
+    GET /api/v1/wizards/actions 
+    
+    # Convert WizardWorkflow to Workflow
+    
+    POST /api/v1/wizards/convert-workflow 
+    
+    # Returns queries
+    
+    GET /api/v1/wizards/queries 
+    
+    # Returns sections
+    
+    GET /api/v1/wizards/sections 
+    
+    # Create Workflow from workflow-wizard
+    
+    POST /api/v1/wizards/workflow/create 
 
 workflow-controller
 ++++++++++++
@@ -1765,45 +1779,161 @@ workflow-controller
 Operations allow interacting with workflows in Sparkflows
 ::
 
-    GET /api/v1/apps/example-datasets-and-workflows/load load Example datasets and workflows of Applications
-    GET /api/v1/getAllCleaningWorkflows/{datasetUuid} Get all cleaning workflows
-    GET /api/v1/ibm-file writes all the workflows to IBM file
-    POST /api/v1/nodes/{nodeId}/schema/input Retrieve schema of a node
-    POST /api/v1/nodes/{nodeId}/schema/output retrieve output schema of a node
-    DELETE /api/v1/workflow/trash Move selected workflow to trash
-    DELETE /api/v1/workflow/trash/{workflowId} Move workflow to trash
-    GET /api/v1/workflows Get all the workflows for a given project in desc order with detailed information'
-    POST /api/v1/workflows create a workflow
-    PUT /api/v1/workflows update a workflow
-    GET /api/v1/workflows/{id} Get workflow details by id
-    DELETE /api/v1/workflows/{workflowId} delete the workflow
-    POST /api/v1/workflows/{workflowId}/{workflowName}/clone clone the workflow
-    GET /api/v1/workflows/{workflowId}/copy Api for copying the workflow
-    GET /api/v1/workflows/{workflowId}/lock lock the workflow
-    GET /api/v1/workflows/{workflowId}/unlock Unlock the workflow
-    PUT /api/v1/workflows/{workflowId}/uuid/{uuid} updateUuid
-    GET /api/v1/workflows/all Get all workflows
-    POST /api/v1/workflows/beautify Beautify workflow
-    GET /api/v1/workflows/count Get Workflow Count
-    GET /api/v1/workflows/dashboard Get all the workflows of a project in desc order with basic information'
-    DELETE /api/v1/workflows/emptyTrash empty wfs from trash
-    GET /api/v1/workflows/execution-enable Get the value of execute enabled value of Configurations
-    GET /api/v1/workflows/export/{id} Get workflow content to export
-    POST /api/v1/workflows/generatePysparkCode Generate Pyspark Code
-    GET /api/v1/workflows/latest Get Latest WorkFlows
-    GET /api/v1/workflows/list/export Get Workflows for export
-    GET /api/v1/workflows/name/{name} Get workflow by Name
-    POST /api/v1/workflows/nodes/{nodeId}/execute Execute workflow's node
-    GET /api/v1/workflows/nodes/state/inconsistent Return the list of nodes that are in an inconsistent state - mainly with regard to schema
-    PUT /api/v1/workflows/restore Restore selected trashed wfs'
-    PUT /api/v1/workflows/restore/{workflowId} Restore trashed wfs'
-    GET /api/v1/workflows/trashed Get trashed workflows for a given project in desc order with detailed information'
-    GET /api/v1/workflows/users/logged-in Get workflows owned and shared with logged-in user
-    GET /api/v1/workflows/uuid/{uuid} Get workflow by uuid
-    POST /api/v1/workflows/validateCode Api for syntax checking of pyspark code
-    GET /api/v1/workflows/versions Retrieve the workflow versions
-    GET /api/v1/workflows/wfName/{id} Get workflow name by id
-    GET /api/v1/workflows/workflowExecutions/{jobId} Get workflow using jobId
+    # load Example datasets and workflows of Applications
+    
+    GET /api/v1/apps/example-datasets-and-workflows/load 
+    
+    # Get all cleaning workflows
+    
+    GET /api/v1/getAllCleaningWorkflows/{datasetUuid} 
+    
+    # writes all the workflows to IBM file
+    
+    GET /api/v1/ibm-file 
+    
+    # Retrieve schema of a node
+    
+    POST /api/v1/nodes/{nodeId}/schema/input 
+    
+    # retrieve output schema of a node
+    
+    POST /api/v1/nodes/{nodeId}/schema/output 
+    
+    # Move selected workflow to trash
+    
+    DELETE /api/v1/workflow/trash 
+    
+    # Move workflow to trash
+    
+    DELETE /api/v1/workflow/trash/{workflowId} 
+    
+    # Get all the workflows for a given project in desc order with detailed information
+    
+    GET /api/v1/workflows 
+    
+    # create a workflow
+    
+    POST /api/v1/workflows 
+    
+    # update a workflow
+    
+    PUT /api/v1/workflows 
+    
+    # Get workflow details by id
+    
+    GET /api/v1/workflows/{id} 
+    
+    # delete the workflow
+    
+    DELETE /api/v1/workflows/{workflowId} 
+    
+    # clone the workflow
+    
+    POST /api/v1/workflows/{workflowId}/{workflowName}/clone 
+    
+    # Api for copying the workflow
+    
+    GET /api/v1/workflows/{workflowId}/copy 
+    
+    # lock the workflow
+    
+    GET /api/v1/workflows/{workflowId}/lock 
+    
+    # Unlock the workflow
+    
+    GET /api/v1/workflows/{workflowId}/unlock 
+    
+    # updateUuid
+    
+    PUT /api/v1/workflows/{workflowId}/uuid/{uuid} 
+    
+    # Get all workflows
+    
+    GET /api/v1/workflows/all 
+    
+    # Beautify workflow
+    
+    POST /api/v1/workflows/beautify 
+    
+    # Get Workflow Count
+    
+    GET /api/v1/workflows/count 
+    
+    # Get all the workflows of a project in desc order with basic information
+    
+    GET /api/v1/workflows/dashboard 
+    
+    # empty wfs from trash
+    
+    DELETE /api/v1/workflows/emptyTrash 
+    
+    # Get the value of execute enabled value of Configurations
+    
+    GET /api/v1/workflows/execution-enable 
+    
+    # Get workflow content to export
+    
+    GET /api/v1/workflows/export/{id} 
+    
+    # Generate Pyspark Code
+    
+    POST /api/v1/workflows/generatePysparkCode 
+    
+    # Get Latest WorkFlows
+    
+    GET /api/v1/workflows/latest 
+    
+    # Get Workflows for export
+    
+    GET /api/v1/workflows/list/export 
+    
+    # Get workflow by Name
+    
+    GET /api/v1/workflows/name/{name} 
+    
+    # Execute workflow's node
+    
+    POST /api/v1/workflows/nodes/{nodeId}/execute 
+    
+    # Return the list of nodes that are in an inconsistent state - mainly with regard to schema
+    
+    GET /api/v1/workflows/nodes/state/inconsistent 
+    
+    # Restore selected trashed wfs'
+    
+    PUT /api/v1/workflows/restore 
+    
+    # Restore trashed wfs'
+    
+    PUT /api/v1/workflows/restore/{workflowId} 
+    
+    # Get trashed workflows for a given project in desc order with detailed information'
+    
+    GET /api/v1/workflows/trashed 
+    
+    # Get workflows owned and shared with logged-in user
+    
+    GET /api/v1/workflows/users/logged-in 
+    
+    # Get workflow by uuid
+    
+    GET /api/v1/workflows/uuid/{uuid} 
+    
+    # Api for syntax checking of pyspark code
+    
+    POST /api/v1/workflows/validateCode 
+    
+    # Retrieve the workflow versions
+    
+    GET /api/v1/workflows/versions 
+    
+    # Get workflow name by id
+    
+    GET /api/v1/workflows/wfName/{id} 
+    
+    # Get workflow using jobId
+    
+    GET /api/v1/workflows/workflowExecutions/{jobId} 
 
 workflow-execute-controller
 ++++++++++++

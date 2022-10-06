@@ -48,5 +48,8 @@ REST API
 
    rest-api-curl/index
 
+.. toctree::
+   :hidden:
 
+   rest-apis.rst
 

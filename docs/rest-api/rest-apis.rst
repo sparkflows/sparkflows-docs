@@ -473,25 +473,81 @@ databricks-controller
 Databricks Controller
 ::
 
-    GET /api/v1/databricks/clusters getClusterInfo
-    GET /api/v1/databricks/clusters/restart restartDatabricksClusters
-    POST /api/v1/databricks/command executeDatabricksDDLCommand
-    GET /api/v1/databricks/database/{dbName}/table/{table} getTableColumnsInfo
-    GET /api/v1/databricks/database/{dbName}/tables getAllDatabases
-    GET /api/v1/databricks/database/{dbName}/tables/{tableName}/sample-data getSampleData
-    GET /api/v1/databricks/database/list getAllDatabases
-    GET /api/v1/databricks/jobs/runs getRunDetailsByRunId
-    GET /api/v1/databricks/notebooks/jobs getDatabricksNotebooksJob
-    POST /api/v1/databricks/notebooks/jobs/execute executeDatabricksNotebooksJob
-    GET /api/v1/databricks/query/history getQueryHistoryOfLoggedInUser
-    GET /api/v1/dbfs getDatabricksFileSystem
-    DELETE /api/v1/dbfs/delete Delete DBFS files via It's Paths
-    GET /api/v1/dbfs/directory getDatabricksFileSystemInDir
-    GET /api/v1/dbfs/fileContent getDbfsFileContent
-    GET /api/v1/dbfs/files/download download dbfs file
-    POST /api/v1/dbfs/files/upload uploadDbfsFile
-    POST /api/v1/dbfs/mkdir createDbfsDir
-    POST /api/v1/dbfs/renameOrMove/file moveOrRenameFile
+    # getClusterInfo
+    
+    GET /api/v1/databricks/clusters 
+    
+    # restartDatabricksClusters
+    
+    GET /api/v1/databricks/clusters/restart 
+    
+    # executeDatabricksDDLCommand
+    
+    POST /api/v1/databricks/command 
+    
+    # getTableColumnsInfo
+    
+    GET /api/v1/databricks/database/{dbName}/table/{table} 
+    
+    # getAllDatabases
+    
+    GET /api/v1/databricks/database/{dbName}/tables 
+    
+    # getSampleData
+    
+    GET /api/v1/databricks/database/{dbName}/tables/{tableName}/sample-data 
+    
+    # getAllDatabases
+    
+    GET /api/v1/databricks/database/list 
+    
+    # getRunDetailsByRunId
+    
+    GET /api/v1/databricks/jobs/runs 
+    
+    # getDatabricksNotebooksJob
+    
+    GET /api/v1/databricks/notebooks/jobs 
+    
+    # executeDatabricksNotebooksJob
+    
+    POST /api/v1/databricks/notebooks/jobs/execute 
+    
+    # getQueryHistoryOfLoggedInUser
+    
+    GET /api/v1/databricks/query/history 
+    
+    # getDatabricksFileSystem
+    
+    GET /api/v1/dbfs 
+    
+    # Delete DBFS files via It's Paths
+    
+    DELETE /api/v1/dbfs/delete 
+    
+    # getDatabricksFileSystemInDir
+    
+    GET /api/v1/dbfs/directory 
+    
+    # getDbfsFileContent
+    
+    GET /api/v1/dbfs/fileContent 
+    
+    # download dbfs file
+    
+    GET /api/v1/dbfs/files/download 
+    
+    # uploadDbfsFile
+    
+    POST /api/v1/dbfs/files/upload 
+    
+    # createDbfsDir
+    
+    POST /api/v1/dbfs/mkdir 
+    
+    # moveOrRenameFile
+    
+    POST /api/v1/dbfs/renameOrMove/file 
  
 dataset-hierarchy-controller 
 ++++++++++
@@ -499,10 +555,21 @@ dataset-hierarchy-controller
 Dataset Hierarchy Controller
 ::
 
-    POST /api/v1/hierarchy createDatasetHierarchy
-    PUT /api/v1/hierarchy updateDatasetHierarchy
-    DELETE /api/v1/hierarchy/{datasetHierarchyId} deleteDatasetHierarchy
-    GET /api/v1/hierarchy/datasets/{datasetUuid} getDatasetHierarchy
+    # createDatasetHierarchy
+    
+    POST /api/v1/hierarchy 
+    
+    # updateDatasetHierarchy
+    
+    PUT /api/v1/hierarchy 
+    
+    # deleteDatasetHierarchy
+    
+    DELETE /api/v1/hierarchy/{datasetHierarchyId} 
+    
+    # getDatasetHierarchy
+    
+    GET /api/v1/hierarchy/datasets/{datasetUuid} 
 
 datasource-controller
 ++++++++++++
@@ -510,7 +577,9 @@ datasource-controller
 Datasource Controller
 ::
 
-    GET /api/v1/datasource/metrics getDatasourceConnectionPoolInfo
+    # getDatasourceConnectionPoolInfo
+    
+    GET /api/v1/datasource/metrics 
 
 diagnostics-controller
 ++++++++++++++
@@ -518,7 +587,9 @@ diagnostics-controller
 Diagnostics Controller
 ::
  
-    GET /api/v1/getDiagnostics Get all diagnostics
+    # Get all diagnostics
+    
+    GET /api/v1/getDiagnostics 
 
 event-controller
 ++++++++++

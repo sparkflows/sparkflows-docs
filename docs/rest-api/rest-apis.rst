@@ -35,121 +35,72 @@ Analysis Flow Trigger Controller
     
 
 application-connection-controller
+++++++++++++++++++++++++
 Application Connection Controller
+
 ::
   
-    POST
-    /api/v1/connections
+    POST /api/v1/connections Create a connection  
+    DELETE /api/v1/connections/{appConnectionId} deleteApplicationConnection
+    GET /api/v1/connections/{connectionId} Get connection details by connectionId  
+    GET /api/v1/connections/{connectionId}/tables getTables
+    PUT /api/v1/connections/{id} Update a connection details
+    GET /api/v1/connections/categories/{category} getAllConnections 
+    GET /api/v1/connections/global getGlobalConnections  
+    GET /api/v1/connections/loggedInUser getConnectionsForLoggedInUser
+    GET /api/v1/connections/manage/access getConnectionsPermissions
+    GET /api/v1/connections/name/{connectionName}/isUnique isUniqueConnectionName
+    GET /api/v1/connections/projects/{projectId} Get all connections by projectId
+    POST /api/v1/connections/test testConnection
     
-Create a connection
-::
-
-    DELETE
-    /api/v1/connections/{appConnectionId}
-
-deleteApplicationConnection
-::
-  
-    GET
-    /api/v1/connections/{connectionId}
-    
-Get connection details by connectionId
-::
-
-    GET
-    /api/v1/connections/{connectionId}/tables
-
-getTables
-::
-
-    PUT
-    /api/v1/connections/{id}
-    
-Update a connection details
-::
-
-    GET
-    /api/v1/connections/categories/{category}
-    
-getAllConnections
-::
-    
-    GET
-    /api/v1/connections/global
-    
-getGlobalConnections
-::
-
-    GET
-    /api/v1/connections/loggedInUser
-getConnectionsForLoggedInUser
-GET
-/api/v1/connections/manage/access
-getConnectionsPermissions
-GET
-/api/v1/connections/name/{connectionName}/isUnique
-isUniqueConnectionName
-GET
-/api/v1/connections/projects/{projectId}
-Get all connections by projectId
-POST
-/api/v1/connections/test
-testConnection
 auth-permission-controller
+++++++++++++++++++
 Auth Permission Controller
-GET
-/api/v1/user-permissions
-Get User permissions
+
+::
+    GET /api/v1/user-permissions Get User permissions
+    
 auth-user-group-controller
++++++++++++
+
 Operations pertaining to User Group in Sparkflows
-GET
-/api/groups/user
-Get logged in User group
-GET
-/api/v1/groups/{id}
-Get User by Group Id
-GET
-/api/v1/groups/user/{id}
-Get Group by User Id
+::
+
+    GET /api/groups/user Get logged in User group
+    GET /api/v1/groups/{id} Get User by Group Id
+    GET /api/v1/groups/user/{id} Get Group by User Id
+    
 auth-user-role-controller
+++++++++++++++
+
 Operations pertaining to User Role in Sparkflows
-GET
-/api/v1/roles/user/{id}
-Get Role by User Id
+::
+
+    GET /api/v1/roles/user/{id} Get Role by User Id
+    
 auto-ml-controller
++++++++++++
+
 Auto ML Controller
-GET
-/api/v1/auto-ml
-getAutoMlList
-POST
-/api/v1/auto-ml
-configureAutoMl
-PUT
-/api/v1/auto-ml
-updateAutoMl
-GET
-/api/v1/auto-ml/{autoMlId}
-getAutoMlDetails
-DELETE
-/api/v1/auto-ml/{autoMlId}
-deletAutoMl
-GET
-/api/v1/auto-ml/project/{projectId}
-getAutoMlListOfProject
-POST
-/api/v1/auto-ml/start/{autoMlId}
-startAutoMl
+::
+
+    GET /api/v1/auto-ml getAutoMlList
+    POST /api/v1/auto-ml configureAutoMl
+    PUT /api/v1/auto-ml updateAutoMl
+    GET /api/v1/auto-ml/{autoMlId} getAutoMlDetails
+    DELETE /api/v1/auto-ml/{autoMlId} deletAutoMl
+    GET /api/v1/auto-ml/project/{projectId} getAutoMlListOfProject
+    POST /api/v1/auto-ml/start/{autoMlId} startAutoMl
+
 auto-ml-executions-controller
+++++++++++++++++++
+
 Auto ML Executions Controller
-GET
-/api/v1/auto-ml/execution/{autoMlExecutionId}
-getAutoMlExecutionsByExecutionId
-POST
-/api/v1/auto-ml/execution/{autoMlExecutionId}/autoMl
-setAutoMlExecutionsIsFavoriteOrNot
-POST
-/api/v1/auto-ml/execution/{executionId}/autoMl/{autoMlId}
-saveAutoMlExecutions
+::
+
+    GET /api/v1/auto-ml/execution/{autoMlExecutionId} getAutoMlExecutionsByExecutionId
+    POST /api/v1/auto-ml/execution/{autoMlExecutionId}/autoMl setAutoMlExecutionsIsFavoriteOrNot
+    POST /api/v1/auto-ml/execution/{executionId}/autoMl/{autoMlId} saveAutoMlExecutions
 POST
 /api/v1/auto-ml/execution/comment
 addCommentToAutoMlExecution

@@ -1983,37 +1983,129 @@ workflow-executions-controller
 Workflow Executions Controller
 ::
 
-    GET /api/v1/cleaning-workflow-execution/{datasetUuid} Get all Cleaning Workflow Execution
-    GET /api/v1/last/workflow-execution/{workflowId} Get last execution of workflow
-    GET /api/v1/refreshTop10DatabricksJobStaus Refresh top 10 databricks executions status
-    GET /api/v1/summary-workflow-execution/{datasetUuid} Get all Summary Workflow Execution
-    GET /api/v1/update-status-workflow-execution/{wfeId} Update status of Workflow Execution
-    GET /api/v1/workflow-executions Gets the workflow executions - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED, 7: STOPPING, 8: TIMEOUT, 9: PENDING, 10: SKIPPED
-    DELETE /api/v1/workflow-executions Delete Selected Workflow Executions
-    GET /api/v1/workflow-executions/{parentExecutionId} Get the nested workflow execution list
-    GET /api/v1/workflow-executions/{workflowExecutionId}/logs/view View logs for the workflow execution
-    GET /api/v1/workflow-executions/{workflowExecutionId}/status Get status by Workflow Execution Id
-    DELETE /api/v1/workflow-executions/application/{applicationId}/days/{days} Delete older Workflow Executions of application
-    GET /api/v1/workflow-executions/application/count Get Aplications' Workflow Execution count - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED
-    GET /api/v1/workflow-executions/applications/{applicationId}/environments Get Workflow environment list
-    GET /api/v1/workflow-executions/applications/{applicationId}/jobs/{jobId} Get Job details
-    GET /api/v1/workflow-executions/applications/{applicationId}/stages Get Workflow execution stage list
-    GET /api/v1/workflow-executions/applications/{applicationId}/stages/jobs/{jobId} Get Workflow execution stage details
-    GET /api/v1/workflow-executions/count Get Workflow Execution count - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED
-    DELETE /api/v1/workflow-executions/days/{days} Delete Workflow Executions by days
-    GET /api/v1/workflow-executions/executors/applications/{applicationId} Get Workflow executer list
-    GET /api/v1/workflow-executions/jobs/applications/{applicationId} Get Workflow execution job list
-    GET /api/v1/workflow-executions/latest Gets latest five workflow executions
-    GET /api/v1/workflow-executions/projects/{projectId} Gets latest five workflow executions of a project
-    GET /api/v1/workflow-executions/status/{status} Gets the status of Workflow Execution
-    GET /api/v1/workflow-executions/summary Gets the workflow executions summary. It includes all users' workflow executions
-    GET /api/v1/workflow-executions/summary/all API to get summary by date, status and duration
-    GET /api/v1/workflow-executions/summary/date API to get execution summary by date
-    GET /api/v1/workflow-executions/tasks/count Get Executed Task Count
-    POST /api/v1/workflow-executions/update-status Update status of selected Workflow Executions
-    GET /api/v1/workflow-executions/workflows/{workflowId} Lists the workflow executions for a given workflow
-    GET /api/v1/workflowExecution/{workflowExecutionId} Get Workflow Execution by workflowExecutionId
-    GET /api/v1/worklow-executions/applications/{applicationId}/workflow-sqls Get Workflow sql list
+    # Get all Cleaning Workflow Execution
+    
+    GET /api/v1/cleaning-workflow-execution/{datasetUuid} 
+    
+    # Get last execution of workflow
+    
+    GET /api/v1/last/workflow-execution/{workflowId} 
+    
+    # Refresh top 10 databricks executions status
+    
+    GET /api/v1/refreshTop10DatabricksJobStaus 
+    
+    # Get all Summary Workflow Execution
+    
+    GET /api/v1/summary-workflow-execution/{datasetUuid} 
+    
+    # Update status of Workflow Execution
+    
+    GET /api/v1/update-status-workflow-execution/{wfeId} 
+    
+    # Gets the workflow executions - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED, 7: STOPPING, 8: TIMEOUT, 9: PENDING, 10: SKIPPED
+    
+    GET /api/v1/workflow-executions 
+    
+    # Delete Selected Workflow Executions
+    
+    DELETE /api/v1/workflow-executions 
+    
+    # Get the nested workflow execution list
+    
+    GET /api/v1/workflow-executions/{parentExecutionId} 
+    
+    # View logs for the workflow execution
+    
+    GET /api/v1/workflow-executions/{workflowExecutionId}/logs/view 
+    
+    # Get status by Workflow Execution Id
+    
+    GET /api/v1/workflow-executions/{workflowExecutionId}/status 
+    
+    # Delete older Workflow Executions of application
+    
+    DELETE /api/v1/workflow-executions/application/{applicationId}/days/{days} 
+    
+    # Get Aplications' Workflow Execution count - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED
+    
+    GET /api/v1/workflow-executions/application/count 
+    
+    # Get Workflow environment list
+    
+    GET /api/v1/workflow-executions/applications/{applicationId}/environments 
+    
+    # Get Job details
+    
+    GET /api/v1/workflow-executions/applications/{applicationId}/jobs/{jobId} 
+    
+    # Get Workflow execution stage list
+    
+    GET /api/v1/workflow-executions/applications/{applicationId}/stages 
+    
+    # Get Workflow execution stage details
+    
+    GET /api/v1/workflow-executions/applications/{applicationId}/stages/jobs/{jobId} 
+    
+    # Get Workflow Execution count - Status - 0: RUNNING, 1 : STOPPED, 2 : COMPLETED, 3 : FAILED, 4: STARTING, 5: STOP, 6: KILLED
+    
+    GET /api/v1/workflow-executions/count 
+    
+    # Delete Workflow Executions by days
+    
+    DELETE /api/v1/workflow-executions/days/{days} 
+    
+    # Get Workflow executer list
+    
+    GET /api/v1/workflow-executions/executors/applications/{applicationId} 
+    
+    # Get Workflow execution job list
+    
+    GET /api/v1/workflow-executions/jobs/applications/{applicationId} 
+    
+    # Gets latest five workflow executions
+    
+    GET /api/v1/workflow-executions/latest 
+    
+    # Gets latest five workflow executions of a project
+    
+    GET /api/v1/workflow-executions/projects/{projectId} 
+    
+    # Gets the status of Workflow Execution
+    
+    GET /api/v1/workflow-executions/status/{status} 
+    
+    # Gets the workflow executions summary. It includes all users' workflow executions
+    
+    GET /api/v1/workflow-executions/summary 
+    
+    # API to get summary by date, status and duration
+    
+    GET /api/v1/workflow-executions/summary/all 
+    
+    # API to get execution summary by date
+    
+    GET /api/v1/workflow-executions/summary/date 
+    
+    # Get Executed Task Count
+    
+    GET /api/v1/workflow-executions/tasks/count 
+    
+    # Update status of selected Workflow Executions
+    
+    POST /api/v1/workflow-executions/update-status 
+    
+    # Lists the workflow executions for a given workflow
+    
+    GET /api/v1/workflow-executions/workflows/{workflowId} 
+    
+    # Get Workflow Execution by workflowExecutionId
+    
+    GET /api/v1/workflowExecution/{workflowExecutionId} 
+    
+    # Get Workflow sql list
+    
+    GET /api/v1/worklow-executions/applications/{applicationId}/workflow-sqls 
 
 workflow-executions-result-controller
 ++++++++++++++

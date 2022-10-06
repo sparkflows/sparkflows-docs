@@ -571,58 +571,55 @@ project-discussion-controller
 Project Discussion Controller
 ::
 
-GET
-/api/v1/getProjectDiscussions/{projectId}
-Get All Project Discussions By ProjectId
-POST
-/api/v1/projectDiscussion
-Create Discussion For Project
-DELETE
-/api/v1/projectDiscussion/{discussionId}
-Delete discussion from Project
+    GET /api/v1/getProjectDiscussions/{projectId} Get All Project Discussions By ProjectId
+    POST /api/v1/projectDiscussion Create Discussion For Project
+    DELETE /api/v1/projectDiscussion/{discussionId} Delete discussion from Project
+
 project-overview-controller
+++++++++++++
+
 Project Overview Controller
-GET
-/api/v1/projectOverview/counts/{projectId}
-getProjectElementInfo
+::
+
+    GET /api/v1/projectOverview/counts/{projectId} getProjectElementInfo
+
 project-permission-controller
++++++++++
+
 Project Permission Controller
-GET
-/api/v1/groups/projects/{projectId}
-getGroupByprojectId
-POST
-/api/v1/project-permissions
-saveShareProjectInfo
-GET
-/api/v1/project-permissions/{projectPermissionId}
-Get project-permission details by id
-DELETE
-/api/v1/project-permissions/{projectPermissionId}
-deleteProjectPermission
-GET
-/api/v1/project-permissions/projects/{projectId}
-Get project permissions by projectId
-GET
-/api/v1/project-permissions/projects/{projectId}/groups/{groupId}
-getProjectPerByProjectIdAndGroupId
+::
+
+    GET /api/v1/groups/projects/{projectId} getGroupByprojectId
+    POST /api/v1/project-permissions saveShareProjectInfo
+    GET /api/v1/project-permissions/{projectPermissionId} Get project-permission details by id
+    DELETE /api/v1/project-permissions/{projectPermissionId} deleteProjectPermission
+    GET /api/v1/project-permissions/projects/{projectId} Get project permissions by projectId
+    GET /api/v1/project-permissions/projects/{projectId}/groups/{groupId} getProjectPerByProjectIdAndGroupId
+
 properties-controller
++++++++
+
 Properties Controller
-GET
-/api/v1/user/swagger/enabled
-getSwaggerStatus
-POST
-/api/v1/user/swagger/status/{enableSwagger}
-setSwaggerStatus
+::
+
+    GET /api/v1/user/swagger/enabled getSwaggerStatus
+    POST /api/v1/user/swagger/status/{enableSwagger} setSwaggerStatus
+
 recommendation-controller
+++++++++++
+
 Recommendation Controller
-GET
-/api/v1/recommendations/nodes
-Gets recommended node mapping list
-GET
-/api/v1/recommendations/nodes/refresh
-Refresh node mapping list
+::
+
+    GET /api/v1/recommendations/nodes Gets recommended node mapping list
+    GET /api/v1/recommendations/nodes/refresh Refresh node mapping list
+
 role-admin-controller
+++++++++++
+
 Operations pertaining to Role in Sparkflows
+::
+
 GET
 /api/v1/permissions
 Get all Permissions

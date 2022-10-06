@@ -63,18 +63,53 @@ Application Connection Controller
 
 ::
   
-    POST /api/v1/connections Create a connection  
-    DELETE /api/v1/connections/{appConnectionId} deleteApplicationConnection
-    GET /api/v1/connections/{connectionId} Get connection details by connectionId  
-    GET /api/v1/connections/{connectionId}/tables getTables
-    PUT /api/v1/connections/{id} Update a connection details
-    GET /api/v1/connections/categories/{category} getAllConnections 
-    GET /api/v1/connections/global getGlobalConnections  
-    GET /api/v1/connections/loggedInUser getConnectionsForLoggedInUser
-    GET /api/v1/connections/manage/access getConnectionsPermissions
-    GET /api/v1/connections/name/{connectionName}/isUnique isUniqueConnectionName
-    GET /api/v1/connections/projects/{projectId} Get all connections by projectId
-    POST /api/v1/connections/test testConnection
+    # Create a connection
+    
+    POST /api/v1/connections 
+    
+    # deleteApplicationConnection
+    
+    DELETE /api/v1/connections/{appConnectionId} 
+    
+    # Get connection details by connectionId
+    
+    GET /api/v1/connections/{connectionId} 
+    
+    # getTables
+    
+    GET /api/v1/connections/{connectionId}/tables 
+    
+    # Update a connection details
+    
+    PUT /api/v1/connections/{id} 
+    
+    # getAllConnections
+    
+    GET /api/v1/connections/categories/{category} 
+    
+    # getGlobalConnections
+    
+    GET /api/v1/connections/global 
+    
+    # getConnectionsForLoggedInUser
+    
+    GET /api/v1/connections/loggedInUser 
+    
+    # getConnectionsPermissions
+    
+    GET /api/v1/connections/manage/access 
+    
+    # isUniqueConnectionName
+    
+    GET /api/v1/connections/name/{connectionName}/isUnique 
+    
+    # Get all connections by projectId
+    
+    GET /api/v1/connections/projects/{projectId} 
+    
+    # testConnection
+    
+    POST /api/v1/connections/test 
     
 auth-permission-controller
 ++++++++++++++++++
@@ -82,7 +117,9 @@ Auth Permission Controller
 
 ::
 
-    GET /api/v1/user-permissions Get User permissions
+    # Get User permissions
+    
+    GET /api/v1/user-permissions 
     
 auth-user-group-controller
 +++++++++++
@@ -90,9 +127,17 @@ auth-user-group-controller
 Operations pertaining to User Group in Sparkflows
 ::
 
-    GET /api/groups/user Get logged in User group
-    GET /api/v1/groups/{id} Get User by Group Id
-    GET /api/v1/groups/user/{id} Get Group by User Id
+    # Get logged in User group
+    
+    GET /api/groups/user 
+    
+    # Get User by Group Id
+    
+    GET /api/v1/groups/{id} 
+    
+    # Get Group by User Id
+    
+    GET /api/v1/groups/user/{id} 
     
 auth-user-role-controller
 ++++++++++++++
@@ -100,7 +145,9 @@ auth-user-role-controller
 Operations pertaining to User Role in Sparkflows
 ::
 
-    GET /api/v1/roles/user/{id} Get Role by User Id
+    # Get Role by User Id
+    
+    GET /api/v1/roles/user/{id} 
     
 auto-ml-controller
 +++++++++++

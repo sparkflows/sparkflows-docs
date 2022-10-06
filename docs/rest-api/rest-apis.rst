@@ -239,60 +239,55 @@ dataset-hierarchy-controller
 ++++++++++
 
 Dataset Hierarchy Controller
-   POST
-/api/v1/hierarchy
-createDatasetHierarchy
-PUT
-/api/v1/hierarchy
-updateDatasetHierarchy
-DELETE
-/api/v1/hierarchy/{datasetHierarchyId}
-deleteDatasetHierarchy
-GET
-/api/v1/hierarchy/datasets/{datasetUuid}
-getDatasetHierarchy
+::
+
+    POST /api/v1/hierarchy createDatasetHierarchy
+    PUT /api/v1/hierarchy updateDatasetHierarchy
+    DELETE /api/v1/hierarchy/{datasetHierarchyId} deleteDatasetHierarchy
+    GET /api/v1/hierarchy/datasets/{datasetUuid} getDatasetHierarchy
+
 datasource-controller
+++++++++++++
+
 Datasource Controller
-GET
-/api/v1/datasource/metrics
-getDatasourceConnectionPoolInfo
+::
+
+    GET /api/v1/datasource/metrics getDatasourceConnectionPoolInfo
+
 diagnostics-controller
+++++++++++++++
+
 Diagnostics Controller
-GET
-/api/v1/getDiagnostics
-Get all diagnostics
+::
+ 
+    GET /api/v1/getDiagnostics Get all diagnostics
+
 event-controller
+++++++++++
+
 Event Controller
-DELETE
-/api/v1/events/{days}
-deleteEventsByDays
-GET
-/api/v1/events/project
-getProjectEvents
-GET
-/api/v1/events/search
-listAllEvents
-GET
-/api/v1/operations/events/total
-getTotalEventCountByAllUsers
-GET
-/api/vi/events/counts
-api for getting the Event record counts
+::
+
+    DELETE /api/v1/events/{days} deleteEventsByDays
+    GET /api/v1/events/project getProjectEvents
+    GET /api/v1/events/search listAllEvents
+    GET /api/v1/operations/events/total getTotalEventCountByAllUsers
+    GET /api/vi/events/counts api for getting the Event record counts
+
 fire-access-token-controller
++++++++++=
+
 Fire Access Token Controller
-GET
-/api/v1/tokens
-getFireAccessTokens
-POST
-/api/v1/tokens
-generateToken
-GET
-/api/v1/tokens/{id}
-getFireAccessTokenDetails
-DELETE
-/api/v1/tokens/{id}
-deleteFireAccessTokenById
+::
+
+    GET /api/v1/tokens getFireAccessTokens
+    POST /api/v1/tokens generateToken
+    GET /api/v1/tokens/{id} getFireAccessTokenDetails
+    DELETE /api/v1/tokens/{id} deleteFireAccessTokenById
+
 git-integration-controller
+++++++++
+
 Git Integration Controller
 POST
 /api/v1/git/branch/create

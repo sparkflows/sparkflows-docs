@@ -1,5 +1,5 @@
 
-Sparkflows Rest API
+Sparkflows REST API’S
 =========
 
 Sparkflows enable you to use Swagger REST API’S.

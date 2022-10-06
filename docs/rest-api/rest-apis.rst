@@ -176,139 +176,70 @@ data-quality-controller
 ++++++++
 
 Data Quality Controller
-DELETE
-/api/v1/dataQuality
-Delete Data Quality Records by dataQuality ids
-GET
-/api/v1/dataQuality/summary
-Api for data-quality summary
-POST
-/api/v1/summaryWorkflow/{projectId}/{datasetUuid}
-Create summary workflow
-GET
-/api/vi/data-quality/validation/{dataQualityUuid}
-api for get data validation by dataQualityUuid
-GET
-/api/vi/dataQuality
-api for get all data quality
-GET
-/api/vi/dataQuality/{dataQualityUuid}
-api for get data quality by dataQualityUuid
-GET
-/api/vi/dataQuality/counts
-api for getting the data quality record counts
-POST
-/api/vi/executeSummaryWorkflow/{projectId}/{datasetUuid}
-Api for creating and executing dataset summary workflow
+::
+
+    DELETE /api/v1/dataQuality Delete Data Quality Records by dataQuality ids
+    GET /api/v1/dataQuality/summary Api for data-quality summary
+    POST /api/v1/summaryWorkflow/{projectId}/{datasetUuid} Create summary workflow
+    GET /api/vi/data-quality/validation/{dataQualityUuid} api for get data validation by dataQualityUuid
+    GET /api/vi/dataQuality api for get all data quality
+    GET /api/vi/dataQuality/{dataQualityUuid} api for get data quality by dataQualityUuid
+    GET /api/vi/dataQuality/counts api for getting the data quality record counts
+    POST /api/vi/executeSummaryWorkflow/{projectId}/{datasetUuid} Api for creating and executing dataset summary workflow
+
 data-set-controller
+++++++++
+
 Operations pertaining to Datasets in Sparkflows
-GET
-/api/v1/datasets
-Get all datasets
-POST
-/api/v1/datasets
-Create Dataset
-DELETE
-/api/v1/datasets
-Delete Dataset
-GET
-/api/v1/datasets/{datasetId}
-Get Dataset by Id
-POST
-/api/v1/datasets/{datasetId}/{datasetName}/clone
-clone the dataset
-GET
-/api/v1/datasets/categories
-getAllDatasetCategories
-GET
-/api/v1/datasets/count
-Get Dataset Count
-GET
-/api/v1/datasets/hive/sample-data
-Get sample data from given DB and Table
-GET
-/api/v1/datasets/latest
-Get Latest Five Datasets
-GET
-/api/v1/datasets/list/export
-Get Datasets for export
-GET
-/api/v1/datasets/projects/{projectId}
-Get Datasets by project Id
-GET
-/api/v1/datasets/read-options
-Get Read Options of Datasets
-POST
-/api/v1/datasets/sample-data
-Returns sample data
-POST
-/api/v1/datasets/schema
-Returns schema of the files in the given path using the given delimiter
-GET
-/api/v1/datasets/users
-Get user owned and shared datasets
+::
+
+    GET /api/v1/datasets Get all datasets
+    POST /api/v1/datasets Create Dataset
+    DELETE /api/v1/datasets Delete Dataset
+    GET /api/v1/datasets/{datasetId} Get Dataset by Id
+    POST /api/v1/datasets/{datasetId}/{datasetName}/clone clone the dataset
+    GET /api/v1/datasets/categories getAllDatasetCategories
+    GET /api/v1/datasets/count Get Dataset Count
+    GET /api/v1/datasets/hive/sample-data Get sample data from given DB and Table
+    GET /api/v1/datasets/latest Get Latest Five Datasets
+    GET /api/v1/datasets/list/export Get Datasets for export
+    GET /api/v1/datasets/projects/{projectId} Get Datasets by project Id
+    GET /api/v1/datasets/read-options Get Read Options of Datasets
+    POST /api/v1/datasets/sample-data Returns sample data
+    POST /api/v1/datasets/schema Returns schema of the files in the given path using the given delimiter
+    GET /api/v1/datasets/users Get user owned and shared datasets
+
 databricks-controller
++++++++
+
 Databricks Controller
-GET
-/api/v1/databricks/clusters
-getClusterInfo
-GET
-/api/v1/databricks/clusters/restart
-restartDatabricksClusters
-POST
-/api/v1/databricks/command
-executeDatabricksDDLCommand
-GET
-/api/v1/databricks/database/{dbName}/table/{table}
-getTableColumnsInfo
-GET
-/api/v1/databricks/database/{dbName}/tables
-getAllDatabases
-GET
-/api/v1/databricks/database/{dbName}/tables/{tableName}/sample-data
-getSampleData
-GET
-/api/v1/databricks/database/list
-getAllDatabases
-GET
-/api/v1/databricks/jobs/runs
-getRunDetailsByRunId
-GET
-/api/v1/databricks/notebooks/jobs
-getDatabricksNotebooksJob
-POST
-/api/v1/databricks/notebooks/jobs/execute
-executeDatabricksNotebooksJob
-GET
-/api/v1/databricks/query/history
-getQueryHistoryOfLoggedInUser
-GET
-/api/v1/dbfs
-getDatabricksFileSystem
-DELETE
-/api/v1/dbfs/delete
-Delete DBFS files via It's Paths
-GET
-/api/v1/dbfs/directory
-getDatabricksFileSystemInDir
-GET
-/api/v1/dbfs/fileContent
-getDbfsFileContent
-GET
-/api/v1/dbfs/files/download
-download dbfs file
-POST
-/api/v1/dbfs/files/upload
-uploadDbfsFile
-POST
-/api/v1/dbfs/mkdir
-createDbfsDir
-POST
-/api/v1/dbfs/renameOrMove/file
-moveOrRenameFile
-dataset-hierarchy-controller
+::
+
+    GET /api/v1/databricks/clusters getClusterInfo
+    GET /api/v1/databricks/clusters/restart restartDatabricksClusters
+    POST /api/v1/databricks/command executeDatabricksDDLCommand
+    GET /api/v1/databricks/database/{dbName}/table/{table} getTableColumnsInfo
+    GET /api/v1/databricks/database/{dbName}/tables getAllDatabases
+    GET /api/v1/databricks/database/{dbName}/tables/{tableName}/sample-data getSampleData
+    GET /api/v1/databricks/database/list getAllDatabases
+    GET /api/v1/databricks/jobs/runs getRunDetailsByRunId
+    GET /api/v1/databricks/notebooks/jobs getDatabricksNotebooksJob
+    POST /api/v1/databricks/notebooks/jobs/execute executeDatabricksNotebooksJob
+    GET /api/v1/databricks/query/history getQueryHistoryOfLoggedInUser
+    GET /api/v1/dbfs getDatabricksFileSystem
+    DELETE /api/v1/dbfs/delete Delete DBFS files via It's Paths
+    GET /api/v1/dbfs/directory getDatabricksFileSystemInDir
+    GET /api/v1/dbfs/fileContent getDbfsFileContent
+    GET /api/v1/dbfs/files/download download dbfs file
+    POST /api/v1/dbfs/files/upload uploadDbfsFile
+    POST /api/v1/dbfs/mkdir createDbfsDir
+    POST /api/v1/dbfs/renameOrMove/file moveOrRenameFile
+ 
+dataset-hierarchy-controller 
+++++++++++
+
 Dataset Hierarchy Controller
-POST
+   POST
 /api/v1/hierarchy
 createDatasetHierarchy
 PUT

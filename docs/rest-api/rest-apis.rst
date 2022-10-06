@@ -1221,28 +1221,93 @@ project-controller
 Project Controller
 ::
 
-    GET /api/v1/apps/example-datasets-and-workflows/reload Reload Example datasets and workflows of Applications
-    GET /api/v1/apps/existing/sampleProject Get Available Sample Projects
-    DELETE /api/v1/apps/sampleProject Delete Existing Sample Projects
-    GET /api/v1/project/info Get id and name detail of logged in user projects
-    GET /api/v1/project/isOwner/{projectId} isProjectOwner
-    GET /api/v1/projects getAllUserProjects
-    POST /api/v1/projects createProject
-    GET /api/v1/projects/{projectId} Get project details by project id
-    PUT /api/v1/projects/{projectId} updateProject
-    DELETE /api/v1/projects/{projectId} deleteProject
-    POST /api/v1/projects/{projectId}/generateUuid Generate uuid of project
-    PUT /api/v1/projects/{projectId}/tags updateProjectTag
-    GET /api/v1/projects/connections/{connectionId} Get all projects by connectionId
-    GET /api/v1/projects/count applicationsCount
-    POST /api/v1/projects/generateUuid Generate uuid of project by project name
-    POST /api/v1/projects/import importProjects
-    POST /api/v1/projects/importFromGit importProjectsFromGit
-    POST /api/v1/projects/multiple/import import multiple project
-    GET /api/v1/projects/name/{projectName} Get project details by project name
-    GET /api/v1/projects/users/logged-in Get projects of logged in user (user's own and shared with him) projects
-    GET /api/v1/projects/uuidExists does same uuid exists in any project
-    GET /api/v1/reload/selected/sampleProject/{selectedProjectId} Reload Selected Sample Projects
+    # Reload Example datasets and workflows of Applications
+    
+    GET /api/v1/apps/example-datasets-and-workflows/reload 
+    
+    # Get Available Sample Projects
+    
+    GET /api/v1/apps/existing/sampleProject 
+    
+    # Delete Existing Sample Projects
+    
+    DELETE /api/v1/apps/sampleProject 
+    
+    # Get id and name detail of logged in user projects
+    
+    GET /api/v1/project/info 
+    
+    # isProjectOwner
+    
+    GET /api/v1/project/isOwner/{projectId} 
+    
+    # getAllUserProjects
+    
+    GET /api/v1/projects 
+    
+    # createProject
+    
+    POST /api/v1/projects 
+    
+    # Get project details by project id
+    
+    GET /api/v1/projects/{projectId} 
+    
+    # updateProject
+    
+    PUT /api/v1/projects/{projectId} 
+    
+    # deleteProject
+    
+    DELETE /api/v1/projects/{projectId} 
+    
+    # Generate uuid of project
+    
+    POST /api/v1/projects/{projectId}/generateUuid 
+    
+    # updateProjectTag
+    
+    PUT /api/v1/projects/{projectId}/tags 
+    
+    # Get all projects by connectionId
+    
+    GET /api/v1/projects/connections/{connectionId} 
+    
+    # applicationsCount
+    
+    GET /api/v1/projects/count 
+    
+    # Generate uuid of project by project name
+    
+    POST /api/v1/projects/generateUuid 
+    
+    # importProjects
+    
+    POST /api/v1/projects/import 
+    
+    # importProjectsFromGit
+    
+    POST /api/v1/projects/importFromGit 
+    
+    # import multiple project
+    
+    POST /api/v1/projects/multiple/import 
+    
+    # Get project details by project name
+    
+    GET /api/v1/projects/name/{projectName} 
+    
+    # Get projects of logged in user (user's own and shared with him) projects
+    
+    GET /api/v1/projects/users/logged-in 
+    
+    # does same uuid exists in any project
+    
+    GET /api/v1/projects/uuidExists 
+        
+    # Reload Selected Sample Projects
+    
+    GET /api/v1/reload/selected/sampleProject/{selectedProjectId} 
 
 project-discussion-controller
 ++++++++

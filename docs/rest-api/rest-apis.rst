@@ -59,6 +59,7 @@ auth-permission-controller
 Auth Permission Controller
 
 ::
+
     GET /api/v1/user-permissions Get User permissions
     
 auth-user-group-controller

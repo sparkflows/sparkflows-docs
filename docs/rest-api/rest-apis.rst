@@ -289,121 +289,69 @@ git-integration-controller
 ++++++++
 
 Git Integration Controller
-POST
-/api/v1/git/branch/create
-createBranch
-GET
-/api/v1/git/branches
-getBranchList
-GET
-/api/v1/git/clone
-cloneFromGit
-GET
-/api/v1/git/credentials
-getCredentials
-POST
-/api/v1/git/credentials
-Update Git Credentials
-POST
-/api/v1/git/link
-linkProject
-GET
-/api/v1/git/linkedProjects
-linkedProjects
-GET
-/api/v1/git/projectList
-getProjectListInGit
-POST
-/api/v1/git/projects/unlink
-unLinkProjects
-POST
-/api/v1/git/push/project/{projectId}
-pushProjectToGit
-POST
-/api/v1/git/push/workflow
-pushWorkflowToGit
-POST
-/api/v1/git/push/workflows
-pushWorkflowsToGit
-POST
-/api/v1/git/push/workflowVersion
-pushWorkflowVersionToGit
-GET
-/api/v1/git/workflow/headCommitAndLatest/{workflowId}
-headCommitAndlatestchangesOfWorkflowJson
-GET
-/api/v1/git/workflow/status/{projectId}
-getUncheckedWorkflowList
+::
+
+    POST /api/v1/git/branch/create createBranch
+    GET /api/v1/git/branches getBranchList
+    GET /api/v1/git/clone cloneFromGit
+    GET /api/v1/git/credentials getCredentials
+    POST /api/v1/git/credentials Update Git Credentials
+    POST /api/v1/git/link linkProject
+    GET /api/v1/git/linkedProjects linkedProjects
+    GET /api/v1/git/projectList getProjectListInGit
+    POST /api/v1/git/projects/unlink unLinkProjects
+    POST /api/v1/git/push/project/{projectId} pushProjectToGit
+    POST /api/v1/git/push/workflow pushWorkflowToGit
+    POST /api/v1/git/push/workflows pushWorkflowsToGit
+    POST /api/v1/git/push/workflowVersion pushWorkflowVersionToGit
+    GET /api/v1/git/workflow/headCommitAndLatest/{workflowId} headCommitAndlatestchangesOfWorkflowJson
+    GET /api/v1/git/workflow/status/{projectId} getUncheckedWorkflowList
+
 glue-controller
++++++++++++
+
 Glue Controller
-GET
-/api/v1/glue/connections/{connectionId}/jobs/{jobName}
-getJobDetails
-GET
-/api/v1/glue/jobs/run/{jobName}
-getJobRun
+::
+
+    GET /api/v1/glue/connections/{connectionId}/jobs/{jobName} getJobDetails
+    GET /api/v1/glue/jobs/run/{jobName} getJobRun
+    
 group-admin-controller
+++++++++
+
 Operations pertaining to Group in Sparkflows
-GET
-/api/groups/{groupId}
-Get Group by Id
-GET
-/api/v1/groups
-Get all Groups
-POST
-/api/v1/groups
-Create Group
-DELETE
-/api/v1/groups/{groupId}
-Delete Group
+:
+
+    GET /api/groups/{groupId} Get Group by Id
+    GET /api/v1/groups Get all Groups
+    POST /api/v1/groups Create Group
+    DELETE /api/v1/groups/{groupId} Delete Group
+
 hdfs-controller
++++++++
+
 Operations pertaining to HDFS in Sparkflows
-GET
-/api/v1/hdfs
-Returns list of all the files on hdfs in the users home directory
-GET
-/api/v1/hdfs/configurations
-Get HDFS Configurations
-POST
-/api/v1/hdfs/dir/create
-Create HDFS directory
-GET
-/api/v1/hdfs/dir/files
-Returns list of files in HDFS in the specified directory for download from folder
-GET
-/api/v1/hdfs/dir/open
-Returns list of files in HDFS in the specified directory
-GET
-/api/v1/hdfs/files
-Returns list of all the files on hdfs in the users home directory in sorted order
-DELETE
-/api/v1/hdfs/files/delete
-Delete HDFS files via It's Paths
-GET
-/api/v1/hdfs/files/download
-download hdfs file
-GET
-/api/v1/hdfs/files/move
-Move HDFS File
-POST
-/api/v1/hdfs/files/moves
-Move HDFS File
-GET
-/api/v1/hdfs/files/open
-Accepts HDFS file path and returns first X bytes of content
-GET
-/api/v1/hdfs/files/permissions/change
-Change file permissions of HDFS File
-GET
-/api/v1/hdfs/files/rename
-Rename HDFS File
-POST
-/api/v1/hdfs/files/upload
-Uploads file
-GET
-/api/v1/hdfs/user/home-dir
-Returns path of user's home directory
+::
+
+    GET /api/v1/hdfs Returns list of all the files on hdfs in the users home directory
+    GET /api/v1/hdfs/configurations Get HDFS Configurations
+    POST /api/v1/hdfs/dir/create Create HDFS directory
+    GET /api/v1/hdfs/dir/files Returns list of files in HDFS in the specified directory for download from folder
+    GET /api/v1/hdfs/dir/open Returns list of files in HDFS in the specified directory
+    GET /api/v1/hdfs/files Returns list of all the files on hdfs in the users home directory in sorted order
+    DELETE /api/v1/hdfs/files/delete Delete HDFS files via It's Paths
+    GET /api/v1/hdfs/files/download download hdfs file
+    GET /api/v1/hdfs/files/move Move HDFS File
+    POST /api/v1/hdfs/files/moves Move HDFS File
+    GET /api/v1/hdfs/files/open Accepts HDFS file path and returns first X bytes of content
+    GET /api/v1/hdfs/files/permissions/change Change file permissions of HDFS File
+    GET /api/v1/hdfs/files/rename Rename HDFS File
+    POST /api/v1/hdfs/files/upload Uploads file
+    GET /api/v1/hdfs/user/home-dir Returns path of user's home directory
+
 help-controller
+++++++
+
 Help Controller
 GET
 /api/v1/helps/{contentType}

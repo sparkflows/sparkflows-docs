@@ -2,7 +2,7 @@
 Sparkflows REST API’S
 =========
 
-Sparkflows enable you to use Swagger for accessing REST API’S.
+Sparkflows enable you to access REST API’S.
 
 Documentation
 +++++

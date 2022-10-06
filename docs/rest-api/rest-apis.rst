@@ -27,8 +27,8 @@ About Controller
 
 ::
     
-    getBuildReleaseInfo
-    ++++++++
+    ## getBuildReleaseInfo
+    
     
     GET /api/v1/app/release-info 
     

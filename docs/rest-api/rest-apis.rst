@@ -407,21 +407,65 @@ data-set-controller
 Operations pertaining to Datasets in Sparkflows
 ::
 
-    GET /api/v1/datasets Get all datasets
-    POST /api/v1/datasets Create Dataset
-    DELETE /api/v1/datasets Delete Dataset
-    GET /api/v1/datasets/{datasetId} Get Dataset by Id
-    POST /api/v1/datasets/{datasetId}/{datasetName}/clone clone the dataset
-    GET /api/v1/datasets/categories getAllDatasetCategories
-    GET /api/v1/datasets/count Get Dataset Count
-    GET /api/v1/datasets/hive/sample-data Get sample data from given DB and Table
-    GET /api/v1/datasets/latest Get Latest Five Datasets
-    GET /api/v1/datasets/list/export Get Datasets for export
-    GET /api/v1/datasets/projects/{projectId} Get Datasets by project Id
-    GET /api/v1/datasets/read-options Get Read Options of Datasets
-    POST /api/v1/datasets/sample-data Returns sample data
-    POST /api/v1/datasets/schema Returns schema of the files in the given path using the given delimiter
-    GET /api/v1/datasets/users Get user owned and shared datasets
+    # Get all datasets
+    
+    GET /api/v1/datasets 
+    
+    # Create Dataset
+    
+    POST /api/v1/datasets 
+    
+    # Delete Dataset
+    
+    DELETE /api/v1/datasets 
+    
+    # Get Dataset by Id
+    
+    GET /api/v1/datasets/{datasetId} 
+    
+    # clone the dataset
+    
+    POST /api/v1/datasets/{datasetId}/{datasetName}/clone 
+    
+    # getAllDatasetCategories
+    
+    GET /api/v1/datasets/categories 
+    
+    # Get Dataset Count
+    
+    GET /api/v1/datasets/count 
+    
+    # Get sample data from given DB and Table
+    
+    GET /api/v1/datasets/hive/sample-data 
+    
+    # Get Latest Five Datasets
+    
+    GET /api/v1/datasets/latest 
+    
+    # Get Latest Five Datasets
+    
+    GET /api/v1/datasets/list/export 
+    
+    # Get Datasets by project Id
+    
+    GET /api/v1/datasets/projects/{projectId} 
+    
+    # Get Read Options of Datasets
+    
+    GET /api/v1/datasets/read-options 
+    
+    # Returns sample data
+    
+    POST /api/v1/datasets/sample-data 
+    
+    # schema of the files in the given path using the given delimiter
+    
+    POST /api/v1/datasets/schema Returns 
+    
+    # Get user owned and shared datasets
+    
+    GET /api/v1/datasets/users 
 
 databricks-controller
 +++++++

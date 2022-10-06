@@ -645,21 +645,65 @@ git-integration-controller
 Git Integration Controller
 ::
 
-    POST /api/v1/git/branch/create createBranch
-    GET /api/v1/git/branches getBranchList
-    GET /api/v1/git/clone cloneFromGit
-    GET /api/v1/git/credentials getCredentials
-    POST /api/v1/git/credentials Update Git Credentials
-    POST /api/v1/git/link linkProject
-    GET /api/v1/git/linkedProjects linkedProjects
-    GET /api/v1/git/projectList getProjectListInGit
-    POST /api/v1/git/projects/unlink unLinkProjects
-    POST /api/v1/git/push/project/{projectId} pushProjectToGit
-    POST /api/v1/git/push/workflow pushWorkflowToGit
-    POST /api/v1/git/push/workflows pushWorkflowsToGit
-    POST /api/v1/git/push/workflowVersion pushWorkflowVersionToGit
-    GET /api/v1/git/workflow/headCommitAndLatest/{workflowId} headCommitAndlatestchangesOfWorkflowJson
-    GET /api/v1/git/workflow/status/{projectId} getUncheckedWorkflowList
+    # createBranch
+    
+    POST /api/v1/git/branch/create 
+    
+    # getBranchList
+    
+    GET /api/v1/git/branches 
+    
+    # cloneFromGit
+    
+    GET /api/v1/git/clone 
+    
+    # getCredentials
+    
+    GET /api/v1/git/credentials 
+    
+    # Update Git Credentials
+    
+    POST /api/v1/git/credentials 
+    
+    # linkProject
+    
+    POST /api/v1/git/link 
+    
+    # linkedProjects
+    
+    GET /api/v1/git/linkedProjects 
+    
+    # getProjectListInGit
+    
+    GET /api/v1/git/projectList 
+    
+    # unLinkProjects
+    
+    POST /api/v1/git/projects/unlink 
+    
+    # pushProjectToGit
+    
+    POST /api/v1/git/push/project/{projectId} 
+    
+    # pushWorkflowToGit
+    
+    POST /api/v1/git/push/workflow 
+    
+    # pushWorkflowsToGit
+    
+    POST /api/v1/git/push/workflows 
+    
+    # pushWorkflowVersionToGit
+    
+    POST /api/v1/git/push/workflowVersion 
+    
+    # headCommitAndlatestchangesOfWorkflowJson
+    
+    GET /api/v1/git/workflow/headCommitAndLatest/{workflowId} 
+    
+    # getUncheckedWorkflowList
+    
+    GET /api/v1/git/workflow/status/{projectId} 
 
 glue-controller
 +++++++++++
@@ -667,8 +711,13 @@ glue-controller
 Glue Controller
 ::
 
-    GET /api/v1/glue/connections/{connectionId}/jobs/{jobName} getJobDetails
-    GET /api/v1/glue/jobs/run/{jobName} getJobRun
+    # getJobDetails
+    
+    GET /api/v1/glue/connections/{connectionId}/jobs/{jobName} 
+    
+    # getJobRun
+    
+    GET /api/v1/glue/jobs/run/{jobName} 
     
 group-admin-controller
 ++++++++
@@ -676,10 +725,21 @@ group-admin-controller
 Operations pertaining to Group in Sparkflows
 ::
 
-    GET /api/groups/{groupId} Get Group by Id
-    GET /api/v1/groups Get all Groups
-    POST /api/v1/groups Create Group
-    DELETE /api/v1/groups/{groupId} Delete Group
+    # Get Group by Id
+    
+    GET /api/groups/{groupId} 
+    
+    # Get all Groups
+    
+    GET /api/v1/groups 
+    
+    # Create Group
+    
+    POST /api/v1/groups 
+    
+    # Delete Group
+    
+    DELETE /api/v1/groups/{groupId} 
 
 hdfs-controller
 +++++++

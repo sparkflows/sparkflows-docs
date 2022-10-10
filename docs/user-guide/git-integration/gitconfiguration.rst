@@ -41,7 +41,7 @@ Add git credentials with UserName/ Password
 - Provide the git ``username/ password``.
 - Click ``SAVE``.
 
-.. figure:: ../../_assets/git/git-cred-pwd.png
+.. figure:: ../../_assets/git/git_password.PNG
    :alt: GitCredentials
    :width: 60%
 

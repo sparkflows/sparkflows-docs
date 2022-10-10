@@ -29,7 +29,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 *On Success*
 
 
-.. figure:: ../../_assets/git/git_commitmsg.PNG
+.. figure:: ../../_assets/git/git_pipeline_savemsg.PNG
    :alt: PushWf
    :width: 60% 
 

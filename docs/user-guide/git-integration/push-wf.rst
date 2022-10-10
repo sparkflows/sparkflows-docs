@@ -80,4 +80,4 @@ Go to the History.
 
 On success, you will get success message.
 
-Workflow json file get pushed in path : rootFolderPath/Projects/Workflows/test.json
+Workflow json file get pushed in path : rootFolderPath/Projects/pipelines/test.json

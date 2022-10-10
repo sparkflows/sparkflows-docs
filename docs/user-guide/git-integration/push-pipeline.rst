@@ -34,3 +34,5 @@ When you have added new workflow or made changes to existing workflows, you can 
    :width: 60% 
 
 On success, you will get success message.
+
+Workflow json file get pushed in path : rootFolderPath/Projects/pipelines/test.json

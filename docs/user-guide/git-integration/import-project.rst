@@ -30,7 +30,7 @@ Import project fom configured Git repo
 Selected Project will get created.
 
 
-.. figure:: ../../_assets/git/global-repo.png
+.. figure:: ../../_assets/git/git_import.PNG
    :alt: GlobalRepo
    :width: 60%
 

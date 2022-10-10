@@ -1,7 +1,7 @@
-Configuration REST API's
-===========
+Enable the Access Token Authentication
+====================================
 
-Once the Access Token acquired from Fire Insights Application, you can update below Configuration in Fire Insights Application to access REST API's.
+Update below configuration to authenticate the access token.
 
 
 Below are steps :
@@ -21,3 +21,10 @@ Once the above parameter is being updated in ``application.properties``, Restart
 Now you will be able to access Fire Insights REST API's.
 
 
+Note: If above properties are not updated in application.properties, below error message will be recevied.
+
+
+{
+    "error": "invalid_token",
+    "error_description": "Invalid access token"
+}

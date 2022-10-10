@@ -16,7 +16,7 @@ Do this by adding the line below to application.properties
 
 2. Restart the Fire Server
 
-Once the above parameter is being updated in ``application.properties``, Re start the Fire Server.
+Once the above parameter is being updated in ``application.properties``, Restart the Fire Server.
 
 Now you will be able to access Fire Insights REST API's.
 

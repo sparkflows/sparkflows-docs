@@ -33,6 +33,13 @@ Link Projects or workflows in the Git repository with Fire Insights.
     :doc:`/user-guide/git-integration/git-status`
 
     Shows the workflows that has been added or changed
+    
+    ---
+
+    :doc:`/user-guide/git-integration/git-status`
+
+    Commit and push the pipeline to the remote Git Repository
+    
 
 
 .. toctree::
@@ -43,3 +50,4 @@ Link Projects or workflows in the Git repository with Fire Insights.
    link-project.rst
    push-wf.rst
    git-status.rst
+   push-pipeline.rst

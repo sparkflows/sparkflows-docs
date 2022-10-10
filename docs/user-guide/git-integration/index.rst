@@ -36,7 +36,7 @@ Link Projects or workflows in the Git repository with Fire Insights.
     
     ---
 
-    :doc:`/user-guide/git-integration/git-status`
+    :doc:`/user-guide/git-integration/push-pipeline`
 
     Commit and push the pipeline to the remote Git Repository
     

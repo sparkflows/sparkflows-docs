@@ -8,7 +8,7 @@ Link Projects or workflows in the Git repository with Fire Insights.
 
     :doc:`/user-guide/git-integration/gitconfiguration`
 
-    Sync your Projects/ Workflows with Github repository using the sparkflows configuration with Git.
+    Sync your Projects/ Workflows and Pipelines with Github repository using the sparkflows configuration with Git.
 
     ---
     

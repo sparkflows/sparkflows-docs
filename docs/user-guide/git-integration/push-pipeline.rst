@@ -8,11 +8,11 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 - Go to create/ Edit Pipeline page.
 - Create or edit your Pipeline.
-- Click on the ``Save and Push to git`` button.
+- Click on the ``Save and push to git`` button.
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button
 
-*Save and Push to git*
+*Save and push to git*
 
 .. figure:: ../../_assets/git/git_pipeline.PNG
    :alt: PushWf

@@ -13,3 +13,11 @@ Do this by adding the line below to application.properties
 
     fire.cors.enable=true
     fire.security.csrf.enable=false
+
+2. Restart the Fire Server
+
+Once the above parameter is being updated in ``application.properties``, Re start the Fire Server.
+
+Now you will be able to access Fire Insights REST API's.
+
+

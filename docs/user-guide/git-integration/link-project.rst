@@ -26,7 +26,7 @@ Create New Branch
 - Add NEW BRANCH NAME, ORIGIN and root folder path(if not added it will get link with path added in config).
 - When you click on link button in this option it will first create branch with specified NEW BRANCH NAME. New branch is updated with specified ORIGIN.
 
-.. figure:: ../../_assets/git/project-link-new-branch.PNG
+.. figure:: ../../_assets/git/git_new_branch.PNG
    :alt: link-with-git
    :width: 60%
 

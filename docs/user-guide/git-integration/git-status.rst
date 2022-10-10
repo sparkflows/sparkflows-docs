@@ -3,7 +3,7 @@ Git Status
 
 Git status button shows in workflow list page under Project. 
 
-.. figure:: ../../_assets/git/git-status-btn.png
+.. figure:: ../../_assets/git/git_wf_status.PNG
    :alt: git-status
    :width: 60%
 

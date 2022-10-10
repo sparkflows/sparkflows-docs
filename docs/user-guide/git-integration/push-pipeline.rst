@@ -13,3 +13,24 @@ When you have added new workflow or made changes to existing workflows, you can 
 - Click on the ``PUSH`` button
 
 *SAVE AND PUSH TO GIT*
+
+.. figure:: ../../_assets/git/git_pipeline.PNG
+   :alt: PushWf
+   :width: 60%
+  
+*Commit Messsage*
+ 
+ 
+.. figure:: ../../_assets/git/git_commitmsg.PNG
+   :alt: PushWf
+   :width: 60%
+   
+
+*On Success*
+
+
+.. figure:: ../../_assets/git/git_commitmsg.PNG
+   :alt: PushWf
+   :width: 60% 
+
+On success, you will get success message.

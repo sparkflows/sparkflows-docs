@@ -15,7 +15,7 @@ Existing Branch
 - Select branch from list and provide root folder path(if not added it will get link with path added in config).
 - link project with git.
 
-.. figure:: ../../_assets/git/project-link-existing.PNG
+.. figure:: ../../_assets/git/git_existing_branch.PNG
    :alt: link-with-git
    :width: 60%
 

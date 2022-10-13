@@ -2,3 +2,8 @@ October 2022
 =============
 
 These features and Sparkflows platform improvements were released in October 2022.
+
+Pipeline Enhancements
+-------
+
+Sparkflows Comes up with pipeline permission upgrades, which enable Administrator to provide access depending on their requirement.

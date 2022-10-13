@@ -8,6 +8,11 @@ Workflow Wizard
 
 - Workflow Wizard enable user to avail options for next node on the basis of their requirements of the usecase.
 
+JOB QUEUE
+------
+
+- Job Queue enable user to execute workflow.
+
 UI
 ---
 

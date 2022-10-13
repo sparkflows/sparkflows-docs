@@ -15,3 +15,35 @@ Sparkflows Comes up with pipeline permission upgrades, which enable Administrato
 .. figure:: ..//_assets/releases/october-2022/pipeline_share_project.PNG
    :alt: connection
    :width: 70%
+
+
+New Node
+------
+
+Sparkflows Comes up with New Node.
+
+- Read From SnowFlake in Pyspark 
+
+.. figure:: ..//_assets/releases/october-2022/snowflake_read.PNG
+   :alt: connection
+   :width: 70%
+
+- Execute Query In SnowFlake in Pyspark 
+
+.. figure:: ..//_assets/releases/october-2022/snowflake_query.PNG
+   :alt: connection
+   :width: 70%
+
+- Write To SnowFlake in Pyspark
+
+.. figure:: ..//_assets/releases/october-2022/snowflake_write.PNG
+   :alt: connection
+   :width: 70%
+
+
+- Save Excel
+
+
+.. figure:: ..//_assets/releases/october-2022/excel_save.PNG
+   :alt: connection
+   :width: 70%

@@ -50,3 +50,13 @@ Sparkflows Comes up with New Node.
 .. figure:: ..//_assets/releases/october-2022/excel_save.PNG
    :alt: connection
    :width: 70%
+
+Git Integration 
+--------
+
+Sparkflows enable you push pipeline to the git repository configured.
+
+.. figure:: ..//_assets/releases/october-2022/pipeline_git.PNG
+   :alt: connection
+   :width: 70%
+

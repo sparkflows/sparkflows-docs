@@ -8,6 +8,9 @@ Pipeline Enhancements
 
 Sparkflows Comes up with pipeline permission upgrades, which enable Administrator to provide access depending on their requirement.
 
+
+Administrator can Provide access to user from role on the basis of requirement.
+
 .. figure:: ..//_assets/releases/october-2022/pipeline_role.PNG
    :alt: connection
    :width: 70%

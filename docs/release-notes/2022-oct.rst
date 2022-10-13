@@ -7,3 +7,11 @@ Pipeline Enhancements
 -------
 
 Sparkflows Comes up with pipeline permission upgrades, which enable Administrator to provide access depending on their requirement.
+
+.. figure:: ..//_assets/releases/october-2022/pipeline_role.PNG
+   :alt: connection
+   :width: 70%
+
+.. figure:: ..//_assets/releases/october-2022/pipeline_share_project.PNG
+   :alt: connection
+   :width: 70%

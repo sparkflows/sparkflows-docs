@@ -51,7 +51,7 @@ Sparkflows Comes up with New Node.
    :alt: connection
    :width: 70%
 
-Git Integration 
+Git Integration Enhancements
 --------
 
 Sparkflows enable you push pipeline to the git repository configured.

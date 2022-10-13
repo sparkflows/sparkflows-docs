@@ -59,6 +59,20 @@ Sparkflows enable you push pipeline to the git repository configured.
 .. figure:: ..//_assets/releases/october-2022/pipeline_git.PNG
    :alt: connection
    :width: 70%
+   
+Export and Import Pipeline
+------
+
+Sparkflows enable you to Export and Import Pipeline from Project List page.
+
+.. figure:: ..//_assets/releases/october-2022/pipeline_export.PNG
+   :alt: connection
+   :width: 70%
+   
+.. figure:: ..//_assets/releases/october-2022/pipeline_export_msg.PNG
+   :alt: connection
+   :width: 70%   
+
 
 UI Enhancements
 ----------

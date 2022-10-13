@@ -60,3 +60,11 @@ Sparkflows enable you push pipeline to the git repository configured.
    :alt: connection
    :width: 70%
 
+UI Enhancements
+----------
+
+- UI Improvement in Project List, Workflow List page.
+
+.. figure:: ..//_assets/releases/october-2022/wf_list.PNG
+   :alt: connection
+   :width: 70%

@@ -36,7 +36,8 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 On success, you will get success message.
 
-You can also save the version of the workflow and push it later.
+You can also save the version of the workflow and push it later
+---------------
 
 - Click on the ``SAVE NEW VERSION`` button.
 - Add comment.

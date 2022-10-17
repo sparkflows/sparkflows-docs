@@ -1,7 +1,7 @@
 Import Project
 =================
 
-You can Import project from git using configured Git repo as well as others repos.
+Sparkflows allows you to either import a project from git using a configured Git repo or another repos. The document below describes the ways you can Import projects using different repositories. 
 
 - Go to project-list page.
 - Click on the ``New Project`` button.
@@ -21,10 +21,12 @@ Import project fom configured Git repo
 
 - Select ``IMPORT FROM GLOBAL REPO``.
 - Select the ``Branch``.
-- Provide root folder path(if not added it will get link with path added in config) and click button next to it to load projects.
-- You will get the project list of the selected branch and provided root folder path.
-- Select the ``Project``.
+- Provide root folder path and click the button next to it to load the projects within the path
+
+   If there is no root folder path provided it will get linked with the path added in the git configurations
+   
 - Provide description of the project.
+- Select the ``Project``.
 - Click on the ``CREATE``.
 
 Selected Project will get created.
@@ -39,16 +41,19 @@ Import project fom other Git repo
 - Select ``IMPORT FROM OTHER REPO``.
 - Provide the url of other Git repo, all branches of provided git url get loaded below.
 - Select the ``Branch``.
-- Provide root folder path(if not added it will get link with path added in config) and click button next to it to load projects.
+- Provide root folder path and click button next to it to load the projects within the path.
+
+   If there is no root folder path provided it will get linked with the path added in the git configurations
+
 - You will get the project list of the selected branch and provided root folder path.
 - Select the ``Project``.
 - Provide description of the project.
 - Click on the ``CREATE``.
 
-Selected Project will get created from other repo.
+The selected project will get created from the other repo.
 
 .. figure:: ../../_assets/git/other-repo.png
    :alt: OtherRepo
    :width: 60%
 
-You can see the created Project in project list.
+You can see the created Project in the project list.

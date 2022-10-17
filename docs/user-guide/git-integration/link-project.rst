@@ -13,7 +13,9 @@ Existing Branch
 - Click on ``EXISTING BRANCH`` option.
 - Select branch from list 
 - Provide root folder path
+
    If no link is provided it will get linked with the path added in the git configurations
+   
 - Click link.
 
 .. figure:: ../../_assets/git/git_existing_branch.PNG
@@ -27,7 +29,9 @@ Create New Branch
 - Add ORIGIN
 - Add the NEW BRANCH NAME
 - Add the root folder path
+
    If no link is provided it will get linked with the path added in the git configurations
+   
 - When you click on link button in this option it will first create branch with specified NEW BRANCH NAME. New branch is updated with specified ORIGIN.
 
 .. figure:: ../../_assets/git/git_new_branch.PNG

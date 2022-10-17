@@ -1,7 +1,7 @@
 Link project with Git
 ===================
 
-Project which are not been linked with git can click on Action button `Link With Git`. It is compulsory to link project with git if you want to push workflows under this project to configured git. Modal opens up where we have two options either link with existing branch present in or can create new branch in configured git repo url.
+Sparkflows allows for created projects to be linked with git via the ``Link With Git`` button. You must link projects with git in order to push workflows to a configured git. When this button is clicked there are two options: To link a project to an existing branch and to create a new branch. This document goes over how to link projects both ways. 
 
 .. figure:: ../../_assets/git/link-project.png
    :alt: link-with-git
@@ -11,9 +11,10 @@ Existing Branch
 ----------------------
 
 - Click on ``EXISTING BRANCH`` option.
-- Branch list present in configured repo comes up.
-- Select branch from list and provide root folder path(if not added it will get link with path added in config).
-- link project with git.
+- Select branch from list 
+- Provide root folder path
+   If no link is provided it will get linked with the path added in the git configurations
+- Click link.
 
 .. figure:: ../../_assets/git/git_existing_branch.PNG
    :alt: link-with-git
@@ -23,7 +24,10 @@ Create New Branch
 ----------------------
 
 - Click on ``CREATE NEW BRANCH`` option.
-- Add NEW BRANCH NAME, ORIGIN and root folder path(if not added it will get link with path added in config).
+- Add ORIGIN
+- Add the NEW BRANCH NAME
+- Add the root folder path
+   If no link is provided it will get linked with the path added in the git configurations
 - When you click on link button in this option it will first create branch with specified NEW BRANCH NAME. New branch is updated with specified ORIGIN.
 
 .. figure:: ../../_assets/git/git_new_branch.PNG

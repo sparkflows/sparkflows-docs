@@ -1,10 +1,13 @@
 Git Configuration
 ===================
 
+There are two ways to configure credentials via Github: via token and via Username/Password. The document below describes the process to Enable Git Repository and to configure a git repo to a particular Sparkflows Instance.
+
 Enable Git Repository
 ----------------------
 
-- Go to Administration/ Configuration.
+- Click Administration.
+- Select Configurations. 
 - Click on ``GIT`` tab
 - Make ``git.enable`` true.
 - Provide the git repository link in ``git.url`` value field.
@@ -20,8 +23,8 @@ Enable Git Repository
 Add git credentials with Token
 --------------------------------------------
 
-- On the right corner, click on the ``settings`` icon.
-- Click on the ``Git Configuration``.
+- On the right corner, click on the nine squares.
+- Select ``Git Configuration``.
 - Git preferences dialog will appear.
 - Select ``Token``.
 - Provide the ``git Token``.
@@ -31,14 +34,14 @@ Add git credentials with Token
    :alt: GitCredentials
    :width: 60%
 
-Add git credentials with UserName/ Password
+Add git credentials with UserName/Password
 --------------------------------------------
 
-- On the right corner, click on the ``settings`` icon.
+- On the right corner, click on the nine squares.
 - Click on the ``Git Configuration``.
 - Git preferences dialog will appear.
 - Select ``Password``
-- Provide the git ``username/ password``.
+- Provide the git ``username/password``.
 - Click ``SAVE``.
 
 .. figure:: ../../_assets/git/git_password.PNG

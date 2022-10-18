@@ -1,7 +1,11 @@
 Push Workflow
 ================
 
-Commit and push workflow to the remote Git repository
+Sparkflow allows for changes to workflows to be pushed onto a configured git repo. Progress made on workflows can also be saved to be pushed onto Git at
+a later time. All previously saved workflows can be accessed via revision history. This document provides information on how to push workflows onto remote
+git repos, save workflows to be pushed at a later day, and view the previous saved versions of a workflow. 
+
+Commit and Push Workflows to Remote Git Repos
 -------------------------------------------------------
 
 When you have added new workflow or made changes to existing workflows, you can directly push the changes to Git.
@@ -36,7 +40,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 On success, you will get success message.
 
-You can also save the version of the workflow and push it later
+Saving Workflows Outside of Git
 ---------------
 
 - Click on the ``SAVE NEW VERSION`` button.
@@ -47,9 +51,10 @@ You can also save the version of the workflow and push it later
    :alt: PushWf
    :width: 60% 
 
-Go to the History.
-
-- You will get the list of workflow versions.
+Viewing All Workflow Saves and Pushing a Particular Save to Git
+---------------
+- Click the ``three vertical dots`` at the right corner
+- Select ``Revision History`` to get a list of the previous saves
 - Click on the ``Git-icon`` to push the selected version of workflow.
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``PUSH`` button

@@ -45,5 +45,5 @@ Now open any project and select workflows tab, Click on ''Create'' button will s
    :align: center
 
 
-.. note:: Make sure to install all SPARKFLOWS python dependency.
+.. note:: Make sure to install all Sparkflows python dependency.
 

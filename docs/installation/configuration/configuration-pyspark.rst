@@ -23,7 +23,7 @@ Install the required packages
 
     fire-x.y.x/dist/fire/requirements.txt    
     
-Once the above steps are completed, Login to Sparkflows webserver url and go inside ''ADMINISTRATIONS -->> Configurations'' and update below parameters:
+Once the above dependency got installed successfully, Login to Sparkflows webserver url and go inside ''ADMINISTRATIONS -->> Configurations'' and update below parameters:
 
 ::
 

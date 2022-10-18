@@ -31,18 +31,16 @@ Once the above dependency got installed successfully, Login to Sparkflows webser
     
 
 .. figure:: ../../_assets/installation/pyspark_configurations.PNG
-   :scale: 70%
    :alt: pyspark
-   :align: center
+   :width: 60%
     
 Once the above configuration is updated and save the changes, you need to refresh the Sparkflows webserver url to verify the latest configuration changes.
 
 Now open any project and select workflows tab, Click on ''Create'' button will show you option to create workflow using PySpark engine.
 
 .. figure:: ../../_assets/installation/pyspark_wf.PNG
-   :scale: 70%
    :alt: pyspark
-   :align: center
+   :width: 60%
 
 
 .. note:: Make sure to install all Sparkflows python dependency.

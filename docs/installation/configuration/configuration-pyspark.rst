@@ -10,7 +10,7 @@ Below are the Prerequisites Before Configuring PySpark engine in Sparkflows:
     Python 3.7+ 
     
     
-Install the required packages
+Install the required python dependencies.
 
 ::
 

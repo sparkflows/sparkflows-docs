@@ -1,4 +1,4 @@
-PySpark Configurations
+PySpark Configuration
 ========
 
 Sparkflows can be configured to use the PySpark engine and create workflow using it.

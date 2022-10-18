@@ -7,6 +7,7 @@ Configuration
    database/index
    connecting-spark-cluster.rst
    customizing/index
+   configuration-pyspark.rst
    configuring-https-fire-server.rst
    https-self-signed-certificate.rst
    running-different-port.rst

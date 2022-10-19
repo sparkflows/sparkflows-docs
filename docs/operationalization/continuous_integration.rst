@@ -1,4 +1,4 @@
-Sparkflows Continuous Integration Steps
+Sparkflows Continuous Integration and Deployment Steps
 ==========
 
 - Job Configuration
@@ -11,7 +11,7 @@ Sparkflows Continuous Integration Steps
 
 4. Schedule the Jenkins Job to run at a specific time
 
-- Job Trigger Configuration
+- Job Trigger and Execution
 
 1. Push a Workflow from a Sparkflows Editor to the Git branch
 

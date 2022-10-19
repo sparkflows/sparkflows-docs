@@ -34,17 +34,22 @@ Below are the three parameters defined and those values will be used in interact
    :width: 60%
 
 
-``num_bedrooms`` used in Row Filter node with ``bedrooms == ${num_bedrooms}``
 
+``num_bedrooms`` used in Row Filter node with ``bedrooms == ${num_bedrooms}``
 
 .. figure:: ../../_assets/user-guide/runtime-parameters/rowfilter-with-parameter.png
    :alt: in filter condition of row filter node
    :width: 60%
 
 
- During the Execution time in execute page user get the option to change parameters value for execution time. By default parameters values are copied from edit page.
+
+
+Parametrs at Execution time
+----------------------------
+
+During the Execution time in execute page user get the option to change parameters value for execution time. By default parameters values are copied from edit page.
  
- In below case ``num_bedrooms`` value changed to ``4`` for runtime execution.
+In below case ``num_bedrooms`` value changed to ``4`` for runtime execution.
  
  .. figure:: ../../_assets/user-guide/runtime-parameters/execute-page-parameter.png
    :alt: parameters in execute page

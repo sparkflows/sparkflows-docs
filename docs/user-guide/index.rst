@@ -69,8 +69,6 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
     
     :doc:`/user-guide/user-guide/export-import/index`
 
-    Export/Import is useful when you need to move/copy your Project from one environment to another.
-
     ---
     
     :doc:`/user-guide/generate-pyspark-code/index`
@@ -82,6 +80,10 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
     ---
     
     :doc:`/user-guide/pipeline/index`
+    
+    ---
+    
+     :doc:`/user-guide/runtime-parameters/index`
 
 .. toctree::
    :hidden:
@@ -104,3 +106,4 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
    generate-pyspark-code/index
    utilities/index
    pipeline/index
+   runtime-parameters/index

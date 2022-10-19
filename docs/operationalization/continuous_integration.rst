@@ -23,4 +23,8 @@ Sparkflows Continuous Integration Steps
 
 - CI/CD Process Flow
 
-../_assets/operationalization/sparkflows_ci_cd_process.png
+
+
+.. figure:: ../_assets/operationalization/sparkflows_ci_cd_process.png
+   :alt: pyspark
+   :width: 60%

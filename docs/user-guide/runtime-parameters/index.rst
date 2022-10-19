@@ -36,6 +36,7 @@ Below are the three parameters defined and those values will be used in interact
 
 ``num_bedrooms`` used in Row Filter node with ``bedrooms == ${num_bedrooms}``
 
+
 .. figure:: ../../_assets/user-guide/runtime-parameters/rowfilter-with-parameter.png
    :alt: in filter condition of row filter node
    :width: 60%

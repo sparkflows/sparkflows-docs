@@ -1,7 +1,7 @@
 Sparkflows Continuous Integration and Deployment Steps
 ==========
 
-- Job Configuration
+Job Configuration
 ------------
 
 1. Create and Configure a Jenkins Job to listen to the Workflows Development Git branch.
@@ -13,7 +13,7 @@ Sparkflows Continuous Integration and Deployment Steps
 4. Schedule the Jenkins Job to run at a specific time
 
 
-- Job Trigger and Execution
+Job Trigger and Execution
 --------------
 
 1. Push a Workflow from a Sparkflows Editor to the Git branch
@@ -25,7 +25,7 @@ Sparkflows Continuous Integration and Deployment Steps
 4. The workflow test script should be executed to run the corresponding jobs in the target QA.
 
 
-- CI/CD Process Flow
+CI/CD Process Flow
 --------------
 
 

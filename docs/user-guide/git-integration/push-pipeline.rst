@@ -7,7 +7,7 @@ Commit and push Pipeline to the remote Git repository
 -------------------------------------------------------
 
 
-- Go to create/Edit ``Pipeline`` page.
+- Go to create/edit ``Pipeline`` page.
 - Select the ``Pipeline`` you wish to save and push to git.
 - Click on the ``Save and push to git`` button.
 
@@ -19,7 +19,7 @@ Commit and push Pipeline to the remote Git repository
    *Save and push to git*
    
    
-- Write the ``Commit message`` on the modal textarea.
+- Write the ``Commit message`` in the textarea.
 
 
  

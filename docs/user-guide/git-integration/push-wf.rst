@@ -1,9 +1,8 @@
 Push Workflow
 ================
 
-Sparkflow allows for changes to workflows to be pushed onto a configured git repo. Progress made on workflows can also be saved to be pushed onto Git at
-a later time. All previously saved workflows can be accessed via revision history. This document provides information on how to push workflows onto remote
-git repos, save workflows to be pushed at a later day, and view the previous saved versions of a workflow. 
+Sparkflow allows for changes to workflows to be pushed to a configured git repo. Progress made on workflows can also be saved to be pushed onto Git at
+any given time. All previously saved workflows can be accessed via revision history. This document provides information on how to push workflows onto remote git repos, save workflows to be pushed at a later day, and view the previous saved versions of a workflow. 
 
 Commit and Push Workflows to Remote Git Repos
 -------------------------------------------------------

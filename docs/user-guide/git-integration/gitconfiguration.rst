@@ -1,7 +1,7 @@
 Git Configuration
 ===================
 
-There are two ways to configure credentials via Github: via token and via Username/Password. The document below describes the process to Enable Git Repository and to configure a git repo to a particular Sparkflows Instance.
+There are two ways to configure credentials via Github: via Token and via Username/Password. The document below describes the process to enable Git integration in Sparkfows and configure it.
 
 Enable Git Repository
 ----------------------
@@ -34,7 +34,7 @@ Add git credentials with Token
    :alt: GitCredentials
    :width: 60%
 
-Add git credentials with UserName/Password
+Add git credentials with Username/Password
 --------------------------------------------
 
 - On the right corner, click on the nine squares.

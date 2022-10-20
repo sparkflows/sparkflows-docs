@@ -13,3 +13,4 @@ Swagger is also enabled and is available at http://<machine-name>:8080/swagger-u
    python-session.rst	
    python-token.rst
    infer-cluster-config.rst
+   python-cli-script.rst

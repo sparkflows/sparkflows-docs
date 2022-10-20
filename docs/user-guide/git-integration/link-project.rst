@@ -1,7 +1,12 @@
 Link project with Git
 ===================
 
-Sparkflows allows for created projects to be linked with git via the ``Link With Git`` button. You must link projects with git in order to push workflows to a configured git. When this button is clicked there are two options: To link a project to an existing branch and to create a new branch. This document goes over how to link projects both ways. 
+Sparkflows allows projects to be linked with git via the ``Link With Git`` button. You must link projects with git in order to push workflows to a configured github repo. When this button is clicked the following options show up: 
+
+- To link a project to an Existing branch 
+- To create a New branch. 
+
+This document goes over how to link projects both ways. 
 
 .. figure:: ../../_assets/git/link-project.png
    :alt: link-with-git

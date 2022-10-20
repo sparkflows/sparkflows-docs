@@ -1,7 +1,7 @@
 Import Project
 =================
 
-Sparkflows allows you to either import a project from git using a configured Git repo or another repos. The document below describes the ways you can Import projects using different repositories. 
+Sparkflows allows you to either import a project from git using a pre-configured global repo or another new repo. The document below describes the ways you can Import projects using different repositories. 
 
 - Go to project-list page.
 - Click on the ``New Project`` button.

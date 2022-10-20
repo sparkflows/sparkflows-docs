@@ -2,7 +2,7 @@
 Pipeline
 ====
 
-Sparkflows enables users to create Pipelines. With pipelines, multiple workflows can be executed.
+Sparkflows enables users to create Pipelines. With pipelines, multiple workflows can be executed at once either sequentially or parallely.
 
 
 .. toctree::

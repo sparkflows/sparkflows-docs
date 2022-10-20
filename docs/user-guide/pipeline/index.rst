@@ -2,7 +2,7 @@
 Pipeline
 ====
 
-Fire Insights enables creating Pipelines. With pipelines, multiple workflows can be executed.
+Sparkflows enables users to create Pipelines. With pipelines, multiple workflows can be executed.
 
 
 .. toctree::

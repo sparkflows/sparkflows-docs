@@ -35,7 +35,7 @@ https://airflow.apache.org/installation.html
  - airflow version
 
 
-.. figure:: ../../_assets/user-guide/airflow-version.PNG
+.. figure:: ../../../_assets/user-guide/airflow-version.PNG
    :alt: airflow
   
 - Generate a Fernet key for Airflow(optional)

@@ -1,8 +1,8 @@
 Git Integration
 =================
 
-Fire Insights supports Git integration.
-Link Projects or workflows in the Git repository with Fire Insights.
+Sparkflows supports Git integration.
+Link Projects or workflows in the Git repository with Sparkflows.
 
 .. panels::
 

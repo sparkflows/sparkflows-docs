@@ -1,16 +1,14 @@
 Configuring Pipelines
 ======================
 
-Fire uses Apache Airflow for executing Pipelines. Hence Airflow has to be installed on the same machine as Fire.
+Sparkflows uses Apache Airflow for executing Pipelines.
 
-Below are the configurations needed in Fire for Airflow.
+Below are the configurations needed for Sparkflows and Airflow to integrate seamlessly.
 
 .. figure:: ../../../_assets/user-guide/pipelines-configuration.PNG
    :alt: Pipelines Configuration
    
 
-- Set airflow.enabled to true
-- Set airflow.dag value to ‘/home/sparkflows/airflow’
-- Set airflow.endpointURL value to ‘http://localhost:8090’ or whatever port the airflow webserver is listening to
-
-
+- Set ``airflow.enabled`` to ``true``
+- Set ``airflow.home`` value to home directory of airflow. eg: ``/home/sparkflows/airflow``
+- Set ``airflow.endpointURL`` value to the airflow webserver URL. Eg: ``http://localhost:8090``

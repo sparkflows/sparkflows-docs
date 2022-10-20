@@ -2,7 +2,9 @@
 CLI Python Scripts
 --------------
 
-Following Python scripts allow users to interact with Fire REST API's.
+The Python scripts in the repo below allow users to interact with Fire REST API's.
+
+https://github.com/sparkflows/fire-tools/tree/main/rest-api-scripts
 
 Generating Access Token
 -------------------------

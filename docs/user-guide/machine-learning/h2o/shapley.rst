@@ -1,6 +1,6 @@
 Shapley
 =======
-Shapley values are one of the standard techquie used for Machine Learning Interpretability.The Shapley value of a feature value is its contribution to the payout, weighted and summed over all possible feature value combinations.The Shapley value might be the only method to deliver a full explanation. In situations where the law requires explainability – the Shapley value might be the only legally compliant method, because it is based on a solid theory and distributes the effects fairly.
+Shapley values are one of the standard techquie used for Machine Learning Interpretability.The Shapley Feature importance is the contribution of teh featue to the payout, weighted and summed over all possible feature value combinations.The Shapley value might be the only method to deliver a full explanation. In situations where the law requires explainability – the Shapley value might be the only legally compliant method, because it is based on a solid theory and distributes the effects fairly.
 
 More on Shapley values can be found here - https://christophm.github.io/interpretable-ml-book/shapley.html#the-shapley-value-in-detail
 More on SHAP can be found here - https://christophm.github.io/interpretable-ml-book/shap.html

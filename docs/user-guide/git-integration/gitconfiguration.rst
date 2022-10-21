@@ -1,7 +1,7 @@
 Git Configuration
 ===================
 
-There are two ways to configure credentials via Github: via Token and via Username/Password. The document below describes the process to enable Git integration in Sparkfows and configure it.
+A User must input a personal access token as well as their GitHub Username and Password in order to push workflows and pipelines. The document below describes the process to enable Git integration in Sparkfows and configure it.
 
 Enable Git Repository
 ----------------------

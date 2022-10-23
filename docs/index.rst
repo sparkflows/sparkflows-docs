@@ -80,6 +80,14 @@ Kubernetes Integration
    :maxdepth: 2
 
    kubernetes/index
+   
+Continuous Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   continuous0integration/index
 
 Frequently Asked Questions
 --------------------------

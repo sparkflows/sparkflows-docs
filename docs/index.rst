@@ -87,7 +87,7 @@ Continuous Integration
 .. toctree::
    :maxdepth: 2
 
-   continuous0integration/index
+   continuous-integration/index
 
 Frequently Asked Questions
 --------------------------

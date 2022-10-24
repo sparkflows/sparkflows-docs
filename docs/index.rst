@@ -81,13 +81,13 @@ Kubernetes Integration
 
    kubernetes/index
    
-Continuous Integration
+Operations
 --------------
 
 .. toctree::
    :maxdepth: 2
 
-   continuous-integration/index
+   operations/index
 
 Frequently Asked Questions
 --------------------------

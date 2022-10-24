@@ -15,7 +15,15 @@ Installation & Configuration
    :maxdepth: 2
 
    installation/index
-  
+
+Operations
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   operations/index
+   
 User Guide
 --------------
 
@@ -80,14 +88,6 @@ Kubernetes Integration
    :maxdepth: 2
 
    kubernetes/index
-   
-Operations
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   operations/index
 
 Frequently Asked Questions
 --------------------------

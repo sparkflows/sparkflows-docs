@@ -27,6 +27,6 @@ CI/CD Process Flow
 
 
 
-.. figure:: ../_assets/operationalization/sparkflows_ci_cd_process.png
+.. figure:: ../../_assets/operationalization/sparkflows_ci_cd_process.png
    :alt: Continuous Integration
    :width: 60%

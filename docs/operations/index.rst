@@ -1,11 +1,12 @@
 
-Operating Guide
+Operations
 =========
 
 .. toctree::
    :maxdepth: 2
 
    logging.rst
+   continuous-integration/index.rst
    regular-maintenance-tasks.rst
    installing-jdbc-drivers.rst
    dashboard-installing-jdbc-drivers.rst

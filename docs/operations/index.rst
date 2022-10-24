@@ -1,4 +1,3 @@
-
 Operations
 =========
 
@@ -17,5 +16,4 @@ Operations
    installing-opennlp.rst
    opennlp.rst
    
-
 

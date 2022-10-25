@@ -10,6 +10,7 @@ Developer Guide
    custom-node-tutorial.rst
    custom-node-tutorial-json.rst
    pipeline-node.rst
+   pyspark-code-generation.rst
    
 
 

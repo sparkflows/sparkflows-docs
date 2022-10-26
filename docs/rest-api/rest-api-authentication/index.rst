@@ -1,7 +1,7 @@
 REST API Authentication
 ==========
 
-Fire Insights provides REST API for interacting with it.
+Fire Insights provides REST API commands to use to interact their instance of fire insights.
 
 An admin user can enable the swagger through configuration and is available at http://<machine-name>:8080/swagger-ui.html.
 

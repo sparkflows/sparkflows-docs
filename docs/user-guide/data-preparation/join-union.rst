@@ -333,9 +333,8 @@ This section lists common observations and steps to fix them.
 
 **Joining Datasets using Common Column/s Node**
 
-*	While joining Datasets using ``Join On Common Column`` and ``Join On Common Columns`` nodes please ensure that case of joining columns matches in both the datasets. Otherwise they would be treated as different columns and won't be used for joining. 
-*  If ``Dataset-A`` has a column ``ID`` and other dataset ``Dataset-B`` has a column ``id``. These two ``Ids`` columns would be considered as different due to case difference. They won't be used for joining.
-*  To handle this scenario please rename columns using ``Columns Rename`` to ensure case of joining columns matches. 
+*	While joining Datasets using ``Join On Common Column`` and ``Join On Common Columns`` nodes the case of the joining columns is not taken into considerations. The case of the joining column can be same or different. 
+*  If ``Dataset-A`` has a column ``ID`` and other dataset ``Dataset-B`` has a column ``id``. These two ``Ids`` columns would be considered same (the join column is not case sensitive). 
 
 **Incoming Datasets have common columns**
 

@@ -28,6 +28,9 @@ Join/Union Processors in Fire Insights
      - This node joins the incoming dataframes on a join Column
    * - Join On Common Columns
      - This node joins the incoming dataframes on 1 or more columns  
+   * - Troubleshooting Common Scenarios
+     - This section lists troubleshooting steps for common scenarios to fix observations   
+     
      
 Union All
 ----------------------------------------
@@ -323,3 +326,19 @@ Output of ``Join On Common Columns`` node joining incoming datasets.
    :alt: joinsandunion_userguide
    :width: 90%
    
+Troubleshooting Common Scenarios
+----------------------------------------
+
+This section lists common observations and steps to fix them.
+
+**Joining Datasets using Common Column/s Node**
+
+*	While joining Datasets using ``Join On Common Column`` and ``Join On Common Columns`` nodes please ensure that case of joining columns matches in both the datasets. Otherwise they would be treated as different columns and won't be used for joining. 
+*  If ``Dataset-A`` has a column ``ID`` and other dataset ``Dataset-B`` has a column ``id``. These two ``Ids`` columns would be considered as different due to case difference. They won't be used for joining.
+*  To handle this scenario please rename columns using ``Columns Rename`` to ensure case of joining columns matches. 
+
+**Incoming Datasets have common columns**
+
+*	If incoming datasets have common columns then post joining common columns would appear in duplicate in the output.  
+*	If ``Dataset-A`` has columns [Id, Name, Age] and ``Dataset-B`` has columns [Id, Name, Address] and they are joined using ``Common Column`` [Id]. Output would contain these columns [Id, Name, Name, Age, Address]. Name column appears in duplicate as it is contributed by both the datasets.
+* 	To handle this scenario please rename columns using ``Columns Rename`` before joining datasets. Columns can be renamed to Name-A and Name-B before joining. This would help in bringing clarity to data. 

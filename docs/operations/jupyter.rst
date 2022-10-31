@@ -23,5 +23,13 @@ Once Login to Fire web server url, Goto ''ADMINISTRATION -->> Configurations'' a
    :alt: operating
    :width: 60%
 
+Update Below Parameters:
+
+::
+
+    notebook.enabled : true
+    notebook.serverHost : jupyternotebook server url which include token
+    
+.. note::  Make sure to change localhost to your domain name or your ip where Fire is running  and it should be accessible.   
 
 

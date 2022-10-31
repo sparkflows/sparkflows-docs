@@ -33,3 +33,12 @@ Update Below Parameters:
 .. note::  Make sure to change localhost to your domain name or your ip where Fire is running  and it should be accessible.   
 
 
+2. Open Jupyter Notebook
+
+Once the above configuration got saved, refresh the web server url and you will see ''Jupyter Notebook'', Open it.
+
+.. figure:: ..//_assets/operating/jupyter_notebook-access.PNG
+   :alt: operating
+   :width: 60%
+
+

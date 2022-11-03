@@ -5,7 +5,7 @@ Sparkflows comes up with embedded H2 DB by default its getting created in user h
 
 You can Update database path using below :
 
-Open ''db.properties` file available inside ''fire-x-y.z/conf'' directory and update ''spring.datasource.url'' path you want to.
+Open ''db.properties'' file available inside ''fire-x-y.z/conf'' directory and update ''spring.datasource.url'' path you want to.
 
 ::
 

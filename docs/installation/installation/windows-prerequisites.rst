@@ -98,7 +98,7 @@ hadoop.dll
 hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup ''hadoop.dll'' on your machine
 
 - Download hadoop.dll from 
-    * https://github.com/steveloughran/winutils/tree/master/hadoop-2.7.1/bin
+    * https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/hadoop.dll
  
 - Copy ''hadoop.dll'' to ''windows/system32'' folder and restart the system.
 

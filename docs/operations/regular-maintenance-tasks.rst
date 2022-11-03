@@ -35,7 +35,7 @@ It is important to regularly delete the old workflow executions in order to keep
 - Go to the Administration/Cleanup Data
 - On ''Clean Workflow Executions'' tab, Click on ''Delete workflow executions'' drop down & Delete workflow executions which is older than 30 days.
 
-.. figure:: ../../_assets/installation/clean-up_data.PNG
+.. figure:: ..//_assets/installation/clean-up_data.PNG
    :alt: Installations
    :width: 60% 
 
@@ -48,7 +48,7 @@ It is important to regularly delete the old Audit logs for cleaning the DB.
 - On ''Clean Audit Logs'' tab, Click on ''Delete audit logs'' drop down & Delete Audit Logs which is older than 30 days
 
    
-.. figure:: ../../_assets/installation/clean-up_audit.PNG
+.. figure:: ..//_assets/installation/clean-up_audit.PNG
    :alt: Installations
    :width: 60%    
 

@@ -93,7 +93,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
     https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/
 
 hadoop.dll
-------------
+-----------
 
 hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup ''hadoop.dll'' on your machine
 

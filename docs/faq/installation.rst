@@ -9,7 +9,7 @@ You can download Fire Insights from https://www.sparkflows.io/
 Install documentation is at : https://docs.sparkflows.io/en/latest/installation/installation/index.html
 
 Installation Pre-requisites
----------------------------
+===========
 
 Below are the Pre-requisites before installing Fire::
 
@@ -23,7 +23,7 @@ Below are the Pre-requisites before installing Fire::
 
 
 With which user should Fire be installed
-----------------------------------------
+===========
 
 If Fire needs to be connected with an Apache Spark cluster the below is needed:
 

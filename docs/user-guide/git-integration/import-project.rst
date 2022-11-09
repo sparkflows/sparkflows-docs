@@ -16,7 +16,7 @@ A dialog box will appear with 2 choices.
   1. IMPORT FROM GLOBAL REPO
   2. IMPORT FROM OTHER REPO
 
-Import project fom configured Git repo
+Import project from configured Git repo
 --------------------------------------
 
 - Select ``IMPORT FROM GLOBAL REPO``.

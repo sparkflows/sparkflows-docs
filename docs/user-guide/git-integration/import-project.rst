@@ -36,7 +36,7 @@ Selected Project will get created.
    :alt: GlobalRepo
    :width: 60%
 
-Import project fom other Git repo
+Import project from other Git repo
 ------------------------------------
 - Select ``IMPORT FROM OTHER REPO``.
 - Provide the url of other Git repo, all branches of provided git url get loaded below.

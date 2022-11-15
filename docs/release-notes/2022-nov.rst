@@ -12,7 +12,7 @@ Sparkflows Comes up with Git Enhancements with below features:
 
 Sparkflows enable you to push project to Git.
 
-Once the Project is linked with Git, you can push Specific Project to Git, using below action icon.
+Once the Project is linked with Git, you can push Specific Project to Git, using below actions icon.
 
 .. figure:: ..//_assets/releases/november-2022/git_project-push.PNG
    :alt: release

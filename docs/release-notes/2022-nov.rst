@@ -32,3 +32,8 @@ Once you updated the workflow after you pushed to Git, you will see ''Git Diff''
 .. figure:: ..//_assets/releases/november-2022/git_wf_diff_view.PNG
    :alt: release
    :width: 70%
+
+Job Queue
+------
+
+- Job Queue enable user to execute workflow parallel.

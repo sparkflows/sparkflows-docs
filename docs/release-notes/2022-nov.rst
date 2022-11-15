@@ -20,7 +20,7 @@ Once the Project is linked with Git, you can push Specific Project to Git, using
 
 - Git Diff of Workflow
 
-Sparkflows enable you to view Git Diff of Workflow.
+Sparkflows enable you to view ''Git Diff'' of Workflow.
 
 Once you updated the workflow after you pushed to Git, you will see ''Git Diff'' option and on Clicking, it will show the difference with pushed to Git.
 

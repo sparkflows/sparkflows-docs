@@ -33,6 +33,14 @@ Once you updated the workflow after you pushed to Git, you will see ''Git Diff''
    :alt: release
    :width: 70%
 
+- Test Credential
+
+Sparkflows enable user to ''Test Credential'', if its correct or not, so that Git Configured can be validated.
+
+.. figure:: ..//_assets/releases/november-2022/git_test_credential.PNG
+   :alt: release
+   :width: 70%
+
 Job Queue
 ------
 

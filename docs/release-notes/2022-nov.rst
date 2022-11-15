@@ -2,3 +2,16 @@ November 2022
 =============
 
 These features and Sparkflows platform improvements were released in November 2022.
+
+Git Enhancements
+-------
+
+Sparkflows Comes up with Git Enhancements with below features:
+
+- Project push to Git
+
+Sparkflows enable you to push project to Git.
+
+.. figure:: ..//_assets/releases/november-2022/git_project-push.PNG
+   :alt: release
+   :width: 70%

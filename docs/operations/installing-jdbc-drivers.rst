@@ -52,7 +52,9 @@ MySQL
 PostgreSQL
 ++++++++++
 
-- PostgresSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download.html
+- PostgresSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download
+
+.. note:: Already included in Sparkflows package
 
 Oracle
 ++++++

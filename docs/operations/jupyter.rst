@@ -1,4 +1,4 @@
-Using Jupyter
+Using Jupyter Notebook
 =============
 
 Jupyter is extensively used by Data Scientists.

@@ -1,4 +1,4 @@
-Running Tesseract in Fire
+Configuring Tesseract in Fire Insights
 =====================
 
 In order to run Tesseract, perform the below installation steps:

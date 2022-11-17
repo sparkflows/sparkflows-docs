@@ -8,6 +8,8 @@ Installation
 
 Fire Insights is installed on an EC2 machine. It can also be installed in AWS Fargete or AWS EKS. The jobs fired by the users would be able to access and process data on S3, HDFS, Redshift, Kinesis.
 
+Compute connections can be created in Fire Insights for it to connect to AWS EMR, AWS Glue.
+
 Costs
 -----
 

@@ -1,4 +1,4 @@
-Fire Deployment 
+Fire Insights Deployment 
 ================
 
 Fire Insights can easily be deployed on a standalone machine. It supports linux, mac and windows.

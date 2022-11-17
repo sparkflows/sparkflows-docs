@@ -1,4 +1,4 @@
-Fire Architecture
+Fire Insights Architecture
 -----------------
 
 Fire consists of three core components:

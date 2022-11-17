@@ -1,4 +1,4 @@
-Glue Connections
+AWS Glue Connection
 ----------------
 
 Sparkflows enabled you to create Aws Glue Connection and use the connection to submit job on Aws Glue.

@@ -3,10 +3,10 @@ Planning Guide
 
 This document describes details to help you plan on deploying and using Fire Insights on AWS.
 
-Security
+Installation
 --------
 
-Fire Insights is installed onto the edge node or master node of the EMR cluster. The jobs fired by the users would be able to access and process data on S3, HDFS, Redshift, Kinesis.
+Fire Insights is installed on an EC2 machine. It can also be installed in AWS Fargete or AWS EKS. The jobs fired by the users would be able to access and process data on S3, HDFS, Redshift, Kinesis.
 
 Costs
 -----
@@ -23,7 +23,7 @@ Fire Insights can also run Machine Learning Modeling jobs onto SageMaker. If thi
 Sizing
 ------
 
-EMR cluster normally starts with a minimum of 1 master node and 2 worker nodes. 
+AWS EMR cluster normally starts with a minimum of 1 master node and 2 worker nodes. 
 
 We recommend using at least 16GB machines for the master and worker nodes.
 

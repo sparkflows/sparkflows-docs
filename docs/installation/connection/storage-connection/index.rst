@@ -1,4 +1,4 @@
-Storage Connection
+Storage Connections
 ==============
 
 Sparkflows enable you to create different Storage Connection and access to various resources.

@@ -1,17 +1,14 @@
 Architecture & Deployment
 =========================
 
-Sparkflows can be installed in one of two ways:
+Fire Insights can be installed on a standalone machine, VM or in a container.
 
-* On a standalone machine. In this case all the processing would happen within the single process.
+Fire Insights can be configured to run:
 
-  * This can be used to run Sparkflows on your laptop/desktop.
+* All the jobs on the same machine/VM
+* Connect to a cluster and push the jobs onto the Cluster. The cluster can be a Databricks Cluster, AWS EMR, AWS Glue, Google Data Proc, Azure HDInsights, Cloudera, Kubernetes or Apache Spark Standalone.
+
   
-* On the Edge node of a Hadoop/Spark Cluster.
-
-  * In this case, the jobs for processing would be submitted to the Hadoop/Spark Cluster.
-  
-
 
 .. toctree::
    :maxdepth: 2

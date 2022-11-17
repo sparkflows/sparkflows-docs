@@ -7,6 +7,19 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
 
 This documentation provides how-to guidance and reference information for data analysts, data scientists, and data engineers working on the Fire Insights Product. Teams can easily collaborate with each other.
 
+Fire Insights provides the following features:
+
+* Connect to various data source
+* Perform ETL/Data Preparation
+* Profile and Clean Data
+* Measure Data Quality
+* Build ML Models using various ML engines
+* Deploy and execute the ML models
+* Build Reports and Dashboards
+* Build Analytical Applications
+
+Fire Insights also support both Batch and Streaming Jobs.
+
 
 Installation & Configuration
 --------------

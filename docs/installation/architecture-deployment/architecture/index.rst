@@ -1,7 +1,7 @@
-Fire Insights Architecture
+Fire Insights Insights Architecture
 -----------------
 
-Fire consists of three core components:
+Fire Insighs consists of three core components:
 
   * **Web Browser** for defining end-to-end workflows for building data products and applications
 
@@ -10,11 +10,10 @@ Fire consists of three core components:
 
   * **Web Server** running on a standalone machine, VM or Kubernetes cluster
 
-    * For running the workflows, they are submitted to the web server. The web server submits the workflow to the Apache Spark cluster as a spark job using spark-submit. The results of the workflow execution are streamed back and displayed in the Browser.
+    * For running the workflows, they are submitted to the web server. The web server submits the workflow to the Apache Spark cluster. The results of the workflow execution are streamed back and displayed in the Browser.
     * Web Server provides a host of other features likes interactive execution, schema inference and propagation, user permissions and roles, LDP integration etc.
 
 
   * **Apache Spark** cluster on which the workflows are executed as Spark jobs
 
-    * Workflows are saved in a JSON string.
-    * Workflows can also be submitted on the spark cluster through **spark-submit** via a command line interface
+    * Workflows are submitted by the Fire Insights cluster to execute on the Apache Spark cluster.

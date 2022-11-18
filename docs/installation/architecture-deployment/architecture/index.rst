@@ -8,7 +8,7 @@ Fire consists of three core components:
     * Users interact with the web based drag and drop user interface for creating Datasets and Workflows
     * Workflows leverage the exhaustive set of functional and operational nodes such as Data Profiling, Data Cleaning, ETL, NLP, OCR, Machine Learning etc. displayed in the user interface.
 
-  * **Web Server** running on an Edge node in a Apache Spark Cluster
+  * **Web Server** running on a standalone machine, VM or Kubernetes cluster
 
     * For running the workflows, they are submitted to the web server. The web server submits the workflow to the Apache Spark cluster as a spark job using spark-submit. The results of the workflow execution are streamed back and displayed in the Browser.
     * Web Server provides a host of other features likes interactive execution, schema inference and propagation, user permissions and roles, LDP integration etc.

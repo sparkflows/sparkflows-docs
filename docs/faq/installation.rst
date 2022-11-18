@@ -39,13 +39,13 @@ How can I log into Fire Insights after Installation?
 
 The out of the box installation of Fire Insights comes with 2 users:
 
-  * admin/admin
-  * test/test
+  * Username : admin   Password : admin
+  * Username : test   Password : test
   
 How can I load the sample projects?
 ===========
 
-Fire Insights comes with 28+ Projects and 170+ examples out of the box.
+Fire Insights comes with 28+ Projects and 200+ examples out of the box.
 
 As an admin, you can load all the sample projects or selected ones.
 

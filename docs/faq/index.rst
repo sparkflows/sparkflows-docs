@@ -49,13 +49,13 @@ FAQ
    :hidden:
 
    installation.rst
+   data-sources.rst
    scheduling-workflows.rst
    custom-nodes.rst
    distributions-supported.rst
    workflow-export-import.rst
    submit-jobs.rst
    multi-user.rst
-   data-sources.rst
    workflow-execution.rst
    hadoop-installation-prerequisites.rst
    

@@ -3,7 +3,7 @@ LDAP Authentication
 
 Sparkflows can be configured to authenticate the user against LDAP. Users have to be added to Fire, before they can log into Fire and start using it.
 
-The following configurations have to be set appropriately in ''ldap.properties'' file inside ''conf'' folder of Fire home directory.
+The following configurations parameters have to be set appropriately in ''ldap.properties'' file inside ''conf'' folder of Fire home directory.
 
 .. figure:: ../..//_assets/installation/ldap/ldap_properties.PNG
    :alt: LDAP 

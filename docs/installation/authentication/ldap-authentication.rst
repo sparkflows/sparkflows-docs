@@ -114,12 +114,6 @@ If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then
 User Login
 ----------
 
-Once the above steps are done log in with your admin account.
-
-In application.properties update **sparkflows.authentication.ldap.enable = true** to enable authentication to be done against LDAP.
-
-Once the above property is updated, restart the fire-server for the changes take effect.
-
 Now the users would authenticated with LDAP and admin account will get authenticated with DB.
 
 Reference

@@ -5,7 +5,7 @@ Fire Insights can be configured to authenticate the user against LDAP. Users hav
 
 The following configurations have to be set appropriately in ''ldap.properties'' file inside ''conf'' folder of Fire home directory.
 
-.. figure:: ..///_assets/installation/ldap/ldap_properties.PNG
+.. figure:: ../..//_assets/installation/ldap/ldap_properties.PNG
    :alt: LDAP 
    :width: 80%
    

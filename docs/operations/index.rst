@@ -16,5 +16,7 @@ Operations
    installing-tesseract.rst
    installing-opennlp.rst
    opennlp.rst
+   scalability.rst
+   
    
 

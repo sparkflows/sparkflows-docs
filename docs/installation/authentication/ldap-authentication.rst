@@ -24,7 +24,10 @@ LDAP Parameters
      - Example
    * - ldap.Order
      - Order in which to authenticate the user. Possible values are DB, LDAP_DB, DB_LDAP.
-     - 
+     - LDAP_DB
+   * - ldap_attributeUserName
+     - LDAP Name of the attribute for User Name.
+     - userName  
    * - ldap.URL
      - The URL of the LDAP server. The URL must be prefixed with ldap:// or ldaps://. The URL can optionally specify a custom port, for example: ldaps://ldap_server.example.com:1636.
      - ldap://localhost:10389
@@ -36,19 +39,32 @@ LDAP Parameters
      - uid=john,ou=development,dc=sparkflows,dc=com
    * - ldap.Password
      - The password of the bind user.
-     - xyz
+     - xxxxxxxx
+   * - ldap_dns_patterns
+     - The ldap_dns_patterns.
+     - uid={0},ou=Users
    * - ldap.UserSearchBase
      - User Search Base
-     - ou=development
+     - Users
    * - ldap.UserSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
      - For Active Directory : (objectClass=user)     Other Example : (uid={0})
    * - ldap.GroupSearchBase
      - Group Search Base
-     - ou=groups
+     - ou=Users
    * - ldap.GroupSearchFilter
      - Group Search Filter
      - For Active Directory : (objectClass=group)     Other Example : (member={0})
+   * - ldap.GroupSearchFilter
+     - Group Search Filter
+     - For Active Directory : (objectClass=group)     Other Example : (member={0})  
+   * - ldap_attributePassword
+     - LDAP user password attribute for User's password
+     - userPassword
+   * - ldap_ConfigurationFilePath
+     - default ldap property file Path
+     - conf/ldap.properties
+     
      
 Note
 ----

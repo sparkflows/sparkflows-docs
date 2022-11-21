@@ -65,6 +65,8 @@ LDAP Parameters
      - default ldap property file Path
      - conf/ldap.properties
 
+.. note:: Make sure to update the domain name and it should be accessible from Sparkflows machine
+
 Test LDAP
 ------
 

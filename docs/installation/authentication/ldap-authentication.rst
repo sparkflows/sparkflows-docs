@@ -64,7 +64,20 @@ LDAP Parameters
    * - ldap_ConfigurationFilePath
      - default ldap property file Path
      - conf/ldap.properties
-     
+
+Test LDAP
+------
+
+Sparkflows Enable you to test the LDAP Configured, Once you Configured the ''ldap.properties'' file with your exact configuration and started the Fire Server, You can Login to Sparkflows web URL and go inside ''Administration -->> Test LDAP'' and Click on ''Test Connections'', if all look fine, it will authenticate successfully.
+
+.. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
+   :alt: LDAP 
+   :width: 80%
+
+.. figure:: ../..//_assets/installation/ldap/ldap_test_connections.PNG
+   :alt: LDAP 
+   :width: 80%
+
      
 Note
 ----

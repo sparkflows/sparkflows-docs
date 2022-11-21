@@ -35,7 +35,18 @@ All the pages in Fire Insights are built to be fast and lean. Let us take the fo
 
 Each development instance of Fire Insights can handle 40-100 users, assuming 30+ GB of RAM and 10+ vCPU cores for the machine. As the number of users increase, the size of the machine can be increased or more machines added. 
 
-Each production instance can handle thousands of jobs running hourly. For high workload environments 30+ GB of RAM is recommended per instance.
+Each production instance can handle thousands of jobs running hourly. For high workload environments 30+ GB of RAM is recommended per instance. Also a scaled up RDBMS is recommended.
+
+
+Caching, Performance and Scalability
+----------------
+
+Fire Insights caches the records in both the web server layer and in the backend, for the workflow editor. This results in sub-second response times and also scalability of the end to end system.
+
+Pushdown
+--------
+
+Fire Insights is built to push down all compute to the cluster. The jobs also run distributed in the cluster. The clusters provide their own queuing mechanisms. They can also be easily scaled up and down automatically. Thus, Fire Insights seamlessly scales for all compute needs.
 
 
 

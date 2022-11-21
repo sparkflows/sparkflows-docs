@@ -79,10 +79,7 @@ Sparkflows Enable you to test the LDAP Configured, Once you Configured the ''lda
    :width: 80%
 
      
-Note
-----
-
-For ``ldap.UserSearchFilter`` we can use strings like ``(uid={USERNAME})``  
+.. note:: For ``ldap.UserSearchFilter`` we can use strings like ``(uid={USERNAME})``  
 In this case {USERNAME} would be replaced by the real username of the user when searching in LDAP during ``Add User``.
      
 LDAP Certificate

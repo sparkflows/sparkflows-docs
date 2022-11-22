@@ -135,9 +135,9 @@ What if I get locked out
 ``ldap_Order`` determines the order in which Sparkflows tries to log in the user.
 In case you are locked out of Sparkflows and are not able to log in, you can do the following:
 
-* Comment out **ldap_Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
+* Comment out ``ldap_Order = LDAP_DB`` in ``/conf/ladp.properties`` and restart the fire server.
 
 * Then restart the Sparkflows server. Now you should be able to log in with your admin account.
 
-Once things are back to normal, you can enable **ldap_Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
+Once things are back to normal, you can enable ``ldap_Order = LDAP_DB`` in ``/conf/ladp.properties`` and restart the fire server.
 

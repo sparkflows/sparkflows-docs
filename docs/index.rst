@@ -144,13 +144,6 @@ REST API
 
    rest-api/index   
 
-Processors Reference
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   processors/index
    
 Release Notes
 ----------

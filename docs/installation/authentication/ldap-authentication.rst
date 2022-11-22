@@ -5,7 +5,7 @@ Sparkflows can be configured to authenticate the user against LDAP. Users have t
 
 The following configuration parameters have to be set in ``ldap.properties`` file inside ``conf`` folder in the home directory.
 
-.. figure:: ../..//_assets/installation/ldap/ldap_properties.PNG
+.. figure:: ../..//_assets/installation/ldap/ldap_properties_screen.PNG
    :alt: LDAP 
    :width: 80%
    

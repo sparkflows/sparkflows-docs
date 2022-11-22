@@ -70,7 +70,7 @@ Test LDAP
 
 Sparkflows provides the capability to test the LDAP conifguration from UI.
 
-* Admin needs to place a file by name `ldap.properties` in the sparkflows home/`conf` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
+* Admin needs to place a file by name ``ldap.properties`` in the sparkflows ``HOME/conf`` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
 * Now, the Admin can use this to test out the LDAP configuration and finalize it. 
 * Once the correct configuration is figured out, admin needs to place the same configuraions in the ``ldap.properties`` and restart the server. 
 * Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, and it should authenticate successfully.

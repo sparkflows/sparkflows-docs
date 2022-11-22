@@ -1,11 +1,11 @@
 LDAP Authentication
 ===================
 
-Sparkflows can be configured to authenticate the user against LDAP. Users have to be added to Fire, before they can log into Fire and start using it.
+Sparkflows can be configured to authenticate the user against LDAP. Users have to be added and then they can start using Sparkflows.
 
-The following configurations parameters have to be set appropriately in ``ldap.properties`` file inside ``conf`` folder of Fire home directory.
+The following configuration parameters have to be set in ``ldap.properties`` file inside ``conf`` folder in the home directory.
 
-.. figure:: ../..//_assets/installation/ldap/ldap_properties_screen.PNG
+.. figure:: ../..//_assets/installation/ldap/ldap_properties.PNG
    :alt: LDAP 
    :width: 80%
    
@@ -14,50 +14,48 @@ The following configurations parameters have to be set appropriately in ``ldap.p
 LDAP Parameters
 ---------------
 
+Below are the parameters which need to be set to the appropriate values based on the LDAP directory being autheticated to
 
-.. list-table:: LDAP Parameters
+.. list-table::
    :widths: 10 30 15
    :header-rows: 1
 
    * - Name of Parameter
      - Description
      - Example
-   * - ldap.Order
+   * - ldap_Order
      - Order in which to authenticate the user. Possible values are DB, LDAP_DB, DB_LDAP.
      - LDAP_DB
    * - ldap_attributeUserName
      - LDAP Name of the attribute for User Name.
      - userName  
-   * - ldap.URL
+   * - ldap_URL
      - The URL of the LDAP server. The URL must be prefixed with ldap:// or ldaps://. The URL can optionally specify a custom port, for example: ldaps://ldap_server.example.com:1636.
      - ldap://localhost:10389
-   * - ldap.Base
+   * - ldap_base
      - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=sparkflows,dc=com’.
      - dc=sparkflows,dc=com
-   * - ldap.UserDn
+   * - ldap_userDn
      - Distinguished name of the user to bind as. This is used to connect to LDAP/AD for searching user and group information. This may be left blank if the LDAP server supports anonymous binds.
      - uid=john,ou=development,dc=sparkflows,dc=com
-   * - ldap.Password
+   * - ldap_password
      - The password of the bind user.
      - xxxxxxxx
    * - ldap_dns_patterns
      - The ldap_dns_patterns.
      - uid={0},ou=Users
-   * - ldap.UserSearchBase
+   * - ldap_userSearchBase
      - User Search Base
      - Users
-   * - ldap.UserSearchFilter
+   * - ldap_userSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
      - For Active Directory : (objectClass=user)     Other Example : (uid={0})
-   * - ldap.GroupSearchBase
+   * - ldap_groupSearchBase
      - Group Search Base
      - ou=Users
-   * - ldap.GroupSearchFilter
+   * - ldap_groupSearchFilter
      - Group Search Filter
-     - For Active Directory : (objectClass=group)     Other Example : (member={0})
-   * - ldap.GroupSearchFilter
-     - Group Search Filter
-     - For Active Directory : (objectClass=group)     Other Example : (member={0})  
+     - For Active Directory : (objectClass=group)     Other Example : (member={0}) 
    * - ldap_attributePassword
      - LDAP user password attribute for User's password
      - userPassword
@@ -65,12 +63,17 @@ LDAP Parameters
      - default ldap property file Path
      - conf/ldap.properties
 
-.. note:: Make sure to update the domain name and it should be accessible from Sparkflows machine
+.. note:: Make sure to update the domain name which is accessible from Sparkflows machine
 
 Test LDAP
 ------
 
-Sparkflows Enable you to test the LDAP Configured from UI, Once you Configured the ``ldap.properties`` file with your exact configuration and started the Fire Server, You can Login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, if all look fine, it will authenticate successfully.
+Sparkflows provides the capability to test the LDAP conifguration from UI.
+
+* Admin needs to place a file by name `ldap.properties` in the sparkflows home/`conf` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
+* Now, the Admin can use this to test out the LDAP configuration and finalize it. 
+* Once the correct configuration is figured out, admin needs to place the same configuraions in the ``ldap.properties`` and restart the server. 
+* Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, and it should authenticate successfully.
 
 .. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
    :alt: LDAP 
@@ -102,21 +105,21 @@ Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from L
 * User details are fetched from LDAP
 * Click on Add User to create the user in Sparkflows
 
-Above steps will create the LDAP user in sparkflows database and user deatils can be edited later to provide the access to roles in  different groups etc.
+Above steps will create the LDAP user in Sparkflows database and user deatils can be edited later to provide the access to roles in  different groups etc.
 
 
 Search Order
 -----------
 
-Sparkflows would search in LDAP and then in its DB. Search order is determined by the parameter ``ldap.Order``.
+Search order is determined by the parameter ``ldap_Order``.
 
-If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This allows having the admin user in the Sparkflows DB if needed, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
+If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This enables the admin user to have an entry in the Sparkflows DB, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
 
 
 User Login
 ----------
 
-Now the users would authenticated with LDAP and admin account will get authenticated with DB.
+Once the LDAP is configured, the users would be authenticated with LDAP and admin account will get authenticated with DB.
 
 Reference
 ---------
@@ -129,12 +132,12 @@ Below are some great links for reference:
 What if I get locked out
 ------------------------
 
-``ldap.Order`` determines the order in which Sparkflows tries to log in the user.
+``ldap_Order`` determines the order in which Sparkflows tries to log in the user.
 In case you are locked out of Sparkflows and are not able to log in, you can do the following:
 
-* Comment out **ldap.Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
+* Comment out **ldap_Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
 
-* Then restart the fire server. Now you should be able to log in with your admin account.
+* Then restart the Sparkflows server. Now you should be able to log in with your admin account.
 
-Once things are back to normal, you can enable **ldap.Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
+Once things are back to normal, you can enable **ldap_Order = LDAP_DB** in **/conf/ladp.properties** and restart the fire server.
 

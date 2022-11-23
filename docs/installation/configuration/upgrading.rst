@@ -1,27 +1,27 @@
 Upgrading Fire
 ==============
 
-Stop Fire if it is running
+Stop Fire Server
 --------------------------
 
-Stop Fire with the below command from the directory in which it is installed::
+Stop Fire server using the below command::
 
     run-fire-server.sh stop
 
 
-Download the new fire tgz file
+Download the new Fire tgz file
 ------------------------------
 
 Download Fire tgz file from::
 
   - https://www.sparkflows.io/download  OR  
   
-  - https://www.sparkflows.io/archives
+  - Via the direct link.
   
 Unpack it
 -----------
 
-Unpack the tgz file with below on unix/linux::
+Unpack the tgz file::
 
     tar xvf fire-x.y.z.tgz
 
@@ -29,10 +29,9 @@ Upgrade the H2 or MySQL database
 --------------------------------
 
 * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory
-* Backup your existing H2 db files. By default they are in your home directory as ``firedb.mv.db``
+* Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``
 * If you are using MySQL, backup the fire database in MySQL.
-* Execute the following commands on the Command Line to upgrade the Fire database::
-
+* Execute the following commands to upgrade the Fire database schema::
 
     cd <install_dir>/fire-x.y.z
     
@@ -41,9 +40,9 @@ Upgrade the H2 or MySQL database
 ``the above command creates or updates the existing db if one already exists``
 
 
-Restart Fire
--------------
+Restart Fire Server
+-------------------
 
-Restart the Fire Server::
+Restart the Fire Server using the below command::
 
   run-fire-server.sh start

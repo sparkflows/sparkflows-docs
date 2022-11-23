@@ -37,8 +37,14 @@ Upgrade the H2 or MySQL database
     
     ./create-h2-db.sh      OR     ./create-mysql-db.sh
     
-``the above command creates or updates the existing db if one already exists``
+``The above command creates or updates the existing db if one already exists``
 
+
+If Pyspark engine is enabled, upgrade python dependencies as well
+--------------------------------
+
+* Activate the python environment by running ``source env/bin/activate``
+* Upgrade the dependencies in the environment via ``pip install -r fire-x.y.x/dist/fire/requirements.txt``
 
 Restart Fire Server
 -------------------

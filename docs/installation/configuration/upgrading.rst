@@ -4,7 +4,7 @@ Upgrading Fire
 Stop Fire Server
 --------------------------
 
-Stop Fire server using the below command::
+Stop Fire server using the below command from Fire home directory::
 
     run-fire-server.sh stop
 
@@ -40,15 +40,15 @@ Upgrade the H2 or MySQL database
 ``The above command creates or updates the existing db if one already exists``
 
 
-If Pyspark engine is enabled, upgrade python dependencies as well
+If PySpark engine is enabled, upgrade python dependencies as well
 --------------------------------
 
-* Activate the python environment by running ``source env/bin/activate``
+* Activate the python environment by running from Fire home directory ``source env/bin/activate``
 * Upgrade the dependencies in the environment via ``pip install -r fire-x.y.x/dist/fire/requirements.txt``
 
 Restart Fire Server
 -------------------
 
-Restart the Fire Server using the below command::
+Restart the Fire Server using the below command from Fire home directory::
 
   run-fire-server.sh start

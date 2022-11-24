@@ -8,8 +8,10 @@ More details of the MySQL database can be found here : https://www.mysql.com/
 Install MySQL
 -------------
 
-* Install MySQL on a machine.
+* Install MySQL on a machine or you can use MySQL running on Cloud Infrastructure.
 * It might be easier to install it on the same machine you are installing Fire on.
+
+.. note:: Make sure that MySQL DB should be accessible from Fire Machine.
 
 Create the DB for Fire in MySQL
 -------------------------------

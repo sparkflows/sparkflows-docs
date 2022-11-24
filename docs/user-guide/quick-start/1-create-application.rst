@@ -17,7 +17,7 @@ Specify Name and Description, and click on the ``Create`` button.
    :alt: Quickstart
    :width: 90%
 
-The new empty project is created and ready to use.  
+The new Empty project is created and ready to use.  
 
 
 .. figure:: ../../_assets/tutorials/quickstart/3.png

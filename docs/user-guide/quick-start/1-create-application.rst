@@ -13,13 +13,13 @@ From the landing page of Fire Insights, click on 'Create Project' to create a ne
 Specify name and description, and click on the 'Create' button. 
 
 
-.. figure:: ../../_assets/tutorials/quickstart/2.PNG
+.. figure:: ../../_assets/tutorials/quickstart/2.png
    :alt: Quickstart
    :width: 90%
 
 The new project is created and ready to use.  
 
 
-.. figure:: ../../_assets/tutorials/quickstart/3.PNG
+.. figure:: ../../_assets/tutorials/quickstart/3.png
    :alt: Quickstart
    :width: 90%

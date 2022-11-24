@@ -9,7 +9,7 @@ Fire Insights is build to scale horizontally for the number of users and number 
 Fire Insights achieves this in a few ways:
 
 * Fire Insights can be installed on one or more machines. They can be running in Kubernetes or behind a load balancer.
-* All of the instances connect to an RDBMS (RDS, MySQL, Postgress etc.). The external RDBMS can be scaled up as needed. Fire Insights only stores the metadata into the RDBMS and hence its size is small.
+* All of the instances connect to an RDBMS (RDS, MySQL, Postgres etc.). The external RDBMS can be scaled up as needed. Fire Insights only stores the metadata into the RDBMS and hence its size is small.
 * Fire Insights pushes all compute to the cluster. The cluster can be Databricks, AWS EMR, AWS Glue, Cloudera, Azure HDInsights, Google Data Proc, Apache Spark Standalone, Kubernetes etc. Since, all compute is pushed to the cluster which can be scaled horizontally, Fire Insights scales horizontally end to end.
 
 
@@ -33,7 +33,7 @@ All the pages in Fire Insights are built to be fast and lean. Let us take the fo
 * QA environment in which the QA is testing out the various projects. Not much workflow editing is happening in this environment. 
 * Production environment in which the scheduled jobs are executing. They could also be getting triggers by external programs or events. Not much workflow editing is happening in this environment. However, many jobs are getting execution on an hourly basis.
 
-Each development instance of Fire Insights can handle 40-100 users, assuming 30+ GB of RAM and 10+ vCPU cores for the machine. As the number of users increase, the size of the machine can be increased or more machines added. 
+Each development instance of Fire Insights can handle 200-500 users, assuming 30+ GB of RAM and 10+ vCPU cores for the machine. As the number of users increase, the size of the machine can be increased or more machines added. 
 
 Each production instance can handle thousands of jobs running hourly. For high workload environments 30+ GB of RAM is recommended per instance. Also a scaled up RDBMS is recommended.
 

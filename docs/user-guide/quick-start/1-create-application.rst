@@ -17,7 +17,7 @@ Before you start creating a workflow, you will need to create a ``Project``. A p
 
   .. figure:: ../../_assets/tutorials/quickstart/2.png
    :alt: Quickstart
-   :width: 90%  
+   :width: 80%  
 
 * The new Empty project is created and ready to use.  
 

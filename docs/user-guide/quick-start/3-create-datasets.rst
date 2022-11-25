@@ -16,13 +16,13 @@ The steps involved in creating a dataset are:
 
 * Click on ``Create`` and choose the option from the dropdown to create the ``Dataset``. Fire Insights enables you to create ``Dataset`` using three options naemly ``From Existing Files``, ``By Uploading New File`` and ``Using Connections``. Here we choose ``From Existing Files`` option.
  
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page1.PNG
+  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page1.png
    :alt: Dataset
    :width: 90%
 
 * In the pop-up choose ``CSV`` and then click ``OK``.
  
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.PNG
+  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.png
    :alt: Dataset
    :width: 90% 
 
@@ -36,29 +36,16 @@ The steps involved in creating a dataset are:
   * ``Delimiter``: Indicates the delimiter to be used between the fields in the data.
   * ``Path``: Path for the location of the file or directory containing the data files for the dataset.
   * ``Drop Sepcial Character in Column Name``: Indicate whether the dataset should drop special character in columnname.  
-
-
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page4.PNG
-   :alt: Dataset
-   :width: 90% 
-
  
 * Now click on ``Update dataset/schema`` to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.PNG
+  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.png
    :alt: Dataset
    :width: 90% 
 
-* In the example, a dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns.You can view the file by clicking ``View`` button next to ``Browse``.
+* In the example, a dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns.You can view the file by clicking ``Eye icon`` button next to ``Browse``. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
  
-  .. figure:: ../../_assets/tutorials/dataset/2.PNG
-   :alt: Dataset
-   :width: 90%
-   
-
-* If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
- 
-  .. figure:: ../../_assets/tutorials/dataset/4.PNG
+  .. figure:: ../../_assets/tutorials/dataset/4.png
    :alt: Dataset
    :width: 90%
   
@@ -67,7 +54,7 @@ The steps involved in creating a dataset are:
 
 **One can see the list of all the datasets that belong to the project under the ``Datasets`` tab.**
  
-.. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.PNG
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.png
    :alt: Dataset
    :width: 90%
 

@@ -7,7 +7,7 @@ The steps involved in executing a workflow are:
 
 * Click on the ``Workflows`` tab.
 * Click on the ``Play`` button.
-* Specify the parameters(if any).
+* Specify the parameters, if any.
 * Click on ``Execute``
 
 

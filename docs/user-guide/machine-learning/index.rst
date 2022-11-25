@@ -2,9 +2,9 @@
 Machine Learning
 ==========
 
-Fire Insights has extensive ML capabilities. It has a number of nodes for doing ML.
+Sparkflows has extensive ML capabilities. It has a number of processors to enable Machine Learning usecases at scale.
 
-Fire Insights supports a variety of ML engines : Apache Spark ML, H2O, Scikit-learn, Prophet, ARIMA, Keras and Statsmodel.
+Sparkflows supports a variety of ML engines : Apache Spark ML, H2O, Scikit-learn, Prophet, ARIMA, Keras and Statsmodels.
 
 .. panels::
     :container: container-lg pb-3

@@ -52,7 +52,7 @@ The steps involved in creating a dataset are:
 
 * Now click ``Save`` to save the new dataset and you are ready to use it in your workflows.
 
-**One can see the list of all the datasets that belong to the project under the ``Datasets`` tab.**
+**One can see the list of all the datasets that belong to the project under the Datasets tab.**
  
 .. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.png
    :alt: Dataset

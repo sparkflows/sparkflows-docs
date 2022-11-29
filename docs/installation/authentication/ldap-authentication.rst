@@ -34,10 +34,10 @@ Below are the parameters which need to be set to the appropriate values based on
      - ldap://localhost:10389
    * - ldap_base
      - The distinguished name to use as a search base for finding users and groups. This should be similar to ‘dc=sparkflows,dc=com’.
-     - dc=sparkflows,dc=com
+     - DC=ldap,DC=sparkflows,DC=net
    * - ldap_userDn
      - Distinguished name of the user to bind as. This is used to connect to LDAP/AD for searching user and group information. This may be left blank if the LDAP server supports anonymous binds.
-     - uid=john,ou=development,dc=sparkflows,dc=com
+     - CN=Administrator,CN=Users,DC=ldap,DC=sparkflows,DC=net
    * - ldap_password
      - The password of the bind user.
      - xxxxxxxx

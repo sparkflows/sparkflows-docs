@@ -5,7 +5,7 @@ Sparkflows can be configured to authenticate the user against LDAP. Users have t
 
 The following configuration parameters have to be set in ``ldap.properties`` file inside ``conf`` folder in the home directory.
 
-.. figure:: ../..//_assets/installation/ldap/ldap_properties_screen.PNG
+.. figure:: ../..//_assets/installation/ldap/ldap_properties_file.PNG
    :alt: LDAP 
    :width: 80%
    
@@ -28,7 +28,7 @@ Below are the parameters which need to be set to the appropriate values based on
      - LDAP_DB
    * - ldap_attributeUserName
      - LDAP Name of the attribute for User Name.
-     - userName  
+     - sAMAccountName  
    * - ldap_URL
      - The URL of the LDAP server. The URL must be prefixed with ldap:// or ldaps://. The URL can optionally specify a custom port, for example: ldaps://ldap_server.example.com:1636.
      - ldap://localhost:10389
@@ -41,29 +41,14 @@ Below are the parameters which need to be set to the appropriate values based on
    * - ldap_password
      - The password of the bind user.
      - xxxxxxxx
-   * - ldap_dns_patterns
-     - The ldap_dns_patterns.
-     - uid={0},ou=Users
-   * - ldap_userSearchBase
-     - User Search Base
-     - Users
    * - ldap_userSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
-     - For Active Directory : (objectClass=user)     Other Example : (uid={0})
-   * - ldap_groupSearchBase
-     - Group Search Base
-     - ou=Users
-   * - ldap_groupSearchFilter
-     - Group Search Filter
-     - For Active Directory : (objectClass=group)     Other Example : (member={0}) 
-   * - ldap_attributePassword
-     - LDAP user password attribute for User's password
-     - userPassword
+     - (&(objectClass=user)(sAMAccountName={0}))
    * - ldap_ConfigurationFilePath
      - default ldap property file Path
      - conf/ldap.properties
 
-.. note:: Make sure to update the domain name which is accessible from Sparkflows machine
+.. note:: Make sure to update the localhost with your domain name or ip which is accessible from Sparkflows machine
 
 Test LDAP
 ------

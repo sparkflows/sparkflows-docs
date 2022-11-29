@@ -69,7 +69,7 @@ Sparkflows provides the capability to test the LDAP conifguration from UI.
    :width: 80%
 
      
-.. note:: For ``ldap.UserSearchFilter`` we can use strings like ``(uid={USERNAME})``  
+.. note:: For ``ldap.UserSearchFilter`` we can use strings like ``&(objectClass=user)(sAMAccountName={0}))``  
 In this case {USERNAME} would be replaced by the real username of the user when searching in LDAP during ``Add User``.
      
 LDAP Certificate

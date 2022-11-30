@@ -44,9 +44,19 @@ Below are the parameters which need to be set to the appropriate values based on
    * - ldap_userSearchFilter
      - The base filter for searching for users. For Active Directory, this is typically ‘(objectClass=user)’.
      - (&(objectClass=user)(sAMAccountName={0}))
+   * - ldap_userSearchBase
+     - The location in the directory where the search for a particular directory object begins.
+     - CN=Users (optional)
+   * - ldap_groupSearchBase
+     - Defines the part of the directory tree under which group searches should be performed.
+     - CN=Users (optional)
+   * - ldap_groupSearchFilter
+     - The filter which is used to search for group membership.
+     - The default is uniqueMember={0} (optional)   
    * - ldap_ConfigurationFilePath
      - default ldap property file Path
      - conf/ldap.properties
+     
 
 .. note:: Make sure to update the localhost with your domain name or ip which is accessible from Sparkflows machine
 

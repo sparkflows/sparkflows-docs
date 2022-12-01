@@ -135,10 +135,10 @@ Install it on your Databricks cluster with the below::
    :alt: Databricks
    :width: 90%
 
-Install fbprophet package on databricks
+Install prophet package on databricks
 -------------------------------------
 
-Install needed python package for fbprophet using init script on databricks cluster
+Install needed python package for prophet using init script on databricks cluster
 
 ::
 
@@ -147,7 +147,7 @@ Install needed python package for fbprophet using init script on databricks clus
     pip uninstall -y pystan
     pip install pystan==2.19.1.1
     pip install numpy==1.17.3
-    pip install fbprophet==0.7.1
+    pip install prophet==1.1.1
     
 
 add above in a script file, upload in DBFS and go to Advanced Options, select Init Scripts and add DBFS path to it 

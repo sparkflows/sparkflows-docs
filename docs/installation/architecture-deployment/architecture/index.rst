@@ -1,7 +1,7 @@
-Fire Insights Insights Architecture
+Fire Insights Architecture
 -----------------
 
-Fire Insighs consists of three core components:
+Fire Insights consists of three core components:
 
   * **Web Browser** for defining end-to-end workflows for building data products and applications
 

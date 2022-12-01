@@ -66,7 +66,7 @@ Upgrade pip version
    :align: center
    :width: 60%
 
-Install dependency for fbprophet package (CentOS 7)
+Install dependency for prophet package (CentOS 7)
 -----------------------------------------
 
 Run below command with sudo privilege
@@ -101,7 +101,7 @@ Run below command with sudo privilege
    :align: center
    :width: 60%    
 
-* ``pip install fbprophet``
+* ``pip install prophet``
 
 .. figure:: ../_assets/configuration/fbprophet.PNG
    :alt: Installations

@@ -103,7 +103,7 @@ Sample code for the same is as below::
       initLdapConnection()
 
 
-Testing Getting User Details from LDAP via ldapsearch and ldapauth command
+Testing Getting User Details from LDAP via ldapsearch command
 -------------------------------------------------------------
 Need to install the following dependencies::
 
@@ -121,7 +121,4 @@ Sample command for the same is as below::
 
   ldapsearch -D "cn=read-only-admin,dc=example,dc=com" -w password -p 389 -h ldap.forumsys.com -b "ou=scientists,dc=example,dc=com" -s base -v
   
-Sample command to authenticate user with LDAP::
-  
-  ldapbind -h ldap.forumsys.com -p 389 -D "cn=read-only-admin,dc=example,dc=com" -w password
 

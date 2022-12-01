@@ -96,7 +96,7 @@ Install the other required packages:
    :width: 45%
 
 
-Install dependency for fbprophet package (Windows 10)
+Install dependency for prophet package (Windows 10)
 ----------------------------------------- 
 
 Install pystan:
@@ -109,17 +109,17 @@ Install pystan:
    :alt: Installations
    :width: 45%
 
-Install fbprophet:
+Install prophet:
 
 ::
 
-    conda install -c conda-forge fbprophet
+    conda install -c conda-forge prophet
 
 .. figure:: ../../_assets/installation/fbprophet_conda.PNG
    :alt: Installations
    :width: 45%
 
-Check the version of fbprophet Installed:
+Check the version of prophet Installed:
 
 ::
 

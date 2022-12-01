@@ -110,7 +110,7 @@ Upgrade pip version with 20.0 or above::
    :alt: Installations
    :width: 90%  
    
-Install dependency for fbprophet package (Ubuntu 18.04)
+Install dependency for prophet package (Ubuntu 18.04)
 -----------------------------------------
 
 * pystan dependency::
@@ -130,9 +130,9 @@ Install dependency for fbprophet package (Ubuntu 18.04)
    :alt: Installations
    :width: 90% 
 
-* fbprophet dependency::
+* prophet dependency::
 
-   pip install fbprophet
+   pip install prophet
 
 .. figure:: ../../_assets/configuration/fbprophet.PNG
    :alt: Installations

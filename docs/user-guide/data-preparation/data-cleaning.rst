@@ -43,6 +43,8 @@ It does following processing of data:
 *	Remove rows from incoming dataset having Null value in columns using ``Drop Rows With Null`` processor. 
 * 	Output data is printed using Print node
 
+**Drop Rows with Null Node Example workflow**
+
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-workflow.png
    :alt: datacleaning_userguide
    :width: 90%
@@ -75,13 +77,15 @@ Output of ``Drop Rows With Null`` node displaying rows that don't have null valu
 Find And Replace Using Regex
 ----------------------------------------
 
-Below is a sample workflow which contains ``Find And Replace Using Regex`` processor in Fire Insights. It demonstrates usage of ``Find And Replace Using Regex`` node to replace a string pattern with another using Regex Expression.
+Below is a sample workflow which contains the ``Find And Replace Using Regex`` processor in Fire Insights. It demonstrates the usage of ``Find And Replace Using Regex`` node to replace a string pattern with another using a Regex Expression.
 
-It does following processing of data:
+It process the dataset as such:
 
 *	Reads incoming Dataset
 *	Replaces a string pattern with another using ``Find And Replace Using Regex`` node. In this workflows date separator is replced from '-' to '\/' 
 * 	Output data is printed using Print node
+
+**Find and Replace Using Regex Node Example workflow**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-workflow.png
    :alt: datacleaning_userguide
@@ -129,6 +133,8 @@ It does following processing of data:
 *	Replaces a string pattern with another using ``Find And Replace Using Regex Multiple`` node. In this workflows date separator is replced from '-' to '\/' in ``Date Of Joining``, spaces in ``Salary`` is replaced with a comma, 'BAD' in ``Performance`` is replaced with 'NOT SO GOOD'.  
 * 	Output data after replacement is printed using Print node
 
+**Find and Replace Using Regex Multiple Node Example workflow**
+
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-workflow.png
    :alt: datacleaning_userguide
    :width: 90%
@@ -173,6 +179,9 @@ It does following processing of data:
 *	Base and Dedup datasets are compared using ``Dedup`` node. ``Confidence Score`` is calculated as a result of comparison which indicates extent to which both datasets match.
 * 	Output data listing ``Confidence Score`` is printed using Print node
 
+**Dedup Node Example Workflow**
+
+
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-workflow.png
    :alt: datacleaning_userguide
    :width: 90%
@@ -202,6 +211,7 @@ It does following processing of data:
 *	Column name displaying result of each column comaprison needs to be entered in ``Output Column`` box.
 *	Output of this node would contain final Confidence Score computed.
 
+
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-config.png
    :alt: datacleaning_userguide
    :width: 90%
@@ -224,6 +234,8 @@ It does following processing of data:
 *	Reads incoming Dataset
 *	Drops duplicate rows from incoming dataset having same values in the selected columns using ``Drop Duplicate Rows`` node.
 * 	Output data containing only unique rows is printed using Print node
+
+**Drop Duplicate Rows Workflow**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-workflow.png
    :alt: datacleaning_userguide
@@ -265,6 +277,8 @@ It does following processing of data:
 *	Removes duplicate rows from incoming dataset having same values in the selected columns using ``Remove Duplicate Rows`` node. It retains one of the duplicate rows in the output either first or last based on the selection.
 * 	Output data containing only unique rows is printed using Print node
 
+**Remove Duplicate Rows Node Example workflow**
+
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-workflow.png
    :alt: datacleaning_userguide
    :width: 90%
@@ -305,6 +319,8 @@ It does following processing of data:
 *	Reads incoming Dataset
 *	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using ``Remove Unwanted Characters`` node. 
 * 	Output data containing transformed data is printed using Print node
+
+**Remove Unwanted Characters  Example workflow**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-workflow.png
    :alt: datacleaning_userguide
@@ -350,6 +366,8 @@ It does following processing of data:
 *	Reads incoming Dataset
 *	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using ``Remove Unwanted Characters Multiple`` node. Different columns are configured to remove different set of characters.
 * 	Output data containing transformed data is printed using Print node
+
+**Remove Unwanted Characters Multiple Example workflow**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-workflow.png
    :alt: datacleaning_userguide

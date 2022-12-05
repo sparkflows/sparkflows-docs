@@ -66,15 +66,26 @@ Test LDAP
 Sparkflows provides the capability to test the LDAP conifguration from UI.
 
 * Admin needs to place a file by name ``ldap.properties`` in the sparkflows ``HOME/conf`` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
-* Now, the Admin can use this to test out the LDAP configuration and finalize it. 
-* Once the correct configuration is figured out, admin needs to place the same configuraions in the ``ldap.properties`` and restart the server. 
-* Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, and it should authenticate successfully.
+* Now, the Admin can use this to test out and play around with different LDAP configuration. 
+* Admin can also get the ``User Attributes``, from the LDAP while trying to figure out the LDAP config as shown below.
+* Admin can also test out if login works fine for users with the LDAP configurations by choosing the `Authenticate User`` option.
+* Once the correct configuration is figured out, admin needs to place the same configuraions in the ``ldap.properties`` and restart the server.
+* Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, and it should authenticate successfully against the LDAP.
 
-.. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
+
+  .. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
+   :alt: LDAP 
+   :width: 90%
+
+  .. figure:: ../..//_assets/installation/ldap/ldap_test_connection.png
    :alt: LDAP 
    :width: 80%
 
-.. figure:: ../..//_assets/installation/ldap/ldap_test_connections.PNG
+  .. figure:: ../..//_assets/installation/ldap/ldap_attributes.png
+   :alt: LDAP 
+   :width: 80%
+
+  .. figure:: ../..//_assets/installation/ldap/ldap_authenticate_user.png
    :alt: LDAP 
    :width: 80%
 

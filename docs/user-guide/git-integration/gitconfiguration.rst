@@ -20,38 +20,23 @@ Enable Git Repository
    :width: 60%
 
 
-Add git credentials with Token
+Configure Git Credentials
 --------------------------------------------
 
 - On the right corner, click on the nine squares.
 - Select ``Git Configuration``.
 - Git preferences dialog will appear.
-- Select ``Token``.
-- Provide the ``git Token``.
-- Click ``SAVE``.
+- Provide User Name for Github account. 
+- Provide the Token/Password for github account. 
 
 .. figure:: ../../_assets/git/git-cred-token.png
    :alt: GitCredentials
    :width: 60%
 
-Add git credentials with Username/Password
---------------------------------------------
 
-- On the right corner, click on the nine squares.
-- Click on the ``Git Configuration``.
-- Git preferences dialog will appear.
-- Select ``Password``
-- Provide the git ``username/password``.
-- Click ``SAVE``.
+Clicking ``Test Credential`` will give the following result:
 
-.. figure:: ../../_assets/git/git_password.PNG
-   :alt: GitCredentials
-   :width: 60%
-
-The system validates the user credentials and displays a success message.
-You can also update the credentials anytime.
-
-.. figure:: ../../_assets/git/git-cred-update-success.png
+.. figure:: ../../_assets/git/git-cred-success.png
    :alt: Success
    :width: 60%
 

@@ -55,9 +55,9 @@ Create and Update List of Users
 
 This script will create/update User details based on provided list of users in the file.
 
-**Command**: 
+**Command**:: 
 
-`users_create_automation.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --users_file_path="path_of_file_with_list_of_users"`
+   users_create_automation.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --users_file_path="path_of_file_with_list_of_users"
 
 **Arguments**:
 
@@ -67,7 +67,7 @@ The above script expects the below command line arguments:
 
 `--access_token` : The access token generated from the Administrative tab of Sparkflows.
 
-`--users_file_path` : The path of the file which has the list of Users. Format of each row in the file should be in the format below.Multiple roles and group ids can be separated with pipe.
+`--users_file_path` : The path of the file which has the list of Users. Format of each row in the file should be in the format below. Multiple roles and group ids can be separated with pipe.
 
 ```<username>,<password>,<first_name>,<last_name>,<email>,<role_ids>,<group_ids>,<is_superuser>,<is_active>```
 
@@ -81,7 +81,7 @@ test,test@123,test,test,test@email.com,role1|role2,group1|group1,true,true
    
 **Example to update the details of users**: 
 
-   users_create_automation.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --users_file_path="new_users_file_path"
+   ``users_create_automation.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --users_file_path="new_users_file_path"``
 
    
 Import Projects
@@ -91,9 +91,9 @@ Import Projects
 
 This script will import project workflows, datasets, analytics apps and pipelines present in exported zip file in which it will read through that project folder whose name is given in arguments.
 
-**Command**:
+**Command**::
 
-`import_project.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --project_zip_path="Projects_xxxx.zip" --selected_project_name="yyyyyyy"`
+   import_project.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --project_zip_path="Projects_xxxx.zip" --selected_project_name="yyyyyyy"
 
 **Arguments**:
 
@@ -111,18 +111,18 @@ The above script expects the below command line arguments:
 
    
 
-**Example to import as a new project**:
+**Example to import as a new project**::
 
-import_project.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --project_zip_path="Projects_133535.zip" --selected_project_name="analytics"
+   import_project.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --project_zip_path="Projects_133535.zip" --selected_project_name="analytics"
 
 Projects_133535.zip can have multiple project folders. Above command will create the new project with name analytics.
    
    
-**Example to import into an existing project**: 
+**Example to import into an existing project**:: 
 
-import_project.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --project_zip_path="Projects_133535.zip" --selected_project_name="analytics" --project_id "42"
+   import_project.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --project_zip_path="Projects_133535.zip" --selected_project_name="analytics" --project_id "42"
    
-Above command will update the existing project with id 42.
+The command above will update the existing project with id 42.
    
    
 Export Projects
@@ -132,9 +132,9 @@ Export Projects
 
 This script will export the project workflows, datasets, analytics apps and pipelines into zip file. Inside the zip file there will be folder for each project.
 
-**Command**:
+**Command**::
 
-`export_project.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --project_ids="yyy|zzz"`
+   export_project.py --fire_host_url="https://host_name:port" --access_token="xxxxxxxxxxxx" --project_ids="yyy|zzz"
 
 **Arguments**:
 
@@ -146,10 +146,10 @@ The above script expects the below command line arguments:
 
 `--project_ids` : Pass the project ID's of the porjects that need to be Exported seperated by a Pipe operator
 
-**Example to export multiple projects**:  
+**Example to export multiple projects**::  
 
    export_project.py --fire_host_url="https://localhost:8080" --access_token="cacaksncaskjuuonn777-cdck" --project_ids="1|3"
    
-   Above command will create one zipfolder with separate sub-folder for each project id that is passed in via the --project_ids argument.
+The command above will create one zipfolder with separate sub-folder for each project id that is passed in via the --project_ids argument.
    
    

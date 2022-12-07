@@ -8,7 +8,7 @@ You can create new datasets using JDBC data type from MySQL DB using connection 
 Creating Dashboard
 --------------------
 
-- For creating a Dashboard, you need to create MySQL Connection and then create a JDBC dataset using it.
+- For creating a Dashboard, you need to create MySQL Connection, add Google REST API key which is used in displaying the Google Maps and then create a JDBC dataset using it.
 
 You can define a new dataset by clicking on the ``Create Dataset`` button Using Connections option on the Dataset page.
 

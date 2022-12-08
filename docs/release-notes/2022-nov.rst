@@ -5,43 +5,40 @@ These features and Sparkflows platform improvements were released in November 20
 
 Git Enhancements
 -------
+Sparkflows has enhanced its GIT capabilities by adding the below mentioned features:
 
-Sparkflows Comes up with Git Enhancements with below features:
+- Project push to Git action
 
-- Project push to Git
+  We can now push a Project workspace directly to Git from the Project listing page.
 
-Sparkflows enable you to push Project to Git.
+  We will first follow the steps to link a project to its Git repository and then push that Project to Git. The below highlighted actions icon represent on how we can utilize the push action from the Project list page.
 
-Once the Project is linked with Git, you can push Specific Project to Git, using below actions icon.
+  .. figure:: ..//_assets/releases/november-2022/git_project-push.PNG
+    :alt: push
+    :width: 80%
 
-.. figure:: ..//_assets/releases/november-2022/git_project-push.PNG
-   :alt: release
-   :width: 70%
+- Compare Workflow versions using the 'Git Diff' action
 
-- Git Diff of Workflow
+  We can now show the changes between the current workflow version and the previous workflow versions which has been pushed to git. 
 
-Sparkflows enable you to view ''Git Diff'' of Workflow.
+  This menu action item will be available only after a workflow has been synced with Git. On selecting the 'Git Diff' menu.
 
-Once you updated the workflow after you pushed to Git, you will see ''Git Diff'' option and on Clicking, it will show the difference with pushed to Git.
+  .. figure:: ..//_assets/releases/november-2022/git_wf_diff.PNG
+   :alt: diff
+   :width: 80%
 
-.. figure:: ..//_assets/releases/november-2022/git_wf_diff.PNG
-   :alt: release
-   :width: 70%
-
-
-.. figure:: ..//_assets/releases/november-2022/git_wf_diff_view.PNG
-   :alt: release
-   :width: 70%
+   .. figure:: ..//_assets/releases/november-2022/git_wf_diff_view.PNG
+   :alt: view
+   :width: 80%
 
 - Test Credential
 
-Sparkflows enable user to ''Test Credential'' for Git, if its configured correct or not.
+  During GIT configuration we can now test the connection between the git repository and Sparkflows project from the Configuration UI.
 
-.. figure:: ..//_assets/releases/november-2022/git_test_credential.PNG
+  .. figure:: ..//_assets/releases/november-2022/git_test_credential.PNG
    :alt: release
    :width: 70%
 
-Job Queue
+Job Queue parallelism
 ------
-
-- Job Queue enable user to execute workflow parallel.
+When running in local mode, Sparkflows has enabled multiple parallel workflow execution to be processed instead of the earlier sequential processing.

@@ -6,78 +6,76 @@ These features and Sparkflows platform improvements were released in October 202
 Pipeline Enhancements
 -------
 
-Sparkflows Comes up with pipeline permission upgrades, which enable Administrator to provide access depending on their requirement.
-
-
-Administrator can Provide access to user from role on the basis of requirement.
+Sparkflows has enhanced the access permission rights for a pipeline. With this release an Administrator can provide or revoke access to a role or an user from the UI.
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_role.PNG
    :alt: connection
+    :width: 80%
+
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_share_project.PNG
    :alt: connection
    :width: 80%
 
 
-New Node
+Additional Nodes
 ------
 
-Sparkflows Comes up with New Node.
+Sparkflows has added the below capabilities to its Pyspark workflow engine.
 
-- Read From SnowFlake in Pyspark 
+- Read From Snowflake 
 
 .. figure:: ..//_assets/releases/october-2022/snowflake_read.PNG
-   :alt: connection
-   :width: 70%
+   :alt: read snowflake
+   :width: 80%
 
-- Execute Query In SnowFlake in Pyspark 
+- Execute Query In Snowflake 
 
 .. figure:: ..//_assets/releases/october-2022/snowflake_query.PNG
-   :alt: connection
-   :width: 70%
+   :alt: query snowflake
+   :width: 80%
 
-- Write To SnowFlake in Pyspark
+- Write To Snowflake
 
 .. figure:: ..//_assets/releases/october-2022/snowflake_write.PNG
-   :alt: connection
-   :width: 70%
+   :alt: write to snowflake
+   :width: 80%
 
 
-- Save Excel
-
+- Save To Excel
 
 .. figure:: ..//_assets/releases/october-2022/excel_save.PNG
-   :alt: connection
-   :width: 70%
+   :alt: save to excel
+   :width: 80%
 
-Git Integration Enhancements
+Enhancements to Git Integration 
 --------
 
-Sparkflows enable you push pipeline to the git repository configured.
+Using Sparkflows we can now push pipeline's to the configured git repository.
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_git.PNG
-   :alt: connection
-   :width: 70%
+   :alt: pipeline
+   :width: 80%
    
-Export and Import Pipeline
+Export and Import a Pipeline
 ------
 
-Sparkflows enable you to Export and Import Pipeline from Project List page.
+We can now Export and Import a Pipeline from the Project List page.
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_export.PNG
-   :alt: connection
-   :width: 70%
+   :alt: export
+   :width: 80%
    
 .. figure:: ..//_assets/releases/october-2022/pipeline_export_msg.PNG
-   :alt: connection
-   :width: 70%   
+   :alt: message
+   :width: 80%   
 
 
-UI Enhancements
+UI Improvements
 ----------
 
-- UI Improvement in Project List, Workflow List page.
+- This release has also added UI Improvements to the Project and Workflow List pages.
 
 .. figure:: ..//_assets/releases/october-2022/wf_list.PNG
-   :alt: connection
-   :width: 70%
+   :alt: list
+   :width: 80%

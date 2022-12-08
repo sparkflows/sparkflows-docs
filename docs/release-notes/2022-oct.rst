@@ -13,11 +13,10 @@ Administrator can Provide access to user from role on the basis of requirement.
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_role.PNG
    :alt: connection
-   :width: 70%
 
 .. figure:: ..//_assets/releases/october-2022/pipeline_share_project.PNG
    :alt: connection
-   :width: 70%
+   :width: 80%
 
 
 New Node

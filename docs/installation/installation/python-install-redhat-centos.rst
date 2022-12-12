@@ -1,4 +1,4 @@
-Python Installation on Linux - Redhat/CentOS
+Python Installation on Redhat/CentOS
 ============================
 
 Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.7+.

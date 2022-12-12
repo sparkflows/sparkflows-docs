@@ -10,13 +10,26 @@ Prerequisites
 
 * Enable Hyper-V on Windows if disaled by following the steps below::
     * Goto Control Panel >> Programs >> Turn Windows Features on or off >> Enable below Hyper-V features.
+    
+      .. figure:: ../../_assets/docker-install/hyperv.png
+         :alt: Quickstart
+         :width: 90%
+         
     * Restart the System.
     * Once the system starts, verify whether the Hyper-V Manager is running.
 
 * Docker Desktop (https://docs.docker.com/docker-for-windows/install/)
     * Download the Docker Desktop Installer (As of this writing, tested with version: 4.13.1)
-    * Use this Configuration below:
+    * Use the below Configuration ( The option should be un-checked ):
+    
+      .. figure:: ../../_assets/docker-install/hyperv-docker.png
+         :alt: Quickstart
+         :width: 90%
     * Adjust the amount of cores, memory given to Docker as seen below:
+    
+      .. figure:: ../../_assets/docker-install/docker-resources.png
+         :alt: Quickstart
+         :width: 90%
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
     
 

@@ -1,7 +1,7 @@
 Docker Installation Steps on Linux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sparkflows can be installed and run on Linux (Ubuntu, CentOS) using the Docker image from the Docker Hub.
+Sparkflows can be installed and run on Linux (Ubuntu, CentOS, RHEL) using the Docker image from the Docker Hub.
 
 
 Prerequisites

@@ -15,5 +15,5 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    python-install-ubuntu.rst
    python-install-macos.rst
    python-install-windows.rst
-   load-sample-prjojects.rst
+   load-sample-projects.rst
    running-diagnostics.rst

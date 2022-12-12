@@ -5,12 +5,12 @@ Python is only needed if you need to use Python and the PySpark engine in Fire I
 
 Below are steps for installing Anaconda.
 
-  * Download Anaconda from the below Link
-     * https://www.anaconda.com/products/individual
-     * https://www.anaconda.com/products/individual#Downloads
+* Download Anaconda from the below Link
+   * https://www.anaconda.com/products/individual
+   * https://www.anaconda.com/products/individual#Downloads
  
 
-Once the download completes, run the .exe installer
+Once the download completes, run the ``.exe`` installer
 
 Click Next to confirm the installation
 ---------------------------------------

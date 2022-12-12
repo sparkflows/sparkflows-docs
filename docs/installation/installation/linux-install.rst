@@ -1,4 +1,4 @@
-Linux/Mac OS Installation
+Linux / Mac OS X Installation
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.

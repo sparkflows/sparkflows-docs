@@ -1,10 +1,10 @@
 Python Installation on Ubuntu
-============================
+=============================
 
-Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.7+.
+Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows use Python 3.7+.
 
 Check if Python 3.7+ is Installed
-----------------
+---------------------------------
 
 Use the below commands::
 
@@ -12,20 +12,16 @@ Use the below commands::
   python3.7 --version
 
 Install Python 3.7 (if not installed)
-----------------
+-------------------------------------
 
-Some References for Installing Python:
+Some References for Installing Python: (https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/ )
 
-* Ubuntu : https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
 
-Prerequisites
-+++++++++++++
+* Update the packages list and install the packages necessary to build Python source:
 
-update the packages list and install the packages necessary to build Python source::
+  ``sudo apt update``
 
-  sudo apt update
-
-.. figure:: ../../_assets/configuration/update_ubuntu.PNG
+  .. figure:: ../../_assets/configuration/update_ubuntu.PNG
    :alt: Installations
    :width: 90%
 
@@ -33,31 +29,30 @@ update the packages list and install the packages necessary to build Python sour
 
    sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev wget libbz2-dev``
 
-.. figure:: ../../_assets/configuration/software_update.PNG
+  .. figure:: ../../_assets/configuration/software_update.PNG
    :alt: Installations
    :width: 90%   
 
-Download and extract the downloaded package  
-++++++++++++++++++++++++++++++
   
-  * Download python from below Link
-     * https://www.python.org/downloads/
-     * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+* Download python from below Link
 
-Download and untar::
+  * https://www.python.org/downloads/
+  * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+* Download and untar::
   
   wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
   tar xzf Python-3.7.0.tgz
 
-.. figure:: ../../_assets/configuration/download_tar.PNG
+  .. figure:: ../../_assets/configuration/download_tar.PNG
    :alt: Installations
    :width: 90%
 
-Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
+* Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
 
-  cd Python-3.7.0
+  ``cd Python-3.7.0``
 
-.. figure:: ../../_assets/configuration/cd_python.PNG
+  .. figure:: ../../_assets/configuration/cd_python.PNG
    :alt: Installations
    :width: 90%
 
@@ -65,7 +60,7 @@ Next, navigate to the Python source directory and run the configure script which
 
   ./configure --enable-optimizations
  
-.. figure:: ../../_assets/configuration/configure_ubuntu.PNG
+  .. figure:: ../../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
    :width: 90%
    
@@ -73,7 +68,7 @@ Next, navigate to the Python source directory and run the configure script which
  
    make altinstall
 
-.. figure:: ../../_assets/configuration/make.PNG
+  .. figure:: ../../_assets/configuration/make.PNG
    :alt: Installations
    :width: 90%
 
@@ -117,7 +112,7 @@ Install dependency for prophet package (Ubuntu 18.04)
   
    pip install pystan
 
-.. figure:: ../../_assets/configuration/pystan.PNG
+  .. figure:: ../../_assets/configuration/pystan.PNG
    :alt: Installations
    :width: 90% 
 
@@ -126,7 +121,7 @@ Install dependency for prophet package (Ubuntu 18.04)
 
    pip install convertdate
 
-.. figure:: ../../_assets/configuration/convertdate.PNG
+  .. figure:: ../../_assets/configuration/convertdate.PNG
    :alt: Installations
    :width: 90% 
 
@@ -134,7 +129,7 @@ Install dependency for prophet package (Ubuntu 18.04)
 
    pip install prophet
 
-.. figure:: ../../_assets/configuration/fbprophet.PNG
+  .. figure:: ../../_assets/configuration/fbprophet.PNG
    :alt: Installations
    :width: 90% 
 
@@ -142,21 +137,18 @@ Install dependency for prophet package (Ubuntu 18.04)
    
    pip list
 
-.. figure:: ../../_assets/configuration/piplist.PNG
+  .. figure:: ../../_assets/configuration/piplist.PNG
    :alt: Installations
    :width: 90% 
 
-Install Other Packages
-----------------------
+Install required packages
+-------------------------
 
-Install the required packages::
+Install the required python packages for Fire Insights::
 
-    cd fire-x.y.x/dist/fire
-    pip install -r requirements.txt
+  pip install -r fire-x.y.x/dist/fire/requirements.txt
    
-``requirements.txt`` file is available in the installation directory of fire insights::
-
-    fire-x.y.x/dist/fire/requirements.txt
+``requirements.txt`` file is available in the installation directory of Fire Insights.
 
 Delete a venv
 +++++++++++++

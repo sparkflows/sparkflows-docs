@@ -9,9 +9,7 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    docker-install-windows.rst
    docker-install-linux.rst
    installer.rst
-   linux-prerequisites.rst
    linux-install.rst
-   windows-prerequisites.rst
    windows-install.rst
    python-install-linux.rst
    python-install-macos.rst
@@ -19,5 +17,3 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    python-install-ubuntu.rst
    load_example.rst
    running-diagnostics.rst
-
-   

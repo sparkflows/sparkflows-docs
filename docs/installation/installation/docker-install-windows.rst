@@ -9,7 +9,7 @@ Prerequisites
 * Windows 10 Pro / Enterprise / Education with support for Hyper-V (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements)
 
 * Enable Hyper-V on Windows if disaled by following the steps below::
-    * Goto Control Panel >> Programs >> Turn Windows Features on or off >> Enable below Hyper-V features.
+    * Goto ``Control Panel`` >> ``Programs`` >> ``Turn Windows Features on or off`` >> ``Enable below Hyper-V features``.
     
       .. figure:: ../../_assets/docker-install/hyperv.png
          :alt: Quickstart
@@ -36,13 +36,18 @@ Prerequisites
 Installation Steps
 ---------------------------
 
-* Download/Pull the Sparkflows docker image.
+* Pull the latest Sparkflows docker image from Docker hub::
+
+    docker pull sparkflows/fire:xx.yy
+
 
 * Start the docker image using the `docker run` command below::
+    
+    docker run -p 8080:8080 -p 9443:9443 -v $SPARKFLOWS_DATA:/usr/local/fire-xx.yy -v $SPARKFLOWS_DB:/root -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:xx.yy
 
 * Open your web browser and navigate to:: 
   
-    http://localhost :8080
+    http://localhost:8080
 
 * Login with:: 
 

@@ -6,7 +6,7 @@ Sparkflows can be installed and run on Windows 10 using the Docker image from th
 
 Prerequisites
 -------------
-* Windows 10 OS with Pro / Enterprise / Education with support for Hyper-V (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements)
+* Windows 10 Pro / Enterprise / Education with support for Hyper-V (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements)
 
 * Enable Hyper-V on Windows if disaled by following the steps below::
     * Goto Control Panel >> Programs >> Turn Windows Features on or off >> Enable below Hyper-V features.
@@ -44,11 +44,13 @@ Installation Steps
     You may change these usernames and passwords in Fire under the menu Administration/Users 
 
 
-Stopping the Sparkflows docker
+Stopping the Sparkflows docker image
 ------------------------
 * Get the running container name of the Sparkflows image::
+
      docker ps
 * Stop the container by::
+
      docker stop image_name
 
     

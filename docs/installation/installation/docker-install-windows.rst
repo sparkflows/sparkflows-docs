@@ -21,7 +21,7 @@ Prerequisites
 
 * Docker Desktop (https://docs.docker.com/docker-for-windows/install/)
     * Download the Docker Desktop Installer (As of this writing, tested with version: ``4.13.1``)
-    * Use the below Configuration ( The option should be ``un-checked`` ):
+    * Use the below Configuration (The option should be ``un-checked`` ):
     
       .. figure:: ../../_assets/docker-install/hyperv-docker.png
          :alt: Quickstart

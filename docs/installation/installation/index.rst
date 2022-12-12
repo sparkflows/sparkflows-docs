@@ -6,8 +6,8 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
 .. toctree::
    :maxdepth: 2
 
-   docker-install-windows.rst
-   docker-install-linux.rst
+   docker-windows-install.rst
+   docker-linux-install.rst
    laptop-desktop-installer.rst
    linux-macos-install.rst
    windows-install.rst

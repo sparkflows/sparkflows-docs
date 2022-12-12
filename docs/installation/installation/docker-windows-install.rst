@@ -41,7 +41,12 @@ Installation Steps
 
     docker pull sparkflows/fire:py_3.2.1_3.1.0
 
+* Create the directories to be mounted::
 
+   mkdir /c/Users/sparkflows/root
+   mkdir /c/Users/sparkflows/db
+   mkdir /c/Users/sparkflows/data
+   
 * Start the docker image using the `docker run` command below::
     
     export SPARKFLOWS_ROOT=/c/Users/sparkflows/root

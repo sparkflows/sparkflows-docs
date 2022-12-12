@@ -1,21 +1,21 @@
 Load Example Project
-=============
+====================
 
-Fire Insights Comes up with Number of Example Sample Projects, which give detail information on different functionality.
+Fire Insights comes with a number of sample projects, which showcases funtionalities and provides accelerators to build usecases.
 
-Below are steps on how to load Sample Example Projects:
+Below are steps on how to load sample projects:
 
-Login to Fire Insights Application
---------------
+Login to Sparkflows with credentials
+------------------------------------
 
-Once you Login to Fire Insights Application in dashboard page, you will see option to Load Example Applications.
+On the dashboard page, you will see option to Load Example Applications.
 
 .. figure:: ../../_assets/installation/load_example/sample_project.PNG
    :alt: Example application
    :width: 60% 
    
 Click on Load Example Applications
---------------
+----------------------------------
 
 Once you Click on Load Example Applications, it will take you to new page.
 
@@ -24,30 +24,30 @@ Once you Click on Load Example Applications, it will take you to new page.
    :width: 60%
 
 Select Sample data path
---------------
+-----------------------
 
-Select Sample data path, if it is copied to any s3 location, HDFS, DBFS, Local or left empty to get default path used.
+Select sample data path if the sample projects are copied to s3 location, HDFS, DBFS or Local. Leave the path as empty to pull the default location.
 
 .. figure:: ../../_assets/installation/load_example/new_page.PNG
    :alt: Example application
    :width: 60%
 
-Once the above steps done, on Clicking Ok, you will see successful msg.
+Click ``Ok`` and then you would see a Success message
 
 .. figure:: ../../_assets/installation/load_example/load_example.PNG
    :alt: Example application
    :width: 60%
 
-.. note:: Make Sure empty is only applicable when Fire Insights running in Standalone mode.
+.. note:: Make Sure empty is only applicable when Sparkflows is running in Standalone mode.
 
 Check dashboard
----------
+---------------
 
-Once the Example Project is being lodaed you will see different projects.
+Once the sample projects are loaded one can see a list of projects.
 
 .. figure:: ../../_assets/installation/load_example/project.PNG
    :alt: Example application
    :width: 60%
    
-Now you can start Exploring different workflow, dataset etc. in different projects.   
+Now you can start exploring different workflows, datasets among others.  
    

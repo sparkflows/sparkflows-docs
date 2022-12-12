@@ -2,7 +2,7 @@ Python Installation on MacOS
 =============================
 
 
-Python is only needed if you need to use Python and the PySpark engine enabled in Fire Insights. Python modules in Fire Insights use Python 3.7+.
+Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows use Python 3.7+.
 
 Check if Python 3.7+ is Installed
 ---------------------------------

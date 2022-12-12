@@ -13,8 +13,8 @@ Prerequisites
     * Goto ``Control Panel`` >> ``Programs`` >> ``Turn Windows Features on or off`` >> ``Enable below Hyper-V features``.
     
       .. figure:: ../../_assets/docker-install/hyperv.png
-         :alt: Quickstart
-         :width: 90%
+         :alt: hyperv
+         :width: 50%
          
     * Restart the System.
     * Once the system starts, verify whether the Hyper-V Manager is running.
@@ -24,13 +24,13 @@ Prerequisites
     * Use the below Configuration (The option should be ``un-checked`` ):
     
       .. figure:: ../../_assets/docker-install/hyperv-docker.png
-         :alt: Quickstart
-         :width: 90%
+         :alt: hyperv-docker
+         :width: 50%
     * Adjust the amount of cores, memory given to Docker as seen below:
     
       .. figure:: ../../_assets/docker-install/docker-resources.png
-         :alt: Quickstart
-         :width: 90%
+         :alt: docker-resources
+         :width: 50%
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
     
 

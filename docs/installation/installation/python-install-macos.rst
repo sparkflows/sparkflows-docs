@@ -4,8 +4,8 @@ Python Installation on MacOS
 
 Python is only needed if you need to use Python and the PySpark engine enabled in Fire Insights. Python modules in Fire Insights use Python 3.7+.
 
-Check if Python is Installed
----------------------------
+Check if Python 3.7+ is Installed
+---------------------------------
 
 Use one of the below commands to check if the Python is installed on the machine or not::
 
@@ -13,7 +13,7 @@ Use one of the below commands to check if the Python is installed on the machine
   python3 --version
 
 
-Install Python 3 (if not already there)
+Install Python 3.7 (if not installed)
 ---------------------------------------
  
 * One way to install Python 3 on macOS is by installing Anaconda https://docs.anaconda.com/anaconda/install/mac-os/

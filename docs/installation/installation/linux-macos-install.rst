@@ -72,7 +72,7 @@ Install OpenJDK8 JDK using yum
 Installing JDK on Mac
 +++++++++++++++++
 
-- Download the ``dmg`` file
+- Download the ``DMG`` file
 - Install it by double clicking on it
 - Installing using ``brew``
 

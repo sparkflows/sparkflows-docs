@@ -1,23 +1,24 @@
 Python Installation on Redhat/CentOS
 ============================
 
-Python is only needed if you need to use Python and the PySpark engine in Fire Insights. Python modules in Fire Insights use Python 3.7+.
+Python is only needed if you need to use Python and the PySpark engine enabled in Fire Insights. Python modules in Fire Insights use Python 3.7+.
 
 Check if Python 3.7+ is Installed
-----------------
+---------------------------------
 
-Use the below commands::
+Use one of the below commands to check if the Python is installed on the machine or not::
 
-    python --version
-    python3.7 --version
+  python --version
+  python3 --version
+
     
 
 Install Python 3.7 (if not installed)
-----------------
+-------------------------------------
 
 Some References for Installing Python:
 
-  * CentOS : https://tecadmin.net/install-python-3-7-on-centos/
+* CentOS : https://tecadmin.net/install-python-3-7-on-centos/
 
 Prerequisites
 +++++++++++++
@@ -30,9 +31,11 @@ Python installation requires the GCC compiler to be available on the machine. Us
 Download and extract the downloaded package  
 ++++++++++++++++++++++++++++++
   
-  * Download python from below Link
-     * https://www.python.org/downloads/
-     * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+Download python from below Link
+
+* https://www.python.org/downloads/
+* https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
 
 Download and untar::
   
@@ -157,15 +160,11 @@ Links
 Install Other Packages
 ----------------------
 
-Install the required packages
-::
+Install the required python packages for Fire Insights::
 
-  cd fire-x.y.x/dist/fire
-  pip install -r requirements.txt
+  pip install -r fire-x.y.x/dist/fire/requirements.txt
    
-``requirements.txt`` file is available in the installation directory of fire insights::
-
-  fire-x.y.x/dist/fire/requirements.txt
+``requirements.txt`` file is available in the installation directory of Fire Insights.
 
 Reference
 ---------
@@ -173,9 +172,9 @@ Reference
 Links
 +++++
 
-  * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
-  * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
-  * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
+* https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
+* https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
+* https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
   
 Delete a venv
 +++++++++++++
@@ -191,23 +190,14 @@ To delete a virtual environment, follow below steps::
 Installing pip & wheel
 +++++++++++++++++++
 
-  * yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-  * yum install python-pip
-  * yum install python-wheel
+* yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+* yum install python-pip
+* yum install python-wheel
   
   
 Add below in .bash_profile
 ++++++++++++++++++++++++++
 
-  * export PYSPARK_PYTHON=/usr/bin/python3
-  * export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
+* export PYSPARK_PYTHON=/usr/bin/python3
+* export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 
-
-
-   
-For Ubuntu
-----------
-
-  * Ubuntu : https://docs.python-guide.org/starting/install3/linux/
-  
-   

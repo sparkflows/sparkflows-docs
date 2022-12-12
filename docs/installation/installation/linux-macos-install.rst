@@ -173,7 +173,8 @@ Detailed Installation Steps
 
 * Login with::
 
-    username: admin and password: admin.
+    Username: admin
+    Password: admin
 
 
 .. note::  Two user accounts come preconfigured with Fire.

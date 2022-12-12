@@ -36,19 +36,20 @@ Installation Steps
     admin/admin or test/test
 
     
-.. note::  Two user accounts come preconfigured with Fire Insights.
+.. note::  Two user accounts come preconfigured with Sparkflows.
 
            * admin/admin
            * test/test
     
-    You may change these usernames and passwords in Fire under the menu Administration/Users 
+    You may change these usernames and passwords in Sparkflows as an admin under the menu Administration/Users 
 
 
 Stopping the Sparkflows docker image
-------------------------
+------------------------------------
 * Get the running container name of the Sparkflows image::
 
      docker ps
+     
 * Stop the container by::
 
      docker stop image_name

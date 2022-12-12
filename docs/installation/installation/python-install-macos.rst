@@ -42,8 +42,8 @@ Create Python virtual environment & Activate it::
   python --version
   
   
-Install Other Packages
-----------------------
+Install required Packages
+-------------------------
 
 Install the required python packages for Fire Insights::
 

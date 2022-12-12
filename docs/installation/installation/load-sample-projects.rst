@@ -1,7 +1,7 @@
-Load Example Project
+Load Sample Projects
 ====================
 
-Fire Insights comes with a number of sample projects, which showcases funtionalities and provides accelerators to build usecases.
+Sparkflows comes with a number of sample projects, which showcases funtionalities and provides accelerators to build usecases.
 
 Below are steps on how to load sample projects:
 
@@ -26,7 +26,7 @@ Once you Click on Load Example Applications, it will take you to new page.
 Select Sample data path
 -----------------------
 
-Select sample data path if the sample projects are copied to s3 location, HDFS, DBFS or Local. Leave the path as empty to pull the default location.
+Select sample data path if the sample projects are copied to s3 location, HDFS, DBFS or Local. Leave the path as empty to pull from the default location.
 
 .. figure:: ../../_assets/installation/load_example/new_page.PNG
    :alt: Example application

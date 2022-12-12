@@ -1,7 +1,7 @@
 Python Installation on Redhat/CentOS
-============================
+====================================
 
-Python is only needed if you need to use Python and the PySpark engine enabled in Fire Insights. Python modules in Fire Insights use Python 3.7+.
+Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows use Python 3.7+.
 
 Check if Python 3.7+ is Installed
 ---------------------------------
@@ -169,9 +169,6 @@ Install the required python packages for Fire Insights::
 Reference
 ---------
 
-Links
-+++++
-
 * https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html
 * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
 * https://blog.teststation.org/centos/python/2016/05/11/installing-python-virtualenv-centos-7/
@@ -195,7 +192,7 @@ Installing pip & wheel
 * yum install python-wheel
   
   
-Add below in .bash_profile
+Add below in bash_profile
 ++++++++++++++++++++++++++
 
 * export PYSPARK_PYTHON=/usr/bin/python3

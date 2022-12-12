@@ -17,10 +17,8 @@ Supported Linux Versions
   - Ubuntu : 18+
   - RHEL : 8+
 
-Prerequisites
--------------
 
-Below are the Prerequisites for installing Sparkflows on a Mac or Linux machine::
+Below are required for installing Sparkflows on Mac or Linux machine::
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH

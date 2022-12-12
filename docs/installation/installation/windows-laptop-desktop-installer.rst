@@ -1,5 +1,5 @@
-Installer for Laptop/Desktop
-============================
+Windows Laptop/Desktop Installer
+================================
 
 You can download and use the Installer for installing/upgrading Fire Insights on your laptop or desktop.
 

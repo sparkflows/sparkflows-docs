@@ -194,7 +194,7 @@ Connecting to Apache Spark Cluster
 
 Now that you have Fire installed, you may want to connect it to your Apache Spark Cluster.
 
-* :doc:`../configuration/connecting-spark-cluster`
+* :doc:`../configuration/connecting-spark-cluster.rst`
 
 
 .. _Download: https://www.sparkflows.io/download

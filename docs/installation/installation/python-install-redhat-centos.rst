@@ -157,7 +157,7 @@ Links
 
   * https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
 
-Install Other Packages
+Install required Packages
 ----------------------
 
 Install the required python packages for Fire Insights::

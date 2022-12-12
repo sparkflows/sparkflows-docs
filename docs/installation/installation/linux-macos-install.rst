@@ -145,9 +145,6 @@ Detailed Installation Steps
 * Set up H2 or MySQL DB
 
   Sparkflows can be configured to run with H2 DB or MySQL. H2 DB is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
-
-  * :doc:``../configuration/database/h2-db``
-  * :doc:``../configuration/database/mysql-db``
     
    
 * Launch Fire server::

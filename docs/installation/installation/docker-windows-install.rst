@@ -46,7 +46,7 @@ Installation Steps
     
     export SPARKFLOWS_DATA=/c/Users/sparkflows/fire
     export SPARKFLOWS_DB=/c/Users/sparkflows/db
-    docker run -p 8080:8080 -p 9443:9443 -v $SPARKFLOWS_DATA:/usr/local/fire-xx.yy -v $SPARKFLOWS_DB:/root -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
+    docker run -p 8080:8080 -p 9443:9443 -v $SPARKFLOWS_DATA:/usr/local/fire-3.1.0_spark_3.2.1 -v $SPARKFLOWS_DB:/root -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
 
 * Open your web browser and navigate to:: 
   

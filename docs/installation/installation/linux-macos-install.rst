@@ -1,9 +1,9 @@
-Linux / Mac OS X Installation
-^^^^^^^^^^^^^^^^^^^^^^^
+Linux/Mac OS X Installation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Fire can run independently on any machine, since we package Apache Spark along with or it can be connected to a Spark cluster.
+Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.
 
-If Sparkflows Fire needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node has the hadoop binaries and spark configs.
+If Sparkflows needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node would have the hadoop binaries and spark configs which will be picked up while submitting the jobs.
 
 Prerequisites
 =============
@@ -20,7 +20,7 @@ Supported Linux Versions
 Prerequisites
 -------------
 
-Below are the Prerequisites for installing Fire Insights on a Mac or Linux machine::
+Below are the Prerequisites for installing Sparkflows on a Mac or Linux machine::
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH
@@ -28,15 +28,15 @@ Below are the Prerequisites for installing Fire Insights on a Mac or Linux machi
   - Python 3.7+ (when running Python and PySpark, otherwise not needed)
 
 
-If Fire would be connected to an Apache Spark Cluster::
+If Sparkflows would be connected to an Apache Spark Cluster::
 
   - Spark 2.X is needed on the cluster
-  - Fire has to be installed on an Edge node of the Spark Cluster
+  - Sparkflows has to be installed on an Edge node of the Spark Cluster
 
 
-If using Python and PySpark (not needed for the core features of Fire Insights) ::
+If using Python and PySpark (optional) ::
 
-  - Python 3.X can be set up with the Python virtual environment and activated
+  - Python 3.7+ needs to be set up on the machine
 
     
 Downloading and Installing Java 8
@@ -44,7 +44,7 @@ Downloading and Installing Java 8
 
 Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 
-You may have to set JAVA_HOME after the installation.
+You would need to set ``JAVA_HOME`` as well.
 
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 
@@ -71,38 +71,27 @@ Install OpenJDK8 JDK using yum
   yum -y update
   yum install java-1.8.0-openjdk-devel
 
-Installing on Mac
+Installing JDK on Mac
 +++++++++++++++++
 
-- Download the dmg file
-- Install it
+- Download the ``dmg`` file
+- Install it by double clicking on it
+- Installing using ``brew``
 
 
-Reference
----------
+References
+----------
 
-Links
-+++++
-
-* https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
-
-
-
-Download OpenJDK
-+++++++++++++
-
-- https://openjdk.java.net/install/
-
-- Install OpenJDK on Ubuntu
-
-https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
+* Install JAVA on CentOS and Fedora - https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+* OpenJDK download link - https://openjdk.java.net/install/
+* Install OpenJDK on Ubuntu - https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
 
 
 
 Quick Installation Steps of Fire with H2 DB
-====================================
+===========================================
 
-* Download the fire tgz file from:
+* Download the fire ``TGZ`` file from:
 
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
@@ -137,12 +126,12 @@ Detailed Installation Steps
 
 * Glossary
 
-    * ``<install_dir>`` : location where you unzipped fire tgz file. For example this can be your home directory.
-    * ``<machine_name>`` : hostname where your installed Fire
-    * ``#`` : used for comments and documentation
+  * ``<install_dir>`` : location where you unzipped Sparkflows tgz file. For example this can be your home directory.
+  * ``<machine_name>`` : hostname where your installed Sparkflows
+  * ``#`` : used for comments and documentation
 
 
-* Download the fire tgz file from:
+* Download the Sparkflows tgz file from:
 
   * https://www.sparkflows.io/download  OR   
   * https://www.sparkflows.io/archives
@@ -155,13 +144,13 @@ Detailed Installation Steps
 
 * Set up H2 or MySQL DB
 
-Fire can be configured to run with H2 db or MySQL. H2 is very easy to set up with Fire. For production deployments MySQL is recommended.
+  Sparkflows can be configured to run with H2 DB or MySQL. H2 DB is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
 
-    * :doc:`../database/h2-db`
-    * :doc:`../database/mysql-db`
+  * :doc:``../configuration/database/h2-db``
+  * :doc:``../configuration/database/mysql-db``
     
    
-* Launch Fire Server::
+* Launch Fire server::
 
     cd <fire install_dir>
     ./run-fire-server.sh start

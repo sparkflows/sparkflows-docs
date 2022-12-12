@@ -1,5 +1,5 @@
-Docker image Installation on Windows 10
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Docker image Installation on Windows
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sparkflows can be installed and run on Windows 10 using the Docker image from the Docker Hub.
 

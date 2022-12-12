@@ -63,7 +63,7 @@ Installation Steps
            * admin/admin
            * test/test
     
-    You may change these usernames and passwords in Sparkflows as an admin under the menu Administration/Users 
+    You may change the default passwords in Sparkflows from User Profile or Create new users using Menu Administration/Users 
 
 
 Stopping the Sparkflows docker image

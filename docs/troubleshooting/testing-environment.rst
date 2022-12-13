@@ -8,12 +8,12 @@ Run the steps which are relevant for your environment.
 Check Java version
 +++++++++
 
-java --version
+``java --version``
 
 Check if python 3.7+ has been set up
 +++++++++
 
-python --version
+``python --version``
 
 Check if the machine has access to the internet
 ++++++++++
@@ -22,7 +22,7 @@ Check if the machine has access to the internet
 Check available storage on disk
 +++++++++++
 
-du -sh *
+``du -sh *``
 
 Check the memory and vcpu on the machine
 ++++++++++++
@@ -35,7 +35,7 @@ It is recommended to have at least 16GB of RAM and 4+vCPU's on the machine.
 Check if fire-ui process is running
 +++++++++
 
-ps -ef | grep fire-ui
+``ps -ef | grep fire-ui``
 
 fire-ui is the main webserver process.
 
@@ -62,11 +62,11 @@ Check if the kerberos keytab is correct.
 
 Kinit:
 
-kinit -kt keytab_file principal
+``kinit -kt keytab_file principal``
 
 Access HDFS:
 
-hdfs dfs -ls /tmp
+``hdfs dfs -ls /tmp``
 
 Logs
 +++++

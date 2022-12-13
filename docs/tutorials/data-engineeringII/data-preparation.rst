@@ -17,7 +17,7 @@ Below is the workflow. It does the following:
 * Prints the results of few records
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/1.png
    :alt: DataPreparation
    :width: 90%
    
@@ -30,7 +30,7 @@ It reads in the input Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture2.png
    :alt: DataPreparation
    :width: 90%
    
@@ -38,59 +38,59 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture3.png
    :alt: DataPreparation
    :width: 90%  
    
    
-Convert String to Date
+Drop Rows with Null
 ------------
 
-``MultiStringToDate`` converts a string column to date using the given date/time format.
+``DropRowsWithNull`` drops all null rows.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture4.png
    :alt: DataPreparation
    :width: 90%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture5.png
    :alt: DataPreparation
    :width: 90%
   
 
-Settings values for required Column
+Filter by String Length
 ------------
 
-``CaseWhen`` sets values for the required column based on conditions as shown in example below:
+``FilterByStringLength`` filters a specified string column between a maximum and minimum string length:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture6.png
    :alt: DataPreparation
    :width: 90%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture7.png
    :alt: DataPreparation
    :width: 90%
    
-Creating DataFrame with required rows
+Convert `Age` to `Integer`
 ------------
 
-``RowFilter`` creates a new DataFrame containing only rows required.
+``CastColumnType`` casts selected rows to a different data type.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture8.png
    :alt: DataPreparation
    :width: 90%
    
@@ -98,12 +98,30 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture9.png
    :alt: DataPreparation
    :width: 90%
    
 
-Prints the Results
-------------------
+Get Rows of Interest
+------------
 
-It prints the first few records onto the screen.
+``RowFilter`` outputs a new dataset given a conditional statement.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture10.png
+   :alt: DataPreparation
+   :width: 90%
+   
+   
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture11.png
+   :alt: DataPreparation
+   :width: 90%
+
+
+The PrintNRows Node then prints the resulting dataframe. 

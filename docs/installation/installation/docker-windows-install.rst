@@ -33,7 +33,7 @@ Prerequisites
          :width: 50%
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
 
-* Git Bash Terminal
+    * Goto Settings -> Shared Drive and then Share the entire Drive with Docker and click Apply.
 
 Installation Steps
 ---------------------------
@@ -41,19 +41,10 @@ Installation Steps
 * Pull the latest Sparkflows docker image from Docker hub::
 
     docker pull sparkflows/fire:py_3.2.1_3.1.0
-
-* Create the directories to be mounted::
-
-   mkdir /c/Users/sparkflows/root
-   mkdir /c/Users/sparkflows/db
-   mkdir /c/Users/sparkflows/data
    
 * Start the docker image using the `docker run` command below::
     
-    export SPARKFLOWS_ROOT=/c/Users/sparkflows/root
-    export SPARKFLOWS_DB=/c/Users/sparkflows/db
-    export SPARKFLOWS_DATA=/c/Users/sparkflows/data
-    docker run -p 8080:8080 -p 9443:9443 -v $SPARKFLOWS_ROOT:/usr/local/fire-3.1.0_spark_3.2.1 -v $SPARKFLOWS_DATA:/usr/local/data -v $SPARKFLOWS_DB=/home/sparkflows -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
+    docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\NMBR\sparkflows\conf:/usr/local/fire-3.1.0_spark_3.2.1\conf -v  C:\Users\NMBR\sparkflows\data:/usr/local/data  -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
 
 .. note::  The above command need to be run using Git Bash Terminal
 

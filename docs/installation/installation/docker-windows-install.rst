@@ -32,7 +32,8 @@ Prerequisites
          :alt: docker-resources
          :width: 50%
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
-    
+
+* Git Bash Terminal
 
 Installation Steps
 ---------------------------

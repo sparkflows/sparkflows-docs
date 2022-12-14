@@ -43,7 +43,7 @@ It prints the Sample Dataset Result.
 Analysing using Graph
 ---------------------
 
-Number of transaction(count) at different brand, company and category.
+The following configuration shows 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -19,5 +19,5 @@ H2 Database looks corrupted
 
 ``fireserver.log`` is displaying error messages like 'could not read from position...`
 
-Try to run SHUTDOWN COMPACT 
+Log into H2 DB and run ``SHUTDOWN COMPACT`` 
 

@@ -21,3 +21,5 @@ H2 Database looks corrupted
 
 Log into H2 DB and run ``SHUTDOWN COMPACT`` 
 
+https://docs.sparkflows.io/en/latest/commands/h2-db.html
+

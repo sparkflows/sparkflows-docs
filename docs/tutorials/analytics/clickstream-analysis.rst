@@ -44,18 +44,12 @@ Users Data
  
 Number of users by state and displays them on a map.
 ---------------------------------------------------
-Caluclation 
-^^^^^^^^^^^^^
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3a.png
-   :alt: ClickStream Analysis
-   :width: 80%
-   
-   
 Configuration 
 ^^^^^^^^^^^^^
 .. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3a.png
    :alt: ClickStream Analysis
    :width: 80%
+  
    
 Result
 ^^^^^^^

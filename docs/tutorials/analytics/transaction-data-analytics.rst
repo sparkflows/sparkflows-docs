@@ -43,7 +43,7 @@ It prints the Sample Dataset Result.
 Analysing using Graph
 ---------------------
 
-The following configuration shows 
+The following configuration shows the configuration and the result for the company vs count graph. It is the same configuration for each of the graph nodes, the only difference is the X-Label, y-Label, and title.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

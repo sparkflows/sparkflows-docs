@@ -6,13 +6,13 @@ Troubleshooting Guide
 
    testing-environment.rst
    installation.rst
+   python.rst
    upgrade.rst
+   h2-db.rst
    running-workflows.rst
    logs.rst
    ldap.rst
-   python.rst
    databricks.rst
-   h2-db.rst
    assume_role.rst
    
    

@@ -99,7 +99,7 @@ Plot Correlation Matrix
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/11.PNG
    :alt: titanic-data-cleaning
    :width: 60%
 
@@ -121,7 +121,7 @@ Flag Outliers and Create Graph
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/11.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/9.PNG
    :alt: titanic-data-cleaning
    :width: 60%
    

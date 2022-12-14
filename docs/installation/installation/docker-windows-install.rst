@@ -50,7 +50,7 @@ Installation Steps
 
 * For the ``h2db`` to be accessible on the mounted directory, please edit the path in ``conf/db.properties`` to working directory and restart docker::
    
-   spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb`)
+   spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb)
 
 * Open your web browser and navigate to:: 
   

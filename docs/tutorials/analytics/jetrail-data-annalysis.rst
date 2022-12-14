@@ -96,7 +96,20 @@ Processor Output
 Prints the Result
 ------------------
 
-It prints the result after executing  the SQL Query.
+Print the result of the previous SQL node
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/6.png
+   :alt: Jetrail Data Annalysis
+   :width: 90%
+
+Processor Output
+^^^^^^
+
+.. figure:: ../../_assets/tutorials/analytics/jetrail-data-annalysis/6a.png
+   :alt: Jetrail Data Annalysis
+   :width: 90%
    
 Graphical Analysis
 ---------------------

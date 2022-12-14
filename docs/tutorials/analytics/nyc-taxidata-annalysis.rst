@@ -91,18 +91,22 @@ Processor Configuration
 .. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5.png
    :alt: NYC Taxidata Annalysis
    :width: 90%
+   
+Fitler Settings
+^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5b.png
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5a.png
    :alt: NYC Taxidata Annalysis
    :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5a.png
+.. figure:: ../../_assets/tutorials/analytics/nyc-taxidata-annalysis/5b.png
    :alt: NYC Taxidata Annalysis
    :width: 90%
-   
+
+
 Prints the Result
 ------------------
 

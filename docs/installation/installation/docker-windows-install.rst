@@ -44,7 +44,7 @@ Installation Steps
    
 * Start the docker image using the `docker run` command below::
     
-    docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows\conf:/usr/local/fire-3.1.0_spark_3.2.1\conf -v  C:\Users\sparkflows\data:/usr/local/data  -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
+    docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.1.0_spark_3.2.1 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.0
 
 .. note::  The above command need to be run using Git Bash Terminal
 

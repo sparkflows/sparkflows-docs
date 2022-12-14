@@ -43,7 +43,10 @@ FAQ
 
     :doc:`/faq/custom-nodes`
 
+    ---
 
+    :doc:`/faq/logs`
+    
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -58,6 +61,8 @@ FAQ
    multi-user.rst
    workflow-execution.rst
    hadoop-installation-prerequisites.rst
+   logs.rst
+   
    
    
    

@@ -55,7 +55,7 @@ Check if Airflow has been correctly set up
 +++++++++++
 
 
-Kerberos
+Check Kerberos Setup
 ++++++++
 
 Check if the kerberos keytab is correct.
@@ -68,7 +68,7 @@ Access HDFS:
 
 ``hdfs dfs -ls /tmp``
 
-Logs
+Check Logs for erros
 +++++
 
 Check there are no major errors in the fire-ui log file.
@@ -79,26 +79,26 @@ Check there are no major errors in fire log file.
 
 grep -i exception fire.log
 
-HIVE
+Check HIVE setup
 ++++
 
 Log into HIVE with Beeline and check if we are able to list the databases and tables. And also able to query a table.
 
 
-Livy
+Check Livy Configuration
 ++++
 
 Check if SparkPi submission to Livy works good.
 
 curl ...
 
-S3
+Check AWS S3 access
 ++
 
 Check if we are able to access files on S3
 
 
-Airflow
+Check Airflow Setup
 +++++++
 
 Check if we are able to submit a DAG to Airflow and execute it.

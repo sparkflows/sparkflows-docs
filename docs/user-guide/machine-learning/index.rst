@@ -2,7 +2,7 @@
 Machine Learning
 ================
 
-Sparkflows has extensive Machine Learning capabilities. It has a number of processors to enable usecases at scale.
+Sparkflows has extensive Machine Learning capabilities. It has a number of processors to enable both supervised and unsupervised use cases at scale.
 
 Sparkflows supports a variety of ML engines : Apache Spark ML, H2O, PyCaret, XGBoost, CatBoost, AdaBoost, Scikit-learn, Prophet, ARIMA, Keras, Tensorflow and Statsmodels.
 

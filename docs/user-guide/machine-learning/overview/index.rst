@@ -6,13 +6,7 @@ Overview
 
     :doc:`/user-guide/machine-learning/overview/basics`
 
-    Basics of Machine learning
-    
-    ---
-
-    :doc:`/user-guide/machine-learning/overview/clustering`
-
-    Clustering
+    Introduction to Machine Learning
     
     ---
     
@@ -25,14 +19,21 @@ Overview
     :doc:`/user-guide/machine-learning/overview/classification`
     
     Classification
+    
+    ---
+    
+    :doc:`/user-guide/machine-learning/overview/clustering`
+
+    Clustering
+    
 
      
 .. toctree::
    :hidden:
 
    basics.rst
-   clustering.rst
    regression.rst
    classification.rst
+   clustering.rst
    
 

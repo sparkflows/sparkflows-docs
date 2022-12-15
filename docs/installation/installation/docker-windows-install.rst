@@ -48,7 +48,7 @@ Installation Steps
     
     The local mount directory is (C:\Users\sparkflows) in the above docker run command. Please update it to directory structure on your machine.
 
-* For the ``h2db`` to be accessible on the mounted directory, please edit the path in ``conf/db.properties`` to working directory and restart docker::
+* For the ``h2db`` to be accessible on the mounted directory, please edit the path in ``conf/db.properties`` to working directory and restart docker image::
    
    spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb)
 

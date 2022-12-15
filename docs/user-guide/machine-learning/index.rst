@@ -1,10 +1,10 @@
 
 Machine Learning
-==========
+================
 
-Sparkflows has extensive ML capabilities. It has a number of processors to enable Machine Learning usecases at scale.
+Sparkflows has extensive Machine Learning capabilities. It has a number of processors to enable usecases at scale.
 
-Sparkflows supports a variety of ML engines : Apache Spark ML, H2O, Scikit-learn, Prophet, ARIMA, Keras and Statsmodels.
+Sparkflows supports a variety of ML engines : Apache Spark ML, H2O, PyCaret, XGBoost, CatBoost, AdaBoost, Scikit-learn, Prophet, ARIMA, Keras, Tensorflow and Statsmodels.
 
 .. panels::
     :container: container-lg pb-3
@@ -17,43 +17,43 @@ Sparkflows supports a variety of ML engines : Apache Spark ML, H2O, Scikit-learn
     
     :doc:`/user-guide/machine-learning/sparkml/index`
 
-    Provides Apache Spark based different processors.
+    Provides Apache Spark processors to enable supervised and unsupervised use cases.
 
     ---
 
     :doc:`/user-guide/machine-learning/h2o/index`
 
-    Provides H2O processors like H2ODRF, H2OKMeans, H2OGBM, H2OGLRM, H2OGLM, H2OXGBoost.
+    Provides H2O processors to enable AutoML, supervised and unsupervised use cases.
 
     ---
 
     :doc:`/user-guide/machine-learning/sklearn/index`
 
-    Provides Scikit Learn based Classification and Regression Processors.
+    Provides Scikit learn processors to enable supervised and unsupervised use cases.
 
     ---
 
     :doc:`/user-guide/machine-learning/feature-selection`
 
-    Feature Selection using Correlation or Feature Importance.
+    Provides the capability for feature selection using statistical approach like Correlation as well as machine learning approach of Feature Importance.
     
     ---
 
     :doc:`/user-guide/machine-learning/model-persistence/index`
 
-    Save model to files and load them later in order to make predictions.
+    Provides the capability to persist models to disk or cloud storage and load them later for inference.
 
     ---
 
     :doc:`/user-guide/machine-learning/model-serving/index`
 
-    Models can be saved to HDFS ,S3, ADLS or Local file system.
+    Provides the capability to serve models for batch as well as online inference.
 
     ---
 
     :doc:`/user-guide/machine-learning/mlflow`
 
-    Integrates deeply with Apache MLflow and can be configured to output the models to MLflow.
+    Provides deep integration with Apache MLflow to persist, track  and serve models.
 
 
 

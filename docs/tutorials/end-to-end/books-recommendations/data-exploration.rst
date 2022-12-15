@@ -17,7 +17,7 @@ The below workflow:
 * Calculates the cardinality of the string columns
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_exploration.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -72,7 +72,7 @@ The below workflow:
 * Finds the number of NULL values in each column
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/users_exploration.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -127,7 +127,7 @@ The below workflow:
 * Prints a sample of the dataset out
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/ratings_exploration.PNG
    :alt: books-recommendations
    :width: 90%
    

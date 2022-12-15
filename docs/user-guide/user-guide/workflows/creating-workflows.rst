@@ -37,7 +37,7 @@ Deleting Edges
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_edge.PNG
    :alt: workflow
-   :width: 90%
+   :width: 70%
 
 
 Saving Workflow
@@ -48,7 +48,7 @@ Saving Workflow
   * Click on the 'Save' button to Save created new workflow.
   * You can also save a new version for the workflow.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_edge.PNG
+.. figure:: ../../../_assets/user-guide/workflow/wf_saved.PNG
    :alt: workflow
    :width: 90%
 
@@ -59,7 +59,7 @@ View Workflows
 
 You can view the workflows by going to the workflows tab of the Project.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_saved.PNG
+.. figure:: ../../../_assets/user-guide/workflow/wf_list.PNG
    :alt: workflow
    :width: 90%
 

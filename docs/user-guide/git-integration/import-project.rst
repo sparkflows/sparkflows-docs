@@ -7,14 +7,15 @@ Sparkflows allows you to import an exisiting project from Git. The document belo
 - Click on the ``New Project`` button.
 - Select ``Import Project from Git``.
 
-.. figure:: ../../_assets/git/git-createProj.png
+  .. figure:: ../../_assets/git/git-createProj.png
    :alt: CreateProject
    :width: 60%
 
+
 A dialog box will appear with two options.
 
-  1. Import from global repo
-  2. Import from other repo
+1. **Import from global repo**
+2. **Import from other repo**
 
 Import project from pre-configured global Git repo
 --------------------------------------------------

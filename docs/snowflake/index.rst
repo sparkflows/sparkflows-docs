@@ -43,7 +43,7 @@ https://docs.snowflake.com/en/user-guide/spark-connector.html
     Browsing snowflake tables in fire insights
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    creating-snowflake-connection.rst
    reading-snowflake.rst

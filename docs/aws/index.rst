@@ -23,7 +23,7 @@ AWS Guide
     
     ---
     
-    :doc:`/aws/s3-integration-standalone.rst`
+    :doc:`/aws/s3-integration-standalone`
     
     S3 stadalone connectivity
     
@@ -113,7 +113,7 @@ AWS Guide
     
     ---
     
-    :doc:`ecs-fargate-soarkflows-deployment/index`
+    :doc:`ecs-fargate-sparkflows-deployment/index`
     
     Spakflows deployment on ecs fargate
     

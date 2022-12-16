@@ -5,11 +5,12 @@ In Fire Insights there are 2 processes which run:
 
 * fire server
 * fire engine
+* fire pyspark engine (If Pyspark is Configured)
 
 Logs for Fire Web Server
 ------------------------
 
-The logs for Fire Web Server go into fireserver.log. The logging level is determined by the properties file conf/log4j.properties.
+The logs for Fire Web Server go into fireserver.log. The logging level is determined by the properties file conf/logback-spring.xml.
 
 Example log4j.properties
 ++++++++++++++++++++++++
@@ -25,3 +26,7 @@ Logs for Fire Engine
 
 The logs for Fire Engine go into fire.log. 
 
+Logs for Fire Pyspark Engine
+--------------------
+
+The logs for Fire Pyspark Engine go into pyspark.log.

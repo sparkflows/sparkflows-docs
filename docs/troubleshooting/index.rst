@@ -22,9 +22,9 @@ Troubleshooting Guide
     
     ---
     
-    :doc:`/troubleshooting/update`
+    :doc:`/troubleshooting/upgrade`
     
-    Steps to troubleshooting updates
+    Steps to troubleshooting upgrades
     
     ---
     
@@ -64,7 +64,7 @@ Troubleshooting Guide
     
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    testing-environment.rst
    installation.rst

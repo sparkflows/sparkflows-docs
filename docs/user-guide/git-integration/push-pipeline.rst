@@ -1,7 +1,9 @@
 Push Pipeline
 ================
 
-Sparkflows allows to directly push changes made to new or existing pipelines onto Git. The steps to push changes to git are detailed below. 
+Sparkflow allows for changes to pipelines to be pushed to a configured git repo. Progress made on pipelines can also be saved to be pushed onto Git at any given time. All previously saved pipelines can be accessed via revision history. This document provides information on how to push pipelines onto remote git repos, save pipelines to be pushed at a later day, and view the previous saved versions of a pipelines.
+
+
 
 Commit and push Pipeline to the remote Git repository
 -------------------------------------------------------

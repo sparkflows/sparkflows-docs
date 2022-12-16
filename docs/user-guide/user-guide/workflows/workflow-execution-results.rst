@@ -6,6 +6,6 @@ The result of Workflow Execution is streamed to the browser continously with upd
 
 The result of past executions can also be viewed on the Workflow Executions page.
  
-.. figure:: ../../../_assets/user-guide/workflow-execution.png
+.. figure:: ../../../_assets/user-guide/workflow_execute.PNG
    :alt: Sparkflows Workflow Execution
 

@@ -1,7 +1,7 @@
 Git Integration
 =================
 
-Sparkflows artifacts like projects, datasets, workflows, pipelines among others can be persisted to Git for version control and promotion from one environment to higher environment. Sparkflows enables integration with both GitHub and GitLab.
+Sparkflows artifacts like projects, datasets, workflows, pipelines among others can be persisted to Git. The artifacts can be used for version control, promotion to higher environment. Sparkflows enables integration with both GitHub and GitLab.
 
 .. panels::
 

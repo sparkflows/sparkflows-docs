@@ -25,7 +25,7 @@ Configure Git Credentials
 --------------------------------------------
 
 - Click on the Waffle icon (nine squares) on the top right corner
-- Click on ``Git Configuration``. Will take you to the``Git Configuration`` dialogue.
+- Click on ``Git Configuration``. Will take you to the ``Git Configuration`` dialogue.
 - Provide ``Username`` for the Git account. 
 - Provide the ``Token/Password`` for Git account. (For GitHub, one needs to enter the Token. For GitLab, one can enter either the password or token) 
 

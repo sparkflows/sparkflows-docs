@@ -21,7 +21,7 @@ Import project from pre-configured global Git repo
 
 - Select ``Import from global repo``.
 - Select the ``Branch``.
-- Provide root folder path and click on the Proceed(right arrow button) to view the list of projects in the Git repo.If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin``
+- Provide root folder path and click on the Proceed(right arrow button) to view the list of projects in the Git repo. If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin``
 - Provide ``Description`` of the project.
 - Select the ``Project``.
 - Click on the ``Submit``.

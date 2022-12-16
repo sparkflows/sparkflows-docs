@@ -68,7 +68,7 @@ This document captures the steps for installing Fire Insights.
    
  
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    rancher.rst
    minio.rst

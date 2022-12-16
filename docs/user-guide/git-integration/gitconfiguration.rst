@@ -1,19 +1,20 @@
 Git Configuration
 ===================
 
-A User must input a personal access token as well as their GitHub Username and Password in order to push workflows and pipelines. The document below describes the process to enable Git integration in Sparkfows and configure it.
+The document below describes the process to enable and configure Git in Sparkfows. The authentication can be configured either via token or username and password.
 
 Enable Git Repository
 ----------------------
 
-- Click Administration.
-- Select Configurations. 
+- Login as ``Admin``
+- Click on ``Administration`` from the top menu
+- Select ``Configurations``
 - Click on ``GIT`` tab
-- Make ``git.enable`` true.
-- Provide the git repository link in ``git.url`` value field.
-- Provide the git root folder in ``git.rootFolder`` value field, it's default value is ``/ProjectsWorkflow``.
-- Save the configuration.
-- Refresh the browser to enable git-configuration.
+- Set the property ``git.enabled`` to true
+- Provide the git repository link in ``git.url`` field. Eg: https://github.com/sparkflows/fire-tools.git
+- Provide the git root folder in ``git.rootFolder`` field. Default value is ``/ProjectsWorkflow``
+- Click on ``Save configurations``
+- Refresh the browser for configurations to reflect
 
 .. figure:: ../../_assets/git/git_configurations.PNG
    :alt: GitEnable
@@ -23,11 +24,10 @@ Enable Git Repository
 Configure Git Credentials
 --------------------------------------------
 
-- On the right corner, click on the nine squares.
-- Select ``Git Configuration``.
-- Git preferences dialog will appear.
-- Provide User Name for Github account. 
-- Provide the Token/Password for github account. 
+- Click on the Waffle icon (nine squares) on the top right corner
+- Click on ``Git Configuration``. Will take you to the``Git Configuration`` dialogue.
+- Provide ``Username`` for the Git account. 
+- Provide the ``Token/Password`` for Git account. (For GitHub, one needs to enter the Token. For GitLab, one can enter either the password or token) 
 
 .. figure:: ../../_assets/git/git-cred-token.png
    :alt: GitCredentials
@@ -40,4 +40,4 @@ Clicking ``Test Credential`` will give the following result:
    :alt: Success
    :width: 60%
 
-.. note:: Make sure that Git repository url should be accessible from Fire Insights machine
+.. note:: Make sure that Git repository url should be accessible from Sparkflows machine

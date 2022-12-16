@@ -21,14 +21,51 @@ Fire Insights adds the following services:
 
 This document captures the steps for installing Fire Insights.
 
-Below are the steps:
-
- * Install Rancher with RKE
- * Install Minio
- * Install Apache Spark
- * Install Apache HIVE
- * Install Jupyter
- * Install Fire Insights
+.. panels::
+   :container: container-lg pb-3
+   :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+   
+   :docs:`/kubernetes/rancher`
+   
+   Installing Rancher Kubernetes Edition and Rancher
+   
+   ---
+   
+   :docs:`/kubernetes/minio`
+   
+   Installing minio on Kubernetes Cluster
+   
+   ---
+   
+   :docs:`/kubernetes/spark`
+   
+   Installing Apache Spark on Kubernetes Cluster
+   
+   ---
+   
+   :docs:`/kubernetes/hive`
+   
+   Installing Hive
+   
+   ---
+   
+   :docs:`/kubernetes/jupyter`
+   
+   Installing Jupyter
+   
+   ---
+   
+   :docs:`/kubernetes/fire-insight`
+   
+   Installing Fire Inisights on Kubernetes Cluster
+   
+   ---
+   
+   :docs:`/kubernetes/spark-job`
+   
+   Submitting a Spark Job on a Kubernetes Cluster
+   
+   
  
 .. toctree::
    :maxdepth: 2

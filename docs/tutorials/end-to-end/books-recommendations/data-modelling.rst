@@ -13,7 +13,7 @@ The below workflow:
 * Prints out a top 20 list of the best books to recommend
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_popularity.PNG
    :alt: books-recommendations
    :width: 90%
    
@@ -108,7 +108,7 @@ The below workflow:
 * Calculates the RMSE of the ALS model
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_als.PNG
    :alt: books-recommendations
    :width: 90%
    

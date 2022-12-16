@@ -11,18 +11,18 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 - Go to create/ Edit workflow page.
 - Create or edit your workflow.
-- Click on the ``SAVE AND PUSH TO GIT`` button.
+- Click on the ``Save and push to git`` button.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``PUSH`` button
+- Click on the ``Push`` button
 
-*SAVE AND PUSH TO GIT*
+*Save and push to git*
 
 
 .. figure:: ../../_assets/git/save_push.PNG
    :alt: PushWf
    :width: 60%
   
-*Commit Messsage*
+*Commit messsage*
  
  
 .. figure:: ../../_assets/git/commit-msg.png
@@ -30,7 +30,7 @@ When you have added new workflow or made changes to existing workflows, you can 
    :width: 60%
    
 
-*On Success*
+*On success*
 
 
 .. figure:: ../../_assets/git/success-commit.png
@@ -42,9 +42,9 @@ On success, you will get success message.
 Saving Workflows Outside of Git
 ---------------
 
-- Click on the ``SAVE NEW VERSION`` button.
+- Click on the ``Save new version`` button.
 - Add comment.
-- Click ``OK`` to save the new version of workflow.
+- Click ``Ok`` to save the new version of workflow.
 
 .. figure:: ../../_assets/git/save-newVersion-comment.png
    :alt: PushWf
@@ -52,11 +52,11 @@ Saving Workflows Outside of Git
 
 Viewing All Workflow Saves and Pushing a Particular Save to Git
 ---------------
-- Click the ``three vertical dots`` at the right corner
+- Click the ``Three vertical dots`` at the right corner
 - Select ``Revision History`` to get a list of the previous saves
-- Click on the ``Git-icon`` to push the selected version of workflow.
+- Click on the ``Git icon`` to push the selected version of workflow.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``PUSH`` button
+- Click on the ``Push`` button
 
 *Workflows History*
 

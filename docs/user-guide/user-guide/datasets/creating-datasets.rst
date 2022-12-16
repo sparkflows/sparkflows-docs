@@ -10,7 +10,7 @@ It will bring up the dialog box below. Select the format of the file for which t
 
 .. figure:: ../../../_assets/tutorials/dataset/dataset_module.PNG
    :alt: Dataset
-   :width: 60%
+   :width: 90%
    
 Enter Field Details
 -----------------

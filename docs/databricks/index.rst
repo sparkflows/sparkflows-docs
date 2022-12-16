@@ -42,7 +42,7 @@ Databricks Integration Guide
 
     ---
     
-    :doc:`/databricks/azure-integration`
+    :doc:`/databricks/azure_integration`
 
     Further azure datalake connectivity information.
 

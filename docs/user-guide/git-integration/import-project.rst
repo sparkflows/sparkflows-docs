@@ -1,35 +1,32 @@
 Import Project
 =================
 
-Sparkflows allows you to either import a project from git using a pre-configured global repo or another new repo. The document below describes the ways you can Import projects using different repositories. 
+Sparkflows allows you to import an exisiting project from Git. The document below describes the ways you can import projects. 
 
-- Go to project-list page.
+- Click on ``Projects`` in the top menu.
 - Click on the ``New Project`` button.
-- Select ``Create Project from git``.
+- Select ``Import Project from Git``.
 
 .. figure:: ../../_assets/git/git-createProj.png
    :alt: CreateProject
    :width: 60%
 
-A dialog box will appear with 2 choices.
+A dialog box will appear with two options.
 
-  1. IMPORT FROM GLOBAL REPO
-  2. IMPORT FROM OTHER REPO
+  1. Import from global repo
+  2. Import from other repo
 
-Import project from configured Git repo
---------------------------------------
+Import project from pre-configured global Git repo
+--------------------------------------------------
 
-- Select ``IMPORT FROM GLOBAL REPO``.
+- Select ``Import from global repo``.
 - Select the ``Branch``.
-- Provide root folder path and click the button next to it to load the projects within the path
-
-   If there is no root folder path provided it will get linked with the path added in the git configurations
-   
-- Provide description of the project.
+- Provide root folder path and click on the Proceed(right arrow button) to view the list of projects in the Git repo.If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin``
+- Provide ``Description`` of the project.
 - Select the ``Project``.
-- Click on the ``CREATE``.
+- Click on the ``Submit``.
 
-Selected Project will get created.
+The selected Project will be imported into Sparkflows now.
 
 
 .. figure:: ../../_assets/git/git_import.PNG
@@ -38,22 +35,17 @@ Selected Project will get created.
 
 Import project from other Git repo
 ------------------------------------
-- Select ``IMPORT FROM OTHER REPO``.
-- Provide the url of other Git repo, all branches of provided git url get loaded below.
+- Select ``Import from other repo``.
+- Provide the ```Repo Url`` of a Git repo. All branches of provided git url will be listed.
 - Select the ``Branch``.
-- Provide root folder path and click button next to it to load the projects within the path.
-
-   If there is no root folder path provided it will get linked with the path added in the git configurations
-
-- You will get the project list of the selected branch and provided root folder path.
+- Provide root folder path and click on the Proceed(right arrow button) to view the list of projects in the Git repo.If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin``
+- Provide ``Description`` of the project.
 - Select the ``Project``.
-- Provide description of the project.
-- Click on the ``CREATE``.
+- Click on the ``Submit``.
 
-The selected project will get created from the other repo.
+The selected Project will be imported into Sparkflows now.
 
 .. figure:: ../../_assets/git/other-repo.png
    :alt: OtherRepo
    :width: 60%
 
-You can see the created Project in the project list.

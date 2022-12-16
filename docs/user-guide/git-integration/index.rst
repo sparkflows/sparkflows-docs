@@ -20,19 +20,19 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
     :doc:`/user-guide/git-integration/link-project`
 
     Link Project to Git Repository
+    
+    ---
+    
+    :doc:`/user-guide/git-integration/git-status`
 
+    Lists the workflows that have been edited or added since the last Git commit
+   
     --- 
     
     :doc:`/user-guide/git-integration/push-wf`
 
     Commit and push the workflow to Git Repository
 
-    ---
-
-    :doc:`/user-guide/git-integration/git-status`
-
-    Lists the workflows that have been edited or added since the last Git commit
-    
     ---
 
     :doc:`/user-guide/git-integration/push-pipeline`
@@ -47,6 +47,6 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
    gitconfiguration.rst
    import-project.rst
    link-project.rst
-   push-wf.rst
    git-status.rst
+   push-wf.rst
    push-pipeline.rst

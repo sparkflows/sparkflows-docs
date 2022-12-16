@@ -44,7 +44,7 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
 .. toctree::
    :hidden:
 
-   gitconfiguration.rst
+   git-configuration.rst
    import-project.rst
    link-project.rst
    git-status.rst

@@ -16,6 +16,32 @@ Fire Insights uses the Snowflake Spark connector for reading from and writing to
 
 https://docs.snowflake.com/en/user-guide/spark-connector.html
 
+.. panels::
+    :container: container-lg pb-3
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+    
+    :doc:`/snowflake/creating-snowflake-connection`
+    
+    Creating a snowflake connection in fire insights
+    
+    ---
+    
+    :doc:`/snowflake/reading-snowflake`
+    
+    Reading data from snowflake in fire insights
+    
+    ---
+    
+    :doc:`/snowflake/writing-snowflake`
+    
+    Writing data to snowflake in fire insights
+    
+    ---
+    
+    :doc:`/snowflake/browse-snowflake-tables`
+    
+    Browsing snowflake tables in fire insights
+
 .. toctree::
    :maxdepth: 2
 

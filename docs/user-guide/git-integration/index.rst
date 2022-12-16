@@ -5,7 +5,7 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
 
 .. panels::
 
-    :doc:`/user-guide/git-integration/gitconfiguration`
+    :doc:`/user-guide/git-integration/git-configuration`
 
     Sync your Projects/ Workflows and Pipelines to Git by configuring with Git.
 

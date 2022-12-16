@@ -40,7 +40,7 @@ Developer Guide
    Pyspark Code Generation
    
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    custom-node-development.rst
    custom-node-development-in-browser.rst

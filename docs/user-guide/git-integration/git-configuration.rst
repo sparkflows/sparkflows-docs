@@ -34,7 +34,7 @@ Configure Git Credentials
    :width: 60%
 
 
-Clicking ``Test Credential`` will give the following result:
+Clicking ``Test Credential`` will give the following response on success. If there was a change to the exisiting credentials, one needs to click ``Update`` and then ``Close``:
 
 .. figure:: ../../_assets/git/git-cred-success.png
    :alt: Success

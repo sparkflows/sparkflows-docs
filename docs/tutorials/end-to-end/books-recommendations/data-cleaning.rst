@@ -20,7 +20,7 @@ The below workflow:
 * Coalesces data for export
 * Saves data to HDFS for later use
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BDP_Overview.PNG
+.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_data_prep.PNG
    :alt: titanic-data-cleaning
    :width: 90%
    

@@ -57,7 +57,7 @@ Fire Insights comes with a number of components including:
     
     
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    introduction.rst
    running-on-standalone.rst

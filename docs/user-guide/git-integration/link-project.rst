@@ -1,10 +1,10 @@
 Link project with Git
 ===================
 
-Sparkflows allows projects to be linked with git via the ``Link With Git`` button. You must link projects with git in order to push workflows to a configured github repo. When this button is clicked the following options show up: 
+Sparkflows allows projects to be linked with git via the ``Link With Git`` under Actions. You can link projects with git in order to persist projects, workflows, pipelines, apps to git repo. On clicking on the button, following options show up: 
 
-- To link a project to an Existing branch 
-- To create a New branch. 
+- To link to ``Existing branch`` 
+- To link to ``New branch``
 
 This document goes over how to link projects both ways. 
 
@@ -15,13 +15,10 @@ This document goes over how to link projects both ways.
 Existing Branch
 ----------------------
 
-- Click on ``EXISTING BRANCH`` option.
-- Select branch from list 
-- Provide root folder path
-
-   If no link is provided it will get linked with the path added in the git configurations
-   
-- Click link.
+- Choose ``Existing Branch`` from the radio button.
+- Select ``Branch`` from list 
+- Provide ``Root folder``. If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin`` 
+- Click on ``Link`` button.
 
 .. figure:: ../../_assets/git/git_existing_branch.PNG
    :alt: link-with-git
@@ -30,17 +27,14 @@ Existing Branch
 Create New Branch
 ----------------------
 
-- Click on ``CREATE NEW BRANCH`` option.
-- Add ORIGIN
-- Add the NEW BRANCH NAME
-- Add the root folder path
-
-   If no link is provided it will get linked with the path added in the git configurations
-   
-- When you click on link button in this option it will first create branch with specified NEW BRANCH NAME. New branch is updated with specified ORIGIN.
+- Choose ``New Branch`` from the radio button.
+- Provide ``Origin``. Default values usually is either ``master`` or ``main``
+- Provide the ``New branch name``
+- Provide ``Root folder``. If there is no root folder path provided it will get linked with the path configured in the ``Git configurations`` by the ``Admin`` 
+- Click on the ``Link`` button. Sparkflows will first create a new branch with specified name pointing to the specified ``Origin``
 
 .. figure:: ../../_assets/git/git_new_branch.PNG
    :alt: link-with-git
    :width: 60%
 
-Successfully Linked Project with Git. Now, you can push workflows under Project to linked branch.
+Now, you can push workflows under Project to linked branch.

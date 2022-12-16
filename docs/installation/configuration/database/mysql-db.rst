@@ -94,7 +94,7 @@ Create the Tables for Fire in MySQL
 
 ::
 
-     ./create-mysql-db.bat
+     create-mysql-db.bat
 
 .. note::  If running on Windows
 

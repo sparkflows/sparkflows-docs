@@ -90,6 +90,14 @@ Create the Tables for Fire in MySQL
 
     ./create-mysql-db.sh
 
+.. note::  If running on Linux
+
+::
+
+     ./create-mysql-db.bat
+
+.. note::  If running on Windows
+
 
 Troubleshooting
 ---------------

@@ -8,7 +8,7 @@ You can define a new dataset by clicking on the ``Create Dataset`` button on the
 
 It will bring up the dialog box below. Select the format of the file for which the new dataset is being created.
 
-.. figure:: ../../../_assets/tutorials/dataset/dataset_module.PNG
+.. figure:: ../../../_assets/tutorials/dataset/dataset_popup.PNG
    :alt: Dataset
    :width: 90%
    
@@ -26,16 +26,12 @@ Below are the details of the fields in the ``Create Dataset`` page:
 - **DROP SPECIAL CHARACTER IN COLUMN NAME**: Drop Special Character In Column Name if any.
 - **MODE**: Mode for dealing with Corrupt records during parsing.
 
+  
+ 
 
-    
-.. figure:: ../../../_assets/tutorials/dataset/dataset_popup.PNG
+.. figure:: ../../../_assets/tutorials/dataset/dataset_module.PNG
    :alt: Dataset
-   :width: 90% 
-   
-
-.. figure:: ../../../_assets/tutorials/dataset/dataset_schema.PNG
-   :alt: Dataset
-   :width: 90% 
+   :width: 90%
 
 
 Update the Schema of the Dataset

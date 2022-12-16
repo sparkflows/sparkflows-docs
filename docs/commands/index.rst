@@ -46,7 +46,7 @@ Commands Cheatsheet
     
  
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    spark.rst
    environment-variables.rst

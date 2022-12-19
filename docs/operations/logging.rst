@@ -63,4 +63,4 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
    :alt: connection
    :width: 60%
 
-.. note:: You can view the logs once ssh to Fire Insights Server as well.
+.. note:: You can view the logs by login to Fire Insights Server as well.

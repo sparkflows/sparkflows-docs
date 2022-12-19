@@ -62,3 +62,5 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
 .. figure:: ../../../_assets/operating/operations/fire-pyspark-logs.PNG
    :alt: connection
    :width: 60%
+
+.. note:: You can view the logs once ssh to Fire Insights Server as well.

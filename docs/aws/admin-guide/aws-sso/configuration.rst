@@ -7,26 +7,26 @@ Below are Configurations Steps on how to Configure Aws SSO.
 1. Log in to the AWS Management Console.
 2. Navigate to Security, Identity, & Compliance > AWS Single Sign-On:
 
-.. figure:: ../../_assets/configuration/aws-sso/service_aws.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/service_aws.PNG
    :alt: aws sso
    :width: 60%
    
    
 3. Click Enable AWS SSO:
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_sso.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_sso.PNG
    :alt: aws sso
    :width: 60%
 
 4. Select Settings:
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_setting.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_setting.PNG
    :alt: aws sso
    :width: 60%
 
 5. Under Identity source, select Change:
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_identity.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_identity.PNG
    :alt: aws sso
    :width: 60%
 
@@ -36,7 +36,7 @@ Below are Configurations Steps on how to Configure Aws SSO.
     Select External identity provider.
     Click Show individual metadata values.
     
-.. figure:: ../../_assets/configuration/aws-sso/aws_external.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_external.PNG
    :alt: aws sso
    :width: 60%
 
@@ -46,12 +46,12 @@ Below are Configurations Steps on how to Configure Aws SSO.
     IdP SAML metadata: Save the following file as metadata.xml, then upload it into AWS.
     Click Next: Review.
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_validation.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_validation.PNG
    :alt: aws sso
    :width: 60%
 
 7. Review the list of changes. Once you are ready to proceed, type CONFIRM, then click Change identity source.    
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_change_identity.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_change_identity.PNG
    :alt: aws sso
    :width: 60%

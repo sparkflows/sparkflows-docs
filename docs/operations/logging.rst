@@ -26,7 +26,7 @@ Example log4j.properties
 How to change the various logging levels
 ++++++++++++++++++++++++++++++++++++++++
 
-You can change logging levels to 'DEBUG' mode by updating "conf/logback-spring.xml" file by below:
+You can change logging levels to 'DEBUG' mode by updating "conf/logback-spring.xml" file by below and Restart the Fire Server:
 
 ::
 

@@ -30,13 +30,13 @@ Access S3 in fire-ui
 
 In Fire Insights, you can browse S3 under the menu Browser/AWS S3.
 
-.. figure:: ../_assets/tutorials/awscli/AWS3.PNG
+.. figure:: ../../_assets/tutorials/awscli/AWS3.PNG
    :alt: s3
    :align: center
    
 - Click on AWS S3 to view the files on S3.
 
-.. figure:: ../_assets/tutorials/awscli/AWS4.PNG
+.. figure:: ../../_assets/tutorials/awscli/AWS4.PNG
    :alt: s3
    :align: center
    

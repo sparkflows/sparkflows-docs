@@ -86,6 +86,14 @@ Azure Integration
 
    azure/index
 
+GCP Integration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   gcp/index
+ 
 Snowflake Integration
 --------------
 

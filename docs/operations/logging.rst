@@ -16,8 +16,8 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
 
 
 .. figure:: ../../../_assets/operating/operations/fire-server-logs.PNG
-         :alt: operations
-         :width: 50%
+   :alt: connection
+   :width: 60%
 
 Example log4j.properties
 ++++++++++++++++++++++++
@@ -48,8 +48,8 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
 
 
 .. figure:: ../../../_assets/operating/operations/fire-logs.PNG
-         :alt: operations
-         :width: 50%
+   :alt: connection
+   :width: 60%
 
 Logs for Fire Pyspark Engine
 --------------------
@@ -60,5 +60,5 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
 
 
 .. figure:: ../../../_assets/operating/operations/fire-pyspark-logs.PNG
-         :alt: operations
-         :width: 50%
+   :alt: connection
+   :width: 60%

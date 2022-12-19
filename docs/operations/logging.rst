@@ -12,6 +12,14 @@ Logs for Fire Web Server
 
 The logs for Fire Web Server go into fireserver.log. The logging level is determined by the properties file conf/logback-spring.xml.
 
+As an Administrator, the Logs can be viewed from UI, once you login with Fire Insights application, you need to go inside ''ADMINISTRATION >> View Server Logs'' 
+
+
+.. figure:: ..//..//_assets/operating/operations/fire-server-logs.PNG
+   :scale: 80%
+   :alt: operations
+   :align: center
+
 Example log4j.properties
 ++++++++++++++++++++++++
 

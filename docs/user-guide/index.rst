@@ -85,6 +85,10 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
     
      :doc:`/user-guide/runtime-parameters/index`
 
+    ---
+    
+     :doc:`/user-guide/workflow-wizard/index`
+
 .. toctree::
    :hidden:
 
@@ -107,3 +111,5 @@ Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly i
    utilities/index
    pipeline/index
    runtime-parameters/index
+   workflow-wizard/index
+

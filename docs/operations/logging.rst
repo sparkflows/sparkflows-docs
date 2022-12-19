@@ -19,9 +19,6 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
    :alt: connection
    :width: 60%
 
-Example log4j.properties
-++++++++++++++++++++++++
-
 
 How to change the various logging levels
 ++++++++++++++++++++++++++++++++++++++++

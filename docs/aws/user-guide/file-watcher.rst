@@ -11,7 +11,7 @@ Design
 
 The below diagram captures the high level design:
 
-.. figure:: ../_assets/aws/file-watcher-1.png
+.. figure:: ../../_assets/aws/file-watcher-1.png
    :alt: File Watcher
    :align: center
    :width: 60%
@@ -39,12 +39,12 @@ Below we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``.
 
 It has the below permissions to receive the messages from S3 bucket and invoke the AWS Lambda function.
 
-.. figure:: ../_assets/aws/file-watcher-sqs-queue-1.png
+.. figure:: ../../_assets/aws/file-watcher-sqs-queue-1.png
    :alt: SQS Queue
    :align: center
 
 
-.. figure:: ../_assets/aws/file-watcher-sqs-queue-2.png
+.. figure:: ../../_assets/aws/file-watcher-sqs-queue-2.png
    :alt: SQS Queue
    :align: center
 
@@ -55,7 +55,7 @@ Configure the AWS S3 bucket to send events for the new files coming in to AWS SQ
 
 Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``. It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
 
-.. figure:: ../_assets/aws/file-watcher-s3-events.png
+.. figure:: ../../_assets/aws/file-watcher-s3-events.png
    :alt: S3 Events
    :align: center
    :width: 60%
@@ -78,7 +78,7 @@ We add 3 Environment variables as shown below. These get used by the Lambda func
 Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
 
    
-.. figure:: ../_assets/aws/file-watcher-lambda-2.png
+.. figure:: ../../_assets/aws/file-watcher-lambda-2.png
    :alt: AWS Lambda
    :align: center
 

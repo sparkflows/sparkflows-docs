@@ -1,5 +1,5 @@
 
-GCP Integration Guide
+GCP Guide
 =========
 
 .. panels::

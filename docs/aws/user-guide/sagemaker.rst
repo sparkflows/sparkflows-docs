@@ -96,7 +96,7 @@ Below is a workflow which:
 * Performs predictions with the model built in the previous step
 * Prints out the result
 
-.. figure:: ../_assets/aws/sagemaker-xgboost-workflow-2.png
+.. figure:: ../../_assets/aws/sagemaker-xgboost-workflow-2.png
    :alt: SageMaker XGBoost 
    :align: center
    
@@ -105,7 +105,7 @@ XGBoost Configuration
 
 Below are the configuration setup details of the XGBoost Processor.
 
-.. figure:: ../_assets/aws/sagemaker-xgboost-configuration-1.png
+.. figure:: ../../_assets/aws/sagemaker-xgboost-configuration-1.png
    :alt: SageMaker XGBoost Configuration
    :align: center
 
@@ -115,7 +115,7 @@ Executing the Workflow
 
 Below are the results of executing the workflow.
 
-.. figure:: ../_assets/aws/sagemaker-xgboost-execute-1.png
+.. figure:: ../../_assets/aws/sagemaker-xgboost-execute-1.png
    :alt: SageMaker XGBoost Execution
    :align: center
    

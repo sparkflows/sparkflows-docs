@@ -35,7 +35,7 @@ while using the above processor need to have below parameter
         - Temporary S3 directory
         - Temporary S3 directory
 
-.. figure:: ../_assets/aws/read_redshift.PNG
+.. figure:: ../../_assets/aws/read_redshift.PNG
    :alt: aws
    :width: 60% 
 
@@ -70,6 +70,6 @@ while using the above processor need to have below parameter
         - Whether to Append, Overwrite or Error if the path Exists
 
 
-.. figure:: ../_assets/aws/saveredshift.PNG
+.. figure:: ../../_assets/aws/saveredshift.PNG
    :alt: aws
    :width: 60%

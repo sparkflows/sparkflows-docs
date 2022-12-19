@@ -10,7 +10,7 @@ Below are steps involved in it:
 1. Login to Aws Console.
 2. Open AWS Single Sign-On service and click on Applications.
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_sso_app.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_sso_app.PNG
    :alt: aws sso
    :width: 60%
 
@@ -24,7 +24,7 @@ Details:
     Display name : Custom SAML 2.0 application Name
     Description : Any Specific description
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_details.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_details.PNG
    :alt: aws sso
    :width: 60%
 
@@ -45,7 +45,7 @@ AWS SSO requires specific metadata about your cloud application before it can tr
     Application ACS URL : The Assertion Consumer Service (ACS) URL is used to identify where the service provider accepts SAML assertions.
     Application SAML audience: Application SAML url
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_acs.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_acs.PNG
    :alt: aws sso
    :width: 60%    
 

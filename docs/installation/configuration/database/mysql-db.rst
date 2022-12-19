@@ -51,7 +51,7 @@ Configure Fire to connect to MySQL
 
     # Connection url for the database "firedb"
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/firedb
+    spring.datasource.url=jdbc:mysql://hostame:3306/firedb (Replace hostname with either the IP/hostname)
 
     spring.datasource.driverClassName=com.mysql.jdbc.Driver
 

@@ -16,7 +16,7 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
 
     ---
 
-    :doc:`/databricks/writing-bigquery`
+    :doc:`/gcp/writing-bigquery`
 
     Writing to Big Query tables
     

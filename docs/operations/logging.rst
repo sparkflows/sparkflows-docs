@@ -26,7 +26,17 @@ Example log4j.properties
 How to change the various logging levels
 ++++++++++++++++++++++++++++++++++++++++
 
+You can change logging levels to 'DEBUG' mode by updating "conf/logback-spring.xml" file by below:
 
+::
+
+    <!-- LOG "org.springframework.web" at ERROR level -->
+<logger name="org.springframework.web" level="DEBUG"
+        additivity="false">
+    <appender-ref ref="RollingFile" />
+    <appender-ref ref="Console" />
+    <appender-ref ref="SevereRollingFile" />
+</logger>
 
 Logs for Fire Engine
 --------------------

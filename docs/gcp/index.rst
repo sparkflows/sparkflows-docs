@@ -10,7 +10,7 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/gcp/big-query-integration`
+    :doc:`/gcp/reading-bigquery`
 
     Read and write to BigQuery tables
 
@@ -18,7 +18,7 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
 
     :doc:`/databricks/writing-bigquery`
 
-    Writing to Big Query
+    Writing to Big Query tables
     
     ---
 
@@ -28,6 +28,6 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
 .. toctree::
    :hidden:
 
-   big-query-integration.rst
+   reading-bigquery.rst
    writing-bigquery.rst
 

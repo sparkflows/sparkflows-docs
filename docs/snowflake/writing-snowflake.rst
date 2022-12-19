@@ -39,7 +39,10 @@ Processor Output
 Write it to Snowflake
 ------------------
 
-It saves CSV File in specified Snowflake Table.
+It saves the dataframe coming in from the previous processor into the specified Snowflake Table.
+
+Processor Configuration
+^^^^^^^^^^^^^^^^^^  
 
 * CONNECTION  : Connection created for Snowflake
 * SF DATABASE : Snowflake Database name
@@ -52,7 +55,7 @@ It saves CSV File in specified Snowflake Table.
    :alt: snowflake
    :width: 90%
    
-Once the workflow is executed successfully, the CSV File will be Written to Snowflake Table
+Once the workflow is executed successfully, the incoming dataframe would be written to Snowflake Table
 
 .. figure:: ..//_assets/snowflake/8.PNG
    :alt: snowflake

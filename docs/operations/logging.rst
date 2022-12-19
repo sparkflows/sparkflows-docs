@@ -31,12 +31,12 @@ You can change logging levels to 'DEBUG' mode by updating "conf/logback-spring.x
 ::
 
     <!-- LOG "org.springframework.web" at ERROR level -->
-<logger name="org.springframework.web" level="DEBUG"
+    <logger name="org.springframework.web" level="DEBUG"
         additivity="false">
     <appender-ref ref="RollingFile" />
     <appender-ref ref="Console" />
     <appender-ref ref="SevereRollingFile" />
-</logger>
+    </logger>
 
 Logs for Fire Engine
 --------------------

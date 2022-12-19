@@ -15,7 +15,7 @@ ECS CLuster
 
 Create the ecs cluster wih VPC and security group.(Also existing ecs cluster can be used).
 
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-cluster.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-cluster.png
    :alt: aws
    :width: 60%
 
@@ -31,7 +31,7 @@ Add the ENV variable to use external MySQL othwise by default task will create a
  Web Server : Main fire UI and Fire Process : Helper processes for spark jobs
 
 
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/task-definition.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/task-definition.png
    :alt: aws
    :width: 60%
    
@@ -40,7 +40,7 @@ Service
 -------
 Deploy the service by selecting the tasks, application load balacer and target groups.
 
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-service.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-service.png
    :alt: aws
    :width: 60%
    
@@ -53,7 +53,7 @@ Deploy the service by selecting the tasks, application load balacer and target g
 3. In target group map the target port to 8080.
    
 
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb.png
       :alt: aws
       :width: 60%
    
@@ -63,14 +63,14 @@ Deploy the service by selecting the tasks, application load balacer and target g
 Target type is IP and and target port 8080.
  
  
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
    :alt: aws
    :width: 60%
    
 
 Health checks with path / and success code 200, 302
   
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
    :alt: aws
    :width: 60%
 
@@ -80,7 +80,7 @@ Health checks with path / and success code 200, 302
 
 Service is deployed with containers running the tasks, alb and target group.
 
-.. figure:: ../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb-1.png
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb-1.png
    :alt: aws
    :width: 60%
       

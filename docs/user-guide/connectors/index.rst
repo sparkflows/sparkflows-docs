@@ -59,12 +59,9 @@ Connector Processors in Fire Insights
    hive.rst
    redshift.rst
    databricks.rst
-   salesforce-jdbc.rst
-   read-salesforce.rst
-   write-salesforce.rst
-   read-elasticsearch.rst
-   write-elasticsearch.rst
-   save-mongodb.rst
+   salesforce.rst
+   elasticsearch.rst
+   mongodb.rst
    save-cassandra.rst
    hana-jdbc.rst
    

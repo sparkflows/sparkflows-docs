@@ -65,12 +65,12 @@ AWS provides a Kinesis Data Generator. It can be configured for pushing random d
 
 https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
 
-.. figure:: ../_assets/aws/kinesis-data-generator-1.png
+.. figure:: ../../_assets/aws/kinesis-data-generator-1.png
    :alt: Kinesis Data Generator
    :align: center
    
    
-.. figure:: ../_assets/aws/kinesis-data-generator-2.png
+.. figure:: ../../_assets/aws/kinesis-data-generator-2.png
    :alt: Kinesis Data Generator
    :align: center
    

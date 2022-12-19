@@ -58,8 +58,7 @@ Connector Processors in Fire Insights
    snowflake.rst
    hive.rst
    redshift.rst
-   read-databricks.rst
-   write-databricks.rst
+   databricks.rst
    salesforce-jdbc.rst
    read-salesforce.rst
    write-salesforce.rst

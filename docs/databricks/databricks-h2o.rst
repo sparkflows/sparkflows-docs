@@ -3,7 +3,7 @@ Running H2O Job on Databricks
 
 Fire Insights comes with a number of H2O processors.
 
-In order to run the J2O jobs, make sure to add the below Spark configurations in Advanced options of databricks cluster Configuration.
+In order to run the H2O jobs, make sure to add the below Spark configurations in Advanced options of databricks cluster Configuration.
 
 ::
 

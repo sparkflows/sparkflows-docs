@@ -15,7 +15,7 @@ The logs for Fire Web Server go into fireserver.log. The logging level is determ
 As an Administrator, the Logs can be viewed from UI, once you login with Fire Insights application, you need to go inside ''ADMINISTRATION >> View Server Logs'' 
 
 
-.. figure:: ../../_assets/operating/operations/fire-server-logs.PNG
+.. figure:: ../../../_assets/operating/operations/fire-server-logs.PNG
          :alt: operations
          :width: 50%
 
@@ -37,7 +37,7 @@ The logs for Fire Engine go into fire.log.
 As an Administrator, the Logs can be viewed from UI, once you login with Fire Insights application, you need to go inside ''ADMINISTRATION >> View Server Logs'' 
 
 
-.. figure:: ../../_assets/operating/operations/fire-logs.PNG
+.. figure:: ../../../_assets/operating/operations/fire-logs.PNG
          :alt: operations
          :width: 50%
 
@@ -49,6 +49,6 @@ The logs for Fire Pyspark Engine go into pyspark.log.
 As an Administrator, the Logs can be viewed from UI, once you login with Fire Insights application, you need to go inside ''ADMINISTRATION >> View Server Logs'' 
 
 
-.. figure:: ../../_assets/operating/operations/fire-pyspark-logs.PNG
+.. figure:: ../../../_assets/operating/operations/fire-pyspark-logs.PNG
          :alt: operations
          :width: 50%

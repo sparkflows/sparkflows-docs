@@ -15,7 +15,7 @@ The below workflow does the following:
 
 .. figure:: ..//_assets/snowflake/4_a.PNG
    :alt: snowflake
-   :width: 90%
+   :width: 70%
    
 Reading from CSV File
 ---------------------

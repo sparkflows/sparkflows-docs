@@ -27,15 +27,15 @@ Below is an example Workflow. It reads a CSV file from S3, parses it and prints 
 
 In the dialog box of the Read CSV processor the path is specified as ``s3a://sparkflow-sample-data/data/Clickthru.csv``
 
-.. figure:: ../../../_assets/aws/s3-csv1.PNG
+.. figure:: ../../_assets/aws/s3-csv1.PNG
    :alt: S3 Workflow
    :align: center
    
-.. figure:: ../../../_assets/aws/s3-csv-configuration.PNG
+.. figure:: ../../_assets/aws/s3-csv-configuration.PNG
    :alt: S3 CSV Dialog
    :align: center
    
-.. figure:: ../../../_assets/aws/s3-csv-output.PNG
+.. figure:: ../../_assets/aws/s3-csv-output.PNG
    :alt: S3 CSV Output
    :align: center   
 
@@ -46,23 +46,23 @@ Below is an example Workflow. It reads a CSV file and save it to S3 path specifi
 
 In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/``
 
-.. figure:: ../../../_assets/aws/csvsave-workflow.PNG
+.. figure:: ../../_assets/aws/csvsave-workflow.PNG
    :alt: S3 Workflow
    :align: center
    
-.. figure:: ../../../_assets/aws/configurations3_save.PNG
+.. figure:: ../../_assets/aws/configurations3_save.PNG
    :alt: S3 Workflow
    :align: center
 
 Execution Result
 
-.. figure:: ../../../_assets/aws/saveexecution.PNG
+.. figure:: ../../_assets/aws/saveexecution.PNG
    :alt: S3 Workflow
    :align: center
 
 Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3`` Location with specified path
 
-.. figure:: ../../../_assets/aws/browses3.PNG
+.. figure:: ../../_assets/aws/browses3.PNG
    :alt: S3 Workflow
    :align: center
 
@@ -82,21 +82,21 @@ Workflow:
 
 Configure ReadCSV
 
-.. figure:: ../../../_assets/aws/sparkml-workflow-reads3.PNG
+.. figure:: ../../_assets/aws/sparkml-workflow-reads3.PNG
    :alt: Spark ML Workflow
    :align: center
  
 
 Configure SaveMlModel
 
-.. figure:: ../../../_assets/aws/sparkml-workflow-save3.PNG
+.. figure:: ../../_assets/aws/sparkml-workflow-save3.PNG
    :alt: Spark ML Workflow
    :align: center
 
 
 Execution Result:
 
-.. figure:: ../../../_assets/aws/sparkml-workflow-execution-result.PNG
+.. figure:: ../../_assets/aws/sparkml-workflow-execution-result.PNG
    :alt: Spark ML Workflow
    :align: center
    
@@ -111,20 +111,20 @@ Below is an example workflow in sparkflows, where final H20 ML model is saved to
 
 Workflow:
 
-.. figure:: ../../../_assets/aws/h20ml-workflow.PNG
+.. figure:: ../../_assets/aws/h20ml-workflow.PNG
    :alt: H20 ML Workflow
    :align: center
 
 Configure Save H20 ML Model
 
-.. figure:: ../../../_assets/aws/h20ml-workflow-save3.PNG
+.. figure:: ../../_assets/aws/h20ml-workflow-save3.PNG
    :alt: H20 ML Workflow
    :align: center
 
 
 Execution Result:
 
-.. figure:: ../../../_assets/aws/h20ml-workflow-execution-result.PNG
+.. figure:: ../../_assets/aws/h20ml-workflow-execution-result.PNG
    :alt: H20 ML Workflow
    :align: center
    

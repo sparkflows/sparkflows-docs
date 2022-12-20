@@ -8,7 +8,7 @@ It would write the incoming Dataframe to Snowflake.
 Processor Configuration
 --------   
 
-.. figure:: ..//_assets/snowflake/5.PNG
+.. figure:: ..//_assets/snowflake/7.PNG
    :alt: snowflake
    :width: 90%
    

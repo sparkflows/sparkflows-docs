@@ -12,6 +12,13 @@ Processor Configuration
    :alt: snowflake
    :width: 90%
    
+* CONNECTION  : Connection created for Snowflake
+* SF DATABASE : Snowflake Database name
+* SF SCHEMA : Snowflake Schema Name
+* SF WAREHOUSE : Snowflake Warehouse Name
+* SAVE MODE : Append, Overwrite, ErrorifExists & Ignore
+* SF TABLE : Snowflake Table Name
+
 Workflow
 --------
 
@@ -50,13 +57,6 @@ It saves the dataframe coming in from the previous processor into the specified 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^  
-
-* CONNECTION  : Connection created for Snowflake
-* SF DATABASE : Snowflake Database name
-* SF SCHEMA : Snowflake Schema Name
-* SF WAREHOUSE : Snowflake Warehouse Name
-* SAVE MODE : Append, Overwrite, ErrorifExists & Ignore
-* SF TABLE : Snowflake Table Name
 
 .. figure:: ..//_assets/snowflake/7.PNG
    :alt: snowflake

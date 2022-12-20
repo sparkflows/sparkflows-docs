@@ -37,7 +37,7 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    
    ---
    
-   :doc:`/installation/installtion/python-install-redhat-centos`
+   :doc:`/installation/installation/python-install-redhat-centos`
    
    Installing python on redhat centos
    

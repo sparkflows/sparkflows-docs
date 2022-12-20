@@ -31,7 +31,7 @@ DateTimeFieldExtract
 
 Below is the sample workflows which contains ``DateTimeFieldExtract`` processor in Fire Insights.
 
-It reads the JetRail Train dataset & use DateTimeFieldExtract processor which create New DataFrame by extracting Date & Time field and print the result.
+It reads a simple Calendar Dataset with a Date Column & uses DateTimeFieldExtract processor to create New DataFrame by extracting Date & Time field and print the result.
 
 .. figure:: ../../_assets/ml_userguide/datetime_field.PNG
    :alt: ml_userguide

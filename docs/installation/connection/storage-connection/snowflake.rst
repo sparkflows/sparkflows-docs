@@ -13,52 +13,52 @@ Below are steps on how to create Snowflake Connection:
 
 1. Login to Sparkflows WEB Server Url
 
-It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
+  It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
 
-.. list-table:: 
-   :widths: 10 20 20
-   :header-rows: 1
+   .. list-table:: 
+      :widths: 10 20 20
+      :header-rows: 1
 
-   * - Credential Store  
-     - Select the Credential Store from drop-down
-     - Choose specific Credential Store from drop-down or Select Do not use Credential Store
-   * - Select Category
-     - Select Category of Connection Type
-     - Select Storage Connection
-   * - Connection Type 
-     - Select the Connection type from drop-down
-     - Choose Snowflake as Connection Type
-   * - Connection Name
-     - Connection Name
-     - Add an unique Connection Name
-   * - Username 
-     - Username
-     - Username for Snowflake
-   * - Password
-     - Password
-     - Password of Snowflake
-   * - Title 
-     - Title for selected Connection
-     - Add an unique Title
-   * - Description
-     - Connection Description
-     - Add some Connection Description
-   * - Url
-     - Url for Snowflake
-     - Url for Snowflake
+      * - Credential Store  
+        - Select the Credential Store from drop-down
+        - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+      * - Select Category
+        - Select Category of Connection Type
+        - Select Storage Connection
+      * - Connection Type 
+        - Select the Connection type from drop-down
+        - Choose Snowflake as Connection Type
+      * - Connection Name
+        - Connection Name
+        - Add an unique Connection Name
+      * - Username 
+        - Username
+        - Username for Snowflake
+      * - Password
+        - Password
+        - Password of Snowflake
+      * - Title 
+        - Title for selected Connection
+        - Add an unique Title
+      * - Description
+        - Connection Description
+        - Add some Connection Description
+      * - Url
+        - Url for Snowflake
+        - Url for Snowflake
 
-.. figure:: ../../../_assets/installation/connection/snowflake_storage.PNG
-   :alt: connection
-   :width: 60%    
+   .. figure:: ../../../_assets/installation/connection/snowflake_storage.PNG
+      :alt: connection
+      :width: 60%    
 
-.. figure:: ../../../_assets/installation/connection/snowflake_add.PNG
-   :alt: connection
-   :width: 60% 
+   .. figure:: ../../../_assets/installation/connection/snowflake_add.PNG
+      :alt: connection
+      :width: 60% 
 
 2.  Test and Save the Connection
 
-Once you Save the Connection, Resouces can be used inside workflow editor etc. using above connection.
+  Once you Save the Connection, Resouces can be used inside workflow editor etc. using above connection.
 
 Documentation
 +++++

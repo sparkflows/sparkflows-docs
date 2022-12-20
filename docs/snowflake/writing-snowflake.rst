@@ -19,7 +19,7 @@ Processor Configuration
 * SAVE MODE : Append, Overwrite, ErrorifExists & Ignore
 * SF TABLE : Snowflake Table Name
 
-Workflow
+Example Workflow
 --------
 
 The below workflow does the following:
@@ -32,31 +32,31 @@ The below workflow does the following:
    :width: 70%
    
 Reading from CSV File
----------------------
+^^^^^^^^^^^^^^^^^^
 
 It reads Housing data from a CSV File using Read CSV Processor.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^   
+++++   
 
 .. figure:: ..//_assets/snowflake/5.PNG
    :alt: snowflake
    :width: 90%
    
 Processor Output
-^^^^^^
+++++
 
 .. figure:: ..//_assets/snowflake/6.PNG
    :alt: snowflake
    :width: 90%
 
 Write it to Snowflake
-------------------
+^^^^^^^^^^^^^^^^^^
 
 It saves the dataframe coming in from the previous processor into the specified Snowflake Table.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^  
+++++  
 
 .. figure:: ..//_assets/snowflake/7.PNG
    :alt: snowflake

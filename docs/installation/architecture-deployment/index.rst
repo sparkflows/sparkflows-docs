@@ -13,11 +13,11 @@ Fire Insights can be configured to run:
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
-   :doc:`architecture-deployment/architecture/index`
+   :doc:`/architecture-deployment/architecture/index`
    
    ---
    
-   :doc:`architecture-deployment/deployment/index`
+   :doc:`/architecture-deployment/deployment/index`
    
    ---
 

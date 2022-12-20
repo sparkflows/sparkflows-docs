@@ -1,9 +1,16 @@
 Reading from Snowflake
 ======================
 
-Fire Insights has a processor for reading data from Snowflake.
+Fire Insights has a processor for reading data from Snowflake. It takes in the below configuration items:
 
-Workflow
+* CONNECTION  : Connection created for Snowflake
+* SF DATABASE : Snowflake Database name
+* SF SCHEMA : Snowflake Schema Name
+* SF WAREHOUSE : Snowflake Warehouse Name
+* SF TABLE : Snowflake Table Name
+
+
+Example Workflow
 --------
 
 The below workflow does the following:
@@ -13,7 +20,7 @@ The below workflow does the following:
 
 .. figure:: ..//_assets/snowflake/1.PNG
    :alt: snowflake
-   :width: 90%
+   :width: 60%
 
 Reading from Snowflake Table
 -------------------
@@ -25,11 +32,6 @@ Processor Configuration
 
 Below are the configurations for the Read from Snowflake processor.
 
-* CONNECTION  : Connection created for Snowflake
-* SF DATABASE : Snowflake Database name
-* SF SCHEMA : Snowflake Schema Name
-* SF WAREHOUSE : Snowflake Warehouse Name
-* SF TABLE : Snowflake Table Name
 
 
 .. figure:: ..//_assets/snowflake/2.PNG
@@ -43,8 +45,8 @@ Processor Output
    :alt: snowflake
    :width: 90%
 
-Prints the Results
+Print the Results
 ------------------
 
-It prints the first few records of the dataframe
+The ``PrintNRows`` processor prints the first few records of the dataframe.
    

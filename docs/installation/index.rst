@@ -27,21 +27,13 @@ Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessl
     
     ---
     
-    :doc:`/installation/administration/index`
-    
-    ---
-    
     :doc:`/installation/security/index`
     
     ---
     
     :doc:`/installation/connection/index`
     
-    ---
-    
-    :doc:`/installation/operating/index`
-    
-    ---
+    ---   
     
     :doc:`/installation/credential-store/index`
     

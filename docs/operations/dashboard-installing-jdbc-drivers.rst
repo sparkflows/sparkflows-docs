@@ -17,7 +17,7 @@ Download the JDBC jar file for the Database you are looking to connect to.
 Copy it into fire-server-lib & fire-user-lib
 --------------------------
 
-Under the Fire installation directory, there is ``fire-server-lib`` and ``fire-user-lib``directory.
+Under the Fire installation directory, there is ``fire-server-lib`` and ``fire-user-lib`` directory.
 
 Copy the downloaded JDBC jar file into it.
 

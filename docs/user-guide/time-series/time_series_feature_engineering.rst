@@ -56,7 +56,7 @@ MovingWindowFunctions
 
 Below is the sample workflows which contains ``MovingWindowFunctions`` processor in Fire Insights.
 
-It reads the ticker dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
+It reads the store item dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
 
 .. figure:: ../../_assets/ml_userguide/windowsfn.PNG
    :alt: ml_userguide

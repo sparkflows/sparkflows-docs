@@ -61,3 +61,20 @@ As an Administrator, the Logs can be viewed from UI, once you login with Fire In
    :width: 60%
 
 .. note:: You can view the logs by login to Fire Insights Server as well.
+
+
+Logs for job submitted on the cluster
+--------------------
+
+Fire enable you to view the Logs for job submitted on the cluster from UI.
+
+As an User, you can view the logs while running any workflow as below:
+
+you can go to Executions page and Click on ''three dot'' and logs option will be available.
+
+
+.. figure:: ../_assets/operating/operations/logs_wf.PNG
+   :alt: operations
+   :width: 80%
+   
+   

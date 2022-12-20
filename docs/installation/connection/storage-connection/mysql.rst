@@ -1,41 +1,38 @@
 MySQL Connection
-====
+================
 
-Sparkflows enabled you to create MySQL Connection and use the connection to access various resources.
+Sparkflows provides the capability to create MySQL Connection and use the connection to access various resources.
 
 Connections can be at various levels:
 
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+* Global : Everyone has access to these connections
+* Group : Users belonging to a group will only have access to these connections
+* Project : The owner of the project and the groups with which the project has been shared with have access to these connections
 
 Below are steps on how to create MySQL Connection:
 
-1. Login to Sparkflows WEB Server Url
+1. Login to Sparkflows as an ``Admin``. Click on ``Administrator`` tab from main menu. Click on  ``Global Connections`` and then click on ``Add Connection`` and fill in the details as shown below to create the connection.
 
-It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
 .. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
 
+
 .. list-table:: 
    :widths: 10 20 20
    :header-rows: 1
 
-   * - Title
-     - Description
-     - Value
-   * - CREDENTIAL STORE  
+   * - Credential Store  
      - Select the Credential Store from drop-down
      - Choose specific Credential Store from drop-down or Select Do not use Credential Store
    * - Select Category
      - Select Category of Connection Type
      - Select Storage Connection
-   * - CONNECTION TYPE 
+   * - Connection Type 
      - Select the Connection type from drop-down
      - Choose MySQL as Connection Type
-   * - CONNECTION NAME
+   * - Connection Name
      - Connection Name
      - Add an unique Connection Name
    * - Username 
@@ -44,13 +41,13 @@ It can be created by the Administrator under ''Administration/Global Connections
    * - Password
      - Password
      - Password of MySQL
-   * - TITLE 
+   * - Title 
      - Title for selected Connection
      - Add an unique Title
-   * - DESCRIPTION
+   * - Description
      - Connection Description
      - Add some Connection Description
-   * - URL
+   * - Url
      - Url for MySQL
      - JDBC Url for MySQL
    * - Driver Class
@@ -67,7 +64,7 @@ It can be created by the Administrator under ''Administration/Global Connections
 
 2. Test Connection and Save
 
-Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
+Once you have entered the values to the parameters, click on ``Test Connection``. If the Connection is Successful, ``Save`` the connection.
 
 Now you can created connection use the resources in datasets and workflows.
 

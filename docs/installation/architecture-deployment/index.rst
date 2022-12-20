@@ -19,7 +19,6 @@ Fire Insights can be configured to run:
    
    :doc:`/architecture-deployment/deployment/index`
    
-   ---
 
 .. toctree::
    :hidden:

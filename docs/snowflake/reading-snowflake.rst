@@ -30,12 +30,12 @@ The below workflow does the following:
    :width: 60%
 
 Reading from Snowflake Table
--------------------
+^^^^^^^^^^^^^^^^^^
 
 It reads the table using ``Read From Snowflake`` processor.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^
+++++++
 
 Below are the configurations for the Read from Snowflake processor.
 
@@ -44,7 +44,7 @@ Below are the configurations for the Read from Snowflake processor.
    :width: 90%
    
 Processor Output
-^^^^^^
+++++
 
 .. figure:: ..//_assets/snowflake/3.PNG
    :alt: snowflake

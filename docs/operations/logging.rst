@@ -85,3 +85,4 @@ you can go to Executions page and Click on ''three dot'' and logs option will be
    :alt: operations
    :width: 60%   
    
+.. note:: Above Example shown for the job submitted on Databricks Cluster.

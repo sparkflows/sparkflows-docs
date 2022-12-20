@@ -19,3 +19,4 @@ In Sparkflows ``Storage Connection`` can connect to the following data sources:
 
    mysql.rst
    snowflake.rst
+   PostgreSQL.rst

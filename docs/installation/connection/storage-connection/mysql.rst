@@ -3,7 +3,7 @@ MySQL Connection
 
 Sparkflows provides the capability to create MySQL Connection and use the connection to access various resources.
 
-Connections can be at various levels:
+Connections can be created at various levels:
 
 * Global : Everyone has access to these connections
 * Group : Users belonging to a group will only have access to these connections

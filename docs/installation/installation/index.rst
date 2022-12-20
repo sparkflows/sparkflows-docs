@@ -2,6 +2,7 @@ Installation
 =============
 
 Fire Insights can be installed using the Installer or by downloading the tgz file.
+
 .. panels::
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2

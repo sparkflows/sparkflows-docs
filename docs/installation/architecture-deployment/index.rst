@@ -13,15 +13,15 @@ Fire Insights can be configured to run:
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
-   :doc:`/architecture-deployment/architecture`
+   :doc:`/installation/architecture-deployment/1-architecture`
    
    ---
    
-   :doc:`/architecture-deployment/deployment`
+   :doc:`/installation/architecture-deployment/2-deployment`
    
 
 .. toctree::
    :hidden:
 
-   architecture.rst
-   deployment.rst
+   1-architecture.rst
+   2-deployment.rst

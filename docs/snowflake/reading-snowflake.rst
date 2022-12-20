@@ -50,8 +50,4 @@ Processor Output
    :alt: snowflake
    :width: 90%
 
-Print the Results
-------------------
 
-The ``PrintNRows`` processor prints the first few records of the dataframe.
-   

@@ -1,7 +1,10 @@
 Reading from Snowflake
 ======================
 
-Fire Insights has a processor for reading data from Snowflake. It takes in the below configurations:
+Fire Insights has a processor for reading data from Snowflake.
+
+Processor Configuration
+----------
 
 .. figure:: ..//_assets/snowflake/2.PNG
    :alt: snowflake

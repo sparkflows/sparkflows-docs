@@ -77,4 +77,11 @@ you can go to Executions page and Click on ''three dot'' and logs option will be
    :alt: operations
    :width: 80%
    
+.. figure:: ../_assets/operating/operations/databricks-logs.PNG
+   :alt: operations
+   :width: 60%   
+   
+.. figure:: ../_assets/operating/operations/databricks_logs.PNG
+   :alt: operations
+   :width: 60%   
    

@@ -1,16 +1,18 @@
 Storage Connections
 ==============
 
-Sparkflows enable you to create different Storage Connection and access to various resources.
+Sparkflows enable you to connect to multiple databases and storage systems by creating the Storage Connection to them.
 
-In Sparkflows ``Storage Connection`` enables the below:
+In Sparkflows ``Storage Connection`` can connect to the following data sources:
 
-  * Cassandra
-  * Mongo DB
-  * MySQL
-  * Red Shift
-  * SQL Server
-  * Snowflake
+* Cassandra
+* Hive
+* MongoDB
+* MySQL
+* PostgreSQL
+* Redshift
+* SQL Server
+* Snowflake
   
 .. toctree::
    :maxdepth: 2

@@ -11,7 +11,7 @@ Install documentation is at : https://docs.sparkflows.io/en/latest/installation/
 Installation Pre-requisites
 ===========
 
-Below are the Pre-requisites before installing Fire::
+Below are the pre-requisites for installing Fire::
 
     JDK 1.8+ installed on the machine
 

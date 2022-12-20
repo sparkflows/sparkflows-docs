@@ -3,6 +3,10 @@ Reading from Snowflake
 
 Fire Insights has a processor for reading data from Snowflake. It takes in the below configurations:
 
+.. figure:: ..//_assets/snowflake/2.PNG
+   :alt: snowflake
+   :width: 90%
+   
 * CONNECTION  : Connection created for Snowflake
 * SF DATABASE : Snowflake Database name
 * SF SCHEMA : Snowflake Schema Name

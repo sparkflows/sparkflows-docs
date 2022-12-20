@@ -29,7 +29,7 @@ Databricks User Guide
 
     ---
 
-    :doc:`/databricks/user-guide/ddl`
+    :doc:`/databricks-user-guide/ddl`
 
     Run DDL commands on Databricks.
 

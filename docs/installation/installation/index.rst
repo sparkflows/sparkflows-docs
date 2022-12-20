@@ -21,37 +21,37 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    
    :doc:`/installation/installation/linux-macos-install`
    
-   Independent Sparkflows Installation on Linux and Mac
+   Sparkflows Installation on Linux and Mac
    
    ---
    
    :doc:`/installation/installation/windows-install`
    
-   Independent Sparkflows Installation on Windows
+   Sparkflows Installation on Windows
    
    ---
    
    :doc:`/installation/installation/windows-laptop-desktop-installer`
    
-   Sparkflows Installer for installing/upgrading sparkflows
+   Sparkflows Installer for Windows laptop and desktops
    
    ---
    
    :doc:`/installation/installation/python-install-redhat-centos`
    
-   Installing python on redhat centos
+   Installing Python on RedHat and centOS for PySpark engine of Sparkflows
    
    ---
    
    :doc:`/installation/installation/python-install-ubuntu`
    
-   Installing python on ubuntu
+   Installing Python on Ubuntu for PySpark engine of Sparkflows
    
    ---
    
    :doc:`/installation/installation/python-install-macos`
    
-   Installing Python on Macos
+   Installing Python on macOS for PySpark engine of Sparkflows
    
    ---
    

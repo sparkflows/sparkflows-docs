@@ -1,7 +1,7 @@
 Installing MySQL
 ================
 
-This document captures the details for installing MySQL on Centos7
+This document captures the details for installing MySQL on Centos7. Fire Insights by default runs with embedded H2 DB. Fire Insights can be configured wity MySQL.
 
 Steps for installing MySQL on Centos7
 --------------------------------------
@@ -83,7 +83,7 @@ You’ll then be presented with a welcome header and the MySQL prompt as shown b
 To Provide access from remote pcs
 --------------------------------
 
-Inorder to Access MySQL from Remote PC, run below command::
+In order to access MySQL from Remote PC, run below command::
  
  CREATE USER 'root'@'%' IDENTIFIED BY 'password';
  GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;

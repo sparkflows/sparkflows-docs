@@ -1,13 +1,13 @@
 Snowflake Connection
 =======
 
-Sparkflows enabled you to create Snowflake Connection and use the connection to access various resources.
+Sparkflows provides the capability to create Snowflake Connection and use the connection to access various resources.
 
-Connections can be at various levels:
+Connections can be created at various levels:
 
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+* Global : Everyone has access to these connections
+* Group : Users belonging to a group will only have access to these connections
+* Project : The owner of the project and the groups with which the project has been shared with have access to these connections
 
 Below are steps on how to create Snowflake Connection:
 
@@ -20,19 +20,16 @@ It can be created by the Administrator under ''Administration/Global Connections
    :widths: 10 20 20
    :header-rows: 1
 
-   * - Title
-     - Description
-     - Value
-   * - CREDENTIAL STORE  
+   * - Credential Store  
      - Select the Credential Store from drop-down
      - Choose specific Credential Store from drop-down or Select Do not use Credential Store
    * - Select Category
      - Select Category of Connection Type
      - Select Storage Connection
-   * - CONNECTION TYPE 
+   * - Connection Type 
      - Select the Connection type from drop-down
      - Choose Snowflake as Connection Type
-   * - CONNECTION NAME
+   * - Connection Name
      - Connection Name
      - Add an unique Connection Name
    * - Username 
@@ -41,13 +38,13 @@ It can be created by the Administrator under ''Administration/Global Connections
    * - Password
      - Password
      - Password of Snowflake
-   * - TITLE 
+   * - Title 
      - Title for selected Connection
      - Add an unique Title
-   * - DESCRIPTION
+   * - Description
      - Connection Description
      - Add some Connection Description
-   * - URL
+   * - Url
      - Url for Snowflake
      - Url for Snowflake
 
@@ -59,7 +56,7 @@ It can be created by the Administrator under ''Administration/Global Connections
    :alt: connection
    :width: 60% 
 
-2.  TEST & Save the Connection
+2.  Test and Save the Connection
 
 Once you Save the Connection, Resouces can be used inside workflow editor etc. using above connection.
 

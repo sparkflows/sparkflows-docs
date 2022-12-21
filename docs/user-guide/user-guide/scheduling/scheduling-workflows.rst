@@ -8,11 +8,11 @@ Scheduling New Workflow
 
 The workflows page displays the list of various workflows.
 
-Under the ``Action`` column, there is an icon to schedule any given workflow.
+On the workflows page ``Action`` column, there is an menu to schedule any given workflow.
 
-Clicking on the icon takes you to a page for creating new schedules for the workflow. Clicking on Schedule New Job for Workflow opens the dialog for creating a new schedule.
+Clicking on the schedule takes you to a page for creating new schedules for the workflow.
 
-.. figure:: ../../../_assets/user-guide/scheduler-schedule-job.png
+.. figure:: ../../../_assets/user-guide/Schedule_workflow_step1.png
    :alt: Scheduling New Workflow
    :width: 60%
    

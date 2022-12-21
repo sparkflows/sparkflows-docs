@@ -51,6 +51,9 @@ Prophet processor Configuration:
    :alt: ml_userguide
    :width: 90%
    
+.. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
+   :alt: ml_userguide
+   :width: 90%
 Output result of ``Prophet`` after model:  
 
 .. figure:: ../../_assets/ml_userguide/fbprophet_result.PNG

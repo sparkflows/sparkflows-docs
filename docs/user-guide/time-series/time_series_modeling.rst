@@ -128,10 +128,6 @@ On successful submission of the job, the model get saved to specified locations,
    :alt: ml_userguide
    :width: 60%
 
-.. figure:: ../../_assets/ml_userguide/xgboost_submission.PNG
-   :alt: ml_userguide
-   :width: 60%
-
 .. figure:: ../../_assets/ml_userguide/modellocation.PNG
    :alt: ml_userguide
    :width: 100%

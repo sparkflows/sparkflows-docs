@@ -43,6 +43,9 @@ Configurations for visualization processors in Fire Insight:
 
 Output result of ``Visualization`` processor:
 
+Charts : LineGraph
+==================
+
 .. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
    :width: 90%
@@ -56,9 +59,9 @@ Charts : BarChart
    :alt: ml_userguide
    :width: 90%
    
-Charts : Scatter
+Charts : ColumnChart
 ==================
 
-.. figure:: ../../_assets/ml_userguide/scater_graph.png
+.. figure:: ../../_assets/ml_userguide/column.png
    :alt: ml_userguide
    :width: 90%

@@ -20,6 +20,10 @@ Operations
     :doc:`/operations/h2db`
     
     ---
+        
+    :doc:`/operations/backup_db`
+    
+    ---
     
     :doc:`/operations/installing-jdbc-drivers`
     

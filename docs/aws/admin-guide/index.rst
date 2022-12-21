@@ -12,38 +12,38 @@ AWS Admin Guide
     
     ---
     
-    :doc:`/aws/planning`
+    :doc:`/aws/admin-guide/planning`
 
     Describes details to help you plan on deploying and using Fire Insights on AWS.
 
     ---
     
-    :doc:`/aws/running-on-emr`
+    :doc:`/aws/admin-guide/running-on-emr`
     
     Steps to run Fire Insights on EMR
     
    
     ---
     
-    :doc:`/aws/test`
+    :doc:`/aws/admin-guide/test`
     
     Testing and Troublshooting Fire Insights AWS connectivity
     
     ---
     
-    :doc:`/aws/operations`
+    :doc:`/aws/admin-guide/operations`
     
     Guide to operating Fire Insights running on an AWS
     
     ---
     
-    :doc:`/aws/cloudformationh2db`
+    :doc:`/aws/admin-guide/cloudformationh2db`
     
     Using cloud formation templates to install fire on aws with h2 db embedded
     
     ---
     
-    :doc:`/aws/cloudformationmysql`
+    :doc:`/aws/admin-guide/cloudformationmysql`
     
     Using cloud formation templates to install fire on aws with mysql db embedded
     
@@ -55,7 +55,7 @@ AWS Admin Guide
     
     ---
     
-    :doc:`/aws/aws-sso/index`
+    :doc:`/aws/admin-guide/aws-sso/index`
     
     Fire Insight integration with sso
     
@@ -64,12 +64,6 @@ AWS Admin Guide
     :doc:`aws-iam-assume-role/index`
     
     Configuring IAM roles. 
-    
-    ---
-    
-    :doc:`emr-livy/index`
-    
-    EMR Livy integration
     
     ---
     
@@ -90,7 +84,6 @@ AWS Admin Guide
    glue-integration/index.rst
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
-   emr-livy/index.rst
    ecs-fargate-sparkflows-deployment/index.rst
    
    

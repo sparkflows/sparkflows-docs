@@ -61,6 +61,7 @@ Operations
    logging.rst
    continuous-integration/index.rst
    regular-maintenance-tasks.rst
+   backup_db.rst
    h2db.rst
    installing-jdbc-drivers.rst
    dashboard-installing-jdbc-drivers.rst

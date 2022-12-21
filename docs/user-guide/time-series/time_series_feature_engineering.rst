@@ -4,7 +4,7 @@ Time Series Feature Engineering
 Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. These include:
 
  
-.. list-table:: Update New features where needed
+.. list-table:: Time Series Processors
    :widths: 10 40
    :header-rows: 1
 

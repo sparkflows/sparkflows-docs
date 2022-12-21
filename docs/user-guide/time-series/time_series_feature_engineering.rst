@@ -37,7 +37,7 @@ It reads a simple Calendar Dataset with a Date Column & uses DateTimeFieldExtrac
    :alt: ml_userguide
    :width: 60%
    
-**DateTimeFieldExtract processor Configuration**
+**DateTimeFieldExtract Processor Configuration**
 
 .. figure:: ../../_assets/ml_userguide/datetime_configuration.PNG
    :alt: ml_userguide

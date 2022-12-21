@@ -22,7 +22,7 @@ Viewing Workflows Scheduled
 
 Scheduled/By Time page displays the various workflows scheduled.
 
-.. figure:: ../../../_assets/user-guide/scheduler-workflows-scheduled.png
+.. figure:: ../../../_assets/user-guide/schedule_workflow_step2.png
    :alt: Workflows Scheduled
    :width: 60%
 

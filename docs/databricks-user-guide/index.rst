@@ -60,6 +60,8 @@ Databricks User Guide
     ---
 
     :doc:`/databricks-user-guide/generate-pyspark-code`
+    
+    Generating Pyspark Code.
 
 .. toctree::
    :hidden:

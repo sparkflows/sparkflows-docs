@@ -52,3 +52,8 @@ UI Improvements
 .. figure:: ../_assets/releases/2022-dec/project_setting_tab.PNG
    :alt: project settings tab
    :width: 80%
+   
+Pyspark Code Generation Enhancements
+----------  
+
+Sparkflows latest release have added feature for Pyspark Code Generation for Pyspark Engine and Included more spark node to Generate Pyspark Code.

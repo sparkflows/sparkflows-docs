@@ -14,8 +14,41 @@ Sparkflows has added the below capabilities to its Pyspark workflow engine.
    :alt: read sftp
    :width: 80%
 
-- Write to SFTP
+- Write To SFTP
 
 .. figure:: ../_assets/releases/2022-dec/sftp_write.PNG
    :alt: write sftp
+   :width: 80%
+
+UI Improvements
+----------
+
+- UI Improvement in Project with Workflows Tab with "Workflows, Executions and Schedule"
+
+.. figure:: ../_assets/releases/2022-dec/project_wf_tab.PNG
+   :alt: project wf tab
+   :width: 80%
+
+- UI Improvement in Project with Applications Tab with "Applications and Executions"
+
+.. figure:: ../_assets/releases/2022-dec/project_app_tab.PNG
+   :alt: project apps tab
+   :width: 80%
+
+- UI Improvement in Project with AutoML Tab with "AutoML and Executions"
+
+.. figure:: ../_assets/releases/2022-dec/project_automl_tab.PNG
+   :alt: project automl tab
+   :width: 80%
+
+- UI Improvement in Project with Pipelines Tab with "Pipelines and Executions"
+
+.. figure:: ../_assets/releases/2022-dec/project_pipeline_tab.PNG
+   :alt: project automl tab
+   :width: 80%
+
+- UI Improvement in Project with Settings Tab with "Share, Credentials and Connections"
+
+.. figure:: ../_assets/releases/2022-dec/project_setting_tab.PNG
+   :alt: project settings tab
    :width: 80%

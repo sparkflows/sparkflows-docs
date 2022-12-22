@@ -5,6 +5,14 @@ Fire can easily be setup up to run with MySQL
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 
+Pre requisites
+------
+
+* MySQL with Engine version 8.0.x
+* JDBC driver JAR file need to be copied to Sparkflows folder ``fire-user-lib`` & ``fire-server-lib`` directory inside ``fire-x.y.z``.
+* MySQL should be accessible from Sparkflows Machine.
+
+
 Install MySQL
 -------------
 
@@ -75,16 +83,17 @@ Install the MySQL Connector Jar file
  * just copy the path location for ```JDBC driver JAR file``
 
  
-* copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
+* copy the mysql JDBC driver JAR file to the ``fire-user-lib`` & ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
     cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-user-lib
   
   
 Create the Tables for Fire in MySQL
 ----------------------------------- 
 
-* Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` script::
+* Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` or ``create-mysql-db.bat``script, depending on OS::
 
     cd fire-x.y.z
 

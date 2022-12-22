@@ -2,3 +2,20 @@ DECEMBER 2022
 =============
 
 These features and Sparkflows platform improvements were released in December 2022.
+
+Additional Nodes
+------
+
+Sparkflows has added the below capabilities to its Pyspark workflow engine.
+
+- Read From SFTP
+
+.. figure:: ../_assets/releases/2022-dec/sftp_read.PNG
+   :alt: read sftp
+   :width: 80%
+
+- Write to SFTP
+
+.. figure:: ../_assets/releases/2022-dec/sftp_write.PNG
+   :alt: write sftp
+   :width: 80%

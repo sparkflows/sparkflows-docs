@@ -38,7 +38,7 @@ Fire Insights integrates with Azure Databricks, ADLS, HDInsight etc.
     
     Fire Insights integrates with ADLS using Service Principal
     
-    ---
+
     
     
 .. toctree::

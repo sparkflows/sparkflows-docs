@@ -20,7 +20,7 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
 
     Writing to Big Query tables
     
-    ---
+
 
     
 

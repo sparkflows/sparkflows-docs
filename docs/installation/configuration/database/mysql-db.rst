@@ -1,7 +1,7 @@
 MySQL Database
 ==============
 
-Fire can easily be setup up to run with MySQL
+Fire can easily be setup up to run with MySQL.
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 
@@ -42,7 +42,7 @@ Create the User for Fire in MySQL::
  
 * In ``CREATE`` user, the user we are creating is ``fire`` who is allowed to access the database from anywhere ``%`` and his password is ``fire``.
 
-* Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
+* Next, this user has been granted all ``permissions``. This, of course, can further be restricted based on your personal usage.
 
 Configure Fire to connect to MySQL
 ----------------------------------
@@ -80,10 +80,10 @@ Install the MySQL Connector Jar file
 
     tar zxvf mysql-connector-java-8.0.11.tar.gz
  
- * just copy the path location for ```JDBC driver JAR file``
+ * Just copy the path location for ```JDBC driver JAR file``
 
  
-* copy the mysql JDBC driver JAR file to the ``fire-user-lib`` & ``fire-server-lib`` directory of ``fire-x.y.z``::
+* Copy the mysql JDBC driver JAR file to the ``fire-user-lib`` & ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
     cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
@@ -93,19 +93,17 @@ Install the MySQL Connector Jar file
 Create the Tables for Fire in MySQL
 ----------------------------------- 
 
+.. Note::  If running on Linux::
+
 * Create the tables for Fire in MySQL by executing the ``create-mysql-db.sh`` or ``create-mysql-db.bat`` script, depending on OS::
 
     cd fire-x.y.z
 
     ./create-mysql-db.sh
 
-.. note::  If running on Linux
-
-::
+.. Note::  If running on Windows
 
      create-mysql-db.bat
-
-.. note::  If running on Windows
 
 
 Troubleshooting
@@ -122,10 +120,10 @@ MySQL has a problem where one of the default users in the user table is ``'' @ l
 
     flush privileges;
 
-    #this reloads privileges - important step. otherwise you will get access denied error even though you log in with the correct user.
+    #this reloads privileges - It is an important step in the process or otherwise you will get "access denied error" even though you log in with the correct user.
 
 
-Here is a link on stackoverflow that talks about this:
+Below is a link on stackoverflow that talks about this:
 
             http://stackoverflow.com/questions/1412339/cannot-log-in-with-created-user-in-mysql
             

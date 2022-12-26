@@ -1,25 +1,25 @@
 MySQL Database
 ==============
 
-Fire can easily be setup up to run with MySQL.
+Fire Insights can easily be setup up to run with MySQL.
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 
-Pre requisites
+Pre-requisites
 ------
 
 * MySQL with Engine version 8.0.x
 * JDBC driver JAR file need to be copied to Sparkflows folder ``fire-user-lib`` & ``fire-server-lib`` directory inside ``fire-x.y.z``.
-* MySQL should be accessible from Sparkflows Machine.
+* MySQL should be accessible from the Fire Insights Machine.
 
 
 Install MySQL
 -------------
 
 * Install MySQL on a machine or you can use MySQL running on Cloud Infrastructure.
-* It might be easier to install it on the same machine you are installing Fire on.
+* It might be easier to install it on the same machine you are installing Fire Insights on.
 
-.. note:: Make sure that MySQL DB should be accessible from Fire Machine.
+.. note:: Make sure that MySQL DB should be accessible from Fire Insights Machine.
 
 Create the DB for Fire in MySQL
 -------------------------------

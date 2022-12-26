@@ -1,7 +1,7 @@
 Installation and Administration
 ===============================
 
-Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessly integrates with the most complex of Enterprise Environments.
+Fire Insights can be installed on the cloud, on-premise or even on your laptop. It seamlessly integrates with the most complex of Enterprise Environments.
 
 .. panels::
     :container: container-lg pb-3

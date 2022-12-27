@@ -1,9 +1,9 @@
 Aurora MySQL Database
 ==============
 
-Fire can easily be setup up to run with Aurora MySQL
+Fire can easily be setup up to run with Aurora MySQL.
 
-More details of the Aurora MySQL database can be found here : https://aws.amazon.com/rds/aurora/
+Further details of the Aurora MySQL database can be found here : https://aws.amazon.com/rds/aurora/
 
 Create Aurora MySQL database on AWS
 -------------
@@ -14,7 +14,7 @@ Create Aurora MySQL database on AWS
 Create the DB for Fire in Aurora MySQL
 -------------------------------
 
-* Create the database for Fire in Aurora MySQL
+* Create the database for Fire in Aurora MySQL.
 * Let us call it ``firedb``::
 
     create database firedb;
@@ -32,7 +32,7 @@ Create the User for Fire in MySQL::
  
 * In ``CREATE`` user, the user we are creating is ``fire`` who is allowed to access the database from anywhere ``%`` and his password is ``fire``.
 
-* Next, this user has been granted all ``permissions``. This, of course can be further restricted based on your use case.
+* Next, this user has been granted all ``permissions``. This, of course, can further be restricted according to your personal usage.
 
 Configure Fire to connect to Aurora  MySQL
 ----------------------------------
@@ -44,7 +44,7 @@ Configure Fire to connect to Aurora  MySQL
 
  
 
-* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire. The below assumes that the database name you created for Fire is ``firedb``. It also assumes that MySQL has been installed on the ``same machine`` as Fire::
+* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for Fire. The below assumes that the database name you created for Fire is ``firedb``. It also assumes that MySQL has been installed on the ``same machine`` as Fire::
 
 
     # Connection url for the database "firedb"
@@ -62,7 +62,7 @@ Configure Fire to connect to Aurora  MySQL
     spring.datasource.password=fire
     
 
-Install the MySQL Connector Jar file
+Install the MySQL Connector JAR file
 -------------------------------------
 
 * Download the MySQL JDBC driver from http://www.mysql.com/downloads/connector/j/5.1.html
@@ -71,10 +71,10 @@ Install the MySQL Connector Jar file
 
     tar zxvf mysql-connector-java-8.0.11.tar.gz
  
- * just copy the path location for ```JDBC driver JAR file``
+ * Just copy the path location for ```JDBC driver JAR file``
 
  
-* copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
+* Copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
     cp /pathlocation_of_jdbc_jar_file/mysql-connector-java.jar  fire-server-lib
@@ -96,9 +96,9 @@ Troubleshooting
 MySQL has a problem where one of the default users in the user table is ``'' @ localhost``, which winds up denying all localhost users later in the table. If you are accessing mysql from localhost, assuming Fire and MySQL have been installed on the same machine, then you need to delete this entry in ``mysql.user`` table::
 
 
-    select user, host from user where user = ''          
+    Select user, host from user where user = ''          
 
-    #you should see an entry for this and host equals localhost.
+    #You should see an entry for this and host equals localhost.
 
     DELETE from user WHERE user = '' AND host = 'localhost';
 
@@ -107,6 +107,6 @@ MySQL has a problem where one of the default users in the user table is ``'' @ l
     #this reloads privileges - important step. otherwise you will get access denied error even though you log in with the correct user.
 
 
-Here is a link on stackoverflow that talks about this:
+Below is a link on stackoverflow that talks about this:
 
             http://stackoverflow.com/questions/1412339/cannot-log-in-with-created-user-in-mysql

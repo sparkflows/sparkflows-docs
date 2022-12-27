@@ -1,7 +1,7 @@
 Customizing Fire Installation
 -----------------------------
 
-Below are the details of Configuring Fire for various requirements:
+Below are the details for Configuration of Fire for various requirements:
 
 .. toctree::
    :maxdepth: 1

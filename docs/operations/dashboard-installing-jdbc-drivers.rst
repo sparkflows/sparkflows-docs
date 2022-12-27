@@ -31,7 +31,7 @@ Restart Fire server with ``./run-fire-server.sh restart``
 Downloading MySQL Connector
 ---------------------------
 
-- MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/
+- MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
 - After downloading untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
 - After untaring the jdbc jar file is available in the directory
 - Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire

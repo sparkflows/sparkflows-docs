@@ -24,10 +24,10 @@ Under the Fire installation home directory, there is "fire-user-lib" and "fire-s
 Copy the downloaded JDBC jar file into it.
 
 
-Restart Fire server
+Restart Fire Server
 ------------
 
-Restart the running Fire server with ``./run-fire-server.sh restart``
+Restart the Fire server with ``./run-fire-server.sh restart``
 
 They will be restarted automatically.
 

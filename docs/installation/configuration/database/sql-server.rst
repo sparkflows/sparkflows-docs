@@ -3,7 +3,7 @@ Microsoft SQL Server Database
 
 Fire can easily be setup up to run with Microsoft SQL Server.
 
-More details of the Microsoft SQL Server database can be found here : https://www.microsoft.com/en-us/sql-server/default.aspx
+Further details of the Microsoft SQL Server database can be found here : https://www.microsoft.com/en-us/sql-server/default.aspx
 
 Install Microsoft SQL Server
 -------------
@@ -14,7 +14,7 @@ Install Microsoft SQL Server
 Create the DB for Fire in Microsoft SQL Server
 -------------------------------
 
-* Create the database for Fire in Microsoft SQL Server
+* Create the database for Fire in Microsoft SQL Server.
 * Let us call it ``firedb``::
 
     CREATE DATABASE firedb;
@@ -57,12 +57,12 @@ Configure Fire to connect to Microsoft SQL Server
     
 
 
-Install the Microsoft SQL Server Connector Jar file
+Install the Microsoft SQL Server Connector JAR file
 -------------------------------------
 
-* Download the Microsoft SQL Server JDBC driver from https://www.microsoft.com/en-us/download/details.aspx?id=11774
+* Download the Microsoft SQL Server JDBC driver from https://www.microsoft.com/en-us/download/details.aspx?id=11774 
 * Untar the file ``sqljdbc_6.0.8112.200_enu.tar.gz``
-* You will get JDBC jar file on untaring ``sqljdbc42.jar``
+* You will get JDBC JAR file on untaring ``sqljdbc42.jar``
   
 * Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``
 
@@ -74,7 +74,7 @@ Create the Tables for Fire in Microsoft SQL Server
 * Tables in Microsoft SQL Server can be created by using the DDL script : ``db/sqlserver/fire-schema.sqlserver.sql``
 
 
-* They can also be created by executing the ``create-sqlserver-db.sh`` script::
+* Tables can also be created by executing the ``create-sqlserver-db.sh`` script::
 
     cd fire-x.y.z
 

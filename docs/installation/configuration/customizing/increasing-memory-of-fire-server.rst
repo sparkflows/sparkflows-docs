@@ -1,7 +1,7 @@
 Increasing Memory of Fire Server
 ================================
 
-By default, when the Fire web server is started with ``run-fire-server.sh``, it is given ``1.5 GB of memory``.
+When the Fire web server is started with ``run-fire-server.sh``, it is given ``1.5 GB of memory`` by default.
 
 Below is from run-fire-server.sh::
 

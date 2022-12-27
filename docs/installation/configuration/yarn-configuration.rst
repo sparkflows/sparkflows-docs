@@ -7,23 +7,23 @@ Fire can submit jobs to a YARN cluster. It can submit the spark jobs to run on Y
 Client Mode
 -----------
 
-For configuring to run in client mode, set the following parameter under **Administration/Configuration**::
+While configuring to run in client mode, set the following parameter under **Administration/Configuration**::
 
     spark.deploy-mode : client
 
-In this mode, the spark driver runs on the same machine on which Fire is running. The workflow json file is written out to the directory **/tmp/fire/workflows** on the machine on which Fire is running.
+In this mode, the spark driver runs on the same machine on which Fire is running. The workflow JSON file is written out to the directory **/tmp/fire/workflows** on the machine on which Fire is running.
 
 
 Cluster Mode
 ------------
 
-For configuring to run in cluster mode, set the following parameter under **Administration/Configuration**::
+While configuring to run in cluster mode, set the following parameter under **Administration/Configuration**::
 
     spark.deploy-mode : cluster
 
-In this mode, the spark driver runs on the spark cluster. The workflow json file is written out onto HDFS in the directory **.fireStaging** under the users HOME directory on HDFS.
+In this mode, the spark driver runs on the spark cluster. The workflow JSON file is written out onto HDFS in the directory **.fireStaging** under the users home directory on HDFS.
 
-The spark job reads the workflow json file from HDFS.
+The spark job reads the workflow JSON file from HDFS.
 
 Impersonation
 -------------

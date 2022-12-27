@@ -9,10 +9,10 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
 * **Install Fire on an edge node of your Apache Spark Cluster.**
     * The edge node has the hadoop/hive/spark configuration files set up.
     * Make sure that you are already able to run your spark jobs from this node using **spark-submit**.
-* **Update the below configurations under the menu, ``Administration/Configuration``**
+* **Update the below configurations under the menu, ``Administration/Configuration``**.
 
 
-.. note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details are below in the page. For the rest of the documentation on this page, we assume that it has been installed as the user ``sparkflows``.
+.. Note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as an user which can impersonate other users. Further details can be found below in the page. For the rest of the documentation on this page, we assume that it has been installed as the user ``sparkflows``.
 
 Fire User Setup
 ---------------
@@ -63,7 +63,7 @@ If you are using Cloudera Manager, you can set the above settings for impersonat
 Ambari
 ^^^^^^
 
-If you are using Ambari, you can set the above settings for impersonation in ``HDFS/Configuration under Custom core-site``
+If you are using Ambari, you can set the above settings for impersonation in ``HDFS/Configuration under Custom core-site``.
 
 .. figure:: ../../_assets/installation/ambari-hdfs-configuration.png
    :scale: 100%
@@ -117,11 +117,11 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
 Create New Users in Fire
 --------------------
 
-Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` who would be building and running workflows.
+Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` which would be building and running workflows.
 
-``These users have to exist on HDFS. So ensure that these users Home Directory are created on HDFS``
+``These users have to exist on HDFS. So ensure that these users' Home Directory(s) are created on HDFS``
 
-Also create the home directory for the users on HDFS. The example code below creates the home directory for the user ``xyz`` onto HDFS. It also changes the permission of the directory.
+Also create the Home Directory for the users on HDFS. The example code below creates the Home Directory for the user ``xyz`` onto HDFS. It also changes the permission of the Directory.
 
 * su - hdfs
 * hadoop fs -mkdir /user/xyz
@@ -131,7 +131,7 @@ Also create the home directory for the users on HDFS. The example code below cre
 Setting up PySpark
 -------------------
 
-If running with PySpark the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``
+If running with PySpark, the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``
 
 It is also important that all the users are able to execute the python executable.
 

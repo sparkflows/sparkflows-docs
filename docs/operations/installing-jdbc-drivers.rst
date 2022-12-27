@@ -16,7 +16,7 @@ Download the JDBC jar file
 
 Download the JDBC jar file for the Database you are looking to connect to.
 
-Copy it into fire-user-lib
+Copy it into fire-user-lib & fire-server-lib
 --------------------------
 
 Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
@@ -24,10 +24,10 @@ Under the Fire installation home directory, there is "fire-user-lib" and "fire-s
 Copy the downloaded JDBC jar file into it.
 
 
-Stop Fire Processes
+Restart Fire server
 ------------
 
-Stop the running Fire processes with ``./run-fire.sh stop``
+Restart the running Fire server with ``./run-fire-server.sh stop``
 
 They will be restarted automatically.
 

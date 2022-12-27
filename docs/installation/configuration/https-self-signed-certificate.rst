@@ -1,15 +1,15 @@
 HTTPS : Importing Self-Signed Certificates
 ================================
 
-Fire Insights comes with a self-signed certificate. It is contained in conf/keystore.jks.
+Fire Insights comes with a self-signed certificate. It is contained in "conf/keystore.jks".
 
 When using the self-signed certificate, the Browser will complain as it has not been issued by a Certificate Authority.
 
 This warning message can be supressed by importing the self-signed certificate into the Browser  inside  ``Trusted Root Certification Authorities``.
 
-Below are the steps for importing self-signed certificate into your Browser.
+Below are the steps for importing self-signed certificate into your Browser:
 
-Export the certificate to your machine
+Exporting the certificate to your machine
 --------------------------------------------
 
 - Got to ``URL`` for the ``HTTPS`` port.
@@ -69,10 +69,10 @@ Export the certificate to your machine
    :alt: certificate
    :width: 60%
 
-Next we need to add the exported certificate to the Browser.
+Next, you need to add the exported certificate to the Browser.
 
    
-Add Certificate to Browser
+Adding Certificate to the Browser
 --------------------------
  
 - Using Google chrome
@@ -112,7 +112,7 @@ Add Certificate to Browser
    :alt: certificate
    :width: 60%
 
-- Once the above process complete, close the ``browser`` and start again and try to login with above ``URL``, It should work without any warnings.
+- Once the above process is completed, close the ``Browser`` and start again and try to login with above ``URL``. It should work without any warnings.
 
 .. figure:: ../../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
@@ -120,5 +120,5 @@ Add Certificate to Browser
    
 
 
-* Help Url: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate 
+* Help URL: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate 
 

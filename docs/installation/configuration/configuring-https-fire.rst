@@ -1,9 +1,9 @@
 Configuring HTTPS for Fire
 ==========================
 
-Fire server can listen on HTTPS. Fire Server comes with a pre-configured keystore.
+Fire server can listen on HTTPS. Fire server comes with a pre-configured Keystore.
 
-Below are the steps for configuring Fire with your keystore and certificates.
+Below are the steps for configuring Fire with your Keystore and certificates:
 
 Generate a Keystore
 -------------------
@@ -12,7 +12,7 @@ You can use the following command for generating the Keystore::
 
  keytool -genkey -keyalg RSA -alias sparkflows -keystore keystore.jks -validity 365 -keysize 2048 -ext san=ip:< host machine ip address>
 
-You will be prompted with the following questions and enter something similar to the SAMPLE answers::
+You will be prompted with the following questions where you can enter something similar to the below sample answers::
 
     Enter keystore password: 
     Re-enter new password: 
@@ -33,12 +33,12 @@ You will be prompted with the following questions and enter something similar to
     Enter key password for <sparkflows>
             (RETURN if same as keystore password): Press the return key or Type and note down the password
 
-Copy the keystore into the Fire installation directory
+Copy the Keystore into the Fire installation directory
 ----------------------------------------------
 
 Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 
-Update the keystore password
+Update the Keystore password
 ----------------------------
 
 Update keystore.properties to udpdate the password of the new keystore.jks file::
@@ -56,25 +56,28 @@ This is configured in the file ``conf/application.properties``::
   http.port=8080
   https.port=8443
 
-Finally restart the Fire Server
+Restart the Fire Server
 -------------------------------
 
-Restart the Fire server for the changes to take effect::
+Finally, restart the Fire server for the changes to take effect::
 
   ./run-fire-server.sh stop
   ./run-fire-server.sh start
 
 
-Configuring with pfx file
+Configuring with PFX file
 -------------------------
 
-* Place the pfx file into the conf folder
-* Edit keystore.properties to update the field keystore.path and keystore.password
-* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password
+* Place the PFX file into the conf folder.
+* Edit keystore.properties to update the field keystore.path and keystore.password.
+* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password.
 
-* Use the below command to get the certificate file information
+* Run the below command to get the certificate details::
+  
+  ./run-fire-server.sh stop
+  ./run-fire-server.sh start
 
-keytool -v -list -storetype pkcs12 -keystore keystore.pfx
+
 
 
 

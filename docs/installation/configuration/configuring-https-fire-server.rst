@@ -35,7 +35,7 @@ You can use the following command for generating a new keystore::
 
     keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
 
-You will be prompted with the following questions and enter something similar to the SAMPLE answers::
+You will be prompted with the following questions where you should enter something similar to the Sample answers as below::
 
     Enter keystore password: 
     Re-enter new password: 
@@ -64,7 +64,7 @@ Copy the keystore into the Fire installation directory
 * Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
 * Update ``keystore.properties`` with the new password.
  
-.. note::  When the keystore is updated, the password also has to be updated in case it changes. 
+.. Note::  When the keystore is updated, the password has also to be updated in case it changes. 
 
            The Fire web server would also have to be restarted for the changes to take effect.
            
@@ -91,7 +91,7 @@ Importing a Certificate to an existing Keystore::
 Install certificate on EMR Cluster
 --------------------------------------------
  
-When using EMR cluster to run the Spark jobs, the certificate needs to be imported in the Java keystore, in order  to track the status of the Spark jobs. Follow the steps below to import certificate on cluster creation.
+When using EMR cluster to run the Spark jobs, the certificate needs to be imported in the Java keystore, in order  to track the status of the Spark jobs. Follow the steps below to import certificate on cluster creation:
  
 * Create a **bootstrap** script with the following content::
     

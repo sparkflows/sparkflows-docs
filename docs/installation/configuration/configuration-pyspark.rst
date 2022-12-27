@@ -3,7 +3,7 @@ PySpark Configuration
 
 Sparkflows can be configured to use the PySpark engine and create workflow using it.
 
-Below are the Prerequisites Before Configuring PySpark engine in Sparkflows:
+Below are the Prerequisites before configuring PySpark engine in Sparkflows:
 
 ::
 
@@ -23,7 +23,7 @@ Install the required python dependencies.
 
     fire-x.y.x/dist/fire/requirements.txt    
     
-Once the above dependency got installed successfully, Login to Sparkflows webserver url and go inside ''ADMINISTRATIONS -->> Configurations'' and update below parameters:
+Once the above dependency gets installed successfully, Login to Sparkflows webserver URL and go inside ''ADMINISTRATIONS -->> Configurations'' and update following parameters:
 
 ::
 
@@ -34,14 +34,14 @@ Once the above dependency got installed successfully, Login to Sparkflows webser
    :alt: pyspark
    :width: 60%
     
-Once the above configuration is updated and save the changes, you need to refresh the Sparkflows webserver url to verify the latest configuration changes.
+Once the above configuration is updated and changes are saved, you need to refresh the Sparkflows webserver URL to verify the latest configuration changes.
 
-Now open any project and select workflows tab, Click on ''Create'' button will show you option to create workflow using PySpark engine.
+Now open any project and select workflows tab, clicking on ''Create'' button will show you option to create workflow using PySpark engine.
 
 .. figure:: ../../_assets/installation/pyspark_wf.PNG
    :alt: pyspark
    :width: 60%
 
 
-.. note:: Make sure to install all Sparkflows python dependency.
+.. Note:: Make sure to install all Sparkflows python dependencies.
 

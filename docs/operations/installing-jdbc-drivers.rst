@@ -27,7 +27,7 @@ Copy the downloaded JDBC jar file into it.
 Restart Fire server
 ------------
 
-Restart the running Fire server with ``./run-fire-server.sh stop``
+Restart the running Fire server with ``./run-fire-server.sh restart``
 
 They will be restarted automatically.
 

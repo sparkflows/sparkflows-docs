@@ -3,7 +3,7 @@ Running Fire as a Service
 
 Fire Insights can be configured to run as a service. This way when the machine reboots, Fire Insights would be automatically restarted.
 
-Below are the steps for configuring Fire Insights as a service.
+Below are the steps for configuring Fire Insights as a service:
 
 Prerequisites
 +++++++++++++
@@ -11,12 +11,12 @@ Prerequisites
 ::
    
    Make sure that user has root privilege to create a service.
-   System Distributions that have SystemD as init system (Amazon Linux 2, SLES 12, CentOS 7 or higher, Debian 8 or higher, RHEL 7 or higher, Ubuntu 15.04 or higher)
+   System Distributions that have SystemD as init system (Amazon Linux 2, SLES 12, CentOS 7 or higher, Debian 8 or higher, RHEL 7 or higher, Ubuntu 15.04 or higher).
 
-Create a fire service
+Create a Fire service
 --------------------
 
-Create a fire service which runs as systemd service. This way Fire Insights would get started automatically on reboot.
+Create a Fire service which runs as systemd service. This way Fire Insights would get started automatically on reboot.
 
 Create the service in the folder '/etc/systemd/system'. Name the file 'fire.service'.
 
@@ -38,12 +38,12 @@ Below, the user is 'sparkflows'. Name it as appropriate for your installation.
    [Install]
    WantedBy=multi-user.target
 
-Add a shell script
+Add a Shell Script
 ----------------
 
-Create a shell script 'fire.sh' and place it at '/home/sparkflows/fire.sh'
+Create a shell script 'fire.sh' and place it at '/home/sparkflows/fire.sh'.
 
-Below are its content and make it executable.
+Below are its content that make it executable.
 
 ::
 
@@ -53,19 +53,19 @@ Below are its content and make it executable.
 
 Verify using the steps below:
 
-- Refresh the systemd configuration files
+- Refresh the systemd configuration files:
 
 ::
 
    systemctl daemon-reload
    
-- enable the service (if required) to start automatically at boot
+- Enable the service (if required) to start automatically at boot:
 
 ::
 
     systemctl enable fire.service
     
-- Verify the systemd unit file configuration
+- Verify the systemd unit file configuration:
 
 ::
 
@@ -79,5 +79,5 @@ Verify using the steps below:
    :align: center
     
 
-.. note:: Make sure that services are enabled
+.. note:: Make sure that services are enabled.
     

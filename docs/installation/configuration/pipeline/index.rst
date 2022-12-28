@@ -1,7 +1,7 @@
 Pipelines
 -----------------------------
 
-Below are the details of Configuring Fire for Pipelines with Airflow
+Below are the details of Configuring Fire for Pipelines with Airflow:
 
 .. toctree::
    :maxdepth: 1

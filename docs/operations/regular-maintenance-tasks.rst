@@ -63,7 +63,7 @@ If the H2 DB file size grows too large (> 3GB), then follow the steps below for 
 * Make a copy of firedb.mv.db file to be safe
 * Use the commands below for compacting it::
 
-    java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
+    java -cp ~/fire-x.y.z/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
     URL: jdbc:h2:./firedb
     Driver : org.h2.Driver
     User : fire
@@ -84,7 +84,7 @@ https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-red
 
 ::
 
-    java -cp ~/fire-3.1.0/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
+    java -cp ~/fire-x.y.z/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
     URL: jdbc:h2:./firedb
     Driver : org.h2.Driver
     User : fire

@@ -9,22 +9,22 @@ The user for which the keytab is generated can be configured as a proxy user in 
 Steps for configuring Kerberos on Fire
 ---------------------------------------
  
-* **Generate a keytab for Fire**
+* **Generate a keytab for Fire.**
  
  
 * **Place it in .../fire-x.y.z/conf directory**::
  
     While this is the recommended location, the keytab file can be placed in any another directory too.
  
-* **Make sure only the user running fire application has read access to the keytab**. For example::
+* **Make sure only the user running Fire application has read access to the keytab**. For example::
  
     -r-------- 1 fire staff 436 Jun 29 16:06 hive.keytab
  
  
-* **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire**
+* **Go to Administration/Configuration and update the following configurations to enable Kerberos for Fire.**
 
 
-.. list-table:: Configurations to enable Kerberos for Fire
+.. list-table:: Configurations to enable Kerberos for Fire:
    :widths: 30 30 40
    :header-rows: 1
 
@@ -55,7 +55,7 @@ Steps for configuring Kerberos on Fire
 Steps for generating the keytab for Fire
 ----------------------------------------
 
-Below are the steps for generating the keytab file. **We have chosen fire as the principal name. But you can have it as any user you are running Fire with**.
+Below are the steps for generating the keytab file. **We have chosen Fire as the principal name. But you can have it as any user you are running Fire with**.
 
 * **Start kadmin.local and add the new principal** ``fire@EXAMPLE.COM``::
 
@@ -96,7 +96,7 @@ Below are the steps for generating the keytab file. **We have chosen fire as the
 Verifying that the keytab file was correctly created
 ----------------------------------------------------
 
-Below are the steps for verifying the keytab file.
+Below are the steps for verifying the keytab file:
 
 * **Ensure that the keytab file was created and it has the right permissions**::
 
@@ -130,6 +130,6 @@ Notes
 -----
 
   * When running with a Kerberized cluster, deploy-mode should always be cluster.
-  * The proxy user must be set in HDFS config
+  * The proxy user must be set in HDFS config.
   
   

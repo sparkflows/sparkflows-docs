@@ -17,16 +17,16 @@ Turn off Impersonation
     Set maprfs : hdfs.namenodeURI = maprfs:///
     Set spark-submit appropriately : spark.spark-submit = /opt/mapr/spark/xyz/bin/spark-submit
     
-Update http port
+Update HTTP Port
 ----------------
 
-* Set ``http port` to be different in `conf/application.properties`` if there are other processes using the specified ports
+* Set ``http port` to be different in `conf/application.properties`` if there are other processes using the specified ports.
 
 Fire User
 ---------
 
 * Fire has to be installed as a user which can submit jobs to the MapR cluster. Say we installed Fire as user ``mapr``::
 
-    Create a mapr user in sparkflows and log in as that user
-    Start using Sparkflows
+    Create a mapr user in sparkflows and log in as that user.
+    Start using Sparkflows.
 

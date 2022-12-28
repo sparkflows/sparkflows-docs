@@ -39,7 +39,7 @@ When workflows are scheduled, they are executed by Fire at the specified schedul
 
 The results of the execution of the workflows can be viewed in the Workflow Executions Page. This allows us to view the results of past execution, logs of the run, etc.
 
-.. figure:: ../../../_assets/user-guide/scheduler-workflow-executions.png
+.. figure:: ../../../_assets/user-guide/Schedule_workflow_step3.png
    :alt: Workflow Executions
    :width: 60%
 

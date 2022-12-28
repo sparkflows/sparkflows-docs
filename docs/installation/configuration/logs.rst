@@ -1,7 +1,7 @@
 Logs
 =======
 
-Fire Insights enable you to view the Logs for fireserver and both engine being used.
+Fire Insights enable you to view the Logs for Fire server and both engine being used.
 
 You Can view the Logs either from VM on which Fire Insights application is installed or from UI with admin access.
 
@@ -10,7 +10,7 @@ Logs from VM
 
 You can view the logs from vm on which Fire Insights is running from below location:
 
-Fireserver Logs:
+Fire server Logs:
 
 ::
 
@@ -48,11 +48,11 @@ Pyspark Logs:
 Logs from UI
 ----------
 
-You can view the logs from UI if you have admin access
+You can view the logs from UI if you have admin access.
 
 Below are steps involved in it:
 
-Go to Administrations page and select View Server Logs, it will open new windows which has all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
+Go to Administrations page and select View Server Logs, it will open new windows which show all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
 
 .. figure:: ../../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs

@@ -14,7 +14,7 @@ The following configuration parameters have to be set in ``ldap.properties`` fil
 LDAP Parameters
 ---------------
 
-Below are the parameters which need to be set to the appropriate values based on the LDAP directory being autheticated to
+Below are the parameters which need to be set to the appropriate values based on the LDAP directory being autheticated to:
 
 .. list-table::
    :widths: 10 30 15
@@ -58,7 +58,7 @@ Below are the parameters which need to be set to the appropriate values based on
      - conf/ldap.properties
      
 
-.. note:: Make sure to update the localhost with your domain name or ip which is accessible from Sparkflows machine
+.. note:: Make sure to update the localhost with your domain name or ip which is accessible from Sparkflows machine.
 
 Test LDAP
 ------
@@ -90,7 +90,7 @@ Sparkflows provides the capability to test the LDAP conifguration from UI.
    :width: 80%
 
      
-.. note:: For ``ldap.UserSearchFilter`` we can use strings like ``&(objectClass=user)(sAMAccountName={0}))``  
+.. note:: For ``ldap.UserSearchFilter`` we can use strings like ``&(objectClass=user)(sAMAccountName={0}))``.  
 In this case {USERNAME} would be replaced by the real username of the user when searching in LDAP during ``Add User``.
      
 LDAP Certificate
@@ -98,18 +98,18 @@ LDAP Certificate
 
 If ``ldaps`` is being used, the ldap certificate needs to be imported into cacerts.
 
-For Reference : https://docs.oracle.com/cd/E19509-01/820-3399/ggfrj/index.html
+For Reference, vistit : https://docs.oracle.com/cd/E19509-01/820-3399/ggfrj/index.html
 
 Importing a user from LDAP into Sparkflows
 ------------------------------------------
 
 Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from LDAP.
 
-* Go to Administration/User
-* Click on Add/Sync User
-* Enter the username and click on Search
-* User details are fetched from LDAP
-* Click on Add User to create the user in Sparkflows
+* Go to Administration/User.
+* Click on Add/Sync User.
+* Enter the username and click on Search.
+* User details are fetched from LDAP.
+* Click on Add User to create the user in Sparkflows.
 
 Above steps will create the LDAP user in Sparkflows database and user deatils can be edited later to provide the access to roles in  different groups etc.
 

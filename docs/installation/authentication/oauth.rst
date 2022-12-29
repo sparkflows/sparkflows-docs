@@ -14,9 +14,9 @@ Log into Fire with the ``admin`` user in order to be able to create the New User
 Configuring OAuth
 -----------------
 
-In order the configure OAuth in Fire Insights, add the OAuth configuration parameters to ``conf/application.properties``.
+In order to configure OAuth in Fire Insights, add the OAuth configuration parameters to ``conf/application.properties``.
 
-Below is an example of configuring OAuth in Fire with Okta.
+Below is an example of configuring OAuth in Fire with Okta:
 
 ::
 
@@ -34,7 +34,7 @@ Below is an example of configuring OAuth in Fire with Okta.
 Fire OAuth URL
 --------------
 
-In order to log in the user into Fire using OAuth, use the following URL:
+In order to log in to the user into Fire using OAuth, use the following URL:
 
 * http://machine_name:port/login/oauth
 

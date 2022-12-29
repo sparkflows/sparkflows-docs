@@ -1,23 +1,23 @@
 AWS Network Load balancer
 ==========================
 
-It Explains about Creating Network Load balancer in AWS and Configuring VM running with Fire Insights.
+It explains about creating network load balancer in AWS and configuring VM running with Fire Insights.
 
-Below are steps involved in Creating Network Load balancer in AWS.
+Below are steps involved in creating network load balancer in AWS:
 
-* Login with AWS Console and search for load balancer with EC2 feature.
+* Login with AWS console and search for load balancer with EC2 feature.
 
 .. figure:: ../..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
    :width: 60%
 
-* Create Load Balancer & select Network Load Balancer.
+* Create load balancer & select network load balancer.
 
 .. figure:: ../..//_assets/loadbalancer/loadbalancer_create.PNG
    :alt: Load balancers
    :width: 60%
    
-* Configure Load balancer
+* Configure load balancer.
  
 ::
  
@@ -34,7 +34,7 @@ Below are steps involved in Creating Network Load balancer in AWS.
    :alt: Load balancers
    :width: 60%
 
-* Configure Security Settings
+* Configure security settings.
 
 Select default certificate.
 
@@ -54,7 +54,7 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
    
    https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
 
-* Configure Routing
+* Configure Routing.
 
 ::
 
@@ -70,9 +70,9 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
    :alt: Load balancers
    :width: 60%
 
-* Port forwarding
+* Port forwarding.
 
-As Fire Insights by default running on port 8080 for HTTP & 8443 for HTTPS, Make sure forward HTTP or HTTPS to specified port on which Fire Insights is running.
+As Fire Insights by default running on port 8080 for HTTP & 8443 for HTTPS, make sure to forward HTTP or HTTPS to specified port on which Fire Insights is running.
 
 ::
 

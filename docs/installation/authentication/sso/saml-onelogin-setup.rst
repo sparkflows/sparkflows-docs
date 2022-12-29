@@ -1,10 +1,10 @@
 SAML OneLogin setup
 ==============
 
-Below are steps to setup SAML 2.0 OneLogin
+Below are steps to setup SAML 2.0 OneLogin:
 
-1. Create an account at one Login 
-2. SignIn into oneLogin
+1. Create an account at OneLogin. 
+2. Sign in to oneLogin.
 
 
 .. figure:: ../../../_assets/authentication/oneLoginSignIn.png
@@ -17,7 +17,7 @@ Below are steps to setup SAML 2.0 OneLogin
    :alt: sso
    :width: 60%
 	   
-4. Add an app
+4. Add an app.
 
 .. figure:: ../../../_assets/authentication/addAppButton.png
    :alt: sso

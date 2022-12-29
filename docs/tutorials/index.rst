@@ -8,7 +8,6 @@ Tutorials
     
     :doc:`/tutorials/reading-writing/index`
 
-      
 
     ---
 
@@ -82,8 +81,6 @@ Tutorials
   
     
     
-    
-         
     
     
 .. toctree::

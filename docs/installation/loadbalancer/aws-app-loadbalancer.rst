@@ -1,23 +1,23 @@
 AWS Application Load balancer
 ===========================
 
-This document explains the steps for creating Application Load balancer in AWS and Configuring it for Fire Insights.
+This document explains the steps for creating "Application Load Balancer" in AWS and configuring it for Fire Insights.
 
-Below are steps involved in Creating Application Load balancer in AWS.
+Below are steps involved in creating application load balancer in AWS:
 
-* Login with AWS Console and search for load balancer with EC2 feature.
+* Login with AWS console and search for load balancer with EC2 feature.
 
 .. figure:: ../..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
    :width: 60%
 
-* Create Load Balancer & select Application Load Balancer.
+* Create load balancer & select application load balancer.
 
 .. figure:: ../..//_assets/loadbalancer/application-lb.PNG
    :alt: Load balancers
    :width: 60%
    
-* Configure Load balancer
+* Configure load balancer.
  
 ::
  
@@ -33,7 +33,7 @@ Below are steps involved in Creating Application Load balancer in AWS.
    :alt: Load balancers
    :width: 60%
  
-* Configure Security Settings
+* Configure security settings.
 
 Select default certificate.
 
@@ -49,18 +49,18 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
    :alt: Load balancers
    :width: 60%
 
-.. note::  Make sure to add certificate either through ACM or IAM
+.. note::  Make sure to add certificate either through ACM or IAM.
    
    https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
    
-Select Security Policy
+Select security policy.
 
 ::
 
-    Security policy : Select existing or create new Security policy
+    Security policy : Select existing or create new security policy.
    
 
-* Configure Routing
+* Configure routing.
 
 ::
 

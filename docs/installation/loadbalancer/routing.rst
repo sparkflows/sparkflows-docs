@@ -1,11 +1,11 @@
 Route 53 
 ==========
 
-It Explains about Configuring Route 53 to Network Load balancer.
+It explains about configuring "Route 53" to network load balancer.
 
-Below ares steps to follow:
+Below are the steps to follow for configuration:
 
-* Login to AWS Console and Type R 53 in search box
+* Login to AWS console and type "R 53" in search box
 
 Sign in to the AWS Management Console and open the Route 53 console at https://console.aws.amazon.com/route53/
 
@@ -18,7 +18,7 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
 
 :: 
  
-    Register a domain
+    Register a domain.
     
 .. figure:: ../..//_assets/loadbalancer/loadbalancer_getstarted.PNG
    :alt: Load balancers
@@ -26,7 +26,7 @@ Sign in to the AWS Management Console and open the Route 53 console at https://c
 
 * Hosted zone
 
-Create hosted zone
+Create hosted zone.
 
 .. figure:: ../..//_assets/loadbalancer/loadbalancer-hosted.PNG
    :alt: Load balancers

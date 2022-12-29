@@ -1,7 +1,7 @@
 Load Balancer
 --------
 
-Below are steps to Configure Network Load balancer and route using Route 53 in AWS
+Below are steps to configure "network load balancer" and "route" using "Route 53" in AWS:
 
 .. toctree::
    :maxdepth: 2

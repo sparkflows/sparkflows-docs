@@ -1,17 +1,17 @@
 Fire Insights Configuration
 ===========================
 
-In order to scale out, multiple machines running Fire Insights can be configured under a Load Balancer.
+In order to scale out, multiple machines running Fire Insights can be configured under a load balancer.
 
-In this case an external database has to be used for Fire Insights. All of the Fire Servers under the Load Balancer would be connecting to the same database instance.
+In this case an external database has to be used for Fire Insights. All of the Fire servers under the load balancer would be connecting to the same database instance.
 
-There are additional configurations needed for each Fire Server in such a scenario.
+There are additional configurations needed for each Fire server in such a scenario.
 
 application.properties
 ----------------------
 
-Add the following parameters in application.properties of each Fire Server. This is to enable it to know its IP address.
-Restart Fire Insights Server after making the changes.
+Add the following parameters in application.properties of each Fire server. This is to enable it to know its IP address.
+Restart Fire Insights server after making the changes.
 
 .. list-table:: 
    :widths: 10 30 20

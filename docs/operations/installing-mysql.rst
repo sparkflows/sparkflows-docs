@@ -153,10 +153,8 @@ Then restart MySQL::
 MySQL JDBC Driver
 -----------------
 
-Download the MySQL JDBC driver from http://www.mysql.com/downloads/connector/j/5.1.html
 
-Extract the JDBC driver JAR file from the downloaded file. For example:
-
-tar zxvf mysql-connector-java-8.0.11.tar.gz
-
-mysql-connector-java.jar
+- MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
+- After downloading untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
+- After untaring the jdbc jar file is available in the directory
+- Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire

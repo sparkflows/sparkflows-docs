@@ -1,19 +1,17 @@
 Databricks Connection
 =======
 
-Sparkflows enabled you to create Databricks Connection and use the connection to submit job on respective Databricks Cluster.
+Sparkflows enables you to create Databricks connection and use the connection to submit job on respective Databricks cluster. Connections can be at various levels:
 
-Connections can be at various levels:
+  * Global : Everyone has access to these connections.
+  * Group  : Users belonging to the group have access to these connections.
+  * Project: The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
 
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+Below are the steps required to create Databricks connection:
 
-Below are steps on how to create Databricks Connection:
+1. Login to Sparkflows web server URL. 
 
-1. Login to Sparkflows WEB Server Url
-
-It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
+It can be created by the administrator under ''Administration/Global Connections''. These connections are available for everyone to use. For more details refer the following table:
 
 GENERAL Tab :
 
@@ -55,6 +53,7 @@ GENERAL Tab :
 .. figure:: ../../../_assets/installation/connection/databricks_general.PNG
    :alt: connection
    :width: 60%    
+For more details on creating Databricks connection refer the following image:
 
 DATABRICKS Tab :
 
@@ -82,13 +81,13 @@ DATABRICKS Tab :
    :alt: connection
    :width: 60%    
 
-2.  TEST & Save the Connection
+2.  Test & Save the Connection
 
-Once you Save the Connection, it can be used for Submitting the job on specific Databricks Cluster.
+Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
 
 Documentation
 +++++
 
 Reference guide : https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html
 
-.. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.
+.. note:: Make sure to add "POSTBACK URL" through which jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.

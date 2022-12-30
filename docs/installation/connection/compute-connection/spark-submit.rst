@@ -1,17 +1,15 @@
 Spark Submit Connection
 ===============
 
-Sparkflows enables you to create spark submit Connection and use it to submit Jobs/Workflows.
+Sparkflows enables you to create spark submit connection and use it to submit jobs/workflows. Connections can be at various levels:
 
-Connections can be at various levels:
+  * Global  : Everyone has access to these connections.
+  * Group   : Users belonging to the group have access to these connections.
+  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+Below are the steps to create a Livy connection in Sparkflows:
 
-Below are the steps to create a Livy Connection in Sparkflows.
-
-1. Enable spark-submit in Sparkflows
+1. Enable spark-submit in Sparkflows:
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable spark-submit connection by setting the below parameter:
 
@@ -23,15 +21,15 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: livy
    :width: 60%
 
-2. Create Global Connections
+2. Create global connections:
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
 .. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
    
-3. Add Connection For Group
+3. Add connection for group:
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
@@ -43,9 +41,9 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: connection
    :width: 60%   
    
-4. Additional parameter as per your environment
+4. Additional parameters as per your environment:
 
-Once you Selected Connection Type & Groups, add the additonal Connection parameters needed.
+Once you  have selected the connection type & groups, add the additonal connection parameters needed. For more details on the additional parameters refer the following images and tables:
 
 For GENERAL tab :
 
@@ -215,9 +213,9 @@ For YARN tab :
    :alt: connection
    :width: 60%      
 
-5. Save Connection 
+5. Save connection :
 
-Once you have updated the above parameters, click on  ``Save`` the connection.
+Once you have updated the above parameters, click on  ``Save`` the connection to save the newly created Livy connection.
 
 
-.. Note:: Make sure that above Configuration configured should be accessible from Sparkflows Web Server URL. 
+.. Note:: Make sure that the above configured configuration should be accessible from Sparkflows web server URL. 

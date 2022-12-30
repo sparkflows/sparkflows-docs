@@ -1,9 +1,7 @@
 Compute Connections
 -------------
 
-Sparkflows enable you to create different Compute Connection and submit the job on specific Compute Connection.
-
-In Sparkflows ``Compute Connection`` enables the below: 
+Sparkflows enable you to create different compute connection and submit the job on specific compute connection. In Sparkflows, ``compute connection`` enables the below: 
 
 
   * Databricks 

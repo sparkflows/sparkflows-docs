@@ -1,12 +1,12 @@
 Admin user
 ===========
 
-Fire Insights support variety of permissions for Roles. Each user can be assigned one more more Roles.
+Fire Insights support variety of permissions for roles. Each user can be assigned one or more roles.
 
 Permissions supported by Fire Insights
 ----------------------
 
-Below are the permissions supported by Fire Insights.
+Below are the permissions supported by Fire Insights:
 
 .. figure:: ../../_assets/security/role_permission.PNG
    :alt: security
@@ -69,7 +69,7 @@ Below are the permissions supported by Fire Insights.
 Permissions for Admin User
 -------------
 
-In Fire Insights generally the below permissions are associated with Admin features
+In Fire Insights, generally, the below permissions are associated with Admin features:
 
 - users.manage
 - groups.manage
@@ -81,24 +81,24 @@ An admin user in Fire Insights is one who has ``users.manage permission``.
 Admin User Rights
 -----------------
 
-The Admin user gets the following rights.
+The Admin user gets the following rights:
 
 Operating Fire Insights
 ++++++++++++++++++++++++
 
 In Fire Insights an admin user can do the following administration tasks:
 
-- Configure Fire Insights
-- Run Diagnostics
-- Manage Users, Groups, Permissions
-- Load Sample Projects
-- View Server Logs
-- Cleanup Data
-- Usage Statistics
-- Runtime Statistics
-- Global Connections
-- Audit Report
-- Credential Store
+- Configure Fire Insights.
+- Run diagnostics.
+- Manage users, groups, permissions.
+- Load sample projects.
+- View server logs.
+- Cleanup data.
+- Usage statistics.
+- Runtime statistics.
+- Global connections.
+- Audit report.
+- Credential store.
 
 .. figure:: ../../_assets/security/admin_page.PNG
    :alt: security
@@ -107,25 +107,24 @@ In Fire Insights an admin user can do the following administration tasks:
 Projects/Data etc
 +++++++++++++++++
 
-As regards to Projects, the Admin user can do the following:
+As regards the projects, the admin user can do the following:
 
-- View all the Projects
-- View the executions of all the Workflows
-- View the executions of all the Analytical Apps
-
-- Create Analytics App in any Project
+- View all the projects.
+- View the executions of all the workflows.
+- View the executions of all the analytical apps.
+- Create analytics app in any project.
 
 
 Deleting Users/Groups
 ++++++++++++++++++++
 
-In Fire Insights, users and groups cannot be deleted. Users can be made inactive.
+In Fire Insights, users and groups cannot be deleted. But users can be made inactive.
 
 
 Superuser
 ---------
 
-A user in Fire Insights can be marked to be a super-user. A super-user has all the same rights as the admin user.
+A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user.
      
 Details on the Admin user rights
 --------------------
@@ -133,7 +132,7 @@ Details on the Admin user rights
 Diagnostics
 ++++++++++
 
-The admin user can view detailed informations about Machine environments.
+The admin user can view detailed informations about machine environments.
 
 .. figure:: ../../_assets/security/diagnostic.PNG
    :alt: security
@@ -142,7 +141,7 @@ The admin user can view detailed informations about Machine environments.
 Usage Statistics
 ++++++++++++++
 
-The admin user can view Total Users, Groups, Roles, Projects, Workflows & Workflows Executions
+The admin user can view total users, groups, roles, projects, workflows & workflows executions.
 
 .. figure:: ../../_assets/security/usgae_satatistics.PNG
    :alt: security
@@ -151,7 +150,7 @@ The admin user can view Total Users, Groups, Roles, Projects, Workflows & Workfl
 Runtime Statistics
 ++++++++++++++
 
-The admin user can view Total Logged In Users, Total Fire Spark Processes, Total Fire Pyspark Processes & Total Running Jobs
+The admin user can view total logged in users, total Fire Spark processes, total Fire PySpark processes & total running jobs.
 
 .. figure:: ../../_assets/security/runtime.PNG
    :alt: security
@@ -160,7 +159,7 @@ The admin user can view Total Logged In Users, Total Fire Spark Processes, Total
 Sample Projects
 +++++++++++++
 
-The admin user can RELOAD SAMPLE PROJECTS, as by default Fire Insights comes with sample projects containing different types of workflows & datasets
+The admin user can reload sample projects, as by default Fire Insights comes with sample projects containing different types of workflows & datasets.
 
 .. figure:: ../../_assets/security/reload_sample.PNG
    :alt: security
@@ -169,7 +168,7 @@ The admin user can RELOAD SAMPLE PROJECTS, as by default Fire Insights comes wit
 Global Connections
 +++++++++++++++++++
 
-The admin user can Add Connections which everyone can use and also connections at the Group Level.
+The admin user can add connections which everyone can use and also connections at the group level.
 
 .. figure:: ../../_assets/security/connection.PNG
    :alt: security
@@ -178,7 +177,7 @@ The admin user can Add Connections which everyone can use and also connections a
 Server Logs
 ++++++++
 
-The admin user can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs
+The admin user can view Fire server logs, Fire logs, Fire exception logs & Fire PySpark logs.
 
 .. figure:: ../../_assets/security/logs.PNG
    :alt: security
@@ -187,13 +186,13 @@ The admin user can view Fire Server Logs, Fire Logs, Fire Exception Logs & Fire 
 Cleanup Data
 +++++++++++
 
-The admin user can Delete old workflow executions for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Executions
+The admin user can delete old workflow executions for cleaning the DB which is older than  last 7 days or older than last 30 days, older than  last 90 days & delete all executions.
 
 .. figure:: ../../_assets/security/clean-up-data.PNG
    :alt: security
    :width: 60%
 
-The admin user can Clean Audit Logs for cleaning the DB which is Older than  Last 7 days, Older than  Last 30 days, Older than  Last 90 days & Delete All Logs.
+The admin user can clean audit logs for cleaning the DB which is older than last 7 days, older than last 30 days, older than last 90 days & delete all logs.
 
 .. figure:: ../../_assets/security/clean-up-audit.PNG
    :alt: security
@@ -202,7 +201,7 @@ The admin user can Clean Audit Logs for cleaning the DB which is Older than  Las
 Audit Report
 ++++++++++++
 
-The admin user can view Audit Report of user login, logout & Workflow modified.
+The admin user can view audit report of user login, logout & workflow modified.
 
 .. figure:: ../../_assets/security/audit_report.PNG
    :alt: security
@@ -211,7 +210,7 @@ The admin user can view Audit Report of user login, logout & Workflow modified.
 Credential Store
 +++++++++++++++++
 
-The admin user can Add Credential Store, When creating connections, values like username/password etc. can be fetched from the Credential Store
+The admin user can add credential store. When creating connections, values like username/password etc. can be fetched from the credential store.
 
 .. figure:: ../../_assets/security/credentialstore.PNG
    :alt: security

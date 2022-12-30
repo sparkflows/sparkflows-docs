@@ -1,17 +1,15 @@
 Livy Connection
 --------------
 
-Sparkflows enables you to create Apache Livy Connection and use it to submit Jobs/Workflows.
+Sparkflows enables you to create "Apache Livy Connection" and use it to submit jobs/workflows. Connections can be at various levels:
 
-Connections can be at various levels:
+  * Global  : Everyone has access to these connections.
+  * Group   : Users belonging to the group have access to these connections.
+  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+Below are the steps to create a "Livy Connection" in Sparkflows:
 
-Below are the steps to create a Livy Connection in Sparkflows.
-
-1. Enable Livy in Sparkflows
+1. Enable Livy in Sparkflows:
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
 
@@ -23,7 +21,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: livy
    :width: 60%
 
-2. Create Global Connections
+2. Create global connections:
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
@@ -31,7 +29,7 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
    :alt: livy
    :width: 60%
    
-3. Add Connection For Group
+3. Add connection for group:
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
@@ -43,9 +41,9 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: livy
    :width: 60%   
    
-4. Additional parameter as per your environment
+4. Additional parameter as per your environment:
 
-Once you Selected Connection Type & Groups, add the additonal Connection parameters needed.
+Once you have selected  the connection type & groups, add the additonal connection parameters needed. For more deatils refer the following tables and images:
 
 For GENERAL tab :
 
@@ -213,9 +211,9 @@ For YARN tab :
    :alt: livy
    :width: 60%      
 
-5. Test Connection and Save
+5. Test connection and save:
 
-Once you have updated the above parameters, click on ``Test Connection``, if the Connection is Successful, ``Save`` the connection.
+Once you have updated the above parameters, click on ``Test Connection``, if the connection is successful, ``Save`` the connection.
 
 .. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
    :alt: livy

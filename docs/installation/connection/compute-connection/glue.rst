@@ -1,17 +1,15 @@
 AWS Glue Connection
 ----------------
 
-Sparkflows enabled you to create Aws Glue Connection and use the connection to submit job on Aws Glue.
+Sparkflows enabled you to create Aws Glue connection and use the connection to submit job on Aws Glue. Connections can be at various levels:
 
-Connections can be at various levels:
-
-  * Global : Everyone has access to these connections
-  * Group : Users belonging to the group have access to these connections
+  * Global  : Everyone has access to these connections
+  * Group   : Users belonging to the group have access to these connections
   * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
 
-Below are steps on how to create Glue Connection :
+Below are the steps required to create Glue connection :
 
-1. Enable Glue in Sparkflows
+1. Enable Glue in Sparkflows:
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Glue connection by setting the below parameter:
 
@@ -19,15 +17,15 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.glue.enabled : true
 
-2. Create Global Connections
+2. Create global connections:
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
 .. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
 
-3. Add Connection For Group
+3. Add Connection for group:
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
@@ -35,9 +33,9 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: livy
    :width: 60%
 
-4. Update below parameter as per our configurations
+4. Update the below parameter as per our configurations:
 
-Now update below parameter as per AWS configurations
+Now update the below parameter as per AWS configurations. For more details refer the following table and image:
 
 For GENERAL Tab :
 
@@ -65,6 +63,8 @@ For GENERAL Tab :
    :alt: livy
    :width: 60%
 
+
+For more details refer following table:
 
 For GLUE Tab :
 
@@ -109,7 +109,7 @@ For GLUE Tab :
      - Directory used for Writing the workflow files
      - Directory used for Writing the workflow files
 
-5. Save Connection
+5. Save connection
 
 Once you have updated the above parameters, click on  ``Save`` the connection.
 

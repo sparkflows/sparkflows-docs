@@ -1,7 +1,7 @@
 Storage Connections
 ==============
 
-Sparkflows enable you to connect to multiple databases and storage systems by creating the Storage Connection to them.
+Sparkflows enables you to connect to multiple databases and storage systems by creating the "Storage Connection" to them.
 
 In Sparkflows ``Storage Connection`` can connect to the following data sources:
 
@@ -11,7 +11,7 @@ In Sparkflows ``Storage Connection`` can connect to the following data sources:
 * MySQL
 * PostgreSQL
 * Redshift
-* SQL Server
+* SQL server
 * Snowflake
   
 .. toctree::

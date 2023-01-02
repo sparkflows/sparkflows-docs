@@ -7,7 +7,7 @@ Fire Insights is integrated with Azure Key Vault. Once configured, the keys in t
 Create Azure Key Vault in Azure portal
 --------------------
 
-Create a key vault in the Azure portal if you don't have any.
+Create a Key Vault in the Azure portal if you don't have any.
 
 .. figure:: ../../_assets/credential_store/azure-keyvault-list.png
    :alt: Azure Key Vault

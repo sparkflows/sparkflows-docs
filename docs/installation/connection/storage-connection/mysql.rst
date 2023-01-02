@@ -62,7 +62,7 @@ Below are steps on how to create MySQL Connection:
            - com.mysql.jdbc.Driver (by default)
       
 
-2. Test Connection and Save.
+2. Test connection and save.
 
     Once you have entered the values to the parameters, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. Now you can create connection using the resources in datasets and workflows.
 

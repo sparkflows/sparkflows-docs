@@ -51,7 +51,7 @@ Add Credential Store Parameters
    :alt: Credential Store
    :width: 90%     
 
-After adding the above parameters, you can click on "TEST CREDENTIAL STORE CONNECTION".
+After adding the above parameters, you can click on "TEST CREDENTIAL STORE CONNECTION" to verify the connection before saving it.
 
 
 .. figure:: ../../_assets/credential_store/4.PNG
@@ -65,7 +65,7 @@ After adding the above parameters, you can click on "TEST CREDENTIAL STORE CONNE
 Credential Store Created
 ------------------------
 
-Once the credential store has been created you can view it in the list of credential stores.
+Once the credential store has been created, you can view it in the list of credential stores.
 
 .. figure:: ../../_assets/credential_store/6.PNG
    :alt: Credential Store

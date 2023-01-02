@@ -1,19 +1,19 @@
 Snowflake Connection
 =======
 
-Sparkflows provides the capability to create Snowflake Connection and use the connection to access various resources.
+Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources.
 
 Connections can be created at various levels:
 
-* Global : Everyone has access to these connections
-* Group : Users belonging to a group will only have access to these connections
-* Project : The owner of the project and the groups with which the project has been shared with have access to these connections
+* Global  : Everyone has access to these connections.
+* Group   : Users belonging to a group will only have access to these connections.
+* Project : The owner of the project and the groups with which the project has been shared with have access to these connections.
 
-Below are steps on how to create Snowflake Connection:
+Below are the steps required to create "Snowflake Connection":
 
-1. Login to Sparkflows WEB Server Url
+1. Login to Sparkflows web server URL.
 
-  It can be created by the Administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
+  It can be created by the administrator under ''Administration/Global Connections''. These connections are available for everyone to use.
 
 
    .. list-table:: 
@@ -56,9 +56,9 @@ Below are steps on how to create Snowflake Connection:
       :alt: connection
       :width: 60% 
 
-2.  Test and Save the Connection
+2.  Test and save the connection.
 
-  Once you Save the Connection, Resouces can be used inside workflow editor etc. using above connection.
+  Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
 
 Documentation
 +++++

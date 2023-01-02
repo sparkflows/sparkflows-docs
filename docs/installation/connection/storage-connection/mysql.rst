@@ -1,12 +1,12 @@
 MySQL Connection
 ================
 
-Sparkflows provides the capability to create MySQL Connection and use the connection to access various resources.
+Sparkflows provides the capability to create MySQL connection and use the connection to access various resources.
 
 Connections can be created at various levels:
 
-* Global : Everyone has access to these connections
-* Group : Users belonging to a group will only have access to these connections
+* Global  : Everyone has access to these connections
+* Group   : Users belonging to a group will only have access to these connections
 * Project : The owner of the project and the groups with which the project has been shared with have access to these connections
 
 Below are steps on how to create MySQL Connection:
@@ -62,10 +62,8 @@ Below are steps on how to create MySQL Connection:
            - com.mysql.jdbc.Driver (by default)
       
 
-2. Test Connection and Save
+2. Test Connection and Save.
 
-    Once you have entered the values to the parameters, click on ``Test Connection``. If the Connection is Successful, ``Save`` the connection.
+    Once you have entered the values to the parameters, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. Now you can create connection using the resources in datasets and workflows.
 
-    Now you can created connection use the resources in datasets and workflows.
-
-.. Note:: Make sure that MySQL URL should be accessible from Sparkflows webserver URL.
+.. Note:: Make sure that MySQL URL should be accessible from Sparkflows web server URL.

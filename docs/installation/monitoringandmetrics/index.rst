@@ -1,7 +1,7 @@
 Monitoring & Metrics
 ==============
 
-Fire Insights enable you to Monitor application health and Metrics.
+Fire Insights enables you to monitor application's health and metrics.
 
 .. toctree::
    :maxdepth: 2

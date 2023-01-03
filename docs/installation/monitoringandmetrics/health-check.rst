@@ -1,13 +1,13 @@
 Health Check
 ============
 
-The following URL can be used for checking the health of Fire Insights
+The following URL can be used for checking the health of Fire Insights :
 
 ::
    
     http://localhost:8080/healthcheck
 
-once the above URL is added in Browser the response should be something like below ::
+Once the above URL is added in the browser, the response should be something similar to the following ::
 
     {"status":"UP"}
 
@@ -15,4 +15,4 @@ once the above URL is added in Browser the response should be something like bel
    :alt: operating
    :width: 60%
     
-.. note::  Make sure to change localhost to your domain name or your ip where Fire Insights is running
+.. note::  Make sure to change the localhost to your domain name or your IP where Fire Insights is running.

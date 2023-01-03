@@ -1,4 +1,4 @@
-Update H2 DB Path
+Update H2 Databse Path
 ========
 
 Fire Insights comes up with embedded H2 DB. By default the H2 DB files are created in the users home directory.

@@ -3,7 +3,7 @@ Regular Maintenance Tasks
 
 It is important to do a few maintenance tasks regularly to have Fire Insights running smoothly over time.
 
-Commands cheatsheet for H2DB is available at : "https://docs.sparkflows.io/en/latest/commands/h2-db.html".
+Commands cheatsheet for H2DB is available at : https://docs.sparkflows.io/en/latest/commands/h2-db.html
 
 
 Backing up H2 Database

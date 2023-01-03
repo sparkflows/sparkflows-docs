@@ -5,39 +5,39 @@ Fire Insights has JDBC Processors for reading data from JDBC sources or writing 
 
 In order to connect to a JDBC source like Oracle/DB2/Postgres etc. the JDBC driver needs to be installed in Fire.
 
-Below are the steps for installing the JDBC driver:
+Below are the steps for installing the JDBC driver :
 
-- *Download the JDBC jar file*
-- *Copy it into "fire-user-lib" and "fire-server-lib" directory under the Fire installation home directory*
-- *Restart fire*
+- *Download the JDBC JAR file.*
+- *Copy it into "fire-user-lib" and "fire-server-lib" directory under the Fire installation home directory.*
+- *Restart Fire.*
 
-Download the JDBC jar file
---------------------------
+Download the JDBC JAR File
+-------------------------- 
 
-Download the JDBC jar file for the Database you are looking to connect to.
+Download the JDBC JAR file for the database you are looking to connect to.
 
 Copy it into fire-user-lib & fire-server-lib
 --------------------------
 
 Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
 
-Copy the downloaded JDBC jar file into it.
+Copy the downloaded JDBC JAR file into it.
 
 
-Restart Fire Server
+Restarting Fire Server
 ------------
 
 Restart the Fire server with ``./run-fire-server.sh restart``
 
-They will be restarted automatically.
+This will restart the Fire services automatically.
 
 
-Running Workflows depending on the jars added
+Running Workflows Depending on the JARS Added
 ---------------------------
 
-When running workflows which depend on the jar file, select the checkbox for that jar file in the Workflow Execution Page. 
+When running workflows which depend on the JAR file, select the checkbox for that JAR file in the Workflow Execution Page. 
 
-Downloading the JDBC jar files
+Downloading the JDBC JAR Files
 ---------------------------
 
 MySQL
@@ -45,16 +45,16 @@ MySQL
 
 
 - MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
-- After downloading untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
-- After untaring the jdbc jar file is available in the directory
-- Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire
+- After downloading, untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
+- After untaring, the JDBC JAR file is available in the directory.
+- Use the JAR file (mysql-connector-java-8.0.11.jar) for installation in the Fire.
 
 PostgreSQL
 ++++++++++
 
 - PostgresSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download
 
-.. note:: Already included in Sparkflows package
+.. note:: Already included in Sparkflows package.
 
 Oracle
 ++++++
@@ -64,7 +64,7 @@ Oracle
 Teradata
 ++++++++
 
-- Teradata JDBC drivers can be download from : https://downloads.teradata.com/download/connectivity/jdbc-driver
+- Teradata JDBC drivers can be downloaded from : https://downloads.teradata.com/download/connectivity/jdbc-driver
 
 https://dwgeek.com/steps-to-connect-teradata-database-from-spark-examples.html/
 
@@ -78,16 +78,16 @@ Azure Synapse
 JDBC Drivers
 -------
 
-When using the JDBC processors, the following can be used for the JDBC Driver. Below are the JDBC URL's for some databases:
+When using the JDBC processors, the following can be used for the JDBC Driver. Below are the JDBC URLs for some databases :
 
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
 
-Example JDBC URL
+Example JDBC URLs
 ----------------
 
-Below are some example JDBC URL for reading from Relational sources when using the JDBC Processors:
+Below are some examples of JDBC URLs for reading from Relational sources when using the JDBC Processors :
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb

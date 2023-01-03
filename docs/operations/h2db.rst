@@ -12,4 +12,4 @@ Open ``db.properties`` file available inside ``fire-x-y.z/conf`` directory and u
     spring.datasource.url = jdbc:h2:file:/path/firedb
     
     
-.. note:: Make sure to update actual path and have write access to the directory.   
+.. note:: Make sure to update the actual path and have write access to the directory.   

@@ -1,11 +1,11 @@
 Update H2 Databse Path
 ========
 
-Fire Insights comes up with embedded H2 DB. By default the H2 DB files are created in the users home directory.
+Fire Insights comes up with embedded H2 database. By default, the H2 database files are created in the users home directory.
 
-The path of the H2 DB files can be updated as below :
+The path of the H2 database files can be updated as below :
 
-Open ''db.properties'' file available inside ''fire-x-y.z/conf'' directory and update ''spring.datasource.url'' path you want to.
+Open ``db.properties`` file available inside ``fire-x-y.z/conf`` directory and update ``spring.datasource.url`` path you want to.
 
 ::
 

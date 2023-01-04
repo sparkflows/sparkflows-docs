@@ -20,7 +20,7 @@ Details
 Data extraction patterns for SAP applications
 
 - Database-level extraction
-  - Database-level extraction, as the name suggests, taps in to SAP data at database level. 
+  - Database-level extraction taps in to SAP data at database level. 
   - Use Python Support for SAP HANA client libraries or Java Database Connectivity (JDBC) drivers in AWS Glue and AWS Lambda.
 
 - Application-level extraction

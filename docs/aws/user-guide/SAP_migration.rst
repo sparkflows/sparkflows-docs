@@ -8,14 +8,14 @@ Overview
 
 S3 Storage is the default storage layer in AWS.
 
-.. figure:: ../_assets/SAP_Docs/docs/_assets/SAP_migration/Imagen-1.png
+.. figure:: ../_assets/SAP_migration/Imagen-1.png
    :alt: SAP_to_S3
    :align: center
 
 Details
 -------
 
-## Data extraction patterns for SAP applications
+Data extraction patterns for SAP applications
 
 * Database-level extraction
 - Database-level extraction, as the name suggests, taps in to SAP data at database level. 

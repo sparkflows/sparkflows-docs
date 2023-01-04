@@ -1,12 +1,16 @@
-Integration with SAP
+Migrating data from SAP into S3
 ==========================
 
-Fire seamlessly integrates with HIVE when running on AWS.
+Store SAP data into S3
 
 Overview
 --------
 
-On AWS, the data normally resides in S3 buckets. 
+S3 Storage is the default storage layer in AWS.
+
+.. figure:: ../_assets/SAP_Docs/docs/_assets/SAP_migration/Imagen-1.png
+   :alt: SAP_to_S3
+   :align: center
 
 Details
 -------

@@ -19,7 +19,7 @@ Install MySQL
 * Install MySQL on a machine or you can use MySQL running on Cloud Infrastructure.
 * It might be easier to install it on the same machine you are installing Fire Insights on.
 
-.. note:: Make sure that MySQL DB should be accessible from Fire Insights Machine.
+.. note:: Make sure that MySQL database should be accessible from Fire Insights Machine.
 
 Create the DB for Fire in MySQL
 -------------------------------
@@ -54,7 +54,7 @@ Configure Fire to connect to MySQL
 
  
 
-* Update the following fields in ``conf/db.properties`` based on the values you used in creating the DB for fire. The below assumes that the database name you created for Fire is ``firedb``. It also assumes that MySQL has been installed on the ``same machine`` as Fire::
+* Update the following fields in ``conf/db.properties`` based on the values you used in creating the database for fire. The below assumes that the database name you created for Fire is ``firedb``. It also assumes that MySQL has been installed on the ``same machine`` as Fire::
 
 
     # Connection url for the database "firedb"
@@ -71,7 +71,7 @@ Configure Fire to connect to MySQL
     
     spring.datasource.password=fire
 
-Install the MySQL Connector Jar file
+Install the MySQL Connector JAR file
 -------------------------------------
 
 * Download the MySQL JDBC driver from http://www.mysql.com/downloads/connector/j/5.1.html

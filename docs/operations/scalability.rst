@@ -4,7 +4,7 @@ Scalability
 Overview
 --------
 
-Fire Insights is build to scale horizontally for a number of users and a number of jobs which can be running.
+Fire Insights is architected to scale horizontally both for the number of users and number of jobs.
 
 Fire Insights achieves this in a few ways:
 

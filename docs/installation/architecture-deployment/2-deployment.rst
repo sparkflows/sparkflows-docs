@@ -10,14 +10,14 @@ In this mode, Fire is installed on a mac/windows/linux machine. All the executio
 
 This mode can be used for:
 
-* Designing Workflows to be finally deployed on a larger Apache Spark Cluster.
+* Designing workflows to be finally deployed on a larger Apache Spark cluster.
 * For analyzing smaller sets of data.
 
 
 Deployment on an Apache Hadoop/Apache Spark Cluster
 -------------------------------------
 
-The clusters could be based on the Apache Hadoop distribution from Cloudera, Hortonworks, MapR or any other Hadoop Cluster distributors. The cluster can be on-premise or on the cloud.
+The clusters could be based on the Apache Hadoop distribution from Cloudera, Hortonworks, MapR or any other Hadoop cluster distributors. The cluster can be on-premise or on the cloud.
 
 
 

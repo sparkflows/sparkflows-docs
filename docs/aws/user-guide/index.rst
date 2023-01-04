@@ -52,6 +52,12 @@ AWS User Guide
     
     Processing incoming files using Fire Insights Rest APIS, AWS Lambda functions, and sqs.
     
+    ---
+    
+    :doc:`/aws/user-guide/SAP-migration`
+    
+    SAP Data Migration to S3 Buckets.
+    
     
 .. toctree::
    :hidden:
@@ -65,6 +71,7 @@ AWS User Guide
    sagemaker.rst
    kinesis.rst
    file-watcher.rst
+   SAP-migration.rst
 
    
    

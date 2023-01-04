@@ -1,13 +1,13 @@
-Migrating from H2 DB to MySQL
+Migrating from H2 Database to MySQL
 =============================
 
-Fire Insights comes with an embedded H2 DB.
+Fire Insights comes with an embedded H2 database.
 
-There are times when we start with the embedded H2 DB, but then want to migrate to MySQL. It is always recommended to start with MySQL database with Fire Insights for long term stability and reliability.
+There are times when we start with the embedded H2 database, but then want to migrate to MySQL. It is always recommended to start with MySQL database with Fire Insights for long term stability and reliability.
 
-Below are the steps for migrating the data from H2 DB to MySQL.
+Below are the steps for migrating the data from H2 database to MySQL.
 
-Migrate H2 DB data to MySQL using executable jar file.
+Migrate H2 database data to MySQL using executable jar file.
 -----------------------------------------------------
 
 
@@ -25,24 +25,24 @@ Create the MySQL tables
         :alt: Execute Button
         :width: 3% 
 
-- On running the MySQL script firedb database will be created along with the tables-
+- On running the MySQL script, firedb database will be created along with the tables-
 
     .. figure:: ..//_assets/DB_Migration/Created_DB.png
         :alt: Fire Database
         :width: 110%
 
-Stop Fire server
+Stop Fire Server
 ++++++++++++++++++
 
-- Stop the Fire server
+- Stop the Fire server.
 - ./run-fire-server.sh stop
 
 
-Migrate data from H2 DB to MySQL database
+Migrate data from H2 database to MySQL database
 +++++++++++++++++++++++++++++++++++
 
 - Update the ``properties.txt`` file in ``/fire-3.1.0_spark_2.4/dbmigration`` folder with the database specific details for the source and destination databases.
-- Update the username, password and database urls for the databases like the following example::
+- Update the username, password and database URLs for the databases like the following example::
     
     
     #source db
@@ -60,17 +60,17 @@ Migrate data from H2 DB to MySQL database
 
 - Open the command prompt.
 - Navigate to ``dbmigration`` folder inside ``fire-3.1.0_spark_2.4``.
-- Run the command - ``java -jar dbmigration.jar properties.txt``
+- Run the command - ``java -jar dbmigration.jar properties.txt``.
 
 Configure the properties file to point to MySQL database
 ++++++++++++++++++++++++++++++++++++
 
-Update the ``db.properties`` file to point to MySQL database
+Update the ``db.properties`` file to point to MySQL database.
 
-Restart Fire server
+Restart Fire Server
 ++++++++++++++++++
 
-- Restart the Fire server
+- Restart the Fire server.
 - ./run-fire-server.sh start
 
-.. note::  If the DB migration process throws an exception or error then resolve the issue and then re-execute the MYSQL script, then restart the migration process again.
+.. note::  If the database migration process throws an exception or error then resolve the issue and then re-execute the MYSQL script, then restart the migration process again.

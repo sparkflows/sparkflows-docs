@@ -1,41 +1,41 @@
 Using Jupyter Notebook
 =============
 
-Jupyter is extensively used by Data Scientists.
+Jupyter is extensively used by data scientists.
 
 Overview
 --------
 
-Fire can be used to easily create a downsampled dataset. Fire provides a ``sample`` processor for it.
+Fire can be used to, easily, create a downsampled dataset. Fire provides a ``sample`` processor for it.
 
-Once the dataset size has been reduced, Data Scientists can model with it in Jupyter.
+Once the dataset size is small, data scientists can use it to build model in Jupyter notebook.
 
 Once the modeling process is complete, the algorithm can be run on the full data in Fire.
 
-Fire Can be Configured to Jupyter Notebook, Below are steps involved in it:
+Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
 
-1. Login to Fire web server url
+1. Login to Fire web server URL
 
-Once Login to Fire web server url, Goto ''ADMINISTRATION -->> Configurations'' and Select ''NOTEBOOK''
+Once login to Fire web server URL, Goto ``ADMINISTRATION -->> Configurations`` and select ``NOTEBOOK``.
 
 
 .. figure:: ..//_assets/operating/jupyter_notebook_config.PNG
    :alt: operating
    :width: 60%
 
-Update Below Parameters:
+Update the below parameters:
 
 ::
 
     notebook.enabled : true
     notebook.serverHost : jupyternotebook server url which include token
     
-.. note::  Make sure to change localhost to your domain name or your ip where Fire is running  and it should be accessible.   
+.. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
 
 
 2. Open Jupyter Notebook
 
-Once the above configuration got saved, refresh the web server url and you will see ''Jupyter Notebook'', Open it.
+Once the above configuration is saved, refresh the web server URL and you will see ''Jupyter Notebook'', Open it.
 
 .. figure:: ..//_assets/operating/jupyter_notebook-access.PNG
    :alt: operating
@@ -43,7 +43,7 @@ Once the above configuration got saved, refresh the web server url and you will 
 
 3. Access Jupyter Notebook
 
-Once you Click on ''Jupyter Notebook'', it will open a new Page for Jupyter Notebook and you can run the python code on top of it.
+Once you click on ''Jupyter Notebook'', it will open a new page for Jupyter Notebook and you can run the python code on top of it.
 
 .. figure:: ..//_assets/operating/jupyter_notebook_url.PNG
    :alt: operating

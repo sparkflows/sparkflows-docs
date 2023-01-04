@@ -8,7 +8,7 @@ Overview
 
 S3 Storage is the default storage layer in AWS.
 
-.. figure:: ../_assets/SAP-migration/SAPtoS3.png
+.. figure:: ../_assets/SAP_migration/SAPtoS3.png
    :alt: SAP_to_S3
    :align: center
 

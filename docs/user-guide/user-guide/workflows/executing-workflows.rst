@@ -1,7 +1,7 @@
 Executing Workflows
 ===================
 
-The ways in which the Fire Workflows can be executed are: 
+The ways in which the Fire workflows can be executed are: 
  
  * **Interactively within the User Interface**.
  * **Submitting the workflows using Spark-Submit through the command line**.
@@ -20,7 +20,7 @@ Workflows can be executed from the browser by going into the Execute page of the
 Executing Workflows with Spark-Submit
 --------------------------------------
  
-Workflows are saved as text files in JSON format.
+Workflows are saved as JSON files.
 Workflows can be submitted to be run on the cluster with Spark-Submit::
   
     spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf
@@ -71,7 +71,7 @@ Scheduling Workflow Execution with Scheduler of Choice
  
 Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on the 'Schedule' button of the workflow we want to schedule.
+- Click on the 'Schedule' button of the workflow you want to schedule.
 
 .. figure:: ../../../_assets/user-guide/workflow/5.PNG
    :alt: Workflow
@@ -104,7 +104,7 @@ Many times it is helpful to be able to debug the workflows. One easy way is to c
  
 Running in Debug Mode does a few things:
 
-* Performs a count() after executing each processor. This makes it easier to track errors. It takes out Fire Insights' lazy execution from the picture.
+* Performs a count() after executing each processor. This makes it easier to debug and understand the pipeline. It takes out Fire Insights’ lazy execution from the picture.
 * Displays the number of records processed at each stage.
 * Displays more information for each SQL, etc., which are being executed.
 

@@ -6,7 +6,7 @@ Overview
 
 You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
 
-It will bring up the dialog box below. Select the format of the file for which the new dataset is being created.
+It will bring up the dialog box as below. Select the format of the file for which the new dataset is being created.
 
 .. figure:: ../../../_assets/tutorials/dataset/dataset_popup.PNG
    :alt: Dataset
@@ -17,14 +17,14 @@ Enter Field Details
 
 Below are the details of the fields in the ``Create Dataset`` page:
 
-- **NAME**: Name of the New Dataset we are creating.
+- **NAME**: Name of the new dataset we are creating.
 - **DESCRIPTION**: Description of the new dataset.
 - **CATEGORY**: Category of the new dataset.
 - **PATH**: It defines the location of the file or directory containing the data files for the dataset. It can either point to a single file, or to a directory containing a set of files. All the files have to have the same schema.
 - **DELIMITER**: Delimiter field is also used for CSV/TSV files. It indicates the delimiter to be used between the fields in the data.
 - **HAS HEADER ROW**: This is used for CSV/TSV files. It indicates whether the dataset has a header row specifying the name of the columns or not.
-- **DROP SPECIAL CHARACTER IN COLUMN NAME**: Drop Special Character In Column Name if any.
-- **MODE**: Mode for dealing with Corrupt records during parsing.
+- **DROP SPECIAL CHARACTER IN COLUMN NAME**: Drop special character in Column Name, if any.
+- **MODE**: Mode for dealing with corrupt records during parsing.
 
   
  

@@ -33,7 +33,7 @@ Creating Edges
 Deleting Edges
 ===============
  
-  * Edges can be deleted by clicking on the Edge number and selecting 'Delete'
+  * Edges can be deleted by clicking on the Edge number and selecting 'Delete'.
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_edge.PNG
    :alt: workflow
@@ -45,7 +45,7 @@ Saving Workflow
 
   * Give the workflow a name.
   * Enter the description for the workflow.
-  * Click on the 'Save' button to Save created new workflow.
+  * Click on the 'Save' button to save the created new workflow.
   * You can also save a new version for the workflow.
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_saved.PNG
@@ -57,7 +57,7 @@ Saving Workflow
 View Workflows
 ===============
 
-You can view the workflows by going to the workflows tab of the Project.
+You can view the workflows by going to the workflows tab of the project.
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_list.PNG
    :alt: workflow

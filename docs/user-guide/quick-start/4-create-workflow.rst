@@ -8,12 +8,12 @@ The steps invoved in creating a workflow are:
 * Click on the ``Workflows`` tab in the Project.
 * Create the empty workflow.
 * Add the processors.
-* Save the Workflow.
+* Save the workflow.
 
 
 Workflows Tab
 ============================
-Click the ``Workflows`` tab in the ``Project`` to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created in the porject. 
+Click the ``Workflows`` tab in the ``Project`` to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created in the project. 
 
 .. figure:: ../../_assets/tutorials/quickstart/7.png
    :alt: Quickstart
@@ -31,7 +31,7 @@ Click ``Save`` to save the empty workflow.
 Add Processors
 ===================
 
-After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. Can even search by name of processors.
+After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. You can even search by the name of processors.
 
 .. figure:: ../../_assets/tutorials/quickstart/9.png
    :alt: Quickstart

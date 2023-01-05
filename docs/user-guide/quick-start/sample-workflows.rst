@@ -3,7 +3,7 @@ Sample Workflows
 
 Fire Insights provide an array of sample workflows to showcase capabilities and usage of processors.
 
-These workflows are bundled together in following projects that can be accessed in Sample Projects tab.
+These workflows are bundled together in the following projects that can be accessed in Sample Projects tab.
 
 Data Preparation Project
 ----------------------------------------
@@ -26,7 +26,7 @@ Data Preparation Project
    * - DateTimeFieldExtract
      - Extraction of Year, Month, Day of month, Hour, Minute, Second values from incoming column of TimeStamp datatype using DataTimeFieldExtract node. 
    * - Data Preparation
-     -   -	Converts a String value to Date using MultiStringToDate node
+     -   -	Converts a String value to Date using MultiStringToDate node.
 	      
          -	Evaluates multiple conditional expressions to compute value using CaseWhen node. 	
 	      
@@ -66,9 +66,9 @@ Data Preparation Project
       
          -	Selects Rows having specified Index values using RowFilterByIndex node. 
    * - String Functions
-     - This workflow performs variouss transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node
+     - This workflow performs various transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node
    * - Titanic Data Cleaning
-     -   -	Drop rows having null values using DropRowsWithNull node
+     -   -	Drop rows having null values using DropRowsWithNull node.
 	      
          -	Filters rows having data length for selected column within a given range using FilterByStringLength.
 	      
@@ -90,7 +90,7 @@ Data Quality Project
    * - Employee - Data Cleaning and Data Quality
      -	-	Performs data transformation such as Text Case change to Upper and Lower using StringFunctionMultiple node.
      
-     	-	Converts incoming data to desired value by executing Case When statement in Sql Node.
+     	-	Converts incoming data to desired value by executing Case When statement in SQL Node.
 	
 	-	Performs various data validations.
 	
@@ -189,7 +189,7 @@ Visualization Project
    * - NYC Taxi Average Speed
      - 	-	Extracts Hour and Minute values from incoming data using DateTimeFieldExtract node.
      
-     	-	Executes a SQL statement using Sql node.
+     	-	Executes a SQL statement using SQL node.
 	
 	-	Aggregates data using GroupBy node.
 	

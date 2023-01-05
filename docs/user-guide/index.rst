@@ -1,11 +1,9 @@
 User's Guide
 ===============================
 
-Sparkflows makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics.
-
-With the power of Sparkflows at your hands, seamlessly find value from your data and scale to Petabytes of data.
-
-Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly integrates with the most complex of Enterprise Environments.
+Sparkflows makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics. 
+With the power of Sparkflows at your hands you can seamlessly find value from your data and scale to Petabytes of data. 
+You can install it on the cloud, on-premise or even on your laptop. Sparkflows integrates seamlessly with the complex of Enterprise Environments.
 
 .. panels::
     :container: container-lg pb-3

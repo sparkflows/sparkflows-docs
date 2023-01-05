@@ -1,8 +1,8 @@
 
-QuickStart Guide
+Quick Start Guide
 =========
 
-The quickstart gets you started with Fire Insights. 
+The quick start guide gets you started with Fire Insights. 
 
 Let's get started! 
 
@@ -36,13 +36,13 @@ Let's get started!
 
     :doc:`/user-guide/quick-start/5-execute-workflow`
     
-    Finally Execute the worflow.
+    Finally execute the worflow.
 
     ---
 
     :doc:`/user-guide/quick-start/sample-workflows`
     
-    Sample Workflows.
+    Sample workflows.
 
 
 .. toctree::

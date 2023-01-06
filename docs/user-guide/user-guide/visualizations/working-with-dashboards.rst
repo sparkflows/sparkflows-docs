@@ -1,11 +1,11 @@
 Reports
 =======================
 
-Sparkflows allows you to create Reports based of an assortment of data.
+Sparkflows allows you to create reports based upon an assortment of data.
 
-Processors in Sparkflows can output data in tables, charts, maps and simple strings. Reports allow combining of the output of various processors into one User Interface.
+Processors in Sparkflows can provide output of data in the form of tables, charts, maps and simple strings. Reports allow combining of the output of various processors into one User Interface.
 
-For example, we might want to output a chart of the number of bike rentals per hour, another by per day and another map displaying the total number of bike rentals per city for the day. Report can combine all these into one view.
+For example, we might want to take output of a chart of the number of bike rentals per hour, another by per day and another map displaying the total number of bike rentals per city for the day. Report can combine all these into one view.
  
 Creating Reports
 --------------------

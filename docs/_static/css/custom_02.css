@@ -5,6 +5,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+*{
+    scrollbar-color: rgba(0,0,0,.5) rgb(210,210,210) !important;
+    scrollbar-width: thin !important;
+  }
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 4px;
+  }
+
 h1,
 h2,
 .rst-content .toctree-wrapper p.caption,
@@ -54,7 +72,7 @@ p{
 }
 
 .wy-side-scroll {
-    width: 356px;
+    width: 340px;
     padding-bottom: 4.5em;
 }
 .wy-menu-vertical {

@@ -1,7 +1,8 @@
 Notifications & Alerts
 ======
 
-Users, in general, prefer to be alerted when a job completes or fails, especially in Big Data where jobs can run for hours together.
+In Big Data where the jobs could run for hours, users prefer to be alerted when a job completes.
+
 
 Email Notifications/Alerts when Executing Workflows
 -------------------------------------

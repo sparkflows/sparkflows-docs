@@ -2,7 +2,7 @@
 Scheduling
 ====
 
-Fire allows you to schedule workflows by time to be executed.
+Fire allows you to schedule workflows based upon the time to be executed.
 
 .. toctree::
    :maxdepth: 2

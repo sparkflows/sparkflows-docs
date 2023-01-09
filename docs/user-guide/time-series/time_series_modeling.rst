@@ -21,7 +21,7 @@ Sparkflows provides a number of Processors for Time Series Modeling. These inclu
    * - VAR
      - VAR, or Vector Autoregression, is a statistical model used to describe the linear interdependence between multiple time series. It is a multivariate extension of the univariate autoregressive model, and can be used to analyze the dynamic relationships between multiple variables over time. VAR models are widely used in economics, finance, and other fields. Sparkflows integrates with the state of art VAR library available in statsmodels package. More details can be found: https://www.statsmodels.org/dev/vector_ar.html
      
-   * - XGBoost
+   * - XGBoost (Any model for tabular data)
      - XGBoost is gradient boosting algorithm which can be used to model time series data after computing features like lags, moving averages, time based features among others. It is also known as regularized boosting technique - seeks a goot bias-variant trade-off to reduce overfitting allows cross-validation at each iteration of the boosting process and thus it is easy to get the exact optimum number of boosting iterations in a single run. For more: https://xgboost.readthedocs.io/en/stable/
 
 

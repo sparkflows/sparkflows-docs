@@ -63,4 +63,4 @@ Below are steps to setup SAML 2.0 Ping Identity:
    :alt: sso
    :width: 60%
 
-.. note::  Make sure to change localhost to your domain name or your ip.
+.. note::  Make sure to change localhost to your domain name or your ip, Where Fire is Running.

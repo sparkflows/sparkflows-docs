@@ -1,7 +1,7 @@
 Databrikcs
 ==========
 
-Fire Insights has a processor that allows you to connect with databrikcs table and dbfs file system.
+Fire Insights has a processor that allows you to connect with databrikcs table and DBFS file system.
 
 Read Databricks table in Workflow
 ---------------------------------
@@ -20,8 +20,8 @@ Workflow
 Processor Configurations for ReadDatabricksTable
 ++++++++
 
-* DATABRICKS DATABASE : Click on BROWSE STUDIO DB and select specified database.
-* DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
+* DATABRICKS DATABASE : Click on ``BROWSE STUDIO DB`` and select specified database.
+* DATABRICKS TABLE : Click on ``BROWSE STUDIO TABLE`` and select specified Table.
 
 
 .. figure:: ../../_assets/configuration/databricks-editor.PNG
@@ -67,10 +67,10 @@ Workflow
 Processor Configurations for SaveDatabricksTable
 ++++++++
 
-* DATABRICKS DATABASE : Click on BROWSE STUDIO DB and select specified database.
-* DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
+* DATABRICKS DATABASE : Click on ``BROWSE STUDIO DB`` and select specified database.
+* DATABRICKS TABLE : Click on ``BROWSE STUDIO TABLE`` and select specified Table.
 * FORMAT : The tables can be saved into CSV, JSON, Parquet and ORC file formats.
-* SAVE MODE : Append, overwrites, ErrorifExists or Ignore
+* SAVE MODE : Append, overwrites, ErrorifExists or Ignore.
 
 .. figure:: ../_assets/configuration/savedatabricks_configuration.PNG
    :alt: Databricks

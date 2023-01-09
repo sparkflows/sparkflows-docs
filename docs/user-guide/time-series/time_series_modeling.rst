@@ -55,12 +55,12 @@ Prophet processor Configuration:
    :alt: ml_userguide
    :width: 90%
    
-.. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
+.. figure:: ../../_assets/ml_userguide/fbprohet_processor2.PNG
    :alt: ml_userguide
    :width: 90%
 Output result of ``Prophet`` after model:  
 
-.. figure:: ../../_assets/ml_userguide/fbprophet_result.PNG
+.. figure:: ../../_assets/ml_userguide/fbprophet_result.png
    :alt: ml_userguide
    :width: 90%
 
@@ -131,7 +131,7 @@ H2OMojoSave processor Configuration:
 
 On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
 
-.. figure:: ../../_assets/ml_userguide/h2o_output.PNG
+.. figure:: ../../_assets/ml_userguide/h2o_output.png
    :alt: ml_userguide
    :width: 60%
 

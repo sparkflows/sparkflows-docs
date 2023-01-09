@@ -3,7 +3,7 @@ Time Series Modeling
 
 Sparkflows provides a number of Processors for Time Series Modeling. These include:
 
-.. list-table:: Update New features where needed
+.. list-table::
    :widths: 10 40
    :header-rows: 1
 

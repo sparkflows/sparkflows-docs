@@ -1,7 +1,7 @@
 SQL Server
 =========
 
-In Fire Insights, Connections can be made to SQL Server. This can be used in the JDBC Connection nodes in the Workflow Editor for reading and writing data to SQL server DB.
+In Fire Insights, Connections can be made to SQL Server. This can be used in the JDBC Connection nodes in the Workflow Editor for reading and writing data to SQL server database.
 
 
 Creating Connection
@@ -12,7 +12,7 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Specify your SQL Server Username, Password, and JDBC Url and save the details.
+Specify your SQL Server Username, Password, and JDBC URL and save the details.
 
 .. figure:: ../../../_assets/connections/sql_connection.PNG
    :alt: Databricks

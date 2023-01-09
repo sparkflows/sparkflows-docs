@@ -10,9 +10,9 @@ Use Case
 
 The kind of use cases this can handle are:
 
-* A job loads data into HIVE
-* Now the job wants to trigger another workflow
-* It pushes an event to a Kafka Topic to trigger the workflow
+* A job loads data into HIVE.
+* Now the job wants to trigger another workflow.
+* It pushes an event to a Kafka Topic to trigger the workflow.
 
 Event Format
 -----------
@@ -23,7 +23,7 @@ Below is the format of the event.
 
 **Type|Value|Spark Submit Configs|Extra Jar Files|Program Parameters|Emails on Success|Emails on Failure**
 
-* ``Type`` : Type determines the kind of data in the Value column
+* ``Type`` : Type determines the kind of data in the Value column:
 
   * 0: workflow id
   * 1: workflow name
@@ -37,12 +37,12 @@ Below is the format of the event.
   
 * ``Spark Submit Configs``: Extra Spark Submit configurations to be applied when running the Spark Job.
 * ``Extra Jar files``: Extra jar files to use in spark-submit.
-* ``Program parameters`` : Extra program parameters if any.
+* ``Program parameters`` : Extra program parameters, if any.
 
   * Program Parameters are passed to the workflow. Example :  ``--var key1=value1``.
   
-* ``Email on Success``: email addresses to send Success email on Job Completion.
-* ``Email on Failure``: email addresses to send Failure email on Job Failure.
+* ``Email on Success``: email addresses to send success email on Job Completion.
+* ``Email on Failure``: email addresses to send failure email on Job Failure.
 
 
 Example Events
@@ -52,10 +52,10 @@ Example Events
 
 In the above example:
 
-  * 0: Trigger by workflow id
-  * 5: Workflow id to trigger
-  * success@sparkflows.io: Email address to send regarding the success of the workflow
-  * failure@sparkflows.io: Email address to send regarding the failure of the workflow
+  * 0: Trigger by workflow id.
+  * 5: Workflow id to trigger.
+  * success@sparkflows.io: Email address to send regarding the success of the workflow.
+  * failure@sparkflows.io: Email address to send regarding the failure of the workflow.
   
 
 Configuring Fire to listen for Events from the Kafka Topic

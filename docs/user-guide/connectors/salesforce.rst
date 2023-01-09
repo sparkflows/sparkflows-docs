@@ -1,13 +1,13 @@
 Salesforce
 ================
-Fire Insights enable to Read from and Write to Salesforce using cdata JDBC Driver.
+Fire Insights enables to Read from and Write to Salesforce using cdata JDBC Driver.
 
 Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Fire Insights
 
 Download and Configure cdata JDBC Driver
 ----------------
 
-Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, after adding some needed information you can download in zip format in your system.
+Login to cdata Salesforce JDBC Driver page and click on ``Download Trial version``, after adding some required information. The driver file can be downloaded in zip format in your system.
 
   * cdata JDBC Driver URL :  https://www.cdata.com/drivers/salesforce/download/jdbc/
     
@@ -25,7 +25,7 @@ Login to cdata Salesforce JDBC Driver page and Click on Download Trial version, 
    :alt: salesforce
    :width: 90%   
    
-Once Dowload completed, unzip that and extract jar from file `setup.jar` with below command and accept END USER LICENSE AGREEMENT with some required informations.   
+Once the dowload  is completed, unzip that and extract jar from file `setup.jar` with below command and accept END USER LICENSE AGREEMENT with some required informations.   
 
 ::
 
@@ -43,7 +43,7 @@ Once Dowload completed, unzip that and extract jar from file `setup.jar` with be
    :alt: salesforce
    :width: 90%    
  
-On Successful completion of above steps, Go to path where you installed salesforce drive and point to below path:
+On Successful completion of the above steps, go to path where you installed salesforce drive and point to the below path:
 
 ::
 
@@ -67,7 +67,7 @@ Below are steps to configure cdata JDBC Driver in Fire Insights and Read and Wri
 Read Salesforce
 ---------------
 
-Now you can Read Salesforce using cdata JDBC Driver in Fire Insights application using Read JDBC Processor
+Now you can Read Salesforce using cdata JDBC Driver in Fire Insights application using Read JDBC Processor.
 
 
 Processor Configuration Parameters for Salesforce cdata JDBC Connection:
@@ -79,21 +79,21 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
       * - Name
         - Value
       * - URL
-        - JDBC URL to connect to salesforce using cdata JDBC Driver
+        - JDBC URL to connect to salesforce using cdata JDBC Driver.
       * - USER
-        - USER NAME in Salesforce
+        - USER NAME in Salesforce.
       * - PASSWORD
-        - PASSWORD in Salesforce
+        - PASSWORD in Salesforce.
       * - DB TABLE 
-        - Table Name
+        - Table Name.
       * - DRIVER
-        - Salesforce JDBC Driver Name ie. ``cdata.jdbc.salesforce.SalesforceDriver``
+        - Salesforce JDBC Driver Name i.e. ``cdata.jdbc.salesforce.SalesforceDriver``.
 
 .. figure:: ../../_assets/user-guide/salesforce/10.PNG
    :alt: salesforce
    :width: 90% 
 
-Once above parameter is added, Click on refresh schema to see Field Name
+Once above parameter is added, click on ``REFRESH SCHEMA`` to see Field Name.
 
 .. figure:: ../../_assets/user-guide/salesforce/11.PNG
    :alt: salesforce
@@ -109,7 +109,7 @@ Processor output
 Write to Salesforce
 -----------------
 
-Now you can Write to Salesforce using cdata JDBC Driver in Fire Insights application using Save JDBC Processor
+Now you can Write to Salesforce using cdata JDBC Driver in Fire Insights application using Save JDBC Processor.
 
 Processor Configuration Parameters for Salesforce cdata JDBC Connection:
 
@@ -120,22 +120,22 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
       * - Name
         - Value
       * - URL 
-        - Salesforce cdata JDBC Driver URL 
+        - Salesforce cdata JDBC Driver URL. 
       * - DB TABLE
-        - Table Name
+        - Table Name.
       * - DRIVER
-        - Salesforce JDBC Driver Name ie. ``cdata.jdbc.salesforce.SalesforceDriver``
+        - Salesforce JDBC Driver Name i.e. ``cdata.jdbc.salesforce.SalesforceDriver``.
       * - USER
-        - USER NAME of Salesforce
+        - USER NAME of Salesforce.
       * - PASSWORD
-        - PASSWORD of Salesforce
+        - PASSWORD of Salesforce.
       * - TRUNCATE
-        - false
+        - false.
       * - SAVE MODE
-        - It can be Append, Overwrite, ErrorIfexist & Ignore
+        - It can be Append, Overwrite, ErrorIfexist & Ignore.
         
 .. figure:: ../../_assets/user-guide/salesforce/13.PNG
    :alt: salesforce
    :width: 90%         
 
-On Successful execution of Workflow the data will be Written to Salesforce.
+On Successful execution of workflow, the data will be written to Salesforce.

@@ -55,7 +55,7 @@ Prophet processor Configuration:
    :alt: ml_userguide
    :width: 90%
    
-.. figure:: ../../_assets/ml_userguide/fbprohet_processor2.PNG
+.. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
    :alt: ml_userguide
    :width: 90%
 Output result of ``Prophet`` after model:  
@@ -133,7 +133,7 @@ On successful submission of the job, the model get saved to specified locations,
 
 .. figure:: ../../_assets/ml_userguide/h2o_output.png
    :alt: ml_userguide
-   :width: 60%
+   :width: 100%
 
 .. figure:: ../../_assets/ml_userguide/modellocation.PNG
    :alt: ml_userguide

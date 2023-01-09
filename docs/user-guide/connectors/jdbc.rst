@@ -5,7 +5,7 @@ Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
 In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
-Use the steps here for installing the corresponding JDBC driver for your RDBMS:
+Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS:
 
 - http://docs.sparkflows.io/en/latest/operating/installing-jdbc-drivers.html
 
@@ -32,7 +32,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 Results of reading from MySQL Table
 ------------------------------------
 
-The below screenshot displays schema of the table from the MySQL table by Fire.
+The following screenshot displays schema of the table from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
    :alt: JDBC Get Schema
@@ -47,7 +47,7 @@ In the configuration of the JDBC node for ``DB TABLE``, anything that is valid i
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
 
-Exucuting the processor shows the records read from MySQL Table.
+Executing the processor displays the records read from MySQL Table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC.png
    :alt: JDBC Result Output
@@ -57,7 +57,7 @@ Exucuting the processor shows the records read from MySQL Table.
 JDBC Drivers
 -------------
 
-Below are the JDBC URL's for some databases:
+Below are the JDBC URLs for some databases:
 
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver
@@ -66,7 +66,7 @@ Below are the JDBC URL's for some databases:
 Examples of JDBC URL
 ----------------
 
-Below are some examples of JDBC URL for reading from Relational sources:
+Below are some examples of JDBC URLs for reading from relational sources:
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb

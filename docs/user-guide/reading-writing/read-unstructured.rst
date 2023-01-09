@@ -15,26 +15,26 @@ Read Unstructured Data from Files Processors in Fire Insights
    * - Title
      - Description
    * - Read PDF
-     - Reads content of single PDF file or multiple PDF files from a directory
+     - It reads the content of single PDF file or multiple PDF files from a directory.
    * - Read Text files
-     - Reads content of a single text file or multiple text files from a directory
+     - It reads the content of a single text file or multiple text files from a directory.
    * - Read Whole text files
-     - Reads list of Text Files and their content from a directory and lists them in File Name and File Content pair.
+     - It reads list of Text Files and their content from a directory and lists them in File Name and File Content pair.
    * - Binary Files
-     - Reads content of a Binary File and converts it to Text.
+     - It reads content of a Binary File and converts it to Text.
    * - PDF Image OCR
-     - Reads content of OCR image embedded in a PDF file and converts it to Text.
+     - It reads the content of OCR image embedded in a PDF file and converts it to Text.
  
 
 Read PDF
 ----------------------------------------
 
-Below is a sample workflow which contains ``Read PDF`` processor in Fire Insights. It demonstrates usage of ``Read PDF`` node to read content of PDF files from a given path.
+Below is a sample workflow which contains the ``Read PDF`` processor in Fire Insights. It demonstrates the usage of ``Read PDF`` node to read the content of PDF files from a given path.
 
-It does following processing of data:
+It does the following processing of data:
 
-*	Reads incoming Dataset using ``Read PDF`` node.
-* 	Print PDF files along with their content using Print Node. Output is displayed in file name and its content pair.
+*	Reads incoming dataset using the ``Read PDF`` node.
+* 	Print PDF files along with their content using the Print Node. Output is displayed in file name and its content pair.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-demo-workflow.png
    :alt: readpdf_node_userguide
@@ -43,11 +43,11 @@ It does following processing of data:
 
 **Read PDF Node configuration**
 
-*	Reads content of PDF files from a given path using ``Read PDF`` node.
-*	A PDF file or path of a directory containing PDF files needs to be selected in ``Path``. ``Browse HDFS`` option can be used to browse and select a PDF file or a directory from HDFS.
-*	Column name to list file name in output needs to be entered in ``File Name``
-*	Column name to list file content in output needs to be entered in ``File Content``
-*	``OK`` button needs to be clicked to complete configuration.
+*	Reads content of PDF files from a given path using the ``Read PDF`` node.
+*	A PDF file or path of a directory containing PDF files needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a PDF file or a directory from HDFS.
+*	Column name to list file name in output needs to be entered in the ``File Name``.
+*	Column name to list file content in output needs to be entered in the ``File Content``.
+*	``OK`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-configuration.png
    :alt: readpdf_node_userguide
@@ -55,7 +55,7 @@ It does following processing of data:
 
 **Read PDF Node output**
 
-Data read from PDF files is printed as below using Print node. Output is displayed in file name and its content pair.
+Data read from PDF files is printed as below using the Print node. Output is displayed in the file name and its content pair.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-printnode-output.png
    :alt: readpdf_node_userguide
@@ -64,12 +64,12 @@ Data read from PDF files is printed as below using Print node. Output is display
 Read Text Files
 ----------------------------------------
 
-Below is a sample workflow which contains ``Read Text Files`` processor in Fire Insights. It demonstrates usage of ``Read Text`` Files node to read content of Text files from a given path. Data from all files would be displayed together in single column. Each line of data in files would represent one record in the output.
+Below is a sample workflow which contains the ``Read Text Files`` processor in Fire Insights. It demonstrates the usage of ``Read Text`` Files node to read the content of Text files from a given path. Data from all the files would be displayed together in a single column. Each line of data in the files would represent one record in the output.
 
-It does following processing of data:
+It does the following processing of data:
 
-*	Reads incoming Dataset using ``Read Text Files`` node. Dataset can be from a single file or from a set of files from a directory.
-* 	Print content of all Text Files in single outgoing dataset using Print Node. Each line of data in Text Files would be listed as a record in output.
+*	Reads incoming dataset using the ``Read Text Files`` node. Dataset can belong to a single file or a set of files from a directory.
+* 	Print the contents of all Text Files in a single outgoing dataset using the Print Node. Each line of data in the Text Files would be listed as a record in output.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readtextfiles-demo-workflow.png
    :alt: readtextfiles_node_userguide
@@ -78,10 +78,10 @@ It does following processing of data:
 
 **Read Text Files Node configuration**
 
-*	Reads content of Text files from a given path using ``Read Text Files`` node.
-*	A Text file or path of a directory containing multiple Text files needs to be selected in ``Path``. ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
-*	Column name to list Text files' content in output needs to be entered in ``Output Column Name``
-*	``OK`` button needs to be clicked to complete configuration.
+*	Reads the contents of Text files from a given path using the ``Read Text Files`` node.
+*	A Text file or path of a directory containing multiple Text files needs to be selected in the  ``Path``. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
+*	Column name to list Text files' content in output needs to be entered in the ``Output Column Name``.
+*	``OK`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readtextfiles-configuration.png
    :alt: readtextfiles_node_userguide
@@ -89,7 +89,7 @@ It does following processing of data:
 
 **Read Text Files Node output**
 
-Data read from Text files is printed as below using Print node. Data from all files would be displayed together in single column. Each line of data in files would represent one record in the output.
+Data read from Text files is printed as below using the Print node. Data from all files would be displayed together in a single column. Each line of data in the files would represent one record in the output.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readtextfiles-printnode-output.png
    :alt: readtextfiles_node_userguide
@@ -98,12 +98,12 @@ Data read from Text files is printed as below using Print node. Data from all fi
 Read Whole Text Files
 ----------------------------------------
 
-Below is a sample workflow which contains ``Read Whole Text Files`` processor in Fire Insights. It demonstrates usage of ``Read Whole Text Files`` node to read list of Text Files and their content from a given path and list them in File Name and File Content pair.
+Below is a sample workflow which contains the ``Read Whole Text Files`` processor in Fire Insights. It demonstrates the usage of the ``Read Whole Text Files`` node to read list of Text Files and their contents from a given path and list them in the File Name and File Content pair.
 
 It does following processing of data:
 
-*	Reads incoming Dataset using ``Read Whole Text Files`` node.
-* 	Prints output in file name and its content pair using Print Node.
+*	Reads incoming Dataset using the ``Read Whole Text Files`` node.
+* 	Prints output in the file name and its content pair using the Print Node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-demo-workflow.png
    :alt: readwholetext_node_userguide
@@ -112,9 +112,9 @@ It does following processing of data:
 
 **Read Whole Text Files Node configuration**
 
-*	Reads list of Text Files and their content from a given directory using ``Read Whole Text Files`` node.
-*	Path of a directory containing Text files needs to be selected in ``Path``. ``Browse HDFS`` option can be used to browse and select a directory from HDFS.
-*	``OK`` button needs to be clicked to complete configuration.
+*	Reads list of the Text Files and their contents from a given directory using the ``Read Whole Text Files`` node.
+*	Path of a directory containing the Text files needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a directory from HDFS.
+*	``OK`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-configuration.png
    :alt: readwholetext_node_userguide
@@ -122,7 +122,7 @@ It does following processing of data:
 
 **Read Whole Text Files Node output**
 
-List of Text Files along with their content is printed as below using Print node. Output is printed in File Name and File Content pair.
+List of Text Files along with their contents is printed as below using the Print node. Output is printed in the File Name and File Content pair.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-printnode-output.png
    :alt: readwholetext_node_userguide
@@ -131,13 +131,13 @@ List of Text Files along with their content is printed as below using Print node
 Binary Files
 ----------------------------------------
 
-Below is a sample workflow which contains ``Binary Files`` processor in Fire Insights. It demonstrates usage of ``Binary Files`` node to read content of a Binary file.
+Below is a sample workflow which contains the ``Binary Files`` processor in Fire Insights. It demonstrates the usage of the ``Binary Files`` node to read content of a Binary file.
 
-It does following processing of data:
+It does the following processing of data:
 
-*	Reads content of a Binary File using ``Binary Files`` node. In this example it reads a png image file having an OCR image.
-*	Parses content using OCR node and converts it to text.
-*	Prints content of Binary file in text format.
+*	Reads the content of a Binary File using the ``Binary Files`` node. In this example it reads a png image file having an OCR image.
+*	Parses the content using the OCR node and converts it to text.
+*	Prints the content of Binary file in text format.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-demo-workflow.png
    :alt: readwrite_userguide
@@ -145,11 +145,11 @@ It does following processing of data:
    
 **Binary Files Node configuration**
 
-*	``Binary Files`` node is configured as below.
-*	Path of the Binary file needs to be selected in ``Path`` box.
-*	Column in the output to display file name is to be entered in ``File Name Column`` box.
-*	Column in the output to display content of the file is to be entered in ``Binary File Content Column`` box.
-*	Output prints content of Binary file in text format.
+*	The ``Binary Files`` node is configured as below.
+*	Path of the Binary file needs to be selected in the ``Path`` box.
+*	Column in the output to display the file name is to be entered in the ``File Name Column`` box.
+*	Column in the output to display the content of the file is to be entered in the ``Binary File Content Column`` box.
+*	Output prints the content of the Binary file in text format.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-config.png
    :alt: readwrite_userguide
@@ -166,12 +166,12 @@ Output of ``Binary Files`` node prints content of Binary Image file in text form
 PDF Image OCR
 ----------------------------------------
 
-Below is a sample workflow which contains ``PDF Image OCR`` processor in Fire Insights. It demonstrates usage of ``PDF Image OCR`` node to read content of OCR image embedded in a PDF file and converts it to Text.
+Below is a sample workflow which contains the ``PDF Image OCR`` processor in Fire Insights. It demonstrates the usage of the ``PDF Image OCR`` node to read content of OCR image embedded in a PDF file and converts it to Text.
 
-It does following processing of data:
+It does the following processing of data:
 
-*	Reads content of OCR image embedded in a PDF file and converts it to Text using ``PDF Image OCR`` node.
-*	Prints content of OCR image embedded in PDF file in text format.
+*	Reads the content of OCR image embedded in a PDF file and converts it to Text using the ``PDF Image OCR`` node.
+*	Prints the content of OCR image embedded in a PDF file in text format.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-demo-workflow.png
    :alt: readwrite_userguide
@@ -180,10 +180,10 @@ It does following processing of data:
 **PDF Image OCR Node configuration**
 
 *	``PDF Image OCR`` node is configured as below.
-*	Path of the PDF file needs to be entered in ``Path Of The PDF Files`` box.
-*	Column in the output to display file name is to be entered in ``File Name Column`` box.
-*	Column in the output to display content of the file is to be entered in ``Column Name Which Contains Result of OCR`` box.
-*	Output prints content of OCR image embedded in PDF file in text format.
+*	Path of the PDF file needs to be entered in the ``Path Of The PDF Files`` box.
+*	Column in the output to display file name is to be entered in the ``File Name Column`` box.
+*	Column in the output to display content of the file is to be entered in the ``Column Name Which Contains Result of OCR`` box.
+*	Output prints the content of OCR image embedded in a PDF file in text format.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-config.png
    :alt: readwrite_userguide
@@ -191,7 +191,7 @@ It does following processing of data:
    
 **PDF Image OCR Node output**
 
-Output of ``PDF Image OCR`` node prints content of OCR image embedded in PDF file in text format.
+Output of the ``PDF Image OCR`` node prints the content of OCR image embedded in a PDF file in text format.
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-printnode-output.png
    :alt: readwrite_userguide

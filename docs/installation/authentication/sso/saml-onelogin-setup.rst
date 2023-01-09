@@ -50,3 +50,5 @@ Below are steps to setup SAML 2.0 OneLogin:
 .. figure:: ../../../_assets/authentication/configuration.png
    :alt: sso
    :width: 60%
+
+.. note::  Make sure to change localhost to your domain name or your ip, Where Fire is Running.

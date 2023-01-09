@@ -9,8 +9,8 @@ Read from Snowflake
 
 The below workflow does the following:
 
-* Reads Snowflake Table
-* Prints a few records of the dataframe
+* Reads Snowflake Table.
+* Prints a few records of the dataframe.
 
 .. figure:: ../../_assets/snowflake/1.PNG
    :alt: snowflake
@@ -21,11 +21,11 @@ Reading from Snowflake Table
 
 It reads Table using Read From Snowflake processor.
 
-* CONNECTION  : Connection created for Snowflake
-* SF DATABASE : Snowflake Database name
-* SF SCHEMA : Snowflake Schema Name
-* SF WAREHOUSE : Snowflake Warehouse Name
-* SF TABLE : Snowflake Table Name
+* CONNECTION  : Connection created for Snowflake.
+* SF DATABASE : Snowflake Database Name.
+* SF SCHEMA : Snowflake Schema Name.
+* SF WAREHOUSE : Snowflake Warehouse Name.
+* SF TABLE : Snowflake Table Name.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
@@ -44,7 +44,7 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the first few records of the dataframe
+It prints the first few records of the dataframe.
 
 Write to Snowflake
 ------------------
@@ -83,21 +83,21 @@ Write it to Snowflake
 
 It saves CSV File in specified Snowflake Table.
 
-* CONNECTION  : Connection created for Snowflake
-* SF DATABASE : Snowflake Database name
-* SF SCHEMA : Snowflake Schema Name
-* SF WAREHOUSE : Snowflake Warehouse Name
-* SAVE MODE : Append, Overwrite, ErrorifExists & Ignore
-* SF TABLE : Snowflake Table Name
+* CONNECTION  : Connection created for Snowflake.
+* SF DATABASE : Snowflake Database Name.
+* SF SCHEMA : Snowflake Schema Name.
+* SF WAREHOUSE : Snowflake Warehouse Name.
+* SAVE MODE : Append, Overwrite, ErrorifExists & Ignore.
+* SF TABLE : Snowflake Table Name.
 
 .. figure:: ../../_assets/snowflake/7.PNG
    :alt: snowflake
    :width: 90%
    
-Once the workflow is executed successfully, the CSV File will be Written to Snowflake Table
+Once the workflow is executed successfully, the CSV File will be written to Snowflake Table.
 
 .. figure:: ../../_assets/snowflake/8.PNG
    :alt: snowflake
    :width: 90%
 
-.. note::  Make sure Snowflake connection is accessible from Fire Machine
+.. note::  Make sure that Snowflake connection is accessible from the Fire Machine.

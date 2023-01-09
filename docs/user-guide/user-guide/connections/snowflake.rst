@@ -12,7 +12,7 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Specify your Snowflake Username, Password, and Url and save the details.
+Specify your Snowflake Username, Password, and URL and save the details.
 
 .. figure:: ../../../_assets/connections/snowflake-add-con.PNG 
    :alt: snowflake
@@ -25,11 +25,11 @@ Now we are ready to start using the Snowflake Connection in Fire Insights.
 
 Read Snowflake Node
 -------------------
-Fire now enables you to read data from snowflake using this node.
+Fire, now, enables you to read data from snowflake using this node.
 
-Lists of all created snowflake connections will be listed and users can choose anyone to read data.
+Lists of all created snowflake connections will be listed and users can choose to read data from any of the connections.
 
-Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
+Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
 
 Refresh schema before continuing further.
 
@@ -39,13 +39,13 @@ Refresh schema before continuing further.
 
 Write Snowflake Node
 --------------------
-Fire now enables you to write data to snowflake using this node.
+Fire, now, enables you to write data to snowflake using this node.
 
-A list of all created snowflake connections will be listed and user can choose anyone to read data.
+A list of all created snowflake connections will be listed and user can choose to read data from any of the connections.
 
-Add all required details eg. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
+Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE. 
 
-For eg. Can read data from CSV and write to the snowflake.
+For e.g. can read data from CSV and write to the snowflake.
 
 .. figure:: ../../../_assets/connections/write_to_snowflake_node.PNG
    :alt: snowflake

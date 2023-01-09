@@ -1,11 +1,13 @@
 Time Series Analysis
 =====================
 
-Time series forecasting is one of the most important use case in real world. Time series data is data captured at particular time periods or intervals. There is an explicit order dependency between observations. There are many datasets which have a sequential time component captured in them. Analytics and Machine learning solutions build using these datasets can benefit from learning from the time dimension captured in the dataset.
+Time series forecasting is one of the most important use case in real world in areas of sales forecasting,energy demand, price prediction among others. Time series data is data captured at particular time periods or intervals. There is an explicit order dependency between observations. There are many datasets which have a sequential time component captured in them. Analytics and Machine learning solutions build using these datasets can benefit from learning from the time dimension captured in the dataset.
 
-https://www.statisticssolutions.com/time-series-analysis/
 
-Fire Insights provides a number of features for Time Series Analysis.
+Sparkflows provides rich set of features for Time Series Analysis. Using the features available, once can model time series use cases as one of the below approaches:
+
+* Create enginereed features (like different time interval lags) to capture the time component and then build tree models on it. This can handle univariate as well and multivariate time series use cases.
+* Use the traditional approaches like prophet, arima, sarimax, var techniques. This can also handle univariate as well and multivariate time series use cases.
 
 .. panels::
     :container: container-lg pb-3
@@ -18,7 +20,7 @@ Fire Insights provides a number of features for Time Series Analysis.
 
     :doc:`/user-guide/time-series/time_series_visualizations`
 
-    Provides a number of Processors for the visualization of the time series data.
+    Provides a number of Processors for Visualization of Time Series Data.
 
     ---
 

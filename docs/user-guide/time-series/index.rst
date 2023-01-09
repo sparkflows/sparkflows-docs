@@ -1,7 +1,7 @@
 Time Series Analysis
 =====================
 
-Time series analysis is a statistical technique that deals with time series data, or trend analysis. Time series data means that data is in a series of particular time periods or intervals.
+Time series forecasting is one of the most important use case in real world. Time series data means that data is in a series of particular time periods or intervals. There are many datasets which have a sequential time feature in it. Most of these can benefit from learning from the time component and hence build better models.
 
 https://www.statisticssolutions.com/time-series-analysis/
 

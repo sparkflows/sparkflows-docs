@@ -1,7 +1,7 @@
 Time Series Analysis
 =====================
 
-Time series forecasting is one of the most important use case in real world. Time series data means that data is in a series of particular time periods or intervals. There are many datasets which have a sequential time feature in it. Most of these can benefit from learning from the time component and hence build better models.
+Time series forecasting is one of the most important use case in real world. Time series data is data captured at particular time periods or intervals. There is an explicit order dependency between observations. There are many datasets which have a sequential time component captured in them. Analytics and Machine learning solutions build using these datasets can benefit from learning from the time dimension captured in the dataset.
 
 https://www.statisticssolutions.com/time-series-analysis/
 

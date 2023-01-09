@@ -15,41 +15,41 @@ Connector Processors in Fire Insights
    * - Title
      - Description
    * - Read JDBC
-     - Reads data from a JDBC source
+     - It reads the data from a JDBC source.
    * - Read Cassandra
-     - Reads Data from Apache Cassandra
+     - It reads the data from Apache Cassandra.
    * - Read Databricks Table
-     - Reads a table from Databricks
+     - It reads a table from Databricks.
    * - Save Databricks table
-     - Saves data to a Databricks table
+     - It saves the data to a Databricks table.
    * - Read From SnowFlake
-     - Reads a table from Snowflake 
+     - IT reads a table from Snowflake. 
    * - Read Elastic Search
-     - Reads data from ElasticSearch
+     - It reads the data from ElasticSearch.
    * - Read HIVE Table
-     - Reads data from Apache HIVE table and creates a DataFrame from it
+     - It reads the data from Apache HIVE table and creates a DataFrame from it.
    * - Read MongoDB
-     - Reads data from MongoDB
+     - It reads the data from MongoDB.
    * - Read Redshift-AWS
-     - Reads data from Redshift using JDBC
-   * - Read Salesforce
-     - Reads data from Salesforce
+     - It reads the data from Redshift using JDBC.
+   * - Read Salesforce.
+     - It reads the data from Salesforce.
    * - Reads JDBC
-     - Reads data from Salesforce using cdata JDBC Driver 
+     - It reads the data from Salesforce using cdata JDBC Driver. 
    * - Save Cassandra
-     - Saves the rows of the incoming DataFrame into Apache Cassandra
+     - It saves the rows of the incoming DataFrame into Apache Cassandra.
    * - Save ElasticSearch
-     - Stores the rows of the incoming DataFrame into Elastic Search
+     - It stores the rows of the incoming DataFrame into Elastic Search.
    * - Save MongoDB
-     - Saves the incoming Dataframe into MongoDB
+     - It saves the incoming Dataframe into MongoDB.
    * - Save Redshift-AWS
-     - Saves data to Redshift using JDBC
+     - It saves the data to Redshift using JDBC.
    * - Saves Salesforce
-     - Saves data to Salesforce
+     - It saves the data to Salesforce.
    * - Write To SnowFlake
-     - Saves the rows of the incoming DataFrame into Snowflake
+     - It saves the rows of the incoming DataFrame into Snowflake
    * - Execute Query In SnowFlake
-     - Executes query in Snowflake
+     - It executes the query in the Snowflake.
 
 .. toctree::
    :hidden:

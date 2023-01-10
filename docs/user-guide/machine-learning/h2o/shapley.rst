@@ -7,6 +7,7 @@ Shapley values are widely used in many industries, particularly in explainable A
 In the context of machine learning, Shapley values can be used to explain the contribution of individual features or variables to the predictions of a model. The idea is to attribute a value to each feature based on how much it contributes to the prediction, while accounting for the interactions between the features.
 
 The calculation of Shapley values can be broken down into several steps:
+
 * All possible coalitions (subsets of features) are created, where each coalition represents a different way of generating the prediction.
 * A value for each coalition is calculated, which represents the average marginal contribution of that coalition in generating the prediction.
 * The value for each feature is obtained by averaging the values of all coalitions where the feature is present.

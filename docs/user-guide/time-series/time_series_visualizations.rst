@@ -9,13 +9,13 @@ Fire Insights provides a number of Processors for the visualization of the time 
    :widths: 10 40
    :header-rows: 1
 
-   * - Charts
+   * - Visualizations
      - Description
-   * - Line
+   * - Line charts
      - A line chart, also known as a line plot, is a type of chart that is commonly used to display the trend of a variable over time. Line charts are often used for visualizing time series data, such as stock prices, weather data, or other types of data that change over time.
-   * - Bar
+   * - Bar chart
      - A bar chart, also known as a bar plot, is a type of chart that is commonly used to display the distribution of a dataset.When working with time series data, a bar chart can be useful for showing the distribution of the data across different time periods, or to compare the values of a variable over different time periods.
-   * - Scatter
+   * - Scatter plots
      - Scatter plots are used to observe relationships between variables.  A scatter plot can be created for both univariate and multivariate data.
    * - Box plots
      - A box plot, also known as a box-and-whisker plot, is a type of chart commonly used to display the distribution of a dataset. A box plot can be created for both univariate and multivariate data. When working with time series data, a box plot can be useful for showing the distribution of the data across different time periods.

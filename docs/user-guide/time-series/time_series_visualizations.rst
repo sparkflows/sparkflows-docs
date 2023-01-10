@@ -30,7 +30,7 @@ Below is the sample workflow which contains ``Time Series data`` and outputs a l
 
 .. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 Configurations for visualization processors in Fire Insight:
 
@@ -39,7 +39,7 @@ Configurations for visualization processors in Fire Insight:
 
 .. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 Output result of ``Visualization`` processor:
 
@@ -48,7 +48,7 @@ Charts : LineGraph
 
 .. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 
 Charts : BarChart
@@ -57,11 +57,11 @@ Charts : BarChart
 
 .. figure:: ../../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
    
 Charts : ColumnChart
 ==================
 
 .. figure:: ../../_assets/ml_userguide/column.png
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%

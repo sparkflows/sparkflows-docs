@@ -1,34 +1,29 @@
 Planning Guide
 =================
 
-This document describes details to help you plan on deploying and using Fire Insights on AWS.
+This document serves as a detailed guide to help you plan on deploying and using Fire Insights on AWS.
 
 Installation
 --------
 
-Fire Insights is installed on an EC2 machine. It can also be installed in AWS Fargete or AWS EKS. The jobs fired by the users would be able to access and process data on S3, HDFS, Redshift, Kinesis.
+Fire Insights can be installed on a standalone EC2 machine,  AWS Fargate or AWS EKS. The jobs triggered by the users would be able to access and process data stored in S3, HDFS, Redshift, Kinesis and other EC2 storage. Compute connections can also be created in Fire Insights to connect to AWS EMR, AWS Glue.
 
-Compute connections can be created in Fire Insights for it to connect to AWS EMR, AWS Glue.
 
 Costs
 -----
 
-The main costs involved when using Fire Insights are around the EMR cluster. EMR cluster has master nodes and workflow nodes.
+The main costs incurred when using Fire Insights is the cost of running the EMR cluster which has master nodes and workflow nodes. The more processing capacity needed, the larger should be the size of the EMR cluster.
 
-Pricing for EMR can be found here: https://aws.amazon.com/emr/pricing/
+Pricing details for EMR can be found here: https://aws.amazon.com/emr/pricing/
 
-The more processing capacity needed, the larger should be the size of the EMR cluster.
+Fire Insights can also run Machine Learning jobs onto SageMaker. There would be some additional costs associated with using AWS SageMaker. 
 
-Fire Insights can also run Machine Learning Modeling jobs onto SageMaker. If this is used, there would be a cost associated with using AWS SageMaker. Amazon SageMaker Pricing details are here: https://aws.amazon.com/sagemaker/pricing/
+Pricing details for AWS SageMaker can be found here: https://aws.amazon.com/sagemaker/pricing/
 
 
 Sizing
 ------
 
-AWS EMR cluster normally starts with a minimum of 1 master node and 2 worker nodes. 
+AWS EMR cluster normally starts with a minimum of 1 master node and 2 worker nodes. It is recommended to use machines with at least 16GB of space for the master and worker nodes.
 
-We recommend using at least 16GB machines for the master and worker nodes.
-
-As your data volume and the number of concurrent users increases, we recommend increasing the size of the EMR cluster. Memory for the worker nodes can be increased from16 GB to 32GB to 64GB to 512GB. Since Apache Spark has the ability to use as much memory you provide, it's a good idea to give it more memory.
-
-The same goes for the number of disks and scores.
+As the size of data and the number of concurrent users increases, it is recommended to increase the size of EMR cluster accordingly. Memory for the worker nodes can be increased from a minimum of 16GB to a maximum of 512GB. Since Apache Spark can use the additional memory to process faster and more efficiently, it is ideal to increase the memory base on the compute load. The same holds true for the number of disks and scores.

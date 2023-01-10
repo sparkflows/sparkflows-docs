@@ -9,8 +9,6 @@ There are several types of regression algorithms, including:
 
 * **Polynomial regression**: This is an extension of linear regression, and it models the relationship between the input features and the target variable as a polynomial equation. It can be used for modeling non-linear relationships between the input features and the target variable.
 
-* **Logistic regression**: This is a type of regression that is used for classification problems. It models the probability of an event occurring (for example, an email being spam) as a function of the input features.
-
 * **Ridge and Lasso Regression**: These are extensions of linear regression that include a regularization term to help prevent overfitting and improve the interpretability of the model. Ridge regression adds a term to the cost function that punishes large weights, and Lasso regression adds a term to the cost function that not only punishes large weights but also forces some of the weights to be zero, which can be useful for feature selection.
 
 * **Support Vector Regression**: This is a variation of Support Vector Machines that can be used for regression tasks. It is useful when the dataset has a large number of features and a small number of samples.

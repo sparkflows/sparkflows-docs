@@ -1,4 +1,4 @@
-Building Apache Spark ML Workflows
+Building Apache Workflows
 ==================================
 
 Below is a Spark ML workflow which trains a Classification Model for Churn prediction on Telco data.

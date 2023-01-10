@@ -1,6 +1,8 @@
 Time Series Visualizations
 --------------------------
 
+Visualizing time series data can be a powerful way to uncover patterns and trends in the data. There are several different types of visualizations that are commonly used for time series data.
+
 Fire Insights provides a number of Processors for the visualization of the time series data.
 
 .. list-table:: Update New features where needed

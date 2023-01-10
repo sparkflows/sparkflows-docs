@@ -1,36 +1,33 @@
 Deployment Guide
 =======================
 
-Fire can be easily installed on an AWS EMR Cluster. Fire can be installed on the master node of an EMR cluster. It would then submit the jobs to the EMR cluster.
+Fire can be easily installed on the master node of an AWS EMR cluster which can then submit jobs to the EMR cluster.
 
-Below are the overall steps for installing Fire Insights on EMR.
+Below are the detailed steps for installing Fire Insights on EMR:
 
-1. *Start EMR Cluster on AWS*
-2. *Update inbound rules for Master Node if necessary*
-3. *ssh into the Master node*
+1. *Start EMR Cluster on AWS*.
+2. *Update inbound rules for Master Node, if necessary*.
+3. *SSH into the Master node*.
 4. *Download Fire Insights* from https://www.sparkflows.io/download
-5. *Unzip it*
-6. *Create H2 Database*
-7. *Start Fire*
+5. *Unzip it*.
+6. *Create H2 Database*.
+7. *Start Fire*.
 
 Steps
 ------
 
-* Start your EMR cluster on AWS:
+* Start EMR cluster on AWS:
 
-   Start your EMR cluster on AWS if you do not already have it running.
+   Start EMR cluster on AWS if it is not already running on your machine.
 
 * Update the inbound rules for the Master Node:
 
-    Fire by default listens on **8080** and **8443**, but EMR clusters have other processes listening on these ports. 
-    So we will later change it to listen on ports **8085** and **8086**
-    Update the inbound rules for the Master Node to allow ports **8085** and **8086**
-
-* ssh into the Master EMR node as the ``hadoop`` user::
+   Fire by default listens on **8080** and **8443**, but EMR clusters have other processes listening on these ports. So, the corresponding settings need to be updated accordingly to listen on ports **8085** and **8086**. This can be done by updating the inbound rules/settings for the master node to allow to listen on ports **8085** and **8086**.
+* SSH into the Master EMR node as the ``hadoop`` user::
 
     ssh -i my.pem hadoop@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
 
-* Download the fire tgz file by one of the following options:
+* Download the fire tgz file by any one of the following options:
 
   * https://www.sparkflows.io/download    
        OR   
@@ -51,13 +48,13 @@ Steps
 
     - cd <fire install_dir>
     - Edit conf/application.properties
-    - Set the http port and the https port to below:
+    - Set the HTTP port and the HTTPS port to below:
         http.port=8085
         https.port=8086
 
-* Create H2 DB::
+* Create H2 Database::
 
-      Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database
+      Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database.
 
       cd <fire install_dir>
       ./create-h2-db.sh
@@ -76,22 +73,22 @@ Steps
     username : admin
     password : admin
     
-* Connect Fire with the EMR Cluster::
+* Connect Fire with the EMR cluster::
 
-    - Go to Administration/Configuration
-    - Click on 'Infer Hadoop Configs'
-    - Save
+    - Go to Administration/Configuration.
+    - Click on 'Infer Hadoop Configs'.
+    - Click on 'Save'.
     
-    - If your EMR cluster is not running HIVE, update 'spark.sql-context = SQLContext'
+    - If your EMR cluster is not running HIVE, update 'spark.sql-context = SQLContext'.
     
 * Create the ``hadoop`` user in Fire::
 
-    - Under Administration/Users, add the 'hadoop' user
+    - Under Administration/Users, add the 'hadoop' user.
     
 Loading Example Workflows
 -------------------------
 
-* From the home page of Fire Insights, click on ***Load Example Applications***
+* From the home page of Fire Insights, click on **Load Example Applications**.
 
 * Upload the Fire examples data onto HDFS::
 
@@ -103,14 +100,14 @@ Install and Running Example Workflows
 
 * Start off with executing the example workflows::
 
-    - Fire comes pre-packaged with a number of example workflows
-    - You can install them by clicking on the 'Install example workflows' link in the landing page when logged in as the `admin` user.
+    - Fire comes pre-packaged with a number of example workflows.
+    - You can install them by clicking on the 'Install example workflows' link on the landing page when logged in as the `admin` user.
     
-* Logout from the current session and login again with the 'hadoop' user    
+* Logout from the current session and login again with the 'hadoop' user.    
     
     - Execute the workflows
     
-Adding a new user
+Adding a New User
 -----------------
 
 Create the home directory on HDFS for the new user.
@@ -123,20 +120,20 @@ For example, for user 'test'::
 Create the user in Fire Insights if not already created.
 
 
-Extra configuration for running h2o workflow
+Extra Configuration for Running H2O Workflow
 -----------------------------------------
 
-Emr needs an extra configurations for running h2o workflow, which can be added while running those workflow
+EMR needs additional configurations for running H2O workflow, which can be added while running those workflows.
 
 ::
 
     Spark-submit-conf:  --conf spark.dynamicAllocation.enabled=false
 
 
-Extra configuration for running PySpark
+Extra Configuration for Running PySpark
 ---------------------------------------
 
-EMR needs extra configurations when running PySpark. In the below the python 3.6 virtual environment is installed in the directory /home/hadoop/venv::
+EMR needs additional configurations when running PySpark. Below are the steps required for installing the python 3.6 virtual environment in the directory /home/hadoop/venv::
 
  export SPARK_HOME=/usr/lib/spark/
  export PYSPARK_PYTHON=/home/hadoop/venv/bin/python

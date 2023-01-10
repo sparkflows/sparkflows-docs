@@ -1,4 +1,4 @@
-Splitting
+Split Function
 ==========
 
 Fire Insights provide processors for Splitting data

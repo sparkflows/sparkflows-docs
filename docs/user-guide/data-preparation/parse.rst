@@ -1,4 +1,4 @@
-Parse
+Parse Functions
 ======
 
 Fire Insights provide processors that parse the values of the selected columns.

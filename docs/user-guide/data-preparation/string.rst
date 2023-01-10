@@ -1,4 +1,4 @@
-String
+String functions
 ==========
 
 Fire Insights provide processors for performing String functions on a row or text.

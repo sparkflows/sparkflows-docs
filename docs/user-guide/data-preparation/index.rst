@@ -1,7 +1,11 @@
 Data Preparation
 ===========================
 
-Fire Insights provides an easy way to prepare the data.
+Data preparation is the process of cleaning, transforming, and organizing a dataset so that it can be used for further analysis or modeling. The goal of data preparation is to make the data consistent, accurate, and in a format that is suitable for the intended analysis or modeling task.
+
+
+
+Fire Insights provides a capability to perform the most complex data preperation operation via drag and drop.
 
 .. panels::
     :container: container-lg pb-3

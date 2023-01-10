@@ -5,7 +5,7 @@ Below is an example H2O workflow. It builds a Regression Model for predicting th
 
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
    :alt: H2O GBM
-   :width: 90%
+   :width: 75%
 
 There is a certain pattern to be followed when building the predictive H2O workflows.
 

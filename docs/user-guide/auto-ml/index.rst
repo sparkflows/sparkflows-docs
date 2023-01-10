@@ -1,10 +1,13 @@
 AutoML
 =====================
 
-AutoML aims to automate all the tasks involved in developing and deploying machine learning models, from cleaning the raw data all the way through to parameter optimization.
-As well as making data scientists much more productive, AutoML tools can be used by non-experts to run the same dataset against combinations of hundreds or even thousands of different algorithms simultaneously to arrive at the optimal AI model. Contrast that scenario with a data scientist hand coding to create a data pipeline, build the model, do all the testing and then run the dataset against a handful of algorithms.
+AutoML (Automated Machine Learning) is a process of automating the entire machine learning pipeline, from data preparation and feature engineering to model selection and hyperparameter tuning. The goal of AutoML is to make the process of building and deploying machine learning models faster, easier, and more accessible, particularly for people with less experience in machine learning. 
 
-Fire provide the option to create the AutoML experiments by selecting the data and type of package. Each experiment will provide the leaderboard with different models & the hyperparameters used in the experiments.All experiments can be compared to decide the best fit for that particular use case.
+AutoML systems automate the entire machine learning pipeline by using a combination of techniques such as evolutionary algorithms, Bayesian optimization, and gradient-based optimization. They also provide an interface to interact with the system, like providing feedback on results, choosing model and stopping the pipeline.
+
+The main advantage of AutoML is that it allows users to build machine learning models without having to have a deep understanding of the underlying algorithms or the technical details of the process. This can make it faster, easier and more accessible to create high-performing models, especially for people with less experience in machine learning. Additionally, since AutoML uses many different algorithms and parameters, it can be more robust to different types of data and problems, making it a more general-purpose solution
+
+Fire provides the option to create the AutoML experiments by selecting the data and type of package. Each experiment will provide the leaderboard with different models & the hyperparameters used in the experiments.All experiments can be compared to decide the best fit for that particular use case.
 
 .. figure:: ../../_assets/auto-ml/automl-steps.png
       :alt: auto-ml

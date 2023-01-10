@@ -1,5 +1,5 @@
 
-DateTime
+Date Time Functions
 ==========
 
 Fire Insights provide processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.

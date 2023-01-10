@@ -1,4 +1,4 @@
-Math
+Math Function
 ==========
 
 Fire Insights provide processors for Mathematical computation

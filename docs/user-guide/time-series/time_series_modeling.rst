@@ -1,5 +1,6 @@
 Time Series Modeling
 --------------------
+Time series modeling is the process of using statistical and machine learning methods to analyze and forecast future values of a time series. Time series data has a temporal ordering, meaning that the data points are ordered by time, this allows to capture patterns and dependencies between observations that happen over time.
 
 Sparkflows provides a number of cutting edge algoirthms as Processors for Time Series Modeling. These include:
 

@@ -10,15 +10,15 @@ Fire Insights provides a number of Processors for the visualization of the time 
    * - Charts
      - Description
    * - Line
-     - Perfect for series of data points to form a continuous line.
+     - A line chart, also known as a line plot, is a type of chart that is commonly used to display the trend of a variable over time. Line charts are often used for visualizing time series data, such as stock prices, weather data, or other types of data that change over time.
    * - Bar
-     - Bar charts are a fundamental visualization for comparing values between groups of data. Best way to represent Categorical data.
+     - A bar chart, also known as a bar plot, is a type of chart that is commonly used to display the distribution of a dataset.When working with time series data, a bar chart can be useful for showing the distribution of the data across different time periods, or to compare the values of a variable over different time periods.
    * - Scatter
-     - Scatter plots are used to observe relationships between variables.
+     - Scatter plots are used to observe relationships between variables.  A scatter plot can be created for both univariate and multivariate data.
+   * - Box plots
+     - A box plot, also known as a box-and-whisker plot, is a type of chart commonly used to display the distribution of a dataset. A box plot can be created for both univariate and multivariate data. When working with time series data, a box plot can be useful for showing the distribution of the data across different time periods.
    * - Histogram
-     - Histograms are a type of graph that shows the distribution of a dataset. They graph the percentage or the number of instances of different categories.
-   * - Pie
-     - Illustrate the percentage breakdown of a small number of data points, then they can be very effective.
+     - A histogram is a type of chart that is commonly used to display the distribution of a dataset. Like a box plot, a histogram can be created for both univariate and multivariate data.When working with time series data, a histogram can be useful for showing the distribution of the data across different time periods.
 
 Charts : LineChart
 ==================

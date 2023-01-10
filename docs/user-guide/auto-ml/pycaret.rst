@@ -1,7 +1,7 @@
-Pycaret 
+PyCaret 
 ======================
 
-Create the AutoML experiment with Pycaret package by selecting Pycaret from the dropdown in the package field. Next select the type of problem to run the experiment as either Regression or Classification with target column name in configuration.
+Create the AutoML experiment with PyCaret package by selecting PyCaret from the dropdown in the package field. Next select the type of problem to run the experiment as either Regression or Classification with target column name in configuration.
 
 
 * Add required details and select AutoML package as pycaret

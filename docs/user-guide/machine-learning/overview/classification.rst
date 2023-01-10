@@ -1,7 +1,7 @@
 Classification
 ==============
 
-Classification is a technique to investigate the relationship between independent variables or features and a dependent variable or target or outcome. In classification, an algorithm is used to predict categorical outcomes like ``Yes`` or ``No``, ``Good`` or ``Bad`` etc. 
+Classification is a supervised learning technique in machine learning that is used for predicting a categorical target variable based on one or more input features. The goal of classification is to learn a model that can map the input features to one of several predefined categories or classes like ``Yes`` or ``No``, ``Good`` or ``Bad`` etc..
 
 Classification problems are one of the most common applications in machine learning models, especially in supervised machine learning. It also comes under predictive modelling. The main purpose of classification is to build a model of the allocation of class labels in terms of predictor features. The classifiers are then used to classify class labels of the testing instances where the values of the predictor features are known, to the value of the class label which is unknown.
 
@@ -10,7 +10,6 @@ Classification algorithms can be better understood using the below diagram. In t
 .. figure:: ../../../_assets/machinelearning/class.png
       :alt: Class
       :width: 40%    
-
 
 
 **The following are a few examples of classification:** 

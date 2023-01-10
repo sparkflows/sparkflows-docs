@@ -1,7 +1,7 @@
 Time Series Modeling
 --------------------
 
-Sparkflows provides a number of Processors for Time Series Modeling. These include:
+Sparkflows provides a number of cutting edge algoirthms as Processors for Time Series Modeling. These include:
 
 .. list-table::
    :widths: 10 40
@@ -31,112 +31,88 @@ Sparkflows provides a number of Processors for Time Series Modeling. These inclu
 Prophet
 =======
 
-Below is the sample workflows which contains ``Prophet`` processor in Fire Insights.
- 
- **Equation - y(t)=g(t)+s(t)+h(t)+ϵt**, 
- 
- where: 
- 
- * Trend g(t): models non-periodic changes
- 
- * Seasonality s(t): represents periodic changes 
- 
- * Holidays component h(t): contributes information about holidays and events
+Below is the sample workflows which uses Prophet processor in Fire Insights.
 
-It reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
+The workflow reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
 
-.. figure:: ../../_assets/ml_userguide/fbprophet.PNG
-   :alt: ml_userguide
-   :width: 90%
+
+   .. figure:: ../../_assets/ml_userguide/fbprophet.PNG
+      :alt: ml_userguide
+      :width: 75%
+
 
 Prophet processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
+   .. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
    
-.. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
+   .. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
    :alt: ml_userguide
-   :width: 90%
-Output result of ``Prophet`` after model:  
+   :width: 75%
 
-.. figure:: ../../_assets/ml_userguide/fbprophet_result.png
+
+Results from ``Prophet`` model after training the model:  
+
+   .. figure:: ../../_assets/ml_userguide/fbprophet_result.png
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 ARIMA
 =====
 
-Below is the sample workflow which contains ``ARIMA`` processor in Fire Insights.
+Below is the sample workflow which uses ARIMA processor in Fire Insights.
 
-* AR (Autoregression): A changing variable that regresses on its own lagged/prior values.
+The workflow reads the AirPassengers dataset & uses ARIMA processor which Forecasts the airline passengers count, generates a new column with unique index/value for each row in dataset and prints the result.
 
-* I (Integrated): Differencing of raw observations to allow for the time series to become stationary
-
-* MA (Moving average): Dependency between an observation and a residual error from a moving average model
-
-In terms of y, the general forecasting equation is:
-
-**ŷt = μ + ϕ1 yt-1 +………+ ϕp yt-p — θ1et-1 -………- θqet-q**,
-
-where:
-
-* μ → constant
-
-* ϕ1 yt-1 +…+ ϕp yt-p → AR terms (lagged values of y)
-
-* θ1et-1 -………- θqet-q → MA terms (lagged errors)
-
-It reads the AirPassengers dataset & use ARIMA processor which Forecast the airline passengers count, generate a new column with unique index/value for each row in dataset and print the result.
-
-.. figure:: ../../_assets/ml_userguide/arima_wf.PNG
+   .. figure:: ../../_assets/ml_userguide/arima_wf.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
    
 ARIMA processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/arima_configuration.PNG
+   .. figure:: ../../_assets/ml_userguide/arima_configuration.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
    
-Output result of ``ARIMA`` processor:     
+Result from ``ARIMA`` model after training the model:     
 
-.. figure:: ../../_assets/ml_userguide/arima_result.PNG
+   .. figure:: ../../_assets/ml_userguide/arima_result.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 
 H2OXGBoost
 ==========
 
-Below is the sample workflow which contains ``H2OXGBoost`` processor in Fire Insights.
+Below is the sample workflow which uses H2OXGBoost processor in Fire Insights.
 
-It reads the UCI_Credit_Card dataset & use H2OXGBoost processor supervised learning algorithm that implements a process called boosting to yield accurate models and save the model in s3 location.
+The workflow reads the UCI Credit Card dataset & uses H2OXGBoost processor which is a supervised learning algorithm on tabular data and save the model in s3 location. Rich features like lag, moving average among others can be computed and added to the baseline model.
 
-.. figure:: ../../_assets/ml_userguide/xgBoost.PNG
+   .. figure:: ../../_assets/ml_userguide/xgBoost.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 H2OXGBoost processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
+   .. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 H2OMojoSave processor Configuration:
 
-.. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
+   .. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
-On successful submission of the job, the model get saved to specified locations, you can just view the model at specified location.
+On successful completiong of the job, the model get saved to specified locations, you can just view the model at specified location.
 
-.. figure:: ../../_assets/ml_userguide/h2o_output.png
+   .. figure:: ../../_assets/ml_userguide/h2o_output.png
    :alt: ml_userguide
-   :width: 100%
+   :width: 75%
 
-.. figure:: ../../_assets/ml_userguide/modellocation.PNG
+   .. figure:: ../../_assets/ml_userguide/modellocation.PNG
    :alt: ml_userguide
-   :width: 100%
+   :width: 75%
 
 

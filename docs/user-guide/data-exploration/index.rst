@@ -1,7 +1,9 @@
 Data Exploration
 ===========================
 
-Fire Insights enables easy data exploration.
+Data exploration in machine learning refers to the process of examining and analyzing a dataset in order to understand its structure, content, and characteristics. The goal of data exploration is to gain a deeper understanding of the data, identify patterns and trends, and to prepare the data for further analysis or modeling. 
+
+Fire Insights enables you to do Data exploration seamlessly.
 
 .. panels::
     :container: container-lg pb-3

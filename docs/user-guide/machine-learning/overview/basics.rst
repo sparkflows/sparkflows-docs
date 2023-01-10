@@ -1,44 +1,30 @@
 Intro to Machine Learning
 =========================
 
-Machine learning is a branch of artificial intelligence that enables algorithms to automatically learn from data without being explicitly programmed.Its practitioners train algorithms to identify patterns in data and to make decisions with minimal human intervention.
+Machine learning is a subfield of artificial intelligence that involves the development of algorithms and statistical models that allow systems to automatically improve their performance with experience.Its practitioners train algorithms to identify patterns in data and to make decisions with minimal human intervention.
 
 Machine learning is used when:
 
 - The rules cannot be coded in to arrive at the outcome. eg: Recognizing emails as spam or not.
 - We want to scale for huge datasets. eg: Recognizing spam or not for millions of emails.
 
-The key component of a machine learning process is the training. How do you train machines? Think of how you teach children to recognise objects. So, if you want him/her to recognise cats, you show him/her photos of cats, or real cats and she soon starts knowing which is a cat; and that a dog is not a cat. 
+Machine learning can be used in a wide range of applications and industries, but it is particularly useful when you have a large amount of data and you want to make predictions or identify patterns in that data. Some examples of when you might use machine learning include:  
 
-The examples you show are like feeding input data (image of cat or dog) with output (which is cat, and which is dog) into a machine during a training process. The output is the program that will recognise cats and dogs. A good machine learning system always learns from experience and updates the program to improve the performance.  
-
-The followings are a few more examples in machine learning:
-
-- Recognizing patterns:
-    - Facial identities or facial expressions
-    - Handwritten or spoken words
-    - Tumour detection from medical images
-
-- Generating patterns:
-    - Generating images or motion sequences
-
-- Recognizing anomalies:
-    - Dizziness detection of drivers
-    - Unusual patterns of sensor readings in a nuclear power plant
-
-- Predictions:
-    - Future stock prices or currency exchange rates
-    - Traffic volume forecasting
+* **Predicting outcomes**: This could include anything from forecasting stock prices to predicting which customers are most likely to churn.
+* **Classifying items**: This could include identifying spam emails, sorting images into categories, or diagnosing medical conditions based on patient data.
+* **Clustering data**: This could include grouping customers by purchasing behavior, grouping genes by expression patterns, or identifying communities in social networks.
+* **Optimizing business processes**: This could include personalizing marketing campaigns, optimizing supply chains, or automating decision-making processes.
+* **Computer vision**: Machine learning models can be trained to classify, detect, and segment images and videos, which is useful for self-driving cars, security cameras, and more.
+* **Natural Language Processing (NLP)**: Machine learning models can be used for understanding and processing text, this could be for sentiment analysis, language translation, chatbots, among other use cases.
+* **Recommendation systems**: Machine learning models can be used to make personalized recommendations based on users' past behavior and preferences.
 
 There are 3 major types of learning that can be used to develop ML models. 
 
 **Supervised learning** - 
-Supervised learning is simply a formalization of the idea of learning from examples. The algorithm is fed data with labels to learn from it. In supervised learning, the learner (typically, a computer program) is provided with two sets of data, a training set and a test set. The idea is for the learner to learn from a set of labeled examples in the training set so that it can identify unlabeled examples in the test set with the highest possible accuracy. That is, the goal of the learner is to develop a rule, a program, or a procedure that estimates outcomes of new examples (in the test set) by analyzing the examples it has been given. There are two kinds of supervised learning, ``Classification`` when the label data is categorical or class, and ``Regression`` when expected outcomes are numerical values.
+This is the most common type of machine learning, and it involves training a model on a labeled dataset, where the correct output (label) is already known. The goal of the model is to make predictions based on the input data that it has seen during training. Examples of supervised learning problems include classification, regression, and forecasting.
 
 **Unsupervised learning** - 
-This type of algorithm trains and learns from input data without labelled response. There will not be any pre-existing labels and human intervention is also less. It is mostly used in exploratory analysis as it can automatically identify the structure in data. Cluster analysis is the most popular example of unsupervised learning.
+This type of machine learning involves training a model on an unlabeled dataset, where the correct output is not known. The goal of the model is to find patterns and structure in the input data. Examples of unsupervised learning problems include clustering and dimensionality reduction.
 
 **Reinforcement learning** - 
-This model is used in making a sequence of decisions. It is learning by interacting with the environment. It is based on the observation that intelligent agents tend to repeat the action that are rewarded for and refrain from action that are punished for. It can be said that it is a trial-and-error method in finding the best outcome based on experience.
-
-**Deep Learning** is a more specialised type of machine learning enabling significant advancement over traditional ML. So, while in conventional machine learning, we extract the features from data and feed it to the system whereas in deep learning, algorithms are capable of extracting features. 
+This type of machine learning involves training a model to make decisions in an environment, where the goal is to maximize a reward. The model learns through trial and error, and it is common in autonomous systems, like self-driving cars and robots.

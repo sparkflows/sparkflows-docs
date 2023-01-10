@@ -1,7 +1,7 @@
-Data Profile
+Data Profiling
 ===========
 
-Fire Insights allows you to clean the datasets using dataset profile.
+Fire Insights allows you to profile the datasets and understand them better by performing dataset profiling.
 
 .. toctree::
    :hidden:

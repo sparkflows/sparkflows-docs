@@ -1,4 +1,4 @@
-Condition
+Condition Function
 ==========
 
 Fire Insights provide processors for Condition evaluation

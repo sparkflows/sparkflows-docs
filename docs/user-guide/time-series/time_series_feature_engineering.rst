@@ -1,7 +1,19 @@
 Time Series Feature Engineering
 ------------------------------
 
-Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. These include:
+Time series feature engineering is the process of extracting useful features from a time series dataset that can be used as input to a machine learning model. These features can include things like the mean, standard deviation, moving averages, and other statistics that can help capture the underlying patterns in the data.
+
+There are many different techniques that can be used for time series feature engineering, some of which include:
+
+* **Aggregating the data**: This can involve taking the mean, median, or other statistics of the data over a particular time window.
+* **Smoothing the data**: This can involve applying techniques like moving averages or exponential smoothing to reduce the amount of noise in the data.
+* **Extracting the trend and seasonality**: This can involve using techniques like decomposition, where the time series is decomposed into its trend, seasonal, and residual components.
+* **Creating lags and differences**: This can involve creating new features by taking the difference between consecutive time steps, or by lagging the original time series by a certain number of time steps.
+* **Creating cyclical features**: This can involve creating new features by extracting the cyclical patterns from the original time series, such as the day of the week or the month of the year.
+
+It's important to remember that the features that you create should be relevant and informative for the problem you are trying to solve, and you may have to experiment with different feature engineering techniques to find the ones that work best for your data. Additionally, it's important to standardize the features before training a model, since some features could have different scales that could affect the training of your model.
+
+Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. Some of them are listed below:
 
  
 .. list-table:: Time Series Processors
@@ -29,38 +41,38 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
 DateTimeFieldExtract
 ====================
 
-Below is the sample workflow which contains ``DateTimeFieldExtract`` processor in Fire Insights.
+Below is the sample workflow which contains DateTimeFieldExtract processor in Fire Insights.
 
-It reads a simple Calendar Dataset with a Date Column & uses ``DateTimeFieldExtract`` processor to create New DataFrame by extracting Date & Time field and print the result.
+It reads a simple Calendar Dataset with a Date Column & uses DateTimeFieldExtract processor to create New DataFrame by extracting Date & Time field and print the result.
 
 .. figure:: ../../_assets/ml_userguide/datetime_field.PNG
    :alt: ml_userguide
-   :width: 60%
+   :width: 75%
    
 **DateTimeFieldExtract Processor Configuration**
 
 .. figure:: ../../_assets/ml_userguide/datetime_configuration.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 
 **Output result of ``DateTimeFieldExtract`` processor**
 
 .. figure:: ../../_assets/ml_userguide/datetime_output_result.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 
 MovingWindowFunctions
 ========================
 
-Below is the sample workflows which contains ``MovingWindowFunctions`` processor in Fire Insights.
+Below is the sample workflows which contains MovingWindowFunctions processor in Fire Insights.
 
 It reads the store item dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
 
 .. figure:: ../../_assets/ml_userguide/windowsfn.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 
 **MovingWindowFunctions processor Configuration**
@@ -69,12 +81,12 @@ Moving avg and min of price column with window size three.
 
 .. figure:: ../../_assets/ml_userguide/windows_configuartion.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 **Output result of ``MovingWindowFunctions`` processor**
 
 .. figure:: ../../_assets/ml_userguide/output-result.PNG
    :alt: ml_userguide
-   :width: 90%
+   :width: 75%
 
 

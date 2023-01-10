@@ -1,4 +1,4 @@
-Databrikcs
+Databricks
 ==========
 
 Fire Insights has a processor that allows you to connect with databrikcs table and DBFS file system.

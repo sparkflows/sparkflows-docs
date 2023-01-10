@@ -28,7 +28,7 @@ For example it can be used to represent Daily sales data
 
 Below is the sample workflow which contains ``Time Series data`` and outputs a line chart in Fire Insights.
 
-.. figure:: ../../_assets/ml_userguide/visual.PNG
+   .. figure:: ../../_assets/ml_userguide/visual.PNG
    :alt: ml_userguide
    :width: 75%
 
@@ -37,7 +37,7 @@ Configurations for visualization processors in Fire Insight:
 * Set number of columns want to represent on y axis with respect to x axis
 * Set chart type based on data type
 
-.. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
+   .. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
    :alt: ml_userguide
    :width: 75%
 
@@ -46,7 +46,7 @@ Output result of ``Visualization`` processor:
 Charts : LineGraph
 ==================
 
-.. figure:: ../../_assets/ml_userguide/visual_result.PNG
+   .. figure:: ../../_assets/ml_userguide/visual_result.PNG
    :alt: ml_userguide
    :width: 75%
 
@@ -55,13 +55,13 @@ Charts : BarChart
 ==================
 
 
-.. figure:: ../../_assets/ml_userguide/barchart.png
+   .. figure:: ../../_assets/ml_userguide/barchart.png
    :alt: ml_userguide
    :width: 75%
    
 Charts : ColumnChart
 ==================
 
-.. figure:: ../../_assets/ml_userguide/column.png
+   .. figure:: ../../_assets/ml_userguide/column.png
    :alt: ml_userguide
    :width: 75%

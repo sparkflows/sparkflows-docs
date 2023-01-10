@@ -83,7 +83,7 @@ Moving avg and min of price column with window size three.
    :alt: ml_userguide
    :width: 75%
 
-**Output result of ``MovingWindowFunctions`` processor**
+**Output result of MovingWindowFunctions processor**
 
 .. figure:: ../../_assets/ml_userguide/output-result.PNG
    :alt: ml_userguide

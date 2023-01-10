@@ -1,5 +1,5 @@
 
-Developer Guide
+Developers Guide
 ===============
 .. panels::
    :container: container-lg pb-3

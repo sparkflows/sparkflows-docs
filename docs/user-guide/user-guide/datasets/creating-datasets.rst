@@ -1,4 +1,4 @@
-Creating New Dataset from Existing Files
+Creating Dataset
 ===============
  
 Overview

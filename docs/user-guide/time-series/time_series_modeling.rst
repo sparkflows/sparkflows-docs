@@ -44,19 +44,19 @@ The workflow reads the AirPassengers dataset & uses Prophet processor for foreca
 Prophet processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
    
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 
 Results from ``Prophet`` model after training the model:  
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_result.png
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 ARIMA
 =====
@@ -66,20 +66,20 @@ Below is the sample workflow which uses ARIMA processor in Fire Insights.
 The workflow reads the AirPassengers dataset & uses ARIMA processor which Forecasts the airline passengers count, generates a new column with unique index/value for each row in dataset and prints the result.
 
    .. figure:: ../../_assets/ml_userguide/arima_wf.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
    
 ARIMA processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/arima_configuration.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
    
 Result from ``ARIMA`` model after training the model:     
 
    .. figure:: ../../_assets/ml_userguide/arima_result.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 
 H2OXGBoost
@@ -90,29 +90,29 @@ Below is the sample workflow which uses H2OXGBoost processor in Fire Insights.
 The workflow reads the UCI Credit Card dataset & uses H2OXGBoost processor which is a supervised learning algorithm on tabular data and save the model in s3 location. Rich features like lag, moving average among others can be computed and added to the baseline model.
 
    .. figure:: ../../_assets/ml_userguide/xgBoost.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 H2OXGBoost processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 H2OMojoSave processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 On successful completiong of the job, the model get saved to specified locations, you can just view the model at specified location.
 
    .. figure:: ../../_assets/ml_userguide/h2o_output.png
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
    .. figure:: ../../_assets/ml_userguide/modellocation.PNG
-   :alt: ml_userguide
-   :width: 75%
+      :alt: ml_userguide
+      :width: 75%
 
 

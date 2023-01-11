@@ -2,10 +2,10 @@
 Configuration Steps
 ===========
 
-Below are Configurations Steps on how to Configure Aws SSO.
+Below are the configuration steps to configure AWS SSO:
 
 1. Log in to the AWS Management Console.
-2. Navigate to Security, Identity, & Compliance > AWS Single Sign-On:
+2. Navigate to Security, Identity, & Compliance > AWS Single Sign-On.
 
 .. figure:: ../../../_assets/configuration/aws-sso/service_aws.PNG
    :alt: aws sso
@@ -30,7 +30,7 @@ Below are Configurations Steps on how to Configure Aws SSO.
    :alt: aws sso
    :width: 60%
 
-6. Enter the following:
+6. Follow the below steps to proceed further:
 ::
 
     Select External identity provider.
@@ -42,7 +42,7 @@ Below are Configurations Steps on how to Configure Aws SSO.
 
 ::
 
-    Make a copy of the AWS SSO Sign-in URL, AWS SSO ACS URL, and AWS SSO issuer URL values. These values will be used later on.
+    Make a copy of the AWS SSO Sign-in URL, AWS SSO ACS URL, and AWS SSO issuer URL values. These values will be used at a later stage.
     IdP SAML metadata: Save the following file as metadata.xml, then upload it into AWS.
     Click Next: Review.
 
@@ -50,7 +50,7 @@ Below are Configurations Steps on how to Configure Aws SSO.
    :alt: aws sso
    :width: 60%
 
-7. Review the list of changes. Once you are ready to proceed, type CONFIRM, then click Change identity source.    
+7. Review the list of changes. Once you are ready to proceed, type CONFIRM and then click on Change identity source.    
 
 .. figure:: ../../../_assets/configuration/aws-sso/aws_change_identity.PNG
    :alt: aws sso

@@ -1,11 +1,9 @@
 Application
 =======
 
-Now both AWS SSO/Okta Configured successfully.
+Since, you have successfully configured both the AWS SSO and Okta in the previous steps so now, you can configure single sign-on (SSO) access to Fire Insights applications as it supports identity federation with SAML 2.0.
 
-you can Configure single sign-on (SSO) access to Fire Insights applications as it support identity federation with SAML 2.0.
-
-Below are steps involved in it:
+Below are the steps involved in it:
 
 1. Login to Aws Console.
 2. Open AWS Single Sign-On service and click on Applications.
@@ -14,7 +12,7 @@ Below are steps involved in it:
    :alt: aws sso
    :width: 60%
 
-3. Add a custom SAML 2.0 application
+3. Add a custom SAML 2.0 application.
 
 Configure Custom SAML 2.0 application with some details:
 
@@ -30,7 +28,7 @@ Details:
 
 AWS SSO metadata:
 
-cloud application may require the following certificate and metadata details to recognize AWS SSO as the identity provider.
+Cloud application may require the following certificate and metadata details to recognize AWS SSO as the identity provider.
 
 .. figure:: ../../_assets/configuration/aws-sso/aws_metdata.PNG
    :alt: aws sso
@@ -42,8 +40,8 @@ AWS SSO requires specific metadata about your cloud application before it can tr
 
 ::
 
-    Application ACS URL : The Assertion Consumer Service (ACS) URL is used to identify where the service provider accepts SAML assertions.
-    Application SAML audience: Application SAML url
+    Application ACS URL : The Assertion Consumer Service (ACS) URL is used to identify the location from where the service provider accepts SAML assertions.
+    Application SAML audience: Application SAML URL
 
 .. figure:: ../../../_assets/configuration/aws-sso/aws_acs.PNG
    :alt: aws sso

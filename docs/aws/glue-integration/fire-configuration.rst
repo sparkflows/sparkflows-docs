@@ -1,19 +1,19 @@
 Fire Configurations & Job Submission on AWS Glue
 ==========================
 
-Now you have connection between vm on which Fire Insights is running and AWS Glue, so now we can configure Fire Insights for Glue and create workflow and submit the job on AWS Glue.
+Since, you have successfully established a connection between VM on which Fire Insights is running and AWS Glue, so now we can configure Fire Insights for Glue and create workflow and submit the job on AWS Glue.
 
-1. Login to Fire Insights application and go inside Configurations
+1. Login to Fire Insights application and go inside Configurations.
 
-Once you login to Fire Insights application Click on ADMINISTRATION tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
+After logging in to Fire Insights application, click on ``ADMINISTRATION ``tab located on top to find the ``Configuration`` button. Clicking on the configuration button will take you to the configuration page.
 
 .. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws
    :width: 60%
 
-2. Update below parameter as per our configurations
+2. Update the below parameters as per our configurations.
 
-Now update below parameter as per AWS configurations
+Now, update the below parameters as per AWS configurations.
 
 .. list-table:: 
    :widths: 10 20 30
@@ -57,28 +57,28 @@ Now update below parameter as per AWS configurations
    :alt: aws
    :width: 80%
 
-3. Create Workflow in Fire
+3. Create workflow in Fire.
 
-Now you can create an example workflow in Fire, which reads from S3 bucket and save the workflow.
+Now, you can create an example workflow in Fire which reads from S3 bucket and save the workflow.
 
 .. figure:: ../../_assets/aws/glue/wf.PNG
    :alt: aws
    :width: 60%
 
-4. Submit the Job
+4. Submit the Job.
 
-After saving example workflow, now you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
+After saving example workflow, you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
 
 .. figure:: ../../_assets/aws/glue/job_submit.PNG
    :alt: aws
    :width: 80%
 
-5. Verify the Job on AWS Glue Cluster
+5. Verify the Job on AWS Glue Cluster.
 
-Now you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
+Now, you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
 
 .. figure:: ../../_assets/aws/glue/glue_job_verify.PNG
    :alt: aws
    :width: 60%
    
-.. note::  Make sure to disabled databricks if glue is enabled   
+.. note::  Make sure to disable Databricks if Glue is enabled.   

@@ -1,4 +1,4 @@
-CloudFormation Template with Embedded H2 DB
+CloudFormation Template with Embedded H2 Database
 ========================
 
 
@@ -7,7 +7,7 @@ Overview
 
 Using CloudFormation Templates, Fire can be easily installed on AWS. This CFT works with EMR 5.8 onwards.
 
-The below steps would allow you to start up an EMR Cluster and have Fire setup on it.
+Following the below steps would allow you to start up an EMR Cluster and have Fire setup on it.
 
 The CFT does the following:
 
@@ -45,22 +45,22 @@ Download Files and Upload to your S3 Bucket
 ----------------------------------------------
 
 * Download CFT **emr-fire-h2.json** from the above link.
-* Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket
+* Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket.
 
 
-Update Cloudformation template based on your environment
+Update CloudFormation Template based on your Environment
 ---------------------------------------------------------
 
 Update the CFT **emr-fire-h2.json** according to your requirement and environment in which you are deploying.
 
 * ElasticMapReduce-Master-SecurityGroup under mastersg::
 
-    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-master"
+    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-master".
   
   
 * ElasticMapReduce-Slave-SecurityGroup under slavesg::
 
-    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-slave"
+    From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-slave".
   
   
 * Applications::
@@ -70,17 +70,17 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
   
 * EbsRootVolumeSize::
 
-    If required change the root(/) ebs volume size. By default CFT has 50GB disk volume
+    If required, change the root(/) ebs volume size. By default CFT has 50GB disk volume.
   
   
 * SizeInGB for Master and Core Instances::
 
-    If required change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs)
+    If required, change the SizeInGB under EbsConfiguration. By default CFT has 50GB disk volume (used for hdfs).
   
   
 * VolumesPerInstance for Master and Core Instances::
 
-    If required change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it 2, two 50GB (SizeInGB size) disks will be added to each instances.
+    If required, change the VolumesPerInstance under EbsConfiguration By default cft has 1. It means one additional disk of 50GB added to each instance(for hdfs). e.g. If you change it to 2, two 50GB (SizeInGB size) disks will be added to each instance.
   
   
 * deploy-fire-h2.sh and script-runner.jar::
@@ -91,19 +91,19 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
 Steps to Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-* **AWS web Console -> Management tools -> CloudFormation**
+* **AWS web Console -> Management tools -> CloudFormation**:
 
   * Click on **Create Stack**.
   
-* Next page is **Select Template**
+* Next page is **Select Template**:
 
-  * Select the radio-button **Upload a template to Amazon S3**
-  * Select the updated **emr-fire-h2.json** from your system
-  * Click Next
+  * Select the radio-button **Upload a template to Amazon S3**.
+  * Select the updated **emr-fire-h2.json** from your system.
+  * Click Next.
   
-* Next page is **Specify Details**
+* Next page is **Specify Details**:
 
-  * Enter CloudFormation stack name
+  * Enter CloudFormation stack name.
  
  
 .. list-table:: Update Parameters where needed
@@ -113,104 +113,104 @@ Steps to Create EMR Cluster and Deploy Fire
    * - Name of Parameter
      - Description
    * - AdditionalSecurityGroups
-     - From the list choose the additional secuirty group(sg), it's required because default emr sg's ports are not opened for ssh, fire & etc...
+     - From the list, choose the additional secuirty group, it's required as default EMR security group's ports are not opened for SSH, Fire etc.
    * - AmiId
-     - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI
+     - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI.
    * - ClusterName
-     - Name for EMR Cluster
+     - Name for EMR Cluster.
    * - CoreInstanceType
-     - Provide the required instance type for core nodes, default instance type is m4.xlarge
+     - Provide the required instance type for core nodes, default instance type is m4.xlarge.
    * - CoreNodes
-     - Choose the required number of core nodes, by default it’s 2
+     - Choose the required number of core nodes, by default it’s 2.
    * - EmrVersion
-     - Choose the required EMR version, it’s should be above EMR v.5.8.x
+     - Choose the required EMR version, it should be above EMR v.5.8.x.
    * - Environment
-     - By default dev
+     - By default dev.
    * - FireVersion
-     - Enter the required version of Fire
+     - Enter the required version of Fire.
    * - KeyName
-     - Enter the valid pem key name to connect to emr nodes
+     - Enter the valid pem key name to connect to EMR nodes.
    * - MasterInstanceType
-     - Provide the required instance type for master nodes, default instance type is m4.xlarge
+     - Provide the required instance type for master nodes, default instance type is m4.xlarge.
    * - MasterNodes
-     - By default 1 
+     - By default, it is 1. 
    * - Owner
-     -  provide the name of a team or person creating the cluster
+     - Provide the name of a team or person creating the cluster.
    * - ReleaseVersion
-     - Enter the required ReleaseVersion, it has to match with fire version
+     - Enter the required ReleaseVersion, it has to match with fire version.
    * - S3Bucket
-     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire-h2.sh and script-runner.jar are uploaded
+     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire-h2.sh and script-runner.jar are uploaded.
    * - Subnet
-     - Provide the proper subnet name, which has sufficient resources to create emr cluster 
+     - Provide the proper subnet name, which has sufficient resources to create EMR cluster. 
    * - TaskInstanceType
-     - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge
+     - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge.
    * - TaskNodes
-     -  Optional, required only if you want to create the cluster with tasknodes.By default zero, enter the required number of nodes
+     -  Optional, required only if you want to create the cluster with tasknodes. By default zero, enter the required number of nodes.
 
 
-* Click Next
+* Click Next.
   
-* Next Page is **Options**
+* Next Page is **Options**:
 
-  * If required (not mandatory) enter tag details
-  * Click Next
+  * If required (not mandatory) enter the tag details.
+  * Click Next.
   
-* Next Page is **Review**
+* Next Page is **Review**:
 
-  * Review all the details provided to create an EMR stack
-  * Click on Create
-  * It will start creating the Stack
+  * Review all the details provided to create an EMR stack.
+  * Click on Create.
+  * It will start creating the stack.
 
-* Next page is back to **Cloudformation Page**
+* Next page is back to **Cloudformation Page**:
 
-  * Choose your Stack name
-  * Click on **Events** to check the process
-  * Click on **Resources** to get the EMR Cluster id
+  * Choose your Stack name.
+  * Click on **Events** to check the process.
+  * Click on **Resources** to get the EMR Cluster ID.
   
   
-* Once the stack runs successfully, your EMR Cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration
+* Once the stack runs successfully, your EMR cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration.
 
 
-* To **cross check** the Fire installation
+* To **cross check** the Fire installation:
 
-  * Go to EMR from AWS web console
-  * Choose your EMR Cluster
-  * Identify the Master Node Public DNS 
-  * Go to ``http://masternodeip:8085/index.html``
+  * Go to EMR from AWS web console.
+  * Choose your EMR cluster.
+  * Identify the Master Node Public DNS. 
+  * Go to ``http://masternodeip:8085/index.html``.
   
   
 Connect Fire to the New Cluster
 -------------------------------
 
-* Go to ``User/Administration``
-* Click on ``Infer Hadoop Configuration``
-* Click on the ``Save`` button
+* Go to ``User/Administration``.
+* Click on ``Infer Hadoop Configuration``.
+* Click on the ``Save`` button.
 
 Load Examples
 --------------
 
-* In Fire, click on ``Load Examples``
-* ``ssh`` to the master node
-* ``cd /opt/fire/fire-3.1.0``
-* Upload the example data files to HDFS
+* In Fire, click on ``Load Examples``.
+* ``SSH`` to the master node.
+* ``cd /opt/fire/fire-3.1.0``.
+* Upload the example data files to HDFS.
 
   * ``hadoop fs -put data``
 
-Create **hadoop** user
+Create **Hadoop** User
 ----------------------
 
-* Go to ``Administration/User``
-* Click on ``Add User``
-* Create a new user with username ``hadoop``
-* Log out and log back in as user ``hadoop``
+* Go to ``Administration/User``.
+* Click on ``Add User``.
+* Create a new user with username ``hadoop``.
+* Log out and log back in as user ``hadoop``.
 
 Start running the Examples
 --------------------------
 
-* Go to ``Applications``
-* Start creating/using the Applications
+* Go to ``Applications``.
+* Start creating/using the Applications.
      
 Summary
 -------
 
-Using the above CFT you have your EMR cluster with Fire running seamlessly.
+Using the above CFT, you have your EMR cluster with Fire running seamlessly.

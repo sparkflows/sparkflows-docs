@@ -1,7 +1,7 @@
 AWS Glue & EC2 Network Connection
 ==================
 
-Fire Insights ec2 instance can communicate with AWS Glue using a Network connection.
+Fire Insights EC2 instance can communicate with AWS Glue using a Network connection.
 
 Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Fire Insights has been installed.
 
@@ -13,7 +13,7 @@ You need to have an AWS account with administrative access.
 Create VPC for ENI
 ------
 
-You first create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over internet.
+You, first, create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over the internet.
 
 ENI is created in the private subnet.
 
@@ -32,7 +32,7 @@ ENI is created in the private subnet.
    :alt: aws
    :width: 60%
 
-3. On the VPC Management Console and click on the Launch VPC Wizard button.
+3. On the VPC Management Console click on the Launch VPC Wizard button.
 
 .. figure:: ../../_assets/aws/glue/vpc_wizard.png
    :alt: aws
@@ -44,18 +44,18 @@ ENI is created in the private subnet.
    :alt: aws
    :width: 60%
 
-5. On the next screen, enter GlueVPC as the VPC Name and select the Elastic IP address (created in the previous steps) for the Elastic IP Allocation ID field. Keep rest of the values as default and click on the Create VPC button.
+5. On the next screen, enter GlueVPC as the VPC Name and select the Elastic IP address (created in the previous steps) for the Elastic IP Allocation ID field. Keep the rest of the values as default and click on the Create VPC button.
 
 .. figure:: ../../_assets/aws/glue/vpc_public.png
    :alt: aws
    :width: 60%
 
-6. The VPC will be created in couple of minutes. Please wait for it to finish. You will use VPC private subnet and the default security group later to create ENI to call the REST API using AWS Glue Connection.
+6. The VPC will be created in a couple of minutes. Please wait for it to finish. You will use VPC private subnet and the default security group, later, to create ENI to call the REST API using AWS Glue Connection.
 
 Create IAM Role
 ------------
 
-You now create an Amazon IAM Role which the AWS Glue Job will use for the authorization to perform the task.
+You, now, create an Amazon IAM Role which the AWS Glue Job will use for the authorization to perform the task.
 
 1. Go to the IAM Management Console. Click on the Roles menu item in the left and then click on the Create role button.
 
@@ -89,7 +89,7 @@ Create Glue Connection
 
 Creating AWS Glue Connection is a very important step in completing this exercise. The connection is used to create an ENI in the private subnet of the VPC. AWS Glue job uses ENI to make call to the internet based REST API. The connection type used is Network.
 
-1. Go to the AWS Glue Console, select Connections in left menu and click on the Add connection button.
+1. Go to the AWS Glue Console, select Connections in the left menu and click on the Add connection button.
 
 .. figure:: ../../_assets/aws/glue/connection.png
    :alt: aws
@@ -125,7 +125,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
    :alt: aws
    :width: 60%
 
-VPC Peering connections
+VPC Peering Connections
 ----------
 
 Now since Fire Insights and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.

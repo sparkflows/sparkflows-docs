@@ -129,7 +129,7 @@ Steps to Create EMR Cluster and Deploy Fire
    * - FireVersion
      - Enter the required version of Fire.
    * - KeyName
-     - Enter the valid pem key name to connect to EMR nodes.
+     - Enter the valid PEM key name to connect to EMR nodes.
    * - MasterInstanceType
      - Provide the required instance type for master nodes, default instance type is m4.xlarge.
    * - MasterNodes

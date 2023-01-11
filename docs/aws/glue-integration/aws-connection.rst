@@ -95,13 +95,13 @@ Creating AWS Glue Connection is a very important step in completing this exercis
    :alt: aws
    :width: 60%
 
-2. Enter Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
+2. Enter the Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
 
 .. figure:: ../../_assets/aws/glue/add_connection.PNG
    :alt: aws
    :width: 60%
 
-3. On the next screen, you select GlueVPC as the VPC. Select Private Subnet for the Subnet. Select the default Security Group. Finally click on the Next button.
+3. On the next screen, select GlueVPC as the VPC. Select Private Subnet for the Subnet. Select the default Security Group. Finally click on the Next button.
 
 .. figure:: ../../_assets/aws/glue/vpc_connection.PNG
    :alt: aws
@@ -119,7 +119,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
    :alt: aws
    :width: 60%
 
-6. The connection test will take some time. Wait till the test status is shown as successful.
+6. The connection test will take some time. Wait till the test status is displayed as successful.
 
 .. figure:: ../../_assets/aws/glue/success_test_connection.PNG
    :alt: aws
@@ -128,7 +128,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 VPC Peering Connections
 ----------
 
-Now since Fire Insights and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.
+Now, since Fire Insights and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.
 
 1. Create Peering connection
 
@@ -137,7 +137,7 @@ Now since Fire Insights and AWS Glue are running on separate VPC's, we can use V
    :width: 60%
    
 
-2. on successful creation, you will able to see peering connection with Status active.
+2. On successful creation, you will be able to see peering connection with Status active.
 
 .. figure:: ../../_assets/aws/glue/peering_connection_list.PNG
    :alt: aws

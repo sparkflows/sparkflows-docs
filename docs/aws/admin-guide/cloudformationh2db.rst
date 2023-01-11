@@ -165,7 +165,7 @@ Steps to Create EMR Cluster and Deploy Fire
 
   * Choose your Stack name.
   * Click on **Events** to check the process.
-  * Click on **Resources** to get the EMR Cluster ID.
+  * Click on **Resources** to get the EMR Cluster Id.
   
   
 * Once the stack runs successfully, your EMR cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration.

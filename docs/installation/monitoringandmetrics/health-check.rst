@@ -7,7 +7,7 @@ The following URL can be used for checking the health of Fire Insights :
    
     http://localhost:8080/healthcheck
 
-Once the above URL is added in the browser, the response should be something similar to the following ::
+Once the above URL is added in the browser, the response should be something similar to the following: ::
 
     {"status":"UP"}
 

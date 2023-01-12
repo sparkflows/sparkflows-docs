@@ -1,5 +1,5 @@
 
-Reports & Dashboards
+Reports and Dashboards
 ====
 
 .. toctree::

@@ -1,4 +1,4 @@
-Acquire Session Cookie Using curl command
+Acquire Session Cookie using curl command
 ==================
 
 When invoking the REST APIs of Fire Insights with curl, the first step is to log in and save the incoming cookie into a text file. This file would then be used in making subsequent REST calls via curl.

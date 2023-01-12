@@ -1,4 +1,4 @@
-Notifications & Alerts
+Notifications and Alerts
 ======
 
 In Big Data where the jobs could run for hours, users prefer to be alerted when a job completes.

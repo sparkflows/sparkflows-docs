@@ -1,4 +1,4 @@
-AWS IAM ASSUME ROLE
+AWS IAM AssumeRole
 ======
 
 Fire Insights is integrated with AWS IAM Assume Role which can be Configured at Group level.

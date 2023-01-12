@@ -20,7 +20,7 @@ Dataset Processors include:
 
 The path specified for reading from S3 would be s3://...
 
-Reading from S3
+Read from S3
 ------------
 
 Below is an example Workflow. It reads a CSV file from S3, parses it and prints out the first 10 records.
@@ -39,7 +39,7 @@ In the dialog box of the Read CSV processor the path is specified as ``s3a://spa
    :alt: S3 CSV Output
    :align: center   
 
-Writing to S3
+Write to S3
 -----------------
 
 Below is an example Workflow. It reads a CSV file and save it to S3 path specified.
@@ -68,11 +68,11 @@ Once the above workflow successfully completed, the save data can be viewed usin
 
 
 
-Saving ML Model to S3
+Save ML Model to S3
 ========================
 
 
-Saving Spark ML Model
+Save Spark ML Model
 ---------------------
 
 Below is an example workflow in sparkflows, where data is read from S3 and the final Spark ML model is saved to S3 location.
@@ -103,7 +103,7 @@ Execution Result:
    
    
 
-Saving H20 ML Model
+Save H20 ML Model
 ---------------------
 
 Below is an example workflow in sparkflows, where final H20 ML model is saved to S3 location.

@@ -7,9 +7,9 @@ Following steps are required to create a role for S3 bucket access and assume th
 
 Login to AWS Console which has sufficient privilege to create a role with name ''assume-role-bucket1''.
 
-2. Create Inline Policy
+2. Create Inline Policy:
 
-Create an ''inline policy'' which has access of S3 policy to access the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and attach to the role.
+"Create an ''inline policy'' which has access to S3 policy which in turn has access to the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and then attach it to the role."
 
 ::
 
@@ -63,7 +63,7 @@ Create an ''inline policy'' which has access of S3 policy to access the differen
   }
 
 
-3. In the trust relationship of that role, allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “assume-role-bucket1” role.
+3. In the trust relationship of that role, allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “assume-role-bucket1” role:
 
 ::
 
@@ -85,7 +85,7 @@ Create an ''inline policy'' which has access of S3 policy to access the differen
 
 .. note:: **ecsTaskExecutionRole** is attached with a policy to access ECS resources. 
 
-4. Now policy ''assume_role_bucket1'' needs to be attached to the ''EMR_EC2_DefaultRole'' role added for EMR resources, in order to access the above role while submitting the job on ''EMR Cluster or EMR Livy''.
+4. Now, the policy ''assume_role_bucket1'' needs to be attached to the ''EMR_EC2_DefaultRole'' role, added for EMR resources, so that it gets access to the above role while submitting the job on ''EMR Cluster or EMR Livy''.
 
 
 .. note:: Make sure to change ARN value to an exact value.

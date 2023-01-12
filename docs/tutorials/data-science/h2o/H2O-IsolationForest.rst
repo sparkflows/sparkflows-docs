@@ -1,4 +1,4 @@
-H2O - Isolation Forest
+H2O Isolation Forest
 ======================
 
 This workflow performs Anomaly Detection with Isolation Forests using H2O of credit card fraud sample dataset.

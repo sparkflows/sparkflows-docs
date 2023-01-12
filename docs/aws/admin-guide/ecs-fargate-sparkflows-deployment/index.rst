@@ -1,7 +1,7 @@
 Sparkflows - ECS Fargate Deployment
 ===============================
 
-Sparkflows deployment on ECS Fargate
+This document serves as a detailed guide in understanding the steps involved for deployment of Sparkflows on ECS Fargate. 
 
 .. toctree::
    :maxdepth: 2

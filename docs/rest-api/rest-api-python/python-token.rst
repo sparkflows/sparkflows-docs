@@ -1,4 +1,4 @@
-Accessing REST API Using Python & Tokens
+Accessing REST API using Python and Tokens
 ====================================
 
 Below are the examples of Python code for accessing Fire REST APIs using Python.

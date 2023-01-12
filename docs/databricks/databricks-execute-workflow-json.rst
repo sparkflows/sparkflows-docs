@@ -1,4 +1,4 @@
-Executing workflow without Fire Insights
+Executing Workflow without Fire Insights
 ==================
 
 The workflows created in Fire Insights can be executed on Databricks without having Fire Insights installation available.

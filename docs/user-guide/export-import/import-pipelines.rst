@@ -1,4 +1,4 @@
-Import Pipeline
+Import Pipelines
 ==============
 
 Fire Insights enables you to import Pipelines as JSON files. These JSON files can be exported to use in another instance of Fire Insights. 

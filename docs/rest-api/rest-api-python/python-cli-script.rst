@@ -20,7 +20,7 @@ Fetch All Active Users and Groups
 
 This script retrieves all active users and their groups. It then writes these details into a csv file.
 
-Display or hide Apps
+Display or Hide Apps
 ----------------------
 
 **Script Name**: `display-hide-apps.py`

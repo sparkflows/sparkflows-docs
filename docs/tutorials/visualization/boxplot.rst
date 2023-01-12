@@ -1,4 +1,4 @@
-BOXPLOT
+Boxplot
 =========
 
 This workflow reads in a housing dataset. It then visualize using BoxPlot.

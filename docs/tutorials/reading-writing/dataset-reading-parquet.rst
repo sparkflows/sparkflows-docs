@@ -1,4 +1,4 @@
-Creating Dataset on Parquet Files
+Create Dataset on Parquet Files
 =====================
 
 Fire Insights supports reading from several file formats including Parquet Files. Parquet Files have schema embedded in them. Fire Insights is able to extract schema of Parquet Files automatically.

@@ -1,4 +1,4 @@
-Fire Insights AWS SSO Configuration
+AWS SSO Configuration
 ====================
 
 Fire Insights can be configured with AWS SSO as below.

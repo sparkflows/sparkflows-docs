@@ -1,4 +1,4 @@
-Jar File Execution Example in Fire
+JAR File Execution Examples
 -----------------------------------
 
 Let's take a scenario where through CI/CD pipeline, the application jar file is built successfully and pushed into the S3 bucket.

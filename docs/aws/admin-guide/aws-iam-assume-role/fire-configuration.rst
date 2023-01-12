@@ -62,4 +62,4 @@ Now, you can use it for creating workflow in the Node.
    :width: 60%
 
 .. note:: Currently users can access the S3 resources by assumming the role.
-When user belongs to multiple user groups and each group is attached with different roles, then role from the first group will be assumed during the S# access.
+When user belongs to multiple user groups and each group is attached with different roles, then role from the first group will be assumed during the S3 access.

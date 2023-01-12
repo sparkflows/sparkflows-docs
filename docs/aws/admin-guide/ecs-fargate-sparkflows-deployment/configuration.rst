@@ -1,19 +1,19 @@
 Fire Insights Deployment on ECS Fargate
 =======================================
 
-Below are the steps to configure the task, service, application load balancer and tasks group to run fire insights on ECS Fargate.
+Follow the below steps to configure the task, service, application load balancer and task groups to run Fire Insights on ECS Fargate.
 
 
 Pre-requisite
 --------
 
-Need to have an AWS account with required access to resources.
+You need to have an AWS account with required access to the resources.
 
 
 ECS CLuster
 ----------
 
-Create the ecs cluster wih VPC and security group.(Also existing ecs cluster can be used).
+Create the ECS cluster wih VPC and security group.(Any pre-existing ECS cluster can also be used for this purpose).
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-cluster.png
    :alt: aws
@@ -22,9 +22,9 @@ Create the ecs cluster wih VPC and security group.(Also existing ecs cluster can
 
 Task Definition
 --------------
-Create the task by attaching the ecsTaskExecutionRole with all policy and image name.
+Create the task by attaching the **ecsTaskExecutionRole** with all the policies and image name.
 
-Add the ENV variable to use external MySQL othwise by default task will create and use the h2db. And external database is mandataory when mutiple replica of same task is running.
+Add the ENV variable to use external MySQL otherwise the task will create and use the H2 database, by default. Also, an external database is mandatory when multiple replicas of the same task are running.
 
 
 **Tasks deployed on container would run the following processes:**
@@ -38,7 +38,7 @@ Add the ENV variable to use external MySQL othwise by default task will create a
 
 Service
 -------
-Deploy the service by selecting the tasks, application load balacer and target groups.
+Deploy the service by selecting the tasks, application load balancer and target groups.
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-service.png
    :alt: aws
@@ -48,9 +48,9 @@ Deploy the service by selecting the tasks, application load balacer and target g
 **Application Load Balancer:**
 
 
-1. Internet facing ALB listen to port 80.
-2. Container running the fire task listen to port 8080.
-3. In target group map the target port to 8080.
+1. Internet facing ALB listens to port 80.
+2. Container running the Fire task listens to port 8080.
+3. In target group, map the target port to 8080.
    
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb.png
@@ -60,7 +60,7 @@ Deploy the service by selecting the tasks, application load balacer and target g
 **Target Group:**
 
  
-Target type is IP and and target port 8080.
+Target type is IP and and target port is 8080.
  
  
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-1.png
@@ -68,7 +68,7 @@ Target type is IP and and target port 8080.
    :width: 60%
    
 
-Health checks with path / and success code 200, 302
+Health is checked with path / and success code 200, 302.
   
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
    :alt: aws
@@ -78,14 +78,14 @@ Health checks with path / and success code 200, 302
 
 
 
-Service is deployed with containers running the tasks, alb and target group.
+Service is deployed with containers running the tasks, ALB and target group.
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-alb-1.png
    :alt: aws
    :width: 60%
       
 
-Use the DNS Name from running application load balancer.
+Use the DNS name from the running application load balancer.
   
   
   

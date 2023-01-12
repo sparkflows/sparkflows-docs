@@ -1,4 +1,4 @@
-Titanic Data Cleaning/Wrangling
+Titanic Data Cleaning and Wrangling
 =========================
 
 This workflow shows how to wrangle the Titanic Dataset with Sparkflows.

@@ -1,4 +1,4 @@
-Architecture diagram
+Architecture Diagram
 =================
 
 Fire Insights can assume AWS IAM Role which is described by the following architecture diagram.

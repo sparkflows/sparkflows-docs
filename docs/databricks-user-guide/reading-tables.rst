@@ -1,4 +1,4 @@
-Reading Databricks Tables
+Read Databricks Tables
 ======================
 
 Fire Insights enables you to read from and write to Databricks tables.

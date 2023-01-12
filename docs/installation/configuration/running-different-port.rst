@@ -1,4 +1,4 @@
-Running on Another Port
+Running on custom Port
 =======================
 
 There are 2 processes involved when running Fire. These are:
@@ -10,7 +10,7 @@ User's Browser talks with ``Fire server``, and in turn ``Fire server`` talks wit
 
 Both ``Fire server`` and ``Fire`` processes can be configured to listen on different ports.
 
-Running Fire Server on Another Port
+Running Fire Server on custom Port
 -----------------------------------------
 
 By default the Fire server runs on the following ports:
@@ -33,7 +33,7 @@ Below are the steps for running Fire server on a different port:
       - run-fire-server.bat
 
 
-Running Fire on Another Port
+Running Fire on custom Port
 ----------------------------
 
 Fire by default runs on port 8081.

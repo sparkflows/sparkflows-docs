@@ -1,5 +1,5 @@
 
-Concat Columns
+Concatenate Columns
 ==============
 
 This example concats columns in the input dataset with the specified separator.

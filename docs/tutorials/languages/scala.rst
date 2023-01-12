@@ -1,4 +1,4 @@
-Scala Examples in Fire
+Scala Examples
 ----------------------
 
 Fire provides a Scala processer in which Scala code can be written.

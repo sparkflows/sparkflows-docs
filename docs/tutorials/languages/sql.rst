@@ -1,4 +1,4 @@
-SQL Examples in Fire
+SQL Examples
 ----------------------
 
 Fire Insights provides a SQL processer in which SQL can be written.

@@ -1,4 +1,4 @@
-SUBPLOT
+Subplot
 =========
 
 This workflow reads in a housing dataset. It then visualize using subplot.

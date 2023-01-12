@@ -1,4 +1,4 @@
-Creating Analytics App
+Create Analytics App
 ======================
 
 Fire Insights enables you to create Analytics Apps.

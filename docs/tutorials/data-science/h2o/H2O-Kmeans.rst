@@ -1,4 +1,4 @@
-H2O Kmeans
+H2O K-Means
 =====================
 
 This workflow performs clustering of the Bike Sharing Dataset. It uses H2O Kmeans with k=10

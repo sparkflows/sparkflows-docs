@@ -13,7 +13,7 @@ You need to have an AWS account with required access to the resources.
 ECS CLuster
 ----------
 
-Create the ECS cluster wih VPC and security group.(Any pre-existing ECS cluster can also be used for this purpose).
+Create the ECS cluster wih VPC and security group. (Any pre-existing ECS cluster can also be used for this purpose).
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-cluster.png
    :alt: aws

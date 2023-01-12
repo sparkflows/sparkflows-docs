@@ -1,4 +1,4 @@
-REST API Examples Using curl
+REST API Examples using Curl
 ==========
 
 This topic contains a range of examples that demonstrates how to use the Fire Insights APIs using curl.

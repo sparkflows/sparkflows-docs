@@ -1,4 +1,4 @@
-REST API Examples Using Python
+REST API Examples using Python
 ==========
 
 Sparkflows provides REST API for interacting with it.

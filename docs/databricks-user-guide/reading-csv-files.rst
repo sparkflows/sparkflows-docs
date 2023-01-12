@@ -1,4 +1,4 @@
-Reading CSV Files
+Read CSV Files
 =================================
 
 There are multiple ways to read and process CSV files in Fire Insights.

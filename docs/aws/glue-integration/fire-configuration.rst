@@ -74,7 +74,7 @@ After saving example workflow, you can execute the job which will be submitted o
 
 5. Verify the Job on AWS Glue Cluster.
 
-Now, you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
+Now you may verify the Job run on Fire Insights from AWS Glue Job by accessing the AWS Portal.
 
 .. figure:: ../../_assets/aws/glue/glue_job_verify.PNG
    :alt: aws

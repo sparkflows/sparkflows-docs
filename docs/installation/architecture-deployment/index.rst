@@ -1,4 +1,4 @@
-Architecture & Deployment
+Architecture and Deployment
 =========================
 
 Fire Insights can be installed on a standalone machine, VM, or in a container.

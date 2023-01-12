@@ -1,4 +1,4 @@
-Python Examples in Fire
+Python Examples
 ----------------------
 
 Fire provides a Pyspark processer in which Python code can be written. The Pyspark processor can only be written in a Pyspark workflow.

@@ -3,7 +3,7 @@ Elasticsearch
 
 Fire Insights has a processor that allows you to connect with elasticsearch.
 
-Reading from Elasticsearch
+Read from Elasticsearch
 ================
 
 Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' processor into your workflow and configure it.
@@ -50,7 +50,7 @@ When the sample workflow as displayed above is executed, it reads in the index f
    :width: 90%
    
 
-Writing to Elasticsearch
+Write to Elasticsearch
 ======================================
 
 Elastic Search is often used for indexing, searching and analyzing datasets. Fire Insights makes it easy to write data to Elastic Search.

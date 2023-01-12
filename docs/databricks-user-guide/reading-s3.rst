@@ -1,4 +1,4 @@
-Reading S3 files
+Read S3 files
 =========================
 
 https://docs.databricks.com/_static/notebooks/data-import/s3.html

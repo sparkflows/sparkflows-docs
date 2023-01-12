@@ -42,7 +42,7 @@ Click on Save to complete the configuration.
 
 6. Configuring Automatic Provisioning
 
-Click on Provisioning tab under the AWS SSO Application. Select Enable API Integration. Then copy / paste the values Base URL (paste the value copied in AWS Single Sign-On Console SCIM endpoint) and API Token (paste the value copied AWS Single Sign-On Console Access token). Please be sure to remove the trailing / at the end of the URL. The URL ends with scim/v2.
+Click on Provisioning tab under the AWS SSO Application. Select Enable API Integration. Then copy/paste the values of Base URL (paste the value copied in AWS Single Sign-On Console SCIM endpoint) and API Token (paste the value copied AWS Single Sign-On Console Access token). Please be sure to remove the trailing forward slash(/) at the end of the URL. The URL usually ends in ``scim/v2``.
 
 .. figure:: ../../../_assets/configuration/aws-sso/provisoning.PNG
    :alt: aws sso

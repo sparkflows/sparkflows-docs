@@ -1,4 +1,4 @@
-Data Preparation Others
+Data Preparation miscellaneous
 ==========
 
 Fire Insights provide processors for Data Preparation

@@ -5,7 +5,7 @@ Since, you have successfully established a connection between VM on which Fire I
 
 1. Login to Fire Insights application and go inside Configurations.
 
-After logging in to Fire Insights application, click on ``ADMINISTRATION ``tab located on top to find the ``Configuration`` button. Clicking on the configuration button will take you to the configuration page.
+After logging in to Fire Insights application, click on ``ADMINISTRATION`` tab located on top to find the ``Configuration`` button. Clicking on the configuration button will take you to the configuration page.
 
 .. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws

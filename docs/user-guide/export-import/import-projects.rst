@@ -1,4 +1,4 @@
-Importing Projects
+Import Projects
 ==============
 
 Fire Insights enables you to Import Projects. These ZIP files can be Exported into another instance of Fire Insights.

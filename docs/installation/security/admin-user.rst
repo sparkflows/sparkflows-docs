@@ -1,4 +1,4 @@
-Admin user
+Admin User
 ===========
 
 Fire Insights support variety of permissions for roles. Each user can be assigned one or more roles.

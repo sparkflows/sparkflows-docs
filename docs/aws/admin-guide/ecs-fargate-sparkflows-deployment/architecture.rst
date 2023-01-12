@@ -1,4 +1,4 @@
-Overivew And Architecture
+Overivew and Architecture
 =========================
 
 Fire Insights deployment on ECS Fargate can be understood with the help of following image:

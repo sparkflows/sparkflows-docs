@@ -1,4 +1,4 @@
-Installing/Using OpenNLP Model Jars
+Installing OpenNLP Model Jars
 =============================
 
 When running locally

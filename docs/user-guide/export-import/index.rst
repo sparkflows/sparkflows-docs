@@ -1,5 +1,5 @@
 
-Export / Import
+Export and Import
 ====
 
 Fire Insights enables you to export and download your workflows, pipelines, datasets, and analytical applications to your computer as JSON files. Fire also enables you to download a whole project as a zip file.

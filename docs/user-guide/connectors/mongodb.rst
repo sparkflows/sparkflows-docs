@@ -1,7 +1,7 @@
-Mongodb
+MongoDB
 ==========
 
-Fire Insights has a processor that allows you to connect with Mongodb.
+Fire Insights has a processor that allows you to connect with MongoDB.
 
 
 Workflow for Reading Data from MongoDB

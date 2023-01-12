@@ -1,4 +1,4 @@
-Reading Parquet Files
+Read Parquet Files
 ================
 
 Fire Insights enable users to read parquet files.

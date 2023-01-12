@@ -1,4 +1,4 @@
-Python Installation on Redhat/CentOS
+Python Installation on Red Hat and CentOS
 ====================================
 
 Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows use Python 3.7+.

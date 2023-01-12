@@ -1,4 +1,4 @@
-Reading and Writing from ElasticSearch
+Read and Write ElasticSearch
 ======================================
 
 Elastic Search is often used for indexing, searching and analyzing datasets. Fire Insights makes it easy to read data from Elastic Search, clean it and transform it as needed.

@@ -1,4 +1,4 @@
-Running DDL Commands
+Run DDL Commands
 ===========================
 
 Fire Insights allows you to run DDL commands on Databricks.

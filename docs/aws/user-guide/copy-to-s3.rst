@@ -1,4 +1,4 @@
-Copying files to S3 with aws-cli
+Copy files to S3 with aws-cli
 ===========
 
 This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the below steps for copying files to an S3 bucket using AWS-CLI.

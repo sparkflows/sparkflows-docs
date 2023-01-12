@@ -1,4 +1,4 @@
-Writing to S3 files
+Write to S3
 =========================
 
 https://docs.databricks.com/_static/notebooks/data-import/s3.html

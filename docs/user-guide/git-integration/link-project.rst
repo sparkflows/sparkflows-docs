@@ -1,4 +1,4 @@
-Link project with Git
+Link Project with Git
 ===================
 
 Sparkflows allows projects to be linked with git via the ``Link With Git`` under Actions. You can link projects with git in order to persist projects, workflows, pipelines, apps to git repo. On clicking on the button, following options show up: 

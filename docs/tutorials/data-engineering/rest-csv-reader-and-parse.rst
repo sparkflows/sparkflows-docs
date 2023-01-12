@@ -1,4 +1,4 @@
-REST - CSV Reader & Parse
+REST API CSV Read and Parse
 =============
 
 This workflow reads in a dataset from URL. It then parses the dataset and prints the result.

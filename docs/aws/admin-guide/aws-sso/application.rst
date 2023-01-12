@@ -30,7 +30,7 @@ AWS SSO metadata:
 
 Cloud application may require the following certificate and metadata details to recognize AWS SSO as the identity provider.
 
-.. figure:: ../../_assets/configuration/aws-sso/aws_metdata.PNG
+.. figure:: ../../../_assets/configuration/aws-sso/aws_metdata.PNG
    :alt: aws sso
    :width: 60%
 

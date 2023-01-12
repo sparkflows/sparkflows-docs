@@ -1,4 +1,4 @@
-Executor Memory, vcores
+Executor Memory, VCores
 =======================
 
 When running Apache Spark jobs, we can define the number of executors, executor memory and number of vcores per executor.

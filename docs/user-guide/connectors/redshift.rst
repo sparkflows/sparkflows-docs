@@ -1,4 +1,4 @@
-Redshift Connectors
+Redshift
 ========================
 
 Fire Insights has processors for reading from and writing to Redshift.

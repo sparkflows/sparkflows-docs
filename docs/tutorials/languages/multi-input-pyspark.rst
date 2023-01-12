@@ -1,4 +1,4 @@
-Multi-Input Pyspark Example
+Multi-Input Pyspark Examples
 ==========================
 
 This workflow reads in dataset's and pass the multiple input's MultiInputpyspark node.

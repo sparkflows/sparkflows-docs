@@ -1,4 +1,4 @@
-Profiling-Correlation
+Profiling and Correlation
 =============
 
 This workflow reads in a dataset. It then creates the correlation analysis and summary statistics.

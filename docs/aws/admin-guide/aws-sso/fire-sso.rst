@@ -9,13 +9,13 @@ Fire Insights can be configured with AWS SSO as below.
 
     sparkflows.sp.sso.enable=true 
     
-2. Create user automatically in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'.
+2. Create the user automatically in application if user doesn’t exist in Fire Insights. Otherwise app will throw the error on page complaining ‘User not found’. 
 
 ::
 
     sparkflows.sp.auto.user.create=true 
     
-3. Disable the database login for superuser or else you can enable it to login with superuser authentication.
+3. Disable the database login for superuser. Otherwise a login will be allowed with superuser authentication.
 
 ::
 
@@ -66,7 +66,7 @@ Fire Insights can be configured with AWS SSO as below.
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   
-10. Once the above configuration added and when started the Fire Server, you will able to Login through Fire Insights page.
+10. Once the above configuration is added and the Fire Server is started you will able to login through Fire Insights page.
 
 .. figure:: ../../../_assets/configuration/aws-sso/login.PNG
    :alt: aws sso

@@ -1,4 +1,4 @@
-Writing to Databricks Tables
+Write to Databricks Tables
 ======================
 
 Fire Insights enables you to write to Databricks tables.

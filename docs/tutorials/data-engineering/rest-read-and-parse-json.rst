@@ -1,4 +1,4 @@
-REST APIcRead and Parse JSON
+REST API Read and Parse JSON
 =============
 
 This workflow reads in a single record JSON from the given URL. It then parses the dataset and prints the result.

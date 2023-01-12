@@ -1,4 +1,4 @@
-Accessing REST API Using Python & Session
+Accessing REST API using Python and Session
 ==================
 
 Fire Insights REST APIs can be accessed with Python. This page provides two examples of accessing the REST API's with Python.

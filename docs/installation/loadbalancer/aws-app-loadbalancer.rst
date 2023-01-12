@@ -1,4 +1,4 @@
-AWS Application Load balancer
+AWS Application Load Balancer
 ===========================
 
 This document explains the steps for creating "Application Load Balancer" in AWS and configuring it for Fire Insights.

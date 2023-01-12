@@ -1,4 +1,4 @@
-Different Default Values on Startup
+Custom default values of Configurations on Startup
 ===================================
 
 Overview
@@ -7,7 +7,7 @@ Overview
  
 Fire has a number of properties under Administration / Configuration. When initially installed they have certain default values. Administrators can log into Fire through their Browser and update the properties.
 
-However, there might be cases where you want Fire to come up with different default values for the Configurations when installed. This enables more automation and the Administrator does not have to go in and manually change the default values.
+However, there might be cases where you want Fire to come up with custom default values for the Configurations when installed. This enables automation and the Administrator does not have to go in and manually change the default values.
 
 Steps
 -----

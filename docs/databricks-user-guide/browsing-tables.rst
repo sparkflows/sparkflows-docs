@@ -1,4 +1,4 @@
-Browsing Databricks Tables
+Browse Databricks Tables
 ===========================
 
 Fire Insights allows you to Browse your Databricks Databases & Tables.

@@ -1,4 +1,4 @@
-Installing MySQL
+Install MySQL
 ================
 
 This document captures the details for installing MySQL on CentOS 7.x. Fire Insights by default runs with embedded H2 database. Fire Insights can be configured with MySQL.

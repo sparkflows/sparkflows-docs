@@ -1,6 +1,6 @@
-Writing to Big Query
+Write to Big Query
 ============
 
-Fire Insights has processor for writing to Big Query Tables.
+Fire Insights has processor to write to Big Query Tables.
 
 

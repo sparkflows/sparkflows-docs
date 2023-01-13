@@ -7,13 +7,13 @@ Databricks User Guide
 
     :doc:`/databricks-user-guide/databricks-clusters`
 
-    View Databricks Clusters and can also Start and Stop the Databricks clusters.
+    View Databricks Clusters status. Can also Start and Stop the Databricks clusters.
 
     ---
 
     :doc:`/databricks-user-guide/dbfs-browse`
 
-    Browse , Upload & Delete files and directories in DBFS.
+    Browse , Upload and Delete files and directories in DBFS.
 
     ---
 
@@ -25,7 +25,7 @@ Databricks User Guide
 
     :doc:`/databricks-user-guide/browsing-tables`
 
-    Browse your Databricks Databases & Tables. 
+    Browse your Databricks Databases and Tables. 
 
     ---
 

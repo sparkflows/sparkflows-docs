@@ -10,7 +10,7 @@ Pre-requisite
 You need to have an AWS account with required access to the resources.
 
 
-ECS CLuster
+ECS Cluster
 ----------
 
 Create the ECS cluster wih VPC and security group. (Any pre-existing ECS cluster can also be used for this purpose).

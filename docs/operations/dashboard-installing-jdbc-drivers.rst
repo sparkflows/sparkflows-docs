@@ -9,7 +9,7 @@ Below are the steps for installing the JDBC driver for interactive dashboards::
   Copy it into `fire-server-lib` directory under the Fire installation.
   Restart fire server.
 
-Download the JDBC jar file
+Download the JDBC JAR file
 --------------------------
 
 Download the JDBC jar file for the database you are looking to connect to.
@@ -28,7 +28,7 @@ Restart Fire Server
 Restart Fire server with ``./run-fire-server.sh restart``.
 
  
-Downloading MySQL Connector
+Download MySQL Connector
 ---------------------------
 
 - MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/

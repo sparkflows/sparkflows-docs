@@ -1,19 +1,19 @@
 Integration with Hive
 ==========================
 
-Fire seamlessly integrates with HIVE when it runs on AWS.
+Fire seamlessly integrates with Hive where it is running on AWS.
 
 Overview
 --------
 
-On AWS, the data normally resides in S3 buckets. HIVE tables are created that points to data in the S3 buckets.
+On AWS, the data normally resides in S3 buckets. Hive tables are created that points to data in the S3 buckets.
 
 Details
 -------
 
 * Fire would run on the master node of the EMR cluster, or on an Edge node with the cluster contiguration files.
 
-* HIVE can run on the same or any other EMR cluster. 
+* Hive can run on the same or any other EMR cluster. 
 
 * Make sure that hive-site.xml is available on the cluster where the Spark jobs are running.
 

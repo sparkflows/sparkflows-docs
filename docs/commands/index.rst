@@ -30,7 +30,7 @@ Commands Cheatsheet
     
     :doc:`/commands/h2-db`
     
-    h2-db Commands Cheatsheet
+    H2 Database Commands Cheatsheet
     
     ---
     
@@ -55,6 +55,4 @@ Commands Cheatsheet
    h2-db.rst
    python.rst
    kerberos.rst
-   
-   
    

@@ -1,4 +1,4 @@
-Configuring Apache OpenNLP Model Jars in Fire Insights
+Configure Apache OpenNLP Model Jars in Fire Insights
 =====================
 
 When running locally

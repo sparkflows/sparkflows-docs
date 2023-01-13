@@ -1,11 +1,11 @@
 Integration with SageMaker
 ========================
 
-Fire is fully integrated with AWS SageMaker. Fire provides a number of processors for doing model building with SageMaker.
+Fire is fully integrated with AWS SageMaker. Fire provides a number of processors for building models on SageMaker. 
 
-You can do Data Preparation and Feature Engineering with Sparkflows doing compute with Apache Spark. Sparkflows then seamlessly enables you to do your model training and deployment with SageMaker.
+You can do Data Preparation and Feature Engineering with Sparkflows doing compute with Apache Spark. Sparkflows, then seamlessly, enables you to do your model training and deployment with SageMaker. 
 
-The above forms a very powerful combinations for end to end Machine Learning.
+The above forms a very powerful combination for end to end Machine Learning.
 
 Spark Sagemaker Examples
 ------------------------
@@ -32,12 +32,12 @@ SageMaker Processors include:
 AWS Provided Policies
 -----
 
-AWS provides managed policies for SageMaker. Example : AmazonSageMakerFullAccess
+AWS provides managed policies for SageMaker e.g. AmazonSageMakerFullAccess.
 
 Launching EMR
 ------------
 
-When launching the EMR Cluster make sure that the Role (eg: **EMR_EC2_DefaultRole**) used has the AmazonSageMakerFullAccess policy. 
+When launching the EMR cluster, make sure that the Role (eg: **EMR_EC2_DefaultRole**) used has the AmazonSageMakerFullAccess policy. 
 
 Now that the Roles and Policies are in place, start up your EMR cluser with the **EMR_DefaultRole** and  **EMR_EC2_DefaultRole** Roles.
 
@@ -51,7 +51,7 @@ Create a new Role called **aws-sagmaker-full-access** with the below Policy. It 
 Use ARN of the new Role in the Workflow
 ----------------
 
-We now use the ARN of the new Role when we use the SageMaker KMeans Estimator Node in the Workflow.
+We, now, use the ARN of the new Role while using the SageMaker KMeans Estimator Node in the Workflow.
 
 **arn:aws:iam::account_id:role/aws-sagemaker-full-access**
 
@@ -66,16 +66,16 @@ AWS has various instance types:
 * r : Memory Optimized Instances
 * m : General Instances
 
-Amazon SageMaker Instance Types details are here : https://aws.amazon.com/sagemaker/pricing/instance-types/
+Amazon SageMaker Instance Types details are available here : https://aws.amazon.com/sagemaker/pricing/instance-types/
 
 
 Dataset Column Names for Training with Sagemaker
 ------------------------------------------------
 
-Sagemaker needs the following columns to exist in the Dataset.
+SageMaker needs the following columns to exist in the dataset.
 
 * label : label column
-* features : features column, this column can also be set
+* features : features column
 
 
 Flow with Sparkflows and AWS
@@ -90,11 +90,11 @@ XGBoost Sagemaker Workflow
 
 Below is a workflow which:
 
-* Reads in a libsvm file as input
-* Performs XGBoost Modeling
-* Reads in another libsvm file
-* Performs predictions with the model built in the previous step
-* Prints out the result
+* Reads in a libsvm file as input.
+* Performs XGBoost Modeling.
+* Reads in another libsvm file.
+* Performs predictions with the model built in the previous step.
+* Prints out the result.
 
 .. figure:: ../../_assets/aws/sagemaker-xgboost-workflow-2.png
    :alt: SageMaker XGBoost 
@@ -110,10 +110,10 @@ Below are the configuration setup details of the XGBoost Processor.
    :align: center
 
    
-Executing the Workflow
+Execute the Workflow
 ------------------
 
-Below are the results of executing the workflow.
+Below are the workflow execution results.
 
 .. figure:: ../../_assets/aws/sagemaker-xgboost-execute-1.png
    :alt: SageMaker XGBoost Execution

@@ -22,25 +22,25 @@ https://docs.snowflake.com/en/user-guide/spark-connector.html
     
     :doc:`/snowflake/creating-snowflake-connection`
     
-    Creating a snowflake connection in fire insights
+    Create a Snowflake connection
     
     ---
     
     :doc:`/snowflake/reading-snowflake`
     
-    Reading data from snowflake in fire insights
+    Read data from Snowflake
     
     ---
     
     :doc:`/snowflake/writing-snowflake`
     
-    Writing data to snowflake in fire insights
+    Write data to Snowflake
     
     ---
     
     :doc:`/snowflake/browse-snowflake-tables`
     
-    Browsing snowflake tables in fire insights
+    Browse Snowflake tables
 
 .. toctree::
    :hidden:
@@ -50,15 +50,4 @@ https://docs.snowflake.com/en/user-guide/spark-connector.html
    writing-snowflake.rst
    browse-snowflake-tables.rst
    
-   
-   
-   
-   
-
-   
-   
-   
-   
-
-   
-   
+  

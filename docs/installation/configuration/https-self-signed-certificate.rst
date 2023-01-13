@@ -1,15 +1,15 @@
-HTTPS : Importing Self-Signed Certificates
+HTTPS : Import Self-Signed Certificates
 ================================
 
 Fire Insights comes with a self-signed certificate. It is contained in "conf/keystore.jks".
 
-When using the self-signed certificate, the Browser will complain as it has not been issued by a Certificate Authority.
+When you try to use self-signed certificate, the browser will complain as it has not been issued by a Certificate Authority.
 
-This warning message can be supressed by importing the self-signed certificate into the Browser  inside  ``Trusted Root Certification Authorities``.
+You can import self-signed certificate into the browser inside ``Trusted Root Certification Authorities`` to suppress the warning message.
 
-Below are the steps for importing self-signed certificate into your Browser:
+Below are the steps to import self-signed certificate into your browser:
 
-Exporting the certificate to your machine
+Export the certificate to your machine
 --------------------------------------------
 
 - Got to ``URL`` for the ``HTTPS`` port.
@@ -39,7 +39,7 @@ Exporting the certificate to your machine
    :alt: certificate
    :width: 60%
 
-- Click on ``Details`` option to see detail information of certificate.
+- Click on ``Details`` option to see detailed information of certificate.
 
 .. figure:: ../../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
@@ -63,21 +63,21 @@ Exporting the certificate to your machine
    :alt: certificate
    :width: 60%
 
-- After upadating the details ``Success msg`` will apear.
+- On updation of details a ``Success msg`` will be displayed on the screen.
 
 .. figure:: ../../_assets/configuration/exportcertificate.PNG
    :alt: certificate
    :width: 60%
 
-Next, you need to add the exported certificate to the Browser.
+Next, you need to add the exported certificate to the browser.
 
    
-Adding Certificate to the Browser
+Add Certificate to the Browser
 --------------------------
  
-- Using Google chrome
+- Use Google chrome
    
-- Go to below location after opening ``Google Chrome``.
+- Open ``Google Chrome`` and follow the steps below:
    - Settings -> Advanced -> Privacy and Security-> Manage Certificates 
    
 
@@ -85,19 +85,19 @@ Adding Certificate to the Browser
    :alt: certificate
    :width: 60%
 
-- Click on ``Manage Certificate`` icon.
+- Click on the ``Manage Certificates`` icon.
 
 .. figure:: ../../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
    :width: 60%
 
-- Click on ``import``.
+- Click on ``Import``.
 
 .. figure:: ../../_assets/configuration/import.PNG
    :alt: certificate
    :width: 60%
 
-- Select ``certificate from local system``, use ``Trusted Root Certification Authorities`` option and press ``yes`` to save it.
+- Select ``certificate from local system``, then select ``Trusted Root Certification Authorities`` option and click on ``yes`` to save it.
 
 .. figure:: ../../_assets/configuration/Trustedroot.PNG
    :alt: certificate
@@ -112,7 +112,7 @@ Adding Certificate to the Browser
    :alt: certificate
    :width: 60%
 
-- Once the above process is completed, close the ``Browser`` and start again and try to login with above ``URL``. It should work without any warnings.
+- Once the above process is completed, close the ``browser`` and start again and try to login with above ``URL``. It should work without any warnings.
 
 .. figure:: ../../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
@@ -120,5 +120,5 @@ Adding Certificate to the Browser
    
 
 
-* Help URL: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate 
+* URL for further assistance: https://peacocksoftware.com/blog/make-chrome-auto-accept-your-self-signed-certificate 
 

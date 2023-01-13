@@ -1,4 +1,4 @@
-Migrating from H2 Database to MySQL
+Migrate from H2 Database to MySQL
 =============================
 
 Fire Insights comes with an embedded H2 database.

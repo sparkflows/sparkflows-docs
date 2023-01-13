@@ -6,7 +6,7 @@ Fire seamlessly integrates with Hive where it is running on AWS.
 Overview
 --------
 
-On AWS, the data normally resides in S3 buckets. Hive tables are created that points to data in the S3 buckets.
+On AWS, the data normally resides in S3 buckets. Hive tables are created pointing to data in S3 buckets.
 
 Details
 -------

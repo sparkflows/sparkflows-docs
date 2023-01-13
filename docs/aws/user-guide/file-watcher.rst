@@ -1,4 +1,4 @@
-File Watcher with AWS & Sparkflows
+File Watcher with AWS and Sparkflows
 =================
 
 Overview

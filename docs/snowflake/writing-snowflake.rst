@@ -1,4 +1,4 @@
-Writing to Snowflake
+Write to Snowflake
 =====================
 
 Fire Insights has a processor for writing to Snowflake.

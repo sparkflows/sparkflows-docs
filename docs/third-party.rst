@@ -57,7 +57,7 @@ Server Libraries
   - Copyright © 1999–2019 The Apache Software Foundation.
   - License: Apache-2.0
 
-- spark-streaming-kafka
+- Apache Spark Streaming Kafka
 
 
   - http://spark.apache.org/
@@ -110,7 +110,7 @@ Server Libraries
   - Copyright © 2016 The Eclipse Foundation.
   - License: EPL- v 2.0
 
-- Elasticsearch-spark-20_2.11
+- Elasticsearch Spark
 
 
   - https://github.com/elastic/elasticsearch-hadoop
@@ -153,7 +153,7 @@ Server Libraries
   - Author: The Apache Software Foundation
   - License: Apache-2.0
 
-- Mongo_spark_connector_2.11
+- Mongo Spark Connector
 
    
   - http://github.com/mongo-spark

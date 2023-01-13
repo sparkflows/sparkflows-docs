@@ -19,7 +19,13 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    
    ---
    
-   :doc:`/installation/installation/linux-macos-install`
+   :doc:`/installation/installation/linux-install`
+   
+   Sparkflows Installation on Linux and Mac
+   
+   ---
+      
+   :doc:`/installation/installation/macos-install`
    
    Sparkflows Installation on Linux and Mac
    
@@ -65,7 +71,8 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
 
    docker-windows-install.rst
    docker-linux-install.rst
-   linux-macos-install.rst
+   linux-install.rst
+   macos-install.rst
    windows-install.rst
    windows-laptop-desktop-installer.rst
    python-install-redhat-centos.rst

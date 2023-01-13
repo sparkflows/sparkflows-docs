@@ -18,14 +18,14 @@ Dataset Processors include:
 * Read JSON
 * Read XML
 
-The path specified for reading from S3 would be s3://...
+The path specified to read from S3 is s3://...
 
 Read from S3
 ------------
 
-Below is an example Workflow. It reads a CSV file from S3, parses it and prints out the first 10 records.
+Below is a sample workflow which reads a CSV file from S3, parses it and prints out the first 10 records.
 
-In the dialog box of the Read CSV processor the path is specified as ``s3a://sparkflow-sample-data/data/Clickthru.csv``
+In the dialog box of the Read CSV processor the path is specified as ``s3a://sparkflow-sample-data/data/Clickthru.csv``.
 
 .. figure:: ../../_assets/aws/s3-csv1.png
    :alt: S3 Workflow
@@ -42,9 +42,9 @@ In the dialog box of the Read CSV processor the path is specified as ``s3a://spa
 Write to S3
 -----------------
 
-Below is an example Workflow. It reads a CSV file and save it to S3 path specified.
+Below is a sample workflow which reads a CSV file and save it to S3 path specified.
 
-In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/``
+In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/``.
 
 .. figure:: ../../_assets/aws/csvsave-workflow.PNG
    :alt: S3 Workflow
@@ -60,7 +60,7 @@ Execution Result
    :alt: S3 Workflow
    :align: center
 
-Once the above workflow successfully completed, the save data can be viewed using ``DATABROWSERS/AWS S3`` Location with specified path
+After successful completion of the above workflow, the data saved can be viewed at ``DATABROWSERS/AWS S3`` with specified path.
 
 .. figure:: ../../_assets/aws/browse_s3.PNG
    :alt: S3 Workflow
@@ -75,10 +75,9 @@ Save ML Model to S3
 Save Spark ML Model
 ---------------------
 
-Below is an example workflow in sparkflows, where data is read from S3 and the final Spark ML model is saved to S3 location.
+Below is a sample workflow in sparkflows, where data is read from S3 and the final Spark ML model is saved to S3 location.
 
 
-Workflow:
 
 Configure ReadCSV
 
@@ -87,14 +86,14 @@ Configure ReadCSV
    :align: center
  
 
-Configure SaveMlModel
+Configure ML Model Save
 
 .. figure:: ../../_assets/aws/sparkml-workflow-save3.PNG
    :alt: Spark ML Workflow
    :align: center
 
 
-Execution Result:
+Execution Result
 
 .. figure:: ../../_assets/aws/sparkml-workflow-execution-result.PNG
    :alt: Spark ML Workflow
@@ -106,10 +105,10 @@ Execution Result:
 Save H20 ML Model
 ---------------------
 
-Below is an example workflow in sparkflows, where final H20 ML model is saved to S3 location.
+Below is a sample workflow in sparkflows where final H20 ML model is saved to S3 location.
 
 
-Workflow:
+Workflow
 
 .. figure:: ../../_assets/aws/h20ml-workflow.PNG
    :alt: H20 ML Workflow
@@ -122,7 +121,7 @@ Configure Save H20 ML Model
    :align: center
 
 
-Execution Result:
+Execution Result
 
 .. figure:: ../../_assets/aws/h20ml-workflow-execution-result.PNG
    :alt: H20 ML Workflow

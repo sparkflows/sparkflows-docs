@@ -1,7 +1,7 @@
 Copy files to S3 with AWS-CLI
 ===========
 
-This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the steps below to copy files to an S3 bucket with the use of AWS-CLI.
+This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the steps given below to copy files to an S3 bucket with the use of AWS-CLI.
 
 1. *Install AWS-CLI on machine if not already installed*
 2. *Configure AWS Credentials*
@@ -78,7 +78,7 @@ REFERENCE : Create Access Key & Secret Key
 
 3. Lastly, you need to create an access key and secret key for this user by following steps given at the link: (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey).
 
-.. note:: It's important to regularly rotate your access and secret keys. Refer the document available at the below link for more information: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
+.. note:: It's important to regularly rotate your access and secret keys. Refer the document available at the link given below for more information: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
 
 
 

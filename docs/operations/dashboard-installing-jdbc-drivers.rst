@@ -1,4 +1,4 @@
-Installing JDBC Drivers for Dashboard
+Install JDBC Drivers for Dashboard
 =======================
 
 Dashboard work with JDBC sources. The appropriate JDBC jars have to be installed.

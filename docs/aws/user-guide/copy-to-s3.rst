@@ -1,7 +1,7 @@
-Copy files to S3 with aws-cli
+Copy files to S3 with AWS-CLI
 ===========
 
-This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the below steps for copying files to an S3 bucket using AWS-CLI.
+This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the steps below to copy files to an S3 bucket with the use of AWS-CLI.
 
 1. *Install AWS-CLI on machine if not already installed*
 2. *Configure AWS Credentials*
@@ -10,7 +10,7 @@ This document serves as a guide to describe the process when you want to upload 
 5. *Copy files to the S3 bucket*
 6. *Delete all files in directory*
 
-Installing AWS-CLI on mac
+Install AWS-CLI on mac
 ------------------------
 ..  code::
  
@@ -57,7 +57,7 @@ Delete All Files in Directory
   aws s3 rm s3://bucket_name/dir1/ --recursive
 
 
-Setting Roles and Policies for EMR
+Set Roles and Policies for EMR
 --------------------------------
 
 In order to be able to access S3 files from the EMR cluster, attach the AmazonS3FullAccess Policy to the EMRDefaultRole.
@@ -65,14 +65,14 @@ In order to be able to access S3 files from the EMR cluster, attach the AmazonS3
 Now, the EMR cluster would have access to the S3 buckets.
 
 
-REFERENCE : Creating Access Key & Secret Key
+REFERENCE : Create Access Key & Secret Key
 --------------
 
-1. You need to create a user with programmatic access by following the steps here: (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
+1. You need to create a user with programmatic access. Please follow the steps provided here: (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
 
  
 
-2. Next, you need to create an IAM policy that defines the access limit of the user in your AWS account.  It's important to grant only restricted access access to the user within your account. Refer the document available at the below link for further information on creating IAM Policies: (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html).
+2. Next, you need to create an IAM policy that defines the access limit of the user in your AWS account.  It's important to grant only restricted access to the user within your account. Refer the document available at the below link for further information on how to create IAM Policies: (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html).
 
  
 

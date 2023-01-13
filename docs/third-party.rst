@@ -103,7 +103,7 @@ Server Libraries
   - Copyright © 2019, Amazon Web Services, Inc. or its affiliates
   - License: Apache-2.0
 
-- Eclipse jetty
+- Eclipse Jetty
 
 
   - https://www.eclipse.org/jetty/
@@ -132,7 +132,7 @@ Server Libraries
   - License: Apache-2.0
 
 
-- Json Java
+- JSON Java
 
  
   - http://www.json.org
@@ -146,7 +146,7 @@ Server Libraries
   - Author: The Apache Software Foundation
   - License: Apache-2.0
 
-- Sagemaker-spark_2.11
+- Sagemaker Spark
  
 
   - https://github.com/aws/sagemaker-spark
@@ -195,25 +195,25 @@ Server Libraries
 Frontend Libraries
 ++++++++++++++++++
 
-- angular
+- Angular
 
   - https://angular.io/
   - Copyright (c) 2010-2021 Google, Inc. 
   - License: MIT
 
-- bootstrap
+- Bootstrap
 
   - http://getbootstrap.com/
   - Copyright 2011-2021 Twitter, Inc
   - License: MIT
   
-- jquery
+- jQuery
 
   - https://jquery.com/
   - Copyright 2021 The jQuery Foundation. jQuery License
   - License: MIT
 
-- rxjs
+- RxJS
 
   - https://rxjs-dev.firebaseapp.com/
   - Copyright 2015-2021 Google, Inc., Netflix, Microsoft Corp.

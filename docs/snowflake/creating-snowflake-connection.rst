@@ -1,4 +1,4 @@
-Creating Snowflake Connection
+Create Snowflake Connection
 =============================
 
 In order to read from or write to Snowflake, we need to first create a Snowflake Connection in Fire Insights.

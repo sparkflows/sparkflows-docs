@@ -10,7 +10,7 @@ This documentation provides how-to guidance and reference information for data a
 Fire Insights provides the following features:
 
 * Connect to various data source
-* Perform ETL/Data Preparation
+* Perform ETL and Data Preparation
 * Profile and Clean Data
 * Measure Data Quality
 * Build ML Models using various ML engines

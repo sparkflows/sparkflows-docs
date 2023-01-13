@@ -1,4 +1,4 @@
-Install JDBC Drivers
+Install JDBC Drivers for Workflows
 =======================
 
 Fire Insights has JDBC Processors for reading data from JDBC sources or writing to JDBC sinks.

@@ -1,4 +1,4 @@
-Linux and MacOSX Installation
+Linux Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.
@@ -18,7 +18,7 @@ Supported Linux Versions
   - RHEL : 8+
 
 
-Below are required for installing Sparkflows on Mac or Linux machine::
+Below are required for installing Sparkflows on Linux machine::
 
   - JDK 1.8+ installed.
   - java and jar have to be in the PATH
@@ -69,13 +69,6 @@ Install OpenJDK8 JDK using yum
   yum -y update
   yum install java-1.8.0-openjdk-devel
 
-Installing JDK on Mac
-+++++++++++++++++
-
-- Download the ``DMG`` file
-- Install it by double clicking on it
-- Installing using ``brew``
-
 
 References
 ----------
@@ -86,7 +79,7 @@ References
 
 
 
-Quick Installation Steps of Fire with H2 DB
+Quick Installation Steps of Fire with H2 Database
 ===========================================
 
 * Download the fire ``TGZ`` file from:
@@ -99,7 +92,7 @@ Quick Installation Steps of Fire with H2 DB
 
     tar xvf fire-x.y.z.tgz
 
-* Create H2 DB::
+* Create H2 Database::
 
       cd <fire install_dir>
       ./create-h2-db.sh
@@ -142,7 +135,7 @@ Detailed Installation Steps
 
 * Set up H2 or MySQL DB
 
-  Sparkflows can be configured to run with H2 DB or MySQL. H2 DB is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
+  Sparkflows can be configured to run with H2 Database or MySQL. H2 Database is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
     
    
 * Launch Fire server::

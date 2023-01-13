@@ -13,7 +13,7 @@ Fire Insights deployment architecture on ECS Fargate would look like below:
 
 
 1. Fire Insights tasks running on ECS Fargate containers.
-2. Metadata is stored in RDS MySql instance.
-3. In web interface, create workflows, pipelines etc. with interactive execution.
+2. Metadata is stored in RDS MySQL instance.
+3. Via the web interface, create workflows, pipelines with interactive execution.
 4. User can browse the S3 and Hive tables.
-5. Execute the worfklows and pipelines on EMR Cluster through Livy/Airflow and also on EKS.
+5. Execute the workflows and pipelines on EMR Cluster through Livy/Airflow and also on EKS.

@@ -1,7 +1,7 @@
-Reading from Big Query
+Read from Big Query
 ============
 
-Fire Insights has processor for reading from Big Query Tables.
+Fire Insights has processor to read from Big Query Tables.
 
 1. Create a new workflow
 ++++++++++++++++++++++++++++++++

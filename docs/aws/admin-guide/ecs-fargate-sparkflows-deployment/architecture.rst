@@ -1,7 +1,7 @@
 Overivew and Architecture
 =========================
 
-Fire Insights deployment on ECS Fargate can be understood with the help of following image:
+Fire Insights deployment architecture on ECS Fargate would look like below:
 
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/Sparklfows_ECS_Fargate.png

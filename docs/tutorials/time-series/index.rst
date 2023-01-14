@@ -1,6 +1,8 @@
 Time Series
 ==========
 
+Time series machine learning is the application of machine learning techniques to time series data. Time series data is a sequence of data points collected at regular intervals over time. There are several machine learning methods that can be used for time series forecasting
+
 .. panels::
     :container: container-lg pb-3
 

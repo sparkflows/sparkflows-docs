@@ -3,7 +3,6 @@ Linux Installation
 
 Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.
 
-If Sparkflows needs to be connected to a Spark Cluster, install it on an edge node of the cluster. The edge node would have the hadoop binaries and spark configs which will be picked up while submitting the jobs.
 
 Prerequisites
 =============

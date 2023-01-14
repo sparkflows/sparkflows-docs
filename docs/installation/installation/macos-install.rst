@@ -1,4 +1,4 @@
-MacOSX Installation
+MacOS Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.
@@ -6,12 +6,12 @@ Sparkflows can run independently on a machine since we package Apache Spark alon
 Prerequisites
 =============
 
-Supported MacOS X Versions
+Supported MacOS Versions
 -------------------------
 
 ::
 
-  - MacOSX released not older than 1 year is supported
+  - MacOS released not older than 1 year is supported
 
 
 Below are required for installing Sparkflows on Mac::

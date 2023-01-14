@@ -29,7 +29,6 @@ Below are required for installing Sparkflows on Linux machine::
 If Sparkflows would be connected to an Apache Spark Cluster::
 
   - Spark 2.X is needed on the cluster
-  - Sparkflows has to be installed on an Edge node of the Spark Cluster
 
 
 If using Python and PySpark (optional) ::

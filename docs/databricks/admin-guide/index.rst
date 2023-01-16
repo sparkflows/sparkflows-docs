@@ -1,60 +1,60 @@
 
-Databricks Integration Guide
+Databricks Admin Guide
 =========
 
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/databricks/databricks-prerequisites`
+    :doc:`/databricks/admin-guide/databricks-prerequisites`
 
     Pre-requisites for databricks integration.
 
     ---
     
-    :doc:`/databricks/databricks-library`
+    :doc:`/databricks/admin-guide/databricks-library`
 
     Fire Download files for databricks
 
     ---
     
-    :doc:`/databricks/databricks-installation`
+    :doc:`/databricks/admin-guide/databricks-installation`
 
     Steps to integrate fire insights with databricks
 
     ---
     
-    :doc:`/databricks/databricks-python-installation`
+    :doc:`/databricks/admin-guide/databricks-python-installation`
 
     Steps to submit a python job to a databricks cluster using fire insights.
 
     ---
     
-    :doc:`/databricks/databricks-connections`
+    :doc:`/databricks/admin-guide/databricks-connections`
 
     Configuring your databricks connection.
 
     ---
     
-    :doc:`/databricks/databricks-h2o`
+    :doc:`/databricks/admin-guide/databricks-h2o`
 
     Running an h2o job on databricks.
 
     ---
     
-    :doc:`/databricks/azure_integration`
+    :doc:`/databricks/admin-guide/azure_integration`
 
     Further azure datalake connectivity information.
 
     ---
 
-    :doc:`/databricks/troubleshooting`
+    :doc:`/databricks/admin-guide/troubleshooting`
 
     Troubleshooting your databricks connection
 
     ---
 
-    :doc:`/databricks/databricks-execute-workflow-json`
+    :doc:`/databricks/admin-guide/databricks-execute-workflow-json`
 
     Executing a workflow on a databricks cluster without fire isights installed.
     
@@ -79,10 +79,3 @@ Databricks Integration Guide
    
    
 
-   
-   
-   
-   
-
-   
-   

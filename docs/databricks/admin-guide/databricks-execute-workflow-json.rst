@@ -6,7 +6,7 @@ The workflows created in Fire Insights can be executed on Databricks without hav
 Architecture diagram
 ----------
 
-.. figure:: ..//_assets/databricks/WorkflowExecution.png
+.. figure:: ../../_assets/databricks/WorkflowExecution.png
    :alt: databricks
    :width: 60%
 

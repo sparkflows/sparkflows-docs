@@ -31,14 +31,14 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
 2. Click on ``Workspace`` in the left side pane
 
 
-.. figure:: ../_assets/configuration/azure_workspace.PNG
+.. figure:: ../../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
    :width: 40%
    
 3. Create a new **Library**
 
  
-.. figure:: ../_assets/configuration/library_create.PNG
+.. figure:: ../../_assets/configuration/library_create.PNG
    :alt: Databricks
    :width: 40%
 
@@ -46,20 +46,20 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
 4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous step by clicking on ``Drop JAR here``
 
 
-.. figure:: ../_assets/configuration/uploadlibrary.PNG
+.. figure:: ../../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
    :width: 40%
    
 5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
 
 
-.. figure:: ../_assets/configuration/createlibrary.PNG
+.. figure:: ../../_assets/configuration/createlibrary.PNG
    :alt: Databricks
    :width: 40%
    
 * Check the box with ``Install automatically on all clusters``, in order to avoid having to install it manually on every cluster.   
 
-.. figure:: ../_assets/configuration/automatic_install.PNG
+.. figure:: ../../_assets/configuration/automatic_install.PNG
    :alt: Databricks
    :width: 40%
 
@@ -73,7 +73,7 @@ Configure the path of the uploaded fire core jar library in Databricks in Fire I
 This has to be done under Administration/Configuration.
 
 
-.. figure:: ../_assets/configuration/databricks_configuration.PNG
+.. figure:: ../../_assets/configuration/databricks_configuration.PNG
    :alt: Databricks
    :width: 40%
    
@@ -83,7 +83,7 @@ Configure app.postMessageURL in Fire Insights
 
 Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
 
-.. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
+.. figure:: ../../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Postback URL
    :width: 40%
 
@@ -99,35 +99,35 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 2. Click on ``Account`` icon in right corner top
 
 
-.. figure:: ../_assets/configuration/usersetting.PNG
+.. figure:: ../../_assets/configuration/usersetting.PNG
    :alt: Databricks
    :width: 30%
    
 3. Click on ``User Settings``
 
 
-.. figure:: ../_assets/configuration/userset.PNG
+.. figure:: ../../_assets/configuration/userset.PNG
    :alt: Databricks
    :width: 30%
 
 4. Click on ``Generate New Token``
 
 
-.. figure:: ../_assets/configuration/generatetoken.PNG
+.. figure:: ../../_assets/configuration/generatetoken.PNG
    :alt: Databricks
    :width: 40%
 
 5. Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
 
 
-.. figure:: ../_assets/configuration/token_update.PNG
+.. figure:: ../../_assets/configuration/token_update.PNG
    :alt: Databricks
    :width: 40%
 
 6. Copy the token generated. Click on ``DONE``
 
 
-.. figure:: ../_assets/configuration/token_generated.PNG
+.. figure:: ../../_assets/configuration/token_generated.PNG
    :alt: Databricks
    :width: 40%
 
@@ -175,7 +175,7 @@ It can also be created by any user with their Application. In this case, it is o
      - Add Jdbc Url for Databricks Connection
      
 
-.. figure:: ../_assets/configuration/connection_databricks.PNG
+.. figure:: ../../_assets/configuration/connection_databricks.PNG
    :alt: Databricks Connection
    :width: 40%
 

@@ -1,5 +1,5 @@
 
-MACRO Usage
+Airflow MACRO Usage
 -------------------
 
 A macro is a variable that can be expanded into a string at runtime. Macros allow for dynamic template generation and can be used to insert values into the SQL code for a ``SQLOperator`` or the command for a ``BashOperatorAirflow``. 

@@ -39,7 +39,7 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    
    :doc:`/installation/installation/windows-laptop-desktop-installer`
    
-   Sparkflows Installer for Windows laptop and desktops
+   Sparkflows Installer for Windows Laptop and Desktops
    
    ---
    

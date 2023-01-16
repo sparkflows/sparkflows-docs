@@ -26,7 +26,7 @@ Below is the flow of execution:
   * Once all the files for the date is written to the appropriate folder, a _SUCCESS files is written into it.
 * The availability of ``_SUCCESS`` file triggers an event which is sent to a configured SQS queue.
 * Once the event reaches SQS, it triggers an AWS Lambda.
-* The AWS Lambda uses the Fire Insights REST API(http://docs.sparkflows.io/en/latest/rest-api-reference/workflow.html#execute) to execute a Workflow to process the new incoming files in the AWS S3 bucket.
+* The AWS Lambda uses the Fire Insights REST API (http://docs.sparkflows.io/en/latest/rest-api-reference/workflow.html#execute) to execute a workflow to process the new incoming files in the AWS S3 bucket.
 * If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue) to be appropriately handled.
 
 
@@ -37,7 +37,7 @@ Create an SQS Queue to receive the events from S3 and to trigger the AWS Lambda 
 
 Below, we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``.
 
-It has the premissions as shown below in order to receive the messages from S3 bucket and  to invoke the AWS Lambda function.
+It has the premissions as shown below in order to receive the messages from S3 bucket and to invoke the AWS Lambda function.
 
 .. figure:: ../../_assets/aws/file-watcher-sqs-queue-1.png
    :alt: SQS Queue
@@ -51,7 +51,7 @@ It has the premissions as shown below in order to receive the messages from S3 b
 Configure AWS S3 bucket to generate events
 ------------------------------------------
 
-Configure the AWS S3 bucket to send events for the new files received in to AWS SQS queue.
+Configure the AWS S3 bucket to send events for the new files received into AWS SQS queue.
 
 Then, it looks for the new files with prefix of ``events`` with the suffix ``_SUCCESS``. It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
 
@@ -65,7 +65,7 @@ Then, it looks for the new files with prefix of ``events`` with the suffix ``_SU
 Create the AWS Lambda function
 ------------------------------
 
-Create the AWS Lambda function to take the SQL Event and kick off the workflow in Fire Insights. This workflow would process the new files which arrived.
+Create the AWS Lambda function to take the SQL Event and begin the workflow in Fire Insights. This workflow would process the newly arrived files.
 
 First create an IAM role. An example is shown below.
 

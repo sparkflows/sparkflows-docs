@@ -2,9 +2,9 @@
 MACRO Usage
 -------------------
 
-Airflow Macros can be used in sparkflows pipelines. 
+A macro is a variable that can be expanded into a string at runtime. Macros allow for dynamic template generation and can be used to insert values into the SQL code for a ``SQLOperator`` or the command for a ``BashOperatorAirflow``. 
 
-Any of the predefined Airflow Macros can be specified as listed in the documentation https://airflow.apache.org/macros.html#default-variables
+Macros can be used in sparkflows pipelines. Any of the predefined Airflow Macros can be used as listed in the documentation https://airflow.apache.org/macros.html#default-variables
 
 ``{{ prev_ds_nodash }}`` is an example of specifying a macro inside a value as follows:  ``"s3://fre-sample-data/ouput/outputIngestion/dt={{ prev_ds_nodash }}".``
 

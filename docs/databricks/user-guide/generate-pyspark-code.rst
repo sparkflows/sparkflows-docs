@@ -12,7 +12,7 @@ Login to Fire Insights application and Enable Auto Pyspark Code Generation from 
 
 Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'module.enableAutoPysparkCodeGeneration' and make it to 'true', by default it will be false. 
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/1.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
    :alt: Pyspark code generate
    :width: 70%
 
@@ -23,19 +23,19 @@ Now once the Configuration is enable for Generating Pyspark Code.
 
 Create an example workflow using spark engine and saved it.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/2.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/2.PNG
    :alt: Pyspark code generate
    :width: 70%
    
 Once the workflow got saved, Go to workflow editor page, Click on the three dot on the top right corner of workflow editor page, you will see option of Generate Pyspark Code, select it.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/3.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/3.PNG
    :alt: Pyspark code generate
    :width: 70%
 
 Once you select option of Generate Pyspark Code, a window will open with Pyspark sample code for the example workflow, copy it and save it into '.py' file.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/4.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/4.PNG
    :alt: Pyspark code generate
    :width: 70%
 
@@ -44,7 +44,7 @@ Upload Generated Pyspark Code in DBFS
 
 Now you have the Generated Pyspark Code in your local system, Upload it into DBFS which is accessible from databricks cluster.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/5.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/5.PNG
    :alt: Pyspark code generate
    :width: 70%
 
@@ -61,7 +61,7 @@ Now once you upload the Generated Pyspark Code in DBFS, you can create Jobs in d
     Parameters : If any
     Advanced options : Add dependency if any
     
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/6.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/6.PNG
    :alt: Pyspark code generate
    :width: 70%    
 
@@ -69,13 +69,13 @@ Once the above parameters got added, Click on Create Button, it will create new 
 
 Now you can Run the job.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/6.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/6.PNG
    :alt: Pyspark code generate
    :width: 70% 
    
 Once the Job Run successfully, you will see the Status of Job as Succeeded.
 
-.. figure:: ..//_assets/user-guide/generate-pyspark-code/7.PNG
+.. figure:: ../../_assets/user-guide/generate-pyspark-code/7.PNG
    :alt: Pyspark code generate
    :width: 70% 
 

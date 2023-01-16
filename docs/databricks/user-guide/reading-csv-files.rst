@@ -15,7 +15,7 @@ The workflow below has a Read CSV node which reads CSV files from DBFS and proce
 
 The path of the file can either be the CSV file itself, or it can be a folder containing many csv files of the same schema.
 
-.. figure:: ../_assets/databricks/csv_file.PNG
+.. figure:: ../../_assets/databricks/csv_file.PNG
    :alt: Databricks
    :width: 60%
 
@@ -30,7 +30,7 @@ The command below shows an example of creating an unmanaged Databricks Table on 
 
 The workflow below uses the Read Databricks Table Node to read in the data from the Databricks table created above.
 
-.. figure:: ../_assets/databricks/databrick_table.PNG
+.. figure:: ../../_assets/databricks/databrick_table.PNG
    :alt: Databricks
    :width: 60%
 
@@ -42,14 +42,14 @@ Fire Insights supports the concept of Datasets. Dataset is the definition of the
 
 Below is the creation of a Dataset on a CSV file.
 
-.. figure:: ../_assets/databricks/data.PNG
+.. figure:: ../../_assets/databricks/data.PNG
    :alt: Databricks
    :width: 60%
 
 The below workflow shows using the Dataset created previously.
 
   
-.. figure:: ../_assets/databricks/dataset.PNG
+.. figure:: ../../_assets/databricks/dataset.PNG
    :alt: Databricks
    :width: 60%   
 

@@ -16,7 +16,7 @@ Then use the other processors in Fire for processing the data read from the Data
 Workflow
 ++++++++
 
-.. figure:: ../_assets/configuration/workflow_databricks.PNG
+.. figure:: ../../_assets/configuration/workflow_databricks.PNG
    :alt: Databricks
    :width: 60%
 
@@ -27,21 +27,21 @@ Processor Configurations for ReadDatabricksTable
 * DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
 
 
-.. figure:: ../_assets/configuration/databricks-editor.PNG
+.. figure:: ../../_assets/configuration/databricks-editor.PNG
    :alt: Databricks
    :width: 80%
 
 Refresh schema for processor ReadDatabricksTable
 ++++++++
  
-.. figure:: ../_assets/configuration/databricks-refreshschema.PNG
+.. figure:: ../../_assets/configuration/databricks-refreshschema.PNG
    :alt: Databricks
    :width: 80% 
 
 Processor executions for ReadDatabricksTable
 ++++++++
 
-.. figure:: ../_assets/configuration/databrcks-interactiveexecutions.PNG
+.. figure:: ../../_assets/configuration/databrcks-interactiveexecutions.PNG
    :alt: Databricks
    :width: 80%
 
@@ -50,7 +50,7 @@ Databricks Workflow execution
 
 Below is the output of executing the above workflow which reads data from a Databricks table.
 
-.. figure:: ../_assets/configuration/databricks-workflowexecutions.PNG
+.. figure:: ../../_assets/configuration/databricks-workflowexecutions.PNG
    :alt: Databricks
    :width: 80%
    

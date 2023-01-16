@@ -6,7 +6,7 @@ Sparkflows supports Pipelines wherein multiple workflows can be chained and run 
 Sparkflows can trigger Pipelines in one of the below listed ways :
 
 1. Run on Compute engine.
-2. Run them via Airflow.
+2. Run via Airflow.
 
 Steps Involved in Configuring Pipeline in Sparkflows:
 

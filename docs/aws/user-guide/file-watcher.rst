@@ -9,7 +9,7 @@ There are many use cases where we have to process the incoming files on S3. This
 Design
 ------
 
-The below diagram captures the high level design:
+The diagram given below captures the high level design:
 
 .. figure:: ../../_assets/aws/file-watcher-1.png
    :alt: File Watcher
@@ -18,26 +18,26 @@ The below diagram captures the high level design:
 
 Below is the flow of execution:
 
-* New files arrives on S3 in the directory location ``/sparklows-file-watcher/raw-data/iot/2019-08-2201``
+* New files arrive on S3 in the directory location ``/sparklows-file-watcher/raw-data/iot/2019-08-2201``.
 
-  * In the above design, all the raw data comes into the directory ``/sparklows-file-watcher/raw-data``
+  * In the above design, all the raw data comes into the directory ``/sparklows-file-watcher/raw-data``.
   * There are various types of raw data which can come.
-  * ``iot`` is one type of raw data coming in. Each day we receive a number of iot files in the folder ``/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd``.
+  * ``iot`` is one type of raw data coming in. Each day, we receive a number of iot files in the folder ``/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd``.
   * Once all the files for that date have been written to the appropriate folder, a _SUCCESS files is written into it.
 * It triggers an event which is sent to a configured SQS queue.
 * Once the event reaches SQS, it triggers an AWS Lambda.
 * The AWS Lambda uses the Fire Insights REST API(http://docs.sparkflows.io/en/latest/rest-api-reference/workflow.html#execute) to execute a workflow to process the new incoming files in the AWS S3 bucket.
-* If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue). It can be further handled from there based on the requirements.
+* If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue) where it can further be handled from there based on the requirements.
 
 
 Create an SQS Queue
 -------------------
 
-Create an SQS Queue for receiving the events from S3 and triggering the AWS Lambda function.
+Create an SQS Queue to receive the events from S3 and to trigger the AWS Lambda function.
 
-Below we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``.
+Below, we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``.
 
-It has the below permissions to receive the messages from S3 bucket and invoke the AWS Lambda function.
+It, already, has the premissions shown below in order to  receive the messages from S3 bucket and  to invoke the AWS Lambda function.
 
 .. figure:: ../../_assets/aws/file-watcher-sqs-queue-1.png
    :alt: SQS Queue
@@ -51,7 +51,7 @@ It has the below permissions to receive the messages from S3 bucket and invoke t
 Configure AWS S3 bucket to generate events
 ------------------------------------------
 
-Configure the AWS S3 bucket to send events for the new files coming in to AWS SQS queue.
+Configure the AWS S3 bucket to send events for the new files received in to AWS SQS queue.
 
 Below, it looks for the new files with prefix of ``events`` and suffix of ``_SUCCESS``. It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
 
@@ -69,13 +69,13 @@ Create the AWS Lambda function to take the SQL Event and kick off the workflow i
 
 First create an IAM role. An example is shown below.
 
-We add 3 Environment variables as shown below. These get used by the Lambda functions in this example.
+We add 3 Environment variables as shown below. These are used by the Lambda functions in this example.
 
   * SPARKFLOWS_TOKEN or KMS_ARN
   * SPARKFLOWS_URL
   * WORKFLOW_ID
 
-Instead of the Sparkflows token, users can encrypt the token using KMS and use the kms arn as the Environment variable and decrypt the token using kms inside the Lamdba.
+Instead of the Sparkflows token, users can encrypt the token using KMS and use the KMS ARN as the Environment variable and decrypt the token using KMS inside the Lamdba.
 
    
 .. figure:: ../../_assets/aws/file-watcher-lambda-2.png

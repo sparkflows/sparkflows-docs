@@ -54,7 +54,7 @@ Tutorials
    tutorials/index
 
 
-Databricks Integration
+Databricks Guide
 --------------
 
 .. toctree::
@@ -62,15 +62,7 @@ Databricks Integration
 
    databricks/index
 
-Databricks User Guide
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   databricks-user-guide/index
-
-AWS Integration
+AWS Guide
 --------------
 
 .. toctree::
@@ -78,7 +70,7 @@ AWS Integration
 
    aws/index
  
-Azure Integration
+Azure Guide
 --------------
 
 .. toctree::
@@ -86,7 +78,7 @@ Azure Integration
 
    azure/index
 
-GCP Integration
+GCP Guide
 --------------
 
 .. toctree::
@@ -94,7 +86,7 @@ GCP Integration
 
    gcp/index
  
-Snowflake Integration
+Snowflake Guide
 --------------
 
 .. toctree::
@@ -102,7 +94,7 @@ Snowflake Integration
 
    snowflake/index
 
-Kubernetes Integration
+Kubernetes Guide
 --------------
 
 .. toctree::

@@ -1,42 +1,42 @@
 Data Preparation
 ===========================
 
-Data preparation is the process of cleaning, transforming, and organizing a dataset so that it can be used for further analysis or modeling. The goal of data preparation is to make the data consistent, accurate, and in a format that is suitable for the intended analysis or modeling task.
+Data preparation is the process of cleaning, transforming, and organizing a dataset so that it can be used for further analysis or modeling. The goal of data preparation is to make the data consistent, accurate, and put it in such a format that is suitable for the intended analysis or modeling task.
 
 
 
-Fire Insights provides a capability to perform the most complex data preperation operation via drag and drop.
+Fire Insights provides the capability to perform the most complex data preperation operation via drag and drop.
 
 .. panels::
     :container: container-lg pb-3
 
     :doc:`/user-guide/data-preparation/aggregate`
 
-    Provide processors that show aggregates for combinations of values in the selected columns.
+    Provides processors that show aggregates for combinations of values in the selected columns.
 
     ---
 
     :doc:`/user-guide/data-preparation/data-cleaning`
 
-    Provide powerful capabilities for data cleanup.
+    Provides powerful capabilities for data cleanup.
 
     ---
 
     :doc:`/user-guide/data-preparation/join-union`
 
-    Provide processors for performing Joins and Unions.
+    Provides processors for performing Joins and Unions.
 
     ---
 
     :doc:`/user-guide/data-preparation/filter`
 
-    Provide processors for filtering columns and rows.
+    Provides processors for filtering columns and rows.
 
     ---
 
     :doc:`/user-guide/data-preparation/impute`
 
-    Provide processors for Imputing data.
+    Provides processors for Imputing data.
 
     ---
 
@@ -48,25 +48,25 @@ Fire Insights provides a capability to perform the most complex data preperation
 
     :doc:`/user-guide/data-preparation/datetime`
 
-    Provide processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
+    Provides processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
 
     ---
 
     :doc:`/user-guide/data-preparation/parse`
 
-    Provide processors that parse the values of the selected columns.
+    Provides processors that parse the values of the selected columns.
 
     ---
 
     :doc:`/user-guide/data-preparation/split`
 
-    Provide processors that split incoming datasets into multiple outgoing datasets.
+    Provides processors that split incoming datasets into multiple outgoing datasets.
 
     ---
 
     :doc:`/user-guide/data-preparation/addcolumn`
 
-    Provide processors that add columns to incoming datasets.
+    Provides processors that add columns to incoming datasets.
 
     ---
 

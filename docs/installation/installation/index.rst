@@ -21,13 +21,13 @@ Fire Insights can be installed using the Installer or by downloading the tgz fil
    
    :doc:`/installation/installation/linux-install`
    
-   Sparkflows Installation on Linux and Mac
+   Sparkflows Installation on Linux
    
    ---
       
    :doc:`/installation/installation/macos-install`
    
-   Sparkflows Installation on Linux and Mac
+   Sparkflows Installation on MacOS
    
    ---
    

@@ -67,7 +67,7 @@ Create the AWS Lambda function
 
 Create the AWS Lambda function to take the SQL Event and begin the workflow in Fire Insights. This workflow would process the newly arrived files.
 
-First create an IAM role. An example is shown below.
+Firstly, create an IAM role. An example is shown below.
 
 We add 3 Environment variables as shown below. These are used by the Lambda functions in this example.
 

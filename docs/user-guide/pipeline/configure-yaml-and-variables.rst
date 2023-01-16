@@ -1,13 +1,13 @@
-Configure Yaml files and Variables
+Configure YAML files and Variables
 ==================================
 
 
-Sparkflows provides a node named ``addYamlConfiguration`` using which yaml configuration files and variables can be configured. Those variables can be accessed in the pipeline nodes. Sparkflows Airflow DAG generator takes care of substituing the values of the variables.
+Sparkflows provides a node named ``addYamlConfiguration`` using which YAML configuration files and variables can be configured. These variables can be accessed in the pipeline nodes. Sparkflows Airflow DAG generator takes care of substituing the values of the variables.
 
-Yaml File Configuration
+YAML File Configuration
 ----------------------
 
-1. In ``configFilePath`` field, add the names of the config yaml files.
+1. In ``configFilePath`` field, add the names of the config YAML files.
 
 2. In ``airflowConfigKey`` field, add the variable key name defined in airflow.The variables from airflowConfigKey gets the higher precedence.
 
@@ -21,9 +21,9 @@ Yaml File Configuration
    :width: 30%
    
    
-**Below is an example of yaml file and variables:**
+**Below is an example of YAML file and variables:**
 
-**Yaml file example :**
+**YAML file example :**
 
 
 .. code-block:: bash
@@ -83,6 +83,4 @@ The variables defined below are ``ENV``, ``INPUTPATH``, ``OUTPUTPATH`` and ``cus
    :alt: airflow variables
    :width: 30%
   
-To access the fields/variables in the nested yaml, define the parent field as variable in the airflow config as above.
-
-
+To access the fields/variables in the nested YAML, define the parent field as variable in the airflow config as above.

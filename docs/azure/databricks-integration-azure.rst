@@ -31,35 +31,29 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependenc
       :alt: Databricks
       :width: 40%
    
-3. Create a new Library.
+3. Create a Install new Library.
 ++++++++++++++++++++++++++++++++
  
    .. figure:: ../_assets/configuration/library_create.PNG
       :alt: Databricks
       :width: 40%
    
-4. Upload ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here``.
+4. Upload ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here`` or you may upload in ``dbfs``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/uploadlibrary.PNG
       :alt: Databricks
       :width: 40%
    
-5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
+5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Install``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/createlibrary.PNG
       :alt: Databricks
       :width: 40%
-   
-* Check the box with ``Install automatically on all clusters``, in order to avoid installing it manually to every cluster.   
-+++++++++++++++++++++++
-
-   .. figure:: ../_assets/configuration/installautomatic.PNG
-      :alt: Databricks
-      :width: 40%
-   
-   
+ 
+ 
+  
 Configure the Uploaded Library in Fire Insights
 ------------------------------------
 

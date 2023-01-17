@@ -54,7 +54,7 @@ Request a certificate by filling below details::
 Create a Load Balancer
 ------
 
-Create a Load Balancer and configure target group.
+Create a Load Balancer and configure target group which have Fire Insights running on that instance.
 
 .. figure:: ../../_assets/aws/aws-certificate/load_blanacer.PNG
    :alt: aws
@@ -97,4 +97,6 @@ Goto Route 53 to create a record and map to the Load Balancer.
    :alt: aws
    :width: 60%    
    
-  
+Once the above steps got successfully updated, you can login to Domain name with ``HTTPS`` and able to access Fire Insights application.
+
+.. note:: Above steps are validate verified with Fire Insights running on HTTPS on port 8443

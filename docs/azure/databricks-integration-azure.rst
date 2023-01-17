@@ -110,21 +110,21 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 2. Click on ``Account`` icon located in the top right corner.
 ++++++++++++++++++++++++++++++++
 
-.. figure:: ../_assets/configuration/usersetting.PNG
+.. figure:: ../_assets/configuration/user_setting.PNG
    :alt: Databricks
    :width: 40%
    
 3. Click on ``User Settings``.
 ++++++++++++++++++++++++++++++++
 
-.. figure:: ../_assets/configuration/userset.PNG
+.. figure:: ../_assets/configuration/user_setting.PNG
    :alt: Databricks
    :width: 40%
 
 4. Click on ``Generate New Token``.
 ++++++++++++++++++++++++++++++++
 
-.. figure:: ../_assets/configuration/generatetoken.PNG
+.. figure:: ../_assets/configuration/token.PNG
    :alt: Databricks
    :width: 40%
 

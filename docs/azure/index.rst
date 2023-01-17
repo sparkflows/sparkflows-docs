@@ -2,9 +2,9 @@ Azure Guide
 =========
 
 
-Fire Insights is seamlessly integrated with Azure. With Fire Insights you can perform self-serve data processing, analytics and machine learning on Azure.
+Fire Insights is seamlessly integrated with Azure. With Fire Insights, you can perform self-serve data processing, analytics, and machine learning on Azure.
 
-Fire Insights integrates with Azure Databricks, ADLS, HDInsight etc.
+Fire Insights integrates with Azure Databricks, ADLS, HDInsight, etc.
 
 .. panels::
     :container: container-lg pb-3
@@ -12,7 +12,7 @@ Fire Insights integrates with Azure Databricks, ADLS, HDInsight etc.
     
     :doc:`/azure/introduction`
     
-    Introduction to the azure guide
+    Introduction to the Azure guide
     
     ---
     
@@ -24,7 +24,7 @@ Fire Insights integrates with Azure Databricks, ADLS, HDInsight etc.
     
     :doc:`/azure/databricks-integration-azure`
     
-    Itegrating Fire Insights with Azure Databricks Cluster
+    Integrating Fire Insights with Azure Databricks Cluster
     
     ---
     

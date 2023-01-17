@@ -22,3 +22,16 @@ When you want to get a new domain name, such as the example.com part of the URL 
 
 Reference link : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
 
+
+AWS Certificate Manager (ACM)
+----------------
+
+This service is for enterprise customers who need a secure web presence using TLS. ACM certificates are deployed through Elastic Load Balancing, Amazon CloudFront, Amazon API Gateway, and other integrated AWS services. The most common application of this kind is a secure public website with significant traffic requirements.
+
+Request a certificate by filling below details::
+
+
+    Domain names : Fully qualified domain name
+    Validation method : Select a method for validating domain ownership
+    Key algorithm : Key algorithm
+

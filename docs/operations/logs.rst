@@ -42,7 +42,10 @@ Go to Administrations page and select View Server Logs, it will open new windows
 .. figure:: ../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs
    :width: 70%
-   
+
+
+
+
 Logs for Fire Web Server
 +++++
 
@@ -96,10 +99,25 @@ As an administrator, the logs can be viewed from UI. Once you login using Fire I
 .. figure:: ../_assets/operating/operations/fire-logs.PNG
    :alt: connection
    :width: 60%
+
+.. figure:: ../_assets/configuration/logs/fire_log.PNG
+   :alt: Logs
+   :width: 70%
+
+
    
 Logs for Fire Pyspark engine
 -----
 
+The logs for Fire PySpark engine go into "pyspark.log".
+
+As an Administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+
+
+.. figure:: ../_assets/operating/operations/fire-pyspark-logs.PNG
+   :alt: connection
+   :width: 60%
+   
 Pyspark Logs:
 
 ::
@@ -110,48 +128,14 @@ Pyspark Logs:
 .. figure:: ../_assets/configuration/logs/pyspark-log.PNG
    :alt: Logs
    :width: 70%
-   
-Logs for Fire PySpark Engine
---------------------
-
-The logs for Fire PySpark engine go into "pyspark.log".
-
-As an Administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
-
-
-.. figure:: ../_assets/operating/operations/fire-pyspark-logs.PNG
-   :alt: connection
-   :width: 60%
-
-.. note:: You can view the logs by login to Fire Insights server as well.
-   
-
-
-
-Logs from UI
-----------
-
-You can view the logs from UI if you have admin access.
-
-Below are steps involved in it:
-
-Go to Administrations page and select View Server Logs, it will open new windows which display all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
-
-.. figure:: ../_assets/configuration/logs/fireserver_log.PNG
-   :alt: Logs
-   :width: 70%
-
-.. figure:: ../_assets/configuration/logs/fire_log.PNG
-   :alt: Logs
-   :width: 70%
 
 .. figure:: ../_assets/configuration/logs/pyspark_log.png
    :alt: Logs
    :width: 70%
+  
 
-
-
-
+.. note:: You can view the logs by login to Fire Insights server as well.
+   
 
 
 

@@ -71,6 +71,12 @@ AWS Admin Guide
     
     Spakflows deployment on ecs fargate
     
+    ---
+    
+    :doc:`/aws/admin-guide/configuring-aws-certificate`
+    
+    Setting up Certificate on AWS 
+    
 .. toctree::
    :hidden:
 
@@ -85,5 +91,6 @@ AWS Admin Guide
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
    ecs-fargate-sparkflows-deployment/index.rst
+   configuring-aws-certificate.rst
    
    

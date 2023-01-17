@@ -3,7 +3,7 @@ PySpark Configuration
 
 Sparkflows can be configured to use the PySpark engine and create workflow using it.
 
-Login to Sparkflows webserver URL and go inside ''ADMINISTRATIONS -->> Configurations'' and update following parameters:
+Login to Sparkflows webserver URL and goto ``ADMINISTRATIONS`` -> ``Configurations`` and update following parameters:
 
 ::
 

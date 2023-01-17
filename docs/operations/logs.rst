@@ -43,7 +43,22 @@ Go to Administrations page and select View Server Logs, it will open new windows
    :alt: Logs
    :width: 70%
    
-   
+
+Changing the Various Logging Levels
+++++++++++++++++++++++++++++++++++++++++
+
+You can change the logging levels to ``debug`` mode by updating "conf/logback-spring.xml" file using the below and restart the Fire server:
+
+::
+
+    <!-- LOG "org.springframework.web" at ERROR level -->
+    <logger name="org.springframework.web" level="DEBUG"
+        additivity="false">
+    <appender-ref ref="RollingFile" />
+    <appender-ref ref="Console" />
+    <appender-ref ref="SevereRollingFile" />
+    </logger>
+    
 Logs for Fire Scala Engine
 --------
 
@@ -108,20 +123,6 @@ Go to Administrations page and select View Server Logs, it will open new windows
    :width: 70%
 
 
-Changing the Various Logging Levels
-++++++++++++++++++++++++++++++++++++++++
-
-You can change the logging levels to ``debug`` mode by updating "conf/logback-spring.xml" file using the below and restart the Fire server:
-
-::
-
-    <!-- LOG "org.springframework.web" at ERROR level -->
-    <logger name="org.springframework.web" level="DEBUG"
-        additivity="false">
-    <appender-ref ref="RollingFile" />
-    <appender-ref ref="Console" />
-    <appender-ref ref="SevereRollingFile" />
-    </logger>
 
 Logs for Fire Engine
 --------------------

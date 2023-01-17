@@ -8,9 +8,7 @@ Configuration
    connecting-spark-cluster.rst
    customizing/index
    configuration-pyspark.rst
-   configuring-https-fire-server.rst
-   https-self-signed-certificate.rst
-   configuring-https-fire.rst
+   https/index
    running-different-port.rst
    yarn-configuration.rst
    configuring-kerberos.rst

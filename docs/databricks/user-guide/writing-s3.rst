@@ -11,7 +11,7 @@ In the dialog box of the save CSV processor, the path is specified as ``s3a://fi
 
 .. figure:: ../../_assets/aws/workflow_csvs3.PNG
    :alt: S3 Workflow
-   :width: 100%
+   :width: 60%
 
 Browse S3 specified Path & other parameters for processor SaveCSV like below:
 

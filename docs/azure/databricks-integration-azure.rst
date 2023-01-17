@@ -90,7 +90,7 @@ You can download the Databricks JDBC Driver from the Databricks website :
 The driver is available as a zip file e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
 
 * Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``.
-* Copy the JDBC jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``.
+* Copy the JDBC jar file named ``SparkJDBC41.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``.
 
 
 Create your REST API token in Databricks

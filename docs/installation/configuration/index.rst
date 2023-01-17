@@ -19,7 +19,6 @@ Configuration
    authentication/index   
    databricks-integration.rst
    mapr-specific-details.rst
-   upgrading.rst
    running-spark-standalone.rst
    Python-integration.rst
    running-as-service.rst

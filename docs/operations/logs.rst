@@ -17,7 +17,7 @@ Fire server Logs:
     cd fire-x.y.z/logs/
     Search for fireserver.logs, where you can view fireserver logs.
     
-.. figure:: ../../_assets/configuration/logs/fireserver-log.PNG
+.. figure:: ../_assets/configuration/logs/fireserver-log.PNG
    :alt: Logs
    :width: 70%
    
@@ -29,7 +29,7 @@ Fire Logs:
     cd cd fire-x.y.z
     Search for fire.logs
     
-.. figure:: ../../_assets/configuration/logs/fire-log.PNG
+.. figure:: ../_assets/configuration/logs/fire-log.PNG
    :alt: Logs
    :width: 70%
    
@@ -40,7 +40,7 @@ Pyspark Logs:
     cd cd fire-x.y.z
     Search for pyspark.logs
 
-.. figure:: ../../_assets/configuration/logs/pyspark-log.PNG
+.. figure:: ../_assets/configuration/logs/pyspark-log.PNG
    :alt: Logs
    :width: 70%
    
@@ -54,14 +54,14 @@ Below are steps involved in it:
 
 Go to Administrations page and select View Server Logs, it will open new windows which display all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
 
-.. figure:: ../../_assets/configuration/logs/fireserver_log.PNG
+.. figure:: ../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs
    :width: 70%
 
-.. figure:: ../../_assets/configuration/logs/fire_log.PNG
+.. figure:: ../_assets/configuration/logs/fire_log.PNG
    :alt: Logs
    :width: 70%
 
-.. figure:: ../../_assets/configuration/logs/pyspark_log.png
+.. figure:: ../_assets/configuration/logs/pyspark_log.png
    :alt: Logs
    :width: 70%

@@ -1,4 +1,4 @@
-Configure Tesseract
+Install Tesseract Data Files
 =====================
 
 In order to run Tesseract, perform the below installation steps:

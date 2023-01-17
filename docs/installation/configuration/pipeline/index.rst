@@ -1,4 +1,4 @@
-Pipeline / Airflow
+Configuring Pipeline / Airflow
 -----------------------------
 
 Below are the details of Configuring Fire for Pipelines with Airflow:

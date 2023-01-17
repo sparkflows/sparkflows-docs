@@ -50,3 +50,36 @@ Request a certificate by filling below details::
 .. figure:: ../../_assets/aws/aws-certificate/request_details_3.PNG
    :alt: aws
    :width: 60%      
+
+Create a Load Balancer
+------
+
+Create a Load Balancer and configure target group.
+
+.. figure:: ../../_assets/aws/aws-certificate/load_blanacer.PNG
+   :alt: aws
+   :width: 60%
+
+.. figure:: ../../_assets/aws/aws-certificate/load_app.PNG
+   :alt: aws
+   :width: 60%
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_confugurations.PNG
+   :alt: aws
+   :width: 60%  
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_configuration_1.PNG
+   :alt: aws
+   :width: 60%    
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_target.PNG
+   :alt: aws
+   :width: 60%   
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_target_configure.PNG
+   :alt: aws
+   :width: 60%  
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_target_instance.PNG
+   :alt: aws
+   :width: 60%     

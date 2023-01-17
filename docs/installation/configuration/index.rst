@@ -10,9 +10,9 @@ Configuration
    configuration-pyspark.rst
    configuring-https-fire-server.rst
    https-self-signed-certificate.rst
+   configuring-https-fire.rst
    running-different-port.rst
    yarn-configuration.rst
-   configuring-https-fire.rst
    configuring-kerberos.rst
    pipeline/index
    different-default-values-startup.rst

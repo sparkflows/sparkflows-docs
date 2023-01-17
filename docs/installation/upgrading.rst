@@ -1,4 +1,4 @@
-Upgrading Fire
+Upgrading
 ==============
 
 Stop Fire Server

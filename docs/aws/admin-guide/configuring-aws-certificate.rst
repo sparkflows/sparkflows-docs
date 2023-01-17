@@ -97,6 +97,6 @@ Goto Route 53 to create a record and map to the Load Balancer.
    :alt: aws
    :width: 60%    
    
-Once the above steps got successfully updated, you can login to Domain name with ``HTTPS`` and able to access Fire Insights application.
+Once the above steps got successfully updated, you can login to Domain name with ``HTTPS`` and able to access Fire Insights application running on target instance.
 
 .. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is by default.

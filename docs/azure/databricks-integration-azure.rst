@@ -154,6 +154,7 @@ It can also be created by any user with their Application. In this case, it is o
    :alt: Databricks Connection
    :width: 40%
 
+Reference Link : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

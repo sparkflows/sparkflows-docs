@@ -3,11 +3,11 @@ Azure Databricks Integration Steps
 
 Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. In addition Fire displays the list of Databricks clusters running for the user.
+Fire also fetches the list of databases and tables from Databricks, making it easier for the user to build their workflows and execute them. In addition, Fire displays the list of Databricks clusters running for the user.
 
 * Running Databricks on Azure : https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal
 
-Below are the steps for Integrating Fire Insights with your Databricks Clusters.
+Below are the steps for integrating Fire Insights with your Databricks Clusters:
 
 Install Fire Insights
 -----------
@@ -21,31 +21,31 @@ Upload Fire Insights jar to Databricks. Fire Insights jobs running on Databricks
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
-1. Login to ``Databricks Cluster``
+1. Login to ``Databricks Cluster``.
 ++++++++++++++++++++++++++++++++
 
-2. Click on ``workspace`` in the left side pane
+2. Click on ``Workspace`` in the left side pane.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/azure_workspace.PNG
       :alt: Databricks
       :width: 40%
    
-3. Create a new Library
+3. Create a new Library.
 ++++++++++++++++++++++++++++++++
  
    .. figure:: ../_assets/configuration/library_create.PNG
       :alt: Databricks
       :width: 40%
    
-4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here``
+4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/uploadlibrary.PNG
       :alt: Databricks
       :width: 40%
    
-5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``
+5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/createlibrary.PNG
@@ -88,15 +88,15 @@ Install Databricks JDBC Driver
 
 Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` and ``fire-server-lib`` folder of the Fire installation.
 
-You can download the Databricks JDBC Driver from the Databricks site : 
+You can download the Databricks JDBC Driver from the Databricks website : 
 
 * https://docs.databricks.com/bi/jdbc-odbc-bi.html
 * https://databricks.com/spark/odbc-driver-download
 
-The driver is available as a zip file. eg: ``SimbaSparkJDBC-2.6.3.1003.zip``
+The driver is available as a zip file e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
 
-* Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``
-* Copy the jdbc jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``
+* Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``.
+* Copy the JDBC jar file named ``SparkJDBC4.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``.
 
 
 Create your REST API token in Databricks
@@ -104,38 +104,38 @@ Create your REST API token in Databricks
 
 Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
 
-1. Login to your Databricks Account
+1. Login to your Databricks Account.
 ++++++++++++++++++++++++++++++++
 
-2. Click on ``Account`` icon in right corner top
+2. Click on ``Account`` icon located in the top right corner.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/usersetting.PNG
    :alt: Databricks
    :width: 40%
    
-3. Click on ``User Settings``
+3. Click on ``User Settings``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/userset.PNG
    :alt: Databricks
    :width: 40%
 
-4. Click on ``Generate New Token``
+4. Click on ``Generate New Token``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/generatetoken.PNG
    :alt: Databricks
    :width: 40%
 
-5. Add ``comment`` & ``Lifetime(days)`` for token expiry & Click on ``Generate``
+5. Add ``Comment`` & ``Lifetime(days)`` for token expiry & click on ``Generate``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_update.PNG
    :alt: Databricks
    :width: 40%
 
-6. Copy the token generated. Click on ``DONE``
+6. Copy the token generated. Click on ``DONE``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_generated.PNG
@@ -161,9 +161,9 @@ It can also be created by any user with their Application. In this case, it is o
    :width: 40%
 
 
-Now we are ready to start using the Databricks Connection in Fire Insights to:
+Now, we are ready to start using the Databricks Connection in Fire Insights to:
 
-* Browse DBFS
-* View your Databricks Clusters
-* Browse your Databricks Databases & Tables
-* Create Workflows which Read from and Write to Databricks
+* Browse DBFS.
+* View your Databricks Clusters.
+* Browse your Databricks Databases & Tables.
+* Create Workflows which Read from and Write to Databricks.

@@ -5,7 +5,9 @@ Download Fire Core Jar and Fire Python wheel file from the below location and in
 
 
 * Fire Core Jar Download Link:
-   - https://sparkflows-release.s3.amazonaws.com/fire/common/fire-spark_2.4-core-3.1.0-jar-with-dependencies.jar
+   - Download the fire TGZ file from:
+     - https://www.sparkflows.io/download OR
+     - https://www.sparkflows.io/archives
    
 * Fire Python wheel file Download Link:
    - https://sparkflows-release.s3.amazonaws.com/fire/common/fire-3.1.0-py3-none-any.whl

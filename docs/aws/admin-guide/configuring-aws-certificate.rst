@@ -35,3 +35,18 @@ Request a certificate by filling below details::
     Validation method : Select a method for validating domain ownership
     Key algorithm : Key algorithm
 
+.. figure:: ../../_assets/aws/aws-certificate/request_certificate.PNG
+   :alt: aws
+   :width: 60%
+   
+.. figure:: ../../_assets/aws/aws-certificate/request_details_1.PNG
+   :alt: aws
+   :width: 60%  
+   
+.. figure:: ../../_assets/aws/aws-certificate/request_details_2.PNG
+   :alt: aws
+   :width: 60%   
+   
+.. figure:: ../../_assets/aws/aws-certificate/request_details_3.PNG
+   :alt: aws
+   :width: 60%      

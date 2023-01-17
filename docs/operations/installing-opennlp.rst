@@ -1,4 +1,4 @@
-Configure Apache OpenNLP Model Jars
+Install Apache OpenNLP Model Jars
 =====================
 
 When running locally

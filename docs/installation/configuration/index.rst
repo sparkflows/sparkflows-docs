@@ -18,7 +18,6 @@ Configuration
    different-default-values-startup.rst
    authentication/index   
    databricks-integration.rst
-   mapr-specific-details.rst
    running-spark-standalone.rst
    Python-integration.rst
    running-as-service.rst

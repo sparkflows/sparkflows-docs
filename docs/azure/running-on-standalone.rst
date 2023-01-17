@@ -6,13 +6,13 @@ Fire Insights can be easily installed on an Azure Standalone VM.
 Prerequisite
 -------------
 
-* java 8 should be installed 
-* if you do not already have it, Need to install
-- Download it from below link::
+* Java 8 should be installed. 
+* Please install Java 8 if it has not been pre-installed on your machine.
+- Download Java 8 from the link given below: ::
 
    https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
   
-- Install using below command (Centos):: 
+- Install it using the command (Centos) given below: :: 
    
    yum localinstall jdk-8uxxx-linux-x64.rpm
  
@@ -22,8 +22,8 @@ Prerequisite
 
 Below are the overall steps for installing Fire Insights on VM.
 
-- *ssh into the Azure VM*
-- *Download Fire Insights* from https://www.sparkflows.io/download
+- *SSH into the Azure VM*
+- *Download Fire Insights* from the link provided here: https://www.sparkflows.io/download
 - *Unzip it*
 - *Create H2 Database*
 - *Start Fire*
@@ -33,29 +33,29 @@ Steps
 
 * Create a VM on Azure::
 
-    Create a vm if you do not already have it running.
+    Create a VM, if you do not already have it running.
 
 * Update the inbound rule ::
 
-    - ssh port ie 22 should be accessible to ssh to Azure VM.
-    - We would have Fire listening on ports 8080, so just ensure its opened.
+    - SSH port i.e. 22 should be accessible to SSH to Azure VM.
+    - Fire would listen on port 8080, so ensure that it is opened.
     
 
-* ssh into the VM::
+* SSH into the VM::
 
     ssh -i my.pem userp@public ip.
     
-* Confirm that java 8 is already installed, if not follow above steps to install it::
+* Ensure that java 8 is already installed, if not, follow the above steps to install it. ::
 
     java -version
 
-* Download the fire tgz file by one of the following options:
+* Download the fire tgz file by any of the following links:
 
   * https://www.sparkflows.io/download    
        OR   
   * https://www.sparkflows.io/archives
        OR
-  * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
+  * wget **https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz**
   
   
 * Unpack it::
@@ -63,7 +63,7 @@ Steps
     tar xvf fire-x.y.z.tgz
 
 
-* Create H2 DB::
+* Create H2 Database::
 
     Fire stores its metadata into the embedded H2 database. You can also connect it to an external MySQL database.
 
@@ -81,16 +81,16 @@ Steps
 
 * Login with the following default username and password. Fire Insights by default comes with 2 users:: 
 
-    username : admin password : admin
-    username : test password : test
+    Username : admin Password : admin
+    Username : test Password : test
    
    
 Loading Example Workflows
 -------------------------
 
-* From the home page of Fire Insights, click on ***Load Example Applications***
+* From the home page of Fire Insights, click on ***Load Example Applications***.
 
-* Upload the Fire examples data with default or if data is available at anyother location, point to that location::
+* Upload the Fire examples data with default or if data is available at any other location, point to that location. ::
 
        
 Install and Start Running Example Workflows
@@ -98,7 +98,7 @@ Install and Start Running Example Workflows
 
 * Start off with executing the example workflows::
 
-    - Fire comes pre-packaged with a number of example workflows, you can start executing.
+    - Fire comes pre-packaged with a number of example workflows, you can start executing these workflows.
     
     
 

@@ -1,28 +1,28 @@
-Configuring https on AWS
+Configure HTTPS on AWS
 ================================
 
-Fire Insights can be Configured with https on AWS, when running on ec2 instance.
+Fire Insights can be Configured with HTTPS on AWS, when running on EC2 instance.
 
-With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You use ACM to create or import and then manage a certificate.
+With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You  can use ACM to create or import and then manage a certificate.
 
-Pre-requisite
+Prerequisite
 --------
 
 You need to have:
 
-1. AWS account with required access to the resources
-2. Register Domain names
-3. Load Balancer
-4. Route 53
+1. AWS account with required access to the resources.
+2. Registered Domain names.
+3. Load Balancer.
+4. Route 53.
 
 Register Domain names
 ------------------
 
-A fully qualified domain name (FQDN) is the unique name of an organization or individual on the Internet followed by a top-level domain extension such as .com or .org. If you do not already have a registered domain name, you can register one through Amazon Route 53.
+A fully qualified domain name (FQDN) is the unique name of an organization or individual on the internet followed by a top-level domain extension such as .com or .org. If you do not already have a registered domain name, you can register one through Amazon Route 53.
 
-When you want to get a new domain name, such as the example.com part of the URL http://example.com, you can register it with Amazon Route 53.
+When you want to get a new domain name, such as the example.com  as part of the URL http://example.com, you can register it with Amazon Route 53.
 
-Reference link : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
+For more information please visit the link given here : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
 
 
 AWS Certificate Manager (ACM)
@@ -30,7 +30,7 @@ AWS Certificate Manager (ACM)
 
 This service is for enterprise customers who need a secure web presence using TLS. ACM certificates are deployed through Elastic Load Balancing, Amazon CloudFront, Amazon API Gateway, and other integrated AWS services. The most common application of this kind is a secure public website with significant traffic requirements.
 
-Request a certificate by filling below details::
+Request a certificate by filling the details given below::
 
 
     Domain names : Fully qualified domain name
@@ -89,7 +89,7 @@ Create a Load Balancer and configure target group with Fire Insights running on 
 Create a record and map to the Load Balancer
 -----------------------------------
  
-Goto Route 53 to create a record and map to the Load Balancer.
+Go to Route 53 to create a record and map to the Load Balancer.
 
 .. figure:: ../../_assets/aws/aws-certificate/load_record.PNG
    :alt: aws
@@ -99,6 +99,6 @@ Goto Route 53 to create a record and map to the Load Balancer.
    :alt: aws
    :width: 60%    
    
-Once the above steps got successfully updated, you can login to Domain name with ``HTTPS`` and able to access Fire Insights application running on target instance.
+Once the above steps get successfully updated, you can login to Domain name with ``HTTPS`` and  be able to access Fire Insights application running on  the target instance.
 
 .. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is by default.

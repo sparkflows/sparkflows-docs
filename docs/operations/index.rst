@@ -57,7 +57,8 @@ Operations
     
 .. toctree::
    :hidden:
-   
+ 
+   logs.rst  
    logging.rst
    continuous-integration/index.rst
    regular-maintenance-tasks.rst

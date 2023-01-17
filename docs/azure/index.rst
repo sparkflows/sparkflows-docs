@@ -49,4 +49,6 @@ Fire Insights integrates with Azure Databricks, ADLS, HDInsight etc.
    databricks-integration-azure.rst
    adls-integration.rst
    service-principal.rst
+   hdinsight.rst
+
    

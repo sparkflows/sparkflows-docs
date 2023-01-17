@@ -11,8 +11,11 @@ You can view the Logs for each of the processes.
 
 You can view the Logs either by logging into the VM on which Fire Insights is installed or from the UI with admin access.
 
-Logs from VM
+Logs for Fire Server
 ----------
+
+From the VM
++++++++
 
 You can view the logs from vm on which Fire Insights is running from below location:
 
@@ -26,8 +29,24 @@ Fire server Logs:
 .. figure:: ../_assets/configuration/logs/fireserver-log.PNG
    :alt: Logs
    :width: 70%
+
+Logs from UI
++++++
+
+You can view the logs from UI if you have admin access.
+
+Below are steps involved in it:
+
+Go to Administrations page and select View Server Logs, it will open new windows which display all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
+
+.. figure:: ../_assets/configuration/logs/fireserver_log.PNG
+   :alt: Logs
+   :width: 70%
    
    
+Logs for Fire Scala Engine
+--------
+
 Fire Logs:
 
 ::
@@ -38,7 +57,10 @@ Fire Logs:
 .. figure:: ../_assets/configuration/logs/fire-log.PNG
    :alt: Logs
    :width: 70%
-   
+
+Logs for Fire Pyspark engine
+-----
+
 Pyspark Logs:
 
 ::
@@ -51,6 +73,19 @@ Pyspark Logs:
    :width: 70%
    
    
+
+Logs for Fire Web Server
+------------------------
+
+The logs for Fire web server go into "fireserver.log". The logging level is determined by the properties file "conf/logback-spring.xml".
+
+As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+
+
+.. figure:: ../_assets/operating/operations/fire-server-logs.PNG
+   :alt: connection
+   :width: 60%
+
 Logs from UI
 ----------
 
@@ -71,18 +106,6 @@ Go to Administrations page and select View Server Logs, it will open new windows
 .. figure:: ../_assets/configuration/logs/pyspark_log.png
    :alt: Logs
    :width: 70%
-
-Logs for Fire Web Server
-------------------------
-
-The logs for Fire web server go into "fireserver.log". The logging level is determined by the properties file "conf/logback-spring.xml".
-
-As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
-
-
-.. figure:: ../_assets/operating/operations/fire-server-logs.PNG
-   :alt: connection
-   :width: 60%
 
 
 Changing the Various Logging Levels

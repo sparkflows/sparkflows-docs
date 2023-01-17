@@ -102,6 +102,14 @@ Spark Standalone Guide
 
    spark-standalone/index
 
+Cloudera/Hadoop Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   cloudera-hadoop/index
+
 Kubernetes Guide
 --------------
 

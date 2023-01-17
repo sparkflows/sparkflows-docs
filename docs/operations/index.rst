@@ -5,7 +5,7 @@ Operations
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/operations/logging`
+    :doc:`/operations/logs`
     
     ---
     
@@ -59,7 +59,6 @@ Operations
    :hidden:
  
    logs.rst  
-   logging.rst
    continuous-integration/index.rst
    regular-maintenance-tasks.rst
    backup_db.rst

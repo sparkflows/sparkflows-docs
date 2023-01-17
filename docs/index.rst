@@ -94,6 +94,14 @@ Snowflake Guide
 
    snowflake/index
 
+Spark Standalone Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   spark-standalone/index
+
 Kubernetes Guide
 --------------
 

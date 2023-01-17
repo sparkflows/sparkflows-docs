@@ -25,15 +25,15 @@ Operations
     
     ---
     
-    :doc:`/operations/installing-jdbc-drivers`
-    
-    ---
-    
     :doc:`/operations/installing-mysql`
     
     ---
     
     :doc:`/operations/migrating-h2-db-to-mysql`
+    
+    ---
+        
+    :doc:`/operations/installing-jdbc-drivers`
     
     ---
     
@@ -63,10 +63,10 @@ Operations
    regular-maintenance-tasks.rst
    backup_db.rst
    h2db.rst
-   installing-jdbc-drivers.rst
-   dashboard-installing-jdbc-drivers.rst
    installing-mysql.rst
    migrating-h2-db-to-mysql.rst
+   installing-jdbc-drivers.rst
+   dashboard-installing-jdbc-drivers.rst
    jupyter.rst
    installing-tesseract.rst
    installing-opennlp.rst

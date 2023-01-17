@@ -3,7 +3,7 @@ Databricks Python Integration Steps
 
 Fire Insights integrates with Databricks and can submit Python jobs. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Below are the steps for Integrating Fire Insights with your Databricks Clusters for running Python jobs.
+Below are the steps for Integrating Fire Insights with your Databricks clusters for running Python jobs.
 
 .. note::  The Machine on which Fire Insights is installed should have Python 3.7.0 or above.
 
@@ -15,7 +15,7 @@ Python Installation Steps:
 Install Fire Insights
 -----------
 
-Install Fire Insights on your machines. The machine has to be reachable from the Databricks cluster.
+Install Fire Insights on your machine. The machine has to be reachable from the Databricks cluster.
 
 Upload Fire wheel file to Databricks
 ----------------------------------
@@ -29,17 +29,17 @@ Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it 
    :alt: Wheel File
    :width: 90%
 
-1. Login to ``Databricks Cluster``
+1. Login to ``Databricks Cluster``.
 
 
-2. Click on ``workspace`` in the left side pane
+2. Click on ``workspace`` located in the left side pane.
 
 
 .. figure:: ../../_assets/configuration/azure_workspace.PNG
    :alt: Databricks
    :width: 60%
    
-3. Create a new Library
+3. Create a new Library.
 
 You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provide any ``Library Name`` field, & add File Path of ``fire-3.1.0-py3-none-any.whl`` located in DBFS.
 
@@ -47,7 +47,7 @@ You can select Library Source as ``DBFS``, Library Type as ``Python Whl``, provi
    :alt: Databricks
    :width: 60%
 
-On Clicking on ``Create`` button it will ask to install on specific databricks Cluster, select cluster on which you want to install.
+Clicking on ``Create`` button will ask you to install on specific databricks Cluster, select cluster on which you want to install.
 
 .. figure:: ../../_assets/configuration/create.PNG
    :alt: Databricks
@@ -63,17 +63,17 @@ On Successfull installation of wheel file on Databricks Cluster, it would be dis
    :alt: Databricks
    :width: 70%
 
-Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket which is accessible from Databricks Cluster.
+Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to S3 Bucket which is accessible from Databricks Cluster.
 
-Once you upload ``fire-3.1.0-py3-none-any.whl`` file to s3 Bucket, login to Databricks Cluster & inside Libraries tab.
+Once you upload ``fire-3.1.0-py3-none-any.whl`` file to S3 Bucket, login to Databricks Cluster & inside Libraries tab.
 
-Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy paste the location of python wheel file available in s3 in File Path & Click on Install.
+Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy/paste the location of python wheel file available in S3 in File Path & click on Install.
 
 .. figure:: ../../_assets/configuration/s3wheel.PNG
    :alt: Databricks
    :width: 70%
 
-Once it is installed successfully, you can see the python wheel inside Library is up.
+Once it is installed successfully, you can see that the python wheel inside Library is up.
 
 .. figure:: ../../_assets/configuration/uploads3wheel.PNG
    :alt: Databricks
@@ -83,7 +83,7 @@ Once it is installed successfully, you can see the python wheel inside Library i
 Install Python dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory::
+You need to install the python dependencies required by Fire Insights on the machine by running the below command from ``fire-x.y.z/dist/fire/`` directory::
 
     pip install -r requirements.txt
 
@@ -91,13 +91,13 @@ You need to install the python dependencies required by Fire Insights on the mac
    :alt: Databricks
    :width: 90%
 
-Note: Make sure that pip etc. is already installed on that machine
+Note: Make sure that pip, etc. is already installed on that machine.
 
 
 Install dependency for JDBC Driver
 --------------------------
 
-Copy the ``JDBC Driver`` jar to pyspark jar path, Once it is copied successfully, you can see the JDBC Driver jar inside pyspark jar path::
+Copy the ``JDBC Driver`` jar to pyspark jar path. Once it is copied successfully, you can see the JDBC Driver jar inside pyspark jar path::
 
     cp -r SparkJDBC41.jar $PATH_VIRTUAL_ENV/venv/lib/python3.7/site-packages/pyspark/jars/
 
@@ -116,9 +116,9 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
    :alt: Databricks
    :width: 90%
 
-Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
+Install any specific package of Python if one needs to use in Custom Processors on Databricks Cluster as well as on Fire Insights Machine.
 
-Use the command below to install it on the Fire Insights machine::
+Use the command below to install it on the Fire Insights machine. ::
 
     pip install scorecardpy
 
@@ -126,7 +126,7 @@ Use the command below to install it on the Fire Insights machine::
    :alt: Databricks
    :width: 90%
 
-Install it on your Databricks cluster with the below::
+Install it on your Databricks cluster with the steps given below. ::
 
    * Open a Notebook and attach to Databricks Cluster.
    * %sh pip install scorecardpy
@@ -138,7 +138,7 @@ Install it on your Databricks cluster with the below::
 Install prophet package on databricks
 -------------------------------------
 
-Install needed python package for prophet using init script on databricks cluster
+Install the needed python package for prophet using Init script on databricks cluster.
 
 ::
 
@@ -150,7 +150,7 @@ Install needed python package for prophet using init script on databricks cluste
     pip install prophet==1.1.1
     
 
-add above in a script file, upload in DBFS and go to Advanced Options, select Init Scripts and add DBFS path to it 
+Add above in a script file, upload in DBFS and go to Advanced Options, select Init Scripts and add DBFS path to it. 
 
 .. figure:: ../../_assets/configuration/initscript.PNG
    :alt: Databricks
@@ -159,15 +159,15 @@ add above in a script file, upload in DBFS and go to Advanced Options, select In
 Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------
 
-For Python Job submission to Databricks Cluster.
+For Python Job submission to Databricks Cluster:
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even S3 Bucket too.
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even  to S3 Bucket.
 
 .. figure:: ../../_assets/configuration/workflow.PNG
    :alt: Databricks
    :width: 90%
 
-You can ``UPLOAD`` it, using DBFS Browser too.
+You can ``UPLOAD`` it, using DBFS browser too.
 
 .. figure:: ../../_assets/configuration/databr_wf.PNG
    :alt: Databricks
@@ -178,15 +178,15 @@ Configure the Uploaded Library in Fire Insights
 
 Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Fire Insights.
 
-It can be two source either ``DBFS`` or ``S3`` path.
+It can be two sources either ``DBFS`` or ``S3`` path.
 
-If you have Uploaded in ``DBFS`` path.
+If you have uploaded in ``DBFS`` path.
 
 .. figure:: ../../_assets/configuration/db_configure.PNG
    :alt: Databricks
    :width: 90%
 
-If you have Uploaded in ``S3`` path.
+If you have uploaded in ``S3`` path.
 
 .. figure:: ../../_assets/configuration/s3db_configure.PNG
    :alt: Databricks
@@ -195,7 +195,7 @@ If you have Uploaded in ``S3`` path.
 Job Submission using Pyspark Engine
 -----------------------------------
 
-Now You can submit pyspark jobs to Databricks Cluster from Fire Insights.
+Now, you can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
 .. figure:: ../../_assets/configuration/job_1.PNG
    :alt: Submit Job

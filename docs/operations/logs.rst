@@ -29,7 +29,7 @@ Fire Logs:
     cd cd fire-x.y.z
     Search for fire.logs
     
-.. figure:: ../../_assets/configuration/logs/fire-log.PNG
+.. figure:: ../_assets/configuration/logs/fire-log.PNG
    :alt: Logs
    :width: 70%
    

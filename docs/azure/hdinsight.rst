@@ -1,20 +1,18 @@
 HDInsight Integration
 ==========================
 
-Fire Insights runs seamlessly on Azure HDInsight.
-
-Fire can be installed on the master or edge nodes of the cluster.
+Fire Insights runs seamlessly on Azure HDInsight. Fire can be installed on the master or edge nodes of the cluster.
 
 HDInsights and Ports
 --------------------
 
 https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-port-settings-for-services
 
-Linux-based HDInsight clusters only expose three ports publicly on the internet; 22, 23, and 443. These ports are used to securely access the cluster using SSH and services exposed over the secure HTTPS protocol.
+Linux-based HDInsight clusters only expose three ports publicly on the internet i.e. 22, 23, and 443. These ports are used to securely access the cluster using SSH and services exposed over the secure HTTPS protocol.
 
-Internally, HDInsight is implemented by several Azure Virtual Machines (the nodes within the cluster) running on an Azure Virtual Network. From within the virtual network, you can access ports not exposed over the internet. For example, if you connect to one of the head nodes using SSH, from the head node you can then directly access services running on the cluster nodes.
+Internally, HDInsight is implemented by several Azure Virtual Machines (the nodes within the cluster) running on an Azure Virtual Network. From within the virtual network, you can access ports that are not exposed over the internet. For example, if you connect to one of the head nodes using SSH, from this head node you can then directly access services running on the cluster nodes.
 
-To join additional machines to the virtual network, you must create the virtual network first, and then specify it when creating your HDInsight cluster. For more information, see Extend HDInsight capabilities by using an Azure Virtual Network:
+To join additional machines to the virtual network, you must create the virtual network first, and then specify it when creating your HDInsight cluster. For more information, please see Extend HDInsight capabilities by using an Azure Virtual Network:
 
 https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-extend-hadoop-virtual-network
 
@@ -22,9 +20,9 @@ https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-extend-hadoop-virtual
 Port Configuration
 ------------------
 
-Fire Insights by default listens on ports 8080 and 8443.
+Fire Insights, by default, listens on ports 8080 and 8443.
 
-On HDInsight, port 8080 generally is already in use. So configure Fire Insights to listen on another port, say 8090.
+On HDInsight, port 8080 generally is already in use. So, configure Fire Insights to listen on another port, e.g., 8090.
 
 Edit conf/application.properties::
 
@@ -36,7 +34,7 @@ Edit conf/application.properties::
 Open the Port for Access
 ------------------------
 
-Now the port 8090 needs to be opened to be accessed by the users using their Browser.
+Now, the port 8090 needs to be opened to be accessed by the users using their browser.
 
 - https://stackoverflow.com/questions/45239566/accessing-http-on-custom-port-in-azure-hdinsight-cluster
 
@@ -64,7 +62,7 @@ In Fire Insights, under Administration/Configuration, configure the following fo
 * app.postMessageURL=
 * app.sparkSubmitJar=
 
-Clicking on ``Infer Hadoop Configuration`` would correctly infer these. Hit ``Save`` after that.
+Clicking on ``Infer Hadoop Configuration`` would correctly infer these. Click on ``Save`` after that.
 
 
 

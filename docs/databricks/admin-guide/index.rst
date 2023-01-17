@@ -8,19 +8,19 @@ Databricks Admin Guide
 
     :doc:`/databricks/admin-guide/databricks-prerequisites`
 
-    Pre-requisites for databricks integration.
+    Prerequisites for databricks integration.
 
     ---
     
     :doc:`/databricks/admin-guide/databricks-library`
 
-    Fire Download files for databricks
+    Fire Download files for databricks.
 
     ---
     
     :doc:`/databricks/admin-guide/databricks-installation`
 
-    Steps to integrate fire insights with databricks
+    Steps to integrate fire insights with databricks.
 
     ---
     
@@ -50,7 +50,7 @@ Databricks Admin Guide
 
     :doc:`/databricks/admin-guide/troubleshooting`
 
-    Troubleshooting your databricks connection
+    Troubleshooting your databricks connection.
 
     ---
 

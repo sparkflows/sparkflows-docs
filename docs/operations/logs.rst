@@ -1,9 +1,15 @@
 Logs
 =======
 
-Fire Insights enable you to view the Logs for Fire server and both engine being used.
+Below is the list of 3 processes that run in Fire Insights :
 
-You Can view the Logs either from VM on which Fire Insights application is installed or from UI with admin access.
+* Fire server
+* Fire Scala engine
+* Fire PySpark engine (If PySpark is configured.)
+
+You can view the Logs for each of the processes.
+
+You can view the Logs either by logging into the VM on which Fire Insights is installed or from the UI with admin access.
 
 Logs from VM
 ----------

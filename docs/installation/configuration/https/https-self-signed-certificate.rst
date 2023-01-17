@@ -15,19 +15,19 @@ Export the certificate to your machine
 - Got to ``URL`` for the ``HTTPS`` port.
    - https://privateip:8443/login
 
-.. figure:: ../../_assets/configuration/Url_https.PNG
+.. figure:: ../../../_assets/configuration/Url_https.PNG
    :alt: certificate
    :width: 60%
    
 - Click on ``Not secure`` option.
  
-.. figure:: ../../_assets/configuration/Notsecure.PNG
+.. figure:: ../../../_assets/configuration/Notsecure.PNG
    :alt: certificate
    :width: 60%
    
 - Click on ``Certificate``.
 
-.. figure:: ../../_assets/configuration/certificate.PNG
+.. figure:: ../../../_assets/configuration/certificate.PNG
    :alt: certificate
    :width: 60%
    

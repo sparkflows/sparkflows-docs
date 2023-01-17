@@ -16,7 +16,7 @@ Login to Sparkflows webserver URL and goto ``ADMINISTRATIONS`` -> ``Configuratio
     
 Once the above configuration is updated and changes are saved, you need to refresh the Sparkflows webserver URL to verify the latest configuration changes.
 
-Now open any project and select workflows tab, clicking on ''Create'' button will show you option to create workflow using PySpark engine.
+Now open any project and select workflows tab, clicking on ``Create`` button will show you option to create workflow using PySpark engine.
 
 .. figure:: ../../_assets/installation/pyspark_wf.PNG
    :alt: pyspark

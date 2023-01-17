@@ -1,5 +1,7 @@
-Setting up HTTPS certificates on AWS
+Configuring https on AWS
 ================================
+
+Fire Insights can be Configured with https on AWS, when running on ec2 instance.
 
 With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You use ACM to create or import and then manage a certificate.
 

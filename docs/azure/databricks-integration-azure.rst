@@ -45,7 +45,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependenc
       :alt: Databricks
       :width: 40%
    
-5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Install``.
+5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/createlibrary.PNG
@@ -106,28 +106,28 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 
 .. figure:: ../_assets/configuration/user_setting.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 60%
    
 3. Click on ``User Settings``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/user_setting.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 60%
 
 4. Click on ``Generate New Token``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 60%
 
 5. Add ``Comment`` & ``Lifetime(days)`` for token expiry & click on ``Generate``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_update.PNG
    :alt: Databricks
-   :width: 40%
+   :width: 60%
 
 6. Copy the token generated. Click on ``DONE``.
 ++++++++++++++++++++++++++++++++

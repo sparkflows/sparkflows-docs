@@ -83,3 +83,18 @@ Create a Load Balancer and configure target group.
 .. figure:: ../../_assets/aws/aws-certificate/load_target_instance.PNG
    :alt: aws
    :width: 60%     
+
+Create a record and map to the Load Balancer
+-----------------------------------
+ 
+Goto Route 53 to create a record and map to the Load Balancer.
+
+.. figure:: ../../_assets/aws/aws-certificate/load_record.PNG
+   :alt: aws
+   :width: 60% 
+   
+.. figure:: ../../_assets/aws/aws-certificate/load_record1.PNG
+   :alt: aws
+   :width: 60%    
+   
+  

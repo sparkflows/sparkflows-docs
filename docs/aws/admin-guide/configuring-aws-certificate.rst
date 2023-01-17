@@ -54,7 +54,7 @@ Request a certificate by filling below details::
 Create a Load Balancer
 ------
 
-Create a Load Balancer and configure target group which have Fire Insights running on that instance.
+Create a Load Balancer and configure target group with Fire Insights running on that instance.
 
 .. figure:: ../../_assets/aws/aws-certificate/load_blanacer.PNG
    :alt: aws

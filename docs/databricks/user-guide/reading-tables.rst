@@ -3,15 +3,15 @@ Read Databricks Tables
 
 Fire Insights enables you to read from and write to Databricks tables.
 
-Below is a workflow which reads data from the Databricks table ``xyz``. It then processes the data and print some sample result.
+Below is a workflow which reads data from the Databricks table ``xyz``. It then processes the data and prints some sample results.
 
 
-Read Databricks table in Workflow
+Read Databricks Table in Workflow
 ------------------------------------------
 
-In the workflow use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.
+In the workflow, use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.
 
-Then use the other processors in Fire for processing the data read from the Databricks Table.
+Then, use the other processors in Fire for processing the data read from the Databricks Table.
 
 Workflow
 ++++++++
@@ -31,21 +31,21 @@ Processor Configurations for ReadDatabricksTable
    :alt: Databricks
    :width: 80%
 
-Refresh schema for processor ReadDatabricksTable
+Refresh Schema for Processor ReadDatabricksTable
 ++++++++
  
 .. figure:: ../../_assets/configuration/databricks-refreshschema.PNG
    :alt: Databricks
    :width: 80% 
 
-Processor executions for ReadDatabricksTable
+Processor Executions for ReadDatabricksTable
 ++++++++
 
 .. figure:: ../../_assets/configuration/databrcks-interactiveexecutions.PNG
    :alt: Databricks
    :width: 80%
 
-Databricks Workflow execution
+Databricks Workflow Execution
 ++++++++
 
 Below is the output of executing the above workflow which reads data from a Databricks table.

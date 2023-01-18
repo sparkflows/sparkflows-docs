@@ -12,6 +12,12 @@ AWS Admin Guide
     
     ---
     
+    :doc:`/aws/admin-guide/installation-with-ami`
+
+    Install Sparkflows from AWS Marketplace
+    
+    ---
+    
     :doc:`/aws/admin-guide/planning`
 
     Describes details to help you plan on deploying and using Fire Insights on AWS.

@@ -15,6 +15,7 @@ fire-insight setup in AWS
 * Login to Fire-Insight  
 
     - Test if a Sample Project can be created and workflow can be executed
+    - enable module.workflowType = both
 
 * Create S3 Bucket fire-insight-bucket1
 

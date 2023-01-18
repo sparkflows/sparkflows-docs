@@ -1,7 +1,7 @@
-Install Sparkflows using AWS Custom AMI
+Install Sparkflows from AWS Marketplace
 =======================================
 
-You can install Sparkflows using the custom AWS AMI image, which has all the necessary configurations baked into it, and ready to use for evaulation purpose.
+You can install Sparkflows using the AWS Marketplace, which has all the necessary configurations baked into it, and ready to use for evaulation purpose.
 Sparkflows AMI submitted in AWS Marketplace can be easily available using search in Google page or you can use below link:
 
 https://aws.amazon.com/marketplace/pp/prodview-h7bpihqpr7ios#pdp-usage

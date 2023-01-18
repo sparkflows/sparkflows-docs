@@ -11,6 +11,10 @@ Following steps are required to create a role for S3 bucket access and assume th
 
 1. Create a Role **ecsTaskExecutionRole** 
 
+.. figure:: ../../../_assets/aws/iam-assume-role/1_create_ecsTaskExecutionRole.png
+   :alt: aws
+   :width: 60%
+
 We need to ensure it is attached with a policy to access ECS resources.
 
 You can use IAM roles to delegate access to your AWS resources.
@@ -25,10 +29,14 @@ https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
 
 2. Start Creating the Role
 
-
+   
 3. Assign Trust Relationship of that Role.
 
-We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “fire-insight-bucket1” role:
+.. figure:: ../../../_assets/aws/iam-assume-role/1_fire_insight_select_trusted_entity.png
+   :alt: aws
+   :width: 60%
+
+We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “fire-insight-role” role:
 
 ::
 
@@ -50,6 +58,10 @@ We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the pol
 4. Create Inline Policy:
 
 "Create an ''inline policy'' named **fire-insight-policy** which has access to S3 Policy which in turn has access to the different buckets e.g. ''fire-insight-bucket1'' & ''fire-insight-bucket2'' and then attach it to the role."
+
+  .. figure:: ../../../_assets/aws/iam-assume-role/2_fire_insight_attach_policy.png
+   :alt: aws
+   :width: 60%
 
 ::
 
@@ -102,7 +114,17 @@ We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the pol
     ]
   }
 
-5. Now, the policy ''fire-insight-policy'' needs to be attached to the ''EMR_EC2_DefaultRole'' role, added for EMR resources, so that it gets access to the above role while submitting the job on ''EMR Cluster or EMR Livy''.
+  .. figure:: ../../../_assets/aws/iam-assume-role/3_fire_insight_create_policy.png
+   :alt: aws
+   :width: 60%
+
+5. Attach ECS Task Execution Role.
+
+.. figure:: ../../../_assets/aws/iam-assume-role/2_attach_policy__ecsTaskExecutionRole.png
+   :alt: aws
+   :width: 60%
+
+6. Now, the policy ''fire-insight-policy'' needs to be attached to the ''EMR_EC2_DefaultRole'' role, added for EMR resources, so that it gets access to the above role while submitting the job on ''EMR Cluster or EMR Livy''.
 
 
 .. note:: Make sure to change ARN value to an exact value.

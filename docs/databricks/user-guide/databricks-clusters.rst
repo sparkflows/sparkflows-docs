@@ -1,9 +1,9 @@
-Viewing Databricks Clusters
+View Databricks Clusters
 ====================
 
 Fire Insights enables you to view your Databricks Clusters. You can also Start and Stop the Databricks clusters from Fire Insights.
 
-Go to Data Browsers/Databricks Clusters
+Go to Data Browsers or Databricks Clusters
 ----------------------
 
 It will display the various Databricks Clusters available.
@@ -13,7 +13,7 @@ It will display the various Databricks Clusters available.
    :alt: Databricks
    :width: 80%
 
-If you want to see Cluster Details, Click on ``CLUSTER NAME``, it will display all information.
+If you wish to see cluster details, click on ``CLUSTER NAME`` to display all the related information.
 
 
 .. figure:: ../../_assets/configuration/cl_name.PNG

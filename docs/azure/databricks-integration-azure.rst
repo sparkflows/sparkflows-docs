@@ -52,30 +52,21 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependenc
       :alt: Databricks
       :width: 40%
  
- 
+ 6. Upload ``fire-3.1.0-py3-none-any.whl`` 
+++++++++++++++++++++++++++++++++
+
+You can upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` or directly download it from below link:
+
+Reference link : https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-library.html
   
-Configure the Uploaded Library in Fire Insights
-------------------------------------
+6. Upload ``workflowexecutedatabricks.py`` file to DBFS
+++++++++++++++++++++++++++++++++
 
-Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
+For Python Job submission to Databricks Cluster:
 
-This has to be done under Administration/Configuration.
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS, Copy the absolute path which need to be added in databricks connection in ``DATABRICKS`` tab for ``Python file`` 
 
-
-.. figure:: ../_assets/configuration/databricks-configurations.PNG
-   :alt: Databricks
-   :width: 40%
-   
-   
-Configure app.postMessageURL in Fire Insights
-----------------------------
-
-Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
-
-.. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
-   :alt: Postback URL
-   :width: 40%
-
+.. note:: mandatory to update above path, else Pyspark job will error.
 
 Install Databricks JDBC Driver
 -----------------------------------
@@ -141,7 +132,7 @@ Create your token in Databricks. It would be used in making REST API calls to Da
 Create Databricks Connection in Fire Insights
 -----------------------------------
 
-Create a connection in Fire Insights to Databricks. 
+1. Create a connection in Fire Insights to Databricks. 
 
 It can be created by the Administrator under Administration/Global Connections. These connections are available for everyone to use.
 
@@ -155,6 +146,28 @@ It can also be created by any user with their Application. In this case, it is o
    :width: 40%
 
 Reference Link : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
+
+2. Configure the Uploaded Library in Fire Insights
+
+
+Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
+
+This has to be done under Administration/Configuration.
+
+
+.. figure:: ../_assets/configuration/databricks-configurations.PNG
+   :alt: Databricks
+   :width: 40%
+   
+   
+3. Configure app.postMessageURL in Fire Insights in Databricks
+
+
+Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
+
+.. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
+   :alt: Postback URL
+   :width: 40%
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

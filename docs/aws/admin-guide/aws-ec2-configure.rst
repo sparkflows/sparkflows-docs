@@ -1,7 +1,7 @@
 AWS S3 Configurations
 ==================
 
-Fire Insights is integrated with S3 which is running on ec2 instance.
+Fire Insights enable you to configure with S3 running on ec2 instance.
 
 Following steps are required to create a role for S3 bucket access and attach the role to ec2 instance on which Fire is running.
 

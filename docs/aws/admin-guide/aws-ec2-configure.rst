@@ -67,3 +67,9 @@ Login to AWS Console which has sufficient privilege to create a role with name '
 
 3. Now, the policy ''assume_role_bucket1'' needs to be attached to the ec2 instance where Fire is running.
 
+Inorder to attach above role to ec2 instance, you need to Login to AWS Console and Go to ``EC2 Dashboard`` and select the ec2 instnace where Fire is running and choose ``Security``, from ``Actions`` dropdown and Click on ``Modify IAM role``
+
+.. figure:: ../../_assets/aws/aws_s3_ec2/role_added.PNG
+   :alt: aws
+   :width: 60%
+

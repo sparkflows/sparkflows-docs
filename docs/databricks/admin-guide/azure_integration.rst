@@ -4,10 +4,14 @@ Azure Integration
 ADLS Passthrough
 ---------------
 
+For detailed information, please visit the link given below:
+
 https://docs.microsoft.com/en-us/azure/databricks/security/credential-passthrough/adls-passthrough
 
 Creating Tables
 ---------------
+
+For detailed information, please visit the link given below:
 
 https://docs.microsoft.com/en-us/azure/databricks/data/tables
 

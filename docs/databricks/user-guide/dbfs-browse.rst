@@ -3,7 +3,7 @@ Upload and View files on DBFS
 
 Fire Insights enables you to browse your DBFS, Upload & Delete files and directories in DBFS.
 
-Go to DATA BROWSERS/DBFS
+Go to DATA BROWSERS or DBFS
 ----------------------
 
 It will display the Databricks File System list page.
@@ -22,7 +22,7 @@ You can upload files to ``DBFS`` from your laptop.
    :alt: Databricks
    :width: 80%
 
-On clicking the ``UPLOAD FILE`` button, it will ask you to select the file from the laptop and UPLOAD.
+Click on the ``UPLOAD FILE`` button to ``Choose File`` from your laptop and then click on ``Upload`` to upload the file.
 
 .. figure:: ../../_assets/configuration/upload_local.PNG
    :alt: Databricks
@@ -38,7 +38,7 @@ On successful ``UPLOAD``, the file can be viewed inside the folder on  ``DBFS``.
    :alt: Databricks
    :width: 60%   
    
-Delete file and directory in DBFS
+Delete File and Directory in DBFS
 ---------------------------------
 
 You can delete files and directories in DBFS using the delete ``ACTION`` button.
@@ -47,7 +47,7 @@ You can delete files and directories in DBFS using the delete ``ACTION`` button.
    :alt: Databricks
    :width: 60%
 
-A successful ``deletion``, will show successful information, and the file can be viewed inside the folder in ``DBFS``.
+A successful ``deletion`` will display success information after which the file can be viewed inside the folder in ``DBFS``.
 
 .. figure:: ../../_assets/configuration/suc.PNG
    :alt: Databricks

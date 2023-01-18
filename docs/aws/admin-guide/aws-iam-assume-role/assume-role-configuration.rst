@@ -31,7 +31,8 @@ https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
 We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “fire-insight-bucket1” role:
 
 ::
-   {
+
+{
   "Version": "2012-10-17",
   "Statement": [
     {

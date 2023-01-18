@@ -1,9 +1,9 @@
-Executing Workflow without Fire Insights
+Execute Workflow without Fire Insights
 ==================
 
 The workflows created in Fire Insights can be executed on Databricks without having Fire Insights installation available.
 
-Architecture diagram
+Architecture Diagram
 ----------
 
 .. figure:: ../../_assets/databricks/WorkflowExecution.png
@@ -16,7 +16,7 @@ Below are the high level steps for it:
   * Export the workflow from Fire Insights as JSON file.
   * Uplod the workflow JSON to DBFS.
   * Upload the Fire Insights libraries into the Databricks Cluster.
-  * Create a Notebook and attach it to Databricks Cluster which have Fire Insights Library installed.
+  * Create a Notebook and attach it to Databricks Cluster which has Fire Insights Library installed.
   * Execute the Notebook.
   
 
@@ -26,12 +26,12 @@ Export and Upload the workflow JSON to DBFS
 
 As the first step, export the workflow as JSON files and upload to a DBFS folder.
 
-The workflow might be a spark/scala workflow or a pyspark workflow.
+The workflow might be a Spark/Scala workflow or a PySpark workflow.
 
-Running Scala Workflows
+Run Scala Workflows
 ---------------
 
-Upload the fire core jar
+Upload the Fire Core Jar
 ++++++++++++++++++++++
 
 
@@ -92,21 +92,21 @@ Create the Spark Job by attaching the notebook template with input parameters li
 Submit the Spark Job to Databricks Cluster
 ++++++++++++++++
 
-Submit the Spark Job to Databricks Cluster by passing the required workflow json path.
+Submit the Spark Job to Databricks cluster by passing the required workflow json path.
 
 
-Running Pyspark Workflows
+Run PySpark Workflows
 ----------
 
-Upload fire wheel file to DBFS
+Upload Fire Wheel File to DBFS
 ++++++++++++++
 
-  * Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
+  * Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it either under Workspace as a Library on to Databricks under DBFS or in S3 Bucket which is accessible from the Databricks Cluster.
     
 Create a Notebook
 ++++++++++++
 
-Suppose the workflow json is available at ``dbfs:/workflows/Join_Workflow.json``
+Suppose the workflow json is available at ``dbfs:/workflows/Join_Workflow.json``.
 
 In order to execute it, create a Notebook with the below code::
 
@@ -147,15 +147,15 @@ In order to execute it, create a Notebook with the below code::
                                       program_parameters = programParameters)
     
  
-Create the Pyspark Job in Databricks
+Create the PySpark Job in Databricks
 ++++++++++++++++
 
-Create the Pyspark Job by attaching the notebook template with input parameters like workflow-json-path etc.
+Create the PySpark Job by attaching the notebook template with input parameters like workflow-json-path etc.
 
 Submit the Pyspark Job to Databricks Cluster
 ++++++++++++++++
 
-Submit the Pyspark Job to Databricks Cluster by passing the required workflow json path.
+Submit the Pyspark Job to Databricks cluster by passing the required workflow json path.
  
  
-.. note::  Make sure to verify if workflow json path in dbfs is accessible and above Notebook is attached to Databricks Cluster with required Fire INsights library
+.. note::  Make sure to verify that the workflow json path in DBFS is accessible and above Notebook is attached to Databricks Cluster with required Fire Insights library.

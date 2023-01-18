@@ -1,16 +1,16 @@
 Generate Pyspark Code
 ====================
 
-Fire Inisghts enable you to Generate Pyspark Code even with spark engine and run the job using python engine.
+Fire Inisghts enables you to Generate PySpark Code even with Spark engine and run the job using Python engine.
 
-Below are steps involve in it:
+Below are the steps involved in it:
 
 Enable Auto Pyspark Code Generation
 ---------------
 
 Login to Fire Insights application and Enable Auto Pyspark Code Generation from the Configurations page.
 
-Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'module.enableAutoPysparkCodeGeneration' and make it to 'true', by default it will be false. 
+Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'module.enableAutoPysparkCodeGeneration' and make it to 'true' as by default it will be false. 
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
    :alt: Pyspark code generate
@@ -19,21 +19,19 @@ Go to ADMINISTRATION, select configuration, choose MODULE tab and search for 'mo
 Generate Pyspark Code
 ----------------
 
-Now once the Configuration is enable for Generating Pyspark Code.
-
-Create an example workflow using spark engine and saved it.
+Once the Configuration gets enabled for Generating Pyspark Code, create a sample workflow using Spark engine and save it.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/2.PNG
    :alt: Pyspark code generate
    :width: 70%
    
-Once the workflow got saved, Go to workflow editor page, Click on the three dot on the top right corner of workflow editor page, you will see option of Generate Pyspark Code, select it.
+Once the workflow gets saved, go to workflow editor page, click on the three dots on the top right corner of workflow editor page, and select ``Generate Pyspark Code``.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/3.PNG
    :alt: Pyspark code generate
    :width: 70%
 
-Once you select option of Generate Pyspark Code, a window will open with Pyspark sample code for the example workflow, copy it and save it into '.py' file.
+Once you select the option of Generate Pyspark Code, a window will open with Pyspark sample code for the sample workflow, copy it and save it into '.py' file.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/4.PNG
    :alt: Pyspark code generate
@@ -42,16 +40,16 @@ Once you select option of Generate Pyspark Code, a window will open with Pyspark
 Upload Generated Pyspark Code in DBFS
 --------------
 
-Now you have the Generated Pyspark Code in your local system, Upload it into DBFS which is accessible from databricks cluster.
+Now, as you have the Generated Pyspark Code saved in your local system, upload it into DBFS which is accessible from databricks cluster.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/5.PNG
    :alt: Pyspark code generate
    :width: 70%
 
-Submit Jobs on Databricks cluster
+Submit Jobs on Databricks Cluster
 ----------
 
-Now once you upload the Generated Pyspark Code in DBFS, you can create Jobs in databricks with Below details:
+Once you have uploaded the Generated Pyspark Code in DBFS, you are ready to create Jobs in databricks using the details given below:
 
 ::
 
@@ -65,15 +63,15 @@ Now once you upload the Generated Pyspark Code in DBFS, you can create Jobs in d
    :alt: Pyspark code generate
    :width: 70%    
 
-Once the above parameters got added, Click on Create Button, it will create new job with your selected parameters.
+Once the above parameters gets added, click on Create Button, it will create a new job with your selected parameters.
 
-Now you can Run the job.
+Now, you can Run the job.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/6.PNG
    :alt: Pyspark code generate
    :width: 70% 
    
-Once the Job Run successfully, you will see the Status of Job as Succeeded.
+Once the Job runs successfully, you will see the Status of the Job as Succeeded.
 
 .. figure:: ../../_assets/user-guide/generate-pyspark-code/7.PNG
    :alt: Pyspark code generate

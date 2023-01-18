@@ -15,9 +15,12 @@ fire-insight setup in AWS
 * Login to Fire-Insight  
 
     - Test if a Sample Project can be created and workflow can be executed
-    - enable module.workflowType = both
+    - If we need to enable pyspark , then 
+      set module.workflowType = both
 
 * Create S3 Bucket fire-insight-bucket1
+    
+    - <Screenshot>
 
 * Create AWS EC2 Role for Fire Insight
 
@@ -32,7 +35,10 @@ fire-insight setup in AWS
   - Test the Bucket Access
   
 * Steps to load sample data in Bucket
-
+   - AWS 
+   - Databricks 
+   
 * Steps to create the certificate for https access
 
 * Steps to setup EMR Access
+  - 

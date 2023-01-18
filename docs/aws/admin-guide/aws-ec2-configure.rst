@@ -127,4 +127,7 @@ It will point to ``s3`` location configured, if the earlier steps successfully c
 .. figure:: ../../_assets/aws/aws_s3_ec2/s3_access.PNG
    :alt: aws
    :width: 60%
-   
+
+Now you can use data available in s3 from workflow editor, using different node available.
+
+

@@ -13,13 +13,13 @@ Databricks User Guide
 
     :doc:`/databricks/user-guide/dbfs-browse`
 
-    Browse , Upload and Delete files and directories in DBFS.
+    Browse, Upload, Delete files and directories in DBFS.
 
     ---
 
     :doc:`/databricks/user-guide/reading-csv-files`
 
-    Reading CSV Files.
+    Read CSV Files.
     
     ---
 
@@ -49,7 +49,7 @@ Databricks User Guide
 
     :doc:`/databricks/user-guide/reading-s3`
 
-    Accessing S3 buckets from Databricks.
+    Access S3 buckets from Databricks.
 
     ---
 
@@ -61,7 +61,7 @@ Databricks User Guide
 
     :doc:`/databricks/user-guide/generate-pyspark-code`
     
-    Generating Pyspark Code.
+    Generate PySpark Code.
 
 .. toctree::
    :hidden:

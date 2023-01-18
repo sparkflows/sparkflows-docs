@@ -73,7 +73,7 @@ Inorder to attach above role to ec2 instance, you need to Login to AWS Console a
    :alt: aws
    :width: 60%
 
-select ``IAM role`` which got created and Click on ``Update IAM role``
+select ``IAM role`` which got created on ``step 1`` and Click on ``Update IAM role``
 
 .. figure:: ../../_assets/aws/aws_s3_ec2/role_selected.PNG
    :alt: aws

@@ -9,7 +9,7 @@ Below is a workflow which reads data from the Databricks table ``xyz``. It then 
 Read Databricks Table in Workflow
 ------------------------------------------
 
-In the workflow, use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.
+In the workflow, use the processor **ReadDatabricksTable**. It will allow you to read tables from Databricks.
 
 Then, use the other processors in Fire for processing the data read from the Databricks Table.
 

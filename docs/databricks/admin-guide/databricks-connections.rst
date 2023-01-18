@@ -3,7 +3,7 @@ Databricks Connections
 
 Fire Insights connects to Databricks using Connections.
 
-Connections in Fire Insights can be a various levels:
+Connections in Fire Insights can be at various levels:
 
   * Global Connections
   * Group Level Connections
@@ -12,52 +12,49 @@ Connections in Fire Insights can be a various levels:
 Global Connections
 ------------------
 
-The admin users in Fire Insights can configure the global connections. These are available for all the users logged into Fire Insights.
+The admin users in Fire Insights can configure the global connections. These connections are available for all the users logged into Fire Insights.
 
 
 Group Level Connections
 -----------------------
 
-The admin users in Fire Insights can configure group level connection. These are available to use to the users belonging to that group.
+The admin users in Fire Insights can configure group level connection. These connections are available for use to the users belonging to that group.
 
 Project Level Connections
 -------------------------
 
-Users of a project can create connections within the Project. These can be used for operations associated with that Project.
+Users of a project can create connections within the Project. These connections can be used for operations associated with that Project.
 
 Setting Current Connection
 --------------------------
 
-A user can set their current connection from the list. Here the user can choose from the global and group level connections. And also from project level connections.
-
-
-Scenarios
+A user can set their current connection from the list. Here, the user can choose from among the global, group level, or project level connections.
 ----------
 
-Data/Databricks Clusters
+Data or Databricks Clusters
 +++++++++++++++
 
-Here the user can choose from global and group level connections. 
+Here, the user can choose between the global and group level connections. 
 When the user lands on this page, the user's current connection is chosen by default.
 
-Data/DBFS
+Data or DBFS
 +++++++++++++++
 
-Here the user can choose from global and group level connections.
+Here, the user can choose between the global and group level connections.
 When the user lands on this page, the user's current connection is chosen by default.
 
 
-Data/Databricks DB
+Data or Databricks Database
 +++++++++++++++
 
-Here the user can choose from global and group level connections.
+Here, the user can choose between the global and group level connections.
 When the user lands on this page, the user's current connection is chosen by default.
 
 
 Workflow Editor
 +++++++++++++++
 
-Here the connection is chosen in the following order of priority:
+Here, the connection is chosen in the following order of priority:
 
   * Project level connection
   * Group level connection
@@ -67,7 +64,7 @@ Here the connection is chosen in the following order of priority:
 Workflow Execute
 +++++++++++++++
 
-Here the connection is chosen in the following order of priority:
+Here, the connection is chosen in the following order of priority:
 
   * Current Connection (if it belongs to the same group as the workflow)
   * Project level connection
@@ -77,7 +74,7 @@ Here the connection is chosen in the following order of priority:
 Analytical Apps
 +++++++++++++++
 
-Here the connection is chosen in the following order of priority:
+Here, the connection is chosen in the following order of priority:
 
   * Project level connection
   * Current Connection (but it cannot be from another Project)

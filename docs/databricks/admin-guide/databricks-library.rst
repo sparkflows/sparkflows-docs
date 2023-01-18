@@ -8,6 +8,6 @@ Download Fire Core Jar and Fire Python wheel file from the links given below and
    - https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar
    
 * Fire Python wheel file Download Link:
-   - https://sparkflows-release.s3.amazonaws.com/fire/common/fire-3.1.0-py3-none-any.whl
+   - https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire-3.1.0-py3-none-any.whl
    
 .. note:: You can download the above Fire Core Jar and Fire Python wheel file even from the Fire Insights Binary package.

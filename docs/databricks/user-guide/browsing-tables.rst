@@ -1,9 +1,9 @@
 Browse Databricks Tables
 ===========================
 
-Fire Insights allows you to Browse your Databricks Databases & Tables.
+Fire Insights allows you to browse your Databricks databases & tables. Follow the steps given below in order to gather more information about this feature.
 
-Go to Data/Databricks DB
+Traverse to Data -> Databricks DB from top menu
 ----------------------
 
 It will display the Databricks DB page.

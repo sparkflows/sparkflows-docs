@@ -73,6 +73,12 @@ AWS Admin Guide
     
     ---
     
+    :doc:`/aws/admin-guide/aws-ec2-configure.rst`
+    
+    Configuring S3 on ec2 instance
+    
+    ---
+    
     :doc:`ecs-fargate-sparkflows-deployment/index`
     
     Spakflows deployment on ecs fargate
@@ -96,6 +102,7 @@ AWS Admin Guide
    glue-integration/index.rst
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
+   aws-ec2-configure.rst
    ecs-fargate-sparkflows-deployment/index.rst
    configuring-aws-certificate.rst
    

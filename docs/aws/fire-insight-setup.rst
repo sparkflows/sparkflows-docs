@@ -2,12 +2,12 @@ fire-insight setup in AWS
 
 * Install fire-insight
 
-  - Option 1: Install AMI
+  * Option 1: Install AMI
   
     - Prerequisites: 
     - Installation Steps: <Link to document>
     
-  - Option 2: Install in Linux VM
+  * Option 2: Install in Linux VM
   
     - Prerequisites: Create Security Group with proper access
     - Installation Steps: <Link to document>

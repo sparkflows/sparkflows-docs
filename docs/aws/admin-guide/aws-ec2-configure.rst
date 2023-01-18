@@ -90,7 +90,7 @@ Since the Role has been successfully set up, in the previous steps, so now we ar
 
 Once you login to Fire Insights application click on ``ADMINISTRATION`` tab located on top, it will take you to the configuration page.
 
-.. figure:: ../../../_assets/aws/glue/config.PNG
+.. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws
    :width: 60%
 
@@ -116,6 +116,6 @@ Once you login to Fire Insights application click on ``ADMINISTRATION`` tab loca
      - As per resource in the region
      - Input the aws region
 
-.. figure:: ../../../_assets/aws/iam-assume-role/aws_configurations.PNG
+.. figure:: ../../_assets/aws/iam-assume-role/aws_configurations.PNG
    :alt: aws
    :width: 60%

@@ -32,9 +32,9 @@ We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the pol
 
 ::
 
-{
-  "Version": "2012-10-17",
-  "Statement": [
+  {
+   "Version": "2012-10-17",
+   "Statement": [
     {
       "Effect": "Allow",
       "Principal": {
@@ -43,9 +43,9 @@ We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the pol
         ]
       },
       "Action": "sts:AssumeRole"
-    }
-  ]
-}
+      }
+    ]
+  }
 
 4. Create Inline Policy:
 

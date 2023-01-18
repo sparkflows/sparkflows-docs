@@ -8,25 +8,25 @@ With this, one can:
   - Create New Databases
   - Create New Tables
   - View the schema of the tables
-  - And many more
+  - And much more
 
-Go to DATABROWSERS/Databricks DB. Then click on DDL.
+Go to DATABROWSERS or Databricks DB. Then, click on DDL.
 
-Databricks has a good page on Creating New Tables:
+For detailed information, please visit the link given below:
 
 https://docs.databricks.com/spark/latest/spark-sql/language-manual/create-table.html
 
-Below are example of running DDL
+Below are examples to run DDL
 --------------------------------
 
-Creating Database
+Create Database
 +++++++++++++++++
 
 * DDL Statement::
 
     CREATE DATABASE finance; 
     
-Creating Table
+Create Table
 ++++++++++++++
 
 * DDL Statement::
@@ -50,7 +50,7 @@ Location of the data could be changed to S3 location.
    
 
 
-Running SQL
+Run SQL
 +++++++++++
 
 * Select SQL Statement::

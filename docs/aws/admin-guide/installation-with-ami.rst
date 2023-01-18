@@ -21,11 +21,39 @@ Installation Steps
 - Make sure to read all instructions updated on the usage Instructions of Sparkflows AMI.
 - Once done with above instructions, Click on Continue to Subscribe
   
-  .. figure:: ../../../_assets/aws/aws-marketplace.png
+  .. figure:: ../../_assets/aws/aws-marketplace.png
    :alt: aws marketplace
-   :width: 60%
+   :width: 80%
    
 - Next Click on Continue to Configuration where detail information of the product will be displayed.
-- Click on Continue to Launch, it will have EC2 Instance Type, VPC Settings, Subnet Settings, Security Group Settings and Key Pair Settings, that need to be updated as per usage instructions.
-- Click on Launch.
+
+  .. figure:: ../../_assets/aws/aws-ami-configure.png
+     :alt: aws configure sparkflows
+     :width: 80%
+
+- Configure the EC2 instance with the appropriate Software version and region.
+
+  .. figure:: ../../_assets/aws/aws-fulfillment-options.png
+     :alt: aws fulfillment options for sparkflows
+     :width: 80%
+     
+- Select the EC2 instance type, which has atleast 8vCPU and 64GB RAM. Also select your preferred VPC.
+
+  .. figure:: ../../_assets/aws/vpc-ec2-setting.png
+     :alt: aws fulfillment options for sparkflows with vpc
+     :width: 60%
+
+- Finally choose the EC2 key pair and click on launch.
+
+  .. figure:: ../../_assets/aws/marketplace-launch-ec2.png
+     :alt: aws fulfillment options for sparkflows with ec2 keypair
+     :width: 80%
+
+Access the application
+--------
+
+Once the Instance is in Running state and stable, you can login to below url as updated in usage instructions:
+
+- http://host_name:8080 (hostname or ip)
+- Login with admin/Instance ID(you can copy from aws instance running)
 

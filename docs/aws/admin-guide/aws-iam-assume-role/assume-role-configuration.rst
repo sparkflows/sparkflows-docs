@@ -9,12 +9,6 @@ After the trust relationship is created, an IAM user or an application from the 
 
 Following steps are required to create a role for S3 bucket access and assume the Role from Fire Insights.
 
-1. 
-
-https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html#create-task-execution-role
-
-https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
-
 1. Create a Role **ecsTaskExecutionRole** 
 
 We need to ensure it is attached with a policy to access ECS resources.
@@ -22,6 +16,12 @@ We need to ensure it is attached with a policy to access ECS resources.
 You can use IAM roles to delegate access to your AWS resources.
 
 Login to AWS Console which has sufficient privilege to create a role with name ''fire-insight-role''.
+
+Reference:
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html#create-task-execution-role
+
+https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
 
 2. Start Creating the Role
 

@@ -16,7 +16,7 @@ Analytics Apps List
 
 When you go to ANALYTICS APPS under APPLICATIONS all existing analytics apps are displayed. Where you can EDIT, VIEW, and DELETE existing analytics apps.
 
-  .. figure:: ../../_assets/web-app/list.PNG
+  .. figure:: ../../_assets/web-app/Create1.PNG
       :alt: web-app
       :width: 90%
 
@@ -33,7 +33,7 @@ Fill in the required fields as below.
 - *Project List*: Select a project from the list where you want to create the app.
 - *Notebook/Workflow List*: List will contain either notebook list or Workflows list coming under selected project depending upon execution type.
 
-  .. figure:: ../../_assets/web-app/create.PNG
+  .. figure:: ../../_assets/web-app/Create2.PNG
       :alt: web-app
       :width: 90%
 

@@ -4,7 +4,7 @@ Write to Databricks Tables
 Fire Insights enables you to write to Databricks tables.
 
 
-In the workflow use the processor `SaveDatabricksTable`. It will allow you to save data to Databricks tables.
+In the workflow, use the processor `SaveDatabricksTable`. It will allow you to save data to Databricks tables.
 
 Below is a workflow which writes data to the Databricks table ``default``.
 
@@ -21,7 +21,7 @@ Processor Configurations for SaveDatabricksTable
 * DATABRICKS DATABASE : Click on BROWSE STUDIO DB and select specified database.
 * DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
 * FORMAT : The tables can be saved into CSV, JSON, Parquet and ORC file formats.
-* SAVE MODE : Append, overwrites, ErrorifExists or Ignore
+* SAVE MODE : Append, overwrites, ErrorifExists or Ignore.
 
 .. figure:: ../../_assets/configuration/savedatabricks_configuration.PNG
    :alt: Databricks

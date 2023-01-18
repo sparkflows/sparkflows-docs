@@ -12,8 +12,8 @@ Below are the steps to import self-signed certificate into your browser:
 Export the certificate to your machine
 --------------------------------------------
 
-- Got to ``URL`` for the ``HTTPS`` port.
-   - https://privateip:8443/login
+- Go to ``URL`` for the ``HTTPS`` port.
+   - https://host_name:8443/login
 
 .. figure:: ../../../_assets/configuration/Url_https.PNG
    :alt: certificate

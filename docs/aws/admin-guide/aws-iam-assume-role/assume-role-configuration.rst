@@ -12,7 +12,7 @@ Following steps are required to create a role for S3 bucket access and assume th
 
 1. Create the Role fire-insight-role
 
-.. figure:: ../../../_assets/aws/iam-assume-role/1_create_ecsTaskExecutionRole.png
+.. figure:: ../../../_assets/aws/iam-assume-role/1_fire_insight_select_trusted_entity.png
    :alt: aws
    :width: 60%
 
@@ -106,9 +106,7 @@ https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
    
 5. Assign ECS Trust Relationship to fire-insight-role.
 
-.. figure:: ../../../_assets/aws/iam-assume-role/1_fire_insight_select_trusted_entity.png
-   :alt: aws
-   :width: 60%
+
 
 We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “fire-insight-role” role:
 

@@ -122,7 +122,7 @@ Once you login to Fire Insights application, click on ``ADMINISTRATION`` tab loc
 
 3. Now, save the configurations and click on ``DATA/AWS S3``.
 
-It will point to the configured ``S3`` location, if the earlier steps have been successfully completed.
+If previous steps were successful, it will point to the S3 location configured.
 
 .. figure:: ../../_assets/aws/aws_s3_ec2/s3_access.PNG
    :alt: aws

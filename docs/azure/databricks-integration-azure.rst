@@ -3,9 +3,9 @@ Azure Databricks Integration Steps
 
 Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
 
-Fire also fetches the list of databases and tables from Databricks, making it easier for the user to build their workflows and execute them. In addition, Fire displays the list of Databricks clusters running for the user.
+Fire also fetches the list of databases and tables from Databricks, making it easier for the user to build their workflows and execute those workflows. In addition, Fire displays the list of Databricks clusters running for the user.
 
-* Running Databricks on Azure : https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal
+For detailed information on running Databricks on Azure, please visit the link given here : https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal
 
 Below are the steps for integrating Fire Insights with your Databricks Clusters:
 
@@ -17,28 +17,28 @@ Install Fire Insights on any machine. The machine has to be reachable from the D
 Upload Fire Core Jar to Databricks
 ----------------------------------
 
-Upload Fire Insights jar to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
+Upload Fire Insights Jar to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
 1. Login to ``Databricks Cluster``.
 ++++++++++++++++++++++++++++++++
 
-2. Click on ``Workspace`` in the left side pane.
+2. Click on ``Workspace`` located on the left side pane.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/azure_workspace.PNG
       :alt: Databricks
       :width: 40%
    
-3. Create a Install new Library.
+3. Create a new Library.
 ++++++++++++++++++++++++++++++++
  
    .. figure:: ../_assets/configuration/library_create.PNG
       :alt: Databricks
       :width: 40%
    
-4. Upload ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from your machine by Clicking on ``Drop JAR here`` or you may upload in ``dbfs``.
+4. Upload ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from your machine by clicking on ``Drop JAR here`` or you may upload in ``DBFS``.
 ++++++++++++++++++++++++++++++++
 
    .. figure:: ../_assets/configuration/uploadlibrary.PNG
@@ -48,32 +48,32 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependenc
 5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
 ++++++++++++++++++++++++++++++++
 
-   .. figure:: ../_assets/configuration/createlibrary.PNG
-      :alt: Databricks
-      :width: 40%
+ .. figure:: ../_assets/configuration/createlibrary.PNG
+    :alt: Databricks
+    :width: 40%
  
- 6. Upload ``fire-3.1.0-py3-none-any.whl`` 
+ 6. Upload ``fire-3.1.0-py3-none-any.whl``. 
 ++++++++++++++++++++++++++++++++
 
-You can upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` or directly download it from below link:
+You can upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` or directly download it from the link given below:
 
-Reference link : https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-library.html
+https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-library.html
   
-6. Upload ``workflowexecutedatabricks.py`` file to DBFS
+7. Upload ``workflowexecutedatabricks.py`` file to DBFS.
 ++++++++++++++++++++++++++++++++
 
 For Python Job submission to Databricks Cluster:
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS, Copy the absolute path which need to be added in databricks connection in ``DATABRICKS`` tab for ``Python file`` 
+Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py`` file to DBFS, copy the absolute path which needs to be added in databricks connection in ``DATABRICKS`` tab for ``Python file``. 
 
-.. note:: mandatory to update above path, else Pyspark job will error.
+.. note:: It is mandatory to update the above path or else the Pyspark job will show the error message.
 
 Install Databricks JDBC Driver
 -----------------------------------
 
 Fire needs the Databricks JDBC Driver to be installed. Install it in the ``fire-user-lib`` and ``fire-server-lib`` folder of the Fire installation.
 
-You can download the Databricks JDBC Driver from the Databricks website : 
+You can download the Databricks JDBC Driver from the Databricks website using the links given below: 
 
 * https://docs.databricks.com/bi/jdbc-odbc-bi.html
 * https://databricks.com/spark/odbc-driver-download
@@ -145,14 +145,11 @@ It can also be created by any user with their Application. In this case, it is o
    :alt: Databricks Connection
    :width: 40%
 
-Reference Link : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
+Reference Link for further information : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
 
-2. Configure the Uploaded Library in Fire Insights
+2. Configure the Uploaded Library in Fire Insights.
 
-
-Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
-
-This has to be done under Administration/Configuration.
+Configure the path of the uploaded fire core jar library in Databricks in Fire Insights. This has to be done under Administration/Configuration.
 
 
 .. figure:: ../_assets/configuration/databricks-configurations.PNG
@@ -161,7 +158,6 @@ This has to be done under Administration/Configuration.
    
    
 3. Configure app.postMessageURL in Fire Insights in Databricks
-
 
 Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
 

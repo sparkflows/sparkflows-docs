@@ -30,7 +30,7 @@ AWS Admin Guide
     
    ---
     
-    :doc:`/aws/emr-livy/index`
+    :doc:`admin-guide/emr-livy/index`
     
     LIVY Configurations and Job submission
     
@@ -101,7 +101,7 @@ AWS Admin Guide
    introduction.rst
    planning.rst
    running-on-emr.rst
-   aws/emr-livy/index.rst
+   emr-livy/index.rst
    test.rst
    operations.rst
    cloudformationh2db.rst

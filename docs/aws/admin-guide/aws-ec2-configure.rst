@@ -1,9 +1,9 @@
 AWS S3 Configurations
 ==================
 
-Fire Insights enable you to configure with S3 running on ec2 instance using IAM role.
+Fire Insights enables you to configure with S3 running on EC2 instance using IAM role.
 
-Following steps are required to create a role for S3 bucket access and attach the role to ec2 instance on which Fire is running.
+Following steps are required to create a role for S3 bucket access and attach the role to EC2 instance on which Fire is running:
 
 1. Create a Role:
 
@@ -11,7 +11,7 @@ Login to AWS Console which has sufficient privilege to create a role with name '
 
 2. Create Inline Policy:
 
-"Create an ''inline policy'' which has access to S3 policy which in turn has access to the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and then attach it to the role."
+Create an ''inline policy'' which has access to S3 policy which in turn has access to the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and then attach it to the role.
 
 ::
 
@@ -65,36 +65,36 @@ Login to AWS Console which has sufficient privilege to create a role with name '
   }
 
 
-3. Now, the policy ''assume_role_bucket1'' needs to be attached to the ec2 instance where Fire is running.
+3. Now, the policy ''assume_role_bucket1'' needs to be attached to the EC2 instance where Fire is running.
 
-Inorder to attach above role to ec2 instance, you need to Login to AWS Console and Go to ``EC2 Dashboard`` and select the ec2 instnace where Fire is running and choose ``Security``, from ``Actions`` dropdown and Click on ``Modify IAM role``
+In order to attach the above role to EC2 instance, you need to Login to AWS Console and go to ``EC2 Dashboard`` and select the EC2 instance where Fire is running and choose ``Security``, from ``Actions`` dropdown and click on ``Modify IAM role``.
 
 .. figure:: ../../_assets/aws/aws_s3_ec2/role_added.PNG
    :alt: aws
    :width: 60%
 
-select ``IAM role`` which got created on ``step 1`` and Click on ``Update IAM role``
+Select ``IAM role`` which was created in ``step 1`` and click on ``Update IAM role``.
 
 .. figure:: ../../_assets/aws/aws_s3_ec2/role_selected.PNG
    :alt: aws
    :width: 60%
 
-Once, the above steps successfully completed, You need to configure s3 in Fire.
+Once the above steps get successfully completed, you need to configure S3 in Fire.
 
 Fire Configurations for S3
 -----------------------
 
-Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Fire Insights. Follow the below steps to complete the configuration:
+Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Fire Insights. Follow the steps given below to complete the configuration:
 
 1. Login to Fire Insights application:
 
-Once you login to Fire Insights application click on ``ADMINISTRATION`` tab located on top, it will take you to the configuration page.
+Once you login to Fire Insights application, click on ``ADMINISTRATION`` tab located on top, it will take you to the configuration page.
 
 .. figure:: ../../_assets/aws/glue/config.PNG
    :alt: aws
    :width: 60%
 
-2. Update the below parameters as per the AWS configurations:
+2. Update the below given parameters as per the AWS configurations:
 
 .. list-table:: 
    :widths: 10 20 30
@@ -114,20 +114,20 @@ Once you login to Fire Insights application click on ``ADMINISTRATION`` tab loca
      - s3a://bucketName/sampleData 
    * - AWS Region
      - As per resource in the region
-     - Input the aws region
+     - Input the AWS region
 
 .. figure:: ../../_assets/aws/iam-assume-role/aws_configurations.PNG
    :alt: aws
    :width: 60%
 
-3. Now Save the Configurations and Click on ``DATA/AWS S3``
+3. Now, save the configurations and click on ``DATA/AWS S3``.
 
-It will point to ``s3`` location configured, if the earlier steps successfully completed.
+It will point to the configured ``S3`` location, if the earlier steps have been successfully completed.
 
 .. figure:: ../../_assets/aws/aws_s3_ec2/s3_access.PNG
    :alt: aws
    :width: 60%
 
-Now you can use data available in s3 from workflow editor, using different node available.
+Now, you can use the data available in S3 from workflow editor, using different nodes available.
 
 

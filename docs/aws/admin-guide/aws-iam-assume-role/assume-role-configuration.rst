@@ -82,7 +82,7 @@ Following steps are required to create a role for S3 bucket access and assume th
    
 3. Create a Role **ecsTaskExecutionRole** 
 
-.. figure:: ../../../_assets/aws/iam-assume-role/1_create_ecsTaskExecutionRole.png
+.. figure:: ../../../_assets/aws/iam-assume-role/2_attach_policy__ecsTaskExecutionRole.png
    :alt: aws
    :width: 60%
 
@@ -100,7 +100,7 @@ https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
 
 4. Attach Policy to ECS Task Execution Role.
 
-.. figure:: ../../../_assets/aws/iam-assume-role/2_attach_policy__ecsTaskExecutionRole.png
+.. figure:: ../../../_assets/aws/iam-assume-role/1_create_ecsTaskExecutionRole.png
    :alt: aws
    :width: 60%
    

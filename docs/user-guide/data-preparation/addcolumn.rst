@@ -1,7 +1,7 @@
 Add Columns
 ==========
 
-Fire Insights provide processors for Add Columns data
+Fire Insights provide processors to cast data type from one type to another.
 
 
 Add Columns Processors in Fire Insights

@@ -32,7 +32,7 @@ AWS Admin Guide
     
     :doc:`/aws/emr-livy/index`
     
-    LIVY Configurations and enhancements
+    LIVY Configurations and Job submission
     
       
     ---

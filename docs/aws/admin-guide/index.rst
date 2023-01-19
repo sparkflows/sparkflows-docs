@@ -28,7 +28,13 @@ AWS Admin Guide
     
     Steps to run Fire Insights on EMR
     
-   
+   ---
+    
+    :doc:`/aws/emr-livy/index`
+    
+    LIVY Configurations and enhancements
+    
+      
     ---
     
     :doc:`/aws/admin-guide/test`
@@ -95,6 +101,7 @@ AWS Admin Guide
    introduction.rst
    planning.rst
    running-on-emr.rst
+   aws/emr-livy/index.rst
    test.rst
    operations.rst
    cloudformationh2db.rst

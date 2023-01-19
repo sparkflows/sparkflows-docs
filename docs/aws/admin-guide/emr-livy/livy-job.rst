@@ -9,7 +9,7 @@ Below are steps:
 
 Create a workflow which reads some sample data from S3 and Print some sample output.
 
-.. figure:: ../../_assets/aws/livy/sample_wf.PNG
+.. figure:: ../../../_assets/aws/livy/sample_wf.PNG
    :alt: livy
    :width: 60%
 
@@ -17,15 +17,15 @@ Create a workflow which reads some sample data from S3 and Print some sample out
 
 Once you saved the workflow, Execute it and select the Connection as LIvy
 
-.. figure:: ../../_assets/aws/livy/wf_livy.PNG
+.. figure:: ../../../_assets/aws/livy/wf_livy.PNG
    :alt: livy
    :width: 60%
    
-.. figure:: ../../_assets/aws/livy/wf_livy_submission.PNG
+.. figure:: ../../../_assets/aws/livy/wf_livy_submission.PNG
    :alt: livy
    :width: 60%   
    
-.. figure:: ../../_assets/aws/livy/wf_livy_Submitted.PNG
+.. figure:: ../../../_assets/aws/livy/wf_livy_Submitted.PNG
    :alt: livy
    :width: 60%   
 
@@ -33,6 +33,6 @@ Once you saved the workflow, Execute it and select the Connection as LIvy
 
 You Can view the Job from YARN application from AWS Console too.
 
-.. figure:: ../../_assets/aws/livy/emr_job.PNG
+.. figure:: ../../../_assets/aws/livy/emr_job.PNG
    :alt: livy
    :width: 60%

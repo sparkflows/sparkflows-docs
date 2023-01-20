@@ -222,7 +222,7 @@ For YARN tab
    :width: 60%      
 
 Test connection and save
---------
+==========
 
 Once you have updated the above parameters, click on ``Test Connection``, if the connection is successful, ``Save`` the connection.
 
@@ -235,7 +235,7 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
    :width: 60%   
 
 Documentation
------
+=======
 
 Reference guide : https://docs.sparkflows.io/en/latest/aws/emr-livy/index.html
 

@@ -1,7 +1,8 @@
-EMR LIVY
+EMR Livy
 ======
 
-Fire Insights Integrated with LIVY, you can Create LIVY Connection and submit the job on it.
+
+Fire Insights integrates with Livy to enable the user to create Livy connection and submit the job on it.
 
 .. toctree::
    :maxdepth: 2

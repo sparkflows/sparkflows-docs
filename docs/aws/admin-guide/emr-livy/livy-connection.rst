@@ -1,13 +1,16 @@
-EMR LIVY CONNECTION
+EMR Livy Connection
 =============
 
-Sparkflows enables you to create Apache Livy Connection and use it to submit Jobs/Workflows.
+This is a stepwise guide to enable you to create an Apache Livy Connection in Sparkflows and then run jobs or workflows using the connection.
 
-Below are the steps to create a Livy Connection in Sparkflows.
+Detailed Steps
++++++++
+
+Following the steps given below would allow you to successfully create a Livy Connection.
 
 1. Enable Livy in Sparkflows
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
+Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the parameter given below:
 
 ::
 
@@ -19,15 +22,15 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
 2. Create Global Connections
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you have saved the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
 .. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
    :width: 60%
    
-3. Add Connection For Group
+3. Add Connection for Group
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
 .. figure:: ../../../_assets/aws/livy/add_connection.PNG
    :alt: livy
@@ -39,7 +42,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    
 4. Additional parameter as per your environment
 
-Once you Selected Connection Type & Groups, add the additonal Connection parameters needed.
+Once you have selected Connection Type & Groups, add the additonal connection parameters as needed.
 
 For GENERAL tab :
 
@@ -54,16 +57,16 @@ For GENERAL tab :
      - Connection Name
      - Name of Connection
    * - Postback Url
-     - Postback Url
-     - Postback Url through which Livy sent result back to Fire Insights
+     - Postback URL
+     - Postback URL through which Livy sent result back to Fire Insights
    * - Title 
-     - Title of Selected Connection
-     - Title of Selected Connection  
+     - Title of selected Connection
+     - Title of selected Connection  
    * - Description 
      - Connection Description 
      - Connection Description
    * - Url
-     - Url for selected Connection type
+     - URL for selected Connection type
      - Add URL for Livy Connection
    * - Driver Class
      - Driver Class for selected Connection type 
@@ -83,38 +86,38 @@ For LIVY tab :
      - Description
      - Value
    * - Jars
-     - Jars to be used in emr livy session
+     - Jars to be used in EMR Livy session
      - Jars path located in S3 Location
    * - Pyspark Files
-     - Pyspark Files to be used in emr livy session
+     - Pyspark Files to be used in EMR Livy session
      - Pyspark file located in S3 Location  
    * - Files
-     - Files to be used in emr livy session
+     - Files to be used in EMR Livy session
      - Any Files if needed
    * - Archives Files
-     - Archives Files to be used in emr livy session
+     - Archives Files to be used in EMR Livy session
      - Value  
    * - Driver Memory 
-     - Driver Memory to be used in emr livy session
+     - Driver Memory to be used in EMR Livy session
      - Driver Memory if any specific memory you need to pass
    * - Driver Cores
-     - Driver Cores to be used in emr livy session
+     - Driver Cores to be used in EMR Livy session
      - Driver Cores if any specific Cores you need to pass  
    * - Executor Memory
-     - Executor Memory to be used in emr livy session
+     - Executor Memory to be used in EMR Livy session
      - Executor Memory if any specific Executor Memory you need to pass  
    * - Executor Cores
-     - Executor Cores to be used in emr livy session
+     - Executor Cores to be used in EMR Livy session
      - Executor Cores if any specific Executor Cores you need to pass  
    * - Num Executors
-     - Num Executors to be used in emr livy session
+     - Num Executors to be used in EMR Livy session
      - Num Executors if any specific Num Executors you need to pass  
      
 .. figure:: ../../../_assets/aws/livy/add_livy.PNG
    :alt: livy
    :width: 70%     
 
-.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
+.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and that it is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
 
 .. figure:: ../../../_assets/aws/livy/livy_jar.PNG
    :alt: livy
@@ -219,4 +222,4 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
    :alt: livy
    :width: 60%   
 
-.. Note:: Make sure that Apache Livy URL will be accessible from Sparkflows webserver URL.
+.. Note:: Make sure that Apache Livy URL is accessible from Sparkflows webserver URL.

@@ -9,7 +9,7 @@ Sparkflows enables you to create "Apache Livy Connection" and use it to submit j
 
 This page show how to create a "Livy Connection" in Fire Insights.
 
-1. Enable Livy in Sparkflows
+Enable Livy in Sparkflows
 ===========
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
@@ -22,7 +22,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: livy
    :width: 60%
 
-2. Navigate to Add Connections
+Navigate to Add Connections
 ===========
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
@@ -44,7 +44,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: livy
    :width: 60%   
    
-4. Add additional parameters as per your environment
+Add additional parameters as per your environment
 ======
 
 Once you have selected  the connection type & groups, add the additonal connection parameters needed. For more deatils refer the following tables and images:
@@ -152,8 +152,8 @@ For HDFS tab
    :alt: livy
    :width: 60%
 
-For HIVE ta
-+++
+For HIVE tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -173,8 +173,8 @@ For HIVE ta
    :alt: livy
    :width: 60%    
 
-For KERBEROS ta
-+++
+For KERBEROS tab
+++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -203,8 +203,8 @@ For KERBEROS ta
    :alt: livy
    :width: 60%      
 
-For YARN ta
-+++
+For YARN tab
+++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -221,7 +221,7 @@ For YARN ta
    :alt: livy
    :width: 60%      
 
-5. Test connection and save
+Test connection and save
 --------
 
 Once you have updated the above parameters, click on ``Test Connection``, if the connection is successful, ``Save`` the connection.

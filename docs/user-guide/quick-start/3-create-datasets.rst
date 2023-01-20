@@ -12,7 +12,10 @@ The steps involved in creating a dataset are:
 * Update the schema of the dataset.
 * Click on ``Save``.
 
-**Lets go ahead and create a Dataset now:**
+This page shows the detailed steps for creating a Dataset.
+
+Click on Create button
+=============
 
 * Click on ``Create`` and choose the option from the dropdown to create the ``Dataset``. Fire Insights enables you to create ``Dataset`` using three options namely ``From Existing Files``, ``By Uploading New File`` and ``Using Connections``. Here, we choose ``From Existing Files`` option.
  
@@ -20,13 +23,15 @@ The steps involved in creating a dataset are:
    :alt: Dataset
    :width: 90%
 
-* In the pop-up choose ``CSV`` and then click ``OK``.
+In the pop-up choose ``CSV`` and then click ``OK``
+===============
  
   .. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.png
    :alt: Dataset
    :width: 90% 
 
-* Fill in the required fields as below:
+Fill in the required fields as below
+===============
 
   * ``Name``: Name of the new dataset. 
   * ``Category``: An apt category that you want to tag the dataset to.
@@ -37,7 +42,10 @@ The steps involved in creating a dataset are:
   * ``Path``: Path for the location of the file or directory containing the data files for the dataset.
   * ``Drop Sepcial Character in Column Name``: Indicate whether the dataset should drop special character in column name.  
  
-* Now click on ``Update dataset/schema`` to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
+Now click on ``Update dataset/schema`` to update the schema of the dataset
+===========
+
+Sample data for the dataset will be displayed followed by the schema.
 
   .. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.png
    :alt: Dataset
@@ -50,9 +58,11 @@ The steps involved in creating a dataset are:
    :width: 90%
   
 
-* Now click ``Save`` to save the new dataset and you are ready to use it in your workflows.
+Now click ``Save`` to save the new dataset and you are ready to use it in your workflows
+=======
 
-**One can see the list of all the datasets that belong to the project under the Datasets tab.**
+One can see the list of all the datasets that belong to the project under the Datasets tab
+========
  
 .. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.png
    :alt: Dataset

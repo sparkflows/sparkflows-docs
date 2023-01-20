@@ -235,8 +235,10 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
    :width: 60%   
 
 Documentation
-+++++
+-----
 
 Reference guide : https://docs.sparkflows.io/en/latest/aws/emr-livy/index.html
 
-.. Note:: Make sure that Apache Livy URL should be accessible from Sparkflows webserver URL.
+.. Note:: Make sure that Apache Livy URL should be accessible from Fire Insights webserver URL.
+
+

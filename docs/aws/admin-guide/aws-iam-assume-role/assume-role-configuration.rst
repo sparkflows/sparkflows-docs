@@ -17,7 +17,7 @@ Following steps are required to create a role for S3 bucket access and assume th
    :width: 60%
 
 
-**2. Create Inline Policy**
+**2. Create Inline Policy fire-insight-policy**
 
 "Create an ''inline policy'' named **fire-insight-policy** which has access to S3 Policy which in turn has access to the different buckets e.g. ''fire-insight-bucket1'' & ''fire-insight-bucket2'' and then attach it to the role."
 

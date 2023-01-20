@@ -1,5 +1,5 @@
 Step 3 : Create Dataset
-=========================
+---------
 
 To use a data file in multiple projects, it is ideal to wrap it into a dataset. Dataset allows the schema and other meta information of the data to be defined in one place.
 

@@ -1,15 +1,29 @@
 Assume Role Configurations
 =======
 
+
+With IAM roles, one can establish trust relationships between the trusting account and other AWS trusted accounts.
+However, it is possible for another account to own a resource in this account. For example, the trusting account might allow the trusted account to create new resources, such as creating new objects in an Amazon S3 bucket. In that case, the account that creates the resource owns the resource and controls who can access that resource.
+
+After the trust relationship is created, an IAM user or an application from the trusted account can use the AWS Security Token Service (AWS STS) *AssumeRole* API operation. This operation provides temporary security credentials that enable access to AWS resources in your account from an AWS-hosted Service like Fire-Insight.
+
 Following steps are required to create a role for S3 bucket access and assume the Role from Fire Insights.
 
-1. Create a Role:
 
-Login to AWS Console which has sufficient privilege to create a role with name ''assume-role-bucket1''.
+**1. Create the Role fire-insight-role**
 
-2. Create Inline Policy:
+.. figure:: ../../../_assets/aws/iam-assume-role/1_fire_insight_select_trusted_entity.png
+   :alt: aws
+   :width: 60%
 
-"Create an ''inline policy'' which has access to S3 policy which in turn has access to the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and then attach it to the role."
+
+**2. Create Inline Policy**
+
+"Create an ''inline policy'' named **fire-insight-policy** which has access to S3 Policy which in turn has access to the different buckets e.g. ''fire-insight-bucket1'' & ''fire-insight-bucket2'' and then attach it to the role."
+
+  .. figure:: ../../../_assets/aws/iam-assume-role/2_fire_insight_attach_policy.png
+   :alt: aws
+   :width: 60%
 
 ::
 
@@ -32,10 +46,10 @@ Login to AWS Console which has sufficient privilege to create a role with name '
                 "s3:GetBucketAcl"
             ],
             "Resource": [
-                "arn:aws:s3:::assume-role-bucket1",
-                "arn:aws:s3:::assume-role-bucket1/*",
-                "arn:aws:s3:::assume-role-bucket2",
-                "arn:aws:s3:::assume-role-bucket2/*"
+                "arn:aws:s3:::fire-insight-bucket1",
+                "arn:aws:s3:::fire-insight-bucket1/*",
+                "arn:aws:s3:::fire-insight-bucket2",
+                "arn:aws:s3:::fire-insight-bucket2/*"
             ],
             "Effect": "Allow"
         },
@@ -62,30 +76,58 @@ Login to AWS Console which has sufficient privilege to create a role with name '
     ]
   }
 
+  .. figure:: ../../../_assets/aws/iam-assume-role/3_fire_insight_create_policy.png
+   :alt: aws
+   :width: 60%
+   
+**3. Create a Role ecsTaskExecutionRole** 
 
-3. In the trust relationship of that role, allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “assume-role-bucket1” role:
+.. figure:: ../../../_assets/aws/iam-assume-role/2_attach_policy__ecsTaskExecutionRole.png
+   :alt: aws
+   :width: 60%
+
+We need to ensure it is attached with a policy to access ECS resources.
+
+You can use IAM roles to delegate access to your AWS resources.
+
+Login to AWS Console which has sufficient privilege to create a role with name ''fire-insight-role''.
+
+Reference:
+
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html#create-task-execution-role
+
+https://us-east-1.console.aws.amazon.com/iamv2/home#/policies
+
+**4. Attach Policy to ECS Task Execution Role.**
+
+.. figure:: ../../../_assets/aws/iam-assume-role/1_create_ecsTaskExecutionRole.png
+   :alt: aws
+   :width: 60%
+   
+**5. Assign ECS Trust Relationship to fire-insight-role.**
+
+We need to allow the AWS Resources role (ecsTaskExecutionRole) to assume the policy in the “fire-insight-role” role:
 
 ::
 
+  {
+   "Version": "2012-10-17",
+   "Statement": [
     {
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Effect": "Allow",
-			"Principal": {
-				"AWS": [
-					"arn:aws:iam::<account-id>:role/ecsTaskExecutionRole"
-									
-				]
-			},
-			"Action": "sts:AssumeRole"
-		}
-	]
-   }
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::<ACCOUNT_NO>:role/ecsTaskExecutionRole"
+        ]
+      },
+      "Action": "sts:AssumeRole"
+      }
+    ]
+  }
 
-.. note:: **ecsTaskExecutionRole** is attached with a policy to access ECS resources. 
+**6. Now, the policy ''fire-insight-policy'' needs to be attached to the ''EMR_EC2_DefaultRole'' role.**
 
-4. Now, the policy ''assume_role_bucket1'' needs to be attached to the ''EMR_EC2_DefaultRole'' role, added for EMR resources, so that it gets access to the above role while submitting the job on ''EMR Cluster or EMR Livy''.
+It can be added for EMR resources, so that it gets access to the above role while submitting the job on ''EMR Cluster or EMR Livy''.
 
 
 .. note:: Make sure to change ARN value to an exact value.

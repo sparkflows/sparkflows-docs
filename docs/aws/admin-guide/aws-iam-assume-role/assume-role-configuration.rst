@@ -76,7 +76,7 @@ Following steps are required to create a role for S3 bucket access and assume th
     ]
   }
 
-  .. figure:: ../../../_assets/aws/iam-assume-role/3_fire_insight_create_policy.png
+.. figure:: ../../../_assets/aws/iam-assume-role/3_fire_insight_create_policy.png
    :alt: aws
    :width: 60%
    

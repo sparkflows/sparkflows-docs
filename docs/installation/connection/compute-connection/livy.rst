@@ -7,9 +7,10 @@ Sparkflows enables you to create "Apache Livy Connection" and use it to submit j
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-Below are the steps to create a "Livy Connection" in Sparkflows:
+This page show how to create a "Livy Connection" in Fire Insights.
 
-1. Enable Livy in Sparkflows:
+1. Enable Livy in Sparkflows
+===========
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
 
@@ -21,7 +22,8 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: livy
    :width: 60%
 
-2. Create global connections:
+2. Navigate to Add Connections
+===========
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
@@ -29,7 +31,8 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
    :alt: livy
    :width: 60%
    
-3. Add connection for group:
+3. Add connection for group
+========
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
@@ -41,11 +44,13 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: livy
    :width: 60%   
    
-4. Additional parameter as per your environment:
+4. Add additional parameters as per your environment
+======
 
 Once you have selected  the connection type & groups, add the additonal connection parameters needed. For more deatils refer the following tables and images:
 
-For GENERAL tab :
+For GENERAL tab
+++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -77,7 +82,8 @@ For GENERAL tab :
    :alt: livy
    :width: 60%
 
-For LIVY tab :
+For LIVY tab
+++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -125,7 +131,8 @@ For LIVY tab :
    :width: 70% 
 
 
-For HDFS tab :
+For HDFS tab
++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -145,7 +152,8 @@ For HDFS tab :
    :alt: livy
    :width: 60%
 
-For HIVE tab :
+For HIVE ta
++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -165,7 +173,8 @@ For HIVE tab :
    :alt: livy
    :width: 60%    
 
-For KERBEROS tab :
+For KERBEROS ta
++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -194,7 +203,8 @@ For KERBEROS tab :
    :alt: livy
    :width: 60%      
 
-For YARN tab :
+For YARN ta
++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -211,7 +221,8 @@ For YARN tab :
    :alt: livy
    :width: 60%      
 
-5. Test connection and save:
+5. Test connection and save
+--------
 
 Once you have updated the above parameters, click on ``Test Connection``, if the connection is successful, ``Save`` the connection.
 

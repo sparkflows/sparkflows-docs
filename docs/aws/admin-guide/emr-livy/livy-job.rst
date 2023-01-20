@@ -1,38 +1,41 @@
-EMR LIVY JOB SUBMISSION
+EMR Livy Job Submission
 ===============
 
-You have Created Apache Livy Connection in earlier step, Now you can use that Connection to submit the Job on Livy.
+This is a stepwise guide to enable you to use a Livy Connection to submit jobs or workflows after you have successfully created an Apache Livy Connection in Sparkflows.
 
-Below are steps:
+Detailed Steps
+++++++++++
 
-1. Login to Fire Insights application and Create an example workflow as below:
+Following the steps given below would allow you to successfully submit jobs using a Livy Connection. 
 
-Create a workflow which reads some sample data from S3 and Print some sample output.
+1. Login to Fire Insights application and Create a sample workflow as shown below:
 
-.. figure:: ../../../_assets/aws/livy/sample_wf.PNG
-   :alt: livy
-   :width: 60%
+   Create a workflow which reads some sample data from S3 and Print some sample output.
+
+      .. figure:: ../../../_assets/aws/livy/sample_wf.PNG
+         :alt: livy
+         :width: 60%
 
 2. Execute the workflow
 
-Once you saved the workflow, Execute it and select the Connection as LIvy
+   Once you have saved the workflow, execute it and select the connection as Livy.
 
-.. figure:: ../../../_assets/aws/livy/wf_livy.PNG
-   :alt: livy
-   :width: 60%
+      .. figure:: ../../../_assets/aws/livy/wf_livy.PNG
+         :alt: livy
+         :width: 60%
    
-.. figure:: ../../../_assets/aws/livy/wf_livy_submission.PNG
-   :alt: livy
-   :width: 60%   
+      .. figure:: ../../../_assets/aws/livy/wf_livy_submission.PNG
+         :alt: livy
+         :width: 60%   
    
-.. figure:: ../../../_assets/aws/livy/wf_livy_Submitted.PNG
-   :alt: livy
-   :width: 60%   
+      .. figure:: ../../../_assets/aws/livy/wf_livy_Submitted.PNG
+         :alt: livy
+         :width: 60%   
 
-3. You Can view the Job from YARN application from AWS Console
+3. View Job status from YARN application and AWS Console
 
-You Can view the Job from YARN application from AWS Console too.
+   After successful execution, you can view the Job status from YARN application and from AWS Console too.
 
-.. figure:: ../../../_assets/aws/livy/emr_job.PNG
-   :alt: livy
-   :width: 60%
+      .. figure:: ../../../_assets/aws/livy/emr_job.PNG
+         :alt: livy
+         :width: 60%

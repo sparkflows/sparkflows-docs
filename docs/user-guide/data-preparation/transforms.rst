@@ -1,7 +1,7 @@
 Transforms
 ==========
 
-Fire Insights provides an array of processors for Data Transforms
+Fire Insights provides an array of processors for transformation of data.
 
 
 Data Transformation Processors in Fire Insights
@@ -15,7 +15,7 @@ Data Transformation Processors in Fire Insights
    * - Title
      - Description
    * - Remove Unwanted Characters
-     - Removed unwanted characters from strings
+     - Removes unwanted characters from strings.
    * - Data Validation
-     - Performs Validation on the incoming data
+     - Performs validation on the incoming data.
  

@@ -1,9 +1,9 @@
 Data Exploration
 ===========================
 
-Data exploration in machine learning refers to the process of examining and analyzing a dataset in order to understand its structure, content, and characteristics. The goal of data exploration is to gain a deeper understanding of the data, identify patterns and trends, and to prepare the data for further analysis or modeling. 
+Data exploration, in machine learning, refers to the process of examining and analyzing a dataset in order to understand its structure, content, and characteristics. The goal of data exploration is to gain a deeper understanding of the data, identify patterns and trends, and to prepare the data for further analysis or modeling. 
 
-Fire Insights enables you to do Data exploration seamlessly.
+Fire Insights enables you to perform data exploration seamlessly.
 
 .. panels::
     :container: container-lg pb-3
@@ -11,13 +11,13 @@ Fire Insights enables you to do Data exploration seamlessly.
 
     :doc:`/user-guide/data-exploration/data-exploration`
 
-    Provide a number of features for Data Exploration.
+    Provides a number of features for Data Exploration.
 
     ---
     
     :doc:`/user-guide/data-exploration/data-visualization`
 
-    Provide a number of features for Data Visualization.
+    Provides a number of features for Data Visualization.
 
 .. toctree::
    :hidden:

@@ -1,12 +1,12 @@
-Intro to Machine Learning
+Introduction to Machine Learning
 =========================
 
-Machine learning is a subfield of artificial intelligence that involves the development of algorithms and statistical models that allow systems to automatically improve their performance with experience.Its practitioners train algorithms to identify patterns in data and to make decisions with minimal human intervention.
+Machine learning is a subfield of artificial intelligence that involves the development of algorithms and statistical models that allow systems to automatically improve their performance with experience. Its practitioners train algorithms to identify patterns in data and to make decisions with minimal human intervention.
 
 Machine learning is used when:
 
-- The rules cannot be coded in to arrive at the outcome. eg: Recognizing emails as spam or not.
-- We want to scale for huge datasets. eg: Recognizing spam or not for millions of emails.
+- The rules cannot be coded in to arrive at the outcome, e.g., recognizing emails as spam or not.
+- We want to scale for huge datasets, e.g., recognizing spam or not for millions of emails.
 
 Machine learning can be used in a wide range of applications and industries, but it is particularly useful when you have a large amount of data and you want to make predictions or identify patterns in that data. Some examples of when you might use machine learning include:  
 
@@ -18,10 +18,10 @@ Machine learning can be used in a wide range of applications and industries, but
 * **Natural Language Processing (NLP)**: Machine learning models can be used for understanding and processing text, this could be for sentiment analysis, language translation, chatbots, among other use cases.
 * **Recommendation systems**: Machine learning models can be used to make personalized recommendations based on users' past behavior and preferences.
 
-There are 3 major types of learning that can be used to develop ML models. 
+There are 3 major types of learning that can be used to develop ML models. These are:
 
 **Supervised learning** - 
-This is the most common type of machine learning, and it involves training a model on a labeled dataset, where the correct output (label) is already known. The goal of the model is to make predictions based on the input data that it has seen during training. Examples of supervised learning problems include classification, regression, and forecasting.
+This is the most common type of machine learning and it involves training a model on a labeled dataset, where the correct output (label) is already known. The goal of the model is to make predictions based on the input data that it has seen during training. Examples of supervised learning problems include classification, regression, and forecasting.
 
 **Unsupervised learning** - 
 This type of machine learning involves training a model on an unlabeled dataset, where the correct output is not known. The goal of the model is to find patterns and structure in the input data. Examples of unsupervised learning problems include clustering and dimensionality reduction.

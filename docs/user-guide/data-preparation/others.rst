@@ -1,7 +1,7 @@
-Data Preparation miscellaneous
+Data Preparation: Miscellaneous
 ==========
 
-Fire Insights provides processors for Data Preparation.
+Fire Insights provides various processors for Data Preparation.
 
 
 Data Preparation Processors in Fire Insights

@@ -61,7 +61,12 @@ Troubleshooting Guide
     :doc:`/troubleshooting/assume_role`
     
     Steps to troubleshooting assume role
+  
+    ---
     
+    :doc:`/troubleshooting/postbackurl`
+    
+    Steps to troubleshooting postbackurl
 
 .. toctree::
    :hidden:
@@ -76,6 +81,7 @@ Troubleshooting Guide
    ldap.rst
    databricks.rst
    assume_role.rst
+   postbackurl.rst
    
    
    

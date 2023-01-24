@@ -15,7 +15,7 @@ Possible causes are:
    :alt: troubleshoot
    :width: 60%
 
-* Test connectivity of EMR to ALB host via curl command::
+* Test connectivity of EMR to ALB host via curl command from EMR Machine::
 
     curl https://<alb-host>/ -v
     

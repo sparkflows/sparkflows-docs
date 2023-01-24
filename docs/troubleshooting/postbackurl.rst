@@ -1,7 +1,7 @@
 Postback Url 
 =========
 
-I do not see anything in after submitting the job to Emr Livy
+I do not see anything after submitting the job to Emr Livy
 ------------------------------------------------------------
 
 Do check in the logs for exceptions and the root cause. The log files can be used from Livy url.

@@ -17,7 +17,7 @@ Go to the project page where you want to create a dataset or already have an exi
 
 Select ``Datasets`` tab.
 
-.. figure:: ../../_assets/user-guide/application.PNG
+.. figure:: ../../_assets/user-guide/data-profile/Dataset.PNG
    :alt: Dataset
    :width: 90%
 

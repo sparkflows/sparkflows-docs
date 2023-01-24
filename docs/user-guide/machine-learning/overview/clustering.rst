@@ -1,7 +1,7 @@
 Clustering
 ==========
 
-Clustering is a technique in machine learning used to group similar data points together. The goal of clustering is to divide a dataset into a number of groups (also called clusters) such that the points within each cluster are as similar as possible to one another, and as dissimilar as possible to the points in other clusters. The process of clustering can be thought of as a form of unsupervised learning, because it is used to discover structure in data without the use of labeled examples.
+Clustering is a technique in machine learning which is used to group similar data points together. The goal of clustering is to divide a dataset into a number of groups (also called clusters) such that the points within each cluster are as similar as possible to one another, and as dissimilar as possible to the points in other clusters. The process of clustering can be thought of as a form of unsupervised learning, because it is used to discover structure in data without the use of labeled examples.
 
 There are many different algorithms that can be used for clustering, each with its own strengths and weaknesses. Some of the most popular clustering algorithms include:
 
@@ -16,9 +16,9 @@ There are many different algorithms that can be used for clustering, each with i
       :class: with-border
 
 
-Let us look at this example data. Here we have only data points but no prior information of grouping. But in this data, you visually see that there are 3 natural clusters; and a clustering algorithm is supposed to come up with these 3 clusters. This is what we expect the clustering algorithm to do.
+Let us look at this example data. Here, we have only data points but no prior information of grouping. But in this data, you visually see that there are 3 natural clusters; and a clustering algorithm is supposed to come up with these 3 clusters. This is what we expect the clustering algorithm to do.
 
-Here are a few examples of how clustering is used in practice:
+Here, are a few examples of how clustering is used in practice:
 
 * **Image Segmentation**: Clustering can be used to segment an image into different regions of interest. For example, in satellite imagery, clustering can be used to identify different types of land cover, such as urban areas, forests, and bodies of water.
 

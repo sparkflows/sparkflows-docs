@@ -10,9 +10,9 @@ Apache Spark ML
     
     ---
 
-    :doc:`/user-guide/machine-learning/sparkml/feature-extraction`
+    :doc:`/user-guide/machine-learning/sparkml/feature-engineering`
 
-    Feature generation is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis.
+    Feature engineering is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis.
 
     ---
     

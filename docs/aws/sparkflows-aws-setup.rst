@@ -1,16 +1,16 @@
-fire-insight setup in AWS
+Fire-Insight Setup in AWS
 
-* Install fire-insight
+* Install Fire-Insight
 
   * Option 1: Install AMI
   
     - Prerequisites: 
-    - Installation Steps: <Link to document>
+    - Installation Steps: <Link to the User docs>
     
   * Option 2: Install in Linux VM
   
     - Prerequisites: Create Security Group with proper access
-    - Installation Steps: <Link to document>
+    - Installation Steps: <Link to the User docs>
     
 * Login to Fire-Insight  
 
@@ -26,11 +26,13 @@ fire-insight setup in AWS
 
   - Show the Screenshot 
   - Create the Role fire-insight-role without specifying any Policy and Trust
+  - <Link to the User docs>
   
 * Add policy to the Role for S3-Bucket-Access 
   - Create fire-insight-policy
+  - <Link to the User docs>
 
-* Login to fire-insight as Admin
+* Login to Fire-Insight as Admin
   - Specify the s3 bucket path in AWS Configuration
   - Test the Bucket Access
   
@@ -39,6 +41,7 @@ fire-insight setup in AWS
    - Databricks 
    
 * Steps to create the certificate for https access
+   - <Link to the User docs>
 
 * Steps to setup EMR Access
-  - 
+  - <Link to the User docs>

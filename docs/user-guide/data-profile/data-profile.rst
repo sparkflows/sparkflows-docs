@@ -23,7 +23,7 @@ Select ``Datasets`` tab.
 
 Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking on the Dataset profile will take you to the next page.
 
-.. figure:: ../../_assets/user-guide/dataset_profile.PNG
+.. figure:: ../../_assets/user-guide/data-profile/Dataset2.png
    :alt: Dataset
    :width: 90%
 

@@ -90,7 +90,7 @@ Check Livy Configuration
 
 Check if SparkPi submission to Livy works good.
 
-curl ...
+curl
 
 Check AWS S3 access
 ++

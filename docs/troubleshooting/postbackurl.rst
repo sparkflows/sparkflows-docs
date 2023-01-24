@@ -4,7 +4,7 @@ Postback Url
 I do not see anything after submitting the job to Emr Livy
 ------------------------------------------------------------
 
-Do check in the logs for exceptions and the root cause. The log files can be used from Livy url.
+Do check in the logs for exceptions and the root cause. The log files can analysed from Livy url.
 
 Possible causes are:
 

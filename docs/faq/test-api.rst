@@ -1,7 +1,7 @@
 Test API
 ----
 
-How can I Test API Fire Insights?
+How can I Test API of Fire Insights?
 ===========
 
 You can run below curl command::

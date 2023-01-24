@@ -8,7 +8,7 @@ Machine learning is used when:
 - The rules cannot be coded in to arrive at the outcome, e.g., recognizing emails as spam or not.
 - We want to scale for huge datasets, e.g., recognizing spam or not for millions of emails.
 
-Machine learning can be used in a wide range of applications and industries, but it is particularly useful when you have a large amount of data and you want to make predictions or identify patterns in that data. Some examples of when you might use machine learning include:  
+Machine learning can be used in a wide range of applications and industries, but it is particularly useful when you have a large amount of data and you want to make predictions or identify patterns in that data. Some of the examples where you might use machine learning include:  
 
 * **Predicting outcomes**: This could include anything from forecasting stock prices to predicting which customers are most likely to churn.
 * **Classifying items**: This could include identifying spam emails, sorting images into categories, or diagnosing medical conditions based on patient data.

@@ -14,3 +14,9 @@ Possible causes are:
 .. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/troubleshoot/livy_1.PNG
    :alt: troubleshoot
    :width: 60%
+
+* Test connectivity of EMR to ALB host via curl command::
+
+    curl https://<alb-host>/ -v
+    
+.. note::  Make sure to change the alb-host to your domain name of load balancer.    

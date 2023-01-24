@@ -47,6 +47,10 @@ FAQ
 
     :doc:`/faq/logs`
     
+    ---
+
+    :doc:`/faq/test-api` 
+    
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -62,7 +66,7 @@ FAQ
    workflow-execution.rst
    hadoop-installation-prerequisites.rst
    logs.rst
-   
+   test-api.rst
    
    
    

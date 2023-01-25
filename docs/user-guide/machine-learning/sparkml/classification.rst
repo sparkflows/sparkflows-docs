@@ -1,9 +1,9 @@
 Classification
 ==============
 
-In machine learning and statistics, classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs.
+In machine learning and statistics, Classification is a type of supervised learning approach where the goal is to predict the class or category of a given input data point. For more details on Classification, visit:
 
-- https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
+https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&title=Special%3ASearch&go=Go&ns0=1
 
 Apache Spark MLlib
 -------------------------
@@ -35,7 +35,7 @@ Apache Spark MLlib
 Classification Algorithms in Spark MLlib
 ++++++++++++++++++++
 
-https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
+Fire Insights provides processors for the following Algorithms:
 
 - Logistic Regression
 - Decision tree classifier
@@ -46,10 +46,9 @@ https://spark.apache.org/docs/latest/ml-classification-regression.html#classific
 - One-vs-Rest classifier
 - Naive Bayes
 
-Fire Insights provides processors for the above Algorithms.
-     
-   
+For more details on processors, visit: https://spark.apache.org/docs/latest/ml-classification-regression.html#classification
 
+     
 Logistic Regression
 +++++++++++++++++++
 
@@ -59,7 +58,8 @@ Multinomial logistic regression can be used for binary classification by setting
 
 When fitting LogisticRegressionModel without intercept on dataset with constant nonzero column, Spark MLlib outputs zero coefficients for constant nonzero columns. This behavior is the same as R glmnet but different from LIBSVM.
 
-Decision tree classifier
+
+Decision Tree Classifier
 +++++++++++++++++++
 
 Decision tree learning is one of the predictive modeling approaches used in statistics, data mining and machine learning. It uses a decision tree to go from observations about an item to conclusions about the item's target value.
@@ -68,12 +68,12 @@ Tree models where the target variable can take a discrete set of values are call
 
 In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. In data mining, a decision tree describes data (but the resulting classification tree can be an input for decision making). 
 
-Random forest classifier
+Random Forest Classifier
 +++++++++++++++++++
 
 Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees.
 
-Gradient-boosted tree classifier
+Gradient-boosted Tree Classifier
 +++++++++++++++++++
 
 Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.
@@ -81,7 +81,7 @@ Gradient boosting is a machine learning technique for regression and classificat
 The idea of gradient boosting originated in the observation that boosting can be interpreted as an optimization algorithm on a suitable cost function. Explicit regression gradient boosting algorithms were subsequently developed simultaneously with the more general functional gradient boosting perspective. It later introduced the view of boosting algorithms as iterative functional gradient descent algorithms. That is, algorithms that optimize a cost function over function space by iteratively choosing a function (weak hypothesis) that points in the negative gradient direction. This functional gradient view of boosting has led to the development of boosting algorithms in many areas of machine learning and statistics beyond regression and classification.
 
 
-Multilayer perceptron classifier
+Multilayer Perceptron Classifier
 +++++++++++++++++++
 
 A multilayer perceptron (MLP) is a class of feedforward artificial neural network (ANN). The term MLP is used ambiguously, sometimes loosely to refer to any feedforward ANN, sometimes strictly to refer to networks composed of multiple layers of perceptrons (with threshold activation). Multilayer perceptrons are sometimes colloquially referred to as "vanilla" neural networks, especially when they have a single hidden layer.

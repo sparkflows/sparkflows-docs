@@ -19,7 +19,7 @@ Installation Steps
     
     export FIRE_VERSION=3.1.0
     export SPARK_VERSION=3.2.1
-    export SPARKFLOWS_ROOT=/home/username/sparkflows
+    export SPARKFLOWS_ROOT=/home/username/sparkflows   [Please replace the directory path with original path on the machine]
 
 * Pull the latest Sparkflows docker image from Docker hub::
 

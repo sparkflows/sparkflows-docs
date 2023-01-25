@@ -29,23 +29,23 @@ Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking o
 
 Now, click on the ``RUN DATA PROFILING`` option.
 
-.. figure:: ../../_assets/user-guide/dataset_profile_run.PNG
+.. figure:: ../../_assets/user-guide/data-profile/RunProfile.PNG
    :alt: Dataset
    :width: 90%
 
 Once you click on the above option, notifications about the process getting started will be displayed, as shown below.
 
-.. figure:: ../../_assets/user-guide/run_data_profile.PNG
+.. figure:: ../../_assets/user-guide/data-profile/RunProfile_Notification.PNG
    :alt: Dataset
    :width: 90%
 
 On refreshing the page after successful execution of the process, the status will be updated to green and the execution result is displayed at the right hand side.
 
-.. figure:: ../../_assets/user-guide/dataprofile_completed.PNG
+.. figure:: ../../_assets/user-guide/data-profile/Profile_result1.PNG
    :alt: Dataset
    :width: 90%
 
 
-.. figure:: ../../_assets/user-guide/dataetsprofile_execution.PNG
+.. figure:: ../../_assets/user-guide/data-profile/Profile_result2.PNG
    :alt: Dataset
    :width: 90%

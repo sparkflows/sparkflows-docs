@@ -76,7 +76,7 @@ Read and Write Data
     
     ----
     
-    :doc:`/tutorials/reading-writing/dataset-reading-csv.rst`
+    :doc:`/tutorials/reading-writing/dataset-reading-csv`
     
     Creating dataset of type CSV
     

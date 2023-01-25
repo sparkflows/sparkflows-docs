@@ -3,13 +3,10 @@ Regression
 
 Regression analysis is a set of statistical processes for estimating the relationships between a dependent variable (often called the 'outcome variable') and one or more independent variables (often called 'predictors', 'covariates', or 'features'). The most common form of regression analysis is linear regression, in which a researcher finds the line (or a more complex linear function) that most closely fits the data according to a specific mathematical criterion.
 
-- https://en.wikipedia.org/wiki/Regression_analysis
+For more details on regression, visit: https://en.wikipedia.org/wiki/Regression_analysis
 
 Regresson Processors in Fire Insights
 ------------
-
-https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
-
 
 Below are the Apache Spark ML based Regression Processors in Fire Insights
 
@@ -23,7 +20,7 @@ Below are the Apache Spark ML based Regression Processors in Fire Insights
      -  LinearRegression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables.
      
    * - Generalized linear regression
-     - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions
+     - Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions.
 
    * - Decision tree regression
      - Decision trees and their ensembles are popular methods for the machine learning tasks of classification and regression. Decision trees are widely used since they are easy to interpret, handle categorical features, extend to the multiclass classification setting, do not require feature scaling, and are able to capture non-linearities and feature interactions.
@@ -39,6 +36,10 @@ Below are the Apache Spark ML based Regression Processors in Fire Insights
     
    * -  Isotonic regression
      - Isotonic regression is the technique of fitting a free-form line to a sequence of observations under the following constraints: the fitted free-form line has to be non-decreasing everywhere, and it has to lie as close to the observations as possible.
+     
+
+For more details on Regression Processors, visit: https://spark.apache.org/docs/latest/ml-classification-regression.html#regression
+
    
    
 Linear Regression
@@ -48,7 +49,7 @@ The interface for working with linear regression models and model summaries is s
 
 When fitting LinearRegressionModel without intercept on dataset with constant nonzero column by “l-bfgs” solver, Spark MLlib outputs zero coefficients for constant nonzero columns. This behavior is the same as R glmnet but different from LIBSVM.
 
-Generalized linear regression
+Generalized Linear Regression
 +++++++++++++++++++
 
 Contrasted with linear regression where the output is assumed to follow a Gaussian distribution, generalized linear models (GLMs) are specifications of linear models where the response variable Yi follows some distribution from the exponential family of distributions.
@@ -70,7 +71,7 @@ Random forests are a popular family of classification and regression methods.
 Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set.
 
 
-Gradient - boosted Tree Regression
+Gradient - Boosted Tree Regression
 +++++++++++++++++++
 
 Gradient-boosted trees (GBTs) are a popular regression method using ensembles of decision trees.
@@ -93,4 +94,4 @@ Isotonic regression has applications in statistical inference. For example, one 
 Another application is nonmetric multidimensional scaling, where a low-dimensional embedding for data points is sought such that order of distances between points in the embedding matches order of dissimilarity between points. Isotonic regression is used iteratively to fit ideal distances to preserve relative dissimilarity order.
 
 
-Software for computing isotone (monotonic) regression has been developed for the R statistical package, the Stata statistical package and the Python programming language
+Software for computing isotone (monotonic) regression has been developed for the R statistical package, the Stata statistical package and the Python programming language.

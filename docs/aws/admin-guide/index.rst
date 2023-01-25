@@ -99,8 +99,7 @@ AWS Admin Guide
    emr-livy/index.rst
    test.rst
    operations.rst
-   cloudformationh2db.rst
-   cloudformationmysql.rst
+   AWS-Cloudformation/index
    glue-integration/index.rst
    aws-sso/index.rst
    aws-iam-assume-role/index.rst

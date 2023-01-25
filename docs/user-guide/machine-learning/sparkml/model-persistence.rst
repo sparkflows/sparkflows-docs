@@ -6,10 +6,10 @@ Spark ML Models
 
 Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors for saving and loading the Spark ML models.
 
-Save Model processor
+Save Model Processor
 +++++++++++++++++++++
 
-NodeModelSave processor, saves the given Apache Spark ML model at the given location.
+NodeModelSave processor saves the given Apache Spark ML model at the given location.
 
 .. figure:: ../../../_assets/model/savemodelconfigurations.PNG
    :alt: Modelsave
@@ -24,7 +24,7 @@ ML Save Workflow
    :width: 80%
    
    
-Load Model processor
+Load Model Processor
 +++++++++++++++++++++
 
 .. figure:: ../../../_assets/model/loadmodelconfigurations.PNG

@@ -49,16 +49,11 @@ AWS Admin Guide
     
     ---
     
-    :doc:`/aws/admin-guide/cloudformationh2db`
+    :doc:`/aws/admin-guide/AWS-Cloudformation/index`
     
-    Using cloud formation templates to install fire on aws with h2 db embedded
+    Using cloud formation templates to install fire on aws with h2 and MySQL db 
     
-    ---
-    
-    :doc:`/aws/admin-guide/cloudformationmysql`
-    
-    Using cloud formation templates to install fire on aws with mysql db embedded
-    
+        
     ---
     
     :doc:`/aws/glue-integration/index`

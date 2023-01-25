@@ -17,7 +17,7 @@ Installation Steps
 
 * Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     
-    export FIRE_VERSION=3.1.0
+    export FIRE_VERSION=3.1.XX
     export SPARK_VERSION=3.2.1
     export SPARKFLOWS_ROOT=/home/username/sparkflows
 

@@ -11,7 +11,7 @@ Possible causes are:
 * The Postback Url configured in Fire Insights is configured wrongly.
 * The Postback Url configured in Fire Insights is not accessible from EMR Livy.
 
-.. figure:: https://github.com/sparkflows/sparkflows-docs/blob/master/docs/_assets/installation/troubleshoot/livy_1.PNG
+.. figure:: ..//_assets/installation/troubleshoot/livy_1.PNG
    :alt: troubleshoot
    :width: 60%
 

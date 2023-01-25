@@ -19,7 +19,7 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
     
     ---
 
-    :doc:`/installation/upgrading.rst`
+    :doc:`/installation/upgrading/index`
     
     ---
     

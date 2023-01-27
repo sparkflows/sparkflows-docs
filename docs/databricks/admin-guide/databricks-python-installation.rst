@@ -9,8 +9,17 @@ Below are the steps for Integrating Fire Insights with your Databricks clusters 
 
 Python Installation Steps:
 
-  * https://docs.sparkflows.io/en/latest/installation/python-install-linux.html
+* To install Python on Red Hat and CentOS, follow the steps given at the below link:
+  
+  https://docs.sparkflows.io/en/latest/installation/installation/python-install-redhat-centos.html
 
+* To install Python on Ubuntu, follow the steps given at the below link:
+  
+  https://docs.sparkflows.io/en/latest/installation/installation/python-install-ubuntu.html
+
+* To install Python on MacOS, follow the steps given at the below link: 
+  
+  https://docs.sparkflows.io/en/latest/installation/installation/python-install-macos.html
 
 Install Fire Insights
 -----------

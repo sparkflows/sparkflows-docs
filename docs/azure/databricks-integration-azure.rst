@@ -134,14 +134,47 @@ Create Databricks Connection in Fire Insights
 
 1. Create a connection in Fire Insights to Databricks. 
 
-It can be created by the Administrator under Administration/Global Connections. These connections are available for everyone to use.
+Enable Databricks in Fire Insights
 
-It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
+Login to ``Fire Insights`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Databricks connection by setting the below parameter:
 
-* Specify your Databricks Token.
-* Specify the Databricks JDBC URL of your cluster in Databricks.
+::
 
-.. figure:: ../_assets/configuration/databricks_connection.PNG
+    connection.databricks.enabled : true
+
+It can also be created by any user inside their Project. In this case, it is only available to the Project and its users.
+
+For GENERAL tab
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Connection Name
+     - Connection Name
+     - Name of Connection
+   * - Token
+     - Token
+     - Token created in above steps  
+   * - Postback Url
+     - Postback Url
+     - Postback Url through which Livy sent result back to Fire Insights
+   * - Title 
+     - Title of Selected Connection
+     - Title of Selected Connection  
+   * - Description 
+     - Connection Description 
+     - Connection Description
+   * - Url
+     - Url for selected Connection type
+     - Add URL for Databricks Connection
+
+
+.. figure:: ../_assets/configuration/databricks-connection.PNG
    :alt: Databricks Connection
    :width: 40%
 

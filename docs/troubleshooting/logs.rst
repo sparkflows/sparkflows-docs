@@ -1,17 +1,18 @@
 Logs
 =====
 
-Fire Insights enable you to troubleshoot the issue on the basis of logs getting updated.
+Fire Insights enables you to troubleshoot the issue on the basis of logs getting updated.
 
 As an Administrator, you can view the logs in Fire Insights.
 
-For more Reference :
+For more details on Logs, visit the link given below:
+https://docs.sparkflows.io/en/latest/operations/logs.html
 
-https://docs.sparkflows.io/en/latest/operations/logging.html
 
-As an User, you can view the logs while running any workflow as below:
 
-you can go to Executions page and Click on ''three dot'' and logs option will be available.
+As a User, you can view the logs while running any workflow as shown below:
+
+Go to the Executions page and click on the ''three dot'' to reach the ``Logs`` option.
 
 .. figure:: ../_assets/operating/operations/logs_wf.PNG
    :alt: operations

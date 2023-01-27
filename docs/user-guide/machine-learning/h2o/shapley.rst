@@ -1,4 +1,4 @@
-Shapley(ExplainableAI)
+Shapley Plots - ExplainableAI
 ======================
 Shapley values are a method for fairly distributing a value among a group of individuals based on their contribution to that value. They were first introduced in cooperative game theory by Lloyd Shapley in 1953.
 
@@ -17,18 +17,18 @@ Shapley values are considered a desirable feature attribution method because the
 
 The Shapley value might be the only method to deliver a full explanation. In situations where the law requires explainability – the Shapley value might be the only legally compliant method, because it is based on a solid theory and distributes the effects fairly.
 
-More on Shapley values can be found here - https://christophm.github.io/interpretable-ml-book/shapley.html#the-shapley-value-in-detail
+For more details on Shapley values, visit - https://christophm.github.io/interpretable-ml-book/shapley.html#the-shapley-value-in-detail
 
-More on SHAP can be found here - https://christophm.github.io/interpretable-ml-book/shap.html
+For more details on SHAP, visit - https://christophm.github.io/interpretable-ml-book/shap.html
 
-Sparkflows supports SHAP value computations for Tree based h2o algorithms for regression and binomial classification usecases. The below nodes can be leveraged to get Shapley contributions:
+Sparkflows supports SHAP value computations for Tree based H2O algorithms for regression and binomial classification use cases. The below nodes can be leveraged to get Shapley contributions:
   - H2O Distributed Random forest
   - H2O Gradient Boosted machine
   - H2O XGBoost
   - H2O AutoML
 
-Below are the details of how the SHAP values can be computed:
-  - In the above mentioned nodes, one can set the field `WITH CONTRIBUTIONS` to `True` during training the model and then during scoring to ask the model to compute the SHAP Summary plot. Screenshot below
+Below are the details on how the SHAP values can be computed:
+  - In the above mentioned nodes, one can set the field `WITH CONTRIBUTIONS` to `True` during training the model and then during scoring to ask the model to compute the SHAP Summary plot. Find the corresponding screenshot below.
   - When scoring on a dataset trained with the above field set, one can see the average SHAP Summary plot.
  
   

@@ -52,7 +52,7 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependenc
     :alt: Databricks
     :width: 40%
  
- 6. Upload ``fire-3.1.0-py3-none-any.whl``. 
+6. Upload ``fire-3.1.0-py3-none-any.whl``. 
 ++++++++++++++++++++++++++++++++
 
 You can upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` or directly download it from the link given below:
@@ -162,7 +162,7 @@ For GENERAL tab
      - Token created in above steps  
    * - Postback Url
      - Postback Url
-     - Postback Url through which Livy sent result back to Fire Insights
+     - Postback Url through which Databricks sent result back to Fire Insights
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  
@@ -180,23 +180,42 @@ For GENERAL tab
 
 Reference Link for further information : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
 
-2. Configure the Uploaded Library in Fire Insights.
+For DATABRICKS tab
+++++
 
-Configure the path of the uploaded fire core jar library in Databricks in Fire Insights. This has to be done under Administration/Configuration.
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
 
-
-.. figure:: ../_assets/configuration/databricks-configurations.PNG
-   :alt: Databricks
-   :width: 40%
-   
-   
-3. Configure app.postMessageURL in Fire Insights in Databricks
-
-Configure ``app.postMessageURL`` to be the IP of the machine on which Fire Insights is installed. Jobs running on Databricks would post back results to Fire Insights using this URL.
-
-.. figure:: ../_assets/configuration/Fireui_postbackurl.PNG
+   * - Title
+     - Description
+     - Value
+   * - Fire core jar
+     - Fire core jar
+     - Fire core jar PATH uploaded in databricks library
+   * - Python file
+     - Python file
+     - Python file PATH as uploaded in above step  
+   * - Fire pyspark libraries
+     - Fire pyspark libraries
+     - Fire pyspark libraries PATH uploaded in databricks library
+   * - DBFS Scratch directory 
+     - DBFS Scratch directory
+     - Scratch directory on Databricks DBFS where app has Read, Write and Delete Privilege
+  
+.. figure:: ../_assets/configuration/databricks_jar.PNG
    :alt: Postback URL
    :width: 40%
+
+Test Connection
+++++
+
+Once the above Configuration are updated, Click on ``Test Connection`` and ``Save`` if its successfully connected.
+
+.. figure:: ../_assets/configuration/databricks_test.PNG
+   :alt: Postback URL
+   :width: 40%
+
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

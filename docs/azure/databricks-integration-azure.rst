@@ -134,13 +134,17 @@ Create Databricks Connection in Fire Insights
 
 1. Create a connection in Fire Insights to Databricks. 
 
-Enable Databricks in Fire Insights
+* Enable Databricks in Fire Insights
 
 Login to ``Fire Insights`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Databricks connection by setting the below parameter:
 
 ::
 
     connection.databricks.enabled : true
+
+* Create a connection in Fire Insights to Databricks. 
+
+It can be created by the Administrator under ``Administration/Global Connections``. These connections are available for everyone to use.
 
 It can also be created by any user inside their Project. In this case, it is only available to the Project and its users.
 
@@ -216,6 +220,7 @@ Once the above Configuration are updated, Click on ``Test Connection`` and ``Sav
    :alt: Postback URL
    :width: 40%
 
+Reference Link for further information : https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

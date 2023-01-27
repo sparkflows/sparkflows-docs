@@ -1,8 +1,8 @@
-PCA
+Principal Component Analysis
 ====
-PCA (Principal Component Analysis) is a technique used to reduce the dimensionality of a dataset by transforming the data into a new set of linearly uncorrelated variables called principal components. The goal of PCA is to identify patterns in the data, such as directions of maximum variance, and to project the data onto a lower-dimensional subspace that captures most of the variation in the original data.
+Principal Component Analysis (PCA) is a technique used to reduce the dimensionality of a dataset by transforming the data into a new set of linearly uncorrelated variables called principal components. The goal of PCA is to identify patterns in the data, such as directions of maximum variance, and to project the data onto a lower-dimensional subspace that captures most of the variation in the original data.
 
-The basic steps of PCA are as follows:
+The key steps involved in PCA are as follows:
 
 * **Standardize the data**: The first step is to standardize the data by subtracting the mean and dividing by the standard deviation, so that all the features are on the same scale.
 * **Compute the covariance matrix**: The next step is to compute the covariance matrix of the standardized data. The covariance matrix is a square matrix that contains the pairwise covariances between the features.
@@ -12,9 +12,9 @@ The basic steps of PCA are as follows:
 
 PCA can be useful in various ways like data visualization, denoising and feature extraction. By reducing the dimensionality of the data, PCA can make it easier to visualize patterns in the data and to identify relationships between variables. Additionally, PCA can be used to remove noise from the data, by projecting the data onto the directions that capture most of the variation in the data. It can also be used as a feature extraction technique, by projecting the data onto the most informative directions and using the resulting principal components as features for further analysis.
 
-You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/pca.html
+For more details, visit the H2O website at: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/pca.html
 
-Below are details which can be needed on H2O PCA processor:
+Below are the details required for configuring H2O PCA processor:
 
 .. list-table:: H2O PCA
    :widths: 20 80
@@ -33,4 +33,4 @@ Below are details which can be needed on H2O PCA processor:
    :alt: H2O PCA
    :width: 90%
    
-other parameters: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/pca.html#defining-a-pca-model
+For more details on other parameters, visit: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/pca.html#defining-a-pca-model

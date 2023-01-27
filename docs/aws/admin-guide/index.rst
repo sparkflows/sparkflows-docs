@@ -30,7 +30,7 @@ AWS Admin Guide
     
    ---
     
-    :doc:`admin-guide/emr-livy/index`
+    :doc:`/aws/admin-guide/emr-livy/index`
     
     LIVY Configurations and Job submission
     
@@ -74,7 +74,7 @@ AWS Admin Guide
     
     ---
     
-    :doc:`/aws/admin-guide/aws-ec2-configure.rst`
+    :doc:`/aws/admin-guide/aws-ec2-configure`
     
     Configuring S3 on ec2 instance
     

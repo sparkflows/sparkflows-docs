@@ -3,9 +3,9 @@ H2O GBM
 
 Gradient Boosting Machine (for Regression and Classification) is a forward learning ensemble method. The guiding heuristic is that good predictive results can be obtained through increasingly refined approximations. H2O’s GBM sequentially builds regression trees on all the features of the dataset in a fully distributed way - each tree is built in parallel.
 
-You can find the details at the H2O website : https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
+For more details, visit the H2O website at: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html
 
-Below are required parameters which can be specified in the H2O GBM processor:
+Below are the required parameters which can be specified in the H2O GBM processor:
 
 .. list-table:: H2O GBM
    :widths: 20 80
@@ -14,9 +14,9 @@ Below are required parameters which can be specified in the H2O GBM processor:
    * - Parametrs
      - Description
    * - RESPONSE COLUMN
-     - select RESPONSE COLUMN
+     - Select Response Column.
    * - IS RESPONSE COL CATEGORICAL
-     - Specify a response column type (numeric or categorical) Separates the Classification and Regression.
+     - Choose the type of response column. It can be either numeric corresponding to Regression or categorical corresponding to Classification.
    * - IGNORE CONST COLUMNS
      - Specify whether to ignore constant training columns.
    * - IGNORED COLUMNS
@@ -27,4 +27,4 @@ Below are required parameters which can be specified in the H2O GBM processor:
    :alt: H2O GBM
    :width: 90%
 
-other parameter: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html#defining-a-gbm-model
+For more details on other parameters, visit: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html#defining-a-gbm-model

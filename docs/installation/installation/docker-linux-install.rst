@@ -17,25 +17,24 @@ Installation Steps
 
 * Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     
-    export FIRE_VERSION=3.1.XX
     export SPARK_VERSION=3.2.1
+    export RELEASE_VERSION=3.1.XX
     export SPARKFLOWS_ROOT=/home/username/sparkflows
 
 * Pull the latest Sparkflows docker image from Docker hub::
 
-    docker pull sparkflows/fire:py_${SPARK_VERSION}_${FIRE_VERSION}
+    docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
 * Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     
     
     docker run -p 8080:8080 -p 9443:9443 \
-    -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${FIRE_VERSION}_spark_${SPARK_VERSION} \
-    -v "${HOME}/sparkflows-db:/root" \
+    -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
     -e KEYSTORE_PASSWORD=12345678 \
     -e FIRE_HTTP_PORT=8080 \
     -e FIRE_HTTPS_PORT=9443 \
-    sparkflows/fire:py_${SPARK_VERSION}_${FIRE_VERSION}
+    sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
 * To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit ones need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.

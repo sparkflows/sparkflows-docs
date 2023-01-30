@@ -5,7 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
-   upcoming.rst
+   2023-jan.rst
    2022-dec.rst
    2022-nov.rst
    2022-oct.rst
@@ -45,8 +45,3 @@ Release Notes
    1.4.0.rst
    1.3.0.rst
    
-   
-   
-   
-
-  

@@ -38,11 +38,11 @@ Prerequisites
 Installation Steps
 ---------------------------
 
-* Pull the latest Sparkflows docker image from Docker hub. Also, replace ``XX`` with the Sparkflows version you want to install::
+* Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
 
     docker pull sparkflows/fire:py_3.2.1_3.1.XX
    
-* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Also, replace ``XX`` with the Sparkflows version you want to install::
+* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.1.XX_spark_3.2.1 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.XX
 
@@ -86,11 +86,11 @@ Upgrading Steps
 
      docker stop image_name
 
-* Pull the latest Sparkflows docker image from Docker hub. Also, replace ``XX`` with the Sparkflows version you want to install::
+* Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
 
     docker pull sparkflows/fire:py_3.2.1_3.1.XX
 
-* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Also, replace ``XX`` with the Sparkflows version you want to install::
+* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.1.XX_spark_3.2.1 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=9443  sparkflows/fire:py_3.2.1_3.1.XX
 

@@ -18,11 +18,6 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
     :doc:`/installation/configuration/index`
     
     ---
-
-    :doc:`/installation/upgrading/index`
-    
-    ---
-    
     
     :doc:`/installation/authentication/index`
     
@@ -52,7 +47,6 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
    architecture-deployment/index
    installation/index
    configuration/index
-   upgrading/index
    authentication/index
    loadbalancer/index
    administration/index

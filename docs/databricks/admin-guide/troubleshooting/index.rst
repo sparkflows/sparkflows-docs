@@ -11,7 +11,7 @@ The other problem can be that the machine running Fire Insights is not accessibl
 
 Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
 
-.. figure:: ../../_assets/configuration/databricks_ping.PNG
+.. figure:: ../../../_assets/configuration/databricks_ping.PNG
    :alt: Databricks
    :width: 60%
    

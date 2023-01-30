@@ -170,7 +170,18 @@ Detailed Installation Steps
     
     You may change these usernames and passwords in Fire under the menu Administration/Users
     
-  
+
+Installing and starting the Python engine
+=========================================
+
+On Ubuntu, the python dependencies can be installed by following the steps below:
+
+* :doc:`./python-install-ubuntu.rst`
+
+On RedHat and CentOS, the python dependencies can be installed by following the steps below:
+
+* :doc:`./python-install-redhat-centos.rst`
+
     
 Stopping the Fire Server
 ===========================

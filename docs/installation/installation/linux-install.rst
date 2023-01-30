@@ -173,7 +173,7 @@ Detailed Installation Steps
   
     
 Stopping the Fire Server
-------------------------
+===========================
 
 Stop the Fire Server with the below::
 

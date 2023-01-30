@@ -27,7 +27,7 @@ AWS Admin Guide
     
     Steps to run Fire Insights on EMR
     
-   ---
+    ---
     
     :doc:`/aws/admin-guide/emr-livy/index`
     

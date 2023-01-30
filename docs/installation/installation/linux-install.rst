@@ -174,9 +174,7 @@ Detailed Installation Steps
 Installing and starting the Python engine
 =========================================
 
-On Ubuntu, the python dependencies can be installed by following the steps below:
-
-* :doc:`./python-install-ubuntu.rst`
+On Ubuntu, the python dependencies can be installed by following the steps below: :ref:`python-install-ubuntu<Python Installation on Ubuntu>`
 
 On RedHat and CentOS, the python dependencies can be installed by following the steps below:
 

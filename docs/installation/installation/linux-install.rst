@@ -181,7 +181,7 @@ Stop the Fire Server with the below::
     
     
 Connecting to Apache Spark Cluster
-----------------------------------
+===========================
 
 Now that you have Fire installed, you may want to connect it to your Apache Spark Cluster.
 
@@ -193,7 +193,7 @@ Now that you have Fire installed, you may want to connect it to your Apache Spar
 
   
 Helpful Commands
-----------------
+===========================
 
 Creating a new Linux user
 +++++++++++++++++++++++

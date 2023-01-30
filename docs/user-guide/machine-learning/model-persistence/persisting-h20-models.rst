@@ -4,9 +4,9 @@ Persisting H2O Models
 H2O Models
 ----------
 
-H2O Models can be saved in binary format or in MOJO format. Fire Insights has processors for saving and reading them back.
+H2O Models can be saved in binary format or in MOJO format. Fire Insights has processors to save and read them back.
 
-Save H2o Model processor
+Save H2O Model Processor
 +++++++++++++++++++++
 
 H2OModelSave Processor saves the H2O model at the specified path in the binary format.
@@ -15,7 +15,7 @@ H2OModelSave Processor saves the H2O model at the specified path in the binary f
    :alt: Modelsave
    :width: 80%
    
-Load H2o Model processor
+Load H2O Model Processor
 +++++++++++++++++++++
    
 H2OModelLoad Processor loads the H2O model in binary format from the specified path.
@@ -34,14 +34,14 @@ Save and Load H2O Workflow
 ++++++++++++++++++++++++++
    
 
-Below is a workflow, which saves the generated H2O model on the file system.
+Below is a workflow that saves the generated H2O model on the file system.
 
 .. figure:: ../../../_assets/model/h2o_means_model_save_score.PNG
    :alt: Modelsave
    :width: 80%
    
  
-Below is a workflow, which load back the saved model and used in batch scoreing. 
+Below is a workflow that loads back the saved model and use it in batch scoring.
 
 .. figure:: ../../../_assets/model/h2o_means_model_load_score.PNG
    :alt: Modelload

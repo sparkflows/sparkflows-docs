@@ -15,7 +15,7 @@ Prerequisites
 Installation Steps
 ---------------------------
 
-* Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
+* Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     export SPARK_VERSION=3.2.1
     export RELEASE_VERSION=3.1.XX
@@ -78,4 +78,32 @@ Stopping the Sparkflows docker image
 
      docker stop <container-id>
 
+
+Upgrading Steps
+---------------------------
+* Stop the container by::
+
+     docker stop <container-id>
+
+* Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
+    
+    export SPARK_VERSION=3.2.1
+    export RELEASE_VERSION=3.1.XX
+    export SPARKFLOWS_ROOT=/home/username/sparkflows
+
+* Pull the latest Sparkflows docker image from Docker hub::
+
+    docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
+
+* Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
+    
+    
+    docker run -p 8080:8080 -p 9443:9443 \
+    -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
+    -e KEYSTORE_PASSWORD=12345678 \
+    -e FIRE_HTTP_PORT=8080 \
+    -e FIRE_HTTPS_PORT=9443 \
+    sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
+ 
+* The Sparkflows services should start and all the previous configurations and workflows should be seen in the application.
     

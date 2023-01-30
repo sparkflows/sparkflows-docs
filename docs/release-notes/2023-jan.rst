@@ -1,0 +1,64 @@
+January 30th 2023 (Version 3.1.73)
+==================================
+
+New features:
+------
+
+* Workflow wizard to create workflows just by a few clicks.
+* Update JDBC processor - Provides the capability to insert a subset of columns into a DB by mapping primary key.
+* Upsert JDBC processor - Provides the capability to insert or update the data to databases.
+* Drop rows with null processor - Provides the capability to drop rows with nulls in specific columns.
+* MinMax scaler processor to transform the test data.
+* String Indexer processor to transform the test data.
+* One Hot encoder processor to transform the test data.
+* Standard scaler processor to transform the test data.
+* MaxAbs scaler processor to transform the test data.
+* Robust scaler processor to transform the test data.
+* Bucketizer processor to transform the test data.
+* QuantileDiscretizer processor to transform the test data.
+* Processor to add multiple Case when logic in one.
+* Ability to invalidate cache by clicking on an icon in workflow editor page.
+* More metrics for admin to look at regarding the usage of resources.
+
+Improvements:
+-------------
+
+* Add capability to save and load more types of models including Time series models
+* PySpark code generation for nodes like StringIndexer, count, concatenate, sort, save excel among others, expression node, cube, window analytics node,
+* Data quality enhancements.
+* Register time series models in model registry - prophet, arima, sarimax, VAR.
+* Better Exception handling in Python engine.
+* Versioning ramp up of artifacts in the binary.
+* Better names for the Airflow node with proper description of the processors
+* Enhancements for seamless git integration.
+* Upgrade of Data Quality UI to show more details.
+* Add feature data type to columns in AutoML.
+* Updates for comparing AutoML experiments.
+* Updates to Glue integration.
+* Updates to HANA JDBC connector.
+* Added feature importance to lots of Machine Learning processors
+
+
+Bug Fixes:
+----------
+
+* Schema propagation for Prophet models
+* Schema propagation for ARIMA models
+* Schema propagation for SARIMAX models
+* Fix download of Big files
+* Fix for proxy feature importance of linear regression using the weights.
+* Do not allow user to save if mandatory columns are not provided in Administrative tab when adding new user
+* Ensure the web socket connection among fire server's do not interfere with each other
+* Fixed Postaback url usage in Livy connection
+
+
+Documentation:
+--------------
+
+* Revamp of the Sparkflows installation docs.
+* Reorganisation of the structure of the doc menus.
+* Revamp of docs for install on AWS.
+* Revamp of docs for install on Azure.
+* New page to access S3 from EC2 without AssumeRole.
+* Formatting fixes throughout the documentation.
+

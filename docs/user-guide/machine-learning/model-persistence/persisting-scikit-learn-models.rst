@@ -3,8 +3,8 @@ Persisting Scikit Learn Models
 ==============================
 
 
-Scikit-Learn models are persisted with pickle. Fire Insights has processors for saving and loading the pickle files.
+Scikit-Learn models are persisted with pickle. Fire Insights has processors to save and load the pickle files.
 
-More details of the pickle format is available here:
+Visit the link given below for more information on pickle format:
 
-https://scikit-learn.org/stable/modules/model_persistence.html
+* https://scikit-learn.org/stable/modules/model_persistence.html

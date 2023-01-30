@@ -78,7 +78,7 @@ You can download the Databricks JDBC Driver from the Databricks website using th
 * https://docs.databricks.com/bi/jdbc-odbc-bi.html
 * https://databricks.com/spark/odbc-driver-download
 
-The driver is available as a zip file e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
+The driver is available as a zip file, e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
 
 * Unzip the downloaded file. It will create a directory like ``SimbaSparkJDBC-2.6.3.1003``.
 * Copy the JDBC jar file named ``SparkJDBC41.jar`` into ``fire-x.y.z/fire-user-lib`` and ``fire-x.y.z/fire-server-lib``.
@@ -87,7 +87,7 @@ The driver is available as a zip file e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
 Create your REST API token in Databricks
 --------------
 
-Create your token in Databricks. It would be used in making REST API calls to Databricks from Fire Insights.
+Create your token in Databricks by following the steps given below. It would be used in making REST API calls to Databricks from Fire Insights.
 
 1. Login to your Databricks Account.
 ++++++++++++++++++++++++++++++++
@@ -164,17 +164,17 @@ For GENERAL tab
    * - Token
      - Token
      - Token created in above steps  
-   * - Postback Url
-     - Postback Url
-     - Postback Url through which Databricks sent result back to Fire Insights
+   * - Postback URL
+     - Postback URL
+     - Postback URL through which Databricks sent result back to Fire Insights
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  
    * - Description 
      - Connection Description 
      - Connection Description
-   * - Url
-     - Url for selected Connection type
+   * - URL
+     - URL for selected Connection type
      - Add URL for Databricks Connection
 
 
@@ -182,7 +182,7 @@ For GENERAL tab
    :alt: Databricks Connection
    :width: 40%
 
-Reference Link for further information : https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
+For more information, visit: https://docs.sparkflows.io/en/latest/databricks/admin-guide/index.html
 
 For DATABRICKS tab
 ++++
@@ -196,16 +196,16 @@ For DATABRICKS tab
      - Value
    * - Fire core jar
      - Fire core jar
-     - Fire core jar PATH uploaded in databricks library
+     - Fire core jar PATH uploaded in databricks library.
    * - Python file
      - Python file
-     - Python file PATH as uploaded in above step  
+     - Python file PATH as uploaded in the above step.  
    * - Fire pyspark libraries
      - Fire pyspark libraries
-     - Fire pyspark libraries PATH uploaded in databricks library
+     - Fire pyspark libraries PATH uploaded in databricks library.
    * - DBFS Scratch directory 
      - DBFS Scratch directory
-     - Scratch directory on Databricks DBFS where app has Read, Write and Delete Privilege
+     - Scratch directory on Databricks DBFS where app has Read, Write and Delete Privilege.
   
 .. figure:: ../_assets/configuration/databricks_jar.PNG
    :alt: Postback URL
@@ -214,13 +214,13 @@ For DATABRICKS tab
 Test Connection
 ++++
 
-Once the above Configuration are updated, Click on ``Test Connection`` and ``Save`` if its successfully connected.
+Once the above configurations are updated, click on ``Test Connection`` and ``Save`` if it has been successfully connected as shown below.
 
 .. figure:: ../_assets/configuration/databricks_test.PNG
    :alt: Postback URL
    :width: 40%
 
-Reference Link for further information : https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html
+For more information, visit: https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

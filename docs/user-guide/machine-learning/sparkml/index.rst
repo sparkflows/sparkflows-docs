@@ -69,7 +69,7 @@ Apache Spark ML
    building-sparkml-workflows.rst
    feature-extraction.rst
    feature-transformation.rst
-   feature-selection.rst
+   feature-engineering.rst
    clustering.rst
    regression.rst
    classification.rst

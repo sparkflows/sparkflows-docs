@@ -174,11 +174,9 @@ Detailed Installation Steps
 Installing and starting the Python engine
 =========================================
 
-On Ubuntu, the python dependencies can be installed by following the steps below: :ref:`python-install-ubuntu<Python Installation on Ubuntu>`
+On Ubuntu, the python dependencies can be installed by following the steps here: :ref:`Python install on Ubuntu<Python Installation on Ubuntu>`
 
-On RedHat and CentOS, the python dependencies can be installed by following the steps below:
-
-* :doc:`./python-install-redhat-centos.rst`
+On RedHat and CentOS, the python dependencies can be installed by following the steps here: :ref:`Python install on RedHat and CentOS<Python Installation on Red Hat and CentOS>`
 
     
 Stopping the Fire Server

@@ -1,5 +1,5 @@
-Installation
-=============
+Installation and Upgrade
+========================
 
 Fire Insights can be installed using the Installer or by downloading the tgz file.
 

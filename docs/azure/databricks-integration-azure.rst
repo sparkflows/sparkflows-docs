@@ -120,7 +120,7 @@ Create your token in Databricks by following the steps given below. It would be 
    :alt: Databricks
    :width: 60%
 
-6. Copy the token generated. Click on ``DONE``.
+6. Copy the token generated. Click on ``Done``.
 ++++++++++++++++++++++++++++++++
 
 .. figure:: ../_assets/configuration/token_generated.PNG

@@ -4,9 +4,9 @@ Persisting SparkML Models
 Spark ML Models
 ---------------
 
-Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors for saving and loading the Spark ML models.
+Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors to save and load the Spark ML models.
 
-Save Model processor
+Save Model Processor
 +++++++++++++++++++++
 
 NodeModelSave processor, saves the given Apache Spark ML model at the given location.
@@ -18,14 +18,14 @@ NodeModelSave processor, saves the given Apache Spark ML model at the given loca
 ML Save Workflow
 +++++++++++++++++++++
 
-The below workflow uses the NodeModelSave for saving the Spark ML model at the given location.
+The workflow given below uses the NodeModelSave to save the Spark ML model at the given location.
 
 .. figure:: ../../../_assets/model/mlmodelsave.png
    :alt: Modelsave
    :width: 80%
    
    
-Load Model processor
+Load Model Processor
 +++++++++++++++++++++
 
 ML Load Model reads in the Spark ML model from the specified location.
@@ -39,7 +39,7 @@ ML Load Model reads in the Spark ML model from the specified location.
 ML Load Workflow
 +++++++++++++++++++++
    
-The below workflow reads in the ML model from the given location. It then uses the Predict node for the predictions.
+The workflow given below reads in the ML model from the given location. It then uses the Predict node to give the predictions.
 
 .. figure:: ../../../_assets/model/mlmodelload.png
    :alt: Model Load Workflow

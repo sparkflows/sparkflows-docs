@@ -1,4 +1,4 @@
-Anamoly Detection for IOT Devices
+Anomaly Detection for IOT Devices
 =================================
 
 
@@ -15,7 +15,7 @@ Dataset contains 4 columns as below:-
 * 4-Bearings - Contains reading of devices
 
 
-Anamoly Detection using Prophet Time Series Model Workflow
+Anomaly Detection using Prophet Time Series Model Workflow
 -----------------------------------------------------------
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends fit with yearly, weekly, daily, seasonal and holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Time-series anomaly detection is a feature used to identify unusual patterns that do not conform to expected behavior, called outliers.

@@ -3,18 +3,20 @@ Integration with MLflow
 
 Fire Insights provides the integration with MLflow Model Registry.
 
-More Info: https://docs.databricks.com/applications/mlflow/index.html
+Visit the link given below to get more information on MLflow: 
+
+- https://docs.databricks.com/applications/mlflow/index.html
 
 
 Prerequisites
 -------------
 
-Below are the Prerequisites for installing MLflow on a Mac or Linux machine::
+Below are the prerequisites for installing MLflow on a Mac or Linux machine::
 
   Python 3.7+ 
   pip 21.0+
 
-Installing MLflow on Linux:
+Install MLflow on Linux:
 -----------------------------
 
 ::
@@ -22,7 +24,7 @@ Installing MLflow on Linux:
     pip install mlflow
     
     
-Run Mlflow UI:
+Run MLflow UI:
 --------------
 
 ::
@@ -30,24 +32,25 @@ Run Mlflow UI:
     mlflow ui
     MLFlow UI - http://localhost:5000
     
-Once login to above url, you will see MLflow UI page
+Login to the above URL to reach the MLflow UI page as shown below:
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow.PNG
    :alt: mlflow
    :width: 60% 
     
     
-.. note:: Make sure to change localhost to your ip or domain name and by default mlflow run on port 5000   
+.. note::  Make sure to change the localhost to your IP or Domain Name. Remember that the MLflow would run on port 5000 by default.
+
 
 
 
 Integrating MLflow with Fire Insights
 ------------------------------------
 
-In Fire Insights, nodes in python ml packages have integration with mlflow by calling the Mlflow API's paramerts, metrics, model, etc. Fire Insights, workflows will be registered as experiments in mlflow with name and each execution will be separate run's in each mlflow experiments.
+In Fire Insights, processors in Python engine have integration with MLflow via the Mlflow API’s parameters, metrics, model among others. Fire Insights workflows will be registered as experiments in MLflow with their name and each execution will show up as a separate run in the MLflow experiments.
 
 
-Below is the example workflow for regression to predict the house price with RidgeRegression Node.
+Below is the sample workflow for regression to predict the house price with RidgeRegression Node.
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_wf.PNG
    :alt: mlflow
@@ -56,7 +59,7 @@ Below is the example workflow for regression to predict the house price with Rid
  
  
 
-Once the above workflow got executed successfully, it will save the model in MLflow.
+On successful execution of the workflow the model will be saved in MLflow as shown below:
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_executions.PNG
    :alt: mlflow
@@ -64,9 +67,9 @@ Once the above workflow got executed successfully, it will save the model in MLf
 
 
 
-In MLflow, executed workflow is registered as an experiment and with different executions.
+In MLflow, the executed workflow is registered as an experiment with separate executions.
 
-From RidgeRegression  model parameters, metrics etc shared with Mlflow registry.
+From RidgeRegression model parameters, metrics, etc. are shared with MLflow registry.
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_experiment.PNG
    :alt: mlflow

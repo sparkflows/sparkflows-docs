@@ -89,34 +89,45 @@ Fire Configurations for connecting to an Apache Spark Cluster
 Below are the configuration details for connecting Fire to an Apache Spark Cluster.
 
 .. list-table:: 
-   :widths: 10 20 30
+   :widths: 20 20 20
    :header-rows: 1
 
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Parameter**      | **Value**                                                                  | **Description**                                                                                                                                                                                                                   |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| app.runOnCluster   | true                                                                       | Indicate to run on the spark cluster. By default it is set to false                                                                                                                                                               |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| app.postMessageURL | http://localhost:8080/messageFromSparkJob                                  | Indicate the URL on fire server which receives messages from the spark jobs running on the cluster. Set localhost to the machine name on which Fire is running. Replace 8080 with the port number on which Fire is running.       |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| app.sparkSubmitJar | /user/centos/fire-2.1.0/fire-lib/fire-core-2.1.0-jar-with-dependencies.jar | fire-lib directory of the Sparkflows install contains the fire core jar used in submitting the workflows to the Spark cluster. Set it correctly to be the absolute path of the fire core jar.                                     |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| hdfs.namenodeURI   | hdfs://localhost:8020                                                      | Update the hdfs namenode URI. Set localhost to the machine on which the namenode is running.                                                                                                                                      |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| hdfs.namenodeURI   | file://                                                                    | Set it to file:// when the files are on the local filesystem. This can be the case when HDFS is not there.                                                                                                                        |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| hdfs.namenodeURI   | maprfs:///                                                                 | Set it to maprfs:/// for mapr.                                                                                                                                                                                                    |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| hive.JDBC_DB_URL   | jdbc:hive2://localhost:10000                                               | Update the hive JDBC DB URL if you would be accessing HIVE from Sparkflows. This is the URL of the HiveServer 2 server.                                                                                                           |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| spark.sql-context  | HIVEContext                                                                | Set it to either HIVEContext or SQLContext based on whether you want to use HIVEContext or SQLContext in your job. Use HIVEContext if you would be accessing the HIVE tables.                                                     |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| spark.master       | yarn                                                                       | Set it to yarn for connecting to a spark cluster running YARN                                                                                                                                                                     |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| spark.master       | spark://spark_master_hostname:port                                         | Set it to the spark master URL when connecting to a spark cluster running in standalone mode. Port is normally 7077.                                                                                                              |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| spark.spark-submit | spark-submit                                                               | Spark Submit command for submitting the Spark jobs to the cluster. It can be spark2-submit for Spark2 CDH clusters. Make sure to provide the full path or spark-submit should be in the path.                                     |
-+--------------------+----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   * - Parameter
+     - Value
+     - Description
+   * - app.runOnCluster
+     - true
+     - Indicate to run on the spark cluster. By default it is set to false
+   * - app.postMessageURL
+     - http://localhost:8080/messageFromSparkJob
+     - Indicate the URL on fire server which receives messages from the spark jobs running on the cluster. Set localhost to the machine name on which Fire is running. Replace 8080 with the port number on which Fire is running.
+   * - app.sparkSubmitJar
+     - /user/centos/fire-2.1.0/fire-lib/fire-core-2.1.0-jar-with-dependencies.jar
+     - fire-lib directory of the Sparkflows install contains the fire core jar used in submitting the workflows to the Spark cluster. Set it correctly to be the absolute path of the fire core jar. 
+   * - hdfs.namenodeURI
+     - hdfs://localhost:8020
+     - Update the hdfs namenode URI. Set localhost to the machine on which the namenode is running.
+   * - hdfs.namenodeURI
+     - file://
+     - Set it to file:// when the files are on the local filesystem. This can be the case when HDFS is not there.  
+   * - hdfs.namenodeURI
+     - maprfs:///
+     - Set it to maprfs:/// for mapr.  
+   * - hive.JDBC_DB_URL 
+     - jdbc:hive2://localhost:10000 
+     - Update the hive JDBC DB URL if you would be accessing HIVE from Sparkflows. This is the URL of the HiveServer 2 server.
+   * - spark.sql-context 
+     - HIVEContext
+     - Set it to either HIVEContext or SQLContext based on whether you want to use HIVEContext or SQLContext in your job. Use HIVEContext if you would be accessing the HIVE tables. 
+   * - spark.master  
+     - yarn 
+     - Set it to yarn for connecting to a spark cluster running YARN.  
+   * - spark.master  
+     - spark://spark_master_hostname:port
+     - Set it to the spark master URL when connecting to a spark cluster running in standalone mode. Port is normally 7077.
+   * - spark.spark-submit 
+     - spark-submit
+     - Spark Submit command for submitting the Spark jobs to the cluster. It can be spark2-submit for Spark2 CDH clusters. Make sure to provide the full path or spark-submit should be in the path.  
 
 Create New Users in Fire
 --------------------

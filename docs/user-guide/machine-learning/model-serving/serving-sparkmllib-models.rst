@@ -23,6 +23,6 @@ By using NodeModelLoad & selecting the particular type of model to be loaded, th
 Online Scoring with Kafka and Spark Streaming:
 ---------------------------------------------
 
-Scalable messaging platform like Kafka to send newly acquired data to a long running Spark Streaming process. The Spark process can then make a new prediction based on the new data.
+Scalable messaging platform like Kafka is used to send newly acquired data to a long running Spark Streaming process. The Spark process can then make a new prediction based on the new data.
 
 

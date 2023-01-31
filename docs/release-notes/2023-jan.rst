@@ -19,6 +19,8 @@ New features:
 * Processor to add multiple Case when logic in one.
 * Ability to invalidate cache by clicking on an icon in workflow editor page.
 * More metrics for admin to look at regarding the usage of resources.
+* Backup Database feature in administration section.
+* Enable job metrics for workflows running in Databricks environment.
 
 Improvements:
 -------------
@@ -33,10 +35,14 @@ Improvements:
 * Enhancements for seamless git integration.
 * Upgrade of Data Quality UI to show more details.
 * Add feature data type to columns in AutoML.
+* Added option to upload file to DBFS and use that file schema while creating AutoML experiment.
 * Updates for comparing AutoML experiments.
 * Updates to Glue integration.
 * Updates to HANA JDBC connector.
 * Added feature importance to lots of Machine Learning processors
+* Added more fields in Create EMR JobFlow node in pipeline.
+* Correlation id feature in pipeline airflow
+* Ability to create JDBC connection type.
 
 
 Bug Fixes:

@@ -89,7 +89,7 @@ Fire Configurations for connecting to an Apache Spark Cluster
 Below are the configuration details for connecting Fire to an Apache Spark Cluster.
 
 .. list-table:: 
-   :widths: 11 20 30
+   :widths: 14 20 30
    :header-rows: 1
 
    * - Parameter

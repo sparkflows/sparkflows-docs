@@ -3,32 +3,32 @@ Serving H2O Models
 
 H2O allows you to persist the models you have built to either a Plain Old Java Object (POJO) or a Model Object, Optimized (MOJO).
 
-Fire Insights has the following processors for persisting the H2O Models.
+Fire Insights has the following processors for persisting the H2O Models:
 
   * H2OMojoSave
   * H2OModelSave
 
 Once the H2O model is saved, they can be used for scoring and serving.
 
-H2O-generated MOJO and POJO models are intended to be easily embeddable in any Java environment. The only compilation and runtime dependency for a generated model is the h2o-genmodel.jar file produced as the build output of these packages.
+H2O-generated MOJO and POJO models are intended to be easily embeddable in any Java environment. The only compilation and runtime dependency for a generated model is the *h2o-genmodel.jar file* produced as the build output of these packages.
 
-H2OModelLoad or H2OMojoLoad Processors in Fire Insights can be used to make a batch predictions or real-time prediction using Spark Streaming. Or you can expose your model as a REST API.
+H2OModelLoad or H2OMojoLoad Processors in Fire Insights can be used to make a batch predictions or real-time prediction using Spark Streaming. Or you can expose your model as a REST API. For more details, visit the link given below:
 
 https://h2o-release.s3.amazonaws.com/h2o/rel-ueno/2/docs-website/h2o-docs/pojo-quick-start.html
 
 
-Serving H2O MOJO models
+Serving H2O MOJO Models
 ------------------------
 
-The below page on the H2O website gives details on serving a MOJO model.
+For detailed information on serving a MOJO model, visit the page on the H2O website at:
 
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#step-2-compile-and-run-the-mojo
 
 
-Serving H2O POJO models
+Serving H2O POJO Models
 -----------------------
 
-The details for serving a POJO models is described in this page.
+For detailed information on serving a POJO model, visit the page given at:
 
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#building-a-pojo
 
@@ -73,7 +73,7 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/productionizing.html#building-a-po
 
 
 
-Useful links:
+You can visit the link given below to gather more insights on building a machine learning application using H2O.ai.
 
 https://medium.com/spikelab/building-a-machine-learning-application-using-h2o-ai-67ce3681df9c
 

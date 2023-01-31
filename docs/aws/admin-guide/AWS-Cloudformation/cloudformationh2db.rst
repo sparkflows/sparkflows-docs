@@ -19,7 +19,7 @@ Relevant Files
 --------------
 
 .. list-table:: Below are the Relevant Files
-   :widths: 10 20 40
+   :widths: 15 20 40
    :header-rows: 1
 
    * - Title

@@ -67,6 +67,13 @@ Troubleshooting Guide
     :doc:`/troubleshooting/postbackurl`
     
     Steps to troubleshooting postbackurl
+    
+    ---
+    
+    :doc:`/troubleshooting/github`
+    
+    Steps to troubleshooting Gitbuck    
+    
 
 .. toctree::
    :hidden:
@@ -82,6 +89,7 @@ Troubleshooting Guide
    databricks.rst
    assume_role.rst
    postbackurl.rst
+   github.rst
    
    
    

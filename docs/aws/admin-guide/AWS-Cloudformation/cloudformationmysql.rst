@@ -1,4 +1,4 @@
-CloudFormation Template with MySQL
+CloudFormation Template with MySQL Database
 ========================
 
 

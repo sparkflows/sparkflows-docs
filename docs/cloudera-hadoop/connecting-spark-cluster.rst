@@ -97,7 +97,7 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
      - Description
    * - app.runOnCluster
      - true
-     - Indicate to run on the spark cluster. By default it is set to false
+     - Indicate to run on the spark cluster. By default it is set to false.
    * - app.postMessageURL
      - http://localhost:8080/messageFromSparkJob
      - Indicate the URL on fire server which receives messages from the spark jobs running on the cluster. Set localhost to the machine name on which Fire is running. Replace 8080 with the port number on which Fire is running.
@@ -148,7 +148,7 @@ Setting up PySpark
 
 If running with PySpark, the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``.
 
-It is also important that all the users are able to execute the python executable.
+It is also important that all the users are able to execute the Python executable.
 
 spark-env.sh::
 

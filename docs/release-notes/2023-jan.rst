@@ -41,28 +41,28 @@ Improvements:
 * Updates to HANA JDBC connector.
 * Added feature importance to lots of Machine Learning processors
 * Added more fields in Create EMR JobFlow node in pipeline.
-* Correlation id feature in pipeline airflow
+* Correlation id feature in pipeline airflow.
 * Ability to create JDBC connection type.
 
 
 Bug Fixes:
 ----------
 
-* Schema propagation for Prophet models
-* Schema propagation for ARIMA models
-* Schema propagation for SARIMAX models
-* Fix download of Big files
+* Schema propagation for Prophet models.
+* Schema propagation for ARIMA models.
+* Schema propagation for SARIMAX models.
+* Fix download of Big files.
 * Fix for proxy feature importance of linear regression using the weights.
-* Do not allow user to save if mandatory columns are not provided in Administrative tab when adding new user
-* Ensure the web socket connection among fire server's do not interfere with each other
-* Fixed Postaback url usage in Livy connection
+* Do not allow user to save if mandatory columns are not provided in Administrative tab when adding new user.
+* Ensure the web socket connection among fire server's do not interfere with each other.
+* Fixed Postaback url usage in Livy connection.
 
 
 Documentation:
 --------------
 
 * Revamp of the Sparkflows installation docs.
-* Reorganisation of the structure of the doc menus.
+* Reorganisation of the structure of the doc menu.
 * Revamp of docs for install on AWS.
 * Revamp of docs for install on Azure.
 * New page to access S3 from EC2 without AssumeRole.

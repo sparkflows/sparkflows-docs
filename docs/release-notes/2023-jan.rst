@@ -5,9 +5,9 @@ New features:
 ------
 
 * Workflow wizard to create workflows just by a few clicks.
-* Update JDBC processor - Provides the capability to insert a subset of columns into a DB by mapping primary key.
-* Upsert JDBC processor - Provides the capability to insert or update the data to databases.
-* Drop rows with null processor - Provides the capability to drop rows with nulls in specific columns.
+* Added "Update JDBC processor" which provides the capability to insert a subset of columns into a DB by mapping primary key.
+* Added "Upsert JDBC processor" which provides the capability to insert or update the data to databases.
+* Drop rows with null processor which provides the capability to drop rows with nulls in specific columns.
 * MinMax scaler processor to transform the test data.
 * String Indexer processor to transform the test data.
 * One Hot encoder processor to transform the test data.

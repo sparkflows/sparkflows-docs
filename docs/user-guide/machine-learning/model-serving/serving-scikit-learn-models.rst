@@ -7,7 +7,7 @@ Fire Insights provides the following processors for persisting the Scikit-learn 
 
 Once the Scikit-learn model is saved, they can be used for serving.
 
-The details for Scikit-learn Model Persistence is available here:
+Visit the link given below to get detailed information on Scikit-learn Model Persistence:
 
 - https://scikit-learn.org/stable/modules/model_persistence.html
 

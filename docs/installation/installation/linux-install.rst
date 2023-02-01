@@ -39,7 +39,7 @@ Downloading and Installing Java 8
 
 * Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 
-* Then set the ``JAVA_HOME``
+* Set the ``JAVA_HOME`` property.
 
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 

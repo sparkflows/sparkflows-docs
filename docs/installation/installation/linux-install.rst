@@ -222,7 +222,7 @@ Unpack the tgz file::
 
     tar xvf fire-x.y.z.tgz
 
-Upgrade the H2 or MySQL database
+Upgrade the H2 database or MySQL database
 --------------------------------
 
 * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.

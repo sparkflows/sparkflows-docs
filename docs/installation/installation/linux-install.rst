@@ -173,13 +173,22 @@ Sparkflows come with Java engine and Python engine. Following the above steps, w
 Helpful Commands
 ===========================
 
-* Stopping the Fire Server: ``./run-fire-server.sh stop``
+* Stopping the Fire Server::
+   
+  ./run-fire-server.sh stop
 
-* Creating a new Linux user: ``sudo useradd -p password sparkflows``
+* Creating a new Linux user::
 
-* Changing the password of a user: ``sudo passwd sparkflows``
+  sudo useradd -p password sparkflows
 
-* Forwarding traffic to a port  ``sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent`` followed by ``sudo firewall-cmd --reload``
+* Changing the password of a user::
+
+  sudo passwd sparkflows
+
+* Forwarding traffic to a port::
+  
+  sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+  sudo firewall-cmd --reload
 
 
 Upgrading Steps
@@ -192,7 +201,7 @@ Download the new TGZ file
 
 Download Fire tgz file from::
 
-  - https://www.sparkflows.io/download  
+  https://www.sparkflows.io/download  
   
   
 Stop Fire Server
@@ -200,7 +209,7 @@ Stop Fire Server
 
 Stop Fire server using the below command from Fire home directory::
 
-    run-fire-server.sh stop
+  run-fire-server.sh stop
 
   
 Unpack it

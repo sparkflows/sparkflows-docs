@@ -7,6 +7,16 @@ When using the python engine, python 3.6+ has to be present. Also the dependent 
 
 Below are some helpful python commands.
 
+Check python version
+----------------
+
+::
+
+
+    python --version
+    python3 --version
+
+
 List all the python packages
 --------------------
 

@@ -30,3 +30,11 @@ Remove all the wheel files in the cache
 
 
     pip cache purge
+
+Customized python library installation
+----
+
+::
+
+  
+    pip install (python_library)==1.2.0

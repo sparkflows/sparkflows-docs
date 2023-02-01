@@ -44,7 +44,7 @@ Downloading and Installing Java 8
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 
 
-Using Linux RPM Package
+Install using Linux RPM Package
 +++++++++++++++++++
 
 - Download the Linux x64 RPM Package
@@ -70,9 +70,9 @@ Install OpenJDK8 JDK using yum
 References
 ----------
 
-* Install JAVA on CentOS and Fedora - https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
-* OpenJDK download link - https://openjdk.java.net/install/
-* Install OpenJDK on Ubuntu - https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
+* Install JAVA on CentOS and Fedora: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+* OpenJDK download link: https://openjdk.java.net/install/
+* Install OpenJDK on Ubuntu: https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
 
 
 

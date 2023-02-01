@@ -1,7 +1,7 @@
 H2O 
 ======================
 
-Create the AutoML experiment with H2O package by selecting H2O in package field. Next select the problem type as either a Regression or Classification problem to be solved along with the target column name (outcome) in configuration.
+Create the AutoML experiment with H2O package by selecting H2O in package field. Next, select the problem type as either a Regression or Classification problem to be solved along with the target column name (outcome) in configuration.
 
 * Add required details and select AutoML package as H2O.
 

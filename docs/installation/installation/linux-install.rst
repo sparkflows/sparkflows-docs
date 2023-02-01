@@ -79,11 +79,11 @@ References
 Quick Installation Steps of Fire with H2 Database
 ===========================================
 
+To get started quickly with minimal install and configuration of Sparkflows, please use the below steps. If you want a production ready environment, please follow the steps in the next section.
+
 * Download the fire ``TGZ`` file from:
 
-  * https://www.sparkflows.io/download  OR   
-  * https://www.sparkflows.io/archives
-  
+  * https://www.sparkflows.io/download
   
 * Unpack it::
 
@@ -112,6 +112,8 @@ Quick Installation Steps of Fire with H2 Database
 Detailed Installation Steps
 ===========================
 
+Use the below steps to deploy Sparkflows in production grade environment. Once, the Install steps are complete, you would ideally like to visit the Configuration section of the doc to configure LDAP, S3 and others: https://docs.sparkflows.io/en/latest/installation/configuration/index.html
+
 * Glossary
 
   * ``<install_dir>`` : location where you unzipped Sparkflows tgz file. For example this can be your home directory.
@@ -119,10 +121,9 @@ Detailed Installation Steps
   * ``#`` : used for comments and documentation
 
 
-* Download the Sparkflows tgz file from:
+* Download the Sparkflows ``TGZ`` file from:
 
-  * https://www.sparkflows.io/download  OR   
-  * https://www.sparkflows.io/archives
+  * https://www.sparkflows.io/download
   
   
 * Unzip it::
@@ -130,11 +131,10 @@ Detailed Installation Steps
     tar xvf fire-x.y.z.tgz
 
 
-* Set up H2 or MySQL DB
+* Set up the metadata Database.
 
-  Sparkflows can be configured to run with H2 Database or MySQL. H2 Database is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
+  Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, once can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
     
-   
 * Launch Fire server::
 
     cd <fire install_dir>
@@ -142,19 +142,9 @@ Detailed Installation Steps
     
 * Test by opening your web browser and going to::
 
-    http://localhost:8080
-
-    OR
-
-    http://<machine_name>:8080
+    http://localhost:8080 OR http://<machine_name>:8080 (Access over http)
     
-    OR
-    
-    https://localhost:8443
-    
-    OR
-    
-    https://<machine_name>:8443
+    https://localhost:8443 OR https://<machine_name>:8443 (Access over https)
 
 * Login with::
 
@@ -173,60 +163,38 @@ Detailed Installation Steps
 Installing and starting the Python engine
 =========================================
 
-On Ubuntu, the python dependencies can be installed by following the steps here: :ref:`Python install on Ubuntu<Python Installation on Ubuntu>`
+Sparkflows come with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Jave engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
 
-On RedHat and CentOS, the python dependencies can be installed by following the steps here: :ref:`Python install on RedHat and CentOS<Python Installation on Red Hat and CentOS>`
+* On Ubuntu, the python dependencies can be installed by following the steps here: :ref:`Python install on Ubuntu<Python Installation on Ubuntu>`
 
-    
-Stopping the Fire Server
-===========================
-
-Stop the Fire Server with the below::
-
-    ./run-fire-server.sh stop
-    
-    
-Connecting to Apache Spark Cluster
-===========================
-
-Now that you have Fire installed, you may want to connect it to your Apache Spark Cluster.
-
-* :doc:`../configuration/connecting-spark-cluster.rst`
-
-
-.. _Download: https://www.sparkflows.io/download
-
+* On RedHat and CentOS, the python dependencies can be installed by following the steps here: :ref:`Python install on RedHat and CentOS<Python Installation on Red Hat and CentOS>`
 
   
 Helpful Commands
 ===========================
 
-Creating a new Linux user
-+++++++++++++++++++++++
-::
+* Stopping the Fire Server: ``./run-fire-server.sh stop``
 
-    sudo useradd -p password sparkflows
+* Creating a new Linux user: ``sudo useradd -p password sparkflows``
 
-Changing the password of a user
-+++++++++++++++++++++++
-::
+* Changing the password of a user: ``sudo passwd sparkflows``
 
-    sudo passwd sparkflows
-
-
-Forwarding traffic to a port
-+++++++++++++++++++++++++++++
-
-::
-
-    sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
-    sudo firewall-cmd --reload
-
+* Forwarding traffic to a port  ``sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent`` followed by ``sudo firewall-cmd --reload``
 
 
 Upgrading Steps
 ==============
 
+To upgrade Sparkflows, one needs to follow the below steps:
+
+Download the new TGZ file
+------------------------------
+
+Download Fire tgz file from::
+
+  - https://www.sparkflows.io/download  
+  
+  
 Stop Fire Server
 --------------------------
 
@@ -234,15 +202,6 @@ Stop Fire server using the below command from Fire home directory::
 
     run-fire-server.sh stop
 
-
-Download the new Fire tgz file
-------------------------------
-
-Download Fire tgz file from::
-
-  - https://www.sparkflows.io/download  OR  
-  
-  - Via the direct link.
   
 Unpack it
 -----------
@@ -257,20 +216,24 @@ Upgrade the H2 or MySQL database
 * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.
 * Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``
 * If you are using MySQL, backup the fire database in MySQL.
-* Execute the following commands to upgrade the Fire database schema::
+* Execute the following commands to create and upgrade the Fire database schema::
 
     cd <install_dir>/fire-x.y.z
     
-    ./create-h2-db.sh      OR     ./create-mysql-db.sh
+    Run this create and upgrade database script if using H2 database: ``./create-h2-db.sh``           OR      
+    Run this create and upgrade database script if using MySQL database: ``./create-mysql-db.sh``
     
-``The above command creates or updates the existing db if one already exists.``
 
+If PySpark engine is installed, upgrade python dependencies
+-----------------------------------------------------------
 
-If PySpark engine is enabled, upgrade python dependencies as well
---------------------------------
+* Activate the python environment by running from Fire home directory::
 
-* Activate the python environment by running from Fire home directory ``source env/bin/activate``.
-* Upgrade the dependencies in the environment via ``pip install -r fire-x.y.x/dist/fire/requirements.txt``.
+    source env/bin/activate 
+    
+* Upgrade the dependencies in the environment via::
+    
+    pip install -r fire-x.y.x/dist/fire/requirements.txt
 
 Restart Fire Server
 -------------------

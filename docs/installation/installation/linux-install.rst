@@ -81,9 +81,7 @@ Quick Installation Steps of Fire with H2 Database
 
 To get started quickly with minimal install and configuration of Sparkflows, please use the below steps. If you want a production ready environment, please follow the steps in the next section.
 
-* Download the fire ``TGZ`` file from:
-
-  * https://www.sparkflows.io/download
+* Download the fire ``TGZ`` file from: https://www.sparkflows.io/download
   
 * Unpack it::
 

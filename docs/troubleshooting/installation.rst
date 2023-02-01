@@ -38,5 +38,12 @@ Getting the error : unable to create new active thread
 
 https://dzone.com/articles/troubleshoot-outofmemoryerror-unable-to-create-new
 
+Keystore Error on starting Fire
+--------------------------------
+
+If you run into error ``keytool error: java.io.IOException: Keystore was tampered with, or password was incorrect`` when starting fire, it means the ``KEYSTORE_PASSWORD`` and the ``keystore.jks`` donot correspond to each other. To validate, one can use the keytool command below. If the keytool commands throws the same error as above, if means that one will have to create and use the correct ``keystore.jks`` and the corresponding password.
+
+keytool -list -keystore <path of keystore.jks> -storepass <passoword_for_jks> 
+
 
 

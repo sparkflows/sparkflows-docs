@@ -1,4 +1,4 @@
-Connecting to Apache Spark Cluster
+Connect to Apache Spark Cluster
 ==================================
 
 Overview
@@ -8,8 +8,8 @@ Fire can be configured to submit the spark jobs to run on an Apache Spark Cluste
 
 * **Install Fire on an edge node of your Apache Spark Cluster.**
     * The edge node has the hadoop, Hive or Spark configuration files set up.
-    * Make sure that you are already able to run your spark jobs from this node using **spark-submit**.
-* **Update the below configurations under the menu, ``Administration/Configuration``**.
+    * Make sure that you are already able to run your spark jobs from this node using spark-submit.
+* **Update the below configurations under the menu, Administration/Configuration.**
 
 
 .. Note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details can be found below in this page. For the rest of the documentation on this page, we assume that it has been installed as the user ``sparkflows``.
@@ -33,7 +33,7 @@ https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_
 
 * Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
 
-* In the example below, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``.  The users being impersonated belong to the groups ``Hive,HFS,hadoop,Spark``. Your permissions are likely going to be different and more restrictive.
+* In the example given below, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``. The users being impersonated belong to the groups ``Hive, HFS, hadoop, Spark``. Your permissions are likely going to be different and more restrictive.
 
 Below is an example::
 
@@ -72,7 +72,7 @@ If you are using Ambari, you can set the above settings for impersonation in ``H
 
 
 
-Infer Hadoop Cluster Configs
+Infer Hadoop Cluster Config
 --------------------
 
 ``Infer Hadoop Cluster Config`` button under Administration/Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
@@ -83,10 +83,10 @@ Infer Hadoop Cluster Configs
    :align: center
 
 
-Fire Configurations for connecting to an Apache Spark Cluster
+Fire Configurations to connect to an Apache Spark Cluster
 -------------------------------------------------------------
 
-Below are the configuration details for connecting Fire to an Apache Spark Cluster.
+Below are the configuration details to connect Fire to an Apache Spark Cluster.
 
 .. list-table:: 
    :widths: 14 20 30
@@ -103,10 +103,10 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
      - Indicate the URL on fire server which receives messages from the spark jobs running on the cluster. Set localhost to the machine name on which Fire is running. Replace 8080 with the port number on which Fire is running.
    * - app.sparkSubmitJar
      - /user/centos/fire-2.1.0/fire-lib/fire-core-2.1.0-jar-with-dependencies.jar
-     - fire-lib directory of the Sparkflows install contains the fire core jar used in submitting the workflows to the Spark cluster. Set it correctly to be the absolute path of the fire core jar. 
+     - fire-lib directory of the Sparkflows install contains the fire core jar used in submitting the workflows to the Spark cluster. Set it correctly to be the absolute path of the fire core JAR. 
    * - hdfs.namenodeURI
      - hdfs://localhost:8020
-     - Update the hdfs namenode URI. Set localhost to the machine on which the namenode is running.
+     - Update the HDFS namenode URI. Set localhost to the machine on which the namenode is running.
    * - hdfs.namenodeURI
      - file://
      - Set it to file:// when the files are on the local filesystem. This can be the case when HDFS is not there.  
@@ -115,7 +115,7 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
      - Set it to maprfs:/// for mapr.  
    * - hive.JDBC_DB_URL 
      - jdbc:hive2://localhost:10000 
-     - Update the hive JDBC DB URL if you would be accessing HIVE from Sparkflows. This is the URL of the HiveServer 2 server.
+     - Update the Hive JDBC DB URL if you would be accessing Hive from Sparkflows. This is the URL of the HiveServer 2 server.
    * - spark.sql-context 
      - HIVEContext
      - Set it to either HIVEContext or SQLContext based on whether you want to use HIVEContext or SQLContext in your job. Use HIVEContext if you would be accessing the HIVE tables. 
@@ -132,7 +132,7 @@ Below are the configuration details for connecting Fire to an Apache Spark Clust
 Create New Users in Fire
 --------------------
 
-Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` which would be building and running workflows.
+Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` which would build and run the workflows.
 
 These users have to exist on HDFS. So, ensure that these users' home directory(s) are created on HDFS.
 
@@ -143,7 +143,7 @@ Also, create the home directory for the users on HDFS. The sample code below cre
 * hadoop fs -chown xyz:hadoop /user/xyz
 
 
-Setting up PySpark
+Set up PySpark
 -------------------
 
 If running with PySpark, the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``.

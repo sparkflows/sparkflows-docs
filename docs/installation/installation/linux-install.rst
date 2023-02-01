@@ -1,7 +1,7 @@
 Linux Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.
+Sparkflows can be installed to run natively on Linux machines using the binary bundled as a TAR. It can also be connected to a Spark cluster to submit jobs to cluster.
 
 
 Prerequisites
@@ -13,24 +13,23 @@ Supported Linux Versions
 ::
 
   - CentOS : 7+
-  - Ubuntu : 18+
+  - Ubuntu : 18.04+
   - RHEL : 8+
 
 
 Below are required for installing Sparkflows on Linux machine::
 
   - JDK 1.8+ installed.
-  - java and jar have to be in the PATH
+  - Java and JAR should be in the PATH
   - 8 GB+ of RAM.
-  - Python 3.7+ (when running Python and PySpark, otherwise not needed)
 
 
-If Sparkflows would be connected to an Apache Spark Cluster::
+Below is needed if Sparkflows would connect and submit jobs to an Apache Spark Cluster::
 
-  - Spark 2.X is needed on the cluster
+  - Spark 3.X is needed on the cluster
 
 
-If using Python and PySpark (optional) ::
+If there is need to run the PySpark engine (optional) ::
 
   - Python 3.7+ needs to be set up on the machine
 
@@ -38,9 +37,9 @@ If using Python and PySpark (optional) ::
 Downloading and Installing Java 8
 ---------------------------------
 
-Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+* Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 
-You would need to set ``JAVA_HOME`` as well.
+* Then set the ``JAVA_HOME``
 
 There are various ways for Installing Java 8 on Linux. Some are listed below.
 

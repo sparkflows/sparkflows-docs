@@ -24,6 +24,13 @@ List all the python packages
 
     pip list
     
+pip upgrade
+-----
+
+::
+
+
+    pip install --upgrade pip
 
 Install python packages
 ---------------

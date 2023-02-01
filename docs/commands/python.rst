@@ -55,3 +55,12 @@ Customized python library installation
 
   
     pip install (python_library)==1.2.0
+
+
+Create Virtual Environment
+----
+
+::
+
+
+    python3 -m venv venv

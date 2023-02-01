@@ -23,3 +23,10 @@ Install python packages
     pip install -r requirements.txt
     
     
+Remove all the wheel files in the cache
+---------------------------
+
+::
+
+
+    pip cache purge

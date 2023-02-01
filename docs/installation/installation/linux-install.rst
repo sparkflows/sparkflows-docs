@@ -232,8 +232,8 @@ Upgrade the H2 database or MySQL database
 
     cd <install_dir>/fire-x.y.z
     
-    Run this create and upgrade database script if using H2 database: ``./create-h2-db.sh``           OR      
-    Run this create and upgrade database script if using MySQL database: ``./create-mysql-db.sh``
+    Run this create and upgrade database script if using H2 database: ./create-h2-db.sh           OR      
+    Run this create and upgrade database script if using MySQL database: ./create-mysql-db.sh
     
 
 If PySpark engine is installed, upgrade python dependencies

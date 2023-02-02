@@ -43,3 +43,13 @@ Below are steps ::
 .. figure:: ../_assets/operating/backup/bkp_3.PNG
    :alt: bkp
    :width: 60%   
+
+3. Click on ``Backup`, it will backup the h2 db in zip format and pop up the success msg
+
+.. figure:: ../_assets/operating/backup/bkp_4.PNG
+   :alt: bkp
+   :width: 60%   
+   
+.. figure:: ../_assets/operating/backup/bkp_5.PNG
+   :alt: bkp
+   :width: 60%      

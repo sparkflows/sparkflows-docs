@@ -72,7 +72,13 @@ Troubleshooting Guide
     
     :doc:`/troubleshooting/github`
     
-    Steps to troubleshooting Gitbuck    
+    Steps to troubleshooting Github  
+    
+     ---
+    
+    :doc:`/troubleshooting/pipelines`
+    
+    Steps to troubleshooting Pipelines
     
 
 .. toctree::
@@ -90,6 +96,7 @@ Troubleshooting Guide
    assume_role.rst
    postbackurl.rst
    github.rst
+   pipelines.rst
    
    
    

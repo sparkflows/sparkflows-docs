@@ -6,7 +6,6 @@ Sparkflows provides the capability to create MySQL connection and use the connec
 **Prerequisites:**
 
 In order to connect to MYSQL JDBC source, the JDBC driver needs to be installed in Fire as mentioned in this document 
-
 https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
 
 **Connections can be created at various levels:**

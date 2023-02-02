@@ -18,7 +18,7 @@ Fire Insights provides the following features:
 * Build Reports and Dashboards
 * Build Analytical Applications
 
-Fire Insights also support both Batch and Streaming Jobs.
+Fire Insights supports both Batch and Streaming Jobs.
 
 
 Installation & Configuration

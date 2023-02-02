@@ -5,9 +5,9 @@ In the parameters stage, we can add ``select, text-field, select boxes, buttons,
 
 For example: 
 
-- First, we will add a column component and divide it into two columns. 
+- First, we will add a column component and then divide it into two columns. 
 
-- Then, let's add select boxes example in the first column by adding select boxes component. In this component in the Data tab, adds all possible values you want to add.
+- Then, let's add select boxes example in the first column by adding select boxes component. In this component in the Data tab, add all possible values you want to add.
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-selectboxes.PNG
       :alt: web-app
@@ -42,4 +42,4 @@ For example:
       :width: 80%
    
 
-Click on "DONE" or "SAVE" to save the added components for that stage.
+Click on ``DONE`` or ``SAVE`` to save the added components for that stage.

@@ -12,13 +12,15 @@ Login with AWS console and search for load balancer with EC2 feature
    :alt: Load balancers
    :width: 60%
 
-* Create load balancer & select application load balancer.
+Create load balancer & select application load balancer
+-------
 
 .. figure:: ../..//_assets/loadbalancer/application-lb.PNG
    :alt: Load balancers
    :width: 60%
    
-* Configure load balancer.
+Configure load balancer
+--------
  
 ::
  

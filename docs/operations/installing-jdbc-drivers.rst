@@ -10,32 +10,12 @@ Below are the steps for installing the JDBC driver :
 - *Download the JDBC JAR file.*
 - *Copy it into "fire-user-lib" and "fire-server-lib" directory under the Fire installation home directory.*
 - *Restart Fire.*
+- *Running Workflows using the Dependent Jars*
 
 Download the JDBC JAR File
 -------------------------- 
 
 Download the JDBC JAR file for the database you are looking to connect to.
-
-Copy it into fire-user-lib & fire-server-lib
---------------------------
-
-Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
-
-Copy the downloaded JDBC JAR file into it.
-
-
-Restarting Fire Server
-------------
-
-Restart the Fire server with ``./run-fire-server.sh restart``
-
-This will restart the Fire services automatically.
-
-
-Running Workflows Depending on the JARS Added
----------------------------
-
-When running workflows which depend on the JAR file, select the checkbox for that JAR file in the Workflow Execution Page. 
 
 Downloading the JDBC JAR Files
 ---------------------------
@@ -91,5 +71,28 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
+
+Copy it into fire-user-lib & fire-server-lib
+--------------------------
+
+Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
+
+Copy the downloaded JDBC JAR file into it.
+
+
+Restarting Fire Server
+------------
+
+Restart the Fire server with ``./run-fire-server.sh restart``
+
+This will restart the Fire services automatically.
+
+
+Running Workflows using the Dependent Jars
+---------------------------
+
+When running workflows which depend on the JAR file, select the checkbox for that JAR file in the Workflow Execution Page. 
+
+
 
 

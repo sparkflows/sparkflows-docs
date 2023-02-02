@@ -1,4 +1,4 @@
-AutoML-Introduction
+AutoML
 =====================
 
 AutoML (Automated Machine Learning) is a process of automating the entire machine learning pipeline, from data preparation and feature engineering to model selection and hyperparameter tuning. The goal of AutoML is to make the process of building and deploying machine learning models faster, easier, and more accessible, particularly for people with less experience in machine learning. 

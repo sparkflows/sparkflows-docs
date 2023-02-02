@@ -26,4 +26,4 @@ Check the Machine Configuration.
     * any Applications (e.g. Envoy) which scans the deployed App and logs (CPU, Mem)  
 
 * Check DAGs in Airflow are not queued up
-* Ensure Airflow Machine is configured with enough Memory and Processing Cores. 
+* Ensure Airflow Instance is configured with enough Memory and Processing Cores. 

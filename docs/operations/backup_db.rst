@@ -53,3 +53,11 @@ Below are steps ::
 .. figure:: ../_assets/operating/backup/bkp_5.PNG
    :alt: bkp
    :width: 60%      
+
+4. You can scheduled depending on requirements on Daily, weekly or monthly basis.
+
+Click on ``Schedule DB Backup`` tab and you will be able to schedule it and save.
+
+.. figure:: ../_assets/operating/backup/bkp_6.PNG
+   :alt: bkp
+   :width: 60%

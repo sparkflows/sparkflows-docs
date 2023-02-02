@@ -33,3 +33,13 @@ Below are steps ::
 .. figure:: ../_assets/operating/backup/bkp_1.PNG
    :alt: bkp
    :width: 60%
+
+2. Go Back to ``Administration`` -> ``Operations`` and select ``Backup DB``, it will pop up new page with below details:
+
+.. figure:: ../_assets/operating/backup/bkp_2.PNG
+   :alt: bkp
+   :width: 60%
+   
+.. figure:: ../_assets/operating/backup/bkp_3.PNG
+   :alt: bkp
+   :width: 60%   

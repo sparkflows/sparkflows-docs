@@ -37,7 +37,7 @@ Create hosted zone.
 Create records
 ------
 
-Create records and Registered Network load balancer to it.
+Create records and Register Network load balancer to it.
 
 ::
 

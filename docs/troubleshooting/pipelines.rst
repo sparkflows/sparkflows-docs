@@ -7,6 +7,7 @@ This document explains some of the common issues and the resolutions:
 ------------------------------------------------------------
 
 **Issue Description**
+
 There could be different types of issues observed.
 
 * The Background Event Trigger Thread is stalled
@@ -14,6 +15,7 @@ There could be different types of issues observed.
 * Airflow DAG Execution requests are not trigerred in timely manner
   
 **Resolution**
+
 Check the Machine Configuration.
 
 * Ensure minumum 8 cores and 16 GB RAM are used.

@@ -72,3 +72,7 @@ Below are steps on how to create MySQL Connection:
     Once you have entered the values to the parameters, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. Now you can create connection using the resources in datasets and workflows.
 
 .. Note:: Make sure that MySQL URL should be accessible from Sparkflows web server URL.
+
+3. Run Workflows using MySQL Jdbc Jar
+
+    When running workflows , select the checkbox for the JAR file ( mysql-connector-java-X.Y.Z.jar) in the Workflow Execution Page.

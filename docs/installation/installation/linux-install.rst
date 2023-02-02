@@ -197,58 +197,45 @@ Upgrading Steps
 
 To upgrade Sparkflows, one needs to follow the below steps:
 
-Download the new TGZ file
-------------------------------
+* Download the new Fire TGZ file from ::
 
-Download Fire TGZ file from::
-
-  https://www.sparkflows.io/download  
+    https://www.sparkflows.io/download  
   
   
-Stop Fire Server
---------------------------
+* Stop Fire Server using the below command from Fire home directory using the command::
 
-Stop Fire server using the below command from Fire home directory::
-
-  run-fire-server.sh stop
-
+      run-fire-server.sh stop
   
-Unpack it
------------
+* Unpack the TGZ file using the command::
 
-Unpack the tgz file::
+      tar xvf fire-x.y.z.tgz
 
-    tar xvf fire-x.y.z.tgz
+* Upgrade the H2 database or MySQL database
 
-Upgrade the H2 database or MySQL database
---------------------------------
+   * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.
+   * Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``
+   * If you are using MySQL, backup the fire database in MySQL.
+   * Execute the following commands to create and upgrade the Fire database schema::
 
-* If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.
-* Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``
-* If you are using MySQL, backup the fire database in MySQL.
-* Execute the following commands to create and upgrade the Fire database schema::
-
-    cd <install_dir>/fire-x.y.z
+        cd <install_dir>/fire-x.y.z
     
-    Run this create and upgrade database script if using H2 database: ./create-h2-db.sh           OR      
-    Run this create and upgrade database script if using MySQL database: ./create-mysql-db.sh
+        Run this create and upgrade database script if using H2 database: ./create-h2-db.sh           OR      
+        Run this create and upgrade database script if using MySQL database: ./create-mysql-db.sh
     
 
-If PySpark engine is installed, upgrade python dependencies
------------------------------------------------------------
+* If PySpark engine is installed, upgrade python dependencies
 
-* Activate the python environment by running from Fire home directory::
+  * Activate the python environment by running from Fire home directory::
 
-    source env/bin/activate 
+       source env/bin/activate 
     
-* Upgrade the dependencies in the environment via::
+  * Upgrade the dependencies in the environment via::
     
-    pip install -r fire-x.y.x/dist/fire/requirements.txt
+       pip install -r fire-x.y.x/dist/fire/requirements.txt
 
-Restart Fire Server
--------------------
+* Restart Fire Server
 
-Restart the Fire server using the below command from Fire home directory::
+   Restart the Fire server using the below command from Fire home directory using the command::
 
-  run-fire-server.sh start
+      run-fire-server.sh start
 

@@ -65,7 +65,8 @@ Select security policy
     Security policy : Select existing or create new security policy.
    
 
-* Configure routing.
+Configure routing
+----------
 
 ::
 

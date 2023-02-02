@@ -43,6 +43,7 @@ Details and resolution can be found here: https://dzone.com/articles/troubleshoo
 --------------------------------
 
 If you run into error ``keytool error: java.io.IOException: Keystore was tampered with, or password was incorrect`` when starting Fire it means:
+
 * The ``KEYSTORE_PASSWORD`` and the ``keystore.jks`` do not correspond to each other.
 * To validate, one can use the keytool command below. 
 * If the keytool commands below throws the same ``keytool error``, it means that one would need to create and use the correct ``keystore.jks`` and the corresponding password.

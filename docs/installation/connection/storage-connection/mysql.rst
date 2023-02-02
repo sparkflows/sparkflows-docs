@@ -3,7 +3,13 @@ MySQL Connection
 
 Sparkflows provides the capability to create MySQL connection and use the connection to access various resources.
 
-Connections can be created at various levels:
+**Prerequisites:**
+
+In order to connect to MYSQL JDBC source, the JDBC driver needs to be installed in Fire as mentioned in this document 
+
+https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
+
+**Connections can be created at various levels:**
 
 * Global  : Everyone has access to these connections
 * Group   : Users belonging to a group will only have access to these connections

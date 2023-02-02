@@ -29,6 +29,7 @@ Below are steps ::
 
     app.db.backup.location /home/sparkflows
 
+.. note:: The path updated should have sufficient permission to write, You may configure s3 bucket if Fire Insights have sufficient privilege to write.
 
 .. figure:: ../_assets/operating/backup/bkp_1.PNG
    :alt: bkp

@@ -86,6 +86,12 @@ Troubleshooting Guide
     
     Steps to troubleshooting Websockets
 
+    ---
+    
+    :doc:`/troubleshooting/https`
+    
+    Steps to troubleshooting HTTPS
+    
 .. toctree::
    :hidden:
 
@@ -103,6 +109,8 @@ Troubleshooting Guide
    github.rst
    pipelines.rst
    websockets.rst
+   https.rst
+   
    
    
    

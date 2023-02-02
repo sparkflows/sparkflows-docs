@@ -1,5 +1,10 @@
 Troubleshooting Guide
 ==============
+
+The first step in troubleshooting issues with Fire Insights is to identify what kinds of issue you are having.
+
+Below are steps for troubleshooting some of the common issues.
+
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2

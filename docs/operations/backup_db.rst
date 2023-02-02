@@ -22,3 +22,10 @@ Fire Insights enable Administrator to avail options for Automate Backup of H2 DB
 
 Below are steps ::
 
+1. Login to ``Fire Insights`` application -> ``Administration`` -> ``Configurations`` -> ``app.db.backup.location`` -> and update path where you want to take backup:
+
+::
+
+
+    app.db.backup.location /home/sparkflows
+

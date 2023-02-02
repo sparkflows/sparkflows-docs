@@ -18,7 +18,6 @@ Check the Machine Configuration.
 
 * Ensure minumum 8 cores and 16 GB RAM are used.
 * Check if any additional processes are running in the same VM where Sparkflows is running.
-  
-For example, 
-* (1) Agent handling the traffic between Load Balancer and installed service, 
-* (2) any Applications (e.g. Envoy) which scans the deployed App and logs (CPU, Mem)  
+  For example, 
+  * Agent handling the traffic between Load Balancer and installed service, 
+  * any Applications (e.g. Envoy) which scans the deployed App and logs (CPU, Mem)  

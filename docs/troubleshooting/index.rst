@@ -80,6 +80,11 @@ Troubleshooting Guide
     
     Steps to troubleshooting Pipelines
     
+    ---
+    
+    :doc:`/troubleshooting/websockets`
+    
+    Steps to troubleshooting Websockets
 
 .. toctree::
    :hidden:
@@ -97,6 +102,7 @@ Troubleshooting Guide
    postbackurl.rst
    github.rst
    pipelines.rst
+   websockets.rst
    
    
    

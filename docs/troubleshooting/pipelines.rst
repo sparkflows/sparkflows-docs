@@ -8,7 +8,7 @@ This document explains some of the common issues and corresponding resolutions:
 
 **Issue Description**
 
-There could be different types of issues observed.
+There could be different reasons for this issue.
 
 * The Background Event Trigger Thread is stalled
 * The Websocket doesn't receive events in timely manner

@@ -3,7 +3,6 @@ Route 53
 
 This page explains the steps for configuring "Route 53" with network load balancer.
 
-Below are the steps to follow for configuration:
 
 Login to AWS console and type "R 53" in search box
 --------

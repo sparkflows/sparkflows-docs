@@ -55,10 +55,12 @@ Below are steps ::
    :alt: bkp
    :width: 60%      
 
-4. You can scheduled depending on requirements on Daily, weekly or monthly basis.
+4. You can scheduled the backup on ``Daily, weekly or monthly`` basis.
 
 Click on ``Schedule DB Backup`` tab and you will be able to schedule it and save.
 
 .. figure:: ../_assets/operating/backup/bkp_6.PNG
    :alt: bkp
    :width: 60%
+
+.. note:: Ideal to Schedule on weekly basis

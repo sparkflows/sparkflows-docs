@@ -10,7 +10,7 @@ Sparkflows can trigger Pipelines in one of the below listed ways :
 
 Steps Involved in Configuring Pipeline in Sparkflows:
 
-1. Login to Sparkflows Web Server URL and traverse to Administrations -> Configurations and enable the below properties:
+1. **Login to Sparkflows Web Server URL and traverse to Administrations -> Configurations and enable the below properties:**
 
 ::
 
@@ -24,13 +24,13 @@ Steps Involved in Configuring Pipeline in Sparkflows:
    :alt: Pipeline List
    :width: 60%
    
-2. Once the above Configuration is enabled, you will see two tab in project namely ``Pipeline & Pipeline Executions`` 
+2. **Once the above Configuration is enabled, you will see two tab in project namely ``Pipeline & Pipeline Executions``** 
 
 .. figure:: ../../_assets/user-guide/pipeline-list-new.png
    :alt: Pipeline List
    :width: 60% 
 
-3. Set the following configurations if you have Airflow running on any remote server.
+3. **Set the following configurations if you have Airflow running on any remote server.**
 
 In the Airflow tab :
 
@@ -71,7 +71,7 @@ Once the above Configurations are saved, the pipelines will start getting submit
 
 .. note:: Make sure that Airflow and other parameter are updated with absolute path.
 
-4. Pipeline List
+4. **Pipeline List**
 
 ``Pipeline`` tab under a Project displays list of all Pipelines created under the selected project. Pipelines can be grouped together under several categories. 
 
@@ -79,7 +79,7 @@ Once the above Configurations are saved, the pipelines will start getting submit
    :alt: Pipeline List
    :width: 60%
 
-5. Creating a Pipeline
+5. **Creating a Pipeline**
 
 Following steps can be followed to create a Pipeline:
 
@@ -115,7 +115,7 @@ Below is an example a Pipeline with multiple Workflows.
    :alt: Pipeline
    :width: 60%
    
-6. Executing a Pipeline
+6. **Executing a Pipeline**
 
 Pipelines can be executed in the similar way as Workflow execution when Sparkflows is not configured with an Airflow server. If an Airflow server is configrued, the pipelines are submitted to Airflow for scheduling and executions.
 
@@ -131,7 +131,7 @@ Clicking on the ``Execute`` Action button from ``Pipeline`` list or in the ``Pip
    :alt: Pipeline Execute
    :width: 60%
    
-7. Pipeline Execution
+7. **Pipeline Execution**
 
 Once a Pipeline is submitted for execution, it's execution details can be viewed in the ``Pipeline Executions`` tab.
 
@@ -139,7 +139,7 @@ Once a Pipeline is submitted for execution, it's execution details can be viewed
    :alt: Pipeline Execution
    :width: 60%
    
-8. Pipeline Schedule
+8. **Pipeline Schedule**
 
 Sparkflows enables you to schedule Pipeline depending on your requirements.
 

@@ -29,3 +29,7 @@ Below are steps ::
 
     app.db.backup.location /home/sparkflows
 
+
+.. figure:: ../_assets/operating/backup/bkp_1.PNG
+   :alt: bkp
+   :width: 60%

@@ -8,14 +8,14 @@ Create an account in Ping Identity
 
 .. figure:: ../../../_assets/authentication/pingid/ping_id.PNG
    :alt: sso
-   :width: 60%
+   :width: 40%
    
 Sign in to Ping Identity
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG
    :alt: sso
-   :width: 60%
+   :width: 40%
 
 After login go to home and click on "Administrators" in Environments
 ------

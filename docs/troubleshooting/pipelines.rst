@@ -1,7 +1,7 @@
 Pipelines
 ============
 
-This document explains some of the common issues and the resolutions:
+This document explains some of the common issues and corresponding resolutions:
 
 1. Pipelines not getting trigerred in Airflow in deterministic manner
 ------------------------------------------------------------
@@ -24,3 +24,6 @@ Check the Machine Configuration.
   Examples of additional processes: 
     * Agent handling the traffic between Load Balancer and installed service, 
     * any Applications (e.g. Envoy) which scans the deployed App and logs (CPU, Mem)  
+
+* Check DAGs in Airflow are not queued up
+* Ensure Airflow Machine is configured with enough Memory and Processing Cores. 

@@ -29,7 +29,7 @@ Below is needed if Sparkflows would connect and submit jobs to an Apache Spark C
   - Spark 3.X is needed on the cluster
 
 
-If there is need to run the PySpark engine (optional) ::
+If there is need to run the PySpark engine (optional)::
 
   - Python 3.7+ needs to be set up on the machine
 
@@ -47,7 +47,7 @@ There are various ways for Installing Java 8 on Linux. Some are listed below.
 Install using Linux RPM Package
 +++++++++++++++++++
 
-- Download the Linux x64 RPM Package
+- Download the Linux x64 RPM Package.
 
 - Install the package::
 
@@ -79,7 +79,7 @@ References
 Quick Installation Steps of Fire with H2 Database
 ===========================================
 
-To get started quickly with minimal install and configuration of Sparkflows, please use the below steps. If you want a production ready environment, please follow the steps in the next section.
+To get started quickly with minimal install and configuration of Sparkflows, please use the steps given below. If you want a production ready environment, please follow the steps in the next section.
 
 * Download the fire ``TGZ`` file from: https://www.sparkflows.io/download
   
@@ -112,11 +112,11 @@ Detailed Installation Steps
 
 Use the below steps to deploy Sparkflows in production grade environment. Once, the Install steps are complete, you would ideally like to visit the Configuration section of the doc to configure LDAP, S3 and others: https://docs.sparkflows.io/en/latest/installation/configuration/index.html
 
-* Glossary
+* Glossary:
 
-  * ``<install_dir>`` : location where you unzipped Sparkflows tgz file. For example this can be your home directory.
-  * ``<machine_name>`` : hostname where your installed Sparkflows
-  * ``#`` : used for comments and documentation
+  * ``<install_dir>`` : location where you unzipped Sparkflows TGZ file. For example, this can be your home directory.
+  * ``<machine_name>`` : hostname where your installed Sparkflows.
+  * ``#`` : used for comments and documentation.
 
 
 * Download the Sparkflows ``TGZ`` file from:
@@ -131,7 +131,7 @@ Use the below steps to deploy Sparkflows in production grade environment. Once, 
 
 * Set up the metadata Database.
 
-  Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, once can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
+  Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
     
 * Launch Fire server::
 
@@ -155,13 +155,13 @@ Use the below steps to deploy Sparkflows in production grade environment. Once, 
            * admin/admin
            * test/test
     
-    You may change these usernames and passwords in Fire under the menu Administration/Users
+    You may change these usernames and passwords in Fire under the menu Administration/Users.
     
 
 Installing and starting the Python engine
 =========================================
 
-Sparkflows come with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Jave engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
+Sparkflows comes with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Java engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
 
 * On Ubuntu, the python dependencies can be installed by following the steps here: :ref:`Python install on Ubuntu<Python Installation on Ubuntu>`
 
@@ -195,9 +195,9 @@ Helpful Commands
 Upgrading Steps
 ==============
 
-To upgrade Sparkflows, one needs to follow the below steps:
+To upgrade Sparkflows, one needs to follow the steps given below:
 
-* Download the new Fire TGZ file from ::
+* Download the new Fire TGZ file from::
 
     https://www.sparkflows.io/download  
   
@@ -210,10 +210,10 @@ To upgrade Sparkflows, one needs to follow the below steps:
 
       tar xvf fire-x.y.z.tgz
 
-* Upgrade the H2 database or MySQL database
+* Upgrade the H2 database or MySQL database:
 
    * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.
-   * Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``
+   * Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``.
    * If you are using MySQL, backup the fire database in MySQL.
    * Execute the following commands to create and upgrade the Fire database schema::
 
@@ -223,7 +223,7 @@ To upgrade Sparkflows, one needs to follow the below steps:
         Run this create and upgrade database script if using MySQL database: ./create-mysql-db.sh
     
 
-* If PySpark engine is installed, upgrade python dependencies
+* If PySpark engine is installed, upgrade python dependencies.
 
   * Activate the python environment by running from Fire home directory::
 
@@ -233,7 +233,7 @@ To upgrade Sparkflows, one needs to follow the below steps:
     
        pip install -r fire-x.y.x/dist/fire/requirements.txt
 
-* Restart Fire Server
+* Restart Fire Server.
 
    Restart the Fire server using the below command from Fire home directory using the command::
 

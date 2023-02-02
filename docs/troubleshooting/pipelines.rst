@@ -3,7 +3,7 @@ Pipelines
 
 This document explains some of the common issues and the resolutions:
 
-1. Pipelines not getting trigerred in Airflow
+1. Pipelines not getting trigerred in Airflow in deterministic manner
 ------------------------------------------------------------
 
 **Issue Description**

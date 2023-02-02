@@ -5,7 +5,8 @@ This document explains the steps for creating "Application Load Balancer" in AWS
 
 Below are steps involved in creating application load balancer in AWS:
 
-* Login with AWS console and search for load balancer with EC2 feature.
+Login with AWS console and search for load balancer with EC2 feature
+----------
 
 .. figure:: ../..//_assets/loadbalancer/loadbalncer_search.PNG
    :alt: Load balancers
@@ -33,7 +34,8 @@ Below are steps involved in creating application load balancer in AWS:
    :alt: Load balancers
    :width: 60%
  
-* Configure security settings.
+Configure security settings
+--------
 
 Select default certificate.
 
@@ -53,7 +55,8 @@ AWS Certificate Manager (ACM) is the preferred tool to provision and store serve
    
    https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-ssl-upload.html
    
-Select security policy.
+Select security policy
+--------
 
 ::
 
@@ -72,7 +75,8 @@ Select security policy.
     Protocol version : HTTP1
     Register Target
     
-* Port forwarding
+Port forwarding
+-------
 
 Fire Insights by default runs on port 8080 for HTTP & 8443 for HTTPS. Make sure to forward HTTP or HTTPS to specified ports on which Fire Insights is running.
 

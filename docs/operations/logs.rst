@@ -72,6 +72,11 @@ You can change the logging levels to ``debug`` mode by updating "conf/logback-sp
     <appender-ref ref="Console" />
     <appender-ref ref="SevereRollingFile" />
     </logger>
+
+If using Fire in Docker, along with the above change to setting the level to "DEBUG", you would need to pass ``logback-spring.xml`` in ``entrypoint.sh`` instead of ``log4j.properties`` (default)::
+
+    -Dlog4j.configuration=file:conf/logback-spring.xml
+
     
 Logs for Fire Scala Engine
 --------

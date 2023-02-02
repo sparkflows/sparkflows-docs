@@ -1,7 +1,7 @@
 Route 53 
 ==========
 
-It explains about configuring "Route 53" to network load balancer.
+This page explains the steps for configuring "Route 53" with network load balancer.
 
 Below are the steps to follow for configuration:
 

@@ -55,6 +55,10 @@ Operations
     
     :doc:`/operations/scalability`
     
+    ---
+    
+    :doc:`/operations/run_workflow_with_dependent_jars`
+    
 .. toctree::
    :hidden:
  
@@ -72,6 +76,6 @@ Operations
    installing-opennlp.rst
    opennlp.rst
    scalability.rst
-   
+   run_workflow_with_dependent_jars.rst
    
 

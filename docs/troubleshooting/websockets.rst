@@ -1,7 +1,7 @@
 Websockets
 ============
 
-Fire Insights uses websockets for communications.
+In Fire Insights, the browser uses websockets for communications for some of the web pages of Fire Insights.
 This document explains some of the common issues and corresponding resolutions related to Websockets:
 
 1. Websocket Connection Error

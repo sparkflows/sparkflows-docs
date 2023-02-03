@@ -9,7 +9,7 @@ Certificate is not Trusted
 Problem
 +++++
 
-When the user use self signed certificate, on Browser it shows that Certificate is not Trusted.
+When the user use self signed certificate, on Browser it complains that Certificate is not Trusted.
 
 Solution
 +++++

@@ -1,7 +1,7 @@
 Fire Insights Deployment 
 ================
 
-Fire Insights can easily be deployed on a standalone machine. It supports linux, mac and windows. The jobs can run on the local machine. Or it can be configured to connect to a Databricks, AWS EMR, AWS Glue, Cloudera, Azure HDInsights, Google Dataproc or any Apache Spark cluster.
+Fire Insights can easily be deployed on a standalone machine. It supports linux, mac and windows. The jobs can run on the local machine. Or it can be configured to connect to a Databricks, AWS EMR, AWS Glue, Cloudera, Azure HDInsights, Google Cloud Dataproc or any Apache Spark cluster.
 
 Deployment on a Standalone Machine
 ----------------------------------
@@ -16,7 +16,23 @@ This mode can be used for:
 Deployment on AWS
 -----------------
 
-When deploying on AWS, Fire Insights is installed on an EC2 machine. It is configured to connect with an EMR cluster or AWS Glue.
+When deploying on AWS, Fire Insights is installed on an EC2 machine. It can be configured to connect with an EMR cluster or AWS Glue.
+
+Fire Insights can also be configured to connect with Databricks clusters.
+
+Deployment on Azure
+-----------------
+
+When deploying on AWS, Fire Insights is installed on a VM. It can be configured to connect with an Azure HDInsights Cluster.
+
+Fire Insights can also be configured to connect with Databricks clusters.
+
+Deployment on GCP
+-----------------
+
+When deploying on GCP, Fire Insights is installed on a VM. It can be configured to connect with Google Cloud Dataproc clusters.
+
+Fire Insights can also be configured to connect with Databricks clusters.
 
 Deployment on an Apache Hadoop/Apache Spark Cluster
 -------------------------------------

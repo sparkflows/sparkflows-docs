@@ -33,7 +33,7 @@ Websocket Debugging Steps
 
 * Install the tools wscat using the command
 
- - npm install -g wscat
+   npm install -g wscat
 
 * Capture the request headers being sent when you click on the Execute button
 
@@ -45,7 +45,7 @@ Websocket Debugging Steps
 
 * Execute the following command
 
- - wscat -c wss://ecs.sparkflows.net/workflowexecute/415/kzv1urcw/websocket \
+   wscat -c wss://ecs.sparkflows.net/workflowexecute/415/kzv1urcw/websocket \
 --header Sec-WebSocket-Key:0rma9fsOJoYnB69cOGo7VQ== \
 --header Cookie:"XSRF-TOKEN=e2700ad3-756e-47c8-b2e4-5b79094ec30b; SESSION=ZTYxYWFjYjAtYjFjYy00MGY3LWJkZjUtYmY5MjM5NWQyMzY4"
 

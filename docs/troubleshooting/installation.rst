@@ -15,10 +15,10 @@ Possible causes for Fire not to start could be:
 * The server did not start properly because some other Application is running on the configured port. The default configured port for Fire is ``:8080``. The HTTP and HTTPS ports for Fire can be updated in ``conf/application.properties``.
 
 
-2. Fire UI does not open when I go to :8080. Some other UI is displayed
+2. Fire Insights page does not open when I go to :8080. Some other UI is displayed
 -----------------------------------------------------------------------------------
 
-* It is possible that there is some other application running on port ``8080``.
+* It is possible that there is some other application running on port ``8080`` (or the port on which Fire Insights is listening)
 * Fire by default runs on port ``8080``.
 * The resolution would be to run Fire server on some other port which is not being used by any other application. 
 * Details for running Fire on another port is here : https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html 
@@ -27,7 +27,7 @@ Possible causes for Fire not to start could be:
 3. On certain pages I get the error : Could not connect to fire at localhost
 ---------------------------------------
 
-* The reason for it is that the Fire process is not starting. Check out the log files namely, ``fireserver.log`` and ``fire.log`` for errors. They are written in the install directory.
+* The reason for it is that the Fire Insight helper process is not starting. Check out the log files namely, ``fireserver.log`` and ``fire.log`` for errors. They are written in the install directory.
 * If you are using Ubuntu, you may have to do the following:
    - sudo dpkg-reconfigure dash
    - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu

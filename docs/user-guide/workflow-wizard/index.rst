@@ -38,7 +38,7 @@ Fire Insights supports workflow wizard for 4 types:
 
     ---
 
-    :doc:`/user-guide/workflow-wizard/4-machine-learning`
+    :doc:`/user-guide/workflow-wizard/machine-learning`
     
     Machine Learning   
     

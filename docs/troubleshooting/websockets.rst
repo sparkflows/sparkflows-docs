@@ -46,8 +46,8 @@ Websocket Debugging Steps
 * Execute the following command
 
    wscat -c wss://ecs.sparkflows.net/workflowexecute/415/kzv1urcw/websocket \
- --header Sec-WebSocket-Key:0rma9fsOJoYnB69cOGo7VQ== \
- --header Cookie:"XSRF-TOKEN=e2700ad3-756e-47c8-b2e4-5b79094ec30b; SESSION=ZTYxYWFjYjAtYjFjYy00MGY3LWJkZjUtYmY5MjM5NWQyMzY4"
+  --header Sec-WebSocket-Key:0rma9fsOJoYnB69cOGo7VQ== \
+  --header Cookie:"XSRF-TOKEN=e2700ad3-756e-47c8-b2e4-5b79094ec30b; SESSION=ZTYxYWFjYjAtYjFjYy00MGY3LWJkZjUtYmY5MjM5NWQyMzY4"
 
 
 

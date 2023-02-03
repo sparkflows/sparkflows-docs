@@ -176,3 +176,7 @@ All the previous versions of the pipeline can be viewed. The Pipeline can be res
 .. figure:: ../../_assets/pipelines/Pipeline_History.png
    :alt: Pipeline Import
    :width: 60%
+
+**Troubleshooting Reference**
+
+https://docs.sparkflows.io/en/latest/troubleshooting/pipelines.html

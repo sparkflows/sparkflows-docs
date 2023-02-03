@@ -13,6 +13,10 @@ This mode can be used for:
 * Designing workflows to be finally deployed on a larger Apache Spark cluster.
 * For analyzing smaller sets of data.
 
+Deployment on AWS
+-----------------
+
+When deploying on AWS, Fire Insights is installed on an EC2 machine. It is configured to connect with an EMR cluster or AWS Glue.
 
 Deployment on an Apache Hadoop/Apache Spark Cluster
 -------------------------------------

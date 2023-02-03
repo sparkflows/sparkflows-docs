@@ -131,7 +131,7 @@ Clicking on the ``Execute`` Action button from ``Pipeline`` list or in the ``Pip
    :alt: Pipeline Execute
    :width: 60%
    
-7. **Pipeline Execution**
+7. **Pipeline Execution Result**
 
 Once a Pipeline is submitted for execution, it's execution details can be viewed in the ``Pipeline Executions`` tab.
 
@@ -141,7 +141,7 @@ Once a Pipeline is submitted for execution, it's execution details can be viewed
    
 8. **Pipeline Schedule**
 
-Sparkflows enables you to schedule Pipeline depending on your requirements.
+Sparkflows allows you to schedule Pipeline depending on your requirements.
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.PNG
    :alt: Pipeline 
@@ -160,3 +160,19 @@ Sparkflows enables you to schedule Pipeline depending on your requirements.
    :width: 60%   
 
 Once the Pipeline scheduled, it will be trigerred automatically based on the schedule.
+
+9. **Import Pipeline**
+
+The Pipeline can be imported from a Json file.
+
+.. figure:: ../../_assets/pipelines/Import_Pipeline.png
+   :alt: Pipeline Import
+   :width: 60%
+   
+10. **View Pipeline History**
+
+All the previous versions of the pipeline can be viewed. The Pipeline can be restored to a previous version.
+
+.. figure:: ../../_assets/pipelines/Pipeline_History.png
+   :alt: Pipeline Import
+   :width: 60%

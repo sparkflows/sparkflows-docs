@@ -7,7 +7,7 @@ Fire Insights makes it easy to build workflows using the Workflow Wizard.
    :alt: Workflow-Wizard
    :width: 80%
    
-Fire Insights support workflow wizard for 4 types: 
+Fire Insights supports workflow wizard for 4 types: 
 
    
 .. figure:: ../../_assets/user-guide/wf-wizard/2.PNG 
@@ -23,21 +23,22 @@ Fire Insights support workflow wizard for 4 types:
     :doc:`/user-guide/workflow-wizard/1-data-cleaning`
     
     Data Cleaning
+    
     ---
 
-    :doc:`/user-guide/quick-start/2-data-visualization`
+    :doc:`/user-guide/workflow-wizard/2-data-visualization`
     
     Data Visualization
     
     ---
 
-    :doc:`/user-guide/quick-start/3-data-profiling`
+    :doc:`/user-guide/workflow-wizard/3-data-profiling`
     
     Data Profiling    
 
     ---
 
-    :doc:`/user-guide/quick-start/4-machine-learning`
+    :doc:`/user-guide/workflow-wizard/4-machine-learning`
     
     Machine Learning   
     

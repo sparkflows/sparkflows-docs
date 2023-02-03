@@ -33,9 +33,9 @@ By default Fire Insights listens on port 8080 (http) and port 8443 (https).
 The port numbers can also be updated in the file conf/application.properties.
 
 
-**When you finish**
+**Log into Fire Insights**
 
- - Browse to http://<system-ip>:port
+ - In your Browser go to http://<system-ip>:port
 
  -	Login with below credentials :
     - Username : admin

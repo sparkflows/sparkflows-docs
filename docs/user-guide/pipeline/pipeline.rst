@@ -177,6 +177,12 @@ All the previous versions of the pipeline can be viewed. The Pipeline can be res
    :alt: Pipeline Import
    :width: 60%
 
-**Troubleshooting Reference**
+11. **Troubleshooting Guide**
 
-https://docs.sparkflows.io/en/latest/troubleshooting/pipelines.html
+* Pipeline Troubleshooting
+
+ https://docs.sparkflows.io/en/latest/troubleshooting/pipelines.html
+   
+ * Websocket Troubleshooting
+ 
+ https://docs.sparkflows.io/en/latest/troubleshooting/websockets.html

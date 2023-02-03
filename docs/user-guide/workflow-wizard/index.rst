@@ -14,53 +14,32 @@ Fire Insights support workflow wizard for 4 types:
    :alt: Workflow-Wizard
    :width: 80%
 
-1. Data Cleaning
---------
 
-* Data cleaning includes DROP NULL ROWS, REMOVE OUTLIERS, IMPUTE.
+Quick Start Guide
+=========
 
-   
-.. figure:: ../../_assets/user-guide/wf-wizard/data-cleaning1.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
-   
-* After clicking on create whichever checkbox is clicked that node will get attached with node with given values.
+The quick start guide gets you started with Fire Insights. 
 
-.. figure:: ../../_assets/user-guide/wf-wizard/data-cleaning2.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
-   
-   
-2. Data Visualization
---------
+Let's get started! 
 
-* Data Visualization includes CHART, DISTRIBUTION, BOXPLOT, TABLE.
+.. panels::
+    :container: container-lg pb-3
+    :column: col-lg-6 col-md-6 col-xs-12 p-2
 
-   
-.. figure:: ../../_assets/user-guide/wf-wizard/data-visualization1.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
-   
-* After clicking on create whichever checkbox is clicked that node will get attached with node with given values.
+    :doc:`/user-guide/workflow-wizard/1-data-cleaning`
+    
+    Data Cleaning
+    ---
 
-.. figure:: ../../_assets/user-guide/wf-wizard/data-visualization2.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
-   
-3. Data Profiling
---------
+    :doc:`/user-guide/quick-start/2-machine-learning`
+    
+    Machine Learning
+    
 
-* Data Profiling includes SUMMARY STATISTICS, CORRELATION, NULL VALUES IN COLUMNS.
+.. toctree::
+   :hidden:
 
-   
-.. figure:: ../../_assets/user-guide/wf-wizard/data-profiling1.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
-   
-* After clicking on create whichever checkbox is clicked that node will get attached with node with given values.
-
-.. figure:: ../../_assets/user-guide/wf-wizard/data-profiling2.PNG 
-   :alt: Workflow-Wizard
-   :width: 80%
+   1-data-cleaning
+   2-machine-learning
 
 

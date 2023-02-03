@@ -183,6 +183,6 @@ All the previous versions of the pipeline can be viewed. The Pipeline can be res
 
  https://docs.sparkflows.io/en/latest/troubleshooting/pipelines.html
    
- * Websocket Troubleshooting
+* Websocket Troubleshooting
  
  https://docs.sparkflows.io/en/latest/troubleshooting/websockets.html

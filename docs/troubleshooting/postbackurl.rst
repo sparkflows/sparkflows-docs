@@ -15,7 +15,7 @@ Possible causes are:
    :alt: troubleshoot
    :width: 60%
 
-* Test connectivity of EMR to ALB host via curl command from EMR Machine::
+* Test connectivity from the Apache Spark cluster to the postback URL from one of the machines of the cluster (EMR)
 
     curl https://<alb-host>/ -v
     

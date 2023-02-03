@@ -74,8 +74,8 @@ Click on the ``Backup`` button to backup the H2 DB in a zip format and receive s
    :alt: bkp
    :width: 60%      
 
-Schedule the backup on daily, weekly or monthly basis
-++++++++++++++++
+**Schedule the backup on daily, weekly or monthly basis**
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Click on ``Schedule DB Backup`` tab to be able to schedule the data and then hit the ``save`` button to save your preferences.
 

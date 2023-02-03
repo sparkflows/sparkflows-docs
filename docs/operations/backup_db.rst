@@ -1,7 +1,7 @@
 Backup and Recovery
 ------
 
-This document explains the steps involved in backing up and recovering of data in Fire Insights using either H2 database (H2 DB) or MySQL Database (MySQL DB)
+This document explains the steps involved in backing up and recovering of data in Fire Insights using either H2 database (H2 DB) or MySQL Database (MySQL DB).
 
 Data Storage on H2 DB and MySQL DB
 ==================================

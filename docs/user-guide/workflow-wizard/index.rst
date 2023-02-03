@@ -31,16 +31,24 @@ Fire Insights support workflow wizard for 4 types:
     
     ---
 
-    :doc:`/user-guide/quick-start/2-data-profiling`
+    :doc:`/user-guide/quick-start/3-data-profiling`
     
     Data Profiling    
 
+    ---
+
+    :doc:`/user-guide/quick-start/4-machine-learning`
+    
+    Machine Learning   
+    
 .. toctree::
    :hidden:
 
    1-data-cleaning
    2-data-visualization
    3-data-profiling
+   4-machine-learning
+   
    
 
 

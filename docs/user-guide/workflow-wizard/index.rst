@@ -48,7 +48,7 @@ Fire Insights supports workflow wizard for 4 types:
    1-data-cleaning
    2-data-visualization
    3-data-profiling
-   4-machine-learning
+   machine-learning
    
    
 

@@ -15,12 +15,6 @@ Fire Insights support workflow wizard for 4 types:
    :width: 80%
 
 
-Quick Start Guide
-=========
-
-The quick start guide gets you started with Fire Insights. 
-
-Let's get started! 
 
 .. panels::
     :container: container-lg pb-3

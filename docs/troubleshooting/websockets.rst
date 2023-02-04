@@ -24,28 +24,31 @@ Solution
 - Check if enough memory (min 16GB) allocated to Sparkflows
 
 
-Websocket Debugging Steps
+Check if the websocket connection is not dropped either by a firewall, proxy or others.
 ---------------
 
-**Steps for debugging using the wscat command**
+**The web socket connectivity can be tested using wscat command via the below steps**
 
-* Install Nodejs from the official website
+* Install Node.js via the `npm` package manager as outlined here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-* Install the tools wscat using the command
+* Install the tools wscat using the command::
 
    npm install -g wscat
 
-* Capture the request headers being sent when you click on the Execute button
+* Capture the request headers being sent when you click on the Execute button of the Pipeline or Workflow.
 
-.. figure:: https://user-images.githubusercontent.com/88324072/216518054-a7f2572b-7211-4d3c-9afa-381c652df3d0.png
-   :alt: Pipeline List
-   :width: 60% 
+      .. figure:: https://user-images.githubusercontent.com/88324072/216518054-a7f2572b-7211-4d3c-9afa-381c652df3d0.png
+         :alt: Pipeline List
+         :width: 60% 
 
-* Use the header Cookie and Sec-WebSocket-Key
-
-* Execute the following command
+* Extact the header ``Cookie`` and ``Sec-WebSocket-Key`` and replace them in the below ``wscat`` command and run it from the command line::
 
    wscat -c wss://ecs.sparkflows.net/workflowexecute/415/kzv1urcw/websocket --header Sec-WebSocket-Key:0rma9fsOJoYnB69cOGo7VQ== --header Cookie:"XSRF-TOKEN=e2700ad3-756e-47c8-b2e4-5b79094ec30b; SESSION=ZTYxYWFjYjAtYjFjYy00MGY3LWJkZjUtYmY5MjM5NWQyMzY4"
 
+* If the WebSocket connection is allowed to go through, you will get back a ``Connected`` message and it will get connected. Now, one can execute WebSocket command.
+
+* If the WebSocket is blocked, you will see an ``Error`` message.
+
+* Also, if you are using SSL with certificate, you would need to provide those details in the ``wscat`` command. These can be passed in as arguments to the ``wscat`` command. The supported arguments can be seen here: https://www.npmjs.com/package/wscat
 
 

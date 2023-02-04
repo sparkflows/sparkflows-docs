@@ -49,6 +49,11 @@ Check if the websocket connection is not dropped either by a firewall, proxy or 
 
 * If the WebSocket is blocked, you will see an ``Error`` message.
 
-* Also, if you are using SSL with certificate, you would need to provide those details in the ``wscat`` command. These can be passed in as arguments to the ``wscat`` command. The supported arguments can be seen here: https://www.npmjs.com/package/wscat
+* Also, if you are using SSL with certificate, you would need to provide those details in the ``wscat`` command. These can be passed in as arguments to the ``wscat`` command. The supported arguments can be seen here: https://www.npmjs.com/package/wscat .A representative example can be seen below::
 
+    wscat --key server.key.pem --cert server.pem -c wss://127.0.0.1:8080
+
+* If you are using a self signed certificate, please pass the ``--no-check`` as seen below to ignore the unauthorized certificate::
+
+   wscat --no-check --key server.key.pem --cert server.pem -c wss://127.0.0.1:8080
 

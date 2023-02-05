@@ -1,4 +1,4 @@
-Data Preparation I
+Data Preparation Basics
 ==========
 
 .. panels::

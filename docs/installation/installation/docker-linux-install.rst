@@ -19,6 +19,7 @@ Installation Steps
     
     export SPARK_VERSION=3.2.1
     export RELEASE_VERSION=3.1.XX
+    export FIRE_VERSION=3.1.0
     export SPARKFLOWS_ROOT=/home/username/sparkflows
 
 * Pull the latest Sparkflows docker image from Docker hub::
@@ -34,6 +35,7 @@ Installation Steps
     -e KEYSTORE_PASSWORD=12345678 \
     -e FIRE_HTTP_PORT=8080 \
     -e FIRE_HTTPS_PORT=9443 \
+    -e FIRE_VERSION=${FIRE_VERSION} \
     sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 

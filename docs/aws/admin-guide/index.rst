@@ -23,7 +23,7 @@ AWS Admin Guide
 
     ---
     
-    :doc:`/aws/admin-guide/running-on-emr`
+    :doc:`/aws/admin-guide/start-emr`
     
     Steps to run Fire Insights on EMR
     
@@ -101,7 +101,8 @@ AWS Admin Guide
 
    introduction.rst
    planning.rst
-   running-on-emr.rst
+   deploy.rst
+   start-emr.rst
    emr-livy/index.rst
    test.rst
    operations.rst

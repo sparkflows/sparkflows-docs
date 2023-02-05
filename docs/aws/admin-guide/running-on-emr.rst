@@ -1,7 +1,7 @@
 Deployment Guide
 =======================
 
-Fire can be easily installed on the master node of an AWS EMR cluster which can then submit jobs to the EMR cluster.
+Fire can be easily installed on an EC2 machine. It can submit jobs to EMR Livy or AWS Glue. It can also run the jobs locally on the same EC2 machines.
 
 Below are the detailed steps for installing Fire Insights on EMR:
 

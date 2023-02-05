@@ -1,4 +1,4 @@
-Data Preparation II
+Data Preparation Advanced
 ==========
 
 .. panels::

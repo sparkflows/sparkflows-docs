@@ -89,6 +89,13 @@ AWS Admin Guide
     
     Setting up Certificate on AWS 
     
+    ---
+    
+    :doc:`/aws/admin-guide/load-balancer`
+    
+    Load Balancer
+    
+    
 .. toctree::
    :hidden:
 
@@ -98,6 +105,7 @@ AWS Admin Guide
    emr-livy/index.rst
    test.rst
    operations.rst
+   load-balancer.rst
    AWS-Cloudformation/index
    glue-integration/index.rst
    aws-sso/index.rst

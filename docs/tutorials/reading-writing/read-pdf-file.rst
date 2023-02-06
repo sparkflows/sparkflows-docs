@@ -11,7 +11,7 @@ The below workflow shows:
 * Reads PDF file from the given location and create dataframe from it.
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/Read-PDF.png
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/ReadPDF.png
    :alt: ReadandParse
    :width: 90%
    

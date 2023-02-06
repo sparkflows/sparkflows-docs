@@ -13,7 +13,7 @@ Note: Fire Insights can run in cluster mode or in the standalone mode. These set
 
 The example workflow below, contains "SaveAsHIVETable" Processor. It reads Transaction Dataset and saves it into the HIVE 'sample_08' table.
 
-.. figure:: ../../_assets/tutorials/dataset/63.PNG
+.. figure:: ../../_assets/tutorials/dataset/SaveHIVE.png
    :alt: Dataset
    :width: 80%
 

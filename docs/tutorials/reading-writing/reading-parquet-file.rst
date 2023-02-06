@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a parquet file.
 * Print the sample result.
 
-.. figure:: ../../_assets/user-guide/read-write/20.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Read-parquet.png
    :alt: readwrite
    :width: 60%
 

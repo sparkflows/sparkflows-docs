@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads transaction dataset.
 * save parquet to the specified location.
 
-.. figure:: ../../_assets/user-guide/read-write/31.PNG
+.. figure:: ../../_assets/user-guide/read-write/SaveParquet.png
    :alt: readwrite
    :width: 80%
 

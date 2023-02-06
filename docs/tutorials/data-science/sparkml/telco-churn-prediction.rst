@@ -87,7 +87,7 @@ From the evaluator, you get the below result:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/4.PNG
    :alt: Machine Learning
-   :width: 90%
+   :width: 80%
    
 
 

@@ -17,7 +17,7 @@ Below is the workflow for creating a model for Churn Prediction.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
    :alt: Machine Learning
-   :width: 90%
+   :width: 80%
    
 The workflow:
 

@@ -15,7 +15,7 @@ Workflow for reading from MySQL
 
 Below is a workflow which reads data from MySQL and reads the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
 
-.. figure:: ../../_assets/user-guide/1.PNG
+.. figure:: ../../_assets/user-guide/ReadJDBC2.png
    :alt: JDBC Workflowt
    :width: 50%
    

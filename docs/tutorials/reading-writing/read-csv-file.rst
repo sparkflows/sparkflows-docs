@@ -11,7 +11,7 @@ The below workflow does the following:
 * Reads data from a CSV file.
 * Prints a few records of the dataframe.
 
-.. figure:: ../../_assets/user-guide/read-write/1.PNG
+.. figure:: ../../_assets/user-guide/read-write/ReadCSV.png
    :alt: readwrite
    :width: 60%
 

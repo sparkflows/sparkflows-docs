@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a JSON file.
 * Prints the sample result.
 
-.. figure:: ../../_assets/user-guide/read-write/16.PNG
+.. figure:: ../../_assets/user-guide/read-write/ReadJSON.png
    :alt: readwrite
    :width: 60%
 

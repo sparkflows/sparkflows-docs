@@ -12,7 +12,7 @@ Below is the workflow. It does the following:
 * Filters it to calculate the number of bedrooms with specific prices.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/analytics/housing-analysis/9.PNG
+.. figure:: ../../_assets/tutorials/analytics/housing-analysis/MultiCSV.png
    :alt: Housing Analysis
    :width: 60%
    

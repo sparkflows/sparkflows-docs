@@ -13,7 +13,7 @@ Workflow
 
 Below workflow shows the "SaveAsHIVETable" Processor. It reads Transaction Dataset and saves it into the HIVE 'sample_08' table.
 
-.. figure:: ../../_assets/tutorials/dataset/hiveflow.PNG
+.. figure:: ../../_assets/tutorials/dataset/SaveHIVEWF.png
    :alt: Dataset
    :width: 70%
 

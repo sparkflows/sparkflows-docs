@@ -2,7 +2,7 @@ Data Cleaning
 =============
 
 
-* Data cleaning includes DROP NULL ROWS, REMOVE OUTLIERS, IMPUTE.
+* Data cleaning includes DROP NULL ROWS, REMOVE OUTLIERS, and IMPUTE.
 
    
 .. figure:: ../../_assets/user-guide/wf-wizard/data-cleaning1.PNG 

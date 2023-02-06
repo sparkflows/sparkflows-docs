@@ -8,7 +8,7 @@ Workflow for writing as JSON files
 ----------------------
 
 
-.. figure:: ../../_assets/tutorials/read-write/writing-json/6.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-json/SaveJSON.png
    :alt: JSONWorkflow
    :width: 80%
    

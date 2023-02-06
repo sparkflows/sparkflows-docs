@@ -12,7 +12,7 @@ The below workflow does the following:
 * Reads Snowflake Table.
 * Prints a few records of the dataframe.
 
-.. figure:: ../../_assets/snowflake/1.PNG
+.. figure:: ../../_assets/snowflake/SnowflakeWF.png
    :alt: snowflake
    :width: 70%
 

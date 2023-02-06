@@ -27,7 +27,7 @@ After configuring "SaveElasticSearch" processor, connect your data source proces
 The example workflow below reads a Housing Dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
 
 
-.. figure:: ../../_assets/tutorials/dataset/save_es.PNG
+.. figure:: ../../_assets/tutorials/dataset/ElasticSearch.png
    :alt: Dataset
    :width: 60%
 

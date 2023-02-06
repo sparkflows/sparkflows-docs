@@ -54,7 +54,7 @@ The below workflow does the following:
 * Reads Housing dataset.
 * Write it to Snowflake Table.
 
-.. figure:: ../../_assets/snowflake/4_a.PNG
+.. figure:: ../../_assets/snowflake/SnowflakeWF2
    :alt: snowflake
    :width: 90%
    

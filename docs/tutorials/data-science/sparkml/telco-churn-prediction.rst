@@ -31,7 +31,7 @@ The workflow:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 90%
 
 VectorAssembler
 +++++++++++++++

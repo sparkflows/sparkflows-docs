@@ -7,7 +7,7 @@ AWS Guide
     
     :doc:`/aws/introduction`
     
-    Introduction to the aws guide
+    Introduction to the AWS Guide
     
     ---
     

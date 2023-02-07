@@ -88,7 +88,7 @@ Select the ``Name & file location`` of the certificate using browse button.
 Success Message
 ++++++
 
-On updation of details a ``Success msg`` will be displayed on the screen.
+On updation of details a ``Success message`` will be displayed on the screen.
 
 .. figure:: ../../../_assets/configuration/exportcertificate.PNG
    :alt: certificate
@@ -141,7 +141,7 @@ You can add certificate to the browser using **Google Chrome** by following the 
    :alt: certificate
    :width: 55%
 
-* Once the above process is completed, close the ``browser`` and start again and try to login with above ``URL``. It should work without any warnings.
+* Once the above process is completed, close the browser and start again and try to login with above URL. It should work without any warnings.
 
 .. figure:: ../../../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate

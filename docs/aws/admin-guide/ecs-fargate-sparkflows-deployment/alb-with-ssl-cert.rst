@@ -3,7 +3,7 @@ Configure SSL with Load Balancer for ECS Deployment
 
 Follow the below steps to create a self-signed certificate, upload the certificate to ACM and use it with the new loadbalancer to route the request to the ECS Service.
 
-Create and import the self-signed certificate into the ACM
+Create the self-signed certificate into the ACM
 --------
 
 Login to one of the EC2 Server and verify if you've the openssl installed in your EC2 server.::
@@ -64,5 +64,45 @@ To sign the certificate, use the openssl x509 command. The following example use
 
 Keep the private key and public certificate for later use. You can discard the signing request. Always store the private key in a secure location and avoid adding it to your source code.
 
+Import the self-signed certificate into the ACM
+--------
+Open the AWS Certificate manager in the console, and click on import certificate as shown below.
 
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/import-certificate.png
+   :alt: aws
+   :width: 60%
+   
+Once you've added the certificate, it will show up as **imported** type
 
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/list-certificates.png
+   :alt: aws
+   :width: 60%
+
+Create a service
+--------
+Navigate to the ECS service in the AWS console, select the cluster where you want to create a service and click on **Create** and you'll be presented with a Create Service form as shown below.
+
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/create-ecs-service.png
+   :alt: aws
+   :width: 60%
+
+Provide the deployment configuration for the service
+
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/deployment-config.png
+   :alt: aws
+   :width: 60%
+
+Provide the load balancer configuration. Here you can select the ACM certificate that we imported in the first step.
+
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/configure-load-balancer.png
+   :alt: aws
+   :width: 60%
+
+Provide the target group configuration as shown below in the image.
+**Note**, We'll be modifying the below target group configuration for healthcheck rules, once the service is created.
+
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/configure-target-group.png
+   :alt: aws
+   :width: 60%
+   
+Finally click on **Create** button to create the service.

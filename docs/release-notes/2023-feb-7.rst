@@ -1,0 +1,8 @@
+Improvements:
+-------------
+* System performance enhancments for stability and scalability on the backend server
+* Airflow status updates
+* Additional logs added for processes
+* Additional UI messages while trigerring Airflow pipelines
+* Additional API for getting websocket meta information and statistics
+* Refinement of the Airflow job status updates.

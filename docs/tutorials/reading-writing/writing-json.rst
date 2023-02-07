@@ -10,10 +10,10 @@ Workflow for writing as JSON files
 
 .. figure:: ../../_assets/tutorials/read-write/writing-json/SaveJSON.png
    :alt: JSONWorkflow
-   :width: 80%
+   :width: 45%
    
 
-Reading From Dataset
+Reading from dataset
 ----------------------
 
 Node ``TransactionDataset`` creates DataFrame of your dataset named 'Transaction Dataset' by reading data from HDFS, HIVE etc. which have been defined earlier in Fire by using the Dataset feature. As a user you just have to select the Dataset of your interest and configure the details as shown below.

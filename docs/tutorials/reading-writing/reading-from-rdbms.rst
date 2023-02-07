@@ -36,7 +36,7 @@ The below image displays schema of the table from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
    :alt: JDBC Get Schema
-   :width: 80%
+   :width: 60%
 
 Specifying a Sub-Query
 ----------------------
@@ -51,7 +51,7 @@ Executing the processor shows the records read from MySQL Table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC.png
    :alt: JDBC Result Output
-   :width: 80%
+   :width: 65%
    
 
 JDBC Drivers

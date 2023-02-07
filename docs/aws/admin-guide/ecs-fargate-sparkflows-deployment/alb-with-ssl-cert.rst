@@ -78,7 +78,7 @@ Once you've added the certificate, it will show up as **imported** type
    :alt: aws
    :width: 60%
 
-Create a service
+Create an ECS service
 --------
 Navigate to the ECS service in the AWS console, select the cluster where you want to create a service and click on **Create** and you'll be presented with a Create Service form as shown below.
 
@@ -106,3 +106,20 @@ Provide the target group configuration as shown below in the image.
    :width: 60%
    
 Finally click on **Create** button to create the service.
+
+Configure the Health Check for Target Group
+--------
+
+Navigate to the target group created in the previous step and update the health check config, to have the status code as 200,302
+
+.. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/health-check-tg.png
+   :alt: aws
+   :width: 60%
+
+Configure the Security group for the ECS Service
+--------
+
+Navigate to the ECS Service **Networking** tab, click on the security group and update the inbound rules, to accept connections from the security group 
+of the load balancer. Once this is done, wait for 2-3 minutes for the service to be up and reach a healthy state. 
+
+Once the service is stable and the target group is healthy, you can navigate to the https://<alb-host-name/ to view the login page.

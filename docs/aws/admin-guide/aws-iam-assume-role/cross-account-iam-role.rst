@@ -2,7 +2,7 @@ Cross Account IAM Role
 =======
 Cross-account access in AWS refers to the ability for an AWS user or role in one AWS account to access resources in another AWS account. This can be accomplished using AWS Identity and Access Management (IAM) roles, AWS Resource Access Manager (RAM), or AWS Organizations. With IAM roles, you can create a role in one account that can be assumed by a user in another account. This allows you to delegate access to AWS resources in one account to users in another account.
 
-Below we outline on how to manage this in Sparkflows.
+Below we outline how to manage this in Sparkflows.
 
 If a Sparkflows instance on ``ECS/EC2/EMR`` and AWS ``S3`` are in two different accounts, then a cross-account role is required for the Sparkflows instance to access the ``S3`` and the other resources in different accounts. The way to grant access to a bucket is to allow an account to assume a role in another account.
 

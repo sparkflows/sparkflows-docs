@@ -92,7 +92,7 @@ Provide the deployment configuration for the service
    :alt: aws
    :width: 60%
 
-Provide the load balancer configuration. Here you can select the ACM certificate that we imported in the first step.
+Provide the load balancer configuration. Here you can select the ACM certificate that we imported in the first step OR you can use an existing certificate managed by ACM or IAM.
 
 .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/configure-load-balancer.png
    :alt: aws

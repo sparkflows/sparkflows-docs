@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/MultiCSV.png
    :alt: Housing Analysis
-   :width: 60%
+   :width: 45%
    
 Reading CSV files
 ---------------------

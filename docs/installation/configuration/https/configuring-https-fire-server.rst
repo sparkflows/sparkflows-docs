@@ -20,7 +20,7 @@ HTTPS Login
  
 https://hostname:8443/login
  
- Preconfigured Keystore
+Preconfigured Keystore
 ------------
 
 Fire Server comes with a pre-configured keystore in the ``conf`` folder of the install.

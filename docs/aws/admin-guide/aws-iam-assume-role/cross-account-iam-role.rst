@@ -110,5 +110,5 @@ The steps to configure Account A to use the AWS AssumeRole action to access S3 f
 
 **3. Add MyRoleA to the Sparkflows user group**
 
- Now from the Sparkflows users in the group can access the S3 resources in another account i.e  ``Account B``.
+ Now, from the Sparkflows users in the group can access the S3 resources in another account i.e.  ``Account B``.
 

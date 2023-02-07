@@ -3,7 +3,7 @@ Configure HTTPS on AWS
 
 Fire Insights can be Configured with HTTPS on AWS, when running on EC2 instance.
 
-With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You  can use ACM to create or import and then manage a certificate.
+With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You can use ACM to create or import and then manage a certificate.
 
 Prerequisite
 --------
@@ -15,14 +15,14 @@ You need to have:
 3. Load Balancer.
 4. Route 53.
 
-Register Domain names
+Register Domain Names
 ------------------
 
 A fully qualified domain name (FQDN) is the unique name of an organization or individual on the internet followed by a top-level domain extension such as .com or .org. If you do not already have a registered domain name, you can register one through Amazon Route 53.
 
 When you want to get a new domain name, such as the example.com  as part of the URL http://example.com, you can register it with Amazon Route 53.
 
-For more information please visit the link given here : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
+For more details, visit : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
 
 
 AWS Certificate Manager (ACM)
@@ -64,27 +64,27 @@ Create a Load Balancer and configure target group with Fire Insights running on 
 
 .. figure:: ../../_assets/aws/aws-certificate/load_app.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
    
 .. figure:: ../../_assets/aws/aws-certificate/load_confugurations.PNG
    :alt: aws
-   :width: 60%  
+   :width: 55%  
    
 .. figure:: ../../_assets/aws/aws-certificate/load_configuration_1.PNG
    :alt: aws
-   :width: 60%    
+   :width: 55%    
    
 .. figure:: ../../_assets/aws/aws-certificate/load_target.PNG
    :alt: aws
-   :width: 60%   
+   :width: 55%   
    
 .. figure:: ../../_assets/aws/aws-certificate/load_target_configure.PNG
    :alt: aws
-   :width: 60%  
+   :width: 55%  
    
 .. figure:: ../../_assets/aws/aws-certificate/load_target_instance.PNG
    :alt: aws
-   :width: 60%     
+   :width: 55%     
 
 Create a record and map to the Load Balancer
 -----------------------------------
@@ -93,12 +93,12 @@ Go to Route 53 to create a record and map to the Load Balancer.
 
 .. figure:: ../../_assets/aws/aws-certificate/load_record.PNG
    :alt: aws
-   :width: 60% 
+   :width: 55% 
    
 .. figure:: ../../_assets/aws/aws-certificate/load_record1.PNG
    :alt: aws
-   :width: 60%    
+   :width: 55%    
    
-Once the above steps get successfully updated, you can login to Domain name with ``HTTPS`` and  be able to access Fire Insights application running on  the target instance.
+Once the above steps get successfully updated, you can login to Domain name with ``HTTPS`` and  be able to access Fire Insights application running on the target instance.
 
-.. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is by default.
+.. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is provided by default.

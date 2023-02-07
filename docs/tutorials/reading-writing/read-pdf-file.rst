@@ -13,7 +13,7 @@ The below workflow shows:
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/ReadPDF.png
    :alt: ReadandParse
-   :width: 90%
+   :width: 55%
    
 Reading And Parsing PDF File
 ---------------------

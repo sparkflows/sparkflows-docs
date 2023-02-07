@@ -1,3 +1,5 @@
+February 7th 2023 (Version 3.1.75)
+
 Improvements:
 -------------
 * System performance enhancments for stability and scalability on the backend server

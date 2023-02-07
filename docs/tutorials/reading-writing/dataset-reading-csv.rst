@@ -13,7 +13,7 @@ When you open any application, all existing Datasets specific to the application
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
    
 Dataset Creation
 ----------------
@@ -26,7 +26,7 @@ In the pop-up choose "CSV" and then click "OK".
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDataSet.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
 
 Dataset Details
 +++++++++++++++
@@ -36,14 +36,14 @@ Clicking "OK" will take you to Dataset Details page where you can enter informat
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetFileContentView.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
    
 For the Clickthru.csv file, we will fill in the required fields as below.   
 
 
 .. figure:: ../../_assets/tutorials/dataset/DataSetForm.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
    
 We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
 
@@ -54,12 +54,12 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
 
 .. figure:: ../../_assets/tutorials/dataset/DataSetSchemaUpdate.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
 
 
 .. figure:: ../../_assets/tutorials/dataset/SampleDataset.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
 
 
 Save the Dataset
@@ -69,10 +69,10 @@ Clicking the ‘Save’ button creates the new dataset. The dataset is now ready
 
 .. figure:: ../../_assets/tutorials/dataset/SaveDataset.png
    :alt: Dataset
-   :width: 90%
+   :width: 50%
    
 You can find your created dataset in dataset list page.
   
 .. figure:: ../../_assets/tutorials/dataset/CreatedDatasetList.png
    :alt: Dataset
-   :width: 90%  
+   :width: 50%  

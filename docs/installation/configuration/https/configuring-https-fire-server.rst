@@ -1,21 +1,21 @@
 Configuring HTTPS for Fire Server
 =================================
 
-You can choose to run the Fire Server either on http or https connection.
+You can choose to run the Fire Server either on HTTP or HTTPS connection.
 
-The ports for http and https are configured in the file ``conf/application.properties``::
+The ports for HTTP and HTTPS are configured in the file ``conf/application.properties``::
 
     http.port=8080
     https.port=8443
 
  
-HTTP
+HTTP Login
 ----
  
 http://hostname:8080/login
 
  
-HTTPS
+HTTPS Login
 -----
  
 https://hostname:8443/login
@@ -26,7 +26,7 @@ keystore.jks
 Fire Server comes with a pre-configured keystore in the ``conf`` folder of the install.
 
 * conf/keystore.jks
-* conf/keystore.properties : Stores the keystore password
+* conf/keystore.properties : Stores the keystore password.
 
 Generating New Keystore
 -----------------------
@@ -58,10 +58,10 @@ You will be prompted with the following questions where you should enter somethi
 
 
 
-Copy the keystore into the Fire installation directory
+Copy Keystore File to Installation directory
 ----------------------------------------------
 
-* Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
+* Copy the generated ``keystore.jks`` file into the ``conf`` folder of your Fire installation directory.
 * Update ``keystore.properties`` with the new password.
  
 .. Note::  When the keystore is updated, the password has also to be updated in case it changes. 
@@ -69,10 +69,10 @@ Copy the keystore into the Fire installation directory
            The Fire web server would also have to be restarted for the changes to take effect.
            
 
-Use keytool commands
+Use Keytool Commands
 --------------------
 
-Listing entries in Keystore
+Listing Entries in Keystore
 +++++++++++++++++++++++++++
 
 List entries in keystore::
@@ -80,7 +80,7 @@ List entries in keystore::
     keytool -list -keystore keystore.jks
 
 
-Importing a Certificate to an existing Keystore
+Importing Certificate to existing Keystore
 ++++++++++++++++++++++++++++++++++++++++++++
 
 Importing a Certificate to an existing Keystore::
@@ -88,10 +88,10 @@ Importing a Certificate to an existing Keystore::
     keytool -import -trustcacerts -alias <Name of Cert> -file <Absolute Path to .crt File> -keystore <Absolute Path to Desired Keystore> -storepass <KEYSTORE_PASSWORD>
 
  
-Install certificate on EMR Cluster
+Install Certificate on EMR Cluster
 --------------------------------------------
  
-When using EMR cluster to run the Spark jobs, the certificate needs to be imported in the Java keystore, in order  to track the status of the Spark jobs. Follow the steps below to import certificate on cluster creation:
+When using EMR cluster to run the Spark jobs, the certificate needs to be imported in the Java keystore, in order to track the status of the Spark jobs. Follow the steps below to import certificate on cluster creation:
  
 * Create a **bootstrap** script with the following content::
     

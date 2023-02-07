@@ -35,7 +35,7 @@ You can use the following command for generating a new keystore::
 
     keytool -genkeypair -alias sparkflows -keyalg RSA -validity 365 -keystore keystore.jks
 
-You will be prompted with the following questions where you should enter something similar to the Sample answers as below::
+You will be prompted with the following questions where you should enter something similar to the sample answers as below::
 
     Enter keystore password: 
     Re-enter new password: 
@@ -58,7 +58,7 @@ You will be prompted with the following questions where you should enter somethi
 
 
 
-Copy Keystore File to Installation directory
+Copy Keystore to Installation Directory
 ----------------------------------------------
 
 * Copy the generated ``keystore.jks`` file into the ``conf`` folder of your Fire installation directory.

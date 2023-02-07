@@ -8,3 +8,4 @@ This document serves as a detailed guide in understanding the steps involved for
 
    architecture.rst
    configuration.rst
+   alb-with-ssl-cert.rst

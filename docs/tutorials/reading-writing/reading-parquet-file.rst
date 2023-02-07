@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Read-parquet.png
    :alt: readwrite
-   :width: 55%
+   :width: 45%
 
 Reading from Parquet File
 ---------------------

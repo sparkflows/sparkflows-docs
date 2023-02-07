@@ -24,7 +24,7 @@ Read and Write Data
     
     :doc:`/tutorials/reading-writing/read-pdf-file`
     
-    Reading data from Pdf file and parses it's content into string
+    Reading data from PDF file and parses it's content into string
     
     ----
     
@@ -48,13 +48,13 @@ Read and Write Data
     
     :doc:`/tutorials/reading-writing/writing-parquet`
     
-    Reads data and write into parquet file
+    Reads data and write into Parquet file
     
     ----
     
     :doc:`/tutorials/reading-writing/writing-json`
     
-    Reads data and write to json file
+    Reads data and write to JSON file
     
     ----
     
@@ -66,13 +66,13 @@ Read and Write Data
     
     :doc:`/tutorials/reading-writing/mongodb`
     
-    Reads and write from mongodb
+    Reads and write from MongoDB
     
     ----
     
     :doc:`/tutorials/reading-writing/processing-multiple-files`
     
-    Reads in multiple csv files available in specific directory
+    Reads in multiple CSV files available in specific directory
     
     ----
     

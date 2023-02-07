@@ -45,7 +45,7 @@ Update keystore.properties to udpdate the password of the new keystore.jks file:
 
     keystore.password=123456
 
-Port Number
+Configuring Port Number
 -----------
 
 Fire by default listens on port 8443 for HTTPS.

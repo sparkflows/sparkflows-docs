@@ -1,24 +1,24 @@
 Read Parquet Files
 ================
 
-Fire Insights enable users to read parquet files.
+Fire Insights enables users to read Parquet files.
 
 Workflow
 --------
 
 Below is the workflow. It does the following:
 
-* Reads data from a parquet file.
-* Print the sample result.
+* Reads data from a Parquet file.
+* Prints the sample result.
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/Read-parquet.png
    :alt: readwrite
    :width: 60%
 
-Reading from parquet File
+Reading from Parquet File
 ---------------------
 
-It reads data from a parquet file using the Read parquet processor.
+It reads data from a Parquet file using the Read Parquet processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

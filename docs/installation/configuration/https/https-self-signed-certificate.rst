@@ -38,7 +38,7 @@ Click on Certificate
 
 .. figure:: ../../../_assets/configuration/3.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
    
    
 
@@ -47,7 +47,7 @@ View Certificate
 
 .. figure:: ../../../_assets/configuration/viewcertificate.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
 
 Click on Details
 ++++++
@@ -56,7 +56,7 @@ Click on ``Details`` option to see detailed information of certificate.
 
 .. figure:: ../../../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
 
 Copy Certificate to local machine
 +++++++
@@ -65,7 +65,7 @@ Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
 .. figure:: ../../../_assets/configuration/Copyfile.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
 
 Choose file format
 ++++++
@@ -74,7 +74,7 @@ Select the below option and press ``Next``.
 
 .. figure:: ../../../_assets/configuration/Exportfile.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
    
 Choose Name and File Location
 ++++
@@ -83,7 +83,7 @@ Select the ``Name & file location`` of the certificate using browse button.
 
 .. figure:: ../../../_assets/configuration/filelocation.PNG
    :alt: certificate
-   :width: 50%
+   :width: 45%
 
 Success Message
 ++++++
@@ -92,7 +92,7 @@ On updation of details a ``Success message`` will be displayed on the screen.
 
 .. figure:: ../../../_assets/configuration/4.png
    :alt: certificate
-   :width: 55%
+   :width: 45%
 
 Next, you need to add the exported certificate to the browser.
 
@@ -109,21 +109,21 @@ You can add certificate to the browser using **Google Chrome** by following the 
 
 .. figure:: ../../../_assets/configuration/managecertificate.PNG
    :alt: certificate
-   :width: 60%
+   :width: 45%
 
 * Click on the ``Manage Certificates`` icon.
 
 
 .. figure:: ../../../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
-   :width: 60%
+   :width: 45%
 
 * Click on ``Import`` button.
 
 
 .. figure:: ../../../_assets/configuration/import.PNG
    :alt: certificate
-   :width: 55%
+   :width: 45%
 
 
 * Select ``certificate from local system``, then select ``Trusted Root Certification Authorities`` option and click on ``yes`` to save it.

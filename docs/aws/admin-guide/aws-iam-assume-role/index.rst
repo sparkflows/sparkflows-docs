@@ -16,4 +16,5 @@ Assuming roles, instead of directly using the user, enforces the principle of le
 
    architecture.rst
    assume-role-configuration.rst
+   cross-account-iam-role.rst
    fire-configuration.rst

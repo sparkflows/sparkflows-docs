@@ -19,7 +19,7 @@ Go to URL for the HTTPS port
 
 https://host_name:8443/login
 
-.. figure:: ../../../_assets/configuration/Url_https.PNG
+.. figure:: ../../../_assets/configuration/1.PNG
    :alt: certificate
    :width: 50%
    
@@ -29,14 +29,14 @@ Select Not Secure
 Click on ``Not secure`` option.
 
  
-.. figure:: ../../../_assets/configuration/Notsecure.PNG
+.. figure:: ../../../_assets/configuration/2.PNG
    :alt: certificate
    :width: 50%
    
 Click on Certificate
 +++++
 
-.. figure:: ../../../_assets/configuration/certificate.PNG
+.. figure:: ../../../_assets/configuration/3.PNG
    :alt: certificate
    :width: 50%
    
@@ -90,7 +90,7 @@ Success Message
 
 On updation of details a ``Success message`` will be displayed on the screen.
 
-.. figure:: ../../../_assets/configuration/exportcertificate.PNG
+.. figure:: ../../../_assets/configuration/4.png
    :alt: certificate
    :width: 55%
 
@@ -143,7 +143,7 @@ You can add certificate to the browser using **Google Chrome** by following the 
 
 * Once the above process is completed, close the browser and start again and try to login with above URL. It should work without any warnings.
 
-.. figure:: ../../../_assets/configuration/sparkflow_loginpage.png
+.. figure:: ../../../_assets/configuration/5.png
    :alt: certificate
    :width: 55%
    

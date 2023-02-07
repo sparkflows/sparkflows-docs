@@ -5,7 +5,7 @@ Fire server can listen on HTTPS. Fire server comes with a pre-configured Keystor
 
 Below are the steps for configuring Fire with your Keystore and certificates:
 
-Generate a Keystore
+Generate Keystore
 -------------------
 
 You can use the following command for generating the Keystore::
@@ -33,12 +33,12 @@ You will be prompted with the following questions where you can enter something 
     Enter key password for <sparkflows>
             (RETURN if same as keystore password): Press the return key or Type and note down the password
 
-Copy the Keystore into the Fire installation directory
+Copy Keystore to Installation Directory
 ----------------------------------------------
 
-Copy the generated ``keystore.jks`` file into the ``conf`` folder of your installation.
+Copy the generated ``keystore.jks`` file into the ``conf`` folder of Fire installation directory. 
 
-Update the Keystore password
+Update Keystore Password
 ----------------------------
 
 Update keystore.properties to udpdate the password of the new keystore.jks file::
@@ -48,7 +48,7 @@ Update keystore.properties to udpdate the password of the new keystore.jks file:
 Port Number
 -----------
 
-Fire by default listens on port 8443 for https.
+Fire by default listens on port 8443 for HTTPS.
 
 This is configured in the file ``conf/application.properties``::
 
@@ -56,7 +56,7 @@ This is configured in the file ``conf/application.properties``::
   http.port=8080
   https.port=8443
 
-Restart the Fire Server
+Restart Fire Server
 -------------------------------
 
 Finally, restart the Fire server for the changes to take effect::
@@ -69,8 +69,8 @@ Configuring with PFX file
 -------------------------
 
 * Place the PFX file into the conf folder.
-* Edit keystore.properties to update the field keystore.path and keystore.password.
-* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password.
+* Edit keystore.properties to update the field keystore.path and keystore.password
+* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password
 
 * Run the below command to get the certificate details::
   

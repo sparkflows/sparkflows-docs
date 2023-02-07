@@ -3,120 +3,149 @@ HTTPS : Import Self-Signed Certificates
 
 Fire Insights comes with a self-signed certificate. It is available in "conf/keystore.jks" of fire-x.y.z directory.
 
-When you try to use self-signed certificate, the browser will complain as it has not been issued by a Certificate Authority.
+When you try to use a self-signed certificate, the browser will complain as it has not been issued by a Certificate Authority.
 
 You can import self-signed certificate into the browser inside ``Trusted Root Certification Authorities`` to suppress the warning message.
 
 Below are the steps to import self-signed certificate into your browser:
 
-Export the certificate to your machine
+Export Certificate to Machine
 --------------------------------------------
 
-- Go to ``URL`` for the ``HTTPS`` port.
-   - https://host_name:8443/login
+Below are the steps to export the certifiate to your machine.
+
+Go to URL for the HTTPS port
++++++
+
+https://host_name:8443/login
 
 .. figure:: ../../../_assets/configuration/Url_https.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
    
-- Click on ``Not secure`` option.
+Select Not Secure
+++++++
+
+Click on ``Not secure`` option.
+
  
 .. figure:: ../../../_assets/configuration/Notsecure.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
    
-- Click on ``Certificate``.
+Click on Certificate
++++++
 
 .. figure:: ../../../_assets/configuration/certificate.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
    
    
 
-- View ``Certificate``.
+View Certificate
++++++
 
 .. figure:: ../../../_assets/configuration/viewcertificate.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
 
-- Click on ``Details`` option to see detailed information of certificate.
+Click on Details
+++++++
+
+Click on ``Details`` option to see detailed information of certificate.
 
 .. figure:: ../../../_assets/configuration/Certificatedetails.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
 
-- Click on ``copy to  file`` option to copy certificate to ``local machine``.
+Copy Certificate to local machine
++++++++
+
+Click on ``copy to  file`` option to copy certificate to ``local machine``.
 
 .. figure:: ../../../_assets/configuration/Copyfile.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
 
-- Select below option and press ``Next``.
+Choose file format
+++++++
+
+Select the below option and press ``Next``.
 
 .. figure:: ../../../_assets/configuration/Exportfile.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
    
-- Select the ``Name & file location`` of certificate.
+Choose Name and File Location
+++++
+
+Select the ``Name & file location`` of the certificate using browse button.
 
 .. figure:: ../../../_assets/configuration/filelocation.PNG
    :alt: certificate
-   :width: 60%
+   :width: 50%
 
-- On updation of details a ``Success msg`` will be displayed on the screen.
+Success Message
+++++++
+
+On updation of details a ``Success msg`` will be displayed on the screen.
 
 .. figure:: ../../../_assets/configuration/exportcertificate.PNG
    :alt: certificate
-   :width: 60%
+   :width: 55%
 
 Next, you need to add the exported certificate to the browser.
 
    
-Add Certificate to the Browser
+Adding Certificate to Browser
 --------------------------
- 
-- Use Google chrome
-   
-- Open ``Google Chrome`` and follow the steps below:
-   - Settings -> Advanced -> Privacy and Security-> Manage Certificates 
+
+You can add certificate to the browser using **Google Chrome** by following the below steps:
+
+* Open Google Chrome and go to Settings.
+
+* Navigate to Settings -> Advanced -> Privacy and Security-> Manage Certificates.
    
 
 .. figure:: ../../../_assets/configuration/managecertificate.PNG
    :alt: certificate
    :width: 60%
 
-- Click on the ``Manage Certificates`` icon.
+* Click on the ``Manage Certificates`` icon.
+
 
 .. figure:: ../../../_assets/configuration/Managebrowsecert.PNG
    :alt: certificate
    :width: 60%
 
-- Click on ``Import``.
+* Click on ``Import`` button.
+
 
 .. figure:: ../../../_assets/configuration/import.PNG
    :alt: certificate
-   :width: 60%
+   :width: 55%
 
-- Select ``certificate from local system``, then select ``Trusted Root Certification Authorities`` option and click on ``yes`` to save it.
+
+* Select ``certificate from local system``, then select ``Trusted Root Certification Authorities`` option and click on ``yes`` to save it.
 
 .. figure:: ../../../_assets/configuration/Trustedroot.PNG
    :alt: certificate
-   :width: 60%
+   :width: 55%
    
 
 .. figure:: ../../../_assets/configuration/Savingcertificate.PNG
    :alt: certificate
-   :width: 60%
+   :width: 55%
 
 .. figure:: ../../../_assets/configuration/successmsg.PNG
    :alt: certificate
-   :width: 60%
+   :width: 55%
 
-- Once the above process is completed, close the ``browser`` and start again and try to login with above ``URL``. It should work without any warnings.
+* Once the above process is completed, close the ``browser`` and start again and try to login with above ``URL``. It should work without any warnings.
 
 .. figure:: ../../../_assets/configuration/sparkflow_loginpage.png
    :alt: certificate
-   :width: 60%
+   :width: 55%
    
 
 

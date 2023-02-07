@@ -96,6 +96,12 @@ Below are steps for troubleshooting some of the common issues.
     :doc:`/troubleshooting/https`
     
     Steps to troubleshooting HTTPS
+
+    ---
+    
+    :doc:`/troubleshooting/networking`
+    
+    Steps to troubleshooting Networking
     
 .. toctree::
    :hidden:
@@ -115,6 +121,8 @@ Below are steps for troubleshooting some of the common issues.
    pipelines.rst
    websockets.rst
    https.rst
+   networking.rst
+   
    
    
    

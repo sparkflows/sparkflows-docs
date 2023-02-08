@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/27.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/30.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
 
 Save CSV File
 ----------------
@@ -49,10 +49,10 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/28.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
    
 Once the workflow is executed successfully, the CSV file will be saved to specified location.
 
 .. figure:: ../../_assets/user-guide/read-write/29.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%

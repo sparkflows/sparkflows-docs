@@ -25,14 +25,14 @@ Processor configuration
 
 .. figure:: ../../_assets/user-guide/read-write/32.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
    
 Processor output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/33.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
 
 Save Parquet file
 ----------------
@@ -44,10 +44,10 @@ Processor configuration
 
 .. figure:: ../../_assets/user-guide/read-write/34.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%
    
 Once the workflow is executed successfully the Parquet file will be saved to the specified location.
 
 .. figure:: ../../_assets/user-guide/read-write/35.PNG
    :alt: readwrite
-   :width: 80%
+   :width: 90%

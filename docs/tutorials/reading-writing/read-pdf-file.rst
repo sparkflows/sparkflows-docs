@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/24.PNG
    :alt: ReadandParse
-   :width: 50%
+   :width: 85%
 
   
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/user-guide/read-write/25.PNG
    :alt: ReadandParse
-   :width: 50%   
+   :width: 85%   
    
    
 Prints the Result

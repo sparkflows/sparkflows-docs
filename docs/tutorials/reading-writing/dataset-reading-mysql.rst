@@ -17,7 +17,7 @@ When you open any application, all existing datasets specific to the application
 Dataset Creation
 ----------------
  
-Navigate to the``Datasets`` tab in your application where you want to create a new dataset. Click on the ``Create`` button and choose Dataset. In the pop-up choose ``JDBC`` and then click ``OK``.
+Navigate to the ``Datasets`` tab in your application where you want to create a new dataset. Click on the ``Create`` button and choose Dataset. In the pop-up choose ``JDBC`` and then click ``OK``.
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetCreateMysql.png
    :alt: Dataset

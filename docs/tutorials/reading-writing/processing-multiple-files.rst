@@ -26,14 +26,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/10.PNG
    :alt: Housing Analysis
-   :width: 80%
+   :width: 90%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/11.PNG
    :alt: Housing Analysis
-   :width: 80%
+   :width: 90%
 
 Filter its data
 ----------------
@@ -45,14 +45,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/12.PNG
    :alt: Housing Analysis
-   :width: 80%
+   :width: 90%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/13.PNG
    :alt: Housing Analysis
-   :width: 80%   
+   :width: 90%   
    
 Print the results
 ------------------
@@ -64,11 +64,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/14.PNG
    :alt: Housing Analysis
-   :width: 80% 
+   :width: 90% 
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/15.PNG
    :alt: Housing Analysis
-   :width: 80%
+   :width: 90%

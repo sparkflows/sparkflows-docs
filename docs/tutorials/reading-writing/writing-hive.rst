@@ -21,7 +21,7 @@ Fill the required fields.
 
 .. figure:: ../../_assets/tutorials/dataset/HiveTableNodeConfiguration1.png
    :alt: Dataset
-   :width: 60%
+   :width: 85%
    
 When the sample workflow is executed, data is written into HIVE Table as 'sample_08'.   
 The 'sample_08' gets created with the schema of the Transaction Dataset.

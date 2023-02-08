@@ -19,16 +19,16 @@ Click on Create button
 
 * Click on ``Create`` and choose the option from the dropdown to create the ``Dataset``. Fire Insights enables you to create ``Dataset`` using three options namely ``From Existing Files``, ``By Uploading New File`` and ``Using Connections``. Here, we choose ``From Existing Files`` option.
  
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page1.png
-   :alt: Dataset
-   :width: 90%
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page1.png
+ :alt: Dataset
+ :width: 90%
 
 In the pop-up choose ``CSV`` and then click ``OK``
 ===============
  
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.png
-   :alt: Dataset
-   :width: 90% 
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page2.png
+ :alt: Dataset
+ :width: 90% 
 
 Fill in the required fields as below
 ===============
@@ -47,15 +47,15 @@ Now click on ``Update dataset/schema`` to update the schema of the dataset
 
 Sample data for the dataset will be displayed followed by the schema.
 
-  .. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.png
-   :alt: Dataset
-   :width: 90% 
+.. figure:: ../../_assets/tutorials/dataset/new_dataset_page3.png
+ :alt: Dataset
+ :width: 90% 
 
 * In the example, a dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns.You can view the file by clicking ``Eye icon`` button next to ``Browse``. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
  
-  .. figure:: ../../_assets/tutorials/dataset/4.png
-   :alt: Dataset
-   :width: 90%
+.. figure:: ../../_assets/tutorials/dataset/4.png
+ :alt: Dataset
+ :width: 90%
   
 
 Now click ``Save`` to save the new dataset and you are ready to use it in your workflows
@@ -65,8 +65,8 @@ One can see the list of all the datasets that belong to the project under the Da
 ========
  
 .. figure:: ../../_assets/tutorials/dataset/new_dataset_page6.png
-   :alt: Dataset
-   :width: 90%
+ :alt: Dataset
+ :width: 90%
 
 
 

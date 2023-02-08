@@ -9,7 +9,7 @@ Before you start creating a workflow, you will need to create a ``Project``. A p
   .. figure:: ../../_assets/tutorials/quickstart/1.png
    :alt: Quickstart
    :align: left
-   :width: 50% 
+   :width: 70% 
 
 
 * Specify Name and Description, and click on the ``Create`` button. 
@@ -17,11 +17,11 @@ Before you start creating a workflow, you will need to create a ``Project``. A p
 
   .. figure:: ../../_assets/tutorials/quickstart/2.png
    :alt: Quickstart
-   :width: 50%  
+   :width: 70%  
 
 * The new Empty project is created and ready to use.  
 
 
   .. figure:: ../../_assets/tutorials/quickstart/3.png
    :alt: Quickstart
-   :width: 50%
+   :width: 70%

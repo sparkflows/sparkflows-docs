@@ -21,14 +21,14 @@ Node ``TransactionDataset`` creates DataFrame of your dataset named 'Transaction
 
 .. figure:: ../../_assets/tutorials/read-write/writing-json/7.PNG
    :alt: NodeDatasetStructured
-   :width: 80%
+   :width: 90%
 
 Processor output
 ----------------
 
 .. figure:: ../../_assets/tutorials/read-write/writing-json/8.PNG
    :alt: NodeDatasetStructured
-   :width: 80%
+   :width: 90%
 
 SaveJSON Processor Configuration
 --------------------
@@ -39,10 +39,10 @@ Node ``SaveJSON`` saves DataFrame into the specified path in JSON Format. When r
    
 .. figure:: ../../_assets/tutorials/read-write/writing-json/9.PNG
    :alt: JSONWorkflow
-   :width: 80%
+   :width: 90%
 
 Once the workflow is executed successfully the json file will be saved to specified location.
 
 .. figure:: ../../_assets/tutorials/read-write/writing-json/10.PNG
    :alt: JSONWorkflow
-   :width: 80%
+   :width: 90%

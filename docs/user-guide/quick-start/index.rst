@@ -12,7 +12,7 @@ Let's get started!
 
     :doc:`/user-guide/quick-start/1-create-application`
     
-    Create a project. It holds datasets, workflows, reports, dashboards etc. Multiple groups can work on a project.
+    Create a project. It holds datasets, workflows, reports, dashboards, etc. Multiple groups can work on a project.
 
     ---
 
@@ -30,7 +30,7 @@ Let's get started!
 
     :doc:`/user-guide/quick-start/4-create-workflow`
     
-    Create your workflow for processing the data, exploring it, building models etc.
+    Create your workflow for processing the data, exploring it, building models, etc.
    
     ---
 

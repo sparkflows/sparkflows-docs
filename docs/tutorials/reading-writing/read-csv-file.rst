@@ -36,14 +36,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/2.PNG
    :alt: readwrite
-   :width: 60%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/3.PNG
    :alt: readwrite
-   :width: 60%
+   :width: 75%
 
 Prints the Results
 ------------------

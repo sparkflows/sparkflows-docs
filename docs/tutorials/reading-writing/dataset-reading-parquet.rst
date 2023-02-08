@@ -6,7 +6,7 @@ Fire Insights supports reading from several file formats including Parquet files
 Datasets
 --------
 
-The existing datasets are displayed on the DataSets page of specific application.
+The existing datasets are displayed on the Datasets page of specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
    :alt: Dataset
@@ -15,7 +15,7 @@ The existing datasets are displayed on the DataSets page of specific application
 Dataset Creation
 ----------------
 
-Navigate to the ``Datasets`` tab in your application where you want to create a new dataset. Click on the ``Create"`` button and choose the dataset type from the pop-up. It will navigate you to create dataset page of type Parquet. Now, we create a dataset for people.parquet which is a Parquet file.
+Navigate to the ``Datasets`` tab in your application where you want to create a new dataset. Click on the ``Create`` button and choose the dataset type from the pop-up. It will navigate you to create dataset page of type Parquet. Now, we create a dataset for people.parquet which is a Parquet file.
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDatasetParquet.png
    :alt: Dataset

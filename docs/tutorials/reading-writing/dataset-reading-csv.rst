@@ -8,7 +8,7 @@ When datasets are created, Fire Insights automatically infers the schema using S
 Datasets List
 --------
 
-When you open any application, all existing Datasets specific to the application are displayed in the Datasets tab.
+When you open any application, all existing datasets specific to the application are displayed in the Datasets tab.
 
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetsDetails.png
@@ -18,27 +18,25 @@ When you open any application, all existing Datasets specific to the application
 Dataset Creation
 ----------------
  
-Choose type of Dataset to Create
-+++++++++++++++++++++++++++++++++
+**Choose type of Dataset to Create**
 
-Navigate to the "Datasets" tab in your application. Click on the "Create" button and choose "Dataset".
-In the pop-up choose "CSV" and then click "OK".
+Navigate to the ``Datasets`` tab in your application. Click on the ``Create`` button and choose any dataset.
+In the pop-up choose ``CSV`` and then click ``OK``.
 
 .. figure:: ../../_assets/tutorials/dataset/CreateDataSet.png
    :alt: Dataset
    :width: 50%
 
-Dataset Details
-+++++++++++++++
+**Dataset Details**
 
-Clicking "OK" will take you to Dataset Details page where you can enter information about your dataset. In the screenshot below, we create a dataset from a Clickthru.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
+Clicking ``OK`` will take you to dataset details page where you can enter information about your dataset. In the image given below, we create a dataset from a Clickthru.csv file. It is a comma separated file with a header row specifying the names of the various columns.   
 
 
 .. figure:: ../../_assets/tutorials/dataset/DatasetFileContentView.png
    :alt: Dataset
    :width: 50%
    
-For the Clickthru.csv file, we will fill in the required fields as below.   
+For Clickthru.csv file, we will fill in the required fields as below.   
 
 
 .. figure:: ../../_assets/tutorials/dataset/DataSetForm.png
@@ -47,10 +45,9 @@ For the Clickthru.csv file, we will fill in the required fields as below.
    
 We specified a name for the dataset we are creating. ‘Header’ is set to true indicating that the file has a header row, field delimiter is comma and we also specified the path to the file.
 
-Update Sample data/schema
-++++++++++++++++++++++++++
+**Hit Update Sample data/Schema**
 
-Once we have specified the above, we hit the ‘Update Sample data/schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date/time fields.
+Once we have specified the above, we hit the ``Update Sample data/schema`` button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format for date and time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/DataSetSchemaUpdate.png
    :alt: Dataset
@@ -62,16 +59,15 @@ Once we have specified the above, we hit the ‘Update Sample data/schema’ but
    :width: 50%
 
 
-Save the Dataset
-++++++++++++++++
+**Save Dataset**
 
-Clicking the ‘Save’ button creates the new dataset. The dataset is now ready for use in any workflow within the specific application.
+Clicking the ```Save`` button creates the new dataset. The dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/SaveDataset.png
    :alt: Dataset
    :width: 50%
    
-You can find your created dataset in dataset list page.
+You can find your created dataset on dataset list page.
   
 .. figure:: ../../_assets/tutorials/dataset/CreatedDatasetList.png
    :alt: Dataset

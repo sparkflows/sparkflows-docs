@@ -5,13 +5,13 @@ A project can be shared with multiple groups. A project is visible only to those
 
 Below is shared a project with the ``DEFAULT`` group:
 
-.. figure:: ../../_assets/security/project-permission.png
+.. figure:: ../../_assets/security/project_share.PNG
    :alt: security
    :width: 60%
 
 The following permissions can be given to a group during sharing of the project:
 
-.. figure:: ../../_assets/security/project-shared-permission.png
+.. figure:: ../../_assets/security/project_share1.PNG
    :alt: security
    :width: 60%
 

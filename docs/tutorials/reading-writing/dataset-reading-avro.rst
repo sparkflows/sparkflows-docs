@@ -3,7 +3,7 @@ Create Dataset on AVRO Files
 
 When working with data in Fire Insights, the first step is to create a dataset that you plan to process subsequently. Dataset is a wrapper around your data which makes it easy to handle it in Sparkflows workbench.
 
-When datasets are created, Fire Insights automatically infers the schema using Spark-Avro library.
+When datasets are created, Fire Insights automatically infers the schema using Spark-AVRO library.
 
 Datasets
 --------
@@ -29,7 +29,7 @@ Clicking ``OK`` will take you to Dataset Details page where you can enter inform
 
 We specified a name, category, description & path of AVRO file for the dataset we are creating.
 
-Once we have specified the above, we hit the ‘Update Sample Data/Schema’ button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format of date or time fields.
+Once we have specified the above, we hit the ``Update Sample Data/Schema`` button. This brings up the sample data, infers the schema and displays it. We can change the column names and also the data types. Format column is used for specifying the format of date or time fields.
 
 .. figure:: ../../_assets/tutorials/dataset/54.PNG
    :alt: Dataset
@@ -40,7 +40,7 @@ Once we have specified the above, we hit the ‘Update Sample Data/Schema’ but
    :width: 50%
 
 
-Clicking the ``Save`` button saves the new Avro Dataset. The Avro Dataset is now ready for use in any workflow within the specific application.
+Clicking the ``Save`` button saves the new AVRO dataset. The AVRO Dataset is now ready for use in any workflow within the specific application.
 
 .. figure:: ../../_assets/tutorials/dataset/56.PNG
    :alt: Dataset

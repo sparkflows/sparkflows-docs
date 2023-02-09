@@ -2,7 +2,7 @@
 Drop Rows With Null
 ===================
 
-This example drops/ filters the rows containing any null values from the input dataset.
+This sample workflow drops or filters the rows containing any null values from the input dataset.
 
 
 Workflow
@@ -15,7 +15,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/7.PNG
    :alt: Drop Rows With Null
-   :width: 100%
+   :width: 60%
    
 Reading from CSV File
 ---------------------
@@ -27,7 +27,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/8.PNG
    :alt: Drop Rows With Null
-   :width: 100%
+   :width: 80%
    
 
    
@@ -36,7 +36,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/9.PNG
    :alt: Drop Rows With Null
-   :width: 100% 
+   :width: 80% 
    
 Dropping rows with null
 ----------------------
@@ -48,13 +48,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/10.PNG
    :alt: Drop Rows With Null
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/11.PNG
    :alt: Drop Rows With Null
-   :width: 100%
+   :width: 80%
    
    

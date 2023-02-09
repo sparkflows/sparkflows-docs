@@ -2,7 +2,7 @@ Overview
 ========
 
 It's very important to schedule Pipelines and Workflows for smooth execution of long-running jobs in parallel and asynchronous manner.
-Sparkflows scales out the Data Processing and Mcchine Learning Use cases by offering seamless scheduling capabilities.
+Sparkflows scales out the Data Processing and Machine Learning Use cases by offering seamless scheduling capabilities.
 
 1. **Schedule Pipeline**
 

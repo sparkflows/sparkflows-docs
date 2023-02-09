@@ -27,6 +27,11 @@ Steps
 
 
             keytool -import -trustcacerts -alias <Name of Cert> -file /path/to/certificate.crt -keystore /path/to/keystore.jks -storepass <KEYSTORE_PASSWORD>
+            
+    * Finally make sure you've updated the sso.saml.properties file , as below::
+    
+         server.keystore.alias=1
+
 
 
 * **Store this new keystore in the conf directory of the Docker context.**

@@ -1,4 +1,4 @@
-Customize docker image for SSL Configuration
+Customize Docker Image for SSL Configuration
 ============================================
 
 Sparkflows uses SSL keystore for configuring the HTTPS in Spring boot application. In order to provide a custom keystore, we need to import the SSL Certificate into the keystore using the Java keytool and then add them in conf directory, while building the docker image.

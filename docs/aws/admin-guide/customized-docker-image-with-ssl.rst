@@ -6,9 +6,28 @@ Sparkflows uses SSL keystore for configuring the HTTPS in Spring boot applicatio
 Steps
 --------
 
-* **Import the existing certificate into the keystore.** ::
+* **Import the existing certificate into the keystore.** 
 
-    keytool -import -trustcacerts -alias <Name of Cert> -file /path/to/certificate.crt -keystore /path/to/keystore.jks -storepass <KEYSTORE_PASSWORD>
+    * Import the existing certificate into the keystore
+            Note: This is not going to work with publicly managed AWS certificates, as AWS doesn’t expose the private keys which are required for importing into the keystore. 
+
+            The following OpenSSL command combines the keys in privkey.pem and the certificate in the fullchain.pem file into the sparkflows.pkcs12 file::
+
+                $ openssl pkcs12 -inkey privkey.pem -in fullchain.pem -export -out sparkflows.pkcs12
+
+    * If you have a chain of certificates, because your CA is an intermediary, build the PKCS12 file as follows::
+
+        $ cat example.crt intermediate.crt [intermediate2.crt] ... rootCA.crt > fulchain.pem
+        $ openssl pkcs12 -export -inkey privkey.pem -in fullchain.pem -out sparkflows.pkcs12
+
+    * OpenSSL asks for an export password. A non-empty password is required to make the next step work. Load the resulting PKCS12 file into a JSSE keystore   with keytool::
+
+        $ keytool -importkeystore -srckeystore sparkflows.pkcs12 -srcstoretype PKCS12 -destkeystore keystore.jks
+
+    * If you imported the key and certificate originally using the PKCS12 method, use an alias of "1" rather than "sparkflows", because that is the alias the     PKCS12 process enters into the keystore::
+
+
+            keytool -import -trustcacerts -alias <Name of Cert> -file /path/to/certificate.crt -keystore /path/to/keystore.jks -storepass <KEYSTORE_PASSWORD>
 
 
 * **Store this new keystore in the conf directory of the Docker context.**

@@ -17,7 +17,7 @@ Below is a workflow which reads data from MySQL and reads the result from ``Prin
 
 .. figure:: ../../_assets/user-guide/ReadJDBC.png
    :alt: JDBC Workflowt
-   :width: 60%
+   :width: 45%
    
    
 JDBC Processor Configuration
@@ -25,16 +25,16 @@ JDBC Processor Configuration
 
 Below are the configuration details of the JDBC Processor. It uses the provided user credentials for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table from MySQL and populates the entries.
 
-.. figure:: ../../_assets/user-guide/JDBCNodeConfiguraton.png
+.. figure:: ../../_assets/user-guide/JDBCNodeConfiguration1.png
    :alt: JDBC Processor Dialog
-   :width: 60%
+   :width: 80%
    
 Results of reading from MySQL Table
 ------------------------------------
 
 The following screenshot displays schema of the table from the MySQL table by Fire.
 
-.. figure:: ../../_assets/user-guide/JDBCShemaRefresh.png
+.. figure:: ../../_assets/user-guide/JDBCShemaRefresh1.png
    :alt: JDBC Get Schema
    :width: 80%
 
@@ -49,7 +49,7 @@ More details are available on the Spark Guide : https://spark.apache.org/docs/1.
 
 Executing the processor displays the records read from MySQL Table.
 
-.. figure:: ../../_assets/user-guide/ResultJDBC.png
+.. figure:: ../../_assets/user-guide/ResultJDBC1.png
    :alt: JDBC Result Output
    :width: 80%
    

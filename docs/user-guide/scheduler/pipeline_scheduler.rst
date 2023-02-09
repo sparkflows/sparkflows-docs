@@ -1,9 +1,13 @@
 Overview
 ========
 
+It's very important to schedule Pipelines and Workflows for smooth execution of long-running jobs in parallel and asynchronous manner.
+Sparkflows scales out the Data Processing and Mcchine Learning Use cases by offering seamless scheduling capabilities.
+
 1. **Schedule Pipeline**
 
-Sparkflows allows you to schedule Pipeline.
+Sparkflows allows you to schedule Pipeline. It stores the metadata of periodic jobs and uses a built-in scheduler to queue user requests.
+If Airflow is configured then Sparkflows submits the Job requests to Airflow as per the scheduling 
 
 .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
    :alt: Schedule Pipeline 
@@ -11,13 +15,13 @@ Sparkflows allows you to schedule Pipeline.
    
 2. **View Pipeline Schedules**
 
-Once the Pipeline is scheduled, you can view the schedules.
+Once the Pipeline is scheduled, you can view the scheduling info.
 
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_PIPELINE_SCHEDULES.png
    :alt: Pipeline Schedules
    :width: 60%
    
-3. **View the DAG generated from the Pipeline**
+3. **View the DAG Script generated from the Pipeline**
 
 4. **Test - Trigger Pipeline Execution in Airflow**
 

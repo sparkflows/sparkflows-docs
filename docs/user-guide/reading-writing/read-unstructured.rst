@@ -38,7 +38,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-demo-workflow.png
    :alt: readpdf_node_userguide
-   :width: 60%
+   :width: 50%
    
 
 **Read PDF Node configuration**
@@ -73,7 +73,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readtextfiles-demo-workflow.png
    :alt: readtextfiles_node_userguide
-   :width: 60%
+   :width: 50%
    
 
 **Read Text Files Node configuration**
@@ -107,7 +107,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-demo-workflow.png
    :alt: readwholetext_node_userguide
-   :width: 60%
+   :width: 50%
    
 
 **Read Whole Text Files Node configuration**
@@ -141,7 +141,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 60%
+   :width: 70%
    
 **Binary Files Node configuration**
 
@@ -175,7 +175,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 60%
+   :width: 55%
    
 **PDF Image OCR Node configuration**
 

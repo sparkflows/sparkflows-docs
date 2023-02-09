@@ -15,12 +15,12 @@ Below workflow shows the "SaveAsHIVETable" Processor. It reads Transaction Datas
 
 .. figure:: ../../_assets/tutorials/dataset/SaveHIVEWF.png
    :alt: Dataset
-   :width: 70%
+   :width: 50%
 
 Processor Configuration
 ----------------------
 
-.. figure:: ../../_assets/tutorials/dataset/HiveTableNodeConfiguration.png
+.. figure:: ../../_assets/tutorials/dataset/HiveTableNodeConfiguration1.png
    :alt: Dataset
    :width: 90%
    

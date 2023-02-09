@@ -39,7 +39,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-demo-workflow.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
@@ -71,7 +71,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-demo-workflow.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
@@ -109,7 +109,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savejson-demo-workflow.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
@@ -146,7 +146,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-demo-workflow.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
@@ -178,7 +178,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-demo-workflow.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 

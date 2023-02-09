@@ -7,13 +7,13 @@ AWS Admin Guide
     
     :doc:`/aws/introduction`
     
-    Introduction to the aws guide
+    Introduction to the AWS guide.
     
     ---
     
     :doc:`/aws/admin-guide/installation-with-ami`
 
-    Install Sparkflows from AWS Marketplace
+    Install Sparkflows from AWS Marketplace.
     
     ---
     
@@ -25,45 +25,45 @@ AWS Admin Guide
     
     :doc:`/aws/admin-guide/start-emr`
     
-    Steps to run Fire Insights on EMR
+    Steps to run Fire Insights on EMR.
     
     ---
     
     :doc:`/aws/admin-guide/emr-livy/index`
     
-    LIVY Configurations and Job submission
+    LIVY Configurations and Job submission.
     
       
     ---
     
     :doc:`/aws/admin-guide/test`
     
-    Testing and Troublshooting Fire Insights AWS connectivity
+    Testing and Troublshooting Fire Insights AWS connectivity.
     
     ---
     
     :doc:`/aws/admin-guide/operations`
     
-    Guide to operating Fire Insights running on an AWS
+    Guide to operating Fire Insights running on an AWS.
     
     ---
     
     :doc:`/aws/admin-guide/AWS-Cloudformation/index`
     
-    Using cloud formation templates to install fire on aws with h2 and MySQL db 
+    Using cloud formation templates to install fire on aws with H2 and MySQL DB. 
     
         
     ---
     
     :doc:`/aws/glue-integration/index`
     
-    Submitting Jobs on AWS Glue Cluster
+    Submitting Jobs on AWS Glue Cluster.
     
     ---
     
     :doc:`/aws/admin-guide/aws-sso/index`
     
-    Fire Insight integration with sso
+    Fire Insight integration with SSO.
     
     ---
     
@@ -75,31 +75,31 @@ AWS Admin Guide
     
     :doc:`/aws/admin-guide/aws-ec2-configure`
     
-    Configuring S3 on ec2 instance
+    Configuring S3 on EC2 instance.
     
     ---
     
     :doc:`ecs-fargate-sparkflows-deployment/index`
     
-    Spakflows deployment on ecs fargate
+    Spakflows deployment on ECS fargate.
     
     ---
     
     :doc:`/aws/admin-guide/configuring-aws-certificate`
     
-    Setting up Certificate on AWS 
+    Setting up Certificate on AWS. 
     
     ---
     
     :doc:`/aws/admin-guide/load-balancer`
     
-    Load Balancer
+    Load Balancer.
     
     ---
     
     :doc:`/aws/admin-guide/customized-docker-image-with-ssl`
     
-    build customized docker image with SSL certificate
+    Build customized docker image with SSL certificate.
     
     
 .. toctree::

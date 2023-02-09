@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/5.PNG
    :alt: Drop Columns
-   :width: 100%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -26,14 +26,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/6.PNG
    :alt: Drop Columns
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/7.PNG
    :alt: Drop Columns
-   :width: 100%   
+   :width: 80%   
    
 Drop Columns
 ------------
@@ -45,14 +45,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/8.PNG
    :alt: Drop Columns
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/9.PNG
    :alt: Drop Columns
-   :width: 100%
+   :width: 80%
   
 Prints the Results
 ------------------
@@ -65,12 +65,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4.PNG
    :alt: Drop Columns
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4a.PNG
    :alt: Drop Columns
-   :width: 100% 
+   :width: 80% 
 

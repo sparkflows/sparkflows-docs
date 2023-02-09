@@ -10,11 +10,11 @@ Read from Snowflake
 The below workflow does the following:
 
 * Reads Snowflake Table.
-* Prints a few records of the dataframe.
+* Prints a few records of the DataFrame.
 
 .. figure:: ../../_assets/snowflake/SnowflakeWF.png
    :alt: snowflake
-   :width: 70%
+   :width: 40%
 
 Reading from Snowflake Table
 -------------------
@@ -44,19 +44,19 @@ Processor Output
 Prints the Results
 ------------------
 
-It prints the first few records of the dataframe.
+It prints the first few records of the DataFrame.
 
 Write to Snowflake
 ------------------
 
 The below workflow does the following:
 
-* Reads Housing dataset.
+* Reads Housing Dataset.
 * Write it to Snowflake Table.
 
-.. figure:: ../../_assets/snowflake/SnowflakeWF2
+.. figure:: ../../_assets/snowflake/SNOWFLAKEWF2.png
    :alt: snowflake
-   :width: 90%
+   :width: 45%
    
 Reading from CSV File
 ---------------------

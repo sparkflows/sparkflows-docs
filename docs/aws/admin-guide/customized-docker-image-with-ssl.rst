@@ -8,12 +8,11 @@ Steps
 
 * **Import the existing certificate into the keystore.** 
 
-    * Import the existing certificate into the keystore
-            Note: This is not going to work with publicly managed AWS certificates, as AWS doesn’t expose the private keys which are required for importing into the keystore. 
+    * This is not going to work with publicly managed AWS certificates, as AWS doesn’t expose the private keys which are required for importing into the keystore. 
 
-            The following OpenSSL command combines the keys in privkey.pem and the certificate in the fullchain.pem file into the sparkflows.pkcs12 file::
+      The following OpenSSL command combines the keys in privkey.pem and the certificate in the fullchain.pem file into the sparkflows.pkcs12 file::
 
-                $ openssl pkcs12 -inkey privkey.pem -in fullchain.pem -export -out sparkflows.pkcs12
+            $ openssl pkcs12 -inkey privkey.pem -in fullchain.pem -export -out sparkflows.pkcs12
 
     * If you have a chain of certificates, because your CA is an intermediary, build the PKCS12 file as follows::
 

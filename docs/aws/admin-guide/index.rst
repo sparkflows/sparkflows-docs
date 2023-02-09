@@ -95,6 +95,12 @@ AWS Admin Guide
     
     Load Balancer
     
+    ---
+    
+    :doc:`/aws/admin-guide/customized-docker-image-with-ssl`
+    
+    build customized docker image with SSL certificate
+    
     
 .. toctree::
    :hidden:
@@ -114,5 +120,6 @@ AWS Admin Guide
    aws-ec2-configure.rst
    ecs-fargate-sparkflows-deployment/index.rst
    configuring-aws-certificate.rst
+   customized-docker-image-with-ssl.rst
    
    

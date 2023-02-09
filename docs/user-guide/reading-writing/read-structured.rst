@@ -57,7 +57,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 **Create Dataset Node output**
 
@@ -65,7 +65,7 @@ Output of the ``Create Dataset`` node prints the dataset created with specified 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-printnode-output.png
    :alt: readwrite_userguide
-   :width: 80%       	    
+   :width: 85%       	    
 
 Dataset Structured
 ----------------------------------------
@@ -89,7 +89,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 **Dataset Structured Node output**
 
@@ -97,7 +97,7 @@ Output of the ``Dataset Structured`` node prints the dataframe so created based 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-printnode-output.png
    :alt: readwrite_userguide
-   :width: 80%       	    
+   :width: 85%       	    
 
 Empty Dataset
 ----------------------------------------
@@ -111,7 +111,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 50%
+   :width: 60%
    
 **Empty Dataset Node configuration**
 
@@ -119,7 +119,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 Read Excel
 ----------------------------------------
@@ -133,7 +133,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 50%
+   :width: 60%
    
 **Read Excel Node configuration**
 
@@ -145,7 +145,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 **Read Excel Node output**
 
@@ -153,7 +153,7 @@ Output of the ``Read Excel`` node prints the dataframe so created based on data 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-printnode-output.png
    :alt: readwrite_userguide
-   :width: 80%       	    
+   :width: 85%       	    
 
 
 Read Avro
@@ -180,7 +180,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-configuration.png
    :alt: readavro_node_userguide
-   :width: 80%
+   :width: 85%
 
 **Read Avro Node output**
 
@@ -188,7 +188,7 @@ Data read from an ``Avro Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-printnode-output.png
    :alt: readavro_node_userguide
-   :width: 80%
+   :width: 85%
    
 Read CSV
 ----------------------------------------
@@ -216,7 +216,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-configuration.png
    :alt: readcsv_node_userguide
-   :width: 80%
+   :width: 85%
 
 **Read CSV Node output**
 
@@ -224,7 +224,7 @@ Data read from a ``CSV Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-printnode-output.png
    :alt: readcsv_node_userguide
-   :width: 80%
+   :width: 85%
    
 Read Parquet
 ----------------------------------------
@@ -250,7 +250,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-configuration.png
    :alt: readparquet_node_userguide
-   :width: 80%
+   :width: 85%
 
 **Read Parquet Node output**
 
@@ -258,7 +258,7 @@ Data read from a ``Parquet Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-printnode-output.png
    :alt: readparquet_node_userguide
-   :width: 80%
+   :width: 85%
    
 Read JSON
 ----------------------------------------
@@ -285,7 +285,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-configuration.png
    :alt: readjson_node_userguide
-   :width: 80%
+   :width: 85%
 
 **Read JSON Node output**
 
@@ -293,7 +293,7 @@ Data read from ``JSON File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-printnode-output.png
    :alt: readjson_node_userguide
-   :width: 80%
+   :width: 85%
    
 URL Single Record JSON Reader
 ----------------------------------------
@@ -307,7 +307,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 50%
+   :width: 60%
    
 **URL Single Record JSON Reader Node configuration**
 
@@ -318,7 +318,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 **URL Single Record JSON Reader Node output**
 
@@ -326,7 +326,7 @@ Output of the ``URL Single Record JSON Reader`` node prints the content of JSON 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-printnode-output.png
    :alt: readwrite_userguide
-   :width: 80%       	    
+   :width: 85%       	    
 
 URL Text File Reader
 ----------------------------------------
@@ -340,7 +340,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-demo-workflow.png
    :alt: readwrite_userguide
-   :width: 50%
+   :width: 65%
    
 **URL Text File Reader Node configuration**
 
@@ -350,7 +350,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-config.png
    :alt: readwrite_userguide
-   :width: 80%
+   :width: 85%
    
 **URL Text File Reader Node output**
 
@@ -358,4 +358,4 @@ Output of the  ``URL Text File Reader`` node prints the content of the Text file
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-printnode-output.png
    :alt: readwrite_userguide
-   :width: 80%       	    
+   :width: 85%       	    

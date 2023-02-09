@@ -1,7 +1,7 @@
 Handling Null Values
 ====================
 
-This example removes null values from the input dataset.
+This sample workflow removes null values from the input dataset.
 
 
 Workflow
@@ -13,13 +13,13 @@ The below workflow:
 * Replaces null values in certain columns with constant values.
 * Converts certain columns to 0/1 based on their value. It does it in 3 different ways.
 
-  * Using StringIndexer Processor
-  * Using CaseWhen Processor
-  * Using FindAndReplace using Regex Processor
+  * Using StringIndexer Processor.
+  * Using CaseWhen Processor.
+  * Using FindAndReplace using Regex Processor.
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/7.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 70%
    
 Reading from CSV File
 ---------------------
@@ -31,14 +31,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/8.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/9.PNG
    :alt: Handling Null Values
-   :width: 100%   
+   :width: 80%   
    
 Replacing null values
 ---------------------
@@ -50,14 +50,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/10.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/11.PNG
    :alt: Handling Null Values
-   :width: 100%   
+   :width: 80%   
    
 Converting to 0/1 using StringIndexer
 ---------------------
@@ -69,14 +69,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/12.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/13.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
    
 
 Converting to 0/1 using CaseWhen
@@ -89,14 +89,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/14.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/15.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
    
 
 Converting to 0/1 using FindAndReplaceUsingRegex
@@ -110,13 +110,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/16.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/17.PNG
    :alt: Handling Null Values
-   :width: 100%
+   :width: 80%
    
 

@@ -6,22 +6,21 @@ Sparkflows uses SSL keystore for configuring the HTTPS in Spring boot applicatio
 Steps
 --------
 
-* Import the existing certificate into the keystore::
+* **Import the existing certificate into the keystore.** ::
 
     keytool -import -trustcacerts -alias <Name of Cert> -file /path/to/certificate.crt -keystore /path/to/keystore.jks -storepass <KEYSTORE_PASSWORD>
 
 
-* Store this new keystore in the conf directory of the Docker context.
+* **Store this new keystore in the conf directory of the Docker context.**
 
-
-* Build the image using the following command::
+* **Build the image using the following command.** ::
 
     docker build --build-arg SPARK_VERSION=3.2.1 \
     --build-arg FIRE_VERSION=3.1.0 \
     -t sparkflows/sparkflows
 
 
-* Set the environment variable, with the correct keystore password while running the container::
+* **Set the environment variable, with the correct keystore password while running the container.** ::
 
     docker run -p 8080:8080 -p 9443:9443 \
     -e KEYSTORE_PASSWORD=<keystore_password> \

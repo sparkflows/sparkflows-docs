@@ -33,7 +33,7 @@ Processor Configuration Parameters:
 
 .. figure:: ../../_assets/aws/read_redshift.PNG
    :alt: aws
-   :width: 60% 
+   :width: 85% 
 
 Write Redshift AWS
 ---------------
@@ -69,4 +69,4 @@ While using the above, the processor needs to have below parameter:
 
 .. figure:: ../../_assets/aws/saveredshift.PNG
    :alt: aws
-   :width: 60%
+   :width: 85%

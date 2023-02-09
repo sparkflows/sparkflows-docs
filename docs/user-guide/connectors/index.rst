@@ -23,7 +23,7 @@ Connector Processors in Fire Insights
    * - Save Databricks table
      - It saves the data to a Databricks table.
    * - Read From SnowFlake
-     - IT reads a table from Snowflake. 
+     - It reads a table from Snowflake. 
    * - Read Elastic Search
      - It reads the data from ElasticSearch.
    * - Read HIVE Table
@@ -47,7 +47,7 @@ Connector Processors in Fire Insights
    * - Saves Salesforce
      - It saves the data to Salesforce.
    * - Write To SnowFlake
-     - It saves the rows of the incoming DataFrame into Snowflake
+     - It saves the rows of the incoming DataFrame into Snowflake.
    * - Execute Query In SnowFlake
      - It executes the query in the Snowflake.
 

@@ -1,7 +1,7 @@
 Data Validation I
 ===============
 
-This example performs different kinds of data validation on input datasets like valid/invalid email,valid/invalid date,null/not null check etc.
+This sample workflow performs different kinds of data validation on input datasets like valid/invalid email, valid/invalid date, null/not null check, etc.
 
 Workflow
 --------
@@ -12,7 +12,7 @@ Workflow
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/6.PNG
    :alt: Data Validation
-   :width: 100%
+   :width: 65%
    
 Reading from CSV File
 ---------------------

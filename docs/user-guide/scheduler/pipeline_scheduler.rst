@@ -10,7 +10,7 @@ Steps
 1. **Schedule Pipeline**
 
 Sparkflows allows you to schedule Pipeline. It stores the metadata of periodic jobs and uses a built-in scheduler to queue user requests.
-If Airflow is configured then Sparkflows submits the Job requests to Airflow as per the scheduling 
+If Airflow is configured then Sparkflows submits the Job requests to Airflow as per the scheduling. 
 
 .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
    :alt: Schedule Pipeline 
@@ -26,10 +26,15 @@ Once the Pipeline is scheduled, you can view the scheduling info.
    
 3. **View the DAG Script generated from the Pipeline**
 
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_DAG_CODE.png
+   :alt: View DAG Code 
+   :width: 60%
+
+
 4. **Test - Trigger Pipeline Execution in Airflow**
 
 .. figure:: ../../_assets/user-guide/scheduler/DIRECTLY_EXECUTE_PIPELINE_IN_AIRFLOW.png
-   :alt: Schedule Pipeline 
+   :alt: Trigger Pipeline 
    :width: 60%
 
 
@@ -40,6 +45,10 @@ Once the Pipeline is scheduled, you can view the scheduling info.
    :width: 60%
 
 6. **View the DAGs in Pipeline**
+
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_AIRFLOW_DAGS.png
+   :alt: View DAGS in Pipeline Editor
+   :width: 60%
 
 7. **View the DAGs in Airflow**
 

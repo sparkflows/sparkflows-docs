@@ -1,50 +1,52 @@
 Split Dataset By Expression
 ===========================
 
-Fire Insights allows you to split incoming dataframes. Based on your needs, use the processors described below: 
+Fire Insights allows you to split incoming DataFrames. Based on your needs, use the processors described below: 
 
-- 'SplitByExpression': This processor splits the incoming dataset based on an expression. Rows satisfying the expression go into one dataframe and the rest go into another dataframe.
-- 'SplitByMultipleExpressions': This processor splits the incoming dataset into multiple dataframes based on up to five conditional expressions.The output of each expression is routed to a separate output path.
-- 'Split': This processor splits the incoming dataframe into two based on the percentage specified for the split. Split processor is especially useful in machine learning workflows.
+**SplitByExpression:** This processor splits the incoming dataset based on an expression. Rows satisfying the expression go into one DataFrame and the rest go into another DataFrame.
+
+**SplitByMultipleExpressions:** This processor splits the incoming dataset into multiple DataFrames based on up to five conditional expressions.The output of each expression is routed to a separate output path.
+
+**Split:** This processor splits the incoming DataFrame into two based on the percentage specified for the split. Split processor is especially useful in machine learning workflows.
 
 Workflow
 --------
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/4.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 55%
    
    
-In the example workflow above, 'Split By Multiple Expressions' processor splits the incoming dataframe into three output dataframes. The three conditions are on column c1 - "c1<3" , "c1>=3 and c1<5", and "c1>=5". As mentioned earlier, 'SplitByMultipleExpressions' can split incoming dataframe in up to five dataframes. 
+In the sample workflow above, ``Split By Multiple Expressions`` processor splits the incoming DataFrame into three output DataFrames. The three conditions are on column ``c1 - c1<3`` , ``c1>=3 and c1<5``, and ``c1>=5``. As mentioned earlier, ``SplitByMultipleExpressions`` can split incoming DataFrame in up to five DataFrames. 
 
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/5.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 85%
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/6.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 85%
 
 Output
 ------
 
-For the example workflow, the three output dataframes as per as condition passed on 'Split By Multiple Expressions' processor are shown below:
+For the sample workflow, the three output DataFrames as per condition passed on ``Split By Multiple Expressions`` processor are shown below:
 
-output dataframe 1:
+Output DataFrame 1:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/7.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 85%
 
-output dataframe 2:
+Output DataFrame 2:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/8.PNG
    :alt: Dataset
-   :width: 100%
+   :width: 85%
 
-output dataframe 3:
+Output DataFrame 3:
 
 .. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/9.PNG
    :alt: Dataset
-   :width: 100%   
+   :width: 85%   

@@ -26,7 +26,7 @@ Below parameters are used in configuring Save Cassandra processor.
    :alt: cassandra
    :width: 90%         
 
-Once the above workflow is executed successfully, the data gets viisible in the specific table of Apache Cassandra.
+Once the above workflow executes successfully, the data gets visible in the specific table of Apache Cassandra.
 
 
 .. note::  Make sure that the Cassandra host URL is accessible from the Fire Machine.

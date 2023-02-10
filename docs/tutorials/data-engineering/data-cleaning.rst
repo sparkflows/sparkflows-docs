@@ -5,9 +5,9 @@ This workflow cleans the input data.
 
 It also:
 
-* Handles null values
+* Handles null values.
 
-* Replaces ``N/Y`` values etc. with ``0/1``
+* Replaces ``N/Y`` values etc. with ``0/1``.
 
 
 Workflow
@@ -15,16 +15,16 @@ Workflow
 
 The below workflow:
 
-* Reads data from a dataset
-* Handles the null values by imputing the missing values with the constant value provided in the specified columns
-* Converts Strings to Integer Indexes
-* Converts Gender to Integer Values
-* Replaces Gender and Family with ``0/1``
+* Reads data from a dataset.
+* Handles the null values by imputing the missing values with the constant value provided in the specified columns.
+* Converts Strings to Integer Indexes.
+* Converts Gender to Integer Values.
+* Replaces Gender and Family with ``0/1``.
 
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-cleaning/1.PNG
    :alt: DataCleaning
-   :width: 90%
+   :width: 65%
    
 Reading from Dataset
 ---------------------
@@ -99,7 +99,7 @@ Processor Output
 Replace Gender and Family with 0/1
 ------------
 
-``FindAndReplaceUsingRegexMultiple`` Processor sets values for the variables based on conditions, as below:
+``FindAndReplaceUsingRegexMultiple`` Processor sets values for the variables based on conditions as below:
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^

@@ -38,7 +38,7 @@ Steps
                c. Daily
                d. Weekly
                e. Montly
-               f. Cron expression - Cron expression of the form can be used to schedule job in Sparkflows 0 0/15 * * * ? * This Cron will schedule the job every 15 minutes.
+               f. Cron Expression:Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
    
 2. **View Pipeline Schedules**
 

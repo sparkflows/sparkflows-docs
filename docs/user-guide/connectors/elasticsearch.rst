@@ -6,7 +6,7 @@ Fire Insights has a processor that allows you to connect with elasticsearch.
 Read from Elasticsearch
 ================
 
-Reading data from Elastic Search is easy. Drag and drop 'ReadElasticSearch' processor into your workflow and configure it.
+Reading data from Elastic Search is easy. Drag and drop ``ReadElasticSearch`` processor into your workflow and configure it.
 
 Elastic Search Read Processor Configuration
 ---------------

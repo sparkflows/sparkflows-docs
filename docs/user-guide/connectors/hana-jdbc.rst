@@ -3,7 +3,7 @@ HANA using JDBC
 
 Fire Insights enables you to read from and write to SAP HANA through HANA JDBC Driver.
 
-Below are the steps to download and configure HDNA JDBC Driver and to read and write to HANA in Fire Insights.
+Below are the steps to download and configure HANA JDBC Driver and to read and write to HANA in Fire Insights.
 
 Download SAP HANA JDBC Driver from MVN Repository
 -----
@@ -15,7 +15,7 @@ https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc
 Download SAP HANA JDBC Driver from SAP Service Marketplace
 ------------
 
-  * Go to the SAP Service Marketplace through the link provided here: http://service.sap.com/connectors.
+  * Go to the SAP Service Marketplace through the link provided here: http://service.sap.com/connectors
   * You will need SAP credentials to access the Service Marketplace.
   * Download the ``ngdbc.jar`` file and install it on the Fire Insights machine.
   

@@ -71,7 +71,10 @@ Once the Pipeline is scheduled, you can view the scheduling info.
 
 Additional Notes
 ========
-
+1. 
+2.
+3.
+4.
 
 Troubleshooting
 ========

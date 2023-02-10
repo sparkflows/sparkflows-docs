@@ -8,15 +8,15 @@ Workflow
 
 The below workflow:
 
-* Reads data from the URL and creates a DataFrame
-* Prints few records
-* Splits the string of the input column using the delimiter
-* Creates a new DataFrame containing rows satisfying the provided condition
-* Prints the result
+* Reads data from the URL and creates a DataFrame.
+* Prints few records.
+* Splits the string of the input column using the delimiter.
+* Creates a new DataFrame containing rows satisfying the provided condition.
+* Prints the result.
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/1.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 60%
    
 Reading from URL
 ---------------------
@@ -29,7 +29,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/2.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 80%
 
   
 Processor Output
@@ -37,7 +37,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/3.PNG
    :alt: ReadandParse
-   :width: 100%   
+   :width: 80%   
    
 Prints the Records
 ------------------
@@ -55,14 +55,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/4.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/5.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 80%
    
 Row Filter by Index
 -------------
@@ -75,14 +75,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/6.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 80%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/7.PNG
    :alt: ReadandParse
-   :width: 100%
+   :width: 80%
      
   
 Prints the Result

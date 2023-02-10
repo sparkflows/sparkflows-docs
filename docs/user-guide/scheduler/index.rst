@@ -56,7 +56,7 @@ Steps to Schedule and view the Scheduled jobs
    
 
 Notes  
-========
+-----
 
 * One can use the scheduler in Sparkflows to trigger Airflow pipelines.
 

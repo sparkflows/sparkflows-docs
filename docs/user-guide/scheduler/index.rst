@@ -15,7 +15,8 @@ In Sparkflows, there are two ways to schedule pipelines:
 Steps to Schedule and view the Scheduled jobs
 ---------------------------------------------
 
-1. **Schedule Jobs**
+Schedule Jobs
++++++
 
       Sparkflows allows you to schedule Jobs. These jobs can be either comprise of running Workflows or Pipelines. The Scheduler takes in the below fields as input as seen in the images below. The first one corresponds to Scheduling pipeline and the next one is for Scheduling workflow:
 
@@ -46,7 +47,8 @@ Steps to Schedule and view the Scheduled jobs
                e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.
                f. ``Cron Expression``: Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
    
-2. **View Scheduled Jobs**
+View Scheduled Jobs
++++++
 
    Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking on the ``Schedules`` tab. One can also view other meta data of the scheduled jobs as seen in the image below.
 

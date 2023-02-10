@@ -12,16 +12,22 @@ In Sparkflows, there are two ways to schedule pipelines:
 * Using Scheduler with choosing options from the UI.
 
 
-Steps
-========
+Actions that can be taken
+=========================
 
-1. **Schedule Job**
+1. **Schedule Jobs**
 
-      Sparkflows allows you to schedule Jobs. These jobs can be either comprise of running Workflows or Pipelines. The Scheduler takes in the below fields as input as seen in the image below:
+      Sparkflows allows you to schedule Jobs. These jobs can be either comprise of running Workflows or Pipelines. The Scheduler takes in the below fields as input as seen in the images below. The first one corresponds to Scheduling pipeline and the next one is for Scheduling workflow:
 
       .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
          :alt: Schedule Pipeline 
          :width: 75%
+      
+      
+      .. figure:: ../../_assets/user-guide/scheduler/ SCHEDULE_WORKFLOW.png
+         :alt: Schedule Pipeline 
+         :width: 75%
+       
        
       The functionality of each of the fields above is described below:
          1. Project: From the dropdown, one has to choose the Project in which the workflow or pipeline which user wants to Schedule resided.
@@ -48,4 +54,20 @@ Steps
          :alt: Pipeline Schedules
          :width: 75%
    
+
+Notes  
+========
+
+* One can use the above scheduler in Sparkflows to trigger Airflow pipelines.
+
+* Re-deployment of the Sparkflows application will not remove the current scheduled workflows and pipelines. The jobs will start to get scheduled once the application in restarted.
+
+* The scheduler will continue to trigger the workflow even if the compute cluster is not reachable.
+
+* The scheduler will continue to trigger the airlfow pipelines even if the airflow cluster is not reachable.
+
+* The scheduler will continue to trigger the next executions regardless of the previous trigger status.
+
+* If there are too many pipelines yet to be exeucted, they will get queued up and will execute once the previous pipelines have completed.
+
 

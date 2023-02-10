@@ -9,7 +9,7 @@ Scheduling pipelines refer to the process of automating the execution of tasks, 
 In Sparkflows, there are two ways to schedule pipelines:
 
 * Using Cron in the Scheduler 
-* Using Scheduler with choosing options from the UI.
+* Using Scheduler with choosing options from the UI
 
 
 Actions that can be taken

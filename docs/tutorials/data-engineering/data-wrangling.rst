@@ -1,7 +1,7 @@
 Data Wrangling
 =============
 
-Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question.  Also known as data cleaning or “Munging”,
+Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question.  Also known as ``Data Cleaning`` or ``Munging``,
 this workflow reads in a dataset. It then wrangles the dataset based on provided conditions and prints the results.
 
 Workflow
@@ -9,18 +9,18 @@ Workflow
 
 The below workflow:
 
-* Reads data from a dataset
-* It then creates new DataFrame based on the rules provided
-* Prints the result
+* Reads data from a dataset.
+* It then creates new DataFrame based on the rules provided.
+* Prints the result.
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/5.PNG
    :alt: data-wrangling
-   :width: 90%
+   :width: 65%
    
 Reading from Dataset
 ---------------------
 
-``DatasetStructured`` Processor creates a Dataframe of your dataset by reading data from HDFS, HIVE etc. which has been defined earlier in Fire by using the Dataset feature.
+``DatasetStructured`` Processor creates a DataFrame of your dataset by reading data from HDFS, HIVE, etc. which has been defined earlier in Fire by using the Dataset feature.
 
   
 Processor Output

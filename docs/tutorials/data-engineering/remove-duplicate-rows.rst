@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/5.PNG
    :alt: Remove Duplicate Rows
-   :width: 100%
+   :width: 60%
    
 Reading from CSV file
 ---------------------
@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/6.PNG
    :alt: Remove Duplicate Rows
-   :width: 100%
+   :width: 85%
 
    
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/7.PNG
    :alt: Remove Duplicate Rows
-   :width: 100%  
+   :width: 85%  
    
 Remove Duplicate Rows
 ---------------------
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/8.PNG
    :alt: Remove Duplicate Rows
-   :width: 100%
+   :width: 85%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/9.PNG
    :alt: Remove Duplicate Rows
-   :width: 100%   
+   :width: 85%   
  
 Print the Results
 ------------------
@@ -66,11 +66,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.png
    :alt: remove-duplicate-rows
-   :width: 100%
+   :width: 85%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.png
    :alt: remove-duplicate-rows
-   :width: 100%  
+   :width: 85%  

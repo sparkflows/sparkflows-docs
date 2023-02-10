@@ -2,7 +2,7 @@ Salesforce
 ================
 Fire Insights enables to Read from and Write to Salesforce using cdata JDBC Driver.
 
-Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Fire Insights
+Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Fire Insights.
 
 Download and Configure cdata JDBC Driver
 ----------------
@@ -14,18 +14,18 @@ Login to cdata Salesforce JDBC Driver page and click on ``Download Trial version
 
 .. figure:: ../../_assets/user-guide/salesforce/3.PNG
    :alt: salesforce
-   :width: 90%
+   :width: 65%
    
    
 .. figure:: ../../_assets/user-guide/salesforce/4.PNG
    :alt: salesforce
-   :width: 90%   
+   :width: 65%   
 
 .. figure:: ../../_assets/user-guide/salesforce/5.PNG
    :alt: salesforce
-   :width: 90%   
+   :width: 65%   
    
-Once the dowload  is completed, unzip that and extract jar from file `setup.jar` with below command and accept END USER LICENSE AGREEMENT with some required informations.   
+Once the dowload completes, unzip that and extract jar from file `setup.jar` with below command and accept END USER LICENSE AGREEMENT with some required information.   
 
 ::
 
@@ -33,15 +33,15 @@ Once the dowload  is completed, unzip that and extract jar from file `setup.jar`
     
 .. figure:: ../../_assets/user-guide/salesforce/6.PNG
    :alt: salesforce
-   :width: 90%   
+   :width: 65%   
 
 .. figure:: ../../_assets/user-guide/salesforce/7.PNG
    :alt: salesforce
-   :width: 90%   
+   :width: 65%   
    
 .. figure:: ../../_assets/user-guide/salesforce/8.PNG
    :alt: salesforce
-   :width: 90%    
+   :width: 65%    
  
 On Successful completion of the above steps, go to path where you installed salesforce drive and point to the below path:
 
@@ -52,17 +52,17 @@ On Successful completion of the above steps, go to path where you installed sale
     
 .. figure:: ../../_assets/user-guide/salesforce/9.PNG
    :alt: salesforce
-   :width: 90%     
+   :width: 65%     
    
 Configure cdata JDBC Driver in Fire Insights
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now cdata JDBC Driver jar can be configured in Fire Insights to Read and Write to Salesforce using JDBC Processors.
+Now, cdata JDBC Driver jar can be configured in Fire Insights to Read and Write to Salesforce using JDBC Processors.
 
-Below are steps to configure cdata JDBC Driver in Fire Insights and Read and Write to Salesforce.
+Below are the steps to configure cdata JDBC Driver in Fire Insights and read and write to Salesforce.
 
 - Copy the ``cdata.jdbc.salesforce.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
-- Login to Fire Insights application and Go inside project and workflow tab to create an example workflow with Read and Write to Salesforce using Read JDBC & Save JDBC Processors.
+- Login to Fire Insights application and Go inside project and workflow tab to create a sample workflow with Read and Write to Salesforce using Read JDBC & Save JDBC Processors.
 
 Read Salesforce
 ---------------
@@ -91,20 +91,20 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
 
 .. figure:: ../../_assets/user-guide/salesforce/10.PNG
    :alt: salesforce
-   :width: 90% 
+   :width: 75% 
 
 Once above parameter is added, click on ``REFRESH SCHEMA`` to see Field Name.
 
 .. figure:: ../../_assets/user-guide/salesforce/11.PNG
    :alt: salesforce
-   :width: 90% 
+   :width: 75% 
 
 Processor output
 --------------
 
 .. figure:: ../../_assets/user-guide/salesforce/12.PNG
    :alt: salesforce
-   :width: 90% 
+   :width: 75% 
 
 Write to Salesforce
 -----------------
@@ -136,6 +136,6 @@ Processor Configuration Parameters for Salesforce cdata JDBC Connection:
         
 .. figure:: ../../_assets/user-guide/salesforce/13.PNG
    :alt: salesforce
-   :width: 90%         
+   :width: 75%         
 
 On Successful execution of workflow, the data will be written to Salesforce.

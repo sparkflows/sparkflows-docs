@@ -21,12 +21,12 @@ Steps to Schedule and view the Scheduled jobs
 
       .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
          :alt: Schedule Pipeline 
-         :width: 75%
+         :width: 60%
       
       
       .. figure:: ../../_assets/user-guide/scheduler/ SCHEDULE_WORKFLOW.png
          :alt: Schedule Pipeline 
-         :width: 75%
+         :width: 60%
        
        
       Each of the above fields is described below:

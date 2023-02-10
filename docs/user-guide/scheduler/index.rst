@@ -46,9 +46,9 @@ Steps to Schedule and view the Scheduled jobs
                e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.
                f. ``Cron Expression``: Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
    
-2. **View Pipeline Schedules**
+2. **View Scheduled jobs**
 
-   Once the Pipeline is scheduled, you can view the list of scheduled jobs by clicking on the Schedules tab. One can also view other meta data of the scheduled jobs as seen in the image below.
+   Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking on the ``Schedules`` tab. One can also view other meta data of the scheduled jobs as seen in the image below.
 
       .. figure:: ../../_assets/user-guide/scheduler/VIEW_PIPELINE_SCHEDULES.png
          :alt: Pipeline Schedules

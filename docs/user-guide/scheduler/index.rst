@@ -58,9 +58,9 @@ Actions that can be taken
 Notes  
 ========
 
-* One can use the above scheduler in Sparkflows to trigger Airflow pipelines.
+* One can use the scheduler in Sparkflows to trigger Airflow pipelines.
 
-* Re-deployment of the Sparkflows application will not remove the current scheduled workflows and pipelines. The jobs will start to get scheduled once the application in restarted.
+* Redeployment of the Sparkflows application will not remove the already scheduled workflows and pipelines. The jobs will start to get scheduled once the application in restarted.
 
 * The scheduler will continue to trigger the workflow even if the compute cluster is not reachable.
 

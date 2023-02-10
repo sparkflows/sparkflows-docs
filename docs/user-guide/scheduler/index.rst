@@ -1,5 +1,5 @@
-Scheduler in Sparkflows
-=======================
+Scheduler
+=========
 
 Scheduling pipelines refer to the process of automating the execution of tasks, such as data processing, building machine learning models, triggering airflow jobs at a specific time or interval. It's important to consider factors such as scalability, reliability, and cost when scheduling pipelines. This can be useful in a variety of situations, such as:
 

@@ -12,8 +12,8 @@ In Sparkflows, there are two ways to schedule pipelines:
 * Using Scheduler with choosing options from the UI
 
 
-Actions that can be taken
-=========================
+Steps to Schedule and view the Scheduled jobs
+---------------------------------------------
 
 1. **Schedule Jobs**
 

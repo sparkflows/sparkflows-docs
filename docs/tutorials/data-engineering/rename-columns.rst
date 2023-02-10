@@ -14,26 +14,26 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/5.PNG
    :alt: Rename Columns
-   :width: 100%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
 
-It reads the selected Dataset File.
+It reads the selected Dataset file.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/6.PNG
    :alt: Rename Columns
-   :width: 100%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/7.PNG
    :alt: Rename Columns
-   :width: 100% 
+   :width: 75% 
    
 Rename Columns
 ------------
@@ -45,18 +45,18 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/8.PNG
    :alt: Rename Columns
-   :width: 100% 
+   :width: 75% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/9.PNG
    :alt: Rename Columns
-   :width: 100%  
+   :width: 75%  
    
 Prints the Result
 ------------------
 
-It prints the result after Renaming Columns.
+It prints the result after renaming columns.
 
 

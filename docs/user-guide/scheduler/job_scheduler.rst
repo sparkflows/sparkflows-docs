@@ -34,22 +34,22 @@ Sparkflows allows you to schedule Jobs. These jobs can be either comprise of run
    :width: 60%
        
        
-      Each of the above fields is described below:
-         1. ``Project``: From the dropdown, one has to choose the Project in which the workflow or pipeline which user wants to Schedule resided.
-         2. ``Workflow``: One has to choose the workflow or the pipeline which user wants to Schedule.
-         3. ``Spark submit options``: This field can be made use of to specify the runtime options while submitting Workflows which will be run as Apache Spark jobs. If not, it can be left empty.
-         4. ``Program parameters``: If the Workflow taken in any parameters, it can be specified here. If not, it can be left empty.
-         5. ``Email on Success``: Email address of people who should be notified on success of the scheduled job can be specified in this field.
-         6. ``Email on Failure``: Email address of people who should be notified on failure of the scheduled job can be specified in this field.
-         7. ``Start date``: This can be used to specify when should the scheduled job start. One can specify date and time and the scheduled job will start executing only after the start date has elapsed. Eg: One can schedule a job to run hourly starting three days later using this feature.
-         8. ``End date``: This can be used to specify when should the job should stop getting scheduled. One can specify date and time and the scheduled job will stop getting scheduled after the stop date has elapsed. Eg: One can schedule a job to run hourly but stop getting scheduled three days later using this feature.
-         9. ``Schedule frequency``: One can choose the frequency of the job by choosing from the options below along with the time zone:
-               a. ``Minute`` : Will schedule the Job every X minutes.
-               b. ``Hourly`` : Will schedule the Job every X hours.
-               c. ``Daily`` : Will schedule the Job daily at X hour and Y minutes.
-               d. ``Weekly``  : Will schedule the Job weekly on X day, Y hour and Z minutes.
-               e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.
-               f. ``Cron Expression``: Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
+Each of the above fields is described below:
+   1. ``Project``: From the dropdown, one has to choose the Project in which the workflow or pipeline which user wants to Schedule resided.
+   2. ``Workflow``: One has to choose the workflow or the pipeline which user wants to Schedule.
+   3. ``Spark submit options``: This field can be made use of to specify the runtime options while submitting Workflows which will be run as Apache Spark jobs. If not, it can be left empty.
+   4. ``Program parameters``: If the Workflow taken in any parameters, it can be specified here. If not, it can be left empty.
+   5. ``Email on Success``: Email address of people who should be notified on success of the scheduled job can be specified in this field.
+   6. ``Email on Failure``: Email address of people who should be notified on failure of the scheduled job can be specified in this field.
+   7. ``Start date``: This can be used to specify when should the scheduled job start. One can specify date and time and the scheduled job will start executing only after the start date has elapsed. Eg: One can schedule a job to run hourly starting three days later using this feature.
+   8. ``End date``: This can be used to specify when should the job should stop getting scheduled. One can specify date and time and the scheduled job will stop getting scheduled after the stop date has elapsed. Eg: One can schedule a job to run hourly but stop getting scheduled three days later using this feature.
+   9. ``Schedule frequency``: One can choose the frequency of the job by choosing from the options below along with the time zone:
+         a. ``Minute`` : Will schedule the Job every X minutes.
+         b. ``Hourly`` : Will schedule the Job every X hours.
+         c. ``Daily`` : Will schedule the Job daily at X hour and Y minutes.
+         d. ``Weekly``  : Will schedule the Job weekly on X day, Y hour and Z minutes.
+         e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.
+         f. ``Cron Expression``: Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
    
 View Scheduled Jobs
 +++++
@@ -62,6 +62,7 @@ Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking
          
 Check the status of Scheduled Jobs
 +++++
+
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_STATUS_OF_PIPELINE_EXECUTIONS.png
    :alt: Airflow DAGs
    :width: 60%
@@ -85,12 +86,14 @@ Directly Trigger Pipeline Execution in Airflow
 
 Check the logs for Pipeline and Airflow Interaction
 +++++
+
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_LOGS_OF_PIPELINE_AIRFLOW_INTERACTION.png
    :alt: View logs in Pipeline 
    :width: 60%
         
 View the DAGs in Pipeline
 +++++
+
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_AIRFLOW_DAGS.png
    :alt: View DAGS in Pipeline Editor
    :width: 60%        

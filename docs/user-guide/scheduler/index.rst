@@ -50,6 +50,7 @@ Each of the above fields is described below:
          d. ``Weekly``  : Will schedule the Job weekly on X day, Y hour and Z minutes.
          e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.
          f. ``Cron Expression``: Cron expression of the form can be used to schedule job in Sparkflows ``0 0/15 * * * ? *`` This Cron will schedule the job every 15 minutes.
+         
    
 View Scheduled Jobs
 +++++
@@ -59,13 +60,15 @@ Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_PIPELINE_SCHEDULES.png
    :alt: Pipeline Schedules
    :width: 75%
+   
          
-Check the status of Scheduled Jobs
+Check the status of the Scheduled Jobs
 +++++
 
 .. figure:: ../../_assets/user-guide/scheduler/VIEW_STATUS_OF_PIPELINE_EXECUTIONS.png
    :alt: Airflow DAGs
    :width: 60%
+   
 
  **Note: Airflow should be enabled in Admin Configuration if Pipelines need to run in Airflow.**
 

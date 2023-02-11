@@ -19,19 +19,19 @@ Steps to Schedule and view the Scheduled jobs
 Schedule Jobs
 +++++
 
-      Sparkflows allows you to schedule Jobs. These jobs can be either comprise of running Workflows or Pipelines. The Scheduler takes in the below fields as input as seen in the images below. The first one corresponds to Scheduling pipeline and the next one is for Scheduling workflow:
+Sparkflows allows you to schedule Jobs. These jobs can be either comprise of running Workflows or Pipelines. The Scheduler takes in the below fields as input as seen in the images below. The first one corresponds to Scheduling pipeline and the next one is for Scheduling workflow:
       
-      - Pipeline Scheduler:
+**Pipeline Scheduler**
 
-      .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
-         :alt: Schedule Pipeline 
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_PIPELINE.png
+   :alt: Schedule Pipeline 
+   :width: 60%
       
-      - Workflow Scheduler:
+**Workflow Scheduler**
       
-      .. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_WORKFLOW.png
-         :alt: Schedule Pipeline 
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/SCHEDULE_WORKFLOW.png
+   :alt: Schedule Pipeline 
+   :width: 60%
        
        
       Each of the above fields is described below:

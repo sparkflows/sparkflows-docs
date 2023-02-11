@@ -54,59 +54,59 @@ Schedule Jobs
 View Scheduled Jobs
 +++++
 
-   Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking on the ``Schedules`` tab. One can also view other meta data of the scheduled jobs as seen in the image below.
+Once the Jobs are scheduled, you can view the list of scheduled jobs by clicking on the ``Schedules`` tab. One can also view other meta data of the scheduled jobs as seen in the image below.
 
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_PIPELINE_SCHEDULES.png
-         :alt: Pipeline Schedules
-         :width: 75%
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_PIPELINE_SCHEDULES.png
+   :alt: Pipeline Schedules
+   :width: 75%
          
 Check the status of Scheduled Jobs
 +++++
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_STATUS_OF_PIPELINE_EXECUTIONS.png
-         :alt: Airflow DAGs
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_STATUS_OF_PIPELINE_EXECUTIONS.png
+   :alt: Airflow DAGs
+   :width: 60%
 
  **Note: Airflow should be enabled in Admin Configuration if Pipelines need to run in Airflow.**
 
 View the DAG Script generated from the Pipeline
 +++++
 
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_DAG_CODE.png
-         :alt: View DAG Code 
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_DAG_CODE.png
+   :alt: View DAG Code 
+   :width: 60%
 
 
 Directly Trigger Pipeline Execution in Airflow
 +++++
 
-      .. figure:: ../../_assets/user-guide/scheduler/DIRECTLY_EXECUTE_PIPELINE_IN_AIRFLOW.png
-         :alt: Trigger Pipeline 
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/DIRECTLY_EXECUTE_PIPELINE_IN_AIRFLOW.png
+   :alt: Trigger Pipeline 
+   :width: 60%
 
 Check the logs for Pipeline and Airflow Interaction
 +++++
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_LOGS_OF_PIPELINE_AIRFLOW_INTERACTION.png
-         :alt: View logs in Pipeline 
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_LOGS_OF_PIPELINE_AIRFLOW_INTERACTION.png
+   :alt: View logs in Pipeline 
+   :width: 60%
         
 View the DAGs in Pipeline
 +++++
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_AIRFLOW_DAGS.png
-         :alt: View DAGS in Pipeline Editor
-         :width: 60%        
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_AIRFLOW_DAGS.png
+   :alt: View DAGS in Pipeline Editor
+   :width: 60%        
         
 
 View the DAGs in Airflow
 +++++
-      .. figure:: ../../_assets/user-guide/scheduler/VIEW_JOBS_IN_AIRFLOW.png
-         :alt: Airflow DAGs
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/VIEW_JOBS_IN_AIRFLOW.png
+   :alt: Airflow DAGs
+   :width: 60%
         
 Verify if DAGs are trigeered in Airflow as per Schedules
 +++++
-      .. figure:: ../../_assets/user-guide/scheduler/TEST_SCHEDULED.png
-         :alt: Airflow DAGs
-         :width: 60%
+.. figure:: ../../_assets/user-guide/scheduler/TEST_SCHEDULED.png
+   :alt: Airflow DAGs
+   :width: 60%
 
 
 Notes  
@@ -125,3 +125,30 @@ Notes
 * If there are too many pipelines yet to be exeucted, they will get queued up and will execute once the previous pipelines have completed.
 
 
+Troubleshooting
+-----
+
+Pipeline is not running consistently in Airflow
++++++
+
+**Issue Description**
+
+There could be different reasons for this issue.
+
+* The Background Event Trigger Thread is stalled
+* The Websocket doesn't receive events in timely manner
+* Airflow DAG Execution requests are not trigerred in timely manner
+  
+**Resolution**
+
+Check the Machine Configuration.
+
+* Ensure minumum 8 cores and 16 GB RAM are used.
+* Check if any additional processes (running in the same VM where Sparkflows is running) hogging the memory and processes.
+
+  Examples of additional processes: 
+    * Agent handling the traffic between Load Balancer and installed service, 
+    * any Applications (e.g. Envoy) which scans the deployed App and logs (CPU, Mem)  
+
+* Check DAGs in Airflow are not queued up
+* Ensure Airflow Instance is configured with enough Memory and Processing Cores. 

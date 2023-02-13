@@ -2,7 +2,7 @@
 Date Time Functions
 ==========
 
-Fire Insights provide processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
+Fire Insights provides processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
 
 
 Date Time Processors in Fire Insights
@@ -46,7 +46,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/dtfieldextract-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 
 **Date Time Field Extract Node Configuration**
@@ -58,7 +58,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/dtfieldextract-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **Date Time Field Extract Output**
 
@@ -66,7 +66,7 @@ Extracted Date Time parts are added as new columns
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/dtfieldextract-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 Date Difference
 ----------------------------------------
@@ -82,7 +82,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datediff-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
    
 **Date Difference Node Configuration**
@@ -95,7 +95,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datediff-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **Date Difference Output**
 
@@ -103,7 +103,7 @@ Date Difference between two Date Columns is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datediff-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 Date To Age
 ----------------------------------------
@@ -118,13 +118,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-incoming-dataset.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Date To Age Node Configuration**
 
@@ -136,7 +136,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Date To Age Node Output**
 
@@ -144,7 +144,7 @@ Output of ``Date To Age`` node prints dataset containing Number of Years and Day
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetoage-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 Date To String
 ----------------------------------------
@@ -159,7 +159,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetostr-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Date To String Node Configuration**
 
@@ -170,7 +170,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetostr-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **Date To String Output**
 
@@ -178,7 +178,7 @@ Transformed data is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/datetostr-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 String To Date
 ----------------------------------------
@@ -205,7 +205,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/strtodate-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **String To Date output**
 
@@ -213,7 +213,7 @@ Transformed data is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/strtodate-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 String To Unix Time
 ----------------------------------------
@@ -228,7 +228,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/strtounix-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **String To Unix Time Node Configuration**
 
@@ -239,7 +239,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/strtounix-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **String To Unix Time Output**
 
@@ -247,7 +247,7 @@ Transformed data is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/strtounix-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 Time Functions
 ----------------------------------------
@@ -263,7 +263,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/timefunctions-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Time Functions Node Configuration**
 
@@ -273,7 +273,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/timefunctions-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **Time Functions Output**
 
@@ -281,7 +281,7 @@ Date Time parts extracted from a Date Time column is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/timefunctions-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 Unix Time To String
 ----------------------------------------
@@ -297,7 +297,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/unixtostr-demo-workflow.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
    
 **Unix Time To String Node Configuration**
 
@@ -308,7 +308,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/unixtostr-node-config.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%
 
 **Unix Time To String Output**
 
@@ -316,4 +316,4 @@ Transformed data would be added to the output and would be displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datetime/unixtostr-printnode-output.png
    :alt: datetime_userguide
-   :width: 90%
+   :width: 75%

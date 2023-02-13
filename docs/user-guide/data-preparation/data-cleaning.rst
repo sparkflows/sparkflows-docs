@@ -47,13 +47,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Drop Rows With Null Node configuration**
 
@@ -63,7 +63,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Drop Rows With Null Node output**
 
@@ -71,7 +71,7 @@ Output of ``Drop Rows With Null`` node which displays rows that don't have null 
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90% 
+   :width: 75% 
    
    
 Find And Replace Using Regex
@@ -89,13 +89,13 @@ It processes the dataset in the following ways:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Find And Replace Using Regex Node configuration**
 
@@ -108,19 +108,19 @@ It processes the dataset in the following ways:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-config1.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-config2.png
    :alt: datacleaning_userguide
-   :width: 90%   
+   :width: 75%   
    
 **Find And Replace Using Regex Node output**
 
-Output of ``Find And Replace Using Regex`` node displaying values replaced for the matches found is shown below. In the sample workflow shown below, Date Separator in ``Date Of Joining`` has been changed from '-' to '\/'
+Output of ``Find And Replace Using Regex`` node displaying values replaced for the matches found is shown below. In the sample workflow shown below, Date Separator in ``Date Of Joining`` has been changed from '-' to '\/'.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%    
+   :width: 75%    
    
 Find And Replace Using Regex Multiple
 ----------------------------------------
@@ -137,13 +137,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Find And Replace Using Regex Multiple Node configuration**
 
@@ -157,7 +157,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Find And Replace Using Regex Multiple Node output**
 
@@ -165,7 +165,7 @@ Output of ``Find And Replace Using Regex Multiple`` node displaying values repla
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       
    
 Dedup
 ----------------------------------------
@@ -184,7 +184,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming datasets**
 
@@ -192,13 +192,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-incoming-dataset1.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 *	Dedup Dataset which needs to be checked for accuracy.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-incoming-dataset2.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Dedup Node configuration**
 
@@ -214,7 +214,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Dedup Node output**
 
@@ -222,7 +222,7 @@ Output of ``Dedup`` node displaying Confidence Score value is shown as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       
    
 Drop Duplicate Rows
 ----------------------------------------
@@ -239,13 +239,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Drop Duplicate Rows Node configuration**
 
@@ -256,7 +256,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Drop Duplicate Rows Node output**
 
@@ -264,7 +264,7 @@ Output of ``Drop Duplicate Rows`` node displaying rows having unique combination
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       
    
 Remove Duplicate Rows
 ----------------------------------------
@@ -281,13 +281,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Remove Duplicate Rows Node configuration**
 
@@ -299,7 +299,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Remove Duplicate Rows Node output**
 
@@ -307,7 +307,7 @@ Output of ``Remove Duplicate Rows`` node displaying rows having unique combinati
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       
    
 Remove Unwanted Characters
 ----------------------------------------
@@ -324,13 +324,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Remove Unwanted Characters Node configuration**
 
@@ -342,11 +342,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-config1.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-config2.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Remove Unwanted Characters Node output**
 
@@ -354,7 +354,7 @@ Output of ``Remove Unwanted Characters`` node displaying transformed data after 
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       
    
 Remove Unwanted Characters Multiple
 ----------------------------------------
@@ -371,13 +371,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-workflow.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-incoming-dataset.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
 
 **Remove Unwanted Characters Multiple Node configuration**
 
@@ -390,7 +390,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-config.png
    :alt: datacleaning_userguide
-   :width: 90%
+   :width: 75%
    
 **Remove Unwanted Characters Multiple Node output**
 
@@ -398,4 +398,4 @@ Output of ``Remove Unwanted Characters Multiple`` node displaying transformed da
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-printnode-output.png
    :alt: datacleaning_userguide
-   :width: 90%       
+   :width: 75%       

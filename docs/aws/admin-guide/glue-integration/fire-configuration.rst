@@ -34,4 +34,4 @@ Now you may verify the Job run on Fire Insights from AWS Glue Job by accessing t
    :alt: aws
    :width: 60%
    
-.. note::  Make sure to disable Databricks if Glue is enabled.   
+.. note::  Make sure to use Glue Connection while Execution.   

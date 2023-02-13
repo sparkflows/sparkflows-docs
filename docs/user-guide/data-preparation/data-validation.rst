@@ -38,7 +38,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-workflow.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Datasets**
 
@@ -46,13 +46,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-incoming-dataset1.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 * Secong incoming dataset
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-incoming-dataset2.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Compare Datasets Node Configuration**
 
@@ -60,7 +60,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-config.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Compare Datasets Node Output**
 
@@ -70,25 +70,25 @@ Output of ``Compare Datasets`` node would be datasets created by comparing incom
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-printnode-output1.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 *	Rows present in 1st but not in 2nd.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-printnode-output2.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 *	Rows present in 2nd but not in 1st.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-printnode-output3.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 *	Rows common in both the incoming datasets.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/compdatasets-printnode-output4.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 Node Schema Validation
 ----------------------------------------
@@ -103,13 +103,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-workflow.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-incoming-dataset.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Node Schema Validation Node Configuration**
 
@@ -119,7 +119,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-config.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Node Schema Validation Node Output**
 
@@ -129,19 +129,19 @@ Output of ``Node Schema Validation`` node would be a dataset after imputing miss
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-printnode-output1.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 *	Schema Validation result.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-printnode-output2.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 *	Dataset after imputing missing values.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/schemavalidation-printnode-output3.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 
 Validate Address
@@ -157,13 +157,13 @@ It does  the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadd-workflow.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadd-incoming-dataset.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Address Node Configuration**
 
@@ -173,7 +173,7 @@ It does  the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadd-config.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Address Node output**
 
@@ -181,7 +181,7 @@ Output of ``Validate Address`` node prints address validation result.
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadd-printnode-output.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 Validate Fields Advanced
 ----------------------------------------
@@ -196,13 +196,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-workflow.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-incoming-dataset.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Fields Advanced Node Configuration**
 
@@ -219,7 +219,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-config.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Fields Advanced Node Output**
 
@@ -227,7 +227,7 @@ Output of ``Validate Fields Advanced`` node prints dataset containing rows that 
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validateadv-printnode-output.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 Validate Fields Simple
 ----------------------------------------
@@ -242,13 +242,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-workflow.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-incoming-dataset.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Fields Simple Node configuration**
 
@@ -262,7 +262,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-config.png
    :alt: datavalidation_userguide
-   :width: 90%
+   :width: 75%
    
 **Validate Fields Simple Node Output**
 
@@ -270,4 +270,4 @@ Output of ``Validate Fields Simple`` node prints dataset containing rows that pa
 
 .. figure:: ../../_assets/user-guide/data-preparation/data-validation/validatesimple-printnode-output.png
    :alt: datavalidation_userguide
-   :width: 90%       	    
+   :width: 75%       	    

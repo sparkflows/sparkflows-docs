@@ -1,7 +1,7 @@
 Split Function
 ==========
 
-Fire Insights provide processors for Splitting data.
+Fire Insights provides processors for Splitting data.
 
 
 Splitting Processors in Fire Insights
@@ -44,17 +44,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Compare All Columns Node Configuration**
 
@@ -64,7 +64,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Compare All Columns Node output**
 
@@ -74,19 +74,19 @@ Output of ``Compare All Columns`` node displaying datasets created by splitting 
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Second DataFrame (B-A) is created with rows that are part of 2nd incoming DataFrame but not present in 1st DataFrame.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-printnode-output2.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Third DataFrame (A intersection B) is created with rows that are part of both incoming DataFrames.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcols-printnode-output3.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Compare All Columns Single Output
 ----------------------------------------
@@ -104,17 +104,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcolsop-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcolsop-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcolsop-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Compare All Columns Single Output Node Configuration**
 
@@ -125,7 +125,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcolsop-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Compare All Columns Single Output Node Output**
 
@@ -135,7 +135,7 @@ Output of ``Compare All Columns Single Output`` node displaying dataset created 
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/compareallcolsop-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Compare Specific Columns
 ----------------------------------------
@@ -153,17 +153,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Compare Specific Columns Node Configuration**
 
@@ -174,7 +174,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Compare Specific Columns Node Output**
 
@@ -184,19 +184,19 @@ Output of ``Compare Specific Columns`` node displaying datasets created by split
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Second DataFrame (B-A) is created with rows that are part of 2nd incoming DataFrame but not present in 1st DataFrame.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-printnode-output2.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Third DataFrame (A intersection B) is created with rows that are part of both incoming DataFrames.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecols-printnode-output3.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Compare Specific Columns Single Output
 ----------------------------------------
@@ -214,17 +214,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecolsop-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecolsop-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecolsop-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Compare Specific Columns Single Output Node Configuration**
 
@@ -236,7 +236,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecolsop-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Compare Specific Columns Single Output Node output**
 
@@ -246,7 +246,7 @@ Output of ``Compare Specific Columns Single Output`` node displaying dataset cre
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/comparespecolsop-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Split By Expression
 ----------------------------------------
@@ -263,17 +263,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Split By Expression Node Configuration**
 
@@ -284,7 +284,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Split By Expression Node Output**
 
@@ -294,13 +294,13 @@ Output of ``Split By Expression`` node displaying datasets created by splitting 
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Rows that don't meet the conditon.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbyexp-printnode-output2.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Split By Multiple Expressions
 ----------------------------------------
@@ -316,17 +316,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-workflow.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-incoming-dataset1.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-incoming-dataset2.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
 
 **Split By Multiple Expressions Node Configuration**
 
@@ -337,7 +337,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-config.png
    :alt: splitting_userguide
-   :width: 90%
+   :width: 70%
    
 **Split By Multiple Expressions Node Output**
 
@@ -347,16 +347,16 @@ Output of ``Split By Multiple Expressions`` node displaying datasets created by 
 
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-printnode-output1.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Output of 2nd Expression.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-printnode-output2.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 *	Output of 3rd Expression.
    
 .. figure:: ../../_assets/user-guide/data-preparation/splitting/splitbymulexp-printnode-output3.png
    :alt: splitting_userguide
-   :width: 90%       	    
+   :width: 70%       	    

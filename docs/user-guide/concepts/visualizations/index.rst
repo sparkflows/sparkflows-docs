@@ -6,7 +6,7 @@ Reports and Dashboards
    :maxdepth: 2
 
    visualization-processors.rst
+   working-with-reports.rst
    working-with-dashboards.rst
-   working-with-idashboard.rst
    exporting-visuals.rst
 

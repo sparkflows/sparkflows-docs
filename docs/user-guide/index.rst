@@ -41,6 +41,14 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
     
+    :doc:`/user-guide/reports/index`
+
+    --- 
+    
+    :doc:`/user-guide/dashboards/index`
+
+    --- 
+    
     :doc:`/user-guide/time-series/index`
     
     ---
@@ -98,6 +106,8 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    data-exploration/index
    data-profile/index
    machine-learning/index
+   reports/index
+   dashboards/index
    time-series/index
    auto-ml/index
    web-app/index

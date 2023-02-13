@@ -45,7 +45,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Datasets**
 
@@ -53,13 +53,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Union All Node configuration**
 
@@ -67,7 +67,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Union All Node output**
 
@@ -75,7 +75,7 @@ Output of ``Union All`` node joining all rows from incoming datasets is shown as
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 Union Distinct
 ----------------------------------------
@@ -90,7 +90,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Datasets**
 
@@ -98,13 +98,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Union Distinct Node configuration**
 
@@ -112,7 +112,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Union Distinct Node output**
 
@@ -120,7 +120,7 @@ Output of ``Union Distinct`` node joining all rows from incoming datasets and se
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 
 Join Using SQL
@@ -136,7 +136,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Datasets**
 
@@ -144,13 +144,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join Using SQL Node configuration**
 
@@ -161,7 +161,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join Using SQL Node output**
 
@@ -169,7 +169,7 @@ Output of ``Join Using SQL`` node joining incoming datasets is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 Join On Columns
 ----------------------------------------
@@ -185,7 +185,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Datasets**
 
@@ -193,13 +193,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Columns Node configuration**
 
@@ -210,7 +210,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Columns Node output**
 
@@ -218,7 +218,7 @@ Output of ``Join On Columns`` node joining incoming datasets is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 
 Join On Common Column
@@ -228,14 +228,14 @@ Below is a sample workflow which contains ``Join On Common Column`` processor in
 
 It does following processing of data:
 
-*	Reads incoming Datasets
+*	Reads incoming Datasets.
 *	Joins incoming datasets on a Common Column. Only one column can be selected to join datasets. 
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
-* 	Joined data is printed using Print node
+* 	Joined data is printed using Print node.
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming datasets**
 
@@ -243,13 +243,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Common Column Node configuration**
 
@@ -261,7 +261,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Common Column Node output**
 
@@ -269,7 +269,7 @@ Output of ``Join On Common Column`` node joining incoming datasets is shown belo
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 Join On Common Columns
 ----------------------------------------
@@ -285,7 +285,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-workflow.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Datasets**
 
@@ -293,13 +293,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-incoming-dataset1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 *	Incoming Dataset 02
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-incoming-dataset2.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Common Columns Node configuration**
 
@@ -312,11 +312,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-config.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-config1.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
 
 **Join On Common Columns Node output**
 
@@ -324,7 +324,7 @@ Output of ``Join On Common Columns`` node joining incoming datasets is shown bel
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-printnode-output.png
    :alt: joinsandunion_userguide
-   :width: 90%
+   :width: 75%
    
 Troubleshooting Common Scenarios
 ----------------------------------------

@@ -1,7 +1,7 @@
 Imputing
 ==========
 
-Fire Insights provide various processors for Imputing data.
+Fire Insights provides various processors for Imputing data.
 
 
 Imputing Processors in Fire Insights
@@ -37,13 +37,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-workflow.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-incoming-dataset.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
 
 **Imputing With Constant Node Configuration**
 
@@ -57,7 +57,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-config.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
    
 **Imputing With Constant Node Output**
 
@@ -65,7 +65,7 @@ Output of ``Imputing With Constant`` node displaying misssing values replaced wi
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-printnode-output.png
    :alt: imputing_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Imputing With Mean Value
 ----------------------------------------
@@ -80,13 +80,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-workflow.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-incoming-dataset.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
 
 **Imputing With Mean Value Node Configuration**
 
@@ -98,7 +98,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-config.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
    
 **Imputing With Mean Value Node Output**
 
@@ -106,7 +106,7 @@ Output of ``Imputing With Mean Value`` node displaying missing values replaced w
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-printnode-output.png
    :alt: imputing_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Imputing With Median
 ----------------------------------------
@@ -121,13 +121,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-workflow.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-incoming-dataset.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
 
 **Imputing With Median Node Configuration**
 
@@ -139,7 +139,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-config.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
    
 **Imputing With Median Node Output**
 
@@ -147,7 +147,7 @@ Output of ``Imputing With Median`` node displaying missing values replaced with 
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-printnode-output.png
    :alt: imputing_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Imputing With Mode Value
 ----------------------------------------
@@ -162,13 +162,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-workflow.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-incoming-dataset.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
 
 **Imputing With Mode Value Node Configuration**
 
@@ -180,7 +180,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-config.png
    :alt: imputing_userguide
-   :width: 90%
+   :width: 75%
    
 **Imputing With Mode Value Node Output**
 
@@ -188,4 +188,4 @@ Output of ``Imputing With Mode Value`` node displaying missing values replaced w
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-printnode-output.png
    :alt: imputing_userguide
-   :width: 90%       	    
+   :width: 75%       	    

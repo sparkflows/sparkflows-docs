@@ -45,7 +45,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Datasets**
 
@@ -90,7 +90,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Datasets**
 
@@ -136,7 +136,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Datasets**
 
@@ -185,7 +185,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Datasets**
 
@@ -235,7 +235,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming datasets**
 
@@ -285,7 +285,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-workflow.png
    :alt: joinsandunion_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Datasets**
 

@@ -37,7 +37,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-workflow.png
    :alt: imputing_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -80,7 +80,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-workflow.png
    :alt: imputing_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -121,7 +121,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-workflow.png
    :alt: imputing_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -162,7 +162,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-workflow.png
    :alt: imputing_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 

@@ -13,13 +13,13 @@ Accessing Reports
 
 - Access the Reports inside the Project View.
 
-.. figure:: ../../../_assets/user-guide/reports/Open_Report_Link.png
+.. figure:: ../../_assets/user-guide/reports/Open_Report_Link.png
    :alt: Fire Insights Access Report
    :width: 60%
    
  - Open the Reports View.
  
-.. figure:: ../../../_assets/user-guide/reports/Report_List.png
+.. figure:: ../../_assets/user-guide/reports/Report_List.png
    :alt: Fire Insights Access Report
    :width: 60%   
  
@@ -29,7 +29,7 @@ Creating Reports
 - For creating reports, drag and drop the required processors from the workflows into the Report Canvas.
 - When the corresponding workflows are run, the output is stored by Sparkflows into the relational store. These get displayed in the Report.
 
-.. figure:: ../../../_assets/user-guide/reports/Create_Report.png
+.. figure:: ../../_assets/user-guide/reports/Create_Report.png
    :alt: Fire Insights Create Report
    :width: 90%
  
@@ -38,7 +38,7 @@ Editing Reports
 
 Editing reports is like creating them, except that you click the edit button to edit the corresponding report.
  
-.. figure:: ../../../_assets/user-guide/reports/Create_Report.png
+.. figure:: ../../_assets/user-guide/reports/Create_Report.png
    :alt: Fire Insights Editing Reports
    :width: 90%
    
@@ -48,7 +48,7 @@ Viewing Reports
 
 Once a report has been created, you can view it by clicking on the 'View' button.
   
-.. figure:: ../../../_assets/user-guide/reports/View_Report.png
+.. figure:: ../../_assets/user-guide/reports/View_Report.png
    :alt: Fire Insights Editing Reports
    :width: 90%
    

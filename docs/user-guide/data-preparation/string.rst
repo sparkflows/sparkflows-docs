@@ -34,13 +34,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfunctions-demo-workflow.png
    :alt: string_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfunctions-incoming-dataset.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 
 **String Functions Node Configuration**
@@ -49,13 +49,13 @@ Input Columns are selected as below to transform to lower case.
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfunctions-inputcol-selection.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 String function selection to transform data to lower case is done as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfunctions-function-definition.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 **String Functions Node Output**
 
@@ -63,7 +63,7 @@ Output of Print node displaying transformed data in lower case using the String 
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfunctions-printnode-output.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
    
 String Functions Multiple
 ----------------------------------------
@@ -78,13 +78,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfnmulti-demo-workflow.png
    :alt: string_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfnmulti-incoming-dataset.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 
 **String Functions Multiple Node Configuration**
@@ -93,7 +93,7 @@ String Functions Multiple node is configured as below to remove white spaces fro
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfnmulti-configuration.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 **String Functions Multiple Node Output**
 
@@ -101,7 +101,7 @@ Output of Print node displaying transformed data using the String Functions Mult
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/stringfnmulti-printnode-output.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
    
 Text Case Transformer
 ----------------------------------------
@@ -116,13 +116,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/casetrans-demo-workflow.png
    :alt: string_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/casetrans-incoming-dataset.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 
 **Text Case Transformer Node Configuration**
@@ -131,7 +131,7 @@ Text Case Transformer node is configured as below to transform Location values t
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/casetrans-configuration.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%
 
 **Text Case Transformer Node output**
 
@@ -139,4 +139,4 @@ Output of Print node displaying transformed data using the Text Case Transformer
 
 .. figure:: ../../_assets/user-guide/data-preparation/string/casetrans-printnode-output.png
    :alt: string_userguide
-   :width: 70%
+   :width: 75%

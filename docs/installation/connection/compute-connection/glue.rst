@@ -89,13 +89,13 @@ For GLUE Tab :
      - --TempDir s3://aws-glue-temporary
    * - Glue Version
      - Glue Version. If empty it takes default glue version.
-     - 2.0
+     - 3.0
    * - Glue Language
      - Glue Language. Input should scala or python
      - scala
    * - Extra Jars
      - Extra Jar file path pass in default arguments
-     - s3://aws-glue-scripts/fire-spark_2.4-core-3.1.1-jar-with-dependencies.jar
+     - s3://aws-glue-scripts/fire-spark_3.1.3-core-3.1.0-jar-with-dependencies.jar
    * - S3 Path
      - S3 bucket location where workflow json file gets uploaded for execution
      - s3://aws-glue-scripts/workflow-json

@@ -38,7 +38,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-demo-workflow.png
    :alt: cube_node_userguide
-   :width: 90%
+   :width: 65%
    
 
 **Cube Node configuration**
@@ -51,13 +51,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-cubecol-selection.png
    :alt: cube_node_userguide
-   :width: 90%
+   :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-aggregatecol-definition.png
    :alt: cube_node_userguide
-   :width: 90%
+   :width: 75%
 
 **Cube Node output**
 
@@ -65,7 +65,7 @@ Aggregated value computed with the use of Cube node is displayed using Print nod
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-printnode-output.png
    :alt: cube_node_userguide
-   :width: 90%
+   :width: 75%
 
 Group By
 ----------------------------------------
@@ -80,7 +80,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-demo-workflow.png
    :alt: groupby_node_userguide
-   :width: 90%
+   :width: 65%
    
 
 **Group By Node configuration**
@@ -93,19 +93,19 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-groupingcol-selection.png
    :alt: groupby_node_userguide
-   :width: 90%
+   :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-aggregatecol-definition.png
    :alt: groupby_node_userguide
-   :width: 90%
+   :width: 75%
 
 Filter Setting is entered as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-filter-settings.png
    :alt: groupby_node_userguide
-   :width: 90%
+   :width: 75%
 
 **Group By Node output**
 
@@ -113,7 +113,7 @@ Aggregated value computed with the use of ``Group By`` node is displayed using t
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-printnode-output.png
    :alt: groupby_node_userguide
-   :width: 90%
+   :width: 75%
 
 Pivot By
 ----------------------------------------
@@ -128,7 +128,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-demo-workflow.png
    :alt: pivotby_node_userguide
-   :width: 90%
+   :width: 65%
    
 
 **Pivot By Node configuration**
@@ -142,19 +142,19 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-groupingcol-selection.png
    :alt: pivotby_node_userguide
-   :width: 90%
+   :width: 75%
 
 ``Pivot Columns`` are selected as below. Data from ``Pivot Columns`` would be displayed as Columns in the output. Aggregated values would be diaplayed against each Pivot Column value. Multiple Pivot columns can be selected.
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-pivotcol-selection.png
    :alt: pivotby_node_userguide
-   :width: 90%
+   :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-aggregatecol-definition.png
    :alt: pivotby_node_userguide
-   :width: 90%
+   :width: 75%
 
 **Pivot By Node output**
 
@@ -162,7 +162,7 @@ Aggregated value computed using ``Pivot By`` node is displayed using Print node 
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-printnode-output.png
    :alt: pivotby_node_userguide
-   :width: 90%
+   :width: 75%
    
 Rollup
 ----------------------------------------
@@ -178,7 +178,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-demo-workflow.png
    :alt: rollup_node_userguide
-   :width: 90%
+   :width: 65%
    
 
 **Rollup Node configuration**
@@ -190,13 +190,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-rollupcol-selection.png
    :alt: rollup_node_userguide
-   :width: 90%
+   :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-aggregatecol-definition.png
    :alt: rollup_node_userguide
-   :width: 90%
+   :width: 75%
 
 **Rollup Node output**
 
@@ -204,4 +204,4 @@ Aggregated value computed with the use of Rollup node is displayed using the Pri
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-printnode-output.png
    :alt: rollup_node_userguide
-   :width: 90%
+   :width: 75%

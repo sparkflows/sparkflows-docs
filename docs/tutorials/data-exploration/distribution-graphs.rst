@@ -15,7 +15,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/analytics/distribution-graphs/6.PNG
    :alt: Distribution Graphs
-   :width: 60%
+   :width: 50%
    
 Reading CSV file
 ---------------------

@@ -1,7 +1,7 @@
 Parse Functions
 ======
 
-Fire Insights provide processors that parse the values of the selected columns.
+Fire Insights provides processors that parse the values of the selected columns.
 
 
 Parse Processors in Fire Insights
@@ -76,7 +76,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fieldsplitter-demo-workflow.png
    :alt: fieldsplitter_node_userguide
-   :width: 60%
+   :width: 70%
    
 
 **Field Splitter Node Configuration**
@@ -89,7 +89,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fieldsplitter-configuration.png
    :alt: fieldsplitter_node_userguide
-   :width: 90%
+   :width: 80%
 
 **Field Splitter Node Output**
 
@@ -97,7 +97,7 @@ Output is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fieldsplitter-printnode-output.png
    :alt: fieldsplitter_node_userguide
-   :width: 90%
+   :width: 80%
    
 Fixed Length Fields
 ----------------------------------------
@@ -112,7 +112,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fixedlength-demo-workflow.png
    :alt: fixedlength_node_userguide
-   :width: 60%
+   :width: 70%
    
 
 **Fixed Length Fields Node Configuration**
@@ -124,7 +124,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fixedlength-configuration.png
    :alt: fixedlength_node_userguide
-   :width: 90%
+   :width: 80%
 
 **Fixed Length Fields Node Output**
 
@@ -132,7 +132,7 @@ Output is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/fixedlength-printnode-output.png
    :alt: fixedlength_node_userguide
-   :width: 90%
+   :width: 80%
    
 Multi Regex Extractor
 ----------------------------------------
@@ -147,7 +147,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/multiregex-demo-workflow.png
    :alt: multiregex_node_userguide
-   :width: 60%
+   :width: 70%
    
 
 **Multi Regex Extractor Node configuration**
@@ -160,7 +160,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/multiregex-configuration.png
    :alt: multiregex_node_userguide
-   :width: 90%
+   :width: 80%
 
 **Multi Regex Extractor Node Output**
 
@@ -168,7 +168,7 @@ Output is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/multiregex-printnode-output.png
    :alt: multiregex_node_userguide
-   :width: 90%   
+   :width: 80%   
    
 Parse JSON Col
 ----------------------------------------
@@ -183,7 +183,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/parsejson-demo-workflow.png
    :alt: parsejson_node_userguide
-   :width: 60%
+   :width: 70%
    
 
 **Parse JSON Col Node Configuration**
@@ -196,7 +196,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/parsejson-configuration.png
    :alt: parsejson_node_userguide
-   :width: 90%
+   :width: 80%
 
 **Parse JSON Col Node Output**
 
@@ -204,4 +204,4 @@ Output is displayed as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/parse/parsejson-printnode-output.png
    :alt: parsejson_node_userguide
-   :width: 90%   
+   :width: 80%   

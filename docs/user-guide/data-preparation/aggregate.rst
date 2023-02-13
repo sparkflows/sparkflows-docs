@@ -38,7 +38,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-demo-workflow.png
    :alt: cube_node_userguide
-   :width: 65%
+   :width: 75%
    
 
 **Cube Node configuration**
@@ -80,7 +80,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-demo-workflow.png
    :alt: groupby_node_userguide
-   :width: 65%
+   :width: 75%
    
 
 **Group By Node configuration**
@@ -128,7 +128,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-demo-workflow.png
    :alt: pivotby_node_userguide
-   :width: 65%
+   :width: 75%
    
 
 **Pivot By Node configuration**
@@ -178,7 +178,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-demo-workflow.png
    :alt: rollup_node_userguide
-   :width: 65%
+   :width: 75%
    
 
 **Rollup Node configuration**

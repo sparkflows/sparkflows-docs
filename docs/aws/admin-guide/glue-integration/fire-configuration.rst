@@ -1,7 +1,7 @@
 Fire Configurations & Job Submission on AWS Glue
 ==========================
 
-Since, you have successfully established a connection between VM on which Fire Insights is running and AWS Glue, so now we can configure Fire Insights for Glue and create workflow and submit the job on AWS Glue.
+Since, you have successfully established a connection between VM on which Fire Insights is running and AWS Glue, so now you can create connection for Glue in Fire Insights and create workflow and submit the job on AWS Glue.
 
 1. Login to Fire Insights application and Create Glue Connection.
 

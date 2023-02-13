@@ -1,7 +1,7 @@
 Filtering
 =========
 
-Fire Insights provide processors for filtering columns and rows.
+Fire Insights provides processors for filtering columns and rows.
 
 Filtering Processors in Fire Insights
 ----------------------------------------
@@ -31,7 +31,7 @@ Filtering Processors in Fire Insights
 Select Columns
 ----------------------------------------
 
-Below is a sample workflow which contains ``Select Columns`` processor in Fire Insights. It demonstrates usage of ``Select Columns`` node to create outgoing dataset from columns selected from the incoming dataset.
+Below is a sample workflow which contains ``Select Columns`` processor in Fire Insights. It demonstrates the usage of ``Select Columns`` node to create outgoing dataset from columns selected from the incoming dataset.
 
 It does following processing of data:
 
@@ -41,13 +41,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/selectcolumns-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/selectcolumns-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Select Columns Node Configuration**
 
@@ -58,7 +58,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/selectcolumns-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Select Columns Node Output**
 
@@ -66,7 +66,7 @@ Output of ``Select Columns`` node displaying selected columns from incoming data
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/selectcolumns-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Drop Columns
 ----------------------------------------
@@ -81,13 +81,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/dropcolumns-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/dropcolumns-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Drop Columns Node Configuration**
 
@@ -98,7 +98,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/dropcolumns-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Drop Columns Node Output**
 
@@ -106,7 +106,7 @@ Output of ``Drop Columns`` node displaying remainig columns from incoming datase
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/dropcolumns-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Filter By Date Range
 ----------------------------------------
@@ -121,13 +121,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterdtrange-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterdtrange-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Filter By Date Range Node Configuration**
 
@@ -139,7 +139,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterdtrange-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Filter By Date Range Node output**
 
@@ -147,7 +147,7 @@ Output of ``Filter By Date Range`` node displaying rows in which selected column
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterdtrange-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Filter By String Length
 ----------------------------------------
@@ -162,13 +162,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterstrlen-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterstrlen-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Filter By String Length Node Configuration**
 
@@ -180,7 +180,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterstrlen-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Filter By String Length Node Output**
 
@@ -188,7 +188,7 @@ Output of ``Filter By String Length`` node displaying rows in which data length 
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterstrlen-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Filter By Number Range
 ----------------------------------------
@@ -203,13 +203,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filternumrange-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filternumrange-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Filter By Number Range Node Configuration**
 
@@ -221,7 +221,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filternumrange-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Filter By Number Range Node Output**
 
@@ -229,7 +229,7 @@ Output of ``Filter By Number Range`` node displaying rows in which data value of
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filternumrange-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Row Filter
 ----------------------------------------
@@ -244,13 +244,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilter-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilter-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Row Filter Node Configuration**
 
@@ -261,7 +261,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilter-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Row Filter Node Output**
 
@@ -269,7 +269,7 @@ Output of ``Row Filter`` node displaying rows that meet the condition specified 
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilter-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Row Filter By Index
 ----------------------------------------
@@ -284,13 +284,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilterindex-workflow.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 65%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilterindex-incoming-dataset.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
 
 **Row Filter By Index Node configuration**
 
@@ -302,7 +302,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilterindex-config.png
    :alt: filtering_userguide
-   :width: 90%
+   :width: 75%
    
 **Row Filter By Index Node Output**
 
@@ -310,4 +310,4 @@ Output of ``Row Filter By Index`` node displaying rows with the Row Index Number
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilterindex-printnode-output.png
    :alt: filtering_userguide
-   :width: 90%       	 
+   :width: 75%       	 

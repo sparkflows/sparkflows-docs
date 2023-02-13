@@ -14,7 +14,7 @@ https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/
 
 Now, you can create an example workflow in Fire which reads from S3 bucket and save the workflow.
 
-.. figure:: ../../_assets/aws/glue/wf.PNG
+.. figure:: ../../../_assets/aws/glue/wf.PNG
    :alt: aws
    :width: 60%
 
@@ -22,7 +22,7 @@ Now, you can create an example workflow in Fire which reads from S3 bucket and s
 
 After saving example workflow, you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
 
-.. figure:: ../../_assets/aws/glue/job_submit.PNG
+.. figure:: ../../../_assets/aws/glue/job_submit.PNG
    :alt: aws
    :width: 80%
 
@@ -30,7 +30,7 @@ After saving example workflow, you can execute the job which will be submitted o
 
 Now you may verify the Job run on Fire Insights from AWS Glue Job by accessing the AWS Portal.
 
-.. figure:: ../../_assets/aws/glue/glue_job_verify.PNG
+.. figure:: ../../../_assets/aws/glue/glue_job_verify.PNG
    :alt: aws
    :width: 60%
    

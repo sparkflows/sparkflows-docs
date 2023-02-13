@@ -61,13 +61,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/colsrename-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/colsrename-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Columns Rename Node Configuration**
 
@@ -80,7 +80,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/colsrename-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Columns Rename Node Output**
 
@@ -88,7 +88,7 @@ Output of ``Columns Rename`` node would be a dataset with incoming columns renam
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/colsrename-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 Round Value
 ----------------------------------------
@@ -103,13 +103,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/roundvalue-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/roundvalue-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Round Value Node Configuration**
 
@@ -121,11 +121,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/roundvalue-config1.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/roundvalue-config2.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Round Value Node Output**
 
@@ -133,7 +133,7 @@ Output of ``Round Value`` node would be a dataset with incoming values converted
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/roundvalue-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 Count
 ----------------------------------------
@@ -148,13 +148,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/count-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/count-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Count Node Configuration**
 
@@ -166,7 +166,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/count-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Count Node Output**
 
@@ -174,7 +174,7 @@ Output of ``Count`` node would display row count of incoming dataset.
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/count-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 Moving Windows Function
 ----------------------------------------
@@ -189,13 +189,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/movwinfn-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/movwinfn-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Moving Windows Function Node Configuration**
 
@@ -212,7 +212,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/movwinfn-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Moving Windows Function Node Output**
 
@@ -220,7 +220,7 @@ Output of ``Moving Windows Function`` node would display a dataset with computed
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/movwinfn-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Multi Windows Analytics
@@ -236,13 +236,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinanalytics-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinanalytics-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Multi Windows Analytics Node Configuration**
 
@@ -257,7 +257,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinanalytics-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Multi Windows Analytics Node Output**
 
@@ -265,7 +265,7 @@ Output of ``Multi Windows Analytics`` node would display a dataset with a value 
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinanalytics-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Multi Windows Ranking
@@ -281,13 +281,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinrank-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinrank-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Multi Windows Ranking Node configuration**
 
@@ -301,7 +301,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinrank-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Multi Windows Ranking Node Output**
 
@@ -309,7 +309,7 @@ Output of ``Multi Windows Ranking`` node would display a dataset with rank value
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/mulwinrank-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Sample
@@ -325,13 +325,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sample-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sample-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Sample Node Configuration**
 
@@ -344,7 +344,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sample-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Sample Node Output**
 
@@ -352,7 +352,7 @@ Output of ``Sample`` node would display a Sample dataset.
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sample-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Sort By
 ----------------------------------------
@@ -367,13 +367,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortby-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortby-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Sort By Node Configuration**
 
@@ -386,7 +386,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortby-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Sort By Node Output**
 
@@ -394,7 +394,7 @@ Output of ``Sort By`` node would display a Sorted dataset.
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortby-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Sort Columns
@@ -410,13 +410,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Sort Columns Node Configuration**
 
@@ -429,7 +429,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Sort Columns Node Output**
 
@@ -437,7 +437,7 @@ Output of ``Sort Columns`` node would display a dataset displaying columns sorte
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/sortcolumns-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Transpose
@@ -453,13 +453,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Transpose Node Configuration**
 
@@ -471,7 +471,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Transpose Node Output**
 
@@ -479,7 +479,7 @@ Output of ``Transpose`` node would display a dataset displaying transposed datas
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 Windows Analytics
 ----------------------------------------
@@ -494,13 +494,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Windows Analytics Node Configuration**
 
@@ -515,7 +515,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Windows Analytics Node Output**
 
@@ -523,7 +523,7 @@ Output of ``Windows Analytics`` node would display a dataset with a value select
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winanalytics-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 Windows Ranking
 ----------------------------------------
@@ -538,13 +538,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winrank-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winrank-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Windows Ranking Node Configuration**
 
@@ -557,7 +557,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winrank-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
 
 **Windows Ranking Node Output**
 
@@ -565,7 +565,7 @@ Output of ``Windows Ranking`` node would display a dataset with rank value for e
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/winrank-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 Flatten
 ----------------------------------------
@@ -580,17 +580,17 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/flatten-workflow.png
    :alt: dataprepothers_userguide
-   :width: 60%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/flatten-incoming-dataset.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 80%
    
 .. figure:: ../../_assets/user-guide/data-preparation/others/flatten-incoming-dataset1.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 80%
    
 **Flatten Node Configuration**
 
@@ -602,7 +602,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/flatten-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Flatten Node Output**
 
@@ -610,7 +610,7 @@ Output of ``Flatten`` node would be a dataset with new columns added to it.
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/flatten-printnode-output.png
    :alt: dataprepothers_userguide
-   :width: 90%       	    
+   :width: 80%       	    
 	 
 Explode
 ----------------------------------------
@@ -625,7 +625,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/explode-workflow.png
    :alt: dataprepothers_userguide
-   :width: 60%
+   :width: 70%
    
 **Incoming Dataset**
 
@@ -643,7 +643,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/explode-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Explode Node Output**
 
@@ -673,7 +673,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-workflow.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Hive Incremental Node Configuration**
 
@@ -686,7 +686,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-config.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%
    
 **Save Watermark Node to Save Status**
 
@@ -700,4 +700,4 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/others/hiveincremental-savewatermark.png
    :alt: dataprepothers_userguide
-   :width: 90%
+   :width: 70%

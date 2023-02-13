@@ -9,12 +9,12 @@ Workflow for Data Profiling
 ----------------------------
 
 
-Below is a workflow which profiles the Telco Churn Dataset.
+Below is a workflow which profiles the Telco Churn dataset.
 
 
 .. figure:: ../../_assets/tutorials/data-exploration/1.PNG
    :alt: Concat Columns
-   :width: 90%
+   :width: 65%
    
 Input Telco Churn Data
 ---------------------
@@ -24,12 +24,12 @@ The input dataset looks like below:
 
 .. figure:: ../../_assets/tutorials/data-exploration/2.PNG
    :alt: Concat Columns
-   :width: 90%
+   :width: 65%
    
 Workflow Execution Result
 -------------------------
 
-When the above workflow is executed, it produces the below results. The good thing about Fire Insights is that the Data Profiling runs in a distributed fashion. So, whatever the number of records in the input dataset, it scales seamlessly.
+When the above workflow is executed, it produces the below results. A good thing about Fire Insights is that the Data Profiling runs in a distributed fashion. So, whatever be the number of records in the input dataset, it scales seamlessly.
 
 
 Summary Statistics
@@ -37,14 +37,14 @@ Summary Statistics
 
 .. figure:: ../../_assets/tutorials/data-exploration/3.PNG
    :alt: Concat Columns
-   :width: 90%
+   :width: 70%
    
 Counts by Churned Column
 -------------------------
 
 .. figure:: ../../_assets/tutorials/data-exploration/4.PNG
    :alt: Concat Columns
-   :width: 90%
+   :width: 65%
    
 Graph of counts of various attributes for Churned and Not Churned customers
 -----------------------------------------------------------------------------
@@ -52,7 +52,7 @@ Graph of counts of various attributes for Churned and Not Churned customers
 
 .. figure:: ../../_assets/tutorials/data-exploration/churned-notchurned-customers.png
    :alt: Concat Columns
-   :width: 70%
+   :width: 65%
    
 Correlation Matrix
 --------------------
@@ -60,7 +60,7 @@ Correlation Matrix
 
 .. figure:: ../../_assets/tutorials/data-exploration/co-relation-matrix.png
    :alt: Concat Columns
-   :width: 70%
+   :width: 50%
  
 
 

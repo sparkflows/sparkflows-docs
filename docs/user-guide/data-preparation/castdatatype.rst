@@ -1,7 +1,7 @@
 Cast Data Type
 ==========
 
-Fire Insights provide processors for Cast Data Type.
+Fire Insights provides processors for Cast Data Type.
 
 
 Cast Data Type Processors in Fire Insights
@@ -34,13 +34,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypeone-workflow.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypeone-incoming-dataset.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Different Types-1 Node configuration**
 
@@ -54,7 +54,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypeone-config.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Different Types-1 Node output**
 
@@ -62,7 +62,7 @@ Output of ``Cast To Different Types-1`` node displaying dataset with columns cas
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypeone-printnode-output.png
    :alt: castdatatype_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Cast To Different Types-2
@@ -78,13 +78,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypetwo-workflow.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypetwo-incoming-dataset.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Different Types-2 Node configuration**
 
@@ -99,7 +99,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypetwo-config.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Different Types-2 Node Output**
 
@@ -107,7 +107,7 @@ Output of ``Cast To Different Types-2`` node displaying dataset with columns cas
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/casttypetwo-printnode-output.png
    :alt: castdatatype_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Cast To Single Type
@@ -123,13 +123,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/castsingletype-workflow.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/castsingletype-incoming-dataset.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Single Type Node Configuration**
 
@@ -142,11 +142,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/castsingletype-config1.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/castsingletype-config2.png
    :alt: castdatatype_userguide
-   :width: 90%
+   :width: 70%
    
 **Cast To Single Type Node Output**
 
@@ -154,6 +154,6 @@ Output of ``Cast To Single Type`` node displaying dataset with columns casted to
 
 .. figure:: ../../_assets/user-guide/data-preparation/castdatatype/castsingletype-printnode-output.png
    :alt: castdatatype_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 

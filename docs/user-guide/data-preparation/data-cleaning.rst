@@ -47,7 +47,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -89,7 +89,7 @@ It processes the dataset in the following ways:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -137,7 +137,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming dataset**
 
@@ -184,7 +184,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming datasets**
 
@@ -239,7 +239,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -281,7 +281,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -324,7 +324,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -371,7 +371,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-workflow.png
    :alt: datacleaning_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 

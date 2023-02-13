@@ -1,7 +1,7 @@
 Math Function
 ==========
 
-Fire Insights provide processors for Mathematical computation. 
+Fire Insights provides processors for Mathematical computation. 
 
 
 Math Processors in Fire Insights
@@ -33,13 +33,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-workflow.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-incoming-dataset.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Math Expression Node Configuration**
 
@@ -52,7 +52,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-config.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Math Expression Node Output**
 
@@ -60,7 +60,7 @@ Output of ``Math Expression`` node displaying dataset with new columns computed 
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-printnode-output.png
    :alt: math_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
 
 Math Functions Multiple
@@ -76,13 +76,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-workflow.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-incoming-dataset.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Math Functions Multiple Node Configuration**
 
@@ -97,7 +97,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-config.png
    :alt: math_userguide
-   :width: 90%
+   :width: 70%
    
 **Math Functions Multiple Node output**
 
@@ -105,5 +105,5 @@ Output of ``Math Functions Multiple`` node displaying dataset with new columns c
 
 .. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-printnode-output.png
    :alt: math_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    

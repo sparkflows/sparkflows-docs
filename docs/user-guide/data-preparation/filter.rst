@@ -41,7 +41,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/selectcolumns-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -81,7 +81,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/dropcolumns-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -121,7 +121,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterdtrange-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -162,7 +162,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filterstrlen-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -203,7 +203,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/filternumrange-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -244,7 +244,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilter-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 
@@ -284,7 +284,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/filtering/rowfilterindex-workflow.png
    :alt: filtering_userguide
-   :width: 65%
+   :width: 75%
    
 **Incoming Dataset**
 

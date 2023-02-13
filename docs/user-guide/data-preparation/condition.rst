@@ -1,7 +1,7 @@
 Condition Function
 ==========
 
-Fire Insights provide processors for evaluation of condition.
+Fire Insights provides processors for evaluation of condition.
 
 
 Condition Processors in Fire Insights
@@ -33,13 +33,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/assert-workflow.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/assert-incoming-dataset.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Assert Node configuration**
 
@@ -51,7 +51,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/assert-config.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Assert Node Output**
 
@@ -61,13 +61,13 @@ Output of ``Assert`` node would be based on Expression evaluation.
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/assert-printnode-output.png
    :alt: condition_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 
 *	Execution result of node on the false condition:
    
 .. figure:: ../../_assets/user-guide/data-preparation/condition/assert-printnode-output2.png
    :alt: condition_userguide
-   :width: 90%       	    
+   :width: 70%       	    
    
    
 Decision
@@ -83,13 +83,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/decision-workflow.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/decision-incoming-dataset.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Decision Node Configuration**
 
@@ -105,7 +105,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/decision-config.png
    :alt: condition_userguide
-   :width: 90%
+   :width: 70%
    
 **Decision Node output**
 
@@ -115,5 +115,5 @@ Output of ``Decision`` node would be based on Expression evaluation.
 
 .. figure:: ../../_assets/user-guide/data-preparation/condition/decision-printnode-output.png
    :alt: condition_userguide
-   :width: 90%       	    
+   :width: 70%       	    
 

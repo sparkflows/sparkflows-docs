@@ -7,13 +7,13 @@ Data Exploration
 
     :doc:`/tutorials/data-exploration/housing-data-exploration`
 
-    Data Exploration of the Housing Dataset.
+    Data Exploration of the Housing dataset.
 
     ---
     
     :doc:`/tutorials/data-exploration/telco-churn-data-exploration`
 
-    Data Exploration of Telco Churn Data
+    Data Exploration of Telco Churn data.
 
     ---
     
@@ -31,7 +31,7 @@ Data Exploration
 
     :doc:`/tutorials/data-exploration/profiling-correlation`
 
-    Data Profiling and Correlation
+    Data Profiling and Correlation.
 
 
 .. toctree::

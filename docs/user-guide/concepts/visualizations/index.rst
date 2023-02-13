@@ -7,6 +7,6 @@ Reports and Dashboards
 
    visualization-processors.rst
    working-with-reports.rst
-   working-with-dashboards.rst
-   exporting-visuals.rst
+   https://github.com/sparkflows/sparkflows-docs/blob/master/docs/user-guide/dashboards/index.rst
+   https://github.com/sparkflows/sparkflows-docs/blob/master/docs/user-guide/reports/index.rst
 

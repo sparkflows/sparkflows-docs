@@ -36,6 +36,14 @@ AWS Admin Guide
       
     ---
     
+        
+    :doc:`/aws/admin-guide/glue-integration/index`
+    
+    AWS Glue Configurations and Job submission.
+    
+      
+    ---
+    
     :doc:`/aws/admin-guide/test`
     
     Testing and Troublshooting Fire Insights AWS connectivity.

@@ -22,20 +22,20 @@ It reads the Dataset Files.
 
 .. figure:: ../../_assets/tutorials/visualization/6.PNG
    :alt: Visualization
-   :width: 90%
+   :width: 75%
 
 Visualize using subplot
 --------------------
 
-It plot multiple parameter graph simultaneously using subplot node.
+It plots multiple parameter graph simultaneously using subplot node.
 
 .. figure:: ../../_assets/tutorials/visualization/7.PNG
    :alt: Visualization
-   :width: 90%
+   :width: 75%
 
 Output result
 -------------
 
 .. figure:: ../../_assets/tutorials/visualization/4.PNG
    :alt: Visualization
-   :width: 90%
+   :width: 75%

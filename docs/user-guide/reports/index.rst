@@ -11,13 +11,8 @@ Report can combine all these into one view.
 Accessing Reports
 --------------------
 
-- Access the Reports inside the Project View.
-
-.. figure:: ../../_assets/user-guide/reports/Open_Report_Link.png
-   :alt: Fire Insights Access Report
-   :width: 60%
-   
- - Open the Reports View.
+- Access the Reports inside the Project View.   
+- Open the Reports View.
  
 .. figure:: ../../_assets/user-guide/reports/Report_List.png
    :alt: Fire Insights Access Report

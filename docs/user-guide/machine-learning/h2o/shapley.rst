@@ -34,19 +34,19 @@ Below are the details on how the SHAP values can be computed:
   
 .. figure:: ../../../_assets/user-guide/machine-learning/h2o/shapley_contribution.png
    :alt: Shapley value computation field
-   :width: 90%
+   :width: 75%
 
 
 The SHAP Feature Importance plot looks like below:
 
 .. figure:: ../../../_assets/user-guide/machine-learning/h2o/feature_importance_shap.png
    :alt: Feature importance SHAP plot
-   :width: 90%
+   :width: 75%
    
    
 The SHAP Summary plot looks like below:
 
 .. figure:: ../../../_assets/user-guide/machine-learning/h2o/shap.png
    :alt: Summary SHAP plot
-   :width: 90%
+   :width: 75%
    

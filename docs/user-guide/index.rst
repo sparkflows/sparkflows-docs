@@ -33,7 +33,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
 
-    :doc:`/user-guide/data-profile`
+    :doc:`/user-guide/data-profile/index`
 
     ---
 
@@ -104,7 +104,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    connectors/index
    data-preparation/index
    data-exploration/index
-   data-profile.rst
+   data-profile/index
    machine-learning/index
    reports/index
    dashboards/index

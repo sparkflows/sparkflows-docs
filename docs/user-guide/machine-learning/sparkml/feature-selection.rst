@@ -1,17 +1,17 @@
 Feature Selection
 =================
 
-In machine learning and statistics, feature selection, also known as variable selection, attribute selection, or variable subset selection, is the process of selecting a subset of relevant features (variables, predictors) for use in model construction. Feature selection techniques are used for several reasons:
+In machine learning and statistics, feature selection, also known as variable selection, attribute selection, or variable subset selection, is the process of selecting a subset of relevant features (variables, predictors) for use in model construction. Feature selection techniques are used for several reasons like:
 
-- to have simplification of models to make them easier to interpret by researchers/users
-- to have shorter training times
-- to avoid the curse of dimensionality
-- to have enhanced generalization by reducing overfitting (formally, reduction of variance)
+- to have simplification of models to make them easier to interpret by researchers/users.
+- to have shorter training times.
+- to avoid the curse of dimensionality.
+- to have enhanced generalization by reducing overfitting (formally, reduction of variance).
 
 - https://en.wikipedia.org/wiki/Feature_selection  
 
 
-Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used in the workflows:
+Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used in the workflows.
 
 
 Feature Selection Processors in Fire Insights
@@ -50,11 +50,11 @@ RFormula
 
 RFormula selects columns specified by an R model formula. Currently Spark supports a limited subset of the R operators, including ‘~’, ‘.’, ‘:’, ‘+’, and ‘-‘. The basic operators are:
 
-- ~ separate target and terms
-- + concat terms, “+ 0” means removing intercept
-- - remove a term, “- 1” means removing intercept
-- : interaction (multiplication for numeric values, or binarized categorical values)
-- . all columns except target
+- ~ separate target and terms.
+- + concat terms, “+ 0” means removing intercept.
+- - remove a term, “- 1” means removing intercept.
+- : interaction (multiplication for numeric values, or binarized categorical values).
+- . all columns except target.
 
 Suppose, a and b are double columns, we use the following simple examples to illustrate the effect of RFormula:
 

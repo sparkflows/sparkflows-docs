@@ -7,7 +7,7 @@ Fire Insights creates Apache Spark ML models. These models can be saved as files
 
 .. figure:: ../../../_assets/model/SparkMLModelSave.png
    :alt: SaveML Model
-   :width: 60%
+   :width: 55%
 
 Once the SparkML model is saved, it can be loaded and used in scoring. Fire Insights enables the saving of both, Spark ML models and pipelines.
 
@@ -18,7 +18,7 @@ By using NodeModelLoad & selecting the particular type of model to be loaded, th
 
 .. figure:: ../../../_assets/model/SparkMLModelScore.png
    :alt: LoadML Model & Score
-   :width: 60%
+   :width: 55%
 
 For Apache Spark ML, Fire Insights has a Predict node for predictions.
 

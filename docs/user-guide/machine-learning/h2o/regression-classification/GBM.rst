@@ -25,6 +25,6 @@ Below are the required parameters which can be specified in the H2O GBM processo
 
 .. figure:: ../../../../_assets/model/h2o/3.PNG
    :alt: H2O GBM
-   :width: 90%
+   :width: 80%
 
 For more details on other parameters, visit: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html#defining-a-gbm-model

@@ -16,7 +16,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/1.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
 
 Reading from Dataset
 ---------------------
@@ -28,14 +28,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/2a.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
  
  
 Summary of Transactions
@@ -48,14 +48,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4a.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Number of Transaction per State
 -------------------------------
@@ -67,32 +67,32 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.png
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Prints the Result
 ------------------
- It will print the result of output getting from SQL Node.
+ It prints the result of output getting from SQL Node.
  
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.PNG
    :alt: General Payment Data Analysis
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6a.PNG
    :alt: General Payment Data Analysis
-   :width: 90% 
+   :width: 75% 
 
 
 

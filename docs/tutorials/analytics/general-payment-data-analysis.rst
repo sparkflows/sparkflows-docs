@@ -65,14 +65,14 @@ It finds the number of transactions per State by using the SQL Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/9.PNG
    :alt: General Payment Data Analysis
    :width: 75%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5a.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/9a.PNG
    :alt: General Payment Data Analysis
    :width: 75%
    

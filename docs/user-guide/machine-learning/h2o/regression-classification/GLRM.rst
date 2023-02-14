@@ -24,7 +24,7 @@ Below are the required parameters which can be specified in the H2O DRF processo
      
 .. figure:: ../../../../_assets/model/h2o/1.PNG
    :alt: H2O GLRM
-   :width: 90%
+   :width: 80%
 
 For more details on other parameters, visit: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glrm.html#defining-a-glrm-model
 

@@ -17,7 +17,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
    :alt: Analyze Flights Delays
-   :width: 90%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -29,14 +29,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 
 Cast Column to Double
@@ -50,14 +50,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
 
 Cast Column to String
 ---------------------------------
@@ -70,14 +70,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
  
    
 Execute the SQL Queries   
@@ -90,7 +90,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 
 
@@ -103,12 +103,12 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.png
    :alt: Analyze Flights Delays
-   :width: 80%
+   :width: 65%
 

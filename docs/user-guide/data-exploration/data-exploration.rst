@@ -37,7 +37,7 @@ Data Exploration Processors in Fire Insights
    * - Skewness And Kurtosis
      - Displays Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution).
    * - Summary Statistics
-     - Summary statistics provide useful information about sample data, e.g., measures of spread.
+     - Summary statistics provide useful information about sample data, e.g. measures of spread.
  
 Columns Cardinality
 ----------------------------------------
@@ -57,7 +57,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Columns Cardinality Node Configuration**
 
@@ -69,7 +69,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Columns Cardinality Node output**
 
@@ -77,15 +77,15 @@ Output of ``Columns Cardinality`` node displaying count of distinct values for e
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output1.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output2.png
    :alt: dataexploration_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output3.png
    :alt: dataexploration_userguide
-   :width: 90%       	 
+   :width: 75%       	 
    
 Correlation
 ----------------------------------------
@@ -99,13 +99,13 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-workflow.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Correlation Node Configuration**
 
@@ -117,7 +117,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Correlation Node Output**
 
@@ -125,7 +125,7 @@ Output of ``Correlation`` node displaying correlation between all the selected c
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 70%       	    
+   :width: 60%       	    
    
 Cross Tab
 ----------------------------------------
@@ -145,7 +145,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Cross Tab Node Configuration**
 
@@ -156,7 +156,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Cross Tab Node Output**
 
@@ -164,7 +164,7 @@ Output of ``Cross Tab`` node displaying distribution between ``Firstcolumn`` and
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Distinct Values In Column
@@ -185,7 +185,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Distinct Values In Column Node Configuration**
 
@@ -196,7 +196,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Distinct Values In Column Node Output**
 
@@ -204,7 +204,7 @@ Output of ``Distinct Values In Column`` node displaying distinct combination of 
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Flag Outlier
@@ -225,7 +225,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Flag Outlier Node Configuration**
 
@@ -237,7 +237,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Flag Outlier Node Output**
 
@@ -245,7 +245,7 @@ Output of ``Flag Outlier`` node displaying Outlier flag for datapoints in the se
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Graph Month Distribution
@@ -266,7 +266,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph Month Distribution Node Configuration**
 
@@ -278,7 +278,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph Month Distribution Node Output**
 
@@ -286,7 +286,7 @@ Output of ``Graph Month Distribution`` node displaying monthly distribution of s
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Graph Weekday Distribution
 ----------------------------------------
@@ -306,7 +306,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph Weekday Distribution Node Configuration**
 
@@ -319,7 +319,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph Weekday Distribution Node Output**
 
@@ -327,7 +327,7 @@ Output of ``Graph Weekday Distribution`` node displaying weekday wise distributi
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Graph Year Distribution
@@ -348,7 +348,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph Year Distribution Node Configuration**
 
@@ -361,7 +361,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph Year Distribution Node output**
 
@@ -369,7 +369,7 @@ Output of ``Graph Year Distribution`` node displaying yearly distribution of sel
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Histogram
 ----------------------------------------
@@ -389,7 +389,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Histogram Node Configuration**
 
@@ -402,7 +402,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Histogram Node Output**
 
@@ -410,11 +410,11 @@ Output of ``Histogram`` node displaying distribution of data present in the sele
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output1.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output2.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
 
 Null Values In Column
 ----------------------------------------
@@ -434,7 +434,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Null Values In Column Node configuration**
 
@@ -445,7 +445,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Null Values In Column Node Output**
 
@@ -453,7 +453,7 @@ Output of ``Null Values In Column`` node displaying number of Null values and it
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Skewness And Kurtosis
@@ -474,7 +474,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Skewness And Kurtosis Node Configuration**
 
@@ -485,7 +485,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Skewness And Kurtosis Node output**
 
@@ -493,7 +493,7 @@ Output of ``Skewness And Kurtosis`` node displaying Skewness And Kurtosis values
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Summary Statistics
@@ -514,7 +514,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-incoming-dataset.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
 
 **Summary Statistics Node Configuration**
 
@@ -526,7 +526,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-config.png
    :alt: dataexploration_userguide
-   :width: 90%
+   :width: 75%
    
 **Summary Statistics Node Output**
 
@@ -534,5 +534,5 @@ Output of ``Summary Statistics`` node displaying Statistical Summary of the colu
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-printnode-output.png
    :alt: dataexploration_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    

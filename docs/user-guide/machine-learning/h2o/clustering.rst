@@ -27,6 +27,6 @@ Below are the details needed on H2O K-means processor:
      
 .. figure:: ../../../_assets/model/h2o/2.PNG
    :alt: H2O Cluster
-   :width: 90%
+   :width: 75%
    
 For more details on other parameters, visit: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/k-means.html#defining-a-k-means-model   

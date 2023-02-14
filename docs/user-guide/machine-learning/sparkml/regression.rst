@@ -8,7 +8,7 @@ For more details on regression, visit: https://en.wikipedia.org/wiki/Regression_
 Regresson Processors in Fire Insights
 ------------
 
-Below are the Apache Spark ML based Regression Processors in Fire Insights
+Below are the Apache Spark ML based Regression Processors in Fire Insights.
 
 .. list-table:: Apache Spark based Regression Processors in Fire Insights
    :widths: 50 50
@@ -56,7 +56,7 @@ Contrasted with linear regression where the output is assumed to follow a Gaussi
 
 Spark’s GeneralizedLinearRegression interface allows for flexible specification of GLMs which can be used for various types of prediction problems including linear regression, Poisson regression, logistic regression, and others. 
 
-Decision tree regression
+Decision Tree Regression
 +++++++++++++++++++
 
 Decision trees are a popular family of classification and regression methods.

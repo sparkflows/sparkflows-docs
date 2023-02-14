@@ -6,25 +6,25 @@ Overview
 
     :doc:`/user-guide/machine-learning/overview/basics`
 
-    Introduction to Machine Learning
+    Introduction to Machine Learning.
     
     ---
     
     :doc:`/user-guide/machine-learning/overview/regression`
  
-    Regression
+    Introduction to Regression.
 
     ---
     
     :doc:`/user-guide/machine-learning/overview/classification`
     
-    Classification
+    Introduction to Classification.
     
     ---
     
     :doc:`/user-guide/machine-learning/overview/clustering`
 
-    Clustering
+    Introduction to Clustering.
     
 
      

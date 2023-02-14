@@ -104,7 +104,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    connectors/index
    data-preparation/index
    data-exploration/index
-   data-profile/index
+   data-profile.rst
    machine-learning/index
    reports/index
    dashboards/index

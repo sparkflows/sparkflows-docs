@@ -12,23 +12,23 @@ Fire Insights provides several processors for feature engineering.
    * - Title
      - Description
    * - DateToAge
-     - Convert Date to Age
+     - Convert Date to Age.
    * - CaseWhen 
-     - Based on the value, convert it to another value
+     - Based on the value, convert it to another value.
    * - Scala
-     - Write Scala code in Spark for generating new Features
+     - Write Scala code in Spark for generating new Features.
    * - SQL
-     - Write SQL code for generating new features
+     - Write SQL code for generating new features.
    * - StopWordRemover
-     - Removes Stop Words
+     - Removes Stop Words.
    * - Tokenizer
-     - Tokenizes a string into Tokens
+     - Tokenizes a string into Tokens.
    * - OneHotEncoder
-     - Applies one hot encoding
+     - Applies one hot encoding.
    * - TF/IDF
-     - Finds the TF and IDF
+     - Finds the TF and IDF.
    * - IndexString
-     - Converts a column containing string to numeric values
+     - Converts a column containing string to numeric values.
      
 
 Tokenizer
@@ -36,9 +36,7 @@ Tokenizer
 
 Tokenization is the process of taking text (such as a sentence) and breaking it into individual terms (usually words). 
 
-For more details please visit the Spark MLlib/ML docs page at the following link:
-
-https://spark.apache.org/docs/latest/ml-features#tokenizer
+More details are available at the Spark MLlib/ML docs page: https://spark.apache.org/docs/latest/ml-features#tokenizer
 
 
 Stop Word Remover
@@ -46,9 +44,7 @@ Stop Word Remover
 
 Stop words filters out stop words from input. Null values from input array are preserved unless adding null to stopWords explicitly.
 
-For more details please visit the Spark MLlib/ML docs page at the following link:
-
-https://spark.apache.org/docs/latest/ml-features#stopwordsremover
+More details are available at the Spark MLlib/ML docs page: https://spark.apache.org/docs/latest/ml-features#stopwordsremover
 
 
 OneHotEncoder
@@ -56,6 +52,4 @@ OneHotEncoder
 
 One-hot encoding maps a categorical feature, represented as a label index, to a binary vector with at most a single one-value indicating the presence of a specific feature value from among the set of all feature values. This encoding allows algorithms which expect continuous features, such as Logistic Regression, to use categorical features. For string type input data, it is common to encode categorical features using StringIndexer first.
 
-For more details please visit the Spark MLlib/ML docs page at the following link:
-
-https://spark.apache.org/docs/latest/ml-features#onehotencoder
+More details are available at the Spark MLlib/ML docs page: https://spark.apache.org/docs/latest/ml-features#onehotencoder

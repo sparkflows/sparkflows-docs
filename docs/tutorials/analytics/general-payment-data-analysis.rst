@@ -46,7 +46,7 @@ It finds stats on the amount of each transaction using the Summary Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/4.PNG
    :alt: General Payment Data Analysis
    :width: 75%
    
@@ -65,7 +65,7 @@ It finds the number of transactions per State by using the SQL Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/5.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/3.png
    :alt: General Payment Data Analysis
    :width: 75%
    
@@ -83,14 +83,14 @@ Prints the Result
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/6.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/8.PNG
    :alt: General Payment Data Analysis
    :width: 75%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/7.png
+.. figure:: ../../_assets/tutorials/analytics/general-payment-data-analysis/8a.PNG
    :alt: General Payment Data Analysis
    :width: 75% 
 

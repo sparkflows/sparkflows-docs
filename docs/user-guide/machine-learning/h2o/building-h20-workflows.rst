@@ -5,18 +5,18 @@ Below is a sample H2O workflow. It builds a Regression Model for predicting the 
 
 .. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
    :alt: H2O GBM
-   :width: 75%
+   :width: 60%
 
 There is a certain pattern to be followed when building the predictive H2O workflows.
 
 * Read in the Data.
 * Perform feature engineering.
 * Split the DataFrame for training and test.
-* Use a model building node like Regression/Classification/Clustering to create the model on the training dataset.
-   By selecting the isResponseIsCategorical field to true, classification model will be tarined.
-   Train Metrics is displayed in execution result page and also viewd in model page.
+* Use a model building node like Regression or Classification or Clustering to create the model on the training dataset.
+   By selecting the ``isResponseIsCategorical`` field to true, classification model will be tarined.
+   Train Metrics is displayed in execution result page and also viewed in model page.
 * Use a prediction node for predicting on the test dataset using the Model created.
-    To get the test metrics enable the isTest field to true.
+    To get the test metrics, enable the ``isTest`` field to true.
     
 
 

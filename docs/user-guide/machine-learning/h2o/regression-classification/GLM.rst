@@ -28,7 +28,7 @@ Below are the required parameters which can be specified in H2O GLM processor:
      
 .. figure:: ../../../../_assets/model/h2o/5.PNG
    :alt: H2O DRF
-   :width: 90%
+   :width: 75%
    
 For more details on other parameters, visit: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html#defining-a-glm-model
    

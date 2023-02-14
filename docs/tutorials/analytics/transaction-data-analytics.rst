@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/1.png
    :alt: Transaction Data Analytics
-   :width: 90%
+   :width: 65%
    
 Reading from Dataset
 ---------------------
@@ -26,14 +26,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2.png
    :alt: Transaction Data Analytics
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/2a.png
    :alt: Transaction Data Analytics
-   :width: 90%
+   :width: 75%
    
 Prints the Sample Dataset Result
 ---------------------------------
@@ -50,11 +50,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4.png
    :alt: Transaction Data Analytics
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/transaction-data-analytics/4a.png
    :alt: Transaction Data Analytics
-   :width: 90%
+   :width: 75%

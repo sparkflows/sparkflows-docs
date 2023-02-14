@@ -26,7 +26,7 @@ Below are the required parameters which can be specified in the H2O XGBoost proc
      
 .. figure:: ../../../../_assets/model/h2o/6.PNG
    :alt: H2O XGBOOST
-   :width: 80%   
+   :width: 75%   
    
 For more details on other parameters, visit: https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/xgboost.html#defining-an-xgboost-model
 

@@ -49,7 +49,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/boxplot-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Box Plot Node Configuration**
 
@@ -64,7 +64,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/boxplot-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Box Plot Node Output**
 
@@ -72,7 +72,7 @@ Output of ``Box Plot`` node displaying variation of one data with the other.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/boxplot-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Bubble Chart
 ----------------------------------------
@@ -92,7 +92,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubblechart-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Bubble Chart Node Configuration**
 
@@ -112,7 +112,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubblechart-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Bubble Chart Node Output**
 
@@ -120,7 +120,7 @@ Output of ``Bubble Chart`` node displaying variation between data series represe
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubblechart-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Gauge
@@ -141,7 +141,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Gauge Node Configuration**
 
@@ -156,7 +156,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Gauge Node Output**
 
@@ -164,7 +164,7 @@ Output of ``Gauge`` node displaying data for different categories in Gauge forma
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 Graph Group By Column
 ----------------------------------------
@@ -184,7 +184,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphgrpbycol-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph Group By Column Node configuration**
 
@@ -200,7 +200,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphgrpbycol-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph Group By Column Node Output**
 
@@ -208,7 +208,7 @@ Output of ``Graph Group By Column`` node displaying count of different groups of
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphgrpbycol-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Graph SubPlots
@@ -229,7 +229,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphsubplots-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph SubPlots Node configuration**
 
@@ -244,7 +244,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphsubplots-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph SubPlots Node output**
 
@@ -252,7 +252,7 @@ Output of ``Graph SubPlots`` node displaying variation between multiple pairs of
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphsubplots-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Graph Values
@@ -273,7 +273,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphvalues-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Graph Values Node configuration**
 
@@ -291,11 +291,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphvalues-config1.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphvalues-config2.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Graph Values Node Output**
 
@@ -303,7 +303,7 @@ Output of ``Graph Values`` node displaying variation between a pair of data seri
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graphvalues-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Print N Rows
@@ -324,7 +324,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printnrows-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Print N Rows Node Configuration**
 
@@ -337,7 +337,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printnrows-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Print N Rows Node Output**
 
@@ -345,7 +345,7 @@ Output of ``Print N Rows`` node displaying incoming data.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printnrows-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    
 
 Print Rich Text
@@ -366,7 +366,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printrichtxt-incoming-dataset.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
 
 **Print Rich Text Node Configuration**
 
@@ -378,7 +378,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printrichtxt-config.png
    :alt: datavisualization_userguide
-   :width: 90%
+   :width: 75%
    
 **Print Rich Text Node Output**
 
@@ -386,5 +386,5 @@ Output of ``Print Rich Text`` node displaying  the incoming data in Rich Text fo
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/printrichtxt-printnode-output.png
    :alt: datavisualization_userguide
-   :width: 90%       	    
+   :width: 75%       	    
    

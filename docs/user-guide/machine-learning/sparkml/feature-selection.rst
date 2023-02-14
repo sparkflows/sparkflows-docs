@@ -8,7 +8,7 @@ In machine learning and statistics, feature selection, also known as variable se
 - to avoid the curse of dimensionality.
 - to have enhanced generalization by reducing overfitting (formally, reduction of variance).
 
-- https://en.wikipedia.org/wiki/Feature_selection  
+More information on Feature Selection can be found at: https://en.wikipedia.org/wiki/Feature_selection  
 
 
 Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used in the workflows.
@@ -67,10 +67,10 @@ ChiSqSelector
 
 ChiSqSelector stands for Chi-Squared feature selection. It operates on labeled data with categorical features. ChiSqSelector uses the Chi-Squared test of independence to decide which features to choose. It supports five selection methods namely, numTopFeatures, percentile, fpr, fdr, and fwe.
 
-- numTopFeatures: chooses a fixed number of top features according to a chi-squared test. This is akin to yielding the features with the most predictive power.
-- percentile: is similar to numTopFeatures but chooses a fraction of all features instead of a fixed number. 
-- fpr: chooses all features whose p-values are below a threshold, thus controlling the false positive rate of selection. 
-- fdr: uses the Benjamini-Hochberg procedure to choose all features whose false discovery rate is below a threshold.
-- fwe: chooses all features whose p-values are below a threshold. ::
+- **numTopFeatures:** chooses a fixed number of top features according to a chi-squared test. This is akin to yielding the features with the most predictive power.
+- **percentile:** is similar to numTopFeatures but chooses a fraction of all features instead of a fixed number. 
+- **fpr:** chooses all features whose p-values are below a threshold, thus controlling the false positive rate of selection. 
+- **fdr:** uses the Benjamini-Hochberg procedure to choose all features whose false discovery rate is below a threshold.
+- **fwe:** chooses all features whose p-values are below a threshold. ::
 
 The threshold is scaled by 1/numFeatures, thus controlling the family-wise error rate of selection. By default, the selection method is numTopFeatures, with the default number of top features set to 50. The user can choose a selection method using setSelectorType.

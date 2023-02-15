@@ -1,7 +1,7 @@
 Dashboards
 =======================
 
-Fire Insights allows creating of the Dashboard. You can create new datasets using JDBC data type from MySQL database using connection & then use the datasets in creating charts & dashboards.
+Fire Insights allows creating of the Dashboard. You can create new datasets using JDBC data type from MySQL database using connection and then use the datasets in creating charts & dashboards.
 
 Creating Dashboard
 --------------------
@@ -14,11 +14,11 @@ It will bring up the dialog box below. Select the MySQL Connection being used fo
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_connection.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_connection1.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Entering Field Details
 ^^^^^^^^^^^^^^^^^^^^
@@ -34,7 +34,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_dataset_detail.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Updating the Schema of the Dataset
 ^^^^^^^^^^^^^^^^^^^^
@@ -45,7 +45,7 @@ You can update the column names in the schema based on your data.
  
  .. figure:: ../../_assets/tutorials/dataset/jdbc_schema.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Saving the New Dataset
 ^^^^^^^^^^^^^^^^^^^^
@@ -60,35 +60,35 @@ Click on the ``Dashboard`` tab in the same application where you have created JD
 
  .. figure:: ../../_assets/tutorials/dataset/jdbc-dashboard.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
-Click on the ``Chart`` tab & select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
+Click on the ``Chart`` tab and select Choose a JDBC dataset, there you will find all JDBC datasets created under your application.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_dataset.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
-Select any JDBC dataset for which you want to create ``Chart`` & select ``CREATE NEW``
+Select any JDBC dataset for which you want to create ``Chart`` and select ``CREATE NEW``
 
 It will take you to the new page, as below :
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_chart_create.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Select the ``Chart Type`` if you want to see the availble chart types.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_chart_type.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
-In the above step, we selected ``Bar Chart`` & updated column for x & y axis and added some filters.
+In the above step, we selected ``Bar Chart`` and updated column for x and y axis and added some filters.
 
-Add NAME, DESCRIPTION & save it.
+Add NAME, DESCRIPTION and save it.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_chart_update.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Once you save it, the chart will appear on the chart list page.
 
@@ -96,32 +96,32 @@ Similarly, you can create a different chart using a specified chart type.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_chart_list.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 Now using an existing chart, you can create a new dashboard. 
 
-Select the ``Dashboard`` tab & click on ``CREATE DASHBOARD``.
+Select the ``Dashboard`` tab and click on ``CREATE DASHBOARD``.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 It will take you to the new dashboard page.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard_create.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
-Using drag & drop you need to add a chart in canvas and then Add NAME and DESCRIPTION to it. After this SAVE it.
+Using drag and drop you need to add a chart in canvas and then Add NAME and DESCRIPTION to it. After this SAVE it.
 
 .. figure:: ../../_assets/tutorials/dataset/save-dashboard.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
-Once the Dashboard gets saved successfully, it will appear on the dashboard list (Grid or List view) page from where you can view, edit & delete it.
+Once the Dashboard gets successfully saved, it will appear on the dashboard list (Grid or List view) page from where you can view, edit and delete it.
 
 .. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard_page.PNG
    :alt: Dataset
-   :width: 80%
+   :width: 65%
 
 .. note::  Make sure to add Google REST API key in Fire Insights configurations.

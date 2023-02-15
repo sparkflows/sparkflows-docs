@@ -9,17 +9,17 @@ The main advantage of AutoML is that it allows users to build machine learning m
 
 Fire provides the option to create the AutoML experiments by selecting the data and type of package. Each experiment will provide the leaderboard with different models & the hyperparameters used in the experiments. All experiments can be compared to decide the best fit for that particular use case.
 
-.. figure:: ../../_assets/auto-ml/automl-steps.png
-      :alt: auto-ml
-      :width: 90%
+    .. figure:: ../../_assets/auto-ml/automl-steps.png
+       :alt: auto-ml
+       :width: 65%
       
 
 
 In Fire, AutoML function is disabled by default. But, once it is enabled in the Fire configuration, user's can see the option to create the AutoML experiments on project page.
 
-.. figure:: ../../_assets/auto-ml/automl-exp-page.png
-      :alt: auto-ml
-      :width: 90%
+    .. figure:: ../../_assets/auto-ml/automl-exp-page.png
+       :alt: auto-ml
+       :width: 65%
       
 
 Currently Fire supports H2O and PyCaret AutoML packages.
@@ -37,27 +37,27 @@ Model Comparison
 
 * Select any 2 AutoML experiments to compare across models and then click on the ``COMPARE`` button to execute and view the comparison result.
 
-.. figure:: ../../_assets/auto-ml/ml-compare-1.PNG
+   .. figure:: ../../_assets/auto-ml/ml-compare-1.PNG
       :alt: auto-ml
-      :width: 90%
+      :width: 65%
       
       
 
       
 * The camparison results will be displayed as shown below.
 
-.. figure:: ../../_assets/auto-ml/ml-compare-2.PNG
+   .. figure:: ../../_assets/auto-ml/ml-compare-2.PNG
       :alt: auto-ml
-      :width: 90%
+      :width: 65%
       
       
-.. figure:: ../../_assets/auto-ml/ml-compare-3.PNG
+   .. figure:: ../../_assets/auto-ml/ml-compare-3.PNG
       :alt: auto-ml
-      :width: 90%
+      :width: 65%
       
 * Click on the model name to view the model details.
 
-.. figure:: ../../_assets/auto-ml/ml-compare-4.PNG
+   .. figure:: ../../_assets/auto-ml/ml-compare-4.PNG
       :alt: auto-ml
-      :width: 90%      
+      :width: 65%      
 

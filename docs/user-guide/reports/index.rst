@@ -26,7 +26,7 @@ Creating Reports
 
 .. figure:: ../../_assets/user-guide/reports/Create_Report.png
    :alt: Fire Insights Create Report
-   :width: 90%
+   :width: 65%
  
 Editing Reports
 ------------------
@@ -35,17 +35,17 @@ Editing reports is like creating them, except that you click the edit button to 
  
 .. figure:: ../../_assets/user-guide/reports/Create_Report.png
    :alt: Fire Insights Editing Reports
-   :width: 90%
+   :width: 65%
    
    
 Viewing Reports
 ------------------
 
-Once a report has been created, you can view it by clicking on the 'View' button.
+Once a report has been created, you can view it by clicking on the ``View`` button.
   
 .. figure:: ../../_assets/user-guide/reports/View_Report.png
    :alt: Fire Insights Editing Reports
-   :width: 90%
+   :width: 65%
    
 Streaming Reports
 ---------------------

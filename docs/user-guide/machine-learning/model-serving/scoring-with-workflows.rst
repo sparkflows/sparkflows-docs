@@ -2,7 +2,7 @@ Scoring with Workflows
 ======================
 
 Fire Insights enables you to build workflows. Workflows provide for reading data, transforming them and also creating machine learning models. 
-Fire Insights supports a number of ML frameworks including Scikit Learn, H2O, Spark ML, Keras etc.
+Fire Insights supports a number of ML frameworks including Scikit Learn, H2O, Spark ML, Keras, etc.
 
 Models built with the workflows can be saved onto the File System. The models can then be scored with another workflow.
 

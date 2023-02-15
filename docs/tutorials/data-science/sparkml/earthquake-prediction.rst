@@ -10,13 +10,13 @@ Dataset
 
 Dataset contains 2 columns as below:
 
-* Acoustic_data - Acoustic wave reading
-* Time_to_failure - Time remaining before the next earthquake
+* **Acoustic_data** - Acoustic wave reading.
+* **Time_to_failure** - Time remaining before the next earthquake.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_data.png
    :alt: Stock Forecasting
    :align: center
-   :width: 100%
+   :width: 65%
 
 Random Forest Regression Workflow for Earthquake Prediction
 -----------------------------------------------------------
@@ -24,12 +24,12 @@ Random Forest Regression model belongs to family of bagging regression. It is a 
 
 Features of Random Forest -
 
-* Aggregates many decision trees
-* Prevents overfitting
+* Aggregates many decision trees.
+* Prevents overfitting.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/earthquake_flow.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
 
 
 Prepare data for modeling
@@ -37,25 +37,25 @@ Prepare data for modeling
 
 Follow workflow arrow-
 
-* **ZipWithIndex**- Creates new feature column from dataframe index as ID
+* **ZipWithIndex**- Creates new feature column from DataFrame index as ID.
 
-* **Group data**- Creates new feature column as key obtained by ID divided by length of data 
+* **Group data**- Creates new feature column as key obtained by ID divided by length of data. 
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/group_data.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
 
-* **Feature Engineering**- Groups by data on key to create all statistical measures (min, max, mean, quartiles etc) as new feature
+* **Feature Engineering**- Groups by data on key to create all statistical measures (min, max, mean, quartiles, etc.) as new feature.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/feature_eng.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
 
-* **Feature Vector** - Merge multiple columns to form vector
+* **Feature Vector** - Merge multiple columns to form vector.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/feature_vector.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
    
 
 Data modeling
@@ -76,17 +76,17 @@ Random Forest Regression
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
    
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/random_forest_regression2.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%
 
 Model evaluation
 ----------------
 
-* Multiple ways to evaluate regression model such as R square, Root mean square error(rmse), mean square error(mse)
+* Multiple ways to evaluate regression model such as R-Square, Root Mean Square Error(RMSE), Mean Square Error(MSE).
 
 .. figure:: ../../../_assets/tutorials/machine-learning/earthquake_prediction/performance_matrix.png
    :alt: Stock Forecasting
-   :width: 100%
+   :width: 65%

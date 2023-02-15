@@ -31,7 +31,7 @@ Spark ML
 
     :doc:`/tutorials/data-science/sparkml/tfidf`
 
-    This workflow reads in a dataset. It then Tokenizes and performs TF/IDF on text content.
+    This workflow reads in a dataset. It then Tokenizes and performs TF-IDF on text content.
 
     ---
 
@@ -61,7 +61,7 @@ Spark ML
 
     :doc:`/tutorials/data-science/sparkml/smote`
     
-    Synthetic Minority Oversampling Technique
+    Synthetic Minority Oversampling Technique.
 
     ---
     :doc:`/tutorials/data-science/sparkml/stockPrediction-storeAnditem`

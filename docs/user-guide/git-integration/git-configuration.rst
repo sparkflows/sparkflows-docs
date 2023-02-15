@@ -40,4 +40,10 @@ Clicking ``Test Credential`` will give the following response on success. If the
    :alt: Success
    :width: 60%
 
-.. note:: Make sure that Git repository url should be accessible from Sparkflows machine
+.. note:: Make sure that Git repository URL is accessible from Sparkflows machine
+
+.. note:: The Users of GitLab with their roles and corresponding permissions can be referred here - https://docs.gitlab.com/ee/user/permissions.html#roles
+
+.. note:: The Users of GitHub with their roles and corresponding permissions can be referred here - https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization
+
+.. note:: The above official docs can be made use of to undestand the permissions. For example, In GitLab, a user with ``Developer`` role can commit to a protected branch but cannot push the changes to it. It needs ``Mainatiner`` permissions.

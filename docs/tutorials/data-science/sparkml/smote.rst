@@ -17,9 +17,9 @@ Workflow
 
 Below is the workflow to create oversampling.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/a.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/a1.png
    :alt: SMOTE
-   :width: 90%
+   :width: 60%
    
 The workflow:
 
@@ -34,13 +34,13 @@ In the ReadCSV, select the path by browse.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/smote/b.png
    :alt: SMOTE
-   :width: 80%
+   :width: 70%
 
 Input Data.
 ++++++++++
 .. figure:: ../../../_assets/tutorials/machine-learning/smote/b1.png
    :alt: SMOTE
-   :width: 80%
+   :width: 70%
 
 VectorAssembler
 +++++++++++++++
@@ -49,7 +49,7 @@ In the VectorAssembler, select the fields you want to include as a features. As 
 
 .. figure:: ../../../_assets/tutorials/machine-learning/smote/c.png
    :alt: SMOTE
-   :width: 80%
+   :width: 70%
 
 SMOTE
 +++++++++++++++
@@ -58,11 +58,11 @@ In the SMOTE, select the lable field & feature field.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/smote/d.png
    :alt: SMOTE
-   :width: 80%
+   :width: 70%
   
 RESULT
 +++++++++++++++  
 
 .. figure:: ../../../_assets/tutorials/machine-learning/smote/e.png
    :alt: SMOTE
-   :width: 80%
+   :width: 70%

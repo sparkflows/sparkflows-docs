@@ -13,7 +13,7 @@ H2OModelSave Processor saves the H2O model at the specified path in the binary f
 
 .. figure:: ../../../_assets/model/h2omodelsaveconfigurations.PNG
    :alt: Modelsave
-   :width: 80%
+   :width: 70%
    
 Load H2O Model Processor
 +++++++++++++++++++++
@@ -22,7 +22,7 @@ H2OModelLoad Processor loads the H2O model in binary format from the specified p
 
 .. figure:: ../../../_assets/model/h2omodelloadconfiguration.PNG
    :alt: Modelsave
-   :width: 80%
+   :width: 70%
 
 More details of saving and loading the H2O Models is available here:
 
@@ -38,12 +38,12 @@ Below is a workflow that saves the generated H2O model on the file system.
 
 .. figure:: ../../../_assets/model/h2o_means_model_save_score.PNG
    :alt: Modelsave
-   :width: 80%
+   :width: 70%
    
  
 Below is a workflow that loads back the saved model and use it in batch scoring.
 
 .. figure:: ../../../_assets/model/h2o_means_model_load_score.PNG
    :alt: Modelload
-   :width: 80%
+   :width: 70%
    

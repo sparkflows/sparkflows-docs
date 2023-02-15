@@ -32,32 +32,32 @@ Sparkflows provides a number of cutting edge algoirthms as Processors for Time S
 Prophet
 =======
 
-Below is the sample workflows which uses Prophet processor in Fire Insights.
+Below is the sample workflow which uses Prophet processor in Fire Insights.
 
 The workflow reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
 
 
-   .. figure:: ../../_assets/ml_userguide/fbprophet.PNG
+   .. figure:: ../../_assets/ml_userguide/fbprophet.png
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 
 Prophet processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
    
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 
 Results from ``Prophet`` model after training the model:  
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_result.png
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 ARIMA
 =====
@@ -66,21 +66,21 @@ Below is the sample workflow which uses ARIMA processor in Fire Insights.
 
 The workflow reads the AirPassengers dataset & uses ARIMA processor which Forecasts the airline passengers count, generates a new column with unique index/value for each row in dataset and prints the result.
 
-   .. figure:: ../../_assets/ml_userguide/arima_wf.PNG
+   .. figure:: ../../_assets/ml_userguide/arima_wf.png
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
    
 ARIMA processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/arima_configuration.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
    
 Result from ``ARIMA`` model after training the model:     
 
    .. figure:: ../../_assets/ml_userguide/arima_result.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 
 H2OXGBoost
@@ -92,28 +92,28 @@ The workflow reads the UCI Credit Card dataset & uses H2OXGBoost processor which
 
    .. figure:: ../../_assets/ml_userguide/xgBoost.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 H2OXGBoost processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 H2OMojoSave processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 On successful completion of the job, the model gets saved to specified locations. You can view the model at the specified location.
 
    .. figure:: ../../_assets/ml_userguide/h2o_output.png
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
    .. figure:: ../../_assets/ml_userguide/modellocation.PNG
       :alt: ml_userguide
-      :width: 75%
+      :width: 60%
 
 

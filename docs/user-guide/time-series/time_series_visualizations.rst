@@ -30,40 +30,41 @@ For example, they can be used to represent Daily sales data.
 
 Below is a sample workflow which contains ``Time Series data`` and outputs a line chart in Fire Insights.
 
-   .. figure:: ../../_assets/ml_userguide/visual.PNG
-      :alt: ml_userguide
-      :width: 75%
+.. figure:: ../../_assets/ml_userguide/visual.png
+   :alt: ml_userguide
+   :width: 65%
 
 Configurations for visualization processors in Fire Insight:
 
-* Set the number of columns you want to represent on **Y axis** with respect to **X axis**.
+* Set the number of columns you want to represent on Y axis with respect to X axis.
 * Set the chart type based on the data type.
 
-   .. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
-      :alt: ml_userguide
-      :width: 75%
+.. figure:: ../../_assets/ml_userguide/visualization_configurations.PNG
+   :alt: ml_userguide
+   :width: 65%
 
 Output result of ``Visualization`` processors:
+
 
 Charts : Line Graph
 ==================
 
-   .. figure:: ../../_assets/ml_userguide/visual_result.PNG
-      :alt: ml_userguide
-      :width: 75%
+.. figure:: ../../_assets/ml_userguide/visual_result.PNG
+   :alt: ml_userguide
+   :width: 65%
 
 
 Charts : Bar Chart
 ==================
 
-
-   .. figure:: ../../_assets/ml_userguide/barchart.png
-      :alt: ml_userguide
-      :width: 75%
+.. figure:: ../../_assets/ml_userguide/barchart.png
+   :alt: ml_userguide
+   :width: 65%
    
+
 Charts : Column Chart
 ==================
 
-   .. figure:: ../../_assets/ml_userguide/column.png
-      :alt: ml_userguide
-      :width: 75%
+.. figure:: ../../_assets/ml_userguide/column.png
+   :alt: ml_userguide
+   :width: 65%

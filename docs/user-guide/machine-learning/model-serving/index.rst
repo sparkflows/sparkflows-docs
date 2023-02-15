@@ -3,10 +3,10 @@ Model Serving
 
 Fire Insights allows you to save your models. These models can be saved to:
 
-- HDFS : When running on a Hadoop Cluster.
-- S3 : When running on AWS.
-- ADLS : When running on Azure.
-- Local file system : When running on your laptop or independent machine.
+- **HDFS :** When running on a Hadoop Cluster.
+- **S3 :** When running on AWS.
+- **ADLS :** When running on Azure.
+- **Local file system :** When running on your laptop or independent machine.
 
 Once these models are saved, they can be served in various ways.
 

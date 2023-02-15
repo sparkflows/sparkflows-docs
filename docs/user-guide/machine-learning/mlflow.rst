@@ -36,7 +36,7 @@ Login to the above URL to reach the MLflow UI page as shown below:
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow.PNG
    :alt: mlflow
-   :width: 60% 
+   :width: 65% 
     
     
 .. note::  Make sure to change the localhost to your IP or Domain Name. Remember that the MLflow would run on port 5000 by default.
@@ -54,7 +54,7 @@ Below is the sample workflow for regression to predict the house price with Ridg
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_wf.PNG
    :alt: mlflow
-   :width: 60% 
+   :width: 65% 
  
  
  
@@ -63,7 +63,7 @@ On successful execution of the workflow the model will be saved in MLflow as sho
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_executions.PNG
    :alt: mlflow
-   :width: 60% 
+   :width: 65% 
 
 
 
@@ -73,12 +73,12 @@ From RidgeRegression model parameters, metrics, etc. are shared with MLflow regi
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_experiment.PNG
    :alt: mlflow
-   :width: 60% 
+   :width: 65% 
 
 
 .. figure:: ../../_assets/user-guide/machine-learning/sparkml/mlflow/mlflow_result.PNG
    :alt: mlflow
-   :width: 60%    
+   :width: 65%    
 
 
 

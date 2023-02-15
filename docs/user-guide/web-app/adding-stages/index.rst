@@ -3,16 +3,16 @@ Adding Stages
 
 Click on the ``Add stages`` button to add a new stage. Select stage type, enter the stage name and condition(optional).
 
-  .. figure:: ../../../_assets/web-app/AddStage.png
+  .. figure:: ../../../_assets/web-app/AddStage1.png
       :alt: web-app
-      :width: 80%
+      :width: 50%
 
 
-- You can rearrange the stages by using drag & drop. 
+- You can rearrange the stages by using drag and drop. 
 - You can EDIT, VIEW, and REMOVE stages.
 - Can also RENAME the stage name and update condition.
 - Conditions are added to show particular stage on run analytics app page when added condition for that stage is fulfilled.
-- Conditions Example are :
+- Conditions examples are :
  
   1. educationLevel = 'masters'
   2. educationLevel = 'masters' && gender = 'female'

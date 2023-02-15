@@ -43,7 +43,7 @@ You can update the Schema of the dataset by clicking on ``Update Sample Data/Sch
 
 You can update the column names in the schema based on your data.
  
- .. figure:: ../../_assets/tutorials/dataset/jdbc_schema.PNG
+.. figure:: ../../_assets/tutorials/dataset/jdbc_schema.PNG
    :alt: Dataset
    :width: 65%
 
@@ -58,7 +58,7 @@ Dashboard
 Click on the ``Dashboard`` tab in the same application where you have created JDBC dataset.
 
 
- .. figure:: ../../_assets/tutorials/dataset/jdbc-dashboard.PNG
+.. figure:: ../../_assets/tutorials/dataset/jdbc-dashboard.PNG
    :alt: Dataset
    :width: 65%
 

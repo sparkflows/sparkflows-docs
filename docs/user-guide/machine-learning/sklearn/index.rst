@@ -30,5 +30,6 @@ Scikit-learn
 .. toctree::
    :hidden:
 
+   clustering.rst
    regression.rst
    classification.rst

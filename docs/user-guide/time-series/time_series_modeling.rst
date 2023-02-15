@@ -39,25 +39,25 @@ The workflow reads the AirPassengers dataset & uses Prophet processor for foreca
 
    .. figure:: ../../_assets/ml_userguide/fbprophet.png
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 
 Prophet processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
    
    .. figure:: ../../_assets/ml_userguide/fbprophet_processor2.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 
 Results from ``Prophet`` model after training the model:  
 
    .. figure:: ../../_assets/ml_userguide/fbprophet_result.png
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 ARIMA
 =====
@@ -68,19 +68,19 @@ The workflow reads the AirPassengers dataset & uses ARIMA processor which Foreca
 
    .. figure:: ../../_assets/ml_userguide/arima_wf.png
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
    
 ARIMA processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/arima_configuration.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
    
 Result from ``ARIMA`` model after training the model:     
 
    .. figure:: ../../_assets/ml_userguide/arima_result.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 
 H2OXGBoost
@@ -92,28 +92,28 @@ The workflow reads the UCI Credit Card dataset & uses H2OXGBoost processor which
 
    .. figure:: ../../_assets/ml_userguide/xgBoost.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 H2OXGBoost processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/xgBoost_config.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 H2OMojoSave processor Configuration:
 
    .. figure:: ../../_assets/ml_userguide/h2o_ml.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 On successful completion of the job, the model gets saved to specified locations. You can view the model at the specified location.
 
    .. figure:: ../../_assets/ml_userguide/h2o_output.png
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
    .. figure:: ../../_assets/ml_userguide/modellocation.PNG
       :alt: ml_userguide
-      :width: 60%
+      :width: 65%
 
 

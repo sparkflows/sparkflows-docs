@@ -28,18 +28,18 @@ Workflow
 
 The below workflow:
 
-* Read CSV - Read the dataset.
-* SQL - Select columns based on quality.
-* Vector Assembler - Merge multiple columns into a vector column.
-* Split - Split the incoming dataframe into 2. It takes the fraction for splitting the data.
-* MultiLayerPerceptron - Supports creation of a fully connected neural network
-* MulticlassClassificationEvaluator - Evaluator for multiclass classification, which expects 2 input columns: score and label.
-* Predict - Takes a dataframe and a model and predicts the result.
-* PrintNRows - Print the final result.
+* **Read CSV** - Read the dataset.
+* **SQL** - Select columns based on quality.
+* **Vector Assembler** - Merge multiple columns into a vector column.
+* **Split - Split** the incoming dataframe into 2. It takes the fraction for splitting the data.
+* **MultiLayerPerceptron** - Supports creation of a fully connected neural network
+* **MulticlassClassificationEvaluator** - Evaluator for multiclass classification, which expects 2 input columns: score and label.
+* **Predict** - Takes a dataframe and a model and predicts the result.
+* **PrintNRows** - Print the final result.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-workflow.png
-   :alt: MLPC
-   :width: 80%
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-workflow.png
+    :alt: MLPC
+    :width: 70%
    
  
 MultilayerPerceptron Configuration
@@ -47,30 +47,30 @@ MultilayerPerceptron Configuration
 
 Below is the configuration for the Multilayer Perceptron nodes in the workflow.
 
-* Features column - Features column of the type vector UDT for model fitting.
-* Label Column - The label column for model fitting.
-* Prediction column - The prediction column created during model scoring.
-* Layers-Comma Separated list of Integers - The integer array specifying the number of activation units in each layer.
-* Max Number Of Iterations - Number of iterations to train the neural network.
-* Seed - The initial seed to initialize the neural network.
+* **Features column** - Features column of the type vector UDT for model fitting.
+* **Label Column** - The label column for model fitting.
+* **Prediction column** - The prediction column created during model scoring.
+* **Layers-Comma Separated list of Integers** - The integer array specifying the number of activation units in each layer.
+* **Max Number Of Iterations** - Number of iterations to train the neural network.
+* **Seed** - The initial seed to initialize the neural network.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-configuration.png
-   :alt: MLPC
-   :width: 80%
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-configuration.png
+    :alt: MLPC
+    :width: 70%
    
 
 Result - Row Values
 --------------------------------------------
 
-.. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-rowValues.png
-   :alt: MLPC
-   :width: 80%
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-rowValues.png
+    :alt: MLPC
+    :width: 70%
    
 
 Result - Matrix
 --------------------------------------------
 
-.. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-matrix-result.png
-   :alt: MLPC
-   :width: 80%
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-matrix-result.png
+    :alt: MLPC
+    :width: 70%
    

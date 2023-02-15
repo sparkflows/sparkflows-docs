@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/1.png
    :alt: ClickStream Analysis
-   :width: 60%
+   :width: 70%
    
 Sample Data
 ---------------------

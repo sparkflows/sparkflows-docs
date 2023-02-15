@@ -17,7 +17,7 @@ Below is the workflow for creating a model for Churn Prediction.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
    
 The workflow:
 
@@ -31,7 +31,7 @@ The workflow:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
    :alt: Machine Learning
-   :width: 90%
+   :width: 65%
 
 VectorAssembler
 +++++++++++++++
@@ -40,7 +40,7 @@ In the VectorAssembler, select the fields you want to include in the model. As t
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
 
 Split
 +++++
@@ -49,7 +49,7 @@ You can split the dataset into training and test datasets. We split it into (.8,
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-split.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
 
 RandomForestClassifier
 ++++++++++++++++++++++++
@@ -58,7 +58,7 @@ You can use a RandomForestClassifier for predicting churn. We use 20 trees.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-dtc.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
 
 Predict
 +++++++
@@ -67,7 +67,7 @@ You can predict using the model on the test dataset.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
 
 Evaluate
 ++++++++
@@ -76,7 +76,7 @@ You can evaluate the quality of our result.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
    
 Execute Workflow
 ----------------
@@ -87,7 +87,7 @@ From the evaluator, you get the below result:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/4.png
    :alt: Machine Learning
-   :width: 80%
+   :width: 65%
    
 
 

@@ -23,7 +23,7 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
    * - Features
      - Description
    * - DateTimeFieldExtract
-     - Extracts year, month, day of month, hour, minute, second and week of year from timestamp/date columns.
+     - Extracts year, month, day of month, hour, minute, second and week of year from timestamp or date columns.
    * - Days to holiday
      - Days remaining for next holiday.
    * - Days from holiday
@@ -43,24 +43,24 @@ DateTimeFieldExtract
 
 Below is the sample workflow which contains DateTimeFieldExtract processor in Fire Insights.
 
-It reads a simple Calendar Dataset with a Date Column & uses DateTimeFieldExtract processor to create New DataFrame by extracting Date & Time field and prints the result.
+It reads a simple Calendar Dataset with a Date Column and uses DateTimeFieldExtract processor to create New DataFrame by extracting Date and Time field and prints the result.
 
-.. figure:: ../../_assets/ml_userguide/datetime_field.PNG
+.. figure:: ../../_assets/ml_userguide/datetime_field.png
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
    
 **DateTimeFieldExtract Processor Configuration**
 
 .. figure:: ../../_assets/ml_userguide/datetime_configuration.PNG
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
 
 
 **Output result of ``DateTimeFieldExtract`` Processor**
 
 .. figure:: ../../_assets/ml_userguide/datetime_output_result.PNG
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
 
 
 MovingWindowFunctions
@@ -70,9 +70,9 @@ Below is the sample workflow which contains MovingWindowFunctions processor in F
 
 It reads the store item dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
 
-.. figure:: ../../_assets/ml_userguide/windowsfn.PNG
+.. figure:: ../../_assets/ml_userguide/windowsfn.png
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
 
 
 **MovingWindowFunctions Processor Configuration**
@@ -81,12 +81,12 @@ Moving **avg** and **max** of price column with window size three.
 
 .. figure:: ../../_assets/ml_userguide/windows_configuartion.PNG
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
 
 **Output result of MovingWindowFunctions Processor**
 
 .. figure:: ../../_assets/ml_userguide/output-result.PNG
    :alt: ml_userguide
-   :width: 75%
+   :width: 65%
 
 

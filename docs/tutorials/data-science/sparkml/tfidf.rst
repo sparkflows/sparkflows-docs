@@ -2,7 +2,7 @@ TF-IDF
 =====
 
 
-This workflow reads in a dataset. It then Tokenizes and performs TF/IDF on text content.
+This workflow reads in a dataset. It then Tokenizes and performs TF or IDF on text content.
 
 Workflow
 -------
@@ -17,26 +17,26 @@ The below workflow:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/1.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
 
 Reading from Dataset
 ---------------------
 
-It reads sample Dataset File.
+It reads sample dataset file.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/2.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/2a.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Tokenizes message column
 ------------------------
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/3.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/3a.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Perform TF
 ----------
@@ -66,14 +66,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/4.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/4a.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Perform IDF
 -----------
@@ -85,14 +85,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/5.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/5a.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%
    
 Prints the result
 ------------------
@@ -101,4 +101,4 @@ It will print the result after performing TF/IDF on text content.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/tfidf/6a.png
    :alt: TFIDF
-   :width: 100%
+   :width: 70%

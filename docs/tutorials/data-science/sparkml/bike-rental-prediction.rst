@@ -20,7 +20,7 @@ The below workflow:
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/1.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
 
 Reading from Dataset
 ---------------------
@@ -32,14 +32,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/2.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/2a.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Extract Hour from Time using Datatype Timestamp
 ------------------------------------------------
@@ -51,14 +51,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/3.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/3a.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Cast Count to Double type
 -----------------------------------
@@ -70,14 +70,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/4.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/4a.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
 
 Assemble Features for Modelling
 ---------------------------------
@@ -89,14 +89,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/5.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/5a.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
 
 Calculate VectorIndexer
 -----------------------
@@ -108,14 +108,14 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/6.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/6a.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 Split it
 ---------
@@ -127,7 +127,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/7.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
    
 GBTRegression
@@ -140,7 +140,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/8.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
    
 Prediction
@@ -153,7 +153,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/9.png
    :alt: Bike Rental Prediction
-   :width: 100%
+   :width: 65%
    
 
 
@@ -167,6 +167,6 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/bike-rental-prediction/10.png
    :alt: Bike Rental Prediction
-   :width: 80%
+   :width: 65%
    
    

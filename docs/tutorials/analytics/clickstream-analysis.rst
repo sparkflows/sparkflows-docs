@@ -41,7 +41,7 @@ Users Data
    :width: 70%
  
  
-Number of users by state and displays them on a map
+Count number of users by ``state`` and displays it on map
 ---------------------------------------------------
 Configuration 
 ^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Result
    :width: 70%
 
 
-Number of users by age and displays them on a graph
+Count number of users by ``age`` and display it as a line chart
 ---------------------------------------------------
 
 Caluclation 

@@ -6,27 +6,27 @@ Create the AutoML experiment with PyCaret package by selecting PyCaret from the 
 
 * Add required details and select AutoML package as PyCaret.
 
-.. figure:: ../../_assets/auto-ml/pycaret1.PNG
-      :alt: auto-ml
-      :width: 90%
+      .. figure:: ../../_assets/auto-ml/pycaret1.PNG
+         :alt: auto-ml
+         :width: 65%
 
 
 
 
 * Add Pycaret Configurations. 
 
-.. figure:: ../../_assets/auto-ml/pycaret2.PNG
-      :alt: auto-ml
-      :width: 90%
+      .. figure:: ../../_assets/auto-ml/pycaret2.PNG
+         :alt: auto-ml
+         :width: 65%
       
       
-.. figure:: ../../_assets/auto-ml/pycaret3.PNG
-      :alt: auto-ml
-      :width: 90%
+      .. figure:: ../../_assets/auto-ml/pycaret3.PNG
+         :alt: auto-ml
+         :width: 65%
       
       
 * Click on the ``SAVE`` button to save the AutoML experiment details. Click on the ``START`` button to run the training data on the selected algortihms. On completion of the AutoML run, the Leaderboard and feature columns will be displayed as shown below.
 
-.. figure:: ../../_assets/auto-ml/pycaret4.PNG
-      :alt: auto-ml
-      :width: 90%
+      .. figure:: ../../_assets/auto-ml/pycaret4.PNG
+         :alt: auto-ml
+         :width: 65%

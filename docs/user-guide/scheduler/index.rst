@@ -45,7 +45,7 @@ Each of the above fields is described below:
    8. ``End date``: This can be used to specify when should the job should stop getting scheduled. One can specify date and time and the scheduled job will stop getting scheduled after the stop date has elapsed. For e.g., one can schedule a job to run hourly but stop getting scheduled three days later using this feature.
    9. ``Schedule frequency``: One can choose the frequency of the job by choosing from the options below along with the time zone:
          a. ``Minute`` : Will schedule the Job every X minutes.
-         b. ``Hourly`` : Will schedule the Job every X hours.
+         b. ``Hourly`` : Will schedule the Job every hour at X minutes.
          c. ``Daily`` : Will schedule the Job daily at X hour and Y minutes.
          d. ``Weekly``  : Will schedule the Job weekly on X day, Y hour and Z minutes.
          e. ``Monthly`` : Will schedule the Job monthly at X day, Y hour and Z minutes.

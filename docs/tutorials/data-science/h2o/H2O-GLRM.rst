@@ -1,20 +1,20 @@
 H2O GLRM
 ==========
 
-This workflow performs reconstructing missing values and identifying important features in heterogeneous with Creditcardfraud Dataset, It uses H2O’s GLRM.
+This workflow performs reconstructing missing values and identifying important features in heterogeneous with Creditcardfraud dataset. It uses H2O’s GLRM.
 
 Workflow
 -------
 
 The below workflow:
 
-* Read the Creditcardfraud Dataset.
-* Perform reconstructing missing values and identifying important features in heterogeneous and create model using H2O GLRM.
-* Print the results.
+* Reads the Creditcardfraud dataset.
+* Performs reconstructing missing values and identifying important features in heterogeneous and create model using H2O GLRM.
+* Prints the results.
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/1.PNG
    :alt: H2O GLRM
-   :width: 90%
+   :width: 70%
 
 H2O GLRM Configuration
 ---------------------
@@ -25,7 +25,7 @@ H2O GLRM Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/2.PNG
    :alt: H2O GLRM
-   :width: 90%
+   :width: 75%
 
 Results
 ---------------------
@@ -34,8 +34,8 @@ Once the above workflow is getting Executed, Below details can be seen on Execut
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/3.PNG
    :alt: H2O GLRM
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-GLRM/4.PNG
    :alt: H2O GLRM
-   :width: 90%   
+   :width: 75%   

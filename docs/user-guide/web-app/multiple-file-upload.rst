@@ -7,19 +7,19 @@ Fire Insights enables you to upload multiple file in Analytics App.
 
       .. figure:: ../../_assets/web-app/upload-1.png
             :alt: web-app
-            :width: 70%
+            :width: 80%
 
 - Add one text field to add ``DESTINATION PATH`` where the browse file should get uploaded. Set its label as ``destinationPath``. Add key and its value in "CUSTOM PROPERTIES" where key as ``for`` and value as property name of file component e.g. ``file1``.
 
       .. figure:: ../../_assets/web-app/destination-path-1.png
             :alt: web-app
-            :width: 70%
+            :width: 80%
 
 - Add upload button and set the action to ``event``. Set the button event name to ``upload``. Add key and its value in "CUSTOM PROPERTIES" where key as ``for`` and value as property name of file component e.g. ``file1``.
 
       .. figure:: ../../_assets/web-app/upload-2.png
             :alt: web-app
-            :width: 70%
+            :width: 80%
 
 - If we want the user to map the columns of the file uploaded, below are the steps for it
 
@@ -32,4 +32,4 @@ Fire Insights enables you to upload multiple file in Analytics App.
 
       .. figure:: ../../_assets/web-app/map-1.png
             :alt: web-app
-            :width: 70%
+            :width: 80%

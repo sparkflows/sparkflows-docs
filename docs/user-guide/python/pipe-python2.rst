@@ -10,8 +10,8 @@ The Python script is written in the Workflow Editor.
 Below is an example workflow containing Pipe Python2 Processor.
 
 .. figure:: ../../_assets/user-guide/pipe-python-workflow1.png
-   :scale: 50%
    :alt: Pipe Python Workflow
+   :width: 65%
 
 Input DataFrame Schema
 -----------------------
@@ -88,8 +88,8 @@ Below is an example code for writing the Pandas Schema back to Spark. It is used
 
 Fire expects each line of the schema file to contain the following:
 
-* Name of the column
-* Data Type of the column
+* Name of the column.
+* Data Type of the column.
 
 There can be multiple spaces between the name and the data type.
 
@@ -122,7 +122,7 @@ Output Schema of the Python Script
 The output schema of the Python Script is written to a file which is read by the Spark Code. Clicking on **Refresh Schema** infers the Python Schema output into Spark.
 
 .. figure:: ../../_assets/user-guide/pipe-python-schema-2.png
-   :scale: 50%
    :alt: Pipe Python Schema
+   :width: 80%
    
    

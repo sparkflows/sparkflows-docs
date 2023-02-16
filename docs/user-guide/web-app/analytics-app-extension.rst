@@ -11,36 +11,36 @@ Also, the output of the execution of one Notebook, can go as input to the next N
 Steps
 -----
 
-Users can set workflow/Notebook at stage label. The run stage has the option to set workflow or notebook. Users can choose a specific workflow or notebook here for execution.
+Users can set workflow or Notebook at stage label. The run stage has the option to set workflow or notebook. Users can choose a specific workflow or notebook here for execution.
 
 .. figure:: ../../_assets/web-app/wae-change-notebook.png
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
-On Clicking on Change Workflow/Notebook icon, a popup dialog will appear. Users can select workflow/notebook for current stage execution.
+On Clicking on Change Workflow or Notebook icon, a popup dialog will appear. Users can select workflow or notebook for current stage execution.
 
 .. figure:: ../../_assets/web-app/wae-select-notebook.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 When users run Analytics App, they will land on the first stage.
 
 .. figure:: ../../_assets/web-app/wae-first-parameters.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 The next stage is the first run stage
 
 .. figure:: ../../_assets/web-app/wae-first-execution.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 
 There is a change in the next button on the run stage. Its API property name should be **afterRun**. Also in the Display tab, set it to ``disabled``.
 
 .. figure:: ../../_assets/web-app/wae-execution-next.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 
 
@@ -48,32 +48,32 @@ When the workflow or the notebook is executed, it may output some parameters. Th
 
 .. figure:: ../../_assets/web-app/wae-execution-result-parameters.png
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 
 After clicking on the Next button, the user will go to the second parameters stage. The result parameters would get displayed here. Users can updated the values for the parameters.
 
 .. figure:: ../../_assets/web-app/wae-result-parameters.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
-In order to capture the result parameters there is a fieldset in the page/stage.
+In order to capture the result parameters there is a fieldset in the page or stage.
 
 .. figure:: ../../_assets/web-app/wae-result-parameters-edit.png
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 The name of the Fieldset property should be **parameters**.
 
 .. figure:: ../../_assets/web-app/wae-result-parameters-edit1.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
-The next stage is final execution. Users would click Run to execute this stage. The result parameters would also be passed as inputs to notebook/workflow execution.
+The next stage is final execution. Users would click Run to execute this stage. The result parameters would also be passed as inputs to notebook or workflow execution.
 
 .. figure:: ../../_assets/web-app/wae-final-execution.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
       
       
 .. note::  

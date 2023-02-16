@@ -1,11 +1,11 @@
 Advance Parameters Design
 ======================
 
-In the Parameters stage, components  can be added by choosing ``select text-field, select boxes, buttons, etc.``. These elements also have options to add condition and logic.
+In the Parameters stage, components  can be added by choosing ``select text-field, select boxes, buttons,`` etc. These elements also have options to add condition and logic.
 
 .. figure:: ../../../_assets/web-app/LogicForm.PNG
       :alt: web-app
-      :width: 80%
+      :width: 70%
       
 Conditional
 --------------
@@ -17,13 +17,13 @@ Conditional
 
   .. figure:: ../../../_assets/web-app/ConditionSimple.PNG
       :alt: web-app
-      :width: 90%
+      :width: 80%
       
 - For Advance conditions, the user needs to enter custom javascript code. The user must assign the variable names ``show`` to a boolean result.
 
   .. figure:: ../../../_assets/web-app/ConditionAdvance.PNG
       :alt: web-app
-      :width: 80%
+      :width: 70%
       
 Logic
 --------------
@@ -36,20 +36,20 @@ For example:
 
   .. figure:: ../../../_assets/web-app/LogicSimple1.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
       
 - For Javascript trigger the user needs to enter custom javascript code. The code will return a ``result`` variable.
 
 
   .. figure:: ../../../_assets/web-app/LogicJavascript.PNG
       :alt: web-app
-      :width: 80%
+      :width: 70%
       
 - Every logic has at least one action. Action will return a ``value`` variable.
 
   .. figure:: ../../../_assets/web-app/LogicSimple2.PNG
       :alt: web-app
-      :width: 80%
+      :width: 70%
       
       
       

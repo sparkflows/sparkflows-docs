@@ -1,7 +1,7 @@
 Parameters Stage
 ======================
 
-In the parameters stage, we can add ``select, text-field, select boxes, buttons, etc`` components.
+In the parameters stage, we can add ``select, text-field, select boxes, buttons,`` etc. components.
 
 For example: 
 
@@ -30,7 +30,7 @@ For example:
       :width: 80%
    
 
--  Add the next button in the second column to go to the next stage and perform actions depending upon the event.  Set its event name as ``next``. We can also add CUSTOM CSS      CLASS like          ``float-right, float-left`` etc.
+-  Add the next button in the second column to go to the next stage and perform actions depending upon the event.  Set its event name as ``next``. We can also add CUSTOM CSS      CLASS like          ``float-right, float-left,`` etc.
 
    .. figure:: ../../../_assets/web-app/add-stage-parameters-next.PNG
       :alt: web-app

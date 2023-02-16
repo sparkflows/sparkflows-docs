@@ -22,7 +22,7 @@ The below workflow:
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/1.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
 
 Reading from Dataset
 ---------------------
@@ -34,14 +34,14 @@ Processor Configuration
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/2.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/2a.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
   
   
 Date and Time Field Extract
@@ -49,14 +49,14 @@ Date and Time Field Extract
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/3.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
 
 VectorAssembler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/4.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
 
 
 LoopDistinctValue
@@ -65,7 +65,7 @@ Node to loop through the data for distinct values in the selected columns.
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/5.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
    
 LinearRegression
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -73,7 +73,7 @@ Fitting the line with Regression model.
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/6.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
    
 ModelSummary
 ^^^^^^^^^^^^^
@@ -83,13 +83,13 @@ Summary can be saved and analyzed.
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/7.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%
 
 
 ModelPrediction and Evalaution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Precdcit on test data & evaluate.
+Predict on test data & evaluate.
 
    .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/8.png
       :alt: Stock Prediction
-      :width: 70%
+      :width: 75%

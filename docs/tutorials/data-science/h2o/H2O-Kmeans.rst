@@ -18,7 +18,7 @@ The below workflow:
    :alt: H2O K-means
    :width: 65%
 
-H2O KMeans Clustering Configuration
+H2O K-means Clustering Configuration
 ---------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/clustering-config.png

@@ -1,25 +1,25 @@
-Wine Quality with custom code in pyspark node
+Wine Quality with Custom Code in PySpark Node
 =============================================
 
-This workflow performs building the custom model in pyspark node.
+This workflow performs building the custom model in PySpark node.
    
 Workflow
 -------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/workflow.png
    :alt: WineQuality
-   :width: 90%
+   :width: 70%
 
 Custom Code
 ---------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/custom-code.png
    :alt: WineQuality
-   :width: 90%
+   :width: 70%
    
    
    
-code in pyspark node
+Code in PySpark Node
 ---------------------
 ::
 
@@ -94,11 +94,11 @@ Result
 
 .. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/result-1.png
    :alt: WineQuality
-   :width: 90%
+   :width: 70%
 
 
 .. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/result-2.png
    :alt: WineQuality
-   :width: 90%
+   :width: 70%
    
    

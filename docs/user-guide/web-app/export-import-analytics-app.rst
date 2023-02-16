@@ -18,19 +18,19 @@ Fire allows you to export Analytics App and download them to your computer.
 Below are the steps for exporting Analytics App in Fire.
 
 
-* Go to the Analytics Apps Page
+* Go to the Analytics Apps Page.
 
 * Then click on the Export button.
 
   .. figure:: ../../_assets/web-app/export-app-1.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
      
-* Fire will now export Analytics Application and download them to your computer as json file.
+* Fire will now export Analytics Application and download them to your computer as JSON file.
 
   .. figure:: ../../_assets/web-app/export-app-2.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
      
 Importing Analytics App
 --------
@@ -40,38 +40,38 @@ Fire allows you to import Analytics Application. Below are the steps for importi
 * Go to the Analytics Apps Page
 
   - Click on the Import button. 
-  - It has 2 dropdown option i.e Import and Import into databricks.
+  - It has 2 dropdown option i.e. Import and Import into databricks.
   
    .. figure:: ../../_assets/web-app/import-app-1.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
       
   - IMPORT : 
-             - Here, you can only import json file without selecting any import options.
-             - Choose the json file from your computer to Import from. You must have downloaded this json file from Fire during the export process.
+             - Here, you can only import JSON file without selecting any import options.
+             - Choose the JSON file from your computer to Import from. You must have downloaded this JSON file from Fire during the export process.
   
   .. figure:: ../../_assets/web-app/import-app-2.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
       
   - IMPORT INTO DATABRICKS : 
                              - Here, you can only import json file by selecting any import options.
-                             - Choose the json file from your computer to Import from. You must have downloaded this json file from Fire during the export process.
+                             - Choose the JSON file from your computer to Import from. You must have downloaded this JSON file from Fire during the export process.
                              - Select any one option which you wants to. 
 
  .. figure:: ../../_assets/web-app/import-app-3.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 There are three options when importing Analytics App:
 
 * EXISTING JOB ID IN ANALYTICAL APPS
 
-   -  Analytic App is imported with existing jobId present in exported json file.
+   -  Analytic App is imported with existing jobId present in exported JSON file.
    
     .. figure:: ../../_assets/web-app/import-app-3.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 * USE EXISTING JOB WITH MATCHING NOTEBOOK PATH IF EXISTS OR ELSE CREATE NEW JOB
 
@@ -79,7 +79,7 @@ There are three options when importing Analytics App:
   
    .. figure:: ../../_assets/web-app/import-app-4.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 * CREATE NEW JOB WITH NOTEBOOK PATH
 
@@ -87,6 +87,6 @@ There are three options when importing Analytics App:
 
   .. figure:: ../../_assets/web-app/import-app-5.PNG
       :alt: web-app
-      :width: 90%
+      :width: 70%
 
 

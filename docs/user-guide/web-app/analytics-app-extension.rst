@@ -29,7 +29,7 @@ When users run Analytics App, they will land on the first stage.
       :alt: web-app
       :width: 70%
 
-The next stage is the first run stage
+The next stage is the first run stage.
 
 .. figure:: ../../_assets/web-app/wae-first-execution.PNG
       :alt: web-app

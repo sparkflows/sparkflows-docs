@@ -1,7 +1,7 @@
 Integrating with Databricks Notebook
 =========================
 
-The Analytics App in Fire Insights can trigger a Notebook in Databricks whose output will be displayed in the Analyticals App.
+The Analytics App in Fire Insights can trigger a Notebook in Databricks whose output will be displayed in the Analytical Apps.
 
 Fire Insights passes 2 parameters to the Notebook:
 
@@ -11,19 +11,21 @@ Fire Insights passes 2 parameters to the Notebook:
 Add wheel file to your Databricks Notebook
 ------------------
 
-Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API for sending data to it. (Download Wheel File at  https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl)
+Add the wheel file to your Databricks Notebook. This is to enable using the Fire Insights API for sending data to it. 
+
+Download Wheel File at:  https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl
 
 
 Output details to Analytical Apps
 ---------------------
 
-The Databricks Notebook can output texts, tables, charts, html code and progress bar to be displayed in the analytical app..
+The Databricks Notebook can output texts, tables, charts, HTML code and progress bar to be displayed in the analytical app.
 
 
 Step One: Create a RestWorkflowContext Object
 +++++++++++++++++++++++
 
-First create a ``RestWorkflowContext`` for communicating with Fire Insights Server ::
+First create a ``RestWorkflowContext`` for communicating with Fire Insights server. ::
 
     jobId = dbutils.widgets.get("job-id")
     webserverURL = dbutils.widgets.get("postback-url")
@@ -42,7 +44,7 @@ Output as Text
 +++++++++
 
 
-Below is how to output text to Fire Insights ::
+Below is how to output text to Fire Insights. ::
 
     restworkflowcontext.outStr(9, "Test String", text="text")
 
@@ -51,7 +53,7 @@ Output PySpark Dataframe as Table
 +++++++++
 
 
-The below code outputs the contents of PySpark Dataframe to Fire Insights as a table. By deafult 10 rows will be displayed::
+The below code outputs the contents of PySpark DataFrame to Fire Insights as a table. By deafult 10 rows will be displayed. ::
     
     from pyspark.sql.types import *
 
@@ -64,11 +66,11 @@ The below code outputs the contents of PySpark Dataframe to Fire Insights as a t
     #To display 3 rows
     restworkflowcontext.outDataFrame(9, "PySpark Dataframe", df, 3)
 
-Output Pandas Dataframe as Table
+Output Pandas DataFrame as Table
 +++++++++
 
 
-The below code outputs the contents of Pandas Dataframe to Fire Insights as a table.  By deafult 10 rows will be displayed::
+The below code outputs the contents of Pandas DataFrame to Fire Insights as a table.  By deafult 10 rows will be displayed. ::
 
     # list of strings
     lst = ['Geeks', 'For', 'Geeks', 'is',
@@ -87,7 +89,7 @@ Output as Charts
 +++++++++
 
 
-Output the chart in fire by selecting x & y column We can display Column , Bar & Line chart types as outputs.::
+Output the chart in fire by selecting x & y column. We can display Column , Bar & Line chart types as outputs. ::
     
     from pyspark.sql.types import *
 
@@ -106,7 +108,7 @@ Output as HTML
 +++++++++
 
 
-Below is how to output html to Fire Insights ::
+Below is how to output HTML to Fire Insights. ::
     
     htmlstr1 = "<h3>You can view HTML code in notebooks.</h3>"
  
@@ -116,7 +118,7 @@ Plotly with Fire Insights
 +++++++++++++
 
 
-Below is how to output plotly to Fire Insights ::
+Below is how to output plotly to Fire Insights. ::
     
     import plotly.graph_objs as go
     import plotly
@@ -132,7 +134,7 @@ Output Parameters
 +++++++++++++++++++++
 
 
-When we want to display a list of values we use the below code to generate the output::
+When we want to display a list of values we use the below code to generate the output: ::
     
     parameters = [("radio", "Industries", "Natural Resources, Construction, IT, Services, Finance, Real Estate, Others"), 
               ("checkbox", "Education, Position", "Graduate, Manager"),
@@ -147,7 +149,7 @@ Output Messages
 ++++++++++++++
 
 
-This output is used by the Analytical App to show the Execution Status of the job. 
+This output is used by the analytical app to show the Execution Status of the job. 
 
 
 ::
@@ -197,7 +199,7 @@ If a user doesn’t enter a value within 120 seconds, it will return a default r
 Conclusion
 ---------------------
 
-This way we can use Analytical Apps to interface our Databricks Notebook with a user-friendly interface to business and other project stakeholders.
+This way we can use analytical apps to interface our Databricks Notebook with a user-friendly interface to business and other project stakeholders.
 
 DataBricks NoteBook Code Example
 +++++++++++

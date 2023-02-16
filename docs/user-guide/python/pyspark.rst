@@ -1,7 +1,7 @@
 PySpark Processor
 =======
 
-Fire Insights provides a PySpark processor for writing PySpark/Python code.
+Fire Insights provides a PySpark processor for writing PySpark or Python code.
 
 Interface
 ---------
@@ -32,7 +32,7 @@ WorkflowContext provides the following methods for outputting data to the user::
 Example 1
 -------
 
-Below is an example code for the PySpark Node.
+Below is an example code for the PySpark Node:
 
 .. code-block:: python
     :linenos:
@@ -51,7 +51,7 @@ Below is an example code for the PySpark Node.
 Example 2
 ---------
 
-Below is another example which uses sklearn
+Below is another example which uses sklearn:
 
 .. code-block:: python
     :linenos:

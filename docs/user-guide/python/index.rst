@@ -8,7 +8,7 @@ Sparkflows supports Python in Workflows in a few ways:
     
     :doc:`/user-guide/python/pyspark`
 
-    The PySpark Processor allows writing PySpark/Python code to processes the incoming DataFrame and create a new DataFrame. It can also be used to build scikit-learn models act.
+    The PySpark Processor allows writing PySpark or Python code to processes the incoming DataFrame and create a new DataFrame. It can also be used to build scikit-learn models act.
 
     ---
 

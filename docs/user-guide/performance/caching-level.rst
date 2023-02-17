@@ -14,7 +14,7 @@ It is important to set it to MEMORY_AND_DISK in the following scenarios:
 
 * If the dataset is going to be reused later. Below are some examples.
 
-  * A dataset is read from HBase. Then another dataset is read and the two are joined. In this case it is a good idea to Cache the dataset read from HBase.
+  * A dataset is read from HBase. Then another dataset is read and the two are joined. In this case, it is a good idea to Cache the dataset read from HBase.
   * A dataset is joined with another dataset. The result is then joining with another dataset. In this case, it is a good idea to cache the result of the first Join.
   
 * A Dataset which is used in machine learning.

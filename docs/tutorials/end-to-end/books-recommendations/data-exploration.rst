@@ -13,13 +13,13 @@ Exploring Books Dataset
 
 The below workflow: 
 
-* Graphs the distribution of books by the year published
-* Calculates the cardinality of the string columns
+* Graphs the distribution of books by the year published.
+* Calculates the cardinality of the string columns.
 
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_exploration.PNG
    :alt: books-recommendations
-   :width: 90%
+   :width: 70%
    
 
 Grouping Books by Year Published
@@ -32,7 +32,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -40,7 +40,7 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Columns Cardinality
@@ -53,7 +53,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -61,20 +61,20 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BE_Cardinality_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
 
 Exploring Users Dataset
 ------------------------
 The below workflow: 
 
-* Graphs a count of the users grouped by age
-* Finds the number of NULL values in each column
+* Graphs a count of the users grouped by age.
+* Finds the number of NULL values in each column.
 
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/users_exploration.PNG
    :alt: books-recommendations
-   :width: 90%
+   :width: 75%
    
 
 Grouping Users by Age
@@ -87,7 +87,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -95,7 +95,7 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Finding Number of NULL Values in Columns
@@ -108,7 +108,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -116,20 +116,20 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/UE_Null_Values_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
 
 Exploring Ratings Dataset
 -------------------
 The below workflow: 
 
-* Graphs the distribution of reviews by rating, excluding the zero rating
-* Prints a sample of the dataset out
+* Graphs the distribution of reviews by rating, excluding the zero rating.
+* Prints a sample of the dataset out.
 
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/ratings_exploration.PNG
    :alt: books-recommendations
-   :width: 90%
+   :width: 75%
    
 
 Grouping Reviews by Rating
@@ -142,7 +142,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -150,7 +150,7 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Printing Row Values
@@ -163,7 +163,7 @@ Processor Configuration
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%
 
    
 Processor Output
@@ -171,4 +171,4 @@ Processor Output
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/RE_Print_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 75%

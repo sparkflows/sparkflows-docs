@@ -182,7 +182,7 @@ One need to ensure correct cron expression is used for running the job every 45t
 +++++
 
 **Issue Details**
-The Cron Expression has been copied from external website and then one tries to run the Pipeline.
+Let's assume the Cron Expression has been copied from external website. Then one tries to run the Pipeline and the job fails.
 
 **Resolution**
 Ensure that there is no extra space and unwanted characters in the Cron Expression. 

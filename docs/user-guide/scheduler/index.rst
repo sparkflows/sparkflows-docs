@@ -168,10 +168,12 @@ Check the Machine Configuration.
 +++++
 
 **Issue Details**
+
 Lets conside a typical example of misperception.
 The Piopeline Schedule is showing that Job is running at say every 15th minute of the hour as opposed to 45th min of the hour
 
 **Resolution**
+
 Let's assume a Job was scheduled in IST time to run every 45th minute.
 But when viewed in CDT timezone it may give a wrong impression that the job is running at the 15th min of the hour.
 Note: 8:45 am IST is 9:15 pm CDT
@@ -182,7 +184,9 @@ One need to ensure correct cron expression is used for running the job every 45t
 +++++
 
 **Issue Details**
+
 Let's assume the Cron Expression has been copied from external website. Then one tries to run the Pipeline and the job fails.
 
 **Resolution**
+
 Ensure that there is no extra space and unwanted characters in the Cron Expression. 

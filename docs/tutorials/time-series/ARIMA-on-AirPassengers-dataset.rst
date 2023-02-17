@@ -24,18 +24,19 @@ The auto_arima work to fit the best ARIMA(Autoregressive Integrated Moving Avera
 
 The auto_arima capacity can be overwhelming. There are a ton of boundaries to tune, and the result is vigorously subject to various themes. In this segment, we spread out a few contemplations you'll need to make when you fit your ARIMA models.
 
-   .. figure:: ../../_assets/tutorials/time-series/arima_wf.png
-      :alt: Stock Forecasting
-      :width: 70%
+.. figure:: ../../_assets/tutorials/time-series/arima_wf.png
+   :alt: Stock Forecasting
+   :width: 70%
 
 Node 1 - ReadCSV
 ++++++++++++++++
 
 * Reads the given CSV file : AirPassengers.csv
 
-   .. figure:: ../../_assets/tutorials/time-series/ARIMA_readcsv.png
-      :alt: Stock Forecasting
-      :width: 75%
+.. figure:: ../../_assets/tutorials/time-series/ARIMA_readcsv.png
+   :alt: Stock Forecasting
+   :width: 75%
+   
 
 Node 2 - ARIMA
 ++++++++++++++++
@@ -52,18 +53,18 @@ Not to worry about p,d,q in this case because we have an interesting model calle
 * FORECAST - Number of steps you want to forecast.
 
 
-   .. figure:: ../../_assets/tutorials/time-series/ARIMA_model.png
-      :alt: Stock Forecasting
-      :width: 75%
+.. figure:: ../../_assets/tutorials/time-series/ARIMA_model.png
+   :alt: Stock Forecasting
+   :width: 75%
    
 Summary
 ++++++++
  
 * The model summary reveals a lot of information.
    
-   .. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
-      :alt: Stock Forecasting
-      :width: 75%
+.. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
+   :alt: Stock Forecasting
+   :width: 75%
 
 Node 3 - ZipWithIndex
 +++++++++++++++++++++
@@ -75,15 +76,15 @@ Node 4 - PrintNRows
 
 * Number of rows you want to print to see the final result.
 
-   .. figure:: ../../_assets/tutorials/time-series/arima_print.PNG
-      :alt: Stock Forecasting
-      :width: 75%
+.. figure:: ../../_assets/tutorials/time-series/arima_print.PNG
+   :alt: Stock Forecasting
+   :width: 75%
    
 Final Result
 ------------
  
 Lets check a few rows of forecasted data by ARIMA Model.
  
-   .. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
-      :alt: Stock Forecasting
-      :width: 75%
+.. figure:: ../../_assets/tutorials/time-series/arima_predicted_result.png
+   :alt: Stock Forecasting
+   :width: 75%

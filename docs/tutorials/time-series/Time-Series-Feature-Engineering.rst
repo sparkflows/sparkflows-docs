@@ -66,7 +66,7 @@ Lags Feature
 
 * Lag is used to make non-stationary data into stationary data.
 * Outliers are easily discernible on a lag plot.
-* acf and pacf plots are used to calcluate best lags.
+* Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots are used to calcluate best lags.
 
 **Lag one**
 

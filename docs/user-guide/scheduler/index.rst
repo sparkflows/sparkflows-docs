@@ -177,3 +177,12 @@ But when viewed in CDT timezone it may give a wrong impression that the job is r
 Note: 8:45 am IST is 9:15 pm CDT
 
 One need to ensure correct cron expression is used for running the job every 45th min.
+
+3. Pipeline is not getting trigerred at all
++++++
+
+**Issue Details**
+The Cron Expression has been copied from external website and then one tries to run the Pipeline.
+
+**Resolution**
+Ensure that there is no extra space and unwanted characters in the Cron Expression. 

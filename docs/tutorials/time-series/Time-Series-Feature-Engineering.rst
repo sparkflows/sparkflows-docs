@@ -79,7 +79,7 @@ Lags Feature
 
 **Lag seven** 
  
-* Window shift is seven
+* Window shift is seven.
  
  .. figure:: ../../_assets/tutorials/time-series/ts_features/all_lags.png
     :alt: Stock Forecasting

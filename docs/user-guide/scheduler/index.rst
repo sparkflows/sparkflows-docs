@@ -138,7 +138,7 @@ Notes
 Troubleshooting
 -----
 
-Pipeline is not running consistently in Airflow
+1. Pipeline is not running consistently in Airflow
 +++++
 
 **Issue Details**
@@ -164,7 +164,7 @@ Check the Machine Configuration.
 * Ensure Airflow Instance is configured with enough Memory and Processing Cores. 
 
 
-It seems job is running at a wrong schedule
+2. It seems job is running at a wrong schedule
 +++++
 
 **Issue Details**

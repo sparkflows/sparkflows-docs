@@ -139,7 +139,7 @@ Troubleshooting
 Pipeline is not running consistently in Airflow
 +++++
 
-**Issue Description**
+**Issue Details**
 
 There could be different reasons for this issue.
 
@@ -160,3 +160,18 @@ Check the Machine Configuration.
 
 * Check DAGs in Airflow are not queued up.
 * Ensure Airflow Instance is configured with enough Memory and Processing Cores. 
+
+
+It seems job is running at a wrong schedule
++++++
+
+**Issue Details**
+Lets conside a typical example of misperception.
+The Piopeline Schedule is showing that Job is running at say every 15th minute of the hour as opposed to 45th min of the hour
+
+**Resolution**
+Let's assume a Job was scheduled in IST time to run every 45th minute.
+But when viewed in CDT timezone it may give a wrong impression that the job is running at the 15th min of the hour.
+Note: 8:45 am IST is 9:15 pm CDT
+
+One need to ensure correct cron expression is used for running the job every 45th min.

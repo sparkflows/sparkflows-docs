@@ -13,9 +13,11 @@ End to End Tutorials
     :doc:`/tutorials/end-to-end/price-elasticity/index`
 
     Finds the price elasticity of all SKUs.
-
-    ---
     
+
+
+
+
 .. toctree::
    
    books-recommendations/index.rst

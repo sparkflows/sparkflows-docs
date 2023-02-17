@@ -19,6 +19,7 @@ End to End Tutorials
 
 
 .. toctree::
+   :hidden:
    
    books-recommendations/index.rst
    price-elasticity/index.rst

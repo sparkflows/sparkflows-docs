@@ -64,7 +64,7 @@ Summary
    
 .. figure:: ../../_assets/tutorials/time-series/ARIMA_summary.png
    :alt: Stock Forecasting
-   :width: 75%
+   :width: 65%
 
 Node 3 - ZipWithIndex
 +++++++++++++++++++++

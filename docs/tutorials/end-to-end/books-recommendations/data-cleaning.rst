@@ -11,14 +11,14 @@ Workflow Overview
 -------------------
 The below workflow: 
 
-* Casts a string columns to a double type column
-* Joins the Books and Ratings datasets
-* Filters out rows that will be detrimental to modelling
-* Joins the Users with other datasets
-* Drops unnecessary columns
-* Calculates summary statistics
-* Coalesces data for export
-* Saves data to HDFS for later use
+* Casts a string columns to a double type column.
+* Joins the Books and Ratings datasets.
+* Filters out rows that will be detrimental to modelling.
+* Joins the Users with other datasets.
+* Drops unnecessary columns.
+* Calculates summary statistics.
+* Coalesces data for export.
+* Saves data to HDFS for later use.
 
 .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_data_prep.PNG
    :alt: titanic-data-cleaning

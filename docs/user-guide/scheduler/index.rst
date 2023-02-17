@@ -130,7 +130,7 @@ Notes
 
 * If there are too many pipelines yet to be exeucted, they will get queued up and will execute once the previous pipelines have completed.
 
-* If the job is scheduled at every X minutes, it will execute at the beginning of the hour and then every X minutes in that hour" and then then the counter resets. For example: If the current time is 5:00 and a job is scheduled to run every 25 minutes , it would run at 5:00, 5:25,5:50, 6:00, 6:25, 6:50. If  the job needs to run at 5:00, 5:25, :5:50, 6:15, 6:40 ( every 25 minutes in true sense), then one would need to use a CRON expression.
+* If the job is scheduled at every X minutes, it will execute at the beginning of the hour and then every X minutes in that hour" and then then the counter resets. For example: If the current time is 5:00 and a job is scheduled to run every 25 minutes , it would run at 5:00, 5:25,5:50, 6:00, 6:25, 6:50. If  the job needs to run at 5:00, 5:25, :5:50, 6:15, 6:40 (every 25 minutes in true sense), then one would need to use a CRON expression.
 
 
 Troubleshooting

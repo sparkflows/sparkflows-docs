@@ -1,7 +1,7 @@
-Executor Memory and VCores
+Executor memory and vCores
 =======================
 
-When running Apache Spark jobs, we can define the number of executors, executor memory and number of vcores per executor.
+When running Apache Spark jobs, we can define the number of executors, executor memory and number of vCores per executor.
 
 Normally dynamic allocation of executors is enabled, and we do not need to specify the number of executors.
 

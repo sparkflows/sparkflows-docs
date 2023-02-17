@@ -24,7 +24,7 @@ The auto_arima work to fit the best ARIMA(Autoregressive Integrated Moving Avera
 
 The auto_arima capacity can be overwhelming. There are a ton of boundaries to tune, and the result is vigorously subject to various themes. In this segment, we spread out a few contemplations you'll need to make when you fit your ARIMA models.
 
-   .. figure:: ../../_assets/tutorials/time-series/arima_wf.PNG
+   .. figure:: ../../_assets/tutorials/time-series/arima_wf.png
       :alt: Stock Forecasting
       :width: 70%
 

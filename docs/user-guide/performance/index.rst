@@ -4,20 +4,20 @@ Performance Tuning
 
 Performance is the cornerstone of any Big Data Processing. Fire is extremely optimized for best performance. Each of the Processors are written for extreme performance, the engine is optimized for the best performance.
 
-There are certain things which need to be taken into account for any Spark job. Fire makes it extremely easy to apply them to a Workflow.
+There are certain things which need to be taken into account for any Spark job. Fire makes it extremely easy to apply them to a workflow.
 
 .. panels::
     :container: container-lg pb-3
 
     :doc:`/user-guide/performance/caching-level`
 
-    Setting the right caching level of the Dataset outputs of the nodes is very important for performance in Apache Spark.
+    Setting the right caching level of the dataset outputs of the nodes is very important for performance in Apache Spark.
 
     ---
 
     :doc:`/user-guide/performance/runtime-resources`
 
-    When running Apache Spark jobs, we can define the number of executors, executor memory and number of vcores per executor.
+    When running Apache Spark jobs, we can define the number of executors, executor memory and number of vCores per executor.
 
     ---  
 

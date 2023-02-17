@@ -7,15 +7,15 @@ Recommending Books Based on Popularity
 -------------------------
 The below workflow: 
 
-* Groups the Ratings by ISBN
-* Calculates the weighting rating for each book
-* Sorts the books by their weighted rating
-* Prints out a top 20 list of the best books to recommend
+* Groups the Ratings by ISBN.
+* Calculates the weighting rating for each book.
+* Sorts the books by their weighted rating.
+* Prints out a top 20 list of the best books to recommend.
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_popularity.PNG
-   :alt: books-recommendations
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_popularity.PNG
+      :alt: books-recommendations
+      :width: 70%
    
 
 Grouping Ratings by ISBN
@@ -26,17 +26,17 @@ We use the ``Group By`` processor to group the data based on values from a singl
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Group_By_Output.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Calculating Weighted Ratings
@@ -47,17 +47,17 @@ We use the ``Math Expression`` processor to create a new column based on a user-
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Math_Output.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
 
 Sorting Books by Weighted Ratings
@@ -68,9 +68,9 @@ We use the ``Sort By`` processor to sort the data based on the numeric values in
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Sort_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Sort_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Printing the Top 20 Books to Recommend
@@ -81,17 +81,17 @@ We use the ``Print N Rows`` processor to display a certain number of rows from t
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRP_Print_Output.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
 
 
@@ -100,17 +100,17 @@ Recommending Books Based on ALS
 -------------------------
 The below workflow: 
 
-* Indexes the string column ISBN
-* Splits the data into training and testing datasets
-* Builds an ALS model using SparkML
-* Filters the rows to remove NaN values
-* Graphs the predicted values
-* Calculates the RMSE of the ALS model
+* Indexes the string column ISBN.
+* Splits the data into training and testing datasets.
+* Builds an ALS model using SparkML.
+* Filters the rows to remove NaN values.
+* Graphs the predicted values.
+* Calculates the RMSE of the ALS model.
 
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_als.PNG
-   :alt: books-recommendations
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_als.PNG
+      :alt: books-recommendations
+      :width: 75%
    
    
    
@@ -122,9 +122,9 @@ We use the ``String Indexer`` processor to index / convert a string column to a 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_String_Indexer_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_String_Indexer_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
    
    
 Splitting the Data
@@ -135,9 +135,9 @@ We use the ``Split`` processor to split the data into training and testing datas
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Split_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Split_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
    
    
 Building an ALS Model
@@ -148,9 +148,9 @@ We use the ``ALS`` processor to build and ALS (Alternating Least Squares) model 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_ALS_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_ALS_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
    
    
 Filtering Out NaN Values
@@ -161,9 +161,9 @@ We use the ``Row Filter`` processor to filter rows based on a conditional statem
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Row_Filter_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Row_Filter_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
    
    
 Graphing the Predicted Values
@@ -174,17 +174,17 @@ We use the ``Graph Values`` processor to graph the selected columns. In this cas
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Graph_Output.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
    
    
 Calculating the RMSE
@@ -195,14 +195,14 @@ We use the ``Regression Evaluator`` processor to calculate various model metrics
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Config.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Config.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%
 
    
 Processor Output
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Output.PNG
-   :alt: titanic-data-cleaning
-   :width: 90%
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/BRA_Evaluator_Output.PNG
+      :alt: titanic-data-cleaning
+      :width: 75%

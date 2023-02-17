@@ -110,7 +110,7 @@ The below workflow:
 
    .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_als.PNG
       :alt: books-recommendations
-      :width: 75%
+      :width: 70%
    
    
    

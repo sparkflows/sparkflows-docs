@@ -1,4 +1,4 @@
-Execute Workflow
+Execute Workflow 
 ================
 
 Sparkflows provides a node using which another Workflow can be executed.
@@ -8,7 +8,7 @@ Using this node enables creating a DAG of workflows.
 Overview
 --------
 
-The `Execute Workflow` node sends a message to Sparkflows to execute a specific Workflow. The workflow has to be within the same project. The workflow gets executes with the user who execute the original workflow. Parameters can be passed to the workflow as well.
+The `Execute Workflow` node sends a message to Sparkflows to execute a specific Workflow. The workflow has to be within the same project. The workflow gets executed with the user who execute the original workflow. Parameters can be passed to the workflow as well.
 
 Below are the steps on how to Execute a specific workflow in Fire Insights.
 

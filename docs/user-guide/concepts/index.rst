@@ -24,11 +24,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
     Visualization is the graphical representation of data i.e output data in tables, charts, maps and simple strings.
     ---
 
-    :doc:`/user-guide/user-guide/scheduling/index`
-
-    Schedule workflows to run automatically at a selected intervals.
-
-    ---
 
     :doc:`/user-guide/user-guide/connections/index`
 
@@ -46,7 +41,6 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
    datasets/index.rst
    workflows/index.rst
    visualizations/index.rst
-   scheduling/index.rst
    connections/index.rst
    pipeline/index.rst
    

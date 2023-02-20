@@ -17,7 +17,7 @@ DataSet
 
 The dataset contains bike rental info from 2011 and 2012 in the Capital bikeshare system, plus additional relevant information.
 
-This dataset is from Fanaee-T and Gama (2013) and is hosted by the UCI Machine Learning Repository. It consists of 10877 rows ( can be found in /data directory of the Fire installation). Each record is count of rentals grouped by a given hour in the past and environmental factors at that time (season, holiday, temperature, wind-speed etc.)
+This dataset is from Fanaee-T and Gama (2013) and is hosted by the UCI Machine Learning Repository. It consists of 10877 rows ( can be found in /data directory of the Fire installation). Each record is count of rentals grouped by a given hour in the past and environmental factors at that time (season, holiday, temperature, wind-speed, etc.)
 
 Start Kafka and create Topic 'bike-sharing'
 -------------------------------------------
@@ -28,13 +28,14 @@ Start Kafka and create Topic 'bike-sharing'
 - Start zookeeper and Kafka server. You can also use an existing instance of Zookeeper/Kafka.
 - bin/zookeeper-server-start.sh config/zookeeper.properties
 - bin/kafka-server-start.sh config/server.properties
-- Create the topic 'bike-sharing'.
-- bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bike-sharing
+- Create the topic 'bike-sharing' using the below code:
+
+```bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bike-sharing```
 
 Send the data file 'bike_sharing_noheader.csv' to the Kafka Topic
 -----------------------------------------------------------------
 
-- bike_sharing_noheader.csv is in the data directory of the Fire Install
+- bike_sharing_noheader.csv is in the data directory of the Fire Install.
 - cat bike_sharing_noheader.csv | bin/kafka-console-producer.sh --broker-list localhost:9092 --topic bike-sharing 
 
 Workflow

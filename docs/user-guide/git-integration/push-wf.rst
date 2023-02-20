@@ -11,11 +11,11 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 - Go to create/ Edit workflow page.
 - Create or edit your workflow.
-- Click on the ``Save and push to git`` button.
+- Click on the ``Save and push to Git`` button.
 - Write the ``Commit message`` on the modal textarea.
 - Click on the ``Push`` button.
 
-*Save and push to git*
+*Save and push to Git*
 
 
 .. figure:: ../../_assets/git/save_push.PNG
@@ -85,4 +85,4 @@ Viewing All Workflow Saved and Pushing a Particular Save to Git
 
 On success, you will get success message.
 
-Workflow JSON file get pushed in path : rootFolderPath/Projects/pipelines/test.json
+Workflow JSON file gets pushed in path : rootFolderPath/Projects/pipelines/test.json

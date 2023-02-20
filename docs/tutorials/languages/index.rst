@@ -24,13 +24,13 @@ Code - SQL, Python, Scala
 
     :doc:`/tutorials/languages/multi-input-pyspark`
 
-    MultiInputPyspark processer in which Python code can be written and prcoesser takes the multiple input's.
+    MultiInputPyspark processer in which Python code can be written and prcoesser takes the multiple inputs.
 
     ---
 
     :doc:`/tutorials/languages/jar-file-execution`
 
-    Through CI/CD pipeline, the application jar file is built successfully and pushed.
+    Through CI or CD pipeline, the application jar file is built successfully and pushed.
 
 
 .. toctree::

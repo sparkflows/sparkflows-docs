@@ -8,9 +8,9 @@ Sparkflows allows projects to be linked with Git via the ``Link With Git`` butto
 
 This document goes over how to link projects both ways. 
 
-.. figure:: ../../_assets/git/link-project.png
-   :alt: link-with-git
-   :width: 70%
+   .. figure:: ../../_assets/git/link-project.png
+      :alt: link-with-git
+      :width: 70%
 
 Existing Branch
 ----------------------
@@ -20,9 +20,9 @@ Existing Branch
 - Provide ``Root folder``. If there is no root folder path provided, it will get linked with the path configured in the ``Git configurations`` by the ``Admin``. 
 - Click on ``Link`` button.
 
-.. figure:: ../../_assets/git/git_existing_branch.PNG
-   :alt: link-with-git
-   :width: 60%
+   .. figure:: ../../_assets/git/git_existing_branch.PNG
+      :alt: link-with-git
+      :width: 60%
 
 Create New Branch
 ----------------------
@@ -33,8 +33,8 @@ Create New Branch
 - Provide ``Root folder``. If there is no root folder path provided, it will get linked with the path configured in the ``Git configurations`` by the ``Admin``. 
 - Click on the ``Link`` button. Sparkflows will first create a new branch with specified name pointing to the specified ``Origin``.
 
-.. figure:: ../../_assets/git/git_new_branch.PNG
-   :alt: link-with-git
-   :width: 60%
+   .. figure:: ../../_assets/git/git_new_branch.PNG
+      :alt: link-with-git
+      :width: 60%
 
 Now, you can push workflows under Project to linked branch.

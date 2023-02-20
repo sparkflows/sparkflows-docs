@@ -1,25 +1,25 @@
 Multi-Input Pyspark Examples
 ==========================
 
-This workflow reads in dataset's and pass the multiple input's MultiInputpyspark node.
--------
+This workflow reads in multiple datasets and passes them as inputs MultiInputpyspark node.
+
 
 The below workflow:
 
 * Reads the data.
-* In MultiInputpyspark, read data from multiple input's and do the join.
+* MultiInputPySpark node reads multiple input data and performs a join.
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/1.png
+.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/MultiInputPySpark-WF.png
    :alt: MultiInputpyspark
-   :width: 90%
+   :width: 55%
    
 Reading CSV file
 ---------------------
 
 .. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/2.png
    :alt: MultiInputpyspark
-   :width: 90%
+   :width: 70%
 
 
 
@@ -27,7 +27,7 @@ MultiInputPySpark
 ---------------------
 Custom code by using the multiple inputs.
 
-Example code to join the 2 input dataframe.
+Example code to join the 2 input DataFrame.
 
 ::
 
@@ -46,7 +46,7 @@ Example code to join the 2 input dataframe.
 
 .. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/3.png
    :alt: MultiInputpyspark
-   :width: 90%
+   :width: 70%
    
    
 

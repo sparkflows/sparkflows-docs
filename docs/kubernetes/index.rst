@@ -64,7 +64,7 @@ This document captures the steps for installing Fire Insights.
 
     :doc:`/kubernetes/spark-job`
 
-    Submitting a Spark Job on a Kubernetes Cluster
+    Submitting a Spark Job on a Kubernetes Cluster.
    
  
 .. toctree::

@@ -34,3 +34,4 @@ When the jobs are fired onto the EMR cluster, it can read/write data from S3/HDF
 .. figure:: ../_assets/aws/aws-architecture-1.png
    :alt: Architecture
    :align: center
+   :width: 70%

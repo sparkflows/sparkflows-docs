@@ -41,11 +41,11 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
     
-    :doc:`/user-guide/reports/index`
+    :doc:`/user-guide/data-visualization-reports/index`
 
     --- 
     
-    :doc:`/user-guide/dashboards/index`
+    :doc:`/user-guide/data-visualization-dashboards/index`
 
     --- 
     
@@ -81,7 +81,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
     
-    :doc:`/user-guide/pipeline/index`
+    :doc:`/user-guide/pipeline-development/index`
     
     ---
     

@@ -60,4 +60,4 @@ Once you Click on ``Import``, the workflow should be available in workflow list 
      :alt: userguide
      :width: 70%   
      
-.. note:: Make sure that data pointed to the workflow JSON File should be available on new instance of Fire Insights where you are Importing.     
+.. note:: Make sure that data pointed to the workflow JSON File should be available on new instance of Fire Insights where you are importing.     

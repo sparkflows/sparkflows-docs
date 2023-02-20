@@ -107,8 +107,9 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    data-exploration/index
    data-profile/index
    machine-learning/index
-   reports/index
-   dashboards/index
+   data-visualization-reports/index
+   data-visualization-dashboards/index
+   pipeline-development/index
    time-series/index
    auto-ml/index
    web-app/index
@@ -118,7 +119,6 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    export-import/index
    generate-pyspark-code/index
    utilities/index
-   pipeline/index
    runtime-parameters/index
    workflow-wizard/index
    scheduler/index

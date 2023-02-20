@@ -7,19 +7,19 @@ AWS Guide
     
     :doc:`/aws/introduction`
     
-    Introduction to the AWS Guide
+    Introduction to the AWS Guide.
     
     ---
     
     :doc:`/aws/admin-guide/index`
 
-    AWS Admin Guide
+    AWS Admin Guide.
 
     ---
     
     :doc:`/aws/user-guide/index`
     
-    AWS User Guide
+    AWS User Guide.
     
 
     

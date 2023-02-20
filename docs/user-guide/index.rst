@@ -94,6 +94,8 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
     ---
     
      :doc:`/user-guide/scheduler/index`
+     
+    ---
 
 .. toctree::
    :hidden:
@@ -121,4 +123,4 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    runtime-parameters/index
    workflow-wizard/index
    scheduler/index
-
+   

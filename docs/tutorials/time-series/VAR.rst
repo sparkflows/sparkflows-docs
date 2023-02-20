@@ -26,7 +26,7 @@ VARForecast:
    
    .. figure:: ../../_assets/tutorials/time-series/var/TimeSeriesMulti-WF.png
       :alt: VAR
-      :width: 75%   
+      :width: 70%   
    
 Read CSV
 ---------
@@ -65,7 +65,7 @@ Summary:
 
    .. figure:: ../../_assets/tutorials/time-series/var/summary.png
       :alt: VAR
-      :width: 75% 
+      :width: 65% 
 
 
 Validation:
@@ -80,7 +80,7 @@ Validation Metrics
 ------------------
    .. figure:: ../../_assets/tutorials/time-series/var/validation-metrics.png
       :alt: VAR
-      :width: 75%  
+      :width: 65%  
    
 Forecast
 -----------

@@ -18,14 +18,14 @@ When you have added new workflow or made changes to existing workflows, you can 
 *Save and push to Git*
 
 
-.. figure:: ../../_assets/git/save_push.PNG
+.. figure:: ../../_assets/git/git_push_1.PNG
    :alt: PushWf
    :width: 60%
   
 *Commit messsage*
  
  
-.. figure:: ../../_assets/git/commit-msg.png
+.. figure:: ../../_assets/git/git_push_2.PNG
    :alt: PushWf
    :width: 60%
    
@@ -33,7 +33,7 @@ When you have added new workflow or made changes to existing workflows, you can 
 *On success*
 
 
-.. figure:: ../../_assets/git/success-commit.png
+.. figure:: ../../_assets/git/git_push_3.PNG
    :alt: PushWf
    :width: 60% 
 
@@ -60,26 +60,26 @@ Viewing All Workflow Saved and Pushing a Particular Save to Git
 
 *Workflows History*
 
-.. figure:: ../../_assets/git/git-history.PNG
+.. figure:: ../../_assets/git/git_push_4.PNG
    :alt: PushWf
    :width: 60% 
 
 *Saved Workflow Versions*
 
-.. figure:: ../../_assets/git/savedwfVersions.png
+.. figure:: ../../_assets/git/git_push_5.PNG
    :alt: PushWf
    :width: 60% 
   
 *Commit message*
   
-.. figure:: ../../_assets/git/commit-msg.png
+.. figure:: ../../_assets/git/git_push_6.PNG
    :alt: PushWf
    :width: 60% 
    
 
 *On Success*
 
-.. figure:: ../../_assets/git/success-commit.png
+.. figure:: ../../_assets/git/git_push_7.PNG
    :alt: PushWf
    :width: 60% 
 

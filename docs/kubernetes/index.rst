@@ -21,51 +21,50 @@ Fire Insights adds the following services:
 
 This document captures the steps for installing Fire Insights.
 
-
+  
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
-   
-    :docs:`/kubernetes/rancher`
-   
+
+    :doc:`/kubernetes/rancher`
+
     Installing Rancher Kubernetes Edition and Rancher.
-   
+
     ---
-   
-    :docs:`/kubernetes/minio`
-   
+
+    :doc:`/kubernetes/minio`
+
     Installing minio on Kubernetes Cluster.
-   
+
     ---
-   
-    :docs:`/kubernetes/spark`
-   
+
+    :doc:`/kubernetes/spark`
+
     Installing Apache Spark on Kubernetes Cluster.
-   
+
     ---
-   
-    :docs:`/kubernetes/hive`
-   
+
+    :doc:`/kubernetes/hive`
+
     Installing Hive.
-   
+
     ---
-   
-    :docs:`/kubernetes/jupyter`
-   
+
+    :doc:`/kubernetes/jupyter`
+
     Installing Jupyter.
-   
+
     ---
-   
-    :docs:`/kubernetes/fire-insight`
-   
+
+    :doc:`/kubernetes/fire-insights`
+
     Installing Fire Inisights on Kubernetes Cluster.
-   
+
     ---
-   
-    :docs:`/kubernetes/spark-job`
-   
-    Submitting a Spark Job on a Kubernetes Cluster.
-   
+
+    :doc:`/kubernetes/spark-job`
+
+    Submitting a Spark Job on a Kubernetes Cluster
    
  
 .. toctree::

@@ -70,7 +70,8 @@ This document captures the steps for installing Fire Insights.
  
 .. toctree::
    :hidden:
-
+   
+   kubernetes/index.rst
    rancher.rst
    minio.rst
    spark.rst

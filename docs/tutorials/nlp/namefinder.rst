@@ -8,7 +8,7 @@ To be able to detect entities, the NameFinder needs a model. The model is depend
 https://opennlp.apache.org/documentation/1.6.0/manual/opennlp.html#tools.namefind.recognition.cmdline
 
  
-The OpenNLP project offers a number of pre-trained NameFinder models which are trained on various freely available corpora. They can be downloaded here: http://opennlp.sourceforge.net/models-1.5/
+The OpenNLP project offers a number of pre-trained NameFinder models which are trained on various freely available corpora. Those can be downloaded here: http://opennlp.sourceforge.net/models-1.5/
 
  
 Steps for installing the OpenNLP models in Fire can be found here: http://docs.sparkflows.io/en/latest/operating/installing-opennlp.html
@@ -20,7 +20,7 @@ Below is a workflow which uses the NameFinder Processor.
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/1.PNG
    :alt: Workflow
-   :width: 90%
+   :width: 65%
    
 It consists of 3 Processors:
 
@@ -38,14 +38,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/2.PNG
    :alt: Workflow
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ++++++++++++++++
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/3.PNG
    :alt: Workflow
-   :width: 90%   
+   :width: 75%   
    
 OpenNLPNameFinder
 -----------------
@@ -54,7 +54,7 @@ It extracts entities from the text in the input column 'line' and stores them in
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/4.PNG
    :alt: Workflow
-   :width: 90%
+   :width: 75%
    
 PrintNRows
 ----------
@@ -63,6 +63,6 @@ It prints the first 10 rows from the result.
 
 .. figure:: ../../_assets/tutorials/nlp/namefinder/4.png
    :alt: Workflow
-   :width: 90%
+   :width: 75%
    
 

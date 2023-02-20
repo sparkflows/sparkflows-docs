@@ -1,8 +1,8 @@
 Push Workflow
 ================
 
-Sparkflow allows for changes to workflows to be pushed to a configured git repo. Progress made on workflows can also be saved to be pushed onto Git at
-any given time. All previously saved workflows can be accessed via revision history. This document provides information on how to push workflows onto remote git repos, save workflows to be pushed at a later day, and view the previous saved versions of a workflow. 
+Sparkflows allows for changes to workflows to be pushed to a configured Git repo. Progress made on workflows can also be saved to be pushed onto Git at
+any given time. All previously saved workflows can be accessed via revision history. This document provides information on how to push workflows onto remote Git repos, save workflows to be pushed at a later day, and view the previous saved versions of a workflow. 
 
 Commit and Push Workflows to Remote Git Repos
 -------------------------------------------------------
@@ -11,11 +11,11 @@ When you have added new workflow or made changes to existing workflows, you can 
 
 - Go to create/ Edit workflow page.
 - Create or edit your workflow.
-- Click on the ``Save and push to git`` button.
+- Click on the ``Save and push to Git`` button.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``Push`` button
+- Click on the ``Push`` button.
 
-*Save and push to git*
+*Save and push to Git*
 
 
 .. figure:: ../../_assets/git/save_push.PNG
@@ -50,13 +50,13 @@ Saving Workflows Outside of Git
    :alt: PushWf
    :width: 60% 
 
-Viewing All Workflow Saves and Pushing a Particular Save to Git
+Viewing All Workflow Saved and Pushing a Particular Save to Git
 ---------------
-- Click the ``Three vertical dots`` at the right corner
-- Select ``Revision History`` to get a list of the previous saves
+- Click the ``Three vertical dots`` at the right corner.
+- Select ``Revision History`` to get a list of the previous saves.
 - Click on the ``Git icon`` to push the selected version of workflow.
 - Write the ``Commit message`` on the modal textarea.
-- Click on the ``Push`` button
+- Click on the ``Push`` button.
 
 *Workflows History*
 
@@ -85,4 +85,4 @@ Viewing All Workflow Saves and Pushing a Particular Save to Git
 
 On success, you will get success message.
 
-Workflow json file get pushed in path : rootFolderPath/Projects/pipelines/test.json
+Workflow JSON file gets pushed in path : rootFolderPath/Projects/pipelines/test.json

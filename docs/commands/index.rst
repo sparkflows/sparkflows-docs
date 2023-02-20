@@ -6,43 +6,43 @@ Commands Cheatsheet
     
     :doc:`/commands/spark`
     
-    Apache Spark Commands Cheatsheet.
+    Apache Spark Commands Cheatsheet
     
     ---
     
     :doc:`/commands/environment-variables`
     
-    Environment Variable Commands Cheatsheet.
+    Environment Variable Commands Cheatsheet
     
     ---
     
     :doc:`/commands/databricks`
     
-    Databricks Commands Cheatsheet.
+    Databricks Commands Cheatsheet
     
     ---
     
     :doc:`/commands/linux`
     
-    Linux Commands Cheatsheet.
+    Linux Commands Cheatsheet
     
     ---
     
     :doc:`/commands/h2-db`
     
-    H2 Database Commands Cheatsheet.
+    H2 Database Commands Cheatsheet
     
     ---
     
     :doc:`/commands/python`
     
-    Python Commands Cheatsheet.
+    Python Commands Cheatsheet
     
     ---
     
     :doc:`/commands/kerberos`
     
-    Kerberos Commands Cheatsheet.
+    Kerberos Commands Cheatsheet
     
  
 .. toctree::

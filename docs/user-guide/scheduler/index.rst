@@ -1,3 +1,6 @@
+Scheduler
+==============
+
 .. toctree::
    :maxdepth: 2
 

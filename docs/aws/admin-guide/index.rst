@@ -63,7 +63,7 @@ AWS Admin Guide
         
     ---
     
-    :doc:`/aws/glue-integration/index`
+    :doc:`/aws/admin guide/glue-integration/index`
     
     Submitting Jobs on AWS Glue Cluster.
     

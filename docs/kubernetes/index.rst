@@ -13,13 +13,14 @@ If you are on-premise, we recommend installing Rancher.
 
 Fire Insights adds the following services:
 
-  * Fire Insights : for self-serve Advanced Data Analytics
-  * Minio : for distributed storage
-  * Apache HIVE : for Data Catelog
-  * Apache Spark : for Distributed Processing
-  * Jupyter : For Machine Learning with Notebooks
+  * Fire Insights : for self-serve Advanced Data Analytics.
+  * Minio : for distributed storage.
+  * Apache HIVE : for Data Catelog.
+  * Apache Spark : for Distributed Processing.
+  * Jupyter : For Machine Learning with Notebooks.
 
 This document captures the steps for installing Fire Insights.
+
 
 .. panels::
     :container: container-lg pb-3
@@ -27,43 +28,43 @@ This document captures the steps for installing Fire Insights.
    
     :docs:`/kubernetes/rancher`
    
-    Installing Rancher Kubernetes Edition and Rancher
+    Installing Rancher Kubernetes Edition and Rancher.
    
     ---
    
     :docs:`/kubernetes/minio`
    
-    Installing minio on Kubernetes Cluster
+    Installing minio on Kubernetes Cluster.
    
     ---
    
     :docs:`/kubernetes/spark`
    
-    Installing Apache Spark on Kubernetes Cluster
+    Installing Apache Spark on Kubernetes Cluster.
    
     ---
    
     :docs:`/kubernetes/hive`
    
-    Installing Hive
+    Installing Hive.
    
     ---
    
     :docs:`/kubernetes/jupyter`
    
-    Installing Jupyter
+    Installing Jupyter.
    
     ---
    
     :docs:`/kubernetes/fire-insight`
    
-    Installing Fire Inisights on Kubernetes Cluster
+    Installing Fire Inisights on Kubernetes Cluster.
    
     ---
    
     :docs:`/kubernetes/spark-job`
    
-    Submitting a Spark Job on a Kubernetes Cluster
+    Submitting a Spark Job on a Kubernetes Cluster.
    
    
  

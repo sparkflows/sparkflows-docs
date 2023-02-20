@@ -7,31 +7,31 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
     :container: container-lg pb-3
     :column: col-lg-6 col-md-6 col-xs-12 p-2
 
-    :doc:`/user-guide/user-guide/datasets/index`
+    :doc:`/user-guide/concepts/datasets/index`
 
     Datasets contain the schema of the data files which allows Fire Insights to read and create a DataFrame out of it.
 
     ---
 
-    :doc:`/user-guide/user-guide/workflows/index`
+    :doc:`/user-guide/concepts/workflows/index`
 
-    Workflows helps in processing the data, exploring it, building models etc.
+    Workflows helps in processing the data, exploring it, building models, etc.
 
     ---
 
-    :doc:`/user-guide/user-guide/visualizations/index`
+    :doc:`/user-guide/concepts/visualizations/index`
 
     Visualization is the graphical representation of data i.e output data in tables, charts, maps and simple strings.
     ---
 
 
-    :doc:`/user-guide/user-guide/connections/index`
+    :doc:`/user-guide/concepts/connections/index`
 
     Connections are used in the workflow for reading and writing data.
 
     ---
 
-    :doc:`/user-guide/user-guide/pipeline/index`
+    :doc:`/user-guide/concepts/pipelines/index`
 
     Pipelines allow running workflows in a defined order.
 

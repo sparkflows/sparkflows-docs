@@ -6,10 +6,10 @@ Fire Insights enables you to export and download your workflows, pipelines, data
 
 It then also enables you to import your JSON files of workflows, pipelines, datasets and analytical apps back into any instance of Fire. You can also import the full Project zip file.
 
-This is useful when you need to move/copy things from one environment to another. The exported JSON can be checked into your source code control system such as git.
+This is useful when you need to move or copy things from one environment to another. The exported JSON can be checked into your source code control system such as Git.
 
-  * Export/Import using JSON
-  * Export/Import the full zip file of the Project
+  * Export or Import using JSON.
+  * Export or Import the full zip file of the Project.
   
   
 

@@ -1,9 +1,9 @@
 Configure HTTPS on AWS
 ================================
 
-Fire Insights can be Configured with HTTPS on AWS, when running on EC2 instance.
+Fire Insights can be configured with HTTPS on AWS, when running on EC2 instance.
 
-With AWS Certificate Manager (ACM) you can provision and manage SSL/TLS certificates for your AWS based websites and applications. You can use ACM to create or import and then manage a certificate.
+With AWS Certificate Manager (ACM) you can provision and manage SSL or TLS certificates for your AWS based websites and applications. You can use ACM to create or import and then manage a certificate.
 
 Prerequisite
 --------
@@ -39,19 +39,19 @@ Request a certificate by filling the details given below::
 
 .. figure:: ../../_assets/aws/aws-certificate/request_certificate.PNG
    :alt: aws
-   :width: 60%
+   :width: 65%
    
 .. figure:: ../../_assets/aws/aws-certificate/request_details_1.PNG
    :alt: aws
-   :width: 60%  
+   :width: 65%  
    
 .. figure:: ../../_assets/aws/aws-certificate/request_details_2.PNG
    :alt: aws
-   :width: 60%   
+   :width: 65%   
    
 .. figure:: ../../_assets/aws/aws-certificate/request_details_3.PNG
    :alt: aws
-   :width: 60%      
+   :width: 65%      
 
 Create a Load Balancer
 ------
@@ -60,11 +60,11 @@ Create a Load Balancer and configure target group with Fire Insights running on 
 
 .. figure:: ../../_assets/aws/aws-certificate/load_blanacer.PNG
    :alt: aws
-   :width: 60%
+   :width: 65%
 
 .. figure:: ../../_assets/aws/aws-certificate/load_app.PNG
    :alt: aws
-   :width: 50%
+   :width: 55%
    
 .. figure:: ../../_assets/aws/aws-certificate/load_confugurations.PNG
    :alt: aws
@@ -99,6 +99,6 @@ Go to Route 53 to create a record and map to the Load Balancer.
    :alt: aws
    :width: 55%    
    
-Once the above steps get successfully updated, you can login to Domain name with ``HTTPS`` and  be able to access Fire Insights application running on the target instance.
+Once the above steps get successfully updated, you can login to the Domain name with ``HTTPS`` and  be able to access Fire Insights application running on the target instance.
 
 .. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is provided by default.

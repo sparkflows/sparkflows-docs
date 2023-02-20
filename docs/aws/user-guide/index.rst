@@ -8,49 +8,49 @@ AWS User Guide
     
     :doc:`/aws/user-guide/s3-integration-standalone`
     
-    S3 stadalone connectivity
+    S3 standalone connectivity.
     
     ---
     
     :doc:`/aws/user-guide/copy-to-s3`
     
-    Steps to copy a local directory/file to an s3 bucket
+    Steps to copy a local directory or file to an S3 bucket.
     
     ---
     
     :doc:`/aws/user-guide/s3`
     
-    Reading and writing to an s3 bucket using fire insights
+    Reading and writing to an S3 bucket using Fire Insights.
     
     ---
     
     :doc:`/aws/user-guide/hive`
     
-    Hive Integration with Fire Insights
+    Hive integration with Fire Insights.
     
     ---
     
     :doc:`/aws/user-guide/redshift`
     
-    Redshift integration with Fire Insights
+    Redshift integration with Fire Insights.
     
     ---
     
     :doc:`/aws/user-guide/sagemaker`
     
-    Sagemaker integration with Fire Insights
+    SageMaker integration with Fire Insights.
     
     ---
     
     :doc:`/aws/user-guide/kinesis`
     
-    Kinesis integration with Fire Insights
+    Kinesis integration with Fire Insights.
     
     ---
     
     :doc:`/aws/user-guide/file-watcher`
     
-    Processing incoming files using Fire Insights Rest APIS, AWS Lambda functions, and sqs.
+    Processing incoming files using Fire Insights Rest APIS, AWS Lambda functions, and SQS.
     
     
 .. toctree::

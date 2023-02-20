@@ -5,10 +5,10 @@ Fire Insights provides a SQL processer in which SQL can be written.
 
 It does the below:
 
-  * Receives an input dataframe.
-  * Creates a temporary table on top of the dataframe.
+  * Receives an input DataFrame.
+  * Creates a temporary table on top of the DataFrame.
   * Allows the user to write a SQL which would be executed on the temporary table.
-  * The resulting dataframe of running the SQL is passed on to the next node/processor.
+  * The resulting DataFrame of running the SQL is passed on to the next node/processor.
 
 
 Example 1: Calculate Average Lotsize by Number of Bedrooms

@@ -28,6 +28,8 @@ Reports and Dashboards
    :hidden:
 
    visualization-processors.rst
+   data-visualization-reports/index.rst
+   data-visualization-dashboards/index.rst
    
 
 

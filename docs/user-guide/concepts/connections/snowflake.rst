@@ -14,9 +14,9 @@ It can also be created by any user with their Application. In this case, it is o
 
 Specify your Snowflake Username, Password, and URL and save the details.
 
-.. figure:: ../../../_assets/connections/snowflake-add-con.PNG 
+.. figure:: ../../../_assets/connections/snowflake-add-con.png
    :alt: snowflake
-   :width: 80%
+   :width: 50%
 
 We can also test the specified connection before saving the connection details. 
 
@@ -35,7 +35,7 @@ Refresh schema before continuing further.
 
 .. figure:: ../../../_assets/connections/read_snowflake_node.PNG
    :alt: snowflake
-   :width: 80%
+   :width: 70%
 
 Write Snowflake Node
 --------------------
@@ -49,4 +49,4 @@ For e.g. can read data from CSV and write to the snowflake.
 
 .. figure:: ../../../_assets/connections/write_to_snowflake_node.PNG
    :alt: snowflake
-   :width: 80%
+   :width: 70%

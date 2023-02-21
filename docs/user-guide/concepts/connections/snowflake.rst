@@ -33,7 +33,7 @@ Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE.
 
 Refresh schema before continuing further.
 
-.. figure:: ../../../_assets/connections/read_snowflake_node.PNG
+.. figure:: ../../../_assets/connections/read_snowflake_node.png
    :alt: snowflake
    :width: 70%
 
@@ -47,6 +47,6 @@ Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE.
 
 For e.g. can read data from CSV and write to the snowflake.
 
-.. figure:: ../../../_assets/connections/write_to_snowflake_node.PNG
+.. figure:: ../../../_assets/connections/write_to_snowflake_node.png
    :alt: snowflake
    :width: 70%

@@ -27,8 +27,3 @@ Upon clicking the workflow name you would see Workflow JSON differences between 
    :alt: git-status
    :width: 70%
 
-- If there are no differences to show the  message ``No diff to show!`` is shown.
-
-.. figure:: ../../_assets/git/git-status-no-differences.png
-   :alt: git-status
-   :width: 70%

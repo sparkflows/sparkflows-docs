@@ -2,11 +2,32 @@
 Reports and Dashboards
 ====
 
+.. panels::
+    :container: container-lg pb-3
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+
+    :doc:`/visualization-processors`
+    
+    ---
+
+    :doc:`/user-guide/data-visualization-reports/index`
+
+    ---
+
+    :doc:`/user-guide/data-visualization-dashboards/index`
+
+   
+
+
+
+
+
+
+
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    visualization-processors.rst
-   working-with-reports.rst
-   https://github.com/sparkflows/sparkflows-docs/blob/master/docs/user-guide/dashboards/index.rst
-   https://github.com/sparkflows/sparkflows-docs/blob/master/docs/user-guide/reports/index.rst
+   
+
 

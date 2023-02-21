@@ -17,5 +17,9 @@ Sparkflows enables you to create different connections. Sparkflows comes up with
 
 
 
+.. toctree::
+   :hidden:
+   
+   connections/index.rst
 
 

@@ -16,7 +16,7 @@ Specify your SQL Server Username, Password, and JDBC URL and save the details.
 
 .. figure:: ../../../_assets/connections/sql_connection.PNG
    :alt: Databricks
-   :width: 80%
+   :width: 55%
 
 We can also test the specified connection before saving the connection details. 
 

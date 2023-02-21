@@ -46,7 +46,7 @@ Saving Workflows Outside of Git
 - Add comment.
 - Click ``Ok`` to save the new version of workflow.
 
-.. figure:: ../../_assets/git/save-newVersion-comment.png
+.. figure:: ../../_assets/git/git_push_8.PNG
    :alt: PushWf
    :width: 60% 
 

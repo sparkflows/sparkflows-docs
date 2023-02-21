@@ -1,51 +1,51 @@
 Import Datasets
 ===============
 
-Fire Insights enables you to import Datasets to use in Projects.
+Fire Insights enables you to import datasets to use in projects.
 
-Below are the steps for importing a Datasets.
+Below are the steps for importing a datasets.
 
 Steps for Importing Datasets
 -----
 
-You can Login to Fire Insights Web server URL and follow below steps:
+You can Login to Fire Insights web server URL and follow the steps given below:
 
 * Go to the Project List page.
-* Select the project to import Dataset to 
-* Click the Datasets tab
+* Select the project to import dataset to. 
+* Click the Datasets tab.
 
-You should get to a page similar as below:
+You should get to a page similar to below:
 
 .. figure:: ../../_assets/user-guide/export-import/dataset_list_page.PNG
      :alt: userguide
-     :width: 60%
+     :width: 70%
 
 
-* Click the ``Import`` button and select ``From Dataset Files``
+* Click on the ``Import`` button and select ``From Dataset Files``.
 
-You should get to a page similar as below:
+You should get to a page similar to below:
 
 
 .. figure:: ../../_assets/user-guide/export-import/dataset_import_page.PNG
      :alt: userguide
-     :width: 60%  
+     :width: 70%  
  
-Once you Select From Dataset Files, it will take you to new windows like below:
+Once you select from dataset files, it will take you to new window similar to below:
  
 .. figure:: ../../_assets/user-guide/export-import/dataset_import.PNG
      :alt: userguide
-     :width: 60%   
+     :width: 70%   
 
-Once you Click on ``Import Datasets`` tab, it will take you to new windows where you can upload Datasets JSON file from your local Computer.
+Once you click on ``Import Datasets`` tab, it will take you to new windows where you can upload datasets JSON file from your local Computer.
 
 .. figure:: ../../_assets/user-guide/export-import/dataset_import_file.PNG
      :alt: userguide
      :width: 60%   
      
-Once you Click on ``Import``, the Dataset should be available in Datasets list page of Specific project.
+Once you Click on ``Import``, the dataset should be available in Datasets list page of specific project.
 
 .. figure:: ../../_assets/user-guide/export-import/dataset_imported.PNG
      :alt: userguide
-     :width: 60%   
+     :width: 70%   
      
-.. note:: Make sure that data pointed to the Dataset JSON File should be available on new instance of Fire Insights where you are Importing.
+.. note:: Make sure that data pointed to the dataset JSON file should be available on new instance of Fire Insights where you are importing.

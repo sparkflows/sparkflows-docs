@@ -10,4 +10,6 @@ These connections can then be used in the workflow for reading and writing data.
 
    snowflake.rst
    jdbc_connection.rst
+   compute-connection.rst
+   storage-connection.rst
 

@@ -7,11 +7,11 @@ Sparkflows enables you to create different connections. Sparkflows comes up with
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/compute-connection`
+    :doc:`compute-connection`
 
     ---
 
-    :doc:`/storage-connection`
+    :doc:`storage-connection`
 
 
 
@@ -20,6 +20,6 @@ Sparkflows enables you to create different connections. Sparkflows comes up with
 .. toctree::
    :hidden:
    
-   connections/index.rst
+  connections/index.rst
 
 

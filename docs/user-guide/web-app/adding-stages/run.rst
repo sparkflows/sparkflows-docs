@@ -5,9 +5,9 @@ Run Stage
 
 - Let's first add a title on the page if needed with the ``Html element`` component like below.
 
-   .. figure:: ../../../_assets/web-app/add-stage-run-title.PNG
+   .. figure:: ../../../_assets/web-app/add-stage-run-title.png
       :alt: web-app
-      :width: 70%
+      :width: 65%
    
 
 -  Now, let's add a column component at the bottom and divide it into two columns for adding the ``back`` and ``run`` buttons.
@@ -16,14 +16,14 @@ Run Stage
 
 -  Add the next button in the second column to go to the next stage and perform actions depending upon the event. Set its add event name as ``execute``. We can also add CUSTOM CSS     CLASS like ``float-right, float-left,`` etc.
 
-   .. figure:: ../../../_assets/web-app/add-stage-run-runbtn.PNG
+   .. figure:: ../../../_assets/web-app/add-stage-run-runbtn.png
       :alt: web-app
-      :width: 70%
+      :width: 65%
    
 
-   .. figure:: ../../../_assets/web-app/add-stage-run-buttons.PNG
+   .. figure:: ../../../_assets/web-app/add-stage-run-buttons.png
       :alt: web-app
-      :width: 70%
+      :width: 65%
    
 
 Click on ``DONE`` or ``SAVE`` to save added components for that stage.

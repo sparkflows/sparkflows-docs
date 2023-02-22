@@ -65,6 +65,19 @@ This is useful when you need to move or copy things from one environment to anot
    :hidden:
    
    export-import/index.rst
+   export-workflows.rst
+   import-workflows.rst
+   export-pipelines.rst
+   import-pipelines.rst
+   export-datasets.rst
+   import-datasets.rst
+   export-applications.rst
+   import-applications.rst
+   export-projects.rst
+   import-projects.rst
+   export-import-rest-api.rst
+   
+   
 
 
    

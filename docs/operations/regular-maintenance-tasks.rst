@@ -89,7 +89,9 @@ https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-red
     SCRIPT TO 'mydb.sql'; 
     DROP ALL OBJECTS; 
     RUNSCRIPT FROM 'mydb.sql';
-    
+
+.. note::  Make sure to wait for 1 minute between "drop" and "runscript", the file size will be much smaller.
+
 Deleting Old Files
 ----------------
 

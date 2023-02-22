@@ -16,7 +16,7 @@ You can Login to Fire Insights web server URL and follow below steps:
 You should get to a page similar to below: 
 
 
- .. figure:: ../../_assets/user-guide/export-import/applicationpage.PNG
+ .. figure:: ../../_assets/user-guide/export-import/applicationpage.png
    :alt: userguide
    :width: 70%
 
@@ -24,7 +24,7 @@ You should get to a page similar to below:
 * Select the Projects you would like to export using the checkboxes on the left hand side of each Project's name. 
 * Then, click on the Export button in the top right hand side. 
 
- .. figure:: ../../_assets/user-guide/export-import/application.PNG
+ .. figure:: ../../_assets/user-guide/export-import/application.png
      :alt: userguide
      :width: 70%
 
@@ -38,7 +38,7 @@ You should get to a page similar to below:
      
 * Fire Insights will now export the selected projects and download them to your computer.
 
-  .. figure:: ../../_assets/user-guide/export-import/exportinfo.png
+  .. figure:: ../../_assets/user-guide/export-import/export-info.png
      :alt: userguide
      :width: 70%
   

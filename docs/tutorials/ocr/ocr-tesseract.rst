@@ -13,6 +13,13 @@ Below is a workflow which shows the usage of OCR Node.
    :alt: OCR
    :width: 55%
    
+   
+Steps
+++++++++
+
+Follow the steps given below to perform OCR with Tesseract.
+
+   
 
 For more details, visit: https://www.sparkflows.io/post/OCR-with-Tesseract-in-Sparkflows
 

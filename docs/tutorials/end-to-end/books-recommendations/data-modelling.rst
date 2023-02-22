@@ -13,7 +13,7 @@ The below workflow:
 * Prints out a top 20 list of the best books to recommend.
 
 
-   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_popularity2.PNG
+   .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_popularity2.png
       :alt: books-recommendations
       :width: 70%
    

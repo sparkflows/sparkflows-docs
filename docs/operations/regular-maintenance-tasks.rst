@@ -90,7 +90,7 @@ https://stackoverflow.com/questions/41469066/why-does-recreating-h2-database-red
     DROP ALL OBJECTS; 
     RUNSCRIPT FROM 'mydb.sql';
 
-.. note::  Make sure to wait for 1 minute between "drop" and "runscript", the file size will be much smaller.
+.. note::  Make sure to wait for 1 minute between "drop" and "runscript", the file size will be much smaller, As The database file will keep all old information for at least 45 seconds.
 
 Deleting Old Files
 ----------------

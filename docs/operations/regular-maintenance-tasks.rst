@@ -65,7 +65,7 @@ If the H2 database file size grows too large (> 3GB), then follow the steps belo
     User : fire
     Password : fire
 
-    SHUTDOWN COMPACT
+    compact shutdown
 
     
 Recreating the H2 Database to Further Reduce the Database Size

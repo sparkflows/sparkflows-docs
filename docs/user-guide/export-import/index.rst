@@ -11,20 +11,60 @@ This is useful when you need to move or copy things from one environment to anot
   * Export or Import using JSON.
   * Export or Import the full zip file of the Project.
   
+
+.. panels::
+    :container: container-lg pb-3
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+    
+    :doc:`export-workflows`
+
+    ---
+
+    :doc:`import-workflows`
+
+    ---
+
+    :doc:`export-pipelines`
+
+    ---
+
+    :doc:`import-pipelines`
+
+    ---
+
+    :doc:`export-datasets`
+
+    ---
+
+    :doc:`import-datasets`
+
+    ---
+
+    :doc:`export-applications`
+
+    ---
+
+    :doc:`import-applications`
+
+    ---
+    
+    :doc:`export-projects`
+
+    --- 
+    
+    :doc:`import-projects`
+
+    --- 
+    
+    :doc:`export-import-rest-api`
+    
+  
   
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
+   
+   export-import/index.rst
 
-   export-workflows.rst
-   import-workflows.rst
-   export-pipelines.rst
-   import-pipelines.rst
-   export-datasets.rst
-   import-datasets.rst
-   export-applications.rst
-   import-applications.rst
-   export-projects.rst
-   import-projects.rst
-   export-import-rest-api.rst
+
    

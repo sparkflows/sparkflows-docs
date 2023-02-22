@@ -1,7 +1,14 @@
 Connections
 ===========
 
-Sparkflows enables you to create different connections. Sparkflows comes up with two types of connections i.e. Compute Connection & Storage Connection. These connections can then be used in the workflow for reading and writing data.
+Sparkflows enables you to create different connections. Sparkflows comes up with two types of connections::
+
+- Compute Connections
+- Storage Connections
+
+Compute Connections are used to connect with compute clusters. These include Databricks clusters, AWS EMR, AWS Glue, Azure HDInsights, Cloudera/Hortonworks, Kubernetes etc.
+
+Storage Connections are used in the workflows for reading and writing data.
 
 .. panels::
     :container: container-lg pb-3

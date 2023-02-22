@@ -7,7 +7,7 @@ Workflow Wizard
 
     :doc:`overview`
     
-    Overview
+    Overview of Workflow Wizard
     
     ---
     

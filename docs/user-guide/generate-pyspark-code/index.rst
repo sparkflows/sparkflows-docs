@@ -37,7 +37,7 @@ There are certain things which need to be taken into account for any Spark job. 
     Joins generally tend to be expensive operations. So it is important to tune them for performance.
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
    
    caching-level.rst
    runtime-resources.rst

@@ -14,7 +14,7 @@ Clicking on the ``schedule`` takes you to a page for creating new schedules for 
 
 .. figure:: ../../_assets/user-guide/Schedule_workflow_step1.png
    :alt: Scheduling New Workflow
-   :width: 60%
+   :width: 70%
    
 
 Viewing Workflows Scheduled
@@ -24,7 +24,7 @@ Scheduled/By Time page displays the various workflows scheduled.
 
 .. figure:: ../../_assets/user-guide/schedule_workflow_step2.png
    :alt: Workflows Scheduled
-   :width: 60%
+   :width: 70%
 
 Editing a Scheduled Workflow
 ----------------------------
@@ -41,7 +41,7 @@ The results of the execution of the workflows can be viewed in the Workflow Exec
 
 .. figure:: ../../_assets/user-guide/Schedule_workflow_step3.png
    :alt: Workflow Executions
-   :width: 60%
+   :width: 70%
 
 Deleting a Scheduled Workflow
 -----------------------------

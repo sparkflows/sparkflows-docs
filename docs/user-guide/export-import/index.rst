@@ -64,7 +64,6 @@ This is useful when you need to move or copy things from one environment to anot
 .. toctree::
    :hidden:
    
-   export-import/index.rst
    export-workflows.rst
    import-workflows.rst
    export-pipelines.rst

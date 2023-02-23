@@ -1,4 +1,4 @@
-Compute Connection
+Compute Connections
 ==========
 
 

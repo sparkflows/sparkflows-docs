@@ -2,7 +2,7 @@ Configure YAML files and Variables
 ==================================
 
 
-Sparkflows provides a node named ``addYamlConfiguration`` using which YAML configuration files and variables can be configured. These variables can be accessed in the pipeline nodes. Sparkflows Airflow DAG generator takes care of substituing the values of the variables.
+Sparkflows provides a node named ``addYamlConfiguration`` using which YAML configuration files and variables can be configured. These variables can be accessed in the pipeline nodes. Sparkflows Airflow DAG generator takes care of substituting the values of the variables.
 
 YAML File Configuration
 ----------------------
@@ -18,7 +18,7 @@ YAML File Configuration
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_upload_config_files.PNG
    :alt: configuration
-   :width: 30%
+   :width: 60%
    
    
 **Below is an example of YAML file and variables:**
@@ -48,7 +48,7 @@ YAML File Configuration
 
 
 
-In below examples ``ENV = dev``, ``INPUTPATH = input`` and ``OUTPUTPATH = output`` variables should be defined in airflow.
+In the below examples ``ENV = dev``, ``INPUTPATH = input`` and ``OUTPUTPATH = output`` variables should be defined in airflow.
 
 .. code-block:: bash
 
@@ -63,7 +63,7 @@ Now ``input_bucketname``, ``output_bucketname``, ``input_key`` and ``output_key`
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline_define_variable.PNG
    :alt: variables used
-   :width: 30%
+   :width: 60%
 
 
 
@@ -75,12 +75,12 @@ Now ``input_bucketname``, ``output_bucketname``, ``input_key`` and ``output_key`
   
 
 
-**In airflow, define the variablesused in the configuration node as below:**
+**In airflow, define the variables used in the configuration node as below:**
 
 The variables defined below are ``ENV``, ``INPUTPATH``, ``OUTPUTPATH`` and ``customer_id``
 
 .. figure:: ../../_assets/user-guide/pipeline/airflow_variable.PNG
    :alt: airflow variables
-   :width: 30%
+   :width: 60%
   
-To access the fields/variables in the nested YAML, define the parent field as variable in the airflow config as above.
+To access the fields/variables in the nested YAML, define the parent field as variable in the airflow configuration as above.

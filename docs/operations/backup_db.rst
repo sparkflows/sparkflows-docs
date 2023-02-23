@@ -37,7 +37,7 @@ Login to ``Fire Insights`` application -> ``Administration`` -> ``Configurations
 ::
 
 
-    app.db.backup.location /home/sparkflows
+    app.db.backup.location : /home/sparkflows
 
 .. note:: The path updated should have sufficient permission to write. You may configure S3 bucket if Fire Insights have sufficient privilege to write.
 

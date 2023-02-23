@@ -12,6 +12,7 @@ The below workflow:
 * Sorts the books by their weighted rating.
 * Prints out a top 20 list of the best books to recommend.
 
+Refer the image given below:
 
    .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books-popularity2.png
       :alt: books-recommendations
@@ -107,6 +108,7 @@ The below workflow:
 * Graphs the predicted values.
 * Calculates the RMSE of the ALS model.
 
+Refer the image given below:
 
    .. figure:: ../../../_assets/tutorials/data-engineering/books-recommendations/books_als.PNG
       :alt: books-recommendations

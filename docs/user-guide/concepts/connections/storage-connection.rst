@@ -1,4 +1,4 @@
-Storage Connection
+Storage Connections
 =======
 
 .. panels::

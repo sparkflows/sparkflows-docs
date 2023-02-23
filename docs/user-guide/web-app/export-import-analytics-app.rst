@@ -22,15 +22,15 @@ Below are the steps for exporting Analytics App in Fire.
 
 * Then click on the Export button.
 
-  .. figure:: ../../_assets/web-app/EXPORT-APP1.png
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/EXPORT-APP1.png
+   :alt: web-app
+   :width: 70%
      
 * Fire will now export Analytics Application and download them to your computer as JSON file.
 
-  .. figure:: ../../_assets/web-app/EXPORT-APP2.png
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/EXPORT-APP2.png
+   :alt: web-app
+   :width: 70%
      
 Importing Analytics App
 --------
@@ -42,26 +42,29 @@ Fire allows you to import Analytics Application. Below are the steps for importi
   - Click on the Import button. 
   - It has 2 dropdown option i.e. Import and Import into databricks.
   
-   .. figure:: ../../_assets/web-app/IMPORT_APP1.png
-      :alt: web-app
-      :width: 70%
+
+.. figure:: ../../_assets/web-app/IMPORT_APP1.png
+  :alt: web-app
+  :width: 70%
       
   - IMPORT : 
              - Here, you can only import JSON file without selecting any import options.
              - Choose the JSON file from your computer to Import from. You must have downloaded this JSON file from Fire during the export process.
   
-  .. figure:: ../../_assets/web-app/AppExport0.png
-      :alt: web-app
-      :width: 70%
+
+
+.. figure:: ../../_assets/web-app/AppExport0.png
+  :alt: web-app
+  :width: 60%
       
   - IMPORT INTO DATABRICKS : 
                              - Here, you can only import json file by selecting any import options.
                              - Choose the JSON file from your computer to Import from. You must have downloaded this JSON file from Fire during the export process.
                              - Select any one option which you want to. 
 
- .. figure:: ../../_assets/web-app/AppExport3.png
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/AppExport3.png
+   :alt: web-app
+   :width: 70%
 
 There are three options when importing Analytics App:
 
@@ -69,24 +72,24 @@ There are three options when importing Analytics App:
 
    -  Analytic App is imported with existing jobId present in exported JSON file.
    
-    .. figure:: ../../_assets/web-app/AppExport3.png
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/AppExport3.png
+   :alt: web-app
+   :width: 70%
 
 * USE EXISTING JOB WITH MATCHING NOTEBOOK PATH IF EXISTS OR ELSE CREATE NEW JOB
 
    -  In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. If matching job is present that Job is used else new job is created with that notebook path using current connection.
   
-   .. figure:: ../../_assets/web-app/App-Notebook1.png
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/App-Notebook1.png
+   :alt: web-app
+   :width: 70%
 
 * CREATE NEW JOB WITH NOTEBOOK PATH
 
    -  In this condition user can enter notebook path in the input box or else it will take notebook path from exported file to create new databricks job using current connection.
 
-  .. figure:: ../../_assets/web-app/import-app-5.PNG
-      :alt: web-app
-      :width: 70%
+.. figure:: ../../_assets/web-app/import-app-5.PNG
+   :alt: web-app
+   :width: 70%
 
 

@@ -6,7 +6,7 @@ Sparkflows enables you to create different connections. Sparkflows comes up with
 - Compute Connections
 - Storage Connections
 
-Compute Connections are used to connect with compute clusters. These include Databricks clusters, AWS EMR, AWS Glue, Azure HDInsights, Cloudera/Hortonworks, Kubernetes etc.
+Compute Connections are used to connect with compute clusters. These include Databricks clusters, AWS EMR, AWS Glue, Azure HDInsights, Cloudera or Hortonworks, Kubernetes, etc.
 
 Storage Connections are used in the workflows for reading and writing data.
 

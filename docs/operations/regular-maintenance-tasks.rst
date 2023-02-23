@@ -100,3 +100,4 @@ Delete the following folders regularly :
 * /tmp/fire/workflowlogs
 * /tmp/fire/workflows
 
+.. note::  The above folder is available inside Fire Insights home directory 

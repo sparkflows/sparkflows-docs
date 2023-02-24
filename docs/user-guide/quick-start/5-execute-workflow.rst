@@ -8,7 +8,7 @@ The steps involved in executing a workflow are:
 * Click on the ``Workflows`` tab.
 * Click on the ``Play`` button.
 * Specify the parameters, if any.
-* Click on ``Execute``
+* Click on ``Execute``.
 
 
 Go to the Workflows tab
@@ -18,7 +18,7 @@ Click the ``Workflows`` tab to view the list of workflows in the project.
 
 .. figure:: ../../_assets/tutorials/quickstart/7.png
    :alt: Workflow Listings
-   :width: 90%
+   :width: 75%
 
 
 Go to the Workflow Execute Page
@@ -36,7 +36,7 @@ Specify any parameters for your workflow.
 
 .. figure:: ../../_assets/tutorials/quickstart/workflow-execute.png
    :alt: Workflow Execute
-   :width: 90%
+   :width: 75%
 
 
 Execute the Workflow

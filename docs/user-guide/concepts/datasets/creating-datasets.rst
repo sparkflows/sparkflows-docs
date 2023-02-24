@@ -4,13 +4,22 @@ Creating Dataset
 Overview
 -----------------
 
-You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page.
+You can define a new dataset by clicking on the ``Create Dataset`` button on the Dataset page. You can choose to create dataset:
+
+* From Existing File
+* By Uploading New File
+* Using Connection
+
+.. figure:: ../../../_assets/tutorials/dataset/create-dataset-from.png
+   :alt: Dataset
+   :width: 75%
 
 It will bring up the dialog box as below. Select the format of the file for which the new dataset is being created.
 
-.. figure:: ../../../_assets/tutorials/dataset/dataset_popup.PNG
+
+.. figure:: ../../../_assets/tutorials/dataset/create-dataset-type.png
    :alt: Dataset
-   :width: 90%
+   :width: 75%
    
 Enter Field Details
 -----------------
@@ -31,7 +40,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 
 .. figure:: ../../../_assets/tutorials/dataset/dataset_module.PNG
    :alt: Dataset
-   :width: 90%
+   :width: 75%
 
 
 Update the Schema of the Dataset
@@ -45,7 +54,7 @@ You can update the column names in the schema based on your data.
  
 .. figure:: ../../../_assets/tutorials/dataset/dataset_schema.PNG
    :alt: Dataset
-   :width: 90% 
+   :width: 75% 
    
 
 Save the New Dataset
@@ -56,7 +65,7 @@ Click on the ``Save`` button to save the new dataset created.
  
 .. figure:: ../../../_assets/tutorials/dataset/dataset_list.PNG
    :alt: Dataset
-   :width: 90%  
+   :width: 75%  
  
  
  

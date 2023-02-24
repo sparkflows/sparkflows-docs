@@ -45,7 +45,7 @@ It does the following processing of data:
 *	Creates a dataset of specified rows and 9 pre-defined columns using ``Create Dataset`` node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/CreateDatasetDemoWF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/create-dataset.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -77,7 +77,7 @@ It does the following processing of data:
 *	Creates a dataframe based on rows from a dataset using the ``Dataset Structured`` node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/DatasetStructuredDemoWF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/dataset-structured.png
    :alt: readwrite_userguide
    :width: 50%
    

@@ -6,12 +6,12 @@ Fire Insights enables users to define end-to-end workflows for data pipelining, 
 Define New Workflow
 ===============
 
-Click on 'Create New Workflow' for creating a new workflow. It supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
+Click on ``Create New Workflow`` for creating a new workflow. It supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
 
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_editor.PNG
    :alt: workflow
-   :width: 90%
+   :width: 75%
 
  
 Adding New Nodes to the Workflow
@@ -21,7 +21,7 @@ Adding New Nodes to the Workflow
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_node.PNG
    :alt: workflow
-   :width: 90%
+   :width: 75%
 
 
 Creating Edges
@@ -45,12 +45,12 @@ Saving Workflow
 
   * Give the workflow a name.
   * Enter the description for the workflow.
-  * Click on the 'Save' button to save the created new workflow.
+  * Click on the 'Save' button to save the newly created workflow.
   * You can also save a new version for the workflow.
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_saved.PNG
    :alt: workflow
-   :width: 90%
+   :width: 75%
 
 
 
@@ -61,7 +61,7 @@ You can view the workflows by going to the workflows tab of the project.
 
 .. figure:: ../../../_assets/user-guide/workflow/wf_list.PNG
    :alt: workflow
-   :width: 90%
+   :width: 75%
 
 
 

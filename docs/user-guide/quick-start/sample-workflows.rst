@@ -1,7 +1,7 @@
 Sample Workflows
 ==========
 
-Fire Insights provide an array of sample workflows to showcase capabilities and usage of processors.
+Fire Insights provides an array of sample workflows to showcase capabilities and usage of processors.
 
 These workflows are bundled together in the following projects that can be accessed in Sample Projects tab.
 
@@ -66,7 +66,7 @@ Data Preparation Project
       
          -	Selects Rows having specified Index values using RowFilterByIndex node. 
    * - String Functions
-     - This workflow performs various transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node
+     - This workflow performs various transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node.
    * - Titanic Data Cleaning
      -   -	Drop rows having null values using DropRowsWithNull node.
 	      

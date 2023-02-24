@@ -11,7 +11,7 @@ If your data is in a CSV file, click on ``DATA`` in top menu. Depending on the F
 
 .. figure:: ../../_assets/tutorials/quickstart/4.png
  :alt: Quickstart
- :width: 95%
+ :width: 80%
 
 Choose files to upload
 --------
@@ -20,7 +20,7 @@ Click on the ``Upload File`` button. Choose one or more CSV files that you want 
 
 .. figure:: ../../_assets/tutorials/quickstart/5.png
  :alt: Quickstart
- :width: 80%
+ :width: 70%
 
 Finally Upload the files
 ---------
@@ -29,7 +29,7 @@ After selecting the files, click ``Upload All``.
 
 .. figure:: ../../_assets/tutorials/quickstart/6.png
  :alt: Quickstart
- :width: 95%
+ :width: 80%
    
 
 To use CSV files in the workflow, Fire Insights even allows you to wrap them in datasets. In the next step, you will create datasets from the files you have just uploaded.   

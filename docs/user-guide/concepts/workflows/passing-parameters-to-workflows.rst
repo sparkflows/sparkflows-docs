@@ -29,9 +29,9 @@ Workflow performs the following processing :
 * Filters Telco Churn Data for a `State` and `Account Length` duration that are passed in as parameters.
 * Prints filtered Telco Churn Data.
    
-.. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Demo_Workflow.png
+.. figure:: ../../../_assets/user-guide/passing-parameters/parameter-setting.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 Defining Parameters
 ^^^^^^^^^^^^^^^^^^
@@ -46,9 +46,9 @@ Two Parameters have been defined and initial values have been set which can be c
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
    
-.. figure:: ../../../_assets/user-guide/passing-parameters/Parameters_Definition.png
+.. figure:: ../../../_assets/user-guide/passing-parameters/parameter-definition.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 Reading from Dataset
 ^^^^^^^^^^^^^^^^^^
@@ -57,7 +57,7 @@ It reads the input Dataset File (Telco Churn Data).
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/Dataset_Data.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 Row Filter Node
 ^^^^^^^^^^^^^^^^^^
@@ -72,7 +72,7 @@ Row Filter Node
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/RowFilter_Parameter.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
  
 Print N Rows Node
@@ -82,7 +82,7 @@ This node prints filtered Telco Churn Data after applying parameterized filters.
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/Print_Node_Parameter_Output.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 Through Workflow Parameters passed during Workflow Execution
 ---------------------------------------------------   
@@ -95,13 +95,13 @@ Workflow Parameters during Execution can be set using below options :
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/workflowparam_as_text.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 *	Input As Key-Value
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/workflowparam_as_keyvalue.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 Through a Specify Parameters Processor in the Workflow
 ---------------------------------------------------   
@@ -112,19 +112,19 @@ Parameters can be passed to the Fire using Specify Parameters Processor in Workf
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_processor.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 *	Defined Parameter can be used in processors like Row Filter processors to filter rows based on parameter value set.
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_rowfilter.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 *	Value of the parameter can be set during workflow Execution.
 
 .. figure:: ../../../_assets/user-guide/passing-parameters/specifyparam_setatexec.png
    :alt: Passing Parameters
-   :width: 100%
+   :width: 75%
    
 A Processor creating a Variable during Execution Time
 ------------------------------------------------
@@ -171,6 +171,7 @@ Sparkflows also allows specifying the **--var** parameters to be passed to all t
 
 .. figure:: ../../../_assets/user-guide/passing-parameters-3.png
    :alt: Passing Parameters to Workflows
+   :width: 75%
    
 In the above, **app.vars** parameter allows specifying a space-separated list of `name=value` pairs. 
 

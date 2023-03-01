@@ -22,3 +22,5 @@ Use the command below to get the status of healthcheck of Fire Insights applicat
 .. figure:: ../_assets/operating/operations/healthcheck.PNG
    :alt: operations
    :width: 80%
+
+.. note::  Make sure to change the host_ip to your domain name or your IP where Fire Insights is running.

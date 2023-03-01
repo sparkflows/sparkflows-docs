@@ -12,7 +12,7 @@ Use the command below to get the list of Databricks clusters. It would test whet
 Test healthcheck from Databricks Notebook
 -----
 
-Use the command below to get the status of healthcheck from databricks notebook
+Use the command below to get the status of healthcheck of Fire Insights application from databricks notebook
 
 ::
 

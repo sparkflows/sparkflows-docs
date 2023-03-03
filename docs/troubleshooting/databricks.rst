@@ -24,3 +24,17 @@ Use the command below to get the status of healthcheck of Fire Insights applicat
    :width: 80%
 
 .. note::  Make sure to change the host_ip to your domain name or your IP where Fire Insights is running.
+
+
+Test Connection from Databricks Notebook to Endpoint service URL
+----
+
+We need to Ensure that Endpoint services being used for postback url, it should have same Available zone as ec2 instance on which Fire Insights is running, else it will show empty response when running the healthcheck as above
+
+.. figure:: ../_assets/operating/operations/end_2.PNG
+   :alt: operations
+   :width: 80%
+   
+.. figure:: ../_assets/operating/operations/end_3.PNG
+   :alt: operations
+   :width: 80%   

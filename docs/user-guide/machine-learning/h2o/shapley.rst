@@ -39,14 +39,14 @@ Below are the details on how the SHAP values can be computed:
 
 The SHAP Feature Importance plot looks like below:
 
-.. figure:: ../../../_assets/user-guide/machine-learning/h2o/feature_importance_shap.png
+.. figure:: ../../../_assets/user-guide/machine-learning/h2o/ML-Spark-Shapley.png
    :alt: Feature importance SHAP plot
    :width: 75%
    
    
 The SHAP Summary plot looks like below:
 
-.. figure:: ../../../_assets/user-guide/machine-learning/h2o/shap.png
+.. figure:: ../../../_assets/user-guide/machine-learning/h2o/ML-Spark-Shapley-Summary.png
    :alt: Summary SHAP plot
    :width: 75%
    

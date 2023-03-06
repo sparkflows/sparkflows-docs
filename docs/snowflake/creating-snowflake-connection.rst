@@ -8,20 +8,22 @@ Below are the steps for creating the Snowflake Connection.
 Go to Administration/Global Connections
 -------------
 
-Login to Fire Insights application, Go to Administration and select Global Connections.
+Login to Fire Insights application. Go to Administration and select Global Connections.
 
-.. figure:: ..//_assets/credential_store/7.PNG
+.. figure:: ..//_assets/credential_store/Snowflake/SF-select-Global.png
    :alt: Credential Store
-   :width: 90%
+   :width: 65%
 
 Add Connection
 -----------
 
-Click on ADD CONNECTION, Select either of two ie Add Connection For All or Add Connection For Group, depending on need.
+Click on ``ADD CONNECTION`` and select either of two i.e. Add Connection For All or Add Connection For Group, depending on need.
 
-.. figure:: ..//_assets/credential_store/8.PNG
+.. figure:: ..//_assets/credential_store/Snowflake/SF-Add-ConnType.png
    :alt: Credential Store
-   :width: 90%
+   :width: 65%
+
+
 
 Add Connection Parameter
 --------------------------
@@ -49,23 +51,21 @@ Add Connection Parameter
    * - URL
      - URL for selected Snowflake Connection
      
-.. figure:: ..//_assets/credential_store/9.PNG
+.. figure:: ..//_assets/credential_store/Snowflake/SF-empty-parameter.png
    :alt: Credential Store
-   :width: 90%     
+   :width: 65%     
 
-After Adding the above parameter, you can Click on TEST CONNECTION, It will shows Successfully Connected and after saving it will show in Connection LIst.
+After Adding the above parameter, you can Click on ``TEST CONNECTION`` to test the connection. After you get the success message, click on ``Save`` Button.
 
-.. figure:: ..//_assets/credential_store/10.PNG
+.. figure:: ..//_assets/credential_store/Snowflake/SF-Add-Para.png
    :alt: Credential Store
-   :width: 90%   
-   
-.. figure:: ..//_assets/credential_store/11.PNG
+   :width: 65%       
+
+After saving, the connection would display on the connections list page as shown below.
+
+.. figure:: ..//_assets/credential_store/Snowflake/SF-Conn-List.png
    :alt: Credential Store
-   :width: 90%      
-
-.. figure:: ..//_assets/credential_store/12.PNG
-   :alt: Credential Store
-   :width: 90%
+   :width: 65%
 
 
-.. note::  Now you can use above Snowflake connection in Read From SnowFlake, Write To SnowFlake & Execute Query In SnowFlake Processor in workflow editor.
+.. note::  Now, you can use above Snowflake connection in Read From SnowFlake, Write To SnowFlake & Execute Query In SnowFlake Processor in workflow editor.

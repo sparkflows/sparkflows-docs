@@ -11,7 +11,7 @@ It will display the Snowflake DB page.
 
 .. figure:: ..//_assets/snowflake/browse-snowflake-1.PNG
    :alt: Snowflake
-   :width: 60%
+   :width: 70%
 
 Select the Tables 
 ----------------------
@@ -20,10 +20,10 @@ Once you select a Table, right-click on it to get the query to view the first fe
 
 .. figure:: ..//_assets/snowflake/browse-snowflake-2.PNG
    :alt: Snowflake
-   :width: 60%
+   :width: 70%
    
 Execute the SQL query to view records from the table selected.
 
 .. figure:: ..//_assets/snowflake/browse-snowflake-3.PNG
    :alt: Snowflake
-   :width: 60%
+   :width: 70%

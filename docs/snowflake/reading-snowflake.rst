@@ -10,11 +10,11 @@ Processor Configuration
    :alt: snowflake
    :width: 90%
    
-* CONNECTION  : Connection created for Snowflake
-* SF DATABASE : Snowflake Database name
-* SF SCHEMA : Snowflake Schema Name
-* SF WAREHOUSE : Snowflake Warehouse Name
-* SF TABLE : Snowflake Table Name
+* CONNECTION  : Connection created for Snowflake.
+* SF DATABASE : Snowflake Database Name.
+* SF SCHEMA : Snowflake Schema Name.
+* SF WAREHOUSE : Snowflake Warehouse Name.
+* SF TABLE : Snowflake Table Name.
 
 
 Example Workflow
@@ -22,12 +22,12 @@ Example Workflow
 
 The below workflow does the following:
 
-* Reads Snowflake Table
-* Prints a few records of the dataframe
+* Reads Snowflake Table.
+* Prints a few records of the DataFrame.
 
-.. figure:: ..//_assets/snowflake/1.PNG
+.. figure:: ..//_assets/snowflake/SF-Read-WF.png
    :alt: snowflake
-   :width: 60%
+   :width: 40%
 
 Reading from Snowflake Table
 ^^^^^^^^^^^^^^^^^^

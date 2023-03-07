@@ -37,29 +37,29 @@ Add Connection Parameter
    * - CREDENTIAL STORE
      - Select Credential Store Listed in dropdown or else choose Do not use Credential Store.
    * - CONNECTION TYPE
-     - Select Connection type as Snowflake, it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake`
+     - Select Connection type as Snowflake, it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake.`
    * - CONNECTION NAME
      - Add a Connection Name.
    * - USERNAME
-     - Username for the selected Snowflake Connection 
+     - Username for the selected Snowflake Connection. 
    * - PASSWORD
-     - Password for selected Snowflake Connection
+     - Password for selected Snowflake Connection.
    * - TITLE
      - Add a unique title.
    * - DESCRIPTION
      - Add description.
    * - URL
-     - URL for selected Snowflake Connection
+     - URL for selected Snowflake Connection.
      
 .. figure:: ..//_assets/credential_store/Snowflake/SF-empty-parameter.png
    :alt: Credential Store
-   :width: 65%     
+   :width: 50%     
 
 After Adding the above parameter, you can Click on ``TEST CONNECTION`` to test the connection. After you get the success message, click on ``Save`` Button.
 
 .. figure:: ..//_assets/credential_store/Snowflake/SF-Add-Para.png
    :alt: Credential Store
-   :width: 65%       
+   :width: 50%       
 
 After saving, the connection would display on the connections list page as shown below.
 

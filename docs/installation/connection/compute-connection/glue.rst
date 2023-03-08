@@ -79,7 +79,7 @@ For GLUE Tab :
      - Glue script location
      - s3://aws-glue-scripts/scripts/FireGlueApp.scala
    * - IAM Role
-     - AWS IAM Role
+     - AWS IAM Role, role has policy to access s3, ec2 etc
      - AWSGlueServiceRole-Sparkflows
    * - Glue Main Class  
      - Glue Main class to execute

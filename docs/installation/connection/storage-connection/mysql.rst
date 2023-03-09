@@ -32,7 +32,7 @@ Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the ma
 
 .. figure:: ../../../_assets/aws/livy/administration.PNG
    :alt: livy
-    :width: 60%
+   :width: 60%
 
 Add Connection
 ----------

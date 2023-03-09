@@ -49,18 +49,18 @@ Add Credential Store Parameters
 
 .. figure:: ../../_assets/credential_store/3_a.PNG
    :alt: Credential Store
-   :width: 90%     
+   :width: 65%     
 
 After adding the above parameters, you can click on ``TEST CREDENTIAL STORE CONNECTION`` to verify the connection before saving it.
 
 
 .. figure:: ../../_assets/credential_store/4.PNG
    :alt: Credential Store
-   :width: 90%     
+   :width: 65%     
 
 .. figure:: ../../_assets/credential_store/5.PNG
    :alt: Credential Store
-   :width: 90%     
+   :width: 65%     
 
 Credential Store Created
 ------------------------
@@ -69,6 +69,6 @@ Once the credential store has been created, you can view it in the list of crede
 
 .. figure:: ../../_assets/credential_store/6.PNG
    :alt: Credential Store
-   :width: 90%   
+   :width: 65%   
    
 

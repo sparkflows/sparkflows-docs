@@ -42,7 +42,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    
 .. figure:: ../../../_assets/aws/livy/add_livy_connection.PNG
    :alt: livy
-   :width: 60%   
+   :width: 50%   
    
 Add additional parameters as per your environment
 ======
@@ -80,11 +80,10 @@ For GENERAL tab
      
 .. figure:: ../../../_assets/aws/livy/add_general.PNG
    :alt: livy
-   :width: 60%
+   :width: 50%
 
 For LIVY tab
-++++
-
+++++++
 .. list-table:: 
    :widths: 10 20 30
    :header-rows: 1
@@ -122,13 +121,13 @@ For LIVY tab
      
 .. figure:: ../../../_assets/aws/livy/add_livy.PNG
    :alt: livy
-   :width: 70%     
+   :width: 50%     
 
 .. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
 
 .. figure:: ../../../_assets/aws/livy/livy_jar.PNG
    :alt: livy
-   :width: 70% 
+   :width: 50% 
 
 
 For HDFS tab
@@ -150,7 +149,7 @@ For HDFS tab
  
 .. figure:: ../../../_assets/aws/livy/add_hdfs.PNG
    :alt: livy
-   :width: 60%
+   :width: 50%
 
 For HIVE tab
 +++++

@@ -12,9 +12,10 @@ Installing Spark Standalone
   - yum localinstall jdk-8u201-linux-x64.rpm
   - Java -version
   
-  .. figure:: ../../_assets/user-guide/spark_standalone_java_version.PNG
-   :scale: 100%
+
+.. figure:: ../_assets/user-guide/spark_standalone_java_version.PNG
    :alt: Standalone spark
+   :width: 70%
    
 
 Install Scala
@@ -30,9 +31,9 @@ Install Scala
   - scala -version
   
   
-  .. figure:: ../../_assets/user-guide/spark_standalone_scala_version.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_standalone_scala_version.PNG
    :alt: Standalone spark
+   :width: 70%
    
 
 Install Apache Spark
@@ -59,9 +60,10 @@ Install Apache Spark
   - cd /usr/local/spark/bin
   - ./spark-shell
   
-  .. figure:: ../../_assets/user-guide/spark_standalone_spark_version.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_standalone_spark_version.PNG
    :alt: Standalone spark
+   :width: 70%
+  
   
   
 - Start a standalone master server by executing:
@@ -75,9 +77,10 @@ Install Apache Spark
   
   
   
-  .. figure:: ../../_assets/user-guide/spark_standalone_master_url.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_standalone_master_url.PNG
    :alt: Standalone spark
+   :width: 70%
+   
 
 Setup Spark Slave(Worker) Node
 ------------------------------
@@ -115,9 +118,9 @@ Install Fire on the master node.
   - Update the port of Fire-ui & Fire to 8090 & 8082 as default port 8080 & 8081 is used by standalone spark, we can chose any other also.
   - From fire-x.y.z directory, we need to go conf/application.properties and update the port No.
   
-  .. figure:: ../../_assets/user-guide/spark_standalone_port_configurations.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_standalone_port_configurations.PNG
    :alt: Standalone spark
+   :width: 70%
 
 - Create database & run fire & fire-ui server:
 
@@ -149,14 +152,14 @@ The following configurations have to be set appropriately:
    - spark.sql-context: SQLContext
    - After above updates, save the configurations.
 
-  .. figure:: ../../_assets/user-guide/spark_configuration_standalonespark.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_configuration_standalonespark.PNG
    :alt: Standalone spark
+   :width: 70%
 
 Running the Workflows on Application
 -------------------------------------------------------
 Now, go to application and try to run any workflows.
 
-  .. figure:: ../../_assets/user-guide/spark_standalone_workflow_executions.PNG
-   :scale: 100%
+.. figure:: ../_assets/user-guide/spark_standalone_workflow_executions.PNG
    :alt: Standalone spark
+   :width: 70%

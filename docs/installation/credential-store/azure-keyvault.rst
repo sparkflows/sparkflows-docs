@@ -4,25 +4,25 @@ Configuring Azure Key Vault
 
 You can configure Azure Key Vault in Fire Insights. Below are the steps for configuring Azure Key Vault:
 
-Go to Administration/Credential Store
+Go to Administration -> Credential Store
 -------------
 
-Login to Fire Insights application as an admin user. Go to "Administration" and select "Credential Store".
+Login to Fire Insights application as an admin user. Go to ``Administration`` and select ``Credential Store``.
 
-.. figure:: ../../_assets/credential_store/1.PNG
+.. figure:: ../../_assets/credential_store/admin-page.png
    :alt: Azure Key Vault
-   :width: 90%
+   :width: 65%
 
 
 Add Credential Store
 ------------------
 
-Click on the "ADD CREDENTIAL STORE" button.
+Click on the ``ADD CREDENTIAL STORE`` button.
 
 
-.. figure:: ../../_assets/credential_store/2.PNG
+.. figure:: ../../_assets/credential_store/add-credential-button.png
    :alt: Credential Store
-   :width: 90%
+   :width: 65%
 
 Add Credential Store Parameters
 --------------------------
@@ -34,24 +34,24 @@ Add Credential Store Parameters
    * - Title
      - Description
    * - STORE TYPE
-     - Select Azure Key Vault
+     - Select Azure Key Vault.
    * - STORE NAME
-     - Add any unique name
+     - Add any unique name.
    * - CLIENT ID
-     - Add Client Id for Azure account which has access to Key Vault
+     - Add Client Id for Azure account which has access to Key Vault.
    * - SECRET KEY
      - Add Secret Key
    * - STORE URL
-     - Azure KeyVault URI
+     - Azure KeyVault URL.
    * - DESCRIPTION
-     - Add any description
+     - Add any description.
      
 
 .. figure:: ../../_assets/credential_store/3_a.PNG
    :alt: Credential Store
    :width: 90%     
 
-After adding the above parameters, you can click on "TEST CREDENTIAL STORE CONNECTION" to verify the connection before saving it.
+After adding the above parameters, you can click on ``TEST CREDENTIAL STORE CONNECTION`` to verify the connection before saving it.
 
 
 .. figure:: ../../_assets/credential_store/4.PNG

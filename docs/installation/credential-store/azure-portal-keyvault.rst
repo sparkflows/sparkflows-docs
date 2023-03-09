@@ -11,26 +11,26 @@ Create a Key Vault in the Azure portal if you don't have any.
 
 .. figure:: ../../_assets/credential_store/azure-keyvault-list.png
    :alt: Azure Key Vault
-   :width: 90%
+   :width: 70%
 
-Click on "Create" and fill up the required fields and then click on "Review and Create".
+Click on ``Create`` and fill up the required fields and then click on ``Review and Create``.
 
 .. figure:: ../../_assets/credential_store/azure-keyvault-create.png
    :alt: Azure Key Vault
-   :width: 90%
+   :width: 60%
 
 
 Add Secret Keys/Values in the Key Vault
 ---------------
 
-Click on "Generate/Import".
+Click on ``Generate/Import``.
 
 .. figure:: ../../_assets/credential_store/azure-keyvault-secret-list.png
    :alt: Azure Key Vault
-   :width: 90%
+   :width: 60%
 
 Add secret keys and their values.
 
 .. figure:: ../../_assets/credential_store/azure_keyvault-create-secret1.png
    :alt: Azure Key Vault
-   :width: 90%
+   :width: 60%

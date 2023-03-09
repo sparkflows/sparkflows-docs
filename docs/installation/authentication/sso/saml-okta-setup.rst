@@ -3,25 +3,25 @@ SAML Okta setup
 
 Below are steps to setup SAML 2.0 Okta
 
-1. Create an account in Okta
+1. Create an account in Okta.
 
 .. figure:: ../../../_assets/authentication/okta_signin_url.png
    :alt: sso
    :width: 60%
    
-2. SignIn into Okta
+2. SignIn into Okta.
 
 .. figure:: ../../../_assets/authentication/okta_sigin_credential.PNG
    :alt: sso
    :width: 60%
    
-3. After login go to home and Click on Admin   
+3. After login go to home and Click on Admin.   
 
 .. figure:: ../../../_assets/authentication/okta_admin.png
    :alt: sso
    :width: 60%
 
-4. Click on Developer Console
+4. Click on Developer Console.
 
 .. figure:: ../../../_assets/authentication/okta_app.png
    :alt: sso
@@ -39,7 +39,7 @@ Below are steps to setup SAML 2.0 Okta
    :alt: sso
    :width: 60%
 
-7. Select SAML 2.0
+7. Select SAML 2.0:
 
 .. figure:: ../../../_assets/authentication/okta_saml.png
    :alt: sso
@@ -51,7 +51,7 @@ Below are steps to setup SAML 2.0 Okta
    :alt: sso
    :width: 60%
 
-9. Configure the newly created app and add below information
+9. Configure the newly created app and add below information.
 
 .. figure:: ../../../_assets/authentication/okta_general_settings.png
    :alt: sso
@@ -59,11 +59,11 @@ Below are steps to setup SAML 2.0 Okta
 
 
 
-10. Click finish
+10. Click finish.
 
 .. figure:: ../../../_assets/authentication/okta_finish.png
    :alt: sso
    :width: 60%
    
    
-.. note::  Make sure to change localhost to your domain name or your ip, Where Fire is Running.
+.. note::  Make sure to change localhost to your domain name or your IP where Fire is Running.

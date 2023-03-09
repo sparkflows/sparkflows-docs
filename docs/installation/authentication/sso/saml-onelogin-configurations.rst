@@ -5,7 +5,7 @@ Fire Insights can be Configured with SAML 2.0 OneLogin as below.
 
 Go to folder ``conf/sso.saml.properties`` file:
 
-Add below information from newly created application in oneLogin:
+Add the below information from newly created application in oneLogin:
 
 1. Enable sso in sparkflows::
 
@@ -16,15 +16,15 @@ Add below information from newly created application in oneLogin:
     
     sparkflows.sp.auto.user.create=true 
     
-3. Disable the db login for superuser or else you can enable it to login with superuser authentication::
+3. Disable the DB login for superuser or else you can enable it to login with superuser authentication::
 
     sparkflows.sp.db.login.enable=true
 
-4. enable/disable global logout::
+4. Enable/Disable global logout::
 
     saml2.global.logout=true
     
-5. Metadata url of identity provider.
+5. Metadata URL of identity provider.
 
 .. figure:: ../../../_assets/authentication/saml_metadata_url.png
    :alt: sso
@@ -66,13 +66,13 @@ Add below information from newly created application in oneLogin:
 
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha1
 
-9. application base url
+9. Application base URL
 
 ::
 
   saml.sso.metadata-generator.entity-base-url=https://localhost:8443
     
-10. server name
+10. Server Name
 
 ::
 
@@ -81,7 +81,7 @@ Add below information from newly created application in oneLogin:
   saml.context.lb.contextPath=/
  
 
-.. note::  Make sure to change localhost to your domain name or your ip
+.. note::  Make sure to change localhost to your domain name or your IP.
 
 
 

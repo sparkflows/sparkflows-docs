@@ -61,7 +61,7 @@ Below are the parameters which need to be set to the appropriate values based on
      - conf/ldap.properties
      
 
-.. note:: Make sure to update the localhost with your domain name or ip which is accessible from Sparkflows machine.
+.. note:: Make sure to update the localhost with your domain name or IP which is accessible from Sparkflows machine.
 
 Test LDAP
 ------
@@ -78,19 +78,19 @@ Sparkflows provides the capability to test the LDAP conifguration from UI.
 
   .. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
    :alt: LDAP 
-   :width: 90%
+   :width: 75%
 
   .. figure:: ../..//_assets/installation/ldap/ldap_test_connection.png
    :alt: LDAP 
-   :width: 80%
+   :width: 65%
 
   .. figure:: ../..//_assets/installation/ldap/ldap_attributes.png
    :alt: LDAP 
-   :width: 80%
+   :width: 60%
 
   .. figure:: ../..//_assets/installation/ldap/ldap_authenticate_user.png
    :alt: LDAP 
-   :width: 80%
+   :width: 60%
 
      
 .. note:: For ``ldap.UserSearchFilter`` we can use strings like ``&(objectClass=user)(sAMAccountName={0}))``.  
@@ -144,9 +144,9 @@ What if I get locked out
 ``ldap_Order`` determines the order in which Sparkflows tries to log in the user.
 In case you are locked out of Sparkflows and are not able to log in, you can do the following:
 
-* Comment out ``ldap_Order = LDAP_DB`` in ``/conf/ladp.properties`` and restart the fire server.
+* Comment out ``ldap_Order = LDAP_DB`` in ``/conf/ladp.properties`` and restart the Fire server.
 
 * Then restart the Sparkflows server. Now you should be able to log in with your admin account.
 
-Once things are back to normal, you can enable ``ldap_Order = LDAP_DB`` in ``/conf/ldap.properties`` and restart the fire server.
+Once things are back to normal, you can enable ``ldap_Order = LDAP_DB`` in ``/conf/ldap.properties`` and restart the Fire server.
 

@@ -11,7 +11,7 @@ Below are steps to setup SAML 2.0 OneLogin:
    :alt: sso
    :width: 60%
 	   
-3. Go to administrator >> Click on applications menu >> 
+3. Go to Administrator >> Click on Applications menu >> 
 
 .. figure:: ../../../_assets/authentication/applications_menu.png
    :alt: sso
@@ -25,7 +25,7 @@ Below are steps to setup SAML 2.0 OneLogin:
    
 5. Select an application::
 
-    Search application 'SAML Test Connector'
+    Search application 'SAML Test Connector'.
     Select the application SAML Test Connector (Advanced).
       
 .. figure:: ../../../_assets/authentication/searchApp.png
@@ -51,4 +51,4 @@ Below are steps to setup SAML 2.0 OneLogin:
    :alt: sso
    :width: 60%
 
-.. note::  Make sure to change localhost to your domain name or your ip, Where Fire is Running.
+.. note::  Make sure to change localhost to your domain name or your IP, where Fire is Running.

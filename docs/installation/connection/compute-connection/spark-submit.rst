@@ -58,7 +58,7 @@ For GENERAL tab :
      - Connection Name
      - Name of Connection
    * - Postback Url
-     - Postback Url
+     - Postback URL
      - Postback Url through which Spark Cluster sent result back to Fire Insights
    * - Title 
      - Title of Selected Connection
@@ -69,7 +69,7 @@ For GENERAL tab :
         
 .. figure:: ../../../_assets/installation/connection/spark-submit_general.PNG
    :alt: connection
-   :width: 60%
+   :width: 55%
 
 For SPARK tab :
 

@@ -17,49 +17,49 @@ Sign in to Ping Identity
    :alt: sso
    :width: 40%
 
-After login go to home and click on "Administrators" in Environments
+After login go to home and click on ``Administrators`` in Environments
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
    :alt: sso
    :width: 60%
 
-Click on "Connections"
+Click on ``Connections``
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_3.PNG
    :alt: sso
    :width: 60%
 
-Select "Applications" & click on "+" sign to create new application
+Select ``Applications`` & click on ``+`` sign to create new application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
    :alt: sso
    :width: 60%
 
-Add "Name" and "Descriptions" of the application
+Add ``Name`` and ``Descriptions`` of the application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_5.PNG
    :alt: sso
    :width: 60%
    
-Choose "Application Type" as SAML Application
+Choose ``Application Type`` as SAML Application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_6.PNG
    :alt: sso
    :width: 60%
    
-Click on "Configure" and provide application metadata as per your configuration
+Click on ``Configure`` and provide application metadata as per your configuration
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
    :alt: sso
    :width: 60%
    
-Update "ACS URLs" & "Entity ID" & save the application
+Update ``ACS URLs`` and ``Entity ID`` and save the application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_8.PNG
@@ -73,4 +73,4 @@ Activate the application and download the metadata from application which will b
    :alt: sso
    :width: 60%
 
-.. note::  Make sure to change localhost to your domain name or your ip, Where Fire is Running.
+.. note::  Make sure to change localhost to your domain name or your IP where Fire is running.

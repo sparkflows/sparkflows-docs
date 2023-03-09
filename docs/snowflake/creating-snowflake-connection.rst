@@ -46,6 +46,8 @@ Add Connection Parameter
      - Password for selected Snowflake Connection.
    * - TITLE
      - Add a unique title.
+   * - WAREHOUSE
+     - A comma seperated list of default Warehouse that users can acess via this connection. If the field is left blank, it will list all the warehourses.
    * - DESCRIPTION
      - Add description.
    * - URL

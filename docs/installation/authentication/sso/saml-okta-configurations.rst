@@ -87,4 +87,4 @@ Add/update the below information from newly created application in Okta:
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   
-.. note::  Make sure to change localhost to your domain name or your ip.    
+.. note::  Make sure to change localhost to your domain name or your IP.    

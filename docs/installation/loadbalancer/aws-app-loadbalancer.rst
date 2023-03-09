@@ -1,7 +1,7 @@
 AWS Application Load Balancer
 ===========================
 
-This document explains the steps for creating "Application Load Balancer" in AWS and configuring it for Fire Insights.
+This document explains the steps for creating ``Application Load Balancer`` in AWS and configuring it for Fire Insights.
 
 Below are steps involved in creating application load balancer in AWS:
 
@@ -12,7 +12,7 @@ Login with AWS console and search for load balancer with EC2 feature
    :alt: Load balancers
    :width: 60%
 
-Create load balancer & select application load balancer
+Create load balancer and select application load balancer
 -------
 
 .. figure:: ../..//_assets/loadbalancer/application-lb.PNG
@@ -81,7 +81,7 @@ Configure routing
 Port forwarding
 -------
 
-Fire Insights by default runs on port 8080 for HTTP & 8443 for HTTPS. Make sure to forward HTTP or HTTPS to specified ports on which Fire Insights is running.
+Fire Insights by default runs on port 8080 for HTTP and 8443 for HTTPS. Make sure to forward HTTP or HTTPS to specified ports on which Fire Insights is running.
 
 ::
 

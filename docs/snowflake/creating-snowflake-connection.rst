@@ -36,6 +36,8 @@ Add Connection Parameter
      - Description
    * - CREDENTIAL STORE
      - Select Credential Store Listed in dropdown or else choose Do not use Credential Store.
+   * - SELECT CATEGORY
+     - Select Storage Connection.   
    * - CONNECTION TYPE
      - Select Connection type as Snowflake, it can be `Databricks, MySql, MOngo DB, Sql Server, HIve, Redshift and Snowflake.`
    * - CONNECTION NAME

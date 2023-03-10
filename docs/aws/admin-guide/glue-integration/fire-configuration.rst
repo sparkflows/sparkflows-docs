@@ -12,7 +12,7 @@ https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/
 
 2. Create workflow in Fire.
 
-Now, you can create an example workflow in Fire which reads from S3 bucket doing some filter and calculations and save the workflow.
+Now, you can create a Housing Analytics workflow in Fire which reads from S3 bucket doing some filter and calculations and save the workflow.
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_2.PNG
    :alt: aws

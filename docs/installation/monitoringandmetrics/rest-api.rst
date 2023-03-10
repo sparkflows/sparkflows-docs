@@ -1,13 +1,13 @@
 Swagger REST API's
 =========
 
-Fire Insights enables you to use "Swagger REST API'S". It can be accessible only when the admin provides the privilge to access it.
+Fire Insights enables you to use ``Swagger REST API'S``. It can be accessible only when the admin provides the privilge to access it.
 
 Below are the required steps:
 
 1. Enable Swagger inside ``application.properties``.
 
-Enable Swagger by adding the following line next to "application.properties" :
+Enable Swagger by adding the following line next to application.properties :
 ::
 
     swagger.enable=true

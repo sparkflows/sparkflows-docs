@@ -65,6 +65,11 @@ You, now, create an Amazon IAM Role which the AWS Glue Job will use for the auth
 
 2. Select Glue as the AWS Service on the next screen and click the Next: Permissions button.
 
+.. figure:: ../../../_assets/aws/glue/aws_glue_1.PNG
+   :alt: aws
+   :width: 60%
+
+
 3. On the next screen, select AdministratorAccess as the policy and click on the Next: Tags button. In actual production use, you will not use administrative access permission.
 
 .. figure:: ../../../_assets/aws/glue/role_admin.png
@@ -142,3 +147,6 @@ Now, since Fire Insights and AWS Glue are running on separate VPC's, we can use 
 .. figure:: ../../../_assets/aws/glue/peering_connection_list.PNG
    :alt: aws
    :width: 60%
+   
+   
+.. note:: Ignore the above steps if Fire Insights and AWS Glue are running on same VPC   

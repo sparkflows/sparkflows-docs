@@ -86,7 +86,7 @@ For GLUE Tab :
      - FireGlueApp
    * - Default Arguments
      - Pass any parameters as default arguments
-     - --TempDir s3://aws-glue-temporary
+     - --TempDir s3://aws-glue-temporary;,--postBackUrl http://host_name:8080/messageFromSparkJob
    * - Glue Version
      - Glue Version. If empty it takes default glue version.
      - 3.0
@@ -95,7 +95,7 @@ For GLUE Tab :
      - scala
    * - Extra Jars
      - Extra Jar file path pass in default arguments
-     - s3://aws-glue-scripts/fire-spark_3.1.3-core-3.1.0-jar-with-dependencies.jar
+     - s3://aws-glue-scripts/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar
    * - S3 Path
      - S3 bucket location where workflow json file gets uploaded for execution
      - s3://aws-glue-scripts/workflow-json
@@ -108,6 +108,8 @@ For GLUE Tab :
    * - Workflow Files Directory
      - Directory used for Writing the workflow files
      - Directory used for Writing the workflow files
+
+.. note:: Copy ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from ``fire-x.y.z/fire-core-jar`` bundled in Fire tgz file.
 
 5. Save connection
 

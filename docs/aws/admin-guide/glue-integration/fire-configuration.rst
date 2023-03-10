@@ -22,7 +22,7 @@ Now, you can create an example workflow in Fire which reads from S3 bucket doing
 
 4. Submit the Job.
 
-After saving example workflow, you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
+After saving Housing Analytics workflow, you can execute the job which will be submitted on AWS Glue Cluster using connection dropdown and you will see response in Fire Insights.
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_3.PNG
    :alt: aws

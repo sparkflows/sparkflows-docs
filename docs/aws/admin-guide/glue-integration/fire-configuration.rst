@@ -1,7 +1,7 @@
 Fire Configurations & Job Submission on AWS Glue
 ==========================
 
-Since, you have successfully established a connection between VM on which Fire Insights is running and AWS Glue, so now you can create connection for Glue in Fire Insights and create workflow and submit the job on AWS Glue.
+Since, you have successfully established a connection between EC2 Machine on which Fire Insights is running and AWS Glue, so now you can create connection for Glue in Fire Insights and create workflow and submit the job on AWS Glue.
 
 1. Login to Fire Insights application and Create Glue Connection.
 
@@ -17,6 +17,8 @@ Now, you can create an example workflow in Fire which reads from S3 bucket and s
 .. figure:: ../../../_assets/aws/glue/wf.PNG
    :alt: aws
    :width: 60%
+
+.. note:: Make sure that data reading from s3 in workflow should be accessible.
 
 4. Submit the Job.
 

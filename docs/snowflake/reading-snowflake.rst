@@ -14,7 +14,7 @@ Using this processor, a user can select a single table/view from the Snowflake s
 Processor Configuration
 ----------
 
-.. figure:: ..//_assets/snowflake/ReadProcessorGen.PNG
+.. figure:: ..//_assets/snowflake/ReadProcessorGen.png
    :alt: snowflake
    :width: 90%
 
@@ -33,7 +33,7 @@ The below workflow does the following:
 * Reads Snowflake Table/View.
 * Prints a few records of the DataFrame.
 
-.. figure:: ..//_assets/snowflake/wf_read.PNG
+.. figure:: ..//_assets/snowflake/wf_read.png
    :alt: snowflake
    :width: 40%
 
@@ -47,14 +47,14 @@ Processor Configuration
 
 Below are the configurations for the Read from Snowflake processor.
 
-.. figure:: ..//_assets/snowflake/ReadProcessorGen.PNG
+.. figure:: ..//_assets/snowflake/ReadProcessorGen.png
    :alt: snowflake
    :width: 90%
 
 Processor Output
 ++++
 
-.. figure:: ..//_assets/snowflake/processor_read.PNG
+.. figure:: ..//_assets/snowflake/processor_read.png
    :alt: snowflake
    :width: 90%
 
@@ -66,7 +66,7 @@ Using this processor, a user can select multiple tables/views across the Snowfla
 Processor Configuration
 ----------
 
-.. figure:: ..//_assets/snowflake/EXProcessorGen.PNG
+.. figure:: ..//_assets/snowflake/EXProcessorGen.png
    :alt: snowflake
    :width: 90%
 
@@ -85,7 +85,7 @@ The below workflow does the following:
 * Reads data from Customers & Orders tables to find all pending orders .
 * Prints a few records of the DataFrame.
 
-.. figure:: ..//_assets/snowflake/wf_execute.PNG
+.. figure:: ..//_assets/snowflake/wf_execute.png
    :alt: snowflake
    :width: 40%
 
@@ -99,13 +99,13 @@ Processor Configuration
 
 Below are the configurations for the Read from Snowflake processor.
 
-.. figure:: ..//_assets/snowflake/EXProcessorGen.PNG
+.. figure:: ..//_assets/snowflake/EXProcessorGen.png
    :alt: snowflake
    :width: 90%
 
 Processor Output
 ++++
 
-.. figure:: ..//_assets/snowflake/processor_execute.PNG
+.. figure:: ..//_assets/snowflake/processor_execute.png
    :alt: snowflake
    :width: 90%

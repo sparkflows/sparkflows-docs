@@ -16,7 +16,7 @@ Upload Stage
       :width: 70%
 
 
-- In the second column, add a text field to add ``DESTINATION PATH`` where the browse file should get uploaded. Set its label as ``Destination Path`` and property name to ``TRAIN_DATA``.
+- In the second column, add a text field to add ``DESTINATION PATH`` where the browse file should get uploaded. Set its label as ``Destination Path``.
 
    .. figure:: ../../../_assets/web-app/add-stage-uplaod-textfield.PNG
       :alt: web-app

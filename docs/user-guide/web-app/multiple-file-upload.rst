@@ -9,7 +9,7 @@ Fire Insights enables you to upload multiple file in Analytics App.
             :alt: web-app
             :width: 80%
 
-- Add one text field to add ``DESTINATION PATH`` where the browse file should get uploaded. Set its label as ``destinationPath``. Add key and its value in "CUSTOM PROPERTIES" where key as ``for`` and value as property name of file component e.g. ``file1``.
+- Add one text field to add ``DESTINATION PATH`` where the browse file should get uploaded. Set its label as ``Destination Path``. Add key and its value in "CUSTOM PROPERTIES" where key as ``for`` and value as property name of file component e.g. ``file1``.
 
       .. figure:: ../../_assets/web-app/destination-path-1.png
             :alt: web-app

@@ -9,7 +9,7 @@ Fire Insights has provided two processors for reading data from Snowflake.
 1. Read From SnowFlake Workflow
 --------
 
-Using this processor, a user can select a single table/view from the Snowflake schema.
+A user can use this processor to select a single table/view from the Snowflake schema.
 
 Processor Configuration
 ----------
@@ -22,7 +22,7 @@ Processor Configuration
 * SF WAREHOUSE : Snowflake Warehouse Name.
 * SF DATABASE : Snowflake Database Name.
 * SF SCHEMA : Snowflake Schema Name.
-* SF TABLE/VIEW : Snowflake Table/View Name 
+* SF TABLE/VIEW : Snowflake Table/View Name. 
 
 
 Example Workflow
@@ -61,7 +61,7 @@ Processor Output
 2. Execute Query In SnowFlake
 --------
 
-Using this processor, a user can select multiple tables/views across the Snowflake schema amd write subqueries and perform aggregations and use Snowflake specific SQL functions .
+A user can use this processor to select multiple tables/views across the Snowflake schema and write subqueries and perform aggregations and use Snowflake specific SQL functions.
 
 Processor Configuration
 ----------
@@ -82,7 +82,7 @@ Example Workflow
 
 The below workflow does the following:
 
-* Reads data from Customers & Orders tables to find all pending orders .
+* Reads data from Customers & Orders tables to find all pending orders.
 * Prints a few records of the DataFrame.
 
 .. figure:: ..//_assets/snowflake/wf_execute.png

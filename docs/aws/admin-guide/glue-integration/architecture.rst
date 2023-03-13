@@ -14,5 +14,5 @@ Fire Insights can be configured to AWS Glue cluster with the aid of architecture
 3. Fire Insights submits the job onto AWS Glue through Rest API.
 4. It reads in data from AWS S3.
 5. The jobs running on AWS Glue also send back results to Fire Insights via HTTP.
-6. IAM Roles is used to access AWS Glue, S3 etc.
+6. IAM Roles is used to access AWS Glue, S3, etc.
 

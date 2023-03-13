@@ -1,15 +1,15 @@
 AWS Glue Connection
 ----------------
 
-Sparkflows enabled you to create Aws Glue connection and use the connection to submit job on Aws Glue. Connections can be at various levels:
+Sparkflows enables you to create Aws Glue connection and use the connection to submit job on Aws Glue. Connections can be at various levels:
 
-  * Global  : Everyone has access to these connections
-  * Group   : Users belonging to the group have access to these connections
-  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections
+  * Global  : Everyone has access to these connections.
+  * Group   : Users belonging to the group have access to these connections.
+  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
 
 Below are the steps required to create Glue connection :
 
-1. Enable Glue in Sparkflows:
+**1. Enable Glue in Sparkflows:**
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Glue connection by setting the below parameter:
 
@@ -17,7 +17,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.glue.enabled : true
 
-2. Create global connections:
+**2. Create global connections:**
 
 Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
@@ -25,17 +25,17 @@ Once you save the above configuration, navigate to ``Administration`` -> ``Globa
    :alt: livy
    :width: 60%
 
-3. Add Connection for group:
+**3. Add Connection for group:**
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which will pop up a new window -> Select ``Compute Connection`` and other parameters as shown below:
 
 .. figure:: ../../../_assets/installation/connection/glue_connection.PNG
    :alt: livy
    :width: 60%
 
-4. Update the below parameter as per our configurations:
+**4. Update the below parameters as per our configuration:**
 
-Now update the below parameter as per AWS configurations. For more details refer the following table and image:
+Now, update the below parameter as per AWS configurations. For more details refer the following table and image:
 
 For GENERAL Tab :
 
@@ -76,44 +76,44 @@ For GLUE Tab :
      - Description
      - Value
    * - Script Location
-     - Glue script location
+     - Glue script location.
      - s3://aws-glue-scripts/scripts/FireGlueApp.scala
    * - IAM Role
-     - AWS IAM Role, role has policy to access s3, ec2 etc
+     - AWS IAM Role, role has policy to access S3, EC2, etc.
      - AWSGlueServiceRole-Sparkflows
    * - Glue Main Class  
-     - Glue Main class to execute
+     - Glue Main class to execute.
      - FireGlueApp
    * - Default Arguments
-     - Pass any parameters as default arguments
+     - Pass any parameters as default arguments.
      - --TempDir s3://aws-glue-temporary;,--postBackUrl http://host_name:8080/messageFromSparkJob
    * - Glue Version
      - Glue Version. If empty it takes default glue version.
      - 3.0
    * - Glue Language
-     - Glue Language. Input should scala or python
+     - Glue Language. Input should be scala or python.
      - scala
    * - Extra Jars
-     - Extra Jar file path pass in default arguments
+     - Extra Jar file path pass in default arguments.
      - s3://aws-glue-scripts/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar
    * - S3 Path
-     - S3 bucket location where workflow json file gets uploaded for execution
+     - S3 bucket location where workflow JSON file gets uploaded for execution.
      - s3://aws-glue-scripts/workflow-json
    * - Glue Connections
-     - Glue connection names. Input the glue connection names as comma separated value like Glue-conn, Glue-conn1
+     - Glue connection names. Input the glue connection names as comma separated value like Glue-conn, Glue-conn1.
      - Glue-Fire
    * - AWS Region
-     - AWS Region of Glue
+     - AWS Region of Glue.
      - AWS Region where Glue is deployed
    * - Workflow Files Directory
-     - Directory used for Writing the workflow files
+     - Directory used for Writing the workflow files.
      - Directory used for Writing the workflow files
 
 .. note:: Copy ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from ``fire-x.y.z/fire-core-jar`` bundled in Fire tgz file.
 
-5. Save connection
+**5. Save connection**
 
-Once you have updated the above parameters, click on  ``Save`` the connection.
+Once you have updated the above parameters, click on  ``Save`` to save the connection.
 
 
 Documentation

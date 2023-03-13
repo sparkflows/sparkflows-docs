@@ -13,7 +13,7 @@ You need to have an AWS account with administrative access.
 Create VPC for ENI
 ------
 
-You, first, create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interfaces (ENI) to call the REST API over the internet.
+Firstly, you have to create a VPC with a private and a public subnet. You need a VPC because the AWS Glue Job needs an Amazon Elastic network interface (ENI) to call the REST API over the internet.
 
 ENI is created in the private subnet.
 
@@ -22,59 +22,59 @@ ENI is created in the private subnet.
 
 .. figure:: ../../../_assets/aws/glue/vpc.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 2. On the next screen, click on the Allocate button. An Elastic IP address is created which you will use for the NAT Gateway when creating the VPC.
 
-3. Enter Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
+3. Enter Connection name as ``dojoconnection``. Select ``Network`` as the Connection type and click on the Next button.
 
 .. figure:: ../../../_assets/aws/glue/ip_pool.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 3. On the VPC Management Console click on the Launch VPC Wizard button.
 
 .. figure:: ../../../_assets/aws/glue/vpc_wizard.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 4. On the next screen, select VPC with Public and Private Subnets choice and click on the Select button.
 
 .. figure:: ../../../_assets/aws/glue/vpc_configuration.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
-5. On the next screen, enter GlueVPC as the VPC Name and select the Elastic IP address (created in the previous steps) for the Elastic IP Allocation ID field. Keep the rest of the values as default and click on the Create VPC button.
+5. On the next screen, enter ``GlueVPC`` as the VPC Name and select the Elastic IP address (created in the previous steps) for the Elastic IP Allocation ID field. Keep the rest of the values as default and click on the Create VPC button.
 
 .. figure:: ../../../_assets/aws/glue/vpc_public.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 6. The VPC will be created in a couple of minutes. Please wait for it to finish. You will use VPC private subnet and the default security group, later, to create ENI to call the REST API using AWS Glue Connection.
 
 Create IAM Role
 ------------
 
-You, now, create an Amazon IAM Role which the AWS Glue Job will use for the authorization to perform the task.
+Now, you need to create an Amazon IAM Role which the AWS Glue Job will use for the authorization to perform the task.
 
 1. Go to the IAM Management Console. Click on the Roles menu item in the left and then click on the Create role button.
 
 .. figure:: ../../../_assets/aws/glue/roles.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 2. Select Glue as the AWS Service on the next screen and click the Next: Permissions button.
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_1.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 
-3. On the next screen, select AdministratorAccess as the policy and click on the Next: Tags button. In actual production use, you will not use administrative access permission.
+3. On the next screen, select ``AdministratorAccess`` as the policy and click on the Next: Tags button. In actual production use, you will not use administrative access permission.
 
 .. figure:: ../../../_assets/aws/glue/role_admin.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 4. On the next screen, click on the Next: Review button.
 
@@ -98,55 +98,55 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 
 .. figure:: ../../../_assets/aws/glue/connection.png
    :alt: aws
-   :width: 60%
+   :width: 50%
 
-2. Enter the Connection name as dojoconnection. Select Network as the Connection type and click on the Next button.
+2. Enter the Connection name as ``dojoconnection``. Select ``Network`` as the Connection type and click on the Next button.
 
 .. figure:: ../../../_assets/aws/glue/add_connection.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
-3. On the next screen, select GlueVPC as the VPC. Select Private Subnet for the Subnet. Select the default Security Group. Finally click on the Next button.
+3. On the next screen, select ``GlueVPC`` as the VPC. Select ``Private Subnet`` for the Subnet. Select the ``default Security Group``. Finally click on the Next button.
 
 .. figure:: ../../../_assets/aws/glue/vpc_connection.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 4. On the next screen, click on the Finish button. It will create the network type connection. Select the connection and click on the Test connection button to test the connection.
 
 .. figure:: ../../../_assets/aws/glue/connection_success.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
-5. On the popup screen, select the role specified and specific s3 bucket, then use that one. Click on the Test connection button.
+5. On the popup screen, select the role specified and specific S3 bucket, then use that one. Click on the Test connection button.
 
 .. figure:: ../../../_assets/aws/glue/test_connection.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 6. The connection test will take some time. Wait till the test status is displayed as successful.
 
 .. figure:: ../../../_assets/aws/glue/success_test_connection.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
 
 VPC Peering Connections
 ----------
 
 Now, since Fire Insights and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.
 
-1. Create Peering connection
+1. Create Peering connection.
 
 .. figure:: ../../../_assets/aws/glue/peering_communication.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
    
 
 2. On successful creation, you will be able to see peering connection with Status active.
 
 .. figure:: ../../../_assets/aws/glue/peering_connection_list.PNG
    :alt: aws
-   :width: 60%
+   :width: 50%
    
    
-.. note:: Ignore the above steps if Fire Insights and AWS Glue are running on same VPC   
+.. note:: Ignore the above steps if Fire Insights and AWS Glue are running on same VPC.   

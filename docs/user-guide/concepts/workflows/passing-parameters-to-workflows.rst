@@ -31,7 +31,7 @@ Workflow performs the following processing :
    
 .. figure:: ../../../_assets/user-guide/passing-parameters/parameter-setting.png
    :alt: Passing Parameters
-   :width: 75%
+   :width: 50%
    
 Defining Parameters
 ^^^^^^^^^^^^^^^^^^
@@ -48,7 +48,7 @@ Processor Configuration
    
 .. figure:: ../../../_assets/user-guide/passing-parameters/parameter-definition.png
    :alt: Passing Parameters
-   :width: 75%
+   :width: 60%
    
 Reading from Dataset
 ^^^^^^^^^^^^^^^^^^

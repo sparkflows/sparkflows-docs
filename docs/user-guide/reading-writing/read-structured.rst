@@ -57,7 +57,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 **Create Dataset Node output**
 
@@ -65,16 +65,16 @@ Output of the ``Create Dataset`` node prints the dataset created with specified 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-printnode-output.png
    :alt: readwrite_userguide
-   :width: 85%       	    
+   :width: 70%       	    
 
 Dataset Structured
 ----------------------------------------
 
-Below is a sample workflow which contains the ``Dataset Structured`` processor in Fire Insights. It demonstrates the usage of ``Dataset Structured`` node to create a dataframe based on rows from a dataset.
+Below is a sample workflow which contains the ``Dataset Structured`` processor in Fire Insights. It demonstrates the usage of ``Dataset Structured`` node to create a DataFrame based on rows from a dataset.
 
 It does the following processing of data:
 
-*	Creates a dataframe based on rows from a dataset using the ``Dataset Structured`` node.
+*	Creates a DataFrame based on rows from a dataset using the ``Dataset Structured`` node.
 *	Prints the created dataset.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/dataset-structured.png
@@ -84,12 +84,12 @@ It does the following processing of data:
 **Dataset Structured Node configuration**
 
 *	The ``Dataset Structured`` node is configured as below.
-*	Dataset to be used to create dataframe is to be selected in the ``Dataset`` list.
+*	Dataset to be used to create DataFrame is to be selected in the ``Dataset`` list.
 *	Output prints the dataframe so created based on the data from the selected dataset.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 **Dataset Structured Node output**
 
@@ -97,7 +97,7 @@ Output of the ``Dataset Structured`` node prints the dataframe so created based 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-printnode-output.png
    :alt: readwrite_userguide
-   :width: 85%       	    
+   :width: 70%       	    
 
 Empty Dataset
 ----------------------------------------
@@ -107,11 +107,11 @@ Below is a sample workflow which contains the ``Empty Dataset`` processor in Fir
 It does the following processing of data:
 
 *	Creates an empty dataframe using the ``Empty Dataset`` node.
-*	Created dataset contains no rows or columns hence it is not displayed in the output.
+*	Created dataset contains no rows or columns hence, it is not displayed in the output.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/create-empty-dataset-WF.png
    :alt: readwrite_userguide
-   :width: 60%
+   :width: 50%
    
 **Empty Dataset Node configuration**
 
@@ -119,7 +119,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 Read Excel
 ----------------------------------------
@@ -131,9 +131,9 @@ It does the following processing of data:
 *	Creates a dataset from an excel file using ``Dataset Structured`` node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-excel-WF.png
    :alt: readwrite_userguide
-   :width: 60%
+   :width: 50%
    
 **Read Excel Node configuration**
 
@@ -145,7 +145,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 **Read Excel Node output**
 
@@ -153,7 +153,7 @@ Output of the ``Read Excel`` node prints the dataframe so created based on data 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-printnode-output.png
    :alt: readwrite_userguide
-   :width: 85%       	    
+   :width: 70%       	    
 
 
 Read Avro
@@ -166,7 +166,7 @@ It does the following processing of data:
 *	Reads incoming dataset in the ``Avro Data File`` format using the ``Read Avro`` node.
 * 	Prints the content of Avro file using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-Avro-WF.png
    :alt: readavro_node_userguide
    :width: 50%
    
@@ -180,7 +180,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-configuration.png
    :alt: readavro_node_userguide
-   :width: 85%
+   :width: 70%
 
 **Read Avro Node output**
 
@@ -188,7 +188,7 @@ Data read from an ``Avro Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-printnode-output.png
    :alt: readavro_node_userguide
-   :width: 85%
+   :width: 70%
    
 Read CSV
 ----------------------------------------
@@ -200,7 +200,7 @@ It does the following processing of data:
 *	Reads incoming dataset in ``CSV Data`` format using the ``Read CSV`` node.
 * 	Prints the content of the CSV file using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-CSV-WF.png
    :alt: readcsv_node_userguide
    :width: 50%
    
@@ -216,7 +216,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-configuration.png
    :alt: readcsv_node_userguide
-   :width: 85%
+   :width: 70%
 
 **Read CSV Node output**
 
@@ -224,7 +224,7 @@ Data read from a ``CSV Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-printnode-output.png
    :alt: readcsv_node_userguide
-   :width: 85%
+   :width: 70%
    
 Read Parquet
 ----------------------------------------
@@ -236,7 +236,7 @@ It does following processing of data:
 *	Reads incoming Dataset in ``Parquet Data File`` format using ``Read Parquet`` node.
 * 	Prints the content of Parquet file using Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-Parquet-WF.png
    :alt: readparquet_node_userguide
    :width: 50%
    
@@ -250,7 +250,7 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-configuration.png
    :alt: readparquet_node_userguide
-   :width: 85%
+   :width: 70%
 
 **Read Parquet Node output**
 
@@ -258,7 +258,7 @@ Data read from a ``Parquet Data File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-printnode-output.png
    :alt: readparquet_node_userguide
-   :width: 85%
+   :width: 70%
    
 Read JSON
 ----------------------------------------
@@ -270,7 +270,7 @@ It does the following processing of data:
 *	Reads incoming dataset in ``JSON File`` format using the ``Read JSON`` node.
 * 	Prints the content of JSON file using the Print node
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-JSON-WF.png
    :alt: readjson_node_userguide
    :width: 50%
    
@@ -285,7 +285,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-configuration.png
    :alt: readjson_node_userguide
-   :width: 85%
+   :width: 70%
 
 **Read JSON Node output**
 
@@ -293,7 +293,7 @@ Data read from ``JSON File`` is printed as below using the Print node.
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-printnode-output.png
    :alt: readjson_node_userguide
-   :width: 85%
+   :width: 70%
    
 URL Single Record JSON Reader
 ----------------------------------------
@@ -305,9 +305,9 @@ It does the following processing of data:
 *	Reads the content of a JSON file present at the provided URL using ``URL Single Record JSON Reader`` node.
 *	Prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-JSON-URL-WF.png
    :alt: readwrite_userguide
-   :width: 60%
+   :width: 50%
    
 **URL Single Record JSON Reader Node configuration**
 
@@ -318,7 +318,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 **URL Single Record JSON Reader Node output**
 
@@ -326,7 +326,7 @@ Output of the ``URL Single Record JSON Reader`` node prints the content of JSON 
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-printnode-output.png
    :alt: readwrite_userguide
-   :width: 85%       	    
+   :width: 70%       	    
 
 URL Text File Reader
 ----------------------------------------
@@ -338,9 +338,9 @@ It does the following processing of data:
 *	Reads the content of a Text file present at the provided URL using the ``URL Text File Reader`` node.
 *	Prints the content of the Text file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-text-URL-WF.png
    :alt: readwrite_userguide
-   :width: 65%
+   :width: 50%
    
 **URL Text File Reader Node configuration**
 
@@ -350,7 +350,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-config.png
    :alt: readwrite_userguide
-   :width: 85%
+   :width: 70%
    
 **URL Text File Reader Node output**
 
@@ -358,4 +358,4 @@ Output of the  ``URL Text File Reader`` node prints the content of the Text file
 
 .. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-printnode-output.png
    :alt: readwrite_userguide
-   :width: 85%       	    
+   :width: 70%       	    

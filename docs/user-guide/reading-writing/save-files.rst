@@ -37,15 +37,15 @@ It does the following processing of data:
 *	Coalesce node is used to define the number of partitions to be created while saving.
 *	Saves the incoming dataset in Avro format using ``Save Avro`` node.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/save-avro-wf.png
    :alt: savefiles_userguide
-   :width: 70%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-incoming-dataset.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 **Save Avro Node Configuration**
 
@@ -56,7 +56,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-config.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 Save CSV
 ----------------------------------------
@@ -69,15 +69,15 @@ It does the following processing of data:
 *	Coalesce node is used to define the number of partitions to be created while saving.
 *	Saves the incoming dataset in CSV format using  the ``Save CSV`` node.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/save-csv-wf.png
    :alt: savefiles_userguide
-   :width: 70%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-incoming-dataset.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 **Save CSV Node Configuration**
 
@@ -90,11 +90,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-config1.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-config2.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 Save JSON
 ----------------------------------------
@@ -107,15 +107,15 @@ It does the following processing of data:
 *	Coalesce node is used to define the number of partitions to be created while saving.
 *	Saves the incoming dataset in JSON format using the ``Save JSON`` node.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savejson-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/save-json-wf.png
    :alt: savefiles_userguide
-   :width: 70%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savejson-incoming-dataset.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 **Save JSON Node Configuration**
 
@@ -127,11 +127,11 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/savejson-config1.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/read-write/save-files/savejson-config2.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 Save ORC
 ----------------------------------------
@@ -144,15 +144,15 @@ It does the following processing of data:
 *	Coalesce node is used to define the number of partitions to be created while saving.
 *	Saves incoming dataset in ORC format using the ``Save ORC`` node.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/save-orc-wf.png
    :alt: savefiles_userguide
-   :width: 70%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-incoming-dataset.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 **Save ORC Node configuration**
 
@@ -163,7 +163,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-config.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
 
 Save Parquet
 ----------------------------------------
@@ -176,15 +176,15 @@ It does the following processing of data:
 *	Coalesce node is used to define the number of partitions to be created while saving.
 *	Saves the incoming dataset in Parquet format using the ``Save Parquet`` node.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-demo-workflow.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/save-parquet-wf.png
    :alt: savefiles_userguide
-   :width: 70%
+   :width: 50%
    
 **Incoming Dataset**
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-incoming-dataset.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 **Save Parquet Node Configuration**
 
@@ -196,9 +196,9 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-config1.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
    
 .. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-config2.png
    :alt: savefiles_userguide
-   :width: 90%
+   :width: 75%
 

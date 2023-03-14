@@ -31,11 +31,11 @@ Click ``Save`` to save the empty workflow.
 Add Processors
 ===================
 
-After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the yellow box in the first processor and dragging it to the second processor. You can even search by the name of processors.
+After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the grey box in the first processor and dragging it to the second processor. You can even search by the name of processors using the search panel.
 
-.. figure:: ../../_assets/tutorials/quickstart/9.png
+.. figure:: ../../_assets/tutorials/quickstart/add-processors.png
    :alt: Quickstart
-   :width: 90%
+   :width: 60%
 
 
 

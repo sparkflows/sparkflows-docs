@@ -16,7 +16,7 @@ You can go inside any project to create a Housing Analytics workflow in Fire whi
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_2.PNG
    :alt: aws
-   :width: 60%
+   :width: 70%
 
 .. note:: Make sure that data reading from S3 in workflow should be accessible.
 
@@ -26,11 +26,11 @@ After saving Housing Analytics workflow, you can execute the job which will be s
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_3.PNG
    :alt: aws
-   :width: 70%
+   :width: 75%
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_4.PNG
    :alt: aws
-   :width: 70%
+   :width: 75%
 
 
 .. note::  Make sure to use Glue Connection while Execution.   
@@ -41,5 +41,5 @@ Now, you may verify the Job run on Fire Insights from AWS Glue Job by accessing 
 
 .. figure:: ../../../_assets/aws/glue/aws_glue_5.PNG
    :alt: aws
-   :width: 60%
+   :width: 65%
    

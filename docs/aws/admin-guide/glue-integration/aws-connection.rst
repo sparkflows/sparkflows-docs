@@ -22,7 +22,7 @@ ENI is created in the private subnet.
 
 .. figure:: ../../../_assets/aws/glue/vpc.png
    :alt: aws
-   :width: 50%
+   :width: 60%
 
 2. On the next screen, click on the Allocate button. An Elastic IP address is created which you will use for the NAT Gateway when creating the VPC.
 
@@ -30,7 +30,7 @@ ENI is created in the private subnet.
 
 .. figure:: ../../../_assets/aws/glue/ip_pool.png
    :alt: aws
-   :width: 50%
+   :width: 60%
 
 3. On the VPC Management Console click on the Launch VPC Wizard button.
 

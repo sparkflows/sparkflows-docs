@@ -6,16 +6,16 @@ Fire Insights has a processor that allows you to connect with databrikcs table a
 Read Databricks table in Workflow
 ---------------------------------
 
-In the workflow use the processor 'ReadDatabricksTable'. It will allow you to read tables from Databricks.
+In the workflow use the processor ``Read Databricks Table``. It will allow you to read tables from Databricks.
 
 Then use the other processors in Fire for processing the data read from the Databricks Table.
 
 Workflow
 ++++++++
 
-.. figure:: ../../_assets/configuration/workflow_databricks.PNG
+.. figure:: ../../_assets/configuration/read-databricks-WF.png
    :alt: Databricks
-   :width: 55%
+   :width: 40%
 
 Processor Configurations for ReadDatabricksTable
 ++++++++
@@ -60,9 +60,9 @@ Below is a workflow which writes data to the Databricks table ``default``.
 Workflow
 ++++++++
 
-.. figure:: ../../_assets/configuration/savedatabricks_workflow.PNG
+.. figure:: ../../_assets/configuration/Write-databricks-WF.png
    :alt: Databricks
-   :width: 55%
+   :width: 40%
 
 Processor Configurations for SaveDatabricksTable
 ++++++++

@@ -12,7 +12,7 @@ The below workflow does the following:
 * Reads Snowflake Table.
 * Prints a few records of the DataFrame.
 
-.. figure:: ../../_assets/snowflake/SnowflakeWF.png
+.. figure:: ../../_assets/snowflake/SF-Read-WF.png
    :alt: snowflake
    :width: 40%
 
@@ -54,7 +54,7 @@ The below workflow does the following:
 * Reads Housing Dataset.
 * Write it to Snowflake Table.
 
-.. figure:: ../../_assets/snowflake/SNOWFLAKEWF2.png
+.. figure:: ../../_assets/snowflake/SF-Write-WF.png
    :alt: snowflake
    :width: 45%
    

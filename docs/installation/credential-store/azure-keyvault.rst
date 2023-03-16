@@ -9,7 +9,7 @@ Go to Administration -> Credential Store
 
 Login to Fire Insights application as an admin user. Go to ``Administration`` and select ``Credential Store``.
 
-.. figure:: ../../_assets/credential_store/admin-page.png
+.. figure:: ../../_assets/credential_store/credential_store_5.PNG
    :alt: Azure Key Vault
    :width: 65%
 
@@ -20,7 +20,7 @@ Add Credential Store
 Click on the ``ADD CREDENTIAL STORE`` button.
 
 
-.. figure:: ../../_assets/credential_store/add-credential-button.png
+.. figure:: ../../_assets/credential_store/credential_store_6.PNG
    :alt: Credential Store
    :width: 65%
 
@@ -47,18 +47,18 @@ Add Credential Store Parameters
      - Add any description.
      
 
-.. figure:: ../../_assets/credential_store/3_a.PNG
+.. figure:: ../../_assets/credential_store/credential_store_1.PNG
    :alt: Credential Store
    :width: 65%     
 
 After adding the above parameters, you can click on ``TEST CREDENTIAL STORE CONNECTION`` to verify the connection before saving it.
 
 
-.. figure:: ../../_assets/credential_store/4.PNG
+.. figure:: ../../_assets/credential_store/credential_store_2.PNG
    :alt: Credential Store
    :width: 65%     
 
-.. figure:: ../../_assets/credential_store/5.PNG
+.. figure:: ../../_assets/credential_store/credential_store_3.PNG
    :alt: Credential Store
    :width: 65%     
 
@@ -67,7 +67,7 @@ Credential Store Created
 
 Once the credential store has been created, you can view it in the list of credential stores.
 
-.. figure:: ../../_assets/credential_store/6.PNG
+.. figure:: ../../_assets/credential_store/credential_store_4.PNG
    :alt: Credential Store
    :width: 65%   
    

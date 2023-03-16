@@ -10,7 +10,7 @@ Go to Administration -> Global Connections
 
 Login to Fire Insights, go to ``Administration`` and then select ``Global Connections``.
 
-.. figure:: ../../_assets/credential_store/admin-page.png
+.. figure:: ../../_assets/credential_store/credential_store_5.PNG
    :alt: Credential Store
    :width: 70%
 
@@ -20,7 +20,7 @@ Add Connection
 Click on ``ADD CONNECTION`` and then select either ``Add Connection For All`` or ``Add Connection For Group`` based on your requirements.
 
 
-.. figure:: ../../_assets/credential_store/add-connection.png
+.. figure:: ../../_assets/credential_store/sf_connection_1.PNG
    :alt: Credential Store
    :width: 70%
    
@@ -54,33 +54,29 @@ Add Connection Parameter
   
 After adding the above parameters, clicking on ``TEST CONNECTION`` will show the connection as **successfully connected**. After this, you can save it to find it on the connection list page.
 
-.. figure:: ../../_assets/credential_store/18.png
+.. figure:: ../../_assets/credential_store/sf_connection_2.PNG
    :alt: Credential Store
    :width: 70%   
    
-.. figure:: ../../_assets/credential_store/17.png
+.. figure:: ../../_assets/credential_store/sf_connection_3.PNG
    :alt: Credential Store
    :width: 70%      
 
-.. figure:: ../../_assets/credential_store/12.PNG
+.. figure:: ../../_assets/credential_store/sf_connection_4.PNG
    :alt: Credential Store
    :width: 70%
 
 Now you can use the connection in processor in workflow and submit the Job etc..
 
-.. figure:: ../../_assets/credential_store/13.PNG
+.. figure:: ../../_assets/credential_store/sf_connection_5.PNG
    :alt: Credential Store
    :width: 70%
 
-.. figure:: ../../_assets/credential_store/14.PNG
+.. figure:: ../../_assets/credential_store/sf_connection_6.PNG
    :alt: Credential Store
    :width: 70%
    
-.. figure:: ../../_assets/credential_store/15.PNG
-   :alt: Credential Store
-   :width: 70% 
-
-.. figure:: ../../_assets/credential_store/16.PNG
+.. figure:: ../../_assets/credential_store/sf_connection_7.PNG
    :alt: Credential Store
    :width: 70% 
 

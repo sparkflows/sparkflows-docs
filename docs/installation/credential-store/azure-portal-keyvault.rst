@@ -18,7 +18,15 @@ Click on ``Create`` and fill up the required fields and then click on ``Review a
 .. figure:: ../../_assets/credential_store/azure-keyvault-create.png
    :alt: Azure Key Vault
    :width: 60%
+   
+Access policies
+-------
 
+Create an Access policy with appropriate Privilege with ``Key permissions & Secret permissions`` and Select Application which need access.
+
+.. figure:: ../../_assets/credential_store/access_policy_1.PNG
+   :alt: Azure Key Vault
+   :width: 60%
 
 Add Secret Keys/Values in the Key Vault
 ---------------

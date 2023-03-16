@@ -68,7 +68,7 @@ After adding the above parameters, clicking on ``TEST CONNECTION`` will show the
    :alt: Credential Store
    :width: 70%
 
-Now you can use the connection in node in workflow editor and submit the Job.
+Now you can use the same Connection in node in workflow editor and submit the Job.
 
 .. figure:: ../../_assets/credential_store/sf_connection_5.PNG
    :alt: Credential Store

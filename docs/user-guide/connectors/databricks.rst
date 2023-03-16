@@ -13,7 +13,7 @@ Then use the other processors in Fire for processing the data read from the Data
 Workflow
 ++++++++
 
-.. figure:: ../../_assets/configuration/read-databricks-WF.png
+.. figure:: ../../_assets/configuration/Read-Databricks-Table-WF.png
    :alt: Databricks
    :width: 40%
 

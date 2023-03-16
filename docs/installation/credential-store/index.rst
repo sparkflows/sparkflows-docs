@@ -9,6 +9,7 @@ Below are the steps for configuring ``Azure Key Vault`` in Fire Insights.
    :maxdepth: 1
    
    azure-portal-keyvault.rst
+   azure-keyvault-application.rst
    azure-keyvault.rst
    credential-store-connection.rst
 

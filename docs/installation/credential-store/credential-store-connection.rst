@@ -46,6 +46,8 @@ Add Connection Parameter
      - Latest password for selected connection, and if password is added in KeyVault, set it to $PASSWORD.
    * - TITLE
      - Add a unique title.
+   * - Warehouse
+     - Snowflake Warehouse.  
    * - DESCRIPTION
      - Add description.
    * - URL

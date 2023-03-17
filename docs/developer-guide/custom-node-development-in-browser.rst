@@ -56,7 +56,7 @@ Click on the ``+`` sign to add a new field. For each field provide the following
   
 Finally click on the ``Next`` button to go to the Code tab.
   
-Execute Code
+Write Custom Execution Code
 ------------
   
 The Code tab is where you write the execution code for the new Custom Processor.
@@ -70,7 +70,7 @@ It shows the default template which you can update
 Then click on ``Next`` button to go to the Schema tab.
   
   
-Schema Update Code
+Write Schema Update Code
 ------------------
   
 The Schema tab is where you add the code which updates the incoming schema to produce the output schema from this processor.

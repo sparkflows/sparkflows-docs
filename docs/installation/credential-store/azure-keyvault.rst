@@ -38,7 +38,7 @@ Add Credential Store Parameters
    * - STORE NAME
      - Add any unique name.
    * - CLIENT ID
-     - Add Client Id for Azure account which has access to Key Vault.
+     - Add Client ID for Azure account which has access to Key Vault.
    * - SECRET KEY
      - Add Secret Key
    * - STORE URL

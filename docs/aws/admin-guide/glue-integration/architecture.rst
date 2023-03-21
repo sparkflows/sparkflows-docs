@@ -3,7 +3,7 @@ Architecture diagram
 
 Fire Insights can be configured to AWS Glue cluster with the aid of architecture diagram as below:
 
-.. figure:: ../../../_assets/aws/glue/Sparklfows_Glue_Integration.png
+.. figure:: ../../../_assets/aws/glue/Sparklfows_Glue_Integration1.png
    :alt: aws
    :width: 60%
    

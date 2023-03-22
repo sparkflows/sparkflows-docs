@@ -6,22 +6,22 @@ Before you start creating a workflow, you will need to create a ``Project``. A p
 * From the landing page of Fire Insights, click on ``Create Project`` to create a new project.
 
 
-  .. figure:: ../../_assets/tutorials/quickstart/1.png
+  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Create-Project.png
    :alt: Quickstart
    :align: left
    :width: 75% 
 
 
-* Specify Name and Description, and click on the ``Create`` button. 
+* Specify Name and Description and click on the ``Submit`` button. 
 
 
-  .. figure:: ../../_assets/tutorials/quickstart/2.png
+  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Add-Name.png
    :alt: Quickstart
    :width: 75%  
 
 * The new Empty project is created and ready to use.  
 
 
-  .. figure:: ../../_assets/tutorials/quickstart/3.png
+  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Project-List.png
    :alt: Quickstart
    :width: 75%

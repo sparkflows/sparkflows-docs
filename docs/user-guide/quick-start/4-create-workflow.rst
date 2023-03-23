@@ -15,7 +15,7 @@ Workflows Tab
 ============================
 Click the ``Workflows`` tab in the ``Project`` to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created in the project. 
 
-.. figure:: ../../_assets/tutorials/quickstart/7.png
+.. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-1.png
    :alt: Quickstart
    :width: 90%
 
@@ -33,7 +33,7 @@ Add Processors
 
 After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the grey box in the first processor and dragging it to the second processor. You can even search by the name of processors using the search panel.
 
-.. figure:: ../../_assets/tutorials/quickstart/add-processors.png
+.. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-2.png
    :alt: Quickstart
    :width: 60%
 
@@ -43,7 +43,7 @@ After you have saved the empty workflow, you can start adding processors to proc
 Save Workflow
 =================
 
-Once your pipeline of processors are built, save the workflow by clicking on the ``Save`` button.
+Once your pipeline of processors is built, save the workflow by clicking on the ``Save`` button.
 
 Each time the workflow is saved, a new version of the workflow is created.
 

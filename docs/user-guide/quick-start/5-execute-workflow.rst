@@ -16,7 +16,7 @@ Go to the Workflows tab
 
 Click the ``Workflows`` tab to view the list of workflows in the project. 
 
-.. figure:: ../../_assets/tutorials/quickstart/7.png
+.. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute1.png
    :alt: Workflow Listings
    :width: 75%
 
@@ -34,7 +34,7 @@ Specify the execution parameters
 
 Specify any parameters for your workflow. 
 
-.. figure:: ../../_assets/tutorials/quickstart/workflow-execute.png
+.. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute2.png
    :alt: Workflow Execute
    :width: 75%
 

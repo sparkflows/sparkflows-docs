@@ -9,7 +9,7 @@ Define New Workflow
 Click on ``Create New Workflow`` for creating a new workflow. It supports two engines - Spark & PySpark. It will open the workflow editor where the workflow can be created.
 
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_editor.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DefineNewWF.png
    :alt: workflow
    :width: 75%
 
@@ -19,7 +19,7 @@ Adding New Nodes to the Workflow
 
   * Workflows editor has a list of nodes menu on the LHS. Clicking on any of the nodes creates it in the workspace.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_node.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/AddProcessors.png
    :alt: workflow
    :width: 75%
 
@@ -35,7 +35,7 @@ Deleting Edges
  
   * Edges can be deleted by clicking on the Edge number and selecting 'Delete'.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_edge.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DeleteEdge.png
    :alt: workflow
    :width: 70%
 
@@ -48,7 +48,7 @@ Saving Workflow
   * Click on the 'Save' button to save the newly created workflow.
   * You can also save a new version for the workflow.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_saved.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/SaveWF.png
    :alt: workflow
    :width: 75%
 
@@ -59,7 +59,7 @@ View Workflows
 
 You can view the workflows by going to the workflows tab of the project.
 
-.. figure:: ../../../_assets/user-guide/workflow/wf_list.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/ViewWF.png
    :alt: workflow
    :width: 75%
 

@@ -28,7 +28,7 @@ Creating Edges
 ===============
  
   * Nodes can be connected by edges.
-  * Click on the orange box and drag to the next node to create an edge between them.
+  * Click on the grey box and drag to the next node to create an edge between them.
  
 Deleting Edges
 ===============

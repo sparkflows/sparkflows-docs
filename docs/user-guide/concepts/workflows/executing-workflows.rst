@@ -13,7 +13,7 @@ Interactively within the User Interface
 Workflows can be executed from the browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../../_assets/user-guide/workflow/4.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Execute1.png
    :alt: Workflow
    :width: 70%
 
@@ -62,7 +62,7 @@ The View JSON Workflow page of the workflow displays the JSON representations of
 
 
 
-.. figure:: ../../../_assets/user-guide/json-workflow.png
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/ViewJSON.png
    :alt: Sparkflows Json Workflow
    :width: 75%
  
@@ -72,28 +72,28 @@ Scheduling Workflow Execution with Scheduler of Choice
  
 Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on the 'Schedule' button of the workflow you want to schedule.
+- Click on the ``Schedule`` button of the workflow you want to schedule.
 
-.. figure:: ../../../_assets/user-guide/workflow/5.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule1.png
    :alt: Workflow
    :width: 75%  
  
  
-- Click on the 'Schedule New Job' tab for the workflow.
+- Click on the ``Schedule New Job for Workflow`` tab for the workflow.
  
-.. figure:: ../../../_assets/user-guide/workflow/6.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule2.png
    :alt: Workflow
    :width: 75% 
 
-- Update the scheduled timing & email notifications after the success & failure of the workflow as per our requirements.
+- Update the scheduled timing & email notifications after the success & failure of the workflow as per your requirements.
  
-.. figure:: ../../../_assets/user-guide/workflow/7.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule3.png
    :alt: Workflow
    :width: 75%    
 
-- Click on 'SUBMIT' to save the changes.
+- Click on ``SUBMIT`` to save the changes.
 
-.. figure:: ../../../_assets/user-guide/workflow/8.PNG
+.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule4.png
    :alt: Workflow
    :width: 75%  
 

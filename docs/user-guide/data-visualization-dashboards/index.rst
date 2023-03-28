@@ -12,11 +12,11 @@ You can define a new dataset by clicking on the ``Create Dataset`` button using 
 
 It will bring up the dialog box below. Select the MySQL Connection being used for creating dataset.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_connection.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/2.png
    :alt: Dataset
    :width: 65%
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_connection1.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/3.png
    :alt: Dataset
    :width: 65%
 
@@ -32,7 +32,7 @@ Below are the details of the fields in the ``Create Dataset`` page:
 - **TABLE**: Table for MySQL.
 
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_dataset_detail.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/4.png
    :alt: Dataset
    :width: 65%
 
@@ -43,7 +43,7 @@ You can update the Schema of the dataset by clicking on ``Update Sample Data/Sch
 
 You can update the column names in the schema based on your data.
  
-.. figure:: ../../_assets/tutorials/dataset/jdbc_schema.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/5.png
    :alt: Dataset
    :width: 65%
 
@@ -58,7 +58,7 @@ Dashboard
 Click on the ``Dashboard`` tab in the same application where you have created JDBC dataset.
 
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc-dashboard.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/6.png
    :alt: Dataset
    :width: 65%
 
@@ -72,13 +72,13 @@ Select any JDBC dataset for which you want to create ``Chart`` and select ``CREA
 
 It will take you to the new page, as below :
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_chart_create.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/8.png
    :alt: Dataset
    :width: 65%
 
 Select the ``Chart Type`` if you want to see the availble chart types.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_chart_type.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/9.png
    :alt: Dataset
    :width: 65%
 
@@ -86,7 +86,7 @@ In the above step, we selected ``Bar Chart`` and updated column for x and y axis
 
 Add NAME, DESCRIPTION and save it.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_chart_update.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/10.png
    :alt: Dataset
    :width: 65%
 
@@ -94,7 +94,7 @@ Once you save it, the chart will appear on the chart list page.
 
 Similarly, you can create a different chart using a specified chart type.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_chart_list.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/11.png
    :alt: Dataset
    :width: 65%
 
@@ -102,25 +102,25 @@ Now using an existing chart, you can create a new dashboard.
 
 Select the ``Dashboard`` tab and click on ``CREATE DASHBOARD``.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/12.png
    :alt: Dataset
    :width: 65%
 
 It will take you to the new dashboard page.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard_create.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/13.png
    :alt: Dataset
    :width: 65%
 
 Using drag and drop you need to add a chart in canvas and then Add NAME and DESCRIPTION to it. After this SAVE it.
 
-.. figure:: ../../_assets/tutorials/dataset/save-dashboard.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/14.png
    :alt: Dataset
    :width: 65%
 
 Once the Dashboard gets successfully saved, it will appear on the dashboard list (Grid or List view) page from where you can view, edit and delete it.
 
-.. figure:: ../../_assets/tutorials/dataset/jdbc_dashboard_page.PNG
+.. figure:: ../../_assets/tutorials/dataset/Dashboards/15.png
    :alt: Dataset
    :width: 65%
 

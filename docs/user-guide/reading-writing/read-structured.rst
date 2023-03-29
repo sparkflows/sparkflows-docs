@@ -166,7 +166,8 @@ It does the following processing of data:
 *	Reads incoming dataset in the ``Avro Data File`` format using the ``Read Avro`` node.
 * 	Prints the content of Avro file using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-Avro-WF.png
+
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-avro-WF.png
    :alt: readavro_node_userguide
    :width: 50%
    
@@ -236,7 +237,7 @@ It does following processing of data:
 *	Reads incoming Dataset in ``Parquet Data File`` format using ``Read Parquet`` node.
 * 	Prints the content of Parquet file using Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-Parquet-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/read-parquet-WF.png
    :alt: readparquet_node_userguide
    :width: 50%
    

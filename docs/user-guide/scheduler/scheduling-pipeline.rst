@@ -108,7 +108,7 @@ View the DAGs in Airflow
    :alt: Airflow DAGs
    :width: 60%
         
-Verify if DAGs are trigeered in Airflow as per Schedules
+Verify if DAGs are triggered in Airflow as per Schedules
 +++++
 .. figure:: ../../_assets/user-guide/scheduler/TEST_SCHEDULED.png
    :alt: Airflow DAGs

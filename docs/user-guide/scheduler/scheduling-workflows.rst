@@ -25,10 +25,10 @@ Selecting the schedule option takes you to a page for creating new schedules for
    :alt: Scheduling New Workflow
    :width: 70%
 
-Enter Details on the Scheduling Window
+Enter Details on the ``Schedule Job Window``
 +++++
 
-In the Scheduling window enter all the details as per your requirement e.g. starting and ending date, frequency of execution i.e. hourly, daily, weekly, etc. and E-Mail IDs for getting failure or success mesaages.
+In the ``Schedule Job window`` enter all the details as per your requirement e.g. starting and ending date, frequency of execution i.e. hourly, daily, weekly, etc. and E-Mail IDs for getting failure or success mesaages.
 
 .. figure:: ../../_assets/user-guide/scheduler/Scheduling-Workflows/Schedulewindow.png
    :alt: Scheduling New Workflow

@@ -6,7 +6,7 @@ Fire allows you to schedule workflows to be run at regular intervals through its
 Scheduling New Workflow
 -----------------------
 
-Select ``Schedule`` option from Action column
+Select Schedule option from Action column
 ++++++
 
 The workflows page displays the list of various workflows. On the workflows page, in the ``Action`` column, there appears a ``Schedule`` option in the action menu that schedules any given workflow.
@@ -16,7 +16,7 @@ The workflows page displays the list of various workflows. On the workflows page
    :alt: Scheduling New Workflow
    :width: 70%
    
-Click ``Schedule New Jobs for Workflows`` Button
+Click Schedule New Jobs for Workflows Button
 +++++
 
 Selecting the schedule option takes you to a page for creating new schedules for the workflow. Here, click on the ``Schedule New Jobs for Workflows`` button located on the top right corner of the page to reach the ``Scheduling Window``.
@@ -25,7 +25,7 @@ Selecting the schedule option takes you to a page for creating new schedules for
    :alt: Scheduling New Workflow
    :width: 70%
 
-Enter Details on the ``Schedule Job Window``
+Enter Details on the Schedule Job Window
 +++++
 
 In the ``Schedule Job window`` enter all the details as per your requirement e.g. starting and ending date, frequency of execution i.e. hourly, daily, weekly, etc. and E-Mail IDs for getting failure or success mesaages.
@@ -34,15 +34,15 @@ In the ``Schedule Job window`` enter all the details as per your requirement e.g
    :alt: Scheduling New Workflow
    :width: 50%
    
-Save the Schedule by clicking ``Submit Button``
+Save the Schedule by clicking Submit Button
 ++++
 
-Click on the submit button to successfully save your workflow. Your scheduled workflow would automatically run as per the schedule.
+Click on the ``Submit`` button to successfully save your workflow. Your scheduled workflow would automatically run as per the schedule.
 
 Viewing Workflows Scheduled
 -------------
 
-Find the ``Schedules Button`` located on the left hand side on the workflows page. Click on it to view the ``Scheduled Workflows page``.
+Find the ``Schedules`` button located on the left hand side on the workflows page. Click on it to view the ``Scheduled Workflows page``.
 
 .. figure:: ../../_assets/user-guide/scheduler/Scheduling-Workflows/ScheduledListPage.png
    :alt: Workflows Scheduled
@@ -51,7 +51,7 @@ Find the ``Schedules Button`` located on the left hand side on the workflows pag
 Editing a Scheduled Workflow
 ----------------------------
 
-You can edit a schedule by clicking on the ``Edit`` icon and then updating the new values, and saving it from the Scheduled Workflows page.
+You can edit a schedule by clicking on the ``Edit`` icon and then updating the new values, and saving it from the ``Scheduled Workflows page``.
 
 
 Viewing Results of the Workflow Executions

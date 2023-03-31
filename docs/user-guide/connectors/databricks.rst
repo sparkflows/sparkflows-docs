@@ -1,14 +1,14 @@
 Databricks
 ==========
 
-Fire Insights has a processor that allows you to connect with databrikcs table and DBFS file system.
+Fire Insights has a processor that allows you to connect with Databricks table and DBFS file system.
 
 Read Databricks table in Workflow
 ---------------------------------
 
 In the workflow use the processor ``Read Databricks Table``. It will allow you to read tables from Databricks.
 
-Then use the other processors in Fire for processing the data read from the Databricks Table.
+Then, use the other processors in Fire for processing the data read from the Databricks Table.
 
 Workflow
 ++++++++
@@ -100,5 +100,5 @@ File Formats
 
 The tables can be saved into CSV, JSON, Parquet and ORC file formats.
 
-If the file format is not specified, the data in tables is stored in Parquet format.
+If the file format is not specified, the data in tables is stored in Parquet format by default.
 

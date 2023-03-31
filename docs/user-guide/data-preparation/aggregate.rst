@@ -36,9 +36,9 @@ It does the following processing of data:
 *	Aggregated value (Sum of Salary) is computed using ``Cube`` node against all possible combinations of values in selected Cube Columns (Location and Dept).
 * 	Aggregated data is printed using Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-demo-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/Cube_WF.png
    :alt: cube_node_userguide
-   :width: 75%
+   :width: 55%
    
 
 **Cube Node configuration**
@@ -49,13 +49,13 @@ It does the following processing of data:
 *	Function that needs to be used for Aggregated Value calculation is to be selected in ``Aggregate Operation To Use``. It can be different for each row.
 
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-cubecol-selection.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/CubeNode1.png
    :alt: cube_node_userguide
    :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-aggregatecol-definition.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/CubeNode2.png
    :alt: cube_node_userguide
    :width: 75%
 
@@ -63,7 +63,7 @@ Aggregate column and Aggregate function selection to compute aggregated value is
 
 Aggregated value computed with the use of Cube node is displayed using Print node as shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/cube-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/CubeNodeOutput.png
    :alt: cube_node_userguide
    :width: 75%
 
@@ -78,9 +78,9 @@ It does the following processing of data:
 *	Aggregated value (Sum of Salary) is computed with the use of ``Group By`` node by grouping rows together based on Group By column (Location).
 * 	Aggregated data is printed using the Print node as shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-demo-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/GroupBy_WF.png
    :alt: groupby_node_userguide
-   :width: 75%
+   :width: 55%
    
 
 **Group By Node configuration**
@@ -91,19 +91,19 @@ It does the following processing of data:
 *	Function that needs to be used for Aggregated Value calculation is to be selected in ``Aggregate Operation To Use``. It can be different for each row.
 *	``Where Clause`` and ``Having Clause`` in the ``Filter Setting`` tab can be used to filter outgoing dataset.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-groupingcol-selection.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/GroupBy1.png
    :alt: groupby_node_userguide
    :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-aggregatecol-definition.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/GroupBy2.png
    :alt: groupby_node_userguide
    :width: 75%
 
 Filter Setting is entered as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-filter-settings.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/GroupBy3.png
    :alt: groupby_node_userguide
    :width: 75%
 
@@ -111,7 +111,7 @@ Filter Setting is entered as below:
 
 Aggregated value computed with the use of ``Group By`` node is displayed using the Print node as shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/groupby-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/GroupByOutput.png
    :alt: groupby_node_userguide
    :width: 75%
 
@@ -126,9 +126,9 @@ It does the following processing of data:
 *	Aggregated value (Employee Count) is computed with the use of ``Pivot By`` node by grouping rows together based on ``Group By`` column (Department) and displayed against each ``Pivot Column`` value (Location).
 * 	Aggregated data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-demo-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/PivotBy_WF.png
    :alt: pivotby_node_userguide
-   :width: 75%
+   :width: 55%
    
 
 **Pivot By Node configuration**
@@ -140,19 +140,19 @@ It does the following processing of data:
 *	Function that needs to be used for Aggregated Value calculation is to be selected in ``Aggregate Operation To Use``. It can be different for each row.
 
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-groupingcol-selection.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/PivotBy1.png
    :alt: pivotby_node_userguide
    :width: 75%
 
 ``Pivot Columns`` are selected as below. Data from ``Pivot Columns`` would be displayed as Columns in the output. Aggregated values would be diaplayed against each Pivot Column value. Multiple Pivot columns can be selected.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-pivotcol-selection.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/PivotBy2.png
    :alt: pivotby_node_userguide
    :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-aggregatecol-definition.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/PivotBy3.png
    :alt: pivotby_node_userguide
    :width: 75%
 
@@ -160,7 +160,7 @@ Aggregate column and Aggregate function selection to compute aggregated value is
 
 Aggregated value computed using ``Pivot By`` node is displayed using Print node as shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/PivotByOutput.png
    :alt: pivotby_node_userguide
    :width: 75%
    
@@ -176,9 +176,9 @@ It does the following processing of data:
 *	Aggregated value (Sum of Salary) is computed using ``Rollup`` node for combinations of selected ``Rollup Columns`` (Location and Dept).
 * 	Aggregated data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-demo-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/Rollup_WF.png
    :alt: rollup_node_userguide
-   :width: 75%
+   :width: 55%
    
 
 **Rollup Node configuration**
@@ -188,13 +188,13 @@ It does the following processing of data:
 *	Columns on which aggregated values are to be computed need to be selected as ``Aggregated Columns``. If aggregated values are to be calculated on multiple columns then additional rows need to be added.
 *	Function that needs to be used for Aggregated Value calculation is to be selected in ``Aggregate Operation To Use``. It can be different for each row.
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-rollupcol-selection.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/Rollup1.png
    :alt: rollup_node_userguide
    :width: 75%
 
 Aggregate column and Aggregate function selection to compute aggregated value is done as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-aggregatecol-definition.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/Rollup2.png
    :alt: rollup_node_userguide
    :width: 75%
 
@@ -202,6 +202,6 @@ Aggregate column and Aggregate function selection to compute aggregated value is
 
 Aggregated value computed with the use of Rollup node is displayed using the Print node as shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/aggregate/rollup-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/RollupOutput.png
    :alt: rollup_node_userguide
    :width: 75%

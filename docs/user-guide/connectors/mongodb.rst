@@ -10,9 +10,9 @@ Workflow for Reading Data from MongoDB
 The below workflow reads data in MongoDB and then prints the data.
 
 
-.. figure:: ../../_assets/tutorials/mongodb/reads_mongodb.PNG
+.. figure:: ../../_assets/tutorials/mongodb/ReadMongoDB_WF.png
    :alt: ReadMongoDB
-   :width: 60%
+   :width: 40%
 
 Below is the image that displays the dialog box for the ReadMongoDB Processor.
 
@@ -40,9 +40,9 @@ Workflow for Loading data into MongoDB
 
 The below workflow reads in the sample dataset which is in CSV format from HDFS. It then saves the data into MongoDB.
 
-.. figure:: ../../_assets/tutorials/mongodb/save_mongo_db.PNG
+.. figure:: ../../_assets/tutorials/mongodb/SaveMongoDB.png
    :alt: SaveMongoDB
-   :width: 60%
+   :width: 40%
 
 The below image shows the dialog box for the SaveMongoDB Processor.
 

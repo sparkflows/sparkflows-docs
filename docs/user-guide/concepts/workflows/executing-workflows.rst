@@ -89,7 +89,7 @@ Since Fire workflows can be submitted with Spark-Submit, you can use your schedu
  
 .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule3.png
    :alt: Workflow
-   :width: 75%    
+   :width: 50%    
 
 - Click on ``SUBMIT`` to save the changes.
 

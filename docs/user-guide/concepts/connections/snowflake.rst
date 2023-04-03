@@ -14,7 +14,7 @@ It can also be created by any user with their Application. In this case, it is o
 
 Specify your Snowflake Username, Password, and URL and save the details.
 
-.. figure:: ../../../_assets/connections/snowflake-add-con.png
+.. figure:: ../../../_assets/connections/snowflake_connection.PNG
    :alt: snowflake
    :width: 50%
 
@@ -33,7 +33,7 @@ Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE.
 
 Refresh schema before continuing further.
 
-.. figure:: ../../../_assets/connections/read_snowflake_node.png
+.. figure:: ../../../_assets/connections/snowflake_read.PNG
    :alt: snowflake
    :width: 70%
 
@@ -47,6 +47,6 @@ Add all required details e.g. SF DATABASE, SF SCHEMA, SF WAREHOUSE, SF TABLE.
 
 For e.g. can read data from CSV and write to the snowflake.
 
-.. figure:: ../../../_assets/connections/write_to_snowflake_node.png
+.. figure:: ../../../_assets/connections/snowflake_write.PNG
    :alt: snowflake
    :width: 70%

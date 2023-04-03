@@ -20,7 +20,7 @@ Specify your SQL Server Username, Password, and JDBC URL and save the details.
 
 We can also test the specified connection before saving the connection details. 
 
-Now we are ready to start using the SQL Server Connection in Fire Insights using JDBC Connection nodes.
+Now we are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
 
 .. figure:: ../../../_assets/connections/sql_node.PNG
    :alt: Databricks

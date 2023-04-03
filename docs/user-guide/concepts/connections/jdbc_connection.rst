@@ -22,6 +22,6 @@ We can also test the specified connection before saving the connection details.
 
 Now we are ready to start using the SQL Server Connection in Fire Insights using JDBC Connection nodes.
 
-.. figure:: ../../../_assets/connections/sql_connection_usage.PNG
+.. figure:: ../../../_assets/connections/sql_node.PNG
    :alt: Databricks
    :width: 80%

@@ -12,7 +12,7 @@ It can be created by the Administrator under Administration/Global Connections. 
 
 It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Specify your Snowflake Username, Password, and URL and save the details.
+Specify your Snowflake Username, Password, Warehouse and URL and save the details.
 
 .. figure:: ../../../_assets/connections/snowflake_connection.PNG
    :alt: snowflake

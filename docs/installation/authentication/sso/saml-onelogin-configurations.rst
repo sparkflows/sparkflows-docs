@@ -1,4 +1,4 @@
-Fire Insights SAML oneLogin Configuration
+OneLogin Fire Insights SAML Configuration
 ====================
 
 Fire Insights can be Configured with SAML 2.0 OneLogin as below.

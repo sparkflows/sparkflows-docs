@@ -75,7 +75,7 @@ Update ``ACS URLs`` and ``Entity ID`` and save the Application
 Update ``HTTP POST`` and save
 ------
 
-Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
+Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
 
 .. figure:: ../../../_assets/authentication/pingid/http_post.PNG
    :alt: sso
@@ -84,7 +84,7 @@ Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
 Update ``Attribute Mappings`` and save
 ------
 
-Update ``saml_subject : User ID`` and save
+Click on ``Configure`` and Update ``saml_subject : User ID`` and save
 
 .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
    :alt: sso

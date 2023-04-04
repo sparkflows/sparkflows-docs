@@ -86,8 +86,6 @@ Update ``Attribute Mappings`` and save
 
 Update ``saml_subject : User ID`` and save
 
-Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
-
 .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
    :alt: sso
    :width: 60%

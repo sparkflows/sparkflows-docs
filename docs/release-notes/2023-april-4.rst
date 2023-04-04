@@ -20,7 +20,7 @@ New features:
 Improvements:
 -------------
 
-* Enhacement to PyCaret and H2O AutoML.
+* Enhancement to PyCaret and H2O AutoML.
 * Ability to save summary statistics and centroids of K-means model.
 * Feature importance computation for models.
 * Enhancement to Bar Chart.
@@ -42,7 +42,7 @@ Bug Fixes:
 * Fix for code generation in FindAndReplace and AddConstantColumn node.
 * Cosmetic fixes on model page for field names, data profile page and other pages.
 * Fixes to show up the results properly on comparing the AutoMl runs.
-* Rename of a porject shows the updated name without manual refresh.
+* Rename of a project shows the updated name without manual refresh.
 
 
 Documentation:

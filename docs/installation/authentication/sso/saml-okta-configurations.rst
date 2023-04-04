@@ -1,4 +1,4 @@
-Fire Insights SAML Okta Configuration
+Okta Fire Insights SAML Configuration
 ====================
 
 Fire Insights can be configured with SAML 2.0 Okta as below:

@@ -1,0 +1,56 @@
+April 4 2023 (Version 3.2.5)
+==================================
+
+New features:
+--------------
+
+* Sparkflows underwent a UI upgrade for all the pages.
+* Ability to upload file in a stage in Analytical App.
+* Ability to download file in a stage in Analytical App.
+* Ability to create cascading dropdown in Analytical App.
+* Added Cache Statistics for admins to view.
+* Added Scheduler Statistics for admins to view.
+* Added Socket Statistics for admins to view.
+* Addition of GCS and Big Query nodes.
+* Added clustering evaluator to compute Silhouette score.
+* Added confusion matrix for H2O nodes like GBM, DRF, GLM and AutoML.
+* Added loop value as a column in centroid when K-Means is run in a loop to iterate over a column.
+* Added listing of Views in Snowflake DB browser.
+
+Improvements:
+-------------
+
+* Enhacement to PyCaret and H2O AutoML.
+* Ability to save summary statistics and centroids of K-means model.
+* Feature importance computation for models.
+* Enhancement to Bar Chart.
+* Enhancement to VAR ndoe for multivariate analysis.
+* Snowflake DB browser upgrades on speed and performance.
+* Datasets can be created on Snowflake tables and Views to be used in workflows.
+* Tooltips can now be seen on hovering over the leaderboard items in AutoML.
+* Enhancement to the Scheduler to ensure user feeds in the values in permitted range in the fields like date.
+* Update status of AutoML runs properly on Abort and Failure.
+* Data quality page overhaul for performance on loading time.
+* Correlation and summary can now be computed on decimal data types as well.
+* Optimzation of multiple listing pages in Sparkflows via proper indexing and search.
+* Pagination on Data quality page.
+
+Bug Fixes:
+----------
+
+* Schema propagation for Spark Score node.
+* Fix for code generation in FindAndReplace and AddConstantColumn node.
+* Cosmetic fixes on model page for field names, data profile page and other pages.
+* Fixes to show up the results properly on comparing the AutoMl runs.
+* Rename of a porject shows the updated name without manual refresh.
+
+
+Documentation:
+--------------
+
+* Revamp of the Sparkflows installation docs.
+* Reorganisation of the structure of the doc menu.
+* Revamp of docs for configuring SSO and Okta.
+* Revamp of docs on Snowflake integration.
+* Docs updated with fresh screenshots.
+* Formatting fixes throughout the documentation.

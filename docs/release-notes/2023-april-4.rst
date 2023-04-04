@@ -4,10 +4,10 @@ April 4 2023 (Version 3.2.5)
 New features:
 --------------
 
-* Sparkflows underwent a UI upgrade for all the pages.
+* Sparkflows underwent a complete UI upgrade for all pages.
 * Ability to upload file in a stage in Analytical App.
 * Ability to download file in a stage in Analytical App.
-* Ability to create cascading dropdown in Analytical App.
+* Ability to create cascading dropdowns in Analytical App.
 * Added Cache Statistics for admins to view.
 * Added Scheduler Statistics for admins to view.
 * Added Socket Statistics for admins to view.
@@ -33,7 +33,7 @@ Improvements:
 * Data quality page overhaul for performance on loading time.
 * Correlation and summary can now be computed on decimal data types as well.
 * Optimzation of multiple listing pages in Sparkflows via proper indexing and search.
-* Pagination on Data quality page.
+* Pagination on Data Auality page.
 * Enhancement to parameter support in pipeline.
 
 Bug Fixes:

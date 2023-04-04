@@ -56,7 +56,7 @@ Add/update the below information from newly created application in Ping Identity
   
 7. Configure Server Name
 
-Update the Fire Insights application URL. 
+Update the Fire Insights application URI. 
 
 ::
 

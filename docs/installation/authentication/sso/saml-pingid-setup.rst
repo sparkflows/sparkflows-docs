@@ -10,7 +10,7 @@ Create an account in Ping Identity
    :alt: sso
    :width: 40%
    
-Sign in to Ping Identity
+Sign On to Ping Identity
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG

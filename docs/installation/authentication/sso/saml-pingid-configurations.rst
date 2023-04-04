@@ -54,9 +54,9 @@ Add/update the below information from newly created application in Ping Identity
 
   saml.sso.metadata-generator.entity-base-url=https://<sparkflows-dns>:8443
   
-7. Configure Server Name in case Load Balancer is being used
+7. Configure Server Name
 
-The below is needed only when load balancer is being used. 
+Update the Fire Insights application URL. 
 
 ::
 

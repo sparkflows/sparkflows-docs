@@ -7,7 +7,7 @@ Go to folder ``conf`` under Fire Insights installation directory and edit the fi
 
 Add/update the below information from newly created application in Ping Identity:
 
-1. Enable SSO in Fire Insights.
+1. Enable SSO in Fire Insights
 
 ::
 
@@ -64,4 +64,4 @@ The below is needed only when load balancer is being used.
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   
-.. note::  Make sure to change localhost to your domain name or your IP
+.. note::  Make sure to change localhost to your domain name or your IP.

@@ -68,7 +68,7 @@ Click on ``Configure`` and provide application metadata as per your configuratio
 Update ``ACS URLs`` and ``Entity ID`` and save the Application
 ------
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_8.PNG
+.. figure:: ../../../_assets/authentication/pingid/ping_acs.PNG
    :alt: sso
    :width: 60%
 

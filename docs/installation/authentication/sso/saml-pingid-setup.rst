@@ -84,7 +84,7 @@ Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:name
 Update ``Attribute Mappings`` and save
 ------
 
-Click on ``Configure`` and Update ``saml_subject : User ID`` and save
+Click on ``Attribute Mappings`` and Update ``saml_subject : User ID`` and save
 
 .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
    :alt: sso

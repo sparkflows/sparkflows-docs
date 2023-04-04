@@ -1,4 +1,4 @@
-Fire Insights SAML Ping Identity Configuration
+Ping Identity Fire Insights SAML Configuration
 ====================
 
 Fire Insights can be configured with SAML 2.0 Ping Identity as below:

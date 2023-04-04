@@ -40,7 +40,7 @@ Add/update the below information from newly created application in Ping Identity
   saml2.idp.metadata-url=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b/saml20/metadata/46240920-e6a9-4d2f-b2ce-ddb7d00e4087
 
   #  Identifier of the SP (Service Provider) entity  (must be a URI) Audience URI
-  saml2.sp.entityid=https://localhost:8443/sparkflows/saml/metadata
+  saml2.sp.entityid=https://<sparkflows-dns>:8443/sparkflows/saml/metadata
 
   # Identifier of the IdP entity  (must be a URI)
   saml2.idp.entityid=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b
@@ -52,13 +52,15 @@ Add/update the below information from newly created application in Ping Identity
 
 ::
 
-  saml.sso.metadata-generator.entity-base-url=https://localhost:8443
+  saml.sso.metadata-generator.entity-base-url=https://<sparkflows-dns>:8443
   
 7. Configure Server Name in case Load Balancer is being used
 
+The below is needed only when load balancer is being used. 
+
 ::
 
-  saml.context.lb.server-name=localhost:8443
+  saml.context.lb.server-name=<sparkflows-dns>:8443
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   

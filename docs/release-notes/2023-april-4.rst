@@ -34,6 +34,7 @@ Improvements:
 * Correlation and summary can now be computed on decimal data types as well.
 * Optimzation of multiple listing pages in Sparkflows via proper indexing and search.
 * Pagination on Data quality page.
+* Enhancement to parameter support in pipeline.
 
 Bug Fixes:
 ----------

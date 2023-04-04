@@ -71,7 +71,27 @@ Update ``ACS URLs`` and ``Entity ID`` and save the Application
 .. figure:: ../../../_assets/authentication/pingid/pingid_8.PNG
    :alt: sso
    :width: 60%
-   
+
+Update ``HTTP POST`` and save
+------
+
+Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
+
+.. figure:: ../../../_assets/authentication/pingid/http_post.PNG
+   :alt: sso
+   :width: 60%
+
+Update ``Attribute Mappings`` and save
+------
+
+Update ``saml_subject : User ID`` and save
+
+Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:transient``
+
+.. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
+   :alt: sso
+   :width: 60%
+
 Download the metadata from Application
 ------
 

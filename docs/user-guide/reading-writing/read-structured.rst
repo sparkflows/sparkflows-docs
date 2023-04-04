@@ -56,7 +56,7 @@ The Create Dataset node is configured as below.
 *	Number of rows needed in the created dataset is to be entered in ``Number Of Rows`` box.
 *	Output prints the dataset created with specified number of rows and fixed 9 columns.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/CreateDatasetConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -64,7 +64,7 @@ The Create Dataset node is configured as below.
 
 Output of the Create Dataset node prints the dataset created with specified number of rows and fixed 9 columns.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/createdataset-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/CreateDatasetOutput.png
    :alt: readwrite_userguide
    :width: 70%       	    
 
@@ -78,7 +78,7 @@ It does the following processing of data:
 *	Creates a DataFrame based on rows from a dataset using the Dataset Structured node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/dataset-structured.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/DatasetStructured-WF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -89,7 +89,7 @@ The Dataset Structured node is configured as below.
 *	Dataset to be used to create DataFrame is to be selected in the ``Dataset`` list.
 *	Output prints the DataFrame so created based on the data from the selected dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/DatasetStructuredConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -97,7 +97,7 @@ The Dataset Structured node is configured as below.
 
 Output of the Dataset Structured node prints the DataFrame so created based on data from the selected dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/datasetstructured-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/DatasetStructuredOutput.png
    :alt: readwrite_userguide
    :width: 70%       	    
 
@@ -111,7 +111,7 @@ It does the following processing of data:
 *	Creates an empty DataFrame using the Empty Dataset node.
 *	Created dataset contains no rows or columns hence, it is not displayed in the output.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/create-empty-dataset-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/EmptyDataset-WF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -119,7 +119,7 @@ It does the following processing of data:
 
 *	The Empty Dataset node is configured as below.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/emptydataset-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/EmptyDataset.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -133,7 +133,7 @@ It does the following processing of data:
 *	Creates a dataset from an excel file using Dataset Structured node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-excel-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/ReadExcelWF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -146,7 +146,7 @@ The Read Excel node is configured as below.
 *	If the Data Sheet contains header row then the ``Header`` needs to be selected accordingly.
 *	Output prints the DataFrame so created based on data from the selected excel file.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/ExcelConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -154,7 +154,7 @@ The Read Excel node is configured as below.
 
 Output of the Read Excel node prints the DataFrame so created based on data from the selected excel file.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readexcel-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/ExcelOutput.png
    :alt: readwrite_userguide
    :width: 70%       	    
 
@@ -170,7 +170,7 @@ It does the following processing of data:
 * 	Prints the content of Avro file using the Print node.
 
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-avro-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/Avro-WF.png
    :alt: readavro_node_userguide
    :width: 50%
    
@@ -183,7 +183,7 @@ The Read Avro node is configured as below.
 *	Once an Avro file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``Avro Data File``.
 *	``OK`` button needs to be clicked to complete configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-configuration.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/AvroConfig.png
    :alt: readavro_node_userguide
    :width: 70%
 
@@ -191,7 +191,7 @@ The Read Avro node is configured as below.
 
 Data read from an ``Avro Data File`` is printed as below using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readavro-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/AvroOutput.png
    :alt: readavro_node_userguide
    :width: 70%
    
@@ -205,7 +205,7 @@ It does the following processing of data:
 *	Reads incoming dataset in CSV Data format using the Read CSV node.
 * 	Prints the content of the CSV file using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-CSV-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/CSV_WF.png
    :alt: readcsv_node_userguide
    :width: 50%
    
@@ -220,7 +220,7 @@ The Read CSV node is configured as below.
 *	Once a CSV file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``CSV Data File``. 
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-configuration.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/CSVConfig.png
    :alt: readcsv_node_userguide
    :width: 70%
 
@@ -228,7 +228,7 @@ The Read CSV node is configured as below.
 
 Data read from a CSV Data File is printed as below using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readcsv-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/CSVOutput.png
    :alt: readcsv_node_userguide
    :width: 70%
    
@@ -242,7 +242,7 @@ It does following processing of data:
 *	Reads incoming Dataset in Parquet Data File format using Read Parquet node.
 * 	Prints the content of Parquet file using Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-parquet-WF.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/Parquet-WF.png
    :alt: readparquet_node_userguide
    :width: 50%
    
@@ -255,7 +255,7 @@ The Read Parquet node is configured as below.
 *	Once a Parquet file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``Parquet Data File``. 
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-configuration.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/ParquetConfig.png
    :alt: readparquet_node_userguide
    :width: 70%
 
@@ -263,7 +263,7 @@ The Read Parquet node is configured as below.
 
 Data read from a Parquet Data File is printed as below using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readparquet-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/ParquetOutput.png
    :alt: readparquet_node_userguide
    :width: 70%
    

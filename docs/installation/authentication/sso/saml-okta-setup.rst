@@ -1,4 +1,4 @@
-SAML Okta setup
+Okta SAML Setup
 ==============
 
 Below are steps to setup SAML 2.0 Okta

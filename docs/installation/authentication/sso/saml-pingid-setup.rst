@@ -1,7 +1,7 @@
 Ping Identity Setup
 ========
 
-Below are steps to setup SAML 2.0 Ping Identity:
+Below are steps to setup SAML 2.0 Ping Identity.
 
 Create an account in Ping Identity
 ------
@@ -17,8 +17,10 @@ Sign in to Ping Identity
    :alt: sso
    :width: 40%
 
-After login go to home and click on ``Administrators`` in Environments
+Go to ``Administrators`` in Environments
 ------
+
+Click on ``Administrators`` in Environments.
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
    :alt: sso
@@ -31,14 +33,16 @@ Click on ``Connections``
    :alt: sso
    :width: 60%
 
-Select ``Applications`` & click on ``+`` sign to create new application
+Create new Application
 ------
+
+Select ``Applications`` & click on ``+`` sign to create new application
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
    :alt: sso
    :width: 60%
 
-Add ``Name`` and ``Descriptions`` of the application
+Add ``Name`` and ``Description`` of the Application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_5.PNG
@@ -52,25 +56,29 @@ Choose ``Application Type`` as SAML Application
    :alt: sso
    :width: 60%
    
-Click on ``Configure`` and provide application metadata as per your configuration
+Provide Application Metadata
 ------
+
+Click on ``Configure`` and provide application metadata as per your configuration
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
    :alt: sso
    :width: 60%
    
-Update ``ACS URLs`` and ``Entity ID`` and save the application
+Update ``ACS URLs`` and ``Entity ID`` and save the Application
 ------
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_8.PNG
    :alt: sso
    :width: 60%
    
-Activate the application and download the metadata from application which will be used while configuring Fire Insights
+Download the metadata from Application
 ------
+
+Activate the Application and download the metadata from application which will be used while configuring Fire Insights
 
 .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
    :alt: sso
    :width: 60%
 
-.. note::  Make sure to change localhost to your domain name or your IP where Fire is running.
+.. note::  Make sure to change localhost to your domain name or your IP where Fire Insights is running.

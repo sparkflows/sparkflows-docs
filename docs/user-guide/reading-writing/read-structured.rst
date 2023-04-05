@@ -291,7 +291,7 @@ The Read JSON node is configured as below.
 *	Once a JSON file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``JSON Data File``. 
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-configuration.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/json_config.PNG
    :alt: readjson_node_userguide
    :width: 70%
 
@@ -299,7 +299,7 @@ The Read JSON node is configured as below.
 
 Data read from JSON File is printed as below using the Print node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/readjson-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/json_output.PNG
    :alt: readjson_node_userguide
    :width: 70%
    
@@ -325,7 +325,7 @@ The URL Single Record JSON Reader node is configured as below.
 *	The ``Refresh Schema`` button needs to be pressed to list schema of the JSON file.
 *	Output prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/url_config.PNG
    :alt: readwrite_userguide
    :width: 70%
    
@@ -333,7 +333,7 @@ The URL Single Record JSON Reader node is configured as below.
 
 Output of the URL Single Record JSON Reader node prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/urljson-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/url_output.PNG
    :alt: readwrite_userguide
    :width: 70%       	    
 
@@ -358,7 +358,7 @@ The URL Text File Reader node is configured as below.
 *	The URL address containing Text file needs to be entered in ``URL`` box. 
 *	Output prints the content of the Text file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/urltext-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-structured/url_txt_config.PNG
    :alt: readwrite_userguide
    :width: 70%
    

@@ -43,7 +43,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/InputData.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -55,7 +55,7 @@ Save Avro node is configured as below.
 *	Save mode to be selected in ``Save Mode`` list. It states whether to *Append*, *Overwrite*, *Error out if file exists* or *Ignore* while saving the file.
 *	Saves the incoming dataset in Avro format.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveavro-config.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/AvroConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -76,7 +76,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/InputData.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -90,11 +90,11 @@ Save CSV node is configured as below.
 *	In ``Advanced`` tab, set of columns that need to be used to partition data are to be selected in the ``Partition Column Names`` list. One file would be created for each partition.
 *	Saves the incoming dataset in CSV format.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-config1.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/CSVGenConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
-.. figure:: ../../_assets/user-guide/read-write/save-files/savecsv-config2.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/CSVAdvConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -115,7 +115,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savejson-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/InputData.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -128,11 +128,11 @@ Save JSON node is configured as below.
 *	In the ``Advanced`` tab, set of columns that need to be used to partition data are to be selected in the ``Partition Column Names`` list. One file would be created for each partition.
 *	Saves the incoming dataset in JSON format.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/savejson-config1.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/JsonGenConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
-.. figure:: ../../_assets/user-guide/read-write/save-files/savejson-config2.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/JsonAdvConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -153,7 +153,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/InputData.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -165,7 +165,7 @@ Save ORC node is configured as below.
 *	Save mode to be selected in the ``Save Mode`` list. It states whether to *Append*, *Overwrite*, *Error out if file exists* or *Ignore* while saving the file.
 *	Saves the incoming dataset in ORC format.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveorc-config.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/OrcGenConfig.png
    :alt: savefiles_userguide
    :width: 75%
 
@@ -186,7 +186,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/InputData.png
    :alt: savefiles_userguide
    :width: 75%
    
@@ -199,11 +199,11 @@ Save Parquet node is configured as below.
 *	In the ``Advanced`` tab, set of columns that need to be used to partition data are to be selected in the ``Partition Column Names`` list. One file would be created for each partition.
 *	Saves the incoming dataset in Parquet format.
 
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-config1.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/ParquetGenConfig.png
    :alt: savefiles_userguide
    :width: 75%
    
-.. figure:: ../../_assets/user-guide/read-write/save-files/saveparquet-config2.png
+.. figure:: ../../_assets/user-guide/read-write/save-files/ParquetAdvConfig.png
    :alt: savefiles_userguide
    :width: 75%
 

@@ -33,7 +33,7 @@ Improvements:
 * Data quality page overhaul for performance on loading time.
 * Correlation and summary can now be computed on decimal data types as well.
 * Optimzation of multiple listing pages in Sparkflows via proper indexing and search.
-* Pagination on Data Auality page.
+* Pagination on Data Quality page.
 * Enhancement to parameter support in pipeline.
 
 Bug Fixes:

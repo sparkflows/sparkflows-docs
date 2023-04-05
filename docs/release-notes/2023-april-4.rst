@@ -24,7 +24,7 @@ Improvements:
 * Ability to save summary statistics and centroids of K-means model.
 * Feature importance computation for models.
 * Enhancement to Bar Chart.
-* Enhancement to VAR ndoe for multivariate analysis.
+* Enhancement to VAR node for multivariate analysis.
 * Snowflake DB browser upgrades on speed and performance.
 * Datasets can be created on Snowflake tables and Views to be used in workflows.
 * Tooltips can now be seen on hovering over the leaderboard items in AutoML.
@@ -39,7 +39,7 @@ Improvements:
 Bug Fixes:
 ----------
 
-* Schema propagation for Spark Score node.
+* Schema propagation for Spark Predict node.
 * Fix for code generation in FindAndReplace and AddConstantColumn node.
 * Cosmetic fixes on model page for field names, data profile page and other pages.
 * Fixes to show up the results properly on comparing the AutoML runs.

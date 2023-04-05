@@ -43,7 +43,7 @@ Once you click on the above option, notifications about the process getting star
    :alt: Dataset
    :width: 75%
 
-On refreshing the page after successful execution of the process, the status will be updated to green and the execution result is displayed at the right hand side.
+On refreshing the page after successful execution of the process, the latest execution result is displayed on the page.
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_result.PNG
    :alt: Dataset

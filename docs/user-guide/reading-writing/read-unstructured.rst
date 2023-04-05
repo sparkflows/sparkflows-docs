@@ -50,7 +50,7 @@ The PDF node is configured as below.
 *	Column name to list file content in output needs to be entered in the ``File Content``.
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-configuration.png
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDF-Config.png
    :alt: readpdf_node_userguide
    :width: 70%
 
@@ -58,7 +58,7 @@ The PDF node is configured as below.
 
 Data read from PDF files is printed as below using the Print node. Output is displayed in the file name and its content pair.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/readpdf-printnode-output.png
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDF-Output.png
    :alt: readpdf_node_userguide
    :width: 70%
    
@@ -79,7 +79,8 @@ It does the following processing of data:
 
 **Text Files node configuration**
 
-*	Reads the contents of Text files from a given path using the Text Files node.
+The Text Files node is configured as below.
+
 *	A Text file or path of a directory containing multiple Text files needs to be selected in the  ``Path``. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
 *	Column name to list Text files' content in output needs to be entered in the ``Output Column Name``.
 *	``OK`` button needs to be clicked to complete the configuration.
@@ -189,7 +190,7 @@ PDF Image OCR node is configured as below.
 *	Column in the output to display content of the file is to be entered in the ``Column Name Which Contains Result of OCR`` box.
 *	Output prints the content of OCR image embedded in a PDF file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-config.png
+.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDFImageConfig.png
    :alt: readwrite_userguide
    :width: 70%
    

@@ -27,15 +27,19 @@ Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking o
    :alt: Dataset
    :width: 75%
 
-Now, click on the ``RUN DATA PROFILING`` option.
+Now, click on the ``RUN DATA PROFILING`` option and ``Select Profiling Parameters``
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
    :alt: Dataset
    :width: 75%
 
+.. figure:: ../../_assets/user-guide/data-profile/dataset_run_1.PNG
+   :alt: Dataset
+   :width: 75%
+
 Once you click on the above option, notifications about the process getting started will be displayed, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_run_1.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_run_3.PNG
    :alt: Dataset
    :width: 75%
 

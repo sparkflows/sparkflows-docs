@@ -1,7 +1,7 @@
 Data Exploration
 ==========
 
-Fire Insights provides a number of features for exploration of data.
+Fire Insights provides a number of processors or nodes for exploration of data.
 
 
 Data Exploration Processors in Fire Insights
@@ -42,12 +42,12 @@ Data Exploration Processors in Fire Insights
 Columns Cardinality
 ----------------------------------------
 
-Below is a sample workflow that contains ``Columns Cardinality`` processor in Fire Insights. It demonstrates the usage of ``Columns Cardinality`` node to display categorical distribution of data. It displays count of rows for each distinct values in the selected columns (Categories).
+Below is a sample workflow that contains Columns Cardinality processor in Fire Insights. It demonstrates the usage of Columns Cardinality node to display categorical distribution of data. It displays count of rows for each distinct values in the selected columns (Categories).
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays Categorical distribution of data using ``Columns Cardinality`` node. It displays count of rows for each distinct values in the selected columns (Categories). More than one column can be seclected to display distribution of data.
+*	Displays Categorical distribution of data using Columns Cardinality node. It displays count of rows for each distinct values in the selected columns (Categories). More than one column can be seclected to display distribution of data.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-workflow.png
    :alt: dataexploration_userguide
@@ -61,7 +61,8 @@ It does the following processing of data:
 
 **Columns Cardinality Node Configuration**
 
-*	``Columns Cardinality`` node is configured as below.
+Columns Cardinalitynode is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	``Max Values To Display`` specifies the maximum Categorical data to be displayed. It denotes maximum number of distinct values in the selected columns for which count needs to be displayed.
 *	Columns for which distribution needs to be displayed is to be selected in ``Column Names`` list. More than one column can be selected. Data for each columns would be displayed separately.
@@ -73,7 +74,7 @@ It does the following processing of data:
    
 **Columns Cardinality Node output**
 
-Output of ``Columns Cardinality`` node displaying count of distinct values for each selected columns and categorical data (count of distinct values) for each selected columns in the node.
+Output of Columns Cardinality node displaying count of distinct values for each selected columns and categorical data (count of distinct values) for each selected columns in the node.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output1.png
    :alt: dataexploration_userguide
@@ -90,12 +91,12 @@ Output of ``Columns Cardinality`` node displaying count of distinct values for e
 Correlation
 ----------------------------------------
 
-Below is a sample workflow that contains ``Correlation`` processor in Fire Insights. It demonstrates the usage of ``Correlation`` node to display correlation between data of selected columns.
+Below is a sample workflow that contains Correlation processor in Fire Insights. It demonstrates the usage of Correlation node to display correlation between data of selected columns.
 
 It does the following processing of data:
 
-*	Reads incoming dataset
-*	Displays correlation between data of selected columns using ``Correlation`` node. More than two columns can be selected to identify correlation. It displays correlation in color codes along with scale to read highly and less correlated data series.
+*	Reads incoming dataset.
+*	Displays correlation between data of selected columns using Correlation node. More than two columns can be selected to identify correlation. It displays correlation in color codes along with scale to read highly and less correlated data series.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-workflow.png
    :alt: dataexploration_userguide
@@ -109,7 +110,8 @@ It does the following processing of data:
 
 **Correlation Node Configuration**
 
-*	``Correlation`` node is configured as below.
+Correlation node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	All Numeric between which the correlation is to be identified are to be selected in ``Input Column For Correlation`` list.
 *	Title of the Correlation Matrix needs to be entered in ``Title``.
@@ -149,7 +151,8 @@ It does the following processing of data:
 
 **Cross Tab Node Configuration**
 
-*	``Cross Tab`` node is configured as below.
+Cross Tab node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Any two categorical columns from incoming dataset can be selected as ``Firstcolumn`` and ``Secondcolumn``. All distinct values from ``Firstcolumn`` would be displayed as rows and all distinct values from ``Secondcolumn`` would be displayed as columns of the Table. Row count of Row and Column value combination would be displayed as distribution.
 *	Output of this node would display table depicting distribution of data between the two series.
@@ -160,7 +163,7 @@ It does the following processing of data:
    
 **Cross Tab Node Output**
 
-Output of ``Cross Tab`` node displaying distribution between ``Firstcolumn`` and ``Secondcolumn`` in tabular format.
+Output of Cross Tab node displaying distribution between Firstcolumn and Secondcolumn in tabular format.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-printnode-output.png
    :alt: dataexploration_userguide
@@ -170,12 +173,12 @@ Output of ``Cross Tab`` node displaying distribution between ``Firstcolumn`` and
 Distinct Values In Column
 ----------------------------------------
 
-Below is a sample workflow that contains ``Distinct Values In Column`` processor in Fire Insights. It demonstrates the usage of ``Distinct Values In Column`` node to display distinct combinations of values in the selected columns.
+Below is a sample workflow that contains Distinct Values In Column processor in Fire Insights. It demonstrates the usage of Distinct Values In Column node to display distinct combinations of values in the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays distinct combinations of values in the selected columns using ``Distinct Values In Column`` node. If only one column is selected then it displays Distinct values present in that column. If more than one column is selected then it displays distinct combinations of values present in the selected columns.
+*	Displays distinct combinations of values in the selected columns using Distinct Values In Column node. If only one column is selected then it displays Distinct values present in that column. If more than one column is selected then it displays distinct combinations of values present in the selected columns.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-workflow.png
    :alt: dataexploration_userguide
@@ -189,7 +192,8 @@ It does the following processing of data:
 
 **Distinct Values In Column Node Configuration**
 
-*	``Distinct Values In Column`` node is configured as below.
+Distinct Values In Column node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns between which unique combination of data is to be identified are to be selected in ``Column Names`` list. One or more columns can be selected.
 *	Output of this node would display distinct combinations of values in the selected columns.
@@ -200,7 +204,7 @@ It does the following processing of data:
    
 **Distinct Values In Column Node Output**
 
-Output of ``Distinct Values In Column`` node displaying distinct combination of values in the selected columns.
+Output of Distinct Values In Column node displaying distinct combination of values in the selected columns.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-printnode-output.png
    :alt: dataexploration_userguide
@@ -210,12 +214,12 @@ Output of ``Distinct Values In Column`` node displaying distinct combination of 
 Flag Outlier
 ----------------------------------------
 
-Below is a sample workflow that contains ``Flag Outlier`` processor in Fire Insights. It demonstrates the usage of ``Flag Outlier`` node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set.
+Below is a sample workflow that contains Flag Outlier processor in Fire Insights. It demonstrates the usage of Flag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using ``Flag Outlier`` node. It can be checked against numeric columns only.
+*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using Flag Outlier node. It can be checked against numeric columns only.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-workflow.png
    :alt: dataexploration_userguide
@@ -229,7 +233,8 @@ It does the following processing of data:
 
 **Flag Outlier Node Configuration**
 
-*	``Flag Outlier`` node is configured as below.
+Flag Outlier node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Numeric Column in which datapoints are to be identified as outlier needs to be selected in ``Input Column To Flag The Outlier`` list.
 *	``Lowerquantile`` and ``Upperquantile`` values need to be entered in the respective boxes. Datapoint would be checked against these values to flag it as outlier.
@@ -241,7 +246,7 @@ It does the following processing of data:
    
 **Flag Outlier Node Output**
 
-Output of ``Flag Outlier`` node displaying Outlier flag for datapoints in the selected column.
+Output of Flag Outlier node displaying Outlier flag for datapoints in the selected column.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-printnode-output.png
    :alt: dataexploration_userguide
@@ -251,12 +256,12 @@ Output of ``Flag Outlier`` node displaying Outlier flag for datapoints in the se
 Graph Month Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains ``Graph Month Distribution`` processor in Fire Insights. It demonstrates the usage of ``Graph Month Distribution`` node to display monthly distribution of data.
+Below is a sample workflow that contains Graph Month Distribution processor in Fire Insights. It demonstrates the usage of Graph Month Distribution node to display monthly distribution of data.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays monthly distribution of data using ``Graph Month Distribution`` node. In the workflow given below, the ``Graph Month Distribution`` node displays monthly distribution of count of trade executed.
+*	Displays monthly distribution of data using Graph Month Distribution node. In the workflow given below, the Graph Month Distribution node displays monthly distribution of count of trade executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-workflow.png
    :alt: dataexploration_userguide
@@ -270,7 +275,8 @@ It does the following processing of data:
 
 **Graph Month Distribution Node Configuration**
 
-*	``Graph Month Distribution`` node is configured as below.
+Graph Month Distribution node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	``Chart Type`` can be selected from the list based on the representation needed.
 *	String columns representing Date Values need to be selected in ``Y Columns`` list. More than one value can be selected.
@@ -282,7 +288,7 @@ It does the following processing of data:
    
 **Graph Month Distribution Node Output**
 
-Output of ``Graph Month Distribution`` node displaying monthly distribution of selected columns i.e. number of trades executed.
+Output of Graph Month Distribution node displaying monthly distribution of selected columns i.e. number of trades executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-printnode-output.png
    :alt: dataexploration_userguide
@@ -291,12 +297,12 @@ Output of ``Graph Month Distribution`` node displaying monthly distribution of s
 Graph Weekday Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains ``Graph Weekday Distribution`` processor in Fire Insights. It demonstrates the usage of ``Graph Weekday Distribution`` node to display weekday wise distribution of data.
+Below is a sample workflow that contains Graph Weekday Distribution processor in Fire Insights. It demonstrates the usage of Graph Weekday Distribution node to display weekday wise distribution of data.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays weekday wise distribution of data using ``Graph Weekday Distribution`` node. In the workflow given below, the ``Graph Weekday Distribution`` node displays weekday wise distribution of count of trade executed.
+*	Displays weekday wise distribution of data using Graph Weekday Distribution node. In the workflow given below, the Graph Weekday Distribution node displays weekday wise distribution of count of trade executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-workflow.png
    :alt: dataexploration_userguide
@@ -310,7 +316,8 @@ It does the following processing of data:
 
 **Graph Weekday Distribution Node Configuration**
 
-*	``Graph Weekday Distribution`` node is configured as below.
+Graph Weekday Distribution node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Title of the output graph needs to be entered in the ``Title`` box.
 *	``Chart Type`` can be selected from the list based on the representation needed.
@@ -323,7 +330,7 @@ It does the following processing of data:
    
 **Graph Weekday Distribution Node Output**
 
-Output of ``Graph Weekday Distribution`` node displaying weekday wise distribution of selected columns i.e. number of trades executed.
+Output of Graph Weekday Distribution node displaying weekday wise distribution of selected columns i.e. number of trades executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-printnode-output.png
    :alt: dataexploration_userguide
@@ -333,12 +340,12 @@ Output of ``Graph Weekday Distribution`` node displaying weekday wise distributi
 Graph Year Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains ``Graph Year Distribution`` processor in Fire Insights. It demonstrates the usage of ``Graph Year Distribution`` node to display yearly distribution of data.
+Below is a sample workflow that contains Graph Year Distribution processor in Fire Insights. It demonstrates the usage of Graph Year Distribution node to display yearly distribution of data.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays yearly distribution of data using ``Graph Year Distribution`` node. In the workflow given below, the ``Graph Year Distribution`` displays yearly distribution of count of trade executed.
+*	Displays yearly distribution of data using Graph Year Distribution node. In the workflow given below, the Graph Year Distribution displays yearly distribution of count of trade executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-workflow.png
    :alt: dataexploration_userguide
@@ -352,7 +359,8 @@ It does the following processing of data:
 
 **Graph Year Distribution Node Configuration**
 
-*	``Graph Year Distribution`` node is configured as below.
+Graph Year Distribution node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Title of the output graph needs to be entered in  the ``Title`` box.
 *	``Chart Type`` can be selected from the list based on the representation needed.
@@ -365,7 +373,7 @@ It does the following processing of data:
    
 **Graph Year Distribution Node output**
 
-Output of ``Graph Year Distribution`` node displaying yearly distribution of selected columns, i.e., number of trades executed.
+Output of Graph Year Distribution node displaying yearly distribution of selected columns i.e. number of trades executed.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-printnode-output.png
    :alt: dataexploration_userguide
@@ -374,12 +382,12 @@ Output of ``Graph Year Distribution`` node displaying yearly distribution of sel
 Histogram
 ----------------------------------------
 
-Below is a sample workflow that contains ``Histogram`` processor in Fire Insights. It demonstrates the usage of ``Histogram`` node to display distribution of data spread across multiple bins.
+Below is a sample workflow that contains Histogram processor in Fire Insights. It demonstrates the usage of Histogram node to display distribution of data spread across multiple bins.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays distribution of data spread across multiple bins using ``Histogram`` node. In the workflow given below, the ``Histogram`` processor displays the distribution of traded volume spread across multiple bins.
+*	Displays distribution of data spread across multiple bins using Histogram node. In the workflow given below, the Histogram processor displays the distribution of traded volume spread across multiple bins.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-workflow.png
    :alt: dataexploration_userguide
@@ -393,7 +401,8 @@ It does the following processing of data:
 
 **Histogram Node Configuration**
 
-*	``Histogram`` node is configured as below.
+Histogram node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Title of the output graph needs to be entered in the ``Title`` box.
 *	Input Column of which distribution needs to be displayed is to be selected in ``Column Name`` list.
@@ -406,7 +415,7 @@ It does the following processing of data:
    
 **Histogram Node Output**
 
-Output of ``Histogram`` node displaying distribution of data present in the selected column spread across multiple bins.
+Output of Histogram node displaying distribution of data present in the selected column spread across multiple bins.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output1.png
    :alt: dataexploration_userguide
@@ -419,12 +428,12 @@ Output of ``Histogram`` node displaying distribution of data present in the sele
 Null Values In Column
 ----------------------------------------
 
-Below is a sample workflow that contains ``Null Values In Column`` processor in Fire Insights. It demonstrates the usage of ``Null Values In Column`` node identify number of Null values and its percentage against the total data length in the selected columns.
+Below is a sample workflow that contains Null Values In Column processor in Fire Insights. It demonstrates the usage of Null Values In Column node identify number of Null values and its percentage against the total data length in the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Identifies number of Null values and its percentage against the total data length in the selected columns using ``Null Values In Column`` node. 
+*	Identifies number of Null values and its percentage against the total data length in the selected columns using Null Values In Column node. 
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-workflow.png
    :alt: dataexploration_userguide
@@ -438,7 +447,8 @@ It does the following processing of data:
 
 **Null Values In Column Node configuration**
 
-*	``Null Values In Column`` node is configured as below.
+Null Values In Column node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns in which the null values need to be identified are to be selected in ``Column Names`` list. Multiple columns can be selected.
 *	Output of this node would display number of Null values and its percentage for the selected columns.
@@ -449,7 +459,7 @@ It does the following processing of data:
    
 **Null Values In Column Node Output**
 
-Output of ``Null Values In Column`` node displaying number of Null values and its percentage for the selected columns.
+Output of Null Values In Column node displaying number of Null values and its percentage for the selected columns.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-printnode-output.png
    :alt: dataexploration_userguide
@@ -459,12 +469,12 @@ Output of ``Null Values In Column`` node displaying number of Null values and it
 Skewness And Kurtosis
 ----------------------------------------
 
-Below is a sample workflow that contains ``Skewness And Kurtosis`` processor in Fire Insights. It demonstrates the usage of ``Skewness And Kurtosis`` node to identify Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution) in the selected columns.
+Below is a sample workflow that contains Skewness And Kurtosis processor in Fire Insights. It demonstrates the usage of Skewness And Kurtosis node to identify Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution) in the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Identifies Skewness and Kurtosis in the selected columns using ``Skewness And Kurtosis`` node. 
+*	Identifies Skewness and Kurtosis in the selected columns using Skewness And Kurtosis node. 
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-workflow.png
    :alt: dataexploration_userguide
@@ -478,7 +488,8 @@ It does the following processing of data:
 
 **Skewness And Kurtosis Node Configuration**
 
-*	``Skewness And Kurtosis`` node is configured as below.
+Skewness And Kurtosis node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns for which Skewness And Kurtosis need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
 *	Output of this node would display Skewness And Kurtosis values for the selected columns.
@@ -489,7 +500,7 @@ It does the following processing of data:
    
 **Skewness And Kurtosis Node output**
 
-Output of ``Skewness And Kurtosis`` node displaying Skewness And Kurtosis values for the selected columns.
+Output of Skewness And Kurtosis node displaying Skewness And Kurtosis values for the selected columns.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-printnode-output.png
    :alt: dataexploration_userguide
@@ -499,12 +510,12 @@ Output of ``Skewness And Kurtosis`` node displaying Skewness And Kurtosis values
 Summary Statistics
 ----------------------------------------
 
-Below is a sample workflow that contains ``Summary Statistics`` processor in Fire Insights. It demonstrates the usage of ``Summary Statistics`` node to compute Statistical Summary such as count, mean, min, max and, etc. for the selected columns.
+Below is a sample workflow that contains Summary Statistics processor in Fire Insights. It demonstrates the usage of Summary Statistics node to compute Statistical Summary such as count, mean, min, max, etc. for the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Computes Statistical Summary such as count, mean, min, max, etc. for the selected columns using ``Summary Statistics`` node. 
+*	Computes Statistical Summary such as count, mean, min, max, etc. for the selected columns using Summary Statistics node. 
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-workflow.png
    :alt: dataexploration_userguide
@@ -518,7 +529,8 @@ It does the following processing of data:
 
 **Summary Statistics Node Configuration**
 
-*	``Summary Statistics`` node is configured as below.
+Summary Statistics node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Title of the output needs to be entered in the ``Title`` box.
 *	Columns for which summary need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
@@ -530,7 +542,7 @@ It does the following processing of data:
    
 **Summary Statistics Node Output**
 
-Output of ``Summary Statistics`` node displaying Statistical Summary of the columns selected.
+Output of Summary Statistics node displaying Statistical Summary of the columns selected.
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-printnode-output.png
    :alt: dataexploration_userguide

@@ -17,36 +17,39 @@ Go to the project page where you want to create a dataset or already have an exi
 
 Select ``Datasets`` tab.
 
-.. figure:: ../../_assets/user-guide/data-profile/Dataset.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_list.PNG
    :alt: Dataset
    :width: 75%
 
 Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking on the Dataset profile will take you to the next page.
 
-.. figure:: ../../_assets/user-guide/data-profile/Dataset2.png
+.. figure:: ../../_assets/user-guide/data-profile/dataset_profile.PNG
    :alt: Dataset
    :width: 75%
 
 Now, click on the ``RUN DATA PROFILING`` option.
 
-.. figure:: ../../_assets/user-guide/data-profile/RunProfile.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
    :alt: Dataset
    :width: 75%
 
 Once you click on the above option, notifications about the process getting started will be displayed, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-profile/RunProfile_Notification.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_run_1.PNG
    :alt: Dataset
    :width: 75%
 
 On refreshing the page after successful execution of the process, the status will be updated to green and the execution result is displayed at the right hand side.
 
-.. figure:: ../../_assets/user-guide/data-profile/Profile_result1.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_result.PNG
    :alt: Dataset
    :width: 75%
 
 
-.. figure:: ../../_assets/user-guide/data-profile/Profile_result2.PNG
+.. figure:: ../../_assets/user-guide/data-profile/dataset_summary.PNG
    :alt: Dataset
    :width: 75%
 
+.. figure:: ../../_assets/user-guide/data-profile/dataset_null.PNG
+   :alt: Dataset
+   :width: 75%

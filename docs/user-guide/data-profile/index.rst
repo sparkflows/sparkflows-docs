@@ -27,7 +27,7 @@ Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking o
    :alt: Dataset
    :width: 75%
 
-Now, click on the ``RUN DATA PROFILING`` option and ``Select Profiling Parameters``
+Now, click on the ``Run Data Profiling`` option and ``Select Profiling Parameters``
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
    :alt: Dataset

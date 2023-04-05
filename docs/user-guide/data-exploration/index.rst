@@ -11,13 +11,13 @@ Fire Insights enables you to perform data exploration seamlessly.
 
     :doc:`/user-guide/data-exploration/data-exploration`
 
-    Provides a number of features for Data Exploration.
+    Provides a number of processors for Data Exploration.
 
     ---
     
     :doc:`/user-guide/data-exploration/data-visualization`
 
-    Provides a number of features for Data Visualization.
+    Provides a number of processors for Data Visualization.
 
 .. toctree::
    :hidden:

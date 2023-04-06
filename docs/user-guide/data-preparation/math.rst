@@ -16,77 +16,79 @@ Math Processors in Fire Insights
      - Description
    * - Math Expression
      - It computes new values using Math Expression.
-   * - Math Functions Multiple
+   * - Math Functions
      - It computes new values by application of Math Functions on incoming columns.
  
  
 Math Expression
 ----------------------------------------
 
-Below is a sample workflow that contains ``Math Expression`` processor in Fire Insights. It demonstrates the usage of ``Math Expression`` node to compute new column value using Math Expressions.
+Below is a sample workflow that contains Math Expression processor in Fire Insights. It demonstrates the usage of Math Expression node to compute new column value using Math Expressions.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Computes new column value by evaluating expressions using ``Math Expression`` node.
+*	Computes new column value by evaluating expressions using Math Expression node.
 *	Prints output dataset with new columns computed by evaluating math expressions.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathExpWF.png
    :alt: math_userguide
    :width: 70%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/InputData.png
    :alt: math_userguide
    :width: 70%
    
 **Math Expression Node Configuration**
 
-*	``Math Expression`` node is configured as below.
+Math Expression node is configured as below.
+
 *	Input of this node are the incoming datasets.
 *	Column that needs to list computed values in the output is to be entered in ``Output Column`` box.
-*	Mathematical Expression that needs to be evaluated to create new column is to be entered in the field ``Math Expression``.
+*	Mathematical Expression that needs to be evaluated to create new column is to be entered in the field Math Expression.
 *	A new ``Key Value Array`` row needs to be added for each additional Math Expression.
 *	Output of this node would display dataset with new columns computed by evaluating math expressions.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathExpConfig.png
    :alt: math_userguide
    :width: 70%
    
 **Math Expression Node Output**
 
-Output of ``Math Expression`` node displaying dataset with new columns computed by evaluating math expressions is shown as below.
+Output of Math Expression node displaying dataset with new columns computed by evaluating math expressions is shown as below.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathexp-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathExpOutput.png
    :alt: math_userguide
    :width: 70%       	    
    
 
-Math Functions Multiple
+Math Functions
 ----------------------------------------
 
-Below is a sample workflow that contains ``Math Functions Multiple`` processor in Fire Insights. It demonstrates the usage of ``Math Functions Multiple`` node to compute values using selected Math function.
+Below is a sample workflow that contains Math Functions processor in Fire Insights. It demonstrates the usage of Math Functions node to compute values using selected Math function.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Computes values by application of selected Math function on incoming columns using ``Math Functions Multiple`` node.
+*	Computes values by application of selected Math function on incoming columns using Math Functions node.
 *	Prints output dataset with new columns computed by using math functions.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathFunWF.png
    :alt: math_userguide
    :width: 70%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/InputData.png
    :alt: math_userguide
    :width: 70%
    
-**Math Functions Multiple Node Configuration**
+**Math Functions Node Configuration**
 
-*	``Math Functions Multiple`` node is configured as below.
+Math Functions node is configured as below.
+
 *	Input of this node are the incoming datasets.
 *	Incoming Column on which math function needs to be applied to compute new value is to be selected in ``Columns`` list.
 *	Function that needs to be applied on incoming column to compute new value is to be selected in ``Function`` list.
@@ -95,15 +97,15 @@ It does the following processing of data:
 *	A new ``Variables List`` row needs to be added for each additional computation.
 *	Output of this node would display dataset with new columns computed by using math functions.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathFunConfig.png
    :alt: math_userguide
    :width: 70%
    
-**Math Functions Multiple Node output**
+**Math Functions Node output**
 
-Output of ``Math Functions Multiple`` node displaying dataset with new columns computed using math functions is shown as below.
+Output of Math Functions node displaying dataset with new columns computed using math functions is shown as below.
 
-.. figure:: ../../_assets/user-guide/data-preparation/math/mathfuncmul-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/math/MathFunOutput.png
    :alt: math_userguide
    :width: 70%       	    
    

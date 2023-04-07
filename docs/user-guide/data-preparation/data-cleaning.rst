@@ -8,7 +8,7 @@ Data Cleaning Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Data Cleaning Processors
+.. list-table::
    :widths: 30 70
    :header-rows: 1
 

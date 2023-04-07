@@ -8,7 +8,7 @@ Add Columns Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Add Columns Processors
+.. list-table:: 
    :widths: 30 70
    :header-rows: 1
 

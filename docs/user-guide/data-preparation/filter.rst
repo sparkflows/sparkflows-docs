@@ -7,7 +7,7 @@ Filtering Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Filtering Processors
+.. list-table:: 
    :widths: 30 70
    :header-rows: 1
 

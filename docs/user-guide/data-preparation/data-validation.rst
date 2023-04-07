@@ -8,7 +8,7 @@ Data Validation Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Data Validation Processors
+.. list-table:: 
    :widths: 30 70
    :header-rows: 1
 

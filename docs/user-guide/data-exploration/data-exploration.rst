@@ -8,7 +8,7 @@ Data Exploration Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Data Exploration Processors
+.. list-table:: 
    :widths: 30 70
    :header-rows: 1
 

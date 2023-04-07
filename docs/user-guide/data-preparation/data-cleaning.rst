@@ -18,7 +18,7 @@ Data Cleaning Processors in Fire Insights
      - This node creates a new DataFrame by dropping rows that contain null values.
    * - Find And Replace Using Regex
      - This node finds and replaces text in a column containing a string.
-   * - Find And Replace Using Regex Multiple
+   * - Find And Replace Using Regex Advanced
      - This node finds and replaces text in a column containing a string.
    * - Dedup
      - This node is used for problems like entity resolution or data matching. Entity resolution or data matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources.
@@ -28,19 +28,19 @@ Data Cleaning Processors in Fire Insights
      - This node takes an array of fields and compares rows in those fields. If they match fully, then it considers it a match. From the matches, it would randomly take one row and drop the rest.
    * - Remove Unwanted Characters
      - This node removes unwanted characters.
-   * - Remove Unwanted Characters Multiple
+   * - Remove Unwanted Characters Advanced
      - This node removes unwanted characters from multiple columns.
  
 
 Drop Rows With Null
 ----------------------------------------
 
-Below is a sample workflow which contains ``Drop Rows With Null`` processor in Fire Insights. It demonstrates the usage of ``Drop Rows With Null`` node to remove rows having null value in columns.
+Below is a sample workflow which contains Drop Rows With Null processor in Fire Insights. It demonstrates the usage of Drop Rows With Null node to remove rows having null value in columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Remove rows from incoming dataset having Null value in columns using ``Drop Rows With Null`` processor. 
+*	Remove rows from incoming dataset having Null value in columns using Drop Rows With Null processor. 
 * 	Output data is printed using the Print node.
 
 **Drop Rows with Null Node Sample workflow**
@@ -57,7 +57,8 @@ It does the following processing of data:
 
 **Drop Rows With Null Node configuration**
 
-*	``Drop Rows With Null`` node is configured as below.
+Drop Rows With Null node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Output of this node would contain rows that don't have null values in columns.
 
@@ -67,7 +68,7 @@ It does the following processing of data:
    
 **Drop Rows With Null Node output**
 
-Output of ``Drop Rows With Null`` node which displays rows that don't have null values is shown below:
+Output of Drop Rows With Null node which displays rows that don't have null values is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-printnode-output.png
    :alt: datacleaning_userguide
@@ -77,12 +78,12 @@ Output of ``Drop Rows With Null`` node which displays rows that don't have null 
 Find And Replace Using Regex
 ----------------------------------------
 
-Below is a sample workflow which contains the ``Find And Replace Using Regex`` processor in Fire Insights. It demonstrates the usage of ``Find And Replace Using Regex`` node to replace a string pattern with another by the use of a Regex Expression.
+Below is a sample workflow which contains the Find And Replace Using Regex processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex node to replace a string pattern with another by the use of a Regex Expression.
 
 It processes the dataset in the following ways:
 
 *	Reads incoming dataset.
-*	Replaces a string pattern with another by the use of ``Find And Replace Using Regex`` node. In the sample workflow shown below, date separator is replced from '-' to '\/'. 
+*	Replaces a string pattern with another by the use of Find And Replace Using Regex node. In the sample workflow shown below, date separator is replced from '-' to '\/'. 
 * 	Output data is printed by the use of the Print node.
 
 **Find and Replace Using Regex Node Sample workflow**
@@ -99,7 +100,8 @@ It processes the dataset in the following ways:
 
 **Find And Replace Using Regex Node configuration**
 
-*	``Find And Replace Using Regex`` node is configured as below.
+Find And Replace Using Regex node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns in which data needs to be replaced is selected as ``Input Columns``. More than one column can be selected.
 *	String Pattern that needs to be searched is to be entered in ``Find`` box.
@@ -116,7 +118,7 @@ It processes the dataset in the following ways:
    
 **Find And Replace Using Regex Node output**
 
-Output of ``Find And Replace Using Regex`` node displaying values replaced for the matches found is shown below. In the sample workflow shown below, Date Separator in ``Date Of Joining`` has been changed from '-' to '\/'.
+Output of Find And Replace Using Regex node displaying values replaced for the matches found is shown below. In the sample workflow shown below, Date Separator in ``Date Of Joining`` has been changed from '-' to '\/'.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-printnode-output.png
    :alt: datacleaning_userguide
@@ -125,12 +127,12 @@ Output of ``Find And Replace Using Regex`` node displaying values replaced for t
 Find And Replace Using Regex Multiple
 ----------------------------------------
 
-Below is a sample workflow which contains ``Find And Replace Using Regex Multiple`` processor in Fire Insights. It demonstrates the usage of ``Find And Replace Using Regex Multiple`` node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
+Below is a sample workflow which contains Find And Replace Using Regex Multiple processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex Multiple node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
 
 It does the following processing of data:
 
 *	Reads incoming Dataset.
-*	Replaces a string pattern with another using ``Find And Replace Using Regex Multiple`` node. In the sample workflow shown below, date separator is replced from '-' to '\/' in ``Date Of Joining``, spaces in ``Salary`` is replaced with a comma, 'BAD' in ``Performance`` is replaced with 'NOT SO GOOD'.  
+*	Replaces a string pattern with another using Find And Replace Using Regex Multiple node. In the sample workflow shown below, date separator is replced from '-' to '\/' in ``Date Of Joining``, spaces in ``Salary`` is replaced with a comma, 'BAD' in ``Performance`` is replaced with 'NOT SO GOOD'.  
 * 	Output data after replacement is printed using the Print node.
 
 **Find and Replace Using Regex Multiple Node Sample workflow**
@@ -147,7 +149,8 @@ It does the following processing of data:
 
 **Find And Replace Using Regex Multiple Node configuration**
 
-*	``Find And Replace Using Regex Multiple`` node is configured as below.
+Find And Replace Using Regex Multiple node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	In the ``Variables List``, Column in which data needs to be replaced is to be selected as ``Input Columns``. 
 *	String Pattern that needs to be searched is to be entered in ``Find`` box.
@@ -161,7 +164,7 @@ It does the following processing of data:
    
 **Find And Replace Using Regex Multiple Node output**
 
-Output of ``Find And Replace Using Regex Multiple`` node displaying values replaced for the matches found.
+Output of Find And Replace Using Regex Multiple node displaying values replaced for the matches found.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-printnode-output.png
    :alt: datacleaning_userguide
@@ -170,7 +173,7 @@ Output of ``Find And Replace Using Regex Multiple`` node displaying values repla
 Dedup
 ----------------------------------------
 
-Below is a sample workflow which contains ``Dedup`` processor in Fire Insights. It demonstrates  the usage of ``Dedup`` node to compare data of an entity from multiple sources to identify whether they are same or not.
+Below is a sample workflow which contains Dedup processor in Fire Insights. It demonstrates  the usage of Dedup node to compare data of an entity from multiple sources to identify whether they are same or not.
 
 It does following processing of data:
 
@@ -202,7 +205,8 @@ It does following processing of data:
 
 **Dedup Node configuration**
 
-*	``Dedup`` node is configured as below.
+Dedup node is configured as below.
+
 *	Input of this node are the incoming datasets.
 *	Column name that lists ``Confidence Score`` in the output needs to be entered in the ``Confidence Score`` box.
 *	Columns that are used for comparison need to be selected as ``LHS Variables`` and ``RHS Variables`` respectively. 
@@ -218,7 +222,7 @@ It does following processing of data:
    
 **Dedup Node output**
 
-Output of ``Dedup`` node displaying Confidence Score value is shown as below:
+Output of Dedup node displaying Confidence Score value is shown as below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-printnode-output.png
    :alt: datacleaning_userguide
@@ -227,12 +231,12 @@ Output of ``Dedup`` node displaying Confidence Score value is shown as below:
 Drop Duplicate Rows
 ----------------------------------------
 
-Below is a sample workflow which contains ``Drop Duplicate Rows`` processor in Fire Insights. It demonstrates the usage of ``Drop Duplicate Rows`` node to drop duplicate rows having same values in the selected columns.
+Below is a sample workflow which contains Drop Duplicate Rows processor in Fire Insights. It demonstrates the usage of Drop Duplicate Rows node to drop duplicate rows having same values in the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming Dataset.
-*	Drops duplicate rows from incoming dataset having same values in the selected columns using ``Drop Duplicate Rows`` node.
+*	Drops duplicate rows from incoming dataset having same values in the selected columns using Drop Duplicate Rows node.
 * 	Output data containing only unique rows is printed using the Print node.
 
 **Drop Duplicate Rows Workflow**
@@ -249,7 +253,8 @@ It does the following processing of data:
 
 **Drop Duplicate Rows Node configuration**
 
-*	``Drop Duplicate Rows`` node is configured as below.
+Drop Duplicate Rows node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns in which data needs to be checked for duplicate values is to be selected in ``Columns``. More than one column can be selected.
 *	Output of this node would contain unique combination of values in the selected Columns.
@@ -260,7 +265,7 @@ It does the following processing of data:
    
 **Drop Duplicate Rows Node output**
 
-Output of ``Drop Duplicate Rows`` node displaying rows having unique combination of values in the selected Columns.
+Output of Drop Duplicate Rows node displaying rows having unique combination of values in the selected Columns.
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-printnode-output.png
    :alt: datacleaning_userguide
@@ -269,12 +274,12 @@ Output of ``Drop Duplicate Rows`` node displaying rows having unique combination
 Remove Duplicate Rows
 ----------------------------------------
 
-Below is a sample workflow which contains ``Remove Duplicate Rows`` processor in Fire Insights. It demonstrates usage of ``Remove Duplicate Rows`` node to remove duplicate rows having same data in the selected columns and retain one rows as per the selection.
+Below is a sample workflow which contains Remove Duplicate Rows processor in Fire Insights. It demonstrates usage of Remove Duplicate Rows node to remove duplicate rows having same data in the selected columns and retain one rows as per the selection.
 
 It does the following processing of data:
 
 *	Reads incoming Dataset.
-*	Removes duplicate rows from incoming dataset having same values in the selected columns using ``Remove Duplicate Rows`` node. It retains one of the duplicate rows in the output either first or last based on the selection.
+*	Removes duplicate rows from incoming dataset having same values in the selected columns using Remove Duplicate Rows node. It retains one of the duplicate rows in the output either first or last based on the selection.
 * 	Output data containing only unique rows is printed using the Print node.
 
 **Remove Duplicate Rows Node Sample workflow**
@@ -291,7 +296,8 @@ It does the following processing of data:
 
 **Remove Duplicate Rows Node configuration**
 
-*	``Remove Duplicate Rows`` node is configured as below.
+Remove Duplicate Rows node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	A Row from the duplicate set of rows, that needs to be retained in the output, is to be selected in ``Order`` dropdown. It allows to select either ``first`` or ``last``.
 *	Columns in which data needs to be checked for duplicate values is to be selected in ``Columns``. More than one column can be selected.
@@ -303,7 +309,7 @@ It does the following processing of data:
    
 **Remove Duplicate Rows Node output**
 
-Output of ``Remove Duplicate Rows`` node displaying rows having unique combination of values in the selected Columns is shown below:
+Output of Remove Duplicate Rows node displaying rows having unique combination of values in the selected Columns is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-printnode-output.png
    :alt: datacleaning_userguide
@@ -312,12 +318,12 @@ Output of ``Remove Duplicate Rows`` node displaying rows having unique combinati
 Remove Unwanted Characters
 ----------------------------------------
 
-Below is a sample workflow which contains ``Remove Unwanted Characters`` processor in Fire Insights. It demonstrates the usage of ``Remove Unwanted Characters`` node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns.
+Below is a sample workflow which contains Remove Unwanted Characters processor in Fire Insights. It demonstrates the usage of Remove Unwanted Characters node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming Dataset.
-*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using ``Remove Unwanted Characters`` node. 
+*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using Remove Unwanted Characters node. 
 * 	Output data containing transformed data is printed using the Print node.
 
 **Remove Unwanted Characters Sample workflow**
@@ -334,7 +340,8 @@ It does the following processing of data:
 
 **Remove Unwanted Characters Node configuration**
 
-*	``Remove Unwanted Characters`` node is configured as below.
+Remove Unwanted Characters node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns from which unwanted characters need to be removed are to be selected in ``Input Columns`` list.
 *	Based on the requirement of character removal, White Spaces, Letters, Digits, Signs and Commas dropdown need to be selected as ``True``.
@@ -350,7 +357,7 @@ It does the following processing of data:
    
 **Remove Unwanted Characters Node output**
 
-Output of ``Remove Unwanted Characters`` node displaying transformed data after removal of selected characters from selected columns is shown below:
+Output of Remove Unwanted Characters node displaying transformed data after removal of selected characters from selected columns is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-printnode-output.png
    :alt: datacleaning_userguide
@@ -359,12 +366,12 @@ Output of ``Remove Unwanted Characters`` node displaying transformed data after 
 Remove Unwanted Characters Multiple
 ----------------------------------------
 
-Below is a sample workflow which contains ``Remove Unwanted Characters Multiple`` processor in Fire Insights. It demonstrates  the usage of ``Remove Unwanted Characters Multiple`` node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
+Below is a sample workflow which contains Remove Unwanted Characters Multiple processor in Fire Insights. It demonstrates  the usage of Remove Unwanted Characters Multiple node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using ``Remove Unwanted Characters Multiple`` node. Different columns are configured to remove different set of characters.
+*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using Remove Unwanted Characters Multiple node. Different columns are configured to remove different set of characters.
 * 	Output data containing transformed data is printed using  the Print node.
 
 **Remove Unwanted Characters Multiple Sample workflow**
@@ -381,7 +388,8 @@ It does the following processing of data:
 
 **Remove Unwanted Characters Multiple Node configuration**
 
-*	``Remove Unwanted Characters Multiple`` node is configured as below.
+Remove Unwanted Characters Multiple node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	In the ``Variables List``, columns from which unwanted characters need to be removed are to be selected in ``Input Columns`` list.
 *	Based on the requirement of character removal, White Spaces, Letters, Digits, Signs and Commas dropdown need to be selected as ``True``.
@@ -394,7 +402,7 @@ It does the following processing of data:
    
 **Remove Unwanted Characters Multiple Node output**
 
-Output of ``Remove Unwanted Characters Multiple`` node displaying transformed data after removal of selected characters from selected columns is shown below:
+Output of Remove Unwanted Characters Multiple node displaying transformed data after removal of selected characters from selected columns is shown below:
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-printnode-output.png
    :alt: datacleaning_userguide

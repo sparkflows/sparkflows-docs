@@ -4,7 +4,7 @@ Joins and Unions
 Fire Insights provides processors for performing Joins and Unions.
 
 
-Join/Union Processors in Fire Insights
+Join and Union Processors in Fire Insights
 ----------------------------------------
 
 

@@ -8,7 +8,7 @@ Save Files Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Save Files Processors
+.. list-table::
    :widths: 30 70
    :header-rows: 1
 

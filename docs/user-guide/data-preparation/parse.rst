@@ -8,7 +8,7 @@ Parse Processors in Fire Insights
 ----------------------------------------
 
 
-.. list-table:: Parse Processors
+.. list-table:: 
    :widths: 30 70
    :header-rows: 1
 

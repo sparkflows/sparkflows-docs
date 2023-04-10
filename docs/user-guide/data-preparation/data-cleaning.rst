@@ -211,9 +211,9 @@ Dedup node is configured as below.
 *	Column name that lists ``ConfidenceScore`` in the output needs to be entered in the ``ConfidenceScore`` box.
 *	Columns that are used for comparison need to be selected as ``LHS Variables`` and ``RHS Variables`` respectively. 
 *	Algorithm to be used for comparison needs to be selected in ``Algorithm To Use`` drop down.
-*	Weightage of each column that contributes to final Confidence Score calculation needs to be entered in ``Weights`` box.
+*	Weightage of each column that contributes to final ConfidenceScore calculation needs to be entered in ``Weights`` box.
 *	Column name displaying the result of each column comaprison needs to be entered in ``Output Column`` box.
-*	Output of this node would contain final Confidence Score computed.
+*	Output of this node would contain final ConfidenceScore computed.
 
 
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_config.PNG

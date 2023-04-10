@@ -8,7 +8,6 @@ More details regarding clustering can be found at: https://en.wikipedia.org/wiki
 Clustering Processors in Fire Insights
 ----------------------------------------
 
-Below are the Apache Spark based Clustering Processors in Fire Insights.
 
 .. list-table:: Apache Spark based Clustering Processors in Fire Insights
    :widths: 30 70

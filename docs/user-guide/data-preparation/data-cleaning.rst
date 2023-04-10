@@ -185,7 +185,7 @@ It does following processing of data:
 **Dedup Node Sample Workflow**
 
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_wf.PNG
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -193,13 +193,13 @@ It does following processing of data:
 
 *	Base Dataset against which other dataset is compared for accuracy.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_data1.PNG
    :alt: datacleaning_userguide
    :width: 75%
    
 *	Dedup Dataset which needs to be checked for accuracy.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_data2.PNG
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -216,7 +216,7 @@ Dedup node is configured as below.
 *	Output of this node would contain final Confidence Score computed.
 
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_config.PNG
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -224,7 +224,7 @@ Dedup node is configured as below.
 
 Output of Dedup node displaying Confidence Score value is shown as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dedup/dedup_output.PNG
    :alt: datacleaning_userguide
    :width: 75%       
    

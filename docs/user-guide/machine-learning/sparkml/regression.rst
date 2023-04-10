@@ -8,7 +8,6 @@ For more details on regression, visit: https://en.wikipedia.org/wiki/Regression_
 Regression Processors in Fire Insights
 ------------
 
-Below are the Apache Spark ML based Regression Processors in Fire Insights.
 
 .. list-table:: Apache Spark based Regression Processors in Fire Insights
    :widths: 50 50

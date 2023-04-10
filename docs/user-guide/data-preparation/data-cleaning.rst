@@ -179,7 +179,7 @@ It does following processing of data:
 
 *	Reads incoming Base Dataset and Dedup Dataset.
 *	Joins Base and Dedup datasets into single dataset to facilitate comparison using ``Join Using SQL`` node.
-*	Base and Dedup datasets are compared using ``Dedup`` node. ``Confidence Score`` is calculated as a result of comparison which indicates extent to which both datasets match.
+*	Base and Dedup datasets are compared using ``Dedup`` node. ``ConfidenceScore`` is calculated as a result of comparison which indicates extent to which both datasets match.
 * 	Output data listing ``Confidence Score`` is printed using  the Print node.
 
 **Dedup Node Sample Workflow**
@@ -208,7 +208,7 @@ It does following processing of data:
 Dedup node is configured as below.
 
 *	Input of this node are the incoming datasets.
-*	Column name that lists ``Confidence Score`` in the output needs to be entered in the ``Confidence Score`` box.
+*	Column name that lists ``ConfidenceScore`` in the output needs to be entered in the ``ConfidenceScore`` box.
 *	Columns that are used for comparison need to be selected as ``LHS Variables`` and ``RHS Variables`` respectively. 
 *	Algorithm to be used for comparison needs to be selected in ``Algorithm To Use`` drop down.
 *	Weightage of each column that contributes to final Confidence Score calculation needs to be entered in ``Weights`` box.

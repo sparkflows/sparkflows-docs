@@ -45,13 +45,13 @@ It does the following processing of data:
 
 **Drop Rows with Null Node Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropNullWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/InputData.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -62,7 +62,7 @@ Drop Rows With Null node is configured as below.
 *	Input of this node is the incoming dataset.
 *	Output of this node would contain rows that don't have null values in columns.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropNUllConfig.png
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -70,7 +70,7 @@ Drop Rows With Null node is configured as below.
 
 Output of Drop Rows With Null node which displays rows that don't have null values is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/droprowsnull-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropNullOutput.png
    :alt: datacleaning_userguide
    :width: 75% 
    
@@ -83,18 +83,18 @@ Below is a sample workflow which contains the Find And Replace Using Regex proce
 It processes the dataset in the following ways:
 
 *	Reads incoming dataset.
-*	Replaces a string pattern with another by the use of Find And Replace Using Regex node. In the sample workflow shown below, date separator is replced from '-' to '\/'. 
+*	Replaces a string pattern with another by the use of Find And Replace Using Regex node. In the sample workflow shown below, date separator is replced from '-' to '/'. 
 * 	Output data is printed by the use of the Print node.
 
 **Find and Replace Using Regex Node Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindInputData.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -108,46 +108,46 @@ Find And Replace Using Regex node is configured as below.
 *	String Pattern that replaces matched values in the output is to be entered in ``Replace`` box.
 *	Output of this node would contain replaced values for the matches found.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-config1.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindConfig1.png
    :alt: datacleaning_userguide
    :width: 75%
    
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-config2.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindConfig2.png
    :alt: datacleaning_userguide
    :width: 75%   
    
 **Find And Replace Using Regex Node output**
 
-Output of Find And Replace Using Regex node displaying values replaced for the matches found is shown below. In the sample workflow shown below, Date Separator in ``Date Of Joining`` has been changed from '-' to '\/'.
+Output of Find And Replace Using Regex node displaying values replaced for the matches found is shown below. In the sample workflow shown above, Date Separator in Date Of Joining has been changed from '-' to '/'.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregex-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindOutput.png
    :alt: datacleaning_userguide
    :width: 75%    
    
-Find And Replace Using Regex Multiple
+Find And Replace Using Regex Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Find And Replace Using Regex Multiple processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex Multiple node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
+Below is a sample workflow which contains Find And Replace Using Regex Advanced processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex Advanced node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
 
 It does the following processing of data:
 
 *	Reads incoming Dataset.
-*	Replaces a string pattern with another using Find And Replace Using Regex Multiple node. In the sample workflow shown below, date separator is replced from '-' to '\/' in ``Date Of Joining``, spaces in ``Salary`` is replaced with a comma, 'BAD' in ``Performance`` is replaced with 'NOT SO GOOD'.  
+*	Replaces a string pattern with another using Find And Replace Using Regex Advanced node. In the sample workflow shown below, date separator is replced from '-' to '.' in Date Of Joining column and replaced HR with Human Resource in DEPT column. 
 * 	Output data after replacement is printed using the Print node.
 
-**Find and Replace Using Regex Multiple Node Sample workflow**
+**Find and Replace Using Regex Advanced Node Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindAdvancedWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindInputData.png
    :alt: datacleaning_userguide
    :width: 75%
 
-**Find And Replace Using Regex Multiple Node configuration**
+**Find And Replace Using Regex Advanced Node configuration**
 
 Find And Replace Using Regex Multiple node is configured as below.
 
@@ -158,15 +158,15 @@ Find And Replace Using Regex Multiple node is configured as below.
 *	Multiple transformation for different columns can be entered as separate rows.
 *	Output of this node would contain replaced values for the matches found.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindAdvancedConfig.png
    :alt: datacleaning_userguide
    :width: 75%
    
-**Find And Replace Using Regex Multiple Node output**
+**Find And Replace Using Regex Advanced Node output**
 
-Output of Find And Replace Using Regex Multiple node displaying values replaced for the matches found.
+Output of Find And Replace Using Regex Advanced node displaying values replaced for the matches found.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/fnrregexmulti-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindAdvancedOutput.png
    :alt: datacleaning_userguide
    :width: 75%       
    
@@ -241,13 +241,13 @@ It does the following processing of data:
 
 **Drop Duplicate Rows Workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropDuplicateWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropDuplicateInput.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -259,7 +259,7 @@ Drop Duplicate Rows node is configured as below.
 *	Columns in which data needs to be checked for duplicate values is to be selected in ``Columns``. More than one column can be selected.
 *	Output of this node would contain unique combination of values in the selected Columns.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropDuplicateConfig.png
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -267,7 +267,7 @@ Drop Duplicate Rows node is configured as below.
 
 Output of Drop Duplicate Rows node displaying rows having unique combination of values in the selected Columns.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropduprows-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropDuplicateOutput.png
    :alt: datacleaning_userguide
    :width: 75%       
    
@@ -284,13 +284,13 @@ It does the following processing of data:
 
 **Remove Duplicate Rows Node Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveDuplicateWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropDuplicateInput.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -303,7 +303,7 @@ Remove Duplicate Rows node is configured as below.
 *	Columns in which data needs to be checked for duplicate values is to be selected in ``Columns``. More than one column can be selected.
 *	Output of this node would contain unique combination of values in the selected Columns.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveDuplicateConfig.png
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -311,7 +311,7 @@ Remove Duplicate Rows node is configured as below.
 
 Output of Remove Duplicate Rows node displaying rows having unique combination of values in the selected Columns is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remduprows-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveDuplicateOutput.png
    :alt: datacleaning_userguide
    :width: 75%       
    
@@ -328,13 +328,13 @@ It does the following processing of data:
 
 **Remove Unwanted Characters Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedInput.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -347,11 +347,11 @@ Remove Unwanted Characters node is configured as below.
 *	Based on the requirement of character removal, White Spaces, Letters, Digits, Signs and Commas dropdown need to be selected as ``True``.
 *	Output of this node would contain transformed data based on the selection.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-config1.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedConfig1.png
    :alt: datacleaning_userguide
    :width: 75%
    
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-config2.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedConfig2.png
    :alt: datacleaning_userguide
    :width: 75%
    
@@ -359,36 +359,36 @@ Remove Unwanted Characters node is configured as below.
 
 Output of Remove Unwanted Characters node displaying transformed data after removal of selected characters from selected columns is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchr-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedOutput.png
    :alt: datacleaning_userguide
    :width: 75%       
    
-Remove Unwanted Characters Multiple
+Remove Unwanted Characters Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Remove Unwanted Characters Multiple processor in Fire Insights. It demonstrates  the usage of Remove Unwanted Characters Multiple node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
+Below is a sample workflow which contains Remove Unwanted Characters Advanced processor in Fire Insights. It demonstrates  the usage of Remove Unwanted Characters Advanced node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using Remove Unwanted Characters Multiple node. Different columns are configured to remove different set of characters.
-* 	Output data containing transformed data is printed using  the Print node.
+*	Removes White Spaces, Letters, Digits, Signs and Commas from the selected columns using Remove Unwanted Characters Advanced node. Different columns are configured to remove different set of characters.
+* 	Output data containing transformed data is printed using the Print node.
 
-**Remove Unwanted Characters Multiple Sample workflow**
+**Remove Unwanted Characters Advanced Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/UnwantedAdvWF.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/RemoveUnwantedInput.png
    :alt: datacleaning_userguide
    :width: 75%
 
-**Remove Unwanted Characters Multiple Node configuration**
+**Remove Unwanted Characters Advanced Node configuration**
 
-Remove Unwanted Characters Multiple node is configured as below.
+Remove Unwanted Characters Advanced node is configured as below.
 
 *	Input of this node is the incoming dataset.
 *	In the ``Variables List``, columns from which unwanted characters need to be removed are to be selected in ``Input Columns`` list.
@@ -396,14 +396,14 @@ Remove Unwanted Characters Multiple node is configured as below.
 *	Multiple transformations for different columns can be added as separate rows.
 *	Output of this node would contain transformed data based on the selection.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/UnwantedAdvConfig.png
    :alt: datacleaning_userguide
    :width: 75%
    
-**Remove Unwanted Characters Multiple Node output**
+**Remove Unwanted Characters Advanced Node output**
 
-Output of Remove Unwanted Characters Multiple node displaying transformed data after removal of selected characters from selected columns is shown below:
+Output of Remove Unwanted Characters Advanced node displaying transformed data after removal of selected characters from selected columns is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/remunwantedchrmul-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/UnwantedAdvOutput.png
    :alt: datacleaning_userguide
    :width: 75%       

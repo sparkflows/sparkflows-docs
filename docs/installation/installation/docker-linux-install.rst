@@ -99,9 +99,9 @@ Upgrading Steps
     docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
-* Upgrade the MySQL table by running the bat script::
+* Upgrade the MySQL table by running the sh script::
 
-    .\create-mysql-db.bat
+    .\create-mysql-db.sh
 
 * Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     

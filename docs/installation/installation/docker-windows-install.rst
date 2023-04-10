@@ -90,9 +90,10 @@ Upgrading Steps
 
     docker pull sparkflows/fire:py_3.2.1_3.1.XX
 
-* Upgrade the MySQL table by running the bat script::
+* Upgrade the either the MySQL or the H2DB table by running the BAT script::
 
     .\create-mysql-db.bat
+    .\create-h2-db.bat
     
 * Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     

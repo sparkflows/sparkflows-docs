@@ -13,7 +13,7 @@ The below workflow does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/ReadCSV-WF.png
    :alt: readwrite
-   :width: 50%
+   :width: 45%
 
 Reading from CSV File
 ---------------------

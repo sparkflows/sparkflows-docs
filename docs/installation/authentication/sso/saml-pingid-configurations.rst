@@ -37,7 +37,7 @@ Add/update the below information from newly created application in Ping Identity
 ::
 
   # Metadata URL of identity provider
-  saml2.idp.metadata-url=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b/saml20/metadata/46240920-e6a9-4d2f-b2ce-ddb7d00e4087
+  saml2.idp.metadata-url=https://auth.pingone.asia/fa405895-689d-4ced-9a0e-6d940667583b/saml20/metadata/46240920-e6a9-4d2f-b2ce-ddb7d00e4087 or ./conf/saml2-metadata-idp-d717f2ad-aa47-4260-b84e-08094d0dbcd4.xml
 
   #  Identifier of the SP (Service Provider) entity  (must be a URI) Audience URI
   saml2.sp.entityid=https://<sparkflows-dns>:8443/sparkflows/saml/metadata
@@ -47,7 +47,9 @@ Add/update the below information from newly created application in Ping Identity
   
   # Algorithm that the toolkit will use on signing process. Options:
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
-  
+
+.. note::  saml2.idp.metadata-url can be absolute path which have access from application or saml-metadata.xml file with path.
+
 6. Configure Application Base URL
 
 ::

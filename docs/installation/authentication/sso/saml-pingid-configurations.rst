@@ -66,4 +66,4 @@ Update the Fire Insights application URI.
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   
-.. note::  Make sure to change localhost to your domain name or your IP.
+.. note::  Make sure to change <sparkflows-dns> to your domain name or your IP.

@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a JSON file.
 * Prints the sample result.
 
-.. figure:: ../../_assets/user-guide/read-write/ReadJSON.png
+.. figure:: ../../_assets/tutorials/read-write/read-json/json-wf.png
    :alt: readwrite
    :width: 40%
 
@@ -23,14 +23,14 @@ It reads data from a JSON file using the Read JSON processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/17.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-json/json-config.png
    :alt: readwrite
    :width: 75%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/18.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-json/json-output.png
    :alt: readwrite
    :width: 75%
 

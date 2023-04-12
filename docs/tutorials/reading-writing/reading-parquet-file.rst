@@ -11,7 +11,7 @@ Below is the workflow. It does the following:
 * Reads data from a Parquet file.
 * Prints the sample result.
 
-.. figure:: ../../_assets/tutorials/read-write/writing-parquet/Read-parquet.png
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-wf.png
    :alt: readwrite
    :width: 45%
 
@@ -23,14 +23,14 @@ It reads data from a Parquet file using the Read Parquet processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/21.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-config.png
    :alt: readwrite
    :width: 90%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/22.PNG
+.. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-output.png
    :alt: readwrite
    :width: 90%
 

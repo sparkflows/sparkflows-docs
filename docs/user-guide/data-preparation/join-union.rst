@@ -134,7 +134,7 @@ It does the following processing of data:
 *	Joins incoming datasets by executing SQL statement written in the Join Using SQL node.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_sql/join_sql_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -142,13 +142,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -160,7 +160,7 @@ Join Using SQL node is configured as below to join incoming datasets.
 *	SQL statement to join incoming datasets needs to be written in the ``SQL`` box.
 *	Once SQL Statement is written schema needs to be refreshed by clicking on the ``Refresh Schema`` button in the ``Schema`` tab. Columns listed would be passed on to the output.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_sql/join_sql_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -168,7 +168,7 @@ Join Using SQL node is configured as below to join incoming datasets.
 
 Output of Join Using SQL node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinusingsql-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_sql/join_sql_result.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

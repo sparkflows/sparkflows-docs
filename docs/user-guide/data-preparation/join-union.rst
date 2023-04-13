@@ -88,7 +88,7 @@ It does the following processing of data:
 *	Joins incoming datasets using Union Distinct node and results in a dataset containing only distinct rows from both the datasets. If incoming datasets have duplicate rows then they are removed in the output.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/uniondistinct_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -96,13 +96,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -110,7 +110,7 @@ It does the following processing of data:
 
 Union Distinct node is configured as below to join incoming datasets.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/uniondistinct_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -118,7 +118,7 @@ Union Distinct node is configured as below to join incoming datasets.
 
 Output of Union Distinct node joining all rows from incoming datasets and selecting only the distinct rows is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/uniondistinct-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/uniondistinct_output.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

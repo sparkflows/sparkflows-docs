@@ -184,7 +184,7 @@ It does the following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -192,13 +192,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -210,7 +210,7 @@ Join On Columns node is configured as below to join incoming datasets.
 *	First Dataset selected is the Left Dataset and second one is  the Right Dataset.
 *	``Join Type`` can be selected as Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by ``Join Type`` selected.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -218,7 +218,7 @@ Join On Columns node is configured as below to join incoming datasets.
 
 Output of ``Join On Columns`` node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncolumns-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_result.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

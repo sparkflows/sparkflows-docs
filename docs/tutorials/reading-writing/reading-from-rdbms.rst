@@ -1,9 +1,7 @@
 Read from RDBMS
 =======================
 
-Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
-
-In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
+Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks. In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights. 
 
 Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 
@@ -15,9 +13,9 @@ Workflow for reading from MySQL
 
 Below is a workflow which reads data from MySQL and prints the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
 
-.. figure:: ../../_assets/user-guide/ReadJDBC2.png
+.. figure:: ../../_assets/user-guide/read-jdbc-wf.png
    :alt: JDBC Workflowt
-   :width: 45%
+   :width: 75%
    
    
 JDBC Processor Configuration

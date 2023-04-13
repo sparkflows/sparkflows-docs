@@ -1,43 +1,43 @@
 Read PDF Files
 =============
 
-This workflow reads PDF file from the given location. It then parses its content, creates dataframe and then prints the result.
+This workflow reads PDF file from the given location. It then parses its content, creates DataFrame and then prints the result.
 
 Workflow
 -------
 
-The below workflow shows:
+The below workflow:
 
-* Reads PDF file from the given location and create dataframe from it.
+* Reads PDF file from the given location and creates DataFrame from it.
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/ReadPDF.png
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-wf.png
    :alt: ReadandParse
-   :width: 40%
+   :width: 75%
    
 Reading And Parsing PDF File
 ---------------------
 
-``DatasetPDF`` processor uses the passed location to download PDF file, parse its content into string and create the dataframe.
+``PDF`` processor uses the passed location to download PDF file, parse its content into string and creates the DataFrame.
 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/24.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-config.png
    :alt: ReadandParse
-   :width: 85%
+   :width: 75%
 
   
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/25.PNG
+.. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-output.png
    :alt: ReadandParse
-   :width: 85%   
+   :width: 75%   
    
    
 Prints the Result
 ------------------
 
-It prints the result onto the screen.
+It prints the result onto the screen using Print N Rows processor.

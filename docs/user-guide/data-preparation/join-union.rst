@@ -235,7 +235,7 @@ It does following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -243,13 +243,13 @@ It does following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -262,7 +262,7 @@ Join On Common Column node is configured as below to join incoming datasets.
 *	``Join Type`` can be selected as Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by ``Join Type`` selected.
 *	Schema needs to be refreshed by clicking on the  ``Refresh Schema`` button in the ``Schema`` tab. Columns listed would be passed on to the output.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -270,7 +270,7 @@ Join On Common Column node is configured as below to join incoming datasets.
 
 Output of ``Join On Common Column`` node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncol-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_output.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

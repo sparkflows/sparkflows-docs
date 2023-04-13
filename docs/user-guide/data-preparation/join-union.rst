@@ -57,7 +57,7 @@ It does the following processing of data:
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall-data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 

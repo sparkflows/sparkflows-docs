@@ -262,7 +262,7 @@ Join On Common Column node is configured as below to join incoming datasets.
 *	``Join Type`` can be selected as Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by ``Join Type`` selected.
 *	Schema needs to be refreshed by clicking on the  ``Refresh Schema`` button in the ``Schema`` tab. Columns listed would be passed on to the output.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_config.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/joincolumns_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -270,7 +270,7 @@ Join On Common Column node is configured as below to join incoming datasets.
 
 Output of ``Join On Common Column`` node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_output.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/joincolumns_result.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

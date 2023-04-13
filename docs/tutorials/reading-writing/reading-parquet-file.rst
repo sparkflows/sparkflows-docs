@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-wf.png
    :alt: readwrite
-   :width: 45%
+   :width: 75%
 
 Reading from Parquet File
 ---------------------
@@ -25,16 +25,16 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-config.png
    :alt: readwrite
-   :width: 90%
+   :width: 75%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/read-write/writing-parquet/parquet-output.png
    :alt: readwrite
-   :width: 90%
+   :width: 75%
 
 Prints the Results
 ------------------
 
-It prints the first few records.
+It prints the first few records using the Print N Rows processor.

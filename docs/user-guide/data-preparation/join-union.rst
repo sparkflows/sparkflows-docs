@@ -43,7 +43,7 @@ It does the following processing of data:
 *	Joins incoming datasets using Union All node and results in a dataset containing all rows from both the datasets without removing duplicate rows.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -51,13 +51,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -65,7 +65,7 @@ It does the following processing of data:
 
 Union All node is configured as below to join incoming datasets.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -73,7 +73,7 @@ Union All node is configured as below to join incoming datasets.
 
 Output of Union All node joining all rows from incoming datasets is shown as below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_result.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

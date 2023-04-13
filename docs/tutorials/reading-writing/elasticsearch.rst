@@ -14,29 +14,29 @@ Loading data into Elastic Search
 
 Create a new empty workflow. Drag and drop the source dataset from which you want to load data into Elastic Search. If you don't have a dataset for the source data, create one. 
 
-Once the source processor is on the workflow canvas, drag and drop "SaveElasticSearch" processor in the workflow. Configure your Elastic Search processor in the dialog box shown below.
+Once the source processor is on the workflow canvas, drag and drop "Save ElasticSearch" processor in the workflow. Configure your Elastic Search processor in the dialog box shown below.
 
 .. figure:: ../../_assets/tutorials/dataset/EsCofig.PNG
    :alt: Dataset
    :width: 85%
 
 
-After configuring "SaveElasticSearch" processor, connect your data source processor to Elastic Search processor.
+After configuring "Save ElasticSearch" processor, connect your data source processor to Elastic Search processor.
 
 
-The sample workflow below reads a Housing Dataset which is in CSV format from HDFS. The 'SaveElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
+The sample workflow below reads a Housing Dataset which is in CSV format from HDFS. The 'Save ElasticSearch' takes in the incoming data and loads it into the Elastic Search Index 'sparkflows/housing'.
 
 
-.. figure:: ../../_assets/tutorials/dataset/ElasticSearch.png
+.. figure:: ../../_assets/tutorials/dataset/save-elastic-wf.png
    :alt: Dataset
-   :width: 45%
+   :width: 70%
 
 
 Workflow Execution
 ------------------
 
 
-When the sample workflow above is executed, it reads in the dataset from HDFS and saves it into Elastic Search.
+When the sample workflow above is executed, it reads in the dataset from HDFS and saves it into Elasticsearch.
 
 
 .. figure:: ../../_assets/tutorials/dataset/20.PNG
@@ -69,9 +69,9 @@ The Elastic Search Processor understands the SQL and translates it into the appr
 The sample workflow below reads the data from the sparkflows/housing index in Elastic Search and prints out the first few lines.
 
 
-.. figure:: ../../_assets/tutorials/dataset/ElasticSearch2.png
+.. figure:: ../../_assets/tutorials/dataset/read-elastic-wf.png
    :alt: Dataset
-   :width: 45%
+   :width: 70%
 
 
 Workflow Execution

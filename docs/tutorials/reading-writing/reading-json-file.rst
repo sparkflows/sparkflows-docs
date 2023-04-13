@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/read-write/read-json/json-wf.png
    :alt: readwrite
-   :width: 40%
+   :width: 75%
 
 Reading from JSON File
 ---------------------

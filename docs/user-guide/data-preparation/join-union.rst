@@ -286,7 +286,7 @@ It does the following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_wf.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -294,13 +294,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-incoming-dataset1.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-incoming-dataset2.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data2.PNG
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -314,7 +314,7 @@ Join On Common Columns node is configured as below to join incoming datasets.
 *	Where condition can be entered in the ``Where Clause`` box to filter the output.
 *	Schema needs to be refreshed by clicking on the ``Refresh Schema`` button in the ``Schema`` tab. Columns listed would be passed on to the output.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_config.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -326,7 +326,7 @@ Join On Common Columns node is configured as below to join incoming datasets.
 
 Output of Join On Common Columns node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joinoncommoncols-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_result.PNG
    :alt: joinsandunion_userguide
    :width: 75%
    

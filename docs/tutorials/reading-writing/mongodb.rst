@@ -11,7 +11,7 @@ It then saves the data into MongoDB.
 
 .. figure:: ../../_assets/tutorials/mongodb/save-mongo-wf.png
    :alt: SaveMongoDB
-   :width: 75%
+   :width: 60%
 
 The below image shows the dialog box for the SaveMongoDB Processor.
 
@@ -36,7 +36,7 @@ The below workflow reads Data in MongoDB.It then prints the data.
 
 .. figure:: ../../_assets/tutorials/mongodb/read-mongo-wf.png
    :alt: ReadMongoDB
-   :width: 75%
+   :width: 60%
 
 The below image shows the dialog box for the ReadMongoDB Processor.
 
@@ -55,5 +55,5 @@ We see that the Sample Data records that we wrote to MongoDB in the first workfl
 
 .. figure:: ../../_assets/tutorials/mongodb/workflowexecutionreadmongodb.PNG
    :alt: ReadMongoDB
-   :width: 75%
+   :width: 60%
 

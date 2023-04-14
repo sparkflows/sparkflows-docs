@@ -48,7 +48,7 @@ Add/update the below information from newly created application in Ping Identity
   # Algorithm that the toolkit will use on signing process. Options:
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
 
-.. note::  ''saml2.idp.metadata-url'' can be absolute idp.metadata-url which is accessible from application or saml-metadata.xml file path in conf folder.
+.. note::  ``saml2.idp.metadata-url`` can be absolute idp.metadata-url which is accessible from application or saml-metadata.xml file path in conf folder.
 
 ``saml2.idp.entityid`` should be the Issuer ID of Ping Id application.
 

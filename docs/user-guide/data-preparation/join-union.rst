@@ -43,7 +43,7 @@ It does the following processing of data:
 *	Joins incoming datasets using Union All node and results in a dataset containing all rows from both the datasets without removing duplicate rows.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/union-all-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -88,7 +88,7 @@ It does the following processing of data:
 *	Joins incoming datasets using Union Distinct node and results in a dataset containing only distinct rows from both the datasets. If incoming datasets have duplicate rows then they are removed in the output.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/uniondistinct_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/union-distinct-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -134,7 +134,7 @@ It does the following processing of data:
 *	Joins incoming datasets by executing SQL statement written in the Join Using SQL node.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_sql/join_sql_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_sql/join-using-sql-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -184,7 +184,7 @@ It does the following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-on-columns/join-on-columns-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -192,13 +192,13 @@ It does the following processing of data:
 
 *	Incoming Dataset 01
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall_data1.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-on-columns/Join-on-cols-input01.png
    :alt: joinsandunion_userguide
    :width: 75%
 
 *	Incoming Dataset 02
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/unionall-data2.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-on-columns/join-on-cols-input02.png
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -210,7 +210,7 @@ Join On Columns node is configured as below to join incoming datasets.
 *	First Dataset selected is the Left Dataset and second one is  the Right Dataset.
 *	``Join Type`` can be selected as Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by ``Join Type`` selected.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_config.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-on-columns/join-on-cols-config.png
    :alt: joinsandunion_userguide
    :width: 75%
 
@@ -218,7 +218,7 @@ Join On Columns node is configured as below to join incoming datasets.
 
 Output of ``Join On Columns`` node joining incoming datasets is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_result.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-on-columns/join-on-cols-output.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -235,7 +235,7 @@ It does following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join_column_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join_column/join-on-comm-col-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    
@@ -286,7 +286,7 @@ It does the following processing of data:
 *	Datasets can be joined using Inner, Outer, Left Outer, Right Outer and Left Semi mode. Output would be impacted by Join Type selected.
 * 	Joined data is printed using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join_columns_wf.PNG
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/joincolumns/join-on-comm-cols-wf.png
    :alt: joinsandunion_userguide
    :width: 75%
    

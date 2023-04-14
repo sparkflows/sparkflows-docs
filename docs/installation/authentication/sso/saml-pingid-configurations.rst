@@ -50,7 +50,7 @@ Add/update the below information from newly created application in Ping Identity
 
 .. note::  ``saml2.idp.metadata-url`` can be absolute idp.metadata-url which is accessible from application or saml-metadata.xml file path in conf folder.
 
-``saml2.idp.entityid`` should be the Issuer ID of Ping Id application.
+``saml2.idp.entityid`` should be the Issuer ID of Ping Identity application.
 
 6. Configure Application Base URL
 

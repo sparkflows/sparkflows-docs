@@ -11,9 +11,9 @@ The below workflow does the following:
 * Reads data from a CSV file.
 * Save CSV to a specified location.
 
-.. figure:: ../../_assets/user-guide/read-write/SaveCSV.png
+.. figure:: ../../_assets/user-guide/read-write/save-csv/save-csv-wf.png
    :alt: readwrite
-   :width: 45%
+   :width: 70%
 
 Reading from CSV File
 ---------------------
@@ -23,16 +23,16 @@ It reads data from a CSV File using Read CSV Processor.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/27.PNG
+.. figure:: ../../_assets/user-guide/read-write/save-csv/read-csv-config.png
    :alt: readwrite
-   :width: 90%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/30.PNG
+.. figure:: ../../_assets/user-guide/read-write/save-csv/read-csv-output.png
    :alt: readwrite
-   :width: 90%
+   :width: 70%
 
 Save CSV File
 ----------------
@@ -47,12 +47,12 @@ It saves CSV files in a specified location. Use the below field for CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/read-write/28.PNG
+.. figure:: ../../_assets/user-guide/read-write/save-csv/save-csv-config.png
    :alt: readwrite
-   :width: 90%
+   :width: 70%
    
 Once the workflow is executed successfully, the CSV file will be saved to specified location.
 
-.. figure:: ../../_assets/user-guide/read-write/29.PNG
+.. figure:: ../../_assets/user-guide/read-write/save-csv/save-csv-execution.png
    :alt: readwrite
-   :width: 90%
+   :width: 70%

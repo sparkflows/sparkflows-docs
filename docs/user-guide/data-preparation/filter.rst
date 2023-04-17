@@ -32,6 +32,8 @@ Filtering Processors in Fire Insights
 Videos
 -----------
 
+Watch tutorial videos at Sparkflows YouTube channel. Find the links below. 
+
 * Filter by Date Range: https://www.youtube.com/watch?v=jhymRSPH2sQ
 * Filter by String Length: https://www.youtube.com/watch?v=VccGi4GYxtE
 * Filter By Number Range: https://www.youtube.com/watch?v=g6bKSeFYyIs

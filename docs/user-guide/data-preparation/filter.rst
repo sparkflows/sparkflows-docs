@@ -21,13 +21,23 @@ Filtering Processors in Fire Insights
      - This node filters Rows within the given date range.
    * - FilterByStringLength
      - This node filters the Rows within the given string length. The column to be used for determining the string length is specified.
-   * - NumberRangeFilter
+   * - FilterByNumberRange
      - This node filter Rows in the given Number Range.
    * - RowFilter
      - This node creates a new DataFrame containing only rows satisfying given condition.
    * - RowFilterWithIndex
      - This node creates a new DataFrame containing only rows satisfying given condition.
  
+
+Videos
+-----------
+
+* Filter by Date Range: https://www.youtube.com/watch?v=jhymRSPH2sQ
+* Filter by String Length: https://www.youtube.com/watch?v=VccGi4GYxtE
+* Filter By Number Range: https://www.youtube.com/watch?v=g6bKSeFYyIs
+* Row Filter: https://www.youtube.com/watch?v=XVXFddSflVk
+
+
 Select Columns
 ----------------------------------------
 
@@ -152,6 +162,7 @@ Output of Filter By Date Range node displaying rows in which selected column's d
    :alt: filtering_userguide
    :width: 75%       	 
    
+
 Filter By String Length
 ----------------------------------------
 

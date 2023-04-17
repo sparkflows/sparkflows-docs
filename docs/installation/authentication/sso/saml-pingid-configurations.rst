@@ -60,11 +60,11 @@ Add/update the below information from newly created application in Ping Identity
   
 7. Configure Server Name
 
-Update the Fire Insights application URI. 
+If application is running behind load balancer, one needs to configure the below. Update the Fire Insights application URI. 
 
 ::
 
-  saml.context.lb.server-name=<sparkflows-dns>:8443
+  saml.context.lb.server-name=<sparkflows-dns>
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
   

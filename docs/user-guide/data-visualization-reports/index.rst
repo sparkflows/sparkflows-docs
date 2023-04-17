@@ -54,5 +54,12 @@ Streaming Reports
 - The streaming workflows have a mini-batch duration, say 30 seconds.
 - In this case, the output in the reports gets updated every 30 seconds as the new data comes in.
 
+Videos
+-----------------
+
+Watch the video tutorial on how to create a report at the Sparkflows YouTube channel. Find the link below.
+
+* Creating a Report: https://www.youtube.com/watch?v=lWWRPKxMf7Q
+
 
 

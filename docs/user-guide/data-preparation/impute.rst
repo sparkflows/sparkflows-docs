@@ -27,27 +27,28 @@ Imputing Processors in Fire Insights
 Imputing With Constant
 ----------------------------------------
 
-Below is a sample workflow which contains ``Imputing With Constant`` processor in Fire Insights. It demonstrates the usage of ``Imputing With Constant`` node to replace missing values with constant values.
+Below is a sample workflow which contains Imputing With Constant processor in Fire Insights. It demonstrates the usage of Imputing With Constant node to replace missing values with constant values.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Replaces missing values with constant values using ``Imputing With Constant`` node.
+*	Replaces missing values with constant values using Imputing With Constant node.
 *	Prints output dataset containing replaced values using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-wf.png
    :alt: imputing_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-input.png
    :alt: imputing_userguide
    :width: 75%
 
 **Imputing With Constant Node Configuration**
 
-*	``Imputing With Constant`` node is configured as below.
+Imputing With Constant node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Each row in the ``Variables List`` specifies imputing details for each columns.
 *	Column in which missing values need to be replaced with Constant value is to be selected in ``Columns`` list.
@@ -55,137 +56,140 @@ It does the following processing of data:
 *	Additional rows need to be added for each imputing requirement.
 *	Output of this node would display misssing values replaced with Constant values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-config.png
    :alt: imputing_userguide
    :width: 75%
    
 **Imputing With Constant Node Output**
 
-Output of ``Imputing With Constant`` node displaying misssing values replaced with Constant values.
+Output of Imputing With Constan node displaying misssing values replaced with Constant values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeconst-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-output.png
    :alt: imputing_userguide
    :width: 75%       	    
    
 Imputing With Mean Value
 ----------------------------------------
 
-Below is a sample workflow which contains ``Imputing With Mean Value`` processor in Fire Insights. It demonstrates the usage of ``Imputing With Mean Value`` node to replace missing values with Mean value of the column.
+Below is a sample workflow which contains Imputing With Mean Value processor in Fire Insights. It demonstrates the usage of Imputing With Mean Value node to replace missing values with Mean value of the column.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Replace missing values with Mean value of the column using ``Imputing With Mean Value`` node.
+*	Replace missing values with Mean value of the column using Imputing With Mean Value node.
 *	Prints output dataset containing missing values replaced with Mean values using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mean-wf.png
    :alt: imputing_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mean-input.png
    :alt: imputing_userguide
    :width: 75%
 
 **Imputing With Mean Value Node Configuration**
 
-*	``Imputing With Mean Value`` node is configured as below.
+Imputing With Mean Value node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Numeric columns in which missing values are to be replaced with Mean values need to be selected in ``Column Names`` list.
 *	Multiple numeric columns can be selected.
 *	Output of this node would display dataset containing missing values replaced with Mean values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mean-config.png
    :alt: imputing_userguide
    :width: 75%
    
 **Imputing With Mean Value Node Output**
 
-Output of ``Imputing With Mean Value`` node displaying missing values replaced with Mean values.
+Output of Imputing With Mean Value node displaying missing values replaced with Mean values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemean-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mean-output.png
    :alt: imputing_userguide
    :width: 75%       	    
    
 Imputing With Median
 ----------------------------------------
 
-Below is a sample workflow which contains ``Imputing With Median`` processor in Fire Insights. It demonstrates the usage of ``Imputing With Median`` node to replace missing values with Meadian value.
+Below is a sample workflow which contains Imputing With Median processor in Fire Insights. It demonstrates the usage of Imputing With Median node to replace missing values with Meadian value.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Replaces missing values with Median value using ``Imputing With Median`` node.
+*	Replaces missing values with Median value using Imputing With Median node.
 *	Prints output dataset containing missing values replaced with Median values using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-median-wf.png
    :alt: imputing_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mean-input.png
    :alt: imputing_userguide
    :width: 75%
 
 **Imputing With Median Node Configuration**
 
-*	``Imputing With Median`` node is configured as below.
+Imputing With Median node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Numeric columns in which missing values are to be replaced with Median values need to be selected in ``Column Names`` list.
 *	Multiple numeric columns can be selected.
 *	Output of this node would display dataset containing missing values replaced with Median values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-median-config.png
    :alt: imputing_userguide
    :width: 75%
    
 **Imputing With Median Node Output**
 
-Output of ``Imputing With Median`` node displaying missing values replaced with Median values.
+Output of Imputing With Median node displaying missing values replaced with Median values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemedian-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-median-output.png
    :alt: imputing_userguide
    :width: 75%       	    
    
 Imputing With Mode Value
 ----------------------------------------
 
-Below is a sample workflow which contains ``Imputing With Mode Value`` processor in Fire Insights. It demonstrates the usage of ``Imputing With Mode Value`` node to replace missing values with Mode value.
+Below is a sample workflow which contains Imputing With Mode Value processor in Fire Insights. It demonstrates the usage of Imputing With Mode Value node to replace missing values with Mode value.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Replaces missing values with Mode value using ``Imputing With Mode Value`` node.
+*	Replaces missing values with Mode value using Imputing With Mode Value node.
 *	Prints output dataset containing missing values replaced with Mode values using the Print node.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mode-wf.png
    :alt: imputing_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-contant-input.png
    :alt: imputing_userguide
    :width: 75%
 
 **Imputing With Mode Value Node Configuration**
 
-*	``Imputing With Mode Value`` node is configured as below.
+Imputing With Mode Value node is configured as below.
+
 *	Input of this node is the incoming dataset.
 *	Columns in which missing values are to be replaced with Mode values need to be selected in ``Columns`` list.
 *	Multiple columns can be selected.
 *	Output of this node would display dataset containing missing values replaced with Mode values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mode-config.png
    :alt: imputing_userguide
    :width: 75%
    
 **Imputing With Mode Value Node Output**
 
-Output of ``Imputing With Mode Value`` node displaying missing values replaced with Mode values.
+Output of Imputing With Mode Value node displaying missing values replaced with Mode values.
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputemode-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-mode-output.png
    :alt: imputing_userguide
    :width: 75%       	    

@@ -77,6 +77,13 @@ Output of Union All node joining all rows from incoming datasets is shown as bel
    :alt: joinsandunion_userguide
    :width: 75%
    
+**Videos**
+
+Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find the video link below:
+
+* Union All Node Tutorial: https://www.youtube.com/watch?v=27OkicAGTDc
+
+
 Union Distinct
 ----------------------------------------
 
@@ -121,6 +128,13 @@ Output of Union Distinct node joining all rows from incoming datasets and select
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/unionall/uniondistinct/uniondistinct_output.PNG
    :alt: joinsandunion_userguide
    :width: 75%
+
+   
+**Videos**
+
+Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find the video link below:
+
+* Union Distinct Node Tutorial: https://www.youtube.com/watch?v=ZyQ7m4fqm6w 
    
 
 Join Using SQL
@@ -222,6 +236,11 @@ Output of ``Join On Columns`` node joining incoming datasets is shown below:
    :alt: joinsandunion_userguide
    :width: 75%
    
+**Videos**
+
+Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find the video link below:
+
+* Join On Columns Node Tutorial: https://www.youtube.com/watch?v=GbJIiUSA7-g
 
 Join On Common Column
 ----------------------------------------

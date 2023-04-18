@@ -169,7 +169,7 @@ It does the following processing of data:
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-contant-input.png
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-input.png
    :alt: imputing_userguide
    :width: 75%
 

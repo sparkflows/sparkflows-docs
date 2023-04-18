@@ -137,7 +137,7 @@ It does the following processing of data:
 
 **Find and Replace Using Regex Advanced Node Sample workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/FindAdvancedWF.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/Find-Advanced-WF.png
    :alt: datacleaning_userguide
    :width: 75%
    

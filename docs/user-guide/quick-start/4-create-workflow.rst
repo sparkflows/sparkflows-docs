@@ -47,7 +47,5 @@ Once your pipeline of processors is built, save the workflow by clicking on the 
 
 Each time the workflow is saved, a new version of the workflow is created.
 
-Note::
-
-Only CSV and Snowflake dataset is supported to be used in workflow as of today.
+.. note:: Only CSV and Snowflake dataset is supported to be used in workflow as of today.
 

@@ -81,6 +81,14 @@ Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:1.1:name
    :alt: sso
    :width: 60%
 
+Detailed attribute mapping can be found below:
+
+* fireUsername=UserName
+* emailID=EmailID
+* firstName=FirstName
+* samlSubject=saml_subject
+* lastName=LastName
+
 Update ``Attribute Mappings`` and save
 ------
 
@@ -89,6 +97,7 @@ Click on ``Attribute Mappings`` and Update ``saml_subject : Username`` and save
 .. figure:: ../../../_assets/authentication/pingid/http_post.PNG
    :alt: sso
    :width: 60%
+   
 
 Download the metadata from Application
 ------

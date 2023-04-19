@@ -13,9 +13,9 @@ The below workflow:
 * Prints the results.
 
    
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/col-filter-wf.png
    :alt: Column Filter
-   :width: 55%
+   :width: 70%
    
 Reading from Dataset
 ---------------------
@@ -25,14 +25,14 @@ It reads the input Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
    
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/read-config.png
    :alt: Column Filter
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/read-output.png
    :alt: Column Filter
    :width: 80%  
    
@@ -45,14 +45,14 @@ It filters the selected columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/4.png
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/filter-config.png
    :alt: Column Filter
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/column-filter/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/column-filter/filter-output.png
    :alt: Column Filter
    :width: 80%
   

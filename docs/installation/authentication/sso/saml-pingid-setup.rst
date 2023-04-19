@@ -75,9 +75,9 @@ Update ``ACS URLs`` and ``Entity ID`` and save the Application
 Update ``HTTP POST`` and save
 ------
 
-Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified``
+Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
 
-.. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
+.. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
    :alt: sso
    :width: 60%
 

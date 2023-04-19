@@ -190,6 +190,12 @@ Server Libraries
   - Copyright (c) 2004-2017 QOS.ch
   - License: MIT
 
+- Protocol Buffers [Core]
+
+ 
+  - https://protobuf.dev/
+  - © 2023 Google LLC All Rights Reserved
+  - License: Google
 
 
 Frontend Libraries

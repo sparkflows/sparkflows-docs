@@ -108,6 +108,13 @@ Server Libraries
   - Copyright © 2019, Amazon Web Services, Inc. or its affiliates
   - License: Apache-2.0
 
+- Databricks
+
+
+  - https://docs.databricks.com/
+  - © Databricks 2023. All rights reserved. 
+  - License: Apache-2.0
+
 - Eclipse Jetty
 
 

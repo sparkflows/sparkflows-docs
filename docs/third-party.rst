@@ -122,6 +122,13 @@ Server Libraries
   - © 2019. Elasticsearch B.V.
   - License: Apache-2.0
 
+- google-oauth-client
+
+ 
+  - https://developers.google.com/api-client-library/
+  - © 2023 Google LLC
+  - License: Google
+
 - Guava
 
 
@@ -202,12 +209,12 @@ Server Libraries
   - © 2023 Snowflake, Inc.
   - License: Snowflake
 
-- google-oauth-client
+- PostgreSQL
 
  
-  - https://developers.google.com/api-client-library/
-  - © 2023 Google LLC
-  - License: Google
+  - https://www.postgresql.org
+  - Copyright © 1996-2023 The PostgreSQL Global Development Group
+  - License: PostgreSQL Global Development Group
 
 - Protocol Buffers [Core]
 

@@ -202,6 +202,13 @@ Server Libraries
   - © 2023 Snowflake, Inc.
   - License: Snowflake
 
+- google-oauth-client
+
+ 
+  - https://developers.google.com/api-client-library/
+  - © 2023 Google LLC
+  - License: Google
+
 - Protocol Buffers [Core]
 
  

@@ -13,9 +13,9 @@ The below workflow:
 * Reads data from a CSV File.
 * Drops rows having any null values in any of the columns.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/dropnull-wf.png
    :alt: Drop Rows With Null
-   :width: 60%
+   :width: 70%
    
 Reading from CSV File
 ---------------------
@@ -25,7 +25,7 @@ It reads data from a CSV File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/8.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/read-config.png
    :alt: Drop Rows With Null
    :width: 80%
    
@@ -34,7 +34,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/9.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/read-output.png
    :alt: Drop Rows With Null
    :width: 80% 
    
@@ -46,14 +46,14 @@ It drops the rows which contain any null value.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/10.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/dropnull-config.png
    :alt: Drop Rows With Null
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/11.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-rows-with-null/dropnull-output.png
    :alt: Drop Rows With Null
    :width: 80%
    

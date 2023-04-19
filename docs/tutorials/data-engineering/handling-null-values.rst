@@ -108,14 +108,14 @@ It converts strings like Y/N to 0/1 for the specified columns using the FindAndR
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/16.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_regex_config.PNG
    :alt: Handling Null Values
    :width: 80%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/17.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_regex_output.PNG
    :alt: Handling Null Values
    :width: 80%
    

@@ -94,10 +94,10 @@ Server Libraries
   - Copyright © 1999-2019, The Apache Software Foundation 
   - License: Apache-2.0
 
-- Apache Tika
+- Apache Spark Excel
 
 
-  - https://tika.apache.org/
+  - https://index.scala-lang.org/crealytics/spark-excel
   - Copyright © 2023 The Apache Software Foundation 
   - License: Apache-2.0
 

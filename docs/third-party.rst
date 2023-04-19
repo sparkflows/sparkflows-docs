@@ -61,7 +61,7 @@ Server Libraries
 
 
   - http://spark.apache.org/
-  - © 2017 Apache Software Foundation
+  - Copyright © 2017 Apache Software Foundation
   - License: Apache-2.0
 
 - Apache pdfbox
@@ -126,14 +126,14 @@ Server Libraries
 
 
   - https://github.com/elastic/elasticsearch-hadoop
-  - © 2019. Elasticsearch B.V.
+  - Copyright © 2019. Elasticsearch B.V.
   - License: Apache-2.0
 
 - google-oauth-client
 
  
   - https://developers.google.com/api-client-library/
-  - © 2023 Google LLC
+  - Copyright © 2023 Google LLC
   - License: Google
 
 - Guava

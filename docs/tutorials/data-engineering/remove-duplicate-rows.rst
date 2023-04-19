@@ -12,9 +12,9 @@ The below workflow:
 * It then removes duplicate rows from the original CSV file.
 * Print the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/5.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-wf.png
    :alt: Remove Duplicate Rows
-   :width: 60%
+   :width: 75%
    
 Reading from CSV file
 ---------------------
@@ -24,7 +24,7 @@ It reads a CSV file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/read-config.png
    :alt: Remove Duplicate Rows
    :width: 85%
 
@@ -32,7 +32,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/read-output.png
    :alt: Remove Duplicate Rows
    :width: 85%  
    
@@ -44,14 +44,14 @@ It removes Duplicate Rows available.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/8.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-config.png
    :alt: Remove Duplicate Rows
    :width: 85%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/9.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-output.png
    :alt: Remove Duplicate Rows
    :width: 85%   
  
@@ -64,13 +64,13 @@ It prints the result after removing Duplicate Rows.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/print-config.png
    :alt: remove-duplicate-rows
    :width: 85%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/4a.png
+.. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/print-output.png
    :alt: remove-duplicate-rows
    :width: 85%  

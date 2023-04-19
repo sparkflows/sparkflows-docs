@@ -12,9 +12,9 @@ The below workflow:
 * It then drops some columns from the original dataset.
 * Prints the results.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/5.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/drop-col-wf.png
    :alt: Drop Columns
-   :width: 60%
+   :width: 70%
    
 Reading from Dataset
 ---------------------
@@ -24,14 +24,14 @@ It reads the Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/dataset-config.png
    :alt: Drop Columns
    :width: 80%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/dataset-output.png
    :alt: Drop Columns
    :width: 80%   
    
@@ -43,14 +43,14 @@ It drops the columns whichever we want.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/8.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/drop-col-config.png
    :alt: Drop Columns
    :width: 80%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/9.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/drop-col-output.png
    :alt: Drop Columns
    :width: 80%
   
@@ -63,14 +63,14 @@ It prints the results after dropping the columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/print-config.png
    :alt: Drop Columns
    :width: 80%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/4a.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/drop-columns/print-output.png
    :alt: Drop Columns
    :width: 80% 
 

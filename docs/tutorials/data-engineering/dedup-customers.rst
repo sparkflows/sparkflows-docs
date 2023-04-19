@@ -15,7 +15,7 @@ The below workflow:
 * Then, it applies distance algorithms on a few fields to find the distance between the records.
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-wf.png
    :alt: DedupCustomers
    :width: 55%
    
@@ -27,7 +27,7 @@ There are 2 input datasets in this case **Dedup Master Dataset** & **Dedup Error
 Dataset 1:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dataset01.png
    :alt: DedupCustomers
    :width: 75%
    
@@ -35,7 +35,7 @@ Dataset 1:
 Dataset 2:
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dataset02.png
    :alt: DedupCustomers
    :width: 75%
    
@@ -43,17 +43,17 @@ Dataset 2:
 Join input DataFrames
 ------------
 
-``JoinUsingColumn`` Processor joins the incoming DataFrames on a join column **State**. ``ColumnFilter`` Processor filters the columns to get the required DataFrame as shown below:
+JoinUsingColum Processor joins the incoming DataFrames on a join column **State**. ColumnFilter Processor filters the columns to get the required DataFrame as shown below:
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/10.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/join-output.png
    :alt: DedupCustomers
    :width: 75%
    
 Data Deduplication
 ------------
 
-``Dedup`` is used for the problems like entity resolution or data matching.
+**Dedup** is used for the problems like entity resolution or data matching.
 Entity Resolution or Data Matching is the problem of finding and linking different mentions of the same entity in a single data source or across multiple data sources. Here, Levenshtein Algorithm is used for Data Deduplication. There are more options for Algorithms that can be used:
 
 * **Full matching:** Full matching makes use of all individuals in the data by forming a series of matched sets in which each set has either 1 treated individual and multiple comparison individuals or 1 comparison individual and multiple treated individuals.
@@ -72,18 +72,18 @@ Entity Resolution or Data Matching is the problem of finding and linking differe
 
 
 
-``Dedup`` Processor Configuration 
+Dedup Processor Configuration 
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/11.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-config.png
    :alt: DedupCustomers
    :width: 75%
    
    
-``Dedup`` Processor Output
+Dedup Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/12.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-output.png
    :alt: DedupCustomers
    :width: 75%
    

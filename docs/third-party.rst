@@ -179,6 +179,13 @@ Server Libraries
   - Author: The Apache Software Foundation
   - License: Apache-2.0
 
+- OpenSAML
+
+   
+  - https://www.baeldung.com/spring-security-saml
+  - Copyright 2023 SAMLSECURITY. 
+  - License: Apache-2.0
+
 - Python
 
   - https://www.python.org/

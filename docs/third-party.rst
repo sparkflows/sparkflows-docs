@@ -195,6 +195,13 @@ Server Libraries
   - Copyright (c) 2004-2017 QOS.ch
   - License: MIT
 
+- Snowflake
+
+ 
+  - https://docs.snowflake.com/developer-guide/jdbc/jdbc-download
+  - © 2023 Snowflake, Inc.
+  - License: Snowflake
+
 - Protocol Buffers [Core]
 
  

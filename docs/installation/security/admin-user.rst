@@ -259,6 +259,15 @@ The admin user can TEST LDAP configuration if its configured correctly or not (o
    :alt: security
    :width: 70%
 
+Backup DB
++++++++++++++++++
+
+The admin user can Backup DB (only if application is running on H2 DB) to Instance at accessible location.
+
+.. figure:: ../../_assets/security/admin_user/admin_bkp.PNG
+   :alt: security
+   :width: 70%
+
 Runtime Statistics
 ++++++++++++++
 

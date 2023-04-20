@@ -289,7 +289,7 @@ The admin user can view total list of Scheduled jobs.
 Cache Statistics
 ++++++++++++++
 
-The admin user can view Cache Statistics of LoggedIn and any data source.
+The admin user can view Cache Statistics of LoggedIn and data source like Snowflake, Databricks.
 
 .. figure:: ../../_assets/security/admin_user/admin_cache_statistics.PNG
    :alt: security

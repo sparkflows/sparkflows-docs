@@ -273,7 +273,7 @@ Runtime Statistics
 
 The admin user can view total logged in users, total Fire Spark processes, total Fire PySpark processes & total running jobs.
 
-.. figure:: ../../_assets/security/runtime.PNG
+.. figure:: ../../_assets/security/admin_user/admin_statistics.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 

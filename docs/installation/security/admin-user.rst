@@ -207,9 +207,9 @@ Server Logs
 
 The admin user can view Fire server logs, Fire logs, Fire exception logs & Fire PySpark logs.
 
-.. figure:: ../../_assets/security/logs.PNG
+.. figure:: ../../_assets/security/admin_user/admin_logs.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
    
 Cleanup Data
 +++++++++++

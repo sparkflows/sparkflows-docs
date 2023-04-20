@@ -180,16 +180,6 @@ The admin user can view YARN APPLICATIONS if running on Spark Cluster with yarn.
    :alt: security
    :width: 70%
 
-Runtime Statistics
-++++++++++++++
-
-The admin user can view total logged in users, total Fire Spark processes, total Fire PySpark processes & total running jobs.
-
-.. figure:: ../../_assets/security/runtime.PNG
-   :alt: security
-   :width: 60%
-
-
 Sample Projects
 +++++++++++++
 
@@ -208,9 +198,9 @@ Global Connections
 
 The admin user can add connections which everyone can use and also connections at the group level.
 
-.. figure:: ../../_assets/security/connection.PNG
+.. figure:: ../../_assets/security/admin_user/admin_global.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 
 Server Logs
 ++++++++
@@ -242,6 +232,15 @@ Audit Report
 The admin user can view audit report of user login, logout & workflow modified.
 
 .. figure:: ../../_assets/security/audit_report.PNG
+   :alt: security
+   :width: 60%
+
+Runtime Statistics
+++++++++++++++
+
+The admin user can view total logged in users, total Fire Spark processes, total Fire PySpark processes & total running jobs.
+
+.. figure:: ../../_assets/security/runtime.PNG
    :alt: security
    :width: 60%
 

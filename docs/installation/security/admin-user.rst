@@ -285,3 +285,12 @@ The admin user can view total list of Scheduled jobs.
 .. figure:: ../../_assets/security/admin_user/admin_scheduler_statistics.PNG
    :alt: security
    :width: 70%
+
+Cache Statistics
+++++++++++++++
+
+The admin user can view Cache Statistics of LoggedIn and any data source.
+
+.. figure:: ../../_assets/security/admin_user/admin_cache_statistics.PNG
+   :alt: security
+   :width: 70%

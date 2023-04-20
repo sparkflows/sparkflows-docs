@@ -139,7 +139,7 @@ In Fire Insights, users cannot be deleted. But users can be made inactive.
 Superuser
 ---------
 
-A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user.
+A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user, Means it have same Administrative right.
      
 Details on the Admin user rights
 --------------------

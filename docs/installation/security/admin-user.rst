@@ -166,7 +166,7 @@ Usage Statistics
 
 The admin user can view total users, groups, roles, projects, workflows & workflows executions.
 
-.. figure:: ../../_assets/security/usgae_satatistics.PNG
+.. figure:: ../../_assets/security/admin_user/admin_usage_statistics.PNG
    :alt: security
    :width: 60%
    

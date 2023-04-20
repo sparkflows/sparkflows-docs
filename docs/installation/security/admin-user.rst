@@ -133,7 +133,7 @@ As regards the projects, the admin user can do the following:
 Deleting Users/Groups
 ++++++++++++++++++++
 
-In Fire Insights, users cannot be deleted. But users can be made inactive.
+In Fire Insights, users cannot be deleted, We can delete Groups. But users can be made inactive.
 
 
 Superuser

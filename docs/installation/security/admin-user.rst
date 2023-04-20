@@ -195,9 +195,13 @@ Sample Projects
 
 The admin user can reload sample projects, as by default Fire Insights comes with sample projects containing different types of workflows & datasets.
 
-.. figure:: ../../_assets/security/reload_sample.PNG
+.. figure:: ../../_assets/security/admin_user/admin_sample_project.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
+
+.. figure:: ../../_assets/security/admin_user/admin_sample_project_1.PNG
+   :alt: security
+   :width: 70%
 
 Global Connections
 +++++++++++++++++++

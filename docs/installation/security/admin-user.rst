@@ -235,11 +235,11 @@ The admin user can clean audit logs for cleaning the DB which is older than last
 Audit Report
 ++++++++++++
 
-The admin user can view audit report of user login, logout & workflow modified.
+The admin user can view, Download audit report of user login, logout & workflow modified.
 
-.. figure:: ../../_assets/security/audit_report.PNG
+.. figure:: ../../_assets/security/admin_user/admin_audit.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 
 Runtime Statistics
 ++++++++++++++

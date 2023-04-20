@@ -124,10 +124,10 @@ Projects/Data etc
 
 As regards the projects, the admin user can do the following:
 
-- View all the projects.
-- View the executions of all the workflows.
-- View the executions of all the analytical apps.
-- Create analytics app in any project.
+- View all the projects which admin user belongs.
+- View the executions of all the workflows which admin user belongs.
+- View the executions of all the analytical apps which admin user belongs.
+- Create analytics app in project which admin user belongs.
 
 
 Deleting Users/Groups

@@ -168,8 +168,18 @@ The admin user can view total users, groups, roles, projects, workflows & workfl
 
 .. figure:: ../../_assets/security/admin_user/admin_usage_statistics.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
    
+
+YARN APPLICATIONS
+++++++++++++++
+
+The admin user can view YARN APPLICATIONS if running on Spark Cluster with yarn.
+
+.. figure:: ../../_assets/security/admin_user/admin_yarn_application.PNG
+   :alt: security
+   :width: 70%
+
 Runtime Statistics
 ++++++++++++++
 
@@ -178,7 +188,8 @@ The admin user can view total logged in users, total Fire Spark processes, total
 .. figure:: ../../_assets/security/runtime.PNG
    :alt: security
    :width: 60%
-   
+
+
 Sample Projects
 +++++++++++++
 

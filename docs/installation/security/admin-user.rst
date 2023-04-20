@@ -10,7 +10,7 @@ Below are the permissions supported by Fire Insights:
 
 .. figure:: ../../_assets/security/admin_user/admin_role.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
      
      
 .. list-table:: 
@@ -113,11 +113,11 @@ In Fire Insights an admin user can do the following administration tasks:
 
 .. figure:: ../../_assets/security/admin_user/admin_user.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 
 .. figure:: ../../_assets/security/admin_user/admin_operations.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 
 Projects/Data etc
 +++++++++++++++++

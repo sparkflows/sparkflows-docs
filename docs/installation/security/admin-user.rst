@@ -241,6 +241,16 @@ The admin user can view, Download audit report of user login, logout & workflow 
    :alt: security
    :width: 70%
 
+Credential Store
++++++++++++++++++
+
+The admin user can add credential store. When creating connections, values like username/password etc. can be fetched from the credential store.
+
+.. figure:: ../../_assets/security/admin_user/admin_credentials.PNG
+   :alt: security
+   :width: 70%
+
+
 Runtime Statistics
 ++++++++++++++
 
@@ -250,11 +260,3 @@ The admin user can view total logged in users, total Fire Spark processes, total
    :alt: security
    :width: 60%
 
-Credential Store
-+++++++++++++++++
-
-The admin user can add credential store. When creating connections, values like username/password etc. can be fetched from the credential store.
-
-.. figure:: ../../_assets/security/credentialstore.PNG
-   :alt: security
-   :width: 60%

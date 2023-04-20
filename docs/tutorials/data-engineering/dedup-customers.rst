@@ -17,7 +17,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-wf.png
    :alt: DedupCustomers
-   :width: 55%
+   :width: 75%
    
 Input Datasets
 ---------------------
@@ -68,7 +68,7 @@ Entity Resolution or Data Matching is the problem of finding and linking differe
 
 * **Date Difference:** Calculates the number of days between two dates.
 
-* **Notional Distance:**
+* **Notional Distance:** Notional distance refers to the conceptual or abstract distance between two entities.
 
 
 

@@ -25,14 +25,12 @@ Below are the permissions supported by Fire Insights:
      - Create, modify & delete the group
    * - roles.manage
      - Create, modify & delete the roles  
+   * - configurations.manage
+     - modify diifferent configurations  
    * - projects.manage
      - Create, modify & delete the projects
-   * - configurations.manage
-     - modify diifferent configurations   
-   * - enable.projectShare
-     - enable project share permission
    * - connections.manage
-     - manage the connections
+     - manage the connections  
    * - credentialstores.manage
      - manage the credentialstores
    * - enable.tokenGeneration
@@ -59,12 +57,20 @@ Below are the permissions supported by Fire Insights:
      - execute analytics application
    * - apps.view
      - view analytics application
+   * - enable.projectShare
+     - enable project share permission  
    * - data.view
      - view data
    * - report.view
      - report view
    * - report.modify
      - report modify
+   * -  pipelines.view
+     - view  pipelines in specified project
+   * -  pipelines.modify
+     - modify  pipelines in specified project
+   * -  pipelines.execute
+     - execute  pipelines in specified project  
      
 Permissions for Admin User
 -------------

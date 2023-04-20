@@ -216,15 +216,21 @@ Cleanup Data
 
 The admin user can delete old workflow executions for cleaning the DB which is older than  last 7 days or older than last 30 days, older than  last 90 days & delete all executions.
 
-.. figure:: ../../_assets/security/clean-up-data.PNG
+.. figure:: ../../_assets/security/admin_user/admin_cleanup_1.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
+
+The admin user can delete old pipeline executions for cleaning the DB which is older than  last 7 days or older than last 30 days, older than  last 90 days & delete all executions.
+
+.. figure:: ../../_assets/security/admin_user/admin_cleanup_2.PNG
+   :alt: security
+   :width: 70%
 
 The admin user can clean audit logs for cleaning the DB which is older than last 7 days, older than last 30 days, older than last 90 days & delete all logs.
 
-.. figure:: ../../_assets/security/clean-up-audit.PNG
+.. figure:: ../../_assets/security/admin_user/admin_cleanup_3.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
 
 Audit Report
 ++++++++++++

@@ -277,3 +277,11 @@ The admin user can view total logged in users, total Fire Spark processes, total
    :alt: security
    :width: 70%
 
+Scheduler Statistics
+++++++++++++++
+
+The admin user can view total list of Scheduled jobs.
+
+.. figure:: ../../_assets/security/admin_user/admin_scheduler_statistics.PNG
+   :alt: security
+   :width: 70%

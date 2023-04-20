@@ -94,17 +94,22 @@ Operating Fire Insights
 
 In Fire Insights an admin user can do the following administration tasks:
 
+- Manage users, groups, permissions.
 - Configure Fire Insights.
 - Run diagnostics.
-- Manage users, groups, permissions.
+- Usage statistics.
+- View YARN Applications.
 - Load sample projects.
+- Manage Global Connections.
 - View server logs.
 - Cleanup data.
-- Usage statistics.
-- Runtime statistics.
-- Global connections.
-- Audit report.
-- Credential store.
+- View Audit Report.
+- Manage Credential store.
+- Test LDAP.
+- Backup DB (only H2 DB)
+- View Runtime statistics.
+- View Scheduler Statistics.
+- View Cache Statistics.
 
 .. figure:: ../../_assets/security/admin_user/admin_user.PNG
    :alt: security

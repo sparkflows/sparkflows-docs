@@ -1,0 +1,14 @@
+April 19 2023 (Version 3.2.8)
+==================================
+
+New Features:
+--------------
+* Ability to send SNS notitifcations from Airflow pipelines.
+* Ability to add custom parameters to Airflow DAG's like retry delay, timeout, email on failure, email on success.
+* Ability to add custom tags to the Airflow pipelines.
+
+Improvements:
+--------------
+
+* Ability to parameterize the Airflow Pipelines executions to enable Custom executions.
+* Ability to create pipelines which are environment agnostic and the same pipelines can be cconfigured to run on different environments.

@@ -11,15 +11,15 @@ Workflow for applying TimeFunctions
 
 In the sample workflow below, additional Date Time features are being created from the date column.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-wf.png
    :alt: Convert To Timestamps
-   :width: 60%
+   :width: 80%
    
 In the above workflow: 
 
-- The ``CSV`` processor reads in the CSV data from HDFS.
-- The ``StringToDate`` Processor converts the column Date, which is in string format to ``Timestamp``. 
-- The ``TimeFunctions`` Processor takes in the Timestamp Column and then applies various ``TimeFunctions`` to it to generate additional output columns.
+- The **CSV** processor reads in the CSV data from HDFS.
+- The **StringToDate** processor converts the column Date, which is in string format to **Timestamp**. 
+- The **TimeFunctions** processor takes in the **Timestamp Column** and then applies various TimeFunctions to it to generate additional output columns.
 
 Reading from Dataset
 ---------------------
@@ -29,16 +29,16 @@ It reads sample Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/read-config.png
    :alt: Convert To Timestamps
-   :width: 90%
+   :width: 80%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/8.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/read-output.png
    :alt: Convert To Timestamps
-   :width: 90%
+   :width: 80%
    
 Prints the sample Dataset Result
 ---------------------------------
@@ -49,19 +49,19 @@ It prints the result of the sample dataset available.
 Convert To Timestamps
 ---------------------
 
-It converts to Timestamps using ``StringToDate`` Node.
+It converts to Timestamps using **StringToDate** Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/9.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-config.png
    :alt: Convert To Timestamps
-   :width: 90% 
+   :width: 80% 
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/10.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-output.png
    :alt: Convert To Timestamps
    :width: 90%
    

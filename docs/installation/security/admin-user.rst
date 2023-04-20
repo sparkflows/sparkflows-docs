@@ -8,7 +8,7 @@ Permissions supported by Fire Insights
 
 Below are the permissions supported by Fire Insights:
 
-.. figure:: ../../_assets/security/role_permission.PNG
+.. figure:: ../../_assets/security/admin_user/admin_role.PNG
    :alt: security
    :width: 60%
      
@@ -100,7 +100,11 @@ In Fire Insights an admin user can do the following administration tasks:
 - Audit report.
 - Credential store.
 
-.. figure:: ../../_assets/security/admin_page.PNG
+.. figure:: ../../_assets/security/admin_user/admin_user.PNG
+   :alt: security
+   :width: 60%
+
+.. figure:: ../../_assets/security/admin_user/admin_operations.PNG
    :alt: security
    :width: 60%
 

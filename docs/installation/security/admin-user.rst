@@ -250,6 +250,14 @@ The admin user can add credential store. When creating connections, values like 
    :alt: security
    :width: 70%
 
+TEST LDAP
++++++++++++++++++
+
+The admin user can TEST LDAP configuration if its configured correctly or not (only when ldap properties file is updated)
+
+.. figure:: ../../_assets/security/admin_user/admin_ldap.PNG
+   :alt: security
+   :width: 70%
 
 Runtime Statistics
 ++++++++++++++

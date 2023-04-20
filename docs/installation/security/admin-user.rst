@@ -149,9 +149,17 @@ Diagnostics
 
 The admin user can view detailed informations about machine environments.
 
-.. figure:: ../../_assets/security/diagnostic.PNG
+.. figure:: ../../_assets/security/admin_user/admin_diagnostic_1.PNG
    :alt: security
-   :width: 60%
+   :width: 70%
+
+.. figure:: ../../_assets/security/admin_user/admin_diagnostic_2.PNG
+   :alt: security
+   :width: 70%
+   
+.. figure:: ../../_assets/security/admin_user/admin_diagnostic_3.PNG
+   :alt: security
+   :width: 70%
 
 Usage Statistics
 ++++++++++++++

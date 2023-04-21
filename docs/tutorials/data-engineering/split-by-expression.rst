@@ -41,12 +41,12 @@ Output DataFrame 1:
 
 Output DataFrame 2:
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_datafarme_2.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_dataframe_2.PNG
    :alt: Dataset
    :width: 85%
 
 Output DataFrame 3:
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_datafarme_3.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_dataframe_3.PNG
    :alt: Dataset
    :width: 85%   

@@ -10,7 +10,7 @@ Workflow
 * Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/6.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/validation-wf.png
    :alt: Data Validation
    :width: 65%
    
@@ -22,7 +22,7 @@ It reads data from a CSV File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/7.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/read-config.png
    :alt: Data Validation
    :width: 100%
    
@@ -30,7 +30,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/8.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/read-output.png
    :alt: Data Validation
    :width: 100%
    
@@ -42,7 +42,7 @@ It performs different validation on different columns.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/9.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/validation-config.png
    :alt: Data Validation
    :width: 100%
    
@@ -50,7 +50,7 @@ Processor Configuration
 Processor Output
 ^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/10.PNG
+.. figure:: ../../_assets/tutorials/data-cleaning/data-validation/validation-output.png
    :alt: Data Validation
    :width: 100%
 

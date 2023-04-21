@@ -24,19 +24,19 @@ The below workflow:
 * Reads data from a CSV File.
 * Performs specific validation on specific columns.
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multiple-wf.png
    :alt: Data Validation Multiple
-   :width: 65%
+   :width: 85%
    
 Reading from CSV File
 ---------------------
 
-``DatasetCSV`` Processor reads data from a CSV file. 
+DatasetCSV Processor reads data from a CSV file. 
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/read-config.png
    :alt: Data Validation Multiple
    :width: 85%
    
@@ -44,25 +44,25 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/read-output.png
    :alt: Data Validation Multiple
    :width: 85%
 
 String Functions
 ----------------
-``StringFunctions`` Processor performs specified operation on the selected column (i.e. trim function for column 'name' in this case).
+StringFunctions Processor performs specified operation on the selected column (i.e. trim function for column 'name' in this case).
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/string-config.png
    :alt: Data Validation Multiple
    :width: 85%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/string-output.png
    :alt: Data Validation Multiple
    :width: 85%
    
@@ -70,12 +70,12 @@ Processor Output
 Performing Validation
 ---------------------
 
-``ValidationMultiple`` Processor performs different validation on different columns.
+ValidationMultiple Processor performs different validation on different columns.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multi-config.png
    :alt: Data Validation Multiple
    :width: 85%   
 
@@ -83,7 +83,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multi-output.png
    :alt: Data Validation Multiple
    :width: 90% 
 
@@ -93,7 +93,7 @@ Prints the Valid Records
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/print-valid.png
    :alt: Data Validation Multiple
    :width: 90%  
 
@@ -104,7 +104,7 @@ Prints the Invalid Records
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/9.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/print-invalid.png
    :alt: Data Validation Multiple
    :width: 90%  
 

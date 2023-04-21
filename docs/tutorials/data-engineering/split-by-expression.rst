@@ -20,11 +20,11 @@ Workflow
 In the sample workflow above, ``Split By Multiple Expressions`` processor splits the incoming DataFrame into three output DataFrames. The three conditions are on column ``c1 - c1<3`` , ``c1>=3 and c1<5``, and ``c1>=5``. As mentioned earlier, ``SplitByMultipleExpressions`` can split incoming DataFrame in up to five DataFrames. 
 
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/5.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_config.PNG
    :alt: Dataset
    :width: 85%
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/6.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_output.PNG
    :alt: Dataset
    :width: 85%
 
@@ -35,18 +35,18 @@ For the sample workflow, the three output DataFrames as per condition passed on 
 
 Output DataFrame 1:
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/7.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_datafarme_1.PNG
    :alt: Dataset
    :width: 85%
 
 Output DataFrame 2:
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/8.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_datafarme_2.PNG
    :alt: Dataset
    :width: 85%
 
 Output DataFrame 3:
 
-.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/9.PNG
+.. figure:: ../../_assets/tutorials/data-preparation/Split-Dataset-By-Expression/split_datafarme_3.PNG
    :alt: Dataset
    :width: 85%   

@@ -476,13 +476,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Identifies Skewness and Kurtosis in the selected columns using Skewness And Kurtosis node. 
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-workflow.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-wf.png
    :alt: dataexploration_userguide
    :width: 60%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-input.png
    :alt: dataexploration_userguide
    :width: 75%
 
@@ -502,7 +502,7 @@ Skewness And Kurtosis node is configured as below.
 
 Output of Skewness And Kurtosis node displaying Skewness And Kurtosis values for the selected columns.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-output.png
    :alt: dataexploration_userguide
    :width: 75%       	    
    

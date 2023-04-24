@@ -326,7 +326,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-wf.png
    :alt: datavisualization_userguide
-   :width: 60%
+   :width: 75%
    
 **Incoming Dataset**
 

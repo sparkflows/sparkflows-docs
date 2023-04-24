@@ -11,16 +11,16 @@ The below workflow:
 * Reads in the input housing data.
 * Visualize housing data using BoxPlot.
 
-.. figure:: ../../_assets/tutorials/visualization/8.PNG
+.. figure:: ../../_assets/tutorials/visualization/box-plot-wf.png
    :alt: Visualization
-   :width: 55%
+   :width: 75%
    
 Reading from Dataset
 ---------------------
 
 It reads the Dataset Files.
 
-.. figure:: ../../_assets/tutorials/visualization/6.PNG
+.. figure:: ../../_assets/tutorials/visualization/subplots-input.png
    :alt: Visualization
    :width: 75%
 
@@ -29,13 +29,13 @@ Visualize using Boxplot
 
 It plots graph with BoxPlot node.
 
-.. figure:: ../../_assets/tutorials/visualization/9.PNG
+.. figure:: ../../_assets/tutorials/visualization/box-plot-config.png
    :alt: Visualization
    :width: 75%
 
 Output result
 -------------
 
-.. figure:: ../../_assets/tutorials/visualization/10.PNG
+.. figure:: ../../_assets/tutorials/visualization/box-plot-output.png
    :alt: Visualization
    :width: 75%

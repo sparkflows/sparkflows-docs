@@ -13,9 +13,9 @@ The below workflow:
 * Distribution of data by Month.
 * Distribution of data by Year.
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/6.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/graph-distribution-wf.png
    :alt: Distribution Graphs
-   :width: 55%
+   :width: 70%
    
 Reading CSV file
 ---------------------
@@ -25,70 +25,70 @@ It reads CSV files.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/7.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/read-config.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/8.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/read-output.png
    :alt: Distribution Graphs
-   :width: 65%    
+   :width: 70%    
    
 Distribution of data by Week
 ----------------------------
 
-It plots graphs of distribution of data by Week using ``GraphWeekDistribution Node``.
+It plots graphs of distribution of data by Week using **GraphWeekDistribution Node**.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/11.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/week-config.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/10.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/week-output.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%
    
 Distribution of data by Month
 -----------------------------
 
-It plots graphs of distribution of data by month using ``GraphMonthDistribution Node``.
+It plots graphs of distribution of data by month using **GraphMonthDistribution Node**.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/12.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/month-config.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%
    
 Processor Output
 ^^^^^^
    
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/13.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/month-output.png
    :alt: Distribution Graphs
-   :width: 65%   
+   :width: 70%   
    
 Distribution of data by Year
 ----------------------------
 
-It plots graphs of distribution of data by year using ``GraphYearDistribution Node``.
+It plots graphs of distribution of data by year using **GraphYearDistribution Node**.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/14.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/year-config.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/15.PNG
+.. figure:: ../../_assets/tutorials/analytics/distribution-graphs/year-output.png
    :alt: Distribution Graphs
-   :width: 65%
+   :width: 70%

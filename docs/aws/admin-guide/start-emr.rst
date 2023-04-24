@@ -34,7 +34,16 @@ Below are steps on how to create an EMR Cluster using AWS Console:
 
 7. Under ``Cluster logs``, select the Publish cluster-specific logs to Amazon S3 check box. Replace the ``Amazon S3 location`` value with the Amazon S3 bucket you created, followed by /logs. For example, s3://DOC-EXAMPLE-BUCKET/logs. Adding /logs creates a new folder called 'logs' in your bucket, where Amazon EMR can copy the log files of your cluster.
 
+
+.. figure:: ../../_assets/aws/emr/aws_emr_logs.PNG
+         :alt: emr
+         :width: 60%
+
 8. Under ``Security configuration and permissions``, choose your ``EC2 key pair``. In the same section, select the ``Service role for Amazon EMR`` dropdown menu and choose ``EMR_DefaultRole``. Then, select the ``IAM role for instance profile`` dropdown menu and choose ``EMR_EC2_DefaultRole``
+
+.. figure:: ../../_assets/aws/emr/aws_emr_role.PNG
+         :alt: emr
+         :width: 60%
 
 9. Choose ``Create cluster`` to launch the cluster and open the cluster details page.
 

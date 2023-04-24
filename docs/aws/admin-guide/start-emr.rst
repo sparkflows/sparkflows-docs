@@ -3,12 +3,7 @@ Start EMR Cluster
 
 Fire Insights can submit jobs to AWS EMR cluster. This page describes the details of launching and EMR cluster on AWS.
 
-There are different ways to create EMR Cluster:
-
-1. Using AWS Console.
-2. Using CloudFormation Template.
-
-Below are steps on how to create an EMR Cluster:
+Below are steps on how to create an EMR Cluster using AWS Console:
 
 1. Sign in to the AWS Management Console, and open the Amazon EMR console at https://console.aws.amazon.com/emr
 

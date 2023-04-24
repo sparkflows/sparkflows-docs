@@ -11,6 +11,8 @@ Enable Swagger by adding the following line next to application.properties :
 ::
 
     swagger.enable=true
+    fire.cors.enable=true
+    fire.security.csrf.enable=false
 
 2. Enable it from configurations page.
 

@@ -3,14 +3,14 @@ Building Apache Spark Workflows
 
 Below is a Spark ML workflow which trains a Classification Model for Churn prediction on Telco data.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-wf.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction.png
    :alt: Machine Learning
    :width: 70%
 
 The standard flow to build a predictive Spark ML workflow is enlisted as below.
 
 * Read in the Data.
-	-	Multiple Connectors and Read-Structured nodes are available to read dataset. ``Read CSV`` is one of the common node to read data in CSV format.
+	-	Multiple Connectors and Read-Structured nodes are available to read dataset. Read CSV is one of the common node to read data in CSV format.
 	- 	It is advisable to have data validated and processed. This step is important to ensure that ML Workflow don't break while processing and only the selected features are being processed.
 * Perform Feature Engineering.
 	-	Various Feature Engineering steps can be executed to ensure that right set of Features have been created to build a stable and accurate model.

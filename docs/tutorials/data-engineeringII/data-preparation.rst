@@ -12,12 +12,12 @@ Below is the workflow. It does the following:
 
 * Reads data from the dataset.
 * Converts a string column to date using the given date or time format.
-* Sets values for the column ``State`` based on conditions.
+* Sets values for the column **State** based on conditions.
 * Creates a new DataFrame containing only rows satisfying given condition(s).
 * Prints the results of few records.
 
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/1.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/adv-data-prep-wf.png
    :alt: DataPreparation
    :width: 75%
    
@@ -30,7 +30,7 @@ It reads in the input Dataset file.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture2.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dataset-config.png
    :alt: DataPreparation
    :width: 75%
    
@@ -38,7 +38,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture3.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dataset-output.png
    :alt: DataPreparation
    :width: 75%  
    
@@ -46,19 +46,19 @@ Processor Output
 Drop Rows with Null
 ------------
 
-``DropRowsWithNull`` drops all null rows.
+**DropRowsWithNull** drops all null rows.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture4.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dropnullrows-config.png
    :alt: DataPreparation
    :width: 75%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture5.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/droprowswithnull-output.png
    :alt: DataPreparation
    :width: 75%
   
@@ -66,31 +66,31 @@ Processor Output
 Filter by String Length
 ------------
 
-``FilterByStringLength`` filters a specified string column between a maximum and minimum string length.
+**FilterByStringLength** filters a specified string column between a maximum and minimum string length.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture6.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/filterbystringlth-config.png
    :alt: DataPreparation
    :width: 75%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture7.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/filterbystringlth-output.png
    :alt: DataPreparation
    :width: 75%
    
 Convert `Age` to `Integer`
 ------------
 
-``CastColumnType`` casts selected rows to a different data type.
+**CastColumnType** casts selected rows to a different data type.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture8.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/convrtagetoint-config.png
    :alt: DataPreparation
    :width: 75%
    
@@ -98,7 +98,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture9.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/convrtagetoint-output.png
    :alt: DataPreparation
    :width: 75%
    
@@ -106,12 +106,12 @@ Processor Output
 Get Rows of Interest
 ------------
 
-``RowFilter`` outputs a new dataset given a conditional statement.
+**RowFilter** outputs a new dataset given a conditional statement.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture10.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/getrowsofint-config.png
    :alt: DataPreparation
    :width: 75%
    
@@ -119,7 +119,7 @@ Processor Configuration
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/Capture11.png
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/getrowsofint-output.png
    :alt: DataPreparation
    :width: 75%
 

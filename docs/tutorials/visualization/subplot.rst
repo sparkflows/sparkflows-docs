@@ -11,16 +11,16 @@ The below workflow:
 * Reads in the input housing data.
 * Visualize housing data using subplot.
 
-.. figure:: ../../_assets/tutorials/visualization/5.PNG
+.. figure:: ../../_assets/tutorials/visualization/sub-plots-wf.png
    :alt: Visualization
-   :width: 60%
+   :width: 75%
    
 Reading from Dataset
 ---------------------
 
 It reads the Dataset Files.
 
-.. figure:: ../../_assets/tutorials/visualization/6.PNG
+.. figure:: ../../_assets/tutorials/visualization/subplots-input.png
    :alt: Visualization
    :width: 75%
 
@@ -29,13 +29,13 @@ Visualize using subplot
 
 It plots multiple parameter graph simultaneously using subplot node.
 
-.. figure:: ../../_assets/tutorials/visualization/7.PNG
+.. figure:: ../../_assets/tutorials/visualization/sub-plots-config.png
    :alt: Visualization
    :width: 75%
 
 Output result
 -------------
 
-.. figure:: ../../_assets/tutorials/visualization/4.PNG
+.. figure:: ../../_assets/tutorials/visualization/graph-subplots-output-blue.png
    :alt: Visualization
    :width: 75%

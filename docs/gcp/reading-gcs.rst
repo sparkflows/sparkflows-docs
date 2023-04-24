@@ -14,7 +14,7 @@ Fire Insights has processor to read from BigQuery Tables.
 - In the data connectors, search for File Reader Nodes like ``Read CSV``, ``Read Parquet``, ``Read JSON`` etc. 
 - Drag and drop it to the workflow editor.
 
-.. figure:: ../_assets/gcp/read-gcs.png
+.. figure:: ../_assets/gcp/read_gcs1.png
    :alt: Read Files from GCS
    :width: 40%
    
@@ -22,9 +22,10 @@ Fire Insights has processor to read from BigQuery Tables.
 ++++++++++++++++++++++++++++++++
 
 - For example, double click on the selected File Reader Nodes like ``Read CSV``, ``Read Parquet``, ``Read JSON`` etc.
-- Configure the table connection. Once you've configured, make sure to click on the ``Refresh Schema`` button to fetch the schema. 
+- Select the required file and specify the file specific properties. In ``Read CSV` node, you have to specify how the csv data can be extracted.
+- Once you've configured, make sure to click on the ``Refresh Schema`` button to fetch the schema. 
 
 
-.. figure:: ../_assets/gcp/configure-gcs.png
+.. figure:: ../_assets/gcp/configure_gcs1.png
    :alt: Configure GCS File Reader Node
    :width: 40%

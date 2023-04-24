@@ -9,6 +9,12 @@ Below are steps on how to create an EMR Cluster using AWS Console:
 
 2. Under ``EMR on EC2`` in the left navigation pane, choose ``Clusters``, and then choose ``Create cluster``.
 
+.. figure:: ../../_assets/aws/emr/aws_emr_create.PNG
+         :alt: emr
+         :width: 60%
+
+
+
 3. On the ``Create Cluster`` page, note the default values for ``Release, Instance type, Number of instances, and Permissions``. These fields automatically populate with values that work for general-purpose clusters.
 
 4. In the ``Cluster name`` field, enter a unique cluster name to help you identify your cluster, such as ``My first cluster``.

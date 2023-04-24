@@ -11,9 +11,7 @@ Enable Swagger by adding the following line next to application.properties :
 ::
 
     swagger.enable=true
-    fire.cors.enable=true
-    fire.security.csrf.enable=false
-
+    
 2. Enable it from configurations page.
 
 Once the above configurations are updated and the Fire server gets restarted, login to the Fire Insights application and enable the following configurations :

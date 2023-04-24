@@ -21,6 +21,11 @@ Below are steps on how to create an EMR Cluster using AWS Console:
 
 5. Under ``Applications``, choose the ``Spark`` option to install Spark on your cluster.
 
+.. figure:: ../../_assets/aws/emr/aws_cluster_details.PNG
+         :alt: emr
+         :width: 60%
+
+
 6. Use bootstrap actions to install software or customize your instance configuration.
 
 7. Under ``Cluster logs``, select the Publish cluster-specific logs to Amazon S3 check box. Replace the ``Amazon S3 location`` value with the Amazon S3 bucket you created, followed by /logs. For example, s3://DOC-EXAMPLE-BUCKET/logs. Adding /logs creates a new folder called 'logs' in your bucket, where Amazon EMR can copy the log files of your cluster.

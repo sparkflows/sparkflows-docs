@@ -31,12 +31,12 @@ Data Quality Processors in Fire Insights
 Expect Column Values To Be In Between
 --------
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween** processor in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column entries lie between the specified minimum and maximum values (both values inclusive).
+Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween** processor in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column entries lie between the specified range (i.e., between specified minimum and maximum values).
 
 It does the following processing of data:
 
 * Reads the incoming dataset.
-* Validates the columns with entries to be between the specified range (i.e., minimum and maximum values).
+* Validates the columns with entries to be between the specified range.
 * Prints the output using the print node.
 
 ExpectColumnValuesToBeInBetween Node Sample Workflow
@@ -56,7 +56,7 @@ Incoming Dataset
 ExpectColumnValuesToBeInBetween Node Configuration
 =======
 
-ExpectColumnValuesToBeInBetween Node is configured as below.
+**Configuration Details:**
 
 * Input of this node is the incoming dataset.
 * Column(s) for which the values need to be checked against the specified range is to be selected in the variables column.

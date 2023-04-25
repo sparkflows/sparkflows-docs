@@ -26,6 +26,11 @@ Fire Insights has processor to read from BigQuery Tables.
 - Once you've configured, make sure to click on the ``Refresh Schema`` button to fetch the schema. 
 
 
-.. figure:: ../_assets/gcp/configure_gcs1.png
+3. Run the Workflow in Dataproc Cluster
+++++++++++++++++++++++++++++++++
+
+- Execute the workflow in Dataproc to read the data from GCS. 
+
+.. figure:: ../_assets/gcp/gcp_workflow1.jpg
    :alt: Configure GCS File Reader Node
    :width: 40%

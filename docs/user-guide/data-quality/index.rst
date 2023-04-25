@@ -6,8 +6,8 @@ Fire Insights provides powerful capabilities for monitoring data quality. It pro
 Data Quality Processors in Fire Insights
 ------
 
-.. list-table:: **Great Expectations based Data Quality Processors in Fire Insights**
-   :widths: 50 50
+.. list-table:: Great Expectations based Data Quality Processors in Fire Insights
+   :widths: 30 50
    :header-rows: 1
 
    * - Title
@@ -31,7 +31,7 @@ Data Quality Processors in Fire Insights
 Expect Column Values To Be In Between
 --------
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween** processor in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column entries lie between the specified range (i.e., between specified minimum and maximum values).
+Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column entries lie between the specified range (i.e., between specified minimum and maximum values).
 
 It does the following processing of data:
 

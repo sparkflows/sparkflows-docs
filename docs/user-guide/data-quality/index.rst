@@ -301,6 +301,7 @@ Expect Column Value Lengths To Equal
 Below is a sample workflow which contains **ExpectColumnValueLengthsToEqual processor** in Fire Insights. It demonstrates the usage of ExpectColumnValueLengthsToEqual node to validate whether the length of the selected column entries match the specified length.
 
 It does the following processing of data:
+
 * Reads the incoming dataset.
 * Validates the columns with entries to have length equal to the specified length.
 * Prints the output using the print node.
@@ -350,6 +351,7 @@ Expect Column Value Length To Be In Between
 Below is a sample workflow which contains **ExpectColumnValueLengthToBeInBetween processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValueLengthToBeInBetween node to validate the data on the basis of specified range of value length of the column in the input dataset.
 
 It does the following processing of data:
+
 * Reads the incoming dataset.
 * Validates the data on the basis of length of column value that falls within the specified range.
 * Prints the output using the print node.
@@ -396,6 +398,7 @@ Expect Column Values To Be In Set
 Below is a sample workflow which contains **ExpectColumnValuesToBeInSet processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInSet node to to validate whether the values in a specified column of a dataset are present in a given set of expected values.
 
 It does the following processing of data:
+
 * Reads the incoming dataset.
 * Validates the columns with entries to exist in the specified set of values.
 * Prints the output using the print node.
@@ -445,6 +448,7 @@ Expect Column Values To Match Regex
 Below is a sample workflow which contains **ExpectColumnValuesToMatchRegex processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToMatchRegex node to validate the data on the basis that the selected column(s) values match a specified regular expression pattern.
 
 It does the following processing of data:
+
 * Reads the incoming dataset.
 * Validates the selected column(s) on the basis of matching them with a specified regular expression pattern.
 * Prints the output using the print node.
@@ -493,6 +497,7 @@ Expect Column Values To Match Strftimeformat
 Below is a sample workflow which contains **ExpectColumnValuesToMatchStrftimeFormat processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValuesToMatchStrftimeFormat node to validate the data on the basis that the selected column(s) values match a specified strftime format.
 
 It does the following processing of data:
+
 * Reads the incoming dataset.
 * Validates the selected column(s) values for matching a specified strftime format.
 * Prints the output using the print node.

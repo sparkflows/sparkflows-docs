@@ -4,7 +4,7 @@ Data Quality
 Fire Insights provides powerful capabilities for monitoring data quality. It provides for various processors that aid in validation of data to ensure that only high quality, reliable, and accurate data is fed into the process of analysis, reporting, and decision-making.
 
 Data Quality Processors in Fire Insights
-------
++++++
 
 .. list-table:: Great Expectations based Data Quality Processors in Fire Insights
    :widths: 30 50
@@ -29,7 +29,7 @@ Data Quality Processors in Fire Insights
 	
 
 Expect Column Values To Be In Between
---------
++++++
 
 Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column entries lie between the specified range (i.e., between specified minimum and maximum values).
 

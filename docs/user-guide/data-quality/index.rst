@@ -309,17 +309,8 @@ It does the following processing of data:
 ExpectColumnValueLengthsToEqual Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-equal-WF.png
-   :alt: data-quality-userguide 	
-   :width: 75%
-
 Incoming Dataset
 ======
-
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-equal-input.png
-   :alt: data-quality-userguide 	
-   :width: 75%
-
 
 ExpectColumnValueLengthsToEqual Node Configuration
 ========
@@ -329,10 +320,6 @@ ExpectColumnValueLengthsToEqual Node Configuration
 * Specified length against which each column entry's length needs to be validated is to be entered in the ``value`` column for each selected column.
 * The percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-equal-config.png
-   :alt: data-quality-userguide 	
-   :width: 75%
-
 
 ExpectColumnValueLengthsToEqual Node Output
 =========
@@ -341,10 +328,6 @@ The output of this node would produce the following results:
 
 * If the expectation is met (i.e. all values in the column have length equal to the specified length), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column has length different from the specified length), then the processor would return the value of the ``success`` column as **False**.
-
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-equal-output.png
-   :alt: data-quality-userguide 	
-   :width: 75%
    
 Expect Column Value Length To Be In Between
 +++++++

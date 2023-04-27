@@ -39,7 +39,7 @@ The workflow achieves the following tasks:
 
 The workflow is shown below:
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/1.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/retail-data-preparation-WF.png
    :alt: Dataset
    :width: 75%
    
@@ -76,7 +76,7 @@ Use the CaseWhen node for processing the IsHoliday column.
 
 * WHENCONDITION IS : IsHoliday  == 'TRUE' Value is 0 ELSE Value is 1
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/case-when-config.png
    :alt: Dataset
    :width: 75%
    
@@ -87,7 +87,7 @@ FlagOutlier
 * LOWERQUANTILE : Select Lowerqantile value.
 * UPPERQUANTILE : Select Upperquantile value.
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/flag-outlier-config.png
    :alt: Dataset
    :width: 75%
 

@@ -14,8 +14,8 @@ The below workflow:
 * Creates a matrix to show the correlation between important variables.
 * Flags outliers in Ground Living Area and graphs the results.
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/1.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/housing-data-explore-WF.png
+   :alt: housing-data-exploration
    :width: 65%
    
 Reading Housing Dataset
@@ -26,8 +26,8 @@ Reading Housing Dataset
 Processor Output
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/2.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/housing-input.png
+   :alt: housing-data-exploration
    :width: 65%
    
 
@@ -39,15 +39,15 @@ Calculate Summary Statistics
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/3.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/summary-config.png
+   :alt: housing-data-exploration
    :width: 65%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/4.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/summary-output.png
+   :alt: housing-data-exploration
    :width: 65%
 
 
@@ -59,15 +59,15 @@ Create Histogram Graph
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/5.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/histogram-config.png
+   :alt: housing-data-exploration
    :width: 65%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/6.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/histogram-output.png
+   :alt: housing-data-exploration
    :width: 65%
    
 Graph Values
@@ -78,16 +78,16 @@ Graph Values
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/7.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/graphvalues-config.png
+   :alt: housing-data-exploration
    :width: 65%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/8.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/graphvalues-output.png
+   :alt: housing-data-exploration
    :width: 65%
 
 Plot Correlation Matrix
@@ -99,16 +99,16 @@ Plot Correlation Matrix
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/11.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/correlation-config.png
+   :alt: housing-data-exploration
    :width: 65%
 
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/10.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/correlation-output.png
+   :alt: housing-data-exploration
    :width: 65%
 
 
@@ -121,15 +121,15 @@ Flag Outliers and Create Graph
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/9.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/flag-outlier-config.png
+   :alt: housing-data-exploration
    :width: 65%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/12.PNG
-   :alt: titanic-data-cleaning
+.. figure:: ../../_assets/tutorials/data-engineering/data-exploration-housing-data/graphgroup-output.png
+   :alt: housing-data-exploration
    :width: 65%
    
    

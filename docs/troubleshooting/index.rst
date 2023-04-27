@@ -1,7 +1,7 @@
 Troubleshooting Guide
 ==============
 
-The first step in troubleshooting issues with Fire Insights is to identify what kinds of issue you are having.
+The first step to troubleshoot issues with Fire Insights is to identify what kinds of issue you are having.
 
 Below are steps for troubleshooting some of the common issues.
 
@@ -11,97 +11,103 @@ Below are steps for troubleshooting some of the common issues.
     
     :doc:`/troubleshooting/testing-environment`
     
-    Steps to troubleshooting the testing environmnet
+    Steps to troubleshoot the testing environmnet
     
     ---
     
     :doc:`/troubleshooting/installation`
     
-    Steps to troubleshooting installation
+    Steps to troubleshoot installation
     
     ---
     
     :doc:`/troubleshooting/python`
     
-    Steps to troubleshooting python
+    Steps to troubleshoot python
     
     ---
     
     :doc:`/troubleshooting/upgrade`
     
-    Steps to troubleshooting upgrades
+    Steps to troubleshoot upgrades
     
     ---
     
     :doc:`/troubleshooting/h2-db`
     
-    Steps to troubleshooting h2-db
+    Steps to troubleshoot h2-db
     
     ---
     
     :doc:`/troubleshooting/running-workflows`
     
-    Steps to troubleshooting running workflows
+    Steps to troubleshoot running workflows
     
     ---
     
     :doc:`/troubleshooting/logs`
     
-    Steps to troubleshooting logs
+    Steps to troubleshoot logs
     
     ---
     
     :doc:`/troubleshooting/ldap`
     
-    Steps to troubleshooting ldap
+    Steps to troubleshoot ldap
     
     ---
     
     :doc:`/troubleshooting/databricks`
     
-    Steps to troubleshooting databricks
+    Steps to troubleshoot databricks
     
     ---
     
     :doc:`/troubleshooting/assume_role`
     
-    Steps to troubleshooting assume role
+    Steps to troubleshoot assume role
   
     ---
     
     :doc:`/troubleshooting/postbackurl`
     
-    Steps to troubleshooting postbackurl
+    Steps to troubleshoot postbackurl
     
     ---
     
     :doc:`/troubleshooting/github`
     
-    Steps to troubleshooting Github  
+    Steps to troubleshoot Github  
     
      ---
     
     :doc:`/troubleshooting/pipelines`
     
-    Steps to troubleshooting Pipelines
+    Steps to troubleshoot Pipelines
     
     ---
     
     :doc:`/troubleshooting/websockets`
     
-    Steps to troubleshooting Websockets
+    Steps to troubleshoot Websockets
 
     ---
     
     :doc:`/troubleshooting/https`
     
-    Steps to troubleshooting HTTPS
+    Steps to troubleshoot HTTPS
 
     ---
     
     :doc:`/troubleshooting/networking`
     
-    Steps to troubleshooting Networking
+    Steps to troubleshoot Networking
+    
+    ---
+    
+    :doc:`/troubleshooting/scheduler`
+    
+    Steps to troubleshoot Scheduler
     
 .. toctree::
    :hidden:
@@ -122,6 +128,7 @@ Below are steps for troubleshooting some of the common issues.
    websockets.rst
    https.rst
    networking.rst
+   scheduler.rst
    
    
    

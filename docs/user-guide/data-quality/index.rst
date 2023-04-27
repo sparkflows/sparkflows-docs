@@ -7,7 +7,7 @@ Data Quality Processors in Fire Insights
 +++++++
 
 .. list-table:: Great Expectations based Data Quality Processors in Fire Insights
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 1
 
    * - Title
@@ -47,7 +47,7 @@ Data Quality Processors in Fire Insights
 Expect Column Values To Be In Between
 +++++++
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween** processor in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column values fall between the specified minimum and maximum values (both values inclusive).
+Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column values fall between the specified minimum and maximum values (both values inclusive).
 
 It does the following processing of data:
 
@@ -60,14 +60,14 @@ ExpectColumnValuesToBeInBetween Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-betwn-WF.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
    
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/input-data.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValuesToBeInBetween Node Configuration
 =======
@@ -81,9 +81,9 @@ ExpectColumnValuesToBeInBetween Node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-config.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
    
-ExpectColumnValuesToBeInBetween Node output
+ExpectColumnValuesToBeInBetween Node Output
 =======
 
 The Output of this node would produce the following results:
@@ -93,7 +93,7 @@ The Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-output.png
    :alt: data-quality-userguide
-   :width: 75% 
+   :width: 80% 
    
 
 Expect Column Values To Be Null
@@ -112,25 +112,25 @@ ExpectColumnValuesToBeNull Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-WF.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
    
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-input.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValuesToBeNull Node Configuration
 =======
 
 * Input of this node is the incoming dataset.
 * Column(s) which need to be validate for the presence of NULL values is(are) to be selected in the ``Column Name`` drop-down box.
-* Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has NULL values). If it is left blank then it would validate the data only when all the column values match the given expectation i.e. by default it takes "1" as the value.
+* Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has NULL values). If it is left blank then it would validate the data only when all the column values match the given expectation i.e. by default, it takes "1" as the value.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-config.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
    
 ExpectColumnValuesToBeNull Node Output
 =======
@@ -138,12 +138,11 @@ ExpectColumnValuesToBeNull Node Output
 The Output of this node would produce the following results:
 
 * If the expectation is met (i.e. the given percentage of data has NULL values), then the processor would return value of the ``success`` column as **True**.
-* If the expectation is not met (i.e. the given percentage of data does not have any NULL values), then the processor would return the value of the ``success`` column as **False**. In this case, the false count and percentage would also be displayed in the result.
-
+* If the expectation is not met (i.e. the given percentage of data does not have any NULL values), then the processor would return the value of the ``success`` column as **False**. 
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-output01.png
    :alt: data-quality-userguide
-   :width: 75% 
+   :width: 80% 
    
 
 
@@ -163,7 +162,7 @@ ExpectColumnValuesToBeUnique Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-WF.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 Incoming Dataset
@@ -171,7 +170,7 @@ Incoming Dataset
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 ExpectColumnValuesToBeUnique Node Configuration
@@ -179,11 +178,11 @@ ExpectColumnValuesToBeUnique Node Configuration
 
 * Input of this node is the incoming dataset.
 * Column(s) for which the uniqueness of values need to be checked is(are) to be selected in the ``Column Name`` drop-down box.
-* Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has unique values). If left blank, then it would validate the data only when all the column values match the given expectation i.e. by default it takes "1" as the value.
+* Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has unique values). If left blank, then it would validate the data only when all the column values match the given expectation i.e. by default, it takes "1" as the value.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-config.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 ExpectColumnValuesToBeUnique Node Output
@@ -197,10 +196,10 @@ The Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-output.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
-Expect Column Values To NOt Be Null
+Expect Column Values To Not Be Null
 ++++++++
 
 Below is a sample workflow which contains the **ExpectColumnValuesToNotBeNull processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValuesToNotBeNull node to validate the absence of null values in specified columns of the input dataset.
@@ -214,7 +213,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-WF.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 Incoming Dataset
@@ -222,7 +221,7 @@ Incoming Dataset
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 ExpectColumnValuesToNotBeNull Node Configuration
@@ -234,7 +233,7 @@ ExpectColumnValuesToNotBeNull Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-config.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 
@@ -249,7 +248,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-output.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 Expect Table Row Count To Be Between
 +++++++++
@@ -264,24 +263,24 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-WF.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 ExpectTableRowCountToBeBetween Node Configuration
 ===========
 
 * The input of this node is the incoming dataset.
-* The minimum and maximum row count values are to be specified under the "Min Count" and "Max Count" boxes respectively.
+* The minimum and maximum row count values have to be specified under the ``Min Count`` and ``Max Count`` boxes respectively.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-config.png
    :alt: data-quality-userguide
-   :width: 75%
+   :width: 80%
 
 
 ExpectTableRowCountToBeBetween Node Output
@@ -294,7 +293,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-output.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Expect Column Value Lengths To Equal
 +++++++
@@ -309,8 +308,16 @@ It does the following processing of data:
 ExpectColumnValueLengthsToEqual Node Sample Workflow
 =========
 
+.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-WF.png
+   :alt: data-quality-userguide 	
+   :width: 80%
+
 Incoming Dataset
 ======
+
+.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-input.png
+   :alt: data-quality-userguide 	
+   :width: 80%
 
 ExpectColumnValueLengthsToEqual Node Configuration
 ========
@@ -320,6 +327,10 @@ ExpectColumnValueLengthsToEqual Node Configuration
 * Specified length against which each column entry's length needs to be validated is to be entered in the ``value`` column for each selected column.
 * The percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column.
 
+.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-config.png
+   :alt: data-quality-userguide 	
+   :width: 80%
+
 
 ExpectColumnValueLengthsToEqual Node Output
 =========
@@ -328,7 +339,11 @@ The output of this node would produce the following results:
 
 * If the expectation is met (i.e. all values in the column have length equal to the specified length), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column has length different from the specified length), then the processor would return the value of the ``success`` column as **False**.
-   
+
+.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-output.png
+   :alt: data-quality-userguide 	
+   :width: 80%
+
 Expect Column Value Length To Be In Between
 +++++++
 Below is a sample workflow which contains **ExpectColumnValueLengthToBeInBetween processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValueLengthToBeInBetween node to validate the data on the basis of specified range of value length of the column in the input dataset.
@@ -344,14 +359,14 @@ ExpectColumnValueLengthToBeInBetween Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-WF.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
    
 Incoming Dataset
 ======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-input.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
    
 ExpectColumnValueLengthToBeInBetween Node Configuration
 ======
@@ -362,7 +377,7 @@ ExpectColumnValueLengthToBeInBetween Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-config.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValueLengthToBeInBetween Node Output
 ++++++
@@ -374,7 +389,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-output.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Expect Column Values To Be In Set
 +++++++
@@ -391,14 +406,14 @@ ExpectColumnValuesToBeInSet Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-WF.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-input.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 
 ExpectColumnValuesToBeInSet Node Configuration
@@ -411,7 +426,7 @@ ExpectColumnValuesToBeInSet Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-config.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValuesToBeInSet Node Output
 ========
@@ -423,7 +438,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-output.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Expect Column Values To Match Regex
 +++++++
@@ -441,14 +456,14 @@ ExpectColumnValuesToMatchRegex Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-WF.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Incoming Dataset
 ==========
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-input.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValuesToMatchRegex Node Configuration
 =========
@@ -460,7 +475,7 @@ ExpectColumnValuesToMatchRegex Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-config.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 ExpectColumnValuesToMatchRegex Node Output
 ========
@@ -473,7 +488,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-output.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 Expect Column Values To Match Strftimeformat
 +++++++
@@ -490,14 +505,14 @@ ExpectColumnValuesToMatchStrftimeFormat Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-WF.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
    
 Incoming Dataset
 ======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-input.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 =========
@@ -509,7 +524,7 @@ ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-config.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Output
 ========
@@ -522,7 +537,7 @@ Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-output.png
    :alt: data-quality-userguide 	
-   :width: 75%
+   :width: 80%
 
 
 

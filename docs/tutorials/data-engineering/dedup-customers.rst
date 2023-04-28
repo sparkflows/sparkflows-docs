@@ -17,7 +17,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-wf.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
 Input Datasets
 ---------------------
@@ -29,7 +29,7 @@ Dataset 1:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dataset01.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
    
 Dataset 2:
@@ -37,7 +37,7 @@ Dataset 2:
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dataset02.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
    
 Join input DataFrames
@@ -48,7 +48,7 @@ JoinUsingColum Processor joins the incoming DataFrames on a join column **State*
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/join-output.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
 Data Deduplication
 ------------
@@ -77,7 +77,7 @@ Dedup Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-config.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
    
 Dedup Processor Output
@@ -85,7 +85,7 @@ Dedup Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/dedup-customers/dedup-output.png
    :alt: DedupCustomers
-   :width: 75%
+   :width: 60%
    
 
 Prints the Result

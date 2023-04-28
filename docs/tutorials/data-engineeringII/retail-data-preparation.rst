@@ -41,7 +41,7 @@ The workflow is shown below:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/retail-data-preparation-WF.png
    :alt: Dataset
-   :width: 75%
+   :width: 65%
    
 Data Parsing and Cleaning
 --------------------------
@@ -78,7 +78,7 @@ Use the CaseWhen node for processing the IsHoliday column.
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/case-when-config.png
    :alt: Dataset
-   :width: 75%
+   :width: 65%
    
 FlagOutlier
 -----------
@@ -89,7 +89,7 @@ FlagOutlier
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation_1/flag-outlier-config.png
    :alt: Dataset
-   :width: 75%
+   :width: 65%
 
 The final dataset is saved as CSV file.
    

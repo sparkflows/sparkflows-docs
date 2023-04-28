@@ -61,6 +61,7 @@ ExpectColumnValuesToBeInBetween Node Sample Workflow
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-betwn-WF.png
    :alt: data-quality-userguide
    :width: 65%
+
    
 Incoming Dataset
 =======

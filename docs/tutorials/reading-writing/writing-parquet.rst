@@ -13,7 +13,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/Save-Parquet/save-parquet-wf.png
    :alt: readwrite
-   :width: 70%
+   :width: 60%
 
 Reads transaction dataset
 ---------------------
@@ -25,14 +25,14 @@ Processor configuration
 
 .. figure:: ../../_assets/user-guide/read-write/Save-Parquet/read-config.png
    :alt: readwrite
-   :width: 70%
+   :width: 60%
    
 Processor output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/Save-Parquet/read-output.png
    :alt: readwrite
-   :width: 70%
+   :width: 60%
 
 Save Parquet file
 ----------------
@@ -44,10 +44,10 @@ Processor configuration
 
 .. figure:: ../../_assets/user-guide/read-write/Save-Parquet/save-parquet-config.png
    :alt: readwrite
-   :width: 70%
+   :width: 60%
    
 Once the workflow is executed successfully the Parquet file will be saved to the specified location.
 
 .. figure:: ../../_assets/user-guide/read-write/Save-Parquet/save-parquet-execution.png
    :alt: readwrite
-   :width: 70%
+   :width: 60%

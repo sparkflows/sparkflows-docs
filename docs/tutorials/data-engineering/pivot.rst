@@ -33,7 +33,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-exploration/pivot/Print1_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
 
 Pivoting the Dataset
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot1_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-exploration/pivot/Pivot2_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%
 
    
 Printing the Pivoted Dataset
@@ -66,4 +66,4 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-exploration/pivot/Print2_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 60%

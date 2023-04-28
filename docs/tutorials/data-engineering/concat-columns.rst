@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/7.PNG
    :alt: Concat Columns
-   :width: 80%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/8.PNG
    :alt: Concat Columns
-   :width: 80%
+   :width: 60%
    
 Concating columns
 -----------------
@@ -49,11 +49,11 @@ Columns would get concatenated in same order defined in configuration like Name 
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/9.PNG
    :alt: Concat Columns
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/concat-columns/10.PNG
    :alt: Concat Columns
-   :width: 80%
+   :width: 60%

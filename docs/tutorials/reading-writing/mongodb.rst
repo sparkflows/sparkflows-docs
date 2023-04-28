@@ -17,7 +17,7 @@ The below image shows the dialog box for the SaveMongoDB Processor.
 
 .. figure:: ../../_assets/tutorials/mongodb/savemongodbprocessor.PNG
    :alt: SaveMongoDB
-   :width: 75%
+   :width: 60%
    
 Workflow Execution
 ------------------
@@ -26,7 +26,7 @@ When we execute the workflow, it reads in the dataset from HDFS and loads it int
 
 .. figure:: ../../_assets/tutorials/mongodb/workflowexecutionsavemongodb.PNG
    :alt: SaveMongoDB
-   :width: 75%
+   :width: 60%
 
 Workflow for Reading Data from MongoDB
 ---------------------------------------
@@ -42,7 +42,7 @@ The below image shows the dialog box for the ReadMongoDB Processor.
 
 .. figure:: ../../_assets/tutorials/mongodb/Readmongodbprocessor.PNG
    :alt: ReadMongoDB
-   :width: 75%
+   :width: 60%
    
 In the above dialog, the 'Refresh Schema' button infers the schema of the collections. Thus, it is able to pass down the output schema to the next Processor making it easy for us to build the workflow.   
    

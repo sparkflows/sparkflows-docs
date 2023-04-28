@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/5.PNG
    :alt: Rename Columns
-   :width: 60%
+   :width: 65%
    
 Reading from Dataset
 ---------------------
@@ -26,14 +26,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/6.PNG
    :alt: Rename Columns
-   :width: 75%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/7.PNG
    :alt: Rename Columns
-   :width: 75% 
+   :width: 65% 
    
 Rename Columns
 ------------
@@ -45,14 +45,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/8.PNG
    :alt: Rename Columns
-   :width: 75% 
+   :width: 65% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/rename-columns/9.PNG
    :alt: Rename Columns
-   :width: 75%  
+   :width: 65%  
    
 Prints the Result
 ------------------

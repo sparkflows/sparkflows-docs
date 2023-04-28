@@ -24,7 +24,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/read-config.png
    :alt: Data Validation
-   :width: 100%
+   :width: 65%
    
   
 Processor Output
@@ -32,7 +32,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/read-output.png
    :alt: Data Validation
-   :width: 100%
+   :width: 65%
    
 Performing Validation
 ---------------------
@@ -44,7 +44,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/validation-config.png
    :alt: Data Validation
-   :width: 100%
+   :width: 65%
    
    
 Processor Output
@@ -52,5 +52,5 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/data-validation/validation-output.png
    :alt: Data Validation
-   :width: 100%
+   :width: 65%
 

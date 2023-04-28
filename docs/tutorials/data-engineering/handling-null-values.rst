@@ -19,7 +19,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/Impute_wf.PNG
    :alt: Handling Null Values
-   :width: 70%
+   :width: 60%
    
 Reading from CSV File
 ---------------------
@@ -31,14 +31,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_csv_config.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_csv_output.PNG
    :alt: Handling Null Values
-   :width: 80%   
+   :width: 60%   
    
 Replacing null values
 ---------------------
@@ -50,14 +50,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_null_config.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_null_output.PNG
    :alt: Handling Null Values
-   :width: 80%   
+   :width: 60%   
    
 Converting to 0/1 using StringIndexer
 ---------------------
@@ -69,14 +69,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_string_config.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_string_output.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
    
 
 Converting to 0/1 using CaseWhen
@@ -89,14 +89,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_convert_config.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_convert_output.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
    
 
 Converting to 0/1 using FindAndReplaceUsingRegex
@@ -110,13 +110,13 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_regex_config.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/handling-null-values/impute_regex_output.PNG
    :alt: Handling Null Values
-   :width: 80%
+   :width: 60%
    
 

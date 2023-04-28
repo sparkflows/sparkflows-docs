@@ -13,7 +13,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/date-time-wf.png
    :alt: DateTimeFieldExtract
-   :width: 80%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/read-config.png
    :alt: DateTimeFieldExtract
-   :width: 80%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/read-output.png
    :alt: DateTimeFieldExtract
-   :width: 80%
+   :width: 60%
    
    
 Date-Time Field Extract
@@ -45,7 +45,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/date-time-config.png
    :alt: DateTimeFieldExtract
-   :width: 80%
+   :width: 60%
    
    
 Processor Output
@@ -53,7 +53,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/date-time-field-extract/date-time-output.png
    :alt: DateTimeFieldExtract
-   :width: 80%
+   :width: 60%
   
   
 Prints the Result

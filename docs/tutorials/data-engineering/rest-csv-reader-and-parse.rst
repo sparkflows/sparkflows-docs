@@ -29,7 +29,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/2.PNG
    :alt: ReadandParse
-   :width: 80%
+   :width: 60%
 
   
 Processor Output
@@ -37,7 +37,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/3.PNG
    :alt: ReadandParse
-   :width: 80%   
+   :width: 60%   
    
 Prints the Records
 ------------------
@@ -55,14 +55,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/4.PNG
    :alt: ReadandParse
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/5.PNG
    :alt: ReadandParse
-   :width: 80%
+   :width: 60%
    
 Row Filter by Index
 -------------
@@ -75,14 +75,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/6.PNG
    :alt: ReadandParse
-   :width: 80%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-csv-reader-and-parse/7.PNG
    :alt: ReadandParse
-   :width: 80%
+   :width: 60%
      
   
 Prints the Result

@@ -15,7 +15,7 @@ Below is a workflow which reads data from MySQL and prints the result from ``Pri
 
 .. figure:: ../../_assets/user-guide/read-jdbc-wf.png
    :alt: JDBC Workflowt
-   :width: 75%
+   :width: 60%
    
    
 JDBC Processor Configuration
@@ -25,7 +25,7 @@ Below are the configuration details of the JDBC Processor. It uses the provided 
 
 .. figure:: ../../_assets/user-guide/JDBCNodeConfiguration1.png
    :alt: JDBC Processor Dialog
-   :width: 75%
+   :width: 60%
    
 Results of reading from MySQL Table
 ------------------------------------
@@ -34,7 +34,7 @@ The below image displays schema of the table from the MySQL table by Fire.
 
 .. figure:: ../../_assets/user-guide/JDBCShemaRefresh1.png
    :alt: JDBC Get Schema
-   :width: 75%
+   :width: 60%
 
 Specifying a Sub-Query
 ----------------------
@@ -49,7 +49,7 @@ Executing the processor shows the records read from MySQL Table.
 
 .. figure:: ../../_assets/user-guide/ResultJDBC1.png
    :alt: JDBC Result Output
-   :width: 75%
+   :width: 60%
    
 
 JDBC Drivers

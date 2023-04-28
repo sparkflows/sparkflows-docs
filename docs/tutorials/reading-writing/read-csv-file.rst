@@ -13,7 +13,7 @@ The below workflow does the following:
 
 .. figure:: ../../_assets/user-guide/read-write/csv-wf.png
    :alt: readwrite
-   :width: 75%
+   :width: 60%
 
 Reading from CSV File
 ---------------------
@@ -36,14 +36,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/user-guide/read-write/CSV-Config.png
    :alt: readwrite
-   :width: 80%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/user-guide/read-write/CSV-Output.png
    :alt: readwrite
-   :width: 80%
+   :width: 60%
 
 Prints the Results
 ------------------

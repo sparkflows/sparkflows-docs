@@ -15,7 +15,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/remove-spcl-wf.png
    :alt: Remove special Characters
-   :width: 75%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -27,14 +27,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/read-config.png
    :alt: Remove special Characters
-   :width: 85%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/read-output.png
    :alt: Remove special Characters
-   :width: 100%
+   :width: 60%
    
    
 To Remove Any Special character in Data
@@ -47,14 +47,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/remove-spcl-config.png
    :alt: Remove special Characters
-   :width: 85%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/remove-spcl-output.png
    :alt: Remove special Characters
-   :width: 85%
+   :width: 60%
    
    
 RowFilter - Removes the rows with empty spaces. 
@@ -67,14 +67,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/row-filter-config.png
    :alt: Remove special Characters
-   :width: 85%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/remove-special-characters/row-filter-output.png
    :alt: Remove special Characters
-   :width: 85%
+   :width: 60%
  
   
 Print the Results

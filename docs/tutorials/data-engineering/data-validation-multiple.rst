@@ -26,7 +26,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multiple-wf.png
    :alt: Data Validation Multiple
-   :width: 85%
+   :width: 65%
    
 Reading from CSV File
 ---------------------
@@ -38,7 +38,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/read-config.png
    :alt: Data Validation Multiple
-   :width: 85%
+   :width: 65%
    
    
 Processor Output
@@ -46,7 +46,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/read-output.png
    :alt: Data Validation Multiple
-   :width: 85%
+   :width: 65%
 
 String Functions
 ----------------
@@ -57,14 +57,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/string-config.png
    :alt: Data Validation Multiple
-   :width: 85%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/string-output.png
    :alt: Data Validation Multiple
-   :width: 85%
+   :width: 65%
    
 
 Performing Validation
@@ -77,7 +77,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multi-config.png
    :alt: Data Validation Multiple
-   :width: 85%   
+   :width: 65%   
 
    
 Processor Output
@@ -85,7 +85,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/validation-multi-output.png
    :alt: Data Validation Multiple
-   :width: 90% 
+   :width: 65% 
 
 Prints the Valid Records
 ------------------
@@ -95,7 +95,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/print-valid.png
    :alt: Data Validation Multiple
-   :width: 90%  
+   :width: 65%  
 
 
 Prints the Invalid Records
@@ -106,5 +106,5 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-validation-multiple/print-invalid.png
    :alt: Data Validation Multiple
-   :width: 90%  
+   :width: 65%  
 

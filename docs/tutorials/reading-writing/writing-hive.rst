@@ -15,13 +15,13 @@ The sample workflow below, contains "SaveAsHIVETable" Processor. It reads Transa
 
 .. figure:: ../../_assets/tutorials/dataset/save-hive-wf.png
    :alt: Dataset
-   :width: 70%
+   :width: 60%
 
 Fill the required fields.
 
 .. figure:: ../../_assets/tutorials/dataset/save-hive-config.png
    :alt: Dataset
-   :width: 85%
+   :width: 60%
    
 When the sample workflow is executed, data is written into HIVE Table as 'sample_08'.   
 The 'sample_08' gets created with the schema of the Transaction Dataset.

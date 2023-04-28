@@ -14,7 +14,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-wf.png
    :alt: Remove Duplicate Rows
-   :width: 75%
+   :width: 60%
    
 Reading from CSV file
 ---------------------
@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/read-config.png
    :alt: Remove Duplicate Rows
-   :width: 85%
+   :width: 60%
 
    
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/read-output.png
    :alt: Remove Duplicate Rows
-   :width: 85%  
+   :width: 60%  
    
 Remove Duplicate Rows
 ---------------------
@@ -46,14 +46,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-config.png
    :alt: Remove Duplicate Rows
-   :width: 85%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/remove-output.png
    :alt: Remove Duplicate Rows
-   :width: 85%   
+   :width: 60%   
  
 Print the Results
 ------------------
@@ -66,11 +66,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/print-config.png
    :alt: remove-duplicate-rows
-   :width: 85%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/remove-duplicate-rows/print-output.png
    :alt: remove-duplicate-rows
-   :width: 85%  
+   :width: 60%  

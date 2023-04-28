@@ -27,7 +27,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/11.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
    
 
 Dropping the rows with null values
@@ -40,14 +40,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/12.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/13.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
    
    
 Filter by string length
@@ -60,14 +60,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/14.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/15.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
    
 Convert Age to Integer
 ---------------------
@@ -79,7 +79,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/16.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
 
    
 Processor Output
@@ -87,7 +87,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/17.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
 
 Get Rows of Interest
 ---------------
@@ -100,7 +100,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/18.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
 
    
 Processor Output
@@ -108,7 +108,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/titanic-data-cleaning/19.PNG
    :alt: titanic-data-cleaning
-   :width: 85%
+   :width: 65%
 
 
 

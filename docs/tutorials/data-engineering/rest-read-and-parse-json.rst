@@ -13,7 +13,7 @@ Below is the workflow that shows:
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/read-parse-json-wf.png
    :alt: ReadandParse
-   :width: 75%
+   :width: 60%
    
 Reading from URL And Parsing
 ---------------------
@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/read-parse-config.png
    :alt: ReadandParse
-   :width: 75%
+   :width: 60%
 
   
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/rest-read-and-parse-json/read-parse-output.png
    :alt: ReadandParse
-   :width: 75%
+   :width: 60%
    
    
 Prints the Result

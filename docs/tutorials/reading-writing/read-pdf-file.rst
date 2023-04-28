@@ -13,7 +13,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-wf.png
    :alt: ReadandParse
-   :width: 75%
+   :width: 60%
    
 Reading And Parsing PDF File
 ---------------------
@@ -26,7 +26,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-config.png
    :alt: ReadandParse
-   :width: 75%
+   :width: 60%
 
   
 Processor Output
@@ -34,7 +34,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/read-write/read-pdf-file/pdf-output.png
    :alt: ReadandParse
-   :width: 75%   
+   :width: 60%   
    
    
 Prints the Result

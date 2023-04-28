@@ -19,7 +19,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/adv-data-prep-wf.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -32,7 +32,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dataset-config.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
    
 Processor Output
@@ -40,7 +40,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dataset-output.png
    :alt: DataPreparation
-   :width: 75%  
+   :width: 60%  
    
    
 Drop Rows with Null
@@ -53,14 +53,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/dropnullrows-config.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/droprowswithnull-output.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
   
 
 Filter by String Length
@@ -73,14 +73,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/filterbystringlth-config.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/filterbystringlth-output.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
 Convert `Age` to `Integer`
 ------------
@@ -92,7 +92,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/convrtagetoint-config.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
    
 Processor Output
@@ -100,7 +100,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/convrtagetoint-output.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
 
 Get Rows of Interest
@@ -113,7 +113,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/getrowsofint-config.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
    
    
 Processor Output
@@ -121,7 +121,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-engineering/data-preparation-1/getrowsofint-output.png
    :alt: DataPreparation
-   :width: 75%
+   :width: 60%
 
 
 The PrintNRows Node then prints the resulting DataFrame. 

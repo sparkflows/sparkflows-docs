@@ -25,14 +25,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/7.PNG
    :alt: String Functions Multiple
-   :width: 90%
+   :width: 60%
 
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/8.PNG
    :alt: String Functions Multiple
-   :width: 90%
+   :width: 60%
 
 Apply string Functions
 ----------------------
@@ -44,14 +44,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/9.PNG
    :alt: String Functions Multiple
-   :width: 90%
+   :width: 60%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/etl/string-functions-multiple/10.PNG
    :alt: String Functions Multiple
-   :width: 90%
+   :width: 60%
    
    
    

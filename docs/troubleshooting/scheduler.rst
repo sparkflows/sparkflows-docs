@@ -6,7 +6,8 @@ This document explains some of the common issues and corresponding resolutions.
 1. Scheduler takes a few minutes to trigger all the pipelines if there are too many of them trigerred at the same time
 ----------------------------------------------------------------------------------------------------------------------
 
-**Issue Description**
+Issue Description
++++++
 
 There could be different reasons for this issue like:
 
@@ -14,7 +15,8 @@ There could be different reasons for this issue like:
 * The ``-Xmx`` value set for ``fire-ui`` server might be low or left as default of 2.5 GB.
 * The Sparkflows machine might be overloaded with some external processes running.
   
-**Resolution**
+Resolution
++++++
 
 * For trigerring a large number of parallel scheduled jobs, ensure that the machine has enough resources i.e. RAM and Number of cores.
 * Ensure that the ``-Xmx`` is set to a higher number for ``fire-ui`` server. Eg: For trigerring 200 odd jobs at the same time, the -Xmx should be higher than default. Exact allocation would depend on the overall machine specifications as well.
@@ -25,7 +27,8 @@ There could be different reasons for this issue like:
 2. Pipeline is not running consistently in Airflow
 ----------------------------------------------------------------------------------------------------------------------
 
-**Issue Description**
+Issue Description
++++++
 
 * There could be different reasons for this issue.
 
@@ -35,7 +38,8 @@ There could be different reasons for this issue like:
 
 * Airflow DAG Execution requests are not trigerred in timely manner.
 
-**Resolution**
+Resolution
++++++
 
 - Check the Machine Configuration.
 
@@ -55,11 +59,13 @@ There could be different reasons for this issue like:
 3. It seems that the job is running at a wrong schedule
 ----------------------------------------------------------------------------------------------------------------------
 
-**Issue Description**
+Issue Description
++++++
 
 Let's consider a typical example of misperception. The Pipeline Schedule indicates that the Job is running at say every 15th minute of the hour as opposed to 45th minute of the hour.
 
-**Resolution**
+Resolution
+++++
 
 Let's assume that a Job was scheduled in IST time to run every 45th minute. But when viewed in CDT timezone it may give a wrong impression that the job is running at the 15th min of the hour. ``Note that 8:45 AM IST is equivalent to 9:15 PM CDT.``
 
@@ -68,10 +74,12 @@ One needs to ensure that the correct Cron Expression is used for running the Job
 4. Pipeline is not getting trigerred at all
 ----------------------------------------------------------------------------------------------------------------------
 
-**Issue Description**
+Issue Description
+++++
 
 Let’s assume that the Cron Expression has been copied from an external website (e.g. http://www.cronmaker.com/) and the Job fails when one tries to run the Pipeline.
 
-**Resolution**
+Resolution
+++++
 
 Ensure that there is no extra space and unwanted characters in the Cron Expression.

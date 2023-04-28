@@ -13,7 +13,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/visualization/box-plot-wf.png
    :alt: Visualization
-   :width: 75%
+   :width: 60%
    
 Reading from Dataset
 ---------------------
@@ -22,7 +22,7 @@ It reads the Dataset Files.
 
 .. figure:: ../../_assets/tutorials/visualization/subplots-input.png
    :alt: Visualization
-   :width: 75%
+   :width: 60%
 
 Visualize using Boxplot
 --------------------
@@ -31,11 +31,11 @@ It plots graph with BoxPlot node.
 
 .. figure:: ../../_assets/tutorials/visualization/box-plot-config.png
    :alt: Visualization
-   :width: 75%
+   :width: 60%
 
 Output result
 -------------
 
 .. figure:: ../../_assets/tutorials/visualization/box-plot-output.png
    :alt: Visualization
-   :width: 75%
+   :width: 60%

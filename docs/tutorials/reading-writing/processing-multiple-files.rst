@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/MultiCSV.png
    :alt: Housing Analysis
-   :width: 45%
+   :width: 50%
    
 Reading CSV files
 ---------------------
@@ -26,14 +26,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/10.PNG
    :alt: Housing Analysis
-   :width: 90%
+   :width: 60%
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/11.PNG
    :alt: Housing Analysis
-   :width: 90%
+   :width: 60%
 
 Filter its data
 ----------------
@@ -45,14 +45,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/12.PNG
    :alt: Housing Analysis
-   :width: 90%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/13.PNG
    :alt: Housing Analysis
-   :width: 90%   
+   :width: 60%   
    
 Print the results
 ------------------
@@ -64,11 +64,11 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/14.PNG
    :alt: Housing Analysis
-   :width: 90% 
+   :width: 60% 
    
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/analytics/housing-analysis/15.PNG
    :alt: Housing Analysis
-   :width: 90%
+   :width: 60%

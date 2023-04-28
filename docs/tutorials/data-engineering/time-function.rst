@@ -13,7 +13,7 @@ In the sample workflow below, additional Date Time features are being created fr
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-wf.png
    :alt: Convert To Timestamps
-   :width: 80%
+   :width: 60%
    
 In the above workflow: 
 
@@ -31,14 +31,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/read-config.png
    :alt: Convert To Timestamps
-   :width: 80%
+   :width: 60%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/read-output.png
    :alt: Convert To Timestamps
-   :width: 80%
+   :width: 60%
    
 Prints the sample Dataset Result
 ---------------------------------
@@ -56,14 +56,14 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-config.png
    :alt: Convert To Timestamps
-   :width: 80% 
+   :width: 60% 
 
 Processor Output
 ^^^^^^
 
 .. figure:: ../../_assets/tutorials/data-cleaning/convert-to-timestamps/timefun-output.png
    :alt: Convert To Timestamps
-   :width: 90%
+   :width: 60%
    
 Prints the Result
 ------------------

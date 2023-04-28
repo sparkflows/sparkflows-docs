@@ -60,14 +60,14 @@ ExpectColumnValuesToBeInBetween Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-betwn-WF.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
    
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/input-data.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValuesToBeInBetween Node Configuration
 =======
@@ -81,7 +81,7 @@ ExpectColumnValuesToBeInBetween Node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-config.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
    
 ExpectColumnValuesToBeInBetween Node Output
 =======
@@ -93,7 +93,7 @@ The Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-output.png
    :alt: data-quality-userguide
-   :width: 80% 
+   :width: 65% 
    
 
 Expect Column Values To Be Null
@@ -112,14 +112,14 @@ ExpectColumnValuesToBeNull Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-WF.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
    
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-input.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValuesToBeNull Node Configuration
 =======
@@ -130,7 +130,7 @@ ExpectColumnValuesToBeNull Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-config.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
    
 ExpectColumnValuesToBeNull Node Output
 =======
@@ -142,7 +142,7 @@ The Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-null-output01.png
    :alt: data-quality-userguide
-   :width: 80% 
+   :width: 65% 
    
 
 
@@ -162,7 +162,7 @@ ExpectColumnValuesToBeUnique Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-WF.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 Incoming Dataset
@@ -170,7 +170,7 @@ Incoming Dataset
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 ExpectColumnValuesToBeUnique Node Configuration
@@ -182,7 +182,7 @@ ExpectColumnValuesToBeUnique Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-config.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 ExpectColumnValuesToBeUnique Node Output
@@ -196,7 +196,7 @@ The Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-output.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 Expect Column Values To Not Be Null
@@ -213,7 +213,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-WF.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 Incoming Dataset
@@ -221,7 +221,7 @@ Incoming Dataset
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 ExpectColumnValuesToNotBeNull Node Configuration
@@ -233,7 +233,7 @@ ExpectColumnValuesToNotBeNull Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-config.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 
@@ -248,7 +248,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-output.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 Expect Table Row Count To Be Between
 +++++++++
@@ -263,14 +263,14 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-WF.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 ExpectTableRowCountToBeBetween Node Configuration
 ===========
@@ -280,7 +280,7 @@ ExpectTableRowCountToBeBetween Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-config.png
    :alt: data-quality-userguide
-   :width: 80%
+   :width: 65%
 
 
 ExpectTableRowCountToBeBetween Node Output
@@ -293,7 +293,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Expect Column Value Lengths To Equal
 +++++++
@@ -310,14 +310,14 @@ ExpectColumnValueLengthsToEqual Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-WF.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Incoming Dataset
 ======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-input.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValueLengthsToEqual Node Configuration
 ========
@@ -329,7 +329,7 @@ ExpectColumnValueLengthsToEqual Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-config.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 
 ExpectColumnValueLengthsToEqual Node Output
@@ -342,7 +342,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Expect Column Value Length To Be In Between
 +++++++
@@ -359,14 +359,14 @@ ExpectColumnValueLengthToBeInBetween Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-WF.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
    
 Incoming Dataset
 ======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-input.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
    
 ExpectColumnValueLengthToBeInBetween Node Configuration
 ======
@@ -377,7 +377,7 @@ ExpectColumnValueLengthToBeInBetween Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-config.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValueLengthToBeInBetween Node Output
 ++++++
@@ -389,7 +389,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Expect Column Values To Be In Set
 +++++++
@@ -406,14 +406,14 @@ ExpectColumnValuesToBeInSet Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-WF.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Incoming Dataset
 =======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-input.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 
 ExpectColumnValuesToBeInSet Node Configuration
@@ -426,7 +426,7 @@ ExpectColumnValuesToBeInSet Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-config.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValuesToBeInSet Node Output
 ========
@@ -438,7 +438,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Expect Column Values To Match Regex
 +++++++
@@ -456,14 +456,14 @@ ExpectColumnValuesToMatchRegex Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-WF.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Incoming Dataset
 ==========
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-input.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValuesToMatchRegex Node Configuration
 =========
@@ -475,7 +475,7 @@ ExpectColumnValuesToMatchRegex Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-config.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 ExpectColumnValuesToMatchRegex Node Output
 ========
@@ -488,7 +488,7 @@ The output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 Expect Column Values To Match Strftimeformat
 +++++++
@@ -505,14 +505,14 @@ ExpectColumnValuesToMatchStrftimeFormat Node Sample Workflow
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-WF.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
    
 Incoming Dataset
 ======
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-input.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 =========
@@ -524,7 +524,7 @@ ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-config.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Output
 ========
@@ -537,7 +537,7 @@ Output of this node would produce the following results:
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-output.png
    :alt: data-quality-userguide 	
-   :width: 80%
+   :width: 65%
 
 
 

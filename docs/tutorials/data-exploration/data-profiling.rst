@@ -18,57 +18,57 @@ Below is the workflow to do Data Profiling and it does the following:
 * Verify the quality of data in sparkflows `Data Quality` tab.
 
 
-.. figure:: ../../_assets/tutorials/data-quality/employee_details_wf.PNG
+.. figure:: ../../_assets/tutorials/data-quality/data-profiling-wf.png
    :alt: End
    :align: left
-   :width: 70%
+   :width: 60%
    
    
 SampleData
 ----------
    
-.. figure:: ../../_assets/tutorials/data-quality/sample_result.PNG
+.. figure:: ../../_assets/tutorials/data-quality/input.png
    :alt: End
    :align: left
-   :width: 70%
+   :width: 60%
    
 Summary
 --------
-.. figure:: ../../_assets/tutorials/data-quality/summary_conf.PNG
+.. figure:: ../../_assets/tutorials/data-quality/summary-config.png
    :alt: End
    :align: left
-   :width: 70%  
+   :width: 60%  
 
 
 Correlation
 -----------
-.. figure:: ../../_assets/tutorials/data-quality/corellation_conf.PNG
+.. figure:: ../../_assets/tutorials/data-quality/correlation-config.png
    :alt: End
    :align: left
-   :width: 70%  
+   :width: 60%  
    
    
    
 Data Quality Page
 -----------------   
-.. figure:: ../../_assets/tutorials/data-quality/data_quality_page.PNG
+.. figure:: ../../_assets/tutorials/data-quality/data-quality-page.png
    :alt: End
    :align: left
-   :width: 70%  
+   :width: 60%  
    
     
 Summary Results 
 ----------------   
-.. figure:: ../../_assets/tutorials/data-quality/data_quality_summary.PNG
+.. figure:: ../../_assets/tutorials/data-quality/summary-results.png
    :alt: End
    :align: left
-   :width: 70% 
+   :width: 60% 
    
    
 Correlation Results
 ------------------- 
-.. figure:: ../../_assets/tutorials/data-quality/data_quality_corellation.PNG
+.. figure:: ../../_assets/tutorials/data-quality/correlation.png
    :alt: End
    :align: left
-   :width: 70% 
+   :width: 60% 
    

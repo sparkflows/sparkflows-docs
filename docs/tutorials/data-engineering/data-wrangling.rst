@@ -13,7 +13,7 @@ The below workflow:
 * It then creates new DataFrame based on the rules provided.
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/wrangle-wf.png
    :alt: data-wrangling
    :width: 65%
    
@@ -26,7 +26,7 @@ Reading from Dataset
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/input.png
    :alt: data-wrangling
    :width: 65%   
    
@@ -39,14 +39,14 @@ Data Wrangling
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/wrangle-config.png
    :alt: data-wrangling
    :width: 65%
 
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/data-wrangling/output.png
    :alt: data-wrangling
    :width: 65%
   

@@ -14,7 +14,7 @@ Below is the workflow. It does the following:
 
 .. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/9.png
    :alt: ProfilingCorrelation
-   :width: 70%
+   :width: 60%
    
 Performing Correlation analysis
 ---------------------
@@ -24,30 +24,30 @@ Performing Correlation analysis
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/2.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/correlation-config.png
    :alt: ProfilingCorrelation
-   :width: 70%
+   :width: 60%
    
 Processor Output - Correlation matrix
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/3.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/correlation-table.png
    :alt: ProfilingCorrelation
-   :width: 70%   
+   :width: 60%   
 
 Processor Output - Correlation Matrix Heat Map
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/4.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/correlation-matrix.png
    :alt: ProfilingCorrelation
-   :width: 70%   
+   :width: 60%   
 
 Processor Output - Sample Rows of Input Dataset
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/5.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/input.png
    :alt: ProfilingCorrelation
-   :width: 70%   
+   :width: 60%   
 
    
 Summary Statistics
@@ -62,23 +62,23 @@ It provides a table with number of non-null entries (count), mean, standard devi
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/6.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/summary-config.png
    :alt: ProfilingCorrelation
-   :width: 70%   
+   :width: 60%   
 
 Processor Output: Summary Statistics
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/7.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/summary-output.png
    :alt: ProfilingCorrelation
-   :width: 70%   
+   :width: 60%   
   
 Processor Output: Sample Rows of Input Dataset
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/8.PNG
+.. figure:: ../../_assets/tutorials/data-engineering/profiling-correlation/input.png
    :alt: ProfilingCorrelation
-   :width: 70%    
+   :width: 60%    
 
 
 

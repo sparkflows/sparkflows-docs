@@ -15,7 +15,7 @@ The below workflow:
 * SQL query to get the status.
 * Visualize the status count.
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/1.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/Flights-wf.png
    :alt: Analyze Flights Delays
    :width: 60%
    
@@ -27,16 +27,16 @@ It reads the Dataset Files.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/read-config.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/2a.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/read-output.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 
 Cast Column to Double
@@ -48,16 +48,16 @@ It casts for the new datatype double using the CastColumn Type Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/castcolumn-config.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/4a.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/castcolumn-output.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
 
 Cast Column to String
 ---------------------------------
@@ -68,16 +68,16 @@ It casts for the new Datatype string using the CastColumn Type Node.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/castcolumnstring-config.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/5a.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/castcolumnstring-output.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
  
    
 Execute the SQL Queries   
@@ -88,27 +88,28 @@ It executes the SQL Queries with the given conditions.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/8.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/sql-config.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 
 
 Visualize the status count
 ------------------
 
+It visualizes the status count using the GraphGroupByColumn Node.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/graphgrpbycol-config.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
    
 Processor Output
 ^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/9a.png
+.. figure:: ../../_assets/tutorials/analytics/analyze-flights-delays/graphgrpbycol-output.png
    :alt: Analyze Flights Delays
-   :width: 65%
+   :width: 60%
 

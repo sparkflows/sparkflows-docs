@@ -12,13 +12,13 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
     
     :doc:`/gcp/admin-guide/index`
 
-    Databricks Admin Guide
+    GCP Admin Guide
 
     ---
     
     :doc:`/gcp/user-guide/index`
     
-    Databricks User Guide
+    GCP User Guide
     
 
     

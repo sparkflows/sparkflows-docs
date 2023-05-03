@@ -10,35 +10,22 @@ Fire Insights integrates with Google BigQuery, GCS File system etc.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/gcp/admin_configuration`
+    :doc:`/gcp/admin-guide/index`
 
-    Configuring GCP and Dataproc Connection.
-
-    ---
-
-    :doc:`/gcp/reading-bigquery`
-
-    Reading from BigQuery tables.
+    Databricks Admin Guide
 
     ---
-
-    :doc:`/gcp/writing-bigquery`
-
-    Writing to BigQuery tables.
     
-    ---
-
-    :doc:`/gcp/reading-gcs`
-
-    Reading from GCS bucket.    
+    :doc:`/gcp/user-guide/index`
     
-     ---
+    Databricks User Guide
+    
 
-
+    
 .. toctree::
    :hidden:
-   admin_configuration.rst 
-   reading-bigquery.rst
-   writing-bigquery.rst
-   reading-gcs.rst
+
+   admin-guide/index.rst
+   user-guide/index.rst
+
 

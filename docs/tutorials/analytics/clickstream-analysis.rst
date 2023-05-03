@@ -12,9 +12,9 @@ Workflow
 
 The below workflow:
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/1.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/clickstream-wf.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    
 Sample Data
 ---------------------
@@ -22,40 +22,40 @@ Sample Data
 Omniture Clickstream Data
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/2.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/omniture-data.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    
 Product Data
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/2a.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/product-data.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    
 Users Data
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/2b.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/users-data.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
  
  
 Count number of users by ``state`` and displays it on map
 ---------------------------------------------------
 Configuration 
 ^^^^^^^^^^^^^
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3a.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/graphregiongeo-config.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
   
    
 Result
 ^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/3b.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/graphregiongeo-output.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
 
 
 Count number of users by ``age`` and display it as a line chart
@@ -63,21 +63,21 @@ Count number of users by ``age`` and display it as a line chart
 
 Caluclation 
 ^^^^^^^^^^^^^
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/groupbyage-config.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    
    
 Configuration
 ^^^^^^^^^^^^^
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4a.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/graphbyage-config.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    
 Result
 ^^^^^^^
 
-.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/4b.png
+.. figure:: ../../_assets/tutorials/analytics/clickstream-analysis/graphbyage-output.png
    :alt: ClickStream Analysis
-   :width: 70%
+   :width: 60%
    

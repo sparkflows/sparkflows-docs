@@ -7,18 +7,18 @@ GCP User Guide
 
     :doc:`/gcp/user-guide/reading-bigquery`
 
-    Reading big query.
+    Reading Big Query.
     
     ---
 
     :doc:`/gcp/user-guide/writing-bigquery`
 
-    Writing big query..
+    Writing To Big Query.
 
     ---
 
      :doc:`/gcp/user-guide/reading-gcs`
 
-    Reading gcs..
+    Reading gcs.
 
     ---

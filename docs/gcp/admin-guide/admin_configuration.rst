@@ -49,7 +49,7 @@ Dataproc Connections details can be specified in Global Connections.
 - Specify the Region
 - Specify the Dataproc Cluster name
 
-.. figure:: ../_assets/gcp/Edit_Connection_1.jpg
-   :alt: Dataproc Configuration Details
-   :width: 40%
+.. figure:: ../../_assets/gcp/dataproc_configurations.PNG
+   :alt: GCP Configuration Details
+   :width: 60%
  

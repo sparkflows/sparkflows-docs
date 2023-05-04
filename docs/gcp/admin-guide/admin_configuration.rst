@@ -15,9 +15,9 @@ GCP Configuration details can be specified in the Fire Insights Administration U
 - Specify the path to the Service Account Key file
 
 
-.. figure:: ../_assets/gcp/GCP_Configuration.jpg
+.. figure:: ../../_assets/gcp/gcp_enable.PNG
    :alt: GCP Configuration Details
-   :width: 40%
+   :width: 60%
 
 2. Enable Dataproc Connection
 ============
@@ -28,7 +28,11 @@ Enable Dataproc Connection from ``CONNECTION`` tab
 
     connection.dataproc.enabled : true
 
-3. Specify Dataproc Connection
+.. figure:: ../../_assets/gcp/dataproc_connection.PNG
+   :alt: GCP Configuration Details
+   :width: 60%
+
+3. Add Dataproc Connection
 ============
 
 Dataproc Connections details can be specified in Global Connections.
@@ -36,9 +40,9 @@ Dataproc Connections details can be specified in Global Connections.
 - Specify the Connection Name
 - Specify the Postback Url
    
- .. figure:: ../_assets/gcp/Edit_Connection_2.jpg
+.. figure:: ../../_assets/gcp/dataproc_create.PNG
    :alt: GCP Configuration Details
-   :width: 40%
+   :width: 60%
 
 - Specify the location of Fire Core jar
 - Specify the Project Id

@@ -48,6 +48,8 @@ Dataproc Connections details can be specified in Global Connections.
 - Specify the Project Id
 - Specify the Region
 - Specify the Dataproc Cluster name
+- Specify Main Class
+
 
 .. figure:: ../../_assets/gcp/dataproc_configurations.PNG
    :alt: GCP Configuration Details

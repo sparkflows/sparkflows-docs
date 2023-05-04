@@ -52,4 +52,5 @@ Dataproc Connections details can be specified in Global Connections.
 .. figure:: ../../_assets/gcp/dataproc_configurations.PNG
    :alt: GCP Configuration Details
    :width: 60%
- 
+
+Once Dataproc Connection is saved, you can use this connection to submit Jobs, View BigQuery and Browse Google Storage 

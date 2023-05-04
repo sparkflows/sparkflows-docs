@@ -13,9 +13,9 @@ Create a new workflow or edit an existing one. This would take you to the workfl
 
 Search for the ``Read BigQuery`` Node, in the data connectors, drag and drop it to the workflow editor.
 
-.. figure:: ../_assets/gcp/read-bigquery.png
+.. figure:: ../../_assets/gcp/biguery_config.PNG
    :alt: Read BigQuery Node
-   :width: 40%
+   :width: 60%
    
 3. Configure the ``Read BigQuery`` Node
 ++++++++++++++++++++++++++++++++
@@ -23,6 +23,6 @@ Search for the ``Read BigQuery`` Node, in the data connectors, drag and drop it 
 Double click on the ``Read BigQuery`` Node, to configure the table connection. Once you've configured, make sure to click on the ``Refresh Schema`` button to fetch the schema. 
 
 
-.. figure:: ../_assets/gcp/configure-bigquery.png
-   :alt: Configure BigQuery Node
-   :width: 40%
+.. figure:: ../../_assets/gcp/biguery_config.PNG
+   :alt: Read BigQuery Node
+   :width: 60%

@@ -29,10 +29,10 @@ Fire Insights has processor to read from BigQuery Tables.
    :alt: Read Files from GCS
    :width: 60%
 
-3. Run the Workflow in Dataproc Connection
+3. Run the Workflow on Dataproc Connection
 ++++++++++++++++++++++++++++++++
 
-- Execute the workflow in Dataproc to read the data from GCS using Dataproc Connection. 
+- Execute the workflow on Dataproc to read the data from GCS using Dataproc Connection. 
 
 .. figure:: ../../_assets/gcp/gs_job1.PNG
    :alt: Read Files from GCS

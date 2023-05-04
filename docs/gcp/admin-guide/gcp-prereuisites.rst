@@ -8,7 +8,7 @@ Prerequisites
 Below are the prerequisites for Integrating GCP in Fire Insights:
 
 .. list-table:: Prerequisites
-   :widths: 10 20 40
+   :widths: 15 20 30
    :header-rows: 1
 
    * - Name

@@ -8,7 +8,7 @@ Below are steps:
 1. Specify GCP Configuration
 ============
 
-GCP Configuration details can be specified in the Fire Insights Administration UI.
+GCP Configuration details can be specified in the Fire Insights Administration UI inside ``GCP`` tab.
 
 - Enable Google CLoud Integration flag
 - Specify the Project Id

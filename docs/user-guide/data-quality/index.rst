@@ -423,6 +423,7 @@ ExpectColumnValuesToBeInSet Node Configuration
 * Input of this node is the incoming dataset.
 * Column(s) for which the values need to be checked against the specified set is(are) to be selected in the ``Column Name`` column.
 * Set of values against which each column entry needs to be checked is to be entered in ``value`` column for each selected column. The values in the set can be separated by a semicolon.
+* The processor can be configured to check for spaces present in the column values. To check for spaces use acronym ``SP``. Refer the below image.
 * The percentage of data to be validated can be specified under the ``Mostly`` column for each selected column.
 
 .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-config.png

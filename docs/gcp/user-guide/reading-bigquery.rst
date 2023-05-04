@@ -26,3 +26,20 @@ Double click on the ``Read BigQuery`` Node, to configure the table connection. O
 .. figure:: ../../_assets/gcp/biguery_config.PNG
    :alt: Read BigQuery Node
    :width: 60%
+
+4. Submit the Workflow on ``Dataproc Connection``
+++++++++++++++++++++++++++++++++
+
+Once the workflow saved, you can submit to ``Dataproc Connection`` created by selecting at top menu.
+
+.. figure:: ../../_assets/gcp/dataproc_job1.PNG
+   :alt: Read BigQuery Node
+   :width: 60%
+
+.. figure:: ../../_assets/gcp/dataproc_job2.PNG
+   :alt: Read BigQuery Node
+   :width: 60%
+
+.. figure:: ../../_assets/gcp/dataproc_job3.PNG
+   :alt: Read BigQuery Node
+   :width: 60%

@@ -29,7 +29,7 @@ The workflow:
 - Performs prediction using the model generated on the remaining 20% dataset.
 - Finally evaluates the prediction result.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-si.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/string-indexer-config.png
    :alt: Machine Learning
    :width: 65%
 
@@ -38,7 +38,7 @@ VectorAssembler
 
 In the VectorAssembler, select the fields you want to include in the model. As the VectorAssembler supports only the numeric fields, only the numeric fields are displayed.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-va.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/vector-assembler-config.png
    :alt: Machine Learning
    :width: 65%
 
@@ -47,7 +47,7 @@ Split
 
 You can split the dataset into training and test datasets. We split it into (.8, .2).
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-split.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/split-config.png
    :alt: Machine Learning
    :width: 65%
 
@@ -56,7 +56,7 @@ RandomForestClassifier
 
 You can use a RandomForestClassifier for predicting churn. We use 20 trees.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-dtc.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/random-forest-config.png
    :alt: Machine Learning
    :width: 65%
 
@@ -65,7 +65,7 @@ Predict
 
 You can predict using the model on the test dataset.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/telco-churn-prediction-node-predict.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/predict-config.png
    :alt: Machine Learning
    :width: 65%
 
@@ -74,7 +74,7 @@ Evaluate
 
 You can evaluate the quality of our result.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/5.PNG
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/evaluator-config.png
    :alt: Machine Learning
    :width: 65%
    
@@ -85,7 +85,7 @@ Next, you can execute the workflow.
    
 From the evaluator, you get the below result:
 
-.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/4.png
+.. figure:: ../../../_assets/tutorials/machine-learning/telco-churn-prediction/execute-result.png
    :alt: Machine Learning
    :width: 65%
    

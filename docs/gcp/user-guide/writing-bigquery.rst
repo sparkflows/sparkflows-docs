@@ -13,7 +13,7 @@ Create a new workflow or edit an existing one. This would take you to the workfl
 
 Search for the ``write To BigQuery`` Node, in the data connectors, drag and drop it to the workflow editor.
 
-.. figure:: ../../_assets/gcp/biguery_config.PNG
+.. figure:: ../../_assets/gcp/write_bigquery.PNG
    :alt: Read BigQuery Node
    :width: 60%
    
@@ -23,7 +23,7 @@ Search for the ``write To BigQuery`` Node, in the data connectors, drag and drop
 Double click on the ``write To BigQuery`` Node, to configure the table connection. Once you've configured, press ok.
 
 
-.. figure:: ../../_assets/gcp/biguery_config.PNG
+.. figure:: ../../_assets/gcp/write_bigquery.PNG
    :alt: Read BigQuery Node
    :width: 60%
 

@@ -48,6 +48,19 @@ Installation Steps
 
 * To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit ones need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.
 
+* In order to use MySQL database as the datastore, pass the db configurationa as environment variable as shown below::
+
+    docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.1.XX_spark_3.2.1 \
+    -e FIRE_VERSION=3.1.0 \
+    -e KEYSTORE_PASSWORD=12345678 \
+    -e FIRE_HTTP_PORT=8080 \
+    -e FIRE_HTTPS_PORT=9443 \
+    -e DB_HOST=sparkflows-db.abc.rds.amazonaws.com \
+    -e DB_PASSWORD=DB123 \
+    -e DB_USERNAME=sparkflows \
+    -e DB_PORT=3306 \
+    sparkflows/fire:py_3.2.1_3.1.XX
+
 * For the ``h2db`` to be accessible on the mounted directory, please edit the path in ``conf/db.properties`` to working directory and restart docker image::
    
    spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb)

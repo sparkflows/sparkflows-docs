@@ -13,9 +13,9 @@ Fire Insights can be run with the embedded H2 database, or when an external data
 
 In order to backup the H2 database follow the steps below :
 
-* Stop Fire Insights.
-* Copy the H2 database files to another folder. This file is normally named "firedb.mv.db".
-* Start Fire Insights.
+#. Stop Fire Insights.
+#. Copy the H2 database files to another folder. This file is normally named "firedb.mv.db".
+#. Start Fire Insights.
 
 
 Cleaning H2 Database
@@ -28,8 +28,8 @@ Cleaning Old Workflow Executions
 
 It is important to regularly delete the old workflow executions in order to keep the size of the H2 database in control.
 
-- Go to the ``Administration/Cleanup Data``.
-- On ``Clean Workflow Executions`` tab, click on ``Delete workflow executions`` drop down & delete workflow executions which are older than 30 days.
+#. Go to the ``Administration/Cleanup Data``.
+#. On ``Clean Workflow Executions`` tab, click on ``Delete workflow executions`` drop down & delete workflow executions which are older than 30 days.
 
 .. figure:: ..//_assets/installation/clean-up_data.PNG
    :alt: Installations
@@ -40,8 +40,8 @@ Cleaning Old Audit Logs
 
 It is important to regularly delete the old Audit logs for cleaning the database.
 
-- Go to the ``Administration/Cleanup Data``.
-- On ``Clean Audit Logs`` tab, click on ``Delete Audit logs`` drop down & delete audit logs which are older than 30 days.
+#. Go to the ``Administration/Cleanup Data``.
+#. On ``Clean Audit Logs`` tab, click on ``Delete Audit logs`` drop down & delete audit logs which are older than 30 days.
 
    
 .. figure:: ..//_assets/installation/clean-up_audit.PNG
@@ -56,8 +56,8 @@ By default H2 database file is in the home folder of the user running Fire Insig
 
 If the H2 database file size grows too large (> 3GB), then follow the steps below for compacting it :
 
-* Make a copy of "firedb.mv.db" file to be safe.
-* Use the commands below for compacting it : ::
+#. Make a copy of "firedb.mv.db" file to be safe.
+#. Use the commands below for compacting it : ::
 
     java -cp ~/fire-x.y.z/db/h2/h2-1.4.199.jar  org.h2.tools.Shell
     URL: jdbc:h2:./firedb

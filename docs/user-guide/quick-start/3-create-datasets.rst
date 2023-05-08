@@ -5,73 +5,105 @@ To use a data file in multiple projects, it is ideal to wrap it into a dataset. 
 
 The steps involved in creating a dataset are:
 
-* Open the project where you want to create a dataset.
-* Click on the ``Datasets`` tab.
-* Click on ``Create`` and choose one of the option from the dropdown to create a ``Dataset``.
-* Select your dataset type and enter the fields in the dialog box.
-* Update the schema of the dataset.
-* Click on ``Save``.
+#. **Open** the **project** where you want to create a dataset and click **Datasets tab**.
+#. Click on **Create** and choose one of the methods from the **drop-down** list to create a Dataset.
+#. Select the **dataset type** and enter the **fields** in the dialog box.
+#. Click **Update Sample Data/Schema** to update schema and click **Eye Icon** to view the file contents.
+#. Click **Save** to save the new dataset.
 
 This page shows the detailed steps for creating a Dataset.
 
-Click on Create button
+Step 1 : Open the Project
+======
+
+#. Click the **Projects** tab in the **top-menu bar** of the Fire Insights.
+#. Click the **Project Name** where you want to create your dataset.
+#. Click the **Datasets** tab in upper-middle bar on the Project page.
+
+Step 2 : Select the Method to Create Dataset
 =============
 
-Click on ``Create`` and choose the option from the dropdown to create the ``Dataset``. Fire Insights enables you to create ``Dataset`` using three options namely ``From Existing Files``, ``By Uploading New File`` and ``Using Connections``. Here, we choose ``From Existing Files`` option.
- 
-.. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
- :alt: Dataset
- :width: 75%
+#. Click **Create** on the **Dataset Page**.
+#. Select the method to create the dataset from the **drop-down** list. You can choose from the following methods offered:
+   
+   * From Existing File
+   * By Uploading New File
+   * Using Connections
+  
+  Here, we choose **From Existing Files** method. 
 
-In the pop-up choose ``CSV`` and then click ``OK``
+  .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
+   :alt: Dataset
+   :width: 75%
+
+Step 3: Select Dataset Type and Enter the Fields
 ===============
  
-.. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
- :alt: Dataset
- :width: 75% 
+#. On the pop-up **Create Dataset Page**, select dataset type from the available file formats e.g. CSV, XML, AVRO etc. Here, we choose **CSV**.
 
-Fill in the required fields as below
-===============
+   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
+    :alt: Dataset
+    :width: 75% 
 
-  * ``Name``: Name of the new dataset. 
-  * ``Category``: An apt category that you want to tag the dataset to.
-  * ``Description``: Description of the new dataset.
-  * ``Mode``: Choose the mode to mark the strictness of parsing of the data file.
-  * ``Has Header Row``: Indicates whether the dataset has a header row specifying the names of the columns or not.
-  * ``Delimiter``: Indicates the delimiter to be used between the fields in the data.
-  * ``Path``: Path for the location of the file or directory containing the data files for the dataset.
-  * ``Drop Sepcial Character in Column Name``: Indicate whether the dataset should drop special character in column name.  
+#. On the **Dataset Details Page**, enter the required fields as below:
+
+   * ``Name``: Name of the new dataset. 
+   * ``Category``: An apt category that you want to tag the dataset to.
+   * ``Description``: Description of the new dataset.
+   * ``Mode``: Choose the mode to mark the strictness of parsing of the data file.
+   * ``Has Header Row``: Indicates whether the dataset has a header row specifying the names of the columns or not.
+   * ``Delimiter``: Indicates the delimiter to be used between the fields in the data.
+   * ``Path``: Path for the location of the file or directory containing the data files for the dataset.
+   * ``Drop Sepcial Character in Column Name``: Indicate whether the dataset should drop special character in column name.  
  
-Now click on ``Update Dataset/Schema`` to update the schema of the dataset
+Step 4: Update the Schema and View File Contents
 ===========
 
-Sample data for the dataset will be displayed followed by the schema.
+#. Click **Update Sample Data/Schema** to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
 
-.. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
- :alt: Dataset
- :width: 75% 
+   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
+    :alt: Dataset
+    :width: 75% 
 
+#. Click **Eye Icon** located adjacent to **Browse File System** button to view the file contents.
 
-In the example, a dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns.You can view the file by clicking ``Eye icon`` button next to ``Browse``. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
- 
-.. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-4.png
- :alt: Dataset
- :width: 75%
+   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-4.png
+    :alt: Dataset
+    :width: 75%
   
+.. note:: In our example, the dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
 
-Now click ``Save`` to save the new dataset
+Step 5 : Save the New Dataset
 =======
 
-After successfully saving the dataset, you are ready to use it in your workflows.
+Click **Save** to save the new dataset and you are ready to use it in your workflows.
 
-See Datasets list under ``Datasets Tab``
+View the New Dataset
 ======== 
  
-One can see the list of all the datasets that belong to the project under the Datasets tab.
+Click the Datasets Tab to see the list of all the datasets that belong to the project.
 
-.. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
- :alt: Dataset
- :width: 75%
+  .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
+   :alt: Dataset
+   :width: 75%
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
 
 
 

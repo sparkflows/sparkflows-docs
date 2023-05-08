@@ -7,7 +7,7 @@ In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the J
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS:
 
--  https://dev.mysql.com/downloads/connector/j/
+-  https://jdbc.postgresql.org/
 
 As you have created Connection for ``PostgreSQL``, using below steps: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/PostgreSQL.html
 

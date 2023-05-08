@@ -3,21 +3,21 @@ Read from RDBMS
 
 Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
+In order to connect to a JDBC source like PostgresSQL/MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS:
 
-- http://docs.sparkflows.io/en/latest/operating/installing-jdbc-drivers.html
+-  https://dev.mysql.com/downloads/connector/j/
 
 
-Workflow for reading from MySQL
+Workflow for reading from PostgresSQL
 --------------------------------
 
-Below is a workflow which reads data from MySQL and reads the result from ``Print N Rows`` processor. It reads in the data from the ``Loandata`` table in MySQL.
+Below is a workflow which reads data from PostgresSQL and reads the result from ``Print N Rows`` processor. It reads in the data from the ``housing`` table in PostgresSQL.
 
-.. figure:: ../../_assets/user-guide/ReadJDBC_WF.png
-   :alt: JDBC Workflowt
-   :width: 45%
+.. figure:: ../../_assets/user-guide/jdbc_wf.PNG
+   :alt: JDBC Workflow
+   :width: 60%
    
    
 JDBC Processor Configuration
@@ -25,18 +25,18 @@ JDBC Processor Configuration
 
 Below are the configuration details of the JDBC Processor. It uses the provided user credentials for reading from the MySQL database. On clicking on `Refresh Schema`, Fire gets the schema of the table from MySQL and populates the entries.
 
-.. figure:: ../../_assets/user-guide/JDBCNodeConfiguration1.png
+.. figure:: ../../_assets/user-guide/jdbc_config.PNG
    :alt: JDBC Processor Dialog
-   :width: 80%
+   :width: 60%
    
-Results of reading from MySQL Table
+Results of reading from PostgresSQL Table
 ------------------------------------
 
 The following screenshot displays schema of the table from the MySQL table by Fire.
 
-.. figure:: ../../_assets/user-guide/JDBCShemaRefresh1.png
+.. figure:: ../../_assets/user-guide/jdbc_output.PNG
    :alt: JDBC Get Schema
-   :width: 80%
+   :width: 60%
 
 Specifying a Sub-Query
 ----------------------
@@ -47,11 +47,11 @@ In the configuration of the JDBC node for ``DB TABLE``, anything that is valid i
 More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
 
 
-Executing the processor displays the records read from MySQL Table.
+Executing the processor displays the records read from PostgresSQL Table.
 
-.. figure:: ../../_assets/user-guide/ResultJDBC1.png
+.. figure:: ../../_assets/user-guide/jdbc_output.PNG
    :alt: JDBC Result Output
-   :width: 80%
+   :width: 60%
    
 
 JDBC Drivers

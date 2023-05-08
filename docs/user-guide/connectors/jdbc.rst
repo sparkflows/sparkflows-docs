@@ -1,7 +1,7 @@
 Read from RDBMS
 =======================
 
-Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
+Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sources.
 
 In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 

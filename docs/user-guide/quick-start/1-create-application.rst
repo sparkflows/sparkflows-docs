@@ -3,29 +3,30 @@ Step 1: Create Project
 
 Before you start creating a workflow, you will need to create a Project. A project is a bucket where all your artifacts such as datasets, workflows, dashboards, etc. related to a project would reside. Projects are equivalent to workspaces in IDEs.   
 
-* **Login** to Fire Insights.
+#. **Login** to Fire Insights.
   
-* From the **Dashboard** page, click **Create Project** to create a new project.
+#. From the **Dashboard** page, click **Create Project** to create a new project.
+
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Create-Project.png
+    :alt: Quickstart
+    :align: left
+    :width: 75% 
 
 
-  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Create-Project.png
-   :alt: Quickstart
-   :align: left
-   :width: 75% 
-
-
-* Specify *Project Name* and *Description*. For example, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
+#. Specify *Project Name* and *Description*. For example, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
   
-  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Add-Name.png
-   :alt: Quickstart
-   :width: 75%  
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Add-Name.png
+    :alt: Quickstart
+    :align: left
+    :width: 75%  
    
-* Click **Submit**.
+#. Click **Submit**.
 
-* The new Empty project is created and ready to use.  
+#. The new Empty project is created and ready to use.  
 
-  .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Project-List.png
-   :alt: Quickstart
-   :width: 75%
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Project-List.png
+    :alt: Quickstart
+    :align: left
+    :width: 75%
 
   

@@ -68,4 +68,4 @@ Below are the steps required to create "Postgres Connection" :
    
    Now you can create the connection using the resources in datasets and workflows.
 
-.. Note:: Make sure that "Postgres URL" should be accessible from Sparkflows web server URL.
+.. Note:: Make sure that "Postgres URL" should be accessible from Sparkflows web server URL and suitable Driver should be copied to fire lib.

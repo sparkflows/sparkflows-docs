@@ -48,7 +48,7 @@ Installation Steps
 
 * To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit ones need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.
 
-* In order to use MySQL database as the datastore, pass the db configurationa as environment variable as shown below::
+* In order to use MySQL database as the datastore, pass the db configuration as environment variable as shown below::
 
     docker run -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.1.XX_spark_3.2.1 \
     -e FIRE_VERSION=3.1.0 \

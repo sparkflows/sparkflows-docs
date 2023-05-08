@@ -76,3 +76,4 @@ Below are some examples of JDBC URLs for reading from relational sources:
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
 
+.. note::  Make sure to copy postgres jar to python library, inorder to use JDBC Node in PySpark Engine.

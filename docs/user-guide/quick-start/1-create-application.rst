@@ -12,7 +12,6 @@ Before you start creating a workflow, you will need to create a Project. A proje
     :align: left
     :width: 75% 
 
-
 #. Specify *Project Name* and *Description*. For example, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
   
    .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Add-Name.png

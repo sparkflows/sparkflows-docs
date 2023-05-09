@@ -35,7 +35,7 @@ Step 2 : Create an Empty Workflow
 
 #. Give a **Name** and **Category** to your workflow on the **Workflows Editor Page**.
       
-   *Note: The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the category as *Customer Reports*.*
+   *Note: The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the category as 'Customer Reports'.*
     
 #. Click **Save** to save the empty workflow.
 

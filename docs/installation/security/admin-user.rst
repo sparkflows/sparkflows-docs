@@ -1,7 +1,17 @@
-Admin User
+Superuser and Admin Users
 ===========
 
 Fire Insights support variety of permissions for roles. Each user can be assigned one or more roles.
+
+Superuser
+---------
+
+A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user.
+
+Admin user
+---------
+
+An admin user is one who has ``users.manage`` permission.
 
 Permissions supported by Fire Insights
 ----------------------
@@ -82,12 +92,11 @@ In Fire Insights, generally, the below permissions are associated with Admin fea
 - roles.manage
 - configurations.manage
 
-An admin user in Fire Insights is one who has ``users.manage permission``.
 
 Admin User Rights
 -----------------
 
-The Admin user gets the following rights:
+The Admin user has the following rights:
 
 Operating Fire Insights
 ++++++++++++++++++++++++
@@ -136,11 +145,6 @@ Deleting Users/Groups
 In Fire Insights, users cannot be deleted, We can delete Groups. But users can be made inactive.
 
 
-Superuser
----------
-
-A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user, Means it have same Administrative right.
-     
 Details on the Admin user rights
 --------------------
 

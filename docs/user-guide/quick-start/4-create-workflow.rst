@@ -55,9 +55,9 @@ Step 3 : Add, Configure and Connect Processors
      
    An edge between the processors is successfully drawn and they are now connected.
       
-  .. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-2.png
-   :alt: Quickstart
-   :width: 60%
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-2.png
+      :alt: Quickstart
+      :width: 60%
 
 Step 4 : Save the Workflow
 =================

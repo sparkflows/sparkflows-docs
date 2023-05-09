@@ -7,3 +7,4 @@ Fire Insights provides a number of processors for controlling the execution flow
    :hidden:
    
    executeloop.rst
+   condition.rst

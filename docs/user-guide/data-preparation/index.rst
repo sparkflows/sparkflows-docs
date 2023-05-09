@@ -82,12 +82,6 @@ Fire Insights provides the capability to perform the most complex data preperati
 
     ---
 
-    :doc:`/user-guide/data-preparation/condition`
-
-    Provides an array of processors for Condition evaluation to take decision on workflow execution.
-
-    ---
-
     :doc:`/user-guide/data-preparation/others`
 
     Provides an array of additional processors for Data Preparation.
@@ -120,7 +114,6 @@ Fire Insights provides the capability to perform the most complex data preperati
    addcolumn.rst
    castdatatype.rst
    math.rst
-   condition.rst
    others.rst
    data-validation.rst
    transforms.rst

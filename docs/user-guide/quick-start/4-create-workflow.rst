@@ -5,47 +5,67 @@ A typical workflow takes one or more datasets, cleans them, joins them and creat
 
 The steps invoved in creating a workflow are: 
 
-* Click on the ``Workflows`` tab in the Project.
-* Create the empty workflow.
-* Add the processors.
+* Go to Workflows Page.
+* Create an empty workflow.
+* Add, configure and connect processors.
 * Save the workflow.
 
 
-Workflows Tab
+Step 1 : Go to Workflows Page
 ============================
-Click the ``Workflows`` tab in the ``Project`` to view the list of workflows already in the project. The workflow list will be empty if no workflows have been created in the project. 
 
-.. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-1.png
-   :alt: Quickstart
-   :width: 90%
+#. **Open** the **Project** where you want your workflow to reside.
+#. Click **Workflows** tab in the upper-middle bar of the Project page.
+   
+   *Note: The Workflows page displays already created workflows list. It will be empty if no workflows have been created in the project.*
+   
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-1.png
+      :alt: Quickstart
+      :width: 60%
 
 
-Create Empty Workflow
+Step 2 : Create an Empty Workflow
 ========================
 
-Click the ``Create`` button and choose the type of workflow you want to create. Then, enter the ``Name``, ``Category``, and ``Description`` for the workflow. The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the 'Customer Reports' category.
+#. Click **Create** on the **Workflows Page**.
+#. Select the **type** of workflow you want to create from the **drop-down** list. Fire offers:
+      
+      * Spark
+      * PySpark
 
-Click ``Save`` to save the empty workflow.
+#. Give a **Name** and **Category** to your workflow on the **Workflows Editor Page**.
+      
+   *Note: The category is used to group various workflows. For instance, if you have several workflows for customer reports, you can group them by specifying the category as *Customer Reports*.*
+    
+#. Click **Save** to save the empty workflow.
 
 
-Add Processors
+Step 3 : Add, Configure and Connect Processors 
 ===================
 
-After you have saved the empty workflow, you can start adding processors to process the datasets that you defined earlier. Click on the processors on the left-hand side pane. This will make the processor appear on the workflow canvas. Add other processors, configure and connect them as needed.  Two processors can be connected by clicking on the grey box in the first processor and dragging it to the second processor. You can even search by the name of processors using the search panel.
+#. Click the **processor name** in the **Processor Repository** located on the left-hand side pane of the Workflows Editor Page to make processor(s) appear on the Canvas.
+   
+   Note: You can use the **Search Panel** located on top of the Processor Repository to add processors.
 
-.. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-2.png
+#. After adding all the processors, **double-click** each **processor** to open the **configuration window** and configure them as per your need.
+#. **Connect** two processors by drawing an **edge** between them. To draw an edge:
+   
+   * **Hover** the cursor over **Grey Square Icon** present on the processor and **click**.
+   * While clicking **drag** the cursor and **drop** it on the processor to which you want to establish a connection.
+     
+   An edge between the processors is successfully drawn and they are now connected.
+      
+  .. figure:: ../../_assets/tutorials/quickstart/Create-Workflows/CreateWorkflow-2.png
    :alt: Quickstart
    :width: 60%
 
-
-
-
-Save Workflow
+Step 4 : Save the Workflow
 =================
 
-Once your pipeline of processors is built, save the workflow by clicking on the ``Save`` button.
-
-Each time the workflow is saved, a new version of the workflow is created.
+Click **Save** after you finish building your pipline of processors. Now, you are ready to process your dataset.
+   
+*Note: Each time the workflow is saved, a new version of the workflow is created.*
 
 .. note:: Only CSV and Snowflake dataset is supported to be used in workflow as of today.
+
 

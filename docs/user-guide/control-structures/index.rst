@@ -1,8 +1,7 @@
-Utilities
+Control Structures
 ==========
 
-Fire Insights provides a number of utilities processors like Execute in Loop, Specify Parameters, Read Parameters.
-
+Fire Insights provides a number of processors for controlling the execution flow. These include Execute in Loop, Specify Parameters, Read Parameters.
 
 .. toctree::
    :hidden:

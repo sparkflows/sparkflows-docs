@@ -34,7 +34,7 @@ Step 2 : Select the Method to Create Dataset
 
   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
    :alt: Dataset
-   :width: 75%
+   :width: 60%
 
 Step 3: Select Dataset Type and Enter the Fields
 ===============
@@ -43,7 +43,7 @@ Step 3: Select Dataset Type and Enter the Fields
 
    .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
     :alt: Dataset
-    :width: 75% 
+    :width: 60% 
 
 #. On the **Dataset Details Page**, enter the required fields as below:
 
@@ -63,13 +63,13 @@ Step 4: Update the Schema and View File Contents
 
    .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
     :alt: Dataset
-    :width: 75% 
+    :width: 60% 
 
 #. Click **Eye Icon** located adjacent to **Browse File System** button to view the file contents.
 
    .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-4.png
     :alt: Dataset
-    :width: 75%
+    :width: 60%
   
 .. note:: In our example, the dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
 
@@ -81,11 +81,11 @@ Click **Save** to save the new dataset and you are ready to use it in your workf
 View the New Dataset
 ======== 
  
-Click the Datasets Tab to see the list of all the datasets that belong to the project.
+Click the **Datasets Tab** to see the list of all the datasets that belong to the project.
 
   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
    :alt: Dataset
-   :width: 75%
+   :width: 60%
 
 
 

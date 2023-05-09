@@ -109,6 +109,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    reading-writing/index
    connectors/index
    data-preparation/index
+   control-structures/index
    data-exploration/index
    data-profile/index
    data-quality/index

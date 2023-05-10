@@ -11,7 +11,7 @@ The steps involved in creating a dataset are:
 #. Click **Update Sample Data/Schema** to update schema and click **Eye Icon** to view the file contents.
 #. Click **Save** to save the new dataset.
 
-This page shows the detailed steps for creating a Dataset.
+This document explains in detail the steps involved in creating a dataset.
 
 Step 1 : Open the Project
 ======
@@ -24,13 +24,13 @@ Step 2 : Select the Method to Create Dataset
 =============
 
 #. Click **Create** on the **Dataset Page**.
-#. Select the method to create the dataset from the **drop-down** list. You can choose from the following methods offered:
+#. Select the method to create the dataset from the **drop-down** list. Choose any one of the below:
    
    * From Existing File
    * By Uploading New File
    * Using Connections
   
-  Here, we choose **From Existing Files** method. 
+  Here, we choose **From Existing File** method. 
 
   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
    :alt: Dataset
@@ -39,7 +39,11 @@ Step 2 : Select the Method to Create Dataset
 Step 3: Select Dataset Type and Enter the Fields
 ===============
  
-#. On the pop-up **Create Dataset Page**, select dataset type from the available file formats e.g. CSV, XML, AVRO etc. Here, we choose **CSV**.
+#. On the pop-up **Create Dataset Page**, select dataset type from the available file formats.
+
+   *Note: Fire offers AVRO, CSV, JSON, PARQUET, SEQUENCE, XML file formats.*  
+   
+   Here, we choose **CSV**.
 
    .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
     :alt: Dataset
@@ -59,7 +63,9 @@ Step 3: Select Dataset Type and Enter the Fields
 Step 4: Update the Schema and View File Contents
 ===========
 
-#. Click **Update Sample Data/Schema** to update the schema of the dataset. Sample data for the dataset will be displayed followed by the schema.
+#. Click **Update Sample Data/Schema** to update the schema of the dataset. 
+
+   *Note: Sample data for the dataset will be displayed followed by the schema.*
 
    .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
     :alt: Dataset
@@ -71,17 +77,19 @@ Step 4: Update the Schema and View File Contents
     :alt: Dataset
     :width: 60%
   
-.. note:: In our example, the dataset is created from a file named ``housing.csv`` . It is a comma separated file with a header row specifying the names of the various columns. If the data file does not have a header row, Fire Insights will give dummy column names like ``C0``, ``C1``, etc. You can update the column names in the schema based on your data.
+.. note:: * We have created the dataset using a comma separated file named ``housing.csv`` which contains a header row specifying column names. 
+          * If the file does not contain the header row, Fire will give dummy column names e.g. ``C0``, ``C1``, etc.  
+          * In case of missing header row, Fire allows you to customize the column names in the schema based on your data.
 
 Step 5 : Save the New Dataset
 =======
 
-Click **Save** to save the new dataset and you are ready to use it in your workflows.
+#. Click **Save** to save the new dataset and you are ready to use it in your workflows.
 
 View the New Dataset
 ======== 
  
-Click the **Datasets Tab** to see the list of all the datasets that belong to the project.
+#. Click the **Datasets Tab** to view the datasets list belonging to the project.
 
   .. figure:: ../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
    :alt: Dataset

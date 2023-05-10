@@ -5,44 +5,48 @@ After you have created a workflow, it is time to execute it and view the results
 
 The steps involved in executing a workflow are: 
 
-* Click on the ``Workflows`` tab.
-* Click on the ``Play`` button.
-* Specify the parameters, if any.
-* Click on ``Execute``.
+#. Go to the **Workflows** tab.
+#. Go to the **workflow execute page**.
+#. Specify the **execution parameters**, if any.
+#. **Execute** the workflow to view the result.
 
+This document explains the detailed steps required to execute a workflow in Fire Insights.
 
-Go to the Workflows tab
+Step 1 : Go to the Workflows Tab
 ============================
 
-Click the ``Workflows`` tab to view the list of workflows in the project. 
+#. Open the **project** where your workflow resides.
+#. Click the **Workflows** tab to view the list of workflows in the project. 
+   
+   *Note: For each workflow, there is a list of Actions to trigger a specific functionality.*
 
-.. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute1.png
-   :alt: Workflow Listings
-   :width: 75%
+   .. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute1.png
+      :alt: Workflow Listings
+      :width: 65%
 
 
-Go to the Workflow Execute Page
+Step 2 : Go to the Workflow Execute Page
 ========================
 
-For each workflow, there is a list of ``Actions`` to trigger a specific functionality.
-
-Click the ``Play`` action icon to execute the workflow.
+#. From the **Action list**, click the **Play** action icon to reach the execute page.
 
 
-Specify the execution parameters
+Step 3 : Specify the Execution Parameters
 ======================
 
-Specify any parameters for your workflow. 
+#. If necessary, fill in the parameters for your workflow. 
 
-.. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute2.png
-   :alt: Workflow Execute
-   :width: 75%
+   .. figure:: ../../_assets/tutorials/quickstart/ExecuteWorkflow/Execute2.png
+      :alt: Workflow Execute
+      :width: 65%
 
 
-Execute the Workflow
+Step 4 : Execute the Workflow
 ================
 
-Once you have specified the parameters, click on the ``Execute`` button. The result of execution are streamed back into your browser.
+#. Once you have specified the parameters, click the **Execute** button. 
+
+   *Note: The result of execution is streamed back into your browser.*
 
 
 

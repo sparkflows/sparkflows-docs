@@ -3,7 +3,7 @@ Step 4 : Create Workflow
 
 A typical workflow takes one or more datasets, cleans them, joins them and creates an enriched dataset. After the enriched dataset is created, you can add additional processors to build machine learning models.
 
-The steps invoved in creating a workflow are: 
+The steps involved in creating a workflow are: 
 
 * Go to Workflows Page.
 * Create an empty workflow.
@@ -45,7 +45,7 @@ Step 3 : Add, Configure and Connect Processors
 
 #. Click the **processor name** in the **Processor Repository** located on the left-hand side pane of the Workflows Editor Page to make processor(s) appear on the Canvas.
    
-   *Note: You can use the **Search Panel** located on top of the Processor Repository to add processors.*
+   *Note: You can use the Search Panel located on top of the Processor Repository to add processors.*
 
 #. After adding all the processors, **double-click** each **processor** to open the **configuration window** and configure them as per your need.
 #. **Connect** two processors by drawing an **edge** between them. To draw an edge:

@@ -11,7 +11,7 @@ The steps involved in creating a dataset are:
 #. Click **Update Sample Data/Schema** to update schema and click **Eye Icon** to view the file contents.
 #. Click **Save** to save the new dataset.
 
-This document explains in detail the steps involved in creating a dataset.
+This document explains in detail the steps involved in creating a dataset in Fire Insights.
 
 Step 1 : Open the Project
 ======

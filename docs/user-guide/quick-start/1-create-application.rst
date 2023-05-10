@@ -9,14 +9,16 @@ Before you start creating a workflow, you will need to create a Project. A proje
    .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Create-Project.png
     :alt: Quickstart
     :align: left
-    :width: 75% 
+    :width: 65% 
 
-#. On the **Create Project (pop-up) window**, specify **Project Name** and **Description**. For instance, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
+#. On the **Create Project (pop-up) window**, specify **Project Name** and **Description**. 
+
+   For instance, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
   
    .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Add-Name.png
     :alt: Quickstart
     :align: left
-    :width: 75%  
+    :width: 65%  
    
 #. Click **Submit**.
 #. The new Empty project is created and ready to use.  
@@ -24,6 +26,6 @@ Before you start creating a workflow, you will need to create a Project. A proje
    .. figure:: ../../_assets/tutorials/quickstart/Create-Project/Project-List.png
     :alt: Quickstart
     :align: left
-    :width: 75%
+    :width: 65%
 
   

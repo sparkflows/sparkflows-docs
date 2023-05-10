@@ -3,7 +3,15 @@ Step 2 : Upload Data Files
 
 The workflow needs data to work on. So, the next step will be to upload a data file that you want to process in your workflow.
 
-Go to the File System Page to Upload Files
+The steps involved in uploading data files are:
+
+#. Go to File System Page
+#. Choose and Upload Files
+#. View the Uploaded Files
+
+This document explains in detail the steps required to upload data files in Fire Insights.
+
+Go to the File System Page 
 -----------
 
 #. To upload data contained in CSV file format, hover the cursor over **Data** in the top menu bar to display the drop-down list.
@@ -26,7 +34,7 @@ Choose and Upload Files
     :alt: Quickstart
     :width: 65%
  
-Finally View the Uploaded Files
+View the Uploaded Files
 ---------
 
 #. Go to the **File System Page** to view the uploaded files.

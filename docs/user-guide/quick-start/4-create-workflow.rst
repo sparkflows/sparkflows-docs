@@ -10,6 +10,7 @@ The steps involved in creating a workflow are:
 * Add, configure and connect processors.
 * Save the workflow.
 
+This document explains in detail the steps involved in creating a workflow.
 
 Step 1 : Go to Workflows Page
 ============================

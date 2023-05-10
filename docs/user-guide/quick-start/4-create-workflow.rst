@@ -5,10 +5,10 @@ A typical workflow takes one or more datasets, cleans them, joins them and creat
 
 The steps involved in creating a workflow are: 
 
-* Go to Workflows Page.
-* Create an empty workflow.
-* Add, configure and connect processors.
-* Save the workflow.
+#. Go to Workflows Page.
+#. Create an empty workflow.
+#. Add, configure and connect processors.
+#. Save the workflow.
 
 This document explains in detail the steps involved in creating a workflow.
 

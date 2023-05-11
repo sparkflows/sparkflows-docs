@@ -13,9 +13,9 @@ Click on Create New Workflow for creating a new workflow. It supports two engine
 It will open the workflow editor where the workflow can be created.
 
 
-.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DefineNewWF.png
+   .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DefineNewWF.png
    :alt: workflow
-   :width: 75%
+   :width: 70%
 
  
 Step 2 : Add New Nodes to the Workflow
@@ -25,9 +25,9 @@ Workflows editor has a list of nodes menu on the LHS i.e. Node Repository.
 
 Clicking on any of the nodes creates it in the workspace.
 
-.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/AddProcessors.png
-   :alt: workflow
-   :width: 75%
+   .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/AddProcessors.png
+      :alt: workflow
+      :width: 70%
 
 
 Step 3 : Create and Delete Edges
@@ -42,9 +42,9 @@ Step 3 : Create and Delete Edges
   
   * Edges can be deleted by clicking on the Edge number and selecting 'Delete'.
 
-.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DeleteEdge.png
-   :alt: workflow
-   :width: 70%
+   .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DeleteEdge.png
+      :alt: workflow
+      :width: 70%
 
 
 Step 4 : Save Workflow
@@ -55,9 +55,9 @@ Step 4 : Save Workflow
   * Click on the 'Save' button to save the newly created workflow.
   * You can also save a new version for the workflow.
 
-.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/SaveWF.png
-   :alt: workflow
-   :width: 75%
+   .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/SaveWF.png
+      :alt: workflow
+      :width: 70%
 
 
 
@@ -66,9 +66,9 @@ Step 5 : View Workflows
 
 You can view the workflows by going to the workflows tab of the project.
 
-.. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/ViewWF.png
-   :alt: workflow
-   :width: 75%
+   .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/ViewWF.png
+      :alt: workflow
+      :width: 70%
 
 
 

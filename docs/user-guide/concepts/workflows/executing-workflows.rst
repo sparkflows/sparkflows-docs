@@ -3,9 +3,9 @@ Executing Workflows
 
 The ways in which the Fire workflows can be executed are: 
  
- * **Interactively within the User Interface**.
- * **Submitting the workflows using Spark-Submit through the command line**.
- * **Scheduling for execution with your Scheduler of Choice**.
+ #. Interactively within the User Interface.
+ #. Submitting the workflows using Spark-Submit through the command line.
+ #. Scheduling for execution with your Scheduler of Choice.
  
 Interactively within the User Interface
 ------------------------------------------
@@ -13,9 +13,9 @@ Interactively within the User Interface
 Workflows can be executed from the browser by going into the Execute page of the workflow.
 
 
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Execute1.png
-   :alt: Workflow
-   :width: 70%
+   .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Execute1.png
+      :alt: Workflow
+      :width: 70%
 
 Executing Workflows with Spark-Submit
 --------------------------------------
@@ -62,52 +62,52 @@ The View JSON Workflow page of the workflow displays the JSON representations of
 
 
 
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/ViewJSON.png
-   :alt: Sparkflows Json Workflow
-   :width: 75%
- 
- 
+  .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/ViewJSON.png
+     :alt: Sparkflows Json Workflow
+     :width: 70%
+
+
 Scheduling Workflow Execution with Scheduler of Choice
 ----------------------------------------------------------
  
 Since Fire workflows can be submitted with Spark-Submit, you can use your scheduler of choice for scheduling the execution of the workflows.
  
-- Click on the ``Schedule`` button of the workflow you want to schedule.
+#. Click on the *Schedule button* of the workflow you want to schedule.
 
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule1.png
-   :alt: Workflow
-   :width: 75%  
+   .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule1.png
+     :alt: Workflow
+     :width: 70%  
  
  
-- Click on the ``Schedule New Job for Workflow`` tab for the workflow.
+#. Click on the *Schedule New Job for Workflow* tab for the workflow.
  
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule2.png
-   :alt: Workflow
-   :width: 75% 
+   .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule2.png
+      :alt: Workflow
+      :width: 70% 
 
-- Update the scheduled timing & email notifications after the success & failure of the workflow as per your requirements.
+#. Update the *scheduled timing* & *email notifications* after the success & failure of the workflow as per your requirements.
  
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule3.png
-   :alt: Workflow
-   :width: 50%    
+   .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule3.png
+      :alt: Workflow
+      :width: 50%    
 
-- Click on ``SUBMIT`` to save the changes.
+#. Click on *Submit* to save the changes.
 
-.. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule4.png
-   :alt: Workflow
-   :width: 75%  
+   .. figure:: ../../../_assets/user-guide/workflow/Executing-Workflow/Schedule4.png
+      :alt: Workflow
+      :width: 70%  
 
  
 Debugging Workflows
 -------------------
  
-Many times it is helpful to be able to debug the workflows. One easy way is to check the 'Debug Checkbox' in the UI when executing the workflow.
+Many times it is helpful to be able to debug the workflows. One easy way is to check the *Debug Checkbox* in the UI when executing the workflow.
  
 Running in Debug Mode does a few things:
 
-* Performs a count() after executing each processor. This makes it easier to debug and understand the pipeline. It takes out Fire Insights’ lazy execution from the picture.
-* Displays the number of records processed at each stage.
-* Displays more information for each SQL, etc., which are being executed.
+#. Performs a count() after executing each processor. This makes it easier to debug and understand the pipeline. It takes out Fire Insights’ lazy execution from the picture.
+#. Displays the number of records processed at each stage.
+#. Displays more information for each SQL, etc., which are being executed.
 
 
 

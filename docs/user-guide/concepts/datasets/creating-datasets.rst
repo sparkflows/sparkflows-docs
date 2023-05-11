@@ -10,14 +10,14 @@ You can define a new dataset by clicking on the Create Dataset button on the Dat
 * By Uploading New File
 * Using Connection
 
-.. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
+ .. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-1.png
    :alt: Dataset
    :width: 75%
 
 It will bring up the dialog box as below. Select the format of the file for which the new dataset is being created.
 
 
-.. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
+ .. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-2.png
    :alt: Dataset
    :width: 75%
    
@@ -38,7 +38,7 @@ Below are the details of the fields in the Create Dataset page:
   
  
 
-.. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/DatasetDetails.png
+ .. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/DatasetDetails.png
    :alt: Dataset
    :width: 75%
 
@@ -52,7 +52,7 @@ In this example, the data file did not have a header row. So, Fire gave it stand
 
 You can customize the column names in the schema based on your data.
  
-.. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
+ .. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-3.png
    :alt: Dataset
    :width: 75% 
    
@@ -63,7 +63,7 @@ Step 4 : Save the New Dataset
 Click on the Save button to save the new dataset created.
  
  
-.. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
+ .. figure:: ../../../_assets/tutorials/dataset/Create-Dataset/NewDataset-5.png
    :alt: Dataset
    :width: 75%  
  

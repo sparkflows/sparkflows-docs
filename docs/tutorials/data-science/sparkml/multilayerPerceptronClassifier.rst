@@ -37,7 +37,7 @@ The below workflow:
 * **Predict** - Takes a dataframe and a model and predicts the result.
 * **PrintNRows** - Print the final result.
 
- .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-workflow.png
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/perceptron-wf.png
     :alt: MLPC
     :width: 70%
    
@@ -54,7 +54,7 @@ Below is the configuration for the Multilayer Perceptron nodes in the workflow.
 * **Max Number Of Iterations** - Number of iterations to train the neural network.
 * **Seed** - The initial seed to initialize the neural network.
 
- .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-configuration.png
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/perceptron-config.png
     :alt: MLPC
     :width: 70%
    
@@ -62,7 +62,7 @@ Below is the configuration for the Multilayer Perceptron nodes in the workflow.
 Result - Row Values
 --------------------------------------------
 
- .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-rowValues.png
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/row-values.png
     :alt: MLPC
     :width: 70%
    
@@ -70,7 +70,7 @@ Result - Row Values
 Result - Matrix
 --------------------------------------------
 
- .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/mlpc-matrix-result.png
+ .. figure:: ../../../_assets/tutorials/machine-learning/mlpc/matrix.png
     :alt: MLPC
     :width: 70%
    

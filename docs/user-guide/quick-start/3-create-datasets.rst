@@ -6,7 +6,7 @@ To use a data file in multiple projects, it is ideal to wrap it into a dataset. 
 The steps involved in creating a dataset are:
 
 #. **Open** the **project** where you want to create a dataset and click **Datasets tab**.
-#. Click on **Create** and choose one of the methods from the **drop-down** list to create a Dataset.
+#. Click on **Create** and choose one of the mode from the **drop-down** list to create a Dataset.
 #. Select the **dataset type** and enter the **fields** in the dialog box.
 #. Click **Update Sample Data/Schema** to update schema and click **Eye Icon** to view the file contents.
 #. Click **Save** to save the new dataset.
@@ -20,11 +20,11 @@ Step 1 : Open the Project
 #. Click the **Project Name** where you want to create your dataset.
 #. Click the **Datasets** tab in upper-middle bar on the Project page.
 
-Step 2 : Select the Method to Create Dataset
+Step 2 : Select the Mode to Create Dataset
 =============
 
 #. Click **Create** on the **Dataset Page**.
-#. Select the method to create the dataset from the **drop-down** list. Choose any one of the below:
+#. Select the mode to create the dataset from the **drop-down** list. Choose any one of the below:
    
    * From Existing File
    * By Uploading New File

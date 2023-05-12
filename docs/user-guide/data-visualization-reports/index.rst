@@ -8,26 +8,56 @@ Processors in Sparkflows can provide output of data in the form of tables, chart
 For example, we might want to take output of a chart of the number of bike rentals per hour, another by per day and another map displaying the total number of bike rentals per city for the day. 
 Report can combine all these into one view.
 
-Accessing Reports
+This document gives detailed explanation of steps needed to access, create, edit, view and stream reports in Fire Insights.
+
+Step 1 : Accessing Reports
 --------------------
 
-- Access the Reports inside the Project View.   
-- Open the Reports View.
+The Reports Tab of the project is the place where all the reports connected to the Project reside. 
+
+Follow the below steps to access these reports :
+
+#. Open the concerned **project**.
+#. Hit the **Reports Tab** to open **Reports List Page**.  
+#. Hit the **Iye Icon** to access (open and view) the report.
+
+  *Note: If there are no previously created reports, the Reports List page would appear empty.*
  
-.. figure:: ../../_assets/user-guide/reports/ReportList.png
-   :alt: Fire Insights Access Report
-   :width: 60%   
+  .. figure:: ../../_assets/user-guide/reports/ReportList.png
+     :alt: Fire Insights Access Report
+     :width: 60%   
  
-Creating Reports
+Step 2: Creating Reports
 --------------------
  
-- For creating reports, drag and drop the required processors from the workflows into the Report Canvas.
-- When the corresponding workflows are run, the output is stored by Sparkflows into the relational store. These get displayed in the Report.
+To create a new report, follow the below steps :
 
-.. figure:: ../../_assets/user-guide/reports/CreateReport.png
-   :alt: Fire Insights Create Report
-   :width: 65%
+#. From the Reports List Page, hit **Create New Report/Create Report**.
+#. Choose the **report type**. Fire offers 2 types :
+   
+   * Classic Report
+   * Standard Report
+   
+   Note: Standard Report is preferable if you want more customization flexibility.
+
+#. On the Create Report Page, **add processors** into the **Report Canvas**. To add :
+
+   * Hit the **workflow name** in Workflows Repository located on LHS.
+   * **Drag and drop** the required **processors** into the Report Canvas.
+   
+#. Save the Report after you finish adding processors. To save: 
+
+   * Give a **name**, **description** and **category** to your report.
+   * Hit the **Save** Button.
+   
+   Now, you are ready to edit or view reports.
+   
+  .. figure:: ../../_assets/user-guide/reports/CreateReport.png
+     :alt: Fire Insights Create Report
+     :width: 65%
  
+.. Note:: When the corresponding workflows are run, the output is stored by Sparkflows into the relational store. These get displayed in the Report.
+
 Editing Reports
 ------------------
 

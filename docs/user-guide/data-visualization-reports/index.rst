@@ -19,13 +19,13 @@ Follow the below steps to access these reports :
 
 #. Open the concerned **project**.
 #. Hit the **Reports Tab** to open **Reports List Page**.  
-#. Hit the **Iye Icon** to access (open and view) the report.
+#. Hit the **Eye Icon** to access (open and view) the report.
 
-  *Note: If there are no previously created reports, the Reports List page would appear empty.*
+  *Note: If there are no previously created reports, the Reports List page would appear empty.
  
-  .. figure:: ../../_assets/user-guide/reports/ReportList.png
-     :alt: Fire Insights Access Report
-     :width: 60%   
+   .. figure:: ../../_assets/user-guide/reports/ReportList.png
+      :alt: Fire Insights Access Report
+      :width: 65%   
  
 Step 2: Creating Reports
 --------------------
@@ -40,10 +40,11 @@ To create a new report, follow the below steps :
    
    Note: Standard Report is preferable if you want more customization flexibility.
 
-#. On the Create Report Page, **add processors** into the **Report Canvas**. To add :
+#. On the Create Report Page, **add or delete processors** into the **Report Canvas**. 
 
    * Hit the **workflow name** in Workflows Repository located on LHS.
-   * **Drag and drop** the required **processors** into the Report Canvas.
+   * To add, **Drag and drop** the required **processors** into the Report Canvas.
+   * To delete, simply hit the **cross icon** present on each processor card.
    
 #. Save the Report after you finish adding processors. To save: 
 
@@ -52,30 +53,34 @@ To create a new report, follow the below steps :
    
    Now, you are ready to edit or view reports.
    
-  .. figure:: ../../_assets/user-guide/reports/CreateReport.png
-     :alt: Fire Insights Create Report
-     :width: 65%
+    .. figure:: ../../_assets/user-guide/reports/CreateReport.png
+       :alt: Fire Insights Create Report
+       :width: 65%
  
 .. Note:: When the corresponding workflows are run, the output is stored by Sparkflows into the relational store. These get displayed in the Report.
 
-Editing Reports
+Step 3 : Editing Reports
 ------------------
 
-Editing reports is like creating them, except that you click the edit button to edit the corresponding report.
+Editing reports is like creating them, except that you click the edit button to edit the corresponding report. To edit:
+
+#. On the Reports List page, hit the **pencil icon** adjacent to the eye icon of the report you want to edit.
+#. Edit report by adding or deleting processors. 
+#. Hit the **Save** button to save the new changes.
  
-.. figure:: ../../_assets/user-guide/reports/CreateReport.png
-   :alt: Fire Insights Editing Reports
-   :width: 65%
+    .. figure:: ../../_assets/user-guide/reports/CreateReport.png
+       :alt: Fire Insights Editing Reports
+       :width: 65%
+
    
-   
-Viewing Reports
+Step 4 : Viewing Reports
 ------------------
 
-Once a report has been created, you can view it by clicking on the ``View`` button.
+#. Hit the **View** button located next to Save button to view the report.
   
-.. figure:: ../../_assets/user-guide/reports/ViewReport.png
-   :alt: Fire Insights Editing Reports
-   :width: 65%
+    .. figure:: ../../_assets/user-guide/reports/ViewReport.png
+       :alt: Fire Insights Editing Reports
+       :width: 65%
    
 Streaming Reports
 ---------------------
@@ -87,9 +92,9 @@ Streaming Reports
 Videos
 -----------------
 
-Watch the video tutorial on how to create a report at the Sparkflows YouTube channel. Find the link below.
+To get more insights, you can watch tutorial video on `Creating a Report in Fire Insights. <www.youtube.com/watch?v=lWWRPKxMf7Q>`_
 
-* Creating a Report: https://www.youtube.com/watch?v=lWWRPKxMf7Q
+
 
 
 

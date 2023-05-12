@@ -17,9 +17,9 @@ Workflow
 
 Below is the workflow to create oversampling.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/a1.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/SMOTE-WF.png
    :alt: SMOTE
-   :width: 60%
+   :width: 70%
    
 The workflow:
 
@@ -32,13 +32,13 @@ Read CSV
 
 In the ReadCSV, select the path by browse.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/b.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/read-config.png
    :alt: SMOTE
    :width: 70%
 
 Input Data.
 ++++++++++
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/b1.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/read-output.png
    :alt: SMOTE
    :width: 70%
 
@@ -47,7 +47,7 @@ VectorAssembler
 
 In the VectorAssembler, select the fields you want to include as a features. As the VectorAssembler supports only the numeric fields, only the numeric fields are displayed.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/c.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/vector-config.png
    :alt: SMOTE
    :width: 70%
 
@@ -56,13 +56,13 @@ SMOTE
 
 In the SMOTE, select the lable field & feature field.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/d.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/smote-config.png
    :alt: SMOTE
    :width: 70%
   
 RESULT
 +++++++++++++++  
 
-.. figure:: ../../../_assets/tutorials/machine-learning/smote/e.png
+.. figure:: ../../../_assets/tutorials/machine-learning/smote/result.png
    :alt: SMOTE
    :width: 70%

@@ -14,8 +14,8 @@ It will open the workflow editor where the workflow can be created.
 
 
    .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/DefineNewWF.png
-   :alt: workflow
-   :width: 70%
+      :alt: workflow
+      :width: 70%
 
  
 Step 2 : Add New Nodes to the Workflow

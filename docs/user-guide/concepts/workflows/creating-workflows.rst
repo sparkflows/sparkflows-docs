@@ -23,7 +23,7 @@ Step 2 : Add New Nodes to the Workflow
 
 Workflows editor has a list of nodes menu on the LHS i.e. Node Repository. 
 
-Clicking on any of the nodes creates it in the workspace.
+Clicking on any of the nodes creates it in the workspace (makes it appear on the canvas).
 
    .. figure:: ../../../_assets/user-guide/workflow/Creating-Workflow/AddProcessors.png
       :alt: workflow

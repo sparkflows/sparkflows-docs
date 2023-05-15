@@ -21,7 +21,7 @@ Follow the below steps to access these reports :
 #. Hit the **Reports Tab** to open **Reports List Page**.  
 #. Hit the **Eye Icon** to access (open and view) the report.
 
-  *Note: If there are no previously created reports, the Reports List page would appear empty.
+  *Note: If there are no previously created reports, the Reports List page would appear empty.*
  
    .. figure:: ../../_assets/user-guide/reports/ReportList.png
       :alt: Fire Insights Access Report
@@ -38,7 +38,7 @@ To create a new report, follow the below steps :
    * Classic Report
    * Standard Report
    
-   Note: Standard Report is preferable if you want more customization flexibility.
+   *Note: Standard Report is preferable if you want more customization flexibility.*
 
 #. On the Create Report Page, **add or delete processors** into the **Report Canvas**. 
 
@@ -92,9 +92,6 @@ Streaming Reports
 Videos
 -----------------
 
-To get more insights, you can watch tutorial video on `Creating a Report in Fire Insights. <www.youtube.com/watch?v=lWWRPKxMf7Q>`_
-
-
-
+To get more insights, you can watch tutorial video on `Creating a Report in Fire Insights. <https://www.youtube.com/watch?v=lWWRPKxMf7Q&t=10s>`_
 
 

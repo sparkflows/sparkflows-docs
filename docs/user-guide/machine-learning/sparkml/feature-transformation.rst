@@ -81,10 +81,10 @@ Tokenization is the process of taking text (such as a sentence) and breaking it 
 
 Additional Information and examples can be found at: https://spark.apache.org/docs/latest/ml-features#tokenizer
 
-*Tokenizer node can be configured as below*
+*Tokenizer node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/tokenizer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/tokenizer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -99,7 +99,7 @@ RegexTokenizer allows more advanced tokenization based on regular expression (re
 *Regex Tokenizer node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/regextokenizer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/regex-tokenizer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -119,7 +119,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 
 *Stop Word Remover node can be configured as below:*
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/stopwordsremover-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/stop-words-remover.png
    :alt: Machine Learning
    :width: 75%
 
@@ -139,7 +139,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 
 *N Gram Transformer node can be configured as below:*
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/ngram-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/n-gram-transformer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -160,7 +160,7 @@ Additional Information and Examples can be found at: https://spark.apache.org/do
 *Binarizer node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/binarizer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/binarizer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -193,7 +193,7 @@ Additional Information and Examples can be found at: https://spark.apache.org/do
 *String Indexer node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/stringindexer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/string-indexer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -211,7 +211,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 *Index String node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/indexstring-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/index-string.png
    :alt: Machine Learning
    :width: 75%
 
@@ -231,7 +231,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 *One Hot Encoder node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/onehotencoder-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/one-hot-encoder.png
    :alt: Machine Learning
    :width: 75%
 
@@ -254,7 +254,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 
 *Vector Indexer node can be configured as below:*
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vectorindexer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vector-indexer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -269,7 +269,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 
 *Normalizer node can be configured as below:*
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/normalizer-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/Normalizer.png
    :alt: Machine Learning
    :width: 75%
 
@@ -277,7 +277,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 -	Output column that lists the transformed data needs to be entered in ``Output Column`` box.
 -	p-norm that needs to be used to Normalize vector data is to be entered in ``P`` box.
 
-Standard Scalar
+Standard Scaler
 ------------------
 StandardScaler transforms a dataset of Vector rows, normalizing each feature to have unit standard deviation and/or zero mean. It takes parameters:
 
@@ -294,7 +294,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 *Standard Scaler node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/standardscaler-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/standard-scaler.png
    :alt: Machine Learning
    :width: 75%
 
@@ -304,7 +304,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 *	``With Standard Dev`` needs to be selected as True if individual column data needs to be scaled to 1 Standard Deviation value.
 
 
-Min Max Scalar
+Min Max Scaler
 ----------------
 MinMaxScaler transforms a dataset of Vector rows, rescaling each feature to a specific range (often [0, 1]). It takes parameters:
 
@@ -318,7 +318,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 
 *MinMax Scaler node can be configured as below:*
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/minmaxscaler-config.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/minmax-scaler.png
    :alt: Machine Learning
    :width: 75%
 
@@ -343,11 +343,7 @@ Additional Information and examples can be found at: https://spark.apache.org/do
 *Vector Assembler node can be configured as below:*
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vectorassembler-config1.png
-   :alt: Machine Learning
-   :width: 75%
-
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vectorassembler-config2.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/featuretransformation/vector-assembler.png
    :alt: Machine Learning
    :width: 75%
 

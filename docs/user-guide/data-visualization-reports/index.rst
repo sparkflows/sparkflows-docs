@@ -23,7 +23,7 @@ Follow the below steps to access these reports :
 
   *Note: If there are no previously created reports, the Reports List page would appear empty.*
  
-   .. figure:: ../../_assets/user-guide/reports/ReportList.png
+  .. figure:: ../../_assets/user-guide/reports/ReportList.png
       :alt: Fire Insights Access Report
       :width: 65%   
  
@@ -53,7 +53,7 @@ To create a new report, follow the below steps :
    
    Now, you are ready to edit or view reports.
    
-    .. figure:: ../../_assets/user-guide/reports/CreateReport.png
+   .. figure:: ../../_assets/user-guide/reports/CreateReport.png
        :alt: Fire Insights Create Report
        :width: 65%
  
@@ -68,7 +68,7 @@ Editing reports is like creating them, except that you click the edit button to 
 #. Edit report by adding or deleting processors. 
 #. Hit the **Save** button to save the new changes.
  
-    .. figure:: ../../_assets/user-guide/reports/CreateReport.png
+   .. figure:: ../../_assets/user-guide/reports/CreateReport.png
        :alt: Fire Insights Editing Reports
        :width: 65%
 
@@ -78,7 +78,7 @@ Step 4 : Viewing Reports
 
 #. Hit the **View** button located next to Save button to view the report.
   
-    .. figure:: ../../_assets/user-guide/reports/ViewReport.png
+   .. figure:: ../../_assets/user-guide/reports/ViewReport.png
        :alt: Fire Insights Editing Reports
        :width: 65%
    

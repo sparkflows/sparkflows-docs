@@ -14,20 +14,29 @@ The below workflow:
 * Scores the test dataset using the model created.
 * Prints the results.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/workflow.png
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-k-means-wf.png
    :alt: H2O K-means
    :width: 65%
 
 H2O K-means Clustering Configuration
 ---------------------
 
-.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/clustering-config.png
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-k-means-config.png
    :alt: H2O K-means
    :width: 75%
 
 Results
 ---------------------
 
-.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/result.png
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-model-summary1.png
    :alt: H2O K-means
    :width: 75%
+
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-model-summary2.png
+   :alt: H2O K-means
+   :width: 75%
+   
+.. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-train-metrics.png
+   :alt: H2O K-means
+   :width: 75%
+

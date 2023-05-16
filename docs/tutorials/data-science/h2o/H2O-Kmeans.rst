@@ -23,20 +23,20 @@ H2O K-means Clustering Configuration
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-k-means-config.png
    :alt: H2O K-means
-   :width: 75%
+   :width: 65%
 
 Results
 ---------------------
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-model-summary1.png
    :alt: H2O K-means
-   :width: 75%
+   :width: 65%
 
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-model-summary2.png
    :alt: H2O K-means
-   :width: 75%
+   :width: 65%
    
 .. figure:: ../../../_assets/tutorials/machine-learning/H2O-Kmeans/h2o-train-metrics.png
    :alt: H2O K-means
-   :width: 75%
+   :width: 65%
 

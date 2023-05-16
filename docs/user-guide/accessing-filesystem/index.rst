@@ -1,9 +1,14 @@
-Accessing Filesystem
+Accessing FileSystem
 ======
 
 Fire Insights enable you to access different File System depending on the configurations.
 
-.. toctree::
-   :hidden:
 
-   local-filesystem.rst
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/user-guide/accessing-filesystem/local-filesystem`
+
+    Accessing local FileSystem. 
+
+

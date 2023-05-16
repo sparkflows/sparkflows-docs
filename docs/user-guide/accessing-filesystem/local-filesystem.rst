@@ -8,3 +8,7 @@ By default Fire Insights sample data is being bundled in Fire Insights binary wi
 you can copy `data` folder to your specified location and configured the path to use in Fire Insights.
 
 you can login to Fire Insights ``Administration/Configurations``
+
+.. figure:: ../../_assets/user-guide/access-filesystem/hdfs_config.PNG
+   :alt: userguide
+   :width: 60% 

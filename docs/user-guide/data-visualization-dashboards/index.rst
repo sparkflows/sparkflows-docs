@@ -23,8 +23,14 @@ Follow the steps given here to create a new MySQL connection: :ref:`Create MySQL
 Step 2 : Add Google REST API Key
 -----------
 
-Another prerequisite for creating a dashboard is to add the Google REST API Key that is used in displaying the Google Maps.
+Another prerequisite for creating a dashboard is to add the Google REST API Key in Fire Insights configuration. To add:
 
+#. **Login** to Fire Insights.
+#. From the Dashboard page, click **Administration** tab in the top-bar.
+#. On the Administrations page, click **Configurations**.
+#. On Configurations page, click **PLUGINS** in the upper-middle bar.
+#. Add the Google Rest API key in the **Value** column.
+#. Click **Save Configurations** to save the key.
 
 Step 3 : Create JDBC Dataset
 ---------

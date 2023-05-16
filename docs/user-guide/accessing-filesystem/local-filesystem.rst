@@ -3,7 +3,7 @@ Local FileSystem
 
 Fire Insights enable you use Local FileSystem by default when there is no Compute is enabled or s3 is configured.
 
-By default Fire Insights sample data is being bundled in Fire Insights binary with `data` folder in home directory.
+By default Fire Insights sample data is being bundled in Fire Insights binary with ``data`` folder in Fire home directory.
 
 you can copy ``data`` folder to your specified location and configured the path to use in Fire Insights.
 

@@ -1,5 +1,5 @@
-S3
-===
+AWS S3
+===========
 
 Fire Insights enable you use S3 when AWS s3 is configured.
 
@@ -15,6 +15,14 @@ you can login to Fire Insights go to ``Administration/Configurations`` and updat
     aws.homeDir : Specific s3 path
     aws.region  : Region where s3 is configured
 
-.. figure:: ..//_assets/user-guide/access-filesystem/aws_config.PNG
+.. figure:: ../../_assets/user-guide/access-filesystem/aws_config.PNG
    :alt: userguide
    :width: 60% 
+
+Once the above configuration got saved, you can go to ``DATA/AWS S3``, it would point you the same location configured in previous step.
+
+.. figure:: ../../_assets/user-guide/access-filesystem/aws_s3_browse.PNG
+   :alt: userguide
+   :width: 60% 
+
+Now you can upload data and use it in workflow, dataset.

@@ -26,3 +26,5 @@ Once the above configuration got saved, you can go to ``DATA/AWS S3``, it would 
    :width: 60% 
 
 Now you can upload data and use it in workflow, dataset.
+
+For more informations : https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html

@@ -13,12 +13,12 @@ The steps involved in creating dashboards in Fire Insights are:
 
 This document explains in detail the steps required to create a dashboard in Fire Insights.
 
-Step 1: Create MySQL Connection
+Step 1 : Create MySQL Connection
 --------------------
 
 Creating a MySQL connection is a prerequisite for creating dashboard. 
 
-:ref:`Follow the steps given here to create a new MySQL connection.<SQL Server>`
+`Follow the steps given here to create a new MySQL connection. <SQL Server>`_
 
 Step 2 : Add Google REST API Key
 -----------

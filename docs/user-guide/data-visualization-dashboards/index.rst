@@ -18,12 +18,12 @@ Step 1: Create MySQL Connection
 
 Creating a MySQL connection is a prerequisite for creating dashboard. 
 
-Follow the steps given here to create the connection: :ref: `SQL Server`
+:ref:`Follow the steps given here to create a new MySQL connection.<SQL Server>`
 
 Step 2 : Add Google REST API Key
 -----------
 
-Adding Google REST API key that is used in displaying the Google Map is another prerequisite for creating a dashboard.
+Another prerequisite for creating a dashboard is to add the Google REST API Key that is used in displaying the Google Maps.
 
 
 Step 3 : Create JDBC Dataset

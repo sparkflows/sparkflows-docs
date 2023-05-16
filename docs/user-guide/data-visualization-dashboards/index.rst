@@ -150,4 +150,4 @@ Step 5 : Create Dashboard
       :alt: Dataset
       :width: 65%
 
-.. note::  Make sure to add Google REST API key in Fire Insights configurations.
+

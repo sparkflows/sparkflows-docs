@@ -1,0 +1,20 @@
+S3
+===
+
+Fire Insights enable you use S3 when AWS s3 is configured.
+
+By default Fire Insights sample data is being bundled in Fire Insights binary with ``data`` folder in home directory.
+
+you can copy ``data`` folder to your specified location of ``s3`` and configured the path to use in Fire Insights.
+
+you can login to Fire Insights go to ``Administration/Configurations`` and update below in ``AWS`` tab:
+
+::
+
+    aws.enabled : true
+    aws.homeDir : Specific s3 path
+    aws.region  : Region where s3 is configured
+
+.. figure:: ..//_assets/user-guide/access-filesystem/aws_config.PNG
+   :alt: userguide
+   :width: 60% 

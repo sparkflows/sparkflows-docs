@@ -18,7 +18,7 @@ Step 1 : Create MySQL Connection
 
 Creating a MySQL connection is a prerequisite for creating dashboard. 
 
-`Follow the steps given here to create a new MySQL connection. <SQL Server>`_
+Follow the steps given here to create a new MySQL connection: :ref:`Create MySQL Connection<SQL Server>`
 
 Step 2 : Add Google REST API Key
 -----------

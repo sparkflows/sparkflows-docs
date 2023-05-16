@@ -41,7 +41,7 @@ k is the number of desired clusters. Note that it is possible for fewer than k c
 
 More details regarding K-means can be found at: https://spark.apache.org/docs/latest/ml-clustering.html#k-means
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/kmeans-sparkml-node.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/k-means.png
    :alt: KMeans Clustering
    :width: 75%
    
@@ -73,7 +73,7 @@ All of spark.mllib’s LDA models support:
 
 More details regarding LDA can be found at: https://spark.apache.org/docs/latest/ml-clustering.html#latent-dirichlet-allocation-lda
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/lda-sparkml-node.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/LDA.png
    :alt: LDA Clustering
    :width: 75%
    
@@ -103,7 +103,7 @@ A Gaussian Mixture Model represents a composite distribution whereby points are 
 - **maxIterations:** is the maximum number of iterations to perform without reaching convergence.
 - **initialModel** is an optional starting point from which to start the EM algorithm. If this parameter is omitted, a random starting point will be constructed from the data.
 
-.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/gaussian-mixture-sparkml-node.png
+.. figure:: ../../../_assets/user-guide/machine-learning/sparkml/gaussian-mixture.png
    :alt: Gaussian-Mixture
    :width: 75%
    

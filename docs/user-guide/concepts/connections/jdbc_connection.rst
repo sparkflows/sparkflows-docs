@@ -37,7 +37,7 @@ Create Global and Group Connections:
 #. From the Administration page, click **Global Connections**.
    
    .. figure:: ../../../_assets/connections/admin-page.png
-      :alt: Databricks
+      :alt: SQL Server
       :width: 70%
 
 #. From Connections List page, click **Add Connection** and choose a type from the drop-down list:
@@ -46,7 +46,7 @@ Create Global and Group Connections:
    - **Add Connection For Group**: to create a group level connection.
    
    .. figure:: ../../../_assets/connections/add-connection-page.png
-      :alt: Databricks
+      :alt: SQL Server
       :width: 70%
 
 #. In the Add Connection dialog box, specify all the parameters e.g. SQL Server Username, Password, JDBC URL, etc.
@@ -54,7 +54,7 @@ Create Global and Group Connections:
    For more details on configuration parameters read about :ref:`configuration details.<Configuration Details>`
 
    .. figure:: ../../../_assets/connections/sql_connection.PNG
-      :alt: Databricks
+      :alt: SQL server
       :width: 70%
 
 #. Click on **Test Connection** to test your connection.
@@ -67,14 +67,19 @@ Create Project Connection:
 #. Click **Settings** tab in upper-middle bar.
 #. Click **Connections** on the LHS.
 #. Click **Add Connection or Add new connection**.
+
+   .. figure:: ../../../_assets/connections/add-connection-project.png
+      :alt: SQL Server
+      :width: 70%
+
 #. In the Add Connection dialog box, fill in all the parameters as above.
    
-   Follow the rest of the process as mentioned above.
+   Follow the rest of the process as mentioned above for global connection.
 
 Using Connection
 --------
 Now, you are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
 
    .. figure:: ../../../_assets/connections/sql_node.PNG
-      :alt: Databricks
+      :alt: SQL Server
       :width: 70%

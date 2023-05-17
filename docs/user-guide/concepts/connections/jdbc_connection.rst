@@ -47,7 +47,7 @@ Steps to create connection
 
 #. In the Add Connection dialog box, specify all the parameters e.g. SQL Server Username, Password, JDBC URL, etc.
 
-   For more details on configuration parameters read about :ref:`configuration details.<MySQL Connection>`
+   For more details on configuration parameters read about :ref:`configuration details.<Configuration Details>`
 
    .. figure:: ../../../_assets/connections/sql_connection.PNG
       :alt: Databricks

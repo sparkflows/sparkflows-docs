@@ -4,7 +4,7 @@ Creating Dataset
 Step 1 : Select the Mode and File Format
 -----------------
 
-You can define a new dataset by clicking on the **Create Dataset** button on the Dataset page. You can choose to create dataset:
+You can define a new dataset by clicking on the **Create** button on the Dataset page. You can choose to create dataset:
 
 * From Existing File
 * By Uploading New File

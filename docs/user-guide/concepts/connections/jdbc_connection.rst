@@ -1,27 +1,63 @@
 SQL Server
 =========
 
-In Fire Insights, Connections can be made to SQL Server. This can be used in the JDBC Connection nodes in the Workflow Editor for reading and writing data to SQL server database.
+In Fire Insights, Connections can be made to SQL Server. This helps users to access and manage data files stored in the SQL server database. This is done with the help of JDBC Connection nodes that can be in Workflows to read and write data from and to SQL server database.
 
 
 Creating Connection
 -------------------
-Create a connection in Fire Insights for SQL Server.
 
-It can be created by the Administrator under Administration/Global Connections. These connections are available for everyone to use.
+Who can create
++++++
+A connection to SQL server can be created either a by an Administrator or other users.
 
-It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
+Types of connections
++++++++
+It can be created at various levels depending on the need:
 
-Specify your SQL Server Username, Password, and JDBC URL and save the details.
+#. ``Global Level Connection``: which is accessible to all users.
+#. ``Group Level Connection``: which is accessible only to the members of the specified group.
 
-.. figure:: ../../../_assets/connections/sql_connection.PNG
-   :alt: Databricks
-   :width: 55%
+Prerequisite
++++++++
 
-We can also test the specified connection before saving the connection details. 
+It is necessary to have the **JDBC Driver** installed in Fire Insights before you create a connection. 
 
-Now we are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
+This will help in establishing connection to MySQL JDBC source.
 
-.. figure:: ../../../_assets/connections/sql_node.PNG
-   :alt: Databricks
-   :width: 80%
+Steps to create connection
++++++
+
+#. **Login** to Fire Insights.
+#. From the Dashboard page, click **Administration** tab in the top-bar.
+#. From the Administration page, click **Global Connections**.
+   
+   .. figure:: ../../../_assets/connections/admin-page.png
+      :alt: Databricks
+      :width: 70%
+
+#. From Connections page, click **Add Connection** and choose type from drop-down list:
+   
+   - Add Connection For All: to create a global level connection.
+   - Add Connection For Group: to create a group level connection.
+   
+   .. figure:: ../../../_assets/connections/add-connection-page.png
+      :alt: Databricks
+      :width: 70%
+
+#. In Add Connection dialog box, specify all the field details e.g. SQL Server Username, Password, JDBC URL, etc.
+
+   .. figure:: ../../../_assets/connections/sql_connection.PNG
+      :alt: Databricks
+      :width: 70%
+
+#. Click on **Test Connection** to test your connection.
+#. After successful test completion, click **Save** to save your connection.
+
+Using Connection
+--------
+Now, you are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
+
+   .. figure:: ../../../_assets/connections/sql_node.PNG
+      :alt: Databricks
+      :width: 70%

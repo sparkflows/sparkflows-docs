@@ -17,6 +17,7 @@ It can be created at various levels depending on the need:
 
 #. ``Global Level Connection``: which is accessible to all users.
 #. ``Group Level Connection``: which is accessible only to the members of the specified group.
+#. ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
 
 **Prerequisite**
 +++++++
@@ -27,6 +28,9 @@ This will help in establishing connection to MySQL JDBC source.
 
 Steps to create connection
 +++++
+
+Create Global and Group Connections:
+............
 
 #. **Login** to Fire Insights.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
@@ -55,6 +59,17 @@ Steps to create connection
 
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
+
+Create Project Connection:
+..........
+
+#. Open the **Project** for which you want to create a connection.
+#. Click **Settings** tab in upper-middle bar.
+#. Click **Connections** on the LHS.
+#. Click **Add Connection or Add new connection**.
+#. In the Add Connection dialog box, fill in all the parameters as above.
+   
+   Follow the rest of the process as mentioned above.
 
 Using Connection
 --------

@@ -58,9 +58,14 @@ Create Project Connection:
 #. Click **Settings** tab in upper-middle bar.
 #. Click **Connections** on the LHS.
 #. Click **Add Connection or Add new connection**.
+
+   .. figure:: ../../../_assets/connections/add-connection-project.png
+      :alt: snowflake
+      :width: 70%
+
 #. In the Add Connection dialog box, fill in all the parameters as above.
    
-   Follow the rest of the process as mentioned above.
+   Follow the rest of the process as mentioned above for global connection.
 
 
 Using Connection

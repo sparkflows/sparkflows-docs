@@ -3,7 +3,7 @@ Building H2O Workflows
 
 Below is a sample H2O workflow. It builds a Regression Model for predicting the number of Bike Rentals at a given day per hour.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/h2o-gbm-wf.png
    :alt: H2O GBM
    :width: 60%
 

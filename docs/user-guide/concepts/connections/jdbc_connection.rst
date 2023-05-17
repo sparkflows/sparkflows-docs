@@ -1,7 +1,7 @@
 SQL Server
 =========
 
-In Fire Insights, Connections can be made to SQL Server. This helps users to access and manage data files stored in the SQL server database. This is done with the help of JDBC Connection nodes that can be in Workflows to read and write data from and to SQL server database.
+In Fire Insights, Connections can be made to SQL Server. This helps users to access and manage data files stored in the SQL server database. This is done with the help of JDBC Connection nodes that can be used in workflows to read and write data from and to SQL server database.
 
 
 Creating Connection

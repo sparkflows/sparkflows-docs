@@ -16,9 +16,13 @@ It can be created at various levels depending on the need:
 
 #. ``Global Level Connection``: which is accessible to everyone.
 #. ``Group Level Connection``: which is accessible only to the members of specified group.
+#. ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
 
 **Steps to create connection:**
 +++++
+
+Create Global and Group Connections:
+............
 
 #. **Login** to Fire Insights.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
@@ -47,7 +51,16 @@ It can be created at various levels depending on the need:
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
 
-Now, we are ready to start using the Snowflake Connection in Fire Insights.
+Create Project Connection:
+..........
+
+#. Open the **Project** for which you want to create a connection.
+#. Click **Settings** tab in upper-middle bar.
+#. Click **Connections** on the LHS.
+#. Click **Add Connection or Add new connection**.
+#. In the Add Connection dialog box, fill in all the parameters as above.
+   
+   Follow the rest of the process as mentioned above.
 
 
 Using Connection
@@ -55,6 +68,7 @@ Using Connection
 
 **Read from Snowflake**
 +++++
+Now, you are ready to start using the Snowflake Connection in Fire Insights.
 
 - Fire, now, enables you to read data from snowflake using **Read From Snowflake** node.
 

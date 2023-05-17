@@ -7,18 +7,18 @@ In Fire Insights, Connections can be made to SQL Server. This helps users to acc
 Creating Connection
 -------------------
 
-Who can create
+**Who can create?**
 +++++
 A connection to SQL server can be created either a by an Administrator or other users.
 
-Types of connections
+**Types of connections**
 +++++++
 It can be created at various levels depending on the need:
 
 #. ``Global Level Connection``: which is accessible to all users.
 #. ``Group Level Connection``: which is accessible only to the members of the specified group.
 
-Prerequisite
+**Prerequisite**
 +++++++
 
 It is necessary to have the **JDBC Driver** installed in Fire Insights before you create a connection. 
@@ -36,16 +36,18 @@ Steps to create connection
       :alt: Databricks
       :width: 70%
 
-#. From Connections page, click **Add Connection** and choose type from drop-down list:
+#. From Connections List page, click **Add Connection** and choose a type from the drop-down list:
    
-   - Add Connection For All: to create a global level connection.
-   - Add Connection For Group: to create a group level connection.
+   - **Add Connection For All**: to create a global level connection.
+   - **Add Connection For Group**: to create a group level connection.
    
    .. figure:: ../../../_assets/connections/add-connection-page.png
       :alt: Databricks
       :width: 70%
 
-#. In Add Connection dialog box, specify all the field details e.g. SQL Server Username, Password, JDBC URL, etc.
+#. In the Add Connection dialog box, specify all the parameters e.g. SQL Server Username, Password, JDBC URL, etc.
+
+   For more details on configuration parameters read :ref:`configuration details.<MySQL Connection>`
 
    .. figure:: ../../../_assets/connections/sql_connection.PNG
       :alt: Databricks

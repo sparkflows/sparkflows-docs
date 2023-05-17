@@ -28,9 +28,19 @@ Another prerequisite for creating a dashboard is to add the Google REST API Key 
 #. **Login** to Fire Insights.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
 #. On the Administrations page, click **Configurations**.
+
+   .. figure:: ../../_assets/tutorials/dataset/Dashboards/admin-page.png
+      :alt: Dataset
+      :width: 65%
+
 #. On Configurations page, click **PLUGINS** in the upper-middle bar.
 #. Add the Google Rest API key in the **Value** column.
 #. Click **Save Configurations** to save the key.
+
+   .. figure:: ../../_assets/tutorials/dataset/Dashboards/api-config-page.png
+      :alt: Dataset
+      :width: 65%
+
 
 Step 3 : Create JDBC Dataset
 ---------

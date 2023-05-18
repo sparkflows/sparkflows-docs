@@ -14,7 +14,7 @@ The below workflow:
 * Scores the test dataset using the model created.
 * Prints the results.
 
-.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/1.PNG
+.. figure:: ../../../_assets/tutorials/machine-learning/h2o-gbm/h2o-gbm-wf.png
    :alt: H2O GBM
    :width: 70%
 

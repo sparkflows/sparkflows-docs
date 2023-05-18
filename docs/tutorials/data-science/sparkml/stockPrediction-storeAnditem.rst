@@ -20,7 +20,7 @@ The below workflow:
 * ModelSummary for each combination of store & item.
 
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/1.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/WF.png
       :alt: Stock Prediction
       :width: 75%
 
@@ -32,14 +32,14 @@ It reads the sample Dataset File.
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/2.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/read-config.png
       :alt: Stock Prediction
       :width: 75%
    
 Processor Output
 ^^^^^^^^^^^^^^^^
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/2a.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/read-output.png
       :alt: Stock Prediction
       :width: 75%
   
@@ -47,14 +47,14 @@ Processor Output
 Date and Time Field Extract
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/3.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/date-time-config.png
       :alt: Stock Prediction
       :width: 75%
 
 VectorAssembler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/4.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/vector-assembler-config.png
       :alt: Stock Prediction
       :width: 75%
 
@@ -63,7 +63,7 @@ LoopDistinctValue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Node to loop through the data for distinct values in the selected columns.
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/5.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/execute-in-loop-config.png
       :alt: Stock Prediction
       :width: 75%
    
@@ -71,7 +71,7 @@ LinearRegression
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Fitting the line with Regression model.
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/6.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/linear-regression-config.png
       :alt: Stock Prediction
       :width: 75%
    
@@ -81,7 +81,7 @@ ModelSummary for each combination of values in the selected fields.
 Summary can be saved and analyzed.
 
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/7.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/model-summary.png
       :alt: Stock Prediction
       :width: 75%
 
@@ -90,6 +90,6 @@ ModelPrediction and Evalaution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Predict on test data & evaluate.
 
-   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/8.png
+   .. figure:: ../../../_assets/tutorials/machine-learning/stock-prediction-store-iteam/regression-evaluator-config.png
       :alt: Stock Prediction
       :width: 75%

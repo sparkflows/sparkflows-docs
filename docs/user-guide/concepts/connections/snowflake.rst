@@ -14,15 +14,14 @@ A snowflake connection can be created either a by an Administrator or other user
 +++++++
 It can be created at various levels depending on the need:
 
-#. ``Global Level Connection``: which is accessible to everyone.
-#. ``Group Level Connection``: which is accessible only to the members of specified group.
-#. ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
+#. **Global Level Connection**: which is accessible to everyone.
+#. **Group Level Connection**: which is accessible only to the members of specified group.
+#. **Project Level Connection**: which is accessible only to the project owner and members of the group with which the project has been shared. 
 
-**Steps to create connection:**
+**Steps to create connection**
 +++++
 
-Create Global and Group Connections:
-............
+**Create Global and Group Connections:**
 
 #. **Login** to Fire Insights.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
@@ -51,8 +50,7 @@ Create Global and Group Connections:
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
 
-Create Project Connection:
-..........
+**Create Project Connection:**
 
 #. Open the **Project** for which you want to create a connection.
 #. Click **Settings** tab in upper-middle bar.

@@ -7,30 +7,27 @@ In Fire Insights, Connections can be made to SQL Server. This helps users to acc
 Creating Connection
 -------------------
 
-**Who can create?**
-+++++
-A connection to SQL server can be created either a by an Administrator or other users.
+* **Who can create?**
 
-**Types of connections**
-+++++++
-It can be created at various levels depending on the need:
+  A connection to SQL server can be created either a by an Administrator or other users.
 
-#. ``Global Level Connection``: which is accessible to all users.
-#. ``Group Level Connection``: which is accessible only to the members of the specified group.
-#. ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
+* **Types of connections**
 
-**Prerequisite**
-+++++++
+  It can be created at various levels depending on the need:
 
-It is necessary to have the **JDBC Driver** installed in Fire Insights before you create a connection. 
+  - ``Global Level Connection``: which is accessible to all users.
+  - ``Group Level Connection``: which is accessible only to the members of the specified group.
+  - ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
 
-This will help in establishing connection to MySQL JDBC source.
+* **Prerequisite**
+
+  It is necessary to have the **JDBC Driver** installed in Fire Insights before you create a connection. 
+
+  This will help in establishing connection to MySQL JDBC source.
 
 Steps to create connection
 +++++
-
-Create Global and Group Connections:
-............
+**Create Global and Group Connections:**
 
 #. **Login** to Fire Insights.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
@@ -60,8 +57,7 @@ Create Global and Group Connections:
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
 
-Create Project Connection:
-..........
+**Create Project Connection:**
 
 #. Open the **Project** for which you want to create a connection.
 #. Click **Settings** tab in upper-middle bar.

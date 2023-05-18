@@ -15,9 +15,9 @@ Creating Connection
 
   It can be created at various levels depending on the need:
 
-  - ``Global Level Connection``: which is accessible to all users.
-  - ``Group Level Connection``: which is accessible only to the members of the specified group.
-  - ``Project Level Connection``: which is accessible only to the project owner and members of the group with which the project has been shared. 
+  - **Global Level Connection**: which is accessible to all users.
+  - **Group Level Connection**: which is accessible only to the members of the specified group.
+  - **Project Level Connection**: which is accessible only to the project owner and members of the group with which the project has been shared. 
 
 * **Prerequisite**
 
@@ -25,7 +25,7 @@ Creating Connection
 
   This will help in establishing connection to MySQL JDBC source.
 
-Steps to create connection
+**Steps to create connection**
 +++++
 **Create Global and Group Connections:**
 
@@ -34,8 +34,8 @@ Steps to create connection
 #. From the Administration page, click **Global Connections**.
    
    .. figure:: ../../../_assets/connections/admin-page.png
-      :alt: SQL Server
-      :width: 70%
+        :alt: SQL Server
+        :width: 70%
 
 #. From Connections List page, click **Add Connection** and choose a type from the drop-down list:
    
@@ -43,16 +43,16 @@ Steps to create connection
    - **Add Connection For Group**: to create a group level connection.
    
    .. figure:: ../../../_assets/connections/add-connection-page.png
-      :alt: SQL Server
-      :width: 70%
+        :alt: SQL Server
+        :width: 70%
 
 #. In the Add Connection dialog box, specify all the parameters e.g. SQL Server Username, Password, JDBC URL, etc.
 
    For more details on configuration parameters read about :ref:`configuration details.<Configuration Details>`
 
    .. figure:: ../../../_assets/connections/sql_connection.PNG
-      :alt: SQL server
-      :width: 70%
+        :alt: SQL server
+        :width: 70%
 
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
@@ -65,8 +65,8 @@ Steps to create connection
 #. Click **Add Connection or Add new connection**.
 
    .. figure:: ../../../_assets/connections/add-connection-project.png
-      :alt: SQL Server
-      :width: 70%
+        :alt: SQL Server
+        :width: 70%
 
 #. In the Add Connection dialog box, fill in all the parameters as above.
    

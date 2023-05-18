@@ -52,7 +52,7 @@ Creating Connection
 
    .. figure:: ../../../_assets/connections/sql_connection.PNG
         :alt: SQL server
-        :width: 70%
+        :width: 55%
 
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.

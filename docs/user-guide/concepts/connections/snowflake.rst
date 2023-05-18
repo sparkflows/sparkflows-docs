@@ -45,7 +45,7 @@ It can be created at various levels depending on the need:
 
    .. figure:: ../../../_assets/connections/snowflake_connection.PNG
       :alt: snowflake
-      :width: 70%
+      :width: 65%
 
 #. Click on **Test Connection** to test your connection.
 #. After successful test completion, click **Save** to save your connection.
@@ -59,7 +59,7 @@ It can be created at various levels depending on the need:
 
    .. figure:: ../../../_assets/connections/add-connection-project.png
       :alt: snowflake
-      :width: 70%
+      :width: 55%
 
 #. In the Add Connection dialog box, fill in all the parameters as above.
    

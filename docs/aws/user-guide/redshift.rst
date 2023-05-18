@@ -35,11 +35,11 @@ You need to have the below parameters in order to use the above processor.
         - Temporary S3 Directory
         - Temporary S3 Directory.
 
-.. figure:: ../../_assets/aws/read_redshift.PNG
+.. figure:: ../../_assets/aws/redshift_read.PNG
              :alt: aws
              :width: 60% 
 
-* Write Redshift AWS
+* Save Redshift-AWS
 
 You need to have the below parameters in order to use the above processor.
 
@@ -70,6 +70,6 @@ You need to have the below parameters in order to use the above processor.
         - Whether to Append, Overwrite or Error if the path Exists.
 
 
-.. figure:: ../../_assets/aws/saveredshift.PNG
+.. figure:: ../../_assets/aws/redshift_write.PNG
    :alt: aws
    :width: 60%

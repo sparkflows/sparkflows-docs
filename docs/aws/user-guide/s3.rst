@@ -1,70 +1,109 @@
-Read and Write from S3
+Read and Write to S3 Buckets
 ========================
 
-Fire is fully integrated with AWS S3. The Dataset Processors of Fire, can directly read data from S3 if the policies allow them to.
-This document goes over the following topics:
+Fire is fully integrated with AWS S3. The Dataset processors offered by Fire allows users to read from and write to S3 bucket directly, if the policies allow them to. Not only this, these processors can be used to save ML Models directly to S3 Buckets.
 
-1. *Dataset Processors*
-2. *Reading from S3*
-3. *Writing from S3*
+This document throws light on the below topics:
 
-Dataset Processors
+#. Configure Fire Insights
+#. Read from S3 bucket
+#. Write to S3 bucket
+#. Save ML Models to S3 bucket
+
+**Configure Fire Insights**
 ------------------
 
-Dataset Processors include:
+Fire needs to be configured before you can read and write to S3 bucket.
 
-* Read CSV
-* Read Parquet
-* Read JSON
-* Read XML
+To know about the configuration details and steps to follow, read :ref:`Fire configurations for AWS S3.<Fire Configurations for S3>`
 
-The path specified to read from S3 is s3://...
-
-Read from S3
+**Read from S3 bucket**
 ------------
+Fire allows users to read from S3 bucket through various dataset processors, some of which are:
 
-Below is a sample workflow which reads a CSV file from S3, parses it and prints out the first 10 records.
+* **Read CSV**: Reads data in CSV file format.
+* **Read Parquet**: Reads data in Parquet file format.
+* **Read JSON**: Reads data  in JSON file format.
+* **Read XML**: Reads data in XML file formats.
 
-In the dialog box of the Read CSV processor the path is specified as ``s3a://sparkflow-sample-data/data/Clickthru.csv``.
+To learn more about the usage of dataset structured processors visit :ref:`reading structured files.<Read Structured Files>`
 
-.. figure:: ../../_assets/aws/s3-csv1.png
-   :alt: S3 Workflow
-   :align: center
+Now, let us try to understand the process of reading through simple steps.
+
+**Steps to read from S3**
++++++
+
+#. **Create** the workflow by adding processors. 
    
-.. figure:: ../../_assets/aws/s3-csv-configuration.PNG
-   :alt: S3 CSV Dialog
-   :align: center
+   We have created the workflow using *Read CSV* and *Print N Rows* processors.
    
-.. figure:: ../../_assets/aws/s3-csv-output.PNG
-   :alt: S3 CSV Output
-   :align: center   
+   This workflow reads data in CSV file format from S3 bucket.
 
-Write to S3
------------------
-
-Below is a sample workflow which reads a CSV file and save it to S3 path specified.
-
-In the dailog box of the save CSV processor the path is specified as ``s3a://sparkflow-sample-data/write/``.
-
-.. figure:: ../../_assets/aws/csvsave-workflow.PNG
-   :alt: S3 Workflow
-   :align: center
+   .. figure:: ../../_assets/aws/read-from-s3-wf.png
+      :alt: S3 Workflow
+      :width: 65%
    
-.. figure:: ../../_assets/aws/configurations3_save.PNG
-   :alt: S3 Workflow
-   :align: center
+#. **Configure** the Read CSV processor to specify the path of S3 location from where you want to read the file.
 
-Execution Result
+   Note: We have specified the path as: ``s3a://sparkflow-sample-data/data/housing.csv``.
+   
+   .. figure:: ../../_assets/aws/read-config.png
+      :alt: S3 CSV Dialog
+      :width: 65%
 
-.. figure:: ../../_assets/aws/save_execution.PNG
-   :alt: S3 Workflow
-   :align: center
+#. **Save** the workflow and **execute** it to view the output.
+   
+   .. figure:: ../../_assets/aws/read-output.png
+      :alt: S3 CSV Output
+      :width: 65%
+    
+   
+**Write to S3 Bucket**
+----------
 
-After successful completion of the above workflow, the data saved can be viewed at ``DATABROWSERS/AWS S3`` with specified path.
+Fire allows users to write to S3 bucket through various dataset processors, some of which are:
 
-.. figure:: ../../_assets/aws/browse_s3.PNG
-   :alt: S3 Workflow
-   :align: center
+* **Save CSV**: Writes data in CSV file format to S3 bucket.
+* **Save Parquet**: Writes data in Parquet file format.
+* **Save Excel**: Writes data in Excel file format. 
+* **Save Avro**: Writes data in Avro file format.
+
+To learn more about the usage of dataset structured processors visit :ref:`save files.<Save Files>`
+
+Now, let us try to understand the process of writing through simple steps.
+
+**Steps to write to S3**
++++++
+
+#. **Create** the workflow by adding processors. 
+   
+   We have created the workflow using *Read CSV* and *Save CSV* processors.
+   
+   This workflow reads CSV file and saves it to specified S3 path.
+   
+   .. figure:: ../../_assets/aws/write-to-s3-wf.png
+      :alt: S3 Workflow
+      :width: 65%
+
+#. **Configure** the Save CSV processor to specify the path of S3 location where you want to write or save the file.
+
+   Note: We have specified the path as: ``s3a://sparkflow-sample-data/write/``.
+   
+   .. figure:: ../../_assets/aws/save-config.png
+      :alt: S3 CSV Output
+      :width: 65% 
+
+#. **Save** the workflow and **execute** it to save the file to S3 location.
+   
+   .. figure:: ../../_assets/aws/save_execution.PNG
+      :alt: S3 CSV Output
+      :width: 65% 
+
+#. After successful completion of the above workflow, the saved data can be viewed at **DATABROWSERS/AWS S3** with specified path.
+
+   .. figure:: ../../_assets/aws/browse_s3.PNG
+      :alt: S3 Workflow
+      :width: 65%
 
 
 
@@ -72,58 +111,74 @@ Save ML Model to S3
 ========================
 
 
-Save Spark ML Model
+**Save Spark ML Model**
 ---------------------
 
-Below is a sample workflow in sparkflows, where data is read from S3 and the final Spark ML model is saved to S3 location.
+Fire allows users to save the Spark ML models to S3 bucket with the use of **ML Model Save** processor.
 
+Here, we try to explain the details of configuration settings with the help of a sample workflow.
 
+**Workflow**
++++++
 
-Configure ReadCSV
+Below is the sample workflow where data is read from S3 and the final Spark ML model is saved to S3 location.
 
-.. figure:: ../../_assets/aws/sparkml-workflow-reads3.PNG
-   :alt: Spark ML Workflow
-   :align: center
+  .. figure:: ../../_assets/aws/spark-model-save-wf.png
+     :alt: Spark ML Workflow
+     :width: 65%
+
+**Configuration of Read CSV processor**
+++++++
+
+  .. figure:: ../../_assets/aws/ml-read-config.png
+     :alt: Spark ML Workflow
+     :width: 65%
  
 
-Configure ML Model Save
+**Configuration of ML Model Save processor**
++++++++
 
-.. figure:: ../../_assets/aws/sparkml-workflow-save3.PNG
-   :alt: Spark ML Workflow
-   :align: center
+   .. figure:: ../../_assets/aws/ml-model-save-config.png
+      :alt: Spark ML Workflow
+      :width: 65%
 
 
-Execution Result
+**Execution Result**
++++++
 
-.. figure:: ../../_assets/aws/sparkml-workflow-execution-result.PNG
-   :alt: Spark ML Workflow
-   :align: center
+   .. figure:: ../../_assets/aws/spark-ml-wf-execution.PNG
+      :alt: Spark ML Workflow
+      :width: 65%
    
-   
-   
-
-Save H20 ML Model
+**Save H20 ML Model**
 ---------------------
 
-Below is a sample workflow in sparkflows where final H20 ML model is saved to S3 location.
+Fire allows users to save the H2O ML models to S3 bucket with the use of **H20 ML Model Save** processor.
+
+Here, we try to explain the details of configuration settings with the help of a sample workflow.
 
 
-Workflow
+**Workflow**
+++++++
 
-.. figure:: ../../_assets/aws/h20ml-workflow.PNG
-   :alt: H20 ML Workflow
-   :align: center
+Below is the sample workflow where final H20 ML model is saved to S3 location.
 
-Configure Save H20 ML Model
+   .. figure:: ../../_assets/aws/h2o-wf.png
+      :alt: H20 ML Workflow
+      :width: 65%
 
-.. figure:: ../../_assets/aws/h20ml-workflow-save3.PNG
-   :alt: H20 ML Workflow
-   :align: center
+**Configuration of H2O ML Model Save processor**
+++++++++
+
+   .. figure:: ../../_assets/aws/h2o-model-save-config.png
+      :alt: H20 ML Workflow   
+      :width: 65%
 
 
-Execution Result
+**Execution Result**
+++++++
 
-.. figure:: ../../_assets/aws/h20ml-workflow-execution-result.PNG
-   :alt: H20 ML Workflow
-   :align: center
+   .. figure:: ../../_assets/aws/h20ml-workflow-execution-result.PNG
+      :alt: H20 ML Workflow
+      :width: 65%
    

@@ -18,7 +18,7 @@ Workflow
 
 Below is a workflow which uses the NameFinder Processor.
 
-.. figure:: ../../_assets/tutorials/nlp/namefinder/1.PNG
+.. figure:: ../../_assets/tutorials/nlp/namefinder/nlp-wf.png
    :alt: Workflow
    :width: 65%
    
@@ -36,14 +36,14 @@ It reads in the input files from the directory data/ner-person. It places each l
 Processor Configuration
 ++++++++++++++++++
 
-.. figure:: ../../_assets/tutorials/nlp/namefinder/2.PNG
+.. figure:: ../../_assets/tutorials/nlp/namefinder/read-config.png
    :alt: Workflow
    :width: 75%
    
 Processor Output
 ++++++++++++++++
 
-.. figure:: ../../_assets/tutorials/nlp/namefinder/3.PNG
+.. figure:: ../../_assets/tutorials/nlp/namefinder/read-output.png
    :alt: Workflow
    :width: 75%   
    
@@ -52,7 +52,7 @@ OpenNLPNameFinder
 
 It extracts entities from the text in the input column 'line' and stores them in the output column 'ner'. When running on the Hadoop Cluster, the model file has to be on HDFS and users have to have access to it.
 
-.. figure:: ../../_assets/tutorials/nlp/namefinder/4.PNG
+.. figure:: ../../_assets/tutorials/nlp/namefinder/nlp-config.png
    :alt: Workflow
    :width: 75%
    
@@ -61,7 +61,7 @@ PrintNRows
 
 It prints the first 10 rows from the result.
 
-.. figure:: ../../_assets/tutorials/nlp/namefinder/4.png
+.. figure:: ../../_assets/tutorials/nlp/namefinder/print-config.png
    :alt: Workflow
    :width: 75%
    

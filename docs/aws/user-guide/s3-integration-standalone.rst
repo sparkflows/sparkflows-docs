@@ -9,13 +9,14 @@ Fire Insights allows users to access files on S3. The steps involved are:
    * Create IAM Policy in AWS Account
    * Create AWS Access Key and Secret Key in AWS Account
    
-#. Install AWS CLI in Fire UI
-#. Configure AWS Access Key and Secret Key in Fire UI
+#. Install AWS CLI in Fire Insights Machine
+#. Configure AWS Access Key and Secret Key in Fire Insights Machine
 #. Access S3 in Fire UI
 #. Protect Data Using Server Side Encryption
 
 This document explains the steps involved in S3 integration of Fire in detail.
 
+.. note:: It is important to note that the VM on which you want S3 integration should be the same on which Fire is installed.
 
 **Step 1 : Fulfill AWS Account Requirements**
 ---------
@@ -43,7 +44,7 @@ This document explains the steps involved in S3 integration of Fire in detail.
    To create access key and secret key for the above-created user, follow the step given in `AWS User Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
    
    
-**Step 2 : Install AWS CLI in Fire UI**
+**Step 2 : Install AWS CLI in Fire Insights Machine**
 --------
 
 #. To install the AWS CLI in Fire UI run the below command:
@@ -52,25 +53,21 @@ This document explains the steps involved in S3 integration of Fire in detail.
  
    For more details on installation refer the `installation guide. <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>`_
      
-**Step 3 : Configure AWS Access Key and Secret Key in Fire UI** 
+**Step 3 : Configure AWS Access Key and Secret Key in Fire Insights Machine** 
 -------
 
 * To configure your credentials, run *aws configure* on the machine which runs the Fire Insights.
-   
-* If you run Fire Insights on an independent machine, you can still use *aws configure* to set the AWS Access Key and Secret Key on the machine.
-
-  For more details on necessary steps refer the `AWS CLI S3 guide. <https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html>`_
 
 **Step 4 : Access S3 in Fire-UI**
 --------
 
-#. From Fire Inights Dashboard, place the cursor over **DATA** to view the drop-down list.
+#. On Fire Inights Dashboard page, place the cursor over **DATA** to view the drop-down list.
 
      .. figure:: ../../_assets/tutorials/awscli/aws_s3.PNG
         :alt: S3 integration
         :width: 70%
    
-#. From the list, click **AWS S3** to view the files on S3.
+#. In the list, click **AWS S3** to view the files on S3.
 
      .. figure:: ../../_assets/tutorials/awscli/aws_s3_list.PNG
         :alt: S3 integration
@@ -85,7 +82,5 @@ This document explains the steps involved in S3 integration of Fire in detail.
 * For detailed steps read documentation on `data encryption settings on S3 buckets. <https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html>`_
 
    
-.. note:: It is recommended to regularly rotate your access and secret keys. 
-          
-          `For more details refer the documentation available here. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_
+.. note:: It is recommended to regularly rotate your access and secret keys. For more details refer the `AWS documentation. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_ 
           

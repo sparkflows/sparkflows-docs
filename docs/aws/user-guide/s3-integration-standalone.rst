@@ -65,13 +65,13 @@ This document describes the steps involved in S3 integration of Fire.
 
    * From Fire Inights Dashboard, place the cursor over **DATA BROWSERS** to view the drop-down list.
 
-     .. figure:: ../../_assets/tutorials/awscli/AWS3.PNG
+     .. figure:: ../../_assets/tutorials/awscli/aws_s3.PNG
         :alt: S3 integration
         :width: 70%
    
   * From the list, click **AWS S3** to view the files on S3.
 
-     .. figure:: ../../_assets/tutorials/awscli/AWS4.PNG
+     .. figure:: ../../_assets/tutorials/awscli/aws_s3_list.PNG
         :alt: S3 integration
         :width: 70%
    

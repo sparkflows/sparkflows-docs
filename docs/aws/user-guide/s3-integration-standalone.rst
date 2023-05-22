@@ -1,66 +1,88 @@
-S3 Integration
+**S3 Integration**
 ==========
 
-Fire Insights allows you to access your files on S3. This document describes the S3 integration of Fire.
+Fire Insights allows users to access files on S3. The steps involved are: 
 
-We recommend to control access to S3 with the use of IAM Roles. 
-
-- Run Fire Insights on an EC2 machine with an appropriate S3 IAM Role.
-- Run the EMR cluster with the appropriate S3 IAM Role.
-
-If you run Fire Insights on an independent machine, you can also use ``aws configure`` to set the AWS Access Key and Secret Access Key on the machine.
-
-AWS CLI S3 Reference: https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html
-
-Install AWS CLI
----------------
-Please find the user guide for installation at the following link:
-
-- http://docs.aws.amazon.com/cli/latest/userguide/installing.html
-                   :code:`pip install awscli --upgrade --user`
-
-
-Configure AWS Access Key and Password
------------------------------------
-
-Run ``aws configure`` to configure your credentials on the machine which runs the Fire Insights.
-
+#. Fulfill AWS Account Requirements
    
-Access S3 in Fire-UI
----------------------
+   * Create IAM User in AWS Account
+   * Create IAM Policy in AWS Account
+   * Create AWS Access Key and Secret Key in AWS Account
 
-In Fire Insights, you can browse S3 under the menu: Data Browsers/AWS S3.
-
-.. figure:: ../../_assets/tutorials/awscli/AWS3.PNG
-   :alt: s3
-   :align: center
+#. Fulfill Fire UI Requirements
    
-- Click on AWS S3 to view the files on S3.
+   * Install AWS CLI in Fire UI
+   * Configure AWS Access Key and Secret Key in Fire UI
+   * Access S3 in Fire UI
 
-.. figure:: ../../_assets/tutorials/awscli/AWS4.PNG
-   :alt: s3
-   :align: center
+This document describes the steps involved in S3 integration of Fire.
+
+
+**Step 1 : Fulfill AWS Account Requirements**
+---------
+
+#. **Create IAM User in AWS Account**
+   
+   To create a user with programmatic access follow the steps given in `AWS User Guide.<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>`_
+
+
+#. **Create IAM Policy in AWS Account**
+
+   To create IAM policy that defines the access limit to your AWS account follow the steps given in `AWS User Guide.<https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html>`_
+
+   Note: It is recommended to grant only restricted access to the user within your account.
+         
+           To control the access to S3 it is always recommended to use IAM Roles:
+        
+            - Run Fire Insights on an EC2 machine with an appropriate S3 IAM Role.
+            - Run the EMR cluster with the appropriate S3 IAM Role.
+
+#. **Create AWS Access Key and Secret Key in AWS Account**
+
+   To create access key and secret key for the above-created user, follow the step given in `AWS User Guide.<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
+   
+   
+**Step 2 : Fulfill Fire UI Requirements**
+--------
+
+#. **Install AWS CLI in Fire UI**
+   
+   To install the AWS CLI in Fire UI run the below command:
+   
+    :code:`pip install awscli --upgrade --user`
+ 
+   For more details on installation refer the `installation guide.<http://docs.aws.amazon.com/cli/latest/userguide/installing.html>`_
+     
+#. **Configure AWS Access Key and Secret Key in Fire UI** 
+
+   To configure your credentials, run *aws configure* on the machine which runs the Fire Insights.
+   
+   If you run Fire Insights on an independent machine, the also you can use the *aws configure* to set the AWS Access Key and Secret Access Key on the machine.
+
+   For more details refer the `AWS CLI S3 guide.<https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html>`_
+
+#. **Access S3 in Fire-UI**
+
+   * From Fire Inights Dashboard, place the cursor over **DATA BROWSERS** to view the drop-down list.
+
+     .. figure:: ../../_assets/tutorials/awscli/AWS3.PNG
+        :alt: S3 integration
+        :width: 70%
+   
+  * From the list, click **AWS S3** to view the files on S3.
+
+     .. figure:: ../../_assets/tutorials/awscli/AWS4.PNG
+        :alt: S3 integration
+        :width: 70%
    
 
-Protect Data Using Server Side Encryption
+**Protect Data Using Server Side Encryption**
 --------------
 
-Data encryption settings on S3 buckets are available at: https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html
+`Details on data encryption settings on S3 buckets are available here.<https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html>`_
 
    
-   
-REFERENCE : Create Access Key & Secret Key
---------------
-
-1. You need to create a user with programmatic access by following the steps at: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html
-
- 
-
-2. Now, you need to create an IAM policy that defines the access limit in your AWS account.  It's important to grant only restricted access to this user within your account. Please refer the documentation availble at the below link to find details on creation of IAM Policies: https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html
-
- 
-
-3. Lastly, you need to create an access key and secret key for this user. For further information follow the steps provided at the below link: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
-
-.. note:: It's important to regularly rotate your access and secret keys. Please refer the document available at the below link for further information: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
-
+.. note:: It is recommended to regularly rotate your access and secret keys. 
+          
+          `For more details refer the documentation available here.<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_
+          

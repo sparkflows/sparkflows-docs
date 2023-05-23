@@ -1,23 +1,23 @@
 Copy files to S3 with AWS-CLI
 ===========
 
-This document serves as a guide to describe the process when you want to upload multiple files from your laptop to an S3 bucket. Follow the steps given below to copy files to an S3 bucket with the use of AWS-CLI.
+This document offers a step-by-step guide for seamlessly transferring multiple files from your laptop to an S3 bucket. By following the instructions provided below, you can easily copy the files to the S3 bucket using the AWS-CLI.
 
-1. *Install AWS-CLI on machine if not already installed*
-2. *Configure AWS Credentials*
-3. *View the S3 Bucket*
-4. *View the S3 Directory*
-5. *Copy files to the S3 bucket*
-6. *Delete all files in directory*
+#. Install AWS-CLI on machine, if not already installed
+#. Configure AWS Credentials
+#. View the S3 Bucket
+#. View the S3 Directory
+#. Copy files to the S3 bucket
+#. Delete all files in directory
 
-Install AWS-CLI on mac
+Step 1 : Install AWS-CLI on Mac
 ------------------------
 ..  code::
  
  brew install aws-cli
 
 
-Configure AWS Credentials
+Step 2 : Configure AWS Credentials
 -------------------------
 .. code::
   
@@ -29,28 +29,29 @@ Configure AWS Credentials
   Enter default output format:
   
 
-View S3 Buckets
+Step 3 : View S3 Buckets
 ---------------
 .. code::
   
   aws s3 ls
 
-View S3 Directory
+Step 4 : View S3 Directory
 ---------------
 .. code::
 
   aws s3 ls s3://bucket_name/dir1/
 
-Copy files to S3
+Step 5 : Copy Files to S3
 ---------------------
 
-In order to copy all files from local_direcory to s3://bucket-name/dir1::
+In order to copy all files from local_direcory to s3://bucket-name/dir1/
+
 .. code::
 
   aws s3 cp local_directory s3://bucket-name/dir1 --recursive
 
 
-Delete All Files in Directory
+Step 6 : Delete All Files in Directory
 -------------------------
 .. code::
 
@@ -62,23 +63,24 @@ Set Roles and Policies for EMR
 
 In order to be able to access S3 files from the EMR cluster, attach the AmazonS3FullAccess Policy to the EMRDefaultRole.
 
-Now, the EMR cluster would have access to the S3 buckets.
+Now, the EMR cluster would have access to the S3 bucket.
 
 
-REFERENCE : Create Access Key & Secret Key
+Reference : Create Access Key & Secret Key
 --------------
 
-1. You need to create a user with programmatic access. Please follow the steps provided here: (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html).
+#. Firstly, you need to create a user with programmatic access. To create the user follow steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>`_
 
  
 
-2. Next, you need to create an IAM policy that defines the access limit of the user in your AWS account.  It's important to grant only restricted access to the user within your account. Refer the document available at the below link for further information on how to create IAM Policies: (https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html).
+#. Secondly, you need to create an IAM policy that defines the access limit of the user in your AWS account. 
+   
+   It is recommended to grant restricted access to the user within your account. To create IAM policy follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html>`_
 
  
+#. Lastly, you need to create an access key and secret key for this user. To create the keys follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
 
-3. Lastly, you need to create an access key and secret key for this user by following steps given at the link: (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey).
-
-.. note:: It's important to regularly rotate your access and secret keys. Refer the document available at the link given below for more information: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
+.. note:: It is always recommended to rotate your access and secret keys regularly. For more details on rotation refer the `AWS documentation. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_
 
 
 

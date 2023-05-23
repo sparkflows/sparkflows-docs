@@ -23,6 +23,9 @@ Details
 Write to Hive
 -------
 
-Below is a workflow for writing to Hive.
+Below is a workflow for writing to Hive. It reads housing.csv, creates a DataFrame and writes it out to a Hive table.
 
-It reads housing.csv, creates a DataFrame and writes it out to a Hive table.
+  .. figure:: ../../_assets/aws/hive/save-as-hive-table-wf.png
+     :alt: write to snowflake
+     :width: 65%
+   

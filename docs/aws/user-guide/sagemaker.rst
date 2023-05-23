@@ -66,7 +66,7 @@ AWS has various instance types:
 * r : Memory Optimized Instances
 * m : General Instances
 
-Amazon SageMaker Instance Types details are available here : https://aws.amazon.com/sagemaker/pricing/instance-types/
+Amazon SageMaker Instance Types details are available in the `AWS-SageMaker Documentation. <https://aws.amazon.com/sagemaker/pricing/instance-types/>`_
 
 
 Dataset Column Names for Training with Sagemaker
@@ -96,18 +96,18 @@ Below is a workflow which:
 * Performs predictions with the model built in the previous step.
 * Prints out the result.
 
-.. figure:: ../../_assets/aws/sagemaker-xgboost-workflow-2.png
-   :alt: SageMaker XGBoost 
-   :align: center
+  .. figure:: ../../_assets/aws/sagemaker-wf.png
+     :alt: SageMaker XGBoost 
+     :width: 65%
    
 XGBoost Configuration
 ---------------
 
 Below are the configuration setup details of the XGBoost Processor.
 
-.. figure:: ../../_assets/aws/sagemaker-xgboost-configuration-1.png
-   :alt: SageMaker XGBoost Configuration
-   :align: center
+ .. figure:: ../../_assets/aws/sagemaker-config.png
+    :alt: SageMaker XGBoost Configuration
+    :width: 65%
 
    
 Execute the Workflow
@@ -115,9 +115,9 @@ Execute the Workflow
 
 Below are the workflow execution results.
 
-.. figure:: ../../_assets/aws/sagemaker-xgboost-execute-1.png
-   :alt: SageMaker XGBoost Execution
-   :align: center
+ .. figure:: ../../_assets/aws/sagemaker-xgboost-execute-1.png
+    :alt: SageMaker XGBoost Execution
+    :width: 65%
    
    
 

@@ -69,16 +69,15 @@ Now, the EMR cluster would have access to the S3 bucket.
 Reference : Create Access Key & Secret Key
 --------------
 
-#. Firstly, you need to create a user with programmatic access. To create the user follow steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>`_
+#. Firstly, to create a user with programmatic access follow steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>`_
 
  
 
-#. Secondly, you need to create an IAM policy that defines the access limit of the user in your AWS account. 
-   
-   It is recommended to grant restricted access to the user within your account. To create IAM policy follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html>`_
+#. Secondly, to create an IAM policy defining the access limit of the user follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html>`_
 
+   *Note: It is always recommended to grant restricted access to the user within your account.*
  
-#. Lastly, you need to create an access key and secret key for this user. To create the keys follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
+#. Lastly, to create an access key and secret key for this user follow the steps given in the `AWS User-Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
 
 .. note:: It is always recommended to rotate your access and secret keys regularly. For more details on rotation refer the `AWS documentation. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_
 

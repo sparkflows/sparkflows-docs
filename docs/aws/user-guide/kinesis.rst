@@ -1,102 +1,101 @@
 Integration with Kinesis
 ==============================
 
-This document describes Fire integration with Kinesis. Fire uses Apache Spark Structured Streaming Connector from Qubole. Please visit the following link for detailed information.
+This documentation provides a comprehensive guide on integrating Fire Insights with Kinesis, enabling seamless data processing and analysis. 
 
-https://github.com/qubole/kinesis-sql
+Fire Insights leverages the Apache Spark Structured Streaming Connector from Qubole. 
 
-Install AWS-CLI
+For detailed information, refer to the `qubole-kinesis documentation <https://github.com/qubole/kinesis-sql>`_ available on GitHub.
+
+To integrate Fire with Kinesis, follow the steps outlined below:
+
+Step 1 : Install AWS-CLI
 ----------
 
-You need to install AWS-CLI. Please visit the following link for more information on installation steps.
+To proceed with the integration, you must have AWS-CLI installed.
 
-https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-  
-Create Access Key and Secret Key
-----------------------------------
+For detailed information on installation steps refer to the `AWS Installation Guide. <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html>`_
 
-You need to create an access key and secret key for the user. Please visit the following link for more information on creation of the keys.
+Step 2 : Create Access Key and Secret Key
+-----------------
 
-https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
+#. Create user with programmatic access. Refer to the steps given in the `AWS User Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>`_
+#. Create an access key and secret key for the user to establish a connection. Refer to the steps given in the `AWS User Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
 
-.. note:: It's important to regularly rotate your access and secret keys. Please visit the following link for more information.     https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
+   **Note: Regularly rotate your access and secret keys for security purposes.** 
+   
+   For more information on rotation, refer to the `AWS Rotating Access Keys Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_
 
-
-Configure AWS-CLI
------------
-
-Please visit the following link to get more information on configuration details of AWS-CLI.
-
-https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html ::
-  
-  aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey
-
-Create AWS Kinesis Stream
------------
-
-You need to create AWS Kinesis Stream::
-
-  aws kinesis create-stream --stream-name sparkflows_kinesis_test --shard-count 1
-
-Send message to AWS Kinesis from AWS CLI
+Step 3 : Configure AWS-CLI
 ------------
+ 
+Configure AWS-CLI to establish the necessary credentials. Ensure that you set the appropriate region: ::
 
-You need to send message to Kinesis::
+ aws configure region: us-east-1 aws_access_key_id = accesskeyid aws_secret_access_key = awssecretaccesskey
 
-  aws kinesis put-record --stream-name sparkflows_kinesis_test --data file://data.json --partition-key uuidgen
+For detailed configuration instructions, refer to the `AWS-CLI Guide. <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html>`_
 
-Update EMR_EC2_Default_Role
-------------
+Step 4 : Create an AWS Kinesis Stream
+---------
 
-Update **EMR_EC2_DefaultRole** with **AmazonKinesisFullAccess** Policy so that our EMR Cluster would have full access to Kinesis.
+Create an AWS Kinesis Stream by executing the following command: ::
 
-Alternatively Create an IAM policy for accessing Amazon Kinesis
----------------------------------------------------
+ aws kinesis create-stream --stream-name sparkflows_kinesis_test --shard-count 1
 
-Alternatively, create an IAM policy that defines what exactly this user has access to in your AWS account.  It's important to grant only restricted access to this user within your account. Please visit the following link for more information. https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html
-
-
-Create EMR Cluster with the above Role
------------
-
-When the EMR cluster is created with the above Role, it would have full access to Amazon Kinesis.
-
-Push data to Kinesis
------------
-
-AWS provides a Kinesis Data Generator. It can be configured to push random data in specified format to Kinesis. Please visit the following link for more information.
-
-https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
-
-.. figure:: ../../_assets/aws/kinesis-data-generator-1.png
-   :alt: Kinesis Data Generator
-   :align: center
-   
-   
-.. figure:: ../../_assets/aws/kinesis-data-generator-2.png
-   :alt: Kinesis Data Generator
-   :align: center
-   
-   
-Kinesis Workflow in Fire
+Step 5 : Send Messages to AWS Kinesis from AWS CLI
 ----------
 
-Workflows can be easily built in Fire which reads data from Kinesis, process them and save the results where needed.
+To send messages to Kinesis, utilize the following command: ::
+
+ aws kinesis put-record --stream-name sparkflows_kinesis_test --data file://data.json --partition-key uuidgen
+
+Step 6 : Update EMR_EC2_Default_Role
+---------
+
+* Update the EMR_EC2_DefaultRole with the **AmazonKinesisFullAccess Policy**. 
+
+  This action grants the EMR Cluster full access to Kinesis.
+
+* Alternatively, you can create an **IAM policy** specifically to access Amazon Kinesis. 
+
+  Ensure that you grant restricted access to the user within your AWS account. 
+   
+  For more information refer to the `AWS-IAM User Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html>`_
+
+Step 7 : Create EMR Cluster with the Above Role
+----------
+
+Create an EMR Cluster using the role configured in step 6, which grants full access to Amazon Kinesis.
+
+Step 8 : Push Data to Kinesis
+-------------
+
+AWS provides a Kinesis Data Generator that allows you to configure and push random data in the desired format to Kinesis. 
+
+For more information on this, refer to the documentation related to `Amazon Kinesis Data Generator. <https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html>`_
+
+  .. figure:: ../../_assets/aws/kinesis-data-generator-1.png
+     :alt: Kinesis Data Generator
+     :width: 65%
+   
+   
+  .. figure:: ../../_assets/aws/kinesis-data-generator-2.png
+     :alt: Kinesis Data Generator
+     :width: 65%
+   
+Step 9 : Kinesis Workflow in Fire
+----------
+
+Fire enables the creation of workflows that can seamlessly read data from Kinesis, process it, and save the results as required.
 
 
-REFERENCE : Create Access Key & Secret Key
---------------
 
-1. Firstly, you need to create a user with programmatic access. Please visit the following link for more information. https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html
 
- 
 
-2. Secondly you need to create an IAM policy that defines what exactly this user has access to in your AWS account.  It's important to grant only restricted access to this within your account. Please visit the following link to get more information on how to create IAM Policies.  https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html
 
- 
 
-3. Lastly, you need to create an access key and a secret key for this user. Please visit the following link for more information on creation of the keys. https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
 
-.. note:: It's important to regularly rotate your access and secret keys. Please visit the following link for more information. https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console
+
+
 
 

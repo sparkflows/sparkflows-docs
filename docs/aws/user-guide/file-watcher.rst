@@ -16,7 +16,7 @@ The diagram given below captures the high level design:
 
    .. figure:: ../../_assets/aws/file-watcher-1.png
       :alt: File Watcher
-      :width: 65%
+      :width: 55%
 
 
 Below is the flow of execution:

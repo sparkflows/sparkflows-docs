@@ -16,8 +16,8 @@ The diagram given below captures the high level design:
 
    .. figure:: ../../_assets/aws/file-watcher-1.png
       :alt: File Watcher
-      :align: left
-      :width: 60%
+      :width: 65%
+
 
 Below is the flow of execution:
 
@@ -30,7 +30,7 @@ Below is the flow of execution:
 
 #. The availability of _SUCCESS file triggers an event which is sent to a configured SQS queue.
 #. Once the event reaches SQS, it triggers an AWS Lambda.
-#. The AWS Lambda uses the Fire Insights REST API (http://docs.sparkflows.io/en/latest/rest-api-reference/workflow.html#execute) to execute a workflow to process the new incoming files in the AWS S3 bucket.
+#. The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
 #. If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue) to be appropriately handled.
 
 
@@ -45,14 +45,14 @@ It has the premissions as shown below to receive the messages from S3 bucket and
 
    .. figure:: ../../_assets/aws/file-watcher-sqs-queue-1.png
       :alt: SQS Queue
-      :align: left
-      :width: 60%
+      :width: 65%
+      
 
 
    .. figure:: ../../_assets/aws/file-watcher-sqs-queue-2.png
       :alt: SQS Queue
-      :align: left
-      :width: 60%
+      :width: 65% 
+    
 
 Configure AWS S3 bucket to generate events
 ------------------------------------------
@@ -65,11 +65,10 @@ It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
 
    .. figure:: ../../_assets/aws/file-watcher-s3-events.png
       :alt: S3 Events
-      :align: center
       :width: 40%
+     
    
    
-
 Create the AWS Lambda function
 ------------------------------
 
@@ -88,8 +87,7 @@ Instead of the Sparkflows token, users can encrypt the token using KMS and use t
    
    .. figure:: ../../_assets/aws/file-watcher-lambda-2.png
       :alt: AWS Lambda
-      :align: left
-      :width: 60%
+      :width: 65%
 
 
 Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it.

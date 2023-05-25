@@ -106,7 +106,7 @@ Install and Start Running Example Workflows
 
 #. Start off with executing the example workflows::
 
-    - Fire comes pre-packaged with a number of example workflows, you can start executing these workflows.
+    Fire comes pre-packaged with a number of example workflows, you can start executing these workflows.
     
     
 

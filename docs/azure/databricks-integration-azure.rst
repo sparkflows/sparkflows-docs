@@ -134,11 +134,11 @@ Follow the below steps:
 
     * Login to **Fire Insights** application  
     
-    * Navigate to -> **Administration** -> **Configurations** -> **Connection** -> and 
+    * Navigate to -> **Administration** -> **Configurations** -> **Connection** 
     
-    * Enable Databricks connection by setting the below parameter:
+    * Now, enable Databricks connection by setting the below **parameter** :
 
-::
+      ::
 
         connection.databricks.enabled : true
 
@@ -152,62 +152,62 @@ Follow the below steps:
 
       It can be created by any user inside their Project. 
  
-   Enter the **parameters** to create connection as shown in the tables below:
+    * Enter the **parameters** to create connection as shown in the tables below:
 
-   The below table shows parameter details to be entered into GENERAL Tab:
+      The below table shows parameter details to be entered into GENERAL Tab:
 
-.. list-table:: 
-   :widths: 10 20 30
-   :header-rows: 1
+      .. list-table:: 
+         :widths: 10 20 30
+         :header-rows: 1
 
-   * - Title
-     - Description
-     - Value
-   * - Connection Name
-     - Connection Name
-     - Name of Connection
-   * - Token
-     - Token
-     - Token created in above steps  
-   * - Postback URL
-     - Postback URL
-     - Postback URL through which Databricks sent result back to Fire Insights
-   * - Title 
-     - Title of Selected Connection
-     - Title of Selected Connection  
-   * - Description 
-     - Connection Description 
-     - Connection Description
-   * - URL
-     - URL for selected Connection type
-     - Add URL for Databricks Connection
+         * - Title
+           - Description
+           - Value
+         * - Connection Name
+           - Connection Name
+           - Name of Connection
+         * - Token
+           - Token
+           - Token created in above steps  
+         * - Postback URL
+           - Postback URL
+           - Postback URL through which Databricks sent result back to Fire Insights
+         * - Title 
+           - Title of Selected Connection
+           - Title of Selected Connection  
+         * - Description 
+           - Connection Description 
+           - Connection Description
+         * - URL
+           - URL for selected Connection type
+           - Add URL for Databricks Connection
 
 
       .. figure:: ../_assets/configuration/databricks-connection.PNG
          :alt: Databricks Connection
          :width: 40%
 
-   The below table shows parameter details to be entered into DATABRICKS Tab:
+      The below table shows parameter details to be entered into DATABRICKS Tab:
 
-.. list-table:: 
-   :widths: 10 20 30
-   :header-rows: 1
+      .. list-table:: 
+         :widths: 10 20 30
+         :header-rows: 1
 
-   * - Title
-     - Description
-     - Value
-   * - Fire core jar
-     - Fire core jar
-     - Fire core jar PATH uploaded in databricks library.
-   * - Python file
-     - Python file
-     - Python file PATH as uploaded in the above step.  
-   * - Fire pyspark libraries
-     - Fire pyspark libraries
-     - Fire pyspark libraries PATH uploaded in databricks library.
-   * - DBFS Scratch directory 
-     - DBFS Scratch directory
-     - Scratch directory on Databricks DBFS where app has Read, Write and Delete Privilege.
+         * - Title
+           - Description
+           - Value
+         * - Fire core jar
+           - Fire core jar
+           - Fire core jar PATH uploaded in databricks library.
+         * - Python file
+           - Python file
+           - Python file PATH as uploaded in the above step.  
+         * - Fire pyspark libraries
+           - Fire pyspark libraries
+           - Fire pyspark libraries PATH uploaded in databricks library.
+         * - DBFS Scratch directory 
+           - DBFS Scratch directory
+           - Scratch directory on Databricks DBFS where app has Read, Write and Delete Privilege.
   
       .. figure:: ../_assets/configuration/databricks_jar.PNG
          :alt: Postback URL
@@ -227,7 +227,7 @@ Follow the below steps:
          :alt: Postback URL
          :width: 40%
 
-For more information, read Sparkflows documentation on :ref:`Databricks Connection.<Databricks Connection>`
+   For more information, read Sparkflows documentation on :ref:`Databricks Connection.<Databricks Connection>`
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

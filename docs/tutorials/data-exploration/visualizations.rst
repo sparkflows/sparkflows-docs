@@ -20,7 +20,7 @@ The below workflow:
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Overview.PNG
    :alt: books-recommendations
-   :width: 90%
+   :width: 65%
    
 
 Graphing Distribution of Sales Revenue
@@ -33,7 +33,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Boxplot_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
    
 Processor Output
@@ -41,7 +41,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Boxplot_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
    
 Graphing MSRP vs Sale Labelled by Status
@@ -54,7 +54,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Bubble_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
    
 Processor Output
@@ -62,7 +62,7 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Bubble_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
 
 
@@ -76,7 +76,7 @@ Processor Configuration
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Graph_Group_Config.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
    
 Processor Output
@@ -84,6 +84,6 @@ Processor Output
 
 .. figure:: ../../_assets/tutorials/data-exploration/visualizations/Graph_Group_Output.PNG
    :alt: titanic-data-cleaning
-   :width: 90%
+   :width: 65%
 
   

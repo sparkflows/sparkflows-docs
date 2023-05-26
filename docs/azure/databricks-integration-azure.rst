@@ -53,8 +53,7 @@ Upload it under Workspace as a Library on to Databricks. Follow the below steps:
          :width: 40%
 #. Upload ``fire-3.1.0-py3-none-any.whl``. You can:
    
-     * Upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` 
-                  OR
+     * Upload the ``fire-3.1.0-py3-none-any.whl`` inside databricks library from either ``fire-x.y.z/dist`` or
      * Directly download it from the :ref:`Databricks Library.<Databricks Library>`
 
 #. Upload ``workflowexecutedatabricks.py`` file to DBFS.
@@ -62,7 +61,7 @@ Upload it under Workspace as a Library on to Databricks. Follow the below steps:
    For Python Job submission to Databricks Cluster:
 
       * Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py`` file to DBFS.
-      * Copy the absolute path which needs to be added in databricks connection in **DATABRICKS tab** for **Python file**. 
+      * Copy the **absolute path** which needs to be added in databricks connection in **DATABRICKS tab** for **Python file**. 
 
 .. note:: It is mandatory to update the above path or else the Pyspark job will show the error message.
 
@@ -215,11 +214,11 @@ Follow the below steps:
          :alt: Postback URL
          :width: 40%
 
-   For more information refer the :ref:`Sparkflows-Databricks Admin Guide<Databricks Admin Guide>` 
+      For more information refer the :ref:`Sparkflows-Databricks Admin Guide.<Databricks Admin Guide>` 
 
 #. Test Connection
 
-   Once the above configurations are updated, click on **Test Connection** 
+   Once the above configurations are updated, click on **Test Connection**. 
      
 #. Save Connection
 
@@ -229,7 +228,7 @@ Follow the below steps:
          :alt: Postback URL
          :width: 40%
 
-   For more information, read Sparkflows documentation on :ref:`Databricks Connection.<Databricks Connection>`
+For more information, read Sparkflows documentation on :ref:`Databricks Connection.<Databricks Connection>`
 
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 

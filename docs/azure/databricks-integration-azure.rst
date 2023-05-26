@@ -142,15 +142,17 @@ Follow the below steps:
 
         connection.databricks.enabled : true
 
-#. Create a connection in Fire Insights to Databricks. You can choose to create :
+#. Create a connection in Fire Insights to Databricks. 
 
-    * **Global Connection** which is available for everyone to use. 
+    * You can choose the type of connection:
+
+        * **Global Connection** which is available for everyone to use. 
       
-      It can be created by the Administrator under **Administration/Global Connections**.
+          It can be created by the Administrator under **Administration/Global Connections**.
 
-    * **Project Connection** which is available to the Project and its users only.
+        * **Project Connection** which is available to the Project and its users only.
 
-      It can be created by any user inside their Project. 
+          It can be created by any user inside their Project. 
  
     * Enter the **parameters** to create connection as shown in the tables below:
 

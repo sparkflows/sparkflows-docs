@@ -5,6 +5,8 @@ Fire Insights can easily be setup up to run with MySQL.
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 
+Steps for installing MySQL is also available here : https://docs.sparkflows.io/en/latest/operations/installing-mysql.html
+
 Pre-requisites
 ------
 

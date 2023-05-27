@@ -1,4 +1,4 @@
-Running on custom Port
+Running on Custom Port
 =======================
 
 There are 2 processes involved when running Fire. These are:

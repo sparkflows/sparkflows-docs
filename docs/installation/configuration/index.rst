@@ -11,7 +11,6 @@ Configuration
    https/index
    running-different-port.rst
    yarn-configuration.rst
-   configuring-kerberos.rst
    pipeline/index
    different-default-values-startup.rst
    authentication/index   
@@ -20,6 +19,7 @@ Configuration
    Python-integration.rst
    running-as-service.rst
    logs.rst
+   configuring-kerberos.rst
    
    
 

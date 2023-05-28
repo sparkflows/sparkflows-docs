@@ -18,7 +18,7 @@ Installation Steps
 * Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     export SPARK_VERSION=3.2.1
-    export RELEASE_VERSION=3.1.XX
+    export RELEASE_VERSION=3.X.XX
     export FIRE_VERSION=3.1.0
     export SPARKFLOWS_ROOT=/home/username/sparkflows
 
@@ -90,7 +90,7 @@ Upgrading Steps
 * Set up the environment variables. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     export SPARK_VERSION=3.2.1
-    export RELEASE_VERSION=3.1.XX
+    export RELEASE_VERSION=3.X.XX
     export FIRE_VERSION=3.1.0
     export SPARKFLOWS_ROOT=/home/username/sparkflows
 

@@ -25,7 +25,7 @@ Prerequisites
 
 Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python::
 
-    yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+    sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel wget
     
 
 Download and extract the downloaded package  
@@ -50,8 +50,8 @@ Compile the Python source code on your system using altinstall::
 
     cd Python-3.7.0
     ./configure --enable-optimizations
-    make altinstall
-    python3.7 –-version
+    sudo make altinstall
+    python3.7 --version
   
 .. figure:: ../../_assets/configuration/python3_7.PNG
    :alt: Installations

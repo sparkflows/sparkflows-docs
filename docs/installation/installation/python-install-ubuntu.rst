@@ -17,9 +17,9 @@ Install Python 3.7 (if not installed)
 Some References for Installing Python: (https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/ )
 
 
-* Update the packages list and install the packages necessary to build Python source:
+* Update the packages list and install the packages necessary to build Python source::
 
-  ``sudo apt update``
+  sudo apt update
 
   .. figure:: ../../_assets/configuration/update_ubuntu.PNG
    :alt: Installations
@@ -67,7 +67,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
    
 * Install the Python binaries by running the following command:: 
  
-   make altinstall
+   sudo make altinstall
 
   .. figure:: ../../_assets/configuration/make.PNG
    :alt: Installations

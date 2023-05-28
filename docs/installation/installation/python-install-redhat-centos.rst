@@ -25,7 +25,7 @@ Prerequisites
 
 Python installation requires the GCC compiler to be available on the machine. Use the following command to install the prerequisites for installing Python::
 
-    sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel wget
+    sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel wget make
     
 
 Download and extract the downloaded package  

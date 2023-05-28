@@ -19,7 +19,7 @@ Supported Linux Versions
 
 Below are required for installing Sparkflows on Linux machine::
 
-  - JDK 1.8+ installed.
+  - JDK 1.8 installed.
   - Java and JAR should be in the PATH
   - 8 GB+ of RAM.
 

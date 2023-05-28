@@ -14,7 +14,7 @@ Supported Linux Versions
 
   - CentOS : 7+
   - Ubuntu : 18.04 and 20.04
-  - RHEL : 9
+  - RHEL : 8
 
 
 Below are required for installing Sparkflows on Linux machine::

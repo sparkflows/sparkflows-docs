@@ -21,7 +21,7 @@ Below are required for installing Sparkflows on Linux machine::
 
   - JDK 1.8 installed.
   - Java and JAR should be in the PATH
-  - 8 GB+ of RAM.
+  - 8 GB+ of RAM (16 GB+ recommended).
 
 
 Below is needed if Sparkflows would connect and submit jobs to an Apache Spark Cluster::

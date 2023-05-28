@@ -42,6 +42,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 * Download and untar::
   
   wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+  
   tar xzf Python-3.7.0.tgz
 
   .. figure:: ../../_assets/configuration/download_tar.PNG

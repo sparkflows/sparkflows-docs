@@ -8,7 +8,7 @@ Fire Insights integrates with EMR, S3, Redshift, SageMaker, HIVE, and Kinesis.
 Fire Insights comes with several components including:
 
 - **Workflow Editor** : To create workflows for data processing, analytics, and machine learning.
-- **260+ Processors** : These include reading data from various stores, data processing, machine learning, and visualizations.
+- **400+ Processors** : These include reading data from various stores, data processing, machine learning, and visualizations.
 - **Execution Engine**: To execute the workflow on EMR.
 - **Scheduler**       : To schedule running of the workflows at specified time intervals.
 

@@ -18,7 +18,7 @@ The CFT does the following:
 Relevant Files
 --------------
 
-.. list-table:: Below are the Relevant Files
+.. list-table:: 
    :widths: 15 20 40
    :header-rows: 1
 

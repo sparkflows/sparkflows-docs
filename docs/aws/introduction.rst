@@ -15,6 +15,7 @@ Fire Insights comes with several components including:
 Fire Insights can be deployed on AWS in three forms:
 
 - **On a Standalone VM** : One needs to provision an EC2 VM and install Sparkflows following the install steps as listed out - https://docs.sparkflows.io/en/latest/installation/installation/index.html
+- **ECS Fargate** : Details of the Fargate deployment can be found here - https://docs.sparkflows.io/en/latest/aws/admin-guide/ecs-fargate-sparkflows-deployment/index.html
 - **Existing Amazon EMR cluster** : We will go into the details of this install in the next section - https://docs.sparkflows.io/en/latest/aws/admin-guide/deploy.html
 - **Using CloudFormation templates to set up a new Amazon EMR Cluster** : If you prefer to use the CloudFormation templates provided by the Sparkflows, an EMR cluster can be created with/without MySQL running in RDS, depending on which template you choose
 

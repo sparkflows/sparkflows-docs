@@ -5,16 +5,16 @@ Fire can be easily installed on an EC2 machine. It can submit jobs to EMR Livy o
 
 Below are the detailed steps for installing Fire Insights on EMR:
 
-1. *Start EMR Cluster on AWS*.
-2. *Update inbound rules for Master Node, if necessary*.
-3. *SSH into the Master node*.
-4. *Download Fire Insights* from https://www.sparkflows.io/download
-5. *Unzip it*.
-6. *Create H2 Database*.
-7. *Start Fire*.
+1. Start EMR Cluster on AWS
+2. Update inbound rules for Master Node, if necessary
+3. SSH into the Master node
+4. Download Fire Insights from https://www.sparkflows.io/download
+5. Unzip it
+6. Create H2 Database
+7. Start Fire
 
-Steps
-------
+Details of each of the above Steps:
+----------------------------------
 
 * Start EMR cluster on AWS:
 
@@ -30,8 +30,6 @@ Steps
 * Download the fire tgz file by any one of the following options:
 
   * https://www.sparkflows.io/download    
-       OR   
-  * https://www.sparkflows.io/archives
        OR
   * wget https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz
   
@@ -138,5 +136,3 @@ EMR needs additional configurations when running PySpark. Below are the steps re
  export SPARK_HOME=/usr/lib/spark/
  export PYSPARK_PYTHON=/home/hadoop/venv/bin/python
  export YARN_CONF_DIR=/etc/hadoop/conf
-
-

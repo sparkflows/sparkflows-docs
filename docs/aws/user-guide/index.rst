@@ -6,12 +6,6 @@ AWS User Guide
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/aws/user-guide/s3-integration-standalone`
-    
-    S3 standalone connectivity.
-    
-    ---
-    
     :doc:`/aws/user-guide/copy-to-s3`
     
     Steps to copy a local directory or file to an S3 bucket.
@@ -56,7 +50,6 @@ AWS User Guide
 .. toctree::
    :hidden:
 
-   s3-integration-standalone.rst
    s3-integration-emr.rs
    copy-to-s3.rst
    s3.rst

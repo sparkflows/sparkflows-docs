@@ -23,7 +23,7 @@ Fire Insights can be deployed on AWS in three forms:
 Pre-requisites and Requirements
 --------------------------------
 
-- **On a Standalone VM** : If Fire Insights is to be installed on a Standalone EC2 machine, then one can choose a VM that suits your workloads from one of the M4 VM's options avilable - https://aws.amazon.com/ec2/instance-types/ We recommend M4 Instance types as they have been thoroughly tested. But, other VM's can also be used to install Sparkflows.
+- **On a Standalone VM** : If Fire Insights is to be installed on a Standalone EC2 machine, then one can choose a VM that suits your workloads from one of the M4 VM's options avilable - https://aws.amazon.com/ec2/instance-types/ We recommend M4 Instance types as they have been thoroughly tested. But, other VM's can also be used to install Sparkflows. Even the Sparkflows docker images can be run on an standalone VM on EC2.
 
 - **Amazon EMR cluster** :  If Fire Insights needs to be installed on EMR, then an EMR cluster would be ndded to run the workflows. You also need SSH access to one of the machines of the EMR cluster for installing the Fire Insights. 
   

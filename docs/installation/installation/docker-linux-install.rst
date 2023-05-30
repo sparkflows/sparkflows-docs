@@ -10,7 +10,13 @@ Prerequisites
 * Docker Desktop (https://docs.docker.com/engine/install/)
     * Download the Docker CE
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
-    
+* Install AWS CLI::
+
+   sudo apt install awscli -y [On Ubuntu]
+   yum install awscli -y [On RHEL/CentOS]
+* If running Docker on EC2 instance, via AWS CLI one need to update the number of hops to 2 instead of the default value of 1 which is set for EC2 instance using the command below. Replace the actual instance ID value in the command below inplace of `i-0fe0xxxxxxxxxxx`::
+
+   aws ec2 modify-instance-metadata-options --instance-id i-0fe0xxxxxxxxxxx --http-tokens required --http-endpoint enabled --http-put-response-hop-limit 2
 
 Installation Steps
 ---------------------------

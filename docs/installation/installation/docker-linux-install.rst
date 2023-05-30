@@ -15,12 +15,6 @@ Prerequisites
    sudo apt install awscli -y [On Ubuntu]
    yum install awscli -y [On RHEL/CentOS]
 
-* If connecting to S3 buckets to read/write data, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
-
-   wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.3/hadoop-aws-3.2.3.jar
-   wget https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0.jar
-   wget https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
-
 * If running Docker on EC2 instance, via AWS CLI one need to update the number of hops to 2 instead of the default value of 1 which is set for EC2 instance using the command below. Replace the actual instance ID value in the command below inplace of `i-0fe0xxxxxxxxxxx`::
 
    aws ec2 modify-instance-metadata-options --instance-id i-0fe0xxxxxxxxxxx --http-tokens required --http-endpoint enabled --http-put-response-hop-limit 2

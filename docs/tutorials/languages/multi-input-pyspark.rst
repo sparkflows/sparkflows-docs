@@ -10,14 +10,14 @@ The below workflow:
 * MultiInputPySpark node reads multiple input data and performs a join.
 * Prints the result.
 
-.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/MultiInputPySpark-WF.png
+.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/Multi-input-wf.png
    :alt: MultiInputpyspark
    :width: 55%
    
 Reading CSV file
 ---------------------
 
-.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/2.png
+.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/read-config.png
    :alt: MultiInputpyspark
    :width: 70%
 
@@ -44,7 +44,7 @@ Example code to join the 2 input DataFrame.
       
 
 
-.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/3.png
+.. figure:: ../../_assets/tutorials/languages/multi-input-pyspark/multi-input-pyspark-config.png
    :alt: MultiInputpyspark
    :width: 70%
    

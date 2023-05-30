@@ -13,7 +13,7 @@ Workflow
 Custom Code
 ---------------------
 
-.. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/custom-code.png
+.. figure:: ../../../_assets/tutorials/machine-learning/wine-quality/pyspark-code.png
    :alt: WineQuality
    :width: 70%
    

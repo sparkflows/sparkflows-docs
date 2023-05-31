@@ -1,11 +1,11 @@
-Pyspark Code for Worfklows
+PySpark Code for Workflows
 ==========================================
 
 
 Sparkflows provide the option to generate the pyspark code for the workflows.
 
 
-Enable the Pyspark code generation option in Configuration -> Module
+Enable the PySpark code generation option in Configuration -> Module
 --------------------------------------------------------------------
 
 .. figure:: ../_assets/developer-guide/configuration-pysparkcode.PNG

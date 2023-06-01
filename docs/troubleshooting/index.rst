@@ -125,6 +125,7 @@ Below are steps for troubleshooting some of the common issues.
    postbackurl.rst
    github.rst
    pipelines.rst
+   airflow.rst
    websockets.rst
    https.rst
    networking.rst

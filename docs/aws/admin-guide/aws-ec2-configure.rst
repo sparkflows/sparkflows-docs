@@ -71,12 +71,18 @@ Step 3 : Configure AWS Access Key and Secret Key in Fire Insights Machine
 Step 4 : Access S3 in Fire-UI
 --------
 
+#. On Fire Inights Dashboard page, place the cursor over **ADMINISTRATION/Configurations** and select AWS tab with below needed configurations.
+
+     .. figure:: ../../_assets/tutorials/awscli/aws_config.PNG
+        :alt: S3 integration
+        :width: 70%
+
 #. On Fire Inights Dashboard page, place the cursor over **DATA** to view the drop-down list.
 
      .. figure:: ../../_assets/tutorials/awscli/aws_s3.PNG
         :alt: S3 integration
         :width: 70%
-   
+
 #. In the list, click **AWS S3** to view the files on S3.
 
      .. figure:: ../../_assets/tutorials/awscli/aws_s3_list.PNG

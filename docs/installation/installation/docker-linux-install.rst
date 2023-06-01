@@ -10,6 +10,10 @@ Prerequisites
 * Docker Desktop (https://docs.docker.com/engine/install/)
     * Download the Docker CE
     * Verify that the docker is up and running and the the docker version by running ``docker --version``
+    * Executing the Docker Command Without Sudo(Optional)::
+    
+        sudo usermod -aG docker ${USER}
+    
 * Install AWS CLI if running docker on EC2::
 
    sudo apt install awscli -y [On Ubuntu]

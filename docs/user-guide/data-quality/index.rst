@@ -542,11 +542,14 @@ Output of this node would produce the following results:
    :width: 65%
 
 
+Example Workflow
+++++++++
 
+Here is a sample workflow that uses all the above-mentioned nodes. 
 
-
-
-
+.. figure:: ../../_assets/user-guide/data-quality/example.png
+   :alt: data-quality-userguide 	
+   :width: 65%
 
 
 

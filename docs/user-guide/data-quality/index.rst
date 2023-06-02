@@ -58,17 +58,17 @@ It does the following processing of data:
 ExpectColumnValuesToBeInBetween Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-betwn-WF.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-betwn-WF.png
+     :alt: data-quality-userguide
+     :width: 65%
 
    
 Incoming Dataset
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/input-data.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/input-data.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 ExpectColumnValuesToBeInBetween Node Configuration
 =======
@@ -80,9 +80,9 @@ ExpectColumnValuesToBeInBetween Node is configured as below.
 * Range of values against which each column entry needs to be checked is to be entered in ``Min`` and ``Max`` columns respectively for each selected column.        
 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-config.png
+     :alt: data-quality-userguide
+     :width: 65%
    
 ExpectColumnValuesToBeInBetween Node Output
 =======
@@ -92,9 +92,9 @@ The Output of this node would produce the following results:
 * If the expectation is met (i.e. all values in the column are within the specified range), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column falls outside of the specified range), then the processor would return the value of the ``success`` column as **False**.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-output.png
-   :alt: data-quality-userguide
-   :width: 65% 
+  .. figure:: ../../_assets/user-guide/data-quality/expect-col-val-in-between-output.png
+     :alt: data-quality-userguide
+     :width: 65% 
    
 
 Expect Column Values To Be Null
@@ -111,16 +111,16 @@ It does the following processing of data:
 ExpectColumnValuesToBeNull Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-null-WF.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-null-WF.png
+     :alt: data-quality-userguide
+     :width: 65%
    
 Incoming Dataset
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-null-input.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-null-input.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 ExpectColumnValuesToBeNull Node Configuration
 =======
@@ -129,9 +129,9 @@ ExpectColumnValuesToBeNull Node Configuration
 * Column(s) which need to be validate for the presence of NULL values is(are) to be selected in the ``Column Name`` drop-down box.
 * Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has NULL values). If it is left blank then it would validate the data only when all the column values match the given expectation i.e. by default, it takes "1" as the value.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-null-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-null-config.png
+     :alt: data-quality-userguide
+     :width: 65%
    
 ExpectColumnValuesToBeNull Node Output
 =======
@@ -141,9 +141,9 @@ The Output of this node would produce the following results:
 * If the expectation is met (i.e. the given percentage of data has NULL values), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. the given percentage of data does not have any NULL values), then the processor would return the value of the ``success`` column as **False**. 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-null-output01.png
-   :alt: data-quality-userguide
-   :width: 65% 
+  .. figure:: ../../_assets/user-guide/data-quality/expect-null-output01.png
+     :alt: data-quality-userguide
+     :width: 65% 
    
 
 
@@ -161,17 +161,17 @@ It does the following processing of data:
 ExpectColumnValuesToBeUnique Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-WF.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-WF.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 Incoming Dataset
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 ExpectColumnValuesToBeUnique Node Configuration
@@ -181,9 +181,9 @@ ExpectColumnValuesToBeUnique Node Configuration
 * Column(s) for which the uniqueness of values need to be checked is(are) to be selected in the ``Column Name`` drop-down box.
 * Percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal Value between 0-1 can be specified where 0 = 0% and 1 = 100% (e.g. specifying 0.6 would validate the data if atleast 60% of column values match the given expectation i.e. has unique values). If left blank, then it would validate the data only when all the column values match the given expectation i.e. by default, it takes "1" as the value.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-config.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 ExpectColumnValuesToBeUnique Node Output
@@ -195,9 +195,9 @@ The Output of this node would produce the following results:
 * If the expectation is not met (i.e. there are duplicate values in the selected column(s)), then the processor would return the value of the ``success`` column as **False**.
 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-output.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-output.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 Expect Column Values To Not Be Null
@@ -212,17 +212,17 @@ It does the following processing of data:
 * Prints the output using the print node.
 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-not-null-WF.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-WF.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 Incoming Dataset
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 ExpectColumnValuesToNotBeNull Node Configuration
@@ -232,9 +232,9 @@ ExpectColumnValuesToNotBeNull Node Configuration
 * Columns that need to be validated for the absence of NULL values are to be selected in the ``Column Name`` drop-down box.
 * The percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column. Any decimal value between 0-1 can be specified, where 0 = 0% and 1 = 100%. For example, specifying 0.6 would validate the data if at least 60% of column values do not have null values. If it is left blank, it would validate the data only when all the column values do not have null values. By default, it takes "1" as the value.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-not-null-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-config.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 
@@ -247,9 +247,9 @@ The output of this node would produce the following results:
 * If the expectation is not met (i.e. the given percentage of data has null values), then the processor would return the value of the ``success`` column as **False**.
 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-not-null-output.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-not-null-output.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 Expect Table Row Count To Be Between
 +++++++++
@@ -262,16 +262,16 @@ It does the following processing of data:
 * Validates the input data in tabular format if the row count falls within the specified range.
 * Prints the output using the print node.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-WF.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-WF.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 Incoming Dataset
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-unique-input.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 ExpectTableRowCountToBeBetween Node Configuration
 ===========
@@ -279,9 +279,9 @@ ExpectTableRowCountToBeBetween Node Configuration
 * The input of this node is the incoming dataset.
 * The minimum and maximum row count values have to be specified under the ``Min Count`` and ``Max Count`` boxes respectively.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-config.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 ExpectTableRowCountToBeBetween Node Output
@@ -292,9 +292,9 @@ The output of this node would produce the following results:
 * If the expectation is met (i.e. the row count of the input dataset falls within the specified range), then the processor would return the value of the ``success`` column as True.
 * If the expectation is not met (i.e. the row count of the input dataset does not fall within the specified range), then the processor would return the value of the ``success`` column as **False**. 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-row-count-btwn-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Expect Column Value Lengths To Equal
 +++++++
@@ -309,16 +309,16 @@ It does the following processing of data:
 ExpectColumnValueLengthsToEqual Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-WF.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-WF.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Incoming Dataset
 ======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-input.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-input.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 ExpectColumnValueLengthsToEqual Node Configuration
 ========
@@ -328,9 +328,9 @@ ExpectColumnValueLengthsToEqual Node Configuration
 * Specified length against which each column entry's length needs to be validated is to be entered in the ``value`` column for each selected column.
 * The percentage of data to be validated can be specified under the ``Mostly`` Column for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-config.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-config.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 
 ExpectColumnValueLengthsToEqual Node Output
@@ -341,9 +341,9 @@ The output of this node would produce the following results:
 * If the expectation is met (i.e. all values in the column have length equal to the specified length), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column has length different from the specified length), then the processor would return the value of the ``success`` column as **False**.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-lengths-equal-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Expect Column Value Length To Be In Between
 +++++++
@@ -358,16 +358,16 @@ It does the following processing of data:
 ExpectColumnValueLengthToBeInBetween Node Sample Workflow
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-WF.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-WF.png
+     :alt: data-quality-userguide 	
+     :width: 65%
    
 Incoming Dataset
 ======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-input.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-input.png
+     :alt: data-quality-userguide 	
+     :width: 65%
    
 ExpectColumnValueLengthToBeInBetween Node Configuration
 ======
@@ -376,9 +376,9 @@ ExpectColumnValueLengthToBeInBetween Node Configuration
 * Column(s) for which the length of the values need to be validated against the specified range is(are) to be selected in the ``Column Name`` drop-down box.
 * Range of values against which each column entry's length needs to be checked is to be entered in ``Min`` and  ``Max`` columns respectively for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-config.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-config.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 ExpectColumnValueLengthToBeInBetween Node Output
 ++++++
@@ -388,9 +388,9 @@ The output of this node would produce the following results:
 * If the expectation is met (i.e. all values in the column have length within the specified range), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column has length outside of the specified range), then the processor would return the value of the ``success`` column as **False**.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-length-btwn-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Expect Column Values To Be In Set
 +++++++
@@ -405,16 +405,16 @@ It does the following processing of data:
 ExpectColumnValuesToBeInSet Sample Workflow
 ======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-WF.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-WF.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Incoming Dataset
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-input.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-input.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 
 ExpectColumnValuesToBeInSet Node Configuration
@@ -426,9 +426,9 @@ ExpectColumnValuesToBeInSet Node Configuration
 * The processor can be configured to check for spaces present in the column values. To check for spaces use acronym ``SP``. Refer the below image.
 * The percentage of data to be validated can be specified under the ``Mostly`` column for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-config.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-config.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 ExpectColumnValuesToBeInSet Node Output
 ========
@@ -438,9 +438,9 @@ The output of this node would produce the following results:
 * If the expectation is met (i.e. all values in the column exist in the specified set), then the processor would return value of the ``success`` column as **True**.
 * If the expectation is not met (i.e. at least one value in the column does not exist in the specified set), then the processor would return the value of the ``success`` column as **False**. 
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-in-set-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Expect Column Values To Match Regex
 +++++++
@@ -456,16 +456,16 @@ It does the following processing of data:
 ExpectColumnValuesToMatchRegex Node Sample Workflow
 =========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-WF.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-WF.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Incoming Dataset
 ==========
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-input.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-input.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 ExpectColumnValuesToMatchRegex Node Configuration
 =========
@@ -475,9 +475,9 @@ ExpectColumnValuesToMatchRegex Node Configuration
 * Regular expression pattern against which each column entry needs to be checked is to be entered in the ``Regex`` column for each selected column.
 * The percentage of data to be validated can be specified under the ``Mostly`` column for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-config.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-config.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 ExpectColumnValuesToMatchRegex Node Output
 ========
@@ -488,9 +488,9 @@ The output of this node would produce the following results:
 * If the expectation is not met (i.e. at least one value in the selected column(s) does not match the specified regular expression pattern), then the processor would return the value of the ``success`` column as **False**. 
 * It is important to note that the regular expression pattern needs to be specified correctly for this validation to work as expected.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-regex-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 Expect Column Values To Match Strftimeformat
 +++++++
@@ -505,16 +505,16 @@ It does the following processing of data:
 ExpectColumnValuesToMatchStrftimeFormat Node Sample Workflow
 =======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-WF.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-WF.png
+     :alt: data-quality-userguide 	
+     :width: 65%
    
 Incoming Dataset
 ======
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-input.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-input.png
+     :alt: data-quality-userguide 	
+     :width: 65%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 =========
@@ -524,9 +524,9 @@ ExpectColumnValuesToMatchStrftimeFormat Node Configuration
 * Strftime format against which each column entry needs to be checked is to be entered in the ``Strftime Format`` column for each selected column.
 * The percentage of data to be validated can be specified under the ``Mostly`` column for each selected column.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-config.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-config.png
+     :alt: data-quality-userguide 	
+     :width: 65%
    
 ExpectColumnValuesToMatchStrftimeFormat Node Output
 ========
@@ -537,19 +537,27 @@ Output of this node would produce the following results:
 * If the expectation is not met (i.e. at least one value in the selected column(s) does not match the specified strftime format), then the processor would return the value of the ``success`` column as **False**. 
 * It is important to note that the strftime format needs to be specified correctly for this validation to work as expected.
 
-.. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-output.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+  .. figure:: ../../_assets/user-guide/data-quality/expect-value-match-strftime-output.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 
 Example Workflow
 ++++++++
 
-Here is a sample workflow that uses all the above-mentioned nodes. 
+Here is a sample workflow which performs data quality and decision check using the following nodes:
 
-.. figure:: ../../_assets/user-guide/data-quality/example.png
-   :alt: data-quality-userguide 	
-   :width: 65%
+* Read CSV Node: which reads the input dataset.
+
+* Great Expectations (GE) Nodes: which performs multiple data quality checks on the data based on either the columns in data on whole dataset based on the GE node added.
+
+* Create CSV Node: which creates and saves values from GE results so that the CSV output is passed to GE Decision Node as input DataFrame.
+
+* GE Decision Node: which performs decision check on the GE result DataFrame based on the condition(s) or expression(s) specified. 
+
+  .. figure:: ../../_assets/user-guide/data-quality/example.png
+     :alt: data-quality-userguide 	
+     :width: 65%
 
 
 

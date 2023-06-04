@@ -547,13 +547,13 @@ Example Workflow
 
 Here is a sample workflow which performs data quality and decision check using the following nodes:
 
-* Read CSV Node: which reads the input dataset.
+* **Read CSV Node:** which reads the input dataset.
 
-* Great Expectations (GE) Nodes: which performs multiple data quality checks on the data based on either the columns in data on whole dataset based on the GE node added.
+* **Great Expectations (GE) Nodes:** which perform multiple data quality checks on the data based on either the columns in data on whole dataset based on the GE node added.
 
-* Create CSV Node: which creates and saves values from GE results so that the CSV output is passed to GE Decision Node as input DataFrame.
+* **Create CSV Node:** which creates and saves values from GE results so that the CSV output is passed to GE Decision Node as input DataFrame.
 
-* GE Decision Node: which performs decision check on the GE result DataFrame based on the condition(s) or expression(s) specified. 
+* **GE Decision Node:** which performs decision check on the GE result DataFrame based on the condition(s) or expression(s) specified. 
 
   .. figure:: ../../_assets/user-guide/data-quality/example.png
      :alt: data-quality-userguide 	

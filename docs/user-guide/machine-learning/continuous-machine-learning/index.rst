@@ -3,7 +3,7 @@ Continuous Machine Learning
 
 Sparkflows makes it extremely easy to implement Continuous Machine Learning process in hours. This process ensures that Business Insights are generated in a timely manner against the most recent dataset. It also keeps the ML model uptodate, detects anomalies and merges daily changes with historical data.  
 
-.. figure:: ../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-1.png
+.. figure:: ../../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-1.png
    :alt: continuous machine learning
    :width: 70%
 
@@ -18,7 +18,7 @@ The Model Training Pipeline can be scheduled to run periodically.
 
 * Finally, the **Model Training Workflow** selects the model features, trains and saves the model.
 
-.. figure:: ../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-2.png
+.. figure:: ../../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-2.png
    :alt: continuous machine learning
    :width: 70%
 
@@ -34,7 +34,7 @@ The Model Prediction Pipeline can be either scheduled to run periodically or dir
 
 * Finally, **Predictive Analytics Workflow** is executed to generate the required Business Insights which are instantly published into pre-defined Reports.  
 
-.. figure:: ../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-3.png
+.. figure:: ../../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-3.png
    :alt: continuous machine learning
    :width: 70%
 
@@ -44,7 +44,7 @@ Additional Notes
 Schedule Training or Prediction Pipeline
 +++++
 
-.. figure:: ../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-4.png
+.. figure:: ../../../_assets/user-guide/machine-learning/blogs/continuous-ML/cml-4.png
    :alt: continuous machine learning
    :width: 70%
 

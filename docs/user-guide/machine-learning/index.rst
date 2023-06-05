@@ -60,6 +60,15 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
     :doc:`/user-guide/machine-learning/sagemaker`
 
     Provides deep integration with AWS Sagemaker.
+    
+    ---
+    
+    :doc:`/user-guide/machine-learning/continuous-machine-learning/index`
+    
+    Provides insights on implementation of continuous machine learning in Sparkflows.
+    
+    
+
 
 
 .. toctree::
@@ -74,6 +83,7 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
    model-serving/index.rst
    mlflow.rst
    sagemaker.rst
+   continuous-machine-learning/index.rst
    
 
    

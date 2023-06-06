@@ -1,23 +1,55 @@
 Adding Stages
 =============
 
-Click on the ``Add stages`` button to add a new stage. Select stage type, enter the stage name and condition(optional).
+This document explains in detail the steps required to add stages to an Anlytical App.
 
-  .. figure:: ../../../_assets/web-app/AddStage1.png
+Step 1 : Open Add Stage Window
+---------
+
+#. Click the **Plus Icon** button on the create or edit analytical app page. 
+
+   .. figure:: ../../../_assets/web-app/add-stages/add-stage.png
       :alt: web-app
-      :width: 50%
+      :width: 65%
+      
+Step 2 : Enter the Required Fields
+---------
 
+On the Add stage window:
 
-- You can rearrange the stages by using drag and drop. 
-- You can EDIT, VIEW, and REMOVE stages.
-- Can also RENAME the stage name and update condition.
-- Conditions are added to show particular stage on run analytics app page when added condition for that stage is fulfilled.
-- Conditions examples are :
+#. Select the **stage type** from the drop-down list i.e. Upload, Parameter or Run.
+#. Enter the desired **stage name**.
+#. Enter the **condition**, if any. Note: 
+   
+   * Conditions are added to show particular stage on run analytics app page when the added condition for that stage is fulfilled.
+   * Examples of conditions:
+      
+     1. educationLevel = 'masters'
+     2. educationLevel = 'masters' && gender = 'female'
+     3. educationLevel = 'masters' || gender = 'female'
+     4. Leave it empty if you prefer the stage to always be displayed.
+
+   .. figure:: ../../../_assets/web-app/add-stages/enter-fields.png
+      :alt: web-app
+      :width: 65%
+      
+Step 3 : Add the Stage
+-----------
+
+#. Once you enter all the field details, click on the **Add** button to add the stage.
+   
+   Note: 
+   
+   - You can rearrange the stages by using drag and drop. 
+   - You can EDIT, VIEW, and REMOVE stages.
+   - You can also RENAME the stage name and update condition.
+
+  If successfully added, the stage will be displayed on the Edit Stage Page as below:
  
-  1. educationLevel = 'masters'
-  2. educationLevel = 'masters' && gender = 'female'
-  3. educationLevel = 'masters' || gender = 'female'
-  4. Leave it empty to show particular stage to be displayed always.
+ .. figure:: ../../../_assets/web-app/add-stages/save-stage.png
+      :alt: web-app
+      :width: 65%
+      
 
 Below are the examples for adding various Stages:
 

@@ -7,7 +7,7 @@ Below are the steps required to create a new Analytical App:
 
 #. Open the **project** where you want to create an Analytical App.
 #. Open the **Applications** tab from the upper-middle bar on from Project Overview page.
-#. Open the **Create Analytics Applications** page.
+#. Open the **Create Analytics Application** page.
 #. Add the **required fields** on Create Analytics Applications page.
 #. **Save** and **View** the newly created Analytical App.
 
@@ -30,10 +30,10 @@ Step 2 : Open the Applications Tab
       :width: 70%
 
 
-Step 3 : Open the Create Analytics Applications Page
+Step 3 : Open the Create Analytics Application Page
 -------------------------
 
-#. From the Applications page, click on the **Create** button to reach the Create Analytics Applications page.
+#. From the Applications page, click on the **Create** button to reach the Create Analytics Application page.
 
    .. figure:: ../../_assets/web-app/create-analytical-app/applications-tab.png
       :alt: web-app
@@ -61,7 +61,7 @@ Step 5 : Save and View the Application
 --------
 
 #. Click on the **Save** button to save the newly created application before you start adding stages.
-#. Click on the **APPLICATIONS** tab from the top-menu bar to view the newly create Application.
+#. Click on the **APPLICATIONS** tab from the top-menu bar to view the newly created Application.
 
    .. figure:: ../../_assets/web-app/create-analytical-app/app-list.png
       :alt: web-app

@@ -152,12 +152,19 @@ Install the required python packages for Fire Insights::
 ``requirements.txt`` file is available in the installation directory of Fire Insights.
 
 If connecting to S3 buckets from PySpark
--------------------------
+----------------------------------------
 If connecting to S3 buckets to read/write data, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
 
    wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.1/hadoop-aws-3.3.1.jar
    wget https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0.jar
    wget https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
+
+
+If using read excel node from PySpark
+-------------------------------------
+If using read excel node from PySpark, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
+
+   wget https://repo1.maven.org/maven2/com/crealytics/spark-excel_2.12/3.2.2_0.18.5/spark-excel_2.12-3.2.2_0.18.5.jar
 
 Delete a venv
 +++++++++++++

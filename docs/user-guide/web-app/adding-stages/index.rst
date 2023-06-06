@@ -8,9 +8,9 @@ Step 1 : Open Add Stage Window
 
 #. Click the **Plus Icon** button on the create or edit analytical app page. 
 
-   .. figure:: ../../../_assets/web-app/add-stages/add-stage.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../../_assets/web-app/add-stages/add-stage.png
+        :alt: web-app
+        :width: 70%
       
 Step 2 : Enter the Required Fields
 ---------
@@ -29,9 +29,9 @@ On the Add stage window:
      3. educationLevel = 'masters' || gender = 'female'
      4. Leave it empty if you prefer the stage to always be displayed.
 
-   .. figure:: ../../../_assets/web-app/add-stages/enter-fields.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../../_assets/web-app/add-stages/enter-fields.png
+        :alt: web-app
+        :width: 40%
       
 Step 3 : Add the Stage
 -----------
@@ -46,9 +46,9 @@ Step 3 : Add the Stage
 
   If successfully added, the stage will be displayed on the Edit Stage Page as below:
  
- .. figure:: ../../../_assets/web-app/add-stages/save-stage.png
+   .. figure:: ../../../_assets/web-app/add-stages/save-stage.png
       :alt: web-app
-      :width: 65%
+      :width: 70%
       
 
 Below are the examples for adding various Stages:

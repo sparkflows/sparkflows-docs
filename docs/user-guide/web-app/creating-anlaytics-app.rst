@@ -51,9 +51,9 @@ On the Create Analytics Applications page, fill in the required fields as below:
  - **Use Cases:** Give use case description, if desired.
  - **Notebook or Workflow List:** Select the notebook or workflow from the drop-down list.
  
-Note: In our example, we have added the fields as Name: CHURN APPLICATION, Category: CPG, Description: Customer Churn, Use Cases: Marketing 
+Note: In our example, we have added the fields as Name: CHURN APPLICATION, Description: Customer Churn
  
- .. figure:: ../../_assets/web-app/create-analytical-app/add-fields-page.png
+ .. figure:: ../../_assets/web-app/create-analytical-app/fields-add.png
       :alt: web-app
       :width: 70%
 

@@ -1,111 +1,118 @@
 Ping Identity Setup
 ========
 
-Below are steps to setup SAML 2.0 Ping Identity.
+This documentation describes the steps you need to follow to set up SAML 2.0 with Ping Identity. 
 
-Create an account in Ping Identity
+For more detailed information, please refer to the `Ping Identity documentation. <https://docs.pingidentity.com/>`_
+
+Step 1: Get Started with Creating an Account
 ------
 
-.. figure:: ../../../_assets/authentication/pingid/ping_id.PNG
-   :alt: sso
-   :width: 40%
+#. Visit the Ping Identity website and Create an account in Ping Identity.
+
+   .. figure:: ../../../_assets/authentication/pingid/ping_id.PNG
+      :alt: sso
+      :width: 40%
    
-Sign On to Ping Identity
+Step 2 : Sign On to Ping Identity
 ------
 
-.. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG
-   :alt: sso
-   :width: 40%
+#. Enter the credentials to sign on to your Ping Identity Account.
 
-Go to ``Administrators`` in Environments
+   .. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG
+      :alt: sso
+      :width: 40%
+
+
+Step 3 : Go to Administrators 
 ------
 
-Click on ``Administrators`` in Environments.
+#. Click on **Administrators** in Environments.
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
-   :alt: sso
-   :width: 60%
+   .. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
+      :alt: sso
+      :width: 50%
 
-Click on ``Connections``
+Step 4 : Go to Connections  
 ------
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_3.PNG
-   :alt: sso
-   :width: 60%
+#. Click on **Connections**. This will display available options.
 
-Create new Application
+   .. figure:: ../../../_assets/authentication/pingid/pingid_3.PNG
+      :alt: sso
+      :width: 50%
+
+Step 5 : Create new Application
 ------
 
-Select ``Applications`` & click on ``+`` sign to create new application
+#. Select **Applications**.  
+#. Click on **+** sign.
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
-   :alt: sso
-   :width: 60%
+   .. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
+      :alt: sso
+      :width: 50%
 
-Add ``Name`` and ``Description`` of the Application
-------
+#. Add **Name** and **Description** of the Application.
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_5.PNG
-   :alt: sso
-   :width: 60%
+   .. figure:: ../../../_assets/authentication/pingid/pingid_5.PNG
+      :alt: sso
+      :width: 50%
    
-Choose ``Application Type`` as SAML Application
-------
+#. Choose Application Type as **SAML Application**.
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_6.PNG
-   :alt: sso
-   :width: 60%
+   .. figure:: ../../../_assets/authentication/pingid/pingid_6.PNG
+      :alt: sso
+      :width: 50%
    
-Provide Application Metadata
-------
-
-Click on ``Configure`` and provide application metadata as per your configuration
-
-.. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
-   :alt: sso
-   :width: 60%
+#. Provide Application Metadata:
    
-Update ``ACS URLs`` and ``Entity ID`` and save the Application
+   * Click on **Configure** and
+   * Choose the method to provide metadata as per your configuration.
+   
+     .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
+      :alt: sso
+      :width: 50%
+   
+#. Enter the **ACS URLs** and **Entity ID**. 
+#. Click **Save** to save the Application.
+  
+   .. figure:: ../../../_assets/authentication/pingid/ping_acs.PNG
+      :alt: sso
+      :width: 50%
+
+Step 6: Update HTTP POST
 ------
 
-.. figure:: ../../../_assets/authentication/pingid/ping_acs.PNG
-   :alt: sso
-   :width: 60%
+#. Click on **Configure** and update the HTTP POST as ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
 
-Update ``HTTP POST`` and save
+   .. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
+      :alt: sso
+      :width: 50%
+
+Step 7 : Update Attribute Mappings
 ------
 
-Click on ``Configure`` and Update ``HTTP POST : urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
-
-.. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
-   :alt: sso
-   :width: 60%
-
-Update ``Attribute Mappings`` and save
-------
-
-Click on ``Attribute Mappings`` and Update details as below and save
-
-.. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
-   :alt: sso
-   :width: 60%
-
-Detailed attribute mapping can be found below:
+Click on **Attribute Mappings** and update the required details as below: 
 
 * fireUsername=UserName
 * emailID=EmailID
 * firstName=FirstName
 * samlSubject=saml_subject
 * lastName=LastName
-  
 
-Download the metadata from Application
+.. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
+   :alt: sso
+   :width: 50%
+
+Step 8 : Download Metadata from Application
 ------
 
-Activate the Application and download the metadata from application which will be used while configuring Fire Insights
+#. Activate the Application and download the Metadata from application. 
+   
+   This metadata will be used while configuring the Fire Insights.
 
-.. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
-   :alt: sso
-   :width: 60%
+   .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
+      :alt: sso
+      :width: 50%
 
 .. note::  Make sure to change localhost to your domain name or your IP where Fire Insights is running.

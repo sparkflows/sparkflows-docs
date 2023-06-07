@@ -92,17 +92,17 @@ Step 6: Update HTTP POST
 Step 7 : Update Attribute Mappings
 ------
 
-Click on **Attribute Mappings** and update the required details as below: 
+#. Click on **Attribute Mappings** and update the required details as below: 
 
-* fireUsername=UserName
-* emailID=EmailID
-* firstName=FirstName
-* samlSubject=saml_subject
-* lastName=LastName
+   * fireUsername=UserName
+   * emailID=EmailID
+   * firstName=FirstName
+   * samlSubject=saml_subject
+   * lastName=LastName
 
-.. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
-   :alt: sso
-   :width: 50%
+   .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
+      :alt: sso
+      :width: 50%
 
 Step 8 : Download Metadata from Application
 ------

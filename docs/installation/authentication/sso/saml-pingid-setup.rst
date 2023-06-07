@@ -8,7 +8,7 @@ For more detailed information, please refer to the `Ping Identity documentation.
 Step 1: Get Started with Creating an Account
 ------
 
-#. Visit the Ping Identity website and Create an account in Ping Identity.
+#. Visit the Ping Identity website and create an account in Ping Identity.
 
    .. figure:: ../../../_assets/authentication/pingid/ping_id.PNG
       :alt: sso
@@ -17,7 +17,7 @@ Step 1: Get Started with Creating an Account
 Step 2 : Sign On to Ping Identity
 ------
 
-#. Enter the credentials to sign on to your Ping Identity Account.
+#. Enter the **credentials** to sign on to your Ping Identity Account.
 
    .. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG
       :alt: sso

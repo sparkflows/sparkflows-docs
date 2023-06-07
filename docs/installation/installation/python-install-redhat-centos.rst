@@ -149,14 +149,6 @@ Run below command with sudo privilege
    :alt: Installations
    :width: 60%
 
-* Copy jar to python environment
-
-If you are using python engine, make sure to copy below jar for Reading Excel file
-
-Download ``spark-excel`` jar from below maven repository and copy to ``venv/lib/python3.7/site-packages/pyspark/jars/``
-
-Reference maven url : https://mvnrepository.com/artifact/com.crealytics/spark-excel_2.12/3.2.2_0.18.5
-
 
 Reference
 ---------

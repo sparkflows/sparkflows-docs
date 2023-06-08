@@ -1,7 +1,7 @@
 Getting Started with Fire Insights
 ===============================
 
-Fire Insights makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics. With the power of Fire Insights at your hands, seamlessly find value from your data and scale to Petabyte.
+Fire Insights makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics. With the power of Fire Insights at your hands, seamlessly find value from your data and scale to Petabytes of data.
 
 Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessly integrates with the most complex of Enterprise Environments.
 

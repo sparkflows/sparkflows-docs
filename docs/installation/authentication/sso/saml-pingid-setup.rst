@@ -66,24 +66,27 @@ Step 5 : Create new Application
    
 #. Provide Application Metadata:
    
-   * Click on **Configure** and
-   * Choose the method to provide metadata as per your configuration.
+    * Click on **Configure** and
+    * Choose the method to provide metadata as per your configuration.
    
-     .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
+   .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
       :alt: sso
       :width: 50%
    
 #. Enter the **ACS URLs** and **Entity ID**. 
-#. Click **Save** to save the Application.
+
   
    .. figure:: ../../../_assets/authentication/pingid/ping_acs.PNG
       :alt: sso
       :width: 50%
+      
+#. Click **Save** to save the Application.     
 
 Step 6: Update HTTP POST
 ------
 
-#. Click on **Configure** and update the HTTP POST as ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
+#. Click on **Configure**.
+#. Update the HTTP POST as ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
 
    .. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
       :alt: sso
@@ -93,17 +96,19 @@ Step 7 : Update Attribute Mappings
 ------
 
 #. Click on **Attribute Mappings** and update the required details as below: 
+   
+    * fireUsername=UserName
+    * emailID=EmailID
+    * firstName=FirstName
+    * samlSubject=saml_subject
+    * lastName=LastName
 
-   * fireUsername=UserName
-   * emailID=EmailID
-   * firstName=FirstName
-   * samlSubject=saml_subject
-   * lastName=LastName
-
+ 
    .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
       :alt: sso
       :width: 50%
-
+ 
+   
 Step 8 : Download Metadata from Application
 ------
 
@@ -115,4 +120,4 @@ Step 8 : Download Metadata from Application
       :alt: sso
       :width: 50%
 
-.. note::  Make sure to change localhost to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the localhost to your domain name or your IP where Fire Insights is running.

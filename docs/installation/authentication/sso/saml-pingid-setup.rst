@@ -3,7 +3,7 @@ Ping Identity Setup
 
 This documentation describes the steps you need to follow to set up SAML 2.0 with Ping Identity. 
 
-For more detailed information, please refer to the `Ping Identity documentation. <https://docs.pingidentity.com/>`_
+For more detailed information, please refer to the `Ping Identity documentation. <https://docs.pingidentity.com/r/en-us/pingone/pingone_p1sso_start>`_
 
 Step 1: Get Started with Creating an Account
 ------

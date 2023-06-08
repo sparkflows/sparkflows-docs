@@ -83,6 +83,16 @@ Print N Rows Node
   .. figure:: ../../../_assets/user-guide/passing-parameters/Passing-Parameter/FilterChurnData.png
      :alt: Passing Parameters
      :width: 75%
+     
+
+Parameters passed can also be accessed from PySpark nodes in the code
+^^^^^^^^^^^^^^^^^^
+
+* This PySpark node gets the path as parameter from the workflow and the code is able to get the parameter and use it to read a file.
+
+  .. figure:: ../../../_assets/user-guide/passing-parameters/Passing-Parameter/pyspark_node_parameter.png
+     :alt: Passing Parameters
+     :width: 75%
    
 Through Workflow Parameters passed during Workflow Execution
 ---------------------------------------------------   

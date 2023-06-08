@@ -32,7 +32,9 @@ Below are steps to setup SAML 2.0 OneLogin:
    .. figure:: ../../../_assets/authentication/search-app.png
       :alt: sso
       :width: 60%
-	    
+	   
+   Note: The SAML Custom Connector (Advanced) is the new name for the SAML Test Connector (Advanced)  
+
 6. Input an application **name** and **save** it.
 
    .. figure:: ../../../_assets/authentication/saveApp.png

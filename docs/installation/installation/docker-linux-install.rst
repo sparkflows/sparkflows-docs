@@ -38,7 +38,7 @@ Installation Steps
     docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
-* Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
+* Start the docker image using the ``docker run`` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
     
     
     docker run -m 16g -p 8080:8080 -p 9443:9443 \

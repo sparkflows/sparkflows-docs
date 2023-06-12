@@ -3,7 +3,7 @@ OneLogin SAML Setup
 
 Below are the steps required to setup SAML 2.0 OneLogin.
 
-For more detailed information, please refer to the `OneLogin documentation. <https://developers.onelogin.com/>`_
+For more detailed information, please refer to the `OneLogin documentation. <https://support.onelogin.com/kb/4266907/saml-custom-connector-advanced>`_
 
 Step 1 : Get Started with Creating an Account
 --------

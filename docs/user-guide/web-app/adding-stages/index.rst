@@ -44,8 +44,8 @@ Step 3 : Add the Stage
    Note: 
    
    - You can rearrange the stages by using drag and drop. 
-   - You can EDIT, VIEW, and REMOVE stages.
-   - You can also RENAME the stage name and update condition.
+   - You can **edit**, **view**, and **remove** stages.
+   - You can also **rename** the stage name and **update condition**.
 
   When successfully added, the stage will be displayed on the Edit Stage Page as below:
  

@@ -150,7 +150,7 @@ Step 6 : Add Another Column Component
     
 #. On the Column Component window, set the required fields as per choice and click **Save** to save the component.
 
-    .. figure:: ../../../_assets/web-app/stage-upload/save-column2.png
+   .. figure:: ../../../_assets/web-app/stage-upload/save-column2.png
       :alt: web-app
       :width: 60%
 

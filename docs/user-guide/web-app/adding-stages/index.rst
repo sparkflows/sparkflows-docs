@@ -43,7 +43,7 @@ Step 3 : Add the Stage
    
    Note: 
    
-   - You can rearrange the stages by using drag and drop. 
+   - You can **rearrange** the stages by using drag and drop. 
    - You can **edit**, **view**, and **remove** stages.
    - You can also **rename** the stage name and **update condition**.
 

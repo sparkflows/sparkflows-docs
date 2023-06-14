@@ -27,8 +27,18 @@ Recompile python from source code::
  sudo make altinstall
 
 I installed Python 3.9 and running into issues
----------------
+++++++
 
 Only Python 3.7 or 3.8 are supported. Please terminate the machine on which you installed 3.9 and start with a fresh machine.
 
 
+To know where the python is installed, on the machine::
+++++++
+
+To know all locations python::
+
+   whereis python3
+
+To know location of python bein used::
+
+   which python3

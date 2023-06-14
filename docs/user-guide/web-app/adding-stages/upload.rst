@@ -1,7 +1,7 @@
 Upload Stage
 ========
 
-Below are the steps required to add, edit or create an upload stage.
+Below are the steps required to create or edit an upload stage.
 
 
 Step 1 : Open Edit Stage Page
@@ -21,7 +21,7 @@ Step 2 : Add Column Component
 
 #. Place the cusror on the **Columns** option and click to **drag and drop** it on the RHS.
    
-   **Note:** Make sure to Drop the component right over the text in purple text box.
+   **Note:** Ensure that you drop the component directly onto the purple-colored box.
    
    .. figure:: ../../../_assets/web-app/stage-upload/drag-column.png
       :alt: web-app
@@ -45,9 +45,10 @@ Step 3 : Add File Component
 Add file component to enable uploading of files. To add :
 
 #. Expand the **General** tab.
-#. Place the cursor on **File** option and click to drag and drop it in the first column.
+#. Place the cursor on **File** option and click to drag and drop it in the left column.
 
-   **Note:** Make sure to drop the component right over the purple-colored box in the first column.
+   **Note:** Ensure that you drop the component directly onto the purple-colored box.
+   
 
    .. figure:: ../../../_assets/web-app/stage-upload/drag-file.png
       :alt: web-app
@@ -77,7 +78,7 @@ Add text field component in the **second column** to set the **destination path*
 #. Expand **General** tab.
 #. Place the cursor on **Text Field** and click to drag and drop the component in the second column.
 
-   **Note:** Make sure to drop the component right over the purple box in the second column.
+   **Note:** Ensure that you drop the component directly onto the purple-colored box.
 
    .. figure:: ../../../_assets/web-app/stage-upload/drag-text-field.png
       :alt: web-app
@@ -103,7 +104,7 @@ If you want to map columns of the uploaded files, add select boxes. To add:
 #. Expand the **General** tab.
 #. Place the cursor on **Select Boxes** option and drag and drop it in the first column.
 
-   **Note:** Make sure to drop the component right below the upload file component box and not inside the box.
+   **Note:** Ensure that you drop the component below the upload file component box, rather than inside the box
 
    .. figure:: ../../../_assets/web-app/stage-upload/drag-select-boxes.png
       :alt: web-app
@@ -111,7 +112,7 @@ If you want to map columns of the uploaded files, add select boxes. To add:
 
 #. In the Select Boxes Component Window :
 
-   In the **Display** tab, set the **Label** name as **Columns** and
+   In the **Display** tab, set the **Label** name as **Columns**.
 
    Check the **Hidden** box to make this component hidden.
 
@@ -127,7 +128,7 @@ If you want to map columns of the uploaded files, add select boxes. To add:
 
    Check the columns that should be considered as required fields.
        
-   **Note:** Do not select the **CLEAR VALUE WHEN HIDDEN** checkbox as only the default values are needed when the component is chosen to be hidden.
+   **Note:** Do not check the CLEAR VALUE WHEN HIDDEN box. Default values are sufficient when the component is hidden.
 
    .. figure:: ../../../_assets/web-app/stage-upload/select-box-component.png
       :alt: web-app
@@ -142,13 +143,15 @@ If you want to map columns of the uploaded files, add select boxes. To add:
 Step 6 : Add Another Column Component
 ---------
 
-#. Drag and drop the column right below the Select boxes as done in the previous steps
+#. Move the column by dragging and dropping it directly below the Select boxes, similar to what was done in step 2.
 
    .. figure:: ../../../_assets/web-app/stage-upload/drag-column2.png
       :alt: web-app
       :width: 60%
     
-#. On the Column Component window, set the required fields as per choice and click **Save** to save the component.
+#. On the Column Component window, set the required fields as per choice.
+   
+   click **Save** to save the component.
 
    .. figure:: ../../../_assets/web-app/stage-upload/save-column2.png
       :alt: web-app
@@ -161,8 +164,8 @@ Step 7 : Add Upload Button Component
 To add upload button:
 
 #. Expand the **General** Tab.
-#. Place the cursor on **Buttons** option and drag and drop it in the left column created in step 6.
-
+#. Drag the **Buttons** option and drop it into the left column created in step 6.
+   
    .. figure:: ../../../_assets/web-app/stage-upload/add-upload-button.png
       :alt: web-app
       :width: 60%
@@ -233,10 +236,14 @@ To add the Next button :
       :alt: web-app
       :width: 60%
 
+Step 8 : Save the Stage
+--------
 
-#. Again, on the edit stage page click **Save** to save the above-added components of the Stage.
+#. Finally, on the edit stage page click **Save** to save the stage with above-added components.
 
-
+   .. figure:: ../../../_assets/web-app/stage-upload/save-next-button.png
+      :alt: web-app
+      :width: 60%
 
 
 

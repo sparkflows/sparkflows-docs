@@ -7,7 +7,7 @@ Below are the steps required to create or edit an upload stage.
 Step 1 : Open Edit Stage Page
 ---------
 
-#. Click on the edit icon located next to the stage name.
+#. Click on the **edit icon** located next to the stage name.
 
    .. figure:: ../../../_assets/web-app/stage-upload/edit-stage.png
       :alt: web-app

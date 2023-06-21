@@ -239,7 +239,7 @@ To add the Next button :
 Step 8 : Save the Stage
 --------
 
-#. Finally, on the edit stage page click **Save** to save the stage with above-added components.
+#. Finally, on the edit stage page click **Done** or **Save** to save the stage with above-added components.
 
    .. figure:: ../../../_assets/web-app/stage-upload/save-next-button.png
       :alt: web-app

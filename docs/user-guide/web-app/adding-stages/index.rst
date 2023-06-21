@@ -19,18 +19,15 @@ On the Add stage window:
 
 #. Select the **stage type** from the drop-down list i.e. Upload, Parameter or Run.
 #. Enter the desired **stage name**.
-#. Enter the **condition**, if any. Note: 
+#. Enter the **condition**, if any. 
+
+   **Note:** 
    
-   * Conditions are added to display a particular stage, on run analytics app page, only when the added condition for that stage is fulfilled.
-   * Examples of conditions:
-     
-     - educationLevel = 'masters'
-     
-     - educationLevel = 'masters' && gender = 'female'
-     
-     - educationLevel = 'masters' || gender = 'female'
-     
-     - Leave it empty if you prefer the stage to always be displayed.
+   Conditions are added to display a particular stage, on run analytics app page, only when the added condition for that stage is fulfilled.
+   
+   Examples of conditions: 1. educationLevel = 'masters' 2. educationLevel = 'masters' && gender = 'female' 3. educationLevel = 'masters' || gender = 'female' 
+
+   Leave the conditon field empty if you prefer the stage to always be displayed. 
 
    .. figure:: ../../../_assets/web-app/add-stages/enter-fields.png
       :alt: web-app

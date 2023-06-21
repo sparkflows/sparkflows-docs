@@ -4,16 +4,16 @@ Parameters Stage
 Step 1 : Add Parameters Stage
 ---------
 
-#. Go to Edit Analytics App page.
+#. Go to **Edit Analytics App** page.
 #. Click on the **Plus Icon** button.
 
    .. figure:: ../../../_assets/web-app/stage-parameters/edit-app.png
       :alt: web-app
       :width: 60%
 
-#. In the Add Stage dialog box, enter the required fields.
+#. In the **Add Stage dialog box**, enter the required fields.
    
-   Select the Stage type as Parameters and enter the desired name.
+   Select the **Stage type** as **Parameters** and enter the desired name.
 
    **Note:** We have left the condition field empty as we want the stage to be always displayed. 
 

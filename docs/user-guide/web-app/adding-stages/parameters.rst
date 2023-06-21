@@ -19,7 +19,7 @@ Step 1 : Add Parameters Stage
 
    .. figure:: ../../../_assets/web-app/stage-parameters/enter-fields.png
       :alt: web-app
-      :width: 40%
+      :width: 60%
 
 #. Click on the **Add** button to add the stage.
 

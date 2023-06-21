@@ -17,7 +17,7 @@ Step 1 : Open Edit Stage Page
 Step 2 : Add Column Component
 ------------
 
-#. On the Edit Analytics App page, expand the **Layout** tab.
+#. On the Edit Stage page, expand the **Layout** tab.
 
 #. Place the cusror on the **Columns** option and click to **drag and drop** it on the RHS.
    

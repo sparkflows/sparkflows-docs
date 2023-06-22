@@ -38,7 +38,7 @@ Step 2 : Open Edit Stage Page
 
 
 
-Step 2 : Add Column Component
+Step 3 : Add Column Component
 ------------
 
 #. On the Edit Stage page, expand the **Layout** tab.
@@ -65,7 +65,7 @@ Step 2 : Add Column Component
       :alt: web-app
       :width: 60%
 
-Step 3 : Add Select Boxes Component
+Step 4 : Add Select Boxes Component
 ---------
 
 
@@ -99,7 +99,7 @@ Step 3 : Add Select Boxes Component
       :width: 60%
    
    
-Step 4 : Add Select Component
+Step 5 : Add Select Component
 -----------
 
 #. Expand the **General** tab.
@@ -139,11 +139,11 @@ Step 4 : Add Select Component
       :width: 60%
    
 
-Step 4 : Add Another Column Component
+Step 6 : Add Another Column Component
 -----------
 
 #. Expand the **Layout** tab.
-#. Move the **column** by dragging and dropping it directly below the Select boxes, similar to what was done in step 2.
+#. Move the **column** by dragging and dropping it directly below the Select boxes, similar to what was done in step 3.
 
    .. figure:: ../../../_assets/web-app/stage-parameters/add-column-2.png
       :alt: web-app
@@ -158,11 +158,11 @@ Step 4 : Add Another Column Component
    Click **Save** to save the component settings.
 
    
-Step 5 : Add Back Button Component
+Step 7 : Add Back Button Component
 ----------
 
 #. Expand the **General** Tab.
-#. Drag the **Buttons** option and drop it into the left column created in step 4.
+#. Drag the **Buttons** option and drop it into the left column created in step 5.
 
    .. figure:: ../../../_assets/web-app/stage-parameters/move-button.png
       :alt: web-app
@@ -189,11 +189,11 @@ Step 5 : Add Back Button Component
       :alt: web-app
       :width: 60%
 
-Step 6 : Add Next Button Component
+Step 8 : Add Next Button Component
 ----------
 
 #. Expand the **General** Tab.
-#. Place the cursor on **Buttons** option and drag and drop it in the right column created in step 4.
+#. Place the cursor on **Buttons** option and drag and drop it in the right column created in step 5.
 
 
    .. figure:: ../../../_assets/web-app/stage-parameters/move-button3.png
@@ -229,7 +229,7 @@ Step 6 : Add Next Button Component
       :alt: web-app
       :width: 60%
 
-Step 7 : Save the Stage
+Step 9 : Save the Stage
 -------
 
 #. Finally, on the **Edit Stage Page**, click the **Done** or **Save**  button located on top to save the overall Stage layout and settings.

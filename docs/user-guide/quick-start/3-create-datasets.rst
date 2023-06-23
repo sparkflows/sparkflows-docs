@@ -36,7 +36,7 @@ Step 2 : Select the Mode to Create Dataset
    :alt: Dataset
    :width: 60%
 
-Step 3: Select Dataset Type and Enter the Fields
+Step 3 : Select Dataset Type and Enter the Fields
 ===============
  
 #. On the pop-up **Create Dataset Page**, select dataset type from the available file formats.

@@ -10,7 +10,7 @@ This document outlines the essential steps for adding conditions and logic effec
 Conditions and Logics
 -------
 
-Conditions
+Conditions :
 ++++
 
 Conditions are primarily used to show or hide components based on specific rules. There are two ways to apply conditions: 
@@ -20,7 +20,7 @@ Conditions are primarily used to show or hide components based on specific rules
   
   They must assign boolean values to variable names i.e. **show** to control component visibility.
 
-Logic
+Logic :
 +++++++
 
 Logic involves combining triggers and actions. Users can add multiple logics for the same component. For example:

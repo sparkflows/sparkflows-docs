@@ -220,7 +220,7 @@ Follow the below steps to add the logics :
 
     
 
-Step 3 : Set Advanced Logic and Action
+**Step 3 : Set Advanced Logic and Action**
 +++++++
 
 **To add advanced logic, follow the below steps :**

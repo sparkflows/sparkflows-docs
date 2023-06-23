@@ -1,32 +1,35 @@
 Advance Parameters Design
 =======
 
-In the Parameters stage, components can be added by selecting text fields, select boxes, buttons, and more. These elements also provide options for adding conditions and logic.
+In the Parameters stage, components can be added by selecting text fields, select boxes, buttons, and more. 
+
+These elements also provide options for adding conditions and logic.
 
 This document outlines the essential steps for adding conditions and logic effectively.
 
 Conditions and Logics
 -------
 
-**Conditions**
+Conditions
+++++
 
-Conditions are primarily used to show or hide components based on specific rules. There are two ways to apply conditions: 1. Simple 2. Advanced
+Conditions are primarily used to show or hide components based on specific rules. There are two ways to apply conditions: 
 
-For simple conditions, users can choose from predefined options.
+* For **simple conditions**, users can choose from predefined options.
+* For **advanced conditions**, users can enter custom JavaScript code. 
+  
+  They must assign boolean values to variable names i.e. **show** to control component visibility.
 
-For advanced conditions, users can enter custom JavaScript code. They must assign boolean values to variable names i.e. **show** to control component visibility.
+Logic
++++++++
 
-**Logic**
+Logic involves combining triggers and actions. Users can add multiple logics for the same component. For example:
 
-Logic involves combining triggers and actions. Users can add multiple logics for the same component.
+* **Simple** triggers require selecting from available options.
 
-For example:
+* **Advanced or JavaScript** triggers involve entering custom JavaScript code that will return a result variable.
 
-Simple triggers require selecting from available options.
-
-Advanced or JavaScript triggers involve entering custom JavaScript code that will return a result variable.
-
-Every logic must have at least one action, which will return a value variable.
+**Note :** Every logic must have at least one **action**, which will return a value variable.
 
 
 Add Simple and Advanced Condition
@@ -34,7 +37,7 @@ Add Simple and Advanced Condition
 
 Follow the below steps to add condtions :
 
-Step 1 : Add Text Field Components
+**Step 1 : Add Text Field Components**
 ++++++
 
 #. Expand the **General** tab.
@@ -52,23 +55,23 @@ Step 1 : Add Text Field Components
 
 #. Click **Save** to Save the the components.
 
-   **Note:** 
-     
-   We have added 3 components with the labels set as Country, Capital and Business City.
+   **Note :** We have added 3 components with the labels set as Country, Capital and Business City.
 
    .. figure:: ../../../_assets/web-app/adv-parameters/save-text-fields.png
       :alt: web-app
       :width: 60%
  
    
-Step 2 : Set the Conditions
----------
+**Step 2 : Set the Conditions**
++++++++
+
 
 **To add the simple condition :**
+.......
 
 #. Click on the **edit** button of text field component on which you want to apply condition.
 
-   **Note:** We have selected text field component labeled as CAPITAL.
+   **Note :** We have selected text field component labeled as CAPITAL.
 
    .. figure:: ../../../_assets/web-app/adv-parameters/edit-text-field1.png
       :alt: web-app
@@ -92,10 +95,11 @@ Step 2 : Set the Conditions
 #. Click **Save** on the edit stage page to save the stage settings.
 
 **To add the Advanced Condition :**
+.............
 
 #. Click on the **edit** button of text field component on which you want to apply condition.
 
-   **Note:** We have selected text field component labeled as BUSINESS CITY.
+   **Note :** We have selected text field component labeled as BUSINESS CITY.
 
    .. figure:: ../../../_assets/web-app/adv-parameters/edit-text-field2.png
       :alt: web-app
@@ -121,20 +125,24 @@ Add Logics and Actions
 
 Follow the below steps to add the logics :
 
-Step 1 : Add Text Field Components
+**Step 1 : Add Text Field Components**
 +++++++++
 
 #. Expand the **General** tab.
 #. Add as many text fields as are needed to apply conditions by the use of drag and drop the **Text Fields**.  
-image add-text-field
+   
+   .. figure:: ../../../_assets/web-app/adv-parameters/add-text-field.png
+      :alt: web-app
+      :width: 60%
 #. Set the **Labels** of each of them in the **Display** tabs. 
-image text-field-label
+
+   .. figure:: ../../../_assets/web-app/adv-parameters/text-field-label.png
+      :alt: web-app
+      :width: 60%
 
 #. Click **Save** to Save the the components.
 
-   **Note:** 
-     
-   We have added 3 components with the labels set as Country, Capital and Business City.
+   **Note :** We have added 3 components with the labels set as Country, Capital and Business City.
    
    .. figure:: ../../../_assets/web-app/adv-parameters/save-text-fields.png
       :alt: web-app
@@ -142,14 +150,15 @@ image text-field-label
    
 
 
-Step 2 : Set the Simple Logic and Action
+**Step 2 : Set the Simple Logic and Action**
 +++++++++
 
 **To add the Simple Logic :**
+..........
 
 #. Click on the **edit** button of text field component on which you want to apply condition.
 
-   **Note:** We have selected text field component labeled as CAPITAL.
+   **Note :** We have selected text field component labeled as CAPITAL.
 
    .. figure:: ../../../_assets/web-app/adv-parameters/edit-text-field1.png
       :alt: web-app
@@ -179,10 +188,11 @@ Step 2 : Set the Simple Logic and Action
 
 
 **To add action, follow the below steps :**
+............
 
 #. Click on **Add Action** button on the Logic tab.
 
-   **Note:** It is mandatory to add atleast one action for each logic.
+   **Note :** It is mandatory to add atleast one action for each logic.
 
 #. Enter the required fields :
 
@@ -196,7 +206,7 @@ Step 2 : Set the Simple Logic and Action
       :alt: web-app
       :width: 60%
 
-#. Save the logic and action.
+#. Save the logic and action :
 
    Click on the **Save Logic** and **Save Action** buttons
 
@@ -204,7 +214,7 @@ Step 2 : Set the Simple Logic and Action
       :alt: web-app
       :width: 60%
 
-#. Save the Component settings
+#. Save the Component settings :
    
    Click on the **Save** button to save the text field component settings.
 
@@ -213,11 +223,12 @@ Step 2 : Set the Simple Logic and Action
 Step 3 : Set Advanced Logic and Action
 +++++++
 
-**To add the advanced logic, follow the below steps :**
+**To add advanced logic, follow the below steps :**
+..............
 
 #. Click on the **edit** button of text field component on which you want to apply condition.
 
-   **Note:** We have selected text field component labelled as BUSINESS CITY.
+   **Note :** We have selected text field component labelled as BUSINESS CITY.
 
 #. On the Text Field component window, click on the **Logic** tab and then click on the **Add Logic** button.
    

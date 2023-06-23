@@ -60,7 +60,7 @@ Step 3 : Select Dataset Type and Enter the Fields
    * ``Path``: Path for the location of the file or directory containing the data files for the dataset.
    * ``Drop Sepcial Character in Column Name``: Indicate whether the dataset should drop special character in column name.  
  
-Step 4: Update the Schema and View File Contents
+Step 4 : Update the Schema and View File Contents
 ===========
 
 #. Click **Update Sample Data/Schema** to update the schema of the dataset. 

@@ -26,11 +26,11 @@ Step 1 : Add Run Stage
    
    .. figure:: ../../../_assets/web-app/run-stage/stage-type.png
       :alt: web-app
-      :width: 65% 
+      :width: 50% 
 
    Click **Add** to add the stage.
 
-    .. figure:: ../../../_assets/web-app/run-stage/save-stage.png
+   .. figure:: ../../../_assets/web-app/run-stage/save-stage.png
       :alt: web-app
       :width: 65% 
 

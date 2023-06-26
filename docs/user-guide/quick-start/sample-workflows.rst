@@ -16,15 +16,15 @@ Data Preparation Project
    * - Workflow Name
      - Description
    * - Column Filter
-     - Creates output dataset by selecting a set of columns from incoming dataset. 
+     - -  Creates output dataset by selecting a set of columns from incoming dataset. 
    * - Columns Rename
-     - Renames incoming columns using ColumnsRename node.
+     - - Renames incoming columns using ColumnsRename node.
    * - Concat Columns
-     - Joins data from multiple columns into one output column using ConcatColumns node. Data from different columns are separated uisng a Separator in the output.       
+     - - Joins data from multiple columns into one output column using ConcatColumns node. Data from different columns are separated uisng a Separator in the output.       
    * - Convert to Timestamp
-     - Converts a String value to Timestamp value using StringToDate node.     
+     - - Converts a String value to Timestamp value using StringToDate node.     
    * - DateTimeFieldExtract
-     - Extraction of Year, Month, Day of month, Hour, Minute, Second values from incoming column of TimeStamp datatype using DataTimeFieldExtract node. 
+     - - Extraction of Year, Month, Day of month, Hour, Minute, Second values from incoming column of TimeStamp datatype using DataTimeFieldExtract node. 
    * - Data Preparation
      -   -	Converts a String value to Date using MultiStringToDate node.
 	      
@@ -40,25 +40,25 @@ Data Preparation Project
 	
 	-	Evaluates a Regex expression to find and replace a string pattern using FindAndReplaceUsingRegexMultiple node.
    * - Data Wrangling
-     - Performs multiple transformation on incoming data using DataWrangling node. Some of the transformation performed are Substring, Dropping a column, Renaming a column, Changing Case of a column and so on.
+     - - Performs multiple transformation on incoming data using DataWrangling node. Some of the transformation performed are Substring, Dropping a column, Renaming a column, Changing Case of a column and so on.
    * - Data Validation
-     - Validates incoming data whether it looks ok or not. Some of the validation checks that are performed are to check whether Address data is a valid US address or not, email data is a valid email address or not.	
+     - - Validates incoming data whether it looks ok or not. Some of the validation checks that are performed are to check whether Address data is a valid US address or not, email data is a valid email address or not.	
    * - Dedup Customers
-     - Compares and identifies whether data from multiple sources refer to same entity or not using Dedup node. Dedup node can be configured to used specific algorithm to compare.      
+     - - Compares and identifies whether data from multiple sources refer to same entity or not using Dedup node. Dedup node can be configured to used specific algorithm to compare.      
    * - Drop Rows With Null
-     - Drop rows having null values using DropRowsWithNull node.    
+     - - Drop rows having null values using DropRowsWithNull node.    
    * - OCR
-     - This workflow uses OCR node to read binary file containing OCR data by performing Optical Character Recognition using the Tesseract Library. 	
+     - - This workflow uses OCR node to read binary file containing OCR data by performing Optical Character Recognition using the Tesseract Library. 	
    * - Profiling - Correlation
      - 	-	Displays correlation between selected columns using Correlation node.
      
      	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.     
-   * - Remove Special Characters
-     - It searches for a String Pattern in incoming dataset and replaces it with another using FindAndReplaceUsingRegex node. Find and Replace is performed using Regex pattern match. 	
+   * - - Remove Special Characters
+     - - It searches for a String Pattern in incoming dataset and replaces it with another using FindAndReplaceUsingRegex node. Find and Replace is performed using Regex pattern match. 	
    * - Remove Duplicate Rows
-     - Removes duplicate rows from incoming dataset based on combination of values present in selected columns. 
+     - - Removes duplicate rows from incoming dataset based on combination of values present in selected columns. 
    * - REST - Read and Parse JSON
-     - This workflow parses single record JSON from specified URL location and creates an output dataset using URLSingleRecordJSONReader node.
+     - - This workflow parses single record JSON from specified URL location and creates an output dataset using URLSingleRecordJSONReader node.
    * - REST - CSV Reader and Parse
      -   -	Reads a Text file from the URL location provided using URLTextFileReader node.
      
@@ -66,7 +66,7 @@ Data Preparation Project
       
          -	Selects Rows having specified Index values using RowFilterByIndex node. 
    * - String Functions
-     - This workflow performs various transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node.
+     - - This workflow performs various transformation such as converting data to Upper Case and Trimming incoming data using StringFunctionsMultiple node.
    * - Titanic Data Cleaning
      -   -	Drop rows having null values using DropRowsWithNull node.
 	      
@@ -124,28 +124,28 @@ Read Write Files Project
    * - Workflow Name
      - Description
    * - PDF Image OCR
-     - 	Reads incoming PDF file containing OCR image using ReadPDFImageOCR node.
+     - - Reads incoming PDF file containing OCR image using ReadPDFImageOCR node.
      
    * - Retail example
-     - 	Reads incoming JSON files using ReadJSON node.
+     - - Reads incoming JSON files using ReadJSON node.
 		
    * - Read PDF File
-     - 	Reads incoming PDF file using ReadPDF node.
+     - - Reads incoming PDF file using ReadPDF node.
      
    * - Read Parquet File
-     - 	Reads incoming dataset in Parquet format.
+     - - Reads incoming dataset in Parquet format.
 	 
    * - Read Multi-line JSON
-     - 	Reads incoming Multi-Line JSON file using ReadJSON node with Multiline flag set to True.
+     - - Reads incoming Multi-Line JSON file using ReadJSON node with Multiline flag set to True.
 	 
    * - Read Excel File
-     - 	Reads incoming Excel file using ReadExcel node.     
+     - - Reads incoming Excel file using ReadExcel node.     
 		
    * - Save As Parquet Files
-     - 	Saves dataset in Parquet format using SaveParquet node.
+     - - Saves dataset in Parquet format using SaveParquet node.
 	 
    * - Save As JSON Files
-     - 	Saves dataset in JSON format using SaveJSON node.
+     - - Saves dataset in JSON format using SaveJSON node.
 	 
 		
 Visualization Project
@@ -184,7 +184,7 @@ Visualization Project
 	-	Plots week day distribution of two data series using GraphWeekDayDistribution node.
 	
    * - Graph column values by count
-     - 	Plots distribution of data across various categories in Bar Chart, Line Chart and Histogram Chart format using GraphGroupByColumn node.	
+     - - Plots distribution of data across various categories in Bar Chart, Line Chart and Histogram Chart format using GraphGroupByColumn node.	
 		
    * - NYC Taxi Average Speed
      - 	-	Extracts Hour and Minute values from incoming data using DateTimeFieldExtract node.
@@ -198,5 +198,5 @@ Visualization Project
 	-	Plots variation of data between multiple data series using GraphValues node.
 	 
    * - Train Data - Graph values
-     - 	Plots variation of data between multiple data series in various formats using GraphValues node.
+     - - Plots variation of data between multiple data series in various formats using GraphValues node.
 	 	

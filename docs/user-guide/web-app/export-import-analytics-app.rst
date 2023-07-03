@@ -8,9 +8,9 @@ This document explains in detail the steps required to export and import Analyti
 Exporting Analytical App
 --------
 
-Fire allows you to export Analytics App and download them to your computer. To export, follow the below steps :
+Fire allows you to export Analytical App and download them to your computer. To export, follow the below steps :
 
-Step 1 : Go to the Analytics Apps Page
+Step 1 : Go to the Analytical Apps Page
 ..................
 
 #. Open the **project** where your Analytical App is located.
@@ -25,18 +25,18 @@ Step 2 : Export the App
       :alt: web-app
       :width: 65%
      
-   Fire will now export Analytics Application and download them to your computer as JSON file.
+   Fire will now export Analytical App and download them to your computer as JSON file.
 
    .. figure:: ../../_assets/web-app/export-import/app-download.png
       :alt: web-app
       :width: 65%
      
-Importing Analytics App
+Importing Analytical App
 --------
 
-Fire allows you to import Analytics Application. To import, follow the below steps :
+Fire allows you to import Analytical App. To import, follow the below steps :
 
-Step 1 : Go to the Analytics Apps Page
+Step 1 : Go to the Analytical Apps Page
 .............
 
 #. Open the **project** where you want to import Analytical App.
@@ -73,7 +73,7 @@ Step 2 : Import the App
 
    **Note:** We have chosen the second option. 
     
-#. Click on the **Import** button. You can see the imported app in Analytics App page.
+#. Click on the **Import** button. You can see the imported app in Analytical App page.
 
    .. figure:: ../../_assets/web-app/export-import/app-import.png
       :alt: web-app
@@ -107,9 +107,9 @@ Step 2 : Import the App
 
    * **Existing JobID in Analytical Apps :**
 
-   .. figure:: ../../_assets/web-app/export-import/job-id1.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/export-import/job-id1.png
+        :alt: web-app
+        :width: 65%
   
    **Note :** Analytical App is imported with existing jobId present in exported JSON file.
    

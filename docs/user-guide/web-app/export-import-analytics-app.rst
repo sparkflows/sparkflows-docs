@@ -95,7 +95,7 @@ Step 2 : Import the App
       :alt: web-app
       :width: 65%
 
-#. Choose either of the Import by Key options from three options available :
+#. Choose either of the **Import by Key** options from three options available :
 
    * Overwite application if same key exists in the application.
    * Create a new key if one already exists.
@@ -103,35 +103,35 @@ Step 2 : Import the App
 
    **Note:** We have chosen the first option.  
 
-#. Choose either of the Import by JobID options from the three options available :
+#. Choose either of the **Import by JobID** options from the three options available :
 
-   * **Existing JobID in Analytical Apps :**
+   **Existing JobID in Analytical Apps :**
 
-     .. figure:: ../../_assets/web-app/export-import/job-id1.png
-        :alt: web-app
-        :width: 65%
+   .. figure:: ../../_assets/web-app/export-import/job-id1.png
+      :alt: web-app
+      :width: 65%
   
    **Note :** Analytical App is imported with existing jobId present in exported JSON file.
    
-   * **Use Existing Job with Matching Notebook Path If Exists or Create a New Job :**
+   **Use Existing Job with Matching Notebook Path If Exists or Create a New Job :**
 
-     In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. 
+   In this condition user can enter notebook path in the input box or else it will check from exported json file whether databricks job is present or not. 
 
-     If matching job is present that Job is used else new job is created with that notebook path using current connection.
+   If matching job is present that Job is used else new job is created with that notebook path using current connection.
 
-     .. figure:: ../../_assets/web-app/export-import/job-id2.png
-        :alt: web-app
-        :width: 65%
+   .. figure:: ../../_assets/web-app/export-import/job-id2.png
+      :alt: web-app
+      :width: 65%
 
-   * **Create New Job with Notebook Path :**
+   **Create New Job with Notebook Path :**
 
-     In this condition, the user can enter the notebook path in the input box.
+   In this condition, the user can enter the notebook path in the input box.
      
-     Otherwise, it will take the notebook path from the exported file to create a new Databricks job using the current connection.
+   Otherwise, it will take the notebook path from the exported file to create a new Databricks job using the current connection.
 
-     .. figure:: ../../_assets/web-app/export-import/job-id3.png
-        :alt: web-app
-        :width: 65%
+   .. figure:: ../../_assets/web-app/export-import/job-id3.png
+      :alt: web-app
+      :width: 65%
 
 #. Click on the **Import** button. Fire will now import the Analytical App to the specified location.
 

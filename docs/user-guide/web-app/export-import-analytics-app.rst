@@ -103,15 +103,15 @@ Step 2 : Import the App
 
    **Note:** We have chosen the first option.  
 
-#. Choose either of the **Import by JobID** options from the three options available :
+#. Choose either of the **Import by Job ID** options from the three options available :
 
-   **Existing JobID in Analytical Apps :**
+   **Existing Job ID in Analytical Apps :**
 
    .. figure:: ../../_assets/web-app/export-import/job-id1.png
       :alt: web-app
       :width: 65%
   
-   **Note :** Analytical App is imported with existing jobId present in exported JSON file.
+   **Note :** Analytical App is imported with existing Job ID present in exported JSON file.
    
    **Use Existing Job with Matching Notebook Path If Exists or Create a New Job :**
 

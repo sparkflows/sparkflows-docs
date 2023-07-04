@@ -10,13 +10,13 @@ Exporting Analytical App
 
 Fire allows you to export Analytical App and download them to your computer. To export, follow the below steps :
 
-Step 1 : Go to the Analytical Apps Page
+**Step 1 : Go to the Analytical Apps Page**
 ..................
 
 #. Open the **project** where your Analytical App is located.
 #. Click on the **Applications** tab.
 
-Step 2 : Export the App
+**Step 2 : Export the App**
 ..............
 
 #. Click on the **Export App** button located next to the app that is to be exported.
@@ -36,18 +36,19 @@ Importing Analytical App
 
 Fire allows you to import Analytical App. To import, follow the below steps :
 
-Step 1 : Go to the Analytical Apps Page
+**Step 1 : Go to the Analytical Apps Page**
 .............
 
 #. Open the **project** where you want to import Analytical App.
 #. Click on the **Applications** tab.
 
-Step 2 : Import the App 
+**Step 2 : Import the App** 
 ...............
 
-**Import the App Using Import Option :**
+Import the App Using Import From Application JSON Option :
+++++++++
 
-#. Click on the **Import** button. From the dropdown list, choose **Import** from the dropdown list.
+#. Click on the **Import** button. From the dropdown list, choose **From Application JSON** from the dropdown list.
     
    .. figure:: ../../_assets/web-app/export-import/import-button.png
       :alt: web-app
@@ -79,7 +80,8 @@ Step 2 : Import the App
       :alt: web-app
       :width: 65%
 
-**Import the App Using Import into Databricks Option :**
+Import the App Using Import into Databricks Option :
++++++++++
 
 #. Click on the **Import** button. From the dropdown list, choose **Import into databricks** from the dropdown list.
    

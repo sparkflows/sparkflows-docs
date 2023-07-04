@@ -26,7 +26,7 @@ Execute
 
 Execute the installer with ::
 
-  java -jar sparkflows-installer-1.0.jar
+  java -jar sparkflows-installer.exe
 
 By default Fire Insights listens on port 8080 (http) and port 8443 (https).
 

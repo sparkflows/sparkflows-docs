@@ -4,74 +4,104 @@ Nested Notebooks Execution
 Overview
 --------
 
-In the Analytics App there are various stages. There can be multiple Run stages. Each Run stage can be executing a different or the same Notebook.
+In the Analytical App there are various stages. There can be multiple Run stages. Each Run stage can be utilized to execute a different or the same Notebook. Also, the output of the execution of one Notebook, can go as input to the next Notebook execution.
 
-Also, the output of the execution of one Notebook, can go as input to the next Notebook execution.
+This document explains in detail the steps required to execute nested notebooks or workflows.
 
 Steps
 -----
 
-Users can set workflow or Notebook at stage label. The run stage has the option to set workflow or notebook. Users can choose a specific workflow or notebook here for execution.
+Users can set Notebook or workflow at the stage label. The run stage has the option to set workflow or notebook. 
 
-.. figure:: ../../_assets/web-app/wae-change-notebook.png
+Users can choose a specific workflow or notebook here for execution. To choose follow the below steps :
+
+**Step 1 : Go to Change Workflow/Notebook Dialog**
+++++++++
+
+#. Go to **edit analytics app page**.
+#. Click on the **Change workflow/Notebook** option on the Run Stage Label.
+
+   .. figure:: ../../_assets/web-app/nested-notebook/change-wf.png
       :alt: web-app
       :width: 70%
 
-On Clicking on Change Workflow or Notebook icon, a popup dialog will appear. Users can select workflow or notebook for current stage execution.
+**Step 2 : Select the Workflow/Notebook**
+++++++
 
-.. figure:: ../../_assets/web-app/wae-select-notebook.PNG
+#. On the Dialog, select the notebook or workflow from the dropdown list.
+
+   .. figure:: ../../_assets/web-app/nested-notebook/change-wf-dialog.png
       :alt: web-app
       :width: 70%
 
-When users run Analytics App, they will land on the first stage.
+**Step 3 : Execute the App**
+++++++++
 
-.. figure:: ../../_assets/web-app/wae-first-parameters.PNG
+#. On the **edit analytics app page**, click on the **Run** button.
+   
+   This will take you to the first stage. Fill in all the details here.
+
+   .. figure:: ../../_assets/web-app/nested-notebook/first-stage.png
       :alt: web-app
       :width: 70%
 
-The next stage is the first run stage.
+#. Now, click on the **Next** button. The next stage is the first run stage.
 
-.. figure:: ../../_assets/web-app/wae-first-execution.PNG
+   .. figure:: ../../_assets/web-app/nested-notebook/run-1.png
+      :alt: web-app
+      :width: 70%
+
+    
+   **Note 1 :** 
+    
+   The next button is disabled in the Run stage. To keep it diasbled we have set the fields as below :
+    
+   API property name is set as **afterRun**. 
+     
+   Also in the Display tab, it is set to be **disabled**.
+
+   .. figure:: ../../_assets/web-app/nested-notebook/run-button.png
+      :alt: web-app
+      :width: 70%
+
+   **Note 2 :** 
+
+   When the workflow or the notebook is executed as part of first stage, it may output some parameters.
+   
+   These parameters get displayed on the Execution page. But on this page they are disabled and the users can only view them.
+
+   .. figure:: ../../_assets/web-app/nested-notebook/execute-parameter.png
       :alt: web-app
       :width: 70%
 
 
-There is a change in the next button on the run stage. Its API property name should be **afterRun**. Also in the Display tab, set it to ``disabled``.
+#. Click on the **Run** button to reach the second parameters stage.
+   
+   The result parameters would get displayed here. Users can update the values for the parameters.
 
-.. figure:: ../../_assets/web-app/wae-execution-next.PNG
+   .. figure:: ../../_assets/web-app/nested-notebook/execute-parameter-2.png
       :alt: web-app
       :width: 70%
 
+   **Note :** 
+   
+   In order to capture the result parameters there is a **fieldset** in the page or stage.
 
-
-When the workflow or the notebook is executed, it may output some parameters. These parameters get displayed in the Execution page. In this page they are disabled and the users can only view them.
-
-.. figure:: ../../_assets/web-app/wae-execution-result-parameters.png
+   .. figure:: ../../_assets/web-app/nested-notebook/parameter-component.png
       :alt: web-app
       :width: 70%
 
+   The name of the **Fieldset property** in the **API tab** should be set as **parameters**.
 
-After clicking on the Next button, the user will go to the second parameters stage. The result parameters would get displayed here. Users can updated the values for the parameters.
-
-.. figure:: ../../_assets/web-app/wae-result-parameters.PNG
+   .. figure:: ../../_assets/web-app/nested-notebook/api-setting.png
       :alt: web-app
       :width: 70%
 
-In order to capture the result parameters there is a fieldset in the page or stage.
+#. On the second parameters page, click on the **Run** button to execute this stage.
 
-.. figure:: ../../_assets/web-app/wae-result-parameters-edit.png
-      :alt: web-app
-      :width: 70%
+   The result parameters would also be passed as inputs to notebook or workflow execution in this stage.
 
-The name of the Fieldset property should be **parameters**.
-
-.. figure:: ../../_assets/web-app/wae-result-parameters-edit1.PNG
-      :alt: web-app
-      :width: 70%
-
-The next stage is final execution. Users would click Run to execute this stage. The result parameters would also be passed as inputs to notebook or workflow execution.
-
-.. figure:: ../../_assets/web-app/wae-final-execution.PNG
+   .. figure:: ../../_assets/web-app/nested-notebook/final-execution.png
       :alt: web-app
       :width: 70%
       

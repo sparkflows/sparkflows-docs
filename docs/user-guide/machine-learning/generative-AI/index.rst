@@ -1,9 +1,9 @@
-Generative-AI
+Generative AI
 =======
 
 Sparkflows empowers users to leverage the remarkable Generative-AI capabilities by offering numerous processors based on Hugging Face Library. It allows users to host their models and infrastructure either in-house (on-premises or on the cloud within a Virtual Private Cloud) or access licensed models such as GPT-4 through APIs. This versatility ensures that customers can seamlessly harness the power of Generative-AI in a manner that best suits their specific needs and preferences.
 
-Generative-AI Processors
+Generative AI Processors
 ---------
 
 The following table enlists the Huggging Face Library-powered processors available in Fire Insights :

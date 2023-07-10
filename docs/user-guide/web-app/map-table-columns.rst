@@ -1,93 +1,132 @@
 Mapping Table Columns
 =======================
 
-Fire Insights enables to map the columns of a Table to updated names. This mapping is then sent over as parameters to the Notebook or Workflow during execution.
+Fire Insights allows you to map the columns of a table to updated names. This mapping is then sent as parameters to the Notebook or Workflow during execution.
 
-Adding Database Dropdown
+This document explains in detail the steps required to map table columns in Analytical Apps.
+
+Step 1 : Add Database Dropdown
 ------------------
 
-- Add select component to load data depending upon added query and selected databricks connection. Add sql query in CUSTOM PROPERTIES where KEY will be `query` and VALUE would be an SQL query. For example, to load databases the query can be ``show databases;``.
+To load data based on the added query and selected Databricks connection, follow these steps:
 
-   .. figure:: ../../_assets/web-app/map-table-columns/select-db.PNG
-        :alt: web-app
-        :width: 85%
+#. Add a **select** component.
+#. Specify the **SQL query** in **Custom Properties** under **API** tab.
+  
+   Set the **Key** as **query** and the **Value** can be a **SQL query**. 
+   
+   For example, to load databases, the query can be **show databases;**.
 
-Adding Tables Dropdown
+   .. figure:: ../../_assets/web-app/map-table-columns/SelectDB.png
+      :alt: web-app
+      :width: 70%
+
+Step 2 : Add Tables Dropdown
 ---------------------
 
-- Load tables list data in select component by adding SQL query in CUSTOM PROPERTIES where KEY will be `query` and VALUE can be `show tables in ``$database;``. Here, `database` in ``$database`` is property name of some other component. When user selects the database then this select option gets loaded.
+To load a list of tables in the select component, use the following steps:
 
-   .. figure:: ../../_assets/web-app/map-table-columns/select-tbl.PNG
-        :alt: web-app
-        :width: 85%
+#. Add a **select** component.
+#. Add a **SQL query** in **Custom Properties** under **API** tab. 
 
-Adding dropdown with values
+   Set the **Key** as **query** and the **Value** as **show tables in $database;**. 
+
+   Here, *database* in *$database* refers to the property name of another component. 
+
+   When the user selects a database, this select option will be populated.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/SelectTB1.png
+      :alt: web-app
+      :width: 70%
+
+Step 3 : Add Dropdown with Values
 -------------------------
+To load values in the dropdown, follow these steps:
 
-- Add select component to load values in dropdown by adding CUSTOM PROPERTIES where KEY will be `query` and VALUE can be ``select * from $database.$table limit 10;``. Here, `database` and `table` in ``$database$.$table$`` is property name of some other component. When database and table is selected then, this select component gets loaded where, first column is treated as the value to be returned and Second column is the display name if the second column is present. If limit is not added in select query by default it will fetch 50 rows data. 
-- Query example : 
-                   1. select * from development.housing_csv limit 10;
-                   2. select distinct(price) as price1 from development.housing_csv limit 10;
+#. Add a **select** component.
+#. Specify the **SQL query** in **Custom Properties** under **API** tab, where the **Key** will be **query** and the VALUE can be **select * from $database.$table limit 10;**. 
 
-   .. figure:: ../../_assets/web-app/map-table-columns/select.PNG
-        :alt: web-app
-        :width: 85%
+   Here, *database* and *table* in *$database.$table* refer to the property names of other components. 
 
-Adding Map Fields Button
+   When the database and table are selected, this select component will be populated. 
+   
+   The first column is considered as the value to be returned, and the second column is used as the display name if present. 
+
+   By default, it fetches 50 rows of data unless a limit is specified in the select query.
+   
+   **Note:** Query Examples can be :
+   
+   * select * from development.housing_csv limit 10;
+   * select distinct(price) as price1 from development.housing_csv limit 10;
+
+   .. figure:: ../../_assets/web-app/map-table-columns/Select.png
+      :alt: web-app
+      :width: 70%
+
+Step 4 : Add Map Fields Button
 -----------------------
 
-The Map Fields Button enables the user to map the fields of the table to new names.
+The Map Fields Button allows users to map the fields of the table to new names. Follow these steps:
 
-- Add Map fields button and set the action to ``event``. Set the button event name to ``mapFields``.
+#. Add a **Map Fields button** and set its **action** to **event**.
+#. Set the **button event name** as **mapFields**.
+#. Set its **property name** as **mapFields**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn1.PNG
-           :alt: web-app
-           :width: 85%
+   .. figure:: ../../_assets/web-app/map-table-columns/MapFields1.png
+      :alt: web-app
+      :width: 70%
+
+#. Add a **SQL query** in **Custom Properties** under **API** tab.
+   
+   Set the **Key** as **query** and the **Value** can be a SQL query such as **select * from $database.$table limit 10;**. 
+
+   By default, it fetches 50 rows of data unless a limit is specified in the select query.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/MapFields2.png
+      :alt: web-app
+      :width: 70%
            
-- Set its property name as `mapFields`. Add SQL query in CUSTOM PROPERTIES where KEY will be `query` and VALUE as SQL query ex: ``select * from $database.$table limit 10;``. If limit is not added in select query by default it will fetch 50 rows data.   
+#. Add **select box** components to display the available column names.
+   
+   Set the **label** as **Columns** and hide this component by selecting the **hidden checkbox**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/mapFields-btn2.PNG
-        :alt: web-app
-        :width: 85%
-
-
-In order to map the columns to the new names, add select boxes component to provide the mapping names for the user to choose from.
-
-- Add select boxes component to add the available column names. Set its label as ``Columns`` and make this component hidden by selecting the ``hidden`` checkbox.
-
-   .. figure:: ../../_assets/web-app/match-api-display.PNG
+   .. figure:: ../../_assets/web-app/map-table-columns/SelectBox1.png
       :alt: web-app
-      :width: 85%
+      :width: 70%
 
-- Add default values where ``LABEL`` is ``DISPLAY NAME``, ``VALUE`` is ``ACTUAL COLUMN NAME`` and select that field which should be considered as a required field. And don't select this value ``CLEAR VALUE WHEN HIDDEN`` because we want the default value when the component is hidden.
+#. Add default values where the **label** is the **display name**, **value** is the **actual column name**, and select the field that should be considered as a required field. 
 
-   .. figure:: ../../_assets/web-app/match-api-data.PNG
+   **Note:** Do not select the **Clear Value When Hidden** checkbox, as we want the default value when the component is hidden.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/SelectBox2.png
       :alt: web-app
-      :width: 85%
+      :width: 70%
 
-Adding Next Button
+
+Step 5 : Add Next Button
 ------------------
 
-- Add the next button and make this component disabled by selecting the ``disabled`` checkbox.
+#. Add the **next** button component and make it **disabled** by selecting the **disabled checkbox**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/next-disable.PNG
-        :alt: web-app
-        :width: 85%
+
+   .. figure:: ../../_assets/web-app/map-table-columns/ButtonDisable.png
+      :alt: web-app
+      :width: 70%
         
 
-
-Running app
+Step 6 : Run the App
 ------------------
 
-- If any stage has the databricks database component added then it will load the database list present in the selected connection.
-- On selecting the database, tables list will get loaded for selected database and connection.
+#. If any stage has the databricks database component added then it will load the database list present in the selected connection.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/run-app1.PNG
+   On selecting the database, tables list will get loaded for selected database and connection.
+
+   .. figure:: ../../_assets/web-app/map-table-columns/RunApp1.png
       :alt: web-app
-      :width: 80%
+      :width: 70%
 
-- On clicking ``Map fields`` button the dialog shows up with data after running the query associated with the button.
+#. On clicking **Map Fields** button the dialog shows up with data after running the query associated with the button.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/run-app2.PNG
+   .. figure:: ../../_assets/web-app/map-table-columns/RunApp2.png
       :alt: web-app
-      :width: 80%
+      :width: 70%

@@ -47,7 +47,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
 Add additional parameters as per your environment
 ======
 
-Once you have selected  the connection type & groups, add the additonal connection parameters needed. For more deatils refer the following tables and images:
+Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 
 For GENERAL tab
 ++++

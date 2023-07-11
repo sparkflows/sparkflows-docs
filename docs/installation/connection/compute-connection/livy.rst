@@ -129,9 +129,8 @@ For LIVY tab
    :alt: livy
    :width: 50% 
 
-
 For HDFS tab
-+++
+++++++
 
 .. list-table:: 
    :widths: 10 20 30

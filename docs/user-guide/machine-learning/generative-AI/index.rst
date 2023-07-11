@@ -42,14 +42,14 @@ Hugging Face Sentiment Analysis Sample Workflow
 --------------------
 
 
-.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/workflow.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/workflow.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 Incoming Dataset
 --------
 
-.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/input-data.png
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/input-data.png
      :alt: data-quality-userguide
      :width: 65%
 
@@ -63,9 +63,9 @@ Hugging Face Sentiment Analysis is configured as below :
 * Pre-loaded LLM Model to be used for computing sentiment is to be selected in the **MODEL TO BE USED FOR SENTIMENT ANALYSIS** box.
 * Alternatively, any other Hugging Face model can be used to perform the analysis by entering the model name in the **CUSTOM MODEL NAME** box.
 
-.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/hf-config.png
-   :alt: data-quality-userguide
-   :width: 65%
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/hf-config.png
+     :alt: data-quality-userguide
+     :width: 65%
 
 
 Hugging Face Sentiment Analysis Node Output
@@ -73,7 +73,7 @@ Hugging Face Sentiment Analysis Node Output
 
 The output of the Hugging Face Sentiment Analysis node includes a score column, indicating the confidence level with which the text is classified as positive, negative, or neutral.
 
-.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/output.png
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/output.png
      :alt: data-quality-userguide
      :width: 65%
 

@@ -25,3 +25,72 @@ The following table enlists the Huggging Face Library-powered processors availab
      
    * - Hugging Face Grammatical Correctness
      - This node infers the Sentiment of the text using the model chosen. The model returns the label with the score.
+
+
+Hugging Face Sentiment Analysis
+-------------
+
+Below is a sample workflow which contains Hugging Face Sentiment Analysis processor in Fire Insights. It demonstrates the usage of Hugging Face Sentiment Analysis node to classify text data into two classes: "acceptable" and "unacceptable." 
+
+It does the following processing of data :
+
+* Reads the incoming dataset.
+* Performs the task of sentiment analysis and computes the accuracy score.
+* Saves and Prints the result.
+
+Hugging Face Sentiment Analysis Sample Workflow
+--------------------
+
+
+.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/workflow.png
+   :alt: data-quality-userguide
+   :width: 65%
+
+Incoming Dataset
+--------
+
+.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/input-data.png
+     :alt: data-quality-userguide
+     :width: 65%
+
+Hugging Face Sentiment Analysis Node Configuration
+--------------
+
+Hugging Face Sentiment Analysis is configured as below :
+
+* Input of this node is the incoming dataset.
+* Column on which the sentiment anlysis is to be performed needs to be selected in the **COLUMN TO ANALYSE SENTIMENT** box.
+* Pre-loaded LLM Model to be used for computing sentiment is to be selected in the **MODEL TO BE USED FOR SENTIMENT ANALYSIS** box.
+* Alternatively, any other Hugging Face model can be used to perform the analysis by entering the model name in the **CUSTOM MODEL NAME** box.
+
+.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/hf-config.png
+   :alt: data-quality-userguide
+   :width: 65%
+
+
+Hugging Face Sentiment Analysis Node Output
+--------
+
+The output of the Hugging Face Sentiment Analysis node includes a score column, indicating the confidence level with which the text is classified as positive, negative, or neutral.
+
+.. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/output.png
+     :alt: data-quality-userguide
+     :width: 65%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

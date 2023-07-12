@@ -179,8 +179,8 @@ To indicate the execution status of the job, use the following code.
     
     restworkflowcontext.outRunning(9, title="Running", text=message)
     
-Output Progress Message
-++++++++++++++
+**Output Progress Message**
+........
 
 
 You can share the current progress of the Notebook run in percentage terms to the analytical app. This is useful to keep the user updated with the progress of the job execution.
@@ -193,8 +193,8 @@ To share the progress of the Notebook run as a percentage with the analytical ap
     restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 
-Get Input Value
-++++++++++++++
+**Get Input Value**
+.........
 
 Analytical apps also allow us to pass a variable value as an input parameter to the notebook execution.
 
@@ -218,7 +218,7 @@ The integration between Fire Insights and Databricks enhances collaboration and 
 
 
 DataBricks NoteBook Code Example
-+++++++++++
+++++++++
 
 The following code example demonstrates the usage of Fire Insights in a Databricks Notebook.
 ::

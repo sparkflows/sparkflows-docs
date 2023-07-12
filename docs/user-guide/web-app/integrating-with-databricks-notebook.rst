@@ -217,7 +217,7 @@ By leveraging analytical apps, you can seamlessly interface your Databricks Note
 The integration between Fire Insights and Databricks enhances collaboration and improves data analysis capabilities.
 
 
-DataBricks NoteBook Code Example
+**DataBricks NoteBook Code Example**
 ++++++++
 
 The following code example demonstrates the usage of Fire Insights in a Databricks Notebook.

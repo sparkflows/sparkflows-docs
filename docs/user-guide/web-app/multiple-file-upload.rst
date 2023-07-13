@@ -17,23 +17,23 @@ To add a file component to choose files to upload to databricks :
 
    Under the  File tab, set the **Storage** as **Base64** from the dropdown list.
    
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/file-storage.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/file-storage.png
+        :alt: web-app
+        :width: 65%
 
    Under the API tab, set the **property name** as **file1**.
 
    **Note :** It is always recommended to use property names like file1, file2, and so forth when enabling users to upload multiple files.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/file-property-name.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/file-property-name.png
+        :alt: web-app
+        :width: 65%
 
    Click on the **Save** button to save the component settings.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/save-file.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-file.png
+        :alt: web-app
+        :width: 65%
 
 
 Step 2 : Add Text Field Component
@@ -46,23 +46,23 @@ The Text Field component is essential for users to specify the destination path 
 
    Under the Display tab, set the **label** as **Destination Path**.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/text-label.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/text-label.png
+        :alt: web-app
+        :width: 65%
 
    Under the API tab, in the **Custom Properties** field, set the key as **for** and value as **file1**.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/text-custom.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/text-custom.png
+        :alt: web-app
+        :width: 65%
 
    **Note :** Value will be similar to the file component property name e.g. file1, file2, etc.
 
    Click on the **Save** button to save the component settings.
    
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/save-text.png
-      :alt: web-app
-      :width: 65%
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-text.png
+        :alt: web-app
+        :width: 65%
 
 
 Step 3 : Add Upload Button Component
@@ -79,23 +79,25 @@ Upload button is essential to trigger the file upload. To add :
    * **Label** as **Upload**.
    * **Action** as **Event**.
    * **Button Event** as **upload**.
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/button-label.png
-      :alt: web-app
-      :width: 65%
+    
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/button-label.png
+        :alt: web-app
+        :width: 65%
 
    Under the **API** tab, in the **Custom Properties** field, set the following :
 
    * **Key** as **for**.
    * **Value** as **file1**.
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/button-custom.png
-      :alt: web-app
-      :width: 65% 
+     
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/button-custom.png
+        :alt: web-app
+        :width: 65% 
 
    Click on the **Save** button to save the component settings.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/save-button.png
-      :alt: web-app
-      :width: 65% 
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-button.png
+        :alt: web-app
+        :width: 65% 
 
 Step 4 : Add Select Boxes Component (Optional)
 ---------------
@@ -109,12 +111,11 @@ To allow users to map the columns of the uploaded file, you can incorporate the 
    Under the **Display** tab, set the following :
 
    * **Label** as **Columns**.
-
    * Select the **Hidden** checkbox to make the component hidden.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-label.png
-      :alt: web-app
-      :width: 65% 
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-label.png
+        :alt: web-app
+        :width: 65% 
 
    Under the **Data** tab, add **values** where :
 
@@ -123,24 +124,24 @@ To allow users to map the columns of the uploaded file, you can incorporate the 
    
    Also, check the fields (columns) that should be considered as a required field.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-data.png
-      :alt: web-app
-      :width: 65% 
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-data.png
+        :alt: web-app
+        :width: 65% 
  
    Under the **API** tab, in **Custom Properties** field set the following :
 
    * **Key** as **for**.
    * **Value** as **file1**.
-
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-custom.png
-      :alt: web-app
-      :width: 65% 
+    
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-custom.png
+        :alt: web-app
+        :width: 65% 
  
    Click on the **Save** button to save the component settings.
 
-   .. figure:: ../../_assets/web-app/MultipleFileUpload/save-selectbox.png
-      :alt: web-app
-      :width: 65% 
+     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-selectbox.png
+        :alt: web-app
+        :width: 65% 
 
 Step 5 : Save the Application Settings
 -----------

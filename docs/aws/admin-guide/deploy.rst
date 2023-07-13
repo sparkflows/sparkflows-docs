@@ -20,6 +20,10 @@ Details of each of the above Steps:
 
    Start EMR cluster on AWS if it is not already running on your machine.
 
+.. Note:: Inorder to use PySpark engine, you need to add ``bootscript`` to emr cluster before starting from below location:
+
+https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/emr-bootstrap_nump_fix.sh
+
 * Update the inbound rules for the Master Node:
 
    Fire by default listens on **8080** and **8443**, but EMR clusters have other processes listening on these ports. So, the corresponding settings need to be updated accordingly to listen on ports **8085** and **8086**. This can be done by updating the inbound rules/settings for the master node to allow to listen on ports **8085** and **8086**.

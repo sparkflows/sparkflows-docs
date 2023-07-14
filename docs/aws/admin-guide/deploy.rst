@@ -18,7 +18,7 @@ Details of each of the above Steps:
 
 * Start EMR cluster on AWS:
 
-   Start EMR cluster on AWS if it is not already running on your machine.
+   Start EMR cluster on AWS if it is not already running.
 
 .. Note:: Inorder to use PySpark engine, you need to add ``bootscript`` to emr cluster before starting from below location:
 
@@ -27,11 +27,12 @@ https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/emr-bootst
 * Update the inbound rules for the Master Node:
 
    Fire by default listens on **8080** and **8443**, but EMR clusters have other processes listening on these ports. So, the corresponding settings need to be updated accordingly to listen on ports **8085** and **8086**. This can be done by updating the inbound rules/settings for the master node to allow to listen on ports **8085** and **8086**.
+
 * SSH into the Master EMR node as the ``hadoop`` user::
 
     ssh -i my.pem hadoop@ec2-xx-yyy-zz-aaa.compute-1.amazonaws.com
 
-* Download the fire tgz file by any one of the following options:
+* Download the fire tgz file using any one of the following options:
 
   * https://www.sparkflows.io/download    
        OR
@@ -97,7 +98,7 @@ Loading Example Workflows
     cd <fire install_dir>
     hadoop fs -put data /tmp
     
-Install and Running Example Workflows
+Installing and Running Example Workflows
 ------------------------
 
 * Start off with executing the example workflows::

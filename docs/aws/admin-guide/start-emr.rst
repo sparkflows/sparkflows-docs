@@ -32,6 +32,14 @@ Below are steps on how to create an EMR Cluster using AWS Console:
          :alt: emr
          :width: 60%
 
+.. Note:: Inorder to use PySpark engine, you need to add ``bootscript`` to emr cluster before starting from below location:
+
+https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/emr-bootstrap_nump_fix.sh
+
+.. figure:: ../../_assets/aws/emr/python_dependency.PNG
+         :alt: emr
+         :width: 60%
+
 7. Under ``Cluster logs``, select the Publish cluster-specific logs to Amazon S3 check box. Replace the ``Amazon S3 location`` value with the Amazon S3 bucket you created, followed by /logs. For example, s3://DOC-EXAMPLE-BUCKET/logs. Adding /logs creates a new folder called 'logs' in your bucket, where Amazon EMR can copy the log files of your cluster.
 
 

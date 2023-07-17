@@ -61,8 +61,6 @@ Steps
 
     * https://www.sparkflows.io/download    
                   OR   
-    * https://www.sparkflows.io/archives
-                  OR
     * wget **https://s3.amazonaws.com/sparkflows-release/fire/rel-x.y.z/2/fire-x.y.z.tgz**
   
   

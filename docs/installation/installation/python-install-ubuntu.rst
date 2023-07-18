@@ -78,6 +78,7 @@ Note: Do not use the standard make install as it will overwrite the default syst
 Verify it by typing::
 
   python3.7 –-version
+  cd ..
 
 .. figure:: ../../_assets/configuration/python_version.PNG
    :alt: Installations

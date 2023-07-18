@@ -52,6 +52,7 @@ Compile the Python source code on your system using altinstall::
     ./configure --enable-optimizations
     sudo make altinstall
     python3.7 --version
+    cd ..
   
 .. figure:: ../../_assets/configuration/python3_7.PNG
    :alt: Installations

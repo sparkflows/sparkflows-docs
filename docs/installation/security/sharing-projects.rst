@@ -11,7 +11,7 @@ Below is shared a project with the ``DEFAULT`` group:
 
 The following permissions can be given to a group during sharing of the project:
 
-.. figure:: ../../_assets/security/project_share1.PNG
+.. figure:: ../../_assets/security/project_group.PNG
    :alt: security
    :width: 60%
 

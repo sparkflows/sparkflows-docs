@@ -123,7 +123,7 @@ Fire Insights supports the following permissions. Permissions are associated wit
    * - pipelines.view
      - view pipelines 
    * - pipelines.modify
-     - modify, create and delete pipelines
+     - create, modify and delete pipelines
    * - pipelines.execute
      - execute pipeline 
 

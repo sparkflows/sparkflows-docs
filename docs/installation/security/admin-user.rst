@@ -18,7 +18,7 @@ Permissions supported by Fire Insights
 
 Below are the permissions supported by Fire Insights:
 
-.. figure:: ../../_assets/security/admin_user/admin_role.PNG
+.. figure:: ../../_assets/security/admin_user/permission_role_all.PNG
    :alt: security
    :width: 70%
      

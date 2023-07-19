@@ -94,6 +94,40 @@ Fire Insights supports the following permissions. Permissions are associated wit
      - report view
    * - report.modify
      - report modify
+   * - usage.statistics.manage
+     - view usage statistics
+   * - runtime.statistics.manage
+     - view runtime statistics
+   * - scheduler.statistics.manage
+     - view scheduler statistics
+   * - cache.statistics.manage
+     - view cache statistics
+   * - sampleProject.manage
+     - reload sampleProject
+   * - cleanup.data.manage
+     - cleanup data
+   * - audit.report.manage
+     - view, export and delete audit report
+   * - serverLogs.view
+     - view serverLogs
+   * - yarn.application.view
+     - view and search yarn application
+   * - diagnostics.manage
+     - run diagnostics
+   * - test.ldap.manage
+     - test ldap configurations
+   * - database.backup.manage
+     - backup database and scheduled
+   * - enable.tokenGeneration
+     - enable tokenGeneration
+   * - pipelines.view
+     - view pipelines 
+   * - pipelines.modify
+     - modify, create and delete pipelines
+   * - pipelines.execute
+     - execute pipeline 
+
+
 
 Role's Permissions
 ----------------
@@ -103,7 +137,7 @@ A role has a set of permissions associated with it. A new role can be created an
 Out of the box, Fire Insights comes with two roles : ADMIN and ANALYST
 
 
-.. figure:: ../../_assets/security/role_list.PNG
+.. figure:: ../../_assets/security/role_permissions.PNG
    :alt: security
    :width: 60%
 

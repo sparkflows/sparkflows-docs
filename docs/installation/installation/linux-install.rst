@@ -23,6 +23,11 @@ Below are required for installing Sparkflows on Linux machine::
   - Java and JAR should be in the PATH
   - 8 GB+ of RAM (16 GB+ recommended).
 
+.. note:: If you are using Ubuntu, you may have to do the following::
+
+  - sudo dpkg-reconfigure dash
+  - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
+  - And then select ``No``.
 
 Below is needed if Sparkflows would connect and submit jobs to an Apache Spark Cluster::
 

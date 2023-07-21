@@ -1,4 +1,4 @@
-Analytics App Reference Guide
+Analytical App Reference Guide
 =======================
 
 Upload Stage

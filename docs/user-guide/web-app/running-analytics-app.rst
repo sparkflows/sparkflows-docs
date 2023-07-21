@@ -27,11 +27,9 @@ Step 2 : Start the Application Execution
 Step 3 : Go Through Various Stages
 -------------
 
-Clicking on the Run App button would take you to the various stages of the Application.
+Clicking on the Run App button would take you to the various stages of the Application. Below are the examples of various stages.
 
-Below are the examples of various stages.
-
-Upload Stage
+**Upload Stage**
 +++++
 
 In this Stage, you need to upload files. To upload :
@@ -75,7 +73,7 @@ In this Stage, you need to upload files. To upload :
           :alt: web-app
           :width: 65%
 
-   **Note :** When, user selects fields but missed to map required columns then it will throw error as shown below :
+   **Note :** When user selects fields but missed to map required columns then it will throw error as shown below :
 
 
        .. figure:: ../../_assets/web-app/run-app/error-notification.png
@@ -103,7 +101,7 @@ In this Stage, you need to upload files. To upload :
 #. Click the **Next** button to move to the next stage.
 
 
-Parameter Stage
+**Parameter Stage**
 +++++++
 
 #. On this stage, Select the parameters of your interest.
@@ -118,7 +116,7 @@ Parameter Stage
 #. Click the **Next** button to move to the next stage.
 
 
-Run Stage
+**Run Stage**
 +++++
 
 #. Click the **Run** button to execute the app and view the results.

@@ -6,7 +6,7 @@ Fire Insights support variety of permissions for roles. Each user can be assigne
 Superuser
 ---------
 
-A user in Fire Insights can be marked to be a super-user. A super-user has all the rights exactly similar to that of the admin user.
+A user in Fire Insights can be marked to be a super-user. A super-user has all the rights.
 
 Admin user
 ---------

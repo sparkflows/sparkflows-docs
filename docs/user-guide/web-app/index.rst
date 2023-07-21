@@ -16,13 +16,13 @@ Analytical Apps
 
     ---
    
-    :doc:`/user-guide/web-app/export-import-analytical-app`
+    :doc:`/user-guide/web-app/export-import-analytics-app`
 
     Export or Import analytical app.
 
     ---
 
-    :doc:`/user-guide/web-app/analytical-app-extension`
+    :doc:`/user-guide/web-app/analytics-app-extension`
 
     Nested workflow execution by setting workflow or notebook option in run stage.
 
@@ -46,7 +46,7 @@ Analytical Apps
 
     ---
 
-    :doc:`/user-guide/web-app/running-analytical-app`
+    :doc:`/user-guide/web-app/running-analytics-app`
 
     Run analytical apps and view the results with specified parameters.
     
@@ -62,13 +62,13 @@ Analytical Apps
 
    creating-anlaytics-app.rst
    adding-stages/index.rst
-   export-import-analytical-app.rst
-   analytical-app-extension.rst
+   export-import-analytics-app.rst
+   analytics-app-extension.rst
    map-table-columns.rst
    integrating-with-databricks-notebook.rst
    multiple-file-upload.rst
    Tab navigation and validation.rst
-   running-analytical-app.rst
+   running-analytics-app.rst
    reference.rst
    
 

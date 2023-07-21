@@ -1,7 +1,10 @@
 Analytics App Reference Guide
 =======================
 
-.. list-table:: Upload Stage
+Upload Stage
+--------
+
+.. list-table:: 
    :widths: 15 15 23 30
    :header-rows: 1
 
@@ -22,7 +25,10 @@ Analytics App Reference Guide
      - any 
      - Component is added if user want to map the columns of the file uploaded.
 
-.. list-table:: Buttons
+
+Buttons
+---------
+.. list-table::
    :widths: 15 15 18 18 28
    :header-rows: 1
 
@@ -66,9 +72,20 @@ Analytics App Reference Guide
      - backTab
      - any
      - Component is added to go to the previous tab.
+   * - Browse
+     - Button
+     - browse
+     - any
+     - Component is added to browse to the HDFS file system.
+   * - Upload Data
+     - Button
+     - uploadData
+     - uploadData
+     - Component is added to upload table data to the HDFS file system.
      
-     
-.. list-table:: Mapping Table Columns
+Mapping Table Columns
+----------
+.. list-table:: 
    :widths: 15 15 23 30
    :header-rows: 1
 
@@ -89,7 +106,10 @@ Analytics App Reference Guide
      - KEY : query , VALUE : select * from $database.$table limit 10; (Database and table value is taken from other component having key database and table.)
      - Component is added for mapping table columns.
      
-.. list-table:: Multiple File Upload
+
+Multiple File Upload
+-------------
+.. list-table:: 
    :widths: 15 15 23 30
    :header-rows: 1
 

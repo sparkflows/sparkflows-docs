@@ -34,25 +34,25 @@ Improvements:
 Bug Fixes:
 ----------
 
-* app stage not rendering on renaming project
-* delete analytical app issue fixes
-* Showing all analytical app executions on view app when run stage has different wfid and app has different
-* add default value of delimeter in dataset
-* fixes for Pipeline API parameters not able to change the Pipeline parameter values
-* updated default value of header and dropSpecialCharacterinColumnName in dataset
-* redirecting automl execution action icon view result to wf-exe full result page
-* added default value of graphType in graphvalues and graphgroupbycolumn node json
-* updated graph type in graphValues node json
-* added y sort column field in graphvalues,barchart and scatterchart node
-* added ylabel field in node graph values
-* Added one more field to get user input wether graph should be sort by Y-column or not in subplot node
-* showing all neccesary execution result in report if node type is ml-estimator
-* fixed Graph node by week distribution node issue
-* fixed Graph node by year distribution node issue
-* fixed Graph month distribution node issue
-* readjdbc node issue on pyspark
-* postgresql with readjdbc node fixes
-* fixes for upload DAG to s3 in correct directory issue
+* Fix for app stage not rendering on renaming project.
+* Fix for delete analytical app.
+* Fix for Showing all analytical app executions on view app when run stage has different workflow id and app has different.
+* Fix for add default value of delimeter in dataset.
+* Fix for Pipeline API parameters not able to change the Pipeline parameter values.
+* Fix for updated default value of header and dropSpecialCharacterinColumnName in dataset.
+* Fix for redirecting automl execution action icon view result to wf-exe full result page.
+* Fix for added default value of graphType in graphvalues and graphgroupbycolumn node json.
+* Fix for updated graph type in graphValues node json.
+* Fix for y sort column field in graphvalues,barchart and scatterchart node.
+* Fix for ylabel field in node graph values.
+* Fix for one more field to get user input wether graph should be sort by Y-column or not in subplot node.
+* Fix for showing all neccesary execution result in report if node type is ml-estimator.
+* Fix for Graph node by week distribution node issue.
+* Fix for Graph node by year distribution node issue.
+* Fix for Graph month distribution node issue.
+* Fix for readjdbc node issue on pyspark.
+* Fix for postgresql with readjdbc node fixes.
+* Fix for upload DAG to s3 in correct directory issue.
 
 Documentation:
 --------------

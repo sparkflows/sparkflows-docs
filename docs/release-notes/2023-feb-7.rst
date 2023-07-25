@@ -8,4 +8,4 @@ Improvements:
 * Additional logs added for processes
 * Additional UI messages while trigerring Airflow pipelines
 * Additional API for getting websocket meta information and statistics
-* Refinement of the Airflow job status updates.
+* Refinement of the Airflow job status updates

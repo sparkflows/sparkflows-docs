@@ -1,0 +1,60 @@
+June 26 2023 (Version 3.2.28)
+==================================
+
+New Features:
+--------------
+
+* Export and import for Automl
+* Export and import for report
+* CDC(Change Data Capture) nodes.
+* SaveTextFile
+* Distinct Count and Null Count In Summary Node
+* Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results.
+* Added Filter Unique node
+* Confusion Matrix Enhancements in PySpark
+* Added Impute Advanced Node
+* Enhancements to Custom Metric Node.
+* Split into Good and Bad Records Node from GE Results
+* UX Upgrade (Three theme support)
+* OAuth Integration
+
+Improvements:
+-------------
+
+* Added sparkConf field in EMR workflow node of pipeline
+* Added parameter field in EMR  workflow node of pipeliene
+* Pipeline parameters and config parameters to be considered when running pipeline with airflow from script
+* Added configuration to get max pipeline execution status update count(**airflow.max.batch.execution.status.update**)
+* Added configuration for Fire jar location to be used in EMR workflow node while running Scala Workflow(**airflow.fire.jar.location**)
+* Added configuration for Fire python script location to be used in EMR workflow node while running Pyspark Workflow (**airflow.fire.python.script.location**)
+* Added changes to run pyspark workflow from pipeline in airflow
+* Added python script to generate accesstoken of user
+
+
+Bug Fixes:
+----------
+
+* app stage not rendering on renaming project
+* delete analytical app issue fixes
+* Showing all analytical app executions on view app when run stage has different wfid and app has different
+* add default value of delimeter in dataset
+* fixes for Pipeline API parameters not able to change the Pipeline parameter values
+* updated default value of header and dropSpecialCharacterinColumnName in dataset
+* redirecting automl execution action icon view result to wf-exe full result page
+* added default value of graphType in graphvalues and graphgroupbycolumn node json
+* updated graph type in graphValues node json
+* added y sort column field in graphvalues,barchart and scatterchart node
+* added ylabel field in node graph values
+* Added one more field to get user input wether graph should be sort by Y-column or not in subplot node
+* showing all neccesary execution result in report if node type is ml-estimator
+* fixed Graph node by week distribution node issue
+* fixed Graph node by year distribution node issue
+* fixed Graph month distribution node issue
+* readjdbc node issue on pyspark
+* postgresql with readjdbc node fixes
+* fixes for upload DAG to s3 in correct directory issue
+
+Documentation:
+--------------
+
+* Revamp of the Sparkflows installation docs.

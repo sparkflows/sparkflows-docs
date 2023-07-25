@@ -4,17 +4,17 @@ June 26 2023 (Version 3.2.28)
 New Features:
 --------------
 
-* Export and import for Automl.
-* Export and import for report.
-* CDC(Change Data Capture) Node.
-* SaveTextFile Node.
-* Distinct Count and Null Count In Summary Node.
-* Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results.
-* Added Filter Unique node.
-* Confusion Matrix Enhancements in PySpark.
-* Added Impute Advanced Node.
-* Enhancements to Custom Metric Node.
-* Split into Good and Bad Records Node from GE Results.
+* Export and import for Automl
+* Export and import for report
+* CDC(Change Data Capture) Node
+* SaveTextFile Node
+* Distinct Count and Null Count In Summary Node
+* Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results
+* Added Filter Unique node
+* Confusion Matrix Enhancements in PySpark
+* Added Impute Advanced Node
+* Enhancements to Custom Metric Node
+* Split into Good and Bad Records Node from GE Results
 * UX Upgrade (Three theme support)
 * OAuth Integration
 
@@ -34,27 +34,27 @@ Improvements:
 Bug Fixes:
 ----------
 
-* Fix for app stage not rendering on renaming project.
-* Fix for delete analytical app.
-* Fix for Showing all analytical app executions on view app when run stage has different workflow id and app has different.
-* Fix for add default value of delimeter in dataset.
-* Fix for Pipeline API parameters not able to change the Pipeline parameter values.
-* Fix for updated default value of header and dropSpecialCharacterinColumnName in dataset.
-* Fix for redirecting automl execution action icon view result to wf-exe full result page.
-* Fix for added default value of graphType in graphvalues and graphgroupbycolumn node json.
-* Fix for updated graph type in graphValues node json.
-* Fix for y sort column field in graphvalues,barchart and scatterchart node.
-* Fix for ylabel field in node graph values.
-* Fix for one more field to get user input wether graph should be sort by Y-column or not in subplot node.
-* Fix for showing all neccesary execution result in report if node type is ml-estimator.
-* Fix for Graph node by week distribution node issue.
-* Fix for Graph node by year distribution node issue.
-* Fix for Graph month distribution node issue.
-* Fix for readjdbc node issue on pyspark.
-* Fix for postgresql with readjdbc node fixes.
-* Fix for upload DAG to s3 in correct directory issue.
+* Fix for app stage not rendering on renaming project
+* Fix for delete analytical app
+* Fix for Showing all analytical app executions on view app when run stage has different workflow id and app has different
+* Fix for add default value of delimeter in dataset
+* Fix for Pipeline API parameters not able to change the Pipeline parameter values
+* Fix for updated default value of header and dropSpecialCharacterinColumnName in dataset
+* Fix for redirecting automl execution action icon view result to wf-exe full result page
+* Fix for added default value of graphType in graphvalues and graphgroupbycolumn node json
+* Fix for updated graph type in graphValues node json
+* Fix for y sort column field in graphvalues,barchart and scatterchart node
+* Fix for ylabel field in node graph values
+* Fix for one more field to get user input wether graph should be sort by Y-column or not in subplot node
+* Fix for showing all neccesary execution result in report if node type is ml-estimator
+* Fix for Graph node by week distribution node issue
+* Fix for Graph node by year distribution node issue
+* Fix for Graph month distribution node issue
+* Fix for readjdbc node issue on pyspark
+* Fix for postgresql with readjdbc node fixes
+* Fix for upload DAG to s3 in correct directory issue
 
 Documentation:
 --------------
 
-* Revamp of the Sparkflows installation docs.
+* Revamp of the Sparkflows installation docs

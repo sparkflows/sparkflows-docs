@@ -50,9 +50,8 @@ Bug Fixes:
 * Fix for Graph month distribution.
 * Fix for readjdbc node issue on pyspark.
 * Fix for postgresql with readjdbc node.
-* Fix for upload DAG to s3 in correct directory.
 
 Documentation:
 --------------
 
-* Revamp of the Sparkflows installation docs
+* Revamp of the Sparkflows installation docs.

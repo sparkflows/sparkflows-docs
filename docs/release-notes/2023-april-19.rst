@@ -4,11 +4,11 @@ April 19 2023 (Version 3.2.8)
 New Features:
 --------------
 * API's to execute the pipeline and get the status etc.  
-* Ability to add custom arguments to Airflow DAG's like retry delay, timeout, email on failure, email on retry.
-* Ability to add custom tags to the Airflow pipelines.
+* Ability to add custom arguments to Airflow DAG's like retry delay, timeout, email on failure, email on retry
+* Ability to add custom tags to the Airflow pipelines
 
 Improvements:
 --------------
 
-* Ability to parameterize the Airflow Pipelines executions to enable Custom executions.
-* Ability to create pipelines which are environment agnostic and the same pipelines can be configured to run on different environments.
+* Ability to parameterize the Airflow Pipelines executions to enable Custom executions
+* Ability to create pipelines which are environment agnostic and the same pipelines can be configured to run on different environments

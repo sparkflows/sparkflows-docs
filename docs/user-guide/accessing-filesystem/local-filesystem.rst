@@ -17,31 +17,35 @@ Step 1 : Login to Fire Insights
 
 Step 2 : Go to Administration Page
 ----------
-#. From the Fire Insights home page, click on the **ADMINISTRATION** tab located in the top bar.
+From the Fire Insights home page, click on the **ADMINISTRATION** tab located in the top bar.
 
 Step 3 : Go to Configurations Page
 ------------
-#. From the adminitration page, click on the **Configurations** option.
+From the adminitration page, click on the **Configurations** option.
 
 Step 4 : Go to HDFS Page
 --------------
-#. From the configurations page, click on the **HDFS** tab located in the upper-middle bar.
+From the configurations page, click on the **HDFS** tab located in the upper-middle bar.
 
 Step 5 : Update the Path
 -----------
-#. Click on the **edit icon** connected to the field named as **hdfs.localHomeDirForAllUsers**. 
-   
-#. Now, update the path in the **Value** column. Refer the image below :
+#. Click on the **edit icon** connected to the field named as **hdfs.localHomeDirForAllUsers**.
+#. Enter the path in the **Value** column. 
 
-    .. figure:: ../../_assets/user-guide/access-filesystem/hdfs_config.PNG
-       :alt: userguide
-       :width: 60% 
+   ::
+
+          hdfs.localHomeDirForAllUsers: $PATH of data configured
+
+
+   .. figure:: ../../_assets/user-guide/access-filesystem/hdfs_config.PNG
+      :alt: userguide
+      :width: 60% 
 
 #. Click on the **Save Configurations** button to save and update the path.
 
 Step 5 : View the File System
 ------------
-#. Once you save the above configuration, go to **DATA/File System**, and it will point to the same location you configured earlier.
+Once you save the above configuration, go to **DATA/File System**, and it will point to the same location you configured earlier.
 
     .. figure:: ../../_assets/user-guide/access-filesystem/hdfs_local.PNG
        :alt: userguide

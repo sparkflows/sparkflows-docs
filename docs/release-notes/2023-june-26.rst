@@ -4,15 +4,15 @@ June 26 2023 (Version 3.2.28)
 New Features:
 --------------
 
-* Export and import for Automl
-* Export and import for report
-* CDC(Change Data Capture) Node
-* SaveTextFile Node
-* Distinct Count and Null Count In Summary Node
-* Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results
-* Added Filter Unique node
-* Added Impute Advanced Node
-* Split into Good and Bad Records Node from GE Results
+* Export and import for Automl.
+* Export and import for report.
+* CDC(Change Data Capture) Node.
+* SaveTextFile Node.
+* Distinct Count and Null Count In Summary Node.
+* Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results.
+* Added Filter Unique node.
+* Added Impute Advanced Node.
+* Split into Good and Bad Records Node from GE Results.
 * UX Upgrade (Three theme support)
 * OAuth Integration.
 

@@ -3,13 +3,13 @@ April 24 2023 (Version 3.2.9)
 
 New Features:
 --------------
-* Ability to Submit python jobs in addition to the Java/Scala jobs to EMR via Livy.
-* New Great expectation node for asserting ExpectColumnValueLengthToBeInBetween.
-* New Great expectation node for asserting ExpectColumnValueLengthsToEqual.
-* New Great expectation node for asserting ExpectColumnValueToMatchStrftimeFormat.
-* New Great expectation node for asserting ExpectColumnValueLengthToBeInBetween.
-* New Great expectation node for asserting NodeExpectColumnValuesToMatchRegex.
+* Ability to Submit python jobs in addition to the Java/Scala jobs to EMR via Livy
+* New Great expectation node for asserting ExpectColumnValueLengthToBeInBetween
+* New Great expectation node for asserting ExpectColumnValueLengthsToEqual
+* New Great expectation node for asserting ExpectColumnValueToMatchStrftimeFormat
+* New Great expectation node for asserting ExpectColumnValueLengthToBeInBetween
+* New Great expectation node for asserting NodeExpectColumnValuesToMatchRegex
 
 Improvements:
 --------------
-* Improvements of job submission to EMR.
+* Improvements of job submission to EMR

@@ -5,6 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2023-june-26.rst   
    2023-april-24.rst
    2023-april-19.rst
    2023-april-4.rst

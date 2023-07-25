@@ -11,9 +11,7 @@ New Features:
 * Distinct Count and Null Count In Summary Node
 * Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results
 * Added Filter Unique node
-* Confusion Matrix Enhancements in PySpark
 * Added Impute Advanced Node
-* Enhancements to Custom Metric Node
 * Split into Good and Bad Records Node from GE Results
 * UX Upgrade (Three theme support)
 * OAuth Integration.
@@ -21,6 +19,8 @@ New Features:
 Improvements:
 -------------
 
+* Enhancements of Confusion Matrix in PySpark.
+* Enhancements to Custom Metric Node.
 * Added sparkConf field in EMR workflow node of pipeline.
 * Added parameter field in EMR  workflow node of pipeliene.
 * Pipeline parameters and config parameters to be considered when running pipeline with airflow from script.

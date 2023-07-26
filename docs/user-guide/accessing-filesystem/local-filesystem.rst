@@ -21,7 +21,7 @@ From the Fire Insights home page, click on the **ADMINISTRATION** tab located in
 
 Step 3 : Go to Configurations Page
 ------------
-From the adminitration page, click on the **Configurations** option.
+From the administration page, click on the **Configurations** option.
 
 Step 4 : Go to HDFS Page
 --------------

@@ -50,3 +50,7 @@ If you run into error ``keytool error: java.io.IOException: Keystore was tampere
   - keytool -list -keystore <path of keystore.jks> -storepass <passoword_for_jks>`
   - More details can be found here: https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
 
+6. Getting the error : java.net.BindException:Cannot assign requested address
+-------------------------------
+
+Make sure that you donot have mapped public ip to private ip in ``/etc/hosts``, As Fire Insights by default use localhost for subprocess.

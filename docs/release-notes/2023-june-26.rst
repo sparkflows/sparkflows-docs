@@ -10,10 +10,10 @@ New Features:
 * SaveTextFile Node.
 * Distinct Count and Null Count In Summary Node.
 * Create CSV  from GE Results: Added node to easily generate CSV files from Great Expectation (GE) results.
-* Added Filter Unique node.
+* Added Filter Unique Node.
 * Added Impute Advanced Node.
 * Split into Good and Bad Records Node from GE Results.
-* UX Upgrade (Three theme support)
+* UX Upgrade (Three theme support).
 * OAuth Integration.
 
 Improvements:
@@ -39,17 +39,17 @@ Bug Fixes:
 * Fix for Pipeline API parameters not able to change the Pipeline parameter values.
 * Fix for updated default value of header and dropSpecialCharacterinColumnName in dataset.
 * Fix for redirecting automl execution action icon view result to wf-exe full result page.
-* Fix for added default value of graphType in graphvalues and graphgroupbycolumn node json.
-* Fix for updated graph type in graphValues node json.
-* Fix for y sort column field in graphvalues,barchart and scatterchart node.
-* Fix for ylabel field in node graph values.
-* Fix for one more field to get user input wether graph should be sort by Y-column or not in subplot node.
+* Fix for added default value of graphType in Graph Values and Graph Group by Column nodes json.
+* Fix for updated graph type in Graph Values node json.
+* Fix for y sort column field in Graph Values, Bar Chart and Scatter Chart nodes.
+* Fix for y label field in node Graph Values.
+* Fix for one more field to get user input whether graph should be sort by Y-column or not in subplot node.
 * Fix for showing all neccesary execution result in report if node type is ml-estimator.
 * Fix for Graph node by week distribution.
 * Fix for Graph node by year distribution.
-* Fix for Graph month distribution.
-* Fix for readjdbc node issue on pyspark.
-* Fix for postgresql with readjdbc node.
+* Fix for Graph node by month distribution.
+* Fix for Read JDBC node issue on pyspark.
+* Fix for postgresql with Read JDBC node.
 
 Documentation:
 --------------

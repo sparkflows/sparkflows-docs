@@ -48,7 +48,7 @@ On the AWS page :
 
 #. Click on the **Save Configurations** button to save and update the path.
 
-Step 5 : Access the File System
+Step 6 : Access the File System
 ------------
 Once you save the above configuration :
 
@@ -58,7 +58,8 @@ Once you save the above configuration :
            :alt: userguide
            :width: 60% 
 
-Now you can upload data and use it in workflow, dataset.
+Now, you can easily upload data and use it in your workflow or dataset.
+
 
 To gather more information `click here <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html#aws-s3-integration>`_.
 

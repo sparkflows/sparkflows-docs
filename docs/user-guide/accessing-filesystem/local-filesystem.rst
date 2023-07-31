@@ -43,7 +43,7 @@ Step 5 : Update the Path
 
 #. Click on the **Save Configurations** button to save and update the path.
 
-Step 5 : View the File System
+Step 5 : Access the File System
 ------------
 Once you save the above configuration, go to **DATA/File System**, and it will point to the same location you configured earlier.
 

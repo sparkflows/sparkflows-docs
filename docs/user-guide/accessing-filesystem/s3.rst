@@ -1,30 +1,65 @@
 AWS S3
 ===========
 
-Fire Insights enable you use S3 when AWS s3 is configured.
+Fire Insights enables you to use AWS S3 when it is configured.
 
-By default Fire Insights sample data is being bundled in Fire Insights binary with ``data`` folder in home directory.
+By default, Fire Insights includes sample data bundled in its binary with a data folder in the home directory.
 
-you can copy ``data`` folder to your specified location of ``s3`` and configured the path to use in Fire Insights.
+You can copy the data folder to a specified location in S3 and configure the path to be used in Fire Insights.
 
-you can login to Fire Insights go to ``Administration/Configurations`` and update below in ``AWS`` tab:
+To configure the path, follow the steps below :
 
-::
+Step 1 : Login to Fire Insights
+----------
+#. Go to Fire Insights Login Page.
+#. Enter your credentials to sign in.
 
-    aws.enabled : true
-    aws.homeDir : Specific s3 path
-    aws.region  : Region where s3 is configured
+Step 2 : Go to Administration Page
+-----------------
+From the Fire Insights home page, click on the **ADMINISTRATION** tab located in the top bar.
 
-.. figure:: ../../_assets/user-guide/access-filesystem/aws_config.PNG
-   :alt: userguide
-   :width: 60% 
+Step 3 : Go to Configurations Page
+------------
+From the administration page, click on the **Configurations** option.
 
-Once the above configuration got saved, you can go to ``DATA/AWS S3``, it would point you the same location configured in previous step.
+Step 4 : Go to AWS Page
+--------------
+From the configurations page, click on the **AWS** tab located in the upper-middle bar.
 
-.. figure:: ../../_assets/user-guide/access-filesystem/aws_s3_browse.PNG
-   :alt: userguide
-   :width: 60% 
+Step 5 : Update the Path
+-----------
+On the AWS page :
+
+#. Set the **value** column for **aws.enabled** field as **true** using the drop-down menu.
+#. Enter the **S3 path** for **aws.homeDir** field.
+#. Enter the **region** where S3 is to be configured in the **value** column of the **aws.region** field.
+
+   **Note :** To edit the path, you are required to click on the edit icon located on the right-hand side (RHS) of each field.
+    
+    ::
+
+        aws.enabled : true
+        aws.homeDir : Specific s3 path
+        aws.region  : Region where s3 is configured
+
+    .. figure:: ../../_assets/user-guide/access-filesystem/aws_config.PNG
+       :alt: userguide
+       :width: 60% 
+
+#. Click on the **Save Configurations** button to save and update the path.
+
+Step 5 : Access the File System
+------------
+Once you save the above configuration :
+
+#. Navigate to **DATA/AWS S3** to access the same location that was configured in the previous step.
+
+        .. figure:: ../../_assets/user-guide/access-filesystem/aws_s3_browse.PNG
+           :alt: userguide
+           :width: 60% 
 
 Now you can upload data and use it in workflow, dataset.
 
-For more informations : https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html
+To gather more information `click here <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html#aws-s3-integration>`_.
+
+

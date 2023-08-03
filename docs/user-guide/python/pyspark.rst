@@ -6,7 +6,7 @@ Fire Insights provides a PySpark processor for writing PySpark or Python code.
 Interface
 ---------
 
-In the PySpark Processor, we have to implement the myfn function which gets invoked::
+In the PySpark Processor, we have to implement the **myfn** function which gets invoked::
 
   def myfn(spark: SparkSession, workflowContext: WorkflowContext, id: int, inDF: DataFrame):
 
@@ -19,8 +19,8 @@ In the PySpark Processor, we have to implement the myfn function which gets invo
 WorkflowContext
 ---------------
 
-WorkflowContext provides the following methods for outputting data to the user::
-
+WorkflowContext offers the user the following methods to output data: ::
+ 
   * def outStr(self, text: str)
   * def outNameValue(self, nm: str, val: str)
   * def outSchema(self, id: int, title: str, df: DataFrame)

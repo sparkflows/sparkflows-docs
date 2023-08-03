@@ -16,7 +16,7 @@ Below is an example workflow containing Pipe Python Processor.
 Input DataFrame Schema
 -----------------------
 
-The schema of the incoming dataframe is also passed into the Python script as an ``argument``. It can be used in the Python script as needed.
+The schema of the incoming dataframe is also passed into the Python script as an argument. It can be used in the Python script as needed.
 
 The format of the dataframe schema is below::
 

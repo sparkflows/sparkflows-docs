@@ -16,9 +16,9 @@ Below is an example workflow containing Pipe Python2 Processor.
 Input DataFrame Schema
 -----------------------
 
-The schema of the incoming dataframe is also passed into the Python script as an ``argument``. It can be used in the Python script as needed.
+The schema of the incoming DataFrame is also passed into the Python script as an argument. It can be used in the Python script as needed.
 
-The format of the dataframe schema is below::
+The format of the DataFrame schema is below::
 
     colname1:datatype1|colname2:datatype2|colname3:datatype3
     
@@ -32,7 +32,7 @@ Below is an example of printing the arguments and an example result::
 Reading in Data in Python into a Pandas DataFrame
 -------------------------------------------------
 
-Below is an example script which reads in the input lines and converts it to a Pandas DataFrame. It parses the schema passed in ``argv[1]`` to extract the column names which is used in creating the Pandas DataFrame::
+Below is an example script which reads in the input lines and converts it to a Pandas DataFrame. It parses the schema passed in argv[1] to extract the column names which is used in creating the Pandas DataFrame::
 
     #!/usr/bin/python
 
@@ -70,7 +70,7 @@ Below is an example script which reads in the input lines and converts it to a P
 Transform the Pandas DataFrame
 ------------------------------
 
-Now that we have the Pandas DataFrame in ``input_dataframe``, we can transform it to create the result DataFrame - ``output_dataframe``. In the below example, we are just setting the output dataframe to the input dataframe::
+Now that we have the Pandas DataFrame in input_dataframe, we can transform it to create the result DataFrame - output_dataframe. In the below example, we are just setting the output DataFrame to the input DataFrame::
 
    output_dataframe = input_dataframe
 
@@ -88,18 +88,18 @@ Below is an example code for writing the Pandas Schema back to Spark. It is used
 
 Fire expects each line of the schema file to contain the following:
 
-* Name of the column.
-* Data Type of the column.
+   * Name of the column.
+   * Data Type of the column.
 
 There can be multiple spaces between the name and the data type.
 
 Fire uses the below for mapping from the data type to Spark DataFrames Data Types:
 
-* int : integer
-* float : float
-* double : double
-* boolean : boolean
-* string : string
+   * int : integer
+   * float : float
+   * double : double
+   * boolean : boolean
+   * string : string
             
 
 Writing the Pandas DataFrame back to Spark

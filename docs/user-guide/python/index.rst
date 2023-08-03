@@ -18,15 +18,9 @@ Sparkflows supports Python in Workflows in a few ways:
 
     ---
 
-    :doc:`/user-guide/python/pipe-python`
-
-    Pipe Python Processor allows writing Python script to process the incoming DataFrame. The incoming DataFrame is piped to the python script. The Python script takes in each     record of the DataFrame as a comma separated string. It parses the string, processes the record and writes out the new record.
-    
-    ---
-    
     :doc:`/user-guide/python/pipe-python2`
     
-    It pipes the incoming DataFrame through pipe to the Python Script. It also passes the Schema of the DataFrame to the Python script through the command line argument. (argv[1])
+    The Pipe Python Processor pipes the incoming DataFrame through pipe to the Python Script. It also passes the Schema of the DataFrame to the Python script through the command line argument. (argv[1])
 
 
 .. toctree::

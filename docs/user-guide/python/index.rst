@@ -28,6 +28,5 @@ Sparkflows supports Python in Workflows in a few ways:
 
    pyspark.rst
    jython.rst
-   pipe-python.rst
    pipe-python2.rst
 

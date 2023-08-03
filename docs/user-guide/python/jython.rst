@@ -29,7 +29,7 @@ Count the number of records after grouping them
 Run a SQL on the input DataFrame
 ++++++++++++++++++++++++++++++++++++++++++++
 
-The Jython Processor registers the incoming dataframe as a temporary table with a configurable name.
+The Jython Processor registers the incoming DataFrame as a temporary table with a configurable name.
 
 The below SQL in Jython script, performs a SELECT on the registered temporary table.
 

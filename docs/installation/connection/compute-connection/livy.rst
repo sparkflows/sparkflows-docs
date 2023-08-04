@@ -94,6 +94,9 @@ For LIVY tab
    * - Jars
      - Jars to be used in emr livy session
      - Jars path located in S3 Location
+   * - File
+     - File contains application to execute
+     - py file path located in s3 Location 
    * - Pyspark Files
      - Pyspark Files to be used in emr livy session
      - Pyspark file located in S3 Location  
@@ -123,7 +126,7 @@ For LIVY tab
    :alt: livy
    :width: 50%     
 
-.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib``. 
+.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` & "workflowexecutecloud.py" to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib`` & ``fire-x.y.z/dist/``. 
 
 .. figure:: ../../../_assets/aws/livy/livy_jar.PNG
    :alt: livy

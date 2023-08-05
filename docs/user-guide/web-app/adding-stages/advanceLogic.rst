@@ -1,4 +1,4 @@
-Advance Parameters Design
+Advanced Parameters Design
 =======
 
 In the Parameters stage, components can be added by selecting text fields, select boxes, buttons, and more. 
@@ -7,11 +7,8 @@ These elements also provide options for adding conditions and logic.
 
 This document outlines the essential steps for adding conditions and logic effectively.
 
-Conditions and Logics
+Conditions 
 -------
-
-Conditions :
-++++
 
 Conditions are primarily used to show or hide components based on specific rules. There are two ways to apply conditions: 
 
@@ -20,10 +17,10 @@ Conditions are primarily used to show or hide components based on specific rules
   
   They must assign boolean values to variable names i.e. **show** to control component visibility.
 
-Logic :
-+++++++
+Logic
+------
 
-Logic involves combining triggers and actions. Users can add multiple logics for the same component. For example:
+Logic involves combining triggers and actions. Users can add multiple logic for the same component. For example:
 
 * **Simple** triggers require selecting from available options.
 
@@ -35,7 +32,7 @@ Logic involves combining triggers and actions. Users can add multiple logics for
 Add Simple and Advanced Condition
 -----------
 
-Follow the below steps to add condtions :
+Follow the below steps to add conditions :
 
 **Step 1 : Add Text Field Components**
 ++++++
@@ -53,7 +50,7 @@ Follow the below steps to add condtions :
       :alt: web-app
       :width: 60%
 
-#. Click **Save** to Save the the components.
+#. Click **Save** to Save the components.
 
    **Note :** We have added 3 components with the labels set as Country, Capital and Business City.
 
@@ -120,7 +117,7 @@ Follow the below steps to add condtions :
 
    
 
-Add Logics and Actions
+Add Logic and Actions
 -------
 
 Follow the below steps to add the logics :

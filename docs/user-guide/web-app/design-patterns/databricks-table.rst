@@ -1,2 +1,2 @@
-Create a dropdown with Databricks Tables
+Databricks Tables
 ================

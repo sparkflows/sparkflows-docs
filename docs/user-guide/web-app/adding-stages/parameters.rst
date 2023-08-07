@@ -1,6 +1,8 @@
 Parameters Stage
 =====
 
+Below are the steps required to create or edit a parameters stage.
+
 Step 1 : Add Parameters Stage
 ---------
 

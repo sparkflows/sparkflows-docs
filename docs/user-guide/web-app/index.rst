@@ -70,6 +70,7 @@ Analytical Apps
    Tab navigation and validation.rst
    running-analytics-app.rst
    reference.rst
+   design-patterns/index.rst
    
 
    

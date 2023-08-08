@@ -50,11 +50,18 @@ Analytical Apps
 
     Run analytical apps and view the results with specified parameters.
     
-     ---
+    ---
 
     :doc:`/user-guide/web-app/reference`
 
     Describe informations about different parameters used in analytical app.
+
+    ---
+
+    :doc:`/user-guide/web-app/design-patterns/index`
+
+    Populate dropdown with databricks databases and tables.
+
 
 
 .. toctree::

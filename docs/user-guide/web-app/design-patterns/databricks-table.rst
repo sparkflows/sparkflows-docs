@@ -22,3 +22,5 @@ To load a list of tables in the select component, use the following steps:
    .. figure:: ../../../_assets/web-app/map-table-columns/SelectTB1.png
       :alt: web-app
       :width: 70%
+
+`Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/map-table-columns.html>`_ for more detailed information.

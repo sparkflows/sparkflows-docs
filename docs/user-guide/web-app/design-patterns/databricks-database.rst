@@ -1,7 +1,7 @@
 Create a Dropdown with Databricks Databases
 ===============
 
-Fire Insights allows you to populate dropdown with databases. This document explains in detail the steps required to populate table columns in Analytical Apps.
+Fire Insights allows you to populate a dropdown menu with databases in an Anlayitical App. This document explains in detail the steps required to populate dropdown with table columns in Analytical Apps.
 
 Step 1 : Add Database Dropdown
 ------------------

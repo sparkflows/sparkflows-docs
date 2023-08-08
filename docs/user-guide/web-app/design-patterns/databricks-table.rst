@@ -3,9 +3,7 @@ Create a Dropdown with Databricks Tables
 
 Fire Insights allows you to populate a dropdown menu with databricks tables in an Analytical App. 
 
-This document explains in detail the steps required to map table columns in Analytical Apps.
-
-Step 1: Add Tables Dropdown
+Add Tables Dropdown
 ---------------------
 
 To load a list of tables in the select component, use the following steps:

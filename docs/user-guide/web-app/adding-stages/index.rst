@@ -18,10 +18,6 @@ Fire Insights offers users the flexibility to incorporate a variety of stages wi
 
     ---
 
-    :doc:`/user-guide/web-app/adding-stages/advanceLogic`
-
-    ---
-
     :doc:`/user-guide/web-app/adding-stages/run`
 
 
@@ -50,5 +46,4 @@ Fire Insights offers users the flexibility to incorporate a variety of stages wi
    add-stages.rst
    upload.rst
    parameters.rst
-   advanceLogic.rst
    run.rst

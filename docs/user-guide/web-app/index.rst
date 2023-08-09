@@ -28,12 +28,6 @@ Analytical Apps
 
     ---
 
-    :doc:`/user-guide/web-app/map-table-columns`
-
-    Map table columns by selecting databricks db, tables and running query.
-
-    ---
-
     :doc:`/user-guide/web-app/integrating-with-databricks-notebook`
 
     Steps for integrating analytical apps with databricks notebook.
@@ -71,7 +65,6 @@ Analytical Apps
    adding-stages/index.rst
    export-import-analytics-app.rst
    analytics-app-extension.rst
-   map-table-columns.rst
    integrating-with-databricks-notebook.rst
    multiple-file-upload.rst
    Tab navigation and validation.rst

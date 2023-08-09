@@ -22,22 +22,10 @@ Analytical Apps
 
     ---
 
-    :doc:`/user-guide/web-app/analytics-app-extension`
-
-    Nested workflow execution by setting workflow or notebook option in run stage.
-
-    ---
-
     :doc:`/user-guide/web-app/integrating-with-databricks-notebook`
 
     Steps for integrating analytical apps with databricks notebook.
     
-    ---
-
-    :doc:`/user-guide/web-app/multiple-file-upload`
-
-    Multiple file upload in analytical app.
-
     ---
 
     :doc:`/user-guide/web-app/running-analytics-app`
@@ -54,7 +42,7 @@ Analytical Apps
 
     :doc:`/user-guide/web-app/design-patterns/index`
 
-    Populate dropdown with databricks databases and tables.
+    Create different designs of analytical apps.
 
 
 
@@ -64,10 +52,7 @@ Analytical Apps
    creating-anlaytics-app.rst
    adding-stages/index.rst
    export-import-analytics-app.rst
-   analytics-app-extension.rst
    integrating-with-databricks-notebook.rst
-   multiple-file-upload.rst
-   Tab navigation and validation.rst
    running-analytics-app.rst
    reference.rst
    design-patterns/index.rst

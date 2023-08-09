@@ -21,7 +21,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
 #. Go to **edit analytics app page**.
 #. Click on the **Change workflow/Notebook** option on the Run Stage Label.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/change-wf.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/change-wf.png
       :alt: web-app
       :width: 70%
 
@@ -30,7 +30,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
 
 #. On the Dialog, select the notebook or workflow from the dropdown list.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/change-wf-dialog.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/change-wf-dialog.png
       :alt: web-app
       :width: 70%
 
@@ -41,13 +41,13 @@ Users can choose a specific workflow or notebook here for execution. To choose f
    
    This will take you to the first stage. Fill in all the details here.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/first-stage.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/first-stage.png
       :alt: web-app
       :width: 70%
 
 #. Now, click on the **Next** button. The next stage is the first run stage.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/run-1.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/run-1.png
       :alt: web-app
       :width: 70%
 
@@ -60,7 +60,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
      
    Also in the Display tab, it is set to be **disabled**.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/run-button.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/run-button.png
       :alt: web-app
       :width: 70%
 
@@ -70,7 +70,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
    
    These parameters get displayed on the Execution page. But on this page they are disabled and the users can only view them.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/execute-parameter.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/execute-parameter.png
       :alt: web-app
       :width: 70%
 
@@ -79,7 +79,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
    
    The result parameters would get displayed here. Users can update the values for the parameters.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/execute-parameter-2.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/execute-parameter-2.png
       :alt: web-app
       :width: 70%
 
@@ -87,13 +87,13 @@ Users can choose a specific workflow or notebook here for execution. To choose f
    
    In order to capture the result parameters there is a **fieldset** in the page or stage.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/parameter-component.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/parameter-component.png
       :alt: web-app
       :width: 70%
 
    The name of the **Fieldset property** in the **API tab** should be set as **parameters**.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/api-setting.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/api-setting.png
       :alt: web-app
       :width: 70%
 
@@ -101,7 +101,7 @@ Users can choose a specific workflow or notebook here for execution. To choose f
 
    The result parameters would also be passed as inputs to notebook or workflow execution in this stage.
 
-   .. figure:: ../../_assets/web-app/nested-notebook/final-execution.png
+   .. figure:: ../../../_assets/web-app/nested-notebook/final-execution.png
       :alt: web-app
       :width: 70%
       

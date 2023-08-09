@@ -17,7 +17,7 @@ To load data based on the added query and selected Databricks connection, follow
    
    For example, to load databases, the query can be **show databases;**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/SelectDB.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/SelectDB.png
       :alt: web-app
       :width: 70%
 
@@ -35,7 +35,7 @@ To load a list of tables in the select component, use the following steps:
 
    When the user selects a database, this select option will be populated.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/SelectTB1.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/SelectTB1.png
       :alt: web-app
       :width: 70%
 
@@ -59,7 +59,7 @@ To load values in the dropdown, follow these steps:
    * select * from development.housing_csv limit 10;
    * select distinct(price) as price1 from development.housing_csv limit 10;
 
-   .. figure:: ../../_assets/web-app/map-table-columns/Select.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/Select.png
       :alt: web-app
       :width: 70%
 
@@ -72,7 +72,7 @@ The Map Fields Button allows users to map the fields of the table to new names. 
 #. Set the **button event name** as **mapFields**.
 #. Set its **property name** as **mapFields**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/MapFields1.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/MapFields1.png
       :alt: web-app
       :width: 70%
 
@@ -82,7 +82,7 @@ The Map Fields Button allows users to map the fields of the table to new names. 
 
    By default, it fetches 50 rows of data unless a limit is specified in the select query.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/MapFields2.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/MapFields2.png
       :alt: web-app
       :width: 70%
            
@@ -90,7 +90,7 @@ The Map Fields Button allows users to map the fields of the table to new names. 
    
    Set the **label** as **Columns** and hide this component by selecting the **hidden checkbox**.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/SelectBox1.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/SelectBox1.png
       :alt: web-app
       :width: 70%
 
@@ -98,7 +98,7 @@ The Map Fields Button allows users to map the fields of the table to new names. 
 
    **Note:** Do not select the **Clear Value When Hidden** checkbox, as we want the default value when the component is hidden.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/SelectBox2.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/SelectBox2.png
       :alt: web-app
       :width: 70%
 
@@ -109,7 +109,7 @@ Step 5 : Add Next Button
 #. Add the **next** button component and make it **disabled** by selecting the **disabled checkbox**.
 
 
-   .. figure:: ../../_assets/web-app/map-table-columns/ButtonDisable.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/ButtonDisable.png
       :alt: web-app
       :width: 70%
         
@@ -121,12 +121,12 @@ Step 6 : Run the App
 
    On selecting the database, tables list will get loaded for selected database and connection.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/RunApp1.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/RunApp1.png
       :alt: web-app
       :width: 70%
 
 #. On clicking **Map Fields** button the dialog shows up with data after running the query associated with the button.
 
-   .. figure:: ../../_assets/web-app/map-table-columns/RunApp2.png
+   .. figure:: ../../../_assets/web-app/map-table-columns/RunApp2.png
       :alt: web-app
       :width: 70%

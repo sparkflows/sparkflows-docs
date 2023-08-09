@@ -17,7 +17,7 @@ To add a file component to choose files to upload to databricks :
 
    Under the  File tab, set the **Storage** as **Base64** from the dropdown list.
    
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/file-storage.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/file-storage.png
         :alt: web-app
         :width: 65%
 
@@ -25,13 +25,13 @@ To add a file component to choose files to upload to databricks :
 
    **Note :** It is always recommended to use property names like file1, file2, and so forth when enabling users to upload multiple files.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/file-property-name.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/file-property-name.png
         :alt: web-app
         :width: 65%
 
    Click on the **Save** button to save the component settings.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-file.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/save-file.png
         :alt: web-app
         :width: 65%
 
@@ -46,13 +46,13 @@ The Text Field component is essential for users to specify the destination path 
 
    Under the Display tab, set the **label** as **Destination Path**.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/text-label.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/text-label.png
         :alt: web-app
         :width: 65%
 
    Under the API tab, in the **Custom Properties** field, set the key as **for** and value as **file1**.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/text-custom.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/text-custom.png
         :alt: web-app
         :width: 65%
 
@@ -60,7 +60,7 @@ The Text Field component is essential for users to specify the destination path 
 
    Click on the **Save** button to save the component settings.
    
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-text.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/save-text.png
         :alt: web-app
         :width: 65%
 
@@ -80,7 +80,7 @@ Upload button is essential to trigger the file upload. To add :
    * **Action** as **Event**.
    * **Button Event** as **upload**.
     
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/button-label.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/button-label.png
         :alt: web-app
         :width: 65%
 
@@ -89,13 +89,13 @@ Upload button is essential to trigger the file upload. To add :
    * **Key** as **for**.
    * **Value** as **file1**.
      
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/button-custom.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/button-custom.png
         :alt: web-app
         :width: 65% 
 
    Click on the **Save** button to save the component settings.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-button.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/save-button.png
         :alt: web-app
         :width: 65% 
 
@@ -113,7 +113,7 @@ To allow users to map the columns of the uploaded file, you can incorporate the 
    * **Label** as **Columns**.
    * Select the **Hidden** checkbox to make the component hidden.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-label.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/selectbox-label.png
         :alt: web-app
         :width: 65% 
 
@@ -124,7 +124,7 @@ To allow users to map the columns of the uploaded file, you can incorporate the 
    
    Also, check the fields (columns) that should be considered as a required field.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-data.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/selectbox-data.png
         :alt: web-app
         :width: 65% 
  
@@ -133,13 +133,13 @@ To allow users to map the columns of the uploaded file, you can incorporate the 
    * **Key** as **for**.
    * **Value** as **file1**.
     
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/selectbox-custom.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/selectbox-custom.png
         :alt: web-app
         :width: 65% 
  
    Click on the **Save** button to save the component settings.
 
-     .. figure:: ../../_assets/web-app/MultipleFileUpload/save-selectbox.png
+     .. figure:: ../../../_assets/web-app/MultipleFileUpload/save-selectbox.png
         :alt: web-app
         :width: 65% 
 

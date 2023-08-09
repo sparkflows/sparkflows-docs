@@ -6,25 +6,25 @@ Design Patterns
 
     :doc:`/user-guide/web-app/design-patterns/map-table-columns`
 
-    Map table columns by selecting databricks db, tables and running query
+    Map table columns in analytical apps by selecting databricks db, tables and running query.
 
     ---
 
     :doc:`/user-guide/web-app/design-patterns/multiple-file-upload`
 
-    Upload multiple files in analytical apps
+    Create analytical apps with option to Upload multiple files.
 
     ---
 
     :doc:`/user-guide/web-app/design-patterns/advanceLogic`
 
-    Create advance parameters design
+    Create analytical app with advanced parameters design.
 
     ---
 
     :doc:`/user-guide/web-app/design-patterns/Tab navigation and validation`
 
-    Create multiple tabs in analytical apps
+    Create analytical apps with multiple tabs.
 
     ---
 

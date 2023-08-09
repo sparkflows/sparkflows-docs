@@ -16,6 +16,12 @@ Design Patterns
 
     ---
 
+    :doc:`/user-guide/web-app/design-patterns/advanceLogic`
+
+    Create advance parameters design
+
+    ---
+
     :doc:`/user-guide/web-app/design-patterns/Tab navigation and validation`
 
     Create multiple tabs in analytical apps
@@ -57,6 +63,7 @@ Design Patterns
 
    map-table-columns.rst
    multiple-file-upload.rst
+   advanceLogic.rst
    Tab navigation and validation.rst
    analytics-app-extension.rst
    

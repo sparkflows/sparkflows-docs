@@ -1,4 +1,4 @@
-Tab validation during navigation
+Tab Validation During Navigation
 =============================
 
 Tabs component allows creating tabs for grouping different sets of components. To switch between tabs, there is a navigation bar with tab buttons, each of which opens an appropriate tab with a set group of components. Only one tab at a time displays in a rendered form. User can also use buttons to go next tab or previous tab. These buttons also show error message about required fields.

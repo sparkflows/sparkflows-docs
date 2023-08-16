@@ -93,15 +93,15 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
     
     ---
     
-     :doc:`/user-guide/runtime-parameters/index`
+    :doc:`/user-guide/runtime-parameters/index`
 
     ---
     
-     :doc:`/user-guide/workflow-wizard/index`
+    :doc:`/user-guide/workflow-wizard/index`
      
     ---
     
-     :doc:`/user-guide/scheduler/index`
+    :doc:`/user-guide/scheduler/index`
      
 
 .. toctree::

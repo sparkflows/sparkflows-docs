@@ -138,7 +138,7 @@ Step 4 : View Execution Results History
 Fire enables you to view execution history of each analytical app. To view, follow the steps given below :
 
 #. Go to the **applications** page.
-#. Click on the **View App** icon located in the action column reach the **execution history** page.
+#. Click on the **View App** icon located in the action column to reach the **execution history** page.
 
         .. figure:: ../../_assets/web-app/run-app/view-execute-history.png
            :alt: web-app

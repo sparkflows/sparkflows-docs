@@ -132,6 +132,24 @@ In this Stage, you need to upload files. To upload :
      * You can click the **Back** button and change the value and run Analytics App again.
 
     
+Step 4 : View Execution Results History
+---------
+
+Fire enables you to view execution history of each analytical app. To view, follow the steps given below :
+
+#. Go to the **applications** page.
+#. Click on the **View App** icon located in the action column reach the **execution history** page.
+
+        .. figure:: ../../_assets/web-app/run-app/view-execute-history.png
+           :alt: web-app
+           :width: 65%
+
+   
+#. Click on any of the **item or name** listed under **Activities History** column to view the execution result.
+
+        .. figure:: ../../_assets/web-app/run-app/execute-name.png
+           :alt: web-app
+           :width: 65%
 
 
 

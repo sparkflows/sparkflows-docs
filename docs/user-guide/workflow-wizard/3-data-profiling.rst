@@ -5,7 +5,7 @@ Data Profiling
 * Data Profiling includes SUMMARY STATISTICS, CORRELATION, NULL VALUES IN COLUMNS.
 
    
-   .. figure:: ../../_assets/user-guide/wf-wizard/data-profiling1.PNG 
+   .. figure:: ../../_assets/user-guide/wf-wizard/data-profile.png 
       :alt: Workflow-Wizard
       :width: 65%
    

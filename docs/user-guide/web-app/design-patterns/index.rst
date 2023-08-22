@@ -4,6 +4,10 @@ Design Patterns
 .. panels::
     :container: container-lg pb-3
 
+    :doc:`/user-guide/web-app/design-patterns/browse-download-file`
+
+    Include browse and download file feature in analytical app.
+
     :doc:`/user-guide/web-app/design-patterns/map-table-columns`
 
     Map table columns in analytical apps by selecting databricks db, tables and running query.
@@ -61,6 +65,7 @@ Design Patterns
 .. toctree::
    :hidden:
 
+   browse-download-file.rst
    map-table-columns.rst
    multiple-file-upload.rst
    advanceLogic.rst

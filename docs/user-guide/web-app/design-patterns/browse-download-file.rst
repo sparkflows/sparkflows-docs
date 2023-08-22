@@ -31,8 +31,8 @@ Step 2 : Run App to Browse and Download Files
 To browse and download files :
 
 #. Run the App.
-#. Click the **Browse and Download** button to see the list of available files for download.
-#. Click the **Download** Action Button located next to the file you wish to download.
+#. Click the **Browse and Download Button** to see the list of available files for download.
+#. Click the **Download Action Button** located next to the file you wish to download.
      
       .. figure:: ../../../_assets/web-app/browse-download-file/browse-download.png
          :alt: browse and download file

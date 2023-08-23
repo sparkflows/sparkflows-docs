@@ -63,3 +63,6 @@ Instance type & OS Supported
    * - RHEL8.X
      - t3.2xlarge
      - ami-096fda3c22c1c990a
+   * - ubuntu20.04
+     - t2.xlarge
+     - ami-0261755bbcb8c4a84

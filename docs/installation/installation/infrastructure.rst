@@ -29,7 +29,7 @@ For Memory
      - 16gb
      - More the memory would be better
    * - vCPU
-     - 4
+     - 8
      - More the vCPU would be better, if data size is bigger
    * - Disk Size
      - 500GB

@@ -51,4 +51,15 @@ Instance type & OS Supported
    * - RHEL
      - m4.2xlarge
      - ami-096fda3c22c1c990a
-     
+   * - RHEL
+     - t2.xlarge
+     - ami-096fda3c22c1c990a
+   * - RHEL
+     - t2.2xlarge
+     - ami-096fda3c22c1c990a
+   * - RHEL
+     - t3.xlarge
+     - ami-096fda3c22c1c990a 
+   * - RHEL
+     - t3.2xlarge
+     - ami-096fda3c22c1c990a

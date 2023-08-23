@@ -48,4 +48,7 @@ Instance type & OS Supported
    * - RHEL
      - m4.xlarge
      - ami-096fda3c22c1c990a
+   * - RHEL
+     - m4.2xlarge
+     - ami-096fda3c22c1c990a
      

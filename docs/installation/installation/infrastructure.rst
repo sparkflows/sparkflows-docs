@@ -75,4 +75,10 @@ Instance type & OS Supported
    * - ubuntu20.04
      - t3.2xlarge
      - ami-0261755bbcb8c4a84
+   * - ubuntu20.04
+     - m5.xlarge
+     - ami-0261755bbcb8c4a84
+   * - ubuntu20.04
+     - m5.2xlarge
+     - ami-0261755bbcb8c4a84
 

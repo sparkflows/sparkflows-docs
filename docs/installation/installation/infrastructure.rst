@@ -66,3 +66,7 @@ Instance type & OS Supported
    * - ubuntu20.04
      - t2.xlarge
      - ami-0261755bbcb8c4a84
+   * - ubuntu20.04
+     - t2.2xlarge
+     - ami-0261755bbcb8c4a84
+

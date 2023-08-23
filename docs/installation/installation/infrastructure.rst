@@ -45,21 +45,21 @@ Instance type & OS Supported
    * - OS
      - Instance type
      - AMI ID
-   * - RHEL
+   * - RHEL8.X
      - m4.xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL
+   * - RHEL8.X
      - m4.2xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL
+   * - RHEL8.X
      - t2.xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL
+   * - RHEL8.X
      - t2.2xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL
+   * - RHEL8.X
      - t3.xlarge
      - ami-096fda3c22c1c990a 
-   * - RHEL
+   * - RHEL8.X
      - t3.2xlarge
      - ami-096fda3c22c1c990a

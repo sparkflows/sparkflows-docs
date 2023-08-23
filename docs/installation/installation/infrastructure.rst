@@ -15,7 +15,7 @@ Fire Insights setup for deploying on AWS can be done with steps as below:
 
 The memory needed to run Fire Insights:
 
-For Memory
+Memory
 ++++
 
 .. list-table:: 
@@ -34,3 +34,15 @@ For Memory
    * - Disk Size
      - 500GB
      - Depending on Job Compute, If running locally
+
+Instance type & OS Supported
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - OS
+     - Instance type
+     - AMI ID
+     

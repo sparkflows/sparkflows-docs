@@ -110,3 +110,7 @@ Networking requirements
    * - HTTP
      - 80
      - For Accessing on HTTP
+   * - HTTPS
+     - 443
+     - For Accessing on HTTPS
+

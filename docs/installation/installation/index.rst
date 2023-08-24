@@ -7,6 +7,12 @@ Fire Insights can be installed using one of the below binaries and installers as
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
+   :doc:`/installation/installation/infrastructure`
+   
+   Infrastructure Deployment Requirements
+   
+   ---
+
    :doc:`/installation/installation/docker-windows-install`
    
    Running Sparkflows Docker Image on Windows 10
@@ -63,6 +69,7 @@ Fire Insights can be installed using one of the below binaries and installers as
 .. toctree::
    :hidden:
 
+   infrastructure.rst   
    docker-windows-install.rst
    docker-linux-install.rst
    linux-install.rst

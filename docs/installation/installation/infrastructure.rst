@@ -13,7 +13,7 @@ Amazon Web Services (AWS)
 
 Fire Insights Infrastructure requirements setup for deploying on AWS:
 
-The memory needed to run Fire Insights:
+The memory Pre-requisites to run Fire Insights:
 
 Memory
 ++++

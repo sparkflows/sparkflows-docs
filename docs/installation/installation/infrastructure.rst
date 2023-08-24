@@ -128,3 +128,20 @@ HTTPS configuration
 ++++
 
 By default, Fire Insights instances are deployed with self-signed certificates. These will trigger security alerts in your browser.
+
+Single Sign-On
+++++
+
+Single sign-on (SSO) refers to the ability for users to log in just one time with one set of credentials to get access to all corporate apps, websites, and data for which they have permission.
+
+By setting up SSO in Fire Insights, your users will be able to access Fire Insights using their corporate credentials.
+
+- Users database
+
+Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html
+
+- SAML
+
+Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
+
+Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html

@@ -11,7 +11,7 @@ Recommended setup for deploying Fire Insights on a cloud provider in your tenant
 Amazon Web Services (AWS)
 ----
 
-Fire Insights Infrastructure requirements setup for deploying on AWS:
+Fire Insights Infrastructure Pre-requisites for deploying on AWS:
 
 The memory Pre-requisites to run Fire Insights:
 

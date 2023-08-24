@@ -113,10 +113,10 @@ Networking requirements
    * - HTTPS
      - 443
      - For Accessing on HTTPS
-   * - Sparkflows(HTTP) 
+   * - Fire Insights(HTTP) 
      - 8080
      - Fire Insights by default run on port 8080 on http
-   * - Sparkflows(HTTPS) 
+   * - Fire Insights(HTTPS) 
      - 8443
      - Fire Insights by default run on port 8443 on https
 

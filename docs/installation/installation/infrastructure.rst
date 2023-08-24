@@ -98,7 +98,7 @@ Networking requirements
 ++++
 
 .. list-table:: 
-   :widths: 10 20 30
+   :widths: 20 10 30
    :header-rows: 1
 
    * - Name

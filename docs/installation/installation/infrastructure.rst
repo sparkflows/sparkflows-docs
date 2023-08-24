@@ -107,3 +107,6 @@ Networking requirements
    * - SSH
      - 22
      - For SSH to ec2 instance
+   * - HTTP
+     - 80
+     - For Accessing on HTTP

@@ -123,3 +123,8 @@ Networking requirements
 .. note:: Auto-creation of security groups adds two groups:
 
 A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
+
+HTTPS configuration
+++++
+
+By default, Fire Insights instances are deployed with self-signed certificates. These will trigger security alerts in your browser.

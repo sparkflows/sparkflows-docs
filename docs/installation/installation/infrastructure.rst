@@ -85,3 +85,22 @@ Instance type & OS Supported
      - r5.2xlarge
      - ami-0261755bbcb8c4a84
 
+Virtual networks
+++++
+
+A virtual network is an object representing the networking setup of instances created into it.
+
+The virtual network defines in which VPC and subnet the instances will be launched, as well as how DNS hostnames and HTTPS certificates for the instances will be used.
+
+Each instance belongs to a virtual network. At least one virtual network is required to deploy instances.
+
+Networking requirements
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Name
+     - Port
+     - Comment

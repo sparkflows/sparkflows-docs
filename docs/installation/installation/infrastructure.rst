@@ -30,7 +30,7 @@ Memory
      - More the memory would be preferable
    * - vCPU
      - 8
-     - More the vCPU would be preferabler, if data size is bigger
+     - More the vCPU would be preferable, if data size is bigger
    * - Disk Size
      - 500GB
      - Depending on Job Compute, If running locally

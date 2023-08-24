@@ -104,3 +104,6 @@ Networking requirements
    * - Name
      - Port
      - Comment
+   * - SSH
+     - 22
+     - For SSH to ec2 instance

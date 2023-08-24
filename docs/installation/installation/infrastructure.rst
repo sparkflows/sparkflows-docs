@@ -120,9 +120,7 @@ Networking requirements
      - 8443
      - Sparkflows by default run on port 8443 on https
 
-.. note:: Auto-creation of security groups adds two groups:
-
-A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
+.. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
 
 HTTPS configuration
 ++++

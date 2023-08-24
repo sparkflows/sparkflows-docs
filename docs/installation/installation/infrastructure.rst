@@ -116,4 +116,7 @@ Networking requirements
    * - Sparkflows(HTTP) 
      - 8080
      - Sparkflows by default run on port 8080 on http
+   * - Sparkflows(HTTPS) 
+     - 8443
+     - Sparkflows by default run on port 8443 on https
 

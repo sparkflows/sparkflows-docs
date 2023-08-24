@@ -115,10 +115,10 @@ Networking requirements
      - For Accessing on HTTPS
    * - Sparkflows(HTTP) 
      - 8080
-     - Sparkflows by default run on port 8080 on http
+     - Fire Insights by default run on port 8080 on http
    * - Sparkflows(HTTPS) 
      - 8443
-     - Sparkflows by default run on port 8443 on https
+     - Fire Insights by default run on port 8443 on https
 
 .. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
 

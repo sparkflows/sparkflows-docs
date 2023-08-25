@@ -188,5 +188,9 @@ Instance type & OS Supported
      - Memory-Optimized 3x SSD / 32 GB
    * - CentOS 8 x64
      - Memory-Optimized 16 GB / 8 vCPUs
+   * - Ubuntu 20.04(LTS)x64
+     - Memory-Optimized 3x SSD / 32 GB
+   * - Ubuntu 20.04(LTS)x64
+     - Memory-Optimized 16 GB / 8 vCPUs
    
      

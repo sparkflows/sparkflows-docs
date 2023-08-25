@@ -198,9 +198,9 @@ Virtual networks
 
 A virtual network is an object representing the networking setup of instances created into it.
 
-The virtual network defines in which VPC and subnet the instances will be launched, as well as how DNS hostnames and HTTPS certificates for the instances will be used.
+The virtual network defines in which VPC and subnet the Droplet will be launched, as well as how DNS hostnames and HTTPS certificates for the instances will be used.
 
-Each instance belongs to a virtual network. At least one virtual network is required to deploy instances.
+Each Droplet belongs to a virtual network. At least one virtual network is required to deploy instances.
 
 Networking requirements
 ++++
@@ -233,4 +233,4 @@ Networking requirements
 HTTPS configuration
 ++++
 
-By default, Fire Insights instances are deployed with self-signed certificates. These will trigger security alerts in your browser.
+By default, Fire Insights Droplet are deployed with self-signed certificates. These will trigger security alerts in your browser.

@@ -184,4 +184,9 @@ Instance type & OS Supported
      - Memory-Optimized 3x SSD / 32 GB
    * - CentOS 7 x64
      - Memory-Optimized 16 GB / 8 vCPUs
+   * - CentOS 8 x64
+     - Memory-Optimized 3x SSD / 32 GB
+   * - CentOS 8 x64
+     - Memory-Optimized 16 GB / 8 vCPUs
+   
      

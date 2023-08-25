@@ -143,3 +143,30 @@ Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication
 Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
 
 Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html
+
+Digital Ocean (DO)
+----
+
+Fire Insights Infrastructure Pre-requisites for deploying on DO:
+
+The memory Pre-requisites to run Fire Insights:
+
+Memory
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Recommended
+     - Value
+   * - Memory
+     - 16gb
+     - More the memory would be preferable
+   * - vCPU
+     - 8
+     - More the vCPU would be preferable, if data size is bigger
+   * - Disk Size
+     - 500GB
+     - Depending on Job Compute, If running locally

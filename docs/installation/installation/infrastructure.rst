@@ -179,7 +179,7 @@ Droplet & OS Supported
    :header-rows: 1
 
    * - OS
-     - Instance type
+     - Droplet type
    * - CentOS 7 x64
      - Memory-Optimized 3x SSD / 32 GB
    * - CentOS 7 x64

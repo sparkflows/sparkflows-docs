@@ -200,7 +200,7 @@ A virtual network is an object representing the networking setup of instances cr
 
 The virtual network defines in which VPC and subnet the Droplet will be launched, as well as how DNS hostnames and HTTPS certificates for the instances will be used.
 
-Each Droplet belongs to a virtual network. At least one virtual network is required to deploy instances.
+Each Droplet belongs to a virtual network. At least one virtual network is required to deploy on Droplet.
 
 Networking requirements
 ++++
@@ -214,7 +214,7 @@ Networking requirements
      - Comment
    * - SSH
      - 22
-     - For SSH to ec2 instance
+     - For SSH to Droplet
    * - HTTP
      - 80
      - For Accessing on HTTP

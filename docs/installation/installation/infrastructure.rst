@@ -170,3 +170,16 @@ Memory
    * - Disk Size
      - 500GB
      - Depending on Job Compute, If running locally
+
+Instance type & OS Supported
+++++
+
+.. list-table:: 
+   :widths: 20 30
+   :header-rows: 1
+
+   * - OS
+     - Instance type
+   * - CentOS 7 x64
+     - Memory-Optimized 3x SSD / 32 GB
+     

@@ -171,7 +171,7 @@ Memory
      - 500GB
      - Depending on Job Compute, If running locally
 
-Instance type & OS Supported
+Droplet & OS Supported
 ++++
 
 .. list-table:: 

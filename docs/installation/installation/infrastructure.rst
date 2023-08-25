@@ -193,4 +193,39 @@ Droplet & OS Supported
    * - Ubuntu 20.04(LTS)x64
      - Memory-Optimized 16 GB / 8 vCPUs
    
-     
+Virtual networks
+++++
+
+A virtual network is an object representing the networking setup of instances created into it.
+
+The virtual network defines in which VPC and subnet the instances will be launched, as well as how DNS hostnames and HTTPS certificates for the instances will be used.
+
+Each instance belongs to a virtual network. At least one virtual network is required to deploy instances.
+
+Networking requirements
+++++
+
+.. list-table:: 
+   :widths: 20 10 30
+   :header-rows: 1
+
+   * - Name
+     - Port
+     - Comment
+   * - SSH
+     - 22
+     - For SSH to ec2 instance
+   * - HTTP
+     - 80
+     - For Accessing on HTTP
+   * - HTTPS
+     - 443
+     - For Accessing on HTTPS
+   * - Fire Insights(HTTP) 
+     - 8080
+     - Fire Insights by default run on port 8080 on http
+   * - Fire Insights(HTTPS) 
+     - 8443
+     - Fire Insights by default run on port 8443 on https
+
+.. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.     

@@ -14,16 +14,17 @@ Step 1 : Open Configurations Page
 Step 2 : Configure YAML File Path
 --------------
 
-#. In the **APP** tab search for ``app.applicationConfigurationPath`` option.
+#. In the **APP** tab search for **app.applicationConfigurationPath** option.
 #. Click on the **edit** icon located next to the above option.
 #. Enter the YAML file path in the given box.
-#. Click on the **Save Configurations** button to save the configured path.
 
       .. figure:: ../../../_assets/web-app/yaml-file-integration/path-config.png
          :alt: web-app
          :width: 70%
 
-Additional Information 
+#. Click on the **Save Configurations** button to save the configured path.
+
+**Additional Information** 
 ++++++++++++
 
 * Once you have added the YAML file path, your analytical app will dynamically show or hide elements based on the configuration you provided.

@@ -10,6 +10,12 @@ Design Patterns
 
     ---
 
+    :doc:`/user-guide/web-app/design-patterns/yaml-file-integration`
+
+    Enable YAML file integration in analytical app.
+
+    ---
+
     :doc:`/user-guide/web-app/design-patterns/map-table-columns`
 
     Map table columns in analytical apps by selecting databricks db, tables and running query.
@@ -68,6 +74,7 @@ Design Patterns
    :hidden:
 
    browse-download-file.rst
+   yaml-file-integration.rst
    map-table-columns.rst
    multiple-file-upload.rst
    advanceLogic.rst

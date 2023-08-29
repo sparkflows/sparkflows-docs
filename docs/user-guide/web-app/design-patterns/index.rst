@@ -42,7 +42,7 @@ Design Patterns
 
     :doc:`/user-guide/web-app/design-patterns/analytics-app-extension`
 
-    Nested workflow execution by setting workflow or notebook option in run stage
+    Nested workflow execution by setting workflow or notebook option in run stage.
    
 
     

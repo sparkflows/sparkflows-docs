@@ -36,7 +36,7 @@ Analytical Apps
 
     :doc:`/user-guide/web-app/reference`
 
-    Describe informations about different parameters used in analytical app.
+    Describes informations about different parameters used in analytical app.
 
     ---
 

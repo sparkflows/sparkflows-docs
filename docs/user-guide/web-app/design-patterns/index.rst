@@ -24,7 +24,7 @@ Design Patterns
 
     :doc:`/user-guide/web-app/design-patterns/cascading-dropdowns`
 
-    Create cascading dropdowns in analytical apps.
+    Create cascading dropdowns in analytical app.
 
     ---
 

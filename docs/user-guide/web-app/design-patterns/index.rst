@@ -22,6 +22,12 @@ Design Patterns
 
     ---
 
+    :doc:`/user-guide/web-app/design-patterns/cascading-dropdowns`
+
+    Create cascading dropdowns in analytical apps.
+
+    ---
+
     :doc:`/user-guide/web-app/design-patterns/multiple-file-upload`
 
     Create analytical apps with option to Upload multiple files.
@@ -76,6 +82,7 @@ Design Patterns
    browse-download-file.rst
    yaml-file-integration.rst
    map-table-columns.rst
+   cascading-dropdowns.rst
    multiple-file-upload.rst
    advanceLogic.rst
    Tab navigation and validation.rst

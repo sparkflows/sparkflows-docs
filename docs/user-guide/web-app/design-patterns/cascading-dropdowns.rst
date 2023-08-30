@@ -108,7 +108,7 @@ Step 2 : Add and Configure 2nd Select Component
          :alt: cascading dropdowns
          :width: 65%
 
-Add and Configure Another Select Component
+Step 3 : Add and Configure Another Select Component
 ------------
 
 #. Add second select component using drag-and-drop method.

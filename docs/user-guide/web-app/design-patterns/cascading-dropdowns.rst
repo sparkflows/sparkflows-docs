@@ -82,22 +82,22 @@ Step 2 : Add and Configure 2nd Select Component
 
       ::
 
-          component.clearOnRefresh = true
-          component.redrawOn = 'selectCountry'
-          if(data.selectCountry && data.selectCountry.length > 0 && data.selectCountry[0].state){
-          var stateList = [];
-          var labels = "";
-          for(var i =0 ;i < data.selectCountry.length;i++) {
-          let state = data.selectCountry[i].state
-          stateList = i==0 ? state:stateList.concat(state);
-          labels = i==0 ? data.selectCountry[i].label : labels+ ","+ data.selectCountry[i].label;
-          }
-          component.data.json = stateList;
-          data.selectCountry = labels;
-          }else if(data.selectCountry && data.selectCountry.state){
-          component.data.json = data.selectCountry.state.sort((a, b) => a.label.toLowerCase() < b.label.toLowerCase() ? -1 : 1)
-          data.selectCountry = data.selectCountry.label
-          }
+        component.clearOnRefresh = true
+        component.redrawOn = 'selectCountry'
+        if(data.selectCountry && data.selectCountry.length > 0 && data.selectCountry[0].state){
+        var stateList = [];
+        var labels = "";
+        for(var i =0 ;i < data.selectCountry.length;i++) {
+        let state = data.selectCountry[i].state
+        stateList = i==0 ? state:stateList.concat(state);
+        labels = i==0 ? data.selectCountry[i].label : labels+ ","+ data.selectCountry[i].label;
+        }
+        component.data.json = stateList;
+        data.selectCountry = labels;
+        }else if(data.selectCountry && data.selectCountry.state){
+        component.data.json = data.selectCountry.state.sort((a, b) => a.label.toLowerCase() < b.label.toLowerCase() ? -1 : 1)
+        data.selectCountry = data.selectCountry.label
+        }
 
       
      **Note :** selectState is API property name of the above component.

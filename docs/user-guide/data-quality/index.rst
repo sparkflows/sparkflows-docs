@@ -6,7 +6,9 @@ Fire Insights provides powerful capabilities for monitoring data quality. It pro
 Data Quality Processors in Fire Insights
 +++++++
 
-.. list-table:: Great Expectations based Data Quality Processors in Fire Insights
+The table below provides the list of Great Expectations based Data Quality Processors in Fire Insights.
+
+.. list-table::
    :widths: 30 70
    :header-rows: 1
 

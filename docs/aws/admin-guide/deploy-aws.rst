@@ -20,7 +20,8 @@ Prerequisite
 You need to have:
 
 - EC2 Instance with sufficient privilege.
-- S3 Bucket with Read, Write Permission
+- S3 Bucket with Read, Write Permission.
+- EMR Cluster with Livy URL accessible from Sparkflows Instance.
 
 
 Machine Specifications

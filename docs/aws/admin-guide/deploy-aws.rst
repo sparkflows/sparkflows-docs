@@ -84,15 +84,14 @@ Setup EC2 Machine and Configure Network Settings
 
 Infrastructure Prerequisites for deploying on AWS:
 
-
 Detailed Information can be found here:
 
 https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html
 
 DNS Certificate setup
+++++
 
-You can AWS Certificate Manager to set up DNS
-
+You can use AWS Certificate Manager to set up DNS
 
 Detailed Information can be found here:
  
@@ -100,61 +99,78 @@ https://docs.sparkflows.io/en/latest/aws/admin-guide/configuring-aws-certificate
 
 
 Install Sparkflows
+++++
 
 Sparkflows can be installed in one of two ways:
 
-Using Sparkflows tgz file.
-Using Sparkflows Docker Image.
+- Using Sparkflows tgz file.
+- Using Sparkflows Docker Image.
 
 It is easier to install using the Docker Image.
 
 Using Sparkflows tgz file
+------
 
 SSH into the AWS Instance
+++++
 
 SSH into the AWS Instance using:
 
-Public ipv4 IP from the AWS console and
-The `PEM` file (key file) downloaded while bringing up the AWS Instance
+- Public ipv4 IP from the AWS console and
+- The `PEM` file (key file) downloaded while bringing up the AWS Instance
 And the command as below:
-ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
+- ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
+
 Download and install JDK 8
+++++
 
-Install Open JDK 1.8 by running:
-sudo yum install -y java-1.8.0-openjdk-devel
+Install Open JDK 1.8 by running::
 
-Check the version of JAVA by running
-java -version
+
+    sudo yum install -y java-1.8.0-openjdk-devel
+
+Check the version of JAVA by running::
+
+
+    java -version
 
 On successful installation and checking java version, one would see the below:
 
 
 
 Download the latest Sparkflows TAR
+++++
 
-Install `wget` command using:
+Install `wget` command using::
+
+
           sudo yum -y install wget
 
-Download the latest TAR from:
+Download the latest TAR from::
 
-wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
 
-Extract the TAR by using:
+    wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
 
-tar xvf fire-3.2.28_spark_3.2.1.tgz
+Extract the TAR by using::
+
+
+    tar xvf fire-3.2.28_spark_3.2.1.tgz
 
 
 Create DB tables with Schema
 
 Sparkflows metadata can be stored in RDS or it has embedded h2 db by default.
 
-Goto inside the sparkflow binary extracted directory:
+Goto inside the sparkflow binary extracted directory::
 
-cd  fire-3.1.0_spark_3.2.1
 
-Create the DB and schema by running the following:
 
-./create-h2-db.sh
+    cd  fire-3.1.0_spark_3.2.1
+
+Create the DB and schema by running the following::
+
+
+    ./create-h2-db.sh
 
 
 

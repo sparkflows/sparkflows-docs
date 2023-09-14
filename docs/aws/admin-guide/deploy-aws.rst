@@ -104,8 +104,8 @@ Install Sparkflows
 
 Sparkflows can be installed in one of two ways:
 
-- Using Sparkflows tgz file.
-- Using Sparkflows Docker Image.
+* Using Sparkflows tgz file.
+* Using Sparkflows Docker Image.
 
 It is easier to install using the Docker Image.
 

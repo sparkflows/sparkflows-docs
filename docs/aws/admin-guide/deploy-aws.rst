@@ -276,9 +276,8 @@ Detailed Information can be found here:
 https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html
 
 
-
 Accessing Sparkflows & Creating Users
--------
+++++
 
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
 By default Sparkflows comes with default user `admin` and `test` with default password as `admin` and `test` respectively.
@@ -289,7 +288,7 @@ If you want to create new users, it can done from Sparkflows administration tab 
    :width: 60%
 
 Submitting jobs to EMR cluster
-------
+++++
 
 By default Sparkflows job can be submitted on the local machine itself. It can be configured to submit the jobs to AWS EMR cluster for scalability.
 
@@ -300,7 +299,7 @@ https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html
 
 
 Additional requirements
-----
+++++
 
 * The machine needs to have access to the Internet only to install dependencies. 
 

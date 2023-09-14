@@ -283,9 +283,6 @@ By default Sparkflows comes with default user `admin` and `test` with default pa
 If you want to create new users, it can done from Sparkflows administration tab by choosing `Users` as shown in the screenshot below:
 
 
-
-
-
 Submitting jobs to EMR cluster
 ------
 

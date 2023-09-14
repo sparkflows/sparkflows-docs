@@ -1,4 +1,4 @@
-AWS Deployment Document
+AWS Deployment
 ======
 
 Overview

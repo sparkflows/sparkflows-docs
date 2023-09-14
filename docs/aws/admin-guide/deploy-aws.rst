@@ -1,4 +1,4 @@
-AWS Deployment
+Deployment Guide
 ======
 
 Overview

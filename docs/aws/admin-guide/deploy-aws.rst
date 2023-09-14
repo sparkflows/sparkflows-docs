@@ -116,10 +116,11 @@ SSH into the AWS Instance
 
 SSH into the AWS Instance using:
 
-- Public ipv4 IP from the AWS console and
-- The `PEM` file (key file) downloaded while bringing up the AWS Instance
-And the command as below:
-- ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
+* Public ipv4 IP from the AWS console and The `PEM` file (key file) downloaded while bringing up the AWS Instance
+And the command as below::
+
+    
+    ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
 
 Download and install JDK 8
 ++++

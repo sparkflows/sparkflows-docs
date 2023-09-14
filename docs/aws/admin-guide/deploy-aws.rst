@@ -282,6 +282,9 @@ Pick the public IP or DNS of the machine from AWS Console -> Instances and hit t
 By default Sparkflows comes with default user `admin` and `test` with default password as `admin` and `test` respectively.
 If you want to create new users, it can done from Sparkflows administration tab by choosing `Users` as shown in the screenshot below:
 
+.. figure:: ../../_assets/aws/livy/administration.PNG
+   :alt: livy
+   :width: 60%
 
 Submitting jobs to EMR cluster
 ------

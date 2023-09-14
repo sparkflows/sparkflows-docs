@@ -19,7 +19,7 @@ Prerequisite
 
 You need to have:
 
-- EC2 Instance.
+- EC2 Instance with sufficient privilege.
 - S3 Bucket with Read, Write Permission
 
 

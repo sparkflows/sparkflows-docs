@@ -115,7 +115,7 @@ AWS Admin Guide
 
    introduction.rst
    planning.rst
-   deploy.rst
+   deploy-aws.rst
    start-emr.rst
    emr-livy/index.rst
    test.rst

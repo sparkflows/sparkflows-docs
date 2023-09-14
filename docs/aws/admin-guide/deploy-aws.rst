@@ -211,18 +211,25 @@ Install all the other python libraries from the `requirements.txt` file::
 
     pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
 
-Note: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
+.. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
-Check if all dependencies are installed by running:
-pip list
+Check if all dependencies are installed by running::
+
+
+    pip list
 
 Start Sparkflows Server
+++++
 
 By default Sparkflows will run on 8080(http) and 8443(https). To configure and customize the port, it can be done via `application.properties` which can be found in `fire-3.2.8_spark_3.2.1/conf` .
 
-Start the Sparkflows server by running the below:
-./run-fire-server.sh start
+Start the Sparkflows server by running the below::
+
+
+    ./run-fire-server.sh start
+
 Using Sparkflows Docker Image
+------
 
 Sparkflows can be installed and run on Linux (Ubuntu) using the Docker image from the Docker Hub.
 

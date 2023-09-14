@@ -175,33 +175,41 @@ Create the DB and schema by running the following::
 
 
 Install Python
+++++
 
-Run the below commands to install all the Python dependencies:
+Run the below commands to install all the Python dependencies::
 
-		cd ..
-sudo yum -y update
-sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel
-wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
-tar xzf Python-3.7.0.tgz
-cd Python-3.7.0
-./configure --enable-optimizations
-sudo yum -y install make
-sudo make altinstall
 
-Check the system wide version of python installed by:
-python3.7 --version
+    cd ..
+    sudo yum -y update
+    sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+    wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+   tar xzf Python-3.7.0.tgz
+   cd Python-3.7.0
+   ./configure --enable-optimizations
+   sudo yum -y install make
+   sudo make altinstall
+
+Check the system wide version of python installed by::
+
+
+    python3.7 --version
 
 Install Python Libraries
 
-Create the virtual environment, activate it and install the python libraries inside it by:
-python3.7 -m venv venv
-source venv/bin/activate
-pip install pip --upgrade
-pip install pystan
-pip install convertdate
+Create the virtual environment, activate it and install the python libraries inside it by::
 
-Install all the other python libraries from the `requirements.txt` file:
-pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
+
+    python3.7 -m venv venv
+    source venv/bin/activate
+    pip install pip --upgrade
+    pip install pystan
+    pip install convertdate
+
+Install all the other python libraries from the `requirements.txt` file::
+
+
+    pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
 
 Note: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 

@@ -28,19 +28,19 @@ Step 1 : Prerequisites Check
 
 Before you begin, ensure that you have the following prerequisites in place:
 
-EC2 Instance Privileges
+**EC2 Instance Privileges**
 -------
 Ensure that you have EC2 Instance with sufficient privileges.
 
-S3 Bucket Permissions
+**S3 Bucket Permissions**
 --------
 Ensure that you have S3 Bucket with Read, Write Permissions.
 
-EMR Cluster Access
+**EMR Cluster Access**
 ---------
 Ensure that you have EMR Cluster with Livy URL accessible from Sparkflows Instance.
 
-Machine Specifications
+**Machine Specifications**
 ---------
 Ensure that you have the following prerequisites with regard to machine specifications :
 
@@ -67,9 +67,9 @@ Ensure that you have the following prerequisites with regard to machine specific
 To get more information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
 
 
-Software Specifications
+**Software Specifications**
 ------
-Ensure that you have the following prerequisites with regard to machine specifications :
+Ensure that you have the following prerequisites with regard to software specifications :
 
 .. list-table:: 
    :widths: 10 40 30
@@ -159,31 +159,31 @@ Follow the below steps to install Sparkflows using tgz file :
    
     To download, follow the steps given below :
 
-   * **Install `wget` command using :**
+   * Install `wget` command using :
      ::
 
         sudo yum -y install wget
 
-   * **Download the latest TAR from :**
+   * Download the latest TAR from :
      ::
 
         wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
 
-   * **Extract the TAR by using :**
+   * Extract the TAR by using :
      ::
 
        tar xvf fire-3.2.28_spark_3.2.1.tgz
 
 
-   * **Create DB tables with Schema :**
+   * Create DB tables with Schema :
      
      Sparkflows metadata can be stored in RDS or it has embedded h2 db by default.
      
-     * Go to inside the sparkflows binary extracted directory
+     * Go to inside the sparkflows binary extracted directory :
        ::
           cd  fire-3.1.0_spark_3.2.1
 
-     * Create the DB and schema by running the following :**
+     * Create the DB and schema by running the following :
        ::
           ./create-h2-db.sh
 
@@ -229,7 +229,9 @@ Follow the below steps to install Sparkflows using tgz file :
 
    By default Sparkflows will run on 8080(http) and 8443(https). 
 
-   To adjust and personalize the port settings, you can modify the configurations in the **application.properties** file located within **fire-3.2.8_spark_3.2.1/conf**.
+   To adjust and personalize the port settings :
+
+   You can modify the configurations in the **application.properties** file located within **fire-3.2.8_spark_3.2.1/conf**.
 
    Start the Sparkflows server by running the below
    ::
@@ -246,34 +248,43 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
    * Docker Desktop (https://docs.docker.com/engine/install/)
       * Download the Docker CE
-      * Verify that the docker is up and running and the the docker version by running ``docker --version``
-      * Executing the Docker Command Without Sudo(Optional)
+      * Verify that the docker is up and running and the the docker version by running the following
+        ::
+            docker --version
+     
+      * Executing the Docker Command Without Sudo(Optional) :
         ::
            sudo usermod -aG docker ${USER}
 
 #. **Installation Steps**
 
-   * Set up the environment variables. The local mount directory is ``/home/username/sparkflows`` - create this directory by using mkdir in the below docker run command. 
+   * Set up the environment variables. The local mount directory is (**/home/username/sparkflows**).
+
+     Create this directory by using **mkdir** in the below docker run command. 
 
      Please update it to directory structure on your machine. 
 
-     Replace ``XX`` with the Sparkflows version you want to install
+     Replace **XX** with the Sparkflows version you want to install :
      ::
         export SPARK_VERSION=3.2.1
         export RELEASE_VERSION=3.X.XX
         export FIRE_VERSION=3.1.0
         export SPARKFLOWS_ROOT=/home/username/sparkflows
 
-   * Pull the latest Sparkflows docker image from Docker hub
+   * Pull the latest Sparkflows docker image from Docker hub :
      ::
          docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
-   * Start the docker image using the docker run command below. 
+   * Start the docker image using the docker run command below :
   
-     The local mount directory is **(/home/username/sparkflows)** in the below docker run command. Please update it to directory structure on your machine. 
+     The local mount directory is (**/home/username/sparkflows**) in the below docker run command. 
 
-     Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above
+     Please update it to directory structure on your machine. 
+
+     Reduce/Increase the memory allocated to a lower value depending on the RAM on the machine. 
+
+     Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container.
      ::
         docker run -m 16g -p 8080:8080 -p 9443:9443 \
         -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
@@ -283,6 +294,8 @@ To download Sparkflows using Docker Image, follow the steps given below :
         -e FIRE_VERSION=${FIRE_VERSION} \
         sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
+     **Note :** We recommend 16GB or above.
+     
      For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html>`_
 
 
@@ -291,9 +304,9 @@ Step 5 : Accessing Sparkflows & Creating Users
 
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
 
-By default Sparkflows comes with default user `admin` and `test` with default password as `admin` and `test` respectively.
+By default Sparkflows comes with default user **admin** and **test** with default password as **admin** and **test** respectively.
 
-If you want to create new users, it can be done from Sparkflows administration tab by choosing `Users` as shown in the screenshot below:
+If you want to create new users, it can be done from Sparkflows **Administration Tab** by choosing **Users** as shown in the image below :
 
    .. figure:: ../../_assets/aws/livy/administration.PNG
       :alt: livy
@@ -302,9 +315,11 @@ If you want to create new users, it can be done from Sparkflows administration t
 Step 6 : Submitting Jobs to EMR Cluster
 ++++
 
-By default Sparkflows job can be submitted on the local machine itself. It can be configured to submit the jobs to AWS EMR cluster for scalability.
+By default Sparkflows job can be submitted on the local machine itself. 
 
-For more information,`click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html>`_
+It can be configured to submit the jobs to AWS EMR cluster for scalability.
+
+For more information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html>`_
 
 
 Additional requirements
@@ -316,4 +331,4 @@ Additional requirements
 
 * If using S3 as a data source, the IAM role for S3 bucket should be added to the EC2 instance created for Sparkflows.
 
-For more information, `click here: <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html>`_
+For more information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html>`_

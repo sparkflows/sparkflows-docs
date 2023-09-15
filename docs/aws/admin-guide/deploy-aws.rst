@@ -7,7 +7,6 @@ This document describes the steps to deploy Sparkflows on AWS.
 
 Overview
 ++++
-
 Below is a brief overview of the steps involved in the deployment process :
 
 #. Prerequisites Check
@@ -96,14 +95,12 @@ Ensure that you have the following prerequisites with regard to software specifi
 
 Step 2 : Installation and setup on AWS EC2
 ++++
-
 Setup EC2 Machine and Configure the Network Settings.
 
 For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
 
 Step 3 : DNS Certificate setup
 ++++
-
 Use AWS Certificate Manager to set up DNS.
 
 For detailed information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/configuring-aws-certificate.html>`_
@@ -111,7 +108,6 @@ For detailed information, `click here. <https://docs.sparkflows.io/en/latest/aws
 
 Step 4 : Install Sparkflows
 ++++
-
 Sparkflows can be installed in one of the following two ways:
 
 * Using Sparkflows tgz file.
@@ -239,7 +235,6 @@ Follow the below steps to install Sparkflows using tgz file :
 
 **Using Sparkflows Docker Image**
 ------
-
 Sparkflows can be installed and run on Linux (Ubuntu) using the Docker image from the Docker Hub.
 
 To download Sparkflows using Docker Image, follow the steps given below :
@@ -301,7 +296,6 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
 Step 5 : Accessing Sparkflows & Creating Users
 ++++
-
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
 
 By default Sparkflows comes with default user **admin** and **test** with default password as **admin** and **test** respectively.
@@ -314,7 +308,6 @@ If you want to create new users, it can be done from Sparkflows **Administration
 
 Step 6 : Submitting Jobs to EMR Cluster
 ++++
-
 By default Sparkflows job can be submitted on the local machine itself. 
 
 It can be configured to submit the jobs to AWS EMR cluster for scalability.

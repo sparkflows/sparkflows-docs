@@ -1,31 +1,48 @@
 Deployment Guide
 ======
 
+Sparkflows can run the jobs on the same machine, or it can be connected to an AWS EMR cluster for job executions. 
+
+This document describes the steps to deploy Sparkflows on AWS.
+
 Overview
 ++++
 
-This document describes the steps to deploy Sparkflows on AWS. Sparkflows can run the jobs on the same machine, or it can be connected to an AWS EMR cluster for job executions.
+Below is a brief overview of the steps involved in the deployment process :
 
-- Prerequisite
-- Machine Specification
-- Installation and setup on AWS EC2
-- DNS Certificates setup for HTTPS
-- Install Sparkflows
-- Accessing Sparkflows & Creating Users
-- Compute Connection for Submitting the job
+#. Prerequisites Check
+  
+   * EC2 Instance Privileges
+   * S3 Bucket Permissions 
+   * EMR Cluster Access
+   * Machine Specifications
+   * Software Specifications
+#. Installation and Setup on AWS EC2
+#. DNS Certificates Setup for HTTPS
+#. Install Sparkflows
+#. Accessing Sparkflows & Creating Users
+#. Compute Connection for Submitting the Job
 
-Prerequisite
+Step 1 : Prerequisites Check
 ++++
 
-You need to have:
+Before you begin, ensure that you have the following prerequisites in place:
 
-- EC2 Instance with sufficient privilege.
-- S3 Bucket with Read, Write Permission.
-- EMR Cluster with Livy URL accessible from Sparkflows Instance.
+EC2 Instance Privileges
+-------
+Ensure that you have EC2 Instance with sufficient privileges.
 
+S3 Bucket Permissions
+--------
+Ensure that you have S3 Bucket with Read, Write Permissions.
+
+EMR Cluster Access
+---------
+Ensure that you have EMR Cluster with Livy URL accessible from Sparkflows Instance.
 
 Machine Specifications
-++++
+---------
+Ensure that you have the following prerequisites with regard to machine specifications :
 
 .. list-table:: 
    :widths: 10 40 30
@@ -47,13 +64,12 @@ Machine Specifications
      - 8+
      - More vCPU cores the better
 
-More Information can be found here: 
-
-https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html
+To get more information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
 
 
 Software Specifications
-++++
+------
+Ensure that you have the following prerequisites with regard to machine specifications :
 
 .. list-table:: 
    :widths: 10 40 30
@@ -69,233 +85,226 @@ Software Specifications
      - Python 3.7
      - Python 3.7 is needed
    * - Port
-     - Port 8443 open for https access for the users, Port 8080 opens if http access is needed.
+     - Port 8443 open for https access for the users, Port 8080 opens if http access is needed
      - The port is configurable
    * - Users
-     - Root access is needed during installation for installing JDK, Another user (can be called sparkflows) would be used for the installation of Sparkflows.
+     - Root access is needed during installation for installing JDK, Another user (can be called sparkflows) would be used for the installation of Sparkflows
      - This user can be “sparkflows”
    * - HTTPS
-     - Ensure DNS and https certificates are set up.
+     - Ensure DNS and https certificates are set up
      - HTTPS certificate available
 
-Installation and setup on AWS EC2
+Step 2 : Installation and setup on AWS EC2
 ++++
 
-Setup EC2 Machine and Configure Network Settings
+Setup EC2 Machine and Configure the Network Settings.
 
-Infrastructure Prerequisites for deploying on AWS:
+For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
 
-Detailed Information can be found here:
-
-https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html
-
-DNS Certificate setup
+Step 3 : DNS Certificate setup
 ++++
 
-You can use AWS Certificate Manager to set up DNS
+Use AWS Certificate Manager to set up DNS.
 
-Detailed Information can be found here:
- 
-https://docs.sparkflows.io/en/latest/aws/admin-guide/configuring-aws-certificate.html
+For detailed information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/configuring-aws-certificate.html>`_
 
 
-Install Sparkflows
+Step 4 : Install Sparkflows
 ++++
 
-Sparkflows can be installed in one of two ways:
+Sparkflows can be installed in one of the following two ways:
 
 * Using Sparkflows tgz file.
 * Using Sparkflows Docker Image.
 
-It is easier to install using the Docker Image.
+**Note :** It is easier to install using the Docker Image.
 
 Using Sparkflows tgz file
 ------
+Follow the below steps to install Sparkflows using tgz file :
 
-SSH into the AWS Instance
-++++
+#. **SSH into the AWS Instance**
+   
+   SSH into the AWS Instance using:
 
-SSH into the AWS Instance using:
+   * Public ipv4 IP from the AWS console and 
+   * The `PEM` file (key file) downloaded while bringing up the AWS Instance and
+   * The command as below :
+     ::
+         ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
 
-* Public ipv4 IP from the AWS console and The `PEM` file (key file) downloaded while bringing up the AWS Instance
-And the command as below::
+#. **Download and install JDK 8**
 
-    
-    ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
+   Install and Open JDK 1.8 by running the following :
+       
+     ::
+         
+         sudo yum install -y java-1.8.0-openjdk-devel
 
-Download and install JDK 8
-++++
+#. **Check Java Version**
+   
+   Check the version of JAVA by running the following :
 
-Install Open JDK 1.8 by running::
+     :: 
+      
+         java -version
 
+   On successful installation and checking java version, one would see the below:
 
-    sudo yum install -y java-1.8.0-openjdk-devel
+      .. figure:: ../../_assets/aws/aws-deployment/install.png
+         :alt: aws-deployment
+         :width: 60%
 
-Check the version of JAVA by running::
+#. **Download the latest Sparkflows TAR**
+   
+    To download, follow the steps given below :
 
+   * **Install `wget` command using :**
+     ::
 
-    java -version
+        sudo yum -y install wget
 
-On successful installation and checking java version, one would see the below:
+   * **Download the latest TAR from :**
+     ::
 
+        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
 
+   * **Extract the TAR by using :**
+     ::
 
-Download the latest Sparkflows TAR
-++++
-
-Install `wget` command using::
-
-
-          sudo yum -y install wget
-
-Download the latest TAR from::
-
-
-    wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
-
-Extract the TAR by using::
-
-
-    tar xvf fire-3.2.28_spark_3.2.1.tgz
-
-
-Create DB tables with Schema
-
-Sparkflows metadata can be stored in RDS or it has embedded h2 db by default.
-
-Goto inside the sparkflow binary extracted directory::
-
+       tar xvf fire-3.2.28_spark_3.2.1.tgz
 
 
-    cd  fire-3.1.0_spark_3.2.1
+   * **Create DB tables with Schema :**
+     
+     Sparkflows metadata can be stored in RDS or it has embedded h2 db by default.
+     
+     * Go to inside the sparkflows binary extracted directory
+       ::
+          cd  fire-3.1.0_spark_3.2.1
 
-Create the DB and schema by running the following::
+     * Create the DB and schema by running the following :**
+       ::
+          ./create-h2-db.sh
 
+#. **Install Python**
+   
+   * Run the below commands to install all the Python dependencies using :
+     ::
+        cd ..
+        sudo yum -y update
+        sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+        wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+        tar xzf Python-3.7.0.tgz
+        cd Python-3.7.0
+        ./configure --enable-optimizations
+        sudo yum -y install make
+        sudo make altinstall
 
-    ./create-h2-db.sh
+   * Check the system wide version of python installed by running : 
+     ::
+        python3.7 --version
 
+   * Install Python Libraries
+     
+     Create the virtual environment, activate it and install the python libraries inside it by running :
+     ::
+        python3.7 -m venv venv
+        source venv/bin/activate
+        pip install pip --upgrade
+        pip install pystan
+        pip install convertdate
 
+   * Install all the other python libraries from the `requirements.txt` file :
+     ::
+        pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
 
-Install Python
-++++
+     .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
-Run the below commands to install all the Python dependencies::
+   * Check if all dependencies are installed by running
+     ::
+        pip list
 
+#. **Start Sparkflows Server**
 
-    cd ..
-    sudo yum -y update
-    sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel
-    wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
-   tar xzf Python-3.7.0.tgz
-   cd Python-3.7.0
-   ./configure --enable-optimizations
-   sudo yum -y install make
-   sudo make altinstall
+   By default Sparkflows will run on 8080(http) and 8443(https). 
 
-Check the system wide version of python installed by::
+   To adjust and personalize the port settings, you can modify the configurations in the **application.properties** file located within **fire-3.2.8_spark_3.2.1/conf**.
 
-
-    python3.7 --version
-
-Install Python Libraries
-
-Create the virtual environment, activate it and install the python libraries inside it by::
-
-
-    python3.7 -m venv venv
-    source venv/bin/activate
-    pip install pip --upgrade
-    pip install pystan
-    pip install convertdate
-
-Install all the other python libraries from the `requirements.txt` file::
-
-
-    pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
-
-.. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
-
-Check if all dependencies are installed by running::
-
-
-    pip list
-
-Start Sparkflows Server
-++++
-
-By default Sparkflows will run on 8080(http) and 8443(https). To configure and customize the port, it can be done via `application.properties` which can be found in `fire-3.2.8_spark_3.2.1/conf` .
-
-Start the Sparkflows server by running the below::
-
-
-    ./run-fire-server.sh start
+   Start the Sparkflows server by running the below
+   ::
+      ./run-fire-server.sh start
 
 Using Sparkflows Docker Image
 ------
 
 Sparkflows can be installed and run on Linux (Ubuntu) using the Docker image from the Docker Hub.
 
-Download and install Docker on your Linux machine
-++++
+To download Sparkflows using Docker Image, follow the steps given below :
 
-* Docker Desktop (https://docs.docker.com/engine/install/)
-    * Download the Docker CE
-    * Verify that the docker is up and running and the the docker version by running ``docker --version``
-    * Executing the Docker Command Without Sudo(Optional)::
-    
-        sudo usermod -aG docker ${USER}
+#. **Download and install Docker on your Linux machine**
 
-Installation Steps
-++++
+   * Docker Desktop (https://docs.docker.com/engine/install/)
+      * Download the Docker CE
+      * Verify that the docker is up and running and the the docker version by running ``docker --version``
+      * Executing the Docker Command Without Sudo(Optional)
+        ::
+           sudo usermod -aG docker ${USER}
 
-* Set up the environment variables. The local mount directory is ``/home/username/sparkflows`` - create this directory by using mkdir in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
-    
-    export SPARK_VERSION=3.2.1
-    export RELEASE_VERSION=3.X.XX
-    export FIRE_VERSION=3.1.0
-    export SPARKFLOWS_ROOT=/home/username/sparkflows
+#. **Installation Steps**
 
-* Pull the latest Sparkflows docker image from Docker hub::
+   * Set up the environment variables. The local mount directory is ``/home/username/sparkflows`` - create this directory by using mkdir in the below docker run command. 
 
-    docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
+     Please update it to directory structure on your machine. 
 
+     Replace ``XX`` with the Sparkflows version you want to install
+     ::
+        export SPARK_VERSION=3.2.1
+        export RELEASE_VERSION=3.X.XX
+        export FIRE_VERSION=3.1.0
+        export SPARKFLOWS_ROOT=/home/username/sparkflows
 
-* Start the docker image using the ``docker run`` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
-    
-    
-    docker run -m 16g -p 8080:8080 -p 9443:9443 \
-    -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
-    -e KEYSTORE_PASSWORD=12345678 \
-    -e FIRE_HTTP_PORT=8080 \
-    -e FIRE_HTTPS_PORT=9443 \
-    -e FIRE_VERSION=${FIRE_VERSION} \
-    sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
-
-Detailed Information can be found here:
- 
-https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html
+   * Pull the latest Sparkflows docker image from Docker hub
+     ::
+         docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 
-Accessing Sparkflows & Creating Users
+   * Start the docker image using the docker run command below. 
+  
+     The local mount directory is **(/home/username/sparkflows)** in the below docker run command. Please update it to directory structure on your machine. 
+
+     Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above
+     ::
+        docker run -m 16g -p 8080:8080 -p 9443:9443 \
+        -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
+        -e KEYSTORE_PASSWORD=12345678 \
+        -e FIRE_HTTP_PORT=8080 \
+        -e FIRE_HTTPS_PORT=9443 \
+        -e FIRE_VERSION=${FIRE_VERSION} \
+        sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
+
+     For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html>`_
+
+
+Step 5 : Accessing Sparkflows & Creating Users
 ++++
 
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
+
 By default Sparkflows comes with default user `admin` and `test` with default password as `admin` and `test` respectively.
-If you want to create new users, it can done from Sparkflows administration tab by choosing `Users` as shown in the screenshot below:
 
-.. figure:: ../../_assets/aws/livy/administration.PNG
-   :alt: livy
-   :width: 60%
+If you want to create new users, it can be done from Sparkflows administration tab by choosing `Users` as shown in the screenshot below:
 
-Submitting jobs to EMR cluster
+   .. figure:: ../../_assets/aws/livy/administration.PNG
+      :alt: livy
+      :width: 60%
+
+Step 6 : Submitting Jobs to EMR Cluster
 ++++
 
 By default Sparkflows job can be submitted on the local machine itself. It can be configured to submit the jobs to AWS EMR cluster for scalability.
 
-
-More Information can be found here: 
-
-https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html
+For more information,`click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html>`_
 
 
 Additional requirements
@@ -303,11 +312,8 @@ Additional requirements
 
 * The machine needs to have access to the Internet only to install dependencies. 
 
-* Access to s3 bucket to store the data(optional)
+* Access to S3 bucket to store the data(optional).
 
-* If using s3 as a data source, the IAM role for s3 bucket should be added to the EC2 instance created for Sparkflows.
+* If using S3 as a data source, the IAM role for S3 bucket should be added to the EC2 instance created for Sparkflows.
 
-
-More Information can be found here:
-
-https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html
+For more information, `click here: <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html>`_

@@ -230,8 +230,10 @@ Follow the below steps to install Sparkflows using tgz file :
    You can modify the configurations in the **application.properties** file located within **fire-3.2.8_spark_3.2.1/conf**.
 
    Start the Sparkflows server by running the below
-   ::
-      ./run-fire-server.sh start
+     
+       ::
+         
+            ./run-fire-server.sh start
 
 **Using Sparkflows Docker Image**
 ------
@@ -243,7 +245,7 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
    * Docker Desktop (https://docs.docker.com/engine/install/)
       * Download the Docker CE
-      * Verify that the docker is up and running and the the docker version by running the following
+      * Verify that the docker is up and running and the the docker version by running the following :
         ::
             docker --version
      

@@ -119,7 +119,7 @@ Sparkflows can be installed in one of the following two ways:
 
 **Note :** It is easier to install using the Docker Image.
 
-Using Sparkflows tgz file
+**Using Sparkflows tgz file**
 ------
 Follow the below steps to install Sparkflows using tgz file :
 
@@ -237,7 +237,7 @@ Follow the below steps to install Sparkflows using tgz file :
    ::
       ./run-fire-server.sh start
 
-Using Sparkflows Docker Image
+**Using Sparkflows Docker Image**
 ------
 
 Sparkflows can be installed and run on Linux (Ubuntu) using the Docker image from the Docker Hub.

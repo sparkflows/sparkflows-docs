@@ -26,13 +26,13 @@ Memory
      - Recommended
      - Value
    * - Memory
-     - 16gb
+     - 16gb+
      - More the memory would be preferable
    * - vCPU
-     - 8
+     - 8+
      - More the vCPU would be preferable, if data size is bigger
    * - Disk Size
-     - 500GB
+     - 500GB+
      - Depending on Job Compute, If running locally
 
 Instance type & OS Supported

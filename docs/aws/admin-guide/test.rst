@@ -1,7 +1,7 @@
-Testing Fire Insights on AWS
+Sanity test Sparkflows install on AWS
 ============================
 
-This document serves as a detailed guide for testing when Fire Insights is running on AWS.
+This document serves as a detailed guide to run Sanity tests on Sparkflows running on AWS.
 
 Below are the required steps:
 

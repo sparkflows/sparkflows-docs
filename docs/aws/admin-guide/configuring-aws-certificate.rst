@@ -1,5 +1,5 @@
-Configure HTTPS on AWS
-================================
+Configure HTTPS
+================
 
 Fire Insights can be configured with HTTPS on AWS, when running on EC2 instance.
 

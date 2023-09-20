@@ -119,8 +119,7 @@ AWS Admin Guide
    configuring-aws-certificate.rst
    deploy-aws.rst
    aws-s3-integration.rst
-   start-emr.rst
-   emr-livy/index.rst
+   emr/index.rst
    test.rst
    operations.rst
    aws-sso/index.rst

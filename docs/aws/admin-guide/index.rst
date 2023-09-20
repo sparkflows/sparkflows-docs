@@ -115,19 +115,19 @@ AWS Admin Guide
 
    introduction.rst
    planning.rst
+   aws-ec2-configure.rst
+   load-balancer.rst
+   configuring-aws-certificate.rst
    deploy-aws.rst
    start-emr.rst
    emr-livy/index.rst
    test.rst
    operations.rst
-   load-balancer.rst
-   AWS-Cloudformation/index
-   glue-integration/index.rst
+   aws-cloudformation/index
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
-   aws-ec2-configure.rst
    ecs-fargate-sparkflows-deployment/index.rst
-   configuring-aws-certificate.rst
    customized-docker-image-with-ssl.rst
+   glue-integration/index.rst
    
    

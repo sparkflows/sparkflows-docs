@@ -183,6 +183,8 @@ Follow the below steps to install Sparkflows using tgz file :
        ::
           ./create-h2-db.sh
 
+.. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
+
 #. **Install Python**
    
    * Run the below commands to install all the Python dependencies using :

@@ -1,9 +1,9 @@
-Sanity test Sparkflows install on AWS
+Test Install
 ============================
 
 This document serves as a detailed guide to run Sanity tests on Sparkflows running on AWS.
 
-Below are the required steps:
+Below are the steps:
 
 1. Ensure that you can log into the system.
 2. View the sample Applications.

@@ -1,4 +1,4 @@
-EMR Livy
+EMR
 ======
 
 

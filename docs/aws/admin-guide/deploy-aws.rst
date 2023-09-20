@@ -163,12 +163,12 @@ Follow the below steps to install Sparkflows using tgz file :
    * Download the latest TAR from :
      ::
 
-        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.2.28_spark_3.2.1.tgz
+        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.x.y_spark_3.2.1.tgz
 
    * Extract the TAR by using :
      ::
 
-       tar xvf fire-3.2.28_spark_3.2.1.tgz
+       tar xvf fire-3.x.y_spark_3.2.1.tgz
 
 
    * Create DB tables with Schema :
@@ -177,7 +177,7 @@ Follow the below steps to install Sparkflows using tgz file :
      
      * Go to inside the sparkflows binary extracted directory :
        ::
-          cd  fire-3.1.0_spark_3.2.1
+          cd  fire-3.x.y_spark_3.2.1
 
      * Create the DB and schema by running the following :
        ::
@@ -215,7 +215,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
    * Install all the other python libraries from the `requirements.txt` file :
      ::
-        pip install -r fire-3.2.8_spark_3.2.1/dist/fire/requirements.txt
+        pip install -r fire-3.x.y_spark_3.2.1/dist/fire/requirements.txt
 
      .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
@@ -229,7 +229,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
    To adjust and personalize the port settings :
 
-   You can modify the configurations in the **application.properties** file located within **fire-3.2.8_spark_3.2.1/conf**.
+   You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1.tgz/conf**.
 
    Start the Sparkflows server by running the below
      

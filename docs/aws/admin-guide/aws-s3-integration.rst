@@ -9,7 +9,7 @@ Fire Insights can be configured to read data from S3 via one of the two approach
 The details of each of the above is listed out below.
 
 AWS S3 Integration via Access Key and Secret Key
-==============================
++++++++++++
 
 Fire Insights allows users to access files on S3. The steps involved are: 
 
@@ -102,7 +102,7 @@ Step 5 : Protect Data Using Server Side Encryption
           
 
 AWS S3 Integration via IAM role
-==============================
+++++++++++++++
 
 Fire Insights enables you to configure with S3 running on EC2 instance using IAM role.
 

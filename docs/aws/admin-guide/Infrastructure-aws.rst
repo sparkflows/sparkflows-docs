@@ -1,4 +1,4 @@
-Infrastructure Prerequisites Amazon Web Services (AWS)
+Infrastructure Pre-requisites
 ----
 
 Fire Insights Infrastructure Pre-requisites for deploying on AWS:

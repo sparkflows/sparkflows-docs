@@ -89,7 +89,7 @@ Below are steps for troubleshooting some of the common issues.
     
     :doc:`/troubleshooting/websockets`
     
-    Steps to troubleshoot Websockets
+    Steps to troubleshoot WebSockets
 
     ---
     

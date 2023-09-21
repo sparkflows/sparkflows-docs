@@ -133,3 +133,19 @@ Exception::
   org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2593) at 
   org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:91) at 
   org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2632)
+
+Getting Exception on running H2O workflows only when building XgBoost models. Other models get trained fine:
+------------------------------------------------------------------------------------------------------------
+
+When other H2O models run fine but XgBoost fails with the below error::
+
+  Received an Exception : ai.h2o.sparkling.backend.exceptions.RestApiCommunicationException: H2O node http://10.111.112.202:54321 responded with
+  Status code: 404 : Not Found
+  Server error: {\__meta\:{\schema_version\:3,\schema_name\:\H2OErrorV3\,\schema_type\:\H2OError\},\timestamp\:1695017495408,\error_url\:\POST /3/ModelBuilders/xgboost\,\msg\:\\
+
+The most likely reason is that the base OS is blocking the REST API of xgboost. Usually happens on hardened system or when the hardware does not supports XgBoost like Windows or Apple M1.
+
+The below can be used to check if the XgBoost is supported on the current deployment or not::
+
+  from h2o.estimators.xgboost import H2OXGBoostEstimator
+  is_xgboost_available = H2OXGBoostEstimator.available()

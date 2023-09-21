@@ -299,14 +299,7 @@ To download Sparkflows using Docker Image, follow the steps given below :
      For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html>`_
 
 
-Step 5 : Reloading Sample Project
-++++
-
-Fire Insights by default comes with sample Project which can be reloaded in application.
-
-For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_
-
-Step 6 : Accessing Sparkflows & Creating Users
+Step 5 : Accessing Sparkflows & Creating Users
 ++++
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
 
@@ -317,6 +310,13 @@ If you want to create new users, it can be done from Sparkflows **Administration
    .. figure:: ../../_assets/aws/livy/administration.PNG
       :alt: livy
       :width: 60%
+
+Step 6 : Reloading Sample Project
+++++
+
+Fire Insights by default comes with sample Project which can be reloaded in application.
+
+For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_
 
 Step 7 : Submitting Jobs to EMR Cluster
 ++++

@@ -1,10 +1,10 @@
-Websockets
+WebSockets
 ============
 
-In Fire Insights, the browser uses websockets for communications for some of the web pages of Fire Insights.
-This document explains some of the common issues and corresponding resolutions related to Websockets:
+In Fire Insights, the browser uses WebSockets for communications for some of the web pages of Fire Insights.
+This document explains some of the common issues and corresponding resolutions related to WebSockets:
 
-Websocket Connection Error
+WebSocket Connection Error
 ------------------------------------------------------------
 
 Problem

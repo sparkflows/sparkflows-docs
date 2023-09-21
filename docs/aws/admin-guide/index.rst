@@ -115,6 +115,7 @@ AWS Admin Guide
 
    introduction.rst
    planning.rst
+   Infrastructure-aws.rst
    load-balancer.rst
    configuring-aws-certificate.rst
    deploy-aws.rst

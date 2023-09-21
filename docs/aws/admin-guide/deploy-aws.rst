@@ -195,7 +195,7 @@ Follow the below steps to install Sparkflows using tgz file :
         wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
         tar xzf Python-3.7.0.tgz
         cd Python-3.7.0
-        ./configure --enable-optimizations
+        sudo ./configure --enable-optimizations
         sudo yum -y install make
         sudo make altinstall
 

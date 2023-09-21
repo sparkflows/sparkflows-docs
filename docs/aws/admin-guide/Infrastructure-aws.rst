@@ -112,6 +112,15 @@ Networking requirements
 
 .. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
 
+you can forward port 443 to 8443, so that application can run on https directly::
+
+
+    sudo yum install firewalld (If ubuntu use apt)
+    sudo systemctl start firewalld
+    sudo systemctl enable firewalld
+    sudo systemctl status firewalld
+    sudo firewall-cmd --reload
+
 HTTPS configuration
 ++++
 

@@ -77,7 +77,7 @@ Below are steps for troubleshooting some of the common issues.
     
     :doc:`/troubleshooting/github`
     
-    Steps to troubleshoot Github  
+    Steps to troubleshoot GitHub  
     
      ---
     

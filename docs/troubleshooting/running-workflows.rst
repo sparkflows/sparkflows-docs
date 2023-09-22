@@ -147,5 +147,10 @@ The most likely reason is that the base OS is blocking the REST API of xgboost. 
 
 The below can be used to check if the XgBoost is supported on the current deployment or not::
 
+  from ai.h2o.sparkling import H2OContext
+  from pyspark.sql import SparkSession
   from h2o.estimators.xgboost import H2OXGBoostEstimator
+  spark = SparkSession.builder.appName("SparklingWaterApp").getOrCreate()
+  hc = H2OContext.getOrCreate()
   is_xgboost_available = H2OXGBoostEstimator.available()
+  print("is_xgboost_available:", is_xgboost_available)

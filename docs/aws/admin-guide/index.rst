@@ -118,6 +118,7 @@ AWS Admin Guide
    Infrastructure-aws.rst
    load-balancer.rst
    configuring-aws-certificate.rst
+   rds.rst
    deploy-aws.rst
    aws-s3-integration.rst
    emr/index.rst

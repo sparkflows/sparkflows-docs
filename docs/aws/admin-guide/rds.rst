@@ -1,4 +1,4 @@
-RDS Set up and Configurations
+RDS Setup and Configurations
 ===========
 
 Fire Insights can easily be setup up to run with MySQL.

@@ -18,13 +18,13 @@ The memory pre-requisites needed to run Fire Insights:
      - Value
    * - Memory
      - 16gb+
-     - More the memory would be preferable
+     - More memory would be preferable
    * - vCPU
      - 8+
-     - More the vCPU would be preferable, if data size is bigger
+     - More vCPU would be preferable, if data size is bigger
    * - Disk Size
      - 500GB+
-     - Depending on Job Compute, If running locally
+     - Depending on Job Compute, if running locally
 
 Instance Type & OS Supported
 ++++

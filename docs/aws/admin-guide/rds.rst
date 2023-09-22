@@ -3,6 +3,10 @@ RDS Set up and Configurations
 
 Fire Insights can easily be setup up to run with MySQL.
 
+you can set it up directly from AWS RDS or it can be installed it on any machine
+
+More details of the MySQL database can be found here :https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html
+
 More details of the MySQL database can be found here : https://www.mysql.com/
 
 Steps for installing MySQL is also available here : https://docs.sparkflows.io/en/latest/operations/installing-mysql.html
@@ -18,7 +22,7 @@ Pre-requisites
 Install MySQL
 -------------
 
-* Install MySQL on a machine or you can use MySQL running on Cloud Infrastructure.
+* Install MySQL on a machine or you can use MySQL running on AWS Cloud Infrastructure.
 * It might be easier to install it on the same machine you are installing Fire Insights on.
 
 .. note:: Make sure that MySQL database should be accessible from Fire Insights Machine.
@@ -31,8 +35,9 @@ Create the DB for Fire in MySQL
 
     create database firedb;
 
+.. note:: If you are using AWS RDS Console, add database name as firedb from console itself.
 
-Create the User for Fire in MySQL and grant it Permissions
+Create the User for Fire in MySQL and grant it Permissions (only when you installing on seperate vm)
 ----------------------------------------------------------
 
 Create the User for Fire in MySQL::
@@ -52,7 +57,7 @@ Configure Fire to connect to MySQL
 * Copy ``db.properties.mysql`` file into the ``conf`` directory as ``db.properties``::
 
     cd   fire-x.y.z
-    cp   conf.orig/db.properties.mysql   conf/db.properties
+    cp   conf.orig/db.properties.mysql  conf/db.properties
 
  
 
@@ -88,8 +93,8 @@ Install the MySQL Connector JAR file
 * Copy the mysql JDBC driver JAR file to the ``fire-user-lib`` & ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
-    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
-    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-user-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar fire-user-lib
   
   
 Create the Tables for Fire in MySQL
@@ -102,11 +107,6 @@ Create the Tables for Fire in MySQL
     cd fire-x.y.z
 
     ./create-mysql-db.sh
-
-.. Note::  If running on Windows
-
-     create-mysql-db.bat
-
 
 Troubleshooting
 ---------------

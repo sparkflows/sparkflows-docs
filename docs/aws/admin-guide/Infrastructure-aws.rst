@@ -1,12 +1,13 @@
 Infrastructure Pre-requisites
 ----
 
-Fire Insights Infrastructure Pre-requisites for deploying on AWS:
+This document outlines the essential infrastructure pre-requisites needed to deploy Fire Insights on AWS.
 
-The memory Pre-requisites to run Fire Insights:
 
 Memory
 ++++
+
+The memory pre-requisites needed to run Fire Insights:
 
 .. list-table:: 
    :widths: 10 20 30
@@ -25,7 +26,7 @@ Memory
      - 500GB+
      - Depending on Job Compute, If running locally
 
-Instance type & OS Supported
+Instance Type & OS Supported
 ++++
 
 .. list-table:: 
@@ -75,7 +76,7 @@ Instance type & OS Supported
      - r5.2xlarge
      - ami-0261755bbcb8c4a84
 
-Virtual networks
+Virtual Networks
 ++++
 
 A virtual network is an object representing the networking setup of instances created into it.
@@ -84,7 +85,7 @@ The virtual network defines in which VPC and subnet the instances will be launch
 
 Each instance belongs to a virtual network. At least one virtual network is required to deploy instances.
 
-Networking requirements
+Networking Requirements
 ++++
 
 .. list-table:: 
@@ -112,7 +113,7 @@ Networking requirements
 
 .. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
 
-you can forward port 443 to 8443, so that application can run on https directly::
+You can forward port 443 to 8443, so that application can run on HTTPS directly::
 
 
     sudo yum install firewalld (If ubuntu use apt)
@@ -121,7 +122,7 @@ you can forward port 443 to 8443, so that application can run on https directly:
     sudo systemctl status firewalld
     sudo firewall-cmd --reload
 
-HTTPS configuration
+HTTPS Configuration
 ++++
 
 By default, Fire Insights instances are deployed with self-signed certificates. These will trigger security alerts in your browser.
@@ -133,12 +134,14 @@ Single sign-on (SSO) refers to the ability for users to log in just one time wit
 
 By setting up SSO in Fire Insights, your users will be able to access Fire Insights using their corporate credentials.
 
-- Users database
+- Users database 
 
-Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html
+  For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html>`_
 
-- SAML
+- SAML 
 
-Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
+  Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. 
 
-Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html
+  If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
+
+  For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html>`_

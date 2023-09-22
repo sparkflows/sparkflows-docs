@@ -23,7 +23,7 @@ Install MySQL
 * Install MySQL on a machine or you can use MySQL running on AWS Cloud Infrastructure.
 * It might be easier to install it on the same machine you are installing Fire Insights on.
 
-More details of the MySQL database set up in AWS can be found here :https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html
+To get more information on setting AWS RDS, `click here. <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html>`_
 
 .. note:: Make sure that MySQL database should be accessible from Fire Insights Machine.
 

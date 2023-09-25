@@ -102,6 +102,14 @@ Spark Standalone Guide
 
    spark-standalone/index
 
+MLOps Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   mlops/index
+
 Cloudera/Hadoop Guide
 --------------
 
@@ -118,13 +126,6 @@ Kubernetes Guide
 
    kubernetes/index
 
-MLOps Guide
---------------
-
-.. toctree::
-   :maxdepth: 2
-
-   mlops/index
 
 Frequently Asked Questions
 --------------------------

@@ -67,7 +67,7 @@ AWS Admin Guide
 
     :doc:`/aws/admin-guide/aws-sso/index`
     
-    Fire Insight integration with SSO.
+    Fire Insights integration with SSO.
 
     ---
 

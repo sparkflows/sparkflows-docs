@@ -67,13 +67,6 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
     
     Provides insights on implementation of continuous machine learning in Sparkflows.
 
-    ---
-
-    :doc:`/user-guide/machine-learning/generative-AI/index`
-
-    Provides HF Library-based processors to facilitate NLP.
-    
-    
 
 
 
@@ -90,7 +83,6 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
    mlflow.rst
    sagemaker.rst
    continuous-machine-learning/index.rst
-   generative-AI/index.rst
    
 
    

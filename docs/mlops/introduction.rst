@@ -1,7 +1,7 @@
 Introduction
 ======
 
-Sparkflows MLOps allows you to deploy Machine learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+Sparkflows MLOps allows you to deploy Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
 The models in Sparkflows can be served as one of the two options:
 

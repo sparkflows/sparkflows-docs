@@ -9,12 +9,6 @@ Fire Insights enables you to perform data exploration seamlessly.
     :container: container-lg pb-3
     :column: col-lg-12 p-2
 
-    :doc:`/user-guide/data-exploration/data-exploration`
-
-    Provides a number of processors for Data Exploration.
-
-    ---
-    
     :doc:`/user-guide/data-exploration/data-visualization`
 
     Provides a number of processors for Data Visualization.
@@ -22,7 +16,6 @@ Fire Insights enables you to perform data exploration seamlessly.
 .. toctree::
    :hidden:
 
-   data-exploration.rst
    data-visualization.rst
    
 

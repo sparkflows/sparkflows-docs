@@ -29,7 +29,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
 
-    :doc:`/user-guide/data-exploration/index`
+    :doc:`/user-guide/data-visualization/index`
 
     ---
 
@@ -114,7 +114,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    connectors/index
    data-preparation/index
    control-structures/index
-   data-exploration/index
+   data-visualization/index
    data-profile/index
    data-quality/index
    machine-learning/index

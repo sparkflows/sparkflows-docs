@@ -29,3 +29,4 @@ Once the modeling process is complete, the algorithm can be run on the full data
    :hidden:
  
    overview.rst  
+   installation.rst

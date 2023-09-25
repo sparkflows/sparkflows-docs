@@ -33,15 +33,12 @@ AWS Admin Guide
     
     LIVY Configurations and Job submission.
     
-      
     ---
     
-        
     :doc:`/aws/admin-guide/glue-integration/index`
     
     AWS Glue Configurations and Job submission.
     
-      
     ---
     
     :doc:`/aws/admin-guide/test`
@@ -60,7 +57,6 @@ AWS Admin Guide
     
     Using cloud formation templates to install fire on aws with H2 and MySQL DB. 
     
-        
     ---
     
     :doc:`/aws/admin-guide/glue-integration/index`
@@ -129,6 +125,6 @@ AWS Admin Guide
    ecs-fargate-sparkflows-deployment/index.rst
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst
-   aws-cloudformation/index
+   aws-cloudformation/index.rst
    
    

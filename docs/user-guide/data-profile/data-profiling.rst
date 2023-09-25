@@ -1,4 +1,4 @@
-Data Exploration
+Data Profiling
 ==========
 
 Fire Insights provides a number of processors or nodes for exploration of data.

@@ -113,6 +113,7 @@ AWS Admin Guide
    configuring-aws-certificate.rst
    rds.rst
    deploy-aws.rst
+   jupyter/index.rst
    aws-s3-integration.rst
    emr/index.rst
    test.rst

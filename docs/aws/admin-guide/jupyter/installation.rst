@@ -19,7 +19,7 @@ Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
 Once login to Fire web server URL, Goto ``ADMINISTRATION -->> Configurations`` and select ``NOTEBOOK``.
 
 
-.. figure:: ..//_assets/operating/jupyter_notebook_1.PNG
+.. figure:: ../../../_assets/operating/jupyter_notebook_1.PNG
    :alt: operating
    :width: 60%
 
@@ -38,7 +38,7 @@ Update the below parameters:
 
 Once the above configuration is saved, refresh the web server URL and you will see ''Jupyter Notebook'', Open it.
 
-.. figure:: ..//_assets/operating/jupyter_notebook-access.PNG
+.. figure:: ../../../_assets/operating/jupyter_notebook-access.PNG
    :alt: operating
    :width: 60%
 
@@ -46,10 +46,10 @@ Once the above configuration is saved, refresh the web server URL and you will s
 
 Once you click on ''Jupyter Notebook'', it will open a new page for Jupyter Notebook and you can run the python code on top of it.
 
-.. figure:: ..//_assets/operating/jupyter_notebook_2.PNG
+.. figure:: ../../../_assets/operating/jupyter_notebook_2.PNG
    :alt: operating
    :width: 60%
 
-.. figure:: ..//_assets/operating/jupyter_notebook_command.PNG
+.. figure:: ../../../_assets/operating/jupyter_notebook_command.PNG
    :alt: operating
    :width: 60%

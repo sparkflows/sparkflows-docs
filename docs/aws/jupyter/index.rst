@@ -18,6 +18,12 @@ Once the modeling process is complete, the algorithm can be run on the full data
     
     :doc:`/jupyter/overview`
 
+    ---
+    
+    :doc:`/jupyter/installation`
+    
+
+
 
 .. toctree::
    :hidden:

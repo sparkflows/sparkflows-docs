@@ -41,6 +41,12 @@ AWS Admin Guide
 
     ---
 
+    :doc:`/aws/admin-guide/deploy-aws`
+
+    Jupyter notebook installation and Configurations.
+
+    --- 
+
     :doc:`/aws/admin-guide/aws-s3-integration`
 
     Describes details about AWS S3 integration steps.

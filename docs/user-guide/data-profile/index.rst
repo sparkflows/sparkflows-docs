@@ -4,7 +4,7 @@ Data Profiling
 .. panels::
     :container: container-lg pb-2
 
-    :doc:`/user-guide/data-profile/data-exploration`
+    :doc:`/user-guide/data-profile/data-profiling`
 
     Data Exploration
 
@@ -18,6 +18,6 @@ Data Profiling
 .. toctree::
    :hidden:
 
-   data-exploration.rst
+   data-profiling.rst
    dataset-profiling.rst
 

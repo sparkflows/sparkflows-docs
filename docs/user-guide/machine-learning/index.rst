@@ -51,12 +51,6 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
 
     ---
 
-    :doc:`/user-guide/machine-learning/mlflow`
-
-    Provides deep integration with Apache MLflow to persist, track  and serve models.
-
-    ---
-
     :doc:`/user-guide/machine-learning/sagemaker`
 
     Provides deep integration with AWS Sagemaker.
@@ -80,7 +74,6 @@ Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCar
    feature-selection.rst
    model-persistence/index.rst
    model-serving/index.rst
-   mlflow.rst
    sagemaker.rst
    continuous-machine-learning/index.rst
    

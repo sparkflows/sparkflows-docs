@@ -23,13 +23,13 @@ AWS Admin Guide
 
     ---
     
-    :doc:`/aws/admin-guide/start-emr`
+    :doc:`/aws/admin-guide/emr/start-emr`
     
     Steps to run Fire Insights on EMR.
     
     ---
     
-    :doc:`/aws/admin-guide/emr-livy/index`
+    :doc:`/aws/admin-guide/emr/livy-job`
     
     LIVY Configurations and Job submission.
     
@@ -53,7 +53,7 @@ AWS Admin Guide
     
     ---
     
-    :doc:`/aws/admin-guide/AWS-Cloudformation/index`
+    :doc:`/aws/admin-guide/aws-cloudformation/index`
     
     Using cloud formation templates to install fire on aws with H2 and MySQL DB. 
     
@@ -112,6 +112,7 @@ AWS Admin Guide
    introduction.rst
    planning.rst
    Infrastructure-aws.rst
+   emr/livy-job.rst
    load-balancer.rst
    configuring-aws-certificate.rst
    rds.rst

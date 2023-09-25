@@ -17,12 +17,6 @@ AWS Admin Guide
     
     ---
 
-    :doc:`/aws/admin-guide/emr/livy-job`
-    
-    LIVY Configurations and Job submission.
-
-    ---
-
     :doc:`/aws/admin-guide/load-balancer`
 
     Describes details about configuring load balancer.
@@ -108,7 +102,6 @@ AWS Admin Guide
 
    planning.rst
    Infrastructure-aws.rst
-   emr/livy-job.rst
    load-balancer.rst
    configuring-aws-certificate.rst
    rds.rst

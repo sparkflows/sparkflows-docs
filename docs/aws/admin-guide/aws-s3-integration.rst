@@ -1,4 +1,4 @@
-AWS S3 Integration
+Amazon S3 Integration
 ==================
 
 Fire Insights can be configured to read data from S3 via one of the two approaches below:
@@ -8,7 +8,7 @@ Fire Insights can be configured to read data from S3 via one of the two approach
 
 The details of each of the above is listed out below.
 
-AWS S3 Integration via Access Key and Secret Key
+Amazon S3 Integration via Access Key and Secret Key
 +++++++++++
 
 Fire Insights allows users to access files on S3. The steps involved are: 
@@ -63,7 +63,7 @@ Step 2 : Install AWS CLI in Fire Insights Machine
  
    For more details on installation refer the `installation guide. <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>`_
      
-Step 3 : Configure AWS Access Key and Secret Key in Fire Insights Machine
+Step 3 : Configure Amazon Access Key and Secret Key in Fire Insights Machine
 -------
 
 #. To configure your credentials, run *aws configure* on the machine which runs the Fire Insights.
@@ -101,7 +101,7 @@ Step 5 : Protect Data Using Server Side Encryption
 .. note:: It is recommended to regularly rotate your access and secret keys. For more details refer the `AWS documentation. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_ 
           
 
-AWS S3 Integration via IAM role
+Amazon S3 Integration via IAM role
 ++++++++++++++
 
 Fire Insights enables you to configure with S3 running on EC2 instance using IAM role.
@@ -207,7 +207,7 @@ Once you login to Fire Insights application, click on ``ADMINISTRATION`` tab loc
      - Description
      - Value
    * - Enable AWS
-     - Enable AWS for accessing the AWS S3 buckets
+     - Enable AWS for accessing the Amazon S3 buckets
      - true
    * - Enable AssumeRole
      - Enable AWS Assume Role to access AWS Resources

@@ -161,7 +161,7 @@ Here, we try to explain the details of configuration settings with the help of a
 **Workflow**
 ++++++
 
-Below is the sample workflow where final H20 ML model is saved to S3 location.
+Below is the sample workflow where final H2O ML model is saved to S3 location.
 
    .. figure:: ../../_assets/aws/h2o-wf.png
       :alt: H2O ML Workflow

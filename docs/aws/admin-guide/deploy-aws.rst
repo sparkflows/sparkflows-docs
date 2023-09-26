@@ -130,6 +130,8 @@ Follow the below steps to install Sparkflows using tgz file :
      ::
          ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
 
+**Note :** Run all the below steps a user with sudo permission. If unsure, please run the below commands as `root` user
+
 #. **Download and install JDK 8**
 
    On CentOS, install and Open JDK 1.8 by running the following :

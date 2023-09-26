@@ -1,4 +1,4 @@
-Jupyter Notebook
+Jupyter Integration
 =============
 
 Jupyter Notebook is an open-source web-based application that allows Data Scientists and Python developers to create and share documents that contain live code, equations, visualizations, and narrative text. 

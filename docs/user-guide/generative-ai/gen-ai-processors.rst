@@ -1,10 +1,5 @@
-Generative AI
-=======
-
-Sparkflows empowers users to leverage the remarkable Generative AI capabilities by offering numerous processors based on Hugging Face Library. It allows users to host their models and infrastructure either in-house (on-premises or on the cloud within a Virtual Private Cloud) or access licensed models such as GPT-4 through APIs. This versatility ensures that customers can seamlessly harness the power of Generative-AI in a manner that best suits their specific needs and preferences.
-
 Generative AI Processors
----------
+=======
 
 The following table enlists the Huggging Face Library-powered processors available in Fire Insights :
 
@@ -42,14 +37,14 @@ Hugging Face Sentiment Analysis Sample Workflow
 --------------------
 
 
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/workflow.png
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/workflow.png
      :alt: data-quality-userguide
      :width: 65%
 
 Incoming Dataset
 --------
 
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/input-data.png
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/input-data.png
      :alt: data-quality-userguide
      :width: 65%
 
@@ -63,7 +58,7 @@ Hugging Face Sentiment Analysis is configured as below :
 * Pre-loaded LLM Model to be used for computing sentiment is to be selected in the **MODEL TO BE USED FOR SENTIMENT ANALYSIS** box.
 * Alternatively, any other Hugging Face model can be used to perform the analysis by entering the model name in the **CUSTOM MODEL NAME** box.
 
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/hf-config.png
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/hf-config.png
      :alt: data-quality-userguide
      :width: 65%
 
@@ -73,7 +68,7 @@ Hugging Face Sentiment Analysis Node Output
 
 The output of the Hugging Face Sentiment Analysis node includes a score column, indicating the confidence level with which the text is classified as positive, negative, or neutral.
 
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/output.png
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/output.png
      :alt: data-quality-userguide
      :width: 65%
 

@@ -132,11 +132,18 @@ Follow the below steps to install Sparkflows using tgz file :
 
 #. **Download and install JDK 8**
 
-   Install and Open JDK 1.8 by running the following :
+   On CentOS, install and Open JDK 1.8 by running the following :
        
      ::
          
          sudo yum install -y java-1.8.0-openjdk-devel
+
+   On Ubuntu, install and Open JDK 1.8 by running the following :
+       
+     ::
+         
+         sudo apt-get update
+         sudo apt-get install openjdk-8-jdk
 
 #. **Check Java Version**
    

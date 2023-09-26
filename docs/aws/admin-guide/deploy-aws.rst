@@ -143,7 +143,7 @@ Follow the below steps to install Sparkflows using tgz file :
      ::
          
          sudo apt-get update
-         sudo apt-get install openjdk-8-jdk
+         sudo apt install openjdk-8-jdk
 
 #. **Check Java Version**
    

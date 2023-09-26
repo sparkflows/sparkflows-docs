@@ -1,16 +1,16 @@
-Copy files to S3 with AWS-CLI
+Copy files to S3 with AWS CLI
 ===========
 
-This document offers a step-by-step guide for seamlessly transferring multiple files from your laptop to an S3 bucket. By following the instructions provided below, you can easily copy the files to the S3 bucket using the AWS-CLI.
+This document offers a step-by-step guide for seamlessly transferring multiple files from your laptop to an S3 bucket. By following the instructions provided below, you can easily copy the files to the S3 bucket using the AWS CLI.
 
-#. Install AWS-CLI on machine, if not already installed
+#. Install AWS CLI on machine, if not already installed
 #. Configure AWS Credentials
 #. View the S3 Bucket
 #. View the S3 Directory
 #. Copy files to the S3 bucket
 #. Delete all files in directory
 
-Step 1 : Install AWS-CLI on Mac
+Step 1 : Install AWS CLI on Mac
 ------------------------
 ..  code::
  

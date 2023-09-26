@@ -159,7 +159,8 @@ Follow the below steps to install Sparkflows using tgz file :
    * Install `wget` command using :
      ::
 
-        sudo yum -y install wget
+        sudo yum -y install wget (CentOS)
+        sudo apt-get install wget (Ubuntu)
 
    * Download the latest TAR from :
      ::
@@ -188,7 +189,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
 #. **Install Python**
    
-   * Run the below commands to install all the Python dependencies using :
+   * For CentOS, run the below commands to install all the Python dependencies using :
      ::
         cd ..
         sudo yum -y update
@@ -198,6 +199,17 @@ Follow the below steps to install Sparkflows using tgz file :
         cd Python-3.7.0
         sudo ./configure --enable-optimizations
         sudo yum -y install make
+        sudo make altinstall
+
+   * For Ubuntu, run the below commands to install all the Python dependencies using :
+     ::
+        cd ..
+        sudo apt -y update
+        sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev wget libbz2-dev
+        wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+        tar xzf Python-3.7.0.tgz
+        cd Python-3.7.0
+        sudo ./configure --enable-optimizations
         sudo make altinstall
 
    * Check the system wide version of python installed by running : 

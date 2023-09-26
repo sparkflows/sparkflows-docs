@@ -49,7 +49,7 @@ AWS Admin Guide
     
     ---
 
-    :doc:`/aws/admin-guide/jupyter`
+    :doc:`/aws/admin-guide/jupyter/index`
 
     Jupyter notebook installation and Configurations.
 

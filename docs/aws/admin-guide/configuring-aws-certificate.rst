@@ -59,25 +59,25 @@ Step 3 : Get Certificate from ACM
 
 * **Select Certificate Type as Public Certificate :**
 
-   .. figure:: ../../_assets/aws/aws-certificate/request_certificate.PNG
+  .. figure:: ../../_assets/aws/aws-certificate/request_certificate.PNG
       :alt: aws
       :width: 65%
 
 * **Enter the Domain Name (FQDN) :**
 
-   .. figure:: ../../_assets/aws/aws-certificate/request_details_1.PNG
+  .. figure:: ../../_assets/aws/aws-certificate/request_details_1.PNG
       :alt: aws
       :width: 65%  
 
 * **Select Validation Method as DNS Validation :**
 
-   .. figure:: ../../_assets/aws/aws-certificate/request_details_2.PNG
+  .. figure:: ../../_assets/aws/aws-certificate/request_details_2.PNG
       :alt: aws
       :width: 65%   
 
 * **Select appropriate Key Algorithm and Add Tags :**
 
-   .. figure:: ../../_assets/aws/aws-certificate/request_details_3.PNG
+  .. figure:: ../../_assets/aws/aws-certificate/request_details_3.PNG
       :alt: aws
       :width: 65%      
 
@@ -94,7 +94,7 @@ Step 4 : Create a Load Balancer
       :alt: aws
       :width: 55%
 
-* **Create Security Group and Configure Listner Settings :**   
+* **Create Security Group and Configure Listener Settings :**   
   
   .. figure:: ../../_assets/aws/aws-certificate/load_confugurations.PNG
      :alt: aws

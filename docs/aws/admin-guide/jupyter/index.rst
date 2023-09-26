@@ -16,11 +16,11 @@ Once the modeling process is complete, the algorithm can be run on the full data
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/admin-guide/jupyter/overview`
+    :doc:`/aws/admin-guide/jupyter/overview`
 
     ---
     
-    :doc:`/admin-guide/jupyter/installation`
+    :doc:`/aws/admin-guide/jupyter/installation`
     
 
 

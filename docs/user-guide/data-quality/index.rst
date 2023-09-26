@@ -6,7 +6,7 @@ Fire Insights provides powerful capabilities for monitoring data quality. It pro
 
 .. panels::
     :container: container-lg pb-3
-    :column: col-lg-12 p-2
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
     :doc:`/user-guide/data-quality/data-quality-processors`
 

@@ -36,43 +36,43 @@ Instance Type & OS Supported
    * - OS
      - Instance type
      - AMI ID
-   * - RHEL8.X
+   * - RHEL 8.X
      - m4.xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL8.X
+   * - RHEL 8.X
      - m4.2xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL8.X
+   * - RHEL 8.X
      - t2.xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL8.X
+   * - RHEL 8.X
      - t2.2xlarge
      - ami-096fda3c22c1c990a
-   * - RHEL8.X
+   * - RHEL 8.X
      - t3.xlarge
      - ami-096fda3c22c1c990a 
-   * - RHEL8.X
+   * - RHEL 8.X
      - t3.2xlarge
      - ami-096fda3c22c1c990a
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - t2.xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - t2.2xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - t3.xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - t3.2xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - m5.xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - m5.2xlarge
      - ami-0261755bbcb8c4a84
-   * - ubuntu20.04
+   * - Ubuntu 20.04
      - r5.2xlarge
      - ami-0261755bbcb8c4a84
 

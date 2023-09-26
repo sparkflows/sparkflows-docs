@@ -135,8 +135,8 @@ Follow the below steps to install Sparkflows using tgz file :
 .. note:: If you are using Ubuntu, you may have to do the following::
 
   - sudo dpkg-reconfigure dash
-  - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
-  - And then select ``No``.
+
+  And then select ``No``.
 
 #. **Download and install JDK 8**
 
@@ -150,8 +150,8 @@ Follow the below steps to install Sparkflows using tgz file :
        
      ::
          
-         sudo apt-get update
          sudo apt install openjdk-8-jdk
+        
 
 #. **Check Java Version**
    
@@ -171,10 +171,14 @@ Follow the below steps to install Sparkflows using tgz file :
    
     To download, follow the steps given below :
 
-   * Install `wget` command using :
+   * For CentOS, install `wget` command using :
      ::
 
-        sudo yum -y install wget (CentOS)
+        sudo yum -y install wget
+
+   * For Ubuntu, install `wget` command using :
+     ::
+
         sudo apt-get install wget (Ubuntu)
 
    * Download the latest TAR from :

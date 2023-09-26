@@ -19,7 +19,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
 * Update the packages list and install the packages necessary to build Python source::
 
-  sudo apt update
+    sudo apt update
 
   .. figure:: ../../_assets/configuration/update_ubuntu.PNG
    :alt: Installations
@@ -41,17 +41,19 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
 * Download and untar::
   
-  wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+    wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+  ::
   
-  tar xzf Python-3.7.0.tgz
+      tar xzf Python-3.7.0.tgz
 
   .. figure:: ../../_assets/configuration/download_tar.PNG
-   :alt: Installations
-   :width: 90%
+         :alt: Installations
+         :width: 90%
 
-* Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present:
+* Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
 
-  ``cd Python-3.7.0``
+    cd Python-3.7.0
 
   .. figure:: ../../_assets/configuration/cd_python.PNG
    :alt: Installations
@@ -59,7 +61,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
 * Build & compile::
 
-  sudo ./configure --enable-optimizations
+    sudo ./configure --enable-optimizations
  
   .. figure:: ../../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations
@@ -78,6 +80,9 @@ Note: Do not use the standard make install as it will overwrite the default syst
 Verify it by typing::
 
   python3.7 –-version
+
+::
+
   cd ..
 
 .. figure:: ../../_assets/configuration/python_version.PNG
@@ -90,7 +95,13 @@ Create Python virtual environment & Activate it
 Create Python virtual environment & Activate it::
 
   python3.7 -m venv venv
+
+::
+
   source venv/bin/activate
+
+::
+
   python --version
   
 .. figure:: ../../_assets/configuration/venv_ubuntu.PNG
@@ -173,7 +184,19 @@ Delete a venv
 To delete a virtual environment, follow below steps::
 
     source venv/bin/activate
+
+::
+
     pip freeze > requirements.txt
+
+::
+
     pip uninstall -r requirements.txt -y
+
+::
+
     deactivate
+
+::
+
     rm -r venv/

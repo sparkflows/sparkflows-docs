@@ -1,4 +1,4 @@
-Planning Guide
+Overview
 =================
 
 This document serves as a detailed guide to help you plan on deploying and using Fire Insights on AWS.

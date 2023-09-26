@@ -1,4 +1,4 @@
-Test Install
+Validate the Install
 ============================
 
 This document serves as a detailed guide to run Sanity tests on Sparkflows running on AWS.

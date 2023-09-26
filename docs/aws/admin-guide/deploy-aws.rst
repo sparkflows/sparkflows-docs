@@ -1,4 +1,4 @@
-Deployment Guide
+Installation Guide
 ======
 
 Sparkflows can run the jobs on the same machine, or it can be connected to an AWS EMR cluster for job executions. 

@@ -94,9 +94,9 @@ Ensure that you have the following prerequisites with regard to software specifi
      - Ensure DNS and https certificates are set up
      - HTTPS certificate available
 
-Step 2 : Installation and setup on AWS EC2
+Step 2 : Procure an EC2 machine and setup the Networking
 ++++
-Setup EC2 Machine and Configure the Network Settings.
+Setup EC2 Machine with one of the recommended OS and Configure the Network Settings.
 
 For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
 

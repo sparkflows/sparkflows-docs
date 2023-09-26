@@ -207,6 +207,7 @@ Follow the below steps to install Sparkflows using tgz file :
         sudo ./configure --enable-optimizations
         sudo yum -y install make
         sudo make altinstall
+        cd ..
 
    * For Ubuntu, run the below commands to install all the Python dependencies using :
      ::
@@ -218,6 +219,7 @@ Follow the below steps to install Sparkflows using tgz file :
         cd Python-3.7.0
         sudo ./configure --enable-optimizations
         sudo make altinstall
+        cd ..
 
    * Check the system wide version of python installed by running : 
      ::

@@ -132,6 +132,12 @@ Follow the below steps to install Sparkflows using tgz file :
 
 **Note :** Run all the below steps a user with sudo permission. If unsure, please run the below commands as `root` user
 
+.. note:: If you are using Ubuntu, you may have to do the following::
+
+  - sudo dpkg-reconfigure dash
+  - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
+  - And then select ``No``.
+
 #. **Download and install JDK 8**
 
    On CentOS, install and Open JDK 1.8 by running the following :

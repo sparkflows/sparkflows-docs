@@ -3,7 +3,7 @@ RDS Setup and Configurations
 
 Fire Insights can easily be setup up to run with MySQL.
 
-you can set it up directly from AWS RDS or it can be installed it on any machine
+You can set it up directly from AWS RDS or it can be installed on an EC2 machine
 
 More details of the MySQL database can be found here : https://www.mysql.com/
 

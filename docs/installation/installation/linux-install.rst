@@ -23,11 +23,10 @@ Below are required for installing Sparkflows on Linux machine::
   - Java and JAR should be in the PATH
   - 8 GB+ of RAM (16 GB+ recommended).
 
-.. note:: If you are using Ubuntu, you may have to do the following::
+If you are installing on Ubuntu, please run the following And then select ``No`` ::
 
-  - sudo dpkg-reconfigure dash
-  - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
-  - And then select ``No``.
+      sudo dpkg-reconfigure dash
+
 
 Below is needed if Sparkflows would connect and submit jobs to an Apache Spark Cluster::
 
@@ -69,6 +68,9 @@ Install OpenJDK8 JDK using yum
 ::
 
   yum -y update
+
+::
+
   yum install java-1.8.0-openjdk-devel
 
 
@@ -95,11 +97,17 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 * Create H2 Database::
 
       cd <fire install_dir>
+
+  ::
+
       ./create-h2-db.sh
     
 * Launch Fire Server::
 
     cd <fire install_dir>
+
+  ::
+
     ./run-fire-server.sh start
 
 * Open your web browser and navigate to:: 
@@ -141,6 +149,9 @@ Use the below steps to deploy Sparkflows in production grade environment. Once, 
 * Launch Fire server::
 
     cd <fire install_dir>
+
+  ::
+
     ./run-fire-server.sh start
     
 * Test by opening your web browser and going to::
@@ -194,6 +205,9 @@ Helpful Commands
 * Forwarding traffic to a port::
   
    sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+
+  ::
+
    sudo firewall-cmd --reload
 
 

@@ -16,7 +16,7 @@ Below is a brief overview of the steps involved in the deployment process :
    * EMR Cluster Access
    * Machine Specifications
    * Software Specifications
-#. Installation and Setup on AWS EC2
+#. Procure an EC2 machine and setup the Networking
 #. DNS Certificates Setup for HTTPS
 #. Install Sparkflows
 #. Accessing Sparkflows & Creating Users

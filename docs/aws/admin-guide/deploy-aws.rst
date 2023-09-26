@@ -5,24 +5,6 @@ Sparkflows can run the jobs on the same machine, or it can be connected to an AW
 
 This document describes the steps to deploy Sparkflows on AWS.
 
-Overview
-++++
-Below is a brief overview of the steps involved in the deployment process :
-
-#. Prerequisites Check
-  
-   * EC2 Instance Privileges
-   * S3 Bucket Permissions 
-   * EMR Cluster Access
-   * Machine Specifications
-   * Software Specifications
-#. Procure an EC2 machine and setup the Networking
-#. DNS Certificates Setup for HTTPS
-#. Install Sparkflows
-#. Accessing Sparkflows & Creating Users
-#. Reloading Sample Projects
-#. Compute Connection for Submitting the Job
-
 Step 1 : Prerequisites Check
 ++++
 
@@ -30,7 +12,7 @@ Before you begin, ensure that you have the following prerequisites in place:
 
 **EC2 Instance Privileges**
 -------
-Ensure that you have EC2 Instance with sufficient privileges.
+Ensure that you have EC2 Instance with sufficient privileges to install packages.
 
 **S3 Bucket Permissions**
 --------

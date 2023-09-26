@@ -7,7 +7,7 @@ Fire Insights enables you to perform visualize data using charts, maps, tables e
     :container: container-lg pb-3
     :column: col-lg-12 p-2
 
-    :doc:`/user-guide/data-exploration/data-visualization`
+    :doc:`/user-guide/data-visualization/data-visualization`
 
     Provides a number of processors for Data Visualization.
 

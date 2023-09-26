@@ -9,6 +9,9 @@ Check if Python 3.7 is Installed
 Use one of the below commands to check if the Python is installed on the machine or not::
 
   python --version
+
+::
+
   python3 --version
 
     
@@ -40,6 +43,9 @@ Download python from below Link
 Download and untar::
   
      wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+::
+
      tar xzf Python-3.7.0.tgz
      
 
@@ -49,9 +55,21 @@ Compile Python source code
 Compile the Python source code on your system using altinstall::
 
     cd Python-3.7.0
+
+::
+
     ./configure --enable-optimizations
+
+::
+
     sudo make altinstall
+
+::
+
     python3.7 --version
+
+::
+
     cd ..
   
 .. figure:: ../../_assets/configuration/python3_7.PNG
@@ -64,7 +82,13 @@ Create Python virtual environment & Activate it
 Create Python virtual environment & Activate it::
 
   python3.7 -m venv venv
+
+::
+
   source venv/bin/activate
+
+::
+
   python --version
 
 .. figure:: ../../_assets/configuration/venv_python.PNG
@@ -126,6 +150,9 @@ Run below command with sudo privilege
 ::
  
     scl enable devtoolset-7 bash
+
+::
+
     gcc --version
    
 .. figure:: ../../_assets/configuration/gcc_version.PNG
@@ -173,8 +200,14 @@ If connecting to S3 buckets from PySpark
 If connecting to S3 buckets to read/write data, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
 
    wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.1/hadoop-aws-3.3.1.jar
+
+::
+
    wget https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0.jar
-   wget https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
+
+::
+
+  wget https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
 
 
 If using read excel node from PySpark
@@ -197,22 +230,43 @@ Delete a venv
 To delete a virtual environment, follow below steps::
 
   source venv/bin/activate
+
+::
+
   pip freeze > requirements.txt
+
+::
+
   pip uninstall -r requirements.txt -y
+
+::
+
   deactivate
+
+::
+
   rm -r venv/
 
-Installing pip & wheel
+Installing pip & wheel::
 +++++++++++++++++++
 
-* yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-* yum install python-pip
-* yum install python-wheel
+  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+::
+
+  yum install python-pip
+
+::
+
+  yum install python-wheel
   
   
-Add below in bash_profile
+Add below in bash_profile::
 ++++++++++++++++++++++++++
 
-* export PYSPARK_PYTHON=/usr/bin/python3
-* export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
+  export PYSPARK_PYTHON=/usr/bin/python3
+
+::
+
+  export PYSPARK_DRIVER_PYTHON=/usr/bin/python3  
 

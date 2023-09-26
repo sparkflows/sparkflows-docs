@@ -1,7 +1,7 @@
 Overview
 --------
 
-Fire can be used to, easily, create a downsampled dataset. Fire provides a ``sample`` processor for it.
+Fire can be used to, easily, create a downsampled dataset. Fire provides a **sample** processor for it.
 
 Once the dataset size is small, data scientists can use it to build model in Jupyter notebook.
 

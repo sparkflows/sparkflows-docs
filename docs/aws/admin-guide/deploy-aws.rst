@@ -211,26 +211,77 @@ Follow the below steps to install Sparkflows using tgz file :
    * For CentOS, run the below commands to install all the Python dependencies using :
      ::
         cd ..
+
+     ::
+
         sudo yum -y update
+
+     ::
+
         sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+
+     ::
+
         wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+     ::
+
         tar xzf Python-3.7.0.tgz
+
+     ::
+
         cd Python-3.7.0
+
+     ::
+
         sudo ./configure --enable-optimizations
+
+     ::
+
         sudo yum -y install make
+
+     ::
+
         sudo make altinstall
+
+     ::
+
         cd ..
 
    * For Ubuntu, run the below commands to install all the Python dependencies using :
      ::
         cd ..
+
+     ::
+
         sudo apt -y update
+
+     ::
+
         sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev wget libbz2-dev
+
+     ::
+
         wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+
+     ::
+
         tar xzf Python-3.7.0.tgz
+
+     ::
+
         cd Python-3.7.0
+
+     ::
+
         sudo ./configure --enable-optimizations
+
+     ::
+
         sudo make altinstall
+
+     ::
+
         cd ..
 
    * Check the system wide version of python installed by running : 
@@ -242,9 +293,21 @@ Follow the below steps to install Sparkflows using tgz file :
      Create the virtual environment, activate it and install the python libraries inside it by running :
      ::
         python3.7 -m venv venv
+
+     ::
+
         source venv/bin/activate
+
+     ::
+
         pip install pip --upgrade
+
+     ::
+
         pip install pystan
+
+     ::
+
         pip install convertdate
 
    * Install all the other python libraries from the `requirements.txt` file :

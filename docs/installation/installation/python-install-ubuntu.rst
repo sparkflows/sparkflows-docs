@@ -59,7 +59,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
 * Build & compile::
 
-  ./configure --enable-optimizations
+  sudo ./configure --enable-optimizations
  
   .. figure:: ../../_assets/configuration/configure_ubuntu.PNG
    :alt: Installations

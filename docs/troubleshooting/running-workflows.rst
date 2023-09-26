@@ -154,3 +154,31 @@ The below can be used to check if the XgBoost is supported on the current deploy
   hc = H2OContext.getOrCreate()
   is_xgboost_available = H2OXGBoostEstimator.available()
   print("is_xgboost_available:", is_xgboost_available)
+
+Getting Exception on saving Apache Spark workflows. Other models get saved fine:
+------------------------------------------------------------------------------------------------------------
+
+When Spark model saving fails with the below Snappy error::
+
+   org.apache.spark.SparkException: Task failed while writing rows.
+   at org.apache.spark.sql.errors.QueryExecutionErrors$.taskFailedWhileWritingRowsError(QueryExecutionErrors.scala:500)
+   at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:321)
+   at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$write$16(FileFormatWriter.scala:229)
+   at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+   at org.apache.spark.scheduler.Task.run(Task.scala:131)
+   at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:506)
+   at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1462)
+   at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:509)
+   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+   at java.lang.Thread.run(Thread.java:750)\nCaused by: java.lang.IllegalArgumentException
+   at java.nio.Buffer.limit(Buffer.java:275)
+   at org.xerial.snappy.Snappy.compress(Snappy.java:156)
+
+The most likely reason is that the OS is a hardened version and is missing the below packages. Install them by running the below commands::
+
+   sudo apt-get update -y
+
+::
+
+   sudo apt-get install -y libsnappy-dev

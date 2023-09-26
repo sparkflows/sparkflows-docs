@@ -56,11 +56,17 @@ Quick Installation Steps of Fire with H2 Database
 * Create H2 Database::
 
       cd <fire install_dir>
+
+  ::
+
       ./create-h2-db.sh
     
 * Launch Fire Server::
 
     cd <fire install_dir>
+
+  ::
+
     ./run-fire-server.sh start
 
 * Open your web browser and navigate to:: 
@@ -102,6 +108,9 @@ Detailed Installation Steps
 * Launch Fire server::
 
     cd <fire install_dir>
+
+  ::
+
     ./run-fire-server.sh start
     
 * Test by opening your web browser and going to::
@@ -173,7 +182,13 @@ Create Python virtual environment & Activate it
 Create Python virtual environment & Activate it::
 
   python -m venv venv
+
+::
+
   source venv/bin/activate
+
+::
+
   python --version
   
   
@@ -210,5 +225,8 @@ Forwarding traffic to a port
 ::
 
     sudo firewall-cmd --add-forward-port=port=443:proto=tcp:toport=8443 --permanent
+
+::
+
     sudo firewall-cmd --reload
 

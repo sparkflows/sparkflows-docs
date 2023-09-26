@@ -132,11 +132,10 @@ Follow the below steps to install Sparkflows using tgz file :
 
 **Note :** Run all the below steps a user with sudo permission. If unsure, please run the below commands as `root` user
 
-.. note:: If you are using Ubuntu, you may have to do the following::
+.. note:: If you are using Ubuntu, you may have to run the following and then select ``No``.::
 
-  - sudo dpkg-reconfigure dash
+  sudo dpkg-reconfigure dash
 
-  And then select ``No``.
 
 #. **Download and install JDK 8**
 

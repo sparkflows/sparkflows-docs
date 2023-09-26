@@ -150,10 +150,10 @@ Below is the sample workflow where data is read from S3 and the final Spark ML m
       :alt: Spark ML Workflow
       :width: 65%
    
-**Save H20 ML Model**
+**Save H2O ML Model**
 ---------------------
 
-Fire allows users to save the H2O ML models to S3 bucket with the use of **H20 ML Model Save** processor.
+Fire allows users to save the H2O ML models to S3 bucket with the use of **H2O ML Model Save** processor.
 
 Here, we try to explain the details of configuration settings with the help of a sample workflow.
 
@@ -164,14 +164,14 @@ Here, we try to explain the details of configuration settings with the help of a
 Below is the sample workflow where final H20 ML model is saved to S3 location.
 
    .. figure:: ../../_assets/aws/h2o-wf.png
-      :alt: H20 ML Workflow
+      :alt: H2O ML Workflow
       :width: 65%
 
 **Configuration of H2O ML Model Save processor**
 ++++++++
 
    .. figure:: ../../_assets/aws/h2o-model-save-config.png
-      :alt: H20 ML Workflow   
+      :alt: H2O ML Workflow   
       :width: 65%
 
 
@@ -179,6 +179,6 @@ Below is the sample workflow where final H20 ML model is saved to S3 location.
 ++++++
 
    .. figure:: ../../_assets/aws/h20ml-workflow-execution-result.PNG
-      :alt: H20 ML Workflow
+      :alt: H2O ML Workflow
       :width: 65%
    

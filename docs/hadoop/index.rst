@@ -106,10 +106,82 @@ In this guide, we'll see how we can setup Hadoop 3.x multi-node cluster.
 
 
 
+11. Edit hdfs-site.xml, mapred-site.xml and yarn-site.xml
+
+**hdfs-site.xml** - Thee configuration options for the NameNode, Secondary NameNode, and DataNodes HDFS daemons are found in the hdfs-site.xml file. Here, we can set the default block replication and permission checking for HDFS in hdfs-site.xml. When the file is created, the precise number of replications can also be specified. If replication is not specified at create time, the default is applied.
+
+**mapred-site.xml** - The job tracker, task-trackers, and configuration settings for MapReduce daemons are all contained in the mapred-site.xml file.
+
+**yarn-site.xml** - The yarn-site.xml configuration file should contain security information when configuring Kerberos for non-Ambari clusters
+
+12. Edit hdfs-site.xml
+
+Open the vi editor
+sudo vi $HADOOP_HOME/etc/hadoop/hdfs-site.xml
+
+Copy following lines and paste it in hdfs-site.xml::
+
+      <configuration>
+      <property>
+      <name>dfs.replication</name>
+      <value>3</value>
+      </property>
+
+      <property>
+      <name>dfs.name.dir</name>
+      <value>file:///home/hadoop/hdfs/namenode</value>
+      </property>
+
+      <property>
+      <name>dfs.data.dir</name>
+      <value>file:///home/hadoop/hdfs/datanode</value>
+      </property>
+      </configuration>
+
+13. Edit mapred-site.xml
+Launch vi editor and open mapred-site.xml
+sudo vi $HADOOP_HOME/etc/hadoop/mapred-site.xml
+
+Copy the following lines and paste them in mapred-site.xml::
+
+      <configuration>
+      <property>
+      <name>mapreduce.framework.name</name>
+      <value>yarn</value>
+      </property>
+      </configuration>
 
 
+14. Edit yarn-site.xml
 
+Launch vi editor and open yarn-site.xml
+sudo nano $HADOOP_HOME/etc/hadoop/yarn-site.xml
 
+Copy following lines and paste it in yarn-site.xml::
+      <configuration>
+      <property>
+      <name>yarn.nodemanager.aux-services</name>
+      <value>mapreduce_shuffle</value>
+      </property>
+      </configuration>
+
+15. Format the HDFS NameNode and validate the Hadoop configuration.
+
+Switch to hadoop user::
+
+      sudo su - hadoop
+
+Format the namenode::
+
+      hdfs namenode -format
+
+Launch the yarn resource and node manager::
+
+      start-yarn.sh
+
+Verify running components::
+
+      jps
 
 
   

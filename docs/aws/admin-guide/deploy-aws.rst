@@ -309,7 +309,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
    To adjust and personalize the port settings :
 
-   You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1.tgz/conf**.
+   You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1/conf**.
 
    Start the Sparkflows server by running the below :
      

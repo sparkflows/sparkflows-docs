@@ -121,7 +121,7 @@ Step 7 : Create the Tables for Fire in MySQL
 
 .. Note::  If running on Linux, follow the steps below :
 
-* Create the tables for Fire in MySQL by executing the **create-mysql-db.sh** or **create-mysql-db.bat** script, depending on OS::
+* Create the tables for Fire in MySQL by executing the **create-mysql-db.sh** or **create-mysql-db.bat** script, depending on OS ::
 
     cd fire-x.y.z
 
@@ -130,18 +130,20 @@ Step 7 : Create the Tables for Fire in MySQL
 Troubleshooting
 ---------------
 
-MySQL has a problem where one of the default users in the user table is ``'' @ localhost``, which winds up denying all localhost users later in the table. If you are accessing MySQL from localhost, assuming Fire and MySQL have been installed on the same machine, then you need to delete this entry in **mysql.user** table::
+MySQL has a problem where one of the default users in the user table is ``'' @ localhost``, which winds up denying all localhost users later in the table. If you are accessing MySQL from localhost, assuming Fire and MySQL have been installed on the same machine, then you need to delete this entry in **mysql.user** table
+
+   ::
 
 
-    select user, host from user where user = ''          
+       select user, host from user where user = ''          
 
-    #you should see an entry for this and host equals localhost.
+       #you should see an entry for this and host equals localhost.
 
-    DELETE from user WHERE user = '' AND host = 'localhost';
+       DELETE from user WHERE user = '' AND host = 'localhost';
 
-    flush privileges;
+       flush privileges;
 
-    #this reloads privileges - It is an important step in the process or otherwise you will get "access denied error" even though you log in with the correct user.
+       #this reloads privileges - It is an important step in the process or otherwise you will get "access denied error" even though you log in with the correct user.
 
 
 To read more about this, visit : `stackoverflow official website <http://stackoverflow.com/questions/1412339/cannot-log-in-with-created-user-in-mysql>`_

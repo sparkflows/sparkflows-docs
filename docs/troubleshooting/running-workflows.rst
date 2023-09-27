@@ -182,3 +182,23 @@ The most likely reason is that the OS is a hardened version and is missing the b
 ::
 
    sudo apt-get install -y libsnappy-dev
+
+
+Getting Hangs on training H2O models on Big Data. Runs fine on small data:
+------------------------------------------------------------------------------------------------------------
+
+When H2O model training hangs with the last fewl lines of log like below::
+
+   09-27 08:05:46.957 172.31.54.165:54321   #4311  8988233-62  INFO water.default: POST /3/InitializeFrame, parms: {key=frame_rdd_5-639583683, columns=["Col1","Col2","Col3","Col4","Col5","Col6","Col7","Col8","Col9","Col10","Col11","Col2"]}
+   09-27 08:05:47.014 172.31.54.165:54321   #4311        main  INFO ai.h2o.sparkling.H2OFrame: H2O node http://172.31.54.165:54321/3/InitializeFrame successfully responded for the POST.
+   09-27 08:05:54.459 172.31.54.165:54321   #4311  8988233-55  INFO water.default: GET /3/UploadPlan, parms: {number_of_chunks=3}
+   09-27 08:05:54.476 172.31.54.165:54321   #4311        main  INFO ai.h2o.sparkling.H2OFrame: H2O node http://172.31.54.165:54321/3/UploadPlan?number_of_chunks=3 successfully responded for the GET.
+
+The most likely reason is that the OS is a hardened version and is missing the below packages. Install them by running the below commands::
+
+   sudo apt-get update -y
+
+::
+
+   sudo apt-get install libsnappy1v5
+

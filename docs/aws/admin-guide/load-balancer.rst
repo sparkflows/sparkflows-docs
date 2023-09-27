@@ -1,6 +1,5 @@
 Load Balancer
 =============
 
-The details of load balancer can be found in the docs in the link below.
+`Click here <https://docs.sparkflows.io/en/latest/installation/loadbalancer/index.html>`_ to get detailed information on load balancer. 
 
-https://docs.sparkflows.io/en/latest/installation/loadbalancer/index.html

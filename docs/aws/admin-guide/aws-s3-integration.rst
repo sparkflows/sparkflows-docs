@@ -101,20 +101,22 @@ Step 5 : Protect Data Using Server Side Encryption
 .. note:: It is recommended to regularly rotate your access and secret keys. For more details refer the `AWS documentation. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#rotating_access_keys_console>`_ 
           
 
-Amazon S3 Integration via IAM role
+Amazon S3 Integration via IAM Role
 ++++++++++++++
 
 Fire Insights enables you to configure with S3 running on EC2 instance using IAM role.
 
 Following steps are required to create a role for S3 bucket access and attach the role to EC2 instance on which Fire is running:
 
-1. Create a Role:
+Step 1 : Create a Role
+-------------
 
-Login to AWS Console which has sufficient privilege to create a role with name ''assume-role-bucket1''.
+Login to AWS Console which has sufficient privilege to create a role with name **assume-role-bucket1**.
 
-2. Create Inline Policy:
+Step 2 : Create Inline Policy
+------------
 
-Create an ''inline policy'' which has access to S3 policy which in turn has access to the different buckets e.g. ''assume-role-bucket1'' & ''assume-role-bucket2'' and then attach it to the role.
+Create an **inline policy** which has access to S3 policy which in turn has access to the different buckets e.g. **assume-role-bucket1** & **assume-role-bucket2** and then attach it to the role.
 
 ::
 
@@ -168,69 +170,74 @@ Create an ''inline policy'' which has access to S3 policy which in turn has acce
   }
 
 
-3. Now, the policy ''assume_role_bucket1'' needs to be attached to the EC2 instance where Fire is running.
+Step 3 : Attach Policy to EC2 Instance
+------------
 
-In order to attach the above role to EC2 instance, you need to Login to AWS Console and go to ``EC2 Dashboard`` and select the EC2 instance where Fire is running and choose ``Security``, from ``Actions`` dropdown and click on ``Modify IAM role``.
+Now, the policy **assume_role_bucket1** needs to be attached to the EC2 instance where Fire is running.
 
-.. figure:: ../../_assets/aws/aws_s3_ec2/role_added.PNG
-   :alt: aws
-   :width: 60%
+#. In order to attach the above role to EC2 instance, you need to Login to AWS Console and go to **EC2 Dashboard** and select the EC2 instance where Fire is running and choose **Security**, from **Actions** dropdown and click on **Modify IAM role**.
 
-Select ``IAM role`` which was created in ``step 1`` and click on ``Update IAM role``.
+   .. figure:: ../../_assets/aws/aws_s3_ec2/role_added.PNG
+      :alt: aws
+      :width: 60%
 
-.. figure:: ../../_assets/aws/aws_s3_ec2/role_selected.PNG
-   :alt: aws
-   :width: 60%
+#. Select **IAM role** which was created in **step 1** and click on **Update IAM role**.
 
-Once the above steps get successfully completed, you need to configure S3 in Fire.
+   .. figure:: ../../_assets/aws/aws_s3_ec2/role_selected.PNG
+      :alt: aws
+      :width: 60%
 
-Fire Configurations for S3
+   Once the above steps get successfully completed, you need to configure S3 in Fire.
+
+Step 4 : Set Fire Configurations for S3
 -----------------------
 
-Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Fire Insights. Follow the steps given below to complete the configuration:
+Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Fire Insights. 
+
+Follow the steps given below to complete the configuration:
 
 1. Login to Fire Insights application:
 
-Once you login to Fire Insights application, click on ``ADMINISTRATION`` tab located on top, it will take you to the configuration page.
+   Once you login to Fire Insights application, click on **ADMINISTRATION** tab located on top, it will take you to the configuration page.
 
-.. figure:: ../../_assets/aws/glue/config.PNG
-   :alt: aws
-   :width: 60%
+   .. figure:: ../../_assets/aws/glue/config.PNG
+      :alt: aws
+      :width: 60%
 
 2. Update the below given parameters as per the AWS configurations:
 
-.. list-table:: 
-   :widths: 10 20 30
-   :header-rows: 1
+   .. list-table:: 
+      :widths: 10 20 30
+      :header-rows: 1
 
-   * - Title
-     - Description
-     - Value
-   * - Enable AWS
-     - Enable AWS for accessing the Amazon S3 buckets
-     - true
-   * - Enable AssumeRole
-     - Enable AWS Assume Role to access AWS Resources
-     - false
-   * - Home Dir
-     - Home Directory Path on S3 
-     - s3a://bucketName/sampleData 
-   * - AWS Region
-     - As per resource in the region
-     - Input the AWS region
+      * - Title
+        - Description
+        - Value
+      * - Enable AWS
+        - Enable AWS for accessing the Amazon S3 buckets
+        - true
+      * - Enable AssumeRole
+        - Enable AWS Assume Role to access AWS Resources
+        - false
+      * - Home Dir
+        - Home Directory Path on S3 
+        - s3a://bucketName/sampleData 
+      * - AWS Region
+        - As per resource in the region
+        - Input the AWS region
 
-.. figure:: ../../_assets/aws/iam-assume-role/aws_configurations.PNG
-   :alt: aws
-   :width: 60%
+   .. figure:: ../../_assets/aws/iam-assume-role/aws_configurations.PNG
+      :alt: aws
+      :width: 60%
 
-3. Now, save the configurations and click on ``DATA/AWS S3``.
+3. Now, save the configurations and click on **DATA/AWS S3**.
 
-If previous steps were successful, it will point to the S3 location configured.
+   If previous steps were successful, it will point to the S3 location configured.
 
-.. figure:: ../../_assets/aws/aws_s3_ec2/s3_access.PNG
-   :alt: aws
-   :width: 60%
+   .. figure:: ../../_assets/aws/aws_s3_ec2/s3_access.PNG
+      :alt: aws
+      :width: 60%
 
-Now, you can use the data available in S3 from workflow editor, using different nodes available.
+   Now, you can use the data available in S3 from workflow editor, using different nodes available.
 
 

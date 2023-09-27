@@ -146,6 +146,6 @@ MySQL has a problem where one of the default users in the user table is ``'' @ l
        #this reloads privileges - It is an important step in the process or otherwise you will get "access denied error" even though you log in with the correct user.
 
 
-To read more about this, visit : `stackoverflow official website <http://stackoverflow.com/questions/1412339/cannot-log-in-with-created-user-in-mysql>`_
+To read more about this, visit : `Stackoverflow Official Website <http://stackoverflow.com/questions/1412339/cannot-log-in-with-created-user-in-mysql>`_
             
 

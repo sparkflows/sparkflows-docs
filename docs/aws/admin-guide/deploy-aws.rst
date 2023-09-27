@@ -112,11 +112,13 @@ Follow the below steps to install Sparkflows using tgz file :
      ::
          ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
 
-**Note :** Run all the below steps a user with sudo permission. If unsure, please run the below commands as `root` user
+  
 
-.. note:: If you are using Ubuntu, you may have to run the following and then select ``No``.::
+   .. note::
+            * Run all the below steps as a user with sudo permission. If unsure, please run the below commands as `root` user.
+            * If you are using Ubuntu, you may have to run the following and then select ``No``. ::
 
-  sudo dpkg-reconfigure dash
+              sudo dpkg-reconfigure dash
 
 
 #. **Download and install JDK 8**
@@ -269,7 +271,7 @@ Follow the below steps to install Sparkflows using tgz file :
      ::
         python3.7 --version
 
-   * Install Python Libraries
+   * Install Python Libraries :
      
      Create the virtual environment, activate it and install the python libraries inside it by running :
      ::
@@ -297,7 +299,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
      .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
-   * Check if all dependencies are installed by running
+   * Check if all dependencies are installed by running :
      ::
         pip list
 
@@ -309,7 +311,7 @@ Follow the below steps to install Sparkflows using tgz file :
 
    You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1.tgz/conf**.
 
-   Start the Sparkflows server by running the below
+   Start the Sparkflows server by running the below :
      
        ::
          
@@ -384,9 +386,9 @@ By default Sparkflows comes with default user **admin** and **test** with defaul
 
 If you want to create new users, it can be done from Sparkflows **Administration Tab** by choosing **Users** as shown in the image below :
 
-   .. figure:: ../../_assets/aws/livy/administration.PNG
-      :alt: livy
-      :width: 60%
+      .. figure:: ../../_assets/aws/livy/administration.PNG
+         :alt: livy
+         :width: 60%
 
 Step 6 : Reloading Sample Project
 ++++

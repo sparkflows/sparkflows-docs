@@ -94,7 +94,7 @@ Step 4 : Create a Load Balancer
       :alt: aws
       :width: 55%
 
-* **Create Security Group and Configure Listener Settings :**   
+* **Create Security Group, Target group and Configure Listener Settings :**   
   
   .. figure:: ../../_assets/aws/aws-certificate/load_confugurations.PNG
      :alt: aws

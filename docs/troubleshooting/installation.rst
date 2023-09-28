@@ -50,7 +50,16 @@ If you run into error ``keytool error: java.io.IOException: Keystore was tampere
   - keytool -list -keystore <path of keystore.jks> -storepass <passoword_for_jks>`
   - More details can be found here: https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html
 
-6. Getting the error : java.net.BindException:Cannot assign requested address
+6. Getting the error : ``java.net.BindException:Cannot assign requested address``
 -------------------------------
 
 Make sure that you donot have mapped public ip to private ip in ``/etc/hosts``, As Fire Insights by default use localhost for subprocess.
+
+7. Getting the error when trying to run docker commands: docker: ``invalid reference format``
+-------------------------------
+
+Usually happens when copying the Docker commands to a Windows machine and then the unseen `NBSP` characters gets added in the command. 
+
+To fix it, copy the docker command first to an editor where NBSP characters can be seen like notepad++ or sublime and then remove the character and run the docker command.
+
+These characters are not seen on notepad on Windows or word and other text editors.

@@ -14,10 +14,14 @@ Prerequisites
     
         sudo usermod -aG docker ${USER}
     
-* Install AWS CLI if running docker on EC2::
+* Install AWS CLI if running docker on EC2 for Ubuntu::
 
-   sudo apt install awscli -y [On Ubuntu]
-   yum install awscli -y [On RHEL/CentOS]
+      sudo apt install awscli -y
+
+
+* Install AWS CLI if running docker on EC2 for RHEL/CentOS::
+
+      yum install awscli -y
 
 * If running Docker on EC2 instance, via AWS CLI one need to update the number of hops to 2 instead of the default value of 1 which is set for EC2 instance using the command below. Replace the actual instance ID value in the command below inplace of `i-0fe0xxxxxxxxxxx`::
 

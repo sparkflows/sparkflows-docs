@@ -11,7 +11,6 @@ Following the steps given below would allow you to successfully submit jobs usin
 
 Step 1 : Login to Fire Insights
 ------------
-To login :
 
 #. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
 
@@ -21,7 +20,7 @@ Step 2 : Create Sample Workflow
 #. Create a sample workflow which reads some sample data from S3 and prints some sample output.
 #. Save the workflow.
 
-      .. figure:: ../../../_assets/aws/livy/sample_wf.PNG
+      .. figure:: ../../../_assets/aws/livy/sample-workflow.png
          :alt: livy
          :width: 60%
 
@@ -29,15 +28,15 @@ Step 3 : Execute Sample Workflow
 ----------
 #. Once you have saved the workflow, execute it and select the connection as Livy.
 
-      .. figure:: ../../../_assets/aws/livy/wf_livy.PNG
+      .. figure:: ../../../_assets/aws/livy/execute-livy-wf.png
          :alt: livy
          :width: 60%
    
-      .. figure:: ../../../_assets/aws/livy/wf_livy_submission.PNG
+      .. figure:: ../../../_assets/aws/livy/livy-submission.png
          :alt: livy
          :width: 60%   
    
-      .. figure:: ../../../_assets/aws/livy/wf_livy_Submitted.PNG
+      .. figure:: ../../../_assets/aws/livy/livy-submitted.png
          :alt: livy
          :width: 60%   
 

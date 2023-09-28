@@ -9,10 +9,11 @@ Below are the steps:
 2. View the sample Applications.
 3. Execute a workflow on EMR.
 
-Step 1 : Log into the System
+Step 1 : Login to the System
 -------------------
 
 #. Login to the system as the **hadoop** user which you had created during the Deployment process.
+   
    http://docs.sparkflows.io/en/latest/aws/running-on-emr.html
 
 Step 2 : View the Sample Applications

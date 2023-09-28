@@ -1,24 +1,33 @@
 EMR Livy Job Submission
 ===============
 
-This is a stepwise guide to enable you to use a Livy Connection to submit jobs or workflows after you have successfully created an Apache Livy Connection in Sparkflows.
+Sparkflows empowers you to submit jobs or workflows through a Livy connection once you've established one successfully. 
 
-Detailed Steps
-++++++++++
+This document provides an in-depth guide to the steps required for submitting jobs via a Livy Connection.
 
-Following the steps given below would allow you to successfully submit jobs using a Livy Connection. 
+Following the steps given below would allow you to successfully submit jobs using a Livy Connection:
 
-1. Login to Fire Insights application and Create a sample workflow as shown below:
 
-   Create a workflow which reads some sample data from S3 and Print some sample output.
+
+Step 1 : Login to Fire Insights
+------------
+To login :
+
+#. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
+
+Step 2 : Create Sample Workflow
+-----------
+
+#. Create a sample workflow which reads some sample data from S3 and prints some sample output.
+#. Save the workflow.
 
       .. figure:: ../../../_assets/aws/livy/sample_wf.PNG
          :alt: livy
          :width: 60%
 
-2. Execute the workflow
-
-   Once you have saved the workflow, execute it and select the connection as Livy.
+Step 3 : Execute Sample Workflow
+----------
+#. Once you have saved the workflow, execute it and select the connection as Livy.
 
       .. figure:: ../../../_assets/aws/livy/wf_livy.PNG
          :alt: livy
@@ -32,9 +41,10 @@ Following the steps given below would allow you to successfully submit jobs usin
          :alt: livy
          :width: 60%   
 
-3. View Job status from YARN application and AWS Console
+Step 4 : View Job Status
+--------------------
 
-   After successful execution, you can view the Job status from YARN application and from AWS Console too.
+#. After successful execution, you can view the Job status from YARN application and from AWS Console too.
 
       .. figure:: ../../../_assets/aws/livy/emr_job.PNG
          :alt: livy

@@ -50,11 +50,11 @@ Installation Steps
 
 * In order to use MySQL database as the datastore, pass the db configuration as environment variable as shown below. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
 
-    docker run -m 16g -p 8080:8080 -p 9443:9443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 \
+    docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 \
     -e FIRE_VERSION=3.1.0 \
     -e KEYSTORE_PASSWORD=12345678 \
     -e FIRE_HTTP_PORT=8080 \
-    -e FIRE_HTTPS_PORT=9443 \
+    -e FIRE_HTTPS_PORT=8443 \
     -e DB_HOST=sparkflows-db.abc.rds.amazonaws.com \
     -e DB_PASSWORD=DB123 \
     -e DB_USERNAME=sparkflows \

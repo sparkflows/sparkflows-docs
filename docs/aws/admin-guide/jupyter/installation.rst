@@ -14,16 +14,17 @@ It will open the interface in your default web browser.
 
 Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
 
-#. Login to Fire web server URL
+Step 1 : Login to Fire web server URL
+.............
 
-   Once login to Fire web server URL, Goto **ADMINISTRATION -->> Configurations** and select **NOTEBOOK**.
+#. Once login to Fire web server URL, Goto **ADMINISTRATION -->> Configurations** and select **NOTEBOOK**.
 
 
     .. figure:: ../../../_assets/operating/jupyter_notebook_1.PNG
        :alt: operating
        :width: 60%
 
-   Update the below parameters:
+#. Update the below parameters:
 
     ::
 
@@ -34,9 +35,10 @@ Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
     .. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
 
 
-#. Open Jupyter Notebook
+Step 2 : Open and Access Jupyter Notebook
+.............
 
-   Once the above configuration is saved, refresh the web server URL and you will see ''Jupyter Notebook'', Open it.
+#. Once the above configuration is saved, refresh the web server URL and you will see **Jupyter Notebook**, Open it.
 
     .. figure:: ../../../_assets/operating/jupyter_notebook-access.PNG
        :alt: operating

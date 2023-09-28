@@ -122,11 +122,11 @@ Upgrading Steps
 * Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     
     
-    docker run -p 8080:8080 -p 9443:9443 \
+    docker run -p 8080:8080 -p 8443:8443 \
     -v ${SPARKFLOWS_ROOT}:/usr/local/fire-${RELEASE_VERSION}_spark_${SPARK_VERSION} \
     -e KEYSTORE_PASSWORD=12345678 \
     -e FIRE_HTTP_PORT=8080 \
-    -e FIRE_HTTPS_PORT=9443 \
+    -e FIRE_HTTPS_PORT=8443 \
     -e FIRE_VERSION=${FIRE_VERSION} \
     sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
  

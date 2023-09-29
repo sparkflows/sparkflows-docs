@@ -7,6 +7,20 @@ As Sparkflows Score Workflow
 -----------
   * The workflow can be triggered via REST API to score the data.
 
+An example request for Executing specified workflow:
+
+::
+   
+   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+  "emailOnFailure": "string",
+  "emailOnSuccess": "string",
+  "libJars": "string",
+  "programParameters": "string",
+  "sparkConfig": "string",
+  "workflowId": 1
+  }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
+   
+
 As REST End Point in Standalone Docker Image
 ---------------
   * Encapsulate the model inside a custom Docker image provided by Sparkflows.

@@ -6,10 +6,6 @@ Using Sparkflows Score Workflow
 ---------
    * There is no additional administrative configuration needed as the model is served as any other workflow. It just needs a running instance of Sparkflows server.
 
-    .. figure:: ../../_assets/mlops/mlops_workflow_score.png
-       :alt: Load balancers
-       :width: 60%
-
 Using Python Scorer in Standalone Docker Image
 -------------
 
@@ -29,6 +25,6 @@ Using Registered Models in MLflow
        * MLflow login password, if any.
 
 
-      .. figure:: ../../_assets/mlops/mlops_mlflow_score.png
+      .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
        :alt: Load balancers
        :width: 60%

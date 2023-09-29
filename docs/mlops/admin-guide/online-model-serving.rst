@@ -6,11 +6,6 @@ As Sparkflows Score Workflow
 ---------
   * There is no additional administrative configuration needed as the model is served as any other workflow. It just needs a running instance of Sparkflows server.
 
-.. figure:: ../../_assets/mlops/mlops_workflow_score.png
-   :alt: Load balancers
-   :width: 60%
-
-
 As REST End Point in Standalone Docker Image
 ------------
   * As an admin you would need to pull the custom scorer docker image of Sparkflows which has all the pre-requisites.

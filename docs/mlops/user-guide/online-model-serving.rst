@@ -35,6 +35,8 @@ As Registered Models in MLflow
   * If the model is no longer needed to be served, they can be **Undeployed** by click of the **Undeploy** model option in the **Actions** menu. The option to **Undeploy** gets enabled only for models deployed.
   * If for some reason, you want to re-register the model, once can click on the **Re-register** option to register the model again.
 
+
+
 As MLflow Scoring Container in Sagemaker
 ---------
   * The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 

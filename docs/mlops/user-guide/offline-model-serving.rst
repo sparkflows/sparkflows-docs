@@ -27,19 +27,11 @@ As Registered Models in MLflow
    :alt: Load balancers
    :width: 60%
 
-As MLflow Scoring Container in Sagemaker
+As MLflow Scoring Container on Sagemaker in batch mode
 -------------
   * Please contact us to deploy the model in Sagemaker. The model can be deployed to Sagemaker by click of a button from Sparkflows.
 
-  .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_1.png
-   :alt: Load balancers
-   :width: 60%
 
-  .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_2.png
-   :alt: Load balancers
-   :width: 60%
-
-
-As MLflow Scoring Container in AzureML
+As MLflow Scoring Container on AzureML in batch mode
 --------------
   * Please contact us to deploy the model in AzureML. The model can be deployed to AzureML by click of a button from Sparkflows.

@@ -6,6 +6,11 @@ As Sparkflows Score Workflow
 ---------
   * There is no additional administrative configuration needed as the model is served as any other workflow. It just needs a running instance of Sparkflows server.
 
+.. figure:: ../../_assets/mlops/mlops_workflow_score.png
+   :alt: Load balancers
+   :width: 60%
+
+
 As REST End Point in Standalone Docker Image
 ------------
   * As an admin you would need to pull the custom scorer docker image of Sparkflows which has all the pre-requisites.
@@ -22,7 +27,15 @@ As Registered Models in MLflow
       * MLflow login username, if any.
       * MLflow login password, if any.
 
+    .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
+       :alt: Load balancers
+       :width: 60%
+
   * If the MLflow server is local to the Sparkflows instance, the above configurations are sufficient. But, if the MLflow server is running remotely, say on AWS or on cloud, then additional configuration listed below would need to be configured.
    
       * The Sparkflows machine would need SSH access to the MLflow server.
       * The path of SSH key of the MLflow server needs to be available to Sparkflows which can reside on disk , secure storage on a key vault to be pulled from.
+
+    .. figure:: ../../_assets/mlops/mlops_mlflow_remote.png
+       :alt: Load balancers
+       :width: 60%

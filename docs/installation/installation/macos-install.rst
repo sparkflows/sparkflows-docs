@@ -63,7 +63,7 @@ Quick Installation Steps of Fire with H2 Database
 
 * Create H2 Database::
 
-      cd <fire install_dir>
+      cd <sparklows/fire-3.X.YY_spark_3.2.1>
 
   ::
 

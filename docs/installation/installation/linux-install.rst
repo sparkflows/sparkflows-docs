@@ -13,7 +13,7 @@ Supported Linux Versions
 ::
 
   - CentOS : 7
-  - Ubuntu : 18.04 and 20.04
+  - Ubuntu : 20.04
   - RHEL : 8
 
 
@@ -83,7 +83,7 @@ References
 
 
 
-Quick Installation Steps of Fire with H2 Database
+Installation Steps of Fire with H2 Database
 ===========================================
 
 To get started quickly with minimal install and configuration of Sparkflows, please use the steps given below. If you want a production ready environment, please follow the steps in the next section.
@@ -94,7 +94,9 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
     tar xvf fire-x.y.z.tgz
 
-* Create H2 Database::
+* Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
+
+* For quick installation, create H2 Database::
 
       cd <fire install_dir>
 
@@ -112,76 +114,23 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080
+    http://localhost:8080 OR http://<machine_name>:8080 (Access over http)
+    
+    https://localhost:8443 OR https://<machine_name>:8443 (Access over https)
 
 * Login with:: 
 
     admin/admin or test/test
 
-    
-
-Detailed Installation Steps
-===========================
-
-Use the below steps to deploy Sparkflows in production grade environment. Once, the Install steps are complete, you would ideally like to visit the Configuration section of the doc to configure LDAP, S3 and others: https://docs.sparkflows.io/en/latest/installation/configuration/index.html
-
-* Glossary:
-
-  * ``<install_dir>`` : location where you unzipped Sparkflows TGZ file. For example, this can be your home directory.
-  * ``<machine_name>`` : hostname where your installed Sparkflows.
-  * ``#`` : used for comments and documentation.
-
-
-* Download the Sparkflows ``TGZ`` file from:
-
-  * https://www.sparkflows.io/download
-  
-  
-* Unzip it::
-
-    tar xvf fire-x.y.z.tgz
-
-
-* Set up the metadata Database.
-
-  Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
-    
-* Launch Fire server::
-
-    cd <fire install_dir>
-
-  ::
-
-    ./run-fire-server.sh start
-    
-* Test by opening your web browser and going to::
-
-    http://localhost:8080 OR http://<machine_name>:8080 (Access over http)
-    
-    https://localhost:8443 OR https://<machine_name>:8443 (Access over https)
-
-* Login with::
-
-    Username: admin
-    Password: admin
-
-
-.. note::  Two user accounts come preconfigured with Fire.
-
-           * admin/admin
-           * test/test
-    
-    You may change these usernames and passwords in Fire under the menu Administration/Users.
-    
 
 Installing and starting the Python engine
 =========================================
 
 Sparkflows comes with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Java engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
 
-* On Ubuntu, the python dependencies can be installed by following the steps here: :ref:`Python install on Ubuntu<Python Installation on Ubuntu>`
+* On Ubuntu, the python dependencies can be installed by following the steps here: : https://docs.sparkflows.io/en/latest/installation/installation/python-install-ubuntu.html
 
-* On RedHat and CentOS, the python dependencies can be installed by following the steps here: :ref:`Python install on RedHat and CentOS<Python Installation on Red Hat and CentOS>`
+* On RedHat and CentOS, the python dependencies can be installed by following the steps here: https://docs.sparkflows.io/en/latest/installation/installation/python-install-redhat-centos.html
 
   
 Helpful Commands

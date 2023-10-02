@@ -44,6 +44,10 @@ Quick Installation Steps of Fire with H2 Database
 
 * Create a new directory named ``sparkflows`` and copy the TGZ file into it::
 
+    mkdir sparkflows
+
+  ::
+
     cp fire-x.y.z.tgz sparkflows
 
   ::

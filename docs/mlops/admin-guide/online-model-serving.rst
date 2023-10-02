@@ -16,6 +16,7 @@ As REST End Point in Standalone Docker Image
 As Registered Models in MLflow
 ------------
   * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - https://mlflow.org/docs/latest/quickstart.html
+  * Ensure that the port 5000 onwards on the MLflow machine is free to be exposed as end point to deploy models
   * Need to add the below installed on the MLflow instance
       * jdk 1.8
       * Python 3.7

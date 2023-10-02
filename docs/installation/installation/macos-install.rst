@@ -31,7 +31,7 @@ Installing JDK on Mac
 +++++++++++++++++
 
 - Download the ``DMG`` file and install it by double clicking on it: Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
-- Installing using ``brew``
+- Installing using ``brew`` by running ``brew install openjdk@8``
 
 You would need to set ``JAVA_HOME`` as well.
 

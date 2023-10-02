@@ -81,6 +81,11 @@ Installation Steps of Fire with H2 Database
 
     admin/admin or test/test
 
+Installing and starting the Python engine
+=========================================
+
+Sparkflows comes with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Java engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the link: https://docs.sparkflows.io/en/latest/installation/installation/python-install-macos.html
+
 Stopping the Fire Server
 ------------------------
 

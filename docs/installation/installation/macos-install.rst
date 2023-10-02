@@ -25,20 +25,15 @@ Below are required for installing Sparkflows on Mac::
 Downloading and Installing Java 8
 ---------------------------------
 
-Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
-
-You would need to set ``JAVA_HOME`` as well.
-
 There are various ways for Installing Java 8 on MacOS X. Some are listed below.
-
 
 Installing JDK on Mac
 +++++++++++++++++
 
-- Download the ``DMG`` file
-- Install it by double clicking on it
+- Download the ``DMG`` file and install it by double clicking on it: Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
 - Installing using ``brew``
 
+You would need to set ``JAVA_HOME`` as well.
 
 Quick Installation Steps of Fire with H2 Database
 ===========================================

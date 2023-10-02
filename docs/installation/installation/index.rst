@@ -60,10 +60,17 @@ Fire Insights can be installed using one of the below binaries and installers as
    Installing Python on Ubuntu for PySpark engine of Sparkflows
    
    ---
+
+   :doc:`/installation/installation/python-install-macos`
+   
+   Installing Python on MacOS for PySpark engine of Sparkflows
+   
+   ---
    
    :doc:`/installation/installation/load-sample-projects`
    
    Loading Sample Projects
+
    
    
 .. toctree::
@@ -78,5 +85,6 @@ Fire Insights can be installed using one of the below binaries and installers as
    windows-laptop-desktop-installer.rst
    python-install-redhat-centos.rst
    python-install-ubuntu.rst
+   python-install-macos.rst
    load-sample-projects.rst
   

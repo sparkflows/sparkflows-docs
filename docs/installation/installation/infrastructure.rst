@@ -26,7 +26,7 @@ Memory
      - Recommended
      - Value
    * - Memory
-     - 16gb+
+     - 16GB+
      - More the memory would be preferable
    * - vCPU
      - 8+

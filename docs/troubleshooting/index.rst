@@ -108,6 +108,12 @@ Below are steps for troubleshooting some of the common issues.
     :doc:`/troubleshooting/scheduler`
     
     Steps to troubleshoot Scheduler
+
+    ---
+    
+    :doc:`/troubleshooting/mlops`
+    
+    Steps to troubleshoot MLOps
     
 .. toctree::
    :hidden:
@@ -130,6 +136,7 @@ Below are steps for troubleshooting some of the common issues.
    https.rst
    networking.rst
    scheduler.rst
+   mlops.rst
    
    
    

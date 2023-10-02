@@ -66,6 +66,8 @@ Quick Installation Steps of Fire with H2 Database
   ::
 
       ./create-h2-db.sh
+
+* Sparkflows can be configured to run with H2 Database or MySQL. H2 Database is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
     
 * Launch Fire Server::
 
@@ -73,76 +75,11 @@ Quick Installation Steps of Fire with H2 Database
 
 * Open your web browser and navigate to:: 
   
-    http://<machine_name>:8080
+    http://<machine_name>:8080 OR https://<machine_name>:8443
 
 * Login with:: 
 
     admin/admin or test/test
-
-    
-
-Detailed Installation Steps
-===========================
-
-* Glossary
-
-  * ``<install_dir>`` : location where you unzipped Sparkflows tgz file. For example this can be your home directory.
-  * ``<machine_name>`` : hostname where your installed Sparkflows
-  * ``#`` : used for comments and documentation
-
-
-* Download the Sparkflows tgz file from:
-
-  * https://www.sparkflows.io/download  OR   
-  * https://www.sparkflows.io/archives
-  
-  
-* Unzip it::
-
-    tar xvf fire-x.y.z.tgz
-
-
-* Set up H2 or MySQL Database
-
-  Sparkflows can be configured to run with H2 Database or MySQL. H2 Database is very easy to set up with Sparkflows. For production deployments, MySQL is recommended.
-    
-   
-* Launch Fire server::
-
-    cd <fire install_dir>
-
-  ::
-
-    ./run-fire-server.sh start
-    
-* Test by opening your web browser and going to::
-
-    http://localhost:8080
-
-    OR
-
-    http://<machine_name>:8080
-    
-    OR
-    
-    https://localhost:8443
-    
-    OR
-    
-    https://<machine_name>:8443
-
-* Login with::
-
-    Username: admin
-    Password: admin
-
-
-.. note::  Two user accounts come preconfigured with Fire.
-
-           * admin/admin
-           * test/test
-    
-    You may change these usernames and passwords in Fire under the menu Administration/Users
 
 Stopping the Fire Server
 ------------------------

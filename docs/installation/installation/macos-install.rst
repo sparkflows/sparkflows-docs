@@ -71,10 +71,6 @@ Quick Installation Steps of Fire with H2 Database
     
 * Launch Fire Server::
 
-    cd <sparklows/fire-3.X.YY_spark_3.2.1>
-
-  ::
-
     ./run-fire-server.sh start
 
 * Open your web browser and navigate to:: 

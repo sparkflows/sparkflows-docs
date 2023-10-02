@@ -35,7 +35,7 @@ Installing JDK on Mac
 
 You would need to set ``JAVA_HOME`` as well.
 
-Quick Installation Steps of Fire with H2 Database
+Installation Steps of Fire with H2 Database
 ===========================================
 
 * Download the fire ``TGZ`` file from:
@@ -91,7 +91,7 @@ Stop the Fire Server with the below::
 
 
 Forwarding traffic to a port
-+++++++++++++++++++++++++++++
+------------------------
 
 ::
 

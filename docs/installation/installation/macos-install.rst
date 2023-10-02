@@ -76,7 +76,7 @@ Quick Installation Steps of Fire with H2 Database
 
 * Open your web browser and navigate to:: 
   
-    <machine_name>:8080
+    http://<machine_name>:8080
 
 * Login with:: 
 

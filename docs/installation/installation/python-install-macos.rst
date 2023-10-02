@@ -54,3 +54,10 @@ Install the required python packages for Fire Insights::
   pip install -r fire-x.y.x/dist/fire/requirements.txt
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights.
+
+Restart the Fire Server to start the Python engine
+---------------------------------------------------
+
+To make use of Python engine of Fire, restart the server using the below command::
+
+    ./run-fire-server.sh restart

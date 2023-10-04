@@ -12,27 +12,34 @@ Add/update the below information from newly created application in Azure AD:
 ::
 
     sparkflows.sp.sso.enable=true 
-    
-2. Create user automatically in application if user doesn't exist in Fire Insights, otherwise application will show page 'User not found'.
+
+2. authentication type - expected value (saml or oauth)
+
+::
+
+    sparkflows.authentication.type=saml
+
+
+3. Create user automatically in application if user doesn't exist in Fire Insights, otherwise application will show page 'User not found'.
 
 ::
 
     sparkflows.sp.auto.user.create=true 
     
-3. Enable the superuser to be able to log in with DB login
+4. Enable the superuser to be able to log in with DB login
 
 ::
 
     sparkflows.sp.db.login.enable=true
 
-4. Enable or disable global logout as needed
+5. Enable or disable global logout as needed
 
 ::
 
     saml2.global.logout=true
     
     
-5. Update Ping Identity config information
+6. Update Azure AD config information
 
 ::
 
@@ -52,13 +59,13 @@ Add/update the below information from newly created application in Azure AD:
 
 ``saml2.idp.entityid`` should be the Issuer ID of Ping Identity application.
 
-6. Configure Application Base URL
+7. Configure Application Base URL
 
 ::
 
   saml.sso.metadata-generator.entity-base-url=https://<sparkflows-dns>:8443
   
-7. Configure Server Name
+8. Configure Server Name
 
 If application is running behind load balancer, one needs to configure the below. Update the Fire Insights application URI. 
 

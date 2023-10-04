@@ -1,7 +1,7 @@
 Azure AD Fire Insights SAML Configuration
 ====================
 
-Fire Insights can be configured with SAML 2.0 Ping Identity as below:
+Fire Insights can be configured with SAML Azure AD as below:
 
 Go to folder ``conf`` under Fire Insights installation directory and edit the file ``sso.saml.properties`` in it:
 

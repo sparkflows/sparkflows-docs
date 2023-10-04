@@ -3,3 +3,4 @@ sphinx-rtd-theme==0.5.1
 docutils==0.16
 sphinx-copybutton
 sphinx_panels
+Jinja2<3.1

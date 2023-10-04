@@ -36,7 +36,7 @@ Step 3 : Go to Azure AD
 Step 4 : Click on **New application**.
 ------
 
-#. Click on **New applicatio**.
+#. Click on **New application**.
 
    .. figure:: ../../../_assets/authentication/azure-ad/azure_app_register.PNG
       :alt: sso

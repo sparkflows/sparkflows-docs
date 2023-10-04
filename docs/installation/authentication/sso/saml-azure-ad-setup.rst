@@ -19,7 +19,7 @@ Step 2 : Sign On to Azure
 
 #. Enter the **credentials** to sign on to your Azure Account.
 
-   .. figure:: ../../../_assets/authentication/azure-ad/azure_signin.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_login.PNG
       :alt: sso
       :width: 40%
 

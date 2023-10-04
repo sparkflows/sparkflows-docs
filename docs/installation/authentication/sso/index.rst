@@ -16,4 +16,5 @@ Below are the steps for setting up & configuring OneLogin and Okta with Fire Ins
    saml-pingid-setup.rst
    saml-pingid-configurations.rst
    saml-azure-ad-setup.rst
+   saml-azure-ad-configurations.rst
    super-user-db-login.rst

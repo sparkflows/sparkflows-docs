@@ -3,7 +3,7 @@ Azure AD SAML Setup
 
 This documentation describes the steps you need to follow to set up SAML 2.0 with Azure AD. 
 
-For more detailed information, please refer to the `Ping Identity documentation. <https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/migrate-adfs-saml-based-sso>`_
+For more detailed information, please refer to the `Azure AD SAML documentation. <https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/migrate-adfs-saml-based-sso>`_
 
 Step 1: Get Started with Creating an Account
 ------

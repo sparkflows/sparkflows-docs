@@ -19,7 +19,7 @@ Step 2 : Sign On to Azure
 
 #. Enter the **credentials** to sign on to your Azure Account.
 
-   .. figure:: ../../../_assets/authentication/pingid/ping_id_1.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_signin.PNG
       :alt: sso
       :width: 40%
 
@@ -49,7 +49,7 @@ Step 5 : Create your own application
 #. Add **Name** of the Application.
 #. Click on **create**.
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_app_register.PNG
       :alt: sso
       :width: 50%
 

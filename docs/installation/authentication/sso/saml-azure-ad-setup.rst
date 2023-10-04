@@ -8,7 +8,7 @@ For more detailed information, please refer to the `Azure AD SAML documentation.
 Step 1: Get Started with Creating an Account
 ------
 
-#. Visit the Azure website and create an account in Azure, if you donot have.
+#. Visit the Azure website and create an account in Azure, if you do not have.
 
    .. figure:: ../../../_assets/authentication/azure-ad/azure_signin.PNG
       :alt: sso

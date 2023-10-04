@@ -67,7 +67,7 @@ Add/update the below information from newly created application in Azure AD:
   
 8. Configure Server Name
 
-If application is running behind load balancer, one needs to configure the below. Update the Fire Insights application URI. 
+If application is running behind Load balancers, one needs to configure the below. Update the Fire Insights application URI. 
 
 ::
 

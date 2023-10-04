@@ -57,7 +57,7 @@ Add/update the below information from newly created application in Azure AD:
 
 .. note::  ``saml2.idp.metadata-url`` can be absolute idp.metadata-url which is accessible from application or saml-metadata.xml file path in conf folder.
 
-``saml2.idp.entityid`` should be the Issuer ID of Ping Identity application.
+``saml2.idp.entityid`` should be the Issuer ID of Azure AD application.
 
 7. Configure Application Base URL
 

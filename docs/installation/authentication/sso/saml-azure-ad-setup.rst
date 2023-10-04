@@ -24,16 +24,16 @@ Step 2 : Sign On to Azure
       :width: 40%
 
 
-Step 3 : Go to Administrators 
+Step 3 : Go to Azure AD 
 ------
 
-#. Click on **Administrators** in Environments.
+#. Click on **Enterprise applications**.
 
    .. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
       :alt: sso
       :width: 50%
 
-Step 4 : Go to Connections  
+Step 4 : Click on **New application**.
 ------
 
 #. Click on **Connections**. This will display available options.
@@ -42,33 +42,29 @@ Step 4 : Go to Connections
       :alt: sso
       :width: 50%
 
-Step 5 : Create new Application
+Step 5 : Create your own application
 ------
 
-#. Select **Applications**.  
-#. Click on **+** sign.
+#. Select **Integrate any other application you don't find in the gallery (Non-gallery)**.  
+#. Add **Name** of the Application.
+#. Click on **create**.
 
    .. figure:: ../../../_assets/authentication/pingid/pingid_4.PNG
       :alt: sso
       :width: 50%
 
-#. Add **Name** and **Description** of the Application.
+Step 6 : Create your Single sign-on
+------
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_5.PNG
-      :alt: sso
-      :width: 50%
-   
-#. Choose Application Type as **SAML Application**.
+ #. Click on **Single sign-on**.
 
    .. figure:: ../../../_assets/authentication/pingid/pingid_6.PNG
       :alt: sso
       :width: 50%
    
-#. Provide Application Metadata:
+#. Select **SAML**.
    
-    * Click on **Configure** and
-    * Choose the method to provide metadata as per your configuration.
-   
+       
    .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
       :alt: sso
       :width: 50%
@@ -82,28 +78,12 @@ Step 5 : Create new Application
       
 #. Click **Save** to save the Application.     
 
-Step 6: Update HTTP POST
+
+Step 7 : Add Users and groups
 ------
 
-#. Click on **Configure**.
-#. Update the HTTP POST as ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
-
-   .. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
-      :alt: sso
-      :width: 50%
-
-Step 7 : Update Attribute Mappings
-------
-
-#. Click on **Attribute Mappings** and update the required details as below: 
-   
-    * fireUsername=UserName
-    * emailID=EmailID
-    * firstName=FirstName
-    * samlSubject=saml_subject
-    * lastName=LastName
-
- 
+#. Click on **Add Users and groups** and add users and group which need to have access of the application: 
+       
    .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
       :alt: sso
       :width: 50%
@@ -112,7 +92,7 @@ Step 7 : Update Attribute Mappings
 Step 8 : Download Metadata from Application
 ------
 
-#. Activate the Application and download the Metadata from application. 
+#. Download the Metadata from application. 
    
    This metadata will be used while configuring the Fire Insights.
 
@@ -120,4 +100,4 @@ Step 8 : Download Metadata from Application
       :alt: sso
       :width: 50%
 
-.. note::  Make sure to change the localhost to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the sparkflows_dns to your domain name or your IP where Fire Insights is running.

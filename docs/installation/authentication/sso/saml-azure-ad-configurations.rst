@@ -5,7 +5,7 @@ Fire Insights can be configured with SAML Azure AD as below:
 
 Go to folder ``conf`` under Fire Insights installation directory and edit the file ``sso.saml.properties`` in it:
 
-Add/update the below information from newly created application in Azure AD:
+Add/update the below information from newly created application in Azure AD as created in previous step:
 
 1. Enable SSO in Fire Insights
 

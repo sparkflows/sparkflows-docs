@@ -10,7 +10,7 @@ Step 1: Get Started with Creating an Account
 
 #. Visit the Azure website and create an account in Azure, if you donot have.
 
-   .. figure:: ../../../_assets/authentication/pingid/ping_id.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_signin.PNG
       :alt: sso
       :width: 40%
    
@@ -29,16 +29,16 @@ Step 3 : Go to Azure AD
 
 #. Click on **Enterprise applications**.
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_2.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_ad.PNG
       :alt: sso
       :width: 50%
 
 Step 4 : Click on **New application**.
 ------
 
-#. Click on **Connections**. This will display available options.
+#. Click on **New applicatio**.
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_3.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_app_register.PNG
       :alt: sso
       :width: 50%
 
@@ -58,21 +58,21 @@ Step 6 : Create your Single sign-on
 
  #. Click on **Single sign-on**.
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_6.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_single_signon.PNG
       :alt: sso
       :width: 50%
    
 #. Select **SAML**.
    
        
-   .. figure:: ../../../_assets/authentication/pingid/pingid_7.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_saml_page.PNG
       :alt: sso
       :width: 50%
    
 #. Enter the **ACS URLs** and **Entity ID**. 
 
   
-   .. figure:: ../../../_assets/authentication/pingid/ping_acs.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_single_signon.PNG
       :alt: sso
       :width: 50%
       
@@ -84,7 +84,7 @@ Step 7 : Add Users and groups
 
 #. Click on **Add Users and groups** and add users and group which need to have access of the application: 
        
-   .. figure:: ../../../_assets/authentication/pingid/attribute_mapping.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_adduser_group.PNG
       :alt: sso
       :width: 50%
  
@@ -96,7 +96,7 @@ Step 8 : Download Metadata from Application
    
    This metadata will be used while configuring the Fire Insights.
 
-   .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
+   .. figure:: ../../../_assets/authentication/azure-ad/azure_metadata.PNG
       :alt: sso
       :width: 50%
 

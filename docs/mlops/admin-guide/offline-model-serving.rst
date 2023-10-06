@@ -18,7 +18,7 @@ Using Python Scorer in Standalone Docker Image
 Using Registered Models in MLflow
 --------------
     * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - https://mlflow.org/docs/latest/quickstart.html
-    * Need to add the below installed on the MLflow instance
+    * Prerequisites on the MLflow instance
         * JDK 1.8
         * Python 3.7
         * Sparkling water: pip install h2o-pysparkling-3.2==3.36.1.2.post

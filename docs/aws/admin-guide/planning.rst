@@ -14,9 +14,9 @@ The jobs executed by Fire Insights can run on the standalone EC2 machine. Or it 
 Costs
 -----
 
-The main costs incurred when using Fire Insights is the cost of running the EMR cluster which has master nodes and workflow nodes. The more processing capacity needed, the larger should be the size of the EMR cluster. Pricing details for EMR can be found here: https://aws.amazon.com/emr/pricing/
+The main costs incurred when using Fire Insights is the cost of running the EMR cluster which has master nodes and worker nodes. The more processing capacity needed, the larger should be the size of the EMR cluster. Pricing details for EMR can be found here: https://aws.amazon.com/emr/pricing/
 
-Fire Insights can also run Machine Learning jobs onto SageMaker. There would be some additional costs associated with using AWS SageMaker. Pricing details for AWS SageMaker can be found here: https://aws.amazon.com/sagemaker/pricing/
+Fire Insights can also run the Machine Learning jobs onto AWS SageMaker. There would be some additional costs associated with using AWS SageMaker. Pricing details for AWS SageMaker can be found here: https://aws.amazon.com/sagemaker/pricing/
 
 
 Sizing

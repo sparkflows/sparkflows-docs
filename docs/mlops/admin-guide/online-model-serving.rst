@@ -54,7 +54,7 @@ As Registered Models in MLflow
   * When the MLflow server is run a remote machine, below setup needs to be done:
 
        * Start the Fire MLOps server alongside the MLflow server
-       * Ensure the Saprkflows machine can talk to the configured port of the Fire MLOps server
+       * Ensure the Sparkflows machine can talk to the configured port of the Fire MLOps server
        * Ensure that the ports where the models will be served are open to be accessed via REST API 
        * Ensure the credentials for the MLflow model registry store is configured in Sparkflows. Eg: If `s3` is used as the MLflow regsitry store, its exposed to the Fire MLOps server.
 

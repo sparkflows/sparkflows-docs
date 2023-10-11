@@ -1,7 +1,7 @@
 Overview
 =================
 
-This document serves as a detailed guide to help you plan on deploying and using Fire Insights on AWS.
+This document serves as a detailed guide to help you to deploy Fire Insights on AWS.
 
 Installation
 --------

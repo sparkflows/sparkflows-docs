@@ -6,7 +6,9 @@ This document serves as a detailed guide to help you to deploy Fire Insights on 
 Installation
 --------
 
-Fire Insights can be installed on a standalone EC2 machine,  AWS Fargate or AWS EKS. The jobs triggered by the users would be able to access and process data stored in S3, HDFS, Redshift, Kinesis and other EC2 storage. Compute connections can also be created in Fire Insights to connect to AWS EMR, AWS Glue.
+Fire Insights can be installed on a standalone EC2 machine,  AWS Fargate or AWS EKS. The jobs triggered by the users would be able to access and process data stored in S3, HDFS, Redshift, Kinesis, DynamoDB etc. 
+
+The jobs executed by Fire Insights can run on the standalone EC2 machine. Or it can be configured to execute them on AWS EMR or AWS Glue. Compute connections can be created in Fire Insights to multiple AWS EMR Clusters or AWS Glue connections.
 
 
 Costs

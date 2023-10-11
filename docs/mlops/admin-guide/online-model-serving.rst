@@ -17,6 +17,7 @@ As Registered Models in MLflow
 ------------
   * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - https://mlflow.org/docs/latest/quickstart.html
   * Ensure that the port 5000 onwards on the MLflow machine is free to be exposed as end point to deploy models
+  * Ensure the port 8086 (or the port where the MLOps server is started) is open on the machine.
   * Prerequisites on the MLflow instance
         * JDK 1.8
         * Python 3.7
@@ -51,9 +52,10 @@ As Registered Models in MLflow
        :alt: Load balancers
        :width: 60%
 
-  * When the MLflow server is run a remote machine, below setup needs to be done:
+  * When the MLflow server is run a remote machine, below setup needs to be taken care of:
 
        * Start the Fire MLOps server alongside the MLflow server
+       * Ensure the port 8086 (or the port where the MLOps server is started) is open on the machine.
        * Ensure the Sparkflows machine can talk to the configured port of the Fire MLOps server
        * Ensure that the ports where the models will be served are open to be accessed via REST API 
        * Ensure the credentials for the MLflow model registry store is configured in Sparkflows. Eg: If `s3` is used as the MLflow regsitry store, its exposed to the Fire MLOps server.

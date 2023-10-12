@@ -23,7 +23,7 @@ Upload Fire Core Jar to Databricks
 
 Fire Insights jar has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
 
-Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
+Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` to Databricks. Upload it under Workspace as a Library on to Databricks.
 
 1. Login to your ``Databricks Account``.
 
@@ -43,14 +43,14 @@ Upload ``fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencie
    :width: 40%
 
 
-4. Upload ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous step by clicking on ``Drop JAR here``.
+4. Upload ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from your machine or from Download link added in previous step by clicking on ``Drop JAR here``.
 
 
 .. figure:: ../../_assets/configuration/uploadlibrary.PNG
    :alt: Databricks
    :width: 40%
    
-5. Once ``fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
+5. Once ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` is uploaded, click on ``Create``.
 
 
 .. figure:: ../../_assets/configuration/createlibrary.PNG

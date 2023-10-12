@@ -181,6 +181,8 @@ It can also be created by any user with their Application. In this case, it is o
 
 .. note:: Make sure to add POSTBACK URL through which Jobs running on Databricks would post back results to Fire Insights using this URL or else it will take from ``app.postMessageURL``, added in configuration.
 
+More details can be found here : https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-connections.html
+
 Now, we are ready to start using the Databricks Connection in Fire Insights to:
 
 * Browse DBFS.

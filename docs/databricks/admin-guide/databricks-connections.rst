@@ -50,7 +50,7 @@ GENERAL Tab :
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
      
-.. figure:: ../../../_assets/installation/connection/databricks_general.PNG
+.. figure:: ../../_assets/installation/connection/databricks_general.PNG
    :alt: connection
    :width: 60%    
 For more details on creating Databricks connection refer the following image:
@@ -77,7 +77,7 @@ DATABRICKS Tab :
      - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
 
 
-.. figure:: ../../../_assets/installation/connection/databricks_other.PNG
+.. figure:: ../../_assets/installation/connection/databricks_other.PNG
    :alt: connection
    :width: 60%    
 

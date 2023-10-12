@@ -9,6 +9,10 @@ Connections can be created at various levels:
 * Group   : Users belonging to a group will only have access to these connections.
 * Project : The owner of the project and the groups with which the project has been shared with have access to these connections.
 
+.. Note:: Make sure to download Postgres needed jar from below and copy to ``fire-user-lib & fire-core-lib`` folder inside Sparkflows home directory and start the Fire server.
+
+https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
+
 Below are the steps required to create "Postgres Connection" :
 
 1. Login to Sparkflows as an ``Admin``. Click on ``Administrator`` tab from main menu. Click on  ``Global Connections`` and then click on ``Add Connection`` and fill in the details as shown below to create the connection.

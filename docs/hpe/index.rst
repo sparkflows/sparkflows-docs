@@ -1,7 +1,7 @@
 HPE Guide
 =========
 
-Fire Insights is seamlessly integrated with HPE platform. With Fire Insights you can perform self-serve data processing, analytics and machine learning on Google Cloud.
+Fire Insights is seamlessly integrated with HPE platform. With Fire Insights you can perform self-serve data processing, analytics and machine learning on HPE Unified Analytics platform.
 
 Fire Insights integrates with HPE Platform
 
@@ -9,6 +9,6 @@ Fire Insights integrates with HPE Platform
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/gcp/admin-guide/index`
+    :doc:`/hpe/admin-guide/index`
 
-    GCP Admin Guide
+    HPE Admin Guide

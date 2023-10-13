@@ -43,7 +43,12 @@ Commands Cheatsheet
     :doc:`/commands/kerberos`
     
     Kerberos Commands Cheatsheet
+
+   ---
     
+    :doc:`/commands/aws`
+    
+    AWS Commands Cheatsheet
  
 .. toctree::
    :hidden:
@@ -55,4 +60,5 @@ Commands Cheatsheet
    h2-db.rst
    python.rst
    kerberos.rst
+   aws.rst
    

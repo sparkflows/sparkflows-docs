@@ -14,6 +14,9 @@ Hardware requirements
    * - Title
      - Recommended
      - Value
+   * - Os 
+     - Ubuntu
+     - Ubuntu 20.04
    * - Ec2 Machine
      - 16GB+
      - More memory would be preferable
@@ -23,6 +26,6 @@ Hardware requirements
    * - Disk Size
      - 200GB+
      - Depending on Job Compute, if running locally
-   * - Os 
-     - Ubuntu
-     - Ubuntu 20.04
+   * - DNS 
+     - DNS
+     - DNS mapped to ip.

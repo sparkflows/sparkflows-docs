@@ -21,7 +21,7 @@ Azure Admin Guide
 
     Describes details to help you plan on deploying and using Fire Insights on Azure.
 
-    ---
+    
 
 .. toctree::
    :hidden:

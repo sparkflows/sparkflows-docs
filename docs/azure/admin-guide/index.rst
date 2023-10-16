@@ -10,6 +10,13 @@ Azure Admin Guide
 
     ---
 
+    :doc:`/azure/admin-guide/Infrastructure-azure`
+
+    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on Azure.
+
+
+    ---
+
    :doc:`/azure/admin-guide/deploy-azure`
 
     Describes details to help you plan on deploying and using Fire Insights on Azure.

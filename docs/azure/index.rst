@@ -13,13 +13,9 @@ Azure Guide
     
     :doc:`/azure/admin-guide/index`
 
-    AWS Admin Guide.
+    Azure Admin Guide.
 
-    ---
     
-    :doc:`/azure/user-guide/index`
-    
-    AWS User Guide.
     
 
     
@@ -28,7 +24,7 @@ Azure Guide
 
    introduction.rst
    admin-guide/index.rst
-   user-guide/index.rst
+   
    
    
    

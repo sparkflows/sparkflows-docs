@@ -368,7 +368,7 @@ By default Sparkflows comes with default user **admin** and **test** with defaul
 
 If you want to create new users, it can be done from Sparkflows **Administration Tab** by choosing **Users** as shown in the image below :
 
-      .. figure:: ../../_assets/aws/livy/administration.PNG
+      .. figure:: ..///_assets/aws/livy/administration.PNG
          :alt: livy
          :width: 60%
 

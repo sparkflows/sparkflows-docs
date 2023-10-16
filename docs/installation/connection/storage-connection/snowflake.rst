@@ -20,6 +20,10 @@ Below are the steps required to create "Snowflake Connection":
       :widths: 10 20 20
       :header-rows: 1
 
+
+      * - Title
+        - Description
+        - Value
       * - Credential Store  
         - Select the Credential Store from drop-down
         - Choose specific Credential Store from drop-down or Select Do not use Credential Store

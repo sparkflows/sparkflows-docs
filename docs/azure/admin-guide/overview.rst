@@ -1,4 +1,4 @@
-Planning Guide
+Overview
 =================
 
 This document describes details to help you plan on deploying and using Fire Insights on Azure.

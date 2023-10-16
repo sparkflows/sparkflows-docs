@@ -7,7 +7,7 @@ Azure Guide
     
     :doc:`/azure/introduction`
     
-    Introduction to the AWS Guide.
+    Introduction to the Azure Guide.
     
     ---
     

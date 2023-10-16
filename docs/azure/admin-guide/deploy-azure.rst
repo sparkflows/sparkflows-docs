@@ -65,7 +65,7 @@ Ensure that you have the following prerequisites with regard to software specifi
      - Ensure DNS and https certificates are set up
      - HTTPS certificate available
 
-Step 2 : Procure an VM and setup the Networking
+Step 2 : Procure a VM and setup the Networking
 ++++
 Setup VM with one of the recommended OS and Configure the Network Settings.
 

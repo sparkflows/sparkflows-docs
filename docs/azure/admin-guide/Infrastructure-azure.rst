@@ -30,52 +30,20 @@ Instance Type & OS Supported
 ++++
 
 .. list-table:: 
-   :widths: 10 20 30
+   :widths: 10 30
    :header-rows: 1
 
    * - OS
      - Instance type
-     - AMI ID
    * - RHEL 8.X
-     - m4.xlarge
-     - ami-096fda3c22c1c990a
+     - D4s_v3
    * - RHEL 8.X
-     - m4.2xlarge
-     - ami-096fda3c22c1c990a
-   * - RHEL 8.X
-     - t2.xlarge
-     - ami-096fda3c22c1c990a
-   * - RHEL 8.X
-     - t2.2xlarge
-     - ami-096fda3c22c1c990a
-   * - RHEL 8.X
-     - t3.xlarge
-     - ami-096fda3c22c1c990a 
-   * - RHEL 8.X
-     - t3.2xlarge
-     - ami-096fda3c22c1c990a
+     - D8s_v3
    * - Ubuntu 20.04
-     - t2.xlarge
-     - ami-0261755bbcb8c4a84
+     - D4s_v3
    * - Ubuntu 20.04
-     - t2.2xlarge
-     - ami-0261755bbcb8c4a84
-   * - Ubuntu 20.04
-     - t3.xlarge
-     - ami-0261755bbcb8c4a84
-   * - Ubuntu 20.04
-     - t3.2xlarge
-     - ami-0261755bbcb8c4a84
-   * - Ubuntu 20.04
-     - m5.xlarge
-     - ami-0261755bbcb8c4a84
-   * - Ubuntu 20.04
-     - m5.2xlarge
-     - ami-0261755bbcb8c4a84
-   * - Ubuntu 20.04
-     - r5.2xlarge
-     - ami-0261755bbcb8c4a84
-
+     - D8s_v3
+   
 Virtual Networks
 ++++
 

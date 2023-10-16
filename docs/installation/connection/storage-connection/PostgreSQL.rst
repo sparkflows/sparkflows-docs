@@ -22,7 +22,7 @@ Before you start setting up the Postgres Connection, please make sure to:
 #. Start the Fire Server after you finish copying the JAR file.
 
 
-Step 2 : Login to Sparkflows as Admin
+Step 2 : Login to Fire Insights as Admin
 -----------------
 
 To Login :
@@ -31,7 +31,7 @@ To Login :
 #. Enter your credentials.
 #. Click **Sign in**. You will reach Fire Dashboard.
 
-Step 3 : Open Connections Page and Add Connection 
+Step 3 : Add Connection 
 --------------
 To open Connections Page and add connection :
 
@@ -50,9 +50,9 @@ To open Connections Page and add connection :
 
 #. Choose the type of connection as per your requirement from the dropdown menu.
 
-Step 4 : Enter Details in Add Connection Window
+Step 4 : Enter Parameter Details
 ----------
-#. On the Add Connection Window, fill in all the details as shown below.
+#. In the Add Connection Window, fill in all the details as shown below.
 
    .. figure:: ../../../_assets/postgresql/postgre-storage.png
       :alt: postgresql
@@ -65,43 +65,43 @@ Step 4 : Enter Details in Add Connection Window
 
    **Note:** For more information on the details to be filled in, refer the below table.
 
-.. list-table:: 
-   :widths: 25 25 50
-   :header-rows: 1
+   .. list-table:: 
+      :widths: 25 25 50
+      :header-rows: 1
 
-   * - Title
-   - Description
-   - Value
-   * - Credential Store  
-   - Select the Credential Store from drop-down
-   - Choose specific Credential Store from drop-down or Select Do not use Credential Store
-   * - Select Category
-   - Select Category of Connection Type
-   - Select Storage Connection
-   * - Connection Type 
-   - Select the Connection type from drop-down
-   - Choose Postgres as Connection Type
-   * - Connection Name
-   - Connection Name
-   - Add an unique Connection Name
-   * - Username 
-   - Username
-   - Username for Postgres
-   * - Password
-   - Password
-   - Password of Postgres
-   * - Title 
-   - Title for selected Connection
-   - Add an unique Title
-   * - Description
-   - Connection Description
-   - Add some Connection Description
-   * - Url
-   - Url for Postgres
-   - JDBC Url for Postgres
-   * - Driver Class
-   - Driver Class Name for Postgres
-   - org.postgresql.Driver (by default)
+      * - Title
+        - Description
+        - Value
+      * - Credential Store  
+        - Select the Credential Store from drop-down
+        - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+      * - Select Category
+        - Select Category of Connection Type
+        - Select Storage Connection
+      * - Connection Type 
+        - Select the Connection type from drop-down
+        - Choose Postgres as Connection Type
+      * - Connection Name
+        - Connection Name
+        - Add an unique Connection Name
+      * - Username 
+        - Username
+        - Username for Postgres
+      * - Password
+        - Password
+        - Password of Postgres
+      * - Title 
+        - Title for selected Connection
+        - Add an unique Title
+      * - Description
+        - Connection Description
+        - Add some Connection Description
+      * - Url
+        - Url for Postgres
+        - JDBC Url for Postgres
+      * - Driver Class
+        - Driver Class Name for Postgres
+        - org.postgresql.Driver (by default)
       
 Step 5 : Test and Save the Connection
 -------
@@ -111,6 +111,6 @@ Step 5 : Test and Save the Connection
 
 Step 6 : Create Connection
 ------------
-After successfully completing the above steps, you can proceed to establish the connection using the resources in datasets and workflows.
+After successfully completing the above steps, you can proceed to create the connection using the resources in datasets and workflows.
 
 .. Note:: Make sure that "Postgres URL" should be accessible from Sparkflows web server URL and suitable Driver should be copied to fire lib.

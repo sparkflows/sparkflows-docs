@@ -92,7 +92,7 @@ Follow the below steps to install Sparkflows using tgz file :
    * The `PEM` file (key file) downloaded while bringing up the AWS Instance and
    * The command as below :
      ::
-         ssh -i sparkflows.pem ec2-user@21.xxx.xxx.113
+         ssh -i sparkflows.pem sparkflows@21.xxx.xxx.113
 
   
 

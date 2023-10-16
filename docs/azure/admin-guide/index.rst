@@ -27,4 +27,5 @@ Azure Admin Guide
    :hidden:
 
    overview.rst
+   Infrastructure-azure.rst
    deploy-azure.rst

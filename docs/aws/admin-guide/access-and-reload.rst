@@ -1,4 +1,4 @@
-Access Sparkflows and Reload Samples
+Access and Reload Samples
 ==============
 
 Access Sparkflows & Create Users
@@ -10,7 +10,7 @@ By default Sparkflows comes with default user admin and test with default passwo
 
 If you want to create new users, it can be done from Sparkflows Administration Tab by choosing Users as shown in the image below :
 
-.. figure:: ../_assets/aws/livy/administration.png
+.. figure:: ../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
 

@@ -406,7 +406,7 @@ It can be configured to submit the jobs to AWS EMR cluster for scalability.
 For more information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html>`_
 
 
-Additional requirements
+Additional Requirements
 ++++
 
 * The machine needs to have access to the Internet only to install dependencies. 

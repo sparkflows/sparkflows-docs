@@ -1,4 +1,4 @@
-Install Using tgz File
+Install using tgz File
 =========
 This document explains in detail the steps required to install Sparkflows using tgz file.
 

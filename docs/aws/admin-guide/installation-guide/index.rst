@@ -15,7 +15,7 @@ Sparkflows can be installed in any one of the following two ways:
 
     :doc:`/aws/admin-guide/installation-guide/docker-image`
 
-    Install Sparkflows using Sparkflows docker image.
+    Install Sparkflows using Sparkflows Docker Image.
 
 
 

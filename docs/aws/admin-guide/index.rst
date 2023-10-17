@@ -24,7 +24,7 @@ AWS Admin Guide
 
     ---
 
-    :doc:`/aws/admin-guide/deploy-aws`
+    :doc:`/aws/admin-guide/installation-guide/index`
 
     Deploy Sparkflows on AWS.
 
@@ -111,7 +111,7 @@ AWS Admin Guide
    planning.rst
    Infrastructure-aws.rst
    rds.rst
-   deploy-aws.rst
+   installation-guide/index.rst
    aws-s3-integration.rst
    load-balancer.rst
    configuring-aws-certificate.rst

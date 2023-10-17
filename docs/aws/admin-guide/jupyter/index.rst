@@ -13,7 +13,15 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     ---
     
-    :doc:`/aws/admin-guide/jupyter/installation`
+    :doc:`/aws/admin-guide/jupyter/pre-requisites`
+
+    pre-requisites for installing jupyter lab
+
+    ---
+    
+    :doc:`/aws/admin-guide/jupyter/installation
+
+    Jupyter lab installations and Configurations
     
 
 
@@ -22,4 +30,5 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
    :hidden:
  
    overview.rst  
+   pre-requisites.rst
    installation.rst

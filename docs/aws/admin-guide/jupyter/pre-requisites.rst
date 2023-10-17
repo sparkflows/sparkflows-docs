@@ -26,6 +26,9 @@ Hardware requirements
    * - Disk Size
      - 200GB+
      - Depending on Job Compute, if running locally
+   * - port 
+     - port 
+     - 8888(custom depending on http/https)
    * - DNS 
      - DNS
      - DNS mapped to ip.

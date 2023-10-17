@@ -1,5 +1,6 @@
 Access and Reload Samples
 ==============
+This documentation explains how to access Sparkflows, create Users and reload sample projects.
 
 Access Sparkflows and Create Users
 ---------------------

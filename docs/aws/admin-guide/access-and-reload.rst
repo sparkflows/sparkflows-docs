@@ -1,7 +1,7 @@
 Access and Reload Samples
 ==============
 
-Access Sparkflows & Create Users
+Access Sparkflows and Create Users
 ---------------------
 
 Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080

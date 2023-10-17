@@ -29,6 +29,9 @@ Hardware requirements
    * - DNS 
      - DNS
      - DNS mapped to ip.
+   * - Certificate
+     - Certificate
+     - Certificate mapped to DNS.
 
 Software requirements
 ----

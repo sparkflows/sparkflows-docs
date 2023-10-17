@@ -29,3 +29,17 @@ Hardware requirements
    * - DNS 
      - DNS
      - DNS mapped to ip.
+
+Software requirements
+----
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Recommended
+     - Value
+   * - python 
+     - python needed
+     - Python 3.8

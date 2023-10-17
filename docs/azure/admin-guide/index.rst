@@ -19,10 +19,15 @@ Azure Admin Guide
 
     ---
 
-    :doc:`/azure/admin-guide/deploy-azure`
+    :doc:`/azure/admin-guide/installation-guide/index`
 
-    Describes details to help you plan on deploying and using Fire Insights on Azure.
+    Deploy Sparkflows on Azure.
 
+   ---
+
+    :doc:`/azure/admin-guide/access-and-reload`
+
+    Access Sparkflows, create users and reload sample projects.
     
 
 .. toctree::
@@ -30,4 +35,5 @@ Azure Admin Guide
 
    overview.rst
    Infrastructure-azure.rst
-   deploy-azure.rst
+   installation-guide/index.rst
+   access-and-reload.rst

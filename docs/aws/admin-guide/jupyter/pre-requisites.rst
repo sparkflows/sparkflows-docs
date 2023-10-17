@@ -34,12 +34,12 @@ Software requirements
 ----
 
 .. list-table:: 
-   :widths: 10 20 30
+   :widths: 10 20
    :header-rows: 1
 
    * - Title
-     - Recommended
      - Value
    * - python 
-     - python needed
      - Python 3.8
+   * - pip
+     - pip with version 20.+

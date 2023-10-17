@@ -31,7 +31,7 @@ AWS Admin Guide
 
     :doc:`/aws/admin-guide/access-and-reload`
 
-    Deploy Sparkflows on AWS.
+    Access Sparkflows, create users and reload sample projects.
 
     ---
 

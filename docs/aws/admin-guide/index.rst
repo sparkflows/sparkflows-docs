@@ -15,7 +15,6 @@ AWS Admin Guide
 
     Describes details of infrastructure pre-requisites needed to deploy Fire Insights on AWS.
 
-
     ---
 
     :doc:`/aws/admin-guide/rds`
@@ -29,6 +28,12 @@ AWS Admin Guide
     Deploy Sparkflows on AWS.
 
     --- 
+
+    :doc:`/aws/admin-guide/access-and-reload`
+
+    Deploy Sparkflows on AWS.
+
+    ---
 
     :doc:`/aws/admin-guide/aws-s3-integration`
 
@@ -112,6 +117,7 @@ AWS Admin Guide
    Infrastructure-aws.rst
    rds.rst
    installation-guide/index.rst
+   access-and-reload.rst
    aws-s3-integration.rst
    load-balancer.rst
    configuring-aws-certificate.rst

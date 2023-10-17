@@ -28,6 +28,12 @@ Azure Admin Guide
     :doc:`/azure/admin-guide/access-and-reload`
 
     Access Sparkflows, create users and reload sample projects.
+
+   ---
+
+    :doc:`/azure/admin-guide/azure-databricks`
+
+    Databricks Job submission.
     
 
 .. toctree::
@@ -37,3 +43,4 @@ Azure Admin Guide
    Infrastructure-azure.rst
    installation-guide/index.rst
    access-and-reload.rst
+   azure-databricks.rst

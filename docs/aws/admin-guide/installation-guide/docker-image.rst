@@ -1,4 +1,4 @@
-Install using Docker Image
+Using Docker Image
 ==========
 Sparkflows can be installed and run on Linux (Ubuntu) using the Docker image from the Docker Hub.
 

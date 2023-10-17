@@ -362,7 +362,7 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
 Step 3 : Accessing Sparkflows & Creating Users
 ++++
-Pick the public IP or DNS of the machine from AWS Console -> Instances and hit the URL: http://sparkflows_IP:8080
+Pick the public IP or DNS of the machine from Azure Console -> Instances and hit the URL: http://sparkflows_IP:8080
 
 By default Sparkflows comes with default user **admin** and **test** with default password as **admin** and **test** respectively.
 

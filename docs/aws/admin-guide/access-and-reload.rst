@@ -17,6 +17,6 @@ If you want to create new users, it can be done from Sparkflows Administration T
 
 Reload Sample Projects
 -------
-Fire Insights by default comes with sample Project which can be reloaded in Fire Insight application.
+Fire Insights by default comes with sample Project which can be reloaded in Fire Insights application.
 
 For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_

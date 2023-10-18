@@ -56,6 +56,12 @@ Commands Cheatsheet
     
     PostgreSQL Commands Cheatsheet
 
+   ---
+    
+    :doc:`/commands/delta`
+    
+    Delta Files Cheatsheet
+
 .. toctree::
    :hidden:
 
@@ -68,4 +74,6 @@ Commands Cheatsheet
    kerberos.rst
    aws.rst
    postgres.rst
+   delta.rst
+
    

@@ -13,7 +13,7 @@ Access Sparkflows and Create Users
 
    If you need to create additional user accounts, you can do so through the Sparkflows **Administration** Tab. 
    
-   To create new users, navigate to the **Users** section. On the Users page, fill in the new User details and save the user.
+   To create new users, navigate to the **Users** section. On the Users page, fill in the new **User details** and click **Save** to the user.
 
    .. figure:: ../../_assets/aws/livy/administration.png
       :alt: livy

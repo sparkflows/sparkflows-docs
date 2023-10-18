@@ -4,10 +4,13 @@ This documentation explains how to access Sparkflows, create Users and reload sa
 
 Access Sparkflows and Create Users
 ---------------------
+Follow the steps given below:
 
 #. Obtain the public IP or DNS of your AWS instance from the AWS Console -> Instances.
 
-#. Open a web browser and enter the following URL: http://sparkflows_IP:8080, where **sparkflows_IP** should be replaced with the actual IP or DNS of your instance.
+#. Open a web browser and enter the following URL: http://sparkflows_IP:8080, 
+
+   where **sparkflows_IP** should be replaced with the actual IP or DNS of your instance.
 
 #. By default, Sparkflows provides two user accounts: **admin** with the password **admin**, and **test** with the password **test**.
 

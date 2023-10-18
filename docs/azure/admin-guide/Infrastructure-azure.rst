@@ -130,3 +130,16 @@ By setting up SSO in Fire Insights, your users will be able to access Fire Insig
   If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
 
   For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html>`_
+
+Before you begin, ensure that you have the following prerequisites in place:
+
+VM Privileges
+++++
+
+Ensure that you have VM with sufficient privileges to install packages.
+
+
+Databricks Cluster Access
+++++
+
+Ensure that you have Databricks Cluster URL is accessible from Sparkflows Instance.

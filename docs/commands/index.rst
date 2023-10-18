@@ -49,7 +49,13 @@ Commands Cheatsheet
     :doc:`/commands/aws`
     
     AWS Commands Cheatsheet
- 
+
+   ---
+    
+    :doc:`/commands/postgres`
+    
+    PostgreSQL Commands Cheatsheet
+
 .. toctree::
    :hidden:
 
@@ -61,4 +67,5 @@ Commands Cheatsheet
    python.rst
    kerberos.rst
    aws.rst
+   postgres.rst
    

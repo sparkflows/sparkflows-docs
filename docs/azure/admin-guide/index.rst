@@ -21,13 +21,13 @@ Azure Admin Guide
 
     Deploy Sparkflows on Azure.
 
-   ---
+    ---
 
     :doc:`/azure/admin-guide/access-and-reload`
 
     Access Sparkflows, create users and reload sample projects.
 
-   ---
+    ---
 
     :doc:`/azure/admin-guide/azure-databricks`
 

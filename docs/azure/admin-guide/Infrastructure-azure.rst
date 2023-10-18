@@ -133,7 +133,7 @@ By setting up SSO in Fire Insights, your users will be able to access Fire Insig
 
 Before you begin, ensure that you have the following prerequisites in place:
 
-VM Privileges
+VM Privilege
 ++++
 
 Ensure that you have VM with sufficient privileges to install packages.

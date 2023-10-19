@@ -12,9 +12,9 @@ Use below command to install: ::
 
    Above command will generate jupyter_lab_config.py in ~/.jupyter directory
 
-Change to cd ~/.jupyter directory
+Change to directory jupyter using command: cd ~/.jupyter
 
-Customize the jupyter_lab_config.py file of jupyterlab and change the configuration below::
+Customize the jupyter_lab_config.py file of jupyterlab and change the configurations below::
 
     #NotebookApp
     c.NotebookApp.open_browser = False
@@ -28,25 +28,26 @@ Customize the jupyter_lab_config.py file of jupyterlab and change the configurat
     c.ServerApp.file_url_prefix = '/lab/tree'
     c.NotebookApp.ip = '0.0.0.0'
     c.ServerApp.keyfile = '/home/ubuntu/privkey.pem'
-    c.ServerApp.notebook_dir = '/home/ubuntu/jupyter-lab/'
+    c.ServerApp.notebook_dir = '/home/ubuntu/jupyter-lab/' #Replace notebook dir with your own directory
     c.NotebookApp.port = 8888
-    c.ServerApp.token = '123456'
+    c.ServerApp.token = '123456' # Replace token with your own token
     c.ServerApp.tornado_settings = { 'headers': { 'Content-Security-Policy': "frame-ancestors 'self' https://sparkflows_dns:port"},"cookie_options": {'SameSite': 'None', 'Secure': True}}
 
 
 
-.. note:: Make sure to create certificate for running jupyterlab on https
+.. note:: Make sure to have a SSL certificate for running jupyterlab on https
+   # Start jupyter server using below command:
 
     jupyter-lab --ip=0.0.0.0 --port=8888
 
-It will open the interface in your default web browser.
+ Now try to access jupyter lab on browser using public server url along with port.
 
-Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
+Fire can be configured to use Jupyter Notebook. Below are  the steps involved in it:
 
 Step 1 : Login to Fire web server URL
 .............
 
-#. Once login to Fire web server URL, Goto **ADMINISTRATION -->> Configurations** and select **NOTEBOOK**.
+#. Once login to Fire web server URL, Goto **ADMINISTRATION --> Configurations** and select **NOTEBOOK**.
 
 
     .. figure:: ../../../_assets/operating/jupyter_notebook_1.PNG
@@ -58,7 +59,7 @@ Step 1 : Login to Fire web server URL
     ::
 
         notebook.enabled : true
-        notebook.serverHost : jupyternotebook server url which include token
+        notebook.serverHost : jupyternotebook server host url
         notebook.serverToken : Token being used
     
     .. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   

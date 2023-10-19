@@ -32,7 +32,7 @@ Hardware requirements
    * - DNS 
      - DNS
      - DNS mapped to ip.
-   * - Certificate
+   * - SSL Certificate
      - Certificate
      - Certificate mapped to DNS.
 

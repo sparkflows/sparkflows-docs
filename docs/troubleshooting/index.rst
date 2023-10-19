@@ -114,7 +114,13 @@ Below are steps for troubleshooting some of the common issues.
     :doc:`/troubleshooting/mlops`
     
     Steps to troubleshoot MLOps
+
+    ---
     
+    :doc:`/troubleshooting/delta`
+    
+    Steps to troubleshoot Delta Files
+
 .. toctree::
    :hidden:
 
@@ -137,6 +143,7 @@ Below are steps for troubleshooting some of the common issues.
    networking.rst
    scheduler.rst
    mlops.rst
+   delta.rst
    
    
    

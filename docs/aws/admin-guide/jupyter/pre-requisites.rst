@@ -25,7 +25,7 @@ Hardware requirements
      - More vCPU would be preferable, if data size is bigger
    * - Disk Size
      - 200GB+
-     - Depending on Job Compute, if running locally
+     - Depending on usage
    * - port 
      - port 
      - 8888(custom depending on http/https)

@@ -12,7 +12,7 @@ Use below command to install: ::
 
    Above command will generate jupyter_lab_config.py in ~/.jupyter directory
 
-Change to directory .jupyter - cd ~/.jupyter directory
+Change to cd ~/.jupyter directory
 
 Customize the jupyter_lab_config.py file of jupyterlab and change the configuration below::
 

@@ -68,3 +68,30 @@ Find the exposed service port by running this command
   
   $ kubectl get svc -n sparkflows
 
+
+Livy Connection
+-------------------
+Sparkflows connects with Livy to submit the Spark jobs of the workflow on the cluster powered by HPE UA. Follow the below steps to configure the Livy connection in Sparkflows:
+
+1. Navigate to **Administration** > **Connections** > **Add Connection** > **Connection for All**. You will be presented by the following modal window, where you need to enter the Livy URLs and the credentials, that has been provided by the HPE UA Team.
+
+.. figure:: ../../_assets/hpe/livy-connection.png
+   :scale: 100%
+   :alt: HPE UA Data sources
+   :align: center
+
+2. Upload the JAR(fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar) that will be used to run the Spark job in the maprfs. You also need to upload the **workflowexecutecloud_livy.py** to the maprfs and configure the path in the Livy Tab, as shown below.
+
+.. figure:: ../../_assets/hpe/livy-tab-connection.png
+   :scale: 100%
+   :alt: HPE UA Data sources
+   :align: center
+
+In the above configuration, you also need to update the docker image that will be used for running the pyspark jobs. If you are connecting to the S3 compatible storage, which doesn't have verified SSL certificate, then to ignore the ssl validation, you need to add the following configuration
+
+::
+
+  spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.kubernetes.container.image:sparkflows/fire-hpe:3.1.0_13
+
+
+3. Finally test the connection and save it. Now you can start submitting the workflows on the Livy cluster.

@@ -65,7 +65,7 @@ Step 1 : Login to Fire web server URL
     .. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
 
 
-Step 2 : Open and Access Jupyter Notebook
+Step 2 : Go to More Menu and Click on Jupyter Notebook
 .............
 
 #. Once the above configuration is saved, refresh the web server URL and you will see **Jupyter Notebook**, Open it.

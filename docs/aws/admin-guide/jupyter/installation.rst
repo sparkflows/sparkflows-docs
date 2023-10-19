@@ -16,24 +16,22 @@ Change to directory .jupyter - cd ~/.jupyter directory
 
 Customize the jupyter_lab_config.py file of jupyterlab and change the configuration below::
 
-    NotebookApp
-    .open_browser = False
-    ServerApp
-    .allow_origin = '*'
-    .certfile = '/home/ubuntu/fullchain.pem' # ssl certificate
-    .config_file = '~/.jupyter/jupyter_lab_config.py' #config file path
-    .cookie_options = {'SameSite': 'None', 'Secure': True}
-    .default_url = '/lab'
-    .disable_check_xsrf = True
-    .file_url_prefix = '/lab/tree'
-    .ip = '0.0.0.0'
-    .keyfile = '/home/ubuntu/privkey.pem'
-    .notebook_dir = '/home/ubuntu/jupyter-lab/'
-    .port = 8888
-    .token = '123456'
-    .tornado_settings = {   'cookie_options': {'SameSite': 'None', 'Secure': True},
-    'headers': {   'Content-Security-Policy': "frame-ancestors 'self' "
-                                              'https://sparkflows_dns:port'}}
+    #NotebookApp
+    c.NotebookApp.open_browser = False
+    #ServerApp
+    c.NotebookApp.allow_origin = '*'
+    c.ServerApp.certfile = '/home/ubuntu/fullchain.pem' # ssl certificate
+    c.ServerApp.config_file = '~/.jupyter/jupyter_lab_config.py' #config file path
+    c.ServerApp.cookie_options = {'SameSite': 'None', 'Secure': True}
+    c.LabApp.default_url = '/lab'
+    c.ServerApp.disable_check_xsrf=True
+    c.ServerApp.file_url_prefix = '/lab/tree'
+    c.NotebookApp.ip = '0.0.0.0'
+    c.ServerApp.keyfile = '/home/ubuntu/privkey.pem'
+    c.ServerApp.notebook_dir = '/home/ubuntu/jupyter-lab/'
+    c.NotebookApp.port = 8888
+    c.ServerApp.token = '123456'
+    c.ServerApp.tornado_settings = { 'headers': { 'Content-Security-Policy': "frame-ancestors 'self' https://sparkflows_dns:port"},"cookie_options": {'SameSite': 'None', 'Secure': True}}
 
 
 

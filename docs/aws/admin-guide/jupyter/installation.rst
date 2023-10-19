@@ -36,9 +36,10 @@ Customize the jupyter_lab_config.py file of jupyterlab and change the configurat
 
 
 .. note:: Make sure to have a SSL certificate for running jupyterlab on https
-   # Start jupyter server using below command:
 
-    jupyter-lab --ip=0.0.0.0 --port=8888
+# Start jupyter server using below command::
+
+   jupyter-lab --ip=0.0.0.0 --port=8888
 
  Now try to access jupyter lab on browser using public server url along with port.
 

@@ -17,7 +17,7 @@ Hardware requirements
    * - Os 
      - Ubuntu
      - Ubuntu 20.04
-   * - Ec2 Machine
+   * - RAM
      - 16GB+
      - More memory would be preferable
    * - vCPU

@@ -17,6 +17,12 @@ AWS Admin Guide
 
     ---
 
+    :doc:`/aws/admin-guide/aws-version-compatibility`
+    
+    Describe details about RDS setup and configurations. 
+
+    ---
+
     :doc:`/aws/admin-guide/rds`
     
     Describe details about RDS setup and configurations. 
@@ -115,6 +121,7 @@ AWS Admin Guide
 
    planning.rst
    Infrastructure-aws.rst
+   aws-version-compatibility.rst
    rds.rst
    installation-guide/index.rst
    access-and-reload.rst

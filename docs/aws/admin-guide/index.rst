@@ -11,7 +11,7 @@ AWS Admin Guide
 
     ---
 
-    :doc:`/aws/admin-guide/Infrastructure-aws`
+    :doc:`/aws/admin-guide/infrastructure-aws`
 
     Describes details of infrastructure pre-requisites needed to deploy Fire Insights on AWS.
 
@@ -120,7 +120,7 @@ AWS Admin Guide
    :hidden:
 
    planning.rst
-   Infrastructure-aws.rst
+   infrastructure-aws.rst
    aws-version-compatibility.rst
    rds.rst
    installation-guide/index.rst

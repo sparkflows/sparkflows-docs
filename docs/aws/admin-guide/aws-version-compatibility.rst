@@ -4,10 +4,18 @@ AWS Version Compatibility
 EMR Versions
 -----------
 
+The below page lists the version of Apache Spark used with various versions of AWS EMR.
+
+https://docs.aws.amazon.com/emr/latest/ReleaseGuide/Spark-release-history.html
+
+Updates to bootstrap and wheel file
+-------------
+
 * For emr-6.6.0, in the bootstrap and wheel file version of h2o-pysparkling needs to be changed to h2o-pysparkling-3.2==3.36.1.2.post1.
 * For emr-6.9.0, in the bootstrap and wheel file version of h2o-pysparkling needs to be changed to h2o-pysparkling-3.3.
 
-The above update will allow normal Pyspark workflow to run.
+Delta Support
+------------
 
 For delta support, in Pyspark workflow include the below jars in Livy connection.
 

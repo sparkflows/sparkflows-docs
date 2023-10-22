@@ -85,7 +85,15 @@ GCP Guide
    :maxdepth: 2
 
    gcp/index
- 
+
+HPE Guide
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   hpe/index
+
 Snowflake Guide
 --------------
 

@@ -4,94 +4,103 @@ HPE Unified Analytics Admin Guide
 HPE Unified Analytics provides a platform for different distributed systems like datastore, analytics engine, scheduler and query engine for running different analytical operations. Sparkflows leverages 
 these frameworks and tools to help you build ML and analytical workflows using drag-n-drop wizard.
 
-Here is quick snap, of how the HPE UA Dashboard looks like.
+This document explains in detail the steps involved in setting up Sparkflows on HPE UA and Configuring Livy in Sparkflows.
 
-.. figure:: ../../_assets/hpe/hpe-ua-dashboard.png
-   :scale: 100%
-   :alt: HPE UA Dashboard
-   :align: center
+Step 1 : Access HPE UA Dashboard
+-------------------------
+#. Login to the HPE UA Dashboard using your credentials. 
+   
+   Here is quick snap, of how the HPE UA Dashboard looks like.
 
+   .. figure:: ../../_assets/hpe/hpe-ua-dashboard.png
+      :width: 60%
+      :alt: HPE UA Dashboard
 
-Once you get access to the HPE UA Dashboard, you can go to **Main Menu** > **Applications & Frameworks** > **Analytics** to view the different frameworks and tools available that Sparkflows leverages for executing
-the workflows.
+Step 2 : Access Frameworks and Tools
+----------------
+#. To access the different frameworks and tools that Sparkflows uses for executing workflows :
 
-.. figure:: ../../_assets/hpe/hpeua-frameworks.png
-   :scale: 100%
-   :alt: HPE UA Frameworks
-   :align: center
+   Navigate to **Main Menu** > **Applications & Frameworks** > **Analytics** from the dashboard.
 
-Setup Sparkflows on HPE UA
+   .. figure:: ../../_assets/hpe/hpeua-frameworks.png
+      :width: 60%
+      :alt: HPE UA Frameworks
+
+Step 3 : Setup Sparkflows on HPE UA
 --------------------------
+To setup, follow the steps below :
 
-1. Now with the sparkflows tar file, you need to extract it, and copy the **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the maprfs, 
-with the support from HPE team. Once you have uploaded the files, you can view them, by navigating to **Main Menu** > **Data Engineering** > **Data Sources** > **Browse** 
+#. Get the Sparkflows tar file aand unzip it.
+#. Copy the **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the **MapRFS** with HPE team's support.
 
-Here is the screenshot
+   Once you finish uploading the files, you can view them, by navigating to **Main Menu** > **Data Engineering** > **Data Sources** > **Browse** 
 
-.. figure:: ../../_assets/hpe/hpe-ua-datasources.png
-   :scale: 100%
-   :alt: HPE UA Data sources
-   :align: center
+   .. figure:: ../../_assets/hpe/hpe-ua-datasources.png
+      :width: 60%
+      :alt: HPE UA Data sources
+   
+#. Use the Helm chart to install Sparkflows on one of the HPE UA edge nodes.
+   
+   Make sure to configure the sparkflows deployment.yaml file located in the helm chart directory with the correct MySQL instance settings.
 
+   If there's an existing instance of Sparkflows, initiate the uninstallation process using the comands given below :
+   ::
 
-2. Use the Helm chart to install the Sparkflows, from one of the edge node of the HPE UA. Make sure you’ve configured the sparkflows deployment.yaml stored in the helm chart directory with the correct MySQL instance configuration.
-If there is an instance of Sparkflows running, first uninstall it using the below command
+     $ helm uninstall fire-ezua -n sparkflows
 
-::
+#. Run the command to install Sparkflows with MySQL support, in a separate namespace - sparkflows :
+   ::
 
-  $ helm uninstall fire-ezua -n sparkflows
+     $ helm install fire-ezua -n sparkflows fire
 
-Run the command to install Sparkflows with MySQL support, in a separate namespace - sparkflows
+#. To validate if the installation was successful, run the following command :
+   ::
 
-::
-
-  $ helm install fire-ezua -n sparkflows fire
-
-To validate if the installation was successful, run the following command
-
-::
-
-  $ kubectl get pods -n sparkflows 
-  NAME                                              READY   STATUS    RESTARTS       AGE
-  fire-ezua-sparkflows-fire-7746b99c89-2kdhr        2/2     Running   1 (174m ago)   175m
+        $ kubectl get pods -n sparkflows 
+        NAME                                              READY   STATUS    RESTARTS       AGE
+        fire-ezua-sparkflows-fire-7746b99c89-2kdhr        2/2     Running   1 (174m ago)   175m
 
 
-To fetch the logs for debugging purpose, run the following command
+#. To fetch the logs for debugging purpose, run the following command :
+   ::
 
-::
+     $ kubectl logs -f <pod name> -n sparkflows
 
-  $ kubectl logs -f <pod name> -n sparkflows
-
-Find the exposed service port by running this command
-
-::
+#. Find the exposed service port by running the below command :
+   ::
   
-  $ kubectl get svc -n sparkflows
+     $ kubectl get svc -n sparkflows
 
 
-Livy Connection
+Step 4 : Configure Livy Connection
 -------------------
-Sparkflows connects with Livy to submit the Spark jobs of the workflow on the cluster powered by HPE UA. Follow the below steps to configure the Livy connection in Sparkflows:
+Sparkflows connects with Livy to submit the Spark jobs of the workflow on the cluster powered by HPE UA. 
 
-1. Navigate to **Administration** > **Connections** > **Add Connection** > **Connection for All**. You will be presented by the following modal window, where you need to enter the Livy URLs and the credentials, that has been provided by the HPE UA Team.
+Follow the below steps to configure the Livy connection in Sparkflows:
 
-.. figure:: ../../_assets/hpe/livy-connection.png
-   :scale: 100%
-   :alt: HPE UA Data sources
-   :align: center
+#. Navigate to **Administration** > **Connections** > **Add Connection** > **Connection for All** to reach a Modal window.
+   
+   Now, enter the **Livy URLs** and the **credentials**, that has been provided by the HPE UA Team.
 
-2. Upload the JAR(fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar) that will be used to run the Spark job in the maprfs. You also need to upload the **workflowexecutecloud_livy.py** to the maprfs and configure the path in the Livy Tab, as shown below.
+   .. figure:: ../../_assets/hpe/livy-connection.png
+      :width: 60%
+      :alt: HPE UA Data sources
 
-.. figure:: ../../_assets/hpe/livy-tab-connection.png
-   :scale: 100%
-   :alt: HPE UA Data sources
-   :align: center
+#. Upload the JAR **(fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar)** that will be used to run the Spark job in the MapRFS. 
 
-In the above configuration, you also need to update the docker image that will be used for running the pyspark jobs. If you are connecting to the S3 compatible storage, which doesn't have verified SSL certificate, then to ignore the ssl validation, you need to add the following configuration
+   Next, upload the **workflowexecutecloud_livy.py** to the MapRFS and configure the path in the Livy Tab, as shown below :
 
-::
+   .. figure:: ../../_assets/hpe/livy-tab-connection.png
+      :width: 60%
+      :alt: HPE UA Data sources
 
-  spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.kubernetes.container.image:sparkflows/fire-hpe:3.1.0_13
+   Also, update the **Docker image** designated for executing PySpark jobs in the above configuration.
 
+#. If you're connecting to an S3-compatible storage without a verified SSL certificate, include the following configuration to bypass SSL validation :
+   ::
 
-3. Finally test the connection and save it. Now you can start submitting the workflows on the Livy cluster.
+     spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.kubernetes.container.image:sparkflows/fire-hpe:3.1.0_13
+
+#. Finally **test** the connection and **save** it. 
+
+   Now you can start submitting the workflows on the Livy cluster.

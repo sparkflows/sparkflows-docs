@@ -4,10 +4,9 @@ Databricks Prerequisites
 Prerequisites
 -------------
 
-
 Below are the prerequisites for installing Fire Insights on a Databricks Cluster:
 
-.. list-table:: Prerequisites
+.. list-table::
    :widths: 10 20 40
    :header-rows: 1
 
@@ -31,20 +30,30 @@ Below are the prerequisites for installing Fire Insights on a Databricks Cluster
      - The machine and port on which Fire is running has to be accessible from the databricks cluster
 
 
-Enabling Scala on High Concurrency Cluster
+Enable Scala on High Concurrency Cluster
 -------------------------------------------
 
-The Databricks High Concurrency cluster does not enable scala by default. You can do it manually by following the steps given below:
+By default, Scala is not enabled on the Databricks High Concurrency cluster. 
 
-Go to Configurations-->> Advanced Options -->> Spark -->> and add the below in Spark Config
+To enable Scala, you can manually configure it by following these steps:
 
-::
+#. Access the Databricks Platform.
+
+#. Go to the **Configurations** section.
+
+#. Navigate to **Advanced Options**.
+
+#. Find the **Spark** section within the advanced options.
+
+#. Add the following configuration entry under **Spark Config**:
+
+   ::
 
     spark.databricks.repl.allowedLanguages sql,python,r,scala
 
 .. note::  
 
-   1. Path to Fire core jar in Databricks Environment is required.
-   2. User who is sharing the token for databricks connection, must have manage permission.
-   3. Path to main python file in Databricks Environment, if using python engine.
+   #. To operate in the Databricks Environment, you need to specify the path to the Fire core jar.
+   #. When sharing a token for Databricks connection, ensure that the user has the requisite manage permissions.
+   #. If you are using the Python engine in the Databricks Environment, remember to specify the path to the main Python file.
 

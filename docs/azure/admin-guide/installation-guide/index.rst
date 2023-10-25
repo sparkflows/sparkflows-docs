@@ -17,7 +17,11 @@ Sparkflows can be installed in any one of the following two ways:
 
     Install Sparkflows using Sparkflows Docker Image.
 
+    ---
 
+    :doc:`/azure/admin-guide/installation-guide/azure-container-apps`
+
+    Install Sparkflows on Azure Container Apps.
 
 
 .. toctree::
@@ -25,4 +29,5 @@ Sparkflows can be installed in any one of the following two ways:
 
    tgz-file.rst
    docker-image.rst
+   azure-container-apps.rst
 

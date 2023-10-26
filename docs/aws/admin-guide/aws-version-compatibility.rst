@@ -21,7 +21,7 @@ Make the below updates to the example bootstrap script for different versions of
 
 * For ``emr-6.6.0`` in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.2==3.36.1.2.post1``
 * For ``emr-6.9.0``, in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.3``
-* For ``emr-6.2.1``, no changes to bootstrap script are needed.
+* For ``emr-6.2.1``, no changes to bootstrap script are needed. It uses ``h2o-pysparkling-3.0``
 
 Example Bootstrap Script
 ------------

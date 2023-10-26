@@ -25,6 +25,7 @@ For delta support, in Spark workflow include the below jars in Livy connection.
 
  * emr-6.2.1: delta-core_2.12-0.8.0.jar
 
+
 For delta support, in the Pyspark workflow
 
 In EMR Bootstrap, include the:

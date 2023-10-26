@@ -185,4 +185,4 @@ Ensure that you have S3 Bucket with Read, Write Permissions.
 EMR Cluster Access
 ++++
 
-Ensure that you have EMR Cluster with Livy URL accessible from Sparkflows Instance.
+Ensure that you have EMR Cluster with Livy URL accessible from Sparkflows Instance and have s3 access.

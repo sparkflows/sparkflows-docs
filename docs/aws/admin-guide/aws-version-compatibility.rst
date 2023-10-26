@@ -17,11 +17,21 @@ Updates to bootstrap and wheel file
 Delta Support
 ------------
 
-For delta support, in Pyspark workflow include the below jars in Livy connection.
+For delta support, in Spark workflow include the below jars in Livy connection.
 
  * emr-6.6.0: delta-core_2.12-2.0.1.jar & delta-storage-2.0.1.jar
 
  * emr-6.9.0: delta-core_2.12-2.1.0.jar & delta-storage-2.1.0.jar
 
  * emr-6.2.1: delta-core_2.12-0.8.0.jar
+
+For delta support, in the Pyspark workflow
+
+In EMR Bootstrap, include the:
+
+aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar /usr/lib/spark/jars/
+
+In Pyspark include the below step to import the delta package in pyspark.
+
+spark.sparkContext.addPyFile("s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar")
 

@@ -17,6 +17,7 @@ Updates to bootstrap and wheel file
 
 * For ``emr-6.6.0`` in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.2==3.36.1.2.post1``
 * For ``emr-6.9.0``, in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.3``
+* For ``emr-6.2.1``, no changes to bootstrap script are needed.
 
 Delta Support
 ------------
@@ -27,10 +28,10 @@ For delta support, in Spark workflow include the below jars in Livy connection.
 
  * For ``emr-6.9.0`` include the two JARs with the exact version: ``delta-core_2.12-2.1.0.jar`` and ``delta-storage-2.1.0.jar``
 
- * For ``emr-6.2.1`` include the two JARs with the exact version: ``delta-core_2.12-0.8.0.jar``
+ * For ``emr-6.2.1`` include the JAR with the exact version: ``delta-core_2.12-0.8.0.jar``
 
 
-For delta support, in the Pyspark workflow. In EMR Bootstrap, include the::
+For delta support, in the Pyspark workflow include the below in the EMR Bootstrap script::
 
   aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar /usr/lib/spark/jars/
 

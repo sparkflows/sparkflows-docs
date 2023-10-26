@@ -131,10 +131,10 @@ Step 6 : Create Databricks Connection in Fire Insights
 
 The connection can be created by the **Administrator** under **Administration/Global Connections**. These connections are available for everyone to use. It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
-Refer the below table for more details on parameters settings:
+Refer the below table for more details on parameter settings:
 
 .. list-table:: 
-   :widths: 10 20 20
+   :widths: 25 25 50
    :header-rows: 1
 
    * - Title
@@ -165,8 +165,7 @@ Refer the below table for more details on parameters settings:
      - JDBC URL for databricks connection
      - Add JDBC URL for Databricks Connection
      
-
-  .. figure:: ../../_assets/configuration/connection_databricks.PNG
+.. figure:: ../../_assets/configuration/connection_databricks.PNG
       :alt: Databricks Connection
       :width: 40%
 

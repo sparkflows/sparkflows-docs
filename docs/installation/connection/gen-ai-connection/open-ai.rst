@@ -5,3 +5,7 @@ This connection can be created to interact with OpenAI API’s. The analytical a
 .. figure:: ../../../_assets/installation/connection/gen-ai/open-ai.png
    :alt: connection
    :width: 60%    
+
+
+
+   

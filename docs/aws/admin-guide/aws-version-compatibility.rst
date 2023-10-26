@@ -8,18 +8,22 @@ The below page lists the version of Apache Spark used with various versions of A
 
 https://docs.aws.amazon.com/emr/latest/ReleaseGuide/Spark-release-history.html
 
-The below page lists the compatability matrix of Spark version and Delta lake version.
+It also lists the compatability matrix of Spark version and Delta lake version.
 
 https://docs.delta.io/latest/releases.html
 
+AWS EMR has a bootstrap script which gets executed when it comes up. Fire Insights uses the bootstrap script to install the needed python packages.
+
 Updates to bootstrap and wheel file
 -------------
+
+Make the below updates to the example bootstrap script for different versions of EMR.
 
 * For ``emr-6.6.0`` in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.2==3.36.1.2.post1``
 * For ``emr-6.9.0``, in the bootstrap script and the wheel file, the version of ``h2o-pysparkling`` needs to be updated to ``h2o-pysparkling-3.3``
 * For ``emr-6.2.1``, no changes to bootstrap script are needed.
 
-Bootstrap script would have the below content
+Example Bootstrap Script
 ------------
   
   sudo yum install -y python3-devel

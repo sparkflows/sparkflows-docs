@@ -8,6 +8,7 @@ Sparkflows enable you to create different connections. Sparkflows comes up with 
 
    compute-connection/index.rst
    storage-connection/index.rst
+   gen-ai-connection/index.rst
 
 
    

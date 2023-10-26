@@ -45,7 +45,7 @@ You can do this by following these steps:
    
    use the download link from the previous step by selecting the **Drop JAR here** option.
 
-   .. figure:: ../../_assets/configuration/uploadlibrary.PNG
+   .. figure:: ../../_assets/configuration/upload-library.png
        :alt: Databricks
        :width: 40%
    
@@ -70,9 +70,9 @@ Configure the path of the uploaded fire core jar library in Databricks in Fire I
 
 To configure the path, navigate to **Administration** --> **Configuration** --> **Databricks**
 
- .. figure:: ../../_assets/configuration/databricks_configuration.PNG
-    :alt: Databricks
-    :width: 40%
+.. figure:: ../../_assets/configuration/databricks_configuration.PNG
+   :alt: Databricks
+   :width: 60%
    
    
 Step 4 : Configure app.postMessageURL in Fire Insights
@@ -84,7 +84,7 @@ Jobs running on Databricks would post back results to the Fire Insights using th
 
 .. figure:: ../../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Postback URL
-   :width: 40%
+   :width: 60%
 
 
 Step 5 : Create REST API Token in Databricks
@@ -95,15 +95,9 @@ To facilitate communication between Fire Insights and Databricks via REST API ca
 Follow these steps to create your token:
 
 #. Login to your Databricks Account.
-#. Click on **Account** icon located on the top right corner.
-
-   .. figure:: ../../_assets/configuration/usersetting.PNG
-      :alt: Databricks
-      :width: 30%
-   
 #. Click on **User Settings**.
 
-   .. figure:: ../../_assets/configuration/userset.PNG
+   .. figure:: ../../_assets/configuration/user-setting.png
       :alt: Databricks
       :width: 30%
 

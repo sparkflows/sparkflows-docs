@@ -6,8 +6,8 @@ The fields can be populated as below based on the endpoint of the OpenAI deploym
 
   .. figure:: ../../../_assets/installation/connection/gen-ai/azure-1.png
      :alt: connection
-     :width: 60%    
+     :width: 40%    
 
   .. figure:: ../../../_assets/installation/connection/gen-ai/azure-2.png
      :alt: connection
-     :width: 60%    
+     :width: 40%    

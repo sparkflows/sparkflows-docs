@@ -25,8 +25,10 @@ Make the below updates to the example bootstrap script for different versions of
 
 Example Bootstrap Script : EMR 6.6.0
 ------------
-  
-  sudo yum install -y python3-devel
+
+::
+
+    sudo yum install -y python3-devel
 
   sudo yum install -y libtiff-devel libjpeg-devel openjpeg2-devel zlib-devel freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel harfbuzz-devel fribidi-devel libraqm-devel libimagequant-devel libxcb-devel
 

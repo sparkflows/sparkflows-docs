@@ -72,6 +72,8 @@ Example Bootstrap Script : EMR 6.6.0
 
   sudo pip3 install -U numpy==1.20.0
 
+  sudo pip3 install delta-spark==2.0.2
+
   sudo pip3 uninstall -y fire
 
   wget https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/fire-3.2.0-py3-none-any.whl
@@ -129,6 +131,8 @@ Example Bootstrap Script : EMR 6.2.1
   sudo pip3 uninstall -y numpy
 
   sudo pip3 install -U numpy==1.20.0
+
+  sudo pip3 install deltalake==0.8.0
 
   sudo pip3 uninstall -y fire
 

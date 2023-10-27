@@ -62,7 +62,7 @@ Example Bootstrap Script : EMR 6.6.0
   jmespath==0.7.1 \
   JayDeBeApi==1.2.1 \
   statsmodels==0.13.2 \
-  h2o-pysparkling-3.0 \
+  h2o-pysparkling-3.2==3.36.1.2.post1 \
   markupsafe==2.0.0 \
   jinja2==3.0.3 \
 
@@ -74,9 +74,9 @@ Example Bootstrap Script : EMR 6.6.0
 
   sudo pip3 uninstall -y fire
 
-  wget https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/fire-3.1.0-py3-none-any.whl
+  wget https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/fire-3.2.0-py3-none-any.whl
 
-  sudo pip3 install fire-3.1.0-py3-none-any.whl  
+  sudo pip3 install fire-3.2.0-py3-none-any.whl  
 
   sudo pip3 install -U numpy==1.20.0
 

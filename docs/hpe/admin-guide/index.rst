@@ -30,7 +30,7 @@ Step 3 : Setup Sparkflows on HPE UA
 --------------------------
 To setup, follow the steps below :
 
-#. Get the Sparkflows tar file and unzip it.
+#. Get the Sparkflows TAR file and unzip it.
 #. Copy the **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the **MapRFS** with HPE team's support.
 
    Once you finish uploading the files, you can view them, by navigating to **Main Menu** > **Data Engineering** > **Data Sources** > **Browse** 

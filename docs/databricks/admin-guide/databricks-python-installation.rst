@@ -39,9 +39,9 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
 
    .. figure:: ../../_assets/configuration/wheelfile.PNG
       :alt: Wheel File
-      :width: 90%
+      :width: 70%
 
-To be able to upload, follow the below steps :
+**To upload as Library, follow the below steps :**
 
 #. Login to **Databricks Cluster**.
 #. Click on **Workspace** located in the left sidebar.
@@ -52,11 +52,11 @@ To be able to upload, follow the below steps :
    
 #. Create a new **Library** by selecting :
 
-   Library Source as **DBFS**
+   Library Source as **DBFS**.
    
-   Library Type as **Python Whl** 
+   Library Type as **Python Whl**. 
 
-   Next,  provide any **Library Name** field and
+   Next,  provide any **Library Name** field and;
     
    Add File Path of **fire-3.1.0-py3-none-any.whl** located in DBFS.
 
@@ -68,7 +68,7 @@ To be able to upload, follow the below steps :
 
 #. Choose **Databricks cluster**.
    
-   When you click the Create button, you will be prompted to **choose a specific Databricks Cluster** for installation. 
+   When you click the Create button, you will be prompted to choose a specific Databricks Cluster for installation. 
  
    Simply select the cluster on which you wish to install the application.
 
@@ -86,142 +86,166 @@ To be able to upload, follow the below steps :
       :alt: Databricks
       :width: 70%
 
-Another option is to upload ``fire-3.1.0-py3-none-any.whl`` file to S3 Bucket which is accessible from Databricks Cluster.
+**To upload via S3 bucket, follow the steps below :**
 
-Once you upload ``fire-3.1.0-py3-none-any.whl`` file to S3 Bucket, login to Databricks Cluster & inside Libraries tab.
+#. Upload **fire-3.1.0-py3-none-any.whl** file to S3 Bucket.
+#. **Login** to Databricks Cluster. 
+#. Go to Libraries tab.
+#. Install new Library by selecting :
 
-Install New Library & select ``DBFS/S3`` in Library Source, ``Python Whl`` in Library Type and copy/paste the location of python wheel file available in S3 in File Path & click on Install.
+   **DBFS/S3** as Library Source.
+    
+   **Python Whl** as Library Type.
 
-.. figure:: ../../_assets/configuration/s3wheel.PNG
-   :alt: Databricks
-   :width: 70%
+   Copy/Paste the location of python wheel file available in S3 in File Path.
 
-Once it is installed successfully, you can see that the python wheel inside Library is up.
+   And finally, click on **Install**.
+    
+   .. figure:: ../../_assets/configuration/s3wheel.PNG
+      :alt: Databricks
+      :width: 70%
 
-.. figure:: ../../_assets/configuration/uploads3wheel.PNG
-   :alt: Databricks
-   :width: 90%
+   Once it is installed successfully, you can see that the python wheel inside Library is up.
+
+   .. figure:: ../../_assets/configuration/uploads3wheel.PNG
+      :alt: Databricks
+      :width: 70%
 
 
-Install Python dependencies
+Step 4 : Install Python Dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running the below command from ``fire-x.y.z/dist/fire/`` directory::
+You need to install the python dependencies required by Fire Insights on the machine. 
 
-    pip install -r requirements.txt
+To install, run the below command from **fire-x.y.z/dist/fire/** directory:
+   
+   ::
 
-.. figure:: ../../_assets/configuration/pip_dependency.PNG
-   :alt: Databricks
-   :width: 90%
+      pip install -r requirements.txt
 
-Note: Make sure that pip, etc. is already installed on that machine.
+   .. figure:: ../../_assets/configuration/pip_dependency.PNG
+      :alt: Databricks
+      :width: 90%
+
+   .. note:: Make sure that pip, etc. is already installed on that machine.
 
 
-Install dependency for JDBC Driver
+Step 5 : Install Dependency for JDBC Driver
 --------------------------
 
-Copy the ``JDBC Driver`` jar to pyspark jar path. Once it is copied successfully, you can see the JDBC Driver jar inside pyspark jar path::
+#. Copy the **JDBC Driver** JAR to pyspark JAR path. 
 
-    cp -r SparkJDBC41.jar $PATH_VIRTUAL_ENV/venv/lib/python3.7/site-packages/pyspark/jars/
+   Once it is copied successfully, you can see the JDBC Driver JAR inside pyspark JAR path.
 
-.. figure:: ../../_assets/configuration/copy_view.PNG
-   :alt: Databricks
-   :width: 90%
+   ::
+
+      cp -r SparkJDBC41.jar $PATH_VIRTUAL_ENV/venv/lib/python3.7/site-packages/pyspark/jars/
+
+   .. figure:: ../../_assets/configuration/copy_view.PNG
+      :alt: Databricks
+      :width: 70%
    
  
 
-Install dependency for AWS
+Step 6 : Install Dependency for AWS
 --------------------------
 
-Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
+#. Copy the JARS **hadoop-aws** and **aws-java-sdk** to pyspark JAR path.
 
-.. figure:: ../../_assets/configuration/awssdkjar.PNG
-   :alt: Databricks
-   :width: 90%
+   .. figure:: ../../_assets/configuration/awssdkjar.PNG
+      :alt: Databricks
+      :width: 70%
 
-Install any specific package of Python if one needs to use in Custom Processors on Databricks Cluster as well as on Fire Insights Machine.
+#. Install any specific package of Python if one needs to use in Custom Processors on Databricks Cluster as well as on Fire Insights Machine.
 
-Use the command below to install it on the Fire Insights machine. ::
+   Use the command below to install it on the **Fire Insights machine**:
 
-    pip install scorecardpy
+   ::
 
-.. figure:: ../../_assets/configuration/scorecard-machine.PNG
-   :alt: Databricks
-   :width: 90%
+      pip install scorecardpy
 
-Install it on your Databricks cluster with the steps given below. ::
+   .. figure:: ../../_assets/configuration/scorecard-machine.PNG
+      :alt: Databricks
+      :width: 70%
 
-   * Open a Notebook and attach to Databricks Cluster.
-   * %sh pip install scorecardpy
+   To Install it on your **Databricks cluster**, open a **Notebook** and attach it to your Databricks Cluster.
 
-.. figure:: ../../_assets/configuration/scorecard.PNG
-   :alt: Databricks
-   :width: 90%
+   Next, use the below command to install the package:
 
-Install prophet package on databricks
+   ::
+
+        %sh pip install scorecardpy
+
+   .. figure:: ../../_assets/configuration/scorecard.PNG
+      :alt: Databricks
+      :width: 70%
+
+Step 7 : Install Prophet Package on Databricks
 -------------------------------------
 
-Install the needed python package for prophet using Init script on databricks cluster.
+#. Install the needed python package for prophet using Init script on databricks cluster.
 
-::
+   Use the below command:
 
-    #!/bin/bash
-    pip install pip==20.0.2
-    pip uninstall -y pystan
-    pip install pystan==2.19.1.1
-    pip install numpy==1.17.3
-    pip install prophet==1.1.1
+   ::
+
+        #!/bin/bash
+        pip install pip==20.0.2
+        pip uninstall -y pystan
+        pip install pystan==2.19.1.1
+        pip install numpy==1.17.3
+        pip install prophet==1.1.1
     
 
-Add above in a script file, upload in DBFS and go to Advanced Options, select Init Scripts and add DBFS path to it. 
+   Add above in a **script file**, upload in **DBFS** and go to **Advanced Options**, select **Init Scripts** and add **DBFS path** to it. 
 
-.. figure:: ../../_assets/configuration/initscript.PNG
-   :alt: Databricks
-   :width: 90%
+   .. figure:: ../../_assets/configuration/initscript.PNG
+      :alt: Databricks
+      :width: 70%
 
-Upload Fire workflowexecutedatabricks.py file to DBFS
+Step 8 : Upload Fire workflowexecutedatabricks.py file to DBFS
 ----------------------------------
 
-For Python Job submission to Databricks Cluster:
+#. For Python Job submission to Databricks Cluster:
 
-Upload ``fire-x.y.z/dist/workflowexecutedatabricks.py``, file to DBFS or even  to S3 Bucket.
+   Upload **fire-x.y.z/dist/workflowexecutedatabricks.py**, file to **DBFS** or even  to **S3 Bucket**.
 
-.. figure:: ../../_assets/configuration/workflow.PNG
-   :alt: Databricks
-   :width: 90%
+   .. figure:: ../../_assets/configuration/workflow.PNG
+      :alt: Databricks
+      :width: 70%
 
-You can ``UPLOAD`` it, using DBFS browser too.
+   You can upload it using the DBFS browser too.
 
-.. figure:: ../../_assets/configuration/databr_wf.PNG
-   :alt: Databricks
-   :width: 90%
+   .. figure:: ../../_assets/configuration/databr_wf.PNG
+      :alt: Databricks
+      :width: 70%
 
-Configure the Uploaded Library in Fire Insights
+Step 9 : Configure Uploaded Library in Fire Insights
 ------------------------------------
 
-Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Fire Insights.
+Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under **databricks.pythonFile** & **databricks.pythonPackages** respectively in Fire Insights.
 
-It can be two sources either ``DBFS`` or ``S3`` path.
+It can be two sources either **DBFS** or **S3** path:
 
-If you have uploaded in ``DBFS`` path.
+* If you have uploaded in **DBFS** path:
 
-.. figure:: ../../_assets/configuration/db_configure.PNG
-   :alt: Databricks
-   :width: 90%
+  .. figure:: ../../_assets/configuration/db_configure.PNG
+     :alt: Databricks
+     :width: 70%
 
-If you have uploaded in ``S3`` path.
+* If you have uploaded in ``S3`` path:
 
-.. figure:: ../../_assets/configuration/s3db_configure.PNG
-   :alt: Databricks
-   :width: 90%
+  .. figure:: ../../_assets/configuration/s3db_configure.PNG
+     :alt: Databricks
+     :width: 70%
 
-Job Submission using Pyspark Engine
+Step 10 : Submit Job using Pyspark Engine
 -----------------------------------
 
 Now, you can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
-.. figure:: ../../_assets/configuration/job_1.PNG
-   :alt: Submit Job
-   :width: 90%
+  .. figure:: ../../_assets/configuration/job_1.PNG
+     :alt: Submit Job
+     :width: 70%
 
 

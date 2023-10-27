@@ -144,6 +144,27 @@ Example Bootstrap Script : EMR 6.2.1
 
   sudo pip3 install -U numpy==1.20.0
 
+Sample PySpark custom delta code:
+
+   .. figure:: ../../_assets/aws/delta_code.png
+      :alt: Delta Code
+      :width: 65% 
+
+Please note to keep the below import local as seen in the screenshot above::
+
+    from delta.tables import DeltaTable
+
+Please note to add the below delta JAR to be used in the code as seen in the screenshot above::
+
+	spark.sparkContext.addPyFile("s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar")
+	
+
+Sample PySpark config to be passed to use delta code in PySpark workflow:
+
+   .. figure:: ../../_assets/aws/delta_conf.png
+      :alt: Delta Code
+      :width: 65% 
+
 
 Delta Support
 ------------

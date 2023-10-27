@@ -7,12 +7,14 @@ In Sparkflows, ``Storage Connection`` can connect to the following data sources:
 
 * Cassandra
 * Hive
+* JDBC
 * MongoDB
 * MySQL
 * PostgreSQL
 * Redshift
-* SQL server
+* SQL Server
 * Snowflake
+* Trino
   
 .. toctree::
    :maxdepth: 2

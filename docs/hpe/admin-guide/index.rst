@@ -8,7 +8,7 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
 Step 1 : Access HPE UA Dashboard
 -------------------------
-#. Login to the HPE UA Dashboard using your credentials. 
+#. **Login** to the **HPE UA Dashboard** using your credentials. 
    
    Here is quick snap, of how the HPE UA Dashboard looks like.
 
@@ -30,7 +30,7 @@ Step 3 : Setup Sparkflows on HPE UA
 --------------------------
 To setup, follow the steps below :
 
-#. Get the Sparkflows tar file aand unzip it.
+#. Get the Sparkflows tar file and unzip it.
 #. Copy the **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the **MapRFS** with HPE team's support.
 
    Once you finish uploading the files, you can view them, by navigating to **Main Menu** > **Data Engineering** > **Data Sources** > **Browse** 
@@ -83,7 +83,7 @@ Follow the below steps to configure the Livy connection in Sparkflows:
    Now, enter the **Livy URLs** and the **credentials**, that has been provided by the HPE UA Team.
 
    .. figure:: ../../_assets/hpe/livy-connection.png
-      :width: 60%
+      :width: 40%
       :alt: HPE UA Data sources
 
 #. Upload the JAR **(fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar)** that will be used to run the Spark job in the MapRFS. 
@@ -91,7 +91,7 @@ Follow the below steps to configure the Livy connection in Sparkflows:
    Next, upload the **workflowexecutecloud_livy.py** to the MapRFS and configure the path in the Livy Tab, as shown below :
 
    .. figure:: ../../_assets/hpe/livy-tab-connection.png
-      :width: 60%
+      :width: 40%
       :alt: HPE UA Data sources
 
    Also, update the **Docker image** designated for executing PySpark jobs in the above configuration.

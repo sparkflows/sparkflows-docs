@@ -19,12 +19,12 @@ Step 1 : Install Fire Insights
 
 To begin, install Fire Insights on any machine. Ensure that this machine is accessible from your Databricks cluster.
 
-Step 2 : Upload Fire Core Jar to Databricks
+Step 2 : Upload Fire Core JAR to Databricks
 ^^^^^^^^^^^^^^
 
-Fire Insights relies on a specific jar file to execute tasks within Databricks. 
+Fire Insights relies on a specific JAR file to execute tasks within Databricks. 
 
-This jar file, named **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar**, must be uploaded under Workspace as a Library on to Databricks. 
+This JAR file, named **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar**, must be uploaded under Workspace as a Library on to Databricks. 
 
 You can do this by following these steps:
 
@@ -41,7 +41,7 @@ You can do this by following these steps:
       :alt: Databricks
       :width: 40%
 
-#. Upload Jar File **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** either from your machine or
+#. Upload JAR File **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** either from your machine or
    
    use the download link from the previous step by selecting the **Drop JAR here** option.
 
@@ -66,7 +66,7 @@ You can do this by following these steps:
 Step 3 : Configure Uploaded Library in Fire Insights
 ^^^^^^^^^^^^^^^
 
-Configure the path of the uploaded fire core jar library in Databricks in Fire Insights.
+Configure the path of the uploaded fire core JAR library in Databricks in Fire Insights.
 
 To configure the path, navigate to **Administration** --> **Configuration** --> **Databricks**
 
@@ -94,7 +94,7 @@ To facilitate communication between Fire Insights and Databricks via REST API ca
 
 Follow these steps to create your token:
 
-#. Login to your Databricks Account.
+#. **Login** to your **Databricks Account** using your credentials.
 #. Click on **User Settings**.
 
    .. figure:: ../../_assets/configuration/user-setting.png

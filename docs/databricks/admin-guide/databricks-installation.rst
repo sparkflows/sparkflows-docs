@@ -99,25 +99,25 @@ Follow these steps to create your token:
 
    .. figure:: ../../_assets/configuration/user-setting.png
       :alt: Databricks
-      :width: 30%
+      :width: 60%
 
 #. Click on **Generate New Token**.
 
    .. figure:: ../../_assets/configuration/generatetoken.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
 
 #. Add **Comment & Lifetime(days)** for token expiry & click on **Generate**.
 
    .. figure:: ../../_assets/configuration/token_update.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
 
 #. Copy the token generated and click on **DONE**.
 
    .. figure:: ../../_assets/configuration/token_generated.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
 
 
 Step 6 : Create Databricks Connection in Fire Insights
@@ -161,7 +161,7 @@ Refer the below table for more details on parameter settings:
      
 .. figure:: ../../_assets/configuration/connection_databricks.PNG
       :alt: Databricks Connection
-      :width: 40%
+      :width: 60%
 
 More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-connections.html>`_
 

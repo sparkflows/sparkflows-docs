@@ -9,7 +9,7 @@ This document describes the steps for installing Fire Insights on Azure Containe
 
 .. note:: MySQL needs to be set up before installing Fire Insights.
 
-Step 1: Open Container Apps Configuration Window
+Step 1 : Open Container Apps Configuration Window
 -----------------
 #. Login to **Azure Dashboard**.
 #. Navigate to **Container Apps**.

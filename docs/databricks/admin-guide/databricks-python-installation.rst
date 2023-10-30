@@ -117,17 +117,7 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
 Step 4 : Install Python Dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine. 
-
-To install, run the below command from **fire-x.y.z/dist/fire/** directory:
-   
-   ::
-
-      pip install -r requirements.txt
-
-   .. figure:: ../../_assets/configuration/pip_dependency.PNG
-      :alt: Databricks
-      :width: 90%
+You need to install the python dependencies required by Fire Insights on the machine, you can refer Step 1. 
 
    .. note:: Make sure that pip with latest version is already installed on that machine.
 

@@ -201,7 +201,11 @@ Step 10 : Submit Job using Pyspark Engine
 
 Now, you can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
-  .. figure:: ../../_assets/configuration/job_1.PNG
+  .. figure:: ../../_assets/configuration/job_2.PNG
+     :alt: Submit Job
+     :width: 70%
+
+.. figure:: ../../_assets/configuration/job_3.PNG
      :alt: Submit Job
      :width: 70%
 

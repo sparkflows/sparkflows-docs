@@ -31,6 +31,8 @@ Step 2 : Install Fire Insights
 
 Install Fire Insights on your machine. The machine has to be accessible from the Databricks cluster.
 
+`click here <https://docs.sparkflows.io/en/latest/installation/installation/index.html>`_
+
 Step 3 : Upload Fire Wheel File to Databricks
 ----------------------------------
 Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file.
@@ -127,7 +129,7 @@ To install, run the below command from **fire-x.y.z/dist/fire/** directory:
       :alt: Databricks
       :width: 90%
 
-   .. note:: Make sure that pip, etc. is already installed on that machine.
+   .. note:: Make sure that pip with latest version is already installed on that machine.
 
 
 Step 5 : Install Dependency for JDBC Driver
@@ -150,35 +152,12 @@ Step 5 : Install Dependency for JDBC Driver
 Step 6 : Install Dependency for AWS
 --------------------------
 
-#. Copy the JARS **hadoop-aws** and **aws-java-sdk** to pyspark JAR path.
+#. Copy the JARS **hadoop-aws** and **aws-java-sdk** to pyspark JAR path, if S3 is configured.
 
    .. figure:: ../../_assets/configuration/awssdkjar.PNG
       :alt: Databricks
       :width: 70%
 
-#. Install any specific package of Python if one needs to use in Custom Processors on Databricks Cluster as well as on Fire Insights Machine.
-
-   Use the command below to install it on the **Fire Insights machine**:
-
-   ::
-
-      pip install scorecardpy
-
-   .. figure:: ../../_assets/configuration/scorecard-machine.PNG
-      :alt: Databricks
-      :width: 70%
-
-   To Install it on your **Databricks cluster**, open a **Notebook** and attach it to your Databricks Cluster.
-
-   Next, use the below command to install the package:
-
-   ::
-
-        %sh pip install scorecardpy
-
-   .. figure:: ../../_assets/configuration/scorecard.PNG
-      :alt: Databricks
-      :width: 70%
 
 Step 7 : Install Prophet Package on Databricks
 -------------------------------------
@@ -197,18 +176,18 @@ Step 7 : Install Prophet Package on Databricks
         pip install prophet==1.1.1
     
 
-   Add above in a **script file**, upload in **DBFS** and go to **Advanced Options**, select **Init Scripts** and add **DBFS path** to it. 
+   Add above in a **script file**, upload in **workspace** and go to **Advanced Options**, select **Init Scripts** and add **workspace path** to it. 
 
    .. figure:: ../../_assets/configuration/initscript.PNG
       :alt: Databricks
       :width: 70%
 
-Step 8 : Upload Fire workflowexecutedatabricks.py file to DBFS
+Step 8 : Upload Fire workflowexecutecloud.py file to DBFS
 ----------------------------------
 
 #. For Python Job submission to Databricks Cluster:
 
-   Upload **fire-x.y.z/dist/workflowexecutedatabricks.py**, file to **DBFS** or even  to **S3 Bucket**.
+   Upload **fire-x.y.z/dist/workflowexecutecloud.py**, file to **DBFS** or even  to **S3 Bucket**.
 
    .. figure:: ../../_assets/configuration/workflow.PNG
       :alt: Databricks
@@ -223,21 +202,9 @@ Step 8 : Upload Fire workflowexecutedatabricks.py file to DBFS
 Step 9 : Configure Uploaded Library in Fire Insights
 ------------------------------------
 
-Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under **databricks.pythonFile** & **databricks.pythonPackages** respectively in Fire Insights.
+Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py using Compute Connection in Fire Insights.
 
-It can be two sources either **DBFS** or **S3** path:
-
-* If you have uploaded in **DBFS** path:
-
-  .. figure:: ../../_assets/configuration/db_configure.PNG
-     :alt: Databricks
-     :width: 70%
-
-* If you have uploaded in ``S3`` path:
-
-  .. figure:: ../../_assets/configuration/s3db_configure.PNG
-     :alt: Databricks
-     :width: 70%
+`Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 
 Step 10 : Submit Job using Pyspark Engine
 -----------------------------------

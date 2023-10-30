@@ -168,10 +168,7 @@ Step 7 : Install Prophet Package on Databricks
 
    Add above in a **script file**, upload in **workspace** and go to **Advanced Options**, select **Init Scripts** and add **workspace path** to it. 
 
-   .. figure:: ../../_assets/configuration/initscript.PNG
-      :alt: Databricks
-      :width: 70%
-
+   
 Step 8 : Upload Fire workflowexecutecloud.py file to DBFS
 ----------------------------------
 
@@ -179,20 +176,17 @@ Step 8 : Upload Fire workflowexecutecloud.py file to DBFS
 
    Upload **fire-x.y.z/dist/workflowexecutecloud.py**, file to **DBFS** or even  to **S3 Bucket**.
 
-   .. figure:: ../../_assets/configuration/workflow.PNG
+   .. figure:: ../../_assets/configuration/workflow_1.PNG
       :alt: Databricks
       :width: 70%
 
    You can upload it using the DBFS browser too.
 
-   .. figure:: ../../_assets/configuration/databr_wf.PNG
-      :alt: Databricks
-      :width: 70%
-
+   
 Step 9 : Configure Uploaded Library in Fire Insights
 ------------------------------------
 
-Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py using Compute Connection in Fire Insights.
+Configure the path of the uploaded fire python wheel package file & workflowexecutecloud.py.py using Compute Connection in Fire Insights.
 
 `Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 

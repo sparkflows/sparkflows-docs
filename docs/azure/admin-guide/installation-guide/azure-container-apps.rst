@@ -49,7 +49,7 @@ Step 4 : Enter Ingress Configuration Details
 -------------------------------
 The Ingress configuration allows you to connect to the deployed container. To configure:
 
-#. Enable the **Ingress Option** to display Ingress tab.
+#. Click on **Enable check box** located in front of Ingress.
 #. Enter the configuration details as shown below:
 
    .. figure:: ../../../_assets/azure/configure-ingress.png

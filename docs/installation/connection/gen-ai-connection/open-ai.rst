@@ -10,13 +10,11 @@ The two fields which corresponds to the OpenAI end points are:
 
    This is the OpenAI token which you can generate by logging into your OpenAI account and following the steps as listed here:
 
-   `Get OpenAI Access Token <https://text-gen.com/get-openai-access-token>`_
+   `Generate OpenAI Access Token <https://text-gen.com/get-openai-access-token>`_
 
  * **URL :** 
 
-   This is the OpenAI endpoint URL which can be found in the official docs here:
-
-   `OpenAI URL <https://platform.openai.com/docs/api-reference/chat/create>`_
+   This is the OpenAI endpoint URL which can be found in the official docs here: `OpenAI Endpoint URL <https://platform.openai.com/docs/api-reference/chat/create>`_
 
    .. figure:: ../../../_assets/installation/connection/gen-ai/open-ai.png
       :alt: connection

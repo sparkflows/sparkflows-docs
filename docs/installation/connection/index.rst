@@ -1,7 +1,9 @@
 Connections
 -----------
 
-Sparkflows enable you to create different connections. Sparkflows comes up with two type of Connections i.e. ''Compute Connection & Storage Connection''.
+Sparkflows enables you to create different connections. Sparkflows offers the following three types of Connections:
+
+1. Compute Connections   2. Storage Connections   3. GenerativeAI Connections
 
 .. toctree::
    :maxdepth: 2

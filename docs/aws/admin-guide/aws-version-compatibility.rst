@@ -4,17 +4,17 @@ AWS Version Compatibility
 EMR Versions
 -----------
 
-The below page lists the version of Apache Spark used with various versions of AWS EMR.
+The below page lists the version of Apache Spark used with various versions of AWS EMR:
 
 `AWS EMR Spark Release History <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/Spark-release-history.html>`_
 
-It also lists the compatability matrix of Spark version and Delta lake version.
+It also lists the compatability matrix of Spark version and Delta lake version:
 
 `Spark and Delta Lake Compatibility Matrix <https://docs.delta.io/latest/releases.html>`_
 
 AWS EMR has a bootstrap script which gets executed when it comes up. Fire Insights uses the bootstrap script to install the needed python packages.
 
-Updates to bootstrap and wheel file
+Updates to Bootstrap and Wheel File
 -------------
 
 Make the below updates to the example bootstrap script for different versions of EMR.
@@ -207,13 +207,13 @@ Example Bootstrap Script : EMR 6.2.1
            :alt: Delta Code
            :width: 65% 
 
-Please note to keep the below import local as seen in the screenshot above
+Please note to keep the below import local as seen in the screenshot above:
 
 	::
 
 		from delta.tables import DeltaTable
 
-Please note to add the below delta JAR to be used in the code as seen in the screenshot above
+Please note to add the below delta JAR to be used in the code as seen in the screenshot above:
 
 	::
 
@@ -230,7 +230,7 @@ Sample PySpark config to be passed to use delta code in PySpark workflow:
 Delta Support
 ------------
 
-For delta support, in Spark workflow include the below jars in Livy connection.
+For delta support, in Spark workflow include the below JARs in Livy connection:
 
  * For **emr-6.2.1** include the JAR with the exact version: **delta-core_2.12-0.8.0.jar**
 
@@ -239,14 +239,14 @@ For delta support, in Spark workflow include the below jars in Livy connection.
  * For **emr-6.9.0** include the two JARs with the exact version: **delta-core_2.12-2.1.0.jar** and **delta-storage-2.1.0.jar**
 
 
-For delta support, in the Pyspark workflow include the below in the EMR Bootstrap script
+For delta support, in the Pyspark workflow include the below in the EMR Bootstrap script:
 
 	::
 
   		aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar /usr/lib/spark/jars/
 
 
-In Pyspark REPL/node, include the below to import and use the delta packages
+In Pyspark REPL/node, include the below to import and use the delta packages:
 
 	::
 

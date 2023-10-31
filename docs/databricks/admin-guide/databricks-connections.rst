@@ -92,7 +92,7 @@ Step 3 : Enter Parameter Details
         - Absolute path of Fire PySpark libraries
       * - DBFS Scratch directory
         - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
-        - --
+        - Scratch directory on DBFS where it have Read/Write/Delete Permissions(User can update absolute dbfs path).
      
    .. figure:: ../../_assets/installation/connection/databricks_other.PNG
       :alt: connection

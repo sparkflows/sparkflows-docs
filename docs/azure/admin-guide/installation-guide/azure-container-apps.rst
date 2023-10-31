@@ -37,7 +37,7 @@ To allow the container to connect to a remote MySQL instance, enter the followin
 
 #. Click on **Container** tab located on the configuration window.
 
-#. Provide image and container environmet details as shown below:
+#. Provide image and container environment details as shown below:
 
    .. figure:: ../../../_assets/azure/configure-container.png
       :width: 60%

@@ -4,7 +4,9 @@ This connection can be created to interact with Azure OpenAI API’s. The analyt
 
 Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
 
-The fields can be populated as below based on the endpoint of the OpenAI deployment in your Azure account. The four fields which corresponds to the Azure OpenAI end points are:
+The fields can be populated as below based on the endpoint of the OpenAI deployment in your Azure account. 
+
+The four fields which correspond to the Azure OpenAI end points are:
 
   * Token
   * URL

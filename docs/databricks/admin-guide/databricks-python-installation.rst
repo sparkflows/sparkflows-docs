@@ -31,7 +31,7 @@ Step 2 : Install Fire Insights
 
 Install Fire Insights on your machine. The machine has to be accessible from the Databricks cluster.
 
-`click here <https://docs.sparkflows.io/en/latest/installation/installation/index.html>`_
+`Click here <https://docs.sparkflows.io/en/latest/installation/installation/index.html>`_ to know more.
 
 Step 3 : Upload Fire Wheel File to Databricks
 ----------------------------------
@@ -188,7 +188,7 @@ Step 9 : Configure Uploaded Library in Fire Insights
 
 Configure the path of the uploaded fire python wheel package file & workflowexecutecloud.py.py using Compute Connection in Fire Insights.
 
-`Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
+`Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_ to know more.
 
 Step 10 : Submit Job using Pyspark Engine
 -----------------------------------
@@ -199,7 +199,7 @@ Now, you can submit pyspark jobs to Databricks Cluster from Fire Insights.
      :alt: Submit Job
      :width: 70%
 
-.. figure:: ../../_assets/configuration/job_3.PNG
+  .. figure:: ../../_assets/configuration/job_3.PNG
      :alt: Submit Job
      :width: 70%
 

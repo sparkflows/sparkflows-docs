@@ -4,7 +4,7 @@ This connection can be created to interact with OpenAI API’s. The analytical a
 
 Fill in the information below. Most of the field are self explanatory and can be populated with values that you like.
 
-The two information which corresponds to the OpenAI end points are:
+The two fields which corresponds to the OpenAI end points are:
 
  * Token : This is the OpenAI token which you can generate by logging into your OpenAI account and following the steps as listed here - https://text-gen.com/get-openai-access-token
 

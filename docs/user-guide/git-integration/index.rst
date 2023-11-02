@@ -38,6 +38,12 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
     :doc:`/user-guide/git-integration/push-pipeline`
 
     Commit and push the pipelines to Git Repository.
+
+    ---
+
+    :doc:`/user-guide/git-integration/push-application`
+
+    Commit and push the applications to Git Repository.
     
 
 
@@ -50,3 +56,4 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
    git-status.rst
    push-wf.rst
    push-pipeline.rst
+   push-application.rst

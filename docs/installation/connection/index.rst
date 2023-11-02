@@ -11,6 +11,3 @@ Sparkflows enables you to create different connections. Sparkflows offers the fo
    compute-connection/index.rst
    storage-connection/index.rst
    gen-ai-connection/index.rst
-
-
-   

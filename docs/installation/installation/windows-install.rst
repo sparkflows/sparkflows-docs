@@ -1,7 +1,7 @@
 Windows Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sparkflows can be installed to run independenly on Windows.
+Sparkflows can be installed to run independently on Windows.
 
 
 

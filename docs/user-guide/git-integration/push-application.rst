@@ -22,14 +22,14 @@ Step 3 : Open Concerned Project
 ---------------------------
 Open the project containing the Application to be pushed. Follow the below steps :
 
-#. From the Dashboard, click **PROJECTS** located on the top navigation bar.
+#. From the Dashboard, click the **PROJECTS** button located on the top navigation bar.
 #. On the Projects Page, search and select the concerned project.
 
    Alternatively, you can search and select the project using the search panel located on top navigation bar.
 
 Step 4 : Open Edit Analytics Application Page
 ---------------------
-#. From the Projects Page, Click **Applications** button located on the top-middle bar.
+#. From the Projects Page, Click the **Applications** button located on the top-middle bar.
 #. Open the Application using **Edit App** option.
    
    .. figure:: ../../_assets/git/edit-app.png
@@ -39,7 +39,7 @@ Step 4 : Open Edit Analytics Application Page
    
 Step 5 : Push Application to Git
 ---------------
-#. On the Edit Analytics App Page, click **Save and Push to Git** button.
+#. On the Edit Analytics App Page, click the **Save and Push to Git** button.
 
    .. figure:: ../../_assets/git/git_application.png
       :alt: PushApplication

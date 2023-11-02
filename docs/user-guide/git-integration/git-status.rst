@@ -1,7 +1,7 @@
 Git Status
 ==========
 
-Sparkflows can show the changes yet to be pushed to Git via the ``Git Status`` Button. 
+Sparkflows can show the changes related to Workflows, Analytical Apps and Pipelines yet to be pushed to Git via the ``Git Status`` Button. 
 
 To access ``Git status``, open a project and select ``Workflows``. You would see a page similar to below.
 

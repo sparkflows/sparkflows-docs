@@ -1,4 +1,4 @@
-Accessing FileSystem
+Accessing File System
 ======
 
 Fire Insights enable you to access different File System depending on the configurations.
@@ -9,7 +9,7 @@ Fire Insights enable you to access different File System depending on the config
 
     :doc:`/user-guide/accessing-filesystem/local-filesystem`
 
-    Accessing local FileSystem. 
+    Accessing local File System. 
     
     ---
     

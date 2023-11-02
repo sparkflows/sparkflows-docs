@@ -1,7 +1,7 @@
-Local FileSystem
+Local File System
 =====
 
-Fire Insights enables you to use the Local FileSystem by default when no Compute is enabled or S3 is configured.
+Fire Insights enables you to use the Local File System by default when no Compute is enabled or S3 is configured.
 
 By default, Fire Insights bundles sample data within its binary, located in the data folder of the Fire home directory.
 

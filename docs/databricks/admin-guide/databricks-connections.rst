@@ -18,11 +18,19 @@ Step 1 : Go to Connections Page
 #. Navigate to **ADMINISTRATION** Page from the top bar.
 #. Click **Global Connections** from the Administration Page.
 
-   Note : Global Connections are available for everyone to use.
+   .. figure:: ../../_assets/installation/connection/databricks-admin.png
+      :alt: connection
+      :width: 60%
+
+   **Note :** Global Connections are available for everyone to use.
 
 Step 2 : Open Add Connection Window
 -----------------------
 #. Click **Add Connection** button located on the top-right corner of the Connections Page.
+
+   .. figure:: ../../_assets/installation/connection/databricks-connection.png
+      :alt: connection
+      :width: 60%
 
 Step 3 : Enter Parameter Details
 ----------------
@@ -91,8 +99,8 @@ Step 3 : Enter Parameter Details
         - Path of Fire pyspark libraries
         - Absolute path of Fire PySpark libraries
       * - DBFS Scratch directory
-        - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
-        - Scratch directory on DBFS where it have Read/Write/Delete Permissions(User can update absolute dbfs path).
+        - Scratch directory on DBFS where it has Read/Write/Delete Permissions.
+        - Scratch directory on DBFS where it has Read/Write/Delete Permissions. (User can update absolute DBFS path).
      
    .. figure:: ../../_assets/installation/connection/databricks_other.PNG
       :alt: connection
@@ -110,45 +118,33 @@ Step 4 : Test and Save Connection
 .. note:: Make sure to add a POSTBACK URL through which jobs running on Databricks will post back results to Sparkflows. Otherwise, it will use the URL specified in app.postMessageURL in the configuration.
 
 
-Documentation
---------
-
-For more details read `Databricks User Guide <https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html>`_
-
-
-
-
 Setting Current Connection
 ------------------
 
 A user can set their current connection from the list. Here, the user can choose from among the global, group level, or project level connections.
 
 
-Data or Databricks Clusters
-+++++++++++++++
+**Data or Databricks Clusters:**
 
 Here, the user can choose between the global and group level connections. 
 
 When the user lands on this page, the user's current connection is chosen by default.
 
-Data or DBFS
-+++++++++++++++
+**Data or DBFS:**
 
 Here, the user can choose between the global and group level connections.
 
 When the user lands on this page, the user's current connection is chosen by default.
 
 
-Data or Databricks Database
-+++++++++++++++
+**Data or Databricks Database:**
 
 Here, the user can choose between the global and group level connections.
 
 When the user lands on this page, the user's current connection is chosen by default.
 
 
-Workflow Editor
-+++++++++++++++
+**Workflow Editor:**
 
 Here, the connection is chosen in the following order of priority:
 
@@ -157,8 +153,7 @@ Here, the connection is chosen in the following order of priority:
   * Global connection
   
   
-Workflow Execute
-+++++++++++++++
+**Workflow Execute:**
 
 Here, the connection is chosen in the following order of priority:
 
@@ -167,8 +162,7 @@ Here, the connection is chosen in the following order of priority:
   * Group level connection
   * Global connection
     
-Analytical Apps
-+++++++++++++++
+**Analytical Apps:**
 
 Here, the connection is chosen in the following order of priority:
 

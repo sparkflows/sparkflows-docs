@@ -9,7 +9,7 @@ Email Notifications/Alerts when Executing Workflows
 
 When executing the workflows, you can specify email addresses for receiving emails when the workflow fails or succeeds.
 
- .. figure:: ../../_assets/user-guide/email_wf1.PNG
+ .. figure:: ../../_assets/user-guide/email_wf3.PNG
    :alt: Email Alerts
    :width: 65%
 
@@ -19,7 +19,7 @@ Email Notifications/Alerts when Scheduling Workflows
 
 When scheduling the workflows, you can specify email addresses for receiving emails when the workflow fails or succeeds.
 
- .. figure:: ../../_assets/user-guide/email_wf2.PNG
+ .. figure:: ../../_assets/user-guide/email_wf4.PNG
    :alt: Email Alerts
    :width: 65%
 

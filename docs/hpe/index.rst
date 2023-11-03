@@ -12,3 +12,8 @@ Fire Insights integrates with HPE Platform
     :doc:`/hpe/admin-guide/index`
 
     HPE Admin Guide
+
+.. toctree::
+   :hidden:
+
+   admin-guide/index.rst

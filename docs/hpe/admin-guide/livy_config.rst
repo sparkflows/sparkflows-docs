@@ -13,7 +13,7 @@ Follow the below steps to configure the Livy connection in Sparkflows:
       :width: 40%
       :alt: HPE UA Data sources
 
-#. Upload the JAR **(fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar)** that will be used to run the Spark job in the MapRFS. 
+#. Upload the JAR **(fire-spark_3.3.1-core-3.1.0-jar-with-dependencies.jar)** that will be used to run the Spark job in the MapRFS. 
 
    Next, upload the **workflowexecutecloud_livy.py** to the MapRFS and configure the path in the Livy Tab, as shown below :
 

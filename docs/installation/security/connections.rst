@@ -8,7 +8,7 @@ Connections enable access to various resources. Connections can be at various le
   * Project: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
   
  
-Sparkflows comes up with two types of connections i.e. ''Compute Connection & Storage Connection''.
+Sparkflows comes up with two types of connections i.e. ''Compute Connection, Storage Connection & GenAI Connection''.
 
 In Sparkflows, ``Compute Connection`` enables the following: 
 
@@ -21,11 +21,20 @@ In Sparkflows, ``Compute Connection`` enables the following:
 In Sparkflows, ``Storage Connection`` enables the following:
 
   * Cassandra
+  * Hive
+  * JDBC
   * Mongo DB
   * MySQL
+  * PostgreSQL
   * Red Shift
   * SQL Server
   * Snowflake
+  * Trino
+
+In Sparkflows, ``GenAI Connection`` enables the following:
+
+  * Azure OpenAI
+  * OpenAI
 
   
  

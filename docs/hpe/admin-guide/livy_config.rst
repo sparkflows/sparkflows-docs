@@ -1,7 +1,7 @@
 Configure Livy Connection
 =====
 
-Sparkflows connects with Livy to submit the Spark jobs of the workflow on the cluster powered by HPE UA. 
+Sparkflows connects with Livy to submit the Spark and PySpark jobs of the workflow on the cluster powered by HPE UA. 
 
 Follow the below steps to configure the Livy connection in Sparkflows:
 

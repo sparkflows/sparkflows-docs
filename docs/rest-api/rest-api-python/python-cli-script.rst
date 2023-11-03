@@ -1,6 +1,6 @@
 
 CLI Python Scripts
---------------
+=================
 
 The Python scripts in the repo below allow users to interact with Fire REST API's.
 

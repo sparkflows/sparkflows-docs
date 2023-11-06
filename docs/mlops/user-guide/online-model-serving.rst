@@ -63,7 +63,7 @@ As MLflow Scoring Container in Sagemaker
        :width: 60%
 
 As Registered Models in SageMaker
-=============
+-----------
 
 Once the configurations are done, we can import external models and deploy it to SageMaker. The steps for the same are below:
 

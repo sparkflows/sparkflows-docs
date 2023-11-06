@@ -13,7 +13,7 @@ Explore different options available in Sparkflows MLOps to deploy models.
     
     :doc:`/mlops/admin-guide/online-model-serving`
 
-    ---
+     ---
 
     :doc:`/mlops/admin-guide/mlops-sagemaker-admin`
 

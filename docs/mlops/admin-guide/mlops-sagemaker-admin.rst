@@ -4,7 +4,7 @@ As Registered Models in SageMaker
 Sparkflows MLOps allows you to deploy Machine learning models on SageMaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
 Admin Guide
-========
+-----
 Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models.
 
 Configure the below from the MLOps tab in Admin page:
@@ -13,12 +13,12 @@ Configure the below from the MLOps tab in Admin page:
 * mlops.aws_id 
 * Mlops.arn
 
-  .. figure:: ../_assets/mlops/sagemaker/sagemaker-1.png
+  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
      :alt: mlops-sagemaker
      :width: 60%
 
   
-  .. figure:: ../_assets/mlops/sagemaker/sagemaker-2.png
+  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-2.png
      :alt: mlops-sagemaker
      :width: 60%
 
@@ -48,7 +48,7 @@ To Push the docker image to ECR, you would need to perform the following steps:
 
 #. Push the docker image:
 
-  ::
+   ::
 
       mlflow sagemaker build-and-push-container
 

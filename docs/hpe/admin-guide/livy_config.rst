@@ -39,6 +39,7 @@ Step 3 : Handle SSL Bypass (If Necessary)
 Step 4 : Test and Save the Connection
 ------------------
 
-#. Finally **test** the connection and **save** it. 
+#. To ensure that the connection is working correctly, perform a connection test.
+#. Once the test is successful, **save** the Connection.
 
    Now, you can start submitting the workflows on the Livy cluster.

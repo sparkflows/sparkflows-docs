@@ -7,18 +7,18 @@ As Sparkflows Score Workflow
 -----------
   * The workflow can be triggered via REST API to score the data.
 
-An example request for Executing specified workflow:
+    An example request for Executing specified workflow:
 
-::
+    ::
    
-   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-  "emailOnFailure": "string",
-  "emailOnSuccess": "string",
-  "libJars": "string",
-  "programParameters": "string",
-  "sparkConfig": "string",
-  "workflowId": 1
-  }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
+       curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+       "emailOnFailure": "string",
+       "emailOnSuccess": "string",
+       "libJars": "string",
+       "programParameters": "string",
+       "sparkConfig": "string",
+       "workflowId": 1
+       }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
 As REST End Point in Standalone Docker Image
@@ -61,6 +61,33 @@ As MLflow Scoring Container in Sagemaker
    .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_1.png
      :alt: MLops Sagemaker
      :width: 60%
+
+As Registered Models in SageMaker
+=============
+
+Once the configurations are done, we can import external models and deploy it to SageMaker. The steps for the same are below:
+
+#. Import the model: The custom model needs to override a class named **CustomPreprocessor**  in a python filename **custom_preprocess.py**. The skeleton of the same can be found attached. These files along with any other code file and artifacts to be used for deployment needs to be packaged in the directory structure as below:
+
+   ::
+     
+     model_bundle
+          artifacts
+                 first_model.pkl
+                 second_model.pkl
+     code
+                 first_code.py
+                 second_code.py
+     requirements.txt
+
+#. Once, the files are ready in the above structure, zip them up and then they can be imported in Sparkflows in the models page by choosing the Import option.  
+
+   .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
+      :alt: MLops Sagemaker
+      :width: 60%
+
+#. Once the model is imported into Sparkflows,the Register, Deploy, Undeploy of the model behaves the same way as any other model.
+
 
 As MLflow Scoring Container in AzureML
 -----------

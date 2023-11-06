@@ -13,6 +13,10 @@ Explore different options available in Sparkflows MLOps to deploy models.
     
     :doc:`/mlops/admin-guide/online-model-serving`
 
+    ---
+
+    :doc:`/mlops/admin-guide/mlops-sagemaker-admin`
+
 
 
 .. toctree::
@@ -20,3 +24,4 @@ Explore different options available in Sparkflows MLOps to deploy models.
 
    offline-model-serving.rst
    online-model-serving.rst
+   mlops-sagemaker-admin.rst

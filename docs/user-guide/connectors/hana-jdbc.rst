@@ -28,7 +28,7 @@ Now, the JDBC Driver jar can be configured in Fire Insights to read and write to
 Below are the steps to configure the driver in Fire Insights in order to read and write to HANA:
 
 - Copy the ``ngdbc.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
-- In administration/global connection, use add a connection with storage type and select the JDBC type. Enter the connection details like URL, driver name etc for SAP HANA.
+- In administration/global connection, use add a connection with storage type and select the JDBC type. Enter the connection details like URL, driver name, username, password etc for SAP HANA.
    More details on connection: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/index.html
 
 - Login to the Fire Insights application and go inside the ``project and workflow tab`` to create a sample workflow by reading and writing to HANA through Read JDBC and Save JDBC Processors. Select the connection in Read and Save nodes.

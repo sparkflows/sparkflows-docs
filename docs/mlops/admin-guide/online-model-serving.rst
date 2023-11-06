@@ -15,7 +15,7 @@ As REST End Point in Standalone Docker Image
 
 As Registered Models in MLflow
 ------------
-  * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - https://mlflow.org/docs/latest/quickstart.html
+  * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - `MLflow Quickstart Guide <https://mlflow.org/docs/latest/quickstart.html>`_
   * Ensure that the port 5000 onwards on the MLflow machine is free to be exposed as end point to deploy models
   * Ensure the port 8086 (or the port where the MLOps server is started) is open on the machine.
   * Prerequisites on the MLflow instance
@@ -39,18 +39,18 @@ As Registered Models in MLflow
        * MLflow deploy mode: In production, it should be set to `fire_mlops_server`wherein Sparkflows and MLflow run on seperate machines. The other options are `local` when Sparkflows and MLflow are hosted on same machine, and `remote` if Sparkflows and MLflow server have ssh access to each other and hosted on different machines.
        * Fire MLOps Host and Port: When the MLflow is hosted on remote server, the host and port of Sparkflows MLOps server needs to be configured here.
 
-      .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
-         :alt: Load balancers
-         :width: 60%
+         .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
+            :alt: Load balancers
+            :width: 60%
 
   * If the MLflow server is local to the Sparkflows instance, the above configurations are sufficient. But, if the MLflow server is running remotely, say on AWS or on cloud, then additional configuration listed below would need to be configured.
    
       * The Sparkflows machine would need SSH access to the MLflow server.
       * The path of SSH key of the MLflow server needs to be available to Sparkflows which can reside on disk , secure storage on a key vault to be pulled from.
 
-    .. figure:: ../../_assets/mlops/mlops_mlflow_remote.png
-       :alt: Load balancers
-       :width: 60%
+        .. figure:: ../../_assets/mlops/mlops_mlflow_remote.png
+           :alt: Load balancers
+           :width: 60%
 
   * When the MLflow server is run a remote machine, below setup needs to be taken care of:
 
@@ -60,6 +60,6 @@ As Registered Models in MLflow
        * Ensure that the ports where the models will be served are open to be accessed via REST API 
        * Ensure the credentials for the MLflow model registry store is configured in Sparkflows. Eg: If `s3` is used as the MLflow regsitry store, its exposed to the Fire MLOps server.
 
-    .. figure:: ../../_assets/mlops/mlops_mlflow_remote_server.png
-       :alt: Load balancers
-       :width: 60%
+         .. figure:: ../../_assets/mlops/mlops_mlflow_remote_server.png
+            :alt: Load balancers
+            :width: 60%

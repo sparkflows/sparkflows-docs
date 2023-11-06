@@ -62,8 +62,21 @@ As MLflow Scoring Container in Sagemaker
      :alt: MLops Sagemaker
      :width: 60%
 
+As MLflow Scoring Container in AzureML
+-----------
+
+* The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
+* Then, it can be deployed to Sagemaker by click on the **Deploy to AzureML** button. What happens under the hood is as below:
+
+  * Sparkflows pushes/uses a custom Sparkflows container to Azure registry.
+  * Then, deploys the model in the same container on AzureML.
+  * The AzureML then creates a REST end point for serving the model.
+  * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on Sagemaker.
+
 As Registered Models in SageMaker
 -----------
+Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+
 
 Once the configurations are done, we can import external models and deploy it to SageMaker. The steps for the same are below:
 
@@ -87,17 +100,5 @@ Once the configurations are done, we can import external models and deploy it to
       :width: 60%
 
 #. Once the model is imported into Sparkflows,the Register, Deploy, Undeploy of the model behaves the same way as any other model.
-
-
-As MLflow Scoring Container in AzureML
------------
-
-* The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
-* Then, it can be deployed to Sagemaker by click on the **Deploy to AzureML** button. What happens under the hood is as below:
-
-  * Sparkflows pushes/uses a custom Sparkflows container to Azure registry.
-  * Then, deploys the model in the same container on AzureML.
-  * The AzureML then creates a REST end point for serving the model.
-  * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on Sagemaker.
 
 

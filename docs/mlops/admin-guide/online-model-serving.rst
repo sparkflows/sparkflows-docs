@@ -19,19 +19,19 @@ As Registered Models in MLflow
   * Ensure that the port 5000 onwards on the MLflow machine is free to be exposed as end point to deploy models
   * Ensure the port 8086 (or the port where the MLOps server is started) is open on the machine.
   * Prerequisites on the MLflow instance
-        * JDK 1.8
-        * Python 3.7
-        * Sparkling water: pip install h2o-pysparkling-3.2==3.36.1.2.post
-        * PySpark: pip install pyspark==3.2.1
-        * MLflow: pip install mlflow==1.30.1
-        * boto3: pip install boto3==1.28.50
-        * Flask: pip install Flask==2.2.4
-        * Click: pip install click==8.1.3
-        * Tornado: pip install tornado==6.2
-        * Pylint: pip install pylint==2.5.3
-        * NumPy: pip install numpy==1.21.6
+       * JDK 1.8
+       * Python 3.7
+       * Sparkling water: pip install h2o-pysparkling-3.2==3.36.1.2.post
+       * PySpark: pip install pyspark==3.2.1
+       * MLflow: pip install mlflow==1.30.1
+       * boto3: pip install boto3==1.28.50
+       * Flask: pip install Flask==2.2.4
+       * Click: pip install click==8.1.3
+       * Tornado: pip install tornado==6.2
+       * Pylint: pip install pylint==2.5.3
+       * NumPy: pip install numpy==1.21.6
 
-    * Once the MLFlow server is up and running, the following configurations needs to be added in the **Administrative tab** in the section **Configuration** and sub-section **MLflow** :
+  * Once the MLFlow server is up and running, the following configurations needs to be added in the **Administrative tab** in the section **Configuration** and sub-section **MLflow** :
    
        * MLflow server URL (tracking URL).
        * MLflow login username, if any.

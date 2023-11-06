@@ -17,7 +17,7 @@ Using Python Scorer in Standalone Docker Image
 
 Using Registered Models in MLflow
 --------------
-    * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - https://mlflow.org/docs/latest/quickstart.html
+    * One would need an MLflow server installed and running. The steps to install the same can be found in the official documentation of MLflow here - `MLflow Quickstart Guide <https://mlflow.org/docs/latest/quickstart.html>`_
     * Prerequisites on the MLflow instance
         * JDK 1.8
         * Python 3.7
@@ -40,9 +40,9 @@ Using Registered Models in MLflow
        * Fire MLOps Host and Port: When the MLflow is hosted on remote server, the host and port of Sparkflows MLOps server needs to be configured here.
 
 
-      .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
-       :alt: Load balancers
-       :width: 60%
+         .. figure:: ../../_assets/mlops/mlops_mlflow_local.png
+            :alt: Load balancers
+            :width: 60%
 
     * When the MLflow server is run a remote machine, below setup needs to be done:
 

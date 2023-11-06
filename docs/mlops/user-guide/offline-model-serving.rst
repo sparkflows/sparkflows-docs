@@ -8,9 +8,9 @@ As Sparkflows Score Workflow
   * The model can be loaded in a Sparkflows workflow and then it can be used to score new data. 
   * The same scoring workflow can be triggered via REST API to score the data.
 
-  .. figure:: ../../_assets/mlops/mlops_workflow_score.png
-   :alt: Load balancers
-   :width: 60%
+    .. figure:: ../../_assets/mlops/mlops_workflow_score.png
+       :alt: Load balancers
+       :width: 60%
 
 As Python Scorer in Standalone Docker Image
 -----------------
@@ -23,9 +23,9 @@ As Registered Models in MLflow
   * The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
   * Once the model is registered in MLflow, python script can be used to score batches of rows.
 
-.. figure:: ../../_assets/mlops/mlops_mlflow_score.png
-   :alt: Load balancers
-   :width: 60%
+    .. figure:: ../../_assets/mlops/mlops_mlflow_score.png
+       :alt: Load balancers
+       :width: 60%
 
 As MLflow Scoring Container on Sagemaker in batch mode
 -------------

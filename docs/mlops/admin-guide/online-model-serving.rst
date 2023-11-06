@@ -60,7 +60,7 @@ As Registered Models in MLflow
        * Ensure that the ports where the models will be served are open to be accessed via REST API 
        * Ensure the credentials for the MLflow model registry store is configured in Sparkflows. Eg: If `s3` is used as the MLflow regsitry store, its exposed to the Fire MLOps server.
 
-         .. figure:: ../../_assets/mlops/mlops_mlflow_remote_server.png
+         .. figure:: ../../_assets/mlops/mlops-mlflow-remote-server.png
             :alt: Load balancers
             :width: 60%
 As Registered Models in SageMaker

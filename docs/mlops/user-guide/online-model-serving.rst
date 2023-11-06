@@ -54,7 +54,7 @@ Configure the below from the MLOps tab in Admin page:
 
   .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
      :alt: mlops-sagemaker
-      :width: 60%
+     :width: 60%
 
   
   .. figure:: ../../_assets/mlops/sagemaker/sagemaker-2.png

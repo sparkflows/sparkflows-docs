@@ -35,9 +35,9 @@ As Registered Models in MLflow
   * If the model is no longer needed to be served, they can be **Undeployed** by click of the **Undeploy** model option in the **Actions** menu. The option to **Undeploy** gets enabled only for models deployed.
   * If for some reason, you want to re-register the model, once can click on the **Re-register** option to register the model again.
 
-   .. figure:: ../../_assets/mlops/mlops_mlflow_api_end_point.png
-     :alt: MLflow end point
-     :width: 60%
+    .. figure:: ../../_assets/mlops/mlops_mlflow_api_end_point.png
+       :alt: MLflow end point
+       :width: 60%
 
 
 As MLflow Scoring Container in Sagemaker
@@ -52,15 +52,15 @@ As MLflow Scoring Container in Sagemaker
 
   * Once deployed, the deployment shows up as below::
 
-   .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_2.png
-     :alt: MLops Sagemaker
-     :width: 60%
+    .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_2.png
+       :alt: MLops Sagemaker
+       :width: 60%
 
   * The details of the deployment can be seen below::
 
-   .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_1.png
-     :alt: MLops Sagemaker
-     :width: 60%
+    .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_1.png
+       :alt: MLops Sagemaker
+       :width: 60%
 
 As Registered Models in SageMaker
 =============

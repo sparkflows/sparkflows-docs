@@ -50,15 +50,15 @@ As MLflow Scoring Container in Sagemaker
       * The Sagemaker then creates a REST end point for serving the model.
       * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on Sagemaker.
 
-  * Once deployed, the deployment shows up as below::
+  * Once deployed, the deployment shows up as below:
 
-    .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_2.png
+    .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-2.png
        :alt: MLops Sagemaker
        :width: 60%
 
-  * The details of the deployment can be seen below::
+  * The details of the deployment can be seen below:
 
-    .. figure:: ../../_assets/mlops/mlops_sagemaker_deployment_1.png
+    .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-1.png
        :alt: MLops Sagemaker
        :width: 60%
 

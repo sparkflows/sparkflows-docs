@@ -5,7 +5,13 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
 To setup, follow the steps below :
 
-#. Get the Sparkflows TAR file and unzip it.
+Step 1 : Download and Unzip Sparkflows TAR File
+----------------
+
+#. Download the Sparkflows TAR file and extract its contents.
+
+Step 2 : Install Sparkflows
+---------------
 #. Copy the **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the **MapRFS** with HPE team's support.
 
    Once you finish uploading the files, you can view them, by navigating to **Main Menu** > **Data Engineering** > **Data Sources** > **Browse** 

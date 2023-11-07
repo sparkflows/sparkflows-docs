@@ -2,56 +2,56 @@ Troubleshooting Databricks Integration
 ===========================================
 
 
-When the workflow is executed, nothing shows up in Fire
+Nothing is Displayed in Fire Insights after Workflow Execution
 -----------------------------------------
 
-One problem might be that the ``postback URL`` is not configured rightly in Fire Insights under the Administration/Configuration.
+* This problem may arise due to incorrect configuration of the postback URL in Fire Insights under Administration/Configuration.
 
-The other problem can be that the machine running Fire Insights is not accessible from the Databricks Cluster. Here, it is advised to test connectivity to the Fire Insights machine from Databricks.
+* Another possible issue is the inaccessibility of the machine running Fire Insights from the Databricks Cluster. 
 
-Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
+  It is recommended to verify connectivity between Databricks and the Fire Insights machine. Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
 
-.. figure:: ../../_assets/configuration/databricks_ping.PNG
-   :alt: Databricks
-   :width: 60%
+  .. figure:: ../../_assets/configuration/databricks_ping.PNG
+     :alt: Databricks
+     :width: 60%
    
-   
-When the workflow is executed, nothing shows up in Fire
------------------------------------------
-
-Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you connect Fire to Databricks ``Standard`` cluster or have enabled scala in the high concurrency cluster.
-
+* Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you connect Fire to Databricks ``Standard`` cluster or have enabled scala in the high concurrency cluster. 
 
 When accessing most of the Databricks pages in Fire, it gives Simba JDBC error
 -----------------------------------------
 
-The reason for it is that the Databricks Simba JDBC jar file is not deployed in Fire. For more details, please visit the link given below:
-
-https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver
+* The reason for it is that the Databricks Simba JDBC JAR file is not deployed in Fire. Follow the installation guidelines at `Databricks JDBC Driver Installation Guide <https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver>`_
 
 
-In the workflow editor, it shows 'Cannot connect to Fire'
+Workflow Editor Gives 'Cannot connect to Fire' Error
 -------------------
 
-Ensure that under ``Administration/Configuration``, app.runOnCluster is set to ``false``.
+* To resolve this issue, ensure that **app.runOnCluster** under **Administration/Configuration** is set to **false**.
 
 
-Checking the cluster logs in Databricks
+Checking Cluster Logs in Databricks
 -------------------
 
-There are times when it is helpful to look at the Cluster logs in Databricks when running Fire with Databricks.
+* When running Fire with Databricks, it can be beneficial to review cluster logs in Databricks.
 
-The following logs under ``Driver Logs`` are useful:
+  The following logs under **Driver Logs** are useful:
 
-- log4j-active.log
+  - log4j-active.log
 
-Search for ``WorkflowExecuteDatabricks`` in the logs to view if the Fire Insights Job is running in Databricks.
+  Search for **WorkflowExecuteDatabricks** in the logs to view if the Fire Insights Job is running in Databricks.
 
 
-``java.lang.Exception: An error occurred while initializing the REPL. Please check whether there are conflicting Scala libraries or JARs attached to the cluster, such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
-at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)``
+ Getting Error : java.lang.Exception: An error occurred while initializing the REPL 
+--------------------------------
+Please check whether there are conflicting Scala libraries or JARs attached to the cluster, such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
+
+
+Getting Error : "at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)"
+--------------------------------------
    
-This error happens when you run Spark 2.3 version of Fire with Spark 2.4 cluster on Databricks.To resolve this error, either upgrade Fire to spark 2.4 version, or create another Databricks cluster which supports spark 2.3.
+This error happens when you run Spark 2.3 version of Fire with Spark 2.4 cluster on Databricks.
+
+To resolve this error, either upgrade Fire to spark 2.4 version, or create another Databricks cluster which supports spark 2.3.
 
 Databricks Cluster Versions Support
 ------------------------------------

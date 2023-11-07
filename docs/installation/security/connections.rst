@@ -8,7 +8,7 @@ Connections enable access to various resources. Connections can be at various le
   * Project: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
   
  
-Sparkflows comes up with two types of connections i.e. ''Compute Connection, Storage Connection & GenAI Connection''.
+Sparkflows comes up with three types of connections i.e. ''Compute Connection, Storage Connection & GenAI Connection''.
 
 In Sparkflows, ``Compute Connection`` enables the following: 
 

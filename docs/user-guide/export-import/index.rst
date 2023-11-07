@@ -47,6 +47,14 @@ This is useful when you need to move or copy things from one environment to anot
     :doc:`import-applications`
 
     ---
+
+    :doc:`export-reports`
+
+    ---
+
+    :doc:`import-reports`
+
+    ---
     
     :doc:`export-projects`
 
@@ -72,6 +80,8 @@ This is useful when you need to move or copy things from one environment to anot
    import-datasets.rst
    export-applications.rst
    import-applications.rst
+   export-reports.rst
+   import-reports.rst
    export-projects.rst
    import-projects.rst
    export-import-rest-api.rst

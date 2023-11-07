@@ -22,7 +22,7 @@ Below are the high level steps for it:
 Steps for Running Scala Workflows
 --------------
 
-Step 1 : Export and Upload the workflow JSON to DBFS
+**Step 1 : Export and Upload the workflow JSON to DBFS**
 ++++++
 
 As the first step, export the workflow as JSON files and upload to a DBFS folder.
@@ -30,13 +30,13 @@ As the first step, export the workflow as JSON files and upload to a DBFS folder
 Note that the workflow might be a Spark/Scala workflow or a PySpark workflow.
 
 
-Step 2 : Upload Fire Core JAR
+**Step 2 : Upload Fire Core JAR**
 ++++++++++++++++++++++
 
 Upload the **fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar** file to Databricks as a Library under Workspace.
 
 
-Step 3 : Create a Notebook in Databricks
+**Step 3 : Create a Notebook in Databricks**
 ++++++++++++
 
 Suppose the workflow json is available at **dbfs:/workflows/test_csv_scala.json**.
@@ -83,12 +83,12 @@ In order to execute it, create a Notebook with the below code::
     WorkflowExecuteDatabricks.execute(webserverURL, jobId, workflowjson, debug, username, programParameters.trim)
     
 
-Step 4 : Create the Spark Job in Databricks
+**Step 4 : Create the Spark Job in Databricks**
 ++++++++++++++++
 
 Create the Spark Job by attaching the notebook template with input parameters like workflow-JSON-path, etc.
 
-Step 5 : Submit the Spark Job to Databricks Cluster
+**Step 5 : Submit the Spark Job to Databricks Cluster**
 ++++++++++++++++
 
 Submit the Spark Job to Databricks cluster by passing the required workflow JSON path.
@@ -97,14 +97,14 @@ Submit the Spark Job to Databricks cluster by passing the required workflow JSON
 Steps for Running PySpark Workflows
 -------------
 
-Step 1 : Export and Upload the workflow JSON to DBFS
+**Step 1 : Export and Upload the workflow JSON to DBFS**
 ++++++
 
 As the first step, export the workflow as JSON files and upload to a DBFS folder.
 
 Note that the workflow might be a Spark/Scala workflow or a PySpark workflow.
 
-Step 2 : Upload Fire Wheel File to DBFS
+**Step 2 : Upload Fire Wheel File to DBFS**
 ++++++++++++++
 
 Upload the **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl** file to Databricks. 
@@ -112,7 +112,7 @@ Upload the **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl** file to Databricks.
 You can either upload it under Workspace as a Library onto Databricks or place it in an S3 Bucket that is accessible from the Databricks Cluster.
 
 
-Step 3 : Create Notebook
+**Step 3 : Create Notebook**
 ++++++++++++
 
 Suppose the workflow json is available at **dbfs:/workflows/Join_Workflow.json**.
@@ -156,12 +156,12 @@ In order to execute it, create a Notebook with the below code::
                                       program_parameters = programParameters)
     
  
-Step 4 : Create the PySpark Job in Databricks
+**Step 4 : Create the PySpark Job in Databricks**
 ++++++++++++++++
 
 Create the PySpark Job by attaching the notebook template with input parameters like workflow-JSON-path, etc.
 
-Step 5 : Submit the Pyspark Job to Databricks Cluster
+**Step 5 : Submit the Pyspark Job to Databricks Cluster**
 ++++++++++++++++
 
 Submit the Pyspark Job to Databricks cluster by passing the required workflow JSON path.

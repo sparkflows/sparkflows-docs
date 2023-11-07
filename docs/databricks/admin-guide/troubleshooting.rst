@@ -15,7 +15,7 @@ Nothing is Displayed in Fire Insights after Workflow Execution
      :alt: Databricks
      :width: 60%
    
-* Another reason might be that you are using the Databricks ``High Concurrency`` cluster. Ensure that you connect Fire to Databricks ``Standard`` cluster or have enabled scala in the high concurrency cluster. 
+* Another reason might be that you are using the Databricks **High Concurrency** cluster. Ensure that you connect Fire to Databricks **Standard** cluster or have enabled scala in the high concurrency cluster. 
 
 When accessing most of the Databricks pages in Fire, it gives Simba JDBC error
 -----------------------------------------
@@ -41,34 +41,48 @@ Checking Cluster Logs in Databricks
   Search for **WorkflowExecuteDatabricks** in the logs to view if the Fire Insights Job is running in Databricks.
 
 
- Getting Error : java.lang.Exception: An error occurred while initializing the REPL 
+Getting java.lang.Exception Error
 --------------------------------
- * If you receive the error **java.lang.Exception: An error occurred while initializing the REPL**, it may be due to conflicting Scala libraries or JARs attached to the cluster such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
 
-   Ensure that the Scala libraries match the cluster's version to resolve the conflict.
+* If you receive the error **java.lang.Exception: An error occurred while initializing the REPL**, it may be due to conflicting Scala libraries or JARs attached to the cluster such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).
+
+  Ensure that the Scala libraries match the cluster's version to resolve the conflict.
 
 
-Getting Error : at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)
---------------------------------------
-   
-This error happens when you run Spark 2.3 version of Fire with Spark 2.4 cluster on Databricks.
+Getting (DatabricksILoop.scala:98) Error
+-------------------------------
+* If you encounter the error **at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)**, it's likely because you are running the Spark 2.3 version of Fire with a Spark 2.4 cluster on Databricks. 
 
-To resolve this error, either upgrade Fire to spark 2.4 version, or create another Databricks cluster which supports spark 2.3.
+  To resolve this issue, consider upgrading Fire to the Spark 2.4 version or create a Databricks cluster compatible with Spark 2.3.   
+
 
 
 Databricks Cluster Versions Support
 ------------------------------------
+.. list-table::
+   :widths: 25 25 50
+   :header-rows: 1
 
-Databricks Runtime Version             Spark Version                Scala Version
+   * - Databricks Runtime Version 
+     - Spark Version    
+     - Scala Version
+   * - 7.3 
+     - 3.0.1 
+     - 2.12
+   * - 6.2 
+     - 2.4.4   
+     - 2.11
+   * - 6.3  
+     - 2.4.4 
+     - 2.11
+   * - 6.4  
+     - 2.4.5 
+     - 2.11
+   * - 6.5      
+     - 2.4.5    
+     - 2.11
+   
 
-7.3                                    3.0.1                        2.12
 
-6.2                                    2.4.4                        2.11
-
-6.3                                    2.4.4                        2.11
-
-6.4                                    2.4.5                        2.11
-
-6.5                                    2.4.5                        2.11
 
 

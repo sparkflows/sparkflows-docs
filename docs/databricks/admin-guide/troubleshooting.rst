@@ -41,7 +41,7 @@ Checking Cluster Logs in Databricks
   Search for **WorkflowExecuteDatabricks** in the logs to view if the Fire Insights Job is running in Databricks.
 
 
-Getting java.lang.Exception Error
+Getting (java.lang.Exception) Error
 --------------------------------
 
 * If you receive the error **java.lang.Exception: An error occurred while initializing the REPL**, it may be due to conflicting Scala libraries or JARs attached to the cluster such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).

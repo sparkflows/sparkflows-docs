@@ -115,7 +115,7 @@ You can either upload it under Workspace as a Library onto Databricks or place i
 **Step 3 : Create Notebook**
 ++++++++++++
 
-Suppose the workflow json is available at **dbfs:/workflows/Join_Workflow.json**.
+Suppose the workflow JSON is available at **dbfs:/workflows/Join_Workflow.json**.
 
 In order to execute it, create a Notebook with the below code::
 

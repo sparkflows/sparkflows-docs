@@ -82,6 +82,31 @@ Buttons
      - uploadData
      - uploadData
      - Component is added to upload table data to the HDFS file system.
+   * - Summarize/Translate
+     - Button
+     - gen-ai
+     - any
+     - Component is added to call open ai rest API.
+   * - Read File
+     - Button
+     - read-file
+     - any
+     - Component is added to read the local file and update content in any components.
+   * - Download
+     - Button
+     - export-text
+     - any
+     - Component is added to download the content of any components as a txt file.
+   * - Show Difference
+     - Button
+     - text-diff
+     - any
+     - Component is added to show the difference between two component content.
+   * - Translate
+     - Button
+     - execute-node
+     - any
+     - Component is added to execute a single node and perform certain tasks based on the execution result.
      
 Mapping Table Columns
 ----------
@@ -120,12 +145,52 @@ Multiple File Upload
    * - Destination Path
      - Textfield
      - KEY : for , VALUE : file1(property name of file component);
-     - Component is added to get destination path where the browse file should get uploaded.
+     - Component is added to get the destination path where the browse file should get uploaded.
    * - Upload
      - Button
      - KEY : for , VALUE : file1(property name of file component);
-     - Component is added to upload choose file to databricks in specified destination path otherwise by default it will store inside FileStore folder.
+     - Component is added to upload the chosen file to databricks in a specified destination path otherwise by default it will be stored inside the FileStore folder.
    * - Columns
      -  Select Boxes
      - KEY : for , VALUE : file1(property name of file component);
      - Component is added to map fields.
+
+Upload File with read content and execute app options
+-------------
+.. list-table:: 
+   :widths: 15 15 23 30
+   :header-rows: 1
+
+   * - Title
+     - Component Type
+     - Custom Properties 
+     - Description
+   * - File
+     - File
+     - file
+     - Component is added to browse and select files.
+   * - Destination Path
+     - Text Field
+     - any
+     - Component is added to set destination path where the selected file should get uploaded.
+   * - Upload
+     - Button
+     - KEY: readFile, VALUE: true(It will keep content after upload file); KEY: updateTo, VALUE: component property name(It will update given component with uploaded file content); KEY: Execute, VALUE: true(It will allow to execute relevant workflow after upload file).
+     - Component is added to upload the selected file to hdfs/dbfs in the specified destination path otherwise by default it will be stored inside the FileStore folder. We can assign custom properties to perform certain tasks after file upload.
+
+Download text area or text field content as a text file
+-------------
+.. list-table:: 
+   :widths: 15 15 15 23 30
+   :header-rows: 1
+
+   * - Title
+     - Component Type
+     - Event Name
+     - Custom Properties 
+     - Description
+   * - Download
+     - Button
+     - export-text
+     - KEY: exportFrom, VALUE: component property name(It will save given component content into a text file)
+     - Component is added to download the content of any components as a txt file.

@@ -54,6 +54,12 @@ Instance Type & OS Supported
      - t3.2xlarge
      - ami-096fda3c22c1c990a
    * - Ubuntu 20.04
+     - c5a.8xlarge
+     - ami-0261755bbcb8c4a84
+   * - Ubuntu 20.04
+     - c3.8Xlarge
+     - ami-0261755bbcb8c4a84
+   * - Ubuntu 20.04
      - t2.xlarge
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04

@@ -19,7 +19,7 @@ Before you start setting up the Postgres Connection, please make sure to:
 
 #. Download the necessary PostgreSQL JAR file by following this link: `PostgreSQL JAR <https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar>`_
 #. Copy the JAR file into both the **fire-user-lib** and **fire-core-lib** folders located within the Sparkflows home directory.
-#. Copy the JAR file into the **/home/sparkflows/venv/lib/python3.7/site-packages/pyspark/jars/** if using PySpark engine, it need to be updated on the basis of your python environment.
+#. Copy the JAR file into the ``/home/sparkflows/venv/lib/python3.7/site-packages/pyspark/jars/`` if using PySpark engine, it need to be updated on the basis of your python environment.
 #. Start the Fire Server after you finish copying the JAR file.
 
 

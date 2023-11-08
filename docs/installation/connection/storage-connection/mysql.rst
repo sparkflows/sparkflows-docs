@@ -30,9 +30,9 @@ Login to Sparkflows
 Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the main menu and then select ``Global Connections`` to reach the next page as shown below.
 
 
-.. figure:: ../../../_assets/aws/livy/administration.PNG
-   :alt: livy
-   :width: 60%
+.. figure:: ../../../_assets/postgresql/administration.png
+      :alt: postgresql
+      :width: 60%
 
 Add Connection
 ----------

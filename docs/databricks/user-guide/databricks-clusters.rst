@@ -1,34 +1,48 @@
 View Databricks Clusters
 ====================
 
-Fire Insights enables you to view your Databricks Clusters. You can also Start and Stop the Databricks clusters from Fire Insights.
+Fire Insights enables you to view your Databricks Clusters. You can also Start or Restart the Databricks clusters from Fire Insights.
 
-Go to Data Browsers or Databricks Clusters
+This document explains in detail the steps required to view Databricks clusters.
+
+Step 1 : Login to Fire Insights
 ----------------------
+#. Open Fire Insights Login Page.
+#. Enter your credentials and click **Sign in**. You will reach the dashboard.
 
-It will display the various Databricks Clusters available.
+Step 2 : Go to Databricks Clusters Page
+-------------
+#. Hover the cursor over **DATA** located in the top menu bar.
+#. Click **Databricks Clusters** from the drop-down menu to open Databricks Clusters Page.
 
+   The page displays the list of various Databricks Clusters available.
 
-.. figure:: ../../_assets/configuration/databricks_cl.PNG
-   :alt: Databricks
-   :width: 80%
+   .. figure:: ../../_assets/configuration/view-db-cluster/drop-down-menu.png
+      :alt: Databricks
+      :width: 60%
 
-If you wish to see cluster details, click on ``CLUSTER NAME`` to display all the related information.
+Step 3 : Access Cluster Details
+----------------
 
-
-.. figure:: ../../_assets/configuration/cl_name.PNG
-   :alt: Databricks
-   :width: 80%
-
-.. figure:: ../../_assets/configuration/db_details.png
-   :alt: Databricks
-   :width: 80%
+#. To view all the cluster-related details, click on the cluster name located within the **Cluster Name** column.
    
-   
-You can also Start and Stop the Databricks clusters from Fire Insights, using the ``ACTIONS`` button.
+   .. figure:: ../../_assets/configuration/view-db-cluster/db-cluster-page.png
+      :alt: Databricks
+      :width: 60%
 
-.. figure:: ../../_assets/configuration/db_restart.PNG
-   :alt: Databricks
-   :width: 80%
+   The appearance of the cluster details page will be as shown below:
+   
+   .. figure:: ../../_assets/configuration/view-db-cluster/cluster-details.png
+      :alt: Databricks
+      :width: 60%
+   
+Step 4 : Manage Clusters
+--------------
+
+#. From Fire Insights, you can **start or restart** Databricks clusters using the options listed under **Actions** Column on Databricks Clusters Page.
+
+   .. figure:: ../../_assets/configuration/view-db-cluster/db-cluster-page.png
+      :alt: Databricks
+      :width: 60%
 
 

@@ -23,12 +23,6 @@ When accessing most of the Databricks pages in Fire, it gives Simba JDBC error
 * The reason for it is that the Databricks Simba JDBC JAR file is not deployed in Fire. Follow the installation guidelines at `Databricks JDBC Driver Installation Guide <https://docs.sparkflows.io/en/latest/databricks/databricks-installation.html#install-databricks-jdbc-driver>`_
 
 
-Workflow Editor Gives 'Cannot connect to Fire' Error
--------------------
-
-* To resolve this issue, ensure that **app.runOnCluster** under **Administration/Configuration** is set to **false**.
-
-
 Checking Cluster Logs in Databricks
 -------------------
 
@@ -36,9 +30,9 @@ Checking Cluster Logs in Databricks
 
   The following logs under **Driver Logs** are useful:
 
-  - log4j-active.log
+  - Log4j output.log
 
-  Search for **WorkflowExecuteDatabricks** in the logs to view if the Fire Insights Job is running in Databricks.
+  Search for **workflowexecutecloud** in the logs to view if the Fire Insights Job is running in Databricks.
 
 
 Getting (java.lang.Exception) Error

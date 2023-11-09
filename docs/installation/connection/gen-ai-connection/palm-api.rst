@@ -12,10 +12,10 @@ The two fields which corresponds to the Vertex Palm API end points are:
 
  * **URL :** 
 
-   This is the Vertex Palm API endpoint URL containing project id and model name:
+   This is the Vertex Palm API endpoint URL containing Project ID and Model Name :
 
    `https://us-central1-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/us-central1/publishers/google/models/${MODEL_ID}:predict`
 
-   .. figure:: ../../../_assets/installation/connection/gen-ai/palm-api.png
-      :alt: connection
-      :width: 40%    
+      .. figure:: ../../../_assets/installation/connection/gen-ai/palm-api.png
+         :alt: connection
+         :width: 40%    

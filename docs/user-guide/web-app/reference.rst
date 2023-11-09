@@ -155,7 +155,7 @@ Multiple File Upload
      - KEY : for , VALUE : file1(property name of file component);
      - Component is added to map fields.
 
-Upload File with read content and execute app options
+Upload File with Read Content and Execute App Options
 -------------
 .. list-table:: 
    :widths: 15 15 23 30
@@ -175,10 +175,10 @@ Upload File with read content and execute app options
      - Component is added to set destination path where the selected file should get uploaded.
    * - Upload
      - Button
-     - KEY: readFile, VALUE: true(It will keep content after upload file); KEY: updateTo, VALUE: component property name(It will update given component with uploaded file content); KEY: Execute, VALUE: true(It will allow to execute relevant workflow after upload file).
+     - KEY: readFile, VALUE: true(It will keep content after upload file); KEY: updateTo, VALUE: component property name(It will update given component with uploaded file content); KEY: Execute, VALUE: true (It will allow to execute relevant workflow after upload file).
      - Component is added to upload the selected file to hdfs/dbfs in the specified destination path otherwise by default it will be stored inside the FileStore folder. We can assign custom properties to perform certain tasks after file upload.
 
-Download text area or text field content as a text file
+Download Text Area or Text Field Content as Text File
 -------------
 .. list-table:: 
    :widths: 15 15 15 23 30
@@ -192,5 +192,5 @@ Download text area or text field content as a text file
    * - Download
      - Button
      - export-text
-     - KEY: exportFrom, VALUE: component property name(It will save given component content into a text file)
+     - KEY: exportFrom, VALUE: component property name (It will save given component content into a text file).
      - Component is added to download the content of any components as a txt file.

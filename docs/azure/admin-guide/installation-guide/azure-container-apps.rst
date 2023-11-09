@@ -43,7 +43,7 @@ To allow the container to connect to a remote MySQL instance, enter the followin
       :width: 60%
       :alt: Container Configuration
 
-   .. note:: Make sure you provide atleast 2vCPU and 4GB RAM to the container. 
+   .. note:: Make sure you provide atleast 8vCPU and 16GB RAM to the container. 
 
 Step 4 : Enter Ingress Configuration Details 
 -------------------------------

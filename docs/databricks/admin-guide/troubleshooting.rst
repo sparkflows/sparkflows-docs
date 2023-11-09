@@ -5,7 +5,7 @@ Troubleshooting Databricks Integration
 Nothing is Displayed in Fire Insights after Workflow Execution
 -----------------------------------------
 
-* This problem may arise due to incorrect configuration of the postback URL in Fire Insights under Administration/Configuration.
+* This problem may arise due to incorrect configuration of the postback URL in Fire Insights with the Databricks connection you will be using.
 
 * Another possible issue is the inaccessibility of the machine running Fire Insights from the Databricks Cluster. 
 

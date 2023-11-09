@@ -28,6 +28,28 @@ Before you start with the setup and configuration process, ensure you meet the f
 * JDBC driver JAR file need to be copied to Sparkflows folder **fire-user-lib** & **fire-server-lib** directory inside **fire-x.y.z**.
 * MySQL should be accessible from the Fire Insights Machine.
 
+The memory Pre-requisites for MySQL:
+
+Memory
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Recommended
+     - Value
+   * - Memory
+     - 16GB+
+     - More the memory would be preferable
+   * - vCPU
+     - 8+
+     - More the vCPU would be preferable, if data size is bigger
+   * - Disk Size
+     - 50GB+
+     - Depending on Job Compute, If running locally
+
 
 Step 2 : Install MySQL
 -------------

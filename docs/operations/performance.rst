@@ -1,7 +1,7 @@
 Performance
 =====
 
-Fire Insights performance can be increase if the machine have high memory:
+Fire Insights performance can be increase if the machine memory is high and not being used:
 
 Fire UI
 ++++

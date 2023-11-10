@@ -1,4 +1,4 @@
-performance
+Performance
 =====
 
 Fire Insights performance can be increase if the machine have high memory:

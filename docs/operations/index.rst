@@ -36,6 +36,10 @@ Operations
     :doc:`/operations/installing-jdbc-drivers`
     
     ---
+       
+    :doc:`/operations/performance`
+    
+    ---
     
     :doc:`/operations/jupyter`
     
@@ -70,6 +74,7 @@ Operations
    installing-mysql.rst
    migrating-h2-db-to-mysql.rst
    installing-jdbc-drivers.rst
+   performance.rst
    dashboard-installing-jdbc-drivers.rst
    jupyter.rst
    installing-tesseract.rst

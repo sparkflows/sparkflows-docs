@@ -29,7 +29,7 @@ You should get to a page similar to below:
      :width: 70%
 
 
-* In the dialog box which comes up, select whether you want to export workflows, datasets, analytics apps(if analytics apps is enabled), or all options.
+* In the dialog box which comes up, select whether you want to export workflows, datasets, analytics apps(if analytics apps is enabled), pipelines, reports or all options.
 
  .. figure:: ../../_assets/user-guide/export-import/exportcomp.png
      :alt: userguide

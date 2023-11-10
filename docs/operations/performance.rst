@@ -10,7 +10,7 @@ By default fire-ui maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m
 
 you can increase maximum to ``-Xmx8192m``
 
-above parameter can be updated in ``run-fire-server.sh``
+above parameter can be updated in ``run-fire-server.sh`` and restrt the Fire server
 
 ::
 

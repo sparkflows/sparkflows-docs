@@ -24,9 +24,9 @@ Steps Involved in Configuring Pipeline in Sparkflows:
    :alt: Pipeline List
    :width: 60%
    
-2. **Once the above Configuration is enabled, you will see two tab in project namely ``Pipeline & Pipeline Executions``** 
+2. **Once the above Configuration is enabled, you will see two tab in project namely ``Pipeline, Executions, Schedules``** 
 
-.. figure:: ../../_assets/user-guide/pipeline-list-new.png
+.. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
    :alt: Pipeline List
    :width: 60% 
 
@@ -75,7 +75,7 @@ Once the above Configurations are saved, the pipelines will start getting submit
 
 ``Pipeline`` tab under a Project displays list of all Pipelines created under the selected project. Pipelines can be grouped together under several categories. 
 
-.. figure:: ../../_assets/user-guide/pipeline-list-new.png
+.. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
    :alt: Pipeline List
    :width: 60%
 
@@ -111,7 +111,7 @@ Below are list of nodes available when ``Airflow`` is enabled.
 
 Below is an example a Pipeline with multiple Workflows.
 
-.. figure:: ../../_assets/user-guide/pipeline-new.png
+.. figure:: ../../_assets/user-guide/pipeline/create-pipeline-new.png
    :alt: Pipeline
    :width: 60%
    
@@ -121,7 +121,7 @@ Pipelines can be executed in the similar way as Workflow execution when Sparkflo
 
 The Pipeline tab displays the list of Pipelines for the current Application.
 
-.. figure:: ../../_assets/user-guide/pipeline-list-new.png
+.. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
    :alt: Pipeline List
    :width: 60%
    
@@ -133,9 +133,9 @@ Clicking on the ``Execute`` Action button from ``Pipeline`` list or in the ``Pip
    
 7. **Pipeline Execution Result**
 
-Once a Pipeline is submitted for execution, it's execution details can be viewed in the ``Pipeline Executions`` tab.
+Once a Pipeline is submitted for execution, it's execution details can be viewed in the ``Executions`` tab under ``Pipeline`` tab.
 
-.. figure:: ../../_assets/user-guide/pipeline-execution-new.png
+.. figure:: ../../_assets/user-guide/pipeline/pipeline-execution-new.png
    :alt: Pipeline Execution
    :width: 60%
    
@@ -143,11 +143,11 @@ Once a Pipeline is submitted for execution, it's execution details can be viewed
 
 Sparkflows allows you to schedule Pipeline depending on your requirements.
 
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.PNG
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_scheduled.png
    :alt: Pipeline 
    :width: 60%
 
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_page.PNG
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_page.png
    :alt: Pipeline 
    :width: 60%
    
@@ -155,7 +155,7 @@ Sparkflows allows you to schedule Pipeline depending on your requirements.
    :alt: Pipeline 
    :width: 60%
    
-.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_list.PNG
+.. figure:: ../../_assets/user-guide/pipeline/pipeline_schedule_list.png
    :alt: Pipeline 
    :width: 60%   
 
@@ -165,7 +165,7 @@ Once the Pipeline scheduled, it will be trigerred automatically based on the sch
 
 The Pipeline can be imported from a Json file.
 
-.. figure:: ../../_assets/pipelines/Import_Pipeline.png
+.. figure:: ../../_assets/user-guide/pipeline/Import_Pipeline.png
    :alt: Pipeline Import
    :width: 60%
    
@@ -173,7 +173,7 @@ The Pipeline can be imported from a Json file.
 
 All the previous versions of the pipeline can be viewed. The Pipeline can be restored to a previous version.
 
-.. figure:: ../../_assets/pipelines/Pipeline_History.png
+.. figure:: ../../_assets/user-guide/pipeline/Pipeline_History.png
    :alt: Pipeline Import
    :width: 60%
 

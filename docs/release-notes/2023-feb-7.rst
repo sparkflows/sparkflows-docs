@@ -1,4 +1,4 @@
-February 7th 2023 (Version 3.1.75)
+February 2023 (Version 3.1.75)
 ==================================
 
 Improvements:

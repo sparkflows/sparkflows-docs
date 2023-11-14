@@ -1,0 +1,62 @@
+October 30 2023 
+==================================
+
+New Features:
+--------------
+* Added support for Azure OpenAI integration.
+* Introduced MLflow support.
+* Implemented a new Translate PDF node to facilitate PDF translation.
+* Added a new Create Faiss Embeddings node for generating Faiss embeddings.
+* Introduced a Gen AI SQL Query node for executing SQL queries.
+* Added a new Web Scraper node for web scraping tasks.
+* Added support for multiple PDF files.
+* Added confusion matrix chart on the modal detail page to provide users with visual insights into model performance.
+* Introduced an API for performing Create, Read, Update, and Delete (CRUD) operations for wiki documents, enhancing collaboration and documentation capabilities.
+* Expanded data type support to include compatibility for various data types, providing flexibility in working with different data formats.
+* Implemented a new wiki page feature, empowering users to create and manage documentation within the application's interface.
+* Incorporated recommendation rules for data quality, ensuring the enforcement of best practices for maintaining data integrity and quality.
+* Enabled the functionality to save pipelines to disk, offering users more control over their workflow management and execution.
+* Enhanced user roles page by adding a scroll feature for improved navigation and user management.
+
+Improvements:
+--------------
+* Introduced authentication support for MLOps server.
+* Enhanced the logic for promoting models between stages.
+* Improved field and variable names for model promotion.
+* Optimized code for computing drift on train and test data.
+* Updated requirements.txt with compatible versions.
+* Made Gen AI imports local to run HF workflows.
+* Added parameters for creating embeddings in nodes.
+* Exposed parameters for langchain ChatOpenaiAPI.
+* Enhanced path appending issue fix on the save modal.
+* Removed the requirement for include tables as a mandatory field.
+* Took in access and secret key for the MLflow bucket from the admin page.
+* Added a query method to query Faiss PKL files.
+* Added dependency of llama index for enhanced functionality.
+* Updated button colors to align with theme preferences, enhancing overall visual appeal and consistency.
+* Refined the user interface (UI) for analytical apps to provide a more intuitive and seamless user experience.
+* Introduced a media query for padding within the configurations nav tabs, ensuring a more responsive and consistent UI across various devices.
+* Replaced the UISettings.displayNodeId Configuration with a dropdown, simplifying user interactions and selections.
+* Optimized the layout and spacing of elements for the Schedule DB backup feature, enhancing usability and aesthetic appeal.
+* Improved user groups table by enabling scrolling within the table body for easier data exploration and management.
+
+Bug Fixes:
+--------------
+* Fixed headers and paragraphs formatting issue in description of nodes and workflows.
+* Addressed pyspark graph values and scatter chart node issues.
+* Fixed a web scraping node issue for recursive scraping.
+* Addressed path appending issue on the save modal.
+* Fixed wf-parameter issue when the parameter value has an equal sign (=).
+* Resolved S3 path issues, ensuring seamless integration with Amazon S3 for data processing and storage.
+* Addressed issues related to the trash feature, ensuring smoother navigation and file management.
+* Implemented validation for column names, reducing the risk of errors and enhancing data quality during user interactions.
+* Fixed long dataset names that affected the dropdown menu size, optimizing the user interface for improved usability.
+* Rectified position-related issues for count in multiselect dropdowns, ensuring consistent and precise UI elements across the application.
+* Resolved alignment issues throughout the application, ensuring a seamless and visually appealing user experience.
+* Addressed curve line chart issues, enhancing the visual representation of data for improved insights.
+
+Documentation:
+--------------
+* Updated README.md.
+* Made documentation updates for Gen AI features.
+* Updated documentation for multiple app execute, import/export wiki, and Analytics app UI, providing clear and comprehensive instructions for users.

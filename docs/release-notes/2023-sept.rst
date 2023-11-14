@@ -1,0 +1,44 @@
+September 30 2023 
+==================================
+
+
+New Features:
+--------------
+* Introduced a new node for checking the existence of a column in data sets, providing users with an additional data validation capability.
+* Implemented a new node for calculating the difference between dates in PySpark, enhancing the date manipulation capabilities of the platform.
+* Added a new node for numbering rows, enabling users to assign unique identifiers to rows in their data sets.
+* Introduced a new node for splitting paragraphs, facilitating text processing and analysis tasks.
+* Expanded the functionality with a new node for graph region geospatial visualization in PySpark, empowering users with advanced geospatial data visualization capabilities.
+* Introduced a node for gauge graph representation in PySpark, enabling users to create gauge charts for data visualization.
+* Enhanced the functionality of the output graph node by adding configurable attributes to customize graph outputs.
+* Introduced a new node for creating bar charts in PySpark, providing additional visualization options for data analysis and presentation.
+* Enhanced the platform with a new node for scatter chart visualization in PySpark, offering users the ability to create scatter plots for data exploration and analysis.
+* Improved the functionality of the bubble chart node by addressing various issues and enhancing its feature set.
+* Implemented support for customization of colors in the histogram and boxplot nodes, offering users flexibility in visualizing data distributions.
+
+Improvements:
+--------------
+* Updated the platform with a feature to register H2O3 models in MLflow and expose them as REST endpoints, enhancing model management and deployment capabilities.
+* Upgraded the Spark dependency to version 3.3.1, ensuring compatibility and leveraging the latest features and optimizations.
+* Enhanced parameter handling in the execution of workflows from files, optimizing workflow execution capabilities.
+* Improved the JDBC pyspark node functionality, enhancing connectivity and data retrieval from external databases.
+* Streamlined the visualization of outlier data points, flagging outliers for clearer insights.
+* Upgraded the platform to Spark 3.4.1, leveraging the latest enhancements and optimizations.
+
+Bug Fixes:
+--------------
+* Resolved issues related to handling null values in parquet files and Oracle JDBC read, ensuring accurate and reliable data processing.
+* Fixed the resultType of node execution, addressing inconsistencies and ensuring proper execution and result handling.
+* Addressed multiple bugs related to data quality enhancements, ensuring dependable data validation and profiling capabilities.
+* Fixed issues with data quality rule validation and profile page layout, ensuring consistent and accurate data quality analysis.
+* Resolved various UI inconsistencies and alignment issues, ensuring a seamless and intuitive user experience.
+* Fixed bugs related to ML model generation and selection, ensuring the accurate creation and deployment of machine learning models.
+* Addressed compatibility issues in web scraping and faiss embeddings JSON, ensuring smooth and reliable data extraction and feature representation.
+* Resolved scrolling issues and UI bugs in various pages, providing a more stable and consistent user interface experience.
+
+Documentation:
+--------------
+* Improved JSON configurations for various nodes, providing comprehensive and detailed information for node configuration and usage.
+* Updated and added documentation for new node features and improvements, ensuring users have access to up-to-date and thorough documentation.
+* Added details for the page not found scenario, providing comprehensive information to guide users in case of unexpected page availability.
+* Documented enhancements and updates related to ML model visualization and features, ensuring users have access to comprehensive and detailed information on model visualization capabilities and enhancements.

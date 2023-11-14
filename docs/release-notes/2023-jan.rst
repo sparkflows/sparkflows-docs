@@ -1,4 +1,4 @@
-January 30th 2023 (Version 3.1.73)
+January 2023 (Version 3.1.73)
 ==================================
 
 New features:

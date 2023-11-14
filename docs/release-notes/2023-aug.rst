@@ -1,0 +1,68 @@
+September 30 2023 
+==================================
+
+
+New Features:
+--------------
+* Added support for visualization nodes enhancements
+* Added a new column to failed records named exception_reason
+* Support for endpoint added
+* Added a new sentiment extended node
+* Added a new sentiment extended node
+* Added a gen AI app
+* Added sentiment extended node
+* Replaced a model with another better one for sentiment analysis
+
+Improvements:
+--------------
+* Enhancements for data quality checks
+* Improved code refactoring for GAI nodes
+* Improved cleanup for various files and code sections
+* Added sorting to group bar chart X-axis
+* Adjusted the UI for the generative AI page 
+* Added color picker for chart color 
+* Added support for disabling certificate checking for AWS S3
+* Optimized the code for deselectAll()  
+* Added scroll for renaming the y column in the node modal
+* Added the ability to run the automl workflow with the selected current connection
+* Added dropdown for popup size in config page
+* Added a max-height for chat list
+* Updated UI for gen AI chat title
+
+Bug Fixes:
+--------------
+* Fixed issue with the Execution Icon for all/users
+* Fixed issue with Trino JDBC Nodes
+* Fixed issue for import web app
+* Fixed issue with run app breadcrumb redirect
+* Fixed alignment issue for pipeline nodes
+* Fixed the hover color change issue on Load Sample Applications and Accelerators on the Dashboard
+* Fixed issue with headers of Sample Data table change color based on theme for the dataset profile page
+* Fixed collapse node resize issue
+* Fixed disabled sort button issue
+* Fixed border issue for ML chart
+* Fixed S3 path directory issue
+* Fixed table height issue
+* Fixed issue with the Checked Mark from the Project not being removed until export
+* Fixed disabled asc/desc click issue
+* Fixed sorting issue for numbers  
+* Minor fix for DBFS delete multiple file check
+* Fixed tooltip hiding behind labels for trigger config
+* Fixed upper border getting cut for trigger name field when active
+* Fixed alignment issue for color picker
+* Fixed alignment for cross button in pipeline nodes
+* Fixed search border color not following the theme color
+* Fixed issue with the tab fixes on the overview page 
+* Fixed issue with dataset page sample data tab
+* Fixed issue with report page view report
+* Fixed issue for data quality page not redirecting to the workflow editor page
+
+Documentation:
+--------------
+* Update the Dockerfile and requirements.txt to run with Python 3.9
+* Added max modal check to the README
+* Updated the entrypoint and run files
+* Updated the Dockerfile with HPE path and fixed an issue with the Dockerfile for HPE environment
+* Updated the Dockerfile for adding jars and removed the access control origin header
+
+Please note that the release notes have been condensed for the purpose of this response.

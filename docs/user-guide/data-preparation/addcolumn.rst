@@ -17,7 +17,9 @@ Add Columns Processors in Fire Insights
    * - Add Columns
      - It adds new columns to the dataset with Current Date, Current Time, String Constant and Integer Column values.
    * - Case When
-     - It evaluates expressions and derive column values based on condition met.
+     - It evaluates expressions and derives column values based on condition met.
+   * - Case When Advance
+     - It evaluates multiple group of expressions and derives multiple column values based on condition met.
    * - Concat Columns
      - It joins values of multiple columns into one column
    * - Expressions
@@ -119,6 +121,62 @@ Case When node is configured as below.
 Output of Case When node displaying dataset with new computed column added to the incoming dataset.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhen-printnode-output.png
+   :alt: addcolumns_userguide
+   :width: 90%       	    
+   
+
+Case When Advance
+----------------------------------------
+
+Below is a sample workflow which contains Case When Advance processor in Fire Insights. It demonstrates usage of Case When Advance node to evaluate multiple group of expressions and derives multiple column values based on condition met.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Evaluates expressions and derive column values based on condition met using Case When Advance node.
+*	Prints output dataset with values computed based on Case When Advance conditions using Print node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-workflow.png
+   :alt: addcolumns_userguide
+   :width: 90%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-incoming-dataset.png
+   :alt: addcolumns_userguide
+   :width: 90%
+   
+**Case When Advance Node configuration**
+
+Case When Advance node is configured as below.
+
+*	Input of this node are the incoming dataset.
+*	Column name to list computed value in the output needs to be entered in **Output Column Name** box.
+*	Conditional Expression needs to be entered in **When Condition** box. 
+*	Value that needs to be assigned to column is to be entered in **Value** box.
+*	A new **Key Value Array** row needs to be added for each condition.
+*	Conditions should be defined in such a manner that only one of them should be evaluated to true.
+*	If all defined conditions don't meet then the value that needs to be assigned is to be entered in **Else** box.
+*	Output of this node would display dataset with new computed column added to the incoming dataset.
+*  Add details to the multiple tabs to add multiple columns to the output dataset
+
+**Case When Advance Tab 1**
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-config_1.png
+   :alt: addcolumns_userguide
+   :width: 90%
+
+**Case When Advance Tab 2**
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-config_2.png
+   :alt: addcolumns_userguide
+   :width: 90%
+
+**Case When Advance Node output**
+
+Output of Case When Advance node displaying dataset with new computed columns added to the incoming dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-printnode-output.png
    :alt: addcolumns_userguide
    :width: 90%       	    
    

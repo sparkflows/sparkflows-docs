@@ -49,10 +49,6 @@ Operations
     
     ---
     
-    :doc:`/operations/installing-opennlp`
-    
-    ---
-    
     :doc:`/operations/opennlp`
     
     ---
@@ -78,7 +74,6 @@ Operations
    dashboard-installing-jdbc-drivers.rst
    jupyter.rst
    installing-tesseract.rst
-   installing-opennlp.rst
    opennlp.rst
    scalability.rst
    run_workflow_with_dependent_jars.rst

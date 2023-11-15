@@ -47,13 +47,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumns-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumns-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Add Columns Node configuration**
 
@@ -67,7 +67,7 @@ Add Columns node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumns-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Add Columns Node output**
 
@@ -75,7 +75,7 @@ Output of Add Columns node displaying dataset with new columns added to the inco
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumns-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Case When
@@ -91,13 +91,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhen-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhen-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Case When Node configuration**
 
@@ -114,7 +114,7 @@ Case When node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhen-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Case When Node output**
 
@@ -122,7 +122,7 @@ Output of Case When node displaying dataset with new computed column added to th
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhen-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Case When Advance
@@ -138,13 +138,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Case When Advance Node configuration**
 
@@ -164,13 +164,13 @@ Case When Advance node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-config_1.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
 
 **Case When Advance Tab 2**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-config_2.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
 
 **Case When Advance Node output**
 
@@ -178,7 +178,7 @@ Output of Case When Advance node displaying dataset with new computed columns ad
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/casewhenadv-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Concat Columns
@@ -194,13 +194,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/concat-columns-wf.png
    :alt: addcolumns_userguide
-   :width: 75%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/concat-input.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Concat Columns Node configuration**
 
@@ -214,11 +214,11 @@ Concat Columns node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/concat-input-01.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/concat-input-02.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Concat Columns Node output**
 
@@ -226,7 +226,7 @@ Output of Concat Columns node displaying dataset containing values of multiple c
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/concat-columns-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Expressions
@@ -242,13 +242,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/expressions-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/expressions-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Expressions Node configuration**
 
@@ -262,7 +262,7 @@ Expressions node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/expressions-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Expressions Node output**
 
@@ -270,7 +270,7 @@ Output of Expressions node displaying dataset containing new columns computed us
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/expressions-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Generate UID
@@ -286,13 +286,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuid-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuid-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Generate UID Node configuration**
 
@@ -304,7 +304,7 @@ Generate UID node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuid-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Generate UID Node output**
 
@@ -312,7 +312,7 @@ Output of Generate UID node displaying dataset containing Unique Index/Value gen
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuid-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Generate UUID
@@ -328,13 +328,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuuid-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuuid-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Generate UUID Node configuration**
 
@@ -346,7 +346,7 @@ Generate UUID node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuuid-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Generate UUID Node output**
 
@@ -354,7 +354,7 @@ Output of Generate UUID node displaying dataset containing UUID value generated 
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/genuuid-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Hash
@@ -370,13 +370,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/hash-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/hash-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Hash Node configuration**
 
@@ -390,11 +390,11 @@ Hash node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/hash-config1.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/hash-config2.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Hash Node output**
 
@@ -402,7 +402,7 @@ Output of Hash node displaying dataset containing Hash value generated for each 
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/hash-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    
 
 Zip With Index
@@ -418,13 +418,13 @@ It does following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/zipwithindex-workflow.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Incoming dataset**
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/zipwithindex-incoming-dataset.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Zip With Index Node configuration**
 
@@ -436,7 +436,7 @@ Zip With Index node is configured as below.
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/zipwithindex-config.png
    :alt: addcolumns_userguide
-   :width: 90%
+   :width: 60%
    
 **Zip With Index Node output**
 
@@ -444,5 +444,5 @@ Output of Zip With Index node displaying dataset containing Index value generate
 
 .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/zipwithindex-printnode-output.png
    :alt: addcolumns_userguide
-   :width: 90%       	    
+   :width: 60%       	    
    

@@ -28,12 +28,6 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/natural-language-processing/open-nlp`
-
-    Open NLP
-
-    ---
-
     :doc:`/user-guide/natural-language-processing/spark-ml`
 
     Spark ML for NLP.
@@ -43,11 +37,22 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
     :doc:`/user-guide/natural-language-processing/hugging-face`
 
     Hugging-face
-    
+
+    ---
+
+    :doc:`/user-guide/natural-language-processing/open-nlp`
+
+    Open NLP
+
+    ---
+
+    :doc:`/user-guide/natural-language-processing/stanford-nlp`
+     Stanford NLP
 
 .. toctree::
    :hidden:
-
-   open-nlp.rst
+    
    spark-ml.rst
    hugging-face.rst
+   open-nlp.rst
+   stanford-nlp.rst

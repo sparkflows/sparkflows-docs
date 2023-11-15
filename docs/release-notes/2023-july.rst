@@ -1,60 +1,59 @@
 July 31 2023 
 ==================================
 
-
 New Features:
 --------------
-* Added sorting option for selected column in node
-* Added color changes for widget
-* Added description color field in graph node
-* Added widget for color description for graph nodes
-* Added an API to get chat details
-* Added Filter Advanced Node
-* Added Data Cleansing Node
-* Added Node Formula
-* Added ability to sort legends
-* Added tone analysis node
-* Added summarization node
+* Added sorting option for selected column in node.
+* Added color changes for widget.
+* Added description color field in Graph Node.
+* Added widget for color description for Graph Node.
+* Added an API to get chat details.
+* Added Filter Advanced Node.
+* Added Data Cleansing Node.
+* Added Formula Node.
+* Added ability to sort legends.
+* Added Tone Analysis Node.
+* Added Summarization Node.
 
 Improvements:
 --------------
-* Standardized band colors for all palettes
-* Updated color and size for graph labels
-* Optimized code for execution deletion and placed logic in a common component
-* Added center positioning for dropdown toggle arrow
-* Fixed alignment issues for various UI elements
-* Updated styling and layout for better user experience
-* Enhanced search functionality
-* Added show more/less option for cards in dashboard page
-* Prevented moving from the standard report page if enter key is pressed for an input item
-* Fixed tooltip flickering issue on the execution page
-* Fixed scroll and disabled radio button event issues
-* Improved UI styling and consistency across various pages
-* Serialization fix for single quote in fields in interactive mode
-* Bubble chart now supports x and y labels
-* Title color now configurable
-* Description color in graph nodes can be customized
-* Longer texts are now handled properly while computing shap
+* Standardized band colors for all palettes.
+* Updated color and size for graph labels.
+* Optimized code for execution deletion and placed logic in a common component.
+* Added center positioning for dropdown toggle arrow.
+* Updated styling and layout for better user experience.
+* Enhanced search functionality.
+* Added show more/less option for cards in dashboard page.
+* Prevented moving from the standard report page if enter key is pressed for an input item.
+* Fixed scroll and disabled radio button event issues.
+* Improved UI styling and consistency across various pages.
+* Serialization fix for single quote in fields in interactive mode.
+* Bubble chart now supports x and y labels.
+* Title color is now configurable.
+* Description color in Graph nodes can be customized.
+* Updated the report drag and drop functionality.
+* Added new fields and APIs for generative AI integration.
+* Longer texts are now handled properly while computing shap.
 
 Bug Fixes:
 --------------
-* Fixed multiple UI flickering issues
-* Resolved issues with scrolling, alignment, and hover effects
-* Fixed the issue with the select all functionality on the execution page
-* Addressed null pointer exceptions and resolved error messages
-* Fixed duplicate node issues in the report page
-* Fixed select and sorting issues for various elements
-* Corrected inconsistencies in label and button behavior
-* Fixed JSON serialization error popping up in the UI
-* Snowflake fixes
-* Take care of longer texts while computing shap
+* Fixed multiple UI flickering issues.
+* Resolved issues with scrolling, alignment, and hover effects.
+* Fixed the issue with the select all functionality on the execution page.
+* Addressed null pointer exceptions and resolved error messages.
+* Fixed duplicate node issues in the report page.
+* Fixed select and sorting issues for various elements.
+* Corrected inconsistencies in label and button behavior.
+* Fixed JSON serialization error popping up in the UI.
+* Fixed alignment issues for various UI elements.
+* Fixed tooltip flickering issue on the execution page.
+* Snowflake fixes.
+* Take care of longer texts while computing shap.
 
 Documentation:
 --------------
-* Updated the Dockerfile for Jenkins
-* Added new fields and APIs for generative AI integration
-* Updated the report drag and drop functionality
-* Added description and details for new feature enhancements
-* Improved error messages and handling for various actions
-* Updated NodeBarGroupChart.java
-* Updated requirements.txt
+* Updated the Dockerfile for Jenkins.
+* Added description and details for new feature enhancements.
+* Improved error messages and handling for various actions.
+* Updated NodeBarGroupChart.java.
+* Updated requirements.txt.

@@ -3,17 +3,18 @@ SparkML
 
 Text analytics is a wide area in machine learning and is useful in many use cases, such as sentiment analysis, chatbots, email spam detection, and natural language processing.
 
+Sparkflows provide the below spark algorithms:
 
-*Tokenizer
+* Tokenizer
 
-*StopWordsRemover
+* StopWordsRemover
 
-*NGrams
+* NGrams
 
-*TF-IDF
+* TF-IDF
 
-*Word2Vec
+* Word2Vec
 
-*CountVectorizer
+* CountVectorizer
 
-*Topic modelling
+* Topic modelling

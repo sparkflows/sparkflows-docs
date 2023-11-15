@@ -5,6 +5,36 @@ Fire can easily be setup up to run with Aurora MySQL.
 
 Further details of the Aurora MySQL database can be found here : https://aws.amazon.com/rds/aurora/
 
+Pre-requisites
+------
+
+* Aurora MySQL with Engine version 8.0.x
+* JDBC driver JAR file need to be copied to Sparkflows folder ``fire-user-lib`` & ``fire-server-lib`` directory inside ``fire-x.y.z``.
+* MySQL should be accessible from the Fire Insights Machine.
+
+The memory Pre-requisites for Aurora MySQL:
+
+Memory
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Recommended
+     - Value
+   * - Memory
+     - 16GB+
+     - More the memory would be preferable
+   * - vCPU
+     - 8+
+     - More the vCPU would be preferable, if data size is bigger
+   * - Disk Size
+     - 50GB+
+     - Depending on Job Compute, If running locally
+
+
 Create Aurora MySQL database on AWS
 -------------
 
@@ -74,10 +104,11 @@ Install the MySQL Connector JAR file
  * Just copy the path location for ```JDBC driver JAR file``
 
  
-* Copy the mysql JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``::
+* Copy the mysql JDBC driver JAR file to the ``fire-user-lib`` & ``fire-server-lib`` directory of ``fire-x.y.z``::
 
     cd fire-x.y.z
-    cp /pathlocation_of_jdbc_jar_file/mysql-connector-java.jar  fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-server-lib
+    cp /pathlocation of jdbc jar file/mysql-connector-java.jar      fire-user-lib
   
   
 Create the Tables for Fire in Aurora

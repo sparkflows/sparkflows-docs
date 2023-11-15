@@ -1,7 +1,6 @@
 September 30 2023 
 ==================================
 
-
 New Features:
 --------------
 * Introduced a new node for checking the existence of a column in data sets, providing users with an additional data validation capability.

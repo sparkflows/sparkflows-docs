@@ -44,6 +44,10 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
     :doc:`/user-guide/machine-learning/index`
 
     ---
+
+    :doc:`/user-guide/natural-language-processing/index`
+
+    ---
     
     :doc:`/user-guide/generative-ai/index`
 
@@ -122,6 +126,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    data-profile/index
    data-quality/index
    machine-learning/index
+   natural-language-processing/index
    generative-ai/index
    data-visualization-reports/index
    data-visualization-dashboards/index

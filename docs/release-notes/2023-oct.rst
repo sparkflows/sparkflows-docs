@@ -5,10 +5,10 @@ New Features:
 --------------
 * Added support for Azure OpenAI integration.
 * Introduced MLflow support.
-* Implemented a new Translate PDF node to facilitate PDF translation.
-* Added a new Create Faiss Embeddings node for generating Faiss embeddings.
-* Introduced a Gen AI SQL Query node for executing SQL queries.
-* Added a new Web Scraper node for web scraping tasks.
+* Implemented a new Translate PDF Node to facilitate PDF translation.
+* Added a new Create Faiss Embeddings Node for generating Faiss embeddings.
+* Introduced a Gen AI SQL Query Node for executing SQL queries.
+* Added a new Web Scraper Node for web scraping tasks.
 * Added support for multiple PDF files.
 * Added confusion matrix chart on the modal detail page to provide users with visual insights into model performance.
 * Introduced an API for performing Create, Read, Update, and Delete (CRUD) operations for wiki documents, enhancing collaboration and documentation capabilities.
@@ -27,10 +27,10 @@ Improvements:
 * Updated requirements.txt with compatible versions.
 * Made Gen AI imports local to run HF workflows.
 * Added parameters for creating embeddings in nodes.
-* Exposed parameters for langchain ChatOpenaiAPI.
+* Exposed parameters for LangChain ChatOpenaiAPI.
 * Enhanced path appending issue fix on the save modal.
 * Removed the requirement for include tables as a mandatory field.
-* Took in access and secret key for the MLflow bucket from the admin page.
+* Took in access and secret key for the MLflow bucket from the Admin page.
 * Added a query method to query Faiss PKL files.
 * Added dependency of llama index for enhanced functionality.
 * Updated button colors to align with theme preferences, enhancing overall visual appeal and consistency.
@@ -43,7 +43,7 @@ Improvements:
 Bug Fixes:
 --------------
 * Fixed headers and paragraphs formatting issue in description of nodes and workflows.
-* Addressed pyspark graph values and scatter chart node issues.
+* Addressed PySpark Graph Values and Scatter Chart node issues.
 * Fixed a web scraping node issue for recursive scraping.
 * Addressed path appending issue on the save modal.
 * Fixed wf-parameter issue when the parameter value has an equal sign (=).
@@ -53,7 +53,7 @@ Bug Fixes:
 * Fixed long dataset names that affected the dropdown menu size, optimizing the user interface for improved usability.
 * Rectified position-related issues for count in multiselect dropdowns, ensuring consistent and precise UI elements across the application.
 * Resolved alignment issues throughout the application, ensuring a seamless and visually appealing user experience.
-* Addressed curve line chart issues, enhancing the visual representation of data for improved insights.
+* Addressed Curve Line Chart issues, enhancing the visual representation of data for improved insights.
 
 Documentation:
 --------------

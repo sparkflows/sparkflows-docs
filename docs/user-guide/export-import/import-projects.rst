@@ -48,11 +48,11 @@ There are two options when importing Projects:
 
 When importing to an existing Project, there are 3 possible methods to choose from:
 
-* Create new workflows and datasets when matching UUIDs found.
+* Create new Workflows, Datasets, Applications, and Pipelines if matching UUID’s found
 
-* Overwrite datasets and workflows if matching UUID found.
+* Overwrite Workflows, Datasets, Applications and Pipelines if same UUID found
 
-* Delete all workflows and datasets in the selected Project and create the imported workflows and datasets as new ones.
+* Delete all Workflows, Datasets, Applications and Pipelines in the selected project and create new ones
 
 
 On Success

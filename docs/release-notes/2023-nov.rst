@@ -1,0 +1,59 @@
+November 15 2023
+===========
+
+New Features:
+--------
+- Added PDF Summary Node.
+- Added structured output by parsing results.
+- Enabled save pipeline to disk.
+- Added ROC and CM charts for H2O Scala Nodes.
+- Added ROC Curve and confusion matrix chart for PySpark models in SparkML and H2O.
+- Integrated execute node API for interactive execution using workflow ID.
+- Added support for reading PDF files and Text files.
+- Updated Sagemaker UI.
+
+Improvements:
+------
+- Code changes for refreshing schema and sample data for Postgres connection as dataset.
+- Improved code for updating DQ dataset dropdown list after clone, delete, or import datasets.
+- Optimized code for custom table and aligned the TH elements for user tables.
+- Updated look and feel for buttons on multiple pages.
+- Hid the sort icons for HDFS popup when no data is present and blocked the sort API call in such cases.
+
+Bug Fixes:
+--------
+- Resolved SSL issues with DB connection.
+- Fixed chart configuration tab issues.
+- Fixed user list display issue.
+- Fixed the issue of no dataset available card for DQ preview.
+- Reverted code for green border issue on dropdown toggle buttons.
+- Fixed the issue of columns update on workflow response.
+- Fixed button border color issue.
+- Removed the green border seen for split dropdown buttons and kept only for workflow.
+- Fixed the issue with overview refresh.
+- Fixed the issue of no data card for DQ profiling page when no dataset is present.
+- Fixed the issue with the select dataset button when no dataset is present for DQ.
+- Fixed the issue with the delete web app from the card view.
+
+Documentation:
+---------
+- Updated the README for Python dependency install.
+- Added PyPDF and docx2txt to requirements.
+- Updated setup.py.
+- Updated fire-release-dist-new.sh.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

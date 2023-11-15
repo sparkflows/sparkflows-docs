@@ -90,6 +90,13 @@ Rename Report Sheet
    .. figure:: ../../_assets/user-guide/reports/Report_Rename_Sheet.png
        :alt: Fire Insights Rename Report Sheet
        :width: 65%
+
+#. click on the **+** icon to add the Sheet in the Report.
+  
+   .. figure:: ../../_assets/user-guide/reports/Report_Add_Sheet.png
+       :alt: Fire Insights Add Report Sheet
+       :width: 65%
+
    
 Streaming Reports
 ---------------------

@@ -23,7 +23,7 @@ By default fire maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
 
 you can increase maximum to ``-Xmx4096m``
 
-above parameter can be updated in ``run-fire-server.sh`` and restrt the Fire server
+above parameter can be updated in ``run-fire.sh`` and restrt the Fire server
 
 ::
 

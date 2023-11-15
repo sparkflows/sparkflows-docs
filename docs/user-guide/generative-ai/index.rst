@@ -12,6 +12,8 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
     Generative AI Processors
 
+    ---
+
     :doc:`/user-guide/generative-ai/gen-ai-nlq`
 
     NLQ Processor and App

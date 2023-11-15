@@ -34,14 +34,20 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
 
     ---
 
-    :doc:`/user-guide/data-preparation/spark-ml`
+    :doc:`/user-guide/natural-language-processing/spark-ml`
 
     Spark ML for NLP.
 
+    ---
 
+    :doc:`/user-guide/natural-language-processing/hugging-face`
+
+    Hugging-face
+    
 
 .. toctree::
    :hidden:
 
    open-nlp.rst
    spark-ml.rst
+   hugging-face.rst

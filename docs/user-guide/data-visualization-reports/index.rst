@@ -81,6 +81,15 @@ Step 4 : Viewing Reports
    .. figure:: ../../_assets/user-guide/reports/ViewReport.png
        :alt: Fire Insights Editing Reports
        :width: 65%
+
+Rename Report Sheet
+------------------
+
+#. Double click on the sheet name to rename the report Sheet.
+  
+   .. figure:: ../../_assets/user-guide/reports/Report_Rename_Sheet.png
+       :alt: Fire Insights Rename Report Sheet
+       :width: 65%
    
 Streaming Reports
 ---------------------

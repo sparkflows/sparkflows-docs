@@ -24,7 +24,7 @@ Steps Involved in Configuring Pipeline in Sparkflows:
    :alt: Pipeline List
    :width: 60%
    
-2. **Once the above Configuration is enabled, you will see two tab in project namely ``Pipeline, Executions, Schedules``** 
+2. **Once the above Configuration is enabled, you will see three tabs in project namely** ``Pipelines, Executions & Schedules`` 
 
 .. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
    :alt: Pipeline List

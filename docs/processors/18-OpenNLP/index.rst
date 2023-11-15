@@ -7,3 +7,4 @@
    opennlpdocumentcategorizer.rst
    opennlpnamefinder.rst
    opennlpsentencedetector.rst
+   sentencetokenizermewrapper.rst

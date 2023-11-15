@@ -4,7 +4,8 @@ Release Notes
 
 .. toctree::
    :maxdepth: 2
-
+   
+   2023-nov.rst
    2023-oct.rst
    2023-sept.rst
    2023-aug.rst

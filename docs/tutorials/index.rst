@@ -57,13 +57,6 @@ Tutorials
     ---
     
     :doc:`/tutorials/languages/index`
-    
-       
-    
-    ---
-
-    :doc:`/tutorials/nlp/index`
-
        
 
     ---
@@ -98,7 +91,6 @@ Tutorials
    time-series/index.rst
    data-quality/index.rst
    languages/index.rst
-   nlp/index.rst
    streaming/index.rst
    ocr/index.rst
    

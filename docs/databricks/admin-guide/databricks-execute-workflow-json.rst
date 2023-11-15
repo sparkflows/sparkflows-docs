@@ -33,7 +33,7 @@ Note that the workflow might be a Spark/Scala workflow or a PySpark workflow.
 **Step 2 : Upload Fire Core JAR**
 ++++++++++++++++++++++
 
-Upload the **fire-x.y.z/fire-core-lib/fire-spark_2_4-core-3.1.0-jar-with-dependencies.jar** file to Databricks as a Library under Workspace.
+Upload the **fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** file to Databricks as a Library under Workspace.
 
 
 **Step 3 : Create a Notebook in Databricks**

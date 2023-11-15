@@ -1,20 +1,44 @@
 Natural Language Processing(NLP)
 =======
 
-Sparkflows empowers users to leverage the remarkable Generative AI capabilities by offering numerous processors based on Hugging Face Library. It allows users to host their models and infrastructure either in-house (on-premises or on the cloud within a Virtual Private Cloud) or access licensed models such as GPT-4 through APIs. This versatility ensures that customers can seamlessly harness the power of Generative-AI in a manner that best suits their specific needs and preferences.
+What is NLP?
+Natural language processing (NLP) is a machine learning technology that gives computers the ability to interpret, manipulate, and comprehend human language. Organizations today have large volumes of voice and text data from various communication channels like emails, text messages, social media newsfeeds, video, audio, and more. They use NLP software to automatically process this data, analyze the intent or sentiment in the message, and respond in real-time to human communication.
+
+Why is NLP important?
+Natural language processing (NLP) is critical to fully and efficiently analyze text and speech data. It can work through the differences in dialects, slang, and grammatical irregularities typical in day-to-day conversations.
+
+Companies use it for several automated tasks, such as to:
+•    Process, analyze, and archive large documents
+•    Analyze customer feedback or call center recordings
+•    Run chatbots for automated customer service
+•    Answer who-what-when-where questions
+•    Classify and extract text
+
+
+You can also integrate NLP in customer-facing applications to communicate more effectively with customers. For example, a chatbot analyzes and sorts customer queries, responding automatically to common questions and redirecting complex queries to customer support. This automation helps reduce costs, saves agents from spending time on redundant queries, and improves customer satisfaction.
+
+
+How can Sparkflows help with your NLP tasks?
+Sparkflows provides a variety of NLP capabilities with different open-source packages.
 
 
 .. panels::
     :container: container-lg pb-3
-    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/user-guide/natural-language-processing`
+    :doc:`/user-guide/natural-language-processing/open-nlp`
 
-    Natural Language Processing
+    Open NLP
+
+    ---
+
+    :doc:`/user-guide/data-preparation/spark-ml`
+
+    Spark ML for NLP.
 
 
 
 .. toctree::
    :hidden:
 
-   natural-language-processing.rst
+   open-nlp.rst
+   spark-ml.rst

@@ -31,29 +31,29 @@ Sparkflows leverages Hugging Face Transformers to provide the mentioned NLP func
 
 * **Custom Pipelines**: Sparkflows enables the creation of custom NLP pipelines by combining different Hugging Face Transformers components to build end-to-end NLP applications tailored to specific needs.
 
-Popular NLP Models/Transformers
+Some popular NLP Models/Transformers
 --------------
 
 Hugging Face's Transformers library offers a wide range of popular pre-trained text models that have been widely used in natural language processing (NLP) tasks. Keep in mind that the popularity of models may change over time as new models are released and research progresses. Here are some popular text models from Hugging Face's model repository:
 
-* BERT (Bidirectional Encoder Representations from Transformers): BERT is a pre-trained model that has had a significant impact on various NLP tasks, including text classification, question-answering, and named entity recognition. Variants of BERT, such as DistilBERT and RoBERTa, are also popular.
+* **BERT (Bidirectional Encoder Representations from Transformers)**: BERT is a pre-trained model that has had a significant impact on various NLP tasks, including text classification, question-answering, and named entity recognition. Variants of BERT, such as DistilBERT and RoBERTa, are also popular.
 
-* T5 (Text-to-Text Transfer Transformer): T5 is a versatile model that casts various NLP tasks into a text-to-text format, making it suitable for tasks like translation, summarization, question-answering, and more.
+* **T5 (Text-to-Text Transfer Transformer)**: T5 is a versatile model that casts various NLP tasks into a text-to-text format, making it suitable for tasks like translation, summarization, question-answering, and more.
 
-* XLNet: XLNet is a generalized autoregressive pre-trained model that builds upon BERT's architecture. It has shown strong performance on a wide range of NLP benchmarks.
+* **XLNet**: XLNet is a generalized autoregressive pre-trained model that builds upon BERT's architecture. It has shown strong performance on a wide range of NLP benchmarks.
 
-* RoBERTa: RoBERTa is a variant of BERT with improved training techniques and has achieved state-of-the-art results on several NLP tasks, including text classification and sentiment analysis.
+* **RoBERTa**: RoBERTa is a variant of BERT with improved training techniques and has achieved state-of-the-art results on several NLP tasks, including text classification and sentiment analysis.
 
-* DistilBERT: DistilBERT is a distilled version of BERT that offers a smaller model size while maintaining competitive performance, making it suitable for resource-constrained environments.
+* **DistilBERT**: DistilBERT is a distilled version of BERT that offers a smaller model size while maintaining competitive performance, making it suitable for resource-constrained environments.
 
-* ALBERT (A Lite BERT): ALBERT is designed to reduce the memory and computational requirements of BERT while achieving similar or better performance.
+* **ALBERT (A Lite BERT)**: ALBERT is designed to reduce the memory and computational requirements of BERT while achieving similar or better performance.
 
-* ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately): ELECTRA is an alternative to masked language modeling used in BERT, which focuses on predicting replaced tokens, resulting in faster training and similar performance.
+* **ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)**: ELECTRA is an alternative to masked language modeling used in BERT, which focuses on predicting replaced tokens, resulting in faster training and similar performance.
 
-* RobertaLarge: RobertaLarge is a larger variant of RoBERTa, offering higher performance on various NLP tasks at the cost of increased computational resources.
+* **RobertaLarge**: RobertaLarge is a larger variant of RoBERTa, offering higher performance on various NLP tasks at the cost of increased computational resources.
 
-* BART (BART is a pre-trained model designed for text generation and text-to-text tasks, including document summarization, text completion, and text classification.
+* **BART**: (BART is a pre-trained model designed for text generation and text-to-text tasks, including document summarization, text completion, and text classification.
 
-* CamemBERT: CamemBERT is a model trained specifically for French language processing, extending the capabilities of BERT to French text.
+* **CamemBERT**: CamemBERT is a model trained specifically for French language processing, extending the capabilities of BERT to French text.
 
-* XLM-R (Cross-lingual Language Model - RoBERTa): XLM-R is designed for cross-lingual applications, enabling text analysis and generation in multiple languages.
+* **XLM-R (Cross-lingual Language Model - RoBERTa)**: XLM-R is designed for cross-lingual applications, enabling text analysis and generation in multiple languages.

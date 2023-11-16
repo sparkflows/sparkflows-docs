@@ -47,6 +47,7 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
     ---
 
     :doc:`/user-guide/natural-language-processing/stanford-nlp`
+    
     Stanford NLP
 
 .. toctree::

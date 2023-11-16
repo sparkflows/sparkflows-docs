@@ -3,7 +3,7 @@ Stanford Core NLP
 
 Stanford CoreNLP provides a set of natural language analysis tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and word dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get quotes people said, etc.
 
-Sparkflows leveraged Stanford NLP to provide the below NLP capabilities:
+Sparkflows leverages Stanford NLP to provide the below NLP capabilities:
 
 * **Named Entity Recognizer**: Stanford NLP's Named Entity Recognizer can identify and classify entities such as names of people, organizations, and locations in text.
 
@@ -23,4 +23,10 @@ Sparkflows leveraged Stanford NLP to provide the below NLP capabilities:
 
 * **Coreference Resolution**: Coreference Resolution helps determine which words or phrases in text refer to the same entity, improving text understanding and analysis.
 
-More details of Stanford Core NLP can be found here : http://stanfordnlp.github.io/CoreNLP/
+More details of Stanford Core NLP can be found at `Stanford CoreNLP Documentation. <http://stanfordnlp.github.io/CoreNLP/>`_
+
+
+
+
+
+

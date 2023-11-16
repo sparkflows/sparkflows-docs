@@ -1,7 +1,7 @@
 August 31 2023 
 ==================================
 
-New Features:
+New Features
 --------------
 * Added support for visualization nodes enhancements.
 * Added a new column to failed records named exception_reason.
@@ -10,7 +10,7 @@ New Features:
 * Added a Gen-AI App.
 * Replaced a model with another better one for Sentiment Analysis.
 
-Improvements:
+Improvements
 --------------
 * Enhancements for data quality checks.
 * Improved code refactoring for GAI nodes.
@@ -29,7 +29,7 @@ Improvements:
 * Updated the Dockerfile with HPE path and fixed an issue with the Dockerfile for HPE environment.
 * Updated the Dockerfile for adding JARs and removed the access control origin header.
 
-Bug Fixes:
+Bug Fixes
 --------------
 * Fixed issue with the Execution Icon for all users.
 * Fixed issue with Trino JDBC Nodes.
@@ -57,7 +57,7 @@ Bug Fixes:
 * Fixed issue with report page view report.
 * Fixed issue for data quality page not redirecting to the workflow editor page.
 
-Documentation:
+Documentation
 --------------
 * Updated the Dockerfile and requirements.txt to run with Python 3.9.
 * Added max modal check to the README.

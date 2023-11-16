@@ -30,7 +30,7 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
 
     :doc:`/user-guide/natural-language-processing/spark-ml`
 
-    Spark ML for NLP.
+    Spark ML for NLP
 
     ---
 
@@ -47,7 +47,7 @@ Sparkflows provides a variety of NLP capabilities with different open-source pac
     ---
 
     :doc:`/user-guide/natural-language-processing/stanford-nlp`
-     Stanford NLP
+    Stanford NLP
 
 .. toctree::
    :hidden:

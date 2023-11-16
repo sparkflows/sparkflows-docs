@@ -31,4 +31,4 @@ Sparkflows provide the below features by leveraging Apache Spark libraries:
 
 * **TF-IDF (Term Frequency-Inverse Document Frequency)**: Sparkflows offers TF-IDF vectorization to represent the importance of words in a document relative to a collection of documents, commonly used in information retrieval and text analysis.
 
-* CountVectorizer: Sparkflows' CountVectorizer converts text documents into a matrix of token counts, facilitating the creation of feature vectors for machine learning tasks.
+* **CountVectorizer**: Sparkflows' CountVectorizer converts text documents into a matrix of token counts, facilitating the creation of feature vectors for machine learning tasks.

@@ -24,10 +24,7 @@ Improvements:
 * Updated styling and layout for better user experience.
 * Enhanced search functionality.
 * Added show more/less option for cards in dashboard page.
-* Prevented moving from the standard report page if enter key is pressed for an input item.
-* Fixed scroll and disabled radio button event issues.
 * Improved UI styling and consistency across various pages.
-* Serialization fix for single quote in fields in interactive mode.
 * Bubble chart now supports x and y labels.
 * Title color is now configurable.
 * Description color in Graph nodes can be customized.
@@ -38,6 +35,8 @@ Improvements:
 Bug Fixes:
 --------------
 * Fixed multiple UI flickering issues.
+* Prevented moving from the standard report page if enter key is pressed for an input item.
+* Fixed scroll and disabled radio button event issues.
 * Resolved issues with scrolling, alignment, and hover effects.
 * Fixed the issue with the select all functionality on the execution page.
 * Addressed null pointer exceptions and resolved error messages.
@@ -48,6 +47,7 @@ Bug Fixes:
 * Fixed alignment issues for various UI elements.
 * Fixed tooltip flickering issue on the execution page.
 * Snowflake fixes.
+* Serialization fix for single quote in fields in interactive mode.
 * Take care of longer texts while computing shap.
 
 Documentation:

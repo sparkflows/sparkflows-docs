@@ -80,7 +80,7 @@ Step 4 : Configure app.postMessageURL in Fire Insights
 
 Configure **app.postMessageURL** to be the IP of the machine on which Fire Insights is installed. 
 
-Jobs running on Databricks would post back results to the Fire Insights using this URL.
+Jobs running on Databricks would post back results to the Fire Insights using this URL, this can be added in Databricks connection, for detail see Step 6.
 
 .. figure:: ../../_assets/configuration/Fireui_postbackurl.PNG
    :alt: Postback URL

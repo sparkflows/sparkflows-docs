@@ -3,17 +3,14 @@ Open NLP
 
 The Apache OpenNLP library is a machine learning-based toolkit for the processing of natural language text. It supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also includes maximum entropy and perceptron-based machine learning.
 
-https://opennlp.apache.org/docs/2.3.0/manual/opennlp.html#intro.description
-
+Read `Apache OpenNLP Documentation <https://opennlp.apache.org/docs/2.3.0/manual/opennlp.html#intro.description>`_ for more details.
 
 It features an API for use cases like Named Entity Recognition, Sentence Detection, POS tagging and Tokenization.
 
 
-Documentation for a few processors in sparkflows:
+Read `Sparkflows OpenNLP Processors Documentation <https://docs.sparkflows.io/en/latest/processors/18-OpenNLP/>`_ to gather more details on a few processors in sparkflows:
 
-https://docs.sparkflows.io/en/latest/processors/18-OpenNLP/
-
-Sparkflows provides the elow NLP functionalities leveraging OpenNLP:
+Sparkflows provides the below NLP functionalities leveraging OpenNLP:
 
 * **Tokenization**: OpenNLP offers tokenization tools to split text into individual words or tokens, which is a fundamental step in many NLP tasks. Sparkflows leverages OpenNLP for tokenization within its NLP functionalities.
 

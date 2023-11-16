@@ -3,33 +3,33 @@ Hugging Face
 
 Sparkflows leverages Hugging Face Transformers to provide the mentioned NLP functionalities:
 
-* Tokenization: Hugging Face Transformers provides tokenization tools for splitting text into individual tokens, including subword tokenization for languages with complex word structures. Sparkflows leverages Hugging Face Transformers to enable tokenization within its NLP functionalities.
+* **Tokenization**: Hugging Face Transformers provides tokenization tools for splitting text into individual tokens, including subword tokenization for languages with complex word structures. Sparkflows leverages Hugging Face Transformers to enable tokenization within its NLP functionalities.
 
-* Pre-trained Models: Hugging Face offers a vast collection of pre-trained models for various NLP tasks. Sparkflows leverages Hugging Face Transformers to utilize these pre-trained models for tasks like text classification, named entity recognition (NER), text generation, and more.
+* **Pre-trained Models**: Hugging Face offers a vast collection of pre-trained models for various NLP tasks. Sparkflows leverages Hugging Face Transformers to utilize these pre-trained models for tasks like text classification, named entity recognition (NER), text generation, and more.
 
-* Text Classification: Sparkflows can fine-tune or use pre-trained models from Hugging Face Transformers for text classification tasks, such as sentiment analysis, topic categorization, and spam detection.
+* **Text Classification**: Sparkflows can fine-tune or use pre-trained models from Hugging Face Transformers for text classification tasks, such as sentiment analysis, topic categorization, and spam detection.
 
-* Named Entity Recognition (NER): Sparkflows can use Hugging Face Transformers' pre-trained models for NER tasks, making it easy to extract entities like names, dates, and locations from text.
+* **Named Entity Recognition (NER)**: Sparkflows can use Hugging Face Transformers' pre-trained models for NER tasks, making it easy to extract entities like names, dates, and locations from text.
 
-* Word Embeddings: Hugging Face's contextual word embeddings are available within Sparkflows, allowing users to capture semantic relationships between words in context for various NLP tasks.
+* **Word Embeddings**: Hugging Face's contextual word embeddings are available within Sparkflows, allowing users to capture semantic relationships between words in context for various NLP tasks.
 
-* Text Generation: Sparkflows can leverage Hugging Face Transformers to generate text using models like GPT-2 and GPT-3, which are capable of producing human-like text based on a given prompt.
+* **Text Generation**: Sparkflows can leverage Hugging Face Transformers to generate text using models like GPT-2 and GPT-3, which are capable of producing human-like text based on a given prompt.
 
-* Sequence-to-Sequence (Seq2Seq) Models: Hugging Face Transformers' Seq2Seq models are accessible within Sparkflows for tasks like machine translation, summarization, and question-answering.
+* **Sequence-to-Sequence (Seq2Seq) Models**: Hugging Face Transformers' Seq2Seq models are accessible within Sparkflows for tasks like machine translation, summarization, and question-answering.
 
-* Text Preprocessing: Sparkflows integrates Hugging Face Transformers' tools for text preprocessing, including sentence tokenization, cleaning, and handling special characters.
+* **Text Preprocessing**: Sparkflows integrates Hugging Face Transformers' tools for text preprocessing, including sentence tokenization, cleaning, and handling special characters.
 
-* Fine-Tuning: Sparkflows can leverage Hugging Face Transformers' pre-trained models and fine-tune them on domain-specific or task-specific data to improve performance on specific NLP tasks.
+* **Fine-Tuning**: Sparkflows can leverage Hugging Face Transformers' pre-trained models and fine-tune them on domain-specific or task-specific data to improve performance on specific NLP tasks.
 
-* Text Similarity: Sparkflows can measure text similarity and compute vector representations of text using Hugging Face Transformers' models for similarity-based applications.
+* **Text Similarity**: Sparkflows can measure text similarity and compute vector representations of text using Hugging Face Transformers' models for similarity-based applications.
 
-* Question-Answering: Hugging Face Transformers' question-answering models are available within Sparkflows for tasks where questions are answered based on a given context.
+* **Question-Answering**: Hugging Face Transformers' question-answering models are available within Sparkflows for tasks where questions are answered based on a given context.
 
-* Sentiment Analysis: Sparkflows can perform sentiment analysis using Hugging Face Transformers' models to determine the sentiment (positive, negative, or neutral) of text data.
+* **Sentiment Analysis**: Sparkflows can perform sentiment analysis using Hugging Face Transformers' models to determine the sentiment (positive, negative, or neutral) of text data.
 
-* Multi-Language Support: Sparkflows can utilize Hugging Face Transformers' pre-trained models for multiple languages, making it suitable for multilingual NLP tasks.
+* **Multi-Language Support**: Sparkflows can utilize Hugging Face Transformers' pre-trained models for multiple languages, making it suitable for multilingual NLP tasks.
 
-* Custom Pipelines: Sparkflows enables the creation of custom NLP pipelines by combining different Hugging Face Transformers components to build end-to-end NLP applications tailored to specific needs.
+* **Custom Pipelines**: Sparkflows enables the creation of custom NLP pipelines by combining different Hugging Face Transformers components to build end-to-end NLP applications tailored to specific needs.
 
 Popular NLP Models/Transformers
 --------------

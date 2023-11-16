@@ -29,6 +29,6 @@ Sparkflows provide the below features by leveraging Apache Spark libraries:
 
 * **NGrams**: Sparkflows supports the generation of N-grams, which are contiguous sequences of 'N' words from a text document, useful for capturing context and dependencies between words.
 
-* T**F-IDF (Term Frequency-Inverse Document Frequency)**: Sparkflows offers TF-IDF vectorization to represent the importance of words in a document relative to a collection of documents, commonly used in information retrieval and text analysis.
+* **TF-IDF (Term Frequency-Inverse Document Frequency)**: Sparkflows offers TF-IDF vectorization to represent the importance of words in a document relative to a collection of documents, commonly used in information retrieval and text analysis.
 
 * CountVectorizer: Sparkflows' CountVectorizer converts text documents into a matrix of token counts, facilitating the creation of feature vectors for machine learning tasks.

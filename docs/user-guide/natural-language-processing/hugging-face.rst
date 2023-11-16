@@ -1,4 +1,4 @@
-Hugging Face
+Hugging Face Transformers/Models
 ============
 
 Sparkflows leverages Hugging Face Transformers to provide the mentioned NLP functionalities:

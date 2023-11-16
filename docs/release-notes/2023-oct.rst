@@ -1,7 +1,7 @@
 October 30 2023 
 ==================================
 
-New Features:
+New Features
 --------------
 * Added support for Azure OpenAI integration.
 * Introduced MLflow support.
@@ -18,19 +18,17 @@ New Features:
 * Enabled the functionality to save pipelines to disk, offering users more control over their workflow management and execution.
 * Enhanced user roles page by adding a scroll feature for improved navigation and user management.
 
-Improvements:
+Improvements
 --------------
 * Introduced authentication support for MLOps server.
 * Enhanced the logic for promoting models between stages.
 * Improved field and variable names for model promotion.
 * Optimized code for computing drift on train and test data.
-* Updated requirements.txt with compatible versions.
 * Made Gen AI imports local to run HF workflows.
 * Added parameters for creating embeddings in nodes.
 * Exposed parameters for LangChain ChatOpenaiAPI.
 * Enhanced path appending issue fix on the save modal.
 * Removed the requirement for include tables as a mandatory field.
-* Took in access and secret key for the MLflow bucket from the Admin page.
 * Added a query method to query Faiss PKL files.
 * Added dependency of llama index for enhanced functionality.
 * Updated button colors to align with theme preferences, enhancing overall visual appeal and consistency.
@@ -40,7 +38,7 @@ Improvements:
 * Optimized the layout and spacing of elements for the Schedule DB backup feature, enhancing usability and aesthetic appeal.
 * Improved user groups table by enabling scrolling within the table body for easier data exploration and management.
 
-Bug Fixes:
+Bug Fixes
 --------------
 * Fixed headers and paragraphs formatting issue in description of nodes and workflows.
 * Addressed PySpark Graph Values and Scatter Chart node issues.
@@ -55,7 +53,7 @@ Bug Fixes:
 * Resolved alignment issues throughout the application, ensuring a seamless and visually appealing user experience.
 * Addressed Curve Line Chart issues, enhancing the visual representation of data for improved insights.
 
-Documentation:
+Documentation
 --------------
 * Updated README.md.
 * Made documentation updates for Gen AI features.

@@ -5,7 +5,7 @@ It is a good idea to run the below steps to ensure that the environment is set u
 
 Run the steps which are relevant for your environment.
 
-Java Version Check
+1. Java Version Check
 --------
 
 Problem
@@ -20,7 +20,7 @@ Run the below to verify:
   java --version 
 
 
-Python 3.7+ Setup Check
+2. Python 3.7+ Setup Check
 ------
 Problem
 +++++
@@ -33,7 +33,7 @@ Run the below to verify:
   python --version
 
 
-Internet Access Check
+3. Internet Access Check
 ---------------
 
 Problem
@@ -44,7 +44,7 @@ Solution
 +++++
 Ensure that the machine has access to the internet.
 
-Storage Availability Check
+4. Storage Availability Check
 -----------
 
 Problem
@@ -57,7 +57,7 @@ Use the below to check:
 ::
   du -sh * 
 
-Memory and vCPU Verification
+5. Memory and vCPU Verification
 ---------
 
 Problem
@@ -72,7 +72,7 @@ Use the below to check:
 
 .. Note:: It is recommended to have at least 16GB of RAM and 4+vCPU's on the machine.
 
-Fire-UI Process Check
+6. Fire-UI Process Check
 --------
 
 Problem
@@ -87,7 +87,7 @@ Verify with the below:
 
 .. Note:: fire-ui is the main webserver process.
 
-Fire Insights Ports Check
+7. Fire Insights Ports Check
 --------------
 
 Problem
@@ -100,7 +100,7 @@ Check the configured ports.
 
 .. note:: By default Fire Insights listens on 2 ports : 8080 and 8443.
 
-SparkPi Cluster Verification
+8. SparkPi Cluster Verification
 ----------
 
 Problem
@@ -116,7 +116,7 @@ Run SparkPi using the below:
 
   spark-submit ...
 
-Airflow Setup Check
+9. Airflow Setup Check
 --------
 
 Problem
@@ -145,7 +145,7 @@ DAG 3
 
 Use MACROS
 
-Kerberos Configuration Check
+10. Kerberos Configuration Check
 -----------
 
 Problem
@@ -166,7 +166,7 @@ Access HDFS with below:
 ::
   hdfs dfs -ls /tmp
 
-Logs Examination for Errors
+11. Logs Examination for Errors
 ------------
 
 Problem
@@ -185,7 +185,7 @@ Check there are no major errors in fire log file with below:
   grep -i exception fire.log
 
 
-HIVE Setup Verification
+12. HIVE Setup Verification
 ---------
 Problem
 ++++++
@@ -198,7 +198,7 @@ Log into HIVE via Beeline and confirm the ability to:
 * List databases and tables.
 * Execute queries on a specific table.
 
-Livy Configuration Check
+13. Livy Configuration Check
 --------------
 
 Problem
@@ -211,7 +211,7 @@ Check if SparkPi submission to Livy works good using the below:
 ::
   curl
 
-AWS S3 Access Check
+14. AWS S3 Access Check
 ----------
 
 Problem

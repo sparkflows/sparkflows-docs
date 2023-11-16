@@ -3,15 +3,15 @@ September 30 2023
 
 New Features
 --------------
-* Introduced a new node for checking the existence of a column in data sets, providing users with an additional data validation capability.
-* Implemented a new node for calculating the difference between dates in PySpark, enhancing the date manipulation capabilities of the platform.
-* Added a new node for numbering rows, enabling users to assign unique identifiers to rows in their data sets.
-* Introduced a new node for splitting paragraphs, facilitating text processing and analysis tasks.
+* Introduced a new node, ExpectColumnToExist, for checking the existence of a column in data sets, providing users with an additional data validation capability.
+* Implemented a new node, Date Difference, for calculating the difference between dates in PySpark, enhancing the date manipulation capabilities of the platform.
+* Added a new node for numbering rows, Row Numbering, enabling users to assign unique identifiers to rows in their data sets.
+* Introduced a new node, Paragraph Splitter, for splitting paragraphs, facilitating text processing and analysis tasks.
 * Expanded the functionality with a new node for graph region geospatial visualization in PySpark, empowering users with advanced geospatial data visualization capabilities.
-* Introduced a node for gauge graph representation in PySpark, enabling users to create gauge charts for data visualization.
+* Introduced a node, Gauge Chart, for gauge graph representation in PySpark, enabling users to create gauge charts for data visualization.
 * Enhanced the functionality of the output graph node by adding configurable attributes to customize graph outputs.
-* Introduced a new node for creating bar charts in PySpark, providing additional visualization options for data analysis and presentation.
-* Enhanced the platform with a new node for scatter chart visualization in PySpark, offering users the ability to create scatter plots for data exploration and analysis.
+* Introduced a new node, Bar Chart, for creating bar charts in PySpark, providing additional visualization options for data analysis and presentation.
+* Enhanced the platform with a new node, Scatter Chart, for scatter chart visualization in PySpark, offering users the ability to create scatter plots for data exploration and analysis.
 * Improved the functionality of the bubble chart node by addressing various issues and enhancing its feature set.
 * Implemented support for customization of colors in the histogram and boxplot nodes, offering users flexibility in visualizing data distributions.
 

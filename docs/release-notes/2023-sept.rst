@@ -1,7 +1,7 @@
 September 30 2023 
 ==================================
 
-New Features:
+New Features
 --------------
 * Introduced a new node for checking the existence of a column in data sets, providing users with an additional data validation capability.
 * Implemented a new node for calculating the difference between dates in PySpark, enhancing the date manipulation capabilities of the platform.
@@ -15,7 +15,7 @@ New Features:
 * Improved the functionality of the bubble chart node by addressing various issues and enhancing its feature set.
 * Implemented support for customization of colors in the histogram and boxplot nodes, offering users flexibility in visualizing data distributions.
 
-Improvements:
+Improvements
 --------------
 * Updated the platform with a feature to register H2O3 models in MLflow and expose them as REST endpoints, enhancing model management and deployment capabilities.
 * Upgraded the Spark dependency to version 3.3.1, ensuring compatibility and leveraging the latest features and optimizations.
@@ -24,7 +24,7 @@ Improvements:
 * Streamlined the visualization of outlier data points, flagging outliers for clearer insights.
 * Upgraded the platform to Spark 3.4.1, leveraging the latest enhancements and optimizations.
 
-Bug Fixes:
+Bug Fixes
 --------------
 * Resolved issues related to handling null values in parquet files and Oracle JDBC read, ensuring accurate and reliable data processing.
 * Fixed the resultType of node execution, addressing inconsistencies and ensuring proper execution and result handling.
@@ -35,7 +35,7 @@ Bug Fixes:
 * Addressed compatibility issues in web scraping and faiss embeddings JSON, ensuring smooth and reliable data extraction and feature representation.
 * Resolved scrolling issues and UI bugs in various pages, providing a more stable and consistent user interface experience.
 
-Documentation:
+Documentation
 --------------
 * Improved JSON configurations for various nodes, providing comprehensive and detailed information for node configuration and usage.
 * Updated and added documentation for new node features and improvements, ensuring users have access to up-to-date and thorough documentation.

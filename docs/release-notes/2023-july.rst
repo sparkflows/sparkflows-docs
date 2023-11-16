@@ -1,7 +1,7 @@
 July 31 2023 
 ==================================
 
-New Features:
+New Features
 --------------
 * Added sorting option for selected column in node.
 * Added color changes for widget.
@@ -15,7 +15,7 @@ New Features:
 * Added Tone Analysis Node.
 * Added Summarization Node.
 
-Improvements:
+Improvements
 --------------
 * Standardized band colors for all palettes.
 * Updated color and size for graph labels.
@@ -32,7 +32,7 @@ Improvements:
 * Added new fields and APIs for generative AI integration.
 * Longer texts are now handled properly while computing shap.
 
-Bug Fixes:
+Bug Fixes
 --------------
 * Fixed multiple UI flickering issues.
 * Prevented moving from the standard report page if enter key is pressed for an input item.
@@ -50,7 +50,7 @@ Bug Fixes:
 * Serialization fix for single quote in fields in interactive mode.
 * Take care of longer texts while computing shap.
 
-Documentation:
+Documentation
 --------------
 * Updated the Dockerfile for Jenkins.
 * Added description and details for new feature enhancements.

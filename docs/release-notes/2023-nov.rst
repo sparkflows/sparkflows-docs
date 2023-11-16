@@ -1,7 +1,7 @@
 November 15 2023
 ===========
 
-New Features:
+New Features
 --------
 - Added PDF Summary Node.
 - Added structured output by parsing results.
@@ -12,7 +12,7 @@ New Features:
 - Added support for reading PDF files and Text files.
 - Updated Sagemaker UI.
 
-Improvements:
+Improvements
 ------
 - Code changes for refreshing schema and sample data for Postgres connection as dataset.
 - Improved code for updating DQ dataset dropdown list after clone, delete, or import datasets.
@@ -20,7 +20,7 @@ Improvements:
 - Updated look and feel for buttons on multiple pages.
 - Hid the sort icons for HDFS popup when no data is present and blocked the sort API call in such cases.
 
-Bug Fixes:
+Bug Fixes
 --------
 - Resolved SSL issues with DB connection.
 - Fixed chart configuration tab issues.
@@ -35,7 +35,7 @@ Bug Fixes:
 - Fixed the issue with the select dataset button when no dataset is present for DQ.
 - Fixed the issue with the delete web app from the card view.
 
-Documentation:
+Documentation
 ---------
 - Updated the README for Python dependency install.
 - Added PyPDF and docx2txt to requirements.

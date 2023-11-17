@@ -1,14 +1,24 @@
 Upgrade
 =======
 
-Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+This document segment addresses common challenges encountered by our users during Upgradation process and provides effective resolutions for each issue.
 
-After I upgrade to the latest Fire Release I get the error : ``Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION`` or something similar.
+1. Getting Missing Column Error
+------------
 
-After upgrading the Fire Server, it is important to ``upgrade the Database Schema``.
+**Problem**
+++++++++
 
-* Upgrade it by running ``create-h2-db.sh`` or ``create-mysql-db.sh`` from the Fire install directory.
+After I upgrade to the latest Fire Release, I get the following or similar error : 
+
+**Missing column: application_id in FIREDB.PUBLIC.ANALYSIS_FLOW_EXECUTION**.
+
+**Solution**
+++++++++
+
+After upgrading the Fire Server, it is important to upgrade the Database Schema.
+
+* Upgrade it by running **create-h2-db.sh** or **create-mysql-db.sh** from the Fire install directory.
 * This would upgrade your DB schema to the latest.
 
 Otherwise you can run into an error like below, when you start the Fire Server::

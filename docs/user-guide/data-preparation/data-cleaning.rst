@@ -45,9 +45,9 @@ It does the following processing of data:
 *	Changes String values to Title case, removes blank spaces from data, and replaces Null values in columns with Spaces or 0. 
 * 	Output data is printed using the Print node.
 
-**Data Cleansing Node Sample workflow**
+**Data Cleansing Node Sample Workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-workflow.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing-wf.png
    :alt: datacleaning_userguide
    :width: 75%
    

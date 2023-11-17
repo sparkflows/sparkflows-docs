@@ -13,7 +13,7 @@ This document segment addresses common challenges encountered by our users in co
 
 **fireserver.log** is displays the following error message: 
 
-**Database is Read Onl**
+**Database is Read Only**
 
 **Solution**
 +++++++
@@ -33,7 +33,10 @@ Make sure that the user with which Fire Insights is running has write access to 
 
 **Solution**
 +++++++
-Log into H2 DB and run **SHUTDOWN COMPACT**
+Log into H2 DB and run the below:
+::
+
+ SHUTDOWN COMPACT 
 
 .. Note:: H2 DB commands can be found at the below location:
 

@@ -1,27 +1,41 @@
 H2 Database
 ===========
 
-Cheatsheet for H2 DB commands is at : https://docs.sparkflows.io/en/latest/commands/h2-db.html
+This document segment addresses common challenges encountered by our users in connection with H2 Database and provides effective resolutions for each the issues.
 
 
 
-Database is Read Only
+1. Database is Read Only
 ---------------------
 
-``fireserver.log`` is showing 'Database is Read Only`
+**Problem**
++++++++
 
-H2 DB data is stored in the file firedb.mv.
+**fireserver.log** is displays the following error message: 
+
+**Database is Read Onl**
+
+**Solution**
++++++++
+
+H2 DB data is stored in the file **firedb.mv**.
 
 Make sure that the user with which Fire Insights is running has write access to the file.
 
-H2 Database looks corrupted
+2. H2 Database Looks Corrupted
 ---------------------------
 
-``fireserver.log`` is displaying error messages like 'could not read from position...`
+**Problem**
++++++++++
+**fireserver.log** is displays the following error message: 
 
-Log into H2 DB and run ``SHUTDOWN COMPACT`` 
+**Could not read from position...**
 
-H2 DB commands can be found at the below location:
+**Solution**
++++++++
+Log into H2 DB and run **SHUTDOWN COMPACT**
 
-https://docs.sparkflows.io/en/latest/commands/h2-db.html
+.. Note:: H2 DB commands can be found at the below location:
+
+ `H2DB Commands Cheatsheet <https://docs.sparkflows.io/en/latest/commands/h2-db.html>`_
 

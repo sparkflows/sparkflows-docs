@@ -17,6 +17,6 @@ Below are the steps for running Fire server on a different port:
     - In the Fire UI, under Administration/Configuration update the below property with the right port number:
         - app.postMessageURL
     - Restart Fire server using one of the commands below depending on the environment (Unix/Linux or Windows)
-      - run-fire-server.sh start
-      - run-fire-server.bat
+       - run-fire-server.sh start
+       - run-fire-server.bat
 

@@ -2,7 +2,7 @@ Fire Notebook
 ==========
 This document explains in detail the steps to effectively use Fire Notebook, a robust platform for executing code in the EMR environment using Livy.
 
-.. Note:: Make sure there is a livy connection for executing the notebook code in EMR environment using Livy.
+.. Note:: Make sure there is a Livy connection for executing the notebook code in EMR environment using Livy.
 
 Step 1: Enable Notebook Editor
 ----------

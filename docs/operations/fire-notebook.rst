@@ -1,5 +1,6 @@
 Fire Notebook
 ==========
+This document explains in detail the steps to effectively use Fire Notebook, a robust platform for executing code in the EMR environment using Livy.
 
 .. Note:: Make sure there is a livy connection for executing the notebook code in EMR environment using Livy.
 
@@ -32,14 +33,14 @@ Step 2 : Create and Execute Notebook
 #. Input the **name** of the notebook and select engine type as either **Scala** or **PySpark**.
 #. Select **Livy connection** that will be used to execute scala or pyspark code to execute in the EMR environment.
 
-   .. figure:: ../../../_assets/operating/fire-notebook/s3-location.png
+   .. figure:: ../_assets/operating/fire-notebook/s3-location.png
       :alt: operating-fire-notebook
       :width: 60%
 #. Write **Code** in editor and click on **Execute icon** to execute.
 
 Step 3 : View Results
 ------------
-#. Results are displayed in the result section. To fetch the latest result from livy server: 
+#. Results are displayed in the result section. To fetch the latest result from livy server :
 
    Click on the **Refresh icon** that is in the right top corner of the result section.
 
@@ -51,23 +52,17 @@ Step 4 : Save, Download or Copy Code
 
 Step 5 : Close the Notebook Editor
 -------------
-Click on **Close icon (x)** located in top corner to close the editor.
+#. Click on **Close icon (x)** located in top corner to close the editor.
 
 Executions Section
 ------------
 The Execution tab contains all the executions of the notebook executed by the user.
 
-**View Log**
-++++
-Click on **File icon** to see the log of execution.
+#. **View Log**: Click on **File icon** to see the log of execution.
 
-**Refresh State**
-++++
-Click on **Refresh icon** to update the state of execution and see the state.
+#. **Refresh State**: Click on **Refresh icon** to update the state of execution and see the state.
 
-**Delete**
-++++++++
-Click on **Delete icon** to delete the execution.
+#. **Delete**: Click on **Delete icon** to delete the execution.
 
    
 

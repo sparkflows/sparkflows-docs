@@ -44,6 +44,10 @@ Operations
     :doc:`/operations/jupyter`
     
     ---
+
+    :doc:`/operations/fire-notebook`
+
+    ---
     
     :doc:`/operations/installing-tesseract`
     
@@ -73,6 +77,7 @@ Operations
    performance.rst
    dashboard-installing-jdbc-drivers.rst
    jupyter.rst
+   fire-notebook.rst
    installing-tesseract.rst
    opennlp.rst
    scalability.rst

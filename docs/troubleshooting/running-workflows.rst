@@ -5,13 +5,14 @@ Running Workflows
 Getting Exception : 'User: ec2-user is not allowed to impersonate ec2-user
 --------------------------------------------------------------------------
 
-Sparkflows impersonates the logged in user when submitting the jobs onto the Cluster.
+Sparkflows impersonates the logged in user when submitting the jobs onto the Spark Cluster.
 
 So, the user with which Sparkflows is running has to be configured on HDFS as a proxy user.
 
-Details for allowing the sparkflows user to impersonate other users is available at:
+Details for allowing the sparkflows user to impersonate other users can be updated in spark-submit connection:
 
-* :doc:`../installation/configuration/connecting-spark-cluster`
+https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/spark-submit.html
+
 
 
 When running the workflows on my Spark Cluster, results are not showing up in the Browser

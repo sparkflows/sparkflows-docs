@@ -67,7 +67,45 @@ Copy Keystore to Installation Directory
 .. Note::  When the keystore is updated, the password has also to be updated in case it changes. 
 
            The Fire web server would also have to be restarted for the changes to take effect.
-           
+
+Update Keystore Password
+----------------------------
+
+Update keystore.properties to udpdate the password of the new keystore.jks file::
+
+    keystore.password=123456
+
+Configuring Port Number
+-----------
+
+Fire by default listens on port 8443 for HTTPS.
+
+This is configured in the file ``conf/application.properties``::
+
+  #Configure http and https port numbers : Default 8080 for http and 8443 for https
+  http.port=8080
+  https.port=8443
+
+Restart Fire Server
+-------------------------------
+
+Finally, restart the Fire server for the changes to take effect::
+
+  ./run-fire-server.sh stop
+  ./run-fire-server.sh start
+
+
+Configuring with PFX file
+-------------------------
+
+* Place the PFX file into the conf folder.
+* Edit keystore.properties to update the field keystore.path and keystore.password
+* Edit sso.saml.properties to update the field server.keystore.location, server.keystore.alias, server.keystore.password
+
+* Run the below command to get the certificate details::
+  
+  ./run-fire-server.sh stop
+  ./run-fire-server.sh start           
 
 Use Keytool Commands
 --------------------

@@ -14,6 +14,8 @@ Imputing Processors in Fire Insights
 
    * - Title
      - Description
+   * - Impute Advanced
+     - It imputes missing value as per strategy defined for the selected columns. A particular data in the dataset can be replaced with Mean, Median or Mode value. It can also be configured to replace missing values with a constant. Strategy can be defined for multiple columns in single go.
    * - Imputing With Constant
      - It imputes missing value with a constant value. It fills missing values (None) in selected columns with a given constant value for the corresponding column, in the incoming        DataFrame.
    * - Imputing With Mean Value
@@ -22,6 +24,54 @@ Imputing Processors in Fire Insights
      - Imputing with missing value with median value. It fills missing values (None) in selected columns with a median value in the corresponding column, in the incoming                 DataFrame.
    * - Imputing With Mode Value
      - Imputing with the most frequently observed value. It fills missing values (None) in selected columns with the most frequently observed value in the corresponding column, in       the incoming DataFrame.
+
+ 
+Impute Advanced
+----------------------------------------
+
+Below is a sample workflow which contains Impute Advanced processor in Fire Insights. It demonstrates the usage of Impute Advanced node to replace missing values with constant values as per strategy defined for the selected columns. A particular data in the dataset can be replaced with Mean, Median or Mode value. It can also be configured to replace missing values with a constant. Strategy can be defined for multiple columns in single go.
+
+It does the following processing of data:
+
+*	Reads incoming dataset.
+*  Replaces a value in the incoming dataset with mean value.
+*	Replaces missing values with constant values using Impute Advanced node.
+*	Prints output dataset containing replaced values using the Print node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeadv-workflow.png
+   :alt: imputing_userguide
+   :width: 75%
+   
+**Incoming Dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeadv-incoming-dataset.png
+   :alt: imputing_userguide
+   :width: 75%
+
+**Impute Advanced Node Configuration**
+
+Impute Advanced node is configured as below.
+
+*	Input of this node is the incoming dataset.
+*	Each row in the ``Variables List`` specifies imputing details for each columns.
+*	Column in which missing values need to be replaced with Constant value or a particular value to be replaced with either Mean/Median/Mode value is to be selected in ``Columns`` list.
+*  ``Impute Strategy`` needs to be selected. It can have either Constant/Mean/Median/Mode value.
+*  Enter a value in ``Replace Value`` box. If Strategy has been selected as Mean/Median/Mode then entered value in the column would be replaced as per the selected Strategy. 
+*	Constant value that needs to be used to replace missing value is to be entered in ``Constants`` box. It would be used if Strategy has been selected as ``Constant``.
+*	Additional rows need to be added for each imputing requirement.
+*	Output of this node would display transformed values.
+
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeadv-config.png
+   :alt: imputing_userguide
+   :width: 75%
+   
+**Impute Advanced Node Output**
+
+Output of Impute Advanced node displaying transformed values.
+
+.. figure:: ../../_assets/user-guide/data-preparation/imputing/imputeadv-printnode-output.png
+   :alt: imputing_userguide
+   :width: 75%       	    
 
  
 Imputing With Constant
@@ -62,12 +112,13 @@ Imputing With Constant node is configured as below.
    
 **Imputing With Constant Node Output**
 
-Output of Imputing With Constan node displaying misssing values replaced with Constant values.
+Output of Imputing With Constant node displaying misssing values replaced with Constant values.
 
 .. figure:: ../../_assets/user-guide/data-preparation/imputing/impute-constant-output.png
    :alt: imputing_userguide
    :width: 75%       	    
-   
+
+
 Imputing With Mean Value
 ----------------------------------------
 

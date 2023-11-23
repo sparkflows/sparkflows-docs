@@ -16,6 +16,8 @@ Data Cleaning Processors in Fire Insights
      - Description
    * - Data Cleansing
      - This node cleans incoming dataset by removing null rows, columns, by replacing missing values and by changing cases of the string data.
+   * - Drop Null Rows For Selected Columns
+     - This node deletes rows having null values in the selected columns.
    * - Drop Rows With Null
      - This node creates a new DataFrame by dropping rows that contain null values.
    * - Find And Replace Using Regex
@@ -87,6 +89,50 @@ Output of Data Cleansing node which displays modified values is shown below:
 
 
 
+Drop Null Rows For Selected Columns
+----------------------------------------
+
+Below is a sample workflow which contains Drop Null Rows For Selected Columns processor in Fire Insights. It demonstrates the usage of Drop Null Rows For Selected Columns node to remove rows having null value in the selected columns.
+
+It does the following processing of data:
+
+*	Reads incoming dataset.
+*	Remove rows from the incoming dataset having Null value in the selected columns using Drop Null Rows For Selected Columns processor. 
+* 	Output data is printed using the Print node.
+
+**Drop Null Rows For Selected Columns Node Sample workflow**
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropnullrowsselcols-workflow.png
+   :alt: datacleaning_userguide
+   :width: 75%
+   
+**Incoming Dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropnullrowsselcols-incoming-dataset.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+**Drop Null Rows For Selected Columns Node configuration**
+
+Drop Null Rows For Selected Columns node is configured as below.
+
+*	Input of this node is the incoming dataset.
+*  Multiple columns can be selected in which null value check would be performed and rows would be removed accordingly. 
+*	Output of this node would contain rows that don't have null values in the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropnullrowsselcols-config.png
+   :alt: datacleaning_userguide
+   :width: 75%
+   
+**Drop Null Rows For Selected Columns Node output**
+
+Output of Drop Null Rows For Selected Columns node which displays rows that don't have null values in the selected columns is shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/dropnullrowsselcols-output.png
+   :alt: datacleaning_userguide
+   :width: 75% 
+
+
 Drop Rows With Null
 ----------------------------------------
 
@@ -128,7 +174,7 @@ Output of Drop Rows With Null node which displays rows that don't have null valu
 .. figure:: ../../_assets/user-guide/data-preparation/datacleaning/DropNullOutput.png
    :alt: datacleaning_userguide
    :width: 75% 
-   
+
    
 Find And Replace Using Regex
 ----------------------------------------

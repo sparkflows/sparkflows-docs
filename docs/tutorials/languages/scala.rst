@@ -8,7 +8,7 @@ The Scala node does the below:
   * Receives an input DataFrame.
   * Passes the input DataFrame to the Scala code as a variable called `inDF`.
   * The scala code written operated on the DataFrame `inDF`.
-  * Finally the scala code produces a resulting DataFrame to be passed on to the next node. It does so by registering a temporary table called `outDF`.
+  * Finally the scala code produces a resulting DataFrame to be passed on to the next node. It does so by registering a temporary table in registerTempTable. Add the temptable name in the `OUTPUT TEMP TABLE` field.
 
 Below are a few code examples in Scala.
 

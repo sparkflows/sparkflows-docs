@@ -12,7 +12,7 @@ This document describes the detailed steps involved in the multiple ways to read
 1. Use of Read CSV Node
 -------------------
 
-Step 1 : Create Workflow and Configure the Read CSV Node
+**Step 1 : Create Workflow and Configure the Read CSV Node**
 ++++++++++
 
 #. Create a workflow using a **Read CSV** node. For more details, read `Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/user-guide/quick-start/4-create-workflow.html>`_
@@ -28,7 +28,7 @@ Step 1 : Create Workflow and Configure the Read CSV Node
 #. Click on **Refresh Schema** button to update the schema.
 #. After successful refresh, click on the **Okay** button to save the configuration settings.
 
-Step 2 : Save and Execute the Workflow
+**Step 2 : Save and Execute the Workflow**
 +++++++++
 
 #. Give a name to your workflow and click on the **Save** button.
@@ -40,7 +40,7 @@ Step 2 : Save and Execute the Workflow
 2. Use of Read Databricks Table Node
 -------------
 
-Step 1 : Create an unmanaged Databricks Table on the CSV File
+**Step 1 : Create an unmanaged Databricks Table on the CSV File**
 ++++++++++++++++++
 
 #. The command given below shows an example of creating an unmanaged Databricks Table on the CSV file.
@@ -49,7 +49,7 @@ Step 1 : Create an unmanaged Databricks Table on the CSV File
 
        CREATE TABLE `housing` ( `id` INT, `price` DOUBLE, `lotsize` INT, `bedrooms` INT, `bathrms` INT, `stories` INT, `driveway` STRING, `recroom` STRING, `fullbase` STRING, `gashw` STRING, `airco` STRING, `garagepl` STRING, `prefarea` STRING) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/sample-data/data/housing.csv' ) 
 
-Step 2 : Create Workflow and Configure Read Databricks Table Node
+**Step 2 : Create Workflow and Configure Read Databricks Table Node**
 ++++++++++++++
 
 #. Create a workflow utilizing a **Read Databricks Table** node. For more details, read `Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/user-guide/quick-start/4-create-workflow.html>`_
@@ -63,7 +63,7 @@ Step 2 : Create Workflow and Configure Read Databricks Table Node
 #. Open the configuration window by double-clicking on the node.
 #. Specify the table from which data is to be read and click on the **Okay** button.
 
-Step 3 : Save and Execute the Workflow
+**Step 3 : Save and Execute the Workflow**
 ++++++++++++++++++
 
 #. Give a name to your workflow and click on the **Save** button.
@@ -75,7 +75,7 @@ Step 3 : Save and Execute the Workflow
 ---------------
 Fire Insights supports the concept of Datasets. Dataset is the definition of the data it represents. This way the Dataset can be defined just once and used in multiple workflows.
 
-Step 1 : Create Dataset
+**Step 1 : Create Dataset**
 ++++++++++++
 
 #. Create a dataset in Fire Insights on the CSV file in DBFS
@@ -88,7 +88,7 @@ Step 1 : Create Dataset
       :alt: Databricks
       :width: 60%
 
-Step 2 : Utilize the Dataset in Workflow
+**Step 2 : Utilize the Dataset in Workflow**
 +++++++++++++
 
 #. Create a workflow using the dataset created in the above step.
@@ -101,7 +101,7 @@ Step 2 : Utilize the Dataset in Workflow
       :alt: Databricks
       :width: 60%   
 
-Step 3 : Save and Execute the Workflow
+**Step 3 : Save and Execute the Workflow**
 +++++++++++++++++
 #. Give a name to your workflow and click on the **Save** button.
 #. Now, click on the **Execute** button to execute the workflow. 

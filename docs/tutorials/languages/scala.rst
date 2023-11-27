@@ -56,3 +56,19 @@ Lag function
     val windowSpec  = Window.partitionBy("C4").orderBy("C6")
     val outDF = inDF.withColumn("lag_7",lag("sell_price",7).over(windowSpec))
     outDF.registerTempTable("outDF")
+
+Columns in StructType
+======================
+Code to get the columns 0 and 1 in the probability column.
+
+::
+
+    import org.apache.spark.sql.functions._
+    val outDF = inDF.select(col("*"), col("probability.0").as("probability_0"), col("probability.1").as("probability_1"))
+    outDF.registerTempTable("outDF")
+
+    .. figure:: ../../_assets/tutorials/languages/scala/scala.png
+       :alt: Scala Node
+       :width: 60%
+
+    

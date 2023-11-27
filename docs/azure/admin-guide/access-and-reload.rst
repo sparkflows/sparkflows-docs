@@ -6,7 +6,7 @@ Access Sparkflows and Create Users
 ---------------------
 Follow the steps given below:
 
-#. Obtain the public IP or DNS of your Azure instance from the Azure Console -> Instances.
+#. Obtain the public IP or DNS of your Azure instance from the Azure Console -> Virtual machines.
 
 #. Open a web browser and enter the following URL: http://sparkflows_IP:8080, 
 

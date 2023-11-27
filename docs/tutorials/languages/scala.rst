@@ -59,7 +59,7 @@ Lag function
 
 Columns in StructType
 ======================
-Code to get the columns 0 and 1 in the probability column.
+Code to get the columns 0 and 1 in the probability column which is StructType.
 
 ::
 

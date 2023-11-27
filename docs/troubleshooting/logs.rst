@@ -9,6 +9,13 @@ Read `Sparkflows Documentation <https://docs.sparkflows.io/en/latest/operations/
 
 View Logs
 -------
+
+**Problem**
++++++
+How to view logs in Fire Insights?
+
+**Solution**
++++++
 As a User, you can view the logs while running any workflow as shown below.
 
 .. figure:: ../_assets/operating/operations/logs_wf.PNG

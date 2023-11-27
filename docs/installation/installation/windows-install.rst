@@ -134,8 +134,7 @@ Installation Steps of Fire Insights with H2 DB
 
 * Download the fire tgz file from:
 
-  * https://www.sparkflows.io/download  OR   
-  * https://www.sparkflows.io/archives
+  * https://www.sparkflows.io/download
   
   
 * Unpack the downloaded tgz file. Below are some tools which can be used for it::

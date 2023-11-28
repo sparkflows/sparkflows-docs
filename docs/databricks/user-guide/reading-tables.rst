@@ -28,10 +28,9 @@ Step 2 : Configure Processor
    * DATABRICKS DATABASE : Click on **BROWSE STUDIO DB** and select specified database.
    * DATABRICKS TABLE : Click on **BROWSE STUDIO TABLE** and select specified Table.
 
-
-      .. figure:: ../../_assets/configuration/databricks-editor.PNG
-         :alt: Databricks
-         :width: 80%
+     .. figure:: ../../_assets/configuration/databricks-editor.PNG
+        :alt: Databricks
+        :width: 80%
 #. Refresh schema for Read Databricks Table processor.
 
    * Click on **Refresh Schema** button to view schema and click **Okay** button.

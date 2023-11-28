@@ -3,7 +3,7 @@ Read Databricks Tables
 
 Fire Insights enables users to read from and write to Databricks tables by using the Read Databricks Table processor.
 
-This document explains the detailed steps required to read Databricks Tables in Fire Insights.
+This document explains the detailed steps required to read Databricks Tables.
 
 Step 1 : Create Workflow 
 ----------------------

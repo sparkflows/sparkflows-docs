@@ -11,7 +11,7 @@ Step 1 : Open Databricks DB Page
 ------------------
 To open the page:
 
-#. Click on **Data** tab from the top menu bar.
+#. Hover the cursor over **DATA** tab from the top menu bar.
 #. Select **Databricks DB** from the drop-down menu.
 
    The Databricks DB page will look like below:

@@ -1,7 +1,9 @@
 Browse Databricks Tables
 ===========================
 
-Fire Insights allows you to browse your Databricks databases & tables. This document explains in detail the steps required to browse Databricks databases and tables. 
+Fire Insights allows you to browse your Databricks databases & tables. 
+
+This document explains the detailed steps required to browse Databricks databases and tables. 
 
 Follow the steps given below in order to gather more information about using this feature.
 

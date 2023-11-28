@@ -57,10 +57,12 @@ Step 3 : Execute Workflow
         :width: 90%
    
 
-.. Note:: File Formats:
+.. Note:: 
 
-* The tables can be saved into CSV, JSON, Parquet and ORC file formats.
-* If the file format is not specified, the data in tables is stored in Parquet format.
+  File Formats: 
+  
+  * The tables can be saved into CSV, JSON, Parquet and ORC file formats.
+  * If the file format is not specified, the data in tables is stored in Parquet format.
 
 
 

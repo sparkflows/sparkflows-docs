@@ -9,7 +9,7 @@ There are multiple ways to read and process CSV files in Fire Insights.
 
 This document describes the detailed steps involved in the multiple ways to read and process CSV files.
 
-1. Use of Read CSV Node
+Use of Read CSV Node
 -------------------
 
 **Step 1 : Create Workflow and Configure the Read CSV Node**
@@ -37,7 +37,7 @@ This document describes the detailed steps involved in the multiple ways to read
    For more details, read `Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/user-guide/quick-start/5-execute-workflow.html>`_ 
 
     
-2. Use of Read Databricks Table Node
+Use of Read Databricks Table Node
 -------------
 
 **Step 1 : Create an unmanaged Databricks Table on the CSV File**
@@ -71,7 +71,7 @@ This document describes the detailed steps involved in the multiple ways to read
 
    For more details, read `Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/user-guide/quick-start/5-execute-workflow.html>`_ 
 
-3. Use of Dataset Created in Fire Insights on the CSV File
+Use of Dataset Created in Fire Insights on the CSV File
 ---------------
 Fire Insights supports the concept of Datasets. Dataset is the definition of the data it represents. This way the Dataset can be defined just once and used in multiple workflows.
 

@@ -7,7 +7,7 @@ Fire Insights allows you to browse your Data in S3 and create workflows using th
 
 You can also create external tables in Databricks over data in S3. Fire Insights can process data from Databricks tables.
 
-To get more details, read `Databricks Documnetation. <https://docs.databricks.com/_static/notebooks/data-import/s3.html>`_
+To get more details, read `Databricks Documentation. <https://docs.databricks.com/_static/notebooks/data-import/s3.html>`_
 
 
 Access S3 Buckets from Databricks

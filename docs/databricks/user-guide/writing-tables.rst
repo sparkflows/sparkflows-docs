@@ -19,7 +19,7 @@ Step 1 : Create Workflow
 
    * Below is a workflow which writes data to the Databricks table **default**.
 
-     .. figure:: ../../_assets/configuration/savedatabricks_workflow.PNG
+     .. figure:: ../../_assets/configuration/save-dbtable-wf.png
         :alt: Databricks
         :width: 60%
 

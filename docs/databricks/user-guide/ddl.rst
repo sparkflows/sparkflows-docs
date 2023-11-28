@@ -1,23 +1,31 @@
 Run DDL Commands
 ===========================
 
-Fire Insights allows you to run DDL commands on Databricks.
-
-With this, one can:
+Fire Insights allows you to run DDL commands on Databricks to perform various actions like:
 
   - Create New Databases
   - Create New Tables
   - View the schema of the tables
   - And much more
 
-Go to DATABROWSERS or Databricks DB. Then, click on DDL.
+This document explains the essential steps required to run DDL Commands. 
 
-For detailed information, please visit the link given below:
+Step 1 : Get Access to Run Commands
+----------------
 
-https://docs.databricks.com/spark/latest/spark-sql/language-manual/create-table.html
+To be able to run DDL commands:
 
-Below are examples to run DDL
---------------------------------
+#. Hover the cursor over **DATA** and select **Databricks DB** from the drop-down menu. 
+#. Click on **DDL**.
+
+To get detailed information, read `Databricks Documentation. <https://docs.databricks.com/spark/latest/spark-sql/language-manual/create-table.html>`_
+
+
+Step 2 : Run DDL Commands
+----------------------
+
+Below are few examples to run DDL:
+
 
 Create Database
 +++++++++++++++++
@@ -41,25 +49,25 @@ Create Table
 
     CREATE TABLE `bike_sharing_sample_dataset` (`datetime` STRING, `season` INT, `holiday` INT, `workingday` INT, `weather` INT, `temp` DOUBLE, `atemp` DOUBLE, `humidity` INT, `windspeed` DOUBLE, `casual` INT, `registered` INT, `count` INT) USING com.databricks.spark.csv OPTIONS ( `multiLine` 'false', `escape` '"', `header` 'true', `delimiter` ',', path 'dbfs:/FileStore/sample-data/bike_sharing_sample_dataset.csv' )
 
+Change Data Location
++++++++++
 
-Location of the data could be changed to S3 location.
+* Location of the data could be changed to S3 location.
 
-.. figure:: ../../_assets/configuration/databricks-create-table.PNG
-   :alt: Databricks
-   :width: 80%
+  .. figure:: ../../_assets/configuration/databricks-create-table.PNG
+     :alt: Databricks
+     :width: 60%
    
-
-
 Run SQL
 +++++++++++
 
 * Select SQL Statement::
 
-    select count(*) as count  from employee;
+      select count(*) as count  from employee;
 
-.. figure:: ../../_assets/configuration/sql-statement1.PNG
-   :alt: Databricks
-   :width: 80%
+  .. figure:: ../../_assets/configuration/sql-statement1.PNG
+     :alt: Databricks
+     :width: 60%
    
 
 
@@ -70,14 +78,12 @@ Sample Data:
 
     select * from employee;
     
-By default, the first 100 rows of data are displayed.
+  By default, the first 100 rows of data are displayed.
 
-.. figure:: ../../_assets/configuration/sql-statement2.PNG
-   :alt: Databricks
-   :width: 80%
+  .. figure:: ../../_assets/configuration/sql-statement2.PNG
+     :alt: Databricks
+     :width: 60%
    
- 
- 
 Drop Table
 ++++++++++
 
@@ -85,7 +91,7 @@ Drop Table
 
     drop table employee;
 
-.. figure:: ../../_assets/configuration/sql-statement3.PNG
-   :alt: Databricks
-   :width: 80%
+  .. figure:: ../../_assets/configuration/sql-statement3.PNG
+     :alt: Databricks
+     :width: 80%
 

@@ -26,15 +26,15 @@ Use of Read CSV Node
 #. Open the configuration window by double-clicking on the node.
 #. Enter the path of the file, which can either be the CSV file itself or a folder containing many CSV files of the same schema.
 
-.. figure:: ../../_assets/databricks/wf_csv.PNG
-       :alt: Databricks
-       :width: 60%
+   .. figure:: ../../_assets/databricks/wf_csv.PNG
+      :alt: Databricks
+      :width: 60%
 
 #. Click on **Refresh Schema** button to update the schema.
 
-.. figure:: ../../_assets/databricks/wf_csv_schema.PNG
-       :alt: Databricks
-       :width: 60%
+   .. figure:: ../../_assets/databricks/wf_csv_schema.PNG
+      :alt: Databricks
+      :width: 60%
 
 #. After successful refresh, click on the **Okay** button to save the configuration settings.
 

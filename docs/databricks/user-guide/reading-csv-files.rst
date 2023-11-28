@@ -66,12 +66,21 @@ Use of Read Databricks Table Node
    
    The workflow given below uses the Read Databricks Table Node to read in the data from the Databricks table created above.
 
-   .. figure:: ../../_assets/databricks/databrick_table.PNG
+.. figure:: ../../_assets/databricks/databricks_wf.PNG
       :alt: Databricks
       :width: 60%
 
 #. Open the configuration window by double-clicking on the node.
+
+.. figure:: ../../_assets/databricks/databricks_conf.PNG
+      :alt: Databricks
+      :width: 60%
+
 #. Specify the table from which data is to be read and click on the **Okay** button.
+
+.. figure:: ../../_assets/databricks/databricks_schema.PNG
+      :alt: Databricks
+      :width: 60%
 
 **Step 3 : Save and Execute the Workflow**
 ++++++++++++++++++

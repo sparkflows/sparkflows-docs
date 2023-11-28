@@ -19,13 +19,23 @@ Use of Read CSV Node
    
    The workflow  given below has a Read CSV node which reads CSV files from DBFS and processes them.
 
-   .. figure:: ../../_assets/databricks/csv_file.PNG
+   .. figure:: ../../_assets/databricks/wf_details.PNG
        :alt: Databricks
        :width: 60%
 
 #. Open the configuration window by double-clicking on the node.
 #. Enter the path of the file, which can either be the CSV file itself or a folder containing many CSV files of the same schema.
+
+.. figure:: ../../_assets/databricks/wf_csv.PNG
+       :alt: Databricks
+       :width: 60%
+
 #. Click on **Refresh Schema** button to update the schema.
+
+.. figure:: ../../_assets/databricks/wf_csv_schema.PNG
+       :alt: Databricks
+       :width: 60%
+
 #. After successful refresh, click on the **Okay** button to save the configuration settings.
 
 **Step 2 : Save and Execute the Workflow**

@@ -1,57 +1,61 @@
 Read Databricks Tables
 ======================
 
-Fire Insights enables you to read from and write to Databricks tables.
+Fire Insights enables users to read from and write to Databricks tables by using the Read Databricks Table processor.
 
-Below is a workflow which reads data from the Databricks table ``xyz``. It then processes the data and prints some sample results.
+This document explains the detailed steps required to read Databricks Tables in Fire Insights.
+
+Step 1 : Create Workflow 
+----------------------
+#. Create a workflow with following processors:
+
+   * **Read Databricks Table**: Use this processor to read tables from Databricks.
+   * **Other Processors**: Use the other processors available in Fire for processing the data read from the Databricks table.
+
+   **Example Workflow:**
+
+   * Below is an example workflow which reads data from the Databricks table **xyz**. It then processes the data and prints some sample results.
+
+     .. figure:: ../../_assets/configuration/databricks-workflow.png
+        :alt: Databricks
+        :width: 60%
+
+Step 2 : Configure Processor
+-----------------
+
+#. Configure the **Read Databricks Table** processor as below:
+
+   * DATABRICKS DATABASE : Click on **BROWSE STUDIO DB** and select specified database.
+   * DATABRICKS TABLE : Click on **BROWSE STUDIO TABLE** and select specified Table.
 
 
-Read Databricks Table in Workflow
-------------------------------------------
+      .. figure:: ../../_assets/configuration/databricks-editor.PNG
+         :alt: Databricks
+         :width: 80%
+#. Refresh schema for Read Databricks Table processor.
 
-In the workflow, use the processor **ReadDatabricksTable**. It will allow you to read tables from Databricks.
+   * Click on **Refresh Schema** button to view schema and click **Okay** button.
 
-Then, use the other processors in Fire for processing the data read from the Databricks Table.
+     .. figure:: ../../_assets/configuration/databricks-refreshschema.PNG
+        :alt: Databricks
+        :width: 60% 
 
-Workflow
-++++++++
+#. View processor executions for Read Databricks Table.
 
-.. figure:: ../../_assets/configuration/workflow_databricks.PNG
-   :alt: Databricks
-   :width: 60%
+   * Click on the **play button** to view executions as below:
+     
+     .. figure:: ../../_assets/configuration/databrcks-interactiveexecutions.PNG
+        :alt: Databricks
+        :width: 60%
 
-Processor Configurations for ReadDatabricksTable
-++++++++
+Step 3 : Execute Workflow
+-----------------------
+#. To view the output, click on **Execute** button.
 
-* DATABRICKS DATABASE : Click on BROWSE STUDIO DB and select specified database.
-* DATABRICKS TABLE : Click on BROWSE STUDIO TABLE and select specified Table.
+   * Below is the output of executing the above workflow which reads data from a Databricks table.
 
-
-.. figure:: ../../_assets/configuration/databricks-editor.PNG
-   :alt: Databricks
-   :width: 80%
-
-Refresh Schema for Processor ReadDatabricksTable
-++++++++
- 
-.. figure:: ../../_assets/configuration/databricks-refreshschema.PNG
-   :alt: Databricks
-   :width: 80% 
-
-Processor Executions for ReadDatabricksTable
-++++++++
-
-.. figure:: ../../_assets/configuration/databrcks-interactiveexecutions.PNG
-   :alt: Databricks
-   :width: 80%
-
-Databricks Workflow Execution
-++++++++
-
-Below is the output of executing the above workflow which reads data from a Databricks table.
-
-.. figure:: ../../_assets/configuration/databricks-workflowexecutions.PNG
-   :alt: Databricks
-   :width: 80%
+     .. figure:: ../../_assets/configuration/databricks-workflowexecutions.PNG
+        :alt: Databricks
+        :width: 60%
    
    

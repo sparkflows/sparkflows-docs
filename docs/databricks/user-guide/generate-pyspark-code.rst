@@ -20,7 +20,7 @@ Step 2 : Enable Auto Pyspark Code Generation
 
    **Note:** 'module.enableAutoPysparkCodeGeneration' is initially set to false by default.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_wf.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
       :alt: Pyspark code generate
       :width: 60%
 
@@ -29,7 +29,7 @@ Step 3 : Generate Pyspark Code
 
 #. Once the Configuration gets enabled for Generating Pyspark Code, create a sample workflow using Spark engine and save it.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/2.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_wf.PNG
       :alt: Pyspark code generate
       :width: 60%
    

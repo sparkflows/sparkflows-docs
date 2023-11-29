@@ -20,7 +20,7 @@ Step 2 : Enable Auto Pyspark Code Generation
 
    **Note:** 'module.enableAutoPysparkCodeGeneration' is initially set to false by default.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_wf.PNG
       :alt: Pyspark code generate
       :width: 60%
 
@@ -35,13 +35,13 @@ Step 3 : Generate Pyspark Code
    
 #. Once the workflow gets saved, go to **Workflow Editor** page, click on the **three dots** on the top right corner of workflow editor page, and select **Generate Pyspark Code**.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/3.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_generate.PNG
       :alt: Pyspark code generate
       :width: 60%
 
 #. Once you select the option of Generate Pyspark Code, a window will open with Pyspark sample code for the sample workflow, **copy** it and **save** it into **.py** file.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/4.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_code.PNG
       :alt: Pyspark code generate
       :width: 70%
 

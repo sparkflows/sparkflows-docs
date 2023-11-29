@@ -28,5 +28,5 @@ Possible causes are:
 
     curl https://<alb-host>/ -v
     
-  .. note::  Make sure to change the alb-host to your domain name of load balancer.    
+  .. note::  Make sure to replace 'alb-host' with your load balancer's domain name.
 

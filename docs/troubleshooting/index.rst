@@ -79,14 +79,20 @@ Below are steps for troubleshooting some of the common issues.
     
     Steps to troubleshoot GitHub  
     
-     ---
+    ---
     
     :doc:`/troubleshooting/pipelines`
     
     Steps to troubleshoot Pipelines
     
     ---
+
+    :doc:`/troubleshooting/airflow`
+
+    Steps to troubleshoot Airflow
     
+    ---
+   
     :doc:`/troubleshooting/websockets`
     
     Steps to troubleshoot WebSockets

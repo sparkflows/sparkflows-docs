@@ -26,7 +26,7 @@ Workflow
 ++++++++
 Below is a workflow which reads data from S3:
 
-.. figure:: ../../_assets/configuration/s3-csv1.PNG
+.. figure:: ../../_assets/configuration/s3_wf.PNG
    :alt: Databricks
    :width: 60%
 
@@ -37,7 +37,7 @@ Processor Configuration
 
 Browse S3 Path and Refresh Schema for ReadCSV Processor :
 
-.. figure:: ../../_assets/configuration/workflow-browse-s3.PNG
+.. figure:: ../../_assets/configuration/s3_schema.PNG
    :alt: Databricks
    :width: 60% 
 
@@ -47,7 +47,7 @@ Workflow Execution Results
 
 Execution results would look like below:
 
-.. figure:: ../../_assets/configuration/workflow-executions-s3.PNG
+.. figure:: ../../_assets/configuration/s3_execute.PNG
    :alt: Databricks
    :width: 60%
 

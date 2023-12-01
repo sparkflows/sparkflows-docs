@@ -13,7 +13,7 @@ This document explains some of the common issues and corresponding resolutions r
 
 When the user uses a self-signed certificate in the browser, it complains that the certificate is not trusted.
 
-Solution
+**Solution**
 +++++
 
 - Check if certificate configured is certified by CA.
@@ -27,7 +27,7 @@ Solution
 
 When user Try to access on **https** in browser, it shows a page not found error.
 
-Solution
+**Solution**
 +++++
 
 - Check if **https** port **443** is open and accessible.

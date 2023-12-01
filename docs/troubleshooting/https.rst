@@ -25,7 +25,7 @@ When the user uses a self-signed certificate in the browser, it complains that t
 **Problem**
 +++++
 
-When user Try to access on **https** in browser, it shows a page not found error.
+When user tries to access on **https** in browser, it shows a page not found error.
 
 **Solution**
 +++++

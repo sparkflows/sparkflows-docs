@@ -1,7 +1,7 @@
 Scheduler
 ============
 
-This document explains some of the common issues and corresponding resolutions.
+This document explains some of the common issues and corresponding resolutions related to Scheduler.
 
 1. Pipeline Trigger Delay Due to Concurrent Scheduling
 ------------------------

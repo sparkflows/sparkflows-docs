@@ -1,32 +1,34 @@
 HTTPS
 =============
 
-Fire Insights can be Configured with HTTPS, by default it come up with self signed certificate, User can configured customized certificate (CA).
+Fire Insights can be configured with HTTPS. By default, it comes up with self signed certificate. User gets the option to configure customized certificate (CA).
 
-Certificate is not Trusted
+This document explains some of the common issues and corresponding resolutions related to certificates.
+
+1. Certificate is not Trusted
 -----
 
-Problem
+**Problem**
 +++++
 
-When the user use self signed certificate, on Browser it complains that Certificate is not Trusted.
+When the user uses a self-signed certificate in the browser, it complains that the certificate is not trusted.
 
 Solution
 +++++
 
-- Check if certificate configured is certified by CA
+- Check if certificate configured is certified by CA.
 - You can trust the local certificate, so that error will disappear.
 
-Not Able to Access on HTTPS
+2. Not Able to Access on HTTPS
 ------------
 
-Problem
+**Problem**
 +++++
 
-When user Try to access on ``https` in Browser, its not complaining page not found.
+When user Try to access on **https** in browser, it shows a page not found error.
 
 Solution
 +++++
 
-- Check if `https` port ``443`` is open and accessible.
-- Make sure to validate ``application.properties`` file and see if what would be expected port which is configured for ``https``
+- Check if **https** port **443** is open and accessible.
+- Make sure to validate **application.properties** file and see if what would be expected port which is configured for **https**.

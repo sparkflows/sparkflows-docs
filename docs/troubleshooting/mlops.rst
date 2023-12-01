@@ -13,7 +13,7 @@ Getting Exception : 'TypeError: _send_request() takes 5 positional arguments but
 **Solution**
 ++++++++
 
-* Upgrade boto3 on Sparkflows machine and the MLflow machine: ::
+Upgrade boto3 on Sparkflows machine and the MLflow machine: ::
 
-   pip install --upgrade boto3
+ pip install --upgrade boto3
 

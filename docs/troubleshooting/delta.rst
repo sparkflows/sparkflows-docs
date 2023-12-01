@@ -16,6 +16,6 @@ Failed to find the 'delta' data source when running the job on the EMR cluster, 
 
 Make sure to copy appropriate Delta JAR and pass it on livy connection with comma separated in Fire JAR. 
 
-.. note:: You can check version support from below page:
+.. note:: You can check version support from the official `Delta Documentation. <https://docs.delta.io/latest/releases.html>`_
 
-           https://docs.delta.io/latest/releases.html
+           

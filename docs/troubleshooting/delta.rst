@@ -3,6 +3,9 @@ Delta Files
 
 This document explains some of the common issues and corresponding resolutions related to Delta Files.
 
+1. EMR Cluster Job Failure: Unable to Locate 'delta' Data Source
+-------------------------------------
+
 **Problem**
 ++++++
 

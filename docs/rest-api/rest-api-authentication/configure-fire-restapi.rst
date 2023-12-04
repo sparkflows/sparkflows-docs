@@ -21,10 +21,11 @@ Once the above parameter is being updated in ``application.properties``, Restart
 Now you will be able to access Fire Insights REST API's.
 
 
-Note: If above properties are not updated in application.properties, below error message will be recevied.
+.. note:: If above properties are not updated in application.properties, below error message will be recevied.
 
+::
 
-{
+    {
     "error": "invalid_token",
     "error_description": "Invalid access token"
-}
+    }

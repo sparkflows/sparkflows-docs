@@ -7,7 +7,7 @@ Workflow
 --------
 Below is an example workflow that writes data to S3. When the workflow is executed, the DataFrame is saved to the S3 location.
 
-  .. figure:: ../../_assets/aws/workflow_csvs3.PNG
+  .. figure:: ../../_assets/aws/s3_wf_write.PNG
      :alt: S3 Workflow
      :width: 60%
 

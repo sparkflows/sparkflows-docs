@@ -21,7 +21,7 @@ Browse S3 specified Path & other parameters for processor **SaveCSV** as given b
 * SAVE MODE : Select Append, Overwrite, ErrorIfExists, or Ignore.
 * HEADER : Select true or false depending on the file type.
 
-  .. figure:: ../../_assets/aws/configurations3_save.PNG
+  .. figure:: ../../_assets/aws/s3_wf_config.PNG
      :alt: S3 Workflow 
      :width: 60%
 
@@ -36,6 +36,6 @@ Access Data
 ---------
 Once the above workflow  gets successfully completed, the data saved can be viewed using **DATA/AWS S3** location with the specified path.
 
-  .. figure:: ../../_assets/aws/browse_s3.PNG
+  .. figure:: ../../_assets/aws/s3_data.PNG
      :alt: S3 Workflow
      :width: 60%

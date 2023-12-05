@@ -28,7 +28,7 @@ Browse S3 specified Path & other parameters for processor **SaveCSV** as given b
 Execution Result
 --------
 
-  .. figure:: ../../_assets/aws/save_execution.PNG
+  .. figure:: ../../_assets/aws/s3_save.PNG
      :alt: S3 Workflow
      :width: 60%
 

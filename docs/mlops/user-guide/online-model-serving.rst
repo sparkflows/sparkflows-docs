@@ -1,6 +1,5 @@
 Online Model Serving
 ==========
-
 Online serving can be performed in any one of the following ways:
 
 As Sparkflows Score Workflow

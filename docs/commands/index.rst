@@ -62,6 +62,12 @@ Commands Cheatsheet
     
     Delta Files Cheatsheet
 
+   ---
+    
+    :doc:`/commands/windows`
+    
+    Windows Commands Cheatsheet
+
 .. toctree::
    :hidden:
 
@@ -75,5 +81,6 @@ Commands Cheatsheet
    aws.rst
    postgres.rst
    delta.rst
+   windows.rst
 
    

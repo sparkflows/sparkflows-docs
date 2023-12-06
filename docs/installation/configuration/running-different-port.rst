@@ -14,7 +14,7 @@ Below are the steps for running Fire server on a different port:
         - Configure http and https port numbers: Default 8080 for http and 8443 for https
         - http.port=8080
         - https.port=8443
-    - In the Fire UI, under Administration/Configuration update the below property with the right port number:
+    - In the Fire UI, under Administration/Configuration update the below property with the right port number, as default port is updated to 8080:
         - app.postMessageURL
     - Restart Fire server using one of the commands below depending on the environment (Unix/Linux or Windows)
        - run-fire-server.sh start

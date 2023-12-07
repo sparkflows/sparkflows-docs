@@ -40,7 +40,7 @@ We need to Ensure that Endpoint services being used for postback url, it should 
    :width: 80%   
 
 
-Also you need to Ensure that Endpoint services being used for postback url, it should have Enable cross-zone load balancing, else it will show communication error.
+Also you need to Ensure that Endpoint services being used for postback url, it should have Enable cross-zone load balancing used for Fire Insight application, else it will show communication error.
 
 .. figure:: ../_assets/operating/operations/cross_zone.PNG
    :alt: operations

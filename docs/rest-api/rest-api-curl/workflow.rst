@@ -522,7 +522,7 @@ Gets count of the workflows in the given application.
 An example request for getting count of the Workflow::
 
 
-   curl -X GET --header 'Accept: application/json' 'http://hostname:port/api/v1/workflows/count' -b /tmp/cookies.txt
+   curl -X GET --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMzM3NTQyODY2MSwiaWF0IjoxNzAxNjY4NTc2fQ.YSoEU5w5r4BO2yVVmSRU9NHvk_NwctR43GLG_P52pdG4OTLzlQIhkUL0Y1yBHBny6YZTf9ztVlwY7Bjkyhqjjj' --header 'Accept: application/json'  'https://fire.dev.com/api/v1/workflows/count' --insecure
    
 An example response:
 

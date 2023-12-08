@@ -7,18 +7,26 @@ GCP User Guide
 
     :doc:`/gcp/user-guide/reading-bigquery`
 
-    Reading Big Query.
+    Reading from Big Query
     
     ---
 
     :doc:`/gcp/user-guide/writing-bigquery`
 
-    Writing To Big Query.
+    Writing too Big Query
 
     ---
 
-     :doc:`/gcp/user-guide/reading-gcs`
+    :doc:`/gcp/user-guide/reading-gcs`
 
-    Reading gcs.
+    Reading from GCS
+
+.. toctree::
+   :hidden:
+
+   reading-bigquery.rst
+   writing-bigquery.rst
+   reading-gcs.rst
+
 
    

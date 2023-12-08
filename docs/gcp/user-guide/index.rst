@@ -13,7 +13,7 @@ GCP User Guide
 
     :doc:`/gcp/user-guide/writing-bigquery`
 
-    Writing too Big Query
+    Writing to Big Query
 
     ---
 

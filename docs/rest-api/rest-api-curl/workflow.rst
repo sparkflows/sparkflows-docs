@@ -105,7 +105,7 @@ An example request for Executing specified workflow:
 
 ::
    
-   curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+   curl -X POST --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMzM3NTQyODY2MSwiaWF0IjoxNzAxNjY4NTc2fQ.YSoEU5w5r4BO2yVVmSRU9NHvk_NwctR43GLG_P52pdG4OTLzlQIhkUL0Y1yBHBny6YZTf9ztVlwY7Bjkyhqjjj' --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
   "emailOnFailure": "string",
   "emailOnSuccess": "string",
   "libJars": "string",
@@ -130,7 +130,7 @@ An example request for updating workflow:
 
 ::
  
-   curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+   curl -X PUT --header 'token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcwMzM3NTQyODY2MSwiaWF0IjoxNzAxNjY4NTc2fQ.YSoEU5w5r4BO2yVVmSRU9NHvk_NwctR43GLG_P52pdG4OTLzlQIhkUL0Y1yBHBny6YZTf9ztVlwY7Bjkyhqjjj' --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
   "analysisflowId": 1,
   "comment": "string",
   "projectId": 33,

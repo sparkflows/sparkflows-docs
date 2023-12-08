@@ -9,10 +9,15 @@ GCP Admin Guide
 
     Prerequisites for GCP integration.
     
-    ----
+    ---
     
     :doc:`/gcp/admin-guide/admin_configuration`
 
     Configurations for GCP integration.
 
     
+.. toctree::
+   :hidden:
+
+    gcp-prerequisites.rst
+    admin_configuration.rst

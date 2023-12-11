@@ -50,7 +50,7 @@ Dataproc Connection details can be specified in Global Connections. To add:
       :alt: GCP Configuration Details
       :width: 60%
 
-#. Specify the location of **Fire Core jar**, **Project Id**, **Region**, **Dataproc Clucter name**, **Main Class**  in the Dataproc tab.
+#. Specify the **location of Fire Core JAR**, **Project Id**, **Region**, **Dataproc Cluster name**, **Main Class**  in the Dataproc tab.
  
    .. figure:: ../../_assets/gcp/dataproc_configurations.PNG
       :alt: GCP Configuration Details

@@ -18,6 +18,6 @@ GCP Admin Guide
     
 .. toctree::
    :hidden:
-
-    gcp-prerequisites.rst
-    admin_configuration.rst
+   
+   gcp-prerequisites.rst
+   admin_configuration.rst

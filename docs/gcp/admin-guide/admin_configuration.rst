@@ -56,4 +56,4 @@ Dataproc Connection details can be specified in Global Connections. To add:
       :alt: GCP Configuration Details
       :width: 60%
 
-#. **Save** the connection. Once saved, you can use this connection to submit Jobs, View BigQuery and Browse Google Storage.
+#. **Save** the connection. Once saved, you can use this connection to submit Jobs, view BigQuery and browse Google Storage.

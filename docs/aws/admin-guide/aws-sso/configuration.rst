@@ -1,6 +1,7 @@
 
 Configuration Steps
 ===========
+This document provides a comprehensive guide for configuring AWS Single Sign-On (SSO) to streamline access management.
 
 Below are the configuration steps to configure AWS SSO:
 

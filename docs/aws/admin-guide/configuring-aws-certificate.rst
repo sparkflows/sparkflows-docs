@@ -16,7 +16,7 @@ This document describes the steps needed to configure HTTPS. Below is a brief ou
 #. Create a Record and Map to the Load Balancer
 #. Login to Access Fire Insights Application
 
-Step 1 : Pre-requisite
+Step 1 : Pre-requisites
 --------
 
 You need to have the following before stepping into the process of configuration :

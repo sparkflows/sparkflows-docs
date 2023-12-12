@@ -46,10 +46,10 @@ Step 3 : Add Custom SAML 2.0 Application
 
    ::
 
-      Application ACS URL : The Assertion Consumer Service (ACS) URL is used to identify the location from where the service provider accepts SAML assertions.
-      Application SAML audience: Application SAML URL
+        Application ACS URL : The Assertion Consumer Service (ACS) URL is used to identify the location from where the service provider accepts SAML assertions.
+        Application SAML audience: Application SAML URL
 
-      .. figure:: ../../../_assets/configuration/aws-sso/aws_acs.PNG
-         :alt: aws sso
-         :width: 60%    
+   .. figure:: ../../../_assets/configuration/aws-sso/aws_acs.PNG
+      :alt: aws sso
+      :width: 60%    
 

@@ -4,20 +4,21 @@ Cross-account access in AWS refers to the ability for an AWS user or role in one
 
 Below we outline how to manage this in Sparkflows.
 
-If a Sparkflows instance on ``ECS/EC2/EMR`` and AWS ``S3`` are in two different accounts, then a cross-account role is required for the Sparkflows instance to access the ``S3`` and the other resources in different accounts. The way to grant access to a bucket is to allow an account to assume a role in another account.
+If a Sparkflows instance on ECS/EC2/EMR and AWS S3 are in two different accounts, then a cross-account role is required for the Sparkflows instance to access the S3 and the other resources in different accounts. The way to grant access to a bucket is to allow an account to assume a role in another account.
 
-Consider AWS Account A with account ID ``deployment-acct-id`` and AWS Account B with account ID ``bucket-owner-acct-id``. Account A has a Sparkflows instance running and Account B has a bucket ``s3-bucket-name``.
+Consider AWS Account A with account ID 'deployment-acct-id' and AWS Account B with account ID 'bucket-owner-acct-id'. Account A has a Sparkflows instance running and Account B has a bucket 's3-bucket-name'.
 
-The steps to configure Account A to use the AWS AssumeRole action to access S3 files in ``s3-bucket-name`` as a role in Account B. To enable this access you perform configuration in Account A and Account B and add the role in Sparkflows.
+Below are the steps to configure Account A to use the AWS AssumeRole action to access S3 files in s3-bucket-name as a role in Account B. To enable this access you perform configuration in Account A and Account B and add the role in Sparkflows.
 
-**1. In Account A, create role MyRoleA and attach policies**
-
-1. Create a role named ``MyRoleA`` in ``Account A``. The Instance Profile ARN is::
+Step 1 : Create Role in Account A 
+---------------------------
+Create a role named **MyRoleA** in **Account A** and attach policies. The Instance Profile ARN is::
 
     arn:aws:iam::<deployment-acct-id>:instance-profile/MyRoleA.
 
-
-2. Create a policy that says that a role in ``Account A`` can assume ``MyRoleB`` in ``Account B``. Attach it to ``MyRoleA``. Click add inline policy and paste in the policy::
+Step 2 : Create Policy in Account A
+------------------------
+Create a policy that says that a role in 'Account A' can assume 'MyRoleB' in 'Account B'. Attach it to MyRoleA. Click **add inline policy** and paste below in the policy::
 
 
     {
@@ -36,8 +37,9 @@ The steps to configure Account A to use the AWS AssumeRole action to access S3 f
       ]
     }
 
-
-3. Update the policy by adding the below statement for ``Account A`` role used to run the Sparkflows on EC2/EMR/ECS, adding the ``iam:PassRole action to MyRoleA``::
+Step 3 : Update the Policy
+-----------------
+Update the policy by adding the below statement for 'Account A role' used to run the Sparkflows on EC2/EMR/ECS, adding the **iam:PassRole action to MyRoleA**::
 
 
     {
@@ -49,14 +51,18 @@ The steps to configure Account A to use the AWS AssumeRole action to access S3 f
      }
 
 
-**2. In Account B, create role MyRoleB and attach policies**
-
-1. Create a role named ``MyRoleB``. The Role ARN is::
+Step 4 : Create Role in Account B
+------------------------------
+Create a role named **MyRoleB** in Account B and attach policies. The Role ARN is::
 
     arn:aws:iam::<bucket-owner-acct-id>:role/MyRoleB.
 
 
-2. Edit the trust relationship of role ``MyRoleB`` to allow a role ``MyRoleA`` in ``Account A`` to assume a role in ``Account B``. Select IAM > Roles > MyRoleB > Trust relationships > Edit trust relationship and enter::
+Step 5 : Edit Trust Relationship of 'MyRoleB'
+----------------------------------------
+Edit the trust relationship of role 'MyRoleB' to allow a role 'MyRoleA' in 'Account A' to assume a role in 'Account B'. 
+
+Select **IAM > Roles > MyRoleB > Trust relationships > Edit trust relationship** and enter::
     
     {
       "Version": "2012-10-17",
@@ -72,7 +78,10 @@ The steps to configure Account A to use the AWS AssumeRole action to access S3 f
         }
       ]
     }
-3. Create a bucket policy for the bucket ``s3-bucket-name``. Select S3 > ``s3-bucket-name`` > Permissions > Bucket Policy. Include the role (Principal) ``MyRoleB`` in the bucket policy::
+
+Step 6 : Create Bucket Policy
+-----------------
+Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucket-name > Permissions > Bucket Policy**. Include the role (Principal) 'MyRoleB' in the bucket policy::
 
     {
       "Version": "2012-10-17",
@@ -108,7 +117,9 @@ The steps to configure Account A to use the AWS AssumeRole action to access S3 f
       ]
     }
 
-**3. Add MyRoleA to the Sparkflows user group**
+Step 7 : Add 'MyRoleA' to Sparkflows User Group
+------------------
+Add 'MyRoleA' to the Sparkflows user group.
 
- Now, from the Sparkflows users in the group can access the S3 resources in another account i.e.  ``Account B``.
+Now from the Sparkflows, users in the group can access the S3 resources in another account i.e. 'Account B'.
 

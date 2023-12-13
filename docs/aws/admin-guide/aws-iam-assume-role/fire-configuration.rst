@@ -18,29 +18,33 @@ Step 2 : Go to Configurations Page
 
 Step 3 : Update Parameters
 ---------------
-#. Update the below parameters as per the AWS configurations:
+#. Update the below parameters as per the AWS configurations::
 
-   .. list-table:: 
-      :widths: 10 20 30
-      :header-rows: 1
+For AWS tab
+++++
 
-      * - Title
-        - Description
-        - Value
-      * - Enable AWS
-        - Enable AWS for accessing the AWS S3 buckets
-        - true
-      * - Enable AssumeRole
-        - Enable AWS Assume Role to access AWS Resources
-        - true
-      * - Home Dir
-        - Home Directory Path on S3 
-        - s3a://bucketName/sampleData 
-      * - AWS Region
-        - As per resource in the region
-        - Input the aws region
 
-    .. figure:: ../../../_assets/aws/iam-assume-role/aws_configurations.PNG
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Enable AWS
+     - Enable AWS for accessing the AWS S3 buckets
+     - true
+   * - Enable AssumeRole
+     - Enable AWS Assume Role to access AWS Resources
+     - true
+   * - Home Dir
+     - Home Directory Path on S3 
+     - s3a://bucketName/sampleData 
+   * - AWS Region
+     - As per resource in the region
+     - Input the aws region
+
+.. figure:: ../../../_assets/aws/iam-assume-role/assume_role_enabled.PNG
        :alt: aws
        :width: 60%
 
@@ -53,7 +57,7 @@ Step 4 : Create/Update Group in Fire Insights
        arn:aws:iam::<account-1-id>:role/assume-role-bucket1
     
     
-   .. figure:: ../../../_assets/aws/iam-assume-role/assume_role_arn.PNG
+   .. figure:: ../../../_assets/aws/iam-assume-role/assume_role_group.PNG
       :alt: aws
       :width: 60%
 
@@ -63,7 +67,7 @@ Step 5 : Access S3 Bucket
 --------------
 #. Go to **DATA > AWS S3**, you will see the S3 Bucket listed as below. Now, you can use it for creating workflow in the Node.
 
-   .. figure:: ../../../_assets/aws/iam-assume-role/aws_s3_lists.PNG
+   .. figure:: ../../../_assets/aws/iam-assume-role/assume_role_s3.PNG
       :alt: aws
       :width: 60%
 

@@ -41,14 +41,14 @@ Ports
 
 * With this CFT and **deploy-fire-h2.sh**, when Fire comes up, it would be listening on ports 8085 and 8086.
 
-Download Files and Upload to your S3 Bucket
+Step 1 : Download Files and Upload to your S3 Bucket
 ----------------------------------------------
 
 * Download CFT **emr-fire-h2.json** from the above link.
 * Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket.
 
 
-Update CloudFormation Template based on your Environment
+Step 2 : Update CloudFormation Template based on your Environment
 ---------------------------------------------------------
 
 Update the CFT **emr-fire-h2.json** according to your requirement and environment in which you are deploying.
@@ -88,127 +88,116 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
     Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
 
-Steps to Create EMR Cluster and Deploy Fire
+Step 3 : Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-* **AWS web Console -> Management tools -> CloudFormation**:
-
-  * Click on **Create Stack**.
+#. Navigate to AWS web Console -> Management tools -> CloudFormation and click on **Create Stack**.
+#. On **Select Template Page**:
   
-* Next page is **Select Template**:
-
-  * Select the radio-button **Upload a template to Amazon S3**.
-  * Select the updated **emr-fire-h2.json** from your system.
-  * Click Next.
+   * Select the radio-button **Upload a template to Amazon S3**.
+   * Select the updated **emr-fire-h2.json** from your system.
+   * Click **Next** to navigate to the **Specify Details Page**.
   
-* Next page is **Specify Details**:
+#. On **Specify Details Page**:
 
-  * Enter CloudFormation stack name.
- 
- 
-.. list-table:: Update Parameters where needed
-   :widths: 10 40
-   :header-rows: 1
+   * Enter the **CloudFormation stack name** and 
+   * Update parameters as below where needed:
 
-   * - Name of Parameter
-     - Description
-   * - AdditionalSecurityGroups
-     - From the list, choose the additional secuirty group, it's required as default EMR security group's ports are not opened for SSH, Fire etc.
-   * - AmiId
-     - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI.
-   * - ClusterName
-     - Name for EMR Cluster.
-   * - CoreInstanceType
-     - Provide the required instance type for core nodes, default instance type is m4.xlarge.
-   * - CoreNodes
-     - Choose the required number of core nodes, by default it’s 2.
-   * - EmrVersion
-     - Choose the required EMR version, it should be above EMR v.5.8.x.
-   * - Environment
-     - By default dev.
-   * - FireVersion
-     - Enter the required version of Fire.
-   * - KeyName
-     - Enter the valid PEM key name to connect to EMR nodes.
-   * - MasterInstanceType
-     - Provide the required instance type for master nodes, default instance type is m4.xlarge.
-   * - MasterNodes
-     - By default, it is 1. 
-   * - Owner
-     - Provide the name of a team or person creating the cluster.
-   * - ReleaseVersion
-     - Enter the required ReleaseVersion, it has to match with fire version.
-   * - S3Bucket
-     - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire-h2.sh and script-runner.jar are uploaded.
-   * - Subnet
-     - Provide the proper subnet name, which has sufficient resources to create EMR cluster. 
-   * - TaskInstanceType
-     - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge.
-   * - TaskNodes
-     -  Optional, required only if you want to create the cluster with tasknodes. By default zero, enter the required number of nodes.
+     .. list-table:: 
+        :widths: 10 40
+        :header-rows: 1
+
+        * - Name of Parameter
+          - Description
+        * - AdditionalSecurityGroups
+          - From the list, choose the additional secuirty group, it's required as default EMR security group's ports are not opened for SSH, Fire etc.
+        * - AmiId
+          - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI.
+        * - ClusterName
+          - Name for EMR Cluster.
+        * - CoreInstanceType
+          - Provide the required instance type for core nodes, default instance type is m4.xlarge.
+        * - CoreNodes
+          - Choose the required number of core nodes, by default it’s 2.
+        * - EmrVersion
+          - Choose the required EMR version, it should be above EMR v.5.8.x.
+        * - Environment
+          - By default dev.
+        * - FireVersion
+          - Enter the required version of Fire.
+        * - KeyName
+          - Enter the valid PEM key name to connect to EMR nodes.
+        * - MasterInstanceType
+          - Provide the required instance type for master nodes, default instance type is m4.xlarge.
+        * - MasterNodes
+          - By default, it is 1. 
+        * - Owner
+          - Provide the name of a team or person creating the cluster.
+        * - ReleaseVersion
+          - Enter the required ReleaseVersion, it has to match with fire version.
+        * - S3Bucket
+          - Provide the s3 bucket name, this s3 bucket should be same s3 bucket where deploy-fire-h2.sh and script-runner.jar are uploaded.
+        * - Subnet
+          - Provide the proper subnet name, which has sufficient resources to create EMR cluster. 
+        * - TaskInstanceType
+          - Optional, required only if you’re choosing TaskNodes. Provide the required instance type for task nodes, default instance type is m4.xlarge.
+        * - TaskNodes
+          -  Optional, required only if you want to create the cluster with tasknodes. By default zero, enter the required number of nodes.
 
 
-* Click Next.
+#. Click **Next** to navigate to the **Options Page**. On this page:
+
+   * Enter the **tag details**, if required (not mandatory).
   
-* Next Page is **Options**:
-
-  * If required (not mandatory) enter the tag details.
-  * Click Next.
+#. Click **Next** to navigate to the **Review Page**. On this page:
   
-* Next Page is **Review**:
+   * Review all the details provided to create an EMR stack.
+   * Click on **Create** to start creating the stack.
 
-  * Review all the details provided to create an EMR stack.
-  * Click on Create.
-  * It will start creating the stack.
+#. Next page is back to **CloudFormation Page**. On this page:
 
-* Next page is back to **Cloudformation Page**:
-
-  * Choose your Stack name.
-  * Click on **Events** to check the process.
-  * Click on **Resources** to get the EMR Cluster Id.
+   * Choose your **Stack name**.
+   * Click on **Events** to check the process.
+   * Click on **Resources** to get the EMR Cluster Id.
   
-  
-* Once the stack runs successfully, your EMR cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration.
+   Once the stack runs successfully, your EMR cluster and Fire is ready to use. Cluster creation time depends on your EMR cluster configuration.
 
+#. To **cross check** the Fire installation:
 
-* To **cross check** the Fire installation:
-
-  * Go to EMR from AWS web console.
-  * Choose your EMR cluster.
-  * Identify the Master Node Public DNS. 
-  * Go to ``http://masternodeip:8085/index.html``.
+   * Go to EMR from AWS Web Console.
+   * Choose your EMR cluster.
+   * Identify the Master Node Public DNS. 
+   * Go to ``http://masternodeip:8085/index.html``.
   
   
-Connect Fire to the New Cluster
+Step 4 : Connect Fire to the New Cluster
 -------------------------------
+#. Go to **User/Administration**.
+#. Click on **Infer Hadoop Configuration**.
+#. Click on the **Save** button.
 
-* Go to ``User/Administration``.
-* Click on ``Infer Hadoop Configuration``.
-* Click on the ``Save`` button.
-
-Load Examples
+Step 5 : Load Examples
 --------------
+#. In Fire, click on **Load Examples**.
+#. **SSH** to the master node.
+#. **cd /opt/fire/fire-3.1.0**
+#. Upload the example data files to HDFS:
 
-* In Fire, click on ``Load Examples``.
-* ``SSH`` to the master node.
-* ``cd /opt/fire/fire-3.1.0``.
-* Upload the example data files to HDFS.
+   **hadoop fs -put data**
 
-  * ``hadoop fs -put data``
-
-Create **Hadoop** User
+Step 6 : Create Hadoop User
 ----------------------
+#. Go to **Administration/User**.
+#. Click on **Add User**.
+#. Create a new user with username **hadoop**.
+#. Log out and log back in as user **hadoop**.
 
-* Go to ``Administration/User``.
-* Click on ``Add User``.
-* Create a new user with username ``hadoop``.
-* Log out and log back in as user ``hadoop``.
-
-Start running the Examples
+Step 7 : Start running the Examples
 --------------------------
 
-* Go to ``Applications``.
-* Start creating/using the Applications.
+#. Go to **Applications**.
+#. Start creating/using the Applications.
+
      
 Summary
 -------

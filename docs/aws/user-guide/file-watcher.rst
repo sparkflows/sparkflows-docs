@@ -8,6 +8,7 @@ Processing files pushed to S3 is a common requirement in various use cases. To e
 
 In this document, we will explore a method to achieve this using SQS, Lambda, and leveraging the REST API of Fire Insights. This approach provides a seamless and effective solution for processing files stored in S3.
 
+Follow the steps given below:
 
 Design
 ------
@@ -21,12 +22,12 @@ The diagram given below captures the high level design:
 
 Below is the flow of execution:
 
-#. New files arrives in the S3 directory location: ``/sparklows-file-watcher/raw-data/iot/2019-08-2201``
+#. New files arrives in the S3 directory location: **/sparklows-file-watcher/raw-data/iot/2019-08-2201**
 
-   * In the above design, the raw data arrives in the directory: ``/sparklows-file-watcher/raw-data``
+   * In the above design, the raw data arrives in the directory: **/sparklows-file-watcher/raw-data**
    * There are various types of raw data which can be expected.
-   * IOT is one type of raw data. Each day, we receive a number of IOT files in the folder: ``/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd``
-   * Once all the files for the date are written to the appropriate folder, a _SUCCESS file is written into it.
+   * IOT is one type of raw data. Each day, we receive a number of IOT files in the folder: **/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd**
+   * Once all the files for the date are written to the appropriate folder, **a _SUCCESS** file is written into it.
 
 #. The availability of _SUCCESS file triggers an event which is sent to a configured SQS queue.
 #. Once the event reaches SQS, it triggers an AWS Lambda.
@@ -34,12 +35,12 @@ Below is the flow of execution:
 #. If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue) to be appropriately handled.
 
 
-Create an SQS Queue
+Step 1 : Create an SQS Queue
 -------------------
 
 Create an SQS Queue to receive the events from S3 and to trigger the AWS Lambda function.
 
-Below, we see the SQS queue : ``sf-workflow-file-watcher-ql-dev``
+Below, we see the SQS queue : **sf-workflow-file-watcher-ql-dev**
 
 It has the premissions as shown below to receive the messages from S3 bucket and to invoke the AWS Lambda function.
 
@@ -54,14 +55,14 @@ It has the premissions as shown below to receive the messages from S3 bucket and
       :width: 65% 
     
 
-Configure AWS S3 bucket to generate events
+Step 2 : Configure AWS S3 bucket to generate events
 ------------------------------------------
 
 Configure the AWS S3 bucket to send events for the new files received into AWS SQS queue.
 
 Then, it looks for the new files with prefix of **events** with the suffix **_SUCCESS**. 
 
-It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
+It sends these events to **sf-workflow-file-watcher-ql-dev** SQS Queue.
 
    .. figure:: ../../_assets/aws/file-watcher-s3-events.png
       :alt: S3 Events
@@ -69,7 +70,7 @@ It sends these events to ``sf-workflow-file-watcher-ql-dev`` SQS Queue.
      
    
    
-Create the AWS Lambda function
+Step 3 : Create the AWS Lambda function
 ------------------------------
 
 Create the AWS Lambda function to take the SQL Event and begin the workflow in Fire Insights. This workflow would process the newly arrived files.
@@ -90,7 +91,7 @@ Instead of the Sparkflows token, users can encrypt the token using KMS and use t
       :width: 65%
 
 
-Upload the jar file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it.
+Upload the JAR file for the RequestHandler. It can also be placed into S3 location and the Lambda configured for it.
 
 WorkflowExecuteHandler
 ++++++++++++++++++++++

@@ -195,7 +195,7 @@ Step 6 : Create Hadoop User
 #. Create a new user with username **hadoop**.
 #. Log out and log back in as user **hadoop**.
 
-Step 7 : Start running the Examples
+Step 7 : Start Running the Examples
 --------------------------
 #. Go to **Applications**.
 #. Start building your Applications.

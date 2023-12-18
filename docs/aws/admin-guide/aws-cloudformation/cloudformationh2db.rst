@@ -91,7 +91,7 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
 Step 3 : Create EMR Cluster and Deploy Fire
 --------------------------------------------------
 
-#. Navigate to AWS web Console -> Management tools -> CloudFormation and click on **Create Stack**.
+#. Navigate to **AWS web Console -> Management tools -> CloudFormation** and click on **Create Stack**.
 #. On **Select Template Page**:
   
    * Select the radio-button **Upload a template to Amazon S3**.
@@ -164,10 +164,10 @@ Step 3 : Create EMR Cluster and Deploy Fire
 
 #. To **cross check** the Fire installation:
 
-   * Go to EMR from AWS Web Console.
-   * Choose your EMR cluster.
-   * Identify the Master Node Public DNS. 
-   * Go to ``http://masternodeip:8085/index.html``.
+   * Go to **EMR** from AWS Web Console.
+   * Choose your **EMR cluster**.
+   * Identify the **Master Node Public DNS**. 
+   * Go to **http://masternodeip:8085/index.html**
   
   
 Step 4 : Connect Fire to the New Cluster

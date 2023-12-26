@@ -8,7 +8,7 @@ To call the parameters at runtime below syntax is used.
 ``${parameter_name}``
 
 
-In the workflow editor page parmeters should be definied with ``parameter_name`` and ``value``. And use the parameter_name inside the node fields with ``${parameter_name}``
+In the workflow editor page parameters should be defined with ``parameter_name`` and ``value``. And use the parameter_name inside the node fields with ``${parameter_name}``
 
 
 Define the Parameters in Workflow Edit Page
@@ -45,7 +45,7 @@ See the below image:
 
 
 
-Parametrs at Execution time
+Parameters at Execution time
 ----------------------------
 
 During the Execution time in execute page user get the option to change parameters value for execution time. By default parameters values are copied from edit page.
@@ -55,7 +55,3 @@ In the case below ``num_bedrooms`` value changed to ``4`` for runtime execution.
  .. figure:: ../../_assets/user-guide/runtime-parameters/execute-page-parameter.png
     :alt: parameters in execute page
     :width: 70%
- 
- 
- 
- 

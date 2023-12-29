@@ -40,13 +40,13 @@ Fire Insights page does not open when I go to :8080. Some other UI is displayed.
 * The resolution would be to run Fire server on some other port which is not being used by any other application. 
 * Details for running Fire on another port is at `Sparkflows Documentation on Running Different Ports. <https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html>`_
 
-3. Getting Error: Could Not Connect to Fire at Localhost
+3. Getting Error: Could Not Connect to Fire at Localhost(Spark Engine)
 ----------------------------
 
 **Problem**
 ++++++++
 
-On certain pages I get the error following error: 
+On certain pages I get the following error: 
 
 **Could not connect to fire at localhost.**
 
@@ -63,7 +63,29 @@ On certain pages I get the error following error:
    - https://unix.stackexchange.com/questions/442510/how-to-use-bash-for-sh-in-ubuntu
    - And then select **No**.
 
-4. Getting Error: Unable to Create New Active Thread
+4. Getting Error: Could Not Connect to Fire at Localhost (PySpark Engine)
+----------------------------
+
+**Problem**
+++++++++
+
+On opening any PySpark node I get the following error: 
+
+**Could not connect to fire at localhost.**
+
+**Solution**
++++++++
+
+* The reason for it is that the Fire Insight helper PySpark process is not starting. 
+
+  Check out the log files namely, **fireserver.log** and **pyspark.log** for errors. They are written in the install directory.
+
+* Please check if any compatiblity issue for Spark and PySparkling
+
+   Please make sure Spark and PySparkling version are compatible.
+
+
+5. Getting Error: Unable to Create New Active Thread
 ----------------
 
 **Problem**
@@ -79,7 +101,7 @@ Getting the following error:
 
 Details and resolution can be found at the `Troubleshooting Documentation. <https://dzone.com/articles/troubleshoot-outofmemoryerror-unable-to-create-new>`_
 
-5. Keystore Error on Starting Fire
+6. Keystore Error on Starting Fire
 -------------
 
 **Problem**
@@ -99,7 +121,7 @@ Getting the following error when starting Fire:
  
   More details can be found in the `Official Documentation. <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html>`_
 
-6. Error: java.net.BindException - Cannot Assign Requested Address
+7. Error: java.net.BindException - Cannot Assign Requested Address
 ----------------------------
 
 **Problem**
@@ -114,7 +136,7 @@ Getting the following error :
 
 Make sure that you do not have mapped public IP to private IP in **/etc/hosts**, as Fire Insights by default use localhost for subprocess.
 
-7. Error Running Docker Commands: docker: Invalid Reference Format
+8. Error Running Docker Commands: docker: Invalid Reference Format
 ------------------------
 
 **Problem** 

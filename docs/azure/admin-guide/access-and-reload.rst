@@ -2,21 +2,32 @@ Access and Reload Samples
 ==============
 This documentation explains how to access Sparkflows, create Users and reload sample projects.
 
-Access Sparkflows and Create Users
----------------------
 Follow the steps given below:
 
-#. Obtain the public IP or DNS of your Azure instance from the Azure Console -> Virtual machines.
+Step 1 : Obtain Azure Instance Information
+----------------------
 
-#. Open a web browser and enter the following URL: http://sparkflows_IP:8080, 
+#. Navigate to **Azure Console -> Virtual Machines**.
+#. Obtain the **public IP or DNS** of your Azure instance.
 
-   where **sparkflows_IP** should be replaced with the actual IP or DNS of your instance.
+Step 2 : Open Sparkflows in Web Browser
+----------------
 
-#. By default, Sparkflows provides two user accounts: **admin** with the password **admin**, and **test** with the password **test**.
+#. Open a web browser.
+#. Enter the URL: http://sparkflows_IP:8080 and replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 
-   If you need to create additional user accounts, you can do so through the Sparkflows **Administration** Tab. 
-   
-   To create new users, navigate to the **Users** section. On the Users page, fill in the new **User details** and click **Save** to the user.
+Step 3 : Create New Users
+--------------
+Sparkflows provides two default user accounts:
+
+* Username: **admin**, Password: **admin**
+* Username: **test**, Password: **test**
+
+To create additional users:
+
+#. Access Sparkflows **Administration** Tab.
+#. Navigate to **Users** section.
+#. On the Users page, fill in new **User details** and click **Save**.
 
    .. figure:: ../../_assets/aws/livy/administration.png
       :alt: livy

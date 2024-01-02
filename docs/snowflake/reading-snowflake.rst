@@ -13,16 +13,17 @@ A user can use this processor to select a single table/view from the Snowflake s
 
 Processor Configuration
 +++++++++++++++
-
-.. figure:: ..//_assets/snowflake/ReadProcessorGen.png
-   :alt: snowflake
-   :width: 70%
+Below are the processor configuration details:
 
 * CONNECTION  : Connection created for Snowflake.
 * SF WAREHOUSE : Snowflake Warehouse Name.
 * SF DATABASE : Snowflake Database Name.
 * SF SCHEMA : Snowflake Schema Name.
 * SF TABLE/VIEW : Snowflake Table/View Name. 
+
+  .. figure:: ..//_assets/snowflake/ReadProcessorGen.png
+     :alt: snowflake
+     :width: 60%
 
 
 Example Workflow
@@ -35,7 +36,7 @@ The below workflow does the following:
 
   .. figure:: ..//_assets/snowflake/wf_read.png
      :alt: snowflake
-     :width: 70%
+     :width: 60%
 
 Reading from Snowflake Table/View
 +++++++++++++
@@ -47,16 +48,16 @@ Processor Configuration
 
 Below are the configurations for the Read from Snowflake processor.
 
-.. figure:: ..//_assets/snowflake/ReadProcessorGen.png
-   :alt: snowflake
-   :width: 70%
+  .. figure:: ..//_assets/snowflake/ReadProcessorGen.png
+     :alt: snowflake
+     :width: 60%
 
 Processor Output
 ++++
 
-.. figure:: ..//_assets/snowflake/processor_read.png
-   :alt: snowflake
-   :width: 70%
+  .. figure:: ..//_assets/snowflake/processor_read.png
+     :alt: snowflake
+     :width: 60%
 
 2. Execute Query In SnowFlake
 --------
@@ -65,16 +66,17 @@ A user can use this processor to select multiple tables/views across the Snowfla
 
 Processor Configuration
 +++++++
-
-.. figure:: ..//_assets/snowflake/EXProcessorGen.png
-   :alt: snowflake
-   :width: 70%
+Below are the processor configuration details:
 
 * CONNECTION  : Connection created for Snowflake.
 * SF WAREHOUSE : Snowflake Warehouse Name.
 * SF DATABASE : Snowflake Database Name.
 * SF SCHEMA : Snowflake Schema Name.
 * SF QUERY : Write SQL query. 
+
+  .. figure:: ..//_assets/snowflake/EXProcessorGen.png
+     :alt: snowflake
+     :width: 60%
 
 
 Example Workflow
@@ -87,7 +89,7 @@ The below workflow does the following:
 
   .. figure:: ..//_assets/snowflake/wf_execute.png
      :alt: snowflake
-     :width: 70%
+     :width: 60%
 
 Execute Query in SnowFlake 
 ++++++++++++++++++
@@ -99,13 +101,13 @@ Processor Configuration
 
 Below are the configurations for the Read from Snowflake processor.
 
-.. figure:: ..//_assets/snowflake/EXProcessorGen.png
-   :alt: snowflake
-   :width: 70%
+  .. figure:: ..//_assets/snowflake/EXProcessorGen.png
+     :alt: snowflake
+     :width: 60%
 
 Processor Output
 ++++
 
-.. figure:: ..//_assets/snowflake/processor_execute.png
-   :alt: snowflake
-   :width: 70%
+  .. figure:: ..//_assets/snowflake/processor_execute.png
+     :alt: snowflake
+     :width: 60%

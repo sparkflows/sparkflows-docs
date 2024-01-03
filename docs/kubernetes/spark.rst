@@ -1,9 +1,9 @@
 Install Spark
 --------------
 
-Below are the steps for installing Apache Spark operator and History Server
+Below are the steps for installing Apache Spark operator and History Server:
 
-We will be leveraging KUDO plugin to install and upgrade Spark operator and History server.
+.. note:: We will be leveraging KUDO plugin to install and upgrade Spark operator and History server.
 
 * Install KUDO plugin for kubectl::
 

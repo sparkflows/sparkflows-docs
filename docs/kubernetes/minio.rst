@@ -22,35 +22,35 @@ Below are the steps for installing Minio on the Kubernetes cluster. Perform it o
 
    kubectl get pods -n minio-operator
    
-The output resemebles the following::
+  The output resemebles the following::
  
-  NAME                              READY   STATUS    RESTARTS   AGE
-  console-7c855c9789-9dtrb          1/1     Running   0          5d3h
-  minio-operator-66849f98b7-fhswb   1/1     Running   0          5d3h
+   NAME                              READY   STATUS    RESTARTS   AGE
+   console-7c855c9789-9dtrb          1/1     Running   0          5d3h
+   minio-operator-66849f98b7-fhswb   1/1     Running   0          5d3h
 
 * Run the following command to create a local proxy to the MinIO Operator Console::
 
    kubectl minio proxy -n minio-operator
 
-The output should resemeble the following::
+  The output should resemeble the following::
 
-  Starting port forward of the Console UI.
+   Starting port forward of the Console UI.
 
-  To connect open a browser and go to http://localhost:9090
+   To connect open a browser and go to http://localhost:9090
 
-  Current JWT to login: eyJhbGciOiJSUzI1N....
+   Current JWT to login: eyJhbGciOiJSUzI1N....
   
-Open your browser to the provided address and use the JWT token to log in to the Operator Console.
+* Open your browser to the provided address and use the **JWT token** to log in to the Operator Console.
 
-.. figure:: ../_assets/kubernetes/minio-login.png
-   :alt: MinIO Login
-   :align: center
+  .. figure:: ../_assets/kubernetes/minio-login.png
+     :alt: MinIO Login
+     :width: 60%
 
 * Once you've logged in, click on **Create Tenant** to open the tenant creation workflow.
 
-.. figure:: ../_assets/kubernetes/create-tenant.png
-   :alt: MinIO Create Tenant
-   :align: center
+  .. figure:: ../_assets/kubernetes/create-tenant.png
+     :alt: MinIO Create Tenant
+     :width: 60%
    
 
    
@@ -58,15 +58,15 @@ Open your browser to the provided address and use the JWT token to log in to the
 
 - **Name** - Specify the *Name*, *Namespace*, and *Storage Class* for the new Tenant. 
   
-The *Storage Class* must correspond to a [Storage Class](#default-storage-class) that corresponds to [Local Persistent Volumes](#local-persistent-volumes)   that can support the MinIO Tenant.
+  The *Storage Class* must correspond to a [Storage Class](#default-storage-class) that corresponds to [Local Persistent Volumes](#local-persistent-volumes)   that can support the MinIO Tenant.
   
-The *Namespace* must correspond to an existing [Namespace](#minio-tenant-namespace) that does *not* contain any other MinIO Tenant.
+  The *Namespace* must correspond to an existing [Namespace](#minio-tenant-namespace) that does *not* contain any other MinIO Tenant.
   
-Enable *Advanced Mode* to access additional advanced configuration options. 
+  Enable *Advanced Mode* to access additional advanced configuration options. 
  
-.. figure:: ../_assets/kubernetes/configure-tenant.png
-   :alt: MinIO Configure Tenant
-   :align: center  
+  .. figure:: ../_assets/kubernetes/configure-tenant.png
+     :alt: MinIO Configure Tenant
+     :width: 60% 
 
 - **Tenant Size** - Specify the *Number of Servers*, *Number of Drives per Server*, and *Total Size* of the Tenant.
 
@@ -74,27 +74,29 @@ Enable *Advanced Mode* to access additional advanced configuration options.
    
   Additional configuration inputs may be visible if *Advanced Mode* was enabled in the previous step.
  
-.. figure:: ../_assets/kubernetes/tenant-size.png
-   :alt: MinIO Configure Tenant size
-   :align: center
+  .. figure:: ../_assets/kubernetes/tenant-size.png
+     :alt: MinIO Configure Tenant size
+     :width: 60%
    
 - **Preview Configuration** - summarizes the details of the new Tenant.
   
-.. figure:: ../_assets/kubernetes/review-tenant.png
-   :alt: MinIO Review Tenant config
-   :align: center
+  .. figure:: ../_assets/kubernetes/review-tenant.png
+     :alt: MinIO Review Tenant config
+     :width: 60%
    
-After configuring the Tenant to your requirements, click Create to create the new tenant.
+* After configuring the Tenant to your requirements, click **Create** to create the new tenant.
 
-The Operator Console displays credentials for connecting to the MinIO Tenant. You must download and secure these credentials at this stage. You cannot trivially retrieve these credentials later.
+  The Operator Console displays credentials for connecting to the MinIO Tenant. You must download and secure these credentials at this stage. 
+   
+  You cannot trivially retrieve these credentials later.
 
-You can monitor Tenant creation from the Operator Console.
+  You can monitor Tenant creation from the Operator Console.
 
 * Once the tenant is up and running, you can monitor the same from the operator console.
 
-.. figure:: ../_assets/kubernetes/monitor-tenant.png
-   :alt: MinIO Monitor tenant
-   :align: center
+  .. figure:: ../_assets/kubernetes/monitor-tenant.png
+     :alt: MinIO Monitor tenant
+     :width: 60%
 
 Interacting with the tenant
 ------------------------------

@@ -316,9 +316,10 @@ Configuration description
 * As the different services will be running in docker containers, therefore we need to create a directory with name **/mnt** directory on all nodes, as this will be used for mounting on all the containers by the kubelet service. This directory will be used for creating persistent volume while creating different services in kubernetes.
 
 * While installing the Rancher, we would need to create certificates for the services which will need the following config to be in place for the kube-controller service
-.. code-block:: yml
+  
+  .. code-block:: yml
 
-  extra_args:
+     extra_args:
          cluster-signing-cert-file: "/etc/kubernetes/ssl/kube-ca.pem"
          cluster-signing-key-file: "/etc/kubernetes/ssl/kube-ca-key.pem"
 

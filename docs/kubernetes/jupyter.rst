@@ -5,9 +5,9 @@ With a Kubernetes cluster cluster available and Helm installed, we can install J
 
 - Initialize a Helm chart configuration file. Helm charts’ contain templates that can be rendered to the Kubernetes resources to be installed. A user of a Helm chart can override the chart’s default values to influence how the templates render.
 
-In this step we will initialize a chart configuration file for you to adjust your installation of JupyterHub. We will name and refer to it as config.yaml going onwards
+In this step we will initialize a chart configuration file for you to adjust your installation of JupyterHub. We will name and refer to it as **config.yaml** going onwards
 
-.. code-block:: yml
+  .. code-block:: yml
 
    singleuser:
      defaultUrl: "/lab"
@@ -25,7 +25,7 @@ In this step we will initialize a chart configuration file for you to adjust you
         
 - With the above configuration, create persistent volume and persistent volume claim as per the below configuration
 
-.. code-block:: yml
+  .. code-block:: yml
    
    apiVersion: v1
    kind: PersistentVolume

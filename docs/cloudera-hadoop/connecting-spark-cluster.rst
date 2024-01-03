@@ -7,12 +7,13 @@ Overview
 Fire can be configured to submit the spark jobs to run on an Apache Spark Cluster.
 
 * **Install Fire on an edge node of your Apache Spark Cluster.**
+    
     * The edge node has the hadoop, Hive or Spark configuration files set up.
     * Make sure that you are already able to run your spark jobs from this node using spark-submit.
 * **Update the below configurations under the menu, Administration/Configuration.**
 
 
-.. Note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details can be found below in this page. For the rest of the documentation on this page, we assume that it has been installed as the user ``sparkflows``.
+.. Note:: In order for Fire to connect to the Apache Spark Cluster, it needs to be installed as a user which can impersonate other users. More details can be found below in this page. For the rest of the documentation on this page, we assume that it has been installed as the user **sparkflows**.
 
 Fire User Setup
 ---------------
@@ -26,14 +27,14 @@ Update core-site.xml of Hadoop to allow Fire user to impersonate:
 ^^^^^^
 
 
-https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html
+For detailed information, read `Cloudera Documentataion. <https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html>`_
 
 
 * In your core-site.xml file for hadoop, allow Sparkflows user to impersonate other users. Without impersonation enabled for this user, your sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so.
 
 * Also, allow the appropriate groups that the sparkflows users will be able to impersonate belong to.
 
-* In the example given below, user ``sparkflows`` is allowed to impersonate users from hosts ``host1`` and ``host2``. The users being impersonated belong to the groups ``Hive, HFS, hadoop, Spark``. Your permissions are likely going to be different and more restrictive.
+* In the example given below, user **sparkflows** is allowed to impersonate users from hosts **host1** and **host2**. The users being impersonated belong to the groups **Hive, HFS, hadoop, Spark**. Your permissions are likely going to be different and more restrictive.
 
 Below is an example::
 
@@ -52,35 +53,32 @@ Below is an example::
 Cloudera Manager
 ^^^^^^^^^^^^^^^^
 
-If you are using Cloudera Manager, you can set the above settings for impersonation in ``HDFS/Configuration``.
+If you are using Cloudera Manager, you can set the above settings for impersonation in **HDFS/Configuration**.
 
 .. figure:: ../_assets/installation/cloudera-manager-hdfs-configuration.png
-   :scale: 100%
    :alt: Cloudera Configs
-   :align: center
+   :width: 60%
 
 
 Ambari
 ^^^^^^
 
-If you are using Ambari, you can set the above settings for impersonation in ``HDFS/Configuration under Custom core-site``.
+If you are using Ambari, you can set the above settings for impersonation in **HDFS/Configuration under Custom core-site**.
 
 .. figure:: ../_assets/installation/ambari-hdfs-configuration.png
-   :scale: 100%
    :alt: Ambari Configs
-   :align: center
+   :width: 60%
 
 
 
 Infer Hadoop Cluster Config
 --------------------
 
-``Infer Hadoop Cluster Config`` button under Administration/Configuration automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
+**Infer Hadoop Cluster Config button** under **Administration/Configuration** automatically infers some of the configurations of the cluster from the hadoop config files on the edge node to help with the process. Use it to get the initial set of configurations.
 
 .. figure:: ../_assets/installation/infer-hadoop-configs.png
-   :scale: 100%
    :alt: Infer Hadoop Configs
-   :align: center
+   :width: 60%
 
 
 Fire Configurations to connect to an Apache Spark Cluster
@@ -132,11 +130,11 @@ Below are the configuration details to connect Fire to an Apache Spark Cluster.
 Create New Users in Fire
 --------------------
 
-Fire allows creating multiple users. Create the users in Fire under ``Administration/Users`` which would build and run the workflows.
+Fire allows creating multiple users. Create the users in Fire under **Administration/Users** section which would build and run the workflows.
 
 These users have to exist on HDFS. So, ensure that these users' home directory(s) are created on HDFS.
 
-Also, create the home directory for the users on HDFS. The sample code below creates the home directory for the user ``xyz`` onto HDFS. It also changes the permission of the directory.
+Also, create the home directory for the users on HDFS. The sample code below creates the home directory for the user **xyz** onto HDFS. It also changes the permission of the directory::
 
 * su - hdfs
 * hadoop fs -mkdir /user/xyz
@@ -146,7 +144,7 @@ Also, create the home directory for the users on HDFS. The sample code below cre
 Set up PySpark
 -------------------
 
-If running with PySpark, the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at ``/home/ec2-user/venv/bin/python``.
+If running with PySpark, the following might need to be added to point PYSPARK to the right version of python on the cluster machines. Below is an example where python is at **/home/ec2-user/venv/bin/python**.
 
 It is also important that all the users are able to execute the Python executable.
 

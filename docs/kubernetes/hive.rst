@@ -1,16 +1,16 @@
 Install Hive Metastore
 =============
 
-Below are the steps for installing Hive Metastore
+Below are the steps for installing Hive Metastore:
 
-- Create a file, hive-secrets.yaml, that will store the secrets that will be used to create database credentials and connect with MinIO object storage for creation and management of tables. The credentials description are as follows:
+- Create a file, **hive-secrets.yaml**, that will store the secrets that will be used to create database credentials and connect with MinIO object storage for creation and management of tables. The credentials description are as follows:
 
-  - **HIVE_METASTORE_USER:** Username for connecting to the MySQL server
-  - **HIVE_METASTORE_PASSWORD:** Password for connecting to the MYSQL Server
-  - **S3_ACCESS_KEY:** Access key for connecting to the MinIO tenant
-  - **S3_SECRET_KEY:** Secret Access key for connecting to the MinIO Tenant
+  - **HIVE_METASTORE_USER:** Username for connecting to the MySQL server.
+  - **HIVE_METASTORE_PASSWORD:** Password for connecting to the MYSQL Server.
+  - **S3_ACCESS_KEY:** Access key for connecting to the MinIO tenant.
+  - **S3_SECRET_KEY:** Secret Access key for connecting to the MinIO Tenant.
   
-.. code-block:: yml
+  .. code-block:: yml
 
    apiVersion: v1
    kind: Secret
@@ -25,8 +25,9 @@ Below are the steps for installing Hive Metastore
      S3_SECRET_KEY: TEJUSkN3OGltSlRFOHlHZkFiNkJhN2J3cHJ2YjZpRGMK
 
 
-- Create a file hive-deployment.yaml, that will install hive metastore service with MinIO integration. The environment variables are required to connect to the MinIO tenant from the hive metastore service.
-.. code-block:: yml
+- Create a file **hive-deployment.yaml**, that will install hive metastore service with MinIO integration. The environment variables are required to connect to the MinIO tenant from the hive metastore service.
+
+  .. code-block:: yml
 
    apiVersion: v1
    kind: Service

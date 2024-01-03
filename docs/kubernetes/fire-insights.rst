@@ -7,15 +7,17 @@ Below are the steps for installing Fire Insights.
   
    kubectl run -it --rm --image=mysql:8.0 --restart=Never mysql-client -- mysql -h mysql.demo.svc.cluster.local -p<root_password>
   
-- Initialize the database and user for interacting with that database::
+- Initialize the database and user for interacting with that database: 
+
+  ::
    
    create database firedb;
    CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
    GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
    
-- Create **fire-deployment.yaml** with the following configuration deploy **Fire Insights** on kubernetes
+- Create **fire-deployment.yaml** with the following configuration deploy **Fire Insights** on kubernetes:
 
-.. code-block:: yml
+  .. code-block:: yml
 
     apiVersion: v1
     kind: Service
@@ -71,4 +73,4 @@ Below are the steps for installing Fire Insights.
 
 - Get the public IP of the node **n1.k8s** and access the Fire insights web console at http://<public-ip-node>:30318
 
-- You can setup custom load balancer to access the above service
+- You can setup custom load balancer to access the above service.

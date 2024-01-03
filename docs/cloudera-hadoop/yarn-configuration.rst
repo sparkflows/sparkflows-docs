@@ -28,7 +28,7 @@ The spark job reads the workflow JSON file from HDFS.
 Impersonation
 -------------
 
- * Normally ``app.impersonateUsers`` is set to ``true`` so that the jobs are run as the logged in user.
+ * Normally **app.impersonateUsers** is set to **true** so that the jobs are run as the logged in user.
 
-.. note::  The logged in user into Fire should exist on HDFS
+.. note::  The logged in user into Fire should exist on HDFS.
 

@@ -2,7 +2,7 @@
 Spark Standalone Guide
 =========
 
-Fire Insights is seamlessly integrated with Apache Spark Standaone Clusters.
+Fire Insights is seamlessly integrated with Apache Spark Standalone Clusters.
 
 .. panels::
     :container: container-lg pb-3

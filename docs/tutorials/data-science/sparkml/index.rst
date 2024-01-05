@@ -25,7 +25,7 @@ Spark ML
 
     :doc:`/tutorials/data-science/sparkml/clustering-houses`
 
-    Cluster the houses in the best possible way using KMeans algorithm availabe in Apache Spark ML.
+    Cluster the houses in the best possible way using K-Means algorithm availabe in Apache Spark ML.
 
     ---
 

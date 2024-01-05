@@ -4,10 +4,6 @@ FAQ
 
 .. panels::
     :container: container-lg pb-3
-
-    :doc:`/faq/distributions-supported`
-
-    ---
     
     :doc:`/faq/installation`
     
@@ -28,7 +24,11 @@ FAQ
     :doc:`/faq/submit-jobs`
 
     ---
+ 
+    :doc:`/faq/distributions-supported`
 
+    ---
+    
     :doc:`/faq/multi-user`
 
     ---

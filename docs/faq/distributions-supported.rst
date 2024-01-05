@@ -4,7 +4,7 @@ Distributions Supported
 What distributions or platforms are supported with Fire Insights?
 ===========
 
-Fire Insights has been tested with Databricks, CDH, Hortonworks, MapR, AWS EMR, Apache Spark distributions.
+Fire Insights has been tested with GCP Dataproc, Databricks, AWS EMR, AWS Glue, Cloudera, Kubernetes, Apache Spark distributions.
  
 *Note: Any cluster with Apache Spark 2.3+ is compatible with Fire Insights.*
 

@@ -6,7 +6,7 @@ New Features
 
 - Added ROC, AUC, Confusion matrix to be displayed for H2O GBM and GLM models.
 - Added ROC graph for Spark Random Forest Classifier.
-- Added ROC and confusion matrix charts in H2O GLM and GBM
+- Added ROC and confusion matrix charts in H2O GLM and GBM.
 - Added validation metrics computation in H2O XGBoost and DRF.
 - Added ROC graph for Spark Gradient Boosted Trees, Spark Decision Tree, Linear Regression, Random Forest Classifier and Binary evaluator in the PySpark engine.
 - Added Confusion Matrix for Spark Decision Tree, Random Forest, Gradient Boosted Trees, Logistic Regression and binary & Multiclass evaluators in the PySpark engine.

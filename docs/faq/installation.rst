@@ -22,7 +22,7 @@ Below are the pre-requisites for installing Fire:
 * 8GB+ of RAM available on the machine.
 
 
-With which user should Fire be installed
+With which user should Fire be installed?
 ===========
 
 If Fire needs to be connected with an Apache Spark cluster the below is needed:

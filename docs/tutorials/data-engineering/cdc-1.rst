@@ -1,4 +1,4 @@
-CDC With AutoIncrement Node
+CDC with AutoIncrement Node
 ======================
 Sparkflows provide the support for incremental load of changes in relation table with workflow and summary page.
 

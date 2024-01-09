@@ -118,6 +118,13 @@ MLOps Guide
 
    mlops/index
 
+Change Data Capture
+----------
+.. toctree::
+   :maxdepth: 2
+
+   cdc/index
+
 Cloudera/Hadoop Guide
 --------------
 

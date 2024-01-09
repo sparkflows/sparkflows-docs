@@ -1,23 +1,41 @@
-Change Data Capture
-===================
+CDC With AutoIncrement Node
+======================
+Sparkflows provide the support for incremental load of changes in relation table with workflow and summary page.
 
-There are many times when we need to  Change Data Capture.
+Once CDC is enabled in Administration -> Configurations -> Module tab, in each project CDC module is visible where details of the incremental data pull is captured.
 
-Below is one way to do CDC with Fire.
+.. figure:: ../../_assets/tutorials/cdc/cdc-page-in-project.png
+   :alt: cdc
+   :width: 60%
 
-Overview
---------
+Create the workflow with **AutoIncrement Node** by selecting the connection to mysql, postgress, oracle, etc. and configure the database, table, keycolumn name & key column type.
 
-We have streaming events coming in. The events can be updates to the existing records. In the final table, we need to publish only the latest record.
+Currently key column type **timestamp** and **index** only supported.
 
-Design
-------
+.. figure:: ../../_assets/tutorials/cdc/node-configuration.png
+   :alt: cdc
+   :width: 60%
 
-We keep a staging table. This table would have all the records coming in. We do DedUp at the end of the day and publish it to the final table. 
+CDC summary page after the first execution of the workflow with above configuration.
 
-Let us say that we are getting real time events of orders. As we get these events we append it to the staging table. If there are updates to an order, say an order got cancelled, we will have multiple records for that order in the staging table.
+.. figure:: ../../_assets/tutorials/cdc/after-first-run.png
+   :alt: cdc
+   :width: 60%
 
-There is a final published order table where there are no duplicates. It gets updated once a day.
+After the second run summary page details.
 
-We join the final order table with the staging table. In doing so we get multiple order entries. We take the one with the latest TimeStamp and drop the others. Then for a given order we have only one record in the final table. We rewrite the final orders table with the newly calculated records.
+.. figure:: ../../_assets/tutorials/cdc/after-second-run.png
+   :alt: cdc
+   :width: 60%
+
+Workflow:
+
+Read the incremental changes from relation source and save it any file system. Later merge the incremental changes with original data (Update, Delete and Insert).
+
+.. figure:: ../../_assets/tutorials/cdc/auto-increment-wf.png
+   :alt: cdc
+   :width: 60%
+
+
+
 

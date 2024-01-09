@@ -4,12 +4,12 @@ Test API
 How can I Test API of Fire Insights?
 ===========
 
-You can run below curl command::
+You can run below curl command:
 ::
 
     curl --location --request POST 'http://localhost:8090/messageFromSparkJob' --header 'Content-Type: application/json' --data-raw '{"jobId": "256", "message": "this is test message"}'
     
-Expected response of api
+Expected response of API:
 ::
 
     {

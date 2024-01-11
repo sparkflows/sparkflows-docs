@@ -24,7 +24,7 @@ Download the installer from : https://www.sparkflows.io/windows-download
 Download
 -------
 
-Download the Sparkflows installer from above link and Open and run the installer ::
+Once Downloaded Open and run the installer file::
 
   
 By default Fire Insights listens on port 8080 (http) and port 8443 (https).

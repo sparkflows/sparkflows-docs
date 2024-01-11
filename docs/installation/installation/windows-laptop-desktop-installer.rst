@@ -18,16 +18,15 @@ You may have to set JAVA_HOME after the installation.
 Download
 --------
 
-Download the installer from : https://www.sparkflows.io/download
+Download the installer from : https://www.sparkflows.io/windows-download
 
 
-Execute
+Download
 -------
 
-Execute the installer with ::
+Download the Sparkflows installer from above link and Open and run the installer ::
 
-  java -jar sparkflows-installer.exe
-
+  
 By default Fire Insights listens on port 8080 (http) and port 8443 (https).
 
 The port numbers can also be updated in the file conf/application.properties.

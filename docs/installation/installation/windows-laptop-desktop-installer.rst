@@ -21,7 +21,7 @@ Download
 Download the installer from : https://www.sparkflows.io/windows-download
 
 
-Download
+Run and Execute
 -------
 
 Once Downloaded Open and run the installer file::

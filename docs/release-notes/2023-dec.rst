@@ -1,2 +1,92 @@
-December 2023
-============
+December 31 2023
+===========
+
+New Features
+--------
+
+- MLOps - Ability to Deploy models from Sparkflows to AWS Sagemaker
+- MLOps - Ability to Monitor deployed models in Sagemaker
+- MLOps - Ability to Score real time using the Sagemaker end points
+- MLOps - Ability to auto Retrain if model deployed in Sagemaker drifts
+- MLOps - Ability to Deploy models from Sparkflows to Kubeflow
+- MLOps - Ability to Monitor deployed models in Kubeflow
+- MLOps - Ability to Score real time using the Kubeflow end points
+- MLOps - Ability to auto Retrain if model deployed in Kubeflow drifts
+- New node for Visualizing clusters of data
+- New node for Visualizing Word Cloud
+- New node to chunk and summarize PDF content using LLM
+- Seperation of logs per user
+- Ability to export the Feature importance graphs from Model details page
+- Ability to view the historical executions in Analytical Apps from dropdown
+- Analytical App - Ability to Upload File with Read Content and Execute App Options
+- Analytical App - Ability Download Text Area or Text Field Content as Text File
+
+Improvements
+------
+- Enhancements to Logging in Sparkflows
+- Added titles for each subplots
+- Cluster chart fixes: added chart colors
+- Fixed schema propagation in pivot and melt node
+- Added sorting on x-axis when value is double in BarGroupChart node
+- Added sorting on x-axis when value is integer in BarGroupChart node
+- Improved acyclic table name issue
+- Improved schema propagation issue in groupby node
+- Added titles for subplot charts
+- Added scroll to the main element in snowflake DB editor page
+- Updated Dockerfile for removing binary path hard code
+- Added disable check on trash button for pipelines
+- Added check to enable trash button on delete of multiple workflows
+- Updated alignment of node names in workflow
+- Added titles for chart buttons in ROC
+- Added config in pipeline trash
+- Added the missing info in JDBC explorer
+- Added missing database tables/views in snowflake DB editor
+- Added scroll in user list page
+- Added handling of overflow on long WIKI sentences
+- Updated project name list alignment in data catalog
+- Handled the error message overlay for long messages
+- Handled horizontal scroll in JDBC explorer
+- Added the highlighting of selected search text and added navigation in server log search
+- Removed horizontal scroll in JDBC explorer
+- Improved edit user page for superuser status
+
+Bug Fixes
+--------
+- Fixed issue with file read in Analytical App Page
+- Fixed issue with continuous console error in Server Logs Page
+- Fixed File System search issue
+- Fixed issue with delete of nodes in report where the nodes would show up even after delete
+- Fixed issue with project name in DQ page
+- Fixed issue with alignment of code in Notebook editor
+- Fixed issue with error occurred then node popup maximized/minimized not working
+- Fixed issue with setting tab in notebook editor page
+- Fixed issue with alignemnt of list view icon in Project list page
+- Fixed issue with color override for text area modal in Edit App Stage
+- Fixed issue with icon and data load in modal page
+- Fixed issue with model leaderboard path
+- Fixed issue with search text color in server log search
+- Fixed issue with delete row button alignment in Join SQL Column Node
+- Fixed issue with copy leaderboard path
+- Fixed issue with selected search text in server log search
+- Fixed issue with download result in workflow execution
+- Fixed issue of unresponsive scroll bar in move path modal
+- Fixed issue with Data Quality rule name and ID
+- Fixed issue with card overlapping in Snowflake DB editor
+- Fixed issue with missing logs in open AI connection
+- Fixed issue with models page view icon disabled
+- Fixed issue with download model table header
+- Fixed issue with error message overlay in Snowflake DB editor
+- Fixed issue with missing backup database table headers
+- Fixed print Rich text node for Pyspark
+- Resolved SSL issues with DB connection
+- Fixed the variable widget issue
+- Fixed issue with app configuration
+- Fixed issue with project name length on DQ page
+- Fixed issue with credentials edit value/details not responding
+- Fixed error message overlay issue
+
+Documentation
+---------
+* Updated MLOps Admin and User Guide.
+* Updated the Databricks Admin and User Guide.
+* Updated the Troubleshooting Guide.

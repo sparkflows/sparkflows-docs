@@ -186,7 +186,16 @@ Stopping Fire Helper Processes
 Stop Fire helper processes with the below::
 
     .\run-fire.bat stop
-    
+
+
+.. note::  On Windows, the PySpark engine will not get installed. Below are he funcationalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux
+
+           * AutoML
+           * Prophet
+           * ARIMA
+           * Scikit learn models
+           * Keras/Tensorflow models
+           * A few other python native packages.    
     
     
 

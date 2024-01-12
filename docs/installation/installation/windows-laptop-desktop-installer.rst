@@ -40,3 +40,12 @@ The port numbers can also be updated in the file conf/application.properties.
  -	Login with below credentials :
     - Username : admin
     - Password : admin
+
+.. note::  On Windows, the PySpark engine will not get installed. Below are he funcationalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux
+
+           * AutoML
+           * Prophet
+           * ARIMA
+           * Scikit learn models
+           * Keras/Tensorflow models
+           * A few other python native packages.

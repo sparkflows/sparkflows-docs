@@ -44,6 +44,12 @@ Let's get started!
     
     Sample workflows.
 
+    ---
+
+    :doc:`/user-guide/quick-start/6-build-report`
+
+    Create Report
+
 
 .. toctree::
    :hidden:
@@ -54,6 +60,6 @@ Let's get started!
    4-create-workflow.rst 
    5-execute-workflow.rst 
    sample-workflows.rst
-   6-build-dashboard.rst
+   6-build-report.rst
 
 

@@ -5,72 +5,67 @@ Reports allow you to display the output of multiple workflows in one place.
 
 The steps involved in creating a report are:
 
-- *Go to Dashboard tab*
-- *Click on Create New Report*
-- *Drag and drop selected Nodes from the workflows into the Report canvas*
-- *Save the Report*
+#. Open Reports page
+#. Open Reports Designer
+#. Create and Save Report 
+#. View Report
 
-
-
-Reports 
+Step 1 : Open Reports Page
 =====================
+#. Go to **Project Overview** page.
+#. Click on **Reports** tab to reach the Report page.
 
-Selecting Dashboard tab will take to Report page.
-
-.. figure:: ../_assets/tutorials/quickstart/11.PNG
-   :alt: Dashboard
+   .. figure:: ../../_assets/tutorials/quickstart/report/reports-page.png
+      :alt: Report
+      :width: 70%
 
    
-Create Report
+Step 2 : Open Reports Designer 
 =============================
-
-This would open up the Report Designer Page.
-
-
-.. figure:: ../_assets/tutorials/quickstart/12.PNG
-   :alt: Dashboard
+#. From the Reports page, cilck on **Create New Report or Create Report** button.
    
-   
-Name Report
-==================
+   This would open up the Report Designer Page.
 
-Give a name to your dashboard. You can also add a description for the new dashboard.
+   .. figure:: ../../_assets/tutorials/quickstart/report/reports-designer.png
+      :alt: Report
+      :width: 70%
 
+#. Give a name to your Report. You can also add a description for the new Report.
 
-Build Report
+   .. figure:: ../../_assets/tutorials/quickstart/report/save-name.png
+       :alt: Report
+       :width: 70%
+
+Step 3 : Create and Save Report
 ===================================
 
-On the left hand side of the Report Designer, the list of workflows would show up. With each workflow, the nodes inside the workflow would be displayed.
+#. On the left hand side of the Report Designer, the list of workflows would show up. With each workflow, the nodes inside the workflow would be displayed.
 
-Nodes inside the workflow can be dragged and dropped onto the dashboard to make them part of the dashboard.
+   Nodes inside the workflow can be dragged and dropped onto canvas to make them part of the Report.
 
-In the dashboard below we have added two nodes to the dashboard.
+   In the dashboard below we have added two nodes to the dashboard.
 
-.. figure:: ../_assets/tutorials/quickstart/13.PNG
-   :alt: report
+   .. figure:: ../../_assets/tutorials/quickstart/report/drag-and-drop.png
+      :alt: report
+      :width: 70% 
    
+#.  Click on **Save** to  save the report.
 
-
-Save Report
-==================
-
-Finally save the report.
-
-In order to view the report, click on the 'View' button.
  
  
-View Report
+Step 4 : View Report
 ==================
 
-Click on the  'View' button to view the report.
+#. Click on the  **View** button to view the report.
 
-The report shows the content from the latest execution of the workflow.
+   The report shows the content from the latest execution of the workflow.
 
-If the workflow has never been executed, the dashboard would not show anything.
+   If the workflow has never been executed, the dashboard would not show anything.
 
 
-.. figure:: ../_assets/tutorials/quickstart/14.PNG
-   :alt: Report
+   .. figure:: ../../_assets/tutorials/quickstart/report/report.png
+      :alt: Report
+      :width: 70%
 
    
  

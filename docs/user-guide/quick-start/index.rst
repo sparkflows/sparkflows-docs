@@ -48,7 +48,7 @@ Let's get started!
 
     :doc:`/user-guide/quick-start/6-build-report`
 
-    Create Report
+    Create report.
 
 
 .. toctree::

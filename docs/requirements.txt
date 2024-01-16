@@ -4,4 +4,4 @@ docutils==0.16
 sphinx-copybutton
 sphinx_panels
 Jinja2<3.1
-sphinxcontrib.applehelp==1.0.7
+sphinxcontrib.applehelp==1.0.2

@@ -15,6 +15,12 @@ Java 8 can be downloaded and installed from here : https://www.oracle.com/java/t
 
 You may have to set JAVA_HOME after the installation.
 
+.. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined in either of the links below:
+
+           * https://javatutorial.net/set-java-home-windows-10
+           * https://www.java.com/en/download/help/path.xml
+           
+
 
 Download
 --------

@@ -65,7 +65,7 @@ As MLflow Scoring Container in AzureML
 -----------
 
 * The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
-* Then, it can be deployed to Sagemaker by click on the **Deploy to AzureML** button. What happens under the hood is as below:
+* Then, it can be deployed to Azure by click on the **Deploy to AzureML** button. What happens under the hood is as below:
 
   * Sparkflows pushes/uses a custom Sparkflows container to Azure registry.
   * Then, deploys the model in the same container on AzureML.

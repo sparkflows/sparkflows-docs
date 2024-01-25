@@ -9,7 +9,9 @@ Test connection with Databricks
 **Problem**
 ++++++
 
-When Clicking on Test Connection seeing http failure response for http://host_ip:8080/testConnection: 403 Forbidden 
+When Clicking on Test Connection seeing:
+
+http failure response for http://host_ip:8080/testConnection: 403 Forbidden 
 
 Possible causes are:
 

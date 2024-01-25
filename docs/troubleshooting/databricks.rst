@@ -14,7 +14,7 @@ When Clicking on Test Connection seeing http failure response for http://host_ip
 **Solution**
 ++++++++++
 
-Sparkflows connects to Databricks to push jobs to it, etc. Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
+Sparkflows connects to Databricks to push jobs to it, Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
 
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
 
@@ -26,6 +26,14 @@ Use the command below to get the list of Databricks clusters. It would test whet
 
 Test healthcheck from Databricks Notebook
 -----
+
+**Problem**
+++++++
+
+When submitting the job on Databricks cluster from Sparkflows UI, not seeing response back to UI. 
+
+**Solution**
+++++++++++
 
 Jobs posted to Databricks from Sparkflows push events back to Fire Insights. Hence, it is important that the Sparkflows webserver endpoint is accessible from the Databricks cluster.
 

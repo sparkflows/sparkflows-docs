@@ -73,7 +73,7 @@ Step 3 : Enter Parameter Details
         - Add some Connection Description
       * - URL
         - Jdbc url for databricks connection
-        - Add JDBC Url from the Databricks cluster
+        - Add JDBC Url from the Databricks cluster. Example: jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
 
    .. figure:: ../../_assets/installation/connection/databricks_general.PNG
       :alt: connection

@@ -73,7 +73,7 @@ Step 3 : Enter Parameter Details
         - Add some Connection Description
       * - URL
         - Jdbc url for databricks connection
-        - Add Jdbc Url for Databricks Connection
+        - Add JDBC Url from the Databricks cluster
 
    .. figure:: ../../_assets/installation/connection/databricks_general.PNG
       :alt: connection

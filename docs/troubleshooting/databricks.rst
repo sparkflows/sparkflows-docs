@@ -26,7 +26,9 @@ Sparkflows connects to Databricks to push jobs to it, Hence we have to make sure
 
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
 
-  * curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get -H "Authorization: Bearer Databricks_Token"
+::
+
+      curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get -H "Authorization: Bearer Databricks_Token"
 
 .. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring.
 

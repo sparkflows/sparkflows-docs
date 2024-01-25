@@ -27,7 +27,7 @@ Possible causes are:
 **Solution**
 ++++++++++
 
-Sparkflows connects to Databricks to push jobs to it, Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
+Sparkflows connects to Databricks to push jobs to it, Hence we have to make sure that Databricks REST API is accessble from the Sparkflows machine.
 
 Use the command below to check network connectivity:
 

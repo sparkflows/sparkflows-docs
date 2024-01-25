@@ -35,7 +35,7 @@ Use the command below to from Databricks notebook to check if the Fire Insights 
 Test Connection from Databricks Notebook to Endpoint service URL
 ----
 
-We need to Ensure that Endpoint services being used for postback url, it should have same Available zone as ec2 instance on which Fire Insights is running, else it will show empty response when running the healthcheck as above
+We need to ensure that Fire Insights endpoint being used for postback url has the same availability zone as ec2 instance on which Fire Insights is running. Otherwise it will show empty response when running the healthcheck as above
 
 .. figure:: ../_assets/operating/operations/end_2.PNG
    :alt: operations
@@ -46,7 +46,7 @@ We need to Ensure that Endpoint services being used for postback url, it should 
    :width: 60%   
 
 
-Also you need to Ensure that Endpoint services being used for postback url, it should have Enable cross-zone load balancing used for Fire Insight application, else it will show communication error.
+We also need to ensure that that Endpoint services being used for postback url has cross-zone load balancing enabled for Fire Insight application. Otherwise it will show communication error.
 
 .. figure:: ../_assets/operating/operations/cross_zone.PNG
    :alt: operations

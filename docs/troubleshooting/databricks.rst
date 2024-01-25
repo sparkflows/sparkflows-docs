@@ -11,6 +11,12 @@ Test connection with Databricks
 
 When Clicking on Test Connection seeing http failure response for http://host_ip:8080/testConnection: 403 Forbidden 
 
+Possible causes are:
+
+* The JDBC Databricks Url configured in Fire Insights is configured wrongly.
+* The Databricks Token configured in Fire Insights is configured wrongly.
+* The Databricks REST API is accessble from the Fire Insights machine.
+
 **Solution**
 ++++++++++
 
@@ -31,6 +37,11 @@ Test healthcheck from Databricks Notebook
 ++++++
 
 When submitting the job on Databricks cluster from Sparkflows UI, not seeing response back to UI. 
+
+Possible causes are:
+
+* The Postback Url configured in Fire Insights is configured wrongly.
+* The Postback Url configured in Fire Insights is not accessible from Databricks.
 
 **Solution**
 ++++++++++

@@ -54,6 +54,14 @@ Use the command below to from Databricks notebook to check if the Fire Insights 
 Test Connection from Databricks Notebook to Endpoint service URL
 ----
 
+**Problem**
+++++++
+
+When submitting the job on Databricks cluster from Sparkflows UI, not seeing response back to UI. 
+
+**Solution**
+++++++++++
+
 We need to ensure that Fire Insights endpoint being used for postback url has the same availability zone as ec2 instance on which Fire Insights is running. Otherwise it will show empty response when running the healthcheck as above
 
 .. figure:: ../_assets/operating/operations/end_2.PNG

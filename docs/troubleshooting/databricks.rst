@@ -6,11 +6,22 @@ This page lists common errors when working with Databricks on Sparkflows.
 Test connection with Databricks
 -------------
 
+**Problem**
+++++++
+
+When Clicking on Test Connection seeing http failure response for http://host_ip:8080/testConnection: 403 Forbidden 
+
+**Solution**
+++++++++++
+
 Sparkflows connects to Databricks to push jobs to it, etc. Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
 
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
 
-  * curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get -H "Authorization: Bearer xxxxx"
+  * curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get -H "Authorization: Bearer Databricks_Token"
+
+.. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring.
+
 
 
 Test healthcheck from Databricks Notebook

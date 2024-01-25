@@ -36,9 +36,9 @@ Use the command below to get the list of Databricks clusters. It would test whet
 
 ::
 
-      curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get -H "Authorization: Bearer Databricks_Token"
+      curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get?cluster_id=xxxxx -H "Authorization: Bearer Databricks_Token"
 
-.. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring.
+.. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring and update cluster_id of that cluster.
 
 
 

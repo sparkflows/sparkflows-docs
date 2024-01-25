@@ -24,6 +24,14 @@ Possible causes are:
 
 Sparkflows connects to Databricks to push jobs to it, Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
 
+Use the command below to check network connectivity:
+
+::
+
+    telnet xxxx.cloud.databricks.com 443
+
+.. note::  Make sure to change the above Databricks Workspace URL to  your Databricks Workspace
+
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
 
 ::

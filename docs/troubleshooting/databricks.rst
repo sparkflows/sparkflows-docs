@@ -60,7 +60,7 @@ Possible causes are:
 
 Jobs posted to Databricks from Sparkflows push events back to Fire Insights. Hence, it is important that the Sparkflows webserver endpoint is accessible from the Databricks cluster.
 
-Use the command below to from Databricks notebook to check if the Fire Insights REST endpoint is accessible.
+Use the command below to from Databricks notebook to check if the Sparkflows REST endpoint is accessible.
 
 ::
 
@@ -71,7 +71,7 @@ Use the command below to from Databricks notebook to check if the Fire Insights 
    :alt: operations
    :width: 80%
 
-.. note::  Make sure to change the host_ip to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the host_ip to your domain name or your IP where Sparkflows is running.
 
 
 Test Connection from Databricks Notebook to Endpoint service URL

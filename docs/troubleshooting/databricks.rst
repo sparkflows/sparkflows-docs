@@ -13,9 +13,9 @@ When Clicking on Test Connection seeing http failure response for http://host_ip
 
 Possible causes are:
 
-* The JDBC Databricks Url configured in Fire Insights is configured wrongly.
-* The Databricks Token configured in Fire Insights is configured wrongly.
-* The Databricks REST API is accessble from the Fire Insights machine.
+* The JDBC Databricks Url configured in Sparkflows is configured wrongly.
+* The Databricks Token configured in Sparkflows is configured wrongly.
+* The Databricks REST API is accessble from the Sparkflows machine.
 
 **Solution**
 ++++++++++
@@ -40,8 +40,8 @@ When submitting the job on Databricks cluster from Sparkflows UI, not seeing res
 
 Possible causes are:
 
-* The Postback Url configured in Fire Insights is configured wrongly.
-* The Postback Url configured in Fire Insights is not accessible from Databricks.
+* The Postback Url configured in Sparkflows is configured wrongly.
+* The Postback Url configured in Sparkflows is not accessible from Databricks.
 
 **Solution**
 ++++++++++

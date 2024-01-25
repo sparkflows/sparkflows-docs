@@ -1,8 +1,12 @@
 Databricks
 ===========
 
+This page lists common errors when working with Databricks on Sparkflows.
+
 Test connection with Databricks
 -------------
+
+Sparkflows connects to Databricks to push jobs to it, etc. Hence we have to make sure that Databricks REST API is accessble from the Fire Insights machine.
 
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
 
@@ -12,7 +16,9 @@ Use the command below to get the list of Databricks clusters. It would test whet
 Test healthcheck from Databricks Notebook
 -----
 
-Use the command below to get the status of healthcheck of Fire Insights application from databricks notebook
+Jobs posted to Databricks from Sparkflows push events back to Fire Insights. Hence, it is important that the Sparkflows webserver endpoint is accessible from the Databricks cluster.
+
+Use the command below to from Databricks notebook to check if the Fire Insights REST endpoint is accessible.
 
 ::
 

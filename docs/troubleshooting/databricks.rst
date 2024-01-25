@@ -30,6 +30,11 @@ Use the command below to check network connectivity:
 
     telnet xxxx.cloud.databricks.com 443
 
+
+.. figure:: ../_assets/operating/operations/telnet_dbr.PNG
+   :alt: operations
+   :width: 80%
+
 .. note::  Make sure to change the above Databricks Workspace URL to  your Databricks Workspace
 
 Use the command below to get the list of Databricks clusters. It would test whether the Databrics end point is accessible and if the token is good:
@@ -37,6 +42,10 @@ Use the command below to get the list of Databricks clusters. It would test whet
 ::
 
       curl -i https://xxxxx.azuredatabricks.net/api/2.0/clusters/get?cluster_id=xxxxx -H "Authorization: Bearer Databricks_Token"
+
+.. figure:: ../_assets/operating/operations/dbr_api.PNG
+   :alt: operations
+   :width: 80%
 
 .. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring and update cluster_id of that cluster.
 

@@ -17,7 +17,7 @@ Possible causes are:
 
 * The JDBC Databricks Url configured in Sparkflows is configured wrongly.
 * The Databricks Token configured in Sparkflows is configured wrongly.
-* The Databricks REST API is accessble from the Sparkflows machine.
+* The Databricks REST API is not accessble from the Sparkflows machine.
 
 **Solution**
 ++++++++++

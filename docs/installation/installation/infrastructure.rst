@@ -96,6 +96,32 @@ Instance Type & OS Supported
      - r5.2xlarge
      - ami-0261755bbcb8c4a84
 
+Software Specifications
+++++
+
+Ensure that you have the following prerequisites with regard to software specifications :
+
+.. list-table:: 
+   :widths: 10 40 30
+   :header-rows: 1
+
+   * - Title
+     - Details
+     - Notes
+   * - Java
+     - JDK 8
+     - Java 8 is needed
+   * - Python
+     - Python 3.7
+     - Python 3.7 is needed
+   * - Users
+     - Root access is needed during installation for installing JDK, Another user (can be called sparkflows) would be used for the installation of Sparkflows
+     - This user can be “sparkflows”
+   * - HTTPS
+     - Ensure DNS and https certificates are set up
+     - HTTPS certificate available
+
+
 Virtual networks
 ++++
 

@@ -16,4 +16,15 @@ Let’s assume the Marketing Team of an Enterprise has completed several promoti
 - The solution will recommend key actions that Marketeers can take to drive better campaigns.
 
 
-
+Solution Stages:
+--------
+1. Data Profiling
+2. Data Quality
+3. Data Preparation
+4. Feature Engineering
+5. Model Training
+6. AutoML
+7. Model Prediction
+8. Predictive Analytics
+9. Reports
+10. Analytical App

@@ -4,9 +4,10 @@ Recommended setup for deploying Fire Insights on a cloud provider in your tenant
 
 - Amazon Web Services (AWS)
 - Microsoft Azure
+- Google Cloud Platform (GCP)
 - Digital Ocean (DO)
 - International Business Machines Corporation(IBM)
-- Google Cloud Platform (GCP)
+
 
 
 Amazon Web Services (AWS)

@@ -44,6 +44,7 @@ Instance Type & OS Supported
    * - Ubuntu 20.04
      - Standard_E8bds_v5
 
+More details can be found here : https://learn.microsoft.com/en-us/azure/virtual-machines/fsv2-series
 
 Software Specifications
 ++++

@@ -35,14 +35,15 @@ Instance Type & OS Supported
 
    * - OS
      - Instance type
-   * - RHEL 8.X
-     - D4s_v3
-   * - RHEL 8.X
-     - D8s_v3
    * - Ubuntu 20.04
      - D4s_v3
    * - Ubuntu 20.04
      - D8s_v3
+   * - Ubuntu 20.04
+     - Standard_D8s_v3
+   * - Ubuntu 20.04
+     - Standard_E8bds_v5
+
 
 Software Specifications
 ++++

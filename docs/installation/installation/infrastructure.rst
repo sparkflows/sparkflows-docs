@@ -3,10 +3,11 @@ Infrastructure Deployment Requirements
 Recommended setup for deploying Fire Insights on a cloud provider in your tenant. Supported cloud providers are:
 
 - Amazon Web Services (AWS)
+- Microsoft Azure
 - Digital Ocean (DO)
 - International Business Machines Corporation(IBM)
 - Google Cloud Platform (GCP)
-- Microsoft Azure
+
 
 Amazon Web Services (AWS)
 ----
@@ -153,7 +154,7 @@ Single sign-on (SSO) enables you to authenticate your users using your organizat
 
 Reference URL : https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html
 
-Azure
+Microsoft Azure
 ----
 
 Fire Insights Infrastructure Pre-requisites for deploying on Azure:

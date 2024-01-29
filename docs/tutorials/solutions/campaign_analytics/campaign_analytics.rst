@@ -25,6 +25,7 @@ Solution Stages:
 5. Model Training
 6. AutoML
 7. Model Prediction
-8. Predictive Analytics
-9. Reports
-10. Analytical App
+8. MLOps
+9. Predictive Analytics
+10. Reports
+11. Analytical App

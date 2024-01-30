@@ -30,7 +30,7 @@ Instance type & OS Supported
 Ensure that you have the following prerequisites with regard to Instance type and OS specifications :
 
 .. list-table:: 
-   :widths: 10 20 20 20 20
+   :widths: 10 10 10 10 30
    :header-rows: 1
 
    * - OS

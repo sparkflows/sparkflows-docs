@@ -23,6 +23,7 @@ Possible causes are:
 * The Databricks Token configured in Sparkflows is configured wrongly.
 * The Databricks REST API is not accessble from the Sparkflows machine.
 * The Databricks Token configured in Sparkflows do not have sufficient permission.
+* The Load Balancer restricting X-XSRF
 
 **Solution**
 ++++++++++

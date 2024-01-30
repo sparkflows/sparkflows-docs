@@ -21,18 +21,22 @@ Let’s assume the Marketing Team of an Enterprise has completed several promoti
 
 Solution Stages:
 --------
-1. Data Profiling
-2. Data Quality
-3. Data Preparation
-4. Feature Engineering
-5. Model Training
-6. AutoML
-7. Model Prediction
-8. MLOps
-9. Predictive Analytics
-10. Reports
-11. Analytical App
+1. Data Ingestion
+2. Data Profiling
+3. Data Quality
+4. Data Preparation
+5. Feature Engineering
+6. Model Training
+7. AutoML
+8. Model Prediction
+9. MLOps
+10. Predictive Analytics
+11. Reports
+12. Analytical App
 
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_solution_stages_v2.png
+   :alt: Solution Stages
+   :width: 75%
 
 .. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_solution_stages_v1.png
    :alt: Solution Stages

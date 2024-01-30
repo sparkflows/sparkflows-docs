@@ -45,7 +45,10 @@ Droplet & OS Supported
      - Memory-Optimized 3x SSD / 32 GB
    * - Ubuntu 20.04(LTS)x64
      - Memory-Optimized 16 GB / 8 vCPUs
-   
+
+Visit `DO Documentation <https://docs.digitalocean.com/products/droplets/concepts/choosing-a-plan/>`_ to get more details.
+
+
 Virtual networks
 ++++
 

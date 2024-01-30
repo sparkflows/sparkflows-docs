@@ -15,6 +15,9 @@ Let’s assume the Marketing Team of an Enterprise has completed several promoti
 - It also uses Gen-AI features like Huggingface LLM to compute sentiment of store-wise product reviews.
 - The solution will recommend key actions that Marketeers can take to drive better campaigns.
 
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_overview_v1.png
+   :alt: Solution Stages
+   :width: 75%
 
 Solution Stages:
 --------
@@ -29,3 +32,8 @@ Solution Stages:
 9. Predictive Analytics
 10. Reports
 11. Analytical App
+
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_solution_stages_v1.png
+   :alt: Solution Stages
+   :width: 75%

@@ -25,61 +25,96 @@ The memory pre-requisites needed to run Fire Insights:
      - 500GB+
      - Depending on Job Compute, if running locally
 
-Instance Type & OS Supported
+Instance type & OS Supported
 ++++
+Ensure that you have the following prerequisites with regard to Instance type and OS specifications :
 
 .. list-table:: 
-   :widths: 10 20 30
+   :widths: 10 10 10 10 30
    :header-rows: 1
 
    * - OS
      - Instance type
+     - vCPU
+     - Memory (GiB)
      - AMI ID
    * - RHEL 8.X
      - m4.xlarge
+     - 4
+     - 16
      - ami-096fda3c22c1c990a
    * - RHEL 8.X
      - m4.2xlarge
+     - 8
+     - 32
      - ami-096fda3c22c1c990a
    * - RHEL 8.X
      - t2.xlarge
+     - 4
+     - 16
      - ami-096fda3c22c1c990a
    * - RHEL 8.X
      - t2.2xlarge
+     - 8
+     - 32
      - ami-096fda3c22c1c990a
    * - RHEL 8.X
      - t3.xlarge
+     - 4
+     - 16
      - ami-096fda3c22c1c990a 
    * - RHEL 8.X
      - t3.2xlarge
+     - 8
+     - 32
      - ami-096fda3c22c1c990a
    * - Ubuntu 20.04
      - c5a.8xlarge
+     - 32
+     - 64
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - c3.8Xlarge
+     - 32
+     - 64 
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - t2.xlarge
+     - 4
+     - 16 
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - t2.2xlarge
+     - 4
+     - 16
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - t3.xlarge
+     - 4
+     - 16
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - t3.2xlarge
+     - 8
+     - 32 
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - m5.xlarge
+     - 4
+     - 16
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - m5.2xlarge
+     - 8
+     - 32 
      - ami-0261755bbcb8c4a84
    * - Ubuntu 20.04
      - r5.2xlarge
+     - 8
+     - 64 
      - ami-0261755bbcb8c4a84
+
+Visit `AWS Documentation <https://aws.amazon.com/ec2/instance-types>`_ to get more details.
 
 Software Specifications
 ++++

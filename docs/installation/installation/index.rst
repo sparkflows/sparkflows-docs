@@ -7,15 +7,9 @@ Fire Insights can be installed using one of the below binaries and installers as
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
-   :doc:`/installation/installation/infrastructure`
+   :doc:`/installation/installation/deployment-requirements/index`
    
    Infrastructure Deployment Requirements
-   
-   ---
-
-   :doc:`/installation/installation/deployment-requirements/index`
-
-   Infrastructure deployment requirements to deploy Fire Insights on cloud providers
 
    ---
 
@@ -82,7 +76,6 @@ Fire Insights can be installed using one of the below binaries and installers as
 .. toctree::
    :hidden:
 
-   infrastructure.rst
    deployment-requirements/index.rst
    docker-windows-install.rst
    docker-linux-install.rst

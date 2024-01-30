@@ -29,18 +29,27 @@ Instance Type & OS Supported
 ++++
 
 .. list-table:: 
-   :widths: 10 30
+   :widths: 10 10 10 30
    :header-rows: 1
 
    * - OS
      - Instance type
+     - Virtual CPUs
+     - Memory (GB)
    * - Ubuntu 20.04
      - e2-standard-16
+     - 16
+     - 64
    * - Ubuntu 20.04
      - e2-standard-8
+     - 8
+     - 32
    * - Ubuntu 20.04
      - e2-standard-4
+     - 4
+     - 16
 
+Visit `GCP Documentation <https://cloud.google.com/compute/all-pricing?_ga=2.4671216.-296646568.1599141903>`_ to get more details.
 
 Software Specifications
 ++++

@@ -8,11 +8,11 @@ Run the steps which are relevant for your environment.
 1. Java Version Check
 --------
 
-Problem
+**Problem**
 +++++
 Uncertain about Java version.
 
-Solution
+**Solution**
 +++++
 Run the below to verify: 
 ::
@@ -22,11 +22,11 @@ Run the below to verify:
 
 2. Python 3.7+ Setup Check
 ------
-Problem
+**Problem**
 +++++
 Unsure if Python 3.7+ is configured.
 
-Solution
+**Solution**
 +++++
 Run the below to verify: 
 ::
@@ -36,22 +36,22 @@ Run the below to verify:
 3. Internet Access Check
 ---------------
 
-Problem
+**Problem**
 ++++++
 Doubtful about machine's internet access.
 
-Solution
+**Solution**
 +++++
 Ensure that the machine has access to the internet.
 
 4. Storage Availability Check
 -----------
 
-Problem
+**Problem**
 ++++++
 Unsure about available disk storage.
 
-Solution
+**Solution**
 ++++++
 Use the below to check:
 ::
@@ -60,11 +60,11 @@ Use the below to check:
 5. Memory and vCPU Verification
 ---------
 
-Problem
+**Problem**
 +++++
 Uncertain about memory and vCPU configuration.
 
-Solution
+**Solution**
 ++++++
 Use the below to check:
 ::
@@ -75,11 +75,11 @@ Use the below to check:
 6. Fire-UI Process Check
 --------
 
-Problem
+**Problem**
 ++++
 Uncertain if the fire-ui process is running.
 
-Solution
+**Solution**
 ++++
 Verify with the below:
 ::
@@ -90,11 +90,11 @@ Verify with the below:
 7. Fire Insights Ports Check
 --------------
 
-Problem
+**Problem**
 ++++
 Uncertain about the ports on which Fire Insights is running.
 
-Solution
+**Solution**
 ++++
 Check the configured ports.
 
@@ -103,12 +103,12 @@ Check the configured ports.
 8. SparkPi Cluster Verification
 ----------
 
-Problem
+**Problem**
 ++++++
 
 Unsure if Apache Spark cluster is set up correctly.
 
-Solution
+**Solution**
 ++++++
 
 Run SparkPi using the below:
@@ -119,11 +119,11 @@ Run SparkPi using the below:
 9. Airflow Setup Check
 --------
 
-Problem
+**Problem**
 +++++
 Uncertain if Airflow has been correctly set up.
 
-Solution
+**Solution**
 +++++
 Check if Airflow URL configured in Sparkflows is accessible from Sparkflow Machine.
 
@@ -148,11 +148,11 @@ Use MACROS
 10. Kerberos Configuration Check
 -----------
 
-Problem
+**Problem**
 +++++
 Unsure if Kerberos is set up correctly.
 
-Solution
+**Solution**
 ++++++
                    
 Check if the kerberos keytab is correct with below:
@@ -169,11 +169,11 @@ Access HDFS with below:
 11. Logs Examination for Errors
 ------------
 
-Problem
+**Problem**
 +++++
 Checking for errors in fire-ui and fire logs.
 
-Solution
+**Solution**
 +++++
 Check there are no major errors in the fire-ui log file with below:
 ::
@@ -187,11 +187,11 @@ Check there are no major errors in fire log file with below:
 
 12. HIVE Setup Verification
 ---------
-Problem
+**Problem**
 ++++++
 Uncertain about HIVE setup.
 
-Solution
+**Solution**
 +++++
 Log into HIVE via Beeline and confirm the ability to:
 
@@ -201,11 +201,11 @@ Log into HIVE via Beeline and confirm the ability to:
 13. Livy Configuration Check
 --------------
 
-Problem
+**Problem**
 ++++
 Verifying Livy configuration.
 
-Solution
+**Solution**
 +++++
 Check if SparkPi submission to Livy works good using the below:
 ::
@@ -214,11 +214,11 @@ Check if SparkPi submission to Livy works good using the below:
 14. AWS S3 Access Check
 ----------
 
-Problem
+**Problem**
 ++++++
 Confirming access to files on AWS S3.
 
-Solution
+**Solution**
 +++++
 Check if you are able to access files on S3.
 

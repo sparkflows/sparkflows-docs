@@ -160,7 +160,7 @@ By setting up SSO in Fire Insights, your users will be able to access Fire Insig
 
 - Users database
 
-  Visit `Database Authentication <https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html>`_ for more details.
+  Visit `Database Authentication Page <https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html>`_ for more details.
 
 - SAML
 

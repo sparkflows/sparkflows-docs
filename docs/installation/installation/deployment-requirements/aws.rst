@@ -114,7 +114,7 @@ Ensure that you have the following prerequisites with regard to Instance type an
      - 64 
      - ami-0261755bbcb8c4a84
 
-More details can be found here : https://aws.amazon.com/ec2/instance-types/
+Visit `AWS Documentation <https://aws.amazon.com/ec2/instance-types>`_ to get more details.
 
 Software Specifications
 ++++

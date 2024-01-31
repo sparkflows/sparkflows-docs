@@ -1,7 +1,7 @@
 Key Insights
 ============
 
-.. list-table:: 
+.. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
 

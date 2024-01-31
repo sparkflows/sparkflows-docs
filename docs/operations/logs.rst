@@ -162,5 +162,5 @@ Fire enables you to view the logs for job submitted on the cluster from UI. As a
    :alt: operations
    :width: 60%   
    
-.. note:: Above example is shown for the job submitted on databricks cluster.
+.. note:: Above example is shown for the job submitted on Databricks cluster.
 

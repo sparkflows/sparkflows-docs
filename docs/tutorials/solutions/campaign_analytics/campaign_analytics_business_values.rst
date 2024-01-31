@@ -2,17 +2,7 @@ Key Insights
 ============
 
 
-+------------------------+------------------------+
-| Descriptive Insights   | Predictive Insights   | 
-+============+============+
-| Offers are mostly utilized by the lower income group (50–74k), whereas 200-249k group has the least utilization | First Customer Segment exhibits customers with high spending behavior is primarily driven by the age group 45-54  | 
-+------------+------------+
-| body row 1 | column 2   |
-+------------+------------+
-| body row 1 | column 2   |
-+------------+------------+
-| body row 1 | column 2   |
-+------------+------------+
+
 
 
 .. list-table:: Title

@@ -16,11 +16,6 @@ Tutorials
 
     ---
 
-    :doc:`/tutorials/data-engineeringII/index`   
-          
-
-    ---
-
     :doc:`/tutorials/control-structures/index`
     
     ---
@@ -90,6 +85,7 @@ Tutorials
    languages/index.rst
    streaming/index.rst
    ocr/index.rst
+   solutions/index.rst
    
 
 

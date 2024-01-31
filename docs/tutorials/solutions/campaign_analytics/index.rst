@@ -1,4 +1,4 @@
-Code - SQL, Python, Scala
+AI-driven Marketing Campaign Analytics 
 ==========
 
 .. panels::

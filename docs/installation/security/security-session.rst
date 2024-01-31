@@ -11,7 +11,7 @@ Go to ``fire-x.y.z/conf/application.properties`` and set the below configuration
 
 ::
 
-    fire.cors.enable=true
+    fire.cors.enable=false
     fire.security.csrf.enable=true
     server.cookie.secure=true
     server.cookie.secure.httpOnly=true

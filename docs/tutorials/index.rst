@@ -45,12 +45,6 @@ Tutorials
       
     ---  
     
-    
-    :doc:`/tutorials/end-to-end/index`
-    
-      
-    ---  
-    
     :doc:`/tutorials/time-series/index`
     
       
@@ -71,7 +65,10 @@ Tutorials
     :doc:`/tutorials/ocr/index`
     
     
-  
+    ---  
+    
+    
+    :doc:`/tutorials/solutions/index`
     
     
     

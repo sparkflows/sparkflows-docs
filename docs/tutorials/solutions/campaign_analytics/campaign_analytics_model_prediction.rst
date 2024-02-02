@@ -10,10 +10,5 @@ Sentiment Prediction is performed using 'HuggingFace Sentiment Analysis' Node.
    :alt: Sentiment Prediction
    :width: 75%
 
-Cluster Creation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_household_clusters_v1.png
-   :alt: Cluster Creation
-   :width: 75%
 

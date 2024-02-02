@@ -40,6 +40,21 @@ Sentiment Analysis
    :alt: Sentiment Prediction
    :width: 75%
 
+Lets now visualize the results of sentiment analysis.
+
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_sentiment_report_v1.png
+   :alt: Sentiment Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_sentiment_report_v2.png
+   :alt: Sentiment Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_sentiment_report_v3.png
+   :alt: Sentiment Prediction
+   :width: 75%
+
 Churn Prediction Analysis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

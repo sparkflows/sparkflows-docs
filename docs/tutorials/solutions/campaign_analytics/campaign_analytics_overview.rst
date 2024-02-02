@@ -1,15 +1,18 @@
-How to build a solution for campaign analytics ?
+Overview
 ==================
+
+Maketing Campaign Analytics for Retail Customers.
 
 Objective:
 --------
-Allow Retail Marketing team to create targeted offers for right customer segments based on the responsiveness of promotional offers and effectiveness of coupons.
+Extract necessary business insights from the responses to promotional offers and coupons by customers participating in marketing campaigns.
+Predictive and descriptiove insights will allow the Retail Marketing team to create targeted offers for right customer segments based on the purchase behaviour.
 
-Solution Overview:
+Solution Approach:
 --------
-Let’s assume the Marketing Team of an Enterprise has completed several promotional campaigns.
+Let’s assume the Marketing Team of an organization has completed several promotional campaigns.
 
-- We shall now build a Campaign Analytics Solution which can help the Retailers to measure the effectiveness of the campaigns. 
+- We shall build a Campaign Analytics Solution which can help the Retailers to measure the effectiveness of the campaigns. 
 - The solution will provide various functionalities like of Data Profiling, Data Validation, Model Training and Predictive Analytics.
 - The solution will identify the target segments of customer households, predict churns (based on historical campaigns, POS and promotional data).
 - It also uses Gen-AI features like Huggingface LLM to compute sentiment of store-wise product reviews.

@@ -7,13 +7,13 @@ Now lets analyze the Customers behaviours for given coupons by plotting the clus
 - Cluster-wise In-Store Discounts
 - Cluster-wise In-Store Manufacturer Redemptions
 
-.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_household_clusters_v1.png
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_analyze_clusters_v1.png
    :alt: Segment Analysis
    :width: 75%
 
 The clusters can be further analyzed by demographic catergories
 
-.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_household_clusters_v2.png
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_analyze_clusters_v2.png
    :alt: Segment Analysis
    :width: 75%
 

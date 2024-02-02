@@ -11,11 +11,11 @@ Test connection with Databricks
 
 When Clicking on Test Connection seeing:
 
-Not able to access the resource. Please check host url.
+``Not able to access the resource. Please check host url.``
 
-Invalid access token. Please check token.
+``Invalid access token. Please check token.``
 
-http failure response for http://host_ip:8080/testConnection: 403 Forbidden 
+``http failure response for http://host_ip:8080/testConnection: 403 Forbidden`` 
 
 Possible causes are:
 

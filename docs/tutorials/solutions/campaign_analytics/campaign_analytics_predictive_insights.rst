@@ -40,11 +40,42 @@ Sentiment Analysis
    :alt: Sentiment Prediction
    :width: 75%
 
-Predictive Analysis
+Churn Prediction Analysis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This workflow analyzes predicted churn data using different types of categories.
 
 .. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_predictive_analytics_customer_churn_v1.png
    :alt: Sentiment Prediction
    :width: 75%
 
+Lets now visualize the results of churn prediction analysis.
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_churn_analysis_v1.png
+   :alt: Churn Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_churn_analysis_v2.png
+   :alt: Churn Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_churn_analysis_v3.png
+   :alt: Churn Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_churn_analysis_v4.png
+   :alt: Churn Prediction
+   :width: 75%
+
+
+Coupon Redemption Prediction Analysis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_coupon_prediction_v2.png
+   :alt: Coupon Redemption Prediction
+   :width: 75%
+
+.. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_coupon_usage_prediction_v1.png
+   :alt: Coupon Redemption Prediction
+   :width: 75%
 

@@ -14,6 +14,6 @@ Cluster Creation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_household_clusters_v1.png
-   :alt: Cluster Prediction
+   :alt: Cluster Creation
    :width: 75%
 

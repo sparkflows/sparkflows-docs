@@ -55,6 +55,18 @@ Use the command below to get the list of Databricks clusters. It would test whet
 
 .. note::  Make sure to change the Databricks host URL to  your Databricks Workspace url Configuring and update cluster_id of that cluster.
 
+Use the command below to Test Databricks connection. It would test whether the Databrics end point is accessible and post request is good:
+
+::
+
+      curl --location 'http://sparkflows_host/api/v1/connections/test' --header 'token: sparkflows_token' --header 'Content-Type: application/json' --data '{"credentialStoreId":-1,"id":1,"url":"JDBC Databricks URL","password":"Databricks_Token","connectionType":"databricks","authenticationType":"USER_CREDENTIAL"}'
+
+
+.. figure:: ../_assets/operating/operations/databricks_curl_post.PNG
+   :alt: operations
+   :width: 80%
+
+.. note::  Make sure to change the **sparkflows_host**, **sparkflows_token**, **JDBC Databricks URL** and **Databricks_Token** with absolute value you are configuring.
 
 
 Test healthcheck from Databricks Notebook
@@ -79,7 +91,7 @@ Use the command below to from Databricks notebook to check if the Sparkflows RES
 
 ::
 
-    %sh curl --location --request GET 'http://host_ip:8080/healthcheck'
+    %sh curl --location --request GET 'http:/:8080/healthcheck'
     
     
 .. figure:: ../_assets/operating/operations/healthcheck.PNG

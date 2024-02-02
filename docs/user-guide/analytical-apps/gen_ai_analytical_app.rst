@@ -1,3 +1,3 @@
-How to build analytical app for generative ai solution ?
+How to build Analytical App for a Generative AI Solution ?
 ========================================================
 

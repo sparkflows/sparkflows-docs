@@ -1,52 +1,80 @@
-AI-driven Marketing Campaign Analytics 
+How to build and launch a Business Solution in Sparkflows ?
 ==========
+
+In this user guide, we shall learn the steps for building the Marketing Campaign Analytics Business Solution.
 
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_overview`
+    :doc:`/user-guide/solutions/campaign_analytics_overview`
 
     Overview
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_data_ingestion`
+    :doc:`/user-guide/solutions/campaign_data_ingestion`
+
+    Data Ingestion
 
     ---  
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_data_profiling`
+    :doc:`/user-guide/solutions/campaign_analytics_data_profiling`
+
+    Data Profiling
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_data_quality`
+    :doc:`/user-guide/solutions/campaign_analytics_data_quality`
+
+    Data Quality
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_data_preparation`
+    :doc:`/user-guide/solutions/campaign_analytics_data_preparation`
+
+    Data Preparation
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_feature_engineering`
+    :doc:`/user-guide/solutions/campaign_analytics_exploratory_analysis`
+
+    Exploratory Daya Analysis 
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_model_training`
+    :doc:`/user-guide/solutions/campaign_analytics_feature_engineering`
+
+    Feature Engineering
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_mlops`
+    :doc:`/user-guide/solutions/campaign_analytics_model_training`
+
+    ML Model Training
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_predictive_insights`
+    :doc:`/user-guide/solutions/campaign_analytics_mlops`
+
+    MLOps
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_analytical_app`
+    :doc:`/user-guide/solutions/campaign_analytics_predictive_insights`
+
+    Predictive Analytics
 
     ---
 
-    :doc:`/tutorials/solutions/campaign_analytics/campaign_analytics_business_values`
+    :doc:`/user-guide/solutions/campaign_analytics_analytical_app`
+
+    Analytical Apps
+
+    ---
+
+    :doc:`/user-guide/solutions/campaign_analytics_business_values`
+
+    Business Insights
 
 .. toctree::
    :hidden:
@@ -56,6 +84,7 @@ AI-driven Marketing Campaign Analytics
    campaign_analytics_data_profiling.rst
    campaign_analytics_data_quality.rst
    campaign_analytics_data_preparation.rst
+   campaign_analytics_exploratory_analysis.rst
    campaign_analytics_feature_engineering.rst
    campaign_analytics_model_training.rst
    campaign_analytics_mlops.rst

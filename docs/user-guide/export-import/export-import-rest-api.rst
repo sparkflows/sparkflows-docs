@@ -8,5 +8,5 @@ Export or Import process can be automated by writing a program which interacts w
 Examples
 --------
 
-Below are some examples of Python programs for export or import.
+Examples of Python programs for export or import can be found at : https://github.com/sparkflows/fire-tools/tree/main/rest-api-scripts
 

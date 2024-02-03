@@ -60,12 +60,6 @@ Tutorials
     :doc:`/tutorials/ocr/index`
     
     
-    ---  
-    
-    
-    :doc:`/tutorials/solutions/index`
-    
-    
     
     
 .. toctree::
@@ -85,7 +79,6 @@ Tutorials
    languages/index.rst
    streaming/index.rst
    ocr/index.rst
-   solutions/index.rst
    
 
 

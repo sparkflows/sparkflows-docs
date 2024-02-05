@@ -5,7 +5,7 @@ Analytical Apps Designer enable Data Scientists and Data Analysts to build Analy
 
 With Analytical Apps, the Business users get a powerful interface to interact with for specific problems. Examples of Analytical Apps can be AI Apps like Customer Segmentation, Price Elasticity, Demand Forcasting etc. They can also be Gen AI Apps like Language Translation, Content Summarization, Keyword Extraction etc.
 
-In the Sparkflows Analytical Apps Designer, the front end is built with drag and drop. The front end can also have Javascript code for advanced interactions. The backend can be the workflows or code writtent in Notebooks.
+In the Sparkflows Analytical Apps Designer, the front end is built with drag and drop. The front end can also have Javascript code for advanced interactions. The backend can be the workflows or code written in Notebooks.
 
 .. panels::
     :container: container-lg pb-3

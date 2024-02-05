@@ -68,7 +68,7 @@ Use the command below to Test Databricks connection. It would test whether the D
 
 .. note::  Make sure to change the **sparkflows_host**, **sparkflows_token**, **JDBC Databricks URL** and **Databricks_Token** with absolute value you are configuring.
 
-Make sure to disable ``Inspect request body`` in Global Parameter, if you are using azure application gateway with WAF2
+Make sure to disable ``Inspect request body`` in Global Parameters, if you are using azure application gateway with WAF2
 
 .. figure:: ../_assets/operating/operations/request_body.PNG
    :alt: operations

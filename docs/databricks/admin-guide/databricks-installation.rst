@@ -97,15 +97,17 @@ Follow these steps to create your token:
       :width: 60%
 
 
-Step 6 : Create Databricks Connection in Fire Insights
+Step 4 : Create Databricks Connection in Fire Insights
 ^^^^^^^^^^^^^^
 
 The connection can be created by the **Administrator** under **Administration/Global Connections**. These connections are available for everyone to use. It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
 
 Refer the below table for more details on parameter settings:
 
+GENERAL Tab :
+
 .. list-table:: 
-   :widths: 25 25 50
+   :widths: 10 20 20
    :header-rows: 1
 
    * - Title
@@ -113,13 +115,16 @@ Refer the below table for more details on parameter settings:
      - Value
    * - CREDENTIAL STORE  
      - Select the Credential Store from drop-down
-     - Choose specific Credential Store from drop-down or select Do not use Credential Store
+     - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+   * - Select Category
+     - Select Category of Connection Type
+     - Select Compute Connection
    * - CONNECTION TYPE 
      - Select the Connection type from drop-down
      - Choose Databricks as Connection Type
    * - CONNECTION NAME
      - Connection Name
-     - Add a unique Connection Name
+     - Add an unique Connection Name
    * - TOKEN 
      - Token
      - Add token generated
@@ -128,17 +133,50 @@ Refer the below table for more details on parameter settings:
      - Add Fire Insights Post Back URL
    * - TITLE 
      - Title for selected Connection
-     - Add a unique Title
+     - Add an unique Title
    * - DESCRIPTION
      - Connection Description
      - Add some Connection Description
    * - URL
-     - JDBC URL for databricks connection
-     - Add JDBC URL for Databricks Connection
+     - Jdbc url for databricks connection
+     - Add Jdbc Url for Databricks Connection
      
-.. figure:: ../../_assets/configuration/connection_databricks.PNG
-      :alt: Databricks Connection
-      :width: 60%
+.. figure:: ../../_assets/installation/connection/databricks_general.PNG
+   :alt: connection
+   :width: 60%    
+
+For more details on creating Databricks connection refer the following image:
+
+DATABRICKS Tab :
+
+.. list-table:: 
+   :widths: 10 20 20
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Fire core jar
+     - path of Fire core jar dependencies
+     - Absolute path of Fire core jar  
+   * - Python file
+     - path of Pyspark main file
+     - Absolute path of Pyspark main file
+   * - Fire pyspark libraries
+     - path of Fire pyspark libraries
+     - Absolute path of Fire pyspark libraries
+   * - DBFS Scratch directory
+     - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
+     - Absolute path ex. dbfs:/FileStore
+
+
+.. figure:: ../../_assets/installation/connection/databricks_other.PNG
+   :alt: connection
+   :width: 60%    
+
+2.  Test & Save the Connection
+
+Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
 
 More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 

@@ -118,6 +118,13 @@ MLOps Guide
 
    mlops/index
 
+What-if
+-------
+.. toctree::
+   :maxdepth: 2
+
+   what-if/index
+
 Change Data Capture
 ----------
 .. toctree::

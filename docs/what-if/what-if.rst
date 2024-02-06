@@ -1,4 +1,4 @@
-What-if analysis
+What-if Analysis
 ======
 
 What-If Analysis is a powerful technique that allows users to explore and evaluate the potential outcomes of different scenarios by altering input variables or conditions, providing valuable insights into decision-making processes and model behavior. It serves as a crucial tool in fields like finance, engineering, and data science, helping analysts and decision-makers anticipate and prepare for various possible situations.
@@ -36,44 +36,44 @@ Incorporating What-If Analysis into your machine learning workflow with Sparkflo
 
   .. figure:: ../_assets/what-if/whatif-1.png
      :alt: What-If
-     :width: 80%
+     :width: 65%
 
 **Step 2. The user can select the dataset and engine to perform the What-if analysis as seen in the screenshot below and then click on Run**:
 
   .. figure:: ../_assets/what-if/whatif-2-select-dataset-engine.png
      :alt: What-If
-     :width: 80%
+     :width: 65%
 
 **Step 3. Clicking on Run above performs the summary statistic computation on the data and automatically creates the dropdown for categorical features and sliders for numerical features as seen below**:
 
   .. figure:: ../_assets/what-if/whatif-3-auto-creates-sliders-dropdown.png
      :alt: What-If
-     :width: 80%
+     :width: 20%
 
   .. figure:: ../_assets/what-if/whatif-3-auto-creates-sliders-dropdown-2.png
      :alt: What-If
-     :width: 80%
+     :width: 20%
 
 **Step 4. Clicking on Run above performs the summary statistic computation on the data which can be seen in the Features tab**:
 
   .. figure:: ../_assets/what-if/whatif-4-features-metadata.png
      :alt: What-If
-     :width: 80%
+     :width: 65%
 
 **Step 5. User can choose the values in the sliders and dropdowns and click on score to see the prediction along with shapley values to udnerstand the outcome**:
 
   .. figure:: ../_assets/what-if/whatif-5-choose-value-slider.png
      :alt: What-If
-     :width: 80%
+     :width: 20%
 
 **Step 6A. What-if analysis on Regression use case**:
 
   .. figure:: ../_assets/what-if/whatif-6-click-on-score-gets-shapley-contributions-regression.png
      :alt: What-If
-     :width: 80%
+     :width: 65%
 
 **Step 6B. What-if analysis on Binomial Classification use case**:
 
   .. figure:: ../_assets/what-if/whatif-7-click-on-score-gets-shapley-contributions-classification.png
      :alt: What-If
-     :width: 80%
+     :width: 65%

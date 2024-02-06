@@ -75,6 +75,7 @@ DATABRICKS Tab :
      - Absolute path of Fire pyspark libraries
    * - DBFS Scratch directory
      - Scratch directory on DBFS where it have Read/Write/Delete Permissions.
+     - Absolute path ex. dbfs:/FileStore
 
 
 .. figure:: ../../../_assets/installation/connection/databricks_other.PNG

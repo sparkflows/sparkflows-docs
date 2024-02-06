@@ -63,31 +63,8 @@ You can do this by following these steps:
 
    .. note:: This option is not compatible with clusters using Runtime version 7.0 or higher.
    
-Step 3 : Configure Uploaded Library in Fire Insights
-^^^^^^^^^^^^^^^
 
-Configure the path of the uploaded fire core JAR library in Databricks in Fire Insights.
-
-To configure the path, navigate to **Administration** --> **Configuration** --> **Databricks**
-
-.. figure:: ../../_assets/configuration/databricks_configuration.PNG
-   :alt: Databricks
-   :width: 60%
-   
-   
-Step 4 : Configure app.postMessageURL in Fire Insights
-^^^^^^^^^^^^^^^^^^^^
-
-Configure **app.postMessageURL** to be the IP of the machine on which Fire Insights is installed. 
-
-Jobs running on Databricks would post back results to the Fire Insights using this URL, this can be added in Databricks connection, for detail see Step 6.
-
-.. figure:: ../../_assets/configuration/Fireui_postbackurl.PNG
-   :alt: Postback URL
-   :width: 60%
-
-
-Step 5 : Create REST API Token in Databricks
+Step 3 : Create REST API Token in Databricks
 ^^^^^^^^^^^^^^
 
 To facilitate communication between Fire Insights and Databricks via REST API calls, a token must be generated in your Databricks account. 
@@ -163,9 +140,9 @@ Refer the below table for more details on parameter settings:
       :alt: Databricks Connection
       :width: 60%
 
-More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-connections.html>`_
+More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 
-.. note:: Please make sure to specify a POSTBACK URL. This is the address where results from Databricks jobs will be sent to Fire Insights. If you don't provide one, the system will automatically use the **app.postMessageURL** you set earlier.
+.. note:: Please make sure to specify a POSTBACK URL. This is the address where results from Databricks jobs will be sent to Fire Insights. If you don't provide one, the system will automatically use the **app.postMessageURL** updated by default in configurations.
 
 With these steps completed, you're now ready to harness the power of the Databricks Connection within Fire Insights. This integration allows you to seamlessly:
 

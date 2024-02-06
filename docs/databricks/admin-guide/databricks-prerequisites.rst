@@ -7,7 +7,7 @@ Prerequisites
 Below are the prerequisites for installing Fire Insights on a Databricks Cluster:
 
 .. list-table::
-   :widths: 10 20 40
+   :widths: 15 20 40
    :header-rows: 1
 
    * - Package

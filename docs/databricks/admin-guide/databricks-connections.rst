@@ -73,7 +73,7 @@ Step 3 : Enter Parameter Details
         - Add some Connection Description
       * - URL
         - Jdbc url for databricks connection
-        - Add JDBC Url from the Databricks cluster. Example: jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
+        - Add JDBC Url from the Databricks cluster. Example: jdbc:spark://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
 
    .. figure:: ../../_assets/installation/connection/databricks_general.PNG
       :alt: connection
@@ -116,6 +116,8 @@ Step 4 : Test and Save Connection
    Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
 
 .. note:: Make sure to add a POSTBACK URL through which jobs running on Databricks will post back results to Sparkflows. Otherwise, it will use the URL specified in app.postMessageURL in the configuration.
+
+More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 
 
 Setting Current Connection

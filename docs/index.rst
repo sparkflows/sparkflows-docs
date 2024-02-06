@@ -119,7 +119,7 @@ MLOps Guide
    mlops/index
 
 What-if Analysis Guide
--------
+-------------------
 .. toctree::
    :maxdepth: 2
 

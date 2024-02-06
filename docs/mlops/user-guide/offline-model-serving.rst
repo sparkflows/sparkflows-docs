@@ -6,7 +6,7 @@ Once the training workflow completes, the model is saved into the Sparkflows mod
 As Sparkflows Score Workflow
 ---------
   * The model can be loaded in a Sparkflows workflow and then it can be used to score new data. 
-  * The same scoring workflow can be triggered via REST API to score the data.
+  * The scoring workflow can also be triggered via REST API to score the data.
 
     .. figure:: ../../_assets/mlops/mlops_workflow_score.png
        :alt: Load balancers

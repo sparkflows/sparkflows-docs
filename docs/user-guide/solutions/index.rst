@@ -1,7 +1,7 @@
-How to build and launch a Business Solution in Sparkflows ?
+Solution Development
 ==========
 
-In this user guide, we shall learn the steps for building the Marketing Campaign Analytics Business Solution.
+In this user guide, we shall learn the steps for creating a Business Solution.
 
 .. panels::
     :container: container-lg pb-3

@@ -8,6 +8,12 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
+    :doc:`/user-guide/generative-ai/gen-ai-overview`
+
+    Generative AI Overview
+
+    ---
+
     :doc:`/user-guide/generative-ai/gen-ai-processors`
 
     Generative AI Processors
@@ -22,6 +28,7 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 .. toctree::
    :hidden:
 
+   gen-ai-overview.rst
    gen-ai-processors.rst
    gen-ai-nlq.rst
 

@@ -98,14 +98,14 @@ Use the command below to from Databricks notebook to check if the Sparkflows RES
 
 ::
 
-    %sh curl --location --request GET 'http:/:8080/healthcheck'
+    %sh curl --location --request GET 'http:/sparkflows_host:8080/healthcheck'
     
     
 .. figure:: ../_assets/operating/operations/healthcheck.PNG
    :alt: operations
    :width: 80%
 
-.. note::  Make sure to change the host_ip to your domain name or your IP where Sparkflows is running.
+.. note::  Make sure to change the ``sparkflows_host`` to your domain name or your IP where Sparkflows is running.
 
 
 Test Connection from Databricks Notebook to Endpoint service URL

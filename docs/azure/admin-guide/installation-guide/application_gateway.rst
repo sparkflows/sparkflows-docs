@@ -19,6 +19,10 @@ Step 1 : Login to Azure portal and add Application gateways
       :width: 60%
       :alt: Basic Configuration
 
+Step 2 : Create an application gateway
+-----------------
+
+
 #. Navigate to  **Create an application gateway**.
 
    .. figure:: ../../../_assets/azure/app_detail.PNG
@@ -28,6 +32,10 @@ Step 1 : Login to Azure portal and add Application gateways
    .. figure:: ../../../_assets/azure/app_more_details.PNG
       :width: 60%
       :alt: Basic Configuration
+
+Step 3 : Configure Application gateway
+-----------------
+
 
 #. Navigate to  **Configuration** in Application gateway.
 

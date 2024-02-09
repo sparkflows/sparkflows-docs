@@ -24,7 +24,7 @@ Azure Admin Guide
 
     ---
 
-    :doc:`/azure/admin-guide/installation-guide/application_gateway`
+    :doc:`/azure/admin-guide/application_gateway`
 
     Configure Application gateway on Azure.
 

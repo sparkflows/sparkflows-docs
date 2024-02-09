@@ -17,9 +17,16 @@ Azure Admin Guide
 
     ---
 
+
     :doc:`/azure/admin-guide/installation-guide/index`
 
     Deploy Sparkflows on Azure.
+
+    ---
+
+    :doc:`/azure/admin-guide/installation-guide/application_gateway`
+
+    Configure Application gateway on Azure.
 
     ---
 
@@ -40,5 +47,6 @@ Azure Admin Guide
    overview.rst
    Infrastructure-azure.rst
    installation-guide/index.rst
+   application_gateway.rst
    access-and-reload.rst
    azure-databricks.rst

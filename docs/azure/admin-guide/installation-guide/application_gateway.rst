@@ -25,3 +25,6 @@ Step 1 : Login to Azure portal and add Application gateways
       :width: 60%
       :alt: Basic Configuration
 
+   .. figure:: ../../../_assets/azure/app_more_details.PNG
+      :width: 60%
+      :alt: Basic Configuration

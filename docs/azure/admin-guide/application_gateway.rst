@@ -1,7 +1,7 @@
 Application gateways
 ========
 
-This document describes the steps for Configuring Fire Insights with Application gateways.
+This document describes the steps for Configuring Fire Insights running on a virtual machine with Application gateways.
 
 Step 1 : Login to Azure portal
 -----------------

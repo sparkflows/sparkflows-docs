@@ -20,9 +20,21 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
     ---
 
+    :doc:`/user-guide/generative-ai/gen-ai-implementations`
+
+    Generative AI Sample Apps
+
+    ---
+
     :doc:`/user-guide/generative-ai/gen-ai-nlq`
 
     NLQ Processor and App
+
+    ---
+
+    :doc:`/user-guide/generative-ai/gen-ai-gaichatbot`
+
+    GAI Chatbot
 
 
 .. toctree::
@@ -30,6 +42,8 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
    gen-ai-overview.rst
    gen-ai-processors.rst
+   gen-ai-implementations.rst
    gen-ai-nlq.rst
+   gen-ai-gaichatbot.rst
 
 

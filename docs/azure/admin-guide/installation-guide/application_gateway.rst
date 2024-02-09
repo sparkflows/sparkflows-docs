@@ -9,12 +9,19 @@ Step 1 : Login to Azure portal and add Application gateways
 #. Navigate to **Virtual Machine**.
 #. Navigate to **Load Balancing**.
 
-   .. figure:: ../../_assets/azure/app_loadbalancer.PNG
+   .. figure:: ../../../_assets/azure/app_loadbalancer.PNG
       :width: 60%
       :alt: Basic Configuration
 
 #. Navigate to **Add load balancing >> Create new >> Application Gateway**.
 
-   .. figure:: ../../_assets/azure/app_gateway.PNG
+   .. figure:: ../../../_assets/azure/app_gateway.PNG
       :width: 60%
       :alt: Basic Configuration
+
+#. Navigate to  **Create an application gateway**.
+
+   .. figure:: ../../../_assets/azure/app_detail.PNG
+      :width: 60%
+      :alt: Basic Configuration
+

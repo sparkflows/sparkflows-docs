@@ -13,3 +13,8 @@ Step 1 : Login to Azure portal and add Application gateways
       :width: 60%
       :alt: Basic Configuration
 
+#. Navigate to **Add load balancing >> Create new >> Application Gateway**.
+
+   .. figure:: ../../_assets/azure/app_gateway.PNG
+      :width: 60%
+      :alt: Basic Configuration

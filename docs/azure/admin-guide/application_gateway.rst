@@ -8,7 +8,7 @@ Step 1 : Login to Azure portal
 #. Login to **Azure Dashboard**.
 #. Navigate to **Virtual Machine**.
 
-Select Virtual Machine where Fire Insights application is running.
+   Select Virtual Machine where Fire Insights application is running.
 
 #. Navigate to **Load Balancing**.
 

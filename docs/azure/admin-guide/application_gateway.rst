@@ -3,7 +3,7 @@ Application gateways
 
 This document describes the steps for Configuring Fire Insights with Application gateways.
 
-Step 1 : Login to Azure portal and add Application gateways
+Step 1 : Login to Azure portal
 -----------------
 #. Login to **Azure Dashboard**.
 #. Navigate to **Virtual Machine**.

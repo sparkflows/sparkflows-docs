@@ -55,6 +55,8 @@ This Analytical App can be used for the followings:
 
 **Introduction**
 
+* Introduction of the app
+
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/sample-implementations/Earning-Call-Transcript-Introduction.png
      :alt: genai-implementations-userguide
      :width: 65%

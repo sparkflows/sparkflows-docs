@@ -45,7 +45,7 @@ Step 3 : Configure Application gateway
 
 #. Navigate to  **Web application firewall**.
 
-Disabled ``Inspect request body`` in ``Global parameters``
+Disabled **Inspect request body** in **Global parameters**
 
    .. figure:: ../../_assets/azure/app_firewall.PNG
       :width: 60%
@@ -54,12 +54,12 @@ Disabled ``Inspect request body`` in ``Global parameters``
 Step 4 : Access Fire Insight application using Application gateway
 -----------------
 
-Now you Access Fire Insight application using ``Application gateway ip``
+Now you Access Fire Insight application using **Application gateway ip**
 
 ::
 
     http://application_gateway_ip
 
-.. Note:: Make sure to change ``application_gateway_ip`` with actual ip
+.. Note:: Make sure to change **application_gateway_ip** with actual ip
 
 

@@ -34,3 +34,13 @@ Step 1 : Login to Azure portal and add Application gateways
    .. figure:: ../../../_assets/azure/app_waf2.PNG
       :width: 60%
       :alt: Basic Configuration
+
+#. Navigate to  **Web application firewall**.
+
+Disabled ``Inspect request body`` in ``Global parameters``
+
+   .. figure:: ../../../_assets/azure/app_firewall.PNG
+      :width: 60%
+      :alt: Basic Configuration
+
+

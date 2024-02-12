@@ -1,4 +1,4 @@
-Application gateways
+Application Gateways
 ========
 
 This document describes the steps for Configuring Fire Insights running on a virtual machine with Application gateways.

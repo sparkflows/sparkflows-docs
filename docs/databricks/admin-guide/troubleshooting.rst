@@ -60,6 +60,9 @@ Databricks Cluster Versions Support
    * - Databricks Runtime Version 
      - Spark Version    
      - Scala Version
+   * - 10.4 
+     - 3.2.1 
+     - 2.12
    * - 7.3 
      - 3.0.1 
      - 2.12

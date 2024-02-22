@@ -29,6 +29,14 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
 
     ---
 
+    :doc:`/user-guide/variables/index`
+
+    ---
+
+    :doc:`/user-guide/control-structures/index`
+
+    ---
+
     :doc:`/user-guide/data-visualization/index`
 
     ---
@@ -126,6 +134,7 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    reading-writing/index
    connectors/index
    data-preparation/index
+   variables/index
    control-structures/index
    data-visualization/index
    data-profile/index

@@ -1,2 +1,2 @@
-Node Variables
+Node 
 ==========

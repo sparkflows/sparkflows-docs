@@ -1,5 +1,5 @@
 Control Structures
-==========
+=============
 
 Fire Insights provides a number of processors for controlling the execution flow. These include Execute in Loop, Specify Parameters, Read Parameters.
 
@@ -7,11 +7,11 @@ Fire Insights provides a number of processors for controlling the execution flow
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/control-structures/executeloop`
+    :doc:`/user-guide/control-structures/executeloop`
 
     ---
 
-    :doc:`/control-structures/condition`
+    :doc:`/user-guide/control-structures/condition`
 
 
 

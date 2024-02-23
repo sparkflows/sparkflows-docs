@@ -50,9 +50,10 @@ Step 2 : Configure ADLS
 #. Login to Sparkflows.
 #. Access Sparkflows **Administration** Tab.
 
-.. figure:: ../../_assets/aws/livy/administration.png
+   .. figure:: ../../_assets/aws/livy/administration.png
       :alt: livy
       :width: 60%
+
 
 
 #. Select **Configurations** Tab.

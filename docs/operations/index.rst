@@ -37,7 +37,7 @@ Operations
     
     ---
        
-    :doc:`/operations/performance`
+    :doc:`/operations/performance/index`
     
     ---
     

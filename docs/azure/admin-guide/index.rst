@@ -36,6 +36,13 @@ Azure Admin Guide
 
     ---
 
+    :doc:`/azure/admin-guide/adls`
+
+    Configured ADLS in Sparkflows.
+
+    ---
+
+
     :doc:`/azure/admin-guide/azure-databricks`
 
     Databricks Job submission.
@@ -49,4 +56,5 @@ Azure Admin Guide
    installation-guide/index.rst
    application_gateway.rst
    access-and-reload.rst
+   adls.rst
    azure-databricks.rst

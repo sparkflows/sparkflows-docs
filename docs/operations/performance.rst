@@ -28,3 +28,15 @@ above parameter can be updated in ``run-fire.sh`` and restrt the Fire server
 ::
 
     nohup java -Xmx2548m -Xms1356m -XX:+CMSClassUnloadingEnabled -Dlog4j.configuration=file:conf/log4j-fire.properties -cp app/fire-spark_3.2.1-server-3.1.0-jar-with-dependencies.jar:fire-user-lib/* fire.httpserver.Fire $port > /dev/null &
+
+Running in Local Mode
++++++++
+
+When running in local mode, Fire Insights spawns a new process for executing the job on to the local machine.
+
+You can pass ``-Xmx2548m -Xms1356m`` to specify the min and max heap size of the process in the case of Scala/Java workflows.
+
+In the case of Python workflows, no specific memory parameters are specified.
+
+
+

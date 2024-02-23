@@ -32,3 +32,8 @@ The Azure pre-requisites needed to Configure ADLS in Fire Insights:
    * - Azure ADLS Access Type		
      - Azure ADLS can be accessed in many ways but currently supporting servicePrincipal and managedIdentity.	
      - Value should be either servicePrincipal or managedIdentity
+
+Configuring ADLS in Fire Insights
++++++++++++++++
+
+Once the above pre-requisites from Azure is available, you can Configure ADLS in Fire Insights using below steps:

@@ -1,23 +1,25 @@
-Performance
+Server Processes
 =====
 
-Fire Insights performance can be increase if the machine memory is high and not being used:
+Fire Insights has a server process on each VM and also helper processes running on the machine.
 
-Fire UI
+Fire Server
 ++++
 
-By default fire-ui maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
+By default the fire server maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
 
 you can increase maximum to ``-Xmx8192m``
 
-above parameter can be updated in ``run-fire-server.sh`` and restrt the Fire server
+above parameter can be updated in ``run-fire-server.sh`` and restart the Fire server
 
 ::
 
     nohup ${JAVA} -Dloader.path="fire-server-lib/"  -Dloader.debug=true -Dcom.amazonaws.sdk.disableCertChecking=true -Dlogging.config=file:./conf/logback-spring.xml -Xmx2548m -Xms1356m -XX:+CMSClassUnloadingEnabled -jar ./app/fire-ui.jar   --spring.config.name=application,db,sso.saml,keystore,ldap --spring.config.location=file:./conf/  > /dev/null &
 
-Fire 
+Helper Processes 
 ++++
+
+The Fire Server spawns helper processes. These can be Java/Scala processes or Pythong processes.
 
 By default fire maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
 
@@ -28,15 +30,5 @@ above parameter can be updated in ``run-fire.sh`` and restrt the Fire server
 ::
 
     nohup java -Xmx2548m -Xms1356m -XX:+CMSClassUnloadingEnabled -Dlog4j.configuration=file:conf/log4j-fire.properties -cp app/fire-spark_3.2.1-server-3.1.0-jar-with-dependencies.jar:fire-user-lib/* fire.httpserver.Fire $port > /dev/null &
-
-Running in Local Mode
-+++++++
-
-When running in local mode, Fire Insights spawns a new process for executing the job on to the local machine.
-
-You can pass ``-Xmx2548m -Xms1356m`` to specify the min and max heap size of the process in the case of Scala/Java workflows.
-
-In the case of Python workflows, no specific memory parameters are specified.
-
 
 

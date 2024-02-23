@@ -58,4 +58,30 @@ Step 2 : Configure ADLS
 
 #. Select **Configurations** Tab.
 #. Select **AZURE** Tab.
+#. Enter parameter details setup in Azure.
 
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Recommended
+     - Value
+   * - Enable Azure		
+     - Enable Azure for accessing the Azure Data lake storage
+     - true
+   * - Home Directory	
+     - Home Directory Path on azure storage
+     - The path must match the format eg abfs://containerName@storageAccountName.dfs.core.windows.net
+   * - Client Id	
+     - Client Id
+     - Client Id for ADLS Configuration
+   * - Client Secret Key
+     - Client Secret Key generated during registration of app in Azure portal.
+     - Client Secret Key
+   * - Azure Client EndPoint	
+     - Azure Client EndPoint	
+     - EndPoint
+   * - Azure ADLS Access Type		
+     - Azure ADLS can be accessed in many ways but currently supporting servicePrincipal and managedIdentity.	
+     - Value should be either servicePrincipal or managedIdentity

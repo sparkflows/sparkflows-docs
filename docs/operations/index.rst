@@ -74,7 +74,7 @@ Operations
    installing-mysql.rst
    migrating-h2-db-to-mysql.rst
    installing-jdbc-drivers.rst
-   performance.rst
+   performance/index.rst
    dashboard-installing-jdbc-drivers.rst
    jupyter.rst
    fire-notebook.rst

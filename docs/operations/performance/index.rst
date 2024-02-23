@@ -4,4 +4,6 @@ Performance
 .. toctree::
    :maxdepth: 2
 
-   performance.rst
+   server-processes.rst
+   running-on-standalone-machine.rst
+

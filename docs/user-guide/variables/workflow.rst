@@ -1,37 +1,59 @@
 Workflow 
 =============
 
-Executing Workflows with Spark-Submit
---------------------------------------
- 
-Workflows are saved as JSON files.
-Workflows can be submitted to be run on the cluster with Spark-Submit::
-  
-    spark-submit    --class    fire.execute.WorkflowExecuteFromFile    --master yarn    --deploy-mode client    --executor-memory 1G    --num-executors 1    --executor-cores 1       fire-core-1.4.2-jar-with-dependencies.jar       --postback-url http://<machine>:8080/messageFromSparkJob        --job-id 1         --workflow-file      kmeans.wf
+In Sparkflows, variables are used for a variety of reasons that enhance the software's ability to handle, analyze, and manipulate data effectively. Here’s why variables are significant in Sparkflows:
+
+* **Dynamic Data Processing:** Variables in Sparkflows allow users to dynamically alter workflows based on varying data inputs or user-defined criteria. This makes it possible to create more flexible and adaptable workflows that can handle different datasets or parameters without needing manual adjustment each time.
+* **Parameterization:** Variables can be used to parameterize inputs, formulas, and other elements within a workflow. This means that values or conditions can be changed at a single point (the variable), and those changes will propagate throughout the workflow where the variable is referenced. This is particularly useful for scenarios where workflows need to be run multiple times with different parameters.
+* **Conditional Logic Implementation:** In Sparkflows, variables can be used to implement conditional logic within workflows, such as in Filter tools or within the Formula tool. This allows the workflow to dynamically adapt its processing based on the data it encounters or based on external inputs.
+
+Below are the steps for creating and using variables:
+
+Step 1: Creating Variables in Sparkflows
+--------------------------------
+#. Click on **Plus Button** placed on the top right corner of the workflow editor.
+
+   .. figure:: ../../_assets/user-guide/variables/plus-button.png
+      :alt: readwrite_userguide
+      :width: 65%
+
+#. In the dialog box, add parameters by name and value:
+   For String Data pass value in single quotes (') or double quotes (") and for multiple value in same parameter separated by comma.
+
+   .. figure:: ../../_assets/user-guide/variables/dialog-box.png
+      :alt: readwrite_userguide
+      :width: 65%
+
+Step 2: Using Variables in Workflows
+--------------------------
+#. Pass defined parameters in row filter to filter data as per requirement in the following format: 
+   
+   **${Name_variable}** 
+
+   .. figure:: ../../_assets/user-guide/variables/conditional-expression.png
+      :alt: readwrite_userguide
+      :width: 65%
+
+Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
+-------------------------------------------
+
+* This is an optional step where variable values can be changed on workflow execution page also as shown below:
+
+  .. figure:: ../../_assets/user-guide/variables/execution-page.png
+     :alt: readwrite_userguide
+     :width: 65%
 
 
-In the above:
+* Below image shows data before using variables:
 
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Parameter          | Details                                                                                                                                                                                                |
-+====================+========================================================================================================================================================================================================+
-| fire-core jar file | It is the fire-core jar file required code for executing the workflow. The fire-core jar file is in the fire-lib directory of the sparkflows install                                                   |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| postback-url       | http://<machine>:8080/messageFromSparkJob is the postback URL for fire UI. <machine> should be the machine name on which Sparkflows is running. 8080 should be the port on which Sparkflows is running |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| job-id             | 1 is the job id. It can be of any value for now                                                                                                                                                           |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| workflow-file      | kmeans.wf is the json workflow file containing the kmeans workflow in this case.                                                                                                                       |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  .. figure:: ../../_assets/user-guide/variables/original-data.png
+     :alt: readwrite_userguide
+     :width: 65%
+
+* Below image shows data after using variables:
+
+  .. figure:: ../../_assets/user-guide/variables/changed-data.png
+     :alt: readwrite_userguide
+     :width: 65%
 
 
- For providing extra variables to the workflow, the following parameters can be added to Spark-Submit::
- 
-    --var name1=value1   --var name2=value2    --var name3=value3
- 
-In the workflow, these variables can be used with $name1    $name2.
-Specific nodes make use of the variables by substituting $name with the value provided for the name.
- 
-For running the workflow in Debug Mode, add the following parameters::
-
-    --debug true

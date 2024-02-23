@@ -37,3 +37,24 @@ Configuring ADLS in Fire Insights
 +++++++++++++++
 
 Once the above pre-requisites from Azure is available, you can Configure ADLS in Fire Insights using below steps:
+
+Step 1 : Open Sparkflows in Web Browser
+----------------
+
+#. Open a web browser.
+#. Enter the URL: http://sparkflows_IP:8080 and replace **sparkflows_IP** with your instance's **actual IP/DNS**.
+
+Step 2 : Configure ADLS
+--------------
+
+#. Login to Sparkflows.
+#. Access Sparkflows **Administration** Tab.
+
+.. figure:: ../../_assets/aws/livy/administration.png
+      :alt: livy
+      :width: 60%
+
+
+#. Select **Configurations** Tab.
+#. Select **AZURE** Tab.
+

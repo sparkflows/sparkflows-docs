@@ -59,6 +59,7 @@ Step 2 : Configure ADLS
 #. Select **Configurations** Tab.
 #. Select **AZURE** Tab.
 #. Enter parameter details setup in Azure.
+#. Save the **Configurations**.
 
 .. list-table:: 
    :widths: 10 20 30

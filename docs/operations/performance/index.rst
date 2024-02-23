@@ -5,6 +5,6 @@ Performance
    :maxdepth: 2
 
    server-processes.rst
-   running-on-standalone-machine.rst
+   running-in-local-mode.rst
    running-on-cluster.rst
 

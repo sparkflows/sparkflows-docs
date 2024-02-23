@@ -90,3 +90,14 @@ Step 2 : Configure ADLS
 .. figure:: ../..//_assets/azure/azure_configure.PNG
       :width: 60%
       :alt: adls
+
+Step 3 : Browse ADLS
+--------------
+
+Once the above **Configurations** saved, you Can Browse ADLS as below:
+
+#. Click on **DATA** Tab.
+#. Select **ADLS**.
+#. You can Browse ADLS file and folder.
+
+

@@ -100,4 +100,7 @@ Once the above **Configurations** saved, you Can Browse ADLS as below:
 #. Select **ADLS**.
 #. You can Browse ADLS file and folder.
 
+.. figure:: ../..//_assets/azure/adls_browse.PNG
+      :width: 60%
+      :alt: adls
 

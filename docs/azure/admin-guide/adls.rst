@@ -1,7 +1,7 @@
 Azure Data Lake Storage
 ========
 
-This document describes the steps for Configuring ADLS in Fire Insights running on a virtual machine.
+This document describes the steps for Configuring ADLS in Sparkflows running on a virtual machine.
 
 Inorder to Configure ADLS in Fire Insights, User need to have below pre-requisites in Azure.
 
@@ -33,10 +33,10 @@ The Azure pre-requisites needed to Configure ADLS in Fire Insights:
      - Azure ADLS can be accessed in many ways but currently supporting servicePrincipal and managedIdentity.	
      - Value should be either servicePrincipal or managedIdentity
 
-Configuring ADLS in Fire Insights
+Configuring ADLS in Sparkflows
 +++++++++++++++
 
-Once the above pre-requisites from Azure is available, you can Configure ADLS in Fire Insights using below steps:
+Once the above pre-requisites from Azure is available, you can Configure ADLS in Sparkflows using below steps:
 
 Step 1 : Open Sparkflows in Web Browser
 ----------------

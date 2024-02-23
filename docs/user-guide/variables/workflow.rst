@@ -18,7 +18,10 @@ Step 1: Creating Variables in Sparkflows
       :width: 65%
 
 #. In the dialog box, add parameters by name and value:
-   For String Data pass value in single quotes (') or double quotes (") and for multiple value in same parameter separated by comma.
+   
+   For String Data pass value in single quotes (') or double quotes (").
+
+   For multiple value in same parameter separated by comma.
 
    .. figure:: ../../_assets/user-guide/variables/dialog-box.png
       :alt: readwrite_userguide

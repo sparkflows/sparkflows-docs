@@ -85,3 +85,7 @@ Step 2 : Configure ADLS
    * - Azure ADLS Access Type		
      - Azure ADLS can be accessed in many ways but currently supporting servicePrincipal and managedIdentity.	
      - Value should be either servicePrincipal or managedIdentity
+
+.. figure:: ../..//_assets/azure/azure_configure.PNG
+      :width: 60%
+      :alt: adls

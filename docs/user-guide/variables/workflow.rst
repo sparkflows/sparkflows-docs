@@ -14,7 +14,7 @@ Step 1: Creating Variables in Sparkflows
 #. Click on **Plus Button** placed on the top right corner of the workflow editor.
 
    .. figure:: ../../_assets/user-guide/variables/plus-button.png
-      :alt: readwrite_userguide
+      :alt: variables_userguide
       :width: 65%
 
 #. In the dialog box, add parameters by name and value:
@@ -24,7 +24,7 @@ Step 1: Creating Variables in Sparkflows
    For multiple value in same parameter separated by comma.
 
    .. figure:: ../../_assets/user-guide/variables/dialog-box.png
-      :alt: readwrite_userguide
+      :alt: variables_userguide
       :width: 65%
 
 Step 2: Using Variables in Workflows
@@ -34,7 +34,7 @@ Step 2: Using Variables in Workflows
    **${Name_variable}** 
 
    .. figure:: ../../_assets/user-guide/variables/conditional-expression.png
-      :alt: readwrite_userguide
+      :alt: variables_userguide
       :width: 65%
 
 Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
@@ -43,20 +43,20 @@ Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
 * This is an optional step where variable values can be changed on workflow execution page also as shown below:
 
   .. figure:: ../../_assets/user-guide/variables/execution-page.png
-     :alt: readwrite_userguide
+     :alt: variables_userguide
      :width: 65%
 
 
 * Below image shows data before using variables:
 
   .. figure:: ../../_assets/user-guide/variables/original-data.png
-     :alt: readwrite_userguide
+     :alt: variables_userguide
      :width: 65%
 
 * Below image shows data after using variables:
 
   .. figure:: ../../_assets/user-guide/variables/changed-data.png
-     :alt: readwrite_userguide
+     :alt: variables_userguide
      :width: 65%
 
 

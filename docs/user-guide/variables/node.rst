@@ -30,3 +30,6 @@ In the subsequent nodes, such as **SQL or ExecuteRedShiftStmt** nodes, you can a
 .. figure:: ../../_assets/user-guide/variables/node/sql.png
       :alt: variables_userguide
       :width: 65%
+
+
+By following the above steps, you can seamlessly incorporate dynamic variables into your workflows, enabling them to adapt to evolving conditions or input parameters. This enhances the versatility and usability of your data processing workflows.

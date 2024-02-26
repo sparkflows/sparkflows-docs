@@ -60,7 +60,7 @@ Incorporating What-If Analysis into your machine learning workflow with Sparkflo
      :alt: What-If
      :width: 65%
 
-**Step 5. User can choose the values in the sliders and dropdowns and click on score to see the prediction along with shapley values to udnerstand the outcome**:
+**Step 5. User can choose the values in the sliders and dropdowns and click on score to see the prediction along with shapley values to understand the outcome**:
 
   .. figure:: ../_assets/what-if/whatif-5-choose-value-slider.png
      :alt: What-If

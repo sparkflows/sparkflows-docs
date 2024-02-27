@@ -47,13 +47,13 @@ Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
      :width: 65%
 
 
-* Below image shows data before using variables:
+* The image below shows data before using variables:
 
   .. figure:: ../../_assets/user-guide/variables/original-data.png
      :alt: variables_userguide
      :width: 65%
 
-* Below image shows data after using variables:
+* The image below shows data after using variables:
 
   .. figure:: ../../_assets/user-guide/variables/changed-data.png
      :alt: variables_userguide

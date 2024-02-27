@@ -20,34 +20,43 @@ Step 2 : Install Sparkflows
       :width: 60%
       :alt: HPE UA Data sources
    
-#. Use the Helm chart to install Sparkflows on one of the HPE UA edge nodes.
+#. If you prefer to use MySQL for storing the metadata of Sparkflows then connect with HPE team to deploy a MySQL instance.
    
    Make sure to configure the sparkflows deployment.yaml file located in the helm chart directory with the correct MySQL instance settings.
 
-   If there's an existing instance of Sparkflows, initiate the uninstallation process using the comands given below :
-   ::
 
-     $ helm uninstall fire-ezua -n sparkflows
+#. Navigate to the Tools & Frameworks section on left side and click on Import Framework
 
-#. Run the command to install Sparkflows with MySQL support, in a separate namespace - sparkflows :
-   ::
+   .. figure:: ../../_assets/hpe/hpe-ua-add-import-framework.png
+     :width: 60%
+     :alt: HPE UA Import framework
 
-     $ helm install fire-ezua -n sparkflows fire
+#. Fill all the information for the framework details
 
-#. To validate if the installation was successful, run the following command :
-   ::
-
-        $ kubectl get pods -n sparkflows 
-        NAME                                              READY   STATUS    RESTARTS       AGE
-        fire-ezua-sparkflows-fire-7746b99c89-2kdhr        2/2     Running   1 (174m ago)   175m
+   .. figure:: ../../_assets/hpe/hpe-ua-framework-add-details.png
+      :width: 60%
+      :alt: HPE UA Add framework details
 
 
-#. To fetch the logs for debugging purpose, run the following command :
-   ::
+#. Connect with the Sparkflows team to get the latest chart for the HPE environment. Upload the new chart. Make sure the chart version doesn’t match the existing uploaded version in the HPE ezua platform, else it will throw the error as shown in the screenshot below.
 
-     $ kubectl logs -f <pod name> -n sparkflows
+   .. figure:: ../../_assets/hpe/hpe-ua-upload-chart.png
+      :width: 60%
+      :alt: HPE UA Add framework details
 
-#. Find the exposed service port by running the below command :
-   ::
+#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the ezua section. Failure to do so will result in dns allocation for the newly installed service.
   
-     $ kubectl get svc -n sparkflows
+   .. figure:: ../../_assets/hpe/hpe-ua-configure-chart-values.png
+      :width: 60%
+      :alt: HPE UA Add Configure chart values
+#. As a final step, review the configuration, submit the new framework. It might take upto 10 minutes to bring the new framework.
+
+#. Once the new url is ready to be used, navigate to the keycloak web ui, and login to the server with admin credentials. For the keycloak server details, connect with the HPE team :
+   ::
+     
+     Server: https://keycloak.dev.hpeua.com/
+     Username: admin
+     Password: ******************
+
+
+

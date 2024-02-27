@@ -24,6 +24,31 @@ Step 2 : Install Sparkflows
    
    Make sure to configure the sparkflows deployment.yaml file located in the helm chart directory with the correct MySQL instance settings.
 
+#. Once you've decided on the Sparkflows' url to be used, navigate to the keycloak web ui, and login to the server with admin credentials. For the keycloak server details, connect with the HPE team :
+   ::
+     
+     Server: https://keycloak.dev.hpeua.com/
+     Username: admin
+     Password: ******************
+
+#. Select the UA realm from the left drop down menu and click on clients to view the list of clients currently registered.
+
+   .. figure:: ../../_assets/hpe/hpe-keycloak-clients.png
+      :width: 60%
+      :alt: HPE UA Keycloak clients
+
+#. Click on the ua client and then navigate to the settings section. Scroll down and add the sparkflows oidc callback url
+
+   .. figure:: ../../_assets/hpe/keycloak-redirect-uris.png
+      :width: 60%
+      :alt: HPE UA Keycloak callback urls
+
+#. Navigate to the Credentials section to copy the client secret, which will be used in sparkflows application properties.
+
+   .. figure:: ../../_assets/hpe/client-details.png
+      :width: 60%
+      :alt: HPE UA Keycloak Client secrets
+
 
 #. Navigate to the Tools & Frameworks section on left side and click on Import Framework
 
@@ -44,19 +69,13 @@ Step 2 : Install Sparkflows
       :width: 60%
       :alt: HPE UA Add framework details
 
-#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the ezua section. Failure to do so will result in dns allocation for the newly installed service.
+#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the ezua section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
   
    .. figure:: ../../_assets/hpe/hpe-ua-configure-chart-values.png
       :width: 60%
       :alt: HPE UA Add Configure chart values
 #. As a final step, review the configuration, submit the new framework. It might take upto 10 minutes to bring the new framework.
 
-#. Once the new url is ready to be used, navigate to the keycloak web ui, and login to the server with admin credentials. For the keycloak server details, connect with the HPE team :
-   ::
-     
-     Server: https://keycloak.dev.hpeua.com/
-     Username: admin
-     Password: ******************
 
 
 

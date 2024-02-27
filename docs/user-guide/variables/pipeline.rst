@@ -9,7 +9,7 @@ Step 1: Defining Parameters in PySpark Node
 
 #. Click on the **plus button** located at the top right corner to access the dialog box for defining parameters.
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/plus-button.png
+   .. figure:: ../../_assets/user-guide/variables/pipeline/plus-button-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
@@ -19,7 +19,7 @@ Step 1: Defining Parameters in PySpark Node
 
    For instance, if you want to filter cities such as 'Bangalore' and 'Pune', define a parameter named city and set its values accordingly.
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/dialog-box.png
+   .. figure:: ../../_assets/user-guide/variables/pipeline/dialog-box-pyspark.png
       :alt: variables_userguide
       :width: 65%
 

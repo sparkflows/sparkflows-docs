@@ -16,7 +16,7 @@ In the Scala Node, define the dynamic variable and its corresponding values usin
  //add the batchid variable to jobContext, which can be accessed in the next nodes with ${batchid}
  node.setNodeGeneratedValue(jobContext, "batchid", ids)
 
-.. figure:: ../../_assets/user-guide/variables/node/scala.png
+.. figure:: ../../_assets/user-guide/variables/node/spark-node-dynamic-parameters.png
    :alt: variables_userguide
    :width: 65%
 
@@ -27,7 +27,7 @@ Step 2: Accessing Dynamic Variable in Subsequent Nodes
 ------------------------------
 In the subsequent nodes, such as **SQL or ExecuteRedShiftStmt** nodes, you can access the value of **batchid** using the **${batchid}** notation. For example, in SQL nodes, you can incorporate ${batchid} directly into your SQL queries to utilize its value.
 
-.. figure:: ../../_assets/user-guide/variables/node/sql.png
+.. figure:: ../../_assets/user-guide/variables/node/sql-node-dynamic-parameters.png
       :alt: variables_userguide
       :width: 65%
 

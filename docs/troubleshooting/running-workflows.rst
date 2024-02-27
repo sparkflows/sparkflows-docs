@@ -288,7 +288,7 @@ Getting Exception: ::
 **Solution**
 +++++
 
-Sparkflows by default uses default configuration for 1gb for driver-memory in pyspark-shell.
+Sparkflows by default uses default configuration for ``1g`` for driver-memory in pyspark-shell.
 
 you can run below export command and start Sparkflows server:
 

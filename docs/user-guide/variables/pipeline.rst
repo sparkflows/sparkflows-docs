@@ -29,7 +29,7 @@ Step 2: Accessing Variables in PySpark Code
 ----------------------------------------
 #. In the PySpark code node, access the defined parameters using the **${variable_name}** notation as shown below:
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/expression.png
+   .. figure:: ../../_assets/user-guide/variables/pipeline/conditional-expression-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
@@ -43,7 +43,7 @@ Output
 
 The image below shows the data filtered after utilizing variable:
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/output.png
+   .. figure:: ../../_assets/user-guide/variables/pipeline/changed-output-pyspark.png
       :alt: variables_userguide
       :width: 65%
 

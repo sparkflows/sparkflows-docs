@@ -275,4 +275,24 @@ The most likely reason is that the OS is a hardened version and is missing the b
 
    sudo apt-get install libsnappy1v5
 
+10. Error : An error occured OutofmemoryError Java heap space on Sklearn model in PySpark
+-----------------
+
+**Problem**
++++++++++
+
+Getting Exception: ::
+
+ An error occured OutofmemoryError Java heap space, while using Sklearn model in PySpark with large data size.
+
+**Solution**
++++++
+
+Sparkflows by default uses default configuration for 1gb for driver-memory in pyspark-shell.
+
+you can run below export command and start Sparkflows server:
+
+::
+
+    export PYSPARK_SUBMIT_ARGS="--driver-memory 4g pyspark-shell"
 

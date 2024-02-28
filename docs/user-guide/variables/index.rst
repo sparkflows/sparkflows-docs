@@ -15,6 +15,10 @@ Variables
 
     :doc:`/user-guide/variables/pipeline`
 
+    ---
+
+    :doc:`/user-guide/variables/spark-configuration`
+
 
 
 .. toctree::
@@ -23,3 +27,4 @@ Variables
    workflow.rst
    node.rst
    pipeline.rst
+   spark-configuration.rst

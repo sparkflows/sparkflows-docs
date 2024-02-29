@@ -1,7 +1,7 @@
 Introduction
 ======
 
-MLOps, is a set of practices and tools that aims to streamline and automate the end-to-end machine learning lifecycle. It bridges the gap between data science and IT operations, ensuring the efficient deployment, monitoring, and maintenance of machine learning models in production. MLOps involves version control for models and data, continuous integration and continuous delivery (CI/CD) pipelines, automated testing, and monitoring for model performance and drift. By implementing MLOps, organizations can accelerate their machine learning development, reduce errors, and ensure models remain effective and reliable over time.
+MLOps, is a set of best practices and tools that aims to streamline and automate the end-to-end machine learning lifecycle. It bridges the gap between data science and IT operations, ensuring the efficient deployment, monitoring, and maintenance of machine learning models in production. MLOps involves version control for models and data, continuous integration and continuous delivery (CI/CD) pipelines, automated testing, and monitoring for model performance and drift. By implementing MLOps, organizations can accelerate their machine learning development, reduce errors, and ensure models remain effective and reliable over time.
 
 Sparkflows MLOps allows you to deploy Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
@@ -12,6 +12,7 @@ Enable Continuous Machine Learning Process using Sparkflows.
    :width: 70%
 
 **MLOps Architecture**
+
 <Add text>
 
 .. figure:: ../_assets/mlops/1_MLOps_Arch.png
@@ -20,15 +21,20 @@ Enable Continuous Machine Learning Process using Sparkflows.
 
 **MLOps Modules**
 
+Sparkflows MLOps Offering is bundled with various built-in capabilities as explained below.
+
 - Model Management Dashboard
 - Model Deployment and Serving
 - Model Security & Governance
 - Model Monitoring and Observability
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
+###################
 
 **Model Management Dashboard**
-## Sparkflows Model Management Dashboard Actions
+
+Sparkflows Model Management Dashboard Actions:
+
 - Explore and search models created by different workflows in different projects by different users.
 - View model details
 - Check performance metrics
@@ -36,18 +42,21 @@ Enable Continuous Machine Learning Process using Sparkflows.
 - Perform various actions like register with MLOps server, deploy into endpoint, track model serving, monitor model and data drifts and define retraining policy.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_management_dashboard.rst>`_
+###################
 
 **Model Lifecycle Actions**
 
 Users can trigger the actions to register, deploy, promote, undeploy and re-register models from the Model Management Dashboard. The actions are executed in Sparkflows MLOps server. 
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_lifecycle_action.rst>`_
+###################
 
 **Model Deployment Options**
 - Single Pane-of-Glass for deployment, monitoring and management.
 - Support for various deployment targets.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_deployment.rst>`_
+###################
 
 **Model Serving**
 
@@ -73,8 +82,10 @@ The models in Sparkflows can be served as one of the two options:
 `See Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/online-model-serving.rst>`_
 
 .. figure:: ../_assets/mlops/8_Model_Serving.png
-   :alt: MLOps Architecture
+   :alt: Model Serving
    :width: 70%
+
+###################
 
 **Model Monitoring**
 
@@ -82,6 +93,7 @@ Once the model is deployed, Sparkflows monitoring module, provides the detailed 
 
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_monitoring.rst>`_
+###################
 
 **Model Observability & Retraining**
 
@@ -91,6 +103,7 @@ A policy can be attached to the model to trigger auto-retraining. This policy ca
 - model drift-based: Here the user needs to specify the drift threshold of PSI (default is 0.3) and the count of rows drifted, after which retraining should get triggered.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_observability_retraining.rst>`_
+###################
 
 **Model Security & Governance**
 
@@ -105,3 +118,4 @@ Sparkflows ensure the following security measures.
 - Permissions and Secure Sharing
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_security.rst>`_
+###################

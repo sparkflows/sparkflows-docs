@@ -1,4 +1,4 @@
-## Sparkflows offers various security measures.
+##. Sparkflows offers various security measures.
 
 - Data Privacy & Protection
 Support for encryption, anonymization, secure data storage, connections and transfer protocols

@@ -6,7 +6,7 @@
 - Compare multiple models
 - Perform various actions like register with MLOps server, deploy into endpoint, track model serving, monitor model and data drifts and define retraining policy.
 
-.. figure:: ../_assets/mlops/3_Model_Info.png.png
+.. figure:: ../_assets/mlops/3_Model_Info.png
    :alt: Model Info
    :width: 70%
 

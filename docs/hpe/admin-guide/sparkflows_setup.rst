@@ -30,7 +30,9 @@ Step 2 : Install Sparkflows
 
 #. Configuring Keycloak
 
-   For Configuring Keycloak, update ** application.properties** from previous steps of `Keycloak Documentation. <https://docs.sparkflows.io/en/latest/hpe/admin-guide/keycloak_setup.html>`_
+   For Configuring Keycloak, update **application.properties** from previous steps of `Keycloak Documentation. <https://docs.sparkflows.io/en/latest/hpe/admin-guide/keycloak_setup.html>`_
+
+#. Build Sparkflows Docker Image with updated **application.properties** file.
 
 #. Navigate to the Tools & Frameworks section on left side and click on Import Framework
 

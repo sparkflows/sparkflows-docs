@@ -29,7 +29,7 @@ Sparkflows MLOps Offering is bundled with various built-in capabilities as expla
 - Model Security & Governance
 - Model Monitoring and Observability
 
-`More Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
 
 
 **Model Management Dashboard**
@@ -43,14 +43,14 @@ Sparkflows Model Management Dashboard Actions:
 - Compare multiple models
 - Perform various actions like register with MLOps server, deploy into endpoint, track model serving, monitor model and data drifts and define retraining policy.
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_management_dashboard.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_management_dashboard.rst>`_
 
 **Model Lifecycle Actions**
 ***********************
 
 Users can trigger the actions to register, deploy, promote, undeploy and re-register models from the Model Management Dashboard. The actions are executed in Sparkflows MLOps server. 
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_lifecycle_action.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_lifecycle_action.rst>`_
 
 **Model Deployment Options**
 ***********************
@@ -58,7 +58,7 @@ Users can trigger the actions to register, deploy, promote, undeploy and re-regi
 - Single Pane-of-Glass for deployment, monitoring and management.
 - Support for various deployment targets.
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_deployment.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_deployment.rst>`_
 
 **Model Serving**
 ***********************
@@ -71,8 +71,9 @@ The models in Sparkflows can be served as one of the two options:
     * It is utilized for bulk prediction tasks, enabling the efficient processing of extensive datasets with machine learning models in scheduled or periodic operations.
     * Offline model serving typically exhibits high throughput, making it well-suited for scenarios where data processing efficiency and scalability are paramount.
 
-`See User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/offline-model-serving.rst>`_
-`See Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/offline-model-serving.rst>`_
+`User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/offline-model-serving.rst>`_
+
+`Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/offline-model-serving.rst>`_
 
 #. **Online model serving**
    
@@ -81,8 +82,9 @@ The models in Sparkflows can be served as one of the two options:
     * Online model serving facilitates real-time model deployment, allowing predictions to be served as soon as new data becomes available.
     * It is typically used on a relatively smaller number of rows of data at a time, making it suitable for applications where low latency is essential but data volumes are modest.
 
-`See User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/online-model-serving.rst>`_
-`See Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/online-model-serving.rst>`_
+`User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/online-model-serving.rst>`_
+
+`Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/online-model-serving.rst>`_
 
 .. figure:: ../_assets/mlops/8_Model_Serving.png
    :alt: Model Serving
@@ -104,7 +106,7 @@ A policy can be attached to the model to trigger auto-retraining. This policy ca
 - time based: The auto-retraining will kick in at a particular time of day/month etc.
 - model drift-based: Here the user needs to specify the drift threshold of PSI (default is 0.3) and the count of rows drifted, after which retraining should get triggered.
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_observability_retraining.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_observability_retraining.rst>`_
 
 **Model Security & Governance**
 ***********************
@@ -119,4 +121,4 @@ Sparkflows ensure the following security measures.
 - User Controls
 - Permissions and Secure Sharing
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_security.rst>`_
+`Learn More <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_security.rst>`_

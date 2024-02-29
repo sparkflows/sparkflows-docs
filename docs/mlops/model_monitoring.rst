@@ -5,3 +5,12 @@ Once the model is deployed, Sparkflows monitoring module, provides the detailed 
 .. figure:: ../_assets/mlops/11_Monitoring_Page.png
    :alt: Continuous ML
    :width: 70%
+
+Monitoring Metrics
+- Predictions over time 
+- Scoring latency over a period of time
+- Number of rows scored over a period of time
+- Model drift over time
+
+
+

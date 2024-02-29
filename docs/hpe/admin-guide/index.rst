@@ -16,6 +16,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/keycloak_setup`
+
+    Describes details steps involved in setting up Keycloak on HPE UA.
+
+    ---
+
     :doc:`/hpe/admin-guide/sparkflows_setup`
 
     Describes details steps involved in setting up Sparkflows on HPE UA.
@@ -30,5 +36,6 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    :hidden:
 
    hpe_ua.rst
+   keycloak_setup.rst
    sparkflows_setup.rst
    livy_config.rst

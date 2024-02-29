@@ -29,14 +29,4 @@ MLOps Guide
    introduction.rst
    admin-guide/index.rst
    user-guide/index.rst
-   mlops_modules.rst
-   model_deployment.rst
-   model_info.rst
-   model_lifecycle_action.rst
-   model_management_dashboard.rst
-   model_monitoring.rst
-   model_observability_retraining.rst
-   model_security.rst
-   model_serving.rst
 
-   

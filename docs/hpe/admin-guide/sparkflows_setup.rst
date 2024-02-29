@@ -10,7 +10,7 @@ Step 1 : Download and Unzip Sparkflows TAR File
 
 #. Download the Sparkflows TAR file and extract its contents.
 
-.. note:: The latest Sparkflows TAR will be shared by Sparkflows Team.
+.. note:: The latest Sparkflows TAR will be shared by Sparkflows.
 
 Step 2 : Install Sparkflows
 ---------------

@@ -121,7 +121,7 @@ Sparkflows ensure the following security measures.
 - User Controls
 - Permissions and Secure Sharing
 
-`Learn More <https://docs.sparkflows.io/en/latest/mlops/model_security.htmlt>`_
+`Learn More <https://docs.sparkflows.io/en/latest/mlops/model_security.html>`_
 
 
 

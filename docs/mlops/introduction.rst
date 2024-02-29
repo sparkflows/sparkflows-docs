@@ -12,14 +12,15 @@ Enable Continuous Machine Learning Process using Sparkflows.
    :width: 70%
 
 **MLOps Architecture**
+***********************
 
-<Add text>
 
 .. figure:: ../_assets/mlops/1_MLOps_Arch.png
    :alt: MLOps Architecture
    :width: 70%
 
 **MLOps Modules**
+***********************
 
 Sparkflows MLOps Offering is bundled with various built-in capabilities as explained below.
 
@@ -28,10 +29,11 @@ Sparkflows MLOps Offering is bundled with various built-in capabilities as expla
 - Model Security & Governance
 - Model Monitoring and Observability
 
-`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
-===========================================
+`More Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
+
 
 **Model Management Dashboard**
+***********************
 
 Sparkflows Model Management Dashboard Actions:
 
@@ -42,23 +44,24 @@ Sparkflows Model Management Dashboard Actions:
 - Perform various actions like register with MLOps server, deploy into endpoint, track model serving, monitor model and data drifts and define retraining policy.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_management_dashboard.rst>`_
-***********************
 
 **Model Lifecycle Actions**
+***********************
 
 Users can trigger the actions to register, deploy, promote, undeploy and re-register models from the Model Management Dashboard. The actions are executed in Sparkflows MLOps server. 
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_lifecycle_action.rst>`_
-***********************
 
 **Model Deployment Options**
+***********************
+
 - Single Pane-of-Glass for deployment, monitoring and management.
 - Support for various deployment targets.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_deployment.rst>`_
-***********************
 
 **Model Serving**
+***********************
 
 The models in Sparkflows can be served as one of the two options:
 
@@ -85,17 +88,16 @@ The models in Sparkflows can be served as one of the two options:
    :alt: Model Serving
    :width: 70%
 
-***********************
-
 **Model Monitoring**
+***********************
 
 Once the model is deployed, Sparkflows monitoring module, provides the detailed info on environment, deployment type, deployment mode, problem type, alerts and all the metrics needed to keep a check on how model is being used and is performing over a period of time. 
 
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_monitoring.rst>`_
-***********************
 
 **Model Observability & Retraining**
+***********************
 
 A policy can be attached to the model to trigger auto-retraining. This policy can be of types:
 
@@ -103,9 +105,9 @@ A policy can be attached to the model to trigger auto-retraining. This policy ca
 - model drift-based: Here the user needs to specify the drift threshold of PSI (default is 0.3) and the count of rows drifted, after which retraining should get triggered.
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_observability_retraining.rst>`_
-***********************
 
 **Model Security & Governance**
+***********************
 
 Sparkflows ensure the following security measures.
 - Data Privacy & Protection
@@ -118,4 +120,3 @@ Sparkflows ensure the following security measures.
 - Permissions and Secure Sharing
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_security.rst>`_
-***********************

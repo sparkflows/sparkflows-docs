@@ -29,7 +29,7 @@ Sparkflows MLOps Offering is bundled with various built-in capabilities as expla
 - Model Monitoring and Observability
 
 `See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
-***********************
+===========================================
 
 **Model Management Dashboard**
 

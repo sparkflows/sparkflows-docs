@@ -5,17 +5,27 @@ MLOps, is a set of practices and tools that aims to streamline and automate the 
 
 Sparkflows MLOps allows you to deploy Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
-**MLOps Architecture**
-<Add text>
-<1_MLOps_Arch.png>
-
-<2_Continuous_ML.png>
 Enable Continuous Machine Learning Process using Sparkflows.
 
+.. figure:: ../_assets/mlops/2_Continuous_ML.png
+   :alt: Continuous ML
+   :width: 70%
+
+**MLOps Architecture**
+<Add text>
+
+.. figure:: ../_assets/mlops/1_MLOps_Arch.png
+   :alt: MLOps Architecture
+   :width: 70%
 
 **MLOps Modules**
 
-<See Details>
+- Model Management Dashboard
+- Model Deployment and Serving
+- Model Security & Governance
+- Model Monitoring and Observability
+
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/mlops_modules.rst>`_
 
 **Model Management Dashboard**
 ## Sparkflows Model Management Dashboard Actions
@@ -25,30 +35,19 @@ Enable Continuous Machine Learning Process using Sparkflows.
 - Compare multiple models
 - Perform various actions like register with MLOps server, deploy into endpoint, track model serving, monitor model and data drifts and define retraining policy.
 
-<See Details>
-
-**Model Info**
-
-Sparkflows allows users to drill down into a specific Model Run and view the Model Summary, Feature Importance, Training Metrics, Test Metrics, Confusion Matrix, ROC curve and other info.
-
-<See Details>
-<3_Model_Info.png in details page>
-<4_Model_Info.png in details page>
-<5_Model_Info.png in details page>
-<6_Model_Info.png in details page>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_management_dashboard.rst>`_
 
 **Model Lifecycle Actions**
 
 Users can trigger the actions to register, deploy, promote, undeploy and re-register models from the Model Management Dashboard. The actions are executed in Sparkflows MLOps server. 
 
-<See Details>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_lifecycle_action.rst>`_
 
 **Model Deployment Options**
 - Single Pane-of-Glass for deployment, monitoring and management.
 - Support for various deployment targets.
 
-<See Details>
-<7_External_Model_Deployment.png in details page>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_deployment.rst>`_
 
 **Model Serving**
 
@@ -60,8 +59,8 @@ The models in Sparkflows can be served as one of the two options:
     * It is utilized for bulk prediction tasks, enabling the efficient processing of extensive datasets with machine learning models in scheduled or periodic operations.
     * Offline model serving typically exhibits high throughput, making it well-suited for scenarios where data processing efficiency and scalability are paramount.
 
-<See User Guide>
-<See Admin Guide>
+`See User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/offline-model-serving.rst>`_
+`See Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/offline-model-serving.rst>`_
 
 #. **Online model serving**
    
@@ -70,32 +69,28 @@ The models in Sparkflows can be served as one of the two options:
     * Online model serving facilitates real-time model deployment, allowing predictions to be served as soon as new data becomes available.
     * It is typically used on a relatively smaller number of rows of data at a time, making it suitable for applications where low latency is essential but data volumes are modest.
 
-<8_Model_Serving.png>
+`See User Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/user-guide/online-model-serving.rst>`_
+`See Admin Guide <https://github.com/sparkflows/sparkflows-docs/tree/master/docs/mlops/admin-guide/online-model-serving.rst>`_
 
-<See User Guide>
-<See Admin Guide>
-
-**Champion and Challenger Models**
-
-Sparkflows allows end users to deploy a Champion model in Production and then challenge them using instances of Challenger Models 
-
-<See Details>
+.. figure:: ../_assets/mlops/8_Model_Serving.png
+   :alt: MLOps Architecture
+   :width: 70%
 
 **Model Monitoring**
 
 Once the model is deployed, Sparkflows monitoring module, provides the detailed info on environment, deployment type, deployment mode, problem type, alerts and all the metrics needed to keep a check on how model is being used and is performing over a period of time. 
 
 
-<See Details>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_monitoring.rst>`_
 
-**Model Observability & Retraining Policy**
+**Model Observability & Retraining**
 
 A policy can be attached to the model to trigger auto-retraining. This policy can be of types:
 
 - time based: The auto-retraining will kick in at a particular time of day/month etc.
 - model drift-based: Here the user needs to specify the drift threshold of PSI (default is 0.3) and the count of rows drifted, after which retraining should get triggered.
 
-<See Details>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_observability_retraining.rst>`_
 
 **Model Security & Governance**
 
@@ -109,6 +104,4 @@ Sparkflows ensure the following security measures.
 - User Controls
 - Permissions and Secure Sharing
 
-
-
-<See Details>
+`See Details <https://github.com/sparkflows/sparkflows-docs/blob/master/docs/mlops/model_security.rst>`_

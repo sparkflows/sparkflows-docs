@@ -89,6 +89,6 @@ Once you save the connection, it can be used for submitting the job on specific 
 Documentation
 +++++
 
-Reference guide : https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html
+Reference guide : `Databricks User Guide Documentation. <https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html>`_
 
 .. note:: Make sure to add "POSTBACK URL" through which jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.

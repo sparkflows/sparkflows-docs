@@ -1,6 +1,5 @@
 .. list-table::
-   :width: 50 50
-   :class: borderless
+   :width: 25 25 25 25 
 
    *  - Model Management Dashboard
       - Central Repository of Models​

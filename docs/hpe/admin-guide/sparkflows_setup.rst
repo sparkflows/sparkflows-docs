@@ -10,6 +10,8 @@ Step 1 : Download and Unzip Sparkflows TAR File
 
 #. Download the Sparkflows TAR file and extract its contents.
 
+.. note:: The latest Sparkflows TAR will be shared by Sparkflows Team.
+
 Step 2 : Install Sparkflows
 ---------------
 #. Copy the **fire-spark_3.3.1-core-3.1.0-jar-with-dependencies.jar** and **workflowexecutecloud_livy.py** to the **MapRFS** with HPE team's support.

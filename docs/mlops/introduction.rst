@@ -7,7 +7,7 @@ MLOps, is a set of best practices and tools that aims to streamline and automate
 
 .. figure:: ../_assets/mlops/1_MLOps_Arch.png
    :alt: MLOps Architecture
-   :width: 70%
+   :width: 100%
 
 
 Sparkflows enables a Continuous Machine Learning Process Flow.

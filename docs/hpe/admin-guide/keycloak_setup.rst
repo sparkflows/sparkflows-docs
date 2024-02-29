@@ -38,3 +38,5 @@ Below are steps for setting up Keycloak in UA.
    .. figure:: ../../_assets/hpe/client-details.png
       :width: 60%
       :alt: HPE UA Keycloak Client secrets
+
+#. Copy the **Client Id, clientSecret, accessTokenUri, userAuthorizationUri, userInfoUri** which will be used in configuring Sparkflows.

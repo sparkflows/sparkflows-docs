@@ -9,7 +9,7 @@ Pre-requisites
 #. you need to have **Sparkflows Domain** available.
 #. Keycloak Login access with admin privilege.
 
-Keycloak setup
+Setup Steps
 -------
 
 Below are steps for setting up Keycloak in UA.

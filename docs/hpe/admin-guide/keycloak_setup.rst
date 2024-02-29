@@ -1,4 +1,4 @@
-Keycloak setup
+Keycloak Setup
 =====
 
 This document explains in detail the steps involved in setting up Keycloak on HPE UA.

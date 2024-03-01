@@ -42,7 +42,7 @@ Sparkflows enables you to create **Azure Synapse Connection** and use it to subm
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a **Azure Synapse Connection** in Sparkflows.
+This page show how to create an **Azure Synapse Connection** in Sparkflows.
 
 Enable Azure Synapse in Sparkflows
 +++++++++++++++++

@@ -99,7 +99,7 @@ For GENERAL tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Livy sent result back to Fire Insights
+     - Postback Url through which Azure Synapse sent result back to Sparkflows.
    * - Client Id	
      - Client Id
      - Client Id for ADLS Configuration

@@ -1,4 +1,4 @@
-Submission Job to Azure Synapse
+Submitting Job to Azure Synapse
 ======
 
 As the **Azure Synapse Connection** got created in previous step, Now user can able to submit the workflows/Jobs to Azure Synapse.

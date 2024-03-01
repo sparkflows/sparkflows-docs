@@ -78,3 +78,54 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
 .. figure:: ../../../_assets/azure/synapse_connection.png
    :alt: synapse
    :width: 60%
+
+Add additional parameters as per your environment
++++++
+
+Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
+
+For GENERAL tab
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Connection name
+     - Connection Name
+     - Name of Connection
+   * - Postback Url
+     - Postback Url
+     - Postback Url through which Livy sent result back to Fire Insights
+   * - Client Id	
+     - Client Id
+     - Client Id for ADLS Configuration
+   * - Client Secret Key
+     - Client Secret Key generated during registration of app in Azure portal.
+     - Client Secret Key
+   * - Title 
+     - Title of Selected Connection
+     - Title of Selected Connection  
+   * - EndPoint URL	
+     - Azure Synapse URL	
+     - Synapse URL
+   * - Description 
+     - Connection Description 
+     - Connection Description
+   * - Url
+     - Url for selected Connection type
+     - Add URL for Livy Connection
+   * - Driver Class
+     - Driver Class for selected Connection type 
+     - It Comes with default value  
+   * - Pool Name	
+     - Synapse Pool Name	
+     - Synapse Pool Name
+   * - Tenant Id	
+     - Azure Tenant Id	
+     - Azure Tenant Id
+
+   

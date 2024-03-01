@@ -36,13 +36,13 @@ The Azure pre-requisites needed to Create Azure Synapse Compute Connection in Sp
 Azure Synapse Connection
 ++++++++++++++
 
-Sparkflows enables you to create "Azure Synapse Connection" and use it to submit jobs/workflows. Connections can be at various levels:
+Sparkflows enables you to create **Azure Synapse Connection** and use it to submit **jobs/workflows**. Connections can be at various levels:
 
   * Global  : Everyone has access to these connections.
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Azure Synapse Connection" in Sparkflows.
+This page show how to create a **Azure Synapse Connection** in Sparkflows.
 
 Enable Azure Synapse in Sparkflows
 +++++++++++++++++

@@ -45,7 +45,7 @@ Sparkflows enables you to create "Azure Synapse Connection" and use it to submit
 This page show how to create a "Azure Synapse Connection" in Sparkflows.
 
 Enable Azure Synapse in Sparkflows
-===========
++++++++++++++++++
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Azure Synapse connection by setting the below parameter:
 
@@ -56,3 +56,8 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 .. figure:: ../../../_assets/azure/synapse_configuration.png
    :alt: synapse
    :width: 60%
+
+Navigate to Add Connections
+++++++++++++++
+
+Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:

@@ -128,7 +128,7 @@ For GENERAL tab
      - Azure Tenant Id	
      - Azure Tenant Id
 
-.. figure:: ../../../_assets/azure/synapse_general.png
+.. figure:: ../../../_assets/azure/synapse-general.png
    :alt: synapse
    :width: 60%
    

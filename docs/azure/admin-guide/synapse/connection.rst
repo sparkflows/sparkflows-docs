@@ -52,3 +52,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 ::
 
     connection.synapse.enabled : true
+
+.. figure:: ../../../_assets/azure/synapse_configuration.png
+   :alt: synapse
+   :width: 60%

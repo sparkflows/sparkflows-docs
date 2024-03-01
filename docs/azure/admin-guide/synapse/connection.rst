@@ -66,3 +66,7 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
    :alt: livy
    :width: 60%
 
+Add connection for group
++++++++
+
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:

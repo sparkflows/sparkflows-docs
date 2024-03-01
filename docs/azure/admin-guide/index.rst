@@ -42,7 +42,6 @@ Azure Admin Guide
 
     ---
 
-
     :doc:`/azure/admin-guide/synapse/index`
 
     Setup Azure Synapse in Sparkflows.

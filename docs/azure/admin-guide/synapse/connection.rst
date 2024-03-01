@@ -115,9 +115,6 @@ For GENERAL tab
    * - Description 
      - Connection Description 
      - Connection Description
-   * - Url
-     - Url for selected Connection type
-     - Add URL for Livy Connection
    * - Driver Class
      - Driver Class for selected Connection type 
      - It Comes with default value  

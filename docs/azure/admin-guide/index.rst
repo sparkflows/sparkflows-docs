@@ -43,6 +43,14 @@ Azure Admin Guide
     ---
 
 
+    :doc:`/azure/admin-guide/synapse/index`
+
+    Setup Azure Synapse in Sparkflows.
+
+
+    ---
+
+
     :doc:`/azure/admin-guide/azure-databricks`
 
     Databricks Job submission.
@@ -57,4 +65,5 @@ Azure Admin Guide
    application_gateway.rst
    access-and-reload.rst
    adls.rst
+   synapse/index.rst 
    azure-databricks.rst

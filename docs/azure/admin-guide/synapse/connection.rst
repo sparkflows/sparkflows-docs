@@ -3,7 +3,7 @@ Azure Synapse Connection
 
 Sparkflows enable you to create Azure Synapse as a Compute Connection and submit the Job onto it.
 
-Inorder to Create Azure Synapse Compute Connection in Sparkflows, User need to have below pre-requisites in Azure while configuring.
+Inorder to Create Azure Synapse Compute Connection in Sparkflows, User need to have below **pre-requisites** in Azure while configuring.
 
 Azure pre-requisites
 ++++

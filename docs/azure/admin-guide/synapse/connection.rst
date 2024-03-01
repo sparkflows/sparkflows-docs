@@ -165,3 +165,8 @@ For AZURE SYNAPSE tab
    :alt: synapse
    :width: 60%
 
+Save Connection
+++++++++++++++
+
+Once you have updated the above parameters ``Save`` the connection.
+

@@ -70,3 +70,11 @@ Add connection for group
 +++++++
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+
+.. figure:: ../../../_assets/azure/synapse_addconnection.png
+   :alt: synapse
+   :width: 60%
+
+.. figure:: ../../../_assets/azure/synapse_connection.png
+   :alt: synapse
+   :width: 60%

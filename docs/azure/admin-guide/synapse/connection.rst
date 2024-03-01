@@ -19,7 +19,7 @@ The Azure pre-requisites needed to Create Azure Synapse Compute Connection in Sp
      - Value
    * - Client Id	
      - Client Id
-     - Client Id for ADLS Configuration
+     - Client Id
    * - Client Secret Key
      - Client Secret Key generated during registration of app in Azure portal.
      - Client Secret Key

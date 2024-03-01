@@ -15,7 +15,7 @@ Sparkflows enable you to create Azure Synapse as a Compute Connection and submit
 
     :doc:`/azure/admin-guide/synapse/job-submit`
 
-    Submit Job to Azure Synapse.
+    Submitting Job to Azure Synapse.
 
 
 

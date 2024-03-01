@@ -13,7 +13,14 @@ Sparkflows enable you to create Azure Synapse as a Compute Connection and submit
 
     ---
 
+    :doc:`/azure/admin-guide/synapse/job-submit`
+
+    Setup Azure Synapse Connection in Sparkflows.
+
+
+
 .. toctree::
    :hidden:
 
    connection.rst
+   job-submit.rst

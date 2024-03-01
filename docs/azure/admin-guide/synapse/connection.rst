@@ -61,3 +61,8 @@ Navigate to Add Connections
 ++++++++++++++
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+
+.. figure:: ../../../_assets/aws/livy/administration.png
+   :alt: livy
+   :width: 60%
+

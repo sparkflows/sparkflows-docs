@@ -8,7 +8,7 @@ Inorder to Create Azure Synapse Compute Connection in Sparkflows, User need to h
 Azure pre-requisites
 ++++
 
-The Azure pre-requisites needed to Configure ADLS in Fire Insights:
+The Azure pre-requisites needed to Create Azure Synapse Compute Connection in Sparkflows:
 
 .. list-table:: 
    :widths: 10 20 30

@@ -9,3 +9,8 @@ Below are Steps on how to submit Job on **Azure Synapse**:
 #. Create workflow in Sparkflows designer.
 #. **Execute** the workflow and make sure to select **Azure Synapse** Connection.
 
+.. figure:: ../../../_assets/azure/synapse_job.png
+   :alt: synapse
+   :width: 60%
+
+

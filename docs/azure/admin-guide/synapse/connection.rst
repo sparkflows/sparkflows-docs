@@ -132,3 +132,33 @@ For GENERAL tab
    :alt: synapse
    :width: 60%
    
+For AZURE SYNAPSE tab
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - File Path 
+     - File Path 
+     - Fire core jar file path
+   * - Driver Memory 
+     - Driver Memory 
+     - Driver Memory need to be used
+   * - Driver Cores  
+     - Driver Cores  
+     - Driver Cores need to be used 
+   * - Executor Memory  
+     - Executor Memory  
+     - Executor Memory need to be used
+   * - Executor Cores  
+     - Executor Cores  
+     - Executor Cores need to be used
+   * - Executor Count  
+     - Executor Count  
+     - Executor Count need to be used
+ 
+

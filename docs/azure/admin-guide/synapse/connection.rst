@@ -161,4 +161,7 @@ For AZURE SYNAPSE tab
      - Executor Count  
      - Executor Count need to be used
  
+.. figure:: ../../../_assets/azure/synapse_azuretab.png
+   :alt: synapse
+   :width: 60%
 

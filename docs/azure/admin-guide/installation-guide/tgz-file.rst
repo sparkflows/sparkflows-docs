@@ -19,9 +19,11 @@ Step 1 : SSH into the Azure VM
 
    .. Note::
             * Run all the below steps as a user with sudo permission. If unsure, please run the below commands as `root` user.
-            * If you are using Ubuntu, you may have to run the following and then select ``No``. ::
+            * If you are using Ubuntu, you may have to run the following and then select ``No``. 
 
-              sudo dpkg-reconfigure dash
+              ::
+
+                 sudo dpkg-reconfigure dash
 
 
 Step 2 : Download and install JDK 8

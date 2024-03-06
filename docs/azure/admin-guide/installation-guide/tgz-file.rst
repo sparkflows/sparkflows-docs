@@ -114,15 +114,15 @@ Step 4 : Install Python
 
    ::
 
-        wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+        wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
 
    ::
 
-        tar xzf Python-3.7.0.tgz
+        tar xzf Python-3.8.10.tgz
 
    ::
 
-        cd Python-3.7.0
+        cd Python-3.8.10
 
    ::
 
@@ -156,15 +156,15 @@ Step 4 : Install Python
 
    ::
 
-        wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+        wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
 
    ::
 
-        tar xzf Python-3.7.0.tgz
+        tar xzf Python-3.8.10.tgz
 
    ::
 
-        cd Python-3.7.0
+        cd Python-3.8.10
 
    ::
 
@@ -182,7 +182,7 @@ Step 4 : Install Python
      
    ::
         
-         python3.7 --version
+         python3.8 --version
 
 #. Install Python Libraries :
      
@@ -190,7 +190,7 @@ Step 4 : Install Python
      
    ::
         
-        python3.7 -m venv venv
+        python3.8 -m venv venv
 
    ::
 

@@ -124,6 +124,21 @@ Sparkflows ensure the following security measures.
 `Learn More <https://docs.sparkflows.io/en/latest/mlops/model_security.html>`_
 
 
+.. toctree::
+   :hidden:
+
+   mlops_modules.rst
+   model_management_dashboard.rst
+   model_lifecycle_action.rst
+   model_deployment.rst
+   user-guide/offline-model-serving.rst
+   admin-guide/online-model-serving.rst
+   user-guide/online-model-serving.rst
+   admin-guide/online-model-serving.rst
+   model_monitoring.rst
+   model_observability_retraining.rst
+
+   
 
 
 

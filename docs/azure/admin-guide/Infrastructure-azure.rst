@@ -69,8 +69,8 @@ Ensure that you have the following prerequisites with regard to software specifi
      - JDK 8
      - Java 8 is needed
    * - Python
-     - Python 3.7
-     - Python 3.7 is needed
+     - Python 3.8
+     - Python 3.8 is needed
    * - Users
      - Root access is needed during installation for installing JDK, Another user (can be called sparkflows) would be used for the installation of Sparkflows
      - This user can be “sparkflows”

@@ -95,12 +95,12 @@ HPE Guide
    hpe/index
 
 Incorta Guide
-------------
+----------------
 
-..toctree::
-  :maxdepth: 2
+.. toctree::
+   :maxdepth: 2
 
-  incorta/index
+   incorta/index
 
 Snowflake Guide
 --------------

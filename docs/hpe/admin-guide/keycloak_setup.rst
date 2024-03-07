@@ -6,7 +6,7 @@ This document explains in detail the steps involved in setting up Keycloak on HP
 Pre-requisites
 ------
 
-#. you need to have **Sparkflows Domain** available.
+#. You would need to have **Sparkflows Domain** available.
 #. Keycloak Login access with admin privilege.
 
 Setup Steps
@@ -14,7 +14,7 @@ Setup Steps
 
 Below are steps for setting up Keycloak in UA.
 
-#. Once you've decided on the Sparkflows' url to be used, navigate to the keycloak web ui, and login to the server with admin credentials. For the keycloak server details, connect with the HPE team :
+#. Once you've decided on the Sparkflows' URL to be used, navigate to the Keycloak web UI, and login to the server with admin credentials. For the Keycloak server details, connect with the HPE team :
    ::
      
      Server: https://keycloak.dev.hpeua.com/
@@ -27,13 +27,13 @@ Below are steps for setting up Keycloak in UA.
       :width: 60%
       :alt: HPE UA Keycloak clients
 
-#. Click on the ua client and then navigate to the settings section. Scroll down and add the sparkflows oidc callback url
+#. Click on the UA client and then navigate to the settings section. Scroll down and add the sparkflows OIDC callback URL
 
    .. figure:: ../../_assets/hpe/keycloak-redirect-uris.png
       :width: 60%
       :alt: HPE UA Keycloak callback urls
 
-#. Navigate to the Credentials section to copy the client secret, which will be used in sparkflows application properties.
+#. Navigate to the Credentials section to copy the client secret, which will be used in Sparkflows application properties.
 
    .. figure:: ../../_assets/hpe/client-details.png
       :width: 60%

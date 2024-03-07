@@ -11,7 +11,7 @@ Integration Components
 * Compute Connection i.e. Chidori.
 * Incorta MV with Pyspark code.
 
-Step 1: Setting Up Storage Connection to Incorta Object Store
+Step 1: Setting-up Storage Connection to Incorta Object Store
 ------------------------------------------
 #. Navigate to **Administration -> Configuration -> Global Connection**.
 #. Create a connection to the Incorta Object Store.

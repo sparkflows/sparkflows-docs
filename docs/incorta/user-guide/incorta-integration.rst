@@ -7,9 +7,9 @@ This document outlines the steps for integrating Sparkflows with Incorta.
 Integration Components
 ---------------------
 
-* Storage Connection i.e Incorta Tables
-* Compute Connection i.e Chidori
-* Incorta MV with Pyspark code
+* Storage Connection i.e. Incorta Tables.
+* Compute Connection i.e. Chidori.
+* Incorta MV with Pyspark code.
 
 Step 1: Setting Up Storage Connection to Incorta Object Store
 ------------------------------------------

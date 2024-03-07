@@ -47,13 +47,13 @@ Step 2 : Install Sparkflows
       :alt: HPE UA Add framework details
 
 
-#. Connect with the Sparkflows team to get the latest chart for the HPE environment. Upload the new chart. Make sure the chart version doesn’t match the existing uploaded version in the HPE ezua platform, else it will throw the error as shown in the screenshot below.
+#. Connect with the Sparkflows team to get the latest chart for the HPE environment. Upload the new chart. Make sure the chart version doesn’t match the existing uploaded version in the HPE EZUA platform, else it will throw the error as shown in the screenshot below.
 
    .. figure:: ../../_assets/hpe/hpe-ua-upload-chart.png
       :width: 60%
       :alt: HPE UA Add framework details
 
-#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the ezua section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
+#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the EZUA section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
   
    .. figure:: ../../_assets/hpe/hpe-ua-configure-chart-values.png
       :width: 60%

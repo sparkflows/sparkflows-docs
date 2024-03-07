@@ -1,0 +1,81 @@
+January 31 2024
+=================
+
+New Features
+----------
+* Added what-if capability to the platform to analyse and diagnose machine learning models.
+* Added what-if score charts to show global and local feature importance.
+* Added what-if option in model details page.
+* Added dynamic clustering functionality in K-means processor.
+* Added Timeseries Decompose node.
+* Ability to add Airflow as a connection.
+* Ability to add and use Chidori connection.
+* Ability to filter by date in workflow execution page.
+
+
+Improvements
+------------
+
+* Enabled confusion matrix compute and visualization even when labels are non-numeric.
+* Enhancement to the datatype being handled in Distributed Random Forest processor.
+* Enhancements to the model monitoring charts.
+* Spark submit config values to be passed while running Incorta job.
+* Updates to the binary installers for seamless install experience.
+* Enhanced Git connection test issue resolutions.
+* Enhanced installer buttons with hover effect.
+* Adjusted the projects list/card/categorical view pages elements for mobile view.
+* Enhancement to handle multiple path added browser button.
+* Enhanced configuration buttons with hover effect.
+* Enhancement to take care of console error for newly created users.
+* Added hover effect for install button in installer.
+* Enhanced installer buttons with hover effect.
+* Added dropdown for 'azure.access.type' configuration.
+* Added success message on restoring workflows.
+* Added success message on emptying the workflow trash.
+* Added success message on for action icons of workflow trash.
+* Added line separator for pipeline trash table.
+* Added a authentication failure handler.
+* Changed the Restore button color for pipeline trash.
+* Added connectionName and CreatedBy in scheduler statistics.
+* Added supressCellFocus for Trashed pipelines.
+* Adjusted the height of the pipeline trash table.
+* Adjusted the height of the workflow trash table.
+* Added check on Project list length for the current project selection seen in header.
+* Updated client credentials to one supported by HPE.  
+
+
+Bug Fixes
+--------  
+
+* Fixed time series decompose repeated dates bug.
+* Resolved invalid int literal error and error while running on big data.
+* Fixed correlation node typecase issue.
+* Fixed empty path in summary node.
+* Fixed issue with refresh schema when the CSV file has only one row.
+* Fixed UI issue causing breaking cards alignment in the report list page.
+* Fixed the wrong color seen for a disabled button in Analytics Apps for blue/green themes.
+* Fixed issue in importing certificate.
+* Fixed the keystore path.
+* Fixed console error issue on recommendation rule add on data quality.
+* Fixed corrupt sample workflow json.
+* Fixed issue for data quality response not coming.
+* Fixed - downloaded results include titles in Gen-AI page.
+* Fixed issue for -Not able to open node after using Execute in Loop node in workflows.
+* Fixed data quality rule execution reload issue.
+* Fixed data quality response not coming.
+* Fixed issue for data quality response not coming.
+* Fixed issue for - download model monitoring chart breaking the data.
+* Fixed project should be created testcase expected status.
+* Fixed issue for - Folder path is missing to a file directly which we wants to download.
+* Fixed -Getting error while switching project list to view.
+* Fixed issue for newly created user getting console error.
+* Fixed - download model monitoring chart breaking the data.
+* Fixed issue for -Not able to open node after using execute in loop node in workflows.
+* Fixed - Getting error while switching project list to view.
+
+Documentation
+--------------
+* Updated and refined multiple pages and sections of the docs.
+
+
+  

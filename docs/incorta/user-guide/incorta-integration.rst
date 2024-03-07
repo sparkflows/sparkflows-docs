@@ -16,8 +16,14 @@ Step 1: Setting-up Storage Connection to Incorta Object Store
 #. Navigate to **Administration -> Configuration -> Global Connection**.
 #. Create a connection to the Incorta Object Store.
 
-   Image-1
-   Image-2
+   .. figure:: ../../_assets/incorta/Incorta-Chidori-Compute-Connection-General.png
+      :alt: incorta_integration
+      :width: 60%
+    
+   .. figure:: ../../_assets/incorta/Incorta-Chidori-Compute-Connection-Chidori.png
+      :alt: incorta_integration
+      :width: 60%
+    
 
 Step 2: Create Dataset with Incorta Object Store Connection
 ----------------------------------------------

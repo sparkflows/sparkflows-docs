@@ -7,7 +7,7 @@ Pre-requisites
 ------
 
 #. You would need to have **Sparkflows Domain** available.
-#. Keycloak Login access with admin privilege.
+#. Keycloak login access with admin privilege.
 
 Setup Steps
 -------

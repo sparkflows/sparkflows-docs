@@ -53,7 +53,7 @@ Step 2 : Install Sparkflows
       :width: 60%
       :alt: HPE UA Add framework details
 
-#. Now you can override the chart values in this step. Make sure you’ve used “virtualService” variable in the EZUA section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
+#. Now you can override the chart values in this step. Make sure you’ve used `virtualService` variable in the EZUA section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
   
    .. figure:: ../../_assets/hpe/hpe-ua-configure-chart-values.png
       :width: 60%

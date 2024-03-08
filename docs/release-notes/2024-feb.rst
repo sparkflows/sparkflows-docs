@@ -1,0 +1,72 @@
+February 29 2024
+==================
+
+New Features
+------------
+
+* Synapse integration added to Sparkflows.
+* Helm charts to deploy Kafka and integrate it with Sparkflows on any cloud.
+* Added ability to add AWS configurations at group levels.
+* Added the ability to update titles if loop variables.
+* Added save coefficients for linear regression processors.
+* Ability to generate code for model load processors.
+* Added count decision processors in PySpark engine.
+* Added generate code for Read JSON, Flatten and Explode processor.
+* Added count assert and decision processor.
+* Added sorting of Wiki cards by name, last date.
+* Added privilege to Super Admin to automatically access to all the Projects created by the individual Group and Users.
+
+Improvements
+------------
+
+* Added inside scroll for table in HDFS table.
+* Changed Icons for processes and memory in system metrics page.
+* Added search Icon for search in system metrics page search.
+* Added Project Name to the zip file name while Exporting the project.
+* Added support for search by Id in analytical app execution.
+* Added validation for edit Airflow connection if airflow is enabled/disabled.
+* Added null check on view logs API if connection Id not present in local execution.
+* Added sorting option for user table header inside group creation page.
+* Added select/unselect all functionality for use list while create/edit of group.
+* Added null check in server logs page.
+* Updated loop variable key and value in loop node and replaced loop path in graph values.
+* Improved Azure changes.
+* Added save coefficients in Loop node.
+* Disabled run button when dataset is not present.
+* Updated the height of the create/edit roles container to remove scroll.
+* Changed the browse file button label to "ADLS" when Azure is enabled.
+* Disabled the menu buttons till upgrade process is not completed or till the point it does throw an error.
+* Improved the speed of loading the page on click of any of the menu buttons and added hover color effect to all the buttons seen.
+* Resolved the issue with the ADLS file download.
+
+Bug Fixes
+-----------
+
+* Removed unwanted API call in kill process.
+* Fixed issue with setting up Airflow connection at the Top Right Corner of header.
+* Fixed schema table loading issue.
+* Fixed UI alignment for wiki editor page.
+* Fixed Scroll related issues for Roles Create/Edit page.
+* Fixed issue for schema data not coming while tab switching.
+* Fixed conflict for webapp cards.
+* Fixed loop variable key and value in Loop node and replaced loop path in graph values.
+* Fixed the issue with the ADLS file download.
+* Fixed operands broadcasting error.
+* Fixed issue with ts decompose in Loop node.
+* Fixed schema propagation issue in TS Decompose node.
+* Fixed alignment for user table.
+* Fixed user list table alignment in create group page
+* Fixed alignment issue for user table.
+* Fixed the issue with hover.
+* Fixed alignment issue for message in group page.
+
+
+Documentation
+------------
+
+* Added details about What-if Analysis.
+* Added details about Variables.
+* Updated the Azure Admin Guide.
+* Updated the MLOps Guide.
+* Updated and refined multiple pages and sections of the docs.  
+  

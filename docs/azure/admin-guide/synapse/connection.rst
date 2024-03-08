@@ -33,6 +33,8 @@ The Azure pre-requisites needed to Create Azure Synapse Compute Connection in Sp
      - Azure Tenant Id	
      - Azure Tenant Id
 
+For more information on setting up Azure Synapse, `click here. <https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace>`_
+
 Azure Synapse Connection
 ++++++++++++++
 

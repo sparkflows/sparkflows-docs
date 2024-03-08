@@ -6,9 +6,9 @@ New Features
 
 * Synapse integration added to Sparkflows.
 * Helm charts to deploy Kafka and integrate it with Sparkflows on any cloud.
-* Added ability to add AWS configurations at group levels.
-* Added the ability to update titles if loop variables.
-* Added save coefficients for linear regression processors.
+* Ability to add AWS configurations at group levels.
+* Ability to update titles if loop variables.
+* Ability to save coefficients for linear regression processors.
 * Ability to generate code for model load processors.
 * Added count decision processors in PySpark engine.
 * Added generate code for Read JSON, Flatten and Explode processor.
@@ -30,11 +30,10 @@ Improvements
 * Added select/unselect all functionality for use list while create/edit of group.
 * Added null check in server logs page.
 * Updated loop variable key and value in loop node and replaced loop path in graph values.
-* Improved Azure changes.
 * Added save coefficients in Loop node.
 * Disabled run button when dataset is not present.
 * Updated the height of the create/edit roles container to remove scroll.
-* Changed the browse file button label to "ADLS" when Azure is enabled.
+* Updated the browse file button label to "ADLS" when Azure is enabled.
 * Disabled the menu buttons till upgrade process is not completed or till the point it does throw an error.
 * Improved the speed of loading the page on click of any of the menu buttons and added hover color effect to all the buttons seen.
 * Resolved the issue with the ADLS file download.
@@ -56,8 +55,6 @@ Bug Fixes
 * Fixed schema propagation issue in TS Decompose node.
 * Fixed alignment for user table.
 * Fixed user list table alignment in create group page
-* Fixed alignment issue for user table.
-* Fixed the issue with hover.
 * Fixed alignment issue for message in group page.
 
 

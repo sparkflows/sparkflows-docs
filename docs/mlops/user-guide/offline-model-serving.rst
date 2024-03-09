@@ -1,4 +1,4 @@
-Offline Model Serving
+Offline Model Serving - User Guide
 ========
 
 Once the training workflow completes, the model is saved into the Sparkflows model repository. The models can be picked up and served using one of the below approaches:

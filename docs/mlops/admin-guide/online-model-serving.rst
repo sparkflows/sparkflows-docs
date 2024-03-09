@@ -1,4 +1,4 @@
-Online Model Serving Admin guide
+Online Model Serving - Admin guide
 =======
 Online model serving can be done in any of the following ways :
 

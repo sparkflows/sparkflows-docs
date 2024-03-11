@@ -3,15 +3,15 @@ Python Installation on Ubuntu 18.04 and 20.04
 
 Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows is compatible with Python 3.7.
 
-Check if Python 3.7 is Installed
+Check if Python 3.8 is Installed
 ---------------------------------
 
 Use the below commands::
 
   python --version
-  python3.7 --version
+  python3.8 --version
 
-Install Python 3.7 (if not installed)
+Install Python 3.8 (if not installed)
 -------------------------------------
 
 Some References for Installing Python: (https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/ )
@@ -37,15 +37,15 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 * Download python from below Link
 
   * https://www.python.org/downloads/
-  * https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+  * https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
 
 * Download and untar::
   
-    wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+    wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
 
   ::
   
-      tar xzf Python-3.7.0.tgz
+      tar xzf Python-3.8.10.tgz
 
   .. figure:: ../../_assets/configuration/download_tar.PNG
          :alt: Installations
@@ -53,7 +53,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
 * Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
 
-    cd Python-3.7.0
+    cd Python-3.8.10
 
   .. figure:: ../../_assets/configuration/cd_python.PNG
    :alt: Installations
@@ -79,22 +79,22 @@ Note: Do not use the standard make install as it will overwrite the default syst
 
 Verify it by typing::
 
-  python3.7 –-version
+  python3.8 –-version
 
 ::
 
   cd ..
 
-.. figure:: ../../_assets/configuration/python_version.PNG
+.. figure:: ../../_assets/configuration/python_version.png
    :alt: Installations
-   :width: 90%
+   :width: 60% 
 
 Create Python virtual environment & Activate it
 ---------------------------------
 
 Create Python virtual environment & Activate it::
 
-  python3.7 -m venv venv
+  python3.8 -m venv venv
 
 ::
 
@@ -104,9 +104,10 @@ Create Python virtual environment & Activate it::
 
   python --version
   
-.. figure:: ../../_assets/configuration/venv_ubuntu.PNG
+.. figure:: ../../_assets/configuration/python_version1.png
    :alt: Installations
-   :width: 90%  
+   :width: 60% 
+  
 
 Upgrade pip version
 -------------------

@@ -56,7 +56,7 @@ The Ingress configuration allows you to connect to the deployed container. To co
       :width: 60%
       :alt: Ingress Configuration
 
-   .. note:: In the above case, we have used **8080** as the target port, because by default the container runs on 8080 for http and 9443 for https with self-signed certificate.
+   .. note:: In the above case, we have used **8080** as the target port, because by default the container runs on 8080 for http and 8443 for https with self-signed certificate.
 
 Step 5 : Create the Container
 -----------

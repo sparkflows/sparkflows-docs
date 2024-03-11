@@ -72,7 +72,7 @@ Compile the Python source code on your system using altinstall::
 
     cd ..
   
-.. figure:: ../../_assets/configuration/python3_7.PNG
+.. figure:: ../../_assets/configuration/python_version.PNG
    :alt: Installations
    :width: 60% 
 
@@ -91,7 +91,7 @@ Create Python virtual environment & Activate it::
 
   python --version
 
-.. figure:: ../../_assets/configuration/venv_python.PNG
+.. figure:: ../../_assets/configuration/python_version1.PNG
    :alt: Installations
    :width: 60%
 

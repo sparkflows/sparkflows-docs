@@ -47,7 +47,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
   
       tar xzf Python-3.8.10.tgz
 
-  .. figure:: ../../_assets/configuration/download_tar.PNG
+  .. figure:: ../../_assets/configuration/python_download.png
          :alt: Installations
          :width: 90%
 

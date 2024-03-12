@@ -55,7 +55,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
     cd Python-3.8.10
 
-  .. figure:: ../../_assets/configuration/cd_python.PNG
+  .. figure:: ../../_assets/configuration/python_cd.png
    :alt: Installations
    :width: 90%
 
@@ -63,7 +63,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
     sudo ./configure --enable-optimizations
  
-  .. figure:: ../../_assets/configuration/configure_ubuntu.PNG
+  .. figure:: ../../_assets/configuration/python_run.png
    :alt: Installations
    :width: 90%
    
@@ -71,7 +71,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
  
    sudo make altinstall
 
-  .. figure:: ../../_assets/configuration/make.PNG
+  .. figure:: ../../_assets/configuration/python_run1.png
    :alt: Installations
    :width: 90%
 

@@ -3,7 +3,7 @@ Python Installation on Macbook
 
 Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows is compatible with Python 3.7
 
-Check if Python 3.7 is Installed
+Check if Python 3.8 is Installed
 ---------------------------------
 
 Use one of the below commands to check if the Python is installed on the machine or not::
@@ -12,7 +12,7 @@ Use one of the below commands to check if the Python is installed on the machine
   python3 --version
 
 
-Install Python 3.7 (if not installed)
+Install Python 3.8 (if not installed)
 ---------------------------------------
  
 * One way to install Python 3 on macOS is by installing Anaconda https://docs.anaconda.com/anaconda/install/mac-os/

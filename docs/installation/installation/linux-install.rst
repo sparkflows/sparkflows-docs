@@ -35,7 +35,7 @@ Below is needed if Sparkflows would connect and submit jobs to an Apache Spark C
 
 If there is need to run the PySpark engine (optional)::
 
-  - Python 3.7 needs to be set up on the machine
+  - Python 3.8 needs to be set up on the machine
 
     
 Downloading and Installing Java 8

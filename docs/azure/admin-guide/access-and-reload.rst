@@ -13,7 +13,7 @@ Step 1 : Obtain Azure Instance Information
 Step 2 : Open Sparkflows in a Web Browser
 ----------------
 
-#. Open a web browser and enter this URL: http://sparkflows_IP:8080 
+Open a web browser and enter this URL: http://sparkflows_IP:8080 
    
    **Note:** Do not forget to replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 

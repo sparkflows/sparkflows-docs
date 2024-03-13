@@ -23,49 +23,63 @@ Step 1: Setting-up Storage Connection to Incorta Object Store
    .. figure:: ../../_assets/incorta/Incorta-StorageConnection-Incorta-II.png
       :alt: incorta_integration
       :width: 60%
-    
-
-Step 2: Create Dataset with Incorta Object Store Connection
-----------------------------------------------
-#. Navigate to **Datasets tab** in Sparkflows.
-#. Create the dataset with an Incorta Object Store Connection.
 
 
-Step 3: Perform Dataset Profiling on Dataset
--------------------------------------
-#. Click on **Dataset Profile** in actions menu to initiate data profiling.
-#. Explore the DataProfile page to understand dataset characteristics.
-
-
-Step 4: Create the Workflow
+Step 2: Create the Workflow
 -----------------------
-#. Navigate to workflow editor.
+#. Navigate to **workflow editor**.
 #. Create the workflow by selecting the connection and Incorta table.
+
+   .. figure:: ../../_assets/incorta/Workflow-I.png
+      :alt: incorta_integration
+      :width: 60%   
 
    **Note:** In the above example, the workflow reads from an Incorta object store, transforms the selected columns to doubletype, performs feature extraction and transformation and builds the randomforest classification model.
 
-Step 5: Execute the Workflow and View Results 
+Step 3: Execute the Workflow and View Results 
 ---------------------------
-#. Execute the workflow on Incorta Spark Cluster with selected Chidori Connection.
-#. Access the Execution Page to review results.
+#. Execute the workflow on **Incorta Spark Cluster** with selected **Chidori Connection**.
+
+   .. figure:: ../../_assets/incorta/Workflow-II.png
+      :alt: incorta_integration
+      :width: 60%   
    
-   Start of the execution:
+#. Access the **Execution Page** to review results.
+   
+   .. figure:: ../../_assets/incorta/Workflow-III.png
+      :alt: incorta_integration
+      :width: 60%   
    
 
-   Results in Execution Page:
-   
-
-Step 6: View Model Summary
+Step 4: View Model Summary
 -------------------------------
-In the Model Registry hyperparameter, summary, metrics, feature importance and model path stored for the executed model. It allows users to compare the different models and deploy the model to kubeflow. And also register the model to mlfow.(Mlflow and Kubeflow configured in Configuration MLOps Page).
+In the Model Registry hyperparameter, summary, metrics, feature importance and model path stored for the executed model. It allows users to **compare** the different models and **deploy** the model to **Kubeflow**. And also **register** the model to **MLflow**. (MLflow and Kubeflow configured in Configuration MLOps Page).
 
+   .. figure:: ../../_assets/incorta/Model-I.png
+      :alt: incorta_integration
+      :width: 60%   
+   
+   
 
-Step 7: Generate Pyspark Code
+   .. figure:: ../../_assets/incorta/Model-II.png
+      :alt: incorta_integration
+      :width: 60%   
+   
+
+Step 5: Generate Pyspark Code
 -----------------------------
 PySpark Code can be generated for workflow and executed on any spark environment by following the below steps:
 
 #. Expand the three-dots menu and click on **Generate Pyspark Code**.
+
+   .. figure:: ../../_assets/incorta/Generate-Code.png
+      :alt: incorta_integration
+      :width: 60%   
 #. Click on **Copy to Clipboard** button to copy the generated code to any Spark environment.
+
+   .. figure:: ../../_assets/incorta/Copy-Code.png
+      :alt: incorta_integration
+      :width: 60%   
 
 
 

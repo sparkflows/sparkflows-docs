@@ -26,7 +26,7 @@ To configure Hive with the existing instance in HPE UA, we need to first copy th
 
         jdbc:hive2://xxxx.com:10000/default/undefined;ssl=true;auth=ldap;sslTrustStore=/root/ssl_truststore;trustStorePassword=xxxxx;user=hivetest;password=xxxxx
 
-.. note:: Make sure to update the configurations with absolute path.
+   .. note:: Make sure to update the configurations with absolute path.
 
 #. Acess Hive
 

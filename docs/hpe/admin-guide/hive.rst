@@ -1,4 +1,4 @@
-Hive Connection
+Hive Configurations
 ========
 
 Sparkflows can be Configure with Hive with the existing instance in HPE UA. 

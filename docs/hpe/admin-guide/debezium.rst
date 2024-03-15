@@ -47,7 +47,7 @@ Useful Command
         curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @source.json
 
 
-#. Source.json will be like this
+   **Source.json**
 
    ::
 

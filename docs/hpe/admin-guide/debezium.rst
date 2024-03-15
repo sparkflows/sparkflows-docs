@@ -20,3 +20,8 @@ Below is the design of the overall flow.
 #. Debezium reads database logs, produces json messages that describe the changes and streams them to Kafka
 #. Kafka streams the messages and stores them in a S3 folder. 
 #. Using Spark with Delta Lake we transform the messages to INSERT, UPDATE and DELETE operations, and run them on the target delta lake table.
+
+.. figure:: ../../_assets/hpe/debezium_setup.png
+      :width: 60%
+      :alt: HPE UA Add framework details
+

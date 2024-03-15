@@ -81,3 +81,39 @@ Useful Command
    ::
 
         curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @sink.json
+
+   **Sink.json**
+
+   ::
+
+        {
+        "name": "sink_connector_kafka_s3_avro_tickit",
+        "config": {
+        "behavior.on.null.values": "ignore",
+        "connector.class": "io.confluent.connect.s3.S3SinkConnector",
+        "flush.size": 10000,
+        "locale": "en-US",
+        "format.class":"io.confluent.connect.s3.format.json.JsonFormat",
+        "partitioner.class": "io.confluent.connect.storage.partitioner.DailyPartitioner",
+        "rotate.schedule.interval.ms": 60000,
+        "s3.bucket.name": "assume-role-bucket1",
+        "s3.part.size": 5242880,
+        "s3.region": "us-east-1",
+        "aws.access.key.id":"XXXXXXX",
+        "aws.secret.access.key":"XXXXXXXXXXXXXXXXXXXXXX",
+        "schema.compatibility": "NONE",
+        "schema.generator.class":                 
+        "io.confluent.connect.storage.hive.schema.DefaultSchemaGenerator",
+        "storage.class": "io.confluent.connect.s3.storage.S3Storage",
+        "tasks.max": 1,
+        "table.name.format": "${topic}",
+        "timestamp.extractor": "Wallclock",
+        "timezone": "UTC",
+        "store.url": "",
+        "topics.dir": "cdc_data_lake/bronze",
+        "topics.regex": "dbserver1.inventory.(.*)",
+        "key.converter.schemas.enabled": "false",
+        "value.converter.schemas.enabled": "false"
+        } 
+        }
+

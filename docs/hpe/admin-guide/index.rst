@@ -38,6 +38,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     Describes details steps involved in Configuring Hive in Sparkflows.
 
+    ---
+
+    :doc:`/hpe/admin-guide/debezium`
+
+    Describes details steps involved in Configuring Debezium.
+
 
 .. toctree::
    :hidden:
@@ -47,3 +53,4 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    sparkflows_setup.rst
    livy_config.rst
    hive.rst
+   debezium.rst 

@@ -47,4 +47,33 @@ Useful Command
         curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @source.json
 
 
+#. Source.json will be like this
+
+   ::
+
+        {"name": "inventory-connector",  
+        "config": {  
+        "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+        "tasks.max": "1",  
+        "database.hostname": "mysql",  
+        "database.port": "3306",
+        "database.user": "debezium",
+        "database.password": "dbz",
+        "database.server.id": "184054",  
+        "topic.prefix": "dbserver1",  
+        "table.include.list": "inventory.customers",
+        "snapshot.mode":"when_needed",
+        "decimal.handling.mode": "double",
+        "include.schema.changes": "true",  
+        "schema.history.internal.kafka.bootstrap.servers": "kafka:9092",  
+        "schema.history.internal.kafka.topic": "schema-changes.inventory",
+        "key.converter.schemas.enabled": "false",
+        "value.converter.schemas.enabled": "false", 
+        "transforms": "unwrap",
+        "transforms.unwrap.add.fields": "name,op,db,table,source.ts_ms",
+        "transforms.unwrap.delete.handling.mode": "rewrite",
+        "transforms.unwrap.drop.tombstones": "true",
+        "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"  
+        }}
+
 

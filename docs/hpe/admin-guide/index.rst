@@ -32,6 +32,13 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     Describes details steps involved in Configuring Livy in Sparkflows.
 
+    ---
+
+    :doc:`/hpe/admin-guide/hive`
+
+    Describes details steps involved in Configuring Hive in Sparkflows.
+
+
 .. toctree::
    :hidden:
 
@@ -39,3 +46,4 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    keycloak_setup.rst
    sparkflows_setup.rst
    livy_config.rst
+   hive.rst

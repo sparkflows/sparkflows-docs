@@ -117,11 +117,6 @@ Useful Command
         } 
         }
 
-Debezium Monitor
------
-
-For Debezium Monitoring, Use `Debezium Documentation. <https://debezium.io/documentation/reference/stable/configuration/avro.html>`_
-
 #. Usefull-fields
 
 ::
@@ -129,3 +124,8 @@ For Debezium Monitoring, Use `Debezium Documentation. <https://debezium.io/docum
       "database.whitelist": "myDb"
       "table.whitelist": "myDb.table1,myDb.table2"
       "store.url": "http://kafkasgd.rtpppe.netapp.com:10444/"  
+
+Debezium Monitor
+-----
+
+For Debezium Monitoring, Use `Debezium Documentation. <https://debezium.io/documentation/reference/stable/configuration/avro.html>`_

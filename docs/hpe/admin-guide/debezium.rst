@@ -76,4 +76,8 @@ Useful Command
         "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"  
         }}
 
+#. Register the sink with debezium
 
+   ::
+
+        curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @sink.json

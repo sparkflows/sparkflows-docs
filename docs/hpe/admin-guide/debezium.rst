@@ -117,3 +117,10 @@ Useful Command
         } 
         }
 
+#. Usefull-fields
+
+::
+
+      "database.whitelist": "myDb"
+      "table.whitelist": "myDb.table1,myDb.table2"
+      "store.url": "http://kafkasgd.rtpppe.netapp.com:10444/"  

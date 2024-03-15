@@ -7,9 +7,15 @@ To configure Hive with the existing instance in HPE UA, we need to first copy th
 
 #. Find the pod id of the sparkflows
 
-::
+   ::
 
-    $ kubectl get po -n sparkflows
+       $ kubectl get po -n sparkflows
 
-    NAME                                              READY   STATUS    RESTARTS   AGE
-    hpe-fire-sparkflows-fire-858f44cb87-llhjd         2/2     Running   0          94m
+       NAME                                              READY   STATUS    RESTARTS   AGE
+       hpe-fire-sparkflows-fire-858f44cb87-llhjd         2/2     Running   0          94m
+
+#. Copy the ssl_truststore from the Unix machine
+
+   ::
+
+       $ kubectl cp ssl_truststore <pod-id>:/root -n sparkflows

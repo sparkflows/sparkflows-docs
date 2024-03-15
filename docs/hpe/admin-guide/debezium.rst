@@ -117,6 +117,11 @@ Useful Command
         } 
         }
 
+Debezium Monitor
+-----
+
+For Debezium Monitoring, Use `Debezium Documentation. <https://debezium.io/documentation/reference/stable/configuration/avro.html>`_
+
 #. Usefull-fields
 
 ::

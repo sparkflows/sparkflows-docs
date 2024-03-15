@@ -19,3 +19,9 @@ To configure Hive with the existing instance in HPE UA, we need to first copy th
    ::
 
        $ kubectl cp ssl_truststore <pod-id>:/root -n sparkflows
+
+#. Use the following connection string
+
+   ::
+
+        jdbc:hive2://xxxx.com:10000/default/undefined;ssl=true;auth=ldap;sslTrustStore=/root/ssl_truststore;trustStorePassword=xxxxx;user=hivetest;password=xxxxx

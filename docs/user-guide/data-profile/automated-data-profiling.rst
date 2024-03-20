@@ -6,7 +6,7 @@ There are 2 ways to perform automated data profiling.
 1. Trigger the Data Profiling from `Data Quality` Tool
 2. Trigger the Data Profiling from a `Dataset`
 
-* Automated Data Profiling from `Data Quality` Tool
+Automated Data Profiling from `Data Quality` Tool
 =============
 - Select a project and the required datasets. 
 .. figure:: ../../_assets/user-guide/data-quality/Select_Basic_Profiling.png
@@ -30,8 +30,9 @@ There are 2 ways to perform automated data profiling.
    :alt: Advanced Data Profiling
    :width: 75%
 
-* Automated Data Profiling in Project `Dataset`
+Automated Data Profiling for a  selected`Dataset`
 =============
+
 Dataset profiling is the process of examining and analyzing a dataset in order to understand its structure, content, and quality. The goal of data profiling is to gain a deeper understanding of the data, identify any issues or inconsistencies, and prepare the data for further analysis or use.
 
 Data profiling typically involves several steps, including:
@@ -41,24 +42,21 @@ Data profiling typically involves several steps, including:
 
 Below are the steps required to perform Data Profiling in Fire Insights.
 
-Go to the Projects Page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Go to the project page where you want to create a dataset or already have an existing one.
 
-Go to the project page where you want to create a dataset or already have an existing one.
-
-Select ``Datasets`` tab.
+- Select ``Datasets`` tab.
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_list.PNG
    :alt: Dataset
    :width: 75%
 
-Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking on the Dataset profile will take you to the next page.
+- Select a dataset & under the ``ACTION`` icon, choose Dataset Profile. Clicking on the Dataset profile will take you to the next page.
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_profile.PNG
    :alt: Dataset
    :width: 75%
 
-Now, click on the ``Run Data Profiling`` option and ``Select Profiling Parameters``
+- Now, click on the ``Run Data Profiling`` option and ``Select Profiling Parameters``
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
    :alt: Dataset
@@ -68,13 +66,13 @@ Now, click on the ``Run Data Profiling`` option and ``Select Profiling Parameter
    :alt: Dataset
    :width: 75%
 
-Once you click on the above option, notifications about the process getting started will be displayed, as shown below.
+- Once you click on the above option, notifications about the process getting started will be displayed, as shown below.
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_run_3.PNG
    :alt: Dataset
    :width: 75%
 
-On refreshing the page after successful execution of the process, the latest execution result is displayed on the page.
+- On refreshing the page after successful execution of the process, the latest execution result is displayed on the page.
 
 .. figure:: ../../_assets/user-guide/data-profile/dataset_result.PNG
    :alt: Dataset

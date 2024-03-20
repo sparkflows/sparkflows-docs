@@ -12,7 +12,7 @@ Data Profiling, refers to the process of examining and analyzing a dataset in or
 
     ---
 
-    :doc:`/user-guide/data-profile/dataset-profiling`
+    :doc:`/user-guide/data-profile/automated-data-profiling`
 
     Automated Dataset Profiling
 
@@ -24,5 +24,5 @@ Data Profiling, refers to the process of examining and analyzing a dataset in or
    :hidden:
 
    data-profiling.rst
-   dataset-profiling.rst
+   automated-data-profiling.rst
 

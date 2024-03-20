@@ -6,7 +6,7 @@ Fire Insights provides a number of processors or nodes for exploration of data.
 
 .. figure:: ../../_assets/user-guide/data-quality/2_Data_Profiling_Workflow.png
    :alt: Data Profiling Workflow
-   :width: 75%
+   :width: 100%
 
 
 Data Exploration Processors in Fire Insights

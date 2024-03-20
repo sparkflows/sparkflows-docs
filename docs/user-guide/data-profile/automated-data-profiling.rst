@@ -1,12 +1,12 @@
 Automated Data Profiling
 =============
 
-There are 2 ways to perform automated data profiling.
+There are 2 ways to perform Automated Data Profiling.
 
-1. Trigger the Data Profiling from `Data Quality` Tool
-2. Trigger the Data Profiling from a `Dataset`
+1. Automated Data Profiling from top-level `Data Quality` menu
+2. Automated Data Profiling for a  selected `Dataset` inside a Project
 
-Automated Data Profiling from `Data Quality` Tool
+Automated Data Profiling from top-level `Data Quality` menu
 =============
 - Select a project and the required datasets. 
 .. figure:: ../../_assets/user-guide/data-quality/Select_Basic_Profiling.png
@@ -30,7 +30,7 @@ Automated Data Profiling from `Data Quality` Tool
    :alt: Advanced Data Profiling
    :width: 75%
 
-Automated Data Profiling for a  selected`Dataset`
+Automated Data Profiling for a  selected `Dataset` inside a Project
 =============
 
 Dataset profiling is the process of examining and analyzing a dataset in order to understand its structure, content, and quality. The goal of data profiling is to gain a deeper understanding of the data, identify any issues or inconsistencies, and prepare the data for further analysis or use.

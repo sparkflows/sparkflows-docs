@@ -3,10 +3,6 @@ Dataset Profile
 
 Dataset profiling is the process of examining and analyzing a dataset in order to understand its structure, content, and quality. The goal of data profiling is to gain a deeper understanding of the data, identify any issues or inconsistencies, and prepare the data for further analysis or use.
 
-.. figure:: ../../_assets/user-guide/data-quality/2_Data_Profiling_Features.png
-   :alt: Dataset
-   :width: 75%
-
 Data profiling typically involves several steps, including:
 
 * **Data discovery:** This is the process of identifying the structure of the data, such as the number of tables, columns, and rows as well as the data types and sizes of the columns.

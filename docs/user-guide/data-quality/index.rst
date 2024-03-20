@@ -22,7 +22,7 @@ Sparkflows offers a large number of automated Data Quality Assessment and Cleans
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/user-guide/data-quality/data-quality-processors`
+    :doc:`/user-guide/data-quality/standard-data-quality-processors`
 
     Data Quality Processors
 

@@ -7,7 +7,7 @@ Sparkflows offers a large number of automated Data Quality Assessment and Cleans
 
 .. figure:: ../../_assets/user-guide/data-quality/1_Data_Quality_Features.png
    :alt: Data Quality Features
-   :width: 100%
+   :width: 70%
 
 
 .. panels::
@@ -16,11 +16,9 @@ Sparkflows offers a large number of automated Data Quality Assessment and Cleans
 
     :doc:`/user-guide/data-quality/automated-data-quality`
 
-    Data Quality Processors
+    Automated Data Quality
 
-.. panels::
-    :container: container-lg pb-3
-    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+    ---
 
     :doc:`/user-guide/data-quality/standard-data-quality-processors`
 
@@ -33,5 +31,7 @@ Sparkflows offers a large number of automated Data Quality Assessment and Cleans
     
    automated-data-quality.rst 
    standard-data-quality-processors.rst
+
+
    
 

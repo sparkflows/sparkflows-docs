@@ -5,9 +5,9 @@ Fire Insights provides powerful capabilities for monitoring data quality. It pro
 
 Sparkflows offers a large number of automated Data Quality Assessment and Cleansing features.
 
-.. figure:: ../../_assets/user-guide/data-quality/1_Data_Quality_Features.png
-   :alt: Data Quality Features
-   :width: 70%
+ .. figure:: ../../_assets/user-guide/data-quality/1_Data_Quality_Features.png
+    :alt: Data Quality Features
+    :width: 70%
 
 
 .. panels::

@@ -11,30 +11,30 @@ This document outlines detailed steps to perform automated data profiling.
 Automated Data Profiling from top-level Data Quality Menu
 -------------------------------------------------
 
-Step 1 : Select a project and the required datasets
+Step 1 : Select a Project and the Required Datasets
 +++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-quality/Select_Basic_Profiling.png
-   :alt: Basic Data Profiling 
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-quality/Select_Basic_Profiling.png
+      :alt: Basic Data Profiling 
+      :width: 65%
 
-Step 2 : Run the basic profiling automatically on multiple datasets
+Step 2 : Run the Basic Profiling Automatically on Multiple Datasets
 ++++++++++++++++++++
   
-.. figure:: ../../_assets/user-guide/data-quality/Select_Profiling_Option.png
-   :alt: Data Profiling on multiple datasets
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-quality/Select_Profiling_Option.png
+      :alt: Data Profiling on multiple datasets
+      :width: 65%
 
-Step 3 : Select a dataset and view the execution results in real-time
+Step 3 : Select a Dataset and View the Execution Results in Real-time
 +++++++++++++++++++++++++++
   
-.. figure:: ../../_assets/user-guide/data-quality/Data_Profiling_Execution_Result.png
-   :alt: Data Profiling Execution Result
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-quality/Data_Profiling_Execution_Result.png
+      :alt: Data Profiling Execution Result
+      :width: 65%
 
-Step 4 : Perform advanced profiling by selecting required columns
+Step 4 : Perform Advanced Profiling by Selecting Required Columns
 +++++++++++++++++++++++++++++++++++++
-  
+
 This includes checking missing values, skewness, cross tab, duplicate values, finding presence of sensitive columns and checking columns against a secondary dataset.
 
 .. figure:: ../../_assets/user-guide/data-quality/Advanced_Data_Profiling.png
@@ -61,51 +61,51 @@ Go to the project page where you want to create a dataset or already have an exi
 Step 2 : Open Datasets Tab
 +++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_list.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_list.PNG
+      :alt: Dataset
+      :width: 65%
 
 Step 3 : Select Dataset 
 ++++++++++++++++++++++
 
 Select a dataset & under the **ACTION** icon, choose **Dataset Profile**. Clicking on the Dataset profile will take you to the next page.
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_profile.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_profile.PNG
+      :alt: Dataset
+      :width: 65%
 
 Step 4 : Perform Dataset Profiling
 +++++++++++++++++++++++++++++
 
 On Dataset Profile Page, click on the **Run Data Profiling** option and **Select Profiling Parameters**.
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_run.PNG
+      :alt: Dataset
+      :width: 65%
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_run_1.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_run_1.PNG
+      :alt: Dataset
+      :width: 65%
 
 Once you click on the above option, notifications about the process getting started will be displayed, as shown below:
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_run_3.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_run_3.PNG
+      :alt: Dataset
+      :width: 65%
 
 Step 5 : View Execution Result
 ++++++++++++++++++++
 
 On refreshing the page after successful execution of the process, the latest execution result is displayed on the page.
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_result.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_result.PNG
+      :alt: Dataset
+      :width: 65%
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_summary.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_summary.PNG
+      :alt: Dataset
+      :width: 65%
 
-.. figure:: ../../_assets/user-guide/data-profile/dataset_null.PNG
-   :alt: Dataset
-   :width: 65%
+   .. figure:: ../../_assets/user-guide/data-profile/dataset_null.PNG
+      :alt: Dataset
+      :width: 65%

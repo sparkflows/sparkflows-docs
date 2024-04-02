@@ -53,11 +53,25 @@ Step 2 : Install Sparkflows
       :width: 60%
       :alt: HPE UA Add framework details
 
-#. Now you can override the chart values in this step. Make sure you’ve used `virtualService` variable in the EZUA section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
+#. Now you can override the chart values in this step. Make sure you’ve used virtualService variable in the EZUA section. Failure to do so will result in dns allocation for the newly installed service. You need to use the same domain name, which was used in the Keycloak section.
   
-   .. figure:: ../../_assets/hpe/hpe-ua-configure-chart-values.png
+   .. figure:: ../../_assets/hpe/hpe-ua-chart-config.png
       :width: 60%
       :alt: HPE UA Add Configure chart values
+ 
+   Following are the list of configurations that you need to override.
+
+   **sso.clientId:** The registered client Id in the Keycloak that will be used to authenticate the users
+
+   **sso.clientSecret:** The client secret used for the OAuth
+
+   **sso.accessTokenUri:** Used to generate the access token. This is available from the step 5 of the Keycloak setup.
+
+   **sso.userAuthorizationUri:** Used to validate the auth token. This is available from the step 5 of the Keycloak setup.
+   
+   **sso.userInfoUri:** Used to fetch the user details. This is available from the step 5 of the Keycloak setup.
+   database.host: Used to configure the MySQL database host which stores the metadata of Sparkflows
+
 #. As a final step, review the configuration, submit the new framework. It might take upto 10 minutes to bring the new framework.
 
 

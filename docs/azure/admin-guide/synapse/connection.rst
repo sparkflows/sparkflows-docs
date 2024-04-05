@@ -35,7 +35,7 @@ In order to Create Azure Synapse Compute Connection in Sparkflows, the User need
 
 For more information on setting up Azure Synapse, `click here. <https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace>`_
 
-Azure Synapse Connection
+Creating Azure Synapse Connection
 ++++++++++++++
 
 Sparkflows enables you to create **Azure Synapse Connection** and use it to submit **jobs/workflows**. Connections can be at various levels:
@@ -46,7 +46,7 @@ Sparkflows enables you to create **Azure Synapse Connection** and use it to subm
 
 Below are the steps to create Azure Synapse Connection:
 
-**Step 1 : Enable Azure Synapse in Sparkflows**
+Step 1 : Enable Azure Synapse in Sparkflows
 --------------------
 
 #. **Login** to Sparkflows.
@@ -61,7 +61,7 @@ Below are the steps to create Azure Synapse Connection:
       :alt: synapse
       :width: 60%
 
-**Step 2 : Add Connection**
+Step 2 : Add and Save the Connection
 -------------------
 
 Once you save the above configurations:
@@ -129,9 +129,10 @@ Once you save the above configurations:
        - Azure Tenant Id	
        - Azure Tenant Id
 
-  .. figure:: ../../../_assets/azure/synapse-general.png
-     :alt: synapse
-     :width: 60%
+
+   .. figure:: ../../../_assets/azure/synapse-general.png
+      :alt: synapse
+      :width: 60%
    
   
    **For AZURE SYNAPSE tab**:
@@ -167,8 +168,5 @@ Once you save the above configurations:
       :alt: synapse
       :width: 60%
 
-**Step 3: Save the Connection**
-----------------
-
-Once you have updated the above parameters, click on **Save** to save the connection.
+#. Once you have updated the above parameters, click on **Save** to save the connection.
 

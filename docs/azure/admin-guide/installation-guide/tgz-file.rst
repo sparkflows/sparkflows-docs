@@ -100,7 +100,7 @@ Step 3 : Download the latest Sparkflows TAR
 Step 4 : Install Python
 -----------
    
-#. For **CentOS**, run the below commands to install all the Python dependencies using :
+#. For **CentOS**, run the below commands to install all the Python dependencies:
      
    ::
         
@@ -142,7 +142,7 @@ Step 4 : Install Python
 
         cd ..
 
-   Or for **Ubuntu**, run the below commands to install all the Python dependencies using :
+   Or for **Ubuntu**, run the below commands to install all the Python dependencies :
      
    ::
         

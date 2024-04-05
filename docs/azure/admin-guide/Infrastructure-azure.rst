@@ -51,7 +51,7 @@ Instance Type & OS Supported
      - 64
 
 
-Visit `Azure Documentation <https://learn.microsoft.com/en-us/azure/virtual-machines/fsv2-series>`_ to get more details.
+Read `Azure Documentation <https://learn.microsoft.com/en-us/azure/virtual-machines/fsv2-series>`_ to get more details.
 
 Software Specifications
 ++++
@@ -99,7 +99,7 @@ Networking Requirements
      - Comment
    * - SSH
      - 22
-     - For SSH to vm
+     - For SSH to VM
    * - HTTP
      - 80
      - For Accessing on HTTP
@@ -113,7 +113,7 @@ Networking Requirements
      - 8443
      - Fire Insights by default run on port 8443 on https
 
-.. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
+.. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic must be accessible.
 
 
 HTTPS Configuration

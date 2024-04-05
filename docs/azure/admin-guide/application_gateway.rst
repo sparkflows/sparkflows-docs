@@ -1,7 +1,7 @@
 Application Gateways
 ========
 
-This document describes the steps for Configuring Fire Insights running on a virtual machine with Application gateways.
+This document describes the steps for configuring Fire Insights running on a virtual machine with application gateways.
 
 Step 1 : Login to Azure Portal
 -----------------
@@ -38,7 +38,7 @@ Step 2 : Create an Application Gateway
 Step 3 : Configure Application Gateway
 -----------------
 
-#. Navigate to  **Configuration** in Application gateway.
+#. Navigate to  **Configuration** in application gateway.
 
    .. figure:: ../../_assets/azure/app_waf2.PNG
       :width: 60%
@@ -52,10 +52,10 @@ Step 3 : Configure Application Gateway
       :width: 60%
       :alt: Basic Configuration
 
-Step 4 : Access Fire Insight Application using Application Gateway
+Step 4 : Access Fire Insights Application using Application Gateway
 -----------------
 
-Now you Access Fire Insight application using **Application gateway IP.**
+Now, you can access Fire Insights application using **application gateway IP.**
 
 ::
 

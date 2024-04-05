@@ -15,7 +15,7 @@ Step 2 : Open Sparkflows in a Web Browser
 
 Open a web browser and enter this URL: http://sparkflows_IP:8080 
    
-   **Note:** Do not forget to replace **sparkflows_IP** with your instance's **actual IP/DNS**.
+**Note:** Do not forget to replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 
 Step 3 : Create New Users
 --------------
@@ -36,6 +36,6 @@ To create additional users:
 
 Reload Sample Projects
 -------
-Fire Insights by default comes with sample Project which can be reloaded in Fire Insights application.
+Fire Insights by default comes with sample projects that can be reloaded in Fire Insights application.
 
 For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_

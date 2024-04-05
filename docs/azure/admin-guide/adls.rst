@@ -34,18 +34,18 @@ In order to configure ADLS in Fire Insights, the User needs to have the followin
      - Azure ADLS can be accessed in many ways but currently supporting servicePrincipal and managedIdentity	
      - Value should be either servicePrincipal or managedIdentity
 
-Configuring ADLS in Sparkflows
+Configure ADLS in Sparkflows
 +++++++++++++++
 
 Once the above pre-requisites from Azure are available, you can configure ADLS in Sparkflows using the below steps:
 
-**Step 1 : Open Sparkflows in Web Browser**
+Step 1 : Open Sparkflows in Web Browser
 ----------------
 
 #. Open a **web browser**.
 #. Enter the URL: http://sparkflows_IP:8080 and replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 
-**Step 2 : Configure ADLS**
+Step 2 : Configure ADLS
 --------------
 
 #. **Login** to Sparkflows.
@@ -92,7 +92,7 @@ Once the above pre-requisites from Azure are available, you can configure ADLS i
       :width: 70%
       :alt: adls
 
-**Step 3 : Browse ADLS**
+Step 3 : Browse ADLS
 --------------
 
 Once the above **configurations** are saved, you can browse ADLS as below:

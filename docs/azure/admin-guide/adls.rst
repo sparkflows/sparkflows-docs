@@ -60,7 +60,7 @@ Once the above pre-requisites from Azure are available, you can configure ADLS i
 #. Select **Configurations** Tab.
 #. Select **AZURE** Tab.
 #. Enter **parameter details** setup in Azure.
-#. Save the **Configurations**.
+#. Save the **configurations**.
 
 .. list-table:: 
    :widths: 10 20 30
@@ -101,7 +101,7 @@ Once the above **configurations** are saved, you can browse ADLS as below:
 #. Select **ADLS**.
 #. You can browse ADLS file and folder.
 
-   .. figure:: ../..//_assets/azure/adls_browse.PNG
+   .. figure:: ../../_assets/azure/adls_browse.PNG
       :width: 70%
       :alt: adls
 

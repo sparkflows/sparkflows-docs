@@ -12,7 +12,7 @@ Data Profiling, refers to the process of examining and analyzing a dataset in or
 
     :doc:`/user-guide/data-profile/data-profiling`
 
-    Data Exploration
+    Data Profiling Processors
 
     ---
 

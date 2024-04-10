@@ -1,0 +1,62 @@
+March 31 2024
+=============
+
+New Features
+-------------  
+  
+* Ability to generate PySpark code for String to UNIX Time node , Vector Indexer node, Tokenizer node, Standard Scalar node, Robust Scaler node, Normalizer node, Min-max Scaler node, Max-abs scaler node, Index-to-String node, Binarizer node, Coalesce node.
+* Added Optimization engine to cater to optimization problems.
+* Added tables for feature importance model summary and fixed model names.
+* Added new method to predict parabola and not use the one in training.
+* Added workflow parameters for feature columns.
+* Added start/stop scheduler for workflow and pipeline.
+* Added an option to add a JDBC connection from JDBC explorer page when no JDBC connection is present.
+* Added export as pdf feature for any graph (single graph) seen in the execution page of workflow/pipeline/app etc.
+* Added event tracker for pipeline operations.
+* Updated Dashboard UI with Recent activities, Recent projects, Recent Workflows, Recent Pipelines , Recent Analytical Apps and Recent Dashboards.
+* Added export button in analytics app run page to allow the user to download result on execute.
+* Added more details in databricks cluster details page.
+* Added support for saving pipeline version with comment.
+* Added support for search for a workflow in EMR Workflow node in pipeline.
+* Added drag-and-drop functionality for reordering output column values for Case-When node
+* Added support for comparing pipeline versions.
+* Added support for view next execution time of scheduled workflow or pipeline on add/edit page of scheduler.
+* Option to select/change connection in edit page of scheduler for Global and Group Connection(Project).
+* Added support for enabling/disabling save workflow version through configuration changes.
+* Added History menu for installer.
+* Added support for executing given workflow ID in execute button for run stage.
+* Added support for register MV feature in generate pyspark code in workflow when Chidori connection is enabled.
+* Added feature to copy stage and import across any app.
+* Added more advance profiling options i.e. Cross dataset profiling, duplicate value and sensitive attribute.
+* Added "Without Transformation Loss" column and "Min Max Var" from "kc_pack_price" column.
+
+Improvements
+-----------  
+  
+* Added enhancements and fixes in optimization nodes.
+* Updated the response in execution page from string to HTML.
+* Removed connection arguments when dialect is MySQL.
+* Added header for centroid table in PySpark H2O KMeans.
+* Updated icon, pagination, button colors throughout the application.
+* Updated wiki page UI and added direct edit link inside wiki cards.
+* Updated error msg for LDAP configuration.
+* Updated the error message for JDBC when no connection is found.
+* Updated the placeholder for search bar in Groups page to Search by Name.
+
+Bug Fixes
+----------
+* Fixed column name bug.
+* Fixed file save bug in optimization node.
+* Fixed DBFS file path bug in optimization node.
+* Fixed dayofweek bug.
+* Fixed same loop title issue.
+* Fixed feature importance sort error.
+* Fixed issues with HdfsUtilNonKerberos Java file.
+* Fixed issue with ADLS file download.
+* Fixed hidden label issue in bar chart.
+* Fixed the helm chart issue.
+* Fixed direct navigation on view result page and back button issue.
+* Fixed the long pipeline names which goes beyond pipeline execution page.
+* Hid user administration card from Administration page when logged in user doesn't have administration related permissions.
+* Fixed the search related issue for Users list page when searching user based on group.
+* Fixed the spark-submit command issue in running pyspark workflow.

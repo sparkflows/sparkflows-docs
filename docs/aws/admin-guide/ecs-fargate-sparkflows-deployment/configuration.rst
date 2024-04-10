@@ -67,9 +67,9 @@ Select the tasks, application load balancer and target groups to deploy the serv
      :width: 60%
    
 
-* Health checks with path '/' and success codes as '200, 302'.
+* Health checks with path '/healthcheck' and success codes as '200, 302'.
   
-  .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-tg-2.png
+  .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/healtcheck.PNG
      :alt: aws
      :width: 60%
 

@@ -59,3 +59,10 @@ Bug Fixes
 * Hid user administration card from Administration page when logged in user doesn't have administration related permissions.
 * Fixed the search related issue for Users list page when searching user based on group.
 * Fixed the spark-submit command issue in running pyspark workflow.
+
+Documentation
+-----------
+
+* Updated and refined multiple pages and sections of the docs.
+
+

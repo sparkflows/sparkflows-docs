@@ -28,7 +28,6 @@ New Features
 * Added support for register MV feature in generate pyspark code in workflow when Chidori connection is enabled.
 * Added feature to copy stage and import across any app.
 * Added more advance profiling options i.e. Cross dataset profiling, duplicate value and sensitive attribute.
-* Added "Without Transformation Loss" column and "Min Max Var" from "kc_pack_price" column.
 
 Improvements
 -----------  

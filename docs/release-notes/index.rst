@@ -5,6 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2024-mar.rst
    2024-feb.rst
    2024-jan.rst
    2023-dec.rst

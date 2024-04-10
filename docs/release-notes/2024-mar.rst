@@ -47,13 +47,12 @@ Bug Fixes
 * Fixed column name bug.
 * Fixed file save bug in optimization node.
 * Fixed DBFS file path bug in optimization node.
-* Fixed dayofweek bug.
 * Fixed same loop title issue.
 * Fixed feature importance sort error.
 * Fixed issues with HdfsUtilNonKerberos Java file.
 * Fixed issue with ADLS file download.
 * Fixed hidden label issue in bar chart.
-* Fixed the helm chart issue.
+* Fixed the Helm chart issue.
 * Fixed direct navigation on view result page and back button issue.
 * Fixed the long pipeline names which goes beyond pipeline execution page.
 * Hid user administration card from Administration page when logged in user doesn't have administration related permissions.

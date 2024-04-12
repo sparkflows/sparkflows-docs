@@ -32,3 +32,5 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
    overview.rst  
    pre-requisites.rst
    installation.rst
+   operations/jupyter.rst 
+   

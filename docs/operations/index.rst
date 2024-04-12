@@ -40,10 +40,6 @@ Operations
     :doc:`/operations/performance/index`
     
     ---
-    
-    :doc:`/operations/jupyter`
-    
-    ---
 
     :doc:`/operations/fire-notebook`
 
@@ -76,7 +72,6 @@ Operations
    installing-jdbc-drivers.rst
    performance/index.rst
    dashboard-installing-jdbc-drivers.rst
-   jupyter.rst
    fire-notebook.rst
    installing-tesseract.rst
    opennlp.rst

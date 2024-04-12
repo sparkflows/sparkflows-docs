@@ -29,6 +29,11 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     Jupyter Notebook
 
+    ---
+
+    :doc:`/jupyter-guide/jupyter-integration`
+
+    Steps for integrating with Jupyter Notebook
 
 
 .. toctree::
@@ -38,4 +43,5 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
    pre-requisites.rst
    installation.rst
    jupyter.rst 
+   jupyter-integration.rst
    

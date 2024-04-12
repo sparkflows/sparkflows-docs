@@ -4,12 +4,12 @@ March 31 2024
 New Features
 -------------  
   
-* Ability to generate PySpark code for String to UNIX Time node , Vector Indexer node, Tokenizer node, Standard Scalar node, Robust Scaler node, Normalizer node, Min-max Scaler node, Max-abs scaler node, Index-to-String node, Binarizer node, Coalesce node.
+* Ability to generate PySpark code for String to UNIX Time node, Vector Indexer node, Tokenizer node, Standard Scalar node, Robust Scaler node, Normalizer node, Min-max Scaler node, Max-abs scaler node, Index-to-String node, Binarizer node, Coalesce node.
 * Added Optimization engine to cater to optimization problems.
 * Added tables for feature importance model summary and fixed model names.
 * Added new method to predict parabola and not use the one in training.
 * Added workflow parameters for feature columns.
-* Added start/stop scheduler for workflow and pipeline.
+* Added start and stop scheduler for workflow and pipeline.
 * Added an option to add a JDBC connection from JDBC explorer page when no JDBC connection is present.
 * Added export as pdf feature for any graph (single graph) seen in the execution page of workflow/pipeline/app etc.
 * Added event tracker for pipeline operations.
@@ -23,7 +23,6 @@ New Features
 * Added support for view next execution time of scheduled workflow or pipeline on add/edit page of scheduler.
 * Option to select/change connection in edit page of scheduler for Global and Group Connection(Project).
 * Added support for enabling/disabling save workflow version through configuration changes.
-* Added History menu for installer.
 * Added support for executing given workflow ID in execute button for run stage.
 * Added support for register MV feature in generate pyspark code in workflow when Chidori connection is enabled.
 * Added feature to copy stage and import across any app.
@@ -41,6 +40,7 @@ Improvements
 * Updated error msg for LDAP configuration.
 * Updated the error message for JDBC when no connection is found.
 * Updated the placeholder for search bar in Groups page to Search by Name.
+
 
 Bug Fixes
 ----------

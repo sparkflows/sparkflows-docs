@@ -121,10 +121,10 @@ Spark Standalone Guide
 Jupyter Guide
 ---------------
 
-..toctree::
-  :maxdepth: 2
+.. toctree::
+   :maxdepth: 2
 
-   aws/admin-guide/jupyter/index
+   jupyter-guide/index
 
 MLOps Guide
 --------------

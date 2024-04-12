@@ -118,6 +118,14 @@ Spark Standalone Guide
 
    spark-standalone/index
 
+Jupyter Guide
+---------------
+
+..toctree::
+  :maxdepth: 2
+
+   aws/admin-guide/jupyter/index
+
 MLOps Guide
 --------------
 

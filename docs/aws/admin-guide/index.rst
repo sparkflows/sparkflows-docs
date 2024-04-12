@@ -57,13 +57,6 @@ AWS Admin Guide
     
     Setting up Certificate on AWS. 
 
-    
-    ---
-
-    :doc:`/aws/admin-guide/jupyter/index`
-
-    Jupyter notebook installation and Configurations.
-
     ---
 
     :doc:`/aws/admin-guide/emr/index`
@@ -128,7 +121,6 @@ AWS Admin Guide
    aws-s3-integration.rst
    load-balancer.rst
    configuring-aws-certificate.rst
-   jupyter/index.rst
    emr/index.rst
    test.rst
    operations.rst

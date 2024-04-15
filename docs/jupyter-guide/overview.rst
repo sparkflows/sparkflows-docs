@@ -1,5 +1,7 @@
 Overview
 --------
 
-Fire can be used to generate PySpark code and run it in notebook. 
+Fire Insights comes with integration with Jupyter.
+
+The Analytical Apps in Sparkflows, can submit Jupyter Notebook jobs on Kuberneres.
 

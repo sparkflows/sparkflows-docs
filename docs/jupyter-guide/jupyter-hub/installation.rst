@@ -16,7 +16,7 @@ Before installing JupyterHub, ensure that you have the following:
 
     sudo apt-get install nodejs npm
 
-.. Note:: `nodesource <https://github.com/nodesource/distributions#table-of-contents>`_ is a great resource to get more recent versions of the nodejs runtime, if your system package manager only has an old version of Node.js (e.g. 10 or older).
+  .. Note:: `nodesource <https://github.com/nodesource/distributions#table-of-contents>`_ is a great resource to get more recent versions of the nodejs runtime, if your system package manager only has an old version of Node.js (e.g. 10 or older).
 
 Installation
 ------------

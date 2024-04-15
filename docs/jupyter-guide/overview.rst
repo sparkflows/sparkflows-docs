@@ -1,9 +1,13 @@
 Overview
 --------
 
-Jupyter Notebook is an open-source web-based application that allows Data Scientists and Python developers to create and share documents that contain live code, equations, visualizations, and narrative text.
+A Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Uses for Jupyter Notebooks include data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. Jupyter Notebooks are widely used in academia and industry for data analysis, scientific research, and education. They're a tool to streamline the process of working with data, writing code, and communicating results and insights.
 
-Fire Insights comes with integration with Jupyter.
+JupyterHub is a multi-user version of the highly popular Jupyter Notebook, designed to serve notebooks to multiple users. It provides a convenient way to serve Jupyter Notebook and other types of interactive Jupyter environments to users who do not need to install anything on their own computers. JupyterHub runs in the cloud or on your own hardware, and it makes it easy to serve a pre-configured data science environment to any user with a web browser. This flexibility and ease of use have made it a fundamental tool in teaching, learning, and conducting data science at scale.
+
+
+
+Fire Insights comes with integration with Jupyter and JupyterHub.
 
 Details
 =====

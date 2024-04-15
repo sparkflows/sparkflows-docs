@@ -5,9 +5,7 @@ JupyterLab can be installed on the machine running Fire Insights. Fire Insights 
 
 To install JupyterLab for Python on Ubuntu environment, you need to have python and pip available.
 
-To install JupyterLab for Python in Ubuntu environment, you need to have python and pip available.
-
-Use below command to install jupyter lab: ::
+Use below command to install Jupyter lab: ::
 
     pip install --upgrade pip
     pip install jupyterlab
@@ -40,7 +38,7 @@ Customize the jupyter_lab_config.py file of jupyterlab and change the configurat
 
 .. note:: Make sure to have a SSL certificate for running jupyterlab on https.
 
-Start jupyter server using below command::
+Start Jupyter server using below command::
 
    jupyter-lab --ip=0.0.0.0 --port=8888
 

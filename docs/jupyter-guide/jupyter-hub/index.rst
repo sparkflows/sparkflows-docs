@@ -7,7 +7,7 @@ JupyterHub
     
     :doc:`/jupyter-guide/jupyter-hub/installation`
 
-    Steps for installing JupyterHub.
+    Steps for installing JupyterHub
 
 
 .. toctree::

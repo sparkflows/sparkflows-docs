@@ -42,5 +42,5 @@ Start Jupyter server using below command::
 
    jupyter-lab --ip=0.0.0.0 --port=8888
 
- Now try to access JupyterLab on browser using public server url along with port.
+ Now try to access JupyterLab on browser using public server URL along with port.
 

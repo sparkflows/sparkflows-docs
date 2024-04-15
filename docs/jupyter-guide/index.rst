@@ -15,18 +15,24 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     ---
     
-    :doc:`/jupyter-guide/installation`
+    :doc:`/jupyter-guide/jupyter-lab/index`
 
-    Jupyter Lab installations and configurations
-
-    ---
-
-    :doc:`/jupyter-guide/configuring-fire-insights`
-
-    Configuring Fire Insights
+    JupyterLab installations and configurations
 
     ---
 
+    :doc:`/jupyter-guide/jupyter-lab/index`
+
+    JupyterLab installations and configurations 
+
+    ---
+
+    :doc:`/jupyter-guide/jupyter-hub/index`
+
+    JupyterHub installation
+
+    --- 
+    
     :doc:`/jupyter-guide/analytical-apps/index`
 
     Integrating Analytical Apps with Jupyter
@@ -36,8 +42,8 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
    :hidden:
  
    overview.rst  
-   installation.rst
-   configuring-fire-insights.rst 
+   jupyter-lab/index.rst
+   jupyter-hub/index.rst
    analytical-apps/index.rst
    
    

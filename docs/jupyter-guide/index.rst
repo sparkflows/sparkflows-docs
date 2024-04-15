@@ -19,15 +19,15 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     ---
 
-    :doc:`/jupyter-guide/jupyter`
+    :doc:`/jupyter-guide/configuring-fire-insights`
 
-    Jupyter Notebook
+    Configuring Fire Insights
 
     ---
 
     :doc:`/jupyter-guide/jupyter-integration`
 
-    Steps for integrating with Jupyter Notebook
+    Integrating Analytical Apps
 
 
 .. toctree::

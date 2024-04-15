@@ -27,7 +27,7 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     ---
 
-    :doc:`/jupyter-guide/analytical apps/index`
+    :doc:`/jupyter-guide/analytical-apps/index`
 
     Integrating Analytical Apps with Jupyter
 

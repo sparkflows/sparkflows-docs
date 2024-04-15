@@ -25,7 +25,7 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 
     ---
 
-    :doc:`/jupyter-guide/jupyter-integration`
+    :doc:`/jupyter-guide/integrating-analytical-apps-with-jupyter.rst`
 
     Integrating Analytical Apps
 
@@ -35,6 +35,6 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
  
    overview.rst  
    installation.rst
-   jupyter.rst 
-   jupyter-integration.rst
+   configuring-fire-insights.rst 
+   integrating-analytical-apps-with-jupyter.rst
    

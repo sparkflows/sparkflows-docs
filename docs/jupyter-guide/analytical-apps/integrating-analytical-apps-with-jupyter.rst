@@ -199,6 +199,7 @@ To share the progress of the Notebook run as a percentage with the analytical ap
 ::
 
     message = "50"
+    
     restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 

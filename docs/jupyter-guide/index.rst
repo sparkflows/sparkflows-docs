@@ -14,12 +14,6 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
     Overview of Jupyter integration with Fire Insights
 
     ---
-    
-    :doc:`/jupyter-guide/jupyter-lab/index`
-
-    JupyterLab installations and configurations
-
-    ---
 
     :doc:`/jupyter-guide/jupyter-lab/index`
 

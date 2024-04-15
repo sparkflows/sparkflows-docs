@@ -15,7 +15,7 @@ Use below command to install Jupyter lab: ::
 
 Change to directory jupyter using command: cd ~/.jupyter
 
-Customize the jupyter_lab_config.py file of jupyterlab and change the configurations below::
+Customize the jupyter_lab_config.py file of jupyter lab and change the configurations below::
 
     #NotebookApp
     c.NotebookApp.open_browser = False
@@ -36,11 +36,11 @@ Customize the jupyter_lab_config.py file of jupyterlab and change the configurat
 
 
 
-.. note:: Make sure to have a SSL certificate for running jupyterlab on https.
+.. note:: Make sure to have a SSL certificate for running JupyterLab on https.
 
 Start Jupyter server using below command::
 
    jupyter-lab --ip=0.0.0.0 --port=8888
 
- Now try to access jupyter lab on browser using public server url along with port.
+ Now try to access JupyterLab on browser using public server url along with port.
 

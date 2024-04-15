@@ -1,4 +1,4 @@
-Offline Model Serving - Admin guide
+Offline Model Serving
 ========
 Offline model serving can be done in any of the following ways :
 

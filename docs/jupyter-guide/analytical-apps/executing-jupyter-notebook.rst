@@ -16,7 +16,7 @@ Step 1 : Create Jupyter Notebook Connection
    * **Title** - Any string name to identify your connection.
    * **Description** (Optonal) - About connection.
 
-     .. figure:: ../../_assets/jupyter/add-jupyter-connection-1.png
+     .. figure:: ../../_assets/jupyter/add_jupyter_connection_1.png
         :alt: jupyter-notebook
         :width: 60%
 
@@ -28,7 +28,7 @@ Step 1 : Create Jupyter Notebook Connection
    * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
    * **Another available image** - **sparkflows/fire:jupyternotebook.5**
 
-     .. figure:: ../../_assets/jupyter/add-connection-kubernetes.png
+     .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
         :alt: jupyter-notebook
         :width: 60%
 

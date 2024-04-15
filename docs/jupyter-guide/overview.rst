@@ -6,7 +6,7 @@ Jupyter Notebook is an open-source web-based application that allows Data Scient
 Fire Insights comes with integration with Jupyter.
 
 Details
---------
+=====
 
 Fire can be used to, easily, create a downsampled dataset. Fire provides a ``sample`` processor for it.
 

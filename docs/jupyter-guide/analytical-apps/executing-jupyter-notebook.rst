@@ -1,4 +1,4 @@
-Notebook Execution Using Jupyter Notebook
+Notebook Execution Using Jupyter
 ================================
 
 Follow the below steps to execute notebook on Kubernetes cluster:

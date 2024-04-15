@@ -36,7 +36,8 @@ These outputs can be seamlessly displayed in the analytical app interface, enhan
 **Step 1 : Create a RestWorkflowContext Object**
 +++++++++++++++++++++++++++++++++++++++++++
 
-First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code ::
+First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code 
+::
 
     jobId = dbutils.widgets.get("job-id")
     webserverURL = dbutils.widgets.get("postback-url")
@@ -56,7 +57,8 @@ Fire Insights provides various output functions to present data effectively with
 **Output as Text**
 .................
 
-To output text to Fire Insights, use the following code ::
+To output text to Fire Insights, use the following code 
+::
 
     restworkflowcontext.outStr(9, "Test String", text="text")
 
@@ -65,7 +67,8 @@ To output text to Fire Insights, use the following code ::
 ...................................
 
 
-To display the contents of a PySpark DataFrame as a table in Fire Insights, use the following code ::
+To display the contents of a PySpark DataFrame as a table in Fire Insights, use the following code 
+::
     
     from pyspark.sql.types import *
 
@@ -84,7 +87,8 @@ To display the contents of a PySpark DataFrame as a table in Fire Insights, use 
 ..............
 
 
-To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use the following code ::
+To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use the following code 
+::
 
     # list of strings
     lst = ['Geeks', 'For', 'Geeks', 'is',
@@ -106,7 +110,8 @@ To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use 
 
 Output the chart in Fire Insights by selecting x & y column. It can display Column, Bar & Line chart types as outputs. 
 
-To generate charts, use the following code ::
+To generate charts, use the following code 
+::
     
     from pyspark.sql.types import *
 
@@ -125,7 +130,8 @@ To generate charts, use the following code ::
 .......
 
 
-To display HTML code in Fire Insights, use the following code ::
+To display HTML code in Fire Insights, use the following code 
+::
     
     htmlstr1 = "<h3>You can view HTML code in notebooks.</h3>"
  
@@ -135,7 +141,8 @@ To display HTML code in Fire Insights, use the following code ::
 ..........
 
 
-To output Plotly visualizations to Fire Insights, use the following code ::
+To output Plotly visualizations to Fire Insights, use the following code 
+::
     
     import plotly.graph_objs as go
     import plotly
@@ -150,7 +157,8 @@ To output Plotly visualizations to Fire Insights, use the following code ::
 **Output Parameters**
 ..........
 
-To display a list of values as output, use the following code ::
+To display a list of values as output, use the following code 
+::
     
     parameters = [("radio", "Industries", "Natural Resources, Construction, IT, Services, Finance, Real Estate, Others"), 
               ("checkbox", "Education, Position", "Graduate, Manager"),

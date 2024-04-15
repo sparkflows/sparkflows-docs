@@ -20,13 +20,13 @@ Step 1: Login to Fire Web Server URL
 
 #. Update the below parameters:
 
-::
+   ::
 
-    notebook.enabled : true
-    notebook.serverHost : jupyternotebook server url which include token
-    notebook.serverToken : Token being used
+      notebook.enabled : true
+      notebook.serverHost : jupyternotebook server url which include token
+      notebook.serverToken : Token being used
     
-.. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
+   .. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
 
 
 Step 2 : Open Jupyter Notebook

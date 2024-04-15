@@ -15,17 +15,6 @@ Once the modeling process is complete, the algorithm can be run on the full data
 Installations
 -----
 
-To install JupyterLab for Python in Ubuntu environment, you need to have python and pip available.
-
-Use below command to install::
-
-
-    pip install --upgrade pip
-    pip install jupyterlab
-    jupyter-lab --ip=0.0.0.0 --port=8888
-
-It will open the interface in your default web browser.
-
 Fire can be configured to Jupyter Notebook. Below are  the steps involved in it:
 
 1. Login to Fire web server URL

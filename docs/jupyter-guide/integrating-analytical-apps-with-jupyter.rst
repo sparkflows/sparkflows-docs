@@ -17,16 +17,16 @@ This step enables smooth integration and data flow between Fire Insights and Jup
 
 `Click here <https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl>`_ to download the Wheel File.  
 
-Output Details to Analytical Apps
+Output to Analytical Apps
 ----------------------------------
 
-To leverage the Fire Insights API for data transmission, you need to add the wheel file to your Jupyter Notebook. 
+The Jupyter Notebook can output tables, charts, html etc. to be displayed in the Analytical Apps. To leverage the Fire Insights API for data transmission, you need to add the wheel file to your Jupyter Notebook. 
 
 This step enables smooth integration and data flow between Fire Insights and Jupyter.
 
 `Click here <https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl>`_ to download the Wheel File.  
 
-Output Details to Analytical Apps
+Steps to output to Analytical Apps
 ---------------------
 
 The Jupyter Notebook can produce a wide range of output formats, including texts, tables, charts, HTML code, and progress bars. 
@@ -48,7 +48,7 @@ First create a RestWorkflowContext for communicating with Fire Insights server. 
 
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
-**Step 2 : Understand the Output Functions**
+**Step 2 : Invoke the output functions**
 +++++++++++++++++++++++++
 
 Fire Insights provides various output functions to present data effectively within the notebook. The following are some examples :
@@ -121,7 +121,7 @@ To generate charts, use the following code. ::
                                       chart_type ="LINECHART", df = df, numRowsToDisplay = 10)
  
  
-**Output as HTML**
+**Output HTML**
 .......
 
 

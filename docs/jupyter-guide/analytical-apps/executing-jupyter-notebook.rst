@@ -16,7 +16,7 @@ Step 1 : Create Jupyter Notebook Connection
    * **Title** - Any string name to identify your connection.
    * **Description** (Optonal) - About connection.
 
-     .. figure:: ../_assets/jupyter/add-jupyter-connection-1.png
+     .. figure:: ../../_assets/jupyter/add-jupyter-connection-1.png
         :alt: jupyter-notebook
         :width: 60%
 
@@ -28,7 +28,7 @@ Step 1 : Create Jupyter Notebook Connection
    * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
    * **Another available image** - **sparkflows/fire:jupyternotebook.5**
 
-     .. figure:: ../_assets/jupyter/add-connection-kubernetes.png
+     .. figure:: ../../_assets/jupyter/add-connection-kubernetes.png
         :alt: jupyter-notebook
         :width: 60%
 
@@ -42,7 +42,7 @@ Step 2 : Create Analytical App
 #. Select **Jupyter Notebook connection** from drop down.
 #. Next, add one **stage** which must have an Execute button with action - execute. Click on **Run**. 
 
-   .. figure:: ../_assets/jupyter/analytics-app-jupyter-run.png
+   .. figure:: ../../_assets/jupyter/analytics-app-jupyter-run.png
       :alt: jupyter-notebook
       :width: 60%
 

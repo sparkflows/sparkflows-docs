@@ -1,10 +1,11 @@
 Installation
 ======
 
+Jupyter can be installed on the machine running Fire Insights. Fire Insights integrates with Jupyter.
+
 To install JupyterLab for Python on Ubuntu environment, you need to have python and pip available.
 
-Use below command to install: ::
-
+Use below command to install jupyter lab: ::
 
     pip install --upgrade pip
     pip install jupyterlab

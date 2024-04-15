@@ -44,6 +44,6 @@ Step 2 : Create Analytical App
 
    .. figure:: ../../_assets/jupyter/analytics-app-jupyter-run.png
       :alt: jupyter-notebook
-      :width: 60%
+      :width: 70%
 
 `Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.

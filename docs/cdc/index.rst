@@ -1,4 +1,4 @@
-Change Data Capture
+Change Data Capture Guide
 ================
 
 .. panels::

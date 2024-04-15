@@ -34,9 +34,9 @@ The Jupyter Notebook can produce a wide range of output formats, including texts
 These outputs can be seamlessly displayed in the analytical app interface, enhancing the user experience.
 
 **Step 1 : Create a RestWorkflowContext Object**
-+++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++
 
-First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code. ::
+First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code ::
 
     jobId = dbutils.widgets.get("job-id")
     webserverURL = dbutils.widgets.get("postback-url")
@@ -49,23 +49,23 @@ First create a RestWorkflowContext for communicating with Fire Insights server. 
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
 **Step 2 : Invoke the output functions**
-+++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++
 
 Fire Insights provides various output functions to present data effectively within the notebook. The following are some examples :
 
 **Output as Text**
-........
+.................
 
-To output text to Fire Insights, use the following code. ::
+To output text to Fire Insights, use the following code ::
 
     restworkflowcontext.outStr(9, "Test String", text="text")
 
 
 **Output PySpark DataFrame as Table**
-.............
+...................................
 
 
-To display the contents of a PySpark DataFrame as a table in Fire Insights, use the following code. ::
+To display the contents of a PySpark DataFrame as a table in Fire Insights, use the following code ::
     
     from pyspark.sql.types import *
 
@@ -84,7 +84,7 @@ To display the contents of a PySpark DataFrame as a table in Fire Insights, use 
 ..............
 
 
-To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use the following code. ::
+To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use the following code ::
 
     # list of strings
     lst = ['Geeks', 'For', 'Geeks', 'is',
@@ -106,7 +106,7 @@ To showcase the contents of a Pandas DataFrame as a table in Fire Insights, use 
 
 Output the chart in Fire Insights by selecting x & y column. It can display Column, Bar & Line chart types as outputs. 
 
-To generate charts, use the following code. ::
+To generate charts, use the following code ::
     
     from pyspark.sql.types import *
 
@@ -125,7 +125,7 @@ To generate charts, use the following code. ::
 .......
 
 
-To display HTML code in Fire Insights, use the following code. ::
+To display HTML code in Fire Insights, use the following code ::
     
     htmlstr1 = "<h3>You can view HTML code in notebooks.</h3>"
  
@@ -135,7 +135,7 @@ To display HTML code in Fire Insights, use the following code. ::
 ..........
 
 
-To output Plotly visualizations to Fire Insights, use the following code. ::
+To output Plotly visualizations to Fire Insights, use the following code ::
     
     import plotly.graph_objs as go
     import plotly
@@ -150,7 +150,7 @@ To output Plotly visualizations to Fire Insights, use the following code. ::
 **Output Parameters**
 ..........
 
-To display a list of values as output, use the following code. ::
+To display a list of values as output, use the following code ::
     
     parameters = [("radio", "Industries", "Natural Resources, Construction, IT, Services, Finance, Real Estate, Others"), 
               ("checkbox", "Education, Position", "Graduate, Manager"),
@@ -167,7 +167,7 @@ To display a list of values as output, use the following code. ::
 
 This output is used by the Analytical App to show the Execution Status of the job. 
 
-To indicate the execution status of the job, use the following code.
+To indicate the execution status of the job, use the following code :
 
 
 ::
@@ -194,7 +194,7 @@ To indicate the execution status of the job, use the following code.
 
 You can share the current progress of the Notebook run in percentage terms to the analytical app. This is useful to keep the user updated with the progress of the job execution.
 
-To share the progress of the Notebook run as a percentage with the analytical app, use the following code.
+To share the progress of the Notebook run as a percentage with the analytical app, use the following code :
 
 ::
 
@@ -210,7 +210,7 @@ Analytical apps also allow us to pass a variable value as an input parameter to 
 
 If a user doesn’t enter a value within 120 seconds, it will return a default response.
 
-To allow users to input a variable value as a parameter during Notebook execution, use the following code.
+To allow users to input a variable value as a parameter during Notebook execution, use the following code :
 
 ::
 

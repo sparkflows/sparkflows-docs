@@ -37,10 +37,10 @@ Test your installation. If installed, these commands should return the packagesâ
  configurable-http-proxy -h
 
 
-Start the Hub Server
+Start the JupyterHub Server
 -----------------------
 
-To start the Hub server, run the below command
+To start the JupyterHub server, run the below command
 ::
 
  jupyterhub

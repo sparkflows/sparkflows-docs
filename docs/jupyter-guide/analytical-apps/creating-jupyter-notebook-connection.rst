@@ -1,7 +1,9 @@
 Creating Jupyter Notebook Connection
 ================================
 
-Follow the below steps to create Jupyter notebook connection and configuring Kubernetes details:
+This document outlines steps to create Jupyter Notebook Connection and configure Kubernetes cluster.
+
+Follow the below steps:
 
 Step 1: Input the Required General Attributes
 ------------------------------------

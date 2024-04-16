@@ -3,7 +3,10 @@ Jupyter Guide
 
 Jupyter Notebook is an open-source web-based application that allows Data Scientists and Python developers to create and share documents that contain live code, equations, visualizations, and narrative text. 
 
+Fire Insights integrates with Jupyter. 
 
+- Users can write notebooks in Jupyter.
+- Users can also build Analytical Apps which integrate with Jupyter Notebooks.
 
 .. panels::
     :container: container-lg pb-3

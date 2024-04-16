@@ -11,13 +11,13 @@ Analytical Apps
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/`creating-analytical-apps`
+    :doc:`/jupyter-guide/analytical-apps/creating-analytical-apps`
 
     Steps for creating Analytical App
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/`output-to-analytical-app`
+    :doc:`/jupyter-guide/analytical-apps/output-to-analytical-app`
 
     Steps to output results to Analytical App
 

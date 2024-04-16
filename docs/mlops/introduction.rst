@@ -70,7 +70,6 @@ The models in Sparkflows can be served as one of the two options:
 
 `User Guide <https://docs.sparkflows.io/en/latest/mlops/user-guide/offline-model-serving.html>`_
 
-`Admin Guide <https://docs.sparkflows.io/en/latest/mlops/admin-guide/offline-model-serving.html>`_
 
 #. **Online Model Serving**
    
@@ -84,8 +83,6 @@ The models in Sparkflows can be served as one of the two options:
          :width: 70%
 
 `User Guide <https://docs.sparkflows.io/en/latest/mlops/user-guide/online-model-serving.html>`_
-
-`Admin Guide <https://docs.sparkflows.io/en/latest/mlops/admin-guide/online-model-serving.html>`_
 
 
 

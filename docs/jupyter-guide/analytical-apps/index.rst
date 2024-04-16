@@ -5,19 +5,26 @@ Analytical Apps
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/jupyter-guide/analytical-apps/integrating-analytical-apps-with-jupyter`
+    :doc:`/jupyter-guide/analytical-apps/creating-jupyter-notebook-connection`
 
-    Steps to integrate Analytical Apps with Jupyter
+    Steps for creating Jupyter Notebook connection
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/executing-jupyter-notebook`
+    :doc:`/jupyter-guide/analytical-apps/`creating-analytical-apps`
 
-    Steps to execute Notebook using Jupyter Notebook
+    Steps for creating Analytical App
+
+    ---
+
+    :doc:`/jupyter-guide/analytical-apps/`output-to-analytical-app`
+
+    Steps to output results to Analytical App
 
 
 .. toctree::
    :hidden:
  
-   integrating-analytical-apps-with-jupyter.rst
-   executing-jupyter-notebook.rst
+   creating-jupyter-notebook-connection.rst
+   creating-analytical-apps.rst
+   output-to-analytical-app.rst

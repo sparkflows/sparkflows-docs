@@ -11,7 +11,7 @@ Analytical Apps
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/creating-analytical-apps`
+    :doc:`/jupyter-guide/analytical-apps/creating-analytical-app`
 
     Steps for creating Analytical App
 
@@ -26,5 +26,5 @@ Analytical Apps
    :hidden:
  
    creating-jupyter-notebook-connection.rst
-   creating-analytical-apps.rst
+   creating-analytical-app.rst
    output-to-analytical-app.rst

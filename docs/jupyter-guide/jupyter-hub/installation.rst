@@ -12,7 +12,7 @@ Before installing JupyterHub, ensure that you have the following :
 * Python 3.6 or greater. An understanding of using pip for installing Python packages is helpful.
 * nodejs/npm. Install nodejs/npm, using your operating system’s package manager. If you are using pip, install a recent version of nodejs/npm. 
 
-  For example, install it on Linux (Debian/Ubuntu) using 
+  For example, install it on Linux (Debian/Ubuntu) using :
   ::
 
     sudo apt-get install nodejs npm
@@ -22,7 +22,7 @@ Before installing JupyterHub, ensure that you have the following :
 Installation
 ------------
 
-JupyterHub can be installed with pip (and the proxy with npm) using the below
+JupyterHub can be installed with pip (and the proxy with npm) using the below :
 ::
 
  python3 -m pip install jupyterhub
@@ -30,7 +30,7 @@ JupyterHub can be installed with pip (and the proxy with npm) using the below
  python3 -m pip install jupyterlab notebook  # needed if running the notebook servers in the same environment
 
 
-Test your installation. If installed, these commands should return the packages’ help contents 
+Test your installation. If installed, these commands should return the packages’ help contents :
 ::
 
  jupyterhub -h
@@ -40,7 +40,7 @@ Test your installation. If installed, these commands should return the packages�
 Start the JupyterHub Server
 -----------------------
 
-To start the JupyterHub server, run the below command
+To start the JupyterHub server, run the below command :
 ::
 
  jupyterhub

@@ -23,7 +23,7 @@ In order to configure ADLS in Fire Insights, the User needs to have the followin
      - The path must match the format eg: abfs://containerName@storageAccountName.dfs.core.windows.net
    * - Client Id	
      - Client Id
-     - Client Id for ADLS Configuration
+     - Application (client) ID in register application
    * - Client Secret Key
      - Client Secret Key generated during registration of app in Azure portal
      - Client Secret Keys Value
@@ -77,7 +77,7 @@ Step 2 : Configure ADLS
      - The path must match the format eg: abfs://containerName@storageAccountName.dfs.core.windows.net
    * - Client Id	
      - Client Id
-     - Client Id for ADLS Configuration
+     - Application (client) ID in register application
    * - Client Secret Key
      - Client Secret Key generated during registration of app in Azure portal
      - Client Secret Keys Value

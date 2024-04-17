@@ -25,8 +25,8 @@ In order to configure ADLS in Fire Insights, the User needs to have the followin
      - Client Id
      - Application (client) ID in register application
    * - Client Secret Key
+     - Client Secret Key
      - Client Secret Key generated during registration of app in Azure portal
-     - Client Secret Keys Value
    * - Azure Client EndPoints	
      - Azure Client EndPoints	
      - EndPoints with OAuth 2.0 token endpoint (v1) in register application
@@ -79,8 +79,8 @@ Step 2 : Configure ADLS
      - Client Id
      - Application (client) ID in register application
    * - Client Secret Key
+     - Client Secret Key
      - Client Secret Key generated during registration of app in Azure portal
-     - Client Secret Keys Value
    * - Azure Client EndPoints	
      - Azure Client EndPoints	
      - EndPoints with OAuth 2.0 token endpoint (v1) in register application

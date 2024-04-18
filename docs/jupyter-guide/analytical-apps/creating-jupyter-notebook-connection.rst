@@ -5,7 +5,24 @@ This document outlines steps to create Jupyter Notebook Connection and configure
 
 Follow the below steps:
 
-Step 1: Input the Required General Attributes
+Step 1 : Enable Jupyter Notebook in Sparkflows
+--------------------
+
+#. **Login** to Sparkflows.
+#. Navigate to **Administration -> Configurations -> Connection**. 
+#. **Enable** the Jupyter Notebook connection by setting the below parameter:
+
+   ::
+
+       connection.jupyterNotebook.enabled	 : true
+
+   .. figure:: ../../_assets/jupyter/jupyter_enable.PNG
+      :alt: synapse
+      :width: 60%
+
+
+
+Step 2: Input the Required General Attributes
 ------------------------------------
 Input the following details:   
   

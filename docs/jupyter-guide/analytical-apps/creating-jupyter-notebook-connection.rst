@@ -68,9 +68,9 @@ Once you save the above configurations:
         :alt: jupyter-notebook
         :width: 60%
 
-     .. Note:: Make Sure that ``Postback URL`` is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
+   .. Note:: Make Sure that ``Postback URL`` is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
 
-     Input the following details in **For KUBERNETES tab**:
+   Input the following details in **KUBERNETES tab**:
 
      * **Path** - (Optional) Path of kubernetes configuration. For example - **/home/user1/.kube/kubeconfig**
      * **Namespace** - Namespace of kubernetes where the notebook will get executed. Default value - **default** 

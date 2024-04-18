@@ -92,6 +92,8 @@ Step 2 : Configure ADLS
       :width: 70%
       :alt: adls
 
+.. Note:: Make sure that ``Firewalls and virtual networks`` for Configured storage account should be accessible from Sparkflows VM.
+
 Step 3 : Browse ADLS
 --------------
 

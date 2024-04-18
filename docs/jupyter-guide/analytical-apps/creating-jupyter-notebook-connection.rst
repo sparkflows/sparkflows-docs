@@ -3,7 +3,15 @@ Creating Jupyter Notebook Connection
 
 This document outlines steps to create Jupyter Notebook Connection and configure Kubernetes cluster.
 
-Follow the below steps:
+Creating Jupyter Notebook connection
+++++++++++++++
+
+Sparkflows enables you to create **Jupyter Notebook Connection** and use it to submit **Application**. Connections can be at various levels:
+
+  * **Global**  : Everyone has access to these connections.
+  * **Group**   : Users belonging to the group have access to these connections.
+ 
+Below are the steps to create Jupyter Notebook Connection:
 
 Step 1 : Enable Jupyter Notebook in Sparkflows
 --------------------

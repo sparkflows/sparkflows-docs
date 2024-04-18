@@ -21,6 +21,8 @@ Input the following details:
         :alt: jupyter-notebook
         :width: 60%
 
+Note:: Make Sure that ``Postback URL`` is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
+
 Step 2 : Input the Kubernetes Configuration Details
 ------------------------------------------------
 Input the configuration details as below:

@@ -28,7 +28,28 @@ Step 1 : Enable Jupyter Notebook in Sparkflows
       :alt: synapse
       :width: 60%
 
+Step 2 : Add and Save the Connection
+-------------------
 
+Once you save the above configurations:
+
+#. Navigate to **Administration -> Global Connections -> Add Connections** as shown below:
+
+   .. figure:: ../../_assets/aws/livy/administration.png
+     :alt: synapse
+     :width: 60%
+
+#. Click on **Add Connection For Group**.
+
+   .. figure:: ../../_assets/azure/synapse_addconnection.png
+      :alt: synapse
+      :width: 60%
+
+#. On the pop-up window, select connection as **Compute Connection** and enter other parameters as shown below:
+
+   .. figure:: ../../_assets/jupyter/jupyter_notebook_connection.PNG
+      :alt: synapse
+      :width: 60%
 
 Step 2: Input the Required General Attributes
 ------------------------------------

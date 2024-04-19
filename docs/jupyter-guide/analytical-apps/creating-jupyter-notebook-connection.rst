@@ -10,6 +10,7 @@ Sparkflows enables you to create **Jupyter Notebook Connection** and use it to s
 
   * **Global**  : Everyone has access to these connections.
   * **Group**   : Users belonging to the group have access to these connections.
+  * **Project** : Users having access to the project have access to these connections.
  
 Below are the steps to create Jupyter Notebook Connection:
 
@@ -25,7 +26,7 @@ Step 1 : Enable Jupyter Notebook in Sparkflows
        connection.jupyterNotebook.enabled	 : true
 
    .. figure:: ../../_assets/jupyter/jupyter_enable.PNG
-      :alt: synapse
+      :alt: jupyter
       :width: 60%
 
 Step 2 : Add and Save the Connection
@@ -36,19 +37,19 @@ Once you save the above configurations:
 #. Navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 
    .. figure:: ../../_assets/aws/livy/administration.png
-     :alt: synapse
+     :alt: jupyter
      :width: 60%
 
 #. Click on **Add Connection For Group**.
 
    .. figure:: ../../_assets/azure/synapse_addconnection.png
-      :alt: synapse
+      :alt: jupyter
       :width: 60%
 
 #. On the pop-up window, select connection as **Compute Connection** and enter other parameters as shown below:
 
    .. figure:: ../../_assets/jupyter/jupyter_notebook_connection.PNG
-      :alt: synapse
+      :alt: jupyter
       :width: 60%
 
 #. Once you have selected  the connection type & groups, add the **additional connection parameters** needed as per your environment.

@@ -1,7 +1,7 @@
 Creating Analytical App
 ==================
 
-Below are the steps to create Analytical App:
+Below are the steps to create Analytical App which integrate with Jupyter Notebooks:
 
 Step 1: Login to Fire Insights
 -------------------------------

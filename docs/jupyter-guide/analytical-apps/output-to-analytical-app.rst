@@ -39,15 +39,13 @@ These outputs can be seamlessly displayed in the analytical app interface, enhan
 First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code :
 ::
 
-    jobId = dbutils.widgets.get("job-id")
-    webserverURL = dbutils.widgets.get("postback-url")
+    import sys
 
-    print(webserverURL)
-    print(jobId)
-
+    webserverURL = sys.argv[1]
+    jobId = sys.argv[2]
     from fire_notebook.output.workflowcontext import RestWorkflowContext
-
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+
 
 **Step 2 : Invoke the output functions**
 +++++++++++++++++++++++++++++++++++++++

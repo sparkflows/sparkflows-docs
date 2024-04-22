@@ -28,12 +28,6 @@ In the Sparkflows Analytical Apps Designer, the front end is built with drag and
 
     ---
 
-    :doc:`/user-guide/web-app/integrating-with-databricks-notebook`
-
-    Steps for integrating analytical apps with databricks notebook.
-    
-    ---
-
     :doc:`/user-guide/web-app/running-analytics-app`
 
     Run analytical apps and view the results with specified parameters.

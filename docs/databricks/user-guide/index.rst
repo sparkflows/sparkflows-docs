@@ -63,6 +63,14 @@ Databricks User Guide
     
     Generate PySpark Code.
 
+    ---
+
+    :doc:`/databricks/user-guide/integrating-with-databricks-notebook`
+    
+    Steps for integration with Databricks Notebook.
+
+
+
 .. toctree::
    :hidden:
 
@@ -76,4 +84,5 @@ Databricks User Guide
    reading-s3.rst
    writing-s3.rst
    generate-pyspark-code.rst
+   integrating-with-databricks-notebook.rst
 

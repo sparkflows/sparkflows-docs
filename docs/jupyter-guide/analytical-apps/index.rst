@@ -21,6 +21,12 @@ Analytical Apps
 
     Steps to output results to Analytical App
 
+    ---
+
+    :doc:`/jupyter-guide/analytical-apps/end-to-end-jupyter-notebook-app-exp`
+
+    End-To-End Jupyter Notebook App Exp
+
 
 .. toctree::
    :hidden:
@@ -28,3 +34,4 @@ Analytical Apps
    creating-jupyter-notebook-connection.rst
    creating-analytical-app.rst
    output-to-analytical-app.rst
+   end-to-end-jupyter-notebook-app-exp.rst

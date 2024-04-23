@@ -25,7 +25,7 @@ Step 1 : Enable Jupyter Notebook in Sparkflows
 
        connection.jupyterNotebook.enabled	 : true
 
-   .. figure:: ../../../_assets/jupyter/jupyter_enable.PNG
+   .. figure:: ../../_assets/jupyter/jupyter_enable.PNG
       :alt: jupyter
       :width: 60%
 
@@ -36,19 +36,19 @@ Once you save the above configurations:
 
 #. Navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 
-   .. figure:: ../../../_assets/aws/livy/administration.png
+   .. figure:: ../../_assets/aws/livy/administration.png
      :alt: jupyter
      :width: 60%
 
 #. Click on **Add Connection For Group**.
 
-   .. figure:: ../../../_assets/azure/synapse_addconnection.png
+   .. figure:: ../../_assets/azure/synapse_addconnection.png
       :alt: jupyter
       :width: 60%
 
 #. On the pop-up window, select connection as **Compute Connection** and enter other parameters as shown below:
 
-   .. figure:: ../../../_assets/jupyter/jupyter_notebook_connection.PNG
+   .. figure:: ../../_assets/jupyter/jupyter_notebook_connection.PNG
       :alt: jupyter
       :width: 60%
 
@@ -65,7 +65,7 @@ Once you save the above configurations:
      * **Title** - Any string name to identify your connection.
      * **Description** (Optonal) - About connection.
 
-     .. figure:: ../../../_assets/jupyter/add_jupyter_connection_1.png
+     .. figure:: ../../_assets/jupyter/add_jupyter_connection_1.png
         :alt: jupyter-notebook
         :width: 60%
 
@@ -78,7 +78,7 @@ Once you save the above configurations:
      * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
      * **Another available image** - **sparkflows/fire:jupyternotebook.5**
 
-     .. figure:: ../../../_assets/jupyter/add_connection_kubernetes.png
+     .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
         :alt: jupyter-notebook
         :width: 60%
 

@@ -5,9 +5,9 @@ Analytics App End to End Example
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/jupyter-guide/analytics-app-end-to-end/create-notebook`
+    :doc:`/jupyter-guide/analytics-app-end-to-end/example-analytical-app`
 
-    pre-requisites requirements
+    Example Analytics app
 
     
 
@@ -15,4 +15,4 @@ Analytics App End to End Example
 .. toctree::
    :hidden:
  
-   create-notebook.rst
+   example-analytical-app.rst

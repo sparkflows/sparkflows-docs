@@ -1,0 +1,10 @@
+Analytics App End to End
+=====
+
+.. panels::
+    :container: container-lg pb-3
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+    
+    :doc:`/jupyter-guide/analytics-append-to-end/end-to-end-jupyter-notebook-app-exp`
+
+    Steps for creating Jupyter Notebook connection

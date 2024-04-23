@@ -1,12 +1,12 @@
 Create Jupyter Notebook
 ======
 
-you can create Jupyter Notebook as below:
+You can create Jupyter Notebook as below:
 
 ::
 
     print("I am jupyter lab")
-   I am jupyter lab
+    I am jupyter lab
 
 ::
   

@@ -83,4 +83,6 @@ Once you save the above configurations:
         :alt: jupyter-notebook
         :width: 60%
 
+.. Note:: Make sure **Path** updated should be accessible from sparkflows vm.
+
 #. Once you have updated the above parameters, click on **Save** to save the connection.

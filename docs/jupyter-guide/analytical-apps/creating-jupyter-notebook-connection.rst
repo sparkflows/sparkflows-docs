@@ -77,9 +77,12 @@ Once you save the above configurations:
      * **Namespace** - Namespace of kubernetes where the notebook will get executed. Default value - **default** 
      * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
      * **Another available image** - **sparkflows/fire:jupyternotebook.5**
+     * ** you can use your own image as well** if you created notebook and build and push the docker image
 
      .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
         :alt: jupyter-notebook
         :width: 60%
+
+.. Note:: Make sure **Path** updated should be accessible from sparkflows vm.
 
 #. Once you have updated the above parameters, click on **Save** to save the connection.

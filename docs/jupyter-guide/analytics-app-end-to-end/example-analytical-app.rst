@@ -40,8 +40,8 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, Contains below:
     from fire_notebook.output.workflowcontext import RestWorkflowContext
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
-   message = "Successfully Received the Message from Notebook!"
-   restworkflowcontext.outStr(9, title="Message", text=message)
+    message = "Successfully Received the Message from Notebook!"
+    restworkflowcontext.outStr(9, title="Message", text=message)
 
 Prints the Results
 ------------------

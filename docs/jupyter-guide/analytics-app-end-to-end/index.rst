@@ -1,4 +1,4 @@
-Analytics App End to End
+Analytics App End to End Example
 =================
 
 .. panels::

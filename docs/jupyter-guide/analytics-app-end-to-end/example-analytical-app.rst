@@ -18,7 +18,7 @@ The below Applications does the following:
 Jupyter Notebook
 ------
 
-Jupyter Notebook **jupyter_lab_3.ipynb**, uses below:
+Jupyter Notebook **jupyter_lab_3.ipynb**, Contains below:
 
 ::
 

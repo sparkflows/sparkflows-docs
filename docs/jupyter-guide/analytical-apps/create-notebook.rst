@@ -12,10 +12,12 @@ you can create Jupyter Notebook as below:
   
     import os
     os.getcwd()
-    '/home/sparkflows/venv/lib/python3.8/site-packages/arrow'
     print()
     import sys
     print(sys.argv)
+
+::
+  
     webserverURL = "http://localhost:8080/messageFromSparkJob"
     jobId = "123456789"
     from fire_notebook.output.workflowcontext import RestWorkflowContext

@@ -3,7 +3,7 @@ Create Docker image with user created notebook
 
 Build the image with notebooks, data and required dependencies.
 
-More details `Docker Build details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
+Docker details `Dockerfile and other details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
 
 Below are the Docker Command being used to build image and push to Docker hub which will be accessible to pull image:
 

@@ -8,3 +8,8 @@ Analytics App End to End
     :doc:`/jupyter-guide/analytics-append-to-end/end-to-end-jupyter-notebook-app-exp`
 
     Steps for creating Jupyter Notebook connection
+
+.. toctree::
+   :hidden:
+ 
+   end-to-end-jupyter-notebook-app-exp.rst

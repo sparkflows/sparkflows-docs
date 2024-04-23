@@ -1,9 +1,9 @@
 Example Analytical App
 ==================
 
-Sparkflows enable you to run the Application which uses Jupyter Notebook.
+This is a Hello World Analytical App. It enables the user to run the app and view the output produced by the Jupyter Notebook.
 
-Applications
+Analytical App Overviw
 --------
 
 The below Applications does the following:
@@ -18,7 +18,9 @@ The below Applications does the following:
 Jupyter Notebook
 ------
 
-Jupyter Notebook **jupyter_lab_3.ipynb**, Contains below:
+Below is the Jupyter Notebook which gets invoked by the Analytical App and to output the results back to the Analytical App.
+
+Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 
 ::
 

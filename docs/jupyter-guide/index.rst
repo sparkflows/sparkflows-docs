@@ -34,6 +34,13 @@ Fire Insights integrates with Jupyter.
 
     Integrating Analytical Apps with Jupyter
 
+    --- 
+    
+    :doc:`/jupyter-guide/analytics-app-end-to-end/index`
+
+    End-To-End Jupyter Notebook Analytical App Example
+
+
 
 .. toctree::
    :hidden:
@@ -42,6 +49,7 @@ Fire Insights integrates with Jupyter.
    jupyter-lab/index.rst
    jupyter-hub/index.rst
    analytical-apps/index.rst
+   analytics-app-end-to-end/index.rst
 
 
    

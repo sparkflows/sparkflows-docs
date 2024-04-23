@@ -46,7 +46,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, Contains below:
 Prints the Results
 ------------------
 
-Once you run the application, It prints the response from Jupyter Notebook.
+Once you run the application, It user **Jupyter Notebook** connection to submit and prints the response back from Jupyter Notebook to Sparkflows UI.
 
 .. figure:: ../../_assets/jupyter/example-app-run.PNG
    :alt: jupyter

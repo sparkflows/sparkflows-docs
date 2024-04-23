@@ -5,41 +5,14 @@ Analytics App End to End Example
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/jupyter-guide/analytics-app-end-to-end/pre-requisites`
+    :doc:`/jupyter-guide/analytics-app-end-to-end/create-notebook`
 
     pre-requisites requirements
 
-    ---
-
-    :doc:`/jupyter-guide/analytics-app-end-to-end/create-notebook`
-
-    Steps for creating Jupyter Notebook
-
-    ---
-
-    :doc:`/jupyter-guide/analytics-app-end-to-end/create-docker-image`
-
-    Steps for creating docker image
-
-    ---
-
-    :doc:`/jupyter-guide/analytics-app-end-to-end/creating-jupyter-notebook-connection`
-
-    Steps for creating jupyter notebook connection
-
-    ---
-
-    :doc:`/jupyter-guide/analytics-app-end-to-end/creating-analytical-app`
-
-    Steps for creating Analytical app
-
+    
 
 
 .. toctree::
    :hidden:
  
-   pre-requisites.rst
    create-notebook.rst
-   create-docker-image.rst
-   creating-jupyter-notebook-connection.rst
-   creating-analytical-app.rst

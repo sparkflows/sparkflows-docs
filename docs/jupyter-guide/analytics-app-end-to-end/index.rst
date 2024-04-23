@@ -9,10 +9,14 @@ Analytics App End to End Example
 
     Example Analytics app
 
+    --- 
     
+    :doc:`/jupyter-guide/analytics-app-end-to-end/example-analytical-app-2`
+
+    Example Analytics app featuring option selection and passing parameter to notebook
 
 
 .. toctree::
    :hidden:
  
-   example-analytical-app.rst
+   example-analytical-app.rst example-analytical-app-2.rst

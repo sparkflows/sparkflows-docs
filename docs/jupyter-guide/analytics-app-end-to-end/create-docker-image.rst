@@ -11,3 +11,6 @@ Below are the Docker Command being used to build image and push to Docker hub wh
 
     build: docker build -t username/repo:tagname .
     push: docker push username/repo:tagname
+
+
+.. note:: Make sure to ``username/repo`` & ``tagname`` with actual name and make note of image name, which would be used in next steps while creating Jupyter connection in Sparkflows.

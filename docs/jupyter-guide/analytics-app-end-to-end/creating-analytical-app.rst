@@ -23,4 +23,6 @@ Step 2: Create the Application
       :alt: jupyter-notebook
       :width: 70%
 
-`Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.
+   `Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.
+
+#. Now, you can run application, it will submit the job and you will see response back to Sparkflows UI.

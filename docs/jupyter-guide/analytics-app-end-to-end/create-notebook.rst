@@ -8,7 +8,7 @@ Create the Notebook with below two default parameters:
 #. webserverUrl 
 #. jobID
 
-then create the restWorfklowContext to send the messages back to Sparkflows Apps ::
+then create the RestWorfklowContext to send the messages back to Sparkflows Apps ::
 
   webserverURL = sys.argv[1]
   jobId = sys.argv[2]

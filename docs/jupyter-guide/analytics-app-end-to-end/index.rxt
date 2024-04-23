@@ -5,11 +5,11 @@ Analytics App End to End
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/jupyter-guide/analytics-append-to-end/end-to-end-jupyter-notebook-app-exp`
+    :doc:`/jupyter-guide/analytics-append-to-end/create-notebook`
 
-    Steps for creating Jupyter Notebook connection
+    Steps for creating Jupyter Notebook
 
 .. toctree::
    :hidden:
  
-   end-to-end-jupyter-notebook-app-exp.rst
+   create-notebook.rst

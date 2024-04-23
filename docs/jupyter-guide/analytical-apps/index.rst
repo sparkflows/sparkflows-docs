@@ -15,13 +15,13 @@ In order to output text, tables, charts from Jupyter Notebook to Analytiacal App
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/create-docker-image.rst`
+    :doc:`/jupyter-guide/analytical-apps/create-docker-image`
 
     Steps for creating Notebook 
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/create-docker-image.rst`
+    :doc:`/jupyter-guide/analytical-apps/create-docker-image`
 
     Steps for creating Docker image
 

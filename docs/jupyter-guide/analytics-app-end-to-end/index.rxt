@@ -9,17 +9,25 @@ Analytics App End to End
 
     pre-requisites requirements
 
+    ---
+
     :doc:`/jupyter-guide/analytics-append-to-end/create-notebook`
 
     Steps for creating Jupyter Notebook
+
+    ---
 
     :doc:`/jupyter-guide/analytics-append-to-end/create-docker-image`
 
     Steps for creating docker image
 
+    ---
+
     :doc:`/jupyter-guide/analytics-append-to-end/creating-jupyter-notebook-connection`
 
     Steps for creating jupyter notebook connection
+
+    ---
 
     :doc:`/jupyter-guide/analytics-append-to-end/creating-analytical-app.rst`
 

@@ -15,10 +15,42 @@ The below Applications does the following:
    :alt: jupyter
    :width: 60%
 
+Jupyter Notebook
+------
+
+Jupyter Notebook **jupyter_lab_3.ipynb**, uses below:
+
+::
+
+    print("I am jupyter lab")
+   I am jupyter lab
+
+::
+  
+    import os
+    os.getcwd()
+    print()
+    import sys
+    print(sys.argv)
+
+::
+  
+    webserverURL = "http://localhost:8080/messageFromSparkJob"
+    jobId = "123456789"
+    from fire_notebook.output.workflowcontext import RestWorkflowContext
+    restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+
+   message = "Successfully Received the Message from Notebook!"
+   restworkflowcontext.outStr(9, title="Message", text=message)
+
 Prints the Results
 ------------------
 
-It prints the response from Jupyter Notebook.
+Once you run the application, It prints the response from Jupyter Notebook.
+
+.. figure:: ../../_assets/jupyter/example-app-run.PNG
+   :alt: jupyter
+   :width: 60%
 
 .. figure:: ../../_assets/jupyter/example-response.PNG
    :alt: jupyter

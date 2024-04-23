@@ -20,4 +20,7 @@ Prints the Results
 
 It prints the response from Jupyter Notebook.
 
+.. figure:: ../../_assets/jupyter/example-response.PNG
+   :alt: jupyter
+   :width: 60%
 

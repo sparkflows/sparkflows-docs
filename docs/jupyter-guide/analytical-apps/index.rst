@@ -1,6 +1,10 @@
 Analytical Apps
 =================
 
+Analytical Apps can be build on top of Jupyter Notebooks. Analytical Apps provide a web interface to Business and Power Users to interact seamlessly with Jupyter Notebooks and also view the output results.
+
+In order to output text, tables, charts from Jupyter Notebook to Analytiacal App a fire SDK is used.
+
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2

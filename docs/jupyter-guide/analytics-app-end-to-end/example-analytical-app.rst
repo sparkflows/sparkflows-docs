@@ -1,7 +1,7 @@
 Example Analytical App
 ==================
 
-Sparkflows enable you to run the Application which use Jupyter Notebook
+Sparkflows enable you to run the Application which uses Jupyter Notebook.
 
 Applications
 --------

@@ -15,5 +15,9 @@ The below Applications does the following:
    :alt: jupyter
    :width: 60%
 
+Prints the Results
+------------------
+
+It prints the response from Jupyter Notebook.
 
 

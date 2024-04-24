@@ -1,7 +1,7 @@
 Create Jupyter Notebook
 ======
 
-You can create Jupyter Notebook as below:
+You can create Jupyter Notebook using the below:
 
 ::
 

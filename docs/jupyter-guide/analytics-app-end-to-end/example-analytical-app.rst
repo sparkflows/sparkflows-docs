@@ -3,10 +3,10 @@ Example Analytical App
 
 This is a Hello World Analytical App. It enables the user to run the app and view the output produced by the Jupyter Notebook.
 
-Analytical App Overviw
+Analytical App Overview
 --------
 
-The below Applications does the following:
+The below Application does the following:
 
 * Reads jupyter notebook **jupyter_lab_3.ipynb**.
 * Prints the output of the notebook.
@@ -48,7 +48,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 Prints the Results
 ------------------
 
-Once you run the application, It uses **Jupyter Notebook** connection to submit and prints the response back from Jupyter Notebook to Sparkflows UI.
+Once you run the application, it uses **Jupyter Notebook** connection to submit and print the response back from Jupyter Notebook to Sparkflows UI.
 
 .. figure:: ../../_assets/jupyter/example-app-run.PNG
    :alt: jupyter

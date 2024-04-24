@@ -26,13 +26,12 @@ Step 1: Login to Fire Web Server URL
       notebook.serverHost : jupyternotebook server url which include token
       notebook.serverToken : Token being used
     
-   .. note::  Make sure to change localhost to your domain name or your IP where Fire is running and it should be accessible.   
-
+   .. note::  Ensure that you replace 'localhost' with your domain name or IP address where Fire is running to ensure accessibility.
 
 Step 2 : Open Jupyter Notebook
 +++++++++++++++++++++++++++++++
 
-#. Once the above configuration is saved, refresh the web server URL and you will see **Jupyter Notebook**, Open it.
+#. After saving the above configuration, refresh the web server URL, and you will see **Jupyter Notebook**. Open it.
 
    .. figure:: ../../_assets/operating/jupyter_notebook-access.PNG
       :alt: operating
@@ -41,8 +40,8 @@ Step 2 : Open Jupyter Notebook
 Step 3 : Access Jupyter Notebook
 +++++++++++++++++++++++++++++++
 
-#. Once you click on **Jupyter Notebook**, it will open a new page for Jupyter Notebook and you can run the python code on top of it.
-
+#. After clicking on Jupyter Notebook, a new page will open where you can run Python code.
+   
    .. figure:: ../../_assets/operating/jupyter_notebook_2.PNG
       :alt: operating
       :width: 60%

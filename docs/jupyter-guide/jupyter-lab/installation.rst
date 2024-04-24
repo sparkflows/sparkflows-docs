@@ -1,9 +1,11 @@
 Installing JupyterLab
 ======
 
-JupyterLab can be installed on the machine running Fire Insights. Fire Insights integrates with Jupyter.
+JupyterLab can be installed on the machine running Fire Insights, which integrates with Jupyter.
 
-To install JupyterLab for Python on Ubuntu environment, you need to have python and pip available.
+To install JupyterLab for Python in the Ubuntu environment, you need to have Python and pip available.
+
+Use the command below to install JupyterLab:"
 
 Use below command to install Jupyter lab: ::
 
@@ -13,9 +15,10 @@ Use below command to install Jupyter lab: ::
 
    The above command will generate jupyter_lab_config.py in ~/.jupyter directory
 
-Change to directory jupyter using command: cd ~/.jupyter
+Change to the Jupyter directory using the command: cd ~/.jupyter
 
-Customize the jupyter_lab_config.py file of jupyter lab and change the configurations using the below::
+
+Customize the jupyter_lab_config.py file of JupyterLab and change the configurations using the below::
 
     #NotebookApp
     c.NotebookApp.open_browser = False
@@ -38,9 +41,9 @@ Customize the jupyter_lab_config.py file of jupyter lab and change the configura
 
 .. note:: Make sure to have an SSL certificate for running JupyterLab on HTTPS.
 
-Start Jupyter server using below command::
+Start Jupyter server using the command given below::
 
    jupyter-lab --ip=0.0.0.0 --port=8888
 
- Now try to access JupyterLab on browser using public server URL along with port.
+Now, try accessing JupyterLab in your browser using the public server URL along with the port number.
 

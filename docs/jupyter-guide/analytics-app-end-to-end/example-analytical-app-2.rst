@@ -1,24 +1,24 @@
 Example Analytical App-2
 ==================
 
-This is a Jupyter Notebook integrated Analytical App. It enables the user to make selection on App UI. A section of Jupyter Notebook is executed based on the selection made using the logic defined in the code.
+This is a Jupyter Notebook-integrated Analytical App. It enables users to make selections on the App UI. A section of the Jupyter Notebook is executed based on the selection made using the logic defined in the code.
 
 Analytical App Overview
 --------
 
-The below Application does the following:
+The below Application does the following tasks:
 
-* Reads jupyter notebook **jupyter_lab_3.ipynb**.
+* Reads jupyter notebook named **jupyter_lab_3.ipynb**.
 
   .. figure:: ../../_assets/jupyter/example-app-2-1.png
      :alt: jupyter
      :width: 60%
 
-* This App has below two stages:
+* This App has the following two stages:
 
-  - **Introduction:** This stage describes about the App, business need and benefits that can be achieved by using the App.
-  - **Select Operation:** User can select operation that they would like to perform. Selected option would be passed to the notebook as a parameter and based on the logic desired action would be performed. 
-
+  * **Introduction:** This stage describes the App, its business need, and the benefits that can be achieved by using it.
+  * **Select Operation:** Users can select the operation they would like to perform. The selected option will be passed to the notebook as a parameter, and based on the desired logic, the corresponding action will be performed.
+  
   .. figure:: ../../_assets/jupyter/example-app-2-2.png
      :alt: jupyter
      :width: 60%
@@ -27,9 +27,9 @@ The below Application does the following:
 Jupyter Notebook
 ------
 
-Below is the Jupyter Notebook which gets invoked by the Analytical App and to output the results back to the Analytical App:
+Below is the Jupyter Notebook that is invoked by the Analytical App to output the results back to the Analytical App:
 
-Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
+Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 
 ::
 
@@ -230,25 +230,25 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 	message = "Job Execution Completed."
 	restworkflowcontext.outSuccess(9, title="Success", text=message)
 
-Executing the application
+Executing the Application
 ------------------
 
-Once you run the application, it uses **Jupyter Notebook** connection to submit and print the response back from Jupyter Notebook to Sparkflows UI.
+When you run the application, it uses the Jupyter Notebook connection to submit and print the response back from the Jupyter Notebook to the Fire Insights UI.
 
-* Introduction Stage is displayed as below. Click on **Get Started** button to move to the next stage.
+* The **Introduction Stage** is displayed below. Click on the Get Started button to proceed to the next stage.
 
   .. figure:: ../../_assets/jupyter/example-app-2-3.png
      :alt: jupyter
      :width: 60%
 
 
-* Select-Operation Stage is displayed as below. User can select below options based on the action needs to be performed:
+* The **Select-Operation Stage** is displayed below. Users can select from the following options based on the action they need to perform:
 
-  * **Profiling of Transaction Data** to perform Data Profiling to view Summary Statistics of the dataset, to view null values present in the dataset and so on.
-  * **Model Training and Prediction** to train model and perform churn prediction.
+  * **Profiling of Transaction Data** to perform data profiling and view summary statistics of the dataset, as well as to check for null values.
+  * **Model Training and Prediction** to train a model and perform churn prediction.
 
-  After making the selection click on **Run** button to execute the notebook.
-
+  After making the selection, click on the **Run** button to execute the notebook.
+  
   .. figure:: ../../_assets/jupyter/example-app-2-4.png
      :alt: jupyter
      :width: 60%

@@ -14,4 +14,4 @@ Details
 
 Fire can be used to, easily, create a downsampled dataset. Fire provides a **Sample** processor for it. Once the dataset size is small, data scientists can use it to build model in Jupyter notebook. Once the modeling process is complete, the algorithm can be run on the full data in Fire.
 
-The Analytical Apps in Sparkflows, can submit Jupyter Notebook jobs on Kubernetes.
+The Analytical Apps in Fire Insights, can submit Jupyter Notebook jobs on Kubernetes.

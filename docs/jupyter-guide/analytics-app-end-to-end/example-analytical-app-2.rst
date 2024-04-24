@@ -10,24 +10,24 @@ The below Applications does the following:
 
 * Reads jupyter notebook **jupyter_lab_3.ipynb**.
 
-.. figure:: ../../_assets/jupyter/example-app-2-1.png
-   :alt: jupyter
-   :width: 60%
+  .. figure:: ../../_assets/jupyter/example-app-2-1.png
+     :alt: jupyter
+     :width: 60%
 
-* This app has below two stages.
+* This App has below two stages:
 
-**Introduction** This stage describes about the app, business need and benefits that can be achieved by using the app.
-**Select Operation** User can select operation that they would like to perform. Selected option would be passed to the notebook as a parameter and based on the logic desired action would be performed. 
+  - **Introduction:** This stage describes about the App, business need and benefits that can be achieved by using the App.
+  - **Select Operation:** User can select operation that they would like to perform. Selected option would be passed to the notebook as a parameter and based on the logic desired action would be performed. 
 
-.. figure:: ../../_assets/jupyter/example-app-2-2.png
-   :alt: jupyter
-   :width: 60%
+  .. figure:: ../../_assets/jupyter/example-app-2-2.png
+     :alt: jupyter
+     :width: 60%
 
 
 Jupyter Notebook
 ------
 
-Below is the Jupyter Notebook which gets invoked by the Analytical App and to output the results back to the Analytical App.
+Below is the Jupyter Notebook which gets invoked by the Analytical App and to output the results back to the Analytical App:
 
 Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 
@@ -233,69 +233,67 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 Executing the application
 ------------------
 
-Once you run the application, It uses **Jupyter Notebook** connection to submit and prints the response back from Jupyter Notebook to Sparkflows UI.
+Once you run the application, it uses **Jupyter Notebook** connection to submit and print the response back from Jupyter Notebook to Sparkflows UI.
 
-* Introduction Stage is displayed as below.
+* Introduction Stage is displayed as below. Click on **Get Started** button to move to the next stage.
 
-Click on **Get Started** button to move to the next stage
+  .. figure:: ../../_assets/jupyter/example-app-2-3.png
+     :alt: jupyter
+     :width: 60%
 
-.. figure:: ../../_assets/jupyter/example-app-2-3.png
-   :alt: jupyter
-   :width: 60%
 
-* Select-Operation Stage is displayed as below.
+* Select-Operation Stage is displayed as below. User can select below options based on the action needs to be performed:
 
-User can select below options based on the action needs to be performed:
-**Profiling of Transaction Data** to perform Data Profiling to view Summary Statistics of the dataset, to view null values present in the dataset and so on.
-**Model Training and Prediction** to train model and perform churn prediction.
+  * **Profiling of Transaction Data** to perform Data Profiling to view Summary Statistics of the dataset, to view null values present in the dataset and so on.
+  * **Model Training and Prediction** to train model and perform churn prediction.
 
-After making the selection click on **Run** button to execute the notebook.
+  After making the selection click on **Run** button to execute the notebook.
 
-.. figure:: ../../_assets/jupyter/example-app-2-4.png
-   :alt: jupyter
-   :width: 60%
+  .. figure:: ../../_assets/jupyter/example-app-2-4.png
+     :alt: jupyter
+     :width: 60%
 
 Printing Results
 ------------------
 
-* Summary Statistics of the dataset
+* Summary Statistics of the dataset:
 
-.. figure:: ../../_assets/jupyter/example-app-2-5.png
-   :alt: jupyter
-   :width: 60%
+  .. figure:: ../../_assets/jupyter/example-app-2-5.png
+     :alt: jupyter
+     :width: 60%
    
-* Null Values in the dataset
+* Null Values in the dataset:
 
-.. figure:: ../../_assets/jupyter/example-app-2-6.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-6.png
+     :alt: jupyter
+     :width: 60%   
    
-* Histogram displaying distribution of total_day_calls values
+* Histogram displaying distribution of total_day_calls values:
 
-.. figure:: ../../_assets/jupyter/example-app-2-7.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-7.png
+     :alt: jupyter
+     :width: 60%   
    
-* Correlation matrix between various data columns
+* Correlation matrix between various data columns:
 
-.. figure:: ../../_assets/jupyter/example-app-2-8.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-8.png
+     :alt: jupyter
+     :width: 60%   
    
-* Model Training: Confusion Matrix
+* Model Training: Confusion Matrix:
 
-.. figure:: ../../_assets/jupyter/example-app-2-9.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-9.png
+     :alt: jupyter
+     :width: 60%   
    
-* Model Training: Model Accuracy
+* Model Training: Model Accuracy:
 
-.. figure:: ../../_assets/jupyter/example-app-2-10.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-10.png
+     :alt: jupyter
+     :width: 60%   
    
-* Model Prediction: Prediction Results
+* Model Prediction: Prediction Results:
 
-.. figure:: ../../_assets/jupyter/example-app-2-11.png
-   :alt: jupyter
-   :width: 60%   
+  .. figure:: ../../_assets/jupyter/example-app-2-11.png
+     :alt: jupyter
+     :width: 60%   

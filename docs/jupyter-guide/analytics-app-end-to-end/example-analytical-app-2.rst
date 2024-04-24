@@ -6,7 +6,7 @@ This is a Jupyter Notebook integrated Analytical App. It enables the user to mak
 Analytical App Overview
 --------
 
-The below Applications does the following:
+The below Application does the following:
 
 * Reads jupyter notebook **jupyter_lab_3.ipynb**.
 

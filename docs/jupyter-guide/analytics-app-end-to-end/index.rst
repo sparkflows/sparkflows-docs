@@ -19,4 +19,5 @@ Analytics App End to End Example
 .. toctree::
    :hidden:
  
-   example-analytical-app.rst example-analytical-app-2.rst
+   example-analytical-app.rst
+   example-analytical-app-2.rst

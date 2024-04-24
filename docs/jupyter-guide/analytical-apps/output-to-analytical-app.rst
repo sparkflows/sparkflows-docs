@@ -24,8 +24,6 @@ The Jupyter Notebook can output tables, charts, html etc. to be displayed in the
 
 This step enables smooth integration and data flow between Fire Insights and Jupyter.
 
-`Click here <https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl>`_ to download the Wheel File.  
-
 Steps to output to Analytical Apps
 ---------------------
 

@@ -26,4 +26,4 @@ Step 2: Create the Application
 
    `Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.
 
-#. Now, you can run application, it will submit the job and you will see response back to Fire Insights UI.
+#. Now, you can run the application. It will submit the job, and you will see the response back in the Fire Insights UI.

@@ -26,4 +26,5 @@ You can create Jupyter Notebook as below:
     message = "Successfully Received the Message from Notebook!"
     restworkflowcontext.outStr(9, title="Message", text=message)
 
- `Click here <https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/output-to-analytical-app.html>`_ to get more details on getting Output from Jupyter Notebook to Analytical App.
+
+`Click here <https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/output-to-analytical-app.html>`_ to get more details on getting Output from Jupyter Notebook to Analytical App.

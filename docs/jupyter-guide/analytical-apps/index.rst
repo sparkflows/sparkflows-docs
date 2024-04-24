@@ -11,7 +11,7 @@ In order to output text, tables, charts from Jupyter Notebook to Analytical App 
     
     :doc:`/jupyter-guide/analytical-apps/pre-requisites`
 
-    pre-requisites requirements
+    Pre-requisites requirements
 
     ---
 

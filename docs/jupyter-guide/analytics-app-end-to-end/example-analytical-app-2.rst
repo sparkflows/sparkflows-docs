@@ -33,16 +33,16 @@ Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 
 ::
 
-   print("I am jupyter lab")
-   I am jupyter lab
+	print("I am jupyter lab")
+	I am jupyter lab
 
 ::
   
-    import os
-    os.getcwd()
-    print()
-    import sys
-    print(sys.argv)
+	import os
+	os.getcwd()
+	print()
+	import sys
+	print(sys.argv)
 	
 	# Pandas and Numpy
 	import pandas as pd
@@ -73,10 +73,10 @@ Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 
 ::
   
-    webserverURL = "http://localhost:8080/messageFromSparkJob"
-    jobId = "123456789"
-    from fire_notebook.output.workflowcontext import RestWorkflowContext
-    restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+	webserverURL = "http://localhost:8080/messageFromSparkJob"
+	jobId = "123456789"
+	from fire_notebook.output.workflowcontext import RestWorkflowContext
+	restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
 	message="20"
 	#(id:int, title: str, progress: str):

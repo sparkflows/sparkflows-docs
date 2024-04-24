@@ -1,7 +1,7 @@
 Pre-requisites
 =====
 
-This document outlines the essential infrastructure pre-requisites needed to Run notebook end to end from Sparkflows UI.
+This document outlines the essential infrastructure prerequisites needed to run notebooks end-to-end from the Fire UI.
 
 - **Running Kubernetes Cluster**: Ensure that your Kubernetes cluster is operational and accessible from the Sparkflows application environment. Verify that all necessary components are up and running within the Kubernetes cluster.
 

@@ -12,4 +12,4 @@ Below are the Docker commands used to build the image and push it to Docker Hub,
     push: docker push username/repo:tagname
 
 
-.. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Sparkflows.
+.. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.

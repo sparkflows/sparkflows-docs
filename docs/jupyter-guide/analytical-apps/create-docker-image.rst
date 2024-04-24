@@ -1,16 +1,15 @@
 Create Docker image with user created notebook
 ================
 
-Build the image with notebooks, data and required dependencies.
+Create a Docker image containing user-created notebooks, data, and required dependencies.
 
-Docker details: Visit `Dockerfile and other details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
+Refer to the `Dockerfile and other details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
 
-Below are the Docker Commands being used to build image and push to Docker hub which will be accessible to pull image:
-
+Below are the Docker commands used to build the image and push it to Docker Hub, making it accessible for pulling:
 ::
 
     build: docker build -t username/repo:tagname 
     push: docker push username/repo:tagname
 
 
-.. note:: Make sure to replace **username/repo** & **tagname** with actual name and make note of image name, which would be used in next steps while creating Jupyter connection in Sparkflows.
+.. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Sparkflows.

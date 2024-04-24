@@ -1,4 +1,4 @@
-Pre-Requisites
+Pre-requisites
 =====
 
 This document outlines the essential infrastructure pre-requisites needed to Run notebook end to end from Sparkflows UI.

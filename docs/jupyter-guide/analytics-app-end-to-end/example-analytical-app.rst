@@ -6,10 +6,11 @@ This is a Hello World Analytical App. It enables the user to run the app and vie
 Analytical App Overview
 --------
 
-The below Application does the following:
+The following application performs the following tasks:
 
-* Reads jupyter notebook **jupyter_lab_3.ipynb**.
+* Reads the Jupyter Notebook named **jupyter_lab_3.ipynb**.
 * Prints the output of the notebook.
+
 
 .. figure:: ../../_assets/jupyter/example-app.PNG
    :alt: jupyter
@@ -18,7 +19,7 @@ The below Application does the following:
 Jupyter Notebook
 ------
 
-Below is the Jupyter Notebook which gets invoked by the Analytical App and to output the results back to the Analytical App.
+Below is the Jupyter Notebook that gets invoked by the Analytical App to output the results back to the Analytical App.
 
 Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 
@@ -48,7 +49,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb**, contains the below:
 Prints the Results
 ------------------
 
-Once you run the application, it uses **Jupyter Notebook** connection to submit and print the response back from Jupyter Notebook to Sparkflows UI.
+When you run the application, it utilizes the Jupyter Notebook connection to submit the job and print the response back from the Jupyter Notebook to the Fire Insights UI.
 
 .. figure:: ../../_assets/jupyter/example-app-run.PNG
    :alt: jupyter

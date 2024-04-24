@@ -65,11 +65,11 @@ Once you save the above configurations:
      * **Title** - Any string name to identify your connection.
      * **Description** (Optonal) - About connection.
 
-     .. figure:: ../../_assets/jupyter/add_jupyter_connection_1.png
-        :alt: jupyter-notebook
-        :width: 60%
+    .. figure:: ../../_assets/jupyter/add_jupyter_connection_1.png
+       :alt: jupyter-notebook
+       :width: 60%
 
-   .. Note:: Make Sure that ``Postback URL`` is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
+    .. Note:: Make Sure that the **Postback URL** is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
 
    Input the following details in **KUBERNETES tab**:
 
@@ -77,12 +77,12 @@ Once you save the above configurations:
      * **Namespace** - Namespace of kubernetes where the notebook will get executed. Default value - **default** 
      * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
      * **Another available image** - **sparkflows/fire:jupyternotebook.5**
-     * ** you can use your own image as well** if you created notebook and build and push the docker image
+     * **You can use your own image as well** if you created notebook and built and pushed the docker image.
 
-     .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
-        :alt: jupyter-notebook
-        :width: 60%
+   .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
+       :alt: jupyter-notebook
+       :width: 60%
 
-.. Note:: Make sure **Path** updated should be accessible from sparkflows vm.
+   .. Note:: Make sure that the **Path** updated should be accessible from Sparkflows VM.
 
 #. Once you have updated the above parameters, click on **Save** to save the connection.

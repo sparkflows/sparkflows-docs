@@ -15,9 +15,9 @@ In order to output text, tables, charts from Jupyter Notebook to Analytical App 
 
     ---
 
-    :doc:`/jupyter-guide/analytical-apps/create-docker-image`
+    :doc:`/jupyter-guide/analytical-apps/create-notebook`
 
-    Steps for creating Notebook 
+    Steps for creating Jupyter Notebook 
 
     ---
 

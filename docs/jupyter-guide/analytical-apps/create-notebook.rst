@@ -1,23 +1,12 @@
 Create Jupyter Notebook
 ======
 
-You can create Jupyter Notebook using the below:
-
-::
-
-    print("I am jupyter lab")
-    I am jupyter lab
+You can create Jupyter Notebook using the below sample code:
 
 ::
   
-    import os
-    os.getcwd()
-    print()
     import sys
     print(sys.argv)
-
-::
-  
     webserverURL = "http://localhost:8080/messageFromSparkJob"
     jobId = "123456789"
     from fire_notebook.output.workflowcontext import RestWorkflowContext

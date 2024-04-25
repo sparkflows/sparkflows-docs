@@ -56,7 +56,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 	# import plotly.graph_objects as go
 	from plotly.subplots import make_subplots
 	import plotly
-	%matplotlib inline
+	#%matplotlib inline
 
 
 	from sklearn.model_selection import train_test_split

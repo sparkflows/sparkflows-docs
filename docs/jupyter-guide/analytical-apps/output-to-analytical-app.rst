@@ -46,6 +46,13 @@ First create a RestWorkflowContext for communicating with Fire Insights server. 
     parameters = sys.argv[3]
     parameters_list=parameters.split(",")
     parameters_dict = {} ### dict of key and value
+
+    #dict of key and value.
+    for i in range(len(parameters_list)):
+        key_value = str(parameters_list[i]).split("=")
+        key = key_value[0]
+        value = key_value[1]
+        parameters_dict[key] = value
     
     from fire_notebook.output.workflowcontext import RestWorkflowContext
     restworkflowcontext = RestWorkflowContext(webserverURL, jobId)

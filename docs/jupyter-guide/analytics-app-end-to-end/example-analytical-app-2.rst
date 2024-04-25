@@ -8,7 +8,7 @@ Analytical App Overview
 
 The below Analytical App performs the following tasks:
 
-* Reads jupyter notebook named **ChurnAnalysisAndPrediction.ipynb**.
+* Reads jupyter notebook named **ChurnAnalysisAndPrediction.ipynb** which is in the docker image in the home directory set in the docker image. The notebook can reside on any path inside the docker image.
 
   .. figure:: ../../_assets/jupyter/example-app-2.PNG
      :alt: jupyter

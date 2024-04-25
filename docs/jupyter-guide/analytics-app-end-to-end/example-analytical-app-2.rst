@@ -69,7 +69,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 	webserverURL = sys.argv[1]
 	jobId = sys.argv[2]
-	#parmeters will be passed as comma separated key=value pair.
+	#parmeters will be passed as comma separated key=value pair
         parameters = sys.argv[3]
         parameters_list=parameters.split(",")
         parameters_dict = {} ### dict of key and value

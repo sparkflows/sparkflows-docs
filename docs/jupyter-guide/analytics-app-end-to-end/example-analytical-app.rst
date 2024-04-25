@@ -1,4 +1,4 @@
-First Example Analytical App
+First Analytical App Example
 ============================
 
 This is a Hello World Analytical App. It enables the user to run the Jupyter notebook and view the results in the Sparkflows Analytical App UI.

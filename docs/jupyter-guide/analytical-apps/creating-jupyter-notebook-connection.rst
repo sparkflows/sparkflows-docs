@@ -55,7 +55,7 @@ Once you save the above configurations:
 
 #. Once you have selected  the connection type & groups, add the **additional connection parameters** needed as per your environment.
 
-   Input the following details in **For GENERAL tab**:
+   Input the following details in **GENERAL tab**:
 
     
    * **Connection Name** - Any string to identify your connection.

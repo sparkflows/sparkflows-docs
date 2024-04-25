@@ -8,9 +8,9 @@ Analytical App Overview
 
 The below Application does the following tasks:
 
-* Reads jupyter notebook named **jupyter_lab_3.ipynb**.
+* Reads jupyter notebook named **ChurnAnalysisAndPrediction.ipynb**.
 
-  .. figure:: ../../_assets/jupyter/example-app-2-1.png
+  .. figure:: ../../_assets/jupyter/example-app-2.PNG
      :alt: jupyter
      :width: 60%
 
@@ -29,7 +29,7 @@ Jupyter Notebook
 
 Below is the Jupyter Notebook that is invoked by the Analytical App to output the results back to the Analytical App:
 
-Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
+Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
 

@@ -51,7 +51,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 	# Matplotlib graph
 	import seaborn as sns
-	import matplotlib.pyplot as plt
+	#import matplotlib.pyplot as plt
 	import plotly.graph_objs as go
 	# import plotly.graph_objects as go
 	from plotly.subplots import make_subplots
@@ -69,7 +69,21 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 	webserverURL = sys.argv[1]
 	jobId = sys.argv[2]
-	option = sys.argv[3]
+	#parmeters will be passed as comma separated key=value pair.
+        parameters = sys.argv[3]
+        parameters_list=parameters.split(",")
+        parameters_dict = {} ### dict of key and value
+
+        #dict of key and value.
+        for i in range(len(parameters_list)):
+
+        key_value = str(parameters_list[i]).split("=")
+        key = key_value[0]
+        value = key_value[1]
+        parameters_dict[key] = value
+
+
+        option = parameters_dict.get("option") #"Profiling" OR "Modeling"
 
 ::
   

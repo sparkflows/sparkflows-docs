@@ -1,4 +1,4 @@
-Create Docker image with user created notebook
+Create Docker image with the Jupyter notebook created in the previous step
 ================
 
 Create a Docker image containing user-created notebooks, data, and required dependencies.
@@ -8,8 +8,9 @@ Refer to the `Dockerfile and other details <https://github.com/sparkflows/fire-t
 Below are the Docker commands used to build the image and push it to Docker Hub, making it accessible for pulling:
 ::
 
-    build: docker build -t username/repo:tagname 
-    push: docker push username/repo:tagname
+    Docker Build command - docker build -t username/repo:tagname 
+
+    Docker Push command - docker push username/repo:tagname
 
 
 .. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.

@@ -1,7 +1,7 @@
 Pre-requisites
 =====
 
-This document outlines the essential infrastructure prerequisites needed to run notebooks end-to-end from the Fire UI.
+This document outlines the essential infrastructure prerequisites needed to run notebooks end-to-end from the Fire Insights UI.
 
 - **Running Kubernetes Cluster**: Ensure that your Kubernetes cluster is operational and accessible from the Fire Insights application environment. Verify that all necessary components are up and running within the Kubernetes cluster.
 

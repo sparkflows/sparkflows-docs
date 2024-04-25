@@ -8,8 +8,8 @@ Analytical App Overview
 
 The following application performs the following tasks:
 
-* Reads the Jupyter Notebook named **jupyter_lab_3.ipynb**.
-* Prints the output of the notebook.
+* Reads the Jupyter Notebook named **jupyter_lab_3.ipynb**
+* Prints the output of the notebook
 
 
 .. figure:: ../../_assets/jupyter/example-app.PNG

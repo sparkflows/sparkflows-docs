@@ -1,12 +1,12 @@
-Example Analytical App-2
-==================
+Second Analytical App Example
+=============================
 
-This is a Jupyter Notebook-integrated Analytical App. It enables users to make selections on the App UI. A section of the Jupyter Notebook is executed based on the selection made using the logic defined in the code.
+This is a Jupyter Notebook-integrated Analytical App. It enables users to make selections on the Analytical App UI. A section of the Jupyter Notebook is executed based on the selection made using the logic defined in the code and the results are streamed back to the Sparkflows Analytical App UI.
 
 Analytical App Overview
---------
+-----------------------
 
-The below Application does the following tasks:
+The below Analytical App performs the following tasks:
 
 * Reads jupyter notebook named **ChurnAnalysisAndPrediction.ipynb**.
 
@@ -14,7 +14,7 @@ The below Application does the following tasks:
      :alt: jupyter
      :width: 60%
 
-* This App has the following two stages:
+* This Analytical App has the following two stages:
 
   * **Introduction:** This stage describes the App, its business need, and the benefits that can be achieved by using it.
   * **Select Operation:** Users can select the operation they would like to perform. The selected option will be passed to the notebook as a parameter, and based on the desired logic, the corresponding action will be performed.
@@ -25,16 +25,15 @@ The below Application does the following tasks:
 
 
 Jupyter Notebook
-------
+----------------
 
-Below is the Jupyter Notebook that is invoked by the Analytical App to output the results back to the Analytical App:
+Below is the Jupyter Notebook that gets invoked by the Analytical App and the results are seen in the Sparkflows Analytical App UI.
 
 Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
   
 	import sys
-	print(sys.argv)
 	import pandas as pd
 	import numpy as np
 	import pickle
@@ -214,9 +213,9 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	restworkflowcontext.outSuccess(9, title="Success", text=message)
 
 Executing the Application
-------------------
+-------------------------
 
-When you run the application, it uses the Jupyter Notebook connection to submit and print the response back from the Jupyter Notebook to the Fire Insights UI.
+When you run the Analytical App, it utilizes the Jupyter Notebook connection to submit the job to Kubernetes cluster and streams back the response back from the Jupyter Notebook to the Sparkflows Analytical App UI.
 
 * The **Introduction Stage** is displayed below. Click on the Get Started button to proceed to the next stage.
 

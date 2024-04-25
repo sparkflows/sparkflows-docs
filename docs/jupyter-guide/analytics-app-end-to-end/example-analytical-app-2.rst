@@ -32,11 +32,6 @@ Below is the Jupyter Notebook that is invoked by the Analytical App to output th
 Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
-
-	print("I am jupyter lab")
-	I am jupyter lab
-
-::
   
 	import os
 	os.getcwd()

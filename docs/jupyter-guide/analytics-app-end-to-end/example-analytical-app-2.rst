@@ -33,52 +33,38 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
   
-	import os
-	os.getcwd()
-	print()
 	import sys
 	print(sys.argv)
-	
-	# Pandas and Numpy
 	import pandas as pd
 	import numpy as np
 	import pickle
-
-	# Matplotlib graph
 	import seaborn as sns
-	#import matplotlib.pyplot as plt
 	import plotly.graph_objs as go
-	# import plotly.graph_objects as go
 	from plotly.subplots import make_subplots
 	import plotly
-	#%matplotlib inline
-
-
 	from sklearn.model_selection import train_test_split
 	from sklearn.model_selection import train_test_split
 	from sklearn.metrics import classification_report, confusion_matrix, roc_curve, roc_auc_score
 	from sklearn.metrics import auc, recall_score, accuracy_score, precision_score, f1_score, precision_recall_curve
-
 	from sklearn.ensemble import RandomForestClassifier
 	from sklearn import tree
 
 	webserverURL = sys.argv[1]
 	jobId = sys.argv[2]
-	#parmeters will be passed as comma separated key=value pair
-        parameters = sys.argv[3]
-        parameters_list=parameters.split(",")
-        parameters_dict = {} ### dict of key and value
 
-        #dict of key and value.
-        for i in range(len(parameters_list)):
+	# Parmeters will be passed from Analytical app as comma separated `key=value` pair
+	parameters = sys.argv[3]
+	parameters_list=parameters.split(",")
+	parameters_dict = {} # dict of key and value
 
-        key_value = str(parameters_list[i]).split("=")
-        key = key_value[0]
-        value = key_value[1]
-        parameters_dict[key] = value
+	# Dictionary of key and value.
+	for i in range(len(parameters_list)):
+		key_value = str(parameters_list[i]).split("=")
+		key = key_value[0]
+		value = key_value[1]
+		parameters_dict[key] = value
 
-
-        option = parameters_dict.get("option") #"Profiling" OR "Modeling"
+	option = parameters_dict.get("option") #"Profiling" OR "Modeling"
 
 ::
   
@@ -88,7 +74,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 
 	message="20"
-	#(id:int, title: str, progress: str):
+	# The format of the messages below is - id:int, title: str, progress: str
 	restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 ::
@@ -102,14 +88,14 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
 
-	#Reading the data as pandas dataframe.
+	# Reading the data as pandas dataframe.
 	import pandas as pd
 	colnames=["state","account_length","area_code","phone_number","intl_plan","voice_mail_plan","number_vmail_messages","total_day_minutes","total_day_calls","total_day_charge","total_eve_minutes","total_eve_calls","total_eve_charge","total_night_minutes","total_night_calls","total_night_charge","total_intl_minutes","total_intl_calls","total_intl_charge","number_customer_service_calls","churn"]
 	df = pd.read_csv("churn.all", names=colnames, header=None)
 
 ::
 
-	#Determine What to run
+	# Determine what to run
 	def run_options(option):
 		if option == "Profiling":
 			profile_data()
@@ -120,7 +106,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 	# COMMAND ----------
 
-	#Profiling Function
+	# Profiling methods
 	def profile_data():
 	  modhtml = f"{custom_css}\n{df.describe().to_html(classes='my-table-class')}"
 	  return restworkflowcontext.outHTML(9, "Summary Statistics of the Churn Dataset ",  modhtml)
@@ -128,7 +114,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	# COMMAND ----------
 
 	def data_preprocessing():
-		# Data Pre-Processing
+		# Data Pre-processing
 		restworkflowcontext.outHTML(9, "", "Pre-processing Steps")
 
 		modhtml = f"{custom_css}\nSize of the Churn Dataset: {df.shape}"
@@ -152,11 +138,6 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	def data_visualization():
 		# Data Visualization
 		restworkflowcontext.outHTML(9, "", "Data Visualization")
-		
-		#plt.figure(figsize=(12,6))
-		#sns.set('notebook')
-		#sns.distplot(boston_df.Price, bins=20)
-		#plt.show()
 		
 		message = "30"
 		restworkflowcontext.outputProgress(9, title="Progress", progress=message)
@@ -184,7 +165,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
 
-	# Model Training
+	# Model Training method
 
 	def model_training():
 	  features = ["number_vmail_messages","total_day_minutes","total_day_calls","total_day_charge","total_eve_minutes","total_eve_calls","total_eve_charge","total_night_minutes","total_night_calls","total_night_charge","total_intl_minutes","total_intl_calls","total_intl_charge","number_customer_service_calls"]
@@ -192,14 +173,15 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	  # Churn False. with 1 and True. with 0
 	  data = data.replace(to_replace="False.",value="1").replace(to_replace="True.",value="1")
 	  split_ratio = 0.8
-	  # features with churn
+
+	  # Features with churn
 	  data1 = data[features + ['churn']]
 	  data1.fillna(0, inplace=True)
 	  y=data1["churn"]
 	  X=data1.drop('churn', axis=1)
 	  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=split_ratio,
 														 stratify=y, random_state=12345)
-	  # some parameters related to RandomForestClassifier
+	  # Parameters related to RandomForestClassifier
 	  depth = 6
 	  randstate = 1234
 	  rf_clf = RandomForestClassifier(max_depth=depth, random_state=randstate)
@@ -207,22 +189,14 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	  with open("Churn_model_new.pkl", "wb") as f:
 		pickle.dump(rf_clf, f)
 	  rf_train_pred_prob = rf_clf.predict_proba(X_train)
-	  # rf_train_pred_prob
 	  rf_test_pred_prob = rf_clf.predict_proba(X_test)
-	  # rf_test_pred_prob
-
 	  rf_y_pred_train = rf_clf.predict(X_train)
 	  rf_y_pred_test = rf_clf.predict(X_test)
-
 	  trainreport = pd.DataFrame(classification_report(y_train,rf_y_pred_train,digits=2, output_dict=True)).T
-	  
-	  print(trainreport)
 	  restworkflowcontext.outHTML(9, title="Training Set Metrics", text=trainreport.to_html())
-	  # restworkflowcontext.outStr(3,"Training Set Metrics - "+str(trainreport),"Classification Report")
-	  # print("Test Classification Report " )
+
 	  testreport = pd.DataFrame(classification_report(y_test,rf_y_pred_test,digits=2, output_dict=True)).T
 	  restworkflowcontext.outHTML(9, title="Testing Set Metrics", text=testreport.to_html())
-	  # restworkflowcontext.outStr(3,"Testing Set Metrics - "+str(testreport),"Classification Report")
 		 
 
 ::

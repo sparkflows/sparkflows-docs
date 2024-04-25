@@ -175,7 +175,7 @@ Upload File with Read Content and Execute App Options
      - Component is added to set destination path where the selected file should get uploaded.
    * - Upload
      - Button
-     - KEY: readFile, VALUE: true(It will keep content after upload file); KEY: updateTo, VALUE: component property name(It will update given component with uploaded file content); KEY: execute, VALUE: true (It will allow to execute relevant workflow after upload file).
+     - KEY: readFile, VALUE: true(It will keep content after upload file); KEY: updateTo, VALUE: component property name(It will update given component with uploaded file content); KEY: execute, VALUE: true (It will allow to execute relevant workflow after upload file);KEY: dirOverwrite, VALUE:true(It will delete all files/folders present in given destination path and then upload the file selected file).
      - Component is added to upload the selected file to hdfs/dbfs in the specified destination path otherwise by default it will be stored inside the FileStore folder. We can assign custom properties to perform certain tasks after file upload.
 
 Download Text Area or Text Field Content as Text File

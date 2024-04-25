@@ -96,7 +96,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 	#Reading the data as pandas dataframe.
 	import pandas as pd
 	colnames=["state","account_length","area_code","phone_number","intl_plan","voice_mail_plan","number_vmail_messages","total_day_minutes","total_day_calls","total_day_charge","total_eve_minutes","total_eve_calls","total_eve_charge","total_night_minutes","total_night_calls","total_night_charge","total_intl_minutes","total_intl_calls","total_intl_charge","number_customer_service_calls","churn"]
-	df = pd.read_csv("/tmp/datasets/churn.all", names=colnames, header=None)
+	df = pd.read_csv("churn.all", names=colnames, header=None)
 
 ::
 
@@ -195,7 +195,7 @@ Jupyter Notebook **jupyter_lab_3.ipynb** contains the following:
 	  randstate = 1234
 	  rf_clf = RandomForestClassifier(max_depth=depth, random_state=randstate)
 	  rf_clf.fit(X=X_train, y=y_train)
-	  with open("/dbfs/FileStore/Churn_datasets/RF_Model/Churn_model_new.pkl", "wb") as f:
+	  with open("Churn_model_new.pkl", "wb") as f:
 		pickle.dump(rf_clf, f)
 	  rf_train_pred_prob = rf_clf.predict_proba(X_train)
 	  # rf_train_pred_prob

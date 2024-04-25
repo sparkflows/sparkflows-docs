@@ -6,7 +6,7 @@ This document outlines steps to configure Fire Insights for JupyterLab.
 Steps
 -----
 
-Fire can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
+Fire Insights can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
 
 Step 1: Login to Fire Web Server URL
 ++++++++++++++++++++++++++++++

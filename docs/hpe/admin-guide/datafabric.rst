@@ -10,6 +10,7 @@ And allow to configure the access at the group level where users in group A can'
 2. In Sparkflows, navigate to Administration > Configuration > Groups  and add the above details to the configuration. 
     Click on the edit button of the group, to view the current settings, and update the configuration with S3 Endpoint details shared by the HPE team.
 
+Configuration
 
 .. figure:: ../../_assets/hpe/datafabric.PNG
       :alt: DataFabric

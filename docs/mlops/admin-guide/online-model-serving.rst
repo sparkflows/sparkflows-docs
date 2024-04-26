@@ -1,6 +1,6 @@
 Online Model Serving
 =======
-Online model serving can be done in any of the following ways :
+Online model serving, also known as real-time model serving or online inference, refers to the process of making machine learning models available for inference or prediction in real-time, typically in response to individual requests or small batches of data. In online model serving, the model server is continuously available to handle inference requests as they come in. Online model are served in Sparkflows via one of the following approaches :
 
 As Sparkflows Score Workflow
 ---------
@@ -63,6 +63,7 @@ As Registered Models in MLflow
          .. figure:: ../../_assets/mlops/mlops-mlflow-remote-server.png
             :alt: Load balancers
             :width: 60%
+
 As Registered Models in SageMaker
 ----------
 
@@ -74,7 +75,7 @@ Configure the below from the MLOps tab in Admin page:
 
 * mlops.region
 * mlops.aws_id 
-* Mlops.arn
+* mlops.arn
 
   .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
      :alt: mlops-sagemaker
@@ -114,3 +115,25 @@ To Push the docker image to ECR, you would need to perform the following steps:
    ::
 
         mlflow sagemaker build-and-push-container
+
+As Registered Models in Kubeflow
+----------
+
+Sparkflows MLOps allows you to deploy Machine learning models on Kubeflow. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+
+Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
+
+Configure the below from the MLOps tab in Admin page:
+
+* mlops.target.deployment should be set to "kubeflow"
+* mlops.kubeflow.username 
+* mlops.kubeflow.password
+* mlops.kubeflow.config.path
+* mlops.docker.registry.sparkflows
+* mlops.kubeflow.hostport
+
+  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-1.PNG
+     :alt: mlops-kubeflow
+     :width: 60%
+
+Once the Kubeflow is configured, users can deploy models to kubeflow via one click on the models page of Sparkflows.

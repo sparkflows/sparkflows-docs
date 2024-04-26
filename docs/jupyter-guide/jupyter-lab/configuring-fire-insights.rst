@@ -1,7 +1,7 @@
 Configuring Fire Insights for JupyterLab
 =============
 
-This document outlines steps to configure Fire Insights for JupyterLab.
+This document outlines the steps to configure Fire Insights for JupyterLab.
 
 Steps
 -----
@@ -31,7 +31,7 @@ Step 1: Login to Fire Web Server URL
 Step 2 : Open Jupyter Notebook
 +++++++++++++++++++++++++++++++
 
-#. After saving the above configuration, refresh the web server URL, and you will see **Jupyter Notebook**. Open it.
+#. After saving the above configuration, refresh the web server URL to see **Jupyter Notebook**. Open it.
 
    .. figure:: ../../_assets/operating/jupyter_notebook-access.PNG
       :alt: operating

@@ -76,7 +76,6 @@ As Registered Models in SageMaker
 -----------
 Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
-
 Once the configurations are done, we can import external models and deploy it to SageMaker. The steps for the same are below:
 
 #. Import the model: The custom model needs to override a class named **CustomPreprocessor**  in a python filename **custom_preprocess.py**. The skeleton of the same can be found attached. These files along with any other code file and artifacts to be used for deployment needs to be packaged in the directory structure as below:
@@ -95,9 +94,53 @@ Once the configurations are done, we can import external models and deploy it to
 #. Once, the files are ready in the above structure, zip them up and then they can be imported in Sparkflows in the models page by choosing the Import option.  
 
    .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
-      :alt: MLops Sagemaker
+      :alt: MLOps Sagemaker
       :width: 60%
 
 #. Once the model is imported into Sparkflows,the Register, Deploy, Undeploy of the model behaves the same way as any other model.
 
+As Registered Models in Kubeflow
+-----------
+Sparkflows MLOps allows you to deploy Machine learning models in Kubeflow. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
+Once the configurations are done, we can import external models and deploy it to Kubeflow. The steps for the same are below:
+
+#. Import the model into Sparkflows if its an external model.
+#. Register the model by clicking on Register model in the models page
+#. Deploy the model to Kubeflow by click on Deploy model in the models page Actions menu. This will open up a dialog box as seen below which expects users inputs. Once inputs are provided, click on `Ok` and it would deploy the model to Kubeflow. Here if you want to use an existing docker image, then provide the docker image tag. But, if you want Sparkflows to build the docker image, just provide the `Docker context path` with the required files and the docker image will be built using a base image and the model will be embedded into it and deployed to kubeflow automatically.
+
+   .. figure:: ../../_assets/mlops/kubeflow/kubeflow-deployment-details.png
+      :alt: MLOps Kubeflow
+      :width: 60%
+
+#. On deployment, you will get a live end point which can be used to score using the deployed model in Sagemaker. There are multiple ways by which the live end point can be used to score. The same with examples of how to do it is below::
+
+
+    # To score using the mlops-monitoring end point
+    import json
+    import requests
+    import pandas as pd
+    
+    test_data = pd.read_csv('/home/user/ubuntu/test.csv')
+    model_id = 361 # This is the id of the model which you want to use to score
+    token = 'xxxxxxxxx' # Retrieve/Create it from Sparkflows user profile page
+    
+    http_data = test_data.to_json(orient='split')
+    scoring_api_url = 'http://XX.15.YYY.171:8080/api/v1/score-models?modelId='+ str(model_id)
+    api_call_headers = {'token': token}
+    response = requests.post(scoring_api_url, data=http_data, headers=api_call_headers)
+    print(response.text)
+    
+    # Score via Python
+    import json
+    import requests
+    import pandas as pd
+    test_data = pd.read_csv('/home/ubuntu/test.csv')
+    http_data = test_data.to_json(orient='split')
+    json_data = json.loads(http_data)
+    response = requests.post('http://172.174.173.7:5078/predict', json=json_data)
+    print(response.json())
+    
+    # Score via curl
+    curl -X POST -H 'Content-Type: application/json' -d '{'feature1': 1.0,'feature2': 'this is spam','feature3': 2.0}' http://172.174.173.7:5078/predict
+    

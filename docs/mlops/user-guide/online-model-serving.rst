@@ -113,7 +113,7 @@ Once the configurations are done, we can import external models and deploy it to
       :alt: MLOps Kubeflow
       :width: 60%
 
-#. On deployment, you will get a live end point which can be used to score using the deployed model in Sagemaker. There are multiple ways by which the live end point can be used to score. The same with examples of how to do it is below::
+#. On deployment, you will get a live end point which can be used to score using the deployed model in Kubeflow. There are multiple ways by which the live end point can be used to score. The same with examples of how to do it is below::
 
 
     # To score using the mlops-monitoring end point

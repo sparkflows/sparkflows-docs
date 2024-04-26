@@ -34,6 +34,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/datafabric`
+
+    Describes details steps involved in Configuring DataFabric access in Sparkflows.
+
+    ---
+
     :doc:`/hpe/admin-guide/hive`
 
     Describes details steps involved in Configuring Hive in Sparkflows.
@@ -52,5 +58,6 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    keycloak_setup.rst
    sparkflows_setup.rst
    livy_config.rst
+   datafabric.rst
    hive.rst
    debezium.rst 

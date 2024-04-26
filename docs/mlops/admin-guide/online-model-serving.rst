@@ -125,7 +125,7 @@ Below we go through the admin guide of different options available in Sparkflows
 
 Configure the below from the MLOps tab in Admin page:
 
-* mlops.target.deployment should be set to "kubeflow"
+* mlops.target.deployment should be set to `kubeflow`
 * mlops.kubeflow.username 
 * mlops.kubeflow.password
 * mlops.kubeflow.config.path

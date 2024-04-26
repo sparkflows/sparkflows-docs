@@ -31,7 +31,7 @@ As Registered Models in MLflow
        * Pylint: pip install pylint==2.5.3
        * NumPy: pip install numpy==1.21.6
 
-  * Once the MLFlow server is up and running, the following configurations needs to be added in the **Administrative tab** in the section **Configuration** and sub-section **MLflow** :
+  * Once the MLflow server is up and running, the following configurations needs to be added in the **Administrative tab** in the section **Configuration** and sub-section **MLflow** :
    
        * MLflow server URL (tracking URL).
        * MLflow login username, if any.

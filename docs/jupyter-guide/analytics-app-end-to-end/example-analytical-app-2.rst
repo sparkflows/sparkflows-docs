@@ -37,7 +37,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	import pandas as pd
 	import numpy as np
 	import pickle
-	import seaborn as sns
+	#import seaborn as sns
 	import plotly.graph_objs as go
 	from plotly.subplots import make_subplots
 	import plotly

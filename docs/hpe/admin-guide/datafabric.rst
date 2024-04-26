@@ -15,6 +15,10 @@ And allow to configure the access at the group level where users in group A can'
       :alt: DataFabric
       :width: 60%
 
+
+
+DataFabric Browse
+
 .. figure:: ../../_assets/hpe/datafabric-browse.PNG
       :alt: DataFabric
       :width: 60%

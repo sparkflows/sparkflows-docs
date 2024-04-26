@@ -1,7 +1,7 @@
 Second Analytical App Example
 =============================
 
-This is a Jupyter Notebook-integrated Analytical App. It enables users to make selections on the Analytical App UI. A section of the Jupyter Notebook is executed based on the selection made using the logic defined in the code and the results are streamed back to the Sparkflows Analytical App UI.
+This is a Jupyter Notebook-integrated Analytical App. It enables users to make selections on the Analytical App UI. A section of the Jupyter Notebook is executed based on the selection made using the logic defined in the code and the results are streamed back to the Fire Insights Analytical App UI.
 
 Analytical App Overview
 -----------------------
@@ -27,7 +27,7 @@ The below Analytical App performs the following tasks:
 Jupyter Notebook
 ----------------
 
-Below is the Jupyter Notebook that gets invoked by the Analytical App and the results are seen in the Sparkflows Analytical App UI.
+Below is the Jupyter Notebook that gets invoked by the Analytical App and the results are seen in the Fire Insights Analytical App UI.
 
 Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
@@ -215,7 +215,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 Executing the Application
 -------------------------
 
-When you run the Analytical App, it utilizes the Jupyter Notebook connection to submit the job to Kubernetes cluster and streams back the response back from the Jupyter Notebook to the Sparkflows Analytical App UI.
+When you run the Analytical App, it utilizes the Jupyter Notebook connection to submit the job to Kubernetes cluster and streams back the response back from the Jupyter Notebook to the Fire Insights Analytical App UI.
 
 * The **Introduction Stage** is displayed below. Click on the Get Started button to proceed to the next stage.
 

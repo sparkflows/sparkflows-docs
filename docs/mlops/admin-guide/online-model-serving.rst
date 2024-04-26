@@ -64,10 +64,10 @@ As Registered Models in MLflow
             :alt: Load balancers
             :width: 60%
 
-As Registered Models in SageMaker
+As Registered Models in Sagemaker
 ----------
 
-Sparkflows MLOps allows you to deploy Machine learning models on SageMaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
 Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
 

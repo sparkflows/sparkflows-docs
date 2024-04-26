@@ -1,6 +1,6 @@
 Offline Model Serving
 ========
-Offline model serving can be done in any of the following ways :
+Offline model serving refers to the process of making machine learning models available for inference or prediction without requiring a real-time connection to the model server. In offline model serving, the predictions are generated on a batch of data rather than on individual requests as in real-time serving. Offline models are served in Sparkflows via one of the following approaches :
 
 Using Sparkflows Score Workflow
 ---------

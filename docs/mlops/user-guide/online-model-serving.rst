@@ -72,11 +72,11 @@ As MLflow Scoring Container in AzureML
   * The AzureML then creates a REST end point for serving the model.
   * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on Sagemaker.
 
-As Registered Models in SageMaker
+As Registered Models in Sagemaker
 -----------
 Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
-Once the configurations are done, we can import external models and deploy it to SageMaker. The steps for the same are below:
+Once the configurations are done, we can import external models and deploy it to Sagemaker. The steps for the same are below:
 
 #. Import the model: The custom model needs to override a class named **CustomPreprocessor**  in a python filename **custom_preprocess.py**. The skeleton of the same can be found attached. These files along with any other code file and artifacts to be used for deployment needs to be packaged in the directory structure as below:
 

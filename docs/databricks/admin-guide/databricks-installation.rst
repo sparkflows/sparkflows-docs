@@ -24,44 +24,38 @@ Step 2 : Upload Fire Core JAR to Databricks
 
 Fire Insights relies on a specific JAR file to execute tasks within Databricks. 
 
-This JAR file, named **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar**, must be uploaded under Workspace as a Library on to Databricks. 
+This JAR file, named **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar**, must be uploaded to Library on to Databricks. 
 
 You can do this by following these steps:
 
 #. **Login** to your **Databricks Account** using your credentials.
-#. Click on **Workspace** located on the left side pane.
+#. Click on **Compute** located on the left side pane.
    
-   .. figure:: ../../_assets/configuration/azure_workspace.PNG
+   .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
       :width: 40%
    
-#. Create a new **Library**.
+#. Click on **Install new** from **Libraries** tab.
 
-   .. figure:: ../../_assets/configuration/library_create.PNG
+   .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
       :width: 40%
 
 #. Upload JAR File **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** either from your machine or
    
-   use the download link from the previous step by selecting the **Drop JAR here** option.
+   use the download link from the previous step by selecting the **Drop JAR here** option or you can upload it **dbfs** location and copy the full path.
 
-   .. figure:: ../../_assets/configuration/upload-library.png
+   .. figure:: ../../_assets/configuration/databricks_lib_core.PNG
        :alt: Databricks
        :width: 40%
    
-#. Once **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** is uploaded, click on **Create**.
+#. Once **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** path is updated, click on **install**.
 
-   .. figure:: ../../_assets/configuration/createlibrary.PNG
+   .. figure:: ../../_assets/configuration/databricks_lib_update.PNG
       :alt: Databricks
       :width: 40%
    
-#. Check the box with **Install automatically on all clusters**, in order to avoid having to install it manually on every cluster.   
-
-   .. figure:: ../../_assets/configuration/automatic_install.PNG
-      :alt: Databricks
-      :width: 40%
-
-   .. note:: This option is not compatible with clusters using Runtime version 7.0 or higher.
+   .. note:: This will install library on Databricks cluster.
    
 
 Step 3 : Create REST API Token in Databricks

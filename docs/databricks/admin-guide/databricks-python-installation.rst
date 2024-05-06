@@ -134,19 +134,40 @@ Step 6 : Install Dependency for AWS
 Step 7 : Install Prophet Package on Databricks
 -------------------------------------
 
-#. Install the needed python package for prophet using Init script on databricks cluster.
+#. Install the needed python package needed for Fire Insights using Init script on databricks cluster.
 
    Use the below command:
 
    ::
 
         #!/bin/bash
-        pip install pip==20.0.2
-        pip uninstall -y pystan
+        pip install --upgrade pip
+        pip uninstall -y pystan==3.1.1
         pip install pystan==2.19.1.1
-        pip install numpy==1.17.3
         pip install prophet==1.1.1
-    
+        pip install numpy==1.17.3
+        pip install nbconvert==6.0.0rc0
+        pip install Jinja2==3.0.3
+        pip install --upgrade jupyter_client
+        pip install pycaret==2.3.10
+        pip install catboost==1.0.4
+        pip install h2o-pysparkling-3.2==3.36.1.2.post1
+        pip install great_expectations==0.13.0
+        pip install scorecardpy==0.1.9.2
+        pip install black
+        pip install numpy==1.21.4
+        pip install numba==0.53.0
+        pip install scikit-learn==0.24.0
+        pip install holidays==0.14.2
+        pip install openpyxl
+        pip install huggingface-hub==0.14.1
+        pip install shap
+        pip install transformers
+        pip install torch==1.9.1+cpu torchvision==0.10.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+        pip install urllib3==1.25.11
+        pip install bs4
+        pip install kfp==1.8.1
+        pip install pulp    
 
    Add above in a **script file**, upload in **workspace** and go to **Advanced Options**, select **Init Scripts** and add **workspace path** to it. 
 
@@ -164,7 +185,7 @@ Step 8 : Upload Fire workflowexecutecloud.py file to DBFS
 Step 9 : Configure Uploaded Library in Fire Insights
 ------------------------------------
 
-Configure the path of the uploaded fire python wheel package file & workflowexecutecloud.py.py using Compute Connection in Fire Insights.
+Configure the path of the uploaded **fire python wheel package file & workflowexecutecloud.py.py** in Compute Connection in Fire Insights.
 
 `Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_ to know more.
 
@@ -173,11 +194,11 @@ Step 10 : Submit Job using Pyspark Engine
 
 Now, you can submit pyspark jobs to Databricks Cluster from Fire Insights.
 
-  .. figure:: ../../_assets/configuration/job_2.PNG
+  .. figure:: ../../_assets/configuration/databricks_job1.PNG
      :alt: Submit Job
      :width: 70%
 
-  .. figure:: ../../_assets/configuration/job_3.PNG
+  .. figure:: ../../_assets/configuration/databricks_job2.PNG
      :alt: Submit Job
      :width: 70%
 

@@ -23,7 +23,7 @@ In Sparkflows, user can read the data from S3 location using processors like Rea
 
 
 Workflow
-++++++++
+----------
 Below is a workflow which reads data from S3:
 
 .. figure:: ../../_assets/configuration/s3_wf.PNG
@@ -33,7 +33,7 @@ Below is a workflow which reads data from S3:
 
 
 Processor Configuration
-+++++++++++++++++++++++++
+------------------------
 
 Browse S3 Path and Refresh Schema for ReadCSV Processor :
 
@@ -43,7 +43,7 @@ Browse S3 Path and Refresh Schema for ReadCSV Processor :
 
 
 Workflow Execution Results
-+++++++++++++++++++++++++
+--------------------------
 
 Execution results would look like below:
 

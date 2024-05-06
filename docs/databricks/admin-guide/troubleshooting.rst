@@ -45,7 +45,7 @@ Getting (java.lang.Exception) Error
 
 Getting (DatabricksILoop.scala:98) Error
 -------------------------------
-* If you encounter the error **at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)**, it's likely because you are running the Spark 2.3 version of Fire with a Spark 2.4 cluster on Databricks. 
+* If you encounter the error **at com.databricks.backend.daemon.driver.DatabricksILoop$class.initSpark(DatabricksILoop.scala:98)**, it's likely because you are running the Spark 3.0.1 version of Fire with a Spark 3.2.1 cluster on Databricks. 
 
   To resolve this issue, consider upgrading Fire to the Spark 2.4 version or create a Databricks cluster compatible with Spark 2.3.   
 
@@ -66,19 +66,7 @@ Databricks Cluster Versions Support
    * - 7.3 
      - 3.0.1 
      - 2.12
-   * - 6.2 
-     - 2.4.4   
-     - 2.11
-   * - 6.3  
-     - 2.4.4 
-     - 2.11
-   * - 6.4  
-     - 2.4.5 
-     - 2.11
-   * - 6.5      
-     - 2.4.5    
-     - 2.11
-   
+      
 
 
 

@@ -138,7 +138,7 @@ Step 6 : Install Dependency for AWS
       :width: 70%
 
 
-Step 7 : Install Prophet Package on Databricks
+Step 7 : Install python Package on Databricks
 -------------------------------------
 
 #. Install the needed python package needed for Fire Insights using Init script on databricks cluster.

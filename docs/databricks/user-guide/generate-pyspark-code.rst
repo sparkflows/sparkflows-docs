@@ -20,7 +20,7 @@ Step 2 : Enable Auto Pyspark Code Generation
 
    **Note:** 'module.enableAutoPysparkCodeGeneration' is initially set to false by default.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/1.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/pyspark_code.png
       :alt: Pyspark code generate
       :width: 60%
 

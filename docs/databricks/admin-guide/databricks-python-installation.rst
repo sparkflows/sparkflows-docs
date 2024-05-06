@@ -48,8 +48,15 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
       :width: 40%
+
+#. Click on **Libraries** located on the left side pane.
    
-#. Click on **Install new** from **Libraries** tab.
+   .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
+      :alt: Databricks
+      :width: 40%
+
+
+#. Click on **Install new** tab.
 
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks

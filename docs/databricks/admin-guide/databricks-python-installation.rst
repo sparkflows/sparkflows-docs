@@ -55,7 +55,7 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
       :alt: Databricks
       :width: 40%
 
-#. Upload JAR File **fire-3.1.0-py3-none-any.whl** either from your machine or
+#. Upload WHL File **fire-3.1.0-py3-none-any.whl** either from your machine or
    
    use the download link from the previous step by selecting the **Drop WHL here** option or you can upload it **dbfs** location and copy the full path.
 

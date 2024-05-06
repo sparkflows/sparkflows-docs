@@ -39,54 +39,39 @@ Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs ru
 
 Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under Workspace as a Library on to Databricks under DBFS or in S3 Bucket which is accessible from the Databricks Cluster.
 
-   .. figure:: ../../_assets/configuration/wheelfile.PNG
-      :alt: Wheel File
-      :width: 70%
-
+ 
 **To upload as Library, follow the below steps :**
 
-#. Login to **Databricks Cluster**.
-#. Click on **Workspace** located in the left sidebar.
-
-   .. figure:: ../../_assets/configuration/azure_workspace.PNG
-      :alt: Databricks
-      :width: 60%
+#. **Login** to your **Databricks Account** using your credentials.
+#. Click on **Compute** located on the left side pane.
    
-#. Create a new **Library** by selecting :
-
-   Library Source as **DBFS**.
-   
-   Library Type as **Python Whl**. 
-
-   Next,  provide any **Library Name** field and;
-    
-   Add File Path of **fire-3.1.0-py3-none-any.whl** located in DBFS.
-
-   Finally, click on **Create**.
-
-   .. figure:: ../../_assets/configuration/python-lib.PNG
+   .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 60%
-
-#. Choose **Databricks cluster**.
+      :width: 40%
    
-   When you click the Create button, you will be prompted to choose a specific Databricks Cluster for installation. 
- 
-   Simply select the cluster on which you wish to install the application.
+#. Click on **Install new** from **Libraries** tab.
 
-   .. figure:: ../../_assets/configuration/create.PNG
+   .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 60%
-   
-   .. figure:: ../../_assets/configuration/install.PNG
-      :alt: Databricks
-      :width: 60%
-   
-   On Successfull installation of wheel file on Databricks Cluster, it would be displayed under Libraries as shown below:
+      :width: 40%
 
-   .. figure:: ../../_assets/configuration/wheelpack.PNG
+#. Upload JAR File **fire-3.1.0-py3-none-any.whl** either from your machine or
+   
+   use the download link from the previous step by selecting the **Drop WHL here** option or you can upload it **dbfs** location and copy the full path.
+
+
+   .. figure:: ../../_assets/configuration/databricks_lib.PNG
       :alt: Databricks
-      :width: 70%
+      :width: 40%
+
+#. Once **fire-3.1.0-py3-none-any.whl** path is updated, click on **install**.
+
+   .. figure:: ../../_assets/configuration/databricks_lib_update.PNG
+      :alt: Databricks
+      :width: 40%
+   
+   .. note:: This will install library on Databricks cluster.
+
 
 **To upload via S3 bucket, follow the steps below :**
 
@@ -103,16 +88,13 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
 
    And finally, click on **Install**.
     
-   .. figure:: ../../_assets/configuration/s3wheel.PNG
+   .. figure:: ../../_assets/configuration/databricks_s3.PNG
       :alt: Databricks
       :width: 70%
 
    Once it is installed successfully, you can see that the python wheel inside Library is up.
 
-   .. figure:: ../../_assets/configuration/uploads3wheel.PNG
-      :alt: Databricks
-      :width: 70%
-
+   
 
 Step 4 : Install Python Dependencies
 -----------------------
@@ -175,10 +157,6 @@ Step 8 : Upload Fire workflowexecutecloud.py file to DBFS
 #. For Python Job submission to Databricks Cluster:
 
    Upload **fire-x.y.z/dist/workflowexecutecloud.py**, file to **DBFS** or even  to **S3 Bucket**.
-
-   .. figure:: ../../_assets/configuration/workflow_1.PNG
-      :alt: Databricks
-      :width: 70%
 
    You can upload it using the DBFS browser too.
 

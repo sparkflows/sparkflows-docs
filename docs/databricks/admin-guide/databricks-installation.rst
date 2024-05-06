@@ -66,27 +66,33 @@ To facilitate communication between Fire Insights and Databricks via REST API ca
 Follow these steps to create your token:
 
 #. **Login** to your **Databricks Account** using your credentials.
-#. Click on **User Settings**.
+#. Click on **Settings**.
 
    .. figure:: ../../_assets/configuration/user-setting.png
       :alt: Databricks
       :width: 60%
 
-#. Click on **Generate New Token**.
+#. Click on **Developer**.
 
-   .. figure:: ../../_assets/configuration/generatetoken.PNG
+   .. figure:: ../../_assets/configuration/databricks_access_token.png
+      :alt: Databricks
+      :width: 60%
+
+#. Click on **Manage & Generate new token**.
+
+   .. figure:: ../../_assets/configuration/databricks_generate_token.png
       :alt: Databricks
       :width: 60%
 
 #. Add **Comment & Lifetime(days)** for token expiry & click on **Generate**.
 
-   .. figure:: ../../_assets/configuration/token_update.PNG
+   .. figure:: ../../_assets/configuration/databricks_token.png
       :alt: Databricks
       :width: 60%
 
 #. Copy the token generated and click on **DONE**.
 
-   .. figure:: ../../_assets/configuration/token_generated.PNG
+   .. figure:: ../../_assets/configuration/databricks_token_copy.png
       :alt: Databricks
       :width: 60%
 

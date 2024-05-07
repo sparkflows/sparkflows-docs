@@ -47,20 +47,20 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
    
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 70%
 
 #. Click on **Libraries** located on the left side pane.
    
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 70%
 
 
 #. Click on **Install new** tab.
 
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 70%
 
 #. Upload WHL File **fire-3.1.0-py3-none-any.whl** either from your machine or
    
@@ -69,13 +69,13 @@ Upload the file, **fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl**, either under W
 
    .. figure:: ../../_assets/configuration/databricks_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 70%
 
 #. Once **fire-3.1.0-py3-none-any.whl** path is updated, click on **install**.
 
    .. figure:: ../../_assets/configuration/databricks_lib_update.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 70%
    
    .. note:: This will install library on Databricks cluster.
 

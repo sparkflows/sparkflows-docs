@@ -33,13 +33,13 @@ You can do this by following these steps:
    
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
    
 #. Click on **Install new** from **Libraries** tab.
 
    .. figure:: ../../_assets/configuration/databricks_intsall_lib.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
 
 #. Upload JAR File **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** either from your machine or
    
@@ -47,13 +47,13 @@ You can do this by following these steps:
 
    .. figure:: ../../_assets/configuration/databricks_lib_core.PNG
        :alt: Databricks
-       :width: 40%
+       :width: 60%
    
 #. Once **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar** path is updated, click on **install**.
 
    .. figure:: ../../_assets/configuration/databricks_lib_update.PNG
       :alt: Databricks
-      :width: 40%
+      :width: 60%
    
    .. note:: This will install library on Databricks cluster.
    
@@ -174,9 +174,10 @@ DATABRICKS Tab :
    :alt: connection
    :width: 60%    
 
-2.  Test & Save the Connection
+Step 5 : Test and Save the Connection
+^^^^^^^^^^^^^^^^^^^^^^
 
-Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
+After setting the parameters, test the connection and save it. Once the connection is saved, it can be used for submitting the job on specific Databricks cluster.
 
 More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
 

@@ -82,7 +82,7 @@ Step 5 : Submit Jobs on Databricks Cluster
    
    Once the Job runs successfully, you will see the **Status** of the Job as **Succeeded**.
 
-   .. figure:: ../../_assets/user-guide/generate-pyspark-code/7.PNG
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/code_generate_databricks.png
       :alt: Pyspark code generate
       :width: 70% 
 

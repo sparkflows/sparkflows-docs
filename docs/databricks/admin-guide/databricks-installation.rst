@@ -68,7 +68,7 @@ Follow these steps to create your token:
 #. **Login** to your **Databricks Account** using your credentials.
 #. Click on **Settings**.
 
-   .. figure:: ../../_assets/configuration/user-setting.png
+   .. figure:: ../../_assets/user-guide/generate-pyspark-code/setting.png
       :alt: Databricks
       :width: 60%
 

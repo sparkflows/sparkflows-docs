@@ -1,9 +1,9 @@
-CloudWatch
+Amazon CloudWatch
 ====
 
-CloudWatch can be used to view the Logs.
+Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run on AWS in real time. You can use CloudWatch to collect and track metrics, which are variables you can measure for your resources and applications..
 
-Below are the detailed steps for viewing CloudWatch Logs:
+Below are the detailed steps for viewing CloudWatch Logs for ECS Conatiner:
 
 #. **Login** to your **AWS Console** using your credentials.
 #. Go to **Amazon Elastic Container Service**
@@ -24,3 +24,4 @@ Below are the detailed steps for viewing CloudWatch Logs:
 
 #. Search on the filter to view Logs for custom date.
 
+`Click here <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html>`_ to get more details on Amazon CloudWatch.

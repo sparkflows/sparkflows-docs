@@ -89,6 +89,13 @@ AWS Admin Guide
 
     ---
 
+    :doc:`/aws/admin-guide/cloudwatch`
+    
+    Describe details about Viewing Logs using CloudWatch. 
+
+
+    ---
+
     :doc:`/aws/admin-guide/customized-docker-image-with-ssl`
     
     Build customized docker image with SSL certificate.
@@ -127,6 +134,7 @@ AWS Admin Guide
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
    ecs-fargate-sparkflows-deployment/index.rst
+   cloudwatch.rst
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst
    aws-cloudformation/index.rst

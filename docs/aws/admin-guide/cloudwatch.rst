@@ -24,4 +24,8 @@ Below are the detailed steps for viewing CloudWatch Logs for ECS Conatiner:
 
 #. Search on the filter to view Logs for custom date.
 
+   .. figure:: ../../_assets/aws/container_cloudwatch.png
+      :alt: emr
+      :width: 60%
+
 `Click here <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html>`_ to get more details on Amazon CloudWatch.

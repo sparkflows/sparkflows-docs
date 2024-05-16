@@ -116,8 +116,8 @@ Upgrading Steps
 
 * Upgrade the either the MySQL or the H2DB table by running the sh script::
 
-    .\create-mysql-db.sh
-    .\create-h2-db.sh
+    ./create-mysql-db.sh
+    ./create-h2-db.sh
 
 * Start the docker image using the `docker run` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine::
     

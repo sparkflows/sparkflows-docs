@@ -5,7 +5,8 @@ Sparkflows uses Apache Airflow for executing Pipelines.
 
 Below are the configurations needed for Sparkflows and Airflow to integrate seamlessly:
 
-.. figure:: ../../../_assets/user-guide/pipelines-configuration.PNG
+.. figure:: ../../../_assets/user-guide/airflow-pipeline-configuration.png
+   :width: 60%
    :alt: Pipelines Configuration
    
 

@@ -5,8 +5,13 @@ Sparkflows empowers you to Save the Livy Logs in S3 through a Livy connection on
 
 This document provides an in-depth guide to the steps required for Configuring Logs via a Livy Connection.
 
-Following the steps given below would allow you to successfully Configuring Logs using a Livy Connection:
+Prerequisites
+-------------
+* AWS S3 Bucket with Write permission.
+* AWS S3 Bucket is accessible from Fire Insights Machine/Container.
 
+
+Following the steps given below would allow you to successfully Configuring Logs using a Livy Connection:
 
 
 Step 1 : Login to Fire Insights

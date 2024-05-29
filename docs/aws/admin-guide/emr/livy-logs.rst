@@ -1,4 +1,4 @@
-EMR Livy Logs
+Apache Livy Logs
 ===============
 
 Sparkflows empowers you to Save the Livy Logs in S3 through Livy connection once you've established one successfully. 

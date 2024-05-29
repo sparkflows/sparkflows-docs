@@ -14,9 +14,6 @@ Prerequisites
 Following the steps given below would allow you to successfully Configuring Logs using a Livy Connection:
 
 
-Step 1 : Login to Fire Insights
-------------
-
 #. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
 #. Once you **Sign in**, If you already created Apache Livy Connection, you need to update the connection.
 

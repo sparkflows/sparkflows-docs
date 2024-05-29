@@ -19,6 +19,7 @@ Following the steps given below would allow you to successfully Configuring Logs
 
     `Click Here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/livy.html>`_ to access detailed documentation on connecting Fire Insights to Apache Livy.
 #. Click on **LIVY** tab and update **Livy Log File S3 location**
+
     ::
 
         Livy Log File S3 location : s3://sparkflows-bucket/logs

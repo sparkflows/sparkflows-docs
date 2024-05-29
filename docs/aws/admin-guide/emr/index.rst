@@ -10,3 +10,4 @@ Fire Insights integrates with Livy to enable the user to create Livy connection 
    start-emr.rst
    livy-connection.rst
    livy-job.rst
+   livy-logs.rst 

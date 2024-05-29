@@ -13,3 +13,7 @@ Step 1 : Login to Fire Insights
 ------------
 
 #. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
+#. Once you **Sign in**, If you already created Apache Livy Connection, you need to update the connection.
+
+    `Click Here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/livy.html>`_ to access detailed documentation on connecting Fire Insights to Apache Livy.
+

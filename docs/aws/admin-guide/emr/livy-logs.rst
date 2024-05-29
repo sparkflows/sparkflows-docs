@@ -30,7 +30,7 @@ Step 1 : Login to Fire Insights
          :width: 60%
     
 #. Update the **Apache Livy Connection**
-#. Now you can submit the job on **Apache Livy**, the logs would be persistent and it can be view from **Executions** page
+#. Now you can submit the job on **Apache Livy**, the logs would be persistent and it can be viewed from **Executions** page
 
     .. figure:: ../../../_assets/aws/livy/wf_execution_livy.png
          :alt: livy

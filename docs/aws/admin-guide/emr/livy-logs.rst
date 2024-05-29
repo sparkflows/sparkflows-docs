@@ -24,5 +24,23 @@ Step 1 : Login to Fire Insights
 #. Click on **LIVY** tab and update **Livy Log File S3 location**
 
     Livy Log File S3 location : s3://sparkflows-bucket/logs
+
+    .. figure:: ../../../_assets/aws/livy/livy-logs.png
+         :alt: livy
+         :width: 60%
+    
 #. Update the **Apache Livy Connection**
 #. Now you can submit the job on **Apache Livy**, the logs would be persistent and it can be view from **Executions** page
+
+    .. figure:: ../../../_assets/aws/livy/wf_execution_livy.png
+         :alt: livy
+         :width: 60%
+
+    .. figure:: ../../../_assets/aws/livy/livy_logs_execution.png
+         :alt: livy
+         :width: 60%
+
+    .. figure:: ../../../_assets/aws/livy/livy_view_logs.png
+         :alt: livy
+         :width: 60%
+

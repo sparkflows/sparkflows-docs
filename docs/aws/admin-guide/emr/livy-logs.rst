@@ -1,7 +1,7 @@
 EMR Livy Logs
 ===============
 
-Sparkflows empowers you to Save the Livy Logs in S3 through a Livy connection once you've established one successfully. 
+Sparkflows empowers you to Save the Livy Logs in S3 through Livy connection once you've established one successfully. 
 
 This document provides an in-depth guide to the steps required for Configuring Logs via a Livy Connection.
 

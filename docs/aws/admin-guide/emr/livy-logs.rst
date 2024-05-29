@@ -27,7 +27,7 @@ Following the steps given below would allow you to successfully Configuring Logs
          :alt: livy
          :width: 60%
     
-#. Update the **Apache Livy Connection**
+#. Update the **EMR/Apache Livy Connection**
 #. Now you can submit the job on **EMR/Apache Livy**, the logs would be persistent and it can be viewed from **Executions** page
 
     .. figure:: ../../../_assets/aws/livy/wf_execution_livy.png

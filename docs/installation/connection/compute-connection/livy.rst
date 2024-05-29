@@ -121,6 +121,12 @@ For LIVY tab
    * - Num Executors
      - Num Executors to be used in emr livy session
      - Num Executors if any specific Num Executors you need to pass  
+   * - Conf 
+     - Conf to be used in emr livy session
+     - Conf to be used in emr livy session  
+   * - Livy Log File S3 location
+     - Location to be used to store Livy Log
+     - Update the path ie s3://sparkflows-bucket/logs  
      
 .. figure:: ../../../_assets/aws/livy/add_livy.PNG
    :alt: livy

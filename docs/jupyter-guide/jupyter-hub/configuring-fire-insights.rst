@@ -14,7 +14,7 @@ Step 1: Login to Fire Web Server URL
 #. Login to Fire web server URL.
 #. Goto **ADMINISTRATION -->> Configurations** and select **NOTEBOOK**.
 
-   .. figure:: ../../_assets/operating/jupyter_notebook_1.PNG
+   .. figure:: ../../_assets/operating/jupyterhub_config.PNG
       :alt: operating
       :width: 60%
 
@@ -33,9 +33,17 @@ Step 2 : Jupyterhub Tab
 
 #. After saving the above configuration, refresh the web server URL to see **JupyterHub**. tab inside the project.
 
-   .. figure:: ../../_assets/operating/jupyter_notebook-access.PNG
+   .. figure:: ../../_assets/operating/jupyterhub_list.PNG
       :alt: operating
       :width: 60%
 
-Step 3 : Create Jupyter Notebook
+Step 3 : Create Notebook
 +++++++++++++++++++++++++++++++
+
+#. After clicking on Create Notebook, a new page will open where you can run Python code.
+
+   .. figure:: ../../_assets/operating/jupyterhub_notebook.PNG
+      :alt: operating
+      :width: 60%
+
+  

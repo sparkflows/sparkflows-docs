@@ -3,6 +3,12 @@ Configuring Fire Insights for Jupyterhub
 
 This document outlines the steps to configure Fire Insights for Jupyterhub.
 
+Pre-requisites
+-----------
+
+#. Make sure that Jupyterhub is installed and iframe is enabled.
+#. All needed dependency need to be installed.
+
 Steps
 -----
 

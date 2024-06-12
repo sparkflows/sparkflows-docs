@@ -9,8 +9,15 @@ JupyterHub
 
     Steps for installing JupyterHub
 
+    ---
+
+    :doc:`/jupyter-guide/jupyter-hub/configuring-fire-insights`
+
+    Steps for Configuring JupyterHub in Fire Insights
+
 
 .. toctree::
    :hidden:
  
    installation.rst
+   configuring-fire-insights.rst 

@@ -51,3 +51,14 @@ To allow multiple users to sign in to the Hub server, you must start jupyterhub 
 ::
 
  sudo jupyterhub
+
+For Iframe add below
+---------------
+::
+
+ c.Spawner.args = ['--NotebookApp.tornado_settings={"headers":{"Content-Security-Policy": "frame-ancestors * self http://127.0.0.1:8080"}}', '--NotebookApp.disable_check_xsrf=True']
+
+ c.JupyterHub.tornado_settings = { 'headers': { 'Content-Security-Policy': "frame-ancestors * self http://127.0.0.1:8080"} }
+
+
+.. Note:: Make sure to update ``http://127.0.0.1:8080`` with Fire Insights URL and Token Configured should have sufficient privilege

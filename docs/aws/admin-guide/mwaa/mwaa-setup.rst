@@ -111,6 +111,11 @@ To configure advanced settings
 
    We recommend choosing the smallest size necessary to support your workload. You can change the environment class at any time.
 
+   .. figure:: ../../../_assets/aws/mwaa/mwaa_environment.png
+         :alt: mwaa
+         :width: 60%
+
+
 #. For Maximum worker count, specify the maximum number of Apache Airflow workers to run in the environment.
 
    For more information, see Example high performance use case.
@@ -118,6 +123,11 @@ To configure advanced settings
 #. Specify the Maximum web server count and Minimum web server count to configure how Amazon MWAA scales the Apache Airflow web servers in your environment.
 
    For more information about web server automatic scaling, see Configuring Amazon MWAA web server automatic scaling.
+
+   .. figure:: ../../../_assets/aws/mwaa/mwaa_worker_config.png
+         :alt: mwaa
+         :width: 60%
+
 
 #. Under Encryption, choose a data encryption option:
 
@@ -144,6 +154,11 @@ To configure advanced settings
 
     You can choose from the suggested dropdown list of Apache Airflow configuration options for your Apache Airflow version, or specify custom configuration options. For example, core.default_task_retries : 3.
 
+   .. figure:: ../../../_assets/aws/mwaa/mwaa_custom.png
+         :alt: mwaa
+         :width: 60%
+
+
 #. Optional. Under Tags, choose Add new tag to associate tags to your environment. For example, Environment: Staging.
 
 #. Under Permissions, choose an execution role:
@@ -151,6 +166,11 @@ To configure advanced settings
    #. By default, Amazon MWAA creates an execution role in Create a new role. You must have permission to create IAM roles to use this option.
 
    #. Optional. Choose Enter role ARN to enter the Amazon Resource Name (ARN) of an existing execution role.
+
+      .. figure:: ../../../_assets/aws/mwaa/mwaa_role.png
+         :alt: mwaa
+         :width: 60%
+
 
 #. Choose Next.
 

@@ -56,6 +56,15 @@ To specify details for the environment
 
    #. Startup script file - optional, Choose Browse S3 and select the script file on your Amazon S3 bucket, or enter the Amazon S3 URI.
 
+      .. figure:: ../../../_assets/aws/mwaa/mwaa-s3.png
+         :alt: mwaa
+         :width: 60%
+
+      .. figure:: ../../../_assets/aws/mwaa/mwaa_dags_config.png
+         :alt: mwaa
+         :width: 60%
+
+      
 #. Choose Next.
 
 Step two: Configure advanced settings

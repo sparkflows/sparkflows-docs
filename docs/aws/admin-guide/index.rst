@@ -140,6 +140,7 @@ AWS Admin Guide
    aws-sso/index.rst
    aws-iam-assume-role/index.rst
    ecs-fargate-sparkflows-deployment/index.rst
+   mwaa/index.rst
    cloudwatch.rst
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst

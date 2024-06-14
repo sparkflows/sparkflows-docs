@@ -1,7 +1,7 @@
 Pre-requisites
 =======
 
-This document outlines the essential infrastructure pre-requisites needed to setup and configure AWS MWAA with Fire Insights.
+This document outlines the essential infrastructure pre-requisites needed to setup and configure Amazon MWAA environment with Fire Insights.
 
 #. AWS account with permissions to use Amazon MWAA
 #. permission in AWS Identity and Access Management (IAM) to create IAM roles

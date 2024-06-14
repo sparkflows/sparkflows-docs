@@ -13,13 +13,31 @@ To specify details for the environment
   
 #. Open the Amazon MWAA console.
 
+   .. figure:: ../../../_assets/aws/mwaa/mwaa-create.png
+         :alt: mwaa
+         :width: 60%
+ 
+
 #. Use the AWS Region selector to select your region.
 
 #. Choose Create environment.
 
+   .. figure:: ../../../_assets/aws/mwaa/mwaa-create.png
+         :alt: mwaa
+         :width: 60%
+
    #. On the Specify details page, under Environment details:
 
    #. Type a unique name for your environment in Name.
+
+
+      .. figure:: ../../../_assets/aws/mwaa/mwaa-overview.png
+         :alt: mwaa
+         :width: 60%
+
+      .. figure:: ../../../_assets/aws/mwaa/mwaa-name.png
+         :alt: mwaa
+         :width: 60%
 
 #. Choose the Apache Airflow version in Airflow version.
 

@@ -9,7 +9,7 @@ Step one: Specify details
 ----
 
 To specify details for the environment
-====
+++++++++++
   
 #. Open the Amazon MWAA console.
 
@@ -44,7 +44,7 @@ Step two: Configure advanced settings
 ----------------
 
 To configure advanced settings
-=========
++++++++++++
 
 #. On the Configure advanced settings page, under Networking:
 

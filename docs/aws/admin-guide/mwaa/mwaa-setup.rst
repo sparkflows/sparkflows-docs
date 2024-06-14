@@ -1,4 +1,4 @@
-AWS MWAA
+AWS MWAA Setup
 =====
 
 This document provides comprehensive guide for setting up AWS MWAA Environment, ensuring a smooth integration process. 

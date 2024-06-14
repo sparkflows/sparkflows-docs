@@ -8,3 +8,4 @@ This document outlines the essential infrastructure pre-requisites needed to set
 #. S3 Bucket access
 #. Python dependency Installation
 #. Network accessiblity
+#. Role with AWS MWAA API access

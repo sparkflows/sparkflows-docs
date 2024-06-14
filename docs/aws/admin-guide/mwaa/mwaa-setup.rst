@@ -117,6 +117,7 @@ To configure advanced settings
 
 #. Choose Next.
 
+   `Click here <https://docs.aws.amazon.com/mwaa/latest/userguide/create-environment.html>`_ to get more details on how to Create an Amazon MWAA environment.
 
 
 

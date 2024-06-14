@@ -59,3 +59,20 @@ For GENERAL tab
    * - Title
      - Description
      - Value
+   * - Connection name
+     - Connection Name
+     - Name of Connection
+   * - Postback Url
+     - Postback Url
+     - Postback Url through which Airflow sent result back to Fire Insights
+   * - Title 
+     - Title of Selected Connection
+     - Title of Selected Connection  
+   * - Description 
+     - Connection Description 
+     - Connection Description
+
+.. figure:: ../../../_assets/aws/mwaa/mwaa-general.png
+   :alt: mwaa
+   :width: 60%
+

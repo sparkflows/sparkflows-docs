@@ -89,7 +89,7 @@ AWS Admin Guide
 
     ---
 
-    :doc:`mwaa/index`
+    :doc:`/aws/admin-guide/mwaa/index`
     
     Spakflows Configuration with AWS MWAA.
 

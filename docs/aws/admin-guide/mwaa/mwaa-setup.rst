@@ -64,6 +64,9 @@ To specify details for the environment
          :alt: mwaa
          :width: 60%
 
+      `Click here <https://raw.githubusercontent.com/apache/airflow/constraints-2.8.1/constraints-3.11.txt>`_ to get details of python dependency needed.
+
+
       
 #. Choose Next.
 

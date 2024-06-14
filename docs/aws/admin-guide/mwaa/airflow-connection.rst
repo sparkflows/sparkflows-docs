@@ -18,7 +18,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     airflow.enabled	: true
 
-.. figure:: ../../_assets/aws/mwaa/mwaa_airflow_enabled.png
+.. figure:: ../../../_assets/aws/mwaa/mwaa_airflow_enabled.png
    :alt: mwaa
    :width: 60%
 
@@ -27,7 +27,7 @@ Navigate to Add Connections
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: ../../_assets/aws/livy/administration.png
+.. figure:: ../../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
    
@@ -36,11 +36,11 @@ Add connection for group
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
-.. figure:: ../../_assets/aws/mwaa/mwaa-addconnection.png
+.. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
    :alt: mwaa
    :width: 60%
 
-.. figure:: ../../_assets/aws/mwaa/mwaa-airflow.png
+.. figure:: ../../../_assets/aws/mwaa/mwaa-airflow.png
    :alt: mwaa
    :width: 60%
 

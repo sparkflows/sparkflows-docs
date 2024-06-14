@@ -5,6 +5,6 @@ This document outlines the essential infrastructure pre-requisites needed to set
 
 #. AWS Account With Administrator Privilege
 #. AWS MWAA Privilege
-#. S3 Bucket access to Configure dags
+#. S3 Bucket access
 #. Python dependency Installation
 #. Network accessiblity

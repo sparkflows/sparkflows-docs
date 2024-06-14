@@ -89,6 +89,12 @@ AWS Admin Guide
 
     ---
 
+    :doc:`mwaa/index`
+    
+    Spakflows Configuration with AWS MWAA.
+
+    ---
+
     :doc:`/aws/admin-guide/cloudwatch`
     
     Describe details about Viewing Logs using CloudWatch. 

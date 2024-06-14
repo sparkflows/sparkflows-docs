@@ -79,6 +79,11 @@ To configure advanced settings
 
       This step populates two of the private subnets in your Amazon VPC.
 
+      .. figure:: ../../../_assets/aws/mwaa/mwaa_adavanced_config.png
+         :alt: mwaa
+         :width: 60%
+
+
 #. Under Web server access, select your preferred Apache Airflow access mode:
 
    #. Private network. This limits access of the Apache Airflow UI to users within your Amazon VPC that have been granted access to the IAM policy for your environment. You need permission to create Amazon VPC endpoints for this step.
@@ -86,6 +91,11 @@ To configure advanced settings
       .. note:: Choose the Private network option if your Apache Airflow UI is only accessed within a corporate network, and you do not require access to public repositories for web server requirements installation. If you choose this access mode option, you need to create a mechanism to access your Apache Airflow Web server in your Amazon VPC. For more information, see Accessing the VPC endpoint for your Apache Airflow Web server (private network access).
 
    #. Public network. This allows the Apache Airflow UI to be accessed over the Internet by users granted access to the IAM policy for your environment.
+
+      .. figure:: ../../../_assets/aws/mwaa/mwaa_webaccess.png
+         :alt: mwaa
+         :width: 60%
+
 
 #. Under Security group(s), choose the security group used to secure your Amazon VPC:
 

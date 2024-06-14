@@ -114,3 +114,14 @@ For LIVY tab
 .. figure:: ../../../_assets/aws/mwaa/mwaa_airflow_tab.png
    :alt: mwaa
    :width: 60%
+
+Test and Save Airflow Connection
+===========
+
+Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
+
+
+.. figure:: ../../../_assets/aws/mwaa/mwaa_testconnection.png
+   :alt: mwaa
+   :width: 60%
+

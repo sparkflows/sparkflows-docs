@@ -7,5 +7,6 @@ Fire Insights integrates with MWAA to enable the user to create Pipeline connect
 .. toctree::
    :maxdepth: 2
 
+   pre-requisites.rst
    mwaa-setup.rst
    

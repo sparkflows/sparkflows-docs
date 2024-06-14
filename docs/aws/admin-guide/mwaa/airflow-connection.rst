@@ -76,3 +76,41 @@ For GENERAL tab
    :alt: mwaa
    :width: 60%
 
+
+For LIVY tab
+++++++
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Auth Type
+     - Auth Type
+     - Assume Role
+   * - Airflow Dag
+     - Airflow Dag
+     - Airflow Dag path configured in AWS MWAA
+   * - Airflow Endpoint URL
+     - Airflow Endpoint URL
+     - Airflow Endpoint URL in AWS MWAA
+   * - Airflow IAMRole
+     - Airflow IAMRole
+     - Airflow IAMRole being assume for accessing aws mwaa resources
+   * - Airflow Jar Location
+     - Airflow Jar Location
+     - Fire Core Jar Location path added in s3
+   * - Airflow Python Script Location
+     - Airflow Python Script Location
+     - Fire Python Script Location path added in s3
+   * - AWS Region
+     - AWS Region
+     - AWS Region of aws mwaa resources
+   * - Environment Name
+     - Environment Name
+     - Environment Name of aws mwaa resources
+
+.. figure:: ../../../_assets/aws/mwaa/mwaa_airflow_tab.png
+   :alt: mwaa
+   :width: 60%

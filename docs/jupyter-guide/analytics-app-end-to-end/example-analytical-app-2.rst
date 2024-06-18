@@ -67,8 +67,6 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
   
-	webserverURL = "http://localhost:8080/messageFromSparkJob"
-	jobId = "123456789"
 	from fire_notebook.output.workflowcontext import RestWorkflowContext
 	restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
 

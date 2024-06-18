@@ -115,6 +115,8 @@ For AIRFLOW tab
    :alt: mwaa
    :width: 60%
 
+.. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` where Fire Insights application is running
+
 Test and Save Airflow Connection
 ===========
 

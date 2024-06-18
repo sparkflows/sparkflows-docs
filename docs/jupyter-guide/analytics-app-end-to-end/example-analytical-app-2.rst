@@ -79,7 +79,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	# COMMAND ----------
 
 	# Define custom CSS styles for the table
-        ```
+        
 	custom_css = """
 	<style>
 	.my-table-class {
@@ -113,7 +113,7 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	}
 	</style>
 	"""
-	```
+	
 
 ::
 

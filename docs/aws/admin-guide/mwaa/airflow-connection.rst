@@ -77,7 +77,7 @@ For GENERAL tab
    :width: 60%
 
 
-For LIVY tab
+For AIRFLOW tab
 ++++++
 .. list-table:: 
    :widths: 10 20 30

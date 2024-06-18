@@ -174,6 +174,7 @@ To configure advanced settings
          :alt: mwaa
          :width: 60%
 
+      .. note:: Make sure that ARN role attached should have ``Maximum session duration``, as its being used for Log capturing etc.. 
 
 #. Choose Next.
 

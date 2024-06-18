@@ -81,44 +81,39 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	# Define custom CSS styles for the table
         ```
 	custom_css = """
-<style>
-.my-table-class {
-    font-family: Arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.my-table-class th {
-    background-color: #f2f2f2;
-    color: #333333;
-    font-weight: bold;
-    padding: 8px;
-    border: 1px solid #dddddd;
-    text-align: left;
-}
-
-.my-table-class td {
-    border: 1px solid #dddddd;
-    padding: 8px;
-    text-align: center;
-}
-
-.my-table-class tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.my-table-class tbody tr:hover {
-    background-color: #dddddd;
-}
-
-.my-table-class caption {
-    caption-side: top;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-</style>
+	<style>
+	.my-table-class {
+    	  font-family: Arial, sans-serif;
+    	  border-collapse: collapse;
+    	  width: 100%;
+	}
+       .my-table-class th {
+    	background-color: #f2f2f2;
+    	color: #333333;
+    	font-weight: bold;
+    	padding: 8px;
+    	border: 1px solid #dddddd;
+    	text-align: left;
+	}
+      .my-table-class td {
+    	border: 1px solid #dddddd;
+    	padding: 8px;
+    	text-align: center;
+	}
+	.my-table-class tbody tr:nth-child(even) {
+    	background-color: #f9f9f9;
+	}
+	.my-table-class tbody tr:hover {
+    	background-color: #dddddd;
+	}
+	.my-table-class caption {
+    	caption-side: top;
+    	font-weight: bold;
+    	margin-bottom: 10px;
+	}
+	</style>
 	"""
-```
+	```
 
 ::
 

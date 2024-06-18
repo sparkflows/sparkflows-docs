@@ -174,7 +174,10 @@ To configure advanced settings
          :alt: mwaa
          :width: 60%
 
-      .. note:: Make sure that ARN role attached should have ``Maximum session duration``, as its being used for Log capturing etc.. 
+      
+      .. note:: Make sure that ARN role attached should have ``Maximum session duration``, as its being used for Log capturing etc.
+
+      `Click here <https://docs.aws.amazon.com/mwaa/latest/userguide/access-policies.html#full-access-policy>`_ to get more details on role needed for Amazon MWAA API access. 
 
 #. Choose Next.
 

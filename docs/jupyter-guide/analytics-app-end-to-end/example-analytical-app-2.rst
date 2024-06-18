@@ -81,7 +81,6 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 	# Define custom CSS styles for the table
         ```
 	custom_css = """
-			custom_css = """
 <style>
 .my-table-class {
     font-family: Arial, sans-serif;

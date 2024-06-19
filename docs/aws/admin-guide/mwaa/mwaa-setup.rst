@@ -157,11 +157,7 @@ To configure advanced settings
 
     You can choose from the suggested dropdown list of Apache Airflow configuration options for your Apache Airflow version, or specify custom configuration options. For example, core.default_task_retries : 3.
 
-   .. figure:: ../../../_assets/aws/mwaa/mwaa_custom.png
-         :alt: mwaa
-         :width: 60%
-
-
+   
 #. Optional. Under Tags, choose Add new tag to associate tags to your environment. For example, Environment: Staging.
 
 #. Under Permissions, choose an execution role:

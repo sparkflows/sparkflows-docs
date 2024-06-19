@@ -1,4 +1,4 @@
-GitHub Connectivity
+GitHub
 ====
 
 This document segment comprehensively addresses common challenges related to GitHub connectivity and offers effective resolutions for each identified issue.

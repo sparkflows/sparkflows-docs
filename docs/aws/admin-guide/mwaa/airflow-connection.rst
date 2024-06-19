@@ -115,7 +115,7 @@ For AIRFLOW tab
    :alt: mwaa
    :width: 60%
 
-.. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` where Fire Insights application is running
+.. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.
 
 Test and Save Airflow Connection
 ===========

@@ -34,7 +34,7 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 Add connection for group
 ========
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Pipeline`` and other parameters as shown below:
 
 .. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
    :alt: mwaa

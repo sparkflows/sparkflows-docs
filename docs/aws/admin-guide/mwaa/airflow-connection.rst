@@ -12,7 +12,7 @@ This page show how to create a "Livy Connection" in Fire Insights.
 Enable Airflow in Sparkflows
 ===========
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
+Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``AIRFLOW`` -> and enable Airflow by setting the below parameter:
 
 ::
 

@@ -117,7 +117,7 @@ For AIRFLOW tab
 
 .. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.
 
-For Example ``AmazonMWAA-sparkflows-air-4HboCJ`` is the ``Execution role`` role attached with Amazon MWAA and ``ecsTaskExecutionRole`` role being used by ecs Execution, so you need add in ``Trust relationsship`` for both role to assume each other.
+For Example ``AmazonMWAA-sparkflows-air-4HboCJ`` is the ``Execution role`` role attached to Amazon MWAA and ``ecsTaskExecutionRole`` role being used by ecs Execution, so you need add in ``Trust relationsship`` for both role to assume each other.
 
 ``Trust relationsship`` for ``AmazonMWAA-sparkflows-air-4HboCJ`` as below:
 

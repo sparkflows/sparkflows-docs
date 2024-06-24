@@ -25,7 +25,7 @@ Python
 .. Note:: Make sure to change **<application-id>, <service-credential-key-name>, <directory-id>, <container-name>, <storage-account-name> & <mount-name>** with actual value.
 
 
-Python
+Scala
 +++++
 
 ::

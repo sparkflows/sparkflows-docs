@@ -43,5 +43,6 @@ Scala
    extra_configs = configs)
 
 
+`Click here <https://learn.microsoft.com/en-us/azure/databricks/dbfs/mounts>`_ to get more details on mounting adls on dbfs.
 
    

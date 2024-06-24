@@ -21,3 +21,5 @@ Python
    source = "abfss://<container-name>@<storage-account-name>.dfs.core.windows.net/",
    mount_point = "/mnt/<mount-name>",
    extra_configs = configs)
+
+.. Note:: Make sure to change **<application-id>, <service-credential-key-name>, <directory-id>, <container-name>, <storage-account-name> & <mount-name>** with actual value.

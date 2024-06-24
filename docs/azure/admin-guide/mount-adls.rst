@@ -42,6 +42,8 @@ Scala
    mount_point = "/mnt/<mount-name>",
    extra_configs = configs)
 
+.. Note:: Make sure to change **<application-id>, <scope-name>, <service-credential-key-name>, <directory-id>, <container-name>, <storage-account-name> & <mount-name>** with actual value.
+
 
 `Click here <https://learn.microsoft.com/en-us/azure/databricks/dbfs/mounts>`_ to get more details on mounting adls on dbfs.
 

@@ -53,6 +53,13 @@ Azure Admin Guide
     :doc:`/azure/admin-guide/azure-databricks`
 
     Databricks Job submission.
+
+   ---
+
+
+    :doc:`/azure/admin-guide/mount-adls`
+
+    Mount ADLS on DBFS.
     
 
 .. toctree::
@@ -66,3 +73,4 @@ Azure Admin Guide
    adls.rst
    synapse/index.rst 
    azure-databricks.rst
+   mount-adls.rst

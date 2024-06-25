@@ -1,4 +1,4 @@
-Architecture and Deployment
+Architecture/Deployment/Sizing
 =========================
 
 Fire Insights can be installed on a standalone machine, VM or in a container.
@@ -19,9 +19,13 @@ Fire Insights can be configured to run:
    
    :doc:`/installation/architecture-deployment/2-deployment`
    
+   ---
+   
+   :doc:`/installation/architecture-deployment/3-sizing`
 
 .. toctree::
    :hidden:
 
    1-architecture.rst
    2-deployment.rst
+   3-sizing.rst

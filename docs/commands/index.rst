@@ -68,6 +68,12 @@ Commands Cheatsheet
     
     Windows Commands Cheatsheet
 
+   ---
+    
+    :doc:`/commands/kubernetes`
+    
+    Kubernetes Commands Cheatsheet
+
 .. toctree::
    :hidden:
 
@@ -82,5 +88,8 @@ Commands Cheatsheet
    postgres.rst
    delta.rst
    windows.rst
+   kubernetes.rst
+
+
 
    

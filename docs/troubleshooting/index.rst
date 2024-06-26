@@ -90,7 +90,13 @@ Below are steps for troubleshooting some of the common issues.
     :doc:`/troubleshooting/airflow`
 
     Steps to troubleshoot Airflow
-    
+
+    ---
+
+    :doc:`/troubleshooting/kubernetes`
+
+    Steps to troubleshoot Kubernetes
+
     ---
    
     :doc:`/troubleshooting/websockets`
@@ -144,6 +150,7 @@ Below are steps for troubleshooting some of the common issues.
    github.rst
    pipelines.rst
    airflow.rst
+   kubernetes.rst
    websockets.rst
    https.rst
    networking.rst

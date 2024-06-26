@@ -215,7 +215,7 @@ For YARN tab :
 
 5. Save connection :
 
-Once you have updated the above parameters, click on  ``Save`` the connection to save the newly created Livy connection.
+Once you have updated the above parameters, click on  ``Save`` the connection to save the newly created spark submit connection.
 
 
 .. Note:: Make sure that the above configured configuration should be accessible from Sparkflows web server URL. 

@@ -44,6 +44,24 @@ Volumes
     # List PersistentVolumes sorted by capacity
     kubectl get pv --sort-by=.spec.capacity.storage
 
+Namespaces
+-------------------
+
+::
+
+    # Create namespace 
+    kubectl create namespace <namespace_name>
+    # List one or more namespaces
+    kubectl get namespace <namespace_name>
+    # Display the detailed state of one or more namespace
+    kubectl describe namespace <namespace_name>
+    # Delete a namespace
+    kubectl delete namespace <namespace_name>
+    # Display Resource (CPU/Memory/Storage) usage for a namespace
+    kubectl top namespace <namespace_name>
+ 
+
+
 Pods
 -------------------
 

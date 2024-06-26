@@ -30,9 +30,9 @@ Services
 ----------------
 
 ::
-
-    # Get commands with basic output
-    kubectl get services                          # List all services in the namespace
+                              
+    # List all services in the namespace
+    kubectl get services
     
 
 

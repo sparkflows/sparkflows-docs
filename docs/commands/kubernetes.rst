@@ -1,6 +1,31 @@
 Kubernetes
 ==========
-    
+
+Cluster
+----------------
+
+::
+
+    # Display endpoint information about the master and services in the cluster
+    kubectl cluster-info
+    # Display the Kubernetes version running on the client and server
+    kubectl version
+    # Get the configuration of the cluster
+    kubectl config view
+    # List everything
+    kubectl get all --all-namespaces
+ 
+
+Deployments
+----------------
+
+::
+
+    # List one or more deployments
+    kubectl get deployment
+    # Display the detailed state of one or more deployments
+    kubectl describe deployment <deployment_name>
+
 Services
 ----------------
 

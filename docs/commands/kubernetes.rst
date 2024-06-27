@@ -1,19 +1,65 @@
 Kubernetes
 ==========
 
-Cluster
+Cluster Information
 ----------------
+Following list of commands help you to understand the resources allocated for the kubernetes cluster.
+
+Display endpoint information about the master and services in the cluster
+****
+
+::    
+
+  kubectl cluster-info
+
+Display the Kubernetes version running on the client and server
+****
 
 ::
 
-    # Display endpoint information about the master and services in the cluster
-    kubectl cluster-info
-    # Display the Kubernetes version running on the client and server
-    kubectl version
-    # Get the configuration of the cluster
-    kubectl config view
-    # List everything
-    kubectl get all --all-namespaces
+    kubectl version --short --output=json | jq .serverVersion.gitVersion
+
+Get the configuration of the cluster
+****
+
+::
+
+    kubectl version --short --output=json | jq .serverVersion.gitVersion
+
+List all the nodes
+****
+
+::
+
+    kubectl get nodes
+
+Describe Node
+****
+
+::
+
+    kubectl describe node <node-name>
+
+Get Node Resources:
+****
+
+::
+
+    kubectl describe node <node-name> | grep -i capacity
+
+Get Node Status
+****
+
+::
+
+    kubectl get nodes -o wide
+
+Get Node Metrics
+****
+
+::
+
+    kubectl top node <node-name>
  
 
 Deployments

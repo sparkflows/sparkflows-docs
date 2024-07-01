@@ -1,7 +1,7 @@
 Delta Merge
 =========== 
 
-
+Merge the input data into the target delta location with merge, insert and update conditions.
 
 Type
 --------- 

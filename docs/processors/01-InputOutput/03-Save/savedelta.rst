@@ -13,6 +13,7 @@ Class
 
 fire.nodes.save.NodeSaveDelta
 
+
 Fields
 --------- 
 
@@ -29,12 +30,6 @@ Fields
       * - saveMode
         - Save Mode
         - Whether to Append, Overwrite or Error if the path Exists
-      * - advanced
-        - Advanced
       * - partitionColNames
         - Partition Column Names
         - Partition Column Names
-
-
-
-

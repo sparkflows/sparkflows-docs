@@ -1,7 +1,7 @@
 Read Delta
 =========== 
 
-Dataset Node for reading Apache Delta files
+Dataset Node for reading Delta format files.
 
 Input
 --------------

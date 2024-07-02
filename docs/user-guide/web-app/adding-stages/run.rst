@@ -150,7 +150,7 @@ To add the component :
    
    Set the **action** to **Event**.
   
-   Enter the **button event** as **run**.
+   Enter the **button event** as **execute**.
    
    Enter the **Custom CSS Class** as **float-right** to display it on the RHS.
 

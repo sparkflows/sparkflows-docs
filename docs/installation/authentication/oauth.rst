@@ -27,7 +27,7 @@ Below is an example of configuring OAuth in Fire with Okta:
   oauth.client.accessTokenUri: https://xyz.okta.com/oauth2/default/v1/token
   oauth.client.userAuthorizationUri: https://xyz.okta.com/oauth2/default/v1/authorize
   oauth.client.clientAuthenticationScheme: form
-  oauth.client.scope: openid profile email
+  oauth.client.scope: openid profile offline_access
   oauth.resource.userInfoUri: https://xyz.okta.com/oauth2/default/v1/userinfo
 
 

@@ -33,46 +33,37 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
 
 ::
   
-	import sys
-	import pandas as pd
-	import numpy as np
-	import pickle
-	#import seaborn as sns
-	import plotly.graph_objs as go
-	from plotly.subplots import make_subplots
-	import plotly
-	from sklearn.model_selection import train_test_split
-	from sklearn.model_selection import train_test_split
-	from sklearn.metrics import classification_report, confusion_matrix, roc_curve, roc_auc_score
-	from sklearn.metrics import auc, recall_score, accuracy_score, precision_score, f1_score, precision_recall_curve
-	from sklearn.ensemble import RandomForestClassifier
-	from sklearn import tree
+    import sys
+    import pandas as pd
+    import numpy as np
+    import pickle
+    #import seaborn as sns
+    import plotly.graph_objs as go
+    from plotly.subplots import make_subplots
+    import plotly
+    from sklearn.model_selection import train_test_split
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import classification_report, confusion_matrix, roc_curve, roc_auc_score
+    from sklearn.metrics import auc, recall_score, accuracy_score, precision_score, f1_score, precision_recall_curve
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn import tree
 
-	webserverURL = sys.argv[1]
-	jobId = sys.argv[2]
+    # First and Second parameter passed to Analytical apps are webserverURL and jobId.
+        import sys
+        parameters_list = sys.argv
+        restworkflowcontext = RestWorkflowContext(parameters=parameters_list)
 
-	# Parmeters will be passed from Analytical app as comma separated `key=value` pair
-	parameters = sys.argv[3]
-	parameters_list=parameters.split(",")
-	parameters_dict = {} # dict of key and value
-
-	# Dictionary of key and value.
-	for i in range(len(parameters_list)):
-		key_value = str(parameters_list[i]).split("=")
-		key = key_value[0]
-		value = key_value[1]
-		parameters_dict[key] = value
-
-	option = parameters_dict.get("option") #"Profiling" OR "Modeling"
+    # The Third parameter will be passed from Analytical app is comma separated `key=value` pair of custom parmeters and use getParmeters() to get the value.
+    option = restworkflowcontext.getParmeters(parameter_name="option", default="Value")
 
 ::
   
-	from fire_notebook.output.workflowcontext import RestWorkflowContext
-	restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+    from fire_notebook.output.workflowcontext import RestWorkflowContext
+    restworkflowcontext = RestWorkflowContext(parameters=sys.argv)
 
-	message="20"
-	# The format of the messages below is - id:int, title: str, progress: str
-	restworkflowcontext.outputProgress(9, title="Progress", progress=message)
+    message="20"
+    # The format of the messages below is - id:int, title: str, progress: str
+    restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 ::
 	

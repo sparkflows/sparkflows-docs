@@ -107,6 +107,31 @@ Use the command below to from Databricks notebook to check if the Sparkflows RES
 
 .. note::  Make sure to change the ``sparkflows_host`` to your domain name or your IP where Sparkflows is running.
 
+**Problem**
+++++++
+
+When running curl command from Databricks notebook with https seeing ``Could resolve host: sparkflows.com`` . 
+
+Possible causes are:
+
+* The domain name you are trying to access could not be resolved to an IP address. This could be because the domain name is spelled incorrectly, or because the DNS server you are using is unable to resolve the domain name.
+
+* There could be a network issue preventing curl from reaching the target server. This could be a problem with your network connection or with the server itself.
+
+* There could be a problem with the SSL/TLS certificate on the server you are trying to access.
+
+**Solution**
+++++++++++
+
+* Check that the domain name is spelled correctly and that you are using the correct URL.
+
+* Check your network connection and try again later.
+
+* If the problem persists, you could try using the ``--resolve`` option to specify the IP address of the target server manually.
+
+* You could also try using the ``--insecure`` option to disable certificate validation. This is not recommended for production environments, but it can be useful for troubleshooting.
+
+
 
 Test Connection from Databricks Notebook to Endpoint service URL
 ----

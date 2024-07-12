@@ -95,39 +95,39 @@ Once you save the above configurations:
       :widths: 10 20 30
       :header-rows: 1
 
-     * - Title
-       - Description
-       - Value
-     * - Connection name
-       - Connection Name
-       - Name of Connection
-     * - Postback URL
-       - Postback URL
-       - Postback URL through which Azure Synapse sent result back to Sparkflows
-     * - Client Id	
-       - Client Id
-       - Client Id for ADLS Configuration
-     * - Client Secret Key
-       - Client Secret Key generated during registration of app in Azure portal
-       - Client Secret Key
-     * - Title 
-       - Title of Selected Connection
-       - Title of Selected Connection  
-     * - EndPoint URL	
-       - Azure Synapse URL	
-       - Synapse URL
-     * - Description 
-       - Connection Description 
-       - Connection Description
-     * - Driver Class
-       - Driver Class for selected Connection type 
-       - It Comes with default value  
-     * - Pool Name	
-       - Synapse Pool Name	
-       - Synapse Pool Name
-     * - Tenant Id	
-       - Azure Tenant Id	
-       - Azure Tenant Id
+      * - Title
+        - Description
+        - Value
+      * - Connection name
+        - Connection Name
+        - Name of Connection
+      * - Postback URL
+        - Postback URL
+        - Postback URL through which Azure Synapse sent result back to Sparkflows
+      * - Client Id	
+        - Client Id
+        - Client Id for ADLS Configuration
+      * - Client Secret Key
+        - Client Secret Key generated during registration of app in Azure portal
+        - Client Secret Key
+      * - Title 
+        - Title of Selected Connection
+        - Title of Selected Connection  
+      * - EndPoint URL	
+        - Azure Synapse URL	
+        - Synapse URL
+      * - Description 
+        - Connection Description 
+        - Connection Description
+      * - Driver Class
+        - Driver Class for selected Connection type 
+        - It Comes with default value  
+      * - Pool Name	
+        - Synapse Pool Name	
+        - Synapse Pool Name
+      * - Tenant Id	
+        - Azure Tenant Id	
+        - Azure Tenant Id
 
 
    .. figure:: ../../../_assets/azure/synapse-general.png

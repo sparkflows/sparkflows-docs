@@ -121,7 +121,7 @@ Once you save the above configurations:
         - Connection Description
       * - Driver Class
         - Driver Class for selected Connection type 
-        - It Comes with default value  
+        - It should be (fire.execute.WorkflowExecuteLivy)  
       * - Pool Name	
         - Synapse Pool Name	
         - Synapse Pool Name

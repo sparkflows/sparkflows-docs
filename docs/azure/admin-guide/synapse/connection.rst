@@ -103,7 +103,7 @@ Once you save the above configurations:
         - Name of Connection
       * - Postback URL
         - Postback URL
-        - Postback URL through which Azure Synapse sent result back to Sparkflows
+        - Postback URL through which Azure Synapse sent result back to Sparkflows, it would be http://sparkflows_host/messageFromSparkJob
       * - Client Id	
         - Client Id
         - Client Id for ADLS Configuration
@@ -115,7 +115,7 @@ Once you save the above configurations:
         - Title of Selected Connection  
       * - EndPoint URL	
         - Azure Synapse URL	
-        - Synapse URL
+        - Synapse End point URL
       * - Description 
         - Connection Description 
         - Connection Description

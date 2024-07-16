@@ -37,26 +37,19 @@ These outputs can be seamlessly displayed in the analytical app interface, enhan
 First create a RestWorkflowContext for communicating with Fire Insights server. Use the following code :
 ::
 
-    import sys
-
-    webserverURL = sys.argv[1]
-    jobId = sys.argv[2]
-    
-    #parmeters will be passed as comma separated key=value pair.
-    parameters = sys.argv[3]
-    parameters_list=parameters.split(",")
-    parameters_dict = {} ### dict of key and value
-
-    #dict of key and value.
-    for i in range(len(parameters_list)):
-        key_value = str(parameters_list[i]).split("=")
-        key = key_value[0]
-        value = key_value[1]
-        parameters_dict[key] = value
-    
+    #Initialize and Start Execution
     from fire_notebook.output.workflowcontext import RestWorkflowContext
-    restworkflowcontext = RestWorkflowContext(webserverURL, jobId)
+    import sys
+    parameters_list = sys.argv
+    restworkflowcontext = RestWorkflowContext(parameters=parameters_list)
 
+   #To get the parameters:
+   #"Profiling" OR "Modeling"
+   option = restworkflowcontext.getParmeters(parameter_name="option", default="Profiling")
+
+   #To get the Connections Details:
+   connection_details = restWorkflowContext.getConnectionDetails(conn_name="mysql", default="host,port,username,password")
+ 
 
 **Step 2 : Invoke the output functions**
 +++++++++++++++++++++++++++++++++++++++

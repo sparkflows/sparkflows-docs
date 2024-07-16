@@ -12,7 +12,7 @@ The following Analytical App performs the below listed tasks:
 * Displays the results returned from the Jupyter Notebook on the Fire Insights Analytical App UI
 
 
-.. figure:: ../../_assets/jupyter/example-app.PNG
+.. figure:: ../../_assets/jupyter/jupyter_app_basic.png
    :alt: jupyter
    :width: 60%
 

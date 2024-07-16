@@ -76,8 +76,7 @@ Once you save the above configurations:
 
    * **Path** - (Optional) Path of kubernetes configuration. For example - **/home/user1/.kube/kubeconfig**
    * **Namespace** - Namespace of kubernetes where the notebook will get executed. Default value - **default** 
-   * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.4**
-   * **Latest available image** - **sparkflows/fire:jupyternotebook.27**
+   * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.33**
    * **You can use your own image as well** if you created notebook and built and pushed the docker image.
 
    .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png

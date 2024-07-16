@@ -18,7 +18,10 @@ Below are further details associated with each group:
 
   * Name : Name of the group.
   * Properties : Key and value pair you need to pass.
-  * AWS Role Arn : S3 locations which the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
+  * AWS Role ARN : S3 locations which the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
+  * S3 Access Key : The credential to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
+  * S3 Secret Key :  The credential Secret Key. Together, they are used to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
+  * S3 Endpoint URL : The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
 
 .. figure:: ../../_assets/security/group_creation.PNG
    :alt: security
@@ -90,6 +93,8 @@ Fire Insights supports the following permissions. Permissions are associated wit
      - view analytics application
    * - data.view
      - view data
+   * - data.write
+     - write and read data
    * - report.view
      - report view
    * - report.modify

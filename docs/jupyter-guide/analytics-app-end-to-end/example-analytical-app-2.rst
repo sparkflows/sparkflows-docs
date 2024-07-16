@@ -48,21 +48,16 @@ Jupyter Notebook **ChurnAnalysisAndPrediction.ipynb** contains the following:
     from sklearn.ensemble import RandomForestClassifier
     from sklearn import tree
 
-    # First and Second parameter passed to Analytical apps are webserverURL and jobId.
-        import sys
-        parameters_list = sys.argv
-        restworkflowcontext = RestWorkflowContext(parameters=parameters_list)
-
-    # The Third parameter will be passed from Analytical app is comma separated `key=value` pair of custom parmeters and use getParmeters() to get the value.
-    option = restworkflowcontext.getParmeters(parameter_name="option", default="Value")
-
-::
-  
+    #Initialize and Start Execution
     from fire_notebook.output.workflowcontext import RestWorkflowContext
-    restworkflowcontext = RestWorkflowContext(parameters=sys.argv)
-
+    import sys
+    parameters_list = sys.argv
+    restworkflowcontext = RestWorkflowContext(parameters=parameters_list)
     message="20"
-    # The format of the messages below is - id:int, title: str, progress: str
+    #(id:int, title: str, progress: str):
+    #"Profiling" OR "Modeling"
+    option = restworkflowcontext.getParmeters(parameter_name="option", default="Profiling")
+
     restworkflowcontext.outputProgress(9, title="Progress", progress=message)
 
 ::

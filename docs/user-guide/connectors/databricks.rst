@@ -53,6 +53,8 @@ Below is the output of executing the above workflow which reads data from a Data
 
 
 
+Save Databricks Table
+-------------------
 In the workflow use the processor `SaveDatabricksTable`. It will allow you to save data to Databricks tables.
 
 Below is a workflow which writes data to the Databricks table ``default``.

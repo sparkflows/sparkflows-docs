@@ -78,7 +78,7 @@ As regards the projects, the admin user can do the following:
 Deleting Users/Groups
 ++++++++++++++++++++
 
-In Fire Insights, users cannot be deleted, We can delete Groups. But users can be made inactive.
+In Fire Insights, users cannot be deleted. Users can be made inactive. Groups can be deleted.
 
 
 
@@ -200,7 +200,7 @@ The admin user can TEST LDAP configuration if its configured correctly or not (o
 Backup DB
 +++++++++++++++++
 
-The admin user can Backup DB (only if application is running on H2 DB) to Instance at accessible location.
+The admin user can Backup DB (only if application is running on H2 DB) to a configured location.
 
 .. figure:: ../../_assets/security/admin_user/admin_bkp.PNG
    :alt: security
@@ -218,7 +218,7 @@ The admin user can view total logged in users, total Fire Spark processes, total
 Scheduler Statistics
 ++++++++++++++
 
-The admin user can view total list of Scheduled jobs.
+The admin user can view the statistics of the Scheduled Jobs.
 
 .. figure:: ../../_assets/security/admin_user/admin_scheduler_statistics.PNG
    :alt: security
@@ -227,7 +227,7 @@ The admin user can view total list of Scheduled jobs.
 Cache Statistics
 ++++++++++++++
 
-The admin user can view Cache Statistics of LoggedIn and data source like Snowflake, Databricks.
+The admin user can view Cache Statistics of LoggedIn and data sources like Snowflake, Databricks.
 
 .. figure:: ../../_assets/security/admin_user/admin_cache_statistics.PNG
    :alt: security

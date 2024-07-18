@@ -1,21 +1,21 @@
 Superuser and Admin Users
 ===========
 
-Fire Insights support variety of permissions for roles. Each user can be assigned one or more roles.
+Fire Insights supports a variety of permissions for roles. Each user can be assigned one or more roles.
 
 Superuser
 ---------
 
-A user in Fire Insights can be marked to be a super-user. A Super user has by default below permissions to performs.
+A user in Fire Insights can be marked to be a super-user. A Super user has by default the below permissions:
 
 
 #. User Management: Create/ Update User
 #. Group Management: Create/ Update/ Delete Group
 #. Roles Management: Create/ Update/ Delete Roles.
-#. A SuperUser can shared/unshared any project with any group.
-#. A SuperUser can be created by only a SuperUser
-#. A SuperUser has  by default all Operational permission like View Server log, update configuration, 
-#. A SuperUser has access to all Persona: Analytical, Business and Admin Persona.
+#. A Superuser can share/unshare any project with any group.
+#. A Superuser can be created by only a Superuser
+#. A Superuser has  by default all Operational permissions like View Server log, update configuration, 
+#. A Superuser has access to all Persona: Analytical, Business and Admin Persona.
 
 
 Admin user

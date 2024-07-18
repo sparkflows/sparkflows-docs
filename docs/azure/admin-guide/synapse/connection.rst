@@ -9,7 +9,7 @@ Azure Apache Spark pool Pre-requisites
 ++++
 
 .. list-table::
-   :widths: 15 20 40
+   :widths: 20 20 20
    :header-rows: 1
 
    * - Package

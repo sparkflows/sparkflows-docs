@@ -34,13 +34,8 @@ The Admin User has the below permissions:
 - configurations.manage
 
 
-Admin User Rights
------------------
-
-The Admin user has the following rights:
-
-Operating Fire Insights
-++++++++++++++++++++++++
+Admin User : Operating Fire Insights
+-------------
 
 In Fire Insights an admin user can do the following administration tasks:
 
@@ -69,7 +64,7 @@ In Fire Insights an admin user can do the following administration tasks:
    :alt: security
    :width: 70%
 
-Projects/Data etc
+Projects/Data etc.
 +++++++++++++++++
 
 As regards the projects, the admin user can do the following:
@@ -86,8 +81,6 @@ Deleting Users/Groups
 In Fire Insights, users cannot be deleted, We can delete Groups. But users can be made inactive.
 
 
-Details on the Admin user rights
---------------------
 
 Diagnostics
 ++++++++++

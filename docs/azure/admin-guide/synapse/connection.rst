@@ -5,7 +5,7 @@ Sparkflows enables you to create Azure Synapse as a Compute Connection and submi
 
 This document outlines the steps to create Azure Synapse as a Compute Connection.
 
-Azure Synapse Version Pre-requisites
+Azure Apache Spark pool Pre-requisites
 ++++
 
 .. list-table::

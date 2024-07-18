@@ -27,7 +27,7 @@ An admin user is one who has ``users.manage`` permission.
 Permissions for Admin User
 -------------
 
-In Fire Insights, generally, the below permissions are associated with Admin features:
+The Admin User has the below permissions:
 
 - users.manage
 - groups.manage

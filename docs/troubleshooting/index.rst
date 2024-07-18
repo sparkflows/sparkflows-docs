@@ -133,6 +133,12 @@ Below are steps for troubleshooting some of the common issues.
     
     Steps to troubleshoot Delta Files
 
+    ---
+    
+    :doc:`/troubleshooting/incorta`
+    
+    Steps to troubleshoot Incorta specific issues
+
 .. toctree::
    :hidden:
 
@@ -157,6 +163,7 @@ Below are steps for troubleshooting some of the common issues.
    scheduler.rst
    mlops.rst
    delta.rst
+   incorta.rst
    
    
    

@@ -9,13 +9,12 @@ Superuser
 A user in Fire Insights can be marked to be a super-user. A Super user has the below permissions:
 
 
-#. User Management: Create/ Update User
+#. Share/unshare any project with any group.
+#. Mark other users as super-user.
 #. Group Management: Create/ Update/ Delete Group
+#. User Management: Create/ Update User
 #. Roles Management: Create/ Update/ Delete Roles.
-#. A Superuser can share/unshare any project with any group.
-#. A Superuser can be created by only a Superuser
-#. A Superuser has  by default all Operational permissions like View Server log, update configuration, 
-#. A Superuser has access to all Persona: Analytical, Business and Admin Persona.
+#. All Operational permissions like View Server log, update configuration etc. 
 
 
 Admin user

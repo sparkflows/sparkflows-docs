@@ -24,7 +24,7 @@ An admin user is one who has ``users.manage`` permission.
 
      
 Permissions for Admin User
--------------
++++++
 
 The Admin User has the below permissions:
 
@@ -35,7 +35,7 @@ The Admin User has the below permissions:
 
 
 Admin User : Operating Fire Insights
--------------
++++++
 
 In Fire Insights an admin user can do the following administration tasks:
 
@@ -64,7 +64,7 @@ In Fire Insights an admin user can do the following administration tasks:
    :alt: security
    :width: 70%
 
-Projects/Data etc.
+Projects/Data
 +++++++++++++++++
 
 As regards the projects, the admin user can do the following:

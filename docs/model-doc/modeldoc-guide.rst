@@ -6,7 +6,7 @@ ModelDoc Overview
 
 The ModelDoc feature is designed to automatically create machine learning documentation for individual models trained in Sparkflows. This editable document provides an overview of the experiment and includes important details such as dataset information, final model performance metrics, lineage, and the nodes used. 
 
-To download and view a sample experiment report in Word format, `click here. <https://drive.google.com/uc?export=download&id=1ihIlIMV6IAm_eJY3myLMHmYaQXDie5ga>`_
+To download and view a sample experiment report in Word format, `click here <https://drive.google.com/uc?export=download&id=1ihIlIMV6IAm_eJY3myLMHmYaQXDie5ga>`_.
 
 
 Generating a ModelDoc

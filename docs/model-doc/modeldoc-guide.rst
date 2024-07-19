@@ -27,11 +27,11 @@ There are two ways to generate ModelDoc:
 
 ModelDoc Structure and Template
 -------------------------------
-Model Details:  
+Model Details 
 +++++++++
 This section captures the final details of the model trained on the dataset.
 
-System Specifications: 
+System Specifications
 ++++++++++
 This section details the Sparkflows VM specification on which the model was built and trained on.
 

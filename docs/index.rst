@@ -134,6 +134,14 @@ MLOps Guide
 
    mlops/index
 
+ModelDoc Guide
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   model-doc/index
+
 What-if Analysis Guide
 -------------------
 .. toctree::

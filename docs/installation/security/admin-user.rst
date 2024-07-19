@@ -20,13 +20,9 @@ A user in Fire Insights can be marked to be a super-user. A Super user has the b
 Admin user
 ---------
 
-An admin user is one who has ``users.manage`` permission.
+There are some user or users who would be administring Fire Insights. We call them Admin users.
 
-     
-Permissions for Admin User
-+++++
-
-The Admin User has the below permissions:
+It is recommended to give them the following permissions.
 
 - users.manage
 - groups.manage

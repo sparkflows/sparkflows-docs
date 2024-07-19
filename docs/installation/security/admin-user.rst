@@ -17,25 +17,21 @@ A user in Fire Insights can be marked to be a super-user. A Super user has the b
 #. All Operational permissions like View Server log, update configuration etc. 
 
 
-Admin user
+Admin Role
 ---------
 
-There are some user or users who would be administring Fire Insights. We call them Admin users.
+Fire Insights comes with a Role called Admin. This Role has the permissions to manage users, groups, roles and to also operate Fire Insights. This permissions associated with this role can also be updated.
 
-It is recommended to give them the following permissions.
+Users who would be administrating Fire Insights would have the Admin Role assigned to them.
+
+Below are the permissions for managing users, groups and roles.
 
 - users.manage
 - groups.manage
 - roles.manage
-- configurations.manage
 
+Below are the permission for administrating Fire Insights.
 
-Admin User : Operating Fire Insights
-+++++
-
-In Fire Insights an admin user can do the following administration tasks:
-
-- Manage users, groups, permissions.
 - Configure Fire Insights.
 - Run diagnostics.
 - Usage statistics.
@@ -51,6 +47,14 @@ In Fire Insights an admin user can do the following administration tasks:
 - View Runtime statistics.
 - View Scheduler Statistics.
 - View Cache Statistics.
+
+
+Operating Fire Insights
+-----
+
+There are certain tasks to be performed for operating Fire Insights. It is recommended to give the below permissions to the Admin for performing the operational tasks in Fire Insights.
+
+
 
 .. figure:: ../../_assets/security/admin_user/admin_user.PNG
    :alt: security

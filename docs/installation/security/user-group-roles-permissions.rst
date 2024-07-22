@@ -139,7 +139,7 @@ Role's Permissions
 
 A role has a set of permissions associated with it. A new role can be created and an existing role can be edited.
 
-Out of the box, Fire Insights comes with two roles : ADMIN and ANALYST
+Out of the box, Fire Insights comes with three roles : ADMIN, ANALYST and BUSINESS ASSOCIATE
 
 
 .. figure:: ../../_assets/security/role_permissions.PNG

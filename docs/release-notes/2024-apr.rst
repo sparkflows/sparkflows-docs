@@ -4,9 +4,9 @@ April 30 2024
 New Features
 --------------
 
-* Introduced add query document node.
+* Introduced Add Query Document node.
 * Added support for timestamp in OpenAI chart history.
-* New delta node added.
+* New Delta node added.
 * Integrated the capability to create, update, and get Jupyter notebooks via the API.
 * Added display mode for text in the Geo Chart node.
 * Incorporated a generate code for optimization and optimization score node.

@@ -1,0 +1,66 @@
+April 30 2024
+===============
+
+New Features
+--------------
+
+* Introduced add query document node.
+* Added support for timestamp in OpenAI chart history.
+* New delta node added.
+* Integrated the capability to create, update, and get Jupyter notebooks via the API.
+* Added display mode for text in the Geo Chart node.
+* Incorporated a generate code for optimization and optimization score node.
+* Added functionality to add/update comments in the execution list dropdown in the analytics apps.
+* Added Jupyter hub tab in the UI.
+* Added a new field last_n_for_test in Optimization node.
+* Incorporated a copy feature in the GAI chat response box.
+* Added support for executing PySpark workflows in Dataproc.
+* Enabled the use of Chidori job requests and browse buttons.
+* Added Spark configurations in Chidori connections and included them in job requests.
+
+Improvements
+-------------
+
+* Enhanced loading and saving in loop Time Series nodes.
+* Refactored optimization node and added remove rows functionality.
+* Updates to model names and revenue values based on ASIN values.
+* Updated the data quality check reasons and rule names.
+* Improved revenue values calculation method, including floor and ceil.
+* Improved fixes for sorting in graph node.
+* Refined the CSS for node icon images.
+* Adjusted standardization of search bar default text and recent project card sizes across different screen resolutions.
+* Added code for converting table widget implementation in Angular.
+* Improved styling in various UI components, including button colors and project list card layout.
+* Data quality rule message improvements and implementation of a loader for data export functionalities.
+* Fixed breadcrumb issues and improved space alignment.
+* Enhancements in project and dashboard API functionalities.
+* Added validation checks on connection ID and connection dropdown values.
+* Enhanced the Hive query editor to have a consistent look and feel with Snowflake editor.
+* Added configurations for executing PySpark workflows on Dataproc.
+* Made the global search functionality more efficient for dashboards.
+
+Bug Fixes
+-------------
+
+* Fixed feature importance and removed test rows from Rparabola.
+* Resolved issues in prophet file handling and added .pkl extension.
+* Fixed issues in the workflow parameters not being replaced in PySpark code.
+* Fixed routing issues and alignment problems across various UI components.
+* Addressed UI inconsistencies in project card sizes and hover effects.
+* Fixed issues with model paths not redirecting correctly in AWS.
+* Rectified bugs in the execution history of Jupyter notebook connections.
+* Resolved errors related to recent dataset fetching and sorting of recent activities.
+* Fixed multiple execution output issues from the same stage.
+* Fixed alignment issues and console errors in various UI components.
+
+Documentation
+-------------------
+
+* Updated documentation to include new nodes and features.
+* Detailed descriptions of all the new improvements and bug fixes.
+* Updated guide on handling new features like query document node, and Jupyter hub integration.
+* Refreshed instructions for data quality rules and revenue values calculation methods.
+* Included examples for executing workflows in different environments like Dataproc and Chidori connections.
+* Updated the Azure Guide.
+
+These release notes encapsulate the comprehensive updates and enhancements made to Sparkflows throughout April. The improvements not only broaden the platform’s functional scope but also significantly enhance user experience and stability.

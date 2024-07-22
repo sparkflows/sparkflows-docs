@@ -37,7 +37,7 @@ This section details the Sparkflows VM specification on which the model was buil
 
 Description
 ++++++++++++
-This section captures the description of the workflow used to train the model
+This section captures the description of the workflow used to train the model.
 
 Workflow Nodes
 ++++++++++++++++

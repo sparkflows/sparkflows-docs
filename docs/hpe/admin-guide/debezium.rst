@@ -2,11 +2,13 @@ Debezium
 ======
 
 
-
 Overview
 -----
 
 Debezium is used to stream DB changes. These changes are then merged into the Dataset.
+
+https://debezium.io/documentation/reference/stable/operations/debezium-server.html
+
 
 Design
 ----
@@ -25,7 +27,7 @@ Below is the design of the overall flow.
       :width: 60%
       :alt: HPE UA Add framework details
 
-Useful Command
+Useful Commands
 -----
 
 #. To check the connect
@@ -76,7 +78,7 @@ Useful Command
         "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"  
         }}
 
-#. Register the sink with debezium
+#. Register the sink with Debezium
 
    ::
 

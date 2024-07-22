@@ -59,7 +59,7 @@ Documentation
 * Updated documentation to include new nodes and features.
 * Detailed descriptions of all the new improvements and bug fixes.
 * Updated guide on handling new features like query document node, and Jupyter hub integration.
-* Refreshed instructions for data quality rules and revenue values calculation methods.
+* Updated the instructions for data quality rules and revenue values calculation methods.
 * Included examples for executing workflows in different environments like Dataproc and Chidori connections.
 * Updated the Azure Guide.
 

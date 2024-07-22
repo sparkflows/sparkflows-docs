@@ -63,4 +63,3 @@ Documentation
 * Included examples for executing workflows in different environments like Dataproc and Chidori connections.
 * Updated the Azure Guide.
 
-These release notes encapsulate the comprehensive updates and enhancements made to Sparkflows throughout April. The improvements not only broaden the platform’s functional scope but also significantly enhance user experience and stability.

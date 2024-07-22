@@ -1,0 +1,58 @@
+May 31 2024
+===========
+
+New Features
+-------------
+
+* Added a new feature to create a project using a sample project.
+* Integrated support for mounting keycloak certificate and hive secrets.
+* Added new functionality to pass empty workflow parameters.
+* Enabled saving model scoring and deployment events.
+* Added the ability to select Docker image tags from the Kubernetes cluster.
+* Introduced the option to edit Jupyter Hub notebooks directly by clicking on the Notebook Name.
+* Added support for the External category as a filter type in the model list.
+* Added the distribution graphs and other visualization templates (Bubble chart, Boxplot, Subplots).
+* Introduced JSON file templates for data preparation and data cleaning.
+
+Improvements
+-------------  
+
+* Optimized the generate code process for the optimization node.
+* Enhanced the model download process and fixed related errors.
+* Implemented validation and improved UX for various pipeline and workflow actions.
+* Improved the grouping count distinct functionality in Scala node.
+* Enhanced JSON and Parquet workflow templates.
+* Improved alignment and layout for various UI components (e.g., dataset pages, project list).
+* Added option to add a valid email upon clicking away from the text box in relevant fields.
+* Updated the UI for the pipeline execution button and other pipeline-related improvements.
+* Enhanced validation for workflow nodes and models, including empty path and schema propagation checks.
+* Added missing regression metrics to the custom metrics node.
+* Improved the logging and error handling, especially for Livy and Spark jobs.
+* Improved the scheduling popups and error messages for pipelines and workflows.
+* Added icons and other visual aids to enhance UX.
+
+Bug Fixes
+-----------
+
+* Fixed multiple issues with pipeline execution, including missing delete execution.
+* Resolved model download issues from S3 and fixed related null pointer errors.
+* Fixed search and filter issues on the model page.
+* Fixed UI bugs related to the project cards, project lists, and genAI topic dropdowns.
+* Corrected console errors and other minor bugs during workflow executions.
+* Fixed pivot schema propagation issue in workflow executions.
+* Corrected validation errors when creating datasets and fixed the save button display.
+* Fixed alignment and overlapping issues for buttons and project descriptions.
+* Resolved issues with node icons and ensure correct display of all nodes.
+* Corrected validation checks related to the cluster ID and other configurations.
+* Fixed view event history issues and integrated API changes for the same.
+* Fixed the Save button visibility for connection type changes.
+
+Documentation
+--------------
+* Updated documentation to reflect changes in functionality and new feature additions.
+* Added detailed descriptions for new and updated workflow templates (e.g., data cleaning, preparation, visualization).
+* Ensured consistency in JSON filenames for clarity and ease of access.
+* Improved inline documentation and comments in the code to assist with future maintenance and development.
+* Enhanced user guidance on UI changes and new features through tooltips and help sections.
+* Updated the Databricks Guide.
+

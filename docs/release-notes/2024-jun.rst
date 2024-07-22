@@ -1,0 +1,63 @@
+June 30 2024
+=============
+
+New Features
+-------------
+
+* Added auto doc on modal list page and in info menu of detail page.
+* Added support for displaying current running processes (Java and Python) on machines.
+* Added disk space and free space diagnostics in a machine.
+* Added integration test cases for various controllers: FireAccessTokenController, SnowflakeController, WikiDocController, NodeController, ConfPropertyController, DatabaseBackupController, ProjectOverviewController, UserAdminController, Project Controller, WebAppController, Search Controller, and ApplicationCredential Controller.
+* Added test connections for various services: Gemini AI, Bedrock, Vertex Palm AI, Synapse, Azure OpenAi, Hive, S3, MLflow, Kubeflow, and Jupyter Notebook.
+* Integrated support for keycloak diagnostics.
+* Added breadcrumb navigation for dashboard charts.
+* Added support for viewing process start commands from the UI.
+* Integrated Airflow test connection into diagnostics page.
+* Enabled workflow deployment for PySpark and Scala workflows on Kubeflow.
+* Added new Email notification node.
+* Added DataQuality Alert node.
+* Saving bad records after running data quality on dataset and showcasing it in the UI.
+
+Improvements
+-------------
+
+* Updated the display name for test case in HelpControllerTest.
+* Improved text changes and table look and feel on the diagnostic page.
+* Enhanced auto doc fix for Google preview and doc format support.
+* Updated column name for the search list table.
+* Renamed global connection to global/group connection in admin page.
+* Improved diagnostic page with additional tabs for metrics and Java/Python details.
+* Improved position of error messages for email input in schedulers.
+* Added default sorting icons for the super user project page.
+* Enhanced support for running jobs in Livy connection on diagnostics.
+* Added filter option by category dropdown for connection list page.
+* Improved WikiDocs editor font size and view layout.
+
+Bug Fixes
+-------------
+
+* Fixed issue with argument while tracking user event when model score API returns exception.
+* Fixed automl package type field dropdown data not displaying correctly on navigation.
+* Addressed multiple issues creating project as 'TetProject' & role as 'ADMIN' on every execution.
+* Fixed header color alignment on dq-rule page according to the theme.
+* Fixed model view action not showing details and deployment details on undeploy.
+* Resolved model download issues.
+* Fixed the issue with auto-updating text box with uploaded file content.
+* Fixed console error on create workflow navigation.
+* Fixed issue with process commands visibility on Linux machines.
+* Fixed project link with Git and edit issues.
+* Resolved email errors and alignment issues.
+* Fixed height for model in test connection result page.
+* Fixed directory opening issues on ADLS Azure.
+* Fixed issue with ADLS connection secret key.
+* Fixed email buttons color in various themes.
+* Fixed Data Quality update issues.
+* Resolved issue for assets tab not showing data on cards.
+
+Documentation
+-------------
+
+* Updated documentation for disk space and running process diagnostics.
+* Enhanced documentation for integration cases and new test connections.
+* Updated and added new documentation for integration of various controllers and diagnostic upgrades.
+* Updated documentation with proper error messages for different connection failures.

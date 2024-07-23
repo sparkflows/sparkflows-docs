@@ -17,7 +17,7 @@ Improvements
 -------------
 
 * Enhanced loading and saving in loop Time Series nodes.
-* Added support for timestamp in OpenAI chart history.
+* Added support to show the timestamp in the RAG based chat response when quering on private documents.
 * Added display mode for text in the Geo Chart node.
 * Update to the fields and properties were added to the Optimization node.
 * Added a copy text functionality in the GenerativeAI chat response box.

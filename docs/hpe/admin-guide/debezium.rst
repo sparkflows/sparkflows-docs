@@ -9,6 +9,9 @@ Debezium is used to stream DB changes. These changes are then merged into the Da
 
 https://debezium.io/documentation/reference/stable/operations/debezium-server.html
 
+`Click here <https://debezium.io/documentation/reference/stable/operations/debezium-server.html>`_ to get more details on Setting up Debezium server.
+
+
 
 Design
 ----

@@ -4,32 +4,28 @@ May 31 2024
 New Features
 -------------
 
-* Added a new feature to create a project using a sample project.
-* Integrated support for mounting keycloak certificate and hive secrets.
+* Added a new feature to create a new project from the list of Sample projects.
+* Integrated support for mounting Keycloak certificate and hive secrets when running Sparkflows in Kubernetes environment.
 * Added new functionality to pass empty workflow parameters.
-* Enabled saving model scoring and deployment events.
-* Added the ability to select Docker image tags from the Kubernetes cluster.
-* Introduced the option to edit Jupyter Hub notebooks directly by clicking on the Notebook Name.
-* Added support for the External category as a filter type in the model list.
-* Added the distribution graphs and other visualization templates (Bubble chart, Boxplot, Subplots).
-* Introduced JSON file templates for data preparation and data cleaning.
+* Added ability in MLOps to save model scoring and deployment events for the deployed models.
+* Added ability in MLOps to select Docker image tags from the Kubernetes cluster and use it to deploy the models.
+* Introduced the option to edit JupyterHub notebooks directly by clicking on the Notebook Name.
+* Added support to filter by `External` category in the model list page.
+* Added wokflows templates for distribution graphs and other visualization templates (Bubble chart, Boxplot, Subplots).
+* Added JSON file templates for data preparation and data cleaning.
 
 Improvements
 -------------  
 
-* Optimized the generate code process for the optimization node.
-* Enhanced the model download process and fixed related errors.
-* Implemented validation and improved UX for various pipeline and workflow actions.
-* Improved the grouping count distinct functionality in Scala node.
+* Enhanced the model download and show relevant error messages on failure.
 * Enhanced JSON and Parquet workflow templates.
-* Improved alignment and layout for various UI components (e.g., dataset pages, project list).
+* Improved alignment and layout for various UI components (e.g. dataset pages, project list).
 * Added option to add a valid email upon clicking away from the text box in relevant fields.
-* Updated the UI for the pipeline execution button and other pipeline-related improvements.
+* Updated the UI for the pipeline execution button and other pipeline related improvements.
 * Enhanced validation for workflow nodes and models, including empty path and schema propagation checks.
-* Added missing regression metrics to the custom metrics node.
-* Improved the logging and error handling, especially for Livy and Spark jobs.
+* Added all the regression metrics to the custom metrics node.
+* Improved the logging and error handling for Livy and Spark jobs.
 * Improved the scheduling popups and error messages for pipelines and workflows.
-* Added icons and other visual aids to enhance UX.
 
 Bug Fixes
 -----------

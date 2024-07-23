@@ -16,33 +16,26 @@ New Features
 Improvements
 -------------
 
-* Enhanced loading and saving in loop Time Series nodes.
+* Added functionality to load models in a loop for Load Prophet Node and Save in loop for Save Prophet, Save Arima, Save Sarimax node.
 * Added support to show the timestamp in the RAG based chat response when quering on private documents.
-* Added display mode for text in the Geo Chart node.
-* Update to the fields and properties were added to the Optimization node.
+* Added a `text` display mode in the Geo Chart node which shows the Geo name in the map even without user hovering over it.
 * Added a copy text functionality in the GenerativeAI chat response box.
-* Refactored optimization node and added remove rows functionality.
-* Updates to model names and revenue values based on ASIN values.
-* Updated the data quality check reasons and rule names.
-* Improved revenue values calculation method, including floor and ceil.
-* Refined the CSS for node icon images.
+* Enhanced revenue calculation in `revenue parabola` method to account for `ASIN` specific pack counts in Optimisation Node.
+* Updated the Data Quality check reasons and rule names.
 * Adjusted standardization of search bar default text and recent project card sizes across different screen resolutions.
-* Added code for converting table widget implementation in Angular.
 * Improved styling in various UI components, including button colors and project list card layout.
-* Data quality rule message improvements and implementation of a loader for data export functionalities.
+* Data Quality rule message improvements and implementation of a loader for data export functionalities.
 * Fixed breadcrumb issues and improved space alignment throughout the platform.
-* Enhancements in project and dashboard API functionalities.
 * Added validation checks on connection ID and connection dropdown values.
 * Standardized the look and feel of the Hive query editor and the Snowflake editor to make it user friendly.
 * Added configurations for executing PySpark workflows on Dataproc.
-* Made the global search functionality more efficient for dashboards.
+* Made the global search functionality more efficient for Dashboards.
 
 Bug Fixes
 -------------
 
-* Fixed feature importance and removed test rows from Rparabola.
+* Fixed issue with Feature Importance dataframes being incorrectly populated in optimisation node.
 * Fixed sorting in graph node.
-* Resolved issues in prophet file handling and added .pkl extension.
 * Fixed issues in the workflow parameters not being replaced in PySpark code.
 * Fixed routing issues and alignment problems across various UI components.
 * Addressed UI inconsistencies in project card sizes and hover effects.

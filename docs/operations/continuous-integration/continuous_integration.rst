@@ -1,4 +1,4 @@
-Continuous Integration
+Continuous Integration with Jenkins
 =======================
 
 

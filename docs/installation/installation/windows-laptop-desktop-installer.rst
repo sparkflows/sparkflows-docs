@@ -115,3 +115,9 @@ Logs are also accessible by navigating to the Logs Menu where the below would be
 .. figure:: ../../_assets/installer/logs-view-page.jpg
    :alt: Installations
    :width: 60% 
+
+History for the actions related to the Sparkflows installer will also be seen in the History Menu in a table with the time when the action took place.
+
+.. figure:: ../../_assets/installer/history-page.jpg
+   :alt: Installations
+   :width: 60%

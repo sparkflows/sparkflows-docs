@@ -119,3 +119,5 @@ Pods
     kubectl get pods -o wide                      # List all pods in the current namespace, with more details
     kubectl get pods                              # List all pods in the namespace
     kubectl get pod my-pod -o yaml                # Get a pod's YAML
+    kubectl describe pod/<pod-id> -n sparflows    # describe pod
+

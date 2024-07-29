@@ -9,8 +9,8 @@ It is not recommended to use this installer on servers, where you need better co
 Prerequisites
 -------------
 
-* JDK 1.8: Ensure you have JDK 1.8 installed.
-* Permissions: You need sufficient permissions to download and install Sparkflows in the user directory. Additionally, you need write permission to download winutils.exe inside the Windows directory and set the environment path.
+* **JDK 1.8:** Ensure you have JDK 1.8 installed.
+* **Permissions:** You need sufficient permissions to download and install Sparkflows in the user directory. Additionally, you need write permission to download winutils.exe inside the Windows directory and set the environment path.
 
 You can download and install Java 8 from `here. <https://www.oracle.com/java/technologies/javase-jdk8-downloads.html>`_
 

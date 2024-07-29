@@ -7,8 +7,16 @@ Incorta User Guide
 
     :doc:`/incorta/user-guide/incorta-integration`
 
+	Outlines the steps for integrating Sparkflows with Incorta.
+
+    ---
+
+    :doc:`/incorta/user-guide/incorta-schema-creation`
+
+    Describes details steps involved in creating a Schema in Incorta.
 
 .. toctree::
    :hidden:
 
    user-guide/incorta-integration.rst
+   user-guide/incorta-schema-creation.rst

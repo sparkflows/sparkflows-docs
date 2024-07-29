@@ -7,7 +7,7 @@ Incorta User Guide
 
     :doc:`/incorta/user-guide/incorta-integration`
 
-	Outlines the steps for integrating Sparkflows with Incorta.
+    Outlines the steps for integrating Sparkflows with Incorta.
 
     ---
 

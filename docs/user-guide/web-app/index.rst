@@ -48,7 +48,7 @@ In the Sparkflows Analytical Apps Designer, the front end is built with drag and
 
     :doc:`/user-guide/web-app/configs-support`
 
-    Support for Configs in Analytical App.
+    Support for configs in analytical application.
 
 
 

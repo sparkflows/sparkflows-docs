@@ -34,7 +34,7 @@ Step 1 : Setting-up the Application
    
    **NAME:** Add a name for configuration.
    
-   **SELECT TYPE:** Choose type(textfield, select, select boxes, button, checkbox, radio) from the dropdown.
+   **SELECT TYPE:** Choose type (textfield, select, select boxes, button, checkbox, radio) from the dropdown.
    
    **PROPERTY NAME:** Add the same property name which is given to a specific component while creating a stage in an application whose configuration needs to be overridden.
 
@@ -50,9 +50,9 @@ Step 1 : Setting-up the Application
    
    **DEFAULT VALUE:**  Add default value which needs to be overridden for a given property name of a specified component.
    
-   .. NOTE:: Add comma separated default values for select(if Multiple Value property is checked in that specific component) or select boxes type.
+   .. NOTE:: Add comma separated default values for select (if Multiple Value property is checked in that specific component) or select boxes type.
 
-#. After adding the above properties, the configuration window would look like below. Now, click on the **Save** button.
+#. After adding the above properties, the configuration window would look like the image given below. Next, click on the **Save** button.
 
    .. figure:: ../../_assets/web-app/configs-support/edit-config.png
       :alt: web-app

@@ -10,6 +10,8 @@ Step 1 : Setting-up the Application
       :alt: web-app
       :width: 65%
 
+   `Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.
+
 #. Create a stage with different components like textfield, select, button and so on.
 
    .. figure:: ../../_assets/web-app/configs-support/create-stage.png

@@ -44,6 +44,14 @@ In the Sparkflows Analytical Apps Designer, the front end is built with drag and
 
     Create different designs of analytical apps.
 
+    ---
+
+    :doc:`/user-guide/web-app/configs-support`
+
+    Support for Configs in Analytical App.
+
+
+
 
 
 .. toctree::
@@ -56,6 +64,7 @@ In the Sparkflows Analytical Apps Designer, the front end is built with drag and
    running-analytics-app.rst
    reference.rst
    design-patterns/index.rst
+   configs-support.rst
    
 
    

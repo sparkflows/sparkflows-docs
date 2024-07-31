@@ -74,15 +74,15 @@ Step 3 : Install Sparkflows
       :alt: Installations
       :width: 60% 
 
-  After Sparkflows has started, the message **Started Sparkflows on port** will be displayed in the Install Menu Dashboard, and the browser will automatically open and navigate to the Sparkflows login page.
+   After Sparkflows has started, the message **Started Sparkflows on port** will be displayed in the Install Menu Dashboard, and the browser will automatically open and navigate to the Sparkflows login page.
 
-  .. figure:: ../../_assets/installer/started-sparkflows.jpg
-     :alt: Installations
-     :width: 60% 
+   .. figure:: ../../_assets/installer/started-sparkflows.jpg
+      :alt: Installations
+      :width: 60% 
 
-  .. figure:: ../../_assets/installer/started-sparkflows-browser.jpg
-     :alt: Installations
-     :width: 60% 
+   .. figure:: ../../_assets/installer/started-sparkflows-browser.jpg
+      :alt: Installations
+      :width: 60% 
 
 #. Login with the below credentials:
     - Username : admin

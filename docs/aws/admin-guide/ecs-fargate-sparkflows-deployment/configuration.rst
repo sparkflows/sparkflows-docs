@@ -14,7 +14,7 @@ Ensure that you have an AWS account with the necessary access to resources befor
 Step 2 : Create ECS Cluster
 ----------
 
-Create the ECS cluster wih VPC and security group. Note that any pre-existing ECS cluster can also be used for deployment.
+Create an ECS cluster using AWS Fargate infrastructure with VPC and security group. Note that any pre-existing ECS cluster can also be used for deployment.
 
   .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-cluster.png
      :alt: aws
@@ -23,7 +23,10 @@ Create the ECS cluster wih VPC and security group. Note that any pre-existing EC
 
 Step 3 : Define Task
 --------------
+A task definition describes how your Docker container should be launched within the ECS cluster. Click on “Task Definitions” in the ECS service, then click “Create new Task Definition.”
+
 To create the task, attach the **ecsTaskExecutionRole** with all the policies and image name.
+To create the service role for Elastic Container Service (IAM console), follow the steps mentioned here: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html
 
 Add the ENV variable to use external MySQL otherwise the task will create and use the H2 database, by default. 
 
@@ -42,6 +45,8 @@ Web Server : Main Fire UI and Fire Process : Helper processes for Spark jobs
 Step 4 : Configure Service
 -------------------
 Select the tasks, application load balancer and target groups to deploy the service.
+In your cluster, select Create in services. Keep everything as default in Environment section.
+In the Deployment Configuration section, select Family as the one created while creating the cluster, and continue as shown below.
 
   .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/ecs-service.png
      :alt: aws

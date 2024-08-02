@@ -42,7 +42,7 @@ To specify details for the environment
 #. Choose the Apache Airflow version in Airflow version.
 
 
-   .. note:: If no value is specified, defaults to the latest Airflow version. The latest version available is Apache Airflow v2.8.1.
+   .. note:: If no value is specified, defaults to the latest Airflow version. The latest version available is Apache Airflow v2.8.1, which need to be configured for the setup.
 
 #. Under DAG code in Amazon S3 specify the following:
 

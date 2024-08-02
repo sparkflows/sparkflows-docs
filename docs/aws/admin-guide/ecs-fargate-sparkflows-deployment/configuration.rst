@@ -28,9 +28,16 @@ A task definition describes how your Docker container should be launched within 
 To create the task, attach the **ecsTaskExecutionRole** with all the policies and image name.
 To create the service role for Elastic Container Service (IAM console), follow the steps mentioned here: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html
 
-Add the ENV variable to use external MySQL otherwise the task will create and use the H2 database, by default. 
+Add the ENV variable to use external MySQL otherwise the task will create and use the H2 database, by default.
+Add the following environment variable: 
+  .. code-block:: JSON
+    
+    {
+      "KEYSTORE_PASSWORD": 12345678
+    }
 
 Also, an external database is mandatory when multiple replicas of the same task are being run simultaneously.
+
 
 Tasks deployed on container would run the following processes:
 
@@ -78,6 +85,8 @@ In the Deployment Configuration section, select Family as the one created while 
      :alt: aws
      :width: 60%
 
+**Note:** Ensure that there is an inbound rule in the security group to allow traffic from the desired source to the application load balancer.
+
 Step 5 : Deploy Service
 --------------
 Service is deployed with containers which run the tasks, ALB and target group.
@@ -87,6 +96,12 @@ Service is deployed with containers which run the tasks, ALB and target group.
      :width: 60%
    
 **Note:** Use the DNS name from the application load balancer.
+
+  .. note::  Two user accounts come preconfigured with Sparkflows.
+           * admin/admin
+           * test/test
+    
+    You may change these usernames and passwords in Fire under the menu Administration/Users 
   
   
   

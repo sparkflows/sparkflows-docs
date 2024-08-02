@@ -7,7 +7,7 @@ Sparkflows enables you to create "AWS MWAA Airflow Connection" and use it to sub
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Livy Connection" in Fire Insights.
+This page show how to create a "Airflow Connection" in Fire Insights.
 
 Enable Airflow in Sparkflows
 ===========

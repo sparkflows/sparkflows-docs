@@ -4,7 +4,7 @@ Pre-requisites
 This document outlines the essential infrastructure pre-requisites needed to setup and configure Amazon MWAA environment with Fire Insights.
 
 #. AWS account with permissions to use Amazon MWAA
-#. permission in AWS Identity and Access Management (IAM) to create IAM roles
+#. Permission in AWS Identity and Access Management (IAM) to create IAM roles
 #. S3 Bucket access
 #. Python dependency Installation
 #. If you choose the Private network access mode for the Apache Airflow web server, which limits Apache Airflow access within your Amazon VPC, you'll need permission in IAM to create Amazon VPC endpoints.

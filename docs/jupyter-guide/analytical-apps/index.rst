@@ -21,6 +21,12 @@ In order to output text, tables, charts from Jupyter Notebook to Analytical App 
 
     ---
 
+    :doc:`/jupyter-guide/analytical-apps/output-to-analytical-app`
+
+    Steps to output results to Analytical App
+
+    ---
+
     :doc:`/jupyter-guide/analytical-apps/create-docker-image`
 
     Steps for creating Docker image
@@ -38,13 +44,6 @@ In order to output text, tables, charts from Jupyter Notebook to Analytical App 
     :doc:`/jupyter-guide/analytical-apps/creating-analytical-app`
 
     Steps for creating Analytical App
-
-    ---
-
-    :doc:`/jupyter-guide/analytical-apps/output-to-analytical-app`
-
-    Steps to output results to Analytical App
-
     
 
 .. toctree::
@@ -52,8 +51,9 @@ In order to output text, tables, charts from Jupyter Notebook to Analytical App 
  
    pre-requisites.rst
    create-notebook.rst
+   output-to-analytical-app.rst
    create-docker-image.rst
    creating-jupyter-notebook-connection.rst
    creating-analytical-app.rst
-   output-to-analytical-app.rst
+   
    

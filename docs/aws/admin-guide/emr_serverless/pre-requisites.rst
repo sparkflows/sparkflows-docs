@@ -5,7 +5,6 @@ This document outlines the essential infrastructure pre-requisites needed to set
 
 #. Grant permissions to use EMR Serverless
 #. Prepare storage for EMR Serverless
-#. Create an EMR Studio to run interactive workloads
 #. Create a job runtime role
 
 

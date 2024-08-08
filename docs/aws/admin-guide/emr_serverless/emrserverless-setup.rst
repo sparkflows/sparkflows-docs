@@ -26,7 +26,17 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
 
    #. In the left navigation pane, choose Roles.
 
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_1.png
+         :alt: emrserverless
+         :width: 60%
+
+
    #. Choose Create role.
+
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_1.png
+         :alt: emrserverless
+         :width: 60%
+
 
    #. For role type, choose Custom trust policy and paste the following trust policy. This allows jobs submitted to your Amazon EMR Serverless applications to access other AWS services on your behalf.
 
@@ -45,7 +55,17 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
           ]
          } 
 
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_2.png
+         :alt: emrserverless
+         :width: 60%
+
+
    #. Choose Next to navigate to the Add permissions page, then choose Create policy.
+
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_3.png
+         :alt: emrserverless
+         :width: 60%
+
 
    #. The Create policy page opens on a new tab. Paste the policy JSON below.
 
@@ -103,14 +123,32 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
           ]
          }
 
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_4.png
+         :alt: emrserverless
+         :width: 60%
+
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_5.png
+         :alt: emrserverless
+         :width: 60%
+
 
       .. note:: Replace ``FIRE-EXAMPLE-BUCKET`` in the policy below with the actual bucket name created in Prepare storage for EMR Serverless. This is a basic policy for S3 access. For more job runtime role examples, see Job runtime roles for Amazon EMR Serverless.
 
    #. On the Review policy page, enter a name for your policy, such as EMRServerlessS3AndGlueAccessPolicy.
 
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_6.png
+         :alt: emrserverless
+         :width: 60%
+
+
    #. Refresh the Attach permissions policy page, and choose EMRServerlessS3AndGlueAccessPolicy.
 
-   #. In the Name, review, and create page, for Role name, enter a name for your role, for example, emr_serverless_role. To create this IAM role, choose Create role.   
+   #. In the Name, review, and create page, for Role name, enter a name for your role, for example, emr_serverless_role. To create this IAM role, choose Create role.  
+
+      .. figure:: ../../../_assets/aws/emrserverless/emrserverless_7.png
+         :alt: emrserverless
+         :width: 60%
+
 
  
 

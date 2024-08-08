@@ -25,7 +25,6 @@ Fire Insights integrates with Amazon EMR Serverless to enable the user to create
 
     Steps to Create Amazon EMR Serverless Connection.
 
-    ---
 
 
 

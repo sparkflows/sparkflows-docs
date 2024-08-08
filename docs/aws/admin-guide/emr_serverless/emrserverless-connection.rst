@@ -18,9 +18,9 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.emr.serverless.enabled		: true
 
-.. figure:: ../../../_assets/aws/mwaa/mwaa_airflow_enabled.png
-   :alt: mwaa
-   :width: 60%
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_8.png
+         :alt: emrserverless
+         :width: 60%
 
 Navigate to Add Connections
 ===========
@@ -34,15 +34,15 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
 Add connection for group
 ========
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Pipeline`` and other parameters as shown below:
+Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute`` and other parameters as shown below:
 
 .. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
    :alt: mwaa
    :width: 60%
 
-.. figure:: ../../../_assets/aws/mwaa/mwaa-airflow.png
-   :alt: mwaa
-   :width: 60%
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_9.png
+         :alt: emrserverless
+         :width: 60%
 
 Add additional parameters as per your environment
 ======
@@ -72,9 +72,9 @@ For GENERAL tab
      - Connection Description 
      - Connection Description
 
-.. figure:: ../../../_assets/aws/mwaa/mwaa-general.png
-   :alt: mwaa
-   :width: 60%
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_10.png
+         :alt: emrserverless
+         :width: 60%
 
 
 For EMR SERVERLESS tab
@@ -117,9 +117,14 @@ For EMR SERVERLESS tab
      - Environment Name
      - Environment Name of aws mwaa resources
 
-.. figure:: ../../../_assets/aws/mwaa/mwaa_airflow_tab.png
-   :alt: mwaa
-   :width: 60%
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_11.png
+         :alt: emrserverless
+         :width: 60%
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_12.png
+         :alt: emrserverless
+         :width: 60%
+
 
 For NETWORK tab
 ++++
@@ -137,6 +142,10 @@ For NETWORK tab
    * - Security Group Ids
      - Security Group Ids
      - Security Group Ids for accessing EMR SERVER LESS
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_13.png
+         :alt: emrserverless
+         :width: 60%
 
 
 .. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.

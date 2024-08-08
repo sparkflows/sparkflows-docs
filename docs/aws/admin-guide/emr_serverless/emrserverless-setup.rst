@@ -104,6 +104,11 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
          }
 
 
+      .. note:: Replace ``FIRE-EXAMPLE-BUCKET`` in the policy below with the actual bucket name created in Prepare storage for EMR Serverless. This is a basic policy for S3 access. For more job runtime role examples, see Job runtime roles for Amazon EMR Serverless.
+
+ 
+
+
 
 
 

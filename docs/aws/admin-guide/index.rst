@@ -95,6 +95,13 @@ AWS Admin Guide
 
     ---
 
+    :doc:`/aws/admin-guide/emr_serverless/index`
+    
+    Spakflows Configuration with Amazon EMR Serverless.
+
+    ---
+
+
     :doc:`/aws/admin-guide/cloudwatch`
     
     Describe details about Viewing Logs using CloudWatch. 
@@ -141,6 +148,7 @@ AWS Admin Guide
    aws-iam-assume-role/index.rst
    ecs-fargate-sparkflows-deployment/index.rst
    mwaa/index.rst
+   emr_serverless/index.rst
    cloudwatch.rst
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst

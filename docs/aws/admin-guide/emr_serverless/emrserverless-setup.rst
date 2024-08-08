@@ -194,7 +194,8 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
      ]
      }
 
- 
+
+     `Click here <https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/security-iam-user-access-policies.html>`_ follow the instructions in Grant permissions.
 
 
 

@@ -205,7 +205,7 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
    `Click here <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html>`_ follow the instructions for creating private subnet.
 
 
-   .. note:: Make sure to copy these two ie `` subnet Id & security group Id``, As it is being used while Configuring EMR Serverless connection in Fire Insights.
+   .. note:: Make sure to copy these two ie ``subnet Id & security group Id``, As it is being used while Configuring EMR Serverless connection in Fire Insights.
 
 
 

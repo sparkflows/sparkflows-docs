@@ -149,6 +149,50 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
          :alt: emrserverless
          :width: 60%
 
+#. Enabled job runtime role to access Fire Insight application
+
+   you can attach new policy with access to Network
+
+   ::
+
+      {
+       "Version": "2012-10-17",
+       "Statement": [
+        {
+            "Sid": "EC2PolicyStatement",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateNetworkInterface",
+                "ec2:DeleteNetworkInterface",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeDhcpOptions",
+                "ec2:DescribeRouteTables"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "CloudWatchPolicyStatement",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:PutMetricData"
+            ],
+            "Resource": [
+                "*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "cloudwatch:namespace": [
+                        "AWS/EMRServerless",
+                        "AWS/Usage"
+                    ]
+                }
+            }
+        }
+     ]
+     }
 
  
 

@@ -106,6 +106,12 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
 
       .. note:: Replace ``FIRE-EXAMPLE-BUCKET`` in the policy below with the actual bucket name created in Prepare storage for EMR Serverless. This is a basic policy for S3 access. For more job runtime role examples, see Job runtime roles for Amazon EMR Serverless.
 
+   #. On the Review policy page, enter a name for your policy, such as EMRServerlessS3AndGlueAccessPolicy.
+
+   #. Refresh the Attach permissions policy page, and choose EMRServerlessS3AndGlueAccessPolicy.
+
+   #. In the Name, review, and create page, for Role name, enter a name for your role, for example, emr_serverless_role. To create this IAM role, choose Create role.   
+
  
 
 

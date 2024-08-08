@@ -149,3 +149,21 @@ For NETWORK tab
 
 
 .. note:: Make sure that ``Subnet Ids & Security Group Ids`` created in previous steps being used here and it should have ecs or ec2 machine where Fire Insigts application running have access to it.
+
+Submit Job on Amazon EMR Serverless
+=========
+
+Now you have Amazon EMR Serverless Connection ready, you can submit the Spark job and see response back to UI and Validate same from AWS Console.
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_14.png
+         :alt: emrserverless
+         :width: 60%
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_15.png
+         :alt: emrserverless
+         :width: 60%
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless_16.png
+         :alt: emrserverless
+         :width: 60%
+

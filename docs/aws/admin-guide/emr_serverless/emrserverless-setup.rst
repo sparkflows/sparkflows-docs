@@ -13,4 +13,4 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
 
    you'll use an S3 bucket to store output files and logs from the sample Spark or Hive workload that you'll run using an EMR Serverless application. To create a bucket, follow the instructions in Creating a bucket in the Amazon Simple Storage Service Console. Replace any further reference to FIRE-EXAMPLE-BUCKET with the name of the newly created bucket. 
 
-    `Click here <https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html>`_ follow the instructions for Creating a bucket.
+   `Click here <https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html>`_ follow the instructions for Creating a bucket.

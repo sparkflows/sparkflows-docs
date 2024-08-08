@@ -19,4 +19,33 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
 
    Job runs in EMR Serverless use a runtime role that provides granular permissions to specific AWS services and resources at runtime. In this tutorial, a public S3 bucket hosts the data and scripts. The bucket FIRE-EXAMPLE-BUCKET stores the output.
 
+   To set up a job runtime role, first create a runtime role with a trust policy so that EMR Serverless can use the new role. Next, attach the required S3 access policy to that role. The following steps guide you through the process.
+
+
+   #. Navigate to the IAM console at https://console.aws.amazon.com/iam/.
+
+   #. In the left navigation pane, choose Roles.
+
+   #. Choose Create role.
+
+   #. For role type, choose Custom trust policy and paste the following trust policy. This allows jobs submitted to your Amazon EMR Serverless applications to access other AWS services on your behalf.
+
+      ::
+
+         {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+              "Service": "emr-serverless.amazonaws.com"
+           },
+              "Action": "sts:AssumeRole"
+            }
+          ]
+         } 
+
+
+
+
 

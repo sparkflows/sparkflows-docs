@@ -121,4 +121,22 @@ For EMR SERVERLESS tab
    :alt: mwaa
    :width: 60%
 
+For NETWORK tab
+++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Subnet Ids
+     - Subnet Ids
+     - Subnet Ids for accessing EMR SERVER LESS
+   * - Security Group Ids
+     - Security Group Ids
+     - Security Group Ids for accessing EMR SERVER LESS
+
+
 .. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.

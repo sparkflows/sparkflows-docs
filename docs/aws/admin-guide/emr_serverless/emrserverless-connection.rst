@@ -12,7 +12,7 @@ This page show how to create a "Amazon EMR Serverless Connection" in Fire Insigh
 Enable Amazon EMR Serverless Connection in Sparkflows
 ===========
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Airflow by setting the below parameter:
+Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Amazon EMR Serverless by setting the below parameter:
 
 ::
 

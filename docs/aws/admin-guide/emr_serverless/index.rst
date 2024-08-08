@@ -16,9 +16,17 @@ Fire Insights integrates with Amazon EMR Serverless to enable the user to create
 
     :doc:`/aws/admin-guide/emr_serverless/emrserverless-setup`
 
-    Pre-requisites for setting up Amazon EMR Serverless.
+    Steps for setting up Amazon EMR Serverless.
 
     ---
+
+    
+    :doc:`/aws/admin-guide/emr_serverless/emrserverless-connection`
+
+    Steps to Create Amazon EMR Serverless Connection.
+
+    ---
+
 
 
 .. toctree::
@@ -26,3 +34,4 @@ Fire Insights integrates with Amazon EMR Serverless to enable the user to create
 
    pre-requisites.rst
    emrserverless-setup.rst
+   emrserverless-connection.rst

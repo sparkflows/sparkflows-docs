@@ -64,7 +64,7 @@ For GENERAL tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Airflow sent result back to Fire Insights
+     - Postback Url through which Amazon EMR Serverless sent result back to Fire Insights
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  

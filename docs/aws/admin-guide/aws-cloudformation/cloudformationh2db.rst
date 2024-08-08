@@ -45,20 +45,25 @@ Step 1 : Download Files and Upload to your S3 Bucket
 ----------------------------------------------
 
 * Download CFT **emr-fire-h2.json** from the above link.
-* Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket.
+* Download **deploy-fire-h2.sh** and **script-runner.jar** from the above links and upload them to your s3 bucket in /h2-db directory.
 
 
 Step 2 : Update CloudFormation Template based on your Environment
 ---------------------------------------------------------
 
 Update the CFT **emr-fire-h2.json** according to your requirement and environment in which you are deploying.
+Run the following command using AWS-CLI to create default roles for EMR that we can use.
 
-* ElasticMapReduce-Master-SecurityGroup under mastersg::
+  .. code-block:: JSON
+    
+    aws emr create-default-roles
+
+* ElasticMapReduce-master::
 
     From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-master".
   
   
-* ElasticMapReduce-Slave-SecurityGroup under slavesg::
+* ElasticMapReduce-slave::
 
     From AWS console -> EC2 -> Security Groups -> search for "ElasticMapReduce-slave".
   
@@ -85,8 +90,11 @@ Update the CFT **emr-fire-h2.json** according to your requirement and environmen
   
 * deploy-fire-h2.sh and script-runner.jar::
 
-    Change the s3 bucket path for these two files, this s3 bucket  must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
+    Change the s3 bucket path for these two files, this s3 bucket must be same bucket as S3Bucket. You'll pass the S3Bucket value while creating the cloudformation stack.
 
+  .. note::  Create Key Pair from EC2 Console for KeyName to SSH into primary node of EMR Cluster. Follow the docs below:
+            https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html
+     
 
 Step 3 : Create EMR Cluster and Deploy Fire
 --------------------------------------------------
@@ -109,8 +117,6 @@ Step 3 : Create EMR Cluster and Deploy Fire
 
         * - Name of Parameter
           - Description
-        * - AdditionalSecurityGroups
-          - From the list, choose the additional secuirty group, it's required as default EMR security group's ports are not opened for SSH, Fire etc.
         * - AmiId
           - EMR cluster can be launched using Custom AMI, pass the value if you have a Custom AMI.
         * - ClusterName
@@ -178,9 +184,11 @@ Step 4 : Connect Fire to the New Cluster
 
 Step 5 : Load Examples
 --------------
+Ensure that security groups attached grant access to SSH.
+
 #. In Fire, click on **Load Examples**.
 #. **SSH** to the master node.
-#. **cd /opt/fire/fire-3.1.0**
+#. **cd /opt/fire/{fire-version}**
 #. Upload the example data files to HDFS:
 
    **hadoop fs -put data**

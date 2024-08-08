@@ -148,4 +148,4 @@ For NETWORK tab
          :width: 60%
 
 
-.. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.
+.. note:: Make sure that ``Subnet Ids & Security Group Ids`` created in previous steps being used here and it should have ecs or ec2 machine where Fire Insigts application running have access to it.

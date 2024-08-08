@@ -1,4 +1,4 @@
-Amazon EMR Serverless
+Amazon EMR Serverless Setup
 ===============
 
 This document provides comprehensive guide for setting up Amazon EMR Serverless, ensuring a smooth integration process with Fire Insights. 

@@ -138,10 +138,10 @@ For NETWORK tab
      - Value
    * - Subnet Ids
      - Subnet Ids
-     - Subnet Ids for accessing EMR SERVER LESS
+     - Subnet Ids for accessing Amazon EMR Serverless
    * - Security Group Ids
      - Security Group Ids
-     - Security Group Ids for accessing EMR SERVER LESS
+     - Security Group Ids for accessing Amazon EMR Serverless
 
 .. figure:: ../../../_assets/aws/emrserverless/emrserverless_13.png
          :alt: emrserverless

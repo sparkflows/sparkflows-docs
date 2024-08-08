@@ -167,3 +167,4 @@ Now you have Amazon EMR Serverless Connection ready, you can submit the Spark jo
          :alt: emrserverless
          :width: 60%
 
+.. note:: Currently it have Spark Engine support

@@ -1,5 +1,5 @@
 Amazon EMR Serverless Connection
-============
+--------------
 
 Sparkflows enables you to create "Amazon EMR Serverless Connection" and use it to submit Spark Job. Connections can be at various levels:
 

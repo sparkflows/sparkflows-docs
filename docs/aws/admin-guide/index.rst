@@ -124,7 +124,12 @@ AWS Admin Guide
     :doc:`/aws/admin-guide/aws-cloudformation/index`
     
     Using cloud formation templates to install fire on aws with H2 and MySQL DB.
-    
+
+    ---
+
+    :doc:`/aws/admin-guide/eks-configuration`
+
+    Using AWS Elastic Kubernetes Service (EKS) to install Sparkflows with H2 database.
   
 
     
@@ -153,5 +158,6 @@ AWS Admin Guide
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst
    aws-cloudformation/index.rst
+   eks-configuration.rst
    
    

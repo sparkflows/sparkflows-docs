@@ -41,8 +41,6 @@ The above command will create following resources.
 
 The creation and deployment of the stack can take up a few minutes. Check for security group inbound and outbound rules to allow traffic from the desired source to the EKS cluster.
 
-.. insert new image showing cluster creation
-
 
 Step 3 : Deployment / Service Configuration
 --------------

@@ -44,10 +44,8 @@ The creation and deployment of the stack can take up a few minutes. Check for se
 
 Step 3 : Deployment / Service Configuration
 --------------
-.. insert task definition image
 
 Create deployment/service using kubectl. Update image url of deploy.yaml file accordingly.
-.. insert infrastructure reqmnts image
 
   .. code-block:: YAML
 

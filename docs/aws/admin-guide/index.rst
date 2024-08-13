@@ -127,7 +127,7 @@ AWS Admin Guide
 
     ---
 
-    :doc:`/aws/admin-guide/eks-configuration`
+    :doc:`/aws/admin-guide/aws-eks/index`
 
     Using AWS Elastic Kubernetes Service (EKS) to install Sparkflows with H2 database.
   
@@ -158,6 +158,7 @@ AWS Admin Guide
    customized-docker-image-with-ssl.rst
    glue-integration/index.rst
    aws-cloudformation/index.rst
-   eks-configuration.rst
+   aws-eks/index.rst
+
    
    

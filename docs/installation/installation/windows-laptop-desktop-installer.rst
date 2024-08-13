@@ -88,7 +88,7 @@ Step 3 : Install Sparkflows
     - Username : admin
     - Password : admin
 
-.. note::  On Windows, the PySpark engine will not get installed. Below are he funcationalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux:
+.. note::  On Windows, the PySpark engine will not get installed. Below are the functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux:
 
            * AutoML
            * Prophet

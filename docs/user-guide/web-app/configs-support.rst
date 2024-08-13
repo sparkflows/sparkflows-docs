@@ -46,13 +46,13 @@ Step 1 : Setting-up the Application
    
    **VALUES:** Add Values which need to be overridden for a given property name of a specified component. 
    
-   .. NOTE:: Add comma separated values for select or select boxes or radio type.
+   .. NOTE:: Add pipe(|) separated values for select or select boxes or radio type. Add colon(:) seperated values if label and value has to be different. Ex. Red | blue | green **or** Red:1 | blue:2 | green:3 
    
    **LABEL:**  Add a Label which needs to be overridden for a given property name of a specified component.
    
    **DEFAULT VALUE:**  Add default value which needs to be overridden for a given property name of a specified component.
    
-   .. NOTE:: Add comma separated default values for select (if Multiple Value property is checked in that specific component) or select boxes type.
+   .. NOTE:: Add pipe(|) separated default values for select (if Multiple Value property is checked in that specific component) or select boxes type.
 
 #. After adding the above properties, the configuration window would look like the image given below. Next, click on the **Save** button.
 

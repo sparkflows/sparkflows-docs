@@ -7,7 +7,7 @@ Step 1 : Create Deployment Service
 
 Create deployment/service using kubectl. Update image url of deployment.yaml file accordingly.
 
-  .. code-block:: YAML
+.. code-block:: YAML
 
     apiVersion: v1
     kind: PersistentVolume

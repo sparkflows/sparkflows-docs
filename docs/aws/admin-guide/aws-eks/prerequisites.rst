@@ -1,4 +1,4 @@
-Step 1 : Prerequisites Check
+Prerequisites
 =============
 
 Before starting the deployment, ensure that you have an AWS account with the necessary permissions to access resources:

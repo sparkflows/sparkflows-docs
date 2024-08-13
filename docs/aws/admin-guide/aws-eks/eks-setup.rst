@@ -14,7 +14,11 @@ Create an IAM Role for your EKS Cluster:
 #. Select **EKS** and then **EKS Cluster**.
 #. Click **Next** to proceed.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/1.png
+      :alt: aws
+      :width: 60%
+
+   .. figure:: ../../../_assets/aws/aws-eks/2.png
       :alt: aws
       :width: 60%
 
@@ -24,20 +28,23 @@ Step 2 : Create the EKS Cluster
 --------------------------------
 #. Go to the **EKS Console** and click on **Clusters**, then select **Create Cluster**.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/3.png
       :alt: aws
       :width: 60%
 
 #. Provide a **name** for your cluster, choose the **Kubernetes version**, and select the **EKS Role** you created in the previous step.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/4.png
+      :alt: aws
+      :width: 60%
+
+   .. figure:: ../../../_assets/aws/aws-eks/5.png
       :alt: aws
       :width: 60%
 
 #. Click **Next** and choose the recently created **VPC**. The subnets and security group will be automatically selected. For Cluster Endpoint Access, choose **Public and Private**. Set everything else as **default**, and click on **Create**. This step might take up to 15 minutes.
 
-
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/6.png
       :alt: aws
       :width: 60%
 
@@ -50,12 +57,15 @@ Before setting up the Node Group for your cluster, you need to create an IAM Rol
 #. Navigate to the **IAM Dashboard**.
 #. Click on **Roles** and then select **Create Role**.
 #. Choose **AWS Service** as the trusted entity and select **EC2**.
-#. Click **Next** and add the required policies.
+#. Click **Next** and add the following policies.
+
+   .. figure:: ../../../_assets/aws/aws-eks/7.png
+      :alt: aws
+      :width: 40%
+
 #. Give the Role a **name** and click on **Create role**.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
-      :alt: aws
-      :width: 60%
+
 
 Step 4: Create a Node Group
 ----------------------------
@@ -63,16 +73,16 @@ Now, let's create the Node Group for your cluster:
 
 #. Return to the **EKS dashboard**, select your cluster, and click on **Add Node Group**.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/8.png
       :alt: aws
       :width: 60%
 #. Provide a **name** for the Node Group, select the Node Group IAM Role you created earlier, and click **Next**.
+#. Choose the **AMI** and **instance type** for your nodes. For this project, we'll use Amazon Linux 2 t2.xlarge EC2 instances.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/9.png
       :alt: aws
       :width: 60%
 
-#. Choose the AMI and instance type for your nodes. For this project, we'll use Amazon Linux 2 t2.xlarge EC2 instances.
 #. Configure the auto-scaling group parameters based on your needs.
 #. Leave the remaining settings as default and create the Node Group.
 
@@ -92,10 +102,10 @@ Once your EKS cluster is up and running, you'll need to update the local kubecon
 
    Ensure you have permission to access the EKS cluster. Navigate to the EKS Cluster in the AWS Console, click on **IAM Access**, and add your IAM role if it's not already present.
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/10.jpg
       :alt: aws
       :width: 60%
-
+  
 #. Update Local Kubeconfig.
 
    Update your local kubeconfig to point to the EKS cluster: ::
@@ -108,7 +118,7 @@ Once your EKS cluster is up and running, you'll need to update the local kubecon
 
       kubectl config get-contexts
 
-   .. figure:: ../../../_assets/aws/aws-eks/
+   .. figure:: ../../../_assets/aws/aws-eks/11.png
       :alt: aws
       :width: 60%
 

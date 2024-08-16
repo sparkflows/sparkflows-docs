@@ -15,8 +15,15 @@ Incorta User Guide
 
     Describes details steps involved in creating a Schema in Incorta.
 
+    ---
+
+    :doc:`/incorta/user-guide/incorta-uploading-datafile`
+
+    Describes details steps involved in uploading datafiles in the Incorta instance.
+
 .. toctree::
    :hidden:
 
    user-guide/incorta-integration.rst
    user-guide/incorta-schema-creation.rst
+   user-guide/incorta-uploading-datafile.rst

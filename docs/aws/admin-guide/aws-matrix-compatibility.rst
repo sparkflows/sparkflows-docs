@@ -32,3 +32,6 @@ Ensure that you have the following AWS specifications while Integrating with Fir
    * - Airflow (Standalone Installation)
      - V2.3.X
      - Standalone installations on ec2
+   * - Airflow MWAA Support
+     - 2.8.1
+     - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/

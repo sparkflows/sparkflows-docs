@@ -35,3 +35,8 @@ Ensure that you have the following AWS specifications while Integrating with Fir
    * - Airflow MWAA Support
      - 2.8.1
      - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/
+
+It also lists the compatability matrix of Spark version and Delta lake version:
+
+`Spark and Delta Lake Compatibility Matrix <https://docs.delta.io/latest/releases.html>`_
+

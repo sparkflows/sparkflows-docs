@@ -1,18 +1,23 @@
-Read from RDBMS
+RDBMS
 =======================
 
-Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sources.
+Fire has JDBC Processors for reading from or writing to JDBC sources.
 
 In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS:
 
--  https://jdbc.postgresql.org/
+- https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
 
-As you have created Connection for ``PostgreSQL``, using below steps: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/PostgreSQL.html
+Create JDBC Connection
+===================
 
-Using same connection, you can create workflow to Reads and Write to PostgreSQL.
+Create a connection in Fire Insights for the RDBMS. Details for creating connection to MySQL and Postgres are below:
 
+- https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/mysql.html
+- https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/PostgreSQL.html
+
+Using the connection, the workflows can be created for reading from or writing to MySQL/Postgres/etc.
 
 
 Workflow for reading from PostgreSQL

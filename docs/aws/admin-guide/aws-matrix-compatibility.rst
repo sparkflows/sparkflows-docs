@@ -19,5 +19,7 @@ Ensure that you have the following AWS specifications while Integrating with Fir
      - 6.7.0
    * - EMR
      - 6.9.0
-
-
+   * - Spark
+     - 3.2.1
+   * - Spark
+     - 3.3.0

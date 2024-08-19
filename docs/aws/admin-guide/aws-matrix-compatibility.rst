@@ -8,7 +8,7 @@ Matrix Compatibility
 Ensure that you have the following AWS specifications while Integrating with Fire Insights :
 
 .. list-table:: 
-   :widths: 10 30 30
+   :widths: 10 10 40
    :header-rows: 1
 
    * - Title

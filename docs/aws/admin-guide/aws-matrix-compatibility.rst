@@ -23,3 +23,5 @@ Ensure that you have the following AWS specifications while Integrating with Fir
      - 3.2.1
    * - Spark
      - 3.3.0
+   * - Airflow (Standalone Installation)
+     - V2.3.X

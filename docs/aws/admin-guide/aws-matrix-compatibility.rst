@@ -30,7 +30,7 @@ Ensure that you have the following AWS specifications while Integrating with Fir
      - 3.3.0
      - Compatible with EMR 6.9.0
    * - Airflow (Standalone Installation)
-     - V2.3.X
+     - V2.3.x
      - Standalone installations on ec2
    * - Airflow MWAA Support
      - 2.8.1

@@ -19,9 +19,16 @@ AWS Admin Guide
 
     :doc:`/aws/admin-guide/aws-version-compatibility`
     
-    Describe details about RDS setup and configurations. 
+    Describe details about Version Compatibility details on AWS. 
 
     ---
+
+    :doc:`/aws/admin-guide/aws-matrix-compatibility`
+    
+    Describe details about Matrix Compatibility details on AWS. 
+
+    ---
+
 
     :doc:`/aws/admin-guide/rds`
     
@@ -140,6 +147,7 @@ AWS Admin Guide
    planning.rst
    infrastructure-aws.rst
    aws-version-compatibility.rst
+   aws-matrix-compatibility.rst
    rds.rst
    installation-guide/index.rst
    access-and-reload.rst

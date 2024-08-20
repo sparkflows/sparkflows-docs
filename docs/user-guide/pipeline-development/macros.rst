@@ -11,7 +11,8 @@ Macros can be used in sparkflows pipelines. Any of the predefined Airflow Macros
 
 
 Default Variables
------------------
+======
+
 The Airflow engine passes the below variables by default that are accessible
 in all templates
 
@@ -76,7 +77,8 @@ Variable                                Description
 
 
 Onboarding new Pipeline nodes
------------------------------
+=====
+
 New custom nodes can be onboarded onto Sparkflows for specific actions. The steps to do the same is layed out in the link below:
 
 https://docs.sparkflows.io/en/latest/developer-guide/pipeline-node.html

@@ -69,10 +69,10 @@ Azure Synapse
 - https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
 
 
-JDBC Driver URLs
+JDBC Driver Class
 -------
 
-When using the JDBC processors, the following can be used for the JDBC Driver. Below are the Driver URLs for some databases :
+When using the JDBC processors, the following can be used for the JDBC Driver Class :
 
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver

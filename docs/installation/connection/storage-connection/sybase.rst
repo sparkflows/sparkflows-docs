@@ -1,4 +1,4 @@
-PostgreSQL Connection
+Sybase Connection
 ================
 
 Sparkflows provides the capability to create Sybase JDBC Connection and use the connection to access various resources.
@@ -16,7 +16,7 @@ Below are the steps required to create Sybase JDBC Connection :
 Step 1 : Prerequisites
 ----------
 
-Before you start setting up the Sybase Connection, ensure you have the sybase installed and server running and make sure to:
+Before you start setting up the Sybase Connection, ensure you have the Sybase installed and server running and make sure to:
 
 #. Download the necessary Sybase JAR file by following this link: `Sybase JAR <https://osdn.net/projects/sfnet_id2d/downloads/jdbc%20drivers/jconn4.jar/>`_
 #. Copy the JAR file into both the **fire-user-lib** and **fire-core-lib** folders located within the Sparkflows home directory.

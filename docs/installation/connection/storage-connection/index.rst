@@ -15,6 +15,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * SQL Server
 * Snowflake
 * Trino
+* Sybase
   
 .. toctree::
    :maxdepth: 2
@@ -22,3 +23,4 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    mysql.rst
    snowflake.rst
    PostgreSQL.rst
+   sybase.rst

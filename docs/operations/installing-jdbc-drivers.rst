@@ -3,7 +3,7 @@ Install JDBC Drivers for Workflows
 
 Fire Insights has JDBC Processors for reading data from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like Oracle/DB2/Postgres etc. the JDBC driver needs to be installed in Fire.
+In order to connect to a JDBC source like Oracle/DB2/Postgres etc. the JDBC driver needs to be installed in Fire Insights.
 
 Below are the steps for installing the JDBC driver :
 
@@ -11,17 +11,32 @@ Below are the steps for installing the JDBC driver :
 - *Copy it into "fire-user-lib" and "fire-server-lib" directory under the Fire installation home directory.*
 - *Restart Fire.*
 
-Download the JDBC JAR File
+Copy it into fire-user-lib & fire-server-lib
+--------------------------
+
+Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
+
+Copy the downloaded JDBC JAR file into it.
+
+
+Restarting Fire Server
+------------
+
+Once you have copied the JDBC driver into the required folder, restart the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
+
+This will restart the Fire services automatically.
+
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+
+
+Downloading the JDBC JAR File
 -------------------------- 
 
-Download the JDBC JAR file for the database you are looking to connect to.
+This section describes the details for downloading the the JDBC JAR file for a variety of Databases.
 
-Downloading the JDBC JAR Files
----------------------------
 
 MySQL
 +++++
-
 
 - MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
 - After downloading, untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
@@ -54,38 +69,22 @@ Azure Synapse
 - https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
 
 
-JDBC Drivers
+JDBC Driver URLs
 -------
 
-When using the JDBC processors, the following can be used for the JDBC Driver. Below are the JDBC URLs for some databases :
+When using the JDBC processors, the following can be used for the JDBC Driver. Below are the Driver URLs for some databases :
 
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
 
-Example JDBC URLs
+JDBC URLs
 ----------------
 
 Below are some examples of JDBC URLs for reading from Relational sources when using the JDBC Processors :
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
-
-Copy it into fire-user-lib & fire-server-lib
---------------------------
-
-Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
-
-Copy the downloaded JDBC JAR file into it.
-
-
-Restarting Fire Server
-------------
-
-Restart the Fire server with ``./run-fire-server.sh restart``
-
-This will restart the Fire services automatically.
-
 
 
 

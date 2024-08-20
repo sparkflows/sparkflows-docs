@@ -73,6 +73,11 @@ Sybase
 
 - Sybase JDBC drivers can be downloaded from : https://osdn.net/projects/sfnet_id2d/downloads/jdbc%20drivers/jconn4.jar/
 
+HANA
+++++
+
+- HANA JDBC drivers can be downloaded from : https://support.sap.com/en/product/connectors.html
+
 
 JDBC Driver Class
 -------
@@ -83,6 +88,7 @@ When using the JDBC processors, the following can be used for the JDBC Driver Cl
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
 * Sybase : com.sybase.jdbc4.jdbc.SybDriver
+* HANA : com.sap.cloud.db.jdbc
 
 JDBC URLs
 ----------------
@@ -92,6 +98,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
 * Sybase : jdbc:sybase:Tds:localhost:5000/mydb
+* HANA : jdbc:sap://hanaServer:30015/
 
 
 

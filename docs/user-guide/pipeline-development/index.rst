@@ -1,8 +1,12 @@
 
-Pipeline Development
+Pipeline
 ====
 
-Sparkflows enables users to create Pipelines. With pipelines, multiple workflows can be scheduled to be executed either sequentially or parallely. This provides the user to automate the data processing and modelling.
+Fire Insights enables users to create Pipelines. With pipelines, multiple workflows can be scheduled to be executed either sequentially or parallely. This provides the user to automate the data processing and modeling.
+
+Fire Insights can execute the pipelines with or without Apache Airflow.
+
+With Apache Airflow, Fire Insights supports many different kinds of nodes/tasks in the Pipeline.
 
 .. panels::
     :container: container-lg pb-3

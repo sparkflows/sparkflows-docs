@@ -68,6 +68,11 @@ Azure Synapse
 - https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview
 - https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
 
+Sybase
+++++++
+
+- Sybase JDBC drivers can be downloaded from : https://osdn.net/projects/sfnet_id2d/downloads/jdbc%20drivers/jconn4.jar/
+
 
 JDBC Driver Class
 -------
@@ -77,6 +82,7 @@ When using the JDBC processors, the following can be used for the JDBC Driver Cl
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
+* Sybase : com.sybase.jdbc4.jdbc.SybDriver
 
 JDBC URLs
 ----------------
@@ -85,6 +91,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
+* Sybase : jdbc:sybase:Tds:localhost:5000/mydb
 
 
 

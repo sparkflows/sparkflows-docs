@@ -22,7 +22,7 @@ Step 4 : Provide Pipeline Details
 
 Enter a Pipeline **Name** and select a Pipeline **Category**.
 
-Step 5: Save the Pipeline
+Step 5 : Save the Pipeline
 -----------------------------
 
 Click on the **Save** button to finalize and save your new Pipeline.

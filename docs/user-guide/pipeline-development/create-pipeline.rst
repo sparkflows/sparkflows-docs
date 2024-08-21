@@ -1,4 +1,4 @@
-Creating Pipelines
+Creating a Pipeline
 =====================
 This document explains the steps required to create a pipeline in Sparkflows.
 

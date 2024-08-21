@@ -1,7 +1,7 @@
 Configuring Pipeline / Airflow
 -----------------------------
 
-Below are the details of Configuring Fire Insights for Pipelines with Airflow:
+Below are the details of configuring Fire Insights for pipelines with Airflow:
 
 .. toctree::
    :maxdepth: 1

@@ -12,9 +12,21 @@ With Apache Airflow, Fire Insights supports many different kinds of nodes/tasks 
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`pipeline`
+    :doc:`pipeline-overview`
 
     ---
+
+    :doc:`configure-pipeline`
+
+    ---
+
+    :doc:`create-pipeline`
+
+    ---
+
+    :doc:`node-list`
+
+    --- 
 
     :doc:`execute-workflow`
 
@@ -30,7 +42,10 @@ With Apache Airflow, Fire Insights supports many different kinds of nodes/tasks 
 .. toctree::
    :hidden:
 
-   pipeline.rst
+   pipeline-overview.rst
+   configure-pipeline.rst
+   create-pipeline.rst
+   node-list.rst
    execute-workflow.rst
    configure-yaml-and-variables.rst
    macros.rst

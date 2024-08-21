@@ -1,7 +1,7 @@
 Introduction
 ======
 
-MLOps is a set of best practices and tools that aims to streamline and automate the end-to-end machine learning lifecycle. It bridges the gap between data science and IT operations, ensuring the efficient deployment, monitoring, and maintenance of machine learning models in production. MLOps involves version control for models and data, continuous integration and continuous delivery (CI/CD) pipelines, automated testing, and monitoring for model performance and drift. By implementing MLOps, organizations can accelerate their machine learning development, reduce errors, and ensure models remain effective and reliable over time. Sparkflows' MLOps allows you to deploy varieties of Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+MLOps is a set of best practices and tools that aims to streamline and automate the end-to-end machine learning lifecycle. It bridges the gap between data science and IT operations, ensuring the efficient deployment, monitoring, and maintenance of machine learning models in production. MLOps involves version control for models and data, continuous integration and continuous delivery (CI/CD) pipelines, automated testing, and monitoring for model performance and drift. By implementing MLOps, organizations can accelerate their machine learning development, reduce errors, and ensure models remain effective and reliable over time. Sparkflows MLOps allows you to deploy varieties of Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
 
 **MLOps Architecture:**
 

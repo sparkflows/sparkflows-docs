@@ -20,13 +20,13 @@ Sparkflows allows users to drill down into a specific Model Run and view the Mod
 
 .. figure:: ../_assets/mlops/model-info-2.png
    :alt: Model Info
-   :width: 50%
+   :width: 70%
 
 .. figure:: ../_assets/mlops/model-info-3.png
    :alt: Model Info
-   :width: 50%
+   :width: 70%
 
 .. figure:: ../_assets/mlops/model-info-4.png
    :alt: Model Info
-   :width: 50%
+   :width: 70%
 

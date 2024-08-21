@@ -58,6 +58,13 @@ Tutorials
     
     
     :doc:`/tutorials/ocr/index`
+  
+    
+    
+    ---  
+    
+    
+    :doc:`/tutorials/pipelines/index`
     
     
     
@@ -79,6 +86,7 @@ Tutorials
    languages/index.rst
    streaming/index.rst
    ocr/index.rst
+   pipelines/index.rst
    
 
 

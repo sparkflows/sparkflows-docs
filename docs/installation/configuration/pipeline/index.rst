@@ -1,7 +1,7 @@
 Configuring Pipeline / Airflow
 -----------------------------
 
-Below are the details of Configuring Fire for Pipelines with Airflow:
+Below are the details of Configuring Fire Insights for Pipelines with Airflow:
 
 .. toctree::
    :maxdepth: 1
@@ -9,6 +9,7 @@ Below are the details of Configuring Fire for Pipelines with Airflow:
    airflow-installation.rst
    airflow-installation-docker.rst
    configuring-pipeline.rst
+   airflow-connection.rst
    
    
 

@@ -7,7 +7,7 @@ In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the J
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS and creating the Connection.
 
-- https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
+- hhttps://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html
 
 
 Workflow for reading from an RDBMS

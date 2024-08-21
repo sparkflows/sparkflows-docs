@@ -117,3 +117,13 @@ For AIRFLOW tab
 .. figure:: ../../../_assets/configuration/airflow/airflow_v2.png
    :alt: airflow
    :width: 60%
+
+Test and Save Airflow Connection
+===========
+
+Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
+
+
+.. figure:: ../../../_assets/configuration/airflow/airflow_v3.png
+   :alt: mwaa
+   :width: 60%

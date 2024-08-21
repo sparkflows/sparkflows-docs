@@ -5,28 +5,35 @@ The installation of Airflow is straightforward if you follow the instructions be
 
 #. Set Airflow Home (optional):
 
-    Airflow requires a home directory, and uses ~/airflow by default, but you can set a different location if you prefer. The AIRFLOW_HOME environment variable is used to inform Airflow of the desired location. This step of setting the environment variable should be done before installing Airflow so that the installation process knows where to store the necessary files.
+   Airflow requires a home directory, and uses ~/airflow by default, but you can set a different location if you prefer. The AIRFLOW_HOME environment variable is used to inform Airflow of the desired location. This step of setting the environment variable should be done before installing Airflow so that the installation process knows where to store the necessary files.
 
-    export AIRFLOW_HOME=~/airflow
+   ::
+
+        export AIRFLOW_HOME=~/airflow
 
 #. Install Airflow using the constraints file, which is determined based on the URL we pass:
 
-    AIRFLOW_VERSION=2.10.0
+    ::
 
-    # Extract the version of Python you have installed. If you're currently using a Python version that is not supported by Airflow, you may want to set this manually.
-    # See above for supported versions.
-    PYTHON_VERSION="$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')"
+        AIRFLOW_VERSION=2.10.0
 
-    CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
-    # For example this would install 2.10.0 with python 3.8: https://raw.githubusercontent.com/apache/airflow/constraints-2.10.0/constraints-3.8.txt
+        # Extract the version of Python you have installed. If you're currently using a Python version that is not supported by Airflow, you may want to set this manually.
+        # See above for supported versions.
+        PYTHON_VERSION="$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')"
 
-    pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
+        CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+        # For example this would install 2.10.0 with python 3.8: 
+        https://raw.githubusercontent.com/apache/airflow/constraints-2.10.0/constraints-3.8.txt
+
+        pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 
 #. Run Airflow Standalone:
 
     The airflow standalone command initializes the database, creates a user, and starts all components.
 
-     airflow standalone
+   ::
+
+       airflow standalone
 
 #. Access the Airflow UI:
 

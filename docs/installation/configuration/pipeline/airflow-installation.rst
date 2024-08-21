@@ -7,7 +7,7 @@ Airflow can be installed using pip.
 Pre-requisite
 =======
 
-Below are the pre-requisites for installed Airflow using Docker.
+Below are the pre-requisites for installed Airflow using pip.
 
 * Python 3 environment
 * Only pip installation is currently officially supported

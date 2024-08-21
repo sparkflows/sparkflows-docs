@@ -6,33 +6,36 @@ This document describes in detail the steps required to configure pipelines in S
   
 To configure a pipeline in Sparkflows, follow these steps:
 
-#. Login to Sparkflows:
+Step 1 : Login to Sparkflows
+-----------------------------
      
-   **Login** to the Sparkflows Web Server URL using your credentials, navigate to **Administrations -> Configurations**, and enable the following property:
+#. **Login** to the Sparkflows Web Server URL using your credentials, navigate to **Administrations -> Configurations**, and enable the following property:
 
    ::
 
       module.enablePipeline	true
 
-   .. figure:: ../_assets/user-guide/pipeline/pipeline_administration.PNG
+   .. figure:: ../../_assets/user-guide/pipeline/pipeline_administration.PNG
       :alt: Pipeline List
       :width: 60%
 
-   .. figure:: ../_assets/user-guide/pipeline/pipeline_configurations.PNG
+   .. figure:: ../../_assets/user-guide/pipeline/pipeline_configurations.PNG
       :alt: Pipeline List
       :width: 60%
    
-#. Enable Pipeline Tabs:
+Step 2 : Enable Pipeline Tabs
+---------------------------------
 
-   After enabling the configuration, you will see three new tabs in your project: **Pipelines, Executions, and Schedules**.
+#. After enabling the configuration, you will see three new tabs in your project: **Pipelines, Executions, and Schedules**.
 
-   .. figure:: ../_assets/user-guide/pipeline/pipeline-list-new.png
+   .. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
       :alt: Pipeline List
       :width: 60% 
 
-#. Airflow Configuration:
+Step 3 : Configure Airflow
+-----------------------------------
 
-   If you are running Airflow on a remote server, set the following configurations in the **Airflow tab**: 
+#. If you are running Airflow on a remote server, set the following configurations in the **Airflow tab**: 
   
 
    .. list-table:: 
@@ -64,7 +67,7 @@ To configure a pipeline in Sparkflows, follow these steps:
         - Airflow dag Sync delay(seconds)
         - Depending on your requirements.
      
-   .. figure:: ../_assets/user-guide/pipeline/pipeline_airflow.PNG
+   .. figure:: ../../_assets/user-guide/pipeline/pipeline_airflow.PNG
       :alt: Pipeline List     
       :width: 60%
 
@@ -72,10 +75,11 @@ To configure a pipeline in Sparkflows, follow these steps:
   
    .. note:: Ensure that the Airflow path and other parameters are updated with their absolute paths.
 
-#. Accessing the **Pipeline List**:
+Step 3 : Access the Pipeline List
+----------------------------------------
 
-   The **Pipeline tab** under a Project displays a list of all pipelines created within that project. Pipelines can be grouped under various categories for better organization.
+#. The **Pipeline tab** under a Project displays a list of all pipelines created within that project. Pipelines can be grouped under various categories for better organization.
 
-   .. figure:: ../_assets/user-guide/pipeline/pipeline-list-new.png
+   .. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
       :alt: Pipeline List
       :width: 60%

@@ -40,8 +40,8 @@ The installation of Airflow is straightforward if you follow the instructions be
    Visit localhost:8080 in your browser and log in with the admin account details shown in the terminal. Enable the example_bash_operator DAG in the home page.
 
    .. figure:: ../../../_assets/configuration/airflow/Airflow_v1.png
-   :alt: airflow
-   :width: 60%
+      :alt: airflow
+      :width: 60%
 
 
    `Click here <https://airflow.apache.org/docs/apache-airflow/stable/start.html>`_ to get details Airflow Installations steps.

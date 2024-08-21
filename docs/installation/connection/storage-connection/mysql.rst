@@ -36,28 +36,9 @@ Or else, you can also wait for 60 minutes and the JDBC driver would be automatic
 Create the MySQL Connection
 -----
 
-**Type of Connection:**
+Create the MySQL Connection at Global, Group or Project level.
 
-Connections can be created at various levels:
-
-* Global  : Everyone has access to these connections.
-* Group   : Users belonging to a group will only have access to these connections.
-* Project : The owner of the project and the groups with which the project has been shared with have access to these connections.
-
-Below are steps on how to create MySQL Connection.
-
-
-Login to Sparkflows
-+++++
-
-Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the main menu and then select ``Global Connections`` to reach the next page as shown below.
-
-
-.. figure:: ../../../_assets/postgresql/administration.png
-      :alt: postgresql
-      :width: 60%
-
-Add Connection
+Connection Details
 ++++
 
 Enter the configuration details with the help of table given below and click on ``Add Connection``.

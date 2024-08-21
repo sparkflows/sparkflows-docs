@@ -13,7 +13,7 @@ The installation of Airflow is straightforward if you follow the instructions be
 
 #. Install Airflow using the constraints file, which is determined based on the URL we pass:
 
-    ::
+   ::
 
         AIRFLOW_VERSION=2.10.0
 

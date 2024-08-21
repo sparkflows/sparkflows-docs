@@ -14,7 +14,7 @@ Model Deployment Options
 - MLflow
 
 
-Sparkflows enables importing external models:
+**Sparkflows enables importing external models:**
 
 .. figure:: ../_assets/mlops/7_External_Model_Deployment.png
    :alt: MLOps Architecture

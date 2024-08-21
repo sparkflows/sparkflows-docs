@@ -3,13 +3,24 @@ Configuring Pipelines
 
 Sparkflows uses Apache Airflow for executing Pipelines.
 
-Below are the configurations needed for Sparkflows and Airflow to integrate seamlessly:
+Steps Involved in Configuring Pipeline in Sparkflows:
 
-.. figure:: ../../../_assets/user-guide/airflow-pipeline-configuration.png
+1. **Login to Sparkflows Web Server URL and traverse to Administrations -> Configurations and enable the below properties:**
+
+::
+
+    module.enablePipeline	true
+
+.. figure:: ../../../_assets/aws/livy/administration.png
+   :alt: livy
    :width: 60%
-   :alt: Pipelines Configuration
-   
 
-- Set **airflow.enabled** to **true**.
-- Set **airflow.dag** value to home directory of airflow. Eg: **/home/sparkflows/airflow**
-- Set **airflow.endpointURL** value to the airflow webserver URL. Eg: **http://localhost:8090**
+.. figure:: ../../../_assets/user-guide/pipeline/pipeline_configurations.PNG
+   :alt: Pipeline List
+   :width: 60%
+   
+2. **Once the above Configuration is enabled, you will see three tabs in project namely** ``Pipelines, Executions & Schedules`` 
+
+.. figure:: ../../../_assets/user-guide/pipeline/pipeline-list-new.png
+   :alt: Pipeline List
+   :width: 60% 

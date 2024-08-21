@@ -128,4 +128,6 @@ Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
    :alt: mwaa
    :width: 60%
 
+Now you can use this connection to submit pipeline on Airflow.
+
 .. note:: Make sure that Airflow Machine is accessible from Fire Insights Machine

@@ -2,7 +2,7 @@ Create Pipeline
 =====================
 This document explains the steps required to create a pipeline in Sparkflows.
 
-Step 1: Navigate to the Pipeline Tab
+Step 1 : Navigate to the Pipeline Tab
 ----------------------------------------
 
 Go to the **Pipeline tab** within your project.
@@ -17,7 +17,7 @@ Step 3 : Add Nodes to the Pipeline
 
 In the new Pipeline canvas, add the desired Nodes.
 
-Step 4: Provide Pipeline Details
+Step 4 : Provide Pipeline Details
 ---------------------------------------
 
 Enter a Pipeline **Name** and select a Pipeline **Category**.

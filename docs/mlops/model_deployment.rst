@@ -9,7 +9,7 @@ Model Deployment Options
 
 **Sparkflows supports various deployment targets:**
 
-- Kubeflow
+- Kubeflow (Default and recommended by us)
 - AWS Sagemaker
 - MLflow
 

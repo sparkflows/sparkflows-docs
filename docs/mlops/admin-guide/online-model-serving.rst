@@ -9,16 +9,31 @@ Sparkflows MLOps allows you to deploy Machine learning models on Kubeflow. These
 
 Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
 
-Configure the below from the MLOps tab in Admin page:
+Configure the below from the MLOps tab in Admin page. Representative examples for the same can be seen in the screenshot below:
 
-* mlops.target.deployment should be set to `kubeflow`
+* mlops.target.deployment
 * mlops.kubeflow.username 
 * mlops.kubeflow.password
 * mlops.kubeflow.config.path
 * mlops.docker.registry.sparkflows
 * mlops.kubeflow.hostport
+* mlops.aws.s3.endpoint.url
+* mlops.aws.s3.ignore.tls
+* mlops.kubernetes.config.path
+* mlops.docker.context.path
+* mlops.kubeflow.namespace
+* mlops.fire.server.jar.name
+* mlops.deployment.container.port
+* mlops.service.port
+* mlops.service.target.port
+* mlops.timeout
+* mlops.kubernetes.images.namespace
 
-  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-1.PNG
+  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-1.png
+     :alt: mlops-kubeflow
+     :width: 60%
+
+  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-2.png
      :alt: mlops-kubeflow
      :width: 60%
 

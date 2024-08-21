@@ -3,24 +3,31 @@ Configuring Pipelines
 
 Sparkflows uses Apache Airflow for executing Pipelines.
 
-Steps Involved in Configuring Pipeline in Sparkflows:
+Below are the steps involved in configuring pipeline in Sparkflows:
 
-1. **Login to Sparkflows Web Server URL and traverse to Administrations -> Configurations and enable the below properties:**
+Step 1 : Login to Sparkflows
+-------------------------------
 
-::
+#. **Login** to **Sparkflows Web Server URL** using your credentials.
 
-    module.enablePipeline	true
+Step 2 : Enable Pipline Tabs
+---------------------------------
+#. Navigate to **Administrations -> Configurations** to enable the below property:
 
-.. figure:: ../../../_assets/aws/livy/administration.png
-   :alt: livy
-   :width: 60%
+   ::
 
-.. figure:: ../../../_assets/user-guide/pipeline/pipeline_configurations.PNG
-   :alt: Pipeline List
-   :width: 60%
+        module.enablePipeline	true
+
+   .. figure:: ../../../_assets/aws/livy/administration.png
+      :alt: livy
+      :width: 60%
+
+   .. figure:: ../../../_assets/user-guide/pipeline/pipeline_configurations.PNG
+      :alt: Pipeline List
+      :width: 60%
    
-2. **Once the above Configuration is enabled, you will see three tabs in project namely** ``Pipelines, Executions & Schedules`` 
+   Once the above configuration is enabled, you will see three tabs in project namely **Pipelines, Executions & Schedules**.
 
-.. figure:: ../../../_assets/user-guide/pipeline/pipeline-list-new.png
-   :alt: Pipeline List
-   :width: 60% 
+   .. figure:: ../../../_assets/user-guide/pipeline/pipeline-list-new.png
+      :alt: Pipeline List
+      :width: 60% 

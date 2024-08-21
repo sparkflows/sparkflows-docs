@@ -24,6 +24,10 @@ With Apache Airflow, Fire Insights supports many different kinds of nodes/tasks 
 
     --- 
 
+    :doc:`/user-guide/pipeline-development/nodes/index`
+
+    ---
+
     :doc:`execute-pipeline`
 
     ---
@@ -61,6 +65,7 @@ With Apache Airflow, Fire Insights supports many different kinds of nodes/tasks 
    pipeline-overview.rst
    configure-pipeline.rst
    create-pipeline.rst
+   nodes/index.rst
    execute-pipeline.rst
    schedule-pipeline.rst
    import-export-pipeline.rst

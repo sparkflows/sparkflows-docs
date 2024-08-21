@@ -127,3 +127,5 @@ Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
 .. figure:: ../../../_assets/configuration/airflow/airflow_v3.png
    :alt: mwaa
    :width: 60%
+
+.. note:: Make sure that Airflow Machine is accessible from Fire Insights Machine

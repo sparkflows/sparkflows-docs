@@ -21,8 +21,8 @@ Install the JDBC Driver
 
 Below are the steps for installing the JDBC driver :
 
-- *Copy the driver jdbc jar file into "fire-user-lib" and "fire-server-lib" directories under the Fire installation home directory.*
-- *Restart Fire Insights.*
+- Copy the driver jdbc jar file into "fire-user-lib" and "fire-server-lib" directories under the Fire installation home directory.
+- Restart Fire Insights.
 
 Restart Fire Server
 ------------

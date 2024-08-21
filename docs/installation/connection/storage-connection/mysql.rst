@@ -1,17 +1,40 @@
 MySQL Connection
 ================
 
-Sparkflows provides the capability to create MySQL connection and use the connection to access various resources. This document explains steps required to create MySQL Connection.
+Sparkflows provides the capability to create MySQL connection and use the connection to access various resources. Below are the steps for creating MySQL connection in Fire Insights:
 
-Prerequisites
+  * Download MySQL JDBC Driver
+  * Install the JDBC Driver
+  * Restart Fire Insights
+  * Create the MySQL Connection
+
+Download MySQL JDBC Driver
+-------------
+
+- MySQL JDBC Driver can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
+- After downloading, untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
+- After untaring, the JDBC JAR file is available in the directory.
+- Use the JAR file (mysql-connector-java-8.0.11.jar) for installation in the Fire.
+
+Install the JDBC Driver
 --------
 
+Below are the steps for installing the JDBC driver :
 
-**Install JDBC Driver:**
+- *Copy the driver jdbc jar file into "fire-user-lib" and "fire-server-lib" directories under the Fire installation home directory.*
+- *Restart Fire Insights.*
 
-The JDBC Driver needs to be installed in Fire in order to connect to MySQL JDBC Source. 
+Restart Fire Server
+------------
 
-More information on installation can be found at: https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
+Once you have copied the JDBC driver into the required folder, restart the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
+
+This will restart the Fire services automatically.
+
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+
+Create the MySQL Connection
+-----
 
 **Type of Connection:**
 
@@ -25,7 +48,7 @@ Below are steps on how to create MySQL Connection.
 
 
 Login to Sparkflows
-----------
++++++
 
 Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the main menu and then select ``Global Connections`` to reach the next page as shown below.
 
@@ -35,7 +58,7 @@ Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the ma
       :width: 60%
 
 Add Connection
-----------
+++++
 
 Enter the configuration details with the help of table given below and click on ``Add Connection``.
 
@@ -45,7 +68,7 @@ Enter the configuration details with the help of table given below and click on 
    :width: 60%
 
 Enter Configuration Details
--------------
++++++
 
 Adding connection would take you to another configuration page as shown below. Refer the table given below to enter the details on this page.
 
@@ -54,7 +77,7 @@ Adding connection would take you to another configuration page as shown below. R
    :width: 60%  
                                                  
 Test Connection and Save
---------------------
++++++
 
 Once you have entered all the details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
 
@@ -68,8 +91,6 @@ Run Workflows using MySQL JDBC JAR
 -----------------
 
 When running workflows, select the checkbox for the JAR file ( mysql-connector-java-X.Y.Z.jar) in the Workflow Execution Page.
-
-
 
 
 Configuration Details

@@ -55,6 +55,7 @@ Connector Processors in Fire Insights
    :hidden:
 
    jdbc.rst
+   mysql.rst
    snowflake.rst
    hive.rst
    redshift.rst

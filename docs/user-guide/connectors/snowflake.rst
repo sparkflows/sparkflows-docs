@@ -1,8 +1,14 @@
 Snowflake
 ==========
 
-Fire Insights has a processor that allows you to connect with live Snowflake data warehouse, directly from workflows.
+Fire Insights has ReadSnowflake and WriteSnowflake processors for reading data from and writing data to Snowflake.
 
+Creating Snowflake Connection
+------------------
+
+The first step is to create a connection to Snowflake, if you have not already created it. The below page has the details for creating Connection to Snowflake.
+
+https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/snowflake.html
 
 Read from Snowflake
 -------------------

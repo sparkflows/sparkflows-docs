@@ -1,4 +1,4 @@
-Configuring a Pipeline
+Configure Pipeline
 ========================
 
 This document describes in detail the steps required to configure pipelines in Sparkflows.

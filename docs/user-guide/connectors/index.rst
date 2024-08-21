@@ -1,7 +1,7 @@
-Connectors
+Connecting to Data
 ==========
 
-Fire Insights provides a number of Connector Processors for reading and writing data.
+Fire Insights provides a number of Processors for reading and writing data from various sources.
 
 
 Connector Processors in Fire Insights

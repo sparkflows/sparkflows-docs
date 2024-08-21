@@ -1,29 +1,32 @@
 Airflow Installation
----------------
+=======================
 
 Airflow can be installed using pip.
 
 
-Pre-requisite
-=======
+Step 1 : Pre-requisite Check
+------------------------------
 
-Below are the pre-requisites for installed Airflow using pip.
+Below are the pre-requisites for installing Airflow using pip.
 
-* Python 3 environment
-* Only pip installation is currently officially supported
+* Python 3 environment.
+* Only pip installation is currently officially supported.
 
 The installation of Airflow is straightforward if you follow the instructions below. Airflow uses constraint files to enable reproducible installation, so using pip and constraint files is recommended.
 
 
-#. Set Airflow Home (optional):
+Step 2 : Set Airflow Home (optional)
+-----------------------------------
 
-   Airflow requires a home directory, and uses ~/airflow by default, but you can set a different location if you prefer. The AIRFLOW_HOME environment variable is used to inform Airflow of the desired location. This step of setting the environment variable should be done before installing Airflow so that the installation process knows where to store the necessary files.
+Airflow requires a home directory, and uses ~/airflow by default, but you can set a different location if you prefer. The AIRFLOW_HOME environment variable is used to inform Airflow of the desired location. This step of setting the environment variable should be done before installing Airflow so that the installation process knows where to store the necessary files.
 
    ::
 
         export AIRFLOW_HOME=~/airflow
 
-#. Install Airflow using the constraints file, which is determined based on the URL we pass:
+Step 3 : Install Airflow
+------------------------
+Install Airflow using the constraints file, which is determined based on the URL we pass:
 
    ::
 
@@ -39,27 +42,26 @@ The installation of Airflow is straightforward if you follow the instructions be
 
         pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 
-#. Run Airflow Standalone:
-
-    The airflow standalone command initializes the database, creates a user, and starts all components.
+Step 4 : Run the Airflow Standalone
+-----------------------------------
+The airflow standalone command initializes the database, creates a user, and starts all the components.
 
    ::
 
        airflow standalone
 
-#. Access the Airflow UI:
-
-   Visit localhost:8080 in your browser and log in with the admin account details shown in the terminal. Enable the example_bash_operator DAG in the home page.
+Step 5 : Access the Airflow UI
+-------------------------------
+Visit localhost:8080 in your browser and log in with the **admin account** details shown in the terminal. Enable the **example_bash_operator DAG** in the home page.
 
    .. figure:: ../../../_assets/configuration/airflow/Airflow_v1.png
       :alt: airflow
       :width: 60%
 
+`Click here <https://airflow.apache.org/docs/apache-airflow/stable/start.html>`_ to get the details of Airflow Installations steps.
 
-   `Click here <https://airflow.apache.org/docs/apache-airflow/stable/start.html>`_ to get details Airflow Installations steps.
 
+.. note:: * Successful installation requires a Python 3 environment. Starting with Airflow 2.7.0, Airflow supports Python 3.8, 3.9, 3.10, 3.11 and 3.12.
 
-.. note:: Successful installation requires a Python 3 environment. Starting with Airflow 2.7.0, Airflow supports Python 3.8, 3.9, 3.10, 3.11 and 3.12.
-
-Only pip installation is currently officially supported.
+          * Only pip installation is currently officially supported.
 

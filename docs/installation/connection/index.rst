@@ -1,7 +1,7 @@
 Connections
 -----------
 
-Fire Insights enables you to create different connections. Sparkflows offers the following three types of Connections:
+Fire Insights enables you to create different connections. It offers the following three types of Connections:
 
 **1. Compute Connections   2. Storage Connections   3. GenerativeAI Connections**
 
@@ -19,7 +19,7 @@ Login to Sparkflows
 Login to Sparkflows as an ``Admin``. Click on ``Administration`` tab from the main menu and then select ``Global Connections`` to reach the next page as shown below.
 
 
-.. figure:: ../../../_assets/postgresql/administration.png
+.. figure:: ../../_assets/postgresql/administration.png
       :alt: postgresql
       :width: 60%
 
@@ -29,7 +29,7 @@ Add Connection
 Enter the configuration details with the help of table given below and click on ``Add Connection``.
 
 
-.. figure:: ../../../_assets/installation/connection/mysql_storage.PNG
+.. figure:: ../../_assets/installation/connection/mysql_storage.PNG
    :alt: connection
    :width: 60%
 

@@ -5,22 +5,12 @@ Fire has JDBC Processors for reading from or writing to JDBC sources.
 
 In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
-Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS:
+Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS and creating the Connection.
 
 - https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
 
-Create JDBC Connection
-===================
 
-After installing the JDBC driver in Fire Insights, create a connection in Fire Insights for the RDBMS. Details for creating connection to MySQL and Postgres are below:
-
-- https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/mysql.html
-- https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/PostgreSQL.html
-
-Using the connection, the workflows can be created for reading from or writing to MySQL/Postgres/etc.
-
-
-Workflow for reading from PostgreSQL
+Workflow for reading from an RDBMS
 --------------------------------
 
 Below is a workflow which reads data from PostgreSQL and reads the result from ``Print N Rows`` processor. It reads in the data from the ``housing`` table in PostgreSQL.
@@ -64,21 +54,3 @@ Executing the processor displays the records read from PostgreSQL Table.
    :width: 60%
    
 
-JDBC Drivers
--------------
-
-Below are the JDBC URLs for some databases:
-
-* MySQL : com.mysql.jdbc.Driver
-* PostgreSQL : org.postgresql.Driver
-* Oracle : oracle.jdbc.driver.OracleDriver
-
-Examples of JDBC URL
-----------------
-
-Below are some examples of JDBC URLs for reading from relational sources:
-
-* MySQL : jdbc:mysql://localhost:3306/mydb
-* PostgreSQL : jdbc:postgresql://localhost:5432/mydb
-
-.. note::  Make sure to copy postgres jar to python library, inorder to use JDBC Node in PySpark Engine.

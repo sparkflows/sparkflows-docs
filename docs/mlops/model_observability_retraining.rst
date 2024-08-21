@@ -1,4 +1,4 @@
-Model Observability Retraining
+Model Auto Retraining
 ========================
 
 A policy can be attached to the model to trigger auto-retraining. This policy can be of following types:

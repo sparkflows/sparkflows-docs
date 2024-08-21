@@ -9,9 +9,10 @@ Model Deployment Options
 
 **Sparkflows supports various deployment targets:**
 
-- MLFlow
-- AWS Sagemaker
 - Kubeflow
+- AWS Sagemaker
+- MLflow
+
 
 Sparkflows enables importing external models:
 

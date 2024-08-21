@@ -14,7 +14,9 @@ Below is an example of a Pipeline with multiple Workflows.
 .. figure:: ../../../_assets/user-guide/pipeline/create-pipeline-new.png
    :alt: Pipeline
    :width: 60%
-   
+
+Below is a list of nodes available when **Airflow** is enabled:
+
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2

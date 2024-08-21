@@ -1,4 +1,4 @@
-Save Cassandra
+Cassandra
 ==============
 
 Fire Insights enables you to write to Apache Cassandra table.

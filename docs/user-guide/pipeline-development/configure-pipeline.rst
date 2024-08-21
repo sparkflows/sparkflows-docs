@@ -10,6 +10,9 @@ Step 1 : Login to Sparkflows
 -----------------------------
      
 #. **Login** to the Sparkflows Web Server URL using your credentials.
+
+Step 2 : Enable Pipeline Tabs
+--------------------------------
 #. Navigate to **Administrations -> Configurations** to enable the following property:
 
    ::
@@ -31,7 +34,7 @@ Step 1 : Login to Sparkflows
       :alt: Pipeline List
       :width: 60% 
 
-Step 2 : Configure Airflow
+Step 3 : Configure Airflow
 -----------------------------------
 
 #. If you are running Airflow on a remote server, set the following configurations in the **Airflow tab**: 
@@ -74,7 +77,7 @@ Step 2 : Configure Airflow
   
    .. note:: Ensure that the Airflow path and other parameters are updated with their absolute paths.
 
-Step 3 : Access the Pipeline List
+Step 4 : Access the Pipeline List
 ----------------------------------------
 
 #. The **Pipeline tab** under a Project displays a list of all pipelines created within that project. Pipelines can be grouped under various categories for better organization.

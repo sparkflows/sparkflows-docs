@@ -1,18 +1,18 @@
 Airflow Connection
 --------------
 
-Sparkflows enables you to create "Airflow Connection" and use it to submit Pipeline. Connections can be at various levels:
+Sparkflows enables you to create Airflow Connection and use it to submit Pipeline. Connections can be at various levels:
 
   * Global  : Everyone has access to these connections.
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Airflow Connection" in Fire Insights.
+This page explains how to create an Airflow Connection in Fire Insights.
 
-Enable Airflow in Sparkflows
-===========
+Step 1 : Enable Airflow in Sparkflows
+======================================
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``AIRFLOW`` -> and enable Airflow by setting the below parameter:
+Login to **Sparkflows application -> Administration -> Configurations -> AIRFLOW** and enable Airflow by setting the below parameter:
 
 ::
 
@@ -22,19 +22,21 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: mwaa
    :width: 60%
 
-Navigate to Add Connections
-===========
+Step 2 : Navigate to Add Connections
+======================================
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you save the above Configuration, navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 
 .. figure:: ../../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
    
-Add connection for group
-========
+Step 3 : Add Connection for Group
+=================================
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Pipeline`` and other parameters as shown below:
+Navigate to **Administration -> Global Connections -> Add Connections -> Add Connection For Group** which pops up a new window.
+
+Now, select **Pipeline** and other parameters as shown below:
 
 .. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
    :alt: mwaa
@@ -44,8 +46,8 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: mwaa
    :width: 60%
 
-Add additional parameters as per your environment
-======
+Step 4 : Add Additional Parameters as Per Your Environment
+==========================================================
 
 Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 
@@ -118,10 +120,10 @@ For AIRFLOW tab
    :alt: airflow
    :width: 60%
 
-Test and Save Airflow Connection
-===========
+Step 5 : Test and Save the Airflow Connection
+===============================================
 
-Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
+Once the Updated Parameter is added, you can **Test Connection** & **Save** it.
 
 
 .. figure:: ../../../_assets/configuration/airflow/airflow_v3.png
@@ -130,4 +132,4 @@ Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
 
 Now you can use this connection to submit pipeline on Airflow.
 
-.. note:: Make sure that Airflow Machine is accessible from Fire Insights Machine
+.. note:: Make sure that Airflow Machine is accessible from the Fire Insights Machine.

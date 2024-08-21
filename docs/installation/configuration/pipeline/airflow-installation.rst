@@ -1,4 +1,4 @@
-Airflow Installations
+Airflow Installation
 ---------------
 
 Airflow can be installed using pip.

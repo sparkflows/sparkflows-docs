@@ -9,7 +9,8 @@ To configure a pipeline in Sparkflows, follow these steps:
 Step 1 : Login to Sparkflows
 -----------------------------
      
-#. **Login** to the Sparkflows Web Server URL using your credentials, navigate to **Administrations -> Configurations**, and enable the following property:
+#. **Login** to the Sparkflows Web Server URL using your credentials.
+#. Navigate to **Administrations -> Configurations** to enable the following property:
 
    ::
 
@@ -23,16 +24,14 @@ Step 1 : Login to Sparkflows
       :alt: Pipeline List
       :width: 60%
    
-Step 2 : Enable Pipeline Tabs
----------------------------------
 
-#. After enabling the configuration, you will see three new tabs in your project: **Pipelines, Executions, and Schedules**.
+   After enabling the configuration, you will see three new tabs in your project: **Pipelines, Executions, and Schedules**.
 
    .. figure:: ../../_assets/user-guide/pipeline/pipeline-list-new.png
       :alt: Pipeline List
       :width: 60% 
 
-Step 3 : Configure Airflow
+Step 2 : Configure Airflow
 -----------------------------------
 
 #. If you are running Airflow on a remote server, set the following configurations in the **Airflow tab**: 

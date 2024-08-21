@@ -37,3 +37,8 @@ The installation of Airflow is straightforward if you follow the instructions be
 
    `Click here <https://airflow.apache.org/docs/apache-airflow/stable/start.html>`_ to get details Airflow Installations steps.
 
+
+.. note:: Successful installation requires a Python 3 environment. Starting with Airflow 2.7.0, Airflow supports Python 3.8, 3.9, 3.10, 3.11 and 3.12.
+
+Only pip installation is currently officially supported.
+

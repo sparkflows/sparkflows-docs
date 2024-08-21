@@ -1,4 +1,4 @@
-RDBMS
+JDBC
 =======================
 
 Fire has JDBC Processors for reading from or writing to JDBC sources.
@@ -12,7 +12,7 @@ Use the steps given at the following link for installing the corresponding JDBC 
 Create JDBC Connection
 ===================
 
-Create a connection in Fire Insights for the RDBMS. Details for creating connection to MySQL and Postgres are below:
+After installing the JDBC driver in Fire Insights, create a connection in Fire Insights for the RDBMS. Details for creating connection to MySQL and Postgres are below:
 
 - https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/mysql.html
 - https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/PostgreSQL.html

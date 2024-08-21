@@ -1,4 +1,4 @@
-Save to HIVE
+HIVE
 ==================
 
 Depending on your data pipeline or workflow, you might want to save data to HIVE after it has been read from a data source, cleaned and transformed. After data is saved in HIVE, it can be read from another workflow or accessed through BI tools such as Tableau.

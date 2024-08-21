@@ -27,7 +27,7 @@ Below is a list of nodes available when **Airflow** is enabled:
 
 Below is an example of a Pipeline with multiple Workflows.
 
-.. figure:: ../_assets/user-guide/pipeline/create-pipeline-new.png
+.. figure:: ../../_assets/user-guide/pipeline/create-pipeline-new.png
    :alt: Pipeline
    :width: 60%
    

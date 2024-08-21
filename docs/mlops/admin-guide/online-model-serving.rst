@@ -2,9 +2,83 @@ Online Model Serving
 =======
 Online model serving, also known as real-time model serving or online inference, refers to the process of making machine learning models available for inference or prediction in real-time, typically in response to individual requests or small batches of data. In online model serving, the model server is continuously available to handle inference requests as they come in. Online model are served in Sparkflows via one of the following approaches :
 
+As Registered Models in Kubeflow
+----------
+
+Sparkflows MLOps allows you to deploy Machine learning models on Kubeflow. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+
+Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
+
+Configure the below from the MLOps tab in Admin page:
+
+* mlops.target.deployment should be set to `kubeflow`
+* mlops.kubeflow.username 
+* mlops.kubeflow.password
+* mlops.kubeflow.config.path
+* mlops.docker.registry.sparkflows
+* mlops.kubeflow.hostport
+
+  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-1.PNG
+     :alt: mlops-kubeflow
+     :width: 60%
+
+Once the Kubeflow is configured, users can deploy models to kubeflow via one click on the models page of Sparkflows.
+
+As Registered Models in Sagemaker
+----------
+
+Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+
+Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
+
+Configure the below from the MLOps tab in Admin page:
+
+* mlops.region
+* mlops.aws_id 
+* mlops.arn
+
+  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
+     :alt: mlops-sagemaker
+     :width: 60%
+
+  
+  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-2.png
+     :alt: mlops-sagemaker
+     :width: 60%
+
+Push the MLflow docker image to ECR to be used for deploying the model. To begin with, one can just push the default mlflow docker image.
+
+To Push the docker image to ECR, you would need to perform the following steps:
+  
+#. Use the get-login-password command that retrieves and displays an authentication token using the GetAuthorizationToken API that we can use to authenticate to an Amazon ECR registry. Use the same region_name that you used while creating a repo. Store the encrypted token somewhere for a moment.
+
+   ::
+     
+        aws ecr get-login-password --region <region_name>
+
+#. We need two things. The first is the token I just mentioned and second is the repository URI from the previous step.
+
+   ::
+  
+        aws ecr --region <region> | docker login -u AWS -p <encrypted_token> <repo_uri>
+
+     We are querying the ECR API provided by AWS CLI. Later we are pipelining Docker login.
+  
+     - -u AWS: Default user provided by AWS.
+     - -p <encrypted_token>: Password we retrieved in the last step.
+     - repo_uri: URI of our repository.
+
+     If the login is successful, **Login Succeeded** will be displayed in the terminal.
+
+#. Push the docker image:
+
+   ::
+
+        mlflow sagemaker build-and-push-container
+
 As Sparkflows Score Workflow
 ---------
-  * There is no additional administrative configuration needed as the model is served as any other workflow. It just needs a running instance of Sparkflows server.
+  * There is no additional administrative configuration needed as the model is served as any other workflow. It just needs a running instance of Sparkflows server. The REST API's can be used to score as detailed in the user guide of MLOps
 
 As REST End Point in Standalone Docker Image
 ------------
@@ -64,76 +138,3 @@ As Registered Models in MLflow
             :alt: Load balancers
             :width: 60%
 
-As Registered Models in Sagemaker
-----------
-
-Sparkflows MLOps allows you to deploy Machine learning models on Sagemaker. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
-
-Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
-
-Configure the below from the MLOps tab in Admin page:
-
-* mlops.region
-* mlops.aws_id 
-* mlops.arn
-
-  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-1.png
-     :alt: mlops-sagemaker
-     :width: 60%
-
-  
-  .. figure:: ../../_assets/mlops/sagemaker/sagemaker-2.png
-     :alt: mlops-sagemaker
-     :width: 60%
-
-Push the MLflow docker image to ECR to be used for deploying the model. To begin with, one can just push the default mlflow docker image.
-
-To Push the docker image to ECR, you would need to perform the following steps:
-  
-#. Use the get-login-password command that retrieves and displays an authentication token using the GetAuthorizationToken API that we can use to authenticate to an Amazon ECR registry. Use the same region_name that you used while creating a repo. Store the encrypted token somewhere for a moment.
-
-   ::
-     
-        aws ecr get-login-password --region <region_name>
-
-#. We need two things. The first is the token I just mentioned and second is the repository URI from the previous step.
-
-   ::
-  
-        aws ecr --region <region> | docker login -u AWS -p <encrypted_token> <repo_uri>
-
-     We are querying the ECR API provided by AWS CLI. Later we are pipelining Docker login.
-  
-     - -u AWS: Default user provided by AWS.
-     - -p <encrypted_token>: Password we retrieved in the last step.
-     - repo_uri: URI of our repository.
-
-     If the login is successful, **Login Succeeded** will be displayed in the terminal.
-
-#. Push the docker image:
-
-   ::
-
-        mlflow sagemaker build-and-push-container
-
-As Registered Models in Kubeflow
-----------
-
-Sparkflows MLOps allows you to deploy Machine learning models on Kubeflow. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
-
-Below we go through the admin guide of different options available in Sparkflows MLOps to deploy models:
-
-Configure the below from the MLOps tab in Admin page:
-
-* mlops.target.deployment should be set to `kubeflow`
-* mlops.kubeflow.username 
-* mlops.kubeflow.password
-* mlops.kubeflow.config.path
-* mlops.docker.registry.sparkflows
-* mlops.kubeflow.hostport
-
-  .. figure:: ../../_assets/mlops/kubeflow/kubeflow-1.PNG
-     :alt: mlops-kubeflow
-     :width: 60%
-
-Once the Kubeflow is configured, users can deploy models to kubeflow via one click on the models page of Sparkflows.

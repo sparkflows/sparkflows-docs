@@ -17,14 +17,14 @@ https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/
 
 
 
-Use the ReadJDBC node in workflow
+Use the ReadJDBC and WriteJDBC nodes in workflows
 -------------
 
 For reading from MySQL use the ReadJDBC node. In the node dialog, use the MySQL connection.
 
-Use the WriteJDBC node in workflow
--------------
-
 For writing to MySQL use the WriteJDBC node. In the node dialog, use the MySQL connection.
+
+Details are available at : https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html
+
 
 

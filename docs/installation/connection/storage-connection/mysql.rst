@@ -61,13 +61,8 @@ Now, you are ready to start using the Connection in workflows.
 .. Note:: Make sure that MySQL URL should be accessible from Sparkflows web server URL.
 
 
-Run Workflows using MySQL JDBC JAR
------------------
 
-When running workflows, select the checkbox for the JAR file ( mysql-connector-java-X.Y.Z.jar) in the Workflow Execution Page.
-
-
-Configuration Details
+Connection Field Details
 ----------------------
 
 .. list-table:: 
@@ -109,6 +104,11 @@ Configuration Details
      - Driver Class Name for MySQL
      - com.mysql.jdbc.Driver (by default)
       
+Run Workflows using MySQL JDBC JAR
+-----------------
+
+When running workflows, select the checkbox for the JAR file ( mysql-connector-java-X.Y.Z.jar) in the Workflow Execution Page.
+
 
 
 

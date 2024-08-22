@@ -1,7 +1,7 @@
-Creating Jupyter Notebook Connection
+Create Jupyter Notebook Connection
 ================================
 
-This document outlines the steps to create a Jupyter Notebook Connection and configure a Kubernetes cluster.
+This document outlines the steps to create a Jupyter Notebook Connection in Fire Insights and to configure a Kubernetes cluster.
 
 
 Creating Jupyter Notebook connection

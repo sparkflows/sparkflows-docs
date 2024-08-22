@@ -1,5 +1,5 @@
-Kubernetes
-==========
+Kubernetes Caching
+==================
 
 Pre-pulling Images in Kubernetes
 --------------------------------

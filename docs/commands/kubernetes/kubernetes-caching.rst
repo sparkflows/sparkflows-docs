@@ -9,32 +9,33 @@ When you deploy a pod in Kubernetes, the container image is pulled from the cont
 To achieve this, we can use a DaemonSet to deploy a pod on each node that pulls the required images. 
 Here's an example:
 
-.. code:: YAML
-    apiVersion: apps/v1
-    kind: DaemonSet
-    metadata:
-    name: image-puller
-    spec:
-    selector:
-        matchLabels:
-        app: image-puller
-    template:
+  .. code-block:: YAML
+
+        apiVersion: apps/v1
+        kind: DaemonSet
         metadata:
-        labels:
-            app: image-puller
+        name: image-puller
         spec:
-        containers:
-        - name: image-puller
-            image: docker:latest
-            command: ["/bin/sh", "-c", "for img in $(cat /images.txt); do docker pull $img; done"]
-            volumeMounts:
+        selector:
+            matchLabels:
+            app: image-puller
+        template:
+            metadata:
+            labels:
+                app: image-puller
+            spec:
+            containers:
+            - name: image-puller
+                image: docker:latest
+                command: ["/bin/sh", "-c", "for img in $(cat /images.txt); do docker pull $img; done"]
+                volumeMounts:
+                - name: image-list
+                mountPath: /images.txt
+                subPath: images.txt
+            volumes:
             - name: image-list
-            mountPath: /images.txt
-            subPath: images.txt
-        volumes:
-        - name: image-list
-            configMap:
-            name: image-list
+                configMap:
+                name: image-list
 
 
 In this case, you need to create a ConfigMap named ``image-list`` containing the image names. This approach allows you to automate the process within the Kubernetes ecosystem.

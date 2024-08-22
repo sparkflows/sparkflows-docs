@@ -15,7 +15,6 @@ Kubernetes
 
     Pre-pulling Images in Kubernetes.
 
-    ---
 
 .. toctree::
    :hidden:

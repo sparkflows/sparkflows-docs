@@ -70,7 +70,7 @@ Commands Cheatsheet
 
    ---
     
-    :doc:`/commands/kubernetes`
+    :doc:`/commands/kubernetes/index`
     
     Kubernetes Cheatsheet
 

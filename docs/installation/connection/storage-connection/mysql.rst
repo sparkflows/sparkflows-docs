@@ -1,7 +1,7 @@
 MySQL Connection
 ================
 
-Sparkflows provides the capability to create MySQL connection and use the connection to access various resources. Below are the steps for creating MySQL connection in Fire Insights:
+Fire Insights provides the capability to create MySQL connection and use the connection for reading from and writing to MySQL tables. Below are the steps for creating MySQL connection in Fire Insights:
 
   * Download MySQL JDBC Driver
   * Install the JDBC Driver
@@ -19,10 +19,7 @@ Download MySQL JDBC Driver
 Install the JDBC Driver
 --------
 
-Below are the steps for installing the JDBC driver :
-
-- Copy the driver jdbc jar file into "fire-user-lib" and "fire-server-lib" directories under the Fire installation home directory.
-- Restart Fire Insights.
+In order to install the JDBC driver copy the driver jdbc jar file into ``fire-user-lib`` and ``fire-server-lib`` directories under the Fire installation home directory.
 
 Restart Fire Server
 ------------

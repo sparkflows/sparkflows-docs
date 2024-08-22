@@ -9,7 +9,7 @@ When you deploy a pod in Kubernetes, the container image is pulled from the cont
 To achieve this, we can use a DaemonSet to deploy a pod on each node that pulls the required images. 
 Here's an example:
 
-.. code:: yaml
+.. code:: YAML
     apiVersion: apps/v1
     kind: DaemonSet
     metadata:

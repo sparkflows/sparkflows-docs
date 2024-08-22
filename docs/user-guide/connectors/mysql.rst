@@ -24,7 +24,7 @@ For reading from MySQL use the ReadJDBC node. In the node dialog, use the MySQL 
 
 For writing to MySQL use the WriteJDBC node. In the node dialog, use the MySQL connection.
 
-Details are available at : https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html
+Example workflows are available at : https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html
 
 
 

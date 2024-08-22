@@ -3,7 +3,9 @@ Analytical Apps
 
 Analytical Apps can be built on top of Jupyter Notebooks. These apps provide a web interface for business and power users to seamlessly interact with Jupyter Notebooks and view the output results.
 
-In order to output text, tables, charts from Jupyter Notebook to Analytical App a fire SDK is used.
+In order to output text, tables, charts from Jupyter Notebook to Analytical App a Fire Insights, an SDK is used. It communicates back with the Fire Insights Server to which the user is logged in.
+
+The Jupyter Notebook can be wrapped in a Docker Container and executed by Fire Insights on a Kubernetes Cluster.
 
 .. panels::
     :container: container-lg pb-3

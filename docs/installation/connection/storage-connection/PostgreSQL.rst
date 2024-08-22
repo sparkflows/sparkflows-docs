@@ -1,59 +1,43 @@
 PostgreSQL Connection
 ================
 
-Sparkflows provides the capability to create "Postgres Connection" and use the connection to access various resources.
+Fire Insights provides the capability to create "PostgreSQL connection" and use the connection for reading from and writing to PostgreSQL tables. Below are the steps for creating PostgreSQL connection in Fire Insights:
 
-Connections can be created at various levels:
+  * Download PostgreSQL JDBC Driver
+  * Install the JDBC Driver
+  * Restart Fire Insights
+  * Create the PostgreSQL Connection
 
-* Global  : Everyone has access to these connections.
-* Group   : Users belonging to a group will only have access to these connections.
-* Project : The owner of the project and the groups with which the project has been shared with have access to these connections.
+Download PostgreSQL JDBC Driver
+-------------
 
-This document explains in detail the necessary steps required to create a PostgreSQL Connection. 
+- PostgreSQL JDBC Driver can be downloaded directly from maven repository : https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar
+- Ensure that the JDBC JAR file is available in the directory.
+- Use the JAR file (postgresql-42.3.2.jar) for installation in the Fire.
 
-Below are the steps required to create "Postgres Connection" :
+Install the JDBC Driver
+--------
 
-Step 1 : Prerequisites
-----------
-Before you start setting up the Postgres Connection, please make sure to:
+In order to install the JDBC driver copy the driver jdbc jar file into ``fire-user-lib`` and ``fire-server-lib`` directories under the Fire installation home directory.
 
-#. Download the necessary PostgreSQL JAR file by following this link: `PostgreSQL JAR <https://repo1.maven.org/maven2/org/postgresql/postgresql/42.3.2/postgresql-42.3.2.jar>`_
-#. Copy the JAR file into both the **fire-user-lib** and **fire-core-lib** folders located within the Sparkflows home directory.
-#. Copy the JAR file into the ``/home/sparkflows/venv/lib/python3.7/site-packages/pyspark/jars/`` if using PySpark engine, it need to be updated on the basis of your python environment.
-#. Start the Fire Server after you finish copying the JAR file.
+Restart Fire Server
+------------
 
+Once you have copied the JDBC driver into the required folder, restart the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
 
-Step 2 : Login to Fire Insights as Admin
------------------
+This will restart the Fire services automatically.
 
-To Login :
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
 
-#. Go to Fire Insights Login Page.
-#. Enter your credentials.
-#. Click **Sign in**. You will reach Fire Dashboard.
+Create the PostgreSQL Connection
+-----
 
-Step 3 : Add Connection 
---------------
-To open Connections Page and add connection :
+Create the PostgreSQL Connection at Global, Group or Project level.
 
-#. From the Fire Dashboard, click **ADMINISTRATION** located in the top menu-bar.
-#. From the Administration Page, click **Global Connections** to reach Connections Page.
+Connection Details
+++++
 
-   .. figure:: ../../../_assets/postgresql/administration.png
-      :alt: postgresql
-      :width: 60%
-
-#. From the Connections Page, click **Add Connection**.
-
-   .. figure:: ../../../_assets/postgresql/add-connection.png
-      :alt: postgresql
-      :width: 60%
-
-#. Choose the type of connection as per your requirement from the dropdown menu.
-
-Step 4 : Enter Parameter Details
-----------
-#. In the Add Connection Window, fill in all the details as shown below.
+Enter the configuration details with the help of table given below and click on ``Add Connection``.
 
    .. figure:: ../../../_assets/postgresql/postgre-storage.png
       :alt: postgresql
@@ -62,9 +46,22 @@ Step 4 : Enter Parameter Details
    
    .. figure:: ../../../_assets/postgresql/postgre-connection.png
       :alt: postgresql
-      :width: 60%  
+      :width: 60%
 
-   **Note:** For more information on the details to be filled in, refer the below table.
+
+Test Connection and Save
++++++
+
+Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
+
+Now, you are ready to start using the Connection in workflows.
+
+
+.. Note:: Make sure that PostgreSQL URL should be accessible from Sparkflows web server URL.
+
+
+Connection Field Details
+----------------------
 
    .. list-table:: 
       :widths: 25 25 50
@@ -103,15 +100,9 @@ Step 4 : Enter Parameter Details
       * - Driver Class
         - Driver Class Name for Postgres
         - org.postgresql.Driver (by default)
-      
-Step 5 : Test and Save the Connection
--------
 
-#. Once you have entered the values to the parameters, click **Test Connection**. 
-#. On successful testing, click **Save** to save the connection. 
+Run Workflows using PostgreSQL JDBC JAR
+-----------------
 
-Step 6 : Create Connection
-------------
-After successfully completing the above steps, you can proceed to create the connection using the resources in datasets and workflows.
+When running workflows, select the checkbox for the JAR file (postgresql-42.3.2.jar) in the Workflow Execution Page.
 
-.. Note:: Make sure that "Postgres URL" should be accessible from Sparkflows web server URL and suitable Driver should be copied to fire lib and do select postgres jar while submitting workflow.

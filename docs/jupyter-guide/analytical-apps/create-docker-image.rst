@@ -1,4 +1,4 @@
-Create Docker image with the Jupyter notebook created in the previous step
+Create Docker image with the Jupyter notebook 
 ================
 
 Create a Docker image containing user-created notebooks, data, and required dependencies.

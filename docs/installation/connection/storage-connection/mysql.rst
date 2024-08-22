@@ -45,10 +45,6 @@ Enter the configuration details with the help of table given below and click on 
    :alt: connection
    :width: 60%
 
-Enter Configuration Details
-+++++
-
-Adding connection would take you to another configuration page as shown below. Refer the table given below to enter the details on this page.
 
 .. figure:: ../../../_assets/installation/connection/mysql_connections.PNG
    :alt: connection
@@ -57,9 +53,9 @@ Adding connection would take you to another configuration page as shown below. R
 Test Connection and Save
 +++++
 
-Once you have entered all the details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
+Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
 
-Now, you are ready to create connection using the resources in datasets and workflows.
+Now, you are ready to start using the Connection in workflows.
 
 
 .. Note:: Make sure that MySQL URL should be accessible from Sparkflows web server URL.

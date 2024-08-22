@@ -13,13 +13,19 @@ Incorta User Guide
 
     :doc:`/incorta/user-guide/incorta-schema-creation`
 
-    Describes details steps involved in creating a Schema in Incorta.
+    Describes steps involved in creating a Schema in Incorta.
 
     ---
 
     :doc:`/incorta/user-guide/incorta-uploading-datafile`
 
-    Describes details steps involved in uploading datafiles in the Incorta instance.
+    Describes steps involved in uploading datafiles in the Incorta instance.
+
+    ---
+
+    :doc:`/incorta/user-guide/incorta-datatable-creation`
+
+    Describes steps involved in creating a Incorta Data Table.
 
 .. toctree::
    :hidden:
@@ -27,3 +33,4 @@ Incorta User Guide
    user-guide/incorta-integration.rst
    user-guide/incorta-schema-creation.rst
    user-guide/incorta-uploading-datafile.rst
+   user-guide/incorta-datatable-creation.rst

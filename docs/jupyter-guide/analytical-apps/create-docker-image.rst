@@ -14,3 +14,133 @@ Below are the Docker commands used to build the image and push it to Docker Hub,
 
 
 .. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.
+
+Deploy Docker image in Kubernetes
+================
+
+Fire Insights uses the below YAML files to deploy in kubernetes cluster:
+
+deployment.yaml
+---------------
+
+    .. code:: YAML
+
+        apiVersion: apps/v1
+        kind: Deployment
+        metadata:
+            name: sparkflows-app
+            labels:
+                app: sparkflows-app
+        spec:
+            replicas: 1
+            selector:
+                matchLabels:
+                app: sparkflows-app
+            template:
+                metadata:
+
+                labels:
+                    app: sparkflows-app
+                spec:
+                serviceAccountName: sparkflows-admin
+                volumes:
+                    - name: sparkflows-vol
+                    persistentVolumeClaim:
+                        claimName: fire-pvc
+                containers:
+                    - name: sparkflows-fire-jupyter
+                    image: "sparkflows/fire:py_3.2.1_3.2.81-rc1"
+                    imagePullPolicy: IfNotPresent
+                    volumeMounts:
+                        - name: sparkflows-vol
+                        mountPath: /data
+                    env:
+                        - name: KEYSTORE_PASSWORD
+                        value: "12345678"
+
+                    ports:
+                        - name: http
+                        containerPort: 8080
+                        protocol: TCP
+                    livenessProbe:
+                        httpGet:
+                        path: /
+                        port: 8080
+                        initialDelaySeconds: 80
+                        periodSeconds: 20
+                    readinessProbe:
+                        httpGet:
+                        path: /
+                        port: 8080
+
+        ---
+
+        apiVersion: v1
+        kind: Service
+        metadata:
+            name: sparkflows-app
+            labels:
+                app: sparkflows-app
+        spec:
+            type: LoadBalancer
+            ports:
+                - port: 8080
+                targetPort: http
+                protocol: TCP
+                name: http
+            selector:
+                app: sparkflows-app
+
+
+binding.yaml
+------------
+
+    .. code:: YAML
+
+        apiVersion: rbac.authorization.k8s.io/v1
+        kind: ClusterRoleBinding
+        metadata:
+            name: job-creator-binding
+        subjects:
+        - kind: ServiceAccount
+            name: sparkflows-admin
+            namespace: default
+        roleRef:
+            kind: ClusterRole
+            name: job-creator
+            apiGroup: rbac.authorization.k8s.io
+
+role.yaml
+---------
+    
+        .. code:: YAML
+    
+            apiVersion: rbac.authorization.k8s.io/v1
+            kind: ClusterRole
+            metadata:
+            name: job-creator
+            rules:
+            - apiGroups: ["batch",""]
+              resources:
+              - jobs
+              - pods
+              - pods/log
+              verbs:
+              - create
+              - get
+              - update
+              - watch
+              - list
+              - delete
+
+serviceaccount.yaml
+-------------------
+    
+        .. code:: YAML
+    
+            apiVersion: v1
+            kind: ServiceAccount
+            metadata:
+                name: sparkflows-admin
+            annotations:
+                eks.amazonaws.com/role-arn: arn:aws:iam::004331324847:role/eks-stem

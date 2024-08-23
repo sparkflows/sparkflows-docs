@@ -91,6 +91,8 @@ deployment.yaml
             selector:
                 app: sparkflows-app
 
+|
+
 serviceaccount.yaml
 +++++
 Create a user account with a name say `sparkflows-admin`, and add the role which was used to create the EKS in the annotation
@@ -103,6 +105,8 @@ Create a user account with a name say `sparkflows-admin`, and add the role which
                 name: sparkflows-admin
             annotations:
                 eks.amazonaws.com/role-arn: arn:aws:iam::xxxxxxxxxxxx:role/eks-stem
+
+|
 
 role.yaml
 +++++
@@ -128,6 +132,7 @@ Create user job role, that defines the set of permissions required for Sparkflow
               - list
               - delete
 
+|
 
 binding.yaml
 +++++

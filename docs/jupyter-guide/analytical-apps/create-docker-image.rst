@@ -16,12 +16,12 @@ Below are the Docker commands used to build the image and push it to Docker Hub,
 .. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.
 
 Deploy Docker image in Kubernetes
-================
+---------------------------------
 
 Fire Insights uses the below YAML files to deploy in kubernetes cluster:
 
 deployment.yaml
----------------
++++++
 
     .. code:: YAML
 
@@ -91,27 +91,22 @@ deployment.yaml
             selector:
                 app: sparkflows-app
 
-
-binding.yaml
-------------
-
-    .. code:: YAML
-
-        apiVersion: rbac.authorization.k8s.io/v1
-        kind: ClusterRoleBinding
-        metadata:
-            name: job-creator-binding
-        subjects:
-        - kind: ServiceAccount
-            name: sparkflows-admin
-            namespace: default
-        roleRef:
-            kind: ClusterRole
-            name: job-creator
-            apiGroup: rbac.authorization.k8s.io
+serviceaccount.yaml
++++++
+Create a user account with a name say `sparkflows-admin`, and add the role which was used to create the EKS in the annotation
+    
+        .. code:: YAML
+    
+            apiVersion: v1
+            kind: ServiceAccount
+            metadata:
+                name: sparkflows-admin
+            annotations:
+                eks.amazonaws.com/role-arn: arn:aws:iam::xxxxxxxxxxxx:role/eks-stem
 
 role.yaml
----------
++++++
+Create user job role, that defines the set of permissions required for Sparkflows in order to run Jupyter notebook.
     
         .. code:: YAML
     
@@ -133,14 +128,25 @@ role.yaml
               - list
               - delete
 
-serviceaccount.yaml
--------------------
-    
-        .. code:: YAML
-    
-            apiVersion: v1
-            kind: ServiceAccount
-            metadata:
-                name: sparkflows-admin
-            annotations:
-                eks.amazonaws.com/role-arn: arn:aws:iam::004331324847:role/eks-stem
+
+binding.yaml
++++++
+Bind the role using the job-binding resource, with subject as sparkflows-admin
+    .. code:: YAML
+
+        apiVersion: rbac.authorization.k8s.io/v1
+        kind: ClusterRoleBinding
+        metadata:
+            name: job-creator-binding
+        subjects:
+        - kind: ServiceAccount
+            name: sparkflows-admin
+            namespace: default
+        roleRef:
+            kind: ClusterRole
+            name: job-creator
+            apiGroup: rbac.authorization.k8s.io
+
+
+
+

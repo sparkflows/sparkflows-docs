@@ -1,4 +1,4 @@
-Velo Code Used on Videos Page
+Velo Code Used on Videos Dynamic Page
 ====================================
 
 Below is the velo code used on our dynamic videos page : https://www.sparkflows.io/videos?category=Home 

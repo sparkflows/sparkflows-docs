@@ -27,6 +27,12 @@ Incorta User Guide
 
     Describes steps involved in creating a Incorta Data Table.
 
+    ---
+
+    :doc:`/incorta/user-guide/incorta-loading-datatable`
+
+    Describes steps involved in loading a Incorta Data Table.
+
 .. toctree::
    :hidden:
 
@@ -34,3 +40,4 @@ Incorta User Guide
    user-guide/incorta-schema-creation.rst
    user-guide/incorta-uploading-datafile.rst
    user-guide/incorta-datatable-creation.rst
+   user-guide/incorta-loading-datatable.rst

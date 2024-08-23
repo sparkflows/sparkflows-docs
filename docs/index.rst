@@ -213,7 +213,15 @@ REST API
 .. toctree::
    :maxdepth: 2
 
-   rest-api/index   
+   rest-api/index 
+
+How To
+----------
+
+.. toctree::
+   :maxdepth: 2
+
+   how-to/index 
 
    
 Release Notes

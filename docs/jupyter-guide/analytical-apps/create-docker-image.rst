@@ -132,20 +132,21 @@ Create user job role, that defines the set of permissions required for Sparkflow
 binding.yaml
 +++++
 Bind the role using the job-binding resource, with subject as sparkflows-admin
-    .. code:: YAML
-
-        apiVersion: rbac.authorization.k8s.io/v1
-        kind: ClusterRoleBinding
-        metadata:
-            name: job-creator-binding
-        subjects:
-        - kind: ServiceAccount
-            name: sparkflows-admin
-            namespace: default
-        roleRef:
-            kind: ClusterRole
-            name: job-creator
-            apiGroup: rbac.authorization.k8s.io
+    
+        .. code:: YAML
+    
+            apiVersion: rbac.authorization.k8s.io/v1
+            kind: ClusterRoleBinding
+            metadata:
+                name: job-creator-binding
+            subjects:
+            - kind: ServiceAccount
+                name: sparkflows-admin
+                namespace: default
+            roleRef:
+                kind: ClusterRole
+                name: job-creator
+                apiGroup: rbac.authorization.k8s.io
 
 
 

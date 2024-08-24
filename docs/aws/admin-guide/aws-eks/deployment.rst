@@ -127,7 +127,7 @@ Use the external IP of the service to access Sparkflows. The external IP can be 
 
     .. code-block:: bash
 
-        kubectl get svc fire
+        kubectl get svc sparkflows-app
 
 You can now use the **<external-IP>:targetPort** to access Sparkflows in the browser.
 

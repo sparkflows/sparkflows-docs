@@ -132,7 +132,7 @@ Once your EKS cluster is up and running, you'll need to update the local kubecon
       metadata:
         name: sparkflows-admin
         annotations:
-          eks.amazonaws.com/role-arn: arn:aws:iam::004331324847:role/eks-stem
+          eks.amazonaws.com/role-arn: arn:aws:iam::AccountID:role/eks-sparkflows
 
    Apply this configuration: ::
 

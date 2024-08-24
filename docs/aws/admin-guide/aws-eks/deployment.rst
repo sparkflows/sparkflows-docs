@@ -138,7 +138,7 @@ Use the external IP of the service to access Sparkflows. The external IP can be 
 
 You can now use the **<external-IP>:targetPort** to access Sparkflows in the browser.
 
-  .. note::  Two user accounts come preconfigured with Sparkflows.
+  .. note::  Two user accounts come preconfigured with Sparkflows, also make sure to update ``app.postMessageURL`` as per Sparkflows absolute URL running and should be accessible.
             
              * admin/admin
              * test/test

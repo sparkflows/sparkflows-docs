@@ -115,6 +115,8 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
 
 The above yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 1vCPU. You can configure the resources limit, as per your requirement. This will also mount the /root directory to the persistent volume which will make sure that the H2 database persists across restart of the pod.
 
+.. note::  Update Sparkflows Image based on release
+
     .. code-block:: bash
 
         kubectl apply -f deployment.yaml

@@ -4,7 +4,7 @@ Below are the steps to deploy Fire Insights AWS Elastic Kubernetes Service (EKS)
 
 Step 1 : Create a Persistent Volume
 ---------------------------------------
-The following configuration will create a persistent volume which is backed by the host path, managed by kubernetes. The size we have set it up is 10GB. This storage will be mounted on the Sparkflows container, at the path where the H2 database is being stored.  
+The following configuration will create a persistent volume which is backed by the host path, managed by kubernetes. The size we have set it up is 10GB. This storage will be mounted on the Sparkflows container, at the path where the H2 database is being stored. In the below the host path is set to /data/fire
 
 .. code-block:: YAML
 
@@ -46,7 +46,8 @@ Use the below command to create the persistent volume and claim
 
 Step 2: Create Sparkflows Service/Deployment
 ---------------------------------------------
-Create deployment/service using kubectl. Update image url of deployment.yaml file as per the latest version available. The below yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 1vCPU. You can configure the resources limit, as per your requirement.
+
+Create deployment/service using kubectl. Update image url of deployment.yaml file as per the latest version available. The below yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 4vCPU. You can configure the resources limit, as per your requirement.
 
 .. code-block:: YAML
 
@@ -77,10 +78,10 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
               imagePullPolicy: IfNotPresent
               resources:
                 limits:
-                  cpu: "1"
+                  cpu: "4"
                   memory: "16Gi"
                 requests:
-                  cpu: "0.5"
+                  cpu: "2"
                   memory: "8Gi"
               volumeMounts:
                 - name: sparkflows-vol
@@ -133,6 +134,7 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
 
 Step 3 : Check Deployment
 -------------------
+
 On successful deployment, check the status of the pods and services using the following commands:
 
     .. code-block:: bash
@@ -141,6 +143,7 @@ On successful deployment, check the status of the pods and services using the fo
 
 Step 4 : Access Sparkflows
 -------------------
+
 Use the external IP of the service to access Sparkflows. The external IP can be found using the following command:
 
     .. code-block:: bash
@@ -158,6 +161,7 @@ You can now use the **<external-IP>:targetPort** to access Sparkflows in the bro
 
 Step 5 : Update/Upgrade Sparkflows
 -------------------
+
 In order to update any configuration in the deployment.yaml, like image version or container resources limits/requests you need to first delete the current deployment using the below command.
 
 .. code-block:: bash

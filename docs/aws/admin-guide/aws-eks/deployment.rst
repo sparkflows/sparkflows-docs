@@ -2,10 +2,9 @@ Deployment
 ===========
 Below are the steps to deploy Fire Insights AWS Elastic Kubernetes Service (EKS).
 
-Step 1 : Create Deployment Service
+Step 1 : Create a Persistent Volume
 ---------------------------------------
-
-Create deployment/service using kubectl. Update image url of deployment.yaml file accordingly. 
+The following configuration will create a persistent volume which is backed by the host path, managed by kubernetes. The size we have set it up is 10GB. This storage will be mounted on the Sparkflows container, at the path where the H2 database is being stored.  
 
 .. code-block:: YAML
 
@@ -15,16 +14,15 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
       name: fire-pv
     spec:
      capacity:
-       storage: 5Gi
+       storage: 10Gi
     accessModes:
       - ReadWriteOnce
     persistentVolumeReclaimPolicy: Retain
     storageClassName: standard
     hostPath:
       path: /data/fire
-    
-.. code-block:: YAML
 
+    ---
 
     apiVersion: v1
     kind: PersistentVolumeClaim
@@ -37,6 +35,18 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
         requests:
           storage: 5Gi
       storageClassName: standard
+
+Use the below command to create the persistent volume and claim
+
+.. code-block:: bash
+
+      kubectl apply -f pv.yaml
+
+
+
+Step 2: Create Sparkflows Service/Deployment
+---------------------------------------------
+Create deployment/service using kubectl. Update image url of deployment.yaml file as per the latest version available. The below yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 1vCPU. You can configure the resources limit, as per your requirement.
 
 .. code-block:: YAML
 
@@ -94,7 +104,7 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
                   path: /
                   port: 8080
 
-.. code-block:: YAML
+    ---
 
     apiVersion: v1
     kind: Service
@@ -113,7 +123,6 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
         app: sparkflows-app
 
 
-The above yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 1vCPU. You can configure the resources limit, as per your requirement. This will also mount the /root directory to the persistent volume which will make sure that the H2 database persists across restart of the pod.
 
 .. note::  Update Sparkflows Image based on release, which would be shared by Sparkflows.
 
@@ -122,7 +131,7 @@ The above yaml file creates a service and deployment for Sparkflows with resourc
         kubectl apply -f deployment.yaml
 
 
-Step 2 : Check Deployment
+Step 3 : Check Deployment
 -------------------
 On successful deployment, check the status of the pods and services using the following commands:
 
@@ -130,7 +139,7 @@ On successful deployment, check the status of the pods and services using the fo
 
         kubectl get po -A | grep sparkflows-app
 
-Step 3 : Access Sparkflows
+Step 4 : Access Sparkflows
 -------------------
 Use the external IP of the service to access Sparkflows. The external IP can be found using the following command:
 
@@ -146,3 +155,18 @@ You can now use the **<external-IP>:targetPort** to access Sparkflows in the bro
              * test/test
              
              You may change these usernames and passwords in Fire.
+
+Step 5 : Update/Upgrade Sparkflows
+-------------------
+In order to update any configuration in the deployment.yaml, like image version or container resources limits/requests you need to first delete the current deployment using the below command.
+
+.. code-block:: bash
+
+        kubectl delete -f deployment.yaml
+
+Once you've deleted the deployment, re-create the service. We need to do this, because two instances can't use the same H2 database as it's a file based DB.
+
+.. code-block:: bash
+
+        kubectl apply -f deployment.yaml
+

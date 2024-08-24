@@ -63,7 +63,7 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
                 claimName: fire-pvc
           containers:
             - name: sparkflows-fire
-              image: "sparkflows/fire:py_3.2.1_3.2.81-rc11"
+              image: "sparkflows/fire:py_3.2.1_3.2.81-rc1"
               imagePullPolicy: IfNotPresent
               resources:
                 limits:

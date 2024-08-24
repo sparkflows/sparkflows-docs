@@ -76,8 +76,7 @@ Once Jupyter Connection is Enabled.
 
    * **Path** - (Optional) Path of kubernetes configuration. For example - **/home/user1/.kube/kubeconfig**, if running inside kubernetes ignore this field.
    * **Namespace** - Namespace of kubernetes where the notebook will get executed. Default value - **default** 
-   * **Docker image** - Notebook docker image - Default value - **sparkflows/fire:jupyternotebook.49**
-   * **Docker image** - Notebook docker image - Latest value - **sparkflows/fire:jupyternotebook_3.2.81**
+   * **Docker image** - Notebook docker image - value - **sparkflows/fire:jupyternotebook_3.2.81**
   
    .. figure:: ../../_assets/jupyter/add_connection_kubernetes.png
        :alt: jupyter-notebook

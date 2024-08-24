@@ -3,10 +3,10 @@ Analytical Apps with Jupyter Notebooks on Kubernetes
 
 This document describes the steps to building Analytical Apps powered by Jupyter Notebooks running on Kubenetes Cluster.
 
-Install Kubernetes
+Deploying Fire Insights on EKS
 -----
 
-https://docs.sparkflows.io/en/latest/kubernetes/fire-insights.html
+https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-eks/index.html
 
 Wheel File for writing code in Notebook
 -----

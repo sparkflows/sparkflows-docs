@@ -33,7 +33,7 @@ Step 1 : Enable Jupyter Notebook in Fire Insights
 Step 2 : Add and Save the Connection
 -------------------
 
-Once you save the above configurations:
+Once Jupyter Connection is Enabled.
 
 #. Navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 

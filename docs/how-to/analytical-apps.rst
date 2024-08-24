@@ -43,6 +43,13 @@ Create Analytical Apps in Fire Insights
 
 https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/creating-analytical-app.html
 
+Example Analytical Apps
+-----
+
+The below location contain some example Analytical Apps which can be easily imported into Fire Insights.
+
+https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker/notebooks
+
 Analytical App Example 1
 -----
 

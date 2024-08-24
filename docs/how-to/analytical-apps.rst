@@ -48,7 +48,7 @@ Example Analytical Apps
 
 The below location contain some example Analytical Apps which can be easily imported into Fire Insights.
 
-https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker/notebooks
+https://github.com/sparkflows/fire-tools/tree/main/analytical-apps
 
 Analytical App Example 1
 -----

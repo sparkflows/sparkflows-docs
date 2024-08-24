@@ -5,7 +5,7 @@ Below are the steps to deploy Fire Insights AWS Elastic Kubernetes Service (EKS)
 Step 1 : Create Deployment Service
 ---------------------------------------
 
-Create deployment/service using kubectl. Update image url of deployment.yaml file accordingly.
+Create deployment/service using kubectl. Update image url of deployment.yaml file accordingly. 
 
 .. code-block:: YAML
 
@@ -65,9 +65,16 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
             - name: sparkflows-fire
               image: "sparkflows/fire:py_3.2.1_3.2.81-rc11"
               imagePullPolicy: IfNotPresent
+              resources:
+                limits:
+                  cpu: "1"
+                  memory: "16Gi"
+                requests:
+                  cpu: "0.5"
+                  memory: "8Gi"
               volumeMounts:
                 - name: sparkflows-vol
-                  mountPath: /data
+                  mountPath: /root
               env:
                 - name: KEYSTORE_PASSWORD
                   value: "12345678"
@@ -106,7 +113,7 @@ Create deployment/service using kubectl. Update image url of deployment.yaml fil
         app: sparkflows-app
 
 
-The above yaml file creates a service and deployment for Sparkflows.
+The above yaml file creates a service and deployment for Sparkflows with resource limit of 16GB ram and 1vCPU. You can configure the resources limit, as per your requirement. This will also mount the /root directory to the persistent volume which will make sure that the H2 database persists across restart of the pod.
 
     .. code-block:: bash
 

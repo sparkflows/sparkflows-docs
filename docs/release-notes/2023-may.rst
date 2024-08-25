@@ -1,4 +1,4 @@
-April 19 2023 (Version 3.2.8)
+April 19 2023 (Version 3.2.7)
 ==================================
 
 New Features:

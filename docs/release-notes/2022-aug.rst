@@ -1,4 +1,4 @@
-August 2022
+August 2022 (Version 3.1.60)
 ========
 
 These features and Fire Insights platform improvements were released in August 2022.

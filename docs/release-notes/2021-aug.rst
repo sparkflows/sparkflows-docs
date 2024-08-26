@@ -1,4 +1,4 @@
-August 2021 (Version 3.1.38)
+Version 3.1.20 - August 31st, 2021
 =========
 
 Stage Condition In Analytic Apps Stages

@@ -1,4 +1,4 @@
-Version 3.2.9 - December 31st, 2023
+Version 3.2.72 - December 31st, 2023
 ===========
 
 New Features

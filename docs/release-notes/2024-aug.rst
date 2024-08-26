@@ -8,7 +8,7 @@ New Features
 * New Node: PGP Decryption: A new PGP Decryption node has been introduced to facilitate the decryption of PGP files. The decrypted files can be uploaded directly to a specified S3 location.
 * Automation Execution Cleanup: Sparkflows now includes functionality to clean up workflow and pipeline executions based on a specified cron expression. 
 * Logs Automation Cleanup: A new feature has been added to automate the cleanup of older logs using a specified cron expression.
-* Cloning of Connection: A new feature has beed added to Cloning the Connection for Administration.
+* Cloning of Connection: A new feature has beed added for Cloning of Connections for Administration.
 
 Improvements
 -------------

@@ -1,4 +1,4 @@
-July 2019
+Version 3.1.7 - July 31st, 2019
 =========
 
 Integration of H2O

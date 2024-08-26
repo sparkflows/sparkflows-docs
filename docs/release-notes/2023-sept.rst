@@ -1,4 +1,4 @@
-Version 3.2.6 - September 30th, 2023
+Version 3.2.60 - September 30th, 2023
 ==================================
 
 New Features

@@ -1,4 +1,4 @@
-Version 3.3.5 - June 30th, 2024
+Version 3.2.82 - June 30th, 2024
 =============
 
 New Features

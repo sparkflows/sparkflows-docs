@@ -1,4 +1,4 @@
-MacOS Installation
+MacOS Installation using TGZ file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sparkflows can run independently on a machine since we package Apache Spark along with it. It can also be connected to a Spark cluster to submit jobs.

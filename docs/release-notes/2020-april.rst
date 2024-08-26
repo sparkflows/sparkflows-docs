@@ -1,4 +1,4 @@
-April 2020
+Version 3.1.13 - April 30th, 2020
 ==========
 
 New Features

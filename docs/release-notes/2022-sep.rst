@@ -1,4 +1,4 @@
-September 2022 (Version 3.1.62)
+Version 3.1.31 - September 30th, 2022
 =============
 
 These features and Sparkflows platform improvements were released in September 2022.

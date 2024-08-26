@@ -1,4 +1,4 @@
-January 31 2024
+Version 3.3.0 - January 31st, 2024
 =================
 
 New Features

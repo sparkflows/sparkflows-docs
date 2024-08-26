@@ -1,4 +1,4 @@
-Version 3.2.5 -  August 31st, 2023
+Version 3.2.50 -  August 31st, 2023
 ==================================
 
 New Features

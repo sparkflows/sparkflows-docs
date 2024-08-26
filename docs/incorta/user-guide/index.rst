@@ -33,6 +33,12 @@ Incorta User Guide
 
     Describes steps involved in loading a Incorta Data Table.
 
+    ---
+
+    :doc:`/incorta/user-guide/incorta-reading-data`
+
+    Describes steps involved in Reading Data From Incorta Table.
+
 .. toctree::
    :hidden:
 
@@ -41,3 +47,4 @@ Incorta User Guide
    user-guide/incorta-uploading-datafile.rst
    user-guide/incorta-datatable-creation.rst
    user-guide/incorta-loading-datatable.rst
+   user-guide/incorta-reading-data.rst

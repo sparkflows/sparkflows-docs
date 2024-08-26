@@ -1,4 +1,4 @@
-August 2019
+Version 3.1.8 - August 31st, 2019
 ============
 
 New Processors Added For Scala Engine

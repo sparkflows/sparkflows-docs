@@ -1,4 +1,4 @@
-Version 3.2.1 - April 24th, 2023
+Version 3.2.10 - April 24th, 2023
 ==================================
 
 New Features:

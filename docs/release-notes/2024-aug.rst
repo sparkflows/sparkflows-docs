@@ -6,8 +6,8 @@ New Features
 
 * Guardian Integration: Sparkflows now supports integration with Guardian, enhancing the security and compliance capabilities of the platform.
 * New Node: PGP Decryption: A new PGP Decryption node has been introduced to facilitate the decryption of PGP files. The decrypted files can be uploaded directly to a specified S3 location.
-* Automation Execution Cleanup: Sparkflows now includes functionality to clean up workflow and pipeline executions based on a specified cron expression in conf/application.properties: `db.cleanup.cronExpression=0 1 1 * * ?`
-* Logs Automation Cleanup: A new feature has been added to automate the cleanup of older logs using a specified cron expression. Update the following property in conf/application.properties to configure this: `log.cleanup.cronExpression=0 0 12 * * ?`
+* Automation Execution Cleanup: Sparkflows now includes functionality to clean up workflow and pipeline executions based on a specified cron expression. 
+* Logs Automation Cleanup: A new feature has been added to automate the cleanup of older logs using a specified cron expression.
 
 
 Improvements

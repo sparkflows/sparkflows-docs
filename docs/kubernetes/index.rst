@@ -32,6 +32,12 @@ This document captures the steps for installing Fire Insights.
 
     ---
 
+    :doc:`/kubernetes/fire-insights`
+
+    Installing Fire Inisights on Kubernetes Cluster.
+
+    ---
+
     :doc:`/kubernetes/minio`
 
     Installing minio on Kubernetes Cluster.
@@ -56,12 +62,6 @@ This document captures the steps for installing Fire Insights.
 
     ---
 
-    :doc:`/kubernetes/fire-insights`
-
-    Installing Fire Inisights on Kubernetes Cluster.
-
-    ---
-
     :doc:`/kubernetes/spark-job`
 
     Submitting a Spark Job on a Kubernetes Cluster.
@@ -72,11 +72,11 @@ This document captures the steps for installing Fire Insights.
    
    kubernetes/index.rst
    rancher.rst
+   fire-insights.rst
    minio.rst
    spark.rst
    hive.rst
    jupyter.rst
-   fire-insights.rst
    spark-job.rst
    
    

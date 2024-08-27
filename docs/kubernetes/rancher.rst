@@ -1,4 +1,4 @@
-Install Kubernetes
+Install Kubernetes/Rancher
 ==========================
 
   

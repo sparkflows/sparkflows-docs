@@ -11,6 +11,7 @@ Fire Insights Docker Image
 
 * Aug 26, 2024
     * sparkflows/fire:py_3.2.1_3.2.81-rc42
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.2.1_3.2.81-rc42/images/sha256-e5f6c2071e4d8d1690826673a1201ca7b067f968807aea99ec0491521067a833?context=explore
 * Aug 25, 2024
     * sparkflows/fire:py_3.3.0_3.2.83-rc22
 * Aug 24, 2024

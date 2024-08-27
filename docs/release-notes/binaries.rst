@@ -8,8 +8,11 @@ Fire Insights TGZ File
 
 Fire Insights Docker Image
 ------
-* sparkflows/fire:py_3.2.1_3.2.81-rc42
-* sparkflows/fire:py_3.2.1_3.2.81-rc1
+
+* Aug 26, 2024
+    * sparkflows/fire:py_3.2.1_3.2.81-rc42
+* Aug 14, 2024
+    * sparkflows/fire:py_3.2.1_3.2.81-rc1
 
 Notebook SDK Wheel File
 -----
@@ -19,5 +22,8 @@ Notebook SDK Wheel File
 Jupyter Notebook Docker Image
 -----------
 
-* sparkflows/fire:jupyternotebook_3.2.82-rc1
-* sparkflows/fire:jupyternotebook_3.2.82
+* Aug 24, 2024
+    * sparkflows/fire:jupyternotebook_3.2.82
+* Aug 24, 2024
+    * sparkflows/fire:jupyternotebook_3.2.81-rc1
+

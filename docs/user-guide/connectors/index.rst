@@ -57,6 +57,7 @@ Connector Processors in Fire Insights
    jdbc.rst
    mysql.rst
    snowflake.rst
+   sap/index.rst
    hive.rst
    redshift.rst
    databricks.rst
@@ -64,7 +65,7 @@ Connector Processors in Fire Insights
    elasticsearch.rst
    mongodb.rst
    save-cassandra.rst
-   sap/index.rst
+
 
    
    

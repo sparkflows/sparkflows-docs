@@ -10,18 +10,6 @@ Fire Insights can be installed using one of the below binaries and installers as
    :doc:`/installation/installation/deployment-requirements/index`
    
    Infrastructure Deployment Requirements
-
-   ---
-
-   :doc:`/installation/installation/docker-windows-install`
-   
-   Running Sparkflows Docker Image on Windows 10
-   
-   ---
-   
-   :doc:`/installation/installation/docker-linux-install`
-   
-   Running Sparkflows Docker Image on Linux
    
    ---
    
@@ -46,9 +34,27 @@ Fire Insights can be installed using one of the below binaries and installers as
    :doc:`/installation/installation/windows-laptop-desktop-installer`
    
    Sparkflows Installer for Windows Laptop and Desktops
+
+   ---
+
+   :doc:`/installation/installation/docker-windows-install`
+   
+   Running Sparkflows Docker Image on Windows 10
    
    ---
    
+   :doc:`/installation/installation/docker-linux-install`
+   
+   Running Sparkflows Docker Image on Linux
+
+   ---
+
+   :doc:`/installation/installation/kubernetes-install`
+   
+   Sparkflows Installation on Kubernetes
+
+   ---
+
    :doc:`/installation/installation/python-install-redhat-centos`
    
    Installing Python on RedHat and centOS for PySpark engine of Sparkflows
@@ -83,6 +89,7 @@ Fire Insights can be installed using one of the below binaries and installers as
    windows-laptop-desktop-installer.rst
    docker-windows-install.rst
    docker-linux-install.rst
+   kubernetes-install.rst
    python-install-redhat-centos.rst
    python-install-ubuntu.rst
    python-install-macos.rst

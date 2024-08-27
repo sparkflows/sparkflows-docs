@@ -11,6 +11,10 @@ Fire Insights Docker Image
 
 * Aug 26, 2024
     * sparkflows/fire:py_3.2.1_3.2.81-rc42
+* Aug 25, 2024
+    * sparkflows/fire:py_3.3.0_3.2.83-rc22
+* Aug 24, 2024
+    * sparkflows/fire:py_3.3.0_3.2.83-rc20
 * Aug 14, 2024
     * sparkflows/fire:py_3.2.1_3.2.81-rc1
 
@@ -26,4 +30,3 @@ Jupyter Notebook Docker Image
     * sparkflows/fire:jupyternotebook_3.2.82
 * Aug 24, 2024
     * sparkflows/fire:jupyternotebook_3.2.81-rc1
-

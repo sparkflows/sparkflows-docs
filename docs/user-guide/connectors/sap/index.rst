@@ -10,6 +10,8 @@ Fire Insights provides multiple ways to connect with SAP Databases.
    :maxdepth: 2
 
    hana-jdbc.rst
+   sap-odata.rst
+
    
    
 

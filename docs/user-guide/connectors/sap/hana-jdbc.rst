@@ -12,6 +12,10 @@ The SAP HANA JDBC Driver can be downloaded from the link given below::
 
 https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc
 
+CData also provides JDBC drivers for reading and writing data to SAP::
+
+https://www.cdata.com/drivers/sap/jdbc
+
 Download SAP HANA JDBC Driver from SAP Service Marketplace
 ------------
 
@@ -31,4 +35,4 @@ Below are the steps to configure the driver in Fire Insights in order to read an
 - In administration/global connection, use add a connection with storage type and select the JDBC type. Enter the connection details like URL, driver name, username, password etc for SAP HANA.
    More details on connection: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/index.html
 
-- Login to the Fire Insights application and go inside the ``project and workflow tab`` to create a sample workflow by reading and writing to HANA through Read JDBC and Save JDBC Processors. Select the connection in Read and Save nodes.
+- Login to the Fire Insights application and go inside the ``Project and Workflow tab`` to create a sample workflow by reading and writing to HANA through Read JDBC and Save JDBC Processors. Select the connection in Read and Save nodes.

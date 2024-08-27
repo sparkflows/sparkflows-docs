@@ -42,9 +42,9 @@ Incorta User Guide
 .. toctree::
    :hidden:
 
-   user-guide/incorta-integration.rst
-   user-guide/incorta-schema-creation.rst
-   user-guide/incorta-uploading-datafile.rst
-   user-guide/incorta-datatable-creation.rst
-   user-guide/incorta-loading-datatable.rst
-   user-guide/incorta-reading-data.rst
+   incorta-integration.rst
+   incorta-schema-creation.rst
+   incorta-uploading-datafile.rst
+   incorta-datatable-creation.rst
+   incorta-loading-datatable.rst
+   incorta-reading-data.rst

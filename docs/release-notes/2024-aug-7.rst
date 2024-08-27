@@ -4,16 +4,15 @@ Version 3.2.84 - August 7th, 2024
 New Features
 --------------
 
-* Added the existing Scala node.
-* Added Delta support for PySpark Engine.
-* Added EMR SERVER LESS support.
+* Delta support for PySpark Engine.
+* EMR Serverless support.
 
 
 Documentation
 ---------------
 
-* Updated the documentation for Delta Support.
-* Updated the documentation for Amazon EMR Serverless Integration.
+* Updated documentation for Delta Support.
+* Updated documentation for Amazon EMR Serverless Integration.
 
 
 

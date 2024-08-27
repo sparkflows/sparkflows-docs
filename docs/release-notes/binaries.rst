@@ -8,7 +8,7 @@ Fire Insights TGZ File
 
 Fire Insights Docker Image
 ------
-* sparkflows/fire:py_3.2.1_3.2.81-rc1
+* sparkflows/fire:py_3.2.1_3.2.81-rc42
 
 Notebook SDK Wheel File
 -----

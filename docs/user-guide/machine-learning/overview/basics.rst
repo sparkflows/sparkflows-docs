@@ -36,4 +36,4 @@ Following flow-chart explains how to use different types of ML Algorithms based 
 .. figure:: ../../../_assets/user-guide/machine-learning/ml_algorithm_guide.png
    :alt: Architecture
    :align: center
-   :width: 80%
+   :width: 90%

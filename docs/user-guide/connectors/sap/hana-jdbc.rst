@@ -37,4 +37,7 @@ Below are the steps to configure the driver in Fire Insights in order to read an
 - In administration/global connection, use add a connection with storage type and select the JDBC type. Enter the connection details like URL, driver name, username, password etc for SAP HANA.
    More details on connection: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/index.html
 
-- Login to the Fire Insights application and go inside the ``Project and Workflow tab`` to create a sample workflow by reading and writing to HANA through Read JDBC and Save JDBC Processors. Select the connection in Read and Save nodes.
+Create workflow for reading/writing data to SAP HANA
+-----------
+
+- Login to the Fire Insights application and go inside the ``Project and Workflow tab`` to create a sample workflow for reading and writing to HANA through Read JDBC and Save JDBC Processors. Select the connection in Read and Save nodes.

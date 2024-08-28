@@ -31,7 +31,7 @@ This type of machine learning involves training a model to make decisions in an 
 
 ==============================
 
-.. figure:: ../_assets/user-guide/machine-learning/ml_algorithm_guide.png
+.. figure:: ../../../_assets/user-guide/machine-learning/ml_algorithm_guide.png
    :alt: Architecture
    :align: center
    :width: 70%

@@ -1,62 +1,44 @@
 MongoDB
 ==========
 
-Fire Insights has a processor that allows you to connect with MongoDB.
+Fire Insights has a set of processors that allows you to read and write data to MongoDB.
 
-
-Workflow for Reading Data from MongoDB
+Read MongoDB
 ---------------------------------------
 
-The below workflow reads data in MongoDB and then prints the data.
+* **Read MongoDB** connector can be used to read data from a table residing in a MongoDB database.
+* **Read MongoDB** connector can be configured as below.
 
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-read.png
+   :alt: Connectors
+   :width: 80%
 
-.. figure:: ../../_assets/tutorials/mongodb/ReadMongoDB_WF.png
-   :alt: ReadMongoDB
-   :width: 40%
+* **MongoDB URI:** Enter URI of the MongoDB to read data from.
+* **MongoDB Database:** Enter the Database name which contains the table to read the data from.
+* **MongoDB Table:** Enter name of the Table from which data is intended to be fetched.
+* Please click on the **Refresh Schema** button to fetch the selected Table schema. It infers the schema and pass it on to the next processor for further processing.
 
-Below is the image that displays the dialog box for the ReadMongoDB Processor.
-
-.. figure:: ../../_assets/tutorials/mongodb/Readmongodbprocessor.PNG
-   :alt: ReadMongoDB
-   :width: 75%
-   
-In the above dialog box, the ``Refresh Schema`` button infers the schema of the collections. Thus, it is able to pass down the output schema to the next Processor making it easy for us to build the workflow.   
-   
-Workflow Execution
+Save MongoDB
 ------------------
 
-When we execute the workflow, it reads in the sample collection from MongoDB and displays the first few lines.
+* **Save MongoDB** connector can be used to save data to a table residing in a MongoDB database.
+* **Save MongoDB** connector can be configured as below.
 
-We see that the sample data records that we wrote to MongoDB in the first/above workflow is read back now.
-
-.. figure:: ../../_assets/tutorials/mongodb/workflowexecutionreadmongodb.PNG
-   :alt: ReadMongoDB
-   :width: 75%
-
-
-
-Workflow for Loading data into MongoDB
----------------------------------------
-
-The below workflow reads in the sample dataset which is in CSV format from HDFS. It then saves the data into MongoDB.
-
-.. figure:: ../../_assets/tutorials/mongodb/SaveMongoDB.png
-   :alt: SaveMongoDB
-   :width: 40%
-
-The below image shows the dialog box for the SaveMongoDB Processor.
-
-.. figure:: ../../_assets/tutorials/mongodb/savemongodbprocessor.PNG
-   :alt: SaveMongoDB
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-save.png
+   :alt: Connectors
    :width: 80%
-   
-Workflow Execution
+
+* **MongoDB URI:** Enter URI of the MongoDB to save data to.
+* **MongoDB Database:** Enter the Database name which contains the table to save the data into.
+* **MongoDB Table:** Enter name of the Table to which data is intended to be saved.
+
+Workflow
 ------------------
 
-When we execute the above workflow, it reads in the dataset from HDFS and loads it into the MongoDB.
+* A sample workflow to read and save data to MongoDB table can be created as below. It uses the **MongoDB** nodes to read and write data.
+* This workflow transforms data before saving the data to the MongoDB table.
 
-.. figure:: ../../_assets/tutorials/mongodb/workflowexecutionsavemongodb.PNG
-   :alt: SaveMongoDB
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-workflow.png
+   :alt: Connectors
    :width: 80%
    
-  

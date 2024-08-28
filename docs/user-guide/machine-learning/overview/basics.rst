@@ -28,6 +28,7 @@ This type of machine learning involves training a model on an unlabeled dataset,
 
 **Reinforcement learning** - 
 This type of machine learning involves training a model to make decisions in an environment, where the goal is to maximize a reward. The model learns through trial and error, and it is common in autonomous systems, like self-driving cars and robots.
+
 ==============================
 
 Following flow-chart explains how to use different types of ML Algorithms based on the patterns in data and tyoes of use cases.
@@ -35,4 +36,4 @@ Following flow-chart explains how to use different types of ML Algorithms based 
 .. figure:: ../../../_assets/user-guide/machine-learning/ml_algorithm_guide.png
    :alt: Architecture
    :align: center
-   :width: 70%
+   :width: 80%

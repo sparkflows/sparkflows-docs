@@ -33,7 +33,7 @@ This type of machine learning involves training a model to make decisions in an 
 
 Following flow-chart explains how to use different types of ML Algorithms based on the patterns in data and tyoes of use cases.
 
-.. figure:: ../../../_assets/user-guide/machine-learning/ml_algorithm_guide.png
+.. figure:: ../../../_assets/user-guide/machine-learning/ml_algorithm_guide1.png
    :alt: Architecture
    :align: center
    :width: 90%

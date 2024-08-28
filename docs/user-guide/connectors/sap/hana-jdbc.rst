@@ -19,6 +19,8 @@ https://www.cdata.com/drivers/sap/jdbc
 Download SAP HANA JDBC Driver from SAP Service Marketplace
 ------------
 
+The SAP JDBC Driver can also be downloaded using the steps below:
+
   * Go to the SAP Service Marketplace through the link provided here: http://service.sap.com/connectors
   * You will need SAP credentials to access the Service Marketplace.
   * Download the ``ngdbc.jar`` file and install it on the Fire Insights machine.
@@ -31,7 +33,7 @@ Now, the JDBC Driver jar can be configured in Fire Insights to read and write to
 
 Below are the steps to configure the driver in Fire Insights in order to read and write to HANA:
 
-- Copy the ``ngdbc.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
+- Copy the ``ngdbc.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server. Or if you wait for 60 minutes then the driver would be loaded automatically.
 - In administration/global connection, use add a connection with storage type and select the JDBC type. Enter the connection details like URL, driver name, username, password etc for SAP HANA.
    More details on connection: https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/index.html
 

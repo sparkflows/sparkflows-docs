@@ -3,21 +3,21 @@ Cassandra
 
 Fire Insights has a processor that allows you to connect with Cassandra. Apache Cassandra is a distributed NoSQL database designed for handling large amounts of data.
 
-Setting Up A Connection To Cassandra Database
+Setting Up a Connection to Cassandra Database
 ---------------------------------------
 
-* Connection To Cassandra Database can be setup as below.
-* Connection can be setup Globally at application level using **Administration->Connections** option. It can also be setup locally for a Project.
+* The connection to Cassandra Database can be setup as below.
+* The connection can be setup Globally at application level using **Administration->Connections** option. It can also be setup locally for a Project.
 
 .. figure:: ../../_assets/tutorials/cassandra/cassandra-connection.png
    :alt: Connectors
-   :width: 80%
+   :width: 60%
 
 * **Connection Type:** Select **Cassandra** in the **Connection Type** dropdown.
-* **Connection Name:** Enter a Identifier for the connection in **Connection Name**.
-* **URL:** Enter Cassandra database url.
-* **Usename:** Enter login username to access the Cassandra database.
-* **Password:** Enter login password to access the Cassandra database.
+* **Connection Name:** Enter an Identifier for the connection in **Connection Name**.
+* **URL:** Enter the Cassandra database URL.
+* **Usename:** Enter the login username to access the Cassandra database.
+* **Password:** Enter the login password to access the Cassandra database.
 * **Title:** Enter a Title for the Cassandra connection.
 * **Description:** Enter a Description for the Cassandra connection.
 
@@ -31,7 +31,7 @@ Read Cassandra
 
 .. figure:: ../../_assets/tutorials/cassandra/cassandra-read.png
    :alt: Connectors
-   :width: 80%
+   :width: 60%
 
 * **Connection:** Select a **Cassandra Connection** from the dropdown.
 * **Cassandra Table Name:** Enter a table name from the Cassandra Database whose data is intended to be fetched.
@@ -46,7 +46,7 @@ Save Cassandra
 
 .. figure:: ../../_assets/tutorials/cassandra/cassandra-save.png
    :alt: Connectors
-   :width: 80%
+   :width: 60%
 
 * **Connection:** Select a **Cassandra Connection** from the dropdown.
 * **Cassandra Table Name:** Enter a table name from the Cassandra Database whose data is intended to be fetched.
@@ -59,5 +59,5 @@ Workflow
 
 .. figure:: ../../_assets/tutorials/cassandra/cassandra-workflow.png
    :alt: Connectors
-   :width: 80%
+   :width: 60%
 

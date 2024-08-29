@@ -3,6 +3,25 @@ MongoDB
 
 Fire Insights has a set of processors that allows you to read and write data to MongoDB.
 
+Setting Up A Connection To MongoDB Database
+---------------------------------------
+
+* Connection To MongoDB Database can be setup as below.
+* Connection can be setup Globally at application level using **Administration->Connections** option. It can also be setup locally for a Project.
+
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-connection.png
+   :alt: Connectors
+   :width: 80%
+
+* **Connection Type:** Select **MongoDB** in the **Connection Type** dropdown.
+* **Connection Name:** Enter a Identifier for the connection in **Connection Name**.
+* **URL:** Enter MongoDB database url.
+* **Usename:** Enter login username to access the MongoDB database.
+* **Password:** Enter login password to access the MongoDB database.
+* **Title:** Enter a Title for the MongoDB connection.
+* **Description:** Enter a Description for the MongoDB connection.
+* **Driver Class:** Enter the MongoDB driver class name.
+
 Read MongoDB
 ---------------------------------------
 

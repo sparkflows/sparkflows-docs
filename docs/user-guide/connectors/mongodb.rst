@@ -11,7 +11,7 @@ Setting Up A Connection To MongoDB Database
 
 .. figure:: ../../_assets/tutorials/mongodb/mongodb-connection.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **Connection Type:** Select **MongoDB** in the **Connection Type** dropdown.
 * **Connection Name:** Enter a Identifier for the connection in **Connection Name**.
@@ -30,7 +30,7 @@ Read MongoDB
 
 .. figure:: ../../_assets/tutorials/mongodb/mongodb-read.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **MongoDB URI:** Enter URI of the MongoDB to read data from.
 * **MongoDB Database:** Enter the Database name which contains the table to read the data from.
@@ -45,7 +45,7 @@ Save MongoDB
 
 .. figure:: ../../_assets/tutorials/mongodb/mongodb-save.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **MongoDB URI:** Enter URI of the MongoDB to save data to.
 * **MongoDB Database:** Enter the Database name which contains the table to save the data into.
@@ -59,5 +59,5 @@ Workflow
 
 .. figure:: ../../_assets/tutorials/mongodb/mongodb-workflow.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
    

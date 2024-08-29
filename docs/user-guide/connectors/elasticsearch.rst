@@ -13,7 +13,7 @@ Read Elastic Search
 
 .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-read.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **Index Name:** Enter a name for the collection of documents. It is a logical namespace maps to a collection of documents having similar characteristics. Each document within an Index is stored as a json object.  
 * **Elastic Search Host:** Enter network address of the machine or server where Elasticsearch is running.
@@ -38,7 +38,7 @@ Elasticsearch is often used for indexing, searching and analyzing datasets. Fire
 
 .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-save.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **Index Name:** Enter a name for the collection of documents to save the data to. It is a logical namespace maps to a collection of documents having similar characteristics. Each document within an Index is stored as a json object.  
 * **Elastic Search Host:** Enter network address of the machine or server where Elasticsearch is running.
@@ -59,5 +59,5 @@ Workflow
 
 .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-workflow.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
    

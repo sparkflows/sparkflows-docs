@@ -37,10 +37,12 @@ Feature Selection With Correlation
 ----------------------
 
 This node builds a correlation matrix containing all of the features, and ranks the features based on their correlation. This processor has 2 outputs, it prints a list with the features ranked by correlation, and it passes on a dataset containing only the top features. The number of features passed on can be changed in the configuration pane. The label column is always passed on, along with the selected features.  
+
 |
 .. figure:: ../../_assets/machinelearning/FeatureSelectionCorrealtion.png
      :alt: FSCorrelation
      :width: 65%
+
 |
 .. list-table:: **Feature Selection with Correlation Options**
    :widths: 30 70

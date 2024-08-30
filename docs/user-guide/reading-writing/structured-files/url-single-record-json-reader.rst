@@ -1,5 +1,6 @@
 URL Single Record JSON Reader
 ===============================
+This node reads content of a JSON file present at the provided URL.
 
 Below is a sample workflow which contains the URL Single Record JSON Reader processor in Fire Insights. It demonstrates the usage of URL Single Record JSON Reader node to read the content of a JSON file present at the provided URL.
 

@@ -3,6 +3,8 @@ CSV
 
 Read CSV
 ------------
+This node reads CSV Files.
+
 Below is a sample workflow which contains the Read CSV processor in Fire Insights. It demonstrates the usage of Read CSV File node to read a CSV file.
 
 It does the following processing of data:
@@ -39,6 +41,7 @@ Data read from a CSV Data File is printed as below using the Print node.
    
 Save CSV
 ----------------------------------------
+This node saves the incoming dataset as CSV File.
 
 Below is a sample workflow which contains the Save CSV processor in Fire Insights. It demonstrates the usage of Save CSV node to save the incoming dataset in CSV format.
 

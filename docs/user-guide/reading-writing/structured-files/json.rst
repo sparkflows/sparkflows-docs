@@ -3,6 +3,8 @@ JSON
 
 Read JSON
 -------------
+This node reads JSON files.
+
 Below is a sample workflow which contains the Read JSON processor in Fire Insights. It demonstrates the usage of the Read JSON node to read a JSON file.
 
 It does the following processing of data:
@@ -39,6 +41,7 @@ Data read from JSON File is printed as below using the Print node.
 
 Save JSON
 ----------------------------------------
+This node saves the incoming dataset as JSON File.
 
 Below is a sample workflow which contains the Save JSON processor in Fire Insights. It demonstrates the usage of Save JSON node to save the incoming dataset in JSON format.
 

@@ -5,21 +5,33 @@ Fire Insights provides a number of Processors or Nodes for reading and writing u
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/reading-writing/structured-files/`
+    :doc:`/user-guide/reading-writing/unstructured-files/binary`
 
     ---
 
-    :doc:`/user-guide/reading-writing/structured-files/`
+    :doc:`/user-guide/reading-writing/unstructured-files/pdf`
 
+    ---
+
+    :doc:`/user-guide/reading-writing/unstructured-files/pdf-image-ocr`
+
+    ---
+
+    :doc:`/user-guide/reading-writing/unstructured-files/text`
+
+    ---
+
+    :doc:`/user-guide/reading-writing/unstructured-files/whole-text`
 
 
 
 .. toctree::
    :hidden:
 
-   read-structured.rst
-   read-unstructured.rst
-   save-files.rst
-
+   binary.rst
+   pdf.rst
+   pdf-image-ocr.rst
+   text.rst
+   whole-text.rst
 
     

@@ -4,26 +4,22 @@ Reading Writing Files
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/reading-writing/read-structured`
+    :doc:`/user-guide/reading-writing/structured-files/index`
 
-    Provides a number of Processors for reading structured data from files. 
-
-    ---
-
-    :doc:`/user-guide/reading-writing/read-unstructured`
-
-    Provides a number of Processors for reading unstructured data from files.
+    Provides a number of Processors for reading and writing structured data from files. 
 
     ---
 
-    :doc:`/user-guide/reading-writing/save-files`
+    :doc:`/user-guide/reading-writing/unstructured-files/index`
 
-    Provides a number of Processors for saving data in different file formats.
+    Provides a number of Processors for reading and writing unstructured data from files.
+
+    
 
 .. toctree::
    :hidden:
 
-   read-structured.rst
-   read-unstructured.rst
-   save-files.rst
+   structured-files/index.rst
+   unstructured-files/index.rst
+ 
 

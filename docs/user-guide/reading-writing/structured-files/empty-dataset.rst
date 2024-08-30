@@ -1,5 +1,6 @@
 Empty Dataset
 ================
+This node creates an empty DataFrame.
 
 Below is a sample workflow which contains the Empty Dataset processor in Fire Insights. It demonstrates the usage of Empty Dataset node to create an empty DataFrame.
 

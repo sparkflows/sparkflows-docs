@@ -8,7 +8,7 @@ It does the following processing of data:
 *	Creates a dataset from an excel file using Dataset Structured node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/ReadExcelWF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/ReadExcelWF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -21,7 +21,7 @@ The Read Excel node is configured as below.
 *	If the Data Sheet contains header row then the ``Header`` needs to be selected accordingly.
 *	Output prints the DataFrame so created based on data from the selected excel file.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/ExcelConfig.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/ExcelConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -29,6 +29,6 @@ The Read Excel node is configured as below.
 
 Output of the Read Excel node prints the DataFrame so created based on data from the selected excel file.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/ExcelOutput.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/ExcelOutput.png
    :alt: readwrite_userguide
    :width: 70%       	    

@@ -1,5 +1,6 @@
-Whole Text
-===========
+Whole Text Files
+==================
+This node reads the list of Text Files and their content from a directory and lists them in File Name and File Content pair.
 
 Below is a sample workflow which contains the Whole Text Files processor in Fire Insights. It demonstrates the usage of the Whole Text Files node to read list of Text Files and their contents from a given path and list them in the File Name and File Content pair.
 

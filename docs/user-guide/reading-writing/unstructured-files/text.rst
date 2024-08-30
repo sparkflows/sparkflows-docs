@@ -1,5 +1,7 @@
-Text
-=====
+Text Files
+==========
+This node reads the content of a single text file or multiple text files from a directory.
+
 Below is a sample workflow which contains the Text Files processor in Fire Insights. It demonstrates the usage of Text Files node to read the content of Text files from a given path. Data from all the files would be displayed together in a single column. Each line of data in the files would represent one record in the output.
 
 It does the following processing of data:

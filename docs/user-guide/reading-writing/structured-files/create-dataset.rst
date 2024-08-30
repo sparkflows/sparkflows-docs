@@ -8,7 +8,7 @@ It does the following processing of data:
 *	Creates a dataset of specified rows and 9 pre-defined columns using Create Dataset node.
 *	Prints the created dataset.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/create-dataset.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/create-dataset.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -19,7 +19,7 @@ The Create Dataset node is configured as below.
 *	Number of rows needed in the created dataset is to be entered in ``Number Of Rows`` box.
 *	Output prints the dataset created with specified number of rows and fixed 9 columns.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/CreateDatasetConfig.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/CreateDatasetConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -27,6 +27,6 @@ The Create Dataset node is configured as below.
 
 Output of the Create Dataset node prints the dataset created with specified number of rows and fixed 9 columns.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/CreateDatasetOutput.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/CreateDatasetOutput.png
    :alt: readwrite_userguide
    :width: 70%       

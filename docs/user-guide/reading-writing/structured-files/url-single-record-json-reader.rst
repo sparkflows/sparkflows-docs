@@ -8,7 +8,7 @@ It does the following processing of data:
 *	Reads the content of a JSON file present at the provided URL using URL Single Record JSON Reader node.
 *	Prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/read-JSON-URL-WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/read-JSON-URL-WF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -20,7 +20,7 @@ The URL Single Record JSON Reader node is configured as below.
 *	The ``Refresh Schema`` button needs to be pressed to list schema of the JSON file.
 *	Output prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/url_config.PNG
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/url_config.PNG
    :alt: readwrite_userguide
    :width: 70%
    
@@ -28,6 +28,6 @@ The URL Single Record JSON Reader node is configured as below.
 
 Output of the URL Single Record JSON Reader node prints the content of JSON file in a tabular format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-structured/url_output.PNG
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/url_output.PNG
    :alt: readwrite_userguide
    :width: 70%       	    

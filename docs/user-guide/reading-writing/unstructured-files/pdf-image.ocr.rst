@@ -8,7 +8,7 @@ It does the following processing of data:
 *	Reads the content of OCR image embedded in a PDF file and converts it to Text using the PDF Image OCR node.
 *	Prints the content of OCR image embedded in a PDF file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDF-Image-WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDF-Image-WF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -21,7 +21,7 @@ PDF Image OCR node is configured as below.
 *	Column in the output to display content of the file is to be entered in the ``Column Name Which Contains Result of OCR`` box.
 *	Output prints the content of OCR image embedded in a PDF file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDFImageConfig.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDFImageConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -29,6 +29,6 @@ PDF Image OCR node is configured as below.
 
 Output of the PDF Image OCR node prints the content of OCR image embedded in a PDF file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/pdfocr-printnode-output.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/pdfocr-printnode-output.png
    :alt: readwrite_userguide
    :width: 70%       	    

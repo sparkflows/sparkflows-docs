@@ -4,6 +4,7 @@ ORC
 
 Save ORC
 ----------------------------------------
+This node saves the incoming dataset as ORC File.
 
 Below is a sample workflow which contains the Save ORC processor in Fire Insights. It demonstrates the usage of Save ORC node to save incoming dataset in ORC format.
 

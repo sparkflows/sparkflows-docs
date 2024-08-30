@@ -9,7 +9,7 @@ It does the following processing of data:
 *	Parses the content using the OCR node and converts it to text.
 *	Prints the content of Binary file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/read-binary-WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/read-binary-WF.png
    :alt: readwrite_userguide
    :width: 50%
    
@@ -22,7 +22,7 @@ The Binary Files node is configured as below.
 *	Column in the output to display the content of the file is to be entered in the ``Binary File Content Column`` box.
 *	Output prints the content of the Binary file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-config.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/binaryfiles-config.png
    :alt: readwrite_userguide
    :width: 70%
    
@@ -30,6 +30,6 @@ The Binary Files node is configured as below.
 
 Output of Binary Files node prints content of Binary Image file in text format.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/binaryfiles-printnode-output.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/binaryfiles-printnode-output.png
    :alt: readwrite_userguide
    :width: 70%     

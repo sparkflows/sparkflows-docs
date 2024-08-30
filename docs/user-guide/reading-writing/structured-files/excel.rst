@@ -1,5 +1,6 @@
 Excel
 ===========
+This node creates a dataset from an Excel file.
 
 Below is a sample workflow which contains the Read Excel processor in Fire Insights. It demonstrates the usage of Read Excel node to create a dataset from an excel file.
 

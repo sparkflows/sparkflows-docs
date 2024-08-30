@@ -8,7 +8,7 @@ It does following processing of data:
 *	Reads incoming Dataset using the Whole Text Files node.
 * 	Prints output in the file name and its content pair using the Print Node.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/whole-text-WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/whole-text-WF.png
    :alt: readwholetext_node_userguide
    :width: 50%
    
@@ -20,7 +20,7 @@ The Whole Text Files node is configured as below.
 *	Path of a directory containing the Text files needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a directory from HDFS.
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-configuration.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/readwholetext-configuration.png
    :alt: readwholetext_node_userguide
    :width: 70%
 
@@ -28,6 +28,6 @@ The Whole Text Files node is configured as below.
 
 List of Text Files along with their contents is printed as below using the Print node. Output is printed in the File Name and File Content pair.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/readwholetext-printnode-output.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/readwholetext-printnode-output.png
    :alt: readwholetext_node_userguide
    :width: 70%

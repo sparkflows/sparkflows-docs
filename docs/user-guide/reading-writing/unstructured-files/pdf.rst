@@ -8,7 +8,7 @@ It does the following processing of data:
 *	Reads incoming dataset using the PDF node.
 * 	Print PDF files along with their content using the Print Node. Output is displayed in file name and its content pair.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/read-pdf-WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/read-pdf-WF.png
    :alt: readpdf_node_userguide
    :width: 50%
    
@@ -22,7 +22,7 @@ The PDF node is configured as below.
 *	Column name to list file content in output needs to be entered in the ``File Content``.
 *	``OK`` button needs to be clicked to complete the configuration.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDF-Config.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDF-Config.png
    :alt: readpdf_node_userguide
    :width: 70%
 
@@ -30,6 +30,6 @@ The PDF node is configured as below.
 
 Data read from PDF files is printed as below using the Print node. Output is displayed in the file name and its content pair.
 
-.. figure:: ../../_assets/user-guide/read-write/read-unstructured/PDF-Output.png
+.. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDF-Output.png
    :alt: readpdf_node_userguide
    :width: 70%

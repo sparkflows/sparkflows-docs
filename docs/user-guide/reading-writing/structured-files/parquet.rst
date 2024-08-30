@@ -40,6 +40,8 @@ Data read from a Parquet Data File is printed as below using the Print node.
 
 Save Parquet
 ----------------------------------------
+This node saves the incoming dataset as Parquet File.
+
 
 Below is a sample workflow which contains the Save Parquet processor in Fire Insights. It demonstrates the usage of the Save Parquet node to save incoming dataset in Parquet format.
 

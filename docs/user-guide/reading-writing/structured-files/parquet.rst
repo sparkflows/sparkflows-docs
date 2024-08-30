@@ -3,6 +3,8 @@ Parquet
 
 Read Parquet
 -----------------
+This node reads Parquet files.
+
 Below is a sample workflow which contains Read Parquet processor in Fire Insights. It demonstrates usage of Read Parquet node to read a Parquet file.
 
 It does following processing of data:

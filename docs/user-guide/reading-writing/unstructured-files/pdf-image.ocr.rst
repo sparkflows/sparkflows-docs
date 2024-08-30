@@ -1,5 +1,6 @@
 PDF Image OCR
 ===================
+This node reads the content of OCR image embedded in a PDF file and converts it to Text.
 
 Below is a sample workflow which contains the PDF Image OCR processor in Fire Insights. It demonstrates the usage of the PDF Image OCR node to read content of OCR image embedded in a PDF file and converts it to Text.
 

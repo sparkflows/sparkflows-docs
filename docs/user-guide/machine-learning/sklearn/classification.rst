@@ -23,7 +23,7 @@ Logistic Regression Classifier
 
 In LR Classifier, probabilities describing the possible outcomes of a single trial are modeled using a logistic function. It is implemented in the linear_model library.
 
-.. list-table:: Parameter Details:
+.. list-table:: Parameter Details
    :widths: 30 70
    :header-rows: 1
 
@@ -76,16 +76,14 @@ In LR Classifier, probabilities describing the possible outcomes of a single tri
 
 
 
-More details are at the Scikit-learn page:
-
-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegressionCV.html
+More details are at the `Scikit-learn LogisticRegression page <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegressionCV.html>`_.
 
 Gradient Boosting classifier
 ----------------------------
 
 The Gradient Boosting Classifier is an additive ensemble of a base model whose error is corrected in successive iterations (or stages) by the addition of Regression Trees which correct the residuals (the error of the previous stage).
 
-.. list-table:: Parameter Details:
+.. list-table:: Parameter Details
    :widths: 30 70
    :header-rows: 1
 
@@ -155,9 +153,7 @@ The Gradient Boosting Classifier is an additive ensemble of a base model whose e
 
 
 
-More details are at the Scikit-learn page:
-
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+More details are at the  `Scikit-learn GradientBoostingClassifier page <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html>`_.
 
 Random forest classifier
 -------------------------
@@ -223,6 +219,6 @@ A random forest is a meta estimator that fits a number of decision tree classifi
    :width: 70%
 
 
-More details are at the Scikit-learn page:
+More details are at the `Scikit-learn RandomForestClassifier page <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html>`_.
 
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+

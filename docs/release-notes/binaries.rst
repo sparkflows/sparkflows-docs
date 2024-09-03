@@ -14,10 +14,13 @@ Fire Insights Docker Image
     * https://hub.docker.com/layers/sparkflows/fire/py_3.2.1_3.2.81-rc42/images/sha256-e5f6c2071e4d8d1690826673a1201ca7b067f968807aea99ec0491521067a833?context=explore
 * Aug 25, 2024
     * sparkflows/fire:py_3.3.0_3.2.83-rc22
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.3.0_3.2.83-rc22/images/sha256-2820b146bdd6e26c8d648a6b3e141dcc9b39a3d2018c8ede4845f42cb035afad?context=explore
 * Aug 24, 2024
     * sparkflows/fire:py_3.3.0_3.2.83-rc20
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.3.0_3.2.83-rc20/images/sha256-6c86b698803b47c113fd94fbeadd386ad0f4c7c973204fd319cdcc8b0c25abae?context=explore
 * Aug 14, 2024
     * sparkflows/fire:py_3.2.1_3.2.81-rc1
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.2.1_3.2.81-rc1/images/sha256-3a61f91221f374e5bd5403ebadb3050d29a1611b683fc00a7393a7e9920c7e76?context=explore
 
 
 Jupyter Notebook Docker Image

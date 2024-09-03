@@ -26,10 +26,15 @@ Fire Insights Docker Image
 Jupyter Notebook Docker Image
 -----------
 
+* Sep 03, 2024
+    * sparkflows/jupyternotebook:3.2.82
+    * https://hub.docker.com/layers/sparkflows/jupyternotebook/3.2.82/images/sha256-71a7c91ea67d4c6aa5e77945c45ba142075b57897120a45f76dbb962514ca467?context=repo
 * Aug 24, 2024
     * sparkflows/fire:jupyternotebook_3.2.82
+    * https://hub.docker.com/layers/sparkflows/fire/jupyternotebook_3.2.82/images/sha256-3e4b33f42f348918c488fb1d482b9d9ecd223c781e0113a24a9bd780db9a00bf?context=repo
 * Aug 24, 2024
     * sparkflows/fire:jupyternotebook_3.2.81-rc1
+    * https://hub.docker.com/layers/sparkflows/fire/jupyternotebook_3.2.81-rc1/images/sha256-3e4b33f42f348918c488fb1d482b9d9ecd223c781e0113a24a9bd780db9a00bf?context=repo
 
 Notebook SDK Wheel File
 -----

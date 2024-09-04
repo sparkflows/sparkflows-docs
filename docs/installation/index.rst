@@ -41,6 +41,10 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
     
     :doc:`/installation/monitoringandmetrics/index`
 
+    ---
+
+    :doc:`/installation/diagnostics/index`
+
 .. toctree::
    :hidden:
 
@@ -55,4 +59,5 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
    operating/index
    credential-store/index
    monitoringandmetrics/index
+   diagnostics/index
    

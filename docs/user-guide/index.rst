@@ -51,6 +51,10 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     :doc:`/user-guide/machine-learning/index`
 
+    --- 
+    
+    :doc:`/user-guide/time-series/index`
+
     ---
 
     :doc:`/user-guide/auto-ml/index`
@@ -70,10 +74,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
     --- 
     
     :doc:`/user-guide/data-visualization-dashboards/index`
-
-    --- 
-    
-    :doc:`/user-guide/time-series/index`
 
     ---
 
@@ -140,13 +140,13 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    data-profile/index
    data-quality/index
    machine-learning/index
+   time-series/index
    auto-ml/index
    natural-language-processing/index
    generative-ai/index
    data-visualization-reports/index
    data-visualization-dashboards/index
    pipeline-development/index
-   time-series/index
    web-app/index
    accessing-filesystem/index
    python/index

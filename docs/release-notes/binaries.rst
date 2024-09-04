@@ -39,4 +39,4 @@ Jupyter Notebook Docker Image
 Notebook SDK Wheel File
 -----
 
-* https://github.com/sparkflows/fire-tools/blob/main/jupyter-docker/fire_notebook-3.1.0-py3-none-any.whl
+* https://sparkflows-release.s3.amazonaws.com/fire/jupyter-docker/firenotebookwheel/fire_notebook-3.1.0-py3-none-any.whl

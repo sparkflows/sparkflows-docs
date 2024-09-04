@@ -4,13 +4,13 @@ This connection can be created to interact with Nvidia API’s. The analytical a
 
 Fill in the information as shown below. The two fields corresponding to the Nvidia End points:
 
- * **Token :** 
+* **Token :** 
 
    This is the Nvidia token which you can generate by logging into your Nvidia account and following the steps as listed here:
 
    `Generate Nvidia Access Token <https://www.nvidia.com/en-us/ai/>`_
 
- * **Base URL :** 
+* **Base URL :** 
 
    This is the Nvidia endpoint URL: https://integrate.api.nvidia.com/v1
 

@@ -8,7 +8,7 @@ By clicking the 'Connections' tab in Diagnostics, the user can view the multiple
    :width: 60%
 
 Test Connection 
-============================
+-------------
 
 Once the user selects a connection and clicks on the 'Test Connection' button, they can test the connection.
 
@@ -17,7 +17,7 @@ Once the user selects a connection and clicks on the 'Test Connection' button, t
    :width: 60%
 
 Stop Test Connection
-============================
+---------------------
 
 While the connection test is in progress, if the user wants to stop the tests, they can click on the 'Stop Tests' button to halt the connection test.
 
@@ -27,7 +27,7 @@ While the connection test is in progress, if the user wants to stop the tests, t
 
 
 Test Connection Results
-============================
+----------------------
 
 Once the connection tests are completed, the user can view the test results.
 

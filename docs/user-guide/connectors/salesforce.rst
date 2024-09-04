@@ -107,7 +107,7 @@ It needs to be carried out in two steps first to create a JDBC connection and th
 * **Description:** Enter a Description for the Salesforce connection.
 * **Driver Class:** Enter the Salesforce driver class name.
 
-**JDBC Connection** can be configured as below.
+**Save JDBC** connector can be configured as below.
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/user-guide/salesforce/salesforce-save.png

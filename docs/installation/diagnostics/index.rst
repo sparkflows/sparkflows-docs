@@ -9,7 +9,7 @@ Diagnostics
     
     ---
     
-     :doc:`/installation/diagnostics/python`
+    :doc:`/installation/diagnostics/python`
     
     ---
     

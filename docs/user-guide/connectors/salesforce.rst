@@ -67,75 +67,64 @@ Below are the steps to configure cdata JDBC Driver in Fire Insights and read and
 Read Salesforce
 ---------------
 
-Now you can Read Salesforce using cdata JDBC Driver in Fire Insights application using Read JDBC Processor.
+Fire Insights has a processor that allows you to read data from Salesforce. Salesforce is a powerful cloud-based Customer Relationship Management (CRM) platform that helps businesses manage their customer interactions, sales processes, and various aspects of their operations.
 
+* **Read Salesforce** connector can be used to read data from Salesforce. It reads data from the specified Table in the Query.
 
-Processor Configuration Parameters for Salesforce cdata JDBC Connection:
+**Read Salesforce** connector can be configured as below.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. list-table::
-      :widths: 5 20
-      :header-rows: 1
+.. figure:: ../../_assets/user-guide/salesforce/salesforce-read.png
+   :alt: Connectors
+   :width: 80%
 
-      * - Name
-        - Value
-      * - URL
-        - JDBC URL to connect to salesforce using cdata JDBC Driver.
-      * - USER
-        - USER NAME in Salesforce.
-      * - PASSWORD
-        - PASSWORD in Salesforce.
-      * - DB TABLE 
-        - Table Name.
-      * - DRIVER
-        - Salesforce JDBC Driver Name i.e. ``cdata.jdbc.salesforce.SalesforceDriver``.
+* **SOQL:** Enter a Sql Query to fetch data from Salesforce Table.  
+* **User Name:** Enter Salesforce Platform User Name.
+* **Password:** Enter Salesforce Platform access Password.
+* **Read Option:** Select either **Data** or **Object** from the dropdown. Select **Data** option to fetch data using the SOQL query. Select **Object** option to fetch Object list along with the Schema Details.
+* Please click on the **Refresh Schema** button to fetch the selected Table schema. It infers the schema and pass it on to the next processor for further processing.
 
-.. figure:: ../../_assets/user-guide/salesforce/10.PNG
-   :alt: salesforce
-   :width: 75% 
+Save Salesforce
+------------------
 
-Once above parameter is added, click on ``REFRESH SCHEMA`` to see Field Name.
+* **Save JDBC** connector can be used to save data to Salesforce table.
 
-.. figure:: ../../_assets/user-guide/salesforce/11.PNG
-   :alt: salesforce
-   :width: 75% 
+It needs to be carried out in two steps first to create a JDBC connection and then use it to save data.
 
-Processor output
---------------
+**JDBC Connection** can be configured as below.
+^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_assets/user-guide/salesforce/12.PNG
-   :alt: salesforce
-   :width: 75% 
+.. figure:: ../../_assets/user-guide/salesforce/salesforce-jdbc-connection.png
+   :alt: Connectors
+   :width: 80%
 
-Write to Salesforce
------------------
+* **Connection Type:** Select **JDBC** in the **Connection Type** dropdown.
+* **Connection Name:** Enter a Identifier for the connection in **Connection Name**.
+* **URL:** Enter Salesforce database url.
+* **Usename:** Enter login username to access the Salesforce database.
+* **Password:** Enter login password to access the Salesforce database.
+* **Title:** Enter a Title for the Salesforce connection.
+* **Description:** Enter a Description for the Salesforce connection.
+* **Driver Class:** Enter the Salesforce driver class name.
 
-Now you can Write to Salesforce using cdata JDBC Driver in Fire Insights application using Save JDBC Processor.
+**JDBC Connection** can be configured as below.
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-Processor Configuration Parameters for Salesforce cdata JDBC Connection:
+.. figure:: ../../_assets/user-guide/salesforce/salesforce-save.png
+   :alt: Connectors
+   :width: 80%
 
-.. list-table::
-      :widths: 5 20
-      :header-rows: 1
+* **Connection:** Select **JDBC Connection** created for the **Salesforce** database.
+* **DB Table:** Enter the Database Table name to save data to.
+* **Trucate:** Select an appriate value from the dropdown.
+* **Save Mode:** Select an appriate value from the dropdown.
 
-      * - Name
-        - Value
-      * - URL 
-        - Salesforce cdata JDBC Driver URL. 
-      * - DB TABLE
-        - Table Name.
-      * - DRIVER
-        - Salesforce JDBC Driver Name i.e. ``cdata.jdbc.salesforce.SalesforceDriver``.
-      * - USER
-        - USER NAME of Salesforce.
-      * - PASSWORD
-        - PASSWORD of Salesforce.
-      * - TRUNCATE
-        - false.
-      * - SAVE MODE
-        - It can be Append, Overwrite, ErrorIfexist & Ignore.
-        
-.. figure:: ../../_assets/user-guide/salesforce/13.PNG
-   :alt: salesforce
-   :width: 75%         
+Workflow
+------------------
 
-On Successful execution of workflow, the data will be written to Salesforce.
+* A sample workflow to read and save data to Salesforce database can be created as below. It uses the **Read Salesforce** node to read and **Save JDBC** node to write data.
+* This workflow transforms data before saving the data to Salesforce Table. On Successful execution of workflow, the data will be written to Salesforce.
+
+.. figure:: ../../_assets/user-guide/salesforce/salesforce-workflow.png
+   :alt: Connectors
+   :width: 80%

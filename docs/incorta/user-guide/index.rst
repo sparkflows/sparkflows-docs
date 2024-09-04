@@ -39,6 +39,17 @@ Incorta User Guide
 
     Describes steps involved in Reading Data From Incorta Table.
 
+    ---
+
+    :doc:`/incorta/user-guide/incorta-table-multiplefiles`
+
+    Describes steps involved in Creating Incorta Table from Multiple files.
+    ---
+
+    :doc:`/incorta/user-guide/incorta-dashboard-preparation`
+
+    Describes steps involved in Creating Incorta Dashboard.
+
 .. toctree::
    :hidden:
 
@@ -48,3 +59,6 @@ Incorta User Guide
    incorta-datatable-creation.rst
    incorta-loading-datatable.rst
    incorta-reading-data.rst
+   incorta-table-multiplefiles.rst
+   incorta-dashboard-preparation.rst
+

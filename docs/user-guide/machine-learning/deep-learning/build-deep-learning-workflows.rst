@@ -1,6 +1,6 @@
 Building Deep Learning Workflows
 ===============================
-This guide explains how to create deep learning workflows using Keras and PySpark. Below are the steps involved in loading data, building, training, and predicting with a model.
+This guide explains how to create deep learning workflows using Kerasin sparkflows. Below are the steps involved in loading data, building, training, and predicting with a model.
 
 .. figure:: ../../../_assets/machinelearning/build_dl_wfs.png
    :alt: Deep Learning

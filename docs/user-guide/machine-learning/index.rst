@@ -38,6 +38,10 @@ https://docs.sparkflows.io/en/latest/mlops/index.html
     Provides Scikit learn processors to enable supervised and unsupervised use cases.
 
     ---
+    :doc:`/user-guide/machine-learning/deep-learning/index`
+
+    Provides deep learning processors to enable supervised and unsupervised use cases.
+    ---
 
     :doc:`/user-guide/machine-learning/feature-selection`
 

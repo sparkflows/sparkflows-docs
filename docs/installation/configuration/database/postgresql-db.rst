@@ -81,7 +81,7 @@ Configure Fire to connect to PostgreSQL
   
     spring.jpa.database-platform= fireui.util.CustomPostgreSQLDialect
 
-* Copy ``db.properties.postgres`` file into the ``conf`` directory as ``quartz.properties``::
+* Copy ``quartz.postgres.properties`` file into the ``conf`` directory as ``quartz.properties``::
 
     cd   fire-x.y.z
     cp   conf.orig/quartz.postgres.properties   conf/quartz.properties

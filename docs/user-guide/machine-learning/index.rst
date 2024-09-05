@@ -75,6 +75,7 @@ https://docs.sparkflows.io/en/latest/mlops/index.html
    sparkml/index.rst
    h2o/index.rst
    sklearn/index.rst
+   deep-learning/index.rst
    feature-selection.rst
    model-persistence/index.rst
    sagemaker.rst

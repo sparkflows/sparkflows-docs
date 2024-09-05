@@ -4,7 +4,7 @@ Anomaly Detection
 Fire Insights provides the below processors for performing Anomaly Detection using Keras.
 Below is an example of implementing Autoencoders for detecting anomalies in a dataset using Keras, providing a powerful approach to identify outliers and abnormal patterns in complex data.
 
-.. figure:: ../../../docs/_assets/machinelearning/anomaly-dtection-keras.png
+.. figure:: ../../../../docs/_assets/machinelearning/anomaly-dtection-keras.png
    :alt: Deep Learning
    :width: 90%
 

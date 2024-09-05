@@ -7,8 +7,14 @@ Deep Learning
 
     Building Deep Learning workflows
 
+    ---
+
+    :doc:`/user-guide/machine-learning/deep-learning/anomaly-detection`
+
+    Anomaly Detection using Keras
+
 .. toctree::
    :hidden:
 
    build-deep-learning-workflows.rst
-
+   anomaly-detection.rst

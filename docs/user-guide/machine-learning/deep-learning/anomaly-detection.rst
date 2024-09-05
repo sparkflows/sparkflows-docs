@@ -31,40 +31,153 @@ Nodes Overview
 --------------
 
 1. **KerasPreprocessor (Preprocess Data)**:
-    - This node preprocesses the dataset before feeding it into the model. Common preprocessing tasks include scaling, normalization, and handling missing values.
+    - This node preprocesses the dataset before feeding it into the model. Common preprocessing tasks include scaling, normalization, and handling missing values.User can add custom Python code for this.
    
 2. **ReadCSV (Fault-Free Training Data)**:
     - This node loads the fault-free training data from the Tennessee Eastman dataset. The model learns to recognize normal operating conditions using this data.
 
 3. **KerasModel Sequential**:
     - Defines a sequential neural network model, where layers are stacked one by one. This is suitable for simpler models where the output of one layer is passed as input to the next.
-    - **Parameters**:
-        - Input Layer: Specifies the input shape that matches the dataset.
-        - Hidden Layers: Adds layers with specific activation functions (`ReLU`, `Sigmoid`, etc.).
-        - Output Layer: Configured based on the classification task (e.g., `Softmax` for multi-class classification).
+
+    .. list-table::
+       :widths: 20 80
+       :header-rows: 1
+
+       * - Title
+         - Description
+       * - Layers
+         - Enter the layers information separated by commas, and key & value pairs separated by colons. Example: `layer_type:Dropout, rate:0.2`.
+       * - Unsupervised
+         - Specify whether to enable the autoencoder in unsupervised mode. Options: `false` (default) for supervised, or `true` for unsupervised.
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_sequential.png
+      :alt: Deep Learning
+      :width: 90%
 
 4. **KerasModel Compile**:
     - This node compiles the Keras model, setting up the optimizer, loss function, and evaluation metrics. Compiling is essential before training the model.
-    - **Parameters**:
-        - **Optimizer**: Select the optimization algorithm (e.g., `Adam`, `SGD`).
-        - **Loss Function**: For classification tasks, `categorical_crossentropy` is commonly used. For regression, `mean_squared_error` is appropriate.
-        - **Metrics**: Typical metrics include `accuracy` for classification problems.
+
+    .. list-table::
+      :widths: 20 80
+      :header-rows: 1
+
+      * - Title
+        - Description
+      * - Optimizer
+        - Name of the optimizer to be used. Available options: `adam`.
+      * - Loss
+        - String (name of the objective function), objective function, or `tf.losses.Loss` instance. Available options: `mse` (mean squared error).
+      * - Metrics
+        - List of metrics to be evaluated by the model during training and testing. Example: `mse, mae`.
+      * - Loss Weights
+        - Optional list or dictionary specifying scalar coefficients (Python floats) to weight the loss contributions of different model outputs.
+      * - Sample Weight Mode
+        - Specify the sample weight mode (optional).
+      * - Weighted Metrics
+        - List of metrics to be evaluated and weighted by `sample_weight` or `class_weight` during training and testing.
+      * - Target Tensors
+        - Specify target tensors (optional).
+
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_model_compile.png
+      :alt: Deep Learning
+      :width: 90%
 
 5. **KerasModel Fit**:
     - This node is responsible for training the model using the fault-free data. The model will learn to predict normal operational behavior based on the provided dataset.
-    - **Parameters**:
-        - **Epochs**: Number of training iterations (e.g., 10).
-        - **Batch Size**: Number of samples processed before the model is updated.
-        - **Validation Split**: Percentage of data reserved for validation to monitor training progress.
+
+    .. list-table::
+       :widths: 20 80
+       :header-rows: 1
+   
+       * - Title
+         - Description
+       * - Target Column
+         - The label column for model fitting.
+       * - Batch Size
+         - Specify the batch size. Default value is None (i.e., -1).
+       * - Epochs
+         - Number of epochs (iterations over the dataset). Default value is 1.
+       * - Verbose
+         - Level of verbosity for training output. Default value is 1.
+       * - Callbacks
+         - List of callbacks to be applied during training. Default value is None (i.e., -1).
+       * - Validation Split
+         - Fraction of the training data to be used as validation data.
+       * - Validation Data
+         - Dataset for validation. Default value is None (i.e., -1).
+       * - Shuffle
+         - Boolean value indicating whether to shuffle the training data before each epoch. Default value is `true`.
+       * - Class Weight
+         - Dictionary mapping class indices to a weight. Default value is None (i.e., -1).
+       * - Sample Weight
+         - Array of weights for the training samples. Default value is None (i.e., -1).
+       * - Initial Epoch
+         - Epoch at which to start training. Default value is 0.
+       * - Steps Per Epoch
+         - Number of steps per epoch. Default value is None (i.e., -1).
+       * - Validation Steps
+         - Total number of validation steps to run. Default value is None (i.e., -1).
+       * - Validation Frequency
+        - Perform validation every `x` number of epochs. Default value is 1.
+       * - Max Queue Size
+         - Maximum size for the generator queue. Default value is 10.
+       * - Workers
+         - Number of workers to use for data loading. Default value is 1.
+       * - Use Multiprocessing
+         - Boolean value indicating whether to use multiprocessing. Default value is `false`.
+       * - Unsupervised
+         - Boolean value indicating whether the model is unsupervised. Default value is `false`.
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_modelfit_1.png
+      :alt: Deep Learning
+      :width: 90%
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_model_fit_2.png
+      :alt: Deep Learning
+      :width: 90%
 
 6. **ReadCSV (Faulty Test Data)**:
     - This node reads the faulty test data from the Tennessee Eastman dataset. The test data contains various faults, and the trained model will attempt to detect them.
     
 7. **KerasPredict**:
     - This node uses the trained Keras model to predict faults in the test dataset. Based on the input data, it generates the predicted fault labels.
-    - **Parameters**:
-        - Batch Size: Number of samples to process at a time.
-        - Verbose: Whether to print progress information.
+
+    .. list-table:: 
+       :widths: 20 80
+       :header-rows: 1
+   
+       * - Title
+         - Description
+       * - Target Column
+         - The label column for model fitting.
+       * - Batch Size
+         - Specify the batch size for predictions. Default value is None (i.e., -1).
+       * - Verbose
+         - Level of verbosity for prediction output. Default value is 1.
+       * - Steps
+         - Total number of steps for predictions. Default value is None (i.e., -1).
+       * - Callbacks
+         - List of callbacks to be applied during prediction. Default value is None (i.e., -1).
+       * - Max Queue Size
+         - Maximum size for the generator queue during prediction. Default value is 10.
+       * - Workers
+         - Number of workers to use for data loading during prediction. Default value is 1.
+       * - Use Multiprocessing
+         - Boolean value indicating whether to use multiprocessing for predictions. Default value is `false`.
+       * - Unsupervised
+         - Boolean value indicating whether the model is unsupervised. Default value is `false`.
+       * - Threshold Loss Function
+         - The loss function to be used for determining the threshold during anomaly detection. Options include `mse` (mean squared error) and `mae` (mean absolute error). Default value is `mse`.
+
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_predict_1.png
+      :alt: Deep Learning
+      :width: 90%
+
+   .. figure:: ../../../../docs/_assets/machinelearning/keras_predict_2.png
+      :alt: Deep Learning
+      :width: 90%
 
 8. **PrintNRows**:
     - This node prints the first few rows of the output for validation. It allows you to inspect the results of the prediction step and ensures that the model is performing as expected.

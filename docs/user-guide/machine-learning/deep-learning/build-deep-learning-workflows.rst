@@ -23,7 +23,7 @@ Use the `KerasModel Compile` node to compile the model. This step specifies the 
   - `Loss Function`: Select based on the task:
     - For classification tasks, use `categorical_crossentropy`.
     - For regression tasks, use `mean_squared_error`.
-  - `Metrics`: Common metrics include `accuracy` for classification tasks.
+  - `Metrics`: Common metrics include `accuracy` for classification tasks,and `mse, mae` for regression tasks.
 
 Train the Model
 ---------------

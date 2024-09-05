@@ -35,8 +35,6 @@ Nodes Overview
    
 2. **ReadCSV (Fault-Free Training Data)**:
     - This node loads the fault-free training data from the Tennessee Eastman dataset. The model learns to recognize normal operating conditions using this data.
-    - **Parameters**:
-        - File Path: Path to the CSV file containing fault-free data.
 
 3. **KerasModel Sequential**:
     - Defines a sequential neural network model, where layers are stacked one by one. This is suitable for simpler models where the output of one layer is passed as input to the next.
@@ -61,25 +59,12 @@ Nodes Overview
 
 6. **ReadCSV (Faulty Test Data)**:
     - This node reads the faulty test data from the Tennessee Eastman dataset. The test data contains various faults, and the trained model will attempt to detect them.
-    - **Parameters**:
-        - File Path: Path to the CSV containing test data with faults.
-        - Delimiter: Specifies how the data is separated (commas, tabs, etc.).
-        - Header: Indicates if the file contains column headers.
-        - Infer Schema: Automatically detects data types.
-
-7. **SQL (Data Query)**:
-    - This node allows for filtering or querying the test dataset, potentially selecting specific fault scenarios or certain columns.
-    - **Parameters**:
-        - SQL Query: A SQL-like query to filter and prepare data (e.g., select specific rows/columns).
-
-8. **KerasPredict**:
+    
+7. **KerasPredict**:
     - This node uses the trained Keras model to predict faults in the test dataset. Based on the input data, it generates the predicted fault labels.
     - **Parameters**:
         - Batch Size: Number of samples to process at a time.
         - Verbose: Whether to print progress information.
 
-9. **PrintNRows**:
+8. **PrintNRows**:
     - This node prints the first few rows of the output for validation. It allows you to inspect the results of the prediction step and ensures that the model is performing as expected.
-    - **Parameters**:
-        - N: Number of rows to print (e.g., 5).
-        - Columns: Select which columns to display for a detailed view of predictions.

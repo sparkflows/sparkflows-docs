@@ -49,8 +49,7 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
-    'sphinx_panels',
-    'sphinx_build_compatibility.extension'
+    'sphinx_panels'
     ]
 
 # Add any paths that contain templates here, relative to this directory.

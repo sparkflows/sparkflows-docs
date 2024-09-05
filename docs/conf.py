@@ -20,14 +20,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import os
 
-# Set canonical URL from the Read the Docs Domain
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
-
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    html_context["READTHEDOCS"] = True
 
 # -- General configuration ------------------------------------------------
 

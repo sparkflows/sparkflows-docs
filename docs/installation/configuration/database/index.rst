@@ -19,6 +19,7 @@ Database Setup
 
    h2-db.rst
    mysql-db.rst
+   postgresql-db.rst
    sql-server.rst
    aurora-mysql-db.rst
    

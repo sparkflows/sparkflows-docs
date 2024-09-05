@@ -4,7 +4,7 @@ Sparkflows allows you to utilize dynamic variables in pipelines, enabling you to
 
 Below are the steps:
 
-Step 1: Defining Parameters in PySpark Node
+Step 1: Defining Parameters in Pipeline
 ---------------------------------
 
 #. Click on the **plus button** located at the top right corner to access the dialog box for defining parameters.

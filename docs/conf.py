@@ -88,7 +88,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_assets/incorta/','incorta/user-guide/','installation/connection/gen-ai-connection/nvidia.rst','user-guide/machine-learning/deep-learning/','installation/configuration/database/postgresql-db.rst','installation/connection/gen-ai-connection/gemini/',
+exclude_patterns = [
 'aws/admin-guide/deploy.rst',
 'aws/admin-guide/deploy-aws.rst',
 'aws/admin-guide/eks-configuration.rst',

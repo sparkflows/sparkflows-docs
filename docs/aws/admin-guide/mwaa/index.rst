@@ -24,6 +24,12 @@ Fire Insights integrates with MWAA to enable the user to create Pipeline connect
 
     Steps to Create an Airflow Connection.
 
+    ---
+
+    :doc:`/aws/admin-guide/mwaa/cross-account`
+
+    Steps to Configure Cross-Account Access between ECS Fargate and MWAA in different accounts.
+
   
 
 
@@ -33,4 +39,5 @@ Fire Insights integrates with MWAA to enable the user to create Pipeline connect
    pre-requisites.rst
    mwaa-setup.rst
    airflow-connection.rst
+   cross-account.rst
 

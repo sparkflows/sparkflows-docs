@@ -1,4 +1,4 @@
-Cross-Account Setup for Sparkflows Application on ECS Fargate to Interact with MWAA
+Cross-Account Setup
 ===============================================================================
 
 This guide provides steps to configure cross-account access between a Sparkflows application 

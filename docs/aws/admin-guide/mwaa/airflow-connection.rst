@@ -1,18 +1,18 @@
 Airflow Connection
 --------------
 
-Sparkflows enables you to create "AWS MWAA Airflow Connection" and use it to submit Pipeline. Connections can be at various levels:
+Sparkflows enables you to create **AWS MWAA Airflow Connection** and use it to submit Pipeline. Connections can be at various levels:
 
-  * Global  : Everyone has access to these connections.
-  * Group   : Users belonging to the group have access to these connections.
-  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
+  * **Global**  : Everyone has access to these connections.
+  * **Group**   : Users belonging to the group have access to these connections.
+  * **Project** : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Airflow Connection" in Fire Insights.
+This document outlines the steps to create an Airflow Connection in Fire Insights.
 
 Enable Airflow in Sparkflows
-===========
+=========================
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``AIRFLOW`` -> and enable Airflow by setting the below parameter:
+Login to **Sparkflows -> Administration -> Configurations -> AIRFLOW ->** and enable Airflow by setting the below parameter:
 
 ::
 
@@ -23,18 +23,18 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :width: 60%
 
 Navigate to Add Connections
-===========
+=========================
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you save the above Configuration, navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 
 .. figure:: ../../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
    
-Add connection for group
-========
+Add Connection for Group
+=======================
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Pipeline`` and other parameters as shown below:
+Navigate to **Administration -> Global Connections -> Add Connections -> Add Connection For Group which pops up a new window -> Select Pipeline and other parameters** as shown below:
 
 .. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
    :alt: mwaa
@@ -44,8 +44,8 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :alt: mwaa
    :width: 60%
 
-Add additional parameters as per your environment
-======
+Add Additional Parameters as per your Environment
+===============================================
 
 Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 
@@ -115,28 +115,26 @@ For AIRFLOW tab
    :alt: mwaa
    :width: 60%
 
-.. note:: Make sure that ``Execution role`` role attached with Amazon MWAA should assumed by ``ecs, ec2 instance`` role where Fire Insights application is running. Attached the role in ``ecs, ec2 instance``that will access the dag location in s3 to upload the dag.
+.. note:: Ensure that the Execution role attached to Amazon MWAA can be assumed by the ECS or EC2 instance role where the Fire Insights application is running. Attach the role to the ECS or EC2 instance to access the DAG location in S3 and upload the DAG. For example, **AmazonMWAA-sparkflows-air-4HboCJ** is the Execution role attached to Amazon MWAA, and **ecsTaskExecutionRole** is the role used by ECS Execution. You need to update the **Trust relationship** for both roles to allow them to assume each other."
 
-For Example ``AmazonMWAA-sparkflows-air-4HboCJ`` is the ``Execution role`` role attached to Amazon MWAA and ``ecsTaskExecutionRole`` role being used by ecs Execution, so you need add in ``Trust relationsship`` for both role to assume each other.
-
-``Trust relationsship`` for ``AmazonMWAA-sparkflows-air-4HboCJ`` as below:
+Trust relationsship for **AmazonMWAA-sparkflows-air-4HboCJ** as below:
 
 .. figure:: ../../../_assets/aws/mwaa/trustpolicy_1.png
    :alt: mwaa
    :width: 60%
 
 
-``Trust relationsship`` for ``ecsTaskExecutionRole`` as below:
+Trust relationsship for **ecsTaskExecutionRole** as below:
 
 .. figure:: ../../../_assets/aws/mwaa/trustpolicy_2.png
    :alt: mwaa
    :width: 60%
 
 
-Test and Save Airflow Connection
+Test and Save the Airflow Connection
 ===========
 
-Once the Updated Parameter is added, you can ``Test Connection`` & ``Save`` it.
+After adding the updated parameters, click the **Test Connection** button, and **Save** it once the test is successful.
 
 
 .. figure:: ../../../_assets/aws/mwaa/mwaa_testconnection.png

@@ -11,7 +11,7 @@ Cross Account Scenario Overview
 - **Account A:** Where the Sparkflows application is running on ECS Fargate.
 - **Account B:** Where MWAA is set up.
 
-Account A: ECS Fargate Role (Sparkflows)
+Account A : ECS Fargate Role (Sparkflows)
 ----------------------------------------
 
 ECS Fargate Task Role (in Account A)
@@ -38,10 +38,10 @@ ECS Fargate Task Role (in Account A)
       }
 
   This policy grants the ECS Fargate task in Account A the ability to assume specific roles 
-  (e.g., ``AccountB-MWAA-ReadRole``) in Account B.
+  (e.g., **AccountB-MWAA-ReadRole**) in Account B.
 
 
-Account B: Roles for MWAA Access
+Account B : Roles for MWAA Access
 --------------------------------
 
 Read Role for MWAA (in Account B)
@@ -141,12 +141,12 @@ Summary
 -------
 
 - **Account A (ECS Fargate):**
-    - ``ECSFargateRole`` has the ability to assume roles in Account B to interact with MWAA.
+    - **ECSFargateRole** has the ability to assume roles in Account B to interact with MWAA.
 - **Account B (MWAA):**
-    - ``AccountB-MWAA-ReadRole`` provides read-only access to MWAA.
-    - ``MWAA-ExecutionRole`` is used by MWAA itself to perform its operations, not involved in cross-account access.
+    - **AccountB-MWAA-ReadRole** provides read-only access to MWAA.
+    - **MWAA-ExecutionRole** is used by MWAA itself to perform its operations, not involved in cross-account access.
 
-This setup allows for a robust and secure method to interact with MWAA from ECS Fargate tasks - ``Sparkflows`` in a different AWS account.
+This setup allows for a robust and secure method to interact with MWAA from ECS Fargate tasks - **Sparkflows** in a different AWS account.
 
 
 

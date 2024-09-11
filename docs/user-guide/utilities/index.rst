@@ -10,7 +10,7 @@ Fire Insights provides the capability to perform the most complex data preperati
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/utilities/pgp-decrypt`
+    :doc:`/user-guide/utilities/pgp-decryption`
 
     Details steps for PGP Decryption.
 

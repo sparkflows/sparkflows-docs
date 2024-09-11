@@ -172,6 +172,14 @@ Kubernetes Guide
 
    kubernetes/index
 
+Best Practices
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   best-practices/index
+
 
 Frequently Asked Questions
 --------------------------

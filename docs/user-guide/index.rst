@@ -123,7 +123,11 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
     ---
     
     :doc:`/user-guide/solutions/index`
-     
+
+    ---
+    
+    :doc:`/user-guide/utilities/index`
+
 
 .. toctree::
    :hidden:
@@ -159,4 +163,5 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    workflow-wizard/index
    scheduler/index
    solutions/index
+   utilities/index
    

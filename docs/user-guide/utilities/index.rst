@@ -14,8 +14,15 @@ Fire Insights provides the capability to perform the most complex data preperati
 
     Details steps for PGP Decryption.
 
+    ---
+
+    :doc:`/user-guide/utilities/email-notification`
+
+    Details steps for sending email notification.
+
 
 .. toctree::
    :hidden:
 
    pgp-decryption.rst
+   email-notification.rst

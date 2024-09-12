@@ -20,6 +20,10 @@ This document captures some of the best practices that we must follow to help en
 
     :doc:`/best-practices/multi-tenancy`
 
+    ---
+
+    :doc:`/best-practices/mwaa`
+
 
 .. toctree::
    :maxdepth: 2
@@ -29,3 +33,4 @@ This document captures some of the best practices that we must follow to help en
    airflow.rst
    workflows.rst
    multi-tenancy.rst
+   mwaa.rst

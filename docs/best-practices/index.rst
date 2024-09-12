@@ -16,6 +16,11 @@ This document captures some of the best practices that we must follow to help en
 
     :doc:`/best-practices/workflows`
 
+    ---
+
+    :doc:`/best-practices/multi-tenancy`
+
+
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -23,3 +28,4 @@ This document captures some of the best practices that we must follow to help en
    sparkflows-installation.rst
    airflow.rst
    workflows.rst
+   multi-tenancy.rst

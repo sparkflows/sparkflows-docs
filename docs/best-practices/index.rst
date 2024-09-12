@@ -12,9 +12,14 @@ This document captures some of the best practices that we must follow to help en
 
     :doc:`/best-practices/airflow`
 
+    ---
+
+    :doc:`/best-practices/workflows`
+
 .. toctree::
    :maxdepth: 2
    :hidden:
 
    sparkflows-installation.rst
    airflow.rst
+   workflows.rst

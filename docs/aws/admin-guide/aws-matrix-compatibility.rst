@@ -64,7 +64,7 @@ Airflow Support Compatiblity Matrix
    :header-rows: 1
 
    * - Airflow Standalone Version	
-     - Airflow MWAA Vesrion
+     - Airflow MWAA Version
    * - V2.3.x
      - 2.8.1
 

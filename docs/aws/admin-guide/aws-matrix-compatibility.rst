@@ -36,7 +36,8 @@ Ensure that you have the following AWS specifications while Integrating with Fir
      - 2.8.1
      - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/
 
-Spark, EMR, Java and Python Version Compatiblity Matrix
+Spark, EMR, Java and Python Support Compatiblity Matrix
+++++++++
 
 .. list-table:: 
    :widths: 20 10 10 10

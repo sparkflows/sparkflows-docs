@@ -36,20 +36,23 @@ Ensure that you have the following AWS specifications while Integrating with Fir
      - 2.8.1
      - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/
 
-Spark, EMR and Python Version Compatiblity Matrix
+Spark, EMR, Java and Python Version Compatiblity Matrix
 
 .. list-table:: 
-   :widths: 20 10 40
+   :widths: 20 10 10 10
    :header-rows: 1
 
    * - Spark Version	
      - EMR Vesrion
+     - Java Version
      - Python Version
    * - 3.2.1
      - 6.7.0
+     - Java 8
      - 3.7.0
    * - 3.3.0
      - 6.9.0
+     - Java 8 
      - 3.7.0
    
 It also lists the compatability matrix of Spark version and Delta lake version:

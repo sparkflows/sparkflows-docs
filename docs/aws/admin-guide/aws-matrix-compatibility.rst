@@ -3,6 +3,38 @@ AWS Matrix Compatibility
 
 This document outlines the Matrix Compatibility details on AWS.
 
+Spark, EMR, Java and Python Support Compatibility Matrix
+++++++++
+
+.. list-table:: 
+   :widths: 20 10 10 10
+   :header-rows: 1
+
+   * - Spark Version	
+     - EMR Vesrion
+     - Java Version
+     - Python Version
+   * - 3.2.1
+     - 6.7.0
+     - Java 8
+     - 3.7.0
+   * - 3.3.0
+     - 6.9.0
+     - Java 8 
+     - 3.7.0
+
+Airflow Support Compatibility Matrix
+++++++++
+
+.. list-table:: 
+   :widths: 20 10 
+   :header-rows: 1
+
+   * - Airflow Standalone Version	
+     - Airflow MWAA Version
+   * - V2.3.x
+     - 2.8.1
+
 Matrix Compatibility
 ++++
 Ensure that you have the following AWS specifications while Integrating with Fire Insights :
@@ -35,38 +67,6 @@ Ensure that you have the following AWS specifications while Integrating with Fir
    * - Airflow MWAA Support
      - 2.8.1
      - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/
-
-Spark, EMR, Java and Python Support Compatiblity Matrix
-++++++++
-
-.. list-table:: 
-   :widths: 20 10 10 10
-   :header-rows: 1
-
-   * - Spark Version	
-     - EMR Vesrion
-     - Java Version
-     - Python Version
-   * - 3.2.1
-     - 6.7.0
-     - Java 8
-     - 3.7.0
-   * - 3.3.0
-     - 6.9.0
-     - Java 8 
-     - 3.7.0
-
-Airflow Support Compatiblity Matrix
-++++++++
-
-.. list-table:: 
-   :widths: 20 10 
-   :header-rows: 1
-
-   * - Airflow Standalone Version	
-     - Airflow MWAA Version
-   * - V2.3.x
-     - 2.8.1
 
 
 It also lists the compatability matrix of Spark version and Delta lake version:

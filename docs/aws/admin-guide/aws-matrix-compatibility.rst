@@ -55,7 +55,20 @@ Spark, EMR, Java and Python Support Compatiblity Matrix
      - 6.9.0
      - Java 8 
      - 3.7.0
-   
+
+Airflow Support Compatiblity Matrix
+++++++++
+
+.. list-table:: 
+   :widths: 20 10 
+   :header-rows: 1
+
+   * - Airflow Standalone Version	
+     - Airflow MWAA Vesrion
+   * - V2.3.x
+     - 2.8.1
+
+
 It also lists the compatability matrix of Spark version and Delta lake version:
 
 `Spark and Delta Lake Compatibility Matrix <https://docs.delta.io/latest/releases.html>`_

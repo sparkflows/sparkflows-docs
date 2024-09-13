@@ -11,15 +11,16 @@ Below we go through the admin guide of different options available in Sparkflows
 
 Configure the below from the MLOps tab in Admin page. Representative examples for the same can be seen in the screenshot below:
 
+* mlops.mlflow.deploy.mode => Should be set to `fire_mlops_server`
 * mlops.target.deployment
-* mlops.kubeflow.username 
-* mlops.kubeflow.password
-* mlops.kubeflow.config.path
+* mlops.kubeflow.username => Should be left empty if Sparkflows is deployed in Kubernetes cluster
+* mlops.kubeflow.password => Should be left empty if Sparkflows is deployed in Kubernetes cluster
+* mlops.kubeflow.config.path => Should be left empty if Sparkflows is deployed in Kubernetes cluster
 * mlops.docker.registry.sparkflows
-* mlops.kubeflow.hostport
+* mlops.kubeflow.hostport => Should be left empty if Sparkflows is deployed in Kubernetes cluster
 * mlops.aws.s3.endpoint.url
 * mlops.aws.s3.ignore.tls
-* mlops.kubernetes.config.path
+* mlops.kubernetes.config.path => Should be left empty if Sparkflows is deployed in Kubernetes cluster
 * mlops.docker.context.path
 * mlops.kubeflow.namespace
 * mlops.fire.server.jar.name

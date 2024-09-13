@@ -7,7 +7,7 @@ Spark, EMR, Java and Python Support Compatibility Matrix
 ++++++++
 
 .. list-table:: 
-   :widths: 20 10 10 10
+   :widths: 10 10 10 10
    :header-rows: 1
 
    * - Spark Version	
@@ -27,7 +27,7 @@ Airflow Support Compatibility Matrix
 ++++++++
 
 .. list-table:: 
-   :widths: 20 10 
+   :widths: 10 10 
    :header-rows: 1
 
    * - Airflow Standalone Version	

@@ -162,5 +162,7 @@ Fire enables you to view the logs for job submitted on the cluster from UI. As a
    
 .. note:: Above example is shown for the job submitted on Databricks cluster.
 
-.. note:: The log directory is configurable through the properties file(conf/application/properties), with the property name set as logs.dir.
 
+::
+
+    Note: The log directory is configurable through the properties file(conf/application/properties), with the property name set as logs.dir.

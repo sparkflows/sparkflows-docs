@@ -1,9 +1,7 @@
 User/Group/Role/Permission
 ==========================
 
-Fire Insights supports users, groups, roles and permissions. A User can belong to multiple groups and have multiple roles.
-
-Each role can have multiple permissions associated with it.
+Fire Insights supports users, groups, roles, and permissions. A user can belong to multiple groups and have multiple roles. Each role can have multiple permissions associated with it.
 
 Groups
 ------
@@ -14,14 +12,14 @@ There can be multiple groups in Fire Insights. A user can belong to one or more 
    :alt: security
    :width: 60%
 
-Below are further details associated with each group:
+Below are further details associated with each group
 
-  * Name : Name of the group.
-  * Properties : Key and value pair you need to pass.
-  * AWS Role ARN : S3 locations which the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
-  * S3 Access Key : The credential to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
-  * S3 Secret Key :  The credential Secret Key. Together, they are used to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
-  * S3 Endpoint URL : The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
+* **Name:** The name of the group.
+* **Properties:** Key-value pairs you need to pass.
+* **AWS Role ARN:** S3 locations that the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
+* **S3 Access Key:** The credential used to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
+* **S3 Secret Key:** The credential secret key. Together with the access key, it is used to authenticate and authorize access to AWS resources, such as S3 buckets.
+* **S3 Endpoint URL:** The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
 
 .. figure:: ../../_assets/security/group_creation.PNG
    :alt: security
@@ -30,7 +28,7 @@ Below are further details associated with each group:
 Users
 -----
 
-Fire Insights supports multiple users. Each user can belong to multiple groups and also have multiple roles.
+Fire Insights supports multiple users. Each user can belong to multiple groups and have multiple roles.
 
 .. figure:: ../../_assets/security/user_list.PNG
    :alt: security
@@ -43,7 +41,7 @@ Fire Insights supports multiple users. Each user can belong to multiple groups a
 Permissions
 -----------
 
-Fire Insights supports the following permissions. Permissions are associated with roles.
+Fire Insights supports the following permissions, which are associated with roles:
 
 .. list-table:: 
    :widths: 10 20 
@@ -52,95 +50,94 @@ Fire Insights supports the following permissions. Permissions are associated wit
    * - Title
      - Description
    * - users.manage
-     - create, modify & disable user
+     - Create, modify, and disable users.
    * - groups.manage
-     - Create, modify & delete the group
+     - Create, modify, and delete groups.
    * - roles.manage
-     - Create, modify & delete the roles  
+     - Create, modify, and delete roles.
    * - projects.manage
-     - Create, modify & delete the projects
+     - Create, modify, and delete projects.
    * - configurations.manage
-     - modify diifferent configurations   
+     - Modify different configurations.
    * - enable.projectShare
-     - enable project share permission
+     - Enable project sharing permissions.
    * - connections.manage
-     - manage the connections
+     - Manage connections.
    * - credentialstores.manage
-     - manage the credentialstores
+     - Manage credential stores.
    * - enable.tokenGeneration
-     - manage token generations
+     - Manage token generation.
    * - datasets.view
-     - view dataset in specified project
+     - View datasets in specified projects.
    * - datasets.modify
-     - modify datasets in specified project
+     - Modify datasets in specified projects.
    * - dashboard.view
-     - view dashboard
+     -View dashboards.
    * - dashboard.modify
-     - modify the dashboard
+     - Modify dashboards.
    * - workflows.view
-     - view workflows in specified project
+     - View workflows in specified projects.
    * - workflows.modify
-     - modify workflows in specified project
+     - Modify workflows in specified projects.
    * - workflows.execute
-     - execute workflow in specified project
+     - Execute workflows in specified projects.
    * - enable.automl
-     - enable automl 
+     - Enable AutoML.
    * - apps.modify
-     - modify analytics application 
+     - Modify analytics applications.
    * - apps.execute
-     - execute analytics application
+     - Execute analytics applications.
    * - apps.view
-     - view analytics application
+     - View analytics applications.
    * - data.view
-     - view data
+     - View data.
    * - data.write
-     - write and read data
+     - Write and read data.
    * - report.view
-     - report view
+     - View report.
    * - report.modify
-     - report modify
+     - Modify report.
    * - usage.statistics.manage
-     - view usage statistics
+     - View usage statistics.
    * - runtime.statistics.manage
-     - view runtime statistics
+     - View runtime statistics.
    * - scheduler.statistics.manage
-     - view scheduler statistics
+     - View scheduler statistics.
    * - cache.statistics.manage
-     - view cache statistics
+     - View cache statistics.
    * - sampleProject.manage
-     - reload sampleProject
+     - Reload sample projects.
    * - cleanup.data.manage
-     - cleanup data
+     - Clean up data.
    * - audit.report.manage
-     - view, export and delete audit report
+     - View, export, and delete audit reports.
    * - serverLogs.view
-     - view serverLogs
+     - View server logs.
    * - yarn.application.view
-     - view and search yarn application
+     - View and search YARN applications.
    * - diagnostics.manage
-     - run diagnostics
+     - Run diagnostics.
    * - test.ldap.manage
-     - test ldap configurations
+     - Test LDAP configurations.
    * - database.backup.manage
-     - backup database and scheduled
+     - Backup the database and schedule backups.
    * - enable.tokenGeneration
-     - enable tokenGeneration
+     - Enable token generation.
    * - pipelines.view
-     - view pipelines 
+     - View pipelines. 
    * - pipelines.modify
-     - create, modify and delete pipelines
+     - Create, modify, and delete pipelines.
    * - pipelines.execute
-     - execute pipeline 
+     - Execute pipelines. 
 
 
 
 Role's Permissions
 ----------------
 
-A role has a set of permissions associated with it. A new role can be created and an existing role can be edited.
+A role has a set of permissions associated with it. A new role can be created, and an existing role can be edited.
 
-Out of the box, Fire Insights comes with three roles : ADMIN, ANALYST and BUSINESS ASSOCIATE
-
+Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINESS ASSOCIATE.
 
 .. figure:: ../../_assets/security/role_permissions.PNG
    :alt: security
@@ -151,7 +148,7 @@ Out of the box, Fire Insights comes with three roles : ADMIN, ANALYST and BUSINE
 User/Roles
 -----
 
-A user can have multiple roles. The actions which a user can do depend on the roles they belong to.
+A user can have multiple roles. The actions a user can perform depend on the roles they belong to.
 
 
 .. figure:: ../../_assets/security/role_list1.PNG

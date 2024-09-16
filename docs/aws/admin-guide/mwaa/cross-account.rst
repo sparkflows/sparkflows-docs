@@ -77,18 +77,19 @@ Grants the assumed role (now held by the ECS Fargate task) permissions to intera
   .. code-block:: json
   
       {
-        "Version": "2012-10-17",
-        "Statement": [
-          {
-            "Effect": "Allow",
+       "Version": "2012-10-17",
+       "Statement": [
+        {
             "Action": [
-              "airflow:GetEnvironment",
-              "airflow:ListEnvironments",
-              "airflow:CreateCliToken"
+                "airflow:GetEnvironment",
+                "airflow:ListEnvironments",
+                "airflow:CreateWebLoginToken",
+                "airflow:CreateCliToken"
             ],
-            "Resource": "arn:aws:airflow:region:AccountB_ID:environment/your-mwaa-environment-name"
-          },
-          {
+            "Effect": "Allow",
+            "Resource": "arn:aws:airflow:region:AccountB_ID:*"
+        },
+        {
             "Effect": "Allow",
             "Action": [
                 "s3:PutObject",
@@ -97,11 +98,11 @@ Grants the assumed role (now held by the ECS Fargate task) permissions to intera
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::bucketname/*"
+                "arn:aws:s3:::sparkflows-air/*"
             ]
-          }
-        ]
-      }
+         }
+       ]
+     }
 
   The attached policy grants permissions to perform read-only operations on MWAA, such as retrieving 
   environment details or generating CLI tokens. Another attached policy grants permissions for interacting 

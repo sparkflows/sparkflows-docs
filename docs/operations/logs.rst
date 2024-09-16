@@ -7,9 +7,7 @@ Below is the list of 3 processes that run in Fire Insights :
 * Fire Scala engine
 * Fire PySpark engine (If PySpark is configured.)
 
-You can view the Logs for each of the processes.
-
-You can view the Logs either by logging into the VM on which Fire Insights is installed or from the UI with admin access.
+You can view the logs for each process either by logging into the VM where Fire Insights is installed or through the UI with admin access.
 
 Logs for Fire Server
 ----------
@@ -23,8 +21,8 @@ Fire server Logs:
 
 ::
 
-    cd fire-x.y.z/logs/
-    Search for fireserver.logs, where you can view fireserver logs.
+    cd fire-x.y.z/log/
+    Search for fireserver.log, where you can view fireserver logs.
     
 .. figure:: ../_assets/configuration/logs/fireserver-log.PNG
    :alt: Logs
@@ -86,7 +84,7 @@ Fire Logs:
 ::
 
     cd cd fire-x.y.z
-    Search for fire.logs
+    Search for fire.log
     
 .. figure:: ../_assets/configuration/logs/fire-log.PNG
    :alt: Logs
@@ -128,7 +126,7 @@ Pyspark Logs:
 ::
 
     cd cd fire-x.y.z
-    Search for pyspark.logs
+    Search for pyspark.log
 
 .. figure:: ../_assets/configuration/logs/pyspark-log.PNG
    :alt: Logs
@@ -163,4 +161,6 @@ Fire enables you to view the logs for job submitted on the cluster from UI. As a
    :width: 60%   
    
 .. note:: Above example is shown for the job submitted on Databricks cluster.
+
+.. note:: The log directory is configurable through the properties file(conf/application/properties), with the property name set as logs.dir.
 

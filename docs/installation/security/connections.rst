@@ -1,16 +1,19 @@
 Connections
 -----------
 
-Connections enable access to various resources. Connections can be at various levels:
+Connections enable access to various resources and can be established at different levels:
 
-  * Global:  Everyone has access to these connections.
-  * Group:   Users belonging to the group have access to these connections.
-  * Project: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
-  
+* **Global:** Everyone has access to these connections.
+* **Group:** Users belonging to the group have access to these connections.
+* **Project:** The owner of the project and the groups with which the project has been shared have access to the project-level connections.
  
-Sparkflows comes up with three types of connections i.e. ''Compute Connection, Storage Connection & GenAI Connection''.
+Sparkflows offers three types of connections:
 
-In Sparkflows, ``Compute Connection`` enables the following: 
+#. Compute Connection 
+#. Storage Connection 
+#. GenAI Connection
+
+In Sparkflows, **Compute Connection** enables the following: 
 
 
   * Databricks 
@@ -18,7 +21,7 @@ In Sparkflows, ``Compute Connection`` enables the following:
   * Livy
   * Spark Submit
 
-In Sparkflows, ``Storage Connection`` enables the following:
+In Sparkflows, **Storage Connection** enables the following:
 
   * Cassandra
   * Hive
@@ -31,7 +34,7 @@ In Sparkflows, ``Storage Connection`` enables the following:
   * Snowflake
   * Trino
 
-In Sparkflows, ``GenAI Connection`` enables the following:
+In Sparkflows, **GenAI Connection** enables the following:
 
   * Azure OpenAI
   * OpenAI

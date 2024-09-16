@@ -35,6 +35,23 @@ Airflow Support Compatibility Matrix
    * - V2.3.x
      - 2.8.1
 
+Spark, Databricks, Java and Python Support Compatibility Matrix
+++++++++
+
+.. list-table:: 
+   :widths: 10 10 10 10
+   :header-rows: 1
+
+   * - Spark Version	
+     - Databricks Vesrion
+     - Java Version
+     - Python Version
+   * - 3.2.1
+     - 10.4
+     - Java 8
+     - 3.8.0
+
+
 Matrix Compatibility
 ++++
 Ensure that you have the following AWS specifications while Integrating with Fire Insights :

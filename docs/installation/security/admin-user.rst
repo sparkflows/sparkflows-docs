@@ -8,13 +8,13 @@ Superuser
 
 A user in Fire Insights can be marked to be a super-user. A Super user has the below permissions:
 
+#. **Project Sharing:** Share or unshare any project with any group.
+#. **User Privileges:** Designate other users as Superusers.
+#. **Group Management:** Create, update, or delete groups.
+#. **User Management:** Create or update users.
+#. **Roles Management:** Create, update, or delete roles.
+#. **Operational Permissions:** Access tasks such as viewing server logs, updating configurations, etc.
 
-#. Share/unshare any project with any group.
-#. Mark other users as super-user.
-#. Group Management: Create/ Update/ Delete Group
-#. User Management: Create/ Update User
-#. Roles Management: Create/ Update/ Delete Roles.
-#. All Operational permissions like View Server log, update configuration etc. 
 
 
 Admin Role
@@ -24,30 +24,31 @@ Fire Insights comes with a Role called Admin. This Role has the permissions to m
 
 Users who would be administrating Fire Insights would have the Admin Role assigned to them.
 
-Below are the permissions for managing users, groups and roles.
+Below are the permissions for managing users, groups and roles:
 
-- users.manage
-- groups.manage
-- roles.manage
+* users.manage - Manage users
 
-Below are the permission for administrating Fire Insights.
+* groups.manage - Manage groups
 
-- Configure Fire Insights.
-- Run diagnostics.
-- Usage statistics.
-- View YARN Applications.
-- Load sample projects.
-- Manage Global Connections.
-- View server logs.
-- Cleanup data.
-- View Audit Report.
-- Manage Credential store.
-- Test LDAP.
-- Backup DB (only H2 DB)
-- View Runtime statistics.
-- View Scheduler Statistics.
-- View Cache Statistics.
+* roles.manage - Manage roles
 
+Below are the permission for administrating Fire Insights:
+
+* **System Configuration:** Configure Fire Insights settings.
+* **Diagnostics:** Run system diagnostics.
+* **Usage Statistics:** View platform usage statistics.
+* **YARN Applications:** Monitor YARN applications running on the Spark cluster.
+* **Sample Projects:** Load sample projects that come with Fire Insights.
+* **Global Connections:** Manage global and group-level connections.
+* **Server Logs:** View Fire server logs, exception logs, and PySpark logs.
+* **Data Cleanup:** Delete old workflow executions based on time ranges (e.g., older than 7, 30, or 90 days).
+* **Audit Report:** View and download audit reports for user activities like logins, logouts, and workflow modifications.
+* **Credential Store:** Manage credential stores for securely retrieving usernames, passwords, etc., when creating connections.
+* **LDAP Testing:** Test LDAP configuration to ensure it's set up correctly (only when the LDAP properties file is updated).
+* **Database Backup:** Backup the database if running on H2 DB.
+* **Runtime Statistics:** View total logged-in users, active Fire Spark processes, and PySpark processes, along with running jobs.
+* **Scheduler Statistics:** Monitor the status of scheduled jobs.
+* **Cache Statistics:** View cache statistics for logged-in users and data sources like Snowflake and Databricks.
 
 Operating Fire Insights
 -----
@@ -67,18 +68,19 @@ There are certain tasks to be performed for operating Fire Insights. It is recom
 Projects/Data
 +++++++++++++++++
 
-As regards the projects, the admin user can do the following:
+As for projects, the admin user can do the following:
 
-- View all the projects which admin user belongs.
-- View the executions of all the workflows which admin user belongs.
-- View the executions of all the analytical apps which admin user belongs.
-- Create analytics app in project which admin user belongs.
-
+* View all the projects to which the admin user belongs.
+* View the executions of all workflows to which the admin user belongs.
+* View the executions of all analytical apps to which the admin user belongs.
+* Create analytics apps in projects to which the admin user belongs.
 
 Deleting Users/Groups
 ++++++++++++++++++++
 
-In Fire Insights, users cannot be deleted. Users can be made inactive. Groups can be deleted.
+* **User Deactivation:** In Fire Insights, users cannot be deleted but can be made inactive.
+* **Group Deletion:** Groups can be deleted as needed.
+
 
 
 
@@ -102,7 +104,8 @@ The admin user can view detailed informations about machine environments.
 Usage Statistics
 ++++++++++++++
 
-The admin user can view total users, groups, roles, projects, workflows & workflows executions.
+The admin user can view the total number of users, groups, roles, projects, workflows, and workflow executions.
+
 
 .. figure:: ../../_assets/security/admin_user/admin_usage_statistics.PNG
    :alt: security
@@ -112,7 +115,7 @@ The admin user can view total users, groups, roles, projects, workflows & workfl
 YARN APPLICATIONS
 ++++++++++++++
 
-The admin user can view YARN APPLICATIONS if running on Spark Cluster with yarn.
+The admin user can view YARN applications if they are running on a Spark cluster with YARN.
 
 .. figure:: ../../_assets/security/admin_user/admin_yarn_application.PNG
    :alt: security
@@ -121,7 +124,7 @@ The admin user can view YARN APPLICATIONS if running on Spark Cluster with yarn.
 Sample Projects
 +++++++++++++
 
-The admin user can reload sample projects, as by default Fire Insights comes with sample projects containing different types of workflows & datasets.
+The admin user can reload sample projects, as Fire Insights, by default, comes with sample projects containing various types of workflows and datasets.
 
 .. figure:: ../../_assets/security/admin_user/admin_sample_project.PNG
    :alt: security
@@ -143,7 +146,7 @@ The admin user can add connections which everyone can use and also connections a
 Server Logs
 ++++++++
 
-The admin user can view Fire server logs, Fire logs, Fire exception logs & Fire PySpark logs.
+The admin user can view Fire server logs, Fire logs, Fire exception logs, and Fire PySpark logs.
 
 .. figure:: ../../_assets/security/admin_user/admin_logs.PNG
    :alt: security
@@ -152,19 +155,21 @@ The admin user can view Fire server logs, Fire logs, Fire exception logs & Fire 
 Cleanup Data
 +++++++++++
 
-The admin user can delete old workflow executions for cleaning the DB which is older than  last 7 days or older than last 30 days, older than  last 90 days & delete all executions.
+The admin user can delete old workflow executions from the database that are older than the last 7 days, 30 days, or 90 days, as well as delete all executions.
+
 
 .. figure:: ../../_assets/security/admin_user/admin_cleanup_1.PNG
    :alt: security
    :width: 70%
 
-The admin user can delete old pipeline executions for cleaning the DB which is older than  last 7 days or older than last 30 days, older than  last 90 days & delete all executions.
+The admin user can delete old pipeline executions from the database that are older than the last 7 days, 30 days, or 90 days, as well as delete all executions.
 
 .. figure:: ../../_assets/security/admin_user/admin_cleanup_2.PNG
    :alt: security
    :width: 70%
 
-The admin user can clean audit logs for cleaning the DB which is older than last 7 days, older than last 30 days, older than last 90 days & delete all logs.
+The admin user can clean audit logs from the database that are older than 7 days, 30 days, or 90 days, as well as delete all logs.
+
 
 .. figure:: ../../_assets/security/admin_user/admin_cleanup_3.PNG
    :alt: security
@@ -173,7 +178,7 @@ The admin user can clean audit logs for cleaning the DB which is older than last
 Audit Report
 ++++++++++++
 
-The admin user can view, Download audit report of user login, logout & workflow modified.
+The admin user can view and download audit reports of user logins, logouts, and workflow modifications.
 
 .. figure:: ../../_assets/security/admin_user/admin_audit.PNG
    :alt: security
@@ -182,7 +187,7 @@ The admin user can view, Download audit report of user login, logout & workflow 
 Credential Store
 +++++++++++++++++
 
-The admin user can add credential store. When creating connections, values like username/password etc. can be fetched from the credential store.
+The admin user can add credentials to the credential store. When creating connections, values such as usernames and passwords can be fetched from the credential store.
 
 .. figure:: ../../_assets/security/admin_user/admin_credentials.PNG
    :alt: security
@@ -191,7 +196,7 @@ The admin user can add credential store. When creating connections, values like 
 TEST LDAP
 +++++++++++++++++
 
-The admin user can TEST LDAP configuration if its configured correctly or not (only when ldap properties file is updated)
+The admin user can test LDAP configuration to ensure it is configured correctly (only when the LDAP properties file has been updated).
 
 .. figure:: ../../_assets/security/admin_user/admin_ldap.PNG
    :alt: security
@@ -200,7 +205,8 @@ The admin user can TEST LDAP configuration if its configured correctly or not (o
 Backup DB
 +++++++++++++++++
 
-The admin user can Backup DB (only if application is running on H2 DB) to a configured location.
+The admin user can back up the database (only if the application is running on H2 DB) to a configured location.
+
 
 .. figure:: ../../_assets/security/admin_user/admin_bkp.PNG
    :alt: security
@@ -209,7 +215,8 @@ The admin user can Backup DB (only if application is running on H2 DB) to a conf
 Runtime Statistics
 ++++++++++++++
 
-The admin user can view total logged in users, total Fire Spark processes, total Fire PySpark processes & total running jobs.
+The admin user can view the total number of logged-in users, Fire Spark processes, Fire PySpark processes, and running jobs.
+
 
 .. figure:: ../../_assets/security/admin_user/admin_statistics.PNG
    :alt: security
@@ -218,7 +225,7 @@ The admin user can view total logged in users, total Fire Spark processes, total
 Scheduler Statistics
 ++++++++++++++
 
-The admin user can view the statistics of the Scheduled Jobs.
+The admin user can view the statistics of scheduled jobs.
 
 .. figure:: ../../_assets/security/admin_user/admin_scheduler_statistics.PNG
    :alt: security
@@ -227,7 +234,7 @@ The admin user can view the statistics of the Scheduled Jobs.
 Cache Statistics
 ++++++++++++++
 
-The admin user can view Cache Statistics of LoggedIn and data sources like Snowflake, Databricks.
+The admin user can view cache statistics for logged-in users and data sources such as Snowflake and Databricks.
 
 .. figure:: ../../_assets/security/admin_user/admin_cache_statistics.PNG
    :alt: security

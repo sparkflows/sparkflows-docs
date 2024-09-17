@@ -33,6 +33,10 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Diagnostics``
     ---
     
     :doc:`/installation/diagnostics/aws-s3`
+ 
+    ---
+    
+    :doc:`/installation/diagnostics/azure`
 
 .. toctree::
    :hidden:
@@ -43,6 +47,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Diagnostics``
    connections.rst
    modules.rst
    aws-s3.rst
+   azure.rst
 
 
 

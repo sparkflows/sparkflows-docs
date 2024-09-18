@@ -17,7 +17,6 @@ Azure Admin Guide
 
     ---
 
-
     :doc:`/azure/admin-guide/installation-guide/index`
 
     Deploy Sparkflows on Azure.
@@ -46,16 +45,13 @@ Azure Admin Guide
 
     Setup Azure Synapse in Sparkflows.
 
-
     ---
-
 
     :doc:`/azure/admin-guide/azure-databricks`
 
     Databricks Job submission.
 
-   ---
-
+    ---
 
     :doc:`/azure/admin-guide/mount-adls`
 

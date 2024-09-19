@@ -9,7 +9,13 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
-    
+
+    :doc:`/hpe/admin-guide/predeployment_checklist`
+
+    Describes pre-deployment checklist for the installation of Sparkflows on UA 1.5.
+
+    ---
+
     :doc:`/hpe/admin-guide/hpe_ua`
 
     Describes details to help you plan on setting up HPE UA.
@@ -54,6 +60,7 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 .. toctree::
    :hidden:
 
+   predeployment_checklist.rst
    hpe_ua.rst
    keycloak_setup.rst
    sparkflows_setup.rst

@@ -23,4 +23,4 @@ Once you have entered the connection details, click on ``Test Connection``. If t
 Now, you are ready to start using the Connection in workflows.
 
 
-.. Note:: Make sure that Incorta URL should be accessible from Sparkflows web server URL.
+.. Note:: Make sure that Incorta Storage URL should be accessible from Sparkflows web server URL.

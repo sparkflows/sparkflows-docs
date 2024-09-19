@@ -15,3 +15,12 @@ Step 1: Setting-up Storage Connection to Incorta Object Store
    .. figure:: ../../_assets/incorta/Incorta-StorageConnection-Incorta-II.png
       :alt: incorta_integration
       :width: 60%
+
+#. Test Connection and Save
+
+Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
+
+Now, you are ready to start using the Connection in workflows.
+
+
+.. Note:: Make sure that Incorta URL should be accessible from Sparkflows web server URL.

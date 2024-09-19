@@ -36,13 +36,13 @@ Add connection for group
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
-.. figure:: ../../../_assets/aws/livy/add_connection.PNG
+.. figure:: ../../_assets/aws/livy/add_connection.PNG
    :alt: livy
    :width: 60%
    
-.. figure:: ../../../_assets/aws/livy/add_livy_connection.PNG
-   :alt: livy
-   :width: 50%   
+.. figure:: ../../_assets/incorta/chidori_2.png
+   :alt: chidori
+   :width: 60%
    
 Add additional parameters as per your environment
 ======

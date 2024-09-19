@@ -10,7 +10,7 @@ Sparkflows enables you to create "Chidori Connection" and use it to submit jobs/
 This page show how to create a "Chidori Connection" in Fire Insights.
 
 Enable Chidori in Sparkflows
-===========
+++++++++++
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Chidori connection by setting the below parameter:
 
@@ -23,7 +23,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :width: 60%
 
 Navigate to Add Connections
-===========
++++++
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
@@ -32,7 +32,7 @@ Once you save the above Configuration, navigate to ``Administration`` -> ``Globa
    :width: 60%
    
 Add connection for group
-========
+++++++++++++
 
 Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
 
@@ -45,7 +45,7 @@ Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` 
    :width: 60%
    
 Add additional parameters as per your environment
-======
+++++++
 
 Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 

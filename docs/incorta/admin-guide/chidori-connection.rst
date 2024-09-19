@@ -95,45 +95,42 @@ For CHIDORI tab
      - Description
      - Value
    * - Jars
-     - Jars to be used in emr livy session
-     - Jars path located in S3 Location
-   * - File
-     - File contains application to execute
-     - py file path located in s3 Location 
+     - Jars to be used in Chidori session
+     - Jars path located in Chidori Cluster
    * - Pyspark Files
      - Pyspark Files to be used in emr livy session
-     - Pyspark file located in S3 Location  
-   * - Files
-     - Files to be used in emr livy session
-     - Any Files if needed
-   * - Archives Files
-     - Archives Files to be used in emr livy session
-     - Value  
-   * - Driver Memory 
-     - Driver Memory to be used in emr livy session
-     - Driver Memory if any specific memory you need to pass
-   * - Driver Cores
-     - Driver Cores to be used in emr livy session
-     - Driver Cores if any specific Cores you need to pass  
-   * - Executor Memory
-     - Executor Memory to be used in emr livy session
-     - Executor Memory if any specific Executor Memory you need to pass  
-   * - Executor Cores
-     - Executor Cores to be used in emr livy session
-     - Executor Cores if any specific Executor Cores you need to pass  
-   * - Num Executors
-     - Num Executors to be used in emr livy session
-     - Num Executors if any specific Num Executors you need to pass  
-   * - Conf 
-     - Conf to be used in emr livy session
-     - Conf to be used in emr livy session  
-   * - Livy Log File S3 location
-     - Location to be used to store Livy Log
-     - Update the path ie s3://sparkflows-bucket/logs  
+     - Pyspark file located in Chidori Cluster 
+   * - Spark Conf
+     - Spark Conf
+     - Spark Conf used while Job Submission
+   * - Log File location
+     - Location to be used to store Chidori Log
+     - Update the path ie File system accessible  
      
-.. figure:: ../../../_assets/aws/livy/add_livy.PNG
-   :alt: livy
-   :width: 50%     
+.. figure:: ../../_assets/incorta/chidori_4.png
+   :alt: chidori
+   :width: 60%
+
+For MV tab
+++++++
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - HostName 
+     - HostName 
+     - HostName 
+   * - Token
+     - Token
+     - Token 
+        
+.. figure:: ../../_assets/incorta/chidori_5.png
+   :alt: chidori
+   :width: 60%
+
 
 .. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` & "workflowexecutecloud.py" to S3 bucket and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib`` & ``fire-x.y.z/dist/``. 
 

@@ -18,7 +18,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.chidori.enabled	 : true
 
-.. figure:: ../../_assets/incorta/chidori_1.png
+.. figure:: ../../../_assets/incorta/chidori_1.png
    :alt: chidori
    :width: 60%
 
@@ -27,7 +27,7 @@ Navigate to Add Connections
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: ../../../_assets/aws/livy/administration.png
+.. figure:: ../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
    

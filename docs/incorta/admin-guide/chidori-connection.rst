@@ -18,7 +18,7 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
     connection.chidori.enabled	 : true
 
-.. figure:: ../../../_assets/incorta/chidori_1.png
+.. figure:: ../../_assets/incorta/chidori_1.png
    :alt: chidori
    :width: 60%
 

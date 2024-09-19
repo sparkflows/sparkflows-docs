@@ -19,11 +19,18 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     Configure Chidori Connection
 
+    ---
+
+    :doc:`/incorta/admin-guide/storage-connection`
+
+    Configure Incorta Table
+
 
 .. toctree::
    :hidden:
 
    incorta-overview.rst
    chidori-connection.rst
+   storage-connection.rst
 
 

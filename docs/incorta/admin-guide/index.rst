@@ -13,9 +13,17 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     Overview of Fire Insights Integration with Incorta
 
+    ---
+
+    :doc:`/incorta/admin-guide/chidori-connection`
+
+    Configure Chidori Connection
+
+
 .. toctree::
    :hidden:
 
    incorta-overview.rst
+   chidori-connection.rst
 
 

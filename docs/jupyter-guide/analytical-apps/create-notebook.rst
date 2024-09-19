@@ -12,6 +12,19 @@ This step enables smooth integration and data flow between Fire Insights and Jup
 
 `Click here <https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl>`_ to download the Wheel File.  
 
+Then, install the package using the downloaded wheel file, with the following command:
+
+::
+
+  pip install path/to/fire_notebook-3.1.0-py3-none-any.whl
+
+Or, you can directly install using the wheel file from S3:
+
+::
+
+  pip install https://sparkflows-release.s3.amazonaws.com/fire/jupyter-docker/firenotebookwheel/fire_notebook-3.1.0-py3-none-any.whl
+
+
 Jupyter Notebook Sample Code
 -----
 

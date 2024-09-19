@@ -140,5 +140,11 @@ Get the Fire Python wheel file from this link:
 
   `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
 
+Get the Fire Python wheel file from this link: 
 
+  `Fire Python dependency 1 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-0-100.txt>`_
+
+  `Fire Python dependency 2 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-101-150.txt>`_
+
+  `Fire Python dependency 3 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-151-end.txt>`_
 

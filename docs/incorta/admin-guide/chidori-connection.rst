@@ -76,7 +76,7 @@ For GENERAL tab
      - Connection Description
    * - Url
      - Url for selected Connection type
-     - Add URL for Livy Connection
+     - Add URL for Chidori Connection
    * - Driver Class
      - Driver Class for selected Connection type 
      - It Comes with default value  

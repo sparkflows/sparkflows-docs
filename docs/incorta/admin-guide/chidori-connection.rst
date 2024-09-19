@@ -1,9 +1,6 @@
 Configure Chidori Connection
 =====================
 
-Sparkflows connects with Chidori to submit the Spark and PySpark jobs of the workflow on the cluster powered by Incorta.
-
-
 Sparkflows enables you to create "Chidori Connection" and use it to submit jobs/workflows. Connections can be at various levels:
 
   * Global  : Everyone has access to these connections.

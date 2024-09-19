@@ -62,9 +62,12 @@ For GENERAL tab
    * - Connection name
      - Connection Name
      - Name of Connection
+   * - Token 
+     - Token 
+     - Token used for Chidori
    * - Postback Url
      - Postback Url
-     - Postback Url through which Livy sent result back to Fire Insights
+     - Postback Url through which Chidori sent result back to Fire Insights
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  
@@ -78,9 +81,9 @@ For GENERAL tab
      - Driver Class for selected Connection type 
      - It Comes with default value  
      
-.. figure:: ../../../_assets/aws/livy/add_general.PNG
-   :alt: livy
-   :width: 50%
+.. figure:: ../../_assets/incorta/chidori_3.png
+   :alt: chidori
+   :width: 60%
 
 For CHIDORI tab
 ++++++

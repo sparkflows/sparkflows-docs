@@ -134,5 +134,11 @@ For MV tab
 
 .. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` & "workflowexecutecloud.py" to S3 bucket or the Incorta Cluster path  and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib`` & ``fire-x.y.z/dist/``. 
 
+For PySpark Integration, you need to install ``Fire Python Wheel file & Python package`` on Chidori Cluster.
+
+Get the Fire Python wheel file from this link: 
+
+  `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
+
 
 

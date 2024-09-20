@@ -1,7 +1,7 @@
 Configure Chidori Connection
 =====================
 
-Sparkflows enables you to create Chidori Connection and use it to submit jobs/workflows. Connections can be at various levels:
+Sparkflows allows you to create a Chidori connection for submitting jobs and workflows. Connections can be created at various levels:
 
   * **Global**: Everyone has access to these connections.
   * **Group**: Users belonging to the group have access to these connections.

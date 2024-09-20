@@ -1,8 +1,8 @@
 Incorta Integration
 ====================
-Sparkflows allows reading the data from an Incorta object store using a storage connection and do the data-cleaning, data transformation, data profiling, feature-engineering and model build with a no-code workflow designer. It allows users to submit the workflow to the Incorta Spark cluster with the Incorta Chidori compute connection and saves the results and model to the Incorta object-store.
+Sparkflows enables users to read data from an Incorta object store using a storage connection and perform tasks such as data cleaning, transformation, profiling, feature engineering, and model building with a no-code workflow designer. It allows workflows to be submitted to the Incorta Spark cluster via the Incorta Chidori compute connection, saving the results and model to the Incorta object store.
 
-This document outlines the steps for integrating Sparkflows with Incorta. 
+This document outlines the steps for integrating Sparkflows with Incorta.
 
 Integration Components
 ---------------------
@@ -11,7 +11,7 @@ Integration Components
 * Compute Connection i.e. Chidori.
 * Incorta MV with Pyspark code.
 
-Step 1: Setting-up Storage Connection to Incorta Object Store
+Step 1: Set-up Storage Connection to Incorta Object Store
 ------------------------------------------
 #. Navigate to **Administration -> Configuration -> Global Connection**.
 #. Create a connection to the Incorta Object Store.

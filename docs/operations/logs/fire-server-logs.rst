@@ -13,7 +13,7 @@ Fire server Logs:
     cd fire-x.y.z/log/
     Search for fireserver.log, where you can view fireserver logs.
     
-.. figure:: ../_assets/configuration/logs/fireserver-log.PNG
+.. figure:: ../../_assets/configuration/logs/fireserver-log.PNG
    :alt: Logs
    :width: 70%
 
@@ -26,7 +26,7 @@ Below are steps involved in it:
 
 Go to Administrations page and select View Server Logs, it will open new windows which display all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
 
-.. figure:: ../_assets/configuration/logs/fireserver_log.PNG
+.. figure:: ../../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs
    :width: 70%
 
@@ -41,7 +41,7 @@ The logs for Fire web server go into "fireserver.log". The logging level is dete
 As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
-.. figure:: ../_assets/operating/operations/fire-server-logs.PNG
+.. figure:: ../../_assets/operating/operations/fire-server-logs.PNG
    :alt: connection
    :width: 60%
    

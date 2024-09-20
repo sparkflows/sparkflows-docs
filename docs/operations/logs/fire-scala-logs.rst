@@ -5,7 +5,7 @@ Fire Logs:
 
 ::
 
-    cd cd fire-x.y.z
+    cd cd fire-x.y.z/log
     Search for fire.log
     
 .. figure:: ../../_assets/configuration/logs/fire-log.PNG

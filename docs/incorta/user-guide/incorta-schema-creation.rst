@@ -37,7 +37,7 @@ Follow the steps below to create Incorta Schema:
 * To create a New Schema click on **New** -> and select the **Create Schema** option.
 
   .. figure:: ../../_assets/incorta/schema-new-create.png
-     :width: 60%
+     :width: 40%
      :alt: Incorta User Guide
 	  
 * On clicking **Create Schema** option a corresponding popup would be displayed as below.

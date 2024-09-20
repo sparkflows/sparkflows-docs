@@ -1,18 +1,19 @@
 Configure Chidori Connection
 =====================
 
-Sparkflows enables you to create "Chidori Connection" and use it to submit jobs/workflows. Connections can be at various levels:
+Sparkflows enables you to create Chidori Connection and use it to submit jobs/workflows. Connections can be at various levels:
 
-  * Global  : Everyone has access to these connections.
-  * Group   : Users belonging to the group have access to these connections.
-  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
+  * **Global**: Everyone has access to these connections.
+  * **Group**: Users belonging to the group have access to these connections.
+  * **Project**: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Chidori Connection" in Fire Insights.
+This document provides steps to create a Chidori Connection in Fire Insights.
 
-Enable Chidori in Sparkflows
+Step 1 : Enable Chidori in Sparkflows
 ++++++++++
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Chidori connection by setting the below parameter:
+#. Login to **Sparkflows application**
+#. Navigate to **Administration -> Configurations -> Connection** and enable **Chidori connection** by setting the below parameter:
 
 ::
 
@@ -22,34 +23,35 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
    :alt: chidori
    :width: 60%
 
-Navigate to Add Connections
+Step 2 : Navigate to Add Connections
 +++++
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+Once you save the above Configuration, navigate to **Administration -> Global Connections -> Add Connections** as shown below:
 
 .. figure:: ../../_assets/aws/livy/administration.png
    :alt: livy
    :width: 60%
    
-Add connection for group
+Step 3 : Add Connection for Group
 ++++++++++++
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+#. Navigate to **Administration -> Global Connections -> Add Connections -> Add Connection For Group** 
+#. On the pop up window, select **Compute Connection** and other parameters as shown below:
 
-.. figure:: ../../_assets/aws/livy/add_connection.PNG
-   :alt: livy
-   :width: 60%
+   .. figure:: ../../_assets/aws/livy/add_connection.PNG
+      :alt: livy
+      :width: 60%
    
-.. figure:: ../../_assets/incorta/chidori_2.png
-   :alt: chidori
-   :width: 60%
+   .. figure:: ../../_assets/incorta/chidori_2.png
+      :alt: chidori
+      :width: 60%
    
-Add additional parameters as per your environment
+Step 4 : Add Additional Parameters 
 ++++++
 
-Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
+Once you have selected  the connection type & groups, add the additional connection parameters as per your environment. For more details refer the following tables and images:
 
-For GENERAL tab
+For GENERAL Tab
 ++++
 
 .. list-table:: 
@@ -85,7 +87,7 @@ For GENERAL tab
    :alt: chidori
    :width: 60%
 
-For CHIDORI tab
+For CHIDORI Tab
 ++++++
 .. list-table:: 
    :widths: 10 20 30
@@ -111,7 +113,7 @@ For CHIDORI tab
    :alt: chidori
    :width: 60%
 
-For MV tab
+For MV Tab
 ++++++
 .. list-table:: 
    :widths: 10 20 30
@@ -132,19 +134,15 @@ For MV tab
    :width: 60%
 
 
-.. Note:: Make sure to upload ``fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar`` & "workflowexecutecloud.py" to S3 bucket or the Incorta Cluster path  and is accessible from Saprkflows webserver UI. This jar is available in Sparkflows binary. Untar the binary to find it inside ``fire-x.y.z/fire-core-lib`` & ``fire-x.y.z/dist/``. 
+.. Note::  Ensure that the **fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar** and **workflowexecutecloud.py** files are uploaded to an S3 bucket or the Incorta cluster path. These files must be accessible from the Sparkflows webserver UI. The required jar files can be found in the Sparkflows binary by untarring **fire-x.y.z/fire-core-lib** and **fire-x.y.z/dist/**.
 
-For PySpark Integration, you need to install ``Fire Python Wheel file & Python package`` on Chidori Cluster.
+           For PySpark integration, install the Fire Python Wheel and the necessary Python packages on the Chidori cluster. You can download them from the following links:
 
-Get the Fire Python wheel file from this link: 
+           * Get the Fire Python wheel file from this link:  `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
+           * Get the Fire Python wheel file from any of the following links: 
 
-  `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
+             * `Fire Python dependency 1 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-0-100.txt>`_
 
-Get the Fire Python wheel file from this link: 
+             * `Fire Python dependency 2 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-101-150.txt>`_
 
-  `Fire Python dependency 1 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-0-100.txt>`_
-
-  `Fire Python dependency 2 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-101-150.txt>`_
-
-  `Fire Python dependency 3 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-151-end.txt>`_
-
+             * `Fire Python dependency 3 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-151-end.txt>`_

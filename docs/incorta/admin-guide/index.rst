@@ -1,8 +1,7 @@
 Incorta Admin Guide
 =============
 
-This document explains in detail the steps involved in setting up Sparkflows on Incorta Machine and Configuring Incorta Chidori compute connection in Sparkflows.
-
+This document provides detailed instructions for setting up Sparkflows on an Incorta machine and configuring the Incorta Chidori compute connection within Sparkflows.
 
 
 .. panels::

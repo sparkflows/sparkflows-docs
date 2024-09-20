@@ -62,7 +62,7 @@ Operations
 .. toctree::
    :hidden:
  
-   logs.rst  
+   logs/index.rst  
    continuous-integration/index.rst
    regular-maintenance-tasks.rst
    backup_db.rst

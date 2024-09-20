@@ -134,15 +134,17 @@ For MV Tab
    :width: 60%
 
 
-.. Note::  Ensure that the **fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar** and **workflowexecutecloud.py** files are uploaded to an S3 bucket or the Incorta cluster path. These files must be accessible from the Sparkflows webserver UI. The required jar files can be found in the Sparkflows binary by untarring **fire-x.y.z/fire-core-lib** and **fire-x.y.z/dist/**.
+.. Note::  #. Ensure that the **fire-spark_x.y.z-core-x.y.z-jar-with-dependencies.jar** and **workflowexecutecloud.py** files are uploaded to an S3 bucket or the Incorta cluster path. These files must be accessible from the Sparkflows webserver UI. The required jar files can be found in the Sparkflows binary by untarring **fire-x.y.z/fire-core-lib** and **fire-x.y.z/dist/**.
 
-           For PySpark integration, install the Fire Python Wheel and the necessary Python packages on the Chidori cluster. You can download them from the following links:
+           #. For PySpark integration, install the Fire Python Wheel and the necessary Python packages on the Chidori cluster. You can download them from the following links:
 
-           * Get the Fire Python wheel file from this link:  `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
-           * Get the Fire Python wheel file from any of the following links: 
+              * Get the Fire Python wheel file from the link given below:  
+                
+                * `Fire Python Wheel File Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/fire-3.1.0-py3-none-any.whl>`_
+              * Get the Fire Python Packages from any of the below links: 
 
-             * `Fire Python dependency 1 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-0-100.txt>`_
+                * `Fire Python dependency 1 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-0-100.txt>`_
 
-             * `Fire Python dependency 2 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-101-150.txt>`_
+                * `Fire Python dependency 2 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-101-150.txt>`_
 
-             * `Fire Python dependency 3 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-151-end.txt>`_
+                * `Fire Python dependency 3 Download Link <https://sparkflows-release.s3.amazonaws.com/fire/incorta/spark_3.3.1/python_dependency/requirements-151-end.txt>`_

@@ -14,7 +14,7 @@ Pyspark Logs:
 
 ::
 
-    cd cd fire-x.y.z
+    cd cd fire-x.y.z/logs
     Search for pyspark.log
 
 .. figure:: ../../_assets/configuration/logs/pyspark-log.PNG

@@ -24,7 +24,7 @@ Fire server Logs:
     cd fire-x.y.z/log/
     Search for fireserver.log, where you can view fireserver logs.
     
-.. figure:: ../_assets/configuration/logs/fireserver-log.PNG
+.. figure:: ../../_assets/configuration/logs/fireserver-log.PNG
    :alt: Logs
    :width: 70%
 
@@ -37,7 +37,7 @@ Below are steps involved in it:
 
 Go to Administrations page and select View Server Logs, it will open new windows which display all the Logs ie. ''Fire Server Logs, Fire Logs, Fire Exception Logs & Fire Pyspark Logs'' respectively.
 
-.. figure:: ../_assets/configuration/logs/fireserver_log.PNG
+.. figure:: ../../_assets/configuration/logs/fireserver_log.PNG
    :alt: Logs
    :width: 70%
 
@@ -52,7 +52,7 @@ The logs for Fire web server go into "fireserver.log". The logging level is dete
 As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
-.. figure:: ../_assets/operating/operations/fire-server-logs.PNG
+.. figure:: ../../_assets/operating/operations/fire-server-logs.PNG
    :alt: connection
    :width: 60%
    
@@ -86,7 +86,7 @@ Fire Logs:
     cd cd fire-x.y.z
     Search for fire.log
     
-.. figure:: ../_assets/configuration/logs/fire-log.PNG
+.. figure:: ../../_assets/configuration/logs/fire-log.PNG
    :alt: Logs
    :width: 70%
 
@@ -99,11 +99,11 @@ The logs for Fire engine go into "fire.log".
 As an administrator, the logs can be viewed from UI. Once you login using Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
-.. figure:: ../_assets/operating/operations/fire-logs.PNG
+.. figure:: ../../_assets/operating/operations/fire-logs.PNG
    :alt: connection
    :width: 60%
 
-.. figure:: ../_assets/configuration/logs/fire_log.PNG
+.. figure:: ../../_assets/configuration/logs/fire_log.PNG
    :alt: Logs
    :width: 70%
 
@@ -117,7 +117,7 @@ The logs for Fire PySpark engine go into "pyspark.log".
 As an Administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
-.. figure:: ../_assets/operating/operations/fire-pyspark-logs.PNG
+.. figure:: ../../_assets/operating/operations/fire-pyspark-logs.PNG
    :alt: connection
    :width: 60%
    
@@ -128,11 +128,11 @@ Pyspark Logs:
     cd cd fire-x.y.z
     Search for pyspark.log
 
-.. figure:: ../_assets/configuration/logs/pyspark-log.PNG
+.. figure:: ../../_assets/configuration/logs/pyspark-log.PNG
    :alt: Logs
    :width: 70%
 
-.. figure:: ../_assets/configuration/logs/pyspark_log.png
+.. figure:: ../../_assets/configuration/logs/pyspark_log.png
    :alt: Logs
    :width: 70%
   
@@ -148,15 +148,15 @@ Logs for Job Submitted on the Cluster
 Fire enables you to view the logs for job submitted on the cluster from UI. As an user, you can view the logs while running any workflow as below. You can go to "executions page" and click on ''three dots'' and logs option will be available.
 
 
-.. figure:: ../_assets/operating/operations/logs_wf.PNG
+.. figure:: ../../_assets/operating/operations/logs_wf.PNG
    :alt: operations
    :width: 80%
    
-.. figure:: ../_assets/operating/operations/databricks-logs.PNG
+.. figure:: ../../_assets/operating/operations/databricks-logs.PNG
    :alt: operations
    :width: 60%   
    
-.. figure:: ../_assets/operating/operations/databricks_logs.PNG
+.. figure:: ../../_assets/operating/operations/databricks_logs.PNG
    :alt: operations
    :width: 60%   
    

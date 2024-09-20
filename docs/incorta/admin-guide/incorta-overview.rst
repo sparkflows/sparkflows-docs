@@ -1,9 +1,5 @@
 Overview
 ========
 
-Fire Insights is deeply integrated with Incorta.
-
-Fire allows reading the data from an Incorta object store using a storage connection and do the data-cleaning, data transformation, data profiling, feature-engineering and model build with a no-code workflow designer. It allows users to submit the workflow to the Incorta Spark cluster with the Incorta Chidori compute connection and saves the results and model to the Incorta object-store.
-
-
+Fire Insights is fully integrated with Incorta, enabling seamless data processing and analysis. It allows users to read data from an Incorta object store via a storage connection and perform tasks such as data cleaning, transformation, profiling, feature engineering, and model building using a no-code workflow designer. Users can submit workflows to the Incorta Spark cluster through the Incorta Chidori compute connection, with results and models saved directly to the Incorta object store.
 

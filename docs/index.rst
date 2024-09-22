@@ -156,6 +156,13 @@ Change Data Capture
 
    cdc/index
 
+Lineage
+----------
+.. toctree::
+   :maxdepth: 2
+
+   lineage/index
+
 Cloudera/Hadoop Guide
 --------------
 

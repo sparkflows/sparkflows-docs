@@ -39,7 +39,7 @@ After enabling the Open Lineage connection, you can create the lineage connectio
 Follow the steps below to create the connection:
 
 #. Navigate to **Administration > Connections**.
-#. Click on the **Add Connection** button located on the top right corner.
+#. Click on the **Add Connection** button located at the top right corner.
 #. Enter the connection details on the pop-up window.
 
 

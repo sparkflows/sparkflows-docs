@@ -1,12 +1,19 @@
 Lineage Configuration
 =====
+This document outlines the steps to configure Lineage in Sparkflows.
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``openlineage.enabled = true`` 
+Step 1 : Log In and Navigate to the Configurations Page
+----------------------------------
 
-Local Lineage Configuration
+Log in to the **Sparkflows application** and go to **Administration > Configurations**. 
+
+Step 2 : Enable Local Lineage Configuration
 ---------------------------
 
-To enable OpenLineage, the user must navigate to the administration configuration and enable the openlineage.enabled property.
+To enable OpenLineage, enable the **openlineage.enabled** property on the Configurations Page:
+::
+
+   openlineage.enabled = true
 
 
 .. figure:: ../../_assets/lineage/enable_lineage.png
@@ -14,35 +21,46 @@ To enable OpenLineage, the user must navigate to the administration configuratio
    :width: 60%
 
 
-Lineage Configuration with Livy 
+Step 3 : Enable Lineage Configuration with Livy 
 ------------------------------
 
-To enable OpenLineage with the livy connection user must have enabled the below properties
+To configure OpenLineage with the Livy connection, enable the following properties on the Configurations Page:
+::
 
-``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``connection.openlineage.enabled = true``
+    connection.openlineage.enabled = true
+    connection.livy.enabled = true
 
-``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``connection.livy.enabled = true``
 
-Creating open lineage connection
+Step 4 : Create Open Lineage Connection
 --------------------------------
 
-Once user enabled the open lineage connection, the user can create the lineage connection in administration
+After enabling the Open Lineage connection, you can create the lineage connection in the administration settings. 
+
+Follow the steps below to create the connection:
+
+#. Navigate to **Administration > Connections**.
+#. Click on the **Add Connection** button located on the top right corner.
+#. Enter the connection details on the pop-up window.
 
 
-.. figure:: ../../_assets/lineage/create_connection_lineage.png
-   :alt: enable-lineage
-   :width: 60%
 
-Once user created lineage connection user needs to select the lineage connection on livy connection
+   .. figure:: ../../_assets/lineage/create_connection_lineage.png
+      :alt: enable-lineage
+      :width: 60%
 
-.. figure:: ../../_assets/lineage/livy_lineage.png
-   :alt: livy-lineage
-   :width: 60%
+#. After entering all the details **Test and Save** the connection.
+#. Once the lineage connection is created, select it for the Livy connection as shown below:
 
+   .. figure:: ../../_assets/lineage/livy_lineage.png
+      :alt: livy-lineage
+      :width: 60%
 
-While executing workflow with livy user needs to pass the below configuration for the namespace
+Step 5 : Execute Workflows with Livy
+-----------------------------------
 
-ex. --conf spark.openlineage.=WORKFLOW_LINEAGE
+While executing workflows with Livy, include the following configuration for the namespace:
+
+ex. **--conf spark.openlineage.=WORKFLOW_LINEAGE**
 
 .. figure:: ../../_assets/lineage/workflow_lineage.png
    :alt: livy-lineage

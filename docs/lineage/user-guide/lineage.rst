@@ -1,7 +1,7 @@
 Lineage User Guide
 =====
 
-Once Lineage is enabled, users will be able to see the Lineage tab under the Data menu.
+Once Lineage is enabled, users will be able to see the **Lineage** option under the **Data** menu.
 
 .. figure:: ../../_assets/lineage/menu_lineage.png
    :alt: menu-lineage
@@ -11,7 +11,7 @@ Once Lineage is enabled, users will be able to see the Lineage tab under the Dat
 Viewing Lineage Namespaces
 ------------------
 
-Clicking on the **Lineage menu** will navigate to the Lineage Namespaces page, which contains all available namespaces.
+Clicking on the **Lineage** menu will navigate to the **Lineage Namespaces page**, which contains all available namespaces.
 
 .. figure:: ../../_assets/lineage/namespace_lineage.png
    :alt: namespace_lineage

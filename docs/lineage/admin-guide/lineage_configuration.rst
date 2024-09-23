@@ -4,7 +4,7 @@ Lineage Configuration
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``openlineage.enabled = true`` 
 
 Local Lineage Configuration
-=====
+---------------------------
 
 To enable OpenLineage, the user must navigate to the administration configuration and enable the openlineage.enabled property.
 
@@ -15,7 +15,7 @@ To enable OpenLineage, the user must navigate to the administration configuratio
 
 
 Lineage Configuration with Livy 
-==========
+------------------------------
 
 To enable OpenLineage with the livy connection user must have enabled the below properties
 
@@ -24,7 +24,7 @@ To enable OpenLineage with the livy connection user must have enabled the below 
 ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``connection.livy.enabled = true``
 
 Creating open lineage connection
-===================
+--------------------------------
 
 Once user enabled the open lineage connection, the user can create the lineage connection in administration
 

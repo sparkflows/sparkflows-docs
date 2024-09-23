@@ -9,7 +9,7 @@ Once Lineage enabled user can able to see the ``Lineage`` tab on data menu
 
 
 Lineage Namespaces
-=====
+------------------
 
 Once user click on ``Lineage`` menu it will navigate to the Lineage namespaces page (it will contains all name spaces)
 
@@ -18,7 +18,7 @@ Once user click on ``Lineage`` menu it will navigate to the Lineage namespaces p
    :width: 60%
 
 Lineage Datasets
-=====
+----------------
 
 Once user click on ``namespace name`` it will navigate to the Lineage datasets page 
 
@@ -27,7 +27,7 @@ Once user click on ``namespace name`` it will navigate to the Lineage datasets p
    :width: 60%
 
 Dataset Lineage
-=====
+---------------
 
 Once user click on particular ``dataset Name`` it will display the dataset lineage for the dataset
 
@@ -36,7 +36,7 @@ Once user click on particular ``dataset Name`` it will display the dataset linea
    :width: 60%
 
 Column Lineage
-=====
+--------------
 
 Once user click on ``view icon`` in actions column it will display the column lineage for the dataset
 

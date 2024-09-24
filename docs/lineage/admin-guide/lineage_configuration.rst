@@ -57,6 +57,14 @@ Follow the steps below to create the connection:
       :alt: enable-lineage
       :width: 60%
 
+#. In Jars of open lineage connection, user needs to update the jar path if
+   the execution will be done on Livy
+
+    .. figure:: ../../_assets/lineage/jars_lineage.png
+      :alt: lineage-jars
+      :width: 60%
+
+
 #. After entering all the details **Test and Save** the connection.
 #. Once the lineage connection is created, select it for the Livy connection as shown below:
 

@@ -28,6 +28,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/configure_mysql`
+
+    Describes details steps involved in configuring MySql on HPE UA.
+
+    ---
+
     :doc:`/hpe/admin-guide/sparkflows_setup`
 
     Describes details steps involved in setting up Sparkflows on HPE UA.
@@ -63,6 +69,7 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    predeployment_checklist.rst
    hpe_ua.rst
    keycloak_setup.rst
+   configure_mysql.rst
    sparkflows_setup.rst
    livy_config.rst
    datafabric.rst

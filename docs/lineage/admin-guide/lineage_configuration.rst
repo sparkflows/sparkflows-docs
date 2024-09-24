@@ -7,7 +7,16 @@ Step 1 : Log In and Navigate to the Configurations Page
 
 Log in to the **Sparkflows application** and go to **Administration > Configurations**. 
 
-Step 2 : Enable Local Lineage Configuration
+step 2 : Add Jar files into ``fire-user-lib``
+---------------------------------
+User must have added the below Jar files to trigger lineage in local mode
+
+Lineage Jar : https://mvnrepository.com/artifact/io.openlineage/openlineage-spark_2.13/1.19.0
+
+Guava Jar : https://mvnrepository.com/artifact/com.google.guava/guava/32.0.0-jre
+
+
+Step 3 : Enable Local Lineage Configuration
 ---------------------------
 
 To enable OpenLineage, enable the **openlineage.enabled** property on the Configurations Page:
@@ -21,7 +30,7 @@ To enable OpenLineage, enable the **openlineage.enabled** property on the Config
    :width: 60%
 
 
-Step 3 : Enable Lineage Configuration with Livy 
+Step 4 : Enable Lineage Configuration with Livy 
 ------------------------------
 
 To configure OpenLineage with the Livy connection, enable the following properties on the Configurations Page:
@@ -31,7 +40,7 @@ To configure OpenLineage with the Livy connection, enable the following properti
     connection.livy.enabled = true
 
 
-Step 4 : Create Open Lineage Connection
+Step 5 : Create Open Lineage Connection
 --------------------------------
 
 After enabling the Open Lineage connection, you can create the lineage connection in the administration settings. 
@@ -55,7 +64,7 @@ Follow the steps below to create the connection:
       :alt: livy-lineage
       :width: 60%
 
-Step 5 : Execute Workflows with Livy
+Step 6 : Execute Workflows with Livy
 -----------------------------------
 
 While executing workflows with Livy, include the following configuration for the namespace:

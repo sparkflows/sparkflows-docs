@@ -18,49 +18,55 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     :doc:`/hpe/admin-guide/hpe_ua`
 
-    Describes details to help you plan on setting up HPE UA.
+    Describes steps to help you plan on setting up HPE UA.
 
     ---
 
     :doc:`/hpe/admin-guide/keycloak_setup`
 
-    Describes details steps involved in setting up Keycloak on HPE UA.
+    Describes steps involved in setting up Keycloak on HPE UA.
 
     ---
 
     :doc:`/hpe/admin-guide/configure_mysql`
 
-    Describes details steps involved in configuring MySql on HPE UA.
+    Describes steps involved in configuring MySql on HPE UA.
 
     ---
 
     :doc:`/hpe/admin-guide/sparkflows_setup`
 
-    Describes details steps involved in setting up Sparkflows on HPE UA.
+    Describes steps involved in setting up Sparkflows on HPE UA.
 
     ---
 
     :doc:`/hpe/admin-guide/livy_config`
 
-    Describes details steps involved in Configuring Livy in Sparkflows.
+    Describes steps involved in Configuring Livy in Sparkflows.
 
     ---
 
     :doc:`/hpe/admin-guide/datafabric`
 
-    Describes details steps involved in Configuring DataFabric access in Sparkflows.
+    Describes steps involved in Configuring DataFabric access in Sparkflows.
 
     ---
 
     :doc:`/hpe/admin-guide/hive`
 
-    Describes details steps involved in Configuring Hive in Sparkflows.
+    Describes steps involved in Configuring Hive in Sparkflows.
 
     ---
 
     :doc:`/hpe/admin-guide/debezium`
 
-    Describes details steps involved in Configuring Debezium.
+    Describes steps involved in Configuring Debezium.
+
+    ---
+
+    :doc:`/hpe/admin-guide/update_sparkflows`
+
+    Describes steps involved in updating Sparkflows on UA.
 
 
 .. toctree::
@@ -75,3 +81,4 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    datafabric.rst
    hive.rst
    debezium.rst 
+   update_sparkflows.rst

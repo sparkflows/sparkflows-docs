@@ -9,27 +9,44 @@ Pre-requisites
 #. You would need to have **Sparkflows Domain** available.
 #. Keycloak login access with admin privilege.
 
-Setup Steps
--------
 
 Below are steps for setting up Keycloak in UA.
 
-#. Once you've decided on the Sparkflows' URL to be used, navigate to the Keycloak web UI, and login to the server with admin credentials. For the Keycloak server details, connect with the HPE team :
+Step 1 : Log in to Keycloak
+---------------------------------
+#. Determine the **Sparkflows URL** you will use.
+#. Navigate to the **Keycloak web UI** and log in with your admin credentials.
+
+   Server Details:
+
    ::
      
      Server: https://keycloak.dev.hpeua.com/
      Username: admin
      Password: ******************
 
-#. Select the UA realm from the left drop down menu and click on clients to view the list of clients currently registered.
+   .. Note:: For the Keycloak server details, connect with the HPE team.
+
+Step 2 : Select UA Realm and View Clients
+--------------------------------------------
+#. From the left drop-down menu, select the **UA Realm**.
+
+#. Click on **Clients** to view the list of currently registered clients.
 
    .. figure:: ../../_assets/hpe/hpe-keycloak-clients.png
       :width: 60%
       :alt: HPE UA Keycloak clients
 
-#. Click on the UA client and then navigate to the settings section. Scroll down and add the sparkflows OIDC callback URL
+Step 3 : Configure the UA Client
+---------------------------------
 
-   The format of the url is as follows.
+#. Click on the **UA client**.
+
+#. Navigate to the **Settings** section.
+
+#. Scroll down and add the **Sparkflows OIDC callback URL**.
+
+   The format of the url is as follows:
 
    ::
 
@@ -39,26 +56,41 @@ Below are steps for setting up Keycloak in UA.
       :width: 60%
       :alt: HPE UA Keycloak callback urls
 
-#. Navigate to the Credentials section to copy the client secret, which will be used in Sparkflows application properties.
+
+Step 4 : Retrieve Client Credentials
+---------------------------------------
+
+#. Go to the **Credentials** section to copy the **Client Secret**.
+
+#. Copy the **Client ID, Client Secret, accessTokenUri, userAuthorizationUri, and userInfoUri**.
+
+   These details will be used in the Sparkflows application properties.
 
    .. figure:: ../../_assets/hpe/client-details.png
       :width: 60%
       :alt: HPE UA Keycloak Client secrets
 
-#. Copy the **Client Id, clientSecret, accessTokenUri, userAuthorizationUri, userInfoUri** which will be used in configuring Sparkflows.
 
-#. Visit the Keycloak client’s OpenID connect endpoint to get following information
+Step 5 : Obtain OpenID Connect Information
+--------------------------------------------
 
-   a) accessTokenUri
-   b) userAuthorizationUri
-   c) userInfoUri
+#. Visit the **Keycloak client’s OpenID Connect endpoint** to retrieve the following:
 
-   Open ID Connect URI 
+   * **accessTokenUri**
+   * **userAuthorizationUri**
+   * **userInfoUri**
+
+   Open ID Connect URI is as follows:
    ::
       https://<keycloakhost:port>/realms/{realm}/.well-known/openid-configuration
 
-#. Create a secret resource in EzUA kubernetes to store the Sparkflows service configuration with name of the secret as **sparkflows-app-secret**
-	
+Step 6 : Create a Secret Resource for Sparkflows in Kubernetes
+------------------------------------------------------------
+
+#. Create a secret resource in EzUA Kubernetes to store the Sparkflows service configuration.
+
+   Name the secret as **sparkflows-app-secret**.
+   
    The above urls and the client credentials(Client ID & Secret) will be used to update in this secret file, as shown below.
 
    ::
@@ -70,17 +102,34 @@ Below are steps for setting up Keycloak in UA.
       oauth.resource.userInfoUri: https://keycloak.abc.com/realms/UA/protocol/openid-connect/userinfo
       oauth.client.ssl.disable:false
 
-   Connect with the Sparkflows team to create this secret resource in Ezmeral Kubernetes.
+   .. Note:: Connect with the Sparkflows team to create this secret resource in Ezmeral Kubernetes.
 
-#. Create a secret for storing the SSL certificate of the Keycloak server, with name as **keycloak-sslcert**. This would be required while connecting to the             Keycloak   for authentication. 
+Step 7 : Create a Secret for the Keycloak SSL Certificate
+-------------------------------------------------------------
 
-   Connect with the HPE Ezmeral team to create this secret resource in Ezmeral Kubernetes.
+#. Create a secret in Kubernetes to store the Keycloak SSL Certificate.
 
-#. Create a secret for storing the hive-site.xml that will be required for connecting to the Hive thrift server from Sparkflows, with name as **hive-site-secret**. 
+   * Name the secret as **keycloak-sslcert**. This secret is required for connecting to Keycloak for authentication.
 
-   Connect with the HPE Ezmeral team to create this secret resource in Ezmeral Kubernetes.
+   .. Note:: Contact the HPE Ezmeral team to create this secret resource in Ezmeral Kubernetes.
 
-#. Create a volume for storing the Hive SSL truststore file with name as **hive-ssltrust-store-vol**.
+Step 8 : Create a Secret for Hive Connection
+-------------------------------------------
 
-   Connect with the HPE Ezmeral team to create this persistent volume in Ezmeral Kubernetes.
+#. Create a secret for storing the **hive-site.xml file**, required for connecting to the Hive thrift server from Sparkflows.
+
+   * Name the secret as **hive-site-secret**.
+
+   .. Note:: Contact the HPE Ezmeral team to create this secret resource in Ezmeral Kubernetes.
+
+
+Step 9 : Create a Volume for Hive SSL Truststore
+--------------------------------------------------
+
+#. Create a persistent volume for storing the Hive SSL truststore file.
+
+   * Name the volume as **hive-ssltrust-store-vol**.
+
+   .. Note:: Contact the HPE Ezmeral team to create this persistent volume in Ezmeral Kubernetes.
+
 

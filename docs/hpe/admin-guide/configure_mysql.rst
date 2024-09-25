@@ -1,11 +1,18 @@
 Configure Access to MySql
 =====
-
 This document explains in detail the steps involved in configuring access to MySql on HPE UA.
 
-Make sure that the pods running in HPE Ezmeral Platform can access the MySQL server, as this is the database that will be used to store the metadata of Sparkflows.
+Step 1 : Verify MySQL Access
+------------------------------------
+Ensure that the pods running in the HPE Ezmeral Platform can access the MySQL server. MySQL will serve as the database to store Sparkflows metadata. Make sure there is connectivity between the platform and the MySQL server.
 
-Once the access is checked, you need to create a kubernetes secret resource with name as **sparkflows-db-secret** that would contain the base64 encoded values for all the credentials used, as shown below
+
+Step 2 : Create a Kubernetes Secret for Database Credentials
+------------------------------------------------------------
+Next, you need to create a Kubernetes secret named as **sparkflows-db-secret**. This secret will store the base64 encoded credentials required for accessing the MySQL database.
+
+Use the following template to define the Kubernetes secret:
+
 
 	::
 
@@ -23,3 +30,5 @@ Once the access is checked, you need to create a kubernetes secret resource with
 		  HIVE_TRUSTSTORE_PASSWORD: <Hive truststore password(bas64 encoded)>
 		  HIVE_USERNAME: <Hive username(bas64 encoded)>
 		  HIVE_PASSWORD: <Hive password(bas64 encoded)>
+
+Ensure that all sensitive information, including database credentials, is encoded using base64.

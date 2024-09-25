@@ -1,11 +1,16 @@
 Hive Configurations
 ========
 
-Sparkflows can be Configure with Hive with the existing instance in HPE UA. 
+You can configure Sparkflows with an existing Hive instance in HPE UA. This document provides the steps to set up the connection.
 
-To configure Hive with the existing instance in HPE UA, we need to first copy the ssl_truststore file to the **/root directory**. To do this, use the following command:
+Follow the steps given below.
 
-#. Find the pod id of the sparkflows
+
+Step 1 : Copy the ssl_truststore File to the Root Directory
+------------------------------------------------------------
+To configure Hive with Sparkflows, first copy the ssl_truststore file to the /root directory inside the Sparkflows pod.
+
+#. Find the Pod ID of Sparkflows by using the following command: 
 
    ::
 
@@ -14,20 +19,26 @@ To configure Hive with the existing instance in HPE UA, we need to first copy th
        NAME                                              READY   STATUS    RESTARTS   AGE
        hpe-fire-sparkflows-fire-858f44cb87-llhjd         2/2     Running   0          94m
 
-#. Copy the ssl_truststore from the Unix machine
-
+#. Copy the ssl_truststore file from your Unix machine to the Sparkflows pod using the command:
    ::
 
        $ kubectl cp ssl_truststore <pod-id>:/root -n sparkflows
 
-#. Use the following connection string
+
+Step 2 : Configure the Hive Connection String
+----------------------------------------------------
+#. Use the following connection string to connect to Hive:
 
    ::
 
         jdbc:hive2://xxxx.com:10000/default/undefined;ssl=true;auth=ldap;sslTrustStore=/root/ssl_truststore;trustStorePassword=xxxxx;user=hivetest;password=xxxxx
 
-   .. note:: Make sure to update the configurations with absolute path.
+   .. note:: Ensure that the path to the ssl_truststore file is absolute.
 
-#. Acess Hive
 
-Once the above configurations are saved, you can access Hive in **Data/Hive** and **workflows**
+
+Step 3 : Access Hive in Sparkflows
+------------------------------------------
+
+Once the configuration is saved, you can access Hive through the **Data/Hive** tab and in Workflows within Sparkflows.
+

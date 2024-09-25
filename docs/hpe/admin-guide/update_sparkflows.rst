@@ -1,35 +1,52 @@
 Update/Upgrade Sparkflows in HPE EzUA
 =====
 
-This document explains in detail the steps involved in updating Sparkflows on HPE UA.
+This document provides detailed instructions on how to update Sparkflows in HPE UA.
 
-#. Navigate to the frameworks in UA
+Step 1 : Access the Frameworks in HPE UA
+---------------------------------------------
+#. Navigate to the Frameworks section in the HPE UA platform.
 
-#. Click on the Analytics tab and delete the installed sparkflows framework. Wait for 3-4 minutes for UA to clean up the Pods of Sparkflows
+Step 2 : Remove the Existing Sparkflows Framework
+------------------------------------------------
+#. Go to the **Analytics** tab.
+#. Delete the installed Sparkflows framework.
+#. Wait for 3-4 minutes to allow UA to clean up the Pods associated with Sparkflows.
 
    .. figure:: ../../_assets/hpe/sflowsonua-tools-n-frameworks.png
       :width: 60%
       :alt: Sparkflows On UA
 
-#. Click on Add new framework, and provide the basic details - Name, version, description and sparkflows icon(upload from pictures window)
+Step 3 : Add a New Framework
+-------------------------------
+#. Click on **Add New Framework**.
+#. Provide the basic details such as Name, Version, Description, Sparkflows Icon (upload from the pictures window).
 
    .. figure:: ../../_assets/hpe/sflowsonua-framework-import.png
       :width: 60%
       :alt: Sparkflows On UA
 
-#. Choose the latest Sparkflows chart version which is 0.1.32 (as of now), enter the namespace as sparkflows. 
+Step 4 : Select the Latest Sparkflows Chart Version
+-----------------------------------------------------
+#. Choose the latest Sparkflows chart version, which is **0.1.32** (as of now).
+#. Enter the namespace as **sparkflows**.
 
    .. figure:: ../../_assets/hpe/sflowsonua-framework-chart1.png
       :width: 60%
       :alt: Sparkflows On UA
 
-#. Set the release name is **fire-v72** and uncheck all the options
+Step 5 : Configure the Release Name and Options
+-----------------------------------------------
+#. Set the Release Name to **fire-v72** and uncheck all the available options.
 
    .. figure:: ../../_assets/hpe/sflowsonua-framework-chart2.png
       :width: 60%
       :alt: Sparkflows On UA
 
-#. Click next and update the version of the image in the Chart configuration. 
+Step 6 : Update the Version in the Chart Configuration
+----------------------------------------------------------
+#. Click **Next**.
+#. In the chart configuration, update the version of the image to the latest one.
 
    .. figure:: ../../_assets/hpe/sflowsonua-framework-values.png
       :width: 60%

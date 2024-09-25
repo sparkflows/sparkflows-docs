@@ -79,7 +79,7 @@ While executing workflows with Livy, include the following configuration for the
 
 ex. **--conf spark.openlineage.namespace=WORKFLOW_LINEAGE**
 
-.. figure:: ../../_assets/lineage/workflow_lineage.png
+.. figure:: ../../_assets/lineage/updated_workflow_lineage.png
    :alt: livy-lineage
    :width: 60%
 

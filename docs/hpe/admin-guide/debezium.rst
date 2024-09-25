@@ -1,15 +1,8 @@
 Debezium
 ======
 
+Debezium is used to stream database changes, which are then merged into a dataset. For detailed information on setting up the Debezium server, refer to the `Debezium Server Setup Documentation <https://debezium.io/documentation/reference/stable/operations/debezium-server.html>`_.
 
-Overview
------
-
-Debezium is used to stream DB changes. These changes are then merged into the Dataset.
-
-https://debezium.io/documentation/reference/stable/operations/debezium-server.html
-
-`Click here <https://debezium.io/documentation/reference/stable/operations/debezium-server.html>`_ to get more details on Setting up Debezium server.
 
 
 
@@ -22,37 +15,49 @@ Below is the design of the overall flow.
       :width: 60%
       :alt: HPE UA Add framework details
 
-#. Debezium reads database logs, produces json messages that describe the changes and streams them to Kafka
-#. Kafka streams the messages and stores them in a S3 folder. 
-#. Using Spark with Delta Lake one can transform the messages to INSERT, UPDATE and DELETE operations, and run them on the target delta lake table.
+* Debezium reads database logs and generates JSON messages that describe the changes.
+* These messages are streamed to Kafka.
+* Kafka stores the messages in an S3 folder.
+* Using Spark with Delta Lake, the messages can be transformed into INSERT, UPDATE, and DELETE operations and applied to the target Delta Lake table.
 
 .. figure:: ../../_assets/hpe/debezium_setup.png
-      :width: 60%
-      :alt: HPE UA Add framework details
+   :width: 60%
+   :alt: HPE UA Add framework details
 
 Useful Commands
 -----
 
-#. To check the connect
+Check the Connect Status
++++++++++++++++++++++++++
+
+Use the following command to check if Debezium is connected:
 
    ::
 
         curl -H "Accept:application/json" {hostname}:8083/
 
-#. List the connectors
+List the Connectors
+++++++++++++++++++++
 
+To list all the connectors registered with Debezium, use:
+   
    ::
 
         curl -H "Accept:application/json" {hostname}:8083/connectors/
 
-#. Register the source with debezium
+
+
+Register the Source Connector
++++++++++++++++++++++++++++++++++
+
+To register the source connector with Debezium, execute the following command:
 
    ::
 
         curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @source.json
 
 
-   **Source.json**
+Here is an example of a **source.json** file:
 
    ::
 
@@ -81,13 +86,16 @@ Useful Commands
         "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"  
         }}
 
-#. Register the sink with Debezium
+Register the Sink Connector
++++++++++++++++++++++++++
 
+To register the sink connector, use the following command:
+   
    ::
 
         curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" {hostname}:8083/connectors/ -d @sink.json
 
-   **Sink.json**
+Here is an example of a **sink.json** file:
 
    ::
 
@@ -122,9 +130,13 @@ Useful Commands
         } 
         }
 
-   .. note:: Make sure to change **aws.secret.access.key** & **aws.secret.access.key** with actual value.
+   .. note:: Ensure you update the aws.secret.access.key and aws.access.key.id with the actual values.
 
-#. Usefull-fields
+
+
+Useful Configuration Fields
+--------------------------------
+Some useful fields to include in your configuration are:
 
 ::
 
@@ -132,7 +144,8 @@ Useful Commands
       "table.whitelist": "myDb.table1,myDb.table2"
       "store.url": "http://kafkasgd.rtpppe.netapp.com:10444/"  
 
-Debezium Monitor
------
+Debezium Monitoring
+-----------
 
-For Debezium Monitoring, Use `Debezium Reference Documentation. <https://debezium.io/documentation/reference/stable/configuration/avro.html>`_
+For monitoring Debezium, refer to the `Debezium Monitoring Documentation <https://debezium.io/documentation/reference/stable/configuration/avro.html>`_.
+

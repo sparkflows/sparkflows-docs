@@ -77,7 +77,7 @@ Step 6 : Execute Workflows with Livy
 
 While executing workflows with Livy, include the following configuration for the namespace:
 
-ex. **--conf spark.openlineage.=WORKFLOW_LINEAGE**
+ex. **--conf spark.openlineage.namespace=WORKFLOW_LINEAGE**
 
 .. figure:: ../../_assets/lineage/workflow_lineage.png
    :alt: livy-lineage

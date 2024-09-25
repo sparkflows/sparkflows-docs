@@ -48,7 +48,9 @@ After enabling the Open Lineage connection, you can create the lineage connectio
 Follow the steps below to create the connection:
 
 #. Navigate to **Administration > Connections**.
+
 #. Click on the **Add Connection** button located at the top right corner.
+
 #. Enter the connection details on the pop-up window.
 
 
@@ -56,6 +58,8 @@ Follow the steps below to create the connection:
    .. figure:: ../../_assets/lineage/create_connection_lineage.png
       :alt: enable-lineage
       :width: 60%
+
+#. Lineage URL will be the URL of the current running marquz lineage server URL.
 
 #. In Jars of open lineage connection, user needs to update the jar path if
    the execution will be done on Livy

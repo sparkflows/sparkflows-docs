@@ -1,24 +1,33 @@
 DataFabric
 =========
 
-Sparkflows allow users to browse, upload, delete etc operations on data fabric. 
-And allow to configure the access at the group level where users in group A can't access the group B resources and vice versa.
+Sparkflows enables users to perform various operations like browsing, uploading, and deleting on DataFabric. It also allows for group-level access control, ensuring that users in Group A cannot access resources in Group B, and vice versa.
 
-1. Connect with the HPE team to get the credentials for the custom S3 endpoint and credentials.
-2. In Sparkflows, navigate to Administration > Configuration > Groups  and add the above details to the configuration. 
-    Click on the edit button of the group, to view the current settings, and update the configuration with S3 Endpoint details shared by the HPE team.
+Step 1 : Obtain Credentials for Custom S3 Endpoint
+-----------------------------------------------------
+Contact the HPE team to get the credentials for the custom S3 endpoint and credentials.
 
-Configuration
 
-.. figure:: ../../_assets/hpe/datafabric.PNG
+Step 2 : Configure Group-Level Access in Sparkflows
+--------------------------------------------------
+
+#. In Sparkflows, navigate to **Administration > Configuration > Groups**.
+#. Select the **group** you want to configure and click the **Edit button** to view its current settings.
+#. Update the **group configuration** with the **S3 endpoint details** provided by the HPE team.
+
+   .. figure:: ../../_assets/hpe/datafabric.PNG
       :alt: DataFabric
       :width: 60%
 
 
+Step 3 : DataFabric Browse
+-----------------------------
 
-DataFabric Browse
+#. Once the configuration is complete, users can browse DataFabric under the **Data** tab.
 
-.. figure:: ../../_assets/hpe/datafabric-browse.PNG
+   .. figure:: ../../_assets/hpe/datafabric-browse.PNG
       :alt: DataFabric
       :width: 60%
+
+
 

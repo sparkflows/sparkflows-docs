@@ -23,6 +23,11 @@ To enable OpenLineage, enable the **openlineage.enabled** property on the Config
 ::
 
    openlineage.enabled = true
+   openlineage.end.point = http://localhost:5000
+   openlineage.spark.extraListeners = io.openlineage.spark.agent.OpenLineageSparkListener
+   openlineage.spark.transport.type = http
+   openlineage.spark.facets.disabled = [spark.logicalPlan]
+   openlineage.spark.debugFacet = enabled
 
 
 .. figure:: ../../_assets/lineage/enable_lineage.png

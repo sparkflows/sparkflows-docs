@@ -20,7 +20,7 @@ Step 2 : Configure Group-Level Access in Sparkflows
       :width: 60%
 
 
-Step 3 : DataFabric Browse
+Step 3 :  Browse DataFabric
 -----------------------------
 
 #. Once the configuration is complete, users can browse DataFabric under the **Data** tab.

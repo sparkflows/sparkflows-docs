@@ -61,7 +61,7 @@ Step 2 : Install Sparkflows
       :width: 60%
       :alt: HPE UA Add Configure chart values
  
-   Following are the list of configurations that you need to override.
+   Following is the list of configurations that you need to override:
 
    **sso.clientId:** The registered client Id in the Keycloak that will be used to authenticate the users
 

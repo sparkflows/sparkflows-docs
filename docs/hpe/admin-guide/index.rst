@@ -28,6 +28,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/configure_postgres`
+
+    Describes steps involved in configuring Postgres and Hive Metastore on HPE UA.
+
+    ---
+
     :doc:`/hpe/admin-guide/configure_mysql`
 
     Describes steps involved in configuring MySql on HPE UA.
@@ -75,6 +81,7 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    predeployment_checklist.rst
    hpe_ua.rst
    keycloak_setup.rst
+   configure_postgres.rst
    configure_mysql.rst
    sparkflows_setup.rst
    livy_config.rst

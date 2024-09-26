@@ -58,6 +58,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/kubeflow_integration`
+
+    Describes steps involved in integrating Kubeflow in Sparkflows.
+
+    ---
+
     :doc:`/hpe/admin-guide/hive`
 
     Describes steps involved in Configuring Hive in Sparkflows.
@@ -86,6 +92,7 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    sparkflows_setup.rst
    livy_config.rst
    datafabric.rst
+   kubeflow_integration.rst
    hive.rst
    debezium.rst 
    update_sparkflows.rst

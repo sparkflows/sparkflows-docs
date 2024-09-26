@@ -3,7 +3,7 @@ Configure access to Postgres & Hive Metastore
 
 This document explains in detail the steps involved in configuring access to Postgres & Hive Metastore on HPE UA.
 
-Make sure that the pods running in HPE Ezmeral Platform can access the Postgres server, as this is the database that will be used to store the metadata of Sparkflows.
+.. Note:: Make sure that the pods running in HPE Ezmeral Platform can access the Postgres server, as this is the database that will be used to store the metadata of Sparkflows.
 
 Once the access is checked, you need to create a kubernetes secret resource with name as **sparkflows-db-secret** that would contain the base64 encoded values for all the credentials used.
 

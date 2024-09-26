@@ -7,9 +7,9 @@ Step 1 : Log In and Navigate to the Configurations Page
 
 Log in to the **Sparkflows application** and go to **Administration > Configurations**. 
 
-step 2 : Add Jar files into ``fire-user-lib``
----------------------------------
-User must have added the below Jar files to trigger lineage in local mode
+Step 2 : Add JAR files into `fire-user-lib`
+-----------------------------------------
+User must have added the below JAR files to trigger lineage in local mode:
 
 Lineage Jar : https://mvnrepository.com/artifact/io.openlineage/openlineage-spark_2.13/1.19.0
 

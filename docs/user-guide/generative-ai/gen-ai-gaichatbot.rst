@@ -17,12 +17,12 @@ Response Generation: The generative model uses the retrieved content to generate
 Combining Retrieval and Generation: The retrieval results augment the generative model’s response, allowing it to generate answers grounded in the most relevant and up-to-date information.
 Improved Accuracy: Since the generative model works with retrieved data, it is more likely to generate accurate and reliable responses, especially for factual or specific domain queries.
 
-* Key Benefits of RAG-Based Chatbots:
+**Key Benefits of RAG-Based Chatbots:**
 Dynamic Knowledge Base: Unlike static generative models, RAG-based chatbots can dynamically pull information from a large, evolving knowledge base.
 Up-to-Date Information: By leveraging real-time or frequently updated data sources, the chatbot can respond to queries with the most current information.
 Reduced Hallucination: The retrieval component helps ground the chatbot’s responses, reducing the chance of the model hallucinating or making up inaccurate information.
 
-* Key Chatbot features
+**Key Chatbot features:**
 - Ability to create, save, edit, search and manage various Chat Sessions
 - Ability to upload files and save them into RAG Database
 - Ability to apply search filters on RAG Database
@@ -30,14 +30,14 @@ Reduced Hallucination: The retrieval component helps ground the chatbot’s resp
 
 **Chat Dashboard**
 
-* Create New Chat Sessions.
+*Create New Chat Sessions.
 Start a Chat Session for driving a conversation.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Create_New.png
      :alt: create-new-chat-session
      :width: 65%
 
-* View and Manage Chat Sessions.
+*View and Manage Chat Sessions.
 Edit, Delete and Search conversations.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Dashboard.png
@@ -53,14 +53,14 @@ This is the main UI for Q&A against selected resources
      :alt: select-files
      :width: 65%
 
-* Use filters Chat Sessions.
+*Use filters Chat Sessions.
 User can configure the filter condition and select required files. User can also search files.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Use_Filters.png
      :alt: search-filters-chat-sessions
      :width: 65%
 
-* Ask Questions in a new / existing Chat Sessions
+*Ask Questions in a new / existing Chat Sessions
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
      :alt: ask-questions-chat-sessions
      :width: 65%

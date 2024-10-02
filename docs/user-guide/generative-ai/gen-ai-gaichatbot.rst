@@ -47,7 +47,7 @@ Edit, Delete and Search conversations.
 **Conversation UI**
 This is the main UI for Q&A against selected resources
 
-* Upload files needed for Conversastion. The files are indexed into the Vector Database. 
+*Upload files needed for Conversastion. The files are indexed into the Vector Database. 
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Select_Files.png
      :alt: select-files
@@ -58,9 +58,10 @@ User can configure the filter condition and select required files. User can also
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Use_Filters.png
      :alt: search-filters-chat-sessions
-     :width: 65%
+     :width: 35%
 
 *Ask Questions in a new / existing Chat Sessions
+
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
      :alt: ask-questions-chat-sessions
      :width: 65%

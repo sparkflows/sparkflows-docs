@@ -30,14 +30,14 @@ Reduced Hallucination: The retrieval component helps ground the chatbot’s resp
 
 **Chat Dashboard**
 
-*Create New Chat Sessions.
+* Create New Chat Sessions.
 Start a Chat Session for driving a conversation.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Create_New.png
      :alt: create-new-chat-session
      :width: 65%
 
-*View and Manage Chat Sessions.
+* View and Manage Chat Sessions.
 Edit, Delete and Search conversations.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Dashboard.png
@@ -47,20 +47,20 @@ Edit, Delete and Search conversations.
 **Conversation UI**
 This is the main UI for Q&A against selected resources
 
-*Upload files needed for Conversastion. The files are indexed into the Vector Database. 
+* Upload files needed for Conversastion. The files are indexed into the Vector Database. 
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Select_Files.png
      :alt: select-files
      :width: 65%
 
-*Use filters Chat Sessions.
+* Use filters Chat Sessions.
 User can configure the filter condition and select required files. User can also search files.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Use_Filters.png
      :alt: search-filters-chat-sessions
      :width: 35%
 
-*Ask Questions in a new/existing Chat Sessions
+* Ask Questions in a new/existing Chat Sessions
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
      :alt: ask-questions-chat-sessions

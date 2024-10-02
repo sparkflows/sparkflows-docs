@@ -60,7 +60,7 @@ User can configure the filter condition and select required files. User can also
      :alt: search-filters-chat-sessions
      :width: 35%
 
-*Ask Questions in a new / existing Chat Sessions
+*Ask Questions in a new/existing Chat Sessions
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
      :alt: ask-questions-chat-sessions

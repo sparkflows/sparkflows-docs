@@ -65,6 +65,19 @@ Follow the steps below to create the connection:
       :width: 60%
 
 #. Lineage URL will be the URL of the current running marquz lineage server URL.
+   e.g. https://marquez.sparkflows.net
+
+
+#. In spark conf user need to update the spark configurations as below
+
+   ::
+   
+      openlineage.enabled = true
+      openlineage.end.point = https://marquez.sparkflows.net
+      openlineage.spark.extraListeners = io.openlineage.spark.agent.OpenLineageSparkListener
+      openlineage.spark.transport.type = http
+      openlineage.spark.facets.disabled = [spark.logicalPlan]
+      openlineage.spark.debugFacet = enabled
 
 #. In Jars of open lineage connection, user needs to update the jar path if
    the execution will be done on Livy

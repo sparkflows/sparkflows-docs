@@ -27,9 +27,12 @@ Processor Configuration
 .. figure:: ../../_assets/user-guide/read-write/read-delta/read-delta-processor.png
    :alt: read-delta-processor
    :width: 60%
-   
-Processor Output
-^^^^^^
+
+
+Prints the Results and the Summary Details 
+------------------
+
+It prints the first 20 records using the Print N Rows processor with the Summary Node providing the summary profiling information.
 
 .. figure:: ../../_assets/user-guide/read-write/read-delta/read-delta-output.png
    :alt: read-delta-output
@@ -38,9 +41,3 @@ Processor Output
 .. figure:: ../../_assets/user-guide/read-write/read-delta/read-delta-sumamry-output.png
    :alt: read-delta-sumamry-output
    :width: 60%
-
-|
-Prints the Results
-------------------
-
-It prints the first 20 records using the Print N Rows processor.

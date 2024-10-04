@@ -21,6 +21,12 @@ Read and Write Data
     Reading data from Parquet file.
     
     ----
+  
+    :doc:`/tutorials/reading-writing/reading-delta`
+    
+    Reading data from Delta Lake.
+    
+    ----
     
     :doc:`/tutorials/reading-writing/read-pdf-file`
     
@@ -51,7 +57,13 @@ Read and Write Data
     Reads data and write into Parquet file.
     
     ----
+     
+    :doc:`/tutorials/reading-writing/writing-delta`
     
+    Reads data and write into Delta Lake.
+    
+    ----
+   
     :doc:`/tutorials/reading-writing/writing-json`
     
     Reads data and write to JSON file.
@@ -111,11 +123,13 @@ Read and Write Data
    read-csv-file.rst
    reading-json-file.rst
    reading-parquet-file.rst
+   reading-delta.rst
    read-pdf-file.rst
    reading-from-rdbms.rst
    elasticsearch.rst
    writing-csv.rst
    writing-parquet.rst
+   writing-delta.rst
    writing-json.rst
    writing-hive.rst
    mongodb.rst
@@ -125,8 +139,4 @@ Read and Write Data
    dataset-reading-json.rst
    dataset-reading-parquet.rst
    dataset-reading-mysql.rst
-   
-   
-   
-   
    

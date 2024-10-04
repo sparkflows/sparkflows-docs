@@ -34,6 +34,10 @@ Fire Insights provides a number of Processors or Nodes for reading and writing s
 
     ---
 
+    :doc:`/user-guide/reading-writing/structured-files/delta`
+
+    ---
+
     :doc:`/user-guide/reading-writing/structured-files/json`
 
     ---
@@ -59,6 +63,7 @@ Fire Insights provides a number of Processors or Nodes for reading and writing s
    avro.rst
    csv.rst
    parquet.rst
+   delta.rst
    json.rst
    url-single-record-json-reader.rst
    url-text-file-reader.rst

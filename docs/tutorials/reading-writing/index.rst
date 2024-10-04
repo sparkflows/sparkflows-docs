@@ -63,6 +63,12 @@ Read and Write Data
     Reads data and write into Delta Lake.
     
     ----
+     
+    :doc:`/tutorials/reading-writing/merge-writing-delta`
+    
+    Reads data and write to Delta Lake using the merge option.
+    
+    ----
    
     :doc:`/tutorials/reading-writing/writing-json`
     
@@ -130,6 +136,7 @@ Read and Write Data
    writing-csv.rst
    writing-parquet.rst
    writing-delta.rst
+   merge-writing-delta.rst
    writing-json.rst
    writing-hive.rst
    mongodb.rst

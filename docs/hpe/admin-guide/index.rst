@@ -76,6 +76,12 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
+    :doc:`/hpe/admin-guide/openlineage-integration`
+
+    Describes steps involved in integrating OpenLineage in Sparkflows on UA.
+
+    ---
+
     :doc:`/hpe/admin-guide/update_sparkflows`
 
     Describes steps involved in updating Sparkflows on UA.
@@ -95,4 +101,5 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    kubeflow_integration.rst
    hive.rst
    debezium.rst 
+   openlineage-integration.rst
    update_sparkflows.rst

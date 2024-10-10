@@ -23,7 +23,7 @@ When a variable is used in a node, below is the order of precedence:
 
     ---
 
-    :doc:`/user-guide/variables/project-variablel`
+    :doc:`/user-guide/variables/project-variable`
 
     ---
 
@@ -47,7 +47,7 @@ When a variable is used in a node, below is the order of precedence:
 .. toctree::
    :hidden:
    global_or_group-variable.rst
-   project.rst
+   project-variable.rst
    workflow.rst
    node.rst
    pipeline.rst

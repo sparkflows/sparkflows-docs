@@ -32,8 +32,8 @@ Add Variable
 #. In the dialog box, add parameters by key, value  and description and click on **save** button :
    For Key alphanumeric value can be added including '_'
 
-.. figure:: ../../_assets/user-guide/variables/Add_Variable.png
-      :alt: variables_userguide
-      :width: 65%
+  .. figure:: ../../_assets/user-guide/variables/Add_Variable.png
+        :alt: variables_userguide
+        :width: 65%
 
 **Editing, viewing, and deleting variables are the same as at the global or group level. The only difference is that these actions must be performed from the project list page**

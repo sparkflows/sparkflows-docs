@@ -19,6 +19,15 @@ When a variable is used in a node, below is the order of precedence:
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
+    :doc:`/user-guide/variables/global_or_group-variable`
+
+    ---
+
+    :doc:`/user-guide/variables/project-variablel`
+
+    ---
+
+
     :doc:`/user-guide/variables/workflow`
 
     ---
@@ -37,7 +46,8 @@ When a variable is used in a node, below is the order of precedence:
 
 .. toctree::
    :hidden:
-
+   global_or_group-variable.rst
+   project.rst
    workflow.rst
    node.rst
    pipeline.rst

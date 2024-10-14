@@ -22,11 +22,11 @@ Use the SFTP nodes in workflows
 
 For reading from SFTP use the SFTP node. 
 
-.. figure:: ../../../_assets/operating/operations/sftp/sftp_4.png
+.. figure:: .././/../_assets/operating/operations/sftp/sftp_4.png
       :alt: sftp
       :width: 60%
 
-.. figure:: ../../../_assets/operating/operations/sftp/sftp_5.png
+.. figure:: .././/../_assets/operating/operations/sftp/sftp_5.png
       :alt: sftp
       :width: 60%
 

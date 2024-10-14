@@ -114,9 +114,13 @@ html_theme_options = {'sticky_navigation': False, 'titles_only': True, 'collapse
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-# html_context = {
-#     'css_files': ['_static/custom.css'],
-# }
+html_context = {
+    # 'css_files': ['_static/custom.css'],
+    'display_github': True,
+    'github_user': 'sparkflows',
+    'github_repo': 'sparkflows-docs',
+    'github_version': 'master/docs/', 
+}
 html_js_files = [
     'js/theme.js',
 ]

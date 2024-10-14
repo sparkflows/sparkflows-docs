@@ -1,7 +1,7 @@
 Database Clean up
 ================
 
-Sparkflows provides methods to cleanup the database tables used to store the metadata about the workflow-execution, pipeline-execution and their results.
+Sparkflows offers methods to clean up database tables used for storing metadata related to workflow executions, pipeline executions, and their results.
 
 Manual Cleanup
 ===============
@@ -45,7 +45,8 @@ Automated Cleanup
 
 Login to ``Sparkflows`` application -> ``Administration`` -> ``Configuration`` -> ``app.db.cleanup.enabled=true``
 
-Below are the properties are used to configure the database cleanup automation job
+Below properties are used to configure the database cleanup automation job
+
    ::
    
       app.max.execution.storeInDb = 15000  => workflow executions to be stored in database
@@ -54,17 +55,20 @@ Below are the properties are used to configure the database cleanup automation j
 
 
 
-By default the Database clean up job will be executed one in a day by the below cron expression, it can be configured by the admin in application.properties file
-  ``0 1 1 * * ?`` - > The cron expression which trigger At 01:01 AM of everyday.
+By default, the database cleanup job runs once a day using the cron expression below. This can be configured by the admin in the application.properties file
 
-Once the Database clean up job configured user can see the below log for it
+``0 1 1 * * ?`` - > The cron expression which trigger At 01:01 AM of everyday.
+
+After the database cleanup job is configured, users can view the following log for it
+
   ::
 
    scheduleDeleteWorkflowExecutionJob: Db cleanup job : Workflow execution threshold 340 : Pipeline execution threshold : 240 
    scheduleDeleteWorkflowExecutionJob : schedule job : scheduleDeleteWorkflowExecutionJob
 
 
-While executing the database clean up job user can view the below logs for cleaning up database
+While executing the database cleanup job, users can view the following logs for the database cleanup process
+
   ::
 
     fireui.schedulerquartz.DbCleanUpJob SCHEDULER : DbCleanUpJob::execute() fired

@@ -57,3 +57,11 @@ Use the below configurations for creating the connection to SFTP.
 
 .. Note:: Make sure that SFTP URL and port should be accessible from Sparkflows web server URL.
 
+Save Connection
++++++
+
+Once you have entered the connection details, click on ``Save`` to save the connection. 
+
+Now, you are ready to start using the Connection in workflows using SFTP Node.
+
+

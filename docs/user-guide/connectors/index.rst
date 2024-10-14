@@ -20,6 +20,8 @@ Connector Processors in Fire Insights
      - It reads the data from Apache Cassandra.
    * - Read Databricks Table
      - It reads a table from Databricks.
+   * - Read SFTP
+     - It reads from SFTP.
    * - Save Databricks table
      - It saves the data to a Databricks table.
    * - Read From SnowFlake
@@ -61,6 +63,7 @@ Connector Processors in Fire Insights
    hive.rst
    redshift.rst
    databricks.rst
+   sftp.rst
    salesforce.rst
    elasticsearch.rst
    mongodb.rst

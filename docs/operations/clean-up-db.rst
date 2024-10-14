@@ -55,7 +55,7 @@ Below properties are used to configure the database cleanup automation job
 
 
 
-By default, the database cleanup job runs once a day using the cron expression below. This can be configured by the admin in the application.properties file
+By default, the database cleanup job runs once a day using the cron expression below. This can be configured by the admin in the ``application.properties`` file
 
 ``0 1 1 * * ?`` - > The cron expression which trigger At 01:01 AM of everyday.
 

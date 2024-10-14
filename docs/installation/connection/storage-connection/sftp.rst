@@ -54,3 +54,6 @@ Use the below configurations for creating the connection to SFTP.
 .. figure:: ../../../_assets/operating/operations/sftp/sftp_3.png
       :alt: sftp
       :width: 60%
+
+.. Note:: Make sure that SFTP URL and port should be accessible from Sparkflows web server URL.
+

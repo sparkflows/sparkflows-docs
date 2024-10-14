@@ -36,6 +36,11 @@ Operations
     :doc:`/operations/installing-jdbc-drivers`
     
     ---
+
+        
+    :doc:`/operations/clean-up-db`
+    
+    ---
        
     :doc:`/operations/performance/index`
     
@@ -70,6 +75,7 @@ Operations
    installing-mysql.rst
    migrating-h2-db-to-mysql.rst
    installing-jdbc-drivers.rst
+   clean-up-db.rst
    performance/index.rst
    dashboard-installing-jdbc-drivers.rst
    fire-notebook.rst

@@ -16,7 +16,7 @@ Clean up workflow executions:
 
 By selecting the ``Older than 90 days`` button, the user can delete workflow executions from the database that are older than the specified number of days
 
-  .. figure:: ../../_assets/DB_cleanup/workflow_execution_cleanup.png
+  .. figure:: ../_assets/DB_cleanup/workflow_execution_cleanup.png
      :alt: workflow execution cleanup
      :width: 60%
 

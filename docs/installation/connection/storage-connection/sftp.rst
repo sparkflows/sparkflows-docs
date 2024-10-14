@@ -42,3 +42,15 @@ Use the below configurations for creating the connection to SFTP.
         - Connection Description
         - Add some Connection Description
       
+
+.. figure:: ../../../_assets/operating/operations/sftp/sftp_1.png
+      :alt: sftp
+      :width: 60%
+
+.. figure:: ../../../_assets/operating/operations/sftp/sftp_2.png
+      :alt: sftp
+      :width: 60%
+
+.. figure:: ../../../_assets/operating/operations/sftp/sftp_3.png
+      :alt: sftp
+      :width: 60%

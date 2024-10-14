@@ -14,6 +14,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * Redshift
 * SQL Server
 * Snowflake
+* SFTP
 * Trino
 * Sybase
   

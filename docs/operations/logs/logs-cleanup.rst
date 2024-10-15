@@ -1,7 +1,7 @@
 Logs Clean up
 ======
 Configuration
-===============
+++++++++++++
 
 - Sparkflows offers automated log directory cleanup for better disk space management
 - The log cleanup job can be configured by the admin in the ``application.properties`` file.
@@ -14,7 +14,7 @@ Configuration
 
 
 Logs clean up execution
-=======================
++++++++++++++++++++++++
 - Once logs clean up is configured user can see the below log while restarting the application 
 
 ::

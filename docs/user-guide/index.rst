@@ -128,6 +128,9 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
     
     :doc:`/user-guide/utilities/index`
 
+    ---
+
+    :doc:`/user-guide/code-library/index`
 
 .. toctree::
    :hidden:
@@ -164,4 +167,5 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    scheduler/index
    solutions/index
    utilities/index
+   code-library/index
    

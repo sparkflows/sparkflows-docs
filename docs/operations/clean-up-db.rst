@@ -4,7 +4,7 @@ Database Clean up
 Sparkflows offers methods to clean up database tables used for storing metadata related to workflow executions, pipeline executions, and their results.
 
 Manual Cleanup
-===============
+++++++++++++++++++
 
 **To Access Database Cleanup Data**
 
@@ -39,7 +39,7 @@ By selecting the ``Older than 90 days`` button, the user can delete audit logs f
      :width: 60%
 
 Automated Cleanup
-==================
+++++++++++++++++++
 
 **To Enable Automation of Database Cleanup**
 

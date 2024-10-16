@@ -65,6 +65,9 @@ For GENERAL tab
    * - Postback Url
      - Postback Url
      - Postback Url through which Livy sent result back to Fire Insights
+   * - Auth Type 
+     - Auth Type 
+     - Value can be None, Basic or OAUTH
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  

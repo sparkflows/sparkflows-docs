@@ -105,6 +105,6 @@ Ingesting data from **MySQL** and **Oracle**, the following steps can be impleme
 
 * **c. Merge with Delta:** Data is merged into Delta Lake Location, ensuring data consistency and historical tracking.(DeltaMerge Node)
 
-* **CDC Tracking:** Metadata is updated after each job, and the next incremental load picks up where the last one left off.(AutoIncremental Node and CDC page)
+* **d. CDC Tracking:** Metadata is updated after each job, and the next incremental load picks up where the last one left off.(AutoIncremental Node and CDC page)
 
-* **Scheduled Execution:** Jobs are scheduled to run daily or at a defined interval, ensuring up-to-date data.
+* **e. Scheduled Execution:** Jobs are scheduled to run daily or at a defined interval, ensuring up-to-date data.

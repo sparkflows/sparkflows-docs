@@ -13,7 +13,7 @@ What is Change Data Capture (CDC)?
 
 **CDC** is a technique used to track and capture the changes (like inserts, updates, and deletes) happening in a database table and apply these changes to another table or system. The purpose of **CDC** is to keep the target system synchronized with the source without fully reloading the data every time.
 
-#. Incremental Load with JDBC Source: AutoIncrement Node
+1. Incremental Load with JDBC Source: AutoIncrement Node
 ----------------------------------------------
 
 When loading data incrementally from a database, the goal is to retrieve only the new or changed records since the last load, instead of reloading all the data. This minimizes the load on the source system and increases efficiency.
@@ -44,7 +44,7 @@ Details of metadata of the last run are stored in the CDC page of sparkflows for
    :alt: cdc
    :width: 60%
 
-#. Merge Incremental Data with Delta Lake: 
+2. Merge Incremental Data with Delta Lake: 
 ----------------------------------------------
 
 Once the new or changed records are loaded into a DataFrame via AutoIncremental, you need to merge this incremental data into an existing Delta Lake Location. Delta Lake provides an efficient mechanism to perform upserts (update or insert) using the MERGE command.
@@ -75,7 +75,7 @@ When the record is not matched (i.e., a new record in the source), the record is
    :alt: cdc
    :width: 60%
 
-#. Tracking Last Loaded Timestamp or ID
+3. Tracking Last Loaded Timestamp or ID
 ----------------------------------------------
 
 To efficiently capture incremental changes, you need to keep track of the last load point (either a timestamp or an ID). This is typically done in a CDC page with AutoIncrementNode.
@@ -94,7 +94,7 @@ To efficiently capture incremental changes, you need to keep track of the last l
 
 In **Adminstartion >> Configuration** enable the CDC module.
 
-#. Summary:
+4. Summary:
 ----------------------------------------------
 
 Ingesting data from **MySQL** and **Oracle**, the following steps can be implemented:

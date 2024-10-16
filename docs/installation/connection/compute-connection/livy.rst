@@ -237,7 +237,30 @@ For YARN tab
      
 .. figure:: ../../../_assets/aws/livy/add_yarn.PNG
    :alt: livy
-   :width: 60%      
+   :width: 60%
+
+For LINEAGE tab
+++++++
+
+.. list-table:: 
+   :widths: 10 20 30
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - Connections
+     - Connections
+     - Select Lineage Connections
+   * - Lineage Enabled
+     - Lineage Enabled
+     - True
+     
+.. figure:: ../../../_assets/aws/livy/livy_9.png
+   :alt: livy
+   :width: 60%
+
+.. Note:: You can ignore the ``LINEAGE`` tab if not using
 
 Test connection and save
 ==========

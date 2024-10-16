@@ -27,9 +27,9 @@ Navigate to Add Connections
 
 Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: ../../../_assets/aws/livy/administration.png
+.. figure:: ../../../_assets/aws/livy/livy_7.png
    :alt: livy
-   :width: 60%
+   :width: 50%
    
 Add connection for group
 ========

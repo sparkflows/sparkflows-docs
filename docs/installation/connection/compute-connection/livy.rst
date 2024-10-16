@@ -260,7 +260,7 @@ For LINEAGE tab
    :alt: livy
    :width: 60%
 
-.. Note:: You can ignore the ``LINEAGE`` tab if not using
+.. Note:: You can ignore the ``LINEAGE`` tab if being not used
 
 Test connection and save
 ==========

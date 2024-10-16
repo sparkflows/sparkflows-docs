@@ -78,9 +78,14 @@ For GENERAL tab
      - Driver Class for selected Connection type 
      - It Comes with default value  
      
-.. figure:: ../../../_assets/aws/livy/add_general.PNG
+.. figure:: ../../../_assets/aws/livy/livy_1.png
    :alt: livy
    :width: 50%
+
+.. figure:: ../../../_assets/aws/livy/livy_2.png
+   :alt: livy
+   :width: 50%
+
 
 For LIVY tab
 ++++++
@@ -137,6 +142,8 @@ For LIVY tab
 .. figure:: ../../../_assets/aws/livy/livy_jar.PNG
    :alt: livy
    :width: 50% 
+
+.. Note:: You can ignore the other tab if using Livy
 
 For HDFS tab
 ++++++

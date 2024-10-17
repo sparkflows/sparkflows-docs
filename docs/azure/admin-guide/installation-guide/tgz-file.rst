@@ -7,7 +7,7 @@ Follow the below steps to install Sparkflows using tgz file :
 Step 1 : SSH into the Azure VM
 ------------
    
-#. SSH into the AWS Instance using:
+#. SSH into the Azure Instance using:
 
    * Public ipv4 IP from the Azure console and 
    * The `PEM` file (key file) downloaded while bringing up the Azure VM and

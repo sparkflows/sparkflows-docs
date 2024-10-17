@@ -147,8 +147,3 @@ VM Privilege
 
 Ensure that you have VM with sufficient privileges to install packages.
 
-
-Databricks Cluster Access
-++++
-
-Ensure that you have Databricks Cluster URL is accessible from Sparkflows Instance.

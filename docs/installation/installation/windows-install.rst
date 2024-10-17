@@ -11,13 +11,13 @@ Prerequisites
 Below are the Prerequisites for installing Fire Insights on a windows machine::
 
 
-  - JDK 1.8 installed.
+  - JDK 8 installed.
   - java and jar have to be in the PATH
   - 8+ GB of RAM on the machine.
   
 
-Check JDK 1.8 is installed
--------------
+Check JDK 8 is installed
+====================
 
 * Check the JDK version installed on your machine::
 
@@ -28,8 +28,7 @@ Check JDK 1.8 is installed
 
 
 Install JDK 1.8
----------------
-
+====================
 * Download JDK 1.8 for windows using the link below:
 
   * https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -51,7 +50,7 @@ Install JDK 1.8
 
 
 winutils.exe
-------------
+====================
 
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine
 
@@ -98,7 +97,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
   https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/
 
 hadoop.dll
------------
+====================
 
 hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup ''hadoop.dll'' on your machine
 
@@ -112,7 +111,7 @@ hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow
 
 
 Troubleshooting
----------------
+====================
 
 Running into an exception when saving files
 ++++++++++++++++++++++++++++

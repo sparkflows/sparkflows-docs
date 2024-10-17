@@ -16,7 +16,13 @@ Fire Insights can be installed using one of the below binaries and installers as
    :doc:`/installation/installation/linux-install`
    
    Sparkflows Installation on Linux
+
+   ---
    
+   :doc:`/installation/installation/docker-linux-install`
+   
+   Running Sparkflows Docker Image on Linux
+
    ---
       
    :doc:`/installation/installation/macos-install`
@@ -40,12 +46,6 @@ Fire Insights can be installed using one of the below binaries and installers as
    :doc:`/installation/installation/docker-windows-install`
    
    Running Sparkflows Docker Image on Windows 10
-   
-   ---
-   
-   :doc:`/installation/installation/docker-linux-install`
-   
-   Running Sparkflows Docker Image on Linux
 
    ---
 

@@ -24,18 +24,19 @@ Check JDK 8 is installed
     Open the command window 
     Type the following command to check your java version : java -version
 
-* If JDK 1.8 is not installed, follow the JDK installation steps mentioned below.
+* If JDK 8 is not installed, follow the JDK installation steps mentioned below.
 
 
-Install JDK 1.8
+Install JDK 8
 ====================
-* Download JDK 1.8 for windows using the link below:
+
+* Download JDK 8 for windows using the link below:
 
   * https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 * Install java by double clicking on the downloaded exe file
 
-* After installation, make sure that java 1.8 is in the path::
+* After installation, make sure that java 8 is in the path::
 
     Open a new command window 
     Type the following command to check your java version : java -version
@@ -49,7 +50,7 @@ Install JDK 1.8
 .. note:: With the above steps, you would have Fire Insights running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Fire Insights has to be installed on the edge node of the cluster.
 
 
-winutils.exe
+Install winutils.exe
 ====================
 
 winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine

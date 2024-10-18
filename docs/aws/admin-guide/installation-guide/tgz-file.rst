@@ -1,4 +1,4 @@
-Using tgz File
+Using TGZ File
 =========
 This document explains in detail the steps required to install Sparkflows in an AWS Instance using tgz file.
 

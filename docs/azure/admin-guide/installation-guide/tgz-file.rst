@@ -1,6 +1,6 @@
 Using tgz File
 =========
-This document explains in detail the steps required to install Sparkflows using tgz file.
+This document will show the steps required to install Sparkflows in an Azure VM using tgz file.
 
 Follow the below steps to install Sparkflows using tgz file :
 
@@ -17,7 +17,7 @@ Step 1 : SSH into the Azure VM
 
   
 
-   .. Note::
+    .. Note::
             * Run all the below steps as a user with sudo permission. If unsure, please run the below commands as `root` user.
             * If you are using Ubuntu, you may have to run the following and then select ``No``. 
 
@@ -25,8 +25,19 @@ Step 1 : SSH into the Azure VM
 
                  sudo dpkg-reconfigure dash
 
+Step 2 : Follow the Installation steps below
+---------------
+Now that you have SSH'd into the VM, you can follow the documentation below to complete the installation process.
 
-Step 2 : Download and install JDK 8
+For Linux, follow the documenation here:
+https://docs.sparkflows.io/en/latest/installation/installation/linux-install.html
+
+For Windows, follow the documentation here:
+https://docs.sparkflows.io/en/latest/installation/installation/windows-install.html
+
+
+
+Step 3 : Download and install JDK 8
 --------------
 
 #. On **CentOS**, install and Open JDK 1.8 by running the following :
@@ -55,7 +66,7 @@ Step 2 : Download and install JDK 8
       :alt: aws-deployment
       :width: 60%
 
-Step 3 : Download the latest Sparkflows TAR
+Step 4 : Download the latest Sparkflows TAR
 --------------
 
 #. For **CentOS**, install `wget` command using :
@@ -97,7 +108,7 @@ Step 3 : Download the latest Sparkflows TAR
 
    .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
 
-Step 4 : Install Python
+Step 5 : Install Python
 -----------
    
 #. For **CentOS**, run the below commands to install all the Python dependencies:
@@ -224,7 +235,7 @@ Step 4 : Install Python
         
         pip list
 
-Step 5 : Start Sparkflows Server
+Step 6 : Start Sparkflows Server
 -----------
 #. Start the Sparkflows server by running the below :
      

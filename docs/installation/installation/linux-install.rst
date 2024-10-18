@@ -65,18 +65,19 @@ Install using Linux RPM Package
 Install OpenJDK8 JDK using yum
 ++++++++++++++++++
 
-::
+    .. code-block:: bash
 
-  yum -y update
+  	yum -y update
 
-::
+    .. code-block:: bash
 
-  yum install java-1.8.0-openjdk-devel
+  	yum install java-1.8.0-openjdk-devel
 
 Install OpenJDK8 JDK using apt
 ++++++++++++++++++
 
-::
+    .. code-block:: bash
+
 	sudo apt install openjdk-8-jdk
 
 Check Installation of JAVA 8
@@ -84,8 +85,9 @@ Check Installation of JAVA 8
 
   We can check the version of JAVA by running the following command:
   
-  ::
-    java -version
+    .. code-block:: bash
+
+    	java -version
 
    On successful installation and checking java version, one would see the below:
 

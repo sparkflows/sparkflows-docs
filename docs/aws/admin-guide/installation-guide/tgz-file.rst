@@ -19,7 +19,9 @@ Step 1 : SSH into the AWS Instance
 
  .. Note::
             * Run all the below steps as a user with sudo permission. If unsure, please run the below commands as `root` user.
-            * If you are using Ubuntu, you may have to run the following and then select ``No``. ::
+            * If you are using Ubuntu, you may have to run the following and then select ``No``. 
+
+            ::
 
               sudo dpkg-reconfigure dash
 

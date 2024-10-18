@@ -73,6 +73,26 @@ Install OpenJDK8 JDK using yum
 
   yum install java-1.8.0-openjdk-devel
 
+Install OpenJDK8 JDK using apt
+++++++++++++++++++
+
+::
+	sudo apt install openjdk-8-jdk
+
+Check Installation of JAVA 8
+++++++++++++++++++
+
+  We can check the version of JAVA by running the following command:
+  
+  ::
+    java -version
+
+   On successful installation and checking java version, one would see the below:
+
+   .. figure:: ../../_assets/aws/aws-deployment/install.png
+      :alt: aws-deployment
+      :width: 60%
+
 
 References
 =============
@@ -92,7 +112,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
   
 * Unpack it::
 
-    tar xvf fire-x.y.z.tgz
+    tar xvf fire-3.x.y_spark_3.2.1.tgz
 
 * Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
 
@@ -103,6 +123,8 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
   ::
 
       ./create-h2-db.sh
+
+   .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
     
 * Launch Fire Server::
 
@@ -121,6 +143,10 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 * Login with:: 
 
     admin/admin or test/test
+
+   .. Note:: By default Sparkflows will run on 8080(http) and 8443(https). To adjust and personalize the port settings :
+
+      You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1/conf**.
 
 
 Installing and starting the Python engine

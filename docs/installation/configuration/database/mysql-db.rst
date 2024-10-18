@@ -90,6 +90,8 @@ Configure Fire to connect to MySQL
 
     spring.jpa.database=MYSQL
 
+    spring.jpa.database-platform=fireui.util.CustomMySQLDialect
+
     # Username and password
 
     spring.datasource.username=fire

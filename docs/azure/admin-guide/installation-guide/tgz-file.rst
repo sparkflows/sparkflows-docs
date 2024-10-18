@@ -1,4 +1,4 @@
-Using tgz File
+Using TGZ File
 =========
 This document will show the steps required to install Sparkflows in an Azure VM using tgz file.
 

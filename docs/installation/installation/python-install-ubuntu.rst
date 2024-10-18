@@ -23,7 +23,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
   .. figure:: ../../_assets/configuration/update_ubuntu.PNG
    :alt: Installations
-   :width: 90%
+   :width: 60%
 
 * Install needed dependency::
 
@@ -31,7 +31,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
   .. figure:: ../../_assets/configuration/software_update.PNG
    :alt: Installations
-   :width: 90%   
+   :width: 60%   
 
   
 * Download python from below Link
@@ -49,7 +49,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
   .. figure:: ../../_assets/configuration/python_download.png
          :alt: Installations
-         :width: 90%
+         :width: 60%
 
 * Next, navigate to the Python source directory and run the configure script which will perform a number of checks to make sure all of the dependencies on your system are present::
 
@@ -57,7 +57,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
   .. figure:: ../../_assets/configuration/python_cd.png
    :alt: Installations
-   :width: 90%
+   :width: 60%
 
 * Build & compile::
 
@@ -65,7 +65,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
  
   .. figure:: ../../_assets/configuration/python_run.png
    :alt: Installations
-   :width: 90%
+   :width: 60%
    
 * Install the Python binaries by running the following command:: 
  
@@ -73,7 +73,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
 
   .. figure:: ../../_assets/configuration/python_run1.png
    :alt: Installations
-   :width: 90%
+   :width: 60%
 
 Note: Do not use the standard make install as it will overwrite the default system python3 binary.
 
@@ -117,7 +117,7 @@ Upgrade pip version with 20.0 or above::
   
 .. figure:: ../../_assets/configuration/pipupdate.PNG
    :alt: Installations
-   :width: 90%  
+   :width: 60%  
    
 Install dependency for prophet package (Ubuntu 18.04)
 -----------------------------------------
@@ -128,7 +128,7 @@ Install dependency for prophet package (Ubuntu 18.04)
 
   .. figure:: ../../_assets/configuration/pystan.PNG
    :alt: Installations
-   :width: 90% 
+   :width: 60% 
 
 
 * convertdate dependency::
@@ -137,7 +137,7 @@ Install dependency for prophet package (Ubuntu 18.04)
 
   .. figure:: ../../_assets/configuration/convertdate.PNG
    :alt: Installations
-   :width: 90% 
+   :width: 60% 
 
 * prophet dependency::
 
@@ -145,7 +145,7 @@ Install dependency for prophet package (Ubuntu 18.04)
 
   .. figure:: ../../_assets/configuration/fbprophet.PNG
    :alt: Installations
-   :width: 90% 
+   :width: 60% 
 
 * Check pip list::
    
@@ -153,16 +153,18 @@ Install dependency for prophet package (Ubuntu 18.04)
 
   .. figure:: ../../_assets/configuration/piplist.PNG
    :alt: Installations
-   :width: 90% 
+   :width: 60% 
 
 Install required packages
 -------------------------
 
 Install the required python packages for Fire Insights::
 
-  pip install -r fire-x.y.x/dist/fire/requirements.txt
+  pip install -r fire-3.x.y_spark_3.2.1/dist/fire/requirements.txt
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights.
+
+   .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
 If connecting to S3 buckets from PySpark
 ----------------------------------------

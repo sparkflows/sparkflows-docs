@@ -49,7 +49,7 @@ There are various ways for Installing Java 8 on Linux. Some are listed below.
 
 
 Install using Linux RPM Package
-+++++++++++++++++++
+----
 
 - Download the Linux x64 RPM Package.
 
@@ -63,7 +63,7 @@ Install using Linux RPM Package
     export PATH=$PATH:$JAVA_HOME/bin
 
 Install OpenJDK8 JDK using yum
-++++++++++++++++++
+----
 
     .. code-block:: bash
 
@@ -74,22 +74,22 @@ Install OpenJDK8 JDK using yum
   	yum install java-1.8.0-openjdk-devel
 
 Install OpenJDK8 JDK using apt
-++++++++++++++++++
+----
 
     .. code-block:: bash
 
 	sudo apt install openjdk-8-jdk
 
 Check Installation of JAVA 8
-++++++++++++++++++
+----
 
-  We can check the version of JAVA by running the following command:
+We can check the version of JAVA by running the following command:
   
-    .. code-block:: bash
+  .. code-block:: bash
 
-    	java -version
+      java -version
 
-   On successful installation and checking java version, one would see the below:
+On successful installation and checking java version, one would see the below:
 
    .. figure:: ../../_assets/aws/aws-deployment/install.png
       :alt: aws-deployment
@@ -111,6 +111,26 @@ Installation Steps of Fire with H2 Database
 To get started quickly with minimal install and configuration of Sparkflows, please use the steps given below. If you want a production ready environment, please follow the steps in the next section.
 
 * Download the fire ``TGZ`` file from: https://www.sparkflows.io/download
+
+* Or, download the file using the ``wget`` command in Linux :
+     
+   .. code-block:: bash
+
+        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.x.y_spark_3.2.1.tgz
+
+
+ .. Note:: 
+	For **CentOS**, install `wget` command using :
+	
+	   .. code-block:: bash
+	
+		sudo yum -y install wget
+	
+	For **Ubuntu**, install `wget` command using :
+	     
+	   .. code-block:: bash
+	
+		sudo apt-get install wget 
   
 * Unpack it::
 
@@ -146,7 +166,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
     admin/admin or test/test
 
-   .. Note:: By default Sparkflows will run on 8080(http) and 8443(https). To adjust and personalize the port settings :
+ .. Note:: By default Sparkflows will run on 8080(http) and 8443(https). To adjust and personalize the port settings :
 
       You can modify the configurations in the **application.properties** file located within **fire-3.x.y_spark_3.2.1/conf**.
 

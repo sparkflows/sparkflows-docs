@@ -11,8 +11,12 @@ Follow the below steps to configure the Livy connection in Sparkflows:
 
       1. hdfs:///apps/sparkflows/fire-spark_3.3.0-core-3.1.0-jar-with-dependencies.jar
       2. hdfs:///apps/sparkflows/workflowexecutecloud_livy.py
-      3. hdfs:///apps/sparkflows/fire-dep-all.zip
+      3. hdfs:///apps/sparkflows/fire-python-dep.zip
       4. hdfs:///apps/sparkflows/fire-3.1.0-py3-none-any.whl
+
+      Delta File Processing Jars:
+      5. hdfs:///apps/sparkflows/delta-core_2.12-2.1.0.jar
+      6. hdfs:///apps/sparkflows/delta-storage-2.1.0.jar
 
 
 Step 1 : Access Connection Configuration
@@ -43,9 +47,9 @@ Enter the Livy connection details as follows.
 Step 2 : Upload JAR and Python Files
 ------
 
-#. Click on next, and you’ll be presented with the below screen.
+1. Click on next, and you’ll be presented with the below screen.
 
-   .. figure:: ../../_assets/hpe/livy-connection-livytab.png
+   .. figure:: ../../_assets/hpe/livy-connection-livytab-delta.png
       :width: 60%
       :alt: HPE UA Data sources
 
@@ -56,17 +60,47 @@ Step 2 : Upload JAR and Python Files
 
 .. Note :: Both of the files need to be uploaded with the help from HPE & Sparkflows team.
 
-#. Navigate to the bottom section of the screen.
+2. Navigate to the bottom section of the screen.
 
-   .. figure:: ../../_assets/hpe/livy-connection-livytabconf.png
+   .. figure:: ../../_assets/hpe/livy-connection-livytabconf-delta.png
       :width: 60%
       :alt: HPE UA Data sources
 
 **Conf:** Enter the below conf that will be passed as a spark configuration to the Livy REST API. 
 
 	::
-	
-		spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true
+
+		spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.pyspark.python:/usr/local/bin/python3.8,spark.pyspark.driver.python:/usr/local/bin/python3.8
+
+**Livy Log File S3 location: ** Enter a location to be used to store EMR Livy Logs
+
+3. Navigate to the **Hive** tab and add details as below
+
+   .. figure:: ../../_assets/hpe/livy-connection-hivetab.png
+      :width: 60%
+      :alt: HPE UA Data sources
+
+**JDBC Driver:** Add the JDBC driver details to connect to the Hive Database
+**DB URL:** Add the Hive Data specific URL to access the database
+
+
+4. Navigate to the **Yarn** tab and add details as below
+
+   .. figure:: ../../_assets/hpe/livy-connection-yarntab.png
+      :width: 60%
+      :alt: HPE UA Data sources
+
+**Resource Manager URL:** Enter a Resource Manager URL
+**Node Manager URL:** Enter a Node Manager URL
+
+5. Navigate to the **Lineage** tab and add details as below
+
+   .. figure:: ../../_assets/hpe/livy-connection-lineagetab.png
+      :width: 60%
+      :alt: HPE UA Data sources
+
+**Connections:** Select a OpenLineage connetion from the dropdown.
+**Lineage Enable:** Select either True or False based on whether Lineage has been enabled.
 
 
 Also, update the **Docker image** designated for executing PySpark jobs in the above configuration.

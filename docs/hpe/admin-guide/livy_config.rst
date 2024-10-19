@@ -37,7 +37,12 @@ Step 1 : Access Connection Configuration
 Enter the Livy connection details as follows.
 
 * **Connection Name** - A unique name for the connection
-* **Postback URL** - It should follow the format of https://<sparkflows-host>/messageFromSparkJob
+* **Postback URL** - It should follow below format
+	
+	::
+
+		https://<sparkflows-host>/messageFromSparkJob
+
 * **Username:** Enter the username of the EzUA account
 * **Password:** Enter the password of the EzUA account
 * **Title:** (Optional) Give a short title
@@ -72,7 +77,8 @@ Step 2 : Upload JAR and Python Files
 
 		spark.driver.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.executor.extraJavaOptions:-Dcom.amazonaws.sdk.disableCertChecking=true,spark.pyspark.python:/usr/local/bin/python3.8,spark.pyspark.driver.python:/usr/local/bin/python3.8
 
-**Livy Log File S3 location: ** Enter a location to be used to store EMR Livy Logs
+
+**Livy Log File S3 location:** Enter a location to be used to store EMR Livy Logs
 
 3. Navigate to the **Hive** tab and add details as below
 
@@ -80,8 +86,8 @@ Step 2 : Upload JAR and Python Files
       :width: 60%
       :alt: HPE UA Data sources
 
-**JDBC Driver:** Add the JDBC driver details to connect to the Hive Database
-**DB URL:** Add the Hive Data specific URL to access the database
+* **JDBC Driver:** Add the JDBC driver details to connect to the Hive Database
+* **DB URL:** Add the Hive Data specific URL to access the database
 
 
 4. Navigate to the **Yarn** tab and add details as below
@@ -90,8 +96,8 @@ Step 2 : Upload JAR and Python Files
       :width: 60%
       :alt: HPE UA Data sources
 
-**Resource Manager URL:** Enter a Resource Manager URL
-**Node Manager URL:** Enter a Node Manager URL
+* **Resource Manager URL:** Enter a Resource Manager URL
+* **Node Manager URL:** Enter a Node Manager URL
 
 5. Navigate to the **Lineage** tab and add details as below
 
@@ -99,8 +105,8 @@ Step 2 : Upload JAR and Python Files
       :width: 60%
       :alt: HPE UA Data sources
 
-**Connections:** Select a OpenLineage connetion from the dropdown.
-**Lineage Enable:** Select either True or False based on whether Lineage has been enabled.
+* **Connections:** Select a OpenLineage connetion from the dropdown.
+* **Lineage Enable:** Select either True or False based on whether Lineage has been enabled.
 
 
 Also, update the **Docker image** designated for executing PySpark jobs in the above configuration.

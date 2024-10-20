@@ -1,5 +1,5 @@
-Pre-requisites for Windows Installation using TGZ file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Pre-requisites
+^^^^^^^^^^^^^^
 
 Sparkflows can be installed to run independently on Windows.
 

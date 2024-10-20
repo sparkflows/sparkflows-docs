@@ -40,40 +40,40 @@ Install JDK 8
 
 * Once the exe is downloaded, double click on the file. This will start the JDK installation as shown below:
 
-  .. figure:: ../../../_assets/installation/install_wizard.PNG
+  .. figure:: ../../../_assets/installation/install_wizard.png
    :alt: Installations
    :width: 60%
 
 
 * Click on the next button, which will take you to the installation page where the path for the JDK   installation directory will be displayed. Leave this as default and click on the next button.
 
-  .. figure:: ../../../_assets/installation/installation_path.PNG
+  .. figure:: ../../../_assets/installation/installation_path.png
    :alt: Installations
    :width: 60%
 
 
 * The JDK installation will start and progress on installation will be displayed as shown below:
 
-  .. figure:: ../../../_assets/installation/progress.PNG
+  .. figure:: ../../../_assets/installation/progress.png
    :alt: Installations
    :width: 60%
 
 
 * Once installation is complete, click on the close button
 
-  .. figure:: ../../../_assets/installation/close.PNG
+  .. figure:: ../../../_assets/installation/close.png
    :alt: Installations
    :width: 60%
 
 * To complete the installation of the JDK, add the JAVA_HOME variable to the system environment variables and set the path to installation path of the JDK as shown below:
 
-  .. figure:: ../../../_assets/installation/java_home.PNG
+  .. figure:: ../../../_assets/installation/java_home.png
    :alt: Installations
    :width: 60%
 
 * Additionally, the path variable may also updated to bin folder of the JDK installation path
 
-  .. figure:: ../../../_assets/installation/path_env.PNG
+  .. figure:: ../../../_assets/installation/path_env.png
    :alt: Installations
    :width: 60%
 
@@ -81,7 +81,7 @@ Install JDK 8
   >java -version
   If the installation was successful, it will display the version of JDK that has been installed, as shown below:
 
-  .. figure:: ../../../_assets/installation/java_version.PNG
+  .. figure:: ../../../_assets/installation/java_version.png
    :alt: Installations
    :width: 60%
 

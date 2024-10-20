@@ -1,5 +1,5 @@
-Windows Installation using TGZ file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installation
+^^^^^^^^^^^^
 
 Sparkflows can be installed to run independently on Windows.
 

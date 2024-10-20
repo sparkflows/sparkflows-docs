@@ -31,7 +31,7 @@ Fire Insights can be installed using one of the below binaries and installers as
    
    ---
    
-   :doc:`/installation/installation/windows-install`
+   :doc:`/installation/installation/windows-tgz/index`
    
    Sparkflows Installation on Windows
    

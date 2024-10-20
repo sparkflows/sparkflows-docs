@@ -7,13 +7,13 @@ Windows Installation using TGZ file
     
     :doc:`/installation/installation/windows-tgz/prerequisites-install`
 
-    Pre-requisites for Windows installations using TGZ file
+    Pre-requisites for installation
 
     ---
 
     :doc:`/installation/installation/windows-tgz/windows-install`
 
-    Windows installation using TGZ file
+    Installation on windows
 
 
 .. toctree::

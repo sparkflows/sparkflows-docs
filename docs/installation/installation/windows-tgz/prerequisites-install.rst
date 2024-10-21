@@ -33,28 +33,28 @@ Install JDK 8
 
 * Once the exe is downloaded, double click on the file. This will start the JDK installation as shown below:
 
-  .. figure:: ../../../_assets/installation/install_wizard.png
+  .. figure:: ../../../_assets/installation/install-wizard-jdk.png
    :alt: Installations
    :width: 60%
 
 
 * Click on the next button, which will take you to the installation page where the path for the JDK   installation directory will be displayed. Leave this as default and click on the next button.
 
-  .. figure:: ../../../_assets/installation/installation_path.png
+  .. figure:: ../../../_assets/installation/installation-path-jdk.png
    :alt: Installations
    :width: 60%
 
 
 * The JDK installation will start and progress on installation will be displayed as shown below:
 
-  .. figure:: ../../../_assets/installation/progress.png
+  .. figure:: ../../../_assets/installation/progress-jdk.png
    :alt: Installations
    :width: 60%
 
 
 * Once installation is complete, click on the close button
 
-  .. figure:: ../../../_assets/installation/close.png
+  .. figure:: ../../../_assets/installation/close-jdk.png
    :alt: Installations
    :width: 60%
 

@@ -87,6 +87,13 @@ This document explains in detail the steps involved in setting up Sparkflows on 
     Describes steps involved in updating Sparkflows on UA.
 
 
+    ---
+
+    :doc:`/hpe/admin-guide/troubleshooting`
+
+    Describes Troubleshooting step on UA.
+
+
 .. toctree::
    :hidden:
 
@@ -103,3 +110,4 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    debezium.rst 
    openlineage-integration.rst
    update_sparkflows.rst
+   troubleshooting.rst

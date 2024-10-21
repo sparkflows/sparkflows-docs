@@ -85,7 +85,7 @@ Fire Insights can be installed using one of the below binaries and installers as
    deployment-requirements/index.rst
    linux-install.rst
    macos-install.rst
-   windows-install.rst
+   windows-tgz/index.rst
    windows-laptop-desktop-installer.rst
    docker-windows-install.rst
    docker-linux-install.rst

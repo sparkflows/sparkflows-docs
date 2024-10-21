@@ -1,7 +1,7 @@
 Installation
 ============
 
-This document segment goes over some of the common issues and their resolution that our users tend to run into:
+This document provides details related to troubleshooting Installation issues.
 
 
 1. No Browser Content After Starting Fire

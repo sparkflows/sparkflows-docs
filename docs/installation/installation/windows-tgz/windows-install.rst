@@ -4,12 +4,6 @@ Installation
 Sparkflows can be installed to run independently on Windows.
 
 
-Installation
-=================
-
-Fire Insights can be installed to run independenly on Windows.
-
-
 Installation Steps of Fire Insights with H2 DB
 ----------------------------------------------
 

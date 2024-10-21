@@ -25,7 +25,7 @@ Install JDK 8
 
 * Download JDK 8 for windows using the link below:
 
-  * https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+  * https://www.oracle.com/java/technologies/downloads/#java8
 
 * Click on the link for the JDK download for Windows. On the Oracle page that opens, scroll down and select the Windows tab and click on the x86 or x64 Installer depending on the system configuration.
 

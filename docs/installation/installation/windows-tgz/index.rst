@@ -15,9 +15,17 @@ Windows Installation using TGZ file
 
     Installation on windows
 
+    ---
+
+    :doc:`/installation/installation/windows-tgz/troubleshooting`
+
+    Troubleshooting on windows
+
 
 .. toctree::
    :hidden:
  
    prerequisites-install.rst  
    windows-install.rst
+   troubleshooting.rst
+

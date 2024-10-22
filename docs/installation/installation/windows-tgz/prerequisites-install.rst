@@ -58,6 +58,9 @@ Install JDK 8
    :alt: Installations
    :width: 60%
 
+Update JAVA_HOME and PATH variables
+====================
+
 * To complete the installation of the JDK, add the JAVA_HOME variable to the system environment variables and set the path to installation path of the JDK as shown below:
 
   .. figure:: ../../../_assets/installation/java_home.png
@@ -69,6 +72,9 @@ Install JDK 8
   .. figure:: ../../../_assets/installation/path_env.png
    :alt: Installations
    :width: 60%
+
+Verify installation of Java
+====================
 
 * To verify if the installation is successful, from the command prompt, type the below command:
   >java -version
@@ -134,7 +140,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 
   https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/
 
-hadoop.dll
+Install hadoop.dll
 ====================
 
 hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup ''hadoop.dll'' on your machine

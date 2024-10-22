@@ -36,3 +36,20 @@ Also make sure that below configuration is passed in Livy Connection:
     --conf spark.hadoop.fs.s3a.committer.name=directory
     --conf spark.hadoop.fs.s3a.committer.magic.enabled=true
 
+
+2. Facing Issues with running h2o workflow on Livy
+------
+**Problem**
+++++++
+
+I see below error:
+
+::
+
+    An error occurred while calling o114.csv.
+
+
+**Solution**
+++++++++++
+
+Do check in the logs for exceptions and the root cause. The log files can be analysed from Livy url.

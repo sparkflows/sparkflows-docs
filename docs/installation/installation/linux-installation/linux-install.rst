@@ -8,9 +8,9 @@ Installation Steps of Fire with H2 Database
 
 To get started quickly with minimal install and configuration of Sparkflows, please use the steps given below. If you want a production ready environment, please follow the steps in the next section.
 
-* Download the fire ``TGZ`` file from: https://www.sparkflows.io/download
+* Download the fire **TGZ** file from: https://www.sparkflows.io/download
 
-* Or, download the file using the ``wget`` command in Linux :
+* Or, download the file using the **wget** command in Linux :
      
    .. code-block:: bash
 
@@ -18,13 +18,13 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 
  .. Note:: 
-	For **CentOS**, install `wget` command using :
+	For **CentOS**, install **wget** command using :
 	
 	   .. code-block:: bash
 	
 		sudo yum -y install wget
 	
-	For **Ubuntu**, install `wget` command using :
+	For **Ubuntu**, install **wget** command using :
 	     
 	   .. code-block:: bash
 	
@@ -34,7 +34,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
     tar xvf fire-3.x.y_spark_3.2.1.tgz
 
-* Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found here: https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html
+* Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found `here <https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html>`_.
 
 * For quick installation, create H2 Database::
 
@@ -126,8 +126,8 @@ To upgrade Sparkflows, one needs to follow the steps given below:
 
 * Upgrade the H2 database or MySQL database:
 
-   * If you have updated the ``conf/db.properties`` file, copy it from your old location to the new directory.
-   * Backup your existing H2 database files. By default they are in your home directory as ``firedb.mv.db``.
+   * If you have updated the **conf/db.properties** file, copy it from your old location to the new directory.
+   * Backup your existing H2 database files. By default they are in your home directory as **firedb.mv.db**.
    * If you are using MySQL, backup the fire database in MySQL.
    * Execute the following commands to create and upgrade the Fire database schema::
 

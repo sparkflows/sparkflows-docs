@@ -8,20 +8,17 @@ Sparkflows can run independently on a machine since we package Apache Spark alon
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
-   :doc:`/installation/installation/deployment-requirements/index`
-   
-   Infrastructure Deployment Requirements
+   :doc:`/installation/installation/macoc-install/prerequisites`
    
    ---
    
-   :doc:`/installation/installation/linux-install`
+   :doc:`/installation/installation/macos-install/macos-install`
    
-   Sparkflows Installation on Linux
 
 
 .. toctree::
    :hidden:
 
-   deployment-requirements/index.rst
+   prerequisites.rst
    linux-install.rst
-   macos-install.rst
+ 

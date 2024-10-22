@@ -25,7 +25,7 @@ Fire Insights can be installed using one of the below binaries and installers as
 
    ---
       
-   :doc:`/installation/installation/macos-install`
+   :doc:`/installation/installation/macos-installation/index`
    
    Sparkflows Installation on MacOS
    
@@ -84,7 +84,7 @@ Fire Insights can be installed using one of the below binaries and installers as
 
    deployment-requirements/index.rst
    linux-installation/index.rst
-   macos-install.rst
+   macos-install/index.rst
    windows-tgz/index.rst
    windows-laptop-desktop-installer.rst
    docker-windows-install.rst

@@ -48,7 +48,7 @@ or you can pass below parameter from workflow execute page too
 
 
 
-2. Facing Issues with running h2o workflow on Livy
+2. Facing Issues with running h2o with AutoML on Livy
 ------
 **Problem**
 ++++++
@@ -59,6 +59,30 @@ I see below error:
 
     Could not establish link to the H2O cloud http-//sandbox-datafabric.internal.cloudapp.net-54323 after 5 retries\n[46-21.68] H2OConnectionError- Timeout after 3.010s\n[46-24.89] H2OConnectionError- Timeout after 3.013s\n[46-28.10] H2OConnectionError- Timeout after 3.010s\n[46-31.33] H2OConnectionError- Timeout after 3.021s\n[46-34.54] H2OConnectionError- Timeout after 3.010s
 
+
+
+**Solution**
+++++++++++
+
+Do check in the logs for exceptions and the root cause. The log files can be analysed from Livy url.
+
+Also make sure that below configuration is passed in Livy Connection:
+
+::
+
+    spark.h2o.backend:internal,spark.executor.memory:4g,spark.executor.cores:2
+
+
+3. Facing Issues with running h2o workflow on Livy
+------
+**Problem**
+++++++
+
+I see below error:
+
+::
+
+    ai.h2o.sparkling.backend.exceptions.RestApiNotReachableException: H2O node http://10.2.0.10:54321 is not reachable.
 
 
 **Solution**

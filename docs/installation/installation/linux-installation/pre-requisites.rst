@@ -36,7 +36,7 @@ If there is need to run the PySpark engine (optional)::
 Downloading and Installing Java 8
 +++++++++++++++++++++++++++++++++++++
 
-* Java 8 can be downloaded and installed from here : https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+* Java 8 can be downloaded and installed from `here <https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html>`_.
 
 * Set the **JAVA_HOME** property.
 
@@ -87,7 +87,7 @@ We can check the version of JAVA by running the following command:
 
 On successful installation and checking java version, one would see the below:
 
-   .. figure:: ../../_assets/aws/aws-deployment/install.png
+   .. figure:: ../../../_assets/aws/aws-deployment/install.png
       :alt: aws-deployment
       :width: 60%
 
@@ -95,6 +95,6 @@ On successful installation and checking java version, one would see the below:
 References
 ------------
 
-* Install JAVA on CentOS and Fedora: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
-* OpenJDK download link: https://openjdk.java.net/install/
-* Install OpenJDK on Ubuntu: https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
+* `Install JAVA on CentOS and Fedora <https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora>`_
+* `OpenJDK download link <https://openjdk.java.net/install/>`_
+* `Install OpenJDK on Ubuntu <https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html>`_

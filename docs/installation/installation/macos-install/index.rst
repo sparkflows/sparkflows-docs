@@ -20,5 +20,5 @@ Sparkflows can run independently on a machine since we package Apache Spark alon
    :hidden:
 
    prerequisites.rst
-   linux-install.rst
+   macos-install.rst
  

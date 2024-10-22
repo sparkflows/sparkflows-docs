@@ -30,11 +30,22 @@ Also make sure that below configuration is passed in Livy Connection:
 
 ::
 
+    spark.hadoop.mapreduce.fileoutputcommitter.algorithm.version=2
+    spark.hadoop.mapreduce.fileoutputcommitter.cleanup-failures.ignored=true
+    spark.hadoop.mapreduce.fileoutputcommitter.cleanup-succeed.enabled=true
+    spark.hadoop.fs.s3a.committer.name=directory
+    spark.hadoop.fs.s3a.committer.magic.enabled=true
+
+or you can pass below parameter from workflow execute page too
+
+::
+
     --conf spark.hadoop.mapreduce.fileoutputcommitter.algorithm.version=2
     --conf spark.hadoop.mapreduce.fileoutputcommitter.cleanup-failures.ignored=true
     --conf spark.hadoop.mapreduce.fileoutputcommitter.cleanup-succeed.enabled=true
     --conf spark.hadoop.fs.s3a.committer.name=directory
     --conf spark.hadoop.fs.s3a.committer.magic.enabled=true
+
 
 
 2. Facing Issues with running h2o workflow on Livy

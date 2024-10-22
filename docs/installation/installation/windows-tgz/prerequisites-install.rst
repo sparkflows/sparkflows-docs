@@ -85,7 +85,7 @@ Verify installation of Java
    :width: 60%
 
 * To find the installation path of Java, run this command 
-> where java
+  >where java
 
 .. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined in either of the links below:
 

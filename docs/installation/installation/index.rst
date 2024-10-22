@@ -13,7 +13,7 @@ Fire Insights can be installed using one of the below binaries and installers as
    
    ---
    
-   :doc:`/installation/installation/linux-install`
+   :doc:`/installation/installation/linux-installation/index`
    
    Sparkflows Installation on Linux
 
@@ -83,7 +83,7 @@ Fire Insights can be installed using one of the below binaries and installers as
    :hidden:
 
    deployment-requirements/index.rst
-   linux-install.rst
+   linux-installation/index.rst
    macos-install.rst
    windows-tgz/index.rst
    windows-laptop-desktop-installer.rst

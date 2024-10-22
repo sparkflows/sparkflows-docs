@@ -8,7 +8,7 @@ Sparkflows can run independently on a machine since we package Apache Spark alon
    :container: container-lg pb-3
    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
    
-   :doc:`/installation/installation/macoc-install/prerequisites`
+   :doc:`/installation/installation/macos-install/prerequisites`
    
    ---
    

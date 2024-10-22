@@ -1,6 +1,10 @@
 
+Installation
+==================
+
+
 Installation Steps of Fire with H2 Database
-===========================================
+--------------------------
 
 To get started quickly with minimal install and configuration of Sparkflows, please use the steps given below. If you want a production ready environment, please follow the steps in the next section.
 
@@ -66,7 +70,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 
 Installing and starting the Python engine
-=========================================
+-------------------------------------------
 
 Sparkflows comes with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Java engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
 
@@ -76,7 +80,7 @@ Sparkflows comes with Java engine and Python engine. Following the above steps, 
 
   
 Helpful Commands
-===========================
+---------------------
 
 * Stopping the Fire Server::
    
@@ -103,7 +107,7 @@ Helpful Commands
 
 
 Upgrading Steps
-==============
+---------------------
 
 To upgrade Sparkflows, one needs to follow the steps given below:
 

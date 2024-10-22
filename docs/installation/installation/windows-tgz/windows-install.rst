@@ -50,8 +50,6 @@ Installation Steps of Fire Insights with H2 DB
     
     You may change these usernames and passwords in Fire under the menu Administration/Users 
 
-Stopping Fire Insights
-=================
 
 Stopping the Fire Server
 ------------------------

@@ -12,7 +12,10 @@ When starting the fire server, running into the error "Could not create Java Vir
 Solution
 -------
 
-This problem can be because you installed JDK 32 bit instead of 64 bit.
+This problem can be because ::
+
+  * JDK 32 bit instead of 64 bit
+  * OR Java 8 is not installed. Some other version of Java is installed.
 
 Running into an exception when saving files
 ++++++++++++++++++++++++++++
@@ -20,7 +23,7 @@ Running into an exception when saving files
 Problem
 -------
 
-    org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 33.0 failed 1 times, most recent failure: Lost task 1.0 in stage 33.0 (TID 131, localhost): java.io.IOException: (null) entry in command string: null chmod 0644 
+org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 33.0 failed 1 times, most recent failure: Lost task 1.0 in stage 33.0 (TID 131, localhost): java.io.IOException: (null) entry in command string: null chmod 0644 
 
 Solution
 -------

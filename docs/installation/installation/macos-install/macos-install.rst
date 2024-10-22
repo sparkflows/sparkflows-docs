@@ -5,11 +5,11 @@ Installation
 Installation Steps of Fire with H2 Database
 ----------------------------------------------
 
-* Download the fire ``TGZ`` file from:
+* Download the fire **TGZ** file from:
 
   * https://www.sparkflows.io/download
 
-* Create a new directory named ``sparkflows`` and copy the TGZ file into it::
+* Create a new directory named **sparkflows** and copy the TGZ file into it::
 
     mkdir sparkflows
 

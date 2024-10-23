@@ -26,7 +26,7 @@ I see below error:
 
 Do check in the logs for exceptions and the root cause. The log files can be analysed from Livy url.
 
-Also make sure that below configuration is passed in Livy Connection:
+Also make sure that below configuration is passed in Livy Connection inside ``Conf`` value:
 
 ::
 

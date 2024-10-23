@@ -36,7 +36,7 @@ Also make sure that below configuration is passed in Livy Connection inside ``Co
     spark.hadoop.fs.s3a.committer.name=directory
     spark.hadoop.fs.s3a.committer.magic.enabled=true
 
-or you can pass below parameter from workflow execute page too
+or you can pass below parameter from workflow execute page inside ``Conf`` value:
 
 ::
 

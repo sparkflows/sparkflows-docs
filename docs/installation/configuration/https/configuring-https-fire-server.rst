@@ -9,13 +9,13 @@ The ports for HTTP and HTTPS are configured in the file ``conf/application.prope
     https.port=8443
 
  
-HTTP Login
+HTTP Login URL
 ----
  
 http://hostname:8080/login
 
  
-HTTPS Login
+HTTPS Login URL
 -----
  
 https://hostname:8443/login

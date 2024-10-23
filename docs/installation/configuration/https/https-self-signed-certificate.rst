@@ -1,7 +1,7 @@
 HTTPS : Import Self-Signed Certificates
 ================================
 
-Fire Insights comes with a self-signed certificate. It is available in "conf/keystore.jks" of fire-x.y.z directory.
+Fire Insights comes with a self-signed certificate. It is available in ``conf/keystore.jks`` of fire-x.y.z directory.
 
 When you try to use a self-signed certificate, the browser will complain as it has not been issued by a Certificate Authority.
 

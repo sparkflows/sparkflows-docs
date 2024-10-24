@@ -8,11 +8,11 @@ By default, Fire Insights uses a self-signed certificate, which can lead to cert
 Pre-Requisites
 ---------
 
-Inorder to Configured Valid Certificate into Fire Insights, Below are some pre requisites:
+In order to configure a valid certificate in Fire Insights, the following pre-requisites are needed:
 
-#. Valid Certificate in jks format
-#. keystore password
-#. server keystore alias
+#. Valid Certificate in JKS format
+#. Keystore Password
+#. Server Keystore Alias
 
 
 

@@ -57,7 +57,10 @@ I see below error:
 **Solution**
 ++++++++++
 
-Do check in the logs of EMR If the bootstrap completed successfully and all python dependency successfully got installed.
+Please check the EMR logs to verify the following:
+
+#. Bootstrap Completion: Ensure that the bootstrap process completed successfully.
+#. Python Dependencies: Confirm that all Python dependencies were installed successfully.
 
 4. Facing Issues while Running PySpark workflow with pipeline step function
 ------
@@ -73,4 +76,7 @@ I see below error:
 **Solution**
 ++++++++++
 
-Do check in the logs of EMR If the bootstrap completed successfully and all python dependency successfully got installed.
+Please check the EMR logs to verify the following:
+
+#. Bootstrap Completion: Ensure that the bootstrap process completed successfully.
+#. Python Dependencies: Confirm that all Python dependencies were installed successfully.

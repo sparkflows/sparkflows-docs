@@ -8,5 +8,6 @@ This section describes the steps for configuring HTTPS for Fire Insights Server.
 
    configuring-https-fire-server.rst 
    https-self-signed-certificate.rst
+   ssl-certificate.rst
    
 

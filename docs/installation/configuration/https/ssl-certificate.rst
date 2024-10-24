@@ -68,10 +68,20 @@ Update the ``conf/keystore.properties`` file to reflect the path and password of
 
 .. code-block:: properties
 
-    keystore.path=conf/keystore.jks
+    keystore.path=./conf/keystore.jks
     keystore.password=your_password
 
-Ensure the alias and password match those provided during the keystore creation process.
+5. Update sso.saml.properties
+--------------
+
+.. code-block:: properties
+
+    server.keystore.alias=alias name
+    server.keystore.password=keystore_password
+    server.keystore.location=./conf/keystore.jks
+    
+
+
 
 Conclusion
 ----------

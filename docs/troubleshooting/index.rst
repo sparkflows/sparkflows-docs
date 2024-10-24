@@ -139,6 +139,13 @@ Below are steps for troubleshooting some of the common issues.
     
     Steps to troubleshoot Incorta specific issues
 
+    ---
+    
+    :doc:`/troubleshooting/bootstrap-script-python`
+    
+    Steps to troubleshoot bootstrap script issues
+
+
 .. toctree::
    :hidden:
 
@@ -164,6 +171,7 @@ Below are steps for troubleshooting some of the common issues.
    mlops.rst
    delta.rst
    incorta.rst
+   bootstrap-script-python.rst
    
    
    

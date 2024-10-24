@@ -79,7 +79,20 @@ Update the ``conf/sso.saml.properties`` file to reflect the alias, path and pass
     server.keystore.password=keystore_password
     server.keystore.location=./conf/keystore.jks
     
+6. Restart Fire server
+--------------
 
+Once the above changes are updated, Need to restart Fire server.
+
+::
+
+    For Linux:
+    ./run-fire-server.sh stop
+    ./run-fire-server.sh start
+
+    For Windows:
+    .\run-fire-server.bat stop
+    .\run-fire-server.bat start
 
 
 Conclusion

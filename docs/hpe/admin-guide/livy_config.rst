@@ -19,7 +19,7 @@ Follow the below steps to configure the Livy connection in Sparkflows:
       6. hdfs:///apps/sparkflows/delta-storage-2.1.0.jar
 
 
-Step 1 : Access Connection Configuration
+Step 1 : Livy Connection Configuration
 ----------------
 #. After you’ve logged into Sparkflows, navigate to the **Administration** > **Global Connections** and then click on **Add Connection**. Select **Livy** as the **Compute Connection**. 
 
@@ -30,24 +30,36 @@ Step 1 : Access Connection Configuration
 #. Now, enter the **Livy URLs** and the **credentials**, that has been provided by the HPE UA Team.
 
 
-   .. figure:: ../../_assets/hpe/livy-connection.png
+   .. figure:: ../../_assets/hpe/livy-connection-general.png
       :width: 60%
       :alt: HPE UA Data sources
 
-Enter the Livy connection details as follows.
+   .. figure:: ../../_assets/hpe/livy-connection-general-1.png
+      :width: 60%
+      :alt: HPE UA Data sources
+
+
+Enter the **Livy** connection details in the **General** Tab as follows.
 
 * **Connection Name** - A unique name for the connection
-* **Postback URL** - It should follow below format
+* **Postback URL** - Enter an URL that Sparkflows application can Call Back to. It should follow below format
 	
 	::
 
 		https://<sparkflows-host>/messageFromSparkJob
 
-* **Username:** Enter the username of the EzUA account
-* **Password:** Enter the password of the EzUA account
+* **Auth Type:** Select one of the Authentication Method that needs to be used from the options **None**, **Basic** and **OAUTH**. 
+
+	#. **None:** Select None when no authentication is required.
+	#. **Basic:** Select it when basic authentication is needed using username and password.
+	#. **OAUTH:** Select it when more secure authentication is needed. It may involve third party application.
+
+* **Username:** Enter the username for the Livy Connection
+* **Password:** Enter the password of the Livy Connection
 * **Title:** (Optional) Give a short title
 * **Description:** (Optional) Give a brief description
 * **URL:** Enter the Livy endpoint
+* **Driver Class:** Enter the Driver Class Name to be used.
 
 Step 2 : Upload JAR and Python Files
 ------

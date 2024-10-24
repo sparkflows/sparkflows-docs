@@ -62,7 +62,7 @@ Configure Sparkflows to connect with Marqeuz API
       :alt: Sparkflows On UA
 
 
-   **Connection Name:** <Any alpha numeric value>
+   **Connection Name:** Enter a unique identifier of the connection. Any alpha numeric value can be entered.
 
    **URL:** Marquez API host with port. This value will come from the ezua service endpoint that would be something like this, 
 
@@ -76,7 +76,11 @@ Configure Sparkflows to connect with Marqeuz API
 		
 			spark.extraListeners: io.openlineage.spark.agent.OpenLineageSparkListener, spark.openlineage.transport.type:http, spark.openlineage.transport.url: https://marquez.sparkflows.net, spark.openlineage.facets.disabled: [spark.logicalPlan], spark.openlineage.debugFacet: enabled
 			
-   **Jars:** hdfs:///apps/sparkflows/openlineage-spark_2.12-1.13.1.jar
+   **Jars:** Enter OpenLineage Jar details. 
+
+	::
+
+		hdfs:///apps/sparkflows/openlineage-spark_2.12-1.18.0.jar
 	
 #. Test and Save the connection, and now edit/create the Livy connection
 #. Go to the Lineage tab in the livy connection and choose the Lineage connection that you just created, above as shown in the screenshot below

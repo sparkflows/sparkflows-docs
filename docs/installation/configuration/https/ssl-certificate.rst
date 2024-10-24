@@ -70,6 +70,9 @@ Update the ``conf/keystore.properties`` file to reflect the path and password of
 5. Update sso.saml.properties
 --------------
 
+Update the ``conf/sso.saml.properties`` file to reflect the alias, path and password of the newly generated ``keystore.jks``:
+
+
 .. code-block:: properties
 
     server.keystore.alias=alias name

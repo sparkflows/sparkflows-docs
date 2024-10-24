@@ -17,9 +17,7 @@ In order to configure a valid certificate in Fire Insights, the following pre-re
 1. Obtain a Trusted SSL Certificate
 ---------------------------------------
 
-You will need to obtain an SSL certificate from a trusted Certificate Authority (CA). You can choose a free CA like **Let's Encrypt**.
-
-Once you have obtained the certificate, you will have the following files:
+To secure Fire Insights with HTTPS, you need an SSL certificate from a trusted Certificate Authority (CA), such as Let's Encrypt or a commercial CA. Once obtained, you should have the following files:
 
 - Certificate (``your_domain.crt`` or ``your_domain.pem``)
 - Private Key (``your_domain.key``)
@@ -28,7 +26,7 @@ Once you have obtained the certificate, you will have the following files:
 2. Convert Certificate to PKCS12 Format
 --------------------------------------------
 
-The following command will convert your certificate and private key into a PKCS12 keystore:
+Use the following command to convert your certificate and private key into a PKCS12 keystore format, which Java supports:
 
 .. code-block:: bash
 

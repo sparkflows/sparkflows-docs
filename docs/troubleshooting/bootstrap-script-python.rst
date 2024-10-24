@@ -12,7 +12,7 @@ I see below error:
 
 ::
 
-    No Module Named fire
+    No Module Named 'fire'
 
 **Solution**
 ++++++++++
@@ -32,7 +32,7 @@ I see below error:
 
 ::
 
-    No Module Named fire
+    No Module Named 'fire'
 
 **Solution**
 ++++++++++

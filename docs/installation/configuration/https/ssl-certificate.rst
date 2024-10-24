@@ -82,7 +82,7 @@ Update the ``conf/sso.saml.properties`` file to reflect the alias, path and pass
 6. Restart Fire server
 --------------
 
-Once the above changes are updated, Need to restart Fire server.
+Once the above changes are updated, Need to restart Fire server from terminal from ``fire_home`` directory.
 
 ::
 

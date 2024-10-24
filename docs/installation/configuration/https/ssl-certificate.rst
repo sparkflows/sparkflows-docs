@@ -94,6 +94,7 @@ Once the above changes are updated, Need to restart Fire server from terminal fr
     .\run-fire-server.bat stop
     .\run-fire-server.bat start
 
+.. note::  Make sure to copy validate certificate and other information, else it will have an issue with starting Fire Server.
 
 Conclusion
 ----------

@@ -3,6 +3,8 @@ SSL Certificate Setup
 
 This document outlines the steps to use a trusted SSL certificate for the fire server, which uses a ``keystore.jks`` to manage certificates. 
 
+By Default Fire Insights uses Self Sign Certificate by default which will show certificate validation issue with Browser when accessing on ``https``, you can have a valid certificate and can be configured in Fire Insights.
+
 1. Obtain a Trusted SSL Certificate
 ---------------------------------------
 

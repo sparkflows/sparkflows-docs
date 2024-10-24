@@ -53,7 +53,7 @@ Installation Steps
 Configure Sparkflows to connect with Marqeuz API
 ---------------------------------
 
-#. Upload the jar **openlineage-spark_2.12-1.13.1.jar**, that exists in tar.gz shared by Sparkflows team.
+#. Upload the jar **openlineage-spark_2.12-1.18.0.jar**, that exists in tar.gz shared by Sparkflows team.
 #. Navigate to the **Administration** > **Configuration** and add enable the Open lineage connection
 #. Navigate to the **Administration** > **Global/Group connection** and add a new connection type **Open Lineage**, after selecting the category to **Lineage** and enter the following details as shown in the screenshot
 
@@ -62,15 +62,21 @@ Configure Sparkflows to connect with Marqeuz API
       :alt: Sparkflows On UA
 
 
-	**Connection Name:** <Any alpha numeric value>
-	**URL:** Marquez API host with port. This value will come from the ezua service endpoint that would be something like this, https://marquez.abc.net
-	**SparkConf:** 
+   **Connection Name:** <Any alpha numeric value>
+
+   **URL:** Marquez API host with port. This value will come from the ezua service endpoint that would be something like this, 
+
+	::
+
+		https://marquez.abc.net
+
+   **SparkConf:** 
 		
 		::
 		
-			spark.extraListeners: io.openlineage.spark.agent.OpenLineageSparkListener, spark.openlineage.transport.type:http, spark.openlineage.transport.url: <https://marqeuz.abc.net - Change this as per your configured endpoint>, spark.openlineage.facets.disabled: [spark.logicalPlan], spark.openlineage.debugFacet: enabled
+			spark.extraListeners: io.openlineage.spark.agent.OpenLineageSparkListener, spark.openlineage.transport.type:http, spark.openlineage.transport.url: https://marquez.sparkflows.net, spark.openlineage.facets.disabled: [spark.logicalPlan], spark.openlineage.debugFacet: enabled
 			
-	**Jars:** hdfs:///apps/sparkflows/openlineage-spark_2.12-1.13.1.jar
+   **Jars:** hdfs:///apps/sparkflows/openlineage-spark_2.12-1.13.1.jar
 	
 #. Test and Save the connection, and now edit/create the Livy connection
 #. Go to the Lineage tab in the livy connection and choose the Lineage connection that you just created, above as shown in the screenshot below

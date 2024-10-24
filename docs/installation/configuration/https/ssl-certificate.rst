@@ -82,5 +82,5 @@ Update the ``conf/keystore.properties`` file to reflect the path and password of
 Conclusion
 ----------
 
-After completing these steps, the SSL certificate is ready to be used.
+After following these steps, Fire Insights will be configured to use your trusted SSL certificate. You can now access the application via HTTPS without certificate validation warnings in browsers.
 

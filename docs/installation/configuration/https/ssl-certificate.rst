@@ -3,7 +3,7 @@ SSL Certificate Setup
 
 This document outlines the steps to use a trusted SSL certificate for the fire server, which uses a ``keystore.jks`` to manage certificates. 
 
-1. **Obtain a Trusted SSL Certificate**
+1. Obtain a Trusted SSL Certificate
 ---------------------------------------
 
 You will need to obtain an SSL certificate from a trusted Certificate Authority (CA). You can choose a free CA like **Let's Encrypt**.
@@ -14,7 +14,7 @@ Once you have obtained the certificate, you will have the following files:
 - Private Key (``your_domain.key``)
 - CA Bundle or Intermediate Certificate (if provided by your CA, typically ``ca_bundle.crt``)
 
-2. **Convert Certificate to PKCS12 Format**
+2. Convert Certificate to PKCS12 Format
 --------------------------------------------
 
 The following command will convert your certificate and private key into a PKCS12 keystore:
@@ -31,7 +31,7 @@ The following command will convert your certificate and private key into a PKCS1
 
 This command will generate a ``keystore.p12`` file containing your certificate, private key, and CA bundle.
 
-3. **Convert PKCS12 to JKS Keystore**
+3. Convert PKCS12 to JKS Keystore
 ---------------------------------------
 
 Next, we'll have to convert the PKCS12 keystore into Java Keystore (JKS) format. Run the following command:
@@ -48,7 +48,7 @@ Next, we'll have to convert the PKCS12 keystore into Java Keystore (JKS) format.
 
 This will create a new ``keystore.jks`` that includes the trusted SSL certificate. Replace this in the ``conf/`` folder of the home directory of the Fire installation.
 
-4. **Update keystore.properties File**
+4. Update keystore.properties File
 ----------------------------------------
 
 Update the ``conf/keystore.properties`` file to reflect the path and password of the newly generated ``keystore.jks``:
@@ -61,7 +61,7 @@ Update the ``conf/keystore.properties`` file to reflect the path and password of
 Ensure the alias and password match those provided during the keystore creation process.
 
 Conclusion
-==========
+----------
 
 After completing these steps, the SSL certificate is ready to be used.
 

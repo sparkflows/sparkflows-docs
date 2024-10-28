@@ -7,10 +7,7 @@ While this allows for basic HTTPS encryption, **self-signed certificates are not
 
 To suppress this warning message, you can import the self-signed certificate into the **Trusted Root Certification Authorities** section of  your browser by following the steps below. However, this approach is only recommended for **local development and testing**.
 
-  .. warning:: **For production environments, it is strongly recommended to obtain a trusted SSL certificate from a CA** to ensure the highest level of security and trust for your users. 
-  Trusted SSL certificates enhance data integrity, prevent man-in-the-middle attacks, and build user trust by removing browser warnings. 
-  
-  You can follow out documentation for using SSL certificates from a CA here: https://docs.sparkflows.io/en/latest/installation/configuration/https/ssl-certificate.html
+  .. warning:: **For production environments, it is strongly recommended to obtain a trusted SSL certificate from a CA** to ensure the highest level of security and trust for your users. Trusted SSL certificates enhance data integrity and builds user trust by removing browser warnings. You can follow out documentation for using SSL certificates from a CA here: https://docs.sparkflows.io/en/latest/installation/configuration/https/ssl-certificate.html
 
 Below are the steps to import self-signed certificate into your browser:
 

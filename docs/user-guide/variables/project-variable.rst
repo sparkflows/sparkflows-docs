@@ -36,4 +36,59 @@ Add Variable
         :alt: variables_userguide
         :width: 65%
 
-**Editing, viewing, and deleting variables are the same as at the global or group level. The only difference is that these actions must be performed from the project list page**
+Edit Variable
+-------------------------------------------
+
+#. Click the **edit icon** displayed in front of the variable you want to modify
+
+   .. figure:: ../../_assets/user-guide/variables/Project_var_List.png
+     :alt: variables_userguide
+     :width: 65%
+
+
+#. In the dialog box, modify the field and click on **update** button
+    Here modified the key as **roleUserName**
+
+   .. figure:: ../../_assets/user-guide/variables/Project_Edit.png
+     :alt: variables_userguide
+     :width: 65%
+
+   *The image below shows data after updating the variable:
+
+    .. figure:: ../../_assets/user-guide/variables/Project_Edit_List.png
+      :alt: variables_userguide
+      :width: 65%
+
+View Variable
+-------------------------------------------
+
+#. Click the **view icon** displayed in front of the variable you want to view
+
+   .. figure:: ../../_assets/user-guide/variables/Project_var_List.png
+     :alt: variables_userguide
+     :width: 65%
+
+#. In the dialog box, it will display all fields & their value 
+
+   .. figure:: ../../_assets/user-guide/variables/Project_View.png
+     :alt: variables_userguide
+     :width: 65%
+
+Delete Variable
+-------------------------------------------
+
+#. Click the **delete icon** displayed in front of the variable you want to delete
+
+   .. figure:: ../../_assets/user-guide/variables/Project_var_List.png
+     :alt: variables_userguide
+     :width: 65%
+
+#. In the dialog box will open with message
+   **Are you sure you want to delete this variable? Deleting it will break any functionality or references that depend on it**
+   and click on Ok button to delete the variable
+
+   .. figure:: ../../_assets/user-guide/variables/View_Variable.png
+     :alt: variables_userguide
+     :width: 65%
+
+

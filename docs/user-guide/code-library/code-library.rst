@@ -22,7 +22,7 @@ Step 2 : Access the Code Library
 #. Click on the **Code Library** card to be redirected to the **Code Libraries List page**.
 
    .. figure:: ../../_assets/code-library/code-library-list.png
-      :alt: workflow execution cleanup
+      :alt: code-library-list
       :width: 60%
 
 
@@ -40,7 +40,35 @@ Step 3 : Create the Code Library
     * **Group:** Specify the group if the code library is being created for a specific group.
 
    .. figure:: ../../_assets/code-library/create-code-library.png
-      :alt: workflow execution cleanup
+      :alt: code-library-create
       :width: 60%
+
+Step 4 : Execute Code Library
+-------------------------
+#. On the Workflow Editor page, the user will be able to see the Code Library node as illustrated below.
+
+   .. figure:: ../../_assets/code-library/code-library-node.png
+      :alt: code-library-node
+      :width: 60%
+
+#. By clicking the Execute button, the user can run the workflow, which will execute the code from the selected code library.
+
+    .. figure:: ../../_assets/code-library/code-library-scala-execution.png
+      :alt: code-library-scala-execution
+      :width: 60%
+
+    .. figure:: ../../_assets/code-library/code-library-sql-execution.png
+         :alt: code-library-sql-execution
+         :width: 60%
+
+
+#. Code library node can be executed in interactive mode aswell.
+
+   .. figure:: ../../_assets/code-library/code-library-interactive-execution.png
+            :alt: code-library-sql-execution
+            :width: 60%
+
+
+
 
 

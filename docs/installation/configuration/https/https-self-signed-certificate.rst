@@ -1,18 +1,24 @@
 HTTPS : Import Self-Signed Certificates
 ================================
 
-Fire Insights comes with a self-signed certificate. It is available in ``conf/keystore.jks`` of fire-x.y.z directory.
+Fire Insights comes with a self-signed certificate. It is available in ``conf/keystore.jks`` of fire-x.y.z directory. 
 
-When you try to use a self-signed certificate, the browser will complain as it has not been issued by a Certificate Authority.
+While this allows for basic HTTPS encryption, **self-signed certificates are not trusted by browsers**, as they have not been issued by a recognized Certificate Authority (CA). This will trigger security warnings in the browser when accessing the application.
 
-You can import self-signed certificate into the browser inside ``Trusted Root Certification Authorities`` to suppress the warning message.
+To suppress this warning message, you can import the self-signed certificate into the **Trusted Root Certification Authorities** section of  your browser by following the steps below. However, this approach is only recommended for **local development and testing**.
+
+  .. warning:: **For production environments, it is strongly recommended to obtain a trusted SSL certificate from a CA** to ensure the highest level of security and trust for your users. 
+  Trusted SSL certificates enhance data integrity, prevent man-in-the-middle attacks, and build user trust by removing browser warnings. 
+  
+  You can follow out documentation for using SSL certificates from a CA here: https://docs.sparkflows.io/en/latest/installation/configuration/https/ssl-certificate.html
 
 Below are the steps to import self-signed certificate into your browser:
+
 
 Export Certificate to Machine
 --------------------------------------------
 
-Below are the steps to export the certifiate to your machine.
+Below are the steps to export the certificate to your machine.
 
 Go to URL for the HTTPS port
 +++++

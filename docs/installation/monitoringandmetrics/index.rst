@@ -9,3 +9,4 @@ Fire Insights enables you to monitor applications' health and metrics.
    health-check.rst
    jobmetrics.rst
    rest-api.rst
+   alerts.rst

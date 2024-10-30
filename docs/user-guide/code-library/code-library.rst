@@ -68,7 +68,26 @@ Step 4 : Execute Code Library
             :alt: code-library-sql-execution
             :width: 60%
 
+Export and Import of code library
+----------------------------------
 
+Sparkflows supports user to export and import of a code library
 
+#. On clicking the **Export** button in the code library list table, a JSON file will be downloaded to the system
 
+   .. figure:: ../../_assets/code-library/code-library-export.png
+               :alt: code-library-export
+               :width: 60%
 
+   .. figure:: ../../_assets/code-library/code-library-exported.png
+                  :alt: code-library-exported
+                  :width: 60%
+#. Once the code library is exported, users can import it by clicking the **Import** button and selecting the exported JSON file. They can then execute the code library.
+
+   .. figure:: ../../_assets/code-library/code-library-import-button.png
+                  :alt: code-library-import-button
+                  :width: 60%
+
+   .. figure:: ../../_assets/code-library/code-library-import.png
+                  :alt: code-library-import
+                  :width: 60%

@@ -1,4 +1,4 @@
-MLOPS
+Mlops
 ======
 
 By clicking the ``Test MLOps Connection`` button, the user can test the MLOps connection configured in the application's settings.

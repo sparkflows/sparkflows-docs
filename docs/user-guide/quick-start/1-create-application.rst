@@ -12,11 +12,11 @@ This document explains in detail the steps required to create a project in Fire 
       :alt: Quickstart
       :width: 65% 
 
-#. On the **Create Project (pop-up) window**, specify **Project Name** and **Description**.
+#. On the **Create Project (pop-up) window**, specify **Project Name**, **Description**, **Category** and Select a group from the dropdown(If User want to share this project with selected group).
    
    For instance, Project Name: *CreditRiskAssessment* and Description: *Assess the credit risk of customers*. 
    
-   .. figure:: ../../_assets/tutorials/quickstart/Create-Project/create-project-popup.png
+   .. figure:: ../../_assets/tutorials/quickstart/Create-Project/create-project-modal.png
       :alt: Quickstart
       :width: 65%  
 

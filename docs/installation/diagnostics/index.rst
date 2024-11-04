@@ -42,6 +42,9 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Diagnostics``
     
     :doc:`/installation/diagnostics/database`
 
+     ---
+    
+    :doc:`/installation/diagnostics/mlops`
 
 
 .. toctree::
@@ -55,6 +58,6 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Diagnostics``
    aws-s3.rst
    azure.rst
    database.rst
-
+   mlops.rst
 
 

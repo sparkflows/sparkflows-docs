@@ -46,6 +46,8 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Diagnostics``
     
     :doc:`/installation/diagnostics/mlops`
 
+     ---
+
 
 .. toctree::
    :hidden:

@@ -44,3 +44,13 @@ Logs clean up execution
   2024-10-14 18:33:00 [fire-quartz-cluster_Worker-6] "fire-1" INFO  fireui.schedulerquartz.LogsCleaner - Deleted log file from : log\fire-pyspark-49157.log
   2024-10-14 18:33:01 [fire-quartz-cluster_Worker-6] "fire-1" INFO  fireui.schedulerquartz.JobListenerService - Job was executed logsCleanupJob
 
+Disk clean up
++++++++++++++++++++++++
+
+- Files within temporary folders will be automatically deleted based on the specified retention period defined in the ``app.tmp.log.file.cleanup`` configuration if the disk space is low.
+- This setting manages the deletion of log files in the /tmp/workflow and /tmp/workflowlogs directories according to the configured retention period in days.
+- Any log files older than the specified number of days will be removed.
+- By default, this cleanup job runs every 5 days.
+
+
+

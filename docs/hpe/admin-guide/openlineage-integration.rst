@@ -53,7 +53,7 @@ Installation Steps
 Configure Sparkflows to connect with Marqeuz API
 ---------------------------------
 
-#. Upload the jar **openlineage-spark_2.12-1.18.0.jar**, that exists in tar.gz shared by Sparkflows team.
+#. Upload the jar **openlineage-spark_2.13-1.19.0.jar**, that exists in tar.gz shared by Sparkflows team.
 #. Navigate to the **Administration** > **Configuration** and add enable the Open lineage connection
 #. Navigate to the **Administration** > **Global/Group connection** and add a new connection type **Open Lineage**, after selecting the category to **Lineage** and enter the following details as shown in the screenshot
 

@@ -80,7 +80,7 @@ Configure Sparkflows to connect with Marqeuz API
 
 	::
 
-		hdfs:///apps/sparkflows/openlineage-spark_2.12-1.18.0.jar
+		hdfs:///apps/sparkflows/openlineage-spark_2.13-1.19.0.jar
 	
 #. Test and Save the connection, and now edit/create the Livy connection
 #. Go to the Lineage tab in the livy connection and choose the Lineage connection that you just created, above as shown in the screenshot below

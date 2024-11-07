@@ -50,7 +50,7 @@ Disk clean up
 - Files within temporary folders will be automatically deleted based on the specified retention period defined in the ``app.tmp.log.file.cleanup`` configuration if the disk space is low.
 - This setting manages the deletion of log files in the /tmp/workflow and /tmp/workflowlogs directories according to the configured retention period in days.
 - Any log files older than the specified number of days will be removed.
-- By default, this cleanup job runs every 5 days.
+- By default, 5 days older files will get deleted if disk space is low.
 
 
 

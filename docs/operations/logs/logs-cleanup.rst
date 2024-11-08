@@ -47,10 +47,9 @@ Logs clean up execution
 Disk clean up
 +++++++++++++++++++++++
 
-- Files within temporary folders will be automatically deleted based on the specified retention period defined in the ``app.tmp.log.file.cleanup`` configuration if the disk space is low.
-- This setting manages the deletion of log files in the /tmp/workflow and /tmp/workflowlogs directories according to the configured retention period in days.
-- Any log files older than the specified number of days will be removed.
-- By default, 5 days older files will get deleted if disk space is low.
+- Files within temporary folders will be automatically deleted based on the specified retention period defined in the ``app.temp.file.age.threshold`` configuration if the disk space is low.
+- This setting manages the deletion of log files in the /tmp/fire/workflows,/tmp/fire/workflowlogs,/tmp/workflowlogs and /tmp/workflows directories according to the configured retention period in days.
+- If disk space is less than configured threshold value, it will delete all the temp files older than 5 days.
 
 
 

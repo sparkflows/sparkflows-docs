@@ -49,7 +49,7 @@ The image below shows the data filtered after utilizing variable:
 
 Step 3 : Defining variables inside pipleine node using the **{variable_name}** notation as shown below:
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/variable-pipeline-node.png
+   .. figure:: ../../_assets/user-guide/variables/variable-pipeline-node.png
       :alt: variables_userguide
       :width: 65%
 

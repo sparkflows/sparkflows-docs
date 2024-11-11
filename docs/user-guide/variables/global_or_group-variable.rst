@@ -22,13 +22,12 @@ Step 1: Creating Variables at global evel in Sparkflows
       :width: 65%
 
 #. In the dialog box, add parameters by key, value  and description and click on **save** button :
-   For Key alphanumeric value can be added including '_'
 
    .. figure:: ../../_assets/user-guide/variables/Add_Variable.png
       :alt: variables_userguide
       :width: 65%
 
-Step 2:Creating Variables at Group evel in Sparkflows
+Step 2:Creating Variables at Group level in Sparkflows
 --------------------------
 #. Click the **Add Variable** button located at the top right corner of the page. From the dropdown that appears, select the **Add Variable for Group** option.
 
@@ -37,7 +36,6 @@ Step 2:Creating Variables at Group evel in Sparkflows
       :width: 65%
 
 #. In the dialog box, add parameters by key, value description and select the group from dropdown.click on **save** button :
-   For Key alphanumeric value can be added including '_'
 
    .. figure:: ../../_assets/user-guide/variables/Add_group_var.png
       :alt: variables_userguide

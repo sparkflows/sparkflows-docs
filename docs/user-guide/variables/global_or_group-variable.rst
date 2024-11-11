@@ -1,4 +1,4 @@
-Global Variables 
+Global and Group Variables 
 ===============
 
 Global level variables will be displayed under the **Administration** page within the **Variables** card. This card can be acess by superuser only. 

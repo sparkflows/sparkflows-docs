@@ -4,7 +4,7 @@ Project Variable
 Project-level variables are displayed under the **Project Overview** page, within the **Settings** tab under the Variable section. Only users with **variable.modify** permission can access this tab.
 Also, variables tab can be hide/show depending upon value given in configuration `module.enableVariables`, whose defualt value is false.
 
-.. figure:: ../../_assets/user-guide/variables/variables_config.PNG
+.. figure:: ../../_assets/user-guide/variables/variables_config.png
       :alt: variables_config
       :width: 65%
 

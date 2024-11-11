@@ -2,13 +2,19 @@ Project Variable
 ===============
 
 Project-level variables are displayed under the **Project Overview** page, within the **Settings** tab under the Variable section. Only users with **variable.modify** permission can access this tab.
+Also, variables tab can be hide/show depending upon value given in configuration `module.enableVariables`, whose defualt value is false.
+
+.. figure:: ../../_assets/user-guide/variables/variables_config.PNG
+      :alt: variables_config
+      :width: 65%
+
 Variables created at the project level will be shown in their respective project's overview page.
 
 These variables have the highest priority, meaning it will first check for the variable at the project level. If it is available, the value will be fetched from here. If not, it will fall back to the group then global level.
 
-Variable Permission
+Variables Permission
 --------------------------------
-Variable permissions can be found on the **Administration** page, under the **User Management** card in the **Role** tab and Click on **edit icon**.
+Variables permissions can be found on the **Administration** page, under the **User Management** card in the **Role** tab and Click on **edit icon**.
 Here user can get access for 
 Add Variable - User must have **variables.modify** permission
 Edit Variable - User must have **variables.modify** permission to edit variable tab inside project and global level

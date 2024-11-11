@@ -27,7 +27,7 @@ Step 1: Defining Parameters in Pipeline
 
 Step 2: Accessing Variables in PySpark Code
 ----------------------------------------
-#. In the PySpark code node, access the defined parameters using the **${variable_name}** or **{variable_name}** notation as shown below:
+#. In the PySpark code node, access the defined parameters using the **${variable_name}** notation as shown below:
 
    .. figure:: ../../_assets/user-guide/variables/pipeline/conditional-expression-pyspark.png
       :alt: variables_userguide
@@ -35,7 +35,7 @@ Step 2: Accessing Variables in PySpark Code
 
 
 
-   In lines 20 and 21, you can see how parameters are passed. For example, if you want to filter cities like 'Bangalore' and 'Pune', you can map it as **citylst = ${city}** or **citylst = {city}**, where city comes from the defined parameter. This method uses ${variable_name} or {variable_name} for passing parameters.
+   In lines 20 and 21, you can see how parameters are passed. For example, if you want to filter cities like 'Bangalore' and 'Pune', you can map it as **citylst = ${city}** , where city comes from the defined parameter. This method uses ${variable_name} for passing parameters.
 
 
 Output
@@ -44,6 +44,12 @@ Output
 The image below shows the data filtered after utilizing variable:
 
    .. figure:: ../../_assets/user-guide/variables/pipeline/changed-output-pyspark.png
+      :alt: variables_userguide
+      :width: 65%
+
+Step 3 : Defining variables inside pipleine node using the **{variable_name}** notation as shown below:
+
+   .. figure:: ../../_assets/user-guide/variables/pipeline/variable-pipeline-node.png
       :alt: variables_userguide
       :width: 65%
 

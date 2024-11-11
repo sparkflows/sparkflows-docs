@@ -40,3 +40,11 @@ If the failure rate exceeds the configured threshold (e.g., 50%), an email alert
  .. figure:: ../../_assets/alerts/alert-execution-exceeds-failure.png
       :alt: alert-execution-exceeds-failure
       :width: 60%
+
+.. note:: 
+
+ ``FrequencyToSendAlert``
+ For example, if the Alert Frequency is set to 5 minutes, the Sparkflows scheduler will check if any workflow/pipeline has executed within the last 5 minutes. If no executions have occurred during this period, it will trigger an alert email notification.
+ 
+ ``JobFailureThreshold``
+ For example, if the user schedules the workflow/pipeline to run every minute and sets the Alert Frequency to 5 minutes, the workflow/pipeline will execute 5 times within that period. The Sparkflows scheduler then calculates the Job Failure Threshold, say 50%. If all 5 executions fail, resulting in a 100% failure rate—exceeding the 50% threshold—the system will trigger an alert email notification.

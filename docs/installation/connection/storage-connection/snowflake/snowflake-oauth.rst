@@ -28,25 +28,10 @@ Use the below configurations for creating the connection to Snowflake.
         - Choose Snowflake as Connection Type
       * - Authentication Type 
         - Select the USER_CREDENTIAL or OAUTH
-        - Choose USER_CREDENTIAL as Authentication Type
+        - Choose OAUTH as Authentication Type
       * - Connection Name
         - Connection Name
         - Add an unique Connection Name
-      * - Username 
-        - Username
-        - Username for Snowflake
-      * - Password
-        - Password
-        - Password of Snowflake
-      * - Title 
-        - Title for selected Connection
-        - Add an unique Title
-      * - Warehouse 
-        - Warehouse
-        - Type Warehouse name which have access
-      * - Description
-        - Connection Description
-        - Add some Connection Description
       * - Url
         - Url for Snowflake
         - Url for Snowflake
@@ -56,7 +41,7 @@ Use the below configurations for creating the connection to Snowflake.
       :alt: connection
       :width: 60%    
 
-   .. figure:: ../../../../_assets/installation/connection/snowflake_basic.png
+   .. figure:: ../../../../_assets/installation/connection/snowflake_oauth.png
       :alt: connection
       :width: 60%
 Test and save the connection

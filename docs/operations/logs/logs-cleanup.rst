@@ -4,7 +4,7 @@ Configuration
 ++++++++++++
 
 - Sparkflows offers automated log and temp directory cleanup for better disk space management
- This job ensures efficient space management by deleting aged temporary data, improving overall system performance and disk utilization
+- This job ensures efficient space management by deleting aged temporary data, improving overall system performance and disk utilization
 - The cleanup job can be configured by the admin in the ``application.properties`` file.
 
   ``0 0 12 * * ?``  -> default cron expression to trigger clean up job

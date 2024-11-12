@@ -2,10 +2,19 @@ Code Library
 =====================
 Code Library is a centralized repository where users can write, store, and manage reusable code components. These components can be written in SQL and Scala, allowing for flexibility in how they can be applied.
 Key Features:
-Reusable Components: Code written in the library can be reused across different workflows, making it easy to share common logic and processes between groups and users.
-Support for Multiple Languages: Users can write code in SQL for database queries and Scala for more complex logic or processing tasks, offering versatility based on the specific needs of each workflow.
+-----------
+Reusable Components: 
+--------------------
+Code written in the library can be reused across different workflows, making it easy to share common logic and processes between groups and users.
+ 
+Support for Multiple Languages: 
+ ------------------------------
+Users can write code in SQL for database queries and Scala for more complex logic or processing tasks, offering versatility based on the specific needs of each workflow.
 Collaboration Across Groups and Users: The code library can be accessed and utilized by different groups and users, promoting collaboration and efficiency. Each group or user can leverage the pre-existing code components in their own workflows without duplicating effort.
-Streamlined Workflows: By using reusable code components from the library, users can simplify and speed up the creation of workflows, reducing redundancy and potential errors. 
+
+Streamlined Workflows:
+------------------------
+By using reusable code components from the library, users can simplify and speed up the creation of workflows, reducing redundancy and potential errors. 
 
 This document provides step-by-step instructions to enable, access, and create a Code Library within Sparkflows.
 

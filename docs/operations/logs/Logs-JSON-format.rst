@@ -7,7 +7,9 @@ Update Log Configuration to JSON
 
 Through ``Administration`` tab,navigate to the ``Configurations page`` and in the search bar type 
 ``app.log.format`` to locate the log format configuration setting.
- note:: By default, this configuration is set to text format.
+
+.. note:: By default, this configuration is set to text format.
+
 
 .. figure:: ../../_assets/configuration/logs/jsonlog2.png
    :alt: Logs

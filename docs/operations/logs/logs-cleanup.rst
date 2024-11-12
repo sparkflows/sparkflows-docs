@@ -56,6 +56,7 @@ Disk clean up
 Temp directory clean up
 ++++++++++++++++++++++++++
 Clean up job also automatically clean up temporary files and folders in the /tmp directory. This job ensures efficient space management by deleting aged temporary data, improving overall system performance and disk utilization.
+- User can configure temp directory location by setting temp.dirs=/tmp in application.properties file. User can input multiple comma separated temp folder.
 
 - Configurable File Age Threshold: Application allows users to configure the file age threshold through the UI. Users can set the age (in days) for files and directories, determining which temporary data should be deleted. For example, setting the threshold to 5 days will delete all files and folders older than 5 days.
 

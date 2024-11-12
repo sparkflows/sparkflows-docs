@@ -1,15 +1,17 @@
-Logs Clean up
+Logs and Temp file Clean up
 ======
 Configuration
 ++++++++++++
 
-- Sparkflows offers automated log directory cleanup for better disk space management
-- The log cleanup job can be configured by the admin in the ``application.properties`` file.
+- Sparkflows offers automated log and temp directory cleanup for better disk space management
+ This job ensures efficient space management by deleting aged temporary data, improving overall system performance and disk utilization
+- The cleanup job can be configured by the admin in the ``application.properties`` file.
 
-  ``0 0 12 * * ?``  -> default cron expression to trigger logs clean up job
-- Once the above configuration is configured the logs clean up job will execute based on the cron expression.
-- The configuration used to delete log files based on a specified number of days is as follows: ``App.log.file.age.threshold``
-- Users can configure the ``app.disk.threshold`` property to delete job logs based on disk size. 
+  ``0 0 12 * * ?``  -> default cron expression to trigger clean up job
+- Once the above configuration is configured the clean up job will execute based on the cron expression.
+- The configuration used to delete log files based on a specified number of days is as follows: ``app.log.file.age.threshold``
+- The configuration used to delete temp files based on a specified number of days is as follow: ``app.temp.file.age.threshold`` default value is 5 days
+- Users can configure the ``app.disk.threshold`` property to delete job logs based on disk size.
   By default, this value is set to 2 GB. If the size of the log files exceeds the configured threshold, older log files will be deleted.
 
 
@@ -21,8 +23,8 @@ Logs clean up execution
 
   2024-10-14 12:52:51 [restartedMain] "fire-1" INFO  fireui.schedulerquartz.SchedulerQuartzSingleton - Scheduling Logs cleanup Job : cron pattern 0 0 12 * * ?
 
-- The default cron expression of the logs clean up job will be execute  At 12:00 PM everyday.
-- While trigger time of the logs clean up jobs user can see the below logs for it
+- The default cron expression of the clean up job will be execute  At 12:00 PM everyday.
+- While trigger time of the clean up jobs user can see the below logs for it
 
 ::
 
@@ -48,8 +50,26 @@ Disk clean up
 +++++++++++++++++++++++
 
 - Files within temporary folders will be automatically deleted based on the specified retention period defined in the ``app.temp.file.age.threshold`` configuration if the disk space is low.
-- This setting manages the deletion of log files in the /tmp/fire/workflows,/tmp/fire/workflowlogs,/tmp/workflowlogs and /tmp/workflows directories according to the configured retention period in days.
-- If disk space is less than configured threshold value, it will delete all the temp files older than 5 days.
+- This setting manages the deletion of files in the /tmp directories according to the configured retention period in days.
+- If disk space is less than configured threshold value, it will delete all the temp files older than configured temp file age threshold value.
+
+Temp directory clean up
+++++++++++++++++++++++++++
+Clean up job also automatically clean up temporary files and folders in the /tmp directory. This job ensures efficient space management by deleting aged temporary data, improving overall system performance and disk utilization.
+
+- Configurable File Age Threshold: Application allows users to configure the file age threshold through the UI. Users can set the age (in days) for files and directories, determining which temporary data should be deleted. For example, setting the threshold to 5 days will delete all files and folders older than 5 days.
+
+-Improved Resource Management: By automatically cleaning up temporary files, the system prevents unnecessary disk space consumption, contributing to optimized resource usage.
+
+- Note: Ensure the file age threshold is set according to your system’s temporary file usage pattern to prevent unintended deletions of files needed for ongoing processes.
+
+
+
+
+
+
+
+
 
 
 

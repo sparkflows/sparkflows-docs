@@ -19,7 +19,7 @@ Sparkflows enables you to connect to Snowflake using Basic authentication and OA
 
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    snowflake.rst
    snowflake-oauth.rst

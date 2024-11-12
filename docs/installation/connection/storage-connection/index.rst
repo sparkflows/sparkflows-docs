@@ -22,7 +22,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    :maxdepth: 2
 
    mysql.rst
-   snowflake.rst
+   snowflake/index.rst
    PostgreSQL.rst
    sftp.rst
    sybase.rst

@@ -10,13 +10,17 @@ Through ``Administration`` tab,navigate to the ``Configurations page`` and in th
  note:: By default, this configuration is set to text format.
 
 .. figure:: ../../_assets/configuration/logs/jsonlog2.png
+   :alt: Logs
+   :width: 70%
 
 
 Now edit the ``app.log.format`` setting and change the value from ``text`` to ``json`` 
 to enable JSON logs and save the configuration.
 
-.. figure:: ../../_assets/configuration/logs/jsonlog3.png
 
+.. figure:: ../../_assets/configuration/logs/jsonlog3.png
+   :alt: Logs
+   :width: 70%
 
 Verify JSON Log Setup
 +++++++
@@ -25,6 +29,8 @@ Once the configuration is set up,return to the ``Administration tab``.
 Navigate to the ``View Server Logs`` page to review the logs.
 
 .. figure:: ../../_assets/configuration/logs/json-log4.png
+   :alt: Logs
+   :width: 70%
 
 
  Here’s a sample of logs in JSON format:

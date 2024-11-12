@@ -51,14 +51,13 @@ Use the below configurations for creating the connection to Snowflake.
         - Url for Snowflake
         - Url for Snowflake
 
-   .. figure:: ../../..//_assets/installation/connection/snowflake_basic.png
+   .. figure:: ../../../../_assets/installation/connection/snowflake_basic.png
       :alt: connection
       :width: 60%    
 
-   .. figure:: ../../../_assets/installation/connection/snowflake_add.PNG
+   .. figure:: ../../../../_assets/installation/connection/snowflake_basic.png
       :alt: connection
-      :width: 60% 
-
+      :width: 60%
 Test and save the connection
 ------
 

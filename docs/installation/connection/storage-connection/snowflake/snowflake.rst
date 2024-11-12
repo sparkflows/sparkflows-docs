@@ -51,7 +51,8 @@ Use the below configurations for creating the connection to Snowflake.
         - Url for Snowflake
         - Url for Snowflake
 
-   .. figure:: ../../../../_assets/installation/connection/snowflake_basic.png
+   .. figure:: ../../../../_assets/installation/connection/snowflake_storage.PNG
+
       :alt: connection
       :width: 60%    
 

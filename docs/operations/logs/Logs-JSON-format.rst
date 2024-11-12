@@ -28,9 +28,11 @@ Verify JSON Log Setup
 Once the configuration is set up,return to the ``Administration tab``.
 Navigate to the ``View Server Logs`` page to review the logs.
 
+
 .. figure:: ../../_assets/configuration/logs/json-log4.png
    :alt: Logs
    :width: 70%
+
 
 
  Here’s a sample of logs in JSON format:

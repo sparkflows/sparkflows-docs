@@ -30,8 +30,7 @@ Navigate to the ``View Server Logs`` page to review the logs.
 
 
 .. figure:: ../../_assets/configuration/logs/json-log4.png
-   :alt: Logs
-   :width: 70%
+   
 
 
 

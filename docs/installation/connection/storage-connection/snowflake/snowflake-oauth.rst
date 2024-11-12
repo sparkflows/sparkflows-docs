@@ -49,6 +49,9 @@ Test and save the connection
 
   Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
 
+ .. Note:: Make Sure Sparkflows User Login(Using OAuth) should have sufficient Privilege of Snowflake.
+
+
 Documentation
 -----
 

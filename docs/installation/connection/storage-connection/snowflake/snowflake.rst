@@ -1,4 +1,4 @@
-Snowflake Connection
+Snowflake Basic Connection
 =======
 
 Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources, using User Credentials.

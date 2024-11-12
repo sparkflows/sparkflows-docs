@@ -1,7 +1,7 @@
 Snowflake Connections
 ==============
 
-Sparkflows enables you to connect to Snowflake using Basic authentication and OAuth.
+Sparkflows supports connecting to Snowflake using both Basic Authentication and OAuth.
 
 .. panels::
     :container: container-lg pb-3

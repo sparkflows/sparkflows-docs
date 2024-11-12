@@ -1,4 +1,4 @@
-Logs and Temp file Clean up
+Logs and Temp files Clean up
 ======
 Configuration
 ++++++++++++

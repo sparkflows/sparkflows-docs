@@ -1,7 +1,7 @@
 Snowflake Connections
 ==============
 
-Sparkflows enables you to connect to Snowflake using basic auth and oauth.
+Sparkflows enables you to connect to Snowflake using Basic authentication and OAuth.
 
 
 .. toctree::

@@ -3,10 +3,29 @@ Snowflake Basic Connection
 
 Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources, using User Credentials.
 
-Snowflake Connection Configuration
-----------
+Below are the steps for creating the Snowflake Connection.
 
-Use the below configurations for creating the connection to Snowflake.
+Step 1 : Navigate to Administration/Global Connections
+-------------
+#. **Login** to Fire Insights application.
+#. Go to **Administration** and select **Global Connections**.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/admin-page.png
+      :alt: Credential Store
+      :width: 65%
+
+Step 2 : Add Connection
+-----------
+#. Click on **ADD CONNECTION**.
+#. Choose either **Add Connection For All** or **Add Connection For Group** based on your requirements.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/connection-type.png
+      :alt: Credential Store
+      :width: 65%
+
+Step 3 : Add Connection Parameter
+--------------------------
+Add connection parameters using the below table:
 
 
    .. list-table:: 
@@ -54,15 +73,25 @@ Use the below configurations for creating the connection to Snowflake.
    .. figure:: ../../../../_assets/installation/connection/snowflake_storage.PNG
 
       :alt: connection
-      :width: 60%    
+      :width: 60%  
 
-   .. figure:: ../../../../_assets/installation/connection/snowflake_basic.png
-      :alt: connection
-      :width: 60%
-Test and save the connection
-------
+Step 4 : Test and Save Connection
+-------------------------
+#. After adding the parameters, click on **TEST CONNECTION** to verify the connection.
+#. Once the success notification is received, click **Save** to store the connection details.
 
-  Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
+   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connection-parameters.png
+      :alt: Credential Store
+      :width: 50%       
+
+   After saving, the connection would display on the connections list page as shown below.
+
+   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connection-list.png
+      :alt: Credential Store
+      :width: 65%
+
+
+   Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
 
 Documentation
 -----

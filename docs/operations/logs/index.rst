@@ -19,3 +19,4 @@ You can view the logs for each process either by logging into the VM where Fire 
    workflow-logs.rst
    logs-search-examples.rst
    logs-cleanup.rst
+   logs-json-format.rst

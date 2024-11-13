@@ -2,18 +2,19 @@ Snowflake Oauth Connection
 =======
 
 Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources, using Oauth.
-- Using Snowflake with OAuth, SSO with OAuth for user loggedIn must be enabled. Below are the steps user will have to follow:
+Using Snowflake with OAuth, SSO with OAuth for user loggedIn must be enabled. Below are the steps user will have to follow:
+
     1. SSO Authentication for User Login:
        Users log in to the Sparkflow application through Single Sign-On (SSO), which can be implemented using protocol like OAuth. When users 
-        authenticate via SSO, the application receives an access token, which will be used to identify the user in subsequent requests
-    2. OAuth Connection for Snowflake Access:
-        Sparkflow allows users to create a connection to Snowflake, where the data storage and retrieval happen. 
-        This connection relies on OAuth for secure, delegated access to Snowflake resources. The OAuth setup with Snowflake includes configuring Sparkflow as an authorized OAuth client for 
-            Snowflake.
-- Once the connection is established, the user’s OAuth token (from SSO login) is passed through to Snowflake. This OAuth token grants the     
-        application access to specific Snowflake resources without requiring the user to re-authenticate.
+       authenticate via SSO, the application receives an access token, which will be used to identify the user in subsequent requests
 
-Follow below steps to create a Snowflake connection using OAuth authentication: 
+    2. OAuth Connection for Snowflake Access:
+       Sparkflow allows users to create a connection to Snowflake, where the data storage and retrieval happen. 
+       This connection relies on OAuth for secure, delegated access to Snowflake resources. The OAuth setup with Snowflake includes configuring Sparkflow as an authorized          OAuth client for Snowflake.
+
+Once the connection is established, the user’s OAuth token (from SSO login) is passed through to Snowflake. This OAuth token grants the application access to specific Snowflake resources without requiring the user to re-authenticate.
+
+**Follow below steps to create a Snowflake connection using OAuth authentication:** 
 
 Snowflake Connection Configuration
 ----------
@@ -61,7 +62,7 @@ Test and save the connection
 
 Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
 
-.. Note:: Make Sure Sparkflows User Login(Using OAuth) should have sufficient Privilege of Snowflake resources.
+``Note: Make Sure Sparkflows User Login(Using OAuth) should have sufficient Privilege of Snowflake resources.``
 
 
 Documentation

@@ -62,7 +62,7 @@ Clean up job also automatically clean up temporary files and folders in the /tmp
 
 -Improved Resource Management: By automatically cleaning up temporary files, the system prevents unnecessary disk space consumption, contributing to optimized resource usage.
 
-- Note: Ensure the file age threshold is set according to your system’s temporary file usage pattern to prevent unintended deletions of files needed for ongoing processes.
+ .. Note:: Ensure the file age threshold is set according to your system’s temporary file usage pattern to prevent unintended deletions of files needed for ongoing processes.
 
 
 

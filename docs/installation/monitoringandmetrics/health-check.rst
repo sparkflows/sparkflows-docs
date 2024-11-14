@@ -1,7 +1,7 @@
 Health Check
 ============
 
-This document outlines steps for checking the health status of Fire Insight.
+This document outlines steps for checking the health status of Fire Insights.
 
 Follow the steps given below:
 

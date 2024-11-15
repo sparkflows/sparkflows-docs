@@ -5,7 +5,7 @@ Fire Insights enables you to see job metrics. This document outlines the steps t
 
 Below are the steps on how to view job metrics in Fire Insights:
 
-Step 1: Login to Fire Insights Application
+Step 1: Login to Fire Insights 
 ............
 #. Go to the Fire Insights login page.
 #. Enter your **credentials**, then click **Login**.

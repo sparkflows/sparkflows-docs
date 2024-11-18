@@ -1,5 +1,6 @@
-Pipeline
+Variables in Pipelines
 ============
+
 Sparkflows allows you to utilize dynamic variables in pipelines, enabling you to efficiently manage and adapt your data processing tasks. This capability empowers you to pass variables in a PySpark Node using defined parameters, enhancing the flexibility and effectiveness of your workflow. This document outlines the steps to pass variables in a PySpark Node using defined parameters.
 
 Below are the steps:

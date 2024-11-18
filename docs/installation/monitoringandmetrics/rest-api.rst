@@ -1,36 +1,49 @@
-Swagger REST API's
+Swagger REST APIs
 =========
 
-Fire Insights enables you to use ``Swagger REST API'S``. It can be accessible only when the admin provides the privilge to access it.
+Fire Insights enables you to use **Swagger REST APIs**. It can be accessible only when the admin provides the privilege to access it.
 
-Below are the required steps:
+This document outlines the steps to enable Swagger for REST APIs.
 
-1. Enable Swagger inside ``application.properties``.
+Follow the steps given below:
 
-Enable Swagger by adding the following line next to application.properties :
-::
+Step 1 : Enable Swagger in application.properties
+++++++++++
 
-    swagger.enable=true
+#. Open the application.properties file.
+#. Add the following line next to application.properties to enable Swagger:
+
+   ::
+
+       swagger.enable=true
     
-2. Enable it from configurations page.
+#. After updating the **application.properties**, restart the Fire Insights server.
 
-Once the above configurations are updated and the Fire server gets restarted, login to the Fire Insights application and enable the following configurations :
+Step 2 : Enable Swagger from the Configurations Page
++++++++++++++++++++++++++++++
 
-.. figure:: ../../_assets/installation/metrics/swagger.PNG
-   :alt: metrics
-   :width: 60%
+#. Login to Fire Insights using your **Credentials**.
+#. Navigate to **Administration -> Configurations -> UI Settings**.
+#. Find the **uiSettings.enableSwagger** setting and set its value to **true**. 
 
-3. Now you can access Swagger REST API'S using the following URL.
+   .. figure:: ../../_assets/installation/metrics/swagger.PNG
+      :alt: metrics
+      :width: 60%
 
-Login to the below-mentioned URL :
+Step 3: Access Swagger REST APIs
+++++++++++++++++++++++++++++++
+
+Once Swagger is enabled and the server is running, you can access the Swagger REST API interface using the following URL:
 
 ::
 
     https://localhost:port/swagger-ui.html
+
     
 .. figure:: ../../_assets/installation/metrics/ui.PNG
    :alt: metrics
-   :width: 60%    
+   :width: 60% 
+
     
 .. note::  Make sure to change the localhost with respective IP or domain name and the port on which the Fire Insights is running.    
 

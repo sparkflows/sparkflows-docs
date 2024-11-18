@@ -22,7 +22,7 @@ Step 1 : Enable Swagger in application.properties
 Step 2 : Enable Swagger from the Configurations Page
 +++++++++++++++++++++++++++++
 
-#. Login to Fire Insights using your **Credentials**.
+#. **Login** to Fire Insights using your **Credentials**.
 #. Navigate to **Administration -> Configurations -> UI Settings**.
 #. Find the **uiSettings.enableSwagger** setting and set its value to **true**. 
 

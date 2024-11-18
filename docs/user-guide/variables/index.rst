@@ -1,4 +1,4 @@
-Variables
+Variables / Macros
 ==========
 
 Fire Insights allows you to define and use variables in various ways.

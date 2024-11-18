@@ -1,4 +1,4 @@
-Project Variable 
+Project Level Variables 
 ===============
 
 Project-level variables are displayed under the **Project Overview** page, within the **Settings** tab under the Variable section. Only users with **variable.modify** permission can access this tab.

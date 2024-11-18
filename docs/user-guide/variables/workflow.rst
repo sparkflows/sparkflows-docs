@@ -1,4 +1,4 @@
-Workflow 
+Variables in Workflows
 =============
 
 In Sparkflows, variables are used for a variety of reasons that enhance the software's ability to handle, analyze, and manipulate data effectively. Here’s why variables are significant in Sparkflows:

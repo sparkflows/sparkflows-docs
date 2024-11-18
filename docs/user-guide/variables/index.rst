@@ -1,6 +1,9 @@
 Variables / Macros
 ==========
 
+Overview
+--------
+
 Fire Insights allows you to define and use variables in various ways.
 
   * Variables can be defined at workflow level
@@ -9,6 +12,9 @@ Fire Insights allows you to define and use variables in various ways.
   * Variables can be defined at the pipeline level
   * Variables can be used in the Pyspark node
   * Variables can be defined at the project, group and global level
+
+Order of Precedence
+-----------
 
 When a variable is used in a node, below is the order of precedence:
 

@@ -1,4 +1,4 @@
-Node 
+Variables in Nodes 
 ==========
 
 With Sparkflows, you can seamlessly manage dynamic variables within your data processing workflows, enhancing their adaptability and efficiency. This document demonstrates how to add dynamic variables to your workflow in one node and access their values in subsequent nodes, using the example of a variable named **batchid**.

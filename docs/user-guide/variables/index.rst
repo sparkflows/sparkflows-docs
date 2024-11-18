@@ -48,6 +48,7 @@ When a variable is used in a node, below is the order of precedence:
 
 .. toctree::
    :hidden:
+
    workflow.rst
    node.rst
    pipeline.rst

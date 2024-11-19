@@ -1,50 +1,82 @@
 Email Alerts
 =============
 
-Configuring Alerts:
--------------------
-By following below steps user can configure the email alerts for the executions in sparkflows
+This document outlines the steps to **Configure** the email alerts for Sparkflows executions.
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Monitoring`` -> ``Alerts``
+Follow the steps given below:
 
-Once the user navigates to the alerts page, please fill in the following details to trigger the alert email
+Step 1 : Login to Fire Insights
++++++++++
+**Login** to the Fire Insights using your credentials. 
 
- .. figure:: ../../_assets/alerts/alert-home.png
+
+Step 2 : Navigate to the Alerts Page
++++++++++
+Navigate to **Administration -> Monitoring -> Alerts**
+
+On the Alerts page, you'll see options to configure email alerts for Sparkflows executions.
+
+.. figure:: ../../_assets/alerts/alert-home.png
       :alt: Alert-config
       :width: 60%
 
- 
-- Alert Enabled
-- MailToUser
-- FrequencyToSendAlert
-- JobFailureThreshold
+Step 3 : Fill in Alert Configuration Details
+++++++++++
+
+Now, complete the following details to **set up** email alerts:
 
 
-``Alert Enabled``  : property used to enable or disable the email alert.
+* **Alert Enabled**
 
-``MailToUser`` : Add the receiver's email addresses in this property, separated by commas.
+ * It enables or disables the email alert functionality.
+ * To enable it set it to 'True' from the dropdown option.
 
-``FrequencyToSendAlert`` : Sparkflows will use this property to monitor execution times.
-If there are no executions or an increased number of failed executions, it will send an email alert.
+* **MailToUser**
 
+ * Specify the recipient email addresses in this field. 
+ * Separate multiple addresses using commas.
 
- .. figure:: ../../_assets/alerts/alert-no-executions.png
+* **FrequencyToSendAlert**
+
+ * It defines how often Sparkflows will check for executions or failures.
+ * If no executions occur or the number of failures increases, an email alert is sent.
+
+  .. figure:: ../../_assets/alerts/alert-no-executions.png
       :alt: alert-no-executions
       :width: 60%
 
+* **JobFailureThreshold**
 
-``JobFailureThreshold`` : This property is used to monitor the execution failure rate within a specified time limit(FrequencyToSendAlert).
-If the failure rate exceeds the configured threshold (e.g., 50%), an email alert will be triggered and sent to the user.
+ * It monitors the execution failure rate within a specified time frame.
+ * For example: Set a failure rate threshold (e.g., 50%) for executions. If the execution failure rate exceeds this threshold within the specified time frame, an alert email is triggered.
 
-
- .. figure:: ../../_assets/alerts/alert-execution-exceeds-failure.png
+  .. figure:: ../../_assets/alerts/alert-execution-exceeds-failure.png
       :alt: alert-execution-exceeds-failure
       :width: 60%
 
 .. note:: 
 
- ``FrequencyToSendAlert``
- For example, if the Alert Frequency is set to 5 minutes, the Sparkflows scheduler will check if any workflow/pipeline has executed within the last 5 minutes. If no executions have occurred during this period, it will trigger an alert email notification.
+ * **FrequencyToSendAlert:**
+   For example, if the Alert Frequency is set to 5 minutes, the Sparkflows scheduler will check if any workflow/pipeline has been executed within the last 5 minutes. If no executions have occurred during this period, it will trigger an alert email notification.
  
- ``JobFailureThreshold``
- For example, if the user schedules the workflow/pipeline to run every minute and sets the Alert Frequency to 5 minutes, the workflow/pipeline will execute 5 times within that period. The Sparkflows scheduler then calculates the Job Failure Threshold, say 50%. If all 5 executions fail, resulting in a 100% failure rate—exceeding the 50% threshold—the system will trigger an alert email notification.
+ * **JobFailureThreshold:**
+   For example, if the user schedules the workflow/pipeline to run every minute and sets the Alert Frequency to 5 minutes, the workflow/pipeline will be executed 5 times within that period. The Sparkflows scheduler then calculates the Job Failure Threshold, say 50%. If all 5 executions fail, resulting in a 100% failure rate—exceeding the 50% threshold—the system will trigger an alert email notification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

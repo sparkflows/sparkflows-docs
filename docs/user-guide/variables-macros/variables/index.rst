@@ -28,36 +28,36 @@ When a variable is used in a node, below is the order of precedence:
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
 
-    :doc:`/user-guide/variables/workflow`
+    :doc:`/user-guide/variables-macros/variables/workflow`
 
     ---
 
-    :doc:`/user-guide/variables/node`
+    :doc:`/user-guide/variables-macros/variables/node`
 
     ---
 
-    :doc:`/user-guide/variables/pipeline`
+    :doc:`/user-guide/variables-macros/variables/pipeline`
 
     ---
 
-    :doc:`/user-guide/variables/spark-configuration`
+    :doc:`/user-guide/variables-macros/variables/spark-configuration`
 
     ---
 
-    :doc:`/user-guide/variables/global_or_group-variable`
+    :doc:`/user-guide/variables-macros/variables/global_or_group-variable`
 
     ---
 
-    :doc:`/user-guide/variables/project-variable`
+    :doc:`/user-guide/variables-macros/variables/project-variable`
 
 
 
 .. toctree::
    :hidden:
 
-   workflow.rst
-   node.rst
-   pipeline.rst
-   spark-configuration.rst
-   global_or_group-variable.rst
-   project-variable.rst
+   variables/workflow.rst
+   variables/node.rst
+   variables/pipeline.rst
+   variables/spark-configuration.rst
+   variables/global_or_group-variable.rst
+   variables/project-variable.rst

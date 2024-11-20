@@ -10,7 +10,7 @@ Step 1: Defining Parameters in Pipeline
 
 #. Click on the **plus button** located at the top right corner to access the dialog box for defining parameters.
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/plus-button-pyspark.png
+   .. figure:: ../../../_assets/user-guide/variables/pipeline/plus-button-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
@@ -20,7 +20,7 @@ Step 1: Defining Parameters in Pipeline
 
    For instance, if you want to filter cities such as 'Bangalore' and 'Pune', define a parameter named city and set its values accordingly.
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/dialog-box-pyspark.png
+   .. figure:: ../../../_assets/user-guide/variables/pipeline/dialog-box-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
@@ -30,7 +30,7 @@ Step 2: Accessing Variables in PySpark Code
 ----------------------------------------
 #. In the PySpark code node, access the defined parameters using the **${variable_name}** notation as shown below:
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/conditional-expression-pyspark.png
+   .. figure:: ../../../_assets/user-guide/variables/pipeline/conditional-expression-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
@@ -44,13 +44,13 @@ Output
 
 The image below shows the data filtered after utilizing variable:
 
-   .. figure:: ../../_assets/user-guide/variables/pipeline/changed-output-pyspark.png
+   .. figure:: ../../../_assets/user-guide/variables/pipeline/changed-output-pyspark.png
       :alt: variables_userguide
       :width: 65%
 
 Step 3 : Defining variables inside pipleine node using the **{variable_name}** notation as shown below:
 
-   .. figure:: ../../_assets/user-guide/variables/variable-pipeline-node.png
+   .. figure:: ../../../_assets/user-guide/variables/variable-pipeline-node.png
       :alt: variables_userguide
       :width: 65%
 

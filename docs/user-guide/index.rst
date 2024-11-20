@@ -29,7 +29,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
-    :doc:`/user-guide/variables/index`
+    :doc:`/user-guide/variables-macros/index`
 
     ---
 
@@ -141,7 +141,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    reading-writing/index
    connectors/index
    data-preparation/index
-   variables/index
+   variables-macros/index
    control-structures/index
    data-visualization/index
    data-profile/index

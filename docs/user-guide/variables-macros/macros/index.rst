@@ -1,0 +1,18 @@
+Macros
+==========
+
+Fire Insights allows you to define and use macros in various ways.
+
+.. panels::
+    :container: container-lg pb-3
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+
+
+    :doc:`/user-guide/variables-macros/macros/workflow`
+
+
+.. toctree::
+   :hidden:
+
+   workflow.rst`
+

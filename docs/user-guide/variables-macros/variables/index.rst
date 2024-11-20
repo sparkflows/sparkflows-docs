@@ -1,4 +1,4 @@
-Variables / Macros
+Variables
 ==========
 
 Overview

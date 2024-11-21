@@ -14,5 +14,5 @@ Fire Insights allows you to define and use macros in various ways.
 .. toctree::
    :hidden:
 
-   workflow.rst`
+   workflow.rst
 

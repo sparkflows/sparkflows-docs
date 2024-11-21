@@ -169,7 +169,7 @@ Usage of Macros in the Workflow Node
    :width: 60%
 
 
-Usage of Macros in the Workflow Execution
+Usage of Macros on the Workflow Execution Page
 +++++++++++++++++++++++++++++++++++++++++++++
 .. figure:: ../../../_assets/user-guide/variables-macros/execution.png
    :alt: macros

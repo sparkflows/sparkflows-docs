@@ -10,42 +10,42 @@ Macros that Sparkflows supports
 
    * - Macro
      - Description
-   * - ``${fire.ds}``
-     - 
-   * - ``${fire.ds_nodash}``
-     -
-   * - ``${fire.ts}``
-     -
-   * - ``${fire.wf.name}``
-     - 
-   * - ``${fire.wf.id}``
-     -
-   * - ``${fire.wfe.id}``
-     - 
-   * - ``${fire.wfe.username}``
-     -
-   * - ``${fire.pl.name}``
-     -
-   * - ``${fire.pl.id}``
-     -
-   * - ``${fire.ple.id}``
-     - 
-   * - ``${fire.ple.username}``
-     -
-   * - ``${fire.macros.ds_add(ds, days)}``
-     -
-   * - ``${fire.macros.ds_format(ds, input_format, output_format)}``
-     -
-   * - ``${fire.macros.random()}``
-     -
-   * - ``${fire.macros.ds_format(ds, days, input_format, output_format)}``
-     -
-   * - ``${fire.macros.ts_add(ts, days)}``
-     -
-   * - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
-     - 
-   * - ``${fire.macros.ts_format(ts, input_format, output_format)}``
-     - 
+   * - ${fire.ds}
+     - Returns the Current execution date as YYYY-MM-DD
+   * - ${fire.ds_nodash}
+     - Returns the Current execution date as YYYYmmDD
+   * - ${fire.ts}
+     - Returns the Current execution Timestamp as YYYY-mm-DD HH-MM-SS
+   * - ${fire.wf.name}
+     - Returns the Current Workflow Name, e.g. (01-Read-Macros)
+   * - ${fire.wf.id}
+     - Returns the Current Workflow ID, e.g. 631
+   * - ${fire.wfe.id}
+     - Returns the Current Workflow Execution ID, e.g. 362
+   * - ${fire.wfe.username}
+     - Returns the Username by whom the workflow has been executed, e.g. admin
+   * - ${fire.pl.name}
+     - Returns the Current Pipeline Name, e.g. EndToEnd_Pipeline
+   * - ${fire.pl.id}
+     - Returns the Current Pipeline ID, e.g. 321
+   * - ${fire.ple.id}
+     - Returns the Current Pipeline Execution ID, e.g. 881
+   * - ${fire.ple.username}
+     - Returns the Username by whom the Pipeline has been executed, e.g. admin
+   * - ${fire.macros.ds_add(ds, days)}
+     - Returns the date, where (days as +1 or -1) ahead or behind from the current Date
+   * - ${fire.macros.ds_format(ds, input_format, output_format)}
+     - Take the date in the default format and returns the date in the specified output format
+   * - ${fire.macros.random()}
+     - Generate and Returns a random value during the execution of a job
+   * - ${fire.macros.ds_format(ds, days, input_format, output_format)}
+     - Formats a given date (ds), adjusts it by a specified number of days, and returns it in the desired format
+   * - ${fire.macros.ts_add(ts, days)}
+     - Adds or Subtracts a specified number of days to a given timestamp (ts) and returns the updated timestamp
+   * - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - Adjusts a given timestamp (ts) by a specified number of days and returns it in the desired format based on the provided input and output formats
+   * - ${fire.macros.ts_format(ts, input_format, output_format)}
+     - Formats a given timestamp (ts) from the specified input format to the desired output format
 
 
 
@@ -61,47 +61,47 @@ Macros related to Date
      - Input
      - Output
    * - 2024-11-19
-     - ``${fire.macros.ds_add(ds, days)}``
+     - ${fire.macros.ds_add(ds, days)}
      - 1
      - 2024-11-20
    * - 2024-11-19	
-     - ``${fire.macros.ds_add(ds, days)}``
+     - ${fire.macros.ds_add(ds, days)}
      - -1
      - 2024-11-18
    * - 2024-11-19	
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, d,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, m,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, y,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, d,DD-mm-YYYY,-1
      - 18-11-2024
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, m,DD-mm-YYYY,-1
      - 19-10-2024
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, y,DD-mm-YYYY,-1
      - 19-11-2023
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, d,DD-mmm-YYYY,-1
      - 18-NOV-2024
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, m,DD-mmm-YYYY,-1
      - 19-OCT-2024
    * - 2024-11-19
-     - ``${fire.macros.ds_format(ds,days, input_format, output_format)}``
+     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
      - 2024-11-19, y,DD-mmm-YYYY,-1
      - 19-NOV-2023
 
@@ -117,48 +117,60 @@ Macros related to Timestamp
      - Input
      - Output
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, d,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, y,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, h,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, d,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-18 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,-1
      - 2024-10-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, y,YYYY-mm-DD HH-MM-SS,-1
      - 2023-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, h,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 13:19:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, mi,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 14:18:44
    * - 2024-11-19 14:19:44
-     - ``${fire.macros.ts_format(ts, days, input_format, output_format)}``
+     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
      - 2024-11-19 14:19:44, s,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 14:19:43
     
- 
+Usage of Macros in the Workflow Node
+++++++++++++++++++++++++++++++++++++
+
+.. figure:: ../../../_assets/user-guide/variables-macros/node.png
+   :alt: macros
+   :width: 60%
+
+
+Usage of Macros in the Workflow Execution
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/execution.png
+   :alt: macros
+   :width: 60%

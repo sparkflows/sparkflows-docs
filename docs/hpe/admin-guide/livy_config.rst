@@ -92,7 +92,32 @@ Step 2 : Upload JAR and Python Files
 
 **Livy Log File S3 location:** Enter a location to be used to store EMR Livy Logs
 
-3. Navigate to the **Hive** tab and add details as below
+3. To browse Volumes you will need to set the values for **HDFS** tab fields
+
+	.. figure:: ../../_assets/hpe/livy-hdfs-tab.png
+	   :width: 60%
+      	   :alt: HPE UA Data sources
+
+* **NameNode URI:** Enter a value which has a format of hdfs://<namenode host>:<namenode port> - which is used when running on the Hadoop Cluster. Set it to file:// when running with Spark Standalone cluster and no HDFS.
+* **Home Directory:** Enter a value under which the various user directories exist, when running on an HDFS cluster. eg: /user
+
+* The below steps can be followed to browse directories through Volumes in **Data** tab -
+
+	* **Step 1:** The Local Home Directory for all users can be set from the **HDFS** tab in **Configurations** page in **Administration** section through the
+	  configuration property - **hdfs.localHomeDirForAllUsers**
+
+		.. figure:: ../../_assets/hpe/hdfsConfig-homeDir-forAllUsers.png
+	   	   :width: 60%
+      	   	   :alt: HPE UA Data sources
+
+	* **Step 2:** Based on the value set in **hdfs.localHomeDirForAllUsers** configuration property and the **Home Directory** field value in the Livy
+          Connection being set, the user will be able to access the directories in Volumes like below through the **Data** tab
+
+		.. figure:: ../../_assets/hpe/volumes-data-browse.png
+	   	   :width: 60%
+      	   	   :alt: HPE UA Data sources
+
+4. Navigate to the **Hive** tab and add details as below
 
    .. figure:: ../../_assets/hpe/livy-connection-hivetab.png
       :width: 60%
@@ -102,7 +127,7 @@ Step 2 : Upload JAR and Python Files
 * **DB URL:** Add the Hive Data specific URL to access the database
 
 
-4. Navigate to the **Yarn** tab and add details as below
+5. Navigate to the **Yarn** tab and add details as below
 
    .. figure:: ../../_assets/hpe/livy-connection-yarntab.png
       :width: 60%
@@ -111,7 +136,7 @@ Step 2 : Upload JAR and Python Files
 * **Resource Manager URL:** Enter a Resource Manager URL
 * **Node Manager URL:** Enter a Node Manager URL
 
-5. Navigate to the **Lineage** tab and add details as below
+6. Navigate to the **Lineage** tab and add details as below
 
    .. figure:: ../../_assets/hpe/livy-connection-lineagetab.png
       :width: 60%

@@ -3,15 +3,23 @@ OAuth Authentication
 
 Fire Insights supports OAuth Authentication.
 
-Create Users in Fire
---------------------
+Below are Pre-Requisites to Configure OAuth in Fire Insights.
 
-First create the user in Fire under ``Administration/Users``.
+Pre-Requisites
+--------
 
-Log into Fire with the ``admin`` user in order to be able to create the New Users.
+#. Fire Insights host URL must be available
+#. oauth.client.clientId
+#. oauth.client.clientSecret
+#. oauth.client.accessTokenUri
+#. oauth.client.userAuthorizationUri
+#. oauth.resource.userInfoUri
 
 
-Configuring OAuth
+.. note::  Make sure to update ``OIDC callback URL`` as ``https://<sparkflows-host>/login/oauth``.
+
+
+Configuring OAuth in Fire Insights
 -----------------
 
 In order to configure OAuth in Fire Insights, add the OAuth configuration parameters to ``conf/application.properties``.
@@ -31,13 +39,27 @@ Below is an example of configuring OAuth in Fire with Okta:
   oauth.resource.userInfoUri: https://xyz.okta.com/oauth2/default/v1/userinfo
 
 
-Fire OAuth URL
+Update sso.saml.properties 
+-----------------
+
+In order to configure OAuth in Fire Insights, update ``sso.saml.properties`` with below parameter:
+
+::
+
+
+    #enable/disable sso by set the value true or false
+    sparkflows.sp.sso.enable=true
+
+    #authentication type - expected value (saml or oauth)
+    sparkflows.authentication.type=oauth
+
+    #Enable/disable user auto creation in local database. If user is not present in local database and auto creation is true
+    sparkflows.sp.auto.user.create=true
+
+Start Fire Insight 
 --------------
 
-In order to log in to the user into Fire using OAuth, use the following URL:
+Once the above Configuration are updated and saved, Start the Fire Insights application and Type Fire Insights host URL in web browser and try login using SSO.
 
-* http://machine_name:port/login/oauth
+.. note::  Make sure that user trying to login should have access.
 
-This URL will take the user to the OAuth login page. After the user logs in there, the user is redirected back to Fire and is logged in.
-
-If the user is already logged in, going to the above URL, automatically brings up the Fire page for the user.

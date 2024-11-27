@@ -56,10 +56,13 @@ In order to configure OAuth in Fire Insights, update ``sso.saml.properties`` wit
     #Enable/disable user auto creation in local database. If user is not present in local database and auto creation is true
     sparkflows.sp.auto.user.create=true
 
+    #disable the db login for admin also.
+    sparkflows.sp.db.login.enable=true
+
 Start Fire Insight 
 --------------
 
-Once the above Configuration are updated and saved, Start the Fire Insights application and Type Fire Insights host URL in web browser and try login using SSO.
+Once the above Configuration are updated and saved, Start the Fire Insights application and Type Fire Insights host URL in web browser and try login using option ``Login with SSO``.
 
 .. note::  Make sure that user trying to login should have access.
 

@@ -42,7 +42,7 @@ Below is an example of configuring OAuth in Fire with Okta:
 Update sso.saml.properties 
 -----------------
 
-In order to configure OAuth in Fire Insights, update ``sso.saml.properties`` with below parameter:
+In order to configure OAuth in Fire Insights, update ``conf/sso.saml.properties`` with below parameter:
 
 ::
 

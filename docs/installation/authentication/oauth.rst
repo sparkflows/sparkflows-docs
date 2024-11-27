@@ -8,7 +8,7 @@ Below are Pre-Requisites to Configure OAuth in Fire Insights.
 Pre-Requisites
 --------
 
-#. Fire Insights host URL must be available for setting up OIDC callback URL in application in OAuth
+#. Fire Insights host URL must be available for setting up OIDC callback URL in application setup in OAuth
 #. oauth.client.clientId
 #. oauth.client.clientSecret
 #. oauth.client.accessTokenUri

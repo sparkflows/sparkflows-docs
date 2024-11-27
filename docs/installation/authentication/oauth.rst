@@ -5,7 +5,7 @@ Fire Insights supports OAuth Authentication.
 
 Below are Pre-Requisites to Configure OAuth in Fire Insights.
 
-Pre-Requisites
+Pre-requisites
 --------
 
 #. Fire Insights host URL must be available for setting up OIDC callback URL in application setup in OAuth

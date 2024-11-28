@@ -258,3 +258,39 @@ It would add new columns with Date and Time values as below:
      - ${fire.macros.ts_format(ts,y, YYYY-mm-DD HH-MM-SS,0)}
    * - Current Hour
      - ${fire.macros.ts_format(ts,d, HH,0)}
+
+Usage of Macros to add Workflow and Pipeline details to dataframe
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_4.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns with Workflow values as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_4_op.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns with Pipeline values as below. Pipeline values would be added only when workflow is triggered from a pipeline:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_4_op1.png
+   :alt: macros
+   :width: 60%
+
+Usage of Macros in Workflow Parameter
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_5.png
+   :alt: macros
+   :width: 60%
+
+Above Parameter can be used in Add Columns Advanced node as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_5_1.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_5_op.png
+   :alt: macros
+   :width: 60%

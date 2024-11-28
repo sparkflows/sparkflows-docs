@@ -4,7 +4,7 @@ Global and Group Variables
 Global level variables will be displayed under the **Administration** page within the **Variables** card. This card can be acess by superuser only. 
 Variables Card can be hide/show depending upon value given in configuration `module.enableVariables`, whose defualt value is false.
 
-.. figure:: ../../_assets/user-guide/variables/variables_config.png
+.. figure:: ../../../_assets/user-guide/variables/variables_config.png
       :alt: variables_config
       :width: 65%
 

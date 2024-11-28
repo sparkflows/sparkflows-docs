@@ -1,14 +1,14 @@
 Macros in Workflows
 ==================
 
-**Macros** are runtime variables that can be accessed by the Sparkflows workflows. They can be defined in the format such as ${fire.ds} to access **Current Date** value or they can defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
+**Macros** are runtime variables that can be accessed by the Sparkflows workflows. They can be defined in the format such as **${fire.ds}** to access **Current Date** value or they can defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
 
 They can be used in Sparkflows nodes such as **Add Columns**, **Read CSV** & other read nodes, **Save** Nodes, **Expression** Nodes, **Filter** Nodes and so on.
 
 Some of the scenarios where they can be used are listed below:
 
 * Adding Workflow Executor Username, Workflow ID, Datetime Values, Pipeline Executor details.
-* Reading data from files created for past dates. In this scenarios files are either saved in Date-Valued folders or files have date parts. Expression ${fire.macros.ts_add(ts, days)} can be used to get past days and can be used to read specific files.
+* Reading data from files created for past dates. In this scenarios files are either saved in Date-Valued folders or files have date parts. Expression **${fire.macros.ts_add(ts, days)}** can be used to get past days and can be used to read specific files.
 * To get Date Part values at runtime.
 * They can also be used as workflow parameters.
 * To filter data in SQL Node.
@@ -188,3 +188,73 @@ Usage of Macros on the Workflow Execution Page
 .. figure:: ../../../_assets/user-guide/variables-macros/execution.png
    :alt: macros
    :width: 60%
+
+
+Usage of Macros in Add Columns Advanced Node to fetch Current Date and Time values
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_1.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns with Date and Time values as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_1_op.png
+   :alt: macros
+   :width: 60%
+
+
+Usage of Macros to extract Date parts
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_2.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns with Date and Time values as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_2_op.png
+   :alt: macros
+   :width: 60%
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Value
+     - Macro
+   * - Current Year
+     - ${fire.macros.ds_format(ds,y, YYYY,0)}
+   * - Previous Year
+     - ${fire.macros.ds_format(ds,y, YYYY,-1)}
+   * - Next Year
+     - ${fire.macros.ds_format(ds,y, YYYY,1)}
+   * - Current Month
+     - ${fire.macros.ds_format(ds,m, MM,0)}
+   * - Current Day
+     - ${fire.macros.ds_format(ds,d, DD,0)}
+   * - Current Date in DD-MM-YYYY format
+     - ${fire.macros.ds_format(ds,d, DD-MM-YYYY,0)}
+   * - Current Date in DD-MMM-YYYY format
+     - ${fire.macros.ds_format(ds,d, DD-MMM-YYYY,0)}
+
+Usage of Macros to extract Time parts
++++++++++++++++++++++++++++++++++++++++++++++
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_3.png
+   :alt: macros
+   :width: 60%
+
+It would add new columns with Date and Time values as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_3_op.png
+   :alt: macros
+   :width: 40%
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Value
+     - Macro
+   * - Full Timestamp
+     - ${fire.macros.ts_format(ts,y, YYYY-mm-DD HH-MM-SS,0)}
+   * - Current Hour
+     - ${fire.macros.ts_format(ts,d, HH,0)}

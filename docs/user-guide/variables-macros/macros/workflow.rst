@@ -1,6 +1,19 @@
 Macros in Workflows
 ==================
 
+**Macros** are runtime variables that can be accessed by the Sparkflows workflows. They can be defined in the format such as ${fire.ds} to access **Current Date** value or they can defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
+
+They can be used in Sparkflows nodes such as **Add Columns**, **Read CSV** & other read nodes, **Save** Nodes, **Expression** Nodes, **Filter** Nodes and so on.
+
+Some of the scenarios where they can be used are as below:
+- Adding Workflow Executor Username, Workflow ID, Datetime Values, Pipeline Executor details
+- Reading data from files created for past dates. In this scenarios files are either saved in Date-Valued folders or files have date parts. Expression ${fire.macros.ts_add(ts, days)} can be used to get past days and can be used to read specific files.
+- Get Date Part values at runtime
+- They can be also used as workflow parameters
+- In SQL Node to filter data
+
+Some of the macros that can be used in Sparkflows are listed below.
+
 Macros that Sparkflows supports
 ++++++++++++++++++++++++++++++
 

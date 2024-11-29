@@ -294,3 +294,93 @@ It would add new columns as below:
 .. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_5_op.png
    :alt: macros
    :width: 60%
+
+
+Usage of Macros in Read CSV Node to read data from Date Folders
++++++++++++++++++++++++++++++++++++++++++++++
+
+If **Datafiles** are placed in **Date Folders** as below
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_6.png
+   :alt: macros
+   :width: 60%
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_6_1.png
+   :alt: macros
+   :width: 60%
+
+If suppose **Current Date** is **29-Nov-2024** and data needs to be read for **26-Nov-2024** then **Read CSV** Node needs to be configured as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_6_2.png
+   :alt: macros
+   :width: 60%
+
+Path in the **Read CSV** needs to be set as below:
+
+::
+
+   s3a://sparkflows/TestMacros/input-data-datefolder/${fire.macros.ds_format(ds,d, DD,-3)}-${fire.macros.ds_format(ds,m, MMM,0)}-${fire.macros.ds_format(ds,y, YYYY,0)}/
+
+It would fetch data from the **26-Nov-2024** folder as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_6_3.png
+   :alt: macros
+   :width: 60%
+
+Usage of Macros in Read CSV Node to read data from Date Files
++++++++++++++++++++++++++++++++++++++++++++++
+
+If **Datafiles** are placed in the same folder and files have **Date Part** in the name as below
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_7.png
+   :alt: macros
+   :width: 60%
+
+If suppose **Current Date** is **29-Nov-2024** and data needs to be read for **27-Nov-2024** then **Read CSV** Node needs to be configured as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_7_1.png
+   :alt: macros
+   :width: 60%
+
+Path in the **Read CSV** needs to be set as below:
+
+::
+
+   s3a://sparkflows/TestMacros/input-data-datefiles/bank-trans-${fire.macros.ds_format(ds,d, DD,-2)}-${fire.macros.ds_format(ds,m, MMM,0)}-${fire.macros.ds_format(ds,y, YYYY,0)}.csv
+
+It would fetch data from the **27-Nov-2024** file as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_7_2.png
+   :alt: macros
+   :width: 60%
+
+Usage of Macros in Read JDBC Node
++++++++++++++++++++++++++++++++++++++++++++++
+
+While reading data from a **Oracle Database Table** if data needs to be read using certain condition then **Macro** can be used as below:
+In this scenario we are trying to fetch employees who joined in last one year. Assuming **Current Date** is **29-Nov-2024**.
+
+Define a **Workflow Parameter** as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_8.png
+   :alt: macros
+   :width: 60%
+
+Parameter needs to be defined as below:
+
+::
+
+   '${fire.macros.ds_add(ds, -365)}'
+
+**Read JDBC** Node needs to be configured as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_8_1.png
+   :alt: macros
+   :width: 60%
+
+It would fetch employees who joined in last one year as below:
+
+.. figure:: ../../../_assets/user-guide/variables-macros/macros_addcols_node_8_2.png
+   :alt: macros
+   :width: 60%
+

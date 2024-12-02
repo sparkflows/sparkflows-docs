@@ -52,12 +52,12 @@ Macros that Sparkflows supports
      - Take the date in the default format and returns the date in the specified output format
    * - ${fire.macros.random()}
      - Generate and Returns a random value during the execution of a job
-   * - ${fire.macros.ds_format(ds, days, input_format, output_format)}
-     - Formats a given date (ds), adjusts it by a specified number of days, and returns it in the desired format
+   * - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
+     - Formats a given date (ds), adjusts it by a specified number of days or months or years (offset_value), and returns it in the desired output format
    * - ${fire.macros.ts_add(ts, days)}
      - Adds or Subtracts a specified number of days to a given timestamp (ts) and returns the updated timestamp
-   * - ${fire.macros.ts_format(ts, days, input_format, output_format)}
-     - Adjusts a given timestamp (ts) by a specified number of days and returns it in the desired format based on the provided input and output formats
+   * - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
+     - Adjusts a given timestamp (ts) by a specified number of days or timeperiod and returns it in the desired format
    * - ${fire.macros.ts_format(ts, input_format, output_format)}
      - Formats a given timestamp (ts) from the specified input format to the desired output format
 
@@ -83,39 +83,39 @@ Macros related to Date
      - -1
      - 2024-11-18
    * - 2024-11-19	
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, d,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, m,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, y,DD-mm-YYYY,0
      - 2024-11-19
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, d,DD-mm-YYYY,-1
      - 18-11-2024
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, m,DD-mm-YYYY,-1
      - 19-10-2024
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, y,DD-mm-YYYY,-1
      - 19-11-2023
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, d,DD-mmm-YYYY,-1
      - 18-NOV-2024
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, m,DD-mmm-YYYY,-1
      - 19-OCT-2024
    * - 2024-11-19
-     - ${fire.macros.ds_format(ds,days, input_format, output_format)}
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, y,DD-mmm-YYYY,-1
      - 19-NOV-2023
 
@@ -131,47 +131,47 @@ Macros related to Timestamp
      - Input
      - Output
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, d,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, y,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, h,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,0
      - 2024-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, d,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-18 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, m,YYYY-mm-DD HH-MM-SS,-1
      - 2024-10-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, y,YYYY-mm-DD HH-MM-SS,-1
      - 2023-11-19 14:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, h,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 13:19:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, mi,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 14:18:44
    * - 2024-11-19 14:19:44
-     - ${fire.macros.ts_format(ts, days, input_format, output_format)}
+     - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, s,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 14:19:43
     

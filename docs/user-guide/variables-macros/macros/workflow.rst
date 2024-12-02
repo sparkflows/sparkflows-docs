@@ -53,7 +53,7 @@ Macros that Sparkflows supports
    * - ${fire.macros.random()}
      - Generate and Returns a random value during the execution of a job
    * - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
-     - Formats a given date (ds), adjusts it by a specified number of days or months or years (offset_value), and returns it in the desired output format
+     - Formats a given date (ds), adjusts it by a specified number of days or months or years, and returns it in the desired output format
    * - ${fire.macros.ts_add(ts, days)}
      - Adds or Subtracts a specified number of days to a given timestamp (ts) and returns the updated timestamp
    * - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}

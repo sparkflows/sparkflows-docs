@@ -104,4 +104,4 @@ Once the workflow is executed successfully, the CSV File will be written to Snow
    :alt: snowflake
    :width: 90%
 
-.. note::  Make sure that Snowflake connection is accessible from the Fire Machine.
+.. note::  Make sure that Snowflake is accessible from the Fire Machine.

@@ -68,3 +68,48 @@ Example 6: Using CONCATENATE Function
 
     select  concat_ws('-','firstname,lastname) as ClientName from fire_temp_table
 
+Example 7: Using WITH CLAUSE in SQL Node
+=========
+
+::
+
+   WITH dept_avg_salary AS (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM fire_temp_table
+    GROUP BY department
+   ),
+   lastname_avg_salary AS (
+    SELECT LAST_NAME, AVG(salary) AS avg_salary
+    FROM fire_temp_table
+    GROUP BY LAST_NAME
+   )
+   SELECT e.employee_id, e.first_name, e.last_name, e.department, d.avg_salary, f.avg_salary
+   FROM fire_temp_table e
+   JOIN dept_avg_salary d ON e.department = d.department
+   JOIN lastname_avg_salary f ON e.LAST_NAME = f.LAST_NAME
+   WHERE e.salary > d.avg_salary  
+
+Example 8: Using WITH CLAUSE in Join Using SQL Node
+=========
+
+::
+
+    WITH dept_avg_salary AS (
+     SELECT department, AVG(salary) AS avg_salary
+     FROM tempTable1
+     GROUP BY department
+    ),
+    lastname_avg_salary AS (
+     SELECT LAST_NAME, AVG(salary) AS avg_salary
+     FROM tempTable1
+     GROUP BY LAST_NAME
+    ),
+    employee_data AS (
+     SELECT * FROM tempTable2
+    )
+    SELECT e.*, e.employee_id, e.first_name, e.last_name, e.department, d.avg_salary, f.avg_salary
+    FROM tempTable1 e
+    JOIN dept_avg_salary d ON e.department = d.department
+    JOIN lastname_avg_salary f ON e.LAST_NAME = f.LAST_NAME
+    JOIN employee_data g ON e.EMPLOYEE_ID = g.EMPLOYEE_ID
+    WHERE e.salary > d.avg_salary

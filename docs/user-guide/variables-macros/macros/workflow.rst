@@ -118,6 +118,11 @@ Macros related to Date
      - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - 2024-11-19, y,DD-mmm-YYYY,-1
      - 19-NOV-2023
+   * - 2024-11-19
+     - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
+     - 2024-11-19, m,YYmm,-1
+     - 2410
+
 
 Macros related to Timestamp
 +++++++++++++++++++++++++++++

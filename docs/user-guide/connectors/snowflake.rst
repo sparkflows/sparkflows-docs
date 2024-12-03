@@ -10,7 +10,7 @@ The first step is to create a connection to Snowflake, if you have not already c
 
 https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/snowflake/index.html
 
-Read from Snowflake
+Reading from Snowflake Table
 -------------------
 
 The below workflow does the following:
@@ -22,8 +22,8 @@ The below workflow does the following:
    :alt: snowflake
    :width: 40%
 
-Reading from Snowflake Table
--------------------
+Processor Configuration
+^^^^^^^^^^^^^^^^^^
 
 It reads Table using Read From Snowflake processor.
 
@@ -33,8 +33,6 @@ It reads Table using Read From Snowflake processor.
 * SF WAREHOUSE : Snowflake Warehouse Name.
 * SF TABLE : Snowflake Table Name.
 
-Processor Configuration
-^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/snowflake/2.PNG
    :alt: snowflake
@@ -47,8 +45,8 @@ Processor Output
    :alt: snowflake
    :width: 90%
 
-Prints the Results
-------------------
+Printing the Results
+^^^^^^
 
 It prints the first few records of the DataFrame.
 
@@ -65,7 +63,7 @@ The below workflow does the following:
    :width: 45%
    
 Reading from CSV File
----------------------
+^^^^^^
 
 It reads Housing data from a CSV File using Read CSV Processor.
 
@@ -84,8 +82,8 @@ Processor Output
    :width: 90%
 
 
-Write it to Snowflake
-------------------
+Write results to Snowflake
+^^^^^^
 
 It saves CSV File in specified Snowflake Table.
 

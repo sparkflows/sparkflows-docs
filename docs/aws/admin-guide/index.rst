@@ -29,6 +29,13 @@ AWS Admin Guide
 
     ---
 
+    :doc:`/aws/admin-guide/aws-emr-spark-delta`
+    
+    Describe details about EMR, Spark and Delta Compatibility details on AWS. 
+
+
+    ---
+
 
     :doc:`/aws/admin-guide/rds`
     
@@ -148,6 +155,7 @@ AWS Admin Guide
    infrastructure-aws.rst
    aws-version-compatibility.rst
    aws-matrix-compatibility.rst
+   aws-emr-spark-delta.rst
    rds.rst
    installation-guide/index.rst
    access-and-reload.rst

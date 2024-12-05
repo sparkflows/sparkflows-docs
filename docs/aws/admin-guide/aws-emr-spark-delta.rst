@@ -1,6 +1,9 @@
 AWS EMR Spark Delta Version Compatibility
 ==========
 
+To use Delta Lake with Apache Spark on AWS EMR, you need to configure your Spark session appropriately. Here's how you can set up Delta in Spark on EMR:
+
+
 EMR Versions
 -----------
 

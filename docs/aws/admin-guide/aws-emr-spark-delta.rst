@@ -35,6 +35,8 @@ For delta support, in the Pyspark workflow include the below in the EMR Bootstra
 
   		aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar /usr/lib/spark/jars/
 
-.. Note:: EMR 6.15 by default comes with Delta support, so you can use it.
+.. Note:: Make sure to copy Compatible delta version on EMR you want to use
+
+EMR 6.15 by default comes with Delta support, so you can use it.
 
 `EMR and Delta Lake Compatibility Matrix <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-delta.html>`_

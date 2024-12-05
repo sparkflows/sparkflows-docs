@@ -18,7 +18,7 @@ It also lists the compatability matrix of Spark version and Delta lake version:
 Delta Support
 ------------
 
-For delta support, in Spark workflow include the below JARs in ``Livy connection`` or use ``bootstrap script`` to copy appropriate compatible Version :
+For delta support, in Spark workflow/Pipeline include the below Compatible JARs in ``Livy connection`` or use ``bootstrap script`` to copy appropriate compatible Version :
 
  * For **emr-6.2.1** include the JAR with the exact version: **delta-core_2.12-0.8.0.jar**
 

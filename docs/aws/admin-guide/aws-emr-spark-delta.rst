@@ -46,7 +46,9 @@ Delta Support on EMR 6.15
 
 EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR or you can copy the compatible delta jar and use that.
 
-#. Once you copy the compatible delta jar and leverage in Sparkflows using bootstrap script, you need to pass below parameter in ``Spark Conf`` in EMR Workflow with delta workflow selected in pipeline.
+#. Copy the Compatible Delta JAR to EMR: If you're using a bootstrap script to install the necessary Delta Lake JARs on your EMR cluster, ensure that you have the Delta JAR in the cluster and it's available for Spark jobs.
+
+#. Pass Parameters for Delta Lake in Spark Conf: After adding the Delta Lake JAR to the cluster (via bootstrap script or S3), you need to pass the relevant parameters to the ``Spark configuration`` in EMR workflow with Delta workflow as below
 
    ::
 

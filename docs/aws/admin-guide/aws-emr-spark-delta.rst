@@ -40,3 +40,14 @@ For delta support, in the Pyspark workflow include the below in the EMR Bootstra
 EMR 6.15 by default comes with Delta support, so you can use it.
 
 `EMR and Delta Lake Compatibility Matrix <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-delta.html>`_
+
+Delta Support on EMR 6.15
+----------
+
+EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR or you can copy the compatible delta jar and use that.
+
+#. When using option to copy the compatible delta jar and leverage in Sparkflows using bootstrap script, you need to pass below parameter in ``Spark Conf`` in EMR Workflow with delta workflow selected in pipeline
+
+   ::
+
+        spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension,spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog

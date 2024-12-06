@@ -42,9 +42,9 @@ For delta support, in the Pyspark workflow include the below in the EMR Bootstra
 Delta Support on EMR 6.15
 ----------
 
-EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR.
+EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Fire Insights in Pipeline.
 
-#. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true".
+#. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true" in ``Create EMR JobFlow Node`` from ``Advanced`` tab.
 #. Pass Parameters for Delta Lake in Spark Conf: you need to pass the relevant parameters to the ``Spark configuration`` in EMR workflow with Delta workflow as below
 
    ::

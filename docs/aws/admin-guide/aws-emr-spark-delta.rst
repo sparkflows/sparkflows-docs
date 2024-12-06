@@ -46,6 +46,11 @@ For Configuring delta on EMR 6.9, please follow below:
 #. Copy the Compatible Delta JAR **delta-core_2.12-2.1.0.jar** and **delta-storage-2.1.0.jar**  which is Compatible to EMR 6.9: If you're using a bootstrap script to install the necessary Delta Lake JARs on your EMR cluster, ensure that you have the Delta JAR in the cluster and it's available for Spark jobs.
 
 
+   ::
+
+  		aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-2.1.0.jar /usr/lib/spark/jars/
+                aws s3 cp s3://sparkflows-release/fire/delta/delta-storage-2.1.0.jar /usr/lib/spark/jars/
+
 Delta Support on EMR 6.15
 ----------
 

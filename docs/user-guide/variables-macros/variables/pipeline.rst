@@ -54,7 +54,7 @@ Step 3 : Defining variables inside pipleine node using the **{variable_name}** n
       :alt: variables_userguide
       :width: 65%
 
-
+.. note:: Parameters defined in the Pipeline are accessible in all the child Workflows. They can be used in the nodes using **${variable_name}** syntax.
 
 
 

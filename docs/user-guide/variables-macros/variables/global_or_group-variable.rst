@@ -1,14 +1,14 @@
 Global and Group Variables 
 ===============
 
-Global level variables will be displayed under the **Administration** page within the **Variables** card. This card can be acess by superuser only. 
-Variables Card can be hide/show depending upon value given in configuration `module.enableVariables`, whose defualt value is false.
+Global level variables will be displayed under the **Administration** page within the **Variables** card. This card can be accessed by **superuser** only. 
+**Variables** Card can be hide/show depending upon value given in configuration **`module.enableVariables`**, whose defualt value is **false**.
 
 .. figure:: ../../../_assets/user-guide/variables/variables_config.png
       :alt: variables_config
       :width: 65%
 
-Here variable can be defined at both Global & Group level.
+Here variable can be defined at both **Global** & **Group** level.
 
 These variables have the lowest precedence, meaning they are only used if a corresponding variable is not defined at the project or group level.
 
@@ -102,7 +102,7 @@ Delete Variable
      :alt: variables_userguide
      :width: 65%
 
-  *The image below shows data after deleting the variables:
+  * The image below shows data after deleting the variables:
 
    .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
      :alt: variables_userguide

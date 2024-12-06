@@ -45,8 +45,20 @@ Delta Support on EMR 6.15
 EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Fire Insights in Pipeline.
 
 #. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true" in ``Create EMR JobFlow Node`` from ``Advanced`` tab.
-#. Pass Parameters for Delta Lake in Spark Conf: you need to pass the relevant parameters to the ``Spark configuration`` in EMR workflow with Delta workflow as below
+
+   .. figure:: ../../_assets/aws/create_emr_delta.png
+      :alt: delta
+      :width: 60%
+
+
+#. Pass Parameters for Delta Lake in Spark Conf: you need to pass the relevant parameters to the ``SPARK CONF`` in EMR workflow with Delta workflow as below
 
    ::
 
         spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension,spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog
+
+
+   .. figure:: ../../_assets/aws/emr_spark_conf.png
+      :alt: delta
+      :width: 60%
+

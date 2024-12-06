@@ -35,26 +35,17 @@ For delta support, in the Pyspark workflow include the below in the EMR Bootstra
 
   		aws s3 cp s3://sparkflows-release/fire/delta/delta-core_2.12-0.8.0.jar /usr/lib/spark/jars/
 
-.. Note:: Make sure to copy Compatible delta version on EMR you want to use
-
-EMR 6.15 by default comes with Delta support, so you can use it by updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true".
-And pass the runtime sparkconf values: 
-
-::        
-
- spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension,spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog
-
+.. Note:: Make sure to copy Compatible delta version on EMR you want to use.
 
 `EMR and Delta Lake Compatibility Matrix <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-delta.html>`_
 
 Delta Support on EMR 6.15
 ----------
 
-EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR or you can copy the compatible delta jar and use that.
+EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR.
 
-#. Copy the Compatible Delta JAR to EMR: If you're using a bootstrap script to install the necessary Delta Lake JARs on your EMR cluster, ensure that you have the Delta JAR in the cluster and it's available for Spark jobs.
-
-#. Pass Parameters for Delta Lake in Spark Conf: After adding the Delta Lake JAR to the cluster (via bootstrap script or S3), you need to pass the relevant parameters to the ``Spark configuration`` in EMR workflow with Delta workflow as below
+#. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true".
+#. Pass Parameters for Delta Lake in Spark Conf: you need to pass the relevant parameters to the ``Spark configuration`` in EMR workflow with Delta workflow as below
 
    ::
 

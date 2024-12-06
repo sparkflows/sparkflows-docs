@@ -107,3 +107,30 @@ Delete Variable
    .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
      :alt: variables_userguide
      :width: 65%
+
+Using Variable Examples
+-------------------------------------------
+
+#. Using variables in **Read** and **Save** nodes
+
+* **Global Variables** have been defined as below:
+
+
+   .. figure:: ../../../_assets/user-guide/variables/path-variables-list.png
+     :alt: variables_userguide
+     :width: 65%
+
+* These variables can be used in the **Read** node as below:
+
+   .. figure:: ../../../_assets/user-guide/variables/path-variables-readcsv.png
+     :alt: variables_userguide
+     :width: 65%
+
+   
+#. Using and accessing **Variables** in other nodes
+
+* In the below example **Variable** is being used in the **Row Filter** node. In the similar manner it can be accessed in other nodes wherever applicable.
+
+   .. figure:: ../../../_assets/user-guide/variables/variable-in-rowfilter.png
+     :alt: variables_userguide
+     :width: 65%

@@ -26,9 +26,7 @@ For delta support, in Spark workflow/Pipeline include the below Compatible JARs 
 
  * For **emr-6.9.0** include the two JARs with the exact version: **delta-core_2.12-2.1.0.jar** and **delta-storage-2.1.0.jar**
 
- * For **emr-6.15.0** include the two JARs with the exact version: **delta-core_2.12-2.4.0.jar** and **delta-storage-2.4.0.jar**
-
-
+ 
 For delta support, in the Pyspark workflow include the below in the EMR Bootstrap script:
 
 	::

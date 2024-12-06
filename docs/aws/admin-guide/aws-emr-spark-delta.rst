@@ -37,7 +37,10 @@ For delta support, in the Pyspark workflow include the below in the EMR Bootstra
 
 .. Note:: Make sure to copy Compatible delta version on EMR you want to use
 
-EMR 6.15 by default comes with Delta support, so you can use it.
+EMR 6.15 by default comes with Delta support, so you can use it by updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true".
+And pass the runtime sparkconf values: 
+::        spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension,spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog
+
 
 `EMR and Delta Lake Compatibility Matrix <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-delta.html>`_
 

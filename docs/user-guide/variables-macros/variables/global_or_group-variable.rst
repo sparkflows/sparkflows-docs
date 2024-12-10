@@ -1,47 +1,50 @@
 Global and Group Variables 
 ===============
 
-Global level variables will be displayed under the **Administration** page within the **Variables** card. This card can be accessed by **superuser** only. 
-**Variables** Card can be hide/show depending upon value given in configuration **`module.enableVariables`**, whose defualt value is **false**.
-
-.. figure:: ../../../_assets/user-guide/variables/variables_config.png
-      :alt: variables_config
-      :width: 65%
-
-Here variable can be defined at both **Global** & **Group** level.
-
-These variables have the lowest precedence, meaning they are only used if a corresponding variable is not defined at the project or group level.
+Global level variables are displayed on the **Administration** page within the **Variables** card.
 
 .. figure:: ../../../_assets/user-guide/variables/Variable_Card.PNG
       :alt: variables_userguide
       :width: 65%
 
+This card is accessible only to **superusers**. The Variables card can be shown or hidden based on the configuration value **module.enableVariables**, which defaults to **false**.
 
-Below are the steps for creating variables:
 
-Step 1: Creating Variables at global level in Sparkflows
+.. figure:: ../../../_assets/user-guide/variables/variables_config.png
+      :alt: variables_config
+      :width: 65%
+
+Here variables can be defined at both **Global** & **Group** level.
+
+These variables have the lowest precedence which means that they are used only if a corresponding variable is not defined at the project or group level.
+
+The steps to create variables are as follows:
+
+Step 1: Creating Variables at Global Level in Sparkflows
 --------------------------------
-#. Click the **Add Variable** button located at the top right corner of the page. From the dropdown that appears, select the **Add Variable for All** option.
+#. Click the **Add Variable** button at the top right corner of the page. 
+#. Select **Add Variable for All** from the dropdown menu.
 
    .. figure:: ../../../_assets/user-guide/variables/Variable_List.PNG
       :alt: variables_userguide
       :width: 65%
 
-#. In the dialog box, add parameters by key, value  and description and click on **save** button :
+#. In the dialog box, enter the key, value and description for the variable, then click the  **Save** button.
 
    .. figure:: ../../../_assets/user-guide/variables/Add_Variable.PNG
       :alt: variables_userguide
       :width: 65%
 
-Step 2:Creating Variables at Group level in Sparkflows
+Step 2: Creating Variables at Group Level in Sparkflows
 --------------------------
-#. Click the **Add Variable** button located at the top right corner of the page. From the dropdown that appears, select the **Add Variable for Group** option.
+#. Click the **Add Variable** button at the top right corner of the page. 
+#. Select the **Add Variable for Group** from the dropdown menu.
 
    .. figure:: ../../../_assets/user-guide/variables/Variable_List.PNG
       :alt: variables_userguide
       :width: 65%
 
-#. In the dialog box, add parameters by key, value description and select the group from dropdown.click on **save** button :
+#. In the dialog box, enter the key, value, description and select the group from the dropdown menu, then click the **Save** button.
 
    .. figure:: ../../../_assets/user-guide/variables/Add_group_var.PNG
       :alt: variables_userguide
@@ -49,88 +52,126 @@ Step 2:Creating Variables at Group level in Sparkflows
 
 Edit Variable
 -------------------------------------------
+The steps to edit variables are listed below:
 
-#. Click the **edit icon** displayed in front of the variable you want to modify
+#. Click the **Edit** icon under the **Actions** column, next to the variable you want to modify.
 
    .. figure:: ../../../_assets/user-guide/variables/Variable_List.PNG
-     :alt: variables_userguide
-     :width: 65%
-
-
-#. In the dialog box, modify the field and click on **update** button
-    Here modified the key as **Default_var_Val**
-
-   .. figure:: ../../../_assets/user-guide/variables/Edit_Variable.PNG
-     :alt: variables_userguide
-     :width: 65%
-
-   *The image below shows data after updating the variables:
-
-    .. figure:: ../../../_assets/user-guide/variables/After_Edit_Variable.PNG
       :alt: variables_userguide
       :width: 65%
 
+#. In the dialog box, modify the desired fields and click the **Update** button. For example, the key has been updated to **Default_var_Val**.
+
+   .. figure:: ../../../_assets/user-guide/variables/Edit_Variable.PNG
+      :alt: variables_userguide
+      :width: 65%
+
+   The image below displays the data after the variables have been updated.
+
+       .. figure:: ../../../_assets/user-guide/variables/After_Edit_Variable.PNG
+          :alt: variables_userguide
+          :width: 65%
+
 View Variable
 -------------------------------------------
+The steps to view variables are listed below:
 
-#. Click the **view icon** displayed in front of the variable you want to view
+#. Click the **View** icon under the **Actions** column, next to the variable you want to view.
 
    .. figure:: ../../../_assets/user-guide/variables/Variable_List.PNG
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
 
-#. In the dialog box, it will display all fields & their value 
+#. The dialog box will display all fields & their corresponding values, as shown below. 
 
    .. figure:: ../../../_assets/user-guide/variables/View_Variable.PNG
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
 
 Delete Variable
 -------------------------------------------
+The steps to delete variables are listed below:
 
-#. Click the **delete icon** displayed in front of the variable you want to delete
+#. Click the **Delete** icon under the **Actions** column, next to the variable you want to delete.
 
    .. figure:: ../../../_assets/user-guide/variables/Variable_List.PNG
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
 
-#. A dialog box will open with message
-   **Are you sure you want to delete this variable? Deleting it will break any functionality or references that depend on it**
-   and click on Ok button will delete the variable
+#. The dialog box will open with the message
+   **"Are you sure you want to delete this variable? Deleting it will break any functionality or references that depend on it."**.
+   Then click the **Okay** button to delete the variable.
 
-   .. figure:: ../../../_assets/user-guide/variables/variable-delete-conf.png
-     :alt: variables_userguide
-     :width: 40%
+    .. figure:: ../../../_assets/user-guide/variables/variable-delete-conf.png
+       :alt: variables_userguide
+       :width: 40%
 
-  * The image below shows data after deleting the variables:
 
-   .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
-     :alt: variables_userguide
-     :width: 65%
+   The image below displays the data after the variables have been deleted.
+
+     .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
+        :alt: variables_userguide
+        :width: 65%
 
 Using Variable Examples
 -------------------------------------------
 
-#. Using variables in **Read** and **Save** nodes
+The examples of using variables in different nodes are shown below:
 
-* **Global Variables** have been defined as below:
+#. Using variables in **Read** and **Save** nodes.
+
+   **Global Variables** have been defined as shown below:
 
 
    .. figure:: ../../../_assets/user-guide/variables/path-variables-list.png
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
 
-* These variables can be used in the **Read** node as below:
+   These variables can be used in the **Read** node as shown below:
 
    .. figure:: ../../../_assets/user-guide/variables/path-variables-readcsv.png
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
 
    
-#. Using and accessing **Variables** in other nodes
+#. Using and accessing variables in **other nodes**.
 
-* In the below example **Variable** is being used in the **Row Filter** node. In the similar manner it can be accessed in other nodes wherever applicable.
+   In the example below, **Variable** is used in the **Row Filter** node. Similarly, it can be accessed in other nodes wherever applicable.
 
    .. figure:: ../../../_assets/user-guide/variables/variable-in-rowfilter.png
-     :alt: variables_userguide
-     :width: 65%
+      :alt: variables_userguide
+      :width: 65%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+   
+     
+
+ 

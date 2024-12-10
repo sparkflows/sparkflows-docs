@@ -68,9 +68,9 @@ The steps to edit variables are listed below:
 
    The image below displays the data after the variables have been updated.
 
-       .. figure:: ../../../_assets/user-guide/variables/After_Edit_Variable.PNG
-          :alt: variables_userguide
-          :width: 65%
+   .. figure:: ../../../_assets/user-guide/variables/After_Edit_Variable.PNG
+      :alt: variables_userguide
+      :width: 65%
 
 View Variable
 -------------------------------------------
@@ -102,16 +102,16 @@ The steps to delete variables are listed below:
    **"Are you sure you want to delete this variable? Deleting it will break any functionality or references that depend on it."**.
    Then click the **Okay** button to delete the variable.
 
-    .. figure:: ../../../_assets/user-guide/variables/variable-delete-conf.png
-       :alt: variables_userguide
-       :width: 40%
+   .. figure:: ../../../_assets/user-guide/variables/variable-delete-conf.png
+      :alt: variables_userguide
+      :width: 40%
 
 
    The image below displays the data after the variables have been deleted.
 
-     .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
-        :alt: variables_userguide
-        :width: 65%
+   .. figure:: ../../../_assets/user-guide/variables/After_Delete_Variable.PNG
+      :alt: variables_userguide
+      :width: 65%
 
 Using Variable Examples
 -------------------------------------------

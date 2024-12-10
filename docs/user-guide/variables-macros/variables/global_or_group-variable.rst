@@ -94,13 +94,13 @@ Delete Variable
      :alt: variables_userguide
      :width: 65%
 
-#. In the dialog box will open with message
+#. A dialog box will open with message
    **Are you sure you want to delete this variable? Deleting it will break any functionality or references that depend on it**
-   and click on Ok button to delete the variable
+   and click on Ok button will delete the variable
 
-   .. figure:: ../../../_assets/user-guide/variables/View_Variable.PNG
+   .. figure:: ../../../_assets/user-guide/variables/variable-delete-conf.png
      :alt: variables_userguide
-     :width: 65%
+     :width: 40%
 
   * The image below shows data after deleting the variables:
 

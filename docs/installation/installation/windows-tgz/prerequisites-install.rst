@@ -106,6 +106,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 
       - winutils.exe can be directly downloaded from link below:
       - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
+      - https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/winutils.exe (For hadoop-3.3.*)
   
 - Create hadoop folder in Your System : ``C:\hadoop``.
 
@@ -150,12 +151,20 @@ hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow
 
 - Download hadoop.dll from 
     * https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/hadoop.dll
+    * https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/hadoop.dll 
  
 - Copy ''hadoop.dll'' to ''windows/system32'' folder and restart the system.
+- Copy ''hadoop.dll'' to : ``C:\hadoop\bin\winutils.exe``.
 
 .. note:: Make sure to download the appropriate version
 
+Install Microsoft C Runtime Library
+====================
 
+Download and Install Microsoft C Runtime Library based on your system architecture.
+
+- Download from
+    * https://www.microsoft.com/en-us/download/details.aspx?id=40784
 
 
 

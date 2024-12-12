@@ -161,7 +161,7 @@ hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow
 Install Microsoft C Runtime Library
 ====================
 
-Download and Install Microsoft C Runtime Library based on your system architecture.
+Download and Install Microsoft C Runtime Library based on your system architecture, As Hadoop does rely on some native libraries for certain operations (like filesystem access or compression), and on Windows, you may encounter DLL-related errors if these libraries are not properly set up.
 
 - Download from
     * https://www.microsoft.com/en-us/download/details.aspx?id=40784

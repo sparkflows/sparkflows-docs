@@ -37,10 +37,10 @@ Step 2: Using Variables in Workflows
       :alt: variables_userguide
       :width: 65%
 
-Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
+Step 3: Changing Variable Values on Workflow Execution Page (Optional)
 -------------------------------------------
 
-* This is an optional step where variable values can be changed on workflow execution page also as shown below:
+* This step is optional where you can modify variable values on workflow execution page if needed as shown below:
 
   .. figure:: ../../../_assets/user-guide/variables/execution-page.png
      :alt: variables_userguide

@@ -1,15 +1,21 @@
-Pipelines
+Sparkflows Pipelines
 ======================
+
+Multiple workflows can be stitched together with the help of a **Pipeline**. **Pipeline** helps in orchestrating execution of workflows to achieve a business function. Individual workflow can help to cater to business implementations such as Data Ingestion, Data Preparation, Features Identification, Model Building, Model Prediction and so on. Pipeline helps to execute these jobs as a single unit. With pipelines, multiple workflows can be scheduled to be executed either sequentially or parallely.
+
 
 .. panels::
     :container: container-lg pb-3
-    :column: col-lg-12 p-2
+    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/tutorials/pipelines/pipelines`
+    :doc:`pipeline-tutorials-overview`
 
-    Streaming Analytics with Apache Kafka and Apache Spark Streaming.
+    ---
+
+    :doc:`pipeline-tutorials-create`
 
 .. toctree::
    :hidden:
 
-   pipelines.rst
+   pipeline-tutorials-overview.rst
+   pipeline-tutorials-create.rst

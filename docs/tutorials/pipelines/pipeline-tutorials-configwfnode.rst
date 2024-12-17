@@ -17,6 +17,7 @@ A **Workflow Node** in a **Pipeline** can be configured as below
 		--executor-memory 2g --executor-cores 2 --driver-memory 2g
 
 **Trigger Rule:** This value decides whether to execute the node or not. Select a value from the dropdown. 
+
 	- Select **always** if this node is to be executed irrespective of the completion status of the previous node. 
 	- Select **all_success** if node is to be executed only if previous node completed successfully.
 

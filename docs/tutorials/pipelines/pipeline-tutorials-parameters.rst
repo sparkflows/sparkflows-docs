@@ -9,7 +9,7 @@ This document explains the steps required to define **Parameters** in a Pipeline
    :alt: Pipeline Tutorials
    :width: 60%
 
-* Add **Parameters** pop-up would be displayed as below:
+* **Add Parameters** pop-up would be displayed as below:
 
 .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-addparampopup.png
    :alt: Pipeline Tutorials

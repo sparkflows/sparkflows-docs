@@ -14,6 +14,7 @@ A **Workflow Node** in a **Pipeline** can be configured as below
 **Spark Conf:** Enter **Spark Config** value that needs to be used during the workflow execution. It can be set separately for each workflow. 
 
 	::
+
 		--executor-memory 2g --executor-cores 2 --driver-memory 2g
 
 **Trigger Rule:** This value decides whether to execute the node or not. Select a value from the dropdown. 

@@ -17,4 +17,5 @@ This document explains the steps required to define **Parameters** in a Pipeline
 
 * Add **Parameters** in **Key-Value** pairs.
 * Click on **Add** Button to save Parameters.
-* Parameters added to a Pipeline are accessible in the Chile Workflows. They can be accessed as **${param_name}**
+
+.. note:: Parameters added to a Pipeline are accessible in the Child Workflows. They can be accessed using syntax **${param_name}**

@@ -3,6 +3,9 @@ Pipeline Parameters
 
 This document explains the steps required to define **Parameters** in a Pipeline.
 
+Adding Pipeline Parameters
+---------------------------
+
 * Click on **Add**/**Plus** icon next to the **Category** field in a Pipeline 
 
 .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-addparam.png

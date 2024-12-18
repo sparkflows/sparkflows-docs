@@ -3,6 +3,9 @@ Configure Workflow Node
 
 This document explains the steps required to configure a **Workflow Node** in a Pipeline.
 
+Workflow Node
+-------------
+
 A **Workflow Node** in a **Pipeline** can be configured as below 
 
 .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-configwfnode.png

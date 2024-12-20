@@ -6,6 +6,8 @@ Overview
 
 This document describes the steps to Upgrade Sparkflows on Windows environment. 
 
+Sparkflows Upgrade
+---------
 
 Below are the steps to upgrade Sparkflows.
 

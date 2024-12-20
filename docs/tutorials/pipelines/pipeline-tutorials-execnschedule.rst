@@ -3,7 +3,7 @@ Pipeline Execution And Scheduling
 
 This document explains the steps required to execute and schedule a **Sparkflows Pipeline**.
 
-A **Sparkflows Pipeline** can be executed in below two ways:
+A **Sparkflows Pipeline** can be executed in the following two ways:
 
 * Manual Execution
 * Triggering using a Pipeline Schedule
@@ -11,94 +11,106 @@ A **Sparkflows Pipeline** can be executed in below two ways:
 Manual Execution
 ---------------------------
 
-A **Sparkflows Pipeline** can be executed manually by click of **Execute** Button as below. 
-
-It would execute the Child Worflows in sequence as defined. Execution details can be viewed in the Pipeline Execution page.
+A **Sparkflows Pipeline** can be executed manually by clicking the **Execute** button, as shown below. 
 
 .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-manualexec.png
    :alt: Pipeline Tutorials
    :width: 60%
 
+It will execute the Child Workflows in sequence as defined. The execution details can be viewed on the **Pipeline Execution** page.
+
 Triggering using a Pipeline Schedule
 ---------------------------
 
-A **Sparkflow Pipeline** can also be triggered at a given time interval as per the defined **Pipeline Schedule**
+A **Sparkflows Pipeline** can also be triggered at a specified time interval based on the defined **Pipeline Schedule**.
 
-A **Pipeline Schedule** can be defined for an individual **Pipeline**. All **Pipeline Schedule** defined in a Project can be viewed as below:
+A **Pipeline Schedule** can be defined for an individual pipeline. All **Pipeline Schedules** defined in a Project can be viewed as shown below:
 
 .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduleslist.png
    :alt: Pipeline Tutorials
    :width: 60%
 
-Creating a new Pipeline Schedule
+Creating a New Pipeline Schedule
 ---------------------------
 
-To create a new **Pipeline Schedule** follow below steps:
+To create a new **Pipeline Schedule** follow the steps below:
 
-* **Step 1**
+Step 1: Creating a Schedule for a Sparkflows Pipeline
+++++++++++++++
 
-  A **Schedule** can be created for a **Sparkflows Pipeline**. 
+#. Go to **Pipelines** -> **Schedules** page.
   
-  To create a **New Schedule** click on **Schedule New** Button in the **Pipelines** -> **Schedules** page as below:
+#. To create a **New Schedule**, click the **Schedule New** button at the right corner below the **Pipelines** tab, as shown below:
   
-  .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-schedulenew.png
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-schedulenew.png
+      :alt: Pipeline Tutorials
+      :width: 60%
+
+   After clicking the "Schedule New" button, a page will appear where you can define the new schedule as shown below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduledef.png
+      :alt: Pipeline Tutorials
+      :width: 60%
+
+Step 2: Selecting a Pipeline
+++++++++++++++++
+  
+#. Select a **Pipeline** from the dropdown for which the schedule needs to be created.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduledef.png
+      :alt: Pipeline Tutorials
+      :width: 60%
+
+Step 3: Entering the values for other desired fields
+++++++++++++++++++++
+
+#. **General**
+
+   **Connection:** Select a connection from the dropdown. This Connection will be used for Job Execution.
+
+   **Start Date:** Select a start date using the **Calendar** widget. The pipeline execution will begin from the selected date based on the defined schedule. 
+
+   **End Date:** Select an end date using the **Calendar** widget. The pipeline execution will stop on or before the selected date, according to the defined schedule.
+  
+
+   **Schedule Frequency:** Select the time interval at which the pipeline is expected to execute between the start and end dates.  
+
+#. **Email**
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduleemail.png
      :alt: Pipeline Tutorials
      :width: 60%
 
-* **Step 2**
+   **Email On Success:** Enter a list of email IDs to be notified upon the successful completion of the Pipeline.
 
-  On clicking **New Schedule** Button page to define a new schedule appears as below:
-  
-  .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduledef.png
+   **Email On Failure:** Enter a list of email IDs to be notified if the Pipeline Execution fails.
+
+#. **Parameters**
+
+   Enter the **Parameters** in **Key-Value** pairs and click on **Submit** button. These **Parameters** will be used during Pipeline execution.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-execparam.png
      :alt: Pipeline Tutorials
      :width: 60%
-  
-  **Pipeline:** Select a **Pipeline** from the dropdown for which **Schedule** is to be created.
 
-General
-^^^^^^^
 
-**Connection:** Select a **Connection** from the dropdown. It would be used for Job Execution.
-
-**Start Date:** Select a **Start Date** using the **Calendar** widget. Execution of Pipeline would start from the selected value as per the schedule defined.
-
-**End Date:** Select a **End Date** using the **Calendar** widget. Execution of Pipeline would stop at or before the selected value as per the schedule defined.
-
-**Schedule Frequency:** Select a time interval when Pipeline is expected to be executed between the **Start** and **End** Values. 
-
-Email
-^^^^^
-
-.. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-scheduleemail.png
-   :alt: Pipeline Tutorials
-   :width: 60%
-
-**Email On Success:** Enter a list of email ids that need to be notified on successful completion of the Pipeline.
-
-**Email On Failure:** Enter a list of email ids that need to be notified on failure of the Pipeline.
-
-Parameters
-^^^^^
-
-.. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-execparam.png
-   :alt: Pipeline Tutorials
-   :width: 60%
-
-**Parameters:** Enter **Parameters** in **Key-Value** pairs. These **Parameters** would be used during Pipeline execution.
 
 Pipeline Execution Status
 ---------------------------
 
-**Pipeline Execution Status** can be viewed as below by navigating to **Pipelines > Executions**:
+To view the pipeline execution status, follow these steps:
 
-.. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-execstatus.png
-   :alt: Pipeline Tutorials
-   :width: 60%
+#. Navigate to **Pipelines > Executions**.
+#. The **execution status** of your pipeline will be displayed on the page shown below.
 
-**Launched:** It can be used to identify how a **Pipeline** has been executed whether **Manually** or using **Scheduler**.
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-execstatus.png
+      :alt: Pipeline Tutorials
+      :width: 60%
 
-* Click on the **Pipeline Name** to view the execution status of individual Workflows as below:
+   **Launched:** It can be used to identify how a **Pipeline** has been executed - either **Manually** or using **Scheduler**.
 
-.. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-wfexecstatus.png
-   :alt: Pipeline Tutorials
-   :width: 60%
+#. Click on the **Pipeline Name** to view the execution status of individual workflows as shown below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-wfexecstatus.png
+      :alt: Pipeline Tutorials
+      :width: 60%

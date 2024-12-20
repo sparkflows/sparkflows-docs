@@ -64,3 +64,16 @@ Below are the steps to upgrade Sparkflows.
 
       
        .\run-fire-server.bat start
+
+      .. note::  To verify whether the Fire Server is running, you can navigate to the fire home directory in your File Explorer.
+           Find the log folder. In the log folder, open fireserver or fireserver.log to see the logs from the server. 
+
+#. Open your web browser and navigate to:: 
+  
+    <machine_name>:8080
+
+#. Login with::
+
+    your login credentials
+
+

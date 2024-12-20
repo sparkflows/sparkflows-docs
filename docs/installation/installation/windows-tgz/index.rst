@@ -21,6 +21,13 @@ Windows Installation using TGZ file
 
     Troubleshooting on windows
 
+    ---
+
+    :doc:`/installation/installation/windows-tgz/windows-upgrade`
+
+    Sparkflows Upgrade on windows
+
+
 
 .. toctree::
    :hidden:
@@ -28,4 +35,5 @@ Windows Installation using TGZ file
    prerequisites-install.rst  
    windows-install.rst
    troubleshooting.rst
+   windows-upgrade.rst
 

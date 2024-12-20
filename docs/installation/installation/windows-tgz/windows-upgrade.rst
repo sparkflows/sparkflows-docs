@@ -1,4 +1,4 @@
-Windows Upgrade
+Upgrade
 =======
 
 Overview

@@ -16,8 +16,6 @@ The **Create Faiss Embeddings** node has two tabs for configuration:
 Node Configuration
 -------------------
 
-### General Tab
-
 .. list-table:: General Tab Configuration
    :widths: 30 70
    :header-rows: 1
@@ -44,8 +42,6 @@ Node Configuration
    :width: 65%
 
    General tab for Create Faiss Embeddings Node.
-
-### LLM Connection Tab
 
 .. list-table:: LLM Connection Tab Configuration
    :widths: 30 70

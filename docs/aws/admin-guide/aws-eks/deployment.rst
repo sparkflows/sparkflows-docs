@@ -174,3 +174,4 @@ Once you've deleted the deployment, re-create the service. We need to do this, b
 
         kubectl apply -f deployment.yaml
 
+.. note::  Update Sparkflows Image based on release, which would be shared by Sparkflows and copy the db(firedb) available on mounted path.

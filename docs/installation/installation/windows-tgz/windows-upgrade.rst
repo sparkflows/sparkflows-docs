@@ -17,7 +17,8 @@ Below are the steps to upgrade Sparkflows.
 
 #. Stop Sparkflows existing service
 
-   #. Goto inside the sparkflow binary extracted directory using Command line::
+   #. Open the command line (terminal) on your system.
+   #. ``Navigate`` to the directory where the Sparkflow binary has been extracted. You can do this using the ``cd`` (change directory) command.::
 
 
        cd  fire-3.X.Y_spark_3.3.0

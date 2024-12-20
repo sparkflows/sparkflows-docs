@@ -75,7 +75,7 @@ Node Configuration
 Example Use Case
 -----------------
 
-Suppose you have a dataset of marketing communications stored in a CSV file, and you want to build a vector database for similarity search. The following steps demonstrate how to use the **Create Faiss Embeddings** node to achieve this:
+Suppose you have a dataset of marketing communications stored in a PDF file, and you want to build a vector database for similarity search. The following steps demonstrate how to use the **Create Faiss Embeddings** node to achieve this:
 
 1. **Input Configuration**:
    - Set **PATH OF INPUT FILE** 

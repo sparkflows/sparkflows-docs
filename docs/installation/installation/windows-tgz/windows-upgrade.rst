@@ -11,9 +11,9 @@ Sparkflows Upgrade
 
 Below are the steps to upgrade Sparkflows.
 
-#. Login into the Windows VM
+#. Login into the Windows
 
-   Login into the Windows VM
+   Login into the Windows Machine.
 
 #. Stop Sparkflows existing service
 

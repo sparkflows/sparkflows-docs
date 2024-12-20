@@ -27,7 +27,7 @@ Below are the steps to upgrade Sparkflows.
 
        .\run-fire-server.bat stop
 
-   #. Keep a backup of firedb from file explorer. You can create a backup folder and copy firedb.* files from user home directory to the backup folder.
+   #. Keep a backup of firedb from file explorer. You can create a backup folder and copy ``firedb.*`` files from user home directory to the backup folder.
 
 
 

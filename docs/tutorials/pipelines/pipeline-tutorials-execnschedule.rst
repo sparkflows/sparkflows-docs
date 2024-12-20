@@ -35,8 +35,8 @@ Creating a New Pipeline Schedule
 
 To create a new **Pipeline Schedule** follow the steps below:
 
-Step 1: Creating a Schedule for a Sparkflows Pipeline
-++++++++++++++
+**Step 1: Creating a Schedule for a Sparkflows Pipeline**
++++++++++++++++++++++++
 
 #. Go to **Pipelines** -> **Schedules** page.
   
@@ -52,7 +52,7 @@ Step 1: Creating a Schedule for a Sparkflows Pipeline
       :alt: Pipeline Tutorials
       :width: 60%
 
-Step 2: Selecting a Pipeline
+**Step 2: Selecting a Pipeline**
 ++++++++++++++++
   
 #. Select a **Pipeline** from the dropdown for which the schedule needs to be created.
@@ -61,7 +61,7 @@ Step 2: Selecting a Pipeline
       :alt: Pipeline Tutorials
       :width: 60%
 
-Step 3: Entering the values for other desired fields
+**Step 3: Entering the values for other desired fields**
 ++++++++++++++++++++
 
 #. **General**

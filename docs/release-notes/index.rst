@@ -5,6 +5,7 @@ Release Notes
 .. toctree::
    :maxdepth: 2
 
+   2024-nov.rst
    binaries.rst
    2024-aug.rst
    2024-aug-7.rst

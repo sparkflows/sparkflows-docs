@@ -14,29 +14,10 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`pipeline-tutorials-overview`
-
-    ---
-
-    :doc:`pipeline-tutorials-create`
-
-    --- 
-
-    :doc:`pipeline-tutorials-configwfnode`
-
-    ---
-
-    :doc:`pipeline-tutorials-parameters`
-
-    ---
-
-    :doc:`pipeline-tutorials-execnschedule`
+    :doc:`pipeline-tutorials-cs-pipeline`
 
 .. toctree::
    :hidden:
 
-   pipeline-tutorials-overview.rst
-   pipeline-tutorials-create.rst
-   pipeline-tutorials-configwfnode.rst
-   pipeline-tutorials-parameters.rst
-   pipeline-tutorials-execnschedule.rst
+   pipeline-tutorials-cs-pipeline.rst
+

@@ -1,4 +1,4 @@
-V3.2.90 - November 13th, 2024
+Version 3.2.90 - November 13th, 2024
 ================================
 
 New Features

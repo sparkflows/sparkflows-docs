@@ -1,3 +1,33 @@
-V3.2.90 - Novemmber 13th, 2024
+V3.2.90 - November 13th, 2024
 ================================
+
+New Features
+---------------
+
+* **Dynamic Cluster Sizing in CreateEMR Node :** Added support for dynamic cluster sizing in the CreateEMR node. You can now parameterize the InstanceCount with values like {instance_count}.
+* **Bootstrap Script Arguments in CreateEMR Node :** Users can pass space-separated arguments to bootstrap scripts, enhancing flexibility in node configuration.
+* **Pipeline Selection Restriction in TriggerNextDag :** To prevent recursive triggers, the TriggerNextDag node now restricts selecting the same pipeline as the trigger.
+* **Dag Import Error Visibility :** Added functionality to display DAG import errors on the pipeline execution page after timeout errors.
+* **New Pipeline Nodes - SFTP and Email Notification :** Introduced SFTP and Email Notification nodes for pipelines, allowing seamless integration of file transfers and email alerts within EMR workflows.
+* **Alerts for Resource Utilization and Execution Events :** Implemented an alert system to notify users about resource usage and significant execution events.
+* **Automatic File Cleanup for /tmp Directory :** A new job periodically removes outdated files and folders in the /tmp directory to optimize system performance and disk utilization.
+* **Project Sharing During Creation :** Added an option to share projects within groups directly during project creation, simplifying collaboration.
+* **Variables :** A new feature called Variable has been introduced, allowing unique variable names(Key) and values(Value) to be defined at the group level. These variables can be used within pipelines and workflows as parameters: in workflows as ${variable_name} and in pipelines as {variable_name}.
+* **Code Library :** Launched a centralized repository for reusable code components, supporting both SQL and Scala. This streamlines code management and promotes reusability. 
+
+
+Improvements
+-------------------
+* **Pipeline Node Documentation Improvements :** Added a new Example tab for each Pipeline node to provide practical usage scenarios.
+* **Enhanced Log Search :** Introduced the ability to search logs using transaction IDs and execution IDs, improving debugging efficiency.
+
+Documentation
+---------------------
+
+* **File Cleanup Job Instructions :** Added instructions for configuring and managing the automatic file cleanup job for the /tmp directory.
+* **Log Generation in JSON Format :** Included instructions for generating logs in JSON format.
+* **Variables :** Documented the usage of Variables in workflows and pipelines.
+* **Code Library :** Added comprehensive documentation for using the Code Library.
+* **Project Sharing :** Updated the user guide to include detailed steps for project sharing during creation.
+
 

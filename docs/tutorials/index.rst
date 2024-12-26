@@ -66,6 +66,10 @@ Tutorials
     
     :doc:`/tutorials/pipelines/index`
     
+    ---  
+    
+    
+    :doc:`/tutorials/cdc/index`
     
     
     
@@ -87,6 +91,7 @@ Tutorials
    streaming/index.rst
    ocr/index.rst
    pipelines/index.rst
+   cdc/index.rst
    
 
 

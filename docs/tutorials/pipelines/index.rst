@@ -20,9 +20,13 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     :doc:`afpl-add-wf-as-emr-step`
 
+    Airflow Pipeline Tutorials - Adding a workflow as an EMR Step
+
     ---
 
     :doc:`afpl-create-emr-cluster`
+
+    Airflow Pipeline Tutorials - EMR Cluster Creation, Execute a Workflow and Termination of Cluster
 
 .. toctree::
    :hidden:

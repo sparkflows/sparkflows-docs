@@ -1,4 +1,4 @@
-Airflow Pipeline Tutorials - EMR Cluster Creation, Execute a Workflow and Termination of Cluster
+EMR Cluster Creation
 =================================
 
 This tutorial will cover how to use Airflow Pipeline feature to create an EMR Cluster, add an existing workflow as an step to it and finally terminate the EMR cluster.

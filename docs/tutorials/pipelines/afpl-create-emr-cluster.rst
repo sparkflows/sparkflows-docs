@@ -31,7 +31,7 @@ Add a **EMR** node to the pipeline and configure it as below. It would create an
       :alt: Pipeline Tutorials
       :width: 70%
 
-		**Instance Type:** Enter the Instance Type governing the type of instances to be created.
+**Instance Type:** Enter the Instance Type governing the type of instances to be created.
 
 
 EMR Workflow Node Configuration

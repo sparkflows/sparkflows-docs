@@ -1,4 +1,4 @@
-Airflow Pipeline Tutorials - Adding a workflow as an EMR Step
+Adding a workflow as an EMR Step
 =================================
 
 This tutorial will cover how to use Airflow Pipeline feature to add an existing workflow as an step to an existing EMR cluster.

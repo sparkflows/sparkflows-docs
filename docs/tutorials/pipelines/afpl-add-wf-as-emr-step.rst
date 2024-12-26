@@ -10,7 +10,7 @@ EMR Workflow Node Configuration
 
 Add a **EMR Workflow** node to the pipeline and configure it as below. 
 
-   .. figure:: ../../_assets/tutorials/pipelines/afpl-wfaddtoemr-emrwfnode.png
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-emrwfnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
@@ -25,6 +25,6 @@ Pipeline Execution
 
 Click on **Execute** Button on the Pipeline to execute it. On execution the selected workflow would get added as an step in the select EMR cluster.
 
-   .. figure:: ../../_assets/tutorials/pipelines/afpl-wfaddtoemr-plexec.png
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-plexec.png
       :alt: Pipeline Tutorials
       :width: 70%

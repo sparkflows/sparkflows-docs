@@ -1,8 +1,6 @@
 Sparkflows Pipeline - CPG Store Segmentation
 =================================
 
-It uses synthetic data prepared in-house.  
-
 .. contents::
    :depth: 3
 
@@ -24,7 +22,7 @@ The aim of this tutorial is to create a pipeline encompassing steps like Perform
 
 The Objective of CPG Store Segmentation project is grade stores based on various attributes such as sales, the kinds of products they sell, and so on.
 
-This turorial covers steps involved in Pipeline Creation, Pipeline Execution and Pipeline Scheduling.
+This turorial covers steps involved in Pipeline Creation, Pipeline Execution and Pipeline Scheduling. It uses synthetic data prepared in-house.  
 
 It involves following Datasets and Workflows:
 
@@ -105,3 +103,22 @@ The Store Segmentation Pipeline can be scheduled as shown below.
 * It will execute the pipeline everyday at 9:30 am.
 * It  will execute all the workflows in sequence using the new data. 
 
+Pipeline Execution Status
+---------------------------
+
+To view the pipeline execution status, follow these steps:
+
+#. Navigate to **Pipelines > Executions**.
+#. The **execution status** of your pipeline will be displayed on the page shown below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-execstatus.png
+      :alt: Pipeline Tutorials
+      :width: 60%
+
+   **Launched:** It can be used to identify how a **Pipeline** has been executed - either **Manually** or using **Scheduler**.
+
+#. Click on the **Pipeline Name** to view the execution status of individual workflows as shown below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-wfexecstatus.png
+      :alt: Pipeline Tutorials
+      :width: 60%

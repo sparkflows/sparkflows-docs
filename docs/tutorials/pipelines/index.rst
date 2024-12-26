@@ -16,8 +16,18 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     :doc:`pipeline-tutorials-cs-pipeline`
 
+    ---
+
+    :doc:`afpl-add-wf-as-emr-step`
+
+    ---
+
+    :doc:`afpl-create-emr-cluster`
+
 .. toctree::
    :hidden:
 
    pipeline-tutorials-cs-pipeline.rst
+   afpl-add-wf-as-emr-step.rst
+   afpl-create-emr-cluster.rst
 

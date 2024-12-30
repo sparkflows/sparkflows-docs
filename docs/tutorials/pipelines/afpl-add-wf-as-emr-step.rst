@@ -5,6 +5,15 @@ This tutorial will cover how to use Airflow Pipeline feature to add an existing 
 
 This tutorial covers steps involved in setting up the pipeline, configuring the **EMR Workflow** node and execution of the pipeline.
 
+Pipeline
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create a Pipeline with a single step as below. More nodes can be added based on the funcionality.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-pipeline.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
 EMR Workflow Node Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -26,5 +35,23 @@ Pipeline Execution
 Click on **Execute** Button on the Pipeline to execute it. On execution the selected workflow would get added as an step in the select EMR cluster.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-plexec.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
+On successful execution of the pipeline **EMR Clusters** get listed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
+**EMR Cluster** detail can be viewed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
+Details on the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
       :alt: Pipeline Tutorials
       :width: 70%

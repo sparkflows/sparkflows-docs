@@ -1,14 +1,18 @@
 Adding a workflow as an EMR Step
 =================================
 
-This tutorial will cover how to use Airflow Pipeline feature to add an existing workflow as an step to an existing EMR cluster.
+This tutorial will guide you through using the Airflow Pipeline feature to add an existing workflow as a step into an existing EMR cluster.
 
-This tutorial covers steps involved in setting up the pipeline, configuring the **EMR Workflow** node and execution of the pipeline.
+It will cover the following key aspects:
 
-Pipeline
+* Setting up the Airflow pipeline.
+* Configuring the EMR Workflow node.
+* Executing and monitoring the pipeline.
+
+Pipeline Set Up
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Create a Pipeline with a single step as below. More nodes can be added based on the funcionality.
+#. Create a Pipeline with a single step, as shown below. More nodes can be added based on the functionality.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-pipeline.png
       :alt: Pipeline Tutorials
@@ -17,40 +21,42 @@ Create a Pipeline with a single step as below. More nodes can be added based on 
 EMR Workflow Node Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add a **EMR Workflow** node to the pipeline and configure it as below. 
+#. Add an **EMR Workflow** node to the pipeline and configure it, as shown below. 
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-emrwfnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-**Cluster ID:** Enter the ID of an existing EMR Cluster.
+#. Enter the desired values in the required fields as follows:
 
-**Workflow ID:** Select a workflow from the dropdown that needs to be added as an EMR step.
+   * **Cluster ID:** Enter the ID of an existing EMR Cluster.
 
-Enter values for **Deploy Mode** and **Parameters** as needed.
+   * **Workflow ID:** Select a workflow from the dropdown that needs to be added as an EMR step.
+
+#. Enter the values for **Deploy Mode** and **Parameters** as needed.
 
 Pipeline Execution
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Click on **Execute** Button on the Pipeline to execute it. On execution the selected workflow would get added as an step in the select EMR cluster.
+#. Click the **Execute** button on the Pipeline to execute it. Upon execution, the selected workflow will be added as a step in the chosen EMR cluster.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-wfaddtoemr-plexec.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-On successful execution of the pipeline **EMR Clusters** get listed in the **AWS Console** as below.
+#. Upon successful execution of the pipeline, **EMR Clusters** are listed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-**EMR Cluster** detail can be viewed in the **AWS Console** as below.
+#. **EMR Cluster** details can be viewed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-Details on the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console** as below.
+#. Details of the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
       :alt: Pipeline Tutorials

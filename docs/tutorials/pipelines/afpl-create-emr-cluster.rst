@@ -58,3 +58,20 @@ Click on **Execute** Button on the Pipeline to execute it. On pipeline execution
       :alt: Pipeline Tutorials
       :width: 70%
 
+On successful execution of the pipeline **EMR Clusters** get listed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
+**EMR Cluster** detail can be viewed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
+      :alt: Pipeline Tutorials
+      :width: 70%
+
+Details on the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console** as below.
+
+   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
+      :alt: Pipeline Tutorials
+      :width: 70%

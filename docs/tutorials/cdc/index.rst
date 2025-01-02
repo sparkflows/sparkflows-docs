@@ -9,7 +9,17 @@ CDC
 
     :doc:`cdc-tutorials-bank-transactions`
 
+    ---
+
+    :doc:`cdc-tutorials-dt-emp`
+
+    ---
+
+    :doc:`cdc-tutorials-id-emp`
+
 .. toctree::
    :hidden:
 
    cdc-tutorials-bank-transactions.rst
+   cdc-tutorials-dt-emp.rst
+   cdc-tutorials-id-emp.rst

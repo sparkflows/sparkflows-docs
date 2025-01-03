@@ -98,4 +98,8 @@ Workflow Execution
 ++++++++++
 
 * Click on the **Execute** button to execute the workflow.
-* On successful execution it would read data from the source database table and save it in **Partitions**.
+* On successful execution it would read data from the source database table and save it in **Partitions** as below. Each Paritioned Data would be handled by diff Worker Node thus gaining the performance benefit. 
+
+  .. figure:: ../../_assets/tutorials/readjdbclds/largeds-ts-partitions.png
+     :alt: ReadJDBC Tutorials
+     :width: 70%

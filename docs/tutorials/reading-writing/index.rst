@@ -122,6 +122,11 @@ Read and Write Data
     
     Creating dataset from MYSQL table.
 
+    ----
+    
+    :doc:`/tutorials/reading-writing/readjdbc-large-dataset`
+    
+    Reading and Writing large dataset using ReadJDBC.
     
 .. toctree::
    :hidden:
@@ -146,4 +151,5 @@ Read and Write Data
    dataset-reading-json.rst
    dataset-reading-parquet.rst
    dataset-reading-mysql.rst
+   readjdbc-large-dataset.rst
    

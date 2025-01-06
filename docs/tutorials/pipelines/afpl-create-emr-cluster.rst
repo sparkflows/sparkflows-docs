@@ -1,14 +1,18 @@
 EMR Cluster Creation
 =================================
 
-This tutorial will cover how to use Airflow Pipeline feature to create an EMR Cluster, add an existing workflow as an step to it and finally terminate the EMR cluster.
+This tutorial will cover how to use Airflow Pipeline feature to create an EMR Cluster, add an existing workflow as a step to it, and finally, terminate the EMR cluster.
 
-This tutorial covers steps involved in setting up the pipeline, configuring the **Create EMR** & **EMR Workflow** nodes and execution of the pipeline.
+It includes steps involved for the following: 
 
-Pipeline
+* Setting up the pipeline
+* Configuring the **Create EMR** & **EMR Workflow** nodes
+* Executing the pipeline
+
+Pipeline Set Up
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Create a Pipeline as below.
+#. Create a Pipeline as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-pipeline.png
       :alt: Pipeline Tutorials
@@ -17,60 +21,63 @@ Create a Pipeline as below.
 EMR Node Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add a **EMR** node to the pipeline and configure it as below. It would create an EMR cluster running on AWS as per the configuration provided.
+#. Add an **EMR node** to the pipeline and configure it as shown below. This node will create an **EMR cluster running on AWS** based on the provided configuration.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-**Cluster Name:** Enter a Cluster Name value or an expression using a Macro. It would be evaluated during the runtime and Cluster Name would be assigned accordingly.
+#. Enter the desired values in the required fields as follows:
 
-**Release Label:** Enter a EMR Release Label. Cluster would be created accordingly.
+   * **Cluster Name:** Enter a Cluster Name value or an expression using a Macro. It will be evaluated during the runtime and the Cluster Name will be assigned accordingly.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrinsnode.png
-      :alt: Pipeline Tutorials
-      :width: 70%
+   * **Release Label:** Enter an EMR Release Label. The Cluster will be created accordingly.
 
-**Instance Type:** Enter the Instance Type governing the type of instances to be created.
-
+   * **Instance Type:** Enter the Instance Type, which determines the type of instances to be created, as shown below.
+ 
+     .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrinsnode.png
+        :alt: Pipeline Tutorials
+        :width: 70%
 
 EMR Workflow Node Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add a **EMR Workflow** node to the pipeline and configure it as below. This workflow would be added as an step to the created EMR Cluster.
+#. Add an **EMR Workflow** node to the pipeline and configure it, as shown below. This workflow will be added as a step to the created EMR Cluster.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrwfnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-**Workflow ID:** Select a workflow from the dropdown that needs to be added as an EMR step.
+#. Enter the desired values in the required fields as follows:
 
-**Trigger Rulw:** It governs whether this node is to be executed or not based on the completion status of previous node.
+   * **Workflow ID:** Select a workflow from the dropdown to be added as an EMR step.
 
-Enter values for **Deploy Mode** and **Parameters** as needed.
+   * **Trigger Rule:** This governs whether the node will be executed based on the completion status of the previous node.
+
+   * Enter the values for **Deploy Mode** and **Parameters** as needed.
 
 Pipeline Execution
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Click on **Execute** Button on the Pipeline to execute it. On pipeline execution the selected workflow would get added as an step in the created EMR cluster. On successful completion EMR Cluster would be terminated.
+#. Click the **Execute** button on the Pipeline to execute it. Upon execution, the selected workflow will be added as a step in the created EMR cluster. On successful completion EMR Cluster will be terminated.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-plexec.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-On successful execution of the pipeline **EMR Clusters** get listed in the **AWS Console** as below.
+#. Upon successful execution of the pipeline the **EMR Clusters** get listed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-**EMR Cluster** detail can be viewed in the **AWS Console** as below.
+#. The **EMR Cluster** details can be viewed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
       :alt: Pipeline Tutorials
       :width: 70%
 
-Details on the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console** as below.
+#. Details of the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console**, as shown below.
 
    .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
       :alt: Pipeline Tutorials

@@ -1,4 +1,4 @@
-Nodes
+EMR Nodes
 =========
 This document outlines the various nodes that can be added to a Pipeline in Sparkflows.
 

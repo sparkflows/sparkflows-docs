@@ -34,6 +34,12 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     Airflow Pipeline Tutorials - Dynamically configuring EMR Cluster
 
+    ---
+
+    :doc:`dbpl-execnotebk`
+
+    Databricks Pipeline Tutorials - Executing Databricks Notebook
+
 .. toctree::
    :hidden:
 
@@ -41,4 +47,5 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
    afpl-add-wf-as-emr-step.rst
    afpl-create-emr-cluster.rst
    afpl-dynamic-emr-config.rst
+   dbpl-execnotebk.rst
 

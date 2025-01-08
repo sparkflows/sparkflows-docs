@@ -16,9 +16,18 @@ Below is a list of databricks nodes available when **Airflow** is enabled:
 
     :doc:`run-databricks-notebook`
 
+    ---
+
+    :doc:`databricks-runnow`
+
+    ---
+
+    :doc:`databricks-workflow`
 
 .. toctree::
    :hidden:
 
    create-databricks-cluster.rst
    run-databricks-notebook.rst
+   databricks-runnow.rst
+   databricks-workflow.rst

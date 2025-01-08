@@ -127,3 +127,5 @@ About Caching of generated token using assume role
 -------------------
 The application generates temporary tokens using the AWS AssumeRole API and stores them in a cache for efficient reuse during the user session. The cache is maintained exclusively for the duration of the user's active session. Once the user logs out, the token is automatically removed from the cache, ensuring that expired or unnecessary credentials are securely discarded.
 
+Note: After any changes to the AWS AssumeRole policy, users must log out and log back in to obtain an updated token with the new permissions.
+

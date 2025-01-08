@@ -12,7 +12,7 @@ Step 2 : Go to Configurations Page
 #. From the dashboard, click on **ADMINISTRATION** tab located in the top menu bar.
 #. From the Administration page, click on **Configurations** to reach the configurations page.
 
-   .. figure:: ../../../_assets/aws/glue/administration.png
+   .. figure:: ../../../_assets/aws/glue/administration_sparkflows.png
       :alt: aws
       :width: 60%
 
@@ -50,6 +50,11 @@ For AWS tab
 
 Step 4 : Create/Update Group in Fire Insights
 ----------------------------
+
+   .. figure:: ../../../_assets/aws/iam-assume-role/group_sparkflows.png
+      :alt: aws
+      :width: 60%
+
 #. Copy the **ARN** set up for assume role in AWS IAM Role and update in **AWS ROLE NAME** text field.
 
    ::

@@ -2,13 +2,13 @@ Cross Account IAM Role
 =======
 Cross-account access in AWS refers to the ability for an AWS user or role in one AWS account to access resources in another AWS account. This can be accomplished using AWS Identity and Access Management (IAM) roles, AWS Resource Access Manager (RAM), or AWS Organizations. With IAM roles, you can create a role in one account that can be assumed by a user in another account. This allows you to delegate access to AWS resources in one account to users in another account.
 
-Below we outline how to manage this in Sparkflows.
+In this guide, we outline how to manage this process in Sparkflows.
 
 If a Sparkflows instance on ECS/EC2/EMR and AWS S3 are in two different accounts, then a cross-account role is required for the Sparkflows instance to access the S3 and the other resources in different accounts. The way to grant access to a bucket is to allow an account to assume a role in another account.
 
-Consider AWS Account A with account ID 'deployment-acct-id' and AWS Account B with account ID 'bucket-owner-acct-id'. Account A has a Sparkflows instance running and Account B has a bucket 's3-bucket-name'.
+Consider **AWS Account A** with account ID **deployment-acct-id** and **AWS Account B** with account ID **bucket-owner-acct-id**. **Account A** has a Sparkflows instance running and **Account B** has a bucket **s3-bucket-name**.
 
-Below are the steps to configure Account A to use the AWS AssumeRole action to access S3 files in s3-bucket-name as a role in Account B. To enable this access you perform configuration in Account A and Account B and add the role in Sparkflows.
+The steps to configure **Account A** to use the **AWS AssumeRole** action to access S3 files in **s3-bucket-name** as a role in **Account B**, are listed below. To enable this access you perform configuration in **Account A** and **Account B** and add the role in Sparkflows.
 
 Step 1 : Create Role in Account A 
 ---------------------------
@@ -18,7 +18,7 @@ Create a role named **MyRoleA** in **Account A** and attach policies. The Instan
 
 Step 2 : Create Policy in Account A
 ------------------------
-Create a policy that says that a role in 'Account A' can assume 'MyRoleB' in 'Account B'. Attach it to MyRoleA. Click **add inline policy** and paste below in the policy::
+Create a policy that says that a role in **Account A** can assume **MyRoleB** in **Account B**. Attach it to **MyRoleA**. Click **add inline policy** and paste below in the policy::
 
 
     {
@@ -39,7 +39,7 @@ Create a policy that says that a role in 'Account A' can assume 'MyRoleB' in 'Ac
 
 Step 3 : Update the Policy
 -----------------
-Update the policy by adding the below statement for 'Account A role' used to run the Sparkflows on EC2/EMR/ECS, adding the **iam:PassRole action to MyRoleA**::
+Update the policy by adding the below statement for **Account A role** used to run the Sparkflows on EC2/EMR/ECS, adding the **iam:PassRole action to MyRoleA**::
 
 
     {
@@ -53,7 +53,7 @@ Update the policy by adding the below statement for 'Account A role' used to run
 
 Step 4 : Create Role in Account B
 ------------------------------
-Create a role named **MyRoleB** in Account B and attach policies. The Role ARN is::
+Create a role named **MyRoleB** in **Account B** and attach policies. The Role ARN is::
 
     arn:aws:iam::<bucket-owner-acct-id>:role/MyRoleB.
 
@@ -81,7 +81,7 @@ Select **IAM > Roles > MyRoleB > Trust relationships > Edit trust relationship**
 
 Step 6 : Create Bucket Policy
 -----------------
-Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucket-name > Permissions > Bucket Policy**. Include the role (Principal) 'MyRoleB' in the bucket policy::
+Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucket-name > Permissions > Bucket Policy**. Include the role (Principal) **MyRoleB** in the bucket policy::
 
     {
       "Version": "2012-10-17",
@@ -119,13 +119,12 @@ Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucke
 
 Step 7 : Add 'MyRoleA' to Sparkflows User Group
 ------------------
-Add 'MyRoleA' to the Sparkflows user group.
+ 
+Add **MyRoleA** to the Sparkflows user group. Users in this group can now access S3 resources in another account i.e. **Account B** from Sparkflows.
 
-Now from the Sparkflows, users in the group can access the S3 resources in another account i.e. 'Account B'.
-
-About Caching of generated token using assume role
+About **Caching the Generated Token When Using AssumeRole**
 -------------------
 The application generates temporary tokens using the AWS AssumeRole API and stores them in a cache for efficient reuse during the user session. The cache is maintained exclusively for the duration of the user's active session. Once the user logs out, the token is automatically removed from the cache, ensuring that expired or unnecessary credentials are securely discarded.
 
-.. note:: After any changes to the AWS AssumeRole policy, users must log out and log back in to obtain an updated token with the new permissions.
+.. note:: After making any changes to the AWS AssumeRole policy, users must log out and log back in to receive an updated token reflecting the new permissions.
 

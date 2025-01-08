@@ -26,8 +26,10 @@ Users who would be administrating Fire Insights would have the Admin Role assign
 
 Users with users.manage permission can do the following:
 
-* Manage the users
-* 
+- **Add new users**: Create new user accounts.
+- **Export all users**: Export the list of all users.
+- **Edit users**: Modify existing user details (e.g., name, role, etc.).
+- **Activate/Deactivate users**: Enable or disable user accounts as needed.
 
 Managing Users, Groups, Roles
 ----------

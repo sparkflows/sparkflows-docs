@@ -128,3 +128,6 @@ Now, the policy 'fire-insight-policy' needs to be attached to the 'EMR_EC2_Defau
 
 
 .. note:: Make sure to change ARN value to an exact value.
+
+.. note:: After any changes to the AWS AssumeRole policy, users must log out and log back in to obtain an updated token with the new permissions.
+

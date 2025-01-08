@@ -28,11 +28,10 @@ Each group has associated ARN Roles. They get used when accessing files on S3. T
 
 If a Project is shared with one group, then the ARN role of that group gets used.
 
-If a Project is shared with multiple Groups: say X and Y, and a user belongs to only Group Y, then the user would see AWS ARN Role belonging to the Y group.
+If a user is a member of multiple groups with IDs (1, 2, 3) in Fire Insights, AWS ARN Role will pick the group with ID 1. The group is selected by ID in ascending order.
 
+.. note:: Fire Insights supports one AWS ARN role for every user and it fetches the role based on ID in ascending order.
 
-.. note:: Fire Insights support one AWS ARN Role for an user.
- 
 
 Connections
 -----------

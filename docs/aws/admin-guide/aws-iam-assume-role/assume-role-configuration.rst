@@ -124,8 +124,22 @@ To create an inline IAM policy that grants the necessary permissions to list the
       ]
     }
 
-.. note:: Above inline policy list objects, retrieve data (files) from S3, and interact with basic bucket metadata (refresh schema)
-   
+.. note:: Above inline policy list objects, refresh schema from S3 and Read sample data from s3
+
+**Summary of Policy**:
+
+- List All Buckets
+
+  - The user can list all S3 buckets in the account with the s3:ListAllMyBuckets action.
+
+- Access to fire-insight-bucket1
+
+  The user has the following permissions specifically for fire-insight-bucket1:
+   - List objects in the bucket (s3:ListBucket).
+   - Refresh schema and Read sample data from the bucket (s3:GetObject*).
+   - View the bucket's ACL (s3:GetBucketAcl).
+
+
 Step 3 : Create Task Execution Role
 -------------------
 Ensure that the Role is attached with a policy to access ECS resources. You can use IAM roles to delegate access to your AWS resources. For more details read `AWS Documentation. <https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html#create-task-execution-role>`_

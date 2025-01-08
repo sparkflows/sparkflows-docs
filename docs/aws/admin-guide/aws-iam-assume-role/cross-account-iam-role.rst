@@ -60,7 +60,7 @@ Create a role named **MyRoleB** in Account B and attach policies. The Role ARN i
 
 Step 5 : Edit Trust Relationship of 'MyRoleB'
 ----------------------------------------
-Edit the trust relationship of role 'MyRoleB' to allow a role 'MyRoleA' in 'Account A' to assume a role in 'Account B'. 
+Edit the trust relationship of role **MyRoleB** to allow a role **MyRoleA** in **Account A** to assume a role in **Account B**. 
 
 Select **IAM > Roles > MyRoleB > Trust relationships > Edit trust relationship** and enter::
     

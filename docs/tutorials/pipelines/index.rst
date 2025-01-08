@@ -1,5 +1,5 @@
-Sparkflows Pipelines
-======================
+Pipelines
+=========
 
 Multiple workflows can be stitched together with the help of a **Pipeline**. 
 

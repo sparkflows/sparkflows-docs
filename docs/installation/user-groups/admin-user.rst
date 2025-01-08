@@ -24,6 +24,9 @@ Any user who have the permission to manage users is considered an Admin user. Ge
 
 Users who would be administrating Fire Insights would have the Admin Role assigned to them.
 
+Managing Users, Groups, Roles
+----------
+
 Below are the permissions for managing users, groups and roles:
 
 * users.manage - Manage users

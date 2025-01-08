@@ -118,7 +118,7 @@ To create an inline IAM policy that grants the necessary permissions to list the
             ],
             "Resource": [
                 "arn:aws:s3:::fire-insight-bucket1",
-                "arn:aws:s3:::fire-insight-bucket1*"
+                "arn:aws:s3:::fire-insight-bucket1/*"
             ]
         }
       ]

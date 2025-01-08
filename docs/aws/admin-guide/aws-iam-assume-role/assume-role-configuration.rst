@@ -11,6 +11,7 @@ Following steps are required to create a role for S3 bucket access and assume th
 
 Step 1 : Create IAM Role
 ---------------------
+
 Create an IAM role named **fire-insight-role**.
 
 .. figure:: ../../../_assets/aws/iam-assume-role/1_fire_insight_select_trusted_entity.png
@@ -20,6 +21,7 @@ Create an IAM role named **fire-insight-role**.
 
 Step 2 : Create Inline Policy
 -----------------
+
 Create an inline policy named **fire-insight-policy** which has access to S3 Policy which in turn has access to the different buckets e.g. 'fire-insight-bucket1' & 'fire-insight-bucket2' and then attach it to the role.
 
 .. figure:: ../../../_assets/aws/iam-assume-role/2_fire_insight_attach_policy.png
@@ -95,6 +97,34 @@ Create an inline policy named **fire-insight-policy** which has access to S3 Pol
 
   - The third statement denies the user the ability to perform any bucket management actions (e.g., create, delete, or modify bucket settings) for any bucket. This effectively prevents the user from making changes to the bucket's configuration or structure.
 
+To create an inline IAM policy that grants the necessary permissions to list the contents of an S3 bucket, refresh schema and read sample data from S3, you can structure the policy as follows:
+
+::
+
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": "arn:aws:s3:::*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject*",
+                "s3:GetBucketAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::fire-insight-bucket1",
+                "arn:aws:s3:::fire-insight-bucket1*"
+            ]
+        }
+      ]
+    }
+
+.. note:: Above inline policy list objects, retrieve data (files) from S3, and interact with basic bucket metadata (refresh schema)
    
 Step 3 : Create Task Execution Role
 -------------------

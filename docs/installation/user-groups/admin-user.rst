@@ -32,7 +32,10 @@ Below are the permissions for managing users, groups and roles:
 
 * roles.manage - Manage roles
 
-Below are the permission for administrating Fire Insights:
+Operating Fire Insights Permissions
+----------
+
+Below are the permission for operating Fire Insights:
 
 * **System Configuration:** Configure Fire Insights settings.
 * **Diagnostics:** Run system diagnostics.

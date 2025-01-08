@@ -160,7 +160,7 @@ Fire Insights supports the following permissions, which are associated with role
 Fire has the following permissions defined.
 
 .. figure:: ../../_assets/user-guide/permission-role.png
-   :scale: 100%
+   :scale: 60%
    :alt: User Permissions
    :align: center
 

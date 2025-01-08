@@ -3,7 +3,7 @@ Superuser and Admin Users
 
 Superusers and Admin users have special permissions and rights.
 
-Superuser
+Super User
 ---------
 
 A user in Fire Insights can be marked to be a super-user. A Super user has the below permissions:
@@ -17,10 +17,10 @@ A user in Fire Insights can be marked to be a super-user. A Super user has the b
 
 
 
-Admin Role
+Admin User
 ---------
 
-Fire Insights comes with a Role called Admin. This Role has the permissions to manage users, groups, roles and to also operate Fire Insights. This permissions associated with this role can also be updated.
+Any user who have the permission to manage users is considered an Admin user. Generally an ADMIN role is created, which has the manage.users permission granted to it.
 
 Users who would be administrating Fire Insights would have the Admin Role assigned to them.
 

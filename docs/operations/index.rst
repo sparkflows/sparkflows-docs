@@ -4,7 +4,11 @@ Operations
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+
+    :doc:`/operations/operating`
     
+    ---
+
     :doc:`/operations/logs/index`
     
     ---
@@ -67,6 +71,7 @@ Operations
 .. toctree::
    :hidden:
  
+   operating.rst
    logs/index.rst  
    continuous-integration/index.rst
    regular-maintenance-tasks.rst

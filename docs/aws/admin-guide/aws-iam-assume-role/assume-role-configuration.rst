@@ -80,6 +80,21 @@ Create an inline policy named **fire-insight-policy** which has access to S3 Pol
 .. figure:: ../../../_assets/aws/iam-assume-role/3_fire_insight_create_policy.png
    :alt: aws
    :width: 60%
+
+**Summary of Policy**:
+
+- Allow Listing and Viewing Bucket Information
+
+  - The first statement allows the user to list all S3 buckets in the account and retrieve the location (region) of any bucket.
+
+- Allow Access to Specific Buckets (Read/Write)
+
+  - The second statement grants the user permissions to list objects, download objects, upload objects, and view the ACLs for two specific buckets: fire-insight-bucket1 and fire-insight-bucket2. These permissions apply both to the bucket itself and all objects within these buckets.
+
+- Deny Management of Buckets
+
+  - The third statement denies the user the ability to perform any bucket management actions (e.g., create, delete, or modify bucket settings) for any bucket. This effectively prevents the user from making changes to the bucket's configuration or structure.
+
    
 Step 3 : Create Task Execution Role
 -------------------

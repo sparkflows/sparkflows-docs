@@ -3,6 +3,24 @@ User/Group/Role/Permission
 
 Fire Insights supports users, groups, roles, and permissions. A user can belong to multiple groups and have multiple roles. Each role can have multiple permissions associated with it.
 
+Users
+-----
+
+Fire Insights supports multiple users. 
+
+* Each user can belong to multiple groups and have multiple roles.
+* A user can be a designated as a superuser
+* The user should exist on HDFS (when running against a Hadoop Cluster). Fire can run independent of a Hadoop Cluster.
+
+
+.. figure:: ../../_assets/security/user_list.PNG
+   :alt: security
+   :width: 60%
+
+.. figure:: ../../_assets/security/user_detail.PNG
+   :alt: security
+   :width: 60%
+
 Groups
 ------
 
@@ -25,18 +43,26 @@ Below are further details associated with each group
    :alt: security
    :width: 60%
 
-Users
+Roles
 -----
 
-Fire Insights supports multiple users. Each user can belong to multiple groups and have multiple roles.
+A user can have multiple roles. The actions a user can perform depend on the roles they belong to.
 
-.. figure:: ../../_assets/security/user_list.PNG
+
+.. figure:: ../../_assets/security/role_list1.PNG
    :alt: security
    :width: 60%
 
-.. figure:: ../../_assets/security/user_detail.PNG
+
+A role has a set of permissions associated with it. A new role can be created, and an existing role can be edited.
+
+Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINESS ASSOCIATE.
+
+.. figure:: ../../_assets/security/role_permissions.PNG
    :alt: security
    :width: 60%
+
+
 
 Permissions
 -----------
@@ -131,29 +157,13 @@ Fire Insights supports the following permissions, which are associated with role
      - Execute pipelines. 
 
 
+Fire has the following permissions defined.
 
-Role's Permissions
-----------------
+.. figure:: ../../_assets/user-guide/UsersPermissions.png
+   :scale: 100%
+   :alt: User Permissions
+   :align: center
 
-A role has a set of permissions associated with it. A new role can be created, and an existing role can be edited.
-
-Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINESS ASSOCIATE.
-
-.. figure:: ../../_assets/security/role_permissions.PNG
-   :alt: security
-   :width: 60%
-
-
-
-User/Roles
------
-
-A user can have multiple roles. The actions a user can perform depend on the roles they belong to.
-
-
-.. figure:: ../../_assets/security/role_list1.PNG
-   :alt: security
-   :width: 60%
 
 
 

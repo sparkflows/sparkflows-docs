@@ -58,7 +58,7 @@ Create a role named **MyRoleB** in **Account B** and attach policies. The Role A
     arn:aws:iam::<bucket-owner-acct-id>:role/MyRoleB.
 
 
-Step 5 : Edit Trust Relationship of 'MyRoleB'
+Step 5 : Edit Trust Relationship of MyRoleB
 ----------------------------------------
 Edit the trust relationship of role **MyRoleB** to allow a role **MyRoleA** in **Account A** to assume a role in **Account B**. 
 
@@ -117,7 +117,7 @@ Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucke
       ]
     }
 
-Step 7 : Add 'MyRoleA' to Sparkflows User Group
+Step 7 : Add MyRoleA to Sparkflows User Group
 ------------------
  
 Add **MyRoleA** to the Sparkflows user group. Users in this group can now access S3 resources in another account i.e. **Account B** from Sparkflows.

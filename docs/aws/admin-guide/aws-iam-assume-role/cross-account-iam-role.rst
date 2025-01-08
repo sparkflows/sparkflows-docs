@@ -122,7 +122,7 @@ Step 7 : Add MyRoleA to Sparkflows User Group
  
 Add **MyRoleA** to the Sparkflows user group. Users in this group can now access S3 resources in another account i.e. **Account B** from Sparkflows.
 
-About **Caching the Generated Token When Using AssumeRole**
+About Caching the Generated Token When Using AssumeRole
 -------------------
 The application generates temporary tokens using the AWS AssumeRole API and stores them in a cache for efficient reuse during the user session. The cache is maintained exclusively for the duration of the user's active session. Once the user logs out, the token is automatically removed from the cache, ensuring that expired or unnecessary credentials are securely discarded.
 

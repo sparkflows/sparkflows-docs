@@ -117,6 +117,49 @@ Create a bucket policy for the bucket **s3-bucket-name**. Select **S3 > s3-bucke
       ]
     }
 
+To create an inline IAM policy that grants the necessary permissions to list the contents of an S3 bucket, refresh schema and read sample data from S3, you can structure the policy as follows:
+
+::
+
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": "arn:aws:s3:::*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject*",
+                "s3:GetBucketAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::fire-insight-bucket1",
+                "arn:aws:s3:::fire-insight-bucket1/*"
+            ]
+        }
+      ]
+    }
+
+.. note:: Above inline policy list objects, refresh schema from S3 and Read sample data from s3
+
+**Summary of Policy**:
+
+- List All Buckets
+
+  - The user can list all S3 buckets in the account with the s3:ListAllMyBuckets action.
+
+- Access to fire-insight-bucket1
+
+  The user has the following permissions specifically for fire-insight-bucket1:
+   - List objects in the bucket (s3:ListBucket).
+   - Refresh schema and Read sample data from the bucket (s3:GetObject*).
+   - View the bucket's ACL (s3:GetBucketAcl).
+
+
 Step 7 : Add MyRoleA to Sparkflows User Group
 ------------------
  

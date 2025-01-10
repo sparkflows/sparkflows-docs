@@ -88,3 +88,48 @@ You also need the SQLAlchemy Snowflake dialect if you're using SQLAlchemy (which
 ::
 
     pip install snowflake-sqlalchemy
+
+Airflow Snowflake Connection
+----
+
+Airflow requires a connection to authenticate and authorize access to Snowflake. The Snowflake connection can be set up in the Airflow UI or via environment variables.
+
+Setup via the Airflow UI:
+
+#. Go to the Airflow UI
+
+   #. Open the Airflow web interface, typically accessible at http://localhost:8080 or your custom Airflow instance.
+
+#. Create a New Connection
+
+   #. Navigate to Admin → Connections.
+   #. Click on the "+" button to add a new connection.
+
+#. Configure the Snowflake connection
+
+   #. Conn Id: Give a name for the connection, e.g., snowflake_default.
+   #. Conn Type: Select Snowflake.
+   #. Host: The URL of your Snowflake instance, e.g., xy12345.snowflakecomputing.com.
+   #. Schema: The default schema for your queries, e.g., PUBLIC.
+   #. Database: The Snowflake database you want to interact with, e.g., MY_DB.
+   #. Login: The Snowflake user you created, e.g., my_user.
+   #. Password: The password for the Snowflake user.
+   #. Warehouse: The Snowflake warehouse to use, e.g., my_warehouse.
+   #. Role (optional): The Snowflake role, e.g., SYSADMIN or your custom role.
+
+#. Save the connection.
+
+   Example
+::
+
+    Conn Id: snowflake_default
+    Conn Type: Snowflake
+    Host: xy12345.snowflakecomputing.com
+    Schema: PUBLIC
+    Database: MY_DB
+    Login: my_user
+    Password: your_password
+    Warehouse: my_warehouse
+    Role: SYSADMIN
+
+You can also set up the connection using environment variables or a .env file for production use.

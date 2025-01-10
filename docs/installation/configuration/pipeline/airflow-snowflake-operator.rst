@@ -143,4 +143,9 @@ Ensure that your Airflow environment can communicate with the Snowflake instance
 
 #. Encryption and TLS: Make sure that the connection is secured and Snowflake’s network policies are adhered to, especially for sensitive data.
 
+Airflow DAG Configuration
+-----
+
+Once the connection is configured and the Python packages are installed, you can now define your Airflow DAGs to interact with Snowflake.
+
 

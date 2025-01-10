@@ -24,6 +24,10 @@ Below is a list of databricks nodes available when **Airflow** is enabled:
 
     :doc:`databricks-workflow`
 
+    ---
+
+    :doc:`databricks-terminate-cluster`
+
 .. toctree::
    :hidden:
 
@@ -31,3 +35,4 @@ Below is a list of databricks nodes available when **Airflow** is enabled:
    run-databricks-notebook.rst
    databricks-runnow.rst
    databricks-workflow.rst
+   databricks-terminate-cluster.rst

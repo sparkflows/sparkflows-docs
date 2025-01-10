@@ -28,3 +28,12 @@ To install Apache Airflow, use:
 
 
 .. Note:: Ignore this step if you already have Airflow running with 2.x
+
+Databricks Account
+-----
+
+You need a Databricks account to interact with their APIs and manage clusters, notebooks, and jobs. Databricks integrates with Apache Spark and provides managed Spark clusters, making it suitable for big data and machine learning tasks.
+
+ #. Sign up for a Databricks account if you don’t have one already: Databricks Sign Up
+ #. Databricks Workspace: Ensure you have access to a Databricks workspace where you can manage notebooks, jobs, and clusters.
+

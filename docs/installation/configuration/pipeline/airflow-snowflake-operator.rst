@@ -42,6 +42,9 @@ You need access to a Snowflake account to interact with the Snowflake cloud data
 
 #. Create or Use an Existing Database: Ensure that you have a database, schema, and appropriate permissions to run queries or operations. You’ll need these details for the connection configuration.
 
+.. Note:: Ignore this step if you already have Snowflake account setup.
+
+
 Snowflake User and Role Setup
 -----
 
@@ -58,12 +61,17 @@ You must have a Snowflake user account with appropriate roles and permissions to
           DEFAULT_ROLE = my_role 
           MUST_CHANGE_PASSWORD = FALSE;
 
+.. Note:: Ignore this step if you already have Snowflake User and Role Setup.
+
+
 #. Assign Roles: The Snowflake user must have the appropriate role with permissions to interact with the Snowflake resources. A role like SYSADMIN or a custom role that has access to the necessary databases and schemas would be required.
 
    #. Example SQL to assign a role:
       ::
 
           GRANT ROLE SYSADMIN TO USER my_user;
+
+.. Note:: Ignore this step if you already Assign Roles.
 
 #. Create or Use a Warehouse: Ensure a Snowflake Virtual Warehouse is available to run your queries or data transformations.
 
@@ -73,6 +81,8 @@ You must have a Snowflake user account with appropriate roles and permissions to
           WITH WAREHOUSE_SIZE = 'SMALL' 
           AUTO_SUSPEND = 60 
           AUTO_RESUME = TRUE;
+
+.. Note:: Ignore this step if you already have Warehouse.
 
 Snowflake Connector (Python Snowflake Connector)
 -----
@@ -154,6 +164,9 @@ Ensure the Snowflake user you created for Airflow has the required permissions t
 
 #. Read Permissions: Access to the databases and tables you intend to query.
 #. Write Permissions: If you are writing data, ensure the user has the appropriate permissions on the target schema or database.
+
+.. Note:: Make sure that Airflow and Snowflake should be accessible.
+
 
 Example of granting permissions:
 

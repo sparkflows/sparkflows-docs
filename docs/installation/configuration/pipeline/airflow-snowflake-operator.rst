@@ -13,3 +13,20 @@ Pre-Requisites
 #. Snowflake warehouse and database available for the required operations.
 #. Network configuration for communication between Airflow and Snowflake (including IP whitelisting if necessary).
 #. Ensure the Snowflake user has the necessary roles and permissions to execute queries and manage data.
+
+Apache Airflow Installation
+----
+
+Airflow Version: Ensure that you have a working installation of Apache Airflow (preferably 2.x version). Airflow is the orchestrator that you will use to manage workflows, including interactions with Snowflake.
+
+To install Apache Airflow, use:
+::
+
+    pip install apache-airflow
+
+.. Note:: Ignore this step if you already have Airflow running with 2.x
+
+If you want to use Snowflake integration, you should install the necessary provider:
+::
+
+    pip install apache-airflow-providers-snowflake

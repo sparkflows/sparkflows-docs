@@ -49,3 +49,45 @@ Steps to generate an API token:
  #. Click on Generate New Token in the Access Tokens section.
  #. Save the generated token in a secure place as you will use it in the Airflow connection configuration.
 
+Databricks Connection in Airflow
+-----
+
+Airflow uses connections to store authentication details securely. You need to set up a connection for Databricks in the Airflow UI.
+
+Steps to set up the connection in Airflow UI:
+
+ #. Go to the Airflow UI:
+ #. Open the Airflow web interface, typically accessible at http://localhost:8080 (or your custom URL).
+ #. Create a new connection:
+ #. Navigate to Admin → Connections.
+ #. Click on the "+" button to add a new connection.
+ #. Configure the Databricks connection:
+ #. Conn Id: databricks_default (or another custom ID).
+ #. Conn Type: Select Databricks.
+ #. Host: The URL of your Databricks instance, e.g., https://<databricks-instance>.azuredatabricks.net (for Azure Databricks) or https://<databricks-instance>.databricks.com (for AWS).
+ #. Token: Paste the API token you generated earlier.
+ #. Click Save to store the connection.
+
+Python Environment (with Required Libraries)
+------
+
+Ensure that your Python environment has the necessary libraries installed to use the Databricks operators. These include the Airflow Databricks provider and any other dependencies your DAGs may require.
+
+To install the required package for Databricks integration in Airflow, use:
+::
+
+    pip install apache-airflow-providers-databricks
+
+Airflow DAG Setup
+----
+
+Once the Airflow connection and Databricks API token are set up, and your Databricks cluster is ready, you can now start building your Airflow DAGs to interact with Databricks.
+
+Permissions and Roles
+-----
+
+Ensure that the Databricks user you're using has the appropriate permissions to:
+
+ #. Run Pipelines
+ #. Create and manage clusters (if required by your Airflow tasks).
+ #. Execute notebooks and run jobs.

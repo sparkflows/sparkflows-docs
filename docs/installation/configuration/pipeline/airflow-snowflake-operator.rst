@@ -30,3 +30,14 @@ If you want to use Snowflake integration, you should install the necessary provi
 ::
 
     pip install apache-airflow-providers-snowflake
+
+Snowflake Account and Setup
+----
+
+You need access to a Snowflake account to interact with the Snowflake cloud data platform.
+
+#. Sign Up/Log In to Snowflake
+
+   #. If you don’t have a Snowflake account, sign up for a free trial or get access through your organization: Snowflake Sign Up.
+
+#. Create or Use an Existing Database: Ensure that you have a database, schema, and appropriate permissions to run queries or operations. You’ll need these details for the connection configuration.

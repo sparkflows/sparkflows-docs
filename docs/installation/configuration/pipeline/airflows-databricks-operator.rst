@@ -13,3 +13,18 @@ Pre-Requisites
 #. Ensure your Python environment has necessary libraries (like apache-airflow-providers-databricks).
 #. Airflow DAGs properly set up to submit Databricks jobs or notebooks.
 #. Proper permissions in Databricks for the user executing tasks.
+
+Apache Airflow Installation
+----
+
+Airflow Version: Ensure that you have a working installation of Apache Airflow (usually version 2.x) on your machine or cloud environment. Airflow provides a platform to programmatically author, schedule, and monitor workflows.
+
+To install Apache Airflow, use:
+
+
+::
+    
+    pip install apache-airflow
+
+
+.. Note:: Ignore this step if you already have Airflow running with 2.x

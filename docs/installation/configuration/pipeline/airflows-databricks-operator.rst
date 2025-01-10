@@ -68,6 +68,8 @@ Steps to set up the connection in Airflow UI:
  #. Token: Paste the API token you generated earlier.
  #. Click Save to store the connection.
 
+.. Note:: If you already have Databricks connection in Fire Insights, it can be synced to Airflow, after selecting Databricks Connection in Airflow.
+
 Python Environment (with Required Libraries)
 ------
 

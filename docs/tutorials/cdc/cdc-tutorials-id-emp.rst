@@ -7,20 +7,28 @@ CDC Tutorials - Employee Master (Using Index Column)
 CDC Overview
 -------------------
 
-**CDC (Change Data Capture)** is used to identify and track changes in a connected data table, including data insertions, updates, and deletions. 
+**CDC (Change Data Capture)** is used to identify and track changes such as data insertions, updates, and deletions in a connected data table.
 
 It facilitates efficient incremental data loading and ensures seamless integration of these changes into the dataset. 
 
 CDC (Change Data Capture) Tutorials
 -------------------
 
-This tutorial will guide you on how to use Sparkflows CDC to capture changes in employee master data stored in an Postgres Database. The **AutoIncrement node** in Sparkflows is utilized for tracking these changes. It is configured to track changes based on the new Index Column data (Employee_ID).
+This tutorial will guide you on how to use Sparkflows CDC to capture changes in employee master data stored in a Postgres Database. The **AutoIncrement node** in Sparkflows is utilized for tracking these changes. It is configured to track changes based on the **new Index Column data (Employee_ID)**.
 
-This tutorial covers the steps for CDC setup, configuring the AutoIncrement node, creating the workflow, and merging the captured changes into a Delta file.
+This tutorial covers the steps for 
 
-CDC Configuration
+* Setting Up the CDC
+
+* Configuring the AutoIncrement node 
+
+* Creating the workflow
+
+* Merging the captured changes into a Delta file
+
+CDC Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^
-The steps to set up CDC are as follows:
+The steps to configure CDC are as follows:
 
 #. Navigate to **Administration > Configuration > Modules.**
 #. **Enable CDC** by setting Enable CDC to **true**.
@@ -29,7 +37,7 @@ The steps to set up CDC are as follows:
       :alt: CDC Tutorials
       :width: 70%
 
-#. The CDC Tab on the Project Dashboard will now be visible as shown below.
+#. The **CDC Tab** on the Project Dashboard will now be visible, as shown below.
 
    .. figure:: ../../_assets/tutorials/cdc/cdc-tutorials-tab.png
       :alt: CDC Tutorials
@@ -38,8 +46,8 @@ The steps to set up CDC are as follows:
 Data Source: Employee Master Postgres Table
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* This tutorial uses **Employee Master Database Table** from an Postgres database to capture changes. 
-* The table schema includes essential columns like Employee_ID, First_Name, Last_Name, Department, Salary, Join_Date, Update_Timestamp,  and IS_DELETED, as shown below.
+* This tutorial uses **Employee Master Database Table** from a Postgres database to capture changes. 
+* The table schema includes essential columns like **Employee_ID, First_Name, Last_Name, Department, Salary, Join_Date, Update_Timestamp,  and IS_DELETED**, as shown below.
    
   .. figure:: ../../_assets/tutorials/cdc/cdc-tutorials-empmaster-table.png
      :alt: CDC Tutorials
@@ -107,7 +115,7 @@ Execute Workflow
       :alt: CDC Tutorials
       :width: 70%
 	  
-* **CDC Tab** on the Project Dashboard will be updated as shown below. It will update the **End Value** as the max **Key Column (Employee_ID)** value.
+* The **CDC Tab** on the Project Dashboard will be updated, as shown below. It will update the **End Value** as the max **Key Column (Employee_ID)** value.
 	  
   .. figure:: ../../_assets/tutorials/cdc/cdc-tutorials-id-endvalinitload.png
      :alt: CDC Tutorials
@@ -128,7 +136,7 @@ Handling New Employees
      :alt: CDC Tutorials
      :width: 70%
 	  
-* The **CDC Tab** on the Project Dashboard will be updated as shown below. It will update the **End Value** as the max **Key Column (Employee_ID)** value. The **Start Value** will display the previously fetched max value.
+* The **CDC Tab** on the Project Dashboard will be updated, as shown below. It will update the **End Value** as the max **Key Column (Employee_ID)** value. The **Start Value** will display the previously fetched max value.
 	  
   .. figure:: ../../_assets/tutorials/cdc/cdc-tutorials-id-endvalnewtrans.png
      :alt: CDC Tutorials

@@ -10,6 +10,7 @@ Below are the details of configuring Fire Insights for pipelines with Airflow:
    airflow-installation-docker.rst
    configuring-pipeline.rst
    airflow-connection.rst
+   airflows-databricks-operator.rst
    
    
 

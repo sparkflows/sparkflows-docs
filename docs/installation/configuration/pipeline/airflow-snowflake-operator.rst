@@ -99,6 +99,9 @@ You also need the SQLAlchemy Snowflake dialect if you're using SQLAlchemy (which
 
     pip install snowflake-sqlalchemy
 
+.. Note:: Ignore this step if its already got installed with ``apache-airflow-providers-snowflake`` .
+
+
 Airflow Snowflake Connection
 ----
 

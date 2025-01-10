@@ -91,3 +91,5 @@ Ensure that the Databricks user you're using has the appropriate permissions to:
  #. Run Pipelines
  #. Create and manage clusters (if required by your Airflow tasks).
  #. Execute notebooks and run jobs.
+
+.. Note:: Make sure that Airflow and Databricks should be accessible.

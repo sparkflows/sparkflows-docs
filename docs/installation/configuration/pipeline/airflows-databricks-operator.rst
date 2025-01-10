@@ -37,3 +37,15 @@ You need a Databricks account to interact with their APIs and manage clusters, n
  #. Sign up for a Databricks account if you don’t have one already: Databricks Sign Up
  #. Databricks Workspace: Ensure you have access to a Databricks workspace where you can manage notebooks, jobs, and clusters.
 
+Databricks API Token
+------
+
+To authenticate with Databricks via Airflow, you will need an API Token. This token is required to set up the connection between Airflow and Databricks.
+
+Steps to generate an API token:
+
+ #. Log in to your Databricks Workspace.
+ #. Navigate to the User Settings in the top-right corner (click on your username).
+ #. Click on Generate New Token in the Access Tokens section.
+ #. Save the generated token in a secure place as you will use it in the Airflow connection configuration.
+

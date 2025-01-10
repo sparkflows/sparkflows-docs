@@ -148,4 +148,16 @@ Airflow DAG Configuration
 
 Once the connection is configured and the Python packages are installed, you can now define your Airflow DAGs to interact with Snowflake.
 
+Permissions for Airflow Snowflake User
+-----
+Ensure the Snowflake user you created for Airflow has the required permissions to execute the queries. This includes:
+
+#. Read Permissions: Access to the databases and tables you intend to query.
+#. Write Permissions: If you are writing data, ensure the user has the appropriate permissions on the target schema or database.
+
+Example of granting permissions:
+
+::
+
+     GRANT SELECT ON DATABASE MY_DB TO USER my_user;
 

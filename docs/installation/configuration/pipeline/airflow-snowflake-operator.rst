@@ -73,3 +73,18 @@ You must have a Snowflake user account with appropriate roles and permissions to
           WITH WAREHOUSE_SIZE = 'SMALL' 
           AUTO_SUSPEND = 60 
           AUTO_RESUME = TRUE;
+
+Snowflake Connector (Python Snowflake Connector)
+-----
+
+You must install the Snowflake Python connector (snowflake-connector-python) in your Airflow environment to allow Airflow to communicate with Snowflake.
+
+::
+
+    pip install snowflake-connector-python
+
+You also need the SQLAlchemy Snowflake dialect if you're using SQLAlchemy (which is often used with Airflow's SnowflakeOperator)
+
+::
+
+    pip install snowflake-sqlalchemy

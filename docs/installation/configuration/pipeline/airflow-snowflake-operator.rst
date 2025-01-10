@@ -165,8 +165,6 @@ Ensure the Snowflake user you created for Airflow has the required permissions t
 #. Read Permissions: Access to the databases and tables you intend to query.
 #. Write Permissions: If you are writing data, ensure the user has the appropriate permissions on the target schema or database.
 
-.. Note:: Make sure that Airflow and Snowflake should be accessible.
-
 
 Example of granting permissions:
 
@@ -174,3 +172,4 @@ Example of granting permissions:
 
      GRANT SELECT ON DATABASE MY_DB TO USER my_user;
 
+.. Note:: Make sure that Airflow and Snowflake should be accessible.

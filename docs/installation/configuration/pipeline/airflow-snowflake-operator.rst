@@ -133,3 +133,14 @@ Setup via the Airflow UI:
     Role: SYSADMIN
 
 You can also set up the connection using environment variables or a .env file for production use.
+
+Network and Security Configurations
+----
+
+Ensure that your Airflow environment can communicate with the Snowflake instance:
+
+#. IP Whitelisting: If Snowflake has IP whitelisting enabled, ensure that the IP addresses of your Airflow worker nodes are whitelisted in Snowflake.
+
+#. Encryption and TLS: Make sure that the connection is secured and Snowflake’s network policies are adhered to, especially for sensitive data.
+
+

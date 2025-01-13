@@ -1,6 +1,6 @@
 Databricks Terminate Cluster
 =========
-**Databricks Terminate Cluster** node can be used to terminate an existing Databricks Cluster. This action halts the cluster's compute resources, releasing them to help optimize costs by preventing charges for idle resources.
+**Databricks Terminate Cluster** node can be used to terminate an existing Databricks Cluster. This action halts the cluster's compute resources, releasing them to help optimize costs by preventing charges for idle resources. This is particularly useful for managing costs when a cluster is no longer needed for ongoing workloads.
 
 This guide explains the setup process for the Databricks Terminate Cluster node.
 

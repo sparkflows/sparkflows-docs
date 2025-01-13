@@ -13,7 +13,7 @@ Configuration of Databricks Terminate Cluster Node
       :alt: Pipeline
       :width: 70%
 
-#. Select the desired values in the required fields as follows:
+#. Select the desired values in the above required fields as follows:
    
    * **Task Name:** Enter a unique name of the task in the Airflow DAG.
    * **Cluster ID:** Enter the ID of an existing Databricks cluster. If left blank, the Cluster ID created in the previous step will be used.

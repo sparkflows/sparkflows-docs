@@ -17,4 +17,4 @@ Configuration of Databricks Terminate Cluster Node
    
    * **Task Name:** Enter a unique name of the task in the Airflow DAG.
    * **Cluster ID:** Enter the ID of an existing Databricks cluster. If left blank, the Cluster ID created in the previous step will be used.
-   * **Select Databricks Connection:** Select a Databricks Connection from the dropdown list. The list contains the connections defined in the Airflow and the selected connection will be used by the Airflow to communicate with Databricks.
+   * **Databricks Connection:** Select a Databricks Connection from the dropdown list. The list contains the connections defined in the Airflow and the selected connection will be used by the Airflow to communicate with Databricks.

@@ -3,7 +3,7 @@ Redshift Connection
 
 Fire Insights provides the capability to create a "Redshift connection" and use it for reading from and writing to Amazon Redshift tables. Below are the steps for creating a Redshift connection in Fire Insights:
 
-.. Note:: you can use jdbc connection type to create redshift connection too and use it in read jdbc and Save jdbc node.
+.. Note:: you can use jdbc connection type to create Redshift connection too and use it in read jdbc and Save jdbc node.
 
 Connections can be at various levels:
 
@@ -11,7 +11,7 @@ Connections can be at various levels:
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Redshift Connection" in Fire Insights.
+This page shows how to create a "Redshift Connection" in Fire Insights.
 
 Create the Redshift Connection
 -----

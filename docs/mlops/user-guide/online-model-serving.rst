@@ -23,7 +23,7 @@ Once the required configurations are completed by an Admin, one can deploy the m
 #. **Model Registration:** Once the model is trained/imported, it is automatically registered in the Sparkflows Model Registry. 
 #. **Deploy to Kubeflow:** To deploy the model, follow the steps below:
 
-   * Navigate to the **Models page** and select **Deploy Model** from the **Actions menu**.
+   * Navigate to the **Models page** and select **Deploy Model** from the **Actions** menu.
 
    * A dialog box will appear for user inputs, as shown below. Once you provide the required information, click the **OK** to deploy the model to Kubeflow.
 
@@ -98,7 +98,7 @@ To deploy the models to MLflow, follow the steps given below:
 
 #. **Register the Model in MLflow:** The model stored in the Sparkflows Model Registry can be logged and registered in MLflow by clicking the Register button in the Actions menu.
 
-#. **Deploy the Model as a REST Endpoint:** Once the model is registered in MLflow, it can be deployed as a REST endpoint by selecting **Deploy Model** in the Actions menu of the Sparkflows Model Registry. The **Deploy** option will only be available for models that have been logged and registered in MLflow.
+#. **Deploy the Model as a REST Endpoint:** Once the model is registered in MLflow, it can be deployed as a REST endpoint by selecting **Deploy Model** in the **Actions** menu of the Sparkflows Model Registry. The **Deploy** option will only be available for models that have been logged and registered in MLflow.
 
 #. **Access Scoring Information:** Follow the steps below:
   
@@ -106,7 +106,7 @@ To deploy the models to MLflow, follow the steps given below:
    * You can copy the Python script or cURL sample command to use for scoring sample data.
    * Sample code is generated only for models that have been deployed.
 
-#. **Undeploy the Model:** If the model is no longer needed for serving, it can be undeployed by clicking the **Undeploy** button in the Actions menu. The **Undeploy** option will only be enabled for models that are deployed.
+#. **Undeploy the Model:** If the model is no longer needed for serving, it can be undeployed by clicking the **Undeploy** button in the **Actions** menu. The **Undeploy** option will only be enabled for models that are deployed.
 
 #. **Re-register the Model:** If needed, you can Re-register the model by clicking the **Re-register** button to register the model again.
 
@@ -116,44 +116,45 @@ To deploy the models to MLflow, follow the steps given below:
 
 As MLflow Scoring Container in Sagemaker
 ---------
-* The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
-* Then, it can be deployed to Sagemaker by click of the **Deploy to Sagemaker** button. What happens under the hood is as below:
-  
-  * Sparkflows pushes/uses a custom Sparkflows container to ECR registry.
-  * Then, deploys the model in the same container on Sagemaker.
-  * The Sagemaker then creates a REST end point for serving the model.
-  * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on Sagemaker.
+To deploy models on Sagemaker as MLflow scoring container, follow the steps given below:
 
-* Once deployed, the deployment shows up as below:
+#. **Register the Model in MLflow:** The model stored in the Sparkflows Model Registry can be logged and registered in MLflow by clicking the **Register** button in the **Actions** menu.
 
-  .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-2.png
-     :alt: MLops Sagemaker
-     :width: 60%
+#. **Deploy the Model to SageMaker:** After registering the model in MLflow, it can be deployed to SageMaker by clicking the **Deploy to SageMaker** button. The steps that occur in the background are as follows:
 
-* The details of the deployment can be seen below:
+   * Sparkflows pushes/uses a custom Sparkflows container to ECR registry. Then, deploys the model in the same container on Sagemaker.
+   * The Sagemaker then creates a REST end point for serving the model.
+   * Once the model is deployed on SageMaker, the endpoint details and commands for scoring test data will appear in the Sparkflows Model Registry.
 
-  .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-1.png
-     :alt: MLops Sagemaker
-     :width: 60%
+   Upon deployment, it appears as shown below:
+
+   .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-2.png
+       :alt: MLops Sagemaker
+       :width: 60%
+
+   The details of the deployment are displayed below:
+
+   .. figure:: ../../_assets/mlops/mlops-sagemaker-deployment-1.png
+      :alt: MLops Sagemaker
+      :width: 60%
 
 As MLflow Scoring Container in AzureML
 -----------
+To deploy models on AzureML as MLflow scoring container, follow the steps given below:
 
-* The model residing natively in the Sparkflows model registry can be logged and registered in MLflow by click of the **Register** button in the **Actions** menu. 
-* Then, it can be deployed to Azure by click on the **Deploy to AzureML** button. What happens under the hood is as below:
+#. **Register the Model in MLflow:** The model stored in the Sparkflows Model Registry can be logged and registered in MLflow by clicking the **Register** button in the **Actions** menu.
 
-  * Sparkflows pushes/uses a custom Sparkflows container to Azure registry.
-  * Then, deploys the model in the same container on AzureML.
-  * The AzureML then creates a REST end point for serving the model.
-  * The details of end point and command to score test data shows up in the Sparkflows model registry once the model is deployed on AzureML.
+#. **Deploy the Model to AzureML:** After registering the model in MLflow, deploy it to AzureML by clicking the **Deploy to AzureML** button. The steps that occur in the background are as follows:
+
+   * Sparkflows pushes or uses a custom Sparkflows container to the Azure Container Registry.
+   * The model is then deployed within the custom container on AzureML.
+   * Then, AzureML creates a REST endpoint for serving the deployed model.
+   * Once the model is deployed on AzureML, the endpoint details and commands for scoring test data are displayed in the Sparkflows Model Registry.
 
 As Sparkflows Score Workflow
 -----------
-* The workflow can be triggered via REST API to score the data.
-
-  An example request for Executing specified workflow:
-
-  ::
+#. The workflow can be triggered via a REST API to score the data. Below is an example request for executing a specified workflow:
+   ::
    
        curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
        "emailOnFailure": "string",
@@ -165,8 +166,10 @@ As Sparkflows Score Workflow
        }' 'http://hostname:port/api/v1/workflow/execute' -b /tmp/cookies.txt
    
 
-As REST end point in a standalone Docker image
+As REST End Point in a Standalone Docker Image
 ---------------
-* Encapsulate the model inside a custom Docker image provided by Sparkflows.
-* The model is then loaded and served as a REST end point.
-* This docker image can run either on the same machine as Sparkflows or a different machine or in a Kubernetes cluster as a pod.
+Follow the steps below:
+
+#. **Encapsulate the model:** Package the model inside a custom Docker image provided by Sparkflows.
+#. **Serve the model:** The model is loaded and served as a REST endpoint.
+#. **Run the Docker image:** This Docker image can run on the same machine as Sparkflows, on a different machine, or within a Kubernetes cluster as a pod.

@@ -46,6 +46,12 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     Databricks Pipeline Tutorials - Executing Databricks Notebook
 
+    ---
+
+    :doc:`dbpl-execute-job`
+
+    Databricks Pipeline Tutorials - Executing Databricks Jobs
+
 .. toctree::
    :hidden:
 
@@ -55,4 +61,5 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
    afpl-dynamic-emr-config.rst
    dbpl-create-cluster.rst
    dbpl-execnotebk.rst
+   dbpl-execute-job.rst
 

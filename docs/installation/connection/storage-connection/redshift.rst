@@ -77,7 +77,7 @@ Connection Field Details
 Test Connection and Save
 +++++
 
-Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
+Once you have entered the connection details, click on "Test Connection". If the connection is successful,  click on "Save" to save the connection. 
 
 Now, you are ready to start using the Connection in workflows.
 

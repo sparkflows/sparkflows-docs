@@ -5,6 +5,14 @@ Fire Insights provides the capability to create a ``Redshift connection`` and us
 
 .. Note:: you can use jdbc connection type to create redshift connection too and use it in read jdbc and Save jdbc node.
 
+Connections can be at various levels:
+
+  * Global  : Everyone has access to these connections.
+  * Group   : Users belonging to the group have access to these connections.
+  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
+
+This page show how to create a "Redshift Connection" in Fire Insights.
+
 Create the Redshift Connection
 -----
 

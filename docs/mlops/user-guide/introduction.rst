@@ -5,17 +5,27 @@ Model serving refers to the process of deploying a machine learning model into a
 
 Sparkflows saves all the models trained in its model repository by default. It also captures all the training and validation metrics. The model artifacts are saved on local disk or in cloud storage by Sparkflows. External models can also be imported into Sparkflows and served.
 
-These models can be served as one of the two options:
+These models can be served in one of the following two ways: 
 
-#. **Offline Model Serving**
+* Offline Model Serving
+* Online Model Serving
 
-    * Offline serving is primarily employed for batch scoring, allowing machine learning models to process large volumes of data in a non-real-time, batch fashion.
-    * It is utilized for bulk prediction tasks, enabling the efficient processing of extensive datasets with machine learning models in scheduled or periodic operations.
-    * Offline model serving typically exhibits high throughput, making it well-suited for scenarios where data processing efficiency and scalability are paramount.
+Offline Model Serving
+---------
+**Purpose:** Offline model serving is used for batch scoring, allowing machine learning models to process large volumes of data in a non-real-time, batch-oriented fashion.
 
-#. **Online model serving**
-   
-    * Online serving is primarily employed for scoring streaming data, ensuring that machine learning models can make predictions in real-time as new data arrives.
-    * It offers low latency, enabling immediate model predictions, which is crucial for applications requiring rapid responses to incoming data.
-    * Online model serving facilitates real-time model deployment, allowing predictions to be served as soon as new data becomes available.
-    * It is typically used on a relatively smaller number of rows of data at a time, making it suitable for applications where low latency is essential but data volumes are modest.
+**Usage:** It is ideal for bulk prediction tasks, enabling efficient processing of extensive datasets during scheduled or periodic operations.
+
+**Key Features:** Exhibits high throughput, making it well-suited for scenarios prioritizing data processing efficiency and scalability over immediacy.
+
+Online model serving
+--------------
+**Purpose:** Online model serving is designed for scoring streaming data, enabling machine learning models to make real-time predictions as new data arrives.
+
+**Usage:** It supports real-time model deployment, delivering predictions immediately upon receiving new data.
+
+**Key Features:**
+
+* Offers low latency, which is critical for applications requiring rapid responses, such as fraud detection, recommendation systems, and conversational AI.
+* Processes a relatively smaller number of rows of data at a time, focusing on speed and accuracy rather than bulk processing.  
+

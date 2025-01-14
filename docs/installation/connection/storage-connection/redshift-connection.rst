@@ -23,26 +23,14 @@ Connection Details
 
 Enter the configuration details with the help of table given below and click on ``Add Connection``.
 
-   .. figure:: ../../../_assets/postgresql/postgre-storage.png
-      :alt: postgresql
+   .. figure:: ../../../_assets/connections/redshift_1.PNG
+      :alt: redshift
       :width: 60%
 
    
-   .. figure:: ../../../_assets/postgresql/postgre-connection.png
-      :alt: postgresql
+   .. figure:: ../../../_assets/connections/redshift_2.PNG
+      :alt: redshift
       :width: 60%
-
-
-Test Connection and Save
-+++++
-
-Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
-
-Now, you are ready to start using the Connection in workflows.
-
-
-.. Note:: Make sure that Redshift URL should be accessible from Sparkflows web server URL.
-
 
 Connection Field Details
 ----------------------
@@ -84,6 +72,18 @@ Connection Field Details
       * - Driver Class
         - Driver Class Name for Redshift
         - com.amazon.redshift.jdbc42.Driver (by default)
+
+
+Test Connection and Save
++++++
+
+Once you have entered the connection details, click on ``Test Connection``. If the connection is successful,  click on ``Save`` to save the connection. 
+
+Now, you are ready to start using the Connection in workflows.
+
+
+.. Note:: Make sure that Redshift URL should be accessible from Sparkflows web server URL.
+
 
 Run Workflows and Pipelines
 -----------------

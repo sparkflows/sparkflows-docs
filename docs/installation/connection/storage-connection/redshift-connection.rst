@@ -1,7 +1,7 @@
 Redshift Connection
 ================
 
-Fire Insights provides the capability to create "Redshift connection" and use the connection for reading from and writing to Redshift tables. Below are the steps for creating Redshift connection in Fire Insights:
+Fire Insights provides the capability to create a ``Redshift connection`` and use it for reading from and writing to Redshift tables. Below are the steps for creating a Redshift connection in Fire Insights:
 
 
 Create the Redshift Connection

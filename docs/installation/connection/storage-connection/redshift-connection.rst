@@ -1,7 +1,7 @@
 Redshift Connection
 ================
 
-Fire Insights provides the capability to create a ``Redshift connection`` and use it for reading from and writing to Redshift tables. Below are the steps for creating a Redshift connection in Fire Insights:
+Fire Insights provides the capability to create a ``Redshift connection`` and use it for reading from and writing to Amazon Redshift tables. Below are the steps for creating a Redshift connection in Fire Insights:
 
 .. Note:: you can use jdbc connection type to create redshift connection too and use it in read jdbc and Save jdbc node.
 
@@ -88,4 +88,4 @@ Now, you are ready to start using the Connection in workflows.
 Run Workflows and Pipelines
 -----------------
 
-Now you can use the connection in Redshift Node to run the workflows.
+Now you can use the connection in Redshift Node to run the workflows/pipelines.

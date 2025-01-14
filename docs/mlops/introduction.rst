@@ -104,7 +104,7 @@ Sparkflows ensure the following security measures.
 
 - Data Privacy & Protection
 - Secure Model Hosting
-- SSO
+- Single Sign-On( SSO )
 - Transparency and Explainability
 - Robustness and Reliability
 - Governance and Auditing

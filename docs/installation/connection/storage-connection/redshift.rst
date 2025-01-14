@@ -88,4 +88,4 @@ Now, you are ready to start using the Connection in workflows.
 Run Workflows and Pipelines
 -----------------
 
-Now you can use the connection in Redshift Node to run the workflows/pipelines.
+Now you can use the connection in Read jdbc Node to run the workflows/pipelines.

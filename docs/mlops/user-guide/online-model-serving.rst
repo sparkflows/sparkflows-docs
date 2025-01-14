@@ -25,7 +25,7 @@ Once the required configurations are completed by an Admin, one can deploy the m
 
    * Navigate to the **Models page** and select **Deploy Model** from the **Actions** menu.
 
-   * A dialog box will appear for user inputs, as shown below. Once you provide the required information, click the **OK** to deploy the model to Kubeflow.
+   * A dialog box will appear for user inputs, as shown below. Once you provide the required information, click the **OK** button to deploy the model to Kubeflow.
 
      .. figure:: ../../_assets/mlops/kubeflow/kubeflow-deployment-details.png
         :alt: MLOps Kubeflow

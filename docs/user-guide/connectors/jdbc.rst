@@ -3,7 +3,7 @@ JDBC
 
 Fire has JDBC Processors for reading from or writing to JDBC sources.
 
-In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
+In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/SQLServer/Redshift/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS and creating the Connection.
 

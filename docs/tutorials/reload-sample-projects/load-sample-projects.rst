@@ -1,13 +1,13 @@
-Loading Sample Projects
+Reloading Sample Projects
 =============================
 
 This tutorial explains the process of loading/reloading sample projects.
 
-This feature of load sample projects allows the user to load the data from any path configured by admin. It also provides the user to create projects that are private and accessible only to them."
+This feature of load sample projects allows the user to load the data from any path configured by admin. It also provides the user to create projects that are private and accessible only to them.
 
 The steps for the same are as follows:
 
-Step 1 :  Configure the Path
+Step 1 : Configure the Path
 ----------------------------------
 #. **Login** to Fire Insights.
 
@@ -47,7 +47,7 @@ Step 2 : Reloading Sample Project
       :alt: Load Sample Projects
       :width: 65% 
 
-Step 3: Loading Sample Projects
+Step 3 : Loading Sample Projects
 -----------
 #. Under the **Projecs** tab in Sample Projects list showing all the reloaded sample projects, click on the **Load Sample Project** button to load a single project.
 
@@ -73,10 +73,10 @@ Step 3: Loading Sample Projects
       :alt: Load Sample Projects
       :width: 65% 
 
-UPDATE SAMPLE DATA PATH AND RELOAD SAMPLE PROJECTS
+Update Sample Data Path and Reload Sample Projects
 -------------------
 
-Step 1: Updating the Sample Data Path
+Step 1 : Updating the Sample Data Path
 +++++++++++
 #. Navigate to **ADMINISTRATION** and click on **Sample Projects**.
 
@@ -108,7 +108,7 @@ Step 1: Updating the Sample Data Path
       :alt: Load Sample Projects
       :width: 65% 
 
-Step 2: Reloading the Sample Projects
+Step 2 : Reloading the Sample Projects
 ++++++++++++++
 #. If you click on Drop And Reload All Sample Projects, all the current sample projects will be deleted, and all sample projects will be reloaded.
 
@@ -127,7 +127,7 @@ Step 2: Reloading the Sample Projects
       :width: 65% 
 
 
-WHEN THE SAMPLE DATA PATH IS EMPTY
+When the Sample Data Path is Empty
 ++++++++++
 
 If the sample data path variable **app.sampleDataPath** is set to empty, it will take the path as **/data**. 

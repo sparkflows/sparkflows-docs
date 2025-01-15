@@ -15,102 +15,127 @@ Step 1 :  Configure the Path
       :alt: Load Sample Projects
       :width: 65% 
 
-Navigate to Administration->Configurations, as shown below.
+#. Navigate to **Administration->Configurations**, as shown below.
+   
+   .. figure:: ../../_assets/tutorials/load-sample-project/adminPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+#. Search the variable **app.sampleDataPath** and enter the path of the folder where the data for sample projects has been stored. Then Click on **Save Configurations** button.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/ConfigurationsPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+   The saved configurations are displayed below showing the notification "Configurations Saved Successfully":
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/Savedconfigurations.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-Search the variable app.sampleDataPath and then enter the path of the folder where the data for sample projects has been stored.
+Step 2 : Reloading Sample Project
+---------------
+#. Navigate to **Projects** tab and click on **Reload Sample Project**.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/AllProjectlistPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-And then click on save the configurations.
+#. It will then display a pop-up showing the path configured by the admin, as shown below. Then click on **Submit** button.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/reloadPopUp.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+Step 3: Loading Sample Projects
+-----------
+#. Under the **Projecs** tab in Sample Projects list showing all the reloaded sample projects, click on the **Load Sample Project** button to load a single project.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/sampleProjectListPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+#. If the user tries to load the project which is already present, it will show an **error message** below the **PROJECT NAME** text box, as shown below.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/UniqueProjectName.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-Step 2 : Now navigate to project tab and click on Reload sample project.
+#. To proceed further, the user can give a new project name after clicking on the sample project that already exists.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/NewProjectName.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+   Now, it will display the loaded project in **All** tab of the Projects List page, as shown below.
 
-It will then show a pop-up where in the path configured by the admin is being displayed.
+   .. figure:: ../../_assets/tutorials/load-sample-project/NewProjectNameInProject.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+UPDATE SAMPLE DATA PATH AND RELOAD SAMPLE PROJECTS
+-------------------
+#. Navigate to **ADMINISTRATION** and click on **Sample Projects**.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/adminPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-Click on submit to reload the projects.
+#. The text box beside the update sample data path button will reflect the path which is being set in the configuration by the admin.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/adminSampleProjectsPage.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-Step 3: Now  under the project tab in projects list page , we can see a sample projects tab , which shows all the reloaded sample projects.
+#. To update the sample data path, enter the desired path and then click the **Update Sample Data Path** button. The updated data path will also be saved in the Configurations.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/updateSampleDataPath.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+#. If you click on Drop All Sample Projects, all the sample projects will be deleted.
 
-Step 4 : On the project list page , Click on the Load Sample Project button to load a single project.
-Step 5 : If the user tries to load the project which is already present, it will show an error message below the text box.
+   .. figure:: ../../_assets/tutorials/load-sample-project/DropAllProjects.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+   The Sample Projects tab on the Projects List page will no longer be visible
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/NoSampelProjectTab.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
+#. If you click on Drop And Reload All Sample Projects, all the current sample projects will be deleted, and all sample projects will be reloaded.
 
+   .. figure:: ../../_assets/tutorials/load-sample-project/DropAndReload.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
-Step 6 : To proceed further, the user can give a new project name after clicking on the sample project which already exists
+#. To reload specific sample projects, select the desired sample projects and click on **Reload Selected Sample Projects**.
 
-
-And then it will show the loaded project in All tab of the Projects List page
-
-
-
-
-UPDATE SAMPLE DATA PATH AND RELOAD SAMPLE PROJECTS.
-
-Step 1 :  Navigate to the administration tab and then click on the sample projects.
-
-
-The text box beside the update sample data path button will reflect the path which is being set in the configuration by admin.
-
-
-
-Step 2 : Now to update the sample data path , update the desired path and then click on the update sample data path button .
-This updated data path will also be saved in the configuration now.
-
-
-
-
-
-Step 3: Now if we click on the Drop All Sample Projects.
-
-All the sample projects would be deleted and the tab Sample Projects in Project List page will not be seen
-
-
-
-
-
-
-
-
-Step 4 : Now if we click on the Drop And Reload All Sample Projects.
-
- It would drop all the current sample projects and reload all the sample projects again
-
-
-
-
-Step :5 To reload only the required sample projects, we can select the sample projects to be loaded and then click on Reload Selected Sample Projects.
-
-
-
-
-
-
+   .. figure:: ../../_assets/tutorials/load-sample-project/SelectedReloadProjects.png
+      :alt: Load Sample Projects
+      :width: 65% 
+
+   .. figure:: ../../_assets/tutorials/load-sample-project/ReloadedSelectedSampleProejct.png
+      :alt: Load Sample Projects
+      :width: 65% 
 
 
 WHEN THE SAMPLE DATA PATH IS EMPTY
+++++++++++
 
-If the sample data path variable `app.sampleDataPath` is set to empty , it would take the path as /data. 
+If the sample data path variable **app.sampleDataPath** is set to empty, it will take the path as **/data**. 
 
+.. figure:: ../../_assets/tutorials/load-sample-project/EmptySampleDataPath.png
+   :alt: Load Sample Projects
+   :width: 65% 
 
+.. figure:: ../../_assets/tutorials/load-sample-project/DefaultPath.png
+   :alt: Load Sample Projects
+   :width: 65% 
 
-
- Note : The sample data path can be set to empty only through configurations.
+ 
+.. note:: The sample data path can be set to empty only through configurations.
 
 

@@ -75,6 +75,9 @@ Step 3: Loading Sample Projects
 
 UPDATE SAMPLE DATA PATH AND RELOAD SAMPLE PROJECTS
 -------------------
+
+Step 1: Updating the Sample Data Path
++++++++++++
 #. Navigate to **ADMINISTRATION** and click on **Sample Projects**.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/adminPage.png
@@ -99,12 +102,14 @@ UPDATE SAMPLE DATA PATH AND RELOAD SAMPLE PROJECTS
       :alt: Load Sample Projects
       :width: 65% 
 
-   The Sample Projects tab on the Projects List page will no longer be visible
+   The Sample Projects tab on the Projects List page will no longer be visible.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/NoSampelProjectTab.png
       :alt: Load Sample Projects
       :width: 65% 
 
+Step 2: Reloading the Sample Projects
+++++++++++++++
 #. If you click on Drop And Reload All Sample Projects, all the current sample projects will be deleted, and all sample projects will be reloaded.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/DropAndReload.png

@@ -1,7 +1,7 @@
 Loading Sample Projects
 =============================
 
-This tutorial explains the process of loading sample projects.
+This tutorial explains the process of loading/reloading sample projects.
 
 This feature of load sample projects allows the user to load the data from any path configured by admin. It also provides the user to create projects that are private and accessible only to them."
 

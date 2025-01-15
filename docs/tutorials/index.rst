@@ -70,6 +70,10 @@ Tutorials
     
     
     :doc:`/tutorials/cdc/index`
+
+    ---
+
+    :doc:`/tutorials/reload-sample-projects/index`
     
     
     
@@ -92,7 +96,7 @@ Tutorials
    ocr/index.rst
    pipelines/index.rst
    cdc/index.rst
-   
+   reload-sample-projects/index.rst
 
 
   

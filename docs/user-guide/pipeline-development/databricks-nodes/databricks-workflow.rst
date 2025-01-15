@@ -1,6 +1,6 @@
 Databricks Workflow
 =========
-**Databricks Workflow** node can be used to execute a scala Workflow defined in the Project.
+**Databricks Workflow** node can be used to execute a Workflow defined in the Project.
 
 **Databricks Workflow** node can be configured as below:
 

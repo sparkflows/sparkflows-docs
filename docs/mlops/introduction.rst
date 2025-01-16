@@ -1,5 +1,6 @@
 Introduction
 ======
+This document provides an in-depth overview of MLOps practices, Sparkflows MLOps capabilities, and tools for model deployment, serving, monitoring, and governance.
 
 Understanding MLOps and Its Purpose
 ********

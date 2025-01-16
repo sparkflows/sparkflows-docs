@@ -7,7 +7,7 @@ This feature of load sample projects allows the user to load the data from any p
 
 The steps for the same are as follows:
 
-Step 1 : Configure the Path
+Step 1 : Configuring the Path
 ----------------------------------
 #. **Login** to Fire Insights.
 
@@ -49,7 +49,7 @@ Step 2 : Reloading Sample Project
 
 Step 3 : Loading Sample Projects
 -----------
-#. Under the **Projecs** tab in Sample Projects list showing all the reloaded sample projects, click on the **Load Sample Project** button to load a single project.
+#. Under the **PROJECTS** tab in Sample Projects list showing all the reloaded sample projects, click the **Load Sample Project** button to load a single project.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/sampleProjectListPage.png
       :alt: Load Sample Projects
@@ -76,9 +76,9 @@ Step 3 : Loading Sample Projects
 Update Sample Data Path and Reload Sample Projects
 -------------------
 
-Step 1 : Updating the Sample Data Path
+**Step 1 : Updating the Sample Data Path**
 +++++++++++
-#. Navigate to **ADMINISTRATION** and click on **Sample Projects**.
+#. Navigate to **ADMINISTRATION -> Operations -> Sample Projects**.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/adminPage.png
       :alt: Load Sample Projects
@@ -96,7 +96,7 @@ Step 1 : Updating the Sample Data Path
       :alt: Load Sample Projects
       :width: 65% 
 
-#. If you click on Drop All Sample Projects, all the sample projects will be deleted.
+#. If you click on **Drop All Sample Projects**, all the sample projects will be deleted.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/DropAllProjects.png
       :alt: Load Sample Projects
@@ -108,9 +108,9 @@ Step 1 : Updating the Sample Data Path
       :alt: Load Sample Projects
       :width: 65% 
 
-Step 2 : Reloading the Sample Projects
+**Step 2 : Reloading the Sample Projects**
 ++++++++++++++
-#. If you click on Drop And Reload All Sample Projects, all the current sample projects will be deleted, and all sample projects will be reloaded.
+#. If you click on **Drop And Reload All Sample Projects**, all the current sample projects will be deleted, and all sample projects will be reloaded.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/DropAndReload.png
       :alt: Load Sample Projects
@@ -127,7 +127,7 @@ Step 2 : Reloading the Sample Projects
       :width: 65% 
 
 
-When the Sample Data Path is Empty
+**Empty Sample Data Path**
 ++++++++++
 
 If the sample data path variable **app.sampleDataPath** is set to empty, it will take the path as **/data**. 
@@ -141,6 +141,6 @@ If the sample data path variable **app.sampleDataPath** is set to empty, it will
    :width: 65% 
 
  
-.. note:: The sample data path can be set to empty only through configurations.
+.. note:: The sample data path can be set to empty only through the Configurations.
 
 

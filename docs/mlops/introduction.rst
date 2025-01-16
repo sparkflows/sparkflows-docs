@@ -1,7 +1,37 @@
 Introduction
 ======
 
-MLOps is a set of best practices and tools that aims to streamline and automate the end-to-end machine learning lifecycle. It bridges the gap between data science and IT operations, ensuring the efficient deployment, monitoring, and maintenance of machine learning models in production. MLOps involves version control for models and data, continuous integration and continuous delivery (CI/CD) pipelines, automated testing, and monitoring for model performance and drift. By implementing MLOps, organizations can accelerate their machine learning development, reduce errors, and ensure models remain effective and reliable over time. Sparkflows MLOps allows you to deploy varieties of Machine Learning models. These models can be either built in Sparkflows or models built outside of Sparkflows can also be onboarded and served.
+Understanding MLOps and Its Purpose
+********
+**Definition**
+
+* It is a set of best practices and tools designed to streamline and automate the end-to-end machine learning lifecycle.
+* It Bridges the gap between data science and IT operations.
+
+**Core Goals**
+
+* Efficient deployment of machine learning models.
+* Continuous monitoring and maintenance of models in production.
+
+**Key Components**
+
+* Version Control: Manages versioning for both models and data to ensure traceability.
+* CI/CD Pipelines: Facilitates continuous integration and continuous delivery for rapid iteration and deployment.
+* Automated Testing: Verifies the performance and functionality of models before deployment.
+* Performance & Drift Monitoring: Tracks model performance and detects drift to ensure reliability over time.
+
+**Benefits**
+
+By implementing MLOps, organisations can get following benefits:
+
+* Accelerates Development: Reduces time spent on manual processes.
+* Minimizes Errors: Identifies and resolves issues proactively.
+* Ensures Model Reliability: Keeps models effective and up-to-date with changing data trends.
+
+**Sparkflows and MLOps Integration**
+
+* Model Deployment using Sparkflows MLOps: Enables deployment of various machine learning models.
+* Model Compatibility: Supports models either built within Sparkflows or allows onboarding and serving of models built outside Sparkflows.
 
 **MLOps Architecture:**
 
@@ -25,7 +55,7 @@ Sparkflows MLOps Offering is bundled with various built-in capabilities as expla
 **Model Management Dashboard**
 ***********************
 
-Sparkflows Model Management Dashboard Actions:
+Sparkflows Model Management Dashboard includes following Actions:
 
 - Explore and search models created by different workflows in different projects by different users.
 - View model details.
@@ -100,7 +130,7 @@ A policy can be attached to the model to trigger auto-retraining. This policy ca
 **Model Security & Governance**
 ***********************
 
-Sparkflows ensure the following security measures.
+Sparkflows ensures the following security measures.
 
 - Data Privacy & Protection
 - Secure Model Hosting

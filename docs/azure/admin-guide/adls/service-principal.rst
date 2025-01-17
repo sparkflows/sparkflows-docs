@@ -69,6 +69,15 @@ Step 2: Assign Roles to the Service Principal
 
       #. In the Role tab, search for and select Storage Blob Data Contributor (or Storage Blob Data Reader for read-only access).
 
+   #. Assign Access to the Service Principal:
+
+      #. In the Members tab, click Select members.
+      #. Search for the name of your Service Principal (the application you registered earlier).
+      #. Select the Service Principal and click Select.
+
+   #. Review and Assign:
+
+      #. Click Review + assign to confirm the role assignment.
 
 
 

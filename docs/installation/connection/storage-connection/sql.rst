@@ -50,7 +50,7 @@ Creating Connection
 #. From the Dashboard page, click **Administration** tab in the top-bar.
 #. From the Administration page, click **Global Connections**.
    
-   .. figure:: ../..//_assets/connections/admin-page.png
+   .. figure:: ../../../_assets/connections/admin-page.png
         :alt: SQL Server
         :width: 70%
 
@@ -59,7 +59,7 @@ Creating Connection
    - **Add Connection For All**: to create a global level connection.
    - **Add Connection For Group**: to create a group level connection.
    
-   .. figure:: ../..//_assets/connections/add-connection-page.png
+   .. figure:: ../../../_assets/connections/add-connection-page.png
         :alt: SQL Server
         :width: 70%
 
@@ -67,7 +67,7 @@ Creating Connection
 
    For more details on configuration parameters read about :ref:`configuration details.<Configuration Details>`
 
-   .. figure:: ../..//_assets/connections/sql_connection.PNG
+   .. figure:: ../../../_assets/connections/sql_connection.PNG
         :alt: SQL server
         :width: 55%
 
@@ -81,7 +81,7 @@ Creating Connection
 #. Click **Connections** on the LHS.
 #. Click **Add Connection or Add new connection**.
 
-   .. figure:: ../..//_assets/connections/add-connection-project.png
+   .. figure:: ../../../_assets/connections/add-connection-project.png
         :alt: SQL Server
         :width: 70%
 
@@ -93,7 +93,7 @@ Using Connection
 --------
 Now, you are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
 
-   .. figure:: ../..//_assets/connections/sql_node.PNG
+   .. figure:: ../../../_assets/connections/sql_node.PNG
       :alt: SQL Server
       :width: 70%
 

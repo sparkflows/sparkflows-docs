@@ -44,6 +44,7 @@ Creating Connection
 
 **Steps to create connection**
 +++++
+
 **Create Global and Group Connections:**
 
 #. **Login** to Fire Insights.

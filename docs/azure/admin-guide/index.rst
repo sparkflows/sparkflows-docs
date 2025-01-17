@@ -35,6 +35,13 @@ Azure Admin Guide
 
     ---
 
+    :doc:`/azure/admin-guide/adls/index`
+
+    Setup ADLS with service Principal.
+
+    ---
+
+
     :doc:`/azure/admin-guide/adls`
 
     Configured ADLS in Sparkflows.

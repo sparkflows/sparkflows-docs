@@ -48,5 +48,27 @@ Step 1: Create a Service Principal in Azure
 
       #. Copy the Client Secret value. You won’t be able to see it again after leaving the page.
 
+Step 2: Assign Roles to the Service Principal
+-----
+
+#. Assign Roles to the Service Principal
+
+   #. Go to Your Storage Account:
+
+      #. Navigate to your Azure Storage Account in the Azure portal.
+
+   #. Open Access Control (IAM):
+
+      #. In the left-hand menu, click Access Control (IAM).
+
+   #. Add a Role Assignment:
+
+      #. Click + Add and select Add role assignment.
+
+   #. Select the Role:
+
+      #. In the Role tab, search for and select Storage Blob Data Contributor (or Storage Blob Data Reader for read-only access).
+
+
 
 

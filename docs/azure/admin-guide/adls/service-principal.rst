@@ -28,9 +28,17 @@ Step 1: Create a Service Principal in Azure
        #. Provide a name for your application (e.g., `Databricks-Service-Principal`).
        #. Leave the other fields as default and click Registe
 
+          .. figure:: ../../../_assets/azure/service_principal.png
+             :alt: adls
+             :width: 70%
+
     #. Note Down the Application Details:
 
        #. After registration, note down the Application (client) ID and Directory (tenant) ID from the overview page.
+
+          .. figure:: ../../../_assets/azure/service_principal_1.png
+             :alt: adls
+             :width: 70%
 
 #. Create a Client Secret
 
@@ -47,6 +55,11 @@ Step 1: Create a Service Principal in Azure
    #. Note Down the Client Secret:
 
       #. Copy the Client Secret value. You won’t be able to see it again after leaving the page.
+
+         .. figure:: ../../../_assets/azure/service_principal_2.png
+             :alt: adls
+             :width: 70%
+
 
 Step 2: Assign Roles to the Service Principal
 -----
@@ -69,12 +82,22 @@ Step 2: Assign Roles to the Service Principal
 
       #. In the Role tab, search for and select Storage Blob Data Contributor (or Storage Blob Data Reader for read-only access).
 
+         .. figure:: ../../../_assets/azure/service_principal_3.png
+             :alt: adls
+             :width: 70%
+
+
    #. Assign Access to the Service Principal:
 
       #. In the Members tab, click Select members.
       #. Search for the name of your Service Principal (the application you registered earlier).
       #. Select the Service Principal and click Select.
 
+         .. figure:: ../../../_assets/azure/service_principal_4.png
+             :alt: adls
+             :width: 70%
+ 
+        
    #. Review and Assign:
 
       #. Click Review + assign to confirm the role assignment.

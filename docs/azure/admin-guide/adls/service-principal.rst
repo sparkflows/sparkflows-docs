@@ -14,20 +14,24 @@ Step 1: Create a Service Principal in Azure
 
 #. Register an Application in Azure Active Directory
 
-   #. Go to the Azure Portal:
-   #. Navigate to the [Azure portal](https://portal.azure.com/).
+    #. Go to the Azure Portal:
+      
+       #. Navigate to the [Azure portal](https://portal.azure.com/).
 
-#. Open Azure Active Directory:
+    #. Open Azure Active Directory:
 
-   #. In the left-hand menu, select Azure Active Directory.
+       #. In the left-hand menu, select Azure Active Directory.
 
-#. Register a New Application:
+    #. Register a New Application:
 
-   #. Go to App registrations > New registration.
-   #. Provide a name for your application (e.g., `Databricks-Service-Principal`).
-   #. Leave the other fields as default and click Registe
+       #. Go to App registrations > New registration.
+       #. Provide a name for your application (e.g., `Databricks-Service-Principal`).
+       #. Leave the other fields as default and click Registe
 
-#. Note Down the Application Details:
+    #. Note Down the Application Details:
 
-   #. After registration, note down the Application (client) ID and Directory (tenant) ID from the overview page.
+       #. After registration, note down the Application (client) ID and Directory (tenant) ID from the overview page.
+
+#. Create a Client Secret
+
 

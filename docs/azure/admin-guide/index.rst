@@ -41,12 +41,6 @@ Azure Admin Guide
 
     ---
 
-    :doc:`/azure/admin-guide/adls`
-
-    Configured ADLS in Sparkflows.
-
-    ---
-
     :doc:`/azure/admin-guide/synapse/index`
 
     Setup Azure Synapse in Sparkflows.
@@ -73,7 +67,6 @@ Azure Admin Guide
    application_gateway.rst
    access-and-reload.rst
    adls/index.rst
-   adls.rst
    synapse/index.rst 
    azure-databricks.rst
    mount-adls.rst

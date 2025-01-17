@@ -34,4 +34,19 @@ Step 1: Create a Service Principal in Azure
 
 #. Create a Client Secret
 
+   #. Go to Certificates & Secrets:
+
+      #. In the left-hand menu of your registered application, select Certificates & secrets.
+
+   #. Create a New Client Secret:
+
+      #. Click New client secret.
+      #. Provide a description and set an expiration period.
+      #. Click Add.
+
+   #. Note Down the Client Secret:
+
+      #. Copy the Client Secret value. You won’t be able to see it again after leaving the page.
+
+
 

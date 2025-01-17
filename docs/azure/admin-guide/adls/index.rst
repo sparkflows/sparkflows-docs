@@ -25,12 +25,14 @@ Azure Data Lake Storage (ADLS) can be configured and accessed using two primary 
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
     :doc:`/azure/admin-guide/adls/service-principal`
+    :doc:`/azure/admin-guide/adls/adls-configuration`
 
-    Setup Service Principal for Azure Data Lake Storage.
+    Setup Service Principal & Manged Identity for Azure Data Lake Storage.
 
 
 .. toctree::
    :hidden:
 
    service-principal.rst
+   adls-configuration.rst
    

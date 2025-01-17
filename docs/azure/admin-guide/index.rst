@@ -72,6 +72,7 @@ Azure Admin Guide
    installation-guide/index.rst
    application_gateway.rst
    access-and-reload.rst
+   adls/index.rst
    adls.rst
    synapse/index.rst 
    azure-databricks.rst

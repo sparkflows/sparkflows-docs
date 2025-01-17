@@ -28,4 +28,9 @@ Azure Data Lake Storage (ADLS) can be configured and accessed using two primary 
 
     Setup Service Principal for Azure Data Lake Storage.
 
-    ---
+
+.. toctree::
+   :hidden:
+
+   service-principal.rst
+   

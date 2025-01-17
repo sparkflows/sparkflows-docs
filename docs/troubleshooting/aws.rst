@@ -1,10 +1,11 @@
-AWS Assume Roles
+AWS
 ====
 
-Fire Insights can be configured with assume roles. This document segment addresses common challenges encountered by our users while using Assume Roles and provides effective resolutions for each issue.
 
 1. IOException: ''Unset property fs.s3a.assumed.role.arn''
 --------------
+
+Fire Insights can be configured with assume roles. This document segment addresses common challenges encountered by our users while using Assume Roles and provides effective resolutions for each issue.
 
 **Problem**
 +++++

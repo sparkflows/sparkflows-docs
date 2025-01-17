@@ -63,9 +63,9 @@ Below are steps for troubleshooting some of the common issues.
     
     ---
     
-    :doc:`/troubleshooting/assume_role`
+    :doc:`/troubleshooting/aws`
     
-    Steps to troubleshoot assume role
+    Steps to troubleshoot aws
   
     ---
     
@@ -158,7 +158,7 @@ Below are steps for troubleshooting some of the common issues.
    logs.rst
    ldap.rst
    databricks.rst
-   assume_role.rst
+   aws.rst
    postbackurl.rst
    github.rst
    pipelines.rst

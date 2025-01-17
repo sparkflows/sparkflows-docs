@@ -104,3 +104,8 @@ Step 2: Assign Roles to the Service Principal
 
 
 
+Now you can use these details to Configured ADLS in Fire Insights, `click here. <https://docs.sparkflows.io/en/latest/azure/admin-guide/adls.html>`_
+
+.. Note:: The above Configurations are needed for Interactive mode, For Execution mode the Compute engine need to have access of resources.
+
+

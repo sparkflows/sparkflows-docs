@@ -8,8 +8,8 @@ Sparkflows is a platform designed for creating, managing, and executing data wor
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/azure/admin-guide/synapse/connection`
+    :doc:`/azure/admin-guide/adls/service-principal`
 
-    Setup Azure Synapse Connection in Sparkflows.
+    Setup Service Principal for Azure Data Lake Storage.
 
     ---

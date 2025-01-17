@@ -1,7 +1,7 @@
 Azure Data Lake Storage Guide
 ====
 
-Sparkflows is a platform designed for creating, managing, and executing data workflows/Pipelines. It integrates with various data systems, including Azure Data Lake Storage (ADLS), allowing users to configure and automate the flow of data to and from ADLS.
+Fire Insights integrates with various data systems, including Azure Data Lake Storage (ADLS), allowing users to configure and automate the flow of data to and from ADLS.
 
 Azure Data Lake Storage (ADLS) can be configured and accessed using two primary methods for authentication and authorization: Service Principal and Managed Identity. Here's a description of each:
 

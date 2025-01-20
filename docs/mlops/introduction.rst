@@ -149,14 +149,6 @@ Sparkflows ensures the following security measures.
    :hidden:
 
    mlops_modules.rst
-   model_management_dashboard.rst
-   model_lifecycle_action.rst
-   model_deployment.rst
-   user-guide/offline-model-serving.rst
-   user-guide/online-model-serving.rst
-   model_monitoring.rst
-   model_observability_retraining.rst
-
    
 
 

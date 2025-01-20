@@ -1,4 +1,4 @@
-V3.2.93 - January 15th, 2025
+Version 3.2.93 - January 15th, 2025
 =============================
 
 New Features

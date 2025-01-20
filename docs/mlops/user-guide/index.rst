@@ -34,11 +34,7 @@ User Guide
 
     ---
     
-    :doc:`/mlops/user-guide/model_monitoring`
-
-    ---
-    
-    :doc:`/mlops/user-guide/model_monitoring`
+    :doc:`/mlops/user-guide/model_observability_retraining`
 
     
 

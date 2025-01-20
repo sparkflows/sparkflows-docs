@@ -12,7 +12,7 @@ Pipeline
   * Create Databricks Cluster 
   * Run Job
   * Run Databricks Notebook 
-  * Run Databricks Workflow (Scala or Pyspark) 
+  * Run Databricks Workflow (Scala or PySpark) 
   * Terminate Databricks Cluster
 
 Snowflake

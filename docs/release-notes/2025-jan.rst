@@ -1,3 +1,59 @@
 V3.2.93 - January 15th, 2025
 =============================
 
+New Features
+---------------
+Pipeline
++++++++++
+
+* **Data Integration with Pipelines :** Introduced multiple Airflow Operators to run workflows and notebooks on Databricks.
+* **New Databricks Pipeline Nodes :** Introduced the following new pipeline nodes:
+  
+  * Create Databricks Cluster 
+  * Run Job
+  * Run Databricks Notebook 
+  * Run Databricks Workflow (Scala or Pyspark) 
+  * Terminate Databricks Cluster
+
+Snowflake
+++++++++++
+* **Snowflake Operator :** Added functionality to execute stored procedures directly within pipelines using the new Snowflake operator. Other Snowflake-related nodes in the workflow, such as ReadSnowflake, WriteSnowflake, and QuerySnowflake, can be utilized to build the workflow. Once the workflow is created, it can then be attached to the pipeline.
+
+Amazon EMR
+++++++++++++++
+
+* **EMR 7.4 Support :** Added support for Amazon EMR version 7.4, ensuring enhanced compatibility and improved functionality within pipelines.
+
+Databricks
+++++++++
+* **Databricks Workspace Connections :** Added a new connection type for Databricks Workspace. This connection, configurable in the Airflow connection tab, allows interaction with the selected workspace through various Databricks Pipeline nodes.
+
+Improvements
+------------
+
+Pipeline
+++++++++
+* **Multiple Properties in Create EMR JobFlow :** Added support for specifying multiple key-value pairs under Configurations.
+
+Administration
++++++++++++++++++
+* **Reload Sample Projects Data Path :** Admins can configure the data path for sample projects.
+* **Load Sample Projects :** Users can load any sample project, which will remain private to them.
+
+Documentation
+-----------------
+
+* **Databricks Integration for Pipelines :** Added documentation for using Airflow-Databricks operators and integrating Databricks within pipelines.
+* **New Databricks Pipeline Nodes :** Added detailed documentation for creating and managing Databricks clusters, running jobs, executing notebooks, and workflows (Scala or PySpark).
+* **EMR 7.4 Support :** Updated documentation for configuring and utilizing Amazon EMR version 7.4 with Spark and Delta.
+* **Load Sample Projects :** Updated documentation for reloading and personalizing sample projects.
+
+
+
+
+
+
+
+
+
+

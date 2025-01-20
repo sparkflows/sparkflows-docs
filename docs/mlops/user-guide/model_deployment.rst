@@ -16,7 +16,7 @@ Model Deployment Options
 
 **Sparkflows enables importing external models:**
 
-.. figure:: ../_assets/mlops/7_External_Model_Deployment.png
+.. figure:: ../../_assets/mlops/7_External_Model_Deployment.png
    :alt: MLOps Architecture
    :width: 70%
 
@@ -24,11 +24,11 @@ Model Deployment Options
 
 Sparkflows allows end users to deploy a Champion model in Production and then challenge them using instances of Challenger Models.
 
-.. figure:: ../_assets/mlops/9_Champion_Challenger.png
+.. figure:: ../../_assets/mlops/9_Champion_Challenger.png
    :alt: MLOps Architecture
    :width: 70%
 
-.. figure:: ../_assets/mlops/10_Champion_Challenger.png
+.. figure:: ../../_assets/mlops/10_Champion_Challenger.png
    :alt: MLOps Architecture
    :width: 70%
 

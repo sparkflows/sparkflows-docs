@@ -14,7 +14,7 @@ To Enable Dataproc Connection:
 
      connection.dataproc.enabled : true
 
-   .. figure:: ../../_assets/gcp/dataproc_connection.PNG
+   .. figure:: ../../../_assets/gcp/dataproc_connection.PNG
       :alt: GCP Configuration Details
       :width: 60%
 
@@ -29,13 +29,13 @@ Dataproc Connection details can be specified in Global Connections. To add:
 
    Specify the **Connection Name** and **Postback Url** in the General tab.
    
-   .. figure:: ../../_assets/gcp/dataproc_create.PNG
+   .. figure:: ../../../_assets/gcp/dataproc_create.PNG
       :alt: GCP Configuration Details
       :width: 60%
 
 #. Specify the **location of Fire Core JAR**, **Project Id**, **Region**, **Dataproc Cluster name**, **Main Class**  in the Dataproc tab.
  
-   .. figure:: ../../_assets/gcp/dataproc_configurations.PNG
+   .. figure:: ../../../_assets/gcp/dataproc_configurations.PNG
       :alt: GCP Configuration Details
       :width: 60%
 

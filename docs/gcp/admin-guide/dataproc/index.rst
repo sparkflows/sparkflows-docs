@@ -16,7 +16,7 @@ Sparkflows can be configured to use Data Proc Connection and submit the job on i
 
     :doc:`/gcp/admin-guide/dataproc/connection`
 
-    Install Sparkflows using Sparkflows Docker Image.
+    Data Proc Connection Setup.
 
     
 

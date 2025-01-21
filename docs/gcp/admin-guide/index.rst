@@ -39,6 +39,6 @@ GCP Admin Guide
    
    overview.rst
    Infrastructure-gcp.rst
-   installation-guide/index.rst
    gcp-prerequisites.rst
+   installation-guide/index.rst
    dataproc/index.rst

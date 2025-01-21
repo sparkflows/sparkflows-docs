@@ -17,7 +17,6 @@ Sparkflows can be configured to use Data Proc Connection and submit the job on i
     :doc:`/gcp/admin-guide/dataproc/connection`
 
     Data Proc Connection Setup.
-
     
 
 .. toctree::

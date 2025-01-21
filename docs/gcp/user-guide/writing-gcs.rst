@@ -18,7 +18,7 @@ To find Save Data nodes:
 #. In the data connectors, search for Save Nodes like **Save CSV**, **Save Parquet**, **Save JSON**, **Read Bigquery** etc. 
 #. Drag and drop it to the workflow editor.
 
-   .. figure:: ../../_assets/gcp/gs_save_workflow.PNG
+   .. figure:: ../../_assets/gcp/gs_save_workflow.png
       :alt: Write to GCS
       :width: 60%
    
@@ -29,7 +29,7 @@ To configure:
 #. Double-click on the selected Save Data Node like **Save CSV**, **Save Parquet**, **Save JSON**, **Read Bigquery** etc. 
 #. Configure the **Save CSV** node as below. Fields would vary based on the node selected.
 
-   .. figure:: ../../_assets/gcp/gs_save_configuration.PNG
+   .. figure:: ../../_assets/gcp/gs_save_configuration.png
       :alt: Write to GCS
       :width: 60%
 
@@ -42,6 +42,6 @@ Step 4 : Run the Workflow on Dataproc Connection
 
 #. Execute the workflow on Dataproc to write data to GCS using Dataproc Connection. 
 
-   .. figure:: ../../_assets/gcp/gs_savegcs_execution.PNG
+   .. figure:: ../../_assets/gcp/gs_savegcs_execution.png
       :alt: Write to GCS
       :width: 60%

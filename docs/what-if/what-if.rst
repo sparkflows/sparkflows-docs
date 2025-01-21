@@ -88,21 +88,17 @@ Use the sliders and dropdowns to modify input values and click on **Score** to v
 Step 5 : Analyze Use Cases
 +++++++++++++++++++++++++++++
 
-Step 5A : Regression Use Case
-..............................
-Perform What-If analysis to evaluate regression use cases.
+#. Perform What-If analysis to evaluate **regression** use cases.
 
-.. figure:: ../_assets/what-if/whatif-6-click-on-score-gets-shapley-contributions-regression.png
-   :alt: What-If
-   :width: 65%
+   .. figure:: ../_assets/what-if/whatif-6-click-on-score-gets-shapley-contributions-regression.png
+      :alt: What-If
+      :width: 65%
 
-Step 5B : Binomial Classification Use Case
-...........................................
-Conduct What-If analysis to explore binomial classification predictions.
+#. Conduct What-If analysis to explore **binomial** classification predictions.
 
-.. figure:: ../_assets/what-if/whatif-7-click-on-score-gets-shapley-contributions-classification.png
-   :alt: What-If
-   :width: 65%
+   .. figure:: ../_assets/what-if/whatif-7-click-on-score-gets-shapley-contributions-classification.png
+      :alt: What-If
+      :width: 65%
 
 
 

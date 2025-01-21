@@ -1,4 +1,4 @@
-Data Proc
+Data Proc Configurations
 ======
 
 Sparkflows can be configured to use Data Proc Connection and submit the job on it:

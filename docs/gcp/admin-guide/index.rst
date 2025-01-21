@@ -17,6 +17,13 @@ GCP Admin Guide
 
     ---
 
+    :doc:`/gcp/admin-guide/installation-guide/index`
+
+    Deploy Sparkflows on GCP.
+
+    ---
+
+
     :doc:`/gcp/admin-guide/gcp-prerequisites`
 
     Prerequisites for GCP integration.
@@ -34,5 +41,6 @@ GCP Admin Guide
    
    overview.rst
    Infrastructure-gcp.rst
+   installation-guide/index.rst
    gcp-prerequisites.rst
    admin_configuration.rst

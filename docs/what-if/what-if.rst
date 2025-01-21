@@ -13,7 +13,7 @@ What-If Analysis is a powerful technique that allows users to explore and evalua
 
 What-If are invaluable tools for data scientists and business analysts alike. They enable you to gain insights into model predictions under varying input scenarios, making them essential for debugging, explanation, fairness, and security of your machine learning models.
 
-**he What-If Simulator:**
+**The What-If Simulator:**
 
 Once you’ve trained a machine learning model using Sparkflows, you gain access to the What-If simulator, a dynamic feature that empowers you to experiment with a multitude of input combinations for critical features and observe the resulting predictions. What-If Analysis is a fundamental component of this, allowing you to investigate model behavior and output stability.
 

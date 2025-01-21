@@ -16,6 +16,6 @@ GCP Configuration details can be specified in the Fire Insights Administration U
 #. Specify the **Project Id**.
 #. Specify the **path** to the Service Account Key file.
 
-   .. figure:: ../../_assets/gcp/gcp_enable.PNG
+   .. figure:: ../../../_assets/gcp/gcp_enable.PNG
       :alt: GCP Configuration Details
       :width: 60%

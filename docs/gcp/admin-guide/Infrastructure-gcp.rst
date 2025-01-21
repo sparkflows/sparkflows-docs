@@ -1,4 +1,4 @@
-Google Cloud Platform (GCP)
+Infrastructure Pre-requisites
 ----
 
 This document outlines the necessary prerequisites for deploying Fire Insights Infrastructure on Google Cloud Platform.

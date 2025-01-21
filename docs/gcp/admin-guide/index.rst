@@ -29,7 +29,7 @@ GCP Admin Guide
     
     ---
 
-    :doc:`/gcp/admin-guide/dataproc`
+    :doc:`/gcp/admin-guide/dataproc/index`
 
     Configurations for GCP integration and Data Proc Connection.
 

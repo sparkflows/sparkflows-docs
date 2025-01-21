@@ -21,12 +21,19 @@ GCP User Guide
 
     Reading from GCS.
 
+    ---
+
+    :doc:`/gcp/user-guide/writing-gcs`
+
+    Writing to GCS.
+
 .. toctree::
    :hidden:
 
    reading-bigquery.rst
    writing-bigquery.rst
    reading-gcs.rst
+   writing-gcs.rst
 
 
    

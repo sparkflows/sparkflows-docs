@@ -11,6 +11,12 @@ GCP Admin Guide
     
     ---
 
+    :doc:`/gcp/admin-guide/Infrastructure-gcp`
+
+    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on Azure.
+
+    ---
+
     :doc:`/gcp/admin-guide/gcp-prerequisites`
 
     Prerequisites for GCP integration.
@@ -27,5 +33,6 @@ GCP Admin Guide
    :hidden:
    
    overview.rst
+   Infrastructure-gcp.rst
    gcp-prerequisites.rst
    admin_configuration.rst

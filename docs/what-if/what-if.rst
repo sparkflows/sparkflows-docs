@@ -38,12 +38,10 @@ Incorporating What-If Analysis into your machine learning workflow with Sparkflo
 
 Steps to Access and Use the What-If Tool in Sparkflows
 ---------------------------------------------------------
-
 Below are the steps and ways on how the What-If can be accessed in Sparkflows:
 
 Step 1 : Access the What-If Tool
 ++++++++++++++++++++++++++++++++++
-
 Access the What-If tool from either the left menu of the Model Repository page or the main menu on top.
 
 .. figure:: ../_assets/what-if/whatif-1.png
@@ -52,13 +50,11 @@ Access the What-If tool from either the left menu of the Model Repository page o
 
 Step 2 : Select Dataset and Engine to generate Input Controls
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 Select the dataset and engine to perform the What-If analysis, and click on Run.
 
    .. figure:: ../_assets/what-if/whatif-2-select-dataset-engine.png
       :alt: What-If
       :width: 65%
-
 
 Clicking on Run performs the summary statistic computation on the data and automatically creates the dropdown for categorical features and sliders for numerical features as shown below:
 
@@ -73,7 +69,6 @@ Clicking on Run performs the summary statistic computation on the data and autom
 
 Step 3 : View Summary Statistics
 +++++++++++++++++++++++++++++++++++++
-
 Access the summary statistics for the data in the **Features** tab.
 
 .. figure:: ../_assets/what-if/whatif-4-features-metadata.png
@@ -83,7 +78,6 @@ Access the summary statistics for the data in the **Features** tab.
 
 Step 4 : Adjust Inputs and View Predictions
 +++++++++++++++++++++++++++++++++++++++++++++
-
 Use the sliders and dropdowns to modify input values and click on **Score** to view the prediction along with Shapley values that explain the outcome.
 
 .. figure:: ../_assets/what-if/whatif-5-choose-value-slider.png
@@ -96,18 +90,14 @@ Step 5 : Analyze Use Cases
 
 Step 5A : Regression Use Case
 ..............................
-
 Perform What-If analysis to evaluate regression use cases.
 
 .. figure:: ../_assets/what-if/whatif-6-click-on-score-gets-shapley-contributions-regression.png
    :alt: What-If
    :width: 65%
 
-
-
 Step 5B : Binomial Classification Use Case
 ...........................................
-
 Conduct What-If analysis to explore binomial classification predictions.
 
 .. figure:: ../_assets/what-if/whatif-7-click-on-score-gets-shapley-contributions-classification.png

@@ -23,13 +23,11 @@ GCP Admin Guide
 
     ---
 
-
     :doc:`/gcp/admin-guide/gcp-prerequisites`
 
     Prerequisites for GCP integration.
     
     ---
-
 
     :doc:`/gcp/admin-guide/dataproc`
 

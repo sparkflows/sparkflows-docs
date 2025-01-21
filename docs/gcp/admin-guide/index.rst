@@ -31,9 +31,9 @@ GCP Admin Guide
     ---
 
 
-    :doc:`/gcp/admin-guide/admin_configuration`
+    :doc:`/gcp/admin-guide/dataproc`
 
-    Configurations for GCP integration.
+    Configurations for GCP integration and Data Proc Connection.
 
     
 .. toctree::
@@ -43,4 +43,4 @@ GCP Admin Guide
    Infrastructure-gcp.rst
    installation-guide/index.rst
    gcp-prerequisites.rst
-   admin_configuration.rst
+   dataproc/index.rst

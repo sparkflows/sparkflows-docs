@@ -70,6 +70,9 @@ Steps to set up the connection in Airflow UI:
 
 .. Note:: If you already have Databricks Workspace connection in Fire Insights, it can be synced to Airflow, after selecting Databricks Workspace Connection in Airflow.
 
+For detailed information, `click here. <https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-workspace-connection.html>`_
+
+
 Python Environment (with Required Libraries)
 ------
 

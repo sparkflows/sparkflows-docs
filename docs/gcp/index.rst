@@ -20,6 +20,11 @@ Fire Insights integrates with Google BigQuery, GCS File System, etc.
     
     GCP User Guide
     
+    ---
+    
+    :doc:`/gcp/tutorials/index`
+    
+    GCP Tutorials
 
     
 .. toctree::
@@ -27,5 +32,6 @@ Fire Insights integrates with Google BigQuery, GCS File System, etc.
 
    admin-guide/index.rst
    user-guide/index.rst
+   tutorials/index.rst
 
 

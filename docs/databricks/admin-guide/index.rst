@@ -35,6 +35,12 @@ Databricks Admin Guide
     Configuring your databricks connection.
 
     ---
+
+    :doc:`/databricks/admin-guide/databricks-workspace-connection`
+
+    Configuring your databricks Workspace connection.
+
+    ---
     
     :doc:`/databricks/admin-guide/databricks-h2o`
 
@@ -70,6 +76,7 @@ Databricks Admin Guide
    databricks-installation.rst
    databricks-python-installation.rst
    databricks-connections.rst
+   databricks-workspace-connection.rst
    databricks-h2o.rst
    troubleshooting.rst
    superset-databricks.rst

@@ -76,7 +76,7 @@ Step 3 : Enter Parameter Details
       :alt: connection
       :width: 60%    
 
-   .. note:: Make sure to update Databricks Workspace URL with absolute path and it should be accessible from Fire Insights application.
+   .. note:: Make sure to update Databricks Workspace URL with absolute path and it should be accessible from Sparkflows application.
 
    
    **WORKSPACE DATABRICKS Tab:**

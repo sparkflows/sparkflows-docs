@@ -104,3 +104,11 @@ Step 3 : Enter Parameter Details
    .. figure:: ../../_assets/connections/databricks_workspace_2.png
       :alt: connection
       :width: 60%
+
+Step 4 : Test and Save Connection
+---------------
+
+#. Click **TEST CONNECTION**. You will get a success notification.
+#. Click **SAVE** to save the connection.
+
+   Once you save the connection, it can be used to Sync this connection for Airflow.

@@ -72,7 +72,7 @@ Step 3 : Enter Parameter Details
         - URL for Databricks Workspace
         - Add Databricks Workspace Url from the Databricks. Example: https://xxxxxxxx.databricks.net
 
-   .. figure:: ../../_assets/installation/connection/databricks_general.PNG
+   .. figure:: ../../_assets/installation/connection/databricks_workspace_1.png
       :alt: connection
       :width: 60%    
 
@@ -99,6 +99,6 @@ Step 3 : Enter Parameter Details
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions.
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions. (User can update absolute DBFS path).
      
-   .. figure:: ../../_assets/installation/connection/databricks_other.PNG
+   .. figure:: ../../_assets/installation/connection/databricks_workspace_2.png
       :alt: connection
       :width: 60%

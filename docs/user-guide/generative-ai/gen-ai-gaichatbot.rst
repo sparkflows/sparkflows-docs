@@ -1,73 +1,91 @@
 Chatbot
 =======
 
-**A Retrieval-Augmented Generation (RAG) based chatbot** 
+This document explains how to use the **RAG-based chatbot**, including managing chat sessions, uploading files, and asking questions. It covers key features and workflows for effective, accurate interactions.
 
-It combines retrieval-based and generative models to provide more informative, contextually accurate, and fluent responses. Here’s how it works in detail:
+Overview of RAG-Based Chatbot
+++++++++++++++++++
 
-1. Retrieval Component:
+**Introduction and Operational Framework**
 
-Search and Retrieval: The first step involves searching a database or external sources (like documents, FAQs, or web pages) for relevant information based on the input query.
-Rank Results: Once relevant information is retrieved, it ranks the results based on relevance to the query.
-Passage Selection: The most relevant passages are selected to be passed on to the generative model.
+A Retrieval-Augmented Generation (RAG) based chatbot seamlessly integrates retrieval-based and generative models to deliver highly accurate, context-aware, and fluent responses. Its functionality can be better understood by examining the roles of its individual components, as follows:
 
-2. Generative Component (Language Model):
 
-Contextual Generation: The selected passages are used as input to a generative model (such as GPT or similar models) along with the user's query.
-Response Generation: The generative model uses the retrieved content to generate a coherent and contextually relevant response. This process enables the chatbot to provide more informed answers than a purely generative model, which relies only on pre-trained knowledge.
+**1. Retrieval Component**
 
-3. Augmentation and Integration:
+It focuses on finding and ranking the most relevant information from external sources to address the user's query. It involves the following steps:
 
-Combining Retrieval and Generation: The retrieval results augment the generative model’s response, allowing it to generate answers grounded in the most relevant and up-to-date information.
-Improved Accuracy: Since the generative model works with retrieved data, it is more likely to generate accurate and reliable responses, especially for factual or specific domain queries.
+* Search and Retrieval: This step involves searching a database or external sources (like documents, FAQs, or web pages) for relevant information based on the input query.
+* Rank Results: This step involves evaluating and ranking the retrieved information to determine its relevance to the query. 
+* Passage Selection: This step involves selecting the most relevant passages to serve as input for the generative model.
 
-**Key Benefits of RAG-Based Chatbots:**
+**2. Generative Component (Language Model)**
 
-Dynamic Knowledge Base: Unlike static generative models, RAG-based chatbots can dynamically pull information from a large, evolving knowledge base.
-Up-to-Date Information: By leveraging real-time or frequently updated data sources, the chatbot can respond to queries with the most current information.
-Reduced Hallucination: The retrieval component helps ground the chatbot’s responses, reducing the chance of the model hallucinating or making up inaccurate information.
+It uses the information retrieved in combination with the user's query to produce a coherent response. It involves the following steps:
 
-**Key Chatbot features:**
+* Contextual Generation: This step involves taking the selected passages and the user’s query as input to a generative language model (e.g., GPT or similar models).
+* Response Generation: This step involves generating a coherent and contextually relevant response based on the retrieved information. This process enables the chatbot to provide more informed answers compared to a purely generative model, which relies solely on pre-trained knowledge.
 
-- Ability to create, save, edit, search and manage various Chat Sessions
-- Ability to upload files and save them into RAG Database
-- Ability to apply search filters on RAG Database
-- Ability to do Ask questions and see the References
+**3. Augmentation and Integration**
 
-**Chat Dashboard**
+It brings together the retrieval and generative components to ensure responses are both factually accurate and contextually relevant. It involves the following steps:
 
-* Create New Chat Sessions.
-Start a Chat Session for driving a conversation.
+* Combining Retrieval and Generation: This step involves augmenting the generative model's response with retrieval results, enabling it to generate answers grounded in the most relevant and up-to-date information.
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Create_New.png
+* Improved Accuracy: This step ensures that, by working with retrieved data, the generative model is more likely to produce accurate and reliable responses, particularly for factual or domain-specific queries.
+
+**Key Benefits**
+
+* Dynamic Knowledge Access: RAG-based chatbots can dynamically retrieve information from a vast and evolving knowledge base, unlike static generative models.
+* Real-Time Updates: They leverage real-time or frequently updated data sources to provide responses that reflect the most current information.
+* Reduced Hallucinations and Enhanced Accuracy: The retrieval component grounds the chatbot's responses in factual data, significantly reducing the likelihood of the model generating inaccurate or fabricated information.
+
+**Key Features**
+
+* Chat Session Management: Create, save, edit, search, and manage multiple chat sessions effortlessly.
+* File Uploads and Database Integration: Upload files and store them directly into the RAG database for future reference.
+* Advanced Search Filters: Apply filters on the RAG database to retrieve specific and relevant information efficiently.
+* Context-Aware Q&A: Ask questions and receive accurate answers along with referenced sources.
+
+Using Chat Dashboard Features
++++++++++
+
+#. **Create and Start New Chat Session**
+
+   Easily create new chat sessions to begin conversations and start engaging in meaningful interactions, as shown below:
+
+   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Create_New.png
      :alt: create-new-chat-session
      :width: 65%
 
-* View and Manage Chat Sessions.
-Edit, Delete and Search conversations.
+#. **View and Manage Chat Sessions**
+    
+   **Search** the ongoing or previous conversations and **Edit** or **Delete** them via **Actions** menu, as shown below:
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Dashboard.png
+   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Dashboard.png
      :alt: view-manage-chat-sessions
      :width: 65%
 
-**Conversation UI**
-This is the main UI for Q&A against selected resources
+#. **Conversation UI**
+    
+   Engage in Q&A using this main interface for selected resources. Upload necessary files for the conversation as shown below. The files are indexed into the vector database.
 
-* Upload files needed for Conversastion. The files are indexed into the Vector Database. 
-
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Select_Files.png
+   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Select_Files.png
      :alt: select-files
      :width: 65%
 
-* Use filters Chat Sessions.
-User can configure the filter condition and select required files. User can also search files.
+#. **Use Filtered Chat Sessions**
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Use_Filters.png
+   Configure filter conditions to select required files for use in chat sessions and also, search and retrieve files efficiently, as shown below:
+
+   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Use_Filters.png
      :alt: search-filters-chat-sessions
      :width: 35%
 
-* Ask Questions in a new/existing Chat Sessions
+#. **Ask Questions** 
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
+   Pose questions within new or existing chat sessions for precise and context-aware responses, as shown below:
+
+   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/ChatSession_Edit_Save.png
      :alt: ask-questions-chat-sessions
      :width: 65%

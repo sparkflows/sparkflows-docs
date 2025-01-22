@@ -72,9 +72,11 @@ Step 3 : Enter Parameter Details
         - URL for Databricks Workspace
         - Add Databricks Workspace Url from the Databricks. Example: https://xxxxxxxx.databricks.net
 
-   .. figure:: ../../_assets/installation/connection/databricks_workspace_1.png
+   .. figure:: ../../_assets/connections/databricks_workspace_1.png
       :alt: connection
       :width: 60%    
+
+   .. note:: Make sure to update Databricks Workspace URL with absolute path and it should be accessible from Fire Insights application.
 
    
    **WORKSPACE DATABRICKS Tab:**
@@ -99,6 +101,6 @@ Step 3 : Enter Parameter Details
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions.
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions. (User can update absolute DBFS path).
      
-   .. figure:: ../../_assets/installation/connection/databricks_workspace_2.png
+   .. figure:: ../../_assets/connections/databricks_workspace_2.png
       :alt: connection
       :width: 60%

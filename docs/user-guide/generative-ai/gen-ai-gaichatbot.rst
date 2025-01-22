@@ -1,7 +1,7 @@
 Chatbot
 =======
 
-This document explains how to use the **RAG-based chatbot**, including managing chat sessions, uploading files, and asking questions. It covers key features and workflows for effective, accurate interactions.
+This document explains how to use the **RAG-based chatbot**, including managing chat sessions, uploading files, and asking questions. 
 
 Overview of RAG-Based Chatbot
 ++++++++++++++++++

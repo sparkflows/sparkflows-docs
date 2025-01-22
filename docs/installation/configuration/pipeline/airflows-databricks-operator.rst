@@ -3,7 +3,7 @@ Airflow Databricks Operators
 
 The Airflow Databricks Operator allows you to integrate Databricks with Apache Airflow to automate workflows such as running jobs, submitting notebooks, and managing clusters on Databricks.
 
-Pre-Requisites
+Pre-requisites
 -----
 
 #. Apache Airflow installed (with the Databricks provider).

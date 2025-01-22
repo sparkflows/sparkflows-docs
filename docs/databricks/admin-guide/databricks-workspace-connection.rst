@@ -112,3 +112,6 @@ Step 4 : Test and Save Connection
 #. Click **SAVE** to save the connection.
 
    Once you save the connection, it can be used to Sync this connection for Airflow.
+
+   For detailed information, `click here. <https://docs.sparkflows.io/en/latest/tutorials/pipelines/dbpl-create-cluster.html>`_
+

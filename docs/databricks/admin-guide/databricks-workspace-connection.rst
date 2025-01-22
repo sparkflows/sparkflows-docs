@@ -54,8 +54,8 @@ Step 3 : Enter Parameter Details
         - Select Category as Workspace
         - Select Workspace
       * - CONNECTION TYPE 
-        - Default Workspace Databricks
-        - by Default Workspace Databricks would be selected
+        - Select Workspace Databricks
+        - Select Workspace Databricks
       * - CONNECTION NAME
         - Connection Name
         - Add an unique Connection Name

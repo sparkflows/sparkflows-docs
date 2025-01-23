@@ -1,4 +1,4 @@
-Basic Data Profililng Tutorial
+Basic Data Profiling Tutorial
 =================================
 
 This tutorial will guide you through using the Sparkflows Nodes to perform automated **Data Profiling** on a Dataset.

@@ -25,7 +25,7 @@ Step 1 : SSH into the GCP VM
 
                  sudo dpkg-reconfigure dash
 
-Step 2 : Follow the Installation steps
+Step 2 : Follow the Installation Steps
 ---------------
 Once you have successfully SSH'd into the VM, proceed with the installation process by following the appropriate documentation based on your operating system:
 

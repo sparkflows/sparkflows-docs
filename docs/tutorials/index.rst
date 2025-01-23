@@ -75,6 +75,9 @@ Tutorials
 
     :doc:`/tutorials/reload-sample-projects/index`
     
+    ---
+
+    :doc:`/tutorials/data-profiling-n-quality/index`
     
     
 .. toctree::
@@ -97,7 +100,7 @@ Tutorials
    pipelines/index.rst
    cdc/index.rst
    reload-sample-projects/index.rst
-
+   data-profiling-n-quality/index.rst
 
   
    

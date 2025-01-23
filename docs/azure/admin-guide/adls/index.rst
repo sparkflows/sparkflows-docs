@@ -29,6 +29,7 @@ Azure Data Lake Storage (ADLS) can be configured and accessed using two primary 
     Service Principal setup
     
     ---
+
     :doc:`/azure/admin-guide/adls/adls-configuration`
 
     ADLS Configuration In Sparkflows

@@ -44,6 +44,6 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
    gen-ai-processors.rst
    gen-ai-implementations.rst
    gen-ai-nlq.rst
-   index.rst
+   chatbot/index.rst
 
 

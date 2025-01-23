@@ -33,7 +33,7 @@ Example statement:
         UPDATE orders SET quantity = 5 WHERE order_id = 101;
         DELETE FROM orders WHERE order_id = 101; 
 
-   Performs INSERT, UPDATE, or DELETE operations on the orders table.
+   .. Note:: It Performs "INSERT, UPDATE, or DELETE" operations on the orders table.
 
 #. DDL (Data Definition Language)
 
@@ -48,7 +48,7 @@ Example statement:
         DROP TABLE employees;
         ALTER TABLE employees ADD COLUMN hire_date DATE;
 
-   Creates, drops, or alters tables and their structure.
+   .. Note:: It "Creates, drops, or alters" tables and their structure.
 
 #. Attach the below policy to your Amazon EMR cluster IAm role
 
@@ -64,5 +64,5 @@ Example statement:
             "Resource": "*"
        }
 
-.. Note:: 1. It will not run in Interactive mode, only work on Execution 
-2. Job submitted to EMR should have required permission to execute that.
+.. Note:: 1. It will not run in Interactive mode, only work on Execution. 
+          2. Job submitted to EMR should have required permission to execute that.

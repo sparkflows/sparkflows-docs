@@ -33,7 +33,7 @@ Now click on **Test Connection** button , if the value of the connectionUrl vari
       :alt: variables_userguide
       :width: 65%
 
-By following the above steps, you can seamlessly incorporate dynamic variables into your application connections, enabling them to adapt to evolving conditions or input values. This enhances the versatility and usability of your application connection.
+Now this connection containing variables can be used seamlessly throughout Sparkflows. By following the above steps, you can incorporate dynamic variables into your application connections, enabling them to adapt to evolving conditions or input data values. This enhances the versatility and usability of your application connection.
 
 
 

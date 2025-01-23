@@ -8,9 +8,9 @@ Read from Redshift and Write to Redshift
 
 ReadJDBC and WriteJDBC nodes can be used for reading from and writing to Redshift. 
 
-Click here for more details on Using Redshift Node using JDBC <https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html>`_
+`Click here for more details on Using Redshift Node using JDBC <https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html>`_
 
-Click here for more details on Creating Redshift Connection <https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/redshift.html>`_
+`Click here for more details on Creating Redshift Connection <https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/redshift.html>`_
 
 NodeExecuteRedShiftStmt
 ------

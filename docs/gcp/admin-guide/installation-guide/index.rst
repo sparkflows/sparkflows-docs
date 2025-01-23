@@ -1,6 +1,6 @@
 Installation Guide
 ========
-Sparkflows can be installed in any one of the following two ways:
+Sparkflows can be installed in either of the following ways:
 
 
 .. panels::

@@ -1,5 +1,5 @@
 
-Tutorials
+Data Profiling and Quality
 ==========
 
 .. panels::

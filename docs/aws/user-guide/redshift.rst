@@ -47,9 +47,9 @@ Example statement:
 
 #. Attach the below policy to your Amazon EMR cluster IAm role
 
-::
+   ::
 
-    {
+        {
             "Effect": "Allow",
             "Action": [
                 "redshift:ExecuteStatement",
@@ -57,4 +57,7 @@ Example statement:
                 "redshift:GetStatementResult"
             ],
             "Resource": "*"
-    }
+       }
+
+.. Note:: 1. It will not run in Interactive mode, only work on Execution 
+2. Job submitted to EMR should have required permission to execute that.

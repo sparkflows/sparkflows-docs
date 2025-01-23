@@ -23,7 +23,7 @@ NodeExecuteRedShiftStmt Node submit the SQL statement for execution on the Redsh
 #. SQL Statement (sqlStatement): The actual SQL query.
 
 Example statement:
-------
+++++++++
 
 #. Data Manipulation
 

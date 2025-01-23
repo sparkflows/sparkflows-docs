@@ -1,6 +1,6 @@
 Chatbot
 ======
-These documents explain how to use the **RAG-based chatbot**, including managing chat sessions, uploading files, and asking questions. 
+ 
 
 .. panels::
     :container: container-lg pb-3

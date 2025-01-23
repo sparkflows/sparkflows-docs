@@ -14,7 +14,7 @@ Chatbot
 
     :doc:`/user-guide/generative-ai/chatbot/chatbot-features`
 
-    Using Chat Dashboard Features
+    Using Sparkflows Chat Dashboard Features
 
     
 .. toctree::

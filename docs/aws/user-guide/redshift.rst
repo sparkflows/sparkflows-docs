@@ -7,3 +7,54 @@ ReadJDBC and WriteJDBC nodes can be used for reading from and writing to Redshif
 
 Click here for more details on Creating Redshift Connection <https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/redshift.html>`_
 
+NodeExecuteRedShiftStmt
+------
+
+NodeExecuteRedShiftStmt Node submit the SQL statement for execution on the Redshift cluster.
+
+#. Cluster Identifier (clusterIdentifier): Identifies the Redshift cluster to connect to.
+#. Database User (dbUser): The user executing the SQL statement.
+#. Database (database): The Redshift database to run the query against.
+#. SQL Statement (sqlStatement): The actual SQL query.
+
+Example statement:
+------
+
+#. Data Manipulation
+
+   :: 
+
+        INSERT INTO orders (order_id, product_id, quantity) VALUES (101, 1, 2);
+        UPDATE orders SET quantity = 5 WHERE order_id = 101;
+        DELETE FROM orders WHERE order_id = 101; 
+
+   Performs INSERT, UPDATE, or DELETE operations on the orders table.
+
+#. DDL (Data Definition Language)
+
+   ::
+
+        CREATE TABLE employees (
+        emp_id INT PRIMARY KEY,
+        name VARCHAR(50),
+        department VARCHAR(30),
+        salary DECIMAL(10, 2)
+        );
+        DROP TABLE employees;
+        ALTER TABLE employees ADD COLUMN hire_date DATE;
+
+   Creates, drops, or alters tables and their structure.
+
+#. Attach the below policy to your Amazon EMR cluster IAm role
+
+::
+
+    {
+            "Effect": "Allow",
+            "Action": [
+                "redshift:ExecuteStatement",
+                "redshift:DescribeStatement",
+                "redshift:GetStatementResult"
+            ],
+            "Resource": "*"
+    }

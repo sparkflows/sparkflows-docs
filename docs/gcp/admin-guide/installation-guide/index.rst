@@ -9,7 +9,7 @@ Sparkflows can be installed in any one of the following two ways:
 
     :doc:`/gcp/admin-guide/installation-guide/tgz-file`
 
-    Install Sparkflows using Sparkflows tgz file.
+    Install Sparkflows using Sparkflows TGZ file.
 
     ---
 

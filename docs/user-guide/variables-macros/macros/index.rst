@@ -10,9 +10,14 @@ Fire Insights allows you to define and use macros in various ways.
 
     :doc:`/user-guide/variables-macros/macros/workflow`
 
+    ---
+
+    :doc:`/user-guide/variables-macros/macros/application_connection_macros`
+
 
 .. toctree::
    :hidden:
 
    workflow.rst
+   application_connection_macros.rst
 

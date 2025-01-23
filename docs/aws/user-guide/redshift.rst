@@ -3,7 +3,7 @@ Integration with Redshift
 
 Fire is fully integrated with Redshift. Fire has a number of processors specifically for Redshift.
 
-Read Redshift and Write Redshift
+Read from Redshift and Write to Redshift
 ------
 
 ReadJDBC and WriteJDBC nodes can be used for reading from and writing to Redshift. 

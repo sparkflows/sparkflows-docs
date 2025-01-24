@@ -13,13 +13,13 @@ It will cover the following key aspects:
 Creation of Dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create a **Dataset** in a project by navigating to **Project > Datasets** tab as below.
+#. Create a **Dataset** in a project by navigating to **Projects -> Data Quality -> Datasets** tab, as shown below.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-dataset.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 
-#. Once saved it would appear in the **Dataset List** as below.
+#. Once saved it would appear in the **Dataset List** as displayed below:
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-dataset-list.png
       :alt: Data Profiling N Quality Tutorials
@@ -34,31 +34,31 @@ Perform Data Profiling
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. On clicking it would open up the **Data Profiling** page as below.
+#. On clicking it will open up the **Data Profiling** page, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-page.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 
-#. Click on the **Run Data Profiling** link on the page and it would open up the **Select Profiling Options** pop-up as below.
+#. Click on **Run Data Profiling** link on the page and it will open up the **Select Profiling Options** pop-up, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-options.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. Make the desired selection and click on the **Run** button to trigger Data Profiling processing. A confirmation on the execution would be displayed as below.
+#. Make the desired selection and click on the **Run** button to trigger Data Profiling processing. A confirmation on the execution will be displayed as shown below:
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-runconf.png
       :alt: Data Profiling N Quality Tutorials
       :width: 40%
 	  
-#. Excution Status can also be viewed from the **Execution** dropdown as below.
+#. Execution Status can also be viewed from the **Executions** dropdown, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-runstatus.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. Upon successful completion of **Data Profiling** processing results would be displayed as below.
+#. Upon successful completion of **Data Profiling**, the processing results will be displayed as shown below:
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-result.png
       :alt: Data Profiling N Quality Tutorials
@@ -67,13 +67,13 @@ Perform Data Profiling
 Data Profiling Workflow Creation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. A **Data Profiling Workflow** would be created as below. It can be edited and scheduled as per the requirement.
+#. A **Data Profiling Workflow** will be created as shown below. It can be edited and scheduled according to the requirements.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-workflow.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 	  
-#. A **Data Profiling Nodes** would be added to it as per the options selected.
+#. **Data Profiling Nodes** will be added to it based on the options selected.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-workflow1.png
       :alt: Data Profiling N Quality Tutorials

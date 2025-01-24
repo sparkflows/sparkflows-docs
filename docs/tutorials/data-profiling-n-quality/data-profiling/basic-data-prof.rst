@@ -8,7 +8,7 @@ It will cover the following key aspects:
 * Creation of Dataset
 * Perform Data Profiling
 * View Data Profiling Result
-* Data Profiling workflow creation
+* Data Profiling Workflow Creation
 
 Creation of Dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^

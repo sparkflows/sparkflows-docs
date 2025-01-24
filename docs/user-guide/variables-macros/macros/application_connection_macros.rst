@@ -1,4 +1,4 @@
-Macros in Workflows
+Macros in Application Connection
 ==================
 
 **Macros** can be accessed by the Sparkflows Application Connections as well. They can be added to any of the fields while Add/Edit of connection. These macros are associated to Credential Store of Type **Local** only.

@@ -73,3 +73,5 @@ Now click on **Test Connection** button , if the password is set correctly in th
 .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/test-connection-with-store.png
    :alt: test-connection-without-store
    :width: 60%
+
+Now this connection containing macros can be used seamlessly throughout Sparkflows. By following the above steps, you can incorporate dynamic macros into your application connections, enabling them to adapt to evolving conditions or input data values. This enhances the versatility and usability of your application connection.

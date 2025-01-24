@@ -1,4 +1,4 @@
-Advance Data Profiling Tutorial
+Advanced Data Profiling Tutorial
 =================================
 
 This tutorial will guide you through using the Sparkflows Feature to perform automated **Advanced Data Profiling** on a Dataset. Here one gets an option to select column to perform Data Profiling.
@@ -6,14 +6,14 @@ This tutorial will guide you through using the Sparkflows Feature to perform aut
 It will cover the following key aspects:
 
 * Creation of Dataset
-* Perform Advance Data Profiling
+* Perform Advanced Data Profiling
 * View Data Profiling Result
-* Data Profiling workflow creation
+* Data Profiling Workflow Creation
 
 Creation of Dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create a **Dataset** in a project by navigating to **Project > Datasets** tab as below.
+#. Create a **Dataset** in a project by navigating to **Projects -> Datasets** tab, as shown below.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-dataset.png
       :alt: Data Profiling N Quality Tutorials
@@ -22,56 +22,56 @@ Creation of Dataset
 Perform Advanced Data Profiling
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Click on the **Data Quality** top menu.
+#. Click on the **Data Quality** from the top menu.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-dq-menu.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 	  
-#. On clicking it would open up the **Data Quality** page as below. Navigate to the **Data Profiling** tab. It would display of the previously performed Data Profiling. Click on the **Advanced Profiling** button.
+#. Upon clicking, the **Data Quality** page will open up as shown below. Navigate to the **Data Profiling** tab. It will display the previously performed Data Profiling. Then click on **Advanced Profiling** button, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-page.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 
-#. **Select Profiling Options** pop-up would be displayed as below. Select the profiling to be done using the check boxes. Select the columns from the drop down. 
+#. After clicking 'Advanced Profiling' button, the **Select Profiling Options** pop-up will be displayed as shown below. Now, select the profiling to be done using the check boxes and select the columns from the **SELECT COLUMN** drop down. 
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-options.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. Make the desired configuration and click on the **Run** button. 
+#. Make the desired configurations as shown below and click on **Run** button. 
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-options1.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. A confirmation on the execution would be displayed as below.
+#. A confirmation of the execution will be displayed as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-runconf.png
       :alt: Data Profiling N Quality Tutorials
       :width: 40%
 	  
-#. Execution Status can also be viewed from the **Execution** dropdown as below.
+#. Execution Status can also be viewed from the **Executions** dropdown, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-runstatus.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. Upon successful completion of **Data Profiling** processing results would be displayed as below.
+#. Upon successful completion of **Data Profiling**, the processing results will be displayed as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-result.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 	  
-#. Prior Execution Results can be viewed by selecting it from the **Execution** dropdown as below.
+#. Prior execution results can be viewed by selecting them from the **Executions** dropdown, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-priorresult.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. Dataset can be selected from the drop down as below either to view the Profiling Results or to perform Data Profiling..
-	  
+#. The dataset can be selected from the dropdown, as shown below, either to view the profiling results or to perform data profiling.
+
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-seldataset.png
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
@@ -79,13 +79,13 @@ Perform Advanced Data Profiling
 Data Profiling Workflow Creation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. A **Data Profiling Workflow** would be created as below. It can be edited and scheduled as per the requirement.
+#. A **Data Profiling Workflow** will be created, as shown below. It can be edited and scheduled according to the requirements.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-workflow.png
       :alt: Data Profiling N Quality Tutorials
       :width: 70%
 	  
-#. A **Data Profiling Nodes** would be added to it as per the options selected.
+#. The **Data Profiling Nodes** will be added to it based on the options selected.
 
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/adprof-prof-workflow1.png
       :alt: Data Profiling N Quality Tutorials

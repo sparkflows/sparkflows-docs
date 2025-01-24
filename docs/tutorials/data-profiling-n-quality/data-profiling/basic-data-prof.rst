@@ -34,7 +34,7 @@ Perform Data Profiling
       :alt: Data Profiling N Quality Tutorials
       :width: 50%
 	  
-#. On clicking it will open up the **Data Profiling** page, as shown below.
+#. Upon clicking, the **Data Profiling** page will open up, as shown below.
 	  
    .. figure:: ../../../_assets/tutorials/data-profiling-quality/bdprof-prof-page.png
       :alt: Data Profiling N Quality Tutorials

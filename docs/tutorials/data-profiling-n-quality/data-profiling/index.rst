@@ -11,7 +11,15 @@ Data Profiling
 
      Performs automated Basic Data Profiling on a Dataset
 
+     ---
+
+    :doc:`advanced-data-profiling`
+
+     Performs automated Advanced Data Profiling on a Dataset
+
+
 .. toctree::
    :hidden:
 
    basic-data-prof.rst
+   advanced-data-profiling.rst

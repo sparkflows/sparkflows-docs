@@ -1,4 +1,4 @@
-Advance Data Profililng Tutorial
+Advance Data Profiling Tutorial
 =================================
 
 This tutorial will guide you through using the Sparkflows Feature to perform automated **Advanced Data Profiling** on a Dataset. Here one gets an option to select column to perform Data Profiling.

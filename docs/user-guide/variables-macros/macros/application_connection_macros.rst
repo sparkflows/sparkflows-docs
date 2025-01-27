@@ -1,9 +1,9 @@
 Macros in Application Connection
 ==================
 
-**Macros** can be accessed by the Sparkflows Application Connections as well. They can be added to any of the fields while Add/Edit of connection. These macros are associated to Credential Store of Type **Local** only.
+**Macros** can also be accessed by the Sparkflows Application Connections. They can be added to any field during the Add/Edit process of a connection. These macros are specifically associated to the Credential Store of type '**Local**' only.
 
-Macros that Sparkflows supports for Application Connection
+Macros that Sparkflows Supports for Application Connection
 ++++++++++++++++++++++++++++++
 
 .. list-table:: 
@@ -13,65 +13,94 @@ Macros that Sparkflows supports for Application Connection
    * - Macro
      - Description
    * - ${cs.StoreName.CredentialKey}
-     - Returns the credential value set for the **CredentialKey** that is associated to the Local Credential Store **StoreName**. If we use this macro we can 
-       either select the Local Credendial Store as **StoreName** or we can leave it as **Do not use Credential Store** during the creation of application    
-       connection in the Credential Store field dropdown.
+     - It returns the credential value set for the **CredentialKey** that is associated to the Local Credential Store named **StoreName**. When using this macro, 
+       then during the creation of application connection, we can either select the Local Credential Store as **StoreName** or choose '**Do not use Credential 
+       Store**' from the Credential Store field dropdown. 
    * - ${cs.CredentialKey}
-     - Returns the credential value set for the **CredentialKey**. If we use this macro we have to select the Local Credendial Store to which the CredentialKey is        associated to in the Credential Store field dropdown during the creation of application connection, else it will show the error that **Please select the 
-       credential store**
-    
-Usage of Macro in Application Connection
-++++++++++++++++++++++++++++++++++++
+     - It returns the credential value set for the **CredentialKey**. When using this macro, then during the creation of application connection, we must select 
+       the Local Credendial Store to which the CredentialKey is associated from the Credential Store field dropdown. Otherwise, an error message '**Please select 
+       the credential store**' will appear.
 
-Step 1: Create a Credential Store of Type Local
-------------------
-Navigate to Administration page then click on **Credential Store** card then create a new Credential Store of Store type **Local**. In the below image we have given the name as **Store** and we will be using this credential store while creating a Application Credential and use them for creating a Application Connection  for Postgres.
+To use macros in Sparkflows Application Connection, follow the steps given below:
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/local-credential-store.png
-   :alt: local-credential-store
-   :width: 60%
+Step 1 : Create a Credential Store of Type 'Local'
+++++++++++
 
-Step 2: Create a Credential Store of Type Local
-------------------
+#. Navigate to **Administration** page and click on **Credential Store** card. 
 
-Once we create a Credential Store of Store type **Local** we then click on **Credentials** tab on Credential Store page and then click on **Add Credentials** button. Now add the detials for the Credential where in we select the Credential Store we created in the above step that is **Store**, then give it a key and add the password for the postgres connection as value since here we are creating a postgres connection as an example, then give it a title and optionally add a description if needed like the below image.
+#. Create a new Credential Store with the 'Store Type' set to **Local**, as shown below. Here, we have given the store name as **Store** which will be used while creating an Application Credential. This credential will then be used for establishing an Application Connection for PostgreSQL.
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/application-credential-using-local-store.png
-   :alt: application-credential-using-local-store
-   :width: 60%
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/local-credential-store.png
+      :alt: local-credential-store
+      :width: 60%
 
-Step 3a: Using the macro ${cs.StoreName.CredentialKey}
-------------------
+Step 2 : Add Credentials to the Credential Store
++++++++
 
-Now we navigate to Administration, then we click on the **Global/Group Connections** card. Here we click on **Add Connection** , then in the Add Connection form we select the category as Storage and select PostgreSQL in the Connection Type. Then we fill in all the required detials for the PostgreSQL connection but for the password field we add the macro **${cs.Store.postgresPass}** based on the above 2 steps.
+#. Once the Credential Store of type Local is created, navigate to the **Credentials** tab on the Credential Store page and click on **Add Credential** button.
 
-*Note: In this macro format we can either select the Credential Store whose Credential Key we are using or we can set it to Do not use Credential Store as well.*
+#. Now add the details for the Credential as shown below:
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/macro-without-selecting-store.png
-   :alt: macro-without-selecting-store
-   :width: 60%
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/application-credential-using-local-store.png
+      :alt: application-credential-using-local-store
+      :width: 60%
 
-Now click on **Test Connection** button , if the password is set correctly in the macro used, it will show the Successfully Connected message like the below image.
+ * Select the Credential Store created in Step 1 (i.e. **Store**).
+ * Provide a Key (e.g., **postgresPass**).
+ * Enter the Password for the PostgreSQL connection as the Value.
+ * Add a Title and optionally a Description, as shown below. Then click on **Save** button.
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/test-connection-without-store.png
-   :alt: test-connection-without-store
-   :width: 60%
+Step 3 : Using Macros in Application Connections
++++++++++++++
 
-Step 3b: Using the macro ${cs.CredentialKey}
+(A) Using the macro ${cs.StoreName.CredentialKey}
 ------------------
 
-Now we navigate to Administration, then we click on the **Global/Group Connections** card. Here we click on **Add Connection** , then in the Add Connection form we select the category as Storage and select PostgreSQL in the Connection Type. Then we fill in all the required detials for the PostgreSQL connection but for the password field we add the macro **${cs.postgresPass}**. Here for the Credential Store field we have to select the Local Store to which this Credential Key is associated to.
+#. Navigate to **Administration** and click on the **Global/Group Connections** card.
+#. Click on **Add Connection** and an 'Add Connection' form will be displayed as shown below.
 
-*Note: In this macro format we have to select the Credential Store whose Credential Key we are using or we will get an error of Please select the credential store.*
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/macro-without-selecting-store.png
+      :alt: macro-without-selecting-store
+      :width: 60%
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/macro-with-selecting-store.png
-   :alt: macro-without-selecting-store
-   :width: 60%
+#. Enter the details in the required fields as follows and click on **Test Connection** button.
 
-Now click on **Test Connection** button , if the password is set correctly in the macro used, it will show the Successfully Connected message like the below image.
+   * **Category:** Select the Category as Storage.
+   * **Connection Type:** Select PostgreSQL as the Connection Type and fill in the required details for the PostgreSQL connection.
+   * **Password:** Use the macro **${cs.Store.postgresPass}** for password, based on the Credential Store and Key created in Step 1 and Step 2.
 
-.. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/test-connection-with-store.png
-   :alt: test-connection-without-store
-   :width: 60%
+   *Note: In this macro format we can either select the 'Credential Store' whose Credential Key we are using or we can set it to 'Do not use Credential Store'.*
 
-Now this connection containing macros can be used seamlessly throughout Sparkflows. By following the above steps, you can incorporate dynamic macros into your application connections, enabling them to adapt to evolving conditions or input data values. This enhances the versatility and usability of your application connection.
+#. After clicking the **Test Connection** button, if the password is set correctly in the macro used, a **Successfully Connected** message will appear on the form, as shown below. 
+
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/test-connection-without-store.png
+     :alt: test-connection-without-store
+     :width: 60%
+
+(B) Using the macro ${cs.CredentialKey}
+------------------
+
+#. Navigate to **Administration** and click on **Global/Group Connections** card.
+#. Click on **Add Connection** and an 'Add Connection' form will be displayed as shown below.
+
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/macro-with-selecting-store.png
+      :alt: macro-without-selecting-store
+      :width: 60%
+
+#. Enter the details in the required fields as follows and click on **Test Connection** button.
+
+   * **Category:** Select the Category as Storage.
+   * **Connection Type:** Select PostgreSQL as the Connection Type and fill in the required details for the PostgreSQL connection.
+   * **Password:** Use the macro **${cs.postgresPass}** for password.
+
+   *Note: In this macro format, we must select the 'Credential Store' whose Credential Key we are using else an error message 'Please select the credential store' will appear.*
+
+#. After clicking the **Test Connection** button, if the password is set correctly in the macro used, a **Successfully Connected** message will appear on the form, as shown below.
+
+   .. figure:: ../../../_assets/user-guide/variables-macros/application-connection-macros/test-connection-with-store.png
+      :alt: test-connection-without-store
+      :width: 60%
+
+Now this connection containing macros can be used seamlessly throughout Sparkflows. 
+
+By following the steps above, you can seamlessly incorporate dynamic macros into your application connections. This allows the connections to adapt to changing conditions or input data, enhancing their flexibility and overall usability.

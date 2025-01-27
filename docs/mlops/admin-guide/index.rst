@@ -13,6 +13,9 @@ Explore different options available in Sparkflows MLOps to deploy models.
     
     :doc:`/mlops/admin-guide/online-model-serving`
 
+     ---
+    
+    :doc:`/mlops/admin-guide/influx-db-config`
 
 
 
@@ -22,4 +25,5 @@ Explore different options available in Sparkflows MLOps to deploy models.
 
    offline-model-serving.rst
    online-model-serving.rst
+   influx-db-config.rst
   

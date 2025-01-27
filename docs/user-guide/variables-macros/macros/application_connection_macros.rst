@@ -48,7 +48,7 @@ Step 2 : Add Credentials to the Credential Store
  * Select the Credential Store created in Step 1 (i.e. **Store**).
  * Provide a Key (e.g., **postgresPass**).
  * Enter the Password for the PostgreSQL connection as the Value.
- * Add a Title and optionally a Description, as shown below. Then click on **Save** button.
+ * Add a Title and optionally a Description, as shown above. Then click on **Save** button.
 
 Step 3 : Using Macros in Application Connections
 +++++++++++++
@@ -65,8 +65,8 @@ Step 3 : Using Macros in Application Connections
 
 #. Enter the details in the required fields as follows and click on **Test Connection** button.
 
-   * **Category:** Select the Category as Storage.
-   * **Connection Type:** Select PostgreSQL as the Connection Type and fill in the required details for the PostgreSQL connection.
+   * **Category:** Select the Category as **Storage**.
+   * **Connection Type:** Select **PostgreSQL** as the Connection Type and fill in the required details for the PostgreSQL connection.
    * **Password:** Use the macro **${cs.Store.postgresPass}** for password, based on the Credential Store and Key created in Step 1 and Step 2.
 
    *Note: In this macro format we can either select the 'Credential Store' whose Credential Key we are using or we can set it to 'Do not use Credential Store'.*
@@ -89,8 +89,8 @@ Step 3 : Using Macros in Application Connections
 
 #. Enter the details in the required fields as follows and click on **Test Connection** button.
 
-   * **Category:** Select the Category as Storage.
-   * **Connection Type:** Select PostgreSQL as the Connection Type and fill in the required details for the PostgreSQL connection.
+   * **Category:** Select the Category as **Storage**.
+   * **Connection Type:** Select **PostgreSQL** as the Connection Type and fill in the required details for the PostgreSQL connection.
    * **Password:** Use the macro **${cs.postgresPass}** for password.
 
    *Note: In this macro format, we must select the 'Credential Store' whose Credential Key we are using else an error message 'Please select the credential store' will appear.*

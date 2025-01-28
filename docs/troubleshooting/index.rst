@@ -123,6 +123,12 @@ Below are steps for troubleshooting some of the common issues.
 
     ---
     
+    :doc:`/troubleshooting/h0o`
+    
+    Steps to troubleshoot H2O
+
+    ---
+    
     :doc:`/troubleshooting/mlops`
     
     Steps to troubleshoot MLOps

@@ -33,7 +33,7 @@ Step 2 : Create a MySQL Connection using the 'connectionUrl' Variable
       :alt: variables_userguide
       :width: 65%
 
-#. To create a connection, enter the desired values in the above required fields as follows:
+#. To create a connection, enter the required details in the above fields as follows:
 
    * Select **Storage** as the category.
    * Select **MySQL** as the connection type.
@@ -44,7 +44,7 @@ Step 3 : Test the Connection
 ------------------------------
 
 #. After filling the required details in the previous step, click on **Test Connection** button.
-#. If the 'connectionUrl' variable is correctly set and all other connection details are accurate, a message "Successfully Connected" will appear on the form as shown below, indicating that the variable’s value has been correctly replaced.
+#. If the 'connectionUrl' variable is correctly set and all other connection details are accurate, a message **Successfully Connected** will appear on the form as shown below, indicating that the variable’s value has been correctly replaced.
 
    .. figure:: ../../../_assets/user-guide/variables/application-connection/test-connection-using-variable.png
       :alt: variables_userguide

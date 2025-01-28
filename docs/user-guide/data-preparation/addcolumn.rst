@@ -16,6 +16,8 @@ Add Columns Processors in Fire Insights
      - Description
    * - Add Columns
      - It adds new columns to the dataset with Current Date, Current Time, String Constant and Integer Column values.
+   * - Add Column Advanced
+     - It adds multiple columns to the dataset in single go using Current Date, Current Time, String Constant and Integer Column values.
    * - Case When
      - It evaluates expressions and derives column values based on condition met.
    * - Case When Advance
@@ -77,6 +79,49 @@ Output of Add Columns node displaying dataset with new columns added to the inco
    :alt: addcolumns_userguide
    :width: 60%       	    
    
+Add Column Advanced
+----------------------------------------
+
+Below is a sample workflow which contains Add Column Advanced processor in Fire Insights. It demonstrates usage of Add Column Advanced node to add new columns with Current Date, Current Time, String Constant and Integer Column values. Multiple columns can be added in single go.
+
+It does following processing of data:
+
+*	Reads incoming Dataset.
+*	Adds new columns with Current Date, Current Time, String Constant and Integer Column values using Add Columns node.
+*  Multiple columns can be added at a time.
+*	Prints output dataset with new columns added to the incoming dataset using Print node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumnsadv-workflow.png
+   :alt: addcolumns_userguide
+   :width: 60%
+   
+**Incoming dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumnsadv-incoming-dataset.png
+   :alt: addcolumns_userguide
+   :width: 60%
+   
+**Add Column Advanced Node configuration**
+
+Add Column Advanced node is configured as below.
+
+*	Input of this node are the incoming dataset.
+*  Select a **Constant Type** from the dropdown based on the type of the column to be added. Enter a **Output Column** name. If **Constant Type** has been selected as **ConstantString** or **ConstantInt** then specify the **Constant Value**.
+*	Output of this node would display dataset with new columns added to the incoming dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumnsadv-config.png
+   :alt: addcolumns_userguide
+   :width: 60%
+   
+**Add Column Advanced Node output**
+
+Output of Add Column Advanced node displaying dataset with new columns added to the incoming dataset.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/addcolumnsadv-printnode-output.png
+   :alt: addcolumns_userguide
+   :width: 60%       	    
+   
+
 
 Case When
 ----------------------------------------

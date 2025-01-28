@@ -1,39 +1,59 @@
 Variables in Application Connection 
 ==========
 
-With Sparkflows, you can seamlessly manage dynamic variables within your Application Connection, enhancing their usage. This document demonstrates how to add dynamic variables to your Application Connection, using the example of a variable named **connectionUrl** that contains the database url for a MySQL connection.
+With Sparkflows, you can seamlessly manage dynamic variables within your Application Connection, enhancing their usage. This document demonstrates how to add dynamic variables to your Application Connection, using an example of a variable named **connectionUrl** that contains the database URL for a MySQL connection.
 
-Below are the steps:
+Follow the steps below:
 
 
-Step 1: Add the connectionUrl variable
+Step 1 : Add the 'connectionUrl' Variable
 ------------------
 
-Navigate to Administration page then click on **Variables** card to navigate to variables list page then click on **Add Variable** button to create a Variable with the key as **connectionUrl** and add the MySQL connection URL to the value field.
+#. Navigate to the **Administration** page and click on **Variables** card.
+#. Click on **Add Variable** button from the variables list page. An 'Add Variable' form will be displayed as shown below:
 
-.. figure:: ../../../_assets/user-guide/variables/application-connection/connection-variable-create.png
-   :alt: variables_userguide
-   :width: 65%
-
-
-Step 2: Create a MySQL Connection using the connectionUrl Variable
-------------------------------
-Navigate to Administration page then click on **Global/Group Connections** card to navigate to connections list page then click on **Add Connection** button to create a Connection. Select the category as Storage and the type as MySQL. Pass the value for URL as **${connectionUrl}** and fill in the rest of the details.
-
-.. figure:: ../../../_assets/user-guide/variables/application-connection/add-connection-using-variable.png
+   .. figure:: ../../../_assets/user-guide/variables/application-connection/connection-variable-create.png
       :alt: variables_userguide
       :width: 65%
 
-Step 3: Test the Connection
+
+#. To create a variable, enter the desired values in the above fields as follows and click on **Save** button.
+
+   * **KEY:** Enter **connectionUrl**.
+   * **VALUE:** Add the MySQL connection URL.
+   * **DESCRIPTION:** It is optional.
+
+Step 2 : Create a MySQL Connection using the 'connectionUrl' Variable
 ------------------------------
 
-Now click on **Test Connection** button , if the value of the connectionUrl variable is correctly set as well as the rest of the detials for the connection then it will show the Successfully Connected message, which means the variable's value got correctly replaced.
+#. Navigate to the **Administration** page and click on the **Global/Group Connections** card.
+#. Click on **Add Connection** button from the connections list page. An 'Add Connection' form will be displayed as shown below.
 
-.. figure:: ../../../_assets/user-guide/variables/application-connection/test-connection-using-variable.png
+   .. figure:: ../../../_assets/user-guide/variables/application-connection/add-connection-using-variable.png
       :alt: variables_userguide
       :width: 65%
 
-Now this connection containing variables can be used seamlessly throughout Sparkflows. By following the above steps, you can incorporate dynamic variables into your application connections, enabling them to adapt to evolving conditions or input data values. This enhances the versatility and usability of your application connection.
+#. To create a connection, enter the desired values in the above required fields as follows:
+
+   * Select **Storage** as the category.
+   * Select **MySQL** as the connection type.
+   * Eenter **${connectionUrl}** in URL to use the variable.
+   * Fill the remaining fields with the required details. 
+
+Step 3 : Test the Connection
+------------------------------
+
+#. After filling the required details in the previous step, click on **Test Connection** button.
+#. If the 'connectionUrl' variable is correctly set and all other connection details are accurate, a message "Successfully Connected" will appear on the form as shown below, indicating that the variable’s value has been correctly replaced.
+
+   .. figure:: ../../../_assets/user-guide/variables/application-connection/test-connection-using-variable.png
+      :alt: variables_userguide
+      :width: 65%
+
+Now this connection containing dynamic variables can be used seamlessly throughout Sparkflows.
+
+By following the steps above, you can seamlessly incorporate dynamic variables into your application connections. This allows the connections to adapt to changing conditions or input data, enhancing their flexibility and overall usability.
+
 
 
 

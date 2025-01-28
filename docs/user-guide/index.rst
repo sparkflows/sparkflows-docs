@@ -89,10 +89,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
     
     ---
 
-    :doc:`/user-guide/performance/index`
-    
-    ---
-    
     :doc:`/user-guide/git-integration/index`
     
     ---
@@ -161,7 +157,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    web-app/index
    accessing-filesystem/index
    python/index
-   performance/index
    git-integration/index
    export-import/index
    generate-pyspark-code/index

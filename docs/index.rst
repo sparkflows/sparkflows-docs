@@ -204,6 +204,14 @@ Commands
 
    commands/index
    
+Performance Guide
+---------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   performance/index
+
 Troubleshooting
 ---------------
 

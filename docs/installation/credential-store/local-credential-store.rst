@@ -8,7 +8,7 @@ Follow the steps below for creating a Credential Store of type 'Local':
 Step 1 : Navigate to the Credential Store
 -------------
 
-#. **Log in** to Sparkflows.
+#. **Log in** to Fire Insights.
 #. Go to the **Administration** page and click on the **Credential Store** card to access the Credential Store section.
 
    .. figure:: ../../_assets/credential_store/local-credential-store/credential-store-card.png

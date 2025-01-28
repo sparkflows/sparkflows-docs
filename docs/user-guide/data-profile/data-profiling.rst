@@ -28,7 +28,9 @@ Data Profiling Processors in Fire Insights
    * - DistinctValuesInColumn   
      - Displays distinct combination data present in the select data series.
    * - Flag Outlier
-     - Flag the outlier based on the selected column using Box-and-Whisker technique.
+     - Flags the outlier based on the selected column using Box-and-Whisker technique.
+   * - Multiflag Outlier
+     - Flags outlier on multiple columns using Box-and-Whisker technique.
    * - GraphMonthDistribution  
      - This node displays monthly distribution of data.
    * - GraphWeekDayDistribution  
@@ -257,6 +259,49 @@ Output of Flag Outlier node displaying Outlier flag for datapoints in the select
    :alt: dataexploration_userguide
    :width: 75%       	    
    
+Multiflag Outlier
+----------------------------------------
+
+Below is a sample workflow that contains Multiflag Outlier processor in Fire Insights. It demonstrates the usage of Multiflag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set. It can be used to identify outliers in multiple columns. 
+
+It does the following processing of data:
+
+*	Reads incoming dataset.
+*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using Flag Outlier node. It can be checked against numeric columns only.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-workflow.png
+   :alt: dataexploration_userguide
+   :width: 60%
+   
+**Incoming Dataset**
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-incoming-dataset.png
+   :alt: dataexploration_userguide
+   :width: 75%
+
+**Multiflag Outlier Node Configuration**
+
+Multilag Outlier node is configured as below.
+
+*	Input of this node is the incoming dataset.
+*	Numeric Column in which datapoints are to be identified as outlier needs to be selected from the dropdown in ``Input Column To Flag The Outlier`` list.
+*	``Lowerquantile`` and ``Upperquantile`` values need to be entered in the respective boxes. Datapoint would be checked against these values to flag it as outlier.
+*  Node can be configured to check for Outliers in multiple columns. Lower and Upper Quantile values can be set individually for each column.
+*	Output of this node would display Outlier flag for the datapoint in the selected column.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-config.png
+   :alt: dataexploration_userguide
+   :width: 75%
+   
+**Multiflag Outlier Node Output**
+
+Output of Multiflag Outlier node displaying Outlier flag for datapoints in the selected columns. Outlier information for each columns would be displayed in separate tab.
+
+.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-output.png
+   :alt: dataexploration_userguide
+   :width: 75%       	    
+   
+
 
 Graph Month Distribution
 ----------------------------------------

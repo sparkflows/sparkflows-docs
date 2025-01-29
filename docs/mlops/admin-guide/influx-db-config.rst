@@ -1,2 +1,0 @@
-Influx DB Configuration
-=================================

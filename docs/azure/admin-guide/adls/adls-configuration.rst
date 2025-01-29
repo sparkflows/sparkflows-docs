@@ -151,7 +151,7 @@ Step 2 : Configure ADLS
 
 
 .. Note:: 1. Make sure to Enable Azure Configurations ie. ``azure.enabled=true`` to browse ADLS from ``DATA`` Tab.	
-          2. Make sure that ``Firewalls and virtual networks`` for Configured storage account should be accessible from Sparkflows VM.
+          2. Make sure that ``Firewalls and virtual networks`` for Configured storage account should be accessible from Sparkflows VM, ecs based on deployment.
 
 Step 3 : Browse ADLS
 --------------

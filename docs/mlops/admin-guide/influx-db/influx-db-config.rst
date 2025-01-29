@@ -44,23 +44,23 @@ Once the model is deployed, Sparkflows monitoring module, provides the detailed 
 - Predictions over time. 
 
   .. figure:: ../../../_assets/mlops/average-prediction.png
-     :alt: Continuous ML
+     :alt: Predictions over time
      :width: 70%
 - Scoring latency over a period of time.
 
   .. figure:: ../../../_assets/mlops/latency-over-time.png
-     :alt: Continuous ML
+     :alt: Scoring latency over a period of time
      :width: 70%
 - Number of rows scored over a period of time.
 
   .. figure:: ../../../_assets/mlops/prediction-row-count.png
-     :alt: Continuous ML
+     :alt: Number of rows scored over a period of time
      :width: 70%
 
 - Model drift over time.
 
   .. figure:: ../../../_assets/mlops/drift-over-time.png
-     :alt: Continuous ML
+     :alt: Model drift over time
      :width: 70%
 
 

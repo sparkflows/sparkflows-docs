@@ -44,18 +44,18 @@ Below is a sample workflow which contains Data Cleansing processor in Fire Insig
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Changes String values to Title case, removes blank spaces from data, and replaces Null values in columns with Spaces or 0. 
+*	Changes String values to Title case, removes null rows (rows containing null values), removes blank spaces from data, and replaces Null values in columns with Spaces or 0. 
 * 	Output data is printed using the Print node.
 
 **Data Cleansing Node Sample Workflow**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing-wf.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-workflow-new.png
    :alt: datacleaning_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-incoming-dataset.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-incoming-dataset-new.png
    :alt: datacleaning_userguide
    :width: 75%
 
@@ -66,16 +66,36 @@ Data Cleansing node is configured as below.
 *	Input of this node is the incoming dataset.
 *	Output of this node would contain modified data as per the configuration.
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config-new1.png
    :alt: datacleaning_userguide
    :width: 75%
 
 *	**Select Columns** - Select the list of columns on which the data cleansing rules would be applicable to.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config-new4.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
 *  **Remove Null Rows** - This option would remove all rows from the dataset having null values in any of the columns.
 *  **Remove Null Columns** - This option would remove columns from the dataset having null values.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config-new2.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
 *  **Replace With Blanks (String Fields)** - This option would replace missing or null values with blanks in the select String columns.
 *  **Replace With 0 (Numeric Fields)** - This option would replace missing or null values with 0 in the select Numeric columns.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config-new3.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
 *  **All Whitespaces/Letters/Numbers/Punctuation** - Occurrences of the values as per the selected option would be removed from the selected columns.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-config-new5.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
 *  **Modify Case** - Case of data in the selected columns would be changed as the option selected. Available options are Upper Case, Lower Case, Title Case and Default.
 
 
@@ -83,7 +103,7 @@ Data Cleansing node is configured as below.
 
 Output of Data Cleansing node which displays modified values is shown below:
 
-.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-printnode-output.png
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/datacleansing-printnode-output-new.png
    :alt: datacleaning_userguide
    :width: 75% 
 

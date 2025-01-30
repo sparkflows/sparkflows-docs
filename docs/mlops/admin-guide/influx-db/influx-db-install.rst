@@ -1,5 +1,5 @@
 InfluxDB and Grafana Setup
-========
+===========
 
 InfluxDB and Grafana overview
 ----

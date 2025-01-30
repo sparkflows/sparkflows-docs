@@ -77,6 +77,8 @@ Create initial super-admin credentials, organization, bucket and the all-access 
 
 The superuser, organization, bucket, and access token have been created. In addition, the influx command creates a new server configuration object and stores it into the active config named myinfluxdb.
 
+.. Note:: You can define as many configs as you want to work with multiple InfluxDB2 servers easily. The configuration objects are stored locally in the $HOME/.influxdbv2/configs file on your computer. To list all available server configurations use the command influx config ls.
+
 Grafana and InfluxDB connection setup
 +++++
 
@@ -93,6 +95,6 @@ Grafana and InfluxDB connection setup
 #. Type my-token in the Token field. (Once the save and test button is clicked, the password is hidden and replaced with configured.)
 #. Save & Test: Success will display two green notifications (3 buckets found + Datasource updated).
 
-
+.. Note:: The address http://influxdb:8086/ is the address visible from the Grafana container in the internal network orchestrated by docker-compose.
 
 

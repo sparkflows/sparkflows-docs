@@ -97,4 +97,4 @@ Grafana and InfluxDB connection setup
 
 .. Note:: The address http://influxdb:8086/ is the address visible from the Grafana container in the internal network orchestrated by docker-compose.
 
-
+`Click here <https://www.influxdata.com/blog/getting-started-influxdb-grafana/>`_ to get more details on setting up Grafana and Influx DB.

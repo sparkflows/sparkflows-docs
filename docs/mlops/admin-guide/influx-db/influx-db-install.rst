@@ -1,4 +1,4 @@
-InfluxDB and Grafana
+InfluxDB and Grafana Setup
 ========
 
 InfluxDB and Grafana overview

@@ -59,3 +59,31 @@ They needed to be added as below:
       :width: 60%
 
 .. note::  Make sure to add Delta Jars to the Jars section.
+
+3. Test Connection Issues in Livy
+------
+**Problem**
+++++++
+
+Not able to access resource, please check the host url
+
+**Solution**
+++++++++++
+
+Do check in the logs for exceptions and the root cause. The log files can be analysed from Livy url.
+
+Possible causes are:
+
+* The Livy host url configured in Fire Insights is configured wrongly.
+* The Livy host Url configured in Fire Insights is not accessible from EMR Livy.
+
+   
+* Test connectivity from the sparkflows machine using:
+
+   ::
+
+        curl http://<livy-server-ip>:8998/sessions
+
+    
+  .. note::  Make sure to replace 'livy-server-ip' with your actual Livy Server ip or domain name.
+

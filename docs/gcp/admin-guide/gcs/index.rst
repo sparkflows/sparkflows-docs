@@ -15,13 +15,13 @@ Google Cloud Storage (GCS) can be configured and accessed using two primary meth
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/gcp/admin-guide/gcp/service-account`
+    :doc:`/gcp/admin-guide/gcs/service-account`
 
-    Service Principal setup
+    Service account setup
     
     ---
 
-    :doc:`/gcp/admin-guide/gcp/gcs-configuration`
+    :doc:`/gcp/admin-guide/gcs/gcs-configuration`
 
     GCS Configuration In Sparkflows
      
@@ -32,3 +32,4 @@ Google Cloud Storage (GCS) can be configured and accessed using two primary meth
 
    service-account.rst
    gcs-configuration.rst
+  

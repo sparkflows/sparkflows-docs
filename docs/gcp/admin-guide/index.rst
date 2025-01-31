@@ -29,6 +29,12 @@ GCP Admin Guide
     
     ---
 
+    :doc:`/gcp/admin-guide/gcs`
+
+    GCS Integration Guide.
+    
+    ---
+
     :doc:`/gcp/admin-guide/dataproc/index`
 
     Configurations for GCP integration and Data Proc Connection.
@@ -41,4 +47,5 @@ GCP Admin Guide
    Infrastructure-gcp.rst
    gcp-prerequisites.rst
    installation-guide/index.rst
+   gcs/index.rst
    dataproc/index.rst

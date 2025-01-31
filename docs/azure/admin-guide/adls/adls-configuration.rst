@@ -166,3 +166,6 @@ Once the above **configurations** are saved, you can browse ADLS as below:
       :width: 70%
       :alt: adls
 
+
+.. Note:: 1. The above steps are needed for designer(Interactive) Mode.
+          2. For Execution Mode you need to ensure that Databricks should have sufficient privilege to use OAuth 2.0 for authenticating to Azure Data Lake Storage (ADLS). 

@@ -22,7 +22,7 @@ By clicking the ``Test Connection`` button displayed in the table, the user can 
    :alt: aws test connection result
    :width: 60%
 
-By clicking the ``view connection details`` icon user can view the masked connection credentials for the group
+By clicking the ``view connection details`` icon user can view the masked connection credentials which is configured for the group
 
 .. figure:: ../../_assets/diagnositcs/Diagnostic_Group_Aws_view_Connection.png
    :alt: aws group level configuration

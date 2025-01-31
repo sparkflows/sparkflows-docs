@@ -80,7 +80,7 @@ Possible causes are:
    
 * Test connectivity from the sparkflows machine using:
 
-   ::
+  ::
 
         curl http://<livy-server-ip>:8998/sessions
 

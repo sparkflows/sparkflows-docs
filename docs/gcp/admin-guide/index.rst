@@ -29,7 +29,7 @@ GCP Admin Guide
     
     ---
 
-    :doc:`/gcp/admin-guide/gcs`
+    :doc:`/gcp/admin-guide/gcs/index`
 
     GCS Integration Guide.
     

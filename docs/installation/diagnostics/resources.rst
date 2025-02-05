@@ -1,12 +1,12 @@
 Resources
 ============
 
-By clicking the **Resources** tab in Diagnostics, the user can view the running processes(like Java, Python and System processes) and machine's memory usage.
+To view the running processes(like Java, Python and System processes) and machine's memory usage, click on **Resources** tab in Diagnostics.
 
 Java Processes
 ----------------
 
-By clicking **Java Processes** from the menu, the user can view the Java processes running on the machine, as shown below.
+To view the Java processes running on the machine, click on **Java Process** from the left menu, as shown below.
 
 .. figure:: ../../_assets/diagnositcs/diagnostic-resources-java.png
    :alt: overview
@@ -16,7 +16,7 @@ By clicking **Java Processes** from the menu, the user can view the Java process
 Python Processes
 -----------------
 
-By clicking **Python Processes** from the menu, the user can view the Python processes running on the machine, as shown below.
+To view the Python processes running on the machine, click on **Python Process** from the left menu, as shown below.
 
 .. figure:: ../../_assets/diagnositcs/diagnostic-resources-python.png
    :alt: overview
@@ -25,7 +25,7 @@ By clicking **Python Processes** from the menu, the user can view the Python pro
 System Processes
 -----------------
 
-By clicking **System Processes** from the menu, the user can view the System processes running on the machine, as shown below.
+To view the System processes running on the machine, click on **System Process** from the left menu, as shown below.
 
 .. figure:: ../../_assets/diagnositcs/diagnostic-resources-systemprocess.png
    :alt: overview
@@ -34,7 +34,7 @@ By clicking **System Processes** from the menu, the user can view the System pro
 Memory
 ---------
 
-By clicking **Memory** from the menu, the user can view the total memory, free memory, used memory, total disk space, free disk space, and vCores on the machine, as shown below.
+To view the total memory, free memory, used memory, total disk space, free disk space, and vCores on the machine, click on **Memory** from the left menu, as shown below.
 
 .. figure:: ../../_assets/diagnositcs/diagnostic-resources-memory.png
    :alt: overview

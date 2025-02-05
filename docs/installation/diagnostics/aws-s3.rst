@@ -6,6 +6,7 @@ This document provides instructions on how to test and view the AWS S3 connectio
 Global Level Configuration Test
 _________________________
 
+#. Navigate to **Administration -> Diagnostics -> AWS S3**.
 #. To test the S3 connection configured in the application's settings, click on **Test Global Connection** button, as shown below.
 
    .. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-testglobalconnection.png

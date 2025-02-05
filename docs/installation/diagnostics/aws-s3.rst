@@ -1,29 +1,40 @@
 AWS S3
 ============
 
-By clicking the ``Test Global Connection`` button, the user can test the S3 connection configured in the application's settings.
+This document provides instructions on how to test and view the AWS S3 connection configuration settings at both the global and group levels within the application.
 
-.. figure:: ../../_assets/diagnositcs/diagnostic-awss3.png
-   :alt: aws connection
-   :width: 60%
-
-.. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-success.png
-   :alt: aws test connection result
-   :width: 60%
-
-Group Level Configuration
+Global Level Configuration Test
 _________________________
-By clicking the ``Test Connection`` button displayed in the table, the user can test the S3 connection configured for the particular group.
 
-.. figure:: ../../_assets/diagnositcs/Diagnostic_Group_Aws_Test_Connection.png
-   :alt: aws group level configuration
-   :width: 60%
-.. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-success.png
-   :alt: aws test connection result
-   :width: 60%
+#. To test the S3 connection configured in the application's settings, click on **Test Global Connection** button, as shown below.
 
-By clicking the ``view connection details`` icon user can view the masked connection credentials which is configured for the group
+   .. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-testglobalconnection.png
+    :alt: aws connection
+    :width: 60%
 
-.. figure:: ../../_assets/diagnositcs/Diagnostic_Group_Aws_view_Connection.png
-   :alt: aws group level configuration
-   :width: 60%
+   The test connection results will be displayed as shown below:
+
+   .. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-success.png
+    :alt: aws test connection result
+    :width: 60%
+
+Group Level Configuration Test
+_________________________
+
+#. To test the S3 connection configured for the particular group, click on **Test Connection** icon from the **Actions** menu, as shown below.
+
+   .. figure:: ../../_assets/diagnositcs/Diagnostic_Group_Aws_Test_Connection.png
+      :alt: aws group level configuration
+      :width: 60%
+
+   The test connection results will be displayed as shown below:
+
+   .. figure:: ../../_assets/diagnositcs/diagnostics-aws-s3-success.png
+      :alt: aws test connection result
+      :width: 60%
+
+#. To view the masked connection credentials configured for the group, click on **View Connection Details** icon from the **Actions** menu, as shown below.
+
+   .. figure:: ../../_assets/diagnositcs/Diagnostic_Group_Aws_view_Connection.png
+      :alt: aws group level configuration
+      :width: 60%

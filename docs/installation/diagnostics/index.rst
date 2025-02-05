@@ -1,7 +1,7 @@
 Diagnostics
 =============
 
-Diagnostics refer to the process of identifying the nature or cause of a problem, typically related to Fire Insights installation. 
+Diagnostics refers to the process of identifying the nature or cause of a problem, typically related to Fire Insights installation. 
 
 **How To Access Diagnostics**
 

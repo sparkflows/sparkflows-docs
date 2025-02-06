@@ -72,12 +72,24 @@ Ensure that you have the following AWS specifications while Integrating with Fir
    * - EMR
      - 6.9.0
      - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-690-release.html
+   * - EMR
+     - 6.15.0
+     - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-6150-release.html
+   * - EMR
+     - 7.4.0
+     - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-740-release.html
    * - Spark
      - 3.2.1
      - Compatible with EMR 6.7.0
    * - Spark
      - 3.3.0
      - Compatible with EMR 6.9.0
+   * - Spark
+     - 3.4.1
+     - Compatible with EMR 6.15.0
+   * - Spark
+     - 3.5.2
+     - Compatible with EMR 7.4
    * - Airflow (Standalone Installation)
      - V2.3.x
      - Standalone installations on ec2

@@ -57,7 +57,7 @@ Step 3 : Updating Influx Database Connection
 
 Step 4 : Monitoring with Sparkflows
 -----
-Once the model is deployed, Sparkflows monitoring module provides the detailed info on environment, deployment type, deployment mode, problem type, alerts and all the metrics needed to keep a check on how model is being used and is performing over a period of time from influx DB, as shown below. 
+Once the model is deployed, Sparkflows monitoring module provides the detailed information on environment, deployment type, deployment mode, problem type, alerts and all the metrics needed to monitor how model is being used and performing over time from influx DB, as shown below. 
 
    .. figure:: ../../../_assets/mlops/11_Monitoring_Page.png
         :alt: Continuous ML

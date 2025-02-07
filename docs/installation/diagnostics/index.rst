@@ -47,7 +47,7 @@ Diagnostics refers to the process of identifying the nature or cause of a proble
     
     :doc:`/installation/diagnostics/mlops`
 
-     ---
+    
 
 
 .. toctree::

@@ -171,13 +171,13 @@ It does the following processing of data:
 The Cross Tab node is configured as follows:
 
 *	**INPUT:** Incoming dataset is the input for this node.
-*	**FIRSTCOLUMN & SECONDCOLUMN:** Select any two categorical columns from the incoming dataset in Firstcolumn and Secondcolumn respectively. All distinct values from Firstcolumn will be displayed as rows, while all distinct values from Secondcolumn will be displayed as columns of the Table. The Row count of Row and Column value combination will be displayed as distribution.
+*	**FIRSTCOLUMN & SECONDCOLUMN:** Select any two categorical columns from the incoming dataset in Firstcolumn and Secondcolumn respectively, as shown below. All distinct values from Firstcolumn will be displayed as rows, while all distinct values from Secondcolumn will be displayed as columns of the Table. The Row count of Row and Column value combination will be displayed as distribution.
 
   .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-config.png
      :alt: dataexploration_userguide
      :width: 75%
 
-*	Output of this node would display table depicting distribution of data between the two series.
+*	Output of this node will display the table depicting distribution of data between the two series.
 
    
 **Cross Tab Node Output**
@@ -200,35 +200,40 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Displays distinct combinations of values in the selected columns using Distinct Values In Column node. If only one column is selected then it displays Distinct values present in that column. If more than one column is selected then it displays distinct combinations of values present in the selected columns.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Distinct Values In Column Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Distinct Values In Column node is configured as below.
+The Distinct Values In Column node is configured as follows.
 
-*	Input of this node is the incoming dataset.
-*	Columns between which unique combination of data is to be identified are to be selected in ``Column Names`` list. One or more columns can be selected.
-*	Output of this node would display distinct combinations of values in the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**COLUMN NAMES:** Select the columns between which unique combination of data is to be identified. One or more columns can be selected, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display distinct combinations of values in the selected columns.
+
    
 **Distinct Values In Column Node Output**
+++++++++++++++++++++++++++++++++++++++++++++
 
-Output of Distinct Values In Column node displaying distinct combination of values in the selected columns.
+The output of Distinct Values In Column node displays the distinct combination of values in the selected columns, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/distinctval-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 Flag Outlier
@@ -241,36 +246,40 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using Flag Outlier node. It can be checked against numeric columns only.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Flag Outlier Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++
 
-Flag Outlier node is configured as below.
+The Flag Outlier node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Numeric Column in which datapoints are to be identified as outlier needs to be selected in ``Input Column To Flag The Outlier`` list.
-*	``Lowerquantile`` and ``Upperquantile`` values need to be entered in the respective boxes. Datapoint would be checked against these values to flag it as outlier.
-*	Output of this node would display Outlier flag for the datapoint in the selected column.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	** INPUT COLUMN TO FLAG THE OUTLIER:** Select a Numeric Column in which datapoints are to be identified as outlier from the dropdown.
+*	**LOWER QUANTILE & UPPER QUANTILE:** Enter the values of lower and upper quantile in the respective boxes. Datapoint will be checked against these values to flag it as outlier, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display the outlier flag for the datapoint in the selected column.
    
 **Flag Outlier Node Output**
+++++++++++++++++++++++++++++++++++
 
-Output of Flag Outlier node displaying Outlier flag for datapoints in the selected column.
+The output of Flag Outlier node displays the Outlier Flag for datapoints in the selected column, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/flagoutlier-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 Multiflag Outlier
 ----------------------------------------
@@ -280,39 +289,43 @@ Below is a sample workflow that contains Multiflag Outlier processor in Fire Ins
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using Flag Outlier node. It can be checked against numeric columns only.
+*	Identifies whether a data point is outlier in a series or not based on the lower and upper quantile set using Flag Outlier node. It can be checked against numeric columns only, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Multiflag Outlier Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++++
 
-Multilag Outlier node is configured as below.
+The Multilag Outlier node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Numeric Column in which datapoints are to be identified as outlier needs to be selected from the dropdown in ``Input Column To Flag The Outlier`` list.
-*	``Lowerquantile`` and ``Upperquantile`` values need to be entered in the respective boxes. Datapoint would be checked against these values to flag it as outlier.
-*  Node can be configured to check for Outliers in multiple columns. Lower and Upper Quantile values can be set individually for each column.
-*	Output of this node would display Outlier flag for the datapoint in the selected column.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**INPUT COLUMN TO FLAG THE OUTLIER:** Select a Numeric Column in which datapoints are to be identified as outlier needs to be selected from the dropdown. 
+*	**LOWER QUANTILE & UPPER QUANTILE:** Enter the values of lower and upper quantile in the respective boxes. Datapoint will be checked against these values to flag it as outlier.
+*  This node can be configured to check for Outliers in multiple columns. Lower and Upper Quantile values can be set individually for each column, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display the Outlier flag for the datapoint in the selected column.
    
 **Multiflag Outlier Node Output**
+++++++++++++++++++++++++++++++++++++++
 
-Output of Multiflag Outlier node displaying Outlier flag for datapoints in the selected columns. Outlier information for each columns would be displayed in separate tab.
+The output of Multiflag Outlier node displays the Outlier Flag for datapoints in the selected columns. The Outlier information for each column will be displayed in separate tab, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/multiflag-outlier-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 
@@ -324,38 +337,43 @@ Below is a sample workflow that contains Graph Month Distribution processor in F
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays monthly distribution of data using Graph Month Distribution node. In the workflow given below, the Graph Month Distribution node displays monthly distribution of count of trade executed.
+*	Displays monthly distribution of data using Graph Month Distribution node. In the workflow shown below, the Graph Month Distribution node displays monthly distribution of count of trade executed.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Graph Month Distribution Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Graph Month Distribution node is configured as below.
+The Graph Month Distribution node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	``Chart Type`` can be selected from the list based on the representation needed.
-*	String columns representing Date Values need to be selected in ``Y Columns`` list. More than one value can be selected.
-*	Output of this node would display monthly distribution of data present in the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**CHART TYPE:** Select a chart type from the dropdown based on the representation needed.
+*	**Y COLUMNS:** Select string columns that represent Date Values from the list. More than one value can be selected, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display monthly distribution of data present in the selected columns.
+
    
 **Graph Month Distribution Node Output**
++++++++++++++++++++++++++++++++++++++++++++++
 
-Output of Graph Month Distribution node displaying monthly distribution of selected columns i.e. number of trades executed.
+The output of Graph Month Distribution node displays the monthly distribution of selected columns i.e. number of trades executed, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphmthdist-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 Graph Weekday Distribution
 ----------------------------------------
@@ -365,39 +383,44 @@ Below is a sample workflow that contains Graph Weekday Distribution processor in
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays weekday wise distribution of data using Graph Weekday Distribution node. In the workflow given below, the Graph Weekday Distribution node displays weekday wise distribution of count of trade executed.
+*	Displays weekday wise distribution of data using Graph Weekday Distribution node. In the workflow shown below, the Graph Weekday Distribution node displays weekday wise distribution of count of trade executed.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Graph Weekday Distribution Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Graph Weekday Distribution node is configured as below.
+The Graph Weekday Distribution node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Title of the output graph needs to be entered in the ``Title`` box.
-*	``Chart Type`` can be selected from the list based on the representation needed.
-*	String columns representing Date Values need to be selected in ``Y Columns`` list.
-*	Output of this node would display weekday wise distribution of data present in the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**TITLE:** Enter a title of the output graph in the box.
+*	**CHART TYPE:** Select a chart type from the dropdown based on the representation needed.
+*	**Y COLUMNS:** Select string columns representing Date Values from the list, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display weekday wise distribution of data present in the selected columns.
    
 **Graph Weekday Distribution Node Output**
+++++++++++++++++++++++++++++++++++++++++++++++++
 
-Output of Graph Weekday Distribution node displaying weekday wise distribution of selected columns i.e. number of trades executed.
+The output of Graph Weekday Distribution node displays the weekday wise distribution of selected columns i.e. number of trades executed, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphwkdaydist-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 Graph Year Distribution
@@ -408,39 +431,43 @@ Below is a sample workflow that contains Graph Year Distribution processor in Fi
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays yearly distribution of data using Graph Year Distribution node. In the workflow given below, the Graph Year Distribution displays yearly distribution of count of trade executed.
+*	Displays yearly distribution of data using Graph Year Distribution node. In the workflow shown below, the Graph Year Distribution displays yearly distribution of count of trade executed.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Graph Year Distribution Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Graph Year Distribution node is configured as below.
 
-*	Input of this node is the incoming dataset.
-*	Title of the output graph needs to be entered in  the ``Title`` box.
-*	``Chart Type`` can be selected from the list based on the representation needed.
-*	String columns representing Date Values need to be selected in ``Y Columns`` list.
-*	Output of this node would display yearly distribution of data present in the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**TITLE:** Enter a title of the output graph in the box.
+*	**CHART TYPE:** Select a chart type from the list based on the representation needed.
+*	**Y COLUMNS:** Select string columns representing Date Values from the list, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display yearly distribution of data present in the selected columns.
    
-**Graph Year Distribution Node output**
+**Graph Year Distribution Node Output**
+++++++++++++++++++++++++++++++++++++++++++++++
 
-Output of Graph Year Distribution node displaying yearly distribution of selected columns i.e. number of trades executed.
+The output of Graph Year Distribution node displays the yearly distribution of selected columns i.e. number of trades executed, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/graphyeardist-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 Histogram
 ----------------------------------------
@@ -450,83 +477,93 @@ Below is a sample workflow that contains Histogram processor in Fire Insights. I
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays distribution of data spread across multiple bins using Histogram node. In the workflow given below, the Histogram processor displays the distribution of traded volume spread across multiple bins.
+*	Displays distribution of data spread across multiple bins using Histogram node. In the workflow shown below, the Histogram processor displays the distribution of traded volume spread across multiple bins.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Histogram Node Configuration**
++++++++++++++++++++++++++++++++++++++++
 
-Histogram node is configured as below.
+The Histogram node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Title of the output graph needs to be entered in the ``Title`` box.
-*	Input Column of which distribution needs to be displayed is to be selected in ``Column Name`` list.
-*	Number of equally spaced bins that needs to be created is to be entered in ``Number Of Bins`` box.
-*	Output of this node would display distribution of data present in the selected column spread across multiple bins.
+*  **INPUT:** Incoming dataset is the input for this node.
+*	**TITLE:** Enter a title of the output graph in the box.
+*	**COLUMN NAME:** Select an Input Column from the dropdown for which distribution needs to be displayed.
+*	**NUMBER OF BINS:** Enter the number of equally spaced bins that need to be created, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display distribution of data present in the selected column spread across multiple bins.
+
    
 **Histogram Node Output**
+++++++++++++++++++++++++++++++
 
-Output of Histogram node displaying distribution of data present in the selected column spread across multiple bins.
+The output of Histogram node displays the distribution of data present in the selected column spread across multiple bins, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output1.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output1.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output2.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/histogram-printnode-output2.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
 
 Null Values In Column
 ----------------------------------------
 
-Below is a sample workflow that contains Null Values In Column processor in Fire Insights. It demonstrates the usage of Null Values In Column node identify number of Null values and its percentage against the total data length in the selected columns.
+Below is a sample workflow that contains Null Values In Column processor in Fire Insights. It demonstrates the usage of Null Values In Column node identify the number of Null values and its percentage against the total data length in the selected columns.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
 *	Identifies number of Null values and its percentage against the total data length in the selected columns using Null Values In Column node. 
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Null Values In Column Node configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Null Values In Column node is configured as below.
+The Null Values In Column node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Columns in which the null values need to be identified are to be selected in ``Column Names`` list. Multiple columns can be selected.
-*	Output of this node would display number of Null values and its percentage for the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**COLUMN NAMES:** Select the columns from the list for which the null values need to be identified. Multiple columns can be selected, as shwon below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display number of Null values and its percentage for the selected columns.
+
    
 **Null Values In Column Node Output**
+++++++++++++++++++++++++++++++++++++++++++
 
-Output of Null Values In Column node displaying number of Null values and its percentage for the selected columns.
+The output of Null Values In Column node displays the number of Null values and its percentage for the selected columns, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/nullvalincol-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 Skewness And Kurtosis
@@ -539,35 +576,40 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Identifies Skewness and Kurtosis in the selected columns using Skewness And Kurtosis node. 
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-wf.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-wf.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-input.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-input.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Skewness And Kurtosis Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Skewness And Kurtosis node is configured as below.
+The Skewness And Kurtosis node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Columns for which Skewness And Kurtosis need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
-*	Output of this node would display Skewness And Kurtosis values for the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**COLUMN NAMES:** Select the columns from the list for which Skewness And Kurtosis need to be computed. Multiple columns can be selected, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display Skewness And Kurtosis values for the selected columns.
+
    
-**Skewness And Kurtosis Node output**
+**Skewness And Kurtosis Node Output**
+++++++++++++++++++++++++++++++++++++++++++++
 
-Output of Skewness And Kurtosis node displaying Skewness And Kurtosis values for the selected columns.
+The output of Skewness And Kurtosis node displays the Skewness And Kurtosis values for the selected columns, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/skewness-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 Summary Statistics
@@ -580,34 +622,38 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Computes Statistical Summary such as count, mean, min, max, etc. for the selected columns using Summary Statistics node. 
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Summary Statistics Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Summary Statistics node is configured as below.
+The Summary Statistics node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Title of the output needs to be entered in the ``Title`` box.
-*	Columns for which summary need to be computed are to be selected in ``Column Names`` list. Multiple columns can be selected.
-*	Output of this node would display Statistical Summary of the columns selected.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**TITLE:** Enter a title of the output.
+*	**COLUMN NAMES:** Select the columns from the list for which summary need to be computed. Multiple columns can be selected, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
+*	Output of this node will display Statistical Summary of the columns selected.
    
 **Summary Statistics Node Output**
+++++++++++++++++++++++++++++++++++++++++
 
-Output of Summary Statistics node displaying Statistical Summary of the columns selected.
+The output of Summary Statistics node displays the Statistical Summary of the columns selected, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/summarystats-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    

@@ -1,8 +1,7 @@
 Data Profiling Processors
 ==========
 
-Fire Insights provides a number of processors or nodes for exploration of data.
-
+Fire Insights provides a range of processors or nodes for exploring and analyzing data efficiently. These processors help in identifying data patterns, correlations, distributions, and outliers, enabling better decision-making. Below is a structured workflow that details the various data profiling processors available in Fire Insights.
 
 .. figure:: ../../_assets/user-guide/data-quality/2_Data_Profiling_Workflow.png
    :alt: Data Profiling Workflow
@@ -26,7 +25,7 @@ Data Profiling Processors in Fire Insights
    * - CrossTab
      - Displays distribution of data for all combination of categorical data series.
    * - DistinctValuesInColumn   
-     - Displays distinct combination data present in the select data series.
+     - Displays distinct combinations of data present in the selected data series.
    * - Flag Outlier
      - Flags the outlier based on the selected column using Box-and-Whisker technique.
    * - Multiflag Outlier
@@ -56,44 +55,49 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Displays Categorical distribution of data using Columns Cardinality node. It displays count of rows for each distinct values in the selected columns (Categories). More than one column can be seclected to display distribution of data.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-workflow.png
+      :alt: dataexploration_userguide
+      :width: 60%
    
 **Incoming Dataset**
+++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Columns Cardinality Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++++++
 
-Columns Cardinalitynode is configured as below.
+Columns Cardinality node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	``Max Values To Display`` specifies the maximum Categorical data to be displayed. It denotes maximum number of distinct values in the selected columns for which count needs to be displayed.
-*	Columns for which distribution needs to be displayed is to be selected in ``Column Names`` list. More than one column can be selected. Data for each columns would be displayed separately.
-*	Output of this node would contain count of each distinct values in the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**MAX VALUES TO DISPLAY:** It specifies the maximum categorical data to be displayed. It denotes maximum number of distinct values in the selected columns for which count needs to be displayed.
+*	**COLUMN NAMES:** Select the columns for which distribution needs to be displayed. More than one column can be selected. Data for each columns would be displayed separately, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+   .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-config.png
+      :alt: dataexploration_userguide
+      :width: 75%
+
+* Output of this node will contain count of each distinct values in the selected columns.
+
    
 **Columns Cardinality Node output**
++++++++++++++++++++++++++++++++++++++++
 
-Output of Columns Cardinality node displaying count of distinct values for each selected columns and categorical data (count of distinct values) for each selected columns in the node.
+The output of Columns Cardinality node displays the count of distinct values for each selected column and categorical data (count of distinct values) for each selected column in the node, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output1.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output1.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output2.png
-   :alt: dataexploration_userguide
-   :width: 75%       	 
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output2.png
+     :alt: dataexploration_userguide
+     :width: 75%       	 
    
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output3.png
-   :alt: dataexploration_userguide
-   :width: 75%       	 
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/columnscardinality-printnode-output3.png
+     :alt: dataexploration_userguide
+     :width: 75%       	 
    
 Correlation
 ----------------------------------------
@@ -105,76 +109,85 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Displays correlation between data of selected columns using Correlation node. More than two columns can be selected to identify correlation. It displays correlation in color codes along with scale to read highly and less correlated data series.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Correlation Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++
 
-Correlation node is configured as below.
+The Correlation node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	All Numeric between which the correlation is to be identified are to be selected in ``Input Column For Correlation`` list.
-*	Title of the Correlation Matrix needs to be entered in ``Title``.
-*	Output of this node would display correlation between all the selected columns.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**TITLE:** Enter a title of the Correlation Matrix in the box.
+*	**INPUT COLUMN FOR CORRELATION:** Selct All Numeric between which the correlation is to be identified in this list. 
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+ 
+* Output of this node will display the correlation between all the selected columns.
    
 **Correlation Node Output**
++++++++++++++++++++++++++++++++++
 
-Output of ``Correlation`` node displaying correlation between all the selected columns along with the color code is shown as below. The output as shown below displays Correlation Matrix along with Color Code Scale. Green indicates highly correlated and Red, less correlated. From the output as shown below, we can identify that ``Customer Service Calls`` and ``Churn`` are correlated.
+The output of Correlation node displays correlation between all the selected columns along with the color code as shown below. It displays Correlation Matrix along with Color Code Scale, where green indicates a high correlation and red indicates a low correlation. From the output, we can identify that **Customer Service Calls** and **Churn** are correlated.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 60%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/correlation-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 60%       	    
    
 Cross Tab
 ----------------------------------------
 
-Below is a sample workflow that contains ``Cross Tab`` processor in Fire Insights. It demonstrates the usage of ``Cross Tab`` node to display distribution of data between all possible combinations of all distinct values of two series.
+Below is a sample workflow that contains Cross Tab processor in Fire Insights. It demonstrates the usage of Cross Tab node to display distribution of data between all possible combinations of all distinct values of two series.
 
 It does the following processing of data:
 
 *	Reads incoming dataset.
-*	Displays distribution of data between all possible combinations of all distinct values of two series using ``Cross Tab`` node. Distribution can be displayed between any two Categorical columns from the incoming dataset.
+*	Displays distribution of data between all possible combinations of all distinct values of two series using Cross Tab node. Distribution can be displayed between any two Categorical columns from the incoming dataset.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-workflow.png
-   :alt: dataexploration_userguide
-   :width: 60%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-workflow.png
+     :alt: dataexploration_userguide
+     :width: 60%
    
 **Incoming Dataset**
++++++++++++++++++++++++
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-incoming-dataset.png
-   :alt: dataexploration_userguide
-   :width: 75%
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-incoming-dataset.png
+     :alt: dataexploration_userguide
+     :width: 75%
 
 **Cross Tab Node Configuration**
++++++++++++++++++++++++++++++++++++++++
 
-Cross Tab node is configured as below.
+The Cross Tab node is configured as follows:
 
-*	Input of this node is the incoming dataset.
-*	Any two categorical columns from incoming dataset can be selected as ``Firstcolumn`` and ``Secondcolumn``. All distinct values from ``Firstcolumn`` would be displayed as rows and all distinct values from ``Secondcolumn`` would be displayed as columns of the Table. Row count of Row and Column value combination would be displayed as distribution.
+*	**INPUT:** Incoming dataset is the input for this node.
+*	**FIRSTCOLUMN & SECONDCOLUMN:** Select any two categorical columns from the incoming dataset in Firstcolumn and Secondcolumn respectively. All distinct values from Firstcolumn will be displayed as rows, while all distinct values from Secondcolumn will be displayed as columns of the Table. The Row count of Row and Column value combination will be displayed as distribution.
+
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-config.png
+     :alt: dataexploration_userguide
+     :width: 75%
+
 *	Output of this node would display table depicting distribution of data between the two series.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-config.png
-   :alt: dataexploration_userguide
-   :width: 75%
    
 **Cross Tab Node Output**
+++++++++++++++++++++++++++
 
-Output of Cross Tab node displaying distribution between Firstcolumn and Secondcolumn in tabular format.
+The output of Cross Tab node displays the distribution between Firstcolumn and Secondcolumn in tabular format, as shown below.
 
-.. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-printnode-output.png
-   :alt: dataexploration_userguide
-   :width: 75%       	    
+  .. figure:: ../../_assets/user-guide/data-exploration/data-exploration/crosstab-printnode-output.png
+     :alt: dataexploration_userguide
+     :width: 75%       	    
    
 
 Distinct Values In Column

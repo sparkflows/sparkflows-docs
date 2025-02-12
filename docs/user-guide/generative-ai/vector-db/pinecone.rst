@@ -19,8 +19,8 @@ Setting Up Pinecone
 
 To set up and use Pinecone in your project, follow the steps below:
 
-Step 1 : Installing Dependencies
-++++++++++++++++++++++++++++++++++++
+**Step 1 : Installing Dependencies**
++++++++++++++++++++++++++++++++++++++
 
 Install the required libraries using pip:
 

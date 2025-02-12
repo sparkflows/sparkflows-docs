@@ -17,18 +17,19 @@ Fire Insights integrates with Pinecone to accelerate generative AI workflows and
 Setting Up Pinecone
 -------------------
 
-Follow these steps to set up and use Pinecone in your project:
+To set up and use Pinecone in your project, follow the steps below:
 
-**Install Dependencies**
+**Step 1 : Installing Dependencies**
+++++++++++++++++++++++++++++++++++++
 
-    First, install the required libraries.
+Install the required libraries using pip:
 
     .. code-block:: bash
 
         !pip install pinecone langchain langchain_pinecone langchain-openai langchain-community pypdf python-dotenv
 
 
-1. **Install the Pinecone Client**
+**Step 2 : Install the Pinecone Client**
 
    Ensure you have Python installed, then install the Pinecone client using pip:
 

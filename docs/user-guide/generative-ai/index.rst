@@ -36,6 +36,11 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
     GAI Chatbot
 
+    ---
+
+    :doc:`/user-guide/generative-ai/vector-db/index`
+
+    Vector Databases
 
 .. toctree::
    :hidden:
@@ -45,5 +50,6 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
    gen-ai-implementations.rst
    gen-ai-nlq.rst
    chatbot/index.rst
+   vector-db/index.rst
 
 

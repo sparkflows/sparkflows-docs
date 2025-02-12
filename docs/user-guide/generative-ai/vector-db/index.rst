@@ -6,21 +6,21 @@ Vector databases (Vector DBs) are specialized database systems designed to effic
 Key Features
 ------------
 
-- **Efficient Indexing**: Uses HNSW, IVF, and PQ for quick retrieval.
-- **Fast Search**: Employs cosine similarity, Euclidean distance, and dot product to find the most relevant results.
-- **Scalability**: Handles billions of vectors with low latency.
-- **AI Integration**: Works with deep learning models for embeddings.
-- **ANN Support**: Enables rapid Approximate Nearest Neighbor (ANN) search of similar vectors even in large-scale datasets.
+- **Efficient Indexing:** Uses HNSW, IVF, and PQ for quick retrieval.
+- **Fast Search:** Employs cosine similarity, Euclidean distance, and dot product to find the most relevant results.
+- **Scalability:** Handles billions of vectors with low latency.
+- **AI Integration:** Works with deep learning models for embeddings.
+- **ANN Support:** Enables rapid Approximate Nearest Neighbor (ANN) search of similar vectors even in large-scale datasets.
 
 Use Cases
 ---------
 
-- **Recommendations**: Matches user preferences with content.
-- **Semantic Search**: Enhances search beyond keyword matching by understanding the meaning behind queries.
-- **Anomaly Detection**: Identifies unusual patterns.
-- **Generative AI**: Supports retrieval-augmented generation (RAG) by providing relevant context for LLMs.
+- **Recommendations:** Matches user preferences with content.
+- **Semantic Search:** Enhances search beyond keyword matching by understanding the meaning behind queries.
+- **Anomaly Detection:** Identifies unusual patterns.
+- **Generative AI:** Supports retrieval-augmented generation (RAG) by providing relevant context for LLMs.
 
-For a step-by-step guide on setting up a vector database, check out our tutorial on Pinecone:
+For a step-by-step guide on setting up a vector database, check out the following database tutorials:
 
 
 .. panels::

@@ -35,9 +35,8 @@ For a step-by-step guide on setting up a vector database, check out our tutorial
 
     :doc:`/user-guide/generative-ai/vector-db/milvus`
 
-    ---
-
     Milvus Tutorial
+
 
     
 .. toctree::

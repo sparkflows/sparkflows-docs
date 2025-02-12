@@ -11,4 +11,4 @@ Fill in the information as shown below. The two fields corresponding to the Nvid
 
  * **Base URL :** 
 
-   This is the Databricks endpoint URL: https://<workspace_host>.databricks.com
+   This is the Databricks LLM endpoint URL: https://<workspace_host>.databricks.com/serving-endpoints/databricks-dbrx-instruct/invocations

@@ -1,4 +1,4 @@
-Databricks Workspace Connection
+Databricks LLM Connection
 ============
 
 This connection can be created to interact with Databricks API’s. The analytical apps and nodes can make use of this connection.

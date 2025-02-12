@@ -13,11 +13,6 @@ Fire Insights integrates with Pinecone to accelerate generative AI workflows and
 - Anomaly Detection
 - Hyper-personalized Recommendations
 
-- **Fully Managed**: No need to handle infrastructure, scaling, or maintenance.
-- **High-Performance Indexing**: Uses Approximate Nearest Neighbor (ANN) search algorithms.
-- **Low Latency and Scalability**: Handles large-scale vector data with minimal response time.
-- **API-Driven**: Provides a simple and efficient API for data ingestion and querying.
-- **Integration with AI Workflows**: Works well with embedding models from OpenAI, Hugging Face, and other frameworks.
 
 Setting Up Pinecone
 -------------------

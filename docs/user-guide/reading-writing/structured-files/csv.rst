@@ -12,7 +12,7 @@ It does the following processing of data:
 *	Reads incoming dataset in CSV Data format using the Read CSV node.
 * 	Prints the content of the CSV file using the Print node.
 
-.. figure:: ../../../_assets/user-guide/read-write/read-structured/CSV_WF.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/CSV_WF_1.png
    :alt: readcsv_node_userguide
    :width: 50%
    
@@ -21,21 +21,41 @@ It does the following processing of data:
 
 The Read CSV node is configured as below.
 
-*	A ``CSV Data File`` needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a CSV file from HDFS.
-*	A Delimiter or Character used to separate two columns' data needs to be selected in the ``Separator``. In most of the cases ``,`` / comma is used to separate two columns.
-*	``Header`` needs to be selected as ``True`` or ``False`` based on whether data file contains header row that can be used in the imported dataset.
-*	Once a CSV file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``CSV Data File``. 
-*	``OK`` button needs to be clicked to complete the configuration.
+#. General Tab
 
-.. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVConfig.png
-   :alt: readcsv_node_userguide
-   :width: 70%
+      .. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVConfig_1.png
+         :alt: readcsv_node_userguide
+         :width: 70%
+      
+      *	A ``CSV Data File`` needs to be selected in the ``Path``. The ``Browse`` option can be used to browse and select a CSV file from respective filesystem.
+      *	A Delimiter or Character used to separate two columns' data needs to be selected in the ``Separator``. In most of the cases ``,`` / comma is used to separate two columns.
+      *	``Header`` needs to be selected as ``True`` or ``False`` based on whether data file contains header row that can be used in the imported dataset.
+      *  ``Drop Special Character In ColumnName`` needs to be selected as ``True`` or ``False`` based on whether special characters such as ``_ or - or # and so on`` need to be removed from the column name.
+      *  ``Whether to Add Input File Name as Column in the Dataframe`` needs to be selected as ``True`` or ``False`` based on whether the file name needs to be added a column to the dataset.
+
+#. Schema Tab
+
+      .. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVConfig_2.png
+         :alt: readcsv_node_userguide
+         :width: 70%
+      
+      *	Once a CSV file is selected the ``Refresh Schema`` button needs to be clicked to list Schema defined in the ``CSV Data File``. 
+
+#. Extra Options Tab
+
+      .. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVConfig_3.png
+         :alt: readcsv_node_userguide
+         :width: 70%
+      
+      *	``Extra Options`` can be entered in key-value pair. They would be used while reading the CSV file. i.e. Option ``Comment`` can be added to skip comments from the file while reading it.
+
+*	``Okay`` button needs to be clicked to complete the configuration.
 
 **Read CSV node output**
 
 Data read from a CSV Data File is printed as below using the Print node.
 
-.. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVOutput.png
+.. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVOutput_1.png
    :alt: readcsv_node_userguide
    :width: 70%
    

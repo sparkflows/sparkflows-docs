@@ -1,7 +1,7 @@
 Databricks LLM Connection
 ============
 
-This connection can be created to interact with Databricks API’s. The analytical apps and nodes can make use of this connection.
+This connection can be created to interact with Databricks APIs. The analytical apps and nodes can make use of this connection.
 
 Fill in the information as shown below. The two fields corresponding to the Nvidia End points:
 

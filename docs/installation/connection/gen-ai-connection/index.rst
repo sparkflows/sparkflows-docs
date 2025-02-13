@@ -13,5 +13,5 @@ These connections can be created to interact with LLM model exposed via APIs.
    nvidia.rst
    databricks-llm.rst
    palm-api.rst
-   
+   bedrock.rst
 

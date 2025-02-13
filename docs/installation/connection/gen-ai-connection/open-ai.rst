@@ -1,6 +1,6 @@
 OpenAI Connection
 ============
-This connection can be created to interact with OpenAI API’s. The analytical apps and nodes can make use of the connection.
+This connection can be created to interact with OpenAI APIs. The analytical apps and nodes can make use of the connection.
 
 Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
 

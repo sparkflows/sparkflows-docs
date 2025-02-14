@@ -38,7 +38,7 @@ To configure the Read CSV node follow the steps below:
       *  **DROP SPECIAL CHARACTER IN COLUMN NAME:** Select it to **True** or **False** based on whether special characters such as **_ or - or # and so on** need to be removed from the column name.
       *  **WHETHER TO ADD FILE NAME AS COLUMN IN THE DATAFRAME** needs to be selected as **True** or **False** based on whether the file name needs to be added as column to the dataset.
 
-Step 2 : Schema Tab Configurations
+**Step 2 : Schema Tab Configurations**
 _______________________________________
 
       Once a CSV file is selected click on **Refresh Schema** button to list Schema defined in the CSV Data File, as shown below.

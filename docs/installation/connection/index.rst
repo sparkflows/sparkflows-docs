@@ -3,17 +3,18 @@ Connections
 
 Fire Insights enables you to create different connections. It offers the following three types of Connections:
 
-**1. Compute Connections**
+#. **Compute Connections -** like Databricks, AWS Glue, Livy, and Spark Submit connection.
 
-**2. Storage Connections**   
+#.  **Storage Connections -** like MySQL, Snowflake, PostgreSQL, Redshift, SQL Server, SFTP, and Sybase connection.   
 
-**3. GenerativeAI Connections**
+#. **GenerativeAI Connections -** like OpenAI, Azure OpenAI, Nvidia, Databricks LLM, Vertex Palm API, and Bedrock connection.
 
 Connections can be created at various levels:
 
 * **Global  :** Everyone has access to these connections.
 * **Group   :** Only users belonging to a group have access to these connections.
 * **Project :** The project owner and the groups with which the project has been shared have access to these connections.
+
 To create a Connection follow the steps below:
 
 Step 1 : Login to Fire Insights

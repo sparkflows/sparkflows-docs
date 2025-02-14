@@ -25,6 +25,7 @@ It does the following processing of data:
 To configure the Read CSV node follow the steps below:
 
 **Step 1 : General Tab Configurations**
+___________________________________________
 
       .. figure:: ../../../_assets/user-guide/read-write/read-structured/CSVConfig_1.png
          :alt: readcsv_node_userguide
@@ -49,6 +50,7 @@ _______________________________________
       
       
 **Step 3 : Extra Options Tab Configurations**
+________________________________________________
 
 *	Enter extra options in key-value pair. They can be used while reading the CSV file. For e.g. Option **comment** can be added to skip comments from the file while reading it, as shown below.
 
@@ -60,7 +62,7 @@ _______________________________________
 
 * To complete the configurations, click on **Okay** button.
 
-**Read CSV node output**
+**Read CSV Node Output**
 +++++++++++++++++++++++++++++++
 
  Using the Print node Data read from a CSV Data File is printed as shown below.
@@ -94,13 +96,14 @@ It does the following processing of data:
     :alt: savefiles_userguide
     :width: 75%
    
-**Save CSV node Configuration**
+**Save CSV Node Configuration**
 +++++++++++++++++++++++++++++++++++
 
 To configure Save CSV node follow the steps below:
 
  
 **Step 1 : General Tab Configurations**
+_______________________________________________
 
 Enter the required details in the fileds shown below as follows:
 
@@ -113,6 +116,7 @@ Enter the required details in the fileds shown below as follows:
 * **HEADER:** Select **True or False** from the dropdown to save the Header row. 
 
 **Step 2 : Advanced Tab Configurations**
+___________________________________________
 
 Enter the required details in the fileds shown below as follows:
  

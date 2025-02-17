@@ -55,7 +55,7 @@ To create a pinecone connection, follow the steps below:
      :width: 60%
 
      
-     **PINECONE Tab**
+   **PINECONE Tab**
 
      * **Pinecone API Key:** Enter the required key to authenticate with Pinecone. Obtain this from your Pinecone account.
      * **Index Name:** Enter the name of the index where your vector embeddings will be stored. Example: document-index.

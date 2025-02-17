@@ -9,6 +9,8 @@ Fire Insights enables you to create different connections. It offers the followi
 
 #. **GenerativeAI Connections -** like OpenAI, Azure OpenAI, Nvidia, Databricks LLM, Vertex Palm API, and Bedrock connection.
 
+#. **Vector Database Connections -** like Pinecone, FAISS, Milvus and Weaviate connection.
+
 Connections can be created at various levels:
 
 * **Global  :** Everyone has access to these connections.

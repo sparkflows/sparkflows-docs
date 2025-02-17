@@ -1,2 +1,0 @@
-Vector Database Connections
-=================================

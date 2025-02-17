@@ -86,3 +86,4 @@ Step 3 : Adding a Connection
    compute-connection/index.rst
    storage-connection/index.rst
    gen-ai-connection/index.rst
+   vector-database-connection/index.rst

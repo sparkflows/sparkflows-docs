@@ -26,7 +26,7 @@ To configure this node, follow the steps below:
 
 **Step 1 : Configuring the General Tab**
 
-Enter the required details in the General Tab fileds, as shown below:
+Enter the required details in the General Tab fields, as shown below:
 
    .. figure:: ../../../_assets/user-guide/read-write/read-delta/read-delta-processor-1.png
       :alt: read-delta-processor

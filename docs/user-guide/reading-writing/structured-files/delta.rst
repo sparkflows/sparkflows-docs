@@ -2,7 +2,7 @@ DELTA
 ======
 This document provides an overview of the Read Delta and Save Delta nodes in Fire Insights, explaining their configurations and functionalities for reading from and writing to Delta Lake.
 
-Read DELTA
+Read Delta
 ------------
 This node reads files from a Delta Lake.
 
@@ -114,7 +114,7 @@ Enter the required details in the Advanced Tab fields, as shown below.
          :width: 75%
 
 *	**PARTITION COLUMN NAMES:** Select the set of columns from the list that need to be used for partitioning data. A separate file is created for each partition.
-*	**MERGE SCHEMA:** By default, it is **false***, indicating that the schema of the new data must match the existing Delta table schema. If there are any schema differences, the merge operation will fail.
+*	**MERGE SCHEMA:** By default, it is **false**, indicating that the schema of the new data must match the existing Delta table schema. If there are any schema differences, the merge operation will fail.
 *	**OVERWRITE SCHEMA:** This option when enabled allows schema overwriting. By default, it is **false**, indicating that the schema of the data being written must match the existing schema of the Delta table. If there are any schema differences, the write operation will fail.
 *	**OPTIMIZE WRITE:** This option when enabled, optimizes file sizes during the write operation. By default it is **false**, indicating that Delta Lake will not optimize file sizes during the write operation, potentially leading to many small files.
 *	**OVERWRITE PARTITION PREDICATE:** This option allows you to selectively overwrite specific partitions in a Delta table based on partition values, providing flexibility in updating and managing partitioned data.

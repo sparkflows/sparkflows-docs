@@ -15,8 +15,8 @@ The Data Engineering packages include:
 * Apache Spark
 
 
-AI
---
+Data Science
+---------
 
 AI brings in the machine learning packages.
 
@@ -28,8 +28,9 @@ AI packages include:
 * Prophet
 * ARIMA
 
-Gen AI
----
+
+Generative AI
+--------
 
 Gen AI brings in the Generative AI packages.
 

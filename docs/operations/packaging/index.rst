@@ -13,6 +13,9 @@ Data Engineering brings in the core data processing packages. Data Engineering i
 The Data Engineering packages include:
 
 * Apache Spark
+* Numpy
+* Pandas
+* Great Expectations
 
 
 Data Science
@@ -23,10 +26,15 @@ AI brings in the machine learning packages.
 AI packages include:
 
 * Scikit Learn
+* Scipy
 * H2O
 * Spark ML
 * Prophet
 * ARIMA
+* Tensorflow
+* XGBoost
+* Statsmodel
+* Tornedo
 
 
 Generative AI
@@ -38,3 +46,5 @@ Gen AI packages include:
 
 * LangChain
 * Hugging Face Transformers
+
+

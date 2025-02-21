@@ -67,7 +67,11 @@ Operations
     ---
     
     :doc:`/operations/run_workflow_with_dependent_jars`
+
+    ---
     
+    :doc:`/operations/packaging/index`
+
 .. toctree::
    :hidden:
  
@@ -88,5 +92,6 @@ Operations
    opennlp.rst
    scalability.rst
    run_workflow_with_dependent_jars.rst
+   packaging/index.rst
    
 

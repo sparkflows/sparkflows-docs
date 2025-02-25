@@ -67,11 +67,6 @@ Operations
     
     :doc:`/operations/packaging/index`
 
-
-
-   
-    
-
 .. toctree::
    :hidden:
  

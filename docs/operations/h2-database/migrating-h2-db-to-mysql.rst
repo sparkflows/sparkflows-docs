@@ -15,19 +15,19 @@ Create the MySQL tables
 +++++++++++++++++++++++
 - Open the ``fire-schema.mysql`` MySQL script present in the folder ``/fire-3.1.0_spark_2.4/db/mysql`` using the following icon-
 
-    .. figure:: ..//_assets/DB_Migration/Open_Script_Button.png
+    .. figure:: ../..//_assets/DB_Migration/Open_Script_Button.png
         :alt: Open Script Button
         :width: 110%
  
 - Select the whole script and press the execute icon-
 
-    .. figure:: ..//_assets/DB_Migration/Execute_button.PNG
+    .. figure:: ../..//_assets/DB_Migration/Execute_button.PNG
         :alt: Execute Button
         :width: 3% 
 
 - On running the MySQL script, firedb database will be created along with the tables-
 
-    .. figure:: ..//_assets/DB_Migration/Created_DB.png
+    .. figure:: ../..//_assets/DB_Migration/Created_DB.png
         :alt: Fire Database
         :width: 110%
 

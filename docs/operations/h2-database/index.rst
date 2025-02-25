@@ -15,11 +15,6 @@ H2 Database
 
     :doc:`/operations/h2-database/migrating-h2-db-from-oneversion-to-another`
 
-
-
-
-
-
 .. toctree::
    :hidden:
 

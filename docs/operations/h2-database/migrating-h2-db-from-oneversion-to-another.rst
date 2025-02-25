@@ -1,4 +1,4 @@
-Migration of H2 DB from one Version to Another
+Migrate H2 DB from one Version to Another
 ===========
 
 Follow the steps below to move H2 database from 1.4.199 to 2.2.224.

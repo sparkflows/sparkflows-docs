@@ -20,7 +20,11 @@ Operations
     :doc:`/operations/regular-maintenance-tasks`
     
     ---
-    
+
+    :doc:`/operations/h2-database/index`
+
+    ---
+
     :doc:`/operations/h2db`
     
     ---
@@ -72,6 +76,11 @@ Operations
     
     :doc:`/operations/packaging/index`
 
+    ---
+
+   
+    
+
 .. toctree::
    :hidden:
  
@@ -80,6 +89,7 @@ Operations
    continuous-integration/index.rst
    regular-maintenance-tasks.rst
    backup_db.rst
+   h2-database/index.rst
    h2db.rst
    installing-mysql.rst
    migrating-h2-db-to-mysql.rst

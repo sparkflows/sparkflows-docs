@@ -22,10 +22,6 @@ Operations
     ---
 
     :doc:`/operations/h2-database/index`
-
-    ---
-
-    :doc:`/operations/h2db`
     
     ---
         
@@ -36,16 +32,11 @@ Operations
     :doc:`/operations/installing-mysql`
     
     ---
-    
-    :doc:`/operations/migrating-h2-db-to-mysql`
-    
-    ---
         
     :doc:`/operations/installing-jdbc-drivers`
     
     ---
 
-        
     :doc:`/operations/clean-up-db`
     
     ---
@@ -76,7 +67,7 @@ Operations
     
     :doc:`/operations/packaging/index`
 
-    ---
+
 
    
     
@@ -90,9 +81,7 @@ Operations
    regular-maintenance-tasks.rst
    backup_db.rst
    h2-database/index.rst
-   h2db.rst
    installing-mysql.rst
-   migrating-h2-db-to-mysql.rst
    installing-jdbc-drivers.rst
    clean-up-db.rst
    performance/index.rst

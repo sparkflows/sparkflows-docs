@@ -1,0 +1,10 @@
+Version 3.2.94 - February 26th, 2025
+======================
+
+New Features
+--------------
+
+Inline DQ
++++++
+Added Inline DQ node to perform **inline Data Quality validations**.
+

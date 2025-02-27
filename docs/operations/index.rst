@@ -40,6 +40,10 @@ Operations
     :doc:`/operations/clean-up-db`
     
     ---
+
+    :doc:`/operations/scheduler`
+    
+    ---
        
     :doc:`/operations/performance/index`
     
@@ -83,6 +87,7 @@ Operations
    installing-mysql.rst
    installing-jdbc-drivers.rst
    clean-up-db.rst
+   scheduler.rst
    performance/index.rst
    dashboard-installing-jdbc-drivers.rst
    fire-notebook.rst

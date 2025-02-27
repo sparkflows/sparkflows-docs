@@ -67,6 +67,10 @@ Operations
     
     :doc:`/operations/packaging/index`
 
+    ---
+    
+    :doc:`/operations/scheduler`
+
 .. toctree::
    :hidden:
  
@@ -87,5 +91,5 @@ Operations
    scalability.rst
    run_workflow_with_dependent_jars.rst
    packaging/index.rst
-   
+   scheduler.rst
 

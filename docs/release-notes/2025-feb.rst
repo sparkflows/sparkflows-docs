@@ -7,7 +7,7 @@ New Features
 Data Quality
 +++++
 
-* **Inline DQ Node:** Introduced a new Inline DQ node to perform real-time Data Quality validations within workflows.
+* **Inline DQ Node:** Introduced a new Inline DQ node to perform real-time Data Quality validations within workflows and pipelines.
 
 AI & Automation
 +++++
@@ -26,10 +26,6 @@ Storage & Integrations
 Enhancements
 --------------
 
-Security
-+++++
-* **Vulnerability Reduction:** Significantly reduced the number of security vulnerabilities to enhance system protection.
-
 Administration
 +++++
 * **Local Credential Store:** Added a Credential Store option under Administration to securely manage credentials.
@@ -42,21 +38,22 @@ Development & Workflow
 +++++
 * **Code Editor enhancements:** Introduced auto-completion for column names and functions in the Code Editor.
 
-* **Workflow Templates:** Added more templates to Workflow Templates to streamline development.
+* **Workflow Templates:** Added more workflow templates to automate and streamline workflow development.
 
 Machine Learning Feature Control
 +++++
-* **Enable/Disable Machine Learning:** Machine Learning features can now be enabled or disabled from Administration > Configuration. When disabled, Machine Learning nodes will not be displayed.
+* **Enable/Disable Machine Learning:** Machine Learning features can now be enabled or disabled from **Administration > Configuration**. When disabled, Machine Learning nodes will not be displayed.
 
 Variables & Macros
 +++++
 * **Enhanced Variable Management:** Users can now create variables at the **global**, **group**, or **project** level. Group-level variables can be applied to all groups or specific groups. Project-level variables are now supported for more granular control.
 
 
+Documentation
+-----
 
-
-
-
+* **Pinecone Vector DB:** Added documentation for setting up a **Pinecone Connection** in Sparkflows under Vector Database Connections. 
+* **Migrate H2 database from 1.4.199 to 2.2.224:** Added documentation for migrating the H2 Database from version 1.4.199 to 2.2.224, detailing the step-by-step process.
 
 
 

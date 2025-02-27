@@ -52,9 +52,9 @@ Variables & Macros
 Documentation
 -----
 
-* **Pinecone Vector DB:** Added documentation for setting up a **Pinecone Connection** in Sparkflows under Vector Database Connections. 
+* **Pinecone Vector DB:** Added documentation for setting up a **Pinecone Connection** in Sparkflows under Vector Database Connections.
+* **Application Credentials:** Added documentation for creating and managing Application Credentials, including steps for adding, configuring, and editing credentials within the Credential Store.
 * **Migrate H2 database from 1.4.199 to 2.2.224:** Added documentation for migrating the H2 Database from version 1.4.199 to 2.2.224, detailing the step-by-step process.
-
 
 
 

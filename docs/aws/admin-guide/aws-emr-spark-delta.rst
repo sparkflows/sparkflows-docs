@@ -97,3 +97,15 @@ EMR 7.4 by default comes with Delta support, so you can use default delta packag
       :alt: delta
       :width: 60%
 
+Assert Node Support on EMR 7.4
+----------
+
+EMR 7.4 by default comes with Java 17 for spark, so inorder to work this node on emr7.4, you need to pass below configuration in PACKAGE in emr workflow selected for assert Node.
+
+::
+
+    org.openjdk.nashorn:nashorn-core:15.4,org.ow2.asm:asm:9.6,org.ow2.asm:asm-util:9.6
+
+.. figure:: ../../_assets/aws/assert_package.png
+      :alt: assert
+      :width: 60%

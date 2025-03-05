@@ -72,7 +72,7 @@ You can enable automated database cleanup by configuring specific settings. Foll
 
 * Login to **Fire Insights**.
 * From the Dashboard, navigate to **Administration -> Configurations**.
-* Set the following property: 
+* Set the following property and click on **Save Configurations** button, as shown below. 
   :: 
     app.db.cleanup.enabled=true
 

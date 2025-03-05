@@ -56,18 +56,22 @@ Connector Processors in Fire Insights
 .. toctree::
    :hidden:
 
+   databricks.rst
+   elasticsearch.rst
+   hive.rst
    jdbc.rst
+   mongodb.rst
    mysql.rst
+   redshift.rst
+   salesforce.rst
+   save-cassandra.rst
    snowflake.rst
    sap/index.rst
-   hive.rst
-   redshift.rst
-   databricks.rst
    sftp.rst
-   salesforce.rst
-   elasticsearch.rst
-   mongodb.rst
-   save-cassandra.rst
+   
+   
+   
+   
 
 
    

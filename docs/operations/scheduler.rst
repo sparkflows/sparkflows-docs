@@ -3,7 +3,7 @@ Scheduler
 
 Update on Scheduler:
 --------------------
-The latest upgrade of the Sparflows scheduler requires updating the following property in the quartz.properties file for proper functionality:
+To ensure proper functionality with the **latest upgrade** of the Sparkflows scheduler, update the following property in the **quartz.properties** file:
 ::
    org.quartz.jobStore.class=org.quartz.impl.jdbcjobstore.JobStoreTX 
 **To** 

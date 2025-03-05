@@ -56,6 +56,7 @@ Connector Processors in Fire Insights
 .. toctree::
    :hidden:
 
+   cassandra.rst
    databricks.rst
    elasticsearch.rst
    hive.rst
@@ -64,7 +65,6 @@ Connector Processors in Fire Insights
    mysql.rst
    redshift.rst
    salesforce.rst
-   save-cassandra.rst
    snowflake.rst
    sap/index.rst
    sftp.rst

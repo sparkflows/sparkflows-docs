@@ -47,7 +47,7 @@ Step 3 : Configuring the SharePoint Connection
 
 #. Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below. Then click on **Save** button.
   
- .. figure:: ../../../_assets/connections/added-sharepoint.png
+   .. figure:: ../../../_assets/connections/added-sharepoint.png
       :alt: connection
       :width: 60%
 

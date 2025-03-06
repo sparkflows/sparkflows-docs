@@ -1,4 +1,4 @@
-SharePoint
+SharePoint Connection
 ============
 SharePoint is a web-based collaboration and document management platform by Microsoft. It is widely used for enterprise content management, team collaboration, and secure document storage.
 

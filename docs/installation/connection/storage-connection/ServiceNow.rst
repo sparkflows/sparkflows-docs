@@ -36,7 +36,7 @@ To configure this connection, enter the details as follows and click on **Test C
 
  * **Username:** admin
 
- * **Password:** huo%hT^CNY02
+ * **Password:** password
 
 Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below.
   

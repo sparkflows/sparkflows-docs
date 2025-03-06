@@ -31,21 +31,21 @@ Step 2 : Adding a SharePoint Connection
 
 Step 3 : Configuring the SharePoint Connection
 +++++++++
-To configure this connection, enter the API credentials as follows and click on **Test Connection** button to validate it. 
+#. To configure this connection, enter the API credentials as follows and click on **Test Connection** button to validate it. 
 
-* **Connection Name:** Enter a relevant name like **Share_Point_Connection**.
+   * **Connection Name:** Enter a relevant name like **Share_Point_Connection**.
 
-* **Path:** Enter the path as **C:\Users\ABCD-9RX0L93\Downloads**.
+   * **Path:** Enter the path as **C:\Users\ABCD-9RX0L93\Downloads**.
 
-* **Tenant ID:** c7b1ee50-0636-4563-bdfa-d98640ca5d15
+   * **Tenant ID:** Enter the specific tenant id (e.g. c7b1ee50-0636-4563-bdfa-d98640ca5d15).
 
-* **Client ID:** c3dfdaf8-23ed-4f2b-951d-9bd0bc5ed5f4
+   * **Client ID:** Enter the specific client id (e.g. c3dfdaf8-23ed-4f2b-951d-9bd0bc5ed5f4)
 
-* **Client Secret:** Enter the secret key.
+   * **Client Secret:** Enter the secret key.
 
-* **Site URL:** sparkflowsai.sharepoint.com:/sites/SparkflowsProject/
+   * **Site URL:** sparkflowsai.sharepoint.com:/sites/SparkflowsProject/
 
-Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below.
+#. Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below. Then click on **Save** button.
   
  .. figure:: ../../../_assets/connections/added-sharepoint.png
       :alt: connection

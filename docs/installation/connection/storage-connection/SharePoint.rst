@@ -3,7 +3,7 @@ SharePoint
 SharePoint is a web-based collaboration and document management platform by Microsoft. It is widely used for enterprise content management, team collaboration, and secure document storage.
 
 
-To create a SharePoint Connection in Sparkflows, follow the steps below:
+To create a **SharePoint Connection** in Sparkflows, follow the steps below:
 
 Step 1 : Login to Fire Insights and Navigate to Connections Page
 +++++++

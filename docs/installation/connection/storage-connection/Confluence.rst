@@ -1,4 +1,4 @@
-Confluence
+Confluence Connection
 ===========
 Confluence is a collaboration and documentation platform that teams to create, share, and manage knowledge within a structured workspace, making it a powerful tool for project documentation and team collaboration.
 

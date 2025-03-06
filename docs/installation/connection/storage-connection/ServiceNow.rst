@@ -30,14 +30,16 @@ Step 2 : Adding a ServiceNow Connection
 
 Step 3 : Configuring the ServiceNow Connection
 +++++++++
-To configure this connection, enter the details as follows and click on **Save** button. Once this connection is configured and saved, it will display a '**Successfully Connected**' message, as shown below.
+To configure this connection, enter the details as follows and click on **Test Connection** button to validate. 
+
+ * **URL:** https://dev249483.service-now.com
+
+ * **Username:** admin
+
+ * **Password:** huo%hT^CNY02
+
+Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below.
   
-* **URL:** https://dev249483.service-now.com
-
-* **Username:** admin
-
-* **Password:** huo%hT^CNY02
-
  .. figure:: ../../../_assets/connections/added-servicenow.png
       :alt: connection
       :width: 60%

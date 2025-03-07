@@ -53,7 +53,7 @@ Connector Processors in Fire Insights
    * - Execute Query In SnowFlake
      - It executes the query in the Snowflake.
    * - Sharepoint Data Extraction
-     - It extracts data from Sharepoint
+     - It extracts data from Sharepoint.
 
 .. toctree::
    :hidden:

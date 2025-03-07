@@ -122,18 +122,34 @@ Once you have entered the connection details, click on ``Test Connection``. If t
 
 Now, you are ready to start using the Connection in workflows.
 
-.. Note:: Make sure that salesforce datacloud URL should be accessible from Sparkflows web server URL.
+  .. Note:: Make sure that salesforce datacloud URL should be accessible from Sparkflows web server URL.
 
 7. **Troubleshooting**
 -----------------------
-+------------------------------+----------------------------------------+------------------------------------------------+
-| Error                        | Cause                                  | Solution                                       |
-+==============================+========================================+================================================+
-| No authentication settings   | Incorrect JDBC URL format             | Ensure `AuthType=OAuth` and `AccessToken` are set |
-| INVALID_LOGIN                | Incorrect credentials or missing token | Append security token to password              |
-| No suitable driver found     | Missing JDBC JAR                       | Ensure `jdbc-0.24.0.jar` is correctly loaded   |
-| invalid_grant                | OAuth app permissions issue            | Ensure OAuth scopes include `full, api, refresh_token` |
-+------------------------------+----------------------------------------+------------------------------------------------+
+
+- **No authentication settings provided**  
+  
+  - **Cause:** Incorrect JDBC URL format  
+  
+  - **Solution:** Ensure `AuthType=OAuth` and `AccessToken` are set  
+
+- **INVALID_LOGIN** 
+
+  - **Cause:** Incorrect credentials or missing security token
+
+  - **Solution:** Append the security token to your password  
+
+- **No suitable driver found**  
+  - **Cause:** Missing JDBC JAR file  
+
+  - **Solution:** Ensure `jdbc-0.24.0.jar` is correctly referenced in Spark or Java  
+
+- **invalid_grant**  
+
+  - **Cause:** OAuth app permissions issue  
+
+  - **Solution:** Ensure OAuth scopes include `full, api, refresh_token`  
+
 
 **Summary**
 =============

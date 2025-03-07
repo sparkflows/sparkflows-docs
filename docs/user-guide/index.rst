@@ -21,6 +21,10 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
+    :doc:`/user-guide/connection/index`
+
+    ---
+
     :doc:`/user-guide/connectors/index`
 
     ---
@@ -139,6 +143,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    user-guide/index
    concepts/index
    reading-writing/index
+   connections/index
    connectors/index
    data-preparation/index
    variables-macros/index

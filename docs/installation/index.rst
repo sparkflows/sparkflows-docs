@@ -31,10 +31,6 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
     
     ---
     
-    :doc:`/installation/connection/index`
-    
-    ---   
-    
     :doc:`/installation/credential-store/index`
     
     ---
@@ -54,7 +50,6 @@ Fire Insights can be installed on the cloud, on-premise or even on your laptop. 
    authentication/index
    loadbalancer/index
    user-groups/index
-   connection/index
    operating/index
    credential-store/index
    monitoringandmetrics/index

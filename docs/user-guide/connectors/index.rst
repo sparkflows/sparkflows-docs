@@ -52,6 +52,8 @@ Connector Processors in Fire Insights
      - It saves the rows of the incoming DataFrame into Snowflake.
    * - Execute Query In SnowFlake
      - It executes the query in the Snowflake.
+   * - Sharepoint Data Extraction
+     - It extracts data from Sharepoint
 
 .. toctree::
    :hidden:
@@ -65,8 +67,9 @@ Connector Processors in Fire Insights
    mysql.rst
    redshift.rst
    salesforce.rst
-   snowflake.rst
    sap/index.rst
+   sharepoint.rst
+   snowflake.rst
    sftp.rst
    
    

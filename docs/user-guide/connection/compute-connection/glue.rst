@@ -21,9 +21,9 @@ Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` 
 
 Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
 
-.. figure:: ../../../_assets/aws/livy/administration.PNG
-   :alt: livy
-   :width: 60%
+ .. figure:: ../../../_assets/aws/livy/administration.png
+    :alt: livy
+    :width: 60%
 
 **3. Add Connection for group:**
 

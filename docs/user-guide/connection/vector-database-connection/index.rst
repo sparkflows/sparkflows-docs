@@ -19,7 +19,7 @@ Fire Insights integrates seamlessly with vector databases like Pinecone, FAISS, 
     :column: text-center col-lg-4 col-md-4 col-sm-4 col-xs-12 p-2
 
 
-    :doc:`/installation/connection/vector-database-connection/pinecone-connection`
+    :doc:`/user-guide/connection/vector-database-connection/pinecone-connection`
 
     Learn to create connection.
 

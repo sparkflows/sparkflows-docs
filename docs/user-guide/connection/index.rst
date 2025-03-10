@@ -81,7 +81,7 @@ Step 3 : Adding a Connection
   
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    compute-connection/index.rst
    storage-connection/index.rst

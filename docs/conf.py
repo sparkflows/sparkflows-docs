@@ -108,7 +108,7 @@ todo_include_todos = True
 # further.  For a list of options available for each theme, see the
 # documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#confval-sticky_navigation
-html_theme_options = {'sticky_navigation': False, 'titles_only': True, 'collapse_navigation': False, 'display_version': False}
+html_theme_options = {'sticky_navigation': False, 'titles_only': True, 'collapse_navigation': False, 'display_version': False, 'navigation_depth': 5}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

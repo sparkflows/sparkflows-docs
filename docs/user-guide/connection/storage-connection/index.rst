@@ -24,7 +24,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * Confluence
   
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    mysql.rst
    oracle.rst

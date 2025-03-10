@@ -5,7 +5,7 @@ Sparkflows enables you to create different compute connections and submit the jo
 
 In Sparkflows, compute connection enables the following:
 
-**1. Databricks 2. Glue 3. Livy 4. Spark Submit**
+**1. Databricks    2. Glue    3. Livy    4. Spark Submit**
   
   
 .. toctree::

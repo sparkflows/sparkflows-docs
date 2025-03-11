@@ -31,7 +31,7 @@ Sparkflows supports connecting to both offerings from Salesforce, Data Cloud as 
 
 
 .. toctree::
-   :maxdepth: 1
+   :hidden: 
 
    salesforce-datacloud.rst
    salesforce-salescloud.rst

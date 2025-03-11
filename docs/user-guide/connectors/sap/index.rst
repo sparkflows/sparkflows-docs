@@ -21,13 +21,13 @@ Fire Insights provides multiple ways to connect with SAP Databases including con
 
     :doc:`/user-guide/connectors/sap/ecc`
 
-    Setup Salesforce Connection for Sales Cloud.
+    Setting up connection to SAP ECC
  
 .. toctree::
-   :hidden:
+    :hidden:
 
-   hana/index.rst
-   ecc.rst
+    hana/index.rst
+    ecc.rst
 
    
    

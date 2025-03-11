@@ -19,10 +19,9 @@ Fire Insights enables you to read from and write to SAP HANA through **HANA JDBC
     Setting up HANA through OData Processor
 
 
+.. toctree::
+    :hidden:
 
-  .. toctree::
-     :hidden:
-
-     hana-jdbc.rst
-     sap-odata.rst
+    hana-jdbc.rst
+    sap-odata.rst
 

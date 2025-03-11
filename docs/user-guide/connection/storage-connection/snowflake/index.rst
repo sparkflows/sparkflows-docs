@@ -18,7 +18,8 @@ Sparkflows supports connecting to Snowflake using both Basic Authentication and 
      
     Snowflake OAuth Connection Setup
 
- .. toctree::
+ 
+.. toctree::
     :hidden: 
 
     snowflake.rst

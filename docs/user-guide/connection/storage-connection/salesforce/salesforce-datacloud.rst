@@ -151,13 +151,6 @@ Now, you are ready to start using the Connection in workflows.
   - **Solution:** Ensure OAuth scopes include `full, api, refresh_token`  
 
 
-**Summary**
-=============
-1. **Create a Connected App** 
-2. **Assign OAuth Scopes & Permissions** 
-3. **Relax Security & Enable Field Tracking** 
-4. **Obtain Security Token** 
-5. **Get OAuth Access Token via API** 
-6. **Use JDBC Connection** 
+
 
 

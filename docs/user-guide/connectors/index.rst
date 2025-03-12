@@ -22,7 +22,7 @@ Connector Processors in Fire Insights
      - It reads a table from Databricks.
    * - Read SFTP
      - It reads from SFTP.
-   * - Save Databricks table
+   * - Save Databricks Table
      - It saves the data to a Databricks table.
    * - Read From SnowFlake
      - It reads a table from Snowflake. 

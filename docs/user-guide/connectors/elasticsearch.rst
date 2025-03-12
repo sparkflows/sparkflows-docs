@@ -57,7 +57,8 @@ To configure it, define the following connection details, as shown below:
 * **ES Nodes Data Only:**  Enter **True** or **False**. It indicates whether it is for Data-only node. Data nodes are responsible for storing and managing data. They handle data indexing and search operations.
 * **ES Net Http Auth User:** Enter **username** to access the host.
 * **ES Net Http Auth Pass:** Enter **password** to access the host.
-* **Key-Value Pairs:** Enter key-value pair refering to the way data is structured and stored in documents within an index.
+* **Key-Value Pairs:** Enter key-value pair refering to the way data is structured and stored in documents within an index. 
+* Then click on **Okay** button.
 
 Workflow
 ------------------

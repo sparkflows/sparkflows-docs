@@ -64,6 +64,9 @@ Workflow
 
 * A sample workflow to read and save data using Elasticsearch can be created as shown below. It uses the **Elasticsearch nodes** to read and write data.
 * This workflow transforms data before saving the data using Elasticsearch.
+* It efficiently handles data reading, transformation, and writing using Fire Insights and Elasticsearch.
+
+
 
  .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-workflow.png
     :alt: Connectors

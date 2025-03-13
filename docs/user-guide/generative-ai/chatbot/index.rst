@@ -12,13 +12,13 @@ Chatbot
 
     ---
 
-    :doc:`/user-guide/generative-ai/chatbot/chatbot-features`
+    :doc:`/user-guide/generative-ai/chatbot/chat-assistant-features`
 
-    Using Sparkflows Chat Dashboard Features
+    Using Sparkflows Chat Assistant Features
 
     
 .. toctree::
    :hidden:
 
    introduction.rst
-   chatbot-features.rst
+   chat-assistant-features.rst

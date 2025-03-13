@@ -6,18 +6,18 @@ This guide outlines the features and steps for effectively using the AI-powered 
 
 Our AI-powered Chat Assistant is designed to revolutionize customer interactions by delivering seamless, efficient, and accurate responses. This intelligent assistant enhances user engagement through the following capabilities:
 
-   * **Instant Query Resolution :** The chatbot effectively handles frequently asked questions, providing prompt and relevant answers.
+* **Instant Query Resolution :** The chatbot effectively handles frequently asked questions, providing prompt and relevant answers.
 
-   * **Document-Based Assistance :** It efficiently processes document-related inquiries, ensuring users receive accurate information quickly.
+* **Document-Based Assistance :** It efficiently processes document-related inquiries, ensuring users receive accurate information quickly.
 
-   * **Streamlined Customer Support :** The assistant enhances support operations by automating repetitive tasks and guiding users through solutions, reducing response time and improving satisfaction.
+* **Streamlined Customer Support :** The assistant enhances support operations by automating repetitive tasks and guiding users through solutions, reducing response time and improving satisfaction.
 
 **Highlighted Features**
  
- 1. Easy Chat Assistant Creation
- 2. Topic-Based Query Handling
- 3. Smart File Indexing for Enhanced Responses
- 4. Seamless Query Resolution
+1. Easy Chat Assistant Creation
+2. Topic-Based Query Handling
+3. Smart File Indexing for Enhanced Responses
+4. Seamless Query Resolution
 
 Steps for Using Our Chat Assistant Feature 
 -------------
@@ -95,7 +95,8 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
-.. note:: If no topic is selected or created, and the user attempts to submit a query, a **default topic** will automatically be created. All related threads will be visible under this default topic.
+  
+  .. note:: If no topic is selected or created, and the user attempts to submit a query, a **default topic** will automatically be created. All related threads will be visible under this default topic.
 
 
 * Clicking on a **topic** provides the option to **add files** and their **embeddings** to the selected VectorDB, as shown below.

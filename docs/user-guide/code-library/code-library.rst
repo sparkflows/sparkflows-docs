@@ -22,7 +22,7 @@ Streamlined Workflows:
 
 By using reusable code components from the library, users can simplify and speed up the creation of workflows, reducing redundancy and potential errors. 
 
-This document provides step-by-step instructions to enable, access, and create a Code Library within Sparkflows.
+This document provides you the step-by-step instructions to enable, access, and create a Code Library within Sparkflows.
 
 Step 1 : Enable the Code Library
 --------------------------
@@ -35,14 +35,14 @@ Step 2 : Access the Code Library
 -------------------------------
 
 #. Go to the **Administration** Page.
-#. Navigate to the **Operations** section. Once enabled, the **Code Library** option will be visible under the 
-   **Operations** section as shown below:
+#. Navigate to the **Operations** section and click on **Code Library** card, as shown below. (Once enabled the setting in step 1, the **Code Library** option will be visible under the 
+   **Operations** section.)
 
    .. figure:: ../../_assets/code-library/admin-code-library.png
       :alt: code library
       :width: 60%
 
-#. Click on the **Code Library** card to be redirected to the **Code Libraries List page**.
+#. By clicking on **Code Library** you are directed to the **Code Libraries List page**, as shown below.
 
    .. figure:: ../../_assets/code-library/code-library-list.png
       :alt: code-library-list
@@ -68,24 +68,24 @@ Step 3 : Create the Code Library
 
 Step 4 : Execute Code Library
 -------------------------
-#. On the Workflow Editor page, the user will be able to see the Code Library node as illustrated below.
+#. On the Workflow Editor page, you will be able to see the Code Library node as illustrated below.
 
    .. figure:: ../../_assets/code-library/code-library-node.png
       :alt: code-library-node
       :width: 60%
 
-#. By clicking the Execute button, the user can run the workflow, which will execute the code from the selected code library.
+#. By clicking the Execute button, you can run the workflow, which will execute the code from the selected code library.
 
-    .. figure:: ../../_assets/code-library/code-library-scala-execution.png
+   .. figure:: ../../_assets/code-library/code-library-scala-execution.png
       :alt: code-library-scala-execution
       :width: 60%
 
-    .. figure:: ../../_assets/code-library/code-library-sql-execution.png
+   .. figure:: ../../_assets/code-library/code-library-sql-execution.png
          :alt: code-library-sql-execution
          :width: 60%
 
 
-#. Code library node can be executed in interactive mode aswell.
+#. Code library node can be executed in interactive mode as well, as shown below.
 
    .. figure:: ../../_assets/code-library/code-library-interactive-execution.png
             :alt: code-library-sql-execution
@@ -94,9 +94,9 @@ Step 4 : Execute Code Library
 Export and Import of code library
 ----------------------------------
 
-Sparkflows supports user to export and import of a code library
+Sparkflows supports users in exporting and importing a code library. Follow the steps below for the process:
 
-#. On clicking the **Export** button in the code library list table, a JSON file will be downloaded to the system
+#. On clicking the **Export** button in the code library list table, a JSON file will be downloaded to the system, as shown below.
 
    .. figure:: ../../_assets/code-library/code-library-export.png
                :alt: code-library-export
@@ -105,7 +105,7 @@ Sparkflows supports user to export and import of a code library
    .. figure:: ../../_assets/code-library/code-library-exported.png
                   :alt: code-library-exported
                   :width: 60%
-#. Once the code library is exported, users can import it by clicking the **Import** button and selecting the exported JSON file. They can then execute the code library.
+#. Once the code library is exported, you can import it by clicking the **Import** button and selecting the exported JSON file. They can then execute the code library.
 
    .. figure:: ../../_assets/code-library/code-library-import-button.png
                   :alt: code-library-import-button

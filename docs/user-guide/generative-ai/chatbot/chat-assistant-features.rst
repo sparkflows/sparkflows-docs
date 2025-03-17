@@ -25,7 +25,7 @@ Steps for Using Our Chat Assistant Feature
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 * Login to **Fire Insights**.
 * Navigate to **Administration -> Configurations -> Module**.
-* To view the chat tab inside the project, the following configuration need to be enabled by setting its value to **true**, as shown below.
+* To view the **chat tab** inside the project, the following configuration need to be enabled by setting its value to **true**, as shown below.
 
   ::
      
@@ -36,8 +36,15 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
+* Now, navigate to **Administration -> User Management -> Role Tab** and click on **ADMIN** from the roles list, as shown below:
 
-* In roles, you need to **enable** these two permissions: **chatbot.view** and **chatbot.modify**, as shown below.
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/role-list.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+
+
+* In Admin roles, you need to **enable** these two permissions: **chatbot.view** and **chatbot.modify**, as shown below.
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/config2.png
      :alt: create-new-chat-session
@@ -47,8 +54,14 @@ Steps for Using Our Chat Assistant Feature
 
 **Step 2 :  Creating Chat Assistant** 
 ++++++++++++++++++++++++++++++++++++++++++
+* Go to **Projects -> My Projects -> ITSM Chatbot -> Chat Tab**.
+* Click on **Create Chat Assistant** button located in the right corner, as shown below.
 
-* You can quickly create a chatbot assistant by providing **essential details** in the required fields as follows:
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/create-chat-assistant.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+* Now, you can quickly create a chatbot assistant by providing **essential details** in the required fields as follows:
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/create-chat1.png
      :alt: create-new-chat-session
@@ -56,19 +69,16 @@ Steps for Using Our Chat Assistant Feature
 
  * **NAME:** Enter the name of the chatbot.
  * **DESCRIPTION:** Provide a description of the chatbot.
- * **GEN AI CONNECTION:** Select the OpenAI connection from the list.
- * **VECTOR DB:** Select the VectorDB connection from the list.
+ * **GEN AI CONNECTION:** Select the required connection from the list, which includes Open AI, Gemini, Bedrock, etc.
+ * **VECTOR DB:** Select the VectorDB connection from the list like pinecone.
  * **VECTOR DB INDEX:** Enter the VectorDB index name where the embedding should be done.
  * **VECTOR DB INDEX NAMESPACE:** Enter the VectorDB index namespace where the embedding should be done.
- * **SAVE TO DATABASE:** Enabling this option should allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
- * **START CHAT WITH FILE:** Enabling this option should allow the chatbot to chat with selected files in the chatbot thread.
+ * **SAVE TO DATABASE:** Enabling this option will allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
+ * **START CHAT WITH FILE:** Enabling this option will allow the chatbot to chat with selected files in the chatbot thread.
 
-* Once the chatbot is created, you will get an **option to add files and their embeddings** to the VectorDB. These embeddings will be used to retrieve query responses from the VectorDB.
-
-
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/editchat.png
-     :alt: create-new-chat-session
-     :width: 65%
+  .. note:: Here *selected file* refers to a file that you choose to upload or attach in the chat. For example, if you upload a PDF, spreadsheet, or text file, that becomes the "selected file." Enabling the "START CHAT WITH FILE" option allows the chatbot to read, analyze, and respond based on the contents of the selected file.
+  
+  A *thread* is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
 
 
 * Once chatbots(chat assistants) are created, they will be **visible inside each project within the chat tab** in the format shown below:
@@ -77,10 +87,31 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
+* Once the chatbot is created, click on **Edit Chat** icon from the chat list page, as shown below. You will get an **option to add files and their embeddings** to the VectorDB. These embeddings will be used to retrieve query responses from the VectorDB.
+
+
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-edit-chat.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-add-files.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+
+
 **Step 3 : Managing Chatbot Assistant Page**
 +++++++++++++++++++++++++++++++++++++++++++++
 
-* Click on the name of a particular chatbot from the list to be redirected to the **chat assistant page** as shown below, where you can submit **queries** and receive **responses**.
+* Click on a **specific chatbot** from the chat list, as shown below:
+
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/list.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+
+
+  You will be directed to the **Chat Assistant page** as shown below, where you can submit **queries** and receive **responses**.
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chat-assistant1.png
      :alt: create-new-chat-session

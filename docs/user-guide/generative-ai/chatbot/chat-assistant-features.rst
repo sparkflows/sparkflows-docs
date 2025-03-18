@@ -54,7 +54,7 @@ Steps for Using Our Chat Assistant Feature
 
 **Step 2 :  Creating Chat Assistant** 
 ++++++++++++++++++++++++++++++++++++++++++
-* Go to **Projects -> My Projects -> ITSM Chatbot -> Chat Tab**.
+* Go to **Projects -> Chatbot -> Chat Tab**.
 * Click on **Create Chat Assistant** button located in the right corner, as shown below.
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/create-chat-assistant.png
@@ -80,22 +80,23 @@ Steps for Using Our Chat Assistant Feature
  A **thread** is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
 
 
-* Once chatbots(chat assistants) are created, they will be **visible inside each project within the chat tab** in the format shown below:
+
+* Once the chatbot is created, click on **Edit Chat** icon from the chatbot list page, as shown below. You will get an **option to add files and their embeddings** to the VectorDB. These embeddings will be used to retrieve query responses from the VectorDB.
+
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-edit-chats.PNG
+     :alt: create-new-chat-session
+     :width: 65%
+ 
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/editchat.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+* Once chatbots (chat assistants) are created after adding files, they will be **visible inside each project within the chat tab** in the format shown below:
  
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/list.png
      :alt: create-new-chat-session
      :width: 65%
 
-* Once the chatbot is created, click on **Edit Chat** icon from the chat list page, as shown below. You will get an **option to add files and their embeddings** to the VectorDB. These embeddings will be used to retrieve query responses from the VectorDB.
-
-
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-edit-chat.png
-     :alt: create-new-chat-session
-     :width: 65%
-
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-add-files.png
-     :alt: create-new-chat-session
-     :width: 65%
 
 
 
@@ -146,13 +147,13 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
-* You can **rename** or **delete** a specific topic, as shown below. Deleting a topic will also remove all its associated threads and thread items.
+* You can **rename** or **delete** a specific topic, as shown below. 
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/rename-delete.png
      :alt: create-new-chat-session
      :width: 65%
 
-* You can **delete** a specific thread within a selected topic as shown below, which will also remove all associated thread items.
+* You can **delete** a specific thread within a selected topic as shown below, which will also remove all its associated threads and thread items.
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/delete-thread.png
      :alt: create-new-chat-session

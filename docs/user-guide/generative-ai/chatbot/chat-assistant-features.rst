@@ -76,8 +76,7 @@ Steps for Using Our Chat Assistant Feature
  * **SAVE TO DATABASE:** Enabling this option will allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
  * **START CHAT WITH FILE:** Enabling this option will allow the chatbot to chat with selected files in the chatbot thread.
 
- .. note:: Here **selected file** refers to a file that you choose to upload or attach in the chat. For example, if you upload a PDF, spreadsheet, or text file, that becomes the "selected file". Enabling the "START CHAT WITH FILE" option allows the chatbot to read, analyze, and respond based on the contents of the selected file.
- A **thread** is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
+ .. note:: Here **selected file** refers to a file that you choose to upload or attach in the chat. For example, if you upload a PDF, spreadsheet, or text file, that becomes the "selected file". Enabling the "START CHAT WITH FILE" option allows the chatbot to read, analyze, and respond based on the contents of the selected file. A **thread** is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
 
 
 

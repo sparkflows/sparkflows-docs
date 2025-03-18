@@ -146,7 +146,7 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
-* You can **rename** or **delete** a specific topic, as shown below. 
+* You can **rename** or **delete** a specific topic by clicking on the **horizontal ellipsis (...)** icon, as shown below. 
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/rename-delete.png
      :alt: create-new-chat-session

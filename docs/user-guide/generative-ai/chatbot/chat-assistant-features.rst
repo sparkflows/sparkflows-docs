@@ -140,7 +140,7 @@ Steps for Using Our Chat Assistant Feature
      :width: 65%
 
 
-* All the **threads for a particular topic** will be displayed, as shown below. By clicking on a **thread**, users can view all related queries and their responses. 
+* All the **threads for a particular topic** will be displayed, as shown below. By clicking on a **thread**, you can view all related queries and their responses. 
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/thread1.png
      :alt: create-new-chat-session

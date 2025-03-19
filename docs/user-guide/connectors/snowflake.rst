@@ -8,7 +8,8 @@ Creating Snowflake Connection
 
 The first step is to create a connection to Snowflake, if you have not already created it. The below page has the details for creating Connection to Snowflake.
 
-https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/snowflake/index.html
+https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/snowflake/index.html
+
 
 Reading from Snowflake Table
 -------------------

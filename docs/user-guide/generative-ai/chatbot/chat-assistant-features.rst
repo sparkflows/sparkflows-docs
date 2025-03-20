@@ -92,7 +92,7 @@ Steps for Using Our Chat Assistant Feature
 
 * Once chatbots (chat assistants) are created after adding files, they will be **visible inside each project within the chat tab** in the format shown below:
  
-  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/list.png
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/chatbot/lists.png
      :alt: create-new-chat-session
      :width: 65%
 

@@ -231,7 +231,9 @@ font-size: 1em;
 .wy-menu-vertical li.current>a, .wy-menu-vertical li.on a {
     padding: .8em 1em .8em 1.8em;
 }
-
+.wy-menu-vertical li.toctree-l4.current li.toctree-l5 > a{
+    padding: .8em 5.5em;
+}
 .fa-plus-square-o:before,
 .wy-menu-vertical li span.toctree-expand:before {
     /* content: '\f107';
@@ -361,10 +363,10 @@ font-size: 1em;
     margin-top: 0;
 }
 .rst-content .section ol.simple li > *, .rst-content .section ol.simple li ol, .rst-content .section ol.simple li ul, .rst-content .section ul.simple li > *, .rst-content .section ul.simple li ol, .rst-content .section ul.simple li ul{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .rst-content .section ol li > :first-child, .rst-content .section ul li > :first-child{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 footer{
         margin-top: 50px;
@@ -379,6 +381,9 @@ footer{
 }
 .rst-content table.docutils thead, .rst-content table.field-list thead, .wy-table thead {
     border-bottom: solid 2px #e1e4e5;
+}
+.rst-content table.docutils tbody .row-odd, .rst-content table.field-list tbody .row-odd, .wy-table tbody .row-odd{
+    background-color: #F3F3F3;
 }
 .wy-nav-content h3 {
     margin-top: 1em;

@@ -232,7 +232,7 @@ font-size: 1em;
     padding: .8em 1em .8em 1.8em;
 }
 .wy-menu-vertical li.toctree-l4.current li.toctree-l5 > a{
-    padding: .8em 5.5em;
+    padding: .8em 0.5em .8em 5.5em;
 }
 .fa-plus-square-o:before,
 .wy-menu-vertical li span.toctree-expand:before {
@@ -394,6 +394,11 @@ footer{
     margin-bottom: 4em;
 }
 
+.rst-content code.literal {
+    color: #404040;
+    background: #ebedf0;
+    border-radius: 5px;
+  }
 
 /* Top nav */
 .wy-nav-side{

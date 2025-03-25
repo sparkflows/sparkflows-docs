@@ -8,7 +8,7 @@ Chatbot
 
     :doc:`/user-guide/chatbot/introduction`
 
-    Overview of RAG-based Chatbot
+    Overview of Sparkflows Chatbot
 
     ---
 

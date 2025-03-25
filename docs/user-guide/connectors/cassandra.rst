@@ -3,7 +3,7 @@ Cassandra
 
 Fire Insights has a processor that allows you to connect with Cassandra. Apache Cassandra is a distributed NoSQL database designed for handling large amounts of data. 
 
-Before creating a workflow using the Read and Save Cassandra nodes, you must first set up a connection to the Cassandra database in Fire Insights. To learn how to create this connection, click on  :ref:`Create Cassandra Connection<Cassandra Connection>`
+Before creating a workflow using the Read and Save Cassandra nodes, you must first set up a connection to the Cassandra database in Fire Insights. To learn how to create this connection, click on  :ref:`Create Cassandra Connection<Cassandra Connection>`.
 
 This document will cover the following key aspects:
 

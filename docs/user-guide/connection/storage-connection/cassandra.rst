@@ -1,4 +1,4 @@
-Cassandra DB - Connection Setup
+Cassandra Connection
 =============
 
 This document outlines the steps for setting up the connection to Cassandra Database. Follow the steps below:
@@ -10,7 +10,7 @@ This document outlines the steps for setting up the connection to Cassandra Data
 * Login to **Fire Insights**.
 * From the Dashboard, navigate to **Administration -> Global/Group Connections -> Add Connection**. The connection can be setup Globally at application level by choosing **Add Connection for All** option. It can also be setup locally for a Project.
 
- .. figure:: ../../_assets/tutorials/cassandra/cassandra-connection.png
+ .. figure:: ../../../_assets/tutorials/cassandra/cassandra-connection.png
     :alt: Connectors
     :width: 60%
 
@@ -18,7 +18,7 @@ This document outlines the steps for setting up the connection to Cassandra Data
 ++++++++++++++++++++++++++++++++++++++++
 * Select connection category as **storage** and choose **Cassandra** from the dropdown in the connection type.
   
- .. figure:: ../../_assets/tutorials/cassandra/choose-cassandra.png
+ .. figure:: ../../../_assets/tutorials/cassandra/choose-cassandra.png
     :alt: Connectors
     :width: 60%
 

@@ -4,7 +4,7 @@ Cassandra Connection
 This document outlines the steps for setting up the connection to Cassandra Database. Follow the steps below:
 
 
-**Step 1 : Navigate to Connections**
+Step 1 : Navigate to Connections
 ++++++++++++++++++++++++++++++++++++++++++
 
 * Login to **Fire Insights**.
@@ -14,7 +14,7 @@ This document outlines the steps for setting up the connection to Cassandra Data
     :alt: Connectors
     :width: 60%
 
-**Step 2 : Configure the Connection**
+Step 2 : Configure the Connection
 ++++++++++++++++++++++++++++++++++++++++
 * Select connection category as **storage** and choose **Cassandra** from the dropdown in the connection type.
   

@@ -73,6 +73,10 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
+    :doc:`/user-guide/chatbot/index`
+
+    ---
+
     :doc:`/user-guide/data-visualization-reports/index`
 
     --- 
@@ -156,6 +160,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    auto-ml/index
    natural-language-processing/index
    generative-ai/index
+   chatbot/index
    data-visualization-reports/index
    data-visualization-dashboards/index
    pipeline-development/index

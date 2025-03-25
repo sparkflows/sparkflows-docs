@@ -26,6 +26,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 .. toctree::
    :maxdepth: 4
 
+   cassandra.rst
    mysql.rst
    oracle.rst
    snowflake/index.rst

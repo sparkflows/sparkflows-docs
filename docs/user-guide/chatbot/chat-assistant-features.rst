@@ -67,12 +67,34 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-data-option.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+
+
+Chatbot Basic
+****************
  * **NAME:** Enter the name of the chatbot.
  * **DESCRIPTION:** Provide a description of the chatbot.
  * **GEN AI CONNECTION:** Select the required connection from the list, which includes Open AI, Gemini, Bedrock, etc.
- * **VECTOR DB:** Select the VectorDB connection from the list like pinecone.
+
+Data Source Configuration
+******************************
+
+ **For Unstructured Data**
+
+ * **VECTOR DB:** Select the VectorDB connection from the list like pinecone, milvus etc.
  * **VECTOR DB INDEX:** Enter the VectorDB index name where the embedding should be done.
  * **VECTOR DB INDEX NAMESPACE:** Enter the VectorDB index namespace where the embedding should be done.
+
+ **For Structured Data**
+
+ * **DATABASE CONNECTION:** Select the required connection from the dropdown list.
+
+
+Privileges
+******************
  * **SAVE TO DATABASE:** Enabling this option will allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
  * **START CHAT WITH FILE:** Enabling this option will allow the chatbot to chat with selected files in the chatbot thread.
 

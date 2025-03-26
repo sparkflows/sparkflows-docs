@@ -54,7 +54,7 @@ Steps for Using Our Chat Assistant Feature
 
 **Step 2 :  Creating Chat Assistant** 
 ++++++++++++++++++++++++++++++++++++++++++
-* Go to **Projects -> Chatbot -> Chat Tab**.
+* Go to **Projects -> ITSM-Chatbot -> Chat Tab**.
 * Click on **Create Chat Assistant** button located in the right corner, as shown below.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/create-chat-assistant1.png
@@ -67,38 +67,48 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
+  
+
+For Unstructured Data
+***************************
+
+ **Chatbot Basic**
+
+ * **NAME:** Enter the name of the chatbot.
+ * **DESCRIPTION:** Provide a description of the chatbot.
+ * **GEN AI CONNECTION:** Select the required connection from the list, which includes Open AI, Gemini, Bedrock, etc.
+
+ **Data Source Configuration**
+
+ * **VECTOR DB:** Select the VectorDB connection from the list like pinecone, milvus etc.
+ * **VECTOR DB INDEX:** Enter the VectorDB index name where the embedding should be done.
+ * **VECTOR DB INDEX NAMESPACE:** Enter the VectorDB index namespace where the embedding should be done.
+
+ 
+ **Privileges**
+
+ * **SAVE TO DATABASE:** Enabling this option will allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
+ * **START CHAT WITH FILE:** Enabling this option will allow the chatbot to chat with selected files in the chatbot thread.
+ 
+ .. note:: Here **selected file** refers to a file that you choose to upload or attach in the chat. For example, if you upload a PDF, spreadsheet, or text file, that becomes the "selected file". Enabling the "START CHAT WITH FILE" option allows the chatbot to read, analyze, and respond based on the contents of the selected file. A **thread** is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
+
+
+  
+
+  
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-data-option.png
      :alt: create-new-chat-session
      :width: 65%
 
 
 
-Chatbot Basic
-****************
+**For Structured Data**
+
  * **NAME:** Enter the name of the chatbot.
  * **DESCRIPTION:** Provide a description of the chatbot.
  * **GEN AI CONNECTION:** Select the required connection from the list, which includes Open AI, Gemini, Bedrock, etc.
-
-Data Source Configuration
-******************************
-
- **For Unstructured Data**
-
- * **VECTOR DB:** Select the VectorDB connection from the list like pinecone, milvus etc.
- * **VECTOR DB INDEX:** Enter the VectorDB index name where the embedding should be done.
- * **VECTOR DB INDEX NAMESPACE:** Enter the VectorDB index namespace where the embedding should be done.
-
- **For Structured Data**
-
  * **DATABASE CONNECTION:** Select the required connection from the dropdown list.
 
-
-Privileges
-******************
- * **SAVE TO DATABASE:** Enabling this option will allow the chatbot to upload files to the VectorDB in the selected chatbot topic.
- * **START CHAT WITH FILE:** Enabling this option will allow the chatbot to chat with selected files in the chatbot thread.
-
- .. note:: Here **selected file** refers to a file that you choose to upload or attach in the chat. For example, if you upload a PDF, spreadsheet, or text file, that becomes the "selected file". Enabling the "START CHAT WITH FILE" option allows the chatbot to read, analyze, and respond based on the contents of the selected file. A **thread** is a conversation session within the chat. So, if you start a new chat, it creates a new thread and if you continue chatting without starting fresh, you’re staying in the same thread.
 
 
 

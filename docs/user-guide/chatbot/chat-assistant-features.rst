@@ -61,7 +61,7 @@ Steps for Using Our Chat Assistant Feature
      :alt: create-new-chat-session
      :width: 65%
 
-* Now, you can quickly create a chatbot assistant depending on your data type (unstructured or structured). Select the appropriate configuration details in the required fields as follows:
+* Now, you can quickly create a chatbot assistant depending on your data type (unstructured or structured). Select the appropriate configuration details in the required fields as follows and click on **Create** button.
 
   .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/create-chat-assistant.png
      :alt: create-new-chat-session
@@ -96,16 +96,20 @@ Unstructured data includes content that lacks a predefined format, such as text 
 
   
 
-  
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-data-option.png
-     :alt: create-new-chat-session
-     :width: 65%
 
+  
+  
+ 
 
 
 **For Structured Data**
 
 Structured data is organized and stored in relational databases, making it ideal for querying specific records, performing analytics, or extracting information from well-defined tables. If you want the chatbot to interact with data stored in structured formats like SQL databases, choose this option.
+
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-data-option.png
+      :alt: create-new-chat-session
+      :width: 65%
+
 
  * **NAME:** Enter the name of the chatbot.
  * **DESCRIPTION:** Provide a description of the chatbot.

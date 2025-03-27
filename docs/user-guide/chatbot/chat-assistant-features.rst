@@ -69,8 +69,8 @@ Steps for Using Our Chat Assistant Feature
 
   
 
-For Unstructured Data
-***************************
+**For Unstructured Data**
+
 Unstructured data includes content that lacks a predefined format, such as text files, PDFs, or images. If you want the chatbot to process documents, analyze text-based data, or provide insights from unorganized content, this is the ideal configuration.
 
  **Chatbot Basic**

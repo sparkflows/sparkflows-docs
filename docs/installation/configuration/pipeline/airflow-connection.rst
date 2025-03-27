@@ -7,7 +7,7 @@ Sparkflows enables you to create Airflow Connection and use it to submit Pipelin
   * **Group**   : Users belonging to the group have access to these connections.
   * **Project** : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page explains how to create an Airflow Connection in Fire Insights.
+This page explains how to create an Airflow Connection in Fire Insights. Follow the steps below:
 
 Step 1 : Enable Airflow in Sparkflows
 ======================================

@@ -123,7 +123,7 @@ Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.23
 
 
 
-Migration from version **1.4.199 to 2.2.224**
+Migration from version 1.4.199 to 2.2.224
 -----------
 
 Follow the steps below to move H2 database from **1.4.199 to 2.2.224**.

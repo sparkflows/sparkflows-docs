@@ -8,7 +8,7 @@ Chatbot
 
     :doc:`/user-guide/chatbot/introduction`
 
-    Overview of Sparkflows Chatbot
+    Introduction to Sparkflows Chatbot
 
     ---
 

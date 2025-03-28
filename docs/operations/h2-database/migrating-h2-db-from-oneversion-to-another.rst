@@ -41,7 +41,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
    .. Note:: You can use replace functionality in editor for removing **BELONGS_TO_TABLE** from backup.sql all at once and replace it with an empty space.
 
 
-  * Search for the follwing line in backup.sql file:
+  * Search for the following line in backup.sql file:
 
    ::
        

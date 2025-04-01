@@ -149,26 +149,26 @@ https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.
 #. After the changes done in previous steps, run the following command in the same directory (**/db/h2**) where **backup.sql** file and h2 jar of version **2.3.232** are present to migrate data.
 
    ::
-
       java -cp h2-2.3.232.jar org.h2.tools.RunScript -url jdbc:h2:file:./firedb -script backup.sql
 
+  .. note:: Make sure to quit/exit the running instance of h2 jar 1.4.199 before running the above command
 
-  .. note:: Make sure to quit/exit the running instance of h2 jar 1.4.199 before running the following command:
-            :: 
-               java -cp h2-2.3.232.jar org.h2.tools.RunScript -url jdbc:h2:file:./firedb -script backup.sql
+* For Windows Machine
 
-   * For Windows Machine
+   In the below image we can see that after running the command the **fire.mv.db** is created successfully in Windows in the same folder.
 
-      .. figure:: ../..//_assets/DB_Migration/windows-h2-version-migration.png
-           :alt: Sparkflows Linux H2 Console Script Creation
-           :width: 80%
+   .. figure:: ../..//_assets/DB_Migration/windows-h2-version-migration.png
+      :alt: Sparkflows Windows H2 Version Migration
+      :width: 80%
      
 
-   * For Linux Machine
-   
-      .. figure:: ../..//_assets/DB_Migration/linux-h2-version-migration.PNG
-           :alt: Sparkflows Linux H2 Version Migration
-           :width: 80%
+* For Linux Machine
+
+   In the below image we can see that after running the command the **fire.mv.db** is created successfully in Linux in the same folder.
+
+   .. figure:: ../..//_assets/DB_Migration/linux-h2-version-migration.PNG
+      :alt: Sparkflows Linux H2 Version Migration
+      :width: 80%
 
 **Step 5 : Finalizing Migration**
 ++++++++++++++++++++++++++++++++++++

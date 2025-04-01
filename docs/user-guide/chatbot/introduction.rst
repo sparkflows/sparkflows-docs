@@ -50,7 +50,7 @@ Why Use Our Chat Assistant?
 Sample Interactions with Our Chat Assistant
 ----------
 
-**Chat on Structured Data**
+ **Chat on Structured Data**
 
  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/Structured-chatbot.jpeg
      :alt: create-new-chat-session
@@ -60,7 +60,7 @@ Sample Interactions with Our Chat Assistant
      :alt: create-new-chat-session
      :width: 65%
 
-**Chat on Unstructured Data**
+ **Chat on Unstructured Data**
 
 
  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-query1.PNG

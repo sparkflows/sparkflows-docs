@@ -22,18 +22,18 @@ Key Features
 
 **2. Topic-Based Enhanced Query Handling with Smart Indexing**
 
- Sparkflows Chat Assistant enhances query handling by allowing users to define **distinct topics**, keeping conversations organized and relevant. It also leverages **smart file indexing** using vector databases (e.g., Pinecone) to enable efficient information retrieval, ensuring precise responses ideal for industries managing extensive documentation like finance, healthcare, and IT support.
+ Sparkflows Chat Assistant enhances query handling by allowing users to define **distinct topics**, keeping conversations organized and relevant. It also leverages **smart file indexing** using vector databases (e.g., Pinecone) to enable efficient information retrieval, ensuring precise responses ideal for industries managing extensive documentation like finance, healthcare, IT support, etc.
 
 **3. Industry-Specific Use Cases**
 
- Empower business users with tailored insights and automation across industries:
+ Empower business users with tailored insights and automation across various industries including below and many more.
 
   * Financial Services : Deliver insights on credit analysis, loan eligibility, and compliance documentation.
   * Healthcare : Provide immediate responses for medical document queries, hospital procedures, and patient guides.
   * IT Support : Assist users with troubleshooting steps and technical documentation retrieval.
   * Legal Assistance : Simplify navigation through complex legal documents by extracting relevant information on demand.
 
-.. note:: **Structured data chatbots** can excel at  generating **visual insights like tables, graphs and charts** for data-driven responses & interpreting trends, summarizing data, and providing actionable insights by adopting a data analyst mindset. A Structured data chatbot enables interaction with databases like Oracle, MySQL, PostgreSQL, Snowflake, Salesforce, Confluence, Sharepoint, etc. using natural language to simplify complex queries. 
+.. note:: **Structured data chatbots** can excel at  generating **visual insights like tables, graphs and charts** for data-driven responses & interpreting trends, summarizing data, and providing actionable insights by adopting a data analyst mindset. A Structured data chatbot enables interaction with databases like Oracle, MySQL, PostgreSQL, Snowflake, Salesforce, etc. using natural language to simplify complex queries. 
 
 
 
@@ -47,7 +47,30 @@ Why Use Our Chat Assistant?
 
  With our Chat Assistant, organizations can transform information retrieval, improve response accuracy, and elevate customer experiences through AI-driven conversational solutions.
 
+Sample Interactions with Our Chat Assistant
+----------
 
+**Chat on Structured Data**
+
+ .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/Structured-chatbot.jpeg
+     :alt: create-new-chat-session
+     :width: 65%
+
+ .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-chat.png
+     :alt: create-new-chat-session
+     :width: 65%
+
+**Chat on Unstructured Data**
+
+
+ .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-query1.PNG
+     :alt: create-new-chat-session
+     :width: 65%
+
+
+ .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/unstructured-chat.png
+     :alt: create-new-chat-session
+     :width: 65%
 
 
 

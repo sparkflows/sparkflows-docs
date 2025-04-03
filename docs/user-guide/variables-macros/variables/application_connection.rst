@@ -19,9 +19,9 @@ Step 1 : Add the 'connectionUrl' Variable
 
 #. To create a variable, enter the desired values in the above fields as follows and click on **Save** button.
 
-   * **KEY:** Enter **connectionUrl**.
-   * **VALUE:** Add the MySQL connection URL.
-   * **DESCRIPTION:** It is optional.
+   * ``KEY`` : Enter **connectionUrl**.
+   * ``VALUE`` : Add the MySQL connection URL.
+   * ``DESCRIPTION`` : It is optional.
 
 Step 2 : Create a MySQL Connection using the 'connectionUrl' Variable
 ------------------------------
@@ -35,9 +35,9 @@ Step 2 : Create a MySQL Connection using the 'connectionUrl' Variable
 
 #. To create a connection, enter the required details in the above fields as follows:
 
-   * Select **Storage** as the category.
-   * Select **MySQL** as the connection type.
-   * Eenter **${connectionUrl}** in URL to use the variable.
+   * ``Category`` : Select **Storage** as the category.
+   * ``Connection Type`` : Select **MySQL** as the connection type.
+   * ``URL`` : Enter **${connectionUrl}** in URL to use the variable.
    * Fill the remaining fields with the required details. 
 
 Step 3 : Test the Connection

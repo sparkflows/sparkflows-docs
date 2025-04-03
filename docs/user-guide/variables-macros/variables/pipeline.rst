@@ -5,10 +5,10 @@ Sparkflows allows you to utilize dynamic variables in pipelines, enabling you to
 
 Below are the steps:
 
-Step 1: Defining Parameters in Pipeline
+Step 1 : Defining Parameters in Pipeline
 ---------------------------------
 
-#. Click on the **plus button** located at the top right corner to access the dialog box for defining parameters.
+#. Click on the **Plus** ``+`` button located at the top right corner to access the dialog box for defining parameters.
 
    .. figure:: ../../../_assets/user-guide/variables/pipeline/plus-button-pyspark.png
       :alt: variables_userguide
@@ -18,7 +18,7 @@ Step 1: Defining Parameters in Pipeline
 
 #. In the **dialog box**, specify the **parameters** you wish to utilize. 
 
-   For instance, if you want to filter cities such as 'Bangalore' and 'Pune', define a parameter named city and set its values accordingly.
+   For instance, if you want to filter cities such as 'Bangalore' and 'Pune', define a parameter named city and set its values, as shown below.
 
    .. figure:: ../../../_assets/user-guide/variables/pipeline/dialog-box-pyspark.png
       :alt: variables_userguide
@@ -26,7 +26,7 @@ Step 1: Defining Parameters in Pipeline
 
 
 
-Step 2: Accessing Variables in PySpark Code
+Step 2 : Accessing Variables in PySpark Code
 ----------------------------------------
 #. In the PySpark code node, access the defined parameters using the **${variable_name}** notation as shown below:
 

@@ -8,5 +8,5 @@ Add DAG Variables node executes a python code to add DAG Variables using the Pyt
    :alt: Pipeline
    :width: 60%
 
-*   ``TASK NAME`` : Enter Unique name of the task in the Airflow DAG.
+*   ``TASK NAME`` : Enter a unique name of the task in the Airflow DAG.
 *   ``XCOM KEY VARIABLES`` : Enter a key variable that will be used to pull value from XCOM.

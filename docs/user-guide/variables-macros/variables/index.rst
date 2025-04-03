@@ -21,7 +21,7 @@ When a variable is used in a node, below is the order of precedence:
 
   * Variables defined during execution override the variables at the workflow level
   * Variables defined in Scala/Pyspark node override the previous variables  
-  * Variables defined at the project level, then group level & Lowest precedence is variables defined at the global level
+  * Variables defined at the project level, then group level and lowest precedence is variables defined at the global level
 
 
 .. panels::

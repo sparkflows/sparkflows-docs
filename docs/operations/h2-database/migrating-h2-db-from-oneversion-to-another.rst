@@ -149,6 +149,7 @@ https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.
 #. After the changes done in previous steps, run the following command in the same directory (**/db/h2**) where **backup.sql** file and h2 jar of version **2.3.232** are present to migrate data.
 
    ::
+
       java -cp h2-2.3.232.jar org.h2.tools.RunScript -url jdbc:h2:file:./firedb -script backup.sql
 
   .. note:: Make sure to quit/exit the running instance of h2 jar 1.4.199 before running the above command

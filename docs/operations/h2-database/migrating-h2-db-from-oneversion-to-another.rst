@@ -13,6 +13,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 **Pre-Requisites**
 ++++++++++++++++
 
+- Java
 - firedb.mv file
 - h2-1.4.199.jar
 - h2-2.3.232.jar

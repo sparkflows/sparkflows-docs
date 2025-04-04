@@ -51,7 +51,7 @@ Step 2 : Accessing Variables in PySpark Code
 Accessing variables inside a pipleine node
 ----------------------------------------
 
-It can be achieved using the **{variable_name}** notation as shown below:
+It can be achieved using the **{variable_name}** notation as shown below. For e.g. here, we are entering variable as ``cluster_id`` which was created earlier.
 
 
    .. figure:: ../../../_assets/user-guide/variables/variable-pipeline-node.png

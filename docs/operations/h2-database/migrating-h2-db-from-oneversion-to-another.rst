@@ -24,8 +24,9 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
    Firstly make sure that the fire-server is not running in the background whether its Windows or Linux Machine then download the H2 DB JAR of v1.4.199 from the     URL below:
 
-   https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-1.4.199.jar
-   
+   Download Link : `h2-1.4.199.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-1.4.199.jar>`_
+ 
+
     * For Windows Machine
 
       Step 1 - Double click and open the h2-1.4.199.jar downloaded from the above URL which will open the login page for **firedb** , then add in the username and 

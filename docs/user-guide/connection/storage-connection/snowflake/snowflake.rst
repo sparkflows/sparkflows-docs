@@ -5,27 +5,34 @@ Sparkflows provides the capability to create "Snowflake Connection" and use the 
 
 Below are the steps for creating the Snowflake Connection.
 
-Step 1 : Navigate to Administration/Global Connections
+Step 1 : Navigate to Connections Page
 -------------
-#. **Login** to Fire Insights application.
-#. Go to **Administration** and select **Global Connections**.
 
-   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/admin-page.png
+#. Login to **Fire Insights** using your credentials.
+#. From the dashboard page, Go to **Administration** and select **Global/Group Connections**, as shown below.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/fire_admin_page.PNG
       :alt: Credential Store
       :width: 65%
 
 Step 2 : Add Connection
 -----------
-#. Click on **ADD CONNECTION**.
-#. Choose either **Add Connection For All** or **Add Connection For Group** based on your requirements.
+#. From the connections page, click on **ADD CONNECTION** button located at the top right corner of the page.
+#. Choose either **Add Connection For All** or **Add Connection For Group** from the dropdown based on your requirements, as shown below. An 'Add Connection' dialog box will open.
 
-   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/connection-type.png
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/connections-add.png
       :alt: Credential Store
       :width: 65%
 
 Step 3 : Add Connection Parameter
 --------------------------
-Add connection parameters using the below table:
+#. In 'Add Connection' dialog box, choose the category as **Storage** and connection type as **Snowflake**.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/choose-snowflake.png
+      :alt: Credential Store
+      :width: 65%
+
+#. Add the connection parameters using the table below:
 
 
    .. list-table:: 
@@ -70,28 +77,30 @@ Add connection parameters using the below table:
         - Url for Snowflake
         - Url for Snowflake
 
-   .. figure:: ../../../../_assets/installation/connection/snowflake_storage.PNG
-
-      :alt: connection
-      :width: 60%  
-
-Step 4 : Test and Save Connection
--------------------------
-#. After adding the parameters, click on **TEST CONNECTION** to verify the connection.
-#. Once the success notification is received, click **Save** to store the connection details.
-
-   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connection-parameters.png
+   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/SFbasic-connection-parameter.png
       :alt: Credential Store
       :width: 50%       
 
-   After saving, the connection would display on the connections list page as shown below.
+   
+  
 
-   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connection-list.png
+Step 4 : Test and Save Connection
+-------------------------
+#. After adding the parameters, click on **Test Connection** button to verify the connection.
+#. Once the success notification is received, click on **Save** button to store the connection details.
+
+   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/snowflake-basic.PNG
+      :alt: Credential Store
+      :width: 50%       
+
+   After saving, the connection will be displayed on the connections list page as shown below.
+
+   .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/SF-connection.PNG
       :alt: Credential Store
       :width: 65%
 
 
-   Once you save the connection, resouces can be used inside workflow editor etc. using the above connection.
+   Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
 
 Documentation
 -----

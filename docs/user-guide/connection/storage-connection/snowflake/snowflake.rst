@@ -17,7 +17,7 @@ Step 1 : Navigate to Connections Page
 
 Step 2 : Add Connection
 -----------
-#. From the connections page, click on **ADD CONNECTION** button located at the top right corner of the page.
+#. From the connections page, click on **Add Connection** button located at the top right corner of the page.
 #. Choose either **Add Connection For All** or **Add Connection For Group** from the dropdown based on your requirements, as shown below. An 'Add Connection' dialog box will open.
 
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/connections-add.png

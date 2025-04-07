@@ -19,7 +19,7 @@ Step 1 : Navigate to Connections Page
 -------------
 
 #. Login to **Fire Insights** using your credentials.
-#. From the dashboard page, Go to **Administration** and select **Global/Group Connections**, as shown below.
+#. From the dashboard page, go to **Administration** and select **Global/Group Connections**, as shown below.
 
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/fire_admin_page.PNG
       :alt: Credential Store
@@ -92,7 +92,7 @@ Step 4 : Test and save the connection
 
    Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
 
-  .. Note:: Make Sure Sparkflows User Login (Using OAuth) should have sufficient Privilege of Snowflake resources.
+  .. Note:: Make Sure Sparkflows User Login (Using OAuth) should have sufficient privilege of Snowflake resources.
 
 
 Documentation

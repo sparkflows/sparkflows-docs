@@ -123,7 +123,7 @@ Below are steps for troubleshooting some of the common issues.
 
     ---
     
-    :doc:`/troubleshooting/h0o`
+    :doc:`/troubleshooting/h2o`
     
     Steps to troubleshoot H2O
 

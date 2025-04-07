@@ -174,6 +174,7 @@ Below are steps for troubleshooting some of the common issues.
    https.rst
    networking.rst
    scheduler.rst
+   h2o.rst
    mlops.rst
    delta.rst
    incorta.rst

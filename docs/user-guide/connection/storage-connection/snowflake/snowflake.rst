@@ -84,7 +84,7 @@ Step 3 : Add Connection Parameter
    
   
 
-Step 4 : Test and Save Connection
+Step 4 : Test and Save the Connection
 -------------------------
 #. After adding the parameters, click on **Test Connection** button to verify the connection.
 #. Once the success notification is received, click on **Save** button to store the connection details.

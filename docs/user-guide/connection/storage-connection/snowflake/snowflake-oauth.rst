@@ -73,10 +73,11 @@ Step 3 : Add Connection Parameter
         - Url for Snowflake
 
   
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/connection-config-dialogbox.png
+      :alt: Credential Store
+      :width: 65%
 
-   .. figure:: ../../../../_assets/installation/connection/snowflake_oauth.png
-      :alt: connection
-      :width: 60%
+  
 
 
 Step 4 : Test and save the connection
@@ -84,6 +85,10 @@ Step 4 : Test and save the connection
 
 #. After adding the parameters, click on **Test Connection** button to verify the connection.
 #. Once the success notification is received, click on **Save** button to store the connection details.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/oauth-parameters.png
+      :alt: Credential Store
+      :width: 65%
 
    Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
 
@@ -94,8 +99,6 @@ Documentation
 -----
 
 Reference guide : https://docs.sparkflows.io/en/latest/snowflake/index.html
-
-
 
 
 

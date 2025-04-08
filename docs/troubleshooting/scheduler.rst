@@ -3,7 +3,29 @@ Scheduler
 
 This document explains some of the common issues and corresponding resolutions related to Scheduler.
 
-1. Pipeline Trigger Delay Due to Concurrent Scheduling
+1. Scheduler Configuration Update: Compatibility Issue
+-------------------------------------------
+
+**Problem**
+++++++++++++
+With the latest upgrade of the Sparkflows scheduler, you may encounter issues if the existing configuration is outdated. A common situation arises when the scheduler fails to function as expected due to deprecated or incompatible property settings.
+
+**Solution**
+++++++++++++++++++
+To ensure proper compatibility and seamless execution of scheduled jobs, you need to update the job store class in the quartz.properties file.
+
+Replace the below:
+::
+  org.quartz.jobStore.class=org.quartz.impl.jdbcjobstore.JobStoreTX  
+
+With the below:
+::
+  org.quartz.jobStore.class=org.springframework.scheduling.quartz.LocalDataSourceJobStore  
+
+This change ensures that the scheduler aligns with the updated Spring-based configuration and avoids unexpected behavior during job execution.
+
+
+2. Pipeline Trigger Delay Due to Concurrent Scheduling
 ------------------------
 
 **Problem**
@@ -30,7 +52,7 @@ To address this issue:
 * In addition to the above property, the following also needs to be set at optimal/higher values and not left to the default i.e. **org.quartz.scheduler.batchTriggerAcquisitionMaxCount = 20** and **org.quartz.jobStore.acquireTriggersWithinLock = true**
 * More details on the configuration can be found in the official `documentation of Quartz scheduler. <http://www.quartz-scheduler.org/documentation/>`_
 
-2. Inconsistent Execution of Airflow Pipeline
+3. Inconsistent Execution of Airflow Pipeline
 --------------------------------
 
 **Problem**
@@ -67,7 +89,7 @@ To address this issue:
 
   Ensure Airflow Instance is configured with enough Memory and Processing Cores.
 
-3. Inaccurate Job Scheduling: Timing Mismatch
+4. Inaccurate Job Scheduling: Timing Mismatch
 ---------------------------------
 
 **Problem**
@@ -82,7 +104,7 @@ Let's assume that a Job was scheduled in IST time to run every 45th minute. But 
 
 One needs to ensure that the correct Cron Expression is used for running the Job every 45th minute.
 
-4. Failure to Trigger Pipeline: No Execution Detected
+5. Failure to Trigger Pipeline: No Execution Detected
 ------------------
 
 **Problem**
@@ -96,3 +118,8 @@ Pipeline is not getting trigerred at all.
 * Let’s assume that the Cron Expression has been copied from an external website (e.g. http://www.cronmaker.com/) and the Job fails when one tries to run the Pipeline.
 
 * Ensure that there is no extra space and unwanted characters in the Cron Expression.
+
+
+
+
+

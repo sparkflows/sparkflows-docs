@@ -3,31 +3,32 @@ Read from Snowflake
 
 Fire Insights has provided two processors for reading data from Snowflake.
 
-1. Read From SnowFlake
-2. Execute Query In SnowFlake
+1. Read From Snowflake
+2. Execute Query In Snowflake
 
-1. Read From SnowFlake Workflow
+Read From Snowflake Workflow
 --------
 
 A user can use this processor to select a single table/view from the Snowflake schema.
 
-Processor Configuration
-+++++++++++++++
+**Processor Configuration**
+++++++++++++++++++++++++++++++
+
 Below are the processor configuration details:
 
-* CONNECTION  : Connection created for Snowflake.
-* SF WAREHOUSE : Snowflake Warehouse Name.
-* SF DATABASE : Snowflake Database Name.
-* SF SCHEMA : Snowflake Schema Name.
-* SF TABLE/VIEW : Snowflake Table/View Name. 
+* ``CONNECTION``  : Connection created for Snowflake.
+* ``SF WAREHOUSE`` : Snowflake Warehouse Name.
+* ``SF DATABASE`` : Snowflake Database Name.
+* ``SF SCHEMA`` : Snowflake Schema Name.
+* ``SF TABLE/VIEW`` : Snowflake Table/View Name. 
 
   .. figure:: ..//_assets/snowflake/ReadProcessorGen.png
      :alt: snowflake
      :width: 60%
 
 
-Example Workflow
-+++++++++++
+**Example Workflow**
++++++++++++++++++++++
 
 The below workflow does the following:
 
@@ -38,15 +39,15 @@ The below workflow does the following:
      :alt: snowflake
      :width: 60%
 
-Reading from Snowflake Table/View
-+++++++++++++
+**Reading from Snowflake Table/View**
+++++++++++++++++++++++++++++++++++++++++
 
 It reads the table/view using **Read From Snowflake** processor.
 
 Processor Configuration
 ++++++
 
-Below are the configurations for the Read from Snowflake processor.
+Below are the configurations for the Read from Snowflake processor:
 
   .. figure:: ..//_assets/snowflake/ReadProcessorGen.png
      :alt: snowflake
@@ -59,28 +60,29 @@ Processor Output
      :alt: snowflake
      :width: 60%
 
-2. Execute Query In SnowFlake
+Execute Query In Snowflake
 --------
 
 A user can use this processor to select multiple tables/views across the Snowflake schema and write subqueries and perform aggregations and use Snowflake specific SQL functions.
 
-Processor Configuration
-+++++++
+**Processor Configuration**
++++++++++++++++++++++++++++++++
+
 Below are the processor configuration details:
 
-* CONNECTION  : Connection created for Snowflake.
-* SF WAREHOUSE : Snowflake Warehouse Name.
-* SF DATABASE : Snowflake Database Name.
-* SF SCHEMA : Snowflake Schema Name.
-* SF QUERY : Write SQL query. 
+* ``CONNECTION`` : Connection created for Snowflake.
+* ``SF WAREHOUSE`` : Snowflake Warehouse Name.
+* ``SF DATABASE`` : Snowflake Database Name.
+* ``SF SCHEMA`` : Snowflake Schema Name.
+* ``SF QUERY`` : Write SQL query. 
 
   .. figure:: ..//_assets/snowflake/EXProcessorGen.png
      :alt: snowflake
      :width: 60%
 
 
-Example Workflow
-++++++++++
+**Example Workflow**
++++++++++++++++++++++
 
 The below workflow does the following:
 
@@ -91,8 +93,8 @@ The below workflow does the following:
      :alt: snowflake
      :width: 60%
 
-Execute Query in SnowFlake 
-++++++++++++++++++
+**Execute Query in SnowFlake** 
++++++++++++++++++++++++++++++++++++
 
 It executes a query on the Snowflake tables using **Execute Query In SnowFlake** processor.
 

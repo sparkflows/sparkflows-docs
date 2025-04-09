@@ -9,4 +9,4 @@ To create a Snowflake connection using OAuth, Click on :ref:`Create Snowflake OA
  
 
 
-.. note::  Now, you can use above Snowflake connection in Read From SnowFlake, Write To SnowFlake & Execute Query In SnowFlake Processor in workflow editor.
+.. note::  Now, you can use above Snowflake connection in Read From Snowflake, Write To Snowflake & Execute Query In Snowflake Processor in workflow editor.

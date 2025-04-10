@@ -56,7 +56,7 @@ Sample Interactions with Our Chat Assistant
      :alt: create-new-chat-session
      :width: 65%
 
- .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-chat.png
+ .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/structured-chat2.png
      :alt: create-new-chat-session
      :width: 65%
 

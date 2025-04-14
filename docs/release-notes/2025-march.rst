@@ -38,9 +38,12 @@ AI & Automation
 
 * **Chatbot Enhancements :** The **Chatbot feature** has been significantly enhanced to provide a more effective and responsive user interaction.
 
+Documentation
+--------
 
+* **Migrate H2 database from 1.4.199 to 2.3.232 :** Added documentation for migrating the H2 Database from version 1.4.199 to v2.3.232, detailing the step-by-step process.
 
-
+* **Chatbot Guide :** Updated the Chat Assistant documentation to cover new enhancements. It now includes separate guidance for handling structured and unstructured chat interactions.
 
 
 

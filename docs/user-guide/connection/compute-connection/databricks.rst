@@ -166,7 +166,7 @@ To configure the connection, refer the following tables for filling required det
 Step 5 : Test & Save the Connection
 -----
 
-* After filling in all required fields, test the connection by clicking on ``Test`` button.
+* After filling in all required fields, test the connection by clicking on ``Test Connection`` button.
 
 * If the connection validation is successful, click on ``Save`` button to save the connection. Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
 

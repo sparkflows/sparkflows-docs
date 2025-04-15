@@ -18,9 +18,16 @@ Sparkflows supports connecting to Snowflake using both Basic Authentication and 
      
     Snowflake OAuth Connection Setup
 
+    ---
+
+    :doc:`/user-guide/connection/storage-connection/snowflake/snowflake-keypair`
+     
+    Snowflake Key-Pair Connection Setup
+
  
 .. toctree::
     :hidden: 
 
     snowflake.rst
     snowflake-oauth.rst
+    snowflake-keypair.rst

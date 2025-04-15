@@ -1,9 +1,9 @@
 Snowflake Key-Pair Authentication
 =======
 
-Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources, using Key-Pair Authentication.
+Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources using Key-Pair Authentication.
 
-Follow the steps below to create a Snowflake connection using Key-Pair authentication:
+Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 
 Step 1 : Navigate to Connections Page
 -------------
@@ -28,7 +28,7 @@ Step 2 : Add Connection
 
 Step 3 : Add Connection Parameter
 --------------------------
-#. In 'Add Connection' dialog box as shown below, add the connection parameters using the below table.
+#. In 'Add Connection' dialog box as shown below, add the connection parameters using the below table for **key-pair** authentication.
 
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/choose-snowflake.png
       :alt: Credential Store
@@ -76,11 +76,16 @@ Step 3 : Add Connection Parameter
   
 
 
-Step 4 : Test and save the connection
+Step 4 : Test and Save the connection
 ------
 
 #. After adding the parameters, click on **Test Connection** button to verify the connection.
-#. Once the success notification is received, click on **Save** or **Update** button to store the connection details.
+#. Once the success notification is received, click on **Save** button to store the connection details.
+
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/sf-connection-test.png
+      :alt: Credential Store
+      :width: 65%
+
 
    Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
 
@@ -90,4 +95,4 @@ Step 4 : Test and save the connection
 Documentation
 -----
 
-Reference guide : https://docs.sparkflows.io/en/latest/snowflake/index.html
+Reference guide : `Snowflake User Guide Documentation. <https://docs.sparkflows.io/en/latest/snowflake/index.html>`_   

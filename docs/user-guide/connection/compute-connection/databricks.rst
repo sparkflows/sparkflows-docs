@@ -5,33 +5,46 @@ Sparkflows enables you to create Databricks connection and use the connection to
 
   * Global : Everyone has access to these connections.
   * Group  : Users belonging to the group have access to these connections.
-  * Project: The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
+  * Project: The owner of the project and the groups with which the Project has been shared will have access to the Project level connections.
 
 Below are the steps required to create Databricks connection:
 
-1. Login to Sparkflows web server URL. 
+Step 1 : Login to Sparkflows web server URL
+------
+Open the Sparkflows web server URL and log in with your credentials.
 
-It can be created by the Administrator under ``Administration -> Global/Group Connections``. These connections are available for everyone to use if defined at ``Global`` level or for a particular Group if defined at the ``Group`` level.
+Step 2 : Navigate to Connections
+-----
+Go to **Administration -> Global/Group Connections**. These connections are available for everyone to use if defined at **Global** level or for a particular Group if defined at the **Group** level.
 
-.. figure:: ../../../_assets/installation/connection/databricks_selgrp_global.png
+ .. figure:: ../../../_assets/installation/connection/databricks_selgrp_global.png
+    :alt: connection
+    :width: 60%    
+
+Step 3 : Add Connection Details
+-----
+
+* Make selection in the **Add Connection** dialog box as shown below, to create **Databricks Compute** connection.
+
+  .. figure:: ../../../_assets/installation/connection/databricks_sel_type.png
+    :alt: connection
+    :width: 60%    
+
+* After selecting Databricks connection, the connection configuration page will appear with two tabs: **General** and **Databricks**, as shown below.
+
+  .. figure:: ../../../_assets/installation/connection/databricks_general_uc1.png
    :alt: connection
    :width: 60%    
 
-2. Add Connection details
+  
 
-Make selection in the ``Add Connection`` screen as below to create ``Databricks Compute`` connection.
+Step 4 : Configure the Connection
+----
+Based on the **Authentication Type** selected, the fields will vary. Choose between **User Credential** and **OAuth**.
 
-.. figure:: ../../../_assets/installation/connection/databricks_sel_type.png
-   :alt: connection
-   :width: 60%    
-
-3. On selection ``Databricks`` from the dropdown page would be displayed as below with ``General`` and ``Databricks`` tabs:
-
-Content of the ``General Tab`` would be based on the ``Authentication Type`` selected.
-
-For more details on the fields refer the following table:
-
-GENERAL Tab (User Credential):
+To configure the connection, refer the following tables for filling required details for ``General`` Tab and ``Databricks`` Tab:
+ 
+**GENERAL Tab (User Credential):**
 
 .. list-table:: 
    :widths: 10 20 20
@@ -71,15 +84,9 @@ GENERAL Tab (User Credential):
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
 
-.. figure:: ../../../_assets/installation/connection/databricks_add_conn1.png
-   :alt: connection
-   :width: 60%    
 
-.. figure:: ../../../_assets/installation/connection/databricks_general_uc1.png
-   :alt: connection
-   :width: 60%    
 
-GENERAL Tab (OAUTH):
+**GENERAL Tab (OAUTH):**
 
 .. list-table:: 
    :widths: 10 20 20
@@ -122,17 +129,14 @@ GENERAL Tab (OAUTH):
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
 
-.. figure:: ../../../_assets/installation/connection/databricks_add_conn1.png
-   :alt: connection
-   :width: 60%    
+
 
 .. figure:: ../../../_assets/installation/connection/databricks_general_oa1.png
-   :alt: connection
-   :width: 60%    
+    :alt: connection
+    :width: 60%    
 
-For more details on creating Databricks connection refer the following image:
 
-DATABRICKS Tab :
+**DATABRICKS Tab:**
 
 .. list-table:: 
    :widths: 10 20 20
@@ -159,13 +163,35 @@ DATABRICKS Tab :
    :alt: connection
    :width: 60%    
 
-2.  Test & Save the Connection
+Step 5 : Test & Save the Connection
+-----
 
-Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
+* After filling in all required fields, test the connection by clicking on ``Test`` button.
 
-Documentation
-+++++
+* If the connection validation is successful, click on ``Save`` button to save the connection. Once you save the connection, it can be used for submitting the job on specific Databricks cluster.
+
+
+
+**Documentation**
++++++++++++++++++
 
 Reference guide : `Databricks User Guide Documentation. <https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html>`_
 
-.. note:: Make sure to add "POSTBACK URL" through which jobs running on Databricks would post back results to Sparkflows using this URL or else it will take from ``app.postMessageURL``, added in configuration.
+.. note:: Make sure to add 'POSTBACK URL' through which jobs running on Databricks would send back results to Sparkflows using this URL, else it will use the default ``app.postMessageURL`` defined in configuration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

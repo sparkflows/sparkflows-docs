@@ -11,9 +11,27 @@ Below are the steps required to create Databricks connection:
 
 1. Login to Sparkflows web server URL. 
 
-It can be created by the administrator under ''Administration/Global Connections''. These connections are available for everyone to use. For more details refer the following table:
+It can be created by the Administrator under ``Administration -> Global/Group Connections``. These connections are available for everyone to use if defined at ``Global`` level or for a particular Group if defined at the ``Group`` level.
 
-GENERAL Tab :
+.. figure:: ../../../_assets/installation/connection/databricks_selgrp_global.png
+   :alt: connection
+   :width: 60%    
+
+2. Add Connection details
+
+Make selection in the ``Add Connection`` screen as below to create ``Databricks Compute`` connection.
+
+.. figure:: ../../../_assets/installation/connection/databricks_sel_type.png
+   :alt: connection
+   :width: 60%    
+
+3. On selection ``Databricks`` from the dropdown page would be displayed as below with ``General`` and ``Databricks`` tabs:
+
+Content of the ``General Tab`` would be based on the ``Authentication Type`` selected.
+
+For more details on the fields refer the following table:
+
+GENERAL Tab (User Credential):
 
 .. list-table:: 
    :widths: 10 20 20
@@ -34,6 +52,9 @@ GENERAL Tab :
    * - CONNECTION NAME
      - Connection Name
      - Add an unique Connection Name
+   * - Auth Type
+     - Select the Authentication Type
+     - Select the appropriate option from ``User Credential`` or ``OAUTH``
    * - TOKEN 
      - Token
      - Add token generated
@@ -49,10 +70,66 @@ GENERAL Tab :
    * - URL
      - Jdbc url for databricks connection
      - Add Jdbc Url for Databricks Connection
-     
-.. figure:: ../../../_assets/installation/connection/databricks_general.PNG
+
+.. figure:: ../../../_assets/installation/connection/databricks_add_conn1.png
    :alt: connection
    :width: 60%    
+
+.. figure:: ../../../_assets/installation/connection/databricks_general_uc1.png
+   :alt: connection
+   :width: 60%    
+
+GENERAL Tab (OAUTH):
+
+.. list-table:: 
+   :widths: 10 20 20
+   :header-rows: 1
+
+   * - Title
+     - Description
+     - Value
+   * - CREDENTIAL STORE  
+     - Select the Credential Store from drop-down
+     - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+   * - Select Category
+     - Select Category of Connection Type
+     - Select Compute Connection
+   * - CONNECTION TYPE 
+     - Select the Connection type from drop-down
+     - Choose Databricks as Connection Type
+   * - CONNECTION NAME
+     - Connection Name
+     - Add an unique Connection Name
+   * - Auth Type
+     - Select the Authentication Type
+     - Select the appropriate option from ``User Credential`` or ``OAUTH``
+   * - POSTBACK URL
+     - Fire Insights Post Back URL
+     - Add Fire Insights Post Back URL
+   * - Client ID 
+     - Client ID for the connection
+     - Enter Client ID for the connection
+   * - Client Secret 
+     - Client Secret for the connection
+     - Enter Client Secret for the connection
+   * - TITLE 
+     - Title for selected Connection
+     - Add an unique Title
+   * - DESCRIPTION
+     - Connection Description
+     - Add some Connection Description
+   * - URL
+     - Jdbc url for databricks connection
+     - Add Jdbc Url for Databricks Connection
+
+.. figure:: ../../../_assets/installation/connection/databricks_add_conn1.png
+   :alt: connection
+   :width: 60%    
+
+.. figure:: ../../../_assets/installation/connection/databricks_general_oa1.png
+   :alt: connection
+   :width: 60%    
+
 For more details on creating Databricks connection refer the following image:
 
 DATABRICKS Tab :

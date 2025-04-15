@@ -175,7 +175,7 @@ Step 5 : Test & Save the Connection
 **Documentation**
 +++++++++++++++++
 
-Reference guide : `Databricks User Guide Documentation. <https://docs.sparkflows.io/en/latest/databricks-user-guide/index.html>`_
+Reference guide : `Databricks User Guide Documentation. <https://docs.sparkflows.io/en/latest/databricks/user-guide/index.html>`_
 
 .. note:: Make sure to add 'POSTBACK URL' through which jobs running on Databricks would send back results to Sparkflows using this URL, else it will use the default ``app.postMessageURL`` defined in configuration.
 

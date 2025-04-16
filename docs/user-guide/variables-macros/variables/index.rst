@@ -14,6 +14,7 @@ Fire Insights allows you to define and use variables in various ways.
   * Variables can be used in Application Connection
   * Variables can be defined at the project, group and global level
   * Variables can be imported using a INI or JSON file
+  * Variables can be exported to a JSON file
 
 Order of Precedence
 -----------
@@ -60,6 +61,10 @@ When a variable is used in a node, below is the order of precedence:
 
     :doc:`/user-guide/variables-macros/variables/import-variables`
 
+    ---
+
+    :doc:`/user-guide/variables-macros/variables/export-variables`
+
 
 
 .. toctree::
@@ -73,3 +78,4 @@ When a variable is used in a node, below is the order of precedence:
    global_or_group-variable.rst
    project-variable.rst
    import-variables.rst
+   export-variables.rst

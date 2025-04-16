@@ -58,7 +58,13 @@ It can be achieved using the **{variable_name}** notation as shown below. For e.
       :alt: variables_userguide
       :width: 65%
 
-.. note:: Parameters defined in the Pipeline are accessible in all the child Workflows. They can be used in the nodes using **${variable_name}** syntax.
+Adding multiple parameters in single pipeline node field using the **{variable_name1} {variable_name2} {variable_name3}** notation as shown below. For e.g. here, we are entering variable as ``{btstrp_arg1} {btstrp_arg2} {btstrp_arg3}``.  
+
+   .. figure:: ../../../_assets/user-guide/variables/variable-pipeline-node-1.png
+         :alt: variables_userguide
+         :width: 65%
+
+.. note:: Parameters defined in the Pipeline are accessible in all the child Workflows. They can be used in the workflow nodes using **${variable_name}** syntax.
 
 
 

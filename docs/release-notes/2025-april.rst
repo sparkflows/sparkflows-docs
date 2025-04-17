@@ -7,16 +7,15 @@ New Features
 Authentication & Security
 +++++
 
-* **Token Expiration Notification :** Advanced email notifications are now sent before a token expires. The **token creator** is also included in the notification list.
+* **Token Expiration Notification :** Users now receive an advanced email notification before a token expires. By default, notifications are sent only to the *token creator*. Configuration available under Configurations → App to customize recipients.
 
-* **Snowflake Key-Pair Authentication :** Support for key-pair authentication in Snowflake has been implemented. Secret key names can now be configured in the **Credential Store**.
+* **Snowflake Key-Pair Authentication :** Support for key-pair authentication in Snowflake has been implemented. 
 
-Cloud & Infrastructure
+Pipeline
 +++++
 
-* **EBS Root Volume Support :** Introduced support for EBS root volumes, enhancing flexibility in infrastructure setup.
+* **EBS Root Volume Support :** Added fields related to EBS Root Volume in the Create EMR pipeline node for enhanced configuration.
 
-* **Guardian Integration :** Successfully integrated with Guardian to improve platform security and governance.
 
 Data & Workflow Management
 +++++
@@ -39,33 +38,34 @@ Cloud Services Integration
 Enhancements
 ---------
 
-Execution & Monitoring
+Pipeline
 +++++
 
-* **Pipeline Execution Page Update :** The page now displays parameter values and connection details when Airflow is enabled, improving visibility during execution.
+**Execution & Monitoring**
 
-Databricks Integration
-+++++
+  * **Pipeline Execution Page Update :** The page now displays parameter values and connection details when Airflow is enabled, improving visibility during execution.
 
-* **Create Databricks Cluster Enhancements :** Added features to terminate clusters after 30 minutes, enable Spot Instances, use Photon Acceleration, and more.
+**Databricks Integration**
 
-EMR Integration
-+++++
+  * **Create Databricks Cluster Enhancements :** Added features to terminate clusters, enable Spot Instances, use Photon Acceleration, and more.
 
-* **Create EMR Pipeline Node :** Enhanced with new fields for Retries and Retry Delay, increasing execution robustness.
+**EMR Integration**
+
+  * **Create EMR Pipeline Node :** Enhanced with new fields for Retries and Retry Delay, increasing execution robustness.
 
 
 Bug Fixes
 ----
 
-* **Livy Access over HTTPS :** Resolved an issue where Livy was not accessible over HTTPS. Secure access has been successfully validated.
+* **Livy Access over HTTPS :** Resolved an issue where Livy was not accessible over HTTPS. 
 
 Documentation
 ------
 * **Import Variables using file :** Added documentation to import variables using a correctly formatted .INI or .JSON file for Global or selected Group.
-* **Snowflake Key-Pair Authentication :**  Added documentation displaying the capability to create “Snowflake Connection” and use the connection to access various resources using Key-Pair Authentication.
+* **Export Variables to JSON file :** Added detailed documentation for exporting Global and Group-level variables to JSON, including visibility settings, steps, and structured export formats.
+* **Snowflake Key-Pair Authentication :**  Added documentation displaying the capability to create 'Snowflake Connection' and use the connection to access various resources using Key-Pair Authentication.
 * **Databricks Connection :** Updated documentation for OAuth related configuration setup in a databricks connection. 
-
+* **Variables in Pipelines :** Updated documentation for using dynamic pipeline parameters in PySpark nodes with ${variable_name} and {variable_name} syntax to enhance flexibility and reuse across workflows.
 
 
 

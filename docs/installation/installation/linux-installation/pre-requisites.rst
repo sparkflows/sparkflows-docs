@@ -14,7 +14,7 @@ Supported Linux Versions
 
 Below are required for installing Sparkflows on Linux machine::
 
-  - JDK 1.8 installed.
+  - JDK 17 installed.
   - Java and JAR should be in the PATH.
   - 8 GB+ of RAM (16 GB+ recommended).
 
@@ -30,13 +30,13 @@ Below is needed if Sparkflows would connect and submit jobs to an Apache Spark C
 
 If there is need to run the PySpark engine (optional)::
 
-  - Python 3.8 needs to be set up on the machine
+  - Python 3.9 needs to be set up on the machine
 
     
-Downloading and Installing Java 8
+Downloading and Installing Java 17
 +++++++++++++++++++++++++++++++++++++
 
-* Java 8 can be downloaded and installed from `here <https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html>`_.
+* Java 17 can be downloaded and installed from `here <https://jdk.java.net/17?>`_.
 
 * Set the **JAVA_HOME** property.
 
@@ -51,12 +51,12 @@ Install using Linux RPM Package
 
 - Install the package::
 
-    yum localinstall jdk-8u202-linux-x64.rpm (this has to be run as the root user)
+    yum install java-17-openjdk-devel -y (this has to be run as the root user)
 
 - Update ``.bash_profile`` to add the below::
 
-    export JAVA_HOME=/usr/java/jdk1.8.0_202-amd64/
-    export PATH=$PATH:$JAVA_HOME/bin
+    export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+    export PATH=$JAVA_HOME/bin:$PATH
 
 Install OpenJDK8 JDK using yum
 ...............................
@@ -67,14 +67,15 @@ Install OpenJDK8 JDK using yum
 
     .. code-block:: bash
 
-  	yum install java-1.8.0-openjdk-devel
+  	sudo yum install java-17-openjdk-devel -y
+
 
 Install OpenJDK8 JDK using apt
 ..............................
 
     .. code-block:: bash
 
-	sudo apt install openjdk-8-jdk
+	sudo apt install openjdk-17-jdk -y
 
 Check Installation of JAVA 8
 ...............................
@@ -87,7 +88,7 @@ We can check the version of JAVA by running the following command:
 
 On successful installation and checking java version, one would see the below:
 
-   .. figure:: ../../../_assets/aws/aws-deployment/install.png
+   .. figure:: ../../../_assets/aws/aws-deployment/java17.png
       :alt: aws-deployment
       :width: 60%
 

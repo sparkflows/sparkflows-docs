@@ -9,6 +9,9 @@ Fire Insights TGZ File
 Fire Insights Docker Image
 ------
 
+* Apr 16, 2025
+    * sparkflows/fire:py_3.5.2_3.2.99
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.5.2_3.2.99/images/sha256-69e76580e5112439218e86c4b094ded9a8fd4d3f49624b20c74636705bd6e948
 * Dec 17, 2024
     * sparkflows/fire:py_3.3.0_3.2.92
     * https://hub.docker.com/layers/sparkflows/fire/py_3.3.0_3.2.92/images/sha256-bddeb4d8674671e2f9f5aa543bcc65c8585564931fb66e996395f70c0d443e70

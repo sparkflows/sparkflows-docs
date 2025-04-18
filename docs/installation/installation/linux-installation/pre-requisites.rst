@@ -58,7 +58,7 @@ Install using Linux RPM Package
     export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
     export PATH=$JAVA_HOME/bin:$PATH
 
-Install OpenJDK8 JDK using yum
+Install OpenJDK17 JDK using yum
 ...............................
 
     .. code-block:: bash
@@ -70,14 +70,14 @@ Install OpenJDK8 JDK using yum
   	sudo yum install java-17-openjdk-devel -y
 
 
-Install OpenJDK8 JDK using apt
+Install OpenJDK17 JDK using apt
 ..............................
 
     .. code-block:: bash
 
 	sudo apt install openjdk-17-jdk -y
 
-Check Installation of JAVA 8
+Check Installation of JAVA 17
 ...............................
 
 We can check the version of JAVA by running the following command:

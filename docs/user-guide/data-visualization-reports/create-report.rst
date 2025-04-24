@@ -9,7 +9,7 @@ Step 1 : Start Creating a Report
 * Now **select a project** for which you want to create a report.
 * From the Reports List page, click on **Create Report** button located at the right corner, as shown below.
 
-  .. figure:: ../_assets/user-guide/reports/reports-tab-create-report.png
+  .. figure:: ../../_assets/user-guide/reports/reports-tab-create-report.png
       :alt: Fire Insights Access Report
       :width: 65% 
 
@@ -22,7 +22,7 @@ Step 2 : Choose the Report Type
  * Standard Report
 
   
-  .. figure:: ../_assets/user-guide/reports/report-options.png
+  .. figure:: ../../_assets/user-guide/reports/report-options.png
       :alt: Fire Insights Access Report
       :width: 65% 
 
@@ -36,7 +36,7 @@ Step 3 : Add or Delete Processors in the Report Canvas
 ------
 * After choosing report type, you will be taken to the **Create Report page**, as shown below.
 
-  .. figure:: ../_assets/user-guide/reports/create-report-page.png
+  .. figure:: ../../_assets/user-guide/reports/create-report-page.png
       :alt: Fire Insights Access Report
       :width: 65% 
 
@@ -47,7 +47,7 @@ Step 3 : Add or Delete Processors in the Report Canvas
   * Drag and drop the required processors into the **Report Canvas**, as shown below.
 
   
-    .. figure:: ../_assets/user-guide/reports/add-workflows.png
+    .. figure:: ../../_assets/user-guide/reports/add-workflows.png
       :alt: Fire Insights Access Report
       :width: 65% 
 

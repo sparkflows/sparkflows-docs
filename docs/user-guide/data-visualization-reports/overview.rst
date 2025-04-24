@@ -28,7 +28,7 @@ Reports in Sparkflows can be accessed by following the below steps:
 
 **3.** Click the **View (Eye)** icon on the report as shown below to open and view it.
  
-  .. figure:: ../_assets/user-guide/reports/viewicon-reports.png
+  .. figure:: ../../_assets/user-guide/reports/viewicon-reports.png
       :alt: Fire Insights Access Report
       :width: 65%   
 

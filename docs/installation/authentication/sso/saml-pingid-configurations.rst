@@ -55,7 +55,7 @@ Add/update the below information from newly created application in Ping Identity
   # Algorithm that the toolkit will use on signing process. Options:
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
 
-  # ACS URL:
+  # ACS (Assertion Consumer Service) URL:
   saml2.sp.acs-url=https://sparkflows_url/saml/SSO
 
   # NameId format in PingId:

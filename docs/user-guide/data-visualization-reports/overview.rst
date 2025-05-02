@@ -32,6 +32,38 @@ Reports in Sparkflows can be accessed by following the below steps:
       :alt: Fire Insights Access Report
       :width: 65%   
 
+Sample Reports
+-----
+ Below are some examples of reports generated in Sparkflows:
+
+ .. figure:: ../../_assets/user-guide/reports/sample-report3.png
+      :alt: Fire Insights Access Report
+      :width: 65%   
+
+
+ .. figure:: ../../_assets/user-guide/reports/sample-report2.png
+      :alt: Fire Insights Access Report
+      :width: 65%   
+
+
+
+ .. figure:: ../../_assets/user-guide/reports/sample-report1.png
+      :alt: Fire Insights Access Report
+      :width: 65%   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Note :** If no reports have been created yet, the Reports List page will appear empty.
 

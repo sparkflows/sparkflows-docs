@@ -11,3 +11,15 @@ Key features
 •	**Goal Tracking :** Visualize progress toward KPIs and strategic goals, helping teams stay aligned and make informed decisions quickly.
 •	**Simplified Reporting :** Create shareable and printable reports directly from dashboards, streamlining communication across teams.
 •	**Collaboration-Ready :** Dashboards support team collaboration by enabling comments, annotations, and sharing, ensuring everyone works from a unified view of the data.
+
+Sample Dashboards
+-----
+ Below are the examples of dashboards generated in Sparkflows:
+
+ .. figure:: ../../_assets/tutorials/dataset/Dashboards/sample-dashboard1.png
+      :alt: Dataset
+      :width: 65%
+
+ .. figure:: ../../_assets/tutorials/dataset/Dashboards/sample-dashboard2.png
+      :alt: Dataset
+      :width: 65%

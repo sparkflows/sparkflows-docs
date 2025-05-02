@@ -86,9 +86,9 @@ Step 6: Update HTTP POST
 ------
 
 #. Click on **Configure**.
-#. Update the HTTP POST as ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``
+#. Update the HTTP POST as ``urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified``
 
-   .. figure:: ../../../_assets/authentication/pingid/http_post_1.PNG
+   .. figure:: ../../../_assets/authentication/pingid/ping_id_nameformat.png
       :alt: sso
       :width: 50%
 

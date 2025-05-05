@@ -19,14 +19,14 @@ Another prerequisite for creating a dashboard is to add the Google REST API Key 
 1.	**Login** to Fire Insights.
 2.	From the Dashboard page, navigate to **Administration -> Configurations**.
   
- .. figure:: ../../_assets/tutorials/dataset/Dashboards/admin-page.png
-       :alt: Dataset
-       :width: 65%
+ .. figure:: ../../_assets/installation/connection/create_connections/administration_page.png
+     :alt: create_connections
+     :width: 60%
   
 3.	On Configurations page, click on ``PLUGINS`` tab in the middle bar.
 4.	Add the **Google Rest API key** in the **Value** column, as shown below and click on **Save Configurations** button to save the key.
 
-  .. figure:: ../../_assets/tutorials/dataset/Dashboards/api-config-page.png
+  .. figure:: ../../_assets/tutorials/dataset/Dashboards/google-restapi-key-config.png
       :alt: Dataset
       :width: 65%
 
@@ -44,13 +44,13 @@ Follow the steps below to create a JDBC dataset in Fire Insights:
 ++++++++++++++++++++++++++++++++++++++++++
 * Click on **Create** button and choose the option **Using Connection** from the dropdown, as shown below.
   
-  .. figure:: ../../_assets/tutorials/dataset/Dashboards/2.png
+  .. figure:: ../../_assets/tutorials/dataset/Dashboards/dataset-create-usingconnection.png
       :alt: Dataset
       :width: 65%
   
-* On Create Dataset dialog box, select the **MySQL Connection** from the dropdown that you want to use to create dataset.
+* On Create Dataset dialog box, select a **MySQL Connection** from the dropdown that you want to use to create dataset.
   
-  .. figure:: ../../_assets/tutorials/dataset/Dashboards/3.png
+  .. figure:: ../../_assets/tutorials/dataset/Dashboards/fire-solution-mysql.png
       :alt: Dataset
       :width: 65%
   
@@ -65,7 +65,7 @@ Follow the steps below to create a JDBC dataset in Fire Insights:
  •	``DB`` : Database for MySQL database.
  •	``TABLE`` : Table for MySQL.
 
-   .. figure:: ../../_assets/tutorials/dataset/Dashboards/4.png
+   .. figure:: ../../_assets/tutorials/dataset/Dashboards/dataset-details.png
       :alt: Dataset
       :width: 65%
 
@@ -75,7 +75,7 @@ Follow the steps below to create a JDBC dataset in Fire Insights:
   
 * Click on **Update Sample Data/Schema** button to update the schema of the dataset, as shown below. This step would display sample data for the dataset followed by the Schema inferred by Fire Insights.
  
-  .. figure:: ../../_assets/tutorials/dataset/Dashboards/5.png
+  .. figure:: ../../_assets/tutorials/dataset/Dashboards/update-schema.png
       :alt: Dataset
       :width: 65%
   

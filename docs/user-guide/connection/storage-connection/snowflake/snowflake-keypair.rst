@@ -5,9 +5,12 @@ Sparkflows provides the capability to create "Snowflake Connection" and use the 
 
 Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 
-Prerequisites
+Pre-requisites
 -------------
-If the private key is stored in AWS Secrets Manager, the configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
+
+- the private key is stored in AWS Secrets Manager, 
+- the configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
+- Sparkflows machine would have access to ARN
 
 Configuring Credential Store 
 -------------

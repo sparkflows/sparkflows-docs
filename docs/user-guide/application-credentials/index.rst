@@ -9,7 +9,15 @@ Sparkflows allows users to create Application Credentials at global level throug
     
     :doc:`/user-guide/application-credentials/application-credentials`
 
+    ---
+
+    :doc:`/user-guide/application-credentials/application-credentials-aws`
+
+    Details steps for setting up credentials store with aws secret manager.
+
+
 .. toctree::
    :hidden:
 
    application-credentials.rst
+   application-credentials-aws.rst

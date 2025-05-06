@@ -29,6 +29,8 @@ Configuring Credential Store
       :alt: Credential Store
       :width: 65%
 
+Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.sparkflows.io/en/latest/installation/credential-store/aws/index.html>`_
+
 Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 
 Step 1 : Navigate to Connections Page

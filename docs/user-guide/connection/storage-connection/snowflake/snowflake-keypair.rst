@@ -12,9 +12,16 @@ Pre-requisites
 - the configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN
 
+How to create private key and configure it in snowflake
+---------------------------------------
+https://docs.snowflake.com/en/user-guide/key-pair-auth
+
 Configuring Credential Store 
 -------------
-If a user wants to configure AWS Secrets Manager for Snowflake authentication, they need to create a credential store and configure it in the connection settings.
+- If a user wants to configure AWS Secrets Manager for Snowflake authentication, they need to create a credential store and configure it in the connection settings.
+- If the user wants to test and use a different ARN for accessing the Secrets Manager, they can configure it in the credentials store.
+- By default, the ARN configured at the user group level will be used to fetch AWS secrets.
+
 
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/snowflake_credential_store.png
       :alt: Credential Store

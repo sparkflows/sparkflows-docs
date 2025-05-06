@@ -10,6 +10,25 @@ Pre-requisites
 - the configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN
 
+the ARN should have below permission:
+
+::
+
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "secretsmanager:GetSecretValue",
+                "secretsmanager:ListSecrets",
+                "secretsmanager:DescribeSecret"
+            ],
+            "Resource": "arn:aws:secretsmanager:us-east-1:xxxxxx:secret:snowflake_key-*"
+        }
+    ]
+  }
+
 How to create private key and configure it in snowflake
 ---------------------------------------
 

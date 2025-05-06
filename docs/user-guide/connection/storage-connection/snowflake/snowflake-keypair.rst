@@ -3,8 +3,6 @@ Snowflake Key-Pair Authentication
 
 Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources using Key-Pair Authentication.
 
-Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
-
 Pre-requisites
 -------------
 
@@ -31,6 +29,7 @@ Configuring Credential Store
       :alt: Credential Store
       :width: 65%
 
+Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 
 Step 1 : Navigate to Connections Page
 -------------

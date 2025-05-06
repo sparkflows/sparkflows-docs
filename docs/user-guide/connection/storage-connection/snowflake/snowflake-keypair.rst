@@ -14,7 +14,11 @@ Pre-requisites
 
 How to create private key and configure it in snowflake
 ---------------------------------------
-https://docs.snowflake.com/en/user-guide/key-pair-auth
+
+Snowflake supports using key pair authentication for enhanced authentication security as an alternative to basic authentication, such as username and password.
+
+Reference guide : `Configuring key-pair authentication in Snowflake. <https://docs.snowflake.com/en/user-guide/key-pair-auth>`_   
+
 
 Configuring Credential Store 
 -------------

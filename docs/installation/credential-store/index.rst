@@ -13,5 +13,6 @@ Below are the steps for configuring ``Azure Key Vault`` or ``Local Credential St
    azure-keyvault.rst
    credential-store-connection.rst
    local-credential-store.rst
+   aws/index.rst
 
 

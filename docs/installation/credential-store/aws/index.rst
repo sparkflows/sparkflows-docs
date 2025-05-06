@@ -6,7 +6,7 @@ You can configure AWS credential store in sparkflows. Below are the steps for co
 Go to Administration -> Credential Store
 -------------
 
-Login to Fire Insights application as an admin user. Go to ``Administration`` and select ``Credential Store``.
+Login to sparkflows application as an admin user. Go to ``Administration`` and select ``Credential Store``.
 
 .. figure:: ../../../_assets/credential_store/credential_store_5.PNG
    :alt: AWS Credential Store

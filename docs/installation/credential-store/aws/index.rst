@@ -3,7 +3,7 @@ AWS Credential Store
 
 Sparkflows allows users to securely access AWS resources by configuring the AWS Credential Store. 
 
-Follow the steps below:
+To configure AWS Credential Store, follow the steps below:
 
 Step 1 : Access Credential Store
 -------------

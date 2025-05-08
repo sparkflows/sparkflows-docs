@@ -10,7 +10,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 * Download the fire **TGZ** file from: https://www.sparkflows.io/download
 
-* Or, download the file using the **wget** command in Linux :
+* Copy the download link from above for Linux, download the file using the **wget** command in Linux :
      
    .. code-block:: bash
 

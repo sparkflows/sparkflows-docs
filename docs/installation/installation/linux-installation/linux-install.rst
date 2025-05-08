@@ -14,7 +14,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
      
    .. code-block:: bash
 
-        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.x.y_spark_3.2.1.tgz
+        wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.x.y_spark_3.5.2.tgz
 
 
  .. Note:: 
@@ -32,7 +32,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
   
 * Unpack it::
 
-    tar xvf fire-3.x.y_spark_3.2.1.tgz
+    tar xvf fire-3.x.y_spark_3.5.2.tgz
 
 * Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found `here <https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html>`_.
 

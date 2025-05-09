@@ -25,7 +25,7 @@ Fire Insights can be installed using one of the below binaries and installers as
 
    ---
       
-   :doc:`/installation/installation/macos-install`
+   :doc:`/installation/installation/macos-install/index`
    
    Sparkflows Installation on MacOS
    

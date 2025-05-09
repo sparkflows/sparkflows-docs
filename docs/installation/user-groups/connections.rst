@@ -51,7 +51,7 @@ In Sparkflows, **GenAI Connection** enables the following:
   * Vertex Palm API
   * Bedrock connection
   
- In Sparkflows, **Vector DB Connection** enables the following:
+In Sparkflows, **Vector DB Connection** enables the following:
 
   * Pinecone
   

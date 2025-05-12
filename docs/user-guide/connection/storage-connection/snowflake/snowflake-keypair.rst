@@ -138,7 +138,8 @@ Step 4 : Test and Save the connection
 
   .. Note:: 1. Make Sure Sparkflows User Login (Using Key-Pair) should have sufficient privilege of Snowflake resources.
 
-       2. Make Sure that for Execution mode, Snowflake key pair is accessible to EMR or any specific Compute engine.
+       2. Please ensure that for the selected execution mode, the Snowflake key pair is accessible to the compute environment being used — such as Amazon EMR or any other specific compute engine.
+
 
  
 Documentation

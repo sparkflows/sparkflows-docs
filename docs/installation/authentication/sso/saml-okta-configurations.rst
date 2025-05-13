@@ -12,27 +12,34 @@ Add/update the below information from newly created application in Okta:
 ::
 
     sparkflows.sp.sso.enable=true 
-    
-2. Create user automatically in application, if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'.
+
+2. authentication type - expected value (saml or oauth).
+
+::
+
+    sparkflows.authentication.type=saml 
+
+
+3. Create user automatically in application, if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'.
 
 ::
 
     sparkflows.sp.auto.user.create=true 
     
-3. Disable the DB login for superuser or else you can enable it to login with superuser authentication.
+4. Disable the DB login for superuser or else you can enable it to login with superuser authentication.
 
 ::
 
     sparkflows.sp.db.login.enable=true
 
-4. Enable/disable global logout.
+5. Enable/disable global logout.
 
 ::
 
     saml2.global.logout=true
     
     
-5. Copy Okta config info.
+6. Copy Okta config info.
 
 ::
 
@@ -45,19 +52,22 @@ Add/update the below information from newly created application in Okta:
    :alt: sso
    :width: 60%
 
-6. Right click on identity provider metadata and select Copy link address.
+7. Right click on identity provider metadata and select Copy link address.
 
 ::
 
     #Metadata URL of identity provider
-    saml2.idp.metadata-url=https://dev-514411.okta.com/app/exk6sc27dyq4istqO357/sso/saml/metadata
+    saml2.idp.metadata-url=https://dev-514411.okta.com/app/exk6sc27dyq4istqO357/sso/saml/metadata or file:./conf/saml2-metadata-idp-d717f2ad-aa47-4260-b84e-08094d0dbcd4.xml
     
     
 .. figure:: ../../../_assets/authentication/okta_metdata.png
    :alt: sso
    :width: 60%    
 
-7. Capture Issuer URL:
+.. note::  ``saml2.idp.metadata-url`` can be absolute idp.metadata-url which is accessible from application or saml-metadata.xml file path in conf folder.
+
+
+8. Capture Issuer URL:
 
 .. figure:: ../../../_assets/authentication/okta_issuer.png
    :alt: sso
@@ -67,19 +77,19 @@ Add/update the below information from newly created application in Okta:
    :alt: sso
    :width: 60% 
 
-8. Algorithm that the toolkit will use in signing process.
+9. Algorithm that the toolkit will use in signing process.
 
 ::
 
   saml2.security.signature_algorithm=http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
 
-9. Application base URL.
+10. Application base URL.
 
 ::
 
   saml.sso.metadata-generator.entity-base-url=https://localhost:8443
   
-10. Server name.
+11. Server name.
 
 ::
 

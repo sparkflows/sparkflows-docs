@@ -1,4 +1,4 @@
-Oracle Netsuite Connection
+Oracle NetSuite Connection
 =======
 **Fire Insights** provides capability to create Oracle Netsuite connection for reading data from Oracle NetSuite, enabling organizations to incorporate NetSuite data into modern data architectures.
 

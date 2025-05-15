@@ -108,7 +108,7 @@ Airflow Snowflake Connection
 Airflow requires a connection to authenticate and authorize access to Snowflake. The Snowflake connection can be set up in the Airflow UI or via environment variables.
 
 
-**A. Using Username and Password Authentication**
+**A. Using Basic Authentication(Username and Password)**
 +++++
 
 Below are the steps to create Snowflake Connection using Username and Password

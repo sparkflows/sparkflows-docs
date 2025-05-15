@@ -148,7 +148,7 @@ As an example, the details are filled like below:
 
 * Once the chatbot is created, click on **Edit Chat** icon on the specific chatbot from the chatbot list page, as shown below. You will get an **option to add files and their embeddings** to the VectorDB. These embeddings will be used to retrieve query responses from the VectorDB.
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/editchat-icon.PNG
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/editchat-icon.png
      :alt: create-new-chat-session
      :width: 65%
  
@@ -166,7 +166,7 @@ As an example, the details are filled like below:
 
 * Click on a **specific chatbot** from the chat list, as shown below:
 
-  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/lists.png
+  .. figure:: ../../_assets/user-guide/machine-learning/generative-ai/chatbot/chatbot-lists.png
      :alt: create-new-chat-session
      :width: 65%
 

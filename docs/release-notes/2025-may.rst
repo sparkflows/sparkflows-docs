@@ -1,2 +1,41 @@
 Version 3.3.1 - May 15th, 2025
 =====
+
+New Features
+-----
+
+Authentication & Security
++++++
+* **SSO Feature with PingID :** Added support for the NameID format ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``, enabling unique identification of users. Other supported formats include persistent, unspecified and more.
+
+Workflow Management
++++++
+* **MWAA - Disable SSL Certificate Validation :** Added an option in Airflow connections to skip SSL certificate validation.This enables MWAA to support environments where strict certificate verification is not required.
+
+Enhancements
+---------
+
+User Management
++++++
+
+* **Export Role and Group Information with Users :** Enhanced the user export functionality to include the associated Role(s) and Group(s) for each user.
+
+UI/UX Improvements
++++++
+* **Project List Card Layout Upgrade :** The layout for Project List Cards has been upgraded for improved navigation and usability.
+* **Node Layout Upgrade :** The Node layout has been redesigned to provide a clearer, more intuitive visual structure for managing pipeline components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -105,10 +105,13 @@ You also need the SQLAlchemy Snowflake dialect if you're using SQLAlchemy (which
 Airflow Snowflake Connection
 ----
 
+Airflow requires a connection to authenticate and authorize access to Snowflake. The Snowflake connection can be set up in the Airflow UI or via environment variables.
+
+
 **A. Using Username and Password Authentication**
 +++++
 
-Airflow requires a connection to authenticate and authorize access to Snowflake. The Snowflake connection can be set up in the Airflow UI or via environment variables.
+Below are the steps to create Snowflake Connection using Username and Password
 
 Setup via the Airflow UI:
 
@@ -153,6 +156,7 @@ You can also set up the connection using environment variables or a .env file fo
 
 **B. Using Key-Pair Authentication**
 +++++++++++++++++++++++++++++++++++++
+
 To use the **Run Snowflake Command** node in a pipeline, a connection in Airflow with type Snowflake needs to be created. 
 
 Follow the steps below for the same:

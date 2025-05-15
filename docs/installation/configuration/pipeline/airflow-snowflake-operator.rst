@@ -105,6 +105,9 @@ You also need the SQLAlchemy Snowflake dialect if you're using SQLAlchemy (which
 Airflow Snowflake Connection
 ----
 
+**A. Using Username and Password Authentication**
++++++
+
 Airflow requires a connection to authenticate and authorize access to Snowflake. The Snowflake connection can be set up in the Airflow UI or via environment variables.
 
 Setup via the Airflow UI:
@@ -146,6 +149,81 @@ Setup via the Airflow UI:
     Role: SYSADMIN
 
 You can also set up the connection using environment variables or a .env file for production use.
+
+
+**B. Using Key-Pair Authentication**
++++++++++++++++++++++++++++++++++++++
+To use the **Run Snowflake Command** node in a pipeline, a connection in Airflow with type Snowflake needs to be created. 
+
+Follow the steps below for the same:
+
+**Step 1 : Navigate to Airflow Connections**
+
+ * Open your Airflow UI and Go to **Admin > Connections**.
+ * Click on ``+`` to add a new record.
+ * Select **Snowflake** from the dropdown in the Connection Type, as shown below.
+
+   .. figure:: ../../../_assets/configuration/airflow/af-keypair-add-connection.PNG
+      :alt: airflow
+      :width: 60%
+
+**Step 2 : Configure the Snowflake Connection**
+
+In the Connection form, set the following fields:
+
+ * ``Login`` : Enter your Snowflake username.
+ * ``Account`` : Enter your Snowflake account name (e.g., dwrpeje-zu65584).
+ * ``Warehouse`` : Provide the name of your Snowflake warehouse.
+ * ``Private Key`` : Paste the private key content in PEM format (plain text).
+ * ``Password`` : Leave this field empty when using keypair authentication.
+
+  .. figure:: ../../../_assets/configuration/airflow/af-keypair-config-details.PNG
+      :alt: airflow
+      :width: 60%
+
+After saving, ensure the connection appears in the list of connections under **Admin > Connections**, as shown below:
+
+  .. figure:: ../../../_assets/configuration/airflow/af-connection-list.png
+      :alt: airflow
+      :width: 60%
+
+**Step 3 : Use the Connection in Sparkflows Pipeline**
+
+ * In your Sparkflows pipeline, add the **Run Snowflake Command** node.
+ * In the node settings, select the Snowflake connection you created above i.e. **SnowflakeKeyPair**, as shown below.
+
+   .. figure:: ../../../_assets/configuration/airflow/run-sf-command-node.png
+      :alt: airflow
+      :width: 60%
+
+ * When the pipeline runs, Sparkflows will trigger the **RunSnowflakeCommand Airflow Operator** using the selected Snowflake connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Network and Security Configurations
 ----

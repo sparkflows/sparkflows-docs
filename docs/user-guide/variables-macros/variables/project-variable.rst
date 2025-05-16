@@ -95,4 +95,4 @@ Delete Variable
 
    .. figure:: ../../../_assets/user-guide/variables/Project_Delete_Variable_Msg.PNG
       :alt: variables_userguide
-      :width: 40%
+      :width: 65%

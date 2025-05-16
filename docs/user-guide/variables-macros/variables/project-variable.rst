@@ -3,7 +3,7 @@ Project Level Variables
 
 Project-level variables are located on the **Project Overview** page, within the **Settings** tab under the **Variables** section. Any user who is having the permission of **variables.view** or **variables.modify** will have access to the **Variables** tab at project level.
 
-.. figure:: ../../../_assets/user-guide/variables/Project_Variable_list.PNG
+.. figure:: ../../../_assets/user-guide/variables/Project_Variable_List_Page.PNG
    :alt: variables_userguide
    :width: 65%
 

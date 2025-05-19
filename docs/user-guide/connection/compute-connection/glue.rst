@@ -25,7 +25,7 @@ Step 2 : Create Global Connection
 
 * Navigate to **Administration -> Global/Group Connections** as shown below:
 
-  .. figure:: ../../_assets/installation/connection/create_connections/administration_page.png
+  .. figure:: ../../../_assets/installation/connection/create_connections/administration_page.png
      :alt: create_connections
      :width: 60%
 
@@ -36,7 +36,7 @@ Step 3 : Add Connection for group
 
 * Choose **Add Connection For Group** from the dropdown which will pop up a new window.
 
-  .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connections-add.png
+  .. figure:: ../../../_assets/credential_store/create-snowflake-connection/connections-add.png
       :alt: Credential Store
       :width: 65%
 

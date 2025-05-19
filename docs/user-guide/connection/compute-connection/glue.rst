@@ -7,37 +7,51 @@ Sparkflows enables you to create Aws Glue connection and use the connection to s
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
 
-Below are the steps required to create Glue connection :
+Follow the steps below to create Glue connection:
 
-**1. Enable Glue in Sparkflows:**
+Step 1 : Enable Glue in Sparkflows
++++++
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Glue connection by setting the below parameter:
+* Login to Sparkflows application i.e **Fire Insights**.
+* Go to  **Administration -> Configurations -> Connection**
+* Enable Glue connection by setting the below parameter to **true** and save the configuration.
 
-::
+  ::
 
     connection.glue.enabled : true
 
-**2. Create global connections:**
+Step 2 : Create Global Connection
++++++
 
-Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+* Navigate to **Administration -> Global/Group Connections** as shown below:
 
- .. figure:: ../../../_assets/aws/livy/administration.png
-    :alt: livy
-    :width: 60%
+  .. figure:: ../../_assets/installation/connection/create_connections/administration_page.png
+     :alt: create_connections
+     :width: 60%
 
-**3. Add Connection for group:**
+* Click on **Add Connection** button from the connections page.
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which will pop up a new window -> Select ``Compute Connection`` and other parameters as shown below:
+Step 3 : Add Connection for group
++++++
 
-.. figure:: ../../../_assets/installation/connection/glue_connection.PNG
-   :alt: livy
-   :width: 60%
+* Choose **Add Connection For Group** from the dropdown which will pop up a new window.
 
-**4. Update the below parameters as per our configuration:**
+  .. figure:: ../../../../_assets/credential_store/create-snowflake-connection/connections-add.png
+      :alt: Credential Store
+      :width: 65%
 
-Now, update the below parameter as per AWS configurations. For more details refer the following table and image:
+* Select category as **Compute Connection** and connection type as **Glue**, as shown below:
 
-For GENERAL Tab :
+  .. figure:: ../../../_assets/installation/connection/glue_connection.PNG
+     :alt: livy
+     :width: 60%
+
+Step 4 : Update the parameters 
++++++
+
+* Now, update the below parameters as per AWS configurations. For more details, refer the following table and the image shown.
+
+**For GENERAL Tab :**
 
 .. list-table:: 
    :widths: 10 20 30
@@ -60,13 +74,12 @@ For GENERAL Tab :
      - Connection Description
 
 .. figure:: ../../../_assets/installation/connection/glue_general.PNG
-   :alt: livy
-   :width: 60%
+    :alt: livy
+    :width: 60%
 
 
-For more details refer following table:
 
-For GLUE Tab :
+**For GLUE Tab :**
 
 .. list-table:: 
    :widths: 10 20 30
@@ -111,12 +124,13 @@ For GLUE Tab :
 
 .. note:: Copy ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from ``fire-x.y.z/fire-core-jar`` bundled in Fire tgz file.
 
-**5. Save connection**
+Step 5 : Save the connection
+++++++
 
-Once you have updated the above parameters, click on  ``Save`` to save the connection.
+* Once you have entered the above parameters, click on  **Save** button to save the connection.
 
 
 Documentation
 +++++
 
-Reference guide : https://docs.sparkflows.io/en/latest/aws/glue-integration/index.html
+Reference guide : https://docs.sparkflows.io/en/latest/aws/admin-guide/glue-integration/index.html

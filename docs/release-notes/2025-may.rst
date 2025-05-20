@@ -33,8 +33,9 @@ UI/UX Improvements
 
 Documentation
 ----
-* **Project Level variables :** Updated the documentation for managing project-level variables, including their permissions, configuration, and operations such as viewing, adding, editing, and deleting.
+* **Project Level variables :** Updated the documentation for managing project-level variables, including their permissions, configuration, and operations such as viewing, adding, editing, and deleting. Refer here: :ref:`Project Level Variables<Project Level Variables>`
 
+* **Airflow Snowflake Operators :** Updated the documentation to include step-by-step procedure for Airflow Snowflake Connection Setup using Key-Pair Authentication. Refer here: :ref:`Airflow Snowflake Operators<Airflow Snowflake Connection>`
 
 
 

@@ -173,7 +173,7 @@ Follow the steps below for the same:
 
 **Step 2 : Configure the Snowflake Connection**
 
-In the Connection form, set the following fields:
+* In the Connection form, set the following fields:
 
  * ``Login`` : Enter your Snowflake username.
  * ``Account`` : Enter your Snowflake account name (e.g., dwrpeje-zu65584).
@@ -185,7 +185,7 @@ In the Connection form, set the following fields:
       :alt: airflow
       :width: 60%
 
-After saving, ensure the connection appears in the list of connections under **Admin > Connections**, as shown below:
+* After saving, ensure the connection appears in the list of connections under **Admin > Connections**, as shown below:
 
   .. figure:: ../../../_assets/configuration/airflow/af-connection-list.png
       :alt: airflow

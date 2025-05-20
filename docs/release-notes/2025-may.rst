@@ -12,6 +12,12 @@ Workflow Management
 +++++
 * **MWAA - Disable SSL Certificate Validation :** Added an option in Airflow connections to skip SSL certificate validation.This enables MWAA to support environments where strict certificate verification is not required.
 
+AI & Automation
+++++
+* **Export Chatbot to JSON :** Added the ability to export a chatbot of a project to a JSON file directly from the Chatbot page. This enables easy backup, sharing, and migration of chatbot settings.
+
+* **Import Chatbot(s) from JSON :** Introduced support to import one or multiple chatbots into a project using previously exported JSON files. This streamlines chatbot deployment and reuse across different projects or environments.
+
 Enhancements
 ---------
 
@@ -25,7 +31,9 @@ UI/UX Improvements
 * **Project List Card Layout Upgrade :** The layout for Project List Cards has been upgraded for improved navigation and usability.
 * **Node Layout Upgrade :** The Node layout has been redesigned to provide a clearer, more intuitive visual structure for managing pipeline components.
 
-
+Documentation
+----
+* **Project Level variables :** Updated the documentation for managing project-level variables, including their permissions, configuration, and operations such as viewing, adding, editing, and deleting.
 
 
 

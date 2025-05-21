@@ -31,6 +31,12 @@ UI/UX Improvements
 * **Project List Card Layout Upgrade :** The layout for Project List Cards has been upgraded for improved navigation and usability.
 * **Node Layout Upgrade :** The Node layout has been redesigned to provide a clearer, more intuitive visual structure for managing pipeline components.
 
+AI & Automation
+++++
+* **Structured Chatbot with Database Querying :** Enhanced the chatbot to support natural language querying on structured databases like PostgreSQL and MySQL, returning results as tables and visualizations with clear explanations—enabling intuitive and effective data analysis.
+
+
+
 Documentation
 ----
 * **Project Level variables :** Updated the documentation for managing project-level variables, including their permissions, configuration, and operations such as viewing, adding, editing, and deleting. Refer here: :ref:`Project Level Variables<Project Level Variables>`

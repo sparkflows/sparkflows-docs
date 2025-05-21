@@ -2164,5 +2164,36 @@ Yarn Controller
     
     GET /api/v1/yarn/applicationList 
 
+JDBC Catalog Controller
+++++++++++++
 
+Database Catalog Controller
+::
+
+  # Get All Catalog Databases
+
+  GET /api/v1/catalog/database/{connectionId}
+
+  # Get All Catalog Database tables
+
+  GET /api/v1/catalog/table/{databaseId}
+
+  # Get All Catalog Database table columns
+
+  GET /api/v1/catalog/column/{tableId}
+
+  # Update catalog table name alias
+
+  PUT /api/v1/catalog/table
+
+  # Update catalog column name alias
+
+  PUT /api/v1/catalog/column
+
+  
+  
+
+  
+
+  
 .. note::  Make sure to change localhost with respective ip or domain name and the port on which Sparkflows is running.

@@ -6,7 +6,7 @@ New Features
 
 Authentication & Security
 +++++
-* **SSO Feature with PingID :** Added support for the NameID format ``urn:oasis:names:tc:SAML:2.0:nameid-format:persistent``, enabling unique identification of users. Other supported formats include persistent, unspecified and more.
+* **SSO Feature with PingID :** Added support for the NameID format **urn:oasis:names:tc:SAML:2.0:nameid-format:persistent**, enabling unique identification of users. Other supported formats include persistent, unspecified and more.
 
 Workflow Management
 +++++

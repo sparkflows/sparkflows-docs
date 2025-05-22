@@ -7,7 +7,7 @@ Sparkflows enable you to access REST APIs.
 Documentation
 +++++
 
-  - Reference guide : https://docs.sparkflows.io/en/latest/installation/monitoringandmetrics/rest-api.html
+- Reference guide : https://docs.sparkflows.io/en/latest/installation/monitoringandmetrics/rest-api.html
   
   
 Below are the list of APIs available in Sparkflows :  

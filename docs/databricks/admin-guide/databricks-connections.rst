@@ -7,7 +7,7 @@ Connections can be at various levels:
 
   * Global : Everyone has access to these connections.
   * Group  : Users belonging to the group have access to these connections.
-  * Project: The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
+  * Project : The owner of the project and the groups with which the Project has been shared with have access to the Project level connections.
 
 Below are the steps required to create Databricks connection:
 
@@ -117,7 +117,7 @@ Step 4 : Test and Save Connection
 
 .. note:: Make sure to add a POSTBACK URL through which jobs running on Databricks will post back results to Sparkflows. Otherwise, it will use the URL specified in app.postMessageURL in the configuration.
 
-More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
+More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_
 
 
 Setting Current Connection

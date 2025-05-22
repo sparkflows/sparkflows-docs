@@ -21,10 +21,10 @@ Below are the prerequisites for installing Fire Insights on a Databricks Cluster
      - 20.0 or above
    * - Spark version
      - Spark Version on Databricks cluster
-     - 3.2.x.
+     - 3.4.x.
    * - DBR Runtime version
      - DBR Runtime version
-     - 10.4
+     - 13.3
    * - Fire Running Port
      - Port on which Fire is running
      - The machine and port on which Fire is running has to be accessible from the databricks cluster

@@ -24,7 +24,7 @@ Spark, DBR, Java and Python Support Compatibility Matrix
      - 3.9.x
    * - 3.5.2
      - 16.4
-     - Java 17 with spark default
+     - Java 17
      - 3.12.x
 
 

@@ -169,10 +169,4 @@ Fire has the following permissions defined.
 .. figure:: ../../_assets/user-guide/permission-role.png
    :width: 60%
    :alt: User Permissions
-   :align: center
-
-
-
-
-
 

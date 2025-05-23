@@ -63,104 +63,111 @@ Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINE
    :width: 60%
 
 
-
 Permissions
 -----------
 
-Fire Insights supports the following permissions, which are associated with roles:
+Fire Insights supports the following permissions, which are associated with roles
 
 .. list-table:: 
-   :widths: 10 20 
+   :widths: 30 70 
    :header-rows: 1
 
-   * - Title
+   * - Permission Name
      - Description
    * - users.manage
-     - Create, modify, and disable users.
+     - Create, modify, view and activate or deactivate users in user management page from administration.
    * - groups.manage
-     - Create, modify, and delete groups.
+     - Create, modify, view users of a group, view connections of a group and delete groups in user management page from administration.
    * - roles.manage
-     - Create, modify, and delete roles.
+     - Create, modify, and delete roles in user management page from administration.
    * - projects.manage
-     - Create, modify, and delete projects.
+     - Create, create project using sample project, import project from local, export, modify, and delete projects.
    * - configurations.manage
-     - Modify different configurations.
+     - Modify different configurations in configurations page from administration.
    * - enable.projectShare
-     - Enable project sharing permissions.
+     - Enable project sharing permissions to share projects with other groups which the user has access to.
    * - connections.manage
-     - Manage connections.
+     - For a superuser - Create, modify, clone, view and delete connections globally in connections page from administration and for any other user - can perform the same actions but within the project for connections.
    * - credentialstores.manage
-     - Manage credential stores.
+     - For a superuser - Create, modify, edit value and delete credential stores and credentials globally in credential store page from administration and for any other user - create, modify details, modify value and delete credentials within the project using globally created credential stores. 
    * - enable.tokenGeneration
-     - Manage token generation.
+     - Generate and delete personal access tokens, but not for other users.
+   * - token.viewAllTokens
+     - View personal access tokens created by all users in access tokens page from administration.
    * - datasets.view
      - View datasets in specified projects.
    * - datasets.modify
-     - Modify datasets in specified projects.
+     - Create, modify, clone, export, perform dataset profiling, view and delete datasets in specified projects.
    * - dashboard.view
-     -View dashboards.
+     - View dashboard and charts in specified projects.
    * - dashboard.modify
-     - Modify dashboards.
+     - Create, modify, view and delete dashboards and charts in specified projects.
    * - workflows.view
-     - View workflows in specified projects.
+     - View workflows and its json, view workflow schedules in specified projects.
    * - workflows.modify
-     - Modify workflows in specified projects.
+     - Create, modify, clone, lock, import, export, view or edit json, access trashed workflows, view workflow schedules and delete workflows in specified projects.
    * - workflows.execute
-     - Execute workflows in specified projects.
+     - Execute, schedule, perform actions on workflow executions, view metrics of workflow executions, job details of workflow executions, logs of workflow executions, create or update workflow schedules, delete schedules of workflows in specified projects.
    * - enable.automl
-     - Enable AutoML.
-   * - apps.modify
-     - Modify analytics applications.
-   * - apps.execute
-     - Execute analytics applications.
+     - Create, modify, view, import, export, run, view executions and delete automl experiments in specified projects.
    * - apps.view
-     - View analytics applications.
+     - View, activate or deactivate analytics applications in specified projects.
+   * - apps.modify
+     - Create, modify, import, export, update by import, view, activate or deactivate, view executions and delete analytics applications in specified projects.
+   * - apps.execute
+     - Execute, view executions, activate or deactivate analytics applications in specified projects.
    * - data.view
-     - View data.
+     - View data of files in folders.
    * - data.write
-     - Write and read data.
+     - Create, modify, download, upload, move, delete files and folders.
    * - report.view
-     - View report.
+     - View reports in specified projects.
    * - report.modify
-     - Modify report.
-   * - usage.statistics.manage
-     - View usage statistics.
-   * - runtime.statistics.manage
-     - View runtime statistics.
-   * - scheduler.statistics.manage
-     - View scheduler statistics.
-   * - cache.statistics.manage
-     - View cache statistics.
-   * - sampleProject.manage
-     - Reload sample projects.
-   * - cleanup.data.manage
-     - Clean up data.
-   * - audit.report.manage
-     - View, export, and delete audit reports.
-   * - serverLogs.view
-     - View server logs.
-   * - yarn.application.view
-     - View and search YARN applications.
-   * - diagnostics.manage
-     - Run diagnostics.
-   * - test.ldap.manage
-     - Test LDAP configurations.
-   * - database.backup.manage
-     - Backup the database and schedule backups.
-   * - enable.tokenGeneration
-     - Enable token generation.
+     - Create, modify, import, export, view and delete reports in specified projects.
    * - pipelines.view
-     - View pipelines. 
+     - View pipelines and its json, view pipeline executions, view pipeline schedules in specified projects. 
    * - pipelines.modify
-     - Create, modify, and delete pipelines.
+     - Create, modify, clone, import, export, view pipeline and its json, view pipeline executions, view pipeline schedules, access trashed pipelines and delete pipelines in specified projects.
    * - pipelines.execute
-     - Execute pipelines. 
+     - Execute, schedule, view json of pipelines, perform actions on pipeline executions, create or modify pipeline schedules and delete schedules of pipelines in specified projects.
+   * - variables.view
+     - For a superuser - create, modify, import variables using a INI/JSON file globally or for a group, export global variables or of a group to a JSON file, view and delete variables on variables page from administration and for any other user - only view project level created variables.
+   * - variables.modify
+     - For a superuser - create, modify, import variables using a INI/JSON file, export to a JSON file, view and delete variables on variables page from administration and for any other user - create, modify, view and delete project level created variables.
+   * - chatbot.view
+     - View and export chabots in specified projects.
+   * - chatbot.modify
+     - Create, modify, import, export, view and delete chatbots in specified projects.
+   * - usage.statistics.manage
+     - View and perform actions available in usage statistics page from administration.
+   * - runtime.statistics.manage
+     - View perform actions available in runtime statistics page from administration.
+   * - scheduler.statistics.manage
+     - View and perform actions available in scheduler statistics page from administration.
+   * - cache.statistics.manage
+     - View and perform actions available in cache statistics page from administration.
+   * - sampleProject.manage
+     - View and perform actions available in sample projects page from administration, reload sample projects in projects page.
+   * - cleanup.data.manage
+     - View and perform actions available like deletion of workflow and pipeline executions, audit logs in clean up data page from administration.
+   * - audit.report.manage
+     - View, export, and delete in audit reports page from administration.
+   * - serverLogs.view
+     - View fire server logs, fire server exception logs, fire logs, fire pyspark logs and perform actions available in server logs page from administration. 
+   * - yarn.application.view
+     - View and search YARN applications in yarn applications page from administration.
+   * - diagnostics.manage
+     - Run and perform diagnostics from administration on diagnostics page.
+   * - test.ldap.manage
+     - Test LDAP configurations and perform actions available in test LDAP page from administration and add ability to add or sync a LDAP user in user management page from administration.
+   * - database.backup.manage
+     - Backup H2 databases, delete backed up databases and schedule H2 database backups to a specific location from administration.
 
 
 Fire has the following permissions defined.
 
 .. figure:: ../../_assets/user-guide/permission-role.png
-   :scale: 60%
+   :width: 60%
    :alt: User Permissions
    :align: center
 

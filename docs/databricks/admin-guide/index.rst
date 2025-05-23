@@ -11,7 +11,13 @@ Databricks Admin Guide
     Prerequisites for databricks integration.
 
     ---
-    
+
+    :doc:`/databricks/admin-guide/databricks-matrix-compatibility`
+
+    Databricks Compatibility Matrix.
+
+    ---
+
     :doc:`/databricks/admin-guide/databricks-library`
 
     Fire Download files for databricks.
@@ -72,6 +78,7 @@ Databricks Admin Guide
    :hidden:
 
    databricks-prerequisites.rst
+   databricks-matrix-compatibility.rst
    databricks-library.rst
    databricks-installation.rst
    databricks-python-installation.rst

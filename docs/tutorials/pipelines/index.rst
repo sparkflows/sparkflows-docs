@@ -16,6 +16,8 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     :doc:`pipeline-tutorials-cs-pipeline`
 
+    Automate store segmentation with streamlined data workflows
+    
     ---
 
     :doc:`afpl-add-wf-as-emr-step`

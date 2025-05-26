@@ -58,6 +58,14 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     Databricks Pipeline Tutorials - Executing Workflow
 
+    ---
+
+    :doc:`snowflake-sp-execution`
+
+    Snowflake Stored Procedure Execution
+
+
+
 .. toctree::
    :hidden:
 
@@ -69,4 +77,5 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
    dbpl-execnotebk.rst
    dbpl-execute-job.rst
    dbpl-exec-workflow.rst
+   snowflake-sp-execution.rst
 

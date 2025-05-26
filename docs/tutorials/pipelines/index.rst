@@ -62,7 +62,7 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     :doc:`snowflake-sp-execution`
 
-    Snowflake Stored Procedure Execution
+    Snowflake Stored Procedure Execution - Using Airflow & EMR
 
 
 

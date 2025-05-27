@@ -17,7 +17,7 @@ Following the steps given below would allow you to successfully Configuring Logs
 #. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
 #. Once you **Sign in**, If you already created Apache Livy Connection, you need to update the connection.
 
-    `Click Here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/livy.html>`_ to access detailed documentation on connecting Fire Insights to Apache Livy.
+    `Click Here <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/livy.html>`_ to access detailed documentation on connecting Fire Insights to Apache Livy.
 #. Click on **LIVY** tab and update **Livy Log File S3 location**
 
     ::

@@ -194,7 +194,7 @@ Step 9 : Configure Uploaded Library in Fire Insights
 
 Configure the path of the uploaded **fire python wheel package file & workflowexecutecloud.py.py** in Compute Connection in Fire Insights.
 
-`Click here <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_ to know more.
+`Click here <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_ to know more.
 
 Step 10 : Submit Job using Pyspark Engine
 -----------------------------------

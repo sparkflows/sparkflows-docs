@@ -179,7 +179,7 @@ Step 5 : Test and Save the Connection
 
 After setting the parameters, test the connection and save it. Once the connection is saved, it can be used for submitting the job on specific Databricks cluster.
 
-More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/databricks.html>`_
+More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_
 
 .. note:: Please make sure to specify a POSTBACK URL. This is the address where results from Databricks jobs will be sent to Fire Insights. If you don't provide one, the system will automatically use the **app.postMessageURL** updated by default in configurations.
 

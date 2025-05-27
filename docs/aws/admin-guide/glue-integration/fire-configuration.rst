@@ -11,7 +11,7 @@ Step 1 : Login to Fire Insights
 
 Step 2 : Create Glue Connection
 ----------
-#. To create Glue Connection, refer to the `AWS Documentation for connecting Fire Insights to AWS Glue. <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/glue.html>`_ 
+#. To create Glue Connection, refer to the `AWS Documentation for connecting Fire Insights to AWS Glue. <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/glue.html>`_ 
 
 Step 3 : Create Workflow in Fire
 ------------------------

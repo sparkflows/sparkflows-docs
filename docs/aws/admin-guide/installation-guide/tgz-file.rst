@@ -30,8 +30,8 @@ Step 2 : Follow the Installation steps below
 Now that you have SSH'd into the VM, you can follow the documentation below to complete the installation process.
 
 For Linux, follow the documenation here:
-https://docs.sparkflows.io/en/latest/installation/installation/linux-install.html
+https://docs.sparkflows.io/en/latest/installation/installation/linux-installation/index.html
 
 For Windows, follow the documentation here:
-https://docs.sparkflows.io/en/latest/installation/installation/windows-install.html
+https://docs.sparkflows.io/en/latest/installation/installation/windows-tgz/index.html
 

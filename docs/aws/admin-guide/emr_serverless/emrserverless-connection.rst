@@ -7,47 +7,55 @@ Sparkflows enables you to create "Amazon EMR Serverless Connection" and use it t
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page show how to create a "Amazon EMR Serverless Connection" in Fire Insights.
+This document guides on how to create a "Amazon EMR Serverless Connection" in Fire Insights. Follow the steps below:
 
-Enable Amazon EMR Serverless Connection in Sparkflows
+Step 1 : Enable Amazon EMR Serverless Connection in Sparkflows
 ===========
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Amazon EMR Serverless by setting the below parameter:
+* Login to **Fire Insights**.
+* Go to **Administration -> Configurations -> CONNECTION**.
+* Enable Amazon EMR Serverless by setting the **value** of below parameter to **true** and save the configuration.
 
-::
+  ::
 
-    connection.emr.serverless.enabled		: true
+    connection.emr.serverless.enabled = true
 
-.. figure:: ../../../_assets/aws/emrserverless/emrserverless_8.png
+  .. figure:: ../../../_assets/aws/emrserverless/emrserverless_8.png
          :alt: emrserverless
          :width: 60%
 
-Navigate to Add Connections
+Step 2 : Navigate to Connections Page
 ===========
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+* Once you save the above configuration, navigate to **Administration -> Global/Group Connections** as shown below. You will land on Connections page.
 
-.. figure:: ../../../_assets/aws/livy/administration.png
-   :alt: livy
-   :width: 60%
+  .. figure:: ../../../_assets/aws/livy/admin-page.png
+     :alt: livy
+     :width: 60%
    
-Add connection for group
+Step 3 : Add Connection for a Group
 ========
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute`` and other parameters as shown below:
+* On Connections page, click on **Add Connection** button.
+* Select **Add Connection For Group** from the dropdown, as shown below. An 'Add Connection' pop up window appears.
 
-.. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
-   :alt: mwaa
-   :width: 60%
+  .. figure:: ../../../_assets/aws/mwaa/mwaa-addconnection.png
+     :alt: mwaa
+     :width: 60%
 
-.. figure:: ../../../_assets/aws/emrserverless/emrserverless_9.png
+* Select connection category as **Compute** and connection type as **EMR Serverless**, as shown below.
+
+  .. figure:: ../../../_assets/aws/emrserverless/emrserverless_9.png
          :alt: emrserverless
          :width: 60%
 
-Add additional parameters as per your environment
+
+
+
+Step 4 : Configure Other Connection Parameters as per your environment
 ======
 
-Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
+* Once you have selected the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 
 For GENERAL tab
 ++++
@@ -148,23 +156,23 @@ For NETWORK tab
          :width: 60%
 
 
-.. note:: Make sure that ``Subnet Ids & Security Group Ids`` created in previous steps being used here and it should have ecs or ec2 machine where Fire Insigts application running have access to it.
+.. note:: Make sure that **Subnet Ids and Security Group Ids** created in the previous steps are used here and that they allow access from the ecs or ec2 instance where the Fire Insights application is running.
 
-Submit Job on Amazon EMR Serverless
+Step 5 : Submit Job on Amazon EMR Serverless
 =========
 
-Now you have Amazon EMR Serverless Connection ready, you can submit the Spark job and see response back to UI and Validate same from AWS Console.
+* Now that the Amazon EMR Serverless Connection ready, you can submit the Spark job and view response back to UI and validate same from AWS Console.
 
-.. figure:: ../../../_assets/aws/emrserverless/emrserverless_14.png
+  .. figure:: ../../../_assets/aws/emrserverless/emrserverless_14.png
          :alt: emrserverless
          :width: 60%
 
-.. figure:: ../../../_assets/aws/emrserverless/emrserverless_15.png
+  .. figure:: ../../../_assets/aws/emrserverless/emrserverless_15.png
          :alt: emrserverless
          :width: 60%
 
-.. figure:: ../../../_assets/aws/emrserverless/emrserverless_16.png
+  .. figure:: ../../../_assets/aws/emrserverless/emrserverless_16.png
          :alt: emrserverless
          :width: 60%
 
-.. note:: Currently it have Spark Engine support
+.. note:: Currently, only Spark Engine is supported for EMR Serverless in Sparkflows.

@@ -70,13 +70,11 @@ There are certain tasks to be performed for operating Fire Insights. It is recom
 
 
 
-.. figure:: ../../_assets/security/admin_user/admin_user.PNG
+.. figure:: ../../_assets/security/admin_user/admin-user-operations.png
    :alt: security
    :width: 70%
 
-.. figure:: ../../_assets/security/admin_user/admin_operations.PNG
-   :alt: security
-   :width: 70%
+
 
 Projects/Data
 +++++++++++++++++

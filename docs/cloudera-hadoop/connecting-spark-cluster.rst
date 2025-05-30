@@ -27,7 +27,7 @@ Update core-site.xml of Hadoop to allow Fire user to impersonate:
 ^^^^^^
 
 
-For detailed information, read `Cloudera Documentataion. <https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html>`_
+For detailed information, read `Cloudera Documentation. <https://www.cloudera.com/documentation/enterprise/5-8-x/topics/admin_hdfs_proxy_users.html>`_
 
 
 * In your core-site.xml file for hadoop, allow Sparkflows user to impersonate other users. Without impersonation enabled for this user, your sparkflows application users trying to run jobs against a hadoop cluster would not be able to do so.

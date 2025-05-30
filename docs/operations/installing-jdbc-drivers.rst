@@ -76,8 +76,7 @@ Sybase
 HANA
 ++++
 
-- HANA JDBC drivers can be downloaded from : https://support.sap.com/en/product/connectors.html
-
+- HANA JDBC drivers can be downloaded from : https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/library-jar/sap-hana/ngdbc-2.24.7.jar
 
 JDBC Driver Class
 -------

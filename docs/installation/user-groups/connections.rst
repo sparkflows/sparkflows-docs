@@ -54,12 +54,22 @@ In Sparkflows, **GenAI Connection** enables the following:
 In Sparkflows, **Vector DB Connection** enables the following:
 
   * Pinecone
-  
 
+Job Execution
+--------------
 
+Single Group Assignment
+++++++++
 
+* When a **User** is assigned to a single **User Group** in the **Fire Insights** then the connection associated to the **User Group** would be used for the Job Execution.
 
+* When a **Project** is shared with multiple **Groups** however, **Logged-In User** is assigned only to a single **Group** then connections associated with that **User Group** would be used for the Job Executions.
 
+Multiple Group Assignment
+++++++++
 
+* When a **User** is assigned to multiple **User Groups** in the **Fire Insights** and Project is shared with only one **User Group** i.e. X then the connection associated to **User Group-X** would be used for the Job Execution.
+
+* When a **User** is assigned to multiple **User Groups** in the **Fire Insights** and Project is also shared with mutiple **User Groups**. In this scenario the Job Execution would use a connection from the Group having **ID** value of **1**.
 
 

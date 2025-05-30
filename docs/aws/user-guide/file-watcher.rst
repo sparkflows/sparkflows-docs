@@ -22,11 +22,11 @@ The diagram given below captures the high level design:
 
 Below is the flow of execution:
 
-#. New files arrives in the S3 directory location: **/sparklows-file-watcher/raw-data/iot/2019-08-2201**
+#. New files arrives in the S3 directory location: **/sparkflows-file-watcher/raw-data/iot/2019-08-2201**
 
-   * In the above design, the raw data arrives in the directory: **/sparklows-file-watcher/raw-data**
+   * In the above design, the raw data arrives in the directory: **/sparkflows-file-watcher/raw-data**
    * There are various types of raw data which can be expected.
-   * IOT is one type of raw data. Each day, we receive a number of IOT files in the folder: **/sparklows-file-watcher/raw-data/iot/yyyy-MM-dd**
+   * IOT is one type of raw data. Each day, we receive a number of IOT files in the folder: **/sparkflows-file-watcher/raw-data/iot/yyyy-MM-dd**
    * Once all the files for the date are written to the appropriate folder, **a _SUCCESS** file is written into it.
 
 #. The availability of _SUCCESS file triggers an event which is sent to a configured SQS queue.

@@ -35,21 +35,21 @@ Once the above pre-requisites from GCP are available, you can configure GCS in S
 Using Sparkflows Global Configurations
 +++++++++++++++++++++++
 
-Step 1 : Open Sparkflows in Web Browser
-----------------
+**Step 1 : Open Sparkflows in Web Browser**
+-------------------------------------------------
 
 #. Open a **web browser**.
 #. Enter the URL: http://sparkflows_IP:8080 and replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 
-Step 2 : Configure GCS
---------------
+**Step 2 : Configure GCS**
+-----------------------------
 
 #. Login to Fire Insights and navigate to **ADMINISTRATION->Configurations->GCP**.
 #. Enable Google Cloud Integration flag by selecting the value as **True**.
 #. Specify the **Project Id**.
 #. Specify the **path** to the Service Account Key file.
 
-   .. figure:: ../../_assets/gcp/gcp_enable.PNG
+   .. figure:: ../../../_assets/gcp/gcp_enable.PNG
       :alt: GCP Configuration Details
       :width: 60%
 
@@ -73,19 +73,19 @@ Step 2 : Configure GCS
 Using Sparkflows Group Properties
 +++++++++++++++++++++++
 
-Step 1 : Open Sparkflows in Web Browser
-----------------
+**Step 1 : Open Sparkflows in Web Browser**
+------------------------------------------------
 
 #. Open a **web browser**.
 #. Enter the URL: http://sparkflows_IP:8080 and replace **sparkflows_IP** with your instance's **actual IP/DNS**.
 
-Step 2 : Configure GCS
---------------
+**Step 2 : Configure GCS**
+------------------------------
 
 #. **Login** to Sparkflows.
 #. Access Sparkflows **Administration** Tab.
 
-   .. figure:: ../..//_assets/azure/adls_configurations.png
+   .. figure:: ../../..//_assets/azure/adls_configurations.png
       :alt: livy
       :width: 70%
 
@@ -115,7 +115,7 @@ Step 2 : Configure GCS
      - Upload json key file
    
 
-.. figure:: ../../_assets/gcp/gcp_config_1.png
+.. figure:: ../../../_assets/gcp/gcp_config_1.png
       :alt: gcp
       :width: 70%
 
@@ -123,8 +123,8 @@ Step 2 : Configure GCS
 .. Note:: 1. Make sure to Enable GCP Configurations ie. ``gcp.enabled=true`` to browse GCS from ``DATA`` Tab.	
           2. Make sure that ``Firewalls and virtual networks`` for Configured storage account should be accessible from Sparkflows VM, ecs based on deployment.
 
-Step 3 : Browse GCS
---------------
+**Step 3 : Browse GCS**
+-------------------------
 
 Once the above **configurations** are saved, you can browse gcs as below:
 
@@ -132,7 +132,7 @@ Once the above **configurations** are saved, you can browse gcs as below:
 #. Select **GCS**.
 #. You can browse GCS file and folder.
 
-   .. figure:: ../../_assets/gcp/gcs_config_2.png
+   .. figure:: ../../../_assets/gcp/gcs_config_2.png
       :width: 70%
       :alt: adls
 

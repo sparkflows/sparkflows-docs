@@ -88,7 +88,7 @@ When using the JDBC processors, the following can be used for the JDBC Driver Cl
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
 * Sybase : com.sybase.jdbc4.jdbc.SybDriver
-* HANA : com.sap.cloud.db.jdbc
+* HANA : com.sap.db.jdbc.Driver
 
 JDBC URLs
 ----------------

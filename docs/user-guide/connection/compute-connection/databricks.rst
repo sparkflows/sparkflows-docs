@@ -82,7 +82,7 @@ To configure the connection, refer the following tables for filling required det
      - Add some Connection Description
    * - URL
      - Jdbc url for databricks connection
-     - Add Jdbc Url for Databricks Connection
+     - Add Jdbc Url for Databricks Connection. Example: jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
 
 
 
@@ -127,7 +127,7 @@ To configure the connection, refer the following tables for filling required det
      - Add some Connection Description
    * - URL
      - Jdbc url for databricks connection
-     - Add Jdbc Url for Databricks Connection
+     - Add Jdbc Url for Databricks Connection. Example: jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
 
 
 

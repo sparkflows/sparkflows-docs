@@ -10,5 +10,6 @@ User / Groups
    security-session.rst
    connections.rst
    databricks-security.rst
+   data-browser.rst
 
    

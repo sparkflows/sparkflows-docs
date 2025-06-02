@@ -11,9 +11,9 @@ In Fire Insights, Connections can be made to SQL Server. This helps users to acc
 Download MSSQL JDBC Driver
 -------------
 
-- SQL JDBC Driver can be downloaded directly from maven repository : https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc42/6.0.8112
+- SQL JDBC Driver can be downloaded directly from maven repository : https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc/12.10.0.jre11
 - Ensure that the JDBC JAR file is available in the directory.
-- Use the JAR file (sqljdbc42.jar) for installation in the Fire.
+- Use the JAR file (mssql-jdbc-12.10.0.jre11.jar) for installation in the Fire.
 
 Install the JDBC Driver
 --------

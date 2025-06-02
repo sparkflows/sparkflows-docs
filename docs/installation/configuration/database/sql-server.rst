@@ -60,10 +60,9 @@ Configure Fire to connect to Microsoft SQL Server
 Install the Microsoft SQL Server Connector JAR file
 -------------------------------------
 
-* Download the Microsoft SQL Server JDBC driver from https://www.microsoft.com/en-us/download/details.aspx?id=11774 
-* Untar the file ``sqljdbc_6.0.8112.200_enu.tar.gz``
-* You will get JDBC JAR file on untaring ``sqljdbc42.jar``
-  
+* Download the Microsoft SQL Server JDBC driver from https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc/12.10.0.jre11 
+* Ensure that the JDBC JAR file is available in the directory.
+* Use the JAR file (mssql-jdbc-12.10.0.jre11.jar) for installation in the Fire.
 * Copy the Microsoft SQL Server JDBC driver JAR file to the ``fire-server-lib`` directory of ``fire-x.y.z``
 
   

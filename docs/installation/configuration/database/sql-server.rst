@@ -3,7 +3,7 @@ Microsoft SQL Server Database
 
 Fire can easily be setup up to run with Microsoft SQL Server.
 
-Further details of the Microsoft SQL Server database can be found here : https://www.microsoft.com/en-us/sql-server/default.aspx
+Further details of the Microsoft SQL Server database can be found here : https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15
 
 Install Microsoft SQL Server
 -------------

@@ -10,7 +10,7 @@ The two fields which corresponds to the OpenAI end points are:
 
    This is the OpenAI token which you can generate by logging into your OpenAI account and following the steps as listed here:
 
-   `Generate OpenAI Access Token <https://text-gen.com/get-openai-access-token>`_
+   `Generate OpenAI Access Token <https://platform.openai.com/api-keys>`_
 
  * **URL :** 
 

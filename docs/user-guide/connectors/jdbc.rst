@@ -7,7 +7,7 @@ In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/SQLServer/Reds
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS and creating the Connection.
 
-- https://docs.sparkflows.io/en/latest/user-guide/connectors/jdbc.html
+- https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html?highlight=jdbc
 
 
 Workflow for reading from an RDBMS
@@ -44,7 +44,7 @@ Specifying a Sub-Query
 In the configuration of the ReadJDBC node for ``DB TABLE``, anything that is valid in a FROM clause of a SQL query can be used. For example, instead of a full table we could also use a subquery.
 
  
-More details are available on the Spark Guide : https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#jdbc-to-other-databases
+More details are available on the Spark Guide : https://spark.apache.org/news/spark-3-5-2-released.html
 
 
 Executing the processor displays the records read from PostgreSQL Table.

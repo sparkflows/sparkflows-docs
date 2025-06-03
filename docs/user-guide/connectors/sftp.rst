@@ -13,7 +13,7 @@ Setup the SFTP Connection
 
 Refer the following page for setting up the SFTP Connection:
 
-https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/sftp.html
+https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/sftp.html
 
 
 

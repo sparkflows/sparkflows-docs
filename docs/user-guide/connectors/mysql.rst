@@ -13,7 +13,7 @@ Setup the MySQL Connection
 
 Refer the following page for setting up the MySQL Connection:
 
-https://docs.sparkflows.io/en/latest/installation/connection/storage-connection/mysql.html
+https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/mysql.html
 
 
 

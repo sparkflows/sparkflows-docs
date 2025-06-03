@@ -278,7 +278,7 @@ Once you have updated the above parameters, click on ``Test Connection``, if the
 Documentation
 =======
 
-Reference guide : https://docs.sparkflows.io/en/latest/aws/emr-livy/index.html
+Reference guide : https://docs.sparkflows.io/en/latest/aws/admin-guide/emr/index.html
 
 .. Note:: Make sure that Apache Livy URL should be accessible from Fire Insights webserver URL.
 

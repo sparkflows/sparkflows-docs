@@ -3,7 +3,7 @@ Databricks Matrix Compatibility
 
 This document outlines the Matrix Compatibility details on Databricks.
 
-Spark, DBR, Java and Python Support Compatibility Matrix
+Spark, DBR, Scala, Java and Python Support Compatibility Matrix
 ++++++++
 
 .. list-table:: 

@@ -61,6 +61,6 @@ Once you save the above configuration :
 Now, you can easily upload data and use it in your workflow or dataset.
 
 
-To gather more information `click here <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html#aws-s3-integration>`_.
+To gather more information `click here <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-s3-integration.html>`_.
 
 

@@ -41,7 +41,7 @@ Before proceeding with the migration, stop the Fire server using the following c
 **Step 3 : Create the MySQL Database with its Tables**
 +++++++++++++++++++++++++++++++++++++
 
-   #. Method 1 -
+   #. **Method 1** -
 
       * Open the **fire-schema.mysql** MySQL script present in the folder **/fire-3.1.0_spark_2.4/db/mysql** using the icon shown below:
 
@@ -61,7 +61,7 @@ Before proceeding with the migration, stop the Fire server using the following c
            :alt: Fire Database
            :width: 110%
 
-   #. Method 2 -
+   #. **Method 2** -
 
       * In this method we must have created the database **firedb** beforehand using the mysql command line by running the following commands ::
 

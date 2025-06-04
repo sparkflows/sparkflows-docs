@@ -64,9 +64,9 @@ References
 
 * :ref:`Data Preparation User Guide<Data Preparation Basics>` 
 
-* `Workflow User Guide <https://www.sparkflows.io/templates>`_
+* `Workflow User Guide <https://docs.sparkflows.io/en/latest/user-guide/concepts/workflows/creating-workflows.html?highlight=workflow>`_
 
-* :ref:`Pipeline User Guide<Pipeline Development>`
+* :ref:`Pipeline User Guide<https://docs.sparkflows.io/en/latest/tutorials/pipelines/pipeline-tutorials-create.html?highlight=workflow>`
 
 * :ref:`Scheduling User Guide<Scheduling Pipeline>`
 

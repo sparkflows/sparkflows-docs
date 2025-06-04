@@ -12,19 +12,19 @@ Migrate H2 Database Data to MySQL Using Executable Jar File.
 
 **Step 1 : Stop the Fire Server**
 +++++++++++++++++++++++++++++++++++
-  Before proceeding with the migration, stop the Fire server using the following command:
+Before proceeding with the migration, stop the Fire server using the following command:
 
-   * For Linux OS -
+  * For Linux OS -
       
-      ::
+    ::
    
-         ./run-fire-server.sh stop
+        ./run-fire-server.sh stop
 
-   * For Windows OS -
+  * For Windows OS -
 
-      ::
+    ::
    
-         run-fire-server.bat stop
+        run-fire-server.bat stop
 
 **Step 2 : Run the H2 DB Script**
 +++++++++++++++++++++++++++++++++++++
@@ -122,13 +122,13 @@ Migrate H2 Database Data to MySQL Using Executable Jar File.
 **Step 5 : Restart the Fire Server**
 +++++++++++++++++++++++++++++++++++++++++
   
- For **Linux OS** - Start the Fire server again using the following command:
+For **Linux OS** - Start the Fire server again using the following command:
 
   ::
 
      ./run-fire-server.sh start
 
- For **Windows OS** - Start the Fire server again using the following command:
+For **Windows OS** - Start the Fire server again using the following command:
 
   ::
 

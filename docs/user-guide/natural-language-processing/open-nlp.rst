@@ -8,7 +8,7 @@ Read `Apache OpenNLP Documentation <https://opennlp.apache.org/docs/2.3.0/manual
 It features an API for use cases like Named Entity Recognition, Sentence Detection, POS tagging and Tokenization.
 
 
-Read `Sparkflows OpenNLP Processors Documentation <https://docs.sparkflows.io/en/latest/processors/18-OpenNLP/>`_ to gather more details on a few processors in sparkflows:
+Read `Sparkflows OpenNLP Processors Documentation <https://docs.sparkflows.io/en/latest/user-guide/generative-ai/gen-ai-nlq.html>`_ to gather more details on a few processors in sparkflows:
 
 Sparkflows provides the below NLP functionalities leveraging OpenNLP:
 

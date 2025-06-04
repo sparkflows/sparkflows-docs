@@ -96,6 +96,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
+* Oracle : jdbc:oracle:thin:@<host>:<port>:<SID>
 * Sybase : jdbc:sybase:Tds:localhost:5000/mydb
 * HANA : jdbc:sap://{jdbcHostname}:{jdbcPort}/?databaseName={jdbcDatabase}
 

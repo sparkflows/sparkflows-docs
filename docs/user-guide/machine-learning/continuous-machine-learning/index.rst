@@ -66,7 +66,7 @@ References
 
 * `Workflow User Guide <https://docs.sparkflows.io/en/latest/user-guide/concepts/workflows/creating-workflows.html?highlight=workflow>`_
 
-* :ref:`Pipeline User Guide<https://docs.sparkflows.io/en/latest/tutorials/pipelines/pipeline-tutorials-create.html?highlight=workflow>`
+* `Pipeline User Guide <https://docs.sparkflows.io/en/latest/tutorials/pipelines/pipeline-tutorials-create.html?highlight=workflow>`_
 
 * :ref:`Scheduling User Guide<Scheduling Pipeline>`
 

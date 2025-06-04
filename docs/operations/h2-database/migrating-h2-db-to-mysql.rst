@@ -38,7 +38,7 @@ Before proceeding with the migration, stop the Fire server using the following c
 * For **Windows OS** - Update the existing schema for Fire of H2 DB by executing the **create-h2-db.bat** file by double clicking on it.
 
 
-**Step 2 : Create the MySQL Database with its Tables**
+**Step 3 : Create the MySQL Database with its Tables**
 +++++++++++++++++++++++++++++++++++++
 
    #. Method 1 -
@@ -86,7 +86,7 @@ Before proceeding with the migration, stop the Fire server using the following c
       * For **Windows OS** - Create the tables for Fire in MySQL by executing the **create-mysql-db.bat** file by double clicking on it.
 
 
-**Step 3 : Migrate data from H2 Database to MySQL Database**
+**Step 4 : Migrate data from H2 Database to MySQL Database**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #. Create a folder with the name of **dbmigration** in **/fire-x.y.z** folder and add a **properties.txt** file in the same folder with the database specific details for the source and destination databases given in the next step.
@@ -114,12 +114,12 @@ Before proceeding with the migration, stop the Fire server using the following c
 
        java -jar dbmigration.jar properties.txt
 
-**Step 4 : Configure the db.properties file to point to MySQL Database**
+**Step 5 : Configure the db.properties file to point to MySQL Database**
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
   After successfully migrating the data, make sure to update the **conf/db.properties** file to point to the MySQL database.
 
-**Step 5 : Restart the Fire Server**
+**Step 6 : Restart the Fire Server**
 +++++++++++++++++++++++++++++++++++++++++
   
 For **Linux OS** - Start the Fire server again using the following command:

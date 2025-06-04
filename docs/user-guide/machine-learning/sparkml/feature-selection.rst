@@ -31,7 +31,7 @@ Feature Selection Processors in Fire Insights
    * - ChiSqSelector
      - ChiSqSelector stands for Chi-Squared feature selection. It operates on labeled data with categorical features. ChiSqSelector uses the Chi-Squared test of independence to decide which features to choose. It supports five selection methods: numTopFeatures, percentile, fpr, fdr, fwe.
 
-More details regarding the Feature Selectors in Spark can be found at: https://spark.apache.org/docs/2.2.0/ml-features.html#feature-selectors
+More details regarding the Feature Selectors in Spark can be found at: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html#feature
 
 VectorSlicer
 ------------

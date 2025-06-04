@@ -16,17 +16,17 @@ Spark, DBR, Scala, Java and Python Support Compatibility Matrix
      - Java Version
      - Python Version
    * - 3.2.1
-     - 10.4
+     - 10.4 LTS
      - 2.12
      - Java 8
      - 3.7.x
    * - 3.4.1
-     - 13.3
+     - 13.3 LTS
      - 2.12
      - Java 8 
      - 3.9.x
    * - 3.5.2
-     - 16.4
+     - 16.4 LTS
      - 2.12 
      - Java 17
      - 3.12.x

@@ -3,54 +3,55 @@ Livy Connection
 
 Sparkflows enables you to create "Apache Livy Connection" and use it to submit jobs/workflows. Connections can be at various levels:
 
-  * Global  : Everyone has access to these connections.
-  * Group   : Users belonging to the group have access to these connections.
-  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
+  * **Global:** Everyone has access to these connections.
+  * **Group:** Users belonging to the group have access to these connections.
+  * **Project:** The owner of the project and the groups with which the project has been shared will have access to the project level connections.
 
-This page show how to create a "Livy Connection" in Fire Insights.
+Follow the steps below to create a "Livy Connection" in Fire Insights.
 
-Enable Livy in Sparkflows
+Step 1 : Enable Livy in Sparkflows
 ===========
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable Livy connection by setting the below parameter:
+* Login to **Fire Insights**.
+* Navigate to **Administration -> Configurations -> CONNECTION**
+* Enable Livy connection by setting the **value** of below parameter to **true** and save the configuration.
 
-::
+  ::
 
-    connection.livy.enabled : true
+     connection.livy.enabled = true
 
-.. figure:: ../../../_assets/aws/livy/livy_configuration.PNG
-   :alt: livy
-   :width: 60%
+  .. figure:: ../../../_assets/aws/livy/livy_configuration.PNG
+     :alt: livy
+     :width: 60%
 
-Navigate to Add Connections
+Step 2 : Add a Connection for Group
 ===========
 
-Once you save the above Configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+* Once you save the above configuration, navigate to **Administration -> Global/Group Connections** as shown below:
 
-.. figure:: ../../../_assets/aws/livy/livy_7.png
-   :alt: livy
-   :width: 50%
+  .. figure:: ../../../_assets/aws/livy/livy_7.png
+     :alt: livy
+     :width: 50%
    
-Add connection for group
-========
+* From the Connections page click on **Add Connections** button and choose **Add Connection For Group** from the dropdown, as shown below:  
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
+  .. figure:: ../../../_assets/aws/livy/livy_8.png
+     :alt: livy
+     :width: 50%
 
-.. figure:: ../../../_assets/aws/livy/livy_8.png
-   :alt: livy
-   :width: 50%
-   
-.. figure:: ../../../_assets/aws/livy/livy_5.png
-   :alt: livy
-   :width: 50%
+* In the 'Add Connection' dialog box, select connection category as **Compute** and connection type as **Livy**, as shown below:
+
+  .. figure:: ../../../_assets/aws/livy/livy_5.png
+     :alt: livy
+     :width: 50%
    
    
-Add additional parameters as per your environment
+Step 3 : Add Additional Parameters as per your Environment
 ======
 
-Once you have selected  the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
+Once you have selected the connection type & groups, add the additional connection parameters needed. For more details refer the following tables and images:
 
-For GENERAL tab
+For GENERAL Tab
 ++++
 
 .. list-table:: 
@@ -60,7 +61,7 @@ For GENERAL tab
    * - Title
      - Description
      - Value
-   * - Connection name
+   * - Connection Name
      - Connection Name
      - Name of Connection
    * - Postback Url
@@ -91,7 +92,7 @@ For GENERAL tab
    :width: 50%
 
 
-For LIVY tab
+For LIVY Tab
 ++++++
 .. list-table:: 
    :widths: 10 20 30
@@ -147,9 +148,9 @@ For LIVY tab
    :alt: livy
    :width: 50%
 
-.. Note:: You can ignore the other tab if using Livy
+.. Note:: You can ignore the other tabs if using Livy
 
-For HDFS tab
+For HDFS Tab
 ++++++
 
 .. list-table:: 
@@ -170,7 +171,7 @@ For HDFS tab
    :alt: livy
    :width: 50%
 
-For HIVE tab
+For HIVE Tab
 +++++
 
 .. list-table:: 
@@ -191,7 +192,7 @@ For HIVE tab
    :alt: livy
    :width: 60%    
 
-For KERBEROS tab
+For KERBEROS Tab
 ++++++
 
 .. list-table:: 
@@ -221,7 +222,7 @@ For KERBEROS tab
    :alt: livy
    :width: 60%      
 
-For YARN tab
+For YARN Tab
 ++++++
 
 .. list-table:: 
@@ -239,7 +240,7 @@ For YARN tab
    :alt: livy
    :width: 60%
 
-For LINEAGE tab
+For LINEAGE Tab
 ++++++
 
 .. list-table:: 
@@ -260,20 +261,22 @@ For LINEAGE tab
    :alt: livy
    :width: 60%
 
-.. Note:: You can ignore the ``LINEAGE`` tab if being not used
+.. Note:: You can ignore the ``LINEAGE`` tab if not being used.
 
-Test connection and save
+Step 4 : Test & Save the Connection
 ==========
 
-Once you have updated the above parameters, click on ``Test Connection``, if the connection is successful, ``Save`` the connection.
+* Once you have updated the above parameters, click on **Test Connection** button. If the connection is successful as shown below, click on **Save** button to save the connection.
 
-.. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
-   :alt: livy
-   :width: 60%
-   
-.. figure:: ../../../_assets/aws/livy/add_list.PNG
-   :alt: livy
-   :width: 60%   
+  .. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
+     :alt: livy
+     :width: 60%
+
+  The saved livy connection will be displayed in Connections as below:
+
+  .. figure:: ../../../_assets/aws/livy/add_list.PNG
+     :alt: livy
+     :width: 60%   
 
 Documentation
 =======

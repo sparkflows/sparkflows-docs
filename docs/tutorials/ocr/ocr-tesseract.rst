@@ -11,7 +11,7 @@ Ensure that your machine is equipped with the following before performing OCR:
 * Tesseract language data files.
 * Rightly configured set up.
 
-For detailed information on the above, visit: https://docs.sparkflows.io/en/latest/user-guide/concepts/tesseract.html?highlight=Tesseract
+For detailed information on the above, visit: https://docs.sparkflows.io/en/latest/operations/installing-tesseract.html?highlight=tesseract
 
 Workflow
 ++++++++

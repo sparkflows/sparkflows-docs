@@ -3,49 +3,52 @@ Spark Submit Connection
 
 Sparkflows enables you to create spark submit connection and use it to submit jobs/workflows. Connections can be at various levels:
 
-  * Global  : Everyone has access to these connections.
-  * Group   : Users belonging to the group have access to these connections.
-  * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
+  * **Global:** Everyone has access to these connections.
+  * **Group:** Users belonging to the group have access to these connections.
+  * **Project:** The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-Below are the steps to create a Livy connection in Sparkflows:
+Follow the steps below to create a Spark Submit Connection in Sparkflows:
 
-1. Enable spark-submit in Sparkflows:
+Step 1 : Enable Spark Submit in Sparkflows
+-----
 
-Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``Connection`` -> and enable spark-submit connection by setting the below parameter:
+* Login to **Fire Insights**.
+* Navigate to **Administration -> Configurations -> CONNECTION**.
+* Enable spark submit connection by setting the **value** of below parameter to **true** and save the configuration.
 
-::
+  ::
 
-    connection.sparkCluster.enabled	 : true
+      connection.sparkCluster.enabled = true
 
-.. figure:: ../../../_assets/installation/connection/spark-submit_enabled.PNG
-   :alt: livy
-   :width: 60%
+  .. figure:: ../../../_assets/installation/connection/spark-submit_enabled.PNG
+     :alt: livy
+     :width: 60%
 
-2. Create global connections:
+Step 2 : Add a Connection for Group
+-----
 
-Once you save the above configuration, navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` as shown below:
+* Once you save the above configuration, navigate to **Administration -> Global/Group Connections**, as shown below. 
 
-.. figure:: ../../../_assets/aws/livy/administration.png
-   :alt: livy
-   :width: 60%
+  .. figure:: ../../../_assets/aws/livy/livy_7.png
+     :alt: livy
+     :width: 50%
    
-3. Add connection for group:
+* From the Connections page click on **Add Connections** button and choose **Add Connection For Group** from the dropdown. An 'Add Connection' dialog box opens up.
+* Now, select connection category as **Compute** and connection type as **Spark Submit**, as shown below:
 
-Navigate to ``Administration`` -> ``Global Connections`` -> ``Add Connections`` -> ``Add Connection For Group`` which pop up a new windows -> Select ``Compute Connection`` and other parameters as shown below:
-
-.. figure:: ../../../_assets/installation/connection/spark-submit_compute.PNG
-   :alt: connection
-   :width: 60%
+  .. figure:: ../../../_assets/installation/connection/spark-submit_compute.PNG
+     :alt: connection
+     :width: 60%
    
-.. figure:: ../../../_assets/installation/connection/spark-submit_general.PNG
-   :alt: connection
-   :width: 60%   
+  
    
-4. Additional parameters as per your environment:
+Step 3 : Add Additional Parameters as per your Environment
+-----
 
-Once you  have selected the connection type & groups, add the additonal connection parameters needed. For more details on the additional parameters refer the following images and tables:
+* Once you have selected the connection type & groups, add the additonal connection parameters needed. For more details on the additional parameters refer the following images and tables:
 
-For GENERAL tab :
+For GENERAL Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -71,7 +74,8 @@ For GENERAL tab :
    :alt: connection
    :width: 55%
 
-For SPARK tab :
+For SPARK Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -106,7 +110,7 @@ For SPARK tab :
      - Not used if its value is less than or equal to 0  
    * - Command
      - Use spark2-submit with spark2, depending on your setup
-     - by default it should tak spark-submit
+     - by default it should take spark-submit
    * - Impersonate Users
      - Whether to impersonate the logged in user, or run everything as the user Fire is running with
      - update accordingly  
@@ -127,7 +131,8 @@ For SPARK tab :
    :width: 70%     
 
 
-For HDFS tab :
+For HDFS Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -147,7 +152,8 @@ For HDFS tab :
    :alt: connection
    :width: 60%
 
-For HIVE tab :
+For HIVE Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -167,7 +173,8 @@ For HIVE tab :
    :alt: connection
    :width: 60%    
 
-For KERBEROS tab :
+For KERBEROS Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -196,7 +203,8 @@ For KERBEROS tab :
    :alt: connection
    :width: 60%      
 
-For YARN tab :
+For YARN Tab
++++++
 
 .. list-table:: 
    :widths: 10 20 30
@@ -213,9 +221,9 @@ For YARN tab :
    :alt: connection
    :width: 60%      
 
-5. Save connection :
+Step 4 : Save the Connection
+-----
+* Once you have updated the above parameters, click on  **Save** button to save the newly created spark submit connection.
 
-Once you have updated the above parameters, click on  ``Save`` the connection to save the newly created spark submit connection.
 
-
-.. Note:: Make sure that the above configured configuration should be accessible from Sparkflows web server URL. 
+.. Note:: Make sure that the above configured configuration is accessible from the Sparkflows web server URL. 

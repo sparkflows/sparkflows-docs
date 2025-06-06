@@ -20,7 +20,7 @@ So, the user with which Sparkflows is running has to be configured on HDFS as a 
 
 Details for allowing the Sparkflows user to impersonate other users can be updated in spark-submit connection.
 
-For more information, `Read Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/installation/connection/compute-connection/spark-submit.html>`_
+For more information, `Read Sparkflows Documentation. <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/spark-submit.html>`_
 
 2. Spark Cluster Workflow Execution: No Browser Results
 ------------------------------

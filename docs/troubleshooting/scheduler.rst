@@ -115,7 +115,7 @@ Pipeline is not getting trigerred at all.
 **Solution**
 +++++++
 
-* Let’s assume that the Cron Expression has been copied from an external website (e.g. http://www.cronmaker.com/) and the Job fails when one tries to run the Pipeline.
+* Let’s assume that the Cron Expression has been copied from an external website (e.g. https://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html) and the Job fails when one tries to run the Pipeline.
 
 * Ensure that there is no extra space and unwanted characters in the Cron Expression.
 

@@ -9,31 +9,31 @@ There are certain things which need to be taken into account for any Spark job. 
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/performance/caching-level`
+    :doc:`/performance/caching-level`
 
     Setting the right caching level of the dataset outputs of the nodes is very important for performance in Apache Spark.
 
     ---
 
-    :doc:`/user-guide/performance/runtime-resources`
+    :doc:`/performance/runtime-resources`
 
     When running Apache Spark jobs, we can define the number of executors, executor memory and number of vCores per executor.
 
     ---  
 
-    :doc:`/user-guide/performance/repartition`
+    :doc:`/performance/repartition`
 
     Repartioning splits the datasets into the specified number of partitions.
 
     ---
 
-    :doc:`/user-guide/performance/debug-mode`
+    :doc:`/performance/debug-mode`
 
     Run the workflow in Debug mode which helps to know which Processor is exactly taking more time.
 
     ---
 
-    :doc:`/user-guide/performance/joins`
+    :doc:`/performance/joins`
 
     Joins generally tend to be expensive operations. So it is important to tune them for performance.
 

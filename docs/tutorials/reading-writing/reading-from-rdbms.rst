@@ -5,7 +5,7 @@ Fire has JDBC Processors for reading from JDBC sources or writing to JDBC sinks.
 
 Use the steps here for installing the corresponding JDBC driver for your RDBMS:
 
-- https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html?highlight=jdbc
+- https://docs.sparkflows.io/en/latest/operations/installing-jdbc-drivers.html
 
 
 Workflow for reading from MySQL

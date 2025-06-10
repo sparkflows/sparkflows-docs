@@ -16,12 +16,12 @@ There are two ways to generate ModelDoc:
 
 * By choosing the ModelDoc option corresponding to a model from the Model Repo page under the Actions menu.
 
-    .. figure:: ../_assets/modeldoc-guide/2.png
+    .. figure:: ../../_assets/modeldoc-guide/2.png
        :alt: ModelDoc
        :width: 60%
 * By opening the model details of a particular model and then clicking on the ModelDoc option in the Model Information section on the left.
   
-    .. figure:: ../_assets/modeldoc-guide/1.png
+    .. figure:: ../../_assets/modeldoc-guide/1.png
        :alt: ModelDoc
        :width: 60%
 

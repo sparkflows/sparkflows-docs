@@ -10,7 +10,7 @@ Prerequisites
     (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements)
 
 * Enable Hyper-V on Windows if disaled by following the steps below::
-    * Goto ``Control Panel`` >> ``Programs`` >> ``Turn Windows Features on or off`` >> ``Enable below Hyper-V features``.
+    * Go to **Control Panel >> Programs >> Turn Windows Features on or off >> Enable below Hyper-V features**.
     
       .. figure:: ../../_assets/docker-install/hyperv.png
          :alt: hyperv
@@ -20,8 +20,8 @@ Prerequisites
     * Once the system starts, verify whether the Hyper-V Manager is running.
 
 * Docker Desktop (https://docs.docker.com/docker-for-windows/install/)
-    * Download the Docker Desktop Installer (As of this writing, tested with version: ``4.13.1``)
-    * Use the below Configuration (The option should be ``un-checked`` ):
+    * Download the Docker Desktop Installer (As of this writing, tested with version: **4.13.1**)
+    * Use the below Configuration (The option should be **un-checked** ):
     
       .. figure:: ../../_assets/docker-install/hyperv-docker.png
          :alt: hyperv-docker
@@ -31,9 +31,9 @@ Prerequisites
       .. figure:: ../../_assets/docker-install/docker-resources.png
          :alt: docker-resources
          :width: 50%
-    * Verify that the docker is up and running and the the docker version by running ``docker --version``
+    * Verify that the docker is up and running and the docker version by running **docker --version**.
 
-    * Goto Settings -> Shared Drive and then Share the entire Drive with Docker and click Apply.
+    * Go to **Settings -> Shared Drive**, then share the entire Drive with Docker and click Apply.
 
 Installation Steps
 ---------------------------
@@ -42,11 +42,11 @@ Installation Steps
 
     docker pull sparkflows/fire:py_3.2.1_3.X.XX
    
-* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
+* Start the docker image using the **docker run command** below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
     
     docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.2.1_3.X.XX
 
-* To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit ones need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.
+* To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit one's need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.
 
 * In order to use MySQL database as the datastore, pass the db configuration as environment variable as shown below. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
 
@@ -61,7 +61,7 @@ Installation Steps
     -e DB_PORT=3306 \
     sparkflows/fire:py_3.2.1_3.X.XX
 
-* For the ``h2db`` to be accessible on the mounted directory, please edit the path in ``conf/db.properties`` to working directory and restart docker image::
+* For the **H2DB** to be accessible on the mounted directory, please edit the path in **conf/db.properties** to working directory and restart docker image::
    
    spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb)
 
@@ -103,12 +103,12 @@ Upgrading Steps
 
     docker pull sparkflows/fire:py_3.2.1_3.X.XX
 
-* Upgrade the either the MySQL or the H2DB table by running the BAT script::
+* Upgrade either the MySQL or the H2DB table by running the BAT script::
 
     .\create-mysql-db.bat
     .\create-h2-db.bat
     
-* Start the docker image using the `docker run` command below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
+* Start the docker image using the `docker run` command below. The local mount directory is **(C:\Users\sparkflows)** in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
     docker run -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.2.1_3.X.XX
 

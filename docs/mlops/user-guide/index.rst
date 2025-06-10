@@ -36,7 +36,9 @@ User Guide
     
     :doc:`/mlops/user-guide/model_observability_retraining`
 
-    
+    ---
+
+    :doc:`/mlops/user-guide/modeldoc-guide`
 
 
 .. toctree::
@@ -50,3 +52,4 @@ User Guide
    online-model-serving.rst
    model_monitoring.rst 
    model_observability_retraining.rst
+   modeldoc-guide.rst

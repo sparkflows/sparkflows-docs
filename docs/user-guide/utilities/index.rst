@@ -5,20 +5,20 @@ Utilities set of processors provides capability in Fire Insights such as sending
 
 
 
-Fire Insights provides the capability to perform the most complex data preperation operation via drag and drop.
+Fire Insights provides the capability to perform the most complex data preparation operation via drag and drop.
 
 .. panels::
     :container: container-lg pb-3
 
     :doc:`/user-guide/utilities/pgp-decryption`
 
-    Details steps for PGP Decryption.
+    Detailed steps for PGP Decryption.
 
     ---
 
     :doc:`/user-guide/utilities/email-notification`
 
-    Details steps for sending email notification.
+    Detailed steps for sending Email Notification.
 
 
 .. toctree::

@@ -1,0 +1,68 @@
+Version 3.3.2 - June 15th, 2025
+======
+
+New Features
+-----
+Data Integration
+++++
+
+* **Snowflake Stored Procedure Execution Node :** Introduced a new node that allows execution of Snowflake Stored Procedure within EMR-based workflows. This facilitates tighter integration with Snowflake environments and expands automation capabilities.
+
+
+
+
+
+
+
+Enhancements
+-----
+UI/UX Improvements
++++++
+* **Business Persona View Enhancements :** Improved layout and experience for business persona dashboards. Users can now access Reports, Applications, Chart Dashboards, and Chat via intuitive card-based navigation or directly through the left-side menu.
+* **Visual Design Improvements :** 
+
+  * Enriched the interface with improved icons and color schemes for a more engaging user experience.
+  * Introduced a new set of icons in the icon selector, enabling users to assign custom icons to Projects, Chart Dashboards, Reports and Applications.
+
+* **Node Dialogue Layout Enhancements :** Redesigned dialog interfaces for node configuration for clearer interaction and usability across workflows.
+
+AI & Automation
++++++
+* **Gen-AI Node Enhancements :** Added new Gen-AI nodes to the platform. Example: Multi-LLM Query Node – allows querying of multiple Large Language Models (LLMs) from providers such as OpenAI, Bedrock, and Gemini, offering flexible and robust AI-powered responses within a single node.
+* **DocumentToText Node Upgrade :** Enhanced the node to support text extraction from various document types including PDF, TXT, DOCX, and image files. It can process both single files and directories, generating a structured DataFrame with extracted text, file names, page numbers and optionally Base64-encoded content  for PDFs and images.
+
+
+
+
+
+
+
+
+
+
+Documentation
+-----
+* **Snowflake Stored Procedure Execution :** Added Documentation on executing a Snowflake stored procedure—using Airflow with the Snowflake Command node and running a Python script on EMR. Refer here: :ref:`Snowflake Stored Procedure Execution<Snowflake Stored Procedure Execution>`
+
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

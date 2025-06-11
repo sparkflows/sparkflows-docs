@@ -1,78 +1,79 @@
 Commands Cheatsheet
 ========
+
 .. panels::
-    :container: container-lg pb-3
-    :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
+ :container: container-lg pb-3
+ :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`/commands/spark`
+ :doc:`/commands/spark`
     
-    Apache Spark Commands Cheatsheet
+ Apache Spark Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/environment-variables`
+ :doc:`/commands/environment-variables`
     
-    Environment Variable Commands Cheatsheet
+ Environment Variable Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/databricks`
+ :doc:`/commands/databricks`
     
-    Databricks Commands Cheatsheet
+ Databricks Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/linux`
+ :doc:`/commands/linux`
     
-    Linux Commands Cheatsheet
+ Linux Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/h2-db`
+ :doc:`/commands/h2-db`
     
-    H2 Database Commands Cheatsheet
+ H2 Database Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/python`
+ :doc:`/commands/python`
     
-    Python Commands Cheatsheet
+ Python Commands Cheatsheet
     
-    ---
+ ---
     
-    :doc:`/commands/kerberos`
+ :doc:`/commands/kerberos`
     
-    Kerberos Commands Cheatsheet
+ Kerberos Commands Cheatsheet
 
-   ---
+ ---
     
-    :doc:`/commands/aws`
+ :doc:`/commands/aws`
     
-    AWS Commands Cheatsheet
+ AWS Commands Cheatsheet
 
-   ---
+ ---
     
-    :doc:`/commands/postgres`
+ :doc:`/commands/postgres`
     
-    PostgreSQL Commands Cheatsheet
+ PostgreSQL Commands Cheatsheet
 
-   ---
+ ---
     
-    :doc:`/commands/delta`
+ :doc:`/commands/delta`
     
-    Delta Files Cheatsheet
+ Delta Files Cheatsheet
 
-   ---
+ ---
     
-    :doc:`/commands/windows`
+ :doc:`/commands/windows`
     
-    Windows Commands Cheatsheet
+ Windows Commands Cheatsheet
 
-   ---
+ ---
     
-    :doc:`/commands/kubernetes/index`
+ :doc:`/commands/kubernetes/index`
     
-    Kubernetes Cheatsheet
+ Kubernetes Cheatsheet
 
 .. toctree::
    :hidden:

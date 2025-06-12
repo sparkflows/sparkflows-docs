@@ -80,11 +80,11 @@ For All Or For A Group
 
 * A **User** with **users.manage** and **connections.manage** permissions can create connections for **For All Or For A Group**
 
-* **For All Or For A Group** connections can be created by navigating to **Administration -> Global/Group Connections**. Corrsponding card would be displayed only when a **User** has above permissions.
+* **For All Or For A Group** connections can be created by navigating to **Administration -> Global/Group Connections**. Corresponding card would be displayed only when a **User** has above permissions.
 
 For A Project
 ++++++++
 
-* A **User** has only **connections.manage** permission and no **users.manage** permission then connection can be created only at the **Project** level.
+* A **User** with only **connections.manage** permission and no **users.manage** permission can create connections only at the **Project** level.
 
 * **Project** connections can be created by navigating to **Project Dashboard -> Connections**.

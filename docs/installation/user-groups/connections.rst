@@ -72,4 +72,19 @@ Multiple Group Assignment
 
 * When a **User** is assigned to multiple **User Groups** in the **Fire Insights** and Project is also shared with mutiple **User Groups**. In this scenario the Job Execution would use a connection from the Group having **ID** value of **1**.
 
+Connection Creation Privileges
+--------------
 
+For All Or For A Group
+++++++++
+
+* A **User** with **users.manage** and **connections.manage** permissions can create connections for **For All Or For A Group**
+
+* **For All Or For A Group** connections can be created by navigating to **Administration -> Global/Group Connections**. Corrsponding card would be displayed only when a **User** has above permissions.
+
+For A Project
+++++++++
+
+* A **User** has only **connections.manage** permission and no **users.manage** permission then connection can be created only at the **Project** level.
+
+* **Project** connections can be created by navigating to **Project Dashboard -> Connections**.

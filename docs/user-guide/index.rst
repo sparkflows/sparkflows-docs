@@ -175,7 +175,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    workflow-wizard/index
    scheduler/index
    solutions/index
-   utilities/index
    code-library/index
    application-credentials/index
    

@@ -1,4 +1,4 @@
-Version 3.3.2 - June 15th, 2025
+Version 3.3.2 - June 12th, 2025
 ======
 
 New Features
@@ -6,7 +6,7 @@ New Features
 Data Integration
 ++++
 
-* **Snowflake Stored Procedure Execution Node :** Introduced a new node that allows execution of Snowflake Stored Procedure within EMR-based workflows. This facilitates tighter integration with Snowflake environments and expands automation capabilities.
+* **Snowflake Stored Procedure Execution Node :** Introduced a new node that allows execution of Snowflake Stored Procedure within EMR-based workflows using the returned value in another node. This facilitates tighter integration with Snowflake environments and expands automation capabilities.
 
 
 
@@ -31,7 +31,11 @@ AI & Automation
 * **Gen-AI Node Enhancements :** Added new Gen-AI nodes to the platform. Example: Multi-LLM Query Node – allows querying of multiple Large Language Models (LLMs) from providers such as OpenAI, Bedrock, and Gemini, offering flexible and robust AI-powered responses within a single node.
 * **DocumentToText Node Upgrade :** Enhanced the node to support text extraction from various document types including PDF, TXT, DOCX, and image files. It can process both single files and directories, generating a structured DataFrame with extracted text, file names, page numbers and optionally Base64-encoded content  for PDFs and images.
 
-
+Bug Fixes
+----
+Workflow Execution Display
++++++
+* Fixed a bug where switching between “My Executions” and “All Executions” didn’t refresh properly.
 
 
 
@@ -44,7 +48,7 @@ Documentation
 -----
 * **Snowflake Stored Procedure Execution :** Added Documentation on executing a Snowflake stored procedure—using Airflow with the Snowflake Command node and running a Python script on EMR. Refer here: :ref:`Snowflake Stored Procedure Execution<Snowflake Stored Procedure Execution>`
 
-* 
+* **Connections :** Updated the documentation for 'Connection Creation Privileges'. Refer here: :ref:`Connections<Connection Creation Privileges>`
 
 
 

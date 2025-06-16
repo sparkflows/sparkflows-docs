@@ -71,6 +71,9 @@ It supports real-time observability of model behavior, performance, and reliabil
 * **Dashboards :** Visualize accuracy, latency, throughput, and model health and Built-in dashboards for tracking inference outcomes.
 * **Inference Logging :** Logs stored in time-series databases and Enables historic trend analysis and drift detection
 * **Anomaly & Drift Detection :** Automatic detection of concept/data drift  and Triggers alerts for model performance degradation. Here the user needs to specify the drift threshold of PSI (default is 0.3) and the count of rows drifted, after which retraining should get triggered.
+
+  `Learn More <https://docs.sparkflows.io/en/latest/mlops/user-guide/model_observability_retraining.html>`_
+
 * **Alerting Mechanism :** Configurable alerts for Performance drops, Unexpected outputs, Data quality issues.
 
 `Learn More <https://docs.sparkflows.io/en/latest/mlops/user-guide/model_monitoring.html>`_

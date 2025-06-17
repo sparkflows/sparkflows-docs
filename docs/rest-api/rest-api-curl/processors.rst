@@ -1,4 +1,4 @@
-Processors REST API's
+Processors REST APIs
 =====================
 
 Overview

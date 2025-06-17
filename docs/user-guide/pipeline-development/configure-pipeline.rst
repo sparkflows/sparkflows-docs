@@ -17,7 +17,7 @@ Step 2 : Enable Pipeline Tabs
 
    ::
 
-      module.enablePipeline	true
+      module.enablePipeline = true
 
    .. figure:: ../../_assets/user-guide/pipeline/pipeline_administration.PNG
       :alt: Pipeline List

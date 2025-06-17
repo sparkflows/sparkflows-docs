@@ -4,9 +4,9 @@ User REST API
 Overview
 ---------
 
-The User REST API's allow you to get all the information about user and perform create,delete operations too.
+The User REST APIs allow you to get all the information about user and perform create,delete operations too.
 
-Below are the various User API's available in Fire Insights.
+Below are the various User APIs available in Fire Insights.
 
 They should be executed after you have logged into Fire Insights.
 

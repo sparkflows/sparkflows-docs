@@ -17,7 +17,7 @@ Facing Airflow access issue with URL.
 
   * By default, Airflow using the Docker image is configured to run on port **8080**.
   * To mitigate potential conflicts, it is crucial to modify the fire server port to a different value, such as **8090** or any other open/available port.
-  * For detailed instructions, refer the `Sparkflows Documentation on Running Custom Ports. <https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html?highlight=fire%20port#running-fire-server-on-custom-port>`_
+  * For detailed instructions, refer the `Sparkflows Documentation on Running Custom Ports. <https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html>`_
 
 
 * **Configuration Setting: app.postMessageURL**

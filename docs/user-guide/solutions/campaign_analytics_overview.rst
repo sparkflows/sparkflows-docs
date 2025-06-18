@@ -1,22 +1,22 @@
 Overview
 ==================
 
-Maketing Campaign Analytics for Retail Customers.
+Marketing Campaign Analytics for Retail Customers.
 
-Objective:
+Objective
 --------
 Extract necessary business insights from the responses to promotional offers and coupons by customers participating in marketing campaigns.
-Predictive and descriptiove insights will allow the Retail Marketing team to create targeted offers for right customer segments based on the purchase behaviour.
+Predictive and descriptive insights will allow the Retail Marketing team to create targeted offers for right customer segments based on the purchase behavior.
 
-Solution Approach:
+Solution Approach
 --------
 Let’s assume the Marketing Team of an organization has completed several promotional campaigns.
 
 - We shall build a Campaign Analytics Solution which can help the Retailers to measure the effectiveness of the campaigns. 
-- The solution will provide various functionalities like of Data Profiling, Data Validation, Model Training and Predictive Analytics.
+- The solution will provide various functionalities like Data Profiling, Data Validation, Model Training and Predictive Analytics.
 - The solution will identify the target segments of customer households, predict churns (based on historical campaigns, POS and promotional data).
 - It also uses Gen-AI features like Huggingface LLM to compute sentiment of store-wise product reviews.
-- The solution will recommend key actions that Marketeers can take to drive better campaigns.
+- The solution will recommend key actions that Marketers can take to drive better campaigns.
 
 .. figure:: ../../_assets/tutorials/solutions/campaign_analytics/campaign_analytics_overview_v1.png
    :alt: Solution Stages

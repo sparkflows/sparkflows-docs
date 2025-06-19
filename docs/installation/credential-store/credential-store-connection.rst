@@ -5,30 +5,31 @@ Fire Insights enables you to create connection. The values in the connections ca
 
 Below are the steps for adding connection using values from the credential store:
 
-Go to Administration -> Global Connections
+Step 1 : Navigate to Connections
 -------------
 
-Login to Fire Insights, go to ``Administration`` and then select ``Global Connections``.
+* Login to **Fire Insights**.
+* Go to **Administration** and select **Global/Group Connections**, as shown below.
 
-.. figure:: ../../_assets/credential_store/credential_store_5.PNG
-   :alt: Credential Store
-   :width: 70%
+  .. figure:: ../../_assets/credential_store/admin-connections.PNG
+     :alt: Credential Store
+     :width: 70%
 
-Add Connection
+Step 2 : Add Connection
 -----------
 
-Click on ``ADD CONNECTION`` and then select either ``Add Connection For All`` or ``Add Connection For Group`` based on your requirements.
+* On the Connections page, click on **Add Connection** button and select either **Add Connection For All** or **Add Connection For Group** from the dropdown based on your requirements, as shown below.
 
-
-.. figure:: ../../_assets/credential_store/sf_connection_1.PNG
-   :alt: Credential Store
-   :width: 70%
+  .. figure:: ../../_assets/credential_store/connections-page.png
+     :alt: Credential Store
+     :width: 70%
    
 
-Add Connection Parameter
+Step 3 : Add Connection Parameter
 --------------------------
+* Enter the required connection parameters as listed in the table below:
 
-.. list-table:: Connection Parameter
+.. list-table:: **Connection Parameter**
    :widths: 20 80
    :header-rows: 1
 
@@ -37,7 +38,7 @@ Add Connection Parameter
    * - CREDENTIAL STORE
      - Select Credential Store listed in dropdown.
    * - CONNECTION TYPE
-     - Select connection type configured in KeyVault, it can be `databricks, MySql, MOngo DB, Sql server, Hive, Redshift and Snowflake.`
+     - Select connection type configured in KeyVault, it can be `databricks, MySql, Mongo DB, Sql server, Hive, Redshift and Snowflake.`
    * - CONNECTION NAME
      - Add a connection name.
    * - USERNAME
@@ -52,34 +53,40 @@ Add Connection Parameter
      - Add description.
    * - URL
      - URL for selected connection, and if URL is added in KeyVault, set it to $URL.
-     
-  
-After adding the above parameters, clicking on ``TEST CONNECTION`` will show the connection as **successfully connected**. After this, you can save it to find it on the connection list page.
 
 .. figure:: ../../_assets/credential_store/sf_connection_2.PNG
    :alt: Credential Store
    :width: 70%   
+
+Step 4 : Test and Save the Connection
+------
+  
+* After adding the above parameters, click on **Test Connection** button. It will show the connection as **Successfully Connected**, as shown below. 
+
    
-.. figure:: ../../_assets/credential_store/sf_connection_3.PNG
-   :alt: Credential Store
-   :width: 70%      
+  .. figure:: ../../_assets/credential_store/sf_connection_3.PNG
+     :alt: Credential Store
+     :width: 70%   
 
-.. figure:: ../../_assets/credential_store/sf_connection_4.PNG
-   :alt: Credential Store
-   :width: 70%
+* After this, you can save it to find it on the **connections list** page, as shown below.
 
-Now you can use the same Connection in node in workflow editor and submit the Job.
 
-.. figure:: ../../_assets/credential_store/sf_connection_5.PNG
-   :alt: Credential Store
-   :width: 70%
+  .. figure:: ../../_assets/credential_store/connection-list.png
+     :alt: Credential Store
+     :width: 70%
 
-.. figure:: ../../_assets/credential_store/sf_connection_6.PNG
-   :alt: Credential Store
-   :width: 70%
+  Now you can use the same Connection in node in workflow editor and submit the Job.
+
+  .. figure:: ../../_assets/credential_store/sf_connection_5.PNG
+     :alt: Credential Store
+     :width: 70%
+
+  .. figure:: ../../_assets/credential_store/sf_connection_6.PNG
+     :alt: Credential Store
+     :width: 70%
    
-.. figure:: ../../_assets/credential_store/sf_connection_7.PNG
-   :alt: Credential Store
-   :width: 70% 
+  .. figure:: ../../_assets/credential_store/sf_connection_7.PNG
+     :alt: Credential Store
+     :width: 70% 
 
-.. note::  Above example is shown for Snowflake connection and using ``Readsnowflake node`` in workflow.
+.. note::  Above example is shown for Snowflake connection and using **Readsnowflake** node in workflow.

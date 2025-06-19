@@ -4,30 +4,38 @@ Configuring Azure Key Vault
 
 You can configure Azure Key Vault in Fire Insights. Below are the steps for configuring Azure Key Vault:
 
-Go to Administration -> Credential Store
+Step 1 : Navigate to Credential Store
 -------------
 
-Login to Fire Insights application as an admin user. Go to ``Administration`` and select ``Credential Store``.
+* Login to **Fire Insights** as an admin user. 
+* Go to **Administration** and select **Credential Store**, as shown below.
 
-.. figure:: ../../_assets/credential_store/credential_store_5.PNG
-   :alt: Azure Key Vault
-   :width: 65%
+  .. figure:: ../../_assets/credential_store/admin-credentialstore.PNG
+     :alt: Azure Key Vault
+     :width: 65%
 
 
-Add Credential Store
+Step 2 : Add Credential Store
 ------------------
 
-Click on the ``ADD CREDENTIAL STORE`` button.
+* On the Credential Store page, click on **Add Credential Store** button. 
+
+  .. figure:: ../../_assets/credential_store/credential-store-page.png
+     :alt: Credential Store
+     :width: 65%
+
+  An Add Credential Store dialog box will open, as shown below.
+
+   .. figure:: ../../_assets/credential_store/credential_store_1.PNG
+      :alt: Credential Store
+      :width: 65%     
 
 
-.. figure:: ../../_assets/credential_store/credential_store_6.PNG
-   :alt: Credential Store
-   :width: 65%
-
-Add Credential Store Parameters
+Step 3 : Add Credential Store Parameters
 --------------------------
+* Enter the required parameters in the above dialog box referring to the below table:
 
-.. list-table:: Credential Store
+.. list-table:: **Credential Store**
    :widths: 20 80
    :header-rows: 1
 
@@ -47,28 +55,24 @@ Add Credential Store Parameters
      - Add any description.
      
 
-.. figure:: ../../_assets/credential_store/credential_store_1.PNG
-   :alt: Credential Store
-   :width: 65%     
-
-After adding the above parameters, you can click on ``TEST CREDENTIAL STORE CONNECTION`` to verify the connection before saving it.
+* After adding the above parameters, you can click on **Test Credential Store Connection** button to verify the connection before saving it.
 
 
-.. figure:: ../../_assets/credential_store/credential_store_2.PNG
-   :alt: Credential Store
-   :width: 65%     
+  .. figure:: ../../_assets/credential_store/credential_store_2.PNG
+     :alt: Credential Store
+     :width: 65%     
 
-.. figure:: ../../_assets/credential_store/credential_store_3.PNG
-   :alt: Credential Store
-   :width: 65%     
+  .. figure:: ../../_assets/credential_store/credential_store_3.PNG
+     :alt: Credential Store
+     :width: 65%     
 
-Credential Store Created
+Step 4 : View Created Credential Store
 ------------------------
 
-Once the credential store has been created, you can view it in the list of credential stores.
+* Once the credential store has been created, you can view it in the **list** of credential stores, as shown below.
 
-.. figure:: ../../_assets/credential_store/credential_store_4.PNG
-   :alt: Credential Store
-   :width: 65%   
+  .. figure:: ../../_assets/credential_store/credential-store-list.png
+     :alt: Credential Store
+     :width: 65%   
    
 

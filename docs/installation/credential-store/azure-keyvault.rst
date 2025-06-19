@@ -26,7 +26,7 @@ Step 2 : Add Credential Store
 
   An Add Credential Store dialog box will open, as shown below.
 
-   .. figure:: ../../_assets/credential_store/credential_store_1.PNG
+  .. figure:: ../../_assets/credential_store/credential_store_1.PNG
       :alt: Credential Store
       :width: 65%     
 

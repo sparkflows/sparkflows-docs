@@ -86,13 +86,9 @@ Pipeline Execution
       :alt: Pipeline Tutorials
       :width: 70%
 
-   .. figure:: ../../_assets/tutorials/pipeline/dbpl-execworkflow-plexec1.png
-      :alt: Pipeline Tutorials
-      :width: 70%
-
 #. In **Airflow UI DAG** would be created and status would be updated appropriately as below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/dbpl-execworkflow-airflowuidag.png
+   .. figure:: ../../_assets/tutorials/pipeline/dbpl-execworkflow-plexec1.png
       :alt: Pipeline Tutorials
       :width: 70%
 

@@ -12,6 +12,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * MySQL
 * Oracle
 * Oracle Netsuite
+* TeraData
 * PostgreSQL
 * Redshift
 * Salesforce
@@ -31,6 +32,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    mysql.rst
    oracle.rst
    oracle-netsuite.rst
+   teradata.rst
    snowflake/index.rst
    PostgreSQL.rst
    redshift.rst

@@ -8,7 +8,7 @@ Fire Insights provides the capability to create a TeraData connection and use th
   * Restart Fire Insights
   * Create the TeraData Connection
 
-Download Oracle JDBC Driver
+Download TeraData JDBC Driver
 -------------
 
 - The TeraData JDBC Driver can be downloaded from:https://downloads.teradata.com/download/connectivity/jdbc-driver.

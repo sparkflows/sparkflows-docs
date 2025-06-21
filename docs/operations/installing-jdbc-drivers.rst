@@ -3,7 +3,7 @@ Install JDBC Drivers for Workflows
 
 Fire Insights has JDBC Processors for reading data from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like Oracle/DB2/Postgres etc. the JDBC driver needs to be installed in Fire Insights.
+In order to connect to a JDBC source like Oracle/DB2/TeraData/Postgres/Salesforce/SAPHANA etc. the JDBC driver needs to be installed in Fire Insights.
 
 Below are the steps for installing the JDBC driver :
 
@@ -86,6 +86,7 @@ When using the JDBC processors, the following can be used for the JDBC Driver Cl
 * MySQL : com.mysql.jdbc.Driver
 * PostgreSQL : org.postgresql.Driver
 * Oracle : oracle.jdbc.driver.OracleDriver
+* TeraData : com.teradata.jdbc.TeraDriver
 * Sybase : com.sybase.jdbc4.jdbc.SybDriver
 * HANA : com.sap.db.jdbc.Driver
 
@@ -97,6 +98,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 * MySQL : jdbc:mysql://localhost:3306/mydb
 * PostgreSQL : jdbc:postgresql://localhost:5432/mydb
 * Oracle : jdbc:oracle:thin:@<host>:<port>:<SID>
+* TeraData: jdbc:teradata:///{jdbcHostname}:{jdbcPort}/databaseName={jdbcDatabase}
 * Sybase : jdbc:sybase:Tds:localhost:5000/mydb
 * HANA : jdbc:sap://{jdbcHostname}:{jdbcPort}/?databaseName={jdbcDatabase}
 

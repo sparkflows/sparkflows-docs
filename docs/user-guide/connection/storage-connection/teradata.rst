@@ -39,7 +39,7 @@ Connection Details
 Enter the configuration details with the help of table given below and click on ``Add Connection``.
 
 
-.. figure:: ../../../_assets/installation/connection/teradata_connection.png
+.. figure:: ../../../_assets/connection/teradata_connection.png
    :alt: connection
    :width: 60%
                                                  

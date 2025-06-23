@@ -13,9 +13,17 @@ Data Integration
 
 
 
-
 Enhancements
 -----
+Data Integration
++++++
+* **Save to Incorta Node :** Added support to select a Chidori connection in the Save to Incorta node, eliminating the need to manually enter the Hostname, API Key, and Incorta Authentication. The selected connection is now used automatically during node execution without displaying these details in the UI.
+
+* **Browse Schema Feature :** Added support for the Browse Schema feature in databases with schema-level organization, such as PostgreSQL, SQL Server, and others.
+
+
+
+
 UI/UX Improvements
 +++++
 * **Business Persona View Enhancements :** Improved layout and experience for business persona dashboards. Users can now access Reports, Applications, Chart Dashboards, and Chat via intuitive card-based navigation or directly through the left-side menu.

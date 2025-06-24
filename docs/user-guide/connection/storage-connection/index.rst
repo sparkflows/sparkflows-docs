@@ -15,6 +15,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * TeraData
 * PostgreSQL
 * Redshift
+* SAP HANA
 * Salesforce
 * SQL Server
 * Snowflake
@@ -36,6 +37,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    snowflake/index.rst
    PostgreSQL.rst
    redshift.rst
+   sap-hana.rst
    salesforce/index.rst
    sql.rst
    sftp.rst

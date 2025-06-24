@@ -46,7 +46,7 @@ To create SAP HANA connection in Fire Insights, follow the steps below:
 * From the Connections page, click on **Add Connection** button and choose connection level. An Add Connection dialog box will open.
 * Now select connection category as **Storage** and connection type as **SAP HANA**, as shown below.
 
-  .. figure:: ../../_assets/installation/connection/sap-add-connection.png
+  .. figure:: ../../../_assets/installation/connection/sap-add-connection.png
      :alt: connection
      :width: 60%
 
@@ -93,7 +93,7 @@ To create SAP HANA connection in Fire Insights, follow the steps below:
        - Driver Class Name for SAP HANA
        - com.sap.db.jdbc.Driver (by default)
 
-  .. figure:: ../../_assets/installation/connection/sap-connection-details.png
+  .. figure:: ../../../_assets/installation/connection/sap-connection-details.png
        :alt: connection
        :width: 60%
 

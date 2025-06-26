@@ -150,9 +150,9 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 **Step 3 : Preparing for Migration**
 ++++++++++++++++++++++++++++++++++++++
 
-Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.232** are in the same directory. If the h2 jar of version 2.3.232 is not present in **migration_db** folder, download the jar from the below link and add it to the **migration_db** folder.
+#. Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.232** are in the same directory. If the h2 jar of version 2.3.232 is not present in **migration_db** folder, download the jar from the below link and add it to the **migration_db** folder.
 
-Download Link : `h2-2.3.232.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.jar>`_
+   Download Link : `h2-2.3.232.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.jar>`_
 
 
 

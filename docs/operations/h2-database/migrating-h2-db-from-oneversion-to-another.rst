@@ -1,9 +1,7 @@
 Migrate H2 DB from one Version to Another
 ===========
 
-This document outlines the steps to successfully migrate H2 Database from one version to another. It will cover the following:
-
-* Migration of H2 Database from **1.4.199 to 2.3.232**
+This document outlines the steps to successfully migrate the H2 Database from version **1.4.199** to **2.3.232**, covering the complete migration process in detail.
 
 Migration from version 1.4.199 to 2.3.232
 ------------
@@ -30,8 +28,8 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
     * For Windows Machine
 
-      Step 1 - Double click and open the h2-1.4.199.jar downloaded from the above URL which will open the login page for **firedb** , then add in the username and 
-      password and click on **Connect** button to connect to the H2 DB
+      Step 1 - Double click and open the h2-1.4.199.jar downloaded from the above URL which will open the login page for **firedb**, then add in the username and 
+      password and click on **Connect** button to connect to the H2 DB.
 
       .. figure:: ../..//_assets/DB_Migration/windows-h2-console-login.png
            :alt: Windows H2 Console Login
@@ -44,7 +42,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
       Step 2 - In the H2 console of version 1.4.199, run the following command:
 
-         ::
+      ::
   
           SCRIPT TO '/path/db/h2/backup.sql';
 
@@ -59,7 +57,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
     * For Linux Machine
 
-      Step 1 - Login to the linux machine, Create a folder name ``migration_db``
+      Step 1 - Login to the linux machine and create a folder name ``migration_db``.
 
       ::
 
@@ -72,11 +70,11 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
       
       Step 4 - Now to access the h2 console enter the below command:
         
-         ::
+      ::
   
           java -cp h2-1.4.199.jar org.h2.tools.Shell
 
-      This command will give access to H2 Shell for v1.4.199 , now enter the **H2 DB URL, Driver, User and Password** fields. If the details are entered correctly       **Connected** will be seen and you will get access to sql command prompt like the below image
+      This command will give access to H2 Shell for v1.4.199, now enter the **H2 DB URL, Driver, User and Password** fields. If the details are entered correctly       **Connected** will be seen and you will get access to sql command prompt as shown below.
 
       .. figure:: ../..//_assets/DB_Migration/linux-h2-console.png
            :alt: Sparkflows Linux H2 Console
@@ -84,7 +82,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
       Step 5 - In the H2 console of version 1.4.199, run the following command:
 
-         ::
+      ::
   
           SCRIPT TO '/absolute_path/backup.sql';
 
@@ -152,9 +150,9 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 **Step 3 : Preparing for Migration**
 ++++++++++++++++++++++++++++++++++++++
 
-Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.232** are in the same directory. If the h2 jar of version 2.3.232 is not present in **migration_db** folder, download the jar from the below link and add it to the **migration_db** folder
+Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.232** are in the same directory. If the h2 jar of version 2.3.232 is not present in **migration_db** folder, download the jar from the below link and add it to the **migration_db** folder.
 
-   Download Link : `h2-2.3.232.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.jar>`_
+Download Link : `h2-2.3.232.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/h2-db-jar/h2-2.3.232.jar>`_
 
 
 
@@ -167,20 +165,20 @@ Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.23
 
       java -cp h2-2.3.232.jar org.h2.tools.RunScript -url jdbc:h2:file:/target_path/firedb -script backup.sql
 
-  .. note:: Make sure to quit/exit the running instance of h2 jar 1.4.199 before running the above command and use **target_path** as **migration_db/new** with absolute path
+  .. note:: Make sure to quit/exit the running instance of h2 jar 1.4.199 before running the above command and use **target_path** as **migration_db/new** with absolute path.
 
-* For Windows Machine
+  * For Windows Machine
 
-   In the below image we can see that after running the command the **fire.mv.db** is created successfully in Windows in the same folder.
+   In the below image we can see that after running the command, the **fire.mv.db** is created successfully in Windows in the same folder.
 
    .. figure:: ../..//_assets/DB_Migration/windows-h2-version-migration.png
       :alt: Sparkflows Windows H2 Version Migration
       :width: 80%
      
 
-* For Linux Machine
+  * For Linux Machine
 
-   In the below image we can see that after running the command the **fire.mv.db** is created successfully in Linux in the **target_path** folder.
+   In the below image we can see that after running the command, the **fire.mv.db** is created successfully in Linux in the **target_path** folder.
 
    .. figure:: ../..//_assets/DB_Migration/linux-h2-version-migration.PNG
       :alt: Sparkflows Linux H2 Version Migration
@@ -196,4 +194,4 @@ Ensure the modified **backup.sql file** and the H2 JAR file for version **2.3.23
 #. Delete the **firedb.trace.db** file and start the server ensuring that the H2 database script runs first.
 
 
-  .. Note:: Make sure to delete the **firedb.trace.db** and run the required **H2 database script** before starting the server.
+.. Note:: Make sure to delete the **firedb.trace.db** and run the required **H2 database script** before starting the server.

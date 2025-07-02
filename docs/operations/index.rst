@@ -25,6 +25,10 @@ Operations
     
     ---
         
+    :doc:`/operations/password-db-reset`
+    
+    ---
+        
     :doc:`/operations/backup_db`
     
     ---
@@ -80,6 +84,7 @@ Operations
    regular-maintenance-tasks.rst
    backup_db.rst
    h2-database/index.rst
+   password-db-reset.rst
    installing-mysql.rst
    installing-jdbc-drivers.rst
    clean-up-db.rst

@@ -24,7 +24,7 @@ Steps to Enable and Use the Reset Password Feature
 
    **Reference Image**
 
-   .. figure:: ../../../_assets/Reset_Passwords/Module_Reset.png
+   .. figure:: ../_assets/Reset_Passwords/Module_Reset.png
       :width: 60%
       :alt: Reset Password Config Module
 
@@ -40,7 +40,7 @@ Steps to Enable and Use the Reset Password Feature
    
    **Reference Image**
 
-   .. figure:: ../../../_assets/Reset_Passwords/password_users_page.png
+   .. figure:: ../_assets/Reset_Passwords/password_users_page.png
       :width: 60%
       :alt: Reset Password UsersTab
 
@@ -54,7 +54,7 @@ Steps to Enable and Use the Reset Password Feature
 
    **Reference Image**
 
-   .. figure:: ../../../_assets/Reset_Passwords/Reset_Password.png
+   .. figure:: ../_assets/Reset_Passwords/Reset_Password.png
       :width: 60%
       :alt: Reset Password UsersTab
 

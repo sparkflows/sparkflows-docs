@@ -22,6 +22,12 @@ Steps to Enable and Use the Reset Password Feature
 
    It is set to ``false`` by default, change it to ``true`` to enable the feature.
 
+   **Reference Image**
+
+   .. figure:: ../../../_assets/Reset_Passwords/Module_Reset.png
+      :width: 60%
+      :alt: Reset Password Config Module
+
 2. **Verify the Feature in User Management**
 
    Go to:  ``Administration → User Management``
@@ -31,6 +37,13 @@ Steps to Enable and Use the Reset Password Feature
 
 
    There would be a **Reset Password** icon  for each user entry.
+   
+   **Reference Image**
+
+   .. figure:: ../../../_assets/Reset_Passwords/password_users_page.png
+      :width: 60%
+      :alt: Reset Password UsersTab
+
 
 3. **Reset a User’s Password**
 
@@ -38,6 +51,12 @@ Steps to Enable and Use the Reset Password Feature
 
 
    Enter the new password in the provided input field.
+
+   **Reference Image**
+
+   .. figure:: ../../../_assets/Reset_Passwords/Reset_Password.png
+      :width: 60%
+      :alt: Reset Password UsersTab
 
 4. **Password Notification**
 

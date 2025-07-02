@@ -2,7 +2,7 @@ Password Reset
 =====
 
 
-The **Reset Password** feature allows an admin user to reset the password for any user in the system. This ensures secure management of user credentials by enabling admin to initiate a password change and notify the user via email.
+The **Reset Password** feature allows an admin user to reset the password for any user in the system when using Database Authentications. This ensures secure management of user credentials by enabling admin to initiate a password change and notify the user via email.
 
 Purpose
 -------

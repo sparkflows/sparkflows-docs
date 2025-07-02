@@ -65,9 +65,6 @@ Steps to Enable and Use the Reset Password Feature
 
    The user can then log in to the system using the newly generated password.
 
-Notes
---------------------------------------------------
-
-- Ensure that the email configuration is correctly set up in the application for successful delivery of reset credentials.
+.. note:: Ensure that the email configuration is correctly set up in the application for successful delivery of reset credentials.
 
 

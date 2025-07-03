@@ -2,6 +2,37 @@ Version 3.3.3 - July 03rd, 2025
 =====
 
 
+New Features
+-----
+Platform Support
+++++
+
+* **EMR 7.9 Compatibility :** Added support for Amazon EMR version 7.9 in Sparkflows job execution, ensuring compatibility with the latest EMR environment. This includes revised bootstrap scripts and a new Fire Core JAR compatible with EMR 7.9.
+
+
+
+
+Enhancements
+-----
+Access Control 
+++++
+
+* **Connection Permission Management Enhancements :** Improved and streamlined the connection creation and management logic:
+
+  * Users with **connections.manage** permission can now create and manage connections within their own projects and groups.
+  * Global (All Groups) connections are now also visible within a project, along with project-level connections.
+
+UI/UX Improvements
+++++
+* **Role Permission View Redesign :** Upgraded the Permissions list view in the User Profile from a tabular layout to a card-based format, enhancing clarity and overall usability.
+* **Audit Reports Search Enhancement :** Upgraded Audit Report search functionality to support filtering by **Event Details**, in addition to User Name and Event Type, enabling improved traceability and more refined search capabilities.
+* **Chart Color Palette Update :** Enhanced the default color palette for charts with a modern, visually appealing color set for better readability and aesthetics.
+
+
+
+
+
+
 
 
 

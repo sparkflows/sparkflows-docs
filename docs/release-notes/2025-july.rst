@@ -19,11 +19,11 @@ Data Visualization
 
 Data Integration
 ++++
-* **SharePoint Loader Node :** Introduced the NodeSharepointLoader to connect with Microsoft SharePoint via the Microsoft Graph API. Supports incremental extraction of documents and pages, content parsing from PDF, DOCX, and HTML, and outputs a Spark DataFrame for downstream processing.
+* **SharePoint Loader Node :** Introduced the NodeSharepointLoader node to connect with Microsoft SharePoint via the Microsoft Graph API. Supports incremental extraction of documents and pages, content parsing from PDF, DOCX, and HTML, and outputs a Spark DataFrame for downstream processing.
 
 * **Read Incremental NetSuite Node :** Added the ReadIncrementalNetSuite node to read data incrementally from NetSuite using saved searches. Supports start/end time filtering to efficiently extract only new or modified records.
 
-* **Read NetSuite Node :** Introduced the NodeReadNetSuite to fetch data from NetSuite using saved search IDs or search criteria. Supports full-load extraction of structured business data via SuiteTalk API for seamless integration into Spark workflows.
+* **Read NetSuite Node :** Introduced the NodeReadNetSuite node to fetch data from NetSuite using saved search IDs or search criteria. Supports full-load extraction of structured business data via SuiteTalk API for seamless integration into Spark workflows.
 
 
 

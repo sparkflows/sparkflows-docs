@@ -7,7 +7,23 @@ New Features
 Platform Support
 ++++
 
-* **EMR 7.9 Compatibility :** Added support for Amazon EMR version 7.9 in Sparkflows job execution, ensuring compatibility with the latest EMR environment. This includes revised bootstrap scripts and a new Fire Core JAR compatible with EMR 7.9.
+* **EMR 7.9 Compatibility :** Added support for Amazon EMR version 7.9 in Sparkflows job execution, ensuring compatibility with the latest EMR environment. This includes support for bootstrap and a new Fire Core JAR compatible with EMR 7.9.
+
+User Management
+++++
+* **Password Reset Functionality :** Added a new 'Reset Password' feature for admin users using Database Authentication. Admins can now reset user passwords from User Management, with the new password automatically emailed to the user.
+
+Data Visualization
+++++
+* **Dataset View Feature :** Introduced a new 'Dataset View' that provides a graphical representation of data flow within the system. It visually maps how input datasets are consumed by workflows and how output datasets are generated, helping users easily understand data transformation and lineage across workflows.
+
+Data Integration
+++++
+* **SharePoint Loader Node :** Introduced the NodeSharepointLoader to connect with Microsoft SharePoint via the Microsoft Graph API. Supports incremental extraction of documents and pages, content parsing from PDF, DOCX, and HTML, and outputs a Spark DataFrame for downstream processing.
+
+* **Read Incremental NetSuite Node :** Added the ReadIncrementalNetSuite node to read data incrementally from NetSuite using saved searches. Supports start/end time filtering to efficiently extract only new or modified records.
+
+* **Read NetSuite Node :** Introduced the NodeReadNetSuite to fetch data from NetSuite using saved search IDs or search criteria. Supports full-load extraction of structured business data via SuiteTalk API for seamless integration into Spark workflows.
 
 
 
@@ -29,8 +45,9 @@ UI/UX Improvements
 * **Chart Color Palette Update :** Enhanced the default color palette for charts with a modern, visually appealing color set for better readability and aesthetics.
 
 
-
-
+Documentation
+-----
+* **Password Reset :** Added documentation on the Password Reset feature for admin users using Database Authentication, detailing how to enable, use, and configure the functionality for secure credential management. Refer here: :ref:`Password Reset<Password Reset>`
 
 
 

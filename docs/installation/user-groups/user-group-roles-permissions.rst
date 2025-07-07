@@ -56,7 +56,7 @@ A user can have multiple roles. The actions a user can perform depend on the rol
 
 A role has a set of permissions associated with it. A new role can be created, and an existing role can be edited.
 
-Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINESS ASSOCIATE.
+Out of the box, Fire Insights comes with three roles: **ADMIN**, **ANALYST**, and **BUSINESS ASSOCIATE**.
 
 .. figure:: ../../_assets/security/Role_Permissions_1.png
    :alt: security

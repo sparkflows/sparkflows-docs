@@ -10,7 +10,7 @@ Step 1: Login to Fire Insights
 ----
 * Use your existing credentials to log in to **Fire Insights**. Upon successful login, you will be directed to the **Dashboard**.
   
-  .. figure:: ../../_assets/change-password/dashboard.png
+  .. figure:: ..//_assets/change-password/dashboard.png
      :width: 60%
      :alt: change password
 
@@ -34,9 +34,9 @@ Step 3: Change the Password
      :alt: change password
      :width: 60%         
 
-   A pop up window for change password will appear like below:
+  A pop up window for change password will appear like below:
 
-   .. figure:: ..//_assets/change-password/change-ppassword-popup.png
+  .. figure:: ..//_assets/change-password/change-ppassword-popup.png
      :alt: change password
      :width: 60%     
 

@@ -58,7 +58,10 @@ A role has a set of permissions associated with it. A new role can be created, a
 
 Out of the box, Fire Insights comes with three roles: ADMIN, ANALYST, and BUSINESS ASSOCIATE.
 
-.. figure:: ../../_assets/security/role_permissions.PNG
+.. figure:: ../../_assets/security/Role_Permissions_1.png
+   :alt: security
+   :width: 60%
+.. figure:: ../../_assets/security/Role_Permissions_2.png
    :alt: security
    :width: 60%
 
@@ -76,6 +79,8 @@ Fire Insights supports the following permissions, which are associated with role
      - Description
    * - users.manage
      - Create, modify, view and activate or deactivate users in user management page from administration.
+   * - global.admin
+     - Create, modify, and view connections, credential stores, and variables from the administration panel as well as within the project.
    * - groups.manage
      - Create, modify, view users of a group, view connections of a group and delete groups in user management page from administration.
    * - roles.manage

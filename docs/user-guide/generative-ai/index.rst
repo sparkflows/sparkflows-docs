@@ -35,6 +35,12 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
     :doc:`/user-guide/generative-ai/vector-db/index`
 
     Vector Databases
+    
+    ---
+
+    :doc:`/user-guide/generative-ai/mcp/index`
+
+    Model Context Protocol (MCP)
 
 .. toctree::
    :hidden:
@@ -44,5 +50,6 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
    gen-ai-implementations.rst
    gen-ai-nlq.rst
    vector-db/index.rst
+   mcp/index.rst
 
 

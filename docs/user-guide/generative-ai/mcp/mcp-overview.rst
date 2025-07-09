@@ -5,7 +5,7 @@ MCP Overview and Design
 What is MCP?
 ------------
 
-MCP (Modular Command Processor) is a lightweight client-server framework designed to process structured user queries, route them through a chain of tools and language model decisions, and return informative responses. It enables orchestration of LLM calls, tool execution, and retrieval-augmented generation (RAG) seamlessly within a modular architecture.
+Model Context Protocol (MCP) is a lightweight client-server framework designed to process structured user queries, route them through a chain of tools and language model decisions, and return informative responses. It enables orchestration of LLM calls, tool execution, and retrieval-augmented generation (RAG) seamlessly within a modular architecture.
 
   .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/mcp/mcp1.png
      :alt: data-quality-userguide

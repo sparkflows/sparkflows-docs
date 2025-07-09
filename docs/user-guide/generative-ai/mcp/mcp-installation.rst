@@ -11,7 +11,7 @@ Before installing MCP and setting up your development environment, make sure you
 
 Optional but Recommended:
 
-- **`uv` package manager** for faster and reproducible dependency management
+- ``uv`` package manager for faster and reproducible dependency management
 
 Step-by-step Guide
 ==================

@@ -7,7 +7,7 @@ What is MCP?
 
 MCP (Modular Command Processor) is a lightweight client-server framework designed to process structured user queries, route them through a chain of tools and language model decisions, and return informative responses. It enables orchestration of LLM calls, tool execution, and retrieval-augmented generation (RAG) seamlessly within a modular architecture.
 
-  .. figure:: ../../docs/_assets/user-guide/machine-learning/generative-ai/mcp/mcp1.png
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/mcp/mcp1.png
      :alt: data-quality-userguide
      :width: 65%
 
@@ -30,7 +30,7 @@ Workflow
 4. **Tool Results Returned** to LLM
 5. **LLM Generates Final Reply**, which is returned to the user
 
-  .. figure:: ../../docs/_assets/user-guide/machine-learning/generative-ai/mcp/mcp2.png
+  .. figure:: ../../../_assets/user-guide/machine-learning/generative-ai/mcp/mcp2.png
      :alt: data-quality-userguide
      :width: 65%                                  
 

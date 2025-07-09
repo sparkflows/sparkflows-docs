@@ -1,7 +1,7 @@
-MCP Documentation
+Model Context Protocol (MCP)
 =================
 
-The Modular Command Processor (MCP) is a lightweight client-server framework that connects language models and tools in a structured, programmable workflow. It enables dynamic tool invocation, document retrieval, and response synthesis via a plugin architecture.
+The Model Context Protocol (MCP) is a lightweight client-server framework that connects language models and tools in a structured, programmable workflow. It enables dynamic tool invocation, document retrieval, and response synthesis via a plugin architecture.
 
 Key Highlights
 --------------

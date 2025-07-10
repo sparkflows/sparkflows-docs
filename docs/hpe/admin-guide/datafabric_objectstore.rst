@@ -1,4 +1,4 @@
-DataFabric
+DataFabric ObjectStore
 =========
 
 Sparkflows enables users to perform various operations like browsing, uploading, and deleting on DataFabric. It also allows for group-level access control, ensuring that users in Group A cannot access resources in Group B, and vice versa.

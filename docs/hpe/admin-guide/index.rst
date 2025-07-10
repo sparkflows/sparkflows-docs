@@ -52,13 +52,13 @@ This document explains in detail the steps involved in setting up Sparkflows on 
 
     ---
 
-    :doc:`/hpe/admin-guide/sparkflows_hpe_datafabric_install`
+    :doc:`/hpe/admin-guide/datafabric_volume`
 
     Describes steps involved in setting up Sparkflows on HPE Data Fabric
 
     ---
 
-    :doc:`/hpe/admin-guide/datafabric`
+    :doc:`/hpe/admin-guide/datafabric_objectstore`
 
     Describes steps involved in Configuring DataFabric access in Sparkflows.
 
@@ -110,8 +110,8 @@ This document explains in detail the steps involved in setting up Sparkflows on 
    configure_mysql.rst
    sparkflows_setup.rst
    livy_config.rst
-   sparkflows_hpe_datafabric_install.rst
-   datafabric.rst
+   datafabric_volume.rst
+   datafabric_objectstore.rst
    kubeflow_integration.rst
    hive.rst
    debezium.rst 

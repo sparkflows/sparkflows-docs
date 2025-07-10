@@ -1,4 +1,4 @@
-Sparkflows on HPE Data Fabric
+DataFabric Volume
 =====
 This document outlines the steps to install HPE Datafabric using the Datafabric Installer and configure it to mount volumes locally via NFS.
 
@@ -102,9 +102,14 @@ Mounting Datafabric volumes
 
 
 
+Configure Datafabric Volume in Sparkflows
+-----
+In Administration > Configuration > HDFS add the mounted path: **/mapr/maprdemo.mapr.io/**
 
 
-
+.. figure:: ../../_assets/hpe/configurations_mounted_path.png
+   :width: 60%
+   :alt: HPE Data Fabric
 
 
 

@@ -9,7 +9,7 @@ It is not recommended to use this installer on servers, where you need better co
 Step 1 : Verify Prerequisites
 -----------------------------
 
-#. **JDK 17:** Ensure you have Java 17 installed. You can download and install Java 17 from `here. <https://www.oracle.com/java/technologies/javase-jdk8-downloads.html>`_
+#. **JAVA 17:** Ensure you have Java 17 installed. You can download and install Java 17 from `here. <https://www.oracle.com/java/technologies/javase-jdk8-downloads.html>`_
 #. **Permissions:** 
 
    * Ensure you have sufficient permissions to download and install Sparkflows in the user directory.

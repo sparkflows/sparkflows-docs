@@ -12,7 +12,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 * Copy the download link from above for Linux, download the file using the **wget** command in Linux :
      
-   .. code-block:: bash
+  .. code-block:: bash
 
         wget https://sparkflows-release.s3.amazonaws.com/fire/rel-3.1.0/3/fire-3.x.y_spark_3.5.2.tgz
 
@@ -44,7 +44,8 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
       ./create-h2-db.sh
 
-   .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
+
+  .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
     
 * Launch Fire Server::
 

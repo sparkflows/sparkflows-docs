@@ -24,7 +24,6 @@ In Sparkflows, **Compute Connection** enables the following:
 In Sparkflows, **Storage Connection** enables the following:
 
   * Cassandra
-  * Hive
   * BigQuery
   * Incorta
   * InfluxDB
@@ -34,10 +33,13 @@ In Sparkflows, **Storage Connection** enables the following:
   * PostgreSQL
   * Red Shift
   * Oracle
+  * Oracle NetSuite
   * SFTP
+  * SAP HANA
   * SQL Server
   * Snowflake
   * Trino
+  * TeraData
   * SeviceNow
   * Confluence
   * Sharepoint

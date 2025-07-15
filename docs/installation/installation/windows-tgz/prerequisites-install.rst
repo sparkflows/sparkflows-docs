@@ -1,4 +1,4 @@
-Pre-requisites
+Prerequisites
 ^^^^^^^^^^^^^^
 
 Below are the Prerequisites for installing Fire Insights on a windows machine::
@@ -52,7 +52,7 @@ Install JDK 8
    :width: 60%
 
 
-* Once installation is complete, click on the close button
+* Once installation is complete, click on the **Close** button.
 
   .. figure:: ../../../_assets/installation/close-jdk.png
    :alt: Installations
@@ -67,27 +67,25 @@ Update JAVA_HOME and PATH variables
    :alt: Installations
    :width: 60%
 
-* Additionally, the path variable may also updated to bin folder of the JDK installation path
+* Additionally, the path variable may also be updated to bin folder of the JDK installation path, as shown below.
 
   .. figure:: ../../../_assets/installation/path_env.png
    :alt: Installations
    :width: 60%
 
-Verify installation of Java
+Verify Installation of Java
 ====================
 
-* To verify if the installation is successful, from the command prompt, type the below command:
-  >java -version
-  If the installation was successful, it will display the version of JDK that has been installed, as shown below:
+* To verify if the installation is successful, from the command prompt, type the command:
+  **java -version**. If the installation was successful, it will display the version of JDK that has been installed, as shown below:
 
   .. figure:: ../../../_assets/installation/java_version.png
    :alt: Installations
    :width: 60%
 
-* To find the installation path of Java, run this command 
-  >where java
+* To find the installation path of Java, run the command: **where java**.
 
-.. note::  If you have multiple versions of Java installed on you system, you can update the PATH using the steps outlined in either of the links below:
+.. note::  If you have multiple versions of Java installed on your system, you can update the PATH using the steps outlined in either of the links below:
 
            * https://javatutorial.net/set-java-home-windows-10
            * https://www.java.com/en/download/help/path.xml
@@ -99,16 +97,16 @@ Verify installation of Java
 Install winutils.exe
 ====================
 
-winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup winutils.exe on your machine
+**winutils.exe** is needed for running Apache Spark/Hadoop on windows machines. Follow the steps below to setup winutils.exe on your machine:
 
    
 - Download winutils.exe from https://github.com/steveloughran/winutils
 
       - winutils.exe can be directly downloaded from link below:
       - https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe
-      - https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/winutils.exe (For hadoop-3.3.*)
+      - https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/winutils.exe (For hadoop-3.3.x)
   
-- Create hadoop folder in Your System : ``C:\hadoop``.
+- Create hadoop folder in your system : ``C:\hadoop``.
 
   .. figure:: ../../../_assets/installation/create-hadoop_directory.PNG
    :alt: Installations
@@ -126,7 +124,7 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
    :alt: Installations
    :width: 60%
 
-- Add a new Environment Variable. ``HADOOP_HOME = C:\hadoop``
+- Add a new Environment Variable : ``HADOOP_HOME = C:\hadoop``.
   
   .. figure:: ../../../_assets/installation/hadoop_environment.PNG
    :alt: Installations
@@ -147,23 +145,25 @@ winutils.exe is needed for running Apache Spark/Hadoop on windows machines. Foll
 Install hadoop.dll
 ====================
 
-hadoop.dll is needed for running Apache Spark/Hadoop on windows machines. Follow the below steps to setup ''hadoop.dll'' on your machine
+**hadoop.dll** is needed for running Apache Spark/Hadoop on windows machines. Follow the steps below to setup ''hadoop.dll'' on your machine:
 
 - Download hadoop.dll from 
+
     * https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/hadoop.dll 
-    * https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/hadoop.dll (For hadoop-3.3.*)
+    * https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/hadoop.dll (For hadoop-3.3.x)
  
 - Copy ''hadoop.dll'' to ''windows/system32'' folder and restart the system.
 - Copy ''hadoop.dll'' to : ``C:\hadoop\bin\winutils.exe``.
 
-.. note:: Make sure to download the appropriate version
+.. note:: Make sure to download the appropriate version.
 
 Install Microsoft C Runtime Library
 ====================
 
-Download and Install Microsoft C Runtime Library based on your system architecture, As Hadoop does rely on some native libraries for certain operations (like filesystem access or compression), and on Windows, you may encounter DLL-related errors if these libraries are not properly set up.
+Download and Install Microsoft C Runtime Library based on your system architecture. As Hadoop does rely on some native libraries for certain operations (like filesystem access or compression), and on Windows, you may encounter DLL-related errors if these libraries are not properly set up.
 
 - Download from
+
     * https://www.microsoft.com/en-us/download/details.aspx?id=40784
 
 

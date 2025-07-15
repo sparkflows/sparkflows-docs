@@ -1,28 +1,40 @@
 Running Fire as a Service
 =========================
 
-Fire Insights can be configured to run as a service. This way when the machine reboots, Fire Insights would be automatically restarted.
+Fire Insights can be configured to run as a service. This way, when the machine reboots, Fire Insights will be automatically restarted.
 
-Below are the steps for configuring Fire Insights as a service:
+
 
 Prerequisites
-+++++++++++++
+----
+* Make sure the user has root privileges to create a service.
 
-::
-   
-   Make sure that user has root privilege to create a service.
-   System Distributions that have SystemD as init system (Amazon Linux 2, SLES 12, CentOS 7 or higher, Debian 8 or higher, RHEL 7 or higher, Ubuntu 15.04 or higher).
+* Ensure the system uses SystemD as the init system. Supported distributions include:
 
-Create a Fire service
---------------------
+   * Amazon Linux 2
 
-Create a Fire service which runs as systemd service. This way Fire Insights would get started automatically on reboot.
+   * SLES 12
 
-Create the service in the folder '/etc/systemd/system'. Name the file 'fire.service'.
+   * CentOS 7 or higher
 
-Below, the user is 'sparkflows'. Name it as appropriate for your installation.
+   * Debian 8 or higher
 
-::
+   * RHEL 7 or higher
+
+   * Ubuntu 15.04 or higher
+
+Steps for Configuring Fire Insights as a Service
+----
+
+Step 1: Create a Fire Service
+++++
+* Create a Fire service that runs as systemd service. This way, Fire Insights will start automatically on reboot.
+
+* Create the service in the folder ``/etc/systemd/system`` and name the file **fire.service**.
+
+  Below, the user is 'sparkflows'. Name it as appropriate for your installation.
+
+  ::
 
     [Unit]
     Description=Fire
@@ -38,45 +50,46 @@ Below, the user is 'sparkflows'. Name it as appropriate for your installation.
    [Install]
    WantedBy=multi-user.target
 
-Add a Shell Script
-----------------
+Step 2: Add a Shell Script
+++++
 
-Create a shell script 'fire.sh' and place it at '/home/sparkflows/fire.sh'.
+* Create a shell script named **fire.sh** and place it at ``/home/sparkflows/fire.sh``.
 
-Below are its content that make it executable.
+  Below are its content that make it executable.
 
-::
+  ::
 
     #!/bin/sh
     cd $fire_home/fire-3.1.0_spark_x.y.z
     ./run-fire-server.sh start
 
-Verify using the steps below:
+Step 3: Verify and Enable the Service
+++++
 
 - Refresh the systemd configuration files:
 
-::
+  ::
 
-   systemctl daemon-reload
+    systemctl daemon-reload
    
 - Enable the service (if required) to start automatically at boot:
 
-::
+  ::
 
     systemctl enable fire.service
     
 - Verify the systemd unit file configuration:
 
-::
+  ::
 
     systemctl restart fire.service
     systemctl status fire.service
     
 
-.. figure:: ../../_assets/user-guide/fire_service_status.PNG
-   :scale: 80%
-   :alt: fire service
-   :align: center
+  .. figure:: ../../_assets/user-guide/fire_service_status.PNG
+     :scale: 80%
+     :alt: fire service
+     :align: center
     
 
 .. note:: Make sure that services are enabled.

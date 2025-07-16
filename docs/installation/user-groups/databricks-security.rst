@@ -30,7 +30,9 @@ When users execute workflows in Fire Insights, they are submitted to the Databri
 Databricks Connections
 -----------------------
 
-The Databricks cluster details and token are specified in a connection. Users use these connections when interacting with Databricks. Connections can be at the global level or the project level. Global-level connections are created by the admin user, while project-level connections are created by project users. Fire Insights also supports defining group-level connections.
+The Databricks cluster details and token are specified in a connection. Users use these connections when interacting with Databricks. Connections can be at the global level or the project level. Global-level connections are created by the admin user, while project-level connections are created by project users. Fire Insights also supports defining group-level connections. 
+
+For more details on **creating Databricks Connection** in Sparkflows - `Click Here. <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_ 
 
 .. figure:: ../../_assets/security/databricks-connection.PNG
    :alt: security

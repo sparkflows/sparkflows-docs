@@ -191,11 +191,11 @@ Install the required python packages for Fire Insights::
    
 ``requirements.txt`` file is available in the installation directory of Fire Insights.
 
-   .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
+.. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
 If connecting to S3 buckets from PySpark
 ----------------------------------------
-If connecting to S3 buckets to read/write data, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
+If connecting to S3 buckets to read/write data, one would need to download these following JARs and place them in the virtual env ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
 
    wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.1/hadoop-aws-3.3.1.jar
 
@@ -210,7 +210,7 @@ If connecting to S3 buckets to read/write data, one would need to download these
 
 If using read excel node from PySpark
 -------------------------------------
-If using read excel node from PySpark, one would need to download these following JAR's and place them in the virtualenv ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
+If using read excel node from PySpark, one would need to download these following JARs and place them in the virtual env ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::
 
    wget https://repo1.maven.org/maven2/com/crealytics/spark-excel_2.12/3.2.2_0.18.5/spark-excel_2.12-3.2.2_0.18.5.jar
    
@@ -245,10 +245,10 @@ To delete a virtual environment, follow below steps::
 
   rm -r venv/
 
-Installing pip & wheel::
+Installing pip & wheel
 +++++++++++++++++++
 
-  yum install 
+yum install 
 
 ::
 
@@ -259,10 +259,8 @@ Installing pip & wheel::
   yum install python-wheel
   
   
-Add below in bash_profile::
+Add below in bash_profile
 ++++++++++++++++++++++++++
-
-  export PYSPARK_PYTHON=/usr/bin/python3
 
 ::
 

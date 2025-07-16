@@ -75,7 +75,7 @@ Some References for Installing Python: (https://linuxize.com/post/how-to-install
    :alt: Installations
    :width: 60%
 
-Note: Do not use the standard make install as it will overwrite the default system python3 binary.
+.. Note:: Do not use the standard make install as it will overwrite the default system python3 binary.
 
 Verify it by typing::
 
@@ -119,42 +119,6 @@ Upgrade pip version with 20.0 or above::
    :alt: Installations
    :width: 60%  
    
-Install dependency for prophet package (Ubuntu 18.04)
------------------------------------------
-
-* pystan dependency::
-  
-   pip install pystan
-
-  .. figure:: ../../_assets/configuration/pystan.PNG
-   :alt: Installations
-   :width: 60% 
-
-
-* convertdate dependency::
-
-   pip install convertdate
-
-  .. figure:: ../../_assets/configuration/convertdate.PNG
-   :alt: Installations
-   :width: 60% 
-
-* prophet dependency::
-
-   pip install prophet
-
-  .. figure:: ../../_assets/configuration/fbprophet.PNG
-   :alt: Installations
-   :width: 60% 
-
-* Check pip list::
-   
-   pip list
-
-  .. figure:: ../../_assets/configuration/piplist.PNG
-   :alt: Installations
-   :width: 60% 
-
 Install required packages
 -------------------------
 
@@ -165,6 +129,21 @@ Install the required python packages for Fire Insights::
 ``requirements.txt`` file is available in the installation directory of Fire Insights.
 
 .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
+
+Copying delta jar for PySpark
+----------------------------------------
+
+Download delta dependencies jar and copy to PySpark jar path, without this PySpark engine will not work.
+
+::
+
+
+    wget https://repo1.maven.org/maven2/io/delta/delta-storage/3.1.0/delta-storage-3.1.0.jar
+    wget https://repo1.maven.org/maven2/io/delta/delta-spark_2.12/3.1.0/delta-spark_2.12-3.1.0.jar
+    cp -r delta-storage-3.1.0.jar /home/sparkflows/venv/lib/python3.9/site-packages/pyspark/jars/
+    cp -r delta-spark_2.12-3.1.0.jar /home/sparkflows/venv/lib/python3.9/site-packages/pyspark/jars/
+
+.. Note:: Make sure to update absolute path of python environment
 
 If connecting to S3 buckets from PySpark
 ----------------------------------------

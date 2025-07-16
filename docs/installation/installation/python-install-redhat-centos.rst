@@ -142,7 +142,7 @@ Run below command with sudo privilege
    :alt: Installations
    :width: 60%  
  
-* launch a new shell instance using the Software Collection scl tool & Check GCC version
+* Launch a new shell instance using the Software Collection scl tool & Check GCC version
 ::
  
     scl enable devtoolset-7 bash

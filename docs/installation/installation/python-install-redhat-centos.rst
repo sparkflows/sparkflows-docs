@@ -193,6 +193,22 @@ Install the required python packages for Fire Insights::
 
 .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 
+Copying delta jar for PySpark
+----------------------------------------
+
+Download delta dependencies jar and copy to PySpark jar path, without this PySpark engine will not work.
+
+::
+
+
+    wget https://repo1.maven.org/maven2/io/delta/delta-storage/3.1.0/delta-storage-3.1.0.jar
+    wget https://repo1.maven.org/maven2/io/delta/delta-spark_2.12/3.1.0/delta-spark_2.12-3.1.0.jar
+    cp -r delta-storage-3.1.0.jar /home/sparkflows/venv/lib/python3.9/site-packages/pyspark/jars/
+    cp -r delta-spark_2.12-3.1.0.jar /home/sparkflows/venv/lib/python3.9/site-packages/pyspark/jars/
+
+.. Note:: Make sure to update absolute path of python environment
+
+
 If connecting to S3 buckets from PySpark
 ----------------------------------------
 If connecting to S3 buckets to read/write data, one would need to download these following JARs and place them in the virtual env ``SPARKFLOWS_INSTALL_DIR/venv/lib/python3.7/site-packages/pyspark/jars/`` being used by Sparkflows::

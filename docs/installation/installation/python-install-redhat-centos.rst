@@ -1,9 +1,9 @@
 Python Installation on Red Hat and CentOS
 ====================================
 
-Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows is compatible with Python 3.8.
+Python is only needed if you need to use the PySpark engine enabled in Sparkflows. Python modules in Sparkflows is compatible with Python 3.9.
 
-Check if Python 3.8 is Installed
+Check if Python 3.9 is Installed
 ---------------------------------
 
 Use one of the below commands to check if the Python is installed on the machine or not::
@@ -16,7 +16,7 @@ Use one of the below commands to check if the Python is installed on the machine
 
     
 
-Install Python 3.8 (if not installed)
+Install Python 3.9 (if not installed)
 -------------------------------------
 
 Some References for Installing Python:
@@ -38,15 +38,15 @@ Download and extract the downloaded package
 Download python from below Link
 
 * https://www.python.org/downloads/
-* https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
+* https://www.python.org/ftp/python/3.9.10/Python-3.9.10.tgz
 
 Download and untar::
   
-     wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
+     wget https://www.python.org/ftp/python/3.9.10/Python-3.9.10.tgz
 
 ::
 
-     tar xzf Python-3.8.10.tgz
+     tar xzf Python-3.9.10.tgz
      
 
 Compile Python source code
@@ -66,7 +66,7 @@ Compile the Python source code on your system using altinstall::
 
 ::
 
-    python3.8 --version
+    python3.9 --version
 
 ::
 
@@ -81,7 +81,7 @@ Create Python virtual environment & Activate it
 
 Create Python virtual environment & Activate it::
 
-  python3.8 -m venv venv
+  python3.9 -m venv venv
 
 ::
 

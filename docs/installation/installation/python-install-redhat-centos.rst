@@ -72,7 +72,7 @@ Compile the Python source code on your system using altinstall::
 
     cd ..
   
-.. figure:: ../../_assets/configuration/python_version.png
+.. figure:: ../../_assets/configuration/python-version.png
    :alt: Installations
    :width: 60% 
 
@@ -91,9 +91,9 @@ Create Python virtual environment & Activate it::
 
   python --version
 
-.. figure:: ../../_assets/configuration/python_version1.png
+.. figure:: ../../_assets/configuration/python-version1.png
    :alt: Installations
-   :width: 60%
+   :width: 60% 
 
 Upgrade pip version
 -------------------

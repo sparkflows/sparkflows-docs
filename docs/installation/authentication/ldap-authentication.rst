@@ -17,7 +17,7 @@ The following configuration parameters have to be set in ``ldap.properties`` fil
 LDAP Parameters
 ---------------
 
-Below are the parameters which need to be set to the appropriate values based on the LDAP directory being autheticated to:
+Below are the parameters which need to be set to the appropriate values based on the LDAP directory being authenticated to:
 
 .. list-table::
    :widths: 10 30 15
@@ -66,14 +66,14 @@ Below are the parameters which need to be set to the appropriate values based on
 Test LDAP
 ------
 
-Sparkflows provides the capability to test the LDAP conifguration from UI.
+Sparkflows provides the capability to test the LDAP configuration from UI.
 
-* Admin needs to place a file by name ``ldap.properties`` in the sparkflows ``HOME/conf`` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
+* Admin needs to place a file by name ``ldap.properties`` in the Sparkflows ``HOME/conf`` directory to enable the ``Administration/Test LDAP`` functionality in the UI.
 * Now, the Admin can use this to test out and play around with different LDAP configuration. 
 * Admin can also get the ``User Attributes``, from the LDAP while trying to figure out the LDAP config as shown below.
-* Admin can also test out if login works fine for users with the LDAP configurations by choosing the `Authenticate User`` option.
-* Once the correct configuration is figured out, admin needs to place the same configuraions in the ``ldap.properties`` and restart the server.
-* Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP`` and Click on ``Test Connections``, and it should authenticate successfully against the LDAP.
+* Admin can also test out if login works fine for users with the LDAP configurations by choosing the `Authenticate User` option.
+* Once the correct configuration is figured out, admin needs to place the same configurations in the ``ldap.properties`` and restart the server.
+* Now, the admin can login to Sparkflows web URL and go to ``Administration/Test LDAP``. Then click on ``Test Connections``, and it should authenticate successfully against the LDAP.
 
 
   .. figure:: ../..//_assets/installation/ldap/ldap_test_config.PNG
@@ -99,11 +99,11 @@ In this case {USERNAME} would be replaced by the real username of the user when 
 LDAP Certificate
 ----------------
 
-If ``ldaps`` is being used, the ldap certificate needs to be imported into cacerts.
+If ``LDAP`` is being used, the ldap certificate needs to be imported into cacerts.
 
 For Reference, vistit : https://docs.oracle.com/cd/E19509-01/820-3399/ggfrj/index.html
 
-Importing a user from LDAP into Sparkflows
+Importing a User from LDAP into Sparkflows
 ------------------------------------------
 
 Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from LDAP.
@@ -114,7 +114,7 @@ Once LDAP is enabled in Sparkflows, users can be imported into Sparkflows from L
 * User details are fetched from LDAP.
 * Click on Add User to create the user in Sparkflows.
 
-Above steps will create the LDAP user in Sparkflows database and user deatils can be edited later to provide the access to roles in  different groups etc.
+Above steps will create the LDAP user in Sparkflows database and user details can be edited later to provide the access to roles in  different groups etc.
 
 
 Search Order
@@ -122,7 +122,7 @@ Search Order
 
 Search order is determined by the parameter ``ldap_Order``.
 
-If it is set to ``LDAP_DB``, it would first search for the User in LDAP and then in its own DB. This enables the admin user to have an entry in the Sparkflows DB, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
+If it is set to ``LDAP_DB``, it will first search for the User in LDAP and then in its own DB. This enables the admin user to have an entry in the Sparkflows DB, so that all users are not locked out of the system in case LDAP goes down or ends up with invalid Configurations.
 
 
 User Login

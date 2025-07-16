@@ -54,7 +54,7 @@ Compile Python source code
 
 Compile the Python source code on your system using altinstall::
 
-    cd Python-3.8.10
+    cd Python-3.9.10
 
 ::
 

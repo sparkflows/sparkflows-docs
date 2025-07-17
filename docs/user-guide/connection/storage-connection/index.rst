@@ -6,7 +6,6 @@ Sparkflows enables you to connect to multiple databases and storage systems by c
 In Sparkflows, **Storage Connection** can connect to the following data sources:
 
 * Cassandra
-* Hive
 * JDBC
 * MongoDB
 * MySQL

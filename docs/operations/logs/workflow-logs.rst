@@ -1,7 +1,7 @@
 Logs for Job Submitted on the Cluster
 --------------------
 
-Fire enables you to view the logs for job submitted on the cluster from UI. As an user, you can view the logs while running any workflow as below. You can go to "executions page" and click on ''three dots'' and logs option will be available.
+Fire enables you to view the logs for job submitted on the cluster from UI. As a user, you can view the logs while running any workflow as below. You can go to **Executions page** and click on **three dots**. The **Logs** option will be available, as shown below.
 
 
 .. figure:: ../../_assets/operating/operations/logs_wf.PNG
@@ -21,4 +21,4 @@ Fire enables you to view the logs for job submitted on the cluster from UI. As a
 
 ::
 
-    Note: The log directory is configurable through the properties file(conf/application/properties), with the property name set as logs.dir.
+    Note: The log directory is configurable through the properties file (conf/application/properties), with the property name set as logs.dir.

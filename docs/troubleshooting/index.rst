@@ -123,9 +123,9 @@ Below are steps for troubleshooting some of the common issues.
 
     ---
     
-    :doc:`/troubleshooting/h2o`
+    :doc:`/troubleshooting/sparkml`
     
-    Steps to troubleshoot H2O
+    Steps to troubleshoot SparkML
 
     ---
     
@@ -174,7 +174,7 @@ Below are steps for troubleshooting some of the common issues.
    https.rst
    networking.rst
    scheduler.rst
-   h2o.rst
+   sparkml.rst
    mlops.rst
    delta.rst
    incorta.rst

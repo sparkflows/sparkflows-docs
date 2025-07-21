@@ -37,7 +37,7 @@ Workflow
 
 
 
-Emailnotification node: configuration
+EmailNotification Node: Configuration
 ++++
 
  .. figure:: ../_assets/tutorials/file_check/emailnotification-node-config.png
@@ -48,7 +48,7 @@ Emailnotification node: configuration
 
 
 
-Workflow parameters: subject and date_value
+Workflow Parameters: subject and date_value
 ++++
 
  .. figure:: ../_assets/tutorials/file_check/workflow-parameters.png
@@ -126,7 +126,7 @@ File Not Found
 
 
 
-PipelineParameters
+Pipeline Parameters
 ++++
 
  .. figure:: ../_assets/tutorials/file_check/pipeline-parameters.png
@@ -149,7 +149,7 @@ Pipeline Task Status
 
 
 
-EmailNotification
+Email Notification
 ++++
 
  .. figure:: ../_assets/tutorials/file_check/email-notification.PNG

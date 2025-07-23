@@ -14,14 +14,14 @@ Configuration Steps
   Configure the following:
 
  
-  * ``Auth Type`` : Select **KeyPair** from the dropdown.
+  * ``Auth Type``: Select **KeyPair** from the dropdown.
   * ``Connection``: Select **SNOWFLAKE_KEYPAIR** from the dropdown.
   * ``Warehouse``: Select the required **Snowflake Warehouse** by using browse button.
   * ``Database``: Select the required **Snowflake Database** by using browse button.
   * ``Schema``: Select the required **Snowflake Schema** by using browse button. 
 
 
-  .. figure:: ../_assets/user-guide/utilities/crud-stmt-config-general.png
+  .. figure:: ../../_assets/user-guide/utilities/crud-stmt-config-general.png
      :alt: CRUD Operation
      :width: 80%
   
@@ -38,7 +38,7 @@ Configuration Steps
   In the example below, an **INSERT** statement is executed with **three input values**.
 
 
-  .. figure:: ../_assets/user-guide/utilities/crud-stmt-config-example.png
+  .. figure:: ../../_assets/user-guide/utilities/crud-stmt-config-example.png
      :alt: CRUD Operation
      :width: 80%
 

@@ -14,14 +14,14 @@ Configuration Steps
   
   Configure the following: 
   
-  * ``Auth Type`` : Select **KeyPair** from the dropdown.
+  * ``Auth Type``: Select **KeyPair** from the dropdown.
   * ``Connection``: Select **SNOWFLAKE_KEYPAIR** from the dropdown.
   * ``Warehouse``: Select the required **Snowflake Warehouse** by using browse button.
   * ``Database``: Select the required **Snowflake Database** by using browse button.
   * ``Schema``: Select the Snowflake Schema as **PUBLIC**. 
 
 
-  .. figure:: ../_assets/user-guide/utilities/execute-sf-sp-node-config.png
+  .. figure:: ../../_assets/user-guide/utilities/execute-sf-sp-node-config.png
    :alt: Snowflake Stored Procedure
    :width: 80%
   
@@ -37,7 +37,7 @@ Configuration Steps
   It supports both **single** and **multiple** input parameters with parameter types: **String**, **Integer**, and **Datetime**.
 
 
-  .. figure:: ../_assets/user-guide/utilities/config-call-stmt.png
+  .. figure:: ../../_assets/user-guide/utilities/config-call-stmt.png
      :alt: Snowflake Stored Procedure
      :width: 80%
   
@@ -49,7 +49,7 @@ Configuration Steps
 
   Define the return parameters and their types. The return parameter name can be accessed in the subsequent nodes using the syntax: **${SP_Return_Value_Name}**
 
-  .. figure:: ../_assets/user-guide/utilities/config-return-parameters.png
+  .. figure:: ../../_assets/user-guide/utilities/config-return-parameters.png
      :alt: Snowflake Stored Procedure
      :width: 80%
   
@@ -62,7 +62,7 @@ Configuration Steps
   
   If the stored procedure returns fields such as **C_CUSTKEY** and **C_NAME**, their values can be accessed in next nodes like **AddAdvancedColumn** using: **${C_CUSTKEY}** and **${C_NAME}**.
 
-  .. figure:: ../_assets/user-guide/utilities/return-parameters-example.png
+  .. figure:: ../../_assets/user-guide/utilities/return-parameters-example.png
      :alt: Snowflake Stored Procedure
      :width: 80%
   

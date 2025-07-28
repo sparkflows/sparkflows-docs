@@ -36,7 +36,7 @@ Fire Insights provides the capability to perform the most complex data preparati
 
     :doc:`/user-guide/utilities/rest-api-client`
 
-    Detailed steps for executing prepared statements for Snowflake.
+    Detailed steps for executing REST Services.
 
 
 

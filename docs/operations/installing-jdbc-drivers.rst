@@ -26,7 +26,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+Alternatively, you can wait for 60 minutes and the JDBC driver will be automatically registered with Fire Insights.
 
 
 Downloading the JDBC JAR File
@@ -38,7 +38,7 @@ This section describes the details for downloading the the JDBC JAR file for a v
 MySQL
 +++++
 
-- MySQL connector can be downloaded from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
+- MySQL connector can be downloaded either from : https://dev.mysql.com/downloads/connector/j/ or you can download it directly from maven repository : https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.11/
 - After downloading, untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz`` 
 - After untaring, the JDBC JAR file is available in the directory.
 - Use the JAR file (mysql-connector-java-8.0.11.jar) for installation in the Fire.
@@ -46,7 +46,7 @@ MySQL
 PostgreSQL
 ++++++++++
 
-- PostgresSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download
+- PostgreSQL JDBC drivers can be downloaded from : https://jdbc.postgresql.org/download
 
 .. note:: Already included in Sparkflows package.
 
@@ -60,7 +60,7 @@ Teradata
 
 - Teradata JDBC drivers can be downloaded from : https://downloads.teradata.com/download/connectivity/jdbc-driver
 
-https://dwgeek.com/steps-to-connect-teradata-database-from-spark-examples.html/
+- https://dwgeek.com/steps-to-connect-teradata-database-from-spark-examples.html/
 
 Azure Synapse
 +++++++++++++

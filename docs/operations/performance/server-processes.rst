@@ -6,11 +6,11 @@ Fire Insights has a server process on each VM and also helper processes running 
 Fire Server
 ++++
 
-By default the fire server maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
+By default the fire server maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``.
 
-you can increase maximum to ``-Xmx8192m``
+You can increase maximum to ``-Xmx8192m``.
 
-above parameter can be updated in ``run-fire-server.sh`` and restart the Fire server
+Above parameter can be updated in ``run-fire-server.sh`` and restart the Fire server.
 
 ::
 
@@ -19,13 +19,13 @@ above parameter can be updated in ``run-fire-server.sh`` and restart the Fire se
 Helper Processes 
 ++++
 
-The Fire Server spawns helper processes. These can be Java/Scala processes or Pythong processes.
+The Fire Server spawns helper processes. These can be Java/Scala processes or Python processes.
 
-By default fire maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``
+By default fire maximum and minimum memory allocated is ``-Xmx2548m -Xms1356m``.
 
-you can increase maximum to ``-Xmx4096m``
+You can increase maximum to ``-Xmx4096m``.
 
-above parameter can be updated in ``run-fire.sh`` and restrt the Fire server
+Above parameter can be updated in ``run-fire.sh`` and restrt the Fire server.
 
 ::
 

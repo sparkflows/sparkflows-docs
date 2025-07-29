@@ -1,5 +1,11 @@
-Create Docker image with the Jupyter notebook 
+Docker Image 
 ================
+
+This document outlines the steps to create a Docker image for Jupyter Notebook and Fire Insights, along with the required permissions for the Fire Insights container to successfully run Jupyter Notebook.
+
+
+Create Docker image with Jupyter notebook 
+------------------------------
 
 Create a Docker image containing user-created notebooks, data, and required dependencies. This Docker Image would be executed by the Fire Insights App.
 
@@ -49,7 +55,7 @@ deployment.yaml
                         claimName: fire-pvc
                 containers:
                     - name: sparkflows-fire-jupyter
-                    image: "sparkflows/fire:py_3.2.1_3.2.81-rc1"
+                    image: "sparkflows/fire:py_3.5.2_3.3.1"
                     imagePullPolicy: IfNotPresent
                     volumeMounts:
                         - name: sparkflows-vol

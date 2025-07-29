@@ -53,7 +53,7 @@ Data Preparation Project
      - 	-	Displays correlation between selected columns using Correlation node.
      
      	-	Displays Summary of selected incoming column data by calculating and printing spreads such as Count, Mean, Min, Max and so on.     
-   * - - Remove Special Characters
+   * - Remove Special Characters
      - - It searches for a String Pattern in incoming dataset and replaces it with another using FindAndReplaceUsingRegex node. Find and Replace is performed using Regex pattern match. 	
    * - Remove Duplicate Rows
      - - Removes duplicate rows from incoming dataset based on combination of values present in selected columns. 

@@ -1,7 +1,7 @@
 Create Docker image with the Jupyter notebook 
 ================
 
-Create a Docker image containing user-created notebooks, data, and required dependencies.
+Create a Docker image containing user-created notebooks, data, and required dependencies. This Docker Image would be executed by the Fire Insights App.
 
 Refer to the `Dockerfile and other details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
 

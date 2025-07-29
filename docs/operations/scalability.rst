@@ -31,7 +31,7 @@ All the pages in Fire Insights are built to be fast and lean. Let us take the fo
 
 * Development environment in which many users are logging in and creating and executing workflows and pipelines.
 * QA environment in which the QA is testing out the various projects. Not much workflow editing is happening in this environment. 
-* Production environment in which the scheduled jobs are executing. They could also be getting triggers by external programs or events. Not much workflow editing is happening in this environment. However, many jobs are getting execution on an hourly basis.
+* Production environment in which the scheduled jobs are executing. They could also be getting triggers by external programs or events. Not much workflow editing is happening in this environment. However, many jobs are getting executed on an hourly basis.
 
 Each development instance of Fire Insights can handle 200-500 users, assuming 30+ GB of RAM and 10+ vCPU cores for the machine. As the number of users increase, the size of the machine can be increased or more machines added. 
 

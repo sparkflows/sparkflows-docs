@@ -60,7 +60,14 @@ Macros that Sparkflows supports
      - Adjusts a given timestamp (ts) by a specified number of days or timeperiod and returns it in the desired format
    * - ${fire.macros.ts_format(ts, input_format, output_format)}
      - Formats a given timestamp (ts) from the specified input format to the desired output format
-
+   * - ${fire.macros.ds_format(ds, m, yyyy-MM-01, 1)}
+     - Returns the first day of the next month
+   * - ${fire.macros.ds_add(${fire.macros.ds_format(ds, d, yyyy-MM-01, 0)}, -1, , yyyy-MM-dd)}
+     - Returns the last day of the previous month
+   * - ${fire.macros.ds_format(ds, d, yyyy-MM-01, 0)}
+     - Returns the first day of the current month
+   * - ${fire.macros.ds_add(${fire.macros.ds_format(ds, m, yyyy-MM-01, 2)}, -1, , yyyy-MM-dd)}
+     - Returns the last day of the next month
 
 
 Macros related to Date

@@ -15,7 +15,7 @@ Below is a sample workflow which contains the Read CSV processor in Fire Insight
 It does the following processing of data:
 
 *	Reads incoming dataset in CSV Data format using the Read CSV node.
-* 	Prints the content of the CSV file using the Print node.
+* Prints the content of the CSV file using the Print node.
 
    
 
@@ -105,7 +105,7 @@ To configure Save CSV node follow the steps below:
 **Step 1 : General Tab Configurations**
 _______________________________________________
 
-Enter the required details in the fileds shown below as follows:
+Enter the required details in the fields shown below as follows:
 
  .. figure:: ../../../_assets/user-guide/read-write/save-files/CSVGenConfig.png
     :alt: savefiles_userguide
@@ -118,7 +118,7 @@ Enter the required details in the fileds shown below as follows:
 **Step 2 : Advanced Tab Configurations**
 ___________________________________________
 
-Enter the required details in the fileds shown below as follows:
+Enter the required details in the fields shown below as follows:
  
  .. figure:: ../../../_assets/user-guide/read-write/save-files/CSVAdvConfig.png
     :alt: savefiles_userguide

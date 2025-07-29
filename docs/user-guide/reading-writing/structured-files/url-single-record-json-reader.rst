@@ -15,7 +15,7 @@ It does the following processing of data:
 *	Prints the content of JSON file in a tabular format.
 
 
-**URL Single Record JSON Reader node configuration**
+**URL Single Record JSON Reader Node Configuration**
 
 The URL Single Record JSON Reader node is configured as below.
 
@@ -27,7 +27,7 @@ The URL Single Record JSON Reader node is configured as below.
     :alt: readwrite_userguide
     :width: 70%
    
-**URL Single Record JSON Reader node output**
+**URL Single Record JSON Reader Node Output**
 
 Output of the URL Single Record JSON Reader node prints the content of JSON file in a tabular format.
 

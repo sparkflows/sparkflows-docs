@@ -15,7 +15,7 @@ Below are the Docker commands used to build the image and push it to Docker Hub,
 
 .. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.
 
-Deploy Docker image in Kubernetes
+How Fire Insights deploys the Docker Image in Kubernetes Cluster
 ---------------------------------
 
 Fire Insights uses the below YAML files to deploy in kubernetes cluster:

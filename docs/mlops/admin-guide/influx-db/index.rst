@@ -13,7 +13,9 @@ Guide to the installation and configuration of Influx DB to store ML Ops metrics
     
     :doc:`/mlops/admin-guide/influx-db/influx-db-config`
 
+    ---
 
+    :doc:`/mlops/admin-guide/influx-db/influx-db-install-kubernetes`
 
 
 .. toctree::
@@ -21,4 +23,4 @@ Guide to the installation and configuration of Influx DB to store ML Ops metrics
 
    influx-db-install.rst
    influx-db-config.rst
-  
+   influx-db-install-kubernetes.rst

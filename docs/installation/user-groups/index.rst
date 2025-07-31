@@ -5,6 +5,7 @@ User / Groups
    :maxdepth: 2
 
    user-group-roles-permissions.rst
+   personas.rst
    sharing-projects.rst
    admin-user.rst
    security-session.rst

@@ -35,6 +35,9 @@ Fire Insights Docker Image
 Jupyter Notebook Docker Image
 -----------
 
+* July 31, 2025
+    * sparkflows/jupyternotebook:3.3.1
+    * https://hub.docker.com/layers/sparkflows/jupyternotebook/3.3.1/images/sha256-2459b0024f510c6c18446adaef0f755486499e3ae9fe789f8931fd1a26e1911d
 * Sep 03, 2024
     * sparkflows/jupyternotebook:3.2.82
     * https://hub.docker.com/layers/sparkflows/jupyternotebook/3.2.82/images/sha256-71a7c91ea67d4c6aa5e77945c45ba142075b57897120a45f76dbb962514ca467?context=repo

@@ -136,9 +136,11 @@ Step 4 : Test and Save the connection
 
    Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
 
-  .. Note:: 1. Make Sure Sparkflows User Login (Using Key-Pair) should have sufficient privilege of Snowflake resources.
+  .. Note:: 1. Please ensure that the Snowflake URL is accessible from the Sparkflows machine.
 
-       2. Please ensure that for the selected execution mode, the Snowflake key pair is accessible to the compute environment being used — such as Amazon EMR or any other specific compute engine.
+       2. Please ensure that the Sparkflows user login (using key-pair authentication) has sufficient privileges to access the required Snowflake resources.
+
+       3. Please ensure that for the selected execution mode, the Snowflake key pair is accessible to the compute environment being used — such as Amazon EMR or any other specific compute engine.
 
 
  

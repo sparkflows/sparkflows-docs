@@ -59,7 +59,7 @@ This persona offers:
 
     .. figure:: ../../_assets/security/toggle-mode-icon.PNG
      :alt: security
-     :width: 60%
+     :width: 30%
 
 
 

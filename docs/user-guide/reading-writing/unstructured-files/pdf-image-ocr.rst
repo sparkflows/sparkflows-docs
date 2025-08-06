@@ -13,20 +13,20 @@ It does the following processing of data:
    :alt: readwrite_userguide
    :width: 50%
    
-**PDF Image OCR node configuration**
+**PDF Image OCR Node Configuration**
 
 PDF Image OCR node is configured as below.
 
-*	Path of the PDF file needs to be entered in the ``Path Of The PDF Files`` box.
-*	Column in the output to display file name is to be entered in the ``File Name Column`` box.
-*	Column in the output to display content of the file is to be entered in the ``Column Name Which Contains Result of OCR`` box.
+*	``PATH OF THE PDF FILES``: Enter the path of the PDF file in the box.
+*	``FILE NAME COLUMN``: Enter the column name to display the file name in the output.
+*	``COLUMN NAME WHICH CONTAINS THE RESULT OF OCR``: Enter the column name to display the file content in the output.
 *	Output prints the content of OCR image embedded in a PDF file in text format.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDFImageConfig.png
    :alt: readwrite_userguide
    :width: 70%
    
-**PDF Image OCR node output**
+**PDF Image OCR Node Output**
 
 Output of the PDF Image OCR node prints the content of OCR image embedded in a PDF file in text format.
 

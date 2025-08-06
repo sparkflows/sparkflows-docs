@@ -14,20 +14,20 @@ It does the following processing of data:
    :width: 50%
    
 
-**PDF node configuration**
+**PDF Node Configuration**
 
 The PDF node is configured as below.
 
-*	A PDF file or path of a directory containing PDF files needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a PDF file or a directory from HDFS.
-*	Column name to list file name in output needs to be entered in the ``File Name``.
-*	Column name to list file content in output needs to be entered in the ``File Content``.
-*	``OK`` button needs to be clicked to complete the configuration.
+*	``Path``: Select a PDF file or path of a directory containing PDF files. The ``Browse FileSystem`` option can be used to browse and select a PDF file or a directory from HDFS.
+*	``FILE NAME``: Enter the column name to list file name in the output.
+*	``FILE CONTENT``: Enter the column name to list file content in the output.
+*	``Okay`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-unstructured/PDF-Config.png
    :alt: readpdf_node_userguide
    :width: 70%
 
-**PDF node output**
+**PDF Node Output**
 
 Data read from PDF files is printed as below using the Print node. Output is displayed in the file name and its content pair.
 

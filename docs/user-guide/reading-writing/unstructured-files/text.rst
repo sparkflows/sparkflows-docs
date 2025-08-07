@@ -18,7 +18,7 @@ It does the following processing of data:
 
 The Text Files node is configured as below.
 
-*	``Path``: Select a Text file or path of a directory containing multiple Text files. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
+*	``PATH``: Select a Text file or path of a directory containing multiple Text files. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
 *	``OUTPUT COLUMN NAME``: Enter column name to list Text files' content in the output.
 *	``OK`` button needs to be clicked to complete the configuration.
 

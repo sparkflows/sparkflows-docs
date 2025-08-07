@@ -5,7 +5,7 @@ Data preparation is the process of cleaning, transforming, and organizing a data
 
 
 
-Fire Insights provides the capability to perform the most complex data preperation operation via drag and drop.
+Fire Insights provides the capability to perform the most complex data preparation operation via drag and drop.
 
 .. panels::
     :container: container-lg pb-3

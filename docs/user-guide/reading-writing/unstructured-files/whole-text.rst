@@ -14,18 +14,18 @@ It does following processing of data:
    :width: 50%
    
 
-**Whole Text Files node configuration**
+**Whole Text Files Node Configuration**
 
 The Whole Text Files node is configured as below.
 
-*	Path of a directory containing the Text files needs to be selected in the ``Path``. The ``Browse HDFS`` option can be used to browse and select a directory from HDFS.
+*	``PATH``: Select the path of a directory containing the Text files. The ``Browse HDFS`` option can be used to browse and select a directory from HDFS.
 *	``OK`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-unstructured/readwholetext-configuration.png
    :alt: readwholetext_node_userguide
    :width: 70%
 
-**Whole Text Files node output**
+**Whole Text Files Node Output**
 
 List of Text Files along with their contents is printed as below using the Print node. Output is printed in the File Name and File Content pair.
 

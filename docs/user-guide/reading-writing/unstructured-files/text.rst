@@ -14,21 +14,21 @@ It does the following processing of data:
    :width: 50%
    
 
-**Text Files node configuration**
+**Text Files Node Configuration**
 
 The Text Files node is configured as below.
 
-*	A Text file or path of a directory containing multiple Text files needs to be selected in the  ``Path``. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
-*	Column name to list Text files' content in output needs to be entered in the ``Output Column Name``.
+*	``Path``: Select a Text file or path of a directory containing multiple Text files. The ``Browse HDFS`` option can be used to browse and select a Text file or a directory from HDFS.
+*	``OUTPUT COLUMN NAME``: Enter column name to list Text files' content in the output.
 *	``OK`` button needs to be clicked to complete the configuration.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-unstructured/readtextfiles-configuration.png
    :alt: readtextfiles_node_userguide
    :width: 70%
 
-**Text Files node output**
+**Text Files Node Output**
 
-Data read from Text files is printed as below using the Print node. Data from all files would be displayed together in a single column. Each line of data in the files would represent one record in the output.
+Data read from Text files is printed as below using the Print node. Data from all files will be displayed together in a single column. Each line of data in the files would represent one record in the output.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-unstructured/readtextfiles-printnode-output.png
    :alt: readtextfiles_node_userguide

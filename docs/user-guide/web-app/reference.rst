@@ -107,6 +107,56 @@ Buttons
      - execute-node
      - any
      - Component is added to execute a single node and perform certain tasks based on the execution result.
+   * - Cancel
+     - Button
+     - cancel
+     - any
+     - Component is added to cancel the current stage and go back on previous page.
+   * - Execute Query
+     - Button
+     - execute-query
+     - any
+     - Component is added to execute a database query and show result in table.
+   * - Get Query Result
+     - Button
+     - get-query-result
+     - any
+     - Component is added to execute a database query and show result in table with support pagination.
+   * - Export DB Data
+     - Button
+     - export-db-data
+     - any
+     - Component is added to export database table data into excel. Commonly use with `get-query-result` data.
+   * - Expand
+     - Button
+     - expand
+     - any
+     - Component is added to expand a section or component.
+   * - Modal Content
+     - Button
+     - modal-content
+     - any
+     - Component is added to display given component content into modal.
+   * - View PDF
+     - Button
+     - viewPdf
+     - any
+     - Component is added to view selected file content. It could be text, csv, html, image or pdf file.
+   * - Refresh File
+     - Button
+     - refreshFile
+     - any
+     - Component is added to refresh or reload the file List.
+   * - Get Dashboard
+     - Button
+     - get-dashboard
+     - any
+     - Component is added to retrieve and display a dashboard.
+   * - Get Report
+     - Button
+     - get-report
+     - any
+     - Component is added to retrieve and display a report.
      
 Mapping Table Columns
 ----------

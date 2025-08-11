@@ -13,5 +13,6 @@ User / Groups
    databricks-security.rst
    data-browser.rst
    manage-nodes.rst
+   Access-Token.rst
 
    

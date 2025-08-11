@@ -1,5 +1,6 @@
 Analytical App Reference Guide
 =======================
+This document outlines the components, properties, and functionalities available in the Analytical App, providing detailed reference for configuring file uploads, data mapping, navigation, and various interactive operations.
 
 Upload Stage
 --------
@@ -56,7 +57,7 @@ Buttons
      - Button
      - upload 
      - upload
-     - Component is added to upload choose file to databricks in specified destination path otherwise by default it will store inside FileStore folder.
+     - Component is added to upload chosen file to databricks in specified destination path otherwise by default it will be stored inside FileStore folder.
    * - Map Fields
      - Button
      - mapFields 
@@ -96,12 +97,12 @@ Buttons
      - Button
      - export-text
      - any
-     - Component is added to download the content of any components as a txt file.
+     - Component is added to download the content of any components as a .txt file.
    * - Show Difference
      - Button
      - text-diff
      - any
-     - Component is added to show the difference between two component content.
+     - Component is added to show the difference between the contents of two components.
    * - Translate
      - Button
      - execute-node
@@ -111,7 +112,7 @@ Buttons
      - Button
      - cancel
      - any
-     - Component is added to cancel the current stage and go back on previous page.
+     - Component is added to cancel the current stage and go back to the previous page.
    * - Execute Query
      - Button
      - execute-query
@@ -126,7 +127,7 @@ Buttons
      - Button
      - export-db-data
      - any
-     - Component is added to export database table data into excel. Commonly use with `get-query-result` data.
+     - Component is added to export database table data into an excel file. It is commonly used with `get-query-result` data.
    * - Expand
      - Button
      - expand
@@ -141,12 +142,12 @@ Buttons
      - Button
      - viewPdf
      - any
-     - Component is added to view selected file content. It could be text, csv, html, image or pdf file.
+     - Component is added to view selected file content. It can be text, CSV, HTML, image or PDF file.
    * - Refresh File
      - Button
      - refreshFile
      - any
-     - Component is added to refresh or reload the file List.
+     - Component is added to refresh or reload the file list.
    * - Get Dashboard
      - Button
      - get-dashboard
@@ -243,4 +244,4 @@ Download Text Area or Text Field Content as Text File
      - Button
      - export-text
      - KEY: exportFrom, VALUE: component property name (It will save given component content into a text file).
-     - Component is added to download the content of any components as a txt file.
+     - Component is added to download the content of any components as a .txt file.

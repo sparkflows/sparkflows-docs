@@ -1,5 +1,8 @@
 Copilot
 ====
+
+This document outlines how to configure, use, and manage Copilot in Sparkflows to create workflows, projects, and queries using Natural Language capabilities.
+
 Prerequisites
 -----------
 
@@ -8,7 +11,8 @@ Prerequisites
   .. figure:: ../_assets/user-guide/copilot/copilot_configuration.png
      :alt: copilot configuration
      :width: 60%
-2. Gen AI connection required for making queries.
+
+2. Gen AI connection is required for making queries.
 
 Add Copilot
 -----------
@@ -18,13 +22,13 @@ Add Copilot
     :alt: copilot_administration
     :width: 60%
 
-2. Click on **Add Copilot** button and enter details such as the Copilot name and Gen AI connection required for making queries.
+2. Click on **Add Copilot** button and enter details such as the Copilot Name and Gen AI Connection required for making queries. Then click on **Save** button.
 
   .. figure:: ../_assets/user-guide/copilot/create_copilot.png
     :alt: create_copilot
     :width: 60%
 
-3. Once created, the user can update the Copilot details by clicking the pen icon in the table.
+3. Once created, you can **update** the Copilot details by clicking the **Edit Details** icon (pen icon) in **Actions** column in the table.
 
   .. figure:: ../_assets/user-guide/copilot/update_copilot.png
     :alt: update_copilot
@@ -33,13 +37,17 @@ Add Copilot
 Copilot on Workflow
 -----------
 
-1. Once the Copilot is created, the user can use it in the workflow designer by clicking the Copilot icon.
+1. Once the Copilot is created, you can use it in the workflow designer by clicking the **Copilot icon**.
+
+  .. figure:: ../_assets/user-guide/copilot/copilot-icon.PNG
+      :alt: copilot_workflow
+      :width: 60%
 
   .. figure:: ../_assets/user-guide/copilot/copilot_workflow.png
     :alt: copilot_workflow
     :width: 60%
 
-2. Once the workflow is generated based on the user query, the user can move it to the main designer using the **Move to Editor** option.
+2. Once the workflow is generated based on your query, you can move it to the main designer using the **Move to Editor** option.
 
   .. figure:: ../_assets/user-guide/copilot/copilot_move_to_editor.png
     :alt: copilot_move_to_editor
@@ -48,7 +56,7 @@ Copilot on Workflow
 Copilot on Nodes
 ---------------
 
-1. By double-clicking on a node, the user can access the Copilot for easy Natural Language Query (NLQ) writing. For example, in the image below, the user provided a prompt and the Copilot generated the appropriate query.
+1. By double-clicking a node, you can access the Copilot for easy Natural Language Query (NLQ) writing. For example, in the image below, a prompt is provided and the Copilot generated the appropriate query.
 
   .. figure:: ../_assets/user-guide/copilot/copilot_nodes.png
     :alt: copilot_nodes
@@ -57,22 +65,23 @@ Copilot on Nodes
 Copilot on Project
 ------------------
 
-1. Fire Insights allows users to create projects using Natural Language Queries (NLQ) with the help of Copilot.
+1. Fire Insights allows you to create projects using Natural Language Queries (NLQ) with the help of Copilot.
 
   .. figure:: ../_assets/user-guide/copilot/copilot_project.png
     :alt: copilot_project
     :width: 60%
 
-2. When the Create Using Natural Language button is clicked, a popup will appear for creating a project.
+2. On clicking **Create Using Natural Language** option, a popup will appear for creating a project.
 
   .. figure:: ../_assets/user-guide/copilot/copilot_project_create.png
     :alt: copilot_project_create
     :width: 60%
 
-  The project description will be used as the prompt for creating the project. 
-  The data directory location specifies where all data files for datasets will be stored, and the selected Copilot will be used to perform queries.
+  The **project description** will be used as the prompt for creating the project. 
+ 
+  The **Data Directory Location** specifies where all data files for datasets will be stored, and the selected Copilot will be used to perform queries.
 
-3. Once the user clicks Save, Copilot will create a project along with a set of datasets and workflows based on the description provided by the user.
+3. Once you click **Submit**, Copilot will create a project along with a set of datasets and workflows based on your description.
 
   .. figure:: ../_assets/user-guide/copilot/copilot_dataset_created.png
     :alt: copilot_dataset_created

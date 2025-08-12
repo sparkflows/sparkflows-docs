@@ -42,3 +42,5 @@ Add Node Configuration
      :alt: after_configured_pipeline
      :width: 60%
 
+.. Note:: If a user is a member of multiple groups, the node will be visible as long as it is visible in at least one of those groups.
+

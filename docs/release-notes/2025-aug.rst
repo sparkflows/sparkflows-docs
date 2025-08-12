@@ -1,0 +1,77 @@
+Version 3.3.5 - August 15th, 2025
+=====
+
+
+New Features
+----
+
+Access Tokens
+++++
+
+* **Token Description Editing :** Added the ability for users to edit the description of an existing token.
+
+Airflow Pipelines
+++++
+
+* **Macros Support :** Added support for macros in Airflow Pipelines to retrieve Pipeline ID, Pipeline Name and Pipeline Execution ID.
+
+Node Management
+++++
+
+* **Group-Based Node Accessibiilty :** Introduced the ability to show or hide specific custom nodes (lego blocks) for certain groups. Requires **nodes.manage** permission to access the Manage Nodes card in Administration.
+
+Snowflake Nodes
+++++
+
+* **Multiple CRUD Operations :** Added the ability to execute multiple CRUD operations within the same Snowflake node.
+
+User Management
+++++
+
+* **Group Name Display in Edit Page :** The Group Name being edited is now displayed on the Edit Group page for clarity.
+
+Enhancements
+-----
+
+Platform Reliability
+++++
+* **Retry and Delay Support in Operators :** Added support for **retries**, **retry_delay**, **max_retry_delay**, and **retry_exponential_backoff** in more operators. This enhancement ensures that retries are spaced out and grow exponentially, reducing the likelihood of triggering API throttling.
+
+Access Tokens
+++++
+
+* **Token Expiry Notification :** Enhanced token expiry notification emails to include instance details for better traceability.
+
+
+Documentation
+----
+* **Access Tokens :** Added documentation on managing access tokens in Sparkflows, including permissions for editing descriptions, deleting tokens (individually or in bulk), and ensuring transparency through detailed deletion summaries. Refer here: :ref:`Access Tokens<Access Tokens>`
+
+* **Manage Nodes :** Added documentation on managing the visibility of workflow and pipeline nodes in Sparkflows by configuring node access for different user groups based on permissions. Refer here: :ref:`Manage Nodes<Manage Nodes>`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

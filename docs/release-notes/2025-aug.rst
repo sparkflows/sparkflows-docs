@@ -13,12 +13,12 @@ Access Tokens
 Airflow Pipelines
 ++++
 
-* **Macros Support :** Added support for macros in Airflow Pipelines to retrieve Pipeline ID, Pipeline Name and Pipeline Execution ID.
+* **Macros Support :** Added support for macros in Airflow Pipelines to retrieve *Pipeline ID*, *Pipeline Name* and *Pipeline Execution ID*.
 
 Node Management
 ++++
 
-* **Group-Based Node Accessibiilty :** Introduced the ability to show or hide specific custom nodes (lego blocks) for certain groups. Requires **nodes.manage** permission to access the Manage Nodes card in Administration. If a user belongs to multiple groups, a node remains visible if allowed in at least one group.
+* **Group-Based Node Accessibility :** Introduced the ability to show or hide specific custom nodes (lego blocks) for certain groups. Requires **nodes.manage** permission to access the *Manage Nodes* card in Administration. If a user belongs to multiple groups, a node remains visible if allowed in at least one group.
 
 Snowflake Nodes
 ++++
@@ -28,7 +28,7 @@ Snowflake Nodes
 User Management
 ++++
 
-* **Group Name Display in Edit Page :** Added the feature to display the Group Name being edited on the Edit Group page for clarity.
+* **Group Name Display in Edit Page :** Added the feature to display the *Group Name* being edited on the *Edit Group page* for clarity.
 
 Enhancements
 -----
@@ -40,11 +40,12 @@ Platform Reliability
 Access Tokens
 ++++
 
-* **Token Expiry Notification :** Enhanced token expiry notification emails to include instance details for better traceability.
+* **Token Expiry Notification :** Enhanced token expiry notification emails to include **instance details** for better traceability.
 
 API
 +++
-* **Connection ID Support in Pipeline Execute API :** Enhanced the pipeline execute API to accept a connectionId parameter, allowing users to specify the Airflow connection ID for pipeline execution. If not provided, the user’s default Airflow connection is used.
+
+* **Connection Support in Pipeline Execute API :** Enhanced the pipeline execute API to accept a **connectionId** and **connectionName** parameter, allowing users to specify the Airflow connection ID for pipeline execution. If not provided, the user’s default Airflow connection is used.
 
 Documentation
 ----

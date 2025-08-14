@@ -12,7 +12,7 @@ Supported MacOS Versions
 Below are required for installing Sparkflows on Mac::
 
   - JDK 17 installed.
-  - java and jar have to be set in the PATH
+  - Java has to be set in the PATH
   - 8 GB+ of RAM.
   - Python 3.9 (when running Python and PySpark, otherwise not needed)
 

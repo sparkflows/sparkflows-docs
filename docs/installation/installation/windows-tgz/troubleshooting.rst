@@ -15,7 +15,7 @@ Solution
 This problem can be because ::
 
   * JDK 32 bit instead of 64 bit
-  * OR Java 8 is not installed. Some other version of Java is installed.
+  * OR Java 17 is not installed. Some other version of Java is installed.
 
 Running into an exception when saving files
 ++++++++++++++++++++++++++++

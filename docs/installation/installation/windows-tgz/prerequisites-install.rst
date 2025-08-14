@@ -4,59 +4,59 @@ Prerequisites
 Below are the Prerequisites for installing Fire Insights on a windows machine::
 
 
-  - JDK 8 installed.
-  - java and jar have to be in the PATH
+  - JDK 17 installed.
+  - java and jar have to be set in the PATH
   - 8+ GB of RAM on the machine.
   
 
-Check JDK 8 is installed
+Check JDK 17 is installed
 ====================
 
 * Check the JDK version installed on your machine::
 
-    Open the command window 
+    Open the command prompt 
     Type the following command to check your java version : java -version
 
-* If JDK 8 is not installed, follow the JDK installation steps mentioned below.
+* If JDK 17 is not installed, it will display the message as below: 
+
+  .. figure:: ../../../_assets/installation/check-java-installed.png
+   :alt: Installations
+   :width: 60%
+
+   Now, follow the JDK 17 installation steps mentioned below.
 
 
-Install JDK 8
+Steps to Install JDK 17
 ====================
 
-* Download JDK 8 for windows using the link below:
+1. Download JDK 17 for windows using the link below:
 
-  * https://www.oracle.com/java/technologies/downloads/#java8
+   https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 
-* Click on the link for the JDK download for Windows. On the Oracle page that opens, scroll down and select download the x64 Installer.
-
-* This will start the download of the exe file. Login into your Oracle account, when prompted, to start the download. If you do not already have an Oracle account, create one to download the exe file.
-
-* Once the exe is downloaded, double click on the file. This will start the JDK installation as shown below:
-
-  .. figure:: ../../../_assets/installation/install-wizard-jdk.png
-   :alt: Installations
-   :width: 60%
+2. On the Oracle page that opens, scroll down and search **Windows x64 Installer**. Click on the download link. This will start the download of the **.exe** file. Log in to your Oracle account when prompted to start the download. If you do not already have an Oracle account, create one to download the **.exe** file.
 
 
-* Click on the next button, which will take you to the installation page where the path for the JDK   installation directory will be displayed. Leave this as default and click on the next button.
+3. Once the .exe file is downloaded, double-click it to start the JDK installation, as shown below:
 
-  .. figure:: ../../../_assets/installation/installation-path-jdk.png
-   :alt: Installations
-   :width: 60%
-
-
-* The JDK installation will start and progress on installation will be displayed as shown below:
-
-  .. figure:: ../../../_assets/installation/progress-jdk.png
-   :alt: Installations
-   :width: 60%
+   .. figure:: ../../../_assets/installation/install-wizard-jdk.png
+     :alt: Installations
+     :width: 60%
 
 
-* Once installation is complete, click on the **Close** button.
+4. Click on **Next** button, which will take you to the installation page where the path for the JDK installation directory will be displayed. Leave this as default and click on **Next** button.
 
-  .. figure:: ../../../_assets/installation/close-jdk.png
-   :alt: Installations
-   :width: 60%
+   .. figure:: ../../../_assets/installation/installation-path-jdk.png
+      :alt: Installations
+      :width: 60%
+
+
+   The JDK installation will start and progress on installation will be displayed on the wizard.
+
+5. Once the installation is complete, click on **Close** button to finish the setup.
+
+   .. figure:: ../../../_assets/installation/close-jdk.png
+      :alt: Installations
+      :width: 60%
 
 Update JAVA_HOME and PATH variables
 ====================
@@ -76,8 +76,7 @@ Update JAVA_HOME and PATH variables
 Verify Installation of Java
 ====================
 
-* To verify if the installation is successful, from the command prompt, type the command:
-  **java -version**. If the installation was successful, it will display the version of JDK that has been installed, as shown below:
+* To verify that the installation was successful, open the Command Prompt and type the command: **java -version**. If the installation was successful, the version of the installed JDK will be displayed, as shown below:
 
   .. figure:: ../../../_assets/installation/java_version.png
    :alt: Installations

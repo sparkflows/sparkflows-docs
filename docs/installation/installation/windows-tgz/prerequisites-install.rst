@@ -23,6 +23,7 @@ Check JDK 17 is installed
    :alt: Installations
    :width: 60%
 
+   
    Now, follow the JDK 17 installation steps mentioned below.
 
 

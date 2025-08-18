@@ -14,6 +14,12 @@ This document provides detailed instructions for setting up Sparkflows on an Inc
 
     ---
 
+    :doc:`/incorta/admin-guide/installation-guide/index`
+
+    Deploy Sparkflows on Linux.
+
+    ---
+
     :doc:`/incorta/admin-guide/chidori-connection`
 
     Configure Chidori Connection
@@ -29,6 +35,7 @@ This document provides detailed instructions for setting up Sparkflows on an Inc
    :hidden:
 
    incorta-overview.rst
+   installation-guide/index.rst
    chidori-connection.rst
    storage-connection.rst
 

@@ -14,6 +14,12 @@ This document provides detailed instructions for setting up Sparkflows on an Inc
 
     ---
 
+    :doc:`/incorta/admin-guide/Infrastructure`
+
+    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on Linux.
+
+    ---
+
     :doc:`/incorta/admin-guide/installation-guide/index`
 
     Deploy Sparkflows on Linux.
@@ -35,6 +41,7 @@ This document provides detailed instructions for setting up Sparkflows on an Inc
    :hidden:
 
    incorta-overview.rst
+   Infrastructure.rst
    installation-guide/index.rst
    chidori-connection.rst
    storage-connection.rst

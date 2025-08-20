@@ -40,7 +40,7 @@ Downloading and Installing Java 17
 
 * Set the **JAVA_HOME** property.
 
-There are various ways for Installing Java 8 on Linux. Some are listed below.
+There are various ways for Installing Java 17 on Linux. Some are listed below.
 
 
 Install using Linux RPM Package

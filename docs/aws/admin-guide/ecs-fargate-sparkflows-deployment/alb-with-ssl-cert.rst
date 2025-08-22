@@ -102,7 +102,7 @@ Step 3 : Create an ECS service
 
 #. Provide the target group configuration as shown below in the image.
    
-   **Note:**We'll be modifying the below target group configuration for healthcheck rules, once the service is created.
+   **Note:** We'll be modifying the below target group configuration for healthcheck rules, once the service is created.
 
    .. figure:: ../../../_assets/aws/ecs-fargate-sparkflows-deployment/configure-target-group.png
       :alt: aws

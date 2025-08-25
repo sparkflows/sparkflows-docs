@@ -8,19 +8,25 @@ It is not recommended to use this installer on servers, where you need better co
 
 Step 1 : Verify Prerequisites
 -----------------------------
+#. Ensure you have Java 17 installed.
 
-#. **JAVA 17:** Ensure you have Java 17 installed. You can download and install Java 17 from `here. <https://www.oracle.com/java/technologies/downloads/#java17-windows>`_
-#. **Permissions:** 
+   #. **Download JAVA 17:** You can download Java 17 from `here. <https://www.oracle.com/java/technologies/downloads/#java17-windows>`_
 
-   * Ensure you have sufficient permissions to download and install Sparkflows in the user directory.
-   * You need write permission to download winutils.exe inside the Windows directory and set the environment path.
-#. **Set JAVA_HOME:**
+   #. **Install & Setup Java 17 and Set JAVA_HOME Path:**
 
-   * After installing Java, you may need to set JAVA_HOME.
-   * If you have multiple versions of Java installed on your system, you can update the PATH using the steps outlined in either of the links below:
+     * You can install java 17 by following the steps in the below documentation:
+       https://docs.sparkflows.io/en/latest/installation/installation/windows-tgz/prerequisites-install.html#steps-to-install-jdk-17
+     * After installing Java, you may need to set JAVA_HOME. For this, refer to the below documentation:
+       https://docs.sparkflows.io/en/latest/installation/installation/windows-tgz/prerequisites-install.html#update-java-home-and-path-variables
+     * If you have multiple versions of Java installed on your system, you can update the PATH using the steps outlined in either of the links below:
 
-     * `Set JAVA_HOME on Windows 10 <https://javatutorial.net/set-java-home-windows-10>`_
-     * `Update PATH for Java <https://www.java.com/en/download/help/path.xml>`_
+       * `Set JAVA_HOME on Windows 10 <https://javatutorial.net/set-java-home-windows-10>`_
+       * `Update PATH for Java <https://www.java.com/en/download/help/path.xml>`_
+
+#. Ensure you have Winutils installed.
+
+   #. **Download and Install Winutils:** You can setup winutils by following the steps in the below documentation:
+      https://docs.sparkflows.io/en/latest/installation/installation/windows-tgz/prerequisites-install.html#install-winutils-exe
            
 
 Step 2 : Download the Installer

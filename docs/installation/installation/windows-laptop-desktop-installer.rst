@@ -40,53 +40,53 @@ Step 3 : Install Sparkflows
 
 #. Once downloaded, open and run the installer file. The default installer dashboard appears when you open the installer. Click the **Install Sparkflows** button to proceed to the install menu.
 
-   .. figure:: ../../_assets/installer/initial-dashboard-view.jpg
+   .. figure:: ../../_assets/installer/initial-dashboard-view.png
       :alt: Installations
       :width: 60% 
 
 #. In the Install menu, a list of the available Java versions currently present on the system will be displayed. Click the **Start Install** button to begin the installation of Sparkflows.
 
-   .. figure:: ../../_assets/installer/initial-install-menu.jpg
+   .. figure:: ../../_assets/installer/initial-install-menu.png
       :alt: Installations
       :width: 60% 
 
 #. After starting the installation, the Install Menu Dashboard will display further information related to winutils, the Java version, and their paths. It will also show the download progress and the location where the file is being downloaded.
 
-   .. figure:: ../../_assets/installer/download-progress.jpg
+   .. figure:: ../../_assets/installer/download-progress.png
       :alt: Installations
       :width: 60% 
 
 #. Once the .tgz file is downloaded, it will be unzipped, and the H2 DB required to start Sparkflows will be created.
 
-   .. figure:: ../../_assets/installer/unzipping-creatingdb.jpg
+   .. figure:: ../../_assets/installer/unzipping-creatingdb.png
       :alt: Installations
       :width: 60% 
 
 #. After the H2 DB is created, a prompt will appear to choose the port on which Sparkflows should run. If you press the **Continue** button, it will run on port 8080 by default.
 
-   .. figure:: ../../_assets/installer/setting-port.jpg
+   .. figure:: ../../_assets/installer/setting-port.png
       :alt: Installations
       :width: 60% 
 
 #. If you click the **Change Port Number** button, you will be prompted to enter a new port number. After entering the new port number, press the **OK** button to start Sparkflows on that port.
 
-   .. figure:: ../../_assets/installer/changing-port.jpg
+   .. figure:: ../../_assets/installer/changing-port.png
       :alt: Installations
       :width: 60% 
 
    A message displaying **Starting Sparkflows on port** will appear in the Install Menu Dashboard.
 
-   .. figure:: ../../_assets/installer/starting-sparkflows.jpg
+   .. figure:: ../../_assets/installer/starting-sparkflows.png
       :alt: Installations
       :width: 60% 
 
    After Sparkflows has started, the message **Started Sparkflows on port** will be displayed in the Install Menu Dashboard, and the browser will automatically open and navigate to the Sparkflows login page.
 
-   .. figure:: ../../_assets/installer/started-sparkflows.jpg
+   .. figure:: ../../_assets/installer/started-sparkflows.png
       :alt: Installations
       :width: 60% 
 
-   .. figure:: ../../_assets/installer/started-sparkflows-browser.jpg
+   .. figure:: ../../_assets/installer/started-sparkflows-browser.png
       :alt: Installations
       :width: 60% 
 
@@ -108,24 +108,24 @@ Step 4 : Post-Installation Configuration
 
 #. After Sparkflows has started, navigate to the Installer Dashboard Menu. It will be updated with data such as the Sparkflows server URL, status of the Sparkflows server, Java version being used and its related information, winutils location, H2 database status, and its related information.
 
-   .. figure:: ../../_assets/installer/dashboard-after-start.jpg
+   .. figure:: ../../_assets/installer/dashboard-after-start.png
       :alt: Installations
       :width: 60% 
 
 #. If you stop the Sparkflows server by clicking the **Stop Sparkflows** button, the installer dashboard will be updated accordingly.
 
-   .. figure:: ../../_assets/installer/dashboard-after-stop.jpg
+   .. figure:: ../../_assets/installer/dashboard-after-stop.png
       :alt: Installations
       :width: 60% 
 
 #. Logs are accessible by navigating to the logs menu. Clicking the **View Server Logs** or **View Fire Logs** buttons will display the respective logs in a new window.
 
-   .. figure:: ../../_assets/installer/logs-view-page.jpg
+   .. figure:: ../../_assets/installer/logs-view-page.png
       :alt: Installations
       :width: 60% 
 
 #. The history of actions related to the Sparkflows installer will also be visible in the History Menu in a table, showing the time when each action took place.
 
-   .. figure:: ../../_assets/installer/history-page.jpg
+   .. figure:: ../../_assets/installer/history-page.png
       :alt: Installations
       :width: 60%

@@ -30,6 +30,11 @@ User Management
 
 * **Group Name Display in Edit Page :** Added the feature to display the *Group Name* being edited on the *Edit Group page* for clarity.
 
+AI & GenAI Connections
+++++
+
+* **Azure OpenAI Connection – Client Credentials Authentication :** Added support for Client Credentials authentication in Azure OpenAI Connections, alongside API Key/Token enabling secure OAuth2-based integration with Azure AD using *Client ID, Secret, Token Endpoint, and Scope*.
+
 Enhancements
 -----
 
@@ -53,7 +58,7 @@ Documentation
 
 * **Manage Nodes :** Added documentation on managing the visibility of workflow and pipeline nodes in Sparkflows by configuring node access for different user groups based on permissions. Refer here: :ref:`Manage Nodes<Manage Nodes>`
 
-
+* **Azure OpenAI Connection :** Updated documentation to include support for the Client Credentials authentication type in Azure OpenAI Connection, along with details of its configuration fields. Refer here: :ref:`Azure OpenAI Connection<Azure OpenAI Connection>`
 
 
 

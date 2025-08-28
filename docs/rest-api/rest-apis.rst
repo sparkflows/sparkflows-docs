@@ -1162,7 +1162,7 @@ Pipeline Execute Controller
 
     # Execute the pipeline
     
-    GET /api/executePipeline 
+    POST /api/v1/executePipeline
     
     # getPipelineExecutionListByProjectId
     
@@ -1175,10 +1175,6 @@ Pipeline Execute Controller
     # deletePipelineExecutionById
     
     DELETE /api/v1/pipelines/execution/{pipelineExecutionId} 
-    
-    # refreshStatusByAirflow
-    
-    GET /api/v1/pipelines/execution/{pipelineExecutionId}/airflow/refreshStatus 
     
     # refreshPipelineStatus
     

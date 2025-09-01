@@ -1,4 +1,4 @@
-Version 3.1.0 - September 1st, 2018
+Version 3.1.0 - September, 2018
 =================
 
 * Release Date: 09/01/2018

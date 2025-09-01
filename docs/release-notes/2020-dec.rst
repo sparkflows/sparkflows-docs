@@ -1,4 +1,4 @@
-Version 3.1.16 - December 31st, 2020
+Version 3.1.16 - December, 2020
 ========
 
 New Features

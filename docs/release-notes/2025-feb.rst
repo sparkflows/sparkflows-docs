@@ -1,4 +1,4 @@
-Version 3.2.94 - February 26th, 2025
+Version 3.2.94 - February, 2025
 ======================
 
 New Features

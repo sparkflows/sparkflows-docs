@@ -1,4 +1,4 @@
-Version 1.4.0 - November 29th, 2017
+Version 1.4.0 - November, 2017
 =================
 
 * Release Date: 11/29/2017

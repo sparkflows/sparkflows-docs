@@ -1,4 +1,4 @@
-Version 3.3.2 - June 12th, 2025
+Version 3.3.2 - June, 2025
 ======
 
 New Features

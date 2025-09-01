@@ -30,7 +30,7 @@ User Guide
 
     ---
     
-    :doc:`/mlops/user-guide/model_monitoring`
+    :doc:`/mlops/user-guide/model-monitoring/index`
 
     ---
     
@@ -50,6 +50,6 @@ User Guide
    model_deployment.rst
    offline-model-serving.rst
    online-model-serving.rst
-   model_monitoring.rst 
+   model-monitoring/index
    model_observability_retraining.rst
    modeldoc-guide.rst

@@ -8,6 +8,9 @@ New Features
 * New Node: PGP Decryption: A new PGP Decryption node has been introduced to facilitate the decryption of PGP files. The decrypted files can be uploaded directly to a specified S3 location.
 * Automation Execution Cleanup: Sparkflows now includes functionality to clean up workflow and pipeline executions after enabling property `app.db.cleanup.enabled=true` based on a specified cron expression set into `db.cleanup.cronExpression`. 
 * Logs Automation Cleanup: A new feature has been added to automate the cleanup of older logs using a specified cron expression set into `log.cleanup.cronExpression`.
+* Delta support for PySpark Engine.
+* EMR Serverless support.
+
 
 
 Improvements
@@ -25,3 +28,6 @@ Bug Fixes
 
 Documentation
 -------------
+* Updated documentation for Delta Support.
+* Updated documentation for Amazon EMR Serverless Integration.
+

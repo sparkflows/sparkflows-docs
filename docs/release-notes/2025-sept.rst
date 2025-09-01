@@ -44,7 +44,9 @@ Model Serving
 
 * **Performance Improvement using Process Pool :** Upgraded model serving implementation to support multiple requests simultaneously. A process pool has been implemented to allow multiple worker processes to handle requests in parallel, improving system throughput, reducing latency, and ensuring more stable performance under high load.
 
-
+Documentation
+----
+* **ML Data Metrics :** Added documentation on *ML Data Metrics* node covering node configuration, workflow integration for training and prediction and the output generated. Refer here: :ref:`ML Data Metrics<ML Data Metrics>`
 
 
 

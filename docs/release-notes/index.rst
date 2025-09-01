@@ -16,7 +16,6 @@ Release Notes
    2025-jan.rst
    2024-nov.rst
    2024-aug.rst
-   2024-aug-7.rst
    2024-jun.rst
    2024-may.rst
    2024-apr.rst

@@ -1,0 +1,94 @@
+Version 3.3.7 - September, 2025
+=====
+
+New Features
+----
+
+Machine Learning
+++++
+  
+* **Model Drift Tracking :** Added *ML Data Metrics* node to track and save model drift data. Drift is also displayed on the Models page in *graphical form* for better visualization. 
+* **Enhanced Performance Monitoring :** Added graphical representations on the Models Page for the following:
+  
+  * Data Drift Over Time
+  * Average Drift Over Time
+  * Prediction Over Time
+  * Metrics Over Time
+* **Expanded Model Insights :** Added *Validation metrics* under Model Interpretation and *Test metrics* under Model Evaluation for H2O and SparkML models.
+* **MLflow Integration :** When MLflow is enabled, models are automatically registered in MLflow for streamlined model management.
+* **Automated Cleanup :** Added automation in *Model Scoring* to perform daily cleanup. Old scoring data older than the configured retention period (default: 30 days) will be deleted automatically, ensuring optimized storage. Cleanup is triggered only when more than 100 scoring records exist per model.
+
+Dataset
+++++
+* **Oracle Dataset Support :** Added the ability to create datasets in Sparkflows using an Oracle connection and view its sample data.
+* **Browse DB/Table Support :** Added the ability to browse databases and their tables during creation of dataset using connection.
+
+Dashboard
+++++
+* **Oracle Dashboard Support :** Enabled creation of dashboards in Sparkflows using datasets created using Oracle Connection.
+
+Platform Management
+++++
+* **Group-Level HDFS Browse Options :** Moved *HDFS Local Home Directory* to Groups Create/Edit pages, enabling support for multiple teams with tailored access.
+
+Feature Engineering
+++++
+* **Group By Node :** Introduced the node that computes aggregated user-level features such as frequency, recency, average days between events, purchase sums, and customer age. It summarizes data per group (e.g., user ID) into compact feature sets.
+* **Time Series Features Node :** Added the node that enriches each transaction with temporal features like days since last purchase, transaction hour, rolling counts, and seasonality indicators. Keeps the same row count while adding time-based behavioral insights.
+* **Moving Average Features Node :** Introduced the node for calculating moving averages over defined time windows (e.g., 7 days). Supports rolling averages for amounts, sales, gaps, and unique users, helping uncover trends and seasonality.
+
+Enhancements
+----
+Model Serving
+++++
+
+* **Performance Improvement using Process Pool :** Upgraded model serving implementation to support multiple requests simultaneously. A process pool has been implemented to allow multiple worker processes to handle requests in parallel, improving system throughput, reducing latency, and ensuring more stable performance under high load.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

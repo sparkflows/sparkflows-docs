@@ -46,7 +46,7 @@ Once the required configurations are completed by an Admin, one can deploy the m
     model_id = 361 # This is the id of the model which you want to use to score
     token = 'xxxxxxxxx' # Retrieve/Create it from Sparkflows user profile page
     
-    http_data = test_data.to_json(orient='split')
+    http_data = test_data.to_json(orient='records')
     scoring_api_url = 'http://XX.15.YYY.171:8080/api/v1/score-models?modelId='+ str(model_id)
     api_call_headers = {'token': token}
     response = requests.post(scoring_api_url, data=http_data, headers=api_call_headers)
@@ -57,7 +57,7 @@ Once the required configurations are completed by an Admin, one can deploy the m
     import requests
     import pandas as pd
     test_data = pd.read_csv('/home/ubuntu/test.csv')
-    http_data = test_data.to_json(orient='split')
+    http_data = test_data.to_json(orient='records')
     json_data = json.loads(http_data)
     response = requests.post('http://172.174.173.7:5078/predict', json=json_data)
     print(response.json())

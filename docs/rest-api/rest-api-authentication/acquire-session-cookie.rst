@@ -11,11 +11,11 @@ You can replace it with your machine name and port.
 
 **CURL**::
 
-    curl -i -X POST -d username=admin -d password=admin -c /tmp/cookies.txt localhost:8080/login
+    curl -i -X POST -d username=admin -d password=admin -c /tmp/cookies.txt localhost:8080/authenticate
     
 In the above:
 
     * username = admin
     * password = admin
     * Incoming cookie gets saved into: /tmp/cookies.txt
-    * REST API endpoint: localhost:8080/login    
+    * REST API endpoint: localhost:8080/authenticate 

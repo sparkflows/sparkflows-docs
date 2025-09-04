@@ -25,7 +25,7 @@ It then gets the list of Processors in Fire Insights using the REST API and prin
    payload = {'username':'admin', 'password':'admin'}
 
    # login url
-   urllogin = 'http://localhost:8080/login'
+   urllogin = 'http://localhost:8080/authenticate'
 
    # get list of processors url
    urlprocessors = 'http://localhost:8080/nodeList'

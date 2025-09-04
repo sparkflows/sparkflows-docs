@@ -14,6 +14,9 @@ Pre-requisites
 #. oauth.client.accessTokenUri
 #. oauth.client.userAuthorizationUri
 #. oauth.resource.userInfoUri
+#. oauth.client.redirectUri
+#. oauth.client.issuerUri
+#. oauth.client.jwkSetUri
 
 
 .. note::  Make sure to update ``OIDC callback URL`` as ``https://<sparkflows-host>/login/oauth``.
@@ -37,6 +40,9 @@ Below is an example of configuring OAuth in Fire with Okta:
   oauth.client.clientAuthenticationScheme: form
   oauth.client.scope: openid profile offline_access
   oauth.resource.userInfoUri: https://xyz.okta.com/oauth2/default/v1/userinfo
+  oauth.client.redirectUri: https://Sparkflows_url/authorization-code/callback
+  oauth.client.issuerUri: https://dev-69877250.okta.com/oauth2/default
+  oauth.client.jwkSetUri: https://dev-69877250.okta.com/oauth2/default/v1/keys
 
 
 Update sso.saml.properties 

@@ -108,11 +108,11 @@ When using Keycloak as the OAuth provider, you need to fetch the below propertie
 Once the Keycloak realm is configured, click on Endpoints to view the realm details and retrieve the required properties listed above.
 
 .. figure:: ../..//_assets/installation/key_clock/key_clock_realm.png
-   :alt: LDAP 
+   :alt: key_clock_realm 
    :width: 80%
 
 .. figure:: ../..//_assets/installation/key_clock/key_clock_realm_properties.png
-   :alt: LDAP 
+   :alt: key_clock_realm_properties 
    :width: 80%
 
 

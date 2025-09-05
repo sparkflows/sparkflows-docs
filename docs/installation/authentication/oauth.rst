@@ -65,6 +65,57 @@ In order to configure OAuth in Fire Insights, update ``conf/sso.saml.properties`
     #disable the db login for admin also.
     sparkflows.sp.db.login.enable=true
 
+Getting all the required properties for Keycloak server
+-------------------------------------------------------
+When using Keycloak as the OAuth provider, you need to fetch the below properties from your Keycloak server.
+
+- **oauth.client.clientId**  
+  Go to **Clients → your-client → Settings → Client ID**.
+
+- **oauth.client.clientSecret**  
+  Go to **Clients → your-client → Credentials → Client Secret**.
+
+- **oauth.client.accessTokenUri**  
+  URL format:  
+  ``https://<keycloak-host>/realms/<realm-name>/protocol/openid-connect/token``
+
+- **oauth.client.userAuthorizationUri**  
+  URL format:  
+  ``https://<keycloak-host>/realms/<realm-name>/protocol/openid-connect/auth``
+
+- **oauth.resource.userInfoUri**  
+  URL format:  
+  ``https://<keycloak-host>/realms/<realm-name>/protocol/openid-connect/userinfo``
+
+- **oauth.client.redirectUri**  
+  Set this in Keycloak under **Clients → your-client → Settings → Valid Redirect URIs**.  
+  Example:  
+  ``https://<sparkflows-host>/authorization-code/callback``
+
+- **oauth.client.issuerUri**  
+  URL format:  
+  ``https://<keycloak-host>/realms/<realm-name>``
+
+- **oauth.client.jwkSetUri**  
+  URL format:  
+  ``https://<keycloak-host>/realms/<realm-name>/protocol/openid-connect/certs``
+
+.. note::  
+   - Replace ``<keycloak-host>`` with your Keycloak server hostname (e.g., ``https://localhost:8443``).  
+   - Replace ``<realm-name>`` with the Keycloak realm where your client is configured.  
+   - Ensure **Standard Flow Enabled** is turned on in Keycloak client settings. 
+
+Once the Keycloak realm is configured, click on Endpoints to view the realm details and retrieve the required properties listed above.
+
+.. figure:: ../..//_assets/installation/key_clock/key_clock_realm.png
+   :alt: LDAP 
+   :width: 80%
+
+.. figure:: ../..//_assets/installation/key_clock/key_clock_realm_properties.png
+   :alt: LDAP 
+   :width: 80%
+
+
 Start Fire Insight 
 --------------
 

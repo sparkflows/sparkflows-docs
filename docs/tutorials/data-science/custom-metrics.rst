@@ -5,8 +5,6 @@ Sparkflows already provides default model metrics. In addition, users can includ
   
 Load the label, prediction, and probability data in a separate workflow and use a SQL Node\Spark\PySpark node to compute Precision, Recall, F1 score, Rank Ordering, KS-Statistics, and Lift. 
 
-End-to-End Example link: https://docs.sparkflows.io/en/latest/tutorials/end-to-end/index.html
-
 **1. Read the Scoring Data**
 
   * label (true target)

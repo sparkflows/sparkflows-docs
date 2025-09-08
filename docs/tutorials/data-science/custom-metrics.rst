@@ -1,15 +1,15 @@
 Custom Metrics - Classification
 ====
 
-Sparkflows already provides default model metrics. In addition, users can include custom metrics depending on their use case.
+Sparkflows provides a set of default model metrics (such as Accuracy, F1, AUC, RMSE, etc.). In addition, users can define and compute custom metrics for their specific use cases.
   
-Load the label, prediction, and probability data in a separate workflow and use a SQL Node\Spark\PySpark node to compute Precision, Recall, F1 score, Rank Ordering, KS-Statistics, and Lift. 
+To set up and compute custom classification metrics, load the label, prediction, and probability data in a separate workflow and use a SQL Node\Spark\PySpark node to compute Precision, Recall, F1 score, Rank Ordering, KS-Statistics, and Lift. 
 
 **1. Read the Scoring Data**
 
-  * label (true target)
-  * prediction (predicted class)
-  * probability (vector with class probabilities)
+  * Label (true target)
+  * Prediction (predicted class)
+  * Probability (vector with class probabilities)
 
  .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/prediction-data.png
    :alt: Custom Metrics
@@ -23,11 +23,13 @@ Load the label, prediction, and probability data in a separate workflow and use 
 
 **3. Custom Metrics**
 
-**By default, train/validation/test metrics** like accuracy,f1, AUC, rmse, etc provide. With the below custom metrics such as Rank Ordering / Deciles, KS Statistic and Lift:
+**By default, train/validation/test metrics** like accuracy, f1, AUC, rmse, etc provide. With the below custom metrics such as Rank Ordering / Deciles, KS Statistic and Lift:
 
  .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/custom-metrics-code.png
    :alt: Custom Metrics
    :width: 70%
+
+Below is a **Scala code example** for computing custom metrics:
 
 ::
 

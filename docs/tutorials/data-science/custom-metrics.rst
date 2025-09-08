@@ -13,13 +13,13 @@ End-to-End Example link: https://docs.sparkflows.io/en/latest/tutorials/end-to-e
   * prediction (predicted class)
   * probability (vector with class probabilities)
 
- .. figure:: ../_assets/tutorials/machine-learning/custom-metrics/prediction-data.png
+ .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/prediction-data.png
    :alt: Custom Metrics
    :width: 70%
 
 **2. Extract Probability of Positive Class With SplitProbabilityColumn Node**
 
-  .. figure:: ../_assets/tutorials/machine-learning/custom-metrics/split-probability-column-node.png
+  .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/split-probability-column-node.png
      :alt: Custom Metrics
      :width: 70%
 
@@ -27,7 +27,7 @@ End-to-End Example link: https://docs.sparkflows.io/en/latest/tutorials/end-to-e
 
 **By default, train/validation/test metrics** like accuracy,f1, AUC, rmse, etc provide. With the below custom metrics such as Rank Ordering / Deciles, KS Statistic and Lift:
 
- .. figure:: ../_assets/tutorials/machine-learning/custom-metrics/custom-metrics-code.png
+ .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/custom-metrics-code.png
    :alt: Custom Metrics
    :width: 70%
 
@@ -118,13 +118,13 @@ End-to-End Example link: https://docs.sparkflows.io/en/latest/tutorials/end-to-e
 
 * Confusion Metrics
 
- .. figure:: ../_assets/tutorials/machine-learning/custom-metrics/output-confusion-metrics.png
+ .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/output-confusion-metrics.png
    :alt: Custom Metrics
    :width: 70%
 
 * Other Metrics
 
- .. figure:: ../_assets/tutorials/machine-learning/custom-metrics/output-other-metrics.png
+ .. figure:: ../../_assets/tutorials/machine-learning/custom-metrics/output-other-metrics.png
    :alt: Custom Metrics
    :width: 70%
 

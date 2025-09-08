@@ -18,6 +18,12 @@ Machine Learning
     :doc:`/tutorials/data-science/sklearn/index`
 
     Sklearn example workflows.
+
+    ---
+
+    :doc:`/tutorials/data-science/custom-metrics`
+
+    Custom Metrics node example.
     
     
 .. toctree::
@@ -26,7 +32,7 @@ Machine Learning
    sparkml/index.rst
    h2o/index.rst
    sklearn/index.rst
-   
+   custom-metrics.rst
    
    
    

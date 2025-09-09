@@ -40,6 +40,10 @@ User Guide
 
     :doc:`/mlops/user-guide/modeldoc-guide`
 
+    ---
+
+    :doc:`/mlops/user-guide/offline-model-drift-detection`
+
 
 .. toctree::
    :hidden:
@@ -53,3 +57,5 @@ User Guide
    model-monitoring/index
    model_observability_retraining.rst
    modeldoc-guide.rst
+   offline-model-drift-detection.rst
+

@@ -21,7 +21,7 @@ Sparkflows automatically computes detailed statistics for both numeric and categ
 
 This ensures a clear baseline understanding of your data.
 
-.. figure:: ../_assets/mlops/ml-data-metrics/node-ml-data-metrics.png
+.. figure:: ../../../_assets/mlops/ml-data-metrics/node-ml-data-metrics.png
      :alt: Model Metrics
      :width: 70%
 
@@ -33,7 +33,7 @@ https://docs.sparkflows.io/en/latest/mlops/user-guide/model-monitoring/node-ml-d
 ****
 When a training dataset is available, Sparkflows establishes it as the **baseline** for comparison. Any new dataset (batch) can then be evaluated against this baseline to detect shifts in feature distributions.
 
-.. figure:: ../_assets/mlops/ml-data-metrics/baseline-feature-statistics.png
+.. figure:: ../../../_assets/mlops/ml-data-metrics/baseline-feature-statistics.png
      :alt: Model Metrics
      :width: 70%
 
@@ -48,12 +48,12 @@ To quantify drift, Sparkflows uses metrics such as the **Population Stability In
 
 This makes it easy to pinpoint which features require attention.
 
-.. figure:: ../_assets/mlops/ml-data-metrics/numeric-feature-drift-metrics.png
+.. figure:: ../../../_assets/mlops/ml-data-metrics/numeric-feature-drift-metrics.png
      :alt: Model Metrics
      :width: 70%
 
 
-.. figure:: ../_assets/mlops/ml-data-metrics/categorical-feature-drift-metric.PNG
+.. figure:: ../../../_assets/mlops/ml-data-metrics/categorical-feature-drift-metric.PNG
      :alt: Model Metrics
      :width: 70%
 
@@ -66,13 +66,13 @@ Sparkflows generates interactive reports to help you analyze drift effectively:
 - **Feature Drift Over Time:** Graphs showing changes for individual features across multiple batches.
 
 
- .. figure:: ../_assets/mlops/ml-data-metrics/drift-over-time.png
+ .. figure:: ../../../_assets/mlops/ml-data-metrics/drift-over-time.png
      :alt: Model Metrics
      :width: 70%
 
 - **Average Feature Drift Over Time:** Aggregate drift score combining all features into a single view.
 
- .. figure:: ../_assets/mlops/ml-data-metrics/average-drift-over-time.png
+ .. figure:: ../../../_assets/mlops/ml-data-metrics/average-drift-over-time.png
      :alt: Model Metrics
      :width: 70%
 
@@ -104,14 +104,14 @@ After deployment, users often have new data with labels and predictions. To keep
 2. Each Evaluator Node provides an option to enter the **model UUID**.
 
 
- .. figure:: ../_assets/mlops/ml-data-metrics/node-regression-evaluator.png
+ .. figure:: ../../../_assets/mlops/ml-data-metrics/node-regression-evaluator.png
      :alt: Model Metrics
      :width: 70%
 
 3. When the model UUID is provided, the system updates the **Model Metrics over Time** graph for that specific model. Users can view the graph for individual metrics by selecting the desired metric from the dropdown menu.
 
 
- .. figure:: ../_assets/mlops/ml-data-metrics/metrics-over-time-graph.png
+ .. figure:: ../../../_assets/mlops/ml-data-metrics/metrics-over-time-graph.png
      :alt: Model Metrics
      :width: 70%
 

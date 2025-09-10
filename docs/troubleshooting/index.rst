@@ -69,9 +69,9 @@ Below are steps for troubleshooting some of the common issues.
   
     ---
     
-    :doc:`/troubleshooting/postbackurl`
+    :doc:`/troubleshooting/livy`
     
-    Steps to troubleshoot postbackurl
+    Steps to troubleshoot livy
     
     ---
     
@@ -165,7 +165,7 @@ Below are steps for troubleshooting some of the common issues.
    ldap.rst
    databricks.rst
    aws.rst
-   postbackurl.rst
+   livy.rst
    github.rst
    pipelines.rst
    airflow.rst

@@ -88,3 +88,17 @@ Possible causes are:
     
   .. note::  Make sure to replace 'livy-host' with your actual Livy Server ip or domain name.
 
+4. Running Detailed livy diagnostics from Diagnostics 
+------
+ 
+* Access this section by navigating to Administration -> Diagnostics -> Connections after logging into Fire Insights.
+* By clicking the *Run Detailed Diagnostic* button, the user can view additional information about the session running in Livy for the selected connection.
+
+.. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_test.png
+      :alt: livy_detailed_diagnostic_test
+      :width: 60%
+
+.. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_results.png
+      :alt: livy_detailed_diagnostic_results
+      :width: 60%
+

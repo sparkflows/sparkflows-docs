@@ -18,16 +18,17 @@ Possible causes are:
 * The Postback Url configured in Fire Insights is configured wrongly.
 * The Postback Url configured in Fire Insights is not accessible from EMR Livy.
 
-   .. figure:: ..//_assets/installation/troubleshoot/livy_1.PNG
+  .. figure:: ..//_assets/installation/troubleshoot/livy_1.PNG
       :alt: troubleshoot
       :width: 60%
 
 * Test connectivity from the Apache Spark cluster to the postback URL from one of the machines of the cluster (EMR) using:
 
-   ::
+  ::
 
     curl https://<alb-host>/ -v
     
+  
   .. note::  Make sure to replace 'alb-host' with your load balancer's domain name.
 
 2. Class Not Found Exception while processing Delta File through Livy submission
@@ -37,7 +38,7 @@ Possible causes are:
 
 ClassNotFound Exception as below:
 
-   .. figure:: ..//_assets/installation/troubleshoot/livy-deltafile-error.png
+ .. figure:: ..//_assets/installation/troubleshoot/livy-deltafile-error.png
       :alt: troubleshoot
       :width: 60%
 
@@ -54,7 +55,7 @@ Possible causes are:
 
 They needed to be added as below:
 
-   .. figure:: ..//_assets/installation/troubleshoot/livy-connection-livytab-delta.png
+ .. figure:: ..//_assets/installation/troubleshoot/livy-connection-livytab-delta.png
       :alt: troubleshoot
       :width: 60%
 
@@ -65,7 +66,7 @@ They needed to be added as below:
 **Problem**
 ++++++
 
-Not able to access resource, please check the host url
+Not able to access resource, please check the host url.
 
 **Solution**
 ++++++++++
@@ -75,7 +76,7 @@ Do check in the logs for exceptions and the root cause. The log files can be ana
 Possible causes are:
 
 * The Livy host url configured in Fire Insights is configured wrongly.
-* The Livy host Url configured in Fire Insights is not accessible from EMR Livy.
+* The Livy host url configured in Fire Insights is not accessible from EMR Livy.
 
    
 * Test connectivity from the sparkflows machine using:
@@ -91,14 +92,14 @@ Possible causes are:
 4. Running Detailed livy diagnostics from Diagnostics 
 ------
  
-* Access this section by navigating to Administration -> Diagnostics -> Connections after logging into Fire Insights.
-* By clicking the *Run Detailed Diagnostic* button, the user can view additional information about the session running in Livy for the selected connection.
+* Access this section by navigating to **Administration -> Diagnostics -> Connections** after logging into Fire Insights.
+* By clicking the **Run Detailed Diagnostic** button, the user can view additional information about the session running in Livy for the selected connection.
 
-.. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_test.png
+  .. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_test.png
       :alt: livy_detailed_diagnostic_test
       :width: 60%
 
-.. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_results.png
+  .. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_results.png
       :alt: livy_detailed_diagnostic_results
       :width: 60%
 

@@ -82,9 +82,9 @@ Possible causes are:
 
   ::
 
-        curl http://<livy-server-ip>:8998/sessions {when Livy without authentications}
+        curl http://<livy-host>:8998/sessions {when Livy without authentications}
         curl -v -u <username>:<passowrd> https://<livy-host>:8998/sessions {when Livy with authentications}
 
     
-  .. note::  Make sure to replace 'livy-server-ip' with your actual Livy Server ip or domain name.
+  .. note::  Make sure to replace 'livy-host' with your actual Livy Server ip or domain name.
 

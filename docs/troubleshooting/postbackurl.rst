@@ -82,8 +82,8 @@ Possible causes are:
 
   ::
 
-        curl http://<livy-server-ip>:8998/sessions
-        curl -v -u <username>:<passowrd> https://<livy-host>:8998/sessions
+        curl http://<livy-server-ip>:8998/sessions {when Livy without authentications}
+        curl -v -u <username>:<passowrd> https://<livy-host>:8998/sessions {when Livy with authentications}
 
     
   .. note::  Make sure to replace 'livy-server-ip' with your actual Livy Server ip or domain name.

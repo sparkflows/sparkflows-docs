@@ -9,7 +9,7 @@ The GROUP BY node computes feature engineering tasks such as group by, frequency
 Node Configuration
 ++++
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-configuration.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-configuration.png
     :alt: FE Node
     :width: 70%
   
@@ -25,7 +25,7 @@ Node Configuration
 Workflow
 ++++
 
-   .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-workflow.png
+   .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-workflow.png
     :alt: FE Node
     :width: 70%
   
@@ -39,7 +39,7 @@ Node Output
 
 **Data Summaries:** Engineered features including frequency, recency days, average days between, summed purchase values, and customer age, as shown below.
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-output.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/groupby-output.png
     :alt: FE Node
     :width: 70%
   
@@ -51,7 +51,7 @@ The Time Series Features node computes various time-series related features from
 Node Configuration
 ++++
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/time-seires-configuration.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/time-seires-configuration.png
     :alt: FE Node
     :width: 70%
   
@@ -82,7 +82,7 @@ Node Configuration
 Workflow
 ++++
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-workflow.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-workflow.png
     :alt: FE Node
     :width: 70%
 
@@ -96,15 +96,15 @@ Node Output
 
 **Data Summaries:** Time-series features like days since last transaction, transaction hour, season, etc, as shown below.
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-1.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-1.png
     :alt: FE Node
     :width: 70%
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-2.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-2.png
     :alt: FE Node
     :width: 70%
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-3.PNG
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/time-series-output-3.PNG
     :alt: FE Node
     :width: 70%
 
@@ -116,7 +116,7 @@ The Moving Average Features node computes various global moving average features
 Node Configuration
 ++++
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-configuration.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-configuration.png
     :alt: FE Node
     :width: 70%
 
@@ -137,7 +137,7 @@ Node Configuration
 Workflow
 ++++
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/moving-average-workflow.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/moving-average-workflow.png
     :alt: FE Node
     :width: 70%
 
@@ -150,11 +150,11 @@ Node Output
 
 **Data Summaries:** Global moving average features like moving average amount, transaction count per day, etc, as shown below.
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-output-1.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-output-1.png
     :alt: FE Node
     :width: 70%
 
- .. figure:: ../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-output-2.png
+ .. figure:: ../../_assets/user-guide/machine-learning/feature-engg-nodes/moving-avg-output-2.png
     :alt: FE Node
     :width: 70%
 

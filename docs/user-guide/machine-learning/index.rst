@@ -33,6 +33,12 @@ https://docs.sparkflows.io/en/latest/mlops/index.html
 
     ---
 
+    :doc:`/user-guide/machine-learning/feature-engg`
+
+    Provides Feature Engineering processors for using in H2O and Apache Spark.
+
+    ---
+
     :doc:`/user-guide/machine-learning/sklearn/index`
 
     Provides Scikit learn processors to enable supervised and unsupervised use cases.
@@ -74,6 +80,7 @@ https://docs.sparkflows.io/en/latest/mlops/index.html
    overview/index.rst
    sparkml/index.rst
    h2o/index.rst
+   feature-engg.rst
    sklearn/index.rst
    deep-learning/index.rst
    feature-selection.rst

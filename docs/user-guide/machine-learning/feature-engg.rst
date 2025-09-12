@@ -2,9 +2,9 @@ Feature Engineering
 ====
 Sparkflows provides a set of nodes under the Feature Engineering category to compute various engineered features from transactional or user data. These nodes are designed to enhance datasets for machine learning models by generating insightful features such as grouping, time-series attributes, and moving averages.
 
-GROUP BY Node
+Group By Node
 ----
-The GROUP BY node computes feature engineering tasks such as group by, frequency, recency, average days between purchases, total value of purchases, and customer age. These are computed per user using the selected operations.
+The Group By node computes feature engineering tasks such as *group by, frequency, recency, average days between purchases, total value of purchases, and customer age*. These are computed per user using the selected operations.
 
 Node Configuration
 ++++

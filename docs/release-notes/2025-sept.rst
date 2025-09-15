@@ -50,7 +50,7 @@ Documentation
 
 * **Offline Model Drift Detection :** Added documentation on Sparkflows offline model and feature drift detection capabilities, which allow users to monitor data and model behavior over time, identify distribution shifts, and maintain model reliability in production. Refer here: :ref:`Offline Model Drift Detection<Offline Model Drift Detection>`
 
-* **Feature Engineering :** Added documentation on nodes for generating engineered features (e.g., grouping, time-series attributes, moving averages) to enhance datasets for machine learning models. Refer here: :ref:`Feature Engineering<Feature Engineering>`
+* **Feature Engineering :** Added documentation on nodes for generating engineered features (e.g., grouping, time-series attributes, moving averages) to enhance datasets for machine learning models. Refer here: `Feature Engineering <https://docs.sparkflows.io/en/latest/user-guide/machine-learning/feature-engg.html#feature-engineering>`_
 
 
 

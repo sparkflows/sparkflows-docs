@@ -48,11 +48,9 @@ Documentation
 ----
 * **ML Data Metrics :** Added documentation on *ML Data Metrics* node covering node configuration, workflow integration for training and prediction and the output generated. Refer here: :ref:`ML Data Metrics<ML Data Metrics>`
 
+* **Offline Model Drift Detection :** Added documentation on Sparkflows offline model and feature drift detection capabilities, which allow users to monitor data and model behavior over time, identify distribution shifts, and maintain model reliability in production. Refer here: :ref:`Offline Model Drift Detection<Offline Model Drift Detection>`
 
-
-
-
-
+* **Feature Engineering :** Added documentation on nodes for generating engineered features (e.g., grouping, time-series attributes, moving averages) to enhance datasets for machine learning models. Refer here: :ref:`Feature Engineering<Feature Engineering>`
 
 
 

@@ -123,6 +123,7 @@ html_context = {
 }
 html_js_files = [
     'js/theme.js',
+    'js/anchor-fix.js',
 ]
 
 def setup(app):

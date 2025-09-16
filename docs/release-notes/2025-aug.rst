@@ -54,7 +54,8 @@ API
 
 Documentation
 ----
-* **Access Tokens :** Added documentation on managing access tokens in Sparkflows, including permissions for editing descriptions, deleting tokens (individually or in bulk), and ensuring transparency through detailed deletion summaries. Refer here: :ref:`Access Tokens<Access Tokens>`
+* **Access Tokens :** Added documentation on managing access tokens in Sparkflows, including permissions for editing descriptions, deleting tokens (individually or in bulk), and ensuring transparency through detailed deletion summaries. Refer here: `Access Tokens <https://docs.sparkflows.io/en/latest/installation/user-groups/Access-Token.html>`_
+
 
 * **Manage Nodes :** Added documentation on managing the visibility of workflow and pipeline nodes in Sparkflows by configuring node access for different user groups based on permissions. Refer here: :ref:`Manage Nodes<Manage Nodes>`
 

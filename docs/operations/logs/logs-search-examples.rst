@@ -166,7 +166,7 @@ A user can get a specific User’s logs by searching for the pattern given below
 
     * By User ID
 
-       **Ex Pattern: userId=1**
+      **Ex Pattern: userId=1**
 
       .. figure:: ../../_assets/configuration/logs/Ex6-logs-user-id.png
           :alt: Logs
@@ -183,7 +183,7 @@ A user can get a specific User’s logs by searching for the pattern given below
 
 Example 7
 ++++
-A user can get the logs for a specific project by using the pattern given below on **Administration → View Server Logs** search bar.
+A user can get the logs for a specific project by using the pattern given below on **Administration → View Server Logs** search bar:
 
 **prjId**: Project Id
 

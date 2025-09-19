@@ -1,4 +1,4 @@
-Fire Deployment on GKE with MySQL Metadata DB
+GKE Installation
 ====
 
 This document outlines the key components of the Fire application deployment on GKE, covering cluster setup, app pod, external access, and configuration management.

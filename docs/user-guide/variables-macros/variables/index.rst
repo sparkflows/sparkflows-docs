@@ -43,6 +43,10 @@ When a variable is used in a node, below is the order of precedence:
 
     ---
 
+    :doc:`/user-guide/variables-macros/variables/variables-in-wf-and-pipeline`
+
+    ---
+
     :doc:`/user-guide/variables-macros/variables/spark-configuration`
 
     ---
@@ -73,6 +77,7 @@ When a variable is used in a node, below is the order of precedence:
    workflow.rst
    node.rst
    pipeline.rst
+   variables-in-wf-and-pipeline.rst
    spark-configuration.rst
    application_connection.rst
    global_or_group-variable.rst

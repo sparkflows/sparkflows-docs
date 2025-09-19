@@ -17,10 +17,18 @@ Sparkflows can be installed in either of the following ways:
 
     Install Sparkflows using Sparkflows Docker Image.
 
-    
+    ---
+
+    :doc:`/gcp/admin-guide/installation-guide/deployment-on-gke`
+
+    Fire Deployment on GKE with MySQL Metadata DB
+
+
 
 .. toctree::
    :hidden:
 
    tgz-file.rst
    docker-image.rst
+   deployment-on-gke.rst
+

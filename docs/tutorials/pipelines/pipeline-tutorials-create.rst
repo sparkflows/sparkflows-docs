@@ -6,7 +6,7 @@ This document explains the steps required to create a pipeline in Sparkflows.
 Step 1 : Enable Pipeline
 ----------------------------------------
 
-* Navigate to **Administration**>**Configuration** after login into the Sparkflows.
+* Navigate to **Administration > Configuration** after logging into the Sparkflows.
 * Navigate to the **Module** tab.
 * Set **Enable Pipeline** to **True** as below 
 

@@ -74,13 +74,13 @@ Example 2
             :alt: Logs
             :width: 70%
 
-   Through the unique **Transaction Id** present at the start of the first occurrence of **pipelineExecutionId=78224** user can also get the state of the pipeline
+   Through the unique **Transaction Id** present at the start of the first occurrence of **pipelineExecutionId=78224** user can also get the state of the pipeline.
 
 
 
 Example 3 
 ++++
-1. A user can even get each and every log line for a specific pipeline execution by searching just the pipeline execution id like below -
+1. A user can even get each and every log line for a specific pipeline execution by searching just the pipeline execution id like below:
 
    **Ex: 78225 (pipeline execution id)**
 
@@ -107,7 +107,7 @@ A user can track a group of related logs using a **Transaction ID**, which remai
             :alt: Logs
             :width: 70%
 
-    3. Next, the user will navigate to **Administration → View Server Logs** Page and in the search bar paste and find the logs for workflow execution **wfeId=80733**, to find the initial log entry as seen in the example below which was the first log for the workflow execution-
+    3. Next, the user will navigate to **Administration → View Server Logs** Page and in the search bar paste and find the logs for workflow execution **wfeId=80733**, to find the initial log entry as seen in the example below which was the first log for the workflow execution:
 
       .. figure:: ../../_assets/configuration/logs/Ex4-first-log-workflow.png
             :alt: Logs
@@ -145,7 +145,7 @@ A user can track a group of related logs using a **Transaction ID**, which remai
 
 Example 5
 ++++
-A user can get the logs of a workflow execution along with the state of the execution using the below Log Pattern on **Administration → View Server Logs** search bar and also get the status of the workflow, 
+A user can get the logs of a workflow execution along with the state of the execution using the below Log Pattern on **Administration → View Server Logs** search bar and also get the status of the workflow. 
 
 **Ex Pattern: wfeId=80735**
 
@@ -162,7 +162,7 @@ The user can also view the status of the workflow execution as shown in the belo
 
 Example 6
 ++++
-A user can get a specific User’s logs by searching for the pattern given below on **Administration -> View Server Logs** search bar:
+A user can get a specific User’s logs by searching for the pattern given below on **Administration → View Server Logs** search bar:
 
     * By User ID
 

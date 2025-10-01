@@ -13,7 +13,7 @@ Copilot
 
     :doc:`/user-guide/copilot/mcp-copilot`
 
-    How to use MCP with Copilot in Sparkflows
+    How to use Copilot with MCP in Sparkflows
 
 
 

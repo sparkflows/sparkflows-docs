@@ -7,6 +7,22 @@ Access tokens are used to authenticate and authorize users for various operation
     :alt: security
     :width: 60%
 
+.. Note:: Token descriptions are mandatory for both new and edited tokens. Empty descriptions are not permitted, as shown below.
+
+
+* Description field is mandatory while creating a new token.
+
+ .. figure:: ../../_assets/security/description-new-token.png
+    :alt: security
+    :width: 60%
+
+
+* Description field is also mandatory while editing an existing token.
+
+ .. figure:: ../../_assets/security/description-edit-token.png
+    :alt: security
+    :width: 60%
+
 Edit Token Description
 ----------------------
 

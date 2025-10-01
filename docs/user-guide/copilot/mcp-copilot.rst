@@ -8,7 +8,13 @@ Steps to Use MCP Connection with Copilot
 
 Step 1: Create an MCP Connection
 ++++
-User needs to create an MCP connection to use it with copilot.
+Follow the steps below to create an MCP connection to use it with copilot.
+
+ * Go to **Administration -> Global/Group Connections**.
+ * Click on **Add Connection** button and choose **Add Connection For All**.
+ * Select the Connection Category - **API** and Connection Type - **MCP**.
+ * Fill the required MCP connection details as shown below.
+
 
  .. figure:: ../../_assets/user-guide/copilot/create-mcp-connection.png
      :alt: copilot configuration

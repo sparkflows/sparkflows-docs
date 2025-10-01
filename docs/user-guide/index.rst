@@ -142,7 +142,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
-    :doc:`/user-guide/copilot`
+    :doc:`/user-guide/copilot/index`
 
 .. toctree::
    :hidden:
@@ -181,4 +181,4 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    solutions/index
    code-library/index
    application-credentials/index
-   copilot.rst
+   copilot/index

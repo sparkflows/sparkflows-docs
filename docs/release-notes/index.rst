@@ -6,6 +6,7 @@ Release Notes
    :maxdepth: 2
 
    binaries.rst
+   2025-oct.rst
    2025-sept.rst
    2025-aug.rst
    2025-july.rst

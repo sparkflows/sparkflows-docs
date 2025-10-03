@@ -23,7 +23,7 @@ Platform Management
 Data & Storage Management
 ++++
 
-* **S3 Browser – Multi-Group Support**
+* **S3 Browser – Multi-Group Support :**
 
 	* Users belonging to multiple groups can now switch between groups in the data browser.
 
@@ -60,7 +60,7 @@ UI Improvements
 Documentation
 ----
 
-* **Access Tokens :** Updated the documentation for mandatory token description. Refer here: :ref:`Access Tokens<Access Tokens>` 
+* **Access Tokens :** Updated the documentation for mandatory token description. Refer here: `Access Tokens <https://docs.sparkflows.io/en/latest/installation/user-groups/Access-Token.html#access-tokens>`_ 
 * **Copilot with MCP Connection :** Added documentation on using copilot with MCP connection in Sparkflows to automatically generate nodes for workflows or pipelines. Refer here: :ref:`Copilot with MCP Connection<Copilot with MCP Connection>`
 
 

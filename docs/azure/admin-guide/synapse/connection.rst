@@ -86,9 +86,9 @@ Step 2 : Add and Save the Connection
 
 Once you save the above configurations:
 
-#. Navigate to **Administration -> Global Connections -> Add Connections** as shown below:
+#. Navigate to **Administration -> Global/Group Connections -> Add Connections** as shown below:
 
-   .. figure:: ../../../_assets/aws/livy/administration.png
+   .. figure:: ../../../_assets/installation/connection/databricks-admin1.png
      :alt: synapse
      :width: 60%
 
@@ -150,7 +150,7 @@ Once you save the above configurations:
         - Azure Tenant Id
 
 
-   .. figure:: ../../../_assets/azure/synapse-general.png
+   .. figure:: ../../../_assets/azure/synapse_general1.png
       :alt: synapse
       :width: 60%
    
@@ -184,7 +184,7 @@ Once you save the above configurations:
         - Executor Count  
         - Executor Count need to be used
  
-   .. figure:: ../../../_assets/azure/synapse_azuretab.png
+   .. figure:: ../../../_assets/azure/synapse_azuretab1.png
       :alt: synapse
       :width: 60%
 

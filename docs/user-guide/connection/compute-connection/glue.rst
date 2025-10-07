@@ -42,7 +42,7 @@ Step 3 : Add Connection for group
 
 * Select category as **Compute Connection** and connection type as **Glue**, as shown below:
 
-  .. figure:: ../../../_assets/installation/connection/glue_connection.PNG
+  .. figure:: ../../../_assets/installation/connection/glue_connection1.png
      :alt: livy
      :width: 60%
 

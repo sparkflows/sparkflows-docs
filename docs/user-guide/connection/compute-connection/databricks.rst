@@ -13,7 +13,7 @@ Step 1 : Login to Sparkflows web server URL
 ------
 * Open the Sparkflows web server URL and log in with your credentials.
 * Go to  **Administration -> Configurations -> Connection**
-* Enable Glue connection by setting the below parameter to **true** and save the configuration.
+* Enable Databricks connection by setting the below parameter to **true** and save the configuration.
 
   ::
 

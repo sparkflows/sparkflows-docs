@@ -15,6 +15,12 @@ Copilot
 
     How to use Copilot with MCP in Sparkflows
 
+    ---
+
+    :doc:`/user-guide/copilot/copilot-examples`
+
+    Examples on Copilot for workflows and pipelines
+
 
 
 .. toctree::
@@ -22,3 +28,4 @@ Copilot
 
    copilot.rst
    mcp-copilot.rst
+   copilot-examples.rst

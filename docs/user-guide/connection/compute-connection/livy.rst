@@ -161,10 +161,10 @@ For HDFS Tab
      - Description
      - Value
    * - NameNode URI
-     - NameNode URI 
+     - Namenode URI - hdfs://<namenode host>:<namenode port> - Used when running on the Hadoop Cluster. Set it to file:// when running with Spark Standalone cluster and no HDFS
      - NameNode URI for HDFS
-   * - Home Dir
-     - Home Dir under which various directories exist
+   * - Home Directory
+     - Home Directory under which the various user directories exist, when running on an HDFS cluster. eg: /user
      - Value  
  
 .. figure:: ../../../_assets/aws/livy/add_hdfs.PNG
@@ -184,7 +184,7 @@ For HIVE Tab
    * - JDBC Driver
      - JDBC Driver
      - JDBC Driver for Hive
-   * - JDBC DB URL
+   * - DB URL
      - JDBC DB URL
      - JDBC DB URL for Hive
      
@@ -234,7 +234,10 @@ For YARN Tab
      - Value
    * - Resource Manager URL
      - Resource Manager URL
-     - Value  
+     - Value
+   * - Node Manager URL
+     - Node Manager URL
+     - Value
      
 .. figure:: ../../../_assets/aws/livy/add_yarn.PNG
    :alt: livy
@@ -266,17 +269,17 @@ For LINEAGE Tab
 Step 4 : Test & Save the Connection
 ==========
 
-* Once you have updated the above parameters, click on **Test Connection** button. If the connection is successful as shown below, click on **Save** button to save the connection.
+Once you have updated the above parameters, click on **Test Connection** button. If the connection is successful as shown below, click on **Save** button to save the connection.
 
-  .. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
-     :alt: livy
-     :width: 60%
+.. figure:: ../../../_assets/aws/livy/add_test_connection.PNG
+   :alt: livy
+   :width: 60%
 
-  The saved livy connection will be displayed in Connections as below:
+The saved livy connection will be displayed in Connections as below:
 
-  .. figure:: ../../../_assets/aws/livy/add_list.PNG
-     :alt: livy
-     :width: 60%   
+.. figure:: ../../../_assets/aws/livy/add_list.PNG
+   :alt: livy
+   :width: 60%   
 
 Documentation
 =======

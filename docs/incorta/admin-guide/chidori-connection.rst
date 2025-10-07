@@ -127,7 +127,7 @@ For MV Tab
      - HostName 
    * - Token
      - Token
-     - Token 
+     - base64 of username:password for mv api 
         
 .. figure:: ../../_assets/incorta/chidori_5.png
    :alt: chidori

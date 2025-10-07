@@ -60,6 +60,18 @@ Step 4 : Update the parameters
    * - Title
      - Description
      - Value
+   * - Credential Store
+     - Select the Credential Store from drop-down
+     - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+   * - Select Category
+     - Select Category of Connection Type
+     - Select Compute Connection
+   * - Connection type 
+     - Select the Connection type from drop-down
+     - Choose Databricks as Connection Type
+   * - Group 
+     - Select the Group from drop-down
+     - Choose specific Group from drop-down
    * - Connection name
      - Connection name
      - Connection name
@@ -73,9 +85,9 @@ Step 4 : Update the parameters
      - Connection Description
      - Connection Description
 
-.. figure:: ../../../_assets/installation/connection/glue_general.PNG
-    :alt: livy
-    :width: 60%
+.. figure:: ../../../_assets/installation/connection/glue_general1.png
+   :alt: livy
+   :width: 60%
 
 
 
@@ -121,6 +133,10 @@ Step 4 : Update the parameters
    * - Workflow Files Directory
      - Directory used for Writing the workflow files.
      - Directory used for Writing the workflow files
+
+.. figure:: ../../../_assets/installation/connection/glue_glueTab.png
+   :alt: livy
+   :width: 60%
 
 .. note:: Copy ``fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` from ``fire-x.y.z/fire-core-jar`` bundled in Fire tgz file.
 

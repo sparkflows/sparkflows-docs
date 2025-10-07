@@ -41,6 +41,12 @@ Azure Admin Guide
 
     ---
 
+    :doc:`/azure/admin-guide/azure-databricks-via-jdbc`
+
+    Setup OAuth for Azure Databricks.
+
+    ---
+
     :doc:`/azure/admin-guide/synapse/index`
 
     Setup Azure Synapse in Sparkflows.
@@ -67,6 +73,7 @@ Azure Admin Guide
    application_gateway.rst
    access-and-reload.rst
    adls/index.rst
+   azure-databricks-via-jdbc.rst
    synapse/index.rst 
    azure-databricks.rst
    mount-adls.rst

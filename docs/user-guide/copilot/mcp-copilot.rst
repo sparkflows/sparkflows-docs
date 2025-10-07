@@ -58,14 +58,14 @@ Once the user clicks on **Confirm**, the specific node will be created automatic
 
    MCP Request and Response should follow the below Sparkflows format.
 
-   Example User Queries:
+   **Example User Queries:**
    
-   1. create read csv node with path S3://testdir/test.csv  
-   2. create legoblockXMl with clusterid=jbh1875 and stepname=lego and deploy-mode=client
+   1. Create read csv node with path S3://testdir/test.csv  
+   2. Create legoblockXMl with clusterid=jbh1875 and stepname=lego and deploy-mode=client
 
    Tool Api/Method should be present with tools/list
 
-   Tools List Request:
+   **Tools List Request:**
 
    {
      "jsonrpc" : "2.0",
@@ -74,7 +74,7 @@ Once the user clicks on **Confirm**, the specific node will be created automatic
      "params" : { }
    }
 
-   Tools List Response:
+   **Tools List Response:**
 
    {
      "result": {
@@ -157,7 +157,7 @@ Once the user clicks on **Confirm**, the specific node will be created automatic
      "jsonrpc": "2.0"
    }
 
-   Tools call request for node:
+   **Tools call request for node:**
 
    Tool Api/Method should be present with tools/call
 
@@ -180,7 +180,7 @@ Once the user clicks on **Confirm**, the specific node will be created automatic
      "id" : 1
    }
 
-   Tool Call response from MCP:
+   **Tool Call response from MCP:**
 
    Parameters = Fields in the workflow/pipelines name should match
 

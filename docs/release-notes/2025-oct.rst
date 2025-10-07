@@ -11,14 +11,9 @@ Platform Management
 
 * **Mandatory Token Descriptions :** Token descriptions are now mandatory for both new and edited tokens. Existing tokens without a description remain unaffected.
 
-* **Multi-Jar Support in Airflow Connections :**
+* **Copilot and MCP Server Support :** Initial support for Copilot and MCP Server is now available. The Copilot model can now be enabled through configuration. MCP connections can now be configured by selecting **API** as the *Connection Category* and **MCP** as the *Connection Type* during creation.
 
-	* EMR 7.4 and 7.9 now run with a single unified jar.
-
-	* EMR 6.15 uses a separate jar.
-
-* **Copilot and MCP Server Support :** Initial support for Copilot and MCP Server is now available.
-
+* **Databricks Cluster – Shared Cluster Support :** Databricks cluster creation now supports shared clusters. By default, the Data Security Mode is set to SINGLE_USER and for shared clusters, update it to USER_ISOLATION.
 
 Data & Storage Management
 ++++

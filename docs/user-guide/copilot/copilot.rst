@@ -37,9 +37,9 @@ Add Copilot
 Copilot on Workflow
 -----------
 
-1. Once the Copilot is created, you can use it in the workflow designer by clicking the **Copilot icon**.
+1. Once the Copilot is created, you can use it in the workflow designer by clicking the **Copilot button**.
 
-  .. figure:: ../../_assets/user-guide/copilot/copilot-icon.PNG
+  .. figure:: ../../_assets/user-guide/copilot/wf-copilot-btn.png
       :alt: copilot_workflow
       :width: 60%
 
@@ -47,11 +47,39 @@ Copilot on Workflow
     :alt: copilot_workflow
     :width: 60%
 
-2. Once the workflow is generated based on your query, you can move it to the main designer using the **Move to Editor** option.
+2. Once the workflow is generated based on your query, you can move it to the main designer using the **Select** option.
 
-  .. figure:: ../../_assets/user-guide/copilot/copilot_move_to_editor.png
+  .. figure:: ../../_assets/user-guide/copilot/wf_copilot_move_to_editor.png
     :alt: copilot_move_to_editor
     :width: 60%
+
+ .. figure:: ../../_assets/user-guide/copilot/wf_copilot_after_click_select.png
+    :alt: copilot_move_to_editor
+    :width: 60%
+
+Copilot on Pipeline
+-----------
+
+1. Once the Copilot is created, you can use it in the pipeline designer by clicking the **Copilot button**.
+
+  .. figure:: ../../_assets/user-guide/copilot/pipeline-copilot-btn.png
+      :alt: copilot_workflow
+      :width: 60%
+
+  .. figure:: ../../_assets/user-guide/copilot/copilot_pipeline.png
+    :alt: copilot_workflow
+    :width: 60%
+
+2. Once the pipeline is generated based on your query, you can move it to the main designer using the **Select** option.
+
+  .. figure:: ../../_assets/user-guide/copilot/pipeline_copilot_move_to_editor.png
+    :alt: copilot_move_to_editor
+    :width: 60%
+
+ .. figure:: ../../_assets/user-guide/copilot/pipeline_copilot_after_click_select.png
+    :alt: copilot_move_to_editor
+    :width: 60%
+
 
 Copilot on Nodes
 ---------------

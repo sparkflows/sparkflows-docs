@@ -100,7 +100,7 @@ Once you save the above configurations:
 
 #. On the pop-up window, select connection as **Compute Connection** and enter other parameters as shown below:
 
-   .. figure:: ../../../_assets/azure/synapse_connection.png
+   .. figure:: ../../../_assets/azure/synapse_connection1.png
       :alt: synapse
       :width: 60%
 

@@ -91,7 +91,7 @@ Follow the steps below to create an Azure App Registration in Microsoft Entra ID
 
 **6. Assign Azure Role Permissions (Optional)**
 
-   If the app will access resources (like Databricks, Storage, etc.), you must assign permissions.
+ If the app will access resources (like Databricks, Storage, etc.), you must assign permissions.
 
   * For accessing Databricks APIs:
 
@@ -110,7 +110,7 @@ Follow the steps below to create an Azure App Registration in Microsoft Entra ID
 
 **7. Verify Setup**
                                      
-   To confirm your app is ready:
+ To confirm your app is ready:
 
   * Go to **App registrations → Your App → Overview**.
 

@@ -16,9 +16,15 @@ Step 1 : Go to Connections Page
 
 #. **Login** to Sparkflows web server URL as an **Admin**.
 #. Navigate to **ADMINISTRATION** Page from the top bar.
-#. Click **Global Connections** from the Administration Page.
+#. Go to  **Administration -> Configurations -> Connection**
+#. Enable Databricks connection by setting the below parameter to **true** and save the configuration.
 
-   .. figure:: ../../_assets/installation/connection/databricks-admin.png
+    ::
+  
+      connection.databricks.enabled : true
+#. Click **Global/Group Connections** from the Administration Page.
+
+   .. figure:: ../../_assets/installation/connection/databricks-admin1.png
       :alt: connection
       :width: 60%
 
@@ -27,18 +33,34 @@ Step 1 : Go to Connections Page
 Step 2 : Open Add Connection Window
 -----------------------
 #. Click **Add Connection** button located on the top-right corner of the Connections Page.
+#. These connections are available for everyone to use if defined at Global level or for a particular Group if defined at the Group level.
 
-   .. figure:: ../../_assets/installation/connection/databricks-connection.png
-      :alt: connection
-      :width: 60%
+   .. figure:: ../../_assets/installation/connection/databricks_selgrp_global.png
+    :alt: connection
+    :width: 60%
 
-Step 3 : Enter Parameter Details
+Step 3 : Add Connection Details
+-----
+
+#. Make selection in the **Add Connection** dialog box as shown below, to create **Databricks Compute** connection.
+
+   .. figure:: ../../_assets/installation/connection/databricks_sel_type.png
+    :alt: connection
+    :width: 60%    
+
+#. After selecting Databricks connection, the connection configuration page will appear with two tabs: **General** and **Databricks**, as shown below.
+
+   .. figure:: ../../_assets/installation/connection/databricks_general_uc1.png
+    :alt: connection
+    :width: 60% 
+
+Step 4 : Configure the Connection
 ----------------
-#. Enter parameter details in the Add Connection window.
+#. Based on the **Authentication Type** selected, the fields will vary. Choose between **User Credential** and **OAuth**.
 
-   For more details refer the following tables and images:
+#. To configure the connection, refer the following tables for filling required details for ``General`` Tab and ``Databricks`` Tab:
 
-   **GENERAL Tab:**
+   **GENERAL Tab (User Credential):**
 
    .. list-table:: 
       :widths: 10 20 20
@@ -59,6 +81,9 @@ Step 3 : Enter Parameter Details
       * - CONNECTION NAME
         - Connection Name
         - Add an unique Connection Name
+      * - Auth Type
+        - Select the Authentication Type
+        - Select the appropriate option as ``User Credential``
       * - TOKEN 
         - Token
         - Add token generated
@@ -75,11 +100,59 @@ Step 3 : Enter Parameter Details
         - Jdbc url for databricks connection
         - Add JDBC Url from the Databricks cluster. Example: jdbc:spark://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
 
-   .. figure:: ../../_assets/installation/connection/databricks_general.PNG
-      :alt: connection
-      :width: 60%    
+   .. figure:: ../../_assets/installation/connection/databricks_general_uc1.png
+    :alt: connection
+    :width: 60%   
 
+   **GENERAL Tab (OAUTH):**
+
+   .. list-table:: 
+      :widths: 10 20 20
+      :header-rows: 1
    
+      * - Title
+        - Description
+        - Value
+      * - CREDENTIAL STORE  
+        - Select the Credential Store from drop-down
+        - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+      * - Select Category
+        - Select Category of Connection Type
+        - Select Compute Connection
+      * - CONNECTION TYPE 
+        - Select the Connection type from drop-down
+        - Choose Databricks as Connection Type
+      * - CONNECTION NAME
+        - Connection Name
+        - Add an unique Connection Name
+      * - Auth Type
+        - Select the Authentication Type
+        - Select the appropriate option as ``OAUTH``
+      * - POSTBACK URL
+        - Fire Insights Post Back URL
+        - Add Fire Insights Post Back URL
+      * - Client ID 
+        - Client ID for the connection
+        - Enter Client ID for the connection
+      * - Client Secret 
+        - Client Secret for the connection
+        - Enter Client Secret for the connection
+      * - TITLE 
+        - Title for selected Connection
+        - Add an unique Title
+      * - DESCRIPTION
+        - Connection Description
+        - Add some Connection Description
+      * - URL
+        - Jdbc url for databricks connection
+        - Add Jdbc Url for Databricks Connection. Example: jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
+   
+   
+   
+   .. figure:: ../../_assets/installation/connection/databricks_general_oa2.png
+       :alt: connection
+       :width: 60%
+
    **DATABRICKS Tab:**
 
    .. list-table:: 
@@ -101,13 +174,14 @@ Step 3 : Enter Parameter Details
       * - DBFS Scratch directory
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions.
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions. (User can update absolute DBFS path).
-     
-   .. figure:: ../../_assets/installation/connection/databricks_other.PNG
+
+
+   .. figure:: ../../_assets/installation/connection/databricks_other1.png
       :alt: connection
       :width: 60%    
 
 
-Step 4 : Test and Save Connection
+Step 5 : Test and Save Connection
 ---------------
 
 #. Click **TEST CONNECTION**. You will get a success notification.

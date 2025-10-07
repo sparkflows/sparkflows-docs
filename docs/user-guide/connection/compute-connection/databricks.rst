@@ -11,7 +11,13 @@ Below are the steps required to create Databricks connection:
 
 Step 1 : Login to Sparkflows web server URL
 ------
-Open the Sparkflows web server URL and log in with your credentials.
+* Open the Sparkflows web server URL and log in with your credentials.
+* Go to  **Administration -> Configurations -> Connection**
+* Enable Glue connection by setting the below parameter to **true** and save the configuration.
+
+  ::
+
+    connection.databricks.enabled : true
 
 Step 2 : Navigate to Connections
 -----
@@ -67,7 +73,7 @@ To configure the connection, refer the following tables for filling required det
      - Add an unique Connection Name
    * - Auth Type
      - Select the Authentication Type
-     - Select the appropriate option from ``User Credential`` or ``OAUTH``
+     - Select the appropriate option as ``User Credential`` 
    * - TOKEN 
      - Token
      - Add token generated
@@ -109,7 +115,7 @@ To configure the connection, refer the following tables for filling required det
      - Add an unique Connection Name
    * - Auth Type
      - Select the Authentication Type
-     - Select the appropriate option from ``User Credential`` or ``OAUTH``
+     - Select the appropriate option as ``OAUTH``
    * - POSTBACK URL
      - Fire Insights Post Back URL
      - Add Fire Insights Post Back URL
@@ -131,7 +137,7 @@ To configure the connection, refer the following tables for filling required det
 
 
 
-.. figure:: ../../../_assets/installation/connection/databricks_general_oa1.png
+.. figure:: ../../../_assets/installation/connection/databricks_general_oa2.png
     :alt: connection
     :width: 60%    
 

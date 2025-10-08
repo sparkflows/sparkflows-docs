@@ -25,3 +25,5 @@ The fields which corresponds to the OpenAI end points are:
    .. figure:: ../../../_assets/installation/connection/gen-ai/open-ai1.png
       :alt: connection
       :width: 40%    
+
+After entering the details, click the Test Connection button to verify the connection.

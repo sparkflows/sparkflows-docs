@@ -10,12 +10,14 @@ The two fields which corresponds to the Vertex Palm API end points are:
 
    This is the google cloud token which you can generate by logging into your google cloud account.
 
- * **URL :** 
+ * **Host URL :** 
 
    This is the Vertex Palm API endpoint URL containing Project ID and Model Name :
 
    `https://us-central1-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/us-central1/publishers/google/models/${MODEL_ID}:predict`
 
-      .. figure:: ../../../_assets/installation/connection/gen-ai/palm-api.png
+      .. figure:: ../../../_assets/installation/connection/gen-ai/palm-api1.png
          :alt: connection
          :width: 40%    
+
+After entering the details, click the Test Connection button to verify the connection.

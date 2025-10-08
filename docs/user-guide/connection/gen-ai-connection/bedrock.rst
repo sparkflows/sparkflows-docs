@@ -23,7 +23,7 @@ Step 2 : Adding Bedrock Connection
 Click on **Add Connection** button from the connections page and choose **Add Connections For All**. An Add Connection page will open up, as shown below.
 
     
-          .. figure:: ../../../_assets/installation/connection/create_connections/add_connection.png
+          .. figure:: ../../../_assets/installation/connection/create_connections/add_connection1.png
              :alt: create_connections
              :width: 60%
 
@@ -32,30 +32,23 @@ Step 3 : Configuring the Bedrock Connection
   
 #. To configure the connection, enter the details as shown below:
 
-   .. figure:: ../../../_assets/installation/connection/create_connections/add_connection.png
-        :alt: create_connections
-        :width: 60%
-
-
    * **Category Selection:** Select the category as **GenAI** because Amazon Bedrock is a generative AI service.
-   * **Connection Type:** Select **Bedrock** indicating that you are configuring a connection to Amazon Bedrock.
-   * **General Tab**
+   * **Connection Type:** Select **Bedrock** indicating that you are configuring a connection to Amazon Bedrock
+   * **Connection Name:** Enter a custom name for this connection.
+   * **Model ID:** It represents the specific model you intend to work with on Amazon Bedrock, such as Claude, Titan, etc.
+   * **Service Name:** It is defaulted to "bedrock-runtime," referring to the runtime service for interacting with models hosted on Bedrock.
+   * **Region Name:** It specifies the AWS region, e.g., us-east-1.
+   * **AWS Access Key ID / Secret Access Key:** Credentials to authenticate and authorize access to AWS services.
+   * **Bedrock Embedding Model:** It specifies an embedding model like amazon.titan-embed-text-v1, often used for text embeddings (e.g., similarity searches or feature extraction).
+   * **Bedrock Chat Model:** It specifies a conversational model like anthropic.claude-3-5-haiku-20241022-v1:0, suitable for chat and natural language processing tasks.
+   * **Max Tokens:** Maximum tokens for the response.
 
-     * **Connection Name:** Enter a custom name for this connection.
-     * **Model ID:** It represents the specific model you intend to work with on Amazon Bedrock, such as Claude, Titan, etc.
 
-#. Now, click on **Next** button to access **Bedrock** tab and enter the details as shown below and click on **Save** button.
-
-   .. figure:: ../../../_assets/installation/connection/create_connections/add_bedrock_connection.png
+   .. figure:: ../../../_assets/installation/connection/create_connections/add_bedrock_connection1.png
         :alt: create_connections
         :width: 60%
     
-   * **Bedrock Tab**
 
-     * **Service Name:** It is defaulted to "bedrock-runtime," referring to the runtime service for interacting with models hosted on Bedrock.
-     * **Region Name:** It specifies the AWS region, e.g., us-east-1.
-     * **AWS Access Key ID / Secret Access Key:** Credentials to authenticate and authorize access to AWS services.
-     * **Bedrock Embedding Model:** It specifies an embedding model like amazon.titan-embed-text-v1, often used for text embeddings (e.g., similarity searches or feature extraction).
-     * **Bedrock Chat Model:** It specifies a conversational model like anthropic.claude-3-5-haiku-20241022-v1:0, suitable for chat and natural language processing tasks.
+After entering the details, click the Test Connection button to verify the connection.
 
 Once this connection is configured and saved, it will enable applications or pipelines to leverage Amazon Bedrock models for tasks like text generation, embeddings, and more.

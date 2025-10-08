@@ -12,14 +12,18 @@ The fields which correspond to the Azure OpenAI end points are:
 
 **Authentication Type : Token**
 
+ * **Connection name** – Connection name
  * **URL** – The base endpoint of your Azure OpenAI resource (e.g., ``https://<resource-name>.openai.azure.com``).  
  * **Token** – The API key or bearer token used for authenticating with Azure OpenAI.  
  * **Embeddings Endpoint URL** – The Azure OpenAI endpoint dedicated to embeddings requests (e.g., ``https://<resource-    name>.openai.azure.com/openai/deployments/<deployment-name>/embeddings``).
- * **Deployment Name** – The name of the model deployment created in Azure OpenAI Studio.  
- * **Version** – The API version to be used when making requests (e.g., ``2024-05-01-preview``). 
+ * **Model Name** – The name of the model deployment created in Azure OpenAI Studio.  
+ * **API Version** – The API version to be used when making requests (e.g., ``2025-01-01-preview``). 
  * **Max Tokens** – The maximum number of tokens allowed in the model’s response.
+ * **Project Id** – The identifier of the project or resource group linked to your deployment.  
+ * **Title** – Connection Title
+ * **Description** – Connection Description
 
-  .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_token.png
+  .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_token1.png
      :alt: connection
      :width: 60%    
   
@@ -27,18 +31,21 @@ The fields which correspond to the Azure OpenAI end points are:
 
 **Authentication Type : Client Credentials** 
 
+  * **Connection name** – Connection name
   * **URL** – The base endpoint of your Azure OpenAI resource (e.g., ``https://<resource-name>.openai.azure.com``).  
   * **Embeddings Endpoint URL** – The Azure OpenAI endpoint dedicated to embeddings requests (e.g., ``https://<resource-    name>.openai.azure.com/openai/deployments/<deployment-name>/embeddings``).
-  * **Deployment Name** – The name of the model deployment created in Azure OpenAI Studio.  
-  * **Version** – The API version to be used when making requests (e.g., ``2024-05-01-preview``).  
+  * **Model Name** – The name of the model deployment created in Azure OpenAI Studio.  
+  * **API Version** – The API version to be used when making requests (e.g., ``2025-01-01-preview``).  
   * **Client Id** – The application (client) ID registered in Azure AD for OAuth2 authentication.  
   * **Client Secret** – The secret associated with the client ID, used for secure authentication.  
   * **Token End Point URL** – The Azure AD token endpoint used to fetch access tokens.  
   * **Scope** – The scope value required for authentication (commonly the Azure resource URI).  
-  * **Project Id** – The identifier of the project or resource group linked to your deployment.  
+  * **Project Id** – The identifier of the project or resource group linked to your deployment. 
+  * **Title** – Connection Title
+  * **Description** – Connection Description
   * **Max Tokens** – The maximum number of tokens allowed in the model’s response.
 
-   .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_client_credentials.png
+   .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_client_credentials1.png
      :alt: connection
      :width: 60%    
 

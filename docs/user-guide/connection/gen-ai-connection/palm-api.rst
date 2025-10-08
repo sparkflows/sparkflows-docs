@@ -4,15 +4,13 @@ This connection can be created to interact with Vertex Palm APIs. The analytical
 
 Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
 
-The two fields which corresponds to the Vertex Palm API end points are:
+The fields which corresponds to the Vertex Palm API end points are:
 
- * **Token :** 
+ * **Connection Name :** Enter a unique name for this connection.
 
-   This is the google cloud token which you can generate by logging into your google cloud account.
+ * **Token :** This is the google cloud token which you can generate by logging into your google cloud account.
 
- * **Host URL :** 
-
-   This is the Vertex Palm API endpoint URL containing Project ID and Model Name :
+ * **Host URL :** This is the Vertex Palm API endpoint URL containing Project ID and Model Name :
 
    `https://us-central1-aiplatform.googleapis.com/v1/projects/${PROJECT_ID}/locations/us-central1/publishers/google/models/${MODEL_ID}:predict`
 

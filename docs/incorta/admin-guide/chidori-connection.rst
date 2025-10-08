@@ -79,9 +79,9 @@ For GENERAL Tab
    * - Url
      - Url for selected Connection type
      - Add URL for Chidori Connection
-   * - Driver Class
-     - Driver Class for selected Connection type 
-     - It Comes with default value  
+   * - Main Class
+     - Main Class name for selected Connection 
+     - It comes with default value  
      
 .. figure:: ../../_assets/incorta/chidori_3.png
    :alt: chidori
@@ -96,17 +96,20 @@ For CHIDORI Tab
    * - Title
      - Description
      - Value
-   * - Jars
-     - Jars to be used in Chidori session
-     - Jars path located in Chidori Cluster
-   * - Pyspark Files
-     - Pyspark Files to be used in emr livy session
+   * - Jar
+     - Jar to be used for job execution
+     - Jar path located in Chidori Cluster
+   * - Pyspark File
+     - Python file to be used for job execution
      - Pyspark file located in Chidori Cluster 
    * - Spark Conf
-     - Spark Conf
+     - Conf to be used. Ex:- key1:value1,key2:value2
      - Spark Conf used while Job Submission
+   * - Spark Submit Python files
+     - Spark Submit Python files to be used
+     - For example path to a .whl file located in Chidori Cluster
    * - Log File location
-     - Location to be used to store Chidori Log
+     - Location to be used to store Chidori Logs
      - Update the path ie File system accessible  
      
 .. figure:: ../../_assets/incorta/chidori_4.png
@@ -123,10 +126,10 @@ For MV Tab
      - Description
      - Value
    * - HostName 
-     - HostName 
+     - Incorta HostName 
      - HostName 
    * - Token
-     - Token
+     - Incorta Token
      - base64 of username:password for mv api 
         
 .. figure:: ../../_assets/incorta/chidori_5.png

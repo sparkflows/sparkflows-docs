@@ -55,13 +55,9 @@ UI Improvements
 Documentation
 ----
 
-* **Access Tokens :** Updated the documentation for mandatory token description. Refer here: `Access Tokens <https://docs.sparkflows.io/en/latest/installation/user-groups/Access-Token.html#access-tokens>`_ 
-* **Copilot with MCP Connection :** Added documentation on using copilot with MCP connection in Sparkflows to automatically generate nodes for workflows or pipelines. Refer here: :ref:`Copilot with MCP Connection<Copilot with MCP Connection>`
+* `Access Tokens <https://docs.sparkflows.io/en/latest/installation/user-groups/Access-Token.html#access-tokens>`_ documentation is now updated with details on the mandatory description field in tokens.
 
-
-
-
-
+* :ref:`Copilot with MCP Connection<Copilot with MCP Connection>` documentation is now added on using copilot with MCP connection in Sparkflows to automatically generate nodes for workflows or pipelines.  
 
 
 

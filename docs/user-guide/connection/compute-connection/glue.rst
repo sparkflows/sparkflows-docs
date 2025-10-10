@@ -80,7 +80,7 @@ Step 4 : Update the parameters
      - A custom URL where AWS Glue job status (success or failure) is sent, typically configured via EventBridge, Lambda, or API Gateway
    * - Title
      - Title
-     - Title
+     - Add an unique Title
    * - Description
      - Connection Description
      - Connection Description

@@ -77,7 +77,7 @@ Step 4 : Update the parameters
      - Connection name
    * - Postback Url
      - Postback Url
-     - Postback Url
+     - A custom URL where AWS Glue job status (success or failure) is sent, typically configured via EventBridge, Lambda, or API Gateway
    * - Title
      - Title
      - Title
@@ -110,7 +110,7 @@ Step 4 : Update the parameters
      - Glue Main class to execute.
      - FireGlueApp
    * - Default Arguments
-     - Pass any parameters as default arguments.
+     - Pass any parameters as default arguments. Format should be something like --extra-jars s3:/bucket/abc.jar, --class MainClass
      - --TempDir s3://aws-glue-temporary;,--postBackUrl http://host_name:8080/messageFromSparkJob
    * - Glue Version
      - Glue Version. If empty it takes default glue version.

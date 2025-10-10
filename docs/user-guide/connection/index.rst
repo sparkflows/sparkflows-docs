@@ -7,7 +7,7 @@ Fire Insights enables you to create different connections. It offers the followi
 
 #.  **Storage Connections -** like MySQL, Snowflake, PostgreSQL, Redshift, SQL Server, SFTP, Cassandra, Oracle, Oracle Netsuite and Sybase connection.   
 
-#. **GenerativeAI Connections -** like OpenAI, Azure OpenAI, Nvidia, Databricks LLM, Vertex Palm API, and Bedrock connection.
+#. **GenerativeAI Connections -** like OpenAI, Azure OpenAI, Gemini, Nvidia, Databricks LLM, Vertex Palm API, and Bedrock connection.
 
 #. **Vector Database Connections -** like Pinecone, FAISS, Milvus and Weaviate connection.
 

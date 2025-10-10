@@ -3,16 +3,16 @@ Databricks Connection
 
 Sparkflows enables you to create Databricks connection and use the connection to submit job on respective Databricks cluster. Connections can be at various levels:
 
-  * Global : Everyone has access to these connections.
-  * Group  : Users belonging to the group have access to these connections.
-  * Project : The owner of the project and the groups with which the Project has been shared will have access to the Project level connections.
+  * **Global:** Everyone has access to these connections.
+  * **Group:** Users belonging to the group have access to these connections.
+  * **Project:** The owner of the project and the groups with which the Project has been shared will have access to the Project level connections.
 
 Below are the steps required to create Databricks connection:
 
-Step 1 : Login to Sparkflows web server URL
+Step 1 : Enable Databricks in Sparkflows
 ------
 * Open the Sparkflows web server URL and log in with your credentials.
-* Go to  **Administration -> Configurations -> Connection**.
+* Go to  **Administration -> Configurations -> CONNECTION**.
 * Enable Databricks connection by setting the below parameter to **true** and save the configuration.
 
   ::

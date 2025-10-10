@@ -13,7 +13,7 @@ Step 1 : Enable Livy in Sparkflows
 ===========
 
 * Login to **Fire Insights**.
-* Navigate to **Administration -> Configurations -> CONNECTION**
+* Navigate to **Administration -> Configurations -> CONNECTION**.
 * Enable Livy connection by setting the **value** of below parameter to **true** and save the configuration.
 
   ::

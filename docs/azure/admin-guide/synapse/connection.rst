@@ -170,19 +170,19 @@ Once you save the above configurations:
         - Fire core JAR file path
       * - Driver Memory 
         - Driver Memory 
-        - Driver Memory need to be used
+        - Memory for the driver process; set in Synapse Spark job configuration.
       * - Driver Cores  
         - Driver Cores  
-        - Driver Cores need to be used 
+        - CPU cores for the driver; set in Synapse Spark job configuration.
       * - Executor Memory  
         - Executor Memory  
-        - Executor Memory need to be used
+        - Memory for each executor; set in Synapse Spark job configuration.
       * - Executor Cores  
         - Executor Cores  
-        - Executor Cores need to be used
+        - CPU cores for each executor; set in Synapse Spark job configuration.
       * - Executor Count  
         - Executor Count  
-        - Executor Count need to be used
+        - Number of executors; set in Synapse Spark job configuration.
  
    .. figure:: ../../../_assets/azure/synapse_azuretab1.png
       :alt: synapse

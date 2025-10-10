@@ -9,7 +9,7 @@ Users
 Fire Insights supports multiple users. 
 
 * Each user can belong to multiple groups and have multiple roles.
-* A user can be a designated as a superuser
+* A user can be a designated as a superuser.
 * The user should exist on HDFS (when running against a Hadoop Cluster). Fire can run independent of a Hadoop Cluster.
 
 
@@ -30,7 +30,7 @@ There can be multiple groups in Fire Insights. A user can belong to one or more 
    :alt: security
    :width: 60%
 
-Below are further details associated with each group
+Below are further details associated with each group:
 
 * **Name:** The name of the group.
 * **Properties:** Key-value pairs you need to pass.
@@ -69,7 +69,7 @@ Out of the box, Fire Insights comes with three roles: **ADMIN**, **ANALYST**, an
 Permissions
 -----------
 
-Fire Insights supports the following permissions, which are associated with roles
+Fire Insights supports the following permissions, which are associated with roles.
 
 .. list-table:: 
    :widths: 30 70 

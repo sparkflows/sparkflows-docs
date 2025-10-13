@@ -6,7 +6,7 @@ Fire Insights enables you to create Analytical Apps.
 Below are the steps required to create a new Analytical App:
 
 #. Open the **project** where you want to create an Analytical App.
-#. Open the **Applications** tab from the upper-middle bar on from Project Overview page.
+#. Open the **Applications** tab from the upper-middle bar on Project Overview page.
 #. Open the **Create Analytics Application** page.
 #. Add the **required fields** on Create Analytics Applications page.
 #. **Save** and **View** the newly created Analytical App.

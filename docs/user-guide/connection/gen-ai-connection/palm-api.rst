@@ -41,7 +41,7 @@ Step 3: Configuring the VertexPalmAPI Connection
 
       .. figure:: ../../../_assets/installation/connection/gen-ai/configure-palm-api.png
          :alt: connection
-         :width: 40%    
+         :width: 60%    
 
 2. Once you have entered the connection details, click on **Test Connection** button to test the connection. If the connection is successful, click on **Save** button to save the connection.
 

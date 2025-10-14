@@ -4,11 +4,36 @@ This connection can be created to interact with Azure OpenAI APIs. The analytica
 
 Sparkflows supports two authentication methods for Azure OpenAI connection : **API Key/Token** and **Client Credentials**.
 
-Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
+Step 1: Login to Fire Insights and Navigate to Connections Page
++++++
 
-The fields can be populated as below based on the endpoint of the OpenAI deployment in your Azure account. 
+#. Login to Fire Insights by entering your **login credentials** as admin.
+#. Navigate to **Administration -> Global/Group Connections**. A Connections page will open up, as shown below.
 
-The fields which correspond to the Azure OpenAI end points are:
+  .. figure:: ../../../_assets/installation/connection/gen-ai/connections-page.png
+      :alt: create_connections
+      :width: 60%
+
+Step 2: Adding Azure OpenAI Connection
+++++++
+
+1. Click on **Add Connection** button from the connections page and choose **Add Connections For All**. 
+
+2. Now select the Connection Category as **GenAI** and Connection Type as **AzureOpenAI**.
+
+
+ .. figure:: ../../../_assets/installation/connection/gen-ai/add-azure-openai-connection.png
+     :alt: create_connections
+      :width: 60%
+
+Step 3: Configuring the Azure OpenAI Connection
+++++++
+
+1. Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
+
+  The fields can be populated as below based on the endpoint of the OpenAI deployment in your Azure account. 
+  
+  The fields which correspond to the Azure OpenAI end points are:
 
 **Authentication Type : Token**
 
@@ -23,7 +48,7 @@ The fields which correspond to the Azure OpenAI end points are:
  * **Title** – Connection Title
  * **Description** – Connection Description
 
-  .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_token1.png
+  .. figure:: ../../../_assets/installation/connection/gen-ai/azure-openai-add-token.png
      :alt: connection
      :width: 60%    
   
@@ -45,7 +70,7 @@ The fields which correspond to the Azure OpenAI end points are:
   * **Description** – Connection Description
   * **Max Tokens** – The maximum number of tokens allowed in the model’s response.
 
-   .. figure:: ../../../_assets/installation/connection/gen-ai/azure_openai_client_credentials1.png
+   .. figure:: ../../../_assets/installation/connection/gen-ai/azure-openai-add-credential.png
      :alt: connection
      :width: 60%    
 

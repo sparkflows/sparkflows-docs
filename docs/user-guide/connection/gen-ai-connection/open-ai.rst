@@ -2,7 +2,35 @@ OpenAI Connection
 ============
 This connection can be created to interact with OpenAI APIs. The analytical apps and nodes can make use of the connection.
 
-Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
+To create a OpenAI connection follow the steps below:
+
+Step 1: Login to Fire Insights and Navigate to Connections Page
++++++
+
+#. Login to Fire Insights by entering your **login credentials** as admin.
+#. Navigate to **Administration -> Global/Group Connections**. A Connections page will open up, as shown below.
+
+  .. figure:: ../../../_assets/installation/connection/gen-ai/connections-page.png
+      :alt: create_connections
+      :width: 60%
+
+
+Step 2: Adding OpenAI Connection
+++++++
+
+1. Click on **Add Connection** button from the connections page and choose **Add Connections For All**. 
+
+2. Now select the Connection Category as **GenAI** and Connection Type as **OpenAI**.
+
+
+ .. figure:: ../../../_assets/installation/connection/gen-ai/add-openai-connection.png
+     :alt: create_connections
+      :width: 60%
+
+Step 3: Configuring the OpenAI Connection
+++++++
+
+1. Fill in the information as shown below. Most of the fields are self-explanatory and can be populated with values that you like.
 
 The fields which corresponds to the OpenAI end points are:
 
@@ -22,8 +50,10 @@ The fields which corresponds to the OpenAI end points are:
 
 
 
-   .. figure:: ../../../_assets/installation/connection/gen-ai/open-ai1.png
+   .. figure:: ../../../_assets/installation/connection/gen-ai/configure-openai-connection.png
       :alt: connection
-      :width: 40%    
+      :width: 60%    
 
-After entering the details, click the Test Connection button to verify the connection.
+2. Once you have entered the connection details, click on **Test Connection** button to test the connection. If the connection is successful, click on **Save** button to save the connection.
+
+   Now, you are ready to start using the Connection in apps and nodes.

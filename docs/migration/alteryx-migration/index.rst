@@ -25,9 +25,9 @@ Key Benefits
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/migration/migration-process`
+    :doc:`/migration/alteryx-migration/migration-process`
 
-    Step-by-Step Guide to Using the Feature
+    Step-by-Step Guide to Migrating Alteryx Workflows to Sparkflows
 
 
 .. toctree::

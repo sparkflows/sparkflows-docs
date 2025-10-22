@@ -3,11 +3,16 @@ Databricks Workspace Connection
 
 Sparkflows enables you to create Databricks Workspace connection and use the connection to sync to Airflow and use it in pipelines.
 
+Sparkflows supports two types of authentication for Databricks Workspace connections:
+
+  * **Access Token (PAT)** : Personal Access Token based authentication
+  * **AAD Token** : Azure Active Directory (Service Principal) based authentication
+
 Connections can be at various levels:
 
   * Global : Everyone has access to these connections.
   * Group  : Users belonging to the group have access to these connections.
- 
+
 Below are the steps required to create Databricks Workspace connection:
 
 Step 1 : Go to Connections Page
@@ -40,7 +45,7 @@ Step 3 : Enter Parameter Details
 
    **GENERAL Tab:**
 
-   .. list-table:: 
+   .. list-table::
       :widths: 10 20 20
       :header-rows: 1
 
@@ -59,10 +64,10 @@ Step 3 : Enter Parameter Details
       * - CONNECTION NAME
         - Connection Name
         - Add an unique Connection Name
-      * - TOKEN 
-        - Token
-        - Add token generated
-      * - TITLE 
+      * - AUTH TYPE
+        - Select Authentication Type
+        - Select either Access Token (PAT) or AAD Token
+      * - TITLE
         - Title for selected Connection
         - Add an unique Title
       * - DESCRIPTION
@@ -72,9 +77,53 @@ Step 3 : Enter Parameter Details
         - URL for Databricks Workspace
         - Add Databricks Workspace Url from the Databricks. Example: https://xxxxxxxx.databricks.net
 
-   .. figure:: ../../_assets/connections/databricks_workspace_1.png
-      :alt: connection
-      :width: 60%    
+
+   **Option 1: Access Token (PAT) Authentication**
+
+   If you select **Access Token (PAT)** as Auth Type, you need to provide:
+
+   .. list-table::
+      :widths: 10 20 20
+      :header-rows: 1
+
+      * - Title
+        - Description
+        - Value
+      * - TOKEN
+        - Personal Access Token
+        - Add the Personal Access Token generated from Databricks
+
+   .. figure:: ../../_assets/installation/connection/Workspace_PAT_Token.png
+      :alt: PAT Authentication
+      :width: 60%
+
+
+   **Option 2: AAD Token Authentication**
+
+   If you select **AAD Token** as Auth Type, you need to provide:
+
+   .. list-table::
+      :widths: 10 20 20
+      :header-rows: 1
+
+      * - Title
+        - Description
+        - Value
+      * - CLIENT ID
+        - Azure AD Application (Service Principal) Client ID
+        - Add the Client ID from Azure AD Service Principal
+      * - CLIENT SECRET
+        - Azure AD Application (Service Principal) Client Secret
+        - Add the Client Secret from Azure AD Service Principal
+      * - ACCESS TOKEN URI
+        - Azure AD OAuth 2.0 Token Endpoint
+        - Add the Access Token URI. Example: https://login.microsoftonline.com/{tenant-id}/oauth2/token
+
+   .. figure:: ../../_assets/installation/connection/Workspace_AAD_Token.png
+      :alt: AAD Token Authentication
+      :width: 60%
+
+   .. note:: For detailed steps on how to obtain Client ID and Client Secret from Azure, refer to `this guide <https://docs.sparkflows.io/en/latest/azure/admin-guide/azure-databricks-via-jdbc.html>`_.
 
    .. note:: Make sure to update Databricks Workspace URL with absolute path and it should be accessible from Sparkflows application.
 

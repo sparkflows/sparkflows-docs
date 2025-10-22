@@ -53,6 +53,13 @@ Tutorials
 
    tutorials/index
 
+Migration
+--------------
+
+.. toctree::
+   :maxdepth: 2
+
+   migration/index
 
 Databricks Guide
 --------------

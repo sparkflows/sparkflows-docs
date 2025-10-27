@@ -63,13 +63,13 @@ Step 3 : Enter Parameter Details
         - Select Workspace Databricks
       * - CONNECTION NAME
         - Connection Name
-        - Add an unique Connection Name
+        - Add a unique Connection Name
       * - AUTH TYPE
         - Select Authentication Type
         - Select either Access Token (PAT) or AAD Token
       * - TITLE
         - Title for selected Connection
-        - Add an unique Title
+        - Add a unique Title
       * - DESCRIPTION
         - Connection Description
         - Add some Connection Description

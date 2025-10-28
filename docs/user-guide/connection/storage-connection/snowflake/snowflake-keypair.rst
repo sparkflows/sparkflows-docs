@@ -1,16 +1,19 @@
 Snowflake Key-Pair Authentication
 =======
 
-Sparkflows provides the capability to create "Snowflake Connection" and use the connection to access various resources using Key-Pair Authentication.
+Sparkflows provides the capability to create Snowflake Connection and use the connection to access various resources using **Key-Pair Authentication** with credentials stores like **AWS Secrets Manager** and **Azure Key Vault**.
 
-Pre-requisites
+Prerequisites
 -------------
+When using AWS Secrets Manager Credential Store
+++++
+- The private key is stored in AWS Secrets Manager. 
+- The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
+- Sparkflows machine would have access to ARN.
 
-- the private key is stored in AWS Secrets Manager, 
-- the configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
-- Sparkflows machine would have access to ARN
 
-the ARN should have below permission:
+
+The ARN should have below permission:
 
 ::
 
@@ -29,6 +32,11 @@ the ARN should have below permission:
     ]
   }
 
+When using Azure Key Vault Credential Store
+++++
+- The private key is stored in Azure Key Vault.
+
+
 How to create private key and configure it in snowflake
 ---------------------------------------
 
@@ -39,16 +47,35 @@ Reference guide : `Configuring key-pair authentication in Snowflake. <https://do
 
 Configuring Credential Store 
 -------------
+**For AWS Secrets Manager**
+++++++++++++++++++++++++++++++++
+
 - If a user wants to configure AWS Secrets Manager for Snowflake authentication, they need to create a credential store and configure it in the connection settings.
 - If the user wants to test and use a different ARN for accessing the Secrets Manager, they can configure it in the credentials store.
 - By default, the ARN configured at the user group level will be used to fetch AWS secrets.
 
 
-   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/snowflake_credential_store.png
+  .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/snowflake_credential_store.png
       :alt: Credential Store
       :width: 65%
 
 Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.sparkflows.io/en/latest/installation/credential-store/aws/index.html>`_
+
+**For Azure Key Vault**
+++++++++++++++++++++++++++
+
+- If a user wants to configure Azure Key Vault for Snowflake authentication, they need to create a credential store and then select that credential store during connection creation.
+
+  .. figure:: ../../../../_assets/credential_store/credential_store_2.PNG
+      :alt: Credential Store
+      :width: 65%  
+
+  .. figure:: ../../../../_assets/credential_store/credential_store_3.PNG
+      :alt: Credential Store
+      :width: 65%  
+
+Reference guide : `Configuring Azure Key Vault Credential Store. <https://docs.sparkflows.io/en/latest/installation/credential-store/azure-keyvault.html>`_ 
+
 
 Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 
@@ -81,7 +108,7 @@ Step 3 : Add Connection Parameter
       :alt: Credential Store
       :width: 65%
 
-
+    
    .. list-table:: 
       :widths: 10 20 20
       :header-rows: 1
@@ -113,14 +140,25 @@ Step 3 : Add Connection Parameter
         - Enter the Username for the selected connection
       * - Secret Key Name
         - Secret Key Name for the connection
-        - Enter the Secret Key Name for the selected connection
+        - Enter the Secret Key Name for the selected connection in the format **$mysecret**
 
-  
-   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/snowflake_key_pair_auth.png
-      :alt: Credential Store
-      :width: 65%
 
-  
+**Using AWS Secret Manager Credential Store** 
+
+In the below image, a snowflake connection of type key-pair has been configured and is having the credential store of AWS Secrets Manager.
+
+.. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/snowflake_key_pair_auth.png
+         :alt: Credential Store
+         :width: 65%
+
+**Using Azure Key Vault Credential Store**
+
+In the below image, a snowflake connection of type key-pair has been configured and is having the credential store of Azure Key Vault.
+
+.. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/Snowflake-KeyPair-AzureKeyVault-Conn.png
+         :alt: Credential Store
+         :width: 65%
+ 
 
 
 Step 4 : Test and Save the connection
@@ -129,12 +167,19 @@ Step 4 : Test and Save the connection
 #. After adding the parameters, click on **Test Connection** button to verify the connection.
 #. Once the success notification is received, click on **Save** button to store the connection details.
 
+   **For AWS Secret Manager Credential Store** 
+
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/sf-connection-test.png
       :alt: Credential Store
       :width: 65%
 
+   **For Azure Key Vault Credential Store**
 
-   Once you save the connection, resources can be used inside workflow editor etc. using the above connection.
+   .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/Snowflake-KeyPair-AzureKeyVault-Test.png
+     :alt: Credential Store
+     :width: 65%
+
+   Once you save the connection, resources can be used inside workflow editor for snowflake nodes, in snowflake db editor, etc. using the above connection.
 
   .. Note:: 1. Please ensure that the Snowflake URL is accessible from the Sparkflows machine.
 

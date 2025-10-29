@@ -26,7 +26,7 @@ Data & Storage Management
 
 * **Azure Key Vault Integration in Snowflake Connection :** Users can now create a Credential Store using Azure Key Vault and add authentication details within it. The created Credential Store can then be used to establish Snowflake connections. These connections can further be utilized across various Snowflake nodes in workflows and pipelines.
 
-* **Snowflake Sensor :** A SnowflakeSensor node is now available, which repeatedly executes (polls) a specified SQL query in Snowflake and verifies if the query’s output meets the defined success condition (e.g., status = 'SUCCESS', count = 159) before allowing the DAG to proceed.
+* **Snowflake Sensor :** A Snowflake Sensor node is now available, which repeatedly executes (polls) a specified SQL query in Snowflake and verifies if the query’s output meets the defined success condition (e.g., status = 'SUCCESS', count = 159) before allowing the DAG to proceed.
 
 
 User & Group Management
@@ -69,7 +69,7 @@ Documentation
 
 * `Snowflake Key-Pair Authentication <https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/snowflake/snowflake-keypair.html>`_ documentation is updated with details on Azure Key Vault integration in Snowflake connection.
 
-
+* `Snowflake Sensor <https://docs.sparkflows.io/en/latest/user-guide/pipeline-development/snowflake-nodes/snowflake-sensor.html>`_ documentation is now added with details about the Snowflake Sensor node.
 
 
 

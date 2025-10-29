@@ -12,7 +12,12 @@ Below is a list of snowflake nodes available when **Airflow** is enabled:
 
     :doc:`snowflake-run-sql`
 
+    ---
+
+    :doc:`snowflake-sensor`
+
 .. toctree::
    :hidden:
 
    snowflake-run-sql.rst
+   snowflake-sensor.rst

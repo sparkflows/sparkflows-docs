@@ -24,6 +24,11 @@ Data & Storage Management
 
 	* The switched group’s credentials are used for S3 data access.
 
+* **Azure Key Vault Integration in Snowflake Connection :** Users can now create a Credential Store using Azure Key Vault and add authentication details within it. The created Credential Store can then be used to establish Snowflake connections. These connections can further be utilized across various Snowflake nodes in workflows and pipelines.
+
+* **Snowflake Sensor :** A SnowflakeSensor node is now available, which repeatedly executes (polls) a specified SQL query in Snowflake and verifies if the query’s output meets the defined success condition (e.g., status = 'SUCCESS', count = 159) before allowing the DAG to proceed.
+
+
 User & Group Management
 ++++
 
@@ -38,6 +43,7 @@ Security Management
 	* A new filter for tokens has been added on the User Profile page.
 
 
+
 Enhancements
 ----
 
@@ -45,6 +51,8 @@ Platform Improvements
 ++++
 
 * **Standardized Date Format :** Dates across the application are now displayed in YYYY/MM/DD format.
+
+* **Multi-Group Credential Store Support :** Users can now create a Credential Store specific to a selected group. This enhancement improves access control and security when managing credentials across multiple teams.
 
 UI Improvements
 ++++
@@ -59,7 +67,7 @@ Documentation
 
 * :ref:`Copilot with MCP Connection<Copilot with MCP Connection>` documentation is now added on using copilot with MCP connection in Sparkflows to automatically generate nodes for workflows or pipelines.  
 
-
+* `Snowflake Key-Pair Authentication <https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/snowflake/snowflake-keypair.html>`_ documentation is updated with details on Azure Key Vault integration in Snowflake connection.
 
 
 

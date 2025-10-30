@@ -37,6 +37,13 @@ Before proceeding with the migration, stop the Fire server using the following c
 
 * For **Windows OS** - Update the existing schema for Fire of H2 DB by executing the **create-h2-db.bat** file by double clicking on it.
 
+.. note::  Before running the H2 DB script, please add the following H2 DB SQL statements to the **fire-schema.h2.sql** file.
+
+::
+
+    ALTER TABLE user_configs DROP COLUMN program_parameters;
+    ALTER TABLE webapp DROP COLUMN condition;
+    ALTER TABLE webapp_stage DROP COLUMN condition;
 
 **Step 3 : Create the MySQL Database with its Tables**
 +++++++++++++++++++++++++++++++++++++

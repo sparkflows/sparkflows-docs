@@ -36,7 +36,7 @@ When using Azure Key Vault Credential Store
 
 The following formats are supported for storing private keys in Azure Key Vault :
 
-**Format 1 -** If the key must includes the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** ,then make sure to place key strictly between them on separate lines.
+**Format 1 -** If the key includes the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** ,then make sure to place the key strictly between them on separate lines.
 
 .. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-1.png
       :alt: Azure Key Vault Private Key Format

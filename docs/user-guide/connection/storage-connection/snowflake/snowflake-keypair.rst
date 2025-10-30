@@ -11,8 +11,6 @@ When using AWS Secrets Manager Credential Store
 - The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN.
 
-
-
 The ARN should have below permission:
 
 ::
@@ -36,6 +34,19 @@ When using Azure Key Vault Credential Store
 ++++
 - The private key is stored in Azure Key Vault.
 
+The following formats are supported for storing private keys in Azure Key Vault :
+
+**Format 1 -** If the key must includes the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** ,then make sure to place key strictly between them on separate lines.
+
+.. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-1.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
+
+**Format 2 -** The key can also be added in the format where the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** are not included, and only the key content is provided.
+
+.. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-2.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
 
 How to create private key and configure it in snowflake
 ---------------------------------------

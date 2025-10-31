@@ -5,9 +5,18 @@ Sparkflows provides the capability to create Snowflake Connection and use the co
 
 Prerequisites
 -------------
+
+The following format is supported for storing private keys in **AWS Secrets Manager** or **Azure Key Vault** :
+
+The key must be added in a format that **excludes** the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----**, providing **only the key content**, as illustrated in the image below.
+
+.. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-2.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
+
 When using AWS Secrets Manager Credential Store
 ++++
-- The private key is stored in AWS Secrets Manager. 
+- The private key is stored in AWS Secrets Manager in the correct format. 
 - The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN.
 
@@ -32,21 +41,7 @@ The ARN should have below permission:
 
 When using Azure Key Vault Credential Store
 ++++
-- The private key is stored in Azure Key Vault.
-
-The following formats are supported for storing private keys in Azure Key Vault :
-
-**Format 1 -** If the key includes the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** ,then make sure to place the key strictly between them on separate lines.
-
-.. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-1.png
-      :alt: Azure Key Vault Private Key Format
-      :width: 35%
-
-**Format 2 -** The key can also be added in the format where the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----** are not included, and only the key content is provided.
-
-.. figure:: ../../../..//_assets/credential_store/sf-azure-key-valut-key-format-2.png
-      :alt: Azure Key Vault Private Key Format
-      :width: 35%
+- The private key is stored in Azure Key Vault in the correct format.
 
 How to create private key and configure it in snowflake
 ---------------------------------------

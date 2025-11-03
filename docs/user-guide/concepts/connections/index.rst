@@ -14,7 +14,7 @@ Storage Connections are used in the workflows for reading and writing data.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
     
-    :doc:`compute-connection`
+    :doc:`compute-connection/index`
 
     ---
 
@@ -27,7 +27,7 @@ Storage Connections are used in the workflows for reading and writing data.
 .. toctree::
    :hidden:
    
-   compute-connection.rst
+   compute-connection/index.rst
    storage-connection.rst
 
 

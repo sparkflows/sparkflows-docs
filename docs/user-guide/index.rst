@@ -138,7 +138,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
-    :doc:`/user-guide/data-visualization`
+    :doc:`/user-guide/data-visualization/index`
 
     ---
 
@@ -179,7 +179,7 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    code-library/index
    application-credentials/index
    copilot/index
-   data-visualization.rst
+   data-visualization/index
    runtime-parameters/index
    generate-pyspark-code/index
 

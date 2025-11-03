@@ -12,6 +12,6 @@ In Sparkflows, compute connection enables the following:
    :maxdepth: 2
 
    databricks.rst
-   glue.rst
+   aws-glue.rst
    livy.rst
    spark-submit.rst

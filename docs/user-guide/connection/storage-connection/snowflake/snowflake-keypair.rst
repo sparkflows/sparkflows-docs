@@ -5,8 +5,10 @@ Sparkflows provides the capability to create Snowflake Connection and use the co
 
 Prerequisites
 -------------
+When using Azure Key Vault Credential Store
+++++
 
-The following format is supported for storing private keys in **AWS Secrets Manager** or **Azure Key Vault** :
+The following format is supported for storing private keys in **Azure Key Vault** :
 
 The key must be added in a format that **excludes** the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----**, providing **only the key content**, as illustrated in the image below.
 
@@ -16,7 +18,12 @@ The key must be added in a format that **excludes** the lines **-----BEGIN PRIVA
 
 When using AWS Secrets Manager Credential Store
 ++++
-- The private key is stored in AWS Secrets Manager in the correct format. 
+- The private key must be stored in AWS Secrets Manager, following the format illustrated in the image below.
+
+.. figure:: ../../../..//_assets/credential_store/snowflake-aws-secret-manager-file.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
+
 - The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN.
 
@@ -38,10 +45,6 @@ The ARN should have below permission:
         }
     ]
   }
-
-When using Azure Key Vault Credential Store
-++++
-- The private key is stored in Azure Key Vault in the correct format.
 
 How to create private key and configure it in snowflake
 ---------------------------------------

@@ -41,10 +41,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     ---
 
-    :doc:`/user-guide/data-visualization/index`
-
-    ---
-
     :doc:`/user-guide/data-profile/index`
 
     ---
@@ -110,10 +106,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
     ---
     
     :doc:`/user-guide/pipeline-development/index`
-    
-    ---
-    
-    :doc:`/user-guide/runtime-parameters/index`
 
     ---
     
@@ -144,6 +136,14 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
 
     :doc:`/user-guide/copilot/index`
 
+    ---
+
+    :doc:`/user-guide/data-visualization`
+
+    ---
+
+    :doc:`/user-guide/runtime-parameters/index`
+
 .. toctree::
    :hidden:
 
@@ -156,7 +156,6 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    data-preparation/index
    variables-macros/index
    control-structures/index
-   data-visualization/index
    data-profile/index
    data-quality/index
    machine-learning/index
@@ -173,12 +172,20 @@ You can install it on the cloud, on-premise or even on your laptop. Fire Insight
    python/index
    git-integration/index
    export-import/index
-   generate-pyspark-code/index
    utilities/index
-   runtime-parameters/index
    workflow-wizard/index
    scheduler/index
    solutions/index
    code-library/index
    application-credentials/index
    copilot/index
+   data-visualization.rst
+   runtime-parameters/index
+   generate-pyspark-code/index
+
+
+
+
+
+
+

@@ -181,9 +181,22 @@ Follow the steps below for the same:
  * ``Private Key`` : Paste the private key content in PEM format (plain text).
  * ``Password`` : Leave this field empty when using keypair authentication.
 
-  .. figure:: ../../../_assets/configuration/airflow/af-keypair-config-details.PNG
+Using Private Key Content:
+++++++++
+The user can copy and paste the private key directly from the file
+
+.. figure:: ../../../_assets/configuration/airflow/af-keypair-config-details.PNG
       :alt: airflow
       :width: 60%
+
+Using ARN configured for Aws Secret Manager:
++++++++++
+Users can specify the ARN configured for AWS Secrets Manager to read the private key directly from the Secrets Manager.
+ 
+ .. figure:: ../../../_assets/configuration/airflow/airflow_keypair_ARN.png
+      :alt: airflow
+      :width: 60%
+
 
 * After saving, ensure the connection appears in the list of connections under **Admin > Connections**, as shown below:
 

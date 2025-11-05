@@ -199,7 +199,7 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 Troubleshooting
 ---------------
 
-Once the H2 DB is migrated to **2.3.232** version and on attempting to start the server using the migrated H2 DB and if there is an error seen in the below format in the server logs post starting the server -
+Once the H2 DB is migrated to **2.3.232** version and the user attempts to start the server with the migrated H2 DB and if the user faces the below error in the server logs post starting the server then follow the steps mentioned below to fix the same.
 
 ::
 

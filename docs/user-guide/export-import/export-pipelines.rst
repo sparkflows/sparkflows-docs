@@ -5,7 +5,7 @@ Fire Insights enables you to export Pipelines as JSON files. These JSON files ca
 
 Below are the steps for exporting Pipelines.
 
-Steps for Export Pipelines
+Steps for Exporting a Pipeline
 -----
 
 1. You can Login to Fire Insights Web server URL and follow below steps:

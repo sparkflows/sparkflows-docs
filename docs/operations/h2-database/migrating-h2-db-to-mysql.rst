@@ -44,6 +44,8 @@ Before proceeding with the migration, stop the Fire server using the following c
     ALTER TABLE user_configs DROP COLUMN program_parameters;
     ALTER TABLE webapp DROP COLUMN condition;
     ALTER TABLE webapp_stage DROP COLUMN condition;
+    ALTER TABLE application_connection DROP COLUMN organisation;
+    ALTER TABLE application_connection DROP COLUMN bucket;
 
 **Step 3 : Create the MySQL Database with its Tables**
 +++++++++++++++++++++++++++++++++++++

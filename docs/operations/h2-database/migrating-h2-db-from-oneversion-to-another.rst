@@ -195,3 +195,45 @@ Follow the steps below to move H2 database from **1.4.199 to 2.3.232**.
 
 
 .. Note:: Make sure to delete the **firedb.trace.db** and run the required **H2 database script** before starting the server.
+
+Troubleshooting
+---------------
+
+Once the H2 DB is migrated to **2.3.232** version and on attempting to start the server using the migrated H2 DB and if there is an error seen in the below format in the server logs post starting the server -
+
+::
+
+         Caused by: org.quartz.ObjectAlreadyExistsException: Unable to store Trigger with name: '6474e665-ddfb-42e8-8804-f51cef242b66' and group: 'group1', because one already exists with this identification.
+
+To fix the above issue , run the below commands in H2 DB's SQL prompt by connecting to the H2 DB which has been migrated i.e of **v2.3.232**, post giving the h2 url , driver , username and password for the H2 DB in case of Linux OS.
+
+::
+
+         DELETE FROM QRTZ_FIRED_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+         DELETE FROM QRTZ_SIMPLE_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+         DELETE FROM QRTZ_CRON_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+         DELETE FROM QRTZ_BLOB_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+         DELETE FROM QRTZ_SIMPROP_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+         DELETE FROM QRTZ_TRIGGERS WHERE TRIGGER_NAME = '6474e665-ddfb-42e8-8804-f51cef242b66' AND TRIGGER_GROUP = 'group1';
+
+Once the above SQL commands run , then retry to start the server again. If the same issue still persists then run the below SQL commands by connecting to the H2 DB which has been migrated i.e of **v2.3.232**, post giving the h2 url , driver , username and password for the H2 DB in case of Linux OS.
+
+**Note that if we run the below SQL commands there is a possibilty that any scheduled job (Workflow or Pipeline) would also be dropped so keep a note of the scheduled jobs and re-schedule them once the server is up**
+
+::
+   
+         DROP TABLE QRTZ_FIRED_TRIGGERS;
+         DROP TABLE QRTZ_PAUSED_TRIGGER_GRPS;
+         DROP TABLE QRTZ_SCHEDULER_STATE;
+         DROP TABLE QRTZ_LOCKS;
+         DROP TABLE QRTZ_SIMPLE_TRIGGERS;
+         DROP TABLE QRTZ_CRON_TRIGGERS;
+         DROP TABLE QRTZ_SIMPROP_TRIGGERS;
+         DROP TABLE QRTZ_BLOB_TRIGGERS;
+         DROP TABLE QRTZ_TRIGGERS;
+         DROP TABLE QRTZ_JOB_DETAILS;
+         DROP TABLE QRTZ_CALENDARS;
+
+Once the above SQL commands run , the user **must re-run** the **create-h2-db.sh** based on OS , then proceed to start the server.
+
+

@@ -20,31 +20,31 @@ When using AWS Secrets Manager Credential Store
 ++++
 - The private key must be stored in AWS Secrets Manager, following the format illustrated in the image below.
 
-.. figure:: ../../../..//_assets/credential_store/snowflake-aws-secret-manager-file.png
+  .. figure:: ../../../..//_assets/credential_store/snowflake-aws-secret-manager-file.png
       :alt: Azure Key Vault Private Key Format
       :width: 35%
 
 - The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
 - Sparkflows machine would have access to ARN.
 
-The ARN should have below permission:
+  The ARN should have below permission:
 
-::
+  ::
 
-    {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "secretsmanager:GetSecretValue",
-                "secretsmanager:ListSecrets",
-                "secretsmanager:DescribeSecret"
-            ],
-            "Resource": "arn:aws:secretsmanager:us-east-1:xxxxxx:secret:snowflake_key-*"
+          {
+          "Version": "2012-10-17",
+          "Statement": [
+              {
+                  "Effect": "Allow",
+                  "Action": [
+                      "secretsmanager:GetSecretValue",
+                      "secretsmanager:ListSecrets",
+                      "secretsmanager:DescribeSecret"
+                  ],
+                  "Resource": "arn:aws:secretsmanager:us-east-1:xxxxxx:secret:snowflake_key-*"
+              }
+          ]
         }
-    ]
-  }
 
 How to create private key and configure it in snowflake
 ---------------------------------------

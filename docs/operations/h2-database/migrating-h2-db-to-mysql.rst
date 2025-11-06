@@ -125,7 +125,7 @@ Before proceeding with the migration, stop the Fire server using the following c
 
 Download Link : `dbmigration.jar. <https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/common/dbmigration.jar>`_
 
-.. note::  Please make sure to add super user detials for the destination DB and also provide the username and password for the same to run the migration cleanly without any privilege related errors.
+.. note::  Please make sure to add super user detials for the destination DB and also provide the username and password for the same in the above mentioned **properties.txt** file to run the migration cleanly without any privilege related errors.
 
 **Step 5 : Configure the db.properties file to point to MySQL Database**
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

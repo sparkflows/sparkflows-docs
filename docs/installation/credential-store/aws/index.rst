@@ -1,9 +1,39 @@
 AWS Credential Store
 =======================
 
-Sparkflows allows users to securely access AWS resources by configuring the AWS Credential Store. 
+Sparkflows allows users to securely access AWS resources by configuring the AWS Credential Store. Below are the steps to configure AWS Credential Store.
 
-To configure AWS Credential Store, follow the steps below:
+Prerequisites
+----
+
+- The private key must be stored in AWS Secrets Manager, following the format illustrated in the image below.
+
+  .. figure:: ../../..//_assets/credential_store/snowflake-aws-secret-manager-file.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
+
+- The configured ARN must have the **secretsmanager:GetSecretValue** permission to retrieve the secret.
+- Sparkflows machine would have access to ARN.
+
+  The ARN should have below permission:
+  
+  ::
+  
+      {
+      "Version": "2012-10-17",
+      "Statement": [
+          {
+              "Effect": "Allow",
+              "Action": [
+                  "secretsmanager:GetSecretValue",
+                  "secretsmanager:ListSecrets",
+                  "secretsmanager:DescribeSecret"
+              ],
+              "Resource": "arn:aws:secretsmanager:us-east-1:xxxxxx:secret:snowflake_key-*"
+          }
+      ]
+    }
+
 
 Step 1 : Access Credential Store
 -------------

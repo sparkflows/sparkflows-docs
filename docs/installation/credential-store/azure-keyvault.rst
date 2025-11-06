@@ -4,6 +4,16 @@ Configuring Azure Key Vault
 
 You can configure Azure Key Vault in Fire Insights. Below are the steps for configuring Azure Key Vault:
 
+Prerequisites
+----
+The following format is supported for storing private keys in **Azure Key Vault** :
+
+The key must be added in a format that **excludes** the lines **-----BEGIN PRIVATE KEY-----** and **-----END PRIVATE KEY-----**, providing **only the key content**, as illustrated in the image below.
+
+.. figure:: ../..//_assets/credential_store/sf-azure-key-valut-key-format-2.png
+      :alt: Azure Key Vault Private Key Format
+      :width: 35%
+
 Step 1 : Navigate to Credential Store
 -------------
 

@@ -36,17 +36,17 @@ On the AWS page :
 
    **Note :** To edit the path, you are required to click on the edit icon located on the right-hand side (RHS) of each field.
     
-    ::
+   ::
 
         aws.enabled : true
         aws.homeDir : Specific s3 path
         aws.region  : Region where s3 is configured
 
-    .. figure:: ../../_assets/user-guide/access-filesystem/aws_config.PNG
+   .. figure:: ../../_assets/user-guide/access-filesystem/aws_config.PNG
        :alt: userguide
        :width: 60% 
 
-#. Click on the **Save Configurations** button to save and update the path.
+#. Click on **Save Configurations** button to save and update the path.
 
 Step 6 : Access the File System
 ------------
@@ -54,9 +54,9 @@ Once you save the above configuration :
 
 #. Navigate to **DATA/AWS S3** to access the same location that was configured in the previous step.
 
-        .. figure:: ../../_assets/user-guide/access-filesystem/aws_s3_browse.PNG
-           :alt: userguide
-           :width: 60% 
+   .. figure:: ../../_assets/user-guide/access-filesystem/aws_s3_browse.PNG
+       :alt: userguide
+       :width: 60% 
 
 Now, you can easily upload data and use it in your workflow or dataset.
 

@@ -14,27 +14,15 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`pipeline-tutorials-cs-pipeline`
+    :doc:`sparkflows_pipelines`
 
-    Automate store segmentation with streamlined data workflows
+    Sparkflows Pipeline Tutorials
     
     ---
 
-    :doc:`afpl-add-wf-as-emr-step`
+    :doc:`airflow_pipelines`
 
-    Airflow Pipeline Tutorials - Adding a workflow as an EMR Step
-
-    ---
-
-    :doc:`afpl-create-emr-cluster`
-
-    Airflow Pipeline Tutorials - EMR Cluster Creation, Execute a Workflow and Termination of Cluster
-
-    ---
-
-    :doc:`afpl-dynamic-emr-config`
-
-    Airflow Pipeline Tutorials - Dynamically configuring EMR Cluster
+    Airflow Pipeline Tutorials
 
     ---
 
@@ -71,10 +59,8 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 .. toctree::
    :hidden:
 
-   pipeline-tutorials-cs-pipeline.rst
-   afpl-add-wf-as-emr-step.rst
-   afpl-create-emr-cluster.rst
-   afpl-dynamic-emr-config.rst
+   sparkflows_pipelines/index.rst
+   airflow_pipelines/index.rst
    dbpl-create-cluster.rst
    dbpl-execnotebk.rst
    dbpl-execute-job.rst

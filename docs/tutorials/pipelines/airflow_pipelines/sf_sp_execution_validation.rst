@@ -1,6 +1,5 @@
 Snowflake Stored Procedure Execution and Validation
 ====
-  
 This tutorial demonstrates how to execute and validate a Snowflake stored procedure using Sparkflows and Airflow.
   
 Overview
@@ -154,7 +153,7 @@ The following logic is used in the BranchPythonOperator to decide the workflow p
     * FAILED/MISSING → failure_task
 
 
-   .. figure:: ../../_assets/tutorials/pipeline/pipeline-snowflake-sp.png
+   .. figure:: ../../../_assets/tutorials/pipeline/pipeline-snowflake-sp.png
       :alt: pipeline-tutorials
       :width: 70%
 

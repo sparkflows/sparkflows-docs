@@ -186,6 +186,81 @@ Macros related to Timestamp
      - ${fire.macros.ts_format(ts, offset_unit, output_format, offset_value)}
      - 2024-11-19 14:19:44, s,YYYY-mm-DD HH-MM-SS,-1
      - 2024-11-19 14:19:43
+
+Macros related to TimeZone
++++++++++++++++++++++++++++++
+
+.. list-table:: 
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Macro
+     - Description
+     - Output
+   * - ${fire.macros.tz(ts, America/Chicago, yyyy-MM-dd HH:mm:ss)}
+     - Converts timestamp `ts` to `America/Chicago` timezone and formats as `yyyy-MM-dd HH:mm:ss`
+     - 2025-11-06 14:30:45
+   * - ${fire.macros.tz(ts, America/New_York, yyyy-MM-dd HH:mm:ss)}
+     - Converts timestamp `ts` to `America/New_York` timezone and formats as `yyyy-MM-dd HH:mm:ss`
+     - 2025-11-06 15:30:45
+   * - ${fire.macros.tz(ds, America/Chicago, yyyy-MM-dd)}
+     - Converts date string `ds` to `America/Chicago` timezone and formats as `yyyy-MM-dd`
+     - 2025-11-06
+   * - ${fire.macros.tz(ds, Europe/London, DD-MM-YYYY)}
+     - Converts date string `ds` to `Europe/London` timezone and formats as `DD-MM-YYYY`
+     - 06-11-2025
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%Y')}
+     - Extracts full year from execution date
+     - 2025
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%y')}
+     - Extracts 2-digit year from execution date
+     - 25
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%m')}
+     - Extracts numeric month from execution date
+     - 11
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%B')}
+     - Extracts full month name from execution date
+     - November
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%b')}
+     - Extracts abbreviated month name from execution date
+     - Nov
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%d')}
+     - Extracts day of month from execution date
+     - 06
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%A')}
+     - Extracts full weekday name from execution date
+     - Thursday
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%a')}
+     - Extracts abbreviated weekday name from execution date
+     - Thu
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%H')}
+     - Extracts hour in 24-hour format
+     - 14
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%I')}
+     - Extracts hour in 12-hour format
+     - 02
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%M')}
+     - Extracts minute component of the time
+     - 30
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%S')}
+     - Extracts second component of the time
+     - 45
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%Y%m')}
+     - Combines year and month into a single numeric value
+     - 202511
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%Y-%m')}
+     - Combines year and month with a hyphen separator
+     - 2025-11
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%Y%m%d')}
+     - Combines year, month, and day into a continuous numeric value
+     - 20251106
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%d-%m-%Y')}
+     - Formats date as Day-Month-Year
+     - 06-11-2025
+   * - ${fire.macros.execution_date.in_timezone('America/Chicago').strftime('%H%M')}
+     - Combines hour and minute into a single numeric value
+     - 1430
+
     
 Usage of Macros in the Workflow Node
 ++++++++++++++++++++++++++++++++++++

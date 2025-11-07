@@ -14,7 +14,7 @@ Steps for Importing Applications
      * Select the project to import Applications to. 
      * Click on the Applications tab.
 
-   You should get to a page similar as below:
+   You will land on a page similar to below:
 
    .. figure:: ../../_assets/user-guide/export-import/application_list_page.PNG
       :alt: userguide

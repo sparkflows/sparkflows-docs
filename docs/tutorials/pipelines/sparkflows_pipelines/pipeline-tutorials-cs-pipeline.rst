@@ -47,7 +47,7 @@ Pipeline Creation
 
 Various Store Segmentation workflows are stitched together to create Store Segmentation Pipeline. It is implemented using various workflows, as shown below.
 	  
-   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-sspipeline.png
+   .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-sspipeline.png
       :alt: pipeline-tutorials
       :width: 70%
 
@@ -59,7 +59,7 @@ Addition of Workflows
 
 Workflows can be added to a Pipeline step using the **Workflow Node**, as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-wfnode.png
+   .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-wfnode.png
       :alt: pipeline-tutorials
       :width: 70%
 
@@ -79,7 +79,7 @@ Manual Execution
 
 Click the **Execute** button to execute the pipeline manually, as shown below. 
 
- .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-manualexec.png
+ .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-manualexec.png
     :alt: Pipeline Tutorials
     :width: 70%
 
@@ -96,7 +96,7 @@ Suppose, if updated Invoice data is received everyday at 09:00 am in the morning
 
 The Store Segmentation Pipeline can be scheduled as shown below. 
 
- .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-newschedule.png
+ .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-newschedule.png
     :alt: Pipeline Tutorials
     :width: 70%
 
@@ -111,7 +111,7 @@ To view the pipeline execution status, follow these steps:
 #. Navigate to **Pipelines > Executions**.
 #. The **execution status** of your pipeline will be displayed on the page shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-execstatus.png
+   .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-execstatus.png
       :alt: Pipeline Tutorials
       :width: 60%
 
@@ -119,6 +119,6 @@ To view the pipeline execution status, follow these steps:
 
 #. Click on the **Pipeline Name** to view the execution status of individual workflows as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/pipeline-tutorials-cs-wfexecstatus.png
+   .. figure:: ../../../_assets/tutorials/pipeline/pipeline-tutorials-cs-wfexecstatus.png
       :alt: Pipeline Tutorials
       :width: 60%

@@ -29,7 +29,7 @@ Workflow with EmailNotificationNode
 Workflow
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/workflow.png
+ .. figure:: ../../../_assets/tutorials/file_check/workflow.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -40,7 +40,7 @@ Workflow
 EmailNotification Node: Configuration
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/emailnotification-node-config.png
+ .. figure:: ../../../_assets/tutorials/file_check/emailnotification-node-config.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -51,7 +51,7 @@ EmailNotification Node: Configuration
 Workflow Parameters: subject and date_value
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/workflow-parameters.png
+ .. figure:: ../../../_assets/tutorials/file_check/workflow-parameters.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -68,7 +68,7 @@ Pipeline with S3Sensor, Branch and AddStep
 Pipeline
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/pipeline.png
+ .. figure:: ../../../_assets/tutorials/file_check/pipeline.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -76,7 +76,7 @@ S3 File Check
 ++++
 Check whether a specific file exists in an S3 bucket using the **S3Sensor** operator.
 
- .. figure:: ../_assets/tutorials/file_check/s3-file-check.png
+ .. figure:: ../../../_assets/tutorials/file_check/s3-file-check.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -89,7 +89,7 @@ Conditional Branching
 ++++
 Based on the file's existence, use **BranchPythonOperator** to execute different actions, such as sending a file available or not available notification via EMR steps with EmailNotification workflow.
 
- .. figure:: ../_assets/tutorials/file_check/conditional-branching.png
+ .. figure:: ../../../_assets/tutorials/file_check/conditional-branching.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -107,7 +107,7 @@ File Found
 
  **date_value: {file_date_value}   //Pipeline parameter**
 
- .. figure:: ../_assets/tutorials/file_check/dataquality-file-is-available.png
+ .. figure:: ../../../_assets/tutorials/file_check/dataquality-file-is-available.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -118,7 +118,7 @@ File Not Found
 
  **date_value: {file_date_value}   //Pipeline parameter**
 
- .. figure:: ../_assets/tutorials/file_check/dataquality-file-not-available.png
+ .. figure:: ../../../_assets/tutorials/file_check/dataquality-file-not-available.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -129,7 +129,7 @@ File Not Found
 Pipeline Parameters
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/pipeline-parameters.png
+ .. figure:: ../../../_assets/tutorials/file_check/pipeline-parameters.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -140,7 +140,7 @@ Pipeline Parameters
 Pipeline Task Status
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/pipeline-task-status.png
+ .. figure:: ../../../_assets/tutorials/file_check/pipeline-task-status.png
     :alt: File Check and Email Notification
     :width: 70%
 
@@ -152,7 +152,7 @@ Pipeline Task Status
 Email Notification
 ++++
 
- .. figure:: ../_assets/tutorials/file_check/email-notification.PNG
+ .. figure:: ../../../_assets/tutorials/file_check/email-notification.PNG
     :alt: File Check and Email Notification
     :width: 70%
 

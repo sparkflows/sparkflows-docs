@@ -5,6 +5,17 @@ Airflow Pipelines
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
+    :doc:`/tutorials/pipelines/airflow_pipelines/afpl-add-wf-as-emr-step`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/afpl-create-emr-cluster`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/afpl-dynamic-emr-config`
+
+    ---
 
     :doc:`/tutorials/pipelines/airflow_pipelines/file_check`
 
@@ -16,5 +27,8 @@ Airflow Pipelines
 .. toctree::
    :hidden:
 
+   afpl-add-wf-as-emr-step.rst
+   afpl-create-emr-cluster.rst
+   afpl-dynamic-emr-config.rst
    file_check.rst
    sf_sp_execution_validation.rst

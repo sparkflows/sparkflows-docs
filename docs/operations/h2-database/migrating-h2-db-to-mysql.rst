@@ -148,3 +148,17 @@ For **Windows OS** - Start the Fire server again using the following command:
      run-fire-server.bat start
 
 .. note::  If the database migration process throws an exception or error then resolve the issue and then re-execute the MYSQL script, then restart the migration process again.
+
+
+Troubleshooting
+---------------
+
+Post running the dbmigration step if errors are seen in relation to table not found, even if the tables for MySQL were created successfully post running the **create-mysql-db.sh** then please verify the following variables's value that is set for the MySQL instance by running the following command -
+
+:: 
+
+   SHOW VARIABLES LIKE 'lower_case_table_names';
+
+If the value for variable **lower_case_table_names** is set to **0** then please update it to **1** as its needed for the migration to occur without errors.
+
+

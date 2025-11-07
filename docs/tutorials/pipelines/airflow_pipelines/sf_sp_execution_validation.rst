@@ -1,4 +1,4 @@
-Snowflake Stored Procedure Execution and Validation
+Snowflake Stored Procedure Execution & Validation
 ====
 This tutorial demonstrates how to execute and validate a Snowflake stored procedure using Sparkflows and Airflow.
   

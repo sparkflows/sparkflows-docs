@@ -3,7 +3,7 @@ Macros in Pipelines
 
 **Macros** are runtime variables that can be accessed by the Sparkflows pipelines. They can be defined in the format such as **${fire.ds}** to access **Current Date** value or they can defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
 
-They can be used in Sparkflows nodes such as **Add Step EMR JobFlow**, **Add Step EMR JobFlow** & other nodes.
+They can be used in Sparkflows nodes such as **Create EMR JobFlow**, **Add Step EMR JobFlow** & other nodes.
 
 Some of the scenarios where they can be used are listed below:
 
@@ -178,7 +178,7 @@ Macros related to Timestamp
      - 2024-11-19 14:19:43
 
 
-Macros related to TimeZone
+Macros related to Time Zone
 +++++++++++++++++++++++++++++
 
 .. list-table:: 
@@ -252,4 +252,29 @@ Macros related to TimeZone
      - Combines hour and minute into a single numeric value
      - 1430
 
-    
+Define Macro Parameters in the Pipeline
+++++++++++++++++++++++++++++++++++++
+
+.. figure:: ../../../_assets/user-guide/variables-macros/pipeline-macro-parameter.png
+   :alt: macros
+   :width: 60%
+
+.. figure:: ../../../_assets/user-guide/variables-macros/pipeline-macro-parameter3.png
+   :alt: macros
+   :width: 60%
+
+Usage of Macro as a Parameters in the Pipeline Node
+++++++++++++++++++++++++++++++++++++
+
+.. figure:: ../../../_assets/user-guide/variables-macros/pipeline-macro-parameter2.png
+   :alt: macros
+   :width: 60%
+
+Direct Macro Usage in Pipeline Nodes
+++++++++++++++++++++++++++++++++++++
+
+.. figure:: ../../../_assets/user-guide/variables-macros/pipeline-macro-node.png
+   :alt: macros
+   :width: 60%
+
+

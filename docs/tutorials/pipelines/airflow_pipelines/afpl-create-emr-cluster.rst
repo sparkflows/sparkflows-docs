@@ -14,7 +14,7 @@ Pipeline Set Up
 
 #. Create a Pipeline as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-pipeline.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-createemr-pipeline.png
       :alt: Pipeline Tutorials
       :width: 70%
 
@@ -23,7 +23,7 @@ EMR Node Configuration
 
 #. Add an **EMR node** to the pipeline and configure it as shown below. This node will create an **EMR cluster running on AWS** based on the provided configuration.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrnode.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-createemr-emrnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
@@ -35,7 +35,7 @@ EMR Node Configuration
 
    * **Instance Type:** Enter the Instance Type, which determines the type of instances to be created, as shown below.
  
-     .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrinsnode.png
+     .. figure:: ../../../_assets/tutorials/pipeline/afpl-createemr-emrinsnode.png
         :alt: Pipeline Tutorials
         :width: 70%
 
@@ -44,7 +44,7 @@ EMR Workflow Node Configuration
 
 #. Add an **EMR Workflow** node to the pipeline and configure it, as shown below. This workflow will be added as a step to the created EMR Cluster.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-emrwfnode.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-createemr-emrwfnode.png
       :alt: Pipeline Tutorials
       :width: 70%
 
@@ -61,24 +61,24 @@ Pipeline Execution
 
 #. Click the **Execute** button on the Pipeline to execute it. Upon execution, the selected workflow will be added as a step in the created EMR cluster. On successful completion EMR Cluster will be terminated.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-createemr-plexec.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-createemr-plexec.png
       :alt: Pipeline Tutorials
       :width: 70%
 
 #. Upon successful execution of the pipeline the **EMR Clusters** get listed in the **AWS Console**, as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-awsconsole-clusterlist.png
       :alt: Pipeline Tutorials
       :width: 70%
 
 #. The **EMR Cluster** details can be viewed in the **AWS Console**, as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-awsconsole-clusterdetail.png
       :alt: Pipeline Tutorials
       :width: 70%
 
 #. Details of the **EMR Step** added using **Workflow** to the **EMR Cluster** can be viewed in the **AWS Console**, as shown below.
 
-   .. figure:: ../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
+   .. figure:: ../../../_assets/tutorials/pipeline/afpl-awsconsole-wfstep.png
       :alt: Pipeline Tutorials
       :width: 70%

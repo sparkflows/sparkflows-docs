@@ -12,6 +12,10 @@ Fire Insights allows you to define and use macros in various ways.
 
     ---
 
+    :doc:`/user-guide/variables-macros/macros/macros_pipelines`
+
+    ---
+    
     :doc:`/user-guide/variables-macros/macros/application_connection_macros`
 
 
@@ -19,5 +23,6 @@ Fire Insights allows you to define and use macros in various ways.
    :hidden:
 
    workflow.rst
+   macros_pipelines.rst
    application_connection_macros.rst
 

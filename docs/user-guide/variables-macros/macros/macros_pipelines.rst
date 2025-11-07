@@ -1,7 +1,7 @@
 Macros in Pipelines
 ====
 
-**Macros** are runtime variables that can be accessed by the Sparkflows pipelines. They can be defined in the format such as **${fire.ds}** to access **Current Date** value or they can defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
+**Macros** are runtime variables that can be accessed by the Sparkflows pipelines. They can be defined in the format such as **${fire.ds}** to access **Current Date** value or they can be defined as an expression i.e. **${fire.macros.ts_add(ts, days)}** to add number of days to the **Current Timestamp** value. They are evaluated during the runtime. 
 
 They can be used in Sparkflows nodes such as **Create EMR JobFlow**, **Add Step EMR JobFlow** & other nodes.
 
@@ -23,11 +23,11 @@ Macros that Sparkflows supports
    * - Macro
      - Description
    * - ${fire.ds}
-     - Returns the Current execution date as YYYY-MM-DD
+     - Returns the Current Execution Date as YYYY-MM-DD
    * - ${fire.ds_nodash}
-     - Returns the Current execution date as YYYYmmDD
+     - Returns the Current Execution Date as YYYYmmDD
    * - ${fire.ts}
-     - Returns the Current execution Timestamp as YYYY-mm-DD HH-MM-SS
+     - Returns the Current Execution Timestamp as YYYY-mm-DD HH-MM-SS
    * - ${fire.pl.name}
      - Returns the Current Pipeline Name, e.g. EndToEnd_Pipeline
    * - ${fire.pl.id}
@@ -39,9 +39,9 @@ Macros that Sparkflows supports
    * - ${fire.macros.ds_add(ds, days)}
      - Returns the date, where (days as +1 or -1) ahead or behind from the current Date
    * - ${fire.macros.ds_format(ds, input_format, output_format)}
-     - Take the date in the default format and returns the date in the specified output format
+     - Takes the date in the default format and returns the date in the specified output format
    * - ${fire.macros.random()}
-     - Generate and Returns a random value during the execution of a job
+     - Generates and Returns a random value during the execution of a job
    * - ${fire.macros.ds_format(ds, offset_unit, output_format, offset_value)}
      - Formats a given date (ds), adjusts it by a specified number of days or months or years, and returns it in the         desired output format
    * - ${fire.macros.ts_add(ts, days)}
@@ -263,7 +263,7 @@ Define Macro Parameters in the Pipeline
    :alt: macros
    :width: 60%
 
-Usage of Macro as a Parameters in the Pipeline Node
+Usage of Macro as a Parameter in the Pipeline Node
 ++++++++++++++++++++++++++++++++++++
 
 .. figure:: ../../../_assets/user-guide/variables-macros/pipeline-macro-parameter2.png

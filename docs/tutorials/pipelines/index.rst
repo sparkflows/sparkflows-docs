@@ -14,13 +14,13 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`tutorials/pipelines/sparkflows_pipelines/index`
+    :doc:`/tutorials/pipelines/sparkflows_pipelines/index`
 
     Sparkflows Pipeline Tutorials
     
     ---
 
-    :doc:`tutorials/pipelines/airflow_pipelines/index`
+    :doc:`/tutorials/pipelines/airflow_pipelines/index`
 
     Airflow Pipeline Tutorials
 

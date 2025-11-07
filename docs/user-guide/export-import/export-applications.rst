@@ -3,35 +3,33 @@ Export Applications
 
 Fire Insights enables you to export Applications as JSON files. These JSON files can be imported into another instance of Fire Insights.
 
-Below are the steps for exporting a Applications.
+Below are the steps for exporting an Application.
 
 Steps for Exporting Applications
 -----
 
-You can Login to Fire Insights Web server URL and follow below steps:
+1. You can Login to Fire Insights Web server URL and follow the steps below:
 
-* Go to the Project List page.
-* Select the project that has the Application you want to Export.
-* Click the Applications tab
+     * Go to the Project List page.
+     * Select the project that has the Application you want to Export.
+     * Click the Applications tab
 
-You should get to a page similar to below: 
+   You will land on a page similar to below: 
 
-.. figure:: ../../_assets/user-guide/export-import/application_list_page.PNG
-     :alt: userguide
-     :width: 70%
+   .. figure:: ../../_assets/user-guide/export-import/application_list_page.PNG
+      :alt: userguide
+      :width: 70%
 
-In order to export the Application you want, you must:
-
-* Click on Export App icon in Actions section.
+2. In order to export the Application you want, you must click on **Export App** icon in Actions menu.
 
 
-.. figure:: ../../_assets/user-guide/export-import/application_export_actions.PNG
-     :alt: userguide
-     :width: 70%  
+   .. figure:: ../../_assets/user-guide/export-import/application_export_actions.PNG
+      :alt: userguide
+      :width: 70%  
   
-Once the Application gets exported successfully, you will see the Application JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
+3. Once the Application gets exported successfully, you will see the Application JSON file in your local computer and same can be imported to other instance of Fire Insights. 
 
-.. figure:: ../../_assets/user-guide/export-import/application_exported.PNG
+   .. figure:: ../../_assets/user-guide/export-import/application_exported.PNG
      :alt: userguide
      :width: 70% 
 

@@ -8,7 +8,7 @@ Execute Stored Procedure Using Airflow
 #. Ensure your Airflow connection is configured with **Connection Type** as **Snowflake**.
 #. In the **SQL Query** field, add the command to execute the desired Snowflake stored procedure, as shown below. The execution below will be triggered on the Airflow machine.
    
-   .. figure:: ../../_assets/tutorials/pipeline/run-sf-command-node-config.png
+   .. figure:: ../../../_assets/tutorials/pipeline/run-sf-command-node-config.png
        :alt: Pipeline Tutorials
        :width: 60%
 
@@ -26,7 +26,7 @@ Execute Stored Procedure Using a Python Script on EMR
    * To fetch secrets (for authentication/credentials)
    * To upload content to S3
 
-   .. figure:: ../../_assets/tutorials/pipeline/add-step-emr.png
+   .. figure:: ../../../_assets/tutorials/pipeline/add-step-emr.png
        :alt: Pipeline Tutorials
        :width: 60%
 

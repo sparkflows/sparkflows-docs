@@ -14,7 +14,7 @@ Pipeline Set Up
 
 #. Create a Pipeline as shown below. More nodes can be added based on the functionality.
 
-   .. figure:: ../../_assets/tutorials/pipeline/dbpl-execnotebk-pipeline.png
+   .. figure:: ../../../_assets/tutorials/pipeline/dbpl-execnotebk-pipeline.png
       :alt: Pipeline Tutorials
       :width: 70%
 
@@ -23,11 +23,11 @@ Create Databricks Cluster Node Configuration
 
 #. Add an **Create Databricks Cluster** node to the pipeline and configure it as shown below. **Create Databricks Cluster** node creates a new **Databricks Cluster** by using the details in configuration and passes the Cluster id to the next step.
 
-	.. figure:: ../../_assets/user-guide/pipeline/create-db-cluster.png
+	.. figure:: ../../../_assets/user-guide/pipeline/create-db-cluster.png
 	   :alt: Pipeline
 	   :width: 70%
    
-	.. figure:: ../../_assets/user-guide/pipeline/create-db-cluster2.png
+	.. figure:: ../../../_assets/user-guide/pipeline/create-db-cluster2.png
 	   :alt: Pipeline
 	   :width: 70%
 
@@ -46,7 +46,7 @@ Run Databricks Notebook Node Configuration
 
 #. Add an **Run Databricks Notebook** node to the pipeline and configure it as shown below. **Run Databricks Notebook** node can be used to execute a **Databricks Notebook** in a **Databricks Cluster** by using the details in configuration.
 
-	.. figure:: ../../_assets/user-guide/pipeline/create-db-runnotebook.png
+	.. figure:: ../../../_assets/user-guide/pipeline/create-db-runnotebook.png
 	   :alt: Pipeline
 	   :width: 70%
    

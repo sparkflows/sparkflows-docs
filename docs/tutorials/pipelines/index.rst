@@ -24,46 +24,12 @@ With pipelines, multiple workflows can be scheduled to be executed sequentially.
 
     Airflow Pipeline Tutorials
 
-    ---
-
-    :doc:`dbpl-create-cluster`
-
-    Databricks Pipeline Tutorials - Create Cluster
-
-    ---
-
-    :doc:`dbpl-execnotebk`
-
-    Databricks Pipeline Tutorials - Executing Databricks Notebook
-
-    ---
-
-    :doc:`dbpl-execute-job`
-
-    Databricks Pipeline Tutorials - Executing Databricks Jobs
-
-    ---
-
-    :doc:`dbpl-exec-workflow`
-
-    Databricks Pipeline Tutorials - Executing Workflow
-
-    ---
-
-    :doc:`snowflake-sp-execution`
-
-    Snowflake Stored Procedure Execution - Using Airflow & EMR
-
-
+   
 
 .. toctree::
    :hidden:
 
    sparkflows_pipelines/index.rst
    airflow_pipelines/index.rst
-   dbpl-create-cluster.rst
-   dbpl-execnotebk.rst
-   dbpl-execute-job.rst
-   dbpl-exec-workflow.rst
-   snowflake-sp-execution.rst
+  
 

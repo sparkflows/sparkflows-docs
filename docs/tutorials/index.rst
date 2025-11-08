@@ -44,10 +44,6 @@ Tutorials
 
     ---
 
-    :doc:`/tutorials/file_check`
-
-    ---
-
     :doc:`/tutorials/time-series/index`
     
       
@@ -100,7 +96,6 @@ Tutorials
    analytics/index.rst
    data-science/index.rst
    end-to-end/index.rst
-   file_check.rst
    time-series/index.rst
    data-quality/index.rst
    languages/index.rst

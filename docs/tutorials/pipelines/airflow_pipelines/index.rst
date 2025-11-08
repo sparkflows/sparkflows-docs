@@ -21,7 +21,27 @@ Airflow Pipelines
 
     ---
 
+    :doc:`/tutorials/pipelines/airflow_pipelines/snowflake-sp-execution`
+
+    ---
+
     :doc:`/tutorials/pipelines/airflow_pipelines/sf_sp_execution_validation`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/dbpl-create-cluster`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/dbpl-execnotebk`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/dbpl-execute-job`
+
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/dbpl-exec-workflow`
 
 
 .. toctree::
@@ -31,4 +51,15 @@ Airflow Pipelines
    afpl-create-emr-cluster.rst
    afpl-dynamic-emr-config.rst
    file_check.rst
+   snowflake-sp-execution.rst
    sf_sp_execution_validation.rst
+   dbpl-create-cluster.rst
+   dbpl-execnotebk.rst
+   dbpl-execute-job.rst
+   dbpl-exec-workflow.rst
+
+
+
+
+
+

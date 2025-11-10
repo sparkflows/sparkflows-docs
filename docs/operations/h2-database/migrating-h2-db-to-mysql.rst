@@ -94,6 +94,7 @@ Before proceeding with the migration, stop the Fire server using the following c
 
       * For **Windows OS** - Create the tables for Fire in MySQL by executing the **create-mysql-db.bat** file by double clicking on it.
 
+.. note::  Please make sure to run the SQL command **SET GLOBAL max_allowed_packet=268435456;** on the SQL console of MySQL to increase packet size limit. This ensures that large records or bulk inserts from the H2 database do not fail during migration due to the default packet size restriction. Increasing the limit to 256 MB allows the migration to handle large data payloads without encountering “Packet too large” or “Communication link failure” errors. This command can only be executed by a user with MySQL administrative privileges (such as the root user or any account with the SUPER or SYSTEM_VARIABLES_ADMIN privilege)
 
 **Step 4 : Migrate data from H2 Database to MySQL Database**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

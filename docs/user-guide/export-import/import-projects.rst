@@ -15,13 +15,13 @@ Steps for Importing Projects
 
      .. figure:: ../../_assets/user-guide/export-import/project_list_page.PNG
       :alt: userguide
-      :width: 90%
+      :width: 70%
 
    * Click the **New Project** button on the top right side and select **Import Project from Local**. 
 
      .. figure:: ../../_assets/user-guide/export-import/project_import_page.PNG
          :alt: userguide
-         :width: 90%
+         :width: 70%
 
    - Choose the **zip file** from your computer to import from. You must have downloaded this zip file from Fire Insights during the export process.
    - Select the **name of the project** which you want to import from the zip file. Fire Insights would display all the available projects in your zip file. 
@@ -29,7 +29,7 @@ Steps for Importing Projects
 
      .. figure:: ../../_assets/user-guide/export-import/importapplication.png
         :alt: userguide
-        :width: 60%
+        :width: 70%
 
 
 Select the Options for importing the Project
@@ -56,7 +56,7 @@ Select the Options for importing the Project
 
    .. figure:: ../../_assets/user-guide/export-import/importinfo.png
      :alt: userguide
-     :width: 60%
+     :width: 70%
 
 .. note:: Make sure that data needed to the Projects should be available on new instance of Fire Insights.
 

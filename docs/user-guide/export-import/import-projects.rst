@@ -1,7 +1,7 @@
 Import Projects
 ==============
 
-Fire Insights enables you to Import Projects. These ZIP files can be Exported into another instance of Fire Insights.
+Fire Insights enables you to Import Projects. These ZIP files can then be exported into another instance of Fire Insights.
 
 Below are the steps for Importing Projects in Fire Insights.
 
@@ -9,58 +9,52 @@ Below are the steps for Importing Projects in Fire Insights.
 Steps for Importing Projects
 -----
 
-You can Login to Fire Insights Web server URL and follow below steps:
+1. You can Login to Fire Insights Web server URL and follow the steps below:
 
-* Go to the Project List page.
+   * Go to the Project List page.
 
-You should get to a page similar to below: 
+     .. figure:: ../../_assets/user-guide/export-import/project_list_page.PNG
+      :alt: userguide
+      :width: 90%
 
+   * Click the **New Project** button on the top right side and select **Import Project from Local**. 
 
-.. figure:: ../../_assets/user-guide/export-import/project_list_page.PNG
-   :alt: userguide
-   :width: 90%
+     .. figure:: ../../_assets/user-guide/export-import/project_import_page.PNG
+         :alt: userguide
+         :width: 90%
 
-- Click on the ``New Project`` button in top right hand side and select ``Import Project``. 
-
-.. figure:: ../../_assets/user-guide/export-import/project_import_page.PNG
-   :alt: userguide
-   :width: 90%
-
-- Choose the zip file from your computer to Import from. You must have downloaded this zip file from Fire Insights during the export process.
-- Select the name of the project which you would like to import from the zip file. Fire Insights would display all the available Projects in your zip file. 
+   - Choose the **zip file** from your computer to import from. You must have downloaded this zip file from Fire Insights during the export process.
+   - Select the **name of the project** which you want to import from the zip file. Fire Insights would display all the available projects in your zip file. 
 
 
- .. figure:: ../../_assets/user-guide/export-import/importapplication.png
-     :alt: userguide
-     :width: 60%
+     .. figure:: ../../_assets/user-guide/export-import/importapplication.png
+        :alt: userguide
+        :width: 60%
 
 
 Select the Options for importing the Project
 -----------------------------------------------
 
-There are two options when importing Projects:
+1. There are two options when importing Projects:
 
-* Import to a New Project
+   * **Create a New Project**
 
-    * In this case, the selected Project would be imported as a new Project in Fire Insights. 
+     In this case, the selected Project would be imported as a new Project in Fire Insights. 
 
-* Import to an Existing Project
+   * **Import to an existing Project**
 
-When importing to an existing Project, there are 3 possible methods to choose from:
+     When importing to an existing Project, there are 3 possible methods to choose from:
 
-* Create new Workflows, Datasets, Applications, and Pipelines if matching UUID’s found
+      * **CREATE NEW WORKFLOWS, DATASETS, APPLICATIONS AND PIPELINES IF MATCHING UUIDS FOUND**
 
-* Overwrite Workflows, Datasets, Applications and Pipelines if same UUID found
+      * **OVERWRITE WORKFLOWS, DATASETS, APPLICATIONS AND PIPELINES IF SAME UUID FOUND**
 
-* Delete all Workflows, Datasets, Applications and Pipelines in the selected project and create new ones
+      * **DELETE ALL WORKFLOWS, DATASETS, APPLICATIONS AND PIPELINES IN THE SELECTED PROJECT AND CREATE NEW ONES**
 
 
-On Success
-----------
+2. On successful import of the Project into Fire Insights, the success dialog box is displayed along with the details of the import.
 
-On successful import of the Project into Fire Insights, the success dialog is displayed along with the details of the import.
-
-.. figure:: ../../_assets/user-guide/export-import/importinfo.png
+   .. figure:: ../../_assets/user-guide/export-import/importinfo.png
      :alt: userguide
      :width: 60%
 

@@ -58,6 +58,14 @@ Spark, Databricks, Java and Python Support Compatibility Matrix
      - 10.4
      - Java 8
      - 3.8.0
+  * - 3.4.1
+     - 13.3
+     - Java 8
+     - 3.9.0
+   * - 3.5.2
+     - 16.4
+     - Java 17
+     - 3.11.0
 
 
 Matrix Compatibility

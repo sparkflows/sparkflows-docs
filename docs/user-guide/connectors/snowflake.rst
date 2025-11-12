@@ -60,7 +60,7 @@ Write to Snowflake
 
 The below workflow does the following:
 
-* Reads Housing Dataset.
+* Reads Bills Dataset.
 * Write it to Snowflake Table.
 
 .. figure:: ../../_assets/snowflake/SF-Write-WF.png
@@ -70,7 +70,7 @@ The below workflow does the following:
 Reading from CSV File
 ^^^^^^
 
-It reads Housing data from a CSV File using Read CSV Processor.
+It reads Bills data from a CSV File using Read CSV Processor.
 
 Processor Configuration
 ^^^^^^^^^^^^^^^^^^   

@@ -38,7 +38,11 @@ It reads Table using Read From Snowflake processor.
 .. figure:: ../../_assets/snowflake/2.PNG
    :alt: snowflake
    :width: 90%
-   
+
+.. figure:: ../../_assets/snowflake/read-sf-inferschema.png
+   :alt: snowflake
+   :width: 90%
+
 Processor Output
 ^^^^^^
 
@@ -72,6 +76,10 @@ Processor Configuration
 ^^^^^^^^^^^^^^^^^^   
 
 .. figure:: ../../_assets/snowflake/5.PNG
+   :alt: snowflake
+   :width: 90%
+
+.. figure:: ../../_assets/snowflake/read-csv-inferschema.png
    :alt: snowflake
    :width: 90%
    

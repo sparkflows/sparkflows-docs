@@ -45,8 +45,6 @@ Copilot
 
     How to use Copilot with MCP in Sparkflows
 
-    ---
-
 
 
 

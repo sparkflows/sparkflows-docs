@@ -14,7 +14,7 @@ Prerequisites
 
 2. Gen AI connection is required for making queries.
 
-Add Copilot
+Steps for Adding Copilot
 -----------
 1. After logging into Fire Insights, navigate to **Administration -> Copilot**.
 

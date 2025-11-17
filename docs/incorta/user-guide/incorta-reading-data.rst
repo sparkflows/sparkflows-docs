@@ -3,7 +3,7 @@ Reading Data From Incorta Table
 
 This document explains in detail the steps involved in Reading Data From Incorta Table using **Read Incorta** Node.
 
-Step 1 : Read Data from Incrta Table using Read Incorta node
+Step 1 : Read Data from Incorta Table using Read Incorta node
 -------------------------
 
 * Configure Read Incorta Node as below and click on Refresh Schema to read data from table.

@@ -1,4 +1,4 @@
-Configuring Copilot
+Add Copilot
 ====
 
 This document outlines how to configure, use, and manage Copilot in Sparkflows to create workflows, projects, and queries using Natural Language capabilities.

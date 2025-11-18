@@ -150,4 +150,11 @@ For **Windows OS** - Start the Fire server again using the following command:
 
 .. note::  If the database migration process throws an exception or error then resolve the issue and then re-execute the MYSQL script, then restart the migration process again.
 
+Troubleshooting
+---------------
 
+Post running the dbmigration step if errors are seen in relation to data too long for column **description** on **analysis_flow_execution** table then add the below at the end of the **fire-schema.mysql.sql** script present in **db/mysql/** folder. Post this run the **create-mysql-db.sh** to recreate the db and its tables for MySQL and try the DB Migration step again.
+
+::
+
+    ALTER TABLE analysis_flow_execution MODIFY COLUMN description VARCHAR(1000);

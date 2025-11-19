@@ -14,6 +14,8 @@ Data Cleaning Processors in Fire Insights
 
    * - Title
      - Description
+   * - Data Cleansing Advanced 
+     - This node takes an input DataFrame, applies selected cleansing operations, and outputs a cleaned dataset that can be used for further processing.
    * - Data Cleansing
      - This node cleans incoming dataset by removing null rows, columns, by replacing missing values and by changing cases of the string data.
    * - Drop Null Rows For Selected Columns
@@ -35,6 +37,80 @@ Data Cleaning Processors in Fire Insights
    * - Remove Unwanted Characters Advanced
      - This node removes unwanted characters from multiple columns.
  
+
+Data Cleansing Advanced
+----------------------------------------
+Below is a sample workflow demonstrating the usage of the Data Cleansing Advanced node.
+
+This workflow performs the following operations:
+
+* Reads incoming dataset.
+* Removes null rows from selected columns (if enabled).
+* Replaces null values with blanks or zeroes (column-wise control).
+* Removes unwanted characters such as whitespace, digits, letters, special signs, or commas.
+* Applies case formatting like Uppercase, Lowercase, or Title Case.
+* Outputs the cleansed dataset to the next node (e.g., Print or Data Preview).
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing/data-cleansing-adv-wf.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+**Incoming Dataset**
+++++++++++++++++++++++++
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing/data-cleansing-adv-dataset.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+   
+**Data Cleansing Advanced Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Data Cleansing Advanced node is configured as below:
+
+* Input of this node is the incoming dataset.
+* Output of this node would contain modified data as per the configuration.
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing/data-cleansing-adv-node-config-1.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+**Remove Nulls** 
+
+   * **Select Columns** - Select the list of columns from the left pane, on which the data cleansing rules would be applicable to.
+   * **Remove Null Rows** - Set it to true to remove all rows from the dataset having null values in any of the columns.
+   * **Remove Null Columns** - Set it to true to remove columns from the dataset having null values.
+
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing/data-cleansing-adv-node-config-2.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+
+**Column-Level Cleansing**
+
+   * **Replace Nulls With Blanks (String Fields)** - This option will replace missing or null values with blanks in the selected input columns.
+   * **Replace Nulls With 0 (Numeric Fields)** - This option will replace missing or null values with 0 in the selected input columns.
+   * **Remove Whitespaces/Remove Letters/Remove Digits/Remove Special Signs/Remove Commas** - This option will clean columns by removing whitespace, letters, digits, special characters, or commas from the selected input columns.
+   * **Modify Case** - Modify text case to upper, lower, or title case.
+
+
+
+**Data Cleansing Advanced Node Output**
+++++++++++++++++++++++++++++++++++++++++++++
+
+Output of Data Cleansing Advanced node which displays modified values is shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/datacleaning/data-cleansing/data-cleansing-adv-node-output.png
+   :alt: datacleaning_userguide
+   :width: 75%
+
+
+
+
+
+
+
 
 Data Cleansing
 ----------------------------------------

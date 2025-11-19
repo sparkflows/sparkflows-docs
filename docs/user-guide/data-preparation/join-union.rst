@@ -12,8 +12,13 @@ Join and Union Processors in Fire Insights
    :widths: 30 70
    :header-rows: 1
 
+  
    * - Title
      - Description
+   * - Union Advanced
+     - This node combines rows from multiple DataFrames with flexible configuration options.
+   * - Append Fields
+     - This node appends columns from a Source DataFrame to every row of a Target DataFrame.
    * - UnionAll
      - This node creates a new DataFrame by merging all the rows without removing the duplicates.
    * - Union Distinct
@@ -30,7 +35,166 @@ Join and Union Processors in Fire Insights
      - This node joins the incoming dataframes on 1 or more columns.  
    * - Troubleshooting Common Scenarios
      - This section lists troubleshooting steps for common scenarios to fix observations.   
-     
+   
+
+
+Union Advanced
+----------------------------------------
+Below is a sample workflow which contains the Union Advanced processor in Fire Insights. It demonstrates the usage of the Union Advanced node to combine multiple datasets (Employee and Position) into a single consolidated table by stacking all incoming records sequentially without performing any join operations.
+
+It does the following processing of data:
+
+* Reads the incoming datasets (employees.csv and positions.csv).
+* Combines both datasets using the Union Advanced node.
+* Prints the output of the combined data using the Print node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/union-advanced-wf.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+**Union Advanced Node Configuration**
+
+The Union Advanced node provides flexible union operations that can align columns either by name or by position, with options to include all columns or only common ones, and gracefully handle schema differences.
+
+Union Advanced node is configured by refering the table below:
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+  
+   * - Parameter
+     - Description
+   * - Configure By
+     - Determines how columns are matched across input datasets: • NAME – Matches columns by their names (recommended for datasets with meaningful column names) • POSITION – Matches columns by their ordinal position (1st column with 1st, 2nd with 2nd, etc.)
+   * - Output Fields
+     - Controls which columns appear in the output: • ALL – Includes every unique column from all inputs (missing values filled with null) • COMMON – Includes only columns present in all input datasets
+   * - Allow Missing Columns
+     - When true (default), datasets with differing numbers of columns are allowed — missing columns are filled with null. When false, all input datasets must have identical schema/structure (throws error otherwise).
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/node-union-advanced-config.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+**Example:** With Configure By = NAME and Output Fields = ALL, the node preserves the first-seen data type and order of columns by name, adding null where a column is absent in a particular input.
+
+**Union Advanced Node Output**
+
+Output of Union Advanced node (combined incoming datasets) is shown as below:
+
+* Name-based Union (configBy = NAME)
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/union-advanced-node-output-1.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/union-advanced-node-output-1'.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+* Position-based Union (configBy = POSITION)
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/union-advanced-node-output-2.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+Append Fields
+--------------------
+Below is a sample workflow which contains the Append Fields processor in Fire Insights. It demonstrates the usage of the Append Fields node to create all possible combinations of rows from two datasets — effectively performing a Cartesian (cross) join between every employee record and every position record, resulting in a complete matrix of Employee–Position pairs.
+
+It does the following processing of data:
+
+* Reads the incoming datasets (employees.csv and positions.csv).
+* Attaches every Position record to every Employee record using the Append Fields node (Cartesian-style append).
+* Prints the output of the combined data using the Print node.
+
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/append-fields-wf.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+**Append Fields Node Configuration**
+++++
+
+The Append Fields node is designed to append columns from a Source DataFrame to every row of a Target DataFrame. This is particularly useful when you need to broadcast a small lookup or reference table (Source) across a larger fact table (Target), creating a full cross product.
+
+Append Fields node is configured by refering the table below:
+
+**General Tab Configurations**
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+  
+   * - Parameter
+     - Description
+   * - Select Target Fields
+     - Columns from the Target (main) DataFrame to keep in the output. Leave empty to keep all.
+   * - Select Source Fields
+     - Columns from the Source (lookup) DataFrame to append to every Target row.
+   * - Rename Target/Source Fields
+     - Optionally rename selected columns from Target or Source before merging.
+   * - Data Type Target/Source Fields
+     - Force a new data type (e.g., STRING, INTEGER, DOUBLE) on selected columns.
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/node-append-fields-general-config.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+
+**Options Tab Configurations**
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+  
+   * - Parameter
+     - Description
+   * - Prefix / Suffix
+     - Automatically add a prefix/suffix to all appended Source column names (useful to avoid name clashes).
+   * - Threshold Behavior
+     - Controls behavior when Source has more than 16 rows (safety guard against accidental huge Cartesian products): none – No check, warn – Logs a warning, error – Throws exception and fails the workflow
+   * - Join Type (multiRowSourceBehavior)
+     - * cartesian – Full cross join: every Source row × every Target row (default for true Cartesian)
+       * first_row – Broadcast only the first row of the Source dataset (behaves like a scalar append)
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/node-append-fields-optionstab-config.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+**Drop Tab Configurations**
+
+.. list-table:: 
+   :widths: 30 70
+   :header-rows: 1
+
+  
+   * - Parameter
+     - Description
+   * - Drop Target/Source Fields
+     - Explicitly drop unwanted columns from Target or Source after selection.
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/node-append-fields-droptab-config.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+
+**Append Fields Node Output**
+++++
+
+Output of this node is a dataset that contains every Employee record duplicated for each Position, with Position-related columns appended:
+
+(Actual number of output rows = Employees × Positions)
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/append-fields-node-output.png
+   :alt: joinsandunion_userguide
+   :width: 75%
+
+
+
+
      
 Union All
 ----------------------------------------

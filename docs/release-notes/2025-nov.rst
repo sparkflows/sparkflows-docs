@@ -1,0 +1,35 @@
+Version 3.3.12 - November, 2025
+=====
+
+New Features
+----
+
+Authentication & Security
+++++
+
+* **Bearer Token Support :** Support has been added for using Sentinel Bearer Tokens for service accounts. Pipelines can now be triggered by including the Sentinel token in the request header: **Authorization: Bearer <sentinel_token>**. This improves authentication flexibility and enables secure, automated pipeline execution through service accounts.
+
+Enhancements
+----
+
+Co-Pilot Improvements 
+++++
+
+* **Reduced Token Usage :** Co-Pilot has been enhanced to reduce token usage. Token consumption for each LLM step is now visible under **Activities**, showing detailed Input and Output token usage and various backend processing steps.
+
+Pipeline Observability
+++++
+
+* **Enhanced Pipeline Execution Log Entries :** New log entries are now introduced to clearly indicate pipeline execution states: **Pipeline Starting**, **Pipeline Completed**, **Pipeline Failed**. These logs help users track execution flow and troubleshoot failures more easily.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,6 +14,8 @@ Add Columns Processors in Fire Insights
 
    * - Title
      - Description
+   * - Record ID
+     - It creates sequential identifiers for each row, with options to number the entire dataset or restart within groups. It also supports sorting, data type            selection, zero-padding, and choosing where the new column is added.
    * - Add Columns
      - It adds new columns to the dataset with Current Date, Current Time, String Constant and Integer Column values.
    * - Add Column Advanced
@@ -35,7 +37,63 @@ Add Columns Processors in Fire Insights
    * - Zip With Index
      - It computes Unique Index or value for each row.
  
- 
+
+
+Record ID
+-----------
+
+Below is a sample workflow which contains Record ID processor in Fire Insights. It demonstrates how the Record ID Node assigns sequential IDs to rows, either globally or within user-defined groups.
+
+It does the following processing of data:
+
+* Reads the incoming dataset.
+* Optionally groups rows based on selected Group By Columns.
+* Orders the rows using Order By Columns (if specified).
+* Generates a sequential Record ID field starting from the configured Start Value.
+* Appends the Record ID column at the desired position (first or last).
+* Displays the resulting dataset using the Print N Rows node.
+
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/record-id-wf.png
+   :alt: record-id_userguide
+   :width: 60%
+
+
+**Incoming Dataset**
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/record-id-incoming-dataset.png
+   :alt: record-id_userguide
+   :width: 60%
+
+**Record ID Node Configuration**
+
+This node is configured using following options:
+
+* **Input:** The node processes the incoming dataset.
+* **Output Column Name:** It specifies the name for the new ID column (e.g., RecordID).
+* **Starting Value:** It defines the sequence's initial number (Default: 1).
+* **Data Type:** It selects the data type: INTEGER (32-bit), LONG (64-bit), or String.
+* **Column Position:** It sets the new column's location: first or last (default).
+* **Record ID Generation Scope:** It determines the numbering behavior across the dataset. Select **entire_table** to create a single continuous sequence for the entire dataset or **within_groups** to reset numbering for each group defined through a grouping column.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/addcolumn/record-id-node-config.png
+     :alt: record-id_userguide
+     :width: 60%
+  
+
+
+**Record ID Node Output**
+
+The output of this node returns a DataFrame identical to the input but with an additional column containing the generated sequential identifiers.
+
+.. figure:: ../../_assets/user-guide/data-preparation/addcolumn/record-id-node-output.png
+   :alt: record-id_userguide
+   :width: 60%
+
+
+
+
+
 Add Columns
 ----------------------------------------
 

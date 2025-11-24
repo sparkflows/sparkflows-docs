@@ -22,6 +22,12 @@ Pipeline Observability
 
 * **Enhanced Pipeline Execution Log Entries :** New log entries are now introduced to clearly indicate pipeline execution states: **Pipeline Starting**, **Pipeline Completed**, **Pipeline Failed**. These logs help users track execution flow and troubleshoot failures more easily.
 
+Documentation
+----
+
+* `Copilot Examples <https://docs.sparkflows.io/en/latest/user-guide/copilot/copilot-examples.html>`_ documentation is now updated for various example prompts in copilot to create and update workflows and pipelines.
+
+
 
 
 

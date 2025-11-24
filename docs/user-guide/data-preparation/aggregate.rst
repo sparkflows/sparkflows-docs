@@ -14,6 +14,10 @@ Aggregate Processors in Fire Insights
 
    * - Title
      - Description
+   * - Aggregate
+     - It computes summary statistics on your dataset by grouping rows and applying aggregation functions. It is commonly used for generating rollups, totals, and summarized reports directly within workflows.
+   * - Pivot By Advance
+     - It transforms an incoming DataFrame into a pivot table by grouping rows and applying one or more aggregation functions across selected columns.
    * - Cube
      - Cube Node computes aggregations of a group of rows against all possible combinations of values in the selected grouping columns.
    * - Group By
@@ -23,6 +27,153 @@ Aggregate Processors in Fire Insights
    * - Rollup
      - Rollup Node generates a result set that shows aggregates for a hierarchy of values in the selected columns.
  
+
+Aggregate
+-----------
+
+Below is a sample workflow which contains Aggregate processor in Fire Insights. It demonstrates the usage of the Aggregation Node to compute group-level totals and metrics from an incoming dataset.
+
+It does the following processing of data:
+
+* Reads the incoming dataset.
+* Groups data using the selected Group By Columns.
+* Computes aggregated values such as Sum, Count, Min, Max, or Average using the Aggregate Node.
+* Displays the aggregated output using the Print N Rows node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-wf.png
+   :alt: aggregate_node_userguide
+   :width: 55%
+
+
+**Incoming Dataset**
+++++++++++++++++++++++++++
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-incoming-dataset.png
+   :alt: aggregate_node_userguide
+   :width: 55%
+
+**Aggregate Node Configuration**
+
+This node is configured using following options:
+
+* **Input:** The node processes the incoming dataset.
+* **Aggregate Columns:** Choose one or more columns on which the aggregation will be performed. Aggregation functions for each selected column: Sum, Count, Average, Min, Max, Count Distinct, First / Last.
+* **Propagate All Input Columns:** Set it to true to include all original input columns along with the aggregated columns.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-node-config-1.png
+     :alt: aggregate_node_userguide
+     :width: 55%
+
+* **Group By Columns:** Select one or more columns used to group the dataset. Each unique combination becomes a row in the output.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-node-config-2.png
+     :alt: aggregate_node_userguide
+     :width: 55%
+
+* **Pivot Column:** Choose the column whose unique values should become new column headers.
+* **Unique Values(optional):** Provide a list of expected unique values. If left blank, Sparkflows detects unique values automatically.
+
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-node-config-3.png
+     :alt: cube_node_userguide
+     :width: 55%
+
+**Aggregate Node Output**
+
+The output of aggregate node is shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/aggregate-node-output.png
+   :alt: cube_node_userguide
+   :width: 55%
+
+
+
+Pivot By Advance
+----------------
+
+Below is a sample workflow which contains Pivot By Advance processor in Fire Insights. It demonstrates the usage of the Pivot By Advance Node to transform and summarize an incoming dataset into a pivot-table format.
+
+It does the following processing of data:
+
+* Reads the incoming dataset.
+* Groups data using the selected Grouping Columns.
+* Converts unique values from the Pivot Column into new output columns.
+* Computes aggregated values such as Sum, Count, Min, Max, Average, or custom operations using the Pivot By Advance Node.
+* Displays the pivoted and aggregated output using the Print N Rows node.
+
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-wf.png
+   :alt: pivotby_advance_node_userguide
+   :width: 55%
+
+**Incoming Dataset**
+++++++++++++++++++++++++++
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-incoming-dataset.png
+   :alt: pivotby_advance_node_userguide
+   :width: 55%
+
+**Pivot By Advance Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++
+
+This node is configured using following options:
+
+* **Input:** The node processes the incoming dataset.
+* **Aggregate Tab**
+
+   * **Grouping Columns:** Select one or more columns to group by before pivoting.
+   * **Aggregate Columns:** Select the columns on which aggregation should be performed.
+   * **Aggregate Operation to use:** Choose one or more aggregation functions for each selected column: sum, avg, min, max, count, count_distinct, first, last, concat (with custom separator), and special functions such as total_row, total_col, percent_row, percent_col.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-node-config-1.png
+     :alt: pivotby_advance_node_userguide
+     :width: 55%
+
+
+* **Pivot Tab**
+
+   * **Pivot Column:** Specify the column whose unique values will become new output columns.
+   * **Unique Values (Optional):** Comma-separated list of pivot values. It improves performance by avoiding Spark’s internal distinct scan.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-node-config-2.png
+     :alt: pivotby_advance_node_userguide
+     :width: 55%
+
+* **Options Tab**
+
+   * **Case Insensitive Grouping:** If enabled, grouping keys are converted to lowercase before aggregation.
+   * **Retain Special Characters:** If disabled, special characters in pivoted column names are replaced with underscores ``_``.
+   * **Concatenation Separator:** It is used only when aggregation operation = concat.
+   * **Field Size (Max Characters):** Maximum allowed length for concatenated string fields. Values beyond this limit are truncated.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-node-config-3.png
+       :alt: pivotby_advance_node_userguide
+       :width: 55%
+
+* **Infer Schema Tab:** It allows defining custom output schema for: Column Names, Column Types, Column Formats
+
+
+**Pivot By Advance Node Output**
+
+The output of the node is a matrix-style table(pivoted DataFrame) suitable for reporting, analytics, and further transformations, as shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/aggregate/pivotby-adv-node-output.png
+   :alt: pivotby_advance_node_userguide
+   :width: 55%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Cube
 ----------------------------------------

@@ -154,6 +154,7 @@ This node is configured using following options:
 
 
 **Pivot By Advance Node Output**
++++++++++++++++++++++++++++++++++++++
 
 The output of the node is a matrix-style table(pivoted DataFrame) suitable for reporting, analytics, and further transformations, as shown below:
 

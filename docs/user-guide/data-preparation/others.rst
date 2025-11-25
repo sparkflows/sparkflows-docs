@@ -14,6 +14,10 @@ Data Preparation Processors in Fire Insights
 
    * - Title
      - Description
+   * - Dynamic Rename
+     - It renames columns in the input dataset using custom rename mappings, bulk renaming rules (prefix, suffix, regex, replace), or metadata-driven renaming.
+   * - Transpose Advanced
+     - It transforms wide datasets into long format by converting selected columns into key–value row pairs.
    * - Columns Rename
      - It renames incoming dataset columns.
    * - Round Value
@@ -46,8 +50,139 @@ Data Preparation Processors in Fire Insights
      - It facilitates reading data from a Hive table incrementally using watermark data.
    * - Save Watermark
      - It facilitates saving of updated status information so that new data are read during next cycle.
+  
      
- 
+
+
+
+
+Dynamic Rename
+----------------------
+
+Below is a sample workflow which contains Dynamic Rename processor in Fire Insights. It demonstrates the usage of the Dynamic Rename Node to rename columns using custom names or bulk rename operations.
+
+It does the following processing of data:
+
+* Reads the incoming dataset.
+* Renames selected columns using Current Column Names → New Column Names mapping.
+* Optionally applies bulk renaming, such as adding prefix/suffix, regex replacement, or converting to upper/lower case.
+* Applies metadata-driven renaming when using the Right Input Metadata option.
+* Displays the renamed output using a Print N Rows node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-wf.png
+   :alt: dataprepothers_userguide
+   :width: 70%
+
+**Incoming Dataset**
+++++++++++++++++++++++++++
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 70%
+
+**Dynamic Rename Node Configuration**
+++++++++++++++++++++++++++++++++++++++++++++
+
+This node is configured using following options:
+
+* **Input:** The node processes the incoming dataset.
+* **General Tab**
+
+	* **Current Column Names:** Select the list of input column names to rename.
+	* **Columns New Name:** Provide the new names corresponding to each current column. Both lists must be of equal length.
+
+
+  .. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-node-config-1.png
+       :alt: dataprepothers_userguide
+       :width: 70%
+
+* **Bulk Column Rename Tab**
+
+	* **Type:** Choose the bulk rename operation. Additional fields appear depending on the selected bulk type.
+	* **Columns To Rename:** Select specific columns for bulk rename. If **Enable All Columns To Rename = true**, all columns are used.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-node-config-2.png
+       :alt: dataprepothers_userguide
+       :width: 70%
+
+
+* **Infer Schema Tab**
+
+  It allows defining custom output schema.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-node-config-3.png
+       :alt: dataprepothers_userguide
+       :width: 70%
+
+**Dynamic Rename Node Output**
+++++++++++++++++++++++++++++++++++++++++
+
+The output of Dynamic Rename node is shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/dynamic-rename-node-output.png
+       :alt: dataprepothers_userguide
+       :width: 70%
+
+
+Transpose Advanced
+--------------------
+Below is a sample workflow which contains Transpose Advanced processor in Fire Insights. It demonstrates how the Transpose Advanced Node converts structured, column-based data into a long tabular form suitable for downstream analytics.
+
+It does the following processing of data:
+
+* Reads the incoming dataset.
+* Fixes the identifier fields using the Key Columns setting.
+* Transposes selected or auto-propagated columns into Name–Value row pairs.
+* Generates a clean long-format dataset.
+* Displays the transposed output using the Print N Rows node for verification.
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-adv-wf.png
+   :alt: dataprepothers_userguide
+   :width: 70%
+
+**Incoming Datataset**
++++++++++++++++++++++++++++++++
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-adv-incoming-dataset.png
+   :alt: dataprepothers_userguide
+   :width: 70%
+
+
+**Transpose Advanced Node Configuration**
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This node is configured using following options:
+
+* **Input:** The node processes the incoming dataset.
+* **Transpose Tab**
+
+	* **Key Columns:** Select the columns to preserve as identifiers. These remain unchanged during the transpose operation.
+	* **Data Columns:** Select the columns to convert into row entries. Each data column becomes a separate row under Name and Value fields.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-adv-node-config-1.png
+     :alt: dataprepothers_userguide
+     :width: 70%
+
+
+* **Infer Schema Tab**
+
+  Schema inference determines the correct type for the **Value** column by finding a common compatible datatype across all data columns.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/others/transpose-adv-node-config-2.png
+     :alt: dataprepothers_userguide
+     :width: 70%
+
+**Transpose Advanced Node Output**
++++++++++++++++++++++++++++++++++++++++
+
+The output of Transpose Advanced node is a long-format DataFrame with all selected key columns, Name and Value, as shown below:
+
+.. figure:: ../../_assets/user-guide/data-preparation/others/transpose-adv-node-output.png
+     :alt: dataprepothers_userguide
+     :width: 70%
+
+
+
 Columns Rename
 ----------------------------------------
 

@@ -15,6 +15,8 @@ Join and Union Processors in Fire Insights
   
    * - Title
      - Description
+   * - Join Advance
+     - This node combines two input DataFrames (Left/Target and Right/Source) horizontally by matching records based on shared key columns or row position.
    * - Union Advanced
      - This node combines rows from multiple DataFrames with flexible configuration options.
    * - Append Fields
@@ -37,6 +39,121 @@ Join and Union Processors in Fire Insights
      - This section lists troubleshooting steps for common scenarios to fix observations.   
    
 
+Join Advance
+----
+
+Below is a sample workflow which contains the Join Advance processor in Fire Insights. It demonstrates how the Join Advance Node merges distinct datasets into a unified schema while isolating non-matching records.
+
+It does the following processing of data:
+
+* Reads the incoming Left and Right datasets.
+* Aligns rows based on the configured Join By method (Specific Fields or Position).
+* Applies schema transformations (Select, Rename, Cast) to prepare the data.
+* Generates three distinct outputs:
+
+   * Inner Join: The merged dataset with all transformations applied.
+   * Left Anti-Join: Rows from the left dataset that found no match.
+   * Right Anti-Join: Rows from the right dataset that found no match.
+
+* Prints the resulting DataFrames using the Print N Rows node.
+
+.. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-wf.png
+   :alt: joinsandunion_userguide
+   :width: 40%
+
+
+**Incoming Dataset**
+++++++++++++++++++++++++++++
+
+* Incoming Dataset 01
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-input-dataset-1.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+* Incoming Dataset 02
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-input-dataset-2.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+
+**Join Advance Node Configuration**
++++++++++++++++++++++++++++++++++++++++++
+
+This node can be configured as below:
+
+* **Join Tab Configuration**
+
+   * Join By
+
+      * **Position:** Joins records based on their row index (Row 1 matches Row 1). Useful for ordered datasets without a common key.
+      * **Specific Fields:** Joins records based on values in selected columns (e.g., ID = ID). Supports normalization of Null/Empty values for reliable matching.
+
+   * Joining Columns
+
+      * **Left/Right Table Join Column:** Uses specific columns as keys for matching. It is required only when Join By is set to "Specific Fields".
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-config-1.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+* **Columns Tab Configuration**
+
+   * **Select Fields:** Choose which columns to keep from the Left and Right datasets.
+   * **Rename Fields:** Rename columns to resolve conflicts or improve readability before the join occurs.
+   * **Data Type Fields:** Cast columns to new data types (e.g., String to Integer) during the process.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-config-2.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+* **Drop Tab Configuration**
+
+
+   * **Input Propagate Schema:**
+
+      * True → Attempts to pass through the original schema structure where applicable.
+      * False → Strictly adheres to the configured output schema.
+
+   * **Drop Columns:** Explicitly remove specific columns from the final output. Smart handling ensures that if a column is dropped, it is cleanly removed unless it is required as a Join Key.
+
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-config-3.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+**Join Advance Node Output**
+++++++++++++++++++++++++++++++++
+
+Output of the Join Advance node produces three distinct output edges:
+
+* **Left Anti-Join:** Contains records from the Left DataFrame that did not match any record in the Right DataFrame and retains the original Left schema.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-node-output-1.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+* **Inner Join:** Contains merged records where keys matched, includes all selected columns from both sides, prefixes conflicting Right-side columns with Right_ (e.g., Right_id), and applies all configured renames, casts, and drops.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-node-output-2.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+* **Right Anti-Join:** Contains records from the Right DataFrame that did not match any record in the Left DataFrame and retains the original Right schema.
+
+  .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/join-advance-node-output-3.png
+     :alt: joinsandunion_userguide
+     :width: 75%
+
+
+
+
 
 Union Advanced
 ----------------------------------------
@@ -50,7 +167,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/union-advanced-wf.png
    :alt: joinsandunion_userguide
-   :width: 75%
+   :width: 40%
 
 **Union Advanced Node Configuration**
 
@@ -111,7 +228,7 @@ It does the following processing of data:
 
 .. figure:: ../../_assets/user-guide/data-preparation/joinsandunion/append-fields-wf.png
    :alt: joinsandunion_userguide
-   :width: 75%
+   :width: 40%
 
 **Append Fields Node Configuration**
 ++++

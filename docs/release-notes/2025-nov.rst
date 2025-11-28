@@ -27,7 +27,7 @@ Documentation
 
 * `Copilot Examples <https://docs.sparkflows.io/en/latest/user-guide/copilot/copilot-examples.html>`_ documentation is now updated for various example prompts in copilot to create and update workflows and pipelines.
 
-
+* `Logs Search Examples <https://docs.sparkflows.io/en/latest/operations/logs/logs-search-examples.html#pipeline-logs>`_ documentation is now updated with log formats for pipeline executions.
 
 
 

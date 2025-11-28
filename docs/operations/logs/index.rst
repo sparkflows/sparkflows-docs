@@ -18,5 +18,6 @@ You can view the logs for each process either by logging into the VM where Fire 
    fire-pyspark-logs.rst
    workflow-logs.rst
    logs-search-examples.rst
+   logs-email-alerts.rst
    logs-cleanup.rst
    logs-json-format.rst

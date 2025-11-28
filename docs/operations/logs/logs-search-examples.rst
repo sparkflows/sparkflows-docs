@@ -13,7 +13,80 @@ This document outlines ways to search and track logs using specific patterns for
 
 Tracking Logs Using Patterns
 ====
+
+**Pipeline Logs**
+++++++++++++++++
+
 Example 1
+
+1. When a user executes a pipeline on an Airflow connection, they can navigate to **Pipeline → Executions** page and get the pipelineExecutionId, as shown below:
+
+   .. figure:: ../../_assets/configuration/logs/logs-pipeline-execution-page.png
+            :alt: Logs
+            :width: 70%
+
+2. Next, the user can copy the ID of the pipeline execution and search for the pattern given below, through which the user can access all logs of that specific Pipeline Execution.
+
+   **Ex Pattern: [PipelineExecution] pipelineExecutionId=161120**
+
+   .. figure:: ../../_assets/configuration/logs/Ex2-pipeline-execution-id-logs.png
+            :alt: Logs
+            :width: 70%
+
+3. Now, the user can see the enhanced log entries generated during pipeline executions i.e. Pipeline Starting, Pipeline Queued, and Pipeline Completed entries.
+
+   * **Pipeline Starting Log Entry**
+
+     :: 
+   
+         [PipelineExecution] pipelineExecutionId=161120 | Current Status=STARTING | PipelineId=9805 | ProjectId=4878 | ConnectionId=259 | Current Status=STARTING pipelineExecutionId=161120
+
+
+     .. figure:: ../../_assets/configuration/logs/logs-pipeline-execution-start-1.PNG
+            :alt: Logs
+            :width: 70%
+
+     .. figure:: ../../_assets/configuration/logs/logs-pipeline-execution-start-2.PNG
+            :alt: Logs
+            :width: 70%
+
+
+   * **Pipeline Queued Log Entry**
+
+     ::
+
+         [PipelineExecution] pipelineExecutionId=161120 | Current Status=QUEUED | PipelineId=9805 | ProjectId=4878 | ConnectionId=259 | Current Status=QUEUED pipelineExecutionId=161120
+
+
+     .. figure:: ../../_assets/configuration/logs/logs-pipeline-execution-queued.PNG
+            :alt: Logs
+            :width: 70%
+
+   * **Pipeline Completed Log Entry**
+
+     ::
+
+        [PipelineExecution] PipelineExecutionId=161120 | Current Status=COMPLETED | pipelineId=9805 | ProjectId=4878 | ConnectionId=259 | ExecutionItemId=433873 | ExecutionItemName=testlist | State changed: STARTING -> COMPLETED pipelineExecutionId=161120
+
+
+     :: 
+
+         [PipelineExecution] PipelineExecutionId=161120 | Current Status=COMPLETED | pipelineId=9805 | ProjectId=4878 | ConnectionId=259 | All pipeline execution items finished. Updating parent pipeline execution. pipelineExecutionId=161120
+
+
+     ::
+
+         [PipelineExecution] PipelineExecutionId=161120 | Current Status=COMPLETED | PipelineId=9805 | ProjectId=4878 | ConnectionId=259 | DagId=test_pipeline_retry_and_delay_print_dag_argument_tagNov_2725 | Pipeline execution state updated to COMPLETED and end time set pipelineExecutionId=161120
+
+
+
+     .. figure:: ../../_assets/configuration/logs/logs-pipeline-execution-completed.PNG
+            :alt: Logs
+            :width: 70%
+
+
+
+Example 2
 ++++
 A user can track a group of related logs using a **Transaction ID**, which remains the same across all logs for a specific transaction. To trace the logs for a particular transaction, the user would first identify the initial log entry of interest, then use its **Transaction ID** to retrieve the complete set of logs associated with that transaction.
 
@@ -58,7 +131,7 @@ A user can track a group of related logs using a **Transaction ID**, which remai
             :width: 70%
 
 
-Example 2
+Example 3
 ++++
 1. When a user executes a pipeline on an Airflow connection, they can navigate to **Pipeline → Executions** page and get the pipelineExecutionId, as shown below:
 
@@ -78,7 +151,7 @@ Example 2
 
 
 
-Example 3 
+Example 4
 ++++
 1. A user can even get each and every log line for a specific pipeline execution by searching just the pipeline execution id like below:
 
@@ -89,7 +162,10 @@ Example 3
             :width: 70%
 
 
-Example 4
+**Workflow Logs**
+++++++++++++++++++
+
+Example 1
 ++++
 A user can track a group of related logs using a **Transaction ID**, which remains the same across all logs for a specific transaction. To trace the logs for a particular transaction, the user first would identify the initial log entry of interest, then use its **Transaction ID** to retrieve the complete set of logs associated with that transaction.
 
@@ -143,7 +219,7 @@ A user can track a group of related logs using a **Transaction ID**, which remai
             :alt: Logs
             :width: 90%
 
-Example 5
+Example 2
 ++++
 A user can get the logs of a workflow execution along with the state of the execution using the below Log Pattern on **Administration → View Server Logs** search bar and also get the status of the workflow. 
 
@@ -159,8 +235,40 @@ The user can also view the status of the workflow execution as shown in the belo
         :alt: Logs
          :width: 70%
 
+Example 3
+++++
+A user can get logs for a specific workflow execution by using a combined pattern in **Administration → View Server Logs** search bar:
 
-Example 6
+::
+    
+    wfeId : Workflow Execution Id
+    wfId : Workflow Id
+    prjId : Project Id
+    userId : User Id
+
+**Ex Pattern : wfeId=80728 wfId=23574 prjId=5495 userId=1**
+
+.. figure:: ../../_assets/configuration/logs/Ex8-logs-combination.png
+          :alt: Logs
+          :width: 70%
+
+
+Example 4 
+++++
+A user can also get logs related to a specific workflow by searching with the following pattern in **Administration → View Server Logs** search bar:
+
+**Ex Pattern : workflowId=78708**
+
+
+.. figure:: ../../_assets/configuration/logs/Ex9-logs-workflow-id.png
+          :alt: Logs
+          :width: 70%
+
+
+**User Logs**
+++++++++++++++
+
+Example 1
 ++++
 A user can get a specific User’s logs by searching for the pattern given below on **Administration → View Server Logs** search bar:
 
@@ -180,8 +288,10 @@ A user can get a specific User’s logs by searching for the pattern given below
           :alt: Logs
           :width: 70%
 
+**Project Logs**
+++++++++++++++++++
 
-Example 7
+Example 1
 ++++
 A user can get the logs for a specific project by using the pattern given below on **Administration → View Server Logs** search bar:
 
@@ -189,41 +299,13 @@ A user can get the logs for a specific project by using the pattern given below 
 
 **Ex Pattern : prjId=5495**
 
- .. figure:: ../../_assets/configuration/logs/Ex7-logs-prj-id.png
+.. figure:: ../../_assets/configuration/logs/Ex7-logs-prj-id.png
           :alt: Logs
           :width: 70%
 
 
 
 
-Example 8 
-++++
-A user can get logs for a specific workflow execution by using a combined pattern in **Administration → View Server Logs** search bar:
-
-::
-    
-    wfeId : Workflow Execution Id
-    wfId : Workflow Id
-    prjId : Project Id
-    userId : User Id
-
-**Ex Pattern : wfeId=80728 wfId=23574 prjId=5495 userId=1**
-
-.. figure:: ../../_assets/configuration/logs/Ex8-logs-combination.png
-          :alt: Logs
-          :width: 70%
-
-
-Example 9 
-++++
-A user can also get logs related to a specific workflow by searching with the following pattern in **Administration → View Server Logs** search bar:
-
-**Ex Pattern : workflowId=78708**
-
-
-.. figure:: ../../_assets/configuration/logs/Ex9-logs-workflow-id.png
-          :alt: Logs
-          :width: 70%
 
 
 

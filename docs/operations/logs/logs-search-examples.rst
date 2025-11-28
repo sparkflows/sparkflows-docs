@@ -25,13 +25,10 @@ Example 1
             :alt: Logs
             :width: 70%
 
-2. Next, the user can copy the ID of the pipeline execution and search for the pattern given below, through which the user can access all logs of that specific Pipeline Execution.
+2. Next, the user can copy the ID of the pipeline execution and search for the pattern given below in Server Logs, through which the user can access all logs of that specific Pipeline Execution.
 
    **Ex Pattern: [PipelineExecution] pipelineExecutionId=161120**
 
-   .. figure:: ../../_assets/configuration/logs/Ex2-pipeline-execution-id-logs.png
-            :alt: Logs
-            :width: 70%
 
 3. Now, the user can see the enhanced log entries generated during pipeline executions i.e. Pipeline Starting, Pipeline Queued, and Pipeline Completed entries.
 

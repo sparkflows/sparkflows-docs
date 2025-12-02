@@ -95,7 +95,7 @@ It does the following processing of data:
 *	Function to be applied on the column is to be selected in ``Function`` list.
 *	Comparison symbol to be used in the Condition is to be selected in ``Symbol`` list.
 *	Value against which the Function is to be compared is to be entered in ``Values`` box.
-*	In this example decision is made based on Churn Count of the NJ state. If count is more than 10 then execute next node or else terminate here.
+*	In this example decision is made based on Churn Count of the OK state. If the count is greater than 10, then the Decision True node is executed, otherwise, the Decision False node is executed.
 *	Multiple conditions can be entered by adding additional rows.
 *	Output of this node would be based on Decision result.
 

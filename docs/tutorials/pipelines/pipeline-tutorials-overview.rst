@@ -1,7 +1,7 @@
 Overview
 ========
 
-A pipeline in Fire Insight defines a sequence of workflows. Processing steps pass through the sequence, typically in a linear manner, where each workflow performs a specific operation or transformation.
+A pipeline in Sparkflows defines a sequence of workflows. Processing steps pass through the sequence, typically in a linear manner, where each workflow performs a specific operation or transformation.
 
 Sparkflows provides mechanism to to create, execute and schedule Pipelines. Thus helping in automating executions.
 

@@ -22,7 +22,7 @@ fire-insight setup in AWS
     
     - <Screenshot>
 
-* Create AWS EC2 Role for Fire Insight
+* Create AWS EC2 Role for Sparkflows
 
   - Show the Screenshot 
   - Create the Role fire-insight-role without specifying any Policy and Trust

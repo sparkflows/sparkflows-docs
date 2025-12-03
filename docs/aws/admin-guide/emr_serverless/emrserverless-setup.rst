@@ -149,7 +149,7 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
          :alt: emrserverless
          :width: 60%
 
-#. Enabled job runtime role to access Fire Insight application
+#. Enabled job runtime role to access Sparkflows application
 
    you can attach new policy with access to Network
 

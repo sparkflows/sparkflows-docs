@@ -53,7 +53,7 @@ On certain pages I get the following error:
 **Solution**
 +++++++
 
-* The reason for it is that the Fire Insight helper process is not starting. 
+* The reason for it is that the Sparkflows helper process is not starting. 
 
   Check out the log files namely, **fireserver.log** and **fire.log** for errors. They are written in the install directory.
 
@@ -76,7 +76,7 @@ On opening any PySpark node I get the following error:
 **Solution**
 +++++++
 
-* The reason for it is that the Fire Insight helper PySpark process is not starting. 
+* The reason for it is that the Sparkflows helper PySpark process is not starting. 
 
   Check out the log files namely, **fireserver.log** and **pyspark.log** for errors. They are written in the install directory.
 

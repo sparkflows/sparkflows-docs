@@ -155,7 +155,7 @@ We need to ensure that Sparkflows endpoint being used for postback url has the s
    :width: 60%   
 
 
-We also need to ensure that that Endpoint services being used for postback url has cross-zone load balancing enabled for Fire Insight application. Otherwise it will show communication error.
+We also need to ensure that that Endpoint services being used for postback url has cross-zone load balancing enabled for Sparkflows application. Otherwise it will show communication error.
 
 .. figure:: ../_assets/operating/operations/cross_zone.PNG
    :alt: operations

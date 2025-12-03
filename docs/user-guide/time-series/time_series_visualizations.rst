@@ -34,7 +34,7 @@ Below is a sample workflow which contains ``Time Series data`` and outputs a lin
    :alt: ml_userguide
    :width: 65%
 
-Configurations for visualization processors in Fire Insight:
+Configurations for visualization processors in Sparkflows:
 
 * Set the number of columns you want to represent on Y axis with respect to X axis.
 * Set the chart type based on the data type.

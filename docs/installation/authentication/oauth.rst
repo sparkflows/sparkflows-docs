@@ -116,7 +116,7 @@ Once the Keycloak realm is configured, click on Endpoints to view the realm deta
    :width: 80%
 
 
-Start Fire Insight 
+Start Sparkflows 
 --------------
 
 Once the above Configuration are updated and saved, Start the Sparkflows application and Type Sparkflows host URL in web browser and try login using option ``Login with SSO``.

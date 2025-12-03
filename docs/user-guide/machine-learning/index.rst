@@ -2,11 +2,11 @@
 Machine Learning
 ================
 
-Fire Insights has extensive Machine Learning capabilities. It has a number of processors to enable both supervised and unsupervised use cases at scale.
+Sparkflows has extensive Machine Learning capabilities. It has a number of processors to enable both supervised and unsupervised use cases at scale.
 
-Fire Insights supports a variety of ML engines, such as Apache Spark ML, H2O, PyCaret, XGBoost, CatBoost, AdaBoost, Scikit-learn, Prophet, ARIMA, Keras, Tensorflow, and Statsmodels.
+Sparkflows supports a variety of ML engines, such as Apache Spark ML, H2O, PyCaret, XGBoost, CatBoost, AdaBoost, Scikit-learn, Prophet, ARIMA, Keras, Tensorflow, and Statsmodels.
 
-Fire Insights also provides AutoML capabilities. User can simply select a dataset, the target column and get the best performing models and their hyperparameters.
+Sparkflows also provides AutoML capabilities. User can simply select a dataset, the target column and get the best performing models and their hyperparameters.
 
 See the page below for details on MLOps:
 

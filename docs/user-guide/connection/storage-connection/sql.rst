@@ -1,11 +1,11 @@
 SQL Server Connection
 ================
 
-In Fire Insights, Connections can be made to SQL Server. This helps users to access and manage data files stored in the SQL server database. This is done with the help of JDBC Connection nodes that can be used in workflows to read and write data from and to SQL server database.
+In Sparkflows, Connections can be made to SQL Server. This helps users to access and manage data files stored in the SQL server database. This is done with the help of JDBC Connection nodes that can be used in workflows to read and write data from and to SQL server database.
 
   * Download MSSQL JDBC Driver
   * Install the JDBC Driver
-  * Restart Fire Insights
+  * Restart Sparkflows
   * Create the MSSQL Connection
 
 Download MSSQL JDBC Driver
@@ -47,7 +47,7 @@ Creating Connection
 
 **Create Global and Group Connections:**
 
-#. **Login** to Fire Insights.
+#. **Login** to Sparkflows.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
 #. From the Administration page, click **Global Connections**.
    
@@ -92,7 +92,7 @@ Creating Connection
 
 Using Connection
 --------
-Now, you are ready to start using the SQL Server Connection in Fire Insights using Read JDBC nodes.
+Now, you are ready to start using the SQL Server Connection in Sparkflows using Read JDBC nodes.
 
    .. figure:: ../../../_assets/connections/sql_node.PNG
       :alt: SQL Server

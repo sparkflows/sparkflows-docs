@@ -1,14 +1,14 @@
 Export Pipelines
 ==============
 
-Fire Insights enables you to export Pipelines as JSON files. These JSON files can be imported into another instance of Fire Insights.
+Sparkflows enables you to export Pipelines as JSON files. These JSON files can be imported into another instance of Sparkflows.
 
 Below are the steps for exporting Pipelines.
 
 Steps for Exporting a Pipeline
 -----
 
-1. You can Login to Fire Insights Web server URL and follow below steps:
+1. You can Login to Sparkflows Web server URL and follow below steps:
 
      * Go to the Project List page.
      * Select the project that has the Pipeline you want to Export.
@@ -29,12 +29,12 @@ Steps for Exporting a Pipeline
       :alt: userguide
       :width: 70%  
   
-3. Once the Pipeline gets exported successfully, you will see the Pipeline JSON file in your local Computer and same can be imported to other instance of Fire Insights. 
+3. Once the Pipeline gets exported successfully, you will see the Pipeline JSON file in your local Computer and same can be imported to other instance of Sparkflows. 
 
    .. figure:: ../../_assets/user-guide/export-import/pipeline-exported.PNG
      :alt: userguide
      :width: 70% 
 
-.. note:: Make sure that data pointed to the Pipeline should be available on new instance of Fire Insights.
+.. note:: Make sure that data pointed to the Pipeline should be available on new instance of Sparkflows.
 
   

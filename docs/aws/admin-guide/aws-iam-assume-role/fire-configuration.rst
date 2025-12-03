@@ -1,11 +1,11 @@
 Fire Configurations for Assuming Role
 ==============
 
-Since the IAM AssumeRole was successfully set up in the previous steps, we are now ready to configure it in Fire Insights. Follow the steps below to complete the configuration.
+Since the IAM AssumeRole was successfully set up in the previous steps, we are now ready to configure it in Sparkflows. Follow the steps below to complete the configuration.
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 ----------------------
-#. Go to the Fire Insights login page.
+#. Go to the Sparkflows login page.
 
 #. Enter your **credentials**, then click **Login**. You will be directed to the **Fire Dashboard**, as shown below.
 
@@ -52,7 +52,7 @@ Step 3 : Update Parameters
        :alt: aws
        :width: 60%
 
-Step 4 : Create/Update Group in Fire Insights
+Step 4 : Create/Update Group in Sparkflows
 ----------------------------
 
 #. Navigate to **Administration -> Group List**.
@@ -72,7 +72,7 @@ Step 4 : Create/Update Group in Fire Insights
       :alt: aws
       :width: 60%
 
-#. Once the Group is attached to any User in Fire Insights, **Save** the Configurations.
+#. Once the Group is attached to any User in Sparkflows, **Save** the Configurations.
 
 Step 5 : Access S3 Bucket
 --------------

@@ -1,11 +1,11 @@
 Diagnostics
 =============
 
-Diagnostics refers to the process of identifying the nature or cause of a problem, typically related to Fire Insights installation. 
+Diagnostics refers to the process of identifying the nature or cause of a problem, typically related to Sparkflows installation. 
 
 **How To Access Diagnostics**
 
-#. Login to Fire Insights. 
+#. Login to Sparkflows. 
 #. Navigate to **Administration -> Diagnostics**.
 
 

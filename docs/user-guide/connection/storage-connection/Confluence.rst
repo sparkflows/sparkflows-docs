@@ -4,9 +4,9 @@ Confluence is a collaboration and documentation platform that enables teams to c
 
 To create a **Confluence Connection** in Sparkflows, follow the steps below:
 
-Step 1 : Login to Fire Insights and Navigate to Connections Page
+Step 1 : Login to Sparkflows and Navigate to Connections Page
 +++++++
-#. Login to Fire Insights by entering your **login credentials** as **admin**.
+#. Login to Sparkflows by entering your **login credentials** as **admin**.
 
 #. Navigate to **Administration -> Global/Group Connections**. A Connections page will open up, as shown below.
 

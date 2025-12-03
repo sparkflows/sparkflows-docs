@@ -3,9 +3,9 @@ Feature Engineering
 
 Feature engineering is the process of creating new features from one or multiple existing features, potentially for use in statistical analysis. This process adds new information to be accessible during the model construction and therefore hopefully result in a more accurate model.
 
-Fire Insights provides several processors for feature engineering.
+Sparkflows provides several processors for feature engineering.
 
-.. list-table:: Feature Engineering Processors in Fire Insights
+.. list-table:: Feature Engineering Processors in Sparkflows
    :widths:  20 80
    :header-rows: 1
 

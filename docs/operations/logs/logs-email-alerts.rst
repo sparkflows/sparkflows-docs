@@ -4,7 +4,7 @@ This document outlines the standard log formats used for email alerts across dif
 
 Standard Format for Email
 ----
-Below is the standard log format used when an email is triggered during various executions in Fire Insights.
+Below is the standard log format used when an email is triggered during various executions in Sparkflows.
 
 ::
 

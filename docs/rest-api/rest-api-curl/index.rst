@@ -1,16 +1,16 @@
 REST API Examples using Curl
 ==========
 
-This topic contains a range of examples that demonstrates how to use the Fire Insights APIs using curl.
+This topic contains a range of examples that demonstrates how to use the Sparkflows APIs using curl.
 
 Acquire Session Cookie Using curl
 -----------------------------
 
-When invoking the REST APIs of Fire Insights with curl, the first step is to log in and save the incoming cookie into a text file. This file would then be used in making subsequent REST calls via curl.
+When invoking the REST APIs of Sparkflows with curl, the first step is to log in and save the incoming cookie into a text file. This file would then be used in making subsequent REST calls via curl.
 
 Save the incoming cookies using the ``-c`` option of ``curl`` into a file.
 
-In the examples below, Fire Insights web server is running on the local machine at: ``localhost:8080``
+In the examples below, Sparkflows web server is running on the local machine at: ``localhost:8080``
 
 You can replace it with your machine name and port.
 

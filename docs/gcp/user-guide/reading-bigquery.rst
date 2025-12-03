@@ -1,7 +1,7 @@
 Read from BigQuery
 ============
 
-Fire Insights has processor to read from BigQuery Tables. This document explains detailed steps required to read data from BigQuery.
+Sparkflows has processor to read from BigQuery Tables. This document explains detailed steps required to read data from BigQuery.
 
 Follow the steps given below:
 

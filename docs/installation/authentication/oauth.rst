@@ -1,14 +1,14 @@
 OAuth Authentication
 ====================
 
-Fire Insights supports OAuth Authentication.
+Sparkflows supports OAuth Authentication.
 
-Below are Pre-Requisites to Configure OAuth in Fire Insights.
+Below are Pre-Requisites to Configure OAuth in Sparkflows.
 
 Pre-requisites
 --------
 
-#. Fire Insights host URL must be available for setting up OIDC callback URL in application setup in OAuth
+#. Sparkflows host URL must be available for setting up OIDC callback URL in application setup in OAuth
 #. oauth.client.clientId
 #. oauth.client.clientSecret
 #. oauth.client.accessTokenUri
@@ -22,10 +22,10 @@ Pre-requisites
 .. note::  Make sure to update ``OIDC callback URL`` as ``https://<sparkflows-host>/login/oauth``.
 
 
-Configuring OAuth in Fire Insights
+Configuring OAuth in Sparkflows
 -----------------
 
-In order to configure OAuth in Fire Insights, add the OAuth configuration parameters to ``conf/application.properties``.
+In order to configure OAuth in Sparkflows, add the OAuth configuration parameters to ``conf/application.properties``.
 
 Below is an example of configuring OAuth in Fire with Okta:
 
@@ -48,7 +48,7 @@ Below is an example of configuring OAuth in Fire with Okta:
 Update sso.saml.properties 
 -----------------
 
-In order to configure OAuth in Fire Insights, update ``conf/sso.saml.properties`` with below parameter:
+In order to configure OAuth in Sparkflows, update ``conf/sso.saml.properties`` with below parameter:
 
 ::
 
@@ -119,7 +119,7 @@ Once the Keycloak realm is configured, click on Endpoints to view the realm deta
 Start Fire Insight 
 --------------
 
-Once the above Configuration are updated and saved, Start the Fire Insights application and Type Fire Insights host URL in web browser and try login using option ``Login with SSO``.
+Once the above Configuration are updated and saved, Start the Sparkflows application and Type Sparkflows host URL in web browser and try login using option ``Login with SSO``.
 
 .. note::  Make sure that user trying to login should have access.
 

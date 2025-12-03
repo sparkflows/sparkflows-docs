@@ -1,16 +1,16 @@
 ADLS Integration - Managed Identity
 ================
 
-Fire Insights has been integrated with Azure Data Lake Storage. Once configured, you can use the filesystem for accessing data from it.
+Sparkflows has been integrated with Azure Data Lake Storage. Once configured, you can use the filesystem for accessing data from it.
 
-Below are the steps for configuring Fire Insights with ADLS using managed identity.
+Below are the steps for configuring Sparkflows with ADLS using managed identity.
 
 Managed identity allow the users to access the Azure resources without hardcoding any credentials in the code.
 
 Enable System Identity
 -----------------------------------
 
-System identity needs to be enabled on the VM where Fire Insights is installed.
+System identity needs to be enabled on the VM where Sparkflows is installed.
 
 .. figure:: ../_assets/configuration/identity.PNG
    :alt: adls
@@ -25,10 +25,10 @@ In storage account, add the role to provide the access to Azure VM with needed a
    :alt: adls
    :width: 40%
    
-Configure ADLS in Fire Insights
+Configure ADLS in Sparkflows
 ----------------------
 
-Add the following parameters in Administration/Configuration in Fire Insights.
+Add the following parameters in Administration/Configuration in Sparkflows.
 
  - ``azure.enabled to true``
  - ``azure.homeDir as abfs://containerName@storageAccountName.dfs.core.windows.net`` 
@@ -38,7 +38,7 @@ Add the following parameters in Administration/Configuration in Fire Insights.
    :align: left
    :width: 40%
 
-ADLS page in Fire Insights
+ADLS page in Sparkflows
 -------------------
 
 Save the above configuration, refresh the page & click on the Data menu to see the ADLS page.

@@ -1,7 +1,7 @@
 SQL Examples
 ----------------------
 
-Fire Insights provides a SQL processor that enables users to execute SQL queries on a DataFrame.
+Sparkflows provides a SQL processor that enables users to execute SQL queries on a DataFrame.
 
 The processor operates as follows:
 

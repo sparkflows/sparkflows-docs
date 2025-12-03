@@ -1,13 +1,13 @@
 Logs
 =======
 
-Below is the list of 3 processes that run in Fire Insights :
+Below is the list of 3 processes that run in Sparkflows :
 
 * Fire server
 * Fire Scala engine
 * Fire PySpark engine (If PySpark is configured.)
 
-You can view the logs for each process either by logging into the VM where Fire Insights is installed or through the UI with admin access.
+You can view the logs for each process either by logging into the VM where Sparkflows is installed or through the UI with admin access.
 
 Logs for Fire Server
 ----------
@@ -15,7 +15,7 @@ Logs for Fire Server
 From the VM
 +++++++
 
-You can view the logs from vm on which Fire Insights is running from below location:
+You can view the logs from vm on which Sparkflows is running from below location:
 
 Fire server Logs:
 
@@ -49,7 +49,7 @@ Logs for Fire Web Server
 
 The logs for Fire web server go into "fireserver.log". The logging level is determined by the properties file "conf/logback-spring.xml".
 
-As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+As an administrator, the logs can be viewed from UI. Once you login with Sparkflows application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
 .. figure:: ../../_assets/operating/operations/fire-server-logs.PNG
@@ -96,7 +96,7 @@ Logs for Fire Engine
 The logs for Fire engine go into "fire.log". 
 
 
-As an administrator, the logs can be viewed from UI. Once you login using Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+As an administrator, the logs can be viewed from UI. Once you login using Sparkflows application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
 .. figure:: ../../_assets/operating/operations/fire-logs.PNG
@@ -114,7 +114,7 @@ Logs for Fire Pyspark engine
 
 The logs for Fire PySpark engine go into "pyspark.log".
 
-As an Administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+As an Administrator, the logs can be viewed from UI. Once you login with Sparkflows application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
 .. figure:: ../../_assets/operating/operations/fire-pyspark-logs.PNG
@@ -137,7 +137,7 @@ Pyspark Logs:
    :width: 70%
   
 
-.. note:: You can view the logs by login to Fire Insights server as well.
+.. note:: You can view the logs by login to Sparkflows server as well.
    
 
 

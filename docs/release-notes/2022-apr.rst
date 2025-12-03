@@ -6,7 +6,7 @@ These features and Sparkflows platform improvements were released in April 2022.
 AutoML Features
 +++++++++++++++
 
-Fire Insights Provides option to user to select the data, type, evaluation metrics, target column, model type and build the automl model from H2O and pycaret.
+Sparkflows Provides option to user to select the data, type, evaluation metrics, target column, model type and build the automl model from H2O and pycaret.
 
 .. figure:: ..//_assets/releases/2022-april/auto-ml.PNG
    :alt: auto-ml
@@ -35,7 +35,7 @@ Fire Insights Provides option to user to select the data, type, evaluation metri
 Scheduler
 ++++++++++
 
-Fire Insights enable you to schedule job on databricks cluster.
+Sparkflows enable you to schedule job on databricks cluster.
 
 .. figure:: ..//_assets/releases/2022-april/schedule_page.PNG
    :alt: schedule
@@ -90,7 +90,7 @@ UI
 Data Quality Feature Improvement
 +++++++++++
 
-Fire Insights enable you to use new processors added for data quality great expectations as below:
+Sparkflows enable you to use new processors added for data quality great expectations as below:
 
 - ExpectColumnValuesToBeInBetween
 - ExpectColumnValuesToBeNull
@@ -101,7 +101,7 @@ Fire Insights enable you to use new processors added for data quality great expe
 Data Quality Page
 +++++++++++
 
-Fire Insights enable you to show Data Quality informations with Great-expectations.
+Sparkflows enable you to show Data Quality informations with Great-expectations.
 
 Once the workflow with Great Expectations Processor get submitted, you can check the details informations on Data Quality page.
 

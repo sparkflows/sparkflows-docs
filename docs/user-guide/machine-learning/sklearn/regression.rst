@@ -2,7 +2,7 @@ Regression
 ===========
 
 
-.. list-table:: Scikit Learn based Regression Processors in Fire Insights
+.. list-table:: Scikit Learn based Regression Processors in Sparkflows
    :widths: 30 70
    :header-rows: 1
 

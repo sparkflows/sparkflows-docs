@@ -1,7 +1,7 @@
 Pre-requisites
 =======
 
-This document outlines the essential infrastructure pre-requisites needed to setup and configure Amazon EMR Serverless with Fire Insights.
+This document outlines the essential infrastructure pre-requisites needed to setup and configure Amazon EMR Serverless with Sparkflows.
 
 #. Grant permissions to use EMR Serverless
 #. Prepare storage for EMR Serverless

@@ -1,22 +1,22 @@
 AWS S3
 ===========
 
-Fire Insights enables you to use AWS S3 when it is configured.
+Sparkflows enables you to use AWS S3 when it is configured.
 
-By default, Fire Insights includes sample data bundled in its binary with a data folder in the home directory.
+By default, Sparkflows includes sample data bundled in its binary with a data folder in the home directory.
 
-You can copy the data folder to a specified location in S3 and configure the path to be used in Fire Insights.
+You can copy the data folder to a specified location in S3 and configure the path to be used in Sparkflows.
 
 To configure the path, follow the steps below :
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 ----------
-#. Go to Fire Insights Login Page.
+#. Go to Sparkflows Login Page.
 #. Enter your credentials to sign in.
 
 Step 2 : Go to Administration Page
 -----------------
-From the Fire Insights home page, click on the **ADMINISTRATION** tab located in the top bar.
+From the Sparkflows home page, click on the **ADMINISTRATION** tab located in the top bar.
 
 Step 3 : Go to Configurations Page
 ------------

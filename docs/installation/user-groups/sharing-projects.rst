@@ -24,13 +24,13 @@ All users belonging to the group receive the associated permissions for the proj
 AWS ARN Role
 ------------
 
-Each group has associated ARN Roles. They get used when accessing files on S3. This is done by Fire Insights by assuming the ARN Role specified in the group of the user.
+Each group has associated ARN Roles. They get used when accessing files on S3. This is done by Sparkflows by assuming the ARN Role specified in the group of the user.
 
 If a Project is shared with one group, then the ARN role of that group gets used.
 
-If a user is a member of multiple groups with IDs (1, 2, 3) in Fire Insights, AWS ARN Role will pick the group with ID 1. The group is selected by ID in ascending order.
+If a user is a member of multiple groups with IDs (1, 2, 3) in Sparkflows, AWS ARN Role will pick the group with ID 1. The group is selected by ID in ascending order.
 
-.. note:: Fire Insights supports one AWS ARN role for every user and it fetches the role based on ID in ascending order.
+.. note:: Sparkflows supports one AWS ARN role for every user and it fetches the role based on ID in ascending order.
 
 
 Connections

@@ -1,7 +1,7 @@
 Deployment Guide
 =======================
 
-Fire Insights can be easily installed on an Azure Standalone VM. 
+Sparkflows can be easily installed on an Azure Standalone VM. 
 
 Prerequisite
 -------------
@@ -26,12 +26,12 @@ Step 3 : **Set** the below in .bash_profile::
 
    export JAVA_HOME=/usr/java/jdk1.8.0_xxx-amd64/
 
-Below are the overall steps for installing Fire Insights on VM:
+Below are the overall steps for installing Sparkflows on VM:
 
 #. Create VM on Azure
 #. Update inbound rule
 #. SSH into the Azure VM
-#. Download Fire Insights. `Click here <https://www.sparkflows.io/download>`_ to download.
+#. Download Sparkflows. `Click here <https://www.sparkflows.io/download>`_ to download.
 #. Unzip it
 #. Create H2 Database
 #. Start Fire
@@ -85,7 +85,7 @@ Steps
   
     <machine_ip>:8080
 
-#. Login with the following default username and password. Fire Insights by default comes with 2 users:: 
+#. Login with the following default username and password. Sparkflows by default comes with 2 users:: 
 
     Username : admin Password : admin
     Username : test Password : test
@@ -94,7 +94,7 @@ Steps
 Loading Example Workflows
 -------------------------
 
-#. From the home page of Fire Insights, click on **Load Example Applications**.
+#. From the home page of Sparkflows, click on **Load Example Applications**.
 
 #. Upload the Fire examples data with default or if data is available at any other location, point to that location.
 

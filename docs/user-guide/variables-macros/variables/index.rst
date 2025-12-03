@@ -4,7 +4,7 @@ Variables
 Overview
 --------
 
-Fire Insights allows you to define and use variables in various ways.
+Sparkflows allows you to define and use variables in various ways.
 
   * Variables can be defined at workflow level
   * Variables can be defined during workflow execution

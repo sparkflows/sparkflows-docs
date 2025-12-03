@@ -3,7 +3,7 @@ JDBC
 
 Fire has JDBC Processors for reading from or writing to JDBC sources.
 
-In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/SQLServer/Redshift/DB2 etc. the JDBC driver needs to be installed in Fire Insights.
+In order to connect to a JDBC source like PostgreSQL/MySQL/Oracle/SQLServer/Redshift/DB2 etc. the JDBC driver needs to be installed in Sparkflows.
 
 Use the steps given at the following link for installing the corresponding JDBC driver for your RDBMS and creating the Connection.
 
@@ -23,7 +23,7 @@ Below is a workflow which reads data from PostgreSQL using a JDBC Connection and
 JDBC Processor Configuration
 ----------------------------
 
-Below are the configuration details of the ReadJDBC Processor. It uses the provided JDBC Connection for reading from the PostgreSQL database. On clicking on `Refresh Schema`, Fire Insights gets the schema of the table from PostgreSQL and populates the entries.
+Below are the configuration details of the ReadJDBC Processor. It uses the provided JDBC Connection for reading from the PostgreSQL database. On clicking on `Refresh Schema`, Sparkflows gets the schema of the table from PostgreSQL and populates the entries.
 
 .. figure:: ../../_assets/user-guide/jdbc_config.PNG
    :alt: JDBC Processor Dialog

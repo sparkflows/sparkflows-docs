@@ -1,14 +1,14 @@
 Credential Store Connection
 ============================
 
-Fire Insights enables you to create connection. The values in the connections can be fetched from the credential stores.
+Sparkflows enables you to create connection. The values in the connections can be fetched from the credential stores.
 
 Below are the steps for adding connection using values from the credential store:
 
 Step 1 : Navigate to Connections
 -------------
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Go to **Administration** and select **Global/Group Connections**, as shown below.
 
   .. figure:: ../../_assets/credential_store/admin-connections.PNG

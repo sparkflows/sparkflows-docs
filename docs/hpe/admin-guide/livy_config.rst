@@ -148,9 +148,9 @@ Step 2 : Upload JAR and Python Files
 
 Also, update the **Docker image** designated for executing PySpark jobs in the above configuration.
 
-.. note:: you can configure **datafabric** path to Configure Apache Livy logs in Fire Insights.
+.. note:: you can configure **datafabric** path to Configure Apache Livy logs in Sparkflows.
 
-   `Click Here <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr/livy-logs.html>`_ to access detailed documentation on configuring Apache Livy logs in Fire Insights.
+   `Click Here <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr/livy-logs.html>`_ to access detailed documentation on configuring Apache Livy logs in Sparkflows.
 
 Step 3 : Handle SSL Bypass (If Necessary)
 ------------------

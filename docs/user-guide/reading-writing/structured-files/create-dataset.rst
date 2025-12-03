@@ -2,7 +2,7 @@ Create Dataset
 ==========
 This node creates a dataset of specified rows and 9 pre-defined columns.
 
-Below is a sample workflow which contains the Create Dataset processor in Fire Insights. It demonstrates the usage of Create Dataset node to create a dataset of specified rows and 9 pre-defined columns.
+Below is a sample workflow which contains the Create Dataset processor in Sparkflows. It demonstrates the usage of Create Dataset node to create a dataset of specified rows and 9 pre-defined columns.
 
 It does the following processing of data:
 

@@ -3,7 +3,7 @@ Time Series Visualizations
 
 Visualizing time series data can be a powerful way to uncover patterns and trends in the data. There are several different types of visualizations that are commonly used for time series data.
 
-Fire Insights provides a number of Processors for the visualization of the time series data.
+Sparkflows provides a number of Processors for the visualization of the time series data.
 
 .. list-table:: Time Series Visualizations
    :widths: 10 40
@@ -28,7 +28,7 @@ Charts : Line Chart
 Line Charts are perfect for series of data points to form a continuous line.
 For example, they can be used to represent Daily sales data.
 
-Below is a sample workflow which contains ``Time Series data`` and outputs a line chart in Fire Insights.
+Below is a sample workflow which contains ``Time Series data`` and outputs a line chart in Sparkflows.
 
 .. figure:: ../../_assets/ml_userguide/visual.png
    :alt: ml_userguide

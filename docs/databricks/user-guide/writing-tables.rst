@@ -1,7 +1,7 @@
 Write to Databricks Tables
 ======================
 
-Fire Insights enables you to write to Databricks tables with the use of Save Databricks Table processor.
+Sparkflows enables you to write to Databricks tables with the use of Save Databricks Table processor.
 
 In the workflow, use the processor **SaveDatabricksTable**. It will allow you to save data to Databricks tables.
 

@@ -1,7 +1,7 @@
 Running Fire as a Service
 =========================
 
-Fire Insights can be configured to run as a service. This way, when the machine reboots, Fire Insights will be automatically restarted.
+Sparkflows can be configured to run as a service. This way, when the machine reboots, Sparkflows will be automatically restarted.
 
 
 
@@ -23,12 +23,12 @@ Prerequisites
 
    * Ubuntu 15.04 or higher
 
-Steps for Configuring Fire Insights as a Service
+Steps for Configuring Sparkflows as a Service
 ----
 
 Step 1: Create a Fire Service
 ++++
-* Create a Fire service that runs as systemd service. This way, Fire Insights will start automatically on reboot.
+* Create a Fire service that runs as systemd service. This way, Sparkflows will start automatically on reboot.
 
 * Create the service in the folder ``/etc/systemd/system`` and name the file **fire.service**.
 

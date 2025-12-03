@@ -5,7 +5,7 @@ Prerequisites
 -------------
 
 
-Below are the Prerequisites for installing Fire Insights on a Databricks Cluster:
+Below are the Prerequisites for installing Sparkflows on a Databricks Cluster:
 
 .. list-table:: Prerequisites
    :widths: 10 20 40

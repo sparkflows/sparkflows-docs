@@ -1,7 +1,7 @@
 Authentication
 ==============
 
-Fire Insights supports various types of authencations:
+Sparkflows supports various types of authencations:
 
 * Database Authentication
 * LDAP Authentication

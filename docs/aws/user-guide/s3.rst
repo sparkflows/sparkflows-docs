@@ -5,12 +5,12 @@ Fire is fully integrated with AWS S3. The Dataset processors offered by Fire all
 
 This document throws light on the below topics:
 
-#. Configure Fire Insights
+#. Configure Sparkflows
 #. Read from S3 bucket
 #. Write to S3 bucket
 #. Save ML Models to S3 bucket
 
-**Configure Fire Insights**
+**Configure Sparkflows**
 ------------------
 
 Fire needs to be configured before you can read and write to S3 bucket.

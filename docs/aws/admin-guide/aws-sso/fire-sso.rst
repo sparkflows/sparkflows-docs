@@ -1,13 +1,13 @@
 AWS SSO Configuration
 ====================
 
-Fire Insights can be configured with AWS SSO. This document provides a step-by-step guide to configuring Fire Insights with AWS Single Sign-On (SSO). 
+Sparkflows can be configured with AWS SSO. This document provides a step-by-step guide to configuring Sparkflows with AWS Single Sign-On (SSO). 
 
 Below are the steps for it:
 
-Step 1 : Enable SSO in Fire Insights
+Step 1 : Enable SSO in Sparkflows
 --------------------------
-To initiate AWS SSO integration, set the configuration parameter for SSO in Fire Insights:
+To initiate AWS SSO integration, set the configuration parameter for SSO in Sparkflows:
 ::
 
     sparkflows.sp.sso.enable=true 
@@ -15,7 +15,7 @@ To initiate AWS SSO integration, set the configuration parameter for SSO in Fire
 
 Step 2.  Automatically Create Users
 -----------------------
-Create the user automatically in application if user doesn’t exist in Fire Insights. Otherwise app will throw the error on page complaining ‘User not found’. 
+Create the user automatically in application if user doesn’t exist in Sparkflows. Otherwise app will throw the error on page complaining ‘User not found’. 
 
 ::
 
@@ -84,9 +84,9 @@ Set the server name, scheme, and context path for the AWS SSO configuration.
   saml.context.lb.scheme=https
   saml.context.lb.contextPath=/  
 
-Step 10 : Login through Fire Insights
+Step 10 : Login through Sparkflows
 -----------------------
-Once the above configuration is added and the Fire Server is started you will able to login through Fire Insights page.
+Once the above configuration is added and the Fire Server is started you will able to login through Sparkflows page.
 
 .. figure:: ../../../_assets/configuration/aws-sso/login.PNG
    :alt: aws sso

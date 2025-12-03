@@ -20,7 +20,7 @@ This document segment addresses common challenges encountered by our users in co
 
 H2 DB data is stored in the file **firedb.mv**.
 
-Make sure that the user with which Fire Insights is running has write access to the file.
+Make sure that the user with which Sparkflows is running has write access to the file.
 
 2. H2 Database Looks Corrupted
 ---------------------------

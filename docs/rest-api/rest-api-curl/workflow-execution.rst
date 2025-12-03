@@ -6,7 +6,7 @@ Overview
  
 The Workflow Execution REST APIs allow you to execute Workflows, get results etc.
 
-Below are the various Workflow Execution APIs available in Fire Insights. They should be executed after you have logged into Fire Insights.
+Below are the various Workflow Execution APIs available in Sparkflows. They should be executed after you have logged into Sparkflows.
 
 
 List all the Executions

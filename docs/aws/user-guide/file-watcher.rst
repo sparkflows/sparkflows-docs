@@ -6,7 +6,7 @@ Overview
 
 Processing files pushed to S3 is a common requirement in various use cases. To efficiently handle this task, the combination of SQS (Simple Queue Service) and Lambda can be utilized. By configuring a Lambda function as a trigger for an SQS queue, you can automate the processing of messages within the queue. 
 
-In this document, we will explore a method to achieve this using SQS, Lambda, and leveraging the REST API of Fire Insights. This approach provides a seamless and effective solution for processing files stored in S3.
+In this document, we will explore a method to achieve this using SQS, Lambda, and leveraging the REST API of Sparkflows. This approach provides a seamless and effective solution for processing files stored in S3.
 
 Follow the steps given below:
 
@@ -31,7 +31,7 @@ Below is the flow of execution:
 
 #. The availability of _SUCCESS file triggers an event which is sent to a configured SQS queue.
 #. Once the event reaches SQS, it triggers an AWS Lambda.
-#. The AWS Lambda uses the Fire Insights REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
+#. The AWS Lambda uses the Sparkflows REST API to execute a workflow to process the new incoming files in the AWS S3 bucket.
 #. If AWS Lambda fails, it sends the event to DLQ (Dead Letter Queue) to be appropriately handled.
 
 
@@ -73,7 +73,7 @@ It sends these events to **sf-workflow-file-watcher-ql-dev** SQS Queue.
 Step 3 : Create the AWS Lambda function
 ------------------------------
 
-Create the AWS Lambda function to take the SQL Event and begin the workflow in Fire Insights. This workflow would process the newly arrived files.
+Create the AWS Lambda function to take the SQL Event and begin the workflow in Sparkflows. This workflow would process the newly arrived files.
 
 Firstly, create an IAM role. An example is shown below.
 

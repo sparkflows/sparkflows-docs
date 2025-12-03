@@ -1,7 +1,7 @@
 SFTP
 =======
 
-Fire Insights provides SFTP processors for reading file from it.
+Sparkflows provides SFTP processors for reading file from it.
 
 Below are the steps for it:
 

@@ -1,14 +1,14 @@
 PostgreSQL Database
 ==============
 
-Fire Insights can easily be setup up to run with PostgreSQL.
+Sparkflows can easily be setup up to run with PostgreSQL.
 
 More details of the PostgreSQL database can be found here : https://www.postgresql.org/
 
 Pre-requisites
 ------
 * Postgres JAR file needs to be copied to Sparkflows folder fire-user-lib & fire-server-lib directory inside fire-x.y.z.
-* PostgreSQL should be accessible from the Fire Insights Machine.
+* PostgreSQL should be accessible from the Sparkflows Machine.
 
 The memory Pre-requisites for PostgreSQL:
 
@@ -38,9 +38,9 @@ Install PostgreSQL
 -------------
 
 * Install PostgreSQL on a machine or you can use PostgreSQL running on Cloud Infrastructure.
-* It might be easier to install it on the same machine on which you are installing Fire Insights on.
+* It might be easier to install it on the same machine on which you are installing Sparkflows on.
 
-.. note:: Make sure that PostgreSQL database should be accessible from Fire Insights Machine.
+.. note:: Make sure that PostgreSQL database should be accessible from Sparkflows Machine.
 
 Create the DB for Fire in PostgreSQL
 -------------------------------

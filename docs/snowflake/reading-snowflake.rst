@@ -1,7 +1,7 @@
 Read from Snowflake
 ======================
 
-Fire Insights has provided two processors for reading data from Snowflake.
+Sparkflows has provided two processors for reading data from Snowflake.
 
 1. Read From Snowflake
 2. Execute Query In Snowflake

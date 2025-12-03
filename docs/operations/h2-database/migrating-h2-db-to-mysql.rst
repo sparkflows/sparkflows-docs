@@ -1,9 +1,9 @@
 Migrate from H2 Database to MySQL
 =============================
 
-Fire Insights comes with an embedded H2 database.
+Sparkflows comes with an embedded H2 database.
 
-There are times when we start with the embedded H2 database, but then want to migrate to MySQL. It is always recommended to start with MySQL database with Fire Insights for long term stability and reliability.
+There are times when we start with the embedded H2 database, but then want to migrate to MySQL. It is always recommended to start with MySQL database with Sparkflows for long term stability and reliability.
 
 Below are the steps for migrating the data from H2 database to MySQL.
 

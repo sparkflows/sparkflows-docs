@@ -1,13 +1,13 @@
-Okta Fire Insights SAML Configuration
+Okta Sparkflows SAML Configuration
 ====================
 
-Fire Insights can be configured with SAML 2.0 Okta as below:
+Sparkflows can be configured with SAML 2.0 Okta as below:
 
 Go to folder ``conf`` and edit the file ``sso.saml.properties`` in it:
 
 Add/update the below information from newly created application in Okta:
 
-1. Enable SSO in Fire Insights.
+1. Enable SSO in Sparkflows.
 
 ::
 
@@ -20,7 +20,7 @@ Add/update the below information from newly created application in Okta:
     sparkflows.authentication.type=saml 
 
 
-3. Create user automatically in application, if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'.
+3. Create user automatically in application, if user doesn't exist in Sparkflows, otherwise app will show page 'User not found'.
 
 ::
 

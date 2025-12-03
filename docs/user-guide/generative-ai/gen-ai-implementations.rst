@@ -1,7 +1,7 @@
 Generative AI Sample Implementations
 =======
 
-The following table enlists Sample Generative AI Powered Apps developed in Fire Insights :
+The following table enlists Sample Generative AI Powered Apps developed in Sparkflows :
 
 .. list-table:: 
    :widths: 30 70

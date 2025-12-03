@@ -1,7 +1,7 @@
 Regular Maintenance Tasks
 ==============
 
-It is important to do a few maintenance tasks regularly to have Fire Insights running smoothly over time.
+It is important to do a few maintenance tasks regularly to have Sparkflows running smoothly over time.
 
 Commands cheatsheet for H2DB is available at : https://docs.sparkflows.io/en/latest/commands/h2-db.html
 
@@ -9,19 +9,19 @@ Commands cheatsheet for H2DB is available at : https://docs.sparkflows.io/en/lat
 Backing up H2 Database
 ----------------
 
-Fire Insights can be run with the embedded H2 database, or when an external database like MySQL, SQL server etc. It is important to back up the database regularly.
+Sparkflows can be run with the embedded H2 database, or when an external database like MySQL, SQL server etc. It is important to back up the database regularly.
 
 In order to backup the H2 database follow the steps below :
 
-#. Stop Fire Insights.
+#. Stop Sparkflows.
 #. Copy the H2 database files to another folder. This file is normally named "firedb.mv.db".
-#. Start Fire Insights.
+#. Start Sparkflows.
 
 
 Cleaning H2 Database
 --------------
 
-Fire Insights by default uses the H2 embedded database. It is important to keep the size of the database in control. All the Fire Insights tables are relatively small except those which store the result of workflow execution.
+Sparkflows by default uses the H2 embedded database. It is important to keep the size of the database in control. All the Sparkflows tables are relatively small except those which store the result of workflow execution.
 
 Cleaning Old Workflow Executions
 +++++++++++++++++
@@ -52,7 +52,7 @@ It is important to regularly delete the old Audit logs for cleaning the database
 Compact H2 Database File
 ++++++++++++++++++
 
-By default H2 database file is in the home folder of the user running Fire Insights. It is named as "firedb.mv.db".
+By default H2 database file is in the home folder of the user running Sparkflows. It is named as "firedb.mv.db".
 
 If the H2 database file size grows too large (> 3GB), then follow the steps below for compacting it :
 
@@ -100,4 +100,4 @@ Delete the following folders regularly :
 * /tmp/fire/workflowlogs
 * /tmp/fire/workflows
 
-.. note::  The above folder is available inside Fire Insights home directory.
+.. note::  The above folder is available inside Sparkflows home directory.

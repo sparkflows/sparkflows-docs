@@ -5,9 +5,9 @@ Fire Inisghts enables you to Generate PySpark Code even with Spark engine and ru
 
 This document explains in detail the steps involved in the process.
 
-Step 1 : Login in to Fire Insights
+Step 1 : Login in to Sparkflows
 ----------------
-#. Go to Fire Insights Home page.
+#. Go to Sparkflows Home page.
 #. Enter you credentials and click **Sign in**.
 
 Step 2 : Enable Auto Pyspark Code Generation

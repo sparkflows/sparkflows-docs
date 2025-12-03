@@ -1,9 +1,9 @@
 Install JDBC Drivers for Workflows
 =======================
 
-Fire Insights has JDBC Processors for reading data from JDBC sources or writing to JDBC sinks.
+Sparkflows has JDBC Processors for reading data from JDBC sources or writing to JDBC sinks.
 
-In order to connect to a JDBC source like Oracle/DB2/TeraData/Postgres/Salesforce/SAPHANA etc. the JDBC driver needs to be installed in Fire Insights.
+In order to connect to a JDBC source like Oracle/DB2/TeraData/Postgres/Salesforce/SAPHANA etc. the JDBC driver needs to be installed in Sparkflows.
 
 Below are the steps for installing the JDBC driver :
 
@@ -26,7 +26,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Alternatively, you can wait for 60 minutes and the JDBC driver will be automatically registered with Fire Insights.
+Alternatively, you can wait for 60 minutes and the JDBC driver will be automatically registered with Sparkflows.
 
 
 Downloading the JDBC JAR File

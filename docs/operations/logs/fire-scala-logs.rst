@@ -18,7 +18,7 @@ Logs for Fire Engine
 The logs for Fire engine go into "fire.log". 
 
 
-As an administrator, the logs can be viewed from UI. Once you login using Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+As an administrator, the logs can be viewed from UI. Once you login using Sparkflows application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
 .. figure:: ../../_assets/operating/operations/fire-logs.PNG

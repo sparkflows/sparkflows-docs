@@ -42,7 +42,7 @@ To specify details for the environment follow the below  steps:
 #. Choose the **Apache Airflow version** in Airflow version.
 
 
-   .. note:: If no value is specified, the default is the latest Airflow version. The latest version available is Apache Airflow v2.8.1, which needs to be configured for the setup of Fire Insights.
+   .. note:: If no value is specified, the default is the latest Airflow version. The latest version available is Apache Airflow v2.8.1, which needs to be configured for the setup of Sparkflows.
 
 #. Under **DAG code** in Amazon S3 specify the following:
 

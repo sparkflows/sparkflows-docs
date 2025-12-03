@@ -1,7 +1,7 @@
-OneLogin Fire Insights SAML Configuration
+OneLogin Sparkflows SAML Configuration
 ====================
 
-Fire Insights can be Configured with SAML 2.0 OneLogin as below.
+Sparkflows can be Configured with SAML 2.0 OneLogin as below.
 
 Go to folder ``conf/sso.saml.properties`` file:
 
@@ -12,7 +12,7 @@ Add the below information from newly created application in oneLogin:
 
     sparkflows.sp.sso.enable=true 
     
-2. Create user locally in application if user doesn't exist in Fire Insights, otherwise app will show page 'User not found'::
+2. Create user locally in application if user doesn't exist in Sparkflows, otherwise app will show page 'User not found'::
     
     sparkflows.sp.auto.user.create=true 
     

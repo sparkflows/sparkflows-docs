@@ -8,7 +8,7 @@ Sparkflows can be installed to run independently on Windows.
 Prerequisites
 ====================
 
-Below are the Prerequisites for installing Fire Insights on a windows machine::
+Below are the Prerequisites for installing Sparkflows on a windows machine::
 
 
   - JDK 8 installed.
@@ -47,7 +47,7 @@ Install JDK 8
            * https://www.java.com/en/download/help/path.xml
            
  
-.. note:: With the above steps, you would have Fire Insights running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Fire Insights has to be installed on the edge node of the cluster.
+.. note:: With the above steps, you would have Sparkflows running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Sparkflows has to be installed on the edge node of the cluster.
 
 
 Install winutils.exe
@@ -126,10 +126,10 @@ If you run into an exception like above, then there is problem with the setup of
 Installation
 =================
 
-Fire Insights can be installed to run independenly on Windows.
+Sparkflows can be installed to run independenly on Windows.
 
 
-Installation Steps of Fire Insights with H2 DB
+Installation Steps of Sparkflows with H2 DB
 ----------------------------------------------
 
 * Download the fire tgz file from:
@@ -164,14 +164,14 @@ Installation Steps of Fire Insights with H2 DB
 
     
     
-.. note::  Two user accounts come preconfigured with Fire Insights.
+.. note::  Two user accounts come preconfigured with Sparkflows.
 
            * admin/admin
            * test/test
     
     You may change these usernames and passwords in Fire under the menu Administration/Users 
 
-Stopping Fire Insights
+Stopping Sparkflows
 =================
 
 Stopping the Fire Server
@@ -190,7 +190,7 @@ Stop Fire helper processes with the below::
     .\run-fire.bat stop
 
 
-.. note::  On Windows, the PySpark engine will not get installed. Below are he functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Fire Insights on Linux
+.. note::  On Windows, the PySpark engine will not get installed. Below are he functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux
 
            * AutoML
            * Prophet

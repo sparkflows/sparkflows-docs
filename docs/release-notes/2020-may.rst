@@ -4,7 +4,7 @@ Version 3.1.14 - May 31st, 2020
 New Features
 ------------
 
-- Added viewing of Fire Insights logs under Administration Menu
+- Added viewing of Sparkflows logs under Administration Menu
 - Added more details to Data Profiling
 - Added file upload and delete capabilities in DBFS browser
 - Added ability to create datasets for data on AWS S3.

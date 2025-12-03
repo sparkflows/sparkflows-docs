@@ -2,7 +2,7 @@ Excel
 ===========
 
 
-Excel Processors in Fire Insights
+Excel Processors in Sparkflows
 ----
 
 .. list-table::
@@ -20,7 +20,7 @@ Excel Processors in Fire Insights
 
 Read Excel Advanced
 ----
-Below is a sample workflow that contains the Read Excel Advanced processor in Fire Insights. It demonstrates how the node reads Excel files with support for **sheets**, **ranges**, **schema inference**, and **advanced options**.
+Below is a sample workflow that contains the Read Excel Advanced processor in Sparkflows. It demonstrates how the node reads Excel files with support for **sheets**, **ranges**, **schema inference**, and **advanced options**.
 
 The workflow performs the following operations:
 
@@ -92,7 +92,7 @@ Save Excel Advanced
 ----
 This node saves the incoming dataset as Excel File.
 
-Below is a sample workflow which contains the Save Excel Advanced processor in Fire Insights. It demonstrates the usage of the Save Excel Advanced node to save incoming dataset in Excel format.
+Below is a sample workflow which contains the Save Excel Advanced processor in Sparkflows. It demonstrates the usage of the Save Excel Advanced node to save incoming dataset in Excel format.
 
 It does the following processing of data:
 
@@ -136,7 +136,7 @@ Read Excel
 ----
 This node creates a dataset from an Excel file.
 
-Below is a sample workflow which contains the Read Excel processor in Fire Insights. It demonstrates the usage of Read Excel node to create a dataset from an excel file.
+Below is a sample workflow which contains the Read Excel processor in Sparkflows. It demonstrates the usage of Read Excel node to create a dataset from an excel file.
 
 It does the following processing of data:
 

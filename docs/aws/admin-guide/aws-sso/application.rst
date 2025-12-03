@@ -1,9 +1,9 @@
 Application
 =======
 
-Since, you have successfully configured both the AWS SSO and Okta in the previous steps so now, you can configure single sign-on (SSO) access to Fire Insights applications as it supports identity federation with SAML 2.0.
+Since, you have successfully configured both the AWS SSO and Okta in the previous steps so now, you can configure single sign-on (SSO) access to Sparkflows applications as it supports identity federation with SAML 2.0.
 
-This document guides you through the process of configuring single sign-on (SSO) access to Fire Insights applications using AWS SSO and Okta. Below are the steps involved in it:
+This document guides you through the process of configuring single sign-on (SSO) access to Sparkflows applications using AWS SSO and Okta. Below are the steps involved in it:
 
 Step 1 : Login to Aws Console
 ------------------------

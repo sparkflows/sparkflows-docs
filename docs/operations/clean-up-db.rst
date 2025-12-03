@@ -11,7 +11,7 @@ You can manually clean up past workflow and pipeline executions on demand by fol
 **Step 1 : Accessing the Database Cleanup Page**
 -------------------------------------------------
 
-* Login to **Fire Insights**. 
+* Login to **Sparkflows**. 
 * From the Dashboard, navigate to **Administration -> Cleanup Data**, as shown below.
 
   .. figure:: ../_assets/DB_cleanup/data-cleanup/administration-cleanup.PNG
@@ -70,7 +70,7 @@ You can enable automated database cleanup by configuring specific settings. Foll
 **Step 1 : Enabling Automation of Database Cleanup**
 --------------------------------------------------------
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * From the Dashboard, navigate to **Administration -> Configurations**.
 * Set the following property and click on **Save Configurations** button, as shown below. 
   :: 

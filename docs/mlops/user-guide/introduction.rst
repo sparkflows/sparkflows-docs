@@ -36,7 +36,7 @@ Sparkflows provides an intuitive interface to manage all models—whether traine
 
 **Step 1 : Accessing the ML Models Page**
 ++++++++++++++++++++++++++++++++++++++++++++++
-* Login to Fire Insights with your credentials.
+* Login to Sparkflows with your credentials.
 * Navigate to the **Models** menu and choose **All Models** from the dropdown to view the list of available models, as shown below:
 
   .. figure:: ../../_assets/mlops/models-menu.png

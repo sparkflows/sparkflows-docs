@@ -49,11 +49,11 @@ Create Python virtual environment & Activate it::
 Install required Packages
 -------------------------
 
-Install the required python packages for Fire Insights::
+Install the required python packages for Sparkflows::
 
   pip install -r fire-x.y.x/dist/fire/requirements.txt
    
-``requirements.txt`` file is available in the installation directory of Fire Insights.
+``requirements.txt`` file is available in the installation directory of Sparkflows.
 
 Restart the Fire Server to start the Python engine
 ---------------------------------------------------

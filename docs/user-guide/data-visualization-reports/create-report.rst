@@ -5,12 +5,12 @@ Follow the steps below to create a new report:
 Step 1 : Start Creating a Report
 ------
   
-* Login to **Fire Insights** and navigate to **Projects**.
+* Login to **Sparkflows** and navigate to **Projects**.
 * Now **select a project** for which you want to create a report.
 * From the Reports List page, click on **Create Report** button located at the right corner, as shown below.
 
   .. figure:: ../../_assets/user-guide/reports/reports-tab-create-report.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65% 
 
 
@@ -23,7 +23,7 @@ Step 2 : Choose the Report Type
 
   
   .. figure:: ../../_assets/user-guide/reports/report-options.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65% 
 
 
@@ -37,7 +37,7 @@ Step 3 : Add or Delete Processors in the Report Canvas
 * After choosing report type, you will be taken to the **Create Report page**, as shown below.
 
   .. figure:: ../../_assets/user-guide/reports/create-report-page.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65% 
 
 
@@ -48,7 +48,7 @@ Step 3 : Add or Delete Processors in the Report Canvas
 
   
     .. figure:: ../../_assets/user-guide/reports/add-workflows.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65% 
 
 
@@ -75,7 +75,7 @@ Step 4 : Save the Report
 
 **Watch a Tutorial**
 
-For a detailed walkthrough, watch the tutorial video on `Creating a Report in Fire Insights. <https://www.youtube.com/watch?v=lWWRPKxMf7Q&t=10s>`_
+For a detailed walkthrough, watch the tutorial video on `Creating a Report in Sparkflows. <https://www.youtube.com/watch?v=lWWRPKxMf7Q&t=10s>`_
 
 
 

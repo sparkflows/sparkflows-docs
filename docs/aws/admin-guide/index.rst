@@ -7,13 +7,13 @@ AWS Admin Guide
     
     :doc:`/aws/admin-guide/planning`
 
-    Describes details to help you plan on deploying and using Fire Insights on AWS.
+    Describes details to help you plan on deploying and using Sparkflows on AWS.
 
     ---
 
     :doc:`/aws/admin-guide/infrastructure-aws`
 
-    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on AWS.
+    Describes details of infrastructure pre-requisites needed to deploy Sparkflows on AWS.
 
     ---
 
@@ -81,13 +81,13 @@ AWS Admin Guide
 
     :doc:`/aws/admin-guide/test`
     
-    Testing and Troublshooting Fire Insights AWS connectivity.
+    Testing and Troublshooting Sparkflows AWS connectivity.
 
     ---
 
     :doc:`/aws/admin-guide/aws-sso/index`
     
-    Fire Insights integration with SSO.
+    Sparkflows integration with SSO.
 
     ---
 

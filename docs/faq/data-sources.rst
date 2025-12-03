@@ -4,7 +4,7 @@ Data Sources
 What kinds of Data Sources are supported?
 =============
  
-Fire Insights supports reading data from a variety of Data Sources. These include:
+Sparkflows supports reading data from a variety of Data Sources. These include:
 
   * MySQL
   * HIVE
@@ -20,7 +20,7 @@ Fire Insights supports reading data from a variety of Data Sources. These includ
  Which File Formats are supported?
  =====
  
- Fire Insights supports reading a number of File Formats. These include:
+ Sparkflows supports reading a number of File Formats. These include:
  
    * CSV
    * TSV

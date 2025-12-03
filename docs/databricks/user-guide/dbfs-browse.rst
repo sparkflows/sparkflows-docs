@@ -1,7 +1,7 @@
 Upload and View files on DBFS
 ============
 
-Fire Insights enables you to browse your DBFS, Upload & Delete files and directories in DBFS.
+Sparkflows enables you to browse your DBFS, Upload & Delete files and directories in DBFS.
 
 This document explains the steps required to browse, upload and delete files or directories in DBFS.
 

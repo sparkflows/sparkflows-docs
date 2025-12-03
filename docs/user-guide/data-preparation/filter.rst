@@ -1,9 +1,9 @@
 Filtering
 =========
 
-Fire Insights provides processors for filtering columns and rows.
+Sparkflows provides processors for filtering columns and rows.
 
-Filtering Processors in Fire Insights
+Filtering Processors in Sparkflows
 ----------------------------------------
 
 
@@ -43,7 +43,7 @@ Watch tutorial videos at Sparkflows YouTube channel. Find the links below.
 Select Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Select Columns processor in Fire Insights. It demonstrates the usage of Select Columns node to create outgoing dataset from columns selected from the incoming dataset.
+Below is a sample workflow which contains Select Columns processor in Sparkflows. It demonstrates the usage of Select Columns node to create outgoing dataset from columns selected from the incoming dataset.
 
 It does following processing of data:
 
@@ -84,7 +84,7 @@ Output of Select Columns node displaying selected columns from incoming dataset.
 Drop Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Drop Columns processor in Fire Insights. It demonstrates the usage of Drop Columns node to facilitate dropping of selected columns from the outgoing dataset.
+Below is a sample workflow which contains Drop Columns processor in Sparkflows. It demonstrates the usage of Drop Columns node to facilitate dropping of selected columns from the outgoing dataset.
 
 It does the following processing of data:
 
@@ -125,7 +125,7 @@ Output of Drop Columns node displaying remainig columns from incoming dataset.
 Filter By Date Range
 ----------------------------------------
 
-Below is a sample workflow which contains Filter By Date Range processor in Fire Insights. It demonstrates the usage of Filter By Date Range node to filter incoming dataset based on a given date range. Data of a column, as per selection, is compared against the date range to filter rows.
+Below is a sample workflow which contains Filter By Date Range processor in Sparkflows. It demonstrates the usage of Filter By Date Range node to filter incoming dataset based on a given date range. Data of a column, as per selection, is compared against the date range to filter rows.
 
 It does the following processing of data:
 
@@ -168,7 +168,7 @@ Output of Filter By Date Range node displaying rows in which selected column's d
 Filter By String Length
 ----------------------------------------
 
-Below is a sample workflow which contains Filter By String Length processor in Fire Insights. It demonstrates the usage of Filter By String Length node to filter incoming dataset based on length of a column's data. Data length of a column, as per selection, is compared against the range defined to filter rows.
+Below is a sample workflow which contains Filter By String Length processor in Sparkflows. It demonstrates the usage of Filter By String Length node to filter incoming dataset based on length of a column's data. Data length of a column, as per selection, is compared against the range defined to filter rows.
 
 It does the following processing of data:
 
@@ -210,7 +210,7 @@ Output of ``Filter By String Length`` node displaying rows in which data length 
 Filter By Number Range
 ----------------------------------------
 
-Below is a sample workflow which contains Filter By Number Range processor in Fire Insights. It demonstrates the usage of Filter By Number Range node to filter incoming dataset based on a column's data falling within a given range. Data value of a column, as per selection, is compared against the range defined to filter rows.
+Below is a sample workflow which contains Filter By Number Range processor in Sparkflows. It demonstrates the usage of Filter By Number Range node to filter incoming dataset based on a column's data falling within a given range. Data value of a column, as per selection, is compared against the range defined to filter rows.
 
 It does the following processing of data:
 
@@ -252,7 +252,7 @@ Output of Filter By Number Range node displaying rows in which data value of the
 Row Filter
 ----------------------------------------
 
-Below is a sample workflow which contains Row Filter processor in Fire Insights. It demonstrates the usage of Row Filter node to filter incoming dataset based on specified condition.
+Below is a sample workflow which contains Row Filter processor in Sparkflows. It demonstrates the usage of Row Filter node to filter incoming dataset based on specified condition.
 
 It does the following processing of data:
 
@@ -293,7 +293,7 @@ Output of Row Filter node displaying rows that meet the condition specified in t
 Row Filter By Index
 ----------------------------------------
 
-Below is a sample workflow which contains Row Filter By Index processor in Fire Insights. It demonstrates the usage of Row Filter By Index node to filter rows based on Row Index Numbers or Row Index Range within the incoming dataset.
+Below is a sample workflow which contains Row Filter By Index processor in Sparkflows. It demonstrates the usage of Row Filter By Index node to filter rows based on Row Index Numbers or Row Index Range within the incoming dataset.
 
 It does the following processing of data:
 

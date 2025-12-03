@@ -4,7 +4,7 @@ Version 3.1.24 - December, 2021
 Datasets
 +++++++
 
-Fire Insights enables you to delete multiple Datasets.
+Sparkflows enables you to delete multiple Datasets.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_dataset.PNG
    :alt: Pyspark code generate
@@ -13,13 +13,13 @@ Fire Insights enables you to delete multiple Datasets.
 DBFS
 +++++++
 
-Fire Insights enables you to delete multiple files.
+Sparkflows enables you to delete multiple files.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_file.PNG
    :alt: Pyspark code generate
    :width: 70%
 
-Fire Insights enables you to delete multiple folders.
+Sparkflows enables you to delete multiple folders.
 
 .. figure:: ..//_assets/releases/dec-2021/multiple_folder.PNG
    :alt: Pyspark code generate
@@ -37,7 +37,7 @@ UI upgrades for Pipeline Editor
 Analytics Application
 +++++++++++++++
 
-Fire Insights enables you to Import Analytics Application with Databricks Notebook Path.
+Sparkflows enables you to Import Analytics Application with Databricks Notebook Path.
 
 
 .. figure:: ..//_assets/releases/dec-2021/import_databricks.PNG

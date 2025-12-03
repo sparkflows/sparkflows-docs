@@ -1,14 +1,14 @@
 Import Applications
 ===============
 
-Fire Insights enables you to import Applications as JSON files. These JSON files can be exported to use in another instance of Fire Insights.
+Sparkflows enables you to import Applications as JSON files. These JSON files can be exported to use in another instance of Sparkflows.
 
 Below are the steps for importing Applications.
 
 Steps for Importing Applications
 -------
 
-1. You can Login to Fire Insights web server URL and follow below steps:
+1. You can Login to Sparkflows web server URL and follow below steps:
 
      * Go to the Project List page.
      * Select the project to import Applications to. 
@@ -57,4 +57,4 @@ Import Applications Configuration
       :alt: userguide
       :width: 70%   
      
-.. note:: Make sure that data pointed to the Application JSON File should be available on new instance of Fire Insights where you are Importing.
+.. note:: Make sure that data pointed to the Application JSON File should be available on new instance of Sparkflows where you are Importing.

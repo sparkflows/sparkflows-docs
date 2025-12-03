@@ -1,6 +1,6 @@
 Overview
 ======
-Dashboards in Fire Insights serve as a **centralized hub** for data visualization, performance tracking, and decision-making. Designed for both technical and non-technical users, dashboards provide an **intuitive and interactive** way to view, explore, and analyze data in real time.
+Dashboards in Sparkflows serve as a **centralized hub** for data visualization, performance tracking, and decision-making. Designed for both technical and non-technical users, dashboards provide an **intuitive and interactive** way to view, explore, and analyze data in real time.
 
 With a variety of visualization components—such as **charts, graphs, tables, and key performance indicators (KPIs)**—users can monitor essential **business metrics** at a glance. Dashboards support customizable layouts, allowing teams to tailor views to meet specific business or project needs.
 

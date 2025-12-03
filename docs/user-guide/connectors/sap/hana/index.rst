@@ -1,7 +1,7 @@
 HANA
 ==========
 
-Fire Insights enables you to read from and write to SAP HANA through **HANA JDBC Driver** and **OData Processor**.
+Sparkflows enables you to read from and write to SAP HANA through **HANA JDBC Driver** and **OData Processor**.
 
 
 .. panels::

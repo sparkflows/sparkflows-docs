@@ -1,7 +1,7 @@
 Explore Snowflake Tables/Views
 ===========================
 
-Fire Insights allows you to browse your Snowflake databases, schemas, tables and views. 
+Sparkflows allows you to browse your Snowflake databases, schemas, tables and views. 
 
 Follow the steps below:
 
@@ -48,4 +48,4 @@ Step 4 : Execute SQL Query
       :alt: Snowflake
       :width: 70%
    
-This will allow you to explore your Snowflake databases, schemas, and view the content of tables or views within Fire Insights.
+This will allow you to explore your Snowflake databases, schemas, and view the content of tables or views within Sparkflows.

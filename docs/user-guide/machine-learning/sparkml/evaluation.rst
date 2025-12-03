@@ -10,13 +10,13 @@ Machine learning models ought to be able to give accurate predictions in order t
 
 While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning pipeline. We need to know whether it actually works and, consequently, if we can trust its predictions. Could the model be merely memorizing the data it is fed with, and therefore unable to make good predictions on future samples, or samples that it hasn’t seen before?
 
-Model Evaluation Processors in Fire Insights
+Model Evaluation Processors in Sparkflows
 ----------------------------------------
 
-Below are the Apache Spark ML based Model Evaluation Processors in Fire Insights.
+Below are the Apache Spark ML based Model Evaluation Processors in Sparkflows.
 
 
-.. list-table:: Apache Spark based Evaluation Processors in Fire Insights
+.. list-table:: Apache Spark based Evaluation Processors in Sparkflows
    :widths: 50 50
    :header-rows: 1
 

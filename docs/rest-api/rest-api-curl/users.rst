@@ -6,9 +6,9 @@ Overview
 
 The User REST APIs allow you to get all the information about user and perform create,delete operations too.
 
-Below are the various User APIs available in Fire Insights.
+Below are the various User APIs available in Sparkflows.
 
-They should be executed after you have logged into Fire Insights.
+They should be executed after you have logged into Sparkflows.
 
 Get List of Users
 -----------------------------------

@@ -87,18 +87,18 @@ Verify with the below:
 
 .. Note:: fire-ui is the main webserver process.
 
-7. Fire Insights Ports Check
+7. Sparkflows Ports Check
 --------------
 
 **Problem**
 ++++
-Uncertain about the ports on which Fire Insights is running.
+Uncertain about the ports on which Sparkflows is running.
 
 **Solution**
 ++++
 Check the configured ports.
 
-.. note:: By default Fire Insights listens on 2 ports : 8080 and 8443.
+.. note:: By default Sparkflows listens on 2 ports : 8080 and 8443.
 
 8. SparkPi Cluster Verification
 ----------

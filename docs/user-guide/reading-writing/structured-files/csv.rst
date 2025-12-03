@@ -1,12 +1,12 @@
 CSV
 ======
-This document provides a guide for the Read CSV and Save CSV nodes in Fire Insights, explaining their configuration, functionality, and usage in workflows.
+This document provides a guide for the Read CSV and Save CSV nodes in Sparkflows, explaining their configuration, functionality, and usage in workflows.
 
 Read CSV
 ------------
 This node reads CSV Files.
 
-Below is a sample workflow which contains the Read CSV processor in Fire Insights. It demonstrates the usage of Read CSV File node to read a CSV file.
+Below is a sample workflow which contains the Read CSV processor in Sparkflows. It demonstrates the usage of Read CSV File node to read a CSV file.
 
  .. figure:: ../../../_assets/user-guide/read-write/read-structured/CSV_WF_1.png
     :alt: readcsv_node_userguide
@@ -75,7 +75,7 @@ Save CSV
 ----------------------------------------
 This node saves the incoming dataset as CSV File.
 
-Below is a sample workflow which contains the Save CSV processor in Fire Insights. It demonstrates the usage of Save CSV node to save the incoming dataset in CSV format.
+Below is a sample workflow which contains the Save CSV processor in Sparkflows. It demonstrates the usage of Save CSV node to save the incoming dataset in CSV format.
 
  .. figure:: ../../../_assets/user-guide/read-write/save-files/save-csv-wf.png
     :alt: savefiles_userguide

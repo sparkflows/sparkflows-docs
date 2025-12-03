@@ -5,11 +5,11 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 
 More details regarding clustering can be found at: https://en.wikipedia.org/wiki/Cluster_analysis
 
-Clustering Processors in Fire Insights
+Clustering Processors in Sparkflows
 ----------------------------------------
 
 
-.. list-table:: Apache Spark based Clustering Processors in Fire Insights
+.. list-table:: Apache Spark based Clustering Processors in Sparkflows
    :widths: 30 70
    :header-rows: 1
 

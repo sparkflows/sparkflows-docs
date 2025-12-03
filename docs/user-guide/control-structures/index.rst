@@ -1,7 +1,7 @@
 Control Structures
 =============
 
-Fire Insights provides a number of processors for controlling the execution flow. These include Execute in Loop, Specify Parameters, Read Parameters.
+Sparkflows provides a number of processors for controlling the execution flow. These include Execute in Loop, Specify Parameters, Read Parameters.
 
 .. panels::
     :container: container-lg pb-3

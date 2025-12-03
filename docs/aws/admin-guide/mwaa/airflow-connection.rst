@@ -7,7 +7,7 @@ Sparkflows enables you to create **AWS MWAA Airflow Connection** and use it to s
   * **Group**   : Users belonging to the group have access to these connections.
   * **Project** : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This document outlines the steps to create an Airflow Connection in Fire Insights.
+This document outlines the steps to create an Airflow Connection in Sparkflows.
 
 Step 1 : Enable Airflow in Sparkflows
 =========================
@@ -64,7 +64,7 @@ For GENERAL tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Airflow sent result back to Fire Insights
+     - Postback Url through which Airflow sent result back to Sparkflows
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  
@@ -115,7 +115,7 @@ For AIRFLOW tab
    :alt: mwaa
    :width: 60%
 
-.. note:: Ensure that the Execution role attached to Amazon MWAA can be assumed by the ECS or EC2 instance role where the Fire Insights application is running. Attach the role to the ECS or EC2 instance to access the DAG location in S3 and upload the DAG. For example, **AmazonMWAA-sparkflows-air-4HboCJ** is the Execution role attached to Amazon MWAA, and **ecsTaskExecutionRole** is the role used by ECS Execution. You need to update the **Trust relationship** for both roles to allow them to assume each other."
+.. note:: Ensure that the Execution role attached to Amazon MWAA can be assumed by the ECS or EC2 instance role where the Sparkflows application is running. Attach the role to the ECS or EC2 instance to access the DAG location in S3 and upload the DAG. For example, **AmazonMWAA-sparkflows-air-4HboCJ** is the Execution role attached to Amazon MWAA, and **ecsTaskExecutionRole** is the role used by ECS Execution. You need to update the **Trust relationship** for both roles to allow them to assume each other."
 
 **Trust relationship** for **AmazonMWAA-sparkflows-air-4HboCJ** as below:
 

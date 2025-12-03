@@ -1,7 +1,7 @@
 MongoDB
 ==========
 
-Fire Insights has a set of processors that allows you to read and write data to MongoDB.
+Sparkflows has a set of processors that allows you to read and write data to MongoDB.
 
 Setting Up A Connection To MongoDB Database
 ---------------------------------------

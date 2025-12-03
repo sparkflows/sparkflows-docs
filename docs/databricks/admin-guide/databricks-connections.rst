@@ -88,8 +88,8 @@ Step 4 : Configure the Connection
         - Token
         - Add token generated from your Databricks workspace under User Settings → Access Tokens.
       * - POSTBACK URL
-        - Fire Insights Post Back URL
-        - Add Fire Insights Post Back URL
+        - Sparkflows Post Back URL
+        - Add Sparkflows Post Back URL
       * - TITLE 
         - Title for selected Connection
         - Add an unique Title
@@ -129,8 +129,8 @@ Step 4 : Configure the Connection
         - Select the Authentication Type
         - Select the appropriate option as ``OAUTH``
       * - POSTBACK URL
-        - Fire Insights Post Back URL
-        - Add Fire Insights Post Back URL
+        - Sparkflows Post Back URL
+        - Add Sparkflows Post Back URL
       * - Client ID 
         - Client ID for the connection
         - Enter Client ID for the connection.  Reference guide : `Azure Databricks via JDBC using OAuth Documentation. <https://docs.sparkflows.io/en/latest/azure/admin-guide/azure-databricks-via-jdbc.html>`_

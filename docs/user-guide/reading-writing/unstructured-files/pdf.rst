@@ -2,7 +2,7 @@ PDF
 =====
 This node reads the content of single PDF file or multiple PDF files from a directory.
 
-Below is a sample workflow which contains the PDF processor in Fire Insights. It demonstrates the usage of PDF node to read the content of PDF files from a given path.
+Below is a sample workflow which contains the PDF processor in Sparkflows. It demonstrates the usage of PDF node to read the content of PDF files from a given path.
 
 It does the following processing of data:
 

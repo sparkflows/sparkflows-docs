@@ -1,11 +1,11 @@
 TeraData Connection
 ================
 
-Fire Insights provides the capability to create a TeraData connection and use the connection to read from and write to TeraData. Below are the steps for creating a TeraData connection in Fire Insights:
+Sparkflows provides the capability to create a TeraData connection and use the connection to read from and write to TeraData. Below are the steps for creating a TeraData connection in Sparkflows:
 
   * Download TeraData JDBC Driver
   * Install the JDBC Driver
-  * Restart Fire Insights
+  * Restart Sparkflows
   * Create the TeraData Connection
 
 Download TeraData JDBC Driver
@@ -25,14 +25,14 @@ Restart Fire Server
 * Once you have copied the JDBC driver into the required folder, **restart** the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
   This will restart the Fire services **automatically**.
 
-* Else, you can wait for 60 minutes and the JDBC driver will be automatically registered with Fire Insights.
+* Else, you can wait for 60 minutes and the JDBC driver will be automatically registered with Sparkflows.
 
 Create the TeraData Connection
 -----
 
 You can ceate the TeraData Connection at **Global**, **Group** or **Project** level. Follow the steps below:
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Navigate to **Administration -> Global/Group Connections**.
 * From the Connections page, click on **Add Connection** button and choose connection level. An Add Connection dialog box will open.
 * Now select connection category as **Storage** and connection type as **TeraData**, as shown below.

@@ -5,7 +5,7 @@ Read JSON
 -------------
 This node reads JSON files.
 
-Below is a sample workflow which contains the Read JSON processor in Fire Insights. It demonstrates the usage of the Read JSON node to read a JSON file.
+Below is a sample workflow which contains the Read JSON processor in Sparkflows. It demonstrates the usage of the Read JSON node to read a JSON file.
 
 .. figure:: ../../../_assets/user-guide/read-write/read-structured/read-JSON-WF.png
    :alt: readjson_node_userguide
@@ -44,7 +44,7 @@ Save JSON
 ----------------------------------------
 This node saves the incoming dataset as JSON File.
 
-Below is a sample workflow which contains the Save JSON processor in Fire Insights. It demonstrates the usage of Save JSON node to save the incoming dataset in JSON format.
+Below is a sample workflow which contains the Save JSON processor in Sparkflows. It demonstrates the usage of Save JSON node to save the incoming dataset in JSON format.
 
 .. figure:: ../../../_assets/user-guide/read-write/save-files/save-json-wf.png
    :alt: savefiles_userguide

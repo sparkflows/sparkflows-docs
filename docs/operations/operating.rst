@@ -41,7 +41,7 @@ The admin user can view YARN applications if they are running on a Spark cluster
 Sample Projects
 +++++++++++++
 
-The admin user can reload sample projects, as Fire Insights, by default, comes with sample projects containing various types of workflows and datasets.
+The admin user can reload sample projects, as Sparkflows, by default, comes with sample projects containing various types of workflows and datasets.
 
 .. figure:: ../_assets/security/admin_user/admin_sample_project.PNG
    :alt: security

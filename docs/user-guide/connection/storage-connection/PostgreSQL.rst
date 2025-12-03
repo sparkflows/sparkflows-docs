@@ -1,11 +1,11 @@
 PostgreSQL Connection
 ================
 
-Fire Insights provides the capability to create "PostgreSQL connection" and use the connection for reading from and writing to PostgreSQL tables. Below are the steps for creating PostgreSQL connection in Fire Insights:
+Sparkflows provides the capability to create "PostgreSQL connection" and use the connection for reading from and writing to PostgreSQL tables. Below are the steps for creating PostgreSQL connection in Sparkflows:
 
   * Download PostgreSQL JDBC Driver
   * Install the JDBC Driver
-  * Restart Fire Insights
+  * Restart Sparkflows
   * Create the PostgreSQL Connection
 
 Download PostgreSQL JDBC Driver
@@ -27,7 +27,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Sparkflows.
 
 Create the PostgreSQL Connection
 -----

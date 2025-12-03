@@ -1,11 +1,11 @@
 Utilities
 ===========================
 
-Utilities set of processors provides capability in Fire Insights such as sending Email Notification, decrypt PGP encrypted files and so on.
+Utilities set of processors provides capability in Sparkflows such as sending Email Notification, decrypt PGP encrypted files and so on.
 
 
 
-Fire Insights provides the capability to perform the most complex data preparation operation via drag and drop.
+Sparkflows provides the capability to perform the most complex data preparation operation via drag and drop.
 
 .. panels::
     :container: container-lg pb-3

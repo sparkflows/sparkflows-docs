@@ -1,7 +1,7 @@
 Integration with MLflow
 =======================
 
-Fire Insights provides the integration with MLflow Model Registry.
+Sparkflows provides the integration with MLflow Model Registry.
 
 Visit the link given below to get more information on MLflow: 
 
@@ -44,10 +44,10 @@ Login to the above URL to reach the MLflow UI page as shown below:
 
 
 
-Integrating MLflow with Fire Insights
+Integrating MLflow with Sparkflows
 ------------------------------------
 
-In Fire Insights, processors in Python engine have integration with MLflow via the Mlflow API’s parameters, metrics, model among others. Fire Insights workflows will be registered as experiments in MLflow with their name and each execution will show up as a separate run in the MLflow experiments.
+In Sparkflows, processors in Python engine have integration with MLflow via the Mlflow API’s parameters, metrics, model among others. Sparkflows workflows will be registered as experiments in MLflow with their name and each execution will show up as a separate run in the MLflow experiments.
 
 
 Below is the sample workflow for regression to predict the house price with RidgeRegression Node.

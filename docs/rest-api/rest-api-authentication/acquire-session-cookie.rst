@@ -1,11 +1,11 @@
 Acquire Session Cookie using curl command
 ==================
 
-When invoking the REST APIs of Fire Insights with curl, the first step is to log in and save the incoming cookie into a text file. This file would then be used in making subsequent REST calls via curl.
+When invoking the REST APIs of Sparkflows with curl, the first step is to log in and save the incoming cookie into a text file. This file would then be used in making subsequent REST calls via curl.
 
 Save the incoming cookies using the ``-c`` option of the ``curl`` into a file.
 
-In the below example, the Fire Insights web server is running on local machine at: ``localhost:8080``
+In the below example, the Sparkflows web server is running on local machine at: ``localhost:8080``
 
 You can replace it with your machine name and port.
 

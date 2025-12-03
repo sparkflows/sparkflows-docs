@@ -1,7 +1,7 @@
 SAML Authentication with One Login
 ====================
 
-Fire Insights supports SAML Authentication.
+Sparkflows supports SAML Authentication.
 
 
 Configuring SAML

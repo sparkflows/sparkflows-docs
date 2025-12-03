@@ -23,7 +23,7 @@ Integration of H2O
 Improvements in UI 
 -------------------
 
-- Login Page of Fire Insights has been upgraded.
+- Login Page of Sparkflows has been upgraded.
 - Scatter Plot look and feel has been upgraded.
 
 Improvements to HDFS Browser
@@ -44,4 +44,4 @@ Added New Features
 Upgradation of Running Server on Ports
 --------------------------------------
 
-- Fire Insights now enable us to run Fire & Pspark server on different ports.
+- Sparkflows now enable us to run Fire & Pspark server on different ports.

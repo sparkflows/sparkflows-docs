@@ -1,7 +1,7 @@
 REST API Authentication
 ==========
 
-To authenticate and access Fire Insights REST APIs, you can use personal access tokens or passwords. We strongly recommend that you use tokens. Like passwords, tokens should be treated with care. Unlike passwords, tokens expire and can be revoked.
+To authenticate and access Sparkflows REST APIs, you can use personal access tokens or passwords. We strongly recommend that you use tokens. Like passwords, tokens should be treated with care. Unlike passwords, tokens expire and can be revoked.
 
 Tokens can be generated using Postman.
 

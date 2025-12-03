@@ -1,14 +1,14 @@
 Import Pipelines
 ==============
 
-Fire Insights enables you to import Pipelines as JSON files. These JSON files can be exported to use in another instance of Fire Insights. 
+Sparkflows enables you to import Pipelines as JSON files. These JSON files can be exported to use in another instance of Sparkflows. 
 
 Below are the steps for importing a Pipeline.
 
 Steps for Importing a Pipeline
 -------
 
-1. You can Login to Fire Insights Web server URL and follow the below steps:
+1. You can Login to Sparkflows Web server URL and follow the below steps:
 
      * Go to the Project List page.
      * Select the project to import Pipeline to. 
@@ -63,5 +63,5 @@ Import Pipelines Configuration
      :alt: userguide
      :width: 70%   
      
-.. note:: Make sure that data pointed to the Pipeline JSON File should be available on new instance of Fire Insights where you are importing.
+.. note:: Make sure that data pointed to the Pipeline JSON File should be available on new instance of Sparkflows where you are importing.
 

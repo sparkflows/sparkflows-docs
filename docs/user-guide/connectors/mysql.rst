@@ -1,7 +1,7 @@
 MySQL
 =====
 
-Fire Insights provides ReadJDBC and WriteJDBC processors for reading from and writing to MySQL.
+Sparkflows provides ReadJDBC and WriteJDBC processors for reading from and writing to MySQL.
 
 Below are the steps for it:
 

@@ -1,7 +1,7 @@
 Read JSON Files
 ==============
 
-Fire Insights enables users to Read JSON files.
+Sparkflows enables users to Read JSON files.
 
 Workflow
 --------

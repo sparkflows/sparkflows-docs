@@ -1,12 +1,12 @@
 DELTA
 ======
-This document provides an overview of the Read Delta and Save Delta nodes in Fire Insights, explaining their configurations and functionalities for reading from and writing to Delta Lake.
+This document provides an overview of the Read Delta and Save Delta nodes in Sparkflows, explaining their configurations and functionalities for reading from and writing to Delta Lake.
 
 Read Delta
 ------------
 This node reads files from a Delta Lake.
 
-Below is a sample workflow which contains the Read Delta processor in Fire Insights. It demonstrates the usage of Read Delta node to read data from a Delta Lake.
+Below is a sample workflow which contains the Read Delta processor in Sparkflows. It demonstrates the usage of Read Delta node to read data from a Delta Lake.
 
   .. figure:: ../../../_assets/user-guide/read-write/read-delta/read-delta-wf-1.png
      :alt: read-delta-wf
@@ -72,7 +72,7 @@ Save Delta
 ----------------------------------------
 This node saves the incoming dataset to a Delta Lake location in Delta format.
 
-Below is a sample workflow which contains the Save Delta processor in Fire Insights. It demonstrates the usage of Save Delta node to save the incoming dataset to a Delta Lake in Delta format.
+Below is a sample workflow which contains the Save Delta processor in Sparkflows. It demonstrates the usage of Save Delta node to save the incoming dataset to a Delta Lake in Delta format.
 
  .. figure:: ../../../_assets/user-guide/read-write/Save-Delta/save-delta-workflow-1.png
     :alt: save-delta-lake

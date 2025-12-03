@@ -1,7 +1,7 @@
 S3 Integration EMR
 ==========
 
-Fire Insights allows you to access your files on S3. This page describes S3 integration when Fire Insights running with EMR.
+Sparkflows allows you to access your files on S3. This page describes S3 integration when Sparkflows running with EMR.
 
 AWS Roles
 ---------

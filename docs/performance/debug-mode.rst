@@ -1,7 +1,7 @@
 Debug Mode
 ----------
 
-Fire Insights allows you to run the workflow in Debug mode.
+Sparkflows allows you to run the workflow in Debug mode.
 
 In the debug mode a count is performed on the output from each Processor. This helps to know which Processor is exactly taking more time.
 

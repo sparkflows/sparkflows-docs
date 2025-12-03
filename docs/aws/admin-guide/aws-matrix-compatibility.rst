@@ -70,7 +70,7 @@ Spark, Databricks, Java and Python Support Compatibility Matrix
 
 Matrix Compatibility
 ++++
-Ensure that you have the following AWS specifications while Integrating with Fire Insights :
+Ensure that you have the following AWS specifications while Integrating with Sparkflows :
 
 .. list-table:: 
    :widths: 20 10 40

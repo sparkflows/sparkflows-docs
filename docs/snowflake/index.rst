@@ -2,17 +2,17 @@
 Snowflake Guide
 =========
 
-Fire Insights jobs can read from and write to Snowflake.
+Sparkflows jobs can read from and write to Snowflake.
 
 Data from Snowflake is read into a DataFrame. This DataFrame can be transformed and also joined with data read from other sources. Final result of DataFrame can be written back to Snowflake.
 
-Fire Insights also incorporates pushdown into Snowflake. The various nodes of the workflow push down processing into Snowflake. Hence, it is entirely possible that the whole processing happens in Snowflake.
+Sparkflows also incorporates pushdown into Snowflake. The various nodes of the workflow push down processing into Snowflake. Hence, it is entirely possible that the whole processing happens in Snowflake.
 
 
 Snowflake Spark Connector
 ---------------
 
-Fire Insights uses the Snowflake Spark connector for reading from and writing to Snowflake.
+Sparkflows uses the Snowflake Spark connector for reading from and writing to Snowflake.
 
 For more details, read `Snowflake Documentation. <https://docs.snowflake.com/en/user-guide/spark-connector.html>`_
 

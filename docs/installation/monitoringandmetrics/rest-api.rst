@@ -1,7 +1,7 @@
 Swagger REST APIs
 =========
 
-Fire Insights enables you to use **Swagger REST APIs**. It can be accessible only when the admin provides the privilege to access it.
+Sparkflows enables you to use **Swagger REST APIs**. It can be accessible only when the admin provides the privilege to access it.
 
 This document outlines the steps to enable Swagger for REST APIs.
 
@@ -17,12 +17,12 @@ Step 1 : Enable Swagger in application.properties
 
        swagger.enable=true
     
-#. After updating the **application.properties**, restart the Fire Insights server.
+#. After updating the **application.properties**, restart the Sparkflows server.
 
 Step 2 : Enable Swagger from the Configurations Page
 +++++++++++++++++++++++++++++
 
-#. **Login** to Fire Insights using your **Credentials**.
+#. **Login** to Sparkflows using your **Credentials**.
 #. Navigate to **Administration -> Configurations -> UI Settings**.
 #. Find the **uiSettings.enableSwagger** setting and set its value to **true**. 
 
@@ -45,5 +45,5 @@ Once Swagger is enabled and the server is running, you can access the Swagger RE
    :width: 60% 
 
     
-.. note::  Make sure to change the localhost with respective IP or domain name and the port on which the Fire Insights is running.    
+.. note::  Make sure to change the localhost with respective IP or domain name and the port on which the Sparkflows is running.    
 

@@ -61,4 +61,4 @@ For Iframe add below
  c.JupyterHub.tornado_settings = { 'headers': { 'Content-Security-Policy': "frame-ancestors * self http://127.0.0.1:8080"} }
 
 
-.. Note:: Make sure to update ``http://127.0.0.1:8080`` with Fire Insights URL and Token Configured should have sufficient privilege
+.. Note:: Make sure to update ``http://127.0.0.1:8080`` with Sparkflows URL and Token Configured should have sufficient privilege

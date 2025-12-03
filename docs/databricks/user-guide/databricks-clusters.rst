@@ -1,13 +1,13 @@
 View Databricks Clusters
 ====================
 
-Fire Insights enables you to view your Databricks Clusters. You can also Start or Restart the Databricks clusters from Fire Insights.
+Sparkflows enables you to view your Databricks Clusters. You can also Start or Restart the Databricks clusters from Sparkflows.
 
 This document explains in detail the steps required to view Databricks clusters.
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 ----------------------
-#. Open Fire Insights Login Page.
+#. Open Sparkflows Login Page.
 #. Enter your credentials and click **Sign in**. You will reach the dashboard.
 
 Step 2 : Go to Databricks Clusters Page
@@ -39,7 +39,7 @@ Step 3 : Access Cluster Details
 Step 4 : Manage Clusters
 --------------
 
-#. From Fire Insights, you can **start or restart** Databricks clusters using the options listed under **Actions** Column on Databricks Clusters Page.
+#. From Sparkflows, you can **start or restart** Databricks clusters using the options listed under **Actions** Column on Databricks Clusters Page.
 
    .. figure:: ../../_assets/configuration/view-db-cluster/db-cluster-page.png
       :alt: Databricks

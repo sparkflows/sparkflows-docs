@@ -1,7 +1,7 @@
 HDInsight Integration
 ==========================
 
-Fire Insights runs seamlessly on Azure HDInsight. Fire can be installed on the master or edge nodes of the cluster.
+Sparkflows runs seamlessly on Azure HDInsight. Fire can be installed on the master or edge nodes of the cluster.
 
 HDInsights and Ports
 --------------------
@@ -20,9 +20,9 @@ https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-extend-hadoop-virtual
 Port Configuration
 ------------------
 
-Fire Insights, by default, listens on ports 8080 and 8443.
+Sparkflows, by default, listens on ports 8080 and 8443.
 
-On HDInsight, port 8080 generally is already in use. So, configure Fire Insights to listen on another port, e.g., 8090.
+On HDInsight, port 8080 generally is already in use. So, configure Sparkflows to listen on another port, e.g., 8090.
 
 Edit conf/application.properties::
 
@@ -52,10 +52,10 @@ Suppose Fire is installed as the user ``fire``. Add the below to HDFS/Configurat
     hadoop.proxyuser.fire.hosts=*
 
 
-Connecting Fire Insights to the HDInsight Cluster
+Connecting Sparkflows to the HDInsight Cluster
 ----------------------------
 
-In Fire Insights, under Administration/Configuration, configure the following for it to be able to connect to the HDInsight cluster:
+In Sparkflows, under Administration/Configuration, configure the following for it to be able to connect to the HDInsight cluster:
 
 * hdfs.namenodeURI=wasb://
 * app.runOnCluster=true

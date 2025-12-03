@@ -1,12 +1,12 @@
 Version 3.1.28 -  June, 2022
 ========
 
-These features and Fire Insights platform improvements were released in June 2022.
+These features and Sparkflows platform improvements were released in June 2022.
 
 AutoML Upgrades
 --------
 
-Fire Insights enables you to add Favourite auto-ml Execution Experiment from number of executions run with different parameters.
+Sparkflows enables you to add Favourite auto-ml Execution Experiment from number of executions run with different parameters.
 
 .. figure:: ..//_assets/releases/june-2022/automl_exp.PNG
    :alt: auto-ml
@@ -15,7 +15,7 @@ Fire Insights enables you to add Favourite auto-ml Execution Experiment from num
 Pipeline Airflow Upgrades
 ------------
 
-Fire Insights now have support for airflow with 2.x, it comes with different operators, once dag submitted from UI can be verify from Airflow.
+Sparkflows now have support for airflow with 2.x, it comes with different operators, once dag submitted from UI can be verify from Airflow.
 
 .. figure:: ..//_assets/releases/june-2022/pipeline_node.PNG
    :alt: auto-ml
@@ -29,7 +29,7 @@ Fire Insights now have support for airflow with 2.x, it comes with different ope
 Permission upgrades
 ---------------
 
-Fire Insights enable to update User roles and Permission changes, Sharing of project to group, Changes in project-overview dashboard as per needed permission.
+Sparkflows enable to update User roles and Permission changes, Sharing of project to group, Changes in project-overview dashboard as per needed permission.
 
 .. figure:: ..//_assets/releases/june-2022/permission.PNG
    :alt: auto-ml

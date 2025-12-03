@@ -1,7 +1,7 @@
 Model Serving
 =============
 
-Fire Insights allows you to save your models. These models can be saved to:
+Sparkflows allows you to save your models. These models can be saved to:
 
 - **HDFS :** When running on a Hadoop Cluster.
 - **S3 :** When running on AWS.

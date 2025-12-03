@@ -30,10 +30,10 @@ View workflow and output results together
 - Ability to view the workflow and the output results together
 - Users can click on any node to view it output
 
-Ability to Run Fire Insights Jobs Independently
+Ability to Run Sparkflows Jobs Independently
 --------
 
-- Ability to Run the Fire Insights Jobs without having Fire Insights installed
+- Ability to Run the Sparkflows Jobs without having Sparkflows installed
 
 New Nodes Added
 ---------

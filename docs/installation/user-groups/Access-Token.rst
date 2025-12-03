@@ -1,7 +1,7 @@
 Access Tokens
 =============
 
-Access tokens are used to authenticate and authorize users for various operations within Fire Insights.
+Access tokens are used to authenticate and authorize users for various operations within Sparkflows.
 
  .. figure:: ../../_assets/security/Access-Tokens.png
     :alt: security

@@ -5,7 +5,7 @@ It demonstrates to predict "the number of farmer's markets in a given zip codeâ€
 
 DataBricks has published a clean approach to build this use case. It features a Python notebook that demonstrates how to create ML Pipeline to preprocess a dataset, train a Machine Learning model and make predictions.
 
-Using Fire Insights Visual Designer, you can try to execute this approach visually and declaratively. This note speaks to that.
+Using Sparkflows Visual Designer, you can try to execute this approach visually and declaratively. This note speaks to that.
 
 As the DataBricks link highlights:
 
@@ -20,9 +20,9 @@ As the DataBricks link highlights:
    - Dividends before exclusion.
    - Interest received.
 
-Below is an overview of the workflow that you can create using the Fire Insights Visual Designer.
+Below is an overview of the workflow that you can create using the Sparkflows Visual Designer.
 
-This workflow was simply created via the drag and drop capabilities of the Fire Insights Designer UI. The ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. The benefits include:
+This workflow was simply created via the drag and drop capabilities of the Sparkflows Designer UI. The ability to construct this data processing pipeline (or any DAG - Distributed Acyclic Graph, for that matter) in a WYSIWYG Plug-and-Play manner is a key innovation to continue our community's collective march to on-demand-instant-analytics. The benefits include:
 
 - It opens up the power of ETL and ML (such pre-packaged functionality is available as a catalog of "Nodes") to a wider audience of analysts and semi-technical resources.
 - The actual execution can either be local (testing) or can be submitted to a Apache Spark cluster.

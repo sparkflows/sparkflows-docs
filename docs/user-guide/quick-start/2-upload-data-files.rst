@@ -9,7 +9,7 @@ The steps involved in uploading the data files are:
 #. Choose and Upload the Files.
 #. View the Uploaded Files.
 
-This document explains in detail the steps required to upload data files in Fire Insights.
+This document explains in detail the steps required to upload data files in Sparkflows.
 
 Step 1 : Go to the File System Page 
 -----------
@@ -43,4 +43,4 @@ Step 3 : View the Uploaded Files
     :alt: Quickstart
     :width: 65%
 
-To use CSV files in the workflow, Fire Insights also allows you to wrap them in datasets. In the next step, you will create datasets from the files you have just uploaded.   
+To use CSV files in the workflow, Sparkflows also allows you to wrap them in datasets. In the next step, you will create datasets from the files you have just uploaded.   

@@ -1,7 +1,7 @@
 Execute In Loop
 =================
 
-Fire Insights has the below processor for Distinct Values in Loop.
+Sparkflows has the below processor for Distinct Values in Loop.
 
 Below are the parameters that can be used in the 'Execute In Loop' processor:
 

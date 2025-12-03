@@ -1,7 +1,7 @@
 Write To GCS
 ============
 
-Fire Insights has processor to write data to GCS. This document explains detailed steps required to write data to GCS.
+Sparkflows has processor to write data to GCS. This document explains detailed steps required to write data to GCS.
 
 Follow the steps given below:
 

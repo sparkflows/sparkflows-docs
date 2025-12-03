@@ -7,12 +7,12 @@ Sparkflows enables you to create "Apache Livy Connection" and use it to submit j
   * **Group:** Users belonging to the group have access to these connections.
   * **Project:** The owner of the project and the groups with which the project has been shared will have access to the project level connections.
 
-Follow the steps below to create a "Livy Connection" in Fire Insights.
+Follow the steps below to create a "Livy Connection" in Sparkflows.
 
 Step 1 : Enable Livy in Sparkflows
 ===========
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Navigate to **Administration -> Configurations -> CONNECTION**.
 * Enable Livy connection by setting the **value** of below parameter to **true** and save the configuration.
 
@@ -66,7 +66,7 @@ For GENERAL Tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Livy sent result back to Fire Insights
+     - Postback Url through which Livy sent result back to Sparkflows
    * - Auth Type 
      - Auth Type 
      - Value can be None, Basic or OAUTH
@@ -286,4 +286,4 @@ Documentation
 
 Reference guide : https://docs.sparkflows.io/en/latest/aws/admin-guide/emr/index.html
 
-.. Note:: Make sure that Apache Livy URL should be accessible from Fire Insights webserver URL.
+.. Note:: Make sure that Apache Livy URL should be accessible from Sparkflows webserver URL.

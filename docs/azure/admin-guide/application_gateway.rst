@@ -1,14 +1,14 @@
 Application Gateways
 ========
 
-This document describes the steps for configuring Fire Insights running on a virtual machine with application gateways.
+This document describes the steps for configuring Sparkflows running on a virtual machine with application gateways.
 
 Step 1 : Login to Azure Portal
 -----------------
 #. Login to **Azure Dashboard**.
 #. Navigate to **Virtual Machine**.
 
-   Select Virtual Machine where Fire Insights application is running.
+   Select Virtual Machine where Sparkflows application is running.
 
 #. Navigate to **Load Balancing**.
 
@@ -52,10 +52,10 @@ Step 3 : Configure Application Gateway
       :width: 60%
       :alt: Basic Configuration
 
-Step 4 : Access Fire Insights Application using Application Gateway
+Step 4 : Access Sparkflows Application using Application Gateway
 -----------------
 
-Now, you can access Fire Insights application using **application gateway IP.**
+Now, you can access Sparkflows application using **application gateway IP.**
 
 ::
 

@@ -1,14 +1,14 @@
 Export Workflows
 ===============
 
-Fire Insights enables you to export workflows as JSON files. These JSON files can be imported into another instance of Fire Insights.
+Sparkflows enables you to export workflows as JSON files. These JSON files can be imported into another instance of Sparkflows.
 
 Below are the steps for exporting workflows.
 
 Steps for Exporting Workflow
 ------
 
-1. You can Login to Fire Insights Web server URL and follow the below steps:
+1. You can Login to Sparkflows Web server URL and follow the below steps:
 
      * Go to the Project List page.
      * Select the project that has the workflow you want to Export.
@@ -29,10 +29,10 @@ Steps for Exporting Workflow
       :alt: userguide
       :width: 70%  
   
-3. Once the workflow gets exported successfully, you will see the workflow JSON file in your local computer and same can be imported to other instance of Fire Insights. 
+3. Once the workflow gets exported successfully, you will see the workflow JSON file in your local computer and same can be imported to other instance of Sparkflows. 
 
    .. figure:: ../../_assets/user-guide/export-import/wf_exported.PNG
       :alt: userguide
       :width: 70% 
 
-.. note:: Make sure that data pointed to the workflow should be available on new instance of Fire Insights.
+.. note:: Make sure that data pointed to the workflow should be available on new instance of Sparkflows.

@@ -21,9 +21,9 @@ Our AI-powered Chat Assistant is designed to revolutionize customer interactions
 
 Steps for Using Our Chat Assistant Feature 
 -------------
-**Step 1 : Configuring Chatbot in Fire Insights**
+**Step 1 : Configuring Chatbot in Sparkflows**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Navigate to **Administration -> Configurations -> Module**.
 * To view the **chat tab** inside the project, the following configuration need to be enabled by setting its value to **true**, as shown below.
 

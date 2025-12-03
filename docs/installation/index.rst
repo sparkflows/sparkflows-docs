@@ -1,7 +1,7 @@
 Installation and Administration
 ===============================
 
-Fire Insights can be installed on the cloud, on-premise or even on your laptop. It seamlessly integrates with the most complex of enterprise environments.
+Sparkflows can be installed on the cloud, on-premise or even on your laptop. It seamlessly integrates with the most complex of enterprise environments.
 
 .. panels::
     :container: container-lg pb-3

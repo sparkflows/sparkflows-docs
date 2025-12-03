@@ -7,7 +7,7 @@ This document outlines the steps for setting up the connection to Cassandra Data
 Step 1 : Navigate to Connections
 ++++++++++++++++++++++++++++++++++++++++++
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 
 * From the Dashboard, navigate to **Administration -> Global/Group Connections -> Add Connection**, as shown below. (The connection can be setup at Global, Group or Project level.)
 

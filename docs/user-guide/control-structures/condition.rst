@@ -1,7 +1,7 @@
 Condition Function
 ==========
 
-Fire Insights provides the below processors for controlling execution flow based on conditions.
+Sparkflows provides the below processors for controlling execution flow based on conditions.
 
 
 .. list-table:: 
@@ -19,7 +19,7 @@ Fire Insights provides the below processors for controlling execution flow based
 Assert
 -------
 
-Below is a sample workflow that contains ``Assert`` processor in Fire Insights. It demonstrates the usage of ``Assert`` node to evaluate an expression which is based on a runtime variable and executes output node based on boolean result.
+Below is a sample workflow that contains ``Assert`` processor in Sparkflows. It demonstrates the usage of ``Assert`` node to evaluate an expression which is based on a runtime variable and executes output node based on boolean result.
 
 It does the following processing of data:
 
@@ -69,7 +69,7 @@ Output of ``Assert`` node would be based on Expression evaluation.
 Decision
 --------
 
-Below is a sample workflow that contains ``Decision`` processor in Fire Insights. It demonstrates the usage of ``Decision`` node to evaluate a condition and take decision whether to proceed to next node or to terminate execution.
+Below is a sample workflow that contains ``Decision`` processor in Sparkflows. It demonstrates the usage of ``Decision`` node to evaluate a condition and take decision whether to proceed to next node or to terminate execution.
 
 It does the following processing of data:
 

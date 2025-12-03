@@ -1,13 +1,13 @@
 Logs
 =======
 
-Below is the list of 3 processes that run in Fire Insights :
+Below is the list of 3 processes that run in Sparkflows :
 
 * Fire server
 * Fire Scala engine
 * Fire PySpark engine (If PySpark is configured.)
 
-You can view the logs for each process either by logging into the VM where Fire Insights is installed or through the UI with admin access.
+You can view the logs for each process either by logging into the VM where Sparkflows is installed or through the UI with admin access.
 
 
 .. toctree::

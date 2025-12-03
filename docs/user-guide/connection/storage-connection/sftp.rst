@@ -1,7 +1,7 @@
 SFTP Connection
 ================
 
-Fire Insights provides the capability to create SFTP connection and use the connection for reading from and writing to SFTP. Below are the steps for creating SFTP connection in Fire Insights:
+Sparkflows provides the capability to create SFTP connection and use the connection for reading from and writing to SFTP. Below are the steps for creating SFTP connection in Sparkflows:
 
 SFTP Connection Configuration
 ----------

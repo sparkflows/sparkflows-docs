@@ -1,12 +1,12 @@
-Configuring Fire Insights for JupyterLab
+Configuring Sparkflows for JupyterLab
 =============
 
-This document outlines the steps to configure Fire Insights for JupyterLab.
+This document outlines the steps to configure Sparkflows for JupyterLab.
 
 Steps
 -----
 
-Fire Insights can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
+Sparkflows can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
 
 Step 1: Login to Fire Web Server URL
 ++++++++++++++++++++++++++++++

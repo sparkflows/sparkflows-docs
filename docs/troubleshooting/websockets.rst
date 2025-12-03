@@ -1,7 +1,7 @@
 WebSockets
 ============
 
-In Fire Insights, the browser uses WebSockets for communications for some of the web pages of Fire Insights.
+In Sparkflows, the browser uses WebSockets for communications for some of the web pages of Sparkflows.
 This document explains some of the common issues and corresponding resolutions related to WebSockets:
 
 1. WebSocket Connection Error

@@ -9,7 +9,7 @@ Pipeline Overview
 
 **Pipeline** helps in orchestrating execution of workflows to achieve a business function such as Store Segmentation.
 
-Processing steps pass through the sequence of workflows in a linear manner. Fire Insights provides a mechanism to create, execute and schedule Pipelines, thus helping automate executions.
+Processing steps pass through the sequence of workflows in a linear manner. Sparkflows provides a mechanism to create, execute and schedule Pipelines, thus helping automate executions.
 
 It enhances the implementation experience of Data Engineering, Data Science, CI/CD and various Machine Learning use cases. Along with orchestration, the pipeline also extends the capability to define parameters in a single window, which can be used by the child workflows. It also facilitates adding Email Ids that can be notified on success or failure of pipeline execution.
 

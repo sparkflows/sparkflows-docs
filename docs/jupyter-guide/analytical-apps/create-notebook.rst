@@ -6,9 +6,9 @@ The Jupyter Notebook serves as the backend logic for the Analytical Apps. It wou
 Add Wheel File to Your Jupyter Notebook
 ------------------
 
-To leverage the Fire Insights API for data transmission, you need to add the wheel file to your Jupyter Notebook. 
+To leverage the Sparkflows API for data transmission, you need to add the wheel file to your Jupyter Notebook. 
 
-This step enables smooth integration and data flow between Fire Insights and Jupyter.
+This step enables smooth integration and data flow between Sparkflows and Jupyter.
 
 `Click here <https://sparkflows-release.s3.amazonaws.com/fire/common/spark_3.2.1/fire_notebook-3.1.0-py3-none-any.whl>`_ to download the Wheel File.  
 

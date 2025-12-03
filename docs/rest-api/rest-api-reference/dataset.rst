@@ -3,7 +3,7 @@ Dataset API
 
 The Dataset REST APIs, allow you to manage the Datasets.
 
-Below are the various Dataset APIs available in Fire Insights. They should be executed after you have logged into Fire Insights.
+Below are the various Dataset APIs available in Sparkflows. They should be executed after you have logged into Sparkflows.
 
 Create
 ------

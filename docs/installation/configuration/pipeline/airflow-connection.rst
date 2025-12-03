@@ -7,12 +7,12 @@ Sparkflows enables you to create Airflow Connection and use it to submit Pipelin
   * **Group**   : Users belonging to the group have access to these connections.
   * **Project** : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This page explains how to create an Airflow Connection in Fire Insights. Follow the steps below:
+This page explains how to create an Airflow Connection in Sparkflows. Follow the steps below:
 
 Step 1 : Enable Airflow in Sparkflows
 ======================================
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 
 * Navigate to  **Administration -> Configurations -> AIRFLOW** and enable Airflow by setting the value of below parameter to **true** and save the configuration.
 
@@ -68,7 +68,7 @@ For GENERAL Tab
        - Name of Connection
      * - Postback Url
        - Postback Url
-       - Postback Url through which Airflow sent result back to Fire Insights
+       - Postback Url through which Airflow sent result back to Sparkflows
      * - Title 
        - Title of Selected Connection
        - Title of Selected Connection  
@@ -134,4 +134,4 @@ Step 5 : Test and Save the Airflow Connection
 
 * Now you can use this connection to submit pipeline on Airflow.
 
-.. note:: Make sure that Airflow Machine is accessible from the Fire Insights Machine.
+.. note:: Make sure that Airflow Machine is accessible from the Sparkflows Machine.

@@ -1,7 +1,7 @@
 Snowflake
 ==========
 
-Fire Insights has ReadSnowflake and WriteSnowflake processors for reading data from and writing data to Snowflake.
+Sparkflows has ReadSnowflake and WriteSnowflake processors for reading data from and writing data to Snowflake.
 
 Creating Snowflake Connection
 ------------------

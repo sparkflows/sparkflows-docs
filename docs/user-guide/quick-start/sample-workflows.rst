@@ -1,7 +1,7 @@
 Sample Workflows
 ==========
 
-Fire Insights provides an array of sample workflows to showcase capabilities and usage of processors.
+Sparkflows provides an array of sample workflows to showcase capabilities and usage of processors.
 
 These workflows are bundled together in the following projects that can be accessed in Sample Projects tab.
 

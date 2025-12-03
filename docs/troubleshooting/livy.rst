@@ -15,8 +15,8 @@ Do check in the logs for exceptions and the root cause. The log files can be ana
 
 Possible causes are:
 
-* The Postback Url configured in Fire Insights is configured wrongly.
-* The Postback Url configured in Fire Insights is not accessible from EMR Livy.
+* The Postback Url configured in Sparkflows is configured wrongly.
+* The Postback Url configured in Sparkflows is not accessible from EMR Livy.
 
   .. figure:: ..//_assets/installation/troubleshoot/livy_1.PNG
       :alt: troubleshoot
@@ -75,8 +75,8 @@ Do check in the logs for exceptions and the root cause. The log files can be ana
 
 Possible causes are:
 
-* The Livy host url configured in Fire Insights is configured wrongly.
-* The Livy host url configured in Fire Insights is not accessible from EMR Livy.
+* The Livy host url configured in Sparkflows is configured wrongly.
+* The Livy host url configured in Sparkflows is not accessible from EMR Livy.
 
    
 * Test connectivity from the sparkflows machine using:
@@ -92,7 +92,7 @@ Possible causes are:
 4. Running Detailed livy diagnostics from Diagnostics 
 ------
  
-* Access this section by navigating to **Administration -> Diagnostics -> Connections** after logging into Fire Insights.
+* Access this section by navigating to **Administration -> Diagnostics -> Connections** after logging into Sparkflows.
 * By clicking the **Run Detailed Diagnostic** button, the user can view additional information about the session running in Livy for the selected connection.
 
   .. figure:: ..//_assets/diagnositcs/livy_detailed_diagnostic_test.png

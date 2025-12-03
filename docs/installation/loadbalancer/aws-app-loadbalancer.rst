@@ -1,7 +1,7 @@
 AWS Application Load Balancer
 ===========================
 
-This document explains the steps for creating ``Application Load Balancer`` in AWS and configuring it for Fire Insights.
+This document explains the steps for creating ``Application Load Balancer`` in AWS and configuring it for Sparkflows.
 
 Below are steps involved in creating application load balancer in AWS:
 
@@ -81,7 +81,7 @@ Configure routing
 Port forwarding
 -------
 
-Fire Insights by default runs on port 8080 for HTTP and 8443 for HTTPS. Make sure to forward HTTP or HTTPS to specified ports on which Fire Insights is running.
+Sparkflows by default runs on port 8080 for HTTP and 8443 for HTTPS. Make sure to forward HTTP or HTTPS to specified ports on which Sparkflows is running.
 
 ::
 

@@ -5,10 +5,10 @@ Sparkflows uses Apache Airflow for executing Pipelines. This document outlines t
 
 Follow the steps below:
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 -------------------------------
 
-* Login to Fire Insights using your **credentials**.
+* Login to Sparkflows using your **credentials**.
 
 Step 2 : Enable Pipeline Tabs
 ---------------------------------

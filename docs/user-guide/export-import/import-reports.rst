@@ -1,14 +1,14 @@
 Import Reports
 ===============
 
-Fire Insights enables you to import reports to use in projects.
+Sparkflows enables you to import reports to use in projects.
 
 Below are the steps for importing a report.
 
 Steps for Importing Reports
 -----
 
-You can Login to Fire Insights web server URL and follow the steps given below:
+You can Login to Sparkflows web server URL and follow the steps given below:
 
 * Go to the Project List page.
 * Select the project to import reports to. 
@@ -43,4 +43,4 @@ Once you Click on ``Import``, the report should be available in Reports list pag
      :alt: userguide
      :width: 70%   
      
-.. note:: Make sure that data pointed to the report JSON file should be available on new instance of Fire Insights where you are importing.
+.. note:: Make sure that data pointed to the report JSON file should be available on new instance of Sparkflows where you are importing.

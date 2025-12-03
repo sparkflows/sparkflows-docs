@@ -4,7 +4,7 @@ Version 3.1.23 - November, 2021
 Generate Pyspark Code
 +++++++
 
-Fire Insights enables you to Generate Pyspark Code even with spark engine and run the job using python engine.
+Sparkflows enables you to Generate Pyspark Code even with spark engine and run the job using python engine.
 
 .. figure:: ..//_assets/user-guide/generate-pyspark-code/3.PNG
    :alt: Pyspark code generate

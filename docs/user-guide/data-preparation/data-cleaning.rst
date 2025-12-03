@@ -1,10 +1,10 @@
 Data Cleaning
 ==========
 
-Fire Insights provides powerful capabilities for data cleanup.
+Sparkflows provides powerful capabilities for data cleanup.
 
 
-Data Cleaning Processors in Fire Insights
+Data Cleaning Processors in Sparkflows
 ----------------------------------------
 
 
@@ -115,7 +115,7 @@ Output of Data Cleansing Advanced node which displays modified values is shown b
 Data Cleansing
 ----------------------------------------
 
-Below is a sample workflow which contains Data Cleansing processor in Fire Insights. It demonstrates the usage of Data Cleansing node to clean incoming dataset by removing rows/columns having null values, by replacing missing values with space or 0 for String and Integer data respectively, by removing unwanted characters, and by changing case of the incoming data.
+Below is a sample workflow which contains Data Cleansing processor in Sparkflows. It demonstrates the usage of Data Cleansing node to clean incoming dataset by removing rows/columns having null values, by replacing missing values with space or 0 for String and Integer data respectively, by removing unwanted characters, and by changing case of the incoming data.
 
 It does the following processing of data:
 
@@ -188,7 +188,7 @@ Output of Data Cleansing node which displays modified values is shown below:
 Drop Null Rows For Selected Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Drop Null Rows For Selected Columns processor in Fire Insights. It demonstrates the usage of Drop Null Rows For Selected Columns node to remove rows having null value in the selected columns.
+Below is a sample workflow which contains Drop Null Rows For Selected Columns processor in Sparkflows. It demonstrates the usage of Drop Null Rows For Selected Columns node to remove rows having null value in the selected columns.
 
 It does the following processing of data:
 
@@ -232,7 +232,7 @@ Output of Drop Null Rows For Selected Columns node which displays rows that don'
 Drop Rows With Null
 ----------------------------------------
 
-Below is a sample workflow which contains Drop Rows With Null processor in Fire Insights. It demonstrates the usage of Drop Rows With Null node to remove rows having null value in columns.
+Below is a sample workflow which contains Drop Rows With Null processor in Sparkflows. It demonstrates the usage of Drop Rows With Null node to remove rows having null value in columns.
 
 It does the following processing of data:
 
@@ -275,7 +275,7 @@ Output of Drop Rows With Null node which displays rows that don't have null valu
 Find And Replace Using Regex
 ----------------------------------------
 
-Below is a sample workflow which contains the Find And Replace Using Regex processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex node to replace a string pattern with another by the use of a Regex Expression.
+Below is a sample workflow which contains the Find And Replace Using Regex processor in Sparkflows. It demonstrates the usage of Find And Replace Using Regex node to replace a string pattern with another by the use of a Regex Expression.
 
 It processes the dataset in the following ways:
 
@@ -324,7 +324,7 @@ Output of Find And Replace Using Regex node displaying values replaced for the m
 Find And Replace Using Regex Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Find And Replace Using Regex Advanced processor in Fire Insights. It demonstrates the usage of Find And Replace Using Regex Advanced node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
+Below is a sample workflow which contains Find And Replace Using Regex Advanced processor in Sparkflows. It demonstrates the usage of Find And Replace Using Regex Advanced node to replace a string pattern with another using Regex Expression. This node facilitates multiple transformations in one go.
 
 It does the following processing of data:
 
@@ -370,7 +370,7 @@ Output of Find And Replace Using Regex Advanced node displaying values replaced 
 Dedup
 ----------------------------------------
 
-Below is a sample workflow which contains Dedup processor in Fire Insights. It demonstrates  the usage of Dedup node to compare data of an entity from multiple sources to identify whether they are same or not.
+Below is a sample workflow which contains Dedup processor in Sparkflows. It demonstrates  the usage of Dedup node to compare data of an entity from multiple sources to identify whether they are same or not.
 
 It does following processing of data:
 
@@ -428,7 +428,7 @@ Output of Dedup node displaying Confidence Score value is shown as below:
 Drop Duplicate Rows
 ----------------------------------------
 
-Below is a sample workflow which contains Drop Duplicate Rows processor in Fire Insights. It demonstrates the usage of Drop Duplicate Rows node to drop duplicate rows having same values in the selected columns.
+Below is a sample workflow which contains Drop Duplicate Rows processor in Sparkflows. It demonstrates the usage of Drop Duplicate Rows node to drop duplicate rows having same values in the selected columns.
 
 It does the following processing of data:
 
@@ -471,7 +471,7 @@ Output of Drop Duplicate Rows node displaying rows having unique combination of 
 Remove Duplicate Rows
 ----------------------------------------
 
-Below is a sample workflow which contains Remove Duplicate Rows processor in Fire Insights. It demonstrates usage of Remove Duplicate Rows node to remove duplicate rows having same data in the selected columns and retain one rows as per the selection.
+Below is a sample workflow which contains Remove Duplicate Rows processor in Sparkflows. It demonstrates usage of Remove Duplicate Rows node to remove duplicate rows having same data in the selected columns and retain one rows as per the selection.
 
 It does the following processing of data:
 
@@ -515,7 +515,7 @@ Output of Remove Duplicate Rows node displaying rows having unique combination o
 Remove Unwanted Characters
 ----------------------------------------
 
-Below is a sample workflow which contains Remove Unwanted Characters processor in Fire Insights. It demonstrates the usage of Remove Unwanted Characters node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns.
+Below is a sample workflow which contains Remove Unwanted Characters processor in Sparkflows. It demonstrates the usage of Remove Unwanted Characters node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns.
 
 It does the following processing of data:
 
@@ -563,7 +563,7 @@ Output of Remove Unwanted Characters node displaying transformed data after remo
 Remove Unwanted Characters Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Remove Unwanted Characters Advanced processor in Fire Insights. It demonstrates  the usage of Remove Unwanted Characters Advanced node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
+Below is a sample workflow which contains Remove Unwanted Characters Advanced processor in Sparkflows. It demonstrates  the usage of Remove Unwanted Characters Advanced node to remove White Spaces, Letters, Digits, Signs and Commas from the selected columns. This node can be configured to remove different set of characters for different columns in one go.
 
 It does the following processing of data:
 

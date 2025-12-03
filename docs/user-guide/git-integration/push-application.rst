@@ -12,9 +12,9 @@ Step 1 : Check the Pre-requisites
 
 #. **Linking Projects with Git:** Before pushing your Application to a Git repository, make sure you have successfully linked the concerned project with Git. Detailed steps can be found `here. <https://docs.sparkflows.io/en/latest/user-guide/git-integration/link-project.html>`_ 
 
-Step 2 : Login to Fire Insights
+Step 2 : Login to Sparkflows
 -----------------
-#. Go to Fire Insights Home Page.
+#. Go to Sparkflows Home Page.
 #. Enter your credentials.
 #. Click **Sign in** to reach the Dashboard.
 

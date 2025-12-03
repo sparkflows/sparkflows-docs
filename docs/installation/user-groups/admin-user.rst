@@ -6,7 +6,7 @@ Superusers and Admin users have special permissions and rights.
 Super User
 ---------
 
-A user in Fire Insights can be marked to be a super-user. A Super user has the below permissions:
+A user in Sparkflows can be marked to be a super-user. A Super user has the below permissions:
 
 #. **Project Sharing:** Share or unshare any project with any group.
 #. **User Privileges:** Designate other users as Superusers.
@@ -22,7 +22,7 @@ Admin User
 
 Any user who have the permission to manage users is considered an Admin user. Generally an ADMIN role is created, which has the users.manage permission granted to it.
 
-Users who would be administrating Fire Insights would have the Admin Role assigned to them.
+Users who would be administrating Sparkflows would have the Admin Role assigned to them.
 
 Users with users.manage permission can do the following:
 
@@ -42,16 +42,16 @@ Below are the permissions for managing users, groups and roles:
 
 * roles.manage - Manage roles
 
-Operating Fire Insights Permissions
+Operating Sparkflows Permissions
 ----------
 
-Below are the permission for operating Fire Insights:
+Below are the permission for operating Sparkflows:
 
-* **System Configuration:** Configure Fire Insights settings.
+* **System Configuration:** Configure Sparkflows settings.
 * **Diagnostics:** Run system diagnostics.
 * **Usage Statistics:** View platform usage statistics.
 * **YARN Applications:** Monitor YARN applications running on the Spark cluster.
-* **Sample Projects:** Load sample projects that come with Fire Insights.
+* **Sample Projects:** Load sample projects that come with Sparkflows.
 * **Global Connections:** Manage global and group-level connections.
 * **Server Logs:** View Fire server logs, exception logs, and PySpark logs.
 * **Data Cleanup:** Delete old workflow executions based on time ranges (e.g., older than 7, 30, or 90 days).
@@ -63,10 +63,10 @@ Below are the permission for operating Fire Insights:
 * **Scheduler Statistics:** Monitor the status of scheduled jobs.
 * **Cache Statistics:** View cache statistics for logged-in users and data sources like Snowflake and Databricks.
 
-Operating Fire Insights
+Operating Sparkflows
 -----
 
-There are certain tasks to be performed for operating Fire Insights. It is recommended to give the below permissions to the Admin for performing the operational tasks in Fire Insights.
+There are certain tasks to be performed for operating Sparkflows. It is recommended to give the below permissions to the Admin for performing the operational tasks in Sparkflows.
 
 
 
@@ -89,7 +89,7 @@ As for projects, the admin user can do the following:
 Deleting Users/Groups
 ++++++++++++++++++++
 
-* **User Deactivation:** In Fire Insights, users cannot be deleted but can be made inactive.
+* **User Deactivation:** In Sparkflows, users cannot be deleted but can be made inactive.
 * **Group Deletion:** Groups can be deleted as needed.
 
 

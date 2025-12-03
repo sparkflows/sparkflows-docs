@@ -14,37 +14,37 @@ AWS User Guide
     
     :doc:`/aws/user-guide/s3`
     
-    Reading and writing to an S3 bucket using Fire Insights.
+    Reading and writing to an S3 bucket using Sparkflows.
     
     ---
     
     :doc:`/aws/user-guide/hive`
     
-    Hive integration with Fire Insights.
+    Hive integration with Sparkflows.
     
     ---
     
     :doc:`/aws/user-guide/redshift`
     
-    Redshift integration with Fire Insights.
+    Redshift integration with Sparkflows.
     
     ---
     
     :doc:`/aws/user-guide/sagemaker`
     
-    SageMaker integration with Fire Insights.
+    SageMaker integration with Sparkflows.
     
     ---
     
     :doc:`/aws/user-guide/kinesis`
     
-    Kinesis integration with Fire Insights.
+    Kinesis integration with Sparkflows.
     
     ---
     
     :doc:`/aws/user-guide/file-watcher`
     
-    Processing incoming files using Fire Insights Rest APIS, AWS Lambda functions, and SQS.
+    Processing incoming files using Sparkflows Rest APIS, AWS Lambda functions, and SQS.
     
     
 .. toctree::

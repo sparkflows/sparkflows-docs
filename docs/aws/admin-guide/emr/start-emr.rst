@@ -1,7 +1,7 @@
 Start EMR Cluster
 =========
 
-Fire Insights can submit jobs to AWS EMR cluster. This page describes the details of launching an EMR cluster on AWS.
+Sparkflows can submit jobs to AWS EMR cluster. This page describes the details of launching an EMR cluster on AWS.
 
 Below are steps on how to create an EMR Cluster using AWS Console :
 

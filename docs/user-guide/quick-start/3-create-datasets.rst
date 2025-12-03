@@ -11,12 +11,12 @@ The steps involved in creating a dataset are:
 #. Click **Update Sample Data/Schema** to update schema and click **Eye Icon** to view the file contents.
 #. Click **Save** to save the new dataset.
 
-This document explains in detail the steps involved in creating a dataset in Fire Insights.
+This document explains in detail the steps involved in creating a dataset in Sparkflows.
 
 Step 1 : Open the Project
 ======
 
-#. Click the **Projects** tab in the **top-menu bar** of the Fire Insights.
+#. Click the **Projects** tab in the **top-menu bar** of the Sparkflows.
 #. Click the **Project Name** where you want to create your dataset.
 #. Click the **Datasets** tab in upper-middle bar on the Project page.
 

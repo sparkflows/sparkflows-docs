@@ -32,7 +32,7 @@ Sparkflows provides a number of cutting edge algoirthms as Processors for Time S
 Prophet
 =======
 
-Below is the sample workflow which uses Prophet processor in Fire Insights.
+Below is the sample workflow which uses Prophet processor in Sparkflows.
 
 The workflow reads the AirPassengers dataset & uses Prophet processor for forecasting of univariate time series data and finally prints the result.
 
@@ -62,7 +62,7 @@ Results from ``Prophet`` model after training the model:
 ARIMA
 =====
 
-Below is the sample workflow which uses ARIMA processor in Fire Insights.
+Below is the sample workflow which uses ARIMA processor in Sparkflows.
 
 The workflow reads the AirPassengers dataset & uses ARIMA processor which Forecasts the airline passengers count, generates a new column with unique index/value for each row in dataset and prints the result.
 
@@ -86,7 +86,7 @@ Result from ``ARIMA`` model after training the model:
 H2OXGBoost
 ==========
 
-Below is the sample workflow which uses H2OXGBoost processor in Fire Insights.
+Below is the sample workflow which uses H2OXGBoost processor in Sparkflows.
 
 The workflow reads the UCI Credit Card dataset & uses H2OXGBoost processor which is a supervised learning algorithm on tabular data and save the model in S3 location. Rich features like lag, moving average among others can be computed and added to the baseline model.
 

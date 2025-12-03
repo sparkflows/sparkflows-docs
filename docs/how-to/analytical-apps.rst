@@ -3,7 +3,7 @@ Analytical Apps with Jupyter Notebooks on Kubernetes
 
 This document describes the steps to building Analytical Apps powered by Jupyter Notebooks running on Kubenetes Cluster.
 
-Deploying Fire Insights on EKS
+Deploying Sparkflows on EKS
 -----
 
 https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-eks/index.html
@@ -36,7 +36,7 @@ Create Docker Image with Jupyter Notebook
 
 https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/create-docker-image.html
 
-Create Jupyter Notebook Connection in Fire Insights
+Create Jupyter Notebook Connection in Sparkflows
 -----
 
 https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/creating-jupyter-notebook-connection.html
@@ -44,7 +44,7 @@ https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/creating-jupy
 Analytical Apps
 -----
 
-Create Analytical Apps in Fire Insights
+Create Analytical Apps in Sparkflows
 +++++
 
 https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/creating-analytical-app.html
@@ -52,7 +52,7 @@ https://docs.sparkflows.io/en/latest/jupyter-guide/analytical-apps/creating-anal
 Example Analytical Apps
 +++++
 
-The below location contain some example Analytical Apps which can be easily imported into Fire Insights.
+The below location contain some example Analytical Apps which can be easily imported into Sparkflows.
 
 https://github.com/sparkflows/fire-tools/tree/main/analytical-apps
 

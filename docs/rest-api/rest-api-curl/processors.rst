@@ -6,9 +6,9 @@ Overview
 
 The Processors REST APIs, allow you to get the list of available Processors and details regarding each Processor.
 
-Below are the various Processor APIs available in Fire Insights.
+Below are the various Processor APIs available in Sparkflows.
 
-They should be executed after you have logged into Fire Insights. Use the -b option to use the cookies previously saved.
+They should be executed after you have logged into Sparkflows. Use the -b option to use the cookies previously saved.
 
 
 GET Processors List

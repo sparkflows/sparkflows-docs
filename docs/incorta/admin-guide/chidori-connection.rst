@@ -7,7 +7,7 @@ Sparkflows allows you to create a Chidori connection for submitting jobs and wor
   * **Group**: Users belonging to the group have access to these connections.
   * **Project**: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This document provides steps to create a Chidori Connection in Fire Insights.
+This document provides steps to create a Chidori Connection in Sparkflows.
 
 Step 1 : Enable Chidori in Sparkflows
 ++++++++++
@@ -69,7 +69,7 @@ For GENERAL Tab
      - Token used for Chidori
    * - Postback Url
      - Postback Url
-     - Postback Url through which Chidori sent result back to Fire Insights
+     - Postback Url through which Chidori sent result back to Sparkflows
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  

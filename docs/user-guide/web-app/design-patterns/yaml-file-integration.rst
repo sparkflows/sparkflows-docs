@@ -7,7 +7,7 @@ Follow the steps given below to enable YAML file integration in your analytical 
 
 Step 1 : Open Configurations Page
 -----------
-#. Login to Fire Insights.
+#. Login to Sparkflows.
 #. From the Dashboard page, click on the **ADMINISTRATION** tab.
 #. From the Administration page, click on the **Configurations** option.
 

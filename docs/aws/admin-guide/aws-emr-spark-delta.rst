@@ -54,7 +54,7 @@ For Configuring delta on EMR 6.9, please follow below:
 Delta Support on EMR 6.15
 ----------
 
-EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Fire Insights in Pipeline.
+EMR 6.15 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Sparkflows in Pipeline.
 
 #. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true" in ``Create EMR JobFlow Node`` from ``Advanced`` tab.
 
@@ -77,7 +77,7 @@ EMR 6.15 by default comes with Delta support, so you can use default delta packa
 Delta Support on EMR 7.4
 ----------
 
-EMR 7.4 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Fire Insights in Pipeline.
+EMR 7.4 by default comes with Delta support, so you can use default delta package by default available to AWS EMR in Sparkflows in Pipeline.
 
 #. By updating the EMR configuration with CLASSIFICATION: delta-defaults and DELTA_PROPERTIES_KEY_VALUE: "delta.enabled" -> "true" in ``Create EMR JobFlow Node`` from ``Advanced`` tab.
 

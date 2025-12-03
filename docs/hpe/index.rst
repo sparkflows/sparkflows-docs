@@ -1,9 +1,9 @@
 HPE Guide
 =========
 
-Fire Insights is seamlessly integrated with HPE platform. With Fire Insights you can perform self-serve data processing, analytics and machine learning on HPE Unified Analytics platform.
+Sparkflows is seamlessly integrated with HPE platform. With Sparkflows you can perform self-serve data processing, analytics and machine learning on HPE Unified Analytics platform.
 
-Fire Insights integrates with HPE Platform.
+Sparkflows integrates with HPE Platform.
 
 .. panels::
     :container: container-lg pb-3

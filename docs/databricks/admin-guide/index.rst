@@ -26,13 +26,13 @@ Databricks Admin Guide
     
     :doc:`/databricks/admin-guide/databricks-installation`
 
-    Steps to integrate fire insights with databricks.
+    Steps to integrate Sparkflows with databricks.
 
     ---
     
     :doc:`/databricks/admin-guide/databricks-python-installation`
 
-    Steps to submit a python job to a databricks cluster using fire insights.
+    Steps to submit a python job to a databricks cluster using Sparkflows.
 
     ---
     

@@ -1,6 +1,6 @@
 Infrastructure Deployment Requirements
 =====
-This document outlines recommended setup for deploying Fire Insights on a cloud provider in your tenant. Supported cloud providers are:
+This document outlines recommended setup for deploying Sparkflows on a cloud provider in your tenant. Supported cloud providers are:
 
 - Amazon Web Services (AWS)
 - Microsoft Azure
@@ -14,25 +14,25 @@ This document outlines recommended setup for deploying Fire Insights on a cloud 
    
    :doc:`/installation/installation/deployment-requirements/aws`
    
-   Infrastructure deployment requirements to deploy Fire Insights on AWS
+   Infrastructure deployment requirements to deploy Sparkflows on AWS
 
    ---
 
    :doc:`/installation/installation/deployment-requirements/azure`
 
-   Infrastructure deployment requirements to deploy Fire Insights on Microsoft Azure
+   Infrastructure deployment requirements to deploy Sparkflows on Microsoft Azure
 
    ---
 
    :doc:`/installation/installation/deployment-requirements/gcp`
 
-   Infrastructure deployment requirements to deploy Fire Insights on Google Cloud Platform
+   Infrastructure deployment requirements to deploy Sparkflows on Google Cloud Platform
 
    ---
 
    :doc:`/installation/installation/deployment-requirements/digital-ocean`
 
-   Infrastructure deployment requirements to deploy Fire Insights on Digital Ocean
+   Infrastructure deployment requirements to deploy Sparkflows on Digital Ocean
 
 
 

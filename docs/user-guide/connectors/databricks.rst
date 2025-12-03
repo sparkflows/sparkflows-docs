@@ -1,7 +1,7 @@
 Databricks
 ==========
 
-Fire Insights has a processor that allows you to connect with Databricks table and DBFS file system.
+Sparkflows has a processor that allows you to connect with Databricks table and DBFS file system.
 
 Read Databricks Table in Workflow
 ---------------------------------

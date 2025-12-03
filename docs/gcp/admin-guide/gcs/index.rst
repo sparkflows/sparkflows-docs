@@ -1,7 +1,7 @@
 Google Cloud Storage Guide
 ====
 
-Fire Insights integrates with various data systems, including Google Cloud Storage (GCS), allowing users to configure and automate the flow of data to and from GCS.
+Sparkflows integrates with various data systems, including Google Cloud Storage (GCS), allowing users to configure and automate the flow of data to and from GCS.
 
 Google Cloud Storage (GCS) can be configured and accessed using two primary methods for authentication and authorization: Service Account. Here's a description of each:
 

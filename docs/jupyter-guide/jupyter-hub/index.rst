@@ -13,7 +13,7 @@ JupyterHub
 
     :doc:`/jupyter-guide/jupyter-hub/configuring-fire-insights`
 
-    Steps for Configuring JupyterHub in Fire Insights
+    Steps for Configuring JupyterHub in Sparkflows
 
 
 .. toctree::

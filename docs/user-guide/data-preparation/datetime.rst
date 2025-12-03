@@ -2,10 +2,10 @@
 Date Time Functions
 ==========
 
-Fire Insights provides processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
+Sparkflows provides processors for performing DateTime Formatting, Conversion and Year, Date, Time Split.
 
 
-Date Time Processors in Fire Insights
+Date Time Processors in Sparkflows
 ----------------------------------------
 
 
@@ -35,7 +35,7 @@ Date Time Processors in Fire Insights
 Date Time Field Extract
 ----------------------------------------
 
-Below is a sample workflow which contains Date Time Field Extract processor in Fire Insights. It demonstrates the usage of Date Time Field Extract node to extract Date Time parts and add them as new columns.
+Below is a sample workflow which contains Date Time Field Extract processor in Sparkflows. It demonstrates the usage of Date Time Field Extract node to extract Date Time parts and add them as new columns.
 
 It does the following processing of data:
 
@@ -70,7 +70,7 @@ Extracted Date Time parts are added as new columns
 Date Difference
 ----------------------------------------
 
-Below is a sample workflow which contains Date Difference processor in Fire Insights. It demonstrates the usage of Date Difference node to compute difference between two dates in number of days, hours, minutes and seconds.
+Below is a sample workflow which contains Date Difference processor in Sparkflows. It demonstrates the usage of Date Difference node to compute difference between two dates in number of days, hours, minutes and seconds.
 
 It does the following processing of data:
 
@@ -107,7 +107,7 @@ Date Difference between two Date Columns is displayed as below.
 Date To Age
 ----------------------------------------
 
-Below is a sample workflow which contains Date To Age processor in Fire Insights. It demonstrates the usage of Date To Age node to compute Number of Years and Days elapsed since selected date value.
+Below is a sample workflow which contains Date To Age processor in Sparkflows. It demonstrates the usage of Date To Age node to compute Number of Years and Days elapsed since selected date value.
 
 It does the following processing of data:
 
@@ -149,7 +149,7 @@ Output of Date To Age node prints dataset containing Number of Years and Days el
 Date To String
 ----------------------------------------
 
-Below is a sample workflow which contains Date To String processor in Fire Insights. It demonstrates the usage of Date To String node to convert a Date value to String value of specified format.
+Below is a sample workflow which contains Date To String processor in Sparkflows. It demonstrates the usage of Date To String node to convert a Date value to String value of specified format.
 
 It does the following processing of data:
 
@@ -183,7 +183,7 @@ Transformed data is displayed as below.
 String To Date
 ----------------------------------------
 
-Below is a sample workflow which contains String To Date processor in Fire Insights. It demonstrates the usage of String to Date node to convert a Date value in String format to a Date value.
+Below is a sample workflow which contains String To Date processor in Sparkflows. It demonstrates the usage of String to Date node to convert a Date value in String format to a Date value.
 
 It does the following processing of data:
 
@@ -218,7 +218,7 @@ Transformed data is displayed as below.
 String To Unix Time
 ----------------------------------------
 
-Below is a sample workflow which contains String To Unix Time processor in Fire Insights. It demonstrates usage of String To Unix Time node to convert a Date value in String format to Unix Time value i.e. the number of seconds that have elapsed since the Unix epoch.
+Below is a sample workflow which contains String To Unix Time processor in Sparkflows. It demonstrates usage of String To Unix Time node to convert a Date value in String format to Unix Time value i.e. the number of seconds that have elapsed since the Unix epoch.
 
 It does following processing of data:
 
@@ -252,7 +252,7 @@ Transformed data is displayed as below.
 Time Functions
 ----------------------------------------
 
-Below is a sample workflow which contains Time Functions processor in Fire Insights. It demonstrates the usage of Time Functions node to extract Date Time parts and add them as new columns.
+Below is a sample workflow which contains Time Functions processor in Sparkflows. It demonstrates the usage of Time Functions node to extract Date Time parts and add them as new columns.
 
 It does the following processing of data:
 
@@ -286,7 +286,7 @@ Date Time parts extracted from a Date Time column is displayed as below.
 Unix Time To String
 ----------------------------------------
 
-Below is a sample workflow which contains Unix Time To String processor in Fire Insights. It demonstrates the usage of Unix Time to String node to convert a Unix Time value to Date value in String format. Unix Time value denotes the number of seconds that have elapsed since the Unix epoch.
+Below is a sample workflow which contains Unix Time To String processor in Sparkflows. It demonstrates the usage of Unix Time to String node to convert a Unix Time value to Date value in String format. Unix Time value denotes the number of seconds that have elapsed since the Unix epoch.
 
 It does the following processing of data:
 

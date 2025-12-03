@@ -11,7 +11,7 @@ The Vector DB should ideally support the following:
 * Scalability and performance: The Vector DB should be able to handle a growing number of vectors and queries while maintaining fast response times.
 * Integration with other services: The Vector DB should be able to integrate with the existing infrastructure, including Azure OpenAI and potentially other services.
 
-Fire Insights integrates seamlessly with vector databases like Pinecone, FAISS, Weaviate, and Milvus through their APIs and SDKs.
+Sparkflows integrates seamlessly with vector databases like Pinecone, FAISS, Weaviate, and Milvus through their APIs and SDKs.
 
 
 .. panels::

@@ -13,7 +13,7 @@ There are many different techniques that can be used for time series feature eng
 
 It's important to remember that the features that you create should be relevant and informative for the problem you are trying to solve, and you may have to experiment with different feature engineering techniques to find the ones that work best for your data. Additionally, it's important to standardize the features before training a model, since some features could have different scales that could affect the training of your model.
 
-Fire Insights provides a number of Processors for Feature Engineering of Time Series Data. Some of them are listed below:
+Sparkflows provides a number of Processors for Feature Engineering of Time Series Data. Some of them are listed below:
 
  
 .. list-table:: Time Series Processors
@@ -41,7 +41,7 @@ Fire Insights provides a number of Processors for Feature Engineering of Time Se
 DateTimeFieldExtract
 ====================
 
-Below is the sample workflow which contains DateTimeFieldExtract processor in Fire Insights.
+Below is the sample workflow which contains DateTimeFieldExtract processor in Sparkflows.
 
 It reads a simple Calendar Dataset with a Date Column and uses DateTimeFieldExtract processor to create New DataFrame by extracting Date and Time field and prints the result.
 
@@ -66,7 +66,7 @@ It reads a simple Calendar Dataset with a Date Column and uses DateTimeFieldExtr
 MovingWindowFunctions
 ========================
 
-Below is the sample workflow which contains MovingWindowFunctions processor in Fire Insights.
+Below is the sample workflow which contains MovingWindowFunctions processor in Sparkflows.
 
 It reads the store item dataset, concatenate the input column, cast specified column to new data type, use MovingWindowFunctions processor which calculates the moving value of selected function of input column and print the result. 
 

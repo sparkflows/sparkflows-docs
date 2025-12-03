@@ -1,10 +1,10 @@
 Cast Data Type
 ==========
 
-Fire Insights provides processors for Cast Data Type.
+Sparkflows provides processors for Cast Data Type.
 
 
-Cast Data Type Processors in Fire Insights
+Cast Data Type Processors in Sparkflows
 ----------------------------------------
 
 
@@ -24,7 +24,7 @@ Cast Data Type Processors in Fire Insights
 Cast To Different Types-1
 ----------------------------------------
 
-Below is a sample workflow which contains Cast To Different Types-1 processor in Fire Insights. It demonstrates the usage of Cast To Different Types-1 node to cast columns to different datatypes.
+Below is a sample workflow which contains Cast To Different Types-1 processor in Sparkflows. It demonstrates the usage of Cast To Different Types-1 node to cast columns to different datatypes.
 
 It does the following processing of data:
 
@@ -69,7 +69,7 @@ Output of Cast To Different Types-1 node displaying dataset with columns casted 
 Cast To Different Types-2
 ----------------------------------------
 
-Below is a sample workflow which contains Cast To Different Types-2 processor in Fire Insights. It demonstrates the usage of Cast To Different Types-2 node to cast columns to different datatype in the specified format.
+Below is a sample workflow which contains Cast To Different Types-2 processor in Sparkflows. It demonstrates the usage of Cast To Different Types-2 node to cast columns to different datatype in the specified format.
 
 It does the following processing of data:
 
@@ -116,7 +116,7 @@ Output of Cast To Different Types-2 node displaying dataset with columns casted 
 Cast To Single Type
 ----------------------------------------
 
-Below is a sample workflow which contains Cast To Single Type processor in Fire Insights. It demonstrates the usage of Cast To Single Type node to cast selected columns to single datatypes.
+Below is a sample workflow which contains Cast To Single Type processor in Sparkflows. It demonstrates the usage of Cast To Single Type node to cast selected columns to single datatypes.
 
 It does the following processing of data:
 

@@ -1,14 +1,14 @@
 Data Profiling Processors
 ==========
 
-Fire Insights provides a range of processors or nodes for exploring and analyzing data efficiently. These processors help in identifying data patterns, correlations, distributions, and outliers, enabling better decision-making. Below is a structured workflow that details the various data profiling processors available in Fire Insights.
+Sparkflows provides a range of processors or nodes for exploring and analyzing data efficiently. These processors help in identifying data patterns, correlations, distributions, and outliers, enabling better decision-making. Below is a structured workflow that details the various data profiling processors available in Sparkflows.
 
 .. figure:: ../../_assets/user-guide/data-quality/2_Data_Profiling_Workflow.png
    :alt: Data Profiling Workflow
    :width: 100%
 
 
-Data Profiling Processors in Fire Insights
+Data Profiling Processors in Sparkflows
 ----------------------------------------
 
 
@@ -48,7 +48,7 @@ Data Profiling Processors in Fire Insights
 Columns Cardinality
 ----------------------------------------
 
-Below is a sample workflow that contains Columns Cardinality processor in Fire Insights. It demonstrates the usage of Columns Cardinality node to display categorical distribution of data. It displays count of rows for each distinct values in the selected columns (Categories).
+Below is a sample workflow that contains Columns Cardinality processor in Sparkflows. It demonstrates the usage of Columns Cardinality node to display categorical distribution of data. It displays count of rows for each distinct values in the selected columns (Categories).
 
 It does the following processing of data:
 
@@ -102,7 +102,7 @@ The output of Columns Cardinality node displays the count of distinct values for
 Correlation
 ----------------------------------------
 
-Below is a sample workflow that contains Correlation processor in Fire Insights. It demonstrates the usage of Correlation node to display correlation between data of selected columns.
+Below is a sample workflow that contains Correlation processor in Sparkflows. It demonstrates the usage of Correlation node to display correlation between data of selected columns.
 
 It does the following processing of data:
 
@@ -147,7 +147,7 @@ The output of Correlation node displays correlation between all the selected col
 Cross Tab
 ----------------------------------------
 
-Below is a sample workflow that contains Cross Tab processor in Fire Insights. It demonstrates the usage of Cross Tab node to display distribution of data between all possible combinations of all distinct values of two series.
+Below is a sample workflow that contains Cross Tab processor in Sparkflows. It demonstrates the usage of Cross Tab node to display distribution of data between all possible combinations of all distinct values of two series.
 
 It does the following processing of data:
 
@@ -193,7 +193,7 @@ The output of Cross Tab node displays the distribution between Firstcolumn and S
 Distinct Values In Column
 ----------------------------------------
 
-Below is a sample workflow that contains Distinct Values In Column processor in Fire Insights. It demonstrates the usage of Distinct Values In Column node to display distinct combinations of values in the selected columns.
+Below is a sample workflow that contains Distinct Values In Column processor in Sparkflows. It demonstrates the usage of Distinct Values In Column node to display distinct combinations of values in the selected columns.
 
 It does the following processing of data:
 
@@ -239,7 +239,7 @@ The output of Distinct Values In Column node displays the distinct combination o
 Flag Outlier
 ----------------------------------------
 
-Below is a sample workflow that contains Flag Outlier processor in Fire Insights. It demonstrates the usage of Flag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set.
+Below is a sample workflow that contains Flag Outlier processor in Sparkflows. It demonstrates the usage of Flag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set.
 
 It does the following processing of data:
 
@@ -284,7 +284,7 @@ The output of Flag Outlier node displays the Outlier Flag for datapoints in the 
 Multiflag Outlier
 ----------------------------------------
 
-Below is a sample workflow that contains Multiflag Outlier processor in Fire Insights. It demonstrates the usage of Multiflag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set. It can be used to identify outliers in multiple columns. 
+Below is a sample workflow that contains Multiflag Outlier processor in Sparkflows. It demonstrates the usage of Multiflag Outlier node to identify whether a data point is outlier in a series or not based on the lower and upper quantile set. It can be used to identify outliers in multiple columns. 
 
 It does the following processing of data:
 
@@ -332,7 +332,7 @@ The output of Multiflag Outlier node displays the Outlier Flag for datapoints in
 Graph Month Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains Graph Month Distribution processor in Fire Insights. It demonstrates the usage of Graph Month Distribution node to display monthly distribution of data.
+Below is a sample workflow that contains Graph Month Distribution processor in Sparkflows. It demonstrates the usage of Graph Month Distribution node to display monthly distribution of data.
 
 It does the following processing of data:
 
@@ -378,7 +378,7 @@ The output of Graph Month Distribution node displays the monthly distribution of
 Graph Weekday Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains Graph Weekday Distribution processor in Fire Insights. It demonstrates the usage of Graph Weekday Distribution node to display weekday wise distribution of data.
+Below is a sample workflow that contains Graph Weekday Distribution processor in Sparkflows. It demonstrates the usage of Graph Weekday Distribution node to display weekday wise distribution of data.
 
 It does the following processing of data:
 
@@ -426,7 +426,7 @@ The output of Graph Weekday Distribution node displays the weekday wise distribu
 Graph Year Distribution
 ----------------------------------------
 
-Below is a sample workflow that contains Graph Year Distribution processor in Fire Insights. It demonstrates the usage of Graph Year Distribution node to display yearly distribution of data.
+Below is a sample workflow that contains Graph Year Distribution processor in Sparkflows. It demonstrates the usage of Graph Year Distribution node to display yearly distribution of data.
 
 It does the following processing of data:
 
@@ -472,7 +472,7 @@ The output of Graph Year Distribution node displays the yearly distribution of s
 Histogram
 ----------------------------------------
 
-Below is a sample workflow that contains Histogram processor in Fire Insights. It demonstrates the usage of Histogram node to display distribution of data spread across multiple bins.
+Below is a sample workflow that contains Histogram processor in Sparkflows. It demonstrates the usage of Histogram node to display distribution of data spread across multiple bins.
 
 It does the following processing of data:
 
@@ -523,7 +523,7 @@ The output of Histogram node displays the distribution of data present in the se
 Null Values In Column
 ----------------------------------------
 
-Below is a sample workflow that contains Null Values In Column processor in Fire Insights. It demonstrates the usage of Null Values In Column node identify the number of Null values and its percentage against the total data length in the selected columns.
+Below is a sample workflow that contains Null Values In Column processor in Sparkflows. It demonstrates the usage of Null Values In Column node identify the number of Null values and its percentage against the total data length in the selected columns.
 
 It does the following processing of data:
 
@@ -569,7 +569,7 @@ The output of Null Values In Column node displays the number of Null values and 
 Skewness And Kurtosis
 ----------------------------------------
 
-Below is a sample workflow that contains Skewness And Kurtosis processor in Fire Insights. It demonstrates the usage of Skewness And Kurtosis node to identify Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution) in the selected columns.
+Below is a sample workflow that contains Skewness And Kurtosis processor in Sparkflows. It demonstrates the usage of Skewness And Kurtosis node to identify Skewness (measure of symmetry) and Kurtosis (measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution) in the selected columns.
 
 It does the following processing of data:
 
@@ -615,7 +615,7 @@ The output of Skewness And Kurtosis node displays the Skewness And Kurtosis valu
 Summary Statistics
 ----------------------------------------
 
-Below is a sample workflow that contains Summary Statistics processor in Fire Insights. It demonstrates the usage of Summary Statistics node to compute Statistical Summary such as count, mean, min, max, etc. for the selected columns.
+Below is a sample workflow that contains Summary Statistics processor in Sparkflows. It demonstrates the usage of Summary Statistics node to compute Statistical Summary such as count, mean, min, max, etc. for the selected columns.
 
 It does the following processing of data:
 

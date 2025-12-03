@@ -7,7 +7,7 @@ To configure, follow the steps below:
 Step 1 : Creating Influx Database Connection 
 -----
 
-#. Login to **Fire Insights**. 
+#. Login to **Sparkflows**. 
 #. Navigate to **Administration -> Global/Group Connections -> Add Connection For All**. 
 
    An **Add Connection** page will be displayed as shown below.

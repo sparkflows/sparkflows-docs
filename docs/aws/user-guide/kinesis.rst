@@ -1,9 +1,9 @@
 Integration with Kinesis
 ==============================
 
-This documentation provides a comprehensive guide on integrating Fire Insights with Kinesis, enabling seamless data processing and analysis. 
+This documentation provides a comprehensive guide on integrating Sparkflows with Kinesis, enabling seamless data processing and analysis. 
 
-Fire Insights leverages the Apache Spark Structured Streaming Connector from Qubole. 
+Sparkflows leverages the Apache Spark Structured Streaming Connector from Qubole. 
 
 For detailed information, refer to the `qubole-kinesis documentation <https://github.com/qubole/kinesis-sql>`_ available on GitHub.
 

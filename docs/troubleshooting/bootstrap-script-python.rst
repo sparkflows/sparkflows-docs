@@ -1,7 +1,7 @@
 Bootstrap Script
 ========
 
-This page lists common errors encountered when working with bootstrap scripts on EMR while using Fire Insights.
+This page lists common errors encountered when working with bootstrap scripts on EMR while using Sparkflows.
 
 1. Facing Issues while Running PySpark workflow on Livy
 ------

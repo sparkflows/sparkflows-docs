@@ -189,14 +189,14 @@ Install Sparkflows
   - ./run-fire.sh start
   - ./run-fire-server.sh start
   
-Upload the Fire Insights example data directory onto HDFS
+Upload the Sparkflows example data directory onto HDFS
 ------------------------------------
 
 - As sparkflows user
 - cd fire-x.y.z
 - hadoop fs -put data  
 
-Log into Fire Insights
+Log into Sparkflows
 -------------------
 
 - http://host-ip:8080/#/dashboard

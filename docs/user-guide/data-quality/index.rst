@@ -1,7 +1,7 @@
 Data Quality
 -------
 
-Fire Insights provides powerful capabilities for monitoring data quality. It provides for various processors that aid in pre-processing and validation of data to ensure that only high quality, reliable, and accurate data is fed into the process of analysis, reporting, and decision-making.
+Sparkflows provides powerful capabilities for monitoring data quality. It provides for various processors that aid in pre-processing and validation of data to ensure that only high quality, reliable, and accurate data is fed into the process of analysis, reporting, and decision-making.
 
 Sparkflows offers a large number of automated Data Quality Assessment and Cleansing features.
 

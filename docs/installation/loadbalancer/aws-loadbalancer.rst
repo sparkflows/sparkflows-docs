@@ -1,7 +1,7 @@
 AWS Network Load Balancer
 ==========================
 
-It explains about creating network load balancer in AWS and configuring VM running with Fire Insights.
+It explains about creating network load balancer in AWS and configuring VM running with Sparkflows.
 
 Below are steps involved in creating network load balancer in AWS:
 
@@ -78,7 +78,7 @@ Configure Routing
 Port forwarding
 --------
 
-As Fire Insights by default running on port 8080 for HTTP & 8443 for HTTPS, make sure to forward HTTP or HTTPS to specified port on which Fire Insights is running.
+As Sparkflows by default running on port 8080 for HTTP & 8443 for HTTPS, make sure to forward HTTP or HTTPS to specified port on which Sparkflows is running.
 
 ::
 

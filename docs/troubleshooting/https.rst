@@ -1,7 +1,7 @@
 HTTPS
 =============
 
-Fire Insights can be configured with HTTPS. By default, it comes up with self signed certificate. User gets the option to configure customized certificate (CA).
+Sparkflows can be configured with HTTPS. By default, it comes up with self signed certificate. User gets the option to configure customized certificate (CA).
 
 This document explains some of the common issues and corresponding resolutions related to certificates.
 

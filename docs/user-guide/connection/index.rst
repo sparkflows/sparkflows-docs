@@ -1,7 +1,7 @@
 Connections
 -----------
 
-Fire Insights enables you to create different connections. It offers the following three types of Connections:
+Sparkflows enables you to create different connections. It offers the following three types of Connections:
 
 #. **Compute Connections -** like Databricks, AWS Glue, Livy, and Spark Submit connection.
 
@@ -19,7 +19,7 @@ Connections can be created at various levels:
 
 To create a Connection follow the steps below:
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 +++++
 
 Enter your sign in credentials as an **Admin**, as shown below. 

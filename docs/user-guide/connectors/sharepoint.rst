@@ -1,7 +1,7 @@
 Sharepoint
 ==========
 
-Fire Insights has a Sharepoint Data Extraction processor for extracting data.
+Sparkflows has a Sharepoint Data Extraction processor for extracting data.
 
 Creating Sharepoint Connection
 ------------------

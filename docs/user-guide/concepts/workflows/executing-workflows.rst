@@ -56,7 +56,7 @@ For running the workflow in Debug Mode, add the following parameters::
 Workflow JSON
 --------------
  
-In Fire Insights, workflows are saved as JSON Strings. 
+In Sparkflows, workflows are saved as JSON Strings. 
   
 The View JSON Workflow page of the workflow displays the JSON representations of the workflow. 
 
@@ -105,7 +105,7 @@ Many times it is helpful to be able to debug the workflows. One easy way is to c
  
 Running in Debug Mode does a few things:
 
-#. Performs a count() after executing each processor. This makes it easier to debug and understand the pipeline. It takes out Fire Insights’ lazy execution from the picture.
+#. Performs a count() after executing each processor. This makes it easier to debug and understand the pipeline. It takes out Sparkflows’ lazy execution from the picture.
 #. Displays the number of records processed at each stage.
 #. Displays more information for each SQL, etc., which are being executed.
 

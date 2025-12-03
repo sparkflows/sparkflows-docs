@@ -2,9 +2,9 @@
 GCP Guide
 =========
 
-Fire Insights is seamlessly integrated with Google Cloud Platform. With Fire Insights you can perform self-serve data processing, analytics and machine learning on Google Cloud.
+Sparkflows is seamlessly integrated with Google Cloud Platform. With Sparkflows you can perform self-serve data processing, analytics and machine learning on Google Cloud.
 
-Fire Insights integrates with Google BigQuery, GCS File System, etc.
+Sparkflows integrates with Google BigQuery, GCS File System, etc.
 
 .. panels::
     :container: container-lg pb-3

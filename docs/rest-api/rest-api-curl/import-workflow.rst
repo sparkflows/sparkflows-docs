@@ -3,7 +3,7 @@ Import Workflow REST API
 
 The Import Workflow REST API allow you to import workflow through exported workflow json.
 
-Below is the Import Workflow API available in Fire Insights. They should be executed after you generate access token for user in Fire Insights.
+Below is the Import Workflow API available in Sparkflows. They should be executed after you generate access token for user in Sparkflows.
 
 
 An example request for importing specified workflow json file:

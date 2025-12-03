@@ -4,7 +4,7 @@ This document explains in detail the prerequisites and steps required to create 
 
 Prerequisites
 ------
-Before you create a dashboard in Fire Insights, ensure the following prerequisites are completed:
+Before you create a dashboard in Sparkflows, ensure the following prerequisites are completed:
 
 **Create MySQL Connection**
 
@@ -14,9 +14,9 @@ Follow the steps given here to create a new MySQL connection: :ref:`Create MySQL
 
 **Add Google REST API Key**
   
-Another prerequisite for creating a dashboard is to add the Google REST API Key in Fire Insights configuration. To add:
+Another prerequisite for creating a dashboard is to add the Google REST API Key in Sparkflows configuration. To add:
 
-1.	**Login** to Fire Insights.
+1.	**Login** to Sparkflows.
 2.	From the Dashboard page, navigate to **Administration -> Configurations**.
   
  .. figure:: ../../_assets/installation/connection/create_connections/administration_page.png
@@ -32,7 +32,7 @@ Another prerequisite for creating a dashboard is to add the Google REST API Key 
 
 Create JDBC Dataset
 ------
-Follow the steps below to create a JDBC dataset in Fire Insights:
+Follow the steps below to create a JDBC dataset in Sparkflows:
   
 **Step 1 : Navigate to Datasets Page**
 +++++++++++++++++++++++++++++++++++++++++
@@ -73,7 +73,7 @@ Follow the steps below to create a JDBC dataset in Fire Insights:
 **Step 4 : Update Sample Data / Schema**
 +++++++++++++++++++++++++++++++++++++++++
   
-* Click on **Update Sample Data/Schema** button to update the schema of the dataset, as shown below. This step would display sample data for the dataset followed by the Schema inferred by Fire Insights.
+* Click on **Update Sample Data/Schema** button to update the schema of the dataset, as shown below. This step would display sample data for the dataset followed by the Schema inferred by Sparkflows.
  
   .. figure:: ../../_assets/tutorials/dataset/Dashboards/update-schema.png
       :alt: Dataset

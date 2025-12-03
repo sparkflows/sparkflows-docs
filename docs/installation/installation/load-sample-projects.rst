@@ -9,7 +9,7 @@ Step 1 : Login to Sparkflows
 ------------------------------------
 To Login :
 
-#. Open Fire Insights login page.
+#. Open Sparkflows login page.
 #. Enter your credentials.
 #. Click **Sign in** to reach the Dashboard page.
 
@@ -46,4 +46,4 @@ Once the sample projects are loaded one can see a list of projects.
    
 Now you can start exploring different workflows, datasets among others.  
    
-.. note::  Make sure to copy data folder from Fire Insights Binary and uploaded in data source where you need to reload sample Project.   
+.. note::  Make sure to copy data folder from Sparkflows Binary and uploaded in data source where you need to reload sample Project.   

@@ -1,10 +1,10 @@
 Data Preparation: Miscellaneous
 ==========
 
-Fire Insights provides various processors for Data Preparation.
+Sparkflows provides various processors for Data Preparation.
 
 
-Data Preparation Processors in Fire Insights
+Data Preparation Processors in Sparkflows
 ----------------------------------------
 
 
@@ -59,7 +59,7 @@ Data Preparation Processors in Fire Insights
 Dynamic Rename
 ----------------------
 
-Below is a sample workflow which contains Dynamic Rename processor in Fire Insights. It demonstrates the usage of the Dynamic Rename Node to rename columns using custom names or bulk rename operations.
+Below is a sample workflow which contains Dynamic Rename processor in Sparkflows. It demonstrates the usage of the Dynamic Rename Node to rename columns using custom names or bulk rename operations.
 
 It does the following processing of data:
 
@@ -126,7 +126,7 @@ The output of Dynamic Rename node is shown below:
 
 Transpose Advanced
 --------------------
-Below is a sample workflow which contains Transpose Advanced processor in Fire Insights. It demonstrates how the Transpose Advanced Node converts structured, column-based data into a long tabular form suitable for downstream analytics.
+Below is a sample workflow which contains Transpose Advanced processor in Sparkflows. It demonstrates how the Transpose Advanced Node converts structured, column-based data into a long tabular form suitable for downstream analytics.
 
 It does the following processing of data:
 
@@ -186,7 +186,7 @@ The output of Transpose Advanced node is a long-format DataFrame with all select
 Columns Rename
 ----------------------------------------
 
-Below is a sample workflow that contains ``Columns Rename`` processor in Fire Insights. It demonstrates the usage of ``Columns Rename`` node to rename incoming dataset columns.
+Below is a sample workflow that contains ``Columns Rename`` processor in Sparkflows. It demonstrates the usage of ``Columns Rename`` node to rename incoming dataset columns.
 
 It does the following processing of data:
 
@@ -228,7 +228,7 @@ Output of ``Columns Rename`` node would be a dataset with incoming columns renam
 Round Value
 ----------------------------------------
 
-Below is a sample workflow that contains ``Round Value`` processor in Fire Insights. It demonstrates the usage of ``Round Value`` node to convert incoming value to a decimal value of specified precision.
+Below is a sample workflow that contains ``Round Value`` processor in Sparkflows. It demonstrates the usage of ``Round Value`` node to convert incoming value to a decimal value of specified precision.
 
 It does the following processing of data:
 
@@ -273,7 +273,7 @@ Output of ``Round Value`` node would be a dataset with incoming values converted
 Count
 ----------------------------------------
 
-Below is a sample workflow that contains ``Count`` processor in Fire Insights. It demonstrates the usage of ``Count`` node to fetch and print row count of incoming dataset.
+Below is a sample workflow that contains ``Count`` processor in Sparkflows. It demonstrates the usage of ``Count`` node to fetch and print row count of incoming dataset.
 
 It does the following processing of data:
 
@@ -314,7 +314,7 @@ Output of ``Count`` node would display row count of incoming dataset.
 Moving Windows Function
 ----------------------------------------
 
-Below is a sample workflow that contains ``Moving Windows Function`` processor in Fire Insights. It demonstrates the usage of ``Moving Windows Function`` node to compute moving values such as average/max/min by application of specified function on the windows of rows defined.
+Below is a sample workflow that contains ``Moving Windows Function`` processor in Sparkflows. It demonstrates the usage of ``Moving Windows Function`` node to compute moving values such as average/max/min by application of specified function on the windows of rows defined.
 
 It does the following processing of data:
 
@@ -361,7 +361,7 @@ Output of ``Moving Windows Function`` node would display a dataset with computed
 Multi Windows Analytics
 ----------------------------------------
 
-Below is a sample workflow that contains ``Multi Windows Analytics`` processor in Fire Insights. It demonstrates the usage of ``Multi Windows Analytics`` node to select a value by application of windows functions such as first_val / last_val within a group of rows.
+Below is a sample workflow that contains ``Multi Windows Analytics`` processor in Sparkflows. It demonstrates the usage of ``Multi Windows Analytics`` node to select a value by application of windows functions such as first_val / last_val within a group of rows.
 
 It does the following processing of data:
 
@@ -406,7 +406,7 @@ Output of ``Multi Windows Analytics`` node would display a dataset with a value 
 Multi Windows Ranking
 ----------------------------------------
 
-Below is a sample workflow that contains ``Multi Windows Ranking`` processor in Fire Insights. It demonstrates the usage of ``Multi Windows Ranking`` node to rank rows within a group using a windows function.
+Below is a sample workflow that contains ``Multi Windows Ranking`` processor in Sparkflows. It demonstrates the usage of ``Multi Windows Ranking`` node to rank rows within a group using a windows function.
 
 It does the following processing of data:
 
@@ -450,7 +450,7 @@ Output of ``Multi Windows Ranking`` node would display a dataset with rank value
 Sample
 ----------------------------------------
 
-Below is a sample workflow that contains ``Sample`` processor in Fire Insights. It demonstrates the usage of ``Sample`` node to select a sample dataset out of incoming dataset.
+Below is a sample workflow that contains ``Sample`` processor in Sparkflows. It demonstrates the usage of ``Sample`` node to select a sample dataset out of incoming dataset.
 
 It does the following processing of data:
 
@@ -492,7 +492,7 @@ Output of ``Sample`` node would display a Sample dataset.
 Sort By
 ----------------------------------------
 
-Below is a sample workflow that contains ``Sort By`` processor in Fire Insights. It demonstrates the usage of ``Sort By`` node to sort incoming dataset on selected columns.
+Below is a sample workflow that contains ``Sort By`` processor in Sparkflows. It demonstrates the usage of ``Sort By`` node to sort incoming dataset on selected columns.
 
 It does the following processing of data:
 
@@ -535,7 +535,7 @@ Output of ``Sort By`` node would display a Sorted dataset.
 Sort Columns
 ----------------------------------------
 
-Below is a sample workflow that contains ``Sort Columns`` processor in Fire Insights. It demonstrates the usage of ``Sort Columns`` node to change order of columns in the output as per selection.
+Below is a sample workflow that contains ``Sort Columns`` processor in Sparkflows. It demonstrates the usage of ``Sort Columns`` node to change order of columns in the output as per selection.
 
 It does the following processing of data:
 
@@ -578,7 +578,7 @@ Output of ``Sort Columns`` node would display a dataset displaying columns sorte
 Transpose
 ----------------------------------------
 
-Below is a sample workflow which contains ``Transpose`` processor in Fire Insights. It demonstrates the usage of ``Transpose`` node to transpose incoming dataset against on the selected column.
+Below is a sample workflow which contains ``Transpose`` processor in Sparkflows. It demonstrates the usage of ``Transpose`` node to transpose incoming dataset against on the selected column.
 
 It does the following processing of data:
 
@@ -619,7 +619,7 @@ Output of ``Transpose`` node would display a dataset displaying transposed datas
 Windows Analytics
 ----------------------------------------
 
-Below is a sample workflow that contains ``Windows Analytics`` processor in Fire Insights. It demonstrates the usage of ``Windows Analytics`` node to select a value by application of windows functions such as first_val / last_val within a group of rows.
+Below is a sample workflow that contains ``Windows Analytics`` processor in Sparkflows. It demonstrates the usage of ``Windows Analytics`` node to select a value by application of windows functions such as first_val / last_val within a group of rows.
 
 It does the following processing of data:
 
@@ -663,7 +663,7 @@ Output of ``Windows Analytics`` node would display a dataset with a value select
 Windows Ranking
 ----------------------------------------
 
-Below is a sample workflow that contains ``Windows Ranking`` processor in Fire Insights. It demonstrates the usage of ``Windows Ranking`` node to rank rows within a group using a windows function.
+Below is a sample workflow that contains ``Windows Ranking`` processor in Sparkflows. It demonstrates the usage of ``Windows Ranking`` node to rank rows within a group using a windows function.
 
 It does the following processing of data:
 
@@ -705,7 +705,7 @@ Output of ``Windows Ranking`` node would display a dataset with rank value for e
 Flatten
 ----------------------------------------
 
-Below is a sample workflow that contains ``Flatten`` processor in Fire Insights. It demonstrates the usage of ``Flatten`` node to add new columns for each element of a struct present in a Column data.   
+Below is a sample workflow that contains ``Flatten`` processor in Sparkflows. It demonstrates the usage of ``Flatten`` node to add new columns for each element of a struct present in a Column data.   
 
 It does the following processing of data:
 
@@ -750,7 +750,7 @@ Output of ``Flatten`` node would be a dataset with new columns added to it.
 Explode
 ----------------------------------------
 
-Below is a sample workflow that contains ``Explode`` processor in Fire Insights. It demonstrates the usage of ``Explode`` node to add new rows for each value of an array data that is contained in a column data.
+Below is a sample workflow that contains ``Explode`` processor in Sparkflows. It demonstrates the usage of ``Explode`` node to add new rows for each value of an array data that is contained in a column data.
 
 It does the following processing of data:
 
@@ -799,7 +799,7 @@ Output of ``Explode`` node would be a dataset with new rows added to it.
 Hive Incremental
 ----------------------------------------
 
-Below is a sample workflow that contains ``Hive Incremental`` processor in Fire Insights. It demonstrates the usage of ``Hive Incremental`` node to read data from a Hive table incrementally using watermark data.
+Below is a sample workflow that contains ``Hive Incremental`` processor in Sparkflows. It demonstrates the usage of ``Hive Incremental`` node to read data from a Hive table incrementally using watermark data.
 
 It does the following processing of data:
 

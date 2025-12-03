@@ -1,7 +1,7 @@
 PySpark Processor
 =======
 
-Fire Insights provides a PySpark processor for writing PySpark or Python code.
+Sparkflows provides a PySpark processor for writing PySpark or Python code.
 
 Interface
 ---------

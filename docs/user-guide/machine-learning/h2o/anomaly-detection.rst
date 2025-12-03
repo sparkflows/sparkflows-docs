@@ -1,7 +1,7 @@
 Anomaly Detection
 ===============
 
-Fire Insights provides the below processors for performing Anomaly Detection using H2O.
+Sparkflows provides the below processors for performing Anomaly Detection using H2O.
      
 H2O Isolation Forest
 ----------

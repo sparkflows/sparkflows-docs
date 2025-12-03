@@ -1,14 +1,14 @@
 Change Password
 =====
 
-Sparkflows provides a simple and efficient way to change your login password within **Fire Insights**. This document outlines the step-by-step process to **update your password** securely.
+Sparkflows provides a simple and efficient way to change your login password within **Sparkflows**. This document outlines the step-by-step process to **update your password** securely.
 
 Follow the steps below:
 
 
-Step 1: Login to Fire Insights
+Step 1: Login to Sparkflows
 ----
-* Use your existing credentials to log in to **Fire Insights**. Upon successful login, you will be directed to the **Dashboard**.
+* Use your existing credentials to log in to **Sparkflows**. Upon successful login, you will be directed to the **Dashboard**.
   
   .. figure:: ..//_assets/change-password/dashboard.png
      :width: 60%

@@ -10,7 +10,7 @@ Overview
 
 The `Execute Workflow` node sends a message to Sparkflows to execute a specific Workflow. The workflow has to be within the same project. The workflow gets executed with the user who execute the original workflow. Parameters can be passed to the workflow as well.
 
-Below are the steps on how to execute a specific workflow in Fire Insights.
+Below are the steps on how to execute a specific workflow in Sparkflows.
 
 Create Workflow
 --------------------

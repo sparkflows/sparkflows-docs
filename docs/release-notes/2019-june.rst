@@ -13,7 +13,7 @@ Improvements in UI
 Improvements to HDFS Browser
 ----------------------------
 
-- Fire Insights now allows moving multiple files from one directory to another.
+- Sparkflows now allows moving multiple files from one directory to another.
 
 
 Support Of Authentication Using Token

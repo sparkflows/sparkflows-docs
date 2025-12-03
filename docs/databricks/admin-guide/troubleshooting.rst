@@ -1,22 +1,22 @@
 Troubleshooting Databricks Integration
 ===========================================
 
-1. No Data Displayed in Fire Insights after Workflow Execution
+1. No Data Displayed in Sparkflows after Workflow Execution
 -------------------------------------------------
 
 Problem
 +++++++
 
-Nothing is Displayed in Fire Insights after Workflow Execution.
+Nothing is Displayed in Sparkflows after Workflow Execution.
 
 Solution
 +++++++++
 
-* This problem may arise due to incorrect configuration of the postback URL in Fire Insights with the Databricks connection you will be using.
+* This problem may arise due to incorrect configuration of the postback URL in Sparkflows with the Databricks connection you will be using.
 
-* Another possible issue is the inaccessibility of the machine running Fire Insights from the Databricks Cluster. 
+* Another possible issue is the inaccessibility of the machine running Sparkflows from the Databricks Cluster. 
 
-  It is recommended to verify connectivity between Databricks and the Fire Insights machine. Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
+  It is recommended to verify connectivity between Databricks and the Sparkflows machine. Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
 
   .. figure:: ../../_assets/configuration/databricks_ping.PNG
      :alt: Databricks
@@ -45,7 +45,7 @@ The reason for it is that the Databricks Simba JDBC JAR file is not deployed in 
 Problem
 ++++++++
 
-Troubleshooting Fire with Databricks may necessitate the review of cluster logs in Databricks. Users may find it challenging to locate relevant logs for Fire Insights jobs within Databricks.
+Troubleshooting Fire with Databricks may necessitate the review of cluster logs in Databricks. Users may find it challenging to locate relevant logs for Sparkflows jobs within Databricks.
 
 Solution
 ++++++++++++
@@ -56,7 +56,7 @@ When running Fire with Databricks, it can be beneficial to review cluster logs i
 
   - Log4j output.log
 
-  Search for **workflowexecutecloud** in the logs to view if the Fire Insights Job is running in Databricks.
+  Search for **workflowexecutecloud** in the logs to view if the Sparkflows Job is running in Databricks.
 
 4. Java.lang.Exception Error Occurrence
 -----------------------------------------

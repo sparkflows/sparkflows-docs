@@ -1,7 +1,7 @@
 Read From Delta Lake 
 ================
 
-Fire Insights provides seamless integration with Delta Lake, allowing users to efficiently read and process data stored in Delta Lake tables.
+Sparkflows provides seamless integration with Delta Lake, allowing users to efficiently read and process data stored in Delta Lake tables.
 
 Workflow
 --------

@@ -1,8 +1,8 @@
 Salesforce
 ================
-Fire Insights enables to Read from and Write to Salesforce using cdata JDBC Driver.
+Sparkflows enables to Read from and Write to Salesforce using cdata JDBC Driver.
 
-Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Fire Insights.
+Below are the steps for Downloading and Configuring cdata JDBC Driver and Reading and Writing to Salesforce in Sparkflows.
 
 Download and Configure cdata JDBC Driver
 ----------------
@@ -54,20 +54,20 @@ On Successful completion of the above steps, go to path where you installed sale
    :alt: salesforce
    :width: 65%     
    
-Configure cdata JDBC Driver in Fire Insights
+Configure cdata JDBC Driver in Sparkflows
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now, cdata JDBC Driver jar can be configured in Fire Insights to Read and Write to Salesforce using JDBC Processors.
+Now, cdata JDBC Driver jar can be configured in Sparkflows to Read and Write to Salesforce using JDBC Processors.
 
-Below are the steps to configure cdata JDBC Driver in Fire Insights and read and write to Salesforce.
+Below are the steps to configure cdata JDBC Driver in Sparkflows and read and write to Salesforce.
 
 - Copy the ``cdata.jdbc.salesforce.jar`` to ``fire-user-lib & fire-server-lib`` and restart the Fire server.
-- Login to Fire Insights application and Go inside project and workflow tab to create a sample workflow with Read and Write to Salesforce using Read JDBC & Save JDBC Processors.
+- Login to Sparkflows application and Go inside project and workflow tab to create a sample workflow with Read and Write to Salesforce using Read JDBC & Save JDBC Processors.
 
 Read Salesforce
 ---------------
 
-Fire Insights has a processor that allows you to read data from Salesforce. Salesforce is a powerful cloud-based Customer Relationship Management (CRM) platform that helps businesses manage their customer interactions, sales processes, and various aspects of their operations.
+Sparkflows has a processor that allows you to read data from Salesforce. Salesforce is a powerful cloud-based Customer Relationship Management (CRM) platform that helps businesses manage their customer interactions, sales processes, and various aspects of their operations.
 
 * **Read Salesforce** connector can be used to read data from Salesforce. It reads data from the specified Table in the Query.
 

@@ -1,6 +1,6 @@
 AWS IAM AssumeRole
 ======
-Fire Insights is integrated with AWS IAM Assume Role which can be Configured at Group level.
+Sparkflows is integrated with AWS IAM Assume Role which can be Configured at Group level.
 
 Advantage
 -----

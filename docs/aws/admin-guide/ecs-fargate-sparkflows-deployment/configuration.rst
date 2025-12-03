@@ -1,7 +1,7 @@
-Fire Insights Deployment on ECS Fargate
+Sparkflows Deployment on ECS Fargate
 =======================================
 
-Fire Insights can be deployed on ECS Fargate. This document explains the steps required to configure the task, service, application load balancer and task groups to run Fire Insights on ECS Fargate.
+Sparkflows can be deployed on ECS Fargate. This document explains the steps required to configure the task, service, application load balancer and task groups to run Sparkflows on ECS Fargate.
 
 Below are the steps:
 

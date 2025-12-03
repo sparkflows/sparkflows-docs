@@ -1,7 +1,7 @@
 Service Account
 ======
 
-This guide provides step-by-step instructions for creating a Service Account in GCP. The Service Account will be used to authenticate and access GCP resources, such as Google Storage from Fire Insights.
+This guide provides step-by-step instructions for creating a Service Account in GCP. The Service Account will be used to authenticate and access GCP resources, such as Google Storage from Sparkflows.
 
 Prerequisites
 ----

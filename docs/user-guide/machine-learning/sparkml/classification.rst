@@ -8,7 +8,7 @@ https://en.wikipedia.org/w/index.php?search=Clssification+in+machine+learning&ti
 Apache Spark MLlib
 -------------------------
 
-.. list-table:: Apache Spark based Classification Processors in Fire Insights
+.. list-table:: Apache Spark based Classification Processors in Sparkflows
    :widths: 30 70
    :header-rows: 1
 
@@ -35,7 +35,7 @@ Apache Spark MLlib
 Classification Algorithms in Spark MLlib
 ++++++++++++++++++++
 
-Fire Insights provides processors for the following Algorithms:
+Sparkflows provides processors for the following Algorithms:
 
 - Logistic Regression
 - Decision tree classifier

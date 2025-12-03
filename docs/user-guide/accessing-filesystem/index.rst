@@ -1,7 +1,7 @@
 Accessing File System
 ======
 
-Fire Insights enable you to access different File System depending on the configurations.
+Sparkflows enable you to access different File System depending on the configurations.
 
 
 .. panels::

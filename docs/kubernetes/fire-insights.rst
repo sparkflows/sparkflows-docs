@@ -1,9 +1,9 @@
-Install Fire Insights
+Install Sparkflows
 --------------
 
-Below are the steps for installing Fire Insights.
+Below are the steps for installing Sparkflows.
 
-- In this setup, we will be using MySQL as the database for Fire insights server. Assuming MySQL is running in the namespace **demo**, create an interactive shell using the below command::
+- In this setup, we will be using MySQL as the database for Sparkflows server. Assuming MySQL is running in the namespace **demo**, create an interactive shell using the below command::
   
    kubectl run -it --rm --image=mysql:8.0 --restart=Never mysql-client -- mysql -h mysql.demo.svc.cluster.local -p<root_password>
   
@@ -15,7 +15,7 @@ Below are the steps for installing Fire Insights.
    CREATE user 'fire'@'%' IDENTIFIED BY 'fire';
    GRANT ALL PRIVILEGES ON firedb.* TO 'fire'@'%' WITH GRANT OPTION;
    
-- Create **fire-deployment.yaml** with the following configuration deploy **Fire Insights** on kubernetes:
+- Create **fire-deployment.yaml** with the following configuration deploy **Sparkflows** on kubernetes:
 
   .. code-block:: yml
 
@@ -71,6 +71,6 @@ Below are the steps for installing Fire Insights.
    NAME                                      TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
    fire                                      NodePort       10.43.87.85     <none>        8080:30318/TCP               45m
 
-- Get the public IP of the node **n1.k8s** and access the Fire insights web console at http://<public-ip-node>:30318
+- Get the public IP of the node **n1.k8s** and access the Sparkflows web console at http://<public-ip-node>:30318
 
 - You can setup custom load balancer to access the above service.

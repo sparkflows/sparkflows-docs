@@ -8,7 +8,7 @@ Pipeline
 
 Upgradation of Pipeline feature without airflow configurations.
 
-Fire Insights provides option to user to run different workflow using Pipeline without airflow with different compute engine and view its executions.
+Sparkflows provides option to user to run different workflow using Pipeline without airflow with different compute engine and view its executions.
 
 .. figure:: ..//_assets/releases/may-2022/pipeline_wf.PNG
    :alt: pipeline
@@ -49,7 +49,7 @@ Save DynamoDB
 Flatten
 ++++++++++
 
-Fire insights enable you to use Flatten Processor to Flatten the nested structure in struct into given column.
+Sparkflows enable you to use Flatten Processor to Flatten the nested structure in struct into given column.
 
 .. figure:: ..//_assets/releases/may-2022/flatten_node.PNG
    :alt: pipeline
@@ -63,7 +63,7 @@ Fire insights enable you to use Flatten Processor to Flatten the nested structur
 Explode
 +++++++++
 
-Fire insights enable you to use Explode Processor to Explode the array of values into multiple rows with columnname_explode.
+Sparkflows enable you to use Explode Processor to Explode the array of values into multiple rows with columnname_explode.
 
 .. figure:: ..//_assets/releases/may-2022/explode_node.PNG
    :alt: pipeline
@@ -84,7 +84,7 @@ UI Upgrades
    
 - Icon for Project
 
-Fire Insights enable user to select icon for project as per functionality being used
+Sparkflows enable user to select icon for project as per functionality being used
 
 .. figure:: ..//_assets/releases/may-2022/icon_project.PNG
    :alt: pipeline

@@ -1,7 +1,7 @@
 Save to Delta Lake
 ================
 
-Fire Insights enables the user to write to Delta Lake.
+Sparkflows enables the user to write to Delta Lake.
 
 Workflow
 --------

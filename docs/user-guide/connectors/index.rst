@@ -1,10 +1,10 @@
 Connecting to Data
 ==========
 
-Fire Insights provides a number of Processors for reading and writing data from various sources.
+Sparkflows provides a number of Processors for reading and writing data from various sources.
 
 
-Connector Processors in Fire Insights
+Connector Processors in Sparkflows
 ----------------------------------------
 
 

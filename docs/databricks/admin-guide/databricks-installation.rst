@@ -1,7 +1,7 @@
 Databricks Integration Steps
 ======================
 
-Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
+Sparkflows integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Sparkflows.
 
 Fire also fetches the list of Databases and Tables from Databricks, making it easier for the user to build their workflows and execute them. 
 
@@ -12,17 +12,17 @@ Databricks can be running on Azure or on AWS.
 * Running Databricks on Azure : `Azure-Databricks Documentation <https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal>`_
 * Running Databricks on AWS : `AWS-Databricks Documentation <https://databricks.com/aws>`_
 
-Below are the steps for Integrating Fire Insights with your Databricks clusters.
+Below are the steps for Integrating Sparkflows with your Databricks clusters.
 
-Step 1 : Install Fire Insights
+Step 1 : Install Sparkflows
 ^^^^^^^^^^^^^^^^
 
-To begin, install Fire Insights on any machine. Ensure that this machine is accessible from your Databricks cluster.
+To begin, install Sparkflows on any machine. Ensure that this machine is accessible from your Databricks cluster.
 
 Step 2 : Upload Fire Core JAR to Databricks
 ^^^^^^^^^^^^^^
 
-Fire Insights relies on a specific JAR file to execute tasks within Databricks. 
+Sparkflows relies on a specific JAR file to execute tasks within Databricks. 
 
 This JAR file, named **fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar**, must be uploaded to Library on to Databricks. 
 
@@ -61,7 +61,7 @@ You can do this by following these steps:
 Step 3 : Create REST API Token in Databricks
 ^^^^^^^^^^^^^^
 
-To facilitate communication between Fire Insights and Databricks via REST API calls, a token must be generated in your Databricks account. 
+To facilitate communication between Sparkflows and Databricks via REST API calls, a token must be generated in your Databricks account. 
 
 Follow these steps to create your token:
 
@@ -97,7 +97,7 @@ Follow these steps to create your token:
       :width: 60%
 
 
-Step 4 : Create Databricks Connection in Fire Insights
+Step 4 : Create Databricks Connection in Sparkflows
 ^^^^^^^^^^^^^^
 
 The connection can be created by the **Administrator** under **Administration/Global Connections**. These connections are available for everyone to use. It can also be created by any user with their Application. In this case, it is only available to the Application and its users.
@@ -129,8 +129,8 @@ GENERAL Tab :
      - Token
      - Add token generated
    * - POSTBACK URL
-     - Fire Insights Post Back URL
-     - Add Fire Insights Post Back URL
+     - Sparkflows Post Back URL
+     - Add Sparkflows Post Back URL
    * - TITLE 
      - Title for selected Connection
      - Add an unique Title
@@ -181,9 +181,9 @@ After setting the parameters, test the connection and save it. Once the connecti
 
 More details on creating these connections can be found here : `Create Databricks Connection <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_
 
-.. note:: Please make sure to specify a POSTBACK URL. This is the address where results from Databricks jobs will be sent to Fire Insights. If you don't provide one, the system will automatically use the **app.postMessageURL** updated by default in configurations.
+.. note:: Please make sure to specify a POSTBACK URL. This is the address where results from Databricks jobs will be sent to Sparkflows. If you don't provide one, the system will automatically use the **app.postMessageURL** updated by default in configurations.
 
-With these steps completed, you're now ready to harness the power of the Databricks Connection within Fire Insights. This integration allows you to seamlessly:
+With these steps completed, you're now ready to harness the power of the Databricks Connection within Sparkflows. This integration allows you to seamlessly:
 
 * Browse Databricks File System (DBFS).
 * Access information about your Databricks Clusters.

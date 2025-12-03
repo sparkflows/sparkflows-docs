@@ -1,10 +1,10 @@
 SAP HANA Connection
 =====
-Fire Insights provides the capability to create a SAP HANA connection and use the connection to read from and write to SAP HANA. Below are the steps for creating a SAP HANA connection in Fire Insights:
+Sparkflows provides the capability to create a SAP HANA connection and use the connection to read from and write to SAP HANA. Below are the steps for creating a SAP HANA connection in Sparkflows:
 
 * Download SAP HANA JDBC Driver
 * Install the SAP HANA JDBC Driver
-* Restart Fire Insights
+* Restart Sparkflows
 * Create the SAP HANA Connection
 
 Download SAP HANA JDBC Driver
@@ -19,29 +19,29 @@ Download SAP HANA JDBC Driver
 
   * Go to the SAP Service Marketplace through the link provided here: http://service.sap.com/connectors
   * You will need SAP credentials to access the Service Marketplace.
-  * Download the **ngdbc.jar** file and install it on the Fire Insights machine.
+  * Download the **ngdbc.jar** file and install it on the Sparkflows machine.
 
 Install the SAP HANA JDBC Driver
 ----
 In order to install the JDBC driver, copy the driver jdbc jar file (``ngdbc.jar``) into **fire-user-lib** and **fire-server-lib** directories under the Fire installation home directory.
 
-Restart Fire Insights
+Restart Sparkflows
 ----
-* To register the new driver, run the following command in the terminal to automatically restart Fire Insights application.
+* To register the new driver, run the following command in the terminal to automatically restart Sparkflows application.
   ::
      ./run-fire-server.sh restart
 
 
-* Or else you can wait for 60 minutes, and Fire Insights will auto-register the JDBC driver.
+* Or else you can wait for 60 minutes, and Sparkflows will auto-register the JDBC driver.
 
 
 Create the SAP HANA Connection
 ----
 You can create the connection at **Global**, **Group**, or **Project level**.
 
-To create SAP HANA connection in Fire Insights, follow the steps below:
+To create SAP HANA connection in Sparkflows, follow the steps below:
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Navigate to **Administration -> Global/Group Connections**.
 * From the Connections page, click on **Add Connection** button and choose connection level. An Add Connection dialog box will open.
 * Now select connection category as **Storage** and connection type as **SAP HANA**, as shown below.

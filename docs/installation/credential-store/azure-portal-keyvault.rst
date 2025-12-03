@@ -1,7 +1,7 @@
 Azure Key Vault
 ================
 
-Fire Insights is integrated with Azure Key Vault. Once configured, the keys in the Key Vault can be used in the connections defined in the Fire Insights.
+Sparkflows is integrated with Azure Key Vault. Once configured, the keys in the Key Vault can be used in the connections defined in the Sparkflows.
 
 
 Create Azure Key Vault in Azure portal

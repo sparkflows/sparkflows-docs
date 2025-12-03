@@ -1,12 +1,12 @@
 Backup and Recovery
 ------
 
-This document explains the steps involved in backing up and recovering of data in Fire Insights using either H2 database (H2 DB) or MySQL Database (MySQL DB).
+This document explains the steps involved in backing up and recovering of data in Sparkflows using either H2 database (H2 DB) or MySQL Database (MySQL DB).
 
 Data Storage on H2 DB and MySQL DB
 ==================================
 
-Fire Insights stores the metadata into a Relational Database.
+Sparkflows stores the metadata into a Relational Database.
 
 It comes with an embedded H2 database (H2 DB). It scales well for pretty heavy loads and upto 50 users. Sparkflows can be easily configured to run with a MySQL database.
 
@@ -25,21 +25,21 @@ Automate Backup of H2 DB
 
 This section enlists detailed steps for automate backup of H2 DB.
 
-Fire Insights enables Administrator to avail options for Automate Backup of H2 DB from UI and can be stored on same VM or in S3 bucket if its accessible from Fire Inisghts Machine.
+Sparkflows enables Administrator to avail options for Automate Backup of H2 DB from UI and can be stored on same VM or in S3 bucket if its accessible from Fire Inisghts Machine.
 
 Below are the detailed steps. 
 
 Login to update path for backup location
 +++++++++++++++++++++++++
 
-Login to ``Fire Insights`` application -> ``Administration`` -> ``Configurations`` -> ``app.db.backup.location`` -> and update path where you want to take backup:
+Login to ``Sparkflows`` application -> ``Administration`` -> ``Configurations`` -> ``app.db.backup.location`` -> and update path where you want to take backup:
 
 ::
 
 
     app.db.backup.location : /home/sparkflows
 
-.. note:: The path updated should have sufficient permission to write. You may configure S3 bucket if Fire Insights have sufficient privilege to write.
+.. note:: The path updated should have sufficient permission to write. You may configure S3 bucket if Sparkflows have sufficient privilege to write.
 
 .. figure:: ../_assets/operating/backup/bkp_1.PNG
    :alt: bkp

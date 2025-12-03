@@ -1,7 +1,7 @@
 Hadoop Installation Guide
 =========
 
-Fire Insights is seamlessly integrated with Hadoop Distributed File system. With Fire Insights you can perform self-serve data processing, analytics and machine learning with data stored in HDFS.
+Sparkflows is seamlessly integrated with Hadoop Distributed File system. With Sparkflows you can perform self-serve data processing, analytics and machine learning with data stored in HDFS.
 
 In this guide, we'll see how we can setup Hadoop 3.x multi-node cluster.
 

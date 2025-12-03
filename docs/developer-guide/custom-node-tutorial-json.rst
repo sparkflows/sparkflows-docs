@@ -1,7 +1,7 @@
 Custom Node Development in Python
 ===================================
 
-Custom Nodes in Fire Insights can be exported as zip files and then subsequently imported into Fire Insights.
+Custom Nodes in Sparkflows can be exported as zip files and then subsequently imported into Sparkflows.
 
 
 Execution Code

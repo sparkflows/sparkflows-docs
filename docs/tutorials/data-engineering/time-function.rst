@@ -1,9 +1,9 @@
 Time Functions
 =============
 
-There are many instances when you want to do time-series analysis. Fire Insights provides Date-Time features with TimeFunctions operator.
+There are many instances when you want to do time-series analysis. Sparkflows provides Date-Time features with TimeFunctions operator.
 
-Creating additional features from the Timestamp Column helps you to know more about the data and run modeling algorithms on them. Fire Insights has NodeTimeFunctions for creating these time series features.
+Creating additional features from the Timestamp Column helps you to know more about the data and run modeling algorithms on them. Sparkflows has NodeTimeFunctions for creating these time series features.
 
   
 Workflow for applying TimeFunctions

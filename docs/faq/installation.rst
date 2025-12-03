@@ -1,10 +1,10 @@
 Installation
 --------------------
 
-How can I install Fire Insights?
+How can I install Sparkflows?
 ===========
 
-You can download Fire Insights from https://www.sparkflows.io/
+You can download Sparkflows from https://www.sparkflows.io/
 
 Install documentation is at : https://docs.sparkflows.io/en/latest/installation/installation/index.html
 
@@ -34,10 +34,10 @@ More Details are available here : https://www.sparkflows.io/connecting-sparkflow
 
 
 
-How can I log into Fire Insights after Installation?
+How can I log into Sparkflows after Installation?
 ============
 
-The out of the box installation of Fire Insights comes with 2 users:
+The out of the box installation of Sparkflows comes with 2 users:
 
   * Username : admin   Password : admin
   * Username : test   Password : test
@@ -45,7 +45,7 @@ The out of the box installation of Fire Insights comes with 2 users:
 How can I load the sample projects?
 ===========
 
-Fire Insights comes with 28+ Projects and 200+ examples out of the box.
+Sparkflows comes with 28+ Projects and 200+ examples out of the box.
 
 As an admin, you can load all the sample projects or selected ones.
 

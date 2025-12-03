@@ -1,7 +1,7 @@
 Logs
 =====
 
-Fire Insights enables you to troubleshoot issues by using the logs. As an Administrator, you can view the logs in Fire Insights.
+Sparkflows enables you to troubleshoot issues by using the logs. As an Administrator, you can view the logs in Sparkflows.
 
 Read `Sparkflows Documentation <https://docs.sparkflows.io/en/latest/operations/logs.html>`_ to get more details on Logs.
 
@@ -12,7 +12,7 @@ View Logs
 
 **Problem**
 +++++
-How to view logs in Fire Insights?
+How to view logs in Sparkflows?
 
 **Solution**
 +++++

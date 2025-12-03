@@ -1,7 +1,7 @@
 Installing JupyterLab
 ======
 
-JupyterLab can be installed on the machine running Fire Insights, which integrates with Jupyter.
+JupyterLab can be installed on the machine running Sparkflows, which integrates with Jupyter.
 
 To install JupyterLab for Python in the Ubuntu environment, you need to have Python and pip available.
 

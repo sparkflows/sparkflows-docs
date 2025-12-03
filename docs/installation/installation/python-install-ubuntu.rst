@@ -122,11 +122,11 @@ Upgrade pip version with 20.0 or above::
 Install required packages
 -------------------------
 
-Install the required python packages for Fire Insights::
+Install the required python packages for Sparkflows::
 
   pip install -r fire-3.x.y_spark_3.x.y/dist/fire/requirements.txt
    
-``requirements.txt`` file is available in the installation directory of Fire Insights.
+``requirements.txt`` file is available in the installation directory of Sparkflows.
 
 .. Note:: This can run into `Memory error` if there is not enough free RAM on the machine. In that case, please split the dependencies in `requirements.txt` into multiple parts and install.
 

@@ -1,7 +1,7 @@
 Write to S3
 =========================
 
-Fire Insights workflows can write data to S3 locations using Save CSV processor. To get detailed information, read `Databricks Documentation. <https://docs.databricks.com/_static/notebooks/data-import/s3.html>`_
+Sparkflows workflows can write data to S3 locations using Save CSV processor. To get detailed information, read `Databricks Documentation. <https://docs.databricks.com/_static/notebooks/data-import/s3.html>`_
 
 Workflow
 --------

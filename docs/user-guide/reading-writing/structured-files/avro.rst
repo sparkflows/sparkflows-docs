@@ -5,7 +5,7 @@ Read Avro
 -------------
 This node reads Apache Avro files.
 
-Below is a sample workflow which contains the Read Avro processor in Fire Insights. It demonstrates the usage of the Read Avro node to read an Avro Data file.
+Below is a sample workflow which contains the Read Avro processor in Sparkflows. It demonstrates the usage of the Read Avro node to read an Avro Data file.
 
 It does the following processing of data:
 
@@ -43,7 +43,7 @@ Save Avro
 -----------
 This node saves the incoming dataset as Avro File.
 
-Below is a sample workflow which contains Save Avro processor in Fire Insights. It demonstrates the usage of Save Avro node to save incoming dataset in Avro format.
+Below is a sample workflow which contains Save Avro processor in Sparkflows. It demonstrates the usage of Save Avro node to save incoming dataset in Avro format.
 
 It does the following processing of data:
 

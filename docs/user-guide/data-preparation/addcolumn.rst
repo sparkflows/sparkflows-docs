@@ -1,10 +1,10 @@
 Add Columns
 ==========
 
-Fire Insights provide processors to cast data type from one type to another.
+Sparkflows provide processors to cast data type from one type to another.
 
 
-Add Columns Processors in Fire Insights
+Add Columns Processors in Sparkflows
 ----------------------------------------
 
 
@@ -42,7 +42,7 @@ Add Columns Processors in Fire Insights
 Record ID
 -----------
 
-Below is a sample workflow which contains Record ID processor in Fire Insights. It demonstrates how the Record ID Node assigns sequential IDs to rows, either globally or within user-defined groups.
+Below is a sample workflow which contains Record ID processor in Sparkflows. It demonstrates how the Record ID Node assigns sequential IDs to rows, either globally or within user-defined groups.
 
 It does the following processing of data:
 
@@ -97,7 +97,7 @@ The output of this node returns a DataFrame identical to the input but with an a
 Add Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Add Columns processor in Fire Insights. It demonstrates usage of Add Columns node to add new columns with Current Date, Current Time, String Constant and Integer Column values.
+Below is a sample workflow which contains Add Columns processor in Sparkflows. It demonstrates usage of Add Columns node to add new columns with Current Date, Current Time, String Constant and Integer Column values.
 
 It does the following processing of data:
 
@@ -140,7 +140,7 @@ The output of Add Columns node displaying dataset with new columns added to the 
 Add Column Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Add Column Advanced processor in Fire Insights. It demonstrates usage of Add Column Advanced node to add new columns with Current Date, Current Time, String Constant and Integer Column values. Multiple columns can be added in single go.
+Below is a sample workflow which contains Add Column Advanced processor in Sparkflows. It demonstrates usage of Add Column Advanced node to add new columns with Current Date, Current Time, String Constant and Integer Column values. Multiple columns can be added in single go.
 
 It does the following processing of data:
 
@@ -185,7 +185,7 @@ The output of Add Column Advanced node displaying dataset with new columns added
 Case When
 ----------------------------------------
 
-Below is a sample workflow which contains Case When processor in Fire Insights. It demonstrates usage of Case When node to evaluate expressions and derive column values based on condition met.
+Below is a sample workflow which contains Case When processor in Sparkflows. It demonstrates usage of Case When node to evaluate expressions and derive column values based on condition met.
 
 It does the following processing of data:
 
@@ -231,7 +231,7 @@ The output of Case When node displaying the dataset with new computed column add
 Case When Advance
 ----------------------------------------
 
-Below is a sample workflow which contains Case When Advance processor in Fire Insights. It demonstrates usage of Case When Advance node to evaluate multiple group of expressions and derives multiple column values based on condition met.
+Below is a sample workflow which contains Case When Advance processor in Sparkflows. It demonstrates usage of Case When Advance node to evaluate multiple group of expressions and derives multiple column values based on condition met.
 
 It does the following processing of data:
 
@@ -285,7 +285,7 @@ The output of Case When Advance node displaying dataset with new computed column
 Concat Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Concat Columns processor in Fire Insights. It demonstrates usage of Concat Columns node to join values of multiple columns into one column.
+Below is a sample workflow which contains Concat Columns processor in Sparkflows. It demonstrates usage of Concat Columns node to join values of multiple columns into one column.
 
 It does the following processing of data:
 
@@ -332,7 +332,7 @@ The output of Concat Columns node displaying the dataset containing values of mu
 Expressions
 ----------------------------------------
 
-Below is a sample workflow which contains Expressions processor in Fire Insights. It demonstrates usage of Expressions node to compute new column values based on expression evaluation.
+Below is a sample workflow which contains Expressions processor in Sparkflows. It demonstrates usage of Expressions node to compute new column values based on expression evaluation.
 
 It does the following processing of data:
 
@@ -375,7 +375,7 @@ The output of Expressions node displaying dataset containing new columns compute
 Generate UID
 ----------------------------------------
 
-Below is a sample workflow which contains Generate UID processor in Fire Insights. It demonstrates usage of Generate UID node to compute UID (Unique Index) value for each row/partition.
+Below is a sample workflow which contains Generate UID processor in Sparkflows. It demonstrates usage of Generate UID node to compute UID (Unique Index) value for each row/partition.
 
 It does the following processing of data:
 
@@ -416,7 +416,7 @@ The output of Generate UID node displaying dataset containing Unique Index/Value
 Generate UUID
 ----------------------------------------
 
-Below is a sample workflow which contains Generate UUID processor in Fire Insights. It demonstrates usage of Generate UUID node to compute **UUID (Universally Unique ID)** value for each row.
+Below is a sample workflow which contains Generate UUID processor in Sparkflows. It demonstrates usage of Generate UUID node to compute **UUID (Universally Unique ID)** value for each row.
 
 It does the following processing of data:
 
@@ -457,7 +457,7 @@ The output of Generate UUID node displaying dataset containing UUID value genera
 Hash
 ----------------------------------------
 
-Below is a sample workflow which contains Hash processor in Fire Insights. It demonstrates usage of Hash node to compute Hash value for each row by application of selected algorithm on columns selected.
+Below is a sample workflow which contains Hash processor in Sparkflows. It demonstrates usage of Hash node to compute Hash value for each row by application of selected algorithm on columns selected.
 
 It does the following processing of data:
 
@@ -504,7 +504,7 @@ The output of Hash node displaying dataset containing Hash value generated for e
 Zip With Index
 ----------------------------------------
 
-Below is a sample workflow which contains Zip With Index processor in Fire Insights. It demonstrates usage of Zip With Index node to compute Unique Index or value for each row.
+Below is a sample workflow which contains Zip With Index processor in Sparkflows. It demonstrates usage of Zip With Index node to compute Unique Index or value for each row.
 
 It does the following processing of data:
 

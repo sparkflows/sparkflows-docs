@@ -1,9 +1,9 @@
 MapR Integration
 =====================
 
-This document describes details when installing Fire Insights on a MapR cluster.
+This document describes details when installing Sparkflows on a MapR cluster.
 
-Download Fire Insights
+Download Sparkflows
 ---------------------
 
 * Download MapR specific binary from : https://www.sparkflows.io/archives

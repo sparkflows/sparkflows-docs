@@ -1,7 +1,7 @@
 Version 3.1.29 -  July, 2022
 ========
 
-These features and Fire Insights platform improvements were released in July 2022.
+These features and Sparkflows platform improvements were released in July 2022.
 
 AutoML Enhancements
 --------
@@ -12,9 +12,9 @@ AutoML Enhancements
 Dashboard Upgrades
 ----------
 
-Fire Insights enables you to provide Dashboard with Persona access on the basis of their requirements ie. Admin, Analyst or Business-User.
+Sparkflows enables you to provide Dashboard with Persona access on the basis of their requirements ie. Admin, Analyst or Business-User.
 
-Inorder to Enable Dashboard Persona, Administrator of Fire Insights enable its module from configurations.
+Inorder to Enable Dashboard Persona, Administrator of Sparkflows enable its module from configurations.
 
 ::
 
@@ -24,13 +24,13 @@ Inorder to Enable Dashboard Persona, Administrator of Fire Insights enable its m
    :alt: persona
    :width: 70%
 
-Fire Insights Administrator can provide required persona access depending on its usability, while creating user or an existing user.
+Sparkflows Administrator can provide required persona access depending on its usability, while creating user or an existing user.
 
 .. figure:: ..//_assets/releases/july-2022/persona_useradd.PNG
    :alt: persona
    :width: 70%
 
-Once the Persona got added user can login to Fire Insights and on User Drop down, you will see Switch Persona and on selection of respective persona user will have access to it.
+Once the Persona got added user can login to Sparkflows and on User Drop down, you will see Switch Persona and on selection of respective persona user will have access to it.
 
 For Admin Persona:
 
@@ -53,7 +53,7 @@ For Business-User Persona:
 Report Enhancements
 -----------
 
-Fire Insights enable you create report with both Classic and standard method.
+Sparkflows enable you create report with both Classic and standard method.
 
 .. figure:: ..//_assets/releases/july-2022/report_classic.PNG
    :alt: persona
@@ -74,7 +74,7 @@ Standard Method:
 IAM Assume Role Integrations
 -----------
 
-Fire Insights enable you to configure IAM Assume role for accessing s3 bucket.
+Sparkflows enable you to configure IAM Assume role for accessing s3 bucket.
 
 Inorder to Enable AssumeRole go to configurations enable below property
 
@@ -86,7 +86,7 @@ Inorder to Enable AssumeRole go to configurations enable below property
    :alt: persona
    :width: 70% 
 
-The arn of the assume role should be added in Group Configurations of Fire Insights application.
+The arn of the assume role should be added in Group Configurations of Sparkflows application.
 
 .. figure:: ..//_assets/releases/july-2022/assume_role.PNG
    :alt: persona
@@ -109,7 +109,7 @@ UI Upgrades
 DB 10.4 Support
 -----
 
-Fire Insights eanble you to support Databricks Runtime version 10.4
+Sparkflows eanble you to support Databricks Runtime version 10.4
 
 Migrate from H2 DB to MySQL
 --------------

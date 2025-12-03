@@ -1,7 +1,7 @@
 Save as JSON Files
 =====================
 
-Fire Insights enables you to write your DataFrame to JSON files.
+Sparkflows enables you to write your DataFrame to JSON files.
 
 
 Workflow for writing as JSON files

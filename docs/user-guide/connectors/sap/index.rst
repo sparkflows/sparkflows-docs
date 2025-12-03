@@ -1,9 +1,9 @@
 SAP
 ====
 
-Fire Insights enables reading from and writing to SAP Databases.
+Sparkflows enables reading from and writing to SAP Databases.
 
-Fire Insights provides multiple ways to connect with SAP Databases including connections through **HANA** and **ECC**. 
+Sparkflows provides multiple ways to connect with SAP Databases including connections through **HANA** and **ECC**. 
 
 
 

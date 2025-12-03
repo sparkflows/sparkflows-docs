@@ -12,7 +12,7 @@ Follow the steps below to create a Spark Submit Connection in Sparkflows:
 Step 1 : Enable Spark Submit in Sparkflows
 -----
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Navigate to **Administration -> Configurations -> CONNECTION**.
 * Enable spark submit connection by setting the **value** of below parameter to **true** and save the configuration.
 
@@ -62,7 +62,7 @@ For GENERAL Tab
      - Name of Connection
    * - Postback Url
      - Postback URL
-     - Postback Url through which Spark Cluster sent result back to Fire Insights
+     - Postback Url through which Spark Cluster sent result back to Sparkflows
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  

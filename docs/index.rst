@@ -1,13 +1,13 @@
-Getting Started with Fire Insights
+Getting Started with Sparkflows
 ===============================
 
-Fire Insights makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics. With the power of Fire Insights at your hands, seamlessly find value from your data and scale to Petabytes of data.
+Sparkflows makes it incredibly fast and easy to do Self-Serve Data Preparation and Advanced Analytics. With the power of Sparkflows at your hands, seamlessly find value from your data and scale to Petabytes of data.
 
-Install on the cloud, on-premise or even on your laptop. Fire Insights seamlessly integrates with the most complex of Enterprise Environments.
+Install on the cloud, on-premise or even on your laptop. Sparkflows seamlessly integrates with the most complex of Enterprise Environments.
 
-This documentation provides how-to guidance and reference information for data analysts, data scientists, and data engineers working on the Fire Insights Product. Teams can easily collaborate with each other.
+This documentation provides how-to guidance and reference information for data analysts, data scientists, and data engineers working on the Sparkflows Product. Teams can easily collaborate with each other.
 
-Fire Insights provides the following features:
+Sparkflows provides the following features:
 
 * Connect to various data source
 * Perform ETL and Data Preparation
@@ -18,7 +18,7 @@ Fire Insights provides the following features:
 * Build Reports and Dashboards
 * Build Analytical Applications
 
-Fire Insights supports both Batch and Streaming Jobs.
+Sparkflows supports both Batch and Streaming Jobs.
 
 
 Installation & Configuration

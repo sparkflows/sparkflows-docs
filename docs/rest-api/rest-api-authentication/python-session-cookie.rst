@@ -1,15 +1,15 @@
 Acquire Session Cookie in Python
 ==================
 
-Fire Insights REST API's can be accessed with Python. The Session Cookie can be acquired using the username and password, and then can be used in the subsequent calls.
+Sparkflows REST API's can be accessed with Python. The Session Cookie can be acquired using the username and password, and then can be used in the subsequent calls.
 
 
 Get List of Processors
 ----------------------
 
-The below code in the Python, logs in the user and acquires the session cookie via the Fire Insights REST API.
+The below code in the Python, logs in the user and acquires the session cookie via the Sparkflows REST API.
 
-It then gets the list of Processors in Fire Insights using the REST API and prints them.
+It then gets the list of Processors in Sparkflows using the REST API and prints them.
 
 .. code-block:: python
    :linenos:

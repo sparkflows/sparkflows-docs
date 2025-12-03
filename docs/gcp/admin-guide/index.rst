@@ -7,13 +7,13 @@ GCP Admin Guide
 
     :doc:`/gcp/admin-guide/overview`
 
-    Describes details to help you plan on deploying and using Fire Insights on GCP.
+    Describes details to help you plan on deploying and using Sparkflows on GCP.
     
     ---
 
     :doc:`/gcp/admin-guide/Infrastructure-gcp`
 
-    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on Azure.
+    Describes details of infrastructure pre-requisites needed to deploy Sparkflows on Azure.
 
     ---
 

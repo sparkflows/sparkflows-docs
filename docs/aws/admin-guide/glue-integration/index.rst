@@ -1,7 +1,7 @@
 AWS Glue Integration
 ================
 
-Fire Insights can be configured to submit jobs on AWS Glue cluster.
+Sparkflows can be configured to submit jobs on AWS Glue cluster.
 
 .. toctree::
    :maxdepth: 2

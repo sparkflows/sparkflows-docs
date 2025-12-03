@@ -1,13 +1,13 @@
 Docker Image 
 ================
 
-This document outlines the steps to create a Docker image for Jupyter Notebook and Fire Insights, along with the required permissions for the Fire Insights container to successfully run Jupyter Notebook.
+This document outlines the steps to create a Docker image for Jupyter Notebook and Sparkflows, along with the required permissions for the Sparkflows container to successfully run Jupyter Notebook.
 
 
 Create Docker image with Jupyter notebook 
 ------------------------------
 
-Create a Docker image containing user-created notebooks, data, and required dependencies. This Docker Image would be executed by the Fire Insights App.
+Create a Docker image containing user-created notebooks, data, and required dependencies. This Docker Image would be executed by the Sparkflows App.
 
 Refer to the `Dockerfile and other details <https://github.com/sparkflows/fire-tools/tree/main/jupyter-docker>`_ to get more details.
 
@@ -19,12 +19,12 @@ Below are the Docker commands used to build the image and push it to Docker Hub,
     Docker Push command - docker push username/repo:tagname
 
 
-.. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Fire Insights.
+.. note:: Ensure that you replace **username/repo** and **tagname** with the actual names. Take note of the image name, which will be used in the next steps when creating a Jupyter connection in Sparkflows.
 
-How Fire Insights deploys the Docker Image in Kubernetes Cluster
+How Sparkflows deploys the Docker Image in Kubernetes Cluster
 ---------------------------------
 
-Fire Insights uses the below YAML files to deploy in kubernetes cluster:
+Sparkflows uses the below YAML files to deploy in kubernetes cluster:
 
 deployment.yaml
 +++++

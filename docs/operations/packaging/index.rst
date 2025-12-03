@@ -1,7 +1,7 @@
 Packaging
 =======
 
-Fire Insights supports Generative AI, AI and Data Engineering.
+Sparkflows supports Generative AI, AI and Data Engineering.
 
 Based on the usage the different packages are installed.
 

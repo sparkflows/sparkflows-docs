@@ -51,7 +51,7 @@ Data profiling typically involves several steps, including:
 * **Data discovery:** This is the process of identifying the structure of the data, such as the number of tables, columns, and rows as well as the data types and sizes of the columns.
 * **Data exploration:** This is the process of looking at the data in a more detailed manner, such as calculating summary statistics for each column and identifying any missing or duplicate values.
 
-Below are the steps required to perform Data Profiling in Fire Insights:
+Below are the steps required to perform Data Profiling in Sparkflows:
 
 Step 1 : Go to Projects Page
 ++++++++++++++

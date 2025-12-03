@@ -4,7 +4,7 @@ Persisting SparkML Models
 Spark ML Models
 ---------------
 
-Spark ML models are saved into a directory with multiple files in it. Fire Insights has processors for saving and loading the Spark ML models.
+Spark ML models are saved into a directory with multiple files in it. Sparkflows has processors for saving and loading the Spark ML models.
 
 Save Model Processor
 +++++++++++++++++++++

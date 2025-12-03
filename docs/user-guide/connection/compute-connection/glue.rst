@@ -12,7 +12,7 @@ Follow the steps below to create Glue connection:
 Step 1 : Enable Glue in Sparkflows
 +++++
 
-* Login to Sparkflows application i.e **Fire Insights**.
+* Login to Sparkflows application i.e **Sparkflows**.
 * Go to  **Administration -> Configurations -> Connection**.
 * Enable Glue connection by setting the below parameter to **true** and save the configuration.
 

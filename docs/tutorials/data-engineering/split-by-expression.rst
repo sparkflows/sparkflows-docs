@@ -1,7 +1,7 @@
 Split Dataset By Expression
 ===========================
 
-Fire Insights allows you to split incoming DataFrames. Based on your needs, use the processors described below: 
+Sparkflows allows you to split incoming DataFrames. Based on your needs, use the processors described below: 
 
 **SplitByExpression:** This processor splits the incoming dataset based on an expression. Rows satisfying the expression go into one DataFrame and the rest go into another DataFrame.
 

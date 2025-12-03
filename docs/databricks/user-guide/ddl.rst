@@ -1,7 +1,7 @@
 Run DDL Commands
 ===========================
 
-Fire Insights allows you to run DDL commands on Databricks to perform various actions like:
+Sparkflows allows you to run DDL commands on Databricks to perform various actions like:
 
   - Create New Databases
   - Create New Tables

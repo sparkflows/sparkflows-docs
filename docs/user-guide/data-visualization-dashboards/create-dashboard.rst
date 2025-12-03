@@ -1,6 +1,6 @@
 Create Dashboards
 ======
-This document explains in detail the steps required to create a Dashboard in Fire Insights.
+This document explains in detail the steps required to create a Dashboard in Sparkflows.
 
 Follow the steps below:
 

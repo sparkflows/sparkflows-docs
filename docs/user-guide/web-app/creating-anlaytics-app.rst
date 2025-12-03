@@ -1,7 +1,7 @@
 Create Analytical App
 ======================
 
-Fire Insights enables you to create Analytical Apps.
+Sparkflows enables you to create Analytical Apps.
 
 Below are the steps required to create a new Analytical App:
 
@@ -15,7 +15,7 @@ Below are the steps required to create a new Analytical App:
 Step 1 : Open the Project
 --------------------
 
-#. **Login** to Fire Insights.
+#. **Login** to Sparkflows.
 #. Click on the **PROJECTS** tab in top menu bar.
 #. From the list of projects displayed, select the **Project** where you want to create the App. 
 

@@ -1,7 +1,7 @@
-Configuring Fire Insights for Jupyterhub
+Configuring Sparkflows for Jupyterhub
 =============
 
-This document outlines the steps to configure Fire Insights for Jupyterhub.
+This document outlines the steps to configure Sparkflows for Jupyterhub.
 
 Pre-requisites
 -----------
@@ -12,7 +12,7 @@ Pre-requisites
 Steps
 -----
 
-Fire Insights can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
+Sparkflows can be configured to connect to Jupyter Notebook. Below are the steps involved in it:
 
 Step 1: Login to Fire Web Server URL
 ++++++++++++++++++++++++++++++

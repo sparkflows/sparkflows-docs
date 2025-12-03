@@ -2,7 +2,7 @@ Passing Parameters to Workflows
 ===============================
 
 
-Fire Insights runs the Spark jobs with spark-submit. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precedence in which they are applied is as shown below:
+Sparkflows runs the Spark jobs with spark-submit. It takes in the workflow JSON as a parameter. There are multiple ways to pass extra parameters to the workflow. If the same parameter is specified multiple times, the order of precedence in which they are applied is as shown below:
  
   * Through workflow parameters passed during workflow Execution.
   * By specifying the parameters in the workflow Editor.
@@ -152,7 +152,7 @@ This parameter can later be used by another processor. For example :
 Through --var Parameters with Spark-Submit
 --------------------------------------------------
  
-Fire Insights workflow can also be directly executed on the cluster with Spark-Submit.
+Sparkflows workflow can also be directly executed on the cluster with Spark-Submit.
 
 In this case, extra parameters can be passed with --var::
 

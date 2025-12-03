@@ -6,7 +6,7 @@ Pinecone is a managed vector database designed for fast and scalable similarity 
 Sparkflows Features with Pinecone
 ---------------------------------
 
-Fire Insights integrates with Pinecone to accelerate generative AI workflows and manages high-dimensional data effortlessly. Fire Insights handles NLP embeddings, computer vision outputs, and recommendation models with enterprise-grade scalability.
+Sparkflows integrates with Pinecone to accelerate generative AI workflows and manages high-dimensional data effortlessly. Sparkflows handles NLP embeddings, computer vision outputs, and recommendation models with enterprise-grade scalability.
 
 - Real-time Retrieval
 - Semantic Search
@@ -96,5 +96,5 @@ Remove an index when it's no longer required:
 Conclusion
 ----------
 
-Fire Insights combined with Pinecone provides a seamless way to integrate vector search into AI applications with minimal setup and high efficiency. Whether for recommendations, search, or AI-driven insights, it simplifies vector database management for scalable and real-time querying.
+Sparkflows combined with Pinecone provides a seamless way to integrate vector search into AI applications with minimal setup and high efficiency. Whether for recommendations, search, or AI-driven insights, it simplifies vector database management for scalable and real-time querying.
 

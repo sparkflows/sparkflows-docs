@@ -2,7 +2,7 @@ URL Text File Reader
 =======================
 This node reads the content of a Text file present at the provided URL.
 
-Below is a sample workflow which contains the URL Text File Reader processor in Fire Insights. It demonstrates the usage of the URL Text File Reader node to read content of a Text file present at the provided URL.
+Below is a sample workflow which contains the URL Text File Reader processor in Sparkflows. It demonstrates the usage of the URL Text File Reader node to read content of a Text file present at the provided URL.
 
  .. figure:: ../../../_assets/user-guide/read-write/read-structured/read-text-URL-WF.png
     :alt: readwrite_userguide

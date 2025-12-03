@@ -1,7 +1,7 @@
 Create Jupyter Notebook Connection
 ================================
 
-This document outlines the steps to create a Jupyter Notebook Connection in Fire Insights and to configure a Kubernetes cluster.
+This document outlines the steps to create a Jupyter Notebook Connection in Sparkflows and to configure a Kubernetes cluster.
 
 
 Creating Jupyter Notebook connection
@@ -15,10 +15,10 @@ Fire enables you to create a **Jupyter Notebook Connection** and use it to submi
  
 Below are the steps to create a Jupyter Notebook Connection:
 
-Step 1 : Enable Jupyter Notebook in Fire Insights
+Step 1 : Enable Jupyter Notebook in Sparkflows
 --------------------
 
-#. **Login** to Fire Insights.
+#. **Login** to Sparkflows.
 #. Navigate to **Administration -> Configurations -> Connection**. 
 #. **Enable** the Jupyter Notebook connection by setting the below parameter:
 
@@ -70,7 +70,7 @@ Once Jupyter Connection is Enabled.
       :alt: jupyter-notebook
       :width: 60%
 
-   .. Note:: Make Sure that the **Postback URL** is accessible from Kubernetes Cluster to get response back to Fire Insights UI.
+   .. Note:: Make Sure that the **Postback URL** is accessible from Kubernetes Cluster to get response back to Sparkflows UI.
 
    Input the following details in **KUBERNETES tab**:
 
@@ -82,6 +82,6 @@ Once Jupyter Connection is Enabled.
        :alt: jupyter-notebook
        :width: 60%
 
-   .. Note:: Make sure that the **Path** updated should be accessible from Fire Insights VM.
+   .. Note:: Make sure that the **Path** updated should be accessible from Sparkflows VM.
 
 #. Once you have updated the above parameters, click on **Save** to save the connection.

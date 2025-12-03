@@ -2,7 +2,7 @@ Telco Churn Data Exploration
 ============================
 
 
-Data Profiling is extremely helpful in understanding the data. Fire Insights provides a number of processors for users to profile their data.
+Data Profiling is extremely helpful in understanding the data. Sparkflows provides a number of processors for users to profile their data.
 
 
 Workflow for Data Profiling
@@ -29,7 +29,7 @@ The input dataset looks like below:
 Workflow Execution Result
 -------------------------
 
-When the above workflow is executed, it produces the below results. A good thing about Fire Insights is that the Data Profiling runs in a distributed fashion. So, whatever be the number of records in the input dataset, it scales seamlessly.
+When the above workflow is executed, it produces the below results. A good thing about Sparkflows is that the Data Profiling runs in a distributed fashion. So, whatever be the number of records in the input dataset, it scales seamlessly.
 
 
 Summary Statistics

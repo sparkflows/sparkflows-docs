@@ -1,10 +1,10 @@
 Data Visualization
 ===================
 
-Fire Insights enables you to visualize data using charts, maps, tables, etc. It provides a number of processors for visualization of data.
+Sparkflows enables you to visualize data using charts, maps, tables, etc. It provides a number of processors for visualization of data.
 
 
-Data Visualization Processors in Fire Insights
+Data Visualization Processors in Sparkflows
 ----------------------------------------
 
 
@@ -34,7 +34,7 @@ Data Visualization Processors in Fire Insights
 Box Plot
 ----------------------------------------
 
-Below is a sample workflow that contains Box Plot processor in Fire Insights. It demonstrates the usage of Box Plot node to represent variation between two series of data in Box Plot format.
+Below is a sample workflow that contains Box Plot processor in Sparkflows. It demonstrates the usage of Box Plot node to represent variation between two series of data in Box Plot format.
 
 It does the following processing of data:
 
@@ -78,7 +78,7 @@ Output of Box Plot node displaying variation of one data with the other.
 Bubble Chart
 ----------------------------------------
 
-Below is a sample workflow that contains Bubble Chart processor in Fire Insights. It demonstrates the usage of Bubble Chart node to represent variation of data between series in Bubble Chart format.
+Below is a sample workflow that contains Bubble Chart processor in Sparkflows. It demonstrates the usage of Bubble Chart node to represent variation of data between series in Bubble Chart format.
 
 It does the following processing of data:
 
@@ -128,7 +128,7 @@ Output of Bubble Chart node displaying variation between data series represented
 Gauge
 ----------------------------------------
 
-Below is a sample workflow that contains Gauge processor in Fire Insights. It demonstrates the usage of Gauge node to represent data for different categories in Gauge format.
+Below is a sample workflow that contains Gauge processor in Sparkflows. It demonstrates the usage of Gauge node to represent data for different categories in Gauge format.
 
 It does the following processing of data:
 
@@ -172,7 +172,7 @@ Output of Gauge node displaying data for different categories in Gauge format.
 Graph Group By Column
 ----------------------------------------
 
-Below is a sample workflow that contains Graph Group By Column processor in Fire Insights. It demonstrates the usage of Graph Group By Column node to represent count of different group of data in Graphical format.
+Below is a sample workflow that contains Graph Group By Column processor in Sparkflows. It demonstrates the usage of Graph Group By Column node to represent count of different group of data in Graphical format.
 
 It does the following processing of data:
 
@@ -218,7 +218,7 @@ Output of Graph Group By Column node displaying count of different groups of dat
 Graph SubPlots
 ----------------------------------------
 
-Below is a sample workflow that contains Graph SubPlots processor in Fire Insights. It demonstrates the usage of Graph SubPlots node to represent variation between multiple pairs of data series in one go in Graphical format.
+Below is a sample workflow that contains Graph SubPlots processor in Sparkflows. It demonstrates the usage of Graph SubPlots node to represent variation between multiple pairs of data series in one go in Graphical format.
 
 It does the following processing of data:
 
@@ -263,7 +263,7 @@ Output of Graph SubPlots node displaying variation between multiple pairs of dat
 Graph Values
 ----------------------------------------
 
-Below is a sample workflow that contains Graph Values processor in Fire Insights. It demonstrates the usage of Graph Values node to represent variation between a pairs of data series in Graphical format.
+Below is a sample workflow that contains Graph Values processor in Sparkflows. It demonstrates the usage of Graph Values node to represent variation between a pairs of data series in Graphical format.
 
 It does the following processing of data:
 
@@ -317,7 +317,7 @@ Output of Graph Values node displaying variation between a pair of data series i
 Print N Rows
 ----------------------------------------
 
-Below is a sample workflow that contains Print N Rows processor in Fire Insights. It demonstrates the usage of Print N Rows node to print incoming data.
+Below is a sample workflow that contains Print N Rows processor in Sparkflows. It demonstrates the usage of Print N Rows node to print incoming data.
 
 It does the following processing of data:
 
@@ -360,7 +360,7 @@ Output of Print N Rows node displaying incoming data.
 Print Rich Text
 ----------------------------------------
 
-Below is a sample workflow that contains Print Rich Text processor in Fire Insights. It demonstrates the usage of Print Rich Text node to print data in Rich Text format.
+Below is a sample workflow that contains Print Rich Text processor in Sparkflows. It demonstrates the usage of Print Rich Text node to print data in Rich Text format.
 
 It does the following processing of data:
 

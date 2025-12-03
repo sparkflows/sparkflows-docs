@@ -1,7 +1,7 @@
 Configure HTTPS
 ================
 
-Fire Insights can be configured with HTTPS on AWS, when running on EC2 instance.
+Sparkflows can be configured with HTTPS on AWS, when running on EC2 instance.
 
 With AWS Certificate Manager (ACM) you can provision and manage SSL or TLS certificates for your AWS based websites and applications. 
 
@@ -14,7 +14,7 @@ This document describes the steps needed to configure HTTPS. Below is a brief ou
 #. Get Certificate from ACM
 #. Create a Load Balancer
 #. Create a Record and Map to the Load Balancer
-#. Login to Access Fire Insights Application
+#. Login to Access Sparkflows Application
 
 Step 1 : Pre-requisites
 --------
@@ -84,7 +84,7 @@ Step 3 : Get Certificate from ACM
 Step 4 : Create a Load Balancer
 ------
 
-#. **Create a Load Balancer and Configure Target Group with Fire Insights running on that Instance :**
+#. **Create a Load Balancer and Configure Target Group with Sparkflows running on that Instance :**
 
    .. figure:: ../../_assets/aws/aws-certificate/load_blanacer.PNG
       :alt: aws
@@ -131,8 +131,8 @@ Step 5 : Create a Record and Map to the Load Balancer
       :alt: aws
       :width: 55%    
 
-Step 6 : Login to Access Fire Insights Application
+Step 6 : Login to Access Sparkflows Application
 -----------------
-Once the above steps get successfully updated, you can login to the Domain name with **HTTPS** and be able to access Fire Insights application running on the target instance.
+Once the above steps get successfully updated, you can login to the Domain name with **HTTPS** and be able to access Sparkflows application running on the target instance.
 
-.. note:: Above steps are verified with Fire Insights running on HTTPS(443) on port 8443 which is provided by default.
+.. note:: Above steps are verified with Sparkflows running on HTTPS(443) on port 8443 which is provided by default.

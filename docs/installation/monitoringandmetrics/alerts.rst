@@ -5,9 +5,9 @@ This document outlines the steps to **Configure** the email alerts for Sparkflow
 
 Follow the steps given below:
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 +++++++++
-**Login** to the Fire Insights using your credentials. 
+**Login** to the Sparkflows using your credentials. 
 
 
 Step 2 : Navigate to the Alerts Page

@@ -7,13 +7,13 @@ Azure Admin Guide
     
     :doc:`/azure/admin-guide/overview`
 
-    Describes details to help you plan on deploying and using Fire Insights on Azure.
+    Describes details to help you plan on deploying and using Sparkflows on Azure.
 
     ---
 
     :doc:`/azure/admin-guide/Infrastructure-azure`
 
-    Describes details of infrastructure pre-requisites needed to deploy Fire Insights on Azure.
+    Describes details of infrastructure pre-requisites needed to deploy Sparkflows on Azure.
 
     ---
 

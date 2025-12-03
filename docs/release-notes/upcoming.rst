@@ -1,7 +1,7 @@
 Upcoming Features
 =================
 
-Below are the upcoming features in Fire Insights.
+Below are the upcoming features in Sparkflows.
 
 Workflow Wizard
 --------
@@ -22,8 +22,8 @@ Sparkflows enable Administrator to avail options for Automate Backup of H2 DB fr
 Installer
 ---------
 
-A one-click installer and update for Fire Insights.
+A one-click installer and update for Sparkflows.
 
-- Users would be able to install and update Fire Insights on their laptops with one click.
+- Users would be able to install and update Sparkflows on their laptops with one click.
 
 

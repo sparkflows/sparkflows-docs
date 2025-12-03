@@ -2,7 +2,7 @@ Feature Selection
 =================
 Feature selection is the process of identifying and selecting a subset of relevant features from a larger set of features for use in building a machine learning model. The goal of feature selection is to select a subset of features that are most informative and have the most predictive power, while also reducing the dimensionality of the data and the risk of overfitting.
 
-Fire Insights provides two methods for doing Feature Selection:
+Sparkflows provides two methods for doing Feature Selection:
 
   * Feature Selection using Correlation
   * Feature Selection using Feature Importance

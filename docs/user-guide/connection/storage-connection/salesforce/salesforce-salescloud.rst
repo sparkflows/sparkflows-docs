@@ -121,7 +121,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Sparkflows.
 
 Create the Salesforce datacloud Connection
 -----
@@ -131,7 +131,7 @@ Create the Salesforce Data Cloud Connection at Global, Group or Project level.
 Connection Details
 ++++
 
-In Fire Insights UI, go to Administration, then navigate to `Global/Group Connections` and then on `Add Connection`. Enter the configuration details with the help of table given below and click on ``Add Connection``.
+In Sparkflows UI, go to Administration, then navigate to `Global/Group Connections` and then on `Add Connection`. Enter the configuration details with the help of table given below and click on ``Add Connection``.
                          
 Test Connection and Save
 +++++

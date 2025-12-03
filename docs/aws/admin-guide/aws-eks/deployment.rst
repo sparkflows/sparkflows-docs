@@ -1,6 +1,6 @@
 Deployment
 ===========
-Below are the steps to deploy Fire Insights AWS Elastic Kubernetes Service (EKS).
+Below are the steps to deploy Sparkflows AWS Elastic Kubernetes Service (EKS).
 
 Step 1 : Create a Persistent Volume
 ---------------------------------------

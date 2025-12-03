@@ -1,7 +1,7 @@
 Service Principal
 ======
 
-This guide provides step-by-step instructions for creating a Service Principal in Azure. The Service Principal will be used to authenticate and access Azure resources, such as Azure Storage from Fire Insights.
+This guide provides step-by-step instructions for creating a Service Principal in Azure. The Service Principal will be used to authenticate and access Azure resources, such as Azure Storage from Sparkflows.
 
 Prerequisites
 ----
@@ -104,7 +104,7 @@ Step 2: Assign Roles to the Service Principal
 
 
 
-Now you can use these details to Configured ADLS in Fire Insights, `click here. <https://docs.sparkflows.io/en/latest/azure/admin-guide/adls/adls-configuration.html>`_
+Now you can use these details to Configured ADLS in Sparkflows, `click here. <https://docs.sparkflows.io/en/latest/azure/admin-guide/adls/adls-configuration.html>`_
 
 .. Note:: The above Configurations are needed for Interactive mode, For Execution mode the Compute engine need to have access of resources.
 

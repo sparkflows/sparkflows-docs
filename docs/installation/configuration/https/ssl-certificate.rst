@@ -1,12 +1,12 @@
 SSL Certificate Setup
 =====================
 
-This guide outlines the steps to configure a trusted SSL certificate for the Fire Server, which uses keystore.jks to manage certificates. By default, Fire Insights ships with a self-signed certificate, which can lead to browser warnings when accessed via HTTPS. To avoid these issues, you can replace the self-signed certificate with a trusted one.
+This guide outlines the steps to configure a trusted SSL certificate for the Fire Server, which uses keystore.jks to manage certificates. By default, Sparkflows ships with a self-signed certificate, which can lead to browser warnings when accessed via HTTPS. To avoid these issues, you can replace the self-signed certificate with a trusted one.
 
 Pre-Requisites
 ---------
 
-In order to configure a valid certificate in Fire Insights, the following pre-requisites are needed:
+In order to configure a valid certificate in Sparkflows, the following pre-requisites are needed:
 
 #. Valid Certificate in JKS format
 #. Keystore Password
@@ -17,7 +17,7 @@ In order to configure a valid certificate in Fire Insights, the following pre-re
 1. Obtain a Trusted SSL Certificate
 ---------------------------------------
 
-To secure Fire Insights with HTTPS, you need an SSL certificate from a trusted Certificate Authority (CA), such as Let's Encrypt or a commercial CA. Once obtained, you should have the following files:
+To secure Sparkflows with HTTPS, you need an SSL certificate from a trusted Certificate Authority (CA), such as Let's Encrypt or a commercial CA. Once obtained, you should have the following files:
 
 - Certificate (``your_domain.crt`` or ``your_domain.pem``)
 - Private Key (``your_domain.key``)
@@ -99,5 +99,5 @@ Once the above changes are updated, Need to restart Fire server from terminal fr
 Conclusion
 ----------
 
-After following these steps, Fire Insights will be configured to use your trusted SSL certificate. You can now access the application via HTTPS without certificate validation warnings in browsers.
+After following these steps, Sparkflows will be configured to use your trusted SSL certificate. You can now access the application via HTTPS without certificate validation warnings in browsers.
 

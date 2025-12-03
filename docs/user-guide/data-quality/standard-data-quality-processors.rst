@@ -1,7 +1,7 @@
 Data Quality Processors
 --------
 
-The table below provides the list of Great Expectations based Data Quality Processors in Fire Insights.
+The table below provides the list of Great Expectations based Data Quality Processors in Sparkflows.
 
 .. list-table::
    :widths: 30 70
@@ -44,7 +44,7 @@ The table below provides the list of Great Expectations based Data Quality Proce
 Expect Column Values To Be In Between
 +++++++
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column values fall between the specified minimum and maximum values (both values inclusive).
+Below is a sample workflow which contains **ExpectColumnValuesToBeInBetween processor** in Sparkflows. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate whether the selected column values fall between the specified minimum and maximum values (both values inclusive).
 
 It does the following processing of data:
 
@@ -97,7 +97,7 @@ The Output of this node would produce the following results:
 Expect Column Values To Be Null
 +++++++++
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeNull** processor in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate the presence of null values in specified columns of the input dataset.
+Below is a sample workflow which contains **ExpectColumnValuesToBeNull** processor in Sparkflows. It demonstrates the usage of ExpectColumnValuesToBeInBetween node to validate the presence of null values in specified columns of the input dataset.
 
 It does the following processing of data:
 
@@ -147,7 +147,7 @@ The Output of this node would produce the following results:
 Expect Column Values To Be Unique
 ++++++++++++++++++++
 
-Below is a sample workflow which contains **ExpectColumnValuesToBeUnique processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeUnique node to validate the data on the basis of uniqueness of the column values.
+Below is a sample workflow which contains **ExpectColumnValuesToBeUnique processor** in Sparkflows. It demonstrates the usage of ExpectColumnValuesToBeUnique node to validate the data on the basis of uniqueness of the column values.
 
 It does the following processing of data:
 
@@ -200,7 +200,7 @@ The Output of this node would produce the following results:
 Expect Column Values To Not Be Null
 ++++++++
 
-Below is a sample workflow which contains the **ExpectColumnValuesToNotBeNull processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValuesToNotBeNull node to validate the absence of null values in specified columns of the input dataset.
+Below is a sample workflow which contains the **ExpectColumnValuesToNotBeNull processor** in Sparkflows. It demonstrates the usage of the ExpectColumnValuesToNotBeNull node to validate the absence of null values in specified columns of the input dataset.
 
 It does the following processing of data:
 
@@ -251,7 +251,7 @@ The output of this node would produce the following results:
 Expect Table Row Count To Be Between
 +++++++++
 
-Below is a sample workflow which contains the **ExpectTableRowCountToBeBetween processor** in Fire Insights. It demonstrates the usage of the ExpectTableRowCountToBeBetween node to validate the tabular data on the basis of row count. 
+Below is a sample workflow which contains the **ExpectTableRowCountToBeBetween processor** in Sparkflows. It demonstrates the usage of the ExpectTableRowCountToBeBetween node to validate the tabular data on the basis of row count. 
 
 It does the following processing of data:
 
@@ -295,7 +295,7 @@ The output of this node would produce the following results:
 
 Expect Column Value Lengths To Equal
 +++++++
-Below is a sample workflow which contains **ExpectColumnValueLengthsToEqual processor** in Fire Insights. It demonstrates the usage of ExpectColumnValueLengthsToEqual node to validate whether the length of the selected column entries match the specified length.
+Below is a sample workflow which contains **ExpectColumnValueLengthsToEqual processor** in Sparkflows. It demonstrates the usage of ExpectColumnValueLengthsToEqual node to validate whether the length of the selected column entries match the specified length.
 
 It does the following processing of data:
 
@@ -344,7 +344,7 @@ The output of this node would produce the following results:
 
 Expect Column Value Length To Be In Between
 +++++++
-Below is a sample workflow which contains **ExpectColumnValueLengthToBeInBetween processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValueLengthToBeInBetween node to validate the data on the basis of specified range of value length of the column in the input dataset.
+Below is a sample workflow which contains **ExpectColumnValueLengthToBeInBetween processor** in Sparkflows. It demonstrates the usage of the ExpectColumnValueLengthToBeInBetween node to validate the data on the basis of specified range of value length of the column in the input dataset.
 
 It does the following processing of data:
 
@@ -391,7 +391,7 @@ The output of this node would produce the following results:
 
 Expect Column Values To Be In Set
 +++++++
-Below is a sample workflow which contains **ExpectColumnValuesToBeInSet processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToBeInSet node to to validate whether the values in a specified column of a dataset are present in a given set of expected values.
+Below is a sample workflow which contains **ExpectColumnValuesToBeInSet processor** in Sparkflows. It demonstrates the usage of ExpectColumnValuesToBeInSet node to to validate whether the values in a specified column of a dataset are present in a given set of expected values.
 
 It does the following processing of data:
 
@@ -442,7 +442,7 @@ The output of this node would produce the following results:
 Expect Column Values To Match Regex
 +++++++
 
-Below is a sample workflow which contains **ExpectColumnValuesToMatchRegex processor** in Fire Insights. It demonstrates the usage of ExpectColumnValuesToMatchRegex node to validate the data on the basis that the selected column(s) values match a specified regular expression pattern.
+Below is a sample workflow which contains **ExpectColumnValuesToMatchRegex processor** in Sparkflows. It demonstrates the usage of ExpectColumnValuesToMatchRegex node to validate the data on the basis that the selected column(s) values match a specified regular expression pattern.
 
 It does the following processing of data:
 
@@ -491,7 +491,7 @@ The output of this node would produce the following results:
 
 Expect Column Values To Match Strftimeformat
 +++++++
-Below is a sample workflow which contains **ExpectColumnValuesToMatchStrftimeFormat processor** in Fire Insights. It demonstrates the usage of the ExpectColumnValuesToMatchStrftimeFormat node to validate the data on the basis that the selected column(s) values match a specified strftime format.
+Below is a sample workflow which contains **ExpectColumnValuesToMatchStrftimeFormat processor** in Sparkflows. It demonstrates the usage of the ExpectColumnValuesToMatchStrftimeFormat node to validate the data on the basis that the selected column(s) values match a specified strftime format.
 
 It does the following processing of data:
 

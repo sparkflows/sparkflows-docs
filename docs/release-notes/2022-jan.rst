@@ -8,7 +8,7 @@ These features and Sparkflows platform improvements were released in January 202
 Datasets
 +++++++
 
-Fire Insights enables you to create Datasets using Snowflake Table with Snowflake Connection.
+Sparkflows enables you to create Datasets using Snowflake Table with Snowflake Connection.
 
 .. figure:: ..//_assets/releases/jan-2022/1.PNG
    :alt: dataset

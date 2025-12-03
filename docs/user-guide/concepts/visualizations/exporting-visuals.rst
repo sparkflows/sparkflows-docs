@@ -1,12 +1,12 @@
 Exporting Visuals
 =======================
 
-Fire Insights enables you to export the output, dashboards, and visuals in various ways.
+Sparkflows enables you to export the output, dashboards, and visuals in various ways.
 
 Exporting dashboard
 -------------------
 
-Since Fire Insights is browser-based, it makes easy to export the pages as PDF files.
+Since Sparkflows is browser-based, it makes easy to export the pages as PDF files.
 
 - Go to the dashboard under your application where you have created a batch dashboard.
 - Click on the ` `View` ` option to find the ` `Export` ` option. 

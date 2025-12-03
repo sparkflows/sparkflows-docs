@@ -18,7 +18,7 @@ Do this by adding the line below to application.properties
 
 Once the above parameter is being updated in ``application.properties``, Restart the Fire Server.
 
-Now you will be able to access Fire Insights REST API's.
+Now you will be able to access Sparkflows REST API's.
 
 
 .. note:: If above properties are not updated in application.properties, below error message will be recevied.

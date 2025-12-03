@@ -92,7 +92,7 @@ Possible causes are:
 **Solution**
 ++++++++++
 
-Jobs posted to Databricks from Sparkflows push events back to Fire Insights. Hence, it is important that the Sparkflows webserver endpoint is accessible from the Databricks cluster.
+Jobs posted to Databricks from Sparkflows push events back to Sparkflows. Hence, it is important that the Sparkflows webserver endpoint is accessible from the Databricks cluster.
 
 Use the command below to from Databricks notebook to check if the Sparkflows REST endpoint is accessible.
 
@@ -144,7 +144,7 @@ When submitting the job on Databricks cluster from Sparkflows UI, not seeing res
 **Solution**
 ++++++++++
 
-We need to ensure that Fire Insights endpoint being used for postback url has the same availability zone as ec2 instance on which Fire Insights is running. Otherwise it will show empty response when running the healthcheck as above
+We need to ensure that Sparkflows endpoint being used for postback url has the same availability zone as ec2 instance on which Sparkflows is running. Otherwise it will show empty response when running the healthcheck as above
 
 .. figure:: ../_assets/operating/operations/end_2.PNG
    :alt: operations

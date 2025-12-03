@@ -1,10 +1,10 @@
 Copilot on Project
 ------------------
-This section describes how Copilot enables project creation in Fire Insights using natural language queries, automatically generating datasets and workflows from your project description.
+This section describes how Copilot enables project creation in Sparkflows using natural language queries, automatically generating datasets and workflows from your project description.
 
 Follow the steps below:
   
-1. Fire Insights allows you to create projects using Natural Language Queries (NLQ) with the help of Copilot.
+1. Sparkflows allows you to create projects using Natural Language Queries (NLQ) with the help of Copilot.
 
   .. figure:: ../../_assets/user-guide/copilot/copilot_project.png
     :alt: copilot_project

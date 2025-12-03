@@ -18,10 +18,10 @@ Setting up Pinecone Connection
 
 To create a pinecone connection, follow the steps below:
 
-**Step 1 : Login to Fire Insights and Navigate to Add Connection Page**
+**Step 1 : Login to Sparkflows and Navigate to Add Connection Page**
 ----------------------------------------------------------------------------
 
-#. Login to Fire Insights by entering your sign in credentials as an Admin. 
+#. Login to Sparkflows by entering your sign in credentials as an Admin. 
 #. From the Dashboard page, navigate to **Administration -> Global/Group Connections**.
 #. From the Connections page, click on **Add Connection** button and choose **Add Connection for All**. An 'Add Connection' page will open up as shown below:
 

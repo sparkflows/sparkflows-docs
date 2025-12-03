@@ -9,7 +9,7 @@ The steps for the same are as follows:
 
 Step 1 : Configuring the Path
 ----------------------------------
-#. **Login** to Fire Insights.
+#. **Login** to Sparkflows.
 
    .. figure:: ../../_assets/tutorials/load-sample-project/Login.png
       :alt: Load Sample Projects

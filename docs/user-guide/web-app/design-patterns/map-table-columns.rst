@@ -1,7 +1,7 @@
 Mapping Table Columns
 =======================
 
-Fire Insights allows you to map the columns of a table to updated names. This mapping is then sent as parameters to the Notebook or Workflow during execution.
+Sparkflows allows you to map the columns of a table to updated names. This mapping is then sent as parameters to the Notebook or Workflow during execution.
 
 This document explains in detail the steps required to map table columns in Analytical Apps.
 

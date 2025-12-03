@@ -2,24 +2,24 @@
 Kubernetes Guide
 =========
 
-Fire Insights is integrated with Kubernetes.
+Sparkflows is integrated with Kubernetes.
 
 There are two scenarios:
 
-* You have a Kubernetes Cluster and Fire Insights can integrate with it.
-* You have VM's and need Kubernetes installed on it along with Fire Insights.
+* You have a Kubernetes Cluster and Sparkflows can integrate with it.
+* You have VM's and need Kubernetes installed on it along with Sparkflows.
 
 If you are on-premise, we recommend installing Rancher.
 
-Fire Insights adds the following services:
+Sparkflows adds the following services:
 
-  * Fire Insights : for self-serve Advanced Data Analytics.
+  * Sparkflows : for self-serve Advanced Data Analytics.
   * Minio : for distributed storage.
   * Apache HIVE : for Data Catelog.
   * Apache Spark : for Distributed Processing.
   * Jupyter : For Machine Learning with Notebooks.
 
-This document captures the steps for installing Fire Insights.
+This document captures the steps for installing Sparkflows.
 
   
 .. panels::

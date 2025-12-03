@@ -3,10 +3,10 @@ Creating Analytical App
 
 Below are the steps to create an Analytical App that integrates with Jupyter Notebooks.
 
-Step 1: Login to Fire Insights
+Step 1: Login to Sparkflows
 -------------------------------
 
-#. Open the Fire Insights Home Page.
+#. Open the Sparkflows Home Page.
 #. Enter your credentials and click **Sign In**.
 
 Step 2: Create the Application
@@ -26,4 +26,4 @@ Step 2: Create the Application
 
    `Click here <https://docs.sparkflows.io/en/latest/user-guide/web-app/index.html>`_ to get more details on how to create Analytical Apps.
 
-#. Now, you can run the application. It will submit the job, and you will see the response back in the Fire Insights UI.
+#. Now, you can run the application. It will submit the job, and you will see the response back in the Sparkflows UI.

@@ -1,7 +1,7 @@
 Health Check
 ============
 
-This document outlines steps for checking the health status of Fire Insights.
+This document outlines steps for checking the health status of Sparkflows.
 
 Follow the steps given below:
 
@@ -33,4 +33,4 @@ After hitting enter, you should see a response similar to:
    :alt: operating
    :width: 60%
     
-.. note::  Make sure to change the localhost to your domain name or your IP if Fire Insights is running on a different machine.
+.. note::  Make sure to change the localhost to your domain name or your IP if Sparkflows is running on a different machine.

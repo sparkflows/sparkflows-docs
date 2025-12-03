@@ -7,7 +7,7 @@ This document describes the steps for configuring ADLS in Sparkflows.
 Azure pre-requisites
 ++++
 
-In order to configure ADLS in Fire Insights, the User needs to have the following pre-requisites in Azure:
+In order to configure ADLS in Sparkflows, the User needs to have the following pre-requisites in Azure:
 
 
 .. list-table:: 

@@ -1,7 +1,7 @@
-Execute Workflow without Fire Insights
+Execute Workflow without Sparkflows
 ==================
 
-Workflows created in Fire Insights can be run on Databricks without the necessity of having Fire Insights installed.
+Workflows created in Sparkflows can be run on Databricks without the necessity of having Sparkflows installed.
 
 Architecture Diagram
 ----------
@@ -13,10 +13,10 @@ Architecture Diagram
 
 Below are the high level steps for it:
 
-#. Export the workflow from Fire Insights as JSON file.
+#. Export the workflow from Sparkflows as JSON file.
 #. Uplod the workflow JSON to DBFS.
-#. Upload the Fire Insights libraries into the Databricks Cluster.
-#. Create a Notebook and attach it to Databricks Cluster which has Fire Insights Library installed.
+#. Upload the Sparkflows libraries into the Databricks Cluster.
+#. Create a Notebook and attach it to Databricks Cluster which has Sparkflows Library installed.
 #. Execute the Notebook.
   
 Steps for Running Scala Workflows
@@ -166,4 +166,4 @@ Step 5 : Submit the Pyspark Job to Databricks Cluster
 Submit the Pyspark Job to Databricks cluster by passing the required workflow JSON path.
  
  
-.. note::  Make sure to verify that the workflow JSON path in DBFS is accessible and above Notebook is attached to Databricks Cluster with required Fire Insights library.
+.. note::  Make sure to verify that the workflow JSON path in DBFS is accessible and above Notebook is attached to Databricks Cluster with required Sparkflows library.

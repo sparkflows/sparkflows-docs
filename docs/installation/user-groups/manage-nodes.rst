@@ -16,7 +16,7 @@ Prerequisites
 Add Node Configuration
 -----------
 
-1. After logging into Fire Insights, navigate to **Administration -> Manage Nodes**.
+1. After logging into Sparkflows, navigate to **Administration -> Manage Nodes**.
 
   .. figure:: ../../_assets/administration/manage_nodes/manage_nodes.png
     :alt: manage_nodes

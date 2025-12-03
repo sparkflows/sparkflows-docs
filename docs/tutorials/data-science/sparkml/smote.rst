@@ -9,7 +9,7 @@ although these examples don’t add any new information to the model. Instead, n
 This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short.
 
 
-In this tutorial, you will discover the SMOTE for oversampling imbalanced data in Fire Insights. Fire Insights provides Node SMOTE.
+In this tutorial, you will discover the SMOTE for oversampling imbalanced data in Sparkflows. Sparkflows provides Node SMOTE.
 
 
 Workflow

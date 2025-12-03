@@ -21,7 +21,7 @@ Step 2: Execute JAR File from /tmp Directory.
 
   
   
-In Fire Insights, both steps can be run with UnixShellCommands Node.
+In Sparkflows, both steps can be run with UnixShellCommands Node.
 
 
 

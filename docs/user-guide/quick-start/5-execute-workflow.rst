@@ -10,7 +10,7 @@ The steps involved in executing a workflow are:
 #. Specify the **execution parameters**, if any.
 #. **Execute** the workflow to view the result.
 
-This document explains the detailed steps required to execute a workflow in Fire Insights.
+This document explains the detailed steps required to execute a workflow in Sparkflows.
 
 Step 1 : Go to the Workflows Tab
 ============================

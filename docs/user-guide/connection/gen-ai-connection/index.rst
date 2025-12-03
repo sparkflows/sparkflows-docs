@@ -2,7 +2,7 @@ GenerativeAI Connections
 ===================
 Enable GenerativeAI Connections in Sparkflows:
 
-   * Login to Sparkflows application i.e **Fire Insights**.
+   * Login to Sparkflows application i.e **Sparkflows**.
    * Go to  **Administration -> Configurations -> CONNECTION**.
    * Enable Gen AI connection by setting the below parameter to **true** and save the configuration.
 

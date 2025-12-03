@@ -1,7 +1,7 @@
 Data Profiling
 =============
 
-Fire Insights makes it easy to profile data. In Fire Insights, user can create the workflow using Summary, Correlation, etc. nodes to get more details about the dataset.
+Sparkflows makes it easy to profile data. In Sparkflows, user can create the workflow using Summary, Correlation, etc. nodes to get more details about the dataset.
 
 Sample Dataset: http://eforexcel.com/wp/downloads-16-sample-csv-files-data-sets-for-testing/
 

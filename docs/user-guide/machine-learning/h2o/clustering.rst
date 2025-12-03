@@ -1,7 +1,7 @@
 Clustering
 ==========
 
-Fire Insights provides the following processors to perform Clustering using H2O.
+Sparkflows provides the following processors to perform Clustering using H2O.
 
 H2O K-means
 ----------

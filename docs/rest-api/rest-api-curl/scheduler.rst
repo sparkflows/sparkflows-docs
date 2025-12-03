@@ -4,11 +4,11 @@ Scheduler REST API
 Overview
 --------
 
-The Scheduler REST APIs allow you to schedule some jobs once Fire Insights is connected to Hadoop Cluster.
+The Scheduler REST APIs allow you to schedule some jobs once Sparkflows is connected to Hadoop Cluster.
 
-Below are the various Scheduler REST APIs available in Fire Insights.
+Below are the various Scheduler REST APIs available in Sparkflows.
 
-They should be executed after you have logged into Fire Insights.
+They should be executed after you have logged into Sparkflows.
 
 Get list of all Workflows Scheduled
 -----------------------------------

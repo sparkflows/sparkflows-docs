@@ -1,10 +1,10 @@
 Math Function
 ==========
 
-Fire Insights provides processors for Mathematical computation. 
+Sparkflows provides processors for Mathematical computation. 
 
 
-Math Processors in Fire Insights
+Math Processors in Sparkflows
 ----------------------------------------
 
 
@@ -23,7 +23,7 @@ Math Processors in Fire Insights
 Math Expression
 ----------------------------------------
 
-Below is a sample workflow that contains Math Expression processor in Fire Insights. It demonstrates the usage of Math Expression node to compute new column value using Math Expressions.
+Below is a sample workflow that contains Math Expression processor in Sparkflows. It demonstrates the usage of Math Expression node to compute new column value using Math Expressions.
 
 It does the following processing of data:
 
@@ -67,7 +67,7 @@ Output of Math Expression node displaying dataset with new columns computed by e
 Math Functions
 ----------------------------------------
 
-Below is a sample workflow that contains Math Functions processor in Fire Insights. It demonstrates the usage of Math Functions node to compute values using selected Math function.
+Below is a sample workflow that contains Math Functions processor in Sparkflows. It demonstrates the usage of Math Functions node to compute values using selected Math function.
 
 It does the following processing of data:
 

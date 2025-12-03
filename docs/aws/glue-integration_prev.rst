@@ -1,7 +1,7 @@
 AWS Glue Integration
 ================
 
-Fire Insights can be configured to submit jobs to the AWS Glue cluster.
+Sparkflows can be configured to submit jobs to the AWS Glue cluster.
 
 
 Architecture diagram
@@ -11,7 +11,7 @@ Architecture diagram
    :alt: aws
    :width: 60%
 
-Below are the steps for AWS Glue Network Connection to submit the job from Fire Insights application to AWS Glue cluster.
+Below are the steps for AWS Glue Network Connection to submit the job from Sparkflows application to AWS Glue cluster.
 
 Pre-requisite
 --------
@@ -134,7 +134,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 vpc peering
 ----------
 
-Now since Fire Insights is running on other vpc, so you can use vpc peering connection to communicate Glue vpc to Fire Insights vpc.
+Now since Sparkflows is running on other vpc, so you can use vpc peering connection to communicate Glue vpc to Sparkflows vpc.
 
 1. Create Peering connection
 
@@ -152,11 +152,11 @@ Now since Fire Insights is running on other vpc, so you can use vpc peering conn
 Fire Configuartions & Job Submission on AWS Glue
 ----------------
 
-Now you have connection between vm on which Fire Insights is running and AWS Glue, so now we can configure Fire Insights for Glue and create workflow and submit the job on AWS Glue.
+Now you have connection between vm on which Sparkflows is running and AWS Glue, so now we can configure Sparkflows for Glue and create workflow and submit the job on AWS Glue.
 
-1. Login to Fire Insights application and go inside Configurations
+1. Login to Sparkflows application and go inside Configurations
 
-Once you login to Fire Insights application Click on ADMINISTRATION tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
+Once you login to Sparkflows application Click on ADMINISTRATION tab on top, it will take you to configuration page, on clicking, it will take to configuration page.
 
 .. figure:: ..//_assets/aws/glue/config.PNG
    :alt: aws
@@ -218,7 +218,7 @@ Now you can create an example workflow in Fire, which reads from S3 bucket and s
 
 4. Submit the Job
 
-After saving example workflow, now you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Fire Insights.
+After saving example workflow, now you can execute the job which will be submitted on AWS Glue Cluster and you will see response in Sparkflows.
 
 .. figure:: ..//_assets/aws/glue/job_submit.PNG
    :alt: aws
@@ -226,7 +226,7 @@ After saving example workflow, now you can execute the job which will be submitt
 
 5. Verify the Job on AWS Glue Cluster
 
-Now you may verify the Job run on Fire Insights from AWS Glue Job from AWS Portal too.
+Now you may verify the Job run on Sparkflows from AWS Glue Job from AWS Portal too.
 
 .. figure:: ..//_assets/aws/glue/glue_job_verify.PNG
    :alt: aws

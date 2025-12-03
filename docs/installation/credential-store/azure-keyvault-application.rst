@@ -1,7 +1,7 @@
 Register an application
 =====
 
-Fire Insights is integrated with Azure Key Vault. In order to configure Azure Key Vault you need to Register an application for Azure Directory with appropriate Privilege.
+Sparkflows is integrated with Azure Key Vault. In order to configure Azure Key Vault you need to Register an application for Azure Directory with appropriate Privilege.
 
 Create Azure Active Directory Application
 -------------------------------

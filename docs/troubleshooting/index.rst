@@ -1,7 +1,7 @@
 Troubleshooting Guide
 ==============
 
-The first step to troubleshoot issues with Fire Insights is to identify what kinds of issue you are having.
+The first step to troubleshoot issues with Sparkflows is to identify what kinds of issue you are having.
 
 Below are steps for troubleshooting some of the common issues.
 

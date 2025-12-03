@@ -38,7 +38,7 @@ Prerequisites
 Step 1 : Access Credential Store
 -------------
 
-* Login to **Fire Insights** as an admin user. 
+* Login to **Sparkflows** as an admin user. 
 * Navigate to **Administration -> Credential Store**, as shown below.
 
   .. figure:: ../../../_assets/credential_store/credentialstore-admin-page.PNG

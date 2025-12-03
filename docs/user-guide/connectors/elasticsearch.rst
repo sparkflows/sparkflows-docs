@@ -1,7 +1,7 @@
 Elasticsearch
 ==========
 
-Elasticsearch is a powerful, distributed search and analytics engine. Fire Insights offers a set of processors that enable reading and writing data using Elasticsearch. 
+Elasticsearch is a powerful, distributed search and analytics engine. Sparkflows offers a set of processors that enable reading and writing data using Elasticsearch. 
 
 Follow the steps below to configure and use these connectors effectively.
 
@@ -37,7 +37,7 @@ Save Elastic Search
 
 * Save Elastic Search connector can be used to **save data using Elasticsearch**.
 * Elasticsearch is often used for indexing, searching and analyzing datasets. 
-* Fire Insights makes it easy to write data to Elasticsearch. 
+* Sparkflows makes it easy to write data to Elasticsearch. 
 * **Elasticsearch-hadoop** provides native integration between Elasticsearch and Apache Spark.
 
 **Configure Save Elastic Search connector**
@@ -65,7 +65,7 @@ Workflow
 
 * A sample workflow to read and save data using Elasticsearch can be created as shown below. It uses the **Elasticsearch nodes** to read and write data.
 * This workflow transforms data before saving the data using Elasticsearch.
-* It efficiently handles data reading, transformation, and writing using Fire Insights and Elasticsearch.
+* It efficiently handles data reading, transformation, and writing using Sparkflows and Elasticsearch.
 
 
 

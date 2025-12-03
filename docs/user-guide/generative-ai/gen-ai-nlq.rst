@@ -1,7 +1,7 @@
 Generative AI NLQ Processor And Apps
 =======
 
-The following table enlists the OpenAI powered processor and application for NLQ (Natural Language Query) available in Fire Insights :
+The following table enlists the OpenAI powered processor and application for NLQ (Natural Language Query) available in Sparkflows :
 
 .. list-table:: 
    :widths: 40 60
@@ -21,7 +21,7 @@ Natural Language Query (NLQ)
 
 Powered by Generative AI NLQ can be used to query a connected RDBS using a query submitted in Natural Language rather than complex SQL statement. Query can be as simple as **Show me the count of employees**. 
 
-Below is a NLQ **Gen AI SQL Query** processor in Fire Insights.
+Below is a NLQ **Gen AI SQL Query** processor in Sparkflows.
 
 It does the following processing :
 

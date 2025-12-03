@@ -5,7 +5,7 @@ Prerequisites
 -------------
 
 
-Below are the prerequisites for Integrating GCP in Fire Insights:
+Below are the prerequisites for Integrating GCP in Sparkflows:
 
 .. list-table:: 
    :widths: 15 20 30

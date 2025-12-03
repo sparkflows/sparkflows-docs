@@ -1,7 +1,7 @@
 Amazon Web Services (AWS)
 ----
 
-This document outlines the necessary prerequisites for deploying Fire Insights Infrastructure on AWS.
+This document outlines the necessary prerequisites for deploying Sparkflows Infrastructure on AWS.
 
 
 Memory
@@ -171,26 +171,26 @@ Ensure that you meet the following prerequisites with regard to networking requi
    * - HTTPS
      - 443
      - For Accessing on HTTPS
-   * - Fire Insights(HTTP) 
+   * - Sparkflows(HTTP) 
      - 8080
-     - Fire Insights by default run on port 8080 on http
-   * - Fire Insights(HTTPS) 
+     - Sparkflows by default run on port 8080 on http
+   * - Sparkflows(HTTPS) 
      - 8443
-     - Fire Insights by default run on port 8443 on https
+     - Sparkflows by default run on port 8443 on https
 
 .. note:: A security group that opens SSH (22), HTTP (80) and HTTPS (443) on all traffic.
 
 HTTPS configuration
 ++++
 
-By default, Fire Insights instances are deployed with self-signed certificates. These will trigger security alerts in your browser.
+By default, Sparkflows instances are deployed with self-signed certificates. These will trigger security alerts in your browser.
 
 Single Sign-On
 ++++
 
 Single sign-on (SSO) refers to the ability for users to log in just one time with one set of credentials to get access to all corporate apps, websites, and data for which they have permission.
 
-By setting up SSO in Fire Insights, your users will be able to access Fire Insights using their corporate credentials.
+By setting up SSO in Sparkflows, your users will be able to access Sparkflows using their corporate credentials.
 
 - Users database
 
@@ -198,6 +198,6 @@ By setting up SSO in Fire Insights, your users will be able to access Fire Insig
 
 - SAML
 
-  Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. If your identity provider supports the SAML 2.0 protocol, you can use Fire Insights SSO to integrate with your identity provider.
+  Single sign-on (SSO) enables you to authenticate your users using your organization’s identity provider. If your identity provider supports the SAML 2.0 protocol, you can use Sparkflows SSO to integrate with your identity provider.
 
   Visit `SSO Documentation <https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html>`_ for more details.

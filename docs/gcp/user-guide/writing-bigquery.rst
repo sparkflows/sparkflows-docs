@@ -1,7 +1,7 @@
 Write to Big Query
 ============
 
-Fire Insights has processor to write to Big Query Tables. This document explains detailed steps required to write to BigQuery Tables.
+Sparkflows has processor to write to Big Query Tables. This document explains detailed steps required to write to BigQuery Tables.
 
 Follow the steps given below:
 

@@ -1,7 +1,7 @@
 Save as Parquet Files
 ================
 
-Fire Insights enables the user to write in a Parquet file.
+Sparkflows enables the user to write in a Parquet file.
 
 Workflow
 --------

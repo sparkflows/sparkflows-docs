@@ -1,9 +1,9 @@
 Databricks Connections
 ======================
 
-Fire Insights connects to Databricks using Connections.
+Sparkflows connects to Databricks using Connections.
 
-Connections in Fire Insights can be a various levels:
+Connections in Sparkflows can be a various levels:
 
   * Global Connections
   * Group Level Connections
@@ -12,13 +12,13 @@ Connections in Fire Insights can be a various levels:
 Global Connections
 ------------------
 
-The admin users in Fire Insights can configure the global connections. These are available for all the users logged into Fire Insights.
+The admin users in Sparkflows can configure the global connections. These are available for all the users logged into Sparkflows.
 
 
 Group Level Connections
 -----------------------
 
-The admin users in Fire Insights can configure group level connection. These are available to use to the users belonging to that group.
+The admin users in Sparkflows can configure group level connection. These are available to use to the users belonging to that group.
 
 Project Level Connections
 -------------------------

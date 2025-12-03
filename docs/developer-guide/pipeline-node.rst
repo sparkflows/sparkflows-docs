@@ -1,9 +1,9 @@
 Pipeline Nodes
 ====================================
 
-Fire Insights supports Pipelines. In a Pipeline various workflows and other components can be executed in the provided order.
+Sparkflows supports Pipelines. In a Pipeline various workflows and other components can be executed in the provided order.
 
-In Fire Insights, Pipelines can run with or without Airflow. The nodes available in the Pipeline depend on whether Airflow is integrated or not.
+In Sparkflows, Pipelines can run with or without Airflow. The nodes available in the Pipeline depend on whether Airflow is integrated or not.
 
 
 A Pipeline can have the following node types:
@@ -13,7 +13,7 @@ A Pipeline can have the following node types:
 
 .. note:: Workflow node is available only when Airflow Server is not configured.
 
-Below are list of nodes available when ''Airflow'' is enabled in Fire Insights by default.
+Below are list of nodes available when ''Airflow'' is enabled in Sparkflows by default.
 
 *   ``Branch Python Operator`` node can be used to execute flow depends on return value from the previous task.
 *   ``Bash Operator`` node can be used to executes the commands depends on selected trigger rule.
@@ -77,7 +77,7 @@ JSON
 XMLParser
 ------------------------
 
-XMLParser nodes can be added to Fire Insights by adding JSON files.
+XMLParser nodes can be added to Sparkflows by adding JSON files.
 
 Below is an example JSON for a XMLParser node which parses XML files.
 

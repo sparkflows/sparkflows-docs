@@ -46,7 +46,7 @@ Below are the details of the fields in the Create Dataset page:
 Step 3 : Update Schema of the Dataset
 -----------------
 
-You can update the schema of the dataset by clicking on **Update Sample Data/Schema**. It would display sample data for the dataset followed by the schema inferred by Fire Insights.
+You can update the schema of the dataset by clicking on **Update Sample Data/Schema**. It would display sample data for the dataset followed by the schema inferred by Sparkflows.
 
 In this example, the data file did not have a header row. So, Fire gave it standard column names of C0, C1, etc.
 

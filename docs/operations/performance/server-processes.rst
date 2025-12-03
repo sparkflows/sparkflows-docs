@@ -1,7 +1,7 @@
 Server Processes
 =====
 
-Fire Insights has a server process on each VM and also helper processes running on the machine.
+Sparkflows has a server process on each VM and also helper processes running on the machine.
 
 Fire Server
 ++++

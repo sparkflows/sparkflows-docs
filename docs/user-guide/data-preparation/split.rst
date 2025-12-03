@@ -1,10 +1,10 @@
 Split Function
 ==========
 
-Fire Insights provides processors for Splitting data.
+Sparkflows provides processors for Splitting data.
 
 
-Splitting Processors in Fire Insights
+Splitting Processors in Sparkflows
 ----------------------------------------
 
 
@@ -31,7 +31,7 @@ Splitting Processors in Fire Insights
 Compare All Columns
 ----------------------------------------
 
-Below is a sample workflow which contains ``Compare All Columns`` processor in Fire Insights. It demonstrates the usage of ``Compare All Columns`` node to split two incoming datasets into three outgoing datasets created based on A-B, B-A and A Intersection B.
+Below is a sample workflow which contains ``Compare All Columns`` processor in Sparkflows. It demonstrates the usage of ``Compare All Columns`` node to split two incoming datasets into three outgoing datasets created based on A-B, B-A and A Intersection B.
 
 It does the following processing of data:
 
@@ -91,7 +91,7 @@ Output of ``Compare All Columns`` node displaying datasets created by splitting 
 Compare All Columns Single Output
 ----------------------------------------
 
-Below is a sample workflow which contains ``Compare All Columns Single Output`` processor in Fire Insights. It demonstrates the usage of ``Compare All Columns Single Output`` node to split two incoming datasets into either of three datasets created based on A-B, B-A and A Intersection B as per User's selection.
+Below is a sample workflow which contains ``Compare All Columns Single Output`` processor in Sparkflows. It demonstrates the usage of ``Compare All Columns Single Output`` node to split two incoming datasets into either of three datasets created based on A-B, B-A and A Intersection B as per User's selection.
 
 It does the following processing of data:
 
@@ -140,7 +140,7 @@ Output of ``Compare All Columns Single Output`` node displaying dataset created 
 Compare Specific Columns
 ----------------------------------------
 
-Below is a sample workflow which contains ``Compare Specific Columns`` processor in Fire Insights. It demonstrates the usage of ``Compare Specific Columns`` node to compare incoming datasets on specific columns and splits them into three outgoing datasets created based on A-B, B-A and A Intersection B.
+Below is a sample workflow which contains ``Compare Specific Columns`` processor in Sparkflows. It demonstrates the usage of ``Compare Specific Columns`` node to compare incoming datasets on specific columns and splits them into three outgoing datasets created based on A-B, B-A and A Intersection B.
 
 It does the following processing of data:
 
@@ -201,7 +201,7 @@ Output of ``Compare Specific Columns`` node displaying datasets created by split
 Compare Specific Columns Single Output
 ----------------------------------------
 
-Below is a sample workflow which contains ``Compare Specific Columns Single Output`` processor in Fire Insights. It demonstrates the usage of ``Compare Specific Columns Single Output`` node to compare incoming datasets on specific columns and split them into either of three datasets created based on A-B, B-A and A Intersection B as per User's selection.
+Below is a sample workflow which contains ``Compare Specific Columns Single Output`` processor in Sparkflows. It demonstrates the usage of ``Compare Specific Columns Single Output`` node to compare incoming datasets on specific columns and split them into either of three datasets created based on A-B, B-A and A Intersection B as per User's selection.
 
 It does the following processing of data:
 
@@ -251,7 +251,7 @@ Output of ``Compare Specific Columns Single Output`` node displaying dataset cre
 Split By Expression
 ----------------------------------------
 
-Below is a sample workflow which contains ``Split By Expression`` processor in Fire Insights. It demonstrates the usage of ``Split By Expression`` node to split incoming datasets based on an expression.
+Below is a sample workflow which contains ``Split By Expression`` processor in Sparkflows. It demonstrates the usage of ``Split By Expression`` node to split incoming datasets based on an expression.
 
 It does the following processing of data:
 
@@ -305,7 +305,7 @@ Output of ``Split By Expression`` node displaying datasets created by splitting 
 Split By Multiple Expressions
 ----------------------------------------
 
-Below is a sample workflow which contains ``Split By Multiple Expressions`` processor in Fire Insights. It demonstrates the usage of ``Split By Multiple Expressions`` node to split incoming datasets into multiple datasets based on different expressions. An output dataset is created for each expression.
+Below is a sample workflow which contains ``Split By Multiple Expressions`` processor in Sparkflows. It demonstrates the usage of ``Split By Multiple Expressions`` node to split incoming datasets into multiple datasets based on different expressions. An output dataset is created for each expression.
 
 It does the following processing of data:
 

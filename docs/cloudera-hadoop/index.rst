@@ -2,7 +2,7 @@
 Cloudera Guide
 =========
 
-Fire Insights is seamlessly integrated with Cloudera Hadoop Clusters.
+Sparkflows is seamlessly integrated with Cloudera Hadoop Clusters.
 
 .. panels::
     :container: container-lg pb-3

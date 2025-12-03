@@ -9,7 +9,7 @@ Get Processor Count
 The below code in Python:
 
 * Acquires the token using the Grant Type Password.
-* Invokes Fire Insights REST API to get the number of processor's list available in Fire Insights.
+* Invokes Sparkflows REST API to get the number of processor's list available in Sparkflows.
 
   ::
     
@@ -70,7 +70,7 @@ After running the above REST API code in Python, we get the below result.
 Infer Hadoop Cluster Configurations
 -----------------------------
 
-The below code in Python invokes the Fire Insights REST API to infer Hadoop Cluster Configurations. It then saves the infer cluster Hadoop Configurations as updated values.
+The below code in Python invokes the Sparkflows REST API to infer Hadoop Cluster Configurations. It then saves the infer cluster Hadoop Configurations as updated values.
 
 ::
 

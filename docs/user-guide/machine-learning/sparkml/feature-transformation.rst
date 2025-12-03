@@ -7,13 +7,13 @@ Feature transformation is simply a function that transforms features from one re
    - feature values may cause problems during the learning process, e.g. data represented in different scales.
    - we want to reduce the number of features to plot and visualize data, speed up training or improve the accuracy of a specific model.
 
-Apache Spark has a number of Feature Transformers which are provided by Fire Insights in the form of processors so that these can be easily used in the workflows.
+Apache Spark has a number of Feature Transformers which are provided by Sparkflows in the form of processors so that these can be easily used in the workflows.
 
 
-Feature Transformer Processors in Fire Insights
+Feature Transformer Processors in Sparkflows
 ----------------------------------------------
 
-.. list-table:: Apache Spark based Feature Transformer Processors in Fire Insights
+.. list-table:: Apache Spark based Feature Transformer Processors in Sparkflows
    :widths: 20 50
    :header-rows: 1
 

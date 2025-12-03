@@ -3,7 +3,7 @@ Workflow REST API
 
 The Workflow REST APIs allow you to interact with the Workflows.
 
-Below are the various Workflow APIs available in Fire Insights. They should be executed after you have logged into Fire Insights.
+Below are the various Workflow APIs available in Sparkflows. They should be executed after you have logged into Sparkflows.
 
 
 Create Workflow

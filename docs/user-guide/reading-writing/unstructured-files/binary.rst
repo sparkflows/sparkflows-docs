@@ -2,7 +2,7 @@ Binary Files
 ============
 This node reads content of a Binary File and converts it to Text.
 
-Below is a sample workflow which contains the Binary Files processor in Fire Insights. It demonstrates the usage of the Binary Files node to read content of a Binary file.
+Below is a sample workflow which contains the Binary Files processor in Sparkflows. It demonstrates the usage of the Binary Files node to read content of a Binary file.
 
 It does the following processing of data:
 

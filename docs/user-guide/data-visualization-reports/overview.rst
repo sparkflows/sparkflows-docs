@@ -20,7 +20,7 @@ Thus, reports offer a powerful way to visualize and interpret data across multip
 
 Reports in Sparkflows can be accessed by following the below steps:
 
-**1.** Open the relevant project in **Fire Insights**.
+**1.** Open the relevant project in **Sparkflows**.
 
 
 **2.** Navigate to the ``Reports`` tab to view the Reports List page.
@@ -29,7 +29,7 @@ Reports in Sparkflows can be accessed by following the below steps:
 **3.** Click the **View (Eye)** icon on the report as shown below to open and view it.
  
   .. figure:: ../../_assets/user-guide/reports/viewicon-reports.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65%   
 
 Sample Reports
@@ -37,18 +37,18 @@ Sample Reports
  Below are some examples of reports generated in Sparkflows:
 
  .. figure:: ../../_assets/user-guide/reports/sample-report3.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65%   
 
 
  .. figure:: ../../_assets/user-guide/reports/sample-report2.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65%   
 
 
 
  .. figure:: ../../_assets/user-guide/reports/sample-report1.png
-      :alt: Fire Insights Access Report
+      :alt: Sparkflows Access Report
       :width: 65%   
 
 

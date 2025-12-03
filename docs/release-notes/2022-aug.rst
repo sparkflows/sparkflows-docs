@@ -1,12 +1,12 @@
 Version 3.1.30 - August, 2022
 ========
 
-These features and Fire Insights platform improvements were released in August 2022.
+These features and Sparkflows platform improvements were released in August 2022.
 
 NEW CONNECTIONS
 ----------
 
-Now Fire Insights enable you to create Different Compute Connection and submit the job on respective connection.
+Now Sparkflows enable you to create Different Compute Connection and submit the job on respective connection.
 
 - Livy Connections 
 
@@ -35,7 +35,7 @@ Documentation
 Airflow Enhancements
 ----------
 
-Fire Insights Now enable you to Integrate Airflow running on Remote server, create Dags in S3 and Sync up to remote machine using cron job.
+Sparkflows Now enable you to Integrate Airflow running on Remote server, create Dags in S3 and Sync up to remote machine using cron job.
 
 .. figure:: ..//_assets/releases/aug-2022/airflow_configuration.PNG
    :alt: connection
@@ -72,7 +72,7 @@ UI Upgrades
 
 - Project Discussion
 
-Fire Insights enable you add comments for project you are using.
+Sparkflows enable you add comments for project you are using.
 
 .. figure:: ..//_assets/releases/aug-2022/project_discussion.PNG
    :alt: connection

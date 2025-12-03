@@ -13,7 +13,7 @@ JupyterLab
 
     :doc:`/jupyter-guide/jupyter-lab/configuring-fire-insights`
 
-    Configuring Fire Insights
+    Configuring Sparkflows
 
 
 .. toctree::

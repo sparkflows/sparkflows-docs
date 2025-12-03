@@ -1,10 +1,10 @@
 Joins and Unions
 ==========
 
-Fire Insights provides processors for performing Joins and Unions.
+Sparkflows provides processors for performing Joins and Unions.
 
 
-Join and Union Processors in Fire Insights
+Join and Union Processors in Sparkflows
 ----------------------------------------
 
 
@@ -42,7 +42,7 @@ Join and Union Processors in Fire Insights
 Join Advance
 ----
 
-Below is a sample workflow which contains the Join Advance processor in Fire Insights. It demonstrates how the Join Advance Node merges distinct datasets into a unified schema while isolating non-matching records.
+Below is a sample workflow which contains the Join Advance processor in Sparkflows. It demonstrates how the Join Advance Node merges distinct datasets into a unified schema while isolating non-matching records.
 
 It does the following processing of data:
 
@@ -157,7 +157,7 @@ Output of the Join Advance node produces three distinct output edges:
 
 Union Advanced
 ----------------------------------------
-Below is a sample workflow which contains the Union Advanced processor in Fire Insights. It demonstrates the usage of the Union Advanced node to combine multiple datasets (Employee and Position) into a single consolidated table by stacking all incoming records sequentially without performing any join operations.
+Below is a sample workflow which contains the Union Advanced processor in Sparkflows. It demonstrates the usage of the Union Advanced node to combine multiple datasets (Employee and Position) into a single consolidated table by stacking all incoming records sequentially without performing any join operations.
 
 It does the following processing of data:
 
@@ -217,7 +217,7 @@ Output of Union Advanced node (combined incoming datasets) is shown as below:
 
 Append Fields
 --------------------
-Below is a sample workflow which contains the Append Fields processor in Fire Insights. It demonstrates the usage of the Append Fields node to create all possible combinations of rows from two datasets — effectively performing a Cartesian (cross) join between every employee record and every position record, resulting in a complete matrix of Employee–Position pairs.
+Below is a sample workflow which contains the Append Fields processor in Sparkflows. It demonstrates the usage of the Append Fields node to create all possible combinations of rows from two datasets — effectively performing a Cartesian (cross) join between every employee record and every position record, resulting in a complete matrix of Employee–Position pairs.
 
 It does the following processing of data:
 
@@ -316,7 +316,7 @@ Output of this node is a dataset that contains every Employee record duplicated 
 Union All
 ----------------------------------------
 
-Below is a sample workflow which contains Union All processor in Fire Insights. It demonstrates the usage of Union All node to join two datasets.
+Below is a sample workflow which contains Union All processor in Sparkflows. It demonstrates the usage of Union All node to join two datasets.
 
 It does the following processing of data:
 
@@ -368,7 +368,7 @@ Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find t
 Union Distinct
 ----------------------------------------
 
-Below is a sample workflow which contains ``Union Distinct`` processor in Fire Insights. It demonstrates the usage of ``Union Distinct`` node to join two datasets.
+Below is a sample workflow which contains ``Union Distinct`` processor in Sparkflows. It demonstrates the usage of ``Union Distinct`` node to join two datasets.
 
 It does the following processing of data:
 
@@ -421,7 +421,7 @@ Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find t
 Join Using SQL
 ----------------------------------------
 
-Below is a sample workflow which contains Join Using SQL processor in Fire Insights. It demonstrates the usage of Join Using SQL node to join two datasets.
+Below is a sample workflow which contains Join Using SQL processor in Sparkflows. It demonstrates the usage of Join Using SQL node to join two datasets.
 
 It does the following processing of data:
 
@@ -470,7 +470,7 @@ Output of Join Using SQL node joining incoming datasets is shown below:
 Join On Columns
 ----------------------------------------
 
-Below is a sample workflow which contains Join On Columns processor in Fire Insights. It demonstrates the usage of Join On Columns node to join two datasets.
+Below is a sample workflow which contains Join On Columns processor in Sparkflows. It demonstrates the usage of Join On Columns node to join two datasets.
 
 It does the following processing of data:
 
@@ -526,7 +526,7 @@ Watch tutorial videos at Sparkflows YouTube Channel to get more insights. Find t
 Join On Common Column
 ----------------------------------------
 
-Below is a sample workflow which contains Join On Common Column processor in Fire Insights. It demonstrates the usage of Join On Common Column node to join two datasets.
+Below is a sample workflow which contains Join On Common Column processor in Sparkflows. It demonstrates the usage of Join On Common Column node to join two datasets.
 
 It does following processing of data:
 
@@ -577,7 +577,7 @@ Output of ``Join On Common Column`` node joining incoming datasets is shown belo
 Join On Common Columns
 ----------------------------------------
 
-Below is a sample workflow which contains ``Join On Common Columns`` processor in Fire Insights. It demonstrates the usage of ``Join On Common Columns`` node to join two datasets.
+Below is a sample workflow which contains ``Join On Common Columns`` processor in Sparkflows. It demonstrates the usage of ``Join On Common Columns`` node to join two datasets.
 
 It does the following processing of data:
 

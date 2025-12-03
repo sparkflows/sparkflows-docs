@@ -4,7 +4,7 @@ Installation
 Sparkflows can be installed to run independently on Windows.
 
 
-Installation Steps of Fire Insights with H2 DB
+Installation Steps of Sparkflows with H2 DB
 ----------------------------------------------
 
 * Download the fire tgz file from:
@@ -43,7 +43,7 @@ Installation Steps of Fire Insights with H2 DB
 
     
     
-.. note::  Two user accounts come preconfigured with Fire Insights.
+.. note::  Two user accounts come preconfigured with Sparkflows.
 
            * admin/admin
            * test/test
@@ -67,7 +67,7 @@ Stop Fire helper processes with the below::
     .\run-fire.bat stop
 
 
-.. note::  On Windows, the PySpark engine will not get installed. Below are he functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Fire Insights on Linux
+.. note::  On Windows, the PySpark engine will not get installed. Below are he functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux
 
            * AutoML
            * Prophet

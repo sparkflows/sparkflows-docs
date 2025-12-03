@@ -1,7 +1,7 @@
-Fire Insights Architecture
+Sparkflows Architecture
 -----------------
 
-Fire Insights consists of three core components:
+Sparkflows consists of three core components:
 
   * **Web Browser** for defining end-to-end workflows for building data products and applications:
 
@@ -16,4 +16,4 @@ Fire Insights consists of three core components:
 
   * **Apache Spark** cluster on which the workflows are executed as Spark jobs:
 
-    * Workflows are submitted by the Fire Insights cluster to execute on the Apache Spark cluster.
+    * Workflows are submitted by the Sparkflows cluster to execute on the Apache Spark cluster.

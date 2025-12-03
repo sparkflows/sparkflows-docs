@@ -1,7 +1,7 @@
 Amazon EMR Serverless Setup
 ===============
 
-This document provides comprehensive guide for setting up Amazon EMR Serverless, ensuring a smooth integration process with Fire Insights. 
+This document provides comprehensive guide for setting up Amazon EMR Serverless, ensuring a smooth integration process with Sparkflows. 
 
 #. Grant permissions to use EMR Serverless
 
@@ -199,13 +199,13 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
 
 #. Create private subnet and attach security group with it
 
-   Inorder to submit Job from Fire Insights application, you need to create private subnet in emrserverless region and attach security group with it, so Fire Insights application deployed on ecs or ec2 can have the access of that.
+   Inorder to submit Job from Sparkflows application, you need to create private subnet in emrserverless region and attach security group with it, so Sparkflows application deployed on ecs or ec2 can have the access of that.
 
 
    `Click here <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html>`_ follow the instructions for creating private subnet.
 
 
-   .. note:: Make sure to copy these two ie ``subnet Id & security group Id``, As it is being used while Configuring EMR Serverless connection in Fire Insights.
+   .. note:: Make sure to copy these two ie ``subnet Id & security group Id``, As it is being used while Configuring EMR Serverless connection in Sparkflows.
 
 
 

@@ -1,7 +1,7 @@
 Custom Node Development & Deployment (Java/Scala)
 ====================================
 
-Fire Insights follows an open and extensible architecture allowing developers to add new custom nodes/processors that can be exposed in Fire UI and embedded into workflows.
+Sparkflows follows an open and extensible architecture allowing developers to add new custom nodes/processors that can be exposed in Fire UI and embedded into workflows.
  
  
 **The details for building new nodes are available at the URL below:**
@@ -101,7 +101,7 @@ Step 5 : Deploy the Custom Node in the Fire Server
 Now that you have created a new node, follow the steps below to deploy it into the Fire Server:
  
   * Create a jar file with ``mvn clean package``
-  * Copy the jar file created in the previous step (target/writing-new-node-3.1.0.jar) into ``fire-user-lib`` directory of Fire Insights.
+  * Copy the jar file created in the previous step (target/writing-new-node-3.1.0.jar) into ``fire-user-lib`` directory of Sparkflows.
   * Place the JSON file for the new node under the ``nodes`` directory.
   * ``Restart`` the Fire Server.
 

@@ -1,9 +1,9 @@
 H2 Database
 ===========
 
-By default Fire Insights uses the H2 DB for storing the metadata. These include users, groups, projects, workflows, workflow executions etc.
+By default Sparkflows uses the H2 DB for storing the metadata. These include users, groups, projects, workflows, workflow executions etc.
 
-Shut down Fire Insights before logging into H2 DB or doing any operations on the H2 DB.
+Shut down Sparkflows before logging into H2 DB or doing any operations on the H2 DB.
 
 Logging into H2 DB
 --------------------

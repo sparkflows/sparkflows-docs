@@ -1,6 +1,6 @@
 Unstructured Files
 ==================
-Fire Insights provides a number of Processors or Nodes for reading and writing unstructured data from files.
+Sparkflows provides a number of Processors or Nodes for reading and writing unstructured data from files.
 
 .. panels::
     :container: container-lg pb-3

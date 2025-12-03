@@ -1,7 +1,7 @@
 Read Parquet Files
 ================
 
-Fire Insights enables users to read Parquet files.
+Sparkflows enables users to read Parquet files.
 
 Workflow
 --------

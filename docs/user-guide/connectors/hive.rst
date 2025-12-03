@@ -1,9 +1,9 @@
 HIVE
 ==================
 
-Fire Insights provides a set of connectors and processors to read and save data to HIVE database. These nodes facilitates to interact with Hive Database to query and manage large datasets. 
+Sparkflows provides a set of connectors and processors to read and save data to HIVE database. These nodes facilitates to interact with Hive Database to query and manage large datasets. 
 
-Fire Insights provides following nodes to access and process data from Hive Database:
+Sparkflows provides following nodes to access and process data from Hive Database:
 
 * Read Hive Table - It facilitates to read data from Hive table.
 * Save As Hive Table - It facilitates to save processed data as Hive table in a Database.
@@ -13,7 +13,7 @@ Fire Insights provides following nodes to access and process data from Hive Data
 
 Depending on your data pipeline or workflow, you might want to save data to HIVE after it has been read from a data source, cleaned and transformed. After data is saved in HIVE, it can be read from another workflow or accessed through BI tools such as Tableau.
 
-Note: Fire Insights can run in cluster mode or in the standalone mode. These settings are in Administration/Configuration. When connecting to HIVE, Sparkflows must be running in cluster mode on an edge node of a Hadoop cluster. HIVE settings have to be correctly set under Administration/Configuration.
+Note: Sparkflows can run in cluster mode or in the standalone mode. These settings are in Administration/Configuration. When connecting to HIVE, Sparkflows must be running in cluster mode on an edge node of a Hadoop cluster. HIVE settings have to be correctly set under Administration/Configuration.
 
 Processors and Connectors
 --------

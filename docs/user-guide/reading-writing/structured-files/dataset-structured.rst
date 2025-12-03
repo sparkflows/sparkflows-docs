@@ -2,7 +2,7 @@ Dataset Structured
 ==================
 This node creates a DataFrame based on rows from a dataset.
 
-Below is a sample workflow which contains the Dataset Structured processor in Fire Insights. It demonstrates the usage of Dataset Structured node to create a DataFrame based on rows from a dataset.
+Below is a sample workflow which contains the Dataset Structured processor in Sparkflows. It demonstrates the usage of Dataset Structured node to create a DataFrame based on rows from a dataset.
 
 It does the following processing of data:
 

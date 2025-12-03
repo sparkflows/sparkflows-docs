@@ -91,7 +91,7 @@ Follow the steps below to create a **Snowflake connection using Key-Pair Authent
 Step 1 : Navigate to Connections Page
 -------------
 
-#. Login to **Fire Insights** using your credentials.
+#. Login to **Sparkflows** using your credentials.
 #. From the dashboard page, go to **Administration** and select **Global/Group Connections**, as shown below.
 
    .. figure:: ../../../..//_assets/credential_store/create-snowflake-connection/fire_admin_page.PNG

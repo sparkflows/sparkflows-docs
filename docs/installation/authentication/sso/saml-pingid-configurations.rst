@@ -1,13 +1,13 @@
-Ping Identity Fire Insights SAML Configuration
+Ping Identity Sparkflows SAML Configuration
 ====================
 
-Fire Insights can be configured with SAML 2.0 Ping Identity as below:
+Sparkflows can be configured with SAML 2.0 Ping Identity as below:
 
-Go to folder ``conf`` under Fire Insights installation directory and edit the file ``sso.saml.properties`` in it:
+Go to folder ``conf`` under Sparkflows installation directory and edit the file ``sso.saml.properties`` in it:
 
 Add/update the below information from newly created application in Ping Identity:
 
-1. Enable SSO in Fire Insights
+1. Enable SSO in Sparkflows
 
 ::
 
@@ -19,7 +19,7 @@ Add/update the below information from newly created application in Ping Identity
 
     sparkflows.authentication.type=saml 
 
-3. Create user automatically in application if user doesn't exist in Fire Insights, otherwise application will show page 'User not found'.
+3. Create user automatically in application if user doesn't exist in Sparkflows, otherwise application will show page 'User not found'.
 
 ::
 
@@ -74,7 +74,7 @@ Add/update the below information from newly created application in Ping Identity
   
 8. Configure Server Name
 
-If application is running behind load balancer, one needs to configure the below. Update the Fire Insights application URI. 
+If application is running behind load balancer, one needs to configure the below. Update the Sparkflows application URI. 
 
 ::
 

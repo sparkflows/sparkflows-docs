@@ -1,7 +1,7 @@
 Update H2 Database Path
 ========
 
-Fire Insights comes up with embedded H2 database. By default, the H2 database files are created in the users home directory.
+Sparkflows comes up with embedded H2 database. By default, the H2 database files are created in the users home directory.
 
 The path of the H2 database files can be updated as follows:
 

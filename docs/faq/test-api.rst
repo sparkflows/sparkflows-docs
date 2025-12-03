@@ -1,7 +1,7 @@
 Test API
 ----
 
-How can I Test API of Fire Insights?
+How can I Test API of Sparkflows?
 ===========
 
 You can run below curl command:
@@ -17,5 +17,5 @@ Expected response of API:
     "message": "Job Id doesn't exist. Please input valid jobId"
     }
 
-.. note::  Make sure to change the localhost to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the localhost to your domain name or your IP where Sparkflows is running.
 

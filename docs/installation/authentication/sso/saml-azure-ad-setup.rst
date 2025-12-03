@@ -94,10 +94,10 @@ Step 8 : Download Metadata from Application
 
 #. Download the Metadata from application. 
    
-   This metadata will be used while configuring the Fire Insights.
+   This metadata will be used while configuring the Sparkflows.
 
    .. figure:: ../../../_assets/authentication/azure-ad/azure_metadata.PNG
       :alt: sso
       :width: 50%
 
-.. note::  Make sure to change the sparkflows_dns to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the sparkflows_dns to your domain name or your IP where Sparkflows is running.

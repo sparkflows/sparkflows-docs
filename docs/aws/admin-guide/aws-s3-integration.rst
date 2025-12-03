@@ -1,7 +1,7 @@
 Amazon S3 Integration
 ==================
 
-Fire Insights can be configured to read data from S3 via one of the two approaches below:
+Sparkflows can be configured to read data from S3 via one of the two approaches below:
 
 * Via Access Key and Secret Key
 * Via IAM roles
@@ -11,7 +11,7 @@ The details of each of the above is listed out below.
 Amazon S3 Integration via Access Key and Secret Key
 +++++++++++
 
-Fire Insights allows users to access files on S3. The steps involved are: 
+Sparkflows allows users to access files on S3. The steps involved are: 
 
 #. Fulfill AWS Account Requirements
    
@@ -19,8 +19,8 @@ Fire Insights allows users to access files on S3. The steps involved are:
    * Create IAM Policy in AWS Account
    * Create AWS Access Key and Secret Key in AWS Account
    
-#. Install AWS CLI in Fire Insights Machine
-#. Configure AWS Access Key and Secret Key in Fire Insights Machine
+#. Install AWS CLI in Sparkflows Machine
+#. Configure AWS Access Key and Secret Key in Sparkflows Machine
 #. Access S3 in Fire UI
 #. Protect Data Using Server Side Encryption
 
@@ -46,7 +46,7 @@ Step 1 : Fulfill AWS Account Requirements
    
    To control the access to S3 it is recommended that you use IAM Roles:
        
-     - Run Fire Insights on an EC2 machine with an appropriate S3 IAM Role.
+     - Run Sparkflows on an EC2 machine with an appropriate S3 IAM Role.
      - Run the EMR cluster with the appropriate S3 IAM Role.
  
 #. **Create AWS Access Key and Secret Key in AWS Account**
@@ -54,7 +54,7 @@ Step 1 : Fulfill AWS Account Requirements
    To create access key and secret key for the above-created user, follow the step given in `AWS User Guide. <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_
    
    
-Step 2 : Install AWS CLI in Fire Insights Machine
+Step 2 : Install AWS CLI in Sparkflows Machine
 --------
 
 #. To install the AWS CLI in Fire UI run the below command:
@@ -63,10 +63,10 @@ Step 2 : Install AWS CLI in Fire Insights Machine
  
    For more details on installation refer the `installation guide. <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>`_
      
-Step 3 : Configure Amazon Access Key and Secret Key in Fire Insights Machine
+Step 3 : Configure Amazon Access Key and Secret Key in Sparkflows Machine
 -------
 
-#. To configure your credentials, run *aws configure* on the machine which runs the Fire Insights.
+#. To configure your credentials, run *aws configure* on the machine which runs the Sparkflows.
 
 Step 4 : Access S3 in Fire-UI
 --------
@@ -104,7 +104,7 @@ Step 5 : Protect Data Using Server Side Encryption
 Amazon S3 Integration via IAM Role
 ++++++++++++++
 
-Fire Insights enables you to configure with S3 running on EC2 instance using IAM role.
+Sparkflows enables you to configure with S3 running on EC2 instance using IAM role.
 
 Following steps are required to create a role for S3 bucket access and attach the role to EC2 instance on which Fire is running:
 
@@ -192,13 +192,13 @@ Now, the policy **assume_role_bucket1** needs to be attached to the EC2 instance
 Step 4 : Set Fire Configurations for S3
 -----------------------
 
-Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Fire Insights. 
+Since the Role has been successfully set up, in the previous steps, so now we are ready to configure it in the Sparkflows. 
 
 Follow the steps given below to complete the configuration:
 
-1. Login to Fire Insights application:
+1. Login to Sparkflows application:
 
-   Once you login to Fire Insights application, click on **ADMINISTRATION** tab located on top, it will take you to the configuration page.
+   Once you login to Sparkflows application, click on **ADMINISTRATION** tab located on top, it will take you to the configuration page.
 
    .. figure:: ../../_assets/aws/glue/config.PNG
       :alt: aws

@@ -2,7 +2,7 @@
 Quick Start Guide
 =========
 
-The quick start guide gets you started with Fire Insights. 
+The quick start guide gets you started with Sparkflows. 
 
 Let's get started! 
 

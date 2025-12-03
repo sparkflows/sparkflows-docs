@@ -11,13 +11,13 @@ In machine learning and statistics, feature selection, also known as variable se
 More information on Feature Selection can be found at: https://en.wikipedia.org/wiki/Feature_selection  
 
 
-Apache Spark has the following Feature Selectors. Fire Insights provides them as Processors to be easily used in the workflows.
+Apache Spark has the following Feature Selectors. Sparkflows provides them as Processors to be easily used in the workflows.
 
 
-Feature Selection Processors in Fire Insights
+Feature Selection Processors in Sparkflows
 ----------------------------------------------
 
-.. list-table:: Apache Spark based Feature Selection Processors in Fire Insights
+.. list-table:: Apache Spark based Feature Selection Processors in Sparkflows
    :widths: 20 50
    :header-rows: 1
 

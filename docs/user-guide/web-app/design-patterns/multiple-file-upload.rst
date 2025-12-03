@@ -1,7 +1,7 @@
 Multiple File Upload in Analytical App
 ====================================
 
-Fire Insights enables you to upload multiple files in Analytical App. 
+Sparkflows enables you to upload multiple files in Analytical App. 
 
 This document explains in detail the steps required to enable multiple file upload in Analytical Apps.
 

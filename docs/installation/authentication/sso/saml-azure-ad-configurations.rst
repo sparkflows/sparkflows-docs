@@ -1,13 +1,13 @@
-Azure AD Fire Insights SAML Configuration
+Azure AD Sparkflows SAML Configuration
 ====================
 
-Fire Insights can be configured with SAML Azure AD as below:
+Sparkflows can be configured with SAML Azure AD as below:
 
-Go to folder ``conf`` under Fire Insights installation directory and edit the file ``sso.saml.properties`` in it:
+Go to folder ``conf`` under Sparkflows installation directory and edit the file ``sso.saml.properties`` in it:
 
 Add/update the below information from newly created application in Azure AD as created in previous step:
 
-1. Enable SSO in Fire Insights
+1. Enable SSO in Sparkflows
 
 ::
 
@@ -20,7 +20,7 @@ Add/update the below information from newly created application in Azure AD as c
     sparkflows.authentication.type=saml
 
 
-3. Create user automatically in application if user doesn't exist in Fire Insights, otherwise application will show page 'User not found'.
+3. Create user automatically in application if user doesn't exist in Sparkflows, otherwise application will show page 'User not found'.
 
 ::
 
@@ -67,7 +67,7 @@ Add/update the below information from newly created application in Azure AD as c
   
 8. Configure Server Name
 
-If application is running behind Load balancers, one needs to configure the below. Update the Fire Insights application URI. 
+If application is running behind Load balancers, one needs to configure the below. Update the Sparkflows application URI. 
 
 ::
 

@@ -1,7 +1,7 @@
 Read from GCS
 ============
 
-Fire Insights has processor to read from GCS. This document explains detailed steps required to read data from GCS.
+Sparkflows has processor to read from GCS. This document explains detailed steps required to read data from GCS.
 
 Follow the steps given below:
 

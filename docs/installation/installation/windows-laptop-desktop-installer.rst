@@ -1,6 +1,6 @@
 Windows Installation using Installer
 ====================================
-You can download and use the installer to install or upgrade Fire Insights on your laptop or desktop.
+You can download and use the installer to install or upgrade Sparkflows on your laptop or desktop.
 
 It is not recommended to use this installer on servers, where you need better control over the installation process.
 

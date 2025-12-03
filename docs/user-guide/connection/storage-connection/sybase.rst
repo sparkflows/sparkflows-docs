@@ -1,11 +1,11 @@
 Sybase Connection
 ================
 
-Fire Insights provides the capability to create Sybase connection and use the connection for reading from and writing to Sybase tables. Below are the steps for creating Sybase connection in Fire Insights:
+Sparkflows provides the capability to create Sybase connection and use the connection for reading from and writing to Sybase tables. Below are the steps for creating Sybase connection in Sparkflows:
 
   * Download Sybase JDBC Driver
   * Install the JDBC Driver
-  * Restart Fire Insights
+  * Restart Sparkflows
   * Create the Sybase Connection
 
 Download Sybase JDBC Driver
@@ -28,7 +28,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Sparkflows.
 
 Create the Sybase Connection
 -----

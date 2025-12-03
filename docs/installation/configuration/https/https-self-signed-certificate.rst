@@ -1,7 +1,7 @@
 HTTPS : Import Self-Signed Certificates
 ================================
 
-Fire Insights comes with a self-signed certificate. It is available in ``conf/keystore.jks`` of fire-x.y.z directory. 
+Sparkflows comes with a self-signed certificate. It is available in ``conf/keystore.jks`` of fire-x.y.z directory. 
 
 While this allows for basic HTTPS encryption, **self-signed certificates are not trusted by browsers**, as they have not been issued by a recognized Certificate Authority (CA). This will trigger security warnings in the browser when accessing the application.
 

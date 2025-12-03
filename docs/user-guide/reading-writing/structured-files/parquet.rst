@@ -5,7 +5,7 @@ Read Parquet
 -----------------
 This node reads Parquet files.
 
-Below is a sample workflow which contains Read Parquet processor in Fire Insights. It demonstrates usage of Read Parquet node to read a Parquet file.
+Below is a sample workflow which contains Read Parquet processor in Sparkflows. It demonstrates usage of Read Parquet node to read a Parquet file.
 
 It does following processing of data:
 
@@ -43,7 +43,7 @@ Save Parquet
 This node saves the incoming dataset as Parquet File.
 
 
-Below is a sample workflow which contains the Save Parquet processor in Fire Insights. It demonstrates the usage of the Save Parquet node to save incoming dataset in Parquet format.
+Below is a sample workflow which contains the Save Parquet processor in Sparkflows. It demonstrates the usage of the Save Parquet node to save incoming dataset in Parquet format.
 
 It does the following processing of data:
 

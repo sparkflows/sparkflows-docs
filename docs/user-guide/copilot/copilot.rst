@@ -16,7 +16,7 @@ Prerequisites
 
 Steps for Adding Copilot
 -----------
-1. After logging into Fire Insights, navigate to **Administration -> Copilot**.
+1. After logging into Sparkflows, navigate to **Administration -> Copilot**.
 
   .. figure:: ../../_assets/user-guide/copilot/copilot_administration.png
     :alt: copilot_administration

@@ -1,7 +1,7 @@
 Snowflake
 =========
 
-In Fire Insights, connections can be made to Snowflake so that users can access and manage data files stored in the Snowflake database. This is done with the help of Snowflake connection nodes that can be used in workflows to read and write data from and to Snowflake database.
+In Sparkflows, connections can be made to Snowflake so that users can access and manage data files stored in the Snowflake database. This is done with the help of Snowflake connection nodes that can be used in workflows to read and write data from and to Snowflake database.
 
 Creating Connection
 -------------------
@@ -23,7 +23,7 @@ It can be created at various levels depending on the need:
 
 **Create Global and Group Connections:**
 
-#. **Login** to Fire Insights.
+#. **Login** to Sparkflows.
 #. From the Dashboard page, click **Administration** tab in the top-bar.
 #. From the Administration page, click **Global Connections**.
 
@@ -71,7 +71,7 @@ Using Connection
 
 **Read from Snowflake**
 +++++
-Now, you are ready to start using the Snowflake Connection in Fire Insights.
+Now, you are ready to start using the Snowflake Connection in Sparkflows.
 
 - Fire, now, enables you to read data from snowflake using **Read From Snowflake** node.
 

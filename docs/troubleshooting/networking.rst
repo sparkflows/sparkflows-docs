@@ -1,7 +1,7 @@
 Networking
 ==========
 
-The Fire Insights server connects to other systems depending on the configuration. These include Apache Livy, Apache Airflow, Databricks, etc.
+The Sparkflows server connects to other systems depending on the configuration. These include Apache Livy, Apache Airflow, Databricks, etc.
 
 In case there are networking issues in the environment, they would cause errors. Networking issues can include DNS Resolution problem, etc.
 

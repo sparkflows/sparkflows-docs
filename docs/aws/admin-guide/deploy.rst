@@ -3,12 +3,12 @@ Deployment Guide
 
 Fire can be easily installed on an EC2 machine. It can submit jobs to EMR Livy or AWS Glue. It can also run the jobs locally on the same EC2 machines.
 
-Below are the detailed steps for installing Fire Insights on EMR:
+Below are the detailed steps for installing Sparkflows on EMR:
 
 1. Start EMR Cluster on AWS
 2. Update inbound rules for Master Node, if necessary
 3. SSH into the Master node
-4. Download Fire Insights from https://www.sparkflows.io/download
+4. Download Sparkflows from https://www.sparkflows.io/download
 5. Unzip it
 6. Create H2 Database
 7. Start Fire
@@ -91,7 +91,7 @@ https://sparkflows-release.s3.amazonaws.com/fire/docker/docker-ubuntu/emr-bootst
 Loading Example Workflows
 -------------------------
 
-* From the home page of Fire Insights, click on **Load Example Applications**.
+* From the home page of Sparkflows, click on **Load Example Applications**.
 
 * Upload the Fire examples data onto HDFS::
 
@@ -120,7 +120,7 @@ For example, for user 'test'::
  hadoop fs -mkdir /user/test
  hadoop fs -chown test:test /user/test
 
-Create the user in Fire Insights if not already created.
+Create the user in Sparkflows if not already created.
 
 
 Extra Configuration for Running H2O Workflow

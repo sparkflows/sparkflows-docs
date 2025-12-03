@@ -7,7 +7,7 @@ Sparkflows allows you to create a Dataproc connection. Connections can be create
   * **Group**: Users belonging to the group have access to these connections.
   * **Project**: The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This document provides steps to create a Dataproc Connection in Fire Insights and automate the creation of workflows/pipelines that interact with Dataproc clusters for large-scale data processing.
+This document provides steps to create a Dataproc Connection in Sparkflows and automate the creation of workflows/pipelines that interact with Dataproc clusters for large-scale data processing.
 
 Step 1 : Enable Dataproc Connection
 ++++++++++++
@@ -65,7 +65,7 @@ For GENERAL Tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Dataproc sent result back to Fire Insights
+     - Postback Url through which Dataproc sent result back to Sparkflows
    * - Title 
      - Title of selected connection
      - Title of selected connection  

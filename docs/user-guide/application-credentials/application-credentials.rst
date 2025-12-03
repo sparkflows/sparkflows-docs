@@ -8,7 +8,7 @@ Follow the steps below for creating an Application Credential.
 Step 1 : Navigate to the Credential Store
 -------------
 
-#. **Log in** to Fire Insights. 
+#. **Log in** to Sparkflows. 
 #. Go to the **Administration** page and click on the **Credential Store** card, as shown below to access the Credential Store section.
 
    .. figure:: ../../_assets/credential_store/local-credential-store/credential-store-card.png

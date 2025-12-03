@@ -1,7 +1,7 @@
 Macros
 ==========
 
-Fire Insights allows you to define and use macros in various ways.
+Sparkflows allows you to define and use macros in various ways.
 
 .. panels::
     :container: container-lg pb-3

@@ -1,16 +1,16 @@
 Machine Sizing
 ----
 
-Fire Insights is generally installed on a Linux vm. By default the job run on the same machine. Fire Insights can also be configured to submit the jobs to an Apache Spark Cluster. 
+Sparkflows is generally installed on a Linux vm. By default the job run on the same machine. Sparkflows can also be configured to submit the jobs to an Apache Spark Cluster. 
 
 Below are some considerations for the sizing of the machine.
   
 Scenario I
 ++++
 
-Below is the default basic configuration for installing Fire Insights.
+Below is the default basic configuration for installing Sparkflows.
 
-It will support 3-5 users running lightweight jobs on the same machine. If Fire Insights is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
+It will support 3-5 users running lightweight jobs on the same machine. If Sparkflows is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
   
 .. list-table:: 
    :widths: 10 20 30
@@ -34,7 +34,7 @@ Scenario II
 
 6-15 users 
 
-It will support 6-15 users running lightweight jobs on the same machine. If Fire Insights is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
+It will support 6-15 users running lightweight jobs on the same machine. If Sparkflows is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
   
 .. list-table:: 
    :widths: 10 20 30
@@ -59,7 +59,7 @@ Scenario III
 
 16-30 users 
 
-It will support 16-30 users running lightweight to medium jobs on the same machine. If Fire Insights is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
+It will support 16-30 users running lightweight to medium jobs on the same machine. If Sparkflows is configured to submit the jobs to an Apache Spark Cluster, then heavy jobs can also be run.  
   
 .. list-table:: 
    :widths: 10 20 30

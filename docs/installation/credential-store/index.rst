@@ -1,9 +1,9 @@
 Credential Store
 ================
 
-Fire Insights enables you to configure Credential Store. When creating connections, values like username, password, URL etc. can be fetched from the credential store which has been configured in Fire Insights.
+Sparkflows enables you to configure Credential Store. When creating connections, values like username, password, URL etc. can be fetched from the credential store which has been configured in Sparkflows.
 
-Below are the steps for configuring ``Azure Key Vault`` or ``Local Credential Store`` in Fire Insights.
+Below are the steps for configuring ``Azure Key Vault`` or ``Local Credential Store`` in Sparkflows.
 
 .. toctree::
    :maxdepth: 1

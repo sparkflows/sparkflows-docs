@@ -1,7 +1,7 @@
 REST API Examples using Java
 ==========
 
-Fire Insights provides REST APIs for interacting with it.
+Sparkflows provides REST APIs for interacting with it.
 
 Below are the examples of using tokens. The first step is to log in with your username and password, and acquire the token.
 

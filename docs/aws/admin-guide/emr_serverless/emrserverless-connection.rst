@@ -7,12 +7,12 @@ Sparkflows enables you to create "Amazon EMR Serverless Connection" and use it t
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
-This document guides on how to create a "Amazon EMR Serverless Connection" in Fire Insights. Follow the steps below:
+This document guides on how to create a "Amazon EMR Serverless Connection" in Sparkflows. Follow the steps below:
 
 Step 1 : Enable Amazon EMR Serverless Connection in Sparkflows
 ===========
 
-* Login to **Fire Insights**.
+* Login to **Sparkflows**.
 * Go to **Administration -> Configurations -> CONNECTION**.
 * Enable Amazon EMR Serverless by setting the **value** of below parameter to **true** and save the configuration.
 
@@ -72,7 +72,7 @@ For GENERAL tab
      - Name of Connection
    * - Postback Url
      - Postback Url
-     - Postback Url through which Amazon EMR Serverless sent result back to Fire Insights
+     - Postback Url through which Amazon EMR Serverless sent result back to Sparkflows
    * - Title 
      - Title of Selected Connection
      - Title of Selected Connection  
@@ -156,7 +156,7 @@ For NETWORK tab
          :width: 60%
 
 
-.. note:: Make sure that **Subnet Ids and Security Group Ids** created in the previous steps are used here and that they allow access from the ecs or ec2 instance where the Fire Insights application is running.
+.. note:: Make sure that **Subnet Ids and Security Group Ids** created in the previous steps are used here and that they allow access from the ecs or ec2 instance where the Sparkflows application is running.
 
 Step 5 : Submit Job on Amazon EMR Serverless
 =========

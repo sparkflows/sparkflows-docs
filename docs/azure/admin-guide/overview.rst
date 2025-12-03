@@ -1,10 +1,10 @@
 Overview
 =================
-This document describes details to help you plan on deploying and using Fire Insights on Azure.
+This document describes details to help you plan on deploying and using Sparkflows on Azure.
 
 Costs
 -----
-The main costs involved when using Fire Insights are around the VM. You can explore the pricing details for Azure VMs in the official `Azure Documentation. <https://docs.microsoft.com/en-us/azure/cost-management-billing/understand/plan-manage-costs>`_
+The main costs involved when using Sparkflows are around the VM. You can explore the pricing details for Azure VMs in the official `Azure Documentation. <https://docs.microsoft.com/en-us/azure/cost-management-billing/understand/plan-manage-costs>`_
 
 Sizing
 ------

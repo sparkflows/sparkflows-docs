@@ -7,7 +7,7 @@ This document describes the steps for configuring GCS in Sparkflows.
 GCP pre-requisites
 ++++
 
-In order to configure GCS in Fire Insights, the User needs to have the following pre-requisites in GCP:
+In order to configure GCS in Sparkflows, the User needs to have the following pre-requisites in GCP:
 
 
 .. list-table:: 
@@ -44,7 +44,7 @@ Using Sparkflows Global Configurations
 **Step 2 : Configure GCS**
 -----------------------------
 
-#. Login to Fire Insights and navigate to **ADMINISTRATION->Configurations->GCP**.
+#. Login to Sparkflows and navigate to **ADMINISTRATION->Configurations->GCP**.
 #. Enable Google Cloud Integration flag by selecting the value as **True**.
 #. Specify the **Project Id**.
 #. Specify the **path** to the Service Account Key file.

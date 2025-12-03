@@ -1,9 +1,9 @@
 AWS Glue & EC2 Network Connection
 ==================
 
-Fire Insights EC2 instance can communicate with AWS Glue using a Network connection.
+Sparkflows EC2 instance can communicate with AWS Glue using a Network connection.
 
-Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Fire Insights has been installed.
+Below are the steps for creating the AWS Glue Network Connection with the EC2 machine on which Sparkflows has been installed.
 
 Step 1 : Check Pre-requisites
 --------
@@ -131,7 +131,7 @@ Creating AWS Glue Connection is a very important step in completing this exercis
 Step 5 : VPC Peering Connections
 ----------
 
-Now, since Fire Insights and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Fire Insights VPC.
+Now, since Sparkflows and AWS Glue are running on separate VPC's, we can use VPC Peering connection to enable communication from AWS Glue VPC to Sparkflows VPC.
 
 #. Create Peering connection.
 
@@ -146,4 +146,4 @@ Now, since Fire Insights and AWS Glue are running on separate VPC's, we can use 
       :alt: aws
       :width: 50%
    
-   .. note:: Ignore the above steps if Fire Insights and AWS Glue are running on same VPC.   
+   .. note:: Ignore the above steps if Sparkflows and AWS Glue are running on same VPC.   

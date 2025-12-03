@@ -1,7 +1,7 @@
 Securing Session
 =================
 
-Fire Insights enables you to secure the HTTP session. By default, it runs on both HTTP and HTTPS.
+Sparkflows enables you to secure the HTTP session. By default, it runs on both HTTP and HTTPS.
 
 Disable HTTP Session
 -------------------

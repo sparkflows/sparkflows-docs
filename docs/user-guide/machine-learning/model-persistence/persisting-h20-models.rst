@@ -4,7 +4,7 @@ Persisting H2O Models
 H2O Models
 ----------
 
-H2O Models can be saved in binary format or in MOJO format. Fire Insights has processors to save and read them back.
+H2O Models can be saved in binary format or in MOJO format. Sparkflows has processors to save and read them back.
 
 Save H2O Model Processor
 +++++++++++++++++++++

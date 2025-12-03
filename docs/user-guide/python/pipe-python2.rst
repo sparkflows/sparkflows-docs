@@ -1,7 +1,7 @@
 Pipe Python2 Processor
 =====================
 
-Fire Insights has a Pipe Python2 Processor.
+Sparkflows has a Pipe Python2 Processor.
 
 It pipes the incoming DataFrame through pipe to the Python Script. It also passes the Schema of the DataFrame to the Python script through the command line argument. (argv[1])
 

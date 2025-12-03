@@ -1,6 +1,6 @@
 Create Charts
 ======
-This document explains in detail the steps required to create a chart in Fire Insights. 
+This document explains in detail the steps required to create a chart in Sparkflows. 
 
 Follow the steps below:
 

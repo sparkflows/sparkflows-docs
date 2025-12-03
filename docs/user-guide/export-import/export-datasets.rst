@@ -1,14 +1,14 @@
 Export Datasets
 ===============
 
-Fire Insights enables you to export datasets as JSON files. These JSON files can be imported into another instance of Fire Insights.
+Sparkflows enables you to export datasets as JSON files. These JSON files can be imported into another instance of Sparkflows.
 
 Below are the steps for exporting a dataset.
 
 Steps for Exporting a Dataset
 -----
 
-1. You can Login to Fire Insights web server URL and follow the steps given below:
+1. You can Login to Sparkflows web server URL and follow the steps given below:
 
      * Go to the Project List page.
      * Select the project that has the dataset you want to Export.
@@ -29,10 +29,10 @@ Steps for Exporting a Dataset
      :alt: userguide
      :width: 70%  
   
-3. Once the dataset gets exported successfully, you will see the **dataset JSON file** in your local computer and same can be imported to other instance of Fire Insights. 
+3. Once the dataset gets exported successfully, you will see the **dataset JSON file** in your local computer and same can be imported to other instance of Sparkflows. 
 
    .. figure:: ../../_assets/user-guide/export-import/dataset_exported.PNG
      :alt: userguide
      :width: 70% 
 
-.. note:: Make sure that data pointed to the Dataset should be available on new instance of Fire Insights.
+.. note:: Make sure that data pointed to the Dataset should be available on new instance of Sparkflows.

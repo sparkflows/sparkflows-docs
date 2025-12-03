@@ -1,10 +1,10 @@
 Aggregate
 ==========
 
-Fire Insights provides processors that show aggregates for combinations of values in the selected columns.
+Sparkflows provides processors that show aggregates for combinations of values in the selected columns.
 
 
-Aggregate Processors in Fire Insights
+Aggregate Processors in Sparkflows
 ----------------------------------------
 
 
@@ -31,7 +31,7 @@ Aggregate Processors in Fire Insights
 Aggregate
 -----------
 
-Below is a sample workflow which contains Aggregate processor in Fire Insights. It demonstrates the usage of the Aggregation Node to compute group-level totals and metrics from an incoming dataset.
+Below is a sample workflow which contains Aggregate processor in Sparkflows. It demonstrates the usage of the Aggregation Node to compute group-level totals and metrics from an incoming dataset.
 
 It does the following processing of data:
 
@@ -91,7 +91,7 @@ The output of aggregate node is shown below:
 Pivot By Advance
 ----------------
 
-Below is a sample workflow which contains Pivot By Advance processor in Fire Insights. It demonstrates the usage of the Pivot By Advance Node to transform and summarize an incoming dataset into a pivot-table format.
+Below is a sample workflow which contains Pivot By Advance processor in Sparkflows. It demonstrates the usage of the Pivot By Advance Node to transform and summarize an incoming dataset into a pivot-table format.
 
 It does the following processing of data:
 
@@ -179,7 +179,7 @@ The output of the node is a matrix-style table(pivoted DataFrame) suitable for r
 Cube
 ----------------------------------------
 
-Below is a sample workflow which contains ``Cube`` processor in Fire Insights. It demonstrates usage of ``Cube`` node to compute aggregated value against all possible combinations of values in selected Cube columns.
+Below is a sample workflow which contains ``Cube`` processor in Sparkflows. It demonstrates usage of ``Cube`` node to compute aggregated value against all possible combinations of values in selected Cube columns.
 
 It does the following processing of data:
 
@@ -222,7 +222,7 @@ Aggregated value computed with the use of Cube node is displayed using Print nod
 Group By
 ----------------------------------------
 
-Below is a sample workflow which contains ``Group By`` processor in Fire Insights. It demonstrates the usage of ``Group By`` node to compute aggregation of data by grouping rows together based on ``Group By`` columns.
+Below is a sample workflow which contains ``Group By`` processor in Sparkflows. It demonstrates the usage of ``Group By`` node to compute aggregation of data by grouping rows together based on ``Group By`` columns.
 
 It does the following processing of data:
 
@@ -270,7 +270,7 @@ Aggregated value computed with the use of ``Group By`` node is displayed using t
 Pivot By
 ----------------------------------------
 
-Below is a sample workflow which contains ``Pivot By`` processor in Fire Insights. It demonstrates the usage of ``Pivot By`` node to compute aggregation of data using Grouping columns and displayed against each Pivot Column value.
+Below is a sample workflow which contains ``Pivot By`` processor in Sparkflows. It demonstrates the usage of ``Pivot By`` node to compute aggregation of data using Grouping columns and displayed against each Pivot Column value.
 
 It does the following processing of data:
 
@@ -319,7 +319,7 @@ Aggregated value computed using ``Pivot By`` node is displayed using Print node 
 Rollup
 ----------------------------------------
 
-Below is a sample workflow which contains ``Rollup`` processor in Fire Insights. It demonstrates usage of ``Rollup`` node to compute aggregation of data using ``Rollup Columns``. Output is displayed in hierarchical order depicting the manner in which aggregation rolls-up upward.
+Below is a sample workflow which contains ``Rollup`` processor in Sparkflows. It demonstrates usage of ``Rollup`` node to compute aggregation of data using ``Rollup Columns``. Output is displayed in hierarchical order depicting the manner in which aggregation rolls-up upward.
 
 It does the following processing of data:
 

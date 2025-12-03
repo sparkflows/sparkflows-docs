@@ -9,10 +9,10 @@ Following the steps given below would allow you to successfully submit jobs usin
 
 
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 ------------
 
-#. Open Fire Insights **Login page** to enter your credentials and click **Sign in**.
+#. Open Sparkflows **Login page** to enter your credentials and click **Sign in**.
 
 Step 2 : Create Sample Workflow
 -----------

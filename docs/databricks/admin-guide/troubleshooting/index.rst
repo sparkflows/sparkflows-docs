@@ -5,9 +5,9 @@ Troubleshooting Databricks Integration
 When the workflow is executed, nothing shows up in Fire
 -----------------------------------------
 
-One problem might be that the ``postback URL`` is not configured right in Fire Insights under Administration/Configuration.
+One problem might be that the ``postback URL`` is not configured right in Sparkflows under Administration/Configuration.
 
-The other problem can be that the machine running Fire Insights is not accessible from the Databricks Cluster. Test connectivity to the Fire Insights machine from Databricks.
+The other problem can be that the machine running Sparkflows is not accessible from the Databricks Cluster. Test connectivity to the Sparkflows machine from Databricks.
 
 Connectivity from Databricks to Fire postback URL can be done in Databricks via Notebooks using the telnet command.
 
@@ -45,7 +45,7 @@ The following logs under ``Driver Logs`` are useful:
 
 - log4j-active.log
 
-Search for ``WorkflowExecuteDatabricks`` in the logs to view if the Fire Insights Job is running in Databricks.
+Search for ``WorkflowExecuteDatabricks`` in the logs to view if the Sparkflows Job is running in Databricks.
 
 
 java.lang.Exception: An error occurred while initializing the REPL. Please check whether there are conflicting Scala libraries or JARs attached to the cluster, such as Scala 2.11 libraries attached to Scala 2.10 cluster (or vice-versa).

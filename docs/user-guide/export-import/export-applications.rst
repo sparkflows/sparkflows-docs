@@ -1,14 +1,14 @@
 Export Applications
 ===============
 
-Fire Insights enables you to export Applications as JSON files. These JSON files can be imported into another instance of Fire Insights.
+Sparkflows enables you to export Applications as JSON files. These JSON files can be imported into another instance of Sparkflows.
 
 Below are the steps for exporting an Application.
 
 Steps for Exporting Applications
 -----
 
-1. You can Login to Fire Insights Web server URL and follow the steps below:
+1. You can Login to Sparkflows Web server URL and follow the steps below:
 
      * Go to the Project List page.
      * Select the project that has the Application you want to Export.
@@ -27,10 +27,10 @@ Steps for Exporting Applications
       :alt: userguide
       :width: 70%  
   
-3. Once the Application gets exported successfully, you will see the Application JSON file in your local computer and same can be imported to other instance of Fire Insights. 
+3. Once the Application gets exported successfully, you will see the Application JSON file in your local computer and same can be imported to other instance of Sparkflows. 
 
    .. figure:: ../../_assets/user-guide/export-import/application_exported.PNG
      :alt: userguide
      :width: 70% 
 
-.. note:: Make sure that data pointed to the Application should be available on new instance of Fire Insights.
+.. note:: Make sure that data pointed to the Application should be available on new instance of Sparkflows.

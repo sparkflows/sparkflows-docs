@@ -1,12 +1,12 @@
-Fire Insights Binaries
+Sparkflows Binaries
 ======
 
-Fire Insights TGZ File
+Sparkflows TGZ File
 -----
 
 * https://www.sparkflows.io/download
 
-Fire Insights Docker Image
+Sparkflows Docker Image
 ------
 
 * Nov 02, 2025

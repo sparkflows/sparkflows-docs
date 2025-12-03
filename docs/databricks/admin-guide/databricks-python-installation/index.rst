@@ -1,26 +1,26 @@
 Databricks Python Integration Steps
 ======================
 
-Fire Insights integrates with Databricks and can submit Python jobs. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
+Sparkflows integrates with Databricks and can submit Python jobs. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Sparkflows.
 
-Below are the steps for Integrating Fire Insights with your Databricks Clusters for running Python jobs.
+Below are the steps for Integrating Sparkflows with your Databricks Clusters for running Python jobs.
 
-.. note::  The Machine on which Fire Insights is installed should have Python 3.7.0 or above.
+.. note::  The Machine on which Sparkflows is installed should have Python 3.7.0 or above.
 
 Python Installation Steps:
 
   * https://docs.sparkflows.io/en/latest/installation/python-install-linux.html
 
 
-Install Fire Insights
+Install Sparkflows
 -----------
 
-Install Fire Insights on your machines. The machine has to be reachable from the Databricks cluster.
+Install Sparkflows on your machines. The machine has to be reachable from the Databricks cluster.
 
 Upload Fire wheel file to Databricks
 ----------------------------------
 
-Fire Insights wheel file has to be uploaded to Databricks. Fire Insights jobs running on Databricks make use of this wheel file.
+Sparkflows wheel file has to be uploaded to Databricks. Sparkflows jobs running on Databricks make use of this wheel file.
 
 Upload ``fire-x.y.z/dist/fire-3.1.0-py3-none-any.whl`` to Databricks. Upload it under Workspace as a Library on to Databricks under DBFS or even in S3 Bucket which is accessible from the Databricks Cluster.
 
@@ -83,7 +83,7 @@ Once it is installed successfully, you can see the python wheel inside Library i
 Install Python dependencies
 -----------------------
 
-You need to install the python dependencies required by Fire Insights on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory::
+You need to install the python dependencies required by Sparkflows on the machine by running below Command from ``fire-x.y.z/dist/fire/`` directory::
 
     pip install -r requirements.txt
 
@@ -116,9 +116,9 @@ Copy the jars ``hadoop-aws`` and ``aws-java-sdk`` to pyspark jar path.
    :alt: Databricks
    :width: 90%
 
-Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Fire Insights Machine.
+Install any specific package of python, if Need to use in Custom Processors on databricks Cluster aswellas Sparkflows Machine.
 
-Use the command below to install it on the Fire Insights machine::
+Use the command below to install it on the Sparkflows machine::
 
     pip install scorecardpy
 
@@ -173,10 +173,10 @@ You can ``UPLOAD`` it, using DBFS Browser too.
    :alt: Databricks
    :width: 90%
 
-Configure the Uploaded Library in Fire Insights
+Configure the Uploaded Library in Sparkflows
 ------------------------------------
 
-Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Fire Insights.
+Configure the path of the uploaded fire python wheel package file & workflowexecutedatabricks.py under ``databricks.pythonFile`` & ``databricks.pythonPackages`` respectively in Sparkflows.
 
 It can be two source either ``DBFS`` or ``S3`` path.
 
@@ -195,7 +195,7 @@ If you have Uploaded in ``S3`` path.
 Job Submission using Pyspark Engine
 -----------------------------------
 
-Now You can submit pyspark jobs to Databricks Cluster from Fire Insights.
+Now You can submit pyspark jobs to Databricks Cluster from Sparkflows.
 
 .. figure:: ../_assets/configuration/job_1.PNG
    :alt: Submit Job

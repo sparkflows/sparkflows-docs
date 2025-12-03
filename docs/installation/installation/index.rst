@@ -1,7 +1,7 @@
 Installation and Upgrade
 ========================
 
-Fire Insights can be installed using one of the below binaries and installers as the need be.
+Sparkflows can be installed using one of the below binaries and installers as the need be.
 
 .. panels::
    :container: container-lg pb-3

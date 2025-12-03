@@ -12,7 +12,7 @@ It also lists the compatability matrix of Spark version and Delta lake version:
 
 `Spark and Delta Lake Compatibility Matrix <https://docs.delta.io/latest/releases.html>`_
 
-AWS EMR has a bootstrap script which gets executed when it comes up. Fire Insights uses the bootstrap script to install the needed python packages.
+AWS EMR has a bootstrap script which gets executed when it comes up. Sparkflows uses the bootstrap script to install the needed python packages.
 
 Updates to Bootstrap and Wheel File
 -------------

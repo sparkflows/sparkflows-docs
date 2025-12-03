@@ -1,7 +1,7 @@
 Prerequisites
 ^^^^^^^^^^^^^^
 
-Below are the Prerequisites for installing Fire Insights on a windows machine::
+Below are the Prerequisites for installing Sparkflows on a windows machine::
 
 
   - JDK 17 installed.
@@ -91,7 +91,7 @@ Verify Installation of Java
            * https://www.java.com/en/download/help/path.xml
            
  
-.. note:: With the above steps, you would have Fire Insights running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Fire Insights has to be installed on the edge node of the cluster.
+.. note:: With the above steps, you would have Sparkflows running locally on your laptop. It would not be able to submit jobs to a Spark cluster. For that, Sparkflows has to be installed on the edge node of the cluster.
 
 
 Install winutils.exe

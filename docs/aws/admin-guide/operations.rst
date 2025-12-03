@@ -24,7 +24,7 @@ The main server process which handles the web requests is fire-ui. This is a lon
 Backup and Recovery
 ------
 
-Fire Insights stores the metadata into a Relational Database. It comes with an embedded H2 database. It scales well for pretty heavy loads and upto 50 users. Sparkflows can be easily configured to run with MySQL database.
+Sparkflows stores the metadata into a Relational Database. It comes with an embedded H2 database. It scales well for pretty heavy loads and upto 50 users. Sparkflows can be easily configured to run with MySQL database.
 
 When running with the H2 database, Sparkflows by default stores the database files in the user's home directory which is running Sparkflows. There are 2 files:
 

@@ -1,7 +1,7 @@
-Fire Insights Concepts
+Sparkflows Concepts
 ================
 
-Fire Insights has datasets, workflows, scheduler, connections, etc. This guide will explain how to use them.
+Sparkflows has datasets, workflows, scheduler, connections, etc. This guide will explain how to use them.
 
 .. panels::
     :container: container-lg pb-3
@@ -9,7 +9,7 @@ Fire Insights has datasets, workflows, scheduler, connections, etc. This guide w
 
     :doc:`/user-guide/concepts/datasets/index`
 
-    Datasets contain the schema of the data files which allows Fire Insights to read and create a DataFrame out of it.
+    Datasets contain the schema of the data files which allows Sparkflows to read and create a DataFrame out of it.
 
     ---
 

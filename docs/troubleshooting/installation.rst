@@ -24,18 +24,18 @@ Possible causes for Fire not to start could be:
 
   The HTTP and HTTPS ports for Fire can be updated in **conf/application.properties**.
 
-2. Fire Insights Page Not Opening at :8080
+2. Sparkflows Page Not Opening at :8080
 --------------------------
 
 **Problem**
 ++++++++
 
-Fire Insights page does not open when I go to :8080. Some other UI is displayed.
+Sparkflows page does not open when I go to :8080. Some other UI is displayed.
 
 **Solution**
 ++++++++
 
-* It is possible that there is some other application running on port 8080 (or the port on which Fire Insights is listening).
+* It is possible that there is some other application running on port 8080 (or the port on which Sparkflows is listening).
 * Fire by default runs on port 8080.
 * The resolution would be to run Fire server on some other port which is not being used by any other application. 
 * Details for running Fire on another port is at `Sparkflows Documentation on Running Different Ports. <https://docs.sparkflows.io/en/latest/installation/configuration/running-different-port.html>`_
@@ -134,7 +134,7 @@ Getting the following error :
 **Solution**
 +++++++
 
-Make sure that you do not have mapped public IP to private IP in **/etc/hosts**, as Fire Insights by default use localhost for subprocess.
+Make sure that you do not have mapped public IP to private IP in **/etc/hosts**, as Sparkflows by default use localhost for subprocess.
 
 8. Error Running Docker Commands: docker: Invalid Reference Format
 ------------------------

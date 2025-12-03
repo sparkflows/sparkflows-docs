@@ -1,12 +1,12 @@
 User/Group/Role/Permission
 ==========================
 
-Fire Insights supports users, groups, roles, and permissions. A user can belong to multiple groups and have multiple roles. Each role can have multiple permissions associated with it.
+Sparkflows supports users, groups, roles, and permissions. A user can belong to multiple groups and have multiple roles. Each role can have multiple permissions associated with it.
 
 Users
 -----
 
-Fire Insights supports multiple users. 
+Sparkflows supports multiple users. 
 
 * Each user can belong to multiple groups and have multiple roles.
 * A user can be a designated as a superuser.
@@ -24,7 +24,7 @@ Fire Insights supports multiple users.
 Groups
 ------
 
-There can be multiple groups in Fire Insights. A user can belong to one or more groups.
+There can be multiple groups in Sparkflows. A user can belong to one or more groups.
 
 .. figure:: ../../_assets/security/group_list.PNG
    :alt: security
@@ -56,7 +56,7 @@ A user can have multiple roles. The actions a user can perform depend on the rol
 
 A role has a set of permissions associated with it. A new role can be created, and an existing role can be edited.
 
-Out of the box, Fire Insights comes with three roles: **ADMIN**, **ANALYST**, and **BUSINESS ASSOCIATE**.
+Out of the box, Sparkflows comes with three roles: **ADMIN**, **ANALYST**, and **BUSINESS ASSOCIATE**.
 
 .. figure:: ../../_assets/security/Role_Permissions_1.png
    :alt: security
@@ -69,7 +69,7 @@ Out of the box, Fire Insights comes with three roles: **ADMIN**, **ANALYST**, an
 Permissions
 -----------
 
-Fire Insights supports the following permissions, which are associated with roles.
+Sparkflows supports the following permissions, which are associated with roles.
 
 .. list-table:: 
    :widths: 30 70 

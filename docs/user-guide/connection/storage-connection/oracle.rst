@@ -1,11 +1,11 @@
 Oracle Connection
 ================
 
-Fire Insights provides the capability to create Oracle connection and use the connection for reading from and writing to Oracle. Below are the steps for creating Oracle connection in Fire Insights:
+Sparkflows provides the capability to create Oracle connection and use the connection for reading from and writing to Oracle. Below are the steps for creating Oracle connection in Sparkflows:
 
   * Download Oracle JDBC Driver
   * Install the JDBC Driver
-  * Restart Fire Insights
+  * Restart Sparkflows
   * Create the Oracle Connection
 
 Download Oracle JDBC Driver
@@ -26,7 +26,7 @@ Once you have copied the JDBC driver into the required folder, restart the Fire 
 
 This will restart the Fire services automatically.
 
-Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Fire Insights.
+Or else, you can also wait for 60 minutes and the JDBC driver would be automatically registered with Sparkflows.
 
 Create the Oracle Connection
 -----

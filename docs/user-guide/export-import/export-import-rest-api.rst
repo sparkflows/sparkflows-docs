@@ -1,9 +1,9 @@
 REST API
 ========
 
-Fire Insights supports REST API's for most actions.
+Sparkflows supports REST API's for most actions.
 
-Export or Import process can be automated by writing a program which interacts with Fire Insights using REST API. For example, this program can be written in Python.
+Export or Import process can be automated by writing a program which interacts with Sparkflows using REST API. For example, this program can be written in Python.
 
 Examples
 --------

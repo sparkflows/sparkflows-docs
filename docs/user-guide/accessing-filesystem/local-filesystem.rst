@@ -1,23 +1,23 @@
 Local File System
 =====
 
-Fire Insights enables you to use the Local File System by default when no Compute is enabled or S3 is configured.
+Sparkflows enables you to use the Local File System by default when no Compute is enabled or S3 is configured.
 
-By default, Fire Insights bundles sample data within its binary, located in the data folder of the Fire home directory.
+By default, Sparkflows bundles sample data within its binary, located in the data folder of the Fire home directory.
 
-If you wish, you can copy the data folder to your preferred location and configure the path for Fire Insights to use. 
+If you wish, you can copy the data folder to your preferred location and configure the path for Sparkflows to use. 
 
 To configure the path, follow the steps below :
 
-Step 1 : Login to Fire Insights
+Step 1 : Login to Sparkflows
 -----------
 
-#. Go to Fire Insights Login Page.
+#. Go to Sparkflows Login Page.
 #. Enter your credentials to sign in.
 
 Step 2 : Go to Administration Page
 ----------
-From the Fire Insights home page, click on the **ADMINISTRATION** tab located in the top bar.
+From the Sparkflows home page, click on the **ADMINISTRATION** tab located in the top bar.
 
 Step 3 : Go to Configurations Page
 ------------

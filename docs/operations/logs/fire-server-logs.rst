@@ -4,7 +4,7 @@ Logs for Fire Server
 From the VM
 +++++++
 
-You can view the logs from vm on which Fire Insights is running from below location:
+You can view the logs from vm on which Sparkflows is running from below location:
 
 Fire server Logs:
 
@@ -38,7 +38,7 @@ Logs for Fire Web Server
 
 The logs for Fire web server go into "fireserver.log". The logging level is determined by the properties file "conf/logback-spring.xml".
 
-As an administrator, the logs can be viewed from UI. Once you login with Fire Insights application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
+As an administrator, the logs can be viewed from UI. Once you login with Sparkflows application, you need to go inside ``ADMINISTRATION >> View Server Logs``. 
 
 
 .. figure:: ../../_assets/operating/operations/fire-server-logs.PNG

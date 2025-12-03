@@ -1,7 +1,7 @@
 Adding Stages
 =============
 
-Fire Insights offers users the flexibility to incorporate a variety of stages within their analytical apps. Let's explore a selection of stage examples to showcase this versatility.
+Sparkflows offers users the flexibility to incorporate a variety of stages within their analytical apps. Let's explore a selection of stage examples to showcase this versatility.
 
 .. panels::
     :container: container-lg pb-3

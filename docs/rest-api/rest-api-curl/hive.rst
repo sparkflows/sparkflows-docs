@@ -4,11 +4,11 @@ HIVE REST API
 Overview
 --------
 
-The HIVE REST APIs allow you to interact with the HIVE of the Hadoop Cluster Fire Insights is connected to.
+The HIVE REST APIs allow you to interact with the HIVE of the Hadoop Cluster Sparkflows is connected to.
 
-Below are the various HIVE REST APIs available in Fire Insights.
+Below are the various HIVE REST APIs available in Sparkflows.
 
-They should be executed after you have logged into Fire Insights.
+They should be executed after you have logged into Sparkflows.
 
 Get all Hive Databases
 ----------------------

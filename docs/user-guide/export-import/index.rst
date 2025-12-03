@@ -2,7 +2,7 @@
 Export and Import
 ====
 
-Fire Insights enables you to export and download your workflows, pipelines, datasets, and analytical applications to your computer as JSON files. Fire also enables you to download a whole project as a zip file.
+Sparkflows enables you to export and download your workflows, pipelines, datasets, and analytical applications to your computer as JSON files. Fire also enables you to download a whole project as a zip file.
 
 It then also enables you to import your JSON files of workflows, pipelines, datasets and analytical apps back into any instance of Fire. You can also import the full Project zip file.
 

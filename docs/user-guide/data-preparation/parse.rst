@@ -1,10 +1,10 @@
 Parse Functions
 ======
 
-Fire Insights provides processors that parse the values of the selected columns.
+Sparkflows provides processors that parse the values of the selected columns.
 
 
-Parse Processors in Fire Insights
+Parse Processors in Sparkflows
 ----------------------------------------
 
 
@@ -32,7 +32,7 @@ Parse Processors in Fire Insights
 Apache Logs
 ----------------------------------------
 
-Below is a sample workflow which contains ``Apache Logs`` processor in Fire Insights. It demonstrates the usage of ``Apache Logs`` node to parse an apache log file.
+Below is a sample workflow which contains ``Apache Logs`` processor in Sparkflows. It demonstrates the usage of ``Apache Logs`` node to parse an apache log file.
 
 It does the following processing of data:
 
@@ -66,7 +66,7 @@ Parsed data using ``Apache Logs`` node is displayed using the Print node as belo
 Field Splitter
 ----------------------------------------
 
-Below is a sample workflow which contains ``Field Splitter`` processor in Fire Insights. It demonstrates the usage of ``Field Splitter`` node to split a column value using a delimiter into multiple data columns. Splitted columns are appended to output.
+Below is a sample workflow which contains ``Field Splitter`` processor in Sparkflows. It demonstrates the usage of ``Field Splitter`` node to split a column value using a delimiter into multiple data columns. Splitted columns are appended to output.
 
 It does the following processing of data:
 
@@ -102,7 +102,7 @@ Output is displayed as below.
 Fixed Length Fields
 ----------------------------------------
 
-Below is a sample workflow which contains ``Fixed Length Fields`` processor in Fire Insights. It demonstrates the usage of ``Fixed Length Fields`` node to split a column value into multiple data columns of fixed length. Splitted columns are appended to output.
+Below is a sample workflow which contains ``Fixed Length Fields`` processor in Sparkflows. It demonstrates the usage of ``Fixed Length Fields`` node to split a column value into multiple data columns of fixed length. Splitted columns are appended to output.
 
 It does the following processing of data:
 
@@ -137,7 +137,7 @@ Output is displayed as below.
 Multi Regex Extractor
 ----------------------------------------
 
-Below is a sample workflow which contains ``Multi Regex Extractor`` processor in Fire Insights. It demonstrates the usage of ``Multi Regex Extractor`` node to extract data from a field using a Regex Expression. Extracted data is appended to the output dataset. Multiple data parts can be extracted from input columns.
+Below is a sample workflow which contains ``Multi Regex Extractor`` processor in Sparkflows. It demonstrates the usage of ``Multi Regex Extractor`` node to extract data from a field using a Regex Expression. Extracted data is appended to the output dataset. Multiple data parts can be extracted from input columns.
 
 It does the following processing of data:
 
@@ -173,7 +173,7 @@ Output is displayed as below.
 Parse JSON Col
 ----------------------------------------
 
-Below is a sample workflow which contains ``Parse JSON Col`` processor in Fire Insights. It demonstrates the usage of ``Parse JSON Col`` node to parse JSON data present in the incoming dataset. Extracted data is appended to the output dataset. Multiple data parts can be extracted from input columns.
+Below is a sample workflow which contains ``Parse JSON Col`` processor in Sparkflows. It demonstrates the usage of ``Parse JSON Col`` node to parse JSON data present in the incoming dataset. Extracted data is appended to the output dataset. Multiple data parts can be extracted from input columns.
 
 It does the following processing of data:
 

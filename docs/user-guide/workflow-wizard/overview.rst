@@ -1,13 +1,13 @@
 Overview
 ===================
 
-Fire Insights makes it easy to build workflows using the Workflow Wizard.
+Sparkflows makes it easy to build workflows using the Workflow Wizard.
 
 .. figure:: ../../_assets/user-guide/wf-wizard/1.png 
    :alt: Workflow-Wizard
    :width: 80%
    
-Fire Insights supports workflow wizard for 4 types: 
+Sparkflows supports workflow wizard for 4 types: 
 
 1. Data Cleaning 
 2. Data Visualization 

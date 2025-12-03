@@ -1,7 +1,7 @@
 Generative AI Processors
 =======
 
-The following table enlists the Huggging Face Library-powered processors available in Fire Insights :
+The following table enlists the Huggging Face Library-powered processors available in Sparkflows :
 
 .. list-table:: 
    :widths: 30 70
@@ -40,7 +40,7 @@ The following table enlists the Huggging Face Library-powered processors availab
 Hugging Face Sentiment Analysis
 -------------
 
-Below is a sample workflow which contains Hugging Face Sentiment Analysis processor in Fire Insights. It demonstrates the usage of Hugging Face Sentiment Analysis node to classify text data into two classes: "acceptable" and "unacceptable." 
+Below is a sample workflow which contains Hugging Face Sentiment Analysis processor in Sparkflows. It demonstrates the usage of Hugging Face Sentiment Analysis node to classify text data into two classes: "acceptable" and "unacceptable." 
 
 It does the following processing of data :
 

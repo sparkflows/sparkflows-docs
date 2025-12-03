@@ -1,7 +1,7 @@
 Read CSV Files
 =================
 
-Fire Insights enables you to read CSV files.
+Sparkflows enables you to read CSV files.
 
 Workflow
 --------

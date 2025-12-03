@@ -1,7 +1,7 @@
 Using Merge Write Option to Write to Delta Lake
 ===============================================
 
-Fire Insights also provides the option to write to Delta Lake using the Merge write operation. This approach enables users to handle incremental data and make updates or insertions to the Delta table based on specified conditions.
+Sparkflows also provides the option to write to Delta Lake using the Merge write operation. This approach enables users to handle incremental data and make updates or insertions to the Delta table based on specified conditions.
 
 Workflow
 --------

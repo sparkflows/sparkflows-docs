@@ -1,10 +1,10 @@
 String Functions
 ==========
 
-Fire Insights provides various processors for performing String functions on a row or text.
+Sparkflows provides various processors for performing String functions on a row or text.
 
 
-String Processors in Fire Insights
+String Processors in Sparkflows
 ----------------------------------------
 
 
@@ -22,7 +22,7 @@ String Processors in Fire Insights
 String Functions
 ----------------------------------------
 
-Below is a sample workflow which contains String Functions processor in Fire Insights. It demonstrates the usage of String Functions node to transform String value using various String Functions.
+Below is a sample workflow which contains String Functions processor in Sparkflows. It demonstrates the usage of String Functions node to transform String value using various String Functions.
 
 It does the following processing of data:
 
@@ -62,7 +62,7 @@ Output of Print node displaying transformed data in lower case and removed white
 Text Case Transformer
 ----------------------------------------
 
-Below is a sample workflow which contains Text Case Transformer processor in Fire Insights. It demonstrates the usage of Text Case Transformer node to change case of a String column data to either Upper case or Lower case.
+Below is a sample workflow which contains Text Case Transformer processor in Sparkflows. It demonstrates the usage of Text Case Transformer node to change case of a String column data to either Upper case or Lower case.
 
 It does the following processing of data:
 

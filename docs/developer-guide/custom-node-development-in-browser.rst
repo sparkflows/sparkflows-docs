@@ -1,13 +1,13 @@
 Custom Node Development in Browser
 ==================================
 
-Fire Insights enables you to write new custom nodes from your Browser. These custom nodes would then automatically be visible in the workflow editor and can be used in the workflows like any other node.
+Sparkflows enables you to write new custom nodes from your Browser. These custom nodes would then automatically be visible in the workflow editor and can be used in the workflows like any other node.
 
 You would provide the execute method for the node and the schema update code. You would also provide the details of the widgets through which the user would provide the parameters for the new custom node.
 
 Below are the steps for creating the new custom node.
 
-.. note:: Fire Insights uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
+.. note:: Sparkflows uses the terms Node and Processor interchangeably. They essentially are used to build the workflows.
 
 Select Custom Processors from the menu
 ------------------------------
@@ -92,7 +92,7 @@ Once the custom processor is submitted successfully, it will be visible in ``Cus
 Testing the custom processor
 -----------------------------
   
-Fire Insights enables you to seamlessly Test your custom processor.
+Sparkflows enables you to seamlessly Test your custom processor.
   
 When editing the custom processor, select the Dataset for the data you want to feed to the custom processor. Then click on ``Test`` to view the output of the new custom processor.
 
@@ -120,11 +120,11 @@ You can also export & import them
 Exporting Custom Processors
 -------------------------
 
-Fire Insights enables you to ``export`` Custom Processors from Browser to local machine.
+Sparkflows enables you to ``export`` Custom Processors from Browser to local machine.
 
 Below are the steps to export Custom Processors.
 
-Login to Fire Insights & go to Custom Processors list page.
+Login to Sparkflows & go to Custom Processors list page.
 
 
 .. figure:: ../_assets/developer-guide/customlist.PNG
@@ -148,11 +148,11 @@ Once you click on export button, the selected Custom Processors will be download
 Importing Custom Processors
 ------------------------
 
-Fire Insights enables you to ``import`` Custom Processors to different environment.
+Sparkflows enables you to ``import`` Custom Processors to different environment.
 
 Below are the steps to Import Custom Processors.
 
-Login to Fire Insights & go to Custom Processors list page.
+Login to Sparkflows & go to Custom Processors list page.
 
 .. figure:: ../_assets/developer-guide/custimp.PNG
    :alt: Custom Processor

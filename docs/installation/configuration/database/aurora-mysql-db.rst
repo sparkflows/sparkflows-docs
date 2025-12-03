@@ -10,7 +10,7 @@ Pre-requisites
 
 * Aurora MySQL with Engine version 8.0.x
 * JDBC driver JAR file need to be copied to Sparkflows folder ``fire-user-lib`` & ``fire-server-lib`` directory inside ``fire-x.y.z``.
-* MySQL should be accessible from the Fire Insights Machine.
+* MySQL should be accessible from the Sparkflows Machine.
 
 The memory Pre-requisites for Aurora MySQL:
 

@@ -1,13 +1,13 @@
 Job Metrics
 =========
 
-Fire Insights enables you to see job metrics. This document outlines the steps to view Job metrics in Fire Insights.
+Sparkflows enables you to see job metrics. This document outlines the steps to view Job metrics in Sparkflows.
 
-Below are the steps on how to view job metrics in Fire Insights:
+Below are the steps on how to view job metrics in Sparkflows:
 
-Step 1: Login to Fire Insights 
+Step 1: Login to Sparkflows 
 ............
-#. Go to the Fire Insights login page.
+#. Go to the Sparkflows login page.
 #. Enter your **credentials**, then click **Login**.
 
    .. figure:: ../../_assets/installation/metrics/Login.PNG

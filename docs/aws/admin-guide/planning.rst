@@ -1,22 +1,22 @@
 Overview
 =================
 
-This document serves as a detailed guide to help you to deploy Fire Insights on AWS.
+This document serves as a detailed guide to help you to deploy Sparkflows on AWS.
 
 Installation
 --------
 
-Fire Insights can be installed on a standalone EC2 machine,  AWS Fargate or AWS EKS. The jobs triggered by the users would be able to access and process data stored in S3, HDFS, Redshift, Kinesis, DynamoDB etc. 
+Sparkflows can be installed on a standalone EC2 machine,  AWS Fargate or AWS EKS. The jobs triggered by the users would be able to access and process data stored in S3, HDFS, Redshift, Kinesis, DynamoDB etc. 
 
-The jobs executed by Fire Insights can run on the standalone EC2 machine. Or it can be configured to execute them on AWS EMR or AWS Glue. Compute connections can be created in Fire Insights to multiple AWS EMR Clusters or AWS Glue connections.
+The jobs executed by Sparkflows can run on the standalone EC2 machine. Or it can be configured to execute them on AWS EMR or AWS Glue. Compute connections can be created in Sparkflows to multiple AWS EMR Clusters or AWS Glue connections.
 
 
 Costs
 -----
 
-The main costs incurred when using Fire Insights is the cost of running the EMR cluster which has master nodes and worker nodes. The more processing capacity needed, the larger should be the size of the EMR cluster. Pricing details for EMR can be found here: https://aws.amazon.com/emr/pricing/
+The main costs incurred when using Sparkflows is the cost of running the EMR cluster which has master nodes and worker nodes. The more processing capacity needed, the larger should be the size of the EMR cluster. Pricing details for EMR can be found here: https://aws.amazon.com/emr/pricing/
 
-Fire Insights can also run the Machine Learning jobs onto AWS SageMaker. There would be some additional costs associated with using AWS SageMaker. Pricing details for AWS SageMaker can be found here: https://aws.amazon.com/sagemaker/pricing/
+Sparkflows can also run the Machine Learning jobs onto AWS SageMaker. There would be some additional costs associated with using AWS SageMaker. Pricing details for AWS SageMaker can be found here: https://aws.amazon.com/sagemaker/pricing/
 
 
 Sizing

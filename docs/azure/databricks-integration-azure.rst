@@ -1,23 +1,23 @@
 Azure Databricks Integration Steps
 ======================
 
-Fire Insights integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Fire Insights.
+Sparkflows integrates with Databricks. It submits jobs to the Databricks clusters using the REST API of Databricks and have the results displayed back in Sparkflows.
 
 Fire also fetches the list of databases and tables from Databricks, making it easier for the user to build their workflows and execute those workflows. In addition, Fire displays the list of Databricks clusters running for the user.
 
 For detailed information on running Databricks on Azure, read the `Databricks Documentation. <https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal>`_
 
-Below are the steps for integrating Fire Insights with your Databricks Clusters:
+Below are the steps for integrating Sparkflows with your Databricks Clusters:
 
-Step 1 : Install Fire Insights
+Step 1 : Install Sparkflows
 -----------
 
-Install Fire Insights on any machine. The machine has to be reachable from the Databricks cluster.
+Install Sparkflows on any machine. The machine has to be reachable from the Databricks cluster.
 
 Step 2 : Upload Fire Core Jar to Databricks
 ----------------------------------
 
-Upload Fire Insights Jar to Databricks. Fire Insights jobs running on Databricks make use of this jar file.
+Upload Sparkflows Jar to Databricks. Sparkflows jobs running on Databricks make use of this jar file.
 
 Upload ``fire-x.y.z/fire-core-lib/fire-spark_3.2.1-core-3.1.0-jar-with-dependencies.jar`` to Databricks. 
 
@@ -86,7 +86,7 @@ The driver is available as a zip file, e.g. ``SimbaSparkJDBC-2.6.3.1003.zip``.
 Step 4 : Create your REST API token in Databricks
 --------------
 
-Rest API Token would be used in making REST API calls to Databricks from Fire Insights.
+Rest API Token would be used in making REST API calls to Databricks from Sparkflows.
 
 Create your token in Databricks by following the steps given below:
 
@@ -124,14 +124,14 @@ Create your token in Databricks by following the steps given below:
          :width: 40%
 
 
-Step 5 : Create Databricks Connection in Fire Insights
+Step 5 : Create Databricks Connection in Sparkflows
 -----------------------------------
 
 Follow the below steps:
 
-#. Enable Databricks in Fire Insights. To enable:
+#. Enable Databricks in Sparkflows. To enable:
 
-    * Login to **Fire Insights** application  
+    * Login to **Sparkflows** application  
     
     * Navigate to -> **Administration** -> **Configurations** -> **Connection** 
     
@@ -141,7 +141,7 @@ Follow the below steps:
 
         connection.databricks.enabled : true
 
-#. Create a connection in Fire Insights to Databricks. 
+#. Create a connection in Sparkflows to Databricks. 
 
     * You can choose the type of connection:
 
@@ -172,7 +172,7 @@ Follow the below steps:
            - Token created in above steps  
          * - Postback URL
            - Postback URL
-           - Postback URL through which Databricks sent result back to Fire Insights
+           - Postback URL through which Databricks sent result back to Sparkflows
          * - Title 
            - Title of Selected Connection
            - Title of Selected Connection  
@@ -230,7 +230,7 @@ Follow the below steps:
 
 For more information, read Sparkflows documentation on :ref:`Databricks Connection.<Databricks Connection>`
 
-Now, we are ready to start using the Databricks Connection in Fire Insights to:
+Now, we are ready to start using the Databricks Connection in Sparkflows to:
 
 * Browse DBFS.
 * View your Databricks Clusters.

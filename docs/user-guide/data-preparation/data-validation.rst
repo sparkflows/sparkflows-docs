@@ -1,10 +1,10 @@
 Data Validation
 ==========
 
-Fire Insights provides various processors for Data Validation.
+Sparkflows provides various processors for Data Validation.
 
 
-Data Validation Processors in Fire Insights
+Data Validation Processors in Sparkflows
 ----------------------------------------
 
 
@@ -28,7 +28,7 @@ Data Validation Processors in Fire Insights
 Compare Datasets
 ----------------------------------------
 
-Below is a sample workflow that contains ``Compare Datasets`` processor in Fire Insights. It demonstrates the usage of ``Compare Datasets`` node to compare incoming datasets and create 3 output datasets - Present in 1st but not in 2nd, present in 2nd but not in 1st and common rows in both.
+Below is a sample workflow that contains ``Compare Datasets`` processor in Sparkflows. It demonstrates the usage of ``Compare Datasets`` node to compare incoming datasets and create 3 output datasets - Present in 1st but not in 2nd, present in 2nd but not in 1st and common rows in both.
 
 It does the following processing of data:
 
@@ -93,7 +93,7 @@ Output of ``Compare Datasets`` node would be datasets created by comparing incom
 Node Schema Validation
 ----------------------------------------
 
-Below is a sample workflow that contains ``Node Schema Validation`` processor in Fire Insights. It demonstrates the usage of ``Node Schema Validation`` node to validate incoming dataset schema against defined schema validation rules. It also imputes missing values as per rules definition.
+Below is a sample workflow that contains ``Node Schema Validation`` processor in Sparkflows. It demonstrates the usage of ``Node Schema Validation`` node to validate incoming dataset schema against defined schema validation rules. It also imputes missing values as per rules definition.
 
 It does the following processing of data:
 
@@ -147,7 +147,7 @@ Output of ``Node Schema Validation`` node would be a dataset after imputing miss
 Validate Address
 ----------------------------------------
 
-Below is a sample workflow that contains ``Validate Address`` processor in Fire Insights. It demonstrates the usage of ``Validate Address`` node to validate address data value against a valid address format. Some of the valid address formats are '123 xyx avenue' and '1/1 block-D street'.
+Below is a sample workflow that contains ``Validate Address`` processor in Sparkflows. It demonstrates the usage of ``Validate Address`` node to validate address data value against a valid address format. Some of the valid address formats are '123 xyx avenue' and '1/1 block-D street'.
 
 It does  the following processing of data:
 
@@ -186,7 +186,7 @@ Output of ``Validate Address`` node prints address validation result.
 Validate Fields Advanced
 ----------------------------------------
 
-Below is a sample workflow that contains ``Validate Fields Advanced`` processor in Fire Insights. It demonstrates the usage of ``Validate Fields Advanced`` node to validate incoming dataset based on validation rules defined using validation functions. This node facilitates validation of columns using multiple conditions joined using logical operators like AND / OR.
+Below is a sample workflow that contains ``Validate Fields Advanced`` processor in Sparkflows. It demonstrates the usage of ``Validate Fields Advanced`` node to validate incoming dataset based on validation rules defined using validation functions. This node facilitates validation of columns using multiple conditions joined using logical operators like AND / OR.
 
 It does the following processing of data:
 
@@ -232,7 +232,7 @@ Output of ``Validate Fields Advanced`` node prints dataset containing rows that 
 Validate Fields Simple
 ----------------------------------------
 
-Below is a sample workflow that contains ``Validate Fields Simple`` processor in Fire Insights. It demonstrates the usage of ``Validate Fields Simple`` node to validate incoming dataset based on validation rules defined using validation functions.
+Below is a sample workflow that contains ``Validate Fields Simple`` processor in Sparkflows. It demonstrates the usage of ``Validate Fields Simple`` node to validate incoming dataset based on validation rules defined using validation functions.
 
 It does the following processing of data:
 

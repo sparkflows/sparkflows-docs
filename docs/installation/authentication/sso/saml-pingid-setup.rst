@@ -114,10 +114,10 @@ Step 8 : Download Metadata from Application
 
 #. Activate the Application and download the Metadata from application. 
    
-   This metadata will be used while configuring the Fire Insights.
+   This metadata will be used while configuring the Sparkflows.
 
    .. figure:: ../../../_assets/authentication/pingid/pingid_9.PNG
       :alt: sso
       :width: 50%
 
-.. note::  Make sure to change the localhost to your domain name or your IP where Fire Insights is running.
+.. note::  Make sure to change the localhost to your domain name or your IP where Sparkflows is running.

@@ -1,7 +1,7 @@
 Mount ADLS to DBFS
 ===============
 
-You can Mount ADLS to DBFS and access using Fire Insights application using DBFS.
+You can Mount ADLS to DBFS and access using Sparkflows application using DBFS.
 
 Run the following in your notebook to authenticate and create a mount point.
 

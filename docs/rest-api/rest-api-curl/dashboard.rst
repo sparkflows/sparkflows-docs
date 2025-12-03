@@ -6,9 +6,9 @@ Overview
 
 The Dashboards REST API's allow you to interact with the Dashboards.
 
-Below are the various Dashboard API's available in Fire Insights.
+Below are the various Dashboard API's available in Sparkflows.
 
-They should be executed after you have logged into Fire Insights.
+They should be executed after you have logged into Sparkflows.
 
 Get List of Dashboards for the user
 -----------------------------------

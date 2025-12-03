@@ -1,7 +1,7 @@
 AWS SSO
 ======
 
-Fire Insights is integrated with SAML 2.0 for Okta/AWS Single Sign-on.
+Sparkflows is integrated with SAML 2.0 for Okta/AWS Single Sign-on.
 
 .. toctree::
    :maxdepth: 2

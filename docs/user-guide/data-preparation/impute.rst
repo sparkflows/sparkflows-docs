@@ -1,10 +1,10 @@
 Imputing
 ==========
 
-Fire Insights provides various processors for Imputing data.
+Sparkflows provides various processors for Imputing data.
 
 
-Imputing Processors in Fire Insights
+Imputing Processors in Sparkflows
 ----------------------------------------
 
 
@@ -29,7 +29,7 @@ Imputing Processors in Fire Insights
 Impute Advanced
 ----------------------------------------
 
-Below is a sample workflow which contains Impute Advanced processor in Fire Insights. It demonstrates the usage of Impute Advanced node to replace missing values with constant values as per strategy defined for the selected columns. A particular data in the dataset can be replaced with Mean, Median or Mode value. It can also be configured to replace missing values with a constant. Strategy can be defined for multiple columns in single go.
+Below is a sample workflow which contains Impute Advanced processor in Sparkflows. It demonstrates the usage of Impute Advanced node to replace missing values with constant values as per strategy defined for the selected columns. A particular data in the dataset can be replaced with Mean, Median or Mode value. It can also be configured to replace missing values with a constant. Strategy can be defined for multiple columns in single go.
 
 It does the following processing of data:
 
@@ -77,7 +77,7 @@ Output of Impute Advanced node displaying transformed values.
 Imputing With Constant
 ----------------------------------------
 
-Below is a sample workflow which contains Imputing With Constant processor in Fire Insights. It demonstrates the usage of Imputing With Constant node to replace missing values with constant values.
+Below is a sample workflow which contains Imputing With Constant processor in Sparkflows. It demonstrates the usage of Imputing With Constant node to replace missing values with constant values.
 
 It does the following processing of data:
 
@@ -122,7 +122,7 @@ Output of Imputing With Constant node displaying misssing values replaced with C
 Imputing With Mean Value
 ----------------------------------------
 
-Below is a sample workflow which contains Imputing With Mean Value processor in Fire Insights. It demonstrates the usage of Imputing With Mean Value node to replace missing values with Mean value of the column.
+Below is a sample workflow which contains Imputing With Mean Value processor in Sparkflows. It demonstrates the usage of Imputing With Mean Value node to replace missing values with Mean value of the column.
 
 It does the following processing of data:
 
@@ -164,7 +164,7 @@ Output of Imputing With Mean Value node displaying missing values replaced with 
 Imputing With Median
 ----------------------------------------
 
-Below is a sample workflow which contains Imputing With Median processor in Fire Insights. It demonstrates the usage of Imputing With Median node to replace missing values with Meadian value.
+Below is a sample workflow which contains Imputing With Median processor in Sparkflows. It demonstrates the usage of Imputing With Median node to replace missing values with Meadian value.
 
 It does the following processing of data:
 
@@ -206,7 +206,7 @@ Output of Imputing With Median node displaying missing values replaced with Medi
 Imputing With Mode Value
 ----------------------------------------
 
-Below is a sample workflow which contains Imputing With Mode Value processor in Fire Insights. It demonstrates the usage of Imputing With Mode Value node to replace missing values with Mode value.
+Below is a sample workflow which contains Imputing With Mode Value processor in Sparkflows. It demonstrates the usage of Imputing With Mode Value node to replace missing values with Mode value.
 
 It does the following processing of data:
 

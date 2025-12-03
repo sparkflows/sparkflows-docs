@@ -6,7 +6,7 @@ However, it is possible for another account to own a resource in this account. F
 
 After the trust relationship is created, an IAM user or an application from the trusted account can use the AWS Security Token Service (AWS STS) *AssumeRole* API operation. This operation provides temporary security credentials that enable access to AWS resources in your account from an AWS-hosted Service like Fire-Insight.
 
-Following steps are required to create a role for S3 bucket access and assume the Role from Fire Insights.
+Following steps are required to create a role for S3 bucket access and assume the Role from Sparkflows.
 
 
 Step 1 : Create IAM Role

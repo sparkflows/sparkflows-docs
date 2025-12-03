@@ -2,7 +2,7 @@
 Configuring Azure Key Vault
 ===========================
 
-You can configure Azure Key Vault in Fire Insights. Below are the steps for configuring Azure Key Vault:
+You can configure Azure Key Vault in Sparkflows. Below are the steps for configuring Azure Key Vault:
 
 Prerequisites
 ----
@@ -17,7 +17,7 @@ The key must be added in a format that **excludes** the lines **-----BEGIN PRIVA
 Step 1 : Navigate to Credential Store
 -------------
 
-* Login to **Fire Insights** as an admin user. 
+* Login to **Sparkflows** as an admin user. 
 * Go to **Administration** and select **Credential Store**, as shown below.
 
   .. figure:: ../../_assets/credential_store/admin-credentialstore.PNG

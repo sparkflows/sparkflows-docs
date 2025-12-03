@@ -1,13 +1,13 @@
 Acquire Access Token 
 ==================
 
-Access Tokens can be acquired from Fire Insights Application which can be used for making the subsequent curl requests.
+Access Tokens can be acquired from Sparkflows Application which can be used for making the subsequent curl requests.
 
-Below are steps for Generating Access Token in Fire Insights:
+Below are steps for Generating Access Token in Sparkflows:
 
-1. Login to Fire Insights Application and enable configuration for generating access tokens.
+1. Login to Sparkflows Application and enable configuration for generating access tokens.
 
-Once we login to Fire Insights Application as an Administrator user, go to the ``Configurations page`` and enable the parameter given below
+Once we login to Sparkflows Application as an Administrator user, go to the ``Configurations page`` and enable the parameter given below
 
 ::
 

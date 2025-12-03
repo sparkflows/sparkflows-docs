@@ -7,7 +7,7 @@ To validate MLOps Connection and Deployed Models' Endpoints, follow these steps:
 Step 1 : Testing MLOps Connection
 +++++
 
-#. Login to **Fire Insights** and navigate to **Administration -> Diagnostics -> MLOps**.
+#. Login to **Sparkflows** and navigate to **Administration -> Diagnostics -> MLOps**.
 
 #. To test the MLOps connection configured in the application's settings, click on **Test MLOps Connection** button. The system will check the connection and display the result as shown below.
 

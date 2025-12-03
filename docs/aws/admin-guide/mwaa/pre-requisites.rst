@@ -1,7 +1,7 @@
 Pre-requisites
 =======
 
-This document outlines the key infrastructure prerequisites for setting up and configuring an Amazon MWAA environment with Fire Insights.
+This document outlines the key infrastructure prerequisites for setting up and configuring an Amazon MWAA environment with Sparkflows.
 
 The required prerequisites are as follows:
 
@@ -44,7 +44,7 @@ The following Apache Airflow versions are supported on Amazon Managed Workflows 
 
 #. Starting with Apache Airflow v2.7.2, your requirements file must include a --constraint statement. If you don't provide a constraint, Amazon MWAA will specify one for you to ensure that the packages listed in your requirements are compatible with the version of Apache Airflow you're using.
 
-#. Fire Insights currently supports Airflow v2.8.1 for integration, as it includes the required Airflow API features.
+#. Sparkflows currently supports Airflow v2.8.1 for integration, as it includes the required Airflow API features.
 
 For more information on setting up constraints in your requirements file, see `Installing Python dependencies <https://raw.githubusercontent.com/apache/airflow/constraints-2.8.1/constraints-3.11.txt>`_.
 

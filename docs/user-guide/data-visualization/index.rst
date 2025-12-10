@@ -41,13 +41,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents variation between two series of data in Box Plot format using Box Plot node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -63,7 +63,7 @@ Box Plot node is configured as below.
 *	Aggregated data that needs to be plotted in the graph is to be selected in ``Value Column`` list.
 *	Output of this node would display variation of one data with the other.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -71,7 +71,7 @@ Box Plot node is configured as below.
 
 Output of Box Plot node displaying variation of one data with the other.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -85,13 +85,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents variation between two series of data in Bubble Chart format using Bubble Chart node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -112,7 +112,7 @@ Bubble Chart node is configured as below.
 *	Data Series that defines Bubble Size needs to be selected in the ``Bubbles Size`` list.
 *	Output of this node would display variation between data series represented in Bubble Chart format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -120,7 +120,7 @@ Bubble Chart node is configured as below.
 
 Output of Bubble Chart node displaying variation between data series represented in Bubble Chart format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -135,13 +135,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents data for different categories in Gauge format using the Gauge node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/gauge-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/gauge-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -157,7 +157,7 @@ Gauge node is configured as below.
 *	``MinorTicks`` defining Minor Ticks in the Gauge needs to be entered in the box.
 *	Output of this node would display data for different categories in Gauge format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/gauge-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -165,7 +165,7 @@ Gauge node is configured as below.
 
 Output of Gauge node displaying data for different categories in Gauge format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/gauge-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/gauge-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -179,13 +179,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents count of different groups of data in Graphical format using  the Graph Group By Column node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -202,7 +202,7 @@ Graph Group By Column node is configured as below.
 *	Chart type to represent data in the output is to be selected in the ``Chart Type`` list.
 *	Output of this node would display count of different groups of data in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -210,7 +210,7 @@ Graph Group By Column node is configured as below.
 
 Output of Graph Group By Column node displaying count of different groups of data in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/grph-grp-col-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -225,13 +225,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents variation between multiple pairs of data series in one go in Graphical format using Graph SubPlo node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/sub-plots-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/sub-plots-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -247,7 +247,7 @@ Graph SubPlots node is configured as below.
 *	``X-Columns``, ``Y-Columns``, ``GraphTypes``, ``X Labels`` and ``Y Labels`` needs to be entered for each graph.
 *	Output of this node would display variation between multiple pairs of data series in one go in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/sub-plots-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/sub-plots-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -255,7 +255,7 @@ Graph SubPlots node is configured as below.
 
 Output of Graph SubPlots node displaying variation between multiple pairs of data series in one go in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/sub-plots-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/sub-plots-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -270,13 +270,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Represents variation between a pair of data series in Graphical format using Graph Values node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/graph-values-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graph-values-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/box-plot-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -295,12 +295,12 @@ Graph Values node is configured as below.
 *	Data Series to be plotted along Y-Coordinate is to be selected in the ``Y Columns`` list. Multiple data series can be selected.
 *	Output of this node would display variation between a pair of data series in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/graph-values-config01.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graph-values-config01.png
    :alt: datavisualization_userguide
    :width: 75%
    
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/graph-values-config-02.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graph-values-config-02.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -309,7 +309,7 @@ Graph Values node is configured as below.
 
 Output of Graph Values node displaying variation between a pair of data series in Graphical format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/graph-values-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/graph-values-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -324,13 +324,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Prints incoming data using Print N Rows node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -344,7 +344,7 @@ Print N Rows node is configured as below.
 *	``Display Data Type`` needs to be set based on the need to display datatype of columns in the output.
 *	Output of this node would display incoming data.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -352,7 +352,7 @@ Print N Rows node is configured as below.
 
 Output of Print N Rows node displaying incoming data.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-output.png
    :alt: datavisualization_userguide
    :width: 75%       	    
    
@@ -367,13 +367,13 @@ It does the following processing of data:
 *	Reads incoming dataset.
 *	Print data in Rich Text format using the Print Rich Text node.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-rich-wf.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-rich-wf.png
    :alt: datavisualization_userguide
    :width: 75%
    
 **Incoming Dataset**
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/bubble-chart-input.png
    :alt: datavisualization_userguide
    :width: 75%
 
@@ -386,7 +386,7 @@ Print Rich Text node is configured as below.
 *	Format of the text needs to be set using the tool bar of the Text Box.
 *	Output of this node would display incoming data in Rich Text format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-rich-config.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-rich-config.png
    :alt: datavisualization_userguide
    :width: 75%
    
@@ -394,6 +394,6 @@ Print Rich Text node is configured as below.
 
 Output of Print Rich Text node displaying  the incoming data in Rich Text format.
 
-.. figure:: ../_assets/user-guide/data-exploration/data-visualization/print-rich-output.png
+.. figure:: ../../_assets/user-guide/data-exploration/data-visualization/print-rich-output.png
    :alt: datavisualization_userguide
    :width: 75%  

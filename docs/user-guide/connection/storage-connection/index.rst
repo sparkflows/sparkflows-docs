@@ -24,6 +24,7 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
 * ServiceNow
 * SharePoint
 * Confluence
+* Box
   
 .. toctree::
    :maxdepth: 4
@@ -44,3 +45,4 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    ServiceNow.rst
    SharePoint.rst
    Confluence.rst
+   box.rst

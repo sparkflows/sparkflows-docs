@@ -50,6 +50,10 @@ FAQ
     ---
 
     :doc:`/faq/test-api` 
+
+    ---
+
+    :doc:`/faq/python-packages`
     
 .. toctree::
    :maxdepth: 2
@@ -67,7 +71,7 @@ FAQ
    hadoop-installation-prerequisites.rst
    logs.rst
    test-api.rst
-   
+   python-packages.rst
    
    
    

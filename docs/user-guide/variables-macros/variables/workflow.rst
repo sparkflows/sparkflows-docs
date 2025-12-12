@@ -95,7 +95,7 @@ Below is an example for using **Variables** in a workflow where in the Variable'
       :alt: Using Macros in Variables
       :width: 65%
 
-   Here the path is set to **${HomePath}/year=${date_year}/month=${date_month}/day=${date_day}** which would be evaluated to **/home/sparkflows/year=2025/month=12/day=11** after resolving the macros that are used in the variables.
+  Here the path is set to **${HomePath}/year=${date_year}/month=${date_month}/day=${date_day}** which would be evaluated to **/home/sparkflows/year=2025/month=12/day=11** after resolving the macros that are used in the variables.
 
 * On executing the workflow it will correctly read the path and print the data -
 

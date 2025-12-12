@@ -1,0 +1,95 @@
+Version 3.3.15 - December, 2025
+=====
+
+New Features
+-----
+  
+Data & Storage Management
+++++
+
+* **Box Storage Connection :** A new Box Storage Connection is now supported in Sparkflows, enabling secure access to files stored in your Box account. Using *OAuth authentication*, users can now configure a Box connection to seamlessly read and write data from Box folders within workflows.
+
+  
+Machine Learning (MLflow Integration)
+++++
+
+**Automated Model Registration & Logging**
+  
+  * **Seamless Tracking :** Training workflows now automatically register models and log parameters and metrics to MLflow during execution.
+  * **Broad Model Support :** Full support is now available for Scikit-learn, H2O, and SparkML models, with tailored logging logic for each type.
+  * **S3 Integration :** Models trained in Sparkflows and saved to S3 are now automatically registered in MLflow.
+
+**Advanced Model Management**
+  
+  * **Champion Model Selection :** Users can now mark a specific model run as the *Champion* model. Only one champion is allowed per workflow to ensure clear production targeting.
+  * **Version Control :** Complete version tracking is now available for all model runs (e.g., v1, v2), enabling easy comparison across iterations.
+  * **Model Artifacts :** Model binaries and metadata can now be downloaded directly from the Models page for external use.
+
+**Integrated Scoring Workflows**
+
+  * **Workflow Association :** Training workflows can now be directly linked to scoring or prediction workflows.
+  * **Auto-Deployment of Champions :** Scoring nodes (e.g., H2O Model Load) now includes a *use champion model* configuration. When enabled, the workflow automatically retrieves the path of the current Champion model, eliminating the need for manual updates.
+
+Enhancements
+----
+
+UI/UX Improvements
++++++
+
+* **Expandable MCP Response :** MCP responses received through Copilot can now be expanded for improved visibility and better inspection of the returned details.
+
+* **Enhanced Activities Event Details in Copilot :** The Copilot Activities Event Details page has been improved to display individual steps in a row-based layout for better readability and analysis.
+
+* **Maximize/Minimize Copilot Panel :** Maximize and Minimize options have been added to the Copilot section, offering a more flexible workspace and improved user experience.
+
+* **Enhanced Filtering in MLflow :** The Models page now allows filtering by workflow to easily locate specific experiments.
+
+* **Status Visibility in MLflow :** New columns and tags in mlflow and toggle icon in sparkflows clearly indicate which model version is currently set as the Champion.
+
+
+
+Platform Improvements
+++++
+
+* **MCP Integration in Sparkflows :** Sparkflows now supports integration with MCP Servers, enabling Copilot queries to be submitted directly to an MCP Server. MCP connections can now be configured within the Copilot connection settings, allowing users to link Copilot with their MCP Server. Once configured, the Copilot connection can then be used within the Copilot feature to seamlessly submit queries to the MCP Server.
+
+* **Configurable MCP Implementation Type :** The MCP implementation type can now be set using the app.mcp.type property for flexible server-side configuration.
+
+Copilot Improvements
+++++
+
+* **Sample Prompts for Pipelines :** Copilot now includes sample prompts specifically designed for pipeline creation, helping users quickly generate workflows using guided examples.
+
+Documentation
+----
+
+* :ref:`Box Connection<Box Connection>` documentation is now added to guide users on setting up a Box storage connection in Sparkflows.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

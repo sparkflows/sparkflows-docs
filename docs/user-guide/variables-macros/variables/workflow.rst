@@ -62,12 +62,12 @@ Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
      :alt: variables_userguide
      :width: 65%
 
-Using Macros set in Variables in Workflows
+Using Variables that have Macros set as Value in Workflows
 --------------------------------
 
 Below is an example for using **Variables** in a workflow where in the Variable's value is set as a **Macro** -
 
-* The Variables are created in the below format where in the value is set to a macro -
+* Navigate to **Administration -> Variables** page and create the below variables in the following format where in the value is set to a macro -
 
    .. list-table:: 
       :widths: 30 40 50
@@ -88,6 +88,10 @@ Below is an example for using **Variables** in a workflow where in the Variable'
       * - date_day
         - ${fire.macros.ds_format(ds,d,D,-1)}
         - Gets the day before the current day
+
+   .. figure:: ../../../_assets/user-guide/variables/add-varaibles-having-macros.png
+      :alt: Add Variables Having Macros
+      :width: 65%
 
 * Post declaring the variables in the above way it can be used in the workflow in the following way -
 

@@ -62,3 +62,48 @@ Step 3 : Changing Variable Values on Workflow Execution Page (Optional)
      :alt: variables_userguide
      :width: 65%
 
+Using Macros set in Variables in Workflows
+--------------------------------
+
+Below is an example for using **Variables** in a workflow where in the Variable's value is set as a **Macro** -
+
+* The Variables are created in the below format where in the value is set to a macro -
+
+   .. list-table:: 
+      :widths: 30 40 50
+      :header-rows: 1
+
+      * - Variable Key
+        - Variable Value
+        - Description
+      * - HomePath
+        - /home/sparkflows
+        - Home Path
+      * - date_year
+        - ${fire.macros.ds_format(ds,y,YYYY,0)}
+        - Gets the current year
+      * - date_month
+        - ${fire.macros.ds_format(ds,m,M,0)}
+        - Gets the current month
+      * - date_day
+        - ${fire.macros.ds_format(ds,d,D,-1)}
+        - Gets the day before the current day
+
+* Post declaring the variables in the above way it can be used in the workflow in the following way -
+
+   .. figure:: ../../../_assets/user-guide/variables/using-macros-in-variables.png
+      :alt: Using Macros in Variables
+      :width: 65%
+
+   Here the path is set to **${HomePath}/year=${date_year}/month=${date_month}/day=${date_day}** which would be evaluated to **/home/sparkflows/year=2025/month=12/day=11** after resolving the macros that are used in the variables.
+
+* On executing the workflow it will correctly read the path and print the data -
+
+   .. figure:: ../../../_assets/user-guide/variables/marcos-in-variables-exe-res.png
+      :alt: Using Macros in Variables Execution Result
+      :width: 65%
+
+
+
+
+

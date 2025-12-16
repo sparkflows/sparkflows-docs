@@ -28,7 +28,7 @@ Recompile python from source code::
  sudo make altinstall
 
 
-2. Issue with Python Version 3.10
+2. Issue with Python Version 3.10+
 ---------------------
 
 **Problem**

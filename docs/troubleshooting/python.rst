@@ -28,16 +28,16 @@ Recompile python from source code::
  sudo make altinstall
 
 
-2. Issue with Python Version 3.9
+2. Issue with Python Version 3.10
 ---------------------
 
 **Problem**
 +++++++
-I installed Python 3.9 and running into issues.
+I installed Python 3.10+ and running into issues.
 
 **Solution**
 +++++
-Only Python 3.7 or 3.8 are supported. Please terminate the machine on which you installed 3.9 and start with a fresh machine.
+Only Python 3.9 are supported. Please delete the virtual environment on machine where you installed 3.10 and install a new virtual environment with python 3.9.
 
 To know where the python is installed, on the machine:
 

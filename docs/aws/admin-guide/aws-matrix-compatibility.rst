@@ -25,11 +25,15 @@ Spark, EMR, Java and Python Support Compatibility Matrix
    * - 3.4.1
      - 6.15.0
      - Java 8 
-     - 3.9.0
+     - 3.7.0
    * - 3.5.2
      - 7.4.0
      - Java 17 with spark default
-     - 3.12.0
+     - 3.9.0
+   * - 3.5.5
+     - 7.9.0
+     - Java 17 with spark default
+     - 3.9.0
 
 Airflow Support Compatibility Matrix
 ++++++++
@@ -41,7 +45,8 @@ Airflow Support Compatibility Matrix
    * - Airflow Standalone Version	
      - Airflow MWAA Version
    * - V2.3.x
-     - 2.8.1
+     - 2.8.1 +
+     
 
 Spark, Databricks, Java and Python Support Compatibility Matrix
 ++++++++
@@ -60,6 +65,10 @@ Spark, Databricks, Java and Python Support Compatibility Matrix
      - 3.8.0
    * - 3.4.1
      - 13.3
+     - Java 8
+     - 3.9.0
+   * - 3.5.0
+     - 15.4
      - Java 8
      - 3.9.0
    * - 3.5.2
@@ -94,6 +103,9 @@ Ensure that you have the following AWS specifications while Integrating with Spa
    * - EMR
      - 7.4.0
      - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-740-release.html
+   * - EMR
+     - 7.9.0
+     - https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-790-release.html 
    * - Spark
      - 3.2.1
      - Compatible with EMR 6.7.0
@@ -106,11 +118,14 @@ Ensure that you have the following AWS specifications while Integrating with Spa
    * - Spark
      - 3.5.2
      - Compatible with EMR 7.4
+   * - Spark
+     - 3.5.5
+     - Compatible with EMR 7.9 
    * - Airflow (Standalone Installation)
      - V2.3.x
      - Standalone installations on ec2
    * - Airflow MWAA Support
-     - 2.8.1
+     - 2.8.1+
      - https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-apache-airflow-version-2-8-1/
 
 

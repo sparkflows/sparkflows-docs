@@ -1,7 +1,7 @@
 Python Installation
 =======
 
-This document segment addresses common challenges encountered by our users during Python installations from source with version 3.6.5 and provides effective resolutions for each issue.
+This document segment addresses common challenges encountered by our users during Python installations from source with version 3.9 and provides effective resolutions for each issue.
 
 
 1. Showing Warning Message for Missing Package

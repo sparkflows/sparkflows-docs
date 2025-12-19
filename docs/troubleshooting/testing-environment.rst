@@ -20,11 +20,11 @@ Run the below to verify:
   java --version 
 
 
-2. Python 3.7+ Setup Check
+2. Python 3.9+ Setup Check
 ------
 **Problem**
 +++++
-Unsure if Python 3.7+ is configured.
+Unsure if Python 3.9+ is configured.
 
 **Solution**
 +++++

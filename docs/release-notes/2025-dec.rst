@@ -3,7 +3,17 @@ Version 3.3.15 - December, 2025
 
 New Features
 -----
-  
+
+Platform & Infrastructure
+++++
+* **EMR 7.12 Support :** Support for Amazon EMR version 7.12 has been added, enabling users to run workflows and pipelines on the latest EMR runtime.
+
+Pipeline Observability
+++++
+
+* **Node-Level Pipeline Logs :** Pipeline execution now captures logs at the individual node level, providing improved visibility into execution flow. Log states include: **Start, Completed and Failed**
+
+
 Data & Storage Management
 ++++
 
@@ -55,10 +65,20 @@ Platform Improvements
 
 * **Configurable MCP Implementation Type :** The MCP implementation type can now be set using the app.mcp.type property for flexible server-side configuration.
 
+
+
 Copilot Improvements
 ++++
 
 * **Sample Prompts for Pipelines :** Copilot now includes sample prompts specifically designed for pipeline creation, helping users quickly generate workflows using guided examples.
+* **Copilot History :** A new History option has been added to Copilot, allowing users to view previously submitted prompts and responses for better traceability and reuse.
+* **Preview JSON Tab :** A Preview JSON tab has been added to display the generated JSON output, enabling users to review the underlying configuration created by Copilot.
+
+Bug Fixes
+++++
+* **Azure Key Vault Credential Store Update Fix :** An issue where updating Azure Key Vault Credential Stores failed when adding new secrets has been fixed. Users can now successfully update secrets within the Credential Store configuration.
+
+* **Execution Details for TriggerNextDag Pipelines :** Pipeline executions triggered using **TriggerNextDag** are now listed in the Pipeline Execution tab. This fix allows users to view execution details and track downstream pipeline runs more effectively.
 
 Documentation
 ----

@@ -34,6 +34,11 @@ Spark, EMR, Java and Python Support Compatibility Matrix
      - 7.9.0
      - Java 17 with spark default
      - 3.9.0
+   * - 3.5.6
+     - 7.12.0
+     - Java 17 with spark default
+     - 3.9.0
+
 
 Airflow Support Compatibility Matrix
 ++++++++

@@ -95,8 +95,8 @@ For EMR SERVERLESS tab
      - Description
      - Value
    * - Output S3Bucket
-     - Auth Type
-     - The bucket to use for storage and logs
+     - S3 Bucket
+     - The bucket to use for output and logs
    * - Execution Role ARN
      - Execution Role ARN
      - The Execution Role ARN while submitting Spark job
@@ -116,14 +116,14 @@ For EMR SERVERLESS tab
      - The Spark config parameter
      - The Spark config parameter
    * - Jars
-     - Environment Name
-     - Environment Name of aws mwaa resources
+     - Comma separted jars
+     - Comma separted jars require during job execution
    * - Files 
-     - Environment Name
-     - Environment Name of aws mwaa resources
+     - Comma separted files
+     - Comma separted files require for job execution
    * - Custom EMR Image URI 
-     - Environment Name
-     - Environment Name of aws mwaa resources
+     - The URI of the custom Amazon EMR image
+     - The URI of the custom Amazon EMR image to be used for cluster creation
 
 .. figure:: ../../../_assets/aws/emrserverless/emrserverless_11.png
          :alt: emrserverless

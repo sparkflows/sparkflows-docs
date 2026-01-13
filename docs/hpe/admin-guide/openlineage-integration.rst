@@ -1,9 +1,9 @@
-Install/Integrate with OpenLineage
+Install and Integrate with OpenLineage
 =====
 
-This document explains in detail the steps involved in installing OpenLineage with the Marquez API using its Helm chart on HPE UA.
+This document explains, in detail, the steps involved in installing OpenLineage with the Marquez API using its Helm chart on HPE UA.
 
-Pre-requisites
+Prerequisites
 ------
 
 .. note:: **Kubernetes Cluster:** Ensure you have access to a running Kubernetes cluster.
@@ -11,10 +11,10 @@ Pre-requisites
 Installation Steps
 ---------------------------------
 
-#. Download and extract the **marquez-0.49.tar.gz** file that contains the helm char of the marquez api server.
-#. Modify the **values.yaml** to configure the database configuration.
+#. Download and extract the **marquez-0.49.tar.gz** file, which contains the Helm chart of the marquez API server.
+#. Modify **values.yaml** to configure the database.
 
-	::
+   ::
 	
 		db:
 			host: postgres-marquez-marquez-postgres.sparkflows.svc.cluster.local
@@ -23,9 +23,9 @@ Installation Steps
 			user: marquez
 			password: marquez
 
-#. Modify the **values.yaml** to configure the virtual service
+#. Modify **values.yaml** to configure the virtual service.
 
-	::
+   ::
 	
 		ezua:
 		  domainName: "ezua.hpecatalystpoc.com"
@@ -38,52 +38,52 @@ Installation Steps
 			matchLabels:
 			  istio: "ingressgateway"
 
-#. Once the modifications are complete, tar.gz the file using the below command.
+#. Once the modifications are complete, create a **tar.gz** file using the following command.
 
-	::
+   ::
 	
 		tar -czvf marquez-v0.49.0.tar.gz marquez
 
-#. Now you can use helm command to install the chart in the user namespace
+#. Now, you can use Helm command to install the chart in the user namespace.
  
-	::
+   ::
 	
 		helm install marquez-api-v3 chart -n sparkflows-3c0fd950
 
-Configure Sparkflows to connect with Marqeuz API
+Configure Sparkflows to connect to the Marquez API
 ---------------------------------
 
-#. Upload the jar **openlineage-spark_2.12-1.18.0.jar**, that exists in tar.gz shared by Sparkflows team.
-#. Navigate to the **Administration** > **Configuration** and add enable the Open lineage connection
-#. Navigate to the **Administration** > **Global/Group connection** and add a new connection type **Open Lineage**, after selecting the category to **Lineage** and enter the following details as shown in the screenshot
+#. Upload the JAR file **openlineage-spark_2.12-1.18.0.jar**, which is included in the **tar.gz** shared by the Sparkflows team.
+#. Navigate to the **Administration** > **Configurations** and enable the Open lineage connection.
+#. Navigate to the **Administration** > **Global/Group Connections** and add a new connection of type **Open Lineage**, after selecting the category to **Lineage** and enter the following details as shown in the image below.
 
    .. figure:: ../../_assets/hpe/Lineage-Edit-Connection.png
       :width: 60%
       :alt: Sparkflows On UA
 
 
-   **Connection Name:** Enter a unique identifier of the connection. Any alpha numeric value can be entered.
+   **Connection Name:** Enter a unique identifier of the connection. Any alphanumeric value can be used.
 
-   **URL:** Marquez API host with port. This value will come from the ezua service endpoint that would be something like this, 
+   **URL:** Marquez API host with port. This value will come from the EZUA service endpoint, for example:
 
-	::
+   ::
 
 		https://marquez.abc.net
 
    **SparkConf:** 
 		
-		::
+   ::
 		
 			spark.extraListeners: io.openlineage.spark.agent.OpenLineageSparkListener, spark.openlineage.transport.type:http, spark.openlineage.transport.url: https://marquez.sparkflows.net, spark.openlineage.facets.disabled: [spark.logicalPlan], spark.openlineage.debugFacet: enabled
 			
    **Jars:** Enter OpenLineage Jar details. 
 
-	::
+   ::
 
 		hdfs:///apps/sparkflows/openlineage-spark_2.12-1.18.0.jar
 	
-#. Test and Save the connection, and now edit/create the Livy connection
-#. Go to the Lineage tab in the livy connection and choose the Lineage connection that you just created, above as shown in the screenshot below
+#. **Test** and **save** the connection. Then, edit or create the Livy connection.
+#. Go to the Lineage tab in the livy connection and choose the Lineage connection that you just created, as shown in the screenshot below
 
    .. figure:: ../../_assets/hpe/Lineage-Livy-Integration.png
       :width: 60%
@@ -91,7 +91,7 @@ Configure Sparkflows to connect with Marqeuz API
 
 #. Now you should be able to see the list of namespaces by visiting the url: 
 
-    ::
+   ::
 
-      https://<sparkflows.endpoint.net/lineage
+      https://<sparkflows.endpoint.net>/lineage
 

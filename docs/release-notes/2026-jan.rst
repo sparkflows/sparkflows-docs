@@ -1,0 +1,39 @@
+Version 3.3.18 - January, 2026
+====
+
+Enhancements
+----
+
+MLflow Model Enhancements
+++++
+
+* **Log Models to MLflow :** ML models can now be manually logged and registered in MLflow directly from the ML Models page.
+* **Automatic Model Versioning on Re-Training :** When a model is re-trained, a new version is automatically created and listed, enabling effective version tracking.
+  
+UI/UX Enhancements
+++++
+
+**MLflow**
+  
+  * **Champion Model Selection :** Users can now select a Champion Model directly from the ML Models page, making it easy to identify the production-ready model.
+  
+  * **Model Metrics Visibility :** Model performance metrics can now be viewed directly on the ML Models page for monitoring and comparison.
+  
+  * **Champion Model Selection During Model Load :** While loading a model for scoring or prediction, users can now choose the Champion Model option to automatically use the production model.
+  
+  * **Model Card View :** A new Model Card View has been introduced to provide a consolidated, visual summary of each model, including model identity, key metrics, workflow details, MLflow status, and quick actions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -56,7 +56,9 @@ Follow the steps below to create the connection:
 
 #. Click on the **Add Connection** button located at the top right corner.
 
-#. Enter the connection details on the pop-up window.
+#. Select the connection category as **Lineage** and connection type as **Open Lineage**.
+
+#. Enter the other connection details on the pop-up window.
 
 
 
@@ -64,11 +66,10 @@ Follow the steps below to create the connection:
       :alt: enable-lineage
       :width: 60%
 
-#. Lineage URL will be the URL of the current running marquz lineage server URL.
-   e.g. https://marquez.sparkflows.net
+#. Lineage URL will be the URL of the current running marquez lineage server URL. e.g. https://marquez.sparkflows.net
 
 
-#. In spark conf user need to update the spark configurations as below
+#. In spark configuration, user need to update the spark configurations as below:
 
    ::
    
@@ -79,10 +80,9 @@ Follow the steps below to create the connection:
       openlineage.spark.facets.disabled = [spark.logicalPlan]
       openlineage.spark.debugFacet = enabled
 
-#. In Jars of open lineage connection, user needs to update the jar path if
-   the execution will be done on Livy
+#. In Jars of open lineage connection, user needs to update the jar path if the execution will be done on Livy.
 
-    .. figure:: ../../_assets/lineage/jars_lineage.png
+   .. figure:: ../../_assets/lineage/jars_lineage.png
       :alt: lineage-jars
       :width: 60%
 
@@ -99,7 +99,7 @@ Step 6 : Execute Workflows with Livy
 
 While executing workflows with Livy, include the following configuration for the namespace:
 
-ex. **--conf spark.openlineage.namespace=WORKFLOW_LINEAGE**
+e.g. **--conf spark.openlineage.namespace=WORKFLOW_LINEAGE**
 
 .. figure:: ../../_assets/lineage/updated_workflow_lineage.png
    :alt: livy-lineage

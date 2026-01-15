@@ -91,20 +91,17 @@ Create a Prediction Workflow
 #. **Load Model**:
 
    - Add the Spark ML Model Load node.
-
-#. **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True`` to load the currently designated champion model.
+   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True`` to load the currently designated champion model.
 #. **Predict/Score**:
 
    - Add the Predict/Score node.
    - Connect the output of the Load Model node and the preprocessed data to this node.
-
-#. **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
+   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
 #. **ML Data Metrics (Optional for real-time predictions, recommended for batch scoring)**:
 
    - Add the ML Data Metrics node.
    - Connect the output of the Predict/Score node to this node.
-
-#. **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
+   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
 #. **Write Results**: Use a Save node (e.g., ``Save CSV``, ``Save JDBC``) to save the prediction results.
 
    .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-wf.png
@@ -124,7 +121,7 @@ By clicking **Associate Scoring Workflow**, prediction workflow can be associate
 * First, select the desired prediction workflow and confirm your choice.
 * Next, execute the selected prediction workflows using your new, unseen test data.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/scoring-wf-association.png
+ .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/scoring-wf-association.png
      :alt: MLOps Examples
      :width: 70%
 
@@ -132,7 +129,7 @@ By clicking **Associate Scoring Workflow**, prediction workflow can be associate
 Model Monitoring and Drift
 -------------------------
 
-Sparkflows MLOPS features provide comprehensive monitoring capabilities:
+Sparkflows MLOps features provide comprehensive monitoring capabilities:
 
 #. **Performance Over Time**: The Predictions over Time Graph (enabled in the training workflow's Evaluator node) displays model performance metrics as the model scores new data over time using the associated prediction workflow.
 

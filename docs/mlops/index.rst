@@ -21,6 +21,12 @@ MLOps Guide
 
     MLOps User Guide.
 
+    ---
+
+    :doc:`/mlops/end-to-end-examples/index`
+
+    MLOps Examples.
+
 
 
 .. toctree::
@@ -29,4 +35,14 @@ MLOps Guide
    introduction.rst
    admin-guide/index.rst
    user-guide/index.rst
+   end-to-end-examples/index.rst
+
+
+
+
+
+
+
+
+
 

@@ -32,7 +32,7 @@ There can be multiple groups in Sparkflows. A user can belong to one or more gro
 
 Below are further details associated with each group:
 
-* **Name:** The name of the group.
+* **Name:** Enter the name of the group and select the users to be added.
 
   .. figure:: ../../_assets/security/group_creation_1.png
      :alt: security
@@ -44,13 +44,31 @@ Below are further details associated with each group:
      :alt: security
      :width: 60%
 
-* **Configurations (Configs):** Sparkflows allows admins to configure cloud credentials at the group level, enabling all users in the group to securely access cloud resources without managing credentials individually. The configured cloud credentials are displayed in a **card-based view**, with separate cards for each cloud provider, allowing admins to easily view, manage, and update different cloud configurations.
+  **Note:** Before configuring cloud credentials, you must save the group details.
 
-  .. figure:: ../../_assets/security/group_creation_3.png
+* **Configurations (Configs):** Sparkflows allows admins to configure cloud credentials at the group level, enabling all users in the group to securely access cloud resources without managing credentials individually.
+
+  The cloud credentials can be added by clicking **Add Credential** and selecting the desired credential type: AWS, ADLS, or GCP. 
+
+  .. figure:: ../../_assets/security/group_creation_add_credential.png
      :alt: security
      :width: 60%
 
-  The following cloud credentials can be configured as part of a group:
+  .. figure:: ../../_assets/security/group_creation_add_credential_type.png
+     :alt: security
+     :width: 60%
+
+  .. note:: When configuring AWS or Azure (ADLS) credentials for a group, admins can optionally use the **Credential Store** to securely manage sensitive values. If configured, secrets can be referenced using the ``$secret_key`` format instead of entering them directly in the group configuration. For detailed steps on setting up credential stores, refer to the following documentation:
+
+   AWS Credential Store Configuration
+   https://docs.sparkflows.io/en/latest/installation/credential-store/aws/index.html
+
+   Azure Key Vault Credential Store Configuration
+   https://docs.sparkflows.io/en/latest/installation/credential-store/azure-portal-keyvault.html 
+
+  
+
+  After entering the following fields based on the selected credential type, click **Save**. 
 
    **AWS**
   
@@ -60,6 +78,9 @@ Below are further details associated with each group:
    * **S3 Secret Key:** The credential secret key. Together with the access key, it is used to authenticate and authorize access to AWS resources, such as S3 buckets.
    * **S3 Endpoint URL:** The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
 
+     .. figure:: ../../_assets/security/group_creation_aws_credential.png
+       :alt: security
+       :width: 60%
    
    **ADLS**
  
@@ -68,7 +89,10 @@ Below are further details associated with each group:
    * **Client Secret Key:** The Client Secret Key Value generated during registration of app in Azure portal.
    * **Azure Client EndPoints:** The EndPoints with OAuth 2.0 token endpoint (v1) in register application.
    * **Home Directory:** The path must match the format eg: abfs://containerName@storageAccountName.dfs.core.windows.net
-   
+
+     .. figure:: ../../_assets/security/group_creation_adls_credential.png
+       :alt: security
+       :width: 60%
   
    **GCP**
  
@@ -76,7 +100,15 @@ Below are further details associated with each group:
    * **JSON Key File:** Specify the path to the Service Account Key file for authentication.
    * **Project Id:** Specify the Project Id to list the buckets.
 
+     .. figure:: ../../_assets/security/group_creation_gcp_credential.png
+       :alt: security
+       :width: 60%
 
+  Once saved, the credential appears as a **card** in the **Configs view** for the group and becomes available to all users in that group.
+
+  .. figure:: ../../_assets/security/group_creation_3.png
+     :alt: security
+     :width: 60%
 
 Roles
 -----

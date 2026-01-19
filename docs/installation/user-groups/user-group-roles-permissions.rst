@@ -9,7 +9,7 @@ Users
 Sparkflows supports multiple users. 
 
 * Each user can belong to multiple groups and have multiple roles.
-* A user can be a designated as a superuser.
+* A user can be designated as a superuser.
 * The user should exist on HDFS (when running against a Hadoop Cluster). Fire can run independent of a Hadoop Cluster.
 
 
@@ -33,15 +33,50 @@ There can be multiple groups in Sparkflows. A user can belong to one or more gro
 Below are further details associated with each group:
 
 * **Name:** The name of the group.
-* **Properties:** Key-value pairs you need to pass.
-* **AWS Role ARN:** S3 locations that the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
-* **S3 Access Key:** The credential used to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
-* **S3 Secret Key:** The credential secret key. Together with the access key, it is used to authenticate and authorize access to AWS resources, such as S3 buckets.
-* **S3 Endpoint URL:** The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
 
-.. figure:: ../../_assets/security/group_creation.PNG
-   :alt: security
-   :width: 60%
+  .. figure:: ../../_assets/security/group_creation_1.png
+     :alt: security
+     :width: 60%
+
+* **Properties:** Key-value pairs you need to pass.
+
+  .. figure:: ../../_assets/security/group_creation_2.png
+     :alt: security
+     :width: 60%
+
+* **Configurations (Configs):** Sparkflows allows admins to configure cloud credentials at the group level, enabling all users in the group to securely access cloud resources without managing credentials individually. The configured cloud credentials are displayed in a **card-based view**, with separate cards for each cloud provider, allowing admins to easily view, manage, and update different cloud configurations.
+
+  .. figure:: ../../_assets/security/group_creation_3.png
+     :alt: security
+     :width: 60%
+
+  The following cloud credentials can be configured as part of a group:
+
+   **AWS**
+  
+   
+   * **AWS Role ARN:** S3 locations that the users of the group can browse and view. Associated with each S3 location is also the IAM role to be assumed.
+   * **S3 Access Key:** The credential used to authenticate and authorize access to Amazon Web Services (AWS) resources, such as S3 buckets.
+   * **S3 Secret Key:** The credential secret key. Together with the access key, it is used to authenticate and authorize access to AWS resources, such as S3 buckets.
+   * **S3 Endpoint URL:** The S3 endpoint URL used to access Amazon S3 (Simple Storage Service).
+
+   
+   **ADLS**
+ 
+   
+   * **Client Id:** The Application (client) ID in register application.
+   * **Client Secret Key:** The Client Secret Key Value generated during registration of app in Azure portal.
+   * **Azure Client EndPoints:** The EndPoints with OAuth 2.0 token endpoint (v1) in register application.
+   * **Home Directory:** The path must match the format eg: abfs://containerName@storageAccountName.dfs.core.windows.net
+   
+  
+   **GCP**
+ 
+   
+   * **JSON Key File:** Specify the path to the Service Account Key file for authentication.
+   * **Project Id:** Specify the Project Id to list the buckets.
+
+
 
 Roles
 -----

@@ -44,11 +44,18 @@ Incorta User Guide
     :doc:`/incorta/user-guide/incorta-table-multiplefiles`
 
     Describes steps involved in Creating Incorta Table from Multiple files.
+    
     ---
 
     :doc:`/incorta/user-guide/incorta-dashboard-preparation`
 
     Describes steps involved in Creating Incorta Dashboard.
+
+    ---
+
+    :doc:`/incorta/user-guide/incorta-workflow-call-from-MV`
+
+    Describes how to call workflow using MV
    
 
    
@@ -63,6 +70,6 @@ Incorta User Guide
    incorta-reading-data.rst
    incorta-table-multiplefiles.rst
    incorta-dashboard-preparation.rst
-   
+   incorta-workflow-call-from-MV.rst
    
 

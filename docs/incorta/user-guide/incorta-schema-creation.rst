@@ -8,7 +8,7 @@ Step 1 : Login to Incorta Instance
 
 Follow the steps below to login into the Incorta Instance:
 
-#. Navigate to the URL **https://spflow.uswest.cloudstaging.incortalabs.com/incorta/#/login** (Please validate on the correct URL with Incorta team).
+#. Navigate to the URL **https://xyz.com/incorta/#/login** (Please validate on the correct URL with Incorta team).
 #. **Login** to the **Incorta Instance** using the credentials shared by the Incorta team. 
    
    Incorta Instance **Login page** would look like below:

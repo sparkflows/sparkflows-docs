@@ -35,195 +35,58 @@ Once the Copilot is set up, it can be used from Workflow Designer page or Pipeli
 
 Step 4: Add Query in Copilot
 ++++
-Enter the query in Copilot and it will return the next steps in JSON format, including parameters, as shown below.
-
- .. figure:: ../../_assets/user-guide/copilot/add-query-in-copilot-1.png
-     :alt: copilot configuration
-     :width: 60%
-
- .. figure:: ../../_assets/user-guide/copilot/add-query-in-copilot-2.png
-     :alt: copilot configuration
-     :width: 60%
-
-
-Step 5: Confirm to Create Node
+Sample MCP Query
 ++++
-Once the user clicks on **Confirm**, the specific node will be created automatically in the editor.
 
- .. figure:: ../../_assets/user-guide/copilot/copilot-auto-node-creation.png
+First, inspect these two parquet files to understand their schemas and sample data:
+
+- 278 request data:
+    /home/sparkflows/sparkflows-mcp/data/part-00000-278-requests.snappy.parquet
+
+- 278 response data:
+   /home/sparkflows/sparkflows-mcp/data/part-00000-278-responses.snappy.parquet
+
+Then, load and parse this extraction config template:
+
+- /home/sparkflows/sparkflows-mcp/data/extraction_config_template.json
+
+Using:
+- the schemas of the 278 request and 278 response parquet files, and
+- the structure of the extraction config template,
+
+do the following:
+
+1. Show me the parsed config from the template and briefly explain the main sections (for example: sources, filters, dedupe/join).
+
+2. Based on the schemas and the 278 use case, generate a NEW extraction config JSON that:
+   - Defines four aliases: `inReq`, `outReq`, `inRes`, `outRes`, each pointing to the appropriate request or response parquet file.
+   - For `inReq`, filters on metadata so that:
+   - event_source ends with `GatewayRequest` or `PayerInteractionRequest`
+   - msg_domain = 'PA'
+   - payload_format = 'X12'
+   - event_type = 'IN'
+   - market_base IN ('ARK', 'IMN')
+   - payload_schema_version IN ('005010X215', '005010X216', '005010X217')
+   - trace_id does NOT start with 'e2e-'
+   - For `outReq`, uses the same filters as `inReq` except event_type = 'OUT'.
+   - For `inRes`, applies the same filter logic as `inReq` to the response parquet.
+   - For `outRes`, applies the same filter logic as `outReq` to the response parquet.
+   - Includes an expression or configuration that:
+     - Deduplicates incoming and outgoing requests/responses by trace_id using the latest event_time.
+     - Joins the paired request and response records.
+     - Filters for a specific target batch and excludes earlier batch data.
+   - Specifies that inReq_batch, outReq_batch, inRes_batch, and outRes_batch are mapped to themselves, and any NULL batch value is replaced with the string `"null"`.
+
+3. Return ONLY:
+   - The final extraction config as a single valid JSON object (ready to be saved to a file).
+
+Enter the query in Copilot, and it will return the tool response, including parameters, as shown below.
+
+ .. figure:: ../../_assets/user-guide/copilot/MCP_Response.png
      :alt: copilot configuration
      :width: 60%
 
-.. note::
-
-   MCP Request and Response should follow the below Sparkflows format.
-
-   **Example User Queries:**
-   
-   1. Create read csv node with path S3://testdir/test.csv  
-   2. Create legoblockXMl with clusterid=jbh1875 and stepname=lego and deploy-mode=client
-
-   Tool Api/Method should be present with tools/list
-
-   **Tools List Request:**
-
-   {
-     "jsonrpc" : "2.0",
-     "id" : 1,
-     "method" : "tools/list",
-     "params" : { }
-   }
-
-   **Tools List Response:**
-
-   {
-     "result": {
-       "tools": [
-         {
-           "input_schema": {
-             "type": "object",
-             "properties": {
-               "StepName": {
-                 "description": "Name of the execution step",
-                 "type": "string"
-               },
-               "deploy-mode": {
-                 "description": "Deployment mode (e.g., cluster, client)",
-                 "type": "string"
-               },
-               "ClusterId": {
-                 "description": "Cluster identifier for the logo block",
-                 "type": "string"
-               }
-             },
-             "required": ["ClusterId", "StepName", "deploy-mode"]
-           },
-           "name": "logoblockXMl",
-           "description": "Parse XML for Logo Block with cluster and deployment configuration",
-           "output_schema": {
-             "type": "object",
-             "properties": {
-               "isError": {"type": "boolean"},
-               "content": {
-                 "items": {
-                   "properties": {
-                     "text": {"type": "string"},
-                     "type": {"type": "string"}
-                   },
-                   "type": "object"
-                 },
-                 "type": "array"
-               }
-             },
-             "required": ["content", "isError"]
-           },
-           "next_steps": {}
-         },
-         {
-           "input_schema": {
-             "type": "object",
-             "properties": {
-               "path": {
-                 "description": "Path to the CSV file to read",
-                 "type": "string"
-               }
-             },
-             "required": ["path"]
-           },
-           "name": "ReadCSV",
-           "description": "Read CSV file from the specified path",
-           "output_schema": {
-             "type": "object",
-             "properties": {
-               "isError": {"type": "boolean"},
-               "content": {
-                 "items": {
-                   "properties": {
-                     "text": {"type": "string"},
-                     "type": {"type": "string"}
-                   },
-                   "type": "object"
-                 },
-                 "type": "array"
-               }
-             },
-             "required": ["content", "isError"]
-           },
-           "next_steps": {}
-         }
-       ]
-     },
-     "id": "1",
-     "jsonrpc": "2.0"
-   }
-
-   **Tools call request for node:**
-
-   Tool Api/Method should be present with tools/call
-
-   Params : {
-   Name :  tool name 
-   Arguments : parameter’s key 
-   }
-
-   Json:
-
-   {
-     "jsonrpc" : "2.0",
-     "params" : {
-       "name" : "ReadCSV",
-       "arguments" : {
-         "path" : "D://testDir/test.csv"
-       }
-     },
-     "method" : "tools/call",
-     "id" : 1
-   }
-
-   **Tool Call response from MCP:**
-
-   Parameters = Fields in the workflow/pipelines name should match
-
-   {
-     "status" : "success",
-     "tool_name" : "ReadCSV",
-     "result" : {
-       "message" : "Read CSV file from path"
-     },
-     "next_steps" : [ {
-       "parameters" : [ {
-         "description" : "Path to the CSV file",
-         "type" : "string",
-         "path" : "D://testDir/test.csv"
-       }, {
-         "description" : "CSV Configuration Parameter",
-         "type" : "string",
-         "csvConfig" : "{\"delimiter\":\",\",\"header\":true,\"blockId\":\"a84033f4\",\"timestamp\":\"2025-10- 
-       01T17:36:53.5835424\",\"path\":\"D://testDir/test.csv\",\"encoding\":\"utf-8\"}"
-       }, {
-         "description" : "Position Parameter",
-         "type" : "string",
-         "position" : "{\"zIndex\":1,\"gridAlign\":true,\"y\":200,\"x\":150,\"height\":120,\"width\":250}"
-       } ],
-       "node_name" : "Read CSV",
-       "required" : [ "message", "next_steps" ],
-       "action" : "create_node"
-     } ]
-   }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .. figure:: ../../_assets/user-guide/copilot/MCP_Response_1.png
+     :alt: copilot configuration
+     :width: 60%
 

@@ -51,6 +51,11 @@ Incorta User Guide
 
     Describes steps involved in Creating Incorta Dashboard.
 
+    ---
+
+    :doc:`/incorta/user-guide/sf-execute-command`
+
+    Details command-line execution of Sparkflows Workflows.
 
 
    
@@ -67,6 +72,6 @@ Incorta User Guide
    incorta-reading-data.rst
    incorta-table-multiplefiles.rst
    incorta-dashboard-preparation.rst
-  
+   sf-execute-command.rst
    
 

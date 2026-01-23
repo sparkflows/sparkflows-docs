@@ -8,18 +8,21 @@ New Features
 Platform & Infrastructure
 ++++
 
-* **EMR Auto Scaling Support :** Support for Amazon EMR Auto Scaling using *Instance Groups* has been added, enabling dynamic scaling of cluster resources based on workload demand. The **Create EMR Pipeline** node has been updated to support *Managed Scaling Policies*, allowing automated and efficient resource management.
+* **Auto Scaling of Cluster (EMR)** 
 
-* **EMR Serverless Support (QA in Progress) :** Sparkflows now supports Amazon EMR Serverless, enabling serverless execution of Spark workloads without the need to provision or manage clusters.
+   * **Instance Group Support :** The *Create EMR Pipeline* node has been updated to support managed scaling policies. By default, clusters are created using Instance Groups with manual cluster size configuration.
+   * **Instance Fleets Support :** Instance Fleets are now available as an option with a default configuration.
+
+* **EMR Serverless Support :** Support for EMR Serverless has been enabled in Sparkflows, allowing users to run workloads without managing cluster infrastructure.
 
 
 Enhancements
 ----
 
-Monitoring Enhancements
+Pipeline Observability
 +++++
 
-* **Enhanced Node-Level Metrics (In Progress) :** Node-level execution logs will now capture the *actual start and end time* of each node, providing improved execution visibility and performance analysis.
+* **Enhanced Node-Level Metrics Logs :** Node-level execution logs will now capture the *actual start and end time* of each node, providing improved execution visibility and performance analysis.
 
 
 Copilot Enhancements
@@ -27,7 +30,7 @@ Copilot Enhancements
 
 * **Improved Query Handling :** Copilot now detects and gracefully handles queries that are irrelevant to the target workflow or execution context.
 
-* **Resilient MCP Query Processing :** If a query is not related to MCP, it will continue to be processed directly by the LLM even when the MCP server is unavailable. This ensures uninterrupted workflow generation and a more robust Copilot experience.
+* **Graceful MCP Fallback :** If a user submits a query unrelated to the MCP server, the system processes it normally. Even when the MCP server is unavailable, non-MCP queries continue to be handled directly by the LLM without interruption, ensuring uninterrupted workflow generation.
 
 
 Security Enhancements
@@ -86,7 +89,6 @@ Documentation
   
 * :ref:`Copilot with MCP Connection<Copilot with MCP Connection>` documentation is now updated to reflect improved query handling that gracefully processes non-MCP-related requests, ensuring uninterrupted workflow generation even when the MCP server is unavailable.  
  
-* :ref:`Logs Search Examples<Logs Search Examples>` documentation is now updated to include node-level execution logs that capture actual start and end times for each node.  
 
 
 

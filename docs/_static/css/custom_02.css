@@ -466,6 +466,7 @@ footer{
     order: 1;
     font-size: 2.3rem;
     padding-left: 10px;
+    width: 180px;
 }
 .search-input{
     order: 3;

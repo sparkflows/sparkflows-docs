@@ -125,13 +125,13 @@ Click on the **Copilot** button to open the Assistant window.
 
 * Create the pipeline by:
 
-  1. Creating an EMR cluster.
+  1. By adding an EMR cluster.
 
   2. Adding a step to EMR with the workflow name **ExampleWorkflow**.
 
-  3. Adding a step sensor to check the status of the above step.
+  3. Adding a step sensor node to check the status of the above step.
 
-  4. Terminating the cluster once the step sensor is completed.
+  4. Terminating the cluster once the step sensor node is completed.
 
 * After receiving the response, the user can select and preview it. The **Select** button converts the response into the pipeline edit page.
 

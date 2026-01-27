@@ -123,7 +123,7 @@ Click on the **Copilot** button to open the Assistant window.
 **Example Prompt**
 ++++++++++++++++++++++++
 
-* Create the pipeline by:
+* Create the pipeline:
 
   1. By adding an EMR cluster.
 

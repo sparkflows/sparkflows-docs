@@ -8,16 +8,32 @@ New Features
 Platform & Infrastructure
 ++++
 
-* **Auto Scaling of Cluster (EMR)** 
+* **Auto Scaling of EMR Cluster :** *Managed Autoscaling* is now enabled by selecting **Use EMR-managed scaling** in the Choose an option section of the Create EMR node in pipelines.
 
    * **Instance Group Support :** The *Create EMR Pipeline* node has been updated to support managed scaling policies. By default, clusters are created using Instance Groups with manual cluster size configuration.
    * **Instance Fleets Support :** Instance Fleets are now available as an option with a default configuration.
 
-* **EMR Serverless Support :** Support for EMR Serverless has been enabled in Sparkflows, allowing users to run workloads without managing cluster infrastructure.
+Security 
++++++
+
+* **Group-Level Credential Store Integration :** Group-level ADLS, AWS, and GCP configurations can now securely pull secrets directly from the Credential Store (Key Vault / Secret Manager).
+
+    * **Improved Group Configuration UI :**  
+      ADLS, AWS, and GCP configurations are now organized into *separate tabs* at the group level.  
+      A new pop-up has been introduced for configuring group-level ADLS, AWS, and GCP credentials.
+    
+    * **Credential Store Selection :** Users can now select the Credential Store at the configuration level. Once selected, secrets can be referenced using the format **$secret_key**, where *secret_key* corresponds to the value stored in the Key Vault or Secret Manager.
+    
+    * **AWS Credential Store Enhancements :**  
+      Support has been added for configuring *ARN* or *Access Key and Secret Key* at the group level.  
+      Required credentials are now available to securely list and fetch secrets from the credential store.
+
+
 
 
 Enhancements
 ----
+
 
 Pipeline Observability
 +++++
@@ -33,20 +49,7 @@ Copilot Enhancements
 * **Graceful MCP Fallback :** If a user submits a query unrelated to the MCP server, the system processes it normally. Even when the MCP server is unavailable, non-MCP queries continue to be handled directly by the LLM without interruption, ensuring uninterrupted workflow generation.
 
 
-Security Enhancements
-+++++
 
-* **Group-Level Credential Store Integration :** Group-level ADLS, AWS, and GCP configurations can now securely pull secrets directly from the Credential Store (Key Vault / Secret Manager).
-
-    * **Improved Group Configuration UI :**  
-      ADLS, AWS, and GCP configurations are now organized into *separate tabs* at the group level.  
-      A new pop-up has been introduced for configuring group-level ADLS, AWS, and GCP credentials.
-    
-    * **Credential Store Selection :** Users can now select the Credential Store at the configuration level. Once selected, secrets can be referenced using the format **$secret_key**, where *secret_key* corresponds to the value stored in the vault or secret manager.
-    
-    * **AWS Credential Store Enhancements :**  
-      Support has been added for configuring *ARN* or *Access Key and Secret Key* at the group level.  
-      Required credentials are now available to securely list and fetch secrets from the credential store.
 
 MLflow Model Enhancements
 ++++
@@ -72,15 +75,16 @@ UI/UX Enhancements
 Fixes
 -----
 
-Pipeline & Sensor Fixes
+Pipeline Node Fixes
 +++++
 
 * **SnowflakeSensor XCom Value Fix :** Fixed an issue where XCom push values from previous nodes were not being replaced with actual values in the SnowflakeSensor.
 
-* **TriggerNextDag Parameter Fix :** Resolved pipeline chaining issues related to **TriggerNextDag** parameters.
+* **TriggerNextDag Parameter Fix :** Resolved pipeline chaining issues related to *TriggerNextDag* parameters. Parameters are now correctly passed to the next DAG when using Trigger Next Dag.
 
-* **Run Snowflake Autocommit Support :** Added **autocommit=True** support for the **Run Snowflake** node to ensure proper transaction handling.
+* **Run Snowflake Autocommit Support :** Added **autocommit=True** support for the *Run Snowflake Command* node to ensure proper transaction handling.
 
+* **Snowflake Connection Override Support :** Added support for overriding *warehouse, database, schema, and role* in Run Snowflake Command and Snowflake Sensor nodes. By default, these values are pulled from the connection; enabling “Enable To Override details” allows users to update them.
 
 Documentation
 ---------------

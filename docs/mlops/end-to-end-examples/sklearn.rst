@@ -1,4 +1,4 @@
-Sklearn
+Scikit-learn
 =======
 
 This document describes how to implement end-to-end MLOps for Scikit-learn (Sklearn) models in Sparkflows, including training, evaluation, champion model selection, prediction workflows, and continuous monitoring using MLflow, predictions over time, and data drift metrics.

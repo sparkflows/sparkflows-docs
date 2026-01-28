@@ -108,7 +108,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 * TeraData: jdbc:teradata:///{jdbcHostname}:{jdbcPort}/databaseName={jdbcDatabase}
 * Sybase : jdbc:sybase:Tds:localhost:5000/mydb
 * HANA : jdbc:sap://{jdbcHostname}:{jdbcPort}/?databaseName={jdbcDatabase}
-* Clickhouse : jdbc:clickhouse://{Host}:{Port}/{Database}
+* Clickhouse : jdbc:clickhouse://{Host}:{Port}/{Database}?compress=0 { ``Note``: compress=0 is used to Disable compression, else you might see JDBC compression issue }
 
 
 

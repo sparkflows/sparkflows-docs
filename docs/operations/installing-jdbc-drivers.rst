@@ -78,6 +78,11 @@ HANA
 
 - HANA JDBC drivers can be downloaded from : https://sparkflows-release.s3.us-east-1.amazonaws.com/fire/library-jar/sap-hana/ngdbc-2.24.7.jar
 
+Clickhouse
+++++
+
+- Clickhouse JDBC drivers can be downloaded from : https://repo1.maven.org/maven2/com/clickhouse/clickhouse-jdbc/0.5.0/clickhouse-jdbc-0.5.0.jar
+
 JDBC Driver Class
 -------
 
@@ -89,6 +94,8 @@ When using the JDBC processors, the following can be used for the JDBC Driver Cl
 * TeraData : com.teradata.jdbc.TeraDriver
 * Sybase : com.sybase.jdbc4.jdbc.SybDriver
 * HANA : com.sap.db.jdbc.Driver
+* Clickhouse : com.clickhouse.jdbc.ClickHouseDriver
+
 
 JDBC URLs
 ----------------
@@ -101,6 +108,7 @@ Below are some examples of JDBC URLs for reading from Relational sources when us
 * TeraData: jdbc:teradata:///{jdbcHostname}:{jdbcPort}/databaseName={jdbcDatabase}
 * Sybase : jdbc:sybase:Tds:localhost:5000/mydb
 * HANA : jdbc:sap://{jdbcHostname}:{jdbcPort}/?databaseName={jdbcDatabase}
+* Clickhouse : jdbc:clickhouse://{Host}:{Port}/{Database}
 
 
 

@@ -21,13 +21,6 @@ Under the Fire installation directory, there is ``fire-server-lib`` and ``fire-u
 
 Copy the downloaded JDBC jar file into it.
 
-
-Restart Fire Server
-------------
-
-Restart Fire server with ``./run-fire-server.sh restart``.
-
- 
 Download MySQL Connector
 ---------------------------
 
@@ -35,4 +28,18 @@ Download MySQL Connector
 - After downloading, untar it with : ``tar xvf mysql-connector-java-8.0.11.tar.gz``. 
 - After untaring, the JDBC jar file is available in the directory.
 - Use the jar file (mysql-connector-java-8.0.11.jar) for installation in Fire.
+
+Download Clickhouse JDBC Driver
+---------------------------
+
+- Clickhouse JDBC Driver can be downloaded from maven repository : https://repo1.maven.org/maven2/com/clickhouse/clickhouse-jdbc/0.5.0/clickhouse-jdbc-0.5.0.jar
+- Use the jar file (clickhouse-jdbc-0.5.0.jar) for installation in Fire.
+
+Restart Fire Server
+------------
+
+Restart Fire server with ``./run-fire-server.sh restart``.
+
+ 
+
 

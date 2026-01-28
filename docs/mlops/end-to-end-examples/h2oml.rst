@@ -1,4 +1,4 @@
-H2OML
+H2O
 ======
 
 This document describes how to implement end-to-end MLOps for H2O models in Sparkflows, including training, evaluation, champion model selection, prediction workflows, and continuous monitoring with MLflow, predictions over time, and data drift metrics.

@@ -10,7 +10,7 @@ Before you create a dashboard in Sparkflows, ensure the following prerequisites 
 
 Creating a MySQL connection is a prerequisite for creating dashboard.
 
-Follow the steps given here to create a new MySQL connection: :ref:`Create MySQL Connection<SQL Server>`
+Follow the steps given here to create a new MySQL connection: :ref:`Create MySQL Connection<MySQL Connection>`
 
 **Add Google REST API Key**
   

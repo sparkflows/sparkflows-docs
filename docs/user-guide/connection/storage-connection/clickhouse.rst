@@ -1,7 +1,7 @@
 ClickHouse Connection
 =======
 
-Sparkflows provides the capability to create ClickHouse connection and use the connection for reading from and writing to MySQL tables. Below are the steps for creating ClickHouse connection in Sparkflows:
+Sparkflows provides the capability to create ClickHouse connection and use the connection for reading from and writing to ClickHouse tables. Below are the steps for creating ClickHouse connection in Sparkflows:
 
   * Download ClickHouse JDBC Driver
   * Install the JDBC Driver

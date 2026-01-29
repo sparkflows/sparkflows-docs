@@ -99,8 +99,9 @@ Connection Field Details
      - JDBC Url for ClickHouse
    * - Driver Class
      - Driver Class Name for ClickHouse
-     - com.clickhouse.jdbc.ClickHouseDriver (by default)
+     - com.clickhouse.jdbc.ClickHouseDriver
 
+Now you can use this connection to create a dataset and then proceed to create charts and dashboards using the created dataset.
 
 
 

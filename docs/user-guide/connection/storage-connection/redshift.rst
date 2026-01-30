@@ -11,6 +11,31 @@ Connections can be at various levels:
   * Group   : Users belonging to the group have access to these connections.
   * Project : The owner of the project and the groups with which the project has been shared with have access to the project level connections.
 
+ * Download PostgreSQL JDBC Driver
+  * Install the JDBC Driver
+  * Restart Sparkflows
+  * Create the Redshift Connection
+
+Download Redshift JDBC Driver
+-------------
+
+- Redshift JDBC Driver can be downloaded directly from maven repository : https://repo1.maven.org/maven2/com/amazon/redshift/redshift-jdbc42/2.1.0.32/redshift-jdbc42-2.1.0.32.jar
+- Ensure that the Redshift JDBC JAR file is available in the directory.
+- Use the JAR file (redshift-jdbc42-2.1.0.32.jar) for installation in the Fire.
+
+Install the Redshift JDBC Driver
+--------
+
+In order to install the JDBC driver copy the driver Redshift jdbc jar file into ``fire-user-lib`` and ``fire-server-lib`` directories under the Fire installation home directory.
+
+Restart Fire Server
+------------
+
+Once you have copied the JDBC driver into the required folder, restart the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
+
+This will restart the Fire services automatically.
+
+
 This page shows how to create a "Redshift Connection" in Sparkflows.
 
 Create the Redshift Connection

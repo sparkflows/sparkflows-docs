@@ -82,7 +82,7 @@ Once you have entered the connection details, click on "Test Connection". If the
 Now, you are ready to start using the Connection in workflows.
 
 
-.. Note:: Make sure that Redshift URL should be accessible from Sparkflows web server URL.
+.. Note:: Make sure that Redshift URL should be accessible from Sparkflows web server URL and Driver jar is available in Class path.
 
 
 Run Workflows and Pipelines

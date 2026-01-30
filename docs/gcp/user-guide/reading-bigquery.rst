@@ -3,6 +3,12 @@ Read from BigQuery
 
 Sparkflows has processor to read from BigQuery Tables. This document explains detailed steps required to read data from BigQuery.
 
+Pre-Requisites
+-----
+
+- Make sure that you gcp account with Bigquery Permission.
+- BigQuery Connection would be available in Sparkflows.
+
 Follow the steps given below:
 
 Step 1 : Create or Edit a Workflow

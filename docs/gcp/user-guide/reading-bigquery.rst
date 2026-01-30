@@ -6,7 +6,7 @@ Sparkflows has processor to read from BigQuery Tables. This document explains de
 Pre-Requisites
 -----
 
-- Make sure that you gcp account with Bigquery Permission.
+- Make sure that you have gcp account with Bigquery Permission.
 - BigQuery Connection would be available in Sparkflows.
 
 Follow the steps given below:

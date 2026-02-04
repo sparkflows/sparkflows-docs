@@ -157,7 +157,8 @@ For NETWORK tab
 
 
 .. note:: Make sure that **Subnet Ids and Security Group Ids** created in the previous steps are used here and that they allow access from the ecs or ec2 instance where the Sparkflows application is running.
-EMR Serverless works by default ONLY with **publicly trusted CA certificates**. Else it required to be Trusted by EMR Serverless.
+          
+          EMR Serverless works by default ONLY with **publicly trusted CA certificates**. Else it required to be Trusted by EMR Serverless.
 
 Step 5 : Submit Job on Amazon EMR Serverless
 =========

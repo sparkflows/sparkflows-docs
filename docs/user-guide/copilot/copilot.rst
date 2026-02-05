@@ -22,7 +22,7 @@ Steps for Adding Copilot
     :alt: copilot_administration
     :width: 60%
 
-2. Click on **Add Copilot** button and enter the following details. such as the Copilot Name and Gen AI Connection required for making queries. Then click on **Save** button to create the Copilot.
+2. Click on **Add Copilot** button and enter the following details. Then click on **Save** button to create the Copilot.
 
    .. figure:: ../../_assets/user-guide/copilot/add_copilot_button.png
     :alt: create_copilot

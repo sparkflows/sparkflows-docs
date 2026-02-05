@@ -90,13 +90,13 @@ Steps to Use Copilot in Workflow Designer
 
 
 
-Additional Features for Copilot on Workflow
--------------------------------------------
+Additional Features for Copilot in Workflow Designer
+------------------------------------------------------
 
-In addition to generating workflows, Copilot on Workflow provides several additional features that help users explore **sample prompts, track Copilot activities, and review historical interactions** for better visibility and reuse.
+In addition to generating workflows, Copilot in Workflow provides several additional features that help users explore **sample prompts, track Copilot activities, and review historical interactions** for better visibility and reuse.
 
-Sample Prompts
-~~~~~~~~~~~~~~
+**Sample Prompts**
++++++++++++++++++++++
 
 A set of **Sample Prompts** is provided and can be copied and used directly.
 
@@ -115,8 +115,8 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
      :width: 60%
 
 
-Copilot Activities
-~~~~~~~~~~~~~~~~~~
+**Copilot Activities**
+++++++++++++++++++++++++
 
 1. To view captured **Copilot Activities** or **Events**, click the **Activities** button under the Copilot Assistant.
 
@@ -145,8 +145,8 @@ Copilot Activities
      :width: 60%
 
 
-Copilot History
-~~~~~~~~~~~~~~~
+**Copilot History**
++++++++++++++++++++++++
 
 1. To view the captured **Copilot History**, click the **Copilot History** button under the Copilot Assistant.
 

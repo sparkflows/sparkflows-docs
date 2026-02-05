@@ -52,7 +52,7 @@ Steps to Use Copilot in Workflow Designer
 
 
 
-   You can also preview the generated **Workflow diagram**.
+   You can also preview the generated **Workflow**.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-ShowMore-Preview-Workflow.PNG
      :alt: copilot configuration
@@ -66,7 +66,7 @@ Steps to Use Copilot in Workflow Designer
      :width: 60%
 
 
-   You can also directly preview the generated workflow by clicking the **Preview** icon shown in the Copilot response.
+   You can also directly preview the generated workflow by clicking the **Preview** icon seen in the Copilot response.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Direct-Preview.PNG
      :alt: copilot configuration
@@ -93,14 +93,14 @@ Steps to Use Copilot in Workflow Designer
 Additional Features for Copilot in Workflow Designer
 ------------------------------------------------------
 
-In addition to generating workflows, Copilot in Workflow provides several additional features that help users explore **sample prompts, track Copilot activities, and review historical interactions** for better visibility and reuse.
+In addition to generating workflows, Copilot in Workflow provides additional features that help users explore **sample prompts, track Copilot activities, and review historical interactions** for better visibility and reuse.
 
 **Sample Prompts**
 +++++++++++++++++++++
 
 A set of **Sample Prompts** is provided and can be copied and used directly.
 
-* Click the **Sample Prompts** button under the Copilot Assistant to view them.
+1. Click the **Sample Prompts** button under the Copilot Assistant to view them.
 
   .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Sample-Prompts.PNG
      :alt: copilot configuration
@@ -108,7 +108,7 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
 
 
 
-* Click the **Copy** icon to copy a sample prompt and use it to generate a workflow.
+2. Click the **Copy** icon to copy a sample prompt and use it to generate a workflow.
 
   .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Sample-Prompts-List.PNG
      :alt: copilot configuration
@@ -125,7 +125,7 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
      :width: 60%
 
 
-2. A table listing all events is displayed. These events are captured for the current user, selected project, and the Copilot on which the prompt was submitted.
+2. A table listing all events is displayed. These events are captured for the current user of the current selected project for the Copilot on which the prompt was submitted.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Activities-List.PNG
      :alt: copilot configuration
@@ -155,7 +155,7 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
      :width: 60%
 
 
-   A table is displayed showing all prompts submitted to the selected Copilot by the user within the current project.
+   A table is displayed showing all prompts submitted. The history is captured for the current user of the current selected project for the Copilot on which the prompt was submitted. 
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-History-List.PNG
      :alt: copilot configuration

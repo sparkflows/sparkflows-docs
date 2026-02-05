@@ -9,7 +9,7 @@ Workflow Copilot Examples
 ----
 Click on the **Copilot** button to open the Assistant window.
 
-.. figure:: ../../_assets/user-guide/copilot/wf-copilot-button.png
+.. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Generate-Response.PNG
      :alt: copilot configuration
      :width: 60%
 
@@ -116,7 +116,7 @@ Pipeline Copilot Example
 
 Click on the **Copilot** button to open the Assistant window.
 
-.. figure:: ../../_assets/user-guide/copilot/pipeline-copilot-button.png
+.. figure:: ../../_assets/user-guide/copilot/Copilot-On-Pipeline/Copilot-Pipeline-Generate-Response.PNG
      :alt: copilot configuration
      :width: 60%
 

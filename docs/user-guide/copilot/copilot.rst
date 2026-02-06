@@ -28,10 +28,10 @@ Steps for Adding Copilot
     :alt: create_copilot
     :width: 60%
 
-  * **Name (mandatory):** Enter a unique and meaningful name for the Copilot.
+  * **Name (Mandatory):** Enter a unique and meaningful name for the Copilot.
   * **Description (Optional):** Provide a short description of what the Copilot will be used for.
-  * **Gen AI Connection (mandatory):** Select an existing Gen AI Connection (e.g., OpenAI, Azure OpenAI, Bedrock, etc.) from the dropdown. Ensure the selected connection is already configured and active.
-  * **MCP Connection (Optiona):** Select one or more MCP Connections from the dropdown, if required. This is optional and depends on whether your Copilot needs MCP-based tools or integrations.
+  * **Gen AI Connection (Mandatory):** Select an existing Gen AI Connection (e.g., OpenAI, Azure OpenAI, Bedrock, etc.) from the dropdown. Ensure the selected connection is already configured and active.
+  * **MCP Connection (Optional):** Select one or more MCP Connections from the dropdown, if required. This is optional and depends on whether your Copilot needs MCP-based tools or integrations.
 
 
 

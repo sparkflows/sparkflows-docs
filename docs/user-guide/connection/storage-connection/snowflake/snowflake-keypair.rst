@@ -85,6 +85,13 @@ Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.
 
 Reference guide : `Configuring Azure Key Vault Credential Store. <https://docs.sparkflows.io/en/latest/installation/credential-store/azure-keyvault.html>`_ 
 
+**For Local Credentials Store**
+++++++++++++++++++++++++++++++++
+
+Reference guide : `Configuring Local Credential Store. <https://docs.sparkflows.io/en/latest/user-guide/application-credentials/application-credentials.html>`_
+
+#. Key – User-defined name for the key
+#. Value – Private key file content (PEM format as described above)
 
 Follow the steps below to create a **Snowflake connection using Key-Pair Authentication**:
 

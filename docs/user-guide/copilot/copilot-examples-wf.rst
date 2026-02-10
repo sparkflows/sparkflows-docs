@@ -1,7 +1,7 @@
-Copilot Examples
+Copilot Workflow Examples
 ====
 
-This guide provides examples of using Copilot to create and update workflows and pipelines. 
+This guide provides examples of using Copilot to create and update workflows. 
 
 Follow the steps below to see how Copilot can assist in building and modifying your data processes.
 
@@ -106,36 +106,6 @@ Create a workflow that:
 8. Write the output of step 7 as a CSV to “/home/sparkflows/fire-data/TELCO/Telco-Churn-Prediction/Cleaned_aggregated/” in overwrite mode
 
  .. figure:: ../../_assets/user-guide/copilot/copilot-ex3-prompt1-wf.png
-     :alt: copilot configuration
-     :width: 60%
-
-
-
-Pipeline Copilot Example
-----
-
-Click on the **Copilot** button to open the Assistant window.
-
-.. figure:: ../../_assets/user-guide/copilot/Copilot-On-Pipeline/Copilot-Pipeline-Generate-Response.PNG
-     :alt: copilot configuration
-     :width: 60%
-
-**Example Prompt**
-++++++++++++++++++++++++
-
-* Create the pipeline:
-
-  1. By adding an EMR cluster.
-
-  2. Adding a step to EMR with the workflow name **ExampleWorkflow**.
-
-  3. Adding a step sensor node to check the status of the above step.
-
-  4. Terminating the cluster once the step sensor node is completed.
-
-* After receiving the response, the user can select and preview it. The **Select** button converts the response into the pipeline edit page.
-
-  .. figure:: ../../_assets/user-guide/copilot/copilot-example-pipeline.png
      :alt: copilot configuration
      :width: 60%
 

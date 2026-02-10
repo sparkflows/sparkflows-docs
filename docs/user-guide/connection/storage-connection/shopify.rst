@@ -34,7 +34,7 @@ To configure this connection, enter the details as follows and click on **Test C
 
  * **Access Token:** shpat_xxxxxxxxxxxx
 
-   .. figure:: ../../../_assets/connections/shopify-connection-config.PNG
+  .. figure:: ../../../_assets/connections/shopify-connection-config.PNG
       :alt: connection
       :width: 60%
 

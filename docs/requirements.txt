@@ -1,5 +1,5 @@
-Sphinx==3.5.3
-sphinx-rtd-theme==0.5.1
+Sphinx==4.3.1
+sphinx-rtd-theme==0.5.2
 docutils==0.16
 sphinx-copybutton
 sphinx_panels
@@ -9,4 +9,3 @@ sphinxcontrib.devhelp==1.0.2
 sphinxcontrib.htmlhelp==2.0.0
 sphinxcontrib.serializinghtml==1.1.4
 sphinxcontrib.qthelp==1.0.3
-setuptools>=65

@@ -33,6 +33,10 @@ Operations
 
     ---
 
+    :doc:`/operations/shopify-token`
+    
+    ---
+
     :doc:`/operations/backup_db`
     
     ---
@@ -89,6 +93,7 @@ Operations
    backup_db.rst
    h2-database/index.rst
    password-db-reset.rst
+   shopify-token.rst
    change-password.rst
    installing-mysql.rst
    installing-jdbc-drivers.rst

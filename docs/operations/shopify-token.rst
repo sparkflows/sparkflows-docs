@@ -33,9 +33,9 @@ Follow the steps below:
 
 6. Choose the app owner (a staff account)
 
-.. figure:: ../_assets/shopify/shopify-create-token-1.png
-   :alt: shopify
-   :width: 50%
+ .. figure:: ../_assets/shopify/shopify-create-token-1.png
+     :alt: shopify
+     :width: 50%
 
 **Step 2: Configure Admin API scopes (permissions)**
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -56,7 +56,7 @@ Typical scopes include (example only):
 - Customers:
     read_customers (note: customer PII access is restricted by Shopify plan / approval, BASIC plan restricts customer PII information)
 
-.. figure:: ../_assets/shopify/shopify-create-token-2.png
+ .. figure:: ../_assets/shopify/shopify-create-token-2.png
    :alt: shopify
    :width: 50%
 
@@ -80,9 +80,9 @@ This “install” step is what actually enables token generation.
   - Find **Admin API access token**
   - Copy it and store it securely
 
-  **Treat this token like a password**. Anyone who has it can call Admin APIs within the granted scopes.
+ **Treat this token like a password**. Anyone who has it can call Admin APIs within the granted scopes.
 
-.. figure:: ../_assets/shopify/shopify-create-token-3.png
+ .. figure:: ../_assets/shopify/shopify-create-token-3.png
    :alt: shopify
    :width: 50%
 

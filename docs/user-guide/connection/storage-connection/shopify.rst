@@ -28,7 +28,8 @@ Step 2 : Adding a Shopify Connection
 
 Step 3 : Configuring the Shopify Connection
 +++++++++
-To configure this connection, enter the details as follows and click on **Test Connection** button to validate. 
+
+1. To configure this connection, enter the details as follows and click on **Test Connection** button to validate. 
 
  * **Shop Name:** sparkflows-dev.myshopify.com
 
@@ -38,7 +39,7 @@ To configure this connection, enter the details as follows and click on **Test C
       :alt: connection
       :width: 60%
 
-Once this connection is configured and verified, it will display a '**Successfully Connected**' message, as shown below.
+2. Once this connection is configured and verified, it will display a message '**Successfully Connected**'.
   
 
 

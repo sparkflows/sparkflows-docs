@@ -35,9 +35,15 @@ Copilot
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-examples`
+    :doc:`/user-guide/copilot/copilot-examples-wf`
 
-    Examples on Copilot for workflows and pipelines
+    Examples on Copilot for workflows 
+
+    ---
+
+    :doc:`/user-guide/copilot/copilot-examples-pipeline`
+
+    Examples on Copilot for pipelines 
 
     ---
 
@@ -56,6 +62,7 @@ Copilot
    copilot-pipeline.rst
    copilot-nodes.rst
    copilot-project.rst
-   copilot-examples.rst
+   copilot-examples-wf.rst
+   copilot-examples-pipeline.rst
    mcp-copilot.rst
   

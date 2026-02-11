@@ -5,7 +5,7 @@ This guide provides examples of using Copilot to create and update pipelines.
 
 Follow the steps below to see how Copilot can assist in building and modifying your data processes.
 
-Pipeline Copilot Example
+Pipeline Copilot Examples
 ----
 
 Click on the **Copilot** button to open the Assistant window.
@@ -25,6 +25,7 @@ Example 1
 Prompt 1
 
 Create the pipeline by:
+
 1. Adding an emr cluster
 2. Adding a step to the emr with the workflow name "wf_token_size" after step 1 
 3. Adding a step sensor to check the status from step 2 
@@ -41,6 +42,7 @@ Create the pipeline by:
 Prompt 2
 
 Update pipeline by:
+
 1. Adding a step to the emr with task name “new_task” between node 2 and 3 
 
   .. figure:: ../../_assets/user-guide/copilot/copilot-example-pipeline-2-update.png
@@ -53,6 +55,7 @@ Example 2
 **Prompt 1**
 
 Create the pipeline by:
+
 1. Adding an emr cluster
 2. Adding a step to the emr with the workflow name "wf_token_size" after step 1 
    
@@ -63,6 +66,7 @@ Create the pipeline by:
 **Prompt 2**
 
 Update pipeline by:
+
 1. Add a step sensor node to check the status after node 2
 2. Terminate the cluster once the step sensor node is completed.
 
@@ -76,6 +80,7 @@ Example 3
 **Prompt 1**
 
 Create a pipeline using the following nodes and logic:
+
 1. Add an S3 Sensor to wait for a file arrival in the bucket “raw-data-uploads”
 2. Add a Branch Python Operator node after step 1 which checks the file extension between .csv and .parquet
 3. Add a Run Snowflake Command as a new branch from node 2
@@ -84,7 +89,7 @@ Create a pipeline using the following nodes and logic:
 6. Add a Terminate Cluster node after node 5
 7. Join node 3 and node 8 using the Empty Operator node after step 6
 8. Add Email Notification to send a success status after step 7
-9.  Add a Trigger Next DAG node with name “downstream_analytics" after step 8
+9. Add a Trigger Next DAG node with name “downstream_analytics" after step 8
    
   .. figure:: ../../_assets/user-guide/copilot/copilot-example-pipeline-4.png
      :alt: copilot configuration

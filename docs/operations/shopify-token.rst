@@ -15,21 +15,13 @@ Follow the steps below:
 
 1. Log into the store Admin: https://admin.shopify.com/store/<store-name>
 
-2. Go to:
+2. Go to: Settings → Apps and sales channels
 
-    Settings → Apps and sales channels
+3. Click: Develop apps (may require enabling it)
 
-3. Click:
+4. Click: Create an app
 
-    Develop apps (may require enabling it)
-
-4. Click:
-
-    Create an app
-
-5. Give it a name like:
-
-    sparkflows-bulk-exporter (or your org naming convention)
+5. Give it a name like: sparkflows-bulk-exporter (or your org naming convention)
 
 6. Choose the app owner (a staff account)
 
@@ -47,14 +39,11 @@ Follow the steps below:
 
 Typical scopes include (example only):
 
-- Orders:
-    read_orders
+- Orders: read_orders
 
-- Products:
-    read_products
+- Products: read_products
 
-- Customers:
-    read_customers (note: customer PII access is restricted by Shopify plan / approval, BASIC plan restricts customer PII information)
+- Customers: read_customers (note: customer PII access is restricted by Shopify plan / approval, BASIC plan restricts customer PII information)
 
  .. figure:: ../_assets/shopify/shopify-create-token-2.png
    :alt: shopify
@@ -85,19 +74,5 @@ This “install” step is what actually enables token generation.
  .. figure:: ../_assets/shopify/shopify-create-token-3.png
    :alt: shopify
    :width: 50%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

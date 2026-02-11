@@ -1,8 +1,3 @@
-Sphinx==4.3.1
-sphinx-rtd-theme==0.5.2
-docutils==0.16
+sphinx-rtd-theme>=1.3
 sphinx-copybutton
 sphinx_panels
-Jinja2<3.1
-setuptools>=65
-wheel

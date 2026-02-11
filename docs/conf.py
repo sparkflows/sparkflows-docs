@@ -129,7 +129,7 @@ def setup(app):
     # app.add_stylesheet('css/custom.css')
     app.add_css_file('css/custom_02.css')
 
-html_logo = '_assets/logo.svg';
+html_logo = 'logo.svg';
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #

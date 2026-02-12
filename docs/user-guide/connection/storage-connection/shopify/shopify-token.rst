@@ -1,4 +1,4 @@
-Shopify Token Creation
+Creating Shopify Token 
 ===========================
 
 This document explains how to generate and use a **Shopify Admin API access token** using a Custom App.

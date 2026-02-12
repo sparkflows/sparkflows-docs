@@ -49,4 +49,4 @@ In Sparkflows, **Storage Connection** can connect to the following data sources:
    SharePoint.rst
    Confluence.rst
    box.rst
-   shopify.rst
+   shopify/index.rst

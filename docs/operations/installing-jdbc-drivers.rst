@@ -5,6 +5,12 @@ Sparkflows has JDBC Processors for reading data from JDBC sources or writing to 
 
 In order to connect to a JDBC source like Oracle/DB2/TeraData/Postgres/Salesforce/SAPHANA etc. the JDBC driver needs to be installed in Sparkflows.
 
+Steps to install the JDBC driver
+-------------------------
+
+Overview
++++++++
+
 Below are the steps for installing the JDBC driver :
 
 - *Download the JDBC JAR file.*
@@ -12,15 +18,15 @@ Below are the steps for installing the JDBC driver :
 - *Restart Fire.*
 
 Copy it into fire-user-lib & fire-server-lib
---------------------------
++++++++
 
 Under the Fire installation home directory, there is "fire-user-lib" and "fire-server-lib" directory.
 
 Copy the downloaded JDBC JAR file into it.
 
 
-Restarting Fire Server
-------------
+Restart Fire Server
++++++++
 
 Once you have copied the JDBC driver into the required folder, restart the Fire server with ``./run-fire-server.sh restart`` for it to register the new driver.
 

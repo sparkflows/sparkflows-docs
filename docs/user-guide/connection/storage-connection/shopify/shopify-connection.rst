@@ -9,7 +9,7 @@ Prerequisite
 
 Before creating a Shopify Connection in Sparkflows, ensure that you have created a Shopify Admin API access token using a Custom App.
 
-For detailed steps on **how to create the Shopify Admin API access token**, refer to the following document: :ref:`Shopify Token Creation<Shopify Token Creation>`
+For detailed steps on **how to create the Shopify Admin API access token**, refer to the following document: :ref:`Creating Shopify Token<Creating Shopify Token>`
 
 
 To create a Shopify Connection in Sparkflows, follow the steps below:

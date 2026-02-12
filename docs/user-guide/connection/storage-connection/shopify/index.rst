@@ -1,6 +1,8 @@
 Shopify
 ====
+
 A complete guide to authenticate with Shopify and configure the Shopify connection in Sparkflows.
+
 
 .. panels::
     :container: container-lg pb-3

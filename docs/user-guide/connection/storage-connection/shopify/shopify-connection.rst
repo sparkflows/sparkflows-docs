@@ -1,4 +1,4 @@
-Shopify Connection
+Creating Shopify Connection
 ============
 
 Shopify is a cloud-based e-commerce platform that allows businesses to create, manage, and scale online stores. It provides tools for product management, order processing, payments, and integrations with external systems.

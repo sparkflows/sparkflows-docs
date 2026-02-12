@@ -3,7 +3,18 @@ Shopify Connection
 
 Shopify is a cloud-based e-commerce platform that allows businesses to create, manage, and scale online stores. It provides tools for product management, order processing, payments, and integrations with external systems.
 
+
+Prerequisites
+---------------
+
+1. Before creating a Shopify Connection in Sparkflows, ensure that you have created a Shopify Admin API access token using a Custom App.
+
+   For detailed steps on **how to create the Shopify Admin API access token**, refer to the following document: :ref:`Shopify Token Creation<Shopify Token Creation>`.
+
+
 To create a Shopify Connection in Sparkflows, follow the steps below:
+
+
 
 Step 1 : Login to Sparkflows and Navigate to Connections Page
 +++++++

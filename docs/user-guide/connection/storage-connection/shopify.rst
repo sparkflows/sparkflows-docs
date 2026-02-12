@@ -17,7 +17,7 @@ To create a Shopify Connection in Sparkflows, follow the steps below:
 
 
 Step 1 : Login to Sparkflows and Navigate to Connections Page
-+++++++
+------------
 #. Login to Sparkflows by entering your **login credentials** as **admin**.
 
 #. Navigate to **Administration -> Global/Group Connections**. A Connections page will open up, as shown below.
@@ -27,7 +27,7 @@ Step 1 : Login to Sparkflows and Navigate to Connections Page
       :width: 60%
 
 Step 2 : Adding a Shopify Connection
-+++++++
+-------------
 #. Click on **Add Connection** button from the connections page and choose **Add Connections For All** as shown below. An Add Connection page will open up.
 
    .. figure:: ../../../_assets/connections/shopify-add-global-connections.png
@@ -41,7 +41,7 @@ Step 2 : Adding a Shopify Connection
       :width: 60%
 
 Step 3 : Configuring the Shopify Connection
-+++++++++
+--------------------
 
 1. To configure this connection, enter the details as follows and click on **Test Connection** button to validate. 
 

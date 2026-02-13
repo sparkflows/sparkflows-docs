@@ -149,6 +149,7 @@ Example 7
 **Prompt 1**
 
 Create a workflow that: 
+
 1. Read the CSV file located at “/path/to/file/orders.csv”
 2. Select the columns “order_id, order_date” from step 1
 3. Extracts the month from the “order_date” column and creates a new column “order_month” from step 2
@@ -156,12 +157,14 @@ Create a workflow that:
 **Prompt 2**
 
 Update the workflow by:
+
 1. Adding a node that reads another CSV file located at “/path/to/file/order_items.csv”
 2. Select the columns “order_id, price, quantity” from step 1
 
 **Prompt 3**
 
 Update the workflow by: 
+
 1. Joining node 3 and node 5 on “order_id” column
 2. Create the column “total_price” by multiplying “price” and “quantity” columns from step 1
 3. Saves the output of step 2 to “/path/to/file/output” as a CSV 
@@ -172,17 +175,20 @@ Example 8
 **Prompt 1**
 
 Create a workflow that: 
+
 1. Read the CSV file located at “/path/to/file/orders.csv”
 2. Group the data by “order_id” and calculate the sum of “total_amount” as “order_total” from step 1
 
 **Prompt 2**
 
 Update the workflow by: 
+
 1. Group the data by “order_id” and calculate the average of “total_amount” as “order_avg” from node 1 as a new branch
 
 **Prompt 3**
 
 Update the workflow by:
+
 1. Joining node 2 and node 3 on “order_id” column
 2. Print the first 10 rows of the output from step 1 as a new branch
 3. Saves the output of step 1 to “/path/to/file/output” as a CSV
@@ -193,6 +199,7 @@ Example 9
 **Prompt 1**
 
 Create a workflow that: 
+
 1. Read the CSV file located at “/path/to/file/orders.csv”
 2. When "email_supplied='Yes'" put 1 in the column "email_flag" else put 0 in the "email_flag" column
 3. When "phone_supplied='Yes'" put 1 in the column "phone_flag" else put 0 in the "phone_flag" column
@@ -205,6 +212,7 @@ Example 10
 **Prompt 1**
 
 Create a workflow that: 
+
 1. Read the CSV file located at “/path/to/file/training_data.csv”
 2. Trains Generalized Linear Models with label column "label" from step 1
 3. Save the trained model using H2O Model Save Node to path “/path/to/file/model” from step 2

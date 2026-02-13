@@ -94,3 +94,36 @@ Create a pipeline using the following nodes and logic:
   .. figure:: ../../_assets/user-guide/copilot/copilot-example-pipeline-4.png
      :alt: copilot configuration
      :width: 60%
+
+Example 4
+++++
+
+**Prompt 1**
+
+Create a pipeline that: 
+1. Runs the workflow WF1
+
+**Prompt 2**
+
+Add a node to run the workflow WF2 after node 1
+
+**Prompt 3**
+
+Add a node to trigger the next pipeline with name "pipeline_2" after node 2
+
+Example 5
+++++
+
+**Prompt 1**
+
+Create a pipeline that: 
+1. Runs snowflake command "CALL SAMPLE_DB.SAMPLE_SCHEMA.SP_RUN_JOB('JOB_NAME')" with task name "run_job"
+
+Example 6
+++++
+
+**Prompt 1**
+
+Create a pipeline that: 
+1. Runs snowflake command "CALL SAMPLE_DB.SAMPLE_SCHEMA.SP_RUN_JOB('JOB_NAME')" with task name "run_job"
+

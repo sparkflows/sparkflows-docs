@@ -39,14 +39,15 @@ Installation Steps of Sparkflows with H2 DB
 
 * Login with:: 
 
-    admin/admin or test/test
+    admin/admin, analyst/analyst or business/business
 
     
     
-.. note::  Two user accounts come preconfigured with Sparkflows.
+.. note::  Three user accounts come preconfigured with Sparkflows.
 
            * admin/admin
-           * test/test
+           * analyst/analyst
+           * business/business
     
     You may change these usernames and passwords in Fire under the menu Administration/Users 
 

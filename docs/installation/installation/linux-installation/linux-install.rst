@@ -63,7 +63,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
 * Login with:: 
 
-    admin/admin or test/test
+    admin/admin, analyst/analyst or business/business
 
  .. Note:: By default Sparkflows will run on 8080(http) and 8443(https). To adjust and personalize the port settings :
 

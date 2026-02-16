@@ -46,7 +46,7 @@ Installation Steps of Fire with H2 Database
 
 * Login with:: 
 
-    admin/admin or test/test
+    admin/admin, analyst/analyst or business/business
 
 Installing and starting the Python engine
 ------------------------------------------------

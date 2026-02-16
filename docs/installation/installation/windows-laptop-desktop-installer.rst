@@ -90,9 +90,19 @@ Step 3 : Install Sparkflows
       :alt: Installations
       :width: 60% 
 
-#. Login with the below credentials:
+#. Login with any of the three credentials below:
+
+   * Admin User Login
     - Username : admin
     - Password : admin
+
+   * Analyst User Login
+    - Username : analyst
+    - Password : analyst
+
+   * Business User Login
+    - Username : business
+    - Password : business
 
 .. note::  On Windows, the PySpark engine will not get installed. Below are the functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux:
 

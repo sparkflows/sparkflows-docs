@@ -13,7 +13,7 @@ Click on the **Copilot** button to open the Assistant window.
      :alt: copilot configuration
      :width: 60%
 
-**Example Workflow Creation Prompts**
+**Example Prompts**
 +++++++++++++++++++++
 
 Example 1

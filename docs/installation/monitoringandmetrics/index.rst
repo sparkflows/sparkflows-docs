@@ -10,3 +10,4 @@ Sparkflows enables you to monitor applications' health and metrics.
    jobmetrics.rst
    rest-api.rst
    alerts.rst
+   data-preview.rst

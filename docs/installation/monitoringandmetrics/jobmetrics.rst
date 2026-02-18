@@ -51,4 +51,16 @@ Step 4: View Execution Metrics
       :alt: metrics
       :width: 60%   
 
+#. A summary of metrics in a structured key–value format can also be viewed from **View Metrics** option available, as shown below:
+
+   .. figure:: ../../_assets/installation/metrics/view_metrics.png
+      :alt: metrics
+      :width: 60% 
+
+   .. figure:: ../../_assets/installation/metrics/metrics-1.png
+      :alt: metrics
+      :width: 60% 
+
+
+
 .. Note::  Make sure the jobs run on a Spark cluster to view metrics.

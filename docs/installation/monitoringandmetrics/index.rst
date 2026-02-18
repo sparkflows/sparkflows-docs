@@ -1,7 +1,7 @@
 Monitoring & Metrics
 ==============
 
-Sparkflows enables you to monitor applications' health and metrics.
+Sparkflows enables you to monitor application health, track execution metrics, configure alerts, access REST APIs, and preview data during workflow execution.
 
 .. toctree::
    :maxdepth: 2

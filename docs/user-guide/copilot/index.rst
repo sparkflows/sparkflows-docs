@@ -51,6 +51,14 @@ Copilot
 
     How to use Copilot with MCP in Sparkflows
 
+    ---
+
+    :doc:`/user-guide/copilot/copilot-features`
+
+    Additional Features in Copilot: Feedback, Report, Configure Report Emails
+
+
+
 
 
 
@@ -65,4 +73,5 @@ Copilot
    copilot-examples-wf.rst
    copilot-examples-pipeline.rst
    mcp-copilot.rst
+   copilot-features.rst
   

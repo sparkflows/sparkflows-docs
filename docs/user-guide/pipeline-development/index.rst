@@ -28,6 +28,10 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
 
     ---
 
+    :doc:`/user-guide/pipeline-development/emr-serverless-nodes/index`
+
+    ---
+
     :doc:`/user-guide/pipeline-development/databricks-nodes/index`
 
     ---
@@ -74,6 +78,7 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
    configure-pipeline.rst
    create-pipeline.rst
    nodes/index.rst
+   emr-serverless-nodes/index.rst
    databricks-nodes/index.rst
    snowflake-nodes/index.rst
    execute-pipeline.rst

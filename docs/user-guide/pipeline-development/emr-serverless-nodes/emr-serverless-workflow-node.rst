@@ -1,7 +1,9 @@
-EMR Serverless Workflow Operator
-====================================
+EMR Serverless Workflow 
+==============================
 
-This operator executes a Sparkflows workflow as a step inside an existing EMR Serverless application on Amazon Web Services(AWS). Adds a selected Sparkflows workflow as a job step to an EMR Serverless application and runs it. If no Application ID is provided in the node, it smartly inherits it from the previous **Create Application** node.
+**EMR Serverless Workflow** node executes a Sparkflows workflow as a step inside an existing EMR Serverless application on Amazon Web Services(AWS). Adds a selected Sparkflows workflow as a job step to an EMR Serverless application and runs it. If no Application ID is provided in the node, it smartly inherits it from the previous **Create Application** node.
+
+**EMR Serverless Workflow** node can be configured as below:
 
 .. figure:: ../../../_assets/user-guide/pipeline/emr-serverless-nodes/execute-wf.png
    :alt: Pipeline

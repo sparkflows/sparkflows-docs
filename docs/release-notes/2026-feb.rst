@@ -1,0 +1,57 @@
+Version 3.3.21 - February, 2026
+=====
+
+New Features
+-----
+
+Platform & Infrastructure
+++++
+
+* **EMR Serverless at Pipeline Level :** Support has been introduced for executing pipelines using EMR Serverless configuration, enabling full pipeline execution without managing cluster infrastructure. The following nodes have been introduced:
+
+  * Emr Serverless Create Application  
+  - Emr Serverless Start Job
+  - Emr Serverless Workflow
+  - Emr Serverless Stop Application
+  - Emr Serverless Delete Application
+  - Emr Serverless Job Sensor
+  - Emr Serverless Application Sensor
+
+
+Pipeline Orchestration
+++++
+
+* **Workflow-to-Workflow Parameter Passing :** Pipelines now support dynamic parameter passing between workflows. The *Generate Pipeline Parameters* node can be used in the source workflow, and parameters can be referenced in downstream workflows using **${NAME}**.
+
+Copilot 
+++++
+
+* **Feedback Button in Copilot :** A feedback button has been added, allowing users to provide feedback on AI-generated responses and report issues directly from the interface.
+
+* **Admin Visibility :** Admin users now can view submitted feedback and reported issues.
+
+* **Email Notifications :** Email IDs can be configured in connection settings to notify users when an issue is reported. System-generated notification emails are supported.
+
+* **AI Disclaimer :** A disclaimer has been added indicating that the output is AI-generated.
+
+Security & Configuration
++++++
+
+* **Dedicated CORS Configuration Page :** A new CORS Settings page has been implemented for managing cross-origin configurations centrally.
+
+Enhancements
+----
+
+Pipeline Observability
++++++
+
+* **Workflow-Level Job Metrics Logs :** Workflow-level metrics are now logged upon successful execution, including execution identifiers, records processed, data volume, execution duration, and resource usage metrics.
+
+Documentation
+-----
+
+* :ref:`EMR Serverless Nodes<EMR Serverless Nodes>` documentation has been added with the details on various EMR Serverless nodes.
+* :ref:`Copilot Additional Features<Copilot Additional Features>` documentation has been added with the details on new Copilot features.
+
+
+

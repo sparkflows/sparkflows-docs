@@ -16,10 +16,10 @@ Step 1 : Go to Connections Page
 
 #. **Login** to Sparkflows web server URL as an **Admin**.
 #. Navigate to **ADMINISTRATION** Page from the top bar.
-#. Go to  **Administration -> Configurations -> Connection**
+#. Go to  **Administration -> Configurations -> Connection**.
 #. Enable Databricks connection by setting the below parameter to **true** and save the configuration.
 
-    ::
+   ::
   
       connection.databricks.enabled : true
 #. Click **Global/Group Connections** from the Administration Page.
@@ -92,13 +92,13 @@ Step 4 : Configure the Connection
         - Add Sparkflows Post Back URL
       * - TITLE 
         - Title for selected Connection
-        - Add an unique Title
+        - Add a unique Title
       * - DESCRIPTION
         - Connection Description
         - Add some Connection Description
       * - URL
         - Jdbc url for databricks connection
-        - Add JDBC Url from the Databricks cluster. Example: jdbc:spark://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>
+        - Add JDBC Url from the Databricks cluster. Example: ``jdbc:spark://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>``
 
    .. figure:: ../../_assets/installation/connection/databricks_general_uc1.png
     :alt: connection

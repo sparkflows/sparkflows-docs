@@ -26,4 +26,21 @@ Facing Airflow access issue with URL.
   * Verify the configuration for **app.postMessageURL**. This setting dictates the Fire URL to which results from the Spark driver are posted back to the Fire server.
   * Ensure that the app.postMessageURL is correctly configured to establish seamless communication between the Spark driver and the Fire server.
 
+2. Airflow MWAA Sync Issue
+----------------------
 
+**Problem**
+++++
+Facing Airflow MWAA issue with Sync.
+
+**Solution**
++++++
+
+* **S3 configuration Issue:**
+
+  * Make sure that dags folder is proper folder structure as **s3://sparkflows-bucket/dags/**.
+  * Make sure that s3 bucket is accessible from Airflow MWAA.
+
+* **VPC Issue**
+
+  * Make sure that your VPC must have both enabled **Enable DNS resolution & Enable DNS hostnames**.

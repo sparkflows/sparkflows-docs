@@ -104,7 +104,7 @@ Step 4 : Configure the Connection
     :alt: connection
     :width: 60%   
 
-   **GENERAL Tab (OAUTH):**
+   **GENERAL Tab (OAUTH: Databricks Managed Service Principal):**
 
    .. list-table:: 
       :widths: 10 20 20

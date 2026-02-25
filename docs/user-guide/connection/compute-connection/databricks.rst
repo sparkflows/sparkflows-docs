@@ -92,7 +92,7 @@ To configure the connection, refer the following tables for filling required det
 
 
 
-**GENERAL Tab (OAUTH):**
+**GENERAL Tab (OAUTH: Databricks Managed Service Principal):**
 
 .. list-table:: 
    :widths: 10 20 20

@@ -43,7 +43,7 @@ Step-by-Step Instructions
 
     ⚠️ Secret value is shown only once.
 
-.. note:: Make sure to Databricks have sufficient permission to connect and it should be accessible from Sparkflows application.
+.. note:: Make sure to use same Client ID and Client Secret in Databricks Connection and it should be accessible from Sparkflows application.
 
 Reference Document
 ----

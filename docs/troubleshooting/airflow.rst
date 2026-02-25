@@ -44,3 +44,8 @@ Facing Airflow MWAA issue with Sync.
 * **VPC Issue**
 
   * Make sure that your VPC must have both enabled **Enable DNS resolution & Enable DNS hostnames**.
+
+* **requirements.txt Issue**
+
+  * Make sure that **requirements.txt** should be in proper folder structure and is compatible with Airflow MWAA version.
+

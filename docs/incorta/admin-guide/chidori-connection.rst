@@ -12,16 +12,16 @@ This document provides steps to create a Chidori Connection in Sparkflows.
 Step 1 : Enable Chidori in Sparkflows
 ++++++++++
 
-#. Login to **Sparkflows application**
+#. Login to **Sparkflows application**.
 #. Navigate to **Administration -> Configurations -> Connection** and enable **Chidori connection** by setting the below parameter:
 
-::
+  ::
 
-    connection.chidori.enabled	 : true
+      connection.chidori.enabled : true
 
-.. figure:: ../../_assets/incorta/chidori_1.png
-   :alt: chidori
-   :width: 60%
+  .. figure:: ../../_assets/incorta/chidori_1.png
+     :alt: chidori
+     :width: 60%
 
 Step 2 : Navigate to Add Connections
 +++++
@@ -35,7 +35,7 @@ Once you save the above Configuration, navigate to **Administration -> Global Co
 Step 3 : Add Connection for Group
 ++++++++++++
 
-#. Navigate to **Administration -> Global Connections -> Add Connections -> Add Connection For Group** 
+#. Navigate to **Administration -> Global Connections -> Add Connections -> Add Connection For Group**. 
 #. On the pop up window, select **Compute Connection** and other parameters as shown below:
 
    .. figure:: ../../_assets/aws/livy/add_connection.PNG
@@ -110,7 +110,7 @@ For CHIDORI Tab
      - For example path to a .whl file located in Chidori Cluster
    * - Log File location
      - Location to be used to store Chidori Logs
-     - Update the path ie File system accessible  
+     - Update the path i.e. File system accessible  
      
 .. figure:: ../../_assets/incorta/chidori_4.png
    :alt: chidori
@@ -130,7 +130,13 @@ For MV Tab
      - HostName 
    * - Token
      - Incorta Token
-     - base64 of username:password for mv api 
+     - base64 of username:password for mv api
+   * - Tenant
+     - Tenant for Incorta
+     - demo
+   * - Data Path
+     - Google Cloud Storage Data Path
+     - gs://bucket-name/Tenants/demo/data
         
 .. figure:: ../../_assets/incorta/chidori_5.png
    :alt: chidori

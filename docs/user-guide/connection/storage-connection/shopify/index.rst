@@ -17,9 +17,16 @@ A complete guide to authenticate with Shopify and configure the Shopify connecti
 
     Steps to create a Shopify Connection in Sparkflows
 
+    ---
+
+    :doc:`/user-guide/connection/storage-connection/shopify/reading-shopify`
+
+    Example Usage of Read Shopify data
+
     
 .. toctree::
    :hidden:
 
    shopify-token.rst
    shopify-connection.rst
+   reading-shopify.rst

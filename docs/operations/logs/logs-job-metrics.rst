@@ -19,9 +19,9 @@ To view the metrics in logs, follow the steps below:
 
 **Step 1:** Navigate to the **Administration** tab from the top menu and search for **View Server Logs** card and click on it.
 
-.. figure:: ../../_assets/configuration/logs/view-server-logs-card.png
+.. figure:: ../../_assets/configuration/logs/logs-view-server-logs.png
    :alt: Logs
-   :width: 40%
+   :width: 60%
 
 
 **Step 2:** In the search bar at the top, search for ``[JobExecutionMetrics]``. This will display the overall metrics related to a particular workflow.
@@ -29,7 +29,9 @@ To view the metrics in logs, follow the steps below:
 
 - If the workflow has been run through the pipeline, it will be shown as below.
 
-
+  .. figure:: ../../_assets/configuration/logs/logs-job-metrics-with-pipeline.png
+     :alt: Logs
+     :width: 60%
 
 
 - If the workflow has been run without a pipeline, the metrics will be shown as below.

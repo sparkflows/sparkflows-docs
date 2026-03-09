@@ -23,7 +23,7 @@ Below are the processor configuration details:
 * ``Add Filter`` : True/False to add filters on data.
 * ``Filter`` : Field to add filters if selected True above. 
 
-  .. figure:: ../../../_assets/shopify/ReadShopify.png
+  .. figure:: ../../../../_assets/shopify/ReadShopify.png
      :alt: shopify
      :width: 60%
 
@@ -36,13 +36,13 @@ The below workflow does the following:
 * Reads data from a Shopify resource.
 * Prints a few records of the Shopify resource.
 
-  .. figure:: ../../../_assets/shopify/wf_read.png
+  .. figure:: ../../../../_assets/shopify/wf_read.png
      :alt: shopify
      :width: 60%
 
 Processor Output
 ++++
 
-  .. figure:: ../../../_assets/shopify/processor_read.png
+  .. figure:: ../../../../_assets/shopify/processor_read.png
      :alt: shopify
      :width: 60%

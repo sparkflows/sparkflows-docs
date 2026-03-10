@@ -34,9 +34,11 @@ Connector Processors in Sparkflows
      - It reads the data from MongoDB.
    * - Read Redshift-AWS
      - It reads the data from Redshift using JDBC.
-   * - Read Salesforce.
+   * - Read Salesforce
      - It reads the data from Salesforce.
-   * - Reads JDBC
+   * - Read Shopify
+     - It reads the data from a Shopify resource.
+   * - Read JDBC
      - It reads the data from Salesforce using cdata JDBC Driver. 
    * - Save Cassandra
      - It saves the rows of the incoming DataFrame into Apache Cassandra.
@@ -69,6 +71,7 @@ Connector Processors in Sparkflows
    salesforce.rst
    sap/index.rst
    sharepoint.rst
+   shopify.rst
    snowflake.rst
    sftp.rst
    

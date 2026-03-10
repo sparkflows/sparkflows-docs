@@ -7,12 +7,19 @@ Before creating a workflow using the Read and Save Cassandra nodes, you must fir
 
 This document will cover the following key aspects:
 
+* Workflow Creation
 * Read Cassandra Node Configuration
 * Save Cassandra Node Configuration
-* Workflow Creation
 
 
+Workflow
+------------------
 
+Below is a sample workflow to read and save data to Cassandra database table. It uses the **Cassandra nodes** to read and write data.
+
+.. figure:: ../../_assets/tutorials/cassandra/cassandra-workflow.png
+    :alt: Connectors
+    :width: 60%
 
 Read Cassandra
 ------------------
@@ -25,7 +32,7 @@ Node Configuration
 
 To configure the Read Cassandra node, define the following connection details:
 
-  .. figure:: ../../_assets/tutorials/cassandra/cassandra-read.png
+.. figure:: ../../_assets/tutorials/cassandra/cassandra-read.png
      :alt: Connectors
      :width: 60%
 
@@ -33,32 +40,25 @@ To configure the Read Cassandra node, define the following connection details:
 * ``CONNECTION`` : Select a **Cassandra Connection** from the dropdown menu.
 * ``CASSANDRA TABLE NAME`` : Enter a table name from the Cassandra Database whose data is intended to be fetched.
 * ``CASSANDRA KEYSPACE NAME`` : Enter Cassandra Keyspace name to which the table belongs. A Keyspace refers to a group of tables within a Cassandra database.
-* Click the **Refresh Schema** button to fetch and load the selected table schema and then click on **Okay** button.
+* Click the **Refresh Schema** button to fetch and load the selected table schema and then click on **Save** button.
 
 Save Cassandra
---------------------------------------
+----------------------
 This node can be used to **save data** to a **Cassandra Database Table**.
 
 
 Node Configuration
-++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++
 
 To configure the Save Cassandra node, define the following connection details
 
- .. figure:: ../../_assets/tutorials/cassandra/cassandra-save.png
+.. figure:: ../../_assets/tutorials/cassandra/cassandra-save.png
     :alt: Connectors
     :width: 60%
 
 * ``CONNECTION`` : Select a **Cassandra Connection** from the dropdown menu.
 * ``CASSANDRA TABLE NAME`` : Enter a table name from the Cassandra Database whose data is intended to be fetched.
-* ``CASSANDRA KEYSPACE NAME`` : Enter Cassandra Keyspace name to which the table belongs and click on **Okay** button. A Keyspace refers to a group of tables within a Cassandra database.
+* ``CASSANDRA KEYSPACE NAME`` : Enter Cassandra Keyspace name to which the table belongs and click on **Save** button. A Keyspace refers to a group of tables within a Cassandra database.
    
-Workflow
-------------------
 
-A sample workflow to read and save data to Cassandra database table can be created as shown below. It uses the **Cassandra nodes** to read and write data.
-
- .. figure:: ../../_assets/tutorials/cassandra/cassandra-workflow.png
-    :alt: Connectors
-    :width: 60%
 

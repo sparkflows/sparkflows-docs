@@ -21,3 +21,4 @@ You can view the logs for each process either by logging into the VM where Spark
    logs-email-alerts.rst
    logs-cleanup.rst
    logs-json-format.rst
+   logs-job-metrics.rst

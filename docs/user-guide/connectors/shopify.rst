@@ -1,4 +1,4 @@
-Read from Shopify
+Shopify
 ======================
 
 Sparkflows has provided the following processor for reading data from Shopify.

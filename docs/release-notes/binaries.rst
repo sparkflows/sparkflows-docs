@@ -9,6 +9,9 @@ Sparkflows TGZ File
 Sparkflows Docker Image
 ------
 
+* March 10, 2026
+    * sparkflows/fire:py_3.5.2_3.3.21
+    * https://hub.docker.com/layers/sparkflows/fire/py_3.5.2_3.3.21/images/sha256-6b8c36480a52042816cb995fc83d8067b4f98401a2f1da857ffb8483ac1c9f80
 * Feb 02, 2026
     * sparkflows/fire:py_3.5.2_3.3.19
     * https://hub.docker.com/layers/sparkflows/fire/py_3.5.2_3.3.19/images/sha256-ec4635547b8041b35e991ad78a808ff588f369cd91d3dffa83221bbc755f4095

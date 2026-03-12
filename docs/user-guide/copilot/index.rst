@@ -35,18 +35,6 @@ Copilot
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-examples-wf`
-
-    Examples on Copilot for workflows 
-
-    ---
-
-    :doc:`/user-guide/copilot/copilot-examples-pipeline`
-
-    Examples on Copilot for pipelines 
-
-    ---
-
     :doc:`/user-guide/copilot/mcp-copilot`
 
     How to use Copilot with MCP in Sparkflows
@@ -57,9 +45,17 @@ Copilot
 
     Additional Features in Copilot: Feedback, Report, Configure Report Emails
 
+    ---
 
+    :doc:`/user-guide/copilot/copilot-workflow-examples/index`
 
+    Copilot Workflow Examples
 
+    ---
+
+    :doc:`/user-guide/copilot/copilot-pipeline-examples/index`
+
+    Copilot Pipeline Examples
 
 
 .. toctree::
@@ -70,8 +66,7 @@ Copilot
    copilot-pipeline.rst
    copilot-nodes.rst
    copilot-project.rst
-   copilot-examples-wf.rst
-   copilot-examples-pipeline.rst
    mcp-copilot.rst
    copilot-features.rst
-  
+   copilot-workflow-examples/index
+   copilot-pipeline-examples/index

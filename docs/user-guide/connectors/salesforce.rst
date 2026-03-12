@@ -75,7 +75,7 @@ Sparkflows has a processor that allows you to read data from Salesforce. Salesfo
 
 .. figure:: ../../_assets/user-guide/salesforce/salesforce-read.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **SOQL:** Enter a Sql Query to fetch data from Salesforce Table.  
 * **User Name:** Enter Salesforce Platform User Name.
@@ -97,9 +97,9 @@ It needs to be carried out in two steps:
 
 .. figure:: ../../_assets/user-guide/salesforce/salesforce-jdbc-connection.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
-* **Connection Type:** Select **JDBC** in the **Connection Type** dropdown.
+* **Connection Type:** Select **JDBC** in the **Connection Type** from the dropdown.
 * **Connection Name:** Enter an Identifier for the connection in **Connection Name**.
 * **URL:** Enter Salesforce database url.
 * **Usename:** Enter login username to access the Salesforce database.
@@ -112,7 +112,7 @@ It needs to be carried out in two steps:
 
 .. figure:: ../../_assets/user-guide/salesforce/salesforce-save.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%
 
 * **Connection:** Select **JDBC Connection** created for the **Salesforce** database.
 * **DB Table:** Enter the Database Table name to save data to.
@@ -127,4 +127,4 @@ Workflow
 
 .. figure:: ../../_assets/user-guide/salesforce/salesforce-workflow.png
    :alt: Connectors
-   :width: 80%
+   :width: 65%

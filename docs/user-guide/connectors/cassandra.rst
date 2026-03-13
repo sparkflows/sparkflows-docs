@@ -40,7 +40,7 @@ To configure the Read Cassandra node, define the following connection details:
 * ``CONNECTION`` : Select a **Cassandra Connection** from the dropdown menu.
 * ``CASSANDRA TABLE NAME`` : Enter a table name from the Cassandra Database whose data is intended to be fetched.
 * ``CASSANDRA KEYSPACE NAME`` : Enter Cassandra Keyspace name to which the table belongs. A Keyspace refers to a group of tables within a Cassandra database.
-* Click the **Refresh Schema** button to fetch and load the selected table schema and then click on **Save** button.
+* Click the **InferSchema** button to fetch and load the selected table schema and then click on **Save** button.
 
 Save Cassandra
 ----------------------

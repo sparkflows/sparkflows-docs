@@ -1,9 +1,20 @@
 Elasticsearch
-==========
+=================
 
 Elasticsearch is a powerful, distributed search and analytics engine. Sparkflows offers a set of processors that enable reading and writing data using Elasticsearch. 
 
 Follow the steps below to configure and use these connectors effectively.
+
+Workflow
+------------------
+
+* A sample workflow to read and save data using Elasticsearch can be created as shown below. It uses the **Elasticsearch nodes** to read and write data.
+* This workflow transforms data before saving the data using Elasticsearch.
+* It efficiently handles data reading, transformation, and writing using Sparkflows and Elasticsearch.
+
+ .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-workflow.png
+    :alt: Connectors
+    :width: 65%
 
 Read Elastic Search
 ---------------------------------------
@@ -25,8 +36,8 @@ To configure it, define the following connection details, as shown below:
 * **Elastic Search Port:** Enter the network port detail used by the Elasticsearch to listen to the incoming connection requests.
 * **Spark Temporary Table For Reading From ES:** Enter name of the Spark Temporary Table to be used to fetch ES data from.
 * **SQL For Reading From Elastic Search:** Enter the SQL Statement to be used to read data from the Spark Temp Table.
-* Click on **Refresh Schema** button to fetch the selected table schema. It infers the schema and pass it on to the next processor for further processing.
-* Then click on **Okay** button.
+* Click on **Infer Schema** button to infer the schema when a new file is selected or the file content has changed. It infers the schema and pass it on to the next processor for further processing.
+* Then click on **Save** button.
 
 .. note:: The SQL field specifies the SQL to be used for reading from Elastic Search. It allows you to limit the columns of interest, and apply clauses etc. 
  
@@ -58,18 +69,7 @@ To configure it, define the following connection details, as shown below:
 * **ES Net Http Auth User:** Enter **username** to access the host.
 * **ES Net Http Auth Pass:** Enter **password** to access the host.
 * **Key-Value Pairs:** Enter key-value pair refering to the way data is structured and stored in documents within an index. 
-* Then click on **Okay** button.
-
-Workflow
-------------------
-
-* A sample workflow to read and save data using Elasticsearch can be created as shown below. It uses the **Elasticsearch nodes** to read and write data.
-* This workflow transforms data before saving the data using Elasticsearch.
-* It efficiently handles data reading, transformation, and writing using Sparkflows and Elasticsearch.
+* Then click on **Save** button.
 
 
-
- .. figure:: ../../_assets/tutorials/elasticsearch/elasticsearch-workflow.png
-    :alt: Connectors
-    :width: 65%
    

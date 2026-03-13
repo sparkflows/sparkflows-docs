@@ -21,17 +21,17 @@ Sparkflows supports connecting to both offerings from Salesforce, Data Cloud as 
 
     :doc:`/user-guide/connection/storage-connection/salesforce/salesforce-datacloud`
 
-    Setup Salesforce Connection for Data Cloud.
+    Setup Salesforce Connection for Data Cloud and Sales Cloud.
 
     ---
 
-    :doc:`/user-guide/connection/storage-connection/salesforce/salesforce-salescloud`
+    :doc:`/user-guide/connection/storage-connection/salesforce/salesforce-connection`
 
-    Setup Salesforce Connection for Sales Cloud.
+    Step by step guide to create Salesforce Connection.
 
 
 .. toctree::
    :hidden: 
 
    salesforce-datacloud.rst
-   salesforce-salescloud.rst
+   salesforce-connection.rst

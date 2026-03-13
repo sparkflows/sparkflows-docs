@@ -5,48 +5,49 @@ Sparkflows enables you to connect to multiple databases and storage systems by c
 
 In Sparkflows, **Storage Connection** can connect to the following data sources:
 
-* Cassandra
-* JDBC
-* MongoDB
-* MySQL
-* ClickHouse
-* Oracle
-* Oracle Netsuite
-* TeraData
-* PostgreSQL
-* Redshift
-* SAP HANA
-* Salesforce
-* SQL Server
-* Snowflake
-* SFTP
-* Trino
-* Sybase
-* ServiceNow
-* SharePoint
-* Confluence
-* Box
-* Shopify
+- Box
+- Cassandra
+- ClickHouse
+- Confluence
+- JDBC
+- MongoDB
+- MySQL
+- Oracle
+- Oracle Netsuite
+- PostgreSQL
+- Redshift
+- Salesforce
+- SAP HANA
+- ServiceNow
+- SFTP
+- SharePoint
+- Shopify
+- Snowflake
+- SQL Server
+- Sybase
+- TeraData
+- Trino
   
 .. toctree::
    :maxdepth: 4
 
+   box.rst
    cassandra.rst
-   mysql.rst
    clickhouse.rst
+   Confluence.rst
+   mongodb.rst
+   mysql.rst
    oracle.rst
    oracle-netsuite.rst
-   teradata.rst
-   snowflake/index.rst
    PostgreSQL.rst
    redshift.rst
-   sap-hana.rst
    salesforce/index.rst
-   sql.rst
-   sftp.rst
-   sybase.rst
+   sap-hana.rst
    ServiceNow.rst
+   sftp.rst
    SharePoint.rst
-   Confluence.rst
-   box.rst
    shopify/index.rst
+   snowflake/index.rst
+   sql.rst
+   sybase.rst
+   teradata.rst

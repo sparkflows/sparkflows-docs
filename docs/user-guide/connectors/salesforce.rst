@@ -67,9 +67,9 @@ Below are the steps to configure cdata JDBC Driver in Sparkflows and read and wr
 Read Salesforce
 ---------------
 
-Sparkflows has a processor that allows you to read data from Salesforce. Salesforce is a powerful cloud-based Customer Relationship Management(CRM) platform that helps businesses manage their customer interactions, sales processes, and various aspects of their operations.
+Before creating a workflow using the Read and Save Salesforce nodes, you must first set up a connection to the Salesforce data cloud using JDBC connection in Sparkflows. To learn how to create this connection, click on  :ref:`Create Salesforce JDBC Connection<Creating Salesforce Connection>`. 
 
-**Read Salesforce** connector can be used to read data from Salesforce. It reads data from the specified Table in the Query.
+Sparkflows has a processor **Read Salesforce** that allows you to read data from Salesforce. It reads data from the specified Table in the Query.
 
 **Read Salesforce** connector can be configured as below.
 

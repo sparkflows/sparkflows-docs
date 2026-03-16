@@ -1,78 +1,65 @@
-Creating Shopify Token 
-===========================
+Installing Shopify App and Creating Token
+=================================================
 
-This document explains how to generate and use a **Shopify Admin API access token** using a Custom App.
+This document explains how to generate and use a **Shopify API client ID** and **client secret** using the Shopify Dev Dashboard.
 
-A Custom App Admin API access token is a token generated inside a Shopify store’s Admin for a custom app.
 
-Step-by-Step Guide to Create the Token
+1. Create an App in Shopify
 -------------------------------------------
 
-Follow the steps below:
+Follow the steps below to create an app in Shopify:
 
-**Step 1: Create a Custom App in the Shopify Admin**
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1. Log in to the store Admin: https://admin.shopify.com/store/<store-name>
 
-1. Log into the store Admin: https://admin.shopify.com/store/<store-name>
+2. Go to: **Settings -> Apps**
 
-2. Go to: Settings → Apps and sales channels
+3. Click: **Develop apps** (may require enabling it first)
 
-3. Click: Develop apps (may require enabling it)
+4. Click: **Build Apps in Dev Dashboard**
 
-4. Click: Create an app
+   This would then redirect you to the DEV DASHBOARD page with a link similar to: https://dev.shopify.com/dashboard/xxxx/apps
 
-5. Give it a name like: sparkflows-bulk-exporter (or your org naming convention)
+5. Click on **Create App**
 
-6. Choose the app owner (a staff account)
-
- .. figure:: ../../../../_assets/shopify/shopify-create-token-1.png
+   .. figure:: ../../../../_assets/shopify/dev-dashboard-create-app.png
      :alt: shopify
      :width: 50%
 
-**Step 2: Configure Admin API scopes (permissions)**
-+++++++++++++++++++++++++++++++++++++++++++++++++++++
+6. Enter a name like: **sparkflows-bulk-exporter** (or your organization naming convention)
 
-1. Open the app you created.
-2. Go to **Configuration**.
-3. Under **Admin API integration**, click **Configure**.
-4. Select the scopes your connector needs.
+7. In the **Access** section, click **Select scopes** on the right hand side of the field, select the required scopes and then click **Release**.
 
-Typical scopes include (example only):
+   .. figure:: ../../../../_assets/shopify/dev-dashboard-choose-scopes.png
+     :alt: shopify
+     :width: 50%
 
-- Orders: read_orders
+8. Next, click the **Settings** button in the left sidebar. Here, we can get access to the **client_id** and **client_secret** of the application, which would have the permissions to access data based on the scopes selected in the previous step.
 
-- Products: read_products
+   .. figure:: ../../../../_assets/shopify/dev-dashboard-settings.png
+     :alt: shopify
+     :width: 50%
 
-- Customers: read_customers (note: customer PII access is restricted by Shopify plan / approval, BASIC plan restricts customer PII information)
+9. Next, install the app in your store. To do this, click the app name in the left sidebar.
 
- .. figure:: ../../../../_assets/shopify/shopify-create-token-2.png
-   :alt: shopify
-   :width: 50%
+   .. figure:: ../../../../_assets/shopify/dev-dashboard-install-app.png
+     :alt: shopify
+     :width: 50%
 
+10. Click **Install** app, this will take you to the **login or store selection** page.
 
-**Step 3: Install the app on the store**
-+++++++++++++++++++++++++++++++++++++++++++++
+    .. figure:: ../../../../_assets/shopify/store-login-page.png
+       :alt: shopify
+       :width: 50%
 
-1. In the app page, click **Install app**.
-2. Approve the requested scopes.
+11. After logging in, click on **Install**.
 
-This “install” step is what actually enables token generation.
-
-
-
-**Step 4: Generate / Copy the Admin API access token**
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-1. After installation:
-
-  - Go to the app page
-  - Find **Admin API access token**
-  - Copy it and store it securely
-
- **Treat this token like a password**. Anyone who has it can call Admin APIs within the granted scopes.
-
- .. figure:: ../../../../_assets/shopify/shopify-create-token-3.png
-   :alt: shopify
-   :width: 50%
+    .. figure:: ../../../../_assets/shopify/app-install-page.png
+       :alt: shopify
+       :width: 50%
 
 
+12. You should then be able to see the installed app on the **Settings -> Apps** page of your store.
+
+    .. figure:: ../../../../_assets/shopify/installed-app-on-settings-page.png
+       :alt: shopify
+       :width: 50%

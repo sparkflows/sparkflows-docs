@@ -45,6 +45,14 @@ Azure Admin Guide
 
     Setup OAuth for Azure Databricks.
 
+   ---
+
+    :doc:`/azure/admin-guide/azure-databricks-via-jdbc-aad`
+
+    Setup OAuth for Azure Databricks.
+
+    ---
+
     ---
 
     :doc:`/azure/admin-guide/synapse/index`

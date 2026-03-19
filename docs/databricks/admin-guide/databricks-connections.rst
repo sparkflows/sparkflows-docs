@@ -153,7 +153,7 @@ Step 4 : Configure the Connection
        :width: 60%
 
 
-   **GENERAL Tab (AAD Token: Azure Managed Service Databricks Principal):**
+   **GENERAL Tab (AAD Token: Azure Managed Service Principal):**
 
    .. list-table:: 
       :widths: 10 20 20
@@ -180,7 +180,7 @@ Step 4 : Configure the Connection
       * - POSTBACK URL
         - Sparkflows Post Back URL
         - Add Sparkflows Post Back URL
-       * - CLIENT ID
+      * - CLIENT ID
         - Azure AD Application (Service Principal) Client ID
         - Add the Client ID from Azure AD Service Principal
       * - CLIENT SECRET

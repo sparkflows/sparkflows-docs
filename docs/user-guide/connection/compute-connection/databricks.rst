@@ -141,7 +141,7 @@ To configure the connection, refer the following tables for filling required det
     :alt: connection
     :width: 60%    
 
-**GENERAL Tab (AAD Token: Azure Managed Service Databricks Principal):**
+**GENERAL Tab (AAD Token: Azure Managed Service Principal):**
 
 .. list-table::
    :widths: 10 20 20

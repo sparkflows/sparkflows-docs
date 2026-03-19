@@ -82,6 +82,7 @@ Azure Admin Guide
    access-and-reload.rst
    adls/index.rst
    azure-databricks-via-jdbc.rst
+   azure-databricks-via-jdbc-aad.rst
    synapse/index.rst 
    azure-databricks.rst
    mount-adls.rst

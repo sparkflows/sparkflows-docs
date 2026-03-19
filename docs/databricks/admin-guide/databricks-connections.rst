@@ -193,7 +193,7 @@ Step 4 : Configure the Connection
         - URL for Databricks connection
         - Add URL in the below format for Databricks Connection.``Example: adb-1063177049.9.azuredatabricks.net:443;httpPath=sql/protocolv1/o/1063177375097049/0316-042324-ukswmgao``
    
-   .. figure:: ../../_assets/installation/connection/databricks_general_oa2.png
+   .. figure:: ../../_assets/installation/connection/databricks_general_AAD.png
        :alt: connection
        :width: 60%
 

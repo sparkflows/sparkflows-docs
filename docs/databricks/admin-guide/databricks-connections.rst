@@ -148,10 +148,55 @@ Step 4 : Configure the Connection
         - Add Jdbc Url for Databricks Connection. Example: ``jdbc:databricks://HOST_NAME:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/7174905206826341/0109-043115-vc4yc9ai;AuthMech=3;UID=token;PWD=<personal-access-token>``
    
    
+   .. figure:: ../../_assets/installation/connection/databricks_general_oa2.png
+       :alt: connection
+       :width: 60%
+
+
+   **GENERAL Tab (AAD Token: Azure Managed Service Databricks Principal):**
+
+   .. list-table:: 
+      :widths: 10 20 20
+      :header-rows: 1
+   
+      * - Title
+        - Description
+        - Value
+      * - CREDENTIAL STORE  
+        - Select the Credential Store from drop-down
+        - Choose specific Credential Store from drop-down or Select Do not use Credential Store
+      * - Select Category
+        - Select Category of Connection Type
+        - Select Compute Connection
+      * - CONNECTION TYPE 
+        - Select the Connection type from drop-down
+        - Choose Databricks as Connection Type
+      * - CONNECTION NAME
+        - Connection Name
+        - Add an unique Connection Name
+      * - Auth Type
+        - Select the Authentication Type
+        - Select the appropriate option as ``AAD Token``
+      * - POSTBACK URL
+        - Sparkflows Post Back URL
+        - Add Sparkflows Post Back URL
+       * - CLIENT ID
+        - Azure AD Application (Service Principal) Client ID
+        - Add the Client ID from Azure AD Service Principal
+      * - CLIENT SECRET
+        - Azure AD Application (Service Principal) Client Secret
+        - Add the Client Secret from Azure AD Service Principal
+      * - ACCESS TOKEN URI
+        - Azure AD OAuth 2.0 Token Endpoint
+        - Add the Access Token URI. Example: https://login.microsoftonline.com/{tenant-id}/oauth2/token
+      * - URL
+        - URL for Databricks connection
+        - Add URL in the below format for Databricks Connection.``Example: adb-1063177049.9.azuredatabricks.net:443;httpPath=sql/protocolv1/o/1063177375097049/0316-042324-ukswmgao``
    
    .. figure:: ../../_assets/installation/connection/databricks_general_oa2.png
        :alt: connection
        :width: 60%
+
 
    **DATABRICKS Tab:**
 

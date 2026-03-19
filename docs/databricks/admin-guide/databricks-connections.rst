@@ -180,10 +180,10 @@ Step 4 : Configure the Connection
       * - POSTBACK URL
         - Sparkflows Post Back URL
         - Add Sparkflows Post Back URL
-      * - CLIENT ID
+      * - Client ID
         - Azure AD Application (Service Principal) Client ID 
         - Add the Client ID from Azure AD Service Principal Reference guide : `Azure Databricks via JDBC using OAuth Documentation. <https://docs.sparkflows.ai/en/latest/azure/admin-guide/azure-databricks-via-jdbc-aad.html>`_
-      * - CLIENT SECRET
+      * - Client Secret
         - Azure AD Application (Service Principal) Client Secret 
         - Add the Client Secret from Azure AD Service Principal Reference guide : `Azure Databricks via JDBC using OAuth Documentation. <https://docs.sparkflows.ai/en/latest/azure/admin-guide/azure-databricks-via-jdbc-aad.html>`_
       * - ACCESS TOKEN URI

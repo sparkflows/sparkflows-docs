@@ -13,7 +13,6 @@ EMR Serverless Workflow
 * **Application ID:** Enter an Application ID.
 * **Execution Role ARN:** The IAM role assumed by the job.
 * **Spark Conf:** Add Spark Conf values in comma separated as key:value.
-* **Jar:** Entry point for spark job.
 * **Workflow ID:** Select a Workflow from the list to execute.
 * **AWS Connection ID:** Enter AWS Connection ID to be used.
 * **Parameters:** Enter Key and Values to be used in the workflow.

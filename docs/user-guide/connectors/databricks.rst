@@ -22,7 +22,7 @@ Workflow
 
 Configure the Read Databricks Table Processor by defining the following details, as shown below:
  
- .. figure:: ../../_assets/configuration/databricks-editor.png
+ .. figure:: ../../_assets/configuration/databricks-editor.PNG
     :alt: Databricks
     :width: 85%
 

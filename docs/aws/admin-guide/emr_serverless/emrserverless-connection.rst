@@ -184,4 +184,4 @@ Step 5 : Submit Job on Amazon EMR Serverless
          :alt: emrserverless
          :width: 60%
 
-.. note:: Currently, only Spark Engine is supported for EMR Serverless in Sparkflows.
+.. note:: Currently, Both Spark and PySpark Engine is supported for EMR Serverless in Sparkflows, Make Sure to pass required parameter for PySpark.

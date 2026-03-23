@@ -106,6 +106,9 @@ For EMR SERVERLESS tab
    * - Jar File
      - The Entrypoint for Spark Job
      - The Entrypoint for Spark Job
+   * - Python Script File 
+     - The Entrypoint for PySpark Job
+     - The Python Script File for PySpark Job
    * - Release Label
      - The EMR Release associated with application
      - EMR 6.9.0

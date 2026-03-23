@@ -1,0 +1,56 @@
+Version 3.3.23 - March, 2026
+============================
+
+New Features
+------------
+
+Platform & Infrastructure
++++++++++++++++++++++++++
+
+* **Databricks OAuth Connection with Azure AD :** Support has now been added to create Databricks connections using OAuth authentication with Azure Active Directory, enabling secure authentication and improved access management.
+
+  
+EMR Serverless
+++++++++++++++
+
+* **PySpark Support for EMR Serverless :** PySpark workflows can now be executed on EMR Serverless applications within workflows and pipelines.
+
+
+Pipeline Observability
+++++++++++++++++++++++
+
+* **Pipeline Custom Metrics Node :** A new node has been introduced to allow users to publish custom metrics from pipelines.
+
+  - Metrics can be generated using values pulled from XCom.
+  - Metrics are published to logs by default.
+  - Metrics can be accessed using the Pipeline Metrics API: ``{hosturl}/api/v1/pipelineExecution/{pipelineExecutionId}/metrics``
+
+  
+Enhancements
+------------
+
+Git Integration
++++++++++++++++
+
+* **Version Control Improvements :** Git integration has been enhanced to provide a unified version control experience within Project Overview.
+
+  The **Version Control** tab includes the following sections:
+
+  * **Changes** - Review staged and unstaged files and inspect diffs
+  * **History** - View commit history
+  * **Promotion** - Promote changes across branches
+  * **Conflicts** - Resolve merge conflicts
+  * **Settings** - Configure repository settings
+
+ 
+
+Documentation
+---------------
+
+* `Databricks Connection <https://docs.sparkflows.ai/en/latest/databricks/admin-guide/databricks-connections.html>`_ documentation is now updated with creating connection using Azure AD Token authentication.
+
+* `Pipeline Publish Metrics <https://docs.sparkflows.ai/en/latest/tutorials/pipelines/airflow_pipelines/pipeline_publish_metrics.html>`_ documentation has been added that outlines the step-by-step procedure for publishing metrics from pipelines.
+
+* `Version Control <https://docs.sparkflows.ai/en/latest/user-guide/git-integration/version-control.html>`_ documentation has been added for details on managing version control for your projects.
+
+

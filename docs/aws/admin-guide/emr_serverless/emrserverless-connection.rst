@@ -140,6 +140,7 @@ For EMR SERVERLESS tab
          :alt: emrserverless
          :width: 60%
 
+.. note:: Make sure to pass ``--conf spark.submit.pyFiles=s3://emrserverless-bucket/python-dependency/jobs.zip,s3://emrserverless-bucket/python-dependency/fire-python39-emrserverless.zip`` in ``Spark Config`` for PySpark Support.
 
 For NETWORK tab
 ++++

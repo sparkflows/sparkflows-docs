@@ -22,6 +22,7 @@ Step 1 : Go to Connections Page
    ::
   
       connection.databricks.enabled : true
+
 #. Click **Global/Group Connections** from the Administration Page.
 
    .. figure:: ../../_assets/installation/connection/databricks-admin1.png
@@ -56,7 +57,7 @@ Step 3 : Add Connection Details
 
 Step 4 : Configure the Connection
 ----------------
-#. Based on the **Authentication Type** selected, the fields will vary. Choose between **User Credential** and **OAuth**.
+#. Based on the **Authentication Type** selected, the fields will vary. Choose among **User Credential**, **OAuth** and **AAD Token** (Azure Active Directory Token).
 
 #. To configure the connection, refer the following tables for filling required details for ``General`` Tab and ``Databricks`` Tab:
 
@@ -69,31 +70,31 @@ Step 4 : Configure the Connection
       * - Title
         - Description
         - Value
-      * - CREDENTIAL STORE  
+      * - Credential Store
         - Select the Credential Store from drop-down
         - Choose specific Credential Store from drop-down or Select Do not use Credential Store
       * - Select Category
         - Select Category of Connection Type
         - Select Compute Connection
-      * - CONNECTION TYPE 
+      * - Connection Type 
         - Select the Connection type from drop-down
         - Choose Databricks as Connection Type
-      * - CONNECTION NAME
+      * - Connection Name
         - Connection Name
-        - Add an unique Connection Name
+        - Add a unique Connection Name
       * - Auth Type
         - Select the Authentication Type
         - Select the appropriate option as ``User Credential``
-      * - TOKEN 
+      * - Token
         - Token
         - Add token generated from your Databricks workspace under User Settings → Access Tokens.
-      * - POSTBACK URL
+      * - Postback URL
         - Sparkflows Post Back URL
         - Add Sparkflows Post Back URL
-      * - TITLE 
+      * - Title 
         - Title for selected Connection
         - Add a unique Title
-      * - DESCRIPTION
+      * - Description
         - Connection Description
         - Add some Connection Description
       * - URL
@@ -113,22 +114,22 @@ Step 4 : Configure the Connection
       * - Title
         - Description
         - Value
-      * - CREDENTIAL STORE  
+      * - Credential Store  
         - Select the Credential Store from drop-down
         - Choose specific Credential Store from drop-down or Select Do not use Credential Store
       * - Select Category
         - Select Category of Connection Type
         - Select Compute Connection
-      * - CONNECTION TYPE 
+      * - Connection Type
         - Select the Connection type from drop-down
         - Choose Databricks as Connection Type
-      * - CONNECTION NAME
+      * - Connection Name
         - Connection Name
-        - Add an unique Connection Name
+        - Add a unique Connection Name
       * - Auth Type
         - Select the Authentication Type
         - Select the appropriate option as ``OAUTH``
-      * - POSTBACK URL
+      * - Postback URL
         - Sparkflows Post Back URL
         - Add Sparkflows Post Back URL
       * - Client ID 
@@ -137,9 +138,9 @@ Step 4 : Configure the Connection
       * - Client Secret 
         - Client Secret for the connection
         - Enter Client Secret for the connection.  Reference guide : `Azure Databricks via JDBC using OAuth Documentation. <https://docs.sparkflows.io/en/latest/azure/admin-guide/azure-databricks-via-jdbc.html>`_
-      * - TITLE 
+      * - Title 
         - Title for selected Connection
-        - Add an unique Title
+        - Add a unique Title
       * - DESCRIPTION
         - Connection Description
         - Add some Connection Description
@@ -162,22 +163,22 @@ Step 4 : Configure the Connection
       * - Title
         - Description
         - Value
-      * - CREDENTIAL STORE  
+      * - Credential Store  
         - Select the Credential Store from drop-down
         - Choose specific Credential Store from drop-down or Select Do not use Credential Store
       * - Select Category
         - Select Category of Connection Type
         - Select Compute Connection
-      * - CONNECTION TYPE 
+      * - Connection Type 
         - Select the Connection type from drop-down
         - Choose Databricks as Connection Type
-      * - CONNECTION NAME
+      * - Connection Name
         - Connection Name
-        - Add an unique Connection Name
+        - Add a unique Connection Name
       * - Auth Type
         - Select the Authentication Type
         - Select the appropriate option as ``AAD Token``
-      * - POSTBACK URL
+      * - Postback URL
         - Sparkflows Post Back URL
         - Add Sparkflows Post Back URL
       * - Client ID
@@ -186,9 +187,9 @@ Step 4 : Configure the Connection
       * - Client Secret
         - Azure AD Application (Service Principal) Client Secret 
         - Add the Client Secret from Azure AD Service Principal Reference guide : `Azure Databricks via JDBC using OAuth Documentation. <https://docs.sparkflows.ai/en/latest/azure/admin-guide/azure-databricks-via-jdbc-aad.html>`_
-      * - ACCESS TOKEN URI
+      * - Token End Point URL
         - Azure AD OAuth 2.0 Token Endpoint
-        - Add the Access Token URI. Example: https://login.microsoftonline.com/{tenant-id}/oauth2/token
+        - Add the Access Token URL. Example: https://login.microsoftonline.com/{tenant-id}/oauth2/token
       * - URL
         - URL for Databricks connection
         - Add URL in the below format for Databricks Connection.``Example: adb-1063177049.9.azuredatabricks.net:443;httpPath=sql/protocolv1/o/1063177375097049/0316-042324-ukswmgao``
@@ -221,7 +222,7 @@ Step 4 : Configure the Connection
         - Scratch directory on DBFS where it has Read/Write/Delete Permissions. (User can update absolute DBFS path).
 
 
-   .. figure:: ../../_assets/installation/connection/databricks_other1.png
+   .. figure:: ../../_assets/installation/connection/databricks_other.PNG
       :alt: connection
       :width: 60%    
 

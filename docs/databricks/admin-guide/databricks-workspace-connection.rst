@@ -19,8 +19,8 @@ Step 1 : Go to Connections Page
 ----------
 
 #. **Login** to Sparkflows web server URL as an **Admin**.
-#. Navigate to **ADMINISTRATION** Page from the top bar.
-#. Click **Global Connections** from the Administration Page.
+#. Navigate to **Administration** Page from the top bar.
+#. Click **Global/Group Connections** from the Administration Page.
 
    .. figure:: ../../_assets/installation/connection/databricks-admin.png
       :alt: connection
@@ -52,30 +52,30 @@ Step 3 : Enter Parameter Details
       * - Title
         - Description
         - Value
-      * - CREDENTIAL STORE  
+      * - Credential Store  
         - Select the Credential Store from drop-down
         - Choose specific Credential Store from drop-down or Select Do not use Credential Store
       * - Select Category
         - Select Category as Workspace
         - Select Workspace
-      * - CONNECTION TYPE 
+      * - Connection Type 
         - Select Workspace Databricks
         - Select Workspace Databricks
-      * - CONNECTION NAME
+      * - Connection Name
         - Connection Name
         - Add a unique Connection Name
       * - AUTH TYPE
         - Select Authentication Type
         - Select either Access Token (PAT) or AAD Token
-      * - TITLE
+      * - Title
         - Title for selected Connection
         - Add a unique Title
-      * - DESCRIPTION
+      * - Description
         - Connection Description
         - Add some Connection Description
       * - URL
         - URL for Databricks Workspace
-        - Add Databricks Workspace Url from the Databricks. Example: https://xxxxxxxx.databricks.net
+        - Add Databricks Workspace Url from the Databricks. Example: ``https://xxxxxxxx.databricks.net``
 
 
    **Option 1: Access Token (PAT) Authentication**
@@ -109,15 +109,15 @@ Step 3 : Enter Parameter Details
       * - Title
         - Description
         - Value
-      * - CLIENT ID
+      * - Client Id
         - Azure AD Application (Service Principal) Client ID
         - Add the Client ID from Azure AD Service Principal
-      * - CLIENT SECRET
+      * - Client Secret
         - Azure AD Application (Service Principal) Client Secret
         - Add the Client Secret from Azure AD Service Principal
-      * - ACCESS TOKEN URI
+      * - Token End Point URL
         - Azure AD OAuth 2.0 Token Endpoint
-        - Add the Access Token URI. Example: https://login.microsoftonline.com/{tenant-id}/oauth2/token
+        - Add the Access Token URL. Example: ``https://login.microsoftonline.com/{tenant-id}/oauth2/token``
 
    .. figure:: ../../_assets/installation/connection/Workspace_AAD_Token.png
       :alt: AAD Token Authentication
@@ -157,8 +157,8 @@ Step 3 : Enter Parameter Details
 Step 4 : Test and Save Connection
 ---------------
 
-#. Click **TEST CONNECTION**. You will get a success notification.
-#. Click **SAVE** to save the connection.
+#. Click **Test Connection**. You will get a success notification.
+#. Click **Save** to save the connection.
 
    Once you save the connection, it can be used to Sync this connection for Airflow.
 

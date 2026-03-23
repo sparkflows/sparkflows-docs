@@ -44,6 +44,12 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
     :doc:`/user-guide/git-integration/push-application`
 
     Commit and push the applications to Git Repository.
+
+    ---
+
+    :doc:`/user-guide/git-integration/version-control`
+
+    Manage version control for your projects, including changes, history, and promotions across branches.
     
 
 
@@ -57,3 +63,4 @@ Sparkflows artifacts like projects, datasets, workflows, pipelines among others 
    push-wf.rst
    push-pipeline.rst
    push-application.rst
+   version-control.rst

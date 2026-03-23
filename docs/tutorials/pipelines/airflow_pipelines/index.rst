@@ -43,6 +43,9 @@ Airflow Pipelines
 
     :doc:`/tutorials/pipelines/airflow_pipelines/dbpl-exec-workflow`
 
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/pipeline_publish_metrics`
 
 .. toctree::
    :hidden:
@@ -57,7 +60,7 @@ Airflow Pipelines
    dbpl-execnotebk.rst
    dbpl-execute-job.rst
    dbpl-exec-workflow.rst
-
+   pipeline_publish_metrics.rst
 
 
 

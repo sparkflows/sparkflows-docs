@@ -12,7 +12,14 @@ EMR Serverless Workflow
 * **Task Name:** Enter a unique name of the task in the Airflow DAG.
 * **Application ID:** Enter an Application ID.
 * **Execution Role ARN:** The IAM role assumed by the job.
-* **Spark Conf:** Add Spark Conf values in comma separated as key:value.
+* **Spark Conf:** Add Spark Conf values in comma separated as key:value or as --conf key = value.
 * **Workflow ID:** Select a Workflow from the list to execute.
 * **AWS Connection ID:** Enter AWS Connection ID to be used.
 * **Parameters:** Enter Key and Values to be used in the workflow.
+
+
+NOTE: To run Pyspark Workflow add Pyspark configuraion in selected airflow connection
+
+.. figure:: ../../../_assets/user-guide/pipeline/emr-serverless-nodes/airflow-pyspark-config.png
+   :alt: Pipeline
+   :width: 60%

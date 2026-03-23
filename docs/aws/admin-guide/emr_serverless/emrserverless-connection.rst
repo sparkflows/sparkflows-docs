@@ -115,6 +115,9 @@ For EMR SERVERLESS tab
    * - Spark Config
      - The Spark config parameter
      - The Spark config parameter
+   * - Application Configuration
+     - The application level configurations
+     - The application level configurations
    * - Jars
      - Comma separted jars
      - Comma separted jars require during job execution
@@ -130,6 +133,10 @@ For EMR SERVERLESS tab
          :width: 60%
 
 .. figure:: ../../../_assets/aws/emrserverless/emrserverless_12.png
+         :alt: emrserverless
+         :width: 60%
+
+.. figure:: ../../../_assets/aws/emrserverless/emrserverless-connection-config.png
          :alt: emrserverless
          :width: 60%
 

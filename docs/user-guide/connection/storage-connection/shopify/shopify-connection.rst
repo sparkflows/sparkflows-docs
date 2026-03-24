@@ -7,13 +7,14 @@ Shopify is a cloud-based e-commerce platform that allows businesses to create, m
 Prerequisite
 ---------------
 
-Before creating a Shopify Connection in Sparkflows, ensure that you have created a Shopify Admin API access token using a Custom App.
+Before creating a Shopify connection in Sparkflows, ensure the following:
 
-For detailed steps on **how to create the Shopify Admin API access token**, refer to the following document: :ref:`Creating Shopify Token<Creating Shopify Token>`
+* A **Shopify Admin API Access Token** has been generated using a **Custom App**, if using **Token Authentication**.
+* A **Client Id** and **Client Secret** have been generated while creating the app in the Shopify store, if using **Client Credentials Authentication**.
 
+For detailed steps on **how to generate the token and client credentials**, refer to the following document: :ref:`Creating Shopify Token<Installing Shopify App and Creating Token>`
 
 To create a Shopify Connection in Sparkflows, follow the steps below:
-
 
 
 Step 1 : Login to Sparkflows and Navigate to Connections Page
@@ -22,7 +23,7 @@ Step 1 : Login to Sparkflows and Navigate to Connections Page
 
 #. Navigate to **Administration -> Global/Group Connections**. A Connections page will open up, as shown below.
 
-  .. figure:: ../../../../_assets/connections/shopify-connections-page.png
+   .. figure:: ../../../../_assets/connections/shopify-connections-page.png
       :alt: connection
       :width: 60%
 
@@ -34,7 +35,7 @@ Step 2 : Adding a Shopify Connection
       :alt: connection
       :width: 60%
 
-#. Now, select the category as **Storage** and choose **Shopify** from the dropdown in the connection type. Then, enter a unique connection name.
+#. Now, select the category as **Storage** and choose **Shopify** from the dropdown in the connection type. 
    
    .. figure:: ../../../../_assets/connections/shopify-select-connection.png
       :alt: connection
@@ -43,17 +44,38 @@ Step 2 : Adding a Shopify Connection
 Step 3 : Configuring the Shopify Connection
 --------------------
 
-1. To configure this connection, enter the details as follows and click on **Test Connection** button to validate. 
+1. To configure this connection, enter the details in the following fields. Sparkflows supports two authentication methods for Shopify connections: **Token Authentication** and **Client Credentials Authentication** 
 
- * **Shop Name:** Enter your shop name (E.g. sparkflows-dev.myshopify.com).
+   Select the appropriate Authentication Type and provide the required details.
 
- * **Access Token:** Enter the Shopify Admin API access token generated from your Shopify store (E.g. shpat_xxxxxxxxxxxx).
+   **Token Authentication**
 
-  .. figure:: ../../../../_assets/connections/shopify-connection-config.PNG
-      :alt: connection
-      :width: 60%
+   * **Group:** Select the group where the connection will be created.
+   * **Connection Name:** Give a name of the Shopify connection.
+   * **Shop URL:** Enter your shop url (E.g. sparkflows-dev.myshopify.com).
+   * **Access Token:** Enter the Shopify Admin API access token generated from your Shopify store (E.g. shpat_xxxxxxxxxxxx).
+   * **Title (Optional):** Give a unique title for the connection.
+   * **Description (Optional):** Provide a description for the connection.
 
-2. If the connection is successful, click **Save** to save the connection.
+   .. figure:: ../../../../_assets/connections/shopify-connection-config-1.png
+       :alt: connection
+       :width: 60%
+
+   **Client Credentials Authentication**
+
+   * **Group:** Select the group where the connection will be created.
+   * **Connection Name:** Give a name of the Shopify connection.
+   * **Shop Url:** Enter the Shopify store URL.
+   * **Client Id:** Enter the client Id generated when creating the Shopify app.
+   * **Client Secret:** Enter the client secret associated with the Shopify app.
+   * **Title (Optional):** Give a unique title for the connection.
+   * **Description (Optional):** Provide a description for the connection.
+
+   .. figure:: ../../../../_assets/connections/shopify-connection-config-2.png
+       :alt: connection
+       :width: 60%
+
+2. Next, click on **Test Connection** button to validate. If the connection is successful, click **Save** to save the connection.
 
    Now, you are ready to start using the Connection in Read Shopify node to run the workflows/pipelines.
   

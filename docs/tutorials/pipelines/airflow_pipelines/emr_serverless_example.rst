@@ -134,7 +134,7 @@ In the EMR Serverless tab, add the additional Spark configurations required for 
 1. Add application configuration by creating an EMR Serverless Application node in the pipeline.
 
    
-   .. figure:: ../../../_assets/tutorials/create-emrserverless-app-node.png
+   .. figure:: ../../../_assets/tutorials/pipeline/create-emrserverless-app-node.png
       :alt: EMR Serverless in Workflow and Pipeline
       :width: 70%
 

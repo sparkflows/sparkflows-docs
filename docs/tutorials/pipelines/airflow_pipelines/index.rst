@@ -47,6 +47,10 @@ Airflow Pipelines
 
     :doc:`/tutorials/pipelines/airflow_pipelines/pipeline_publish_metrics`
 
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/emr_serverless_example`
+
 .. toctree::
    :hidden:
 
@@ -61,7 +65,7 @@ Airflow Pipelines
    dbpl-execute-job.rst
    dbpl-exec-workflow.rst
    pipeline_publish_metrics.rst
-
+   emr_serverless_example.rst
 
 
 

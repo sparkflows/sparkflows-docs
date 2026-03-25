@@ -1,4 +1,4 @@
-EMRServerless Support in Workflow and Pipeline
+EMR Serverless Support in Workflow and Pipeline
 ==============================================
 
 This document outlines how Sparkflows enables running workflows on EMR Serverless using a configured connection. It also explains how to create EMR Serverless applications and associate workflows as jobs within a pipeline.

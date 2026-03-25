@@ -77,13 +77,13 @@ Select the correctly configured connection and submit the workflow. This will cr
 
    .. figure:: ../../../_assets/tutorials/pipeline/scala_wf.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 2. After submitting the workflow to EMR Serverless.
 
    .. figure:: ../../../_assets/tutorials/pipeline/scala_wf_exe.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 **PySpark Workflow**
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -92,13 +92,13 @@ Select the correctly configured connection and submit the workflow. This will cr
 
    .. figure:: ../../../_assets/tutorials/pipeline/py_wf.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 2. After submitting the workflow to EMR Serverless.
 
    .. figure:: ../../../_assets/tutorials/pipeline/py_wf_exe.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 Pipeline
 --------
@@ -117,7 +117,7 @@ The JAR and Python main file paths are defined in the Airflow connection. These 
 
 .. figure:: ../../../_assets/tutorials/pipeline/airflow_con_airflow_tab.png
    :alt: EMR Serverless in Workflow and Pipeline
-   :width: 70
+   :width: 70%
 
 **EMR Serverless**
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,30 +126,31 @@ In the EMR Serverless tab, add the additional Spark configurations required for 
 
 .. figure:: ../../../_assets/tutorials/pipeline/airflow_py_conf.png
    :alt: EMR Serverless in Workflow and Pipeline
-   :width: 70
+   :width: 70%
 
 **Pipeline Configuration**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Add application configuration by creating an EMR Serverless Application node in the pipeline.
 
+   
    .. figure:: ../../../_assets/tutorials/create-emrserverless-app-node.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 2. Attach the EMRServerlessWorkflow pipeline node and select the workflow.
 
    .. figure:: ../../../_assets/tutorials/pipeline/pipeline_py_wf_node.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
    .. figure:: ../../../_assets/tutorials/pipeline/pipeline_py.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
    .. figure:: ../../../_assets/tutorials/pipeline/pipeline_py_wf_execut.png
       :alt: EMR Serverless in Workflow and Pipeline
-      :width: 70
+      :width: 70%
 
 
 

@@ -120,6 +120,21 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
             ],
             "Resource": ["*"]
             }
+           {
+            "Effect": "Allow",
+            "Action": [
+                "emr-serverless:CreateApplication",
+                "emr-serverless:StartJobRun",
+                "emr-serverless:GetApplication",
+                "emr-serverless:ListApplications",
+                "emr-serverless:GetJobRun",
+                "emr-serverless:ListJobRuns",
+                "emr-serverless:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+         },
           ]
          }
 

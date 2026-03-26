@@ -53,4 +53,4 @@ Documentation
 
 * `Version Control <https://docs.sparkflows.ai/en/latest/user-guide/git-integration/version-control.html>`_ documentation has been added for details on managing version control for your projects.
 
-
+* `EMR Serverless support in Workflows and Pipelines <https://docs.sparkflows.ai/en/latest/tutorials/pipelines/airflow_pipelines/emr_serverless_example.html>`_ documentation has been added explaining how Sparkflows enables running workflows on EMR Serverless, including creating applications and linking workflows as pipeline jobs.

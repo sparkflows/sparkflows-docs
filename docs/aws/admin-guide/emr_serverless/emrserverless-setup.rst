@@ -134,7 +134,22 @@ This document provides comprehensive guide for setting up Amazon EMR Serverless,
             "Resource": [
                 "*"
             ]
-         },
+           },
+           {
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListRoles",
+                "iam:ListAttachedRolePolicies",
+                "iam:GetRole",
+                "iam:GetRolePolicy",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListRoleTags",
+                "iam:ListRolePolicies",
+                "iam:ListPolicyTags",
+                "iam:PassRole"
+            ],
+            "Resource": "arn:aws:iam::xxxxxx:role/emr_serverless_role"
+        }
           ]
          }
 

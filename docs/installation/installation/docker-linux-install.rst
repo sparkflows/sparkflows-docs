@@ -32,7 +32,7 @@ Installation Steps
 
 * Set up the environment variables. The local mount directory is ``/home/username/sparkflows`` - create this directory by using mkdir in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
-    export SPARK_VERSION=3.2.1
+    export SPARK_VERSION=3.5.2
     export RELEASE_VERSION=3.X.XX
     export FIRE_VERSION=3.1.0
     export SPARKFLOWS_ROOT=/home/username/sparkflows
@@ -51,6 +51,7 @@ Installation Steps
     -e FIRE_HTTP_PORT=8080 \
     -e FIRE_HTTPS_PORT=8443 \
     -e FIRE_VERSION=${FIRE_VERSION} \
+    -e DB=h2 \
     sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 

@@ -130,6 +130,7 @@ Upgrading Steps
     -e FIRE_HTTP_PORT=8080 \
     -e FIRE_HTTPS_PORT=8443 \
     -e FIRE_VERSION=${FIRE_VERSION} \
+    -e DB=h2 \
     sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
  
 * The Sparkflows services should start and all the previous configurations and workflows should be seen in the application.

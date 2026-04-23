@@ -70,6 +70,10 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
 
     :doc:`macros`
 
+    ---
+
+    :doc:`invoke_azure_functions`
+
 
 .. toctree::
    :hidden:
@@ -89,4 +93,4 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
    execute-workflow.rst
    configure-yaml-and-variables.rst
    macros.rst
-   
+   invoke_azure_functions.rst

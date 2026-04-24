@@ -127,6 +127,12 @@ Read and Write Data
     :doc:`/tutorials/reading-writing/readjdbc-large-dataset`
     
     Reading and Writing large dataset using ReadJDBC.
+
+    ----
+    
+    :doc:`/tutorials/reading-writing/delta-merge`
+    
+    Merging source data with target Delta table using update, delete, and insert rules.
     
 .. toctree::
    :hidden:
@@ -152,4 +158,4 @@ Read and Write Data
    dataset-reading-parquet.rst
    dataset-reading-mysql.rst
    readjdbc-large-dataset.rst
-   
+   delta-merge.rst

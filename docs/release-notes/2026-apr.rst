@@ -1,0 +1,67 @@
+Version 3.3.25 - April, 2026
+============================
+
+New Features
+------------
+
+Cloud & Integrations
+++++++++++++++++++++
+
+* **Invoke Azure Function App :** Support has been added to invoke Azure Function Apps directly from Sparkflows using Azure workspace connections.
+
+
+Pipeline Execution & Control
+++++++++++++++++++++++++++++
+
+* **Pipeline Trigger Mode via REST API :** Users can now identify whether a pipeline execution was triggered manually or via scheduler.
+
+  ::
+
+     /api/v1/pipelines/execution/{pipelineExecutionId}
+
+  * launchType = MANUALLY ---> Manually triggered  
+  * launchType = SCHEDULER ---> Scheduled trigger  
+
+* **Restart from Failed Task :** Pipelines can now be retriggered from the failed task instead of restarting from the beginning.
+
+* **List Pipeline Executions :** Added support to retrieve all executions for a given pipeline using pipelineId.
+
+
+EMR Serverless
+++++++++++++++
+
+* **AWS Connection ID Support :** AWS Connection ID field has been added for EMR Serverless configuration.
+
+* **Runtime Parameters Support :** Runtime parameters can now be passed in Spark Submit for EMRServerlessStartJob. Support for ``waiter_delay`` and ``waiter_max_attempts`` has also been added.
+
+* **Custom Application Settings :** Users can define custom settings such as CPU, memory, and log paths for EMR Serverless applications.
+
+* **Application Tagging :** Support has been added to define tags (name and value) for EMR Serverless applications.
+
+
+Enhancements
+------------
+
+Pipeline Observability
+++++++++++++++++++++++
+
+* **Pipeline Custom Metrics (LegoBlocks) :** Custom/user-defined metrics can now be published from LegoBlocks executed as Spark jobs in pipelines and reported back to the Sparkflows UI.
+
+Data Connectivity
++++++++++++++++++
+
+* **SFTP ADLS Support :** SFTP node now supports ADLS integration on Databricks clusters.
+
+
+Pipeline Orchestration
+++++++++++++++++++++++
+
+* **Trigger Next DAG Enhancements :**
+
+  * **Latest DAG Upload :** Automatically uploads the latest DAG before triggering if not present in Airflow.
+  * **Wait for Completion :** Keeps the TriggerDagRun operator in running state until the triggered DAG completes (Success/Failure).
+
+Documentation
+----------------
+
+* `Invoke Azure Functions <https://docs.sparkflows.ai/en/latest/user-guide/pipeline-development/invoke_azure_functions.html>`_ documentation is added covering example on configuring Azure Workspace connections and triggering Azure Function endpoints (GET and POST) directly from pipelines.

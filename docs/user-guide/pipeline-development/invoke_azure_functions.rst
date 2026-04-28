@@ -18,7 +18,7 @@ Create an Azure Workspace connection, then sync this connection with Airflow by 
 - **Client Id**: The Application (Client) ID from Azure App Registration. Used to identify your Azure application during authentication.
 - **Client Secret**: Secret key/password generated for the Azure App Registration. Used with the Client ID for secure authentication.
 - **Tenant Id**: Your Azure Directory (Tenant) ID. Identifies which Azure organization/account owns the app.
-- **Scope**: Defines what API/resource access token should be requested.
+- **Scope**: Specifies the target resource for the access token. For example, **{client_id}/.default** requests a token for the application itself (ensuring correct aud and permissions), whereas other scopes (e.g., Microsoft Graph) target different resources and may not be valid for the intended API.
 - **Function Key**: Authorization key for Azure Functions. Used when calling secured Azure Function endpoints.
 
 **Airflow Connection**

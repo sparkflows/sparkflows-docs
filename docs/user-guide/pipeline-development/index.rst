@@ -44,6 +44,10 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
 
     ---
 
+    :doc:`retry-pipeline`
+
+    ---
+
     :doc:`schedule-pipeline`
 
     ---
@@ -86,6 +90,7 @@ With Apache Airflow, Sparkflows supports many different kinds of nodes/tasks in 
    databricks-nodes/index.rst
    snowflake-nodes/index.rst
    execute-pipeline.rst
+   retry-pipeline.rst
    schedule-pipeline.rst
    import-export-pipeline.rst
    pipeline-history.rst

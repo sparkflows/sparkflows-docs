@@ -40,7 +40,7 @@ Installation Steps
 
 * Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
 
-    docker pull sparkflows/fire:py_3.2.1_3.X.XX
+    docker pull sparkflows/fire:py_3.5.2_3.X.XX
    
 * Start the docker image using the **docker run command** below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
     

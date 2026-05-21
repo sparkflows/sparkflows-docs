@@ -50,16 +50,17 @@ Installation Steps
 
 * In order to use MySQL database as the datastore, pass the db configuration as environment variable as shown below. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
 
-    docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 \
+    docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.5.2 \
     -e FIRE_VERSION=3.1.0 \
     -e KEYSTORE_PASSWORD=12345678 \
     -e FIRE_HTTP_PORT=8080 \
     -e FIRE_HTTPS_PORT=8443 \
+    -e DB=h2
     -e DB_HOST=sparkflows-db.abc.rds.amazonaws.com \
     -e DB_PASSWORD=DB123 \
     -e DB_USERNAME=sparkflows \
     -e DB_PORT=3306 \
-    sparkflows/fire:py_3.2.1_3.X.XX
+    sparkflows/fire:py_3.5.2_3.X.XX
 
 * For the **H2DB** to be accessible on the mounted directory, please edit the path in **conf/db.properties** to working directory and restart docker image::
    
@@ -102,7 +103,7 @@ Upgrading Steps
 
 * Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
 
-    docker pull sparkflows/fire:py_3.2.1_3.X.XX
+    docker pull sparkflows/fire:py_3.5.2_3.X.XX
 
 * Upgrade either the MySQL or the H2DB table by running the BAT script::
 
@@ -111,7 +112,7 @@ Upgrading Steps
     
 * Start the docker image using the `docker run` command below. The local mount directory is **(C:\Users\sparkflows)** in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
     
-    docker run -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.2.1 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.2.1_3.X.XX
+    docker run -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.5.2 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.5.2_3.X.XX
 
 * The Sparkflows services should start and all the previous configurations and workflows should be seen in the application.
 

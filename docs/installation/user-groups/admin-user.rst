@@ -13,9 +13,9 @@ A user in Sparkflows can be marked to be a super-user. A Super user has the belo
 #. **Group Management:** Create, update, or delete groups.
 #. **User Management:** Create or update users.
 #. **Roles Management:** Create, update, or delete roles.
-#. **Operational Permissions:** Access tasks such as viewing server logs, updating configurations, etc.
-
-
+#. **Operational Permissions:** Access tasks such as updating configurations, modifying CORS settings, uploading application library jars, managing global/group connections, accessing the credential store, configuring OAuth Settings and testing LDAP.
+#. **Data & Maintenance:** Perform database backups, clean up data, and access the JDBC catalog.
+#. **Monitoring & Statistics:** View monitoring dashboards, server logs, YARN applications, audit reports, rate limiters, and system statistics (runtime, usage, scheduler, and cache)
 
 Admin User
 ---------
@@ -47,21 +47,54 @@ Operating Sparkflows Permissions
 
 Below are the permission for operating Sparkflows:
 
-* **System Configuration:** Configure Sparkflows settings.
-* **Diagnostics:** Run system diagnostics.
-* **Usage Statistics:** View platform usage statistics.
-* **YARN Applications:** Monitor YARN applications running on the Spark cluster.
-* **Sample Projects:** Load sample projects that come with Sparkflows.
-* **Global Connections:** Manage global and group-level connections.
-* **Server Logs:** View Fire server logs, exception logs, and PySpark logs.
-* **Data Cleanup:** Delete old workflow executions based on time ranges (e.g., older than 7, 30, or 90 days).
-* **Audit Report:** View and download audit reports for user activities like logins, logouts, and workflow modifications.
-* **Credential Store:** Manage credential stores for securely retrieving usernames, passwords, etc., when creating connections.
-* **LDAP Testing:** Test LDAP configuration to ensure it's set up correctly (only when the LDAP properties file is updated).
-* **Database Backup:** Backup the database if running on H2 DB.
-* **Runtime Statistics:** View total logged-in users, active Fire Spark processes, and PySpark processes, along with running jobs.
-* **Scheduler Statistics:** Monitor the status of scheduled jobs.
-* **Cache Statistics:** View cache statistics for logged-in users and data sources like Snowflake and Databricks.
+Core Operations & Maintenance
++++++
+
+#. System Configuration: Configure global Sparkflows settings.
+#. Diagnostics: Run system diagnostics to troubleshoot issues.
+#. Usage Statistics: View platform usage statistics and trends.
+#. YARN Applications: Monitor YARN applications running on the connected Spark cluster.
+#. Sample Projects: Load sample projects that come pre-packaged with Sparkflows.
+#. Global/Group Connections: Manage connections at both the global and group levels.
+#. Server Logs: View Fire server logs, exception logs, and PySpark logs directly from the UI.
+#. Data Cleanup: Delete old workflow executions based on specific time ranges (e.g., older than 7, 30, or 90 days).
+#. Audit Report: View and download audit reports detailing user activities such as logins, logouts, and workflow modifications.
+#. Credential Store: Manage credential stores to securely retrieve usernames, passwords, and other secrets when creating connections.
+#. LDAP Testing: Test your LDAP configuration to ensure it is set up correctly (applicable only when the LDAP properties file is updated).
+#. Database Backup: Trigger a backup of the database (applicable if running on the embedded H2 database).
+#. Runtime Statistics: View the total number of logged-in users, active Fire Spark processes, PySpark processes, and currently running jobs.
+#. Scheduler Statistics: Monitor the status and health of scheduled jobs.
+#. Cache Statistics: View cache statistics for logged-in users and external data sources like Snowflake and Databricks.
+
+Identity, Access & Security
++++++
+
+#. User Management: Create, update, and manage user accounts, groups, and roles.
+#. OAuth: Configure OAuth authentication settings for the platform.
+#. CORS Settings: Manage Cross-Origin Resource Sharing (CORS) configurations to ensure API security.
+#. Access Tokens: View manage personal or system access tokens.
+
+Advanced Data & Workspace Management
++++++
+
+#. Projects: Access the super-user view to globally share or unshare projects across different groups.
+#. JDBC Catalog: Manage JDBC catalog datasets and configuration details.
+#. Variables: View and modify global/group variables used across various workflows and pipelines.
+#. Application Lib Jars: Upload and manage custom Fire application library JAR files.
+#. Manage Nodes: Manage Workflow nodes.
+
+System Integrations & AI
++++++
+
+#. Copilot: Configure and manage the AI Copilot integration for assisted development.
+#. Test MLOps Connection: Validate connectivity to your designated MLOps (e.g., Kubeflow) server.
+#. Code Library: Access and manage the global feature code library.
+
+Extended Monitoring
++++++
+
+#. Rate Limiter: View rate limit statistics and manage API parameters.
+#. Monitoring: View overall system performance metrics and dashboards.
 
 Operating Sparkflows
 -----

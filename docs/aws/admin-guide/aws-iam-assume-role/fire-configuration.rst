@@ -61,6 +61,18 @@ Step 4 : Create/Update Group in Sparkflows
       :alt: aws
       :width: 60%
 
+#. Edit group name and Navigate to **configs -> Add Credential for AWS**.
+
+   .. figure:: ../../../_assets/aws/iam-assume-role/aws-credentials.png
+      :alt: aws
+      :width: 60%
+
+   .. figure:: ../../../_assets/aws/iam-assume-role/s3-page-config.png
+      :alt: aws
+      :width: 60%
+
+   
+
 #. Copy the **ARN** set up for assume role in AWS IAM Role and Update in **AWS ROLE NAME** text field.
 
    ::

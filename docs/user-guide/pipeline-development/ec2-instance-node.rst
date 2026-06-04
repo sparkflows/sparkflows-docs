@@ -9,21 +9,21 @@ To create the instance, follow the steps given below:
 
 #. Configure the EC2 creation task with the AMI ID, AWS connection, retry settings, and trigger rule. This step launches the EC2 instance.
 
-    .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/1.png
-       :alt: EC2 Pipeline
-       :width: 60%
+   .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/1.png
+      :alt: EC2 Pipeline
+      :width: 60%
 
 #. Provide the EC2 instance configuration including IAM role, instance type, subnet, security groups, and key pair.
 
-    .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/2.png
-       :alt: EC2 Pipeline
-       :width: 60%
+   .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/2.png
+      :alt: EC2 Pipeline
+      :width: 60%
 
 #. Add EC2 tags and user data bootstrap commands to install Python dependencies and prepare the instance environment.
 
-    .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/3.png
-       :alt: EC2 Pipeline
-       :width: 60%
+   .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/3.png
+      :alt: EC2 Pipeline
+      :width: 60%
 
 Step 2 : Configure EC2 Instance State Sensor
 -----------------------------------------------
@@ -40,9 +40,9 @@ Step 3 : Configure Python Operator
 
 The Python Operator uses AWS Systems Manager (SSM) to copy and run a Python script stored in Amazon S3 on the EC2 instance.
 
-    .. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/python2.png
-       :alt: EC2 Pipeline
-       :width: 60%
+.. figure:: ../../_assets/user-guide/pipeline/ec2-instance-node/python2.png
+   :alt: EC2 Pipeline
+   :width: 60%
 
 Step 4 : Terminate EC2 Instance
 -------------------------------------

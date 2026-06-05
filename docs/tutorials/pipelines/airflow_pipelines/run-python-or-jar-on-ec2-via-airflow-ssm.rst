@@ -34,28 +34,28 @@ Step 1: Create an EC2 Instance
         yum update -y
         yum install -y java-17-amazon-corretto-headless python3 python3-pip unzip
     
-        # ── Find actual Java 17 path dynamically ──────────────────────────────
+        # Find actual Java 17 path dynamically
         JAVA_BIN=$(find /usr/lib/jvm -name "java" -type f | grep "17\|corretto-17" | head -1)
         echo "Found Java: $JAVA_BIN"
         JAVA_HOME_DIR=$(dirname $(dirname $JAVA_BIN))
         echo "JAVA_HOME=$JAVA_HOME_DIR"
     
-        # ── Set as default ─────────────────────────────────────────────────────
+        # Set as default
         alternatives --set java $JAVA_BIN || true
         echo "JAVA_HOME=$JAVA_HOME_DIR" >> /etc/environment
         echo "PATH=$JAVA_HOME_DIR/bin:$PATH" >> /etc/environment
         export JAVA_HOME=$JAVA_HOME_DIR
         export PATH=$JAVA_HOME/bin:$PATH
     
-        # ── Confirm Java 17 ────────────────────────────────────────────────────
+        #Confirm Java 17 
         java -version
     
-        # ── Install Python packages ────────────────────────────────────────────
+        #  Install Python packages 
         pip3 install pyspark boto3 pandas -q
     
-        # ── Signal UserData complete ───────────────────────────────────────────
+        #  Signal UserData complete 
         touch /tmp/userdata_done
-        echo "UserData complete"
+        echo 'UserData complete'
 
 Step 2: Wait for the EC2 Instance to Start
 ------------------------------------------------
@@ -84,7 +84,7 @@ The script includes polling logic and waits for the execution to complete before
     import boto3
     from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
     
-    # ─── Config ────────────────────────────────────────────────────────────────────
+    #  Config 
     S3_BUCKET   = "sparkflows-airflows-2026"
     S3_ZIP_KEY  = "optum-data/my_job.zip"
     ENTRY_POINT = "main.py"
@@ -95,7 +95,7 @@ The script includes polling logic and waits for the execution to complete before
         ti          = context["ti"]
         instance_id = ti.xcom_pull(task_ids="create_ec2_instance", key="return_value")[0]
     
-        # ── Generate presigned URL on Airflow (no EC2 role needed) ────────────────
+        #  Generate presigned URL on Airflow (no EC2 role needed)
         s3  = boto3.client("s3", region_name="us-east-1")
         url = s3.generate_presigned_url(
             "get_object",
@@ -106,7 +106,7 @@ The script includes polling logic and waits for the execution to complete before
     
         ssm = AwsBaseHook(aws_conn_id="aws_default", client_type="ssm").get_conn()
     
-        # ── Wait for SSM agent ─────────────────────────────────────────────────────
+        # Wait for SSM agent
         print(f"Waiting for SSM agent on {instance_id}...")
         for attempt in range(30):
             time.sleep(20)
@@ -124,13 +124,13 @@ The script includes polling logic and waits for the execution to complete before
         else:
             raise Exception(f"SSM agent never came online for {instance_id}")
     
-        # ── Send command ───────────────────────────────────────────────────────────
+        #  Send command
         response = ssm.send_command(
             InstanceIds=[instance_id],
             DocumentName="AWS-RunShellScript",
             Parameters={
                 "commands": [
-                    # ── Wait for UserData to finish ────────────────────────────────────────
+                    # Wait for UserData to finish
                     "for i in $(seq 1 60); do [ -f /tmp/userdata_done ] && break; echo \"Waiting... $i\"; sleep 10; done",
                     "[ -f /tmp/userdata_done ] && echo 'UserData done ' || echo 'Timed out, continuing...'",
     
@@ -139,7 +139,7 @@ The script includes polling logic and waits for the execution to complete before
                     f'curl -fsSL -o {WORK_DIR}/my_job.zip "{url}" && echo "DOWNLOAD OK" || {{ echo "DOWNLOAD FAILED"; exit 1; }}',
                     f"cd {WORK_DIR} && unzip -o my_job.zip -d job/",
     
-                    # ── Run using dynamic Java path (same logic as UserData) ──────────────
+                    # Run using dynamic Java path (same logic as UserData)
                     f"""bash -c '
                         JAVA_BIN=$(find /usr/lib/jvm -name "java" -type f | grep "17\|corretto-17" | head -1)
                         export JAVA_HOME=$(dirname $(dirname $JAVA_BIN))
@@ -154,7 +154,7 @@ The script includes polling logic and waits for the execution to complete before
         )
         command_id = response["Command"]["CommandId"]
     
-        # ── Poll until done ────────────────────────────────────────────────────────
+        # Poll until done
         print(f"Command sent: {command_id}, waiting for result...")
         for _ in range(40):
             time.sleep(15)
@@ -172,7 +172,7 @@ The script includes polling logic and waits for the execution to complete before
             if status in ("Success", "Failed", "Cancelled", "TimedOut"):
                 break
     
-        # ── Print output ───────────────────────────────────────────────────────────
+        # Print output
         print("=== STDOUT ===")
         print(result["StandardOutputContent"])
         print("=== STDERR ===")

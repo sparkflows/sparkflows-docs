@@ -26,7 +26,6 @@ Step 1: Create an EC2 Instance
       :alt: Pipeline execution on EC2 using Airflow
       :width: 70%
 
-
    .. code-block::
 
       #!/bin/bash
@@ -58,7 +57,6 @@ Step 1: Create an EC2 Instance
         touch /tmp/userdata_done
         echo "UserData complete"
 
-
 Step 2: Wait for the EC2 Instance to Start
 ------------------------------------------------
 
@@ -68,12 +66,13 @@ Wait for the EC2 instance to reach the Running state before proceeding to the ne
    :alt: Pipeline execution on EC2 using Airflow
    :width: 70%
 
-
 Step 3: Upload and Run Application via SSM (PythonOperator)
 ---------------------------------------------------
 Use a Python Operator to execute a Python script or Java application on the EC2 instance through AWS Systems Manager (SSM).
 
-The following Python Operator example executes a Python script or JAR application on the EC2 instance. The script includes polling logic and waits for the execution to complete before proceeding.
+The following Python Operator example executes a Python script or JAR application on the EC2 instance. 
+
+The script includes polling logic and waits for the execution to complete before proceeding.
 
 .. figure:: ../../../_assets/tutorials/pipeline/python-operator.png
    :alt: Pipeline execution on EC2 using Airflow
@@ -209,7 +208,7 @@ Application Package Structure
 
 Sample Application
 -------------------
-Example applications is used in this tutorial:
+Example applications used in this tutorial:
 
 **main.py**
 

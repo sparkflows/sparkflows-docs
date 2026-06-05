@@ -51,6 +51,11 @@ Airflow Pipelines
 
     :doc:`/tutorials/pipelines/airflow_pipelines/emr_serverless_example`
 
+    ---
+
+    :doc:`/tutorials/pipelines/airflow_pipelines/run-python-or-jar-on-ec2-via-airflow-ssm`
+
+
 .. toctree::
    :hidden:
 
@@ -66,6 +71,7 @@ Airflow Pipelines
    dbpl-exec-workflow.rst
    pipeline_publish_metrics.rst
    emr_serverless_example.rst
+   run-python-or-jar-on-ec2-via-airflow-ssm.rst
 
 
 

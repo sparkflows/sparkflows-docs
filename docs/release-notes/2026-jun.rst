@@ -1,0 +1,26 @@
+Version 3.3.28 - June, 2026
+==================================
+
+New Features
+-------------------------
+EC2 Execution Support
+++++++++++++++++++++++++++++++++
+
+* **Run Python Utility Zip File on EC2 Machine:** Support has been added to provision Amazon EC2 instances, execute Python scripts using the Python Operator, validate instance status, and automatically terminate instances after execution as part of a pipeline workflow.
+
+
+Enhancements
+------------------------  
+  
+DAG Execution Control
++++++++++++++++++++++++++++++++++  
+
+* **Set Concurrency Parameter in DAG from Sparkflows:** Support has been added for the max_active_runs parameter through the AddDagArguments node, enabling users to control the maximum number of DAG runs that can execute concurrently. The parameter is optional and defaults to the existing behavior when left empty.
+
+
+Documentation
+------------------------
+
+* `EC2 Instance Node in Pipeline <https://docs.sparkflows.ai/en/latest/user-guide/pipeline-development/ec2-instance-node.html`_ documentation has been added covering EC2 instance lifecycle management within pipelines, including instance provisioning, bootstrap configuration, instance state monitoring, Python script execution using AWS Systems Manager (SSM), and automatic instance termination.
+
+* `Run Python / JAR Applications on EC2 using Airflow and SSM <https://docs.sparkflows.ai/en/latest/tutorials/pipelines/airflow_pipelines/run-python-or-jar-on-ec2-via-airflow-ssm.html`_ documentation has been added covering the end-to-end execution of Python scripts, Python packages, and JAR applications on Amazon EC2 instances, including environment setup, application deployment from Amazon S3, execution through AWS Systems Manager (SSM), and automated cleanup of EC2 resources.

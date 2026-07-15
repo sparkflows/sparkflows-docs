@@ -5,6 +5,12 @@ Retrieval-Augmented Generation (RAG)
 
 This page covers the RAG pattern, the building-block nodes, the supported vector stores, and the ready-to-run templates — with a full end-to-end walkthrough.
 
+.. figure:: ../../_assets/user-guide/generative-ai/rag-pipeline.svg
+   :alt: RAG pipeline — ingest then retrieve and answer
+   :width: 95%
+
+   The two halves of a RAG solution in Sparkflows: an **ingest** workflow that embeds documents into a vector index, and a **retrieve & answer** workflow that reads from the same index and generates a grounded answer.
+
 The RAG pattern
 ---------------
 

@@ -5,8 +5,8 @@ The **Multi LLM Query** node is the workhorse of Generative AI in Sparkflows —
 
 It is used both on its own (over any text column) and as the **answer-generation step of a RAG pipeline** (after retrieving context from a vector store).
 
-Core configuration
-------------------
+Multi LLM Query configuration
+-----------------------------
 
 .. list-table::
    :widths: 26 74
@@ -55,8 +55,8 @@ The same node behaves very differently depending on how you combine **prompt**, 
    * - **Image / multimodal understanding**
      - Input ``image`` or ``text+image``, set the image column; prompt *"Describe the image"* or *"Extract the table from this scanned page."*
 
-Combination patterns
---------------------
+Multi LLM Query combinations
+----------------------------
 
 Multi LLM Query is rarely used alone — it sits at the end of a short chain:
 

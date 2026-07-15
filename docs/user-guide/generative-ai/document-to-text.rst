@@ -3,8 +3,8 @@ Document To Text
 
 The **Document To Text** node turns a folder of documents into a text DataFrame — the entry point for almost every Generative AI pipeline in Sparkflows. It reads PDF, DOCX and image files, extracts their text (with OCR for scanned pages and images), and emits one row per page or per file, ready to feed an embedding node (for RAG) or a Multi LLM Query node (for summarization, extraction, translation, and more).
 
-Core configuration
-------------------
+Document To Text configuration
+------------------------------
 
 .. list-table::
    :widths: 26 74
@@ -25,8 +25,8 @@ Core configuration
    * - **Page-number column**
      - For PDFs, each page becomes its own row tagged with its page number, so you can process or cite documents page by page.
 
-Output
-------
+Output columns
+--------------
 
 Each input document produces one or more rows with:
 
@@ -34,8 +34,8 @@ Each input document produces one or more rows with:
 * the **file name** (so downstream nodes can group or cite by document), and
 * the **page number** (for PDFs), enabling page-level chunking and citations.
 
-Combination patterns
---------------------
+Document To Text combinations
+-----------------------------
 
 Document To Text is the first node in these common chains:
 

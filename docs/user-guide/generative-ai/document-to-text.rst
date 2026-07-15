@@ -3,6 +3,12 @@ Document To Text
 
 The **Document To Text** node turns a folder of documents into a text DataFrame — the entry point for almost every Generative AI pipeline in Sparkflows. It reads PDF, DOCX and image files, extracts their text (with OCR for scanned pages and images), and emits one row per page or per file, ready to feed an embedding node (for RAG) or a Multi LLM Query node (for summarization, extraction, translation, and more).
 
+.. figure:: ../../_assets/user-guide/generative-ai/document-to-text.svg
+   :alt: Document To Text — documents become a text table
+   :width: 95%
+
+   Document To Text reads a folder of PDF/DOCX/image files and returns a table with the extracted ``content`` plus the ``fileName`` and ``pageNumber`` of each row.
+
 Document To Text configuration
 ------------------------------
 
@@ -38,6 +44,12 @@ Document To Text combinations
 -----------------------------
 
 Document To Text is the first node in these common chains:
+
+.. figure:: ../../_assets/user-guide/generative-ai/doc-processing-tandem.svg
+   :alt: Document To Text and Multi LLM Query working in tandem
+   :width: 96%
+
+   Document To Text and Multi LLM Query in tandem: read the files, then let Multi LLM Query summarize, extract, translate or classify them. Switching the **aggregate mode** moves between per-page, per-document and whole-corpus answers without changing the workflow.
 
 * **Summarize / extract / translate documents** — ``Document To Text`` → ``Multi LLM Query``. Read the files, then set the Multi LLM Query prompt and aggregate mode: ``perfile`` for one summary per document, ``none`` for page-level results. Typical uses: contract summaries, invoice field extraction, document translation, topic extraction.
 * **RAG ingestion** — ``Document To Text`` → ``Text Embedder`` → ``Save to Pinecone / FAISS``. Read the documents, chunk + embed the text, and store the vectors so the documents become searchable (see :doc:`/user-guide/generative-ai/rag`).

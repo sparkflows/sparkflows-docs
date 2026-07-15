@@ -5,6 +5,12 @@ The **Multi LLM Query** node is the workhorse of Generative AI in Sparkflows —
 
 It is used both on its own (over any text column) and as the **answer-generation step of a RAG pipeline** (after retrieving context from a vector store).
 
+.. figure:: ../../_assets/user-guide/generative-ai/multi-llm-query.svg
+   :alt: Multi LLM Query — one node configured for many tasks
+   :width: 95%
+
+   One node, many jobs: the connection, input mode, prompt and aggregate mode turn Multi LLM Query into a summarizer, extractor, translator, classifier, RAG answerer, or image analyzer.
+
 Multi LLM Query configuration
 -----------------------------
 

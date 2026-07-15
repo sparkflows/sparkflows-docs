@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a3" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .n{fill:#e8f4f1;stroke:#328976;stroke-width:1.6;}
+      .file{fill:#fff7ed;stroke:#d1603a;stroke-width:1.4;}
+      .ft{fill:#9a3412;font-size:12px;font-weight:700;text-anchor:middle;}
+      .t{fill:#0f2e28;font-size:15px;font-weight:700;text-anchor:middle;}
+      .s{fill:#4b5563;font-size:11px;text-anchor:middle;}
+      .e{stroke:#6b7280;stroke-width:1.7;fill:none;}
+      .hd{fill:#eef2ff;stroke:#4f46e5;stroke-width:1;}
+      .hdt{fill:#3730a3;font-size:11px;font-weight:700;text-anchor:middle;}
+      .cell{fill:#ffffff;stroke:#c7d2fe;stroke-width:1;}
+      .ct{fill:#374151;font-size:10.5px;text-anchor:middle;}
+    </style>
+  </defs>
+
+  <text x="24" y="30" fill="#328976" font-size="13" font-weight="700">Document To Text — turn documents into a text table</text>
+
+  <!-- input files -->
+  <rect class="file" x="30"  y="70" width="70" height="46" rx="8"/><text class="ft" x="65" y="98">PDF</text>
+  <rect class="file" x="30"  y="128" width="70" height="46" rx="8"/><text class="ft" x="65" y="156">DOCX</text>
+  <rect class="file" x="30"  y="186" width="70" height="46" rx="8"/><text class="ft" x="65" y="214">IMG</text>
+  <text class="s" x="65" y="252">a folder of files</text>
+
+  <!-- node -->
+  <rect class="n" x="200" y="118" width="170" height="66" rx="10"/>
+  <text class="t" x="285" y="146">Document To Text</text>
+  <text class="s" x="285" y="166">extract text · OCR for scans</text>
+
+  <path class="e" d="M100,93  C150,93 150,140 198,140" marker-end="url(#a3)"/>
+  <path class="e" d="M100,151 L198,151" marker-end="url(#a3)"/>
+  <path class="e" d="M100,209 C150,209 150,162 198,162" marker-end="url(#a3)"/>
+
+  <!-- output table -->
+  <rect class="hd" x="470" y="96"  width="180" height="26"/><text class="hdt" x="560" y="113">content</text>
+  <rect class="hd" x="650" y="96"  width="110" height="26"/><text class="hdt" x="705" y="113">fileName</text>
+  <rect class="hd" x="760" y="96"  width="110" height="26"/><text class="hdt" x="815" y="113">pageNumber</text>
+  <rect class="cell" x="470" y="122" width="180" height="26"/><text class="ct" x="560" y="139">"This Lease Agreement…"</text>
+  <rect class="cell" x="650" y="122" width="110" height="26"/><text class="ct" x="705" y="139">Lease-1.pdf</text>
+  <rect class="cell" x="760" y="122" width="110" height="26"/><text class="ct" x="815" y="139">1</text>
+  <rect class="cell" x="470" y="148" width="180" height="26"/><text class="ct" x="560" y="165">"Rent &amp; deposit terms…"</text>
+  <rect class="cell" x="650" y="148" width="110" height="26"/><text class="ct" x="705" y="165">Lease-1.pdf</text>
+  <rect class="cell" x="760" y="148" width="110" height="26"/><text class="ct" x="815" y="165">2</text>
+  <rect class="cell" x="470" y="174" width="180" height="26"/><text class="ct" x="560" y="191">"Governing law: UAE…"</text>
+  <rect class="cell" x="650" y="174" width="110" height="26"/><text class="ct" x="705" y="191">Lease-2.pdf</text>
+  <rect class="cell" x="760" y="174" width="110" height="26"/><text class="ct" x="815" y="191">1</text>
+
+  <path class="e" d="M370,151 L468,151" marker-end="url(#a3)"/>
+  <text class="s" x="670" y="228">one row per page · file name + page kept for citations</text>
+</svg>

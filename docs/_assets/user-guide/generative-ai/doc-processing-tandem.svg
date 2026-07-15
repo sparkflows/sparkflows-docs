@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .n{fill:#e8f4f1;stroke:#328976;stroke-width:1.6;}
+      .src{fill:#fff7ed;stroke:#d1603a;}
+      .out{fill:#eef2ff;stroke:#4f46e5;}
+      .t{fill:#0f2e28;font-size:14px;font-weight:600;text-anchor:middle;}
+      .s{fill:#4b5563;font-size:11px;text-anchor:middle;}
+      .st{fill:#328976;font-size:13px;font-weight:700;}
+      .e{stroke:#6b7280;stroke-width:1.7;fill:none;}
+      .chip{fill:#f0fdfa;stroke:#0d9488;stroke-width:1;}
+      .ct{fill:#0f766e;font-size:11px;font-weight:600;text-anchor:middle;}
+    </style>
+  </defs>
+
+  <text x="24" y="30" class="st">Document processing — Document To Text + Multi LLM Query in tandem</text>
+
+  <!-- the workflow row -->
+  <rect class="n src" x="24"  y="56" width="150" height="64" rx="10"/>
+  <text class="t" x="99" y="84">Documents</text>
+  <text class="s" x="99" y="102">PDF · DOCX · images</text>
+
+  <rect class="n" x="264" y="56" width="160" height="64" rx="10"/>
+  <text class="t" x="344" y="82">Document To Text</text>
+  <text class="s" x="344" y="100">extract text + OCR</text>
+
+  <rect class="n" x="514" y="56" width="160" height="64" rx="10"/>
+  <text class="t" x="594" y="82">Multi LLM Query</text>
+  <text class="s" x="594" y="100">prompt + LLM</text>
+
+  <rect class="n out" x="764" y="56" width="170" height="64" rx="10"/>
+  <text class="t" x="849" y="84">Result column</text>
+  <text class="s" x="849" y="102">summary / fields / …</text>
+
+  <path class="e" d="M174,88 L262,88" marker-end="url(#a2)"/>
+  <path class="e" d="M424,88 L512,88" marker-end="url(#a2)"/>
+  <path class="e" d="M674,88 L762,88" marker-end="url(#a2)"/>
+
+  <text x="218" y="146" class="s">rows: content, fileName, pageNumber</text>
+
+  <!-- aggregate modes -->
+  <text x="24" y="210" class="st">Switch the aggregate mode — same nodes, different granularity</text>
+  <rect class="n out" x="24"  y="232" width="290" height="150" rx="10" fill="#fbfdff"/>
+  <text class="ct" x="169" y="258" font-size="12">aggregate = none</text>
+  <text class="s" x="169" y="280">one answer per <tspan font-weight="700">page / row</tspan></text>
+  <text class="s" x="169" y="308">e.g. classify every review,</text>
+  <text class="s" x="169" y="326">tag each paragraph</text>
+
+  <rect class="n out" x="336" y="232" width="290" height="150" rx="10" fill="#fbfdff"/>
+  <text class="ct" x="481" y="258" font-size="12">aggregate = perfile</text>
+  <text class="s" x="481" y="280">one answer per <tspan font-weight="700">document</tspan></text>
+  <text class="s" x="481" y="308">e.g. a contract summary,</text>
+  <text class="s" x="481" y="326">invoice fields per file</text>
+
+  <rect class="n out" x="648" y="232" width="288" height="150" rx="10" fill="#fbfdff"/>
+  <text class="ct" x="792" y="258" font-size="12">aggregate = all</text>
+  <text class="s" x="792" y="280">one answer over the <tspan font-weight="700">corpus</tspan></text>
+  <text class="s" x="792" y="308">e.g. one exec summary</text>
+  <text class="s" x="792" y="326">across every document</text>
+
+  <!-- task chips -->
+  <rect class="chip" x="60"  y="348" width="86" height="22" rx="11"/><text class="ct" x="103" y="363">Summarize</text>
+  <rect class="chip" x="392" y="348" width="80" height="22" rx="11"/><text class="ct" x="432" y="363">Extract</text>
+  <rect class="chip" x="486" y="348" width="86" height="22" rx="11"/><text class="ct" x="529" y="363">Translate</text>
+  <rect class="chip" x="704" y="348" width="80" height="22" rx="11"/><text class="ct" x="744" y="363">Classify</text>
+  <rect class="chip" x="792" y="348" width="90" height="22" rx="11"/><text class="ct" x="837" y="363">Topic / Q&amp;A</text>
+</svg>

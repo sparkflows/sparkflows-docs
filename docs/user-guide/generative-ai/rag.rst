@@ -117,6 +117,23 @@ Run it once; your documents are now searchable.
 
 Swap **Save/Read from Pinecone** for **Save/Read from FAISS** to run the same flow entirely locally with no external vector database.
 
+A run of this pipeline over a set of lease PDFs, asked *"Summarize the key terms and the parties of this lease agreement,"* returns a grounded answer drawn only from the retrieved chunks:
+
+.. code-block:: text
+
+   - Parties: Prime Realty UAE (Landlord) and Verizon Wireless Middle East (Tenant).
+   - Premises: retail spaces in UAE malls (e.g. a 1,792 sq ft kiosk at Mall of the Emirates).
+   - Term & Renewal: 3 or 5 year terms from May 24 2025, renewable for one equal term with 180 days' notice.
+   - Rent & Deposit: monthly rent $6,089-$9,904 with 3-4% annual increases; deposits $8,582-$14,800.
+   - Insurance & Default: $2,000,000 liability cover; late rent beyond 10 days allows termination.
+   - Governing Law: United Arab Emirates.
+
+If the answer is not present in the retrieved context, the model says so rather than inventing one — which is exactly the behaviour you want from a grounded RAG pipeline.
+
+.. note::
+
+   **Making the templates run.** Point **Document To Text** at a folder of documents and set the matching **file type** (the node reads ``pdf`` / ``docx`` / images). Select your embedding + LLM connection on the **Text Embedder** and **Multi LLM Query** nodes, and your Pinecone connection on the **Save/Read from Pinecone** nodes. Embeddings and the vector index must share the same dimension (1536 for AzureOpenAI ``text-embedding-ada-002``).
+
 Configuration reference
 -----------------------
 

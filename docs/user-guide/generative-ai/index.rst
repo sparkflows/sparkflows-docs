@@ -32,6 +32,18 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
     ---
 
+    :doc:`/user-guide/generative-ai/multi-llm-query`
+
+    Multi LLM Query
+
+    ---
+
+    :doc:`/user-guide/generative-ai/document-to-text`
+
+    Document To Text
+
+    ---
+
     :doc:`/user-guide/generative-ai/gen-ai-implementations`
 
     Generative AI Sample Apps
@@ -61,6 +73,8 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
    gen-ai-processors.rst
    text-analysis.rst
    rag.rst
+   multi-llm-query.rst
+   document-to-text.rst
    gen-ai-implementations.rst
    gen-ai-nlq.rst
    vector-db/index.rst

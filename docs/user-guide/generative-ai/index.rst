@@ -1,5 +1,5 @@
 Generative AI
-=======
+=============
 
 Sparkflows empowers users to leverage the remarkable Generative AI capabilities by offering numerous processors based on Hugging Face Library. It allows users to host their models and infrastructure either in-house (on-premises or on the cloud within a Virtual Private Cloud) or access licensed models such as GPT-4 through APIs. This versatility ensures that customers can seamlessly harness the power of Generative-AI in a manner that best suits their specific needs and preferences.
 
@@ -17,6 +17,12 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
     :doc:`/user-guide/generative-ai/gen-ai-processors`
 
     Generative AI Processors
+
+    ---
+
+    :doc:`/user-guide/generative-ai/text-analysis`
+
+    Text Analysis
 
     ---
 
@@ -47,6 +53,7 @@ Sparkflows empowers users to leverage the remarkable Generative AI capabilities 
 
    gen-ai-overview.rst
    gen-ai-processors.rst
+   text-analysis.rst
    gen-ai-implementations.rst
    gen-ai-nlq.rst
    vector-db/index.rst

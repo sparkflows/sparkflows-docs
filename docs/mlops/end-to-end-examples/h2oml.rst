@@ -1,196 +1,160 @@
-H2O
-======
+H2O End-to-End Example
+======================
 
-This document describes how to implement end-to-end MLOps for H2O models in Sparkflows, including training, evaluation, champion model selection, prediction workflows, and continuous monitoring with MLflow, predictions over time, and data drift metrics.
+End-to-end MLOps for an H2O model in Sparkflows — build and train the model, register and version it in MLflow, promote a champion, score unseen data with a prediction workflow, and continuously monitor performance and drift. Everything is built visually with low-code nodes.
 
-Create the Training Workflow
-------------------------------
+**How it works.** You build two workflows that operate as a pair:
 
-#. **Start a new Workflow**: Create a new workflow in Sparkflows and give it a meaningful name (e.g., ``H2O_Train_Churn_Model``).
-#. **Read Data**: Use a Read node to ingest your training dataset.
-#. **Data Preprocessing (Optional but Recommended)**: Add necessary nodes for data cleaning, feature engineering, and transformation (e.g. preprocessing nodes).
-#. **Split Data**: Use the Split node to divide your data into training and testing sets.
-#. **Train Model**:
+- a **training workflow** that prepares data, trains and evaluates the H2O model, and saves it as a MOJO (auto-registering it in MLflow); and
+- a **prediction (scoring) workflow** that loads the promoted *champion* model and scores new, unseen data.
 
-   - Add an H2O training algorithm node (e.g., ``H2O DRF``, ``H2O GBM``).
-   - Connect the training split output to this node.
+Once the two are associated, every scoring run feeds the Models page with fresh performance and drift metrics, giving you a living view of how the model behaves over time.
 
-#. **Evaluate Model**:
+Build the H2O Training Workflow
+-------------------------------
 
-   - Add the H2O Evaluate node.
-   - Connect the model output and the testing split output to the Evaluator.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
-   - **Crucial Step**: Enable the Prediction over time and set the model type to populate the Predictions over Time Graph under the Models Page.
+#. **Create a new workflow** and give it a meaningful name (for example, ``H2O_Train_Churn_Model``).
+#. **Read the data** — add a Read node (such as ``Read CSV`` or ``Read JDBC``) to load your training dataset.
+#. **Preprocess (recommended)** — add the cleaning and feature-engineering nodes your data needs.
+#. **Split the data** — use the ``Split`` node to divide the data into training and test sets (for example, 80% train / 20% test).
+#. **Train the model** — add an H2O algorithm node (such as ``H2O DRF`` or ``H2O GBM``) and connect the training split to it.
+#. **Evaluate the model** — add the ``H2O Evaluate`` node and connect both the trained model and the test split to it. Turn on **Prediction Over Time** and set the **model category** (classification, regression, or clustering) so the Predictions Over Time graph is populated on the Models page.
+#. **Score the test data** — add the ``H2O Score`` node and connect the trained model and the test split to it.
+#. **Capture data metrics** — add the ``ML Data Metrics`` node on the scored test data to track data drift, connecting the H2O Score output to it.
+#. **Save the model** — add the ``H2O Model Save`` node to persist the trained model as a MOJO.
 
-#. **Predict/Score**:
+.. important::
 
-   - Add the H2O Score node.
-   - Connect the model output and the testing split output to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
-#. **ML Data Metrics**:
+   Throughout the **training** workflow, keep **Use Champion Model** set to ``false`` on the Evaluate, Score, and ML Data Metrics nodes. You are training and comparing candidate models here — you promote one to champion *afterwards*, in *Select the H2O Champion Model* below.
 
-   - Add the ML Data Metrics node.
-   - Connect the output of the Predict/Score node to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
+.. note::
 
-#. **Save**: Use the H2O Model Save node to explicitly save the trained model. (Note: The model gets registered with MLflow automatically, but this ensures a clean save point.)
+   Saving the model also **registers it with MLflow automatically**. The explicit Save node simply gives you a clean, named save point.
 
-   .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/h2o-training-wf.png
-      :alt: MLOps Examples
-      :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/h2o-training-wf.png
+   :alt: H2O training workflow on the canvas
+   :width: 85%
 
+   The complete H2O training workflow — read the data, split, train, evaluate, score, capture metrics, and save the model.
 
-Execute the Training workflow
--------                                                                               
-                                                                                
-The Training Model gets registered with MLflow automatically.
+Run the H2O Training Workflow
+-----------------------------
+
+Run the workflow. As it finishes, the trained model is **registered with MLflow automatically** and appears on the **Models** page.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/trained-model-list.png
-   :alt: MLOps Examples
-   :width: 70%
+   :alt: Trained H2O model on the Models page
+   :width: 85%
 
-All the runs of the training workflow will be available under MLflow which will show up under the experiment name: **PROJECT NAME - WORKFLOW NAME** 
+   The newly trained H2O model, listed on the Models page.
+
+Every run of the training workflow is tracked in MLflow under the experiment name **PROJECT NAME - WORKFLOW NAME**.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/training-wf-runs-track.png
-   :alt: MLOps Examples
-   :width: 70%                                                                              
+   :alt: H2O training runs tracked in MLflow
+   :width: 85%
 
+   Each training run is captured as an MLflow experiment run, so you can compare candidates.
 
-Select your champion model by toggling the champion button:
+Select the H2O Champion Model
+-----------------------------
 
-.. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/champion-button-toggle.png
-   :alt: MLOps Examples
-   :width: 70%
-
-
-
-Create the Prediction Workflow
-------------------------------
-
-#. **Start a new Workflow**: Create a new workflow in Sparkflows and give it a meaningful name (e.g., ``H2O_Predict_Churn_Model``).
-#. **Read Data**: Use a Read node to ingest the unseen data you wish to score/predict.
-#. **Data Preprocessing**: Apply the exact same preprocessing and transformation steps used in the training workflow to the new, unseen data.
-#. **Load Model**:
-
-   - Add the H2O Model Load node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True`` to load the currently designated champion model.
-
-#. **Predict/Score**:
-
-   - Add the H2O Score node.
-   - Connect the output of the Load Model node and the preprocessed data to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
-
-#. **ML Data Metrics (Optional for real-time predictions, recommended for batch scoring)**:
-
-   - Add the ML Data Metrics node.
-   - Connect the output of the Predict/Score node to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
-
-#. **Write Results**: Use a Save node (e.g., ``Save CSV``, ``Save JDBC``) to save the prediction results.
-
-
-   .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/associate-scoring-wf.png
-      :alt: MLOps Examples
-      :width: 70%
-
-   .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/associate-scoring-wf-1.png
-      :alt: MLOps Examples
-      :width: 70%
-
-
-
-Associate the Prediction Workflow with the Training Workflow
-------------------------------------------------------------------
-
-By clicking **Associate Scoring Workflow**, prediction workflow can be associated with the training workflow. Follow the below steps for the same:
-
-* First, select the desired prediction workflow and confirm your choice.
-* Next, execute the selected prediction workflows using your new, unseen test data.
-
-
+After comparing runs, promote your best model to **champion**. On the Models page, use the **champion toggle** in the model's Actions row. The ``⋮`` menu on the same row also lets you download the model, view its event history, and associate a scoring workflow.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/champion-button-toggle.png
-   :alt: MLOps Examples
-   :width: 70%
+   :alt: Promote an H2O model to champion
+   :width: 85%
+
+   Toggle a model to champion from its Actions row on the Models page.
+
+Build the H2O Prediction Workflow
+---------------------------------
+
+#. **Create a new workflow** and name it clearly (for example, ``H2O_Predict_Churn_Model``).
+#. **Read the data** — add a Read node for the new, unseen data you want to score.
+#. **Preprocess identically** — apply the *exact same* cleaning and feature steps used during training.
+#. **Load the champion** — add the ``H2O Model Load`` node.
+#. **Score the data** — add the ``H2O Score`` node and connect the loaded model and the preprocessed data to it.
+#. **Capture data metrics** — add the ``ML Data Metrics`` node on the scored data to track drift (recommended for batch scoring).
+#. **Write the results** — add a Save node (such as ``Save CSV`` or ``Save JDBC``) to store the predictions.
+
+.. important::
+
+   In the **prediction** workflow, set **Use Champion Model** to ``true`` on the Load, Score, and ML Data Metrics nodes so scoring always uses the currently promoted champion.
+
+.. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/associate-scoring-wf.png
+   :alt: H2O prediction workflow on the canvas
+   :width: 85%
+
+   The prediction workflow — reuse the same preprocessing, load the champion, score the unseen data, and capture drift metrics.
+
+.. figure:: ../../_assets/mlops/end-to-end-examples/h2oml/associate-scoring-wf-1.png
+   :alt: H2O prediction node configuration
+   :width: 85%
+
+   Configuring the prediction nodes — *Use Champion Model* is set to true on Load, Score, and ML Data Metrics, with Prediction Over Time enabled and the model category selected.
+
+Associate the H2O Prediction Workflow
+-------------------------------------
+
+Link the prediction workflow to the champion model so its scoring runs feed the monitoring graphs.
+
+#. On the Models page, open the champion model's ``⋮`` menu and choose **Associate Scoring Workflow**.
+#. Select your prediction workflow from the dropdown and confirm.
+#. Run the prediction workflow on your new, unseen data. Each run now contributes fresh metrics to the model.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/scoring-wf-association.png
-   :alt: MLOps Examples
-   :width: 70%
+   :alt: Associate Scoring Workflow dialog
+   :width: 85%
 
+   Choosing the prediction workflow to associate with the trained model.
 
+Monitor the H2O Model
+---------------------
 
-Model Monitoring and Drift
--------------------------
+With the workflows associated, Sparkflows continuously updates a rich set of monitoring views as new data is scored:
 
-Sparkflows MLOps features provide comprehensive monitoring capabilities:
+- **Predictions Over Time** — model performance as it scores new data over time (enabled on the training Evaluate node).
+- **Data Drift Over Time** — the distribution of incoming features compared with the training data.
+- **Average Drift Over Time** — the distribution of new predictions compared with predictions made during training.
+- **Metrics Over Time** — test metrics on unseen data over time, plus the volume of data scored in each batch.
 
-#. **Performance Over Time**: The Predictions over Time Graph (enabled in the training workflow's Evaluator node) displays model performance metrics as the model scores new data over time using the associated prediction workflow.
+.. tip::
 
-#. **Data Drift**: The ML Data Metrics node in the prediction workflow calculates key metrics, including:
+   Configure thresholds on the drift metrics to be alerted when a model starts to decay, so you know when it is time to retrain.
 
-    - **Data Drift Over Time**: Compares the statistical distribution of input features in the new data against the training data.
-    - **Average Drift Over Time**: Compares the distribution of predictions on the new data against the predictions made during training.
-    - **Metric Thresholds**: Alerts can be configured based on defined thresholds for these drift metrics, notifying users when the model is decaying.
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/data-drift-over-time.png
+   :alt: Data drift over time
+   :width: 85%
 
-#. **Metrics Over Time**: Track the model's test metrics over time using unseen datasets. Additionally, monitor the volume of data utilized during batch prediction.
+   Data Drift Over Time.
 
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/avg-drift-over-time.png
+   :alt: Average drift over time
+   :width: 85%
 
-Finally, continuously monitor all relevant metrics over time.
+   Average Drift Over Time.
 
-* Data Drift Over Time
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-1.png
+   :alt: Prediction over time for classification
+   :width: 85%
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/data-drift-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
+   Prediction Over Time — Classification.
 
-* Average Drift Over Time
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-2.png
+   :alt: Prediction over time for clustering
+   :width: 85%
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/avg-drift-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
+   Prediction Over Time — Clustering.
 
-* Prediction Over Time - Classification
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-3.png
+   :alt: Prediction over time for regression
+   :width: 85%
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-1.png
-     :alt: MLOps Examples
-     :width: 70%
+   Prediction Over Time — Regression.
 
-* Prediction Over Time - Clustering
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/metrics-over-time.png
+   :alt: Metrics over time
+   :width: 85%
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-2.png
-     :alt: MLOps Examples
-     :width: 70%
-
-* Prediction Over Time - Regression
-
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-3.png
-     :alt: MLOps Examples
-     :width: 70%
-
-* Metrics Over Time 
-
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/metrics-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   Metrics Over Time.

@@ -1,171 +1,166 @@
-Scikit-learn
-=======
+Scikit-learn End-to-End Example
+===============================
 
-This document describes how to implement end-to-end MLOps for Scikit-learn (Sklearn) models in Sparkflows, including training, evaluation, champion model selection, prediction workflows, and continuous monitoring using MLflow, predictions over time, and data drift metrics.
+End-to-end MLOps for a Scikit-learn model in Sparkflows — build and train the model, register and version it in MLflow, promote a champion, score unseen data with a prediction workflow, and continuously monitor performance and drift. Everything is built visually with low-code nodes.
 
-Create the Training Workflow
----------------------------------------
+**How it works.** You build two workflows that operate as a pair:
 
-#. **Start a new Workflow**: Create a new workflow in Sparkflows and give it a meaningful name (e.g., ``Sklearn_K_means_Model``).
-#. **Read Data**: Use a Read node to ingest your training dataset.
-#. **Data Preprocessing (Optional but Recommended)**: Add necessary nodes for data cleaning, feature engineering, and transformation.
-#. **Split Data**: Use the Split node to divide your data into training and testing sets.
-#. **Train Model**:
+- a **training workflow** that prepares data, trains and evaluates the Scikit-learn model, and saves it (auto-registering it in MLflow); and
+- a **prediction (scoring) workflow** that loads the promoted *champion* model and scores new, unseen data.
 
-   - Add an Sklearn training algorithm node (e.g., ``Sklearn Random Forest``, ``Sklearn Logistic Regression``).
-   - Connect the training split output to this node.
+Once the two are associated, every scoring run feeds the Models page with fresh performance and drift metrics, giving you a living view of how the model behaves over time.
 
-#. **Evaluate Model**:
+Build the Scikit-learn Training Workflow
+----------------------------------------
 
-   - Add the Sklearn Evaluate node.
-   - Connect the model output and the testing split output to the Evaluator.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
-   - **Crucial Step**: Enable the Prediction over time and set the model type to populate the Predictions over Time Graph under the Models Page.
-#. **Predict/Score**:
+#. **Create a new workflow** and give it a meaningful name (for example, ``Sklearn_Train_Churn_Model``).
+#. **Read the data** — add a Read node (such as ``Read CSV`` or ``Read JDBC``) to load your training dataset.
+#. **Preprocess (recommended)** — add the cleaning and feature-engineering nodes your data needs.
+#. **Split the data** — use the ``Split`` node to divide the data into training and test sets (for example, 80% train / 20% test).
+#. **Train the model** — add a Scikit-learn algorithm node (such as ``Sklearn Random Forest`` or ``Sklearn Logistic Regression``) and connect the training split to it.
+#. **Evaluate the model** — add the ``Sklearn Evaluate`` node and connect both the trained model and the test split to it. Turn on **Prediction Over Time** and set the **model category** (classification, regression, or clustering) so the Predictions Over Time graph is populated on the Models page.
+#. **Score the test data** — add the ``Sklearn Score`` node and connect the trained model and the test split to it.
+#. **Capture data metrics** — add the ``ML Data Metrics`` node on the scored test data to track data drift, connecting the Sklearn Score output to it.
+#. **Save the model** — add the ``Sklearn Model Save`` node to persist the trained model.
 
-   - Add the Sklearn Score node.
-   - Connect the model output and the testing split output to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
-#. **ML Data Metrics**:
+.. important::
 
-   - Add the ML Data Metrics node.
-   - Connect the output of the Predict/Score node to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``False``.
-#. **Save**: Use the Sklearn Model Save node to explicitly save the trained model. 
+   Throughout the **training** workflow, keep **Use Champion Model** set to ``false`` on the Evaluate, Score, and ML Data Metrics nodes. You are training and comparing candidate models here — you promote one to champion *afterwards*, in *Select the Scikit-learn Champion Model* below.
 
-   .. note:: The model gets registered with MLflow automatically, but this ensures a clean save point.
+.. note::
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-training-wf.png
-     :alt: MLOps Examples
-     :width: 70%
+   Saving the model also **registers it with MLflow automatically**. The explicit Save node simply gives you a clean, named save point.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-nodes-config-1.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-training-wf.png
+   :alt: Scikit-learn training workflow on the canvas
+   :width: 85%
 
-Run the Training workflow
--------------------------------
+   The complete Scikit-learn training workflow — read the data, split, train, evaluate, score, capture metrics, and save the model.
 
-The training model gets registered with MLflow automatically while saving the Sklearn model.
+.. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-nodes-config-1.png
+   :alt: Scikit-learn training node configuration
+   :width: 85%
+
+   Configuring the training nodes — keep *Use Champion Model* off and turn on *Prediction Over Time* with the correct model category.
+
+Run the Scikit-learn Training Workflow
+--------------------------------------
+
+Run the workflow. As it finishes, the trained model is **registered with MLflow automatically** while the Scikit-learn model is saved, and appears on the **Models** page.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-trained-model-on-models-page.png
-     :alt: MLOps Examples
-     :width: 70%
+   :alt: Trained Scikit-learn model on the Models page
+   :width: 85%
 
-All the runs of the training workflow will be available under MLflow which will show up under the experiment name: **PROJECT NAME - WORKFLOW NAME**
+   The newly trained Scikit-learn model, listed on the Models page.
+
+Every run of the training workflow is tracked in MLflow under the experiment name **PROJECT NAME - WORKFLOW NAME**.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-training-wf-runs-track.png
-   :alt: MLOps Examples
-   :width: 70%
+   :alt: Scikit-learn training runs tracked in MLflow
+   :width: 85%
 
-Select your champion model by **toggling** the champion button.
+   Each training run is captured as an MLflow experiment run, so you can compare candidates.
+
+Select the Scikit-learn Champion Model
+--------------------------------------
+
+After comparing runs, promote your best model to **champion**. On the Models page, use the **champion toggle** in the model's Actions row. The ``⋮`` menu on the same row also lets you download the model, view its event history, and associate a scoring workflow.
 
 .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/champion-model-toggle.png
-   :alt: MLOps Examples
-   :width: 70%
+   :alt: Promote a model to champion
+   :width: 85%
 
+   Toggle a model to champion; the Actions menu also holds *Associate Scoring Workflow*, *Download*, and *View Event History*.
 
+Build the Scikit-learn Prediction Workflow
+------------------------------------------
 
-Create a Prediction Workflow
-----------------------------
+#. **Create a new workflow** and name it clearly (for example, ``Sklearn_Predict_Churn_Model``).
+#. **Read the data** — add a Read node for the new, unseen data you want to score.
+#. **Preprocess identically** — apply the *exact same* cleaning and feature steps used during training.
+#. **Load the champion** — add the ``Sklearn Model Load`` node.
+#. **Score the data** — add the ``Sklearn Predict`` node and connect the loaded model and the preprocessed data to it.
+#. **Capture data metrics** — add the ``ML Data Metrics`` node on the scored data to track drift (recommended for batch scoring).
+#. **Write the results** — add a Save node (such as ``Save CSV`` or ``Save JDBC``) to store the predictions.
 
-#. **Start a new Workflow**: Create a new workflow in Sparkflows and give it a meaningful name (e.g., ``Sklearn_K_means_Predict_Model``).
-#. **Read Data**: Use a Read node to ingest the unseen data you wish to score/predict.
-#. **Data Preprocessing**: Apply the exact same preprocessing and transformation steps used in the training workflow to the new, unseen data.
-#. **Load Model**:
+.. important::
 
-   - Add the Sklearn Model Load node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True`` to load the currently designated champion model.
-#. **Predict/Score**:
+   In the **prediction** workflow, set **Use Champion Model** to ``true`` on the Load, Predict, and ML Data Metrics nodes so scoring always uses the currently promoted champion.
 
-   - Add the Sklearn Predict node.
-   - Connect the output of the Load Model node and the preprocessed data to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
-#. **ML Data Metrics**:
+.. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-prediction-wf.png
+   :alt: Scikit-learn prediction workflow on the canvas
+   :width: 85%
 
-   - Add the ML Data Metrics node.
-   - Connect the output of the Predict/Score node to this node.
-   - **Crucial Step**: Ensure the Champion Model Selection is toggled to ``True``.
-#. **Write Results**: Use a Save node to save the prediction results.
+   The prediction workflow — reuse the same preprocessing, load the champion, score the unseen data, and capture drift metrics.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-prediction-wf.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-nodes-config-2.png
+   :alt: Scikit-learn prediction node configuration
+   :width: 85%
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sklearn/sklearn-nodes-config-2.png
-     :alt: MLOps Examples
-     :width: 70%
+   Configuring the prediction nodes — *Use Champion Model* is set to true on Load, Predict, and ML Data Metrics.
 
+Associate the Scikit-learn Prediction Workflow
+----------------------------------------------
 
-Associate the Prediction Workflow with the Training Workflow
----------------------------------------------------------------
+Link the prediction workflow to the champion model so its scoring runs feed the monitoring graphs.
 
-By clicking **Associate Scoring Workflow**, prediction workflow can be associated with the training workflow. Follow the below steps for the same:
+#. On the Models page, open the champion model's ``⋮`` menu and choose **Associate Scoring Workflow**.
+#. Select your prediction workflow from the dropdown and confirm.
+#. Run the prediction workflow on your new, unseen data. Each run now contributes fresh metrics to the model.
 
-* First, select the desired prediction workflow and confirm your choice.
-* Next, execute the selected prediction workflows using your new, unseen test data.
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/scoring-wf-association.png
+   :alt: Associate Scoring Workflow dialog
+   :width: 85%
 
- .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/scoring-wf-association.png
-     :alt: MLOps Examples
-     :width: 70%
+   Choosing the prediction workflow to associate with the trained model.
 
-Model Monitoring and Drift
--------------------------
+Monitor the Scikit-learn Model
+------------------------------
 
-Sparkflows MLOps features provide comprehensive monitoring capabilities:
+With the workflows associated, Sparkflows continuously updates a rich set of monitoring views as new data is scored:
 
-#. **Performance Over Time**: The Predictions over Time Graph (enabled in the training workflow's Evaluator node) displays model performance metrics as the model scores new data over time using the associated prediction workflow.
-#. **Data Drift**: The ML Data Metrics node in the prediction workflow calculates key metrics, including:
+- **Predictions Over Time** — model performance as it scores new data over time (enabled on the training Evaluate node).
+- **Data Drift Over Time** — the distribution of incoming features compared with the training data.
+- **Average Drift Over Time** — the distribution of new predictions compared with predictions made during training.
+- **Metrics Over Time** — test metrics on unseen data over time, plus the volume of data scored in each batch.
 
-    - **Data Drift Over Time**: Compares the statistical distribution of input features in the new data against the training data.
-    - **Average Drift Over Time**: Compares the distribution of predictions on the new data against the predictions made during training.
-    - **Metric Thresholds**: Alerts can be configured based on defined thresholds for these drift metrics, notifying users when the model is decaying.
+.. tip::
 
-#. **Metrics Over Time**: Track the model's test metrics over time using unseen datasets. Additionally, monitor the volume of data utilized during batch prediction.
+   Configure thresholds on the drift metrics to be alerted when a model starts to decay, so you know when it is time to retrain.
 
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/data-drift-over-time.png
+   :alt: Data drift over time
+   :width: 85%
 
+   Data Drift Over Time.
 
-Finally, continuously monitor all relevant metrics over time.
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/avg-drift-over-time.png
+   :alt: Average drift over time
+   :width: 85%
 
-* Data Drift Over Time
+   Average Drift Over Time.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/data-drift-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-1.png
+   :alt: Prediction over time for classification
+   :width: 85%
 
-* Average Drift Over Time
+   Prediction Over Time — Classification.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/avg-drift-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-2.png
+   :alt: Prediction over time for clustering
+   :width: 85%
 
-* Prediction Over Time - Classification
+   Prediction Over Time — Clustering.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-1.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-3.png
+   :alt: Prediction over time for regression
+   :width: 85%
 
-* Prediction Over Time - Clustering
+   Prediction Over Time — Regression.
 
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-2.png
-     :alt: MLOps Examples
-     :width: 70%
+.. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/metrics-over-time.png
+   :alt: Metrics over time
+   :width: 85%
 
-* Prediction Over Time - Regression
-
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/prediction-over-time-3.png
-     :alt: MLOps Examples
-     :width: 70%
-
-* Metrics Over Time 
-
-  .. figure:: ../../_assets/mlops/end-to-end-examples/sparkml/metrics-over-time.png
-     :alt: MLOps Examples
-     :width: 70%
-
-
-
-
-
-
-
+   Metrics Over Time.

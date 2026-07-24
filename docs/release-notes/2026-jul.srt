@@ -1,5 +1,5 @@
 Version 3.3.30 - July, 2026
-----------------------------
+============================
 
 New Features
 ------------
@@ -31,9 +31,4 @@ Workflow Authoring
 
 * **Workflow Node Anchors:** Support has been added for input and output anchors, enabling explicit Left/Right input mapping for multi-input nodes and improved handling of multiple outputs. This enhancement improves workflow readability, connection accuracy, and maintainability.
 
-Documentation
--------------
 
-* Modern User Interface documentation has been added covering the redesigned Administration page, Project Workspace, Project Dashboard, Workflow and Pipeline Editor, and Co-Pilot user experience enhancements introduced as part of the Modern UX initiative.
-
-* Workflow Node Anchors documentation has been added covering anchor-based connections for multi-input and multi-output operators, including Left/Right input mapping, Join nodes, Lookup, Compare Specific Columns, and other supported workflow operators.

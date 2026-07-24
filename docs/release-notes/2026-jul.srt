@@ -1,0 +1,39 @@
+Version 3.3.30 - July, 2026
+----------------------------
+
+New Features
+------------
+
+User Experience
++++++++++++++++
+
+* **Modern Administration Navigation:** A new Left Navigation has been introduced for the Administration module, providing faster access to administrative features while aligning with the new Sparkflows user experience and navigation standards.
+
+* **Project Workspace Navigation:** The Projects page has been enhanced with Recent Projects, Project Categories, and redesigned Project Cards, enabling quicker project access and improved navigation.
+
+* **Workflow & Pipeline Editor Refresh:** The Workflow and Pipeline Editor now includes an enhanced editor canvas and refined node interface for a more intuitive and efficient workflow design experience.
+
+Enhancements
+------------
+
+User Interface
+++++++++++++++
+
+* **Project Dashboard UI:** The Project Dashboard has been refreshed with modern card layouts, updated colors, and improved typography for a cleaner and more consistent user experience.
+
+Co-Pilot
++++++++++
+
+* **Co-Pilot Experience Improvements:** The Co-Pilot interface has been enhanced with an improved Prompt section, redesigned Response Preview, token usage visibility, and overall UI/UX refinements to streamline AI-assisted workflow creation.
+
+Workflow Authoring
+++++++++++++++++++
+
+* **Workflow Node Anchors:** Support has been added for input and output anchors, enabling explicit Left/Right input mapping for multi-input nodes and improved handling of multiple outputs. This enhancement improves workflow readability, connection accuracy, and maintainability.
+
+Documentation
+-------------
+
+* Modern User Interface documentation has been added covering the redesigned Administration page, Project Workspace, Project Dashboard, Workflow and Pipeline Editor, and Co-Pilot user experience enhancements introduced as part of the Modern UX initiative.
+
+* Workflow Node Anchors documentation has been added covering anchor-based connections for multi-input and multi-output operators, including Left/Right input mapping, Join nodes, Lookup, Compare Specific Columns, and other supported workflow operators.

@@ -113,6 +113,16 @@ Ensure that you have the following prerequisites with regard to Instance type an
      - 8
      - 64 
      - ami-0261755bbcb8c4a84
+   * - Ubuntu 22.04
+     - t3.2xlarge
+     - 8
+     - 32 
+     - ami-0261755bbcb8c4a84
+   * - Ubuntu 24.04
+     - t3.2xlarge
+     - 8
+     - 32 
+     - ami-0261755bbcb8c4a84
 
 Visit `AWS Documentation <https://aws.amazon.com/ec2/instance-types>`_ to get more details.
 

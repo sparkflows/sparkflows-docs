@@ -28,7 +28,7 @@ Instance Type & OS Supported
 ++++
 
 .. list-table:: 
-   :widths: 10 20 10 30
+   :widths: 10 10 10 30
    :header-rows: 1
 
    * - OS
@@ -47,7 +47,30 @@ Instance Type & OS Supported
      - Standard_E8bds_v5
      - 8
      - 64
-
+   * - Ubuntu 22.04
+     - Standard_D4s_v3
+     - 4
+     - 16
+   * - Ubuntu 22.04
+     - Standard_D8s_v3
+     - 8
+     - 32
+   * - Ubuntu 22.04
+     - Standard_E8bds_v5
+     - 8
+     - 64
+   * - Ubuntu 24.04
+     - Standard_D4s_v3
+     - 4
+     - 16
+   * - Ubuntu 24.04
+     - Standard_D8s_v3
+     - 8
+     - 32
+   * - Ubuntu 24.04
+     - Standard_E8bds_v5
+     - 8
+     - 64
 
 Visit `Azure Documentation <https://learn.microsoft.com/en-us/azure/virtual-machines/fsv2-series>`_ to get more details.
 

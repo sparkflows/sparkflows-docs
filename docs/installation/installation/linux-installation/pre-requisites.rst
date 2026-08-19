@@ -8,7 +8,7 @@ Supported Linux Versions
 ::
 
   - CentOS : 7
-  - Ubuntu : 20.04
+  - Ubuntu : 20.04, 22.04, 24.04
   - RHEL : 8
 
 

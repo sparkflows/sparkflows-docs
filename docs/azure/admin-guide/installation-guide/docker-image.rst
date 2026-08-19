@@ -60,6 +60,7 @@ Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container.
         -e FIRE_HTTP_PORT=8080 \
         -e FIRE_HTTPS_PORT=9443 \
         -e FIRE_VERSION=${FIRE_VERSION} \
+        -e DB=h2 \ 
         sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
 .. Note:: We recommend 16GB or above.

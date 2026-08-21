@@ -1,5 +1,5 @@
 Tools & Actions
-=============
+===============
 
 Connect agents to APIs, applications, databases, workflows, and custom tools so they can retrieve information and take actions across enterprise systems.
 
@@ -7,49 +7,57 @@ Sparkflows tools provide a controlled interface between an agent and external ca
 
 Tools should be selected and configured based on the task the agent needs to perform. Parameters, authentication, permissions, and expected outputs should be validated before tools are made available to production agents.
 
-Start Here
------------------
+Steps to Add Tools & Actions
+----------------------------
 
-Start by identifying the systems and actions the agent needs to access. Connect the required tools, configure their parameters and credentials, and test each tool independently before incorporating it into an agent workflow.
+Add tools and actions to an agent by working through the following steps.
 
-Review tool inputs and returned results during testing. For sensitive or irreversible actions, apply appropriate permissions, guardrails, or human approval before allowing the agent to execute the action.
+Step 1: Identify Required Tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation Topics
------------------------------
+Identify the systems, information, and actions the agent needs to access.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Select the Tool Type
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Tools Overview
-     - Understand how tools connect agents to external capabilities.
-   * - Tool Types
-     - Understand the different types of tools available to agents.
-   * - Add Tools to Agents
-     - Connect tools to an agent and make them available during execution.
-   * - API Tools
-     - Connect agents to APIs and external services.
-   * - Database Tools
-     - Allow agents to access and work with database systems.
-   * - Application Tools
-     - Connect agents to enterprise applications.
-   * - Workflow Tools
-     - Invoke Sparkflows workflows from agents.
-   * - Custom Tools
-     - Extend agents with custom tool capabilities.
-   * - Tool Parameters
-     - Configure inputs and parameters required by tools.
-   * - Tool Authentication
-     - Configure authentication and credentials for tool access.
-   * - Tool Permissions
-     - Control which tools and actions agents can invoke.
-   * - Tool Execution
-     - Run tools and inspect their inputs and returned results.
-   * - Actions
-     - Configure actions that agents can perform across connected systems.
-   * - Human Approval
-     - Require review before selected actions are executed.
-   * - Troubleshooting
-     - Diagnose tool configuration, authentication, and execution issues.
+Choose the appropriate tool type based on the capability required, such as APIs, databases, applications, workflows, or custom tools.
+
+Step 3: Connect the Tool
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connect the required tool to the agent and make it available during execution.
+
+Step 4: Configure Tool Parameters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configure the inputs and parameters required by the tool.
+
+Step 5: Configure Authentication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configure the authentication and credentials required for tool access.
+
+Step 6: Configure Tool Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Control which tools and actions the agent can invoke.
+
+Step 7: Test Tool Execution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run tools independently and inspect their inputs and returned results.
+
+Step 8: Configure Actions
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configure the actions that agents can perform across connected systems.
+
+Step 9: Add Human Approval
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Require human review before selected sensitive or irreversible actions are executed.
+
+Next Step
+---------
+
+Once tools and actions are configured and tested, incorporate them into the agent workflow and validate their behavior during evaluation.

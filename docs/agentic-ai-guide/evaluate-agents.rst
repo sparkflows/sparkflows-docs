@@ -1,58 +1,58 @@
-Evaluate
-===========
-After building an agent, evaluate its behavior using representative inputs, business scenarios, and repeatable test cases. Evaluation helps determine not only whether a workflow executes successfully, but whether the agent produces useful, grounded, and appropriate results for the intended task.
+Evaluate AI Agents
+===================
 
-A technically successful run can still produce an incomplete answer, select an inappropriate tool, retrieve irrelevant context, or return an output that does not satisfy business requirements. Sparkflows evaluation should therefore combine execution inspection with response review, tool and retrieval analysis, and supported quality metrics.
+Evaluate AI agents in Sparkflows using representative inputs, business scenarios, and repeatable test cases to validate agent behavior and results.
 
-Evaluation is also iterative. Teams can refine prompts, models, tools, retrieval settings, and workflow logic, then compare the resulting behavior before approving an agent for production.
+Evaluation helps determine not only whether an agent workflow executes successfully, but whether the agent produces useful, grounded, and appropriate results for the intended task. Sparkflows evaluation combines execution inspection with response review, tool and retrieval analysis, and supported quality metrics.
 
-Start here
-----------------
-Start by testing the agent interactively with representative inputs. Review the execution trace, tool calls, retrieved context, intermediate workflow outputs, and final response. For important use cases, create repeatable evaluation datasets or test scenarios so changes can be compared consistently.
+Evaluation is an iterative process. Teams can refine prompts, models, tools, retrieval settings, and workflow logic, then compare the resulting behavior before approving an agent for production.
 
-Once the agent meets the expected functional and business criteria, proceed to Deploy. Where guardrails or human approvals are required, validate those controls as part of evaluation rather than waiting until production.
+Steps to Evaluate an Agent
+--------------------------
 
-Documentation Topics
------------------------------
+Evaluate an agent by working through the following steps.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 1: Test the Agent
+~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Evaluation Overview
-     - Understand how Sparkflows can be used to validate agent behavior before production.
-   * - Interactive Testing
-     - Run an agent with representative questions and inputs.
-   * - Chat with Agents
-     - Test conversational behavior and actions interactively.
-   * - Workflow Testing
-     - Test complete workflows and individual stages.
-   * - Test Cases
-     - Create repeatable scenarios for agent validation.
-   * - Evaluation Datasets
-     - Evaluate agents against representative datasets and questions.
-   * - Evaluation Criteria & Metrics
-     - Use supported criteria and metrics to assess agent outputs.
-   * - Compare Runs
-     - Compare outputs across prompts, models, tools, or workflow configurations.
-   * - Trace Analysis
-     - Inspect the execution steps taken by an agent.
-   * - Tool Execution Review
-     - Review selected tools, their inputs, and returned results.
-   * - RAG Evaluation
-     - Inspect retrieved context and validate grounded responses.
-   * - Regression Testing
-     - Re-test important scenarios after agent changes.
-   * - Guardrail Testing
-     - Validate behavior against configured controls.
-   * - Human Review
-     - Include reviewer feedback where business judgment is required.
-   * - Evaluation Results
-     - Review and interpret evaluation outcomes.
-   * - Troubleshooting
-     - Diagnose testing, tracing, and evaluation issues.
+Run the agent interactively using representative questions, inputs, and business scenarios.
 
+Step 2: Inspect the Execution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Review the execution trace, workflow stages, intermediate outputs, and final response to understand how the agent performed the task.
 
+Step 3: Review Tools & Retrieval
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Review the tools selected by the agent, their inputs and returned results, and the context retrieved for the response.
+
+Step 4: Create Test Cases
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create repeatable scenarios and evaluation datasets for important use cases so agent behavior can be validated consistently.
+
+Step 5: Evaluate Results
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use supported evaluation criteria and metrics to assess the quality, relevance, grounding, and appropriateness of agent outputs.
+
+Step 6: Compare Runs
+~~~~~~~~~~~~~~~~~~~~
+
+Compare results across prompts, models, tools, retrieval settings, or workflow configurations to identify improvements.
+
+Step 7: Test for Regression
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Re-test important scenarios after changes to ensure existing agent behavior continues to meet expectations.
+
+Step 8: Validate Guardrails & Human Review
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Validate configured guardrails and include human review where business judgment is required.
+
+Next Step
+---------
+
+Once the agent meets the expected functional and business criteria, continue to Deploy to prepare it for production.

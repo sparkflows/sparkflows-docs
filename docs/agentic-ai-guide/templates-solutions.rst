@@ -7,41 +7,52 @@ Templates should remain configurable. Teams can adapt data connections, models, 
 
 Sparkflows can organize templates by business function and industry so users can quickly move from a documented pattern to a working implementation.
 
-Start here
-----------
+Steps to Use Templates & Solutions
+-----------------------------------
 
-Start by selecting the template closest to the intended business process. Review its required data, connections, tools, and configuration, then clone or customize it for the target environment.
+Use templates and solution accelerators by working through the following steps.
 
-Use templates as accelerators rather than fixed applications; validate the workflow and controls before production deployment.
+Step 1: Select a Template
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation topics
---------------------
+Select the template closest to the intended business process.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Review Requirements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Templates Overview
-     - Understand reusable Sparkflows agent and workflow templates.
-   * - Use a Template
-     - Start from an existing agentic workflow pattern.
-   * - Customize a Template
-     - Adapt data, prompts, tools, logic, and outputs.
-   * - Finance & Operations
-     - Explore templates for finance and operational processes.
-   * - IT Operations
-     - Explore agents for service, assets, tickets, and automation.
-   * - Sales & Customer Operations
-     - Explore customer, sales, support, and recommendation agents.
-   * - Manufacturing & Supply Chain
-     - Explore production, maintenance, supplier, inventory, and logistics agents.
-   * - Retail & CPG
-     - Explore merchandising, demand, customer, and store operations patterns.
-   * - Healthcare & Life Sciences
-     - Explore document, clinical, operational, and analytics patterns.
-   * - BFSI
-     - Explore banking, insurance, risk, finance, and customer operations patterns.
-   * - Troubleshooting
-     - Resolve template configuration and dependency issues.
+Review the data, connections, tools, and configuration required by the template.
+
+Step 3: Clone or Customize the Template
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Clone or customize the template for the target environment.
+
+Step 4: Adapt the Data & Connections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configure the data connections and other resources required by the target environment.
+
+Step 5: Customize Models & Prompts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Adapt the models and prompts to match the intended use case.
+
+Step 6: Configure Tools & Logic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Customize the tools, business logic, rules, and workflow behavior as required.
+
+Step 7: Configure Approvals & Outputs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Adapt approval steps and outputs to match the target business process.
+
+Step 8: Validate the Solution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Test and validate the customized workflow and its controls before production deployment.
+
+Next Step
+---------
+
+Once the template or solution has been customized and validated, continue to Evaluate to test its behavior and results systematically.

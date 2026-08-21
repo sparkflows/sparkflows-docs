@@ -77,6 +77,30 @@ Build, orchestrate, evaluate, deploy, and govern enterprise AI agents using visu
     :doc:`/agentic-ai-guide/security-guardrails`
 
     Control access, data, tools, outputs, actions, and governance.
+
+    ---
+
+    :doc:`/agentic-ai-guide/templates-solutions`
+
+    Explore reusable agent and workflow templates for common business use cases.
+
+    ---
+
+    :doc:`/agentic-ai-guide/integrations`
+
+    Connect agents to enterprise data, applications, APIs, and cloud platforms.
+
+    ---
+
+    :doc:`/agentic-ai-guide/developer-api`
+
+    Extend Sparkflows with APIs, custom processors, tools, and code.
+
+    ---
+
+    :doc:`/agentic-ai-guide/reference`
+
+    Find detailed reference information for processors, connectors, models, tools, and APIs.
     
 
 .. toctree::
@@ -94,4 +118,7 @@ Build, orchestrate, evaluate, deploy, and govern enterprise AI agents using visu
    multi-agent-orchestration.rst
    human-in-the-loop.rst
    security-guardrails.rst
-
+   templates-solutions.rst
+   integrations.rst
+   developer-api.rst
+   reference.rst

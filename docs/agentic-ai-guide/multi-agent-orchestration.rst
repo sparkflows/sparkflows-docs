@@ -1,5 +1,5 @@
 Multi-Agent Orchestration
-=============
+=========================
 
 Multi-agent orchestration coordinates specialized agents, tools, and workflows to execute a larger business process. Instead of asking one agent to handle every responsibility, a process can be divided across agents with distinct roles and capabilities.
 
@@ -7,49 +7,67 @@ Sparkflows visual workflows provide the orchestration layer around those agents.
 
 This approach is useful when a business process contains multiple areas of expertise or distinct stages, such as intake, validation, analysis, recommendation, approval, and execution.
 
-Start Here
------------------
+Steps to Build a Multi-Agent Workflow
+-------------------------------------
 
-Start by decomposing the business process into clear responsibilities. Create specialized agents only where independent reasoning or expertise is useful; keep deterministic routing and process control in the workflow when possible.
+Build a multi-agent workflow by working through the following steps.
 
-Define the information passed between agents, failure behavior, approval points, and the final outcome expected from the orchestration. Test both the happy path and exceptions before deployment.
+Step 1: Define Agent Responsibilities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation Topics
------------------------------
+Decompose the business process into clear responsibilities and define the role and objective of each specialized agent.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Create Specialized Agents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Orchestration Overview
-     - Understand how specialized agents collaborate in Sparkflows.
-   * - Multi-Agent Architecture
-     - Understand agents, orchestrators, tools, and shared workflows.
-   * - Create Multi-Agent Workflows
-     - Build workflows involving multiple agents.
-   * - Agent Roles
-     - Define responsibilities and objectives for specialized agents.
-   * - Supervisor / Orchestrator
-     - Coordinate agents where supported.
-   * - Sequential & Parallel Agents
-     - Control execution order and concurrency.
-   * - Task Delegation
-     - Delegate tasks to appropriate specialized agents.
-   * - Agent Handoffs
-     - Pass tasks and context between agents.
-   * - Shared Context
-     - Maintain information required across interactions.
-   * - Conditional Routing
-     - Route execution using outputs or business rules.
-   * - Sub-Agents & Sub-Workflows
-     - Reuse specialized agents and workflow logic.
-   * - Human Handoffs
-     - Escalate tasks from agents to people.
-   * - Failure Handling & Retries
-     - Manage failures in orchestrated workflows.
-   * - Trace Multi-Agent Runs
-     - Inspect execution across collaborating agents.
-   * - Troubleshooting
-     - Diagnose orchestration and handoff issues.
+Create specialized agents where independent reasoning or expertise is useful.
+
+Step 3: Define the Orchestration Flow
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use visual workflows to coordinate agents, tools, and workflow stages across the business process.
+
+Step 4: Configure Agent Execution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Control execution order and concurrency by running agents sequentially or in parallel.
+
+Step 5: Delegate Tasks & Manage Handoffs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Delegate tasks to appropriate agents and pass tasks and context between agents.
+
+Step 6: Manage Shared Context
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Maintain the information required across agent interactions and workflow stages.
+
+Step 7: Configure Conditional Routing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Route execution based on agent outputs, workflow conditions, or business rules.
+
+Step 8: Add Sub-Agents & Sub-Workflows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Reuse specialized agents and workflow logic within larger orchestrated processes.
+
+Step 9: Configure Human Handoffs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Escalate tasks from agents to people when human decisions or approvals are required.
+
+Step 10: Handle Failures & Retries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Define failure behavior and manage retries for orchestrated workflow steps.
+
+Step 11: Trace Multi-Agent Runs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inspect execution across collaborating agents to understand how tasks and context move through the orchestration.
+
+Next Step
+---------
+
+Once the multi-agent workflow has been built and tested, continue to Evaluate to validate agent interactions, handoffs, routing, and overall workflow behavior.

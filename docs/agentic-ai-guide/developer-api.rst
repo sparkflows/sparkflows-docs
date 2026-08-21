@@ -7,47 +7,72 @@ Developers can use programmatic interfaces to trigger workflows, integrate deplo
 
 Developer documentation should clearly separate stable public APIs from internal implementation details and provide authentication, request/response, error handling, and working examples for supported extension points.
 
-Start here
-----------
+Steps to Extend Sparkflows
+--------------------------
 
-Start with the API or extension point that matches the integration requirement. Validate authentication and a minimal request first, then connect it to the larger workflow or application.
+Extend Sparkflows using APIs, code, and custom components by working through the following steps.
 
-For custom code, keep business logic modular and reusable so it can be governed and maintained alongside the visual workflow.
+Step 1: Identify the Extension Requirement
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation topics
---------------------
+Identify the integration, custom logic, or development requirement that cannot be addressed through the visual workflow alone.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Select the Extension Point
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Developer Overview
-     - Extend Sparkflows Agentic AI with APIs and code.
-   * - REST API
-     - Use supported Sparkflows APIs for programmatic integration.
-   * - API Authentication
-     - Authenticate applications calling Sparkflows APIs.
-   * - Agent & Workflow APIs
-     - Invoke deployed agents and workflows programmatically where exposed.
-   * - Python
-     - Extend workflows with Python.
-   * - SQL
-     - Use SQL for data operations and custom logic.
-   * - JavaScript
-     - Extend Agentic Apps and supported components.
-   * - Custom Processors
-     - Build reusable organization-specific processors.
-   * - Custom Tools
-     - Create agent tools for proprietary systems.
-   * - External APIs
-     - Integrate third-party and internal services.
-   * - Webhooks & Events
-     - Integrate workflows with events where supported.
-   * - Request & Response Formats
-     - Understand supported API payload structures.
-   * - Error Handling
-     - Handle API and runtime errors.
-   * - Troubleshooting
-     - Diagnose API, code, and extension issues.
+Choose the appropriate API, code processor, custom processor, custom tool, or other supported extension point.
+
+Step 3: Configure API Authentication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configure the authentication required for applications calling Sparkflows APIs.
+
+Step 4: Invoke Agents & Workflows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use supported APIs to invoke deployed agents and workflows programmatically where exposed.
+
+Step 5: Add Custom Code
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Extend workflows with Python, SQL, or JavaScript where supported.
+
+Step 6: Build Custom Processors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create reusable organization-specific processors for custom workflow logic.
+
+Step 7: Create Custom Tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create agent tools for proprietary systems and capabilities.
+
+Step 8: Integrate External APIs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Connect third-party and internal services through supported interfaces.
+
+Step 9: Configure Webhooks & Events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Integrate workflows with events where supported.
+
+Step 10: Define Request & Response Handling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use supported API payload structures and handle request and response data appropriately.
+
+Step 11: Handle Errors
+~~~~~~~~~~~~~~~~~~~~~
+
+Implement appropriate handling for API and runtime errors.
+
+Step 12: Test & Troubleshoot
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Validate the extension with minimal requests or workflows and diagnose API, code, and extension issues.
+
+Next Step
+---------
+
+Once the required APIs, code, or custom components have been tested, integrate them into the broader agent or workflow and continue to Evaluate to validate the resulting behavior.

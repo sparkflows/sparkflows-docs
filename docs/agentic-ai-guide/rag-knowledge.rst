@@ -1,5 +1,5 @@
 RAG & Knowledge
-=============
+================
 
 Retrieval-augmented generation (RAG) grounds AI responses in enterprise information rather than relying only on a model's general knowledge. Sparkflows can combine document and data processing, embeddings, vector retrieval, workflow logic, and LLM generation within a single visual flow.
 
@@ -7,51 +7,57 @@ A typical RAG process ingests enterprise content, prepares and chunks it, create
 
 RAG can be used directly in a conversational application or exposed as a knowledge capability to a larger agentic workflow. Sparkflows can also combine structured and unstructured sources so an agent can work across documents and enterprise data within the same business process.
 
-Start Here
------------------
+Steps to Build a RAG & Knowledge Workflow
+-----------------------------------------
 
-Start by identifying the authoritative knowledge sources and how frequently they change. Build the ingestion and indexing workflow first, then create the retrieval flow and validate the context returned for representative questions before connecting it to an agent.
+Build a RAG and knowledge workflow by working through the following steps.
 
-For production use, consider source permissions, document updates, metadata, retrieval quality, and traceability of the context used to generate each response.
+Step 1: Identify Knowledge Sources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation Topics
------------------------------
+Identify the authoritative documents, files, databases, and enterprise content required by the agent or application.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Ingest & Process Content
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - RAG Overview
-     - Understand retrieval-augmented generation in Sparkflows.
-   * - RAG Architecture
-     - Understand ingestion, indexing, retrieval, and generation components.
-   * - Build a RAG Workflow
-     - Create an end-to-end grounded AI workflow.
-   * - Knowledge Sources
-     - Connect documents, files, databases, and enterprise content.
-   * - Document Ingestion & Processing
-     - Load and prepare content for retrieval.
-   * - Chunking & Embeddings
-     - Create retrievable units and vector representations.
-   * - Vector Databases
-     - Connect and manage supported vector stores.
-   * - Indexing
-     - Create and update searchable indexes.
-   * - Retrieval & Semantic Search
-     - Retrieve relevant enterprise context.
-   * - Metadata Filtering
-     - Restrict retrieval using document and business metadata.
-   * - Hybrid Search & Reranking
-     - Improve retrieval where supported.
-   * - Multi-RAG
-     - Use multiple knowledge sources in one AI experience.
-   * - Structured + Unstructured Retrieval
-     - Combine database and document knowledge.
-   * - RAG in Agents & Apps
-     - Expose enterprise knowledge to agent workflows and applications.
-   * - Review Retrieved Context
-     - Inspect the context used to generate a response.
-   * - Troubleshooting
-     - Diagnose ingestion, indexing, and retrieval issues.
+Load and prepare enterprise content for retrieval.
+
+Step 3: Chunk Content & Create Embeddings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create retrievable content units and generate vector representations for the knowledge sources.
+
+Step 4: Configure Vector Storage & Indexing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Store or index the resulting vectors using the supported vector database or search capability.
+
+Step 5: Configure Retrieval
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Retrieve relevant enterprise context for user requests using semantic search and configured retrieval logic.
+
+Step 6: Apply Metadata & Business Filters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Restrict retrieval using document metadata and applicable business rules.
+
+Step 7: Combine Structured & Unstructured Knowledge
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Combine database information and document-based knowledge within the same AI experience or business process.
+
+Step 8: Connect RAG to Agents & Applications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expose enterprise knowledge to agent workflows, conversational applications, or other AI experiences.
+
+Step 9: Review Retrieved Context
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inspect the context returned for representative questions and validate that the retrieved information is appropriate for generating responses.
+
+Next Step
+---------
+
+Once the RAG workflow and retrieved context have been validated, connect the knowledge capability to the agent and evaluate its grounded responses.

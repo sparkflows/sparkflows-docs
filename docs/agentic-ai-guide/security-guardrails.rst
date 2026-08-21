@@ -1,5 +1,5 @@
 Security & Guardrails
-=============
+=====================
 
 Security and guardrails control how agents access data, use tools, generate outputs, and execute actions. Agentic systems can interact with multiple enterprise resources, so permissions and controls should be applied across the entire workflow rather than only at the model layer.
 
@@ -7,51 +7,82 @@ Sparkflows enterprise controls can be used to govern access to the platform, wor
 
 Guardrails add runtime controls around agent behavior. Depending on the configured capability, they can validate inputs or outputs, restrict actions, protect sensitive information, require human approval, or enforce other organizational policies. Monitoring and audit information provide the visibility required to review how those controls operate in production.
 
-Start here
------------------
+Steps to Secure & Govern an Agent
+---------------------------------
 
-Start by applying least-privilege access to users, agents, data, and tools. Identify actions that are sensitive or irreversible and place explicit controls or human approval around them.
+Secure and govern an agent by working through the following steps.
 
-Before production deployment, test the configured guardrails and verify that unauthorized users, inputs, tools, and actions are handled as expected. Security documentation should always reflect the exact capabilities enabled in the customer's Sparkflows environment.
+Step 1: Configure Authentication & Access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation topics
------------------------------
+Control user and application authentication and apply appropriate access permissions.
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+Step 2: Apply Role-Based Access Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Topic
-     - Description
-   * - Security Overview
-     - Understand enterprise security for Sparkflows Agentic AI.
-   * - Authentication & SSO
-     - Control user and application authentication where configured.
-   * - Role-Based Access Control
-     - Manage permissions by user and role.
-   * - Agent & Workflow Permissions
-     - Control who can create, modify, run, and deploy.
-   * - Data Access
-     - Control enterprise data available to agents.
-   * - Tool Permissions
-     - Restrict which tools and actions agents can invoke.
-   * - Credentials & Secrets
-     - Secure credentials used by integrations.
-   * - Environment Separation
-     - Manage development, test, and production environments.
-   * - Input Guardrails
-     - Validate or restrict agent inputs.
-   * - Output Guardrails
-     - Validate generated responses before use.
-   * - Action Guardrails
-     - Control sensitive or irreversible agent actions.
-   * - PII & Content Controls
-     - Protect sensitive information where supported.
-   * - Grounding Controls
-     - Validate use of enterprise context where supported.
-   * - Human Approval
-     - Require authorization for selected actions.
-   * - Auditability & Version History
-     - Track execution and administrative changes.
-   * - Troubleshooting
-     - Diagnose access, permissions, and guardrail configuration issues.
+Manage permissions by user and role.
+
+Step 3: Configure Agent & Workflow Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Control who can create, modify, run, and deploy agents and workflows.
+
+Step 4: Control Data Access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Control the enterprise data available to agents.
+
+Step 5: Configure Tool Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Restrict which tools and actions agents can invoke.
+
+Step 6: Secure Credentials & Secrets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Secure credentials used by tools, integrations, and other connected resources.
+
+Step 7: Separate Environments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Manage development, test, and production environments where supported.
+
+Step 8: Configure Input Guardrails
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Validate or restrict inputs provided to agents.
+
+Step 9: Configure Output Guardrails
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Validate generated responses before they are used.
+
+Step 10: Control Agent Actions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Apply controls to sensitive or irreversible actions.
+
+Step 11: Protect Sensitive Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Apply PII and content controls where supported.
+
+Step 12: Configure Grounding Controls
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Validate the use of enterprise context where supported.
+
+Step 13: Add Human Approval
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Require authorization for selected actions.
+
+Step 14: Maintain Auditability & Version History
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Track execution and administrative changes to maintain oversight.
+
+Next Step
+---------
+
+Once security controls and guardrails have been configured and tested, continue to Monitor & Govern to review their operation and maintain production oversight.

@@ -1,0 +1,45 @@
+Version 3.3.34 - August, 2026
+========================================
+
+New Features
+------------------------
+
+Co-Pilot / AI Assistant
++++++++++++++++++++++++
+
+* **AI Assistant Renaming:** Co-Pilot can now be renamed to **AI Assistant** across the product through Administration -> Configuration -> uiSettings.copilotLabel.
+
+* **Skill Files for AI Assistant:** AI Assistant now supports Skill Files to provide more accurate, context-aware, and specialized responses. Users can leverage predefined or custom Skill Files and instructions to enhance AI-generated responses.
+
+* **Custom Skill File Management:** Administrators can upload and manage custom Skill Files through Administration -> AI Assistant/Copilot -> Skills. Skill Files can be configured for specific workflow engines and pipelines.
+
+* **Configurable Generation Mode:** Users can select Skill Files as the generation mode within the Co-Pilot/AI Assistant connection settings. The selected generation mode is then applied while using AI Assistant within Workflow and Pipeline editors.
+
+Persona Management
+++++++++++++++++++
+
+* **Persona-Based Navigation:** Users can now be assigned one or more personas to personalize the top-level navigation menus and landing dashboards based on their active persona.
+
+* **Persona Configuration:** Administrators can assign personas from the Create/Edit User screen and manage available personas through the Persona List.
+
+* **Custom Persona Navigation:** Administrators can configure the navigation menus available for each persona through Administration -> Personas -> Edit Persona Navigation Menu.
+
+Enhancements
+-------------------
+
+User Experience
++++++++++++++++
+
+* **Automatic Persona Assignment for Existing Users:** Following an upgrade, existing users are automatically assigned personas based on their current access and permissions, ensuring a seamless transition without requiring manual reconfiguration.
+
+* **Persona-Based Menu Visibility:** Personas only surface menus and capabilities that users already have permission to access. User permissions and roles remain unchanged.
+
+Pipeline 
+++++++++
+
+* **Multiple Input Support for PythonOperator:** The **PythonOperator Pipeline Node** now supports inputs from multiple incoming edges, improving flexibility for pipeline configurations such as consolidated pipeline status email notifications.
+
+Fixes
+--------------
+
+* **Pipeline API 302 HTTP Error:** Fixed an issue where the Sparkflows Pipeline API call could return a 302 HTTP status code. The fix has been implemented and successfully tested using an app-generated token. Additional testing with the Guardian integration is pending.

@@ -184,7 +184,7 @@ An example response:
 
     {
       "run_id": "5f2a9c1e-88b4-42d7-9c33-6a1b0d4f7e21",
-      "status": "COMPLETED",
+      "status": "completed",
       "outputs": {
         "answer": "Enterprise customers may request a refund within 30 days."
       },
@@ -193,36 +193,38 @@ An example response:
       "elapsed_ms": 8420
     }
 
-The execution status recorded in Sparkflows uses the following codes.
+This endpoint reports the state in lower case. Compare it case-insensitively rather than against an exact string.
 
 .. list-table::
    :header-rows: 1
-   :widths: 20 25 55
+   :widths: 25 15 60
 
-   * - Code
-     - Status
+   * - Status
+     - Code
      - Meaning
-   * - 4
-     - STARTING
+   * - ``starting``
+     - 4
      - The run has been created and submitted to the agent engine.
-   * - 0
-     - RUNNING
+   * - ``running``
+     - 0
      - The agent is executing.
-   * - 2
-     - COMPLETED
+   * - ``completed``
+     - 2
      - The run finished successfully.
-   * - 3
-     - FAILED
+   * - ``failed``
+     - 3
      - The run ended with an error.
-   * - 1
-     - STOPPED
+   * - ``stopped``
+     - 1
      - The run was cancelled.
-   * - \-
-     - INTERRUPTED
+   * - ``interrupted``
+     - \-
      - The run is paused and waiting for a human decision or input.
-   * - 12
-     - RESUMING
+   * - ``resuming``
+     - 12
      - A resume request has been submitted for a paused run.
+
+The **Code** column is the numeric ``status`` stored on the execution record, which is what the ``/api/v1/agent-executions`` endpoints return.
 
 Resume a Paused Run (Human-in-the-Loop)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -356,7 +358,7 @@ The example below triggers an agent, polls until the run completes, approves any
     print("Started run {} (execution {})".format(run_id, execution_id))
 
     # Step 2 - poll until the run reaches a terminal state
-    terminal = {"COMPLETED", "FAILED", "STOPPED"}
+    terminal = {"completed", "failed", "stopped"}
     while True:
         status = requests.get(
             "{}/api/v1/agents/{}/runs/{}/status".format(HOST, AGENT_ID, run_id),
@@ -364,14 +366,14 @@ The example below triggers an agent, polls until the run completes, approves any
             verify=False,
         ).json()
 
-        state = status.get("status")
+        state = str(status.get("status")).lower()
         print("status:", state)
 
         if state in terminal:
             break
 
         # Step 3 - approve, if the agent paused on a human approval node
-        if state == "INTERRUPTED":
+        if state == "interrupted":
             requests.post(
                 "{}/api/v1/agents/{}/runs/{}/resume".format(HOST, AGENT_ID, run_id),
                 headers=headers,

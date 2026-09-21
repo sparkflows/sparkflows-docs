@@ -5,11 +5,11 @@ Build, orchestrate, govern and deploy enterprise AI agents in Sparkflows —
 agents that reason over your data, call your systems, run your workflows, and
 pause for a human when the decision warrants it.
 
-New here? Read **Start here** in order. It takes about half an hour and covers
+New here? Work through **Quick start** in order. It takes about half an hour and covers
 everything most agents ever need.
 
-Start here
-----------
+Quick start
+-----------
 
 .. panels::
     :container: container-lg pb-3
@@ -178,31 +178,19 @@ Run and operate
 
     Runs, traces, logs, approvals and production behaviour.
 
-Go further
-----------
+For developers
+--------------
 
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/agentic-ai-guide/templates-solutions`
-
-    Ready-made agents and workflows for common business processes.
-
-    ---
-
     :doc:`/agentic-ai-guide/developer-api`
 
-    REST APIs, custom processors, custom tools and code.
-
-    ---
-
-    :doc:`/agentic-ai-guide/build-agents`
-
-    The whole build path on one page, as a checklist.
+    Run, resume and monitor agents from your own systems over the REST API.
 
 .. toctree::
    :hidden:
-   :caption: Start here
+   :caption: Quick start
 
    concepts.rst
    connections.rst
@@ -219,7 +207,7 @@ Go further
 
 .. toctree::
    :hidden:
-   :caption: Tools and data
+   :caption: Give agents tools and data
 
    tools-actions.rst
    workflows-as-tools.rst
@@ -228,7 +216,7 @@ Go further
 
 .. toctree::
    :hidden:
-   :caption: Behaviour
+   :caption: Shape how agents behave
 
    models-prompts.rst
    skills.rst
@@ -237,7 +225,7 @@ Go further
 
 .. toctree::
    :hidden:
-   :caption: Processes
+   :caption: Build real processes
 
    node-reference.rst
    control-flow.rst
@@ -245,7 +233,7 @@ Go further
 
 .. toctree::
    :hidden:
-   :caption: Operate
+   :caption: Run and operate
 
    evaluate-agents.rst
    deploy-agents.rst
@@ -254,8 +242,6 @@ Go further
 
 .. toctree::
    :hidden:
-   :caption: Go further
+   :caption: For developers
 
-   templates-solutions.rst
    developer-api.rst
-   build-agents.rst

@@ -95,7 +95,7 @@ back.
 REST API Client
 ~~~~~~~~~~~~~~~
 
-**What it is.** Makes an HTTP request from inside the graph and publishes the
+**What it is.** Makes an HTTP request from inside the flow and publishes the
 response for the nodes after it.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/rest-api-client.png
@@ -361,7 +361,7 @@ These reach systems outside the flow.
 Workflow Execution
 ~~~~~~~~~~~~~~~~~~
 
-**What it is.** Runs one saved workflow as a step in the graph, **without a model
+**What it is.** Runs one saved workflow as a step in the flow, **without a model
 call**.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/workflow-execution.png
@@ -390,7 +390,7 @@ and the server's tools are listed at run time instead. See
 Email Notification
 ~~~~~~~~~~~~~~~~~~
 
-**What it is.** Sends an email from anywhere in the graph.
+**What it is.** Sends an email from anywhere in the flow.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/email-notification.png
    :alt: Email Notification configured with an address, subject and content

@@ -28,11 +28,10 @@ Sparkflows gives you two nodes for this, both in the **Control** group:
 Human Approval
 --------------
 
-The Human Approval node is a human-in-the-loop gate. When execution reaches it
-the graph **pauses** and the engine returns ``status='pending'`` to the caller.
-The run resumes only when the caller invokes the engine again, passing back an
-``approval_result``. Based on the decision the graph continues down either the
-**Approved (A)** or the **Rejected (R)** anchor.
+The Human Approval node is a gate. When a run reaches it, the run **stops** and
+waits — it shows as **Interrupted** and nothing further happens until a person
+answers. When somebody approves or rejects, the run picks up where it left off
+and continues down either the **Approved (A)** or the **Rejected (R)** branch.
 
 .. important::
 
@@ -111,7 +110,7 @@ Double-click the node.
    * - Field
      - What to put in it
    * - **Title** *(required)*
-     - Short heading shown to the approver when the graph pauses. Keep it
+     - Short heading shown to the approver when the run stops. Keep it
        action-oriented — ``Approve purchase order``, ``Confirm customer
        refund``.
    * - **Prompt to Approver**
@@ -249,40 +248,42 @@ and why.
    :doc:`Email Notification </agentic-ai-guide/node-reference>` node. **Human
    Input** is the node for asking the person something mid-conversation.
 
-How pause and resume actually work
-----------------------------------
-
-Worth understanding before you build anything that depends on it.
+What waiting actually means
+---------------------------
 
 .. list-table::
    :header-rows: 1
    :widths: 30 70
 
    * - Behaviour
-     - Detail
-   * - **Pausing**
-     - On reaching the node the run reports ``status='pending'`` and records
-       ``pending_approval``.
-   * - **Durability**
-     - The paused state is persisted, so a waiting approval **survives a
-       restart**.
+     - What to expect
+   * - **Waiting**
+     - The run stops at the node and shows as **Interrupted** on the Executions
+       tab. It uses nothing while it waits.
+   * - **How long**
+     - Indefinitely. A waiting approval survives a restart of Sparkflows, so
+       nothing is lost if the server is bounced overnight.
    * - **Resuming**
-     - The run resumes when the caller re-invokes the engine with an
-       ``approval_result`` for that run's **Job ID**. There is no session id to
-       configure.
+     - The run continues from the node it stopped at. Earlier steps are not
+       repeated, so nothing is charged or sent twice.
+   * - **Who can answer**
+     - Anyone who can open the run. Approval is not routed to a named person —
+       if that matters, tell the right person with an
+       :doc:`Email Notification </agentic-ai-guide/node-reference>`.
 
-Bypassing the pause for testing
--------------------------------
+Skipping the gate while you test
+--------------------------------
 
-For automated end-to-end tests, set ``auto_approve = true`` as an Input variable
-(or ``autoApprove`` on the node). Every request is then approved without
-waiting, and execution always flows down the Approved anchor.
+Waiting for yourself to click **Approve** gets tedious while you are still
+building. Add a parameter named ``auto_approve`` with the value ``true`` on the
+**Input** node and every gate in that run approves itself, so the flow runs
+straight through.
 
 .. caution::
 
-   ``auto_approve`` disables the control entirely. Use it in tests. Make sure it
-   is not set in anything you deploy — an approval gate that auto-approves looks
-   identical to one that works, right up until it matters.
+   Remove it before anyone else uses the agent. An agent with ``auto_approve``
+   set looks exactly like one with a working gate, right up until the moment it
+   matters.
 
 Deciding what needs approval
 ----------------------------
@@ -381,7 +382,7 @@ Checklist before you ship an approval flow
    * - ☐
      - The **R** branch leads somewhere that tells someone.
    * - ☐
-     - ``auto_approve`` is **not** set.
+     - ``auto_approve`` is **not** left switched on.
    * - ☐
      - You have run it once as the reviewer and read your own prompt cold.
 

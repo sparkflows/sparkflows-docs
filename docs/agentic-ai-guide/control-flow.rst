@@ -35,7 +35,7 @@ because that decides both the cost and the predictability of your flow.
 Condition
 ---------
 
-The Condition node routes the graph down the **True (T)** or **False (F)** branch
+The Condition node sends the run down the **True (T)** or **False (F)** branch
 based on a single expression evaluated against the running state. It makes no
 LLM call, so the decision is deterministic — the right tool whenever a plain
 rule decides the path.
@@ -134,7 +134,7 @@ Errors route False
 .. caution::
 
    If the expression raises **any** error — for example a referenced field does
-   not exist — the graph routes down the **False** branch rather than failing
+   not exist — the run goes down the **False** branch rather than failing
    the run.
 
    This is convenient and dangerous in equal measure. A typo in a field name

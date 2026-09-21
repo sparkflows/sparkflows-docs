@@ -1,3 +1,5 @@
+:orphan:
+
 Templates & Solutions
 =====================
 

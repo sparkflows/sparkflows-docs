@@ -129,17 +129,16 @@ Which agents make good assistants
 For a process with branches or approvals, build it on the canvas and expose
 that instead — see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
 
-.. important::
+.. note::
 
-   **Do not put a pausing agent behind a chat assistant.** An agent containing a
-   :doc:`Human Approval or Human Input </agentic-ai-guide/human-in-the-loop>`
-   node stops mid-run and waits for a person. The chat window has nowhere to put
-   the Approve and Reject buttons, so the conversation simply ends without them
-   and the reply is empty or incomplete.
+   **A Human Input node works well in chat.** When the agent needs something
+   from the person mid-run, the question appears in the conversation with the
+   choices as buttons — see
+   :doc:`/agentic-ai-guide/human-in-the-loop`.
 
-   Those agents belong on **Agents → Executions**, where the waiting run opens
-   with its decision panel. Keep chat assistants for agents that answer in one
-   pass.
+   A **Human Approval** gate is different: it is answered from the run view on
+   **Agents → Executions**, not from the chat window. Keep approval gates out of
+   agents you expose as chat assistants.
 
 Next: go deeper
 ---------------

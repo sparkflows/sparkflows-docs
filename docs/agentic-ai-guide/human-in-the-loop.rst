@@ -343,9 +343,9 @@ a rejection into an improvement rather than a dead end.
 Human Input
 -----------
 
-**Human Input** is the conversational pause. It parks the run, shows the person
-whatever the upstream step emitted as its response message, and captures the raw
-reply into ``user_input``.
+**Human Input** is the conversational pause. It stops the run, shows the person
+whatever the step before it said, and hands their reply — exactly as typed — to
+the step after it.
 
 .. note::
 
@@ -361,6 +361,27 @@ instructions for interpreting the reply.
 
 It also pairs naturally with a blocked Guardrails check: wire **Blocked (B)**
 back to a Human Input node and the person gets to revise and retry.
+
+
+In a chat assistant
+~~~~~~~~~~~~~~~~~~~
+
+This is the node that makes an agent conversational. When the run reaches it,
+the question appears in the chat window and any choices the agent offered become
+buttons the person can click — they can also just type an answer.
+
+.. figure:: ../_assets/agentic-ai-guide/hitl/human-input-chat.png
+   :alt: A chat assistant asking whether to show alternative parts, with yes and no buttons
+   :width: 100%
+
+   A parts assistant finds nothing in stock, asks what to do next, and offers
+   **yes** and **no**. The run waits on that answer and then carries on.
+
+.. tip::
+
+   Have the agent before the Human Input node end its message with a plain
+   question and the options you want offered. That question is what the person
+   sees, so it should make sense on its own.
 
 Checklist before you ship an approval flow
 ------------------------------------------

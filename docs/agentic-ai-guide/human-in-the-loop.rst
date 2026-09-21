@@ -51,7 +51,7 @@ The pattern that works has three parts:
 #. **Gate only that branch.**
 
 .. figure:: ../_assets/agentic-ai-guide/hitl/po-approver-canvas.png
-   :alt: Purchase Order Approver canvas with the Condition and Human Approval nodes highlighted
+   :alt: The Purchase Order Approver canvas, where a Condition routes high-value orders to a Human Approval gate
    :width: 95%
 
    The **Purchase Order Approver** example. Two Agent Nodes validate the PO and
@@ -72,8 +72,8 @@ Adding the node
 #. Drag **Human Approval** onto the canvas.
 
    .. figure:: ../_assets/agentic-ai-guide/hitl/palette-control.png
-      :alt: Control group of the node palette with Human Approval highlighted
-      :width: 302px
+      :alt: The Control group of the node palette, containing Human Approval and Human Input
+      :width: 300px
 
 #. Connect the branch that needs sign-off into its input.
 #. Wire both outputs:
@@ -120,22 +120,53 @@ Double-click the node.
        — an amount, a draft, a validator's assessment — so the person can decide
        without leaving the screen.
 
-.. important::
+Show the agent's own answer in the prompt
+-----------------------------------------
 
-   The prompt is shown to the reviewer **exactly as you type it**. It is not a
-   template — a ``${...}`` placeholder would be shown literally, not replaced
-   with a value. (Placeholders like that *are* substituted on the REST API
-   Client, MCP Tool and Workflow Execution nodes, which is where people
-   usually meet them.)
+The prompt is not just static text. Write ``${<node number>.<field>}`` and
+Sparkflows substitutes that node's output before the reviewer sees it — so the
+approver reads the agent's actual words, not a description of them.
 
-   You do not need them here. The reviewer opens the run, so every upstream
-   step's output is already on the screen next to the decision. Your job in the
-   prompt is to say **which** step to read:
+The node number is the one in the blue circle on the canvas, and ``analysis`` is
+the node's answer:
 
-   .. code-block:: text
+.. code-block:: text
 
-      Read the Refund Reviewer summary above, then approve or reject.
-      Approval issues the refund; rejection returns the case to the queue.
+   The Refund Reviewer said: ${2.analysis}
+
+   Approve to issue the refund, or reject to send it back to the queue.
+
+At run time that becomes:
+
+.. figure:: ../_assets/agentic-ai-guide/hitl/approval-pending.png
+   :alt: The approval prompt with the agent's answer substituted into it, above the comment boxes and the Approve and Reject buttons
+   :width: 100%
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Reference
+     - What it pulls in
+   * - ``${2.analysis}``
+     - Node 2's answer — the usual one.
+   * - ``${2.confidence}``
+     - Any other field that node published.
+   * - ``${order_id}``
+     - A value from the Input node, by name.
+
+.. tip::
+
+   Put the value the decision turns on directly in the prompt. A reviewer who
+   has to go hunting for the amount will stop reading it and start clicking
+   **Approve**.
+
+.. note::
+
+   The same ``${...}`` references work on the REST API Client, MCP Tool and
+   Workflow Execution nodes. A reference that matches nothing is left in place
+   as literal text, which is your clue that the node number or field name is
+   wrong.
 
 Writing the approver prompt
 ---------------------------
@@ -193,10 +224,6 @@ The run opens with an **approval panel** at the top, carrying the node's title,
 the prompt you wrote, and two boxes — one for comments that travel with an
 approval, one for the reason that travels with a rejection.
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/approval-pending.png
-   :alt: A paused run showing the approval title, prompt, comment boxes and the Approve and Reject buttons
-   :width: 100%
-
 Everything the reviewer needs to judge is on the same page: scroll down and the
 **Node Outputs** panel shows what each earlier step produced, including the
 agent's own recommendation.
@@ -216,11 +243,11 @@ and why.
 
 .. note::
 
-   Reviewing happens in the run view. A :doc:`chat assistant
-   </agentic-ai-guide/chat>` is a conversational front door, not a review queue
-   — send reviewers to **Agents → Executions**, or notify them with an
-   :doc:`Email Notification </agentic-ai-guide/node-reference>` node that links
-   to the run.
+   Approvals are answered in the run view, not in a
+   :doc:`chat assistant </agentic-ai-guide/chat>`. Send reviewers to
+   **Agents → Executions**, or tell them a run is waiting with an
+   :doc:`Email Notification </agentic-ai-guide/node-reference>` node. **Human
+   Input** is the node for asking the person something mid-conversation.
 
 How pause and resume actually work
 ----------------------------------

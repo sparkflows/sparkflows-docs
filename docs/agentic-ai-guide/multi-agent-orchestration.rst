@@ -77,9 +77,9 @@ Building a flow
    Purchase Order Approver that is a single ``po_id``, pre-filled with
    ``PO-2004`` so the example can be run immediately.
 
-   .. figure:: ../_assets/agentic-ai-guide/orchestration/input-node.png
+   .. figure:: ../_assets/agentic-ai-guide/nodes/input.png
       :alt: Input node configuration with a named parameter and test value
-      :width: 80%
+      :width: 100%
 
 #. **Drag nodes from the palette** onto the canvas in the order the work happens.
 #. **Connect them** by dragging from one node's output anchor to the next node's

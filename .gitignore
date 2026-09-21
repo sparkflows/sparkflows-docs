@@ -1,3 +1,6 @@
 
 docs/_static/.DS_Store
 .DS_Store
+
+.venv/
+.tools/

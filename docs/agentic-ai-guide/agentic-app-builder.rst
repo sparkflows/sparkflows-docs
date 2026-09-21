@@ -1,3 +1,5 @@
+:orphan:
+
 Agentic App Builder
 ===================
 Build business-facing applications in Sparkflows by combining agentic workflows with chat, forms, tables, dashboards, inputs, and actions.
@@ -43,7 +45,7 @@ Step 8: Display Results
 Configure how conversational responses, generated outputs, structured data, and AI-generated insights are presented to users.
 
 Step 9: Build Multi-Stage Experiences
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create applications that span multiple workflow stages and user interactions.
 
 Step 10: Add Custom Logic

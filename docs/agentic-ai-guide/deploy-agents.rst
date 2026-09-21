@@ -1,63 +1,97 @@
-Deploy AI Agents
-====================
+Deploy Agents
+=============
 
-After an agent has been tested and evaluated, deploy it so it can be used by applications, business users, or automated processes. Sparkflows agentic workflows can be operationalized in different ways depending on how the capability needs to be consumed and triggered.
+A saved agent is not yet doing anything for anyone. Deploying means choosing how
+it gets invoked.
 
-An agent may be exposed through an API, embedded within an Agentic App, executed on a schedule, triggered by an event, or invoked as part of a broader enterprise workflow. The same visual workflow can therefore move from development into an operational experience without rebuilding the core business logic in a separate application.
+The four ways to run an agent
+-----------------------------
 
-Production deployment should include more than publishing the workflow. Connections, credentials, runtime parameters, access controls, environment configuration, guardrails, monitoring, and human approvals should be reviewed before the agent is made available to production users.
+.. list-table::
+   :header-rows: 1
+   :widths: 24 38 38
 
-Steps to Deploy an Agent
-------------------------
+   * - Method
+     - Use when
+     - Covered in
+   * - **REST API**
+     - Another system triggers the agent
+     - :doc:`/agentic-ai-guide/developer-api`
+   * - **Chat assistant**
+     - People use it directly
+     - :doc:`/agentic-ai-guide/chat`
+   * - **Schedule**
+     - It should run on a timetable
+     - below
+   * - **Inside another flow**
+     - It is one step of a bigger process
+     - :doc:`/agentic-ai-guide/multi-agent-orchestration`
 
-Deploy an agent by working through the following steps.
+Deployment status
+-----------------
 
-Step 1: Choose the Deployment Pattern
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Every row in the Agents list carries a deployment status. An agent shown as
+**Undeployed** can still be run by hand from the UI; deploying is what makes it
+available to callers outside it.
 
-Choose the appropriate way to operationalize the agent based on how it needs to be consumed and triggered.
+.. figure:: ../_assets/agentic-ai-guide/deploy/deployment-status.png
+   :alt: Agents list showing deployment status
+   :width: 90%
 
-Step 2: Review Production Readiness
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scheduling
+----------
 
-Review testing, security, connections, controls, and governance before deployment.
+To run an agent on a timetable with nobody watching, see
+:doc:`/agentic-ai-guide/schedule-agents`.
 
-Step 3: Deploy the Agent or Workflow
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Moving between environments
+---------------------------
 
-Move the tested agent or agentic workflow into a production environment.
+**Export** and **Import** on the Agents page move agents between projects and
+environments.
 
-Step 4: Configure the Delivery Experience
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What travels with the agent and what does not:
 
-Expose the agent through an API, publish it as an Agentic App, or configure it for the required execution pattern.
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
 
-Step 5: Configure Execution
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - Travels
+     - Does not travel
+   * - Instructions, tool selections, node layout, parameters
+     - Connection credentials — these must exist in the target environment
+   * - Output formats and schemas
+     - Knowledge indexes — these must be built there
+   * - Skills attached by reference
+     - Anything scoped to the source project only
 
-Configure scheduled, event-driven, batch, or real-time execution as required.
+After importing, check the model connection and every tool connection before
+running. A missing credential is the usual cause of an imported agent failing
+its first run.
 
-Step 6: Configure Runtime Parameters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Before you deploy
+-----------------
 
-Configure values supplied to deployed workflows at runtime.
+.. list-table::
+   :header-rows: 1
+   :widths: 8 92
 
-Step 7: Secure the Deployment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - ✓
+     - Check
+   * - ☐
+     - It passes your test set, not just one happy-path query.
+   * - ☐
+     - Someone other than the author has run it.
+   * - ☐
+     - Consequential actions are behind an approval gate.
+   * - ☐
+     - Every ticked operation is justified.
+   * - ☐
+     - Failures reach a human who can act.
+   * - ☐
+     - You know how to turn it off.
 
-Secure deployed endpoints, connections, and production credentials using authentication and secrets.
+Next: keep it running
+---------------------
 
-Step 8: Manage Versions & Deployments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Manage deployment versions and view or control production deployments.
-
-Step 9: Configure the Deployment Environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Run Sparkflows across supported cloud, hybrid, container, or on-premises environments.
-
-Next Step
----------
-
-Once the agent is deployed, continue to Monitor & Govern to track executions, investigate failures, review agent behavior, and maintain operational control.
+:doc:`/agentic-ai-guide/monitor-govern`.

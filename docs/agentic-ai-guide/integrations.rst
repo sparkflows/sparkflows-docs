@@ -1,3 +1,5 @@
+:orphan:
+
 Integrations & Enterprise Data
 ==============================
 
@@ -63,7 +65,7 @@ Step 10: Configure Read & Write Operations
 Distinguish read operations from write or transactional operations and apply additional permissions or approval where appropriate.
 
 Step 11: Manage Connections
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Review and maintain configured connections as enterprise integrations change.
 

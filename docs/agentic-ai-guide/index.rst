@@ -1,117 +1,261 @@
 Agentic AI Guide
-======================
-Sparkflows provides a unified environment for creating agents that can reason, retrieve information, use tools, collaborate with other agents, execute workflows, incorporate AI/ML models, and take actions across enterprise systems.
+================
 
-Build, orchestrate, evaluate, deploy, and govern enterprise AI agents using visual workflows, enterprise data, tools, AI models, and business applications.
+Build, orchestrate, govern and deploy enterprise AI agents in Sparkflows —
+agents that reason over your data, call your systems, run your workflows, and
+pause for a human when the decision warrants it.
+
+New here? Read **Start here** in order. It takes about half an hour and covers
+everything most agents ever need.
+
+Start here
+----------
 
 .. panels::
     :container: container-lg pb-3
-    
-    :doc:`/agentic-ai-guide/build-agents`
 
-    Build AI agents visually using workflows, tools, enterprise data, and AI models.
+    :doc:`/agentic-ai-guide/concepts`
 
-    ---
-
-    :doc:`/agentic-ai-guide/evaluate-agents`
-
-    Test agents, compare results, inspect execution, and evaluate agent behavior.
+    How agents work in Sparkflows, the five words you need, and how to choose
+    between Agent Studio and Agent Orchestration.
 
     ---
 
-    :doc:`/agentic-ai-guide/deploy-agents`
+    :doc:`/agentic-ai-guide/connections`
 
-    Operationalize agents as APIs, applications, scheduled jobs, or automated workflows.
-
-    ---
-
-    :doc:`/agentic-ai-guide/monitor-govern`
-
-    Monitor agent runs, traces, logs, controls, approvals, and production behavior.
+    Step 1 — create the model connection every agent needs.
 
     ---
 
-    :doc:`/agentic-ai-guide/agentic-app-builder`
+    :doc:`/agentic-ai-guide/quickstart`
 
-    Build business-facing apps, assistants, forms, and dashboards powered by agents.
-
-    ---
-
-    :doc:`/agentic-ai-guide/ai-assistant`
-
-    Create and modify agents and workflows using natural-language instructions.
+    Step 2 — build a working, tool-using agent in about ten minutes.
 
     ---
 
-    :doc:`/agentic-ai-guide/tools-actions`
+    :doc:`/agentic-ai-guide/chat`
 
-    Connect agents to APIs, applications, databases, workflows, and custom tools.
+    Step 3 — turn that agent into a chatbot your colleagues can use.
 
-    ---
+Where you build
+---------------
 
-    :doc:`/agentic-ai-guide/rag-knowledge`
+Three places, same engine. Pick the one that fits what you are making.
 
-    Ground agents in enterprise data and documents using retrieval and vector databases.
+.. panels::
+    :container: container-lg pb-3
 
-    ---
+    :doc:`/agentic-ai-guide/agent-studio`
 
-    :doc:`/agentic-ai-guide/models-prompts`
-
-    Configure LLMs, prompts, model parameters, and AI/ML models used by agents.
+    **One agent, one form.** Every field on the Agent Studio screen, in the
+    order it appears.
 
     ---
 
     :doc:`/agentic-ai-guide/multi-agent-orchestration`
 
-    Coordinate specialized agents, tools, and workflows across complex processes.
+    **A process on a canvas.** Several steps, branches and approvals wired
+    together.
 
     ---
 
-    :doc:`/agentic-ai-guide/human-in-the-loop`
+    :doc:`/agentic-ai-guide/ai-assistant`
 
-    Add approvals, reviews, escalation, and human decision points.
+    **Describe it and let it build.** Workflows, agents and analytics apps from
+    plain-English instructions.
+
+Give agents something to do
+---------------------------
+
+An agent with no tools can only talk. These pages cover everything an agent can
+be allowed to do.
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/tools-actions`
+
+    The tool picker: connectors, built-in tools, and how to choose operations
+    safely.
+
+    ---
+
+    :doc:`/agentic-ai-guide/workflows-as-tools`
+
+    Let an agent run a saved workflow — the right home for exact, repeatable
+    logic.
+
+    ---
+
+    :doc:`/agentic-ai-guide/mcp-servers`
+
+    Connect a Model Context Protocol server and pick which of its tools the
+    agent may use.
+
+    ---
+
+    :doc:`/agentic-ai-guide/rag-knowledge`
+
+    Ground answers in your own documents with retrieval and vector databases.
+
+Shape how agents behave
+-----------------------
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/models-prompts`
+
+    Model connections, generation settings, and writing instructions that hold
+    up.
+
+    ---
+
+    :doc:`/agentic-ai-guide/skills`
+
+    Reusable ``.md`` instruction files shared across agents in a project.
+
+    ---
+
+    :doc:`/agentic-ai-guide/context-agents-md`
+
+    ``AGENTS.md`` — the standing context every agent should know.
 
     ---
 
     :doc:`/agentic-ai-guide/security-guardrails`
 
-    Control access, data, tools, outputs, actions, and governance.
+    Guardrails, access control, and limiting what agents may reach.
+
+Build real processes
+--------------------
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/node-reference`
+
+    Every node on the canvas, how to configure it, and what people get wrong.
 
     ---
+
+    :doc:`/agentic-ai-guide/control-flow`
+
+    Condition, Router and Guardrails — the nodes that decide where a run goes.
+
+    ---
+
+    :doc:`/agentic-ai-guide/human-in-the-loop`
+
+    Human Approval and Human Input: pausing a run for a real decision.
+
+Run and operate
+---------------
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/evaluate-agents`
+
+    Run agents, inspect traces, compare results, and judge whether they are
+    good enough.
+
+    ---
+
+    :doc:`/agentic-ai-guide/deploy-agents`
+
+    The ways an agent gets invoked once it works.
+
+    ---
+
+    :doc:`/agentic-ai-guide/schedule-agents`
+
+    Run an agent on a timetable, and decide who hears about failures.
+
+    ---
+
+    :doc:`/agentic-ai-guide/monitor-govern`
+
+    Runs, traces, logs, approvals and production behaviour.
+
+Go further
+----------
+
+.. panels::
+    :container: container-lg pb-3
 
     :doc:`/agentic-ai-guide/templates-solutions`
 
-    Explore reusable agent and workflow templates for common business use cases.
-
-    ---
-
-    :doc:`/agentic-ai-guide/integrations`
-
-    Connect agents to enterprise data, applications, APIs, and cloud platforms.
+    Ready-made agents and workflows for common business processes.
 
     ---
 
     :doc:`/agentic-ai-guide/developer-api`
 
-    Extend Sparkflows with APIs, custom processors, tools, and code.
+    REST APIs, custom processors, custom tools and code.
 
-    
+    ---
+
+    :doc:`/agentic-ai-guide/build-agents`
+
+    The whole build path on one page, as a checklist.
 
 .. toctree::
    :hidden:
+   :caption: Start here
 
-   build-agents.rst
+   concepts.rst
+   connections.rst
+   quickstart.rst
+   chat.rst
+
+.. toctree::
+   :hidden:
+   :caption: Where you build
+
+   agent-studio.rst
+   multi-agent-orchestration.rst
+   ai-assistant.rst
+
+.. toctree::
+   :hidden:
+   :caption: Tools and data
+
+   tools-actions.rst
+   workflows-as-tools.rst
+   mcp-servers.rst
+   rag-knowledge.rst
+
+.. toctree::
+   :hidden:
+   :caption: Behaviour
+
+   models-prompts.rst
+   skills.rst
+   context-agents-md.rst
+   security-guardrails.rst
+
+.. toctree::
+   :hidden:
+   :caption: Processes
+
+   node-reference.rst
+   control-flow.rst
+   human-in-the-loop.rst
+
+.. toctree::
+   :hidden:
+   :caption: Operate
+
    evaluate-agents.rst
    deploy-agents.rst
+   schedule-agents.rst
    monitor-govern.rst
-   agentic-app-builder.rst
-   ai-assistant.rst
-   tools-actions.rst
-   rag-knowledge.rst
-   models-prompts.rst
-   multi-agent-orchestration.rst
-   human-in-the-loop.rst
-   security-guardrails.rst
+
+.. toctree::
+   :hidden:
+   :caption: Go further
+
    templates-solutions.rst
-   integrations.rst
    developer-api.rst
+   build-agents.rst

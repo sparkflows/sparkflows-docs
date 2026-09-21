@@ -1,58 +1,130 @@
-Evaluate AI Agents
-===================
+Evaluate Agents
+===============
 
-Evaluate AI agents in Sparkflows using representative inputs, business scenarios, and repeatable test cases to validate agent behavior and results.
+An agent that produces plausible output is not the same as an agent that
+produces correct output. This page is about telling the difference before your
+users have to.
 
-Evaluation helps determine not only whether an agent workflow executes successfully, but whether the agent produces useful, grounded, and appropriate results for the intended task. Sparkflows evaluation combines execution inspection with response review, tool and retrieval analysis, and supported quality metrics.
+Running an agent
+----------------
 
-Evaluation is an iterative process. Teams can refine prompts, models, tools, retrieval settings, and workflow logic, then compare the resulting behavior before approving an agent for production.
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
 
-Steps to Evaluate an Agent
---------------------------
+   * - Where
+     - How
+   * - **Agent Studio**
+     - **Run** in the top bar, using the query in the Input group.
+   * - **Orchestration canvas**
+     - **Execute** in the toolbar, using the Input node's parameters.
+   * - **Agents list**
+     - The run action on the agent's row.
 
-Evaluate an agent by working through the following steps.
+Keep a realistic query saved in the Input group. It costs nothing and gives you
+the same starting point every time you change something.
 
-Step 1: Test the Agent
-~~~~~~~~~~~~~~~~~~~~~~
+Reading a run
+-------------
 
-Run the agent interactively using representative questions, inputs, and business scenarios.
+Check these in order. The order matters — a formatting problem is irrelevant if
+the agent never called the tool.
 
-Step 2: Inspect the Execution
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. list-table::
+   :header-rows: 1
+   :widths: 8 30 62
 
-Review the execution trace, workflow stages, intermediate outputs, and final response to understand how the agent performed the task.
+   * - #
+     - Question
+     - If the answer is no
+   * - 1
+     - Did it call the tools it should have?
+     - The instructions did not tell it to, or the operation is not ticked.
+   * - 2
+     - Did the tool calls succeed?
+     - Check the connection, and whether arguments were missing.
+   * - 3
+     - Did it use what the tools returned?
+     - Tell it explicitly to answer only from tool results.
+   * - 4
+     - Is the output in the right shape?
+     - Set an **Output Format** JSON schema rather than asking in prose.
+   * - 5
+     - Is the content actually right?
+     - Now you have a real quality question — see below.
 
-Step 3: Review Tools & Retrieval
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: ../_assets/agentic-ai-guide/evaluate/run-trace.png
+   :alt: A run showing tool calls and the final output
+   :width: 90%
 
-Review the tools selected by the agent, their inputs and returned results, and the context retrieved for the response.
+The Executions tab
+------------------
 
-Step 4: Create Test Cases
-~~~~~~~~~~~~~~~~~~~~~~~~~
+The **Executions** tab on the Agents page lists past runs with their status,
+timings and who ran them. Open one to see its inputs, the path it took, the tool
+calls it made, and any approvals.
 
-Create repeatable scenarios and evaluation datasets for important use cases so agent behavior can be validated consistently.
+.. figure:: ../_assets/agentic-ai-guide/evaluate/executions-tab.png
+   :alt: Executions tab listing past agent runs
+   :width: 90%
 
-Step 5: Evaluate Results
-~~~~~~~~~~~~~~~~~~~~~~~~
+This is also where you diagnose an orchestration that took the wrong branch:
+the recorded path shows which side of each Condition the run went down.
 
-Use supported evaluation criteria and metrics to assess the quality, relevance, grounding, and appropriateness of agent outputs.
+The Analytics tab
+-----------------
 
-Step 6: Compare Runs
-~~~~~~~~~~~~~~~~~~~~
+**Analytics** aggregates across runs — volumes, success and failure rates,
+trends over time. Use it to notice that something changed, then use Executions
+to find out what.
 
-Compare results across prompts, models, tools, retrieval settings, or workflow configurations to identify improvements.
+Building a real test set
+------------------------
 
-Step 7: Test for Regression
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+One query is a smoke test, not an evaluation. Before you ship anything people
+depend on, assemble ten to twenty cases:
 
-Re-test important scenarios after changes to ensure existing agent behavior continues to meet expectations.
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
 
-Step 8: Validate Guardrails & Human Review
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - Include
+     - Because
+   * - Typical cases
+     - Most traffic looks like this.
+   * - Edge cases
+     - The empty result, the huge document, the ambiguous request.
+   * - Cases that should fail
+     - An ID that does not exist. The agent must say so, not invent.
+   * - Cases that should escalate
+     - If you have an approval gate, confirm it actually fires.
+   * - Previously-broken cases
+     - Every bug you fix becomes a permanent test.
 
-Validate configured guardrails and include human review where business judgment is required.
+Run all of them after any change to instructions, tools, or the model. Agents
+regress in ways that are invisible if you only check the case you were working
+on.
 
-Next Step
----------
+.. tip::
 
-Once the agent meets the expected functional and business criteria, continue to Deploy to prepare it for production.
+   Set **Temperature** to a low value while evaluating. At ``0.7`` you cannot
+   tell whether a difference between two runs came from your edit or from
+   sampling.
+
+What "good enough" means
+------------------------
+
+Decide the bar before you measure, and make it about consequences:
+
+* **For a summariser**, a wrong nuance is survivable. Aim for useful.
+* **For anything feeding a Condition**, the extracted value must be right every
+  time, because a wrong value routes the whole case wrongly.
+* **For anything that writes to a system**, correctness is not enough — put a
+  :doc:`human approval gate </agentic-ai-guide/human-in-the-loop>` in front of
+  it and measure how often reviewers disagree with the agent. That
+  disagreement rate is the most honest quality metric you have.
+
+Next: ship it
+-------------
+
+:doc:`/agentic-ai-guide/deploy-agents`.

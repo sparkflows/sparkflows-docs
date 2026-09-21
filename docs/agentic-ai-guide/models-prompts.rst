@@ -1,68 +1,163 @@
 Models & Prompts
 ================
 
-Models and prompts define much of an agent's reasoning and generation behavior. Sparkflows allows models to be configured as components within broader workflows, alongside enterprise data processing, retrieval, machine learning, tools, and deterministic business logic.
+Two things decide how an agent behaves: the **model** it runs on, and the
+**instructions** you give it. This page covers both.
 
-Different workflow steps may require different model capabilities. Teams can select supported LLM providers and models, configure available parameters, define system instructions, and pass dynamic workflow context into prompts. Where supported, routing or fallback patterns can be used to improve resilience or match tasks to appropriate models.
+Choosing a model connection
+---------------------------
 
-Sparkflows also enables traditional machine learning models to participate in agentic workflows. A predictive model can score a record, estimate risk or propensity, and pass the result to an agent or workflow rule for downstream reasoning and action.
+Open the **Model** group in Agent Studio, or the **LLM Config** tab of an Agent
+Node, and pick a **Connection**. Connections are created once by an
+administrator — see :doc:`/user-guide/connection/gen-ai-connection/index`.
 
-Steps to Configure Models & Prompts
-------------------------------------
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
+   :alt: Model group with connection and generation settings
+   :width: 680px
 
-Configure models and prompts by working through the following steps.
+Generation settings
+-------------------
 
-Step 1: Connect a Model Provider
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. list-table::
+   :header-rows: 1
+   :widths: 22 20 58
 
-Configure the required model connection and validate it independently.
+   * - Setting
+     - Default
+     - What it does
+   * - **Temperature**
+     - ``0.7``
+     - Randomness. Low values make the agent repeat itself across runs — which
+       is what you want for anything you will check.
+   * - **Top P**
+     - ``1.0``
+     - Nucleus sampling. Adjust temperature instead; changing both at once makes
+       results hard to reason about.
+   * - **Max Tokens**
+     - ``500``
+     - Ceiling on response length. This default is short — raise it for drafting
+       or long summaries, or answers get cut off mid-sentence.
+   * - **Timeout (seconds)**
+     - ``180``
+     - How long one call may take before it fails.
 
-Step 2: Select the Model
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Picking a temperature
+~~~~~~~~~~~~~~~~~~~~~
 
-Select the supported LLM provider and model appropriate for the workflow task.
+.. list-table::
+   :header-rows: 1
+   :widths: 20 30 50
 
-Step 3: Configure Model Parameters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - Value
+     - Use for
+     - Why
+   * - ``0 – 0.2``
+     - Extraction, classification, routing, anything a Condition branches on
+     - The same input must give the same answer every time
+   * - ``0.3 – 0.7``
+     - Summarising, explaining, answering questions
+     - Some variation in wording is fine
+   * - ``0.8 – 1.0``
+     - Drafting, brainstorming, generating options
+     - Variety is the point
 
-Configure the available generation and runtime parameters for the selected model.
+.. important::
 
-Step 4: Define System Instructions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   If a **Condition** node branches on something an agent produced, run that
+   agent at a low temperature. Otherwise identical inputs can take different
+   paths on different days, and that bug is miserable to reproduce.
 
-Define the agent's role, behavior, constraints, and objectives through system instructions.
+Writing instructions
+--------------------
 
-Step 5: Create Prompts
-~~~~~~~~~~~~~~~~~~~~~~
+Instructions are the system prompt. They drive every LLM call the agent makes.
 
-Create reusable prompts for the workflow and define how the model should process the required task.
+The four-part shape
+~~~~~~~~~~~~~~~~~~~
 
-Step 6: Add Dynamic Context
+Almost every instruction that works has these four parts, in this order:
+
+.. code-block:: text
+
+   1. WHO IT IS
+      You review supplier contracts for a UK insurance broker.
+
+   2. WHAT TO DO
+      Given a contract, identify every clause that differs from our
+      standard terms, and rate each difference as low, medium or high risk.
+
+   3. WHAT THE ANSWER LOOKS LIKE
+      Reply with one row per difference:
+      Clause | Our standard | This contract | Risk | Why
+
+   4. WHAT TO DO WHEN THINGS GO WRONG
+      If the document is not a contract, say so and stop. If a clause is
+      ambiguous, rate it medium and say why. Never guess at missing text.
+
+Part 4 is the one people skip and the one that prevents most bad output. An agent
+invents an answer because nothing ever told it that "I don't know" is a
+permitted response.
+
+Rules that earn their place
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pass dynamic workflow and user context into prompts using supported prompt variables.
+.. list-table::
+   :header-rows: 1
+   :widths: 45 55
 
-Step 7: Test & Compare Prompts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - Write this
+     - Instead of this
+   * - ``Always fetch the record before answering.``
+     - ``Use tools when appropriate.``
+   * - ``Reply with exactly three lines, labelled Issue, Impact, Priority.``
+     - ``Be concise.``
+   * - ``If the ID does not exist, say so and stop.``
+     - ``Be accurate.``
+   * - ``Never calculate a total yourself; call the workflow.``
+     - ``Use the workflow for calculations.``
 
-Test prompts with representative inputs and compare results to refine the agent's behavior.
+The pattern: **name the behaviour, not the virtue.** "Be accurate" is not an
+instruction a model can act on. "If the ID does not exist, say so and stop" is.
 
-Step 8: Configure Model Routing & Fallback
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Improve button
+~~~~~~~~~~~~~~~~~~
 
-Use routing or fallback patterns where supported to match tasks to appropriate models or improve resilience.
+**Improve**, above the Instructions box, expands a rough draft into a fuller
+prompt. It is a good way to get from three words to a first draft — then edit it
+down. Generated prompts tend towards generic politeness, and the specific rules
+are the ones doing the work.
 
-Step 9: Add ML Models to Agentic Workflows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What does not belong in Instructions
+------------------------------------
 
-Use predictive models and ML outputs within agentic workflows for downstream reasoning and action.
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
 
-Step 10: Manage ML Models
-~~~~~~~~~~~~~~~~~~~~~~~~~
+   * - Not this
+     - Put it here
+   * - Rules several agents share
+     - :doc:`/agentic-ai-guide/skills`
+   * - Standing facts about the business
+     - :doc:`/agentic-ai-guide/context-agents-md`
+   * - Long reference material
+     - :doc:`/agentic-ai-guide/rag-knowledge`
+   * - Credentials or API keys
+     - :doc:`/agentic-ai-guide/connections` — **never** in prompt text
+   * - A description of five different jobs
+     - Separate agents, coordinated by a
+       :doc:`Supervisor </agentic-ai-guide/multi-agent-orchestration>`
 
-Manage ML models using supported model registry and MLflow capabilities.
-
-Next Step
+Iterating
 ---------
 
-Once models and prompts are configured and validated, continue to build the agentic workflow by connecting the required data, knowledge, tools, and business logic.
+Change **one thing at a time** and re-run the same query. Keep a realistic query
+in the Input box as your regression test. When you change instructions and the
+agent gets better at one thing and worse at another, you want to know which edit
+did it — and that is only possible if you made one.
+
+Next: shared instructions
+-------------------------
+
+:doc:`/agentic-ai-guide/evaluate-agents` covers judging whether the output is
+actually good enough.

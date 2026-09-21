@@ -48,7 +48,7 @@ Step 7: Create Custom Tools
 Create agent tools for proprietary systems and capabilities.
 
 Step 8: Integrate External APIs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Connect third-party and internal services through supported interfaces.
 
@@ -63,7 +63,7 @@ Step 10: Define Request & Response Handling
 Use supported API payload structures and handle request and response data appropriately.
 
 Step 11: Handle Errors
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Implement appropriate handling for API and runtime errors.
 

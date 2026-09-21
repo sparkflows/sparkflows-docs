@@ -38,17 +38,17 @@ Step 5: Customize Models & Prompts
 Adapt the models and prompts to match the intended use case.
 
 Step 6: Configure Tools & Logic
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Customize the tools, business logic, rules, and workflow behavior as required.
 
 Step 7: Configure Approvals & Outputs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Adapt approval steps and outputs to match the target business process.
 
 Step 8: Validate the Solution
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Test and validate the customized workflow and its controls before production deployment.
 

@@ -143,8 +143,8 @@ value is the stand-in you tested with. Keep a realistic example here; it is the
 fastest regression test you have.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-studio/input.png
-   :alt: Input group expanded
-   :width: 680px
+   :alt: The Input group with the test query filled in
+   :width: 654px
 
 Output Format
 ~~~~~~~~~~~~~
@@ -171,8 +171,8 @@ Controls the shape of the answer.
    Parsing prose is where agent pipelines break.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-studio/output-format.png
-   :alt: Output Format group expanded
-   :width: 680px
+   :alt: The Output Format group with Text selected and a Save Path field
+   :width: 654px
 
 Knowledge
 ~~~~~~~~~
@@ -180,6 +180,14 @@ Knowledge
 Grounds the agent in your documents instead of the model's memory. Point it at a
 document source or a vector index, and retrieved passages are placed in front of
 the model before it answers.
+
+Set **Knowledge Base (RAG)** to ``true`` and the retrieval fields appear -
+the vector database, whether to search an existing index or point at documents,
+the namespace and how many passages to pull back.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/knowledge.png
+   :alt: The Knowledge group with RAG turned on, showing the vector database and source options
+   :width: 654px
 
 Full configuration - sources, embedding model, chunk size, top-K and reranking -
 is on :doc:`/agentic-ai-guide/rag-knowledge`.
@@ -200,8 +208,8 @@ Both are covered on :doc:`/agentic-ai-guide/tools-actions` and
 :doc:`/agentic-ai-guide/workflows-as-tools`.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-studio/tools.png
-   :alt: Tools group expanded showing Add tools and Workflows
-   :width: 680px
+   :alt: The Tools group with a Read CSV tool attached and the Workflows row below it
+   :width: 654px
 
 Skills
 ~~~~~~
@@ -214,13 +222,26 @@ Use skills for rules that several agents share - a house style, a calculation
 convention, a document-reading procedure.
 
 The registry is **scoped to the project**: you see the skills uploaded here,
-and no others. See :doc:`/agentic-ai-guide/skills`.
+and no others.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/skills.png
+   :alt: The Skills group with Upload Skills and Fetch Skills buttons and an empty state
+   :width: 654px
+
+See :doc:`/agentic-ai-guide/skills`.
 
 MCP Servers
 ~~~~~~~~~~~
 
 Connect a Model Context Protocol server and choose which of its tools become this
-agent's actions. See :doc:`/agentic-ai-guide/mcp-servers`.
+agent's actions. **Add MCP Server** opens the picker; the tools you tick become
+this agent's actions.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/mcp-servers.png
+   :alt: The MCP Servers group with its empty state and an Add MCP Server button
+   :width: 654px
+
+See :doc:`/agentic-ai-guide/mcp-servers`.
 
 Context
 ~~~~~~~
@@ -240,6 +261,13 @@ Context
    * - ``inline``
      - Paste the content directly onto this agent.
 
+With **path** or **inline**, the file's content loads into the panel so you can
+see exactly what the agent will read.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/context.png
+   :alt: The Context group with AGENTS.md Source set to path and a Choose .md File button
+   :width: 654px
+
 See :doc:`/agentic-ai-guide/context-agents-md` for what belongs in the file.
 
 Guardrails
@@ -248,8 +276,14 @@ Guardrails
 Checks the query **before the agent sees it**. A blocked request never reaches
 the model - the refusal goes back instead.
 
-Click **Add guardrails** to configure them. See
-:doc:`/agentic-ai-guide/security-guardrails`.
+Click **Add guardrails** to configure the checks - PII, prompt injection,
+banned words and length.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/guardrails.png
+   :alt: The Guardrails group with its description and an Add guardrails button
+   :width: 654px
+
+See :doc:`/agentic-ai-guide/security-guardrails`.
 
 Model
 ~~~~~

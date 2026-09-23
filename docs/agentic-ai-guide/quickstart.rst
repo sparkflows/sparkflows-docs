@@ -93,7 +93,7 @@ Across the top are three tabs, and this walkthrough uses all of them:
      - What you do there
    * - **Build**
      - Configure the agent. **Left:** who it is. **Right:** what it may do, in
-       nine collapsible groups.
+       collapsible groups.
    * - **Chat**
      - Talk to it while you build. Nothing is recorded.
    * - **Runs**

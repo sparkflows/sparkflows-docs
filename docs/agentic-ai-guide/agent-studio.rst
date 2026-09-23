@@ -15,8 +15,8 @@ The screen
    :alt: A new agent in Agent Studio with the Build, Chat and Runs tabs across the top
    :width: 100%
 
-   A new agent. Left: who the agent is. Right: what it may do, in nine
-   collapsible groups.
+   A new agent. Left: who the agent is. Right: what it may do, in collapsible
+   configuration groups.
 
 Across the top are three tabs. You move between them as you work - build
 something, try it, then run it for real.
@@ -91,8 +91,8 @@ group, so it does not belong here.
    one Instructions box. Use the **Supervisor** node on the orchestration canvas
    instead - see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
 
-The right panel: nine configuration groups
-------------------------------------------
+The right panel: configuration groups
+-------------------------------------
 
 Groups are collapsed until you need them. The summary text on each closed header
 tells you what it controls.
@@ -197,9 +197,10 @@ Tools
 
 Two things live here.
 
-**Add tools** opens the picker: 53 connectors, 37 built-in tools, and the
-connections already configured in your workspace. Each connector is one node that
-expands into as many named operations as you tick.
+**Add tools** opens the picker: external connectors, the built-in tools that
+ship with the platform, and the connections already configured in your
+workspace. Each connector is one node that expands into as many named operations
+as you tick.
 
 **Workflows** lets the agent run a saved workflow as a tool - the way to give an
 agent logic that is easier to express as a pipeline than as a prompt.

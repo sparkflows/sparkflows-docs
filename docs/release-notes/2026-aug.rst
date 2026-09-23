@@ -42,4 +42,4 @@ Pipeline
 Fixes
 --------------
 
-* **Pipeline API 302 HTTP Error:** Fixed an issue where the Sparkflows Pipeline API call could return a 302 HTTP status code. The fix has been implemented and successfully tested using an app-generated token. Additional testing with the Guardian integration is pending.
+* **Pipeline API 302 HTTP Error:** Fixed an issue where the Sparkflows Pipeline API call could return a 302 HTTP status code. The fix has been implemented and successfully tested using an app-generated token.
